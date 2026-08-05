@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#062B5C" />
+    <meta name="description" content="מפת מסלול אינטראקטיבית ל־24 שעות בוורוצלב" />
+    <meta property="og:title" content="24 שעות בוורוצלב" />
+    <meta property="og:description" content="מסלול קצר ומדויק בין העיר העתיקה, האוניברסיטה, הנהר ואוסטרוב טומסקי" />
+    <meta property="og:image" content="assets/og.png" />
+    <title>24 שעות בוורוצלב</title>
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://tile.openstreetmap.org" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhMZElD8pZfQ8aSEKZeX0orx0Gc=" crossorigin="" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#route-list" data-i18n="skipToRoute">דלגו למסלול</a>
+    <header class="hero">
+      <nav class="topbar" aria-label="Language and actions">
+        <div class="brand-lockup">
+          <img src="assets/logo.png" alt="Wrocław & Lower Silesia" class="logo" />
+          <span class="brand-name">Wrocław &amp; Lower Silesia</span>
+        </div>
+        <div class="top-actions">
+          <div class="language-switcher" role="group" aria-label="Language">
+            <button type="button" class="language-button active" data-lang="he">עברית</button>
+            <button type="button" class="language-button" data-lang="en">English</button>
+            <button type="button" class="language-button" data-lang="pl">Polski</button>
+          </div>
+          <button type="button" class="icon-button" id="share-button" data-i18n-aria="shareMap" aria-label="שתפו את המפה">↗</button>
+          <button type="button" class="icon-button" id="print-button" data-i18n-aria="printMap" aria-label="הדפס או שמור כ־PDF">⎙</button>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <div class="eyebrow" data-i18n="eyebrow">מסלול עצמאי · הליכה נוחה · יום אחד</div>
+        <h1 data-i18n="appTitle">24 שעות בוורוצלב</h1>
+        <p class="subtitle" data-i18n="subtitle">מסלול קצר ומדויק בין העיר העתיקה, האוניברסיטה, הנהר ואוסטרוב טומסקי</p>
+        <div class="intro-card">
+          <h2 data-i18n="introTitle">יש לכם רק 24 שעות בוורוצלב?</h2>
+          <p data-i18n="introBody">המסלול הזה נבנה כדי לעזור לכם לראות את המקומות החשובים והיפים ביותר בעיר, בלי לרוץ ובלי לנסות להספיק הכול.</p>
+          <strong data-i18n="introGoal">המטרה היא להרגיש את ורוצלב, לא רק לסמן אטרקציות.</strong>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="route-summary" aria-label="Route summary">
+        <div class="summary-stat"><strong>14</strong><span data-i18n="stops">תחנות</span></div>
+        <div class="summary-stat"><strong>4.6 km</strong><span data-i18n="walkingDistance">מרחק הליכה משוער</span></div>
+        <div class="summary-stat"><strong>8–9 h</strong><span data-i18n="dayLength">משך מומלץ</span></div>
+        <div class="summary-stat"><strong>3</strong><span data-i18n="optionalStops">תחנות רשות לערב</span></div>
+      </section>
+
+      <section class="map-section" aria-labelledby="map-title">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker" data-i18n="routeMapKicker">התמצאות מהירה</span>
+            <h2 id="map-title" data-i18n="routeMapTitle">המפה והמסלול</h2>
+          </div>
+          <button type="button" class="secondary-button" id="fit-route" data-i18n="fitRoute">הציגו את כל המסלול</button>
+        </div>
+        <div class="filter-bar" id="filters" aria-label="Category filters"></div>
+        <div id="map" role="application" data-i18n-aria="mapAria" aria-label="מפה אינטראקטיבית של המסלול"></div>
+        <p class="map-note" data-i18n="routeDisclaimer">הקו מציג את סדר התחנות ואינו תחליף לניווט בזמן אמת.</p>
+      </section>
+
+      <section class="content-grid">
+        <div class="route-panel">
+          <div class="section-heading compact">
+            <div>
+              <span class="section-kicker" data-i18n="routeKicker">לפי הסדר</span>
+              <h2 data-i18n="routeTitle">תחנות המסלול</h2>
+            </div>
+          </div>
+          <div id="route-list" class="route-list"></div>
+        </div>
+
+        <aside class="side-panel">
+          <section class="schedule-card">
+            <span class="section-kicker" data-i18n="scheduleKicker">קצב נעים</span>
+            <h2 data-i18n="scheduleTitle">לוח זמנים מוצע</h2>
+            <ol id="schedule-list" class="schedule-list"></ol>
+            <p class="soft-note" data-i18n="scheduleNote">הזמנים הם הצעה בלבד. ניתן לדלג על תחנות בהתאם לשעת ההגעה, מזג האוויר ורמת האנרגיה.</p>
+          </section>
+
+          <section class="tips-card">
+            <span class="section-kicker" data-i18n="tipsKicker">כדאי לדעת</span>
+            <h2 data-i18n="tipsTitle">טיפים לביקור קצר בוורוצלב</h2>
+            <ul id="tips-list" class="tips-list"></ul>
+          </section>
+
+          <section class="evening-card">
+            <span class="section-kicker" data-i18n="eveningKicker">אם נשאר זמן</span>
+            <h2 data-i18n="eveningTitle">רעיונות לערב</h2>
+            <div id="evening-list" class="evening-list"></div>
+          </section>
+        </aside>
+      </section>
+
+      <section class="share-banner">
+        <div>
+          <span class="section-kicker light" data-i18n="shareKicker">שומרים לדרך</span>
+          <h2 data-i18n="shareTitle">שלחו את המסלול למי שמטייל איתכם</h2>
+          <p data-i18n="shareBody">הקישור ייפתח בשפה שבחרתם ויישמר לפעם הבאה.</p>
+        </div>
+        <div class="share-actions">
+          <button type="button" class="primary-button light-button" id="share-button-bottom" data-i18n="shareMap">שתפו את המפה</button>
+          <button type="button" class="secondary-button light-outline" id="print-button-bottom" data-i18n="printMap">הדפס או שמור כ־PDF</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="assets/logo.png" alt="Wrocław & Lower Silesia" class="footer-logo" />
+      <p data-i18n="brandCredit">המפה הוכנה על ידי פרויקט „וורוצלב ושלזיה התחתונה”.</p>
+      <p><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" data-i18n="osmCredit">נתוני מפה © תורמי OpenStreetMap</a></p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="data/translations.js"></script>
+    <script src="data/locations.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
