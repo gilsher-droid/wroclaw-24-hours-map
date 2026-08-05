@@ -14,6 +14,7 @@ await mkdir(resolve(client, "assets"), { recursive: true });
 for (const file of [
   "index.html",
   "styles.css",
+  "site-i18n.js",
   "map.html",
   "map-styles.css",
   "app.js",

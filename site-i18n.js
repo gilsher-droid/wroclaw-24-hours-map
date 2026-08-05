@@ -1,0 +1,307 @@
+(() => {
+  const supported = ["he", "en", "pl"];
+  const params = new URLSearchParams(window.location.search);
+  const requested = params.get("lang");
+  const saved = localStorage.getItem("wroclaw24-language");
+  let language = supported.includes(requested) ? requested : supported.includes(saved) ? saved : "he";
+
+  const translations = {
+    en: {
+      "מסלולים חכמים למטיילים ישראלים": "Smart routes for travellers",
+      "ניווט ראשי": "Main navigation",
+      "מסלול חינמי": "Free route",
+      "מסלול 4 ימים": "4-day route",
+      "איך זה עובד": "How it works",
+      "כניסה עם קוד": "Enter with a code",
+      "וורוצלב בידיים שלכם": "Wrocław in your hands",
+      "פחות זמן לתכנן.": "Less time planning.",
+      "יותר זמן ": "More time to ",
+      "להתאהב בעיר.": "fall in love with the city.",
+      "מסלולים אינטראקטיביים בעברית שמסדרים את היום, מחברים בין המקומות הנכונים ומשאירים מספיק מקום לגילויים שבדרך.": "Interactive routes that organise your day, connect the right places and leave room for discoveries along the way.",
+      "פתחו את מסלול 24 השעות": "Open the 24-hour route",
+      "הכירו את המסלול המלא": "Explore the full route",
+      "יתרונות": "Benefits",
+      "בעברית": "In three languages",
+      "מותאם לנייד": "Mobile friendly",
+      "קישורי ניווט ישירים": "Direct navigation links",
+      "תצוגה מקדימה של המסלול": "Route preview",
+      "היום שלכם בוורוצלב": "Your day in Wrocław",
+      "מסלול חי": "Live route",
+      "התחנה הבאה": "Next stop",
+      "כיכר השוק של ורוצלב": "Wrocław Market Square",
+      "8 דקות הליכה": "8-minute walk",
+      "מתחילים בנחת": "Start at an easy pace",
+      "תחנות": "stops",
+      "הליכה": "walking",
+      "מתחילים בחינם": "Start for free",
+      "24 שעות בוורוצלב": "24 hours in Wrocław",
+      "מסלול טעימה מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "A complete one-day sample route. Open it on your phone, choose a stop and set off — no registration or credit card.",
+      "יום אחד. העיר העתיקה, הנהר ואוסטרוב טומסקי.": "One day: the Old Town, the river and Ostrów Tumski.",
+      "לפתיחת המפה ←": "Open the map →",
+      "המוצר הראשון של Wroc-love": "The first Wroc-love product",
+      "וורוצלב – המסלול המלא ל־4 ימים": "Wrocław — the complete 4-day route",
+      "ארבעה ימים מסודרים בקצב הגיוני, עם כל מה שצריך כדי ליהנות מהעיר בלי לקפוץ הלוך ושוב ובלי לבלות את החופשה בחיפושים.": "Four well-paced days with everything you need to enjoy the city without unnecessary backtracking or spending your holiday searching.",
+      "יום 1": "Day 1", "יום 2": "Day 2", "יום 3": "Day 3", "יום 4": "Day 4",
+      "העיר העתיקה והגמדים": "The Old Town and dwarfs",
+      "מסלול ראשון נעים בין כיכר השוק, הרחובות ההיסטוריים והגמדים שאסור לפספס.": "A relaxed first route through the Market Square, historic streets and unmissable dwarfs.",
+      "האוניברסיטה, הנהר ואוסטרוב טומסקי": "The university, river and Ostrów Tumski",
+      "יום שמחבר תצפית, טיילת על גדת האודר והאזור העתיק והרגוע ביותר בעיר.": "A day connecting a viewpoint, the Oder promenade and the city's oldest, quietest quarter.",
+      "Hydropolis, Hala Stulecia והמזרקה": "Hydropolis, Centennial Hall and the fountain",
+      "מסלול מזרח העיר עם אדריכלות, פארקים, מים ומופע ערב בעונה המתאימה.": "An eastern Wrocław route with architecture, parks, water and a seasonal evening show.",
+      "קניות, שיט, בתי קפה והשלמות": "Shopping, a river cruise, cafés and favourites",
+      "יום גמיש שמאפשר לבחור את הקצב, להשלים מקומות ולסיים את הטיול בלי לחץ.": "A flexible day to choose your pace, revisit places and finish the trip without pressure.",
+      "מחיר ותכולת החבילה": "Price and package contents",
+      "מחיר השקה": "Launch price",
+      "תשלום חד־פעמי · 30 ימי גישה": "One-time payment · 30 days of access",
+      "ארבעה מסלולים יומיים מסודרים": "Four organised daily routes",
+      "מפה אינטראקטיבית בעברית": "Interactive map in three languages",
+      "קישורי ניווט ישירים לכל תחנה": "Direct navigation links for every stop",
+      "המלצות אוכל, קפה, קינוחים וקניות": "Food, coffee, dessert and shopping recommendations",
+      "זמני הליכה והצעות לקצב נוח": "Walking times and comfortable pacing",
+      "עדכונים למסלול במשך תקופת הגישה": "Route updates during the access period",
+      "לרכישת גישה": "Purchase access",
+      "כבר רכשתם? כניסה עם קוד": "Already purchased? Enter with a code",
+      "ללא מנוי וללא חידוש אוטומטי": "No subscription and no automatic renewal",
+      "פשוט מהתשלום ועד הטיול": "Simple from payment to travel",
+      "איך זה יעבוד?": "How does it work?",
+      "רוכשים גישה": "Purchase access",
+      "תשלום חד־פעמי ומאובטח למסלול שבחרתם.": "A secure one-time payment for your chosen route.",
+      "מקבלים קוד למייל": "Receive a code by email",
+      "בלי לזכור סיסמה ובלי לפתוח חשבון מסובך.": "No password to remember and no complicated account.",
+      "מטיילים במשך 30 יום": "Travel for 30 days",
+      "פותחים את המסלול מכל טלפון וחוזרים אליו מתי שרוצים.": "Open the route on any phone and return whenever you like.",
+      "העיר כבר מחכה. אנחנו רק מסדרים לכם את הדרך.": "The city is waiting. We simply organise the way.",
+      "התחילו במסלול החינמי": "Start the free route",
+      "מבית קהילת Wrocław & Lower Silesia": "By the Wrocław & Lower Silesia community",
+      "הקהילה שלנו בפייסבוק": "Our Facebook community",
+      "המסלול שלכם לוורוצלב": "Your Wrocław route",
+      "כניסה למסלול המלא": "Full-route access",
+      "הזינו את קוד הגישה שקיבלתם": "Enter the access code you received",
+      "הקוד מופעל בפעם הראשונה שבה משתמשים בו ומעניק גישה למשך 30 יום.": "The code activates on first use and provides access for 30 days.",
+      "קוד גישה": "Access code",
+      "כניסה למסלול": "Open the route",
+      "עדיין אין לכם קוד?": "Don't have a code yet?",
+      "אפשר לרכוש גישה מאובטחת ל־30 יום ב־49 ₪.": "Purchase secure 30-day access for ₪49.",
+      "רכישת גישה": "Purchase access",
+      "חזרה לפרטי המסלול": "Back to route details",
+      "תשלום חד־פעמי מאובטח": "Secure one-time payment",
+      "המסלול המלא ל־4 ימים בוורוצלב": "The complete 4-day Wrocław route",
+      "49 ₪ בלבד. לאחר השלמת התשלום תיפתח גישה מיידית למשך 30 יום, ללא מנוי וללא חידוש אוטומטי.": "Only ₪49. After payment, immediate access opens for 30 days, with no subscription or automatic renewal.",
+      "סה״כ לתשלום": "Total",
+      "תשלום באמצעות PayPal": "Pay with PayPal",
+      "טוענים תשלום מאובטח…": "Loading secure payment…",
+      "כבר יש לכם קוד גישה?": "Already have an access code?",
+      "כניסה באמצעות קוד": "Enter with a code",
+      "המסלול המלא שלכם": "Your complete route",
+      "גישה פעילה": "Access active",
+      "יציאה": "Log out",
+      "וורוצלב בקצב נכון": "Wrocław at the right pace",
+      "המסלול המלא ל־4 ימים": "The complete 4-day route",
+      "כל יום בנוי כאזור אחד נוח, כדי שתבלו בעיר ולא בנסיעות הלוך ושוב.": "Each day focuses on one convenient area, so you spend time in the city rather than travelling back and forth.",
+      "טיפ קטן": "A small tip",
+      "אפשר להחליף בין הימים לפי מזג האוויר. יום 3 מתאים במיוחד ליום נעים ויבש.": "You can swap days according to the weather. Day 3 is best on a pleasant, dry day.",
+      "בחירת יום": "Choose a day",
+      "היכרות רגועה עם הלב של ורוצלב, בלי למהר ועם זמן לעצירות קטנות בדרך.": "A relaxed introduction to the heart of Wrocław, with time for small stops along the way.",
+      "כיכר השוק ובית העירייה": "Market Square and Town Hall",
+      "מתחילים כשהכיכר עוד רגועה ומקבלים תחושה ראשונה של העיר.": "Start while the square is still calm and get your first feel for the city.",
+      "ניווט ב־Google Maps": "Navigate with Google Maps",
+      "מסלול גמדים קצר": "Short dwarf trail",
+      "מחפשים כמה מהגמדים המוכרים סביב הכיכר, בלי להפוך את היום למרדף.": "Find a few well-known dwarfs around the square without turning the day into a race.",
+      "פתיחת נקודת התחלה": "Open starting point",
+      "רחוב Świdnicka ובית האופרה": "Świdnicka Street and the Opera House",
+      "הליכה נעימה דרומה דרך אחד הרחובות המרכזיים של העיר.": "A pleasant walk south along one of the city's main streets.",
+      "ניווט": "Navigate",
+      "רובע ארבע הדתות": "Four Denominations District",
+      "סמטאות, חצרות ובתי קפה באווירה שונה מהכיכר הראשית.": "Alleys, courtyards and cafés with a different atmosphere from the main square.",
+      "יום של תצפית, מים והחלק העתיק והשקט ביותר של העיר.": "A day of viewpoints, water and the city's oldest, quietest quarter.",
+      "אוניברסיטת ורוצלב": "University of Wrocław",
+      "אם פתוח, כדאי לעלות למגדל המתמטי ולהיכנס לאולם לאופולדינה.": "If open, climb the Mathematical Tower and visit the Aula Leopoldina.",
+      "Ossolineum והחצר": "Ossolineum and its courtyard",
+      "פינה יפה ושקטה שרבים עוברים לידה בלי להיכנס.": "A beautiful, quiet corner many people pass without entering.",
+      "איי האודר וגשרי העיר": "Oder islands and city bridges",
+      "חוצים ברגל בין האיים ועוצרים לארוחה או קפה על הדרך.": "Walk between the islands and stop for a meal or coffee along the way.",
+      "אוסטרוב טומסקי": "Ostrów Tumski",
+      "מגיעים לקראת ערב, כשהאור רך והאזור מקבל אווירה מיוחדת.": "Arrive towards evening, when the light softens and the area gains a special atmosphere.",
+      "יום במזרח העיר שמשלב מוזיאון, אדריכלות, גנים ומים.": "A day in eastern Wrocław combining a museum, architecture, gardens and water.",
+      "מוזיאון אינטראקטיבי ומושקע. מומלץ להזמין שעה מראש בתקופות עמוסות.": "A polished interactive museum. Booking a time slot is recommended during busy periods.",
+      "מבנה חשוב ומרשים, גם למי שאינו חובב אדריכלות.": "An important and impressive building, even for non-architecture fans.",
+      "הגן היפני": "Japanese Garden",
+      "הפסקה ירוקה ונעימה סמוך לאולם המאה.": "A pleasant green break beside Centennial Hall.",
+      "Pergola והמזרקה המולטימדיאלית": "Pergola and Multimedia Fountain",
+      "מסיימים באזור הפתוח; כדאי לבדוק את שעות המופעים העונתיות ביום הביקור.": "Finish in the open area; check the seasonal show times on the day of your visit.",
+      "יום גמיש שמאפשר להשלים מה שאהבתם ולשמור זמן לנשימה.": "A flexible day to revisit favourites and leave time to breathe.",
+      "מרכז קניות קטן יותר במבנה אייקוני, נוח גם לביקור קצר.": "A smaller shopping centre in an iconic building, suitable even for a short visit.",
+      "למי שרוצה מבחר גדול יותר של חנויות ואוכל, סמוך לתחנה המרכזית.": "For a larger choice of shops and food, next to the main station.",
+      "שיט קצר באודר": "Short Oder cruise",
+      "דרך רגועה לראות את קו העיר מזווית אחרת; הפעילות תלויה בעונה ובמזג האוויר.": "A relaxed way to see the skyline from another angle; availability depends on season and weather.",
+      "חיפוש נקודות יציאה": "Find departure points",
+      "קפה והשלמות במרכז": "Coffee and final stops in the centre",
+      "חוזרים לאזור שאהבתם או בוחרים בית קפה בלי לנסות להספיק עוד רשימה.": "Return to an area you loved or choose a café without trying to complete another list.",
+      "בתי קפה בסביבה": "Nearby cafés",
+      "שמרו את הדף בטלפון": "Save this page on your phone",
+      "המסלול שלכם זמין לאורך תקופת הגישה.": "Your route remains available throughout the access period.",
+      "חזרה ליום הראשון": "Back to Day 1"
+    },
+    pl: {
+      "מסלולים חכמים למטיילים ישראלים": "Inteligentne trasy dla podróżnych",
+      "ניווט ראשי": "Nawigacja główna",
+      "מסלול חינמי": "Darmowa trasa", "מסלול 4 ימים": "Trasa 4-dniowa", "איך זה עובד": "Jak to działa", "כניסה עם קוד": "Wejście z kodem",
+      "וורוצלב בידיים שלכם": "Wrocław w Twoich rękach", "פחות זמן לתכנן.": "Mniej czasu na planowanie.", "יותר זמן ": "Więcej czasu, by ", "להתאהב בעיר.": "zakochać się w mieście.",
+      "מסלולים אינטראקטיביים בעברית שמסדרים את היום, מחברים בין המקומות הנכונים ומשאירים מספיק מקום לגילויים שבדרך.": "Interaktywne trasy porządkują dzień, łączą właściwe miejsca i zostawiają przestrzeń na odkrycia po drodze.",
+      "פתחו את מסלול 24 השעות": "Otwórz trasę 24-godzinną", "הכירו את המסלול המלא": "Poznaj pełną trasę", "יתרונות": "Zalety", "בעברית": "W trzech językach", "מותאם לנייד": "Dostosowane do telefonu", "קישורי ניווט ישירים": "Bezpośrednie linki nawigacyjne",
+      "תצוגה מקדימה של המסלול": "Podgląd trasy", "היום שלכם בוורוצלב": "Twój dzień we Wrocławiu", "מסלול חי": "Trasa na żywo", "התחנה הבאה": "Następny przystanek", "כיכר השוק של ורוצלב": "Rynek we Wrocławiu", "8 דקות הליכה": "8 minut pieszo", "מתחילים בנחת": "Spokojny początek", "תחנות": "przystanków", "הליכה": "pieszo",
+      "מתחילים בחינם": "Zacznij bezpłatnie", "24 שעות בוורוצלב": "24 godziny we Wrocławiu", "מסלול טעימה מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Pełna jednodniowa trasa próbna. Otwórz ją w telefonie, wybierz przystanek i ruszaj — bez rejestracji i karty.", "יום אחד. העיר העתיקה, הנהר ואוסטרוב טומסקי.": "Jeden dzień: Stare Miasto, rzeka i Ostrów Tumski.", "לפתיחת המפה ←": "Otwórz mapę →",
+      "המוצר הראשון של Wroc-love": "Pierwszy produkt Wroc-love", "וורוצלב – המסלול המלא ל־4 ימים": "Wrocław — pełna trasa na 4 dni", "ארבעה ימים מסודרים בקצב הגיוני, עם כל מה שצריך כדי ליהנות מהעיר בלי לקפוץ הלוך ושוב ובלי לבלות את החופשה בחיפושים.": "Cztery dobrze zaplanowane dni, aby cieszyć się miastem bez zbędnego krążenia i szukania informacji.",
+      "יום 1": "Dzień 1", "יום 2": "Dzień 2", "יום 3": "Dzień 3", "יום 4": "Dzień 4",
+      "העיר העתיקה והגמדים": "Stare Miasto i krasnale", "מסלול ראשון נעים בין כיכר השוק, הרחובות ההיסטוריים והגמדים שאסור לפספס.": "Spokojna pierwsza trasa przez Rynek, historyczne ulice i najciekawsze krasnale.",
+      "האוניברסיטה, הנהר ואוסטרוב טומסקי": "Uniwersytet, rzeka i Ostrów Tumski", "יום שמחבר תצפית, טיילת על גדת האודר והאזור העתיק והרגוע ביותר בעיר.": "Dzień łączący punkt widokowy, promenadę nad Odrą i najstarszą, spokojną część miasta.",
+      "Hydropolis, Hala Stulecia והמזרקה": "Hydropolis, Hala Stulecia i fontanna", "מסלול מזרח העיר עם אדריכלות, פארקים, מים ומופע ערב בעונה המתאימה.": "Trasa po wschodnim Wrocławiu z architekturą, parkami, wodą i sezonowym pokazem wieczornym.",
+      "קניות, שיט, בתי קפה והשלמות": "Zakupy, rejs, kawiarnie i ulubione miejsca", "יום גמיש שמאפשר לבחור את הקצב, להשלים מקומות ולסיים את הטיול בלי לחץ.": "Elastyczny dzień pozwalający wybrać tempo i zakończyć wyjazd bez pośpiechu.",
+      "מחיר ותכולת החבילה": "Cena i zawartość pakietu", "מחיר השקה": "Cena premierowa", "תשלום חד־פעמי · 30 ימי גישה": "Jednorazowa płatność · 30 dni dostępu", "ארבעה מסלולים יומיים מסודרים": "Cztery uporządkowane trasy dzienne", "מפה אינטראקטיבית בעברית": "Interaktywna mapa w trzech językach", "קישורי ניווט ישירים לכל תחנה": "Bezpośrednie linki do każdego przystanku", "המלצות אוכל, קפה, קינוחים וקניות": "Polecenia jedzenia, kawy, deserów i zakupów", "זמני הליכה והצעות לקצב נוח": "Czasy przejścia i wygodne tempo", "עדכונים למסלול במשך תקופת הגישה": "Aktualizacje trasy w okresie dostępu", "לרכישת גישה": "Kup dostęp", "כבר רכשתם? כניסה עם קוד": "Masz już dostęp? Wejdź z kodem", "ללא מנוי וללא חידוש אוטומטי": "Bez abonamentu i automatycznego odnowienia",
+      "פשוט מהתשלום ועד הטיול": "Prosto od płatności do podróży", "איך זה יעבוד?": "Jak to działa?", "רוכשים גישה": "Kupujesz dostęp", "תשלום חד־פעמי ומאובטח למסלול שבחרתם.": "Bezpieczna jednorazowa płatność za wybraną trasę.", "מקבלים קוד למייל": "Otrzymujesz kod e-mailem", "בלי לזכור סיסמה ובלי לפתוח חשבון מסובך.": "Bez hasła i skomplikowanego konta.", "מטיילים במשך 30 יום": "Podróżujesz przez 30 dni", "פותחים את המסלול מכל טלפון וחוזרים אליו מתי שרוצים.": "Otwierasz trasę na dowolnym telefonie i wracasz, kiedy chcesz.", "העיר כבר מחכה. אנחנו רק מסדרים לכם את הדרך.": "Miasto już czeka. My tylko porządkujemy drogę.", "התחילו במסלול החינמי": "Zacznij darmową trasę", "מבית קהילת Wrocław & Lower Silesia": "Od społeczności Wrocław & Lower Silesia", "הקהילה שלנו בפייסבוק": "Nasza społeczność na Facebooku",
+      "המסלול שלכם לוורוצלב": "Twoja trasa po Wrocławiu", "כניסה למסלול המלא": "Dostęp do pełnej trasy", "הזינו את קוד הגישה שקיבלתם": "Wpisz otrzymany kod dostępu", "הקוד מופעל בפעם הראשונה שבה משתמשים בו ומעניק גישה למשך 30 יום.": "Kod aktywuje się przy pierwszym użyciu i daje dostęp na 30 dni.", "קוד גישה": "Kod dostępu", "כניסה למסלול": "Otwórz trasę", "עדיין אין לכם קוד?": "Nie masz jeszcze kodu?", "אפשר לרכוש גישה מאובטחת ל־30 יום ב־49 ₪.": "Kup bezpieczny dostęp na 30 dni za 49 ₪.", "רכישת גישה": "Kup dostęp", "חזרה לפרטי המסלול": "Wróć do szczegółów trasy",
+      "תשלום חד־פעמי מאובטח": "Bezpieczna płatność jednorazowa", "המסלול המלא ל־4 ימים בוורוצלב": "Pełna 4-dniowa trasa po Wrocławiu", "49 ₪ בלבד. לאחר השלמת התשלום תיפתח גישה מיידית למשך 30 יום, ללא מנוי וללא חידוש אוטומטי.": "Tylko 49 ₪. Po płatności otrzymasz natychmiastowy dostęp na 30 dni, bez abonamentu i automatycznego odnowienia.", "סה״כ לתשלום": "Razem", "תשלום באמצעות PayPal": "Zapłać przez PayPal", "טוענים תשלום מאובטח…": "Ładowanie bezpiecznej płatności…", "כבר יש לכם קוד גישה?": "Masz już kod dostępu?", "כניסה באמצעות קוד": "Wejdź z kodem",
+      "המסלול המלא שלכם": "Twoja pełna trasa", "גישה פעילה": "Dostęp aktywny", "יציאה": "Wyloguj", "וורוצלב בקצב נכון": "Wrocław w dobrym tempie", "המסלול המלא ל־4 ימים": "Pełna trasa na 4 dni", "כל יום בנוי כאזור אחד נוח, כדי שתבלו בעיר ולא בנסיעות הלוך ושוב.": "Każdy dzień obejmuje jeden wygodny obszar, aby spędzać czas w mieście, a nie w przejazdach.", "טיפ קטן": "Mała wskazówka", "אפשר להחליף בין הימים לפי מזג האוויר. יום 3 מתאים במיוחד ליום נעים ויבש.": "Dni można zamieniać zależnie od pogody. Dzień 3 najlepiej sprawdzi się przy suchej, przyjemnej pogodzie.", "בחירת יום": "Wybór dnia",
+      "היכרות רגועה עם הלב של ורוצלב, בלי למהר ועם זמן לעצירות קטנות בדרך.": "Spokojne poznawanie serca Wrocławia, z czasem na krótkie postoje.", "כיכר השוק ובית העירייה": "Rynek i Ratusz", "מתחילים כשהכיכר עוד רגועה ומקבלים תחושה ראשונה של העיר.": "Zacznij, gdy Rynek jest jeszcze spokojny, i poczuj atmosferę miasta.", "ניווט ב־Google Maps": "Nawiguj w Google Maps", "מסלול גמדים קצר": "Krótka trasa krasnali", "מחפשים כמה מהגמדים המוכרים סביב הכיכר, בלי להפוך את היום למרדף.": "Znajdź kilka znanych krasnali wokół Rynku bez zamieniania dnia w wyścig.", "פתיחת נקודת התחלה": "Otwórz punkt startowy", "רחוב Świdnicka ובית האופרה": "Ulica Świdnicka i Opera", "הליכה נעימה דרומה דרך אחד הרחובות המרכזיים של העיר.": "Przyjemny spacer na południe jedną z głównych ulic miasta.", "ניווט": "Nawiguj", "רובע ארבע הדתות": "Dzielnica Czterech Wyznań", "סמטאות, חצרות ובתי קפה באווירה שונה מהכיכר הראשית.": "Zaułki, podwórka i kawiarnie o innej atmosferze niż Rynek.",
+      "יום של תצפית, מים והחלק העתיק והשקט ביותר של העיר.": "Dzień widoków, wody i najstarszej, najspokojniejszej części miasta.", "אוניברסיטת ורוצלב": "Uniwersytet Wrocławski", "אם פתוח, כדאי לעלות למגדל המתמטי ולהיכנס לאולם לאופולדינה.": "Jeśli jest otwarte, wejdź na Wieżę Matematyczną i zobacz Aulę Leopoldina.", "Ossolineum והחצר": "Ossolineum i dziedziniec", "פינה יפה ושקטה שרבים עוברים לידה בלי להיכנס.": "Piękny, spokojny zakątek, który wiele osób mija.", "איי האודר וגשרי העיר": "Wyspy odrzańskie i mosty", "חוצים ברגל בין האיים ועוצרים לארוחה או קפה על הדרך.": "Przejdź pieszo między wyspami i zatrzymaj się na posiłek lub kawę.", "אוסטרוב טומסקי": "Ostrów Tumski", "מגיעים לקראת ערב, כשהאור רך והאזור מקבל אווירה מיוחדת.": "Przyjdź pod wieczór, gdy światło mięknie, a okolica nabiera wyjątkowego klimatu.",
+      "יום במזרח העיר שמשלב מוזיאון, אדריכלות, גנים ומים.": "Dzień we wschodniej części miasta: muzeum, architektura, ogrody i woda.", "מוזיאון אינטראקטיבי ומושקע. מומלץ להזמין שעה מראש בתקופות עמוסות.": "Dopracowane muzeum interaktywne. W ruchliwych okresach warto zarezerwować godzinę.", "מבנה חשוב ומרשים, גם למי שאינו חובב אדריכלות.": "Ważny i imponujący budynek, również dla osób niezainteresowanych architekturą.", "הגן היפני": "Ogród Japoński", "הפסקה ירוקה ונעימה סמוך לאולם המאה.": "Przyjemna zielona przerwa obok Hali Stulecia.", "Pergola והמזרקה המולטימדיאלית": "Pergola i Fontanna Multimedialna", "מסיימים באזור הפתוח; כדאי לבדוק את שעות המופעים העונתיות ביום הביקור.": "Zakończ w otwartej przestrzeni; sprawdź godziny sezonowych pokazów w dniu wizyty.",
+      "יום גמיש שמאפשר להשלים מה שאהבתם ולשמור זמן לנשימה.": "Elastyczny dzień na ulubione miejsca i chwilę oddechu.", "מרכז קניות קטן יותר במבנה אייקוני, נוח גם לביקור קצר.": "Mniejsze centrum handlowe w ikonicznym budynku, dobre także na krótką wizytę.", "למי שרוצה מבחר גדול יותר של חנויות ואוכל, סמוך לתחנה המרכזית.": "Większy wybór sklepów i jedzenia obok dworca głównego.", "שיט קצר באודר": "Krótki rejs po Odrze", "דרך רגועה לראות את קו העיר מזווית אחרת; הפעילות תלויה בעונה ובמזג האוויר.": "Spokojny sposób na zobaczenie panoramy z innej perspektywy; rejs zależy od sezonu i pogody.", "חיפוש נקודות יציאה": "Znajdź miejsca odpłynięcia", "קפה והשלמות במרכז": "Kawa i ostatnie miejsca w centrum", "חוזרים לאזור שאהבתם או בוחרים בית קפה בלי לנסות להספיק עוד רשימה.": "Wróć do ulubionej okolicy lub wybierz kawiarnię bez kolejnej listy do zaliczenia.", "בתי קפה בסביבה": "Kawiarnie w pobliżu", "שמרו את הדף בטלפון": "Zapisz stronę w telefonie", "המסלול שלכם זמין לאורך תקופת הגישה.": "Trasa jest dostępna przez cały okres dostępu.", "חזרה ליום הראשון": "Wróć do dnia 1"
+    }
+  };
+
+  Object.assign(translations.en, {
+    "Wroc-love | מסלולים חכמים בוורוצלב": "Wroc-love | Smart routes in Wrocław",
+    "כניסה למסלול | Wroc-love": "Route access | Wroc-love",
+    "רכישת גישה | Wroc-love": "Purchase access | Wroc-love",
+    "המסלול המלא ל־4 ימים | Wroc-love": "The complete 4-day route | Wroc-love",
+    "הרכישה עדיין אינה פעילה. בקרוב נחבר תשלום מאובטח.": "Purchasing is not active yet. Secure payment will be available soon.",
+    "בודקים את הקוד…": "Checking the code…",
+    "לא הצלחנו לאמת את הקוד.": "We couldn't verify the code.",
+    "הקוד אושר. מעבירים אתכם למסלול…": "Code approved. Opening your route…",
+    "קוד הגישה אינו בפורמט הנכון.": "The access code format is invalid.",
+    "הקוד אינו תקף. בדקו אותו ונסו שוב.": "The code is invalid. Check it and try again.",
+    "תקופת הגישה של הקוד הסתיימה.": "This code's access period has expired.",
+    "מערכת הגישה עדיין אינה מחוברת.": "The access system is not connected yet.",
+    "אירעה שגיאה. נסו שוב.": "Something went wrong. Please try again.",
+    "בחרו אמצעי תשלום להמשך:": "Choose a payment method to continue:",
+    "מאשרים את התשלום ופותחים את המסלול…": "Confirming payment and opening your route…",
+    "התשלום בוטל ולא בוצע חיוב.": "Payment was cancelled. You were not charged.",
+    "לא הצלחנו להשלים את התשלום. נסו שוב בעוד רגע.": "We couldn't complete the payment. Please try again shortly.",
+    "לא ניתן לטעון את PayPal כרגע. נסו שוב מאוחר יותר.": "PayPal cannot be loaded right now. Please try again later.",
+    "התשלום עדיין אינו פעיל.": "Payment is not active yet.",
+    "לא הצלחנו לפתוח את התשלום ב־PayPal.": "We couldn't start the PayPal payment.",
+    "התשלום לא הושלם. לא בוצע חיוב נוסף.": "Payment was not completed. No additional charge was made.",
+    "שירות האתר אינו זמין כרגע. נסו שוב מאוחר יותר.": "The service is currently unavailable. Please try again later.",
+    "גישה פעילה עד": "Access active until"
+  });
+
+  Object.assign(translations.pl, {
+    "Wroc-love | מסלולים חכמים בוורוצלב": "Wroc-love | Inteligentne trasy po Wrocławiu",
+    "כניסה למסלול | Wroc-love": "Dostęp do trasy | Wroc-love",
+    "רכישת גישה | Wroc-love": "Kup dostęp | Wroc-love",
+    "המסלול המלא ל־4 ימים | Wroc-love": "Pełna trasa na 4 dni | Wroc-love",
+    "הרכישה עדיין אינה פעילה. בקרוב נחבר תשלום מאובטח.": "Zakup nie jest jeszcze aktywny. Bezpieczna płatność będzie dostępna wkrótce.",
+    "בודקים את הקוד…": "Sprawdzanie kodu…",
+    "לא הצלחנו לאמת את הקוד.": "Nie udało się zweryfikować kodu.",
+    "הקוד אושר. מעבירים אתכם למסלול…": "Kod zaakceptowany. Otwieramy trasę…",
+    "קוד הגישה אינו בפורמט הנכון.": "Format kodu dostępu jest nieprawidłowy.",
+    "הקוד אינו תקף. בדקו אותו ונסו שוב.": "Kod jest nieprawidłowy. Sprawdź go i spróbuj ponownie.",
+    "תקופת הגישה של הקוד הסתיימה.": "Okres dostępu dla tego kodu wygasł.",
+    "מערכת הגישה עדיין אינה מחוברת.": "System dostępu nie jest jeszcze podłączony.",
+    "אירעה שגיאה. נסו שוב.": "Wystąpił błąd. Spróbuj ponownie.",
+    "בחרו אמצעי תשלום להמשך:": "Wybierz metodę płatności:",
+    "מאשרים את התשלום ופותחים את המסלול…": "Potwierdzamy płatność i otwieramy trasę…",
+    "התשלום בוטל ולא בוצע חיוב.": "Płatność została anulowana. Nie pobrano opłaty.",
+    "לא הצלחנו להשלים את התשלום. נסו שוב בעוד רגע.": "Nie udało się zakończyć płatności. Spróbuj ponownie za chwilę.",
+    "לא ניתן לטעון את PayPal כרגע. נסו שוב מאוחר יותר.": "Nie można teraz załadować PayPal. Spróbuj ponownie później.",
+    "התשלום עדיין אינו פעיל.": "Płatność nie jest jeszcze aktywna.",
+    "לא הצלחנו לפתוח את התשלום ב־PayPal.": "Nie udało się rozpocząć płatności PayPal.",
+    "התשלום לא הושלם. לא בוצע חיוב נוסף.": "Płatność nie została zakończona. Nie pobrano dodatkowej opłaty.",
+    "שירות האתר אינו זמין כרגע. נסו שוב מאוחר יותר.": "Usługa jest obecnie niedostępna. Spróbuj ponownie później.",
+    "גישה פעילה עד": "Dostęp aktywny do"
+  });
+
+  const originalText = new WeakMap();
+  const originalAttributes = new WeakMap();
+  const originalTitle = document.title;
+
+  function t(text) {
+    if (language === "he") return text;
+    return translations[language]?.[text] || text;
+  }
+
+  function translateTextNodes() {
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      if (node.parentElement?.closest("script, style")) continue;
+      if (!originalText.has(node)) originalText.set(node, node.nodeValue);
+      const source = originalText.get(node);
+      const trimmed = source.trim();
+      if (!trimmed) continue;
+      const translated = t(trimmed);
+      node.nodeValue = source.replace(trimmed, translated);
+    }
+  }
+
+  function translateAttributes() {
+    document.querySelectorAll("[aria-label], [placeholder], [title]").forEach((element) => {
+      if (!originalAttributes.has(element)) originalAttributes.set(element, {});
+      const savedAttributes = originalAttributes.get(element);
+      ["aria-label", "placeholder", "title"].forEach((name) => {
+        if (!element.hasAttribute(name)) return;
+        if (!(name in savedAttributes)) savedAttributes[name] = element.getAttribute(name);
+        element.setAttribute(name, t(savedAttributes[name]));
+      });
+    });
+  }
+
+  function updateLanguageLinks() {
+    document.querySelectorAll('a[href*=".html"]').forEach((link) => {
+      const url = new URL(link.href, window.location.href);
+      url.searchParams.set("lang", language);
+      link.href = `${url.pathname}${url.search}${url.hash}`;
+    });
+  }
+
+  function updateDocument() {
+    document.documentElement.lang = language;
+    document.documentElement.dir = language === "he" ? "rtl" : "ltr";
+    document.title = t(originalTitle);
+    localStorage.setItem("wroclaw24-language", language);
+    translateTextNodes();
+    translateAttributes();
+    updateLanguageLinks();
+    document.querySelectorAll(".site-language-button").forEach((button) => {
+      const active = button.dataset.lang === language;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    document.dispatchEvent(new CustomEvent("wroc-language-change", { detail: { language } }));
+  }
+
+  function setLanguage(next) {
+    if (!supported.includes(next)) return;
+    language = next;
+    const url = new URL(window.location.href);
+    url.searchParams.set("lang", language);
+    history.replaceState({}, "", url);
+    updateDocument();
+  }
+
+  function addSwitcher() {
+    const switcher = document.createElement("div");
+    switcher.className = "site-language-switcher";
+    switcher.setAttribute("aria-label", "Language");
+    switcher.innerHTML = supported.map((code) => `<button type="button" class="site-language-button" data-lang="${code}">${code === "he" ? "עברית" : code === "en" ? "English" : "Polski"}</button>`).join("");
+    switcher.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-lang]");
+      if (button) setLanguage(button.dataset.lang);
+    });
+    document.body.appendChild(switcher);
+  }
+
+  window.WROC_I18N = { t, get language() { return language; }, setLanguage, updateDocument };
+  addSwitcher();
+  updateDocument();
+})();
