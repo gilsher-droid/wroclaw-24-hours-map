@@ -3,126 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#062B5C" />
-    <meta name="description" content="מפת מסלול אינטראקטיבית ל־24 שעות בוורוצלב" />
-    <meta property="og:title" content="24 שעות בוורוצלב" />
-    <meta property="og:description" content="מסלול קצר ומדויק בין העיר העתיקה, האוניברסיטה, הנהר ואוסטרוב טומסקי" />
-    <meta property="og:image" content="assets/og.png" />
-    <title>24 שעות בוורוצלב</title>
-    <link rel="preconnect" href="https://unpkg.com" />
-    <link rel="preconnect" href="https://tile.openstreetmap.org" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <meta name="theme-color" content="#062b5c" />
+    <meta name="description" content="מסלולים אינטראקטיביים בעברית לוורוצלב, עם ניווט ישיר, המלצות וקצב שמתאים לטיול אמיתי." />
+    <meta property="og:title" content="Wroc-love | פחות זמן לתכנן, יותר זמן להתאהב בעיר" />
+    <meta property="og:description" content="מסלולים אינטראקטיביים בעברית למטיילים בוורוצלב ושלזיה התחתונה." />
+    <meta property="og:image" content="https://wroc-love.com/assets/og-product.png" />
+    <title>Wroc-love | מסלולים חכמים בוורוצלב</title>
+    <link rel="icon" href="assets/logo.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#route-list" data-i18n="skipToRoute">דלגו למסלול</a>
-    <header class="hero">
-      <nav class="topbar" aria-label="Language and actions">
-        <div class="brand-lockup">
-          <img src="assets/logo.png" alt="Wrocław & Lower Silesia" class="logo" />
-          <span class="brand-name">Wrocław &amp; Lower Silesia</span>
-        </div>
-        <div class="top-actions">
-          <div class="language-switcher" role="group" aria-label="Language">
-            <button type="button" class="language-button active" data-lang="he">עברית</button>
-            <button type="button" class="language-button" data-lang="en">English</button>
-            <button type="button" class="language-button" data-lang="pl">Polski</button>
-          </div>
-          <button type="button" class="icon-button" id="share-button" data-i18n-aria="shareMap" aria-label="שתפו את המפה">↗</button>
-          <button type="button" class="icon-button" id="print-button" data-i18n-aria="printMap" aria-label="הדפס או שמור כ־PDF">⎙</button>
-        </div>
-      </nav>
-
-      <div class="hero-content">
-        <div class="eyebrow" data-i18n="eyebrow">מסלול עצמאי · הליכה נוחה · יום אחד</div>
-        <h1 data-i18n="appTitle">24 שעות בוורוצלב</h1>
-        <p class="subtitle" data-i18n="subtitle">מסלול קצר ומדויק בין העיר העתיקה, האוניברסיטה, הנהר ואוסטרוב טומסקי</p>
-        <div class="intro-card">
-          <h2 data-i18n="introTitle">יש לכם רק 24 שעות בוורוצלב?</h2>
-          <p data-i18n="introBody">המסלול הזה נבנה כדי לעזור לכם לראות את המקומות החשובים והיפים ביותר בעיר, בלי לרוץ ובלי לנסות להספיק הכול.</p>
-          <strong data-i18n="introGoal">המטרה היא להרגיש את ורוצלב, לא רק לסמן אטרקציות.</strong>
-        </div>
-      </div>
-    </header>
-
     <main>
-      <section class="route-summary" aria-label="Route summary">
-        <div class="summary-stat"><strong>14</strong><span data-i18n="stops">תחנות</span></div>
-        <div class="summary-stat"><strong>4.6 km</strong><span data-i18n="walkingDistance">מרחק הליכה משוער</span></div>
-        <div class="summary-stat"><strong>8–9 h</strong><span data-i18n="dayLength">משך מומלץ</span></div>
-        <div class="summary-stat"><strong>3</strong><span data-i18n="optionalStops">תחנות רשות לערב</span></div>
-      </section>
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Wroc-love – דף הבית">
+          <img src="assets/logo.png" alt="Wrocław & Lower Silesia" />
+          <span><strong>Wroc-love</strong><small>מסלולים חכמים למטיילים ישראלים</small></span>
+        </a>
+        <nav aria-label="ניווט ראשי">
+          <a href="#free">מסלול חינמי</a>
+          <a href="#premium">מסלול 4 ימים</a>
+          <a href="#how">איך זה עובד</a>
+          <a class="nav-access" href="access.html">כניסה עם קוד</a>
+        </nav>
+      </header>
 
-      <section class="map-section" aria-labelledby="map-title">
-        <div class="section-heading">
-          <div>
-            <span class="section-kicker" data-i18n="routeMapKicker">התמצאות מהירה</span>
-            <h2 id="map-title" data-i18n="routeMapTitle">המפה והמסלול</h2>
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <span class="eyebrow">וורוצלב בידיים שלכם</span>
+          <h1>פחות זמן לתכנן.<br />יותר זמן <em>להתאהב בעיר.</em></h1>
+          <p>מסלולים אינטראקטיביים בעברית שמסדרים את היום, מחברים בין המקומות הנכונים ומשאירים מספיק מקום לגילויים שבדרך.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="map.html?lang=he">פתחו את מסלול 24 השעות</a>
+            <a class="button button-quiet" href="#premium">הכירו את המסלול המלא</a>
           </div>
-          <button type="button" class="secondary-button" id="fit-route" data-i18n="fitRoute">הציגו את כל המסלול</button>
-        </div>
-        <div class="filter-bar" id="filters" aria-label="Category filters"></div>
-        <div id="map" role="application" data-i18n-aria="mapAria" aria-label="מפה אינטראקטיבית של המסלול"></div>
-        <p class="map-note" data-i18n="routeDisclaimer">הקו מציג את סדר התחנות ואינו תחליף לניווט בזמן אמת.</p>
-      </section>
-
-      <section class="content-grid">
-        <div class="route-panel">
-          <div class="section-heading compact">
-            <div>
-              <span class="section-kicker" data-i18n="routeKicker">לפי הסדר</span>
-              <h2 data-i18n="routeTitle">תחנות המסלול</h2>
-            </div>
-          </div>
-          <div id="route-list" class="route-list"></div>
+          <ul class="trust-list" aria-label="יתרונות">
+            <li>בעברית</li><li>מותאם לנייד</li><li>קישורי ניווט ישירים</li>
+          </ul>
         </div>
 
-        <aside class="side-panel">
-          <section class="schedule-card">
-            <span class="section-kicker" data-i18n="scheduleKicker">קצב נעים</span>
-            <h2 data-i18n="scheduleTitle">לוח זמנים מוצע</h2>
-            <ol id="schedule-list" class="schedule-list"></ol>
-            <p class="soft-note" data-i18n="scheduleNote">הזמנים הם הצעה בלבד. ניתן לדלג על תחנות בהתאם לשעת ההגעה, מזג האוויר ורמת האנרגיה.</p>
-          </section>
-
-          <section class="tips-card">
-            <span class="section-kicker" data-i18n="tipsKicker">כדאי לדעת</span>
-            <h2 data-i18n="tipsTitle">טיפים לביקור קצר בוורוצלב</h2>
-            <ul id="tips-list" class="tips-list"></ul>
-          </section>
-
-          <section class="evening-card">
-            <span class="section-kicker" data-i18n="eveningKicker">אם נשאר זמן</span>
-            <h2 data-i18n="eveningTitle">רעיונות לערב</h2>
-            <div id="evening-list" class="evening-list"></div>
-          </section>
-        </aside>
+        <div class="route-preview" aria-label="תצוגה מקדימה של המסלול">
+          <div class="preview-topline"><span>היום שלכם בוורוצלב</span><span class="live-dot">מסלול חי</span></div>
+          <div class="preview-map">
+            <span class="river river-one"></span><span class="river river-two"></span>
+            <span class="street street-one"></span><span class="street street-two"></span><span class="street street-three"></span>
+            <span class="pin pin-one">1</span><span class="pin pin-two">2</span><span class="pin pin-three">3</span><span class="pin pin-four">4</span>
+            <div class="map-card"><small>התחנה הבאה</small><strong>כיכר השוק של ורוצלב</strong><span>8 דקות הליכה</span></div>
+          </div>
+          <div class="preview-footer"><span><b>09:00</b> מתחילים בנחת</span><span><b>8</b> תחנות</span><span><b>4.6 ק״מ</b> הליכה</span></div>
+        </div>
       </section>
 
-      <section class="share-banner">
+      <section class="free-section" id="free">
         <div>
-          <span class="section-kicker light" data-i18n="shareKicker">שומרים לדרך</span>
-          <h2 data-i18n="shareTitle">שלחו את המסלול למי שמטייל איתכם</h2>
-          <p data-i18n="shareBody">הקישור ייפתח בשפה שבחרתם ויישמר לפעם הבאה.</p>
+          <span class="section-number">01</span><span class="eyebrow">מתחילים בחינם</span>
+          <h2>24 שעות בוורוצלב</h2>
+          <p>מסלול טעימה מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.</p>
         </div>
-        <div class="share-actions">
-          <button type="button" class="primary-button light-button" id="share-button-bottom" data-i18n="shareMap">שתפו את המפה</button>
-          <button type="button" class="secondary-button light-outline" id="print-button-bottom" data-i18n="printMap">הדפס או שמור כ־PDF</button>
+        <a class="route-ticket free-ticket" href="map.html?lang=he">
+          <span class="ticket-label">מסלול חינמי</span>
+          <strong>יום אחד. העיר העתיקה, הנהר ואוסטרוב טומסקי.</strong>
+          <span class="ticket-link">לפתיחת המפה ←</span>
+        </a>
+      </section>
+
+      <section class="premium-section" id="premium">
+        <div class="section-heading">
+          <div><span class="section-number">02</span><span class="eyebrow">המוצר הראשון של Wroc-love</span><h2>וורוצלב – המסלול המלא ל־4 ימים</h2></div>
+          <p>ארבעה ימים מסודרים בקצב הגיוני, עם כל מה שצריך כדי ליהנות מהעיר בלי לקפוץ הלוך ושוב ובלי לבלות את החופשה בחיפושים.</p>
+        </div>
+
+        <div class="premium-layout">
+          <div class="days-grid">
+            <article class="day-card"><span>יום 1</span><h3>העיר העתיקה והגמדים</h3><p>מסלול ראשון נעים בין כיכר השוק, הרחובות ההיסטוריים והגמדים שאסור לפספס.</p></article>
+            <article class="day-card"><span>יום 2</span><h3>האוניברסיטה, הנהר ואוסטרוב טומסקי</h3><p>יום שמחבר תצפית, טיילת על גדת האודר והאזור העתיק והרגוע ביותר בעיר.</p></article>
+            <article class="day-card"><span>יום 3</span><h3>Hydropolis, Hala Stulecia והמזרקה</h3><p>מסלול מזרח העיר עם אדריכלות, פארקים, מים ומופע ערב בעונה המתאימה.</p></article>
+            <article class="day-card"><span>יום 4</span><h3>קניות, שיט, בתי קפה והשלמות</h3><p>יום גמיש שמאפשר לבחור את הקצב, להשלים מקומות ולסיים את הטיול בלי לחץ.</p></article>
+          </div>
+
+          <aside class="price-card" aria-label="מחיר ותכולת החבילה">
+            <span class="price-badge">מחיר השקה</span>
+            <div class="price"><strong>49</strong><span>₪</span></div>
+            <p>תשלום חד־פעמי · 30 ימי גישה</p>
+            <ul>
+              <li>ארבעה מסלולים יומיים מסודרים</li><li>מפה אינטראקטיבית בעברית</li>
+              <li>קישורי ניווט ישירים לכל תחנה</li><li>המלצות אוכל, קפה, קינוחים וקניות</li>
+              <li>זמני הליכה והצעות לקצב נוח</li><li>עדכונים למסלול במשך תקופת הגישה</li>
+            </ul>
+            <a class="purchase-button" href="/buy">לרכישת גישה</a>
+            <a class="existing-access" href="access.html">כבר רכשתם? כניסה עם קוד</a>
+            <small>ללא מנוי וללא חידוש אוטומטי</small>
+          </aside>
         </div>
       </section>
+
+      <section class="how-section" id="how">
+        <div class="section-heading compact"><div><span class="section-number">03</span><span class="eyebrow">פשוט מהתשלום ועד הטיול</span><h2>איך זה יעבוד?</h2></div></div>
+        <ol class="steps">
+          <li><span>1</span><strong>רוכשים גישה</strong><p>תשלום חד־פעמי ומאובטח למסלול שבחרתם.</p></li>
+          <li><span>2</span><strong>מקבלים קוד למייל</strong><p>בלי לזכור סיסמה ובלי לפתוח חשבון מסובך.</p></li>
+          <li><span>3</span><strong>מטיילים במשך 30 יום</strong><p>פותחים את המסלול מכל טלפון וחוזרים אליו מתי שרוצים.</p></li>
+        </ol>
+      </section>
+
+      <section class="closing">
+        <span class="eyebrow">Wroc-love</span>
+        <h2>העיר כבר מחכה. אנחנו רק מסדרים לכם את הדרך.</h2>
+        <a class="button button-primary" href="map.html?lang=he">התחילו במסלול החינמי</a>
+      </section>
+
+      <footer>
+        <div><strong>Wroc-love</strong><span>מבית קהילת Wrocław &amp; Lower Silesia</span></div>
+        <a href="https://www.facebook.com/groups/2525899074519424">הקהילה שלנו בפייסבוק</a>
+      </footer>
     </main>
-
-    <footer>
-      <img src="assets/logo.png" alt="Wrocław & Lower Silesia" class="footer-logo" />
-      <p data-i18n="brandCredit">המפה הוכנה על ידי פרויקט „וורוצלב ושלזיה התחתונה”.</p>
-      <p><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" data-i18n="osmCredit">נתוני מפה © תורמי OpenStreetMap</a></p>
-    </footer>
-
-    <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="data/translations.js"></script>
-    <script src="data/locations.js"></script>
-    <script src="app.js"></script>
   </body>
 </html>

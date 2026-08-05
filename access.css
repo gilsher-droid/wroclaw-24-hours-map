@@ -1,0 +1,80 @@
+.access-body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 20%, rgba(158, 216, 246, .32), transparent 32%),
+    radial-gradient(circle at 88% 82%, rgba(220, 169, 79, .18), transparent 28%),
+    var(--paper);
+}
+
+.access-shell {
+  width: min(560px, calc(100% - 32px));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 34px 0 70px;
+  display: grid;
+  align-content: center;
+  gap: 26px;
+}
+
+.access-brand { justify-self: center; }
+
+.access-card {
+  padding: clamp(28px, 6vw, 52px);
+  border: 1px solid rgba(255, 255, 255, .9);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, .88);
+  box-shadow: 0 28px 80px rgba(6, 43, 92, .14);
+  backdrop-filter: blur(14px);
+}
+
+.access-card h1 {
+  margin: 14px 0 16px;
+  font-size: clamp(34px, 8vw, 52px);
+  line-height: 1.08;
+}
+
+.access-card > p { color: var(--muted); line-height: 1.7; }
+
+#access-form { margin-top: 30px; display: grid; gap: 12px; }
+#access-form label { color: var(--navy); font-size: 14px; font-weight: 900; }
+#access-form input {
+  width: 100%;
+  height: 58px;
+  padding: 0 18px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--cream);
+  color: var(--navy);
+  direction: ltr;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+#access-form input:focus { border-color: var(--blue); outline: 3px solid rgba(36,119,189,.12); }
+#access-form .button { border: 0; cursor: pointer; font-size: 16px; }
+#access-form .button:disabled { cursor: wait; opacity: .72; }
+
+.form-message { min-height: 24px; margin: 0; color: #9a3e32; font-size: 14px; text-align: center; }
+.access-help { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); display: grid; gap: 6px; text-align: center; }
+.access-help strong { color: var(--navy); }
+.access-help span { color: var(--muted); font-size: 13px; }
+.access-help a { margin-top: 7px; color: var(--blue); font-size: 13px; font-weight: 800; }
+.access-help a.button { color: white; font-size: 15px; }
+.checkout-card { max-width: 620px; }
+.checkout-summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin: 1.5rem 0; padding: 1rem 1.15rem; border-radius: 16px; background: #f4f7fb; color: #062b5c; }
+.checkout-summary strong { font-size: 1.75rem; }
+#paypal-button-container { min-height: 150px; }
+.form-message.error { color: #a12622; }
+
+#admin-form { margin-top: 26px; display: grid; gap: 10px; }
+#admin-form label { color: var(--navy); font-size: 13px; font-weight: 900; }
+#admin-form input { height: 52px; padding: 0 15px; border: 1px solid var(--line); border-radius: 12px; background: var(--cream); font-size: 16px; }
+#admin-form input:focus { border-color: var(--blue); outline: 3px solid rgba(36,119,189,.12); }
+#admin-form button { margin-top: 8px; border: 0; cursor: pointer; }
+.generated-code { margin-top: 24px; padding: 20px; border: 1px solid rgba(36,119,189,.18); border-radius: 16px; background: rgba(158,216,246,.15); display: grid; gap: 9px; text-align: center; }
+.generated-code[hidden] { display: none; }
+.generated-code small { color: var(--muted); }
+.generated-code strong { color: var(--navy); direction: ltr; font-size: 24px; letter-spacing: .08em; }
+.generated-code button { justify-self: center; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; background: white; color: var(--navy); cursor: pointer; font-weight: 800; }

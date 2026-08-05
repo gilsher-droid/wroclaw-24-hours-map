@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="noindex,nofollow" />
+    <title>ניהול קודי גישה | Wroc-love</title>
+    <link rel="icon" href="assets/logo.png" /><link rel="stylesheet" href="styles.css" /><link rel="stylesheet" href="access.css" />
+  </head>
+  <body class="access-body">
+    <main class="access-shell">
+      <a class="brand access-brand" href="/"><img src="assets/logo.png" alt="Wrocław & Lower Silesia" /><span><strong>Wroc-love</strong><small>ניהול גישה</small></span></a>
+      <section class="access-card">
+        <span class="eyebrow">למנהל האתר בלבד</span><h1>הפקת קוד ללקוח</h1><p>לאחר קבלת תשלום, מפיקים כאן קוד חד־פעמי ושולחים אותו ללקוח. הקוד יוצג פעם אחת בלבד.</p>
+        <form id="admin-form">
+          <label for="admin-secret">מפתח מנהל</label><input id="admin-secret" type="password" autocomplete="current-password" required />
+          <label for="customer-label">שם או אימייל הלקוח</label><input id="customer-label" type="text" autocomplete="off" required />
+          <button class="button button-primary" type="submit">הפקת קוד ל־30 יום</button>
+        </form>
+        <div class="generated-code" id="generated-code" hidden><small>הקוד החדש</small><strong id="code-value"></strong><button id="copy-code" type="button">העתקת הקוד</button></div>
+        <p class="form-message" id="admin-message" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+    <script src="admin.js" defer></script>
+  </body>
+</html>

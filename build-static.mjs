@@ -11,21 +11,29 @@ await mkdir(server, { recursive: true });
 await mkdir(resolve(client, "data"), { recursive: true });
 await mkdir(resolve(client, "assets"), { recursive: true });
 
-for (const file of ["index.html", "styles.css", "app.js"]) {
+for (const file of [
+  "index.html",
+  "styles.css",
+  "map.html",
+  "map-styles.css",
+  "app.js",
+  "access.html",
+  "access.css",
+  "access.js",
+  "checkout.html",
+  "checkout.js",
+  "premium.html",
+  "premium.css",
+  "premium.js",
+  "admin.html",
+  "admin.js",
+]) {
   await cp(resolve(root, file), resolve(client, file));
 }
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
 await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true });
 await writeFile(resolve(client, ".nojekyll"), "");
 
-await writeFile(resolve(server, "index.js"), `export default {
-  async fetch(request, env) {
-    const response = await env.ASSETS.fetch(request);
-    if (response.status !== 404) return response;
-    const url = new URL(request.url);
-    url.pathname = "/index.html";
-    return env.ASSETS.fetch(new Request(url, request));
-  }
-};\n`);
+await cp(resolve(root, "worker/site-worker.js"), resolve(server, "index.js"));
 
 console.log("Static site built in dist/");
