@@ -20,6 +20,7 @@
 
 # misc
 .DS_Store
+bluehost-api/config.php
 *.pem
 
 # debug

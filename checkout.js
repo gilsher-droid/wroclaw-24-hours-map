@@ -1,0 +1,42 @@
+const message = document.querySelector("#checkout-message");
+const container = document.querySelector("#paypal-button-container");
+const API_ORIGIN = "https://api.wroc-love.com";
+
+function showError(text) {
+  message.textContent = text;
+  message.classList.add("error");
+}
+
+async function requestJson(url, options) {
+  const response = await fetch(`${API_ORIGIN}${url}`, { credentials: "include", ...options });
+  const result = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error(result.error || "אירעה שגיאה. נסו שוב.");
+  return result;
+}
+
+async function startCheckout() {
+  const config = await requestJson("/api/paypal/config");
+  const script = document.createElement("script");
+  script.src = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(config.clientId)}&currency=ILS&intent=capture&components=buttons`;
+  script.onload = () => {
+    message.textContent = "בחרו אמצעי תשלום להמשך:";
+    window.paypal.Buttons({
+      style: { layout: "vertical", shape: "rect", label: "paypal" },
+      createOrder: async () => {
+        const order = await requestJson("/api/paypal/orders", { method: "POST", headers: { "content-type": "application/json" }, body: "{}" });
+        return order.id;
+      },
+      onApprove: async (data) => {
+        message.textContent = "מאשרים את התשלום ופותחים את המסלול…";
+        const result = await requestJson(`/api/paypal/orders/${encodeURIComponent(data.orderID)}/capture`, { method: "POST", headers: { "content-type": "application/json" }, body: "{}" });
+        if (result.active) window.location.replace("/premium.html");
+      },
+      onCancel: () => { message.textContent = "התשלום בוטל ולא בוצע חיוב."; },
+      onError: () => showError("לא הצלחנו להשלים את התשלום. נסו שוב בעוד רגע."),
+    }).render(container);
+  };
+  script.onerror = () => showError("לא ניתן לטעון את PayPal כרגע. נסו שוב מאוחר יותר.");
+  document.head.appendChild(script);
+}
+
+startCheckout().catch((error) => showError(error.message));
