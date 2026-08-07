@@ -139,6 +139,22 @@
     map.fitBounds(routeLine.getBounds(), { padding: [32, 32] });
   }
 
+  function fitFilteredMarkers(category) {
+    if (!map) return;
+    if (category === "all") {
+      fitRoute();
+      return;
+    }
+    const visibleMarkers = [...markers.values()].filter((marker) => marker.category === category);
+    if (!visibleMarkers.length) return;
+    if (visibleMarkers.length === 1) {
+      map.setView(visibleMarkers[0].getLatLng(), 15, { animate: true });
+      return;
+    }
+    const bounds = L.latLngBounds(visibleMarkers.map((marker) => marker.getLatLng()));
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 15, animate: true });
+  }
+
   function renderFilters() {
     const usedCategories = [...new Set(window.LOCATIONS.map((location) => location.category))];
     usedCategories.push("evening");
@@ -170,6 +186,7 @@
       button.classList.toggle("active", active);
       button.setAttribute("aria-pressed", String(active));
     });
+    fitFilteredMarkers(category);
   }
 
   function showLocation(id) {
