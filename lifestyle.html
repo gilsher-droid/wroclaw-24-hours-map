@@ -12,7 +12,7 @@
     <link rel="icon" href="/assets/logo.png" />
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
-    <link rel="stylesheet" href="/lifestyle.css?v=20260807-1" />
+    <link rel="stylesheet" href="/lifestyle.css?v=20260808-1" />
   </head>
   <body>
     <header class="lifestyle-header">
@@ -20,12 +20,15 @@
         <img src="/assets/logo.png" alt="Wrocław & Lower Silesia" />
         <span><strong>Wroc-love</strong><small data-i18n="brandLine">מגלים את העיר דרך המקומות הנכונים</small></span>
       </a>
-      <div class="language-switcher" role="group" aria-label="שפה">
-        <button type="button" data-lang="he">עברית</button>
-        <button type="button" data-lang="en">English</button>
-        <button type="button" data-lang="pl">Polski</button>
-        <button type="button" data-lang="de">Deutsch</button>
-        <button type="button" data-lang="cs">Čeština</button>
+      <div class="header-actions">
+        <a class="home-return" href="/?lang=he" data-home-link><span aria-hidden="true">⌂</span><span data-i18n="homeReturn">חזרה לאתר הראשי</span></a>
+        <div class="language-switcher" role="group" aria-label="שפה">
+          <button type="button" data-lang="he">עברית</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pl">Polski</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="cs">Čeština</button>
+        </div>
       </div>
     </header>
 
@@ -36,6 +39,7 @@
           <h1 data-i18n="title">לאכול. לשתות.<br />לקנות. לישון.</h1>
           <p class="hero-lead" data-i18n="lead">כל המקומות השימושיים שאספנו מהתוכן שלנו, על מפה אחת שמתאימה את עצמה למה שאתם מחפשים עכשיו.</p>
           <div class="hero-notes">
+            <span class="free-until"><span aria-hidden="true">✓</span> <span data-i18n="freeUntil">חינם עד 31 בדצמבר 2026</span></span>
             <span><b id="place-count">41</b> <span data-i18n="places">מקומות</span></span>
             <span data-i18n="fiveLanguages">חמש שפות</span>
             <span data-i18n="directNavigation">ניווט ישיר</span>
@@ -119,6 +123,7 @@
     <script src="/data/extra-languages.js?v=20260807-1"></script>
     <script src="/data/location-media.js?v=20260807-2"></script>
     <script src="/data/lifestyle-places.js?v=20260807-1"></script>
-    <script src="/lifestyle.js?v=20260807-1"></script>
+    <script src="/campaign-access.js?v=20260807-3"></script>
+    <script src="/lifestyle.js?v=20260808-1"></script>
   </body>
 </html>
