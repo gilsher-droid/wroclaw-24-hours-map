@@ -40,6 +40,9 @@ window.TRANSLATIONS = {
     linkCopied: "הקישור הועתק",
     shareFailed: "לא ניתן לשתף כרגע",
     brandCredit: "המפה הוכנה על ידי פרויקט „וורוצלב ושלזיה התחתונה”.",
+    joinFacebookGroup: "הצטרפו לקבוצת הפייסבוק",
+    visitFacebookPage: "בקרו בדף העסקי",
+    followInstagram: "עקבו אחרינו באינסטגרם",
     osmCredit: "נתוני מפה © תורמי OpenStreetMap",
     mapLoadingError: "המפה לא נטענה. בדקו את החיבור לאינטרנט ורעננו את הדף.",
     categories: {
@@ -119,6 +122,9 @@ window.TRANSLATIONS = {
     linkCopied: "Link copied",
     shareFailed: "Sharing is unavailable right now",
     brandCredit: "This map was created by the Wrocław & Lower Silesia project.",
+    joinFacebookGroup: "Join the Facebook group",
+    visitFacebookPage: "Visit our Facebook page",
+    followInstagram: "Follow us on Instagram",
     osmCredit: "Map data © OpenStreetMap contributors",
     mapLoadingError: "The map did not load. Check your internet connection and refresh the page.",
     categories: {
@@ -198,6 +204,9 @@ window.TRANSLATIONS = {
     linkCopied: "Link skopiowany",
     shareFailed: "Udostępnianie jest teraz niedostępne",
     brandCredit: "Mapa została przygotowana przez projekt Wrocław & Lower Silesia.",
+    joinFacebookGroup: "Dołącz do grupy na Facebooku",
+    visitFacebookPage: "Odwiedź naszą stronę na Facebooku",
+    followInstagram: "Obserwuj nas na Instagramie",
     osmCredit: "Dane mapy © autorzy OpenStreetMap",
     mapLoadingError: "Mapa nie została załadowana. Sprawdź połączenie z internetem i odśwież stronę.",
     categories: {
