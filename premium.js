@@ -2,13 +2,15 @@
   "use strict";
 
   const API_ORIGIN = "https://api.wroc-love.com";
+  const routeConfig = window.PREMIUM_ROUTE_CONFIG || {};
+  const dayStorageKey = routeConfig.storageKey || "wroc-premium-day";
   const supportedLanguages = ["he", "en", "pl"];
   const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
   const savedLanguage = localStorage.getItem("wroclaw24-language");
   let language = supportedLanguages.includes(requestedLanguage)
     ? requestedLanguage
     : supportedLanguages.includes(savedLanguage) ? savedLanguage : "he";
-  let activeDay = Number(localStorage.getItem("wroc-premium-day")) || 1;
+  let activeDay = Number(localStorage.getItem(dayStorageKey)) || window.PREMIUM_DAYS?.[0]?.id || 1;
   let recommendationFilter = "all";
   let map;
   let routeLine;
@@ -70,6 +72,8 @@
     }
   };
 
+  supportedLanguages.forEach((code) => Object.assign(ui[code], routeConfig.ui?.[code] || {}));
+
   const categoryColors = {
     main: "#dca94f", special: "#7b61a8", architecture: "#062b5c", viewpoint: "#7b61a8",
     culture: "#2477bd", river: "#55a8d8", nature: "#4f8a71", shopping: "#b76791", food: "#d2764f"
@@ -105,6 +109,7 @@
     document.documentElement.lang = language;
     document.documentElement.dir = language === "he" ? "rtl" : "ltr";
     localStorage.setItem("wroclaw24-language", language);
+    document.title = t("documentTitle") === "documentTitle" ? document.title : t("documentTitle");
     const url = new URL(window.location.href);
     url.searchParams.set("lang", language);
     history.replaceState({}, "", url);
@@ -277,7 +282,7 @@
     const dayButton = event.target.closest("[data-day]");
     if (dayButton) {
       activeDay = Number(dayButton.dataset.day);
-      localStorage.setItem("wroc-premium-day", String(activeDay));
+      localStorage.setItem(dayStorageKey, String(activeDay));
       render();
       document.getElementById("route-content").scrollIntoView({ behavior: "smooth", block: "start" });
       return;

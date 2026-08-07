@@ -25,6 +25,7 @@ for (const file of [
   "checkout.html",
   "checkout.js",
   "premium.html",
+  "moshe.html",
   "premium.css",
   "premium.js",
   "admin.html",
