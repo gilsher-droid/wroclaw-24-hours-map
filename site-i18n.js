@@ -258,6 +258,52 @@
 
   Object.assign(translations, window.EXTRA_SITE_TRANSLATIONS || {});
 
+  const lifestyleTranslations = {
+    en: {
+      "אוכל, קניות ולינה": "Food, shopping & stays",
+      "המוצר הרביעי של Wroc-love": "The fourth Wroc-love product",
+      "לאכול, לשתות, לקנות ולישון בוורוצלב": "Eat, drink, shop and sleep in Wrocław",
+      "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restaurants, cafés, shopping centres and hotels from our original posts — in one interactive guide that shows exactly what you need now.",
+      "קטגוריות במדריך": "Guide categories", "לאכול": "Eat", "מסעדות וטעמים": "Restaurants and flavours", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "From Polish cuisine to ramen, sushi, pizza and evening spots.",
+      "לשתות": "Drink", "קפה, מתוקים וברים": "Coffee, sweets and bars", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Good stops for coffee, dessert, ice cream or a drink along the way.",
+      "לקנות": "Shop", "מרכזי קניות": "Shopping centres", "מ־Wroclavia ו־Renoma ועד האאוטלט ומרכזים מקומיים.": "From Wroclavia and Renoma to the outlet and local centres.",
+      "לישון": "Sleep", "מלונות מומלצים": "Recommended hotels", "תשעה מלונות ואזורים נוחים לביקור ראשון בעיר.": "Nine hotels and convenient areas for a first visit.",
+      "מדריך אוכל, קניות ולינה": "Food, shopping and accommodation guide", "מדריך חי שמתעדכן": "A living, evolving guide", "41 מקומות. חמש שפות. מפה אחת.": "41 places. Five languages. One map.",
+      "מסננים לפי צורך, מקבלים זום אוטומטי, ניווט ישיר וקישור לפוסט המקורי בדף העסקי.": "Filter by need, get automatic zoom, direct navigation and a link to the original business-page post.", "פתחו את המדריך": "Open the guide", "זמין בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Available in Hebrew, English, Polish, German and Czech."
+    },
+    pl: {
+      "אוכל, קניות ולינה": "Jedzenie, zakupy i noclegi", "המוצר הרביעי של Wroc-love": "Czwarty produkt Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jedz, pij, kupuj i śpij we Wrocławiu",
+      "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restauracji, kawiarni, centrów handlowych i hoteli z naszych oryginalnych postów — w jednym interaktywnym przewodniku.",
+      "קטגוריות במדריך": "Kategorie przewodnika", "לאכול": "Jedzenie", "מסעדות וטעמים": "Restauracje i smaki", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Od kuchni polskiej po ramen, sushi, pizzę i miejsca na wieczór.",
+      "לשתות": "Napoje", "קפה, מתוקים וברים": "Kawa, słodkości i bary", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Dobre przystanki na kawę, deser, lody lub drinka.",
+      "לקנות": "Zakupy", "מרכזי קניות": "Centra handlowe", "מ־Wroclavia ו־Renoma ועד האאוטלט ומרכזים מקומיים.": "Od Wroclavii i Renomy po outlet i lokalne centra.",
+      "לישון": "Nocleg", "מלונות מומלצים": "Polecane hotele", "תשעה מלונות ואזורים נוחים לביקור ראשון בעיר.": "Dziewięć hoteli i wygodnych lokalizacji na pierwszą wizytę.",
+      "מדריך אוכל, קניות ולינה": "Przewodnik po jedzeniu, zakupach i noclegach", "מדריך חי שמתעדכן": "Żywy, aktualizowany przewodnik", "41 מקומות. חמש שפות. מפה אחת.": "41 miejsc. Pięć języków. Jedna mapa.",
+      "מסננים לפי צורך, מקבלים זום אוטומטי, ניווט ישיר וקישור לפוסט המקורי בדף העסקי.": "Filtruj według potrzeb, korzystaj z automatycznego przybliżenia, nawigacji i linku do oryginalnego postu.", "פתחו את המדריך": "Otwórz przewodnik", "זמין בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Dostępny po hebrajsku, angielsku, polsku, niemiecku i czesku."
+    },
+    de: {
+      "אוכל, קניות ולינה": "Essen, Einkaufen & Übernachten", "המוצר הרביעי של Wroc-love": "Das vierte Wroc-love-Produkt", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Essen, trinken, einkaufen und übernachten in Wrocław",
+      "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 Restaurants, Cafés, Einkaufszentren und Hotels aus unseren Originalbeiträgen — in einem interaktiven Guide.",
+      "קטגוריות במדריך": "Guide-Kategorien", "לאכול": "Essen", "מסעדות וטעמים": "Restaurants und Aromen", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Von polnischer Küche bis Ramen, Sushi, Pizza und Abendlocations.",
+      "לשתות": "Trinken", "קפה, מתוקים וברים": "Kaffee, Süßes und Bars", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Gute Stopps für Kaffee, Dessert, Eis oder einen Drink.",
+      "לקנות": "Einkaufen", "מרכזי קניות": "Einkaufszentren", "מ־Wroclavia ו־Renoma ועד האאוטלט ומרכזים מקומיים.": "Von Wroclavia und Renoma bis zum Outlet und lokalen Zentren.",
+      "לישון": "Schlafen", "מלונות מומלצים": "Empfohlene Hotels", "תשעה מלונות ואזורים נוחים לביקור ראשון בעיר.": "Neun Hotels und günstige Lagen für den ersten Besuch.",
+      "מדריך אוכל, קניות ולינה": "Guide für Essen, Einkaufen und Übernachten", "מדריך חי שמתעדכן": "Ein lebendiger, aktueller Guide", "41 מקומות. חמש שפות. מפה אחת.": "41 Orte. Fünf Sprachen. Eine Karte.",
+      "מסננים לפי צורך, מקבלים זום אוטומטי, ניווט ישיר וקישור לפוסט המקורי בדף העסקי.": "Nach Bedarf filtern, automatisch zoomen, direkt navigieren und den Originalbeitrag öffnen.", "פתחו את המדריך": "Guide öffnen", "זמין בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Verfügbar auf Hebräisch, Englisch, Polnisch, Deutsch und Tschechisch."
+    },
+    cs: {
+      "אוכל, קניות ולינה": "Jídlo, nákupy a ubytování", "המוצר הרביעי של Wroc-love": "Čtvrtý produkt Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jíst, pít, nakupovat a spát ve Vratislavi",
+      "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restaurací, kaváren, nákupních center a hotelů z našich původních příspěvků — v jednom interaktivním průvodci.",
+      "קטגוריות במדריך": "Kategorie průvodce", "לאכול": "Jíst", "מסעדות וטעמים": "Restaurace a chutě", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Od polské kuchyně po ramen, sushi, pizzu a večerní podniky.",
+      "לשתות": "Pít", "קפה, מתוקים וברים": "Káva, sladkosti a bary", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Dobré zastávky na kávu, dezert, zmrzlinu nebo drink.",
+      "לקנות": "Nakupovat", "מרכזי קניות": "Nákupní centra", "מ־Wroclavia ו־Renoma ועד האאוטלט ומרכזים מקומיים.": "Od Wroclavie a Renomy po outlet a místní centra.",
+      "לישון": "Spát", "מלונות מומלצים": "Doporučené hotely", "תשעה מלונות ואזורים נוחים לביקור ראשון בעיר.": "Devět hotelů a vhodných lokalit pro první návštěvu.",
+      "מדריך אוכל, קניות ולינה": "Průvodce jídlem, nákupy a ubytováním", "מדריך חי שמתעדכן": "Živý, aktualizovaný průvodce", "41 מקומות. חמש שפות. מפה אחת.": "41 míst. Pět jazyků. Jedna mapa.",
+      "מסננים לפי צורך, מקבלים זום אוטומטי, ניווט ישיר וקישור לפוסט המקורי בדף העסקי.": "Filtrujte podle potřeby, využijte automatické přiblížení, navigaci a odkaz na původní příspěvek.", "פתחו את המדריך": "Otevřít průvodce", "זמין בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Dostupné v hebrejštině, angličtině, polštině, němčině a češtině."
+    }
+  };
+  Object.entries(lifestyleTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
+
   const originalText = new WeakMap();
   const originalAttributes = new WeakMap();
   const originalTitle = document.title;

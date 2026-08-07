@@ -27,13 +27,15 @@ for (const file of [
   "checkout.js",
   "premium.css",
   "premium.js",
+  "lifestyle.css",
+  "lifestyle.js",
   "admin.html",
   "admin.js",
 ]) {
   await cp(resolve(root, file), resolve(client, file));
 }
 
-for (const file of ["map.html", "premium.html", "moshe.html"]) {
+for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html"]) {
   await cp(resolve(root, file), resolve(interactiveMaps, file));
 }
 
@@ -53,6 +55,7 @@ const legacyRedirect = (target, title) => `<!doctype html>
 await writeFile(resolve(client, "map.html"), legacyRedirect("/products/interactive-maps/map.html", "מסלול 24 שעות"));
 await writeFile(resolve(client, "premium.html"), legacyRedirect("/products/interactive-maps/premium.html", "מסלול 4 ימים"));
 await writeFile(resolve(client, "moshe.html"), legacyRedirect("/products/interactive-maps/moshe.html", "מסלול כריסמס"));
+await writeFile(resolve(client, "lifestyle.html"), legacyRedirect("/products/interactive-maps/lifestyle.html", "לאכול, לשתות, לקנות ולישון"));
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
 await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true });
 await writeFile(resolve(client, ".nojekyll"), "");

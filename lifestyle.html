@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#062b5c" />
+    <meta name="description" content="המדריך האינטראקטיבי של Wroc-love לאוכל, שתייה, קניות ולינה בוורוצלב." />
+    <meta property="og:title" content="לאכול, לשתות, לקנות ולישון בוורוצלב | Wroc-love" />
+    <meta property="og:description" content="כל המקומות השימושיים של Wroc-love על מפה אחת, עם סינון וניווט ישיר." />
+    <meta property="og:image" content="https://wroc-love.com/assets/og-product.png" />
+    <title>לאכול, לשתות, לקנות ולישון בוורוצלב | Wroc-love</title>
+    <link rel="icon" href="/assets/logo.png" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <link rel="stylesheet" href="/lifestyle.css?v=20260807-1" />
+  </head>
+  <body>
+    <header class="lifestyle-header">
+      <a class="lifestyle-brand" href="/?lang=he" data-home-link aria-label="חזרה לדף הבית">
+        <img src="/assets/logo.png" alt="Wrocław & Lower Silesia" />
+        <span><strong>Wroc-love</strong><small data-i18n="brandLine">מגלים את העיר דרך המקומות הנכונים</small></span>
+      </a>
+      <div class="language-switcher" role="group" aria-label="שפה">
+        <button type="button" data-lang="he">עברית</button>
+        <button type="button" data-lang="en">English</button>
+        <button type="button" data-lang="pl">Polski</button>
+        <button type="button" data-lang="de">Deutsch</button>
+        <button type="button" data-lang="cs">Čeština</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="lifestyle-hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">המדריך המקומי של Wroc-love</p>
+          <h1 data-i18n="title">לאכול. לשתות.<br />לקנות. לישון.</h1>
+          <p class="hero-lead" data-i18n="lead">כל המקומות השימושיים שאספנו מהתוכן שלנו, על מפה אחת שמתאימה את עצמה למה שאתם מחפשים עכשיו.</p>
+          <div class="hero-notes">
+            <span><b id="place-count">41</b> <span data-i18n="places">מקומות</span></span>
+            <span data-i18n="fiveLanguages">חמש שפות</span>
+            <span data-i18n="directNavigation">ניווט ישיר</span>
+          </div>
+        </div>
+        <aside class="hero-prompt">
+          <span data-i18n="questionLabel">שאלה אחת לפני שיוצאים</span>
+          <strong data-i18n="question">מה בא לכם עכשיו?</strong>
+          <p data-i18n="questionHint">בחרו צורך, והמפה תציג ותקרב אל המקומות המתאימים.</p>
+        </aside>
+      </section>
+
+      <section class="directory-shell" aria-labelledby="directory-title">
+        <div class="directory-toolbar">
+          <div>
+            <p class="section-kicker" data-i18n="explore">לגלות לפי מצב הרוח</p>
+            <h2 id="directory-title" data-i18n="mapTitle">המקומות על המפה</h2>
+          </div>
+          <label class="search-box">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <span class="sr-only" data-i18n="searchLabel">חיפוש מקום</span>
+            <input id="place-search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="חפשו שם או אזור…" autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="category-filters" role="group" aria-label="סינון לפי קטגוריה">
+          <button class="category-button active" type="button" data-category="all"><span class="category-symbol">✦</span><span data-i18n="all">הכול</span><b data-count="all"></b></button>
+          <button class="category-button eat" type="button" data-category="eat"><span class="category-symbol">🍽</span><span data-i18n="eat">לאכול</span><b data-count="eat"></b></button>
+          <button class="category-button drink" type="button" data-category="drink"><span class="category-symbol">☕</span><span data-i18n="drink">לשתות</span><b data-count="drink"></b></button>
+          <button class="category-button buy" type="button" data-category="buy"><span class="category-symbol">◫</span><span data-i18n="buy">לקנות</span><b data-count="buy"></b></button>
+          <button class="category-button sleep" type="button" data-category="sleep"><span class="category-symbol">☾</span><span data-i18n="sleep">לישון</span><b data-count="sleep"></b></button>
+        </div>
+
+        <div class="map-layout">
+          <div class="map-column">
+            <div id="lifestyle-map" aria-label="מפת המקומות בוורוצלב"></div>
+            <p class="map-note" data-i18n="mapNote">המפה מתקרבת אוטומטית לתוצאות. לבדיקת מסלול בזמן אמת השתמשו בכפתור הניווט.</p>
+          </div>
+          <div class="results-column">
+            <div class="results-heading">
+              <strong id="results-title" data-i18n="allPlaces">כל המקומות</strong>
+              <span id="results-count"></span>
+            </div>
+            <div id="place-results" class="place-results" aria-live="polite"></div>
+            <div id="empty-state" class="empty-state" hidden>
+              <strong data-i18n="emptyTitle">לא מצאנו מקום מתאים</strong>
+              <p data-i18n="emptyText">נסו מילת חיפוש אחרת או חזרו להצגת הכול.</p>
+              <button type="button" id="reset-search" data-i18n="showAll">הציגו הכול</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="editorial-note">
+        <div>
+          <p class="section-kicker" data-i18n="livingGuide">מדריך שחי ומתעדכן</p>
+          <h2 data-i18n="editorialTitle">לא רשימה אינסופית. רק מקומות שיש להם סיבה להיות כאן.</h2>
+        </div>
+        <p data-i18n="editorialText">המוצר מבוסס על פוסטי האוכל, הקניות והלינה שכבר פורסמו בדף העסקי ובקהילה. כל מקום מקושר אל הפוסט המקורי ואל ניווט ישיר.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div><strong>Wroc-love</strong><span data-i18n="communityLine">מבית קהילת Wrocław & Lower Silesia</span></div>
+      <nav aria-label="Social media">
+        <a href="https://www.facebook.com/groups/2525899074519424" target="_blank" rel="noopener" data-i18n="facebookGroup">קבוצת הפייסבוק</a>
+        <a href="https://www.facebook.com/profile.php?id=61591964083308" target="_blank" rel="noopener" data-i18n="facebookPage">הדף העסקי</a>
+        <a href="https://www.instagram.com/wroclaw.lowersilesia/" target="_blank" rel="noopener" data-i18n="instagram">אינסטגרם</a>
+      </nav>
+    </footer>
+
+    <div class="media-modal" id="media-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="media-title">
+      <div class="media-dialog">
+        <button class="media-close" type="button" data-close-media aria-label="סגירה">×</button>
+        <h2 id="media-title"></h2>
+        <div id="media-content"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="/data/extra-languages.js?v=20260807-1"></script>
+    <script src="/data/location-media.js?v=20260807-2"></script>
+    <script src="/data/lifestyle-places.js?v=20260807-1"></script>
+    <script src="/lifestyle.js?v=20260807-1"></script>
+  </body>
+</html>
