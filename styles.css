@@ -372,6 +372,7 @@ h1 em {
 
 .free-section,
 .premium-section,
+.christmas-section,
 .how-section,
 .closing {
   padding: 104px max(20px, calc((100% - 1180px) / 2));
@@ -452,6 +453,60 @@ h2 {
 }
 
 .premium-section { background: var(--cream); }
+
+.christmas-section {
+  padding: 104px max(20px, calc((100% - 1180px) / 2));
+  background:
+    radial-gradient(circle at 12% 20%, rgba(220, 169, 79, .2), transparent 30%),
+    linear-gradient(145deg, #073b3a, #05294f 72%);
+  color: white;
+}
+
+.christmas-section .section-heading > p { color: rgba(255,255,255,.75); }
+.christmas-section h2 { color: white; }
+
+.christmas-product {
+  display: grid;
+  grid-template-columns: 1fr 390px;
+  align-items: stretch;
+  gap: 28px;
+}
+
+.christmas-days {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.christmas-days article {
+  min-height: 270px;
+  padding: 28px;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 22px;
+  background: rgba(255,255,255,.09);
+  backdrop-filter: blur(8px);
+}
+
+.christmas-days article > span,
+.christmas-badge { color: #efc97e; font-size: 13px; font-weight: 900; }
+.christmas-days h3 { margin: 20px 0 14px; color: white; font-family: Georgia, "Times New Roman", serif; font-size: 24px; line-height: 1.25; }
+.christmas-days p { color: rgba(255,255,255,.72); line-height: 1.7; }
+
+.christmas-card {
+  padding: 34px;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 26px;
+  background: rgba(1, 21, 47, .78);
+  box-shadow: 0 24px 60px rgba(1,16,36,.28);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.christmas-card > strong { margin: 22px 0 14px; color: white; font-family: Georgia, "Times New Roman", serif; font-size: 34px; line-height: 1.15; }
+.christmas-card > p { color: rgba(255,255,255,.72); line-height: 1.7; }
+.christmas-card small { margin-top: 15px; color: rgba(255,255,255,.58); text-align: center; }
+.christmas-button { margin-top: 20px; background: var(--gold); color: var(--navy-deep); }
 
 .section-heading {
   margin-bottom: 56px;
@@ -715,7 +770,8 @@ footer a { color: var(--sky); font-weight: 800; }
   .route-preview { max-width: 620px; width: 100%; margin: 0 auto; }
   .free-section,
   .section-heading,
-  .premium-layout { grid-template-columns: 1fr; }
+  .premium-layout,
+  .christmas-product { grid-template-columns: 1fr; }
   .free-section { gap: 48px; }
   .section-heading { gap: 16px; }
   .price-card { position: static; }
@@ -734,10 +790,12 @@ footer a { color: var(--sky); font-weight: 800; }
   .preview-footer { flex-wrap: wrap; }
   .free-section,
   .premium-section,
+  .christmas-section,
   .how-section,
   .closing { padding-top: 76px; padding-bottom: 76px; }
   .route-ticket { min-height: 250px; padding: 26px; }
   .days-grid,
+  .christmas-days,
   .steps { grid-template-columns: 1fr; }
   .day-card { min-height: auto; }
   .price-card { padding: 26px; }
