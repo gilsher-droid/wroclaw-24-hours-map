@@ -17,6 +17,12 @@
   let accessState = null;
   const mapLayers = [];
   const markerById = new Map();
+  let activeGallery = null;
+  let activeGalleryIndex = 0;
+  let galleryTrigger = null;
+  let activeVideoLocation = null;
+  let activeVideoIndex = 0;
+  let videoTrigger = null;
 
   const ui = {
     he: {
@@ -37,7 +43,9 @@
       optional: "רשות", recommended: "מומלץ", duration: "זמן במקום", showMap: "הציגו במפה", navigate: "ניווט", bestFor: "מתאים במיוחד ליום",
       all: "הכול", cafe: "קפה", dessert: "קינוחים", food: "אוכל", shopping: "קניות", mapUnavailable: "המפה לא נטענה. קישורי הניווט עדיין זמינים.",
       categories: { main: "נקודת פתיחה", special: "חוויה מיוחדת", architecture: "אדריכלות", viewpoint: "תצפית", culture: "תרבות", river: "נהר", nature: "טבע", shopping: "קניות", food: "אוכל" },
-      activeUntil: "גישה פעילה עד", freeUntil: "גישה חינם עד 31 בדצמבר 2026"
+      activeUntil: "גישה פעילה עד", freeUntil: "גישה חינם עד 31 בדצמבר 2026",
+      facebookPost: "קראו את הפוסט בפייסבוק", instagramPost: "צפו בפוסט באינסטגרם", photoGallery: "פתחו את גלריית התמונות", videoGallery: "פתחו את הסרטונים",
+      closeGallery: "סגירת הגלריה", previousPhoto: "התמונה הקודמת", nextPhoto: "התמונה הבאה", galleryPhoto: "תמונה", galleryOf: "מתוך", closeVideo: "סגירת נגן הווידאו"
     },
     en: {
       documentTitle: "The complete 4-day route | Wroc-love", skipToRoute: "Skip to the route",
@@ -57,7 +65,9 @@
       optional: "Optional", recommended: "Recommended", duration: "Time here", showMap: "Show on map", navigate: "Navigate", bestFor: "Best with Day",
       all: "All", cafe: "Coffee", dessert: "Desserts", food: "Food", shopping: "Shopping", mapUnavailable: "The map could not load. Navigation links are still available.",
       categories: { main: "Starting point", special: "Special", architecture: "Architecture", viewpoint: "Viewpoint", culture: "Culture", river: "River", nature: "Nature", shopping: "Shopping", food: "Food" },
-      activeUntil: "Access active until", freeUntil: "Free access until 31 December 2026"
+      activeUntil: "Access active until", freeUntil: "Free access until 31 December 2026",
+      facebookPost: "Read the Facebook post", instagramPost: "View the Instagram post", photoGallery: "Open the photo gallery", videoGallery: "Open the videos",
+      closeGallery: "Close the gallery", previousPhoto: "Previous photo", nextPhoto: "Next photo", galleryPhoto: "Photo", galleryOf: "of", closeVideo: "Close the video player"
     },
     pl: {
       documentTitle: "Pełna trasa na 4 dni | Wroc-love", skipToRoute: "Przejdź do trasy",
@@ -77,7 +87,9 @@
       optional: "Opcjonalnie", recommended: "Polecane", duration: "Czas na miejscu", showMap: "Pokaż na mapie", navigate: "Nawiguj", bestFor: "Najlepsze w dniu",
       all: "Wszystko", cafe: "Kawa", dessert: "Desery", food: "Jedzenie", shopping: "Zakupy", mapUnavailable: "Mapa nie została załadowana. Linki nawigacyjne nadal działają.",
       categories: { main: "Początek", special: "Wyjątkowe", architecture: "Architektura", viewpoint: "Widok", culture: "Kultura", river: "Rzeka", nature: "Natura", shopping: "Zakupy", food: "Jedzenie" },
-      activeUntil: "Dostęp aktywny do", freeUntil: "Bezpłatny dostęp do 31 grudnia 2026"
+      activeUntil: "Dostęp aktywny do", freeUntil: "Bezpłatny dostęp do 31 grudnia 2026",
+      facebookPost: "Przeczytaj post na Facebooku", instagramPost: "Zobacz post na Instagramie", photoGallery: "Otwórz galerię zdjęć", videoGallery: "Otwórz filmy",
+      closeGallery: "Zamknij galerię", previousPhoto: "Poprzednie zdjęcie", nextPhoto: "Następne zdjęcie", galleryPhoto: "Zdjęcie", galleryOf: "z", closeVideo: "Zamknij odtwarzacz wideo"
     }
   };
 
@@ -89,6 +101,14 @@
   };
   ui.de = translateUi(ui.en, "de");
   ui.cs = translateUi(ui.en, "cs");
+  Object.assign(ui.de, {
+    facebookPost: "Facebook-Beitrag lesen", instagramPost: "Instagram-Beitrag ansehen", photoGallery: "Fotogalerie öffnen", videoGallery: "Videos öffnen",
+    closeGallery: "Galerie schließen", previousPhoto: "Vorheriges Foto", nextPhoto: "Nächstes Foto", galleryPhoto: "Foto", galleryOf: "von", closeVideo: "Videoplayer schließen"
+  });
+  Object.assign(ui.cs, {
+    facebookPost: "Přečíst příspěvek na Facebooku", instagramPost: "Zobrazit příspěvek na Instagramu", photoGallery: "Otevřít fotogalerii", videoGallery: "Otevřít videa",
+    closeGallery: "Zavřít galerii", previousPhoto: "Předchozí fotografie", nextPhoto: "Další fotografie", galleryPhoto: "Fotografie", galleryOf: "z", closeVideo: "Zavřít přehrávač videa"
+  });
   supportedLanguages.forEach((code) => {
     if (code === "de" || code === "cs") Object.assign(ui[code], translateUi(routeConfig.ui?.en || {}, code));
     Object.assign(ui[code], routeConfig.ui?.[code] || {});
@@ -126,6 +146,164 @@
     return `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=${encodeURIComponent(destination)}&waypoints=${encodeURIComponent(waypoints)}&travelmode=walking`;
   }
 
+  function resourcesFor(item) {
+    return item.resources || window.WROC_LOCATION_MEDIA?.[item.id] || {};
+  }
+
+  function resourceActionsHtml(item) {
+    const resources = resourcesFor(item);
+    const actions = [];
+    if (resources.facebook) {
+      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="facebook-mark" aria-hidden="true">f</span></a>`);
+    }
+    if (resources.instagram) {
+      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="instagram-mark" aria-hidden="true"></span></a>`);
+    }
+    if (resources.gallery?.length) {
+      actions.push(`<button type="button" class="resource-icon gallery-resource" data-open-gallery="${escapeHtml(item.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span aria-hidden="true">📷</span></button>`);
+    }
+    if (resources.videos?.length) {
+      actions.push(`<button type="button" class="resource-icon video-resource" data-open-video="${escapeHtml(item.id)}" aria-label="${escapeHtml(t("videoGallery"))}" title="${escapeHtml(t("videoGallery"))}"><span class="video-mark" aria-hidden="true"></span></button>`);
+    }
+    return actions.length ? `<div class="resource-actions" aria-label="${escapeHtml(text(item.name))}">${actions.join("")}</div>` : "";
+  }
+
+  function ensureResourceModals() {
+    if (document.getElementById("gallery-modal")) return;
+    document.body.insertAdjacentHTML("beforeend", `
+      <div class="gallery-modal" id="gallery-modal" hidden>
+        <button type="button" class="gallery-backdrop" data-close-gallery aria-label="${escapeHtml(t("closeGallery"))}"></button>
+        <section class="gallery-dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-title">
+          <header class="gallery-header"><h2 id="gallery-title"></h2><button type="button" class="gallery-close" id="gallery-close" data-close-gallery>×</button></header>
+          <div class="gallery-stage">
+            <button type="button" class="gallery-arrow" id="gallery-prev" data-gallery-move="-1">‹</button>
+            <img class="gallery-image" id="gallery-image" alt="" />
+            <button type="button" class="gallery-arrow" id="gallery-next" data-gallery-move="1">›</button>
+          </div>
+          <p class="gallery-counter" id="gallery-counter"></p><div class="gallery-thumbnails" id="gallery-thumbnails"></div>
+        </section>
+      </div>
+      <div class="video-modal" id="video-modal" hidden>
+        <button type="button" class="gallery-backdrop" data-close-video aria-label="${escapeHtml(t("closeVideo"))}"></button>
+        <section class="video-dialog" role="dialog" aria-modal="true" aria-labelledby="video-title">
+          <header class="gallery-header"><h2 id="video-title"></h2><button type="button" class="gallery-close" id="video-close" data-close-video>×</button></header>
+          <video id="video-player" class="video-player" controls playsinline preload="metadata"></video><div class="video-choices" id="video-choices"></div>
+        </section>
+      </div>`);
+    translateResourceControls();
+  }
+
+  function translateResourceControls() {
+    const controls = [
+      ["gallery-close", "closeGallery"], ["gallery-prev", "previousPhoto"], ["gallery-next", "nextPhoto"], ["video-close", "closeVideo"]
+    ];
+    controls.forEach(([id, key]) => {
+      const control = document.getElementById(id);
+      if (!control) return;
+      control.setAttribute("aria-label", t(key));
+      control.title = t(key);
+    });
+    document.querySelectorAll("[data-close-gallery]").forEach((element) => element.setAttribute("aria-label", t("closeGallery")));
+    document.querySelectorAll("[data-close-video]").forEach((element) => element.setAttribute("aria-label", t("closeVideo")));
+  }
+
+  function locationById(id) {
+    return window.PREMIUM_STOPS.find((item) => item.id === id);
+  }
+
+  function renderGalleryPhoto() {
+    if (!activeGallery) return;
+    const images = resourcesFor(activeGallery).gallery;
+    const image = document.getElementById("gallery-image");
+    image.src = images[activeGalleryIndex];
+    image.alt = `${text(activeGallery.name)} — ${t("galleryPhoto")} ${activeGalleryIndex + 1}`;
+    document.getElementById("gallery-counter").textContent = `${t("galleryPhoto")} ${activeGalleryIndex + 1} ${t("galleryOf")} ${images.length}`;
+    document.querySelectorAll(".gallery-thumbnail").forEach((button, index) => {
+      const active = index === activeGalleryIndex;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-current", active ? "true" : "false");
+    });
+  }
+
+  function openGallery(id, trigger) {
+    const item = locationById(id);
+    const images = item && resourcesFor(item).gallery;
+    if (!images?.length) return;
+    activeGallery = item;
+    activeGalleryIndex = 0;
+    galleryTrigger = trigger || null;
+    document.getElementById("gallery-title").textContent = text(item.name);
+    document.getElementById("gallery-thumbnails").innerHTML = images.map((src, index) => `
+      <button type="button" class="gallery-thumbnail" data-gallery-index="${index}" aria-label="${escapeHtml(t("galleryPhoto"))} ${index + 1}"><img src="${escapeHtml(src)}" alt="" loading="lazy" /></button>`).join("");
+    document.getElementById("gallery-modal").hidden = false;
+    document.body.classList.add("gallery-open");
+    renderGalleryPhoto();
+    document.getElementById("gallery-close").focus();
+  }
+
+  function closeGallery() {
+    const modal = document.getElementById("gallery-modal");
+    if (!modal || modal.hidden) return;
+    modal.hidden = true;
+    document.body.classList.remove("gallery-open");
+    document.getElementById("gallery-image").removeAttribute("src");
+    activeGallery = null;
+    if (galleryTrigger?.isConnected) galleryTrigger.focus();
+    galleryTrigger = null;
+  }
+
+  function moveGallery(direction) {
+    if (!activeGallery) return;
+    const length = resourcesFor(activeGallery).gallery.length;
+    activeGalleryIndex = (activeGalleryIndex + direction + length) % length;
+    renderGalleryPhoto();
+  }
+
+  function renderVideo() {
+    if (!activeVideoLocation) return;
+    const videos = resourcesFor(activeVideoLocation).videos;
+    const selected = videos[activeVideoIndex];
+    const player = document.getElementById("video-player");
+    player.pause();
+    player.src = selected.src;
+    player.setAttribute("aria-label", text(selected.title));
+    document.getElementById("video-title").textContent = `${text(activeVideoLocation.name)} — ${text(selected.title)}`;
+    document.querySelectorAll(".video-choice").forEach((button, index) => {
+      const active = index === activeVideoIndex;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+      button.textContent = text(videos[index].title);
+    });
+  }
+
+  function openVideo(id, trigger) {
+    const item = locationById(id);
+    const videos = item && resourcesFor(item).videos;
+    if (!videos?.length) return;
+    activeVideoLocation = item;
+    activeVideoIndex = 0;
+    videoTrigger = trigger || null;
+    document.getElementById("video-choices").innerHTML = videos.map((video, index) => `<button type="button" class="video-choice" data-video-index="${index}" aria-pressed="${index === 0}">${escapeHtml(text(video.title))}</button>`).join("");
+    document.getElementById("video-modal").hidden = false;
+    document.body.classList.add("gallery-open");
+    renderVideo();
+    document.getElementById("video-close").focus();
+  }
+
+  function closeVideo() {
+    const modal = document.getElementById("video-modal");
+    if (!modal || modal.hidden) return;
+    const player = document.getElementById("video-player");
+    player.pause();
+    player.removeAttribute("src");
+    player.load();
+    modal.hidden = true;
+    document.body.classList.remove("gallery-open");
+    activeVideoLocation = null;
+    if (videoTrigger?.isConnected) videoTrigger.focus();
+    videoTrigger = null;
+  }
+
   function setDocumentLanguage() {
     document.documentElement.lang = language;
     document.documentElement.dir = language === "he" ? "rtl" : "ltr";
@@ -146,6 +324,12 @@
       link.href = `/?lang=${language}`;
     });
     updateAccessStatus();
+    translateResourceControls();
+    if (activeGallery) {
+      document.getElementById("gallery-title").textContent = text(activeGallery.name);
+      renderGalleryPhoto();
+    }
+    if (activeVideoLocation) renderVideo();
   }
 
   function updateAccessStatus() {
@@ -203,6 +387,7 @@
             <button type="button" data-show-stop="${item.id}">${escapeHtml(t("showMap"))}</button>
             <a href="${googleNavigationUrl(item)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>
           </div>
+          ${resourceActionsHtml(item)}
         </div>
         <div class="stop-time"><strong>${escapeHtml(item.time)}</strong><span>${escapeHtml(t("duration"))}: ${escapeHtml(item.duration)}</span></div>
       </article>`).join("");
@@ -218,7 +403,7 @@
   }
 
   function popupHtml(item) {
-    return `<div class="premium-popup"><strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span><p>${escapeHtml(text(item.description))}</p><a href="${googleNavigationUrl(item)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a></div>`;
+    return `<div class="premium-popup"><strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span><p>${escapeHtml(text(item.description))}</p><a href="${googleNavigationUrl(item)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>${resourceActionsHtml(item)}</div>`;
   }
 
   function renderMap(stops) {
@@ -321,7 +506,26 @@
       recommendationFilter = filterButton.dataset.recFilter;
       renderRecommendationFilters();
       renderRecommendations();
+      return;
     }
+    const galleryButton = event.target.closest("[data-open-gallery]");
+    if (galleryButton) { openGallery(galleryButton.dataset.openGallery, galleryButton); return; }
+    const videoButton = event.target.closest("[data-open-video]");
+    if (videoButton) { openVideo(videoButton.dataset.openVideo, videoButton); return; }
+    if (event.target.closest("[data-close-gallery]")) { closeGallery(); return; }
+    if (event.target.closest("[data-close-video]")) { closeVideo(); return; }
+    const galleryMove = event.target.closest("[data-gallery-move]");
+    if (galleryMove) { moveGallery(Number(galleryMove.dataset.galleryMove)); return; }
+    const galleryThumbnail = event.target.closest("[data-gallery-index]");
+    if (galleryThumbnail) { activeGalleryIndex = Number(galleryThumbnail.dataset.galleryIndex); renderGalleryPhoto(); return; }
+    const videoChoice = event.target.closest("[data-video-index]");
+    if (videoChoice) { activeVideoIndex = Number(videoChoice.dataset.videoIndex); renderVideo(); }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") { closeGallery(); closeVideo(); }
+    if (activeGallery && event.key === "ArrowLeft") moveGallery(document.documentElement.dir === "rtl" ? 1 : -1);
+    if (activeGallery && event.key === "ArrowRight") moveGallery(document.documentElement.dir === "rtl" ? -1 : 1);
   });
 
   document.getElementById("fit-day").addEventListener("click", fitDay);
@@ -333,5 +537,6 @@
 
   accessState = await window.WROC_CAMPAIGN_ACCESS.authorize(language);
   if (!accessState.allowed) return;
+  ensureResourceModals();
   render();
 })();

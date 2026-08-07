@@ -144,13 +144,26 @@
       </section>
     </div>
 
+    <div class="video-modal" id="video-modal" hidden role="dialog" aria-modal="true" aria-labelledby="video-title">
+      <div class="gallery-backdrop" data-close-video></div>
+      <section class="video-dialog">
+        <header class="gallery-header">
+          <h2 id="video-title"></h2>
+          <button type="button" class="gallery-close" id="video-close" aria-label="סגירת נגן הווידאו">×</button>
+        </header>
+        <video id="video-player" class="video-player" controls playsinline preload="metadata"></video>
+        <div class="video-choices" id="video-choices"></div>
+      </section>
+    </div>
+
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="/data/extra-languages.js?v=20260807-2"></script>
+    <script src="/data/extra-languages.js?v=20260807-3"></script>
     <script src="/campaign-access.js?v=20260807-3"></script>
-    <script src="/data/translations.js?v=20260807-2"></script>
-    <script src="/data/locations.js?v=20260807-2"></script>
-    <script src="/app.js?v=20260807-4"></script>
+    <script src="/data/translations.js?v=20260807-3"></script>
+    <script src="/data/location-media.js?v=20260807-1"></script>
+    <script src="/data/locations.js?v=20260807-3"></script>
+    <script src="/app.js?v=20260807-5"></script>
   </body>
 </html>

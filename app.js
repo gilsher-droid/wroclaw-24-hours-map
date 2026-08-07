@@ -15,6 +15,9 @@
   let activeGallery = null;
   let activeGalleryIndex = 0;
   let galleryTrigger = null;
+  let activeVideoLocation = null;
+  let activeVideoIndex = 0;
+  let videoTrigger = null;
 
   const categoryColors = {
     start: "#D6A657",
@@ -51,13 +54,16 @@
     const resources = location.resources || {};
     const actions = [];
     if (resources.facebook) {
-      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span aria-hidden="true">f</span></a>`);
+      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="facebook-mark" aria-hidden="true">f</span></a>`);
     }
     if (resources.instagram) {
-      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span aria-hidden="true">◎</span></a>`);
+      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="instagram-mark" aria-hidden="true"><span></span></span></a>`);
     }
     if (resources.gallery?.length) {
       actions.push(`<button type="button" class="resource-icon gallery-resource open-gallery" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span aria-hidden="true">📷</span></button>`);
+    }
+    if (resources.videos?.length) {
+      actions.push(`<button type="button" class="resource-icon video-resource open-video" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("videoGallery"))}" title="${escapeHtml(t("videoGallery"))}"><span class="video-mark" aria-hidden="true"></span></button>`);
     }
     return actions.length ? `<div class="resource-actions" aria-label="${escapeHtml(location.name[currentLanguage])}">${actions.join("")}</div>` : "";
   }
@@ -370,6 +376,57 @@
     next.title = t("nextPhoto");
   }
 
+  function renderVideo() {
+    if (!activeVideoLocation) return;
+    const videos = activeVideoLocation.resources.videos;
+    const selected = videos[activeVideoIndex];
+    const player = document.getElementById("video-player");
+    player.pause();
+    player.src = selected.src;
+    player.setAttribute("aria-label", selected.title[currentLanguage]);
+    document.getElementById("video-title").textContent = `${activeVideoLocation.name[currentLanguage]} — ${selected.title[currentLanguage]}`;
+    document.querySelectorAll(".video-choice").forEach((button, index) => {
+      const active = index === activeVideoIndex;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+      button.textContent = videos[index].title[currentLanguage];
+    });
+  }
+
+  function openVideo(locationId, trigger) {
+    const location = allLocations().find((item) => item.id === locationId);
+    if (!location?.resources?.videos?.length) return;
+    activeVideoLocation = location;
+    activeVideoIndex = 0;
+    videoTrigger = trigger || null;
+    document.getElementById("video-choices").innerHTML = location.resources.videos.map((video, index) => `
+      <button type="button" class="video-choice" data-video-index="${index}" aria-pressed="${index === 0}">${escapeHtml(video.title[currentLanguage])}</button>`).join("");
+    document.getElementById("video-modal").hidden = false;
+    document.body.classList.add("gallery-open");
+    renderVideo();
+    document.getElementById("video-close").focus();
+  }
+
+  function closeVideo() {
+    const modal = document.getElementById("video-modal");
+    if (modal.hidden) return;
+    const player = document.getElementById("video-player");
+    player.pause();
+    player.removeAttribute("src");
+    player.load();
+    modal.hidden = true;
+    document.body.classList.remove("gallery-open");
+    activeVideoLocation = null;
+    if (videoTrigger?.isConnected) videoTrigger.focus();
+    videoTrigger = null;
+  }
+
+  function translateVideoControls() {
+    const close = document.getElementById("video-close");
+    close.setAttribute("aria-label", t("closeVideo"));
+    close.title = t("closeVideo");
+  }
+
   function setLanguage(language) {
     if (!supportedLanguages.includes(language)) return;
     currentLanguage = language;
@@ -386,10 +443,12 @@
     renderEvening();
     if (map) refreshMarkerLanguage();
     translateGalleryControls();
+    translateVideoControls();
     if (activeGallery) {
       document.getElementById("gallery-title").textContent = activeGallery.name[currentLanguage];
       renderGalleryPhoto();
     }
+    if (activeVideoLocation) renderVideo();
     updateCampaignNotice();
   }
 
@@ -438,21 +497,30 @@
     document.addEventListener("click", (event) => {
       const galleryButton = event.target.closest(".open-gallery");
       if (galleryButton) openGallery(galleryButton.dataset.location, galleryButton);
+      const videoButton = event.target.closest(".open-video");
+      if (videoButton) openVideo(videoButton.dataset.location, videoButton);
       const thumbnail = event.target.closest(".gallery-thumbnail");
       if (thumbnail && activeGallery) {
         activeGalleryIndex = Number(thumbnail.dataset.galleryIndex);
         renderGalleryPhoto();
       }
       if (event.target.matches("[data-close-gallery]")) closeGallery();
+      if (event.target.matches("[data-close-video]")) closeVideo();
+      const videoChoice = event.target.closest(".video-choice");
+      if (videoChoice && activeVideoLocation) {
+        activeVideoIndex = Number(videoChoice.dataset.videoIndex);
+        renderVideo();
+      }
     });
     document.getElementById("gallery-close").addEventListener("click", closeGallery);
     document.getElementById("gallery-prev").addEventListener("click", () => moveGallery(-1));
     document.getElementById("gallery-next").addEventListener("click", () => moveGallery(1));
+    document.getElementById("video-close").addEventListener("click", closeVideo);
     document.addEventListener("keydown", (event) => {
-      if (!activeGallery) return;
-      if (event.key === "Escape") closeGallery();
-      if (event.key === "ArrowLeft") moveGallery(-1);
-      if (event.key === "ArrowRight") moveGallery(1);
+      if (event.key === "Escape" && activeVideoLocation) closeVideo();
+      else if (event.key === "Escape" && activeGallery) closeGallery();
+      if (activeGallery && event.key === "ArrowLeft") moveGallery(-1);
+      if (activeGallery && event.key === "ArrowRight") moveGallery(1);
     });
   }
 
@@ -467,6 +535,7 @@
   renderTips();
   renderEvening();
   translateGalleryControls();
+  translateVideoControls();
   bindControls();
   initMap();
   updateCampaignNotice();
