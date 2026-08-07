@@ -134,3 +134,54 @@ window.EVENING_LOCATIONS = [
     value.cs = window.EXTRA_ROUTE_TRANSLATIONS?.cs?.[value.en] || value.en;
   });
 }));
+
+function galleryAssets(prefix, count) {
+  return Array.from({ length: count }, (_, index) =>
+    `/assets/gallery-${prefix}-${String(index + 1).padStart(2, "0")}.jpg`);
+}
+
+const sharedGalleries = {
+  gnomes: galleryAssets("gnomes", 5),
+  university: galleryAssets("university", 5),
+  hala: galleryAssets("hala", 6),
+  cathedral: galleryAssets("cathedral", 6),
+  nfm: galleryAssets("nfm", 3),
+  opera: galleryAssets("opera", 6),
+  boguslawskiego: galleryAssets("boguslawskiego", 6)
+};
+
+const locationResources = {
+  rynek: {
+    facebook: "https://www.facebook.com/61591964083308/posts/122107696491398802/",
+    instagram: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc4V7NnBl_/",
+    gallery: sharedGalleries.gnomes
+  },
+  university: { gallery: sharedGalleries.university },
+  aula: { gallery: sharedGalleries.university },
+  "math-tower": { gallery: sharedGalleries.university },
+  ossolineum: {
+    facebook: "https://www.facebook.com/photo/?fbid=122109815397398802"
+  },
+  "hala-targowa": {
+    facebook: "https://www.facebook.com/photo/?fbid=122110916907398802",
+    instagram: "https://www.instagram.com/wroclaw.lowersilesia/p/DbpTgt_HFkH/",
+    gallery: sharedGalleries.hala
+  },
+  "most-tumski": { gallery: sharedGalleries.cathedral },
+  ostrow: { gallery: sharedGalleries.cathedral },
+  cathedral: { gallery: sharedGalleries.cathedral },
+  nfm: { gallery: sharedGalleries.nfm },
+  opera: {
+    facebook: "https://www.facebook.com/photo/?fbid=122108355723398802",
+    gallery: sharedGalleries.opera
+  },
+  boguslawskiego: {
+    facebook: "https://www.facebook.com/61591964083308/posts/122109385623398802/",
+    instagram: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc11E7HIcn/",
+    gallery: sharedGalleries.boguslawskiego
+  }
+};
+
+[window.LOCATIONS, window.EVENING_LOCATIONS].forEach((items) => items.forEach((item) => {
+  item.resources = locationResources[item.id] || {};
+}));
