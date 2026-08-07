@@ -1,4 +1,4 @@
-(function () {
+(async function () {
   "use strict";
 
   const supportedLanguages = ["he", "en", "pl"];
@@ -268,6 +268,14 @@
     renderTips();
     renderEvening();
     if (map) refreshMarkerLanguage();
+    updateCampaignNotice();
+  }
+
+  function updateCampaignNotice() {
+    const notice = document.getElementById("campaign-route-notice");
+    if (!notice || !window.WROC_CAMPAIGN_ACCESS?.isFreeNow()) return;
+    notice.textContent = window.WROC_CAMPAIGN_ACCESS.text("freeUntil", currentLanguage);
+    notice.hidden = false;
   }
 
   function showToast(message) {
@@ -307,6 +315,9 @@
     ["print-button", "print-button-bottom"].forEach((id) => document.getElementById(id).addEventListener("click", () => window.print()));
   }
 
+  const access = await window.WROC_CAMPAIGN_ACCESS.authorize(currentLanguage);
+  if (!access.allowed) return;
+
   updateDocumentLanguage();
   translateStaticContent();
   renderFilters();
@@ -316,4 +327,5 @@
   renderEvening();
   bindControls();
   initMap();
+  updateCampaignNotice();
 })();

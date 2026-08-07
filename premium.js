@@ -1,4 +1,4 @@
-(function () {
+(async function () {
   "use strict";
 
   const API_ORIGIN = "https://api.wroc-love.com";
@@ -12,6 +12,7 @@
   let recommendationFilter = "all";
   let map;
   let routeLine;
+  let accessState = null;
   const mapLayers = [];
   const markerById = new Map();
 
@@ -31,7 +32,7 @@
       optional: "רשות", recommended: "מומלץ", duration: "זמן במקום", showMap: "הציגו במפה", navigate: "ניווט", bestFor: "מתאים במיוחד ליום",
       all: "הכול", cafe: "קפה", dessert: "קינוחים", food: "אוכל", shopping: "קניות", mapUnavailable: "המפה לא נטענה. קישורי הניווט עדיין זמינים.",
       categories: { main: "נקודת פתיחה", special: "חוויה מיוחדת", architecture: "אדריכלות", viewpoint: "תצפית", culture: "תרבות", river: "נהר", nature: "טבע", shopping: "קניות", food: "אוכל" },
-      activeUntil: "גישה פעילה עד"
+      activeUntil: "גישה פעילה עד", freeUntil: "גישה חינם עד 31 בדצמבר 2026"
     },
     en: {
       brandSubtitle: "Your complete route", activeAccess: "Access active", logout: "Log out",
@@ -48,7 +49,7 @@
       optional: "Optional", recommended: "Recommended", duration: "Time here", showMap: "Show on map", navigate: "Navigate", bestFor: "Best with Day",
       all: "All", cafe: "Coffee", dessert: "Desserts", food: "Food", shopping: "Shopping", mapUnavailable: "The map could not load. Navigation links are still available.",
       categories: { main: "Starting point", special: "Special", architecture: "Architecture", viewpoint: "Viewpoint", culture: "Culture", river: "River", nature: "Nature", shopping: "Shopping", food: "Food" },
-      activeUntil: "Access active until"
+      activeUntil: "Access active until", freeUntil: "Free access until 31 December 2026"
     },
     pl: {
       brandSubtitle: "Pełna trasa", activeAccess: "Dostęp aktywny", logout: "Wyloguj",
@@ -65,7 +66,7 @@
       optional: "Opcjonalnie", recommended: "Polecane", duration: "Czas na miejscu", showMap: "Pokaż na mapie", navigate: "Nawiguj", bestFor: "Najlepsze w dniu",
       all: "Wszystko", cafe: "Kawa", dessert: "Desery", food: "Jedzenie", shopping: "Zakupy", mapUnavailable: "Mapa nie została załadowana. Linki nawigacyjne nadal działają.",
       categories: { main: "Początek", special: "Wyjątkowe", architecture: "Architektura", viewpoint: "Widok", culture: "Kultura", river: "Rzeka", nature: "Natura", shopping: "Zakupy", food: "Jedzenie" },
-      activeUntil: "Dostęp aktywny do"
+      activeUntil: "Dostęp aktywny do", freeUntil: "Bezpłatny dostęp do 31 grudnia 2026"
     }
   };
 
@@ -115,6 +116,25 @@
       button.classList.toggle("active", active);
       button.setAttribute("aria-pressed", String(active));
     });
+    updateAccessStatus();
+  }
+
+  function updateAccessStatus() {
+    if (!accessState) return;
+    const status = document.getElementById("access-status");
+    const logout = document.getElementById("logout-button");
+    if (accessState.free) {
+      status.textContent = t("freeUntil");
+      logout.hidden = true;
+      return;
+    }
+    logout.hidden = false;
+    if (accessState.expiresAt) {
+      const locale = language === "pl" ? "pl-PL" : language === "en" ? "en-GB" : "he-IL";
+      status.textContent = `${t("activeUntil")} ${new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(new Date(accessState.expiresAt))}`;
+    } else {
+      status.textContent = t("activeAccess");
+    }
   }
 
   function renderDayNavigation() {
@@ -282,16 +302,7 @@
     window.location.replace(`/access.html?lang=${language}`);
   });
 
-  fetch(`${API_ORIGIN}/api/access/status`, { credentials: "include" })
-    .then((response) => response.json())
-    .then((result) => {
-      if (!result.active) return window.location.replace(`/access.html?lang=${language}`);
-      if (result.expiresAt) {
-        const locale = language === "pl" ? "pl-PL" : language === "en" ? "en-GB" : "he-IL";
-        document.getElementById("access-status").textContent = `${t("activeUntil")} ${new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(new Date(result.expiresAt))}`;
-      }
-    })
-    .catch(() => window.location.replace(`/access.html?lang=${language}`));
-
+  accessState = await window.WROC_CAMPAIGN_ACCESS.authorize(language);
+  if (!accessState.allowed) return;
   render();
 })();
