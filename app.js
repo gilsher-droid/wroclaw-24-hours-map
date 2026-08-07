@@ -145,14 +145,18 @@
       fitRoute();
       return;
     }
-    const visibleMarkers = [...markers.values()].filter((marker) => marker.category === category);
-    if (!visibleMarkers.length) return;
-    if (visibleMarkers.length === 1) {
-      map.setView(visibleMarkers[0].getLatLng(), 15, { animate: true });
+    const visibleLocations = category === "evening"
+      ? window.EVENING_LOCATIONS
+      : window.LOCATIONS.filter((location) => location.category === category);
+    if (!visibleLocations.length) return;
+    map.stop();
+    map.invalidateSize({ pan: false });
+    if (visibleLocations.length === 1) {
+      map.setView(visibleLocations[0].coordinates, 15, { animate: false });
       return;
     }
-    const bounds = L.latLngBounds(visibleMarkers.map((marker) => marker.getLatLng()));
-    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 15, animate: true });
+    const bounds = L.latLngBounds(visibleLocations.map((location) => location.coordinates));
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 15, animate: false });
   }
 
   function renderFilters() {
@@ -186,7 +190,7 @@
       button.classList.toggle("active", active);
       button.setAttribute("aria-pressed", String(active));
     });
-    fitFilteredMarkers(category);
+    window.requestAnimationFrame(() => fitFilteredMarkers(category));
   }
 
   function showLocation(id) {
