@@ -125,3 +125,12 @@ window.EVENING_LOCATIONS = [
     description: { he: "תחנה מרשימה המזכירה טירה. שלבו אותה בסיום רק אם היא רלוונטית להמשך הנסיעה.", en: "A striking station that resembles a castle. Add it at the end only if it suits your onward journey.", pl: "Efektowny dworzec przypominający zamek. Dodaj go na końcu tylko wtedy, gdy pasuje do dalszej podróży." }
   }
 ];
+
+[window.LOCATIONS, window.EVENING_LOCATIONS].forEach((items) => items.forEach((item) => {
+  ["name", "description", "recommendation", "time"].forEach((field) => {
+    const value = item[field];
+    if (!value || typeof value !== "object" || !value.en) return;
+    value.de = window.EXTRA_ROUTE_TRANSLATIONS?.de?.[value.en] || value.en;
+    value.cs = window.EXTRA_ROUTE_TRANSLATIONS?.cs?.[value.en] || value.en;
+  });
+}));

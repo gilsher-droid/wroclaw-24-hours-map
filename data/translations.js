@@ -249,3 +249,4 @@ window.TRANSLATIONS = {
     shareText: "Wygodna jednodniowa trasa przez Stare Miasto, uniwersytet, rzekę i Ostrów Tumski."
   }
 };
+Object.assign(window.TRANSLATIONS, window.EXTRA_MAP_TRANSLATIONS || {});

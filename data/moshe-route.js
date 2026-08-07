@@ -1,5 +1,5 @@
 (function () {
-  const l = (he, en, pl) => ({ he, en, pl });
+  const l = (he, en, pl) => ({ he, en, pl, de: window.EXTRA_ROUTE_TRANSLATIONS?.de?.[en] || en, cs: window.EXTRA_ROUTE_TRANSLATIONS?.cs?.[en] || en });
   const stop = (id, day, order, coordinates, category, time, duration, optional, name, localName, description, tip) => ({
     id, day, order, coordinates, category, time, duration, optional, name, localName, description, tip
   });
