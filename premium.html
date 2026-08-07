@@ -5,80 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#062b5c" />
     <meta name="robots" content="noindex,nofollow" />
+    <meta name="description" content="מסלול אינטראקטיבי מלא לארבעה ימים בוורוצלב" />
     <title>המסלול המלא ל־4 ימים | Wroc-love</title>
     <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://tile.openstreetmap.org" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBfMZQeQxFvPH8CRbFppfRI8OSXwnksAzkGmQ=" crossorigin="" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="premium.css" />
   </head>
   <body class="premium-body">
+    <a class="skip-link" href="#route-content">דלגו למסלול</a>
     <header class="premium-header">
-      <a class="brand" href="/">
+      <a class="brand" href="/?lang=he">
         <img src="assets/logo.png" alt="Wrocław & Lower Silesia" />
-        <span><strong>Wroc-love</strong><small>המסלול המלא שלכם</small></span>
+        <span><strong>Wroc-love</strong><small data-ui="brandSubtitle">המסלול המלא שלכם</small></span>
       </a>
-      <div class="premium-account">
-        <span id="access-status">גישה פעילה</span>
-        <button id="logout-button" type="button">יציאה</button>
+      <div class="premium-tools">
+        <div class="premium-languages" role="group" aria-label="Language">
+          <button type="button" data-premium-lang="he">עברית</button>
+          <button type="button" data-premium-lang="en">English</button>
+          <button type="button" data-premium-lang="pl">Polski</button>
+        </div>
+        <div class="premium-account">
+          <span id="access-status" data-ui="activeAccess">גישה פעילה</span>
+          <button id="logout-button" type="button" data-ui="logout">יציאה</button>
+        </div>
       </div>
     </header>
 
     <main>
       <section class="premium-hero">
         <div>
-          <span class="eyebrow">וורוצלב בקצב נכון</span>
-          <h1>המסלול המלא ל־4 ימים</h1>
-          <p>כל יום בנוי כאזור אחד נוח, כדי שתבלו בעיר ולא בנסיעות הלוך ושוב.</p>
+          <span class="eyebrow" data-ui="eyebrow">וורוצלב בקצב שמתאים לכן</span>
+          <h1 data-ui="title">ארבעה ימים. עיר אחת. בלי לבזבז זמן על תכנון.</h1>
+          <p data-ui="subtitle">מסלול אישי לאם ולבת לביקור ראשון: כל יום באזור אחד, עם סדר ברור, מפה חיה, ניווט והמלצות שמתאימות לקצב אמיתי.</p>
         </div>
-        <aside class="trip-note"><strong>טיפ קטן</strong><span>אפשר להחליף בין הימים לפי מזג האוויר. יום 3 מתאים במיוחד ליום נעים ויבש.</span></aside>
+        <aside class="trip-note">
+          <strong data-ui="smartTip">איך משתמשים במסלול</strong>
+          <span data-ui="smartTipBody">בחרו יום, פתחו תחנה במפה וצאו לניווט. אפשר להחליף בין הימים לפי מזג האוויר והאנרגיה.</span>
+        </aside>
       </section>
 
-      <nav class="day-nav" aria-label="בחירת יום">
-        <a href="#day-1">יום 1</a><a href="#day-2">יום 2</a><a href="#day-3">יום 3</a><a href="#day-4">יום 4</a>
-      </nav>
-
-      <section class="itinerary-day" id="day-1">
-        <div class="day-intro"><span>יום 1</span><h2>העיר העתיקה והגמדים</h2><p>היכרות רגועה עם הלב של ורוצלב, בלי למהר ועם זמן לעצירות קטנות בדרך.</p></div>
-        <ol class="stop-list">
-          <li><b>09:00</b><div><strong>כיכר השוק ובית העירייה</strong><p>מתחילים כשהכיכר עוד רגועה ומקבלים תחושה ראשונה של העיר.</p><a href="https://www.google.com/maps/search/?api=1&query=Rynek+Wroclaw" target="_blank" rel="noreferrer">ניווט ב־Google Maps</a></div></li>
-          <li><b>10:15</b><div><strong>מסלול גמדים קצר</strong><p>מחפשים כמה מהגמדים המוכרים סביב הכיכר, בלי להפוך את היום למרדף.</p><a href="https://www.google.com/maps/search/?api=1&query=Wroclaw+Dwarfs+Rynek" target="_blank" rel="noreferrer">פתיחת נקודת התחלה</a></div></li>
-          <li><b>12:00</b><div><strong>רחוב Świdnicka ובית האופרה</strong><p>הליכה נעימה דרומה דרך אחד הרחובות המרכזיים של העיר.</p><a href="https://www.google.com/maps/search/?api=1&query=Wroclaw+Opera" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>15:30</b><div><strong>רובע ארבע הדתות</strong><p>סמטאות, חצרות ובתי קפה באווירה שונה מהכיכר הראשית.</p><a href="https://www.google.com/maps/search/?api=1&query=Four+Denominations+District+Wroclaw" target="_blank" rel="noreferrer">ניווט</a></div></li>
-        </ol>
+      <section class="trip-dashboard" aria-label="Trip overview">
+        <article><strong>4</strong><span data-ui="days">ימים</span></article>
+        <article><strong>26</strong><span data-ui="routeStops">תחנות במסלולים</span></article>
+        <article><strong>10</strong><span data-ui="recommendations">המלצות אוכל וקניות</span></article>
+        <article><strong>3</strong><span data-ui="languages">שפות</span></article>
       </section>
 
-      <section class="itinerary-day" id="day-2">
-        <div class="day-intro"><span>יום 2</span><h2>האוניברסיטה, הנהר ואוסטרוב טומסקי</h2><p>יום של תצפית, מים והחלק העתיק והשקט ביותר של העיר.</p></div>
-        <ol class="stop-list">
-          <li><b>09:30</b><div><strong>אוניברסיטת ורוצלב</strong><p>אם פתוח, כדאי לעלות למגדל המתמטי ולהיכנס לאולם לאופולדינה.</p><a href="https://www.google.com/maps/search/?api=1&query=University+of+Wroclaw+Museum" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>11:30</b><div><strong>Ossolineum והחצר</strong><p>פינה יפה ושקטה שרבים עוברים לידה בלי להיכנס.</p><a href="https://www.google.com/maps/search/?api=1&query=Ossolineum+Wroclaw" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>13:00</b><div><strong>איי האודר וגשרי העיר</strong><p>חוצים ברגל בין האיים ועוצרים לארוחה או קפה על הדרך.</p><a href="https://www.google.com/maps/search/?api=1&query=Wyspa+Slodowa+Wroclaw" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>17:30</b><div><strong>אוסטרוב טומסקי</strong><p>מגיעים לקראת ערב, כשהאור רך והאזור מקבל אווירה מיוחדת.</p><a href="https://www.google.com/maps/search/?api=1&query=Ostrow+Tumski+Wroclaw" target="_blank" rel="noreferrer">ניווט</a></div></li>
-        </ol>
+      <nav class="day-nav" aria-label="בחירת יום" id="day-nav"></nav>
+
+      <section class="day-overview" id="route-content">
+        <div class="day-copy">
+          <span class="day-kicker" id="day-kicker"></span>
+          <h2 id="day-title"></h2>
+          <p id="day-description"></p>
+          <div class="day-stats" id="day-stats"></div>
+          <div class="day-actions">
+            <a class="button button-primary" id="navigate-day" target="_blank" rel="noopener" data-ui="navigateDay">פתחו את כל היום ב־Google Maps</a>
+            <button class="button button-quiet" id="fit-day" type="button" data-ui="fitDay">הציגו את כל המסלול</button>
+          </div>
+        </div>
+        <aside class="day-advice">
+          <span data-ui="todayAdvice">המלצת היום</span>
+          <strong id="day-advice"></strong>
+          <p id="day-weather"></p>
+        </aside>
       </section>
 
-      <section class="itinerary-day" id="day-3">
-        <div class="day-intro"><span>יום 3</span><h2>Hydropolis, Hala Stulecia והמזרקה</h2><p>יום במזרח העיר שמשלב מוזיאון, אדריכלות, גנים ומים.</p></div>
-        <ol class="stop-list">
-          <li><b>09:30</b><div><strong>Hydropolis</strong><p>מוזיאון אינטראקטיבי ומושקע. מומלץ להזמין שעה מראש בתקופות עמוסות.</p><a href="https://www.google.com/maps/search/?api=1&query=Hydropolis+Wroclaw" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>12:30</b><div><strong>Hala Stulecia</strong><p>מבנה חשוב ומרשים, גם למי שאינו חובב אדריכלות.</p><a href="https://www.google.com/maps/search/?api=1&query=Centennial+Hall+Wroclaw" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>14:00</b><div><strong>הגן היפני</strong><p>הפסקה ירוקה ונעימה סמוך לאולם המאה.</p><a href="https://www.google.com/maps/search/?api=1&query=Japanese+Garden+Wroclaw" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>18:00</b><div><strong>Pergola והמזרקה המולטימדיאלית</strong><p>מסיימים באזור הפתוח; כדאי לבדוק את שעות המופעים העונתיות ביום הביקור.</p><a href="https://www.google.com/maps/search/?api=1&query=Wroclaw+Multimedia+Fountain" target="_blank" rel="noreferrer">ניווט</a></div></li>
-        </ol>
+      <section class="premium-map-section" aria-labelledby="map-heading">
+        <div class="section-heading premium-section-heading">
+          <div>
+            <span class="section-kicker" data-ui="orientation">התמצאות מהירה</span>
+            <h2 id="map-heading" data-ui="mapTitle">המפה של היום</h2>
+          </div>
+          <div class="map-legend" id="map-legend"></div>
+        </div>
+        <div id="premium-map" role="application" aria-label="מפה אינטראקטיבית של המסלול"></div>
+        <p class="map-note" data-ui="mapNote">הקו מציג את סדר התחנות. כפתור הניווט פותח מסלול מותאם לרחובות ב־Google Maps.</p>
       </section>
 
-      <section class="itinerary-day" id="day-4">
-        <div class="day-intro"><span>יום 4</span><h2>קניות, שיט, בתי קפה והשלמות</h2><p>יום גמיש שמאפשר להשלים מה שאהבתם ולשמור זמן לנשימה.</p></div>
-        <ol class="stop-list">
-          <li><b>10:00</b><div><strong>Renoma</strong><p>מרכז קניות קטן יותר במבנה אייקוני, נוח גם לביקור קצר.</p><a href="https://www.google.com/maps/search/?api=1&query=Renoma+Wroclaw" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>12:00</b><div><strong>Wroclavia</strong><p>למי שרוצה מבחר גדול יותר של חנויות ואוכל, סמוך לתחנה המרכזית.</p><a href="https://www.google.com/maps/search/?api=1&query=Wroclavia" target="_blank" rel="noreferrer">ניווט</a></div></li>
-          <li><b>15:30</b><div><strong>שיט קצר באודר</strong><p>דרך רגועה לראות את קו העיר מזווית אחרת; הפעילות תלויה בעונה ובמזג האוויר.</p><a href="https://www.google.com/maps/search/?api=1&query=Wroclaw+river+cruise+marina" target="_blank" rel="noreferrer">חיפוש נקודות יציאה</a></div></li>
-          <li><b>17:30</b><div><strong>קפה והשלמות במרכז</strong><p>חוזרים לאזור שאהבתם או בוחרים בית קפה בלי לנסות להספיק עוד רשימה.</p><a href="https://www.google.com/maps/search/?api=1&query=specialty+coffee+Wroclaw+Rynek" target="_blank" rel="noreferrer">בתי קפה בסביבה</a></div></li>
-        </ol>
+      <section class="route-layout">
+        <div class="route-column">
+          <div class="section-heading premium-section-heading compact">
+            <div>
+              <span class="section-kicker" data-ui="byOrder">לפי הסדר</span>
+              <h2 data-ui="dailySchedule">לוח היום והתחנות</h2>
+            </div>
+          </div>
+          <div class="premium-stop-list" id="premium-stop-list"></div>
+        </div>
+
+        <aside class="planner-column">
+          <section class="planner-card">
+            <span class="section-kicker" data-ui="atAGlance">במבט אחד</span>
+            <h2 data-ui="suggestedSchedule">לוח זמנים מוצע</h2>
+            <ol id="premium-schedule"></ol>
+          </section>
+          <section class="planner-card soft">
+            <span class="section-kicker" data-ui="goodToKnow">כדאי לדעת</span>
+            <h2 data-ui="flexibility">גמישות בלי לפספס</h2>
+            <ul id="day-tips"></ul>
+          </section>
+        </aside>
       </section>
 
-      <section class="premium-closing"><span class="eyebrow">שמרו את הדף בטלפון</span><h2>המסלול שלכם זמין לאורך תקופת הגישה.</h2><a href="#day-1" class="button button-primary">חזרה ליום הראשון</a></section>
+      <section class="recommendations-section" id="recommendations-section">
+        <div class="section-heading premium-section-heading">
+          <div>
+            <span class="section-kicker" data-ui="betweenStops">בין התחנות</span>
+            <h2 data-ui="foodShopping">אוכל, קפה, קינוחים וקניות</h2>
+          </div>
+          <div class="recommendation-filters" id="recommendation-filters"></div>
+        </div>
+        <div class="recommendation-grid" id="recommendation-grid"></div>
+      </section>
+
+      <section class="premium-closing">
+        <span class="eyebrow" data-ui="savePhone">שמרו את הדף בטלפון</span>
+        <h2 data-ui="closing">כל ארבעת הימים, המפות והניווט נשארים זמינים לאורך תקופת הגישה.</h2>
+        <button type="button" class="button button-primary" id="back-to-top" data-ui="backTop">חזרה לבחירת יום</button>
+      </section>
     </main>
-    <script src="site-i18n.js?v=20260805-2" defer></script>
-    <script src="premium.js" defer></script>
+
+    <div class="premium-toast" id="premium-toast" role="status" aria-live="polite"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="data/premium-route.js"></script>
+    <script src="premium.js?v=20260807-1" defer></script>
   </body>
 </html>
