@@ -1,0 +1,93 @@
+(function () {
+  "use strict";
+
+  const t = (he, en, pl, de, cs) => ({ he, en, pl, de, cs });
+  const place = (id, categories, coordinates, name, description, sourceUrl, mediaKey = null, note = null) => ({
+    id, categories, coordinates, name, localName: name, description, sourceUrl, mediaKey, note
+  });
+
+  const foodPost = "https://www.facebook.com/61591964083308/posts/122108686497398802/";
+  const hotelPost = "https://www.facebook.com/61591964083308/posts/122108682867398802/";
+  const shoppingPost = "https://www.facebook.com/61591964083308/posts/122110542891398802/";
+
+  const food = {
+    polish: t("אוכל פולני מסורתי באווירה היסטורית מיוחדת.", "Traditional Polish food in a distinctive historic setting.", "Tradycyjna polska kuchnia w wyjątkowym historycznym wnętrzu.", "Traditionelle polnische Küche in besonderem historischem Ambiente.", "Tradiční polská kuchyně ve výjimečném historickém prostředí."),
+    polishHome: t("אוכל פולני ביתי ואותנטי, מומלץ במיוחד לביקור ראשון בפולין.", "Homestyle, authentic Polish food, especially good for a first visit to Poland.", "Domowa, autentyczna polska kuchnia, szczególnie dobra na pierwszą wizytę w Polsce.", "Hausgemachte, authentische polnische Küche, besonders für den ersten Polenbesuch.", "Domácí autentická polská kuchyně, vhodná zejména pro první návštěvu Polska."),
+    ramen: t("אחד ממקומות הראמן המומלצים ביותר בעיר.", "One of the most recommended ramen spots in the city.", "Jedno z najczęściej polecanych miejsc z ramenem w mieście.", "Einer der meistempfohlenen Ramen-Orte der Stadt.", "Jedno z nejdoporučovanějších míst na ramen ve městě."),
+    asian: t("מסעדה אסייתית מצוינת בלב רובע ארבע הדתות.", "An excellent Asian restaurant in the heart of the Four Denominations District.", "Świetna azjatycka restauracja w sercu Dzielnicy Czterech Wyznań.", "Ein ausgezeichnetes asiatisches Restaurant im Viertel der vier Konfessionen.", "Výborná asijská restaurace v srdci čtvrti čtyř vyznání."),
+    chinese: t("מסעדה סינית ותיקה עם תפריט גדול ומגוון.", "A long-established Chinese restaurant with a broad menu.", "Wieloletnia chińska restauracja z dużym, różnorodnym menu.", "Ein traditionsreiches chinesisches Restaurant mit großer Auswahl.", "Dlouholetá čínská restaurace s rozsáhlým menu."),
+    sushi: t("בחירה מומלצת במיוחד לחובבי סושי.", "A particularly good choice for sushi lovers.", "Szczególnie dobry wybór dla miłośników sushi.", "Eine besonders gute Wahl für Sushi-Fans.", "Obzvlášť dobrá volba pro milovníky sushi."),
+    meat: t("מסעדת בשרים מפורסמת ותוססת ממש בכיכר השוק.", "A famous, lively meat restaurant right on Market Square.", "Znana, tętniąca życiem restauracja mięsna na Rynku.", "Ein bekanntes, lebhaftes Fleischrestaurant direkt am Rynek.", "Známá živá restaurace zaměřená na maso přímo na Rynku."),
+    pizza: t("פיצה נפוליטנית מצוינת מדרום למרכז.", "Excellent Neapolitan pizza just south of the centre.", "Świetna pizza neapolitańska na południe od centrum.", "Ausgezeichnete neapolitanische Pizza südlich des Zentrums.", "Výborná neapolská pizza jižně od centra."),
+    mexican: t("אוכל מקסיקני באווירה שמחה במרכז העיר.", "Mexican food in a cheerful city-centre setting.", "Kuchnia meksykańska w radosnej atmosferze centrum.", "Mexikanisches Essen in fröhlicher Innenstadtatmosphäre.", "Mexické jídlo ve veselé atmosféře centra."),
+    peruvian: t("מטבח פרואני איכותי למי שמחפש משהו קצת אחר.", "Quality Peruvian cooking for anyone seeking something different.", "Dobra kuchnia peruwiańska dla osób szukających czegoś innego.", "Gute peruanische Küche für alle, die etwas anderes suchen.", "Kvalitní peruánská kuchyně pro ty, kdo hledají něco jiného."),
+    mediterranean: t("מסעדה ים־תיכונית ליד בית הכנסת ברובע ארבע הדתות.", "A Mediterranean restaurant by the synagogue in the Four Denominations District.", "Restauracja śródziemnomorska przy synagodze w Dzielnicy Czterech Wyznań.", "Ein mediterranes Restaurant an der Synagoge im Viertel der vier Konfessionen.", "Středomořská restaurace u synagogy ve čtvrti čtyř vyznání."),
+    breakfast: t("ארוחת בוקר, קפה ומאפים במיקום מרכזי.", "Breakfast, coffee and pastries in a central location.", "Śniadanie, kawa i wypieki w centrum.", "Frühstück, Kaffee und Gebäck in zentraler Lage.", "Snídaně, káva a pečivo v centru."),
+    cafe: t("בית קפה מומלץ להפסקה נעימה במרכז.", "A recommended café for a pleasant break in the centre.", "Polecana kawiarnia na przyjemną przerwę w centrum.", "Ein empfohlenes Café für eine angenehme Pause im Zentrum.", "Doporučená kavárna pro příjemnou pauzu v centru."),
+    brunch: t("בראנץ׳ מצוין בלב רובע ארבע הדתות.", "Excellent brunch in the heart of the Four Denominations District.", "Świetny brunch w sercu Dzielnicy Czterech Wyznań.", "Ausgezeichneter Brunch im Viertel der vier Konfessionen.", "Výborný brunch v srdci čtvrti čtyř vyznání."),
+    nadodrze: t("אחת ההמלצות הטובות לבראנץ׳ בשכונת Nadodrze.", "One of the best brunch recommendations in the Nadodrze neighbourhood.", "Jedna z najlepszych propozycji na brunch na Nadodrzu.", "Eine der besten Brunch-Empfehlungen im Viertel Nadodrze.", "Jedno z nejlepších doporučení na brunch ve čtvrti Nadodrze."),
+    fries: t("צ׳יפס בלגי עם מבחר גדול של רטבים.", "Belgian fries with a very large choice of sauces.", "Belgijskie frytki z bardzo dużym wyborem sosów.", "Belgische Pommes mit einer großen Auswahl an Saucen.", "Belgické hranolky s velkým výběrem omáček."),
+    pretzel: t("רשת מקומית של פרצלים טריים; נשנוש נוח תוך כדי טיול.", "A local fresh-pretzel chain; an easy snack while exploring.", "Lokalna sieć świeżych precli; wygodna przekąska podczas spaceru.", "Eine lokale Kette mit frischen Brezeln; praktisch unterwegs.", "Místní síť čerstvých preclíků; praktická svačina při procházce."),
+    foodHall: t("מתחם אוכל מעוצב בתוך Renoma עם מטבחים, קינוחים וקוקטיילים.", "A stylish food hall inside Renoma with varied cuisines, desserts and cocktails.", "Stylowy food hall w Renomie z różnymi kuchniami, deserami i koktajlami.", "Eine stilvolle Food Hall in der Renoma mit Küchen, Desserts und Cocktails.", "Stylová food hall v Renomě s různými kuchyněmi, dezerty a koktejly."),
+    market: t("שוק היסטורי עם תוצרת, מאפים, קפה, אוכל פולני ומנות קלות.", "A historic market with produce, pastries, coffee, Polish food and light meals.", "Historyczna hala z produktami, wypiekami, kawą, polskim jedzeniem i lekkimi daniami.", "Eine historische Markthalle mit Produkten, Gebäck, Kaffee und polnischem Essen.", "Historická tržnice s potravinami, pečivem, kávou a polským jídlem."),
+    chocolate: t("מקום מומלץ לשוקולד, שתייה חמה וקינוחים.", "A recommended stop for chocolate, hot drinks and desserts.", "Polecane miejsce na czekoladę, gorące napoje i desery.", "Ein empfohlener Ort für Schokolade, Heißgetränke und Desserts.", "Doporučené místo na čokoládu, teplé nápoje a dezerty."),
+    gelato: t("גלידה וקינוחים במרכז העיר.", "Ice cream and desserts in the city centre.", "Lody i desery w centrum miasta.", "Eis und Desserts im Stadtzentrum.", "Zmrzlina a dezerty v centru města."),
+    roma: t("אחת הגלידריות הוותיקות והאהובות ביותר בעיר.", "One of the city’s oldest and best-loved ice-cream shops.", "Jedna z najstarszych i najbardziej lubianych lodziarni w mieście.", "Eine der ältesten und beliebtesten Eisdielen der Stadt.", "Jedna z nejstarších a nejoblíbenějších zmrzlináren ve městě."),
+    fine: t("מסעדת שף לארוחה חגיגית או רומנטית עם נוף לאודר.", "Fine dining for a celebratory or romantic meal with an Oder view.", "Fine dining na uroczystą lub romantyczną kolację z widokiem na Odrę.", "Fine Dining für ein festliches oder romantisches Essen mit Oderblick.", "Fine dining pro slavnostní nebo romantické jídlo s výhledem na Odru."),
+    street: t("רחוב קולינרי מתחת למסילת הרכבת עם מסעדות, ברים ובתי קפה.", "A culinary street beneath the railway with restaurants, bars and cafés.", "Kulinarna ulica pod torami z restauracjami, barami i kawiarniami.", "Eine kulinarische Straße unter der Bahn mit Restaurants, Bars und Cafés.", "Kulinářská ulice pod železnicí s restauracemi, bary a kavárnami.")
+  };
+
+  const sourceFood = t("מתוך מדריך המסעדות והקפה של הקהילה.", "From the community food and café guide.", "Z przewodnika społeczności po jedzeniu i kawiarniach.", "Aus dem Restaurant- und Caféführer der Community.", "Z komunitního průvodce restauracemi a kavárnami.");
+  const sourceHotel = t("אחד המלונות שמקבלים המלצות טובות באופן עקבי.", "One of the hotels that receives consistently good recommendations.", "Jeden z hoteli regularnie otrzymujących dobre rekomendacje.", "Eines der Hotels mit regelmäßig guten Empfehlungen.", "Jeden z hotelů, které pravidelně získávají dobrá doporučení.");
+  const sourceShopping = t("מופיע בשכבת מרכזי הקניות של מפת הקהילה.", "Included in the community map’s shopping-centre layer.", "Znajduje się w warstwie centrów handlowych mapy społeczności.", "In der Einkaufszentrum-Ebene der Community-Karte enthalten.", "Zahrnuto ve vrstvě nákupních center komunitní mapy.");
+
+  window.WROC_LIFESTYLE_PLACES = [
+    place("konspira", ["eat"], [51.1091955,17.0283516], "Konspira", food.polish, foodPost, null, sourceFood),
+    place("zenka", ["eat","drink"], [51.1180815,17.0271292], "Zenka Cafe", food.nadodrze, foodPost, null, sourceFood),
+    place("chatka", ["eat"], [51.1119289,17.0313524], "Chatka przy Jatkach", food.polishHome, foodPost, null, sourceFood),
+    place("ato-ramen", ["eat"], [51.1117934,17.0312819], "Ato Ramen", food.ramen, foodPost, null, sourceFood),
+    place("woosabi", ["eat","drink"], [51.1089823,17.0234378], "Woosabi Włodkowica – Urban Oasis", food.asian, foodPost, null, sourceFood),
+    place("mandarin", ["eat"], [51.1124229,17.0313084], "Mandarin House Restauracja", food.chinese, foodPost, null, sourceFood),
+    place("sushi-corner", ["eat"], [51.1085849,17.0234579], "Sushi Corner – Wrocław", food.sushi, foodPost, null, sourceFood),
+    place("whiskey", ["eat","drink"], [51.1092096,17.0321278], "Whiskey in the Jar", food.meat, foodPost, "rynek", sourceFood),
+    place("pizza-si", ["eat"], [51.0999236,17.0299738], "Pizza Si", food.pizza, foodPost, null, sourceFood),
+    place("the-mexican", ["eat","drink"], [51.1110238,17.0309369], "The Mexican", food.mexican, foodPost, null, sourceFood),
+    place("peruwiana", ["eat"], [51.1082145,17.0247652], "Peruwiana", food.peruvian, foodPost, null, sourceFood),
+    place("sarah", ["eat"], [51.1081541,17.0252764], "Restauracja Sarah", food.mediterranean, foodPost, null, sourceFood),
+    place("charlotte", ["eat","drink"], [51.1084962,17.026063], "Charlotte", food.breakfast, foodPost, null, sourceFood),
+    place("central", ["eat","drink"], [51.1088722,17.0260475], "Central Cafe", food.cafe, foodPost, null, sourceFood),
+    place("bulka", ["eat","drink"], [51.1081872,17.0242892], "Bułka z Masłem Włodkowica", food.brunch, foodPost, null, sourceFood),
+    place("frytki", ["eat"], [51.1090086,17.0256092], "Frytki i Sos", food.fries, foodPost, null, sourceFood),
+    place("pan-precel", ["eat"], [51.1069625,17.032226], "Pan Precel", food.pretzel, foodPost, null, sourceFood),
+    place("pedet", ["eat","drink","buy"], [51.1037104,17.0324564], "PeDeT Food Hall", food.foodHall, foodPost, "renoma", sourceFood),
+    place("hala-targowa", ["eat","drink","buy"], [51.1126206,17.039748], "Hala Targowa", food.market, foodPost, "marketHall", sourceFood),
+    place("wedel", ["drink"], [51.1110173,17.031212], "Chocolate Cafe E.Wedel", food.chocolate, foodPost, "rynek", sourceFood),
+    place("karmello", ["drink"], [51.1104418,17.0337016], "Karmello Chocolatier", food.gelato, foodPost, "rynek", sourceFood),
+    place("lodziarnia-roma", ["drink"], [51.117917,17.0343499], "Lodziarnia Roma", food.roma, foodPost, null, sourceFood),
+    place("la-maddalena", ["eat","drink"], [51.1143103,17.0314381], "Restauracja La Maddalena", food.fine, foodPost, null, sourceFood),
+    place("boguslawskiego", ["eat","drink"], [51.10289,17.02979], "ul. Wojciecha Bogusławskiego", food.street, foodPost, "boguslawskiego", sourceFood),
+
+    place("wroclavia", ["buy","eat"], [51.0964311,17.0348417], "Wroclavia",
+      t("מרכז גדול ומודרני ליד התחנה המרכזית, עם מותגים בינלאומיים ומתחם אוכל רחב.", "A large modern centre by the main station, with international brands and a broad food court.", "Duże nowoczesne centrum przy dworcu, z międzynarodowymi markami i rozbudowaną strefą gastronomiczną.", "Ein großes modernes Zentrum am Hauptbahnhof mit internationalen Marken und Food Court.", "Velké moderní centrum u hlavního nádraží s mezinárodními značkami a food courtem."), shoppingPost, "wroclavia", sourceShopping),
+    place("magnolia", ["buy","eat"], [51.1187024,16.9896567], "Magnolia Park", sourceShopping, shoppingPost, null, sourceShopping),
+    place("pasaz", ["buy","eat"], [51.1121562,17.0597204], "Pasaż Grunwaldzki", sourceShopping, shoppingPost, null, sourceShopping),
+    place("dominikan", ["buy","eat"], [51.1081196,17.039349], "Galeria Dominikańska", sourceShopping, shoppingPost, null, sourceShopping),
+    place("renoma", ["buy","eat","drink"], [51.1038569,17.0319662], "Renoma",
+      t("מרכז קטן ואדריכלי יותר עם חנויות אופנה, בתי קפה ומבנה שהוא חלק מהביקור.", "A smaller, more architectural centre with fashion, cafés and a building that is part of the experience.", "Mniejsze, bardziej architektoniczne centrum z modą, kawiarniami i budynkiem wartym obejrzenia.", "Ein kleineres, architektonisch besonderes Zentrum mit Mode, Cafés und sehenswerter Fassade.", "Menší architektonicky výrazné centrum s módou, kavárnami a budovou, která stojí za návštěvu."), shoppingPost, "renoma", sourceShopping),
+    place("korona-shopping", ["buy","eat"], [51.1417421,17.0874182], "Centrum Handlowe Korona", sourceShopping, shoppingPost, null, sourceShopping),
+    place("borek", ["buy","eat"], [51.0881075,17.0005693], "Centrum Handlowe Borek", sourceShopping, shoppingPost, null, sourceShopping),
+    place("fashion-outlet", ["buy"], [51.1067753,16.9451904], "Wrocław Fashion Outlet", sourceShopping, shoppingPost, null, sourceShopping),
+
+    place("puro", ["sleep"], [51.1079917,17.0248927], "PURO Wrocław Stare Miasto", sourceHotel, hotelPost, null, t("ברובע ארבע הדתות, קרוב למסעדות ולמרכז.", "In the Four Denominations District, close to restaurants and the centre.", "W Dzielnicy Czterech Wyznań, blisko restauracji i centrum.", "Im Viertel der vier Konfessionen, nahe Restaurants und Zentrum.", "Ve čtvrti čtyř vyznání, blízko restaurací a centra.")),
+    place("korona-hotel", ["sleep"], [51.1090144,17.0337412], "Korona Hotel Wrocław Market Square", sourceHotel, hotelPost, null, t("ממש ליד כיכר השוק.", "Right by Market Square.", "Tuż przy Rynku.", "Direkt am Rynek.", "Přímo u Rynku.")),
+    place("art-hotel", ["sleep"], [51.1121845,17.0298225], "Art Hotel", sourceHotel, hotelPost, null, t("בעיר העתיקה, מצפון לכיכר השוק.", "In the Old Town, just north of Market Square.", "Na Starym Mieście, tuż na północ od Rynku.", "In der Altstadt, nördlich des Rynek.", "Ve Starém Městě, severně od Rynku.")),
+    place("ac-hotel", ["sleep"], [51.1076041,17.0266219], "AC Hotel by Marriott Wrocław", sourceHotel, hotelPost, null, t("בין כיכר השוק לרובע ארבע הדתות.", "Between Market Square and the Four Denominations District.", "Między Rynkiem a Dzielnicą Czterech Wyznań.", "Zwischen Rynek und dem Viertel der vier Konfessionen.", "Mezi Rynkem a čtvrtí čtyř vyznání.")),
+    place("monopol", ["sleep"], [51.1060879,17.0310289], "Hotel Monopol", sourceHotel, hotelPost, null, t("ליד האופרה ובמרחק הליכה קצר מהרינק.", "By the opera and a short walk from the Rynek.", "Przy operze, krótki spacer od Rynku.", "An der Oper, nur einen kurzen Spaziergang vom Rynek entfernt.", "U opery, krátkou chůzí od Rynku.")),
+    place("altus", ["sleep"], [51.1049686,17.0364123], "Hotel Altus Palace – Destigo Hotels", sourceHotel, hotelPost, null, t("במרכז, ליד הפארק והחפיר העירוני.", "In the centre, by the park and city moat.", "W centrum, przy parku i fosie miejskiej.", "Im Zentrum, am Park und Stadtgraben.", "V centru, u parku a městského příkopu.")),
+    place("doubletree", ["sleep"], [51.1083289,17.0433879], "DoubleTree by Hilton Wrocław", sourceHotel, hotelPost, null, t("קרוב לפנורמה, לנהר ולעיר העתיקה.", "Close to the Panorama, river and Old Town.", "Blisko Panoramy, rzeki i Starego Miasta.", "Nahe Panorama, Fluss und Altstadt.", "Blízko Panoramy, řeky a Starého Města.")),
+    place("the-bridge", ["sleep"], [51.113712,17.0479934], "The Bridge Wrocław – MGallery", sourceHotel, hotelPost, null, t("באוסטרוב טומסקי, באזור שקט והיסטורי.", "In Ostrów Tumski, a quiet historic district.", "Na Ostrowie Tumskim, w spokojnej historycznej okolicy.", "In Ostrów Tumski, einem ruhigen historischen Viertel.", "Na Ostrówě Tumském, v klidné historické čtvrti.")),
+    place("herbal", ["sleep"], [51.1087658,17.0242642], "Herbal Hotel & SPA", sourceHotel, hotelPost, null, t("ברובע ארבע הדתות, קרוב לאוכל ולחיי הערב.", "In the Four Denominations District, close to food and evening life.", "W Dzielnicy Czterech Wyznań, blisko restauracji i życia wieczornego.", "Im Viertel der vier Konfessionen, nahe Gastronomie und Abendleben.", "Ve čtvrti čtyř vyznání, blízko restaurací a večerního života."))
+  ];
+
+  window.WROC_LIFESTYLE_SOURCES = { foodPost, hotelPost, shoppingPost };
+})();

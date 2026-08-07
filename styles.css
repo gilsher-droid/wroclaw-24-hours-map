@@ -373,6 +373,7 @@ h1 em {
 .free-section,
 .premium-section,
 .christmas-section,
+.lifestyle-section,
 .how-section,
 .closing {
   padding: 104px max(20px, calc((100% - 1180px) / 2));
@@ -464,6 +465,72 @@ h2 {
 
 .christmas-section .section-heading > p { color: rgba(255,255,255,.75); }
 .christmas-section h2 { color: white; }
+
+.lifestyle-section {
+  padding: 104px max(20px, calc((100% - 1180px) / 2));
+  background:
+    radial-gradient(circle at 88% 18%, rgba(158, 216, 246, .3), transparent 28%),
+    linear-gradient(155deg, #f8fbfd, #edf5f7);
+}
+
+.lifestyle-section .section-heading > p { color: var(--muted); }
+
+.lifestyle-product {
+  display: grid;
+  grid-template-columns: 1fr 390px;
+  align-items: stretch;
+  gap: 28px;
+}
+
+.lifestyle-categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.lifestyle-categories article {
+  min-height: 205px;
+  padding: 28px;
+  border: 1px solid rgba(6,43,92,.09);
+  border-radius: 22px;
+  background: rgba(255,255,255,.82);
+  box-shadow: 0 14px 34px rgba(6,43,92,.06);
+}
+
+.lifestyle-categories article > span {
+  display: inline-flex;
+  padding: 7px 11px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.lifestyle-categories .eat > span { background: #fce8df; color: #9b3e20; }
+.lifestyle-categories .drink > span { background: #f4e8d2; color: #75501d; }
+.lifestyle-categories .buy > span { background: #dff0f8; color: #155f84; }
+.lifestyle-categories .sleep > span { background: #e8e4f4; color: #594481; }
+.lifestyle-categories strong { margin-top: 22px; color: var(--navy); display: block; font-family: Georgia, "Times New Roman", serif; font-size: 23px; }
+.lifestyle-categories p { margin: 10px 0 0; color: var(--muted); line-height: 1.65; }
+
+.lifestyle-card {
+  padding: 34px;
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(158,216,246,.23), transparent 35%),
+    var(--navy-deep);
+  color: white;
+  box-shadow: 0 24px 60px rgba(1,16,36,.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+
+.lifestyle-badge { color: var(--gold); font-size: 13px; font-weight: 900; }
+.lifestyle-card > strong { color: white; font-family: Georgia, "Times New Roman", serif; font-size: 30px; line-height: 1.2; }
+.lifestyle-card p { margin: 0; color: rgba(255,255,255,.72); line-height: 1.7; }
+.lifestyle-card small { color: rgba(255,255,255,.58); line-height: 1.5; }
+.lifestyle-button { background: var(--gold); color: var(--navy-deep); }
 
 .christmas-product {
   display: grid;
@@ -771,7 +838,8 @@ footer a { color: var(--sky); font-weight: 800; }
   .free-section,
   .section-heading,
   .premium-layout,
-  .christmas-product { grid-template-columns: 1fr; }
+  .christmas-product,
+  .lifestyle-product { grid-template-columns: 1fr; }
   .free-section { gap: 48px; }
   .section-heading { gap: 16px; }
   .price-card { position: static; }
@@ -791,11 +859,13 @@ footer a { color: var(--sky); font-weight: 800; }
   .free-section,
   .premium-section,
   .christmas-section,
+  .lifestyle-section,
   .how-section,
   .closing { padding-top: 76px; padding-bottom: 76px; }
   .route-ticket { min-height: 250px; padding: 26px; }
   .days-grid,
   .christmas-days,
+  .lifestyle-categories,
   .steps { grid-template-columns: 1fr; }
   .day-card { min-height: auto; }
   .price-card { padding: 26px; }
