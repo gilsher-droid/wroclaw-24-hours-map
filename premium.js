@@ -20,7 +20,7 @@
 
   const ui = {
     he: {
-      brandSubtitle: "המסלול המלא שלכם", activeAccess: "גישה פעילה", logout: "יציאה",
+      brandSubtitle: "המסלול המלא שלכם", homeLink: "לעמוד הבית", activeAccess: "גישה פעילה", logout: "יציאה",
       eyebrow: "וורוצלב בקצב שמתאים לכן", title: "ארבעה ימים. עיר אחת. בלי לבזבז זמן על תכנון.",
       subtitle: "מסלול אישי לאם ולבת לביקור ראשון: כל יום באזור אחד, עם סדר ברור, מפה חיה, ניווט והמלצות שמתאימות לקצב אמיתי.",
       smartTip: "איך משתמשים במסלול", smartTipBody: "בחרו יום, פתחו תחנה במפה וצאו לניווט. אפשר להחליף בין הימים לפי מזג האוויר והאנרגיה.",
@@ -39,7 +39,7 @@
       activeUntil: "גישה פעילה עד", freeUntil: "גישה חינם עד 31 בדצמבר 2026"
     },
     en: {
-      brandSubtitle: "Your complete route", activeAccess: "Access active", logout: "Log out",
+      brandSubtitle: "Your complete route", homeLink: "Back to home", activeAccess: "Access active", logout: "Log out",
       eyebrow: "Wrocław at your pace", title: "Four days. One city. No wasted planning time.",
       subtitle: "A first-visit mother-and-daughter route: one convenient area each day, with a clear order, live map, navigation and realistic recommendations.",
       smartTip: "How to use the route", smartTipBody: "Choose a day, open a stop on the map and navigate. Swap days according to weather and energy.",
@@ -58,7 +58,7 @@
       activeUntil: "Access active until", freeUntil: "Free access until 31 December 2026"
     },
     pl: {
-      brandSubtitle: "Pełna trasa", activeAccess: "Dostęp aktywny", logout: "Wyloguj",
+      brandSubtitle: "Pełna trasa", homeLink: "Strona główna", activeAccess: "Dostęp aktywny", logout: "Wyloguj",
       eyebrow: "Wrocław w Waszym tempie", title: "Cztery dni. Jedno miasto. Bez tracenia czasu na planowanie.",
       subtitle: "Trasa na pierwszy wyjazd mamy i córki: codziennie jeden wygodny obszar, jasna kolejność, mapa, nawigacja i praktyczne rekomendacje.",
       smartTip: "Jak korzystać z trasy", smartTipBody: "Wybierzcie dzień, otwórzcie punkt na mapie i uruchomcie nawigację. Dni można zamieniać zależnie od pogody i energii.",
@@ -126,6 +126,9 @@
       const active = button.dataset.premiumLang === language;
       button.classList.toggle("active", active);
       button.setAttribute("aria-pressed", String(active));
+    });
+    document.querySelectorAll("[data-home-link]").forEach((link) => {
+      link.href = `/?lang=${language}`;
     });
     updateAccessStatus();
   }

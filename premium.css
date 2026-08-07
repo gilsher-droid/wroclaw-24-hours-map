@@ -37,6 +37,21 @@
 
 .premium-tools { gap: 20px; }
 
+.premium-home-link {
+  padding: 9px 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: white;
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.premium-home-link:hover,
+.premium-home-link:focus-visible { border-color: var(--gold); outline: 2px solid rgba(220,169,79,.35); outline-offset: 2px; }
+
 .premium-languages {
   padding: 4px;
   border: 1px solid var(--line);

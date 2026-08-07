@@ -65,6 +65,7 @@
       button.classList.toggle("active", button.dataset.lang === currentLanguage);
       button.setAttribute("aria-pressed", String(button.dataset.lang === currentLanguage));
     });
+    document.getElementById("home-link").href = `/?lang=${currentLanguage}`;
   }
 
   function markerHtml(location, evening = false) {

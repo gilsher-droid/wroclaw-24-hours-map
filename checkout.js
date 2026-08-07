@@ -4,7 +4,7 @@ const API_ORIGIN = "https://api.wroc-love.com";
 const tr = (text) => window.WROC_I18N?.t(text) || text;
 
 function premiumUrl() {
-  return `/premium.html?lang=${window.WROC_I18N?.language || "he"}`;
+  return `/products/interactive-maps/premium.html?lang=${window.WROC_I18N?.language || "he"}`;
 }
 
 function showError(text) {

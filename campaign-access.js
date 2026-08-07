@@ -78,7 +78,7 @@
     if (terms) terms.textContent = text("freeUntil", normalized);
     if (purchase) {
       purchase.textContent = text("openFourDays", normalized);
-      purchase.href = `/premium.html?lang=${normalized}`;
+      purchase.href = `/products/interactive-maps/premium.html?lang=${normalized}`;
     }
     if (note) note.textContent = text("paidAfter", normalized);
   }
