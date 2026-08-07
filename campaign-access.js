@@ -4,7 +4,7 @@
   const API_ORIGIN = "https://api.wroc-love.com";
   const FREE_UNTIL_ISO = "2027-01-01T00:00:00+01:00";
   const FREE_UNTIL = Date.parse(FREE_UNTIL_ISO);
-  const supported = ["he", "en", "pl"];
+  const supported = ["he", "en", "pl", "de", "cs"];
 
   const copy = {
     he: {
@@ -24,7 +24,9 @@
       openFourDays: "Otwórz bezpłatną trasę na 4 dni",
       paidAfter: "Od 1 stycznia 2027 wymagany będzie zakup lub kod dostępu.",
       freeBadge: "Bezpłatnie do końca 2026"
-    }
+    },
+    de: { freeUntil: "Kostenloser Zugang bis 31. Dezember 2026", openFourDays: "Kostenlose 4-Tage-Route öffnen", paidAfter: "Ab 1. Januar 2027 ist ein Kauf oder Zugangscode erforderlich.", freeBadge: "Kostenlos bis Ende 2026" },
+    cs: { freeUntil: "Bezplatný přístup do 31. prosince 2026", openFourDays: "Otevřít bezplatnou čtyřdenní trasu", paidAfter: "Od 1. ledna 2027 bude vyžadován nákup nebo přístupový kód.", freeBadge: "Zdarma do konce roku 2026" }
   };
 
   function normalizeLanguage(language) {

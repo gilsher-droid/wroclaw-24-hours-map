@@ -4,7 +4,7 @@
   const API_ORIGIN = "https://api.wroc-love.com";
   const routeConfig = window.PREMIUM_ROUTE_CONFIG || {};
   const dayStorageKey = routeConfig.storageKey || "wroc-premium-day";
-  const supportedLanguages = ["he", "en", "pl"];
+  const supportedLanguages = ["he", "en", "pl", "de", "cs"];
   const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
   const savedLanguage = localStorage.getItem("wroclaw24-language");
   let language = supportedLanguages.includes(requestedLanguage)
@@ -20,6 +20,7 @@
 
   const ui = {
     he: {
+      documentTitle: "המסלול המלא ל־4 ימים | Wroc-love", skipToRoute: "דלגו למסלול",
       brandSubtitle: "המסלול המלא שלכם", homeLink: "לעמוד הבית", activeAccess: "גישה פעילה", logout: "יציאה",
       eyebrow: "וורוצלב בקצב שמתאים לכן", title: "ארבעה ימים. עיר אחת. בלי לבזבז זמן על תכנון.",
       subtitle: "מסלול אישי לאם ולבת לביקור ראשון: כל יום באזור אחד, עם סדר ברור, מפה חיה, ניווט והמלצות שמתאימות לקצב אמיתי.",
@@ -39,6 +40,7 @@
       activeUntil: "גישה פעילה עד", freeUntil: "גישה חינם עד 31 בדצמבר 2026"
     },
     en: {
+      documentTitle: "The complete 4-day route | Wroc-love", skipToRoute: "Skip to the route",
       brandSubtitle: "Your complete route", homeLink: "Back to home", activeAccess: "Access active", logout: "Log out",
       eyebrow: "Wrocław at your pace", title: "Four days. One city. No wasted planning time.",
       subtitle: "A first-visit mother-and-daughter route: one convenient area each day, with a clear order, live map, navigation and realistic recommendations.",
@@ -58,6 +60,7 @@
       activeUntil: "Access active until", freeUntil: "Free access until 31 December 2026"
     },
     pl: {
+      documentTitle: "Pełna trasa na 4 dni | Wroc-love", skipToRoute: "Przejdź do trasy",
       brandSubtitle: "Pełna trasa", homeLink: "Strona główna", activeAccess: "Dostęp aktywny", logout: "Wyloguj",
       eyebrow: "Wrocław w Waszym tempie", title: "Cztery dni. Jedno miasto. Bez tracenia czasu na planowanie.",
       subtitle: "Trasa na pierwszy wyjazd mamy i córki: codziennie jeden wygodny obszar, jasna kolejność, mapa, nawigacja i praktyczne rekomendacje.",
@@ -78,7 +81,18 @@
     }
   };
 
-  supportedLanguages.forEach((code) => Object.assign(ui[code], routeConfig.ui?.[code] || {}));
+  const translateUi = (value, code) => {
+    if (typeof value === "string") return window.EXTRA_ROUTE_TRANSLATIONS?.[code]?.[value] || value;
+    if (Array.isArray(value)) return value.map((item) => translateUi(item, code));
+    if (value && typeof value === "object") return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, translateUi(item, code)]));
+    return value;
+  };
+  ui.de = translateUi(ui.en, "de");
+  ui.cs = translateUi(ui.en, "cs");
+  supportedLanguages.forEach((code) => {
+    if (code === "de" || code === "cs") Object.assign(ui[code], translateUi(routeConfig.ui?.en || {}, code));
+    Object.assign(ui[code], routeConfig.ui?.[code] || {});
+  });
 
   const categoryColors = {
     main: "#dca94f", special: "#7b61a8", architecture: "#062b5c", viewpoint: "#7b61a8",
@@ -87,7 +101,8 @@
 
   function text(value) {
     if (value == null) return "";
-    return typeof value === "object" ? (value[language] || value.he || "") : String(value);
+    if (typeof value !== "object") return String(value);
+    return value[language] || window.EXTRA_ROUTE_TRANSLATIONS?.[language]?.[value.en] || value.en || value.he || "";
   }
 
   function escapeHtml(value) {
@@ -144,7 +159,7 @@
     }
     logout.hidden = false;
     if (accessState.expiresAt) {
-      const locale = language === "pl" ? "pl-PL" : language === "en" ? "en-GB" : "he-IL";
+      const locale = { he: "he-IL", en: "en-GB", pl: "pl-PL", de: "de-DE", cs: "cs-CZ" }[language] || "en-GB";
       status.textContent = `${t("activeUntil")} ${new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(new Date(accessState.expiresAt))}`;
     } else {
       status.textContent = t("activeAccess");

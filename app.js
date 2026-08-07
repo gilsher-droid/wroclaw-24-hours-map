@@ -1,7 +1,7 @@
 (async function () {
   "use strict";
 
-  const supportedLanguages = ["he", "en", "pl"];
+  const supportedLanguages = ["he", "en", "pl", "de", "cs"];
   const queryLanguage = new URLSearchParams(window.location.search).get("lang");
   const savedLanguage = localStorage.getItem("wroclaw24-language");
   let currentLanguage = supportedLanguages.includes(queryLanguage)

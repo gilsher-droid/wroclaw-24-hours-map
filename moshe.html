@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/premium.css" />
   </head>
   <body class="premium-body moshe-body">
-    <a class="skip-link" href="#route-content">דלגו למסלול</a>
+    <a class="skip-link" href="#route-content" data-ui="skipToRoute">דלגו למסלול</a>
     <header class="premium-header">
       <a class="brand" href="/?lang=he" data-home-link>
         <img src="/assets/logo.png" alt="Wrocław & Lower Silesia" />
@@ -27,6 +27,8 @@
           <button type="button" data-premium-lang="he">עברית</button>
           <button type="button" data-premium-lang="en">English</button>
           <button type="button" data-premium-lang="pl">Polski</button>
+          <button type="button" data-premium-lang="de">Deutsch</button>
+          <button type="button" data-premium-lang="cs">Čeština</button>
         </div>
         <div class="premium-account">
           <span id="access-status" data-ui="activeAccess">גישה פעילה</span>
@@ -145,8 +147,9 @@
 
     <div class="premium-toast" id="premium-toast" role="status" aria-live="polite"></div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script src="/campaign-access.js?v=20260807-2"></script>
-    <script src="/data/moshe-route.js"></script>
-    <script src="/premium.js?v=20260807-4" defer></script>
+    <script src="/data/extra-languages.js?v=20260807-1"></script>
+    <script src="/campaign-access.js?v=20260807-3"></script>
+    <script src="/data/moshe-route.js?v=20260807-1"></script>
+    <script src="/premium.js?v=20260807-5" defer></script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 (() => {
-  const supported = ["he", "en", "pl"];
+  const supported = ["he", "en", "pl", "de", "cs"];
   const params = new URLSearchParams(window.location.search);
   const requested = params.get("lang");
   const saved = localStorage.getItem("wroclaw24-language");
@@ -172,7 +172,6 @@
       "יום גמיש שמאפשר להשלים מה שאהבתם ולשמור זמן לנשימה.": "Elastyczny dzień na ulubione miejsca i chwilę oddechu.", "מרכז קניות קטן יותר במבנה אייקוני, נוח גם לביקור קצר.": "Mniejsze centrum handlowe w ikonicznym budynku, dobre także na krótką wizytę.", "למי שרוצה מבחר גדול יותר של חנויות ואוכל, סמוך לתחנה המרכזית.": "Większy wybór sklepów i jedzenia obok dworca głównego.", "שיט קצר באודר": "Krótki rejs po Odrze", "דרך רגועה לראות את קו העיר מזווית אחרת; הפעילות תלויה בעונה ובמזג האוויר.": "Spokojny sposób na zobaczenie panoramy z innej perspektywy; rejs zależy od sezonu i pogody.", "חיפוש נקודות יציאה": "Znajdź miejsca odpłynięcia", "קפה והשלמות במרכז": "Kawa i ostatnie miejsca w centrum", "חוזרים לאזור שאהבתם או בוחרים בית קפה בלי לנסות להספיק עוד רשימה.": "Wróć do ulubionej okolicy lub wybierz kawiarnię bez kolejnej listy do zaliczenia.", "בתי קפה בסביבה": "Kawiarnie w pobliżu", "שמרו את הדף בטלפון": "Zapisz stronę w telefonie", "המסלול שלכם זמין לאורך תקופת הגישה.": "Trasa jest dostępna przez cały okres dostępu.", "חזרה ליום הראשון": "Wróć do dnia 1"
     }
   };
-
   Object.assign(translations.en, {
     "מסלול כריסמס": "Christmas route",
     "המוצר השלישי של Wroc-love": "The third Wroc-love product",
@@ -257,6 +256,8 @@
     "גישה פעילה עד": "Dostęp aktywny do"
   });
 
+  Object.assign(translations, window.EXTRA_SITE_TRANSLATIONS || {});
+
   const originalText = new WeakMap();
   const originalAttributes = new WeakMap();
   const originalTitle = document.title;
@@ -329,7 +330,8 @@
     const switcher = document.createElement("div");
     switcher.className = "site-language-switcher";
     switcher.setAttribute("aria-label", "Language");
-    switcher.innerHTML = supported.map((code) => `<button type="button" class="site-language-button" data-lang="${code}">${code === "he" ? "עברית" : code === "en" ? "English" : "Polski"}</button>`).join("");
+    const labels = { he: "עברית", en: "English", pl: "Polski", de: "Deutsch", cs: "Čeština" };
+    switcher.innerHTML = supported.map((code) => `<button type="button" class="site-language-button" data-lang="${code}">${labels[code]}</button>`).join("");
     switcher.addEventListener("click", (event) => {
       const button = event.target.closest("button[data-lang]");
       if (button) setLanguage(button.dataset.lang);
