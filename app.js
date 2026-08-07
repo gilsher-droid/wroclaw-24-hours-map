@@ -12,6 +12,9 @@
   let map;
   let routeLine;
   const markers = new Map();
+  let activeGallery = null;
+  let activeGalleryIndex = 0;
+  let galleryTrigger = null;
 
   const categoryColors = {
     start: "#D6A657",
@@ -42,6 +45,21 @@
 
   function appleNavigationUrl(location) {
     return `https://maps.apple.com/?daddr=${location.coordinates[0]},${location.coordinates[1]}&dirflg=w`;
+  }
+
+  function resourceActionsHtml(location) {
+    const resources = location.resources || {};
+    const actions = [];
+    if (resources.facebook) {
+      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span aria-hidden="true">f</span></a>`);
+    }
+    if (resources.instagram) {
+      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span aria-hidden="true">◎</span></a>`);
+    }
+    if (resources.gallery?.length) {
+      actions.push(`<button type="button" class="resource-icon gallery-resource open-gallery" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span aria-hidden="true">📷</span></button>`);
+    }
+    return actions.length ? `<div class="resource-actions" aria-label="${escapeHtml(location.name[currentLanguage])}">${actions.join("")}</div>` : "";
   }
 
   function updateDocumentLanguage() {
@@ -83,6 +101,7 @@
       <div class="popup-local">${escapeHtml(location.localName)}</div>
       <div>${escapeHtml(location.description[currentLanguage])}</div>
       <div class="popup-meta"><span class="popup-chip">${escapeHtml(category)}</span>${time}${optional}</div>
+      ${resourceActionsHtml(location)}
       <div class="popup-actions">
         <a href="${googleNavigationUrl(location)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>
         <a href="${appleNavigationUrl(location)}" target="_blank" rel="noopener">${escapeHtml(t("appleMaps"))}</a>
@@ -229,6 +248,7 @@
               <button type="button" class="card-button show-location" data-location="${location.id}">${escapeHtml(t("showOnRoute"))}</button>
               <a class="card-button secondary" href="${googleNavigationUrl(location)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>
             </div>
+            ${resourceActionsHtml(location)}
           </div>
           <div class="card-meta">
             <span class="category-pill">${escapeHtml(t(`categories.${location.category}`))}</span>
@@ -262,6 +282,7 @@
           <button type="button" class="card-button show-location" data-location="${location.id}">${escapeHtml(t("showOnRoute"))}</button>
           <a class="card-button secondary" href="${googleNavigationUrl(location)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>
         </div>
+        ${resourceActionsHtml(location)}
       </article>`).join("");
     document.querySelectorAll(".evening-item .show-location").forEach((button) => {
       button.addEventListener("click", () => showLocation(button.dataset.location));
@@ -283,6 +304,72 @@
     if (currentOpenId && markers.has(currentOpenId)) markers.get(currentOpenId).openPopup();
   }
 
+  function allLocations() {
+    return [...window.LOCATIONS, ...window.EVENING_LOCATIONS];
+  }
+
+  function renderGalleryPhoto() {
+    if (!activeGallery) return;
+    const images = activeGallery.resources.gallery;
+    const image = document.getElementById("gallery-image");
+    image.src = images[activeGalleryIndex];
+    image.alt = `${activeGallery.name[currentLanguage]} — ${t("galleryPhoto")} ${activeGalleryIndex + 1}`;
+    document.getElementById("gallery-counter").textContent = `${t("galleryPhoto")} ${activeGalleryIndex + 1} ${t("galleryOf")} ${images.length}`;
+    document.querySelectorAll(".gallery-thumbnail").forEach((button, index) => {
+      const active = index === activeGalleryIndex;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-current", active ? "true" : "false");
+    });
+  }
+
+  function openGallery(locationId, trigger) {
+    const location = allLocations().find((item) => item.id === locationId);
+    if (!location?.resources?.gallery?.length) return;
+    activeGallery = location;
+    activeGalleryIndex = 0;
+    galleryTrigger = trigger || null;
+    const modal = document.getElementById("gallery-modal");
+    document.getElementById("gallery-title").textContent = location.name[currentLanguage];
+    document.getElementById("gallery-thumbnails").innerHTML = location.resources.gallery.map((src, index) => `
+      <button type="button" class="gallery-thumbnail" data-gallery-index="${index}" aria-label="${escapeHtml(t("galleryPhoto"))} ${index + 1}">
+        <img src="${escapeHtml(src)}" alt="" loading="lazy" />
+      </button>`).join("");
+    modal.hidden = false;
+    document.body.classList.add("gallery-open");
+    renderGalleryPhoto();
+    document.getElementById("gallery-close").focus();
+  }
+
+  function closeGallery() {
+    const modal = document.getElementById("gallery-modal");
+    if (modal.hidden) return;
+    modal.hidden = true;
+    document.body.classList.remove("gallery-open");
+    document.getElementById("gallery-image").removeAttribute("src");
+    activeGallery = null;
+    if (galleryTrigger?.isConnected) galleryTrigger.focus();
+    galleryTrigger = null;
+  }
+
+  function moveGallery(direction) {
+    if (!activeGallery) return;
+    const length = activeGallery.resources.gallery.length;
+    activeGalleryIndex = (activeGalleryIndex + direction + length) % length;
+    renderGalleryPhoto();
+  }
+
+  function translateGalleryControls() {
+    const close = document.getElementById("gallery-close");
+    const previous = document.getElementById("gallery-prev");
+    const next = document.getElementById("gallery-next");
+    close.setAttribute("aria-label", t("closeGallery"));
+    close.title = t("closeGallery");
+    previous.setAttribute("aria-label", t("previousPhoto"));
+    previous.title = t("previousPhoto");
+    next.setAttribute("aria-label", t("nextPhoto"));
+    next.title = t("nextPhoto");
+  }
+
   function setLanguage(language) {
     if (!supportedLanguages.includes(language)) return;
     currentLanguage = language;
@@ -298,6 +385,11 @@
     renderTips();
     renderEvening();
     if (map) refreshMarkerLanguage();
+    translateGalleryControls();
+    if (activeGallery) {
+      document.getElementById("gallery-title").textContent = activeGallery.name[currentLanguage];
+      renderGalleryPhoto();
+    }
     updateCampaignNotice();
   }
 
@@ -343,6 +435,25 @@
     document.getElementById("fit-route").addEventListener("click", showEntireRoute);
     ["share-button", "share-button-bottom"].forEach((id) => document.getElementById(id).addEventListener("click", shareMap));
     ["print-button", "print-button-bottom"].forEach((id) => document.getElementById(id).addEventListener("click", () => window.print()));
+    document.addEventListener("click", (event) => {
+      const galleryButton = event.target.closest(".open-gallery");
+      if (galleryButton) openGallery(galleryButton.dataset.location, galleryButton);
+      const thumbnail = event.target.closest(".gallery-thumbnail");
+      if (thumbnail && activeGallery) {
+        activeGalleryIndex = Number(thumbnail.dataset.galleryIndex);
+        renderGalleryPhoto();
+      }
+      if (event.target.matches("[data-close-gallery]")) closeGallery();
+    });
+    document.getElementById("gallery-close").addEventListener("click", closeGallery);
+    document.getElementById("gallery-prev").addEventListener("click", () => moveGallery(-1));
+    document.getElementById("gallery-next").addEventListener("click", () => moveGallery(1));
+    document.addEventListener("keydown", (event) => {
+      if (!activeGallery) return;
+      if (event.key === "Escape") closeGallery();
+      if (event.key === "ArrowLeft") moveGallery(-1);
+      if (event.key === "ArrowRight") moveGallery(1);
+    });
   }
 
   const access = await window.WROC_CAMPAIGN_ACCESS.authorize(currentLanguage);
@@ -355,6 +466,7 @@
   renderSchedule();
   renderTips();
   renderEvening();
+  translateGalleryControls();
   bindControls();
   initMap();
   updateCampaignNotice();
