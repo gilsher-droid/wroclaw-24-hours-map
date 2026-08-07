@@ -270,6 +270,7 @@
       "לישון": "Sleep", "מלונות מומלצים": "Recommended hotels", "תשעה מלונות ואזורים נוחים לביקור ראשון בעיר.": "Nine hotels and convenient areas for a first visit.",
       "מדריך אוכל, קניות ולינה": "Food, shopping and accommodation guide", "מדריך חי שמתעדכן": "A living, evolving guide", "41 מקומות. חמש שפות. מפה אחת.": "41 places. Five languages. One map.",
       "מסננים לפי צורך, מקבלים זום אוטומטי, ניווט ישיר וקישור לפוסט המקורי בדף העסקי.": "Filter by need, get automatic zoom, direct navigation and a link to the original business-page post.", "פתחו את המדריך": "Open the guide", "זמין בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Available in Hebrew, English, Polish, German and Czech."
+      ,"חינם עד 31 בדצמבר 2026": "Free until 31 December 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Currently free in Hebrew, English, Polish, German and Czech. From 1 January 2027, a purchase or access code will be required."
     },
     pl: {
       "אוכל, קניות ולינה": "Jedzenie, zakupy i noclegi", "המוצר הרביעי של Wroc-love": "Czwarty produkt Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jedz, pij, kupuj i śpij we Wrocławiu",
@@ -280,6 +281,7 @@
       "לישון": "Nocleg", "מלונות מומלצים": "Polecane hotele", "תשעה מלונות ואזורים נוחים לביקור ראשון בעיר.": "Dziewięć hoteli i wygodnych lokalizacji na pierwszą wizytę.",
       "מדריך אוכל, קניות ולינה": "Przewodnik po jedzeniu, zakupach i noclegach", "מדריך חי שמתעדכן": "Żywy, aktualizowany przewodnik", "41 מקומות. חמש שפות. מפה אחת.": "41 miejsc. Pięć języków. Jedna mapa.",
       "מסננים לפי צורך, מקבלים זום אוטומטי, ניווט ישיר וקישור לפוסט המקורי בדף העסקי.": "Filtruj według potrzeb, korzystaj z automatycznego przybliżenia, nawigacji i linku do oryginalnego postu.", "פתחו את המדריך": "Otwórz przewodnik", "זמין בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Dostępny po hebrajsku, angielsku, polsku, niemiecku i czesku."
+      ,"חינם עד 31 בדצמבר 2026": "Bezpłatnie do 31 grudnia 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Obecnie bezpłatny po hebrajsku, angielsku, polsku, niemiecku i czesku. Od 1 stycznia 2027 wymagany będzie zakup lub kod dostępu."
     },
     de: {
       "אוכל, קניות ולינה": "Essen, Einkaufen & Übernachten", "המוצר הרביעי של Wroc-love": "Das vierte Wroc-love-Produkt", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Essen, trinken, einkaufen und übernachten in Wrocław",
@@ -290,6 +292,7 @@
       "לישון": "Schlafen", "מלונות מומלצים": "Empfohlene Hotels", "תשעה מלונות ואזורים נוחים לביקור ראשון בעיר.": "Neun Hotels und günstige Lagen für den ersten Besuch.",
       "מדריך אוכל, קניות ולינה": "Guide für Essen, Einkaufen und Übernachten", "מדריך חי שמתעדכן": "Ein lebendiger, aktueller Guide", "41 מקומות. חמש שפות. מפה אחת.": "41 Orte. Fünf Sprachen. Eine Karte.",
       "מסננים לפי צורך, מקבלים זום אוטומטי, ניווט ישיר וקישור לפוסט המקורי בדף העסקי.": "Nach Bedarf filtern, automatisch zoomen, direkt navigieren und den Originalbeitrag öffnen.", "פתחו את המדריך": "Guide öffnen", "זמין בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Verfügbar auf Hebräisch, Englisch, Polnisch, Deutsch und Tschechisch."
+      ,"חינם עד 31 בדצמבר 2026": "Kostenlos bis 31. Dezember 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Derzeit kostenlos auf Hebräisch, Englisch, Polnisch, Deutsch und Tschechisch. Ab 1. Januar 2027 ist ein Kauf oder Zugangscode erforderlich."
     },
     cs: {
       "אוכל, קניות ולינה": "Jídlo, nákupy a ubytování", "המוצר הרביעי של Wroc-love": "Čtvrtý produkt Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jíst, pít, nakupovat a spát ve Vratislavi",
@@ -300,6 +303,7 @@
       "לישון": "Spát", "מלונות מומלצים": "Doporučené hotely", "תשעה מלונות ואזורים נוחים לביקור ראשון בעיר.": "Devět hotelů a vhodných lokalit pro první návštěvu.",
       "מדריך אוכל, קניות ולינה": "Průvodce jídlem, nákupy a ubytováním", "מדריך חי שמתעדכן": "Živý, aktualizovaný průvodce", "41 מקומות. חמש שפות. מפה אחת.": "41 míst. Pět jazyků. Jedna mapa.",
       "מסננים לפי צורך, מקבלים זום אוטומטי, ניווט ישיר וקישור לפוסט המקורי בדף העסקי.": "Filtrujte podle potřeby, využijte automatické přiblížení, navigaci a odkaz na původní příspěvek.", "פתחו את המדריך": "Otevřít průvodce", "זמין בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Dostupné v hebrejštině, angličtině, polštině, němčině a češtině."
+      ,"חינם עד 31 בדצמבר 2026": "Zdarma do 31. prosince 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Nyní zdarma v hebrejštině, angličtině, polštině, němčině a češtině. Od 1. ledna 2027 bude vyžadován nákup nebo přístupový kód."
     }
   };
   Object.entries(lifestyleTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
