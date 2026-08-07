@@ -148,7 +148,10 @@
         ${escapeHtml(category === "all" ? t("all") : t(`categories.${category}`))}
       </button>`).join("");
     filters.querySelectorAll("button").forEach((button) => {
-      button.addEventListener("click", () => applyFilter(button.dataset.category));
+      button.addEventListener("click", () => {
+        const selectedCategory = button.dataset.category;
+        applyFilter(selectedCategory !== "all" && selectedCategory === activeCategory ? "all" : selectedCategory);
+      });
     });
   }
 
@@ -180,6 +183,11 @@
     map.setView(marker.getLatLng(), 17, { animate: true });
     marker.openPopup();
     document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
+  function showEntireRoute() {
+    if (activeCategory !== "all") applyFilter("all");
+    fitRoute();
   }
 
   function renderRouteList() {
@@ -311,7 +319,7 @@
     document.querySelectorAll(".language-button").forEach((button) => {
       button.addEventListener("click", () => setLanguage(button.dataset.lang));
     });
-    document.getElementById("fit-route").addEventListener("click", fitRoute);
+    document.getElementById("fit-route").addEventListener("click", showEntireRoute);
     ["share-button", "share-button-bottom"].forEach((id) => document.getElementById(id).addEventListener("click", shareMap));
     ["print-button", "print-button-bottom"].forEach((id) => document.getElementById(id).addEventListener("click", () => window.print()));
   }
