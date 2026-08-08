@@ -1,0 +1,16 @@
+Facebook hero: ossolineum-angelus-building.jpg
+Instagram cover: ossolineum-cover.jpg
+
+Carousel order:
+1. ossolineum-cover.jpg
+2. ossolineum-angelus-building.jpg
+3. ossolineum-stained-glass.jpg
+4. ossolineum-garden.jpg
+5. ossolineum-angelus.jpg
+6. ossolineum-garden-framed.jpg
+7. ossolineum-gate.jpg
+8. ossolineum-dwarf.jpg
+
+Video selected for map and Stories only: video-ossolineum-garden.mp4
+Rejected as near-duplicates: IMG_4012.JPG and two of the three gate photographs.
+Rejected from the main carousel: IMG_3992.JPG and IMG_3997.JPG because they interrupt the visual story at small screen size.
