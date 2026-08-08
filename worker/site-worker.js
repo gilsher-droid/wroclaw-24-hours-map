@@ -318,9 +318,17 @@ export default {
       return json({ active: false }, 200, { "set-cookie": `${COOKIE_NAME}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax` });
     }
     if (url.pathname === "/api/admin/codes" && request.method === "POST") return createAccessCode(request, env);
-    if (url.pathname === "/premium" || url.pathname === "/premium.html") {
+    const legacyMapTargets = {
+      "/map.html": "/products/interactive-maps/map.html",
+      "/premium": "/products/interactive-maps/premium.html",
+      "/premium.html": "/products/interactive-maps/premium.html",
+      "/moshe.html": "/products/interactive-maps/moshe.html",
+    };
+    if (legacyMapTargets[url.pathname]) {
+      return redirect(request, `${legacyMapTargets[url.pathname]}${url.search}`);
+    }
+    if (url.pathname === "/products/interactive-maps/premium.html") {
       if (!(await activeAccess(request, env))) return redirect(request, "/access.html");
-      url.pathname = "/premium.html";
       return env.ASSETS.fetch(new Request(url, request));
     }
 
