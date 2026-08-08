@@ -74,12 +74,33 @@ a {
 
 .site-header {
   width: min(1180px, calc(100% - 40px));
-  min-height: 84px;
+  min-height: 112px;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas:
+    "languages languages"
+    "brand navigation";
   align-items: center;
-  justify-content: space-between;
-  gap: 32px;
+  gap: 8px 32px;
+  padding-block: 10px 14px;
+}
+
+.site-header .brand { grid-area: brand; }
+.site-header nav { grid-area: navigation; justify-self: end; }
+.site-header .site-language-switcher--header {
+  position: static;
+  grid-area: languages;
+  justify-self: end;
+  max-width: 100%;
+  box-shadow: none;
+}
+
+@media (max-width: 720px) {
+  .site-header .site-language-switcher--header {
+    width: 100%;
+    overflow-x: auto;
+  }
 }
 
 .brand {
