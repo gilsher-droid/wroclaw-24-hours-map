@@ -386,7 +386,13 @@
       const button = event.target.closest("button[data-lang]");
       if (button) setLanguage(button.dataset.lang);
     });
-    document.body.appendChild(switcher);
+    const header = document.querySelector(".site-header");
+    if (header) {
+      switcher.classList.add("site-language-switcher--header");
+      header.appendChild(switcher);
+    } else {
+      document.body.appendChild(switcher);
+    }
   }
 
   window.WROC_I18N = { t, get language() { return language; }, setLanguage, updateDocument };
