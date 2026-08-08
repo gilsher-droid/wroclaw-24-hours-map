@@ -50,7 +50,7 @@
 
   const facebook = {
     rynek: "https://www.facebook.com/61591964083308/posts/122107696491398802/",
-    ossolineum: "https://www.facebook.com/61591964083308/posts/122111788125398802/",
+    ossolineum: "https://www.facebook.com/61591964083308/posts/122111795823398802/",
     marketHall: "https://www.facebook.com/photo/?fbid=122110916907398802",
     opera: "https://www.facebook.com/photo/?fbid=122108355723398802",
     boguslawskiego: "https://www.facebook.com/61591964083308/posts/122109385623398802/"
