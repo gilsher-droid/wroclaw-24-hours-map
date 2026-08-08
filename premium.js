@@ -150,22 +150,36 @@
     return item.resources || window.WROC_LOCATION_MEDIA?.[item.id] || {};
   }
 
+  const compactActionLabels = {
+    he: { navigate: "ניווט", facebook: "הפוסט", instagram: "אינסטגרם", photos: "תמונות", videos: "וידאו" },
+    en: { navigate: "Navigate", facebook: "Post", instagram: "Instagram", photos: "Photos", videos: "Video" },
+    pl: { navigate: "Nawigacja", facebook: "Post", instagram: "Instagram", photos: "Zdjęcia", videos: "Wideo" },
+    de: { navigate: "Navigation", facebook: "Beitrag", instagram: "Instagram", photos: "Fotos", videos: "Video" },
+    cs: { navigate: "Navigace", facebook: "Příspěvek", instagram: "Instagram", photos: "Fotografie", videos: "Video" }
+  };
+
+  function actionLabel(key) {
+    return compactActionLabels[language]?.[key] || compactActionLabels.en[key];
+  }
+
   function resourceActionsHtml(item) {
     const resources = resourcesFor(item);
-    const actions = [];
+    const actions = [
+      `<a class="resource-icon navigate-resource" href="${googleNavigationUrl(item)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("navigate"))}" title="${escapeHtml(t("navigate"))}"><span class="brand-icon media" aria-hidden="true">↗</span><span>${escapeHtml(actionLabel("navigate"))}</span></a>`
+    ];
     if (resources.facebook) {
-      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="brand-icon facebook" aria-hidden="true">f</span></a>`);
+      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="brand-icon facebook" aria-hidden="true">f</span><span>${escapeHtml(actionLabel("facebook"))}</span></a>`);
     }
     if (resources.instagram) {
-      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="brand-icon instagram" aria-hidden="true">◎</span></a>`);
+      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="brand-icon instagram" aria-hidden="true">◎</span><span>${escapeHtml(actionLabel("instagram"))}</span></a>`);
     }
     if (resources.gallery?.length) {
-      actions.push(`<button type="button" class="resource-icon gallery-resource" data-open-gallery="${escapeHtml(item.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span aria-hidden="true">📷</span></button>`);
+      actions.push(`<button type="button" class="resource-icon gallery-resource" data-open-gallery="${escapeHtml(item.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span class="brand-icon media" aria-hidden="true">▣</span><span>${escapeHtml(actionLabel("photos"))}</span></button>`);
     }
     if (resources.videos?.length) {
-      actions.push(`<button type="button" class="resource-icon video-resource" data-open-video="${escapeHtml(item.id)}" aria-label="${escapeHtml(t("videoGallery"))}" title="${escapeHtml(t("videoGallery"))}"><span class="video-mark" aria-hidden="true"></span></button>`);
+      actions.push(`<button type="button" class="resource-icon video-resource" data-open-video="${escapeHtml(item.id)}" aria-label="${escapeHtml(t("videoGallery"))}" title="${escapeHtml(t("videoGallery"))}"><span class="brand-icon media" aria-hidden="true">▶</span><span>${escapeHtml(actionLabel("videos"))}</span></button>`);
     }
-    return actions.length ? `<div class="resource-actions" aria-label="${escapeHtml(text(item.name))}">${actions.join("")}</div>` : "";
+    return `<div class="resource-actions" aria-label="${escapeHtml(text(item.name))}">${actions.join("")}</div>`;
   }
 
   function ensureResourceModals() {
@@ -385,7 +399,6 @@
           <p class="stop-tip"><strong>${escapeHtml(t("recommended"))}:</strong> ${escapeHtml(text(item.tip))}</p>
           <div class="stop-actions">
             <button type="button" data-show-stop="${item.id}">${escapeHtml(t("showMap"))}</button>
-            <a href="${googleNavigationUrl(item)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>
           </div>
           ${resourceActionsHtml(item)}
         </div>
@@ -403,7 +416,7 @@
   }
 
   function popupHtml(item) {
-    return `<div class="premium-popup"><strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span><p>${escapeHtml(text(item.description))}</p><a href="${googleNavigationUrl(item)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>${resourceActionsHtml(item)}</div>`;
+    return `<div class="premium-popup"><strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span><p>${escapeHtml(text(item.description))}</p>${resourceActionsHtml(item)}</div>`;
   }
 
   function renderMap(stops) {

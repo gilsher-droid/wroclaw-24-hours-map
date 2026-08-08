@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import test from "node:test";
 import { runInNewContext } from "node:vm";
@@ -46,10 +46,39 @@ test("server-renders the Wroc-love prelaunch product", async () => {
   assert.match(html, /המסלול המלא ל־4 ימים/);
   assert.match(html, /וורוצלב בכריסמס – 3 ימים לזוג פנסיונרים/);
   assert.match(html, /products\/interactive-maps\/moshe\.html/);
+  assert.match(html, /לאכול, לשתות, לקנות ולישון בוורוצלב/);
+  assert.match(html, /products\/interactive-maps\/lifestyle\.html/);
   assert.match(html, />49</);
   assert.match(html, /30 ימי גישה/);
   assert.match(html, /ללא מנוי וללא חידוש אוטומטי/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
+});
+
+test("lifestyle guide publishes all sourced places in five languages", () => {
+  const html = readFileSync(resolve(root, "dist/client/products/interactive-maps/lifestyle.html"), "utf8");
+  const app = readFileSync(resolve(root, "dist/client/lifestyle.js"), "utf8");
+  const data = readFileSync(resolve(root, "dist/client/data/lifestyle-places.js"), "utf8");
+  const legacy = readFileSync(resolve(root, "dist/client/lifestyle.html"), "utf8");
+
+  assert.match(html, /data-category="eat"/);
+  assert.match(html, /data-category="drink"/);
+  assert.match(html, /data-category="buy"/);
+  assert.match(html, /data-category="sleep"/);
+  assert.match(html, /data-lang="de"/);
+  assert.match(html, /data-lang="cs"/);
+  assert.match(html, /חינם עד 31 בדצמבר 2026/);
+  assert.match(html, /data-i18n="homeReturn"/);
+  assert.match(html, /campaign-access\.js/);
+  assert.match(app, /fitBounds/);
+  assert.match(app, /WROC_CAMPAIGN_ACCESS.*authorize/);
+  assert.match(app, /sourceUrl/);
+  assert.match(app, /data-gallery/);
+  assert.match(app, /data-video/);
+  assert.match(data, /PURO Wrocław Stare Miasto/);
+  assert.match(data, /Wroclavia/);
+  assert.match(data, /Konspira/);
+  assert.match(data, /facebook\.com\/61591964083308\/posts/);
+  assert.match(legacy, /products\/interactive-maps\/lifestyle\.html/);
 });
 
 test("paid access pages and protected itinerary are present", () => {
@@ -98,6 +127,81 @@ test("paid access pages and protected itinerary are present", () => {
   assert.match(checkout, /49 ₪/);
   assert.match(worker, /\/api\/paypal\/orders/);
   assert.match(worker, /OWNER_ACCESS_CODE_HASH/);
+});
+
+test("24-hour map exposes verified social posts and local photo galleries", () => {
+  const mapHtml = readFileSync(resolve(root, "dist/client/products/interactive-maps/map.html"), "utf8");
+  const app = readFileSync(resolve(root, "dist/client/app.js"), "utf8");
+  const media = readFileSync(resolve(root, "dist/client/data/location-media.js"), "utf8");
+  const translations = readFileSync(resolve(root, "dist/client/data/translations.js"), "utf8");
+
+  assert.match(mapHtml, /id="gallery-modal"/);
+  assert.match(mapHtml, /id="video-modal"/);
+  assert.match(app, /resourceActionsHtml/);
+  assert.match(app, /openGallery/);
+  assert.match(app, /openVideo/);
+  assert.match(app, /brand-icon instagram/);
+  assert.match(app, /brand-icon media[^>]*>↗/);
+  assert.match(app, /brand-icon media[^>]*>▣/);
+  assert.match(app, /brand-icon media[^>]*>▶/);
+  assert.match(app, /compactActionLabels/);
+  assert.match(media, /facebook\.com\/61591964083308\/posts/);
+  assert.match(media, /instagram\.com\/wroclaw\.lowersilesia\/p/);
+  assert.match(translations, /photoGallery/);
+  assert.match(translations, /videoGallery/);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-hala-01.jpg")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-boguslawskiego-06.jpg")), true);
+  assert.match(media, /hydropolis:\s*\{/);
+  assert.match(media, /panorama:\s*\{/);
+  assert.match(media, /assets\/hydropolis-/);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/hydropolis-01.jpg")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-panorama-01.jpg")), true);
+  assert.match(media, /"town-hall":\s*\{ gallery: galleries\.townHall \}/);
+  assert.match(media, /old-town-hall-wroclaw\.jpg/);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/old-town-hall-wroclaw.jpg")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/video-rynek-fountains.mp4")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/video-ossolineum-garden.mp4")), true);
+});
+
+test("every interactive map product exposes relevant social, photo and video resources", () => {
+  const premiumHtml = readFileSync(resolve(root, "dist/client/products/interactive-maps/premium.html"), "utf8");
+  const mosheHtml = readFileSync(resolve(root, "dist/client/products/interactive-maps/moshe.html"), "utf8");
+  const premiumApp = readFileSync(resolve(root, "dist/client/premium.js"), "utf8");
+  const media = readFileSync(resolve(root, "dist/client/data/location-media.js"), "utf8");
+  const locations = readFileSync(resolve(root, "dist/client/data/locations.js"), "utf8");
+  const premiumRoute = readFileSync(resolve(root, "dist/client/data/premium-route.js"), "utf8");
+  const mosheRoute = readFileSync(resolve(root, "dist/client/data/moshe-route.js"), "utf8");
+  const extraLanguages = readFileSync(resolve(root, "dist/client/data/extra-languages.js"), "utf8");
+
+  assert.match(premiumHtml, /data\/location-media\.js/);
+  assert.match(mosheHtml, /data\/location-media\.js/);
+  assert.match(premiumApp, /resourceActionsHtml/);
+  assert.match(premiumApp, /data-open-gallery/);
+  assert.match(premiumApp, /data-open-video/);
+  assert.match(premiumApp, /brand-icon media[^>]*>↗/);
+  assert.match(premiumApp, /brand-icon media[^>]*>▣/);
+  assert.match(premiumApp, /brand-icon media[^>]*>▶/);
+  assert.match(premiumApp, /compactActionLabels/);
+  assert.match(media, /stulecia: \[/);
+  assert.match(media, /gallery-stulecia-02\.jpg/);
+  assert.doesNotMatch(media, /stulecia: \[[\s\S]*?gallery-stulecia-01\.jpg[\s\S]*?\]/);
+  assert.match(media, /wroclavia: gallery\("wroclavia"/);
+  assert.match(media, /renoma: gallery\("renoma"/);
+  assert.match(media, /ossolineum: \[/);
+  assert.match(media, /ossolineum-cover\.jpg/);
+  assert.match(media, /ossolineum-dwarf\.jpg/);
+  assert.match(media, /gallery: galleries\.ossolineum/);
+  assert.match(locations, /founded in Lviv in 1817/);
+  assert.match(premiumRoute, /founded in Lviv in 1817/);
+  assert.match(mosheRoute, /founded in Lviv in 1817/);
+  assert.match(premiumRoute, /\[51\.11343,17\.03657\]/);
+  assert.match(mosheRoute, /\[51\.11343,17\.03657\]/);
+  assert.match(extraLanguages, /Eine 1817 in Lwiw gegründete nationale Institution/);
+  assert.match(extraLanguages, /Národní instituce založená ve Lvově roku 1817/);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/video-stulecia-fountain.mp4")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/ossolineum-cover.jpg")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-wroclavia-05.jpg")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-renoma-05.jpg")), true);
 });
 
 test("Ofir and Merav routes are free only through 31 December 2026 in Wrocław", () => {

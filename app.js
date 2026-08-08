@@ -50,22 +50,36 @@
     return `https://maps.apple.com/?daddr=${location.coordinates[0]},${location.coordinates[1]}&dirflg=w`;
   }
 
+  const compactActionLabels = {
+    he: { navigate: "ניווט", facebook: "הפוסט", instagram: "אינסטגרם", photos: "תמונות", videos: "וידאו" },
+    en: { navigate: "Navigate", facebook: "Post", instagram: "Instagram", photos: "Photos", videos: "Video" },
+    pl: { navigate: "Nawigacja", facebook: "Post", instagram: "Instagram", photos: "Zdjęcia", videos: "Wideo" },
+    de: { navigate: "Navigation", facebook: "Beitrag", instagram: "Instagram", photos: "Fotos", videos: "Video" },
+    cs: { navigate: "Navigace", facebook: "Příspěvek", instagram: "Instagram", photos: "Fotografie", videos: "Video" }
+  };
+
+  function actionLabel(key) {
+    return compactActionLabels[currentLanguage]?.[key] || compactActionLabels.en[key];
+  }
+
   function resourceActionsHtml(location) {
     const resources = location.resources || {};
-    const actions = [];
+    const actions = [
+      `<a class="resource-icon navigate-resource" href="${googleNavigationUrl(location)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("navigate"))}" title="${escapeHtml(t("navigate"))}"><span class="brand-icon media" aria-hidden="true">↗</span><span>${escapeHtml(actionLabel("navigate"))}</span></a>`
+    ];
     if (resources.facebook) {
-      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="brand-icon facebook" aria-hidden="true">f</span></a>`);
+      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="brand-icon facebook" aria-hidden="true">f</span><span>${escapeHtml(actionLabel("facebook"))}</span></a>`);
     }
     if (resources.instagram) {
-      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="brand-icon instagram" aria-hidden="true">◎</span></a>`);
+      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="brand-icon instagram" aria-hidden="true">◎</span><span>${escapeHtml(actionLabel("instagram"))}</span></a>`);
     }
     if (resources.gallery?.length) {
-      actions.push(`<button type="button" class="resource-icon gallery-resource open-gallery" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span aria-hidden="true">📷</span></button>`);
+      actions.push(`<button type="button" class="resource-icon gallery-resource open-gallery" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span class="brand-icon media" aria-hidden="true">▣</span><span>${escapeHtml(actionLabel("photos"))}</span></button>`);
     }
     if (resources.videos?.length) {
-      actions.push(`<button type="button" class="resource-icon video-resource open-video" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("videoGallery"))}" title="${escapeHtml(t("videoGallery"))}"><span class="video-mark" aria-hidden="true"></span></button>`);
+      actions.push(`<button type="button" class="resource-icon video-resource open-video" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("videoGallery"))}" title="${escapeHtml(t("videoGallery"))}"><span class="brand-icon media" aria-hidden="true">▶</span><span>${escapeHtml(actionLabel("videos"))}</span></button>`);
     }
-    return actions.length ? `<div class="resource-actions" aria-label="${escapeHtml(location.name[currentLanguage])}">${actions.join("")}</div>` : "";
+    return `<div class="resource-actions" aria-label="${escapeHtml(location.name[currentLanguage])}">${actions.join("")}</div>`;
   }
 
   function updateDocumentLanguage() {
@@ -109,7 +123,6 @@
       <div class="popup-meta"><span class="popup-chip">${escapeHtml(category)}</span>${time}${optional}</div>
       ${resourceActionsHtml(location)}
       <div class="popup-actions">
-        <a href="${googleNavigationUrl(location)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>
         <a href="${appleNavigationUrl(location)}" target="_blank" rel="noopener">${escapeHtml(t("appleMaps"))}</a>
       </div>`;
   }
@@ -252,7 +265,6 @@
             ${recommendation}
             <div class="card-actions">
               <button type="button" class="card-button show-location" data-location="${location.id}">${escapeHtml(t("showOnRoute"))}</button>
-              <a class="card-button secondary" href="${googleNavigationUrl(location)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>
             </div>
             ${resourceActionsHtml(location)}
           </div>
@@ -286,7 +298,6 @@
         <p>${escapeHtml(location.description[currentLanguage])}</p>
         <div class="card-actions">
           <button type="button" class="card-button show-location" data-location="${location.id}">${escapeHtml(t("showOnRoute"))}</button>
-          <a class="card-button secondary" href="${googleNavigationUrl(location)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a>
         </div>
         ${resourceActionsHtml(location)}
       </article>`).join("");
