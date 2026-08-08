@@ -66,7 +66,11 @@ test("lifestyle guide publishes all sourced places in five languages", () => {
   assert.match(html, /data-category="sleep"/);
   assert.match(html, /data-lang="de"/);
   assert.match(html, /data-lang="cs"/);
+  assert.match(html, /חינם עד 31 בדצמבר 2026/);
+  assert.match(html, /data-i18n="homeReturn"/);
+  assert.match(html, /campaign-access\.js/);
   assert.match(app, /fitBounds/);
+  assert.match(app, /WROC_CAMPAIGN_ACCESS.*authorize/);
   assert.match(app, /sourceUrl/);
   assert.match(app, /data-gallery/);
   assert.match(app, /data-video/);
@@ -153,6 +157,10 @@ test("every interactive map product exposes relevant social, photo and video res
   const mosheHtml = readFileSync(resolve(root, "dist/client/products/interactive-maps/moshe.html"), "utf8");
   const premiumApp = readFileSync(resolve(root, "dist/client/premium.js"), "utf8");
   const media = readFileSync(resolve(root, "dist/client/data/location-media.js"), "utf8");
+  const locations = readFileSync(resolve(root, "dist/client/data/locations.js"), "utf8");
+  const premiumRoute = readFileSync(resolve(root, "dist/client/data/premium-route.js"), "utf8");
+  const mosheRoute = readFileSync(resolve(root, "dist/client/data/moshe-route.js"), "utf8");
+  const extraLanguages = readFileSync(resolve(root, "dist/client/data/extra-languages.js"), "utf8");
 
   assert.match(premiumHtml, /data\/location-media\.js/);
   assert.match(mosheHtml, /data\/location-media\.js/);
@@ -162,7 +170,19 @@ test("every interactive map product exposes relevant social, photo and video res
   assert.match(media, /stulecia: gallery\("stulecia"/);
   assert.match(media, /wroclavia: gallery\("wroclavia"/);
   assert.match(media, /renoma: gallery\("renoma"/);
+  assert.match(media, /ossolineum: \[/);
+  assert.match(media, /ossolineum-cover\.jpg/);
+  assert.match(media, /ossolineum-dwarf\.jpg/);
+  assert.match(media, /gallery: galleries\.ossolineum/);
+  assert.match(locations, /founded in Lviv in 1817/);
+  assert.match(premiumRoute, /founded in Lviv in 1817/);
+  assert.match(mosheRoute, /founded in Lviv in 1817/);
+  assert.match(premiumRoute, /\[51\.11343,17\.03657\]/);
+  assert.match(mosheRoute, /\[51\.11343,17\.03657\]/);
+  assert.match(extraLanguages, /Eine 1817 in Lwiw gegründete nationale Institution/);
+  assert.match(extraLanguages, /Národní instituce založená ve Lvově roku 1817/);
   assert.equal(existsSync(resolve(root, "dist/client/assets/video-stulecia-fountain.mp4")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/ossolineum-cover.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-wroclavia-05.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-renoma-05.jpg")), true);
 });
