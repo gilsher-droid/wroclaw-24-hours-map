@@ -55,9 +55,9 @@ window.LOCATIONS = [
   {
     id: "ossolineum", order: 8, coordinates: [51.11343, 17.03657], category: "culture", optional: false, localName: "Zakład Narodowy im. Ossolińskich",
     name: { he: "אוסולינאום", en: "Ossolineum", pl: "Ossolineum" },
-    description: { he: "מתחם תרבותי והיסטורי יפה. עברו בשער והציצו אל החצר והגינה בדרך לנהר.", en: "A beautiful cultural and historic complex. Step through the gate to see the courtyard and garden on your way to the river.", pl: "Piękny kompleks kulturalny i historyczny. Po drodze nad rzekę zajrzyj przez bramę na dziedziniec i do ogrodu." },
-    recommendation: null,
-    time: { he: "10–15 דקות", en: "10–15 minutes", pl: "10–15 minut" }
+    description: { he: "מוסד לאומי שנוסד ב־1817 בלבוב ושומר ספרים, כתבי יד ואוצרות תרבות פולניים. עברו דרך השער אל החצר והגן השקטים.", en: "A national institution founded in Lviv in 1817, preserving books, manuscripts and treasures of Polish culture. Step through the gate into its quiet courtyard and garden.", pl: "Narodowa instytucja założona we Lwowie w 1817 roku, przechowująca książki, rękopisy i skarby polskiej kultury. Wejdź przez bramę na spokojny dziedziniec i do ogrodu." },
+    recommendation: { he: "גם בלי ביקור בתערוכה, החצר והגן שווים עצירה קצרה; בדקו במקום אם המעבר פתוח.", en: "Even without visiting an exhibition, the courtyard and garden merit a short stop; check on arrival that access is open.", pl: "Nawet bez zwiedzania wystawy warto zatrzymać się na dziedzińcu i w ogrodzie; na miejscu sprawdź, czy przejście jest otwarte." },
+    time: { he: "15–25 דקות", en: "15–25 minutes", pl: "15–25 minut" }
   },
   {
     id: "hala-targowa", order: 9, coordinates: [51.11250, 17.04075], category: "food", optional: false, localName: "Hala Targowa",
