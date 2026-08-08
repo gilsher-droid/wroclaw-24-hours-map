@@ -8,6 +8,13 @@
     gnomes: gallery("gnomes", 5),
     rynek: ["/assets/rynek-market-square.jpg"],
     university: gallery("university", 5),
+    aula: [
+      "/assets/gallery-university-02.jpg",
+      "/assets/gallery-university-04.jpg",
+      "/assets/gallery-university-01.jpg",
+      "/assets/gallery-university-03.jpg",
+      "/assets/gallery-university-05.jpg"
+    ],
     marketHall: [...gallery("hala", 6), "/assets/feels-familiar/hala-chalka.jpg", "/assets/feels-familiar/hala-bakery.jpg"],
     chatka: ["/assets/feels-familiar/chatka-placki.jpg"],
     "pan-precel-olawska": ["/assets/feels-familiar/pan-precel-bag.jpg", "/assets/feels-familiar/pan-precel-olawska.jpg"],
@@ -18,7 +25,14 @@
     nfm: gallery("nfm", 3),
     opera: gallery("opera", 6),
     boguslawskiego: gallery("boguslawskiego", 6),
-    stulecia: gallery("stulecia", 4),
+    hydropolis: Array.from({ length: 10 }, (_, index) =>
+      `/assets/hydropolis-${String(index + 1).padStart(2, "0")}.jpg`),
+    panorama: gallery("panorama", 4),
+    stulecia: [
+      "/assets/gallery-stulecia-02.jpg",
+      "/assets/gallery-stulecia-03.jpg",
+      "/assets/gallery-stulecia-04.jpg"
+    ],
     wroclavia: gallery("wroclavia", 5),
     renoma: gallery("renoma", 5),
     ossolineum: [
@@ -60,6 +74,8 @@
     marketHall: "https://www.facebook.com/photo/?fbid=122110916907398802",
     opera: "https://www.facebook.com/photo/?fbid=122108355723398802",
     boguslawskiego: "https://www.facebook.com/61591964083308/posts/122109385623398802/",
+    hydropolis: "https://www.facebook.com/61591964083308/posts/122107706685398802/",
+    panorama: "https://www.facebook.com/61591964083308/posts/122109893193398802/",
     familiar: "https://www.facebook.com/61591964083308/posts/122111800983398802/"
   };
 
@@ -68,6 +84,8 @@
     ossolineum: "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/",
     marketHall: "https://www.instagram.com/wroclaw.lowersilesia/p/DbpTgt_HFkH/",
     boguslawskiego: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc11E7HIcn/",
+    hydropolis: "https://www.instagram.com/p/Dbf-GySnOyi/",
+    panorama: "https://www.instagram.com/p/Dbf-y1HHDum/",
     familiar: "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
   };
 
@@ -76,7 +94,7 @@
     "dwarf-info": { facebook: facebook.rynek, instagram: instagram.rynek, gallery: galleries.gnomes },
     papa: { facebook: facebook.rynek, instagram: instagram.rynek, gallery: galleries.gnomes },
     university: { gallery: galleries.university },
-    aula: { gallery: galleries.university },
+    aula: { gallery: galleries.aula },
     "math-tower": { gallery: galleries.university },
     ossolineum: { facebook: facebook.ossolineum, instagram: instagram.ossolineum, gallery: galleries.ossolineum, videos: videos.ossolineum },
     "hala-targowa": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
@@ -93,6 +111,8 @@
     ostrow: { gallery: galleries.cathedral },
     cathedral: { gallery: galleries.cathedral },
     "ostrow-cathedral": { gallery: galleries.cathedral },
+    hydropolis: { facebook: facebook.hydropolis, instagram: instagram.hydropolis, gallery: galleries.hydropolis },
+    panorama: { facebook: facebook.panorama, instagram: instagram.panorama, gallery: galleries.panorama },
     hala: { gallery: galleries.stulecia, videos: videos.stulecia },
     fountain: { gallery: galleries.stulecia, videos: videos.stulecia },
     wroclavia: { gallery: galleries.wroclavia },
