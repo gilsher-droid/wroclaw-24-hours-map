@@ -7,6 +7,7 @@
   const galleries = {
     gnomes: gallery("gnomes", 5),
     rynek: ["/assets/rynek-market-square.jpg"],
+    townHall: ["/assets/old-town-hall-wroclaw.jpg"],
     university: gallery("university", 5),
     aula: [
       "/assets/gallery-university-02.jpg",
@@ -90,7 +91,8 @@
   };
 
   const resources = {
-    rynek: { gallery: galleries.rynek, videos: videos.rynek },
+    rynek: { gallery: [...galleries.rynek, ...galleries.townHall], videos: videos.rynek },
+    "town-hall": { gallery: galleries.townHall },
     "dwarf-info": { facebook: facebook.rynek, instagram: instagram.rynek, gallery: galleries.gnomes },
     papa: { facebook: facebook.rynek, instagram: instagram.rynek, gallery: galleries.gnomes },
     university: { gallery: galleries.university },
