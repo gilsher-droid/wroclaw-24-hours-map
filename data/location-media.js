@@ -42,6 +42,7 @@
       "/assets/gallery-stulecia-03.jpg",
       "/assets/gallery-stulecia-04.jpg"
     ],
+    japanese: gallery("japanese", 6),
     wroclavia: gallery("wroclavia", 5),
     renoma: gallery("renoma", 5),
     ossolineum: [
@@ -85,6 +86,7 @@
     boguslawskiego: "https://www.facebook.com/61591964083308/posts/122109385623398802/",
     hydropolis: "https://www.facebook.com/61591964083308/posts/122107706685398802/",
     panorama: "https://www.facebook.com/61591964083308/posts/122109893193398802/",
+    japanese: "https://www.facebook.com/61591964083308/posts/122109906747398802/",
     familiar: "https://www.facebook.com/61591964083308/posts/122111800983398802/"
   };
 
@@ -95,6 +97,7 @@
     boguslawskiego: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc11E7HIcn/",
     hydropolis: "https://www.instagram.com/p/Dbf-GySnOyi/",
     panorama: "https://www.instagram.com/p/Dbf-y1HHDum/",
+    japanese: "https://www.instagram.com/p/DbgCVSbnL0Q/",
     familiar: "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
   };
 
@@ -124,6 +127,7 @@
     panorama: { facebook: facebook.panorama, instagram: instagram.panorama, gallery: galleries.panorama },
     hala: { gallery: galleries.stulecia, videos: videos.stulecia },
     fountain: { gallery: galleries.stulecia, videos: videos.stulecia },
+    japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: galleries.japanese },
     wroclavia: { gallery: galleries.wroclavia },
     "wroclavia-station": { gallery: galleries.wroclavia },
     renoma: { gallery: galleries.renoma },
