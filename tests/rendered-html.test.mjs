@@ -167,7 +167,9 @@ test("every interactive map product exposes relevant social, photo and video res
   assert.match(premiumApp, /resourceActionsHtml/);
   assert.match(premiumApp, /data-open-gallery/);
   assert.match(premiumApp, /data-open-video/);
-  assert.match(media, /stulecia: gallery\("stulecia"/);
+  assert.match(media, /stulecia: \[/);
+  assert.match(media, /gallery-stulecia-02\.jpg/);
+  assert.doesNotMatch(media, /stulecia: \[[\s\S]*?gallery-stulecia-01\.jpg[\s\S]*?\]/);
   assert.match(media, /wroclavia: gallery\("wroclavia"/);
   assert.match(media, /renoma: gallery\("renoma"/);
   assert.match(media, /ossolineum: \[/);
