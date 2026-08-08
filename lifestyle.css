@@ -94,10 +94,10 @@ h1 { margin-bottom: 24px; font-size: clamp(54px, 7vw, 96px); line-height: .98; }
 .place-tags { display: flex; flex-wrap: wrap; gap: 5px; }
 .place-tag { padding: 5px 8px; border-radius: 999px; color: white; font-size: 10px; font-weight: 900; }
 .place-tag.eat { background: var(--eat); } .place-tag.drink { background: var(--drink); } .place-tag.buy { background: var(--buy); } .place-tag.sleep { background: var(--sleep); }
-.place-actions { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 7px; }
-.place-actions a, .place-actions button { min-height: 34px; padding: 0 10px; border: 1px solid var(--line); border-radius: 10px; background: white; color: var(--navy); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 900; }
+.place-actions { margin-top: 12px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.place-actions a, .place-actions button { width: auto; min-height: 42px; padding: 4px 11px; border: 1px solid var(--line); border-radius: 12px; background: white; color: var(--navy); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 7px; font-size: 11px; font-weight: 900; line-height: 1; text-decoration: none; }
 .place-actions a:hover, .place-actions button:hover { border-color: var(--blue); color: var(--blue); }
-.brand-icon { width: 20px; height: 20px; border-radius: 6px; display: inline-flex; align-items: center; justify-content: center; color: white; font-size: 11px; font-weight: 900; }
+.brand-icon { width: 28px; height: 28px; border-radius: 8px; display: inline-flex; flex: 0 0 auto; align-items: center; justify-content: center; color: white; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 900; }
 .brand-icon.facebook { background: #1877f2; } .brand-icon.instagram { background: linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045); } .brand-icon.media { background: var(--navy); }
 .empty-state { padding: 60px 24px; border: 1px dashed var(--line); border-radius: 20px; text-align: center; }
 .empty-state strong { color: var(--navy); font-size: 18px; }
