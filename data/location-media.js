@@ -14,7 +14,7 @@
     "dobra-paczkarnia-kuznicza": ["/assets/feels-familiar/dobra-paczkarnia-kuznicza.jpg", "/assets/feels-familiar/dobra-paczkarnia-display.jpg"],
     "jolie-kurzy-targ": ["/assets/feels-familiar/jolie-hummus-pita.jpg", "/assets/feels-familiar/jolie-kurzy-targ.jpg", "/assets/feels-familiar/jolie-interior.jpg"],
     cathedral: gallery("cathedral", 6),
-    tumskiBridge: ["/assets/gallery-cathedral-05.jpg"],
+    tumskiBridge: ["/assets/gallery-cathedral-02.jpg"],
     nfm: gallery("nfm", 3),
     opera: gallery("opera", 6),
     boguslawskiego: gallery("boguslawskiego", 6),
