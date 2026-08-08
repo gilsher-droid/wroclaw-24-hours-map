@@ -140,7 +140,7 @@ test("24-hour map exposes verified social posts and local photo galleries", () =
   assert.match(app, /resourceActionsHtml/);
   assert.match(app, /openGallery/);
   assert.match(app, /openVideo/);
-  assert.match(app, /instagram-mark/);
+  assert.match(app, /brand-icon instagram/);
   assert.match(app, /video-mark/);
   assert.match(media, /facebook\.com\/61591964083308\/posts/);
   assert.match(media, /instagram\.com\/wroclaw\.lowersilesia\/p/);
@@ -148,6 +148,11 @@ test("24-hour map exposes verified social posts and local photo galleries", () =
   assert.match(translations, /videoGallery/);
   assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-hala-01.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-boguslawskiego-06.jpg")), true);
+  assert.match(media, /hydropolis:\s*\{/);
+  assert.match(media, /panorama:\s*\{/);
+  assert.match(media, /assets\/hydropolis-/);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/hydropolis-01.jpg")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-panorama-01.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/video-rynek-fountains.mp4")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/video-ossolineum-garden.mp4")), true);
 });
