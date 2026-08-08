@@ -14,7 +14,17 @@
     boguslawskiego: gallery("boguslawskiego", 6),
     stulecia: gallery("stulecia", 4),
     wroclavia: gallery("wroclavia", 5),
-    renoma: gallery("renoma", 5)
+    renoma: gallery("renoma", 5),
+    ossolineum: [
+      "/assets/ossolineum-cover.jpg",
+      "/assets/ossolineum-angelus-building.jpg",
+      "/assets/ossolineum-stained-glass.jpg",
+      "/assets/ossolineum-garden.jpg",
+      "/assets/ossolineum-angelus.jpg",
+      "/assets/ossolineum-garden-framed.jpg",
+      "/assets/ossolineum-gate.jpg",
+      "/assets/ossolineum-dwarf.jpg"
+    ]
   };
 
   const videos = {
@@ -40,7 +50,7 @@
 
   const facebook = {
     rynek: "https://www.facebook.com/61591964083308/posts/122107696491398802/",
-    ossolineum: "https://www.facebook.com/photo/?fbid=122109815397398802",
+    ossolineum: "https://www.facebook.com/61591964083308/posts/122111788125398802/",
     marketHall: "https://www.facebook.com/photo/?fbid=122110916907398802",
     opera: "https://www.facebook.com/photo/?fbid=122108355723398802",
     boguslawskiego: "https://www.facebook.com/61591964083308/posts/122109385623398802/"
@@ -48,6 +58,7 @@
 
   const instagram = {
     rynek: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc4V7NnBl_/",
+    ossolineum: "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/",
     marketHall: "https://www.instagram.com/wroclaw.lowersilesia/p/DbpTgt_HFkH/",
     boguslawskiego: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc11E7HIcn/"
   };
@@ -59,7 +70,7 @@
     university: { gallery: galleries.university },
     aula: { gallery: galleries.university },
     "math-tower": { gallery: galleries.university },
-    ossolineum: { facebook: facebook.ossolineum, videos: videos.ossolineum },
+    ossolineum: { facebook: facebook.ossolineum, instagram: instagram.ossolineum, gallery: galleries.ossolineum, videos: videos.ossolineum },
     "hala-targowa": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
     "market-hall": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
     "most-tumski": { gallery: galleries.cathedral },
