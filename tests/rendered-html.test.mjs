@@ -153,6 +153,9 @@ test("24-hour map exposes verified social posts and local photo galleries", () =
   assert.match(media, /assets\/hydropolis-/);
   assert.equal(existsSync(resolve(root, "dist/client/assets/hydropolis-01.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-panorama-01.jpg")), true);
+  assert.match(media, /"town-hall":\s*\{ gallery: galleries\.townHall \}/);
+  assert.match(media, /old-town-hall-wroclaw\.jpg/);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/old-town-hall-wroclaw.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/video-rynek-fountains.mp4")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/video-ossolineum-garden.mp4")), true);
 });
