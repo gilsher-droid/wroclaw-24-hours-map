@@ -67,21 +67,21 @@ window.LOCATIONS = [
     time: { he: "30–45 דקות", en: "30–45 minutes", pl: "30–45 minut" }
   },
   {
-    id: "most-piaskowy", order: 10, coordinates: [51.11345, 17.04177], category: "river", optional: false, localName: "Most Piaskowy",
+    id: "most-piaskowy", order: 10, coordinates: [51.113559, 17.039816], category: "river", optional: false, localName: "Most Piaskowy",
     name: { he: "גשר החול", en: "Sand Bridge", pl: "Most Piaskowy" },
     description: { he: "אחד המעברים היפים בין מרכז העיר לאזור האיים, עם מבט נהדר אל הנהר.", en: "One of the prettiest crossings between the city centre and the islands, with fine river views.", pl: "Jedno z najładniejszych przejść między centrum a wyspami, z przyjemnym widokiem na rzekę." },
     recommendation: null,
     time: { he: "10 דקות", en: "10 minutes", pl: "10 minut" }
   },
   {
-    id: "wyspa-piasek", order: 11, coordinates: [51.11431, 17.04327], category: "river", optional: false, localName: "Wyspa Piasek",
+    id: "wyspa-piasek", order: 11, coordinates: [51.11453, 17.040199], category: "river", optional: false, localName: "Wyspa Piasek",
     name: { he: "אי החול", en: "Sand Island", pl: "Wyspa Piasek" },
     description: { he: "אזור מעבר שקט ונעים בין מרכז העיר לאוסטרוב טומסקי, מוקף בזרועות האודר.", en: "A quiet, pleasant passage between the city centre and Ostrów Tumski, surrounded by branches of the Oder.", pl: "Spokojne, przyjemne przejście między centrum a Ostrowem Tumskim, otoczone ramionami Odry." },
     recommendation: null,
     time: { he: "10–15 דקות", en: "10–15 minutes", pl: "10–15 minut" }
   },
   {
-    id: "most-tumski", order: 12, coordinates: [51.11447, 17.04449], category: "river", optional: false, localName: "Most Tumski",
+    id: "most-tumski", order: 12, coordinates: [51.114714, 17.042248], category: "river", optional: false, localName: "Most Tumski",
     name: { he: "גשר טומסקי", en: "Tumski Bridge", pl: "Most Tumski" },
     description: { he: "הגשר שמוביל אל הלב ההיסטורי של אוסטרוב טומסקי.", en: "The bridge leading into the historic heart of Ostrów Tumski.", pl: "Most prowadzący do historycznego serca Ostrowa Tumskiego." },
     recommendation: null,
