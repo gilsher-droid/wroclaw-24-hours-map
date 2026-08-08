@@ -7,7 +7,11 @@
   const galleries = {
     gnomes: gallery("gnomes", 5),
     university: gallery("university", 5),
-    marketHall: gallery("hala", 6),
+    marketHall: [...gallery("hala", 6), "/assets/feels-familiar/hala-chalka.jpg", "/assets/feels-familiar/hala-bakery.jpg"],
+    chatka: ["/assets/feels-familiar/chatka-placki.jpg"],
+    "pan-precel-olawska": ["/assets/feels-familiar/pan-precel-bag.jpg", "/assets/feels-familiar/pan-precel-olawska.jpg"],
+    "dobra-paczkarnia-kuznicza": ["/assets/feels-familiar/dobra-paczkarnia-kuznicza.jpg", "/assets/feels-familiar/dobra-paczkarnia-display.jpg"],
+    "jolie-kurzy-targ": ["/assets/feels-familiar/jolie-hummus-pita.jpg", "/assets/feels-familiar/jolie-kurzy-targ.jpg", "/assets/feels-familiar/jolie-interior.jpg"],
     cathedral: gallery("cathedral", 6),
     nfm: gallery("nfm", 3),
     opera: gallery("opera", 6),
@@ -53,14 +57,16 @@
     ossolineum: "https://www.facebook.com/61591964083308/posts/122111795823398802/",
     marketHall: "https://www.facebook.com/photo/?fbid=122110916907398802",
     opera: "https://www.facebook.com/photo/?fbid=122108355723398802",
-    boguslawskiego: "https://www.facebook.com/61591964083308/posts/122109385623398802/"
+    boguslawskiego: "https://www.facebook.com/61591964083308/posts/122109385623398802/",
+    familiar: "https://www.facebook.com/61591964083308/posts/122111800983398802/"
   };
 
   const instagram = {
     rynek: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc4V7NnBl_/",
     ossolineum: "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/",
     marketHall: "https://www.instagram.com/wroclaw.lowersilesia/p/DbpTgt_HFkH/",
-    boguslawskiego: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc11E7HIcn/"
+    boguslawskiego: "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc11E7HIcn/",
+    familiar: "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
   };
 
   const resources = {
@@ -73,6 +79,12 @@
     ossolineum: { facebook: facebook.ossolineum, instagram: instagram.ossolineum, gallery: galleries.ossolineum, videos: videos.ossolineum },
     "hala-targowa": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
     "market-hall": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
+    chatka: { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries.chatka },
+    "pan-precel": { facebook: facebook.familiar, instagram: instagram.familiar },
+    "pan-precel-olawska": { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries["pan-precel-olawska"] },
+    "dobra-paczkarnia-kuznicza": { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries["dobra-paczkarnia-kuznicza"] },
+    "jolie-kurzy-targ": { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries["jolie-kurzy-targ"] },
+    "jolie-plac-solny": { facebook: facebook.familiar, instagram: instagram.familiar },
     "most-tumski": { gallery: galleries.cathedral },
     "tumski-bridge": { gallery: galleries.cathedral },
     "wyspa-piasek": { gallery: galleries.cathedral },
