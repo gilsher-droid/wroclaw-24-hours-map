@@ -175,8 +175,8 @@
   Object.assign(translations.en, {
     "מסלול כריסמס": "Christmas route",
     "המוצר השלישי של Wroc-love": "The third Wroc-love product",
-    "וורוצלב בכריסמס – 3 ימים לזוג פנסיונרים": "Christmas in Wrocław — 3 days for a retired couple",
-    "מסלול חורפי רגוע שנבנה לזוג פנסיונרים: שווקי כריסמס, העיר העתיקה, אוסטרוב טומסקי, קפה חם וזמן למנוחה בלי לרוץ בין התחנות.": "A relaxed winter route designed for a retired couple: Christmas markets, the Old Town, Ostrów Tumski, warm coffee and time to rest without rushing between stops.",
+    "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים": "Christmas in Wrocław — a relaxed 3-day route",
+    "מסלול חורפי רגוע: שווקי כריסמס, העיר העתיקה, אוסטרוב טומסקי, קפה חם וזמן למנוחה בלי לרוץ בין התחנות.": "A relaxed winter route: Christmas markets, the Old Town, Ostrów Tumski, warm coffee and time to rest without rushing between stops.",
     "שוק הכריסמס והעיר העתיקה": "Christmas Market and the Old Town",
     "פתיחה נעימה בכיכר השוק, בין האורות, הדוכנים והרחובות המקושטים.": "A gentle start in the Market Square among the lights, stalls and decorated streets.",
     "האוניברסיטה ואוסטרוב טומסקי": "The university and Ostrów Tumski",
@@ -217,8 +217,8 @@
   Object.assign(translations.pl, {
     "מסלול כריסמס": "Trasa świąteczna",
     "המוצר השלישי של Wroc-love": "Trzeci produkt Wroc-love",
-    "וורוצלב בכריסמס – 3 ימים לזוג פנסיונרים": "Boże Narodzenie we Wrocławiu — 3 dni dla pary seniorów",
-    "מסלול חורפי רגוע שנבנה לזוג פנסיונרים: שווקי כריסמס, העיר העתיקה, אוסטרוב טומסקי, קפה חם וזמן למנוחה בלי לרוץ בין התחנות.": "Spokojna zimowa trasa dla pary seniorów: jarmarki bożonarodzeniowe, Stare Miasto, Ostrów Tumski, gorąca kawa i czas na odpoczynek bez pośpiechu.",
+    "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים": "Boże Narodzenie we Wrocławiu — spokojna trasa na 3 dni",
+    "מסלול חורפי רגוע: שווקי כריסמס, העיר העתיקה, אוסטרוב טומסקי, קפה חם וזמן למנוחה בלי לרוץ בין התחנות.": "Spokojna zimowa trasa: jarmarki bożonarodzeniowe, Stare Miasto, Ostrów Tumski, gorąca kawa i czas na odpoczynek bez pośpiechu.",
     "שוק הכריסמס והעיר העתיקה": "Jarmark bożonarodzeniowy i Stare Miasto",
     "פתיחה נעימה בכיכר השוק, בין האורות, הדוכנים והרחובות המקושטים.": "Spokojny początek na Rynku pośród świateł, stoisk i udekorowanych ulic.",
     "האוניברסיטה ואוסטרוב טומסקי": "Uniwersytet i Ostrów Tumski",
