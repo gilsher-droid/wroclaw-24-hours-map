@@ -298,21 +298,20 @@ async function createAccessCode(request, env) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    // Phase 1 public launch. Historical payment/access functions and tables are
+    // intentionally retained below, but normal visitors never execute them.
     if (url.pathname === "/buy") {
-      return redirect(request, "/checkout.html");
+      return redirect(request, "/products/interactive-maps/premium.html");
     }
     if (url.pathname === "/api/paypal/config" && request.method === "GET") {
-      return env.PAYPAL_CLIENT_ID
-        ? json({ clientId: env.PAYPAL_CLIENT_ID, currency: "ILS", amount: "49.00" })
-        : json({ error: "התשלום עדיין אינו פעיל." }, 503);
+      return json({ error: "Payments are disabled during the public launch phase." }, 410);
     }
-    if (url.pathname === "/api/paypal/orders" && request.method === "POST") return createPaypalOrder(request, env);
+    if (url.pathname === "/api/paypal/orders" && request.method === "POST") return json({ error: "Payments are disabled during the public launch phase." }, 410);
     const captureMatch = url.pathname.match(/^\/api\/paypal\/orders\/([A-Z0-9]{10,32})\/capture$/);
-    if (captureMatch && request.method === "POST") return capturePaypalOrder(request, env, captureMatch[1]);
-    if (url.pathname === "/api/access/verify" && request.method === "POST") return verifyCode(request, env);
+    if (captureMatch && request.method === "POST") return json({ error: "Payments are disabled during the public launch phase." }, 410);
+    if (url.pathname === "/api/access/verify" && request.method === "POST") return json({ error: "Access codes are not required during the public launch phase." }, 410);
     if (url.pathname === "/api/access/status" && request.method === "GET") {
-      const access = await activeAccess(request, env);
-      return json({ active: Boolean(access), expiresAt: access ? `${access.expiresAt.replace(" ", "T")}Z` : null });
+      return json({ active: true, free: true, phase: "public-launch", expiresAt: null });
     }
     if (url.pathname === "/api/access/logout" && request.method === "POST") {
       return json({ active: false }, 200, { "set-cookie": `${COOKIE_NAME}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax` });
@@ -328,7 +327,6 @@ export default {
       return redirect(request, `${legacyMapTargets[url.pathname]}${url.search}`);
     }
     if (url.pathname === "/products/interactive-maps/premium.html") {
-      if (!(await activeAccess(request, env))) return redirect(request, "/access.html");
       return env.ASSETS.fetch(new Request(url, request));
     }
 

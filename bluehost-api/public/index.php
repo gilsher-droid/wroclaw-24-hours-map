@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 const COOKIE_MAX_AGE_OWNER = 31536000;
 
+// Phase 1 public launch: the historical payment/access implementation below is
+// intentionally retained for a future controlled reactivation. Public routes
+// must not charge customers, verify codes, or create new access records now.
+
 $configPath = dirname(__DIR__) . '/config.php';
 if (!is_file($configPath)) {
     respond(['error' => 'Server configuration is missing.'], 503);
@@ -43,30 +47,23 @@ try {
     }
 
     if ($path === '/api/paypal/config' && $method === 'GET') {
-        $clientId = (string) ($config['paypal']['client_id'] ?? '');
-        if ($clientId === '') respond(['error' => 'התשלום עדיין אינו פעיל.'], 503);
-        respond([
-            'clientId' => $clientId,
-            'currency' => (string) ($config['paypal']['currency'] ?? 'ILS'),
-            'amount' => (string) ($config['paypal']['amount'] ?? '49.00'),
-        ]);
+        respond(['error' => 'Payments are disabled during the public launch phase.'], 410);
     }
 
     if ($path === '/api/paypal/orders' && $method === 'POST') {
-        createPaypalOrder($config);
+        respond(['error' => 'Payments are disabled during the public launch phase.'], 410);
     }
 
     if (preg_match('#^/api/paypal/orders/([A-Z0-9]{10,32})/capture$#', $path, $match) && $method === 'POST') {
-        capturePaypalOrder($config, $match[1]);
+        respond(['error' => 'Payments are disabled during the public launch phase.'], 410);
     }
 
     if ($path === '/api/access/verify' && $method === 'POST') {
-        verifyAccessCode($config);
+        respond(['error' => 'Access codes are disabled during the public launch phase.'], 410);
     }
 
     if ($path === '/api/access/status' && $method === 'GET') {
-        $access = activeAccess($config);
-        respond(['active' => $access !== null, 'owner' => ($access['id'] ?? null) === 'owner', 'expiresAt' => $access['expires_at'] ?? null]);
+        respond(['active' => true, 'free' => true, 'phase' => 'public-launch', 'expiresAt' => null]);
     }
 
     if ($path === '/api/access/logout' && $method === 'POST') {
@@ -75,7 +72,7 @@ try {
     }
 
     if ($path === '/api/admin/codes' && $method === 'POST') {
-        createAccessCode($config);
+        respond(['error' => 'Access-code creation is disabled during the public launch phase.'], 410);
     }
 
     respond(['error' => 'העמוד לא נמצא.'], 404);

@@ -18,7 +18,7 @@
         smartTipBody: "בחרו יום לפי מזג האוויר. התחילו מאוחר יחסית, עצרו להתחממות, ודלגו על כל תחנת רשות אם הרחובות חלקים או אם מתעייפים.",
         routeStops: "תחנות מותאמות לחורף", recommendations: "המלצות אוכל והתחממות",
         savePhone: "שמרו את מסלול הכריסמס בטלפון",
-        closing: "שלושת הימים, המפות והניווט נשארים זמינים לאורך תקופת הגישה.",
+        closing: "שלושת הימים, המפות והניווט זמינים כרגע ללא תשלום.",
         backTop: "חזרה לבחירת יום"
       },
       en: {
@@ -31,7 +31,7 @@
         smartTipBody: "Choose each day according to the weather. Start relatively late, warm up often and skip optional stops whenever streets are slippery or energy is low.",
         routeStops: "winter-friendly stops", recommendations: "food and warm-up picks",
         savePhone: "Save the Christmas route on your phone",
-        closing: "All three days, maps and navigation remain available throughout the access period.",
+        closing: "All three days, maps and navigation are currently available free of charge.",
         backTop: "Back to day selection"
       },
       pl: {
@@ -44,7 +44,7 @@
         smartTipBody: "Wybierajcie dzień według pogody. Zaczynajcie nieco później, róbcie przerwy w cieple i pomijajcie punkty opcjonalne przy śliskich ulicach lub zmęczeniu.",
         routeStops: "punktów dobrych zimą", recommendations: "jedzenie i ciepłe przerwy",
         savePhone: "Zapiszcie świąteczną trasę w telefonie",
-        closing: "Wszystkie trzy dni, mapy i nawigacja są dostępne przez cały okres dostępu.",
+        closing: "Wszystkie trzy dni, mapy i nawigacja są obecnie dostępne bezpłatnie.",
         backTop: "Wróć do wyboru dnia"
       }
     }

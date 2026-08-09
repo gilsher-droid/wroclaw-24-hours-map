@@ -29,7 +29,7 @@ const included = [
   "קישורי ניווט ישירים לכל תחנה",
   "המלצות אוכל, קפה, קינוחים וקניות",
   "זמני הליכה והצעות לקצב נוח",
-  "עדכונים למסלול במשך תקופת הגישה",
+  "עדכונים שוטפים למסלול",
 ];
 
 export default function Home() {
@@ -47,7 +47,6 @@ export default function Home() {
           <a href="#free">מסלול חינמי</a>
           <a href="#premium">מסלול 4 ימים</a>
           <a href="#how">איך זה עובד</a>
-          <a className="nav-access" href="/access.html">כניסה עם קוד</a>
         </nav>
       </header>
 
@@ -148,21 +147,20 @@ export default function Home() {
             ))}
           </div>
 
-          <aside className="price-card" aria-label="מחיר ותכולת החבילה">
-            <span className="price-badge">מחיר השקה</span>
+          <aside className="price-card" aria-label="תכולת המסלול">
+            <span className="price-badge">כרגע ללא תשלום</span>
             <div className="price">
-              <strong>49</strong>
-              <span>₪</span>
+              <strong>0</strong>
+              <span>PLN</span>
             </div>
-            <p>תשלום חד־פעמי · 30 ימי גישה</p>
+            <p>כל המסלולים והמפות זמינים כרגע ללא תשלום.</p>
             <ul>
               {included.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            <a className="purchase-button" href="/buy">לרכישת גישה</a>
-            <a className="existing-access" href="/access.html">כבר רכשתם? כניסה עם קוד</a>
-            <small>ללא מנוי וללא חידוש אוטומטי</small>
+            <a className="purchase-button" href="/products/interactive-maps/premium.html">פתיחת מסלול 4 הימים</a>
+            <small>פשוט בוחרים מסלול ומתחילים לטייל.</small>
           </aside>
         </div>
       </section>
@@ -171,24 +169,24 @@ export default function Home() {
         <div className="section-heading compact">
           <div>
             <span className="section-number">03</span>
-            <span className="eyebrow">פשוט מהתשלום ועד הטיול</span>
-            <h2>איך זה יעבוד?</h2>
+            <span className="eyebrow">פשוט מהבחירה ועד הטיול</span>
+            <h2>איך זה עובד?</h2>
           </div>
         </div>
         <ol className="steps">
           <li>
             <span>1</span>
-            <strong>רוכשים גישה</strong>
-            <p>תשלום חד־פעמי ומאובטח למסלול שבחרתם.</p>
+            <strong>בוחרים מסלול</strong>
+            <p>מוצאים את המפה שמתאימה לסגנון ולמשך הטיול.</p>
           </li>
           <li>
             <span>2</span>
-            <strong>מקבלים קוד למייל</strong>
-            <p>בלי לזכור סיסמה ובלי לפתוח חשבון מסובך.</p>
+            <strong>פותחים מיד</strong>
+            <p>בלי הרשמה, בלי מייל, בלי קוד ובלי תשלום.</p>
           </li>
           <li>
             <span>3</span>
-            <strong>מטיילים במשך 30 יום</strong>
+            <strong>יוצאים לטייל</strong>
             <p>פותחים את המסלול מכל טלפון וחוזרים אליו מתי שרוצים.</p>
           </li>
         </ol>
