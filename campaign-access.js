@@ -1,74 +1,28 @@
 (function () {
   "use strict";
 
-  const API_ORIGIN = "https://api.wroc-love.com";
-  const FREE_UNTIL_ISO = "2027-01-01T00:00:00+01:00";
-  const FREE_UNTIL = Date.parse(FREE_UNTIL_ISO);
+  // Phase 1 public launch: all map products are open without authentication.
+  // The historical access/payment backend remains dormant for a reversible future phase.
   const supported = ["he", "en", "pl", "de", "cs"];
-
   const copy = {
-    he: {
-      freeUntil: "גישה חינם עד 31 בדצמבר 2026",
-      openFourDays: "פתיחת מסלול 4 הימים בחינם",
-      paidAfter: "החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.",
-      freeBadge: "חינם עד סוף 2026"
-    },
-    en: {
-      freeUntil: "Free access until 31 December 2026",
-      openFourDays: "Open the free 4-day route",
-      paidAfter: "From 1 January 2027, a purchase or access code will be required.",
-      freeBadge: "Free until the end of 2026"
-    },
-    pl: {
-      freeUntil: "Bezpłatny dostęp do 31 grudnia 2026",
-      openFourDays: "Otwórz bezpłatną trasę na 4 dni",
-      paidAfter: "Od 1 stycznia 2027 wymagany będzie zakup lub kod dostępu.",
-      freeBadge: "Bezpłatnie do końca 2026"
-    },
-    de: { freeUntil: "Kostenloser Zugang bis 31. Dezember 2026", openFourDays: "Kostenlose 4-Tage-Route öffnen", paidAfter: "Ab 1. Januar 2027 ist ein Kauf oder Zugangscode erforderlich.", freeBadge: "Kostenlos bis Ende 2026" },
-    cs: { freeUntil: "Bezplatný přístup do 31. prosince 2026", openFourDays: "Otevřít bezplatnou čtyřdenní trasu", paidAfter: "Od 1. ledna 2027 bude vyžadován nákup nebo přístupový kód.", freeBadge: "Zdarma do konce roku 2026" }
+    he: { currentFree: "כל המסלולים והמפות זמינים כרגע ללא תשלום.", openFourDays: "פתיחת מסלול 4 הימים", freeBadge: "כרגע ללא תשלום", launchNote: "פשוט בוחרים מסלול ומתחילים לטייל." },
+    en: { currentFree: "All routes and maps are currently available free of charge.", openFourDays: "Open the 4-day route", freeBadge: "Currently free", launchNote: "Simply choose a route and start exploring." },
+    pl: { currentFree: "Wszystkie trasy i mapy są obecnie dostępne bezpłatnie.", openFourDays: "Otwórz trasę na 4 dni", freeBadge: "Obecnie bezpłatnie", launchNote: "Wybierz trasę i ruszaj w drogę." },
+    de: { currentFree: "Alle Routen und Karten sind derzeit kostenlos verfügbar.", openFourDays: "4-Tage-Route öffnen", freeBadge: "Derzeit kostenlos", launchNote: "Einfach eine Route wählen und losgehen." },
+    cs: { currentFree: "Všechny trasy a mapy jsou nyní k dispozici zdarma.", openFourDays: "Otevřít čtyřdenní trasu", freeBadge: "Nyní zdarma", launchNote: "Stačí si vybrat trasu a vyrazit." }
   };
 
-  function normalizeLanguage(language) {
-    return supported.includes(language) ? language : "he";
-  }
-
-  function isFreeNow(now = Date.now()) {
-    return now < FREE_UNTIL;
-  }
-
+  function normalizeLanguage(language) { return supported.includes(language) ? language : "he"; }
   function languageFromPage() {
     const requested = new URLSearchParams(window.location.search).get("lang");
     const saved = localStorage.getItem("wroclaw24-language");
     return normalizeLanguage(requested || saved || document.documentElement.lang);
   }
-
-  function text(key, language = languageFromPage()) {
-    return copy[normalizeLanguage(language)][key] || copy.he[key] || key;
-  }
-
-  function accessUrl(language = languageFromPage()) {
-    return `/access.html?lang=${normalizeLanguage(language)}`;
-  }
-
-  async function authorize(language = languageFromPage()) {
-    const normalized = normalizeLanguage(language);
-    if (isFreeNow()) {
-      return { allowed: true, free: true, expiresAt: FREE_UNTIL_ISO };
-    }
-    try {
-      const response = await fetch(`${API_ORIGIN}/api/access/status`, { credentials: "include" });
-      const result = await response.json();
-      if (result.active) return { allowed: true, free: false, ...result };
-    } catch (_) {
-      // Fall through to the access page when paid access cannot be verified.
-    }
-    window.location.replace(accessUrl(normalized));
-    return { allowed: false, free: false, expiresAt: null };
-  }
+  function text(key, language = languageFromPage()) { return copy[normalizeLanguage(language)][key] || copy.he[key] || key; }
+  function isFreeNow() { return true; }
+  async function authorize() { return { allowed: true, free: true, phase: "public-launch" }; }
 
   function updateHomePromotion(language = languageFromPage()) {
-    if (!isFreeNow()) return;
     const normalized = normalizeLanguage(language);
     const badge = document.getElementById("campaign-price-badge");
     const price = document.getElementById("campaign-price");
@@ -76,26 +30,16 @@
     const purchase = document.getElementById("campaign-purchase");
     const note = document.getElementById("campaign-note");
     if (badge) badge.textContent = text("freeBadge", normalized);
-    if (price) price.innerHTML = `<strong>0</strong><span>₪</span>`;
-    if (terms) terms.textContent = text("freeUntil", normalized);
+    if (price) price.innerHTML = "<strong>0</strong><span>PLN</span>";
+    if (terms) terms.textContent = text("currentFree", normalized);
     if (purchase) {
       purchase.textContent = text("openFourDays", normalized);
       purchase.href = `/products/interactive-maps/premium.html?lang=${normalized}`;
     }
-    if (note) note.textContent = text("paidAfter", normalized);
+    if (note) note.textContent = text("launchNote", normalized);
   }
 
-  window.WROC_CAMPAIGN_ACCESS = {
-    API_ORIGIN,
-    FREE_UNTIL,
-    FREE_UNTIL_ISO,
-    authorize,
-    isFreeNow,
-    languageFromPage,
-    text,
-    updateHomePromotion
-  };
-
+  window.WROC_CAMPAIGN_ACCESS = { authorize, isFreeNow, languageFromPage, text, updateHomePromotion };
   document.addEventListener("DOMContentLoaded", () => updateHomePromotion());
   document.addEventListener("wroc-language-change", (event) => updateHomePromotion(event.detail?.language));
 })();

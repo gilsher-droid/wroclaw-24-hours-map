@@ -22,18 +22,17 @@ for (const file of [
   "app.js",
   "access.html",
   "access.css",
-  "access.js",
   "checkout.html",
-  "checkout.js",
   "premium.css",
   "premium.js",
   "lifestyle.css",
   "lifestyle.js",
-  "admin.html",
-  "admin.js",
 ]) {
   await cp(resolve(root, file), resolve(client, file));
 }
+
+// Phase 1: access.js, checkout.js, admin.html and admin.js are deliberately
+// retained in source control for reversibility, but are not shipped publicly.
 
 for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html"]) {
   await cp(resolve(root, file), resolve(interactiveMaps, file));

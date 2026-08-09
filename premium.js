@@ -1,7 +1,6 @@
 (async function () {
   "use strict";
 
-  const API_ORIGIN = "https://api.wroc-love.com";
   const routeConfig = window.PREMIUM_ROUTE_CONFIG || {};
   const dayStorageKey = routeConfig.storageKey || "wroc-premium-day";
   const supportedLanguages = ["he", "en", "pl", "de", "cs"];
@@ -14,7 +13,6 @@
   let recommendationFilter = "all";
   let map;
   let routeLine;
-  let accessState = null;
   const mapLayers = [];
   const markerById = new Map();
   let activeGallery = null;
@@ -27,7 +25,7 @@
   const ui = {
     he: {
       documentTitle: "המסלול המלא ל־4 ימים | Wroc-love", skipToRoute: "דלגו למסלול",
-      brandSubtitle: "המסלול המלא שלכם", homeLink: "לעמוד הבית", activeAccess: "גישה פעילה", logout: "יציאה",
+      brandSubtitle: "המסלול המלא שלכם", homeLink: "לעמוד הבית",
       eyebrow: "וורוצלב בקצב שמתאים לכן", title: "ארבעה ימים. עיר אחת. בלי לבזבז זמן על תכנון.",
       subtitle: "מסלול לביקור ראשון עבור הורים וילדים מתבגרים: כל יום באזור אחד, עם סדר ברור, מפה חיה, ניווט והמלצות שמתאימות לקצב אמיתי.",
       smartTip: "איך משתמשים במסלול", smartTipBody: "בחרו יום, פתחו תחנה במפה וצאו לניווט. אפשר להחליף בין הימים לפי מזג האוויר והאנרגיה.",
@@ -39,17 +37,16 @@
       goodToKnow: "כדאי לדעת", flexibility: "גמישות בלי לפספס", betweenStops: "בין התחנות", foodShopping: "אוכל, קפה, קינוחים וקניות",
       communityKicker: "ממשיכים איתנו", communityTitle: "עוד מסלולים, המלצות ועדכונים מוורוצלב", communityBody: "הצטרפו לקהילה, בקרו בדף העסקי ועקבו אחרינו באינסטגרם.",
       joinFacebookGroup: "הצטרפו לקבוצת הפייסבוק", visitFacebookPage: "בקרו בדף העסקי", followInstagram: "עקבו אחרינו באינסטגרם",
-      savePhone: "שמרו את הדף בטלפון", closing: "כל ארבעת הימים, המפות והניווט נשארים זמינים לאורך תקופת הגישה.", backTop: "חזרה לבחירת יום",
+      savePhone: "שמרו את הדף בטלפון", closing: "כל ארבעת הימים, המפות והניווט זמינים כרגע ללא תשלום.", backTop: "חזרה לבחירת יום",
       optional: "רשות", recommended: "מומלץ", duration: "זמן במקום", showMap: "הציגו במפה", navigate: "ניווט", bestFor: "מתאים במיוחד ליום",
       all: "הכול", cafe: "קפה", dessert: "קינוחים", food: "אוכל", shopping: "קניות", mapUnavailable: "המפה לא נטענה. קישורי הניווט עדיין זמינים.",
       categories: { main: "נקודת פתיחה", special: "חוויה מיוחדת", architecture: "אדריכלות", viewpoint: "תצפית", culture: "תרבות", river: "נהר", nature: "טבע", shopping: "קניות", food: "אוכל" },
-      activeUntil: "גישה פעילה עד", freeUntil: "גישה חינם עד 31 בדצמבר 2026",
       facebookPost: "קראו את הפוסט בפייסבוק", instagramPost: "צפו בפוסט באינסטגרם", photoGallery: "פתחו את גלריית התמונות", videoGallery: "פתחו את הסרטונים",
       closeGallery: "סגירת הגלריה", previousPhoto: "התמונה הקודמת", nextPhoto: "התמונה הבאה", galleryPhoto: "תמונה", galleryOf: "מתוך", closeVideo: "סגירת נגן הווידאו"
     },
     en: {
       documentTitle: "The complete 4-day route | Wroc-love", skipToRoute: "Skip to the route",
-      brandSubtitle: "Your complete route", homeLink: "Back to home", activeAccess: "Access active", logout: "Log out",
+      brandSubtitle: "Your complete route", homeLink: "Back to home",
       eyebrow: "Wrocław at your pace", title: "Four days. One city. No wasted planning time.",
       subtitle: "A first-visit route for parents and teenagers: one convenient area each day, with a clear order, live map, navigation and realistic recommendations.",
       smartTip: "How to use the route", smartTipBody: "Choose a day, open a stop on the map and navigate. Swap days according to weather and energy.",
@@ -61,17 +58,16 @@
       goodToKnow: "Good to know", flexibility: "Stay flexible without missing out", betweenStops: "Between stops", foodShopping: "Food, coffee, desserts and shopping",
       communityKicker: "Stay with us", communityTitle: "More Wrocław routes, recommendations and updates", communityBody: "Join our community, visit our Facebook page and follow us on Instagram.",
       joinFacebookGroup: "Join the Facebook group", visitFacebookPage: "Visit our Facebook page", followInstagram: "Follow us on Instagram",
-      savePhone: "Save this page on your phone", closing: "All four days, maps and navigation remain available throughout your access period.", backTop: "Back to day selection",
+      savePhone: "Save this page on your phone", closing: "All four days, maps and navigation are currently available free of charge.", backTop: "Back to day selection",
       optional: "Optional", recommended: "Recommended", duration: "Time here", showMap: "Show on map", navigate: "Navigate", bestFor: "Best with Day",
       all: "All", cafe: "Coffee", dessert: "Desserts", food: "Food", shopping: "Shopping", mapUnavailable: "The map could not load. Navigation links are still available.",
       categories: { main: "Starting point", special: "Special", architecture: "Architecture", viewpoint: "Viewpoint", culture: "Culture", river: "River", nature: "Nature", shopping: "Shopping", food: "Food" },
-      activeUntil: "Access active until", freeUntil: "Free access until 31 December 2026",
       facebookPost: "Read the Facebook post", instagramPost: "View the Instagram post", photoGallery: "Open the photo gallery", videoGallery: "Open the videos",
       closeGallery: "Close the gallery", previousPhoto: "Previous photo", nextPhoto: "Next photo", galleryPhoto: "Photo", galleryOf: "of", closeVideo: "Close the video player"
     },
     pl: {
       documentTitle: "Pełna trasa na 4 dni | Wroc-love", skipToRoute: "Przejdź do trasy",
-      brandSubtitle: "Pełna trasa", homeLink: "Strona główna", activeAccess: "Dostęp aktywny", logout: "Wyloguj",
+      brandSubtitle: "Pełna trasa", homeLink: "Strona główna",
       eyebrow: "Wrocław w Waszym tempie", title: "Cztery dni. Jedno miasto. Bez tracenia czasu na planowanie.",
       subtitle: "Trasa na pierwszy wyjazd dla rodziców i nastolatków: codziennie jeden wygodny obszar, jasna kolejność, mapa, nawigacja i praktyczne rekomendacje.",
       smartTip: "Jak korzystać z trasy", smartTipBody: "Wybierzcie dzień, otwórzcie punkt na mapie i uruchomcie nawigację. Dni można zamieniać zależnie od pogody i energii.",
@@ -83,11 +79,10 @@
       goodToKnow: "Warto wiedzieć", flexibility: "Elastycznie, bez pomijania", betweenStops: "Między punktami", foodShopping: "Jedzenie, kawa, desery i zakupy",
       communityKicker: "Zostańcie z nami", communityTitle: "Więcej tras, rekomendacji i aktualności z Wrocławia", communityBody: "Dołączcie do społeczności, odwiedźcie naszą stronę na Facebooku i obserwujcie nas na Instagramie.",
       joinFacebookGroup: "Dołącz do grupy na Facebooku", visitFacebookPage: "Odwiedź naszą stronę na Facebooku", followInstagram: "Obserwuj nas na Instagramie",
-      savePhone: "Zapiszcie stronę w telefonie", closing: "Wszystkie cztery dni, mapy i nawigacja są dostępne przez cały okres dostępu.", backTop: "Wróć do wyboru dnia",
+      savePhone: "Zapiszcie stronę w telefonie", closing: "Wszystkie cztery dni, mapy i nawigacja są obecnie dostępne bezpłatnie.", backTop: "Wróć do wyboru dnia",
       optional: "Opcjonalnie", recommended: "Polecane", duration: "Czas na miejscu", showMap: "Pokaż na mapie", navigate: "Nawiguj", bestFor: "Najlepsze w dniu",
       all: "Wszystko", cafe: "Kawa", dessert: "Desery", food: "Jedzenie", shopping: "Zakupy", mapUnavailable: "Mapa nie została załadowana. Linki nawigacyjne nadal działają.",
       categories: { main: "Początek", special: "Wyjątkowe", architecture: "Architektura", viewpoint: "Widok", culture: "Kultura", river: "Rzeka", nature: "Natura", shopping: "Zakupy", food: "Jedzenie" },
-      activeUntil: "Dostęp aktywny do", freeUntil: "Bezpłatny dostęp do 31 grudnia 2026",
       facebookPost: "Przeczytaj post na Facebooku", instagramPost: "Zobacz post na Instagramie", photoGallery: "Otwórz galerię zdjęć", videoGallery: "Otwórz filmy",
       closeGallery: "Zamknij galerię", previousPhoto: "Poprzednie zdjęcie", nextPhoto: "Następne zdjęcie", galleryPhoto: "Zdjęcie", galleryOf: "z", closeVideo: "Zamknij odtwarzacz wideo"
     }
@@ -337,31 +332,12 @@
     document.querySelectorAll("[data-home-link]").forEach((link) => {
       link.href = `/?lang=${language}`;
     });
-    updateAccessStatus();
     translateResourceControls();
     if (activeGallery) {
       document.getElementById("gallery-title").textContent = text(activeGallery.name);
       renderGalleryPhoto();
     }
     if (activeVideoLocation) renderVideo();
-  }
-
-  function updateAccessStatus() {
-    if (!accessState) return;
-    const status = document.getElementById("access-status");
-    const logout = document.getElementById("logout-button");
-    if (accessState.free) {
-      status.textContent = t("freeUntil");
-      logout.hidden = true;
-      return;
-    }
-    logout.hidden = false;
-    if (accessState.expiresAt) {
-      const locale = { he: "he-IL", en: "en-GB", pl: "pl-PL", de: "de-DE", cs: "cs-CZ" }[language] || "en-GB";
-      status.textContent = `${t("activeUntil")} ${new Intl.DateTimeFormat(locale, { dateStyle: "medium" }).format(new Date(accessState.expiresAt))}`;
-    } else {
-      status.textContent = t("activeAccess");
-    }
   }
 
   function renderDayNavigation() {
@@ -543,13 +519,7 @@
 
   document.getElementById("fit-day").addEventListener("click", fitDay);
   document.getElementById("back-to-top").addEventListener("click", () => document.getElementById("day-nav").scrollIntoView({ behavior: "smooth" }));
-  document.getElementById("logout-button").addEventListener("click", async () => {
-    await fetch(`${API_ORIGIN}/api/access/logout`, { method: "POST", credentials: "include" });
-    window.location.replace(`/access.html?lang=${language}`);
-  });
-
-  accessState = await window.WROC_CAMPAIGN_ACCESS.authorize(language);
-  if (!accessState.allowed) return;
+  await window.WROC_CAMPAIGN_ACCESS.authorize(language);
   ensureResourceModals();
   render();
 })();

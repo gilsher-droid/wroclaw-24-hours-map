@@ -308,6 +308,46 @@
   };
   Object.entries(lifestyleTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
 
+  const phaseOneTranslations = {
+    en: {
+      "תכולת המסלול": "Route contents", "כרגע ללא תשלום": "Currently free", "כל המסלולים והמפות זמינים כרגע ללא תשלום.": "All routes and maps are currently available free of charge.",
+      "עדכונים שוטפים למסלול": "Ongoing route updates", "פתיחת מסלול 4 הימים": "Open the 4-day route", "פשוט בוחרים מסלול ומתחילים לטייל.": "Simply choose a route and start exploring.",
+      "זמין כרגע ללא תשלום בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Currently available free of charge in Hebrew, English, Polish, German and Czech.",
+      "פשוט מהבחירה ועד הטיול": "Simple from choosing to exploring", "בוחרים מסלול": "Choose a route", "מוצאים את המפה שמתאימה לסגנון ולמשך הטיול.": "Find the map that suits your travel style and trip length.",
+      "פותחים מיד": "Open it instantly", "בלי הרשמה, בלי מייל, בלי קוד ובלי תשלום.": "No registration, email, code or payment.", "יוצאים לטייל": "Start exploring", "פותחים את המסלול בטלפון וחוזרים אליו מתי שרוצים.": "Open the route on your phone and return whenever you like.",
+      "כל המסלולים פתוחים | Wroc-love": "All routes are open | Wroc-love", "שלב ההשקה הנוכחי": "Current launch phase", "כל המסלולים והמפות פתוחים לכולם": "All routes and maps are open to everyone",
+      "אין צורך בהרשמה, במייל, בקוד גישה או בתשלום. פשוט בוחרים מסלול ומתחילים לטייל.": "No registration, email, access code or payment is required. Simply choose a route and start exploring.", "לכל המפות והמסלולים": "All maps and routes", "אין צורך בתשלום": "No payment required", "כל המסלולים והמפות זמינים כרגע ללא תשלום, ללא הרשמה וללא קוד גישה.": "All routes and maps are currently available free of charge, with no registration or access code."
+    },
+    pl: {
+      "תכולת המסלול": "Zawartość trasy", "כרגע ללא תשלום": "Obecnie bezpłatnie", "כל המסלולים והמפות זמינים כרגע ללא תשלום.": "Wszystkie trasy i mapy są obecnie dostępne bezpłatnie.",
+      "עדכונים שוטפים למסלול": "Bieżące aktualizacje trasy", "פתיחת מסלול 4 הימים": "Otwórz trasę na 4 dni", "פשוט בוחרים מסלול ומתחילים לטייל.": "Wybierz trasę i ruszaj w drogę.",
+      "זמין כרגע ללא תשלום בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Obecnie dostępne bezpłatnie po hebrajsku, angielsku, polsku, niemiecku i czesku.",
+      "פשוט מהבחירה ועד הטיול": "Prosto od wyboru do zwiedzania", "בוחרים מסלול": "Wybierz trasę", "מוצאים את המפה שמתאימה לסגנון ולמשך הטיול.": "Znajdź mapę dopasowaną do stylu i długości podróży.",
+      "פותחים מיד": "Otwórz od razu", "בלי הרשמה, בלי מייל, בלי קוד ובלי תשלום.": "Bez rejestracji, e-maila, kodu i płatności.", "יוצאים לטייל": "Ruszaj w drogę", "פותחים את המסלול בטלפון וחוזרים אליו מתי שרוצים.": "Otwórz trasę w telefonie i wracaj do niej, kiedy chcesz.",
+      "כל המסלולים פתוחים | Wroc-love": "Wszystkie trasy są otwarte | Wroc-love", "שלב ההשקה הנוכחי": "Obecna faza startowa", "כל המסלולים והמפות פתוחים לכולם": "Wszystkie trasy i mapy są otwarte dla wszystkich",
+      "אין צורך בהרשמה, במייל, בקוד גישה או בתשלום. פשוט בוחרים מסלול ומתחילים לטייל.": "Nie trzeba się rejestrować, podawać e-maila, kodu ani płacić. Wybierz trasę i ruszaj.", "לכל המפות והמסלולים": "Wszystkie mapy i trasy", "אין צורך בתשלום": "Płatność nie jest wymagana", "כל המסלולים והמפות זמינים כרגע ללא תשלום, ללא הרשמה וללא קוד גישה.": "Wszystkie trasy i mapy są obecnie bezpłatne, bez rejestracji i kodu dostępu."
+    },
+    de: {
+      "תכולת המסלול": "Routeninhalt", "כרגע ללא תשלום": "Derzeit kostenlos", "כל המסלולים והמפות זמינים כרגע ללא תשלום.": "Alle Routen und Karten sind derzeit kostenlos verfügbar.",
+      "עדכונים שוטפים למסלול": "Laufende Routenaktualisierungen", "פתיחת מסלול 4 הימים": "4-Tage-Route öffnen", "פשוט בוחרים מסלול ומתחילים לטייל.": "Einfach eine Route wählen und losgehen.",
+      "זמין כרגע ללא תשלום בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Derzeit kostenlos auf Hebräisch, Englisch, Polnisch, Deutsch und Tschechisch verfügbar.",
+      "פשוט מהבחירה ועד הטיול": "Einfach von der Auswahl bis zur Entdeckung", "בוחרים מסלול": "Route wählen", "מוצאים את המפה שמתאימה לסגנון ולמשך הטיול.": "Finden Sie die Karte, die zu Ihrem Reisestil und Ihrer Reisedauer passt.",
+      "פותחים מיד": "Sofort öffnen", "בלי הרשמה, בלי מייל, בלי קוד ובלי תשלום.": "Ohne Registrierung, E-Mail, Code oder Zahlung.", "יוצאים לטייל": "Losgehen", "פותחים את המסלול בטלפון וחוזרים אליו מתי שרוצים.": "Öffnen Sie die Route auf dem Smartphone und kehren Sie jederzeit zurück.",
+      "כל המסלולים פתוחים | Wroc-love": "Alle Routen sind offen | Wroc-love", "שלב ההשקה הנוכחי": "Aktuelle Startphase", "כל המסלולים והמפות פתוחים לכולם": "Alle Routen und Karten sind für alle offen",
+      "אין צורך בהרשמה, במייל, בקוד גישה או בתשלום. פשוט בוחרים מסלול ומתחילים לטייל.": "Keine Registrierung, E-Mail, Zugangscode oder Zahlung erforderlich. Einfach eine Route wählen und losgehen.", "לכל המפות והמסלולים": "Alle Karten und Routen", "אין צורך בתשלום": "Keine Zahlung erforderlich", "כל המסלולים והמפות זמינים כרגע ללא תשלום, ללא הרשמה וללא קוד גישה.": "Alle Routen und Karten sind derzeit kostenlos, ohne Registrierung oder Zugangscode verfügbar."
+    },
+    cs: {
+      "תכולת המסלול": "Obsah trasy", "כרגע ללא תשלום": "Nyní zdarma", "כל המסלולים והמפות זמינים כרגע ללא תשלום.": "Všechny trasy a mapy jsou nyní k dispozici zdarma.",
+      "עדכונים שוטפים למסלול": "Průběžné aktualizace trasy", "פתיחת מסלול 4 הימים": "Otevřít čtyřdenní trasu", "פשוט בוחרים מסלול ומתחילים לטייל.": "Stačí si vybrat trasu a vyrazit.",
+      "זמין כרגע ללא תשלום בעברית, אנגלית, פולנית, גרמנית וצ׳כית.": "Nyní zdarma v hebrejštině, angličtině, polštině, němčině a češtině.",
+      "פשוט מהבחירה ועד הטיול": "Jednoduše od výběru k objevování", "בוחרים מסלול": "Vyberte trasu", "מוצאים את המפה שמתאימה לסגנון ולמשך הטיול.": "Najděte mapu, která odpovídá stylu a délce vaší cesty.",
+      "פותחים מיד": "Otevřete ihned", "בלי הרשמה, בלי מייל, בלי קוד ובלי תשלום.": "Bez registrace, e-mailu, kódu a platby.", "יוצאים לטייל": "Vyrazte na cestu", "פותחים את המסלול בטלפון וחוזרים אליו מתי שרוצים.": "Otevřete trasu v telefonu a vraťte se k ní kdykoli.",
+      "כל המסלולים פתוחים | Wroc-love": "Všechny trasy jsou otevřené | Wroc-love", "שלב ההשקה הנוכחי": "Aktuální fáze spuštění", "כל המסלולים והמפות פתוחים לכולם": "Všechny trasy a mapy jsou otevřené pro každého",
+      "אין צורך בהרשמה, במייל, בקוד גישה או בתשלום. פשוט בוחרים מסלול ומתחילים לטייל.": "Není nutná registrace, e-mail, přístupový kód ani platba. Stačí vybrat trasu a vyrazit.", "לכל המפות והמסלולים": "Všechny mapy a trasy", "אין צורך בתשלום": "Platba není nutná", "כל המסלולים והמפות זמינים כרגע ללא תשלום, ללא הרשמה וללא קוד גישה.": "Všechny trasy a mapy jsou nyní zdarma, bez registrace a přístupového kódu."
+    }
+  };
+  Object.entries(phaseOneTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
+
   const originalText = new WeakMap();
   const originalAttributes = new WeakMap();
   const originalTitle = document.title;
