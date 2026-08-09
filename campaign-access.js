@@ -5,11 +5,11 @@
   // The historical access/payment backend remains dormant for a reversible future phase.
   const supported = ["he", "en", "pl", "de", "cs"];
   const copy = {
-    he: { currentFree: "כל המסלולים והמפות זמינים כרגע ללא תשלום.", openFourDays: "פתיחת מסלול 4 הימים", freeBadge: "כרגע ללא תשלום", launchNote: "פשוט בוחרים מסלול ומתחילים לטייל." },
-    en: { currentFree: "All routes and maps are currently available free of charge.", openFourDays: "Open the 4-day route", freeBadge: "Currently free", launchNote: "Simply choose a route and start exploring." },
-    pl: { currentFree: "Wszystkie trasy i mapy są obecnie dostępne bezpłatnie.", openFourDays: "Otwórz trasę na 4 dni", freeBadge: "Obecnie bezpłatnie", launchNote: "Wybierz trasę i ruszaj w drogę." },
-    de: { currentFree: "Alle Routen und Karten sind derzeit kostenlos verfügbar.", openFourDays: "4-Tage-Route öffnen", freeBadge: "Derzeit kostenlos", launchNote: "Einfach eine Route wählen und losgehen." },
-    cs: { currentFree: "Všechny trasy a mapy jsou nyní k dispozici zdarma.", openFourDays: "Otevřít čtyřdenní trasu", freeBadge: "Nyní zdarma", launchNote: "Stačí si vybrat trasu a vyrazit." }
+    he: { currentFree: "כל המסלולים והמפות פתוחים כרגע ללא תשלום.", launchAccess: "גישה חופשית", launchPhase: "בתקופת ההשקה", openFourDays: "פתיחת מסלול 4 הימים", freeBadge: "כרגע ללא תשלום", launchNote: "פשוט בוחרים מסלול ומתחילים לטייל." },
+    en: { currentFree: "All routes and maps are currently open at no charge.", launchAccess: "Open access", launchPhase: "during the launch phase", openFourDays: "Open the 4-day route", freeBadge: "Currently free", launchNote: "Simply choose a route and start exploring." },
+    pl: { currentFree: "Wszystkie trasy i mapy są obecnie dostępne bez opłat.", launchAccess: "Bezpłatny dostęp", launchPhase: "w okresie premiery", openFourDays: "Otwórz trasę na 4 dni", freeBadge: "Obecnie bezpłatnie", launchNote: "Wybierz trasę i ruszaj w drogę." },
+    de: { currentFree: "Alle Routen und Karten sind derzeit kostenlos zugänglich.", launchAccess: "Freier Zugang", launchPhase: "während der Startphase", openFourDays: "4-Tage-Route öffnen", freeBadge: "Derzeit kostenlos", launchNote: "Einfach eine Route wählen und losgehen." },
+    cs: { currentFree: "Všechny trasy a mapy jsou nyní přístupné bez poplatku.", launchAccess: "Volný přístup", launchPhase: "během zaváděcí fáze", openFourDays: "Otevřít čtyřdenní trasu", freeBadge: "Nyní zdarma", launchNote: "Stačí si vybrat trasu a vyrazit." }
   };
 
   function normalizeLanguage(language) { return supported.includes(language) ? language : "he"; }
@@ -30,7 +30,7 @@
     const purchase = document.getElementById("campaign-purchase");
     const note = document.getElementById("campaign-note");
     if (badge) badge.textContent = text("freeBadge", normalized);
-    if (price) price.innerHTML = "<strong>0</strong><span>PLN</span>";
+    if (price) price.innerHTML = `<strong>${text("launchAccess", normalized)}</strong><span>${text("launchPhase", normalized)}</span>`;
     if (terms) terms.textContent = text("currentFree", normalized);
     if (purchase) {
       purchase.textContent = text("openFourDays", normalized);
