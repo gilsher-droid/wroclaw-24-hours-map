@@ -48,10 +48,38 @@ test("server-renders the Wroc-love public-launch product", async () => {
   assert.match(html, /products\/interactive-maps\/moshe\.html/);
   assert.match(html, /לאכול, לשתות, לקנות ולישון בוורוצלב/);
   assert.match(html, /products\/interactive-maps\/lifestyle\.html/);
-  assert.match(html, /<strong>0<\/strong><span>PLN<\/span>/);
-  assert.match(html, /כל המסלולים והמפות זמינים כרגע ללא תשלום/);
+  assert.match(html, /<strong>גישה חופשית<\/strong><span>בתקופת ההשקה<\/span>/);
+  assert.match(html, /כל המסלולים והמפות פתוחים כרגע ללא תשלום/);
+  assert.doesNotMatch(html, /<strong>0<\/strong><span>PLN<\/span>/);
   assert.doesNotMatch(html, /checkout\.html|כניסה עם קוד|מקבלים קוד למייל|PayPal/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
+});
+
+test("launch-access wording replaces 0 PLN in all five languages", () => {
+  const source = readFileSync(resolve(root, "campaign-access.js"), "utf8");
+  const expected = {
+    he: ["גישה חופשית", "בתקופת ההשקה", "כל המסלולים והמפות פתוחים כרגע ללא תשלום."],
+    en: ["Open access", "during the launch phase", "All routes and maps are currently open at no charge."],
+    pl: ["Bezpłatny dostęp", "w okresie premiery", "Wszystkie trasy i mapy są obecnie dostępne bez opłat."],
+    de: ["Freier Zugang", "während der Startphase", "Alle Routen und Karten sind derzeit kostenlos zugänglich."],
+    cs: ["Volný přístup", "během zaváděcí fáze", "Všechny trasy a mapy jsou nyní přístupné bez poplatku."],
+  };
+  const elements = new Map(["campaign-price", "campaign-terms"].map((id) => [id, { innerHTML: "", textContent: "" }]));
+  const window = { location: { search: "" } };
+  const document = {
+    documentElement: { lang: "he" },
+    addEventListener() {},
+    getElementById(id) { return elements.get(id) ?? null; },
+  };
+  const localStorage = { getItem() { return null; } };
+  runInNewContext(source, { window, document, localStorage, URLSearchParams });
+
+  for (const [language, [headline, phase, secondary]] of Object.entries(expected)) {
+    window.WROC_CAMPAIGN_ACCESS.updateHomePromotion(language);
+    assert.equal(elements.get("campaign-price").innerHTML, `<strong>${headline}</strong><span>${phase}</span>`);
+    assert.equal(elements.get("campaign-terms").textContent, secondary);
+    assert.doesNotMatch(elements.get("campaign-price").innerHTML, /0\s*PLN/i);
+  }
 });
 
 test("lifestyle guide publishes all sourced places in five languages", () => {
@@ -317,4 +345,86 @@ test("PayPal endpoints are dormant and cannot create new orders", async () => {
   } finally {
     globalThis.fetch = originalFetch;
   }
+});
+
+test("canonical place catalog registers every current product without changing its legacy records", () => {
+  const catalogSource = readFileSync(resolve(root, "data/place-catalog.js"), "utf8");
+  const extraLanguages = readFileSync(resolve(root, "data/extra-languages.js"), "utf8");
+  const scenarios = [
+    { productId: "wroclaw-24-hours", file: "data/locations.js", arrays: ["LOCATIONS", "EVENING_LOCATIONS"], extra: true },
+    { productId: "wroclaw-four-days", file: "data/premium-route.js", arrays: ["PREMIUM_STOPS", "PREMIUM_RECOMMENDATIONS"], extra: true },
+    { productId: "wroclaw-christmas", file: "data/moshe-route.js", arrays: ["PREMIUM_STOPS", "PREMIUM_RECOMMENDATIONS"], extra: true },
+    { productId: "lifestyle-guide", file: "data/lifestyle-places.js", arrays: ["WROC_LIFESTYLE_PLACES"], extra: false },
+  ];
+
+  for (const scenario of scenarios) {
+    const window = {};
+    const context = { window, console };
+    if (scenario.extra) runInNewContext(extraLanguages, context);
+    runInNewContext(catalogSource, context);
+    runInNewContext(readFileSync(resolve(root, scenario.file), "utf8"), context);
+
+    const records = scenario.arrays.flatMap((key) => window[key] || []);
+    assert.ok(records.length > 0, `${scenario.productId} should keep its existing records`);
+    assert.ok(window.WROC_CATALOG.products[scenario.productId], `${scenario.productId} should be registered`);
+    for (const record of records) {
+      if (record.id === "culture-evening") {
+        assert.equal(record.canonicalPlaceId, null);
+      } else {
+        assert.ok(record.canonicalPlaceId, `${record.id} should reference a canonical place`);
+        assert.ok(window.WROC_CATALOG.getPlace(record.canonicalPlaceId), `${record.id} should resolve in the catalog`);
+      }
+    }
+  }
+});
+
+test("canonical catalog keeps stable aliases and personalization-ready metadata", () => {
+  const window = {};
+  runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), { window, console });
+  const catalog = window.WROC_CATALOG;
+
+  assert.ok(Object.keys(catalog.places).length >= 80);
+  assert.equal(catalog.resolveId("tumski-bridge"), "most-tumski");
+  assert.equal(catalog.resolveId("market-hall"), "hala-targowa");
+  assert.equal(catalog.resolveId("wroclavia-rec"), "wroclavia");
+  assert.ok(Array.isArray(catalog.coordinateConflicts));
+
+  const ossolineum = catalog.getPlace("ossolineum");
+  assert.deepEqual(Array.from(ossolineum.languages), ["he", "en", "pl", "de", "cs"]);
+  assert.ok(ossolineum.location.coordinates.lat);
+  assert.ok(ossolineum.taxonomy);
+  assert.ok(ossolineum.suitability);
+  assert.ok(ossolineum.visit);
+  assert.ok(ossolineum.transport);
+  assert.ok(Array.isArray(ossolineum.media.photos));
+  assert.ok(Array.isArray(ossolineum.socialPosts));
+});
+
+test("all map pages load the canonical catalog before product data", () => {
+  for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html"]) {
+    const html = readFileSync(resolve(root, file), "utf8");
+    const catalogIndex = html.indexOf("/data/place-catalog.js");
+    const productIndex = Math.max(
+      html.indexOf("/data/locations.js"),
+      html.indexOf("/data/premium-route.js"),
+      html.indexOf("/data/moshe-route.js"),
+      html.indexOf("/data/lifestyle-places.js"),
+    );
+    assert.ok(catalogIndex >= 0, `${file} should load the canonical catalog`);
+    assert.ok(productIndex > catalogIndex, `${file} should load product data after the catalog`);
+  }
+});
+
+test("four-day and Christmas mobile controls contain overflow locally", () => {
+  const css = readFileSync(resolve(root, "dist/client/premium.css"), "utf8");
+  const premium = readFileSync(resolve(root, "dist/client/products/interactive-maps/premium.html"), "utf8");
+  const christmas = readFileSync(resolve(root, "dist/client/products/interactive-maps/moshe.html"), "utf8");
+
+  assert.match(css, /\.premium-header\s*\{[\s\S]*?flex-wrap:\s*wrap;/);
+  assert.match(css, /\.premium-tools\s*\{[\s\S]*?width:\s*100%;[\s\S]*?flex-wrap:\s*wrap;/);
+  assert.match(css, /\.premium-languages\s*\{[\s\S]*?max-width:\s*100%;[\s\S]*?overflow-x:\s*auto;/);
+  assert.match(css, /\.day-nav\s*\{[\s\S]*?max-width:\s*calc\(100% - 36px\);[\s\S]*?overflow-x:\s*auto;/);
+  assert.doesNotMatch(css, /(?:html|body|\*)\s*\{[^}]*overflow-x:\s*hidden/);
+  assert.match(premium, /premium\.css\?v=20260809-1/);
+  assert.match(christmas, /premium\.css\?v=20260809-1/);
 });
