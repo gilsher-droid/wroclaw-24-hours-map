@@ -1,5 +1,13 @@
 # Bluehost API deployment
 
+## Phase 1 public launch
+
+All customer-facing maps currently open directly and free of charge. The
+historical PayPal, access-code and admin-code routes return HTTP 410 and do not
+create orders, codes, activations or customer records. Existing database tables
+and historical rows are intentionally preserved for a possible future,
+controlled reactivation.
+
 This directory contains the private PHP/MySQL backend for `api.wroc-love.com`.
 
 1. Create a MySQL database and database user in Bluehost.
