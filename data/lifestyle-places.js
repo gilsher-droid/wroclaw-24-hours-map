@@ -98,14 +98,5 @@
     place("herbal", ["sleep"], [51.1087658,17.0242642], "Herbal Hotel & SPA", sourceHotel, hotelPost, null, t("ברובע ארבע הדתות, קרוב לאוכל ולחיי הערב.", "In the Four Denominations District, close to food and evening life.", "W Dzielnicy Czterech Wyznań, blisko restauracji i życia wieczornego.", "Im Viertel der vier Konfessionen, nahe Gastronomie und Abendleben.", "Ve čtvrti čtyř vyznání, blízko restaurací a večerního života."))
   ];
 
-  if (window.WROC_CATALOG?.registerProduct) {
-    const registered = window.WROC_CATALOG.registerProduct({
-      id: "lifestyle-guide",
-      type: "place-catalog",
-      places: window.WROC_LIFESTYLE_PLACES,
-    });
-    window.WROC_LIFESTYLE_PLACES = registered.places;
-  }
-
   window.WROC_LIFESTYLE_SOURCES = { foodPost, hotelPost, shoppingPost, familiarPost };
 })();

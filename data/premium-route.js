@@ -104,16 +104,4 @@
     rec("renoma-rec",[51.10394,17.03123],"shopping",4,l("Renoma – קניות ואדריכלות","Renoma – shopping and architecture","Renoma – zakupy i architektura"),"Renoma",l("מרכז קטן ואסתטי יותר שמתאים לעצירה קצרה.","A smaller, more aesthetic centre suited to a short stop.","Mniejsze, estetyczne centrum dobre na krótki przystanek.")),
     rec("dominikan",[51.10802,17.04086],"shopping",4,l("Galeria Dominikańska – השלמות","Galeria Dominikańska – final shopping","Galeria Dominikańska – ostatnie zakupy"),"Galeria Dominikańska",l("מרכז שימושי ליד העיר העתיקה להשלמות מהירות.","A practical centre by Old Town for quick final purchases.","Praktyczne centrum przy Starym Mieście na szybkie ostatnie zakupy."))
   ];
-
-  if (window.WROC_CATALOG?.registerProduct) {
-    const registered = window.WROC_CATALOG.registerProduct({
-      id: "wroclaw-four-days",
-      type: "multi-day-route",
-      days: window.PREMIUM_DAYS,
-      stops: window.PREMIUM_STOPS,
-      recommendations: window.PREMIUM_RECOMMENDATIONS,
-    });
-    window.PREMIUM_STOPS = registered.stops;
-    window.PREMIUM_RECOMMENDATIONS = registered.recommendations;
-  }
 })();
