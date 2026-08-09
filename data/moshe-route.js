@@ -129,16 +129,4 @@
     rec("whiskey",[51.10904,17.03342],"food",1,l("Whiskey in the Jar","Whiskey in the Jar","Whiskey in the Jar"),"Whiskey in the Jar",l("ארוחת ערב תוססת בכיכר; מומלץ להזמין מקום.","A lively dinner on the Rynek; booking is recommended.","Żywa atmosfera na Rynku; warto zarezerwować stolik.")),
     rec("wuwa",[51.10709,17.08730],"cafe",3,l("WUWA Café – רק אם יוצאים מזרחה","WUWA Café – only if heading east","WUWA Café – tylko przy wyjeździe na wschód"),"WUWA Café",l("בית קפה נעים ליד Hala Stulecia; הגיעו בחשמלית או במונית.","A pleasant café near Centennial Hall; use a tram or taxi.","Przyjemna kawiarnia przy Hali Stulecia; dojedźcie tramwajem lub taksówką."))
   ];
-
-  if (window.WROC_CATALOG?.registerProduct) {
-    const registered = window.WROC_CATALOG.registerProduct({
-      id: "wroclaw-christmas",
-      type: "multi-day-seasonal-route",
-      days: window.PREMIUM_DAYS,
-      stops: window.PREMIUM_STOPS,
-      recommendations: window.PREMIUM_RECOMMENDATIONS,
-    });
-    window.PREMIUM_STOPS = registered.stops;
-    window.PREMIUM_RECOMMENDATIONS = registered.recommendations;
-  }
 })();

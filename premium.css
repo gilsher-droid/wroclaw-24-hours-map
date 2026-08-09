@@ -371,47 +371,16 @@ html[dir="ltr"] .premium-marker { transform: rotate(-45deg); }
 @media (max-width: 720px) {
   .community-card { align-items: flex-start; flex-direction: column; }
   .community-card .social-links { justify-content: flex-start; }
-  .premium-header {
-    min-height: 76px;
-    padding-block: 10px;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
+  .premium-header { min-height: 76px; }
   .premium-header .brand small, .premium-account span { display: none; }
-  .premium-tools {
-    width: 100%;
-    min-width: 0;
-    flex: 1 1 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 8px;
-  }
-  .premium-languages {
-    max-width: 100%;
-    margin-inline-start: auto;
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
-    scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch;
-  }
-  .premium-languages button { flex: 0 0 auto; }
+  .premium-tools { gap: 8px; }
   .premium-languages button { padding: 6px 7px; font-size: 10px; }
   .premium-hero { padding-top: 68px; padding-bottom: 72px; }
   .trip-dashboard { grid-template-columns: repeat(2, 1fr); }
   .trip-dashboard article:nth-child(3) { border-inline-start: 0; border-top: 1px solid var(--line); }
   .trip-dashboard article:nth-child(4) { border-top: 1px solid var(--line); }
-  .day-nav {
-    max-width: calc(100% - 36px);
-    min-width: 0;
-    top: 6px;
-    overflow-x: auto;
-    display: flex;
-    scroll-snap-type: inline proximity;
-    overscroll-behavior-inline: contain;
-    scrollbar-width: thin;
-    -webkit-overflow-scrolling: touch;
-  }
-  .day-nav button { min-width: 175px; scroll-snap-align: start; }
+  .day-nav { top: 6px; overflow-x: auto; display: flex; }
+  .day-nav button { min-width: 175px; }
   .day-overview { padding-top: 65px; }
   .day-stats { display: grid; grid-template-columns: repeat(2, 1fr); }
   .premium-section-heading { align-items: start; flex-direction: column; }
