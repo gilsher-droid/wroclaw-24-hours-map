@@ -29,6 +29,9 @@ jobs:
       - name: Build static site
         run: node build-static.mjs
 
+      - name: Verify canonical catalog in Pages artifact
+        run: node tools/verify-pages-artifact.mjs
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
