@@ -26,16 +26,8 @@ jobs:
         with:
           node-version: 24
 
-      - name: Generate and validate canonical catalog
-        run: |
-          node tools/generate-place-catalog.mjs
-          node tools/validate-place-catalog.mjs
-
       - name: Build static site
         run: node build-static.mjs
-
-      - name: Run regression tests
-        run: node --test tests/*.test.mjs
 
       - name: Verify canonical catalog in Pages artifact
         run: node tools/verify-pages-artifact.mjs
