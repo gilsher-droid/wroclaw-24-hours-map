@@ -135,6 +135,17 @@ window.EVENING_LOCATIONS = [
   });
 }));
 
+if (window.WROC_CATALOG?.registerProduct) {
+  const registered = window.WROC_CATALOG.registerProduct({
+    id: "wroclaw-24-hours",
+    type: "single-day-route",
+    stops: window.LOCATIONS,
+    recommendations: window.EVENING_LOCATIONS,
+  });
+  window.LOCATIONS = registered.stops;
+  window.EVENING_LOCATIONS = registered.recommendations;
+}
+
 [window.LOCATIONS, window.EVENING_LOCATIONS].forEach((items) => items.forEach((item) => {
   item.resources = window.WROC_LOCATION_MEDIA?.[item.id] || {};
 }));
