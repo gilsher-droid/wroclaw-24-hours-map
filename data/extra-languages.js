@@ -621,6 +621,8 @@ window.EXTRA_MAP_TRANSLATIONS={
 };
 window.EXTRA_ROUTE_TRANSLATIONS={
   "de": {
+    "All four days, maps and navigation are currently available free of charge.": "Alle vier Tage, Karten und Navigation sind derzeit kostenlos verfügbar.",
+    "All three days, maps and navigation are currently available free of charge.": "Alle drei Tage, Karten und Navigation sind derzeit kostenlos verfügbar.",
     "10–15 minutes": "10–15 Minuten",
     "Start here at a relaxed pace.": "Beginnen Sie hier entspannt.",
     "30–45 minutes": "30–45 Minuten",
@@ -1180,6 +1182,8 @@ window.EXTRA_ROUTE_TRANSLATIONS={
     "All three days, maps and navigation remain available throughout the access period.": "Alle drei Tage, Karten und Navigation bleiben während des gesamten Zugangszeitraums verfügbar."
   },
   "cs": {
+    "All four days, maps and navigation are currently available free of charge.": "Všechny čtyři dny, mapy a navigace jsou nyní k dispozici zdarma.",
+    "All three days, maps and navigation are currently available free of charge.": "Všechny tři dny, mapy a navigace jsou nyní k dispozici zdarma.",
     "Wrocław Market Square": "Vratislavské náměstí",
     "10–15 minutes": "10–15 minut",
     "Wrocław Old Town Hall": "Stará radnice ve Vratislavi",
