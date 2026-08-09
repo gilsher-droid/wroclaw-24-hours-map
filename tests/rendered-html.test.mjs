@@ -35,7 +35,7 @@ async function render() {
   );
 }
 
-test("server-renders the Wroc-love prelaunch product", async () => {
+test("server-renders the Wroc-love public-launch product", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
@@ -48,9 +48,9 @@ test("server-renders the Wroc-love prelaunch product", async () => {
   assert.match(html, /products\/interactive-maps\/moshe\.html/);
   assert.match(html, /לאכול, לשתות, לקנות ולישון בוורוצלב/);
   assert.match(html, /products\/interactive-maps\/lifestyle\.html/);
-  assert.match(html, />49</);
-  assert.match(html, /30 ימי גישה/);
-  assert.match(html, /ללא מנוי וללא חידוש אוטומטי/);
+  assert.match(html, /<strong>0<\/strong><span>PLN<\/span>/);
+  assert.match(html, /כל המסלולים והמפות זמינים כרגע ללא תשלום/);
+  assert.doesNotMatch(html, /checkout\.html|כניסה עם קוד|מקבלים קוד למייל|PayPal/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
 });
 
@@ -66,7 +66,7 @@ test("lifestyle guide publishes all sourced places in five languages", () => {
   assert.match(html, /data-category="sleep"/);
   assert.match(html, /data-lang="de"/);
   assert.match(html, /data-lang="cs"/);
-  assert.match(html, /חינם עד 31 בדצמבר 2026/);
+  assert.match(html, /כרגע ללא תשלום/);
   assert.match(html, /data-i18n="homeReturn"/);
   assert.match(html, /campaign-access\.js/);
   assert.match(app, /fitBounds/);
@@ -81,7 +81,7 @@ test("lifestyle guide publishes all sourced places in five languages", () => {
   assert.match(legacy, /products\/interactive-maps\/lifestyle\.html/);
 });
 
-test("paid access pages and protected itinerary are present", () => {
+test("all itinerary products and public access fallback pages are present", () => {
   const access = readFileSync(resolve(root, "dist/client/access.html"), "utf8");
   const premium = readFileSync(resolve(root, "dist/client/products/interactive-maps/premium.html"), "utf8");
   const moshe = readFileSync(resolve(root, "dist/client/products/interactive-maps/moshe.html"), "utf8");
@@ -94,7 +94,8 @@ test("paid access pages and protected itinerary are present", () => {
   const checkout = readFileSync(resolve(root, "dist/client/checkout.html"), "utf8");
   const worker = readFileSync(resolve(root, "dist/server/index.js"), "utf8");
 
-  assert.match(access, /WROC-XXXX-XXXX/);
+  assert.match(access, /כל המסלולים והמפות פתוחים לכולם/);
+  assert.doesNotMatch(access, /<form|access-code|access\.js/);
   assert.match(premium, /המסלול המלא ל־4 ימים/);
   assert.match(premiumRoute, /Hydropolis/);
   assert.match(premium, /premium-map/);
@@ -104,8 +105,8 @@ test("paid access pages and protected itinerary are present", () => {
   assert.match(premiumRoute, /PREMIUM_RECOMMENDATIONS/);
   assert.match(premiumApp, /googleDayUrl/);
   assert.match(premiumApp, /renderRecommendations/);
-  assert.match(campaignAccess, /2027-01-01T00:00:00\+01:00/);
-  assert.match(campaignAccess, /31 בדצמבר 2026/);
+  assert.match(campaignAccess, /phase: "public-launch"/);
+  assert.doesNotMatch(campaignAccess, /fetch\(|location\.replace|FREE_UNTIL/);
   assert.match(premium, /campaign-access\.js/);
   assert.match(moshe, /data\/moshe-route\.js/);
   assert.match(moshe, /campaign-access\.js/);
@@ -126,7 +127,8 @@ test("paid access pages and protected itinerary are present", () => {
   assert.match(legacyDayRoute, /products\/interactive-maps\/map\.html/);
   assert.match(worker, /ACCESS_TOKEN_SECRET/);
   assert.match(worker, /\/api\/access\/verify/);
-  assert.match(checkout, /49 ₪/);
+  assert.match(checkout, /אין צורך בתשלום/);
+  assert.doesNotMatch(checkout, /paypal-button-container|checkout\.js|49 ₪/);
   assert.match(worker, /\/api\/paypal\/orders/);
   assert.match(worker, /OWNER_ACCESS_CODE_HASH/);
 });
@@ -236,7 +238,7 @@ test("island crossings and galleries use the corrected route and media", () => {
   assert.match(mosheRoute, /stop\("wyspa-piasek",2,6,\[51\.11453,17\.040199\]/);
 });
 
-test("Ofir and Merav routes are free only through 31 December 2026 in Wrocław", () => {
+test("all routes remain public regardless of date during Phase 1", async () => {
   const source = readFileSync(resolve(root, "campaign-access.js"), "utf8");
   const window = { location: { search: "?lang=he", replace() {} } };
   const document = {
@@ -249,49 +251,40 @@ test("Ofir and Merav routes are free only through 31 December 2026 in Wrocław",
 
   const campaign = window.WROC_CAMPAIGN_ACCESS;
   assert.equal(campaign.isFreeNow(Date.parse("2026-12-31T23:59:59+01:00")), true);
-  assert.equal(campaign.isFreeNow(Date.parse("2027-01-01T00:00:00+01:00")), false);
+  assert.equal(campaign.isFreeNow(Date.parse("2035-01-01T00:00:00+01:00")), true);
+  const authorization = await campaign.authorize();
+  assert.equal(authorization.allowed, true);
+  assert.equal(authorization.free, true);
+  assert.equal(authorization.phase, "public-launch");
 });
 
-test("premium itinerary redirects visitors without an active code", async () => {
+test("premium itinerary opens directly for a new visitor", async () => {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("access-test", `${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
   const response = await worker.fetch(
     new Request("https://wroc-love.com/products/interactive-maps/premium.html"),
-    { ASSETS: { fetch: async () => new Response("not found", { status: 404 }) } },
+    { ASSETS: { fetch: async () => new Response("premium itinerary") } },
   );
 
-  assert.equal(response.status, 302);
-  assert.equal(response.headers.get("location"), "https://wroc-love.com/access.html");
+  assert.equal(response.status, 200);
+  assert.equal(await response.text(), "premium itinerary");
 });
 
-test("owner code opens the protected itinerary without payment", async () => {
+test("access-code verification is dormant during public launch", async () => {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("owner-test", `${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
-  const ownerCode = "WROCOWNRABCDEFGH";
-  const hashBytes = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(ownerCode));
-  const ownerHash = [...new Uint8Array(hashBytes)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
-  const assets = { fetch: async () => new Response("premium itinerary") };
-
   const login = await worker.fetch(
     new Request("https://wroc-love.com/api/access/verify", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ code: "WROC-OWNR-ABCD-EFGH" }),
     }),
-    { ASSETS: assets, ACCESS_TOKEN_SECRET: "test-session-secret", OWNER_ACCESS_CODE_HASH: ownerHash },
+    { ASSETS: { fetch: async () => new Response("premium itinerary") } },
   );
-  assert.equal(login.status, 200);
-  const cookie = login.headers.get("set-cookie");
-  assert.match(cookie ?? "", /wroc_love_access=/);
-
-  const premium = await worker.fetch(
-    new Request("https://wroc-love.com/products/interactive-maps/premium.html", { headers: { cookie: cookie.split(";", 1)[0] } }),
-    { ASSETS: assets, ACCESS_TOKEN_SECRET: "test-session-secret", OWNER_ACCESS_CODE_HASH: ownerHash },
-  );
-  assert.equal(premium.status, 200);
-  assert.equal(await premium.text(), "premium itinerary");
+  assert.equal(login.status, 410);
+  assert.equal(login.headers.get("set-cookie"), null);
 });
 
 test("legacy map URLs redirect to the products catalog", async () => {
@@ -307,27 +300,20 @@ test("legacy map URLs redirect to the products catalog", async () => {
   assert.equal(response.headers.get("location"), "https://wroc-love.com/products/interactive-maps/map.html?lang=pl");
 });
 
-test("PayPal orders are created server-side for exactly 49 ILS", async () => {
+test("PayPal endpoints are dormant and cannot create new orders", async () => {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("paypal-test", `${process.pid}-${Date.now()}`);
   const { default: worker } = await import(workerUrl.href);
   const originalFetch = globalThis.fetch;
-  let orderBody;
-  globalThis.fetch = async (url, options = {}) => {
-    if (String(url).endsWith("/v1/oauth2/token")) return Response.json({ access_token: "test-token" });
-    if (String(url).endsWith("/v2/checkout/orders")) {
-      orderBody = JSON.parse(options.body);
-      return Response.json({ id: "PAYPALORDER12345" }, { status: 201 });
-    }
-    throw new Error(`Unexpected URL: ${url}`);
-  };
+  let externalFetches = 0;
+  globalThis.fetch = async () => { externalFetches += 1; throw new Error("Unexpected external request"); };
   try {
     const response = await worker.fetch(
       new Request("https://wroc-love.com/api/paypal/orders", { method: "POST", headers: { origin: "https://wroc-love.com" } }),
       { PAYPAL_CLIENT_ID: "client", PAYPAL_CLIENT_SECRET: "secret" },
     );
-    assert.equal(response.status, 201);
-    assert.deepEqual(orderBody.purchase_units[0].amount, { currency_code: "ILS", value: "49.00" });
+    assert.equal(response.status, 410);
+    assert.equal(externalFetches, 0);
   } finally {
     globalThis.fetch = originalFetch;
   }
