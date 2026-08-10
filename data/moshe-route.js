@@ -9,11 +9,11 @@
     storageKey: "wroc-moshe-day",
     ui: {
       he: {
-        documentTitle: "וורוצלב בכריסמס – 3 ימים למשה ולבת זוגו | Wroc-love",
-        brandSubtitle: "מסלול הכריסמס של משה",
+        documentTitle: "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים | Wroc-love",
+        brandSubtitle: "מסלול כריסמס לשלושה ימים",
         eyebrow: "וורוצלב בחורף, בקצב נוח",
         title: "שלושה ימי כריסמס. מסלול חורפי רגוע.",
-        subtitle: "מסלול אישי למשה ולבת זוגו: מרחקים קצרים, עצירות חמות, חלופות למזג אוויר חורפי ובלי עליות שאינן הכרחיות.",
+        subtitle: "מסלול חורפי רגוע לשלושה ימים: מרחקים קצרים, עצירות חמות, חלופות למזג אוויר חורפי ובלי עליות שאינן הכרחיות.",
         smartTip: "איך משתמשים במסלול בחורף",
         smartTipBody: "בחרו יום לפי מזג האוויר. התחילו מאוחר יחסית, עצרו להתחממות, ודלגו על כל תחנת רשות אם הרחובות חלקים או אם מתעייפים.",
         routeStops: "תחנות מותאמות לחורף", recommendations: "המלצות אוכל והתחממות",
@@ -22,11 +22,11 @@
         backTop: "חזרה לבחירת יום"
       },
       en: {
-        documentTitle: "Christmas in Wrocław – 3 days for Moshe and his partner | Wroc-love",
-        brandSubtitle: "Moshe’s Christmas route",
+        documentTitle: "Christmas in Wrocław — a relaxed 3-day route | Wroc-love",
+        brandSubtitle: "Three-day Christmas route",
         eyebrow: "Winter Wrocław at a comfortable pace",
         title: "Three Christmas days. A relaxed winter route.",
-        subtitle: "A personal route for Moshe and his partner: short distances, warm breaks, winter-weather alternatives and no unnecessary climbs.",
+        subtitle: "A relaxed three-day winter route with short distances, warm breaks, winter-weather alternatives and no unnecessary climbs.",
         smartTip: "How to use the winter route",
         smartTipBody: "Choose each day according to the weather. Start relatively late, warm up often and skip optional stops whenever streets are slippery or energy is low.",
         routeStops: "winter-friendly stops", recommendations: "food and warm-up picks",
@@ -35,17 +35,27 @@
         backTop: "Back to day selection"
       },
       pl: {
-        documentTitle: "Boże Narodzenie we Wrocławiu – 3 dni dla Moszego i jego partnerki | Wroc-love",
-        brandSubtitle: "Świąteczna trasa Moszego",
+        documentTitle: "Boże Narodzenie we Wrocławiu – spokojna trasa na 3 dni | Wroc-love",
+        brandSubtitle: "Trzydniowa trasa świąteczna",
         eyebrow: "Zimowy Wrocław w wygodnym tempie",
         title: "Trzy świąteczne dni. Spokojna zimowa trasa.",
-        subtitle: "Osobista trasa dla Moszego i jego partnerki: krótkie odcinki, ciepłe przerwy, alternatywy na zimową pogodę i bez zbędnych podejść.",
+        subtitle: "Spokojna trzydniowa trasa zimowa: krótkie odcinki, ciepłe przerwy, alternatywy na zimową pogodę i bez zbędnych podejść.",
         smartTip: "Jak korzystać z zimowej trasy",
         smartTipBody: "Wybierajcie dzień według pogody. Zaczynajcie nieco później, róbcie przerwy w cieple i pomijajcie punkty opcjonalne przy śliskich ulicach lub zmęczeniu.",
         routeStops: "punktów dobrych zimą", recommendations: "jedzenie i ciepłe przerwy",
         savePhone: "Zapiszcie świąteczną trasę w telefonie",
         closing: "Wszystkie trzy dni, mapy i nawigacja są obecnie dostępne bezpłatnie.",
         backTop: "Wróć do wyboru dnia"
+      },
+      de: {
+        documentTitle: "Weihnachten in Breslau – eine entspannte 3-Tage-Route | Wroc-love",
+        brandSubtitle: "Dreitägige Weihnachtsroute",
+        subtitle: "Eine entspannte dreitägige Winterroute mit kurzen Strecken, warmen Pausen, Alternativen für winterliches Wetter und ohne unnötige Anstiege."
+      },
+      cs: {
+        documentTitle: "Vánoce ve Vratislavi – pohodová trasa na 3 dny | Wroc-love",
+        brandSubtitle: "Třídenní vánoční trasa",
+        subtitle: "Pohodová třídenní zimní trasa s krátkými vzdálenostmi, teplými přestávkami, variantami pro zimní počasí a bez zbytečných stoupání."
       }
     }
   };
