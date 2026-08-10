@@ -31,7 +31,7 @@ test("an independent Lower Silesia place is supported without changing current p
   const photo = "/assets/test-independent-place.jpg";
   const video = "/assets/test-independent-place.mp4";
 
-  writeFileSync(sourceFile, `window.WROC_CANONICAL_PLACE_SOURCE = [{
+  writeFileSync(sourceFile, `${readFileSync(resolve(root, "data/canonical-places-source.js"), "utf8")}\nwindow.WROC_CANONICAL_PLACE_SOURCE.push({
     id: ${JSON.stringify(fixtureId)},
     aliases: ["independent-test-alias"],
     localName: "Miejsce testowe",
@@ -49,7 +49,7 @@ test("an independent Lower Silesia place is supported without changing current p
       photos: [${JSON.stringify(photo)}], videos: [${JSON.stringify(video)}],
       metadata: { ${JSON.stringify(photo)}: { tags: ["architecture"], original: true } }
     }
-  }];\n`);
+  });\n`);
 
   try {
     const result = spawnSync(process.execPath, [resolve(root, "tools/generate-place-catalog.mjs")], {
@@ -66,8 +66,8 @@ test("an independent Lower Silesia place is supported without changing current p
     const baselineFile = resolve(root, "data/place-catalog.js");
     const baseline = loadCatalog(baselineFile);
     const candidate = loadCatalog(outputFile);
-    assert.equal(Object.keys(baseline.places).length, 84);
-    assert.equal(Object.keys(candidate.places).length, 85);
+    assert.equal(Object.keys(baseline.places).length, 85);
+    assert.equal(Object.keys(candidate.places).length, 86);
     assert.equal(baseline.coordinateConflicts.length, 27);
     assert.equal(JSON.stringify(candidate.coordinateConflicts), JSON.stringify(baseline.coordinateConflicts));
 
@@ -101,5 +101,38 @@ test("an independent Lower Silesia place is supported without changing current p
     }
   } finally {
     rmSync(temporary, { recursive: true, force: true });
+  }
+});
+
+test("Książ Castle is an independent multilingual Lower Silesia place", () => {
+  const catalog = loadCatalog(resolve(root, "data/place-catalog.js"));
+  const place = catalog.getPlace("ksiaz-castle");
+
+  assert.ok(place);
+  assert.equal(Object.keys(catalog.places).length, 85);
+  assert.equal(Object.keys(catalog.aliases).length, 8);
+  assert.equal(catalog.coordinateConflicts.length, 27);
+  assert.equal(place.localName, "Zamek Książ w Wałbrzychu");
+  assert.equal(place.location.countryCode, "PL");
+  assert.equal(place.location.regionId, "lower-silesia");
+  assert.equal(place.location.cityId, "walbrzych");
+  assert.equal(place.location.address.street, "Piastów Śląskich 1");
+  assert.equal(place.location.coordinates.lat, 50.8422222);
+  assert.equal(place.location.coordinates.lng, 16.2916667);
+  assert.equal(place.sourceRecords.length, 0);
+  assert.deepEqual(Object.keys(place.name).sort(), ["cs", "de", "en", "he", "pl"]);
+  assert.deepEqual(Object.keys(place.description).sort(), ["cs", "de", "en", "he", "pl"]);
+  assert.equal(place.experiences.length, 3);
+  assert.equal(place.suitability.accessibility.level, "partial");
+  assert.equal(place.provenance.personalVisit, true);
+  assert.equal(place.media.photos.length, 13);
+  assert.equal(place.media.videos.length, 0);
+  assert.equal(place.media.metadata["/assets/ksiaz-castle-01.jpg"].heroCandidate, true);
+  assert.ok(place.socialPosts.some((item) => item.platform === "facebook"));
+  assert.ok(place.socialPosts.some((item) => item.platform === "instagram"));
+
+  for (const product of Object.values(catalog.products)) {
+    const records = [...(product.stops || []), ...(product.recommendations || []), ...(product.places || [])];
+    assert.equal(records.some((record) => record.placeId === "ksiaz-castle"), false);
   }
 });
