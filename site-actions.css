@@ -9,6 +9,56 @@
   white-space: nowrap;
 }
 
+.site-product-navigation {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #062b5c;
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.site-product-menu { position: relative; }
+.site-product-menu summary,
+.site-how-link {
+  min-height: 40px;
+  padding: 0 13px;
+  border: 1px solid rgba(6, 43, 92, .14);
+  border-radius: 999px;
+  background: rgba(255,255,255,.78);
+  color: #062b5c;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+.site-product-menu summary::-webkit-details-marker { display: none; }
+.site-product-menu summary::after { margin-inline-start: 8px; content: "▾"; font-size: 10px; }
+.site-product-menu[open] summary::after { transform: rotate(180deg); }
+.site-product-menu-panel {
+  width: min(330px, calc(100vw - 28px));
+  padding: 8px;
+  position: absolute;
+  z-index: 5000;
+  inset-block-start: calc(100% + 8px);
+  inset-inline-start: 0;
+  border: 1px solid rgba(6, 43, 92, .14);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 18px 46px rgba(6, 43, 92, .18);
+  display: grid;
+  gap: 3px;
+  white-space: normal;
+}
+.site-product-menu-panel a { padding: 10px 12px; border-radius: 10px; color: #062b5c; line-height: 1.35; text-decoration: none; }
+.site-product-menu-panel a:hover,
+.site-product-menu-panel a:focus-visible { background: #eef5fa; outline: none; }
+.topbar .site-product-navigation { color: #fff; }
+.topbar .site-product-menu summary,
+.topbar .site-how-link { border-color: rgba(255,255,255,.3); background: rgba(255,255,255,.1); color: #fff; }
+
 .site-social-follow .site-social-label { margin-inline-end: 2px; }
 
 .site-social-follow a,
@@ -64,6 +114,7 @@ footer a[data-social-enhanced] {
 
 @media (max-width: 920px) {
   .site-social-follow .site-social-label { display: none; }
+  .site-how-link { display: none; }
 }
 
 @media (max-width: 720px) {
@@ -78,4 +129,11 @@ footer a[data-social-enhanced] {
     margin: 4px 0 0;
   }
   .site-social-follow .site-social-label { display: inline; }
+  .site-product-navigation {
+    order: 2;
+    width: 100%;
+    justify-content: center;
+  }
+  .site-product-menu summary { min-height: 38px; }
+  .site-product-menu-panel { inset-inline-start: 50%; transform: translateX(-50%); }
 }
