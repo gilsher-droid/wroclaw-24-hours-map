@@ -13,16 +13,16 @@
     <link rel="preconnect" href="https://tile.openstreetmap.org" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <link rel="stylesheet" href="/map-styles.css?v=20260811-1" />
-    <link rel="stylesheet" href="/site-actions.css?v=20260811-1" />
+    <link rel="stylesheet" href="/site-actions.css?v=20260811-2" />
   </head>
   <body>
     <a class="skip-link" href="#route-list" data-i18n="skipToRoute">דלגו למסלול</a>
     <header class="hero">
       <nav class="topbar" aria-label="Language and actions">
-        <div class="brand-lockup">
+        <a class="brand-lockup" href="/?lang=he" data-site-home>
           <img src="/assets/logo.png" alt="Wrocław & Lower Silesia" class="logo" />
           <span class="brand-name">Wrocław &amp; Lower Silesia</span>
-        </div>
+        </a>
         <div class="top-actions">
           <a class="home-button" id="home-link" href="/?lang=he" data-i18n="homeLink">לעמוד הבית</a>
           <div class="language-switcher" role="group" aria-label="Language">
@@ -39,7 +39,6 @@
 
       <div class="hero-content">
         <div class="eyebrow" data-i18n="eyebrow">מסלול עצמאי · הליכה נוחה · יום אחד</div>
-        <div class="campaign-route-notice" id="campaign-route-notice" hidden></div>
         <h1 data-i18n="appTitle">24 שעות בוורוצלב</h1>
         <p class="subtitle" data-i18n="subtitle">מסלול קצר ומדויק בין העיר העתיקה, האוניברסיטה, הנהר ואוסטרוב טומסקי</p>
         <div class="intro-card">
@@ -167,6 +166,6 @@
     <script src="/data/location-media.js?v=20260808-10"></script>
     <script src="/data/locations.js?v=20260809-1"></script>
     <script src="/app.js?v=20260808-7"></script>
-    <script src="/site-actions.js?v=20260811-1" defer></script>
+    <script src="/site-actions.js?v=20260811-2" defer></script>
   </body>
 </html>

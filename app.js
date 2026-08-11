@@ -464,10 +464,7 @@
   }
 
   function updateCampaignNotice() {
-    const notice = document.getElementById("campaign-route-notice");
-    if (!notice || !window.WROC_CAMPAIGN_ACCESS?.isFreeNow()) return;
-    notice.textContent = window.WROC_CAMPAIGN_ACCESS.text("freeUntil", currentLanguage);
-    notice.hidden = false;
+    // Access messaging belongs on the homepage product cards, not inside the route UI.
   }
 
   function showToast(message) {
