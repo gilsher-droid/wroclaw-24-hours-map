@@ -348,6 +348,26 @@
   };
   Object.entries(phaseOneTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
 
+  const productNavigationTranslations = {
+    en: {
+      "כל המוצרים": "All products", "לכל המוצרים": "View all products", "מסלול ליום אחד": "One-day route",
+      "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "A complete one-day city route. Open it on your phone, choose a stop and set off — no registration or credit card."
+    },
+    pl: {
+      "כל המוצרים": "Wszystkie produkty", "לכל המוצרים": "Zobacz wszystkie produkty", "מסלול ליום אחד": "Trasa jednodniowa",
+      "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Pełna jednodniowa trasa po mieście. Otwórz ją w telefonie, wybierz przystanek i ruszaj — bez rejestracji i karty."
+    },
+    de: {
+      "כל המוצרים": "Alle Produkte", "לכל המוצרים": "Alle Produkte ansehen", "מסלול ליום אחד": "Route für einen Tag",
+      "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Eine vollständige Route für einen Tag in der Stadt. Auf dem Smartphone öffnen, Station wählen und losgehen — ohne Registrierung oder Kreditkarte."
+    },
+    cs: {
+      "כל המוצרים": "Všechny produkty", "לכל המוצרים": "Zobrazit všechny produkty", "מסלול ליום אחד": "Jednodenní trasa",
+      "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Kompletní jednodenní trasa městem. Otevřete ji v telefonu, vyberte zastávku a vyrazte — bez registrace a platební karty."
+    }
+  };
+  Object.entries(productNavigationTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
+
   const originalText = new WeakMap();
   const originalAttributes = new WeakMap();
   const originalTitle = document.title;

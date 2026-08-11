@@ -58,6 +58,7 @@ footer a[data-social-enhanced] {
 .lifestyle-header > .site-social-follow,
 .topbar > .site-social-follow {
   margin-inline-start: auto;
+  align-self: center;
 }
 .topbar > .site-social-follow { color: #fff; }
 

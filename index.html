@@ -21,10 +21,15 @@
           <span><strong>Wroc-love</strong><small>מסלולים חכמים למטיילים ישראלים</small></span>
         </a>
         <nav aria-label="ניווט ראשי">
-          <a href="#free">מסלול חינמי</a>
-          <a href="#premium">מסלול 4 ימים</a>
-          <a href="#christmas">מסלול כריסמס</a>
-          <a href="#lifestyle">אוכל, קניות ולינה</a>
+          <details class="products-menu">
+            <summary>כל המוצרים</summary>
+            <div class="products-menu-panel">
+              <a href="/products/interactive-maps/map.html?lang=he">24 שעות בוורוצלב</a>
+              <a href="/products/interactive-maps/premium.html?lang=he">וורוצלב – המסלול המלא ל־4 ימים</a>
+              <a href="/products/interactive-maps/moshe.html?lang=he">וורוצלב בכריסמס – מסלול רגוע ל־3 ימים</a>
+              <a href="/products/interactive-maps/lifestyle.html?lang=he">לאכול, לשתות, לקנות ולישון בוורוצלב</a>
+            </div>
+          </details>
           <a href="#how">איך זה עובד</a>
         </nav>
       </header>
@@ -35,8 +40,7 @@
           <h1>פחות זמן לתכנן.<br />יותר זמן <em>להתאהב בעיר.</em></h1>
           <p>מסלולים אינטראקטיביים בעברית שמסדרים את היום, מחברים בין המקומות הנכונים ומשאירים מספיק מקום לגילויים שבדרך.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="/products/interactive-maps/map.html?lang=he">פתחו את מסלול 24 השעות</a>
-            <a class="button button-quiet" href="#premium">הכירו את המסלול המלא</a>
+            <a class="button button-primary" href="#products">לכל המוצרים</a>
           </div>
           <ul class="trust-list" aria-label="יתרונות">
             <li>בעברית</li><li>מותאם לנייד</li><li>קישורי ניווט ישירים</li>
@@ -55,14 +59,15 @@
         </div>
       </section>
 
-      <section class="free-section" id="free">
+      <section class="free-section" id="products">
+        <span class="anchor-alias" id="free" aria-hidden="true"></span>
         <div>
-          <span class="section-number">01</span><span class="eyebrow">מתחילים בחינם</span>
+          <span class="section-number">01</span><span class="eyebrow">מסלול ליום אחד</span>
           <h2>24 שעות בוורוצלב</h2>
-          <p>מסלול טעימה מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.</p>
+          <p>מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.</p>
         </div>
         <a class="route-ticket free-ticket" href="/products/interactive-maps/map.html?lang=he">
-          <span class="ticket-label">מסלול חינמי</span>
+          <span class="ticket-label">24 שעות בוורוצלב</span>
           <strong>יום אחד. העיר העתיקה, הנהר ואוסטרוב טומסקי.</strong>
           <span class="ticket-link">לפתיחת המפה ←</span>
         </a>
@@ -154,7 +159,7 @@
       <section class="closing">
         <span class="eyebrow">Wroc-love</span>
         <h2>העיר כבר מחכה. אנחנו רק מסדרים לכם את הדרך.</h2>
-        <a class="button button-primary" href="/products/interactive-maps/map.html?lang=he">התחילו במסלול החינמי</a>
+        <a class="button button-primary" href="/products/interactive-maps/map.html?lang=he">פתחו את מסלול 24 השעות</a>
       </section>
 
       <footer>
@@ -166,9 +171,9 @@
         </nav>
       </footer>
     </main>
-    <script src="data/extra-languages.js?v=20260808-11" defer></script>
+    <script src="data/extra-languages.js?v=20260811-2" defer></script>
     <script src="campaign-access.js?v=20260809-2" defer></script>
-    <script src="site-i18n.js?v=20260809-1" defer></script>
+    <script src="site-i18n.js?v=20260811-2" defer></script>
     <script src="/site-actions.js?v=20260811-1" defer></script>
   </body>
 </html>
