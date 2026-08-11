@@ -94,7 +94,7 @@ test("lifestyle guide publishes all sourced places in five languages", () => {
   assert.match(html, /data-category="sleep"/);
   assert.match(html, /data-lang="de"/);
   assert.match(html, /data-lang="cs"/);
-  assert.match(html, /כרגע ללא תשלום/);
+  assert.doesNotMatch(html, /freeUntil/);
   assert.match(html, /data-i18n="homeReturn"/);
   assert.match(html, /campaign-access\.js/);
   assert.match(app, /fitBounds/);
