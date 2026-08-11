@@ -407,7 +407,7 @@ html[dir="ltr"] .premium-marker { transform: rotate(-45deg); }
   }
   .premium-languages {
     width: 100%;
-    max-width: calc(100vw - 24px);
+    max-width: 100%;
     margin: 0;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
@@ -430,6 +430,8 @@ html[dir="ltr"] .premium-marker { transform: rotate(-45deg); }
     top: 6px;
   }
   .day-nav {
+    max-width: calc(100% - 36px);
+    margin-inline: auto;
     overflow-x: auto;
     display: flex;
     scroll-snap-type: inline proximity;
