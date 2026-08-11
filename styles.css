@@ -77,10 +77,8 @@ a {
   min-height: 112px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  grid-template-areas:
-    "languages languages"
-    "brand navigation";
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas: "brand navigation languages";
   align-items: center;
   gap: 8px 32px;
   padding-block: 10px 14px;
@@ -92,6 +90,7 @@ a {
   position: static;
   grid-area: languages;
   justify-self: end;
+  align-self: center;
   max-width: 100%;
   box-shadow: none;
 }
@@ -134,11 +133,46 @@ a {
 
 nav {
   display: flex;
+  align-items: center;
   gap: 28px;
   color: var(--navy);
   font-size: 14px;
   font-weight: 700;
 }
+
+.products-menu { position: relative; }
+.products-menu summary {
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .7);
+  cursor: pointer;
+  list-style: none;
+}
+.products-menu summary::-webkit-details-marker { display: none; }
+.products-menu summary::after { content: "▾"; margin-inline-start: 7px; font-size: 11px; }
+.products-menu[open] summary::after { content: "▴"; }
+.products-menu-panel {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% + 10px);
+  inset-inline-start: 0;
+  width: min(330px, calc(100vw - 32px));
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--cream);
+  box-shadow: 0 18px 45px rgba(6, 43, 92, .18);
+}
+.products-menu-panel a {
+  display: block;
+  padding: 11px 12px;
+  border-radius: 10px;
+  line-height: 1.35;
+}
+.products-menu-panel a:hover,
+.products-menu-panel a:focus-visible { background: rgba(36, 119, 189, .09); }
+.anchor-alias { position: absolute; }
 
 nav a:hover,
 nav a:focus-visible {
@@ -852,6 +886,14 @@ footer a { color: var(--sky); font-weight: 800; }
   text-decoration: none;
 }
 
+@media (max-width: 1050px) {
+  .site-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "brand languages" "navigation navigation";
+  }
+  .site-header nav { justify-self: stretch; justify-content: center; }
+}
+
 @media (max-width: 920px) {
   .site-header > nav { display: flex; align-items: center; justify-content: flex-end; }
   .site-header > nav > a { display: none; }
@@ -869,6 +911,14 @@ footer a { color: var(--sky); font-weight: 800; }
 
 @media (max-width: 640px) {
   .site-header { width: min(100% - 28px, 1180px); }
+  .site-header {
+    grid-template-columns: 1fr;
+    grid-template-areas: "brand" "languages" "navigation";
+  }
+  .site-header .brand,
+  .site-header .site-language-switcher--header { justify-self: center; }
+  .site-header nav { justify-content: center; }
+  .products-menu-panel { inset-inline-start: auto; left: 50%; transform: translateX(-50%); }
   .brand small { display: none; }
   .hero { width: min(100% - 28px, 1180px); min-height: auto; padding: 50px 0 72px; gap: 48px; }
   h1 { font-size: 47px; }
