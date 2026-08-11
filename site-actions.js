@@ -64,7 +64,7 @@
 
   function enhanceExistingSocialLinks() {
     document.querySelectorAll('a[href*="facebook.com"], a[href*="instagram.com"]').forEach((link) => {
-      if (link.closest(".site-social-follow") || link.dataset.socialEnhanced) return;
+      if (link.closest(".site-social-follow") || link.dataset.socialEnhanced || link.querySelector(".brand-icon, .site-social-icon")) return;
       const kind = link.href.includes("instagram.com") ? "instagram" : "facebook";
       link.insertAdjacentHTML("afterbegin", socialIcon(kind));
       link.dataset.socialEnhanced = "true";

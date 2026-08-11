@@ -5780,6 +5780,251 @@
       "cs"
     ]
   },
+  "morskie-oko-wroclaw": {
+    "id": "morskie-oko-wroclaw",
+    "localName": "Kąpielisko Morskie Oko",
+    "name": {
+      "he": "מורסקיה אוקו – ורוצלב",
+      "en": "Morskie Oko — Wrocław",
+      "pl": "Kąpielisko Morskie Oko",
+      "de": "Morskie Oko – Breslau",
+      "cs": "Morskie Oko – Vratislav"
+    },
+    "description": {
+      "he": "אגם רחצה עירוני עם חוף חולי, מדשאות ומרחב ירוק בוורוצלב. מקום מקומי ונינוח לשחייה, מנוחה ובילוי משפחתי בקיץ; בעונת הרחצה כדאי לבדוק מראש שעות פתיחה ותנאי כניסה.",
+      "en": "An urban bathing lake with a sandy beach, lawns and greenery in Wrocław. A relaxed local place for swimming, resting and family time in summer; check current opening hours and entry conditions during the bathing season.",
+      "pl": "Miejskie kąpielisko z piaszczystą plażą, trawnikami i zielenią we Wrocławiu. Spokojne, lokalne miejsce na pływanie, odpoczynek i rodzinne lato; w sezonie warto sprawdzić aktualne godziny otwarcia i zasady wstępu.",
+      "de": "Ein städtischer Badesee mit Sandstrand, Liegewiesen und viel Grün in Breslau. Ein entspannter lokaler Ort zum Schwimmen, Erholen und für Familien im Sommer; während der Badesaison aktuelle Öffnungszeiten und Eintrittsbedingungen prüfen.",
+      "cs": "Městské koupaliště s písečnou pláží, trávníky a zelení ve Vratislavi. Klidné místní místo na koupání, odpočinek a rodinné léto; v sezoně je vhodné ověřit aktuální otevírací dobu a podmínky vstupu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1232536,
+        "lng": 17.0828961
+      },
+      "address": {
+        "street": "Fryderyka Chopina 27",
+        "postalCode": "51-609",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "family-activity",
+      "lake",
+      "swimming",
+      "urban-nature"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "kapielisko-morskie-oko-wroclaw"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "medium",
+    "taxonomy": {
+      "categories": [
+        "family-activity",
+        "lake",
+        "swimming",
+        "urban-nature"
+      ],
+      "tags": [
+        "lake",
+        "swimming",
+        "summer",
+        "family",
+        "relaxation",
+        "outdoor",
+        "nature-scenery",
+        "local-experience",
+        "wroclaw",
+        "lower-silesia"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [
+        "families",
+        "couples",
+        "solo",
+        "adults",
+        "children",
+        "summer-visitors"
+      ],
+      "walkingIntensity": "low",
+      "familyFriendly": true,
+      "couples": true,
+      "solo": null,
+      "romantic": false,
+      "indoorOutdoor": "outdoor",
+      "rainFriendly": false,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": "partial",
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": 120,
+      "bestTimeOfDay": [
+        "morning",
+        "afternoon"
+      ],
+      "seasonalSuitability": [
+        "summer"
+      ],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://geoportal.wroclaw.pl/poi/poi/1835",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1232536%2C17.0828961",
+        "appleMaps": "https://maps.apple.com/?ll=51.1232536,17.0828961&q=K%C4%85pielisko%20Morskie%20Oko"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "summer-bathing-and-relaxation",
+        "tags": [
+          "swimming",
+          "summer",
+          "family",
+          "relaxation",
+          "outdoor"
+        ],
+        "accessibility": {
+          "level": "partial",
+          "notes": null
+        }
+      }
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalContent": true,
+      "originalPhotography": true,
+      "originalVideo": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://geoportal.wroclaw.pl/poi/poi/1835",
+          "checkedAt": "2026-08-11"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/way/310593115",
+          "checkedAt": "2026-08-11"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/morskie-oko-01.jpg",
+        "/assets/morskie-oko-02.jpg",
+        "/assets/morskie-oko-03.jpg",
+        "/assets/morskie-oko-04.jpg",
+        "/assets/morskie-oko-05.jpg",
+        "/assets/morskie-oko-06.jpg",
+        "/assets/morskie-oko-07.jpg",
+        "/assets/morskie-oko-08.jpg",
+        "/assets/morskie-oko-09.jpg",
+        "/assets/morskie-oko-10.jpg",
+        "/assets/morskie-oko-11.jpg",
+        "/assets/morskie-oko-12.jpg",
+        "/assets/morskie-oko-13.jpg",
+        "/assets/morskie-oko-14.jpg",
+        "/assets/morskie-oko-15.jpg",
+        "/assets/morskie-oko-16.jpg",
+        "/assets/morskie-oko-17.jpg",
+        "/assets/morskie-oko-18.jpg",
+        "/assets/morskie-oko-19.jpg",
+        "/assets/morskie-oko-20.jpg",
+        "/assets/morskie-oko-21.jpg",
+        "/assets/morskie-oko-22.jpg",
+        "/assets/morskie-oko-23.jpg",
+        "/assets/morskie-oko-24.jpg",
+        "/assets/morskie-oko-25.jpg",
+        "/assets/morskie-oko-26.jpg",
+        "/assets/morskie-oko-27.jpg",
+        "/assets/morskie-oko-28.jpg",
+        "/assets/morskie-oko-29.jpg",
+        "/assets/morskie-oko-30.jpg",
+        "/assets/morskie-oko-31.jpg",
+        "/assets/morskie-oko-32.jpg",
+        "/assets/morskie-oko-33.jpg",
+        "/assets/morskie-oko-34.jpg",
+        "/assets/morskie-oko-35.jpg"
+      ],
+      "videos": [
+        "/assets/morskie-oko-video-01.mp4",
+        "/assets/morskie-oko-video-02.mov",
+        "/assets/morskie-oko-video-03.mov",
+        "/assets/morskie-oko-video-04.mov"
+      ],
+      "metadata": {
+        "/assets/morskie-oko-01.jpg": {
+          "tags": [
+            "lake",
+            "swimming",
+            "summer",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true
+        },
+        "/assets/morskie-oko-video-01.mp4": {
+          "tags": [
+            "lake",
+            "swimming",
+            "summer"
+          ],
+          "original": true
+        },
+        "/assets/morskie-oko-video-02.mov": {
+          "tags": [
+            "lake",
+            "swimming",
+            "summer"
+          ],
+          "original": true
+        },
+        "/assets/morskie-oko-video-03.mov": {
+          "tags": [
+            "lake",
+            "swimming",
+            "summer"
+          ],
+          "original": true
+        },
+        "/assets/morskie-oko-video-04.mov": {
+          "tags": [
+            "lake",
+            "swimming",
+            "summer"
+          ],
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "most-piaskowy": {
     "id": "most-piaskowy",
     "localName": "Most Piaskowy",
@@ -8642,6 +8887,195 @@
       "cs"
     ]
   },
+  "stadion-olimpijski-wroclaw": {
+    "id": "stadion-olimpijski-wroclaw",
+    "localName": "Stadion Olimpijski we Wrocławiu",
+    "name": {
+      "he": "האצטדיון האולימפי של ורוצלב",
+      "en": "Wrocław Olympic Stadium",
+      "pl": "Stadion Olimpijski we Wrocławiu",
+      "de": "Olympiastadion Breslau",
+      "cs": "Olympijský stadion ve Vratislavi"
+    },
+    "description": {
+      "he": "מתחם ספורט היסטורי בוורוצלב, שנבנה בשנים 1926–1928 לפי תכנונו של ריכרד קונווירץ. למרות שמו לא נערכו בו משחקים אולימפיים; כיום הוא מזוהה במיוחד עם ספידוויי ופעילות ספורטיבית, ומעניין גם בזכות אדריכלות הלבנים וההיסטוריה המקומית.",
+      "en": "A historic sports complex in Wrocław, built in 1926–1928 to a design by Richard Konwiarz. Despite its name, it never hosted the Olympic Games; today it is closely associated with speedway and sport, and is also worth seeing for its brick architecture and local history.",
+      "pl": "Historyczny kompleks sportowy we Wrocławiu, zbudowany w latach 1926–1928 według projektu Richarda Konwiarza. Mimo nazwy nie odbyły się tu igrzyska olimpijskie; dziś obiekt kojarzy się przede wszystkim ze sportem żużlowym, a uwagę zwracają także ceglana architektura i lokalna historia.",
+      "de": "Ein historischer Sportkomplex in Breslau, erbaut 1926–1928 nach einem Entwurf von Richard Konwiarz. Trotz seines Namens fanden hier keine Olympischen Spiele statt; heute ist die Anlage vor allem mit Speedway und Sport verbunden und zudem wegen ihrer Backsteinarchitektur und lokalen Geschichte sehenswert.",
+      "cs": "Historický sportovní areál ve Vratislavi, postavený v letech 1926–1928 podle návrhu Richarda Konwiarze. Navzdory názvu se zde olympijské hry nekonaly; dnes je spojen především se speedwayem a sportem a zaujme také cihlovou architekturou a místní historií."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1195926,
+        "lng": 17.0966604
+      },
+      "address": {
+        "street": "Ignacego Jana Paderewskiego 35",
+        "postalCode": "51-612",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "historical-landmark",
+      "sports-complex",
+      "stadium"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "olympic-stadium-wroclaw"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "medium",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "historical-landmark",
+        "sports-complex",
+        "stadium"
+      ],
+      "tags": [
+        "stadium",
+        "sports",
+        "architecture",
+        "brick-architecture",
+        "history",
+        "local-history",
+        "speedway",
+        "american-football",
+        "local-experience",
+        "wroclaw",
+        "lower-silesia"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [
+        "architecture-lovers",
+        "history-lovers",
+        "sports-fans",
+        "local-history",
+        "photographers"
+      ],
+      "walkingIntensity": "low",
+      "familyFriendly": true,
+      "couples": true,
+      "solo": null,
+      "romantic": false,
+      "indoorOutdoor": "outdoor",
+      "rainFriendly": false,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": "partial",
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": 45,
+      "bestTimeOfDay": [
+        "morning",
+        "afternoon"
+      ],
+      "seasonalSuitability": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wroclaw.pl/sport/stadion-olimpijski",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1195926%2C17.0966604",
+        "appleMaps": "https://maps.apple.com/?ll=51.1195926,17.0966604&q=Stadion%20Olimpijski%20we%20Wroc%C5%82awiu"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "historic-sports-complex",
+        "tags": [
+          "sports",
+          "architecture",
+          "history",
+          "local-experience"
+        ],
+        "accessibility": {
+          "level": "partial",
+          "notes": null
+        }
+      }
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalContent": true,
+      "originalPhotography": true,
+      "originalVideo": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.wroclaw.pl/sport/stadion-olimpijski",
+          "checkedAt": "2026-08-11"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/way/224222485",
+          "checkedAt": "2026-08-11"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/stadion-olimpijski-01.jpg",
+        "/assets/stadion-olimpijski-02.jpg",
+        "/assets/stadion-olimpijski-03.jpg",
+        "/assets/stadion-olimpijski-04.jpg",
+        "/assets/stadion-olimpijski-05.jpg",
+        "/assets/stadion-olimpijski-06.jpg",
+        "/assets/stadion-olimpijski-07.jpg",
+        "/assets/stadion-olimpijski-08.jpg",
+        "/assets/stadion-olimpijski-09.jpg",
+        "/assets/stadion-olimpijski-10.jpg",
+        "/assets/stadion-olimpijski-11.jpg",
+        "/assets/stadion-olimpijski-12.jpg",
+        "/assets/stadion-olimpijski-13.jpg",
+        "/assets/stadion-olimpijski-14.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/stadion-olimpijski-01.jpg": {
+          "tags": [
+            "stadium",
+            "architecture",
+            "history",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "sushi-corner": {
     "id": "sushi-corner",
     "localName": "Sushi Corner – Wrocław",
@@ -10060,7 +10494,9 @@
   "renoma-rec": "renoma",
   "wroclavia-station": "wroclavia",
   "ostrow-cathedral": "ostrow",
-  "christmas-market": "rynek"
+  "christmas-market": "rynek",
+  "kapielisko-morskie-oko-wroclaw": "morskie-oko-wroclaw",
+  "olympic-stadium-wroclaw": "stadion-olimpijski-wroclaw"
 };
   const relatedPlaces = {
   "ostrow-cathedral": [
