@@ -732,6 +732,27 @@ h2 {
 .price span { font-size: 24px; }
 .price-card > p { color: rgba(255,255,255,.68); }
 
+.single-day-card {
+  position: static;
+  width: 100%;
+}
+
+.single-day-title {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.single-day-title strong {
+  font-size: clamp(42px, 5vw, 64px);
+}
+
+.single-day-title span {
+  color: var(--sky);
+  font-size: 18px;
+  font-weight: 800;
+}
+
 .price-card ul {
   margin: 28px 0;
   padding: 24px 0;
