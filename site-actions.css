@@ -1,0 +1,80 @@
+.site-social-follow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  color: #062b5c;
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.site-social-follow .site-social-label { margin-inline-end: 2px; }
+
+.site-social-follow a,
+.social-links a[data-social-enhanced],
+footer a[data-social-enhanced] {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.site-social-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  border-radius: 9px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1;
+  box-shadow: 0 5px 14px rgba(6, 43, 92, .14);
+}
+
+.site-social-icon.facebook { background: #1877f2; }
+.site-social-icon.instagram {
+  background: radial-gradient(circle at 32% 105%, #ffd600 0 18%, #ff7a00 30%, #ff0169 54%, #d300c5 76%, #7638fa 100%);
+}
+
+.site-action-svg {
+  display: block;
+  width: 23px;
+  height: 23px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.site-action-svg.print { width: 26px; height: 26px; stroke-width: 2.15; }
+
+.site-header > .site-social-follow,
+.site-header nav > .site-social-follow,
+.premium-header > .site-social-follow,
+.lifestyle-header > .site-social-follow,
+.topbar > .site-social-follow {
+  margin-inline-start: auto;
+}
+.topbar > .site-social-follow { color: #fff; }
+
+@media (max-width: 920px) {
+  .site-social-follow .site-social-label { display: none; }
+}
+
+@media (max-width: 720px) {
+  .site-header > .site-social-follow,
+  .site-header nav > .site-social-follow,
+  .premium-header > .site-social-follow,
+  .lifestyle-header > .site-social-follow,
+  .topbar > .site-social-follow {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    margin: 4px 0 0;
+  }
+  .site-social-follow .site-social-label { display: inline; }
+}

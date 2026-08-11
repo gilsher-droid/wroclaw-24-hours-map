@@ -853,7 +853,8 @@ footer a { color: var(--sky); font-weight: 800; }
 }
 
 @media (max-width: 920px) {
-  nav { display: none; }
+  .site-header > nav { display: flex; align-items: center; justify-content: flex-end; }
+  .site-header > nav > a { display: none; }
   .hero { grid-template-columns: 1fr; padding-top: 58px; }
   .route-preview { max-width: 620px; width: 100%; margin: 0 auto; }
   .free-section,

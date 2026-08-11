@@ -2,14 +2,13 @@
   "use strict";
 
   const routeConfig = window.PREMIUM_ROUTE_CONFIG || {};
-  const dayStorageKey = routeConfig.storageKey || "wroc-premium-day";
   const supportedLanguages = ["he", "en", "pl", "de", "cs"];
   const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
   const savedLanguage = localStorage.getItem("wroclaw24-language");
   let language = supportedLanguages.includes(requestedLanguage)
     ? requestedLanguage
     : supportedLanguages.includes(savedLanguage) ? savedLanguage : "he";
-  let activeDay = Number(localStorage.getItem(dayStorageKey)) || window.PREMIUM_DAYS?.[0]?.id || 1;
+  let activeDay = window.PREMIUM_DAYS?.[0]?.id || 1;
   let recommendationFilter = "all";
   let map;
   let routeLine;
@@ -31,7 +30,7 @@
       smartTip: "איך משתמשים במסלול", smartTipBody: "בחרו יום, פתחו תחנה במפה וצאו לניווט. אפשר להחליף בין הימים לפי מזג האוויר והאנרגיה.",
       days: "ימים", routeStops: "תחנות במסלולים", recommendations: "המלצות אוכל וקניות", languages: "שפות",
       day: "יום", distance: "הליכה", dayLength: "משך מומלץ", start: "שעת התחלה", stops: "תחנות",
-      navigateDay: "פתחו את כל היום ב־Google Maps", fitDay: "הציגו את כל המסלול", todayAdvice: "המלצת היום",
+      navigateDay: "פתחו את כל היום ב־Google Maps", fitDay: "הציגו את כל המסלול", swipeDays: "החליקו ימינה או שמאלה כדי לעבור בין הימים", todayAdvice: "המלצת היום",
       orientation: "התמצאות מהירה", mapTitle: "המפה של היום", mapNote: "הקו מציג את סדר התחנות. כפתור הניווט פותח מסלול מותאם לרחובות ב־Google Maps.",
       byOrder: "לפי הסדר", dailySchedule: "לוח היום והתחנות", atAGlance: "במבט אחד", suggestedSchedule: "לוח זמנים מוצע",
       goodToKnow: "כדאי לדעת", flexibility: "גמישות בלי לפספס", betweenStops: "בין התחנות", foodShopping: "אוכל, קפה, קינוחים וקניות",
@@ -52,7 +51,7 @@
       smartTip: "How to use the route", smartTipBody: "Choose a day, open a stop on the map and navigate. Swap days according to weather and energy.",
       days: "days", routeStops: "route stops", recommendations: "food and shopping picks", languages: "languages",
       day: "Day", distance: "walking", dayLength: "recommended length", start: "start time", stops: "stops",
-      navigateDay: "Open the full day in Google Maps", fitDay: "Show the full route", todayAdvice: "Today’s advice",
+      navigateDay: "Open the full day in Google Maps", fitDay: "Show the full route", swipeDays: "Swipe left or right to move between days", todayAdvice: "Today’s advice",
       orientation: "Quick orientation", mapTitle: "Today’s map", mapNote: "The line shows stop order. The navigation button opens a street-aware route in Google Maps.",
       byOrder: "In order", dailySchedule: "Schedule and stops", atAGlance: "At a glance", suggestedSchedule: "Suggested schedule",
       goodToKnow: "Good to know", flexibility: "Stay flexible without missing out", betweenStops: "Between stops", foodShopping: "Food, coffee, desserts and shopping",
@@ -73,7 +72,7 @@
       smartTip: "Jak korzystać z trasy", smartTipBody: "Wybierzcie dzień, otwórzcie punkt na mapie i uruchomcie nawigację. Dni można zamieniać zależnie od pogody i energii.",
       days: "dni", routeStops: "punktów trasy", recommendations: "poleceń jedzenia i zakupów", languages: "języki",
       day: "Dzień", distance: "spacer", dayLength: "zalecany czas", start: "początek", stops: "punkty",
-      navigateDay: "Otwórz cały dzień w Google Maps", fitDay: "Pokaż całą trasę", todayAdvice: "Wskazówka dnia",
+      navigateDay: "Otwórz cały dzień w Google Maps", fitDay: "Pokaż całą trasę", swipeDays: "Przesuń w lewo lub w prawo, aby zmienić dzień", todayAdvice: "Wskazówka dnia",
       orientation: "Szybka orientacja", mapTitle: "Mapa dnia", mapNote: "Linia pokazuje kolejność punktów. Nawigacja otwiera trasę ulicami w Google Maps.",
       byOrder: "Po kolei", dailySchedule: "Plan dnia i punkty", atAGlance: "W skrócie", suggestedSchedule: "Proponowany harmonogram",
       goodToKnow: "Warto wiedzieć", flexibility: "Elastycznie, bez pomijania", betweenStops: "Między punktami", foodShopping: "Jedzenie, kawa, desery i zakupy",
@@ -97,10 +96,12 @@
   ui.de = translateUi(ui.en, "de");
   ui.cs = translateUi(ui.en, "cs");
   Object.assign(ui.de, {
+    swipeDays: "Wischen Sie nach links oder rechts, um den Tag zu wechseln",
     facebookPost: "Facebook-Beitrag lesen", instagramPost: "Instagram-Beitrag ansehen", photoGallery: "Fotogalerie öffnen", videoGallery: "Videos öffnen",
     closeGallery: "Galerie schließen", previousPhoto: "Vorheriges Foto", nextPhoto: "Nächstes Foto", galleryPhoto: "Foto", galleryOf: "von", closeVideo: "Videoplayer schließen"
   });
   Object.assign(ui.cs, {
+    swipeDays: "Přejetím doleva nebo doprava změníte den",
     facebookPost: "Přečíst příspěvek na Facebooku", instagramPost: "Zobrazit příspěvek na Instagramu", photoGallery: "Otevřít fotogalerii", videoGallery: "Otevřít videa",
     closeGallery: "Zavřít galerii", previousPhoto: "Předchozí fotografie", nextPhoto: "Další fotografie", galleryPhoto: "Fotografie", galleryOf: "z", closeVideo: "Zavřít přehrávač videa"
   });
@@ -427,9 +428,11 @@
     document.getElementById("map-legend").innerHTML = categories.map((category) => `<span><i style="--legend-color:${categoryColors[category]}"></i>${escapeHtml(t(`categories.${category}`))}</span>`).join("");
   }
 
-  function fitDay() {
+  function fitDay({ scroll = false } = {}) {
     if (!map || !routeLine) return;
+    map.invalidateSize();
     map.fitBounds(routeLine.getBounds(), { padding: [36, 36] });
+    if (scroll) document.getElementById("premium-map").scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
   function showStop(id) {
@@ -480,9 +483,8 @@
     const dayButton = event.target.closest("[data-day]");
     if (dayButton) {
       activeDay = Number(dayButton.dataset.day);
-      localStorage.setItem(dayStorageKey, String(activeDay));
       render();
-      document.getElementById("route-content").scrollIntoView({ behavior: "smooth", block: "start" });
+      document.querySelector(".premium-map-section").scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
     const showButton = event.target.closest("[data-show-stop]");
@@ -517,8 +519,7 @@
     if (activeGallery && event.key === "ArrowRight") moveGallery(document.documentElement.dir === "rtl" ? -1 : 1);
   });
 
-  document.getElementById("fit-day").addEventListener("click", fitDay);
-  document.getElementById("back-to-top").addEventListener("click", () => document.getElementById("day-nav").scrollIntoView({ behavior: "smooth" }));
+  document.getElementById("fit-day").addEventListener("click", () => fitDay({ scroll: true }));
   await window.WROC_CAMPAIGN_ACCESS.authorize(language);
   ensureResourceModals();
   render();
