@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="preconnect" href="https://tile.openstreetmap.org" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    <link rel="stylesheet" href="/map-styles.css?v=20260808-7" />
+    <link rel="stylesheet" href="/map-styles.css?v=20260811-1" />
+    <link rel="stylesheet" href="/site-actions.css?v=20260811-1" />
   </head>
   <body>
     <a class="skip-link" href="#route-list" data-i18n="skipToRoute">דלגו למסלול</a>
@@ -31,8 +32,8 @@
             <button type="button" class="language-button" data-lang="de">Deutsch</button>
             <button type="button" class="language-button" data-lang="cs">Čeština</button>
           </div>
-          <button type="button" class="icon-button" id="share-button" data-i18n-aria="shareMap" aria-label="שתפו את המפה">↗</button>
-          <button type="button" class="icon-button" id="print-button" data-i18n-aria="printMap" aria-label="הדפס או שמור כ־PDF">⎙</button>
+          <button type="button" class="icon-button" id="share-button" data-i18n-aria="shareMap" aria-label="שתפו את המפה"></button>
+          <button type="button" class="icon-button" id="print-button" data-i18n-aria="printMap" aria-label="הדפס או שמור כ־PDF"></button>
         </div>
       </nav>
 
@@ -166,5 +167,6 @@
     <script src="/data/location-media.js?v=20260808-10"></script>
     <script src="/data/locations.js?v=20260809-1"></script>
     <script src="/app.js?v=20260808-7"></script>
+    <script src="/site-actions.js?v=20260811-1" defer></script>
   </body>
 </html>
