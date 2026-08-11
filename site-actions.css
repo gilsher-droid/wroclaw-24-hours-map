@@ -134,6 +134,15 @@ footer a[data-social-enhanced] {
     width: 100%;
     justify-content: center;
   }
-  .site-product-menu summary { min-height: 38px; }
-  .site-product-menu-panel { inset-inline-start: 50%; transform: translateX(-50%); }
+  .site-product-menu { width: 100%; }
+  .site-product-menu summary {
+    min-height: 38px;
+    margin-inline: auto;
+  }
+  .site-product-menu-panel {
+    width: min(330px, 100%);
+    inset-inline: 0;
+    margin-inline: auto;
+    transform: none;
+  }
 }
