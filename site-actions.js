@@ -64,8 +64,20 @@
 
   function enhanceExistingSocialLinks() {
     document.querySelectorAll('a[href*="facebook.com"], a[href*="instagram.com"]').forEach((link) => {
-      if (link.closest(".site-social-follow") || link.dataset.socialEnhanced || link.querySelector(".brand-icon, .site-social-icon")) return;
+      if (link.closest(".site-social-follow")) return;
       const kind = link.href.includes("instagram.com") ? "instagram" : "facebook";
+      const brandIcon = link.querySelector(".brand-icon");
+      const enhancedIcons = [...link.querySelectorAll(".site-social-icon")];
+      if (brandIcon) {
+        enhancedIcons.forEach((icon) => icon.remove());
+        link.dataset.socialEnhanced = "true";
+        return;
+      }
+      if (enhancedIcons.length) {
+        enhancedIcons.slice(1).forEach((icon) => icon.remove());
+        link.dataset.socialEnhanced = "true";
+        return;
+      }
       link.insertAdjacentHTML("afterbegin", socialIcon(kind));
       link.dataset.socialEnhanced = "true";
     });
