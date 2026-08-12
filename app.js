@@ -249,6 +249,7 @@
     window.requestAnimationFrame(() => {
       map.invalidateSize({ pan: false });
       fitRoute();
+      document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
     });
   }
 
