@@ -246,7 +246,10 @@
 
   function showEntireRoute() {
     if (activeCategory !== "all") applyFilter("all");
-    fitRoute();
+    window.requestAnimationFrame(() => {
+      map.invalidateSize({ pan: false });
+      fitRoute();
+    });
   }
 
   function renderRouteList() {

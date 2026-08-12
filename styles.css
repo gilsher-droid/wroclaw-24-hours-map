@@ -166,9 +166,11 @@ nav {
 }
 .products-menu-panel a {
   display: block;
+  min-width: 0;
   padding: 11px 12px;
   border-radius: 10px;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 .products-menu-panel a:hover,
 .products-menu-panel a:focus-visible { background: rgba(36, 119, 189, .09); }
@@ -252,6 +254,7 @@ h1 em {
 }
 
 .product-shortcuts .button { min-height: 58px; text-align: center; }
+.product-shortcuts .button { min-width: 0; overflow-wrap: anywhere; }
 
 .button {
   min-height: 52px;
@@ -652,6 +655,7 @@ h2 {
 }
 
 .premium-layout {
+  min-width: 0;
   display: grid;
   grid-template-columns: 1fr 390px;
   align-items: start;
@@ -659,12 +663,14 @@ h2 {
 }
 
 .days-grid {
+  min-width: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
 }
 
 .day-card {
+  min-width: 0;
   min-height: 250px;
   padding: 30px;
   border: 1px solid var(--line);
@@ -690,14 +696,18 @@ h2 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 25px;
   line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .day-card p {
+  min-width: 0;
   color: var(--muted);
   line-height: 1.7;
+  overflow-wrap: anywhere;
 }
 
 .price-card {
+  min-width: 0;
   padding: 32px;
   position: sticky;
   top: 20px;
@@ -717,16 +727,21 @@ h2 {
 }
 
 .price {
+  min-width: 0;
   margin: 20px 0 4px;
   display: flex;
   align-items: baseline;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .price strong {
+  min-width: 0;
+  max-width: 100%;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 74px;
   line-height: 1;
+  overflow-wrap: anywhere;
 }
 
 .price span { font-size: 24px; }
@@ -947,7 +962,15 @@ footer a { color: var(--sky); font-weight: 800; }
   .site-header .brand,
   .site-header .site-language-switcher--header { justify-self: center; }
   .site-header nav { justify-content: center; }
-  .products-menu-panel { inset-inline-start: auto; left: 50%; transform: translateX(-50%); }
+  .products-menu { width: 100%; }
+  .products-menu summary { width: max-content; max-width: 100%; margin-inline: auto; }
+  .products-menu-panel {
+    width: min(330px, calc(100vw - 28px));
+    inset-inline-start: auto;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .brand small { display: none; }
   .hero { width: min(100% - 28px, 1180px); min-height: auto; padding: 50px 0 72px; gap: 48px; }
   h1 { font-size: 47px; }
@@ -971,6 +994,7 @@ footer a { color: var(--sky); font-weight: 800; }
   .steps { grid-template-columns: 1fr; }
   .day-card { min-height: auto; }
   .price-card { padding: 26px; }
+  .price strong { font-size: clamp(42px, 13vw, 74px); }
   footer { align-items: flex-start; flex-direction: column; }
 }
 

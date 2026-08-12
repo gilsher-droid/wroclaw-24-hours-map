@@ -1665,6 +1665,272 @@
       "cs"
     ]
   },
+  "church-of-peace-swidnica": {
+    "id": "church-of-peace-swidnica",
+    "localName": "Kościół Pokoju w Świdnicy",
+    "name": {
+      "he": "כנסיית השלום בשווידניצה",
+      "en": "Church of Peace in Świdnica",
+      "pl": "Kościół Pokoju w Świdnicy",
+      "de": "Friedenskirche in Świdnica",
+      "cs": "Kostel míru ve Svídnici"
+    },
+    "description": {
+      "he": "אחד המקומות המיוחדים בשלזיה התחתונה: כנסיית עץ מרשימה שמבחוץ נראית כמעט צנועה, ובפנים נפתחת לחלל עשיר, מפורט ומפתיע. הכנסייה היא חלק מאתר המורשת העולמית של אונסק״ו ומצדיקה נסיעה לשווידניצה בזכות האדריכלות, ההיסטוריה והאווירה השקטה שלה.",
+      "en": "One of Lower Silesia’s most distinctive places: an impressive timber church that seems almost modest outside, then opens into a richly detailed and surprising interior. Part of a UNESCO World Heritage site, it is worth the journey to Świdnica for its architecture, history and calm atmosphere.",
+      "pl": "Jedno z najbardziej wyjątkowych miejsc na Dolnym Śląsku: imponujący drewniany kościół, który z zewnątrz wydaje się niemal skromny, a wewnątrz zachwyca bogactwem detali. Obiekt wpisany na Listę Światowego Dziedzictwa UNESCO jest wart podróży do Świdnicy ze względu na architekturę, historię i spokojną atmosferę.",
+      "de": "Einer der außergewöhnlichsten Orte Niederschlesiens: eine beeindruckende Holzkirche, die außen beinahe schlicht wirkt und innen einen reich ausgestatteten, überraschenden Raum eröffnet. Als Teil des UNESCO-Welterbes lohnt sie die Fahrt nach Świdnica wegen ihrer Architektur, Geschichte und ruhigen Atmosphäre.",
+      "cs": "Jedno z nejvýjimečnějších míst Dolního Slezska: působivý dřevěný kostel, který zvenku působí téměř skromně, ale uvnitř překvapí bohatstvím detailů. Jako součást světového dědictví UNESCO stojí za cestu do Svídnice díky architektuře, historii a klidné atmosféře."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "swidnica",
+      "coordinates": {
+        "lat": 50.8465028,
+        "lng": 16.4918111
+      },
+      "address": {
+        "street": "plac Pokoju 6",
+        "postalCode": "58-100",
+        "city": "Świdnica",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark",
+      "religious-heritage",
+      "unesco-world-heritage",
+      "wooden-architecture"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "kosciol-pokoju-swidnica",
+      "peace-church-swidnica"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "high",
+    "taxonomy": {
+      "categories": [
+        "historical-landmark",
+        "religious-heritage",
+        "unesco-world-heritage",
+        "wooden-architecture"
+      ],
+      "tags": [
+        "culture",
+        "history",
+        "architecture",
+        "religious-heritage",
+        "wooden-architecture",
+        "unesco",
+        "photography",
+        "contemplative",
+        "lower-silesia",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [
+        "culture-lovers",
+        "history-lovers",
+        "architecture-lovers",
+        "couples",
+        "adults",
+        "photographers"
+      ],
+      "walkingIntensity": "low",
+      "familyFriendly": true,
+      "couples": true,
+      "solo": null,
+      "romantic": false,
+      "indoorOutdoor": "both",
+      "rainFriendly": "partial",
+      "budgetLevel": null,
+      "accessibility": {
+        "level": "unknown",
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": 60,
+      "bestTimeOfDay": [
+        "morning",
+        "afternoon"
+      ],
+      "seasonalSuitability": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://kosciolpokoju.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.8465028%2C16.4918111",
+        "appleMaps": "https://maps.apple.com/?ll=50.8465028,16.4918111&q=Ko%C5%9Bci%C3%B3%C5%82%20Pokoju%20w%20%C5%9Awidnicy"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "timber-church-and-interior",
+        "tags": [
+          "cultural",
+          "historical",
+          "architectural",
+          "contemplative",
+          "unique"
+        ],
+        "accessibility": {
+          "level": "unknown",
+          "notes": null
+        }
+      }
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalContent": true,
+      "originalPhotography": true,
+      "originalVideo": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://kosciolpokoju.pl/",
+          "checkedAt": "2026-08-12"
+        },
+        {
+          "type": "address",
+          "url": "https://kosciolpokoju.pl/kontakt/",
+          "checkedAt": "2026-08-12"
+        },
+        {
+          "type": "unesco",
+          "url": "https://whc.unesco.org/en/list/1054/",
+          "checkedAt": "2026-08-12"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://whc.unesco.org/en/list/1054/maps/",
+          "checkedAt": "2026-08-12",
+          "note": "50°50′47.41″N, 16°29′30.52″E"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/church-of-peace-swidnica-01.jpg",
+        "/assets/church-of-peace-swidnica-02.jpg",
+        "/assets/church-of-peace-swidnica-03.jpg",
+        "/assets/church-of-peace-swidnica-04.jpg",
+        "/assets/church-of-peace-swidnica-05.jpg",
+        "/assets/church-of-peace-swidnica-06.jpg",
+        "/assets/church-of-peace-swidnica-07.jpg",
+        "/assets/church-of-peace-swidnica-08.jpg",
+        "/assets/church-of-peace-swidnica-09.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/church-of-peace-swidnica-01.jpg": {
+          "tags": [
+            "church-exterior",
+            "wooden-architecture",
+            "heritage",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true
+        },
+        "/assets/church-of-peace-swidnica-02.jpg": {
+          "tags": [
+            "church-interior",
+            "religious-art",
+            "heritage"
+          ],
+          "original": true
+        },
+        "/assets/church-of-peace-swidnica-03.jpg": {
+          "tags": [
+            "church-interior",
+            "wooden-architecture",
+            "religious-art"
+          ],
+          "original": true
+        },
+        "/assets/church-of-peace-swidnica-04.jpg": {
+          "tags": [
+            "church-exterior",
+            "wooden-architecture",
+            "swidnica"
+          ],
+          "original": true
+        },
+        "/assets/church-of-peace-swidnica-05.jpg": {
+          "tags": [
+            "church-interior",
+            "architecture",
+            "heritage"
+          ],
+          "original": true
+        },
+        "/assets/church-of-peace-swidnica-06.jpg": {
+          "tags": [
+            "church-interior",
+            "religious-art",
+            "architecture"
+          ],
+          "original": true
+        },
+        "/assets/church-of-peace-swidnica-07.jpg": {
+          "tags": [
+            "church-exterior",
+            "heritage",
+            "lower-silesia"
+          ],
+          "original": true
+        },
+        "/assets/church-of-peace-swidnica-08.jpg": {
+          "tags": [
+            "church-interior",
+            "heritage",
+            "architecture"
+          ],
+          "original": true
+        },
+        "/assets/church-of-peace-swidnica-09.jpg": {
+          "tags": [
+            "church-exterior",
+            "wooden-architecture",
+            "lower-silesia"
+          ],
+          "original": true
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/groups/2525899074519424/posts/2533682413741090/"
+      }
+    ]
+  },
   "dinette": {
     "id": "dinette",
     "localName": "Dinette",
@@ -10496,7 +10762,9 @@
   "ostrow-cathedral": "ostrow",
   "christmas-market": "rynek",
   "kapielisko-morskie-oko-wroclaw": "morskie-oko-wroclaw",
-  "olympic-stadium-wroclaw": "stadion-olimpijski-wroclaw"
+  "olympic-stadium-wroclaw": "stadion-olimpijski-wroclaw",
+  "kosciol-pokoju-swidnica": "church-of-peace-swidnica",
+  "peace-church-swidnica": "church-of-peace-swidnica"
 };
   const relatedPlaces = {
   "ostrow-cathedral": [

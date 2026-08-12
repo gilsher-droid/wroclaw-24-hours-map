@@ -52,7 +52,7 @@
   gap: 3px;
   white-space: normal;
 }
-.site-product-menu-panel a { padding: 10px 12px; border-radius: 10px; color: #062b5c; line-height: 1.35; text-decoration: none; }
+.site-product-menu-panel a { min-width: 0; padding: 10px 12px; border-radius: 10px; color: #062b5c; line-height: 1.35; overflow-wrap: anywhere; text-decoration: none; }
 .site-product-menu-panel a:hover,
 .site-product-menu-panel a:focus-visible { background: #eef5fa; outline: none; }
 .topbar .site-product-navigation { color: #fff; }
@@ -140,9 +140,11 @@ footer a[data-social-enhanced] {
     margin-inline: auto;
   }
   .site-product-menu-panel {
-    width: min(330px, 100%);
-    inset-inline: 0;
-    margin-inline: auto;
-    transform: none;
+    width: min(330px, calc(100vw - 28px));
+    inset-inline-start: auto;
+    right: auto;
+    left: 50%;
+    margin-inline: 0;
+    transform: translateX(-50%);
   }
 }
