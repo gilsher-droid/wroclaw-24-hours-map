@@ -28,7 +28,7 @@
       eyebrow: "וורוצלב בקצב שמתאים לכן", title: "ארבעה ימים. עיר אחת. בלי לבזבז זמן על תכנון.",
       subtitle: "מסלול לביקור ראשון עבור הורים וילדים מתבגרים: כל יום באזור אחד, עם סדר ברור, מפה חיה, ניווט והמלצות שמתאימות לקצב אמיתי.",
       smartTip: "איך משתמשים במסלול", smartTipBody: "בחרו יום, פתחו תחנה במפה וצאו לניווט. אפשר להחליף בין הימים לפי מזג האוויר והאנרגיה.",
-      days: "ימים", routeStops: "תחנות במסלולים", recommendations: "המלצות אוכל וקניות", languages: "שפות",
+      days: "ימים", routeStops: "תחנות במסלולים", recommendations: "המלצות אוכל, קניות ופנאי", languages: "שפות",
       day: "יום", distance: "הליכה", dayLength: "משך מומלץ", start: "שעת התחלה", stops: "תחנות",
       navigateDay: "פתחו את כל היום ב־Google Maps", fitDay: "הציגו את כל המסלול", swipeDays: "החליקו ימינה או שמאלה כדי לעבור בין הימים", todayAdvice: "המלצת היום",
       orientation: "התמצאות מהירה", mapTitle: "המפה של היום", mapNote: "הקו מציג את סדר התחנות. כפתור הניווט פותח מסלול מותאם לרחובות ב־Google Maps.",
@@ -38,7 +38,7 @@
       joinFacebookGroup: "הצטרפו לקבוצת הפייסבוק", visitFacebookPage: "בקרו בדף העסקי", followInstagram: "עקבו אחרינו באינסטגרם",
       savePhone: "שמרו את הדף בטלפון", closing: "כל ארבעת הימים, המפות והניווט זמינים כרגע ללא תשלום.", backTop: "חזרה לבחירת יום",
       optional: "רשות", recommended: "מומלץ", duration: "זמן במקום", showMap: "הציגו במפה", navigate: "ניווט", bestFor: "מתאים במיוחד ליום",
-      all: "הכול", cafe: "קפה", dessert: "קינוחים", food: "אוכל", shopping: "קניות", mapUnavailable: "המפה לא נטענה. קישורי הניווט עדיין זמינים.",
+      all: "הכול", cafe: "קפה", dessert: "קינוחים", food: "אוכל", shopping: "קניות", activity: "בילוי ופנאי", mapUnavailable: "המפה לא נטענה. קישורי הניווט עדיין זמינים.",
       categories: { main: "נקודת פתיחה", special: "חוויה מיוחדת", architecture: "אדריכלות", viewpoint: "תצפית", culture: "תרבות", river: "נהר", nature: "טבע", shopping: "קניות", food: "אוכל" },
       facebookPost: "קראו את הפוסט בפייסבוק", instagramPost: "צפו בפוסט באינסטגרם", photoGallery: "פתחו את גלריית התמונות", videoGallery: "פתחו את הסרטונים",
       closeGallery: "סגירת הגלריה", previousPhoto: "התמונה הקודמת", nextPhoto: "התמונה הבאה", galleryPhoto: "תמונה", galleryOf: "מתוך", closeVideo: "סגירת נגן הווידאו"
@@ -49,7 +49,7 @@
       eyebrow: "Wrocław at your pace", title: "Four days. One city. No wasted planning time.",
       subtitle: "A first-visit route for parents and teenagers: one convenient area each day, with a clear order, live map, navigation and realistic recommendations.",
       smartTip: "How to use the route", smartTipBody: "Choose a day, open a stop on the map and navigate. Swap days according to weather and energy.",
-      days: "days", routeStops: "route stops", recommendations: "food and shopping picks", languages: "languages",
+      days: "days", routeStops: "route stops", recommendations: "food, shopping and leisure picks", languages: "languages",
       day: "Day", distance: "walking", dayLength: "recommended length", start: "start time", stops: "stops",
       navigateDay: "Open the full day in Google Maps", fitDay: "Show the full route", swipeDays: "Swipe left or right to move between days", todayAdvice: "Today’s advice",
       orientation: "Quick orientation", mapTitle: "Today’s map", mapNote: "The line shows stop order. The navigation button opens a street-aware route in Google Maps.",
@@ -59,7 +59,7 @@
       joinFacebookGroup: "Join the Facebook group", visitFacebookPage: "Visit our Facebook page", followInstagram: "Follow us on Instagram",
       savePhone: "Save this page on your phone", closing: "All four days, maps and navigation are currently available free of charge.", backTop: "Back to day selection",
       optional: "Optional", recommended: "Recommended", duration: "Time here", showMap: "Show on map", navigate: "Navigate", bestFor: "Best with Day",
-      all: "All", cafe: "Coffee", dessert: "Desserts", food: "Food", shopping: "Shopping", mapUnavailable: "The map could not load. Navigation links are still available.",
+      all: "All", cafe: "Coffee", dessert: "Desserts", food: "Food", shopping: "Shopping", activity: "Leisure", mapUnavailable: "The map could not load. Navigation links are still available.",
       categories: { main: "Starting point", special: "Special", architecture: "Architecture", viewpoint: "Viewpoint", culture: "Culture", river: "River", nature: "Nature", shopping: "Shopping", food: "Food" },
       facebookPost: "Read the Facebook post", instagramPost: "View the Instagram post", photoGallery: "Open the photo gallery", videoGallery: "Open the videos",
       closeGallery: "Close the gallery", previousPhoto: "Previous photo", nextPhoto: "Next photo", galleryPhoto: "Photo", galleryOf: "of", closeVideo: "Close the video player"
@@ -70,7 +70,7 @@
       eyebrow: "Wrocław w Waszym tempie", title: "Cztery dni. Jedno miasto. Bez tracenia czasu na planowanie.",
       subtitle: "Trasa na pierwszy wyjazd dla rodziców i nastolatków: codziennie jeden wygodny obszar, jasna kolejność, mapa, nawigacja i praktyczne rekomendacje.",
       smartTip: "Jak korzystać z trasy", smartTipBody: "Wybierzcie dzień, otwórzcie punkt na mapie i uruchomcie nawigację. Dni można zamieniać zależnie od pogody i energii.",
-      days: "dni", routeStops: "punktów trasy", recommendations: "poleceń jedzenia i zakupów", languages: "języki",
+      days: "dni", routeStops: "punktów trasy", recommendations: "poleceń jedzenia, zakupów i rekreacji", languages: "języki",
       day: "Dzień", distance: "spacer", dayLength: "zalecany czas", start: "początek", stops: "punkty",
       navigateDay: "Otwórz cały dzień w Google Maps", fitDay: "Pokaż całą trasę", swipeDays: "Przesuń w lewo lub w prawo, aby zmienić dzień", todayAdvice: "Wskazówka dnia",
       orientation: "Szybka orientacja", mapTitle: "Mapa dnia", mapNote: "Linia pokazuje kolejność punktów. Nawigacja otwiera trasę ulicami w Google Maps.",
@@ -80,7 +80,7 @@
       joinFacebookGroup: "Dołącz do grupy na Facebooku", visitFacebookPage: "Odwiedź naszą stronę na Facebooku", followInstagram: "Obserwuj nas na Instagramie",
       savePhone: "Zapiszcie stronę w telefonie", closing: "Wszystkie cztery dni, mapy i nawigacja są obecnie dostępne bezpłatnie.", backTop: "Wróć do wyboru dnia",
       optional: "Opcjonalnie", recommended: "Polecane", duration: "Czas na miejscu", showMap: "Pokaż na mapie", navigate: "Nawiguj", bestFor: "Najlepsze w dniu",
-      all: "Wszystko", cafe: "Kawa", dessert: "Desery", food: "Jedzenie", shopping: "Zakupy", mapUnavailable: "Mapa nie została załadowana. Linki nawigacyjne nadal działają.",
+      all: "Wszystko", cafe: "Kawa", dessert: "Desery", food: "Jedzenie", shopping: "Zakupy", activity: "Rekreacja", mapUnavailable: "Mapa nie została załadowana. Linki nawigacyjne nadal działają.",
       categories: { main: "Początek", special: "Wyjątkowe", architecture: "Architektura", viewpoint: "Widok", culture: "Kultura", river: "Rzeka", nature: "Natura", shopping: "Zakupy", food: "Jedzenie" },
       facebookPost: "Przeczytaj post na Facebooku", instagramPost: "Zobacz post na Instagramie", photoGallery: "Otwórz galerię zdjęć", videoGallery: "Otwórz filmy",
       closeGallery: "Zamknij galerię", previousPhoto: "Poprzednie zdjęcie", nextPhoto: "Następne zdjęcie", galleryPhoto: "Zdjęcie", galleryOf: "z", closeVideo: "Zamknij odtwarzacz wideo"
@@ -96,11 +96,13 @@
   ui.de = translateUi(ui.en, "de");
   ui.cs = translateUi(ui.en, "cs");
   Object.assign(ui.de, {
+    recommendations: "Empfehlungen für Essen, Einkaufen und Freizeit", activity: "Freizeit",
     swipeDays: "Wischen Sie nach links oder rechts, um den Tag zu wechseln",
     facebookPost: "Facebook-Beitrag lesen", instagramPost: "Instagram-Beitrag ansehen", photoGallery: "Fotogalerie öffnen", videoGallery: "Videos öffnen",
     closeGallery: "Galerie schließen", previousPhoto: "Vorheriges Foto", nextPhoto: "Nächstes Foto", galleryPhoto: "Foto", galleryOf: "von", closeVideo: "Videoplayer schließen"
   });
   Object.assign(ui.cs, {
+    recommendations: "tipů na jídlo, nákupy a volný čas", activity: "Volný čas",
     swipeDays: "Přejetím doleva nebo doprava změníte den",
     facebookPost: "Přečíst příspěvek na Facebooku", instagramPost: "Zobrazit příspěvek na Instagramu", photoGallery: "Otevřít fotogalerii", videoGallery: "Otevřít videa",
     closeGallery: "Zavřít galerii", previousPhoto: "Předchozí fotografie", nextPhoto: "Další fotografie", galleryPhoto: "Fotografie", galleryOf: "z", closeVideo: "Zavřít přehrávač videa"
@@ -112,7 +114,8 @@
 
   const categoryColors = {
     main: "#dca94f", special: "#7b61a8", architecture: "#062b5c", viewpoint: "#7b61a8",
-    culture: "#2477bd", river: "#55a8d8", nature: "#4f8a71", shopping: "#b76791", food: "#d2764f"
+    culture: "#2477bd", river: "#55a8d8", nature: "#4f8a71", shopping: "#b76791", food: "#d2764f",
+    activity: "#4f8a71"
   };
 
   function text(value) {
@@ -444,7 +447,7 @@
   }
 
   function renderRecommendationFilters() {
-    const categories = ["all", "cafe", "dessert", "food", "shopping"];
+    const categories = ["all", "cafe", "dessert", "food", "shopping", "activity"];
     document.getElementById("recommendation-filters").innerHTML = categories.map((category) => `
       <button type="button" data-rec-filter="${category}" class="${recommendationFilter === category ? "active" : ""}" aria-pressed="${recommendationFilter === category}">${escapeHtml(t(category))}</button>`).join("");
   }

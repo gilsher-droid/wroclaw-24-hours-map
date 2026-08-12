@@ -1750,8 +1750,14 @@
       "rainFriendly": "partial",
       "budgetLevel": null,
       "accessibility": {
-        "level": "unknown",
-        "notes": null
+        "level": "partial",
+        "notes": {
+          "he": "הגישה למתחם אפשרית, אך משטחים היסטוריים ותנאי הכניסה עשויים להשתנות; מומלץ לברר ישירות לפני הביקור.",
+          "en": "The site can be accessed, but historic surfaces and entry conditions may vary; confirm directly before visiting.",
+          "pl": "Dostęp do obiektu jest możliwy, ale historyczne nawierzchnie i warunki wejścia mogą się różnić; warto potwierdzić je przed wizytą.",
+          "de": "Das Gelände ist zugänglich, historische Oberflächen und Zugangsbedingungen können jedoch variieren; bitte vor dem Besuch direkt nachfragen.",
+          "cs": "Areál je přístupný, historické povrchy a podmínky vstupu se však mohou lišit; před návštěvou je ověřte přímo."
+        }
       }
     },
     "visit": {
@@ -1799,8 +1805,8 @@
           "unique"
         ],
         "accessibility": {
-          "level": "unknown",
-          "notes": null
+          "level": "partial",
+          "notes": "See place accessibility notes."
         }
       }
     ],
@@ -1928,6 +1934,10 @@
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/groups/2525899074519424/posts/2533682413741090/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/"
       }
     ]
   },
@@ -6079,6 +6089,7 @@
       }
     },
     "categories": [
+      "activity",
       "family-activity",
       "lake",
       "swimming",
@@ -6088,12 +6099,26 @@
     "aliases": [
       "kapielisko-morskie-oko-wroclaw"
     ],
-    "sourceRecords": [],
-    "coordinateCandidates": [],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "recommendation",
+        "sourceId": "morskie-oko-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "wroclaw-four-days",
+        "sourceId": "morskie-oko-wroclaw",
+        "lat": 51.1178,
+        "lng": 17.0804
+      }
+    ],
     "status": "published",
     "editorialPriority": "medium",
     "taxonomy": {
       "categories": [
+        "activity",
         "family-activity",
         "lake",
         "swimming",
@@ -9186,6 +9211,7 @@
       }
     },
     "categories": [
+      "activity",
       "architecture",
       "historical-landmark",
       "sports-complex",
@@ -9195,12 +9221,26 @@
     "aliases": [
       "olympic-stadium-wroclaw"
     ],
-    "sourceRecords": [],
-    "coordinateCandidates": [],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "recommendation",
+        "sourceId": "stadion-olimpijski-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "wroclaw-four-days",
+        "sourceId": "stadion-olimpijski-wroclaw",
+        "lat": 51.1195926,
+        "lng": 17.0966604
+      }
+    ],
     "status": "published",
     "editorialPriority": "medium",
     "taxonomy": {
       "categories": [
+        "activity",
         "architecture",
         "historical-landmark",
         "sports-complex",
@@ -9919,6 +9959,158 @@
       "de",
       "cs"
     ]
+  },
+  "walbrzych-market-square": {
+    "id": "walbrzych-market-square",
+    "localName": "Rynek w Wałbrzychu",
+    "name": {
+      "he": "כיכר השוק של Wałbrzych",
+      "en": "Wałbrzych Market Square",
+      "pl": "Rynek w Wałbrzychu",
+      "de": "Marktplatz von Wałbrzych",
+      "cs": "Tržní náměstí ve Valbřichu"
+    },
+    "description": {
+      "he": "עצירה עירונית קצרה בכיכר ההיסטורית של Wałbrzych, המתאימה לקפה, הליכה והיכרות ראשונה עם העיר.",
+      "en": "A short urban stop in Wałbrzych’s historic market square for coffee, a walk and a first look at the city.",
+      "pl": "Krótki miejski przystanek na historycznym rynku Wałbrzycha — na kawę, spacer i pierwsze spotkanie z miastem.",
+      "de": "Ein kurzer Stadtstopp auf dem historischen Marktplatz von Wałbrzych – für Kaffee, einen Spaziergang und einen ersten Eindruck.",
+      "cs": "Krátká městská zastávka na historickém náměstí ve Valbřichu – na kávu, procházku a první seznámení s městem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "walbrzych",
+      "coordinates": {
+        "lat": 50.7662241,
+        "lng": 16.2829578
+      },
+      "address": {
+        "street": "Rynek",
+        "postalCode": "58-300",
+        "city": "Wałbrzych",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "city-center",
+      "historic-square"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "rynek-walbrzych",
+      "walbrzych-city-centre"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "medium",
+    "taxonomy": {
+      "categories": [
+        "city-center",
+        "historic-square"
+      ],
+      "tags": [
+        "city",
+        "history",
+        "architecture",
+        "coffee-break",
+        "lower-silesia",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [
+        "adults",
+        "couples",
+        "families"
+      ],
+      "walkingIntensity": "low",
+      "familyFriendly": true,
+      "couples": true,
+      "solo": null,
+      "romantic": false,
+      "indoorOutdoor": "outdoor",
+      "rainFriendly": "low",
+      "budgetLevel": null,
+      "accessibility": {
+        "level": "partial",
+        "notes": {
+          "he": "מרחב עירוני פתוח; שיפועים וריצוף היסטורי עשויים להשפיע על הנגישות.",
+          "en": "An open urban space; slopes and historic paving may affect accessibility.",
+          "pl": "Otwarta przestrzeń miejska; nachylenia i historyczna nawierzchnia mogą wpływać na dostępność.",
+          "de": "Offener Stadtraum; Gefälle und historisches Pflaster können die Zugänglichkeit beeinflussen.",
+          "cs": "Otevřený městský prostor; sklon a historická dlažba mohou ovlivnit přístupnost."
+        }
+      }
+    },
+    "visit": {
+      "durationMinutes": 50,
+      "bestTimeOfDay": [
+        "afternoon"
+      ],
+      "seasonalSuitability": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.7662241%2C16.2829578",
+        "appleMaps": "https://maps.apple.com/?ll=50.7662241,16.2829578&q=Rynek%20w%20Wa%C5%82brzychu"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "historic-market-square",
+        "tags": [
+          "city",
+          "architecture",
+          "coffee-break"
+        ],
+        "accessibility": {
+          "level": "partial",
+          "notes": "See place accessibility notes."
+        }
+      }
+    ],
+    "provenance": {
+      "contentType": "editorial-intake",
+      "personalVisit": false,
+      "originalContent": true,
+      "originalPhotography": false,
+      "originalVideo": false,
+      "factualSources": [
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/way/36818415",
+          "checkedAt": "2026-08-12"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "socialPosts": []
   },
   "wedel": {
     "id": "wedel",
@@ -10764,7 +10956,9 @@
   "kapielisko-morskie-oko-wroclaw": "morskie-oko-wroclaw",
   "olympic-stadium-wroclaw": "stadion-olimpijski-wroclaw",
   "kosciol-pokoju-swidnica": "church-of-peace-swidnica",
-  "peace-church-swidnica": "church-of-peace-swidnica"
+  "peace-church-swidnica": "church-of-peace-swidnica",
+  "walbrzych-city-centre": "walbrzych-market-square",
+  "rynek-walbrzych": "walbrzych-market-square"
 };
   const relatedPlaces = {
   "ostrow-cathedral": [
@@ -11018,6 +11212,19 @@
     "candidate": {
       "lat": 51.10802,
       "lng": 17.04086
+    }
+  },
+  {
+    "canonicalId": "morskie-oko-wroclaw",
+    "productId": "wroclaw-four-days",
+    "sourceId": "morskie-oko-wroclaw",
+    "selected": {
+      "lat": 51.1232536,
+      "lng": 17.0828961
+    },
+    "candidate": {
+      "lat": 51.1178,
+      "lng": 17.0804
     }
   },
   {
