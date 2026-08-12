@@ -16,7 +16,7 @@
     cs: { products: "Všechny produkty", how: "Jak to funguje", aria: "Navigace produktů" }
   };
   const productLinks = {
-    he: ["24 שעות בוורוצלב", "וורוצלב – המסלול המלא ל־4 ימים", "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים", "לאכול, לשתות, לקנות ולישון בוורוצלב", "טיולים בשלזיה התחתונה"],
+    he: ["24 שעות בוורוצלב", "וורוצלב – המסלול המלא ל־4 ימים", "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים", "לאכול, לשתות, לקנות ולישון בוורוצלב", "טיולים בשלזיה התחתית"],
     en: ["24 Hours in Wrocław", "Four Days in Wrocław", "Christmas in Wrocław", "Eat, drink, shop and stay", "Lower Silesia excursions"],
     pl: ["24 godziny we Wrocławiu", "Cztery dni we Wrocławiu", "Boże Narodzenie we Wrocławiu", "Jedzenie, napoje, zakupy i noclegi", "Wycieczki po Dolnym Śląsku"],
     de: ["24 Stunden in Wrocław", "Vier Tage in Wrocław", "Weihnachten in Wrocław", "Essen, Trinken, Einkaufen und Übernachten", "Ausflüge in Niederschlesien"],

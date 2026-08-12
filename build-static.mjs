@@ -59,7 +59,7 @@ await writeFile(resolve(client, "map.html"), legacyRedirect("/products/interacti
 await writeFile(resolve(client, "premium.html"), legacyRedirect("/products/interactive-maps/premium.html", "מסלול 4 ימים"));
 await writeFile(resolve(client, "moshe.html"), legacyRedirect("/products/interactive-maps/moshe.html", "מסלול כריסמס"));
 await writeFile(resolve(client, "lifestyle.html"), legacyRedirect("/products/interactive-maps/lifestyle.html", "לאכול, לשתות, לקנות ולישון"));
-await writeFile(resolve(client, "excursions.html"), legacyRedirect("/products/interactive-maps/excursions.html", "טיולים בשלזיה התחתונה"));
+await writeFile(resolve(client, "excursions.html"), legacyRedirect("/products/interactive-maps/excursions.html", "טיולים בשלזיה התחתית"));
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
 await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true });
 await writeFile(resolve(client, ".nojekyll"), "");

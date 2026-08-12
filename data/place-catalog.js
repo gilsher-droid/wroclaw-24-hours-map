@@ -1676,7 +1676,7 @@
       "cs": "Kostel míru ve Svídnici"
     },
     "description": {
-      "he": "אחד המקומות המיוחדים בשלזיה התחתונה: כנסיית עץ מרשימה שמבחוץ נראית כמעט צנועה, ובפנים נפתחת לחלל עשיר, מפורט ומפתיע. הכנסייה היא חלק מאתר המורשת העולמית של אונסק״ו ומצדיקה נסיעה לשווידניצה בזכות האדריכלות, ההיסטוריה והאווירה השקטה שלה.",
+      "he": "אחד המקומות המיוחדים בשלזיה התחתית: כנסיית עץ מרשימה שמבחוץ נראית כמעט צנועה, ובפנים נפתחת לחלל עשיר, מפורט ומפתיע. הכנסייה היא חלק מאתר המורשת העולמית של אונסק״ו ומצדיקה נסיעה לשווידניצה בזכות האדריכלות, ההיסטוריה והאווירה השקטה שלה.",
       "en": "One of Lower Silesia’s most distinctive places: an impressive timber church that seems almost modest outside, then opens into a richly detailed and surprising interior. Part of a UNESCO World Heritage site, it is worth the journey to Świdnica for its architecture, history and calm atmosphere.",
       "pl": "Jedno z najbardziej wyjątkowych miejsc na Dolnym Śląsku: imponujący drewniany kościół, który z zewnątrz wydaje się niemal skromny, a wewnątrz zachwyca bogactwem detali. Obiekt wpisany na Listę Światowego Dziedzictwa UNESCO jest wart podróży do Świdnicy ze względu na architekturę, historię i spokojną atmosferę.",
       "de": "Einer der außergewöhnlichsten Orte Niederschlesiens: eine beeindruckende Holzkirche, die außen beinahe schlicht wirkt und innen einen reich ausgestatteten, überraschenden Raum eröffnet. Als Teil des UNESCO-Welterbes lohnt sie die Fahrt nach Świdnica wegen ihrer Architektur, Geschichte und ruhigen Atmosphäre.",
