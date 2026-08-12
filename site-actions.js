@@ -16,13 +16,13 @@
     cs: { products: "Všechny produkty", how: "Jak to funguje", aria: "Navigace produktů" }
   };
   const productLinks = {
-    he: ["24 שעות בוורוצלב", "וורוצלב – המסלול המלא ל־4 ימים", "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים", "לאכול, לשתות, לקנות ולישון בוורוצלב"],
-    en: ["24 Hours in Wrocław", "Four Days in Wrocław", "Christmas in Wrocław", "Eat, drink, shop and stay"],
-    pl: ["24 godziny we Wrocławiu", "Cztery dni we Wrocławiu", "Boże Narodzenie we Wrocławiu", "Jedzenie, napoje, zakupy i noclegi"],
-    de: ["24 Stunden in Wrocław", "Vier Tage in Wrocław", "Weihnachten in Wrocław", "Essen, Trinken, Einkaufen und Übernachten"],
-    cs: ["24 hodin ve Vratislavi", "Čtyři dny ve Vratislavi", "Vánoce ve Vratislavi", "Jídlo, pití, nákupy a ubytování"]
+    he: ["24 שעות בוורוצלב", "וורוצלב – המסלול המלא ל־4 ימים", "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים", "לאכול, לשתות, לקנות ולישון בוורוצלב", "טיולים בשלזיה התחתונה"],
+    en: ["24 Hours in Wrocław", "Four Days in Wrocław", "Christmas in Wrocław", "Eat, drink, shop and stay", "Lower Silesia excursions"],
+    pl: ["24 godziny we Wrocławiu", "Cztery dni we Wrocławiu", "Boże Narodzenie we Wrocławiu", "Jedzenie, napoje, zakupy i noclegi", "Wycieczki po Dolnym Śląsku"],
+    de: ["24 Stunden in Wrocław", "Vier Tage in Wrocław", "Weihnachten in Wrocław", "Essen, Trinken, Einkaufen und Übernachten", "Ausflüge in Niederschlesien"],
+    cs: ["24 hodin ve Vratislavi", "Čtyři dny ve Vratislavi", "Vánoce ve Vratislavi", "Jídlo, pití, nákupy a ubytování", "Výlety po Dolním Slezsku"]
   };
-  const productPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html"];
+  const productPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html"];
   const facebookUrl = "https://www.facebook.com/profile.php?id=61591964083308";
   const instagramUrl = "https://www.instagram.com/wroclaw.lowersilesia/";
   const shareSvg = '<svg class="site-action-svg share" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"></path></svg>';

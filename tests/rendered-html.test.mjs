@@ -401,7 +401,7 @@ test("canonical catalog keeps stable aliases and personalization-ready metadata"
 });
 
 test("all map pages load the canonical catalog before product data", () => {
-  for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html"]) {
+  for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html"]) {
     const html = readFileSync(resolve(root, file), "utf8");
     const catalogIndex = html.indexOf("/data/place-catalog.js");
     const productIndex = Math.max(
@@ -409,6 +409,7 @@ test("all map pages load the canonical catalog before product data", () => {
       html.indexOf("/data/premium-route.js"),
       html.indexOf("/data/moshe-route.js"),
       html.indexOf("/data/lifestyle-places.js"),
+      html.indexOf("/data/lower-silesia-excursions.js"),
     );
     assert.ok(catalogIndex >= 0, `${file} should load the canonical catalog`);
     assert.ok(productIndex > catalogIndex, `${file} should load product data after the catalog`);

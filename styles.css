@@ -440,6 +440,7 @@ h1 em {
 .premium-section,
 .christmas-section,
 .lifestyle-section,
+.excursions-section,
 .how-section,
 .closing {
   padding: 104px max(20px, calc((100% - 1180px) / 2));
@@ -540,6 +541,31 @@ h2 {
 }
 
 .lifestyle-section .section-heading > p { color: var(--muted); }
+
+.excursions-section { background: var(--cream); }
+.excursions-section .section-heading > p { color: var(--muted); }
+.excursions-product {
+  display: grid;
+  grid-template-columns: 1fr 390px;
+  gap: 28px;
+}
+.excursions-foundation,
+.excursions-card {
+  min-width: 0;
+  padding: 34px;
+  border-radius: 26px;
+}
+.excursions-foundation {
+  border: 1px solid var(--line);
+  background: white;
+}
+.excursions-foundation > span { color: var(--gold); font-size: 13px; font-weight: 900; }
+.excursions-foundation > strong { margin: 18px 0 14px; display: block; font: 700 34px/1.2 Georgia, serif; }
+.excursions-foundation p { margin: 0; color: var(--muted); line-height: 1.7; }
+.excursions-card { background: var(--navy); color: white; display: flex; flex-direction: column; justify-content: center; }
+.excursions-card > span { color: #efc97e; font-weight: 900; }
+.excursions-card p { color: rgba(255,255,255,.72); line-height: 1.7; }
+.excursions-button { margin-top: 12px; background: var(--gold); color: var(--navy-deep); }
 
 .lifestyle-product {
   display: grid;
@@ -947,13 +973,26 @@ footer a { color: var(--sky); font-weight: 800; }
   .section-heading,
   .premium-layout,
   .christmas-product,
-  .lifestyle-product { grid-template-columns: 1fr; }
+  .lifestyle-product,
+  .excursions-product { grid-template-columns: 1fr; }
   .free-section { gap: 48px; }
   .section-heading { gap: 16px; }
   .price-card { position: static; }
 }
 
 @media (max-width: 640px) {
+  .section-heading > *,
+  .premium-layout > *,
+  .christmas-product > *,
+  .lifestyle-product > *,
+  .excursions-product > * { min-width: 0; max-width: 100%; }
+  .section-heading h2,
+  .section-heading p,
+  .price-card p,
+  .price-card li,
+  .christmas-card,
+  .lifestyle-card,
+  .excursions-card { overflow-wrap: anywhere; }
   .site-header { width: min(100% - 28px, 1180px); }
   .site-header {
     grid-template-columns: 1fr;
@@ -966,10 +1005,12 @@ footer a { color: var(--sky); font-weight: 800; }
   .products-menu summary { width: max-content; max-width: 100%; margin-inline: auto; }
   .products-menu-panel {
     width: min(330px, calc(100vw - 28px));
-    inset-inline-start: auto;
-    right: auto;
-    left: 50%;
-    transform: translateX(-50%);
+    max-width: calc(100vw - 28px);
+    inset-inline: 0;
+    right: 0;
+    left: 0;
+    margin-inline: auto;
+    transform: none;
   }
   .brand small { display: none; }
   .hero { width: min(100% - 28px, 1180px); min-height: auto; padding: 50px 0 72px; gap: 48px; }
@@ -985,6 +1026,7 @@ footer a { color: var(--sky); font-weight: 800; }
   .premium-section,
   .christmas-section,
   .lifestyle-section,
+  .excursions-section,
   .how-section,
   .closing { padding-top: 76px; padding-bottom: 76px; }
   .route-ticket { min-height: 250px; padding: 26px; }

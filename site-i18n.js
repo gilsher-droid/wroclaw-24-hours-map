@@ -310,6 +310,38 @@
   };
   Object.entries(lifestyleTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
 
+  const excursionProductTranslations = {
+    en: {
+      "טיולים בשלזיה התחתונה": "Lower Silesia excursions", "המוצר החמישי של Wroc-love": "The fifth Wroc-love product",
+      "טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתונה, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.": "Independent day trips from Wrocław across Lower Silesia, based on WROC-LOVE’s curated places and original content.",
+      "מוצר חדש": "New product", "שלזיה התחתונה, בקצב שלכם.": "Lower Silesia, at your pace.",
+      "כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.": "Each excursion will include an organised route and practical information, and will be published only when its stops and content are ready.",
+      "טיולים חדשים מתווספים בהדרגה.": "New excursions are being added.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "The product foundation is now open. The first excursion will appear here when its content is ready.", "פתחו את המוצר": "Open the product"
+    },
+    pl: {
+      "טיולים בשלזיה התחתונה": "Wycieczki po Dolnym Śląsku", "המוצר החמישי של Wroc-love": "Piąty produkt Wroc-love",
+      "טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתונה, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.": "Samodzielne wycieczki jednodniowe z Wrocławia po Dolnym Śląsku, oparte na wybranych miejscach i oryginalnych treściach WROC-LOVE.",
+      "מוצר חדש": "Nowy produkt", "שלזיה התחתונה, בקצב שלכם.": "Dolny Śląsk w Twoim tempie.",
+      "כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.": "Każda wycieczka będzie zawierać uporządkowaną trasę i informacje praktyczne, a ukaże się dopiero po przygotowaniu przystanków i treści.",
+      "טיולים חדשים מתווספים בהדרגה.": "Stopniowo dodajemy nowe wycieczki.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Podstawa produktu jest już dostępna. Pierwsza wycieczka pojawi się tutaj po przygotowaniu treści.", "פתחו את המוצר": "Otwórz produkt"
+    },
+    de: {
+      "טיולים בשלזיה התחתונה": "Ausflüge in Niederschlesien", "המוצר החמישי של Wroc-love": "Das fünfte Wroc-love-Produkt",
+      "טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתונה, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.": "Selbstständige Tagesausflüge von Wrocław durch Niederschlesien, basierend auf den kuratierten Orten und Originalinhalten von WROC-LOVE.",
+      "מוצר חדש": "Neues Produkt", "שלזיה התחתונה, בקצב שלכם.": "Niederschlesien in Ihrem Tempo.",
+      "כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.": "Jeder Ausflug enthält eine geordnete Route und praktische Informationen und erscheint erst, wenn Stationen und Inhalte fertig sind.",
+      "טיולים חדשים מתווספים בהדרגה.": "Nach und nach kommen neue Ausflüge hinzu.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Die Produktbasis ist jetzt verfügbar. Der erste Ausflug erscheint hier, sobald die Inhalte fertig sind.", "פתחו את המוצר": "Produkt öffnen"
+    },
+    cs: {
+      "טיולים בשלזיה התחתונה": "Výlety po Dolním Slezsku", "המוצר החמישי של Wroc-love": "Pátý produkt Wroc-love",
+      "טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתונה, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.": "Samostatné jednodenní výlety z Vratislavi po Dolním Slezsku založené na vybraných místech a původním obsahu WROC-LOVE.",
+      "מוצר חדש": "Nový produkt", "שלזיה התחתונה, בקצב שלכם.": "Dolní Slezsko vaším tempem.",
+      "כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.": "Každý výlet bude obsahovat uspořádanou trasu a praktické informace a vyjde až po dokončení zastávek a obsahu.",
+      "טיולים חדשים מתווספים בהדרגה.": "Postupně přidáváme nové výlety.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Základ produktu je nyní dostupný. První výlet se zde objeví po dokončení obsahu.", "פתחו את המוצר": "Otevřít produkt"
+    }
+  };
+  Object.entries(excursionProductTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
+
   const phaseOneTranslations = {
     en: {
       "תכולת המסלול": "Route contents", "כרגע ללא תשלום": "Currently free", "כל המסלולים והמפות זמינים כרגע ללא תשלום.": "All routes and maps are currently available free of charge.",
