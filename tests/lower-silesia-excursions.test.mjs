@@ -6,7 +6,7 @@ import { runInNewContext } from "node:vm";
 
 const root = process.cwd();
 
-test("Lower Silesia excursions registers an empty five-language product foundation", () => {
+test("Lower Silesia excursion reuses two canonical places in five languages", () => {
   const window = {};
   const context = { window, console };
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
@@ -15,9 +15,12 @@ test("Lower Silesia excursions registers an empty five-language product foundati
   const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
   assert.equal(product.id, "lower-silesia-excursions");
   assert.equal(product.type, "excursions");
-  assert.deepEqual(Array.from(product.excursions), []);
-  assert.deepEqual(Array.from(product.canonicalPlaceIds), []);
+  assert.equal(product.excursions.length, 1);
+  assert.deepEqual(Array.from(product.canonicalPlaceIds), ["ksiaz-castle", "church-of-peace-swidnica"]);
   assert.deepEqual(Object.keys(product.title), ["he", "en", "pl", "de", "cs"]);
+  assert.deepEqual(Object.keys(product.excursions[0].title), ["he", "en", "pl", "de", "cs"]);
+  product.canonicalPlaceIds.forEach((id) => assert.ok(window.WROC_CATALOG.getPlace(id), `missing canonical place ${id}`));
   assert.ok(window.WROC_CATALOG.products[product.id]);
-  assert.deepEqual(Array.from(window.WROC_CATALOG.products[product.id].places), []);
+  const registered = Array.from(window.WROC_CATALOG.products[product.id].places);
+  assert.deepEqual(registered.map((item) => item.placeId), ["ksiaz-castle", "church-of-peace-swidnica"]);
 });
