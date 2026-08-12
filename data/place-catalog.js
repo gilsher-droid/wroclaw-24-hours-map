@@ -4478,6 +4478,226 @@
       "cs"
     ]
   },
+  "kaplica-czaszek-czermna": {
+    "id": "kaplica-czaszek-czermna",
+    "localName": "Kaplica Czaszek w Czermnej",
+    "name": {
+      "he": "קפלת הגולגולות בצ׳רמנה",
+      "en": "Skull Chapel in Czermna",
+      "pl": "Kaplica Czaszek w Czermnej",
+      "de": "Schädelkapelle in Czermna",
+      "cs": "Kostnice v Čermné"
+    },
+    "description": {
+      "he": "קפלת עצמות יוצאת דופן מהמאה ה־18 בצ׳רמנה, שקירותיה ותקרתה מכוסים באלפי גולגולות ועצמות אדם. זהו אתר זיכרון קטן, עוצמתי ומטלטל למי שמתעניין בהיסטוריה, במורשת דתית ובמקומות חריגים.",
+      "en": "An unusual 18th-century ossuary chapel in Czermna, with walls and ceiling lined with thousands of human skulls and bones. Small, powerful and unsettling, it suits visitors interested in history, religious heritage and unusual places.",
+      "pl": "Niezwykła XVIII-wieczna kaplica-kostnica w Czermnej, której ściany i sufit pokrywają tysiące ludzkich czaszek i kości. To niewielkie, mocne i poruszające miejsce pamięci dla osób zainteresowanych historią, dziedzictwem religijnym i nietypowymi miejscami.",
+      "de": "Eine außergewöhnliche Beinhauskapelle aus dem 18. Jahrhundert in Czermna, deren Wände und Decke mit Tausenden menschlicher Schädel und Knochen bedeckt sind. Ein kleiner, eindringlicher und bewegender Erinnerungsort für alle, die sich für Geschichte, religiöses Erbe und ungewöhnliche Orte interessieren.",
+      "cs": "Neobvyklá kostnice z 18. století v Čermné, jejíž stěny a strop pokrývají tisíce lidských lebek a kostí. Je to malé, silné a znepokojivé pietní místo pro návštěvníky se zájmem o historii, náboženské dědictví a neobvyklá místa."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "kudowa-zdroj",
+      "coordinates": {
+        "lat": 50.45153,
+        "lng": 16.24193
+      },
+      "address": {
+        "street": "Stanisława Moniuszki 8a",
+        "postalCode": "57-350",
+        "city": "Kudowa-Zdrój",
+        "locality": "Czermna",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "historical-landmark",
+      "religious-heritage"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "chapel-of-skulls",
+      "kaplica-czaszek-kudowa-zdroj",
+      "kaplica-czaszek-w-czermnej",
+      "skull-chapel"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "high",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "historical-landmark",
+        "religious-heritage"
+      ],
+      "tags": [
+        "culture",
+        "history",
+        "architecture",
+        "religious-heritage",
+        "cultural",
+        "historical",
+        "photography",
+        "unique",
+        "lower-silesia",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [
+        "adults",
+        "culture-lovers",
+        "history-lovers",
+        "photographers"
+      ],
+      "walkingIntensity": "low",
+      "familyFriendly": null,
+      "couples": true,
+      "solo": null,
+      "romantic": false,
+      "indoorOutdoor": "indoor",
+      "rainFriendly": true,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": {
+          "he": "תנאי הנגישות לא אומתו; מומלץ לברר ישירות לפני הביקור.",
+          "en": "Accessibility conditions have not been verified; confirm directly before visiting.",
+          "pl": "Warunki dostępności nie zostały zweryfikowane; przed wizytą warto potwierdzić je bezpośrednio.",
+          "de": "Die Zugangsbedingungen wurden nicht verifiziert; bitte vor dem Besuch direkt nachfragen.",
+          "cs": "Podmínky přístupnosti nebyly ověřeny; před návštěvou je ověřte přímo."
+        }
+      }
+    },
+    "visit": {
+      "durationMinutes": 30,
+      "bestTimeOfDay": [
+        "morning",
+        "afternoon"
+      ],
+      "seasonalSuitability": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://kaplicaczaszek.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.45153%2C16.24193",
+        "appleMaps": "https://maps.apple.com/?ll=50.45153,16.24193&q=Kaplica%20Czaszek%20w%20Czermnej"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "ossuary-chapel-interior",
+        "tags": [
+          "cultural",
+          "historical",
+          "religious-heritage",
+          "unique"
+        ],
+        "accessibility": {
+          "level": null,
+          "notes": "See place accessibility notes."
+        }
+      }
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalContent": true,
+      "originalPhotography": true,
+      "originalVideo": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://kudowa.pl/kaplica-czaszek.html",
+          "checkedAt": "2026-08-12"
+        },
+        {
+          "type": "address",
+          "url": "https://kaplicaczaszek.pl/dojazd/",
+          "checkedAt": "2026-08-12"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.wikidata.org/wiki/Q2879740",
+          "checkedAt": "2026-08-12",
+          "note": "50°27′5.508″N, 16°14′30.948″E"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/kaplica-czaszek-01.jpg",
+        "/assets/kaplica-czaszek-02.jpg",
+        "/assets/kaplica-czaszek-03.jpg",
+        "/assets/kaplica-czaszek-04.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/kaplica-czaszek-01.jpg": {
+          "tags": [
+            "chapel-exterior",
+            "religious-heritage",
+            "architecture",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true
+        },
+        "/assets/kaplica-czaszek-02.jpg": {
+          "tags": [
+            "chapel-exterior",
+            "architecture",
+            "visitor-context"
+          ],
+          "original": true
+        },
+        "/assets/kaplica-czaszek-03.jpg": {
+          "tags": [
+            "chapel-exterior",
+            "architecture",
+            "visitor-context"
+          ],
+          "original": true
+        },
+        "/assets/kaplica-czaszek-04.jpg": {
+          "tags": [
+            "chapel-surroundings",
+            "architecture",
+            "lower-silesia"
+          ],
+          "original": true
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=122109843069398802&id=1238805049320532"
+      }
+    ]
+  },
   "karmello": {
     "id": "karmello",
     "localName": "Karmello Chocolatier",
@@ -10958,7 +11178,11 @@
   "kosciol-pokoju-swidnica": "church-of-peace-swidnica",
   "peace-church-swidnica": "church-of-peace-swidnica",
   "walbrzych-city-centre": "walbrzych-market-square",
-  "rynek-walbrzych": "walbrzych-market-square"
+  "rynek-walbrzych": "walbrzych-market-square",
+  "skull-chapel": "kaplica-czaszek-czermna",
+  "chapel-of-skulls": "kaplica-czaszek-czermna",
+  "kaplica-czaszek-w-czermnej": "kaplica-czaszek-czermna",
+  "kaplica-czaszek-kudowa-zdroj": "kaplica-czaszek-czermna"
 };
   const relatedPlaces = {
   "ostrow-cathedral": [

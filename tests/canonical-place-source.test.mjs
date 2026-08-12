@@ -66,8 +66,8 @@ test("an independent Lower Silesia place is supported without changing current p
     const baselineFile = resolve(root, "data/place-catalog.js");
     const baseline = loadCatalog(baselineFile);
     const candidate = loadCatalog(outputFile);
-    assert.equal(Object.keys(baseline.places).length, 89);
-    assert.equal(Object.keys(candidate.places).length, 90);
+    assert.equal(Object.keys(baseline.places).length, 90);
+    assert.equal(Object.keys(candidate.places).length, 91);
     assert.equal(baseline.coordinateConflicts.length, 28);
     assert.equal(JSON.stringify(candidate.coordinateConflicts), JSON.stringify(baseline.coordinateConflicts));
 
@@ -109,8 +109,8 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
   const place = catalog.getPlace("ksiaz-castle");
 
   assert.ok(place);
-  assert.equal(Object.keys(catalog.places).length, 89);
-  assert.equal(Object.keys(catalog.aliases).length, 14);
+  assert.equal(Object.keys(catalog.places).length, 90);
+  assert.equal(Object.keys(catalog.aliases).length, 18);
   assert.equal(catalog.coordinateConflicts.length, 28);
   assert.equal(place.localName, "Zamek Książ w Wałbrzychu");
   assert.equal(place.location.countryCode, "PL");
