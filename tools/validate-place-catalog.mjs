@@ -88,7 +88,9 @@ for (const record of source) {
 
   const generated = catalog.getPlace(record.id);
   if (!generated) throw new Error(`${record.id}: independent place is missing from the generated catalog.`);
-  if (generated.sourceRecords.length !== 0) throw new Error(`${record.id}: independent place unexpectedly belongs to a product.`);
+  if (generated.sourceRecords.some((item) => !item?.productId || !item?.sourceId)) {
+    throw new Error(`${record.id}: invalid product reference metadata.`);
+  }
   for (const alias of record.aliases || []) {
     if (catalog.resolveId(alias) !== record.id) throw new Error(`${record.id}: alias ${alias} is not registered.`);
   }

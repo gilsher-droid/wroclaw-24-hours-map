@@ -102,7 +102,9 @@
     rec("dinette",[51.10391,17.03121],"food",4,l("Dinette Renoma","Dinette Renoma","Dinette Renoma"),"Dinette",l("אפשרות נוחה לארוחת בוקר או צהריים בתוך Renoma.","A convenient breakfast or lunch inside Renoma.","Wygodna opcja na śniadanie lub lunch w Renomie.")),
     rec("wroclavia-rec",[51.09855,17.03658],"shopping",4,l("Wroclavia – קניות מרוכזות","Wroclavia – major shopping","Wroclavia – większe zakupy"),"Wroclavia",l("המבחר הגדול ביותר של אופנה, קוסמטיקה ואוכל ליד התחנה.","The broadest choice of fashion, cosmetics and food by the station.","Największy wybór mody, kosmetyków i jedzenia przy dworcu.")),
     rec("renoma-rec",[51.10394,17.03123],"shopping",4,l("Renoma – קניות ואדריכלות","Renoma – shopping and architecture","Renoma – zakupy i architektura"),"Renoma",l("מרכז קטן ואסתטי יותר שמתאים לעצירה קצרה.","A smaller, more aesthetic centre suited to a short stop.","Mniejsze, estetyczne centrum dobre na krótki przystanek.")),
-    rec("dominikan",[51.10802,17.04086],"shopping",4,l("Galeria Dominikańska – השלמות","Galeria Dominikańska – final shopping","Galeria Dominikańska – ostatnie zakupy"),"Galeria Dominikańska",l("מרכז שימושי ליד העיר העתיקה להשלמות מהירות.","A practical centre by Old Town for quick final purchases.","Praktyczne centrum przy Starym Mieście na szybkie ostatnie zakupy."))
+    rec("dominikan",[51.10802,17.04086],"shopping",4,l("Galeria Dominikańska – השלמות","Galeria Dominikańska – final shopping","Galeria Dominikańska – ostatnie zakupy"),"Galeria Dominikańska",l("מרכז שימושי ליד העיר העתיקה להשלמות מהירות.","A practical centre by Old Town for quick final purchases.","Praktyczne centrum przy Starym Mieście na szybkie ostatnie zakupy.")),
+    { id:"morskie-oko-wroclaw", canonicalPlaceId:"morskie-oko-wroclaw", coordinates:[51.1178,17.0804], category:"activity", bestDay:3 },
+    { id:"stadion-olimpijski-wroclaw", canonicalPlaceId:"stadion-olimpijski-wroclaw", coordinates:[51.1195926,17.0966604], category:"activity", bestDay:3 }
   ];
 
   if (window.WROC_CATALOG?.registerProduct) {

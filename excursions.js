@@ -15,6 +15,14 @@
     cs: { brandLine: "Objevujte region prostřednictvím správných míst", homeReturn: "Zpět na hlavní stránku", eyebrow: "Pátý produkt Wroc-love", title: "Výlety po Dolním Slezsku", lead: "Samostatné jednodenní výlety z Vratislavi na výjimečná místa Dolního Slezska.", duration: "Celý den", starts: "Start ve Vratislavi", region: "Dolní Slezsko", mapTitle: "Mapa výletu", routeButton: "Otevřít trasu v Google Maps", itineraryTitle: "Doporučené pořadí", placesTitle: "Hlavní místa", whyTitle: "Proč je spojit?", forWhomTitle: "Pro koho je výlet?", practicalTitle: "Před cestou", website: "Oficiální web", navigate: "Navigace", facebook: "Facebook", instagram: "Instagram", travelTitle: "Jízdní doby", communityLine: "Od komunity Wrocław & Dolní Slezsko", facebookGroup: "Skupina na Facebooku", facebookPage: "Firemní stránka", instagramFooter: "Instagram" }
   };
 
+  const logisticsUi = {
+    he: { transport: "דרכי הגעה", accessibility: "נגישות", partial: "נגישות חלקית — מומלץ לבדוק מראש מול האתר או המפעיל." },
+    en: { transport: "Getting there", accessibility: "Accessibility", partial: "Partly accessible — confirm current conditions with the venue or operator." },
+    pl: { transport: "Dojazd", accessibility: "Dostępność", partial: "Częściowa dostępność — sprawdź aktualne warunki u obiektu lub przewoźnika." },
+    de: { transport: "Anreise", accessibility: "Barrierefreiheit", partial: "Teilweise zugänglich — aktuelle Bedingungen bitte beim Ort oder Betreiber prüfen." },
+    cs: { transport: "Doprava", accessibility: "Přístupnost", partial: "Částečně přístupné — ověřte aktuální podmínky u místa nebo dopravce." }
+  };
+
   function tr(key) { return ui[language]?.[key] || ui.en[key] || key; }
   function local(value) { return value?.[language] || value?.en || value?.he || ""; }
   function place(id) { return window.WROC_CATALOG?.getPlace?.(id) || window.WROC_CATALOG?.places?.[id]; }
@@ -60,6 +68,19 @@
     document.querySelector("[data-travel-note]").textContent = local(excursion.travel.note);
   }
 
+  function renderLogistics(excursion) {
+    const labels = logisticsUi[language] || logisticsUi.en;
+    document.querySelector("[data-logistics-title]").textContent = labels.transport;
+    document.querySelector("[data-accessibility-title]").textContent = labels.accessibility;
+    document.querySelector("[data-transport-options]").innerHTML = (excursion.travel.options || []).map((option) => `<article><strong>${local(option.title)}</strong><p>${local(option.description)}</p></article>`).join("");
+    document.querySelector("[data-accessibility]").innerHTML = (excursion.travel.accessibility || []).map((item) => {
+      const canonical = item.canonicalPlaceId ? place(item.canonicalPlaceId) : null;
+      const label = canonical ? local(canonical.name) : local(item.label);
+      const notes = canonical ? local(canonical.suitability?.accessibility?.notes) : labels.partial;
+      return `<article><strong>${label}</strong><p>${notes || labels.partial}</p></article>`;
+    }).join("");
+  }
+
   function actionLinks(canonical) {
     const links = [];
     const website = safeLink(canonical.links?.website);
@@ -79,7 +100,8 @@
       const canonical = place(id);
       if (!canonical) return "";
       const photos = (canonical.media?.photos || []).slice(0, 4);
-      return `<article class="place-card"><img class="place-cover" src="${photos[0] || ""}" alt="${local(canonical.name)}"><div class="place-copy"><h3>${local(canonical.name)}</h3><p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1).map((photo) => `<img src="${photo}" alt="">`).join("")}</div><div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
+      const cover = photos[0] ? `<img class="place-cover" src="${photos[0]}" alt="${local(canonical.name)}">` : "";
+      return `<article class="place-card">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3><p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1).map((photo) => `<img src="${photo}" alt="">`).join("")}</div><div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
   }
 
@@ -93,7 +115,7 @@
     const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
     const excursion = product?.excursions?.[0];
     if (!excursion) return;
-    renderHero(excursion); renderMap(excursion); renderSteps(excursion); renderPlaces(excursion); renderEditorial(excursion);
+    renderHero(excursion); renderMap(excursion); renderSteps(excursion); renderLogistics(excursion); renderPlaces(excursion); renderEditorial(excursion);
   }
 
   function applyLanguage(next = language) {

@@ -2,7 +2,7 @@
   "use strict";
 
   const t = (he, en, pl, de, cs) => ({ he, en, pl, de, cs });
-  const canonicalPlaceIds = ["ksiaz-castle", "church-of-peace-swidnica"];
+  const canonicalPlaceIds = ["ksiaz-castle", "walbrzych-market-square", "church-of-peace-swidnica"];
   const wroclaw = { lat: 51.1079, lng: 17.0385 };
   const swidnicaCenter = { lat: 50.8422, lng: 16.4877 };
 
@@ -10,18 +10,18 @@
     id: "ksiaz-swidnica-day-trip",
     slug: "ksiaz-castle-swidnica",
     title: t(
-      "טירת קשונז׳ ושווידניצה — יום של טירה, היסטוריה ואתר מורשת",
-      "Książ Castle and Świdnica — a day of castle, history and heritage",
-      "Zamek Książ i Świdnica — dzień zamku, historii i dziedzictwa",
-      "Schloss Książ und Świdnica — ein Tag voller Schloss, Geschichte und Kulturerbe",
-      "Zámek Książ a Svídnice — den plný zámku, historie a dědictví"
+      "טירת קשונז׳, Wałbrzych ושווידניצה — יום של טירה, ערים ואתר מורשת",
+      "Książ Castle, Wałbrzych and Świdnica — a day of castle, cities and heritage",
+      "Zamek Książ, Wałbrzych i Świdnica — dzień zamku, miast i dziedzictwa",
+      "Schloss Książ, Wałbrzych und Świdnica — ein Tag voller Schloss, Städte und Kulturerbe",
+      "Zámek Książ, Valbřich a Svídnice — den plný zámku, měst a dědictví"
     ),
     summary: t(
-      "טיול יום מלא שמחבר בין אחת הטירות המרשימות בפולין, כנסיית עץ יוצאת דופן ואתר מורשת עולמית, וזמן חופשי במרכז שווידניצה.",
-      "A full-day trip combining one of Poland’s most impressive castles, an exceptional timber UNESCO site and free time in central Świdnica.",
-      "Całodniowa wycieczka łącząca jeden z najpiękniejszych zamków w Polsce, wyjątkowy drewniany obiekt UNESCO i czas wolny w centrum Świdnicy.",
-      "Ein ganztägiger Ausflug zu einem der eindrucksvollsten Schlösser Polens, einer außergewöhnlichen hölzernen UNESCO-Stätte und mit Freizeit im Zentrum von Świdnica.",
-      "Celodenní výlet spojující jeden z nejpůsobivějších polských zámků, výjimečnou dřevěnou památku UNESCO a volný čas v centru Svídnice."
+      "טיול יום מלא שמשלב טירה מרשימה, עצירה עירונית ב־Wałbrzych, כנסיית עץ יוצאת דופן וזמן חופשי במרכז שווידניצה.",
+      "A full-day trip combining an impressive castle, an urban stop in Wałbrzych, an exceptional timber church and free time in central Świdnica.",
+      "Całodniowa wycieczka łącząca imponujący zamek, miejski przystanek w Wałbrzychu, wyjątkowy drewniany kościół i czas wolny w centrum Świdnicy.",
+      "Ein ganztägiger Ausflug mit einem eindrucksvollen Schloss, einem Stadtstopp in Wałbrzych, einer außergewöhnlichen Holzkirche und Freizeit im Zentrum von Świdnica.",
+      "Celodenní výlet spojující působivý zámek, městskou zastávku ve Valbřichu, výjimečný dřevěný kostel a volný čas v centru Svídnice."
     ),
     meta: {
       duration: "full-day",
@@ -34,6 +34,7 @@
     routePoints: [
       { id: "wroclaw-start", kind: "context", label: t("וורוצלב", "Wrocław", "Wrocław", "Wrocław", "Vratislav"), coordinates: wroclaw },
       { id: "ksiaz-stop", kind: "place", canonicalPlaceId: "ksiaz-castle" },
+      { id: "walbrzych-stop", kind: "place", canonicalPlaceId: "walbrzych-market-square" },
       { id: "church-stop", kind: "place", canonicalPlaceId: "church-of-peace-swidnica" },
       { id: "swidnica-center", kind: "editorial", label: t("מרכז שווידניצה", "Central Świdnica", "Centrum Świdnicy", "Zentrum von Świdnica", "Centrum Svídnice"), coordinates: swidnicaCenter },
       { id: "wroclaw-return", kind: "context", label: t("חזרה לוורוצלב", "Return to Wrocław", "Powrót do Wrocławia", "Rückfahrt nach Wrocław", "Návrat do Vratislavi"), coordinates: wroclaw },
@@ -42,7 +43,9 @@
       recommendedMode: "car",
       estimates: [
         { from: "wroclaw-start", to: "ksiaz-stop", minutes: "65–80" },
-        { from: "ksiaz-stop", to: "church-stop", minutes: "20–30" },
+        { from: "ksiaz-stop", to: "walbrzych-stop", minutes: "20–30" },
+        { from: "walbrzych-stop", to: "church-stop", minutes: "35–45" },
+        { from: "church-stop", to: "swidnica-center", minutes: "5–10" },
         { from: "swidnica-center", to: "wroclaw-return", minutes: "60–75" },
       ],
       note: t(
@@ -52,9 +55,21 @@
         "Mit dem Auto lassen sich alle Stationen am praktischsten an einem Tag verbinden. Die Fahrzeiten sind Richtwerte und hängen von Verkehr, Route und Verkehrsmittel ab. Alternativen mit öffentlichen Verkehrsmitteln bitte selbst prüfen; WROC-LOVE bietet keinen Transportdienst an.",
         "Auto je nejpraktičtější způsob, jak spojit všechny zastávky během jednoho dne. Jízdní doby jsou orientační a závisí na dopravě, trase a dopravním prostředku. Alternativy veřejnou dopravou si ověřte samostatně; WROC-LOVE dopravu nezajišťuje."
       ),
+      options: [
+        { mode: "car", title: t("רכב", "Car", "Samochód", "Auto", "Auto"), description: t("האפשרות המעשית ביותר לכל המסלול ביום אחד.", "The most practical option for the full itinerary in one day.", "Najpraktyczniejsza opcja na całą trasę jednego dnia.", "Die praktischste Option für die gesamte Route an einem Tag.", "Nejpraktičtější možnost pro celou trasu během jednoho dne.") },
+        { mode: "train", title: t("רכבת", "Train", "Pociąg", "Bahn", "Vlak"), description: t("רכבת מוורוצלב ל־Wałbrzych או לשווידניצה, בשילוב אוטובוס מקומי או מונית בין התחנות.", "Train from Wrocław to Wałbrzych or Świdnica, combined with local bus or taxi between stops.", "Pociąg z Wrocławia do Wałbrzycha lub Świdnicy, dalej lokalnym autobusem albo taksówką.", "Bahn von Wrocław nach Wałbrzych oder Świdnica, kombiniert mit Bus oder Taxi vor Ort.", "Vlak z Vratislavi do Valbřichu nebo Svídnice, dále místním autobusem či taxi.") },
+        { mode: "bus", title: t("אוטובוס", "Bus", "Autobus", "Bus", "Autobus"), description: t("אפשר לשלב קווים אזוריים ומקומיים; יש לבדוק לוחות זמנים ביום הנסיעה.", "Regional and local buses can be combined; check the current timetable on your travel day.", "Można łączyć autobusy regionalne i miejskie; sprawdź aktualny rozkład w dniu podróży.", "Regional- und Stadtbusse lassen sich kombinieren; Fahrplan am Reisetag prüfen.", "Lze kombinovat regionální a místní autobusy; jízdní řád ověřte v den cesty.") },
+        { mode: "taxi", title: t("מונית", "Taxi", "Taksówka", "Taxi", "Taxi"), description: t("פתרון גמיש לקטעים בין התחנה, הטירה והערים; מומלץ להזמין מראש.", "A flexible option between stations, the castle and the towns; advance booking is advisable.", "Elastyczna opcja między dworcem, zamkiem i miastami; warto zamówić wcześniej.", "Flexibel zwischen Bahnhof, Schloss und Städten; Vorbestellung empfohlen.", "Flexibilní spojení mezi nádražím, zámkem a městy; doporučujeme objednat předem.") }
+      ],
+      accessibility: [
+        { canonicalPlaceId: "ksiaz-castle", level: "partial" },
+        { canonicalPlaceId: "walbrzych-market-square", level: "partial" },
+        { canonicalPlaceId: "church-of-peace-swidnica", level: "partial" },
+        { label: t("מרכז שווידניצה", "Central Świdnica", "Centrum Świdnicy", "Zentrum von Świdnica", "Centrum Svídnice"), level: "partial" }
+      ],
     },
     navigation: {
-      googleMaps: "https://www.google.com/maps/dir/?api=1&origin=Wroc%C5%82aw%2C%20Poland&destination=Wroc%C5%82aw%2C%20Poland&waypoints=50.8422222%2C16.2916667%7C50.8465028%2C16.4918111&travelmode=driving",
+      googleMaps: "https://www.google.com/maps/dir/?api=1&origin=Wroc%C5%82aw%2C%20Poland&destination=Wroc%C5%82aw%2C%20Poland&waypoints=50.8422222%2C16.2916667%7C50.7662241%2C16.2829578%7C50.8465028%2C16.4918111%7C50.8422%2C16.4877&travelmode=driving",
     },
     editorial: {
       why: t(
@@ -82,7 +97,8 @@
     steps: [
       { id: "depart", title: t("יציאה מוורוצלב", "Depart Wrocław", "Wyjazd z Wrocławia", "Abfahrt aus Wrocław", "Odjezd z Vratislavi"), duration: t("כ־65–80 דקות", "About 65–80 min", "Około 65–80 min", "Etwa 65–80 Min.", "Přibližně 65–80 min") },
       { id: "ksiaz", canonicalPlaceId: "ksiaz-castle", title: t("טירת קשונז׳", "Książ Castle", "Zamek Książ", "Schloss Książ", "Zámek Książ"), duration: t("2.5–3.5 שעות", "2.5–3.5 hours", "2,5–3,5 godz.", "2,5–3,5 Std.", "2,5–3,5 hod.") },
-      { id: "transfer", title: t("נסיעה לשווידניצה", "Drive to Świdnica", "Przejazd do Świdnicy", "Fahrt nach Świdnica", "Přejezd do Svídnice"), duration: t("כ־20–30 דקות", "About 20–30 min", "Około 20–30 min", "Etwa 20–30 Min.", "Přibližně 20–30 min") },
+      { id: "walbrzych", canonicalPlaceId: "walbrzych-market-square", title: t("ביקור ב־Wałbrzych", "Visit Wałbrzych", "Wizyta w Wałbrzychu", "Besuch in Wałbrzych", "Návštěva Valbřichu"), duration: t("45–60 דקות", "45–60 min", "45–60 min", "45–60 Min.", "45–60 min") },
+      { id: "transfer", title: t("נסיעה לשווידניצה", "Continue to Świdnica", "Przejazd do Świdnicy", "Weiterfahrt nach Świdnica", "Přejezd do Svídnice"), duration: t("כ־35–45 דקות", "About 35–45 min", "Około 35–45 min", "Etwa 35–45 Min.", "Přibližně 35–45 min") },
       { id: "church", canonicalPlaceId: "church-of-peace-swidnica", title: t("כנסיית השלום", "Church of Peace", "Kościół Pokoju", "Friedenskirche", "Kostel míru"), duration: t("45–60 דקות", "45–60 min", "45–60 min", "45–60 Min.", "45–60 min") },
       { id: "center", title: t("מרכז שווידניצה", "Central Świdnica", "Centrum Świdnicy", "Zentrum von Świdnica", "Centrum Svídnice"), duration: t("60–90 דקות", "60–90 min", "60–90 min", "60–90 Min.", "60–90 min") },
       { id: "return", title: t("חזרה לוורוצלב", "Return to Wrocław", "Powrót do Wrocławia", "Rückfahrt nach Wrocław", "Návrat do Vratislavi"), duration: t("כ־60–75 דקות", "About 60–75 min", "Około 60–75 min", "Etwa 60–75 Min.", "Přibližně 60–75 min") },
