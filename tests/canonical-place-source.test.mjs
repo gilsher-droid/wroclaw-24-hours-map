@@ -110,7 +110,7 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
 
   assert.ok(place);
   assert.equal(Object.keys(catalog.places).length, 90);
-  assert.equal(Object.keys(catalog.aliases).length, 18);
+  assert.equal(Object.keys(catalog.aliases).length, 21);
   assert.equal(catalog.coordinateConflicts.length, 28);
   assert.equal(place.localName, "Zamek Książ w Wałbrzychu");
   assert.equal(place.location.countryCode, "PL");
