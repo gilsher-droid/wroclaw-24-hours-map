@@ -3491,7 +3491,12 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcEIRe9DA_7/"
+      }
+    ]
   },
   "gniazdo": {
     "id": "gniazdo",
