@@ -3178,18 +3178,18 @@
     "id": "glowny",
     "localName": "Wrocław Główny",
     "name": {
-      "he": "תחנת הרכבת המרכזית",
+      "he": "תחנת הרכבת המרכזית של ורוצלב",
       "en": "Wrocław Main Railway Station",
       "pl": "Wrocław Główny",
-      "de": "Wrocław Main Railway Station",
-      "cs": "Wrocław Main Railway Station"
+      "de": "Hauptbahnhof Wrocław",
+      "cs": "Hlavní nádraží Wrocław"
     },
     "description": {
-      "he": "תחנה מרשימה המזכירה טירה. שלבו אותה בסיום רק אם היא רלוונטית להמשך הנסיעה.",
-      "en": "A striking station that resembles a castle. Add it at the end only if it suits your onward journey.",
-      "pl": "Efektowny dworzec przypominający zamek. Dodaj go na końcu tylko wtedy, gdy pasuje do dalszej podróży.",
-      "de": "A striking station that resembles a castle. Add it at the end only if it suits your onward journey.",
-      "cs": "A striking station that resembles a castle. Add it at the end only if it suits your onward journey."
+      "he": "תחנת הרכבת המרכזית של ורוצלב היא שער התחבורה הראשי לעיר וגם נקודת ציון אדריכלית מרשימה. היא שימושית להגעה, להמשך נסיעה ולחיבור לחשמליות ולאוטובוסים; גם בלי נסיעה ברכבת, שווה להביט בחזית ובאולמות ההיסטוריים.",
+      "en": "Wrocław’s main railway station is the city’s principal rail gateway and a striking architectural landmark. It is useful for arrivals, onward journeys and connections to trams and buses; even without a train to catch, the façade and historic halls merit a look.",
+      "pl": "Wrocław Główny to najważniejsza brama kolejowa miasta i zarazem wyrazisty zabytek architektury. Przydaje się przy przyjeździe, dalszej podróży i przesiadkach na tramwaje lub autobusy; nawet bez pociągu warto zobaczyć fasadę i historyczne hale.",
+      "de": "Der Hauptbahnhof Wrocław ist das wichtigste Bahntor der Stadt und zugleich ein markantes Architekturdenkmal. Er ist praktisch für Ankunft, Weiterreise und den Umstieg auf Straßenbahn oder Bus; auch ohne Zugfahrt lohnen Fassade und historische Hallen einen Blick.",
+      "cs": "Hlavní nádraží Wrocław je hlavní železniční branou města a zároveň výraznou architektonickou památkou. Hodí se pro příjezd, další cestu i přestup na tramvaj či autobus; i bez jízdy vlakem stojí za pohled jeho fasáda a historické haly."
     },
     "location": {
       "countryCode": "PL",
@@ -3198,11 +3198,24 @@
       "coordinates": {
         "lat": 51.09858,
         "lng": 17.03675
+      },
+      "address": {
+        "street": "Marszałka Józefa Piłsudskiego 105",
+        "postalCode": "50-085",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
-    "categories": [],
+    "categories": [
+      "historical-landmark",
+      "station"
+    ],
     "sourceUrls": [],
-    "aliases": [],
+    "aliases": [
+      "dworzec-wroclaw-glowny",
+      "wroclaw-glowny",
+      "wroclaw-main-railway-station"
+    ],
     "sourceRecords": [
       {
         "productId": "wroclaw-24-hours",
@@ -3219,44 +3232,70 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "high",
     "taxonomy": {
-      "categories": [],
-      "tags": []
+      "categories": [
+        "historical-landmark",
+        "station"
+      ],
+      "tags": [
+        "transport",
+        "architecture",
+        "history",
+        "city",
+        "wroclaw",
+        "travel-hub"
+      ]
     },
     "suitability": {
-      "recommendedFor": [],
-      "walkingIntensity": null,
-      "familyFriendly": null,
-      "couples": null,
+      "recommendedFor": [
+        "families",
+        "couples",
+        "solo",
+        "adults",
+        "rail-travellers"
+      ],
+      "walkingIntensity": "low",
+      "familyFriendly": true,
+      "couples": true,
       "solo": null,
-      "romantic": null,
-      "indoorOutdoor": null,
-      "rainFriendly": null,
+      "romantic": false,
+      "indoorOutdoor": "both",
+      "rainFriendly": true,
       "budgetLevel": null,
       "accessibility": {
-        "level": null,
-        "notes": null
+        "level": "good",
+        "notes": {
+          "he": "בתחנה קיימים שירותי נגישות; מומלץ לבדוק מראש את זמינות המעליות ואת סידורי הסיוע לנסיעה הספציפית.",
+          "en": "Accessibility services are available at the station; check lift availability and assistance arrangements for your specific journey in advance.",
+          "pl": "Na stacji dostępne są udogodnienia i usługi asysty; przed podróżą warto sprawdzić działanie wind i zasady pomocy dla konkretnego połączenia.",
+          "de": "Am Bahnhof stehen barrierefreie Einrichtungen und Hilfsangebote zur Verfügung; prüfen Sie vor der Reise die Verfügbarkeit der Aufzüge und die Assistenz für Ihre Verbindung.",
+          "cs": "Na nádraží jsou k dispozici bezbariérové služby; před cestou si ověřte provoz výtahů a možnosti asistence pro konkrétní spoj."
+        }
       }
     },
     "visit": {
-      "durationMinutes": null,
-      "bestTimeOfDay": [],
-      "seasonalSuitability": [],
+      "durationMinutes": 20,
+      "bestTimeOfDay": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "seasonalSuitability": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.pkp.pl/pl/?id=156&option=com_content&view=article",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.09858%2C17.03675",
+        "appleMaps": "https://maps.apple.com/?ll=51.09858,17.03675&q=Wroc%C5%82aw%20G%C5%82%C3%B3wny"
       }
     },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -3269,7 +3308,190 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "experiences": [
+      {
+        "id": "arrival-and-onward-travel",
+        "tags": [
+          "transport",
+          "travel-hub",
+          "city"
+        ],
+        "accessibility": {
+          "level": "good",
+          "notes": null
+        }
+      },
+      {
+        "id": "station-architecture",
+        "tags": [
+          "architecture",
+          "history",
+          "historical"
+        ],
+        "accessibility": {
+          "level": "good",
+          "notes": null
+        }
+      }
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalContent": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.pkp.pl/pl/?id=156&option=com_content&view=article",
+          "checkedAt": "2026-08-15"
+        },
+        {
+          "type": "history",
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/dworzec-wroclaw-glowny-perla-architektury-przemyslowej",
+          "checkedAt": "2026-08-15"
+        },
+        {
+          "type": "accessibility",
+          "url": "https://pkp.pl/pl/bez-barier?option=com_withoutbarriers&station=Wroc%C5%82aw+G%C5%82%C3%B3wny",
+          "checkedAt": "2026-08-15"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.pkp.pl/pl/?id=156&option=com_content&view=article",
+          "checkedAt": "2026-08-15",
+          "note": "Existing approved product coordinate preserved; official station page lists 51.098333, 17.037222."
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/wroclaw-glowny-01.jpg",
+        "/assets/wroclaw-glowny-02.jpg",
+        "/assets/wroclaw-glowny-03.jpg",
+        "/assets/wroclaw-glowny-04.jpg",
+        "/assets/wroclaw-glowny-05.jpg",
+        "/assets/wroclaw-glowny-06.jpg",
+        "/assets/wroclaw-glowny-07.jpg",
+        "/assets/wroclaw-glowny-08.jpg",
+        "/assets/wroclaw-glowny-09.jpg",
+        "/assets/wroclaw-glowny-10.jpg",
+        "/assets/wroclaw-glowny-11.jpg"
+      ],
+      "videos": [
+        "/assets/wroclaw-glowny-video-01.mp4",
+        "/assets/wroclaw-glowny-video-02.mp4"
+      ],
+      "metadata": {
+        "/assets/wroclaw-glowny-01.jpg": {
+          "tags": [
+            "station",
+            "exterior",
+            "architecture",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true
+        },
+        "/assets/wroclaw-glowny-02.jpg": {
+          "tags": [
+            "station",
+            "exterior",
+            "architecture"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-03.jpg": {
+          "tags": [
+            "station",
+            "entrance",
+            "architecture"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-04.jpg": {
+          "tags": [
+            "station",
+            "interior",
+            "architecture"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-05.jpg": {
+          "tags": [
+            "station",
+            "interior",
+            "detail"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-06.jpg": {
+          "tags": [
+            "station",
+            "interior",
+            "hall"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-07.jpg": {
+          "tags": [
+            "station",
+            "interior",
+            "hall"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-08.jpg": {
+          "tags": [
+            "station",
+            "interior",
+            "hall"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-09.jpg": {
+          "tags": [
+            "station",
+            "interior",
+            "hall"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-10.jpg": {
+          "tags": [
+            "station",
+            "interior",
+            "hall"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-11.jpg": {
+          "tags": [
+            "station",
+            "tourist-information",
+            "useful-place"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-video-01.mp4": {
+          "tags": [
+            "station",
+            "exterior",
+            "video"
+          ],
+          "original": true
+        },
+        "/assets/wroclaw-glowny-video-02.mp4": {
+          "tags": [
+            "station",
+            "exterior",
+            "video"
+          ],
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
   },
   "gniazdo": {
     "id": "gniazdo",
@@ -11173,6 +11395,9 @@
   "wroclavia-station": "wroclavia",
   "ostrow-cathedral": "ostrow",
   "christmas-market": "rynek",
+  "wroclaw-glowny": "glowny",
+  "dworzec-wroclaw-glowny": "glowny",
+  "wroclaw-main-railway-station": "glowny",
   "kapielisko-morskie-oko-wroclaw": "morskie-oko-wroclaw",
   "olympic-stadium-wroclaw": "stadion-olimpijski-wroclaw",
   "kosciol-pokoju-swidnica": "church-of-peace-swidnica",
