@@ -252,7 +252,9 @@
           { type: "coordinates", url: "https://www.pkp.pl/pl/?id=156&option=com_content&view=article", checkedAt: "2026-08-15", note: "Existing approved product coordinate preserved; official station page lists 51.098333, 17.037222." },
         ],
       },
-      socialPosts: [],
+      socialPosts: [
+        { platform: "instagram", url: "https://www.instagram.com/wroclaw.lowersilesia/p/DcEIRe9DA_7/" },
+      ],
       media: {
         photos: [
           "/assets/wroclaw-glowny-01.jpg", "/assets/wroclaw-glowny-02.jpg", "/assets/wroclaw-glowny-03.jpg",
