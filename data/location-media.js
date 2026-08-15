@@ -105,6 +105,24 @@
     familiar: "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
   };
 
+  const canonicalResources = (placeId, videoTitles = []) => {
+    const place = window.WROC_CATALOG?.getPlace?.(placeId);
+    if (!place) return {};
+    const facebookPost = place.socialPosts?.find((post) => post.platform === "facebook")?.url;
+    const instagramPost = place.socialPosts?.find((post) => post.platform === "instagram")?.url;
+    return {
+      ...(facebookPost ? { facebook: facebookPost } : {}),
+      ...(instagramPost ? { instagram: instagramPost } : {}),
+      ...(place.media?.photos?.length ? { gallery: place.media.photos } : {}),
+      ...(place.media?.videos?.length ? {
+        videos: place.media.videos.map((src, index) => ({
+          src,
+          title: videoTitles[index] || place.name,
+        })),
+      } : {}),
+    };
+  };
+
   const resources = {
     rynek: { gallery: [...galleries.rynek, ...galleries.townHall], videos: videos.rynek },
     "town-hall": { gallery: galleries.townHall },
@@ -134,6 +152,10 @@
     japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: galleries.japanese },
     wroclavia: { gallery: galleries.wroclavia },
     "wroclavia-station": { gallery: galleries.wroclavia },
+    glowny: canonicalResources("glowny", [
+      { he: "חזית תחנת Wrocław Główny", en: "Wrocław Główny exterior", pl: "Fasada dworca Wrocław Główny", de: "Fassade des Hauptbahnhofs Wrocław", cs: "Průčelí nádraží Wrocław Główny" },
+      { he: "התחנה והכיכר שלפניה", en: "The station and its forecourt", pl: "Dworzec i plac przed nim", de: "Der Bahnhof und sein Vorplatz", cs: "Nádraží a přednádražní prostor" }
+    ]),
     renoma: { gallery: galleries.renoma },
     nfm: { gallery: galleries.nfm },
     opera: { facebook: facebook.opera, gallery: galleries.opera },
