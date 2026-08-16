@@ -402,6 +402,26 @@
   };
   Object.entries(productNavigationTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
 
+  const homepagePreviewTranslations = {
+    en: {
+      "המחשה של ספריית המפות": "Map library illustration", "כך נראות המפות מבפנים": "A look inside the maps", "המחשת המוצר": "Product preview",
+      "מסלול עירוני": "City route", "תחנות מסודרות וניווט ישיר": "Organised stops and direct navigation", "תכנון לפי ימים": "Plan by day", "4 ימים בוורוצלב": "4 days in Wrocław", "כל יום באזור אחר בעיר": "A different part of the city each day", "מדריך מקומות": "Places guide", "אוכל, קפה וקניות": "Food, coffee and shopping", "בוחרים קטגוריה ומוצאים מקום": "Choose a category and find a place", "מסלולים מוכנים · מקומות מומלצים · ניווט ישיר": "Ready-made routes · recommended places · direct navigation", "גלו את כל המפות ↓": "Explore all maps ↓"
+    },
+    pl: {
+      "המחשה של ספריית המפות": "Ilustracja biblioteki map", "כך נראות המפות מבפנים": "Zajrzyj do naszych map", "המחשת המוצר": "Podgląd produktu",
+      "מסלול עירוני": "Trasa miejska", "תחנות מסודרות וניווט ישיר": "Uporządkowane przystanki i bezpośrednia nawigacja", "תכנון לפי ימים": "Plan według dni", "4 ימים בוורוצלב": "4 dni we Wrocławiu", "כל יום באזור אחר בעיר": "Każdy dzień w innej części miasta", "מדריך מקומות": "Przewodnik po miejscach", "אוכל, קפה וקניות": "Jedzenie, kawa i zakupy", "בוחרים קטגוריה ומוצאים מקום": "Wybierz kategorię i znajdź miejsce", "מסלולים מוכנים · מקומות מומלצים · ניווט ישיר": "Gotowe trasy · polecane miejsca · bezpośrednia nawigacja", "גלו את כל המפות ↓": "Odkryj wszystkie mapy ↓"
+    },
+    de: {
+      "המחשה של ספריית המפות": "Illustration der Kartenbibliothek", "כך נראות המפות מבפנים": "Ein Blick in unsere Karten", "המחשת המוצר": "Produktvorschau",
+      "מסלול עירוני": "Stadtroute", "תחנות מסודרות וניווט ישיר": "Geordnete Stopps und direkte Navigation", "תכנון לפי ימים": "Planung nach Tagen", "4 ימים בוורוצלב": "4 Tage in Wrocław", "כל יום באזור אחר בעיר": "Jeden Tag ein anderer Stadtteil", "מדריך מקומות": "Orte-Guide", "אוכל, קפה וקניות": "Essen, Kaffee und Einkaufen", "בוחרים קטגוריה ומוצאים מקום": "Kategorie wählen und Ort finden", "מסלולים מוכנים · מקומות מומלצים · ניווט ישיר": "Fertige Routen · empfohlene Orte · direkte Navigation", "גלו את כל המפות ↓": "Alle Karten entdecken ↓"
+    },
+    cs: {
+      "המחשה של ספריית המפות": "Ilustrace knihovny map", "כך נראות המפות מבפנים": "Nahlédněte do našich map", "המחשת המוצר": "Náhled produktu",
+      "מסלול עירוני": "Městská trasa", "תחנות מסודרות וניווט ישיר": "Uspořádané zastávky a přímá navigace", "תכנון לפי ימים": "Plánování podle dnů", "4 ימים בוורוצלב": "4 dny ve Vratislavi", "כל יום באזור אחר בעיר": "Každý den v jiné části města", "מדריך מקומות": "Průvodce místy", "אוכל, קפה וקניות": "Jídlo, káva a nákupy", "בוחרים קטגוריה ומוצאים מקום": "Vyberte kategorii a najděte místo", "מסלולים מוכנים · מקומות מומלצים · ניווט ישיר": "Hotové trasy · doporučená místa · přímá navigace", "גלו את כל המפות ↓": "Objevte všechny mapy ↓"
+    }
+  };
+  Object.entries(homepagePreviewTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
+
   const originalText = new WeakMap();
   const originalAttributes = new WeakMap();
   const originalTitle = document.title;
