@@ -77,31 +77,33 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="route-preview" aria-label="תצוגה מקדימה של המסלול">
+        <div className="route-preview" aria-label="המחשה של ספריית המפות">
           <div className="preview-topline">
-            <span>היום שלכם בוורוצלב</span>
-            <span className="live-dot">מסלול חי</span>
+            <span>כך נראות המפות מבפנים</span>
+            <span className="preview-badge">המחשת המוצר</span>
           </div>
-          <div className="preview-map">
-            <span className="river river-one" />
-            <span className="river river-two" />
-            <span className="street street-one" />
-            <span className="street street-two" />
-            <span className="street street-three" />
-            <span className="pin pin-one">1</span>
-            <span className="pin pin-two">2</span>
-            <span className="pin pin-three">3</span>
-            <span className="pin pin-four">4</span>
-            <div className="map-card">
-              <small>התחנה הבאה</small>
-              <strong>כיכר השוק של ורוצלב</strong>
-              <span>8 דקות הליכה</span>
+          <div className="preview-window">
+            <div className="preview-window-bar" aria-hidden="true"><span /><span /><span /><b>WROC-LOVE</b></div>
+            <div className="preview-map" aria-hidden="true">
+              <span className="river river-one" />
+              <span className="river river-two" />
+              <span className="street street-one" />
+              <span className="street street-two" />
+              <span className="street street-three" />
+              <span className="pin pin-one">1</span>
+              <span className="pin pin-two">2</span>
+              <span className="pin pin-three">3</span>
+              <span className="pin pin-four">4</span>
+            </div>
+            <div className="preview-products">
+              <article><small>מסלול עירוני</small><strong>24 שעות בוורוצלב</strong><span>תחנות מסודרות וניווט ישיר</span></article>
+              <article><small>תכנון לפי ימים</small><strong>4 ימים בוורוצלב</strong><span>כל יום באזור אחר בעיר</span></article>
+              <article><small>מדריך מקומות</small><strong>אוכל, קפה וקניות</strong><span>בוחרים קטגוריה ומוצאים מקום</span></article>
             </div>
           </div>
           <div className="preview-footer">
-            <span><b>09:00</b> מתחילים בנחת</span>
-            <span><b>8</b> תחנות</span>
-            <span><b>4.6 ק״מ</b> הליכה</span>
+            <span>מסלולים מוכנים · מקומות מומלצים · ניווט ישיר</span>
+            <a href="#products">גלו את כל המפות ↓</a>
           </div>
         </div>
       </section>
