@@ -3700,7 +3700,16 @@
         }
       ]
     },
-    "socialPosts": [],
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/"
+      }
+    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
