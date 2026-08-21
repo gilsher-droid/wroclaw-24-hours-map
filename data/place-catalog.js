@@ -913,15 +913,11 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/",
-        "originalLanguage": "he",
-        "contentRef": "boguslawskiego-facebook-122109385623398802"
+        "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc11E7HIcn/",
-        "originalLanguage": "he",
-        "contentRef": "boguslawskiego-facebook-122109385623398802"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc11E7HIcn/"
       },
       {
         "platform": "facebook",
@@ -1941,15 +1937,11 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/share/p/1HatdkPSmz/",
-        "originalLanguage": "he",
-        "contentRef": "church-of-peace-swidnica-social-Dbf-bApnAo5"
+        "url": "https://www.facebook.com/share/p/1HatdkPSmz/"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dbf-bApnAo5/?img_index=1",
-        "originalLanguage": "he",
-        "contentRef": "church-of-peace-swidnica-social-Dbf-bApnAo5"
+        "url": "https://www.instagram.com/p/Dbf-bApnAo5/?img_index=1"
       }
     ]
   },
@@ -3506,15 +3498,11 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/share/r/1Kx6Fvn9c2/",
-        "originalLanguage": "he",
-        "contentRef": "wroclaw-glowny-social-DcEIRe9DA_7"
+        "url": "https://www.facebook.com/share/r/1Kx6Fvn9c2/"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcEIRe9DA_7/",
-        "originalLanguage": "he",
-        "contentRef": "wroclaw-glowny-social-DcEIRe9DA_7"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcEIRe9DA_7/"
       }
     ]
   },
@@ -3723,15 +3711,11 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/",
-        "originalLanguage": "he",
-        "contentRef": "hala-stulecia-facebook-2026-08-21"
+        "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/",
-        "originalLanguage": "he",
-        "contentRef": "hala-stulecia-instagram-2026-08-21"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/"
       }
     ],
     "transport": {
@@ -3889,15 +3873,11 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/photo/?fbid=122110916907398802",
-        "originalLanguage": "he",
-        "contentRef": "hala-targowa-facebook-122110916907398802"
+        "url": "https://www.facebook.com/photo/?fbid=122110916907398802"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbpTgt_HFkH/",
-        "originalLanguage": "he",
-        "contentRef": "hala-targowa-instagram-DbpTgt_HFkH"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbpTgt_HFkH/"
       },
       {
         "platform": "facebook",
@@ -4958,15 +4938,11 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/share/p/1LmJyCrvFT/",
-        "originalLanguage": "he",
-        "contentRef": "kaplica-czaszek-social-Dbf9RSWnOB8"
+        "url": "https://www.facebook.com/share/p/1LmJyCrvFT/"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dbf9RSWnOB8/?img_index=1",
-        "originalLanguage": "he",
-        "contentRef": "kaplica-czaszek-social-Dbf9RSWnOB8"
+        "url": "https://www.instagram.com/p/Dbf9RSWnOB8/?img_index=1"
       }
     ]
   },
@@ -5768,15 +5744,11 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/share/p/19UBPN184V/",
-        "originalLanguage": "he",
-        "contentRef": "ksiaz-castle-social-Dbhy7ROHMi"
+        "url": "https://www.facebook.com/share/p/19UBPN184V/"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dbhy7ROHMi_/?img_index=1",
-        "originalLanguage": "he",
-        "contentRef": "ksiaz-castle-social-Dbhy7ROHMi"
+        "url": "https://www.instagram.com/p/Dbhy7ROHMi_/?img_index=1"
       }
     ]
   },
@@ -7572,15 +7544,11 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122111795823398802/",
-        "originalLanguage": "he",
-        "contentRef": "ossolineum-facebook-122111795823398802"
+        "url": "https://www.facebook.com/61591964083308/posts/122111795823398802/"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/",
-        "originalLanguage": "he",
-        "contentRef": "ossolineum-instagram-DbxOsQ_nEQt"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/"
       }
     ],
     "transport": {
@@ -11732,9 +11700,7 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122114783229398802/",
-        "originalLanguage": "he",
-        "contentRef": "zoo-wroclaw-social-DcTZronDED"
+        "url": "https://www.facebook.com/61591964083308/posts/122114783229398802/"
       },
       {
         "platform": "facebook",
@@ -11742,9 +11708,7 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/",
-        "originalLanguage": "he",
-        "contentRef": "zoo-wroclaw-social-DcTZronDED"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/"
       }
     ]
   }

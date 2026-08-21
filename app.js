@@ -64,15 +64,14 @@
 
   function resourceActionsHtml(location) {
     const resources = location.resources || {};
-    const socialAttributes = (platform, url) => window.WROC_SOCIAL_PREVIEW?.linkAttributes(location.canonicalPlaceId || location.id, platform, url) || "";
     const actions = [
       `<a class="resource-icon navigate-resource" href="${googleNavigationUrl(location)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("navigate"))}" title="${escapeHtml(t("navigate"))}"><span class="brand-icon media" aria-hidden="true">↗</span><span>${escapeHtml(actionLabel("navigate"))}</span></a>`
     ];
     if (resources.facebook) {
-      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener"${socialAttributes("facebook", resources.facebook)} aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="brand-icon facebook" aria-hidden="true">f</span><span>${escapeHtml(actionLabel("facebook"))}</span></a>`);
+      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="brand-icon facebook" aria-hidden="true">f</span><span>${escapeHtml(actionLabel("facebook"))}</span></a>`);
     }
     if (resources.instagram) {
-      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener"${socialAttributes("instagram", resources.instagram)} aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="brand-icon instagram" aria-hidden="true">◎</span><span>${escapeHtml(actionLabel("instagram"))}</span></a>`);
+      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="brand-icon instagram" aria-hidden="true">◎</span><span>${escapeHtml(actionLabel("instagram"))}</span></a>`);
     }
     if (resources.gallery?.length) {
       actions.push(`<button type="button" class="resource-icon gallery-resource open-gallery" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span class="brand-icon media" aria-hidden="true">▣</span><span>${escapeHtml(actionLabel("photos"))}</span></button>`);

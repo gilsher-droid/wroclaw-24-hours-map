@@ -251,7 +251,6 @@ for (const place of places.values()) {
   };
   place.socialPosts = [
     ...(place._canonicalSocialPosts || []),
-    ...(Array.isArray(resources.socialPosts) ? resources.socialPosts : []),
     ...(resources.facebook ? [{ platform: "facebook", url: resources.facebook }] : []),
     ...(resources.instagram ? [{ platform: "instagram", url: resources.instagram }] : []),
     ...place.sourceUrls.map((url) => ({ platform: "facebook", url })),

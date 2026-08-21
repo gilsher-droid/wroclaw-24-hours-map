@@ -19,13 +19,6 @@ if (!catalog?.places || !catalog?.aliases) throw new Error("Generated canonical 
 
 const ids = new Set();
 const aliases = new Map();
-const invalidSocialPosts = (posts) => !Array.isArray(posts) || posts.some((item) =>
-  !item?.platform
-  || !item?.url
-  || (item.originalLanguage != null && (typeof item.originalLanguage !== "string" || !/^[a-z]{2}(?:-[A-Z]{2})?$/.test(item.originalLanguage)))
-  || (item.contentRef != null && (typeof item.contentRef !== "string" || !item.contentRef.trim()))
-  || (item.contentRef != null && item.originalLanguage == null)
-);
 for (const record of source) {
   if (!record?.id || typeof record.id !== "string") throw new Error("Every independent place needs a stable string id.");
   if (ids.has(record.id)) throw new Error(`Duplicate independent canonical id: ${record.id}`);
@@ -75,8 +68,8 @@ for (const record of source) {
   if (record.provenance != null && (typeof record.provenance !== "object" || Array.isArray(record.provenance))) {
     throw new Error(`${record.id}: provenance must be an object when provided.`);
   }
-  if (record.socialPosts != null && invalidSocialPosts(record.socialPosts)) {
-    throw new Error(`${record.id}: socialPosts must contain platform/url and valid optional originalLanguage/contentRef values.`);
+  if (record.socialPosts != null && (!Array.isArray(record.socialPosts) || record.socialPosts.some((item) => !item?.platform || !item?.url))) {
+    throw new Error(`${record.id}: socialPosts must contain platform and url values.`);
   }
 
   const media = record.media || {};
@@ -107,46 +100,4 @@ for (const [alias, canonicalId] of Object.entries(catalog.aliases)) {
   if (!catalog.places[canonicalId]) throw new Error(`Catalog alias ${alias} points to missing place ${canonicalId}.`);
 }
 
-const enrichedByRef = new Map();
-const enrichedByUrl = new Map();
-for (const place of Object.values(catalog.places)) {
-  if (invalidSocialPosts(place.socialPosts)) {
-    throw new Error(`${place.id}: generated socialPosts contain invalid optional enrichment.`);
-  }
-  for (const post of place.socialPosts) {
-    if (!post.contentRef) continue;
-    if (!/^[A-Za-z0-9_-]+$/.test(post.contentRef)) {
-      throw new Error(`${place.id}: invalid contentRef path segment ${post.contentRef}.`);
-    }
-    const existingResource = enrichedByRef.get(post.contentRef);
-    if (existingResource && existingResource.originalLanguage !== post.originalLanguage) {
-      throw new Error(`${post.contentRef}: one contentRef cannot mix original languages.`);
-    }
-    const existingRef = enrichedByUrl.get(post.url);
-    if (existingRef && existingRef !== post.contentRef) {
-      throw new Error(`${post.url}: one social URL cannot use multiple contentRefs.`);
-    }
-    enrichedByRef.set(post.contentRef, { originalLanguage: post.originalLanguage });
-    enrichedByUrl.set(post.url, post.contentRef);
-  }
-}
-
-for (const [contentRef, metadata] of enrichedByRef) {
-  const resourcePath = resolve(root, "data/social-content", `${contentRef}.json`);
-  let resource;
-  try {
-    resource = JSON.parse(await readFile(resourcePath, "utf8"));
-  } catch (error) {
-    throw new Error(`${contentRef}: social-content resource is missing or invalid JSON (${error.message}).`);
-  }
-  if (resource.originalLanguage !== metadata.originalLanguage) {
-    throw new Error(`${contentRef}: resource originalLanguage does not match socialPosts metadata.`);
-  }
-  for (const language of languages) {
-    if (typeof resource.content?.[language] !== "string" || !resource.content[language].trim()) {
-      throw new Error(`${contentRef}: content.${language} is required.`);
-    }
-  }
-}
-
-console.log(`Canonical catalog validated: ${Object.keys(catalog.places).length} places, ${Object.keys(catalog.aliases).length} aliases, ${source.length} independent places, ${enrichedByUrl.size} localized social posts using ${enrichedByRef.size} resources.`);
+console.log(`Canonical catalog validated: ${Object.keys(catalog.places).length} places, ${Object.keys(catalog.aliases).length} aliases, ${source.length} independent places.`);
