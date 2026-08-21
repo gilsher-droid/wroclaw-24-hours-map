@@ -118,21 +118,20 @@ for (const place of Object.values(catalog.places)) {
     if (!/^[A-Za-z0-9_-]+$/.test(post.contentRef)) {
       throw new Error(`${place.id}: invalid contentRef path segment ${post.contentRef}.`);
     }
-    const identity = JSON.stringify({ platform: post.platform, url: post.url, originalLanguage: post.originalLanguage });
-    const existingIdentity = enrichedByRef.get(post.contentRef);
-    if (existingIdentity && existingIdentity !== identity) {
-      throw new Error(`${post.contentRef}: one contentRef cannot identify multiple social posts.`);
+    const existingResource = enrichedByRef.get(post.contentRef);
+    if (existingResource && existingResource.originalLanguage !== post.originalLanguage) {
+      throw new Error(`${post.contentRef}: one contentRef cannot mix original languages.`);
     }
     const existingRef = enrichedByUrl.get(post.url);
     if (existingRef && existingRef !== post.contentRef) {
       throw new Error(`${post.url}: one social URL cannot use multiple contentRefs.`);
     }
-    enrichedByRef.set(post.contentRef, identity);
+    enrichedByRef.set(post.contentRef, { originalLanguage: post.originalLanguage });
     enrichedByUrl.set(post.url, post.contentRef);
   }
 }
 
-for (const [contentRef, identity] of enrichedByRef) {
+for (const [contentRef, metadata] of enrichedByRef) {
   const resourcePath = resolve(root, "data/social-content", `${contentRef}.json`);
   let resource;
   try {
@@ -140,8 +139,7 @@ for (const [contentRef, identity] of enrichedByRef) {
   } catch (error) {
     throw new Error(`${contentRef}: social-content resource is missing or invalid JSON (${error.message}).`);
   }
-  const { originalLanguage } = JSON.parse(identity);
-  if (resource.originalLanguage !== originalLanguage) {
+  if (resource.originalLanguage !== metadata.originalLanguage) {
     throw new Error(`${contentRef}: resource originalLanguage does not match socialPosts metadata.`);
   }
   for (const language of languages) {
@@ -151,4 +149,4 @@ for (const [contentRef, identity] of enrichedByRef) {
   }
 }
 
-console.log(`Canonical catalog validated: ${Object.keys(catalog.places).length} places, ${Object.keys(catalog.aliases).length} aliases, ${source.length} independent places, ${enrichedByRef.size} localized social posts.`);
+console.log(`Canonical catalog validated: ${Object.keys(catalog.places).length} places, ${Object.keys(catalog.aliases).length} aliases, ${source.length} independent places, ${enrichedByUrl.size} localized social posts using ${enrichedByRef.size} resources.`);
