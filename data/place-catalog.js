@@ -913,7 +913,9 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/",
+        "originalLanguage": "he",
+        "contentRef": "boguslawskiego-facebook-122109385623398802"
       },
       {
         "platform": "instagram",
@@ -3869,11 +3871,15 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/photo/?fbid=122110916907398802"
+        "url": "https://www.facebook.com/photo/?fbid=122110916907398802",
+        "originalLanguage": "he",
+        "contentRef": "hala-targowa-facebook-122110916907398802"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbpTgt_HFkH/"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbpTgt_HFkH/",
+        "originalLanguage": "he",
+        "contentRef": "hala-targowa-instagram-DbpTgt_HFkH"
       },
       {
         "platform": "facebook",
@@ -7536,11 +7542,15 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122111795823398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122111795823398802/",
+        "originalLanguage": "he",
+        "contentRef": "ossolineum-facebook-122111795823398802"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/",
+        "originalLanguage": "he",
+        "contentRef": "ossolineum-instagram-DbxOsQ_nEQt"
       }
     ],
     "transport": {

@@ -1,5 +1,6 @@
 import { readFile, stat } from "node:fs/promises";
 import { resolve } from "node:path";
+import { runInNewContext } from "node:vm";
 
 const root = process.cwd();
 const artifact = resolve(root, "dist/client");
@@ -11,8 +12,6 @@ const requiredFiles = [
   "data/moshe-route.js",
   "data/lifestyle-places.js",
   "data/lower-silesia-excursions.js",
-  "data/social-content/hala-stulecia-facebook-2026-08-21.json",
-  "data/social-content/hala-stulecia-instagram-2026-08-21.json",
   "social-preview.css",
   "social-preview.js",
 ];
@@ -23,6 +22,21 @@ for (const relativePath of requiredFiles) {
   if (!file?.isFile() || file.size === 0) {
     throw new Error(`Pages artifact is missing required canonical asset: ${relativePath}`);
   }
+}
+
+const window = {};
+runInNewContext(await readFile(resolve(artifact, "data/place-catalog.js"), "utf8"), { window, console });
+const contentRefs = new Set(Object.values(window.WROC_CATALOG.places).flatMap((place) =>
+  place.socialPosts.map((post) => post.contentRef).filter(Boolean),
+));
+for (const contentRef of contentRefs) {
+  const relativePath = `data/social-content/${contentRef}.json`;
+  const absolutePath = resolve(artifact, relativePath);
+  const file = await stat(absolutePath).catch(() => null);
+  if (!file?.isFile() || file.size === 0) {
+    throw new Error(`Pages artifact is missing localized social resource: ${relativePath}`);
+  }
+  JSON.parse(await readFile(absolutePath, "utf8"));
 }
 
 const pages = [
@@ -52,4 +66,4 @@ for (const [pagePath, routeDataPath] of pages) {
   }
 }
 
-console.log("Pages artifact verified: canonical catalog assets are present, non-empty, and ordered correctly.");
+console.log(`Pages artifact verified: canonical assets and ${contentRefs.size} localized social resources are present, non-empty, and ordered correctly.`);

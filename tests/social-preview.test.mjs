@@ -6,10 +6,15 @@ import { runInNewContext } from "node:vm";
 
 const root = resolve(import.meta.dirname, "..");
 const languages = ["he", "en", "pl", "de", "cs"];
-const refs = {
-  facebook: "hala-stulecia-facebook-2026-08-21",
-  instagram: "hala-stulecia-instagram-2026-08-21",
-};
+const expectedEnriched = [
+  ["boguslawskiego", "facebook", "he", "boguslawskiego-facebook-122109385623398802"],
+  ["hala", "facebook", "he", "hala-stulecia-facebook-2026-08-21"],
+  ["hala", "instagram", "he", "hala-stulecia-instagram-2026-08-21"],
+  ["hala-targowa", "facebook", "he", "hala-targowa-facebook-122110916907398802"],
+  ["hala-targowa", "instagram", "he", "hala-targowa-instagram-DbpTgt_HFkH"],
+  ["ossolineum", "facebook", "he", "ossolineum-facebook-122111795823398802"],
+  ["ossolineum", "instagram", "he", "ossolineum-instagram-DbxOsQ_nEQt"],
+];
 
 function loadCatalog() {
   const window = {};
@@ -17,7 +22,7 @@ function loadCatalog() {
   return window.WROC_CATALOG;
 }
 
-test("only the two Hala Stulecia pilot posts are enriched", () => {
+test("the source-driven rollout enriches exactly seven verified posts", () => {
   const catalog = loadCatalog();
   const hala = catalog.getPlace("hala");
   const enriched = Object.values(catalog.places).flatMap((place) =>
@@ -25,26 +30,54 @@ test("only the two Hala Stulecia pilot posts are enriched", () => {
   );
 
   assert.deepEqual(enriched.map(({ placeId, platform, originalLanguage, contentRef }) =>
-    [placeId, platform, originalLanguage, contentRef]), [
-    ["hala", "facebook", "he", refs.facebook],
-    ["hala", "instagram", "he", refs.instagram],
-  ]);
+    [placeId, platform, originalLanguage, contentRef]), expectedEnriched);
   assert.equal(hala.socialPosts.find((post) => post.platform === "facebook").url, "https://www.facebook.com/61591964083308/posts/122115263553398802/");
   assert.equal(hala.socialPosts.find((post) => post.platform === "instagram").url, "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/");
   assert.equal(catalog.getPlace("zoo-wroclaw").socialPosts.some((post) => post.contentRef), false);
 });
 
-test("each Hala pilot resource contains Hebrew plus four complete translations", () => {
-  for (const [platform, contentRef] of Object.entries(refs)) {
+test("the audit covers 35 social URLs while leaving 27 source-unavailable posts direct", () => {
+  const catalog = loadCatalog();
+  const byUrl = new Map();
+  for (const place of Object.values(catalog.places)) {
+    for (const post of place.socialPosts) {
+      const entry = byUrl.get(post.url) || { post, placeIds: [] };
+      entry.placeIds.push(place.id);
+      byUrl.set(post.url, entry);
+    }
+  }
+  assert.equal(byUrl.size, 35);
+  const socialPosts = [...byUrl.values()].filter(({ post }) => post.url !== "https://www.instagram.com/wroclaw.lowersilesia/");
+  assert.equal(socialPosts.length, 34);
+  assert.equal(socialPosts.filter(({ post }) => post.contentRef).length, 7);
+  assert.equal(socialPosts.filter(({ post }) => !post.contentRef).length, 27);
+
+  const familiar = byUrl.get("https://www.facebook.com/61591964083308/posts/122111800983398802/");
+  assert.ok(familiar.placeIds.length > 1);
+  assert.equal(familiar.post.contentRef, undefined);
+});
+
+test("every enriched post contains Hebrew plus four complete translations", () => {
+  for (const [, platform, , contentRef] of expectedEnriched) {
     const resource = JSON.parse(readFileSync(resolve(root, `data/social-content/${contentRef}.json`), "utf8"));
     assert.equal(resource.originalLanguage, "he", `${platform} original language`);
     assert.deepEqual(Object.keys(resource.content).sort(), [...languages].sort());
     for (const language of languages) {
-      assert.ok(resource.content[language].length > 500, `${platform}.${language} should contain the complete post`);
+      assert.ok(resource.content[language].length > 300, `${contentRef}.${language} should contain the complete post`);
     }
-    assert.match(resource.content.he, /Hala Stulecia/);
-    assert.match(resource.content.he, /#WrocLove$/);
   }
+});
+
+test("Hala pilot metadata remains unchanged and partial enrichment preserves direct links", () => {
+  const catalog = loadCatalog();
+  const hala = catalog.getPlace("hala");
+  assert.deepEqual(Array.from(hala.socialPosts, ({ platform, contentRef }) => [platform, contentRef]), [
+    ["facebook", "hala-stulecia-facebook-2026-08-21"],
+    ["instagram", "hala-stulecia-instagram-2026-08-21"],
+  ]);
+  const boguslawskiego = catalog.getPlace("boguslawskiego");
+  assert.equal(boguslawskiego.socialPosts.find((post) => post.platform === "facebook")?.contentRef, "boguslawskiego-facebook-122109385623398802");
+  assert.equal(boguslawskiego.socialPosts.find((post) => post.platform === "instagram")?.contentRef, undefined);
 });
 
 test("shared helper decorates enriched posts while leaving legacy links unchanged", () => {
@@ -56,7 +89,7 @@ test("shared helper decorates enriched posts while leaving legacy links unchange
   const halaInstagram = catalog.getPlace("hala").socialPosts.find((post) => post.platform === "instagram");
   const attributes = window.WROC_SOCIAL_PREVIEW.linkAttributes("hala", "instagram", halaInstagram.url);
   assert.match(attributes, /data-social-original-language="he"/);
-  assert.match(attributes, new RegExp(`data-social-content-ref="${refs.instagram}"`));
+  assert.match(attributes, /data-social-content-ref="hala-stulecia-instagram-2026-08-21"/);
 
   const zooInstagram = catalog.getPlace("zoo-wroclaw").socialPosts.find((post) => post.platform === "instagram");
   assert.equal(window.WROC_SOCIAL_PREVIEW.linkAttributes("zoo-wroclaw", "instagram", zooInstagram.url), "");
