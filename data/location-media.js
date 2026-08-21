@@ -156,6 +156,10 @@
       { he: "חזית תחנת Wrocław Główny", en: "Wrocław Główny exterior", pl: "Fasada dworca Wrocław Główny", de: "Fassade des Hauptbahnhofs Wrocław", cs: "Průčelí nádraží Wrocław Główny" },
       { he: "התחנה והכיכר שלפניה", en: "The station and its forecourt", pl: "Dworzec i plac przed nim", de: "Der Bahnhof und sein Vorplatz", cs: "Nádraží a přednádražní prostor" }
     ]),
+    "zoo-wroclaw": canonicalResources("zoo-wroclaw", [
+      { he: "Afrykarium והעולם התת־מימי", en: "Afrykarium underwater experience", pl: "Podwodny świat Afrykarium", de: "Unterwasserwelt des Afrykariums", cs: "Podvodní svět Afrykaria" },
+      { he: "בעל חיים בתנועה מתחת למים", en: "Aquatic animal in motion", pl: "Zwierzę wodne w ruchu", de: "Wassertier in Bewegung", cs: "Vodní zvíře v pohybu" }
+    ]),
     renoma: { gallery: galleries.renoma },
     nfm: { gallery: galleries.nfm },
     opera: { facebook: facebook.opera, gallery: galleries.opera },
