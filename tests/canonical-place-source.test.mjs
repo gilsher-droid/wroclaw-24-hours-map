@@ -163,7 +163,10 @@ test("ZOO Wrocław is one canonical place referenced by Four Days with curated m
     assert.ok(existsSync(resolve(root, asset.slice(1))), `missing Zoo asset ${asset}`);
   });
   assert.equal(place.socialPosts.filter((post) => post.platform === "facebook").length, 2);
-  assert.equal(place.socialPosts.some((post) => post.platform === "instagram"), false);
+  assert.equal(
+    place.socialPosts.find((post) => post.platform === "instagram")?.url,
+    "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/",
+  );
 
   const zooStop = window.PREMIUM_STOPS.find((stop) => stop.id === "zoo-wroclaw");
   assert.ok(zooStop);
@@ -179,5 +182,5 @@ test("ZOO Wrocław is one canonical place referenced by Four Days with curated m
   assert.deepEqual(Array.from(resources.gallery), Array.from(place.media.photos));
   assert.deepEqual(Array.from(resources.videos, (video) => video.src), Array.from(place.media.videos));
   assert.equal(resources.facebook, "https://www.facebook.com/61591964083308/posts/122114783229398802/");
-  assert.equal(Object.hasOwn(resources, "instagram"), false);
+  assert.equal(resources.instagram, "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/");
 });
