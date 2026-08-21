@@ -206,7 +206,8 @@
       facebook: facebook.boguslawskiego,
       instagram: instagram.boguslawskiego,
       socialPosts: [
-        { platform: "facebook", url: facebook.boguslawskiego, originalLanguage: "he", contentRef: "boguslawskiego-facebook-122109385623398802" }
+        { platform: "facebook", url: facebook.boguslawskiego, originalLanguage: "he", contentRef: "boguslawskiego-facebook-122109385623398802" },
+        { platform: "instagram", url: instagram.boguslawskiego, originalLanguage: "he", contentRef: "boguslawskiego-facebook-122109385623398802" }
       ],
       gallery: galleries.boguslawskiego
     }
