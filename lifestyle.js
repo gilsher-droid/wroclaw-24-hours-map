@@ -94,9 +94,10 @@
 
   function actionHtml(place) {
     const media = place.mediaKey ? resources[place.mediaKey] : null;
+    const socialAttributes = (platform, url) => window.WROC_SOCIAL_PREVIEW?.linkAttributes(place.canonicalPlaceId || place.id, platform, url) || "";
     const actions = [`<a href="${googleUrl(place)}" target="_blank" rel="noopener"><span class="brand-icon media">↗</span>${tr("navigate")}</a>`];
-    if (place.sourceUrl) actions.push(`<a href="${place.sourceUrl}" target="_blank" rel="noopener"><span class="brand-icon facebook">f</span>${tr("readPost")}</a>`);
-    if (media?.instagram) actions.push(`<a href="${media.instagram}" target="_blank" rel="noopener"><span class="brand-icon instagram">◎</span>${tr("instagram")}</a>`);
+    if (place.sourceUrl) actions.push(`<a href="${place.sourceUrl}" target="_blank" rel="noopener"${socialAttributes("facebook", place.sourceUrl)}><span class="brand-icon facebook">f</span>${tr("readPost")}</a>`);
+    if (media?.instagram) actions.push(`<a href="${media.instagram}" target="_blank" rel="noopener"${socialAttributes("instagram", media.instagram)}><span class="brand-icon instagram">◎</span>${tr("instagram")}</a>`);
     if (media?.gallery?.length) actions.push(`<button type="button" data-gallery="${place.id}"><span class="brand-icon media">▣</span>${tr("photos")}</button>`);
     if (media?.videos?.length) actions.push(`<button type="button" data-video="${place.id}"><span class="brand-icon media">▶</span>${tr("videos")}</button>`);
     return actions.join("");

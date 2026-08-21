@@ -149,7 +149,26 @@
     "ostrow-cathedral": { facebook: facebook.ostrow, instagram: instagram.ostrow, gallery: galleries.ostrow },
     hydropolis: { facebook: facebook.hydropolis, instagram: instagram.hydropolis, gallery: galleries.hydropolis },
     panorama: { facebook: facebook.panorama, instagram: instagram.panorama, gallery: galleries.panorama },
-    hala: { facebook: facebook.hala, instagram: instagram.hala, gallery: galleries.stulecia, videos: videos.stulecia },
+    hala: {
+      facebook: facebook.hala,
+      instagram: instagram.hala,
+      socialPosts: [
+        {
+          platform: "facebook",
+          url: facebook.hala,
+          originalLanguage: "he",
+          contentRef: "hala-stulecia-facebook-2026-08-21"
+        },
+        {
+          platform: "instagram",
+          url: instagram.hala,
+          originalLanguage: "he",
+          contentRef: "hala-stulecia-instagram-2026-08-21"
+        }
+      ],
+      gallery: galleries.stulecia,
+      videos: videos.stulecia
+    },
     fountain: { gallery: galleries.stulecia, videos: videos.stulecia },
     japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: galleries.japanese },
     wroclavia: { gallery: galleries.wroclavia },

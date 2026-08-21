@@ -251,8 +251,10 @@ for (const place of places.values()) {
   };
   place.socialPosts = [
     ...(place._canonicalSocialPosts || []),
-    ...(resources.facebook ? [{ platform: "facebook", url: resources.facebook }] : []),
-    ...(resources.instagram ? [{ platform: "instagram", url: resources.instagram }] : []),
+    ...(Array.isArray(resources.socialPosts) ? resources.socialPosts : [
+      ...(resources.facebook ? [{ platform: "facebook", url: resources.facebook }] : []),
+      ...(resources.instagram ? [{ platform: "instagram", url: resources.instagram }] : []),
+    ]),
     ...place.sourceUrls.map((url) => ({ platform: "facebook", url })),
   ].filter((item, index, all) => all.findIndex((other) => other.platform === item.platform && other.url === item.url) === index);
   place.transport = {
