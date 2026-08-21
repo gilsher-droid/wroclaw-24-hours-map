@@ -11389,6 +11389,303 @@
       "de",
       "cs"
     ]
+  },
+  "zoo-wroclaw": {
+    "id": "zoo-wroclaw",
+    "localName": "ZOO Wrocław",
+    "name": {
+      "he": "גן החיות של ורוצלב",
+      "en": "ZOO Wrocław",
+      "pl": "ZOO Wrocław",
+      "de": "Zoo Wrocław",
+      "cs": "Zoo Wrocław"
+    },
+    "description": {
+      "he": "גן החיות הוותיק ביותר בפולין הוא ביקור של כמה שעות, לא עצירה קצרה. לצד בעלי החיים והמרחבים הירוקים, Afrykarium מציג מערכות אקולוגיות מימיות של אפריקה ונכלל בכרטיס הכניסה הרגיל.",
+      "en": "Poland’s oldest zoo is a several-hour visit, not a quick stop. Alongside its animals and green grounds, the Afrykarium presents African aquatic ecosystems and is included with standard zoo admission.",
+      "pl": "Najstarszy ogród zoologiczny w Polsce to miejsce na kilka godzin, a nie krótki przystanek. Oprócz zwierząt i zielonych terenów warto zobaczyć Afrykarium poświęcone afrykańskim ekosystemom wodnym, dostępne w ramach zwykłego biletu do zoo.",
+      "de": "Der älteste Zoo Polens ist ein Besuch für mehrere Stunden, kein kurzer Zwischenstopp. Neben Tieren und grünen Anlagen zeigt das im normalen Eintritt enthaltene Afrykarium afrikanische Wasserökosysteme.",
+      "cs": "Nejstarší zoologická zahrada v Polsku je návštěva na několik hodin, ne krátká zastávka. Kromě zvířat a zeleného areálu nabízí Afrykarium africké vodní ekosystémy a je zahrnuto v běžné vstupence do zoo."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.10565,
+        "lng": 17.0762194
+      },
+      "address": {
+        "street": "Zygmunta Wróblewskiego 1-5",
+        "postalCode": "51-618",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "family-attraction",
+      "nature",
+      "zoo"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "wroclaw-zoo",
+      "zoo-wrocław"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "zoo-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "high",
+    "taxonomy": {
+      "categories": [
+        "family-attraction",
+        "nature",
+        "zoo"
+      ],
+      "tags": [
+        "animals",
+        "afrykarium",
+        "aquarium",
+        "family",
+        "photography",
+        "nature",
+        "wroclaw",
+        "east-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [
+        "families",
+        "couples",
+        "solo",
+        "adults",
+        "children",
+        "animal-lovers",
+        "photographers"
+      ],
+      "walkingIntensity": "moderate",
+      "familyFriendly": true,
+      "couples": true,
+      "solo": true,
+      "romantic": false,
+      "indoorOutdoor": "both",
+      "rainFriendly": "partial",
+      "budgetLevel": null,
+      "accessibility": {
+        "level": "partial",
+        "notes": {
+          "he": "Afrykarium ומספר ביתנים מרכזיים מותאמים לכיסאות גלגלים; בביתנים היסטוריים מסוימים הנגישות חלקית.",
+          "en": "The Afrykarium and several major pavilions are wheelchair accessible; access remains partial in some historic buildings.",
+          "pl": "Afrykarium i kilka głównych pawilonów są dostępne dla osób na wózkach; w niektórych zabytkowych budynkach dostępność pozostaje częściowa.",
+          "de": "Das Afrykarium und mehrere große Pavillons sind rollstuhlgerecht; in einigen historischen Gebäuden ist der Zugang nur teilweise möglich.",
+          "cs": "Afrykarium a několik hlavních pavilonů jsou přístupné pro vozíčkáře; v některých historických budovách je přístupnost pouze částečná."
+        }
+      }
+    },
+    "visit": {
+      "durationMinutes": 240,
+      "bestTimeOfDay": [
+        "morning",
+        "afternoon"
+      ],
+      "seasonalSuitability": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zoo.wroclaw.pl/en/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10565%2C17.0762194",
+        "appleMaps": "https://maps.apple.com/?ll=51.10565,17.0762194&q=ZOO%20Wroc%C5%82aw"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "afrykarium",
+        "tags": [
+          "aquarium",
+          "aquatic",
+          "immersive",
+          "family"
+        ]
+      },
+      {
+        "id": "zoo-grounds",
+        "tags": [
+          "animals",
+          "nature",
+          "walking",
+          "photography"
+        ]
+      }
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalContent": true,
+      "originalPhotography": true,
+      "originalVideo": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://zoo.wroclaw.pl/en/",
+          "checkedAt": "2026-08-21"
+        },
+        {
+          "type": "history",
+          "url": "https://zoo.wroclaw.pl/wystawa-160-lat-zoo-wroclaw-pod-dworcem-wroclaw-glowny/",
+          "checkedAt": "2026-08-21"
+        },
+        {
+          "type": "address-coordinates",
+          "url": "https://zoo.wroclaw.pl/en/arrival/",
+          "checkedAt": "2026-08-21",
+          "note": "Official GPS: 51°06′20.34″N 17°04′34.39″E"
+        },
+        {
+          "type": "accessibility",
+          "url": "https://zoo.wroclaw.pl/zwiedzanie/osoby-z-niepelnosprawnosciami/",
+          "checkedAt": "2026-08-21"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/zoo-wroclaw-01.jpg",
+        "/assets/zoo-wroclaw-02.jpg",
+        "/assets/zoo-wroclaw-03.jpg",
+        "/assets/zoo-wroclaw-04.jpg",
+        "/assets/zoo-wroclaw-05.jpg",
+        "/assets/zoo-wroclaw-06.jpg",
+        "/assets/zoo-wroclaw-07.jpg",
+        "/assets/zoo-wroclaw-08.jpg"
+      ],
+      "videos": [
+        "/assets/zoo-wroclaw-afrykarium.mp4",
+        "/assets/zoo-wroclaw-aquatic-animal.mp4"
+      ],
+      "metadata": {
+        "/assets/zoo-wroclaw-01.jpg": {
+          "tags": [
+            "elephant",
+            "large-animal",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true,
+          "sourceFile": "IMG_5048.JPG"
+        },
+        "/assets/zoo-wroclaw-02.jpg": {
+          "tags": [
+            "large-animal",
+            "outdoor-exhibit"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4975.JPG"
+        },
+        "/assets/zoo-wroclaw-03.jpg": {
+          "tags": [
+            "zoo-environment",
+            "animal-exhibit"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4995.JPG"
+        },
+        "/assets/zoo-wroclaw-04.jpg": {
+          "tags": [
+            "afrykarium",
+            "underwater-tunnel",
+            "visitor-experience"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5018.JPG"
+        },
+        "/assets/zoo-wroclaw-05.jpg": {
+          "tags": [
+            "okapi",
+            "animal"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5033.JPG"
+        },
+        "/assets/zoo-wroclaw-06.jpg": {
+          "tags": [
+            "afrykarium",
+            "aquarium",
+            "fish"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5042.JPG"
+        },
+        "/assets/zoo-wroclaw-07.jpg": {
+          "tags": [
+            "chimpanzee",
+            "primate"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5044.JPG"
+        },
+        "/assets/zoo-wroclaw-08.jpg": {
+          "tags": [
+            "zoo-environment",
+            "walking-route"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5049.JPG"
+        },
+        "/assets/zoo-wroclaw-afrykarium.mp4": {
+          "tags": [
+            "afrykarium",
+            "underwater",
+            "aquatic"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4998.MOV"
+        },
+        "/assets/zoo-wroclaw-aquatic-animal.mp4": {
+          "tags": [
+            "aquatic-animal",
+            "movement",
+            "underwater"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5020.MOV"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122114783229398802/"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/groups/2525899074519424/posts/2563503317425666/"
+      }
+    ]
   }
 };
   const aliases = {
@@ -11412,7 +11709,9 @@
   "skull-chapel": "kaplica-czaszek-czermna",
   "chapel-of-skulls": "kaplica-czaszek-czermna",
   "kaplica-czaszek-w-czermnej": "kaplica-czaszek-czermna",
-  "kaplica-czaszek-kudowa-zdroj": "kaplica-czaszek-czermna"
+  "kaplica-czaszek-kudowa-zdroj": "kaplica-czaszek-czermna",
+  "wroclaw-zoo": "zoo-wroclaw",
+  "zoo-wrocław": "zoo-wroclaw"
 };
   const relatedPlaces = {
   "ostrow-cathedral": [

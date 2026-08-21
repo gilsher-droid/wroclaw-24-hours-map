@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { resolve } from "node:path";
 import { spawnSync } from "node:child_process";
@@ -66,8 +66,8 @@ test("an independent Lower Silesia place is supported without changing current p
     const baselineFile = resolve(root, "data/place-catalog.js");
     const baseline = loadCatalog(baselineFile);
     const candidate = loadCatalog(outputFile);
-    assert.equal(Object.keys(baseline.places).length, 90);
-    assert.equal(Object.keys(candidate.places).length, 91);
+    assert.equal(Object.keys(baseline.places).length, 91);
+    assert.equal(Object.keys(candidate.places).length, 92);
     assert.equal(baseline.coordinateConflicts.length, 28);
     assert.equal(JSON.stringify(candidate.coordinateConflicts), JSON.stringify(baseline.coordinateConflicts));
 
@@ -109,8 +109,8 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
   const place = catalog.getPlace("ksiaz-castle");
 
   assert.ok(place);
-  assert.equal(Object.keys(catalog.places).length, 90);
-  assert.equal(Object.keys(catalog.aliases).length, 21);
+  assert.equal(Object.keys(catalog.places).length, 91);
+  assert.equal(Object.keys(catalog.aliases).length, 23);
   assert.equal(catalog.coordinateConflicts.length, 28);
   assert.equal(place.localName, "Zamek Książ w Wałbrzychu");
   assert.equal(place.location.countryCode, "PL");
@@ -135,4 +135,49 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
     const records = [...(product.stops || []), ...(product.recommendations || []), ...(product.places || [])];
     assert.equal(records.some((record) => record.placeId === "ksiaz-castle"), false);
   }
+});
+
+test("ZOO Wrocław is one canonical place referenced by Four Days with curated media", () => {
+  const window = {};
+  const context = { window, console };
+  runInNewContext(readFileSync(resolve(root, "data/extra-languages.js"), "utf8"), context);
+  runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
+  runInNewContext(readFileSync(resolve(root, "data/premium-route.js"), "utf8"), context);
+  runInNewContext(readFileSync(resolve(root, "data/location-media.js"), "utf8"), context);
+
+  const catalog = window.WROC_CATALOG;
+  const place = catalog.getPlace("zoo-wroclaw");
+  assert.ok(place);
+  assert.equal(catalog.resolveId("wroclaw-zoo"), "zoo-wroclaw");
+  assert.equal(place.localName, "ZOO Wrocław");
+  assert.equal(place.location.cityId, "wroclaw");
+  assert.equal(place.visit.durationMinutes, 240);
+  assert.deepEqual(Object.keys(place.name).sort(), ["cs", "de", "en", "he", "pl"]);
+  assert.deepEqual(Object.keys(place.description).sort(), ["cs", "de", "en", "he", "pl"]);
+  assert.equal(place.media.photos.length, 8);
+  assert.equal(new Set(place.media.photos).size, 8);
+  assert.equal(place.media.videos.length, 2);
+  assert.equal(place.media.metadata["/assets/zoo-wroclaw-afrykarium.mp4"].sourceFile, "IMG_4998.MOV");
+  assert.equal(place.media.metadata["/assets/zoo-wroclaw-aquatic-animal.mp4"].sourceFile, "IMG_5020.MOV");
+  [...place.media.photos, ...place.media.videos].forEach((asset) => {
+    assert.ok(existsSync(resolve(root, asset.slice(1))), `missing Zoo asset ${asset}`);
+  });
+  assert.equal(place.socialPosts.filter((post) => post.platform === "facebook").length, 2);
+  assert.equal(place.socialPosts.some((post) => post.platform === "instagram"), false);
+
+  const zooStop = window.PREMIUM_STOPS.find((stop) => stop.id === "zoo-wroclaw");
+  assert.ok(zooStop);
+  assert.equal(zooStop.day, 3);
+  assert.equal(zooStop.order, 6);
+  assert.equal(zooStop.duration, "3–4 h");
+  assert.equal(zooStop.canonicalPlaceId, "zoo-wroclaw");
+  assert.equal(zooStop.name, place.name);
+  assert.equal(zooStop.description, place.description);
+  assert.deepEqual(Array.from(zooStop.coordinates), [place.location.coordinates.lat, place.location.coordinates.lng]);
+
+  const resources = window.WROC_LOCATION_MEDIA["zoo-wroclaw"];
+  assert.deepEqual(Array.from(resources.gallery), Array.from(place.media.photos));
+  assert.deepEqual(Array.from(resources.videos, (video) => video.src), Array.from(place.media.videos));
+  assert.equal(resources.facebook, "https://www.facebook.com/61591964083308/posts/122114783229398802/");
+  assert.equal(Object.hasOwn(resources, "instagram"), false);
 });
