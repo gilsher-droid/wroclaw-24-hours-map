@@ -133,25 +133,8 @@
     university: { facebook: facebook.university, instagram: instagram.university, gallery: galleries.university },
     aula: { facebook: facebook.university, instagram: instagram.university, gallery: galleries.aula },
     "math-tower": { facebook: facebook.university, instagram: instagram.university, gallery: galleries.university },
-    ossolineum: {
-      facebook: facebook.ossolineum,
-      instagram: instagram.ossolineum,
-      socialPosts: [
-        { platform: "facebook", url: facebook.ossolineum, originalLanguage: "he", contentRef: "ossolineum-facebook-122111795823398802" },
-        { platform: "instagram", url: instagram.ossolineum, originalLanguage: "he", contentRef: "ossolineum-instagram-DbxOsQ_nEQt" }
-      ],
-      gallery: galleries.ossolineum,
-      videos: videos.ossolineum
-    },
-    "hala-targowa": {
-      facebook: facebook.marketHall,
-      instagram: instagram.marketHall,
-      socialPosts: [
-        { platform: "facebook", url: facebook.marketHall, originalLanguage: "he", contentRef: "hala-targowa-facebook-122110916907398802" },
-        { platform: "instagram", url: instagram.marketHall, originalLanguage: "he", contentRef: "hala-targowa-instagram-DbpTgt_HFkH" }
-      ],
-      gallery: galleries.marketHall
-    },
+    ossolineum: { facebook: facebook.ossolineum, instagram: instagram.ossolineum, gallery: galleries.ossolineum, videos: videos.ossolineum },
+    "hala-targowa": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
     "market-hall": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
     chatka: { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries.chatka },
     "pan-precel": { facebook: facebook.familiar, instagram: instagram.familiar },
@@ -166,26 +149,7 @@
     "ostrow-cathedral": { facebook: facebook.ostrow, instagram: instagram.ostrow, gallery: galleries.ostrow },
     hydropolis: { facebook: facebook.hydropolis, instagram: instagram.hydropolis, gallery: galleries.hydropolis },
     panorama: { facebook: facebook.panorama, instagram: instagram.panorama, gallery: galleries.panorama },
-    hala: {
-      facebook: facebook.hala,
-      instagram: instagram.hala,
-      socialPosts: [
-        {
-          platform: "facebook",
-          url: facebook.hala,
-          originalLanguage: "he",
-          contentRef: "hala-stulecia-facebook-2026-08-21"
-        },
-        {
-          platform: "instagram",
-          url: instagram.hala,
-          originalLanguage: "he",
-          contentRef: "hala-stulecia-instagram-2026-08-21"
-        }
-      ],
-      gallery: galleries.stulecia,
-      videos: videos.stulecia
-    },
+    hala: { facebook: facebook.hala, instagram: instagram.hala, gallery: galleries.stulecia, videos: videos.stulecia },
     fountain: { gallery: galleries.stulecia, videos: videos.stulecia },
     japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: galleries.japanese },
     wroclavia: { gallery: galleries.wroclavia },
@@ -202,15 +166,7 @@
     nfm: { gallery: galleries.nfm },
     opera: { facebook: facebook.opera, gallery: galleries.opera },
     "culture-evening": { facebook: facebook.opera, gallery: [...galleries.opera, ...galleries.nfm] },
-    boguslawskiego: {
-      facebook: facebook.boguslawskiego,
-      instagram: instagram.boguslawskiego,
-      socialPosts: [
-        { platform: "facebook", url: facebook.boguslawskiego, originalLanguage: "he", contentRef: "boguslawskiego-facebook-122109385623398802" },
-        { platform: "instagram", url: instagram.boguslawskiego, originalLanguage: "he", contentRef: "boguslawskiego-facebook-122109385623398802" }
-      ],
-      gallery: galleries.boguslawskiego
-    }
+    boguslawskiego: { facebook: facebook.boguslawskiego, instagram: instagram.boguslawskiego, gallery: galleries.boguslawskiego }
   };
 
   window.WROC_LOCATION_MEDIA = resources;
