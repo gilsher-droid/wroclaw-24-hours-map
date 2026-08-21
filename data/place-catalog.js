@@ -11684,6 +11684,10 @@
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/groups/2525899074519424/posts/2563503317425666/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/"
       }
     ]
   }
