@@ -90,8 +90,8 @@
     const instagram = safeLink(canonical.social?.instagram || socialPosts.find((item) => item.platform === "instagram")?.url || canonical.socialPosts?.instagram?.[0] || canonical.socialPosts?.instagram);
     if (website) links.push(`<a href="${website}" target="_blank" rel="noopener">${tr("website")}</a>`);
     if (navigation) links.push(`<a href="${navigation}" target="_blank" rel="noopener">${tr("navigate")}</a>`);
-    if (facebook) links.push(`<a href="${facebook}" target="_blank" rel="noopener">${tr("facebook")}</a>`);
-    if (instagram) links.push(`<a href="${instagram}" target="_blank" rel="noopener">${tr("instagram")}</a>`);
+    if (facebook) links.push(`<a href="${facebook}" target="_blank" rel="noopener"${window.WROC_SOCIAL_PREVIEW?.linkAttributes(canonical, "facebook", facebook) || ""}>${tr("facebook")}</a>`);
+    if (instagram) links.push(`<a href="${instagram}" target="_blank" rel="noopener"${window.WROC_SOCIAL_PREVIEW?.linkAttributes(canonical, "instagram", instagram) || ""}>${tr("instagram")}</a>`);
     return links.join("");
   }
 

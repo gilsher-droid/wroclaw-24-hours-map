@@ -3703,11 +3703,15 @@
     "socialPosts": [
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/",
+        "originalLanguage": "he",
+        "contentRef": "hala-stulecia-facebook-2026-08-21"
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/"
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/",
+        "originalLanguage": "he",
+        "contentRef": "hala-stulecia-instagram-2026-08-21"
       }
     ],
     "transport": {

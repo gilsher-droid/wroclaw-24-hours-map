@@ -19,6 +19,13 @@ if (!catalog?.places || !catalog?.aliases) throw new Error("Generated canonical 
 
 const ids = new Set();
 const aliases = new Map();
+const invalidSocialPosts = (posts) => !Array.isArray(posts) || posts.some((item) =>
+  !item?.platform
+  || !item?.url
+  || (item.originalLanguage != null && (typeof item.originalLanguage !== "string" || !item.originalLanguage.trim()))
+  || (item.contentRef != null && (typeof item.contentRef !== "string" || !item.contentRef.trim()))
+  || (item.contentRef != null && item.originalLanguage == null)
+);
 for (const record of source) {
   if (!record?.id || typeof record.id !== "string") throw new Error("Every independent place needs a stable string id.");
   if (ids.has(record.id)) throw new Error(`Duplicate independent canonical id: ${record.id}`);
@@ -68,8 +75,8 @@ for (const record of source) {
   if (record.provenance != null && (typeof record.provenance !== "object" || Array.isArray(record.provenance))) {
     throw new Error(`${record.id}: provenance must be an object when provided.`);
   }
-  if (record.socialPosts != null && (!Array.isArray(record.socialPosts) || record.socialPosts.some((item) => !item?.platform || !item?.url))) {
-    throw new Error(`${record.id}: socialPosts must contain platform and url values.`);
+  if (record.socialPosts != null && invalidSocialPosts(record.socialPosts)) {
+    throw new Error(`${record.id}: socialPosts must contain platform/url and valid optional originalLanguage/contentRef values.`);
   }
 
   const media = record.media || {};
@@ -98,6 +105,12 @@ for (const record of source) {
 
 for (const [alias, canonicalId] of Object.entries(catalog.aliases)) {
   if (!catalog.places[canonicalId]) throw new Error(`Catalog alias ${alias} points to missing place ${canonicalId}.`);
+}
+
+for (const place of Object.values(catalog.places)) {
+  if (invalidSocialPosts(place.socialPosts)) {
+    throw new Error(`${place.id}: generated socialPosts contain invalid optional enrichment.`);
+  }
 }
 
 console.log(`Canonical catalog validated: ${Object.keys(catalog.places).length} places, ${Object.keys(catalog.aliases).length} aliases, ${source.length} independent places.`);

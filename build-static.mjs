@@ -19,6 +19,8 @@ for (const file of [
   "site-i18n.js",
   "site-actions.css",
   "site-actions.js",
+  "social-preview.css",
+  "social-preview.js",
   "campaign-access.js",
   "map-styles.css",
   "app.js",

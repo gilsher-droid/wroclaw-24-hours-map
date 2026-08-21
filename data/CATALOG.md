@@ -25,6 +25,8 @@ Independent places may additionally use these optional, backward-compatible fiel
 - `provenance`
 - `media.metadata`
 
+Each `socialPosts` item always contains `platform` and `url`. It may also contain the backward-compatible `originalLanguage` and `contentRef` fields. A `contentRef` points to a lazy per-post JSON resource under `data/social-content/`; translations are not embedded in `place-catalog.js` and legacy social posts require no migration.
+
 `media.photos` and `media.videos` remain arrays of URL/path strings. Metadata augments those paths without changing their existing representation.
 
 Empty personalization fields are intentional. They are ready for later editorial enrichment and must not be populated from the open web automatically.

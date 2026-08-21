@@ -11,6 +11,10 @@ const requiredFiles = [
   "data/moshe-route.js",
   "data/lifestyle-places.js",
   "data/lower-silesia-excursions.js",
+  "data/social-content/hala-stulecia-facebook-2026-08-21.json",
+  "data/social-content/hala-stulecia-instagram-2026-08-21.json",
+  "social-preview.css",
+  "social-preview.js",
 ];
 
 for (const relativePath of requiredFiles) {
@@ -42,6 +46,9 @@ for (const [pagePath, routeDataPath] of pages) {
   }
   if (catalogIndex > routeDataIndex) {
     throw new Error(`${pagePath} loads the canonical catalog after its route data`);
+  }
+  if (!html.includes('/social-preview.css') || !html.includes('/social-preview.js')) {
+    throw new Error(`${pagePath} does not load the shared social preview assets`);
   }
 }
 
