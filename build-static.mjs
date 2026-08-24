@@ -19,6 +19,7 @@ for (const file of [
   "site-i18n.js",
   "site-actions.css",
   "site-actions.js",
+  "place-amenities.css",
   "campaign-access.js",
   "map-styles.css",
   "app.js",

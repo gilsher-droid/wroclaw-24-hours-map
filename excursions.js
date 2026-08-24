@@ -6,6 +6,7 @@
   const saved = localStorage.getItem("wroclaw24-language");
   let language = supported.includes(params.get("lang")) ? params.get("lang") : supported.includes(saved) ? saved : "he";
   let map;
+  const placeAmenities = window.WROC_PLACE_AMENITIES;
 
   const ui = {
     he: { brandLine: "מגלים את האזור דרך המקומות הנכונים", homeReturn: "חזרה לאתר הראשי", eyebrow: "המוצר החמישי של Wroc-love", title: "טיולים בשלזיה התחתית", lead: "טיולי יום עצמאיים מוורוצלב אל המקומות המיוחדים של שלזיה התחתית.", duration: "יום מלא", starts: "יציאה מוורוצלב", region: "שלזיה התחתית", mapTitle: "מפת הטיול", routeButton: "פתחו את המסלול ב־Google Maps", itineraryTitle: "סדר היום המומלץ", placesTitle: "המקומות המרכזיים", whyTitle: "למה לשלב אותם?", forWhomTitle: "למי הטיול מתאים?", practicalTitle: "לפני שיוצאים", website: "אתר רשמי", navigate: "ניווט", facebook: "פייסבוק", instagram: "אינסטגרם", travelTitle: "זמני נסיעה", communityLine: "מבית קהילת Wrocław & Lower Silesia", facebookGroup: "קבוצת הפייסבוק", facebookPage: "הדף העסקי", instagramFooter: "אינסטגרם" },
@@ -58,7 +59,7 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "route-marker", html: `<span>${index + 1}</span>`, iconSize: [42, 50], iconAnchor: [21, 48] }) }).addTo(map).bindPopup(`<strong>${label}</strong>`);
+      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }) }).addTo(map).bindPopup(`<strong>${label}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}`);
     });
     map.fitBounds(route, { padding: [30, 30] });
   }
@@ -101,7 +102,7 @@
       if (!canonical) return "";
       const photos = (canonical.media?.photos || []).slice(0, 4);
       const cover = photos[0] ? `<img class="place-cover" src="${photos[0]}" alt="${local(canonical.name)}">` : "";
-      return `<article class="place-card">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3><p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1).map((photo) => `<img src="${photo}" alt="">`).join("")}</div><div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
+      return `<article class="place-card">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1).map((photo) => `<img src="${photo}" alt="">`).join("")}</div><div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
   }
 

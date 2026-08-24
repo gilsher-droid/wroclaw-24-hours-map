@@ -1,0 +1,39 @@
+.route-marker,
+.premium-marker,
+.lifestyle-marker { position: relative; }
+
+span.free-water-marker-badge {
+  position: absolute;
+  inset-inline-end: -10px;
+  top: -10px;
+  z-index: 2;
+  width: 19px;
+  height: 19px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #087cad;
+  color: #fff;
+  box-shadow: 0 2px 7px rgba(3, 29, 64, .3);
+  font-size: 11px;
+  line-height: 1;
+  transform: rotate(45deg);
+}
+
+span.free-water-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  width: max-content;
+  margin-top: 7px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #edfaff;
+  color: #075477;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+span.free-water-label span { margin: 0; color: inherit; }

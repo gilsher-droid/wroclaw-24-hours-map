@@ -106,8 +106,8 @@ test("Free Water composes a scoped overlay without changing Lifestyle membership
   assert.equal(catalog.products["lifestyle-guide"].places.some((record) => record.placeId.startsWith("water-refill-")), false);
 });
 
-test("Free Water labels are present in all five Lifestyle languages", () => {
-  const source = readFileSync(resolve(root, "lifestyle.js"), "utf8");
+test("Free Water labels are shared across all five product languages", () => {
+  const source = readFileSync(resolve(root, "data/place-amenities.js"), "utf8");
   for (const label of ["מים בחינם", "Free Water", "Darmowa woda", "Kostenloses Wasser", "Voda zdarma"]) {
     assert.match(source, new RegExp(label));
   }

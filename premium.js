@@ -20,6 +20,7 @@
   let activeVideoLocation = null;
   let activeVideoIndex = 0;
   let videoTrigger = null;
+  const placeAmenities = window.WROC_PLACE_AMENITIES;
 
   const ui = {
     he: {
@@ -373,7 +374,7 @@
         <div class="stop-copy">
           <div class="stop-heading">
             <div><h3>${escapeHtml(text(item.name))}</h3><span>${escapeHtml(item.localName)}</span></div>
-            <div class="stop-badges"><span>${escapeHtml(t(`categories.${item.category}`))}</span>${item.optional ? `<span class="optional-badge">${escapeHtml(t("optional"))}</span>` : ""}</div>
+            <div class="stop-badges"><span>${escapeHtml(t(`categories.${item.category}`))}</span>${item.optional ? `<span class="optional-badge">${escapeHtml(t("optional"))}</span>` : ""}${placeAmenities.labelBadgeHtml(item, language)}</div>
           </div>
           <p>${escapeHtml(text(item.description))}</p>
           <p class="stop-tip"><strong>${escapeHtml(t("recommended"))}:</strong> ${escapeHtml(text(item.tip))}</p>
@@ -396,7 +397,7 @@
   }
 
   function popupHtml(item) {
-    return `<div class="premium-popup"><strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span><p>${escapeHtml(text(item.description))}</p>${resourceActionsHtml(item)}</div>`;
+    return `<div class="premium-popup"><strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span>${placeAmenities.labelBadgeHtml(item, language)}<p>${escapeHtml(text(item.description))}</p>${resourceActionsHtml(item)}</div>`;
   }
 
   function renderMap(stops) {
@@ -416,7 +417,7 @@
     stops.forEach((item) => {
       const icon = L.divIcon({
         className: "premium-marker-shell",
-        html: `<div class="premium-marker" style="--marker-color:${categoryColors[item.category]}"><span>${item.order}</span></div>`,
+        html: `<div class="premium-marker" style="--marker-color:${categoryColors[item.category]}"><span>${item.order}</span>${placeAmenities.markerBadgeHtml(item, language)}</div>`,
         iconSize: [36, 36], iconAnchor: [18, 34], popupAnchor: [0, -30]
       });
       const marker = L.marker(item.coordinates, { icon, title: text(item.name) }).addTo(map).bindPopup(popupHtml(item));
@@ -459,6 +460,7 @@
         <span class="recommendation-type">${escapeHtml(t(item.category))}</span>
         <h3>${escapeHtml(text(item.name))}</h3>
         <small>${escapeHtml(item.localName)}</small>
+        ${placeAmenities.labelBadgeHtml(item, language)}
         <p>${escapeHtml(text(item.description))}</p>
         <div><span>${escapeHtml(t("bestFor"))} ${item.bestDay}</span><a href="${googleNavigationUrl(item)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a></div>
       </article>`).join("");

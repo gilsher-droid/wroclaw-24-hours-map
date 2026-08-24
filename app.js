@@ -18,6 +18,7 @@
   let activeVideoLocation = null;
   let activeVideoIndex = 0;
   let videoTrigger = null;
+  const placeAmenities = window.WROC_PLACE_AMENITIES;
 
   const categoryColors = {
     start: "#D6A657",
@@ -109,7 +110,7 @@
   function markerHtml(location, evening = false) {
     const label = evening ? "+" : location.order;
     const color = categoryColors[evening ? "evening" : location.category];
-    return `<div class="route-marker" style="background:${color}"><span>${label}</span></div>`;
+    return `<div class="route-marker" style="background:${color}"><span>${label}</span>${placeAmenities.markerBadgeHtml(location, currentLanguage)}</div>`;
   }
 
   function popupHtml(location, evening = false) {
@@ -119,6 +120,7 @@
     return `
       <div class="popup-title">${escapeHtml(location.name[currentLanguage])}</div>
       <div class="popup-local">${escapeHtml(location.localName)}</div>
+      ${placeAmenities.labelBadgeHtml(location, currentLanguage)}
       <div>${escapeHtml(location.description[currentLanguage])}</div>
       <div class="popup-meta"><span class="popup-chip">${escapeHtml(category)}</span>${time}${optional}</div>
       ${resourceActionsHtml(location)}
@@ -265,6 +267,7 @@
           <div>
             <h3>${escapeHtml(location.name[currentLanguage])}</h3>
             <div class="local-name">${escapeHtml(location.localName)}</div>
+            ${placeAmenities.labelBadgeHtml(location, currentLanguage)}
             <p>${escapeHtml(location.description[currentLanguage])}</p>
             ${recommendation}
             <div class="card-actions">
@@ -299,6 +302,7 @@
       <article class="evening-item">
         <h3>${escapeHtml(location.name[currentLanguage])}</h3>
         <div class="local-name">${escapeHtml(location.localName)}</div>
+        ${placeAmenities.labelBadgeHtml(location, currentLanguage)}
         <p>${escapeHtml(location.description[currentLanguage])}</p>
         <div class="card-actions">
           <button type="button" class="card-button show-location" data-location="${location.id}">${escapeHtml(t("showOnRoute"))}</button>
