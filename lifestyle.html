@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
     <link rel="stylesheet" href="/lifestyle.css?v=20260811-1" />
-    <link rel="stylesheet" href="/site-actions.css?v=20260811-2" />
+    <link rel="stylesheet" href="/site-actions.css?v=20260811-1" />
   </head>
   <body>
     <header class="lifestyle-header">
@@ -40,6 +40,7 @@
           <h1 data-i18n="title">לאכול. לשתות.<br />לקנות. לישון.</h1>
           <p class="hero-lead" data-i18n="lead">כל המקומות השימושיים שאספנו מהתוכן שלנו, על מפה אחת שמתאימה את עצמה למה שאתם מחפשים עכשיו.</p>
           <div class="hero-notes">
+            <span class="free-until"><span aria-hidden="true">✓</span> <span data-i18n="freeUntil">כרגע ללא תשלום</span></span>
             <span><b id="place-count">41</b> <span data-i18n="places">מקומות</span></span>
             <span data-i18n="fiveLanguages">חמש שפות</span>
             <span data-i18n="directNavigation">ניווט ישיר</span>
@@ -71,6 +72,14 @@
           <button class="category-button drink" type="button" data-category="drink"><span class="category-symbol">☕</span><span data-i18n="drink">לשתות</span><b data-count="drink"></b></button>
           <button class="category-button buy" type="button" data-category="buy"><span class="category-symbol">◫</span><span data-i18n="buy">לקנות</span><b data-count="buy"></b></button>
           <button class="category-button sleep" type="button" data-category="sleep"><span class="category-symbol">☾</span><span data-i18n="sleep">לישון</span><b data-count="sleep"></b></button>
+        </div>
+
+        <div class="amenity-filters" role="group" aria-label="סינון לפי שירותים">
+          <button id="free-water-filter" class="amenity-button" type="button" aria-pressed="false">
+            <span class="category-symbol" aria-hidden="true">💧</span>
+            <span data-i18n="freeWater">מים בחינם</span>
+            <b data-free-water-count></b>
+          </button>
         </div>
 
         <div class="map-layout">
@@ -122,10 +131,11 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="/data/extra-languages.js?v=20260807-1"></script>
     <script src="/data/place-catalog.js?v=20260809-1"></script>
+    <script src="/data/place-filters.js?v=20260824-1"></script>
     <script src="/data/location-media.js?v=20260808-10"></script>
     <script src="/data/lifestyle-places.js?v=20260809-1"></script>
     <script src="/campaign-access.js?v=20260809-1"></script>
     <script src="/lifestyle.js?v=20260808-1"></script>
-    <script src="/site-actions.js?v=20260811-2" defer></script>
+    <script src="/site-actions.js?v=20260811-1" defer></script>
   </body>
 </html>

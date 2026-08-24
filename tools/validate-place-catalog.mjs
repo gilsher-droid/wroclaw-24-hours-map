@@ -11,7 +11,10 @@ async function evaluate(file) {
   return window;
 }
 
-const source = (await evaluate("data/canonical-places-source.js")).WROC_CANONICAL_PLACE_SOURCE;
+const source = [
+  ...((await evaluate("data/canonical-places-source.js")).WROC_CANONICAL_PLACE_SOURCE || []),
+  ...((await evaluate("data/free-water-places.js")).WROC_FREE_WATER_PLACE_SOURCE || []),
+];
 const catalog = (await evaluate("data/place-catalog.js")).WROC_CATALOG;
 
 if (!Array.isArray(source)) throw new Error("WROC_CANONICAL_PLACE_SOURCE must be an array.");

@@ -1,6 +1,6 @@
 # WROC-LOVE canonical catalog
 
-`place-catalog.js` is the canonical identity layer for WROC-LOVE places. It is generated from the independent editorial source in `canonical-places-source.js` plus the reviewed product data by `tools/generate-place-catalog.mjs`, and loaded before each product's data file.
+`place-catalog.js` is the canonical identity layer for WROC-LOVE places. It is generated from the independent editorial sources in `canonical-places-source.js` and `free-water-places.js` plus the reviewed product data by `tools/generate-place-catalog.mjs`, and loaded before each product's data file.
 
 `canonical-places-source.js` may contain physical places that are not members of any route or product. Independent records must provide explicit country, region, city and coordinates. Product-backed legacy sources declare their own Wrocław default; the catalog itself does not assume that every place is in Wrocław.
 
@@ -24,6 +24,9 @@ Independent places may additionally use these optional, backward-compatible fiel
 - `experiences[].accessibility`
 - `provenance`
 - `media.metadata`
+- `placeType`
+- `amenities`
+- `availability`
 
 `media.photos` and `media.videos` remain arrays of URL/path strings. Metadata augments those paths without changing their existing representation.
 
@@ -32,6 +35,8 @@ Empty personalization fields are intentional. They are ready for later editorial
 ## Product and RouteStop
 
 Registered products are available under `WROC_CATALOG.products`. A normalized RouteStop references `placeId` and keeps route-only information such as day, order, arrival time, duration, optional status, presentation copy and coordinate override.
+
+`WROC_CATALOG.queryIndependentPlaces()` provides a read-only, city-scoped way for a product to temporarily overlay independent canonical Places without adding them to that product's membership. It accepts optional `cityId`, `placeType` and boolean `amenity` filters.
 
 `culture-evening` is intentionally a route experience without a canonical physical `placeId`. Combined stops use a primary canonical place plus `relatedPlaceIds`.
 

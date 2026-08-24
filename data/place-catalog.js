@@ -789,6 +789,224 @@
       "cs"
     ]
   },
+  "bernard-bistro-wino": {
+    "id": "bernard-bistro-wino",
+    "localName": "Bernard Bistro Wino",
+    "name": {
+      "he": "Bernard Bistro Wino",
+      "en": "Bernard Bistro Wino",
+      "pl": "Bernard Bistro Wino",
+      "de": "Bernard Bistro Wino",
+      "cs": "Bernard Bistro Wino"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1101033,
+        "lng": 17.0334619
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "bistro-stu-mostow": {
+    "id": "bistro-stu-mostow",
+    "localName": "Bistro Stu Mostów",
+    "name": {
+      "he": "Bistro Stu Mostów",
+      "en": "Bistro Stu Mostów",
+      "pl": "Bistro Stu Mostów",
+      "de": "Bistro Stu Mostów",
+      "cs": "Bistro Stu Mostów"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.108564,
+        "lng": 17.0331246
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "boguslawskiego": {
     "id": "boguslawskiego",
     "localName": "ul. Wojciecha Bogusławskiego",
@@ -1048,6 +1266,113 @@
       "cs"
     ]
   },
+  "browar-stu-mostow": {
+    "id": "browar-stu-mostow",
+    "localName": "Browar Stu Mostów",
+    "name": {
+      "he": "Browar Stu Mostów",
+      "en": "Browar Stu Mostów",
+      "pl": "Browar Stu Mostów",
+      "de": "Browar Stu Mostów",
+      "cs": "Browar Stu Mostów"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1318321,
+        "lng": 17.0590298
+      }
+    },
+    "categories": [
+      "drink"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "bulka": {
     "id": "bulka",
     "localName": "Bułka z Masłem Włodkowica",
@@ -1170,6 +1495,115 @@
       "de",
       "cs"
     ]
+  },
+  "cafe-targowa": {
+    "id": "cafe-targowa",
+    "localName": "Cafe Targowa",
+    "name": {
+      "he": "Cafe Targowa",
+      "en": "Cafe Targowa",
+      "pl": "Cafe Targowa",
+      "de": "Cafe Targowa",
+      "cs": "Cafe Targowa"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1124915,
+        "lng": 17.0408014
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "cathedral": {
     "id": "cathedral",
@@ -1944,6 +2378,224 @@
         "url": "https://www.instagram.com/p/Dbf-bApnAo5/?img_index=1"
       }
     ]
+  },
+  "concept-stu-mostow": {
+    "id": "concept-stu-mostow",
+    "localName": "Concept Stu Mostów",
+    "name": {
+      "he": "Concept Stu Mostów",
+      "en": "Concept Stu Mostów",
+      "pl": "Concept Stu Mostów",
+      "de": "Concept Stu Mostów",
+      "cs": "Concept Stu Mostów"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1316688,
+        "lng": 17.0590539
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "concordia-taste": {
+    "id": "concordia-taste",
+    "localName": "Concordia Taste",
+    "name": {
+      "he": "Concordia Taste",
+      "en": "Concordia Taste",
+      "pl": "Concordia Taste",
+      "de": "Concordia Taste",
+      "cs": "Concordia Taste"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1161217,
+        "lng": 17.038584
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "dinette": {
     "id": "dinette",
@@ -2852,6 +3504,115 @@
       "de",
       "cs"
     ]
+  },
+  "figa-w-barbarze": {
+    "id": "figa-w-barbarze",
+    "localName": "Figa w Barbarze",
+    "name": {
+      "he": "Figa w Barbarze",
+      "en": "Figa w Barbarze",
+      "pl": "Figa w Barbarze",
+      "de": "Figa w Barbarze",
+      "cs": "Figa w Barbarze"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1076305,
+        "lng": 17.0327024
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "fountain": {
     "id": "fountain",
@@ -4127,6 +4888,226 @@
       "cs"
     ]
   },
+  "ibis-styles-wroclaw-centrum": {
+    "id": "ibis-styles-wroclaw-centrum",
+    "localName": "ibis Styles Wrocław Centrum",
+    "name": {
+      "he": "ibis Styles Wrocław Centrum",
+      "en": "ibis Styles Wrocław Centrum",
+      "pl": "ibis Styles Wrocław Centrum",
+      "de": "ibis Styles Wrocław Centrum",
+      "cs": "ibis Styles Wrocław Centrum"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.099513,
+        "lng": 17.0400735
+      }
+    },
+    "categories": [
+      "drink",
+      "eat",
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat",
+        "sleep"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "ida-kuchnia-i-wino": {
+    "id": "ida-kuchnia-i-wino",
+    "localName": "IDA Kuchnia i Wino",
+    "name": {
+      "he": "IDA Kuchnia i Wino",
+      "en": "IDA Kuchnia i Wino",
+      "pl": "IDA Kuchnia i Wino",
+      "de": "IDA Kuchnia i Wino",
+      "cs": "IDA Kuchnia i Wino"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1123705,
+        "lng": 17.0290663
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "japanese": {
     "id": "japanese",
     "localName": "Ogród Japoński",
@@ -4721,6 +5702,115 @@
       "de",
       "cs"
     ]
+  },
+  "kaffe-bageri-stockholm": {
+    "id": "kaffe-bageri-stockholm",
+    "localName": "Kaffe Bageri Stockholm",
+    "name": {
+      "he": "Kaffe Bageri Stockholm",
+      "en": "Kaffe Bageri Stockholm",
+      "pl": "Kaffe Bageri Stockholm",
+      "de": "Kaffe Bageri Stockholm",
+      "cs": "Kaffe Bageri Stockholm"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1118211,
+        "lng": 17.0365372
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "kaplica-czaszek-czermna": {
     "id": "kaplica-czaszek-czermna",
@@ -6416,6 +7506,327 @@
       "cs"
     ]
   },
+  "meatologia-sikorskiego": {
+    "id": "meatologia-sikorskiego",
+    "localName": "Meatologia – Sikorskiego 7B",
+    "name": {
+      "he": "Meatologia – Sikorskiego 7B",
+      "en": "Meatologia – Sikorskiego 7B",
+      "pl": "Meatologia – Sikorskiego 7B",
+      "de": "Meatologia – Sikorskiego 7B",
+      "cs": "Meatologia – Sikorskiego 7B"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1143582,
+        "lng": 17.0215859
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "meatologia-wlodkowica": {
+    "id": "meatologia-wlodkowica",
+    "localName": "Meatologia – Włodkowica 27",
+    "name": {
+      "he": "Meatologia – Włodkowica 27",
+      "en": "Meatologia – Włodkowica 27",
+      "pl": "Meatologia – Włodkowica 27",
+      "de": "Meatologia – Włodkowica 27",
+      "cs": "Meatologia – Włodkowica 27"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1094764,
+        "lng": 17.0232852
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "meatologia-zwycieska": {
+    "id": "meatologia-zwycieska",
+    "localName": "Meatologia – Zwycięska 45",
+    "name": {
+      "he": "Meatologia – Zwycięska 45",
+      "en": "Meatologia – Zwycięska 45",
+      "pl": "Meatologia – Zwycięska 45",
+      "de": "Meatologia – Zwycięska 45",
+      "cs": "Meatologia – Zwycięska 45"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.0592058,
+        "lng": 17.0132735
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "monopol": {
     "id": "monopol",
     "localName": "Hotel Monopol",
@@ -7304,6 +8715,115 @@
       "cs"
     ]
   },
+  "odra-centrum": {
+    "id": "odra-centrum",
+    "localName": "Odra Centrum",
+    "name": {
+      "he": "Odra Centrum",
+      "en": "Odra Centrum",
+      "pl": "Odra Centrum",
+      "de": "Odra Centrum",
+      "cs": "Odra Centrum"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1088208,
+        "lng": 17.0522865
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "opera": {
     "id": "opera",
     "localName": "Opera Wrocławska",
@@ -7798,6 +9318,115 @@
       "cs"
     ]
   },
+  "paloma-coffee": {
+    "id": "paloma-coffee",
+    "localName": "Paloma Coffee",
+    "name": {
+      "he": "Paloma Coffee",
+      "en": "Paloma Coffee",
+      "pl": "Paloma Coffee",
+      "de": "Paloma Coffee",
+      "cs": "Paloma Coffee"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1095621,
+        "lng": 17.028772
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "pan-precel": {
     "id": "pan-precel",
     "localName": "Pan Precel – Świdnicka",
@@ -8256,6 +9885,115 @@
       "cs"
     ]
   },
+  "parrot-coffee-bema": {
+    "id": "parrot-coffee-bema",
+    "localName": "Parrot Coffee – Bema",
+    "name": {
+      "he": "Parrot Coffee – Bema",
+      "en": "Parrot Coffee – Bema",
+      "pl": "Parrot Coffee – Bema",
+      "de": "Parrot Coffee – Bema",
+      "cs": "Parrot Coffee – Bema"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1176655,
+        "lng": 17.0416121
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "pasaz": {
     "id": "pasaz",
     "localName": "Pasaż Grunwaldzki",
@@ -8585,6 +10323,224 @@
       "de",
       "cs"
     ]
+  },
+  "pestka-bistro-wine-bar": {
+    "id": "pestka-bistro-wine-bar",
+    "localName": "Pestka Bistro Wine Bar",
+    "name": {
+      "he": "Pestka Bistro Wine Bar",
+      "en": "Pestka Bistro Wine Bar",
+      "pl": "Pestka Bistro Wine Bar",
+      "de": "Pestka Bistro Wine Bar",
+      "cs": "Pestka Bistro Wine Bar"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1092597,
+        "lng": 17.0249216
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "pijalni-wino-bistro": {
+    "id": "pijalni-wino-bistro",
+    "localName": "Pijalni wino & bistro",
+    "name": {
+      "he": "Pijalni wino & bistro",
+      "en": "Pijalni wino & bistro",
+      "pl": "Pijalni wino & bistro",
+      "de": "Pijalni wino & bistro",
+      "cs": "Pijalni wino & bistro"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1116485,
+        "lng": 17.0560644
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "pizza-si": {
     "id": "pizza-si",
@@ -9158,6 +11114,115 @@
       "de",
       "cs"
     ]
+  },
+  "restauracja-tarasowa": {
+    "id": "restauracja-tarasowa",
+    "localName": "Restauracja Tarasowa",
+    "name": {
+      "he": "Restauracja Tarasowa",
+      "en": "Restauracja Tarasowa",
+      "pl": "Restauracja Tarasowa",
+      "de": "Restauracja Tarasowa",
+      "cs": "Restauracja Tarasowa"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1079248,
+        "lng": 17.0779726
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "rynek": {
     "id": "rynek",
@@ -9958,6 +12023,222 @@
       "cs"
     ]
   },
+  "szkocka-cocktail-bar": {
+    "id": "szkocka-cocktail-bar",
+    "localName": "Szkocka Cocktail Bar",
+    "name": {
+      "he": "Szkocka Cocktail Bar",
+      "en": "Szkocka Cocktail Bar",
+      "pl": "Szkocka Cocktail Bar",
+      "de": "Szkocka Cocktail Bar",
+      "cs": "Szkocka Cocktail Bar"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.108113,
+        "lng": 17.0182427
+      }
+    },
+    "categories": [
+      "drink"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "taproom-stu-mostow": {
+    "id": "taproom-stu-mostow",
+    "localName": "Taproom Stu Mostów",
+    "name": {
+      "he": "Taproom Stu Mostów",
+      "en": "Taproom Stu Mostów",
+      "pl": "Taproom Stu Mostów",
+      "de": "Taproom Stu Mostów",
+      "cs": "Taproom Stu Mostów"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1318489,
+        "lng": 17.0592712
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "the-bridge": {
     "id": "the-bridge",
     "localName": "The Bridge Wrocław – MGallery",
@@ -10428,6 +12709,113 @@
       "cs"
     ]
   },
+  "vegan-af-ramen": {
+    "id": "vegan-af-ramen",
+    "localName": "Vegan AF Ramen",
+    "name": {
+      "he": "Vegan AF Ramen",
+      "en": "Vegan AF Ramen",
+      "pl": "Vegan AF Ramen",
+      "de": "Vegan AF Ramen",
+      "cs": "Vegan AF Ramen"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1085829,
+        "lng": 17.0354843
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "walbrzych-market-square": {
     "id": "walbrzych-market-square",
     "localName": "Rynek w Wałbrzychu",
@@ -10577,6 +12965,1805 @@
       "photos": [],
       "videos": [],
       "metadata": {}
+    },
+    "socialPosts": []
+  },
+  "water-refill-hala-stulecia": {
+    "id": "water-refill-hala-stulecia",
+    "localName": "Zdrój uliczny – Hala Stulecia",
+    "name": {
+      "he": "Zdrój uliczny – Hala Stulecia",
+      "en": "Zdrój uliczny – Hala Stulecia",
+      "pl": "Zdrój uliczny – Hala Stulecia",
+      "de": "Zdrój uliczny – Hala Stulecia",
+      "cs": "Zdrój uliczny – Hala Stulecia"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.106724,
+        "lng": 17.078534
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-hydropolis": {
+    "id": "water-refill-hydropolis",
+    "localName": "Zdrój uliczny – Hydropolis / Na Grobli",
+    "name": {
+      "he": "Zdrój uliczny – Hydropolis / Na Grobli",
+      "en": "Zdrój uliczny – Hydropolis / Na Grobli",
+      "pl": "Zdrój uliczny – Hydropolis / Na Grobli",
+      "de": "Zdrój uliczny – Hydropolis / Na Grobli",
+      "cs": "Zdrój uliczny – Hydropolis / Na Grobli"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.104383,
+        "lng": 17.056206
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-nmp-piasek": {
+    "id": "water-refill-nmp-piasek",
+    "localName": "Zdrój uliczny – NMP / Piasek",
+    "name": {
+      "he": "Zdrój uliczny – NMP / Piasek",
+      "en": "Zdrój uliczny – NMP / Piasek",
+      "pl": "Zdrój uliczny – NMP / Piasek",
+      "de": "Zdrój uliczny – NMP / Piasek",
+      "cs": "Zdrój uliczny – NMP / Piasek"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1150037,
+        "lng": 17.0411936
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-olawska-swidnicka": {
+    "id": "water-refill-olawska-swidnicka",
+    "localName": "Zdrój uliczny – Oławska / Świdnicka",
+    "name": {
+      "he": "Zdrój uliczny – Oławska / Świdnicka",
+      "en": "Zdrój uliczny – Oławska / Świdnicka",
+      "pl": "Zdrój uliczny – Oławska / Świdnicka",
+      "de": "Zdrój uliczny – Oławska / Świdnicka",
+      "cs": "Zdrój uliczny – Oławska / Świdnicka"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.109077,
+        "lng": 17.033129
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-park-tolpy": {
+    "id": "water-refill-park-tolpy",
+    "localName": "Zdrój uliczny – Park Stanisława Tołpy",
+    "name": {
+      "he": "Zdrój uliczny – Park Stanisława Tołpy",
+      "en": "Zdrój uliczny – Park Stanisława Tołpy",
+      "pl": "Zdrój uliczny – Park Stanisława Tołpy",
+      "de": "Zdrój uliczny – Park Stanisława Tołpy",
+      "cs": "Zdrój uliczny – Park Stanisława Tołpy"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.119598,
+        "lng": 17.051823
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-plac-dominikanski": {
+    "id": "water-refill-plac-dominikanski",
+    "localName": "Zdrój uliczny – plac Dominikański",
+    "name": {
+      "he": "Zdrój uliczny – plac Dominikański",
+      "en": "Zdrój uliczny – plac Dominikański",
+      "pl": "Zdrój uliczny – plac Dominikański",
+      "de": "Zdrój uliczny – plac Dominikański",
+      "cs": "Zdrój uliczny – plac Dominikański"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.108268,
+        "lng": 17.039112
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-plac-nowy-targ": {
+    "id": "water-refill-plac-nowy-targ",
+    "localName": "Zdrój uliczny – plac Nowy Targ",
+    "name": {
+      "he": "Zdrój uliczny – plac Nowy Targ",
+      "en": "Zdrój uliczny – plac Nowy Targ",
+      "pl": "Zdrój uliczny – plac Nowy Targ",
+      "de": "Zdrój uliczny – plac Nowy Targ",
+      "cs": "Zdrój uliczny – plac Nowy Targ"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.111522,
+        "lng": 17.0378996
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-plac-solny": {
+    "id": "water-refill-plac-solny",
+    "localName": "Zdrój uliczny – plac Solny",
+    "name": {
+      "he": "Zdrój uliczny – plac Solny",
+      "en": "Zdrój uliczny – plac Solny",
+      "pl": "Zdrój uliczny – plac Solny",
+      "de": "Zdrój uliczny – plac Solny",
+      "cs": "Zdrój uliczny – plac Solny"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.109702,
+        "lng": 17.030002
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-plac-teatralny": {
+    "id": "water-refill-plac-teatralny",
+    "localName": "Zdrój uliczny – plac Teatralny",
+    "name": {
+      "he": "Zdrój uliczny – plac Teatralny",
+      "en": "Zdrój uliczny – plac Teatralny",
+      "pl": "Zdrój uliczny – plac Teatralny",
+      "de": "Zdrój uliczny – plac Teatralny",
+      "cs": "Zdrój uliczny – plac Teatralny"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.105322,
+        "lng": 17.033381
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-plac-wolnosci": {
+    "id": "water-refill-plac-wolnosci",
+    "localName": "Zdrój uliczny – plac Wolności",
+    "name": {
+      "he": "Zdrój uliczny – plac Wolności",
+      "en": "Zdrój uliczny – plac Wolności",
+      "pl": "Zdrój uliczny – plac Wolności",
+      "de": "Zdrój uliczny – plac Wolności",
+      "cs": "Zdrój uliczny – plac Wolności"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.106814,
+        "lng": 17.0276229
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-rynek-psiego-pola": {
+    "id": "water-refill-rynek-psiego-pola",
+    "localName": "Zdrój uliczny – Rynek Psiego Pola",
+    "name": {
+      "he": "Zdrój uliczny – Rynek Psiego Pola",
+      "en": "Zdrój uliczny – Rynek Psiego Pola",
+      "pl": "Zdrój uliczny – Rynek Psiego Pola",
+      "de": "Zdrój uliczny – Rynek Psiego Pola",
+      "cs": "Zdrój uliczny – Rynek Psiego Pola"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1462196,
+        "lng": 17.1128093
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-skwer-steinmetza": {
+    "id": "water-refill-skwer-steinmetza",
+    "localName": "Zdrój uliczny – Skwer Steinmetza",
+    "name": {
+      "he": "Zdrój uliczny – Skwer Steinmetza",
+      "en": "Zdrój uliczny – Skwer Steinmetza",
+      "pl": "Zdrój uliczny – Skwer Steinmetza",
+      "de": "Zdrój uliczny – Skwer Steinmetza",
+      "cs": "Zdrój uliczny – Skwer Steinmetza"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.112172,
+        "lng": 17.085492
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-wroclaw-airport": {
+    "id": "water-refill-wroclaw-airport",
+    "localName": "Poidełka – Port Lotniczy Wrocław",
+    "name": {
+      "he": "Poidełka – Port Lotniczy Wrocław",
+      "en": "Poidełka – Port Lotniczy Wrocław",
+      "pl": "Poidełka – Port Lotniczy Wrocław",
+      "de": "Poidełka – Port Lotniczy Wrocław",
+      "cs": "Poidełka – Port Lotniczy Wrocław"
+    },
+    "description": {
+      "he": "בנמל התעופה יש שלושה מתקני מי שתייה הפועלים כל השנה: באזור היציאות לאחר הבידוק, באזור איסוף הכבודה ובאולם הראשי.",
+      "en": "The airport has three year-round drinking-water devices: departures after security, arrivals by baggage claim, and the main terminal hall.",
+      "pl": "Na lotnisku działają trzy całoroczne poidełka: w strefie odlotów po kontroli, przy odbiorze bagażu oraz w hali głównej terminalu.",
+      "de": "Am Flughafen gibt es drei ganzjährig betriebene Trinkwasserspender: im Abflugbereich nach der Kontrolle, bei der Gepäckausgabe und in der Haupthalle.",
+      "cs": "Na letišti fungují tři celoroční pítka: v odletové zóně za kontrolou, u výdeje zavazadel a v hlavní hale terminálu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1096937,
+        "lng": 16.880719
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "note": "The official coordinate represents the terminal, not an individual device.",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true
+    },
+    "availability": {
+      "seasonal": false,
+      "notes": {
+        "he": "שלושת המתקנים פועלים כל השנה.",
+        "en": "All three devices operate year-round.",
+        "pl": "Wszystkie trzy urządzenia działają całorocznie.",
+        "de": "Alle drei Geräte sind ganzjährig in Betrieb.",
+        "cs": "Všechna tři zařízení fungují celoročně."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-wyspa-slodowa": {
+    "id": "water-refill-wyspa-slodowa",
+    "localName": "Zdrój uliczny – Wyspa Słodowa",
+    "name": {
+      "he": "Zdrój uliczny – Wyspa Słodowa",
+      "en": "Zdrój uliczny – Wyspa Słodowa",
+      "pl": "Zdrój uliczny – Wyspa Słodowa",
+      "de": "Zdrój uliczny – Wyspa Słodowa",
+      "cs": "Zdrój uliczny – Wyspa Słodowa"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.115927,
+        "lng": 17.038542
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "water-refill-zoo-afrykarium": {
+    "id": "water-refill-zoo-afrykarium",
+    "localName": "Zdrój uliczny – ZOO / Afrykarium",
+    "name": {
+      "he": "Zdrój uliczny – ZOO / Afrykarium",
+      "en": "Zdrój uliczny – ZOO / Afrykarium",
+      "pl": "Zdrój uliczny – ZOO / Afrykarium",
+      "de": "Zdrój uliczny – ZOO / Afrykarium",
+      "cs": "Zdrój uliczny – ZOO / Afrykarium"
+    },
+    "description": {
+      "he": "ברזייה ציבורית עונתית עם מי שתייה, מילוי בקבוקים וקערה לבעלי חיים.",
+      "en": "A seasonal public drinking fountain for direct drinking and bottle refills, with an animal bowl.",
+      "pl": "Sezonowy zdrój uliczny do bezpośredniego picia i napełniania butelek, wyposażony w misę dla zwierząt.",
+      "de": "Ein saisonaler öffentlicher Trinkbrunnen zum direkten Trinken und Flaschenfüllen, mit Tierschale.",
+      "cs": "Sezónní veřejné pítko pro přímé pití a doplnění lahví, s miskou pro zvířata."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1046684,
+        "lng": 17.0754744
+      }
+    },
+    "categories": [
+      "water"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "water"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-utility-data",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/sezon-poidelek-2026-oficjalnie-otwarty/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1sHUPPy-KU-tg1usJ9eWeRDyZYx8r1_8",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "waterRefillPoint",
+    "amenities": {
+      "potableWater": true,
+      "bottleRefill": true,
+      "petBowl": true
+    },
+    "availability": {
+      "seasonal": true,
+      "operatingPeriod": "summer",
+      "notes": {
+        "he": "פועל בעונת הקיץ, לאחר התייצבות הטמפרטורות ועד לכפור הראשון בסתיו.",
+        "en": "Operates in the summer season after temperatures stabilize and until the first autumn frosts.",
+        "pl": "Działa w sezonie letnim po ustabilizowaniu temperatur, do pierwszych jesiennych przymrozków.",
+        "de": "In Betrieb während der Sommersaison, sobald die Temperaturen stabil sind, bis zum ersten Herbstfrost.",
+        "cs": "Funguje v letní sezóně po ustálení teplot až do prvních podzimních mrazů."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
     },
     "socialPosts": []
   },
@@ -10823,6 +15010,224 @@
       "de",
       "cs"
     ]
+  },
+  "wierzbowa-15": {
+    "id": "wierzbowa-15",
+    "localName": "Wierzbowa 15",
+    "name": {
+      "he": "Wierzbowa 15",
+      "en": "Wierzbowa 15",
+      "pl": "Wierzbowa 15",
+      "de": "Wierzbowa 15",
+      "cs": "Wierzbowa 15"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1049625,
+        "lng": 17.0364118
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "woda-cafe": {
+    "id": "woda-cafe",
+    "localName": "Woda café",
+    "name": {
+      "he": "Woda café",
+      "en": "Woda café",
+      "pl": "Woda café",
+      "de": "Woda café",
+      "cs": "Woda café"
+    },
+    "description": {
+      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
+      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
+      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
+      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1034555,
+        "lng": 17.0572822
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-programme",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
+          "checkedAt": "2026-08-24"
+        }
+      ]
+    },
+    "placeType": "hospitality",
+    "amenities": {
+      "freeTapWater": true
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "woosabi": {
     "id": "woosabi",
@@ -11753,6 +16158,13 @@
 
   const resolveId = (id) => aliases[id] || id;
   const getPlace = (id) => places[resolveId(id)] || null;
+  const queryIndependentPlaces = ({ cityId, placeType, amenity } = {}) => Object.values(places).filter((place) => {
+    if (place.sourceRecords.length !== 0) return false;
+    if (cityId && place.location.cityId !== cityId) return false;
+    if (placeType && place.placeType !== placeType) return false;
+    if (amenity && place.amenities?.[amenity] !== true) return false;
+    return true;
+  });
   const resolvePlaceId = (record) => record && record.id !== "culture-evening" ? resolveId(record.id) : null;
 
   function routeStop(record, productId, role) {
@@ -12178,6 +16590,7 @@
     products,
     resolveId,
     getPlace,
+    queryIndependentPlaces,
     registerProduct,
   });
 })();

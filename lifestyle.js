@@ -6,6 +6,7 @@
   const saved = localStorage.getItem("wroclaw24-language");
   let language = supported.includes(params.get("lang")) ? params.get("lang") : supported.includes(saved) ? saved : "he";
   let activeCategory = "all";
+  let freeWaterOnly = false;
   let searchTerm = "";
   let selectedId = null;
 
@@ -17,7 +18,7 @@
       explore:"לגלות לפי מצב הרוח", mapTitle:"המקומות על המפה", searchLabel:"חיפוש מקום", searchPlaceholder:"חפשו שם או אזור…", all:"הכול", eat:"לאכול", drink:"לשתות", buy:"לקנות", sleep:"לישון",
       mapNote:"המפה מתקרבת אוטומטית לתוצאות. לבדיקת מסלול בזמן אמת השתמשו בכפתור הניווט.", allPlaces:"כל המקומות", emptyTitle:"לא מצאנו מקום מתאים", emptyText:"נסו מילת חיפוש אחרת או חזרו להצגת הכול.", showAll:"הציגו הכול",
       livingGuide:"מדריך שחי ומתעדכן", editorialTitle:"לא רשימה אינסופית. רק מקומות שיש להם סיבה להיות כאן.", editorialText:"המוצר מבוסס על פוסטי האוכל, הקניות והלינה שכבר פורסמו בדף העסקי ובקהילה. כל מקום מקושר אל הפוסט המקורי ואל ניווט ישיר.",
-      homeReturn:"חזרה לאתר הראשי", freeUntil:"כרגע ללא תשלום", communityLine:"מבית קהילת Wrocław & Lower Silesia", facebookGroup:"קבוצת הפייסבוק", facebookPage:"הדף העסקי", instagram:"אינסטגרם", navigate:"ניווט", readPost:"הפוסט", photos:"תמונות", videos:"וידאו", close:"סגירה", resultOne:"מקום", resultMany:"מקומות", source:"מקור"
+      homeReturn:"חזרה לאתר הראשי", freeUntil:"כרגע ללא תשלום", communityLine:"מבית קהילת Wrocław & Lower Silesia", facebookGroup:"קבוצת הפייסבוק", facebookPage:"הדף העסקי", instagram:"אינסטגרם", navigate:"ניווט", readPost:"הפוסט", photos:"תמונות", videos:"וידאו", close:"סגירה", resultOne:"מקום", resultMany:"מקומות", source:"מקור", freeWater:"מים בחינם", water:"מים לשתייה"
     },
     en: {
       brandLine:"Discover the city through the right places", eyebrow:"The local Wroc-love guide", title:"Eat. Drink.<br>Shop. Sleep.",
@@ -26,7 +27,7 @@
       explore:"Explore by mood", mapTitle:"Places on the map", searchLabel:"Search places", searchPlaceholder:"Search by name or area…", all:"All", eat:"Eat", drink:"Drink", buy:"Shop", sleep:"Sleep",
       mapNote:"The map zooms to match your results. Use the navigation button for live directions.", allPlaces:"All places", emptyTitle:"No matching place found", emptyText:"Try another search or return to all places.", showAll:"Show all",
       livingGuide:"A living, evolving guide", editorialTitle:"Not an endless list. Only places with a reason to be here.", editorialText:"This product is built from the food, shopping and accommodation posts already published on our business page and in the community. Every place links back to its source post and direct navigation.",
-      homeReturn:"Back to the main site", freeUntil:"Currently free", communityLine:"By the Wrocław & Lower Silesia community", facebookGroup:"Facebook group", facebookPage:"Business page", instagram:"Instagram", navigate:"Navigate", readPost:"Post", photos:"Photos", videos:"Video", close:"Close", resultOne:"place", resultMany:"places", source:"Source"
+      homeReturn:"Back to the main site", freeUntil:"Currently free", communityLine:"By the Wrocław & Lower Silesia community", facebookGroup:"Facebook group", facebookPage:"Business page", instagram:"Instagram", navigate:"Navigate", readPost:"Post", photos:"Photos", videos:"Video", close:"Close", resultOne:"place", resultMany:"places", source:"Source", freeWater:"Free Water", water:"Drinking water"
     },
     pl: {
       brandLine:"Odkrywaj miasto przez właściwe miejsca", eyebrow:"Lokalny przewodnik Wroc-love", title:"Jedz. Pij.<br>Kupuj. Śpij.",
@@ -35,7 +36,7 @@
       explore:"Odkrywaj według nastroju", mapTitle:"Miejsca na mapie", searchLabel:"Szukaj miejsca", searchPlaceholder:"Szukaj nazwy lub okolicy…", all:"Wszystko", eat:"Jedzenie", drink:"Napoje", buy:"Zakupy", sleep:"Nocleg",
       mapNote:"Mapa automatycznie dopasowuje widok do wyników. Użyj przycisku nawigacji, aby sprawdzić trasę na żywo.", allPlaces:"Wszystkie miejsca", emptyTitle:"Nie znaleziono miejsca", emptyText:"Spróbuj innego wyszukiwania lub pokaż wszystko.", showAll:"Pokaż wszystko",
       livingGuide:"Przewodnik, który stale się rozwija", editorialTitle:"Nie nieskończona lista. Tylko miejsca, które mają powód, by tu być.", editorialText:"Produkt powstał z postów o jedzeniu, zakupach i noclegach opublikowanych na stronie firmowej i w społeczności. Każde miejsce prowadzi do źródłowego postu i nawigacji.",
-      homeReturn:"Wróć do strony głównej", freeUntil:"Obecnie bezpłatnie", communityLine:"Od społeczności Wrocław & Dolny Śląsk", facebookGroup:"Grupa na Facebooku", facebookPage:"Strona firmowa", instagram:"Instagram", navigate:"Nawigacja", readPost:"Post", photos:"Zdjęcia", videos:"Wideo", close:"Zamknij", resultOne:"miejsce", resultMany:"miejsc", source:"Źródło"
+      homeReturn:"Wróć do strony głównej", freeUntil:"Obecnie bezpłatnie", communityLine:"Od społeczności Wrocław & Dolny Śląsk", facebookGroup:"Grupa na Facebooku", facebookPage:"Strona firmowa", instagram:"Instagram", navigate:"Nawigacja", readPost:"Post", photos:"Zdjęcia", videos:"Wideo", close:"Zamknij", resultOne:"miejsce", resultMany:"miejsc", source:"Źródło", freeWater:"Darmowa woda", water:"Woda pitna"
     },
     de: {
       brandLine:"Die Stadt über die richtigen Orte entdecken", eyebrow:"Der lokale Wroc-love-Guide", title:"Essen. Trinken.<br>Einkaufen. Schlafen.",
@@ -44,7 +45,7 @@
       explore:"Nach Stimmung entdecken", mapTitle:"Orte auf der Karte", searchLabel:"Orte suchen", searchPlaceholder:"Name oder Gegend suchen…", all:"Alle", eat:"Essen", drink:"Trinken", buy:"Einkaufen", sleep:"Schlafen",
       mapNote:"Die Karte zoomt automatisch zu den Ergebnissen. Nutzen Sie die Navigation für aktuelle Routen.", allPlaces:"Alle Orte", emptyTitle:"Kein passender Ort gefunden", emptyText:"Versuchen Sie eine andere Suche oder zeigen Sie alle Orte.", showAll:"Alle anzeigen",
       livingGuide:"Ein lebendiger, wachsender Guide", editorialTitle:"Keine endlose Liste. Nur Orte, die einen Grund haben, hier zu sein.", editorialText:"Dieses Produkt basiert auf den bereits auf unserer Unternehmensseite und in der Community veröffentlichten Beiträgen zu Essen, Einkaufen und Übernachten. Jeder Ort führt zum Originalbeitrag und zur Navigation.",
-      homeReturn:"Zurück zur Hauptseite", freeUntil:"Derzeit kostenlos", communityLine:"Von der Wrocław & Lower Silesia Community", facebookGroup:"Facebook-Gruppe", facebookPage:"Unternehmensseite", instagram:"Instagram", navigate:"Navigieren", readPost:"Beitrag", photos:"Fotos", videos:"Video", close:"Schließen", resultOne:"Ort", resultMany:"Orte", source:"Quelle"
+      homeReturn:"Zurück zur Hauptseite", freeUntil:"Derzeit kostenlos", communityLine:"Von der Wrocław & Lower Silesia Community", facebookGroup:"Facebook-Gruppe", facebookPage:"Unternehmensseite", instagram:"Instagram", navigate:"Navigieren", readPost:"Beitrag", photos:"Fotos", videos:"Video", close:"Schließen", resultOne:"Ort", resultMany:"Orte", source:"Quelle", freeWater:"Kostenloses Wasser", water:"Trinkwasser"
     },
     cs: {
       brandLine:"Objevujte město prostřednictvím správných míst", eyebrow:"Místní průvodce Wroc-love", title:"Jíst. Pít.<br>Nakupovat. Spát.",
@@ -53,15 +54,32 @@
       explore:"Objevujte podle nálady", mapTitle:"Místa na mapě", searchLabel:"Hledat místo", searchPlaceholder:"Hledejte název nebo oblast…", all:"Vše", eat:"Jíst", drink:"Pít", buy:"Nakupovat", sleep:"Spát",
       mapNote:"Mapa se automaticky přiblíží k výsledkům. Pro aktuální trasu použijte tlačítko navigace.", allPlaces:"Všechna místa", emptyTitle:"Nenašli jsme odpovídající místo", emptyText:"Zkuste jiné hledání nebo zobrazte všechna místa.", showAll:"Zobrazit vše",
       livingGuide:"Živý, průběžně rozšiřovaný průvodce", editorialTitle:"Ne nekonečný seznam. Jen místa, která mají důvod zde být.", editorialText:"Produkt vychází z příspěvků o jídle, nakupování a ubytování, které již vyšly na firemní stránce a v komunitě. Každé místo odkazuje na původní příspěvek a navigaci.",
-      homeReturn:"Zpět na hlavní stránku", freeUntil:"Nyní zdarma", communityLine:"Od komunity Wrocław & Dolní Slezsko", facebookGroup:"Skupina na Facebooku", facebookPage:"Firemní stránka", instagram:"Instagram", navigate:"Navigovat", readPost:"Příspěvek", photos:"Fotografie", videos:"Video", close:"Zavřít", resultOne:"místo", resultMany:"míst", source:"Zdroj"
+      homeReturn:"Zpět na hlavní stránku", freeUntil:"Nyní zdarma", communityLine:"Od komunity Wrocław & Dolní Slezsko", facebookGroup:"Skupina na Facebooku", facebookPage:"Firemní stránka", instagram:"Instagram", navigate:"Navigovat", readPost:"Příspěvek", photos:"Fotografie", videos:"Video", close:"Zavřít", resultOne:"místo", resultMany:"míst", source:"Zdroj", freeWater:"Voda zdarma", water:"Pitná voda"
     }
   };
 
   const places = Array.isArray(window.WROC_LIFESTYLE_PLACES) ? window.WROC_LIFESTYLE_PLACES : [];
+  const placeFilters = window.WROC_PLACE_FILTERS;
+  const publicWaterPlaces = (window.WROC_CATALOG?.queryIndependentPlaces?.({
+    cityId: "wroclaw",
+    placeType: "waterRefillPoint",
+  }) || []).map((place) => ({
+    id: place.id,
+    canonicalPlaceId: place.id,
+    canonicalPlace: place,
+    categories: place.categories,
+    coordinates: [place.location.coordinates.lat, place.location.coordinates.lng],
+    name: place.name,
+    localName: place.localName,
+    description: place.description,
+    sourceUrl: place.links?.website || null,
+    mediaKey: null,
+    note: place.availability?.notes || null,
+  }));
   const accessState = await window.WROC_CAMPAIGN_ACCESS?.authorize(language);
   if (accessState && !accessState.allowed) return;
   const resources = window.WROC_LOCATION_MEDIA || {};
-  const categorySymbols = { eat:"🍽", drink:"☕", buy:"◫", sleep:"☾" };
+  const categorySymbols = { eat:"🍽", drink:"☕", buy:"◫", sleep:"☾", water:"💧" };
   const categoryOrder = ["eat","drink","buy","sleep"];
   const markers = new Map();
   const markerLayer = L.layerGroup();
@@ -72,10 +90,12 @@
   const local = (value) => value && typeof value === "object" ? (value[language] || value.en || value.he || Object.values(value)[0]) : (value || "");
   const tr = (key) => ui[language]?.[key] || ui.en[key] || key;
   const escapeHtml = (value) => String(value || "").replace(/[&<>'"]/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
-  const googleUrl = (place) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name}, Wrocław`)}`;
+  const placeName = (place) => local(place.name) || place.localName || place.id;
+  const googleUrl = (place) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${placeName(place)}, Wrocław`)}`;
 
   function categoryFor(place) {
     if (activeCategory !== "all" && place.categories.includes(activeCategory)) return activeCategory;
+    if (place.canonicalPlace?.placeType === "waterRefillPoint") return "water";
     return categoryOrder.find((category) => place.categories.includes(category)) || "eat";
   }
 
@@ -85,11 +105,19 @@
   }
 
   function searchable(place) {
-    return [place.name, place.localName, ...Object.values(place.description || {}), ...Object.values(place.note || {})].join(" ").toLocaleLowerCase();
+    const names = typeof place.name === "object" ? Object.values(place.name) : [place.name];
+    return [...names, place.localName, ...Object.values(place.description || {}), ...Object.values(place.note || {})].join(" ").toLocaleLowerCase();
   }
 
   function filteredPlaces() {
-    return places.filter((place) => (activeCategory === "all" || place.categories.includes(activeCategory)) && (!searchTerm || searchable(place).includes(searchTerm)));
+    return placeFilters.filterPlaces({
+      productPlaces: places,
+      overlayPlaces: publicWaterPlaces,
+      category: activeCategory,
+      freeWaterOnly,
+      searchTerm,
+      searchable,
+    });
   }
 
   function actionHtml(place) {
@@ -105,8 +133,8 @@
   function cardHtml(place) {
     const tags = place.categories.map((category) => `<span class="place-tag ${category}">${tr(category)}</span>`).join("");
     return `<article class="place-card${selectedId === place.id ? " selected" : ""}" data-place="${place.id}" tabindex="0">
-      <div class="place-topline"><h3>${escapeHtml(place.name)}</h3><div class="place-tags">${tags}</div></div>
-      <p class="local-name">${escapeHtml(place.localName || place.name)}</p>
+      <div class="place-topline"><h3>${escapeHtml(placeName(place))}</h3><div class="place-tags">${tags}</div></div>
+      <p class="local-name">${escapeHtml(place.localName || placeName(place))}</p>
       <p>${escapeHtml(local(place.description))}</p>
       ${place.note ? `<p class="place-note">${escapeHtml(local(place.note))}</p>` : ""}
       <div class="place-actions">${actionHtml(place)}</div>
@@ -114,7 +142,7 @@
   }
 
   function popupHtml(place) {
-    return `<strong>${escapeHtml(place.name)}</strong><br><span>${escapeHtml(local(place.description))}</span><div class="place-actions">${actionHtml(place)}</div>`;
+    return `<strong>${escapeHtml(placeName(place))}</strong><br><span>${escapeHtml(local(place.description))}</span><div class="place-actions">${actionHtml(place)}</div>`;
   }
 
   function fitResults(results) {
@@ -129,7 +157,7 @@
     markerLayer.clearLayers();
     markers.clear();
     results.forEach((place) => {
-      const marker = L.marker(place.coordinates, { icon:markerIcon(place), title:place.name }).bindPopup(popupHtml(place), { maxWidth:320 });
+      const marker = L.marker(place.coordinates, { icon:markerIcon(place), title:placeName(place) }).bindPopup(popupHtml(place), { maxWidth:320 });
       marker.on("click", () => selectPlace(place.id, false));
       marker.addTo(markerLayer);
       markers.set(place.id, marker);
@@ -140,7 +168,8 @@
     document.getElementById("empty-state").hidden = results.length !== 0;
     resultsElement.hidden = results.length === 0;
     document.getElementById("results-count").textContent = `${results.length} ${results.length === 1 ? tr("resultOne") : tr("resultMany")}`;
-    document.getElementById("results-title").textContent = activeCategory === "all" ? tr("allPlaces") : tr(activeCategory);
+    const categoryTitle = activeCategory === "all" ? tr("allPlaces") : tr(activeCategory);
+    document.getElementById("results-title").textContent = freeWaterOnly ? `${categoryTitle} · ${tr("freeWater")}` : categoryTitle;
     if (fit) fitResults(results);
   }
 
@@ -211,6 +240,9 @@
     const category = element.dataset.count;
     element.textContent = category === "all" ? places.length : places.filter((place) => place.categories.includes(category)).length;
   });
+  document.querySelector("[data-free-water-count]").textContent = String(
+    placeFilters.filterPlaces({ productPlaces: places, overlayPlaces: publicWaterPlaces, freeWaterOnly: true }).length,
+  );
 
   document.querySelector(".category-filters").addEventListener("click", (event) => {
     const button = event.target.closest("button[data-category]");
@@ -220,15 +252,24 @@
     document.querySelectorAll("button[data-category]").forEach((item) => item.classList.toggle("active", item === button));
     render();
   });
+  document.getElementById("free-water-filter").addEventListener("click", (event) => {
+    freeWaterOnly = !freeWaterOnly;
+    selectedId = null;
+    event.currentTarget.classList.toggle("active", freeWaterOnly);
+    event.currentTarget.setAttribute("aria-pressed", String(freeWaterOnly));
+    render();
+  });
   document.getElementById("place-search").addEventListener("input", (event) => {
     searchTerm = event.target.value.trim().toLocaleLowerCase();
     selectedId = null;
     render();
   });
   document.getElementById("reset-search").addEventListener("click", () => {
-    activeCategory = "all"; searchTerm = ""; selectedId = null;
+    activeCategory = "all"; freeWaterOnly = false; searchTerm = ""; selectedId = null;
     document.getElementById("place-search").value = "";
     document.querySelectorAll("button[data-category]").forEach((button) => button.classList.toggle("active", button.dataset.category === "all"));
+    document.getElementById("free-water-filter").classList.remove("active");
+    document.getElementById("free-water-filter").setAttribute("aria-pressed", "false");
     render();
   });
   document.querySelector(".language-switcher").addEventListener("click", (event) => {
