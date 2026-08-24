@@ -61,10 +61,11 @@
   const places = Array.isArray(window.WROC_LIFESTYLE_PLACES) ? window.WROC_LIFESTYLE_PLACES : [];
   const placeFilters = window.WROC_PLACE_FILTERS;
   const placeAmenities = window.WROC_PLACE_AMENITIES;
-  const publicWaterPlaces = (window.WROC_CATALOG?.queryIndependentPlaces?.({
-    cityId: "wroclaw",
-    placeType: "waterRefillPoint",
-  }) || []).map((place) => ({
+  const independentFreeWaterPlaces = [
+    ...(window.WROC_CATALOG?.queryIndependentPlaces?.({ cityId: "wroclaw", amenity: "freeTapWater" }) || []),
+    ...(window.WROC_CATALOG?.queryIndependentPlaces?.({ cityId: "wroclaw", placeType: "waterRefillPoint" }) || []),
+  ];
+  const freeWaterOverlayPlaces = [...new Map(independentFreeWaterPlaces.map((place) => [place.id, place])).values()].map((place) => ({
     id: place.id,
     canonicalPlaceId: place.id,
     canonicalPlace: place,
@@ -115,7 +116,7 @@
   function filteredPlaces() {
     return placeFilters.filterPlaces({
       productPlaces: places,
-      overlayPlaces: publicWaterPlaces,
+      overlayPlaces: freeWaterOverlayPlaces,
       category: activeCategory,
       freeWaterOnly,
       searchTerm,
@@ -245,7 +246,7 @@
     element.textContent = category === "all" ? places.length : places.filter((place) => place.categories.includes(category)).length;
   });
   document.querySelector("[data-free-water-count]").textContent = String(
-    placeFilters.filterPlaces({ productPlaces: places, overlayPlaces: publicWaterPlaces, freeWaterOnly: true }).length,
+    placeFilters.filterPlaces({ productPlaces: places, overlayPlaces: freeWaterOverlayPlaces, freeWaterOnly: true }).length,
   );
 
   document.querySelector(".category-filters").addEventListener("click", (event) => {

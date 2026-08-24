@@ -54,7 +54,11 @@ test("Free Water composes a scoped overlay without changing Lifestyle membership
   const originalPlaces = window.WROC_LIFESTYLE_PLACES;
   const originalIds = originalPlaces.map((place) => place.canonicalPlaceId);
   const originalCategories = new Map(originalPlaces.map((place) => [place.canonicalPlaceId, [...place.categories]]));
-  const overlay = catalog.queryIndependentPlaces({ cityId: "wroclaw", placeType: "waterRefillPoint" });
+  const overlay = [
+    ...catalog.queryIndependentPlaces({ cityId: "wroclaw", amenity: "freeTapWater" }),
+    ...catalog.queryIndependentPlaces({ cityId: "wroclaw", placeType: "waterRefillPoint" }),
+  ];
+  assert.equal(overlay.length, 39);
 
   const unchanged = filters.filterPlaces({ productPlaces: originalPlaces, overlayPlaces: overlay });
   assert.deepEqual(unchanged.map((place) => place.canonicalPlaceId), originalIds);
@@ -86,6 +90,9 @@ test("Free Water composes a scoped overlay without changing Lifestyle membership
   assert.equal(filtered.some((place) => filters.canonicalId(place) === eligible.canonicalPlaceId), true);
   assert.equal(filtered.some((place) => filters.canonicalId(place) === ineligibleFalse.canonicalPlaceId), false);
   assert.equal(filtered.some((place) => filters.canonicalId(place) === ineligibleUndefined.canonicalPlaceId), false);
+  assert.equal(filtered.filter((place) => (
+    (place.canonicalPlace || place).amenities?.freeTapWater === true
+  )).length, 25);
   assert.equal(filtered.filter((place) => place.placeType === "waterRefillPoint").length, 15);
   assert.equal(filters.canonicalId(eligible), "eligible-lifestyle-place");
   assert.deepEqual(eligible.categories, ["eat"]);
@@ -96,7 +103,8 @@ test("Free Water composes a scoped overlay without changing Lifestyle membership
     category: "eat",
     freeWaterOnly: true,
   });
-  assert.equal(JSON.stringify(categoryScoped.map((place) => filters.canonicalId(place))), JSON.stringify(["eligible-lifestyle-place"]));
+  assert.equal(categoryScoped.some((place) => filters.canonicalId(place) === "eligible-lifestyle-place"), true);
+  assert.equal(categoryScoped.every((place) => place.categories.includes("eat")), true);
   assert.equal(new Set(filtered.map((place) => filters.canonicalId(place))).size, filtered.length);
 
   assert.deepEqual(window.WROC_LIFESTYLE_PLACES.map((place) => place.canonicalPlaceId), originalIds);
@@ -104,6 +112,7 @@ test("Free Water composes a scoped overlay without changing Lifestyle membership
     assert.equal(JSON.stringify(place.categories), JSON.stringify(originalCategories.get(place.canonicalPlaceId)));
   }
   assert.equal(catalog.products["lifestyle-guide"].places.some((record) => record.placeId.startsWith("water-refill-")), false);
+  assert.equal(catalog.products["lifestyle-guide"].places.some((record) => overlay.some((place) => place.id === record.placeId)), false);
 });
 
 test("Free Water labels are shared across all five product languages", () => {
@@ -122,6 +131,7 @@ test("Lifestyle loads the reusable filter and exposes an independent amenity tog
 
   assert.match(html, /id="free-water-filter"/);
   assert.match(html, /aria-pressed="false"/);
+  assert.match(readFileSync(resolve(root, "lifestyle.js"), "utf8"), /amenity:\s*"freeTapWater"/);
   assert.ok(catalogIndex >= 0 && catalogIndex < filtersIndex);
   assert.ok(filtersIndex < lifestyleDataIndex && lifestyleDataIndex < appIndex);
 });
