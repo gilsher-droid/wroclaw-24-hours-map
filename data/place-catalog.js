@@ -17908,20 +17908,136 @@
       "cs"
     ],
     "provenance": {
-      "contentType": "official-institution-audit",
+      "contentType": "personal-visit",
       "factualSources": [
         {
           "type": "official",
           "url": "https://wuwa.eu/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "personalVisit": true,
+      "originalPhotography": true,
+      "editedPhotography": true
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/wuwa-estate-01.jpg",
+        "/assets/wuwa-estate-02.jpg",
+        "/assets/wuwa-estate-03.jpg",
+        "/assets/wuwa-estate-04.jpg",
+        "/assets/wuwa-estate-05.jpg",
+        "/assets/wuwa-estate-06.jpg",
+        "/assets/wuwa-estate-07.jpg",
+        "/assets/wuwa-estate-08.jpg",
+        "/assets/wuwa-estate-09.jpg",
+        "/assets/wuwa-estate-10.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/wuwa-estate-01.jpg": {
+          "tags": [
+            "wuwa",
+            "entrance-sign",
+            "architecture",
+            "hero"
+          ],
+          "original": true,
+          "editedToRemovePeople": true,
+          "heroCandidate": true,
+          "sourceFile": "Firefly_Gemini Flash_בזר את אשתי מהתמונה הזו 596359.jpg"
+        },
+        "/assets/wuwa-estate-02.jpg": {
+          "tags": [
+            "wuwa",
+            "park",
+            "pond",
+            "landscape"
+          ],
+          "original": true,
+          "editedToRemovePeople": true,
+          "sourceFile": "Untitled - 19 July 2026 at 11.40.26.jpeg"
+        },
+        "/assets/wuwa-estate-03.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-model",
+            "visitor-information"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4587.JPG"
+        },
+        "/assets/wuwa-estate-04.jpg": {
+          "tags": [
+            "wuwa",
+            "park-hotel",
+            "modernist-architecture"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4589.JPG"
+        },
+        "/assets/wuwa-estate-05.jpg": {
+          "tags": [
+            "wuwa",
+            "park",
+            "landscape"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4590.JPG"
+        },
+        "/assets/wuwa-estate-06.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "visitor-stop",
+            "menu"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4578.JPG"
+        },
+        "/assets/wuwa-estate-07.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "visitor-stop",
+            "food"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4582.JPG"
+        },
+        "/assets/wuwa-estate-08.jpg": {
+          "tags": [
+            "wuwa",
+            "entrance-sign",
+            "personal-visit"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-18 at 11.39.48.jpeg"
+        },
+        "/assets/wuwa-estate-09.jpg": {
+          "tags": [
+            "wuwa",
+            "modernist-interior",
+            "visitor-detail"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-18 at 11.41.26 (1).jpeg"
+        },
+        "/assets/wuwa-estate-10.jpg": {
+          "tags": [
+            "wuwa",
+            "park",
+            "personal-visit"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-18 at 11.41.26.jpeg"
+        }
+      }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/p/19G81XL7j2/"
+      }
+    ]
   },
   "wyspa-piasek": {
     "id": "wyspa-piasek",

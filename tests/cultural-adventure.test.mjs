@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { runInNewContext } from "node:vm";
 
@@ -27,6 +27,12 @@ test("Cultural Adventure reuses canonical Places and keeps area experiences unpi
   }
 
   assert.notEqual(window.WROC_CATALOG.resolveId("wuwa-estate"), window.WROC_CATALOG.resolveId("wuwa"));
+  const wuwaEstate = window.WROC_CATALOG.getPlace("wuwa-estate");
+  assert.equal(wuwaEstate.media.photos.length, 10);
+  assert.equal(wuwaEstate.media.videos.length, 0);
+  assert.deepEqual(Array.from(wuwaEstate.socialPosts, (post) => post.platform), ["facebook"]);
+  assert.equal(wuwaEstate.socialPosts[0].url, "https://www.facebook.com/share/p/19G81XL7j2/");
+  wuwaEstate.media.photos.forEach((photo) => assert.ok(existsSync(resolve(root, photo.replace(/^\//, ""))), `missing ${photo}`));
   assert.equal(window.WROC_CATALOG.resolveId("galeria-dizajn"), "zyjnia-bwa-wroclaw");
   assert.ok(window.WROC_CATALOG.getPlace("glowny").experiences.some((item) => item.id === "bwa-wroclaw-glowny-gallery"));
 });
