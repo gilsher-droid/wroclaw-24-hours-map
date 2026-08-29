@@ -6,7 +6,7 @@
     googleMaps: `https://www.google.com/maps/search/?api=1&query=${lat}%2C${lng}`,
     appleMaps: `https://maps.apple.com/?ll=${lat},${lng}&q=${encodeURIComponent(label)}`,
   });
-  const place = ({ id, aliases = [], localName, name, description, coordinates, address, categories, tags, website, experiences = [] }) => ({
+  const place = ({ id, aliases = [], localName, name, description, coordinates, address, categories, tags, website, experiences = [], socialPosts = [], media = null, provenance = null }) => ({
     id,
     aliases,
     localName,
@@ -23,9 +23,12 @@
     taxonomy: { tags },
     links: { website, navigation: nav(coordinates[0], coordinates[1], localName) },
     ...(experiences.length ? { experiences } : {}),
+    ...(socialPosts.length ? { socialPosts } : {}),
+    ...(media ? { media } : {}),
     provenance: {
       contentType: "official-institution-audit",
       factualSources: [{ type: "official", url: website, checkedAt: "2026-08-29" }],
+      ...(provenance || {}),
     },
     status: "published",
     editorialPriority: "normal",
@@ -67,7 +70,18 @@
     place({ id:"sic-gallery-bwa-wroclaw", localName:"Galeria SiC! BWA Wrocław", name:t("גלריית SiC! BWA", "SiC! Gallery BWA Wrocław", "Galeria SiC! BWA Wrocław", "Galerie SiC! BWA Wrocław", "Galerie SiC! BWA Wrocław"), description:descriptions.gallery, coordinates:[51.1025544,17.0287526], address:{street:"plac Kościuszki 9/10",postalCode:"50-028",city:"Wrocław",country:"Poland"}, categories:["gallery","art","design"], tags:["art-contemporary","architecture-design"], website:"https://bwa.wroc.pl/" }),
     place({ id:"studio-bwa-wroclaw", localName:"Studio BWA Wrocław", name:t("סטודיו BWA ורוצלב", "Studio BWA Wrocław", "Studio BWA Wrocław", "Studio BWA Wrocław", "Studio BWA Wrocław"), description:descriptions.gallery, coordinates:[51.1102855,17.0245017], address:{street:"Ruska 46A",postalCode:"50-079",city:"Wrocław",country:"Poland"}, categories:["gallery","art"], tags:["art-contemporary"], website:"https://bwa.wroc.pl/" }),
     place({ id:"museum-of-pharmacy-wroclaw", localName:"Muzeum Farmacji Uniwersytetu Medycznego", name:t("מוזיאון הרוקחות", "Museum of Pharmacy", "Muzeum Farmacji", "Pharmazie-Museum", "Muzeum farmacie"), description:descriptions.pharmacy, coordinates:[51.1097389,17.0340548], address:{street:"Kurzy Targ 4",postalCode:"50-103",city:"Wrocław",country:"Poland"}, categories:["museum","history"], tags:["museums-history"], website:"https://umw.edu.pl/pl/muzeum-farmacji" }),
-    place({ id:"wuwa-estate", localName:"Osiedle WuWA", name:t("שכונת WuWA", "WuWA Housing Estate", "Osiedle WuWA", "WuWA-Siedlung", "Sídliště WuWA"), description:descriptions.wuwa, coordinates:[51.1066175,17.0855336], address:{street:"Zielonego Dębu 21",postalCode:"51-621",city:"Wrocław",country:"Poland"}, categories:["architecture","area"], tags:["architecture-design"], website:"https://wuwa.eu/" }),
+    place({ id:"wuwa-estate", localName:"Osiedle WuWA", name:t("שכונת WuWA", "WuWA Housing Estate", "Osiedle WuWA", "WuWA-Siedlung", "Sídliště WuWA"), description:descriptions.wuwa, coordinates:[51.1066175,17.0855336], address:{street:"Zielonego Dębu 21",postalCode:"51-621",city:"Wrocław",country:"Poland"}, categories:["architecture","area"], tags:["architecture-design"], website:"https://wuwa.eu/", socialPosts:[{platform:"facebook",url:"https://www.facebook.com/share/p/19G81XL7j2/"}], media:{photos:["/assets/wuwa-estate-01.jpg","/assets/wuwa-estate-02.jpg","/assets/wuwa-estate-03.jpg","/assets/wuwa-estate-04.jpg","/assets/wuwa-estate-05.jpg","/assets/wuwa-estate-06.jpg","/assets/wuwa-estate-07.jpg","/assets/wuwa-estate-08.jpg","/assets/wuwa-estate-09.jpg","/assets/wuwa-estate-10.jpg"],videos:[],metadata:{
+      "/assets/wuwa-estate-01.jpg":{tags:["wuwa","entrance-sign","architecture","hero"],original:true,editedToRemovePeople:true,heroCandidate:true,sourceFile:"Firefly_Gemini Flash_בזר את אשתי מהתמונה הזו 596359.jpg"},
+      "/assets/wuwa-estate-02.jpg":{tags:["wuwa","park","pond","landscape"],original:true,editedToRemovePeople:true,sourceFile:"Untitled - 19 July 2026 at 11.40.26.jpeg"},
+      "/assets/wuwa-estate-03.jpg":{tags:["wuwa","architecture-model","visitor-information"],original:true,sourceFile:"IMG_4587.JPG"},
+      "/assets/wuwa-estate-04.jpg":{tags:["wuwa","park-hotel","modernist-architecture"],original:true,sourceFile:"IMG_4589.JPG"},
+      "/assets/wuwa-estate-05.jpg":{tags:["wuwa","park","landscape"],original:true,sourceFile:"IMG_4590.JPG"},
+      "/assets/wuwa-estate-06.jpg":{tags:["wuwa-cafe","visitor-stop","menu"],original:true,sourceFile:"IMG_4578.JPG"},
+      "/assets/wuwa-estate-07.jpg":{tags:["wuwa-cafe","visitor-stop","food"],original:true,sourceFile:"IMG_4582.JPG"},
+      "/assets/wuwa-estate-08.jpg":{tags:["wuwa","entrance-sign","personal-visit"],original:true,sourceFile:"WhatsApp Image 2026-07-18 at 11.39.48.jpeg"},
+      "/assets/wuwa-estate-09.jpg":{tags:["wuwa","modernist-interior","visitor-detail"],original:true,sourceFile:"WhatsApp Image 2026-07-18 at 11.41.26 (1).jpeg"},
+      "/assets/wuwa-estate-10.jpg":{tags:["wuwa","park","personal-visit"],original:true,sourceFile:"WhatsApp Image 2026-07-18 at 11.41.26.jpeg"}
+    }}, provenance:{contentType:"personal-visit",personalVisit:true,originalPhotography:true,editedPhotography:true} }),
 
     place({ id:"town-hall", localName:"Ratusz we Wrocławiu", name:t("בית העירייה העתיק", "Wrocław Old Town Hall", "Ratusz we Wrocławiu", "Altes Rathaus Breslau", "Stará radnice ve Vratislavi"), description:t("בית עירייה גותי ובתוכו המוזיאון לאמנות בורגנית.", "A Gothic town hall housing the Museum of Bourgeois Art.", "Gotycki ratusz mieszczący Muzeum Sztuki Mieszczańskiej.", "Gotisches Rathaus mit dem Museum der Bürgerlichen Kunst.", "Gotická radnice s Muzeem měšťanského umění."), coordinates:[51.10993,17.0317], categories:["architecture","museum","history"], tags:["museums-history","architecture-design"], website:cityMuseum, experiences:[{id:"museum-of-bourgeois-art",tags:["art","history"]}] }),
     place({ id:"panorama", localName:"Panorama Racławicka", name:t("פנורמת רצלאביצה", "Racławice Panorama", "Panorama Racławicka", "Panorama von Racławice", "Racławické panorama"), description:t("ציור פנורמי מונומנטלי בביקור בשעה מוזמנת.", "A monumental panoramic painting visited at a reserved time.", "Monumentalne malowidło panoramiczne zwiedzane o zarezerwowanej godzinie.", "Monumentales Panoramagemälde mit festem Besuchstermin.", "Monumentální panoramatický obraz s návštěvou v rezervovaném čase."), coordinates:[51.11027,17.04457], categories:["museum","history","art"], tags:["museums-history","art-contemporary"], website:"https://mnwr.pl/oddzialy/panorama-raclawicka/" }),
