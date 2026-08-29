@@ -56,6 +56,10 @@
       id: "street-art-nadodrze-olbin",
       categories: ["street-art"],
       placeType: "area-experience",
+      mapPoints: [
+        { id: "nadodrze", coordinates: [51.1192, 17.0325], label: "Nadodrze" },
+        { id: "olbin", coordinates: [51.1190, 17.0500], label: "Ołbin" },
+      ],
       name: {
         he: "אמנות רחוב בנדודז׳ה ואולבין",
         en: "Street art in Nadodrze and Ołbin",

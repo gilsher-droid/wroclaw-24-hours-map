@@ -594,14 +594,16 @@
       }
     ],
     "provenance": {
-      "contentType": "official-institution-audit",
+      "contentType": "personal-visit",
       "factualSources": [
         {
           "type": "official",
           "url": "https://muzeum.uni.wroc.pl/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "personalVisit": true,
+      "originalPhotography": true
     },
     "media": {
       "photos": [
@@ -609,9 +611,43 @@
         "/assets/gallery-university-04.jpg",
         "/assets/gallery-university-01.jpg",
         "/assets/gallery-university-03.jpg",
-        "/assets/gallery-university-05.jpg"
+        "/assets/gallery-university-05.jpg",
+        "/assets/aula-leopoldina-01.jpg",
+        "/assets/aula-leopoldina-02.jpg",
+        "/assets/aula-leopoldina-03.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/aula-leopoldina-01.jpg": {
+          "tags": [
+            "aula-leopoldina",
+            "baroque-interior",
+            "fresco",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true,
+          "sourceFile": "741112977_10244931966859705_8938826148654997271_n.jpg"
+        },
+        "/assets/aula-leopoldina-02.jpg": {
+          "tags": [
+            "aula-leopoldina",
+            "baroque-interior",
+            "seating"
+          ],
+          "original": true,
+          "sourceFile": "740052756_10244931966979708_3788905547594391614_n.jpg"
+        },
+        "/assets/aula-leopoldina-03.jpg": {
+          "tags": [
+            "university-of-wroclaw",
+            "exterior",
+            "architecture"
+          ],
+          "original": true,
+          "sourceFile": "740486966_10244931965779678_2232032539844803280_n.jpg"
+        }
+      }
     },
     "socialPosts": [
       {

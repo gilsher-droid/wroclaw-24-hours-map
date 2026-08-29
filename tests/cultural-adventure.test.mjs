@@ -6,7 +6,7 @@ import { runInNewContext } from "node:vm";
 
 const root = resolve(import.meta.dirname, "..");
 
-test("Cultural Adventure reuses canonical Places and keeps area experiences unpinned", () => {
+test("Cultural Adventure reuses canonical Places and gives street art two area pins", () => {
   const window = {};
   const context = { window, console, URLSearchParams };
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
@@ -16,6 +16,11 @@ test("Cultural Adventure reuses canonical Places and keeps area experiences unpi
   assert.equal(window.WROC_CULTURAL_EXPERIENCES.length, 1);
   assert.equal(window.WROC_CULTURAL_EXPERIENCES[0].id, "street-art-nadodrze-olbin");
   assert.equal(window.WROC_CULTURAL_EXPERIENCES[0].coordinates, undefined);
+  assert.deepEqual(
+    Array.from(window.WROC_CULTURAL_EXPERIENCES[0].mapPoints, ({ label }) => label),
+    ["Nadodrze", "Ołbin"],
+  );
+  assert.equal(window.WROC_CULTURAL_EXPERIENCES[0].mapPoints.length, 2);
   assert.ok(window.WROC_CATALOG.products["cultural-adventure"]);
 
   for (const record of window.WROC_CULTURAL_PLACES) {
@@ -33,6 +38,12 @@ test("Cultural Adventure reuses canonical Places and keeps area experiences unpi
   assert.deepEqual(Array.from(wuwaEstate.socialPosts, (post) => post.platform), ["facebook"]);
   assert.equal(wuwaEstate.socialPosts[0].url, "https://www.facebook.com/share/p/19G81XL7j2/");
   wuwaEstate.media.photos.forEach((photo) => assert.ok(existsSync(resolve(root, photo.replace(/^\//, ""))), `missing ${photo}`));
+  const aula = window.WROC_CATALOG.getPlace("aula");
+  assert.equal(aula.media.photos.length, 8);
+  for (const photo of ["/assets/aula-leopoldina-01.jpg", "/assets/aula-leopoldina-02.jpg", "/assets/aula-leopoldina-03.jpg"]) {
+    assert.ok(aula.media.photos.includes(photo), `Aula gallery missing ${photo}`);
+    assert.ok(existsSync(resolve(root, photo.replace(/^\//, ""))), `missing ${photo}`);
+  }
   assert.equal(window.WROC_CATALOG.resolveId("galeria-dizajn"), "zyjnia-bwa-wroclaw");
   assert.ok(window.WROC_CATALOG.getPlace("glowny").experiences.some((item) => item.id === "bwa-wroclaw-glowny-gallery"));
 });
