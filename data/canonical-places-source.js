@@ -6,6 +6,71 @@
   // geography explicitly; no city is inferred by the catalog generator.
   window.WROC_CANONICAL_PLACE_SOURCE = [
     {
+      id: "hala",
+      aliases: [],
+      localName: "Hala Stulecia",
+      name: {
+        he: "Hala Stulecia",
+        en: "Centennial Hall",
+        pl: "Hala Stulecia",
+        de: "Jahrhunderthalle",
+        cs: "Hala století",
+      },
+      description: {
+        he: "אתר מורשת עולמית של אונסק״ו ואחד המבנים האייקוניים בעיר.",
+        en: "A UNESCO World Heritage site and one of the city’s iconic buildings.",
+        pl: "Obiekt UNESCO i jeden z najbardziej ikonicznych budynków miasta.",
+        de: "Ein UNESCO-Weltkulturerbe und eines der Wahrzeichen der Stadt.",
+        cs: "Památka světového dědictví UNESCO a jedna z ikonických budov města.",
+      },
+      location: {
+        countryCode: "PL",
+        regionId: "lower-silesia",
+        cityId: "wroclaw",
+        coordinates: { lat: 51.10689, lng: 17.07733 },
+      },
+      categories: ["architecture"],
+      taxonomy: { tags: ["architecture", "unesco", "historical", "photography"] },
+      provenance: {
+        contentType: "personal-visit",
+        personalVisit: true,
+        originalPhotography: true,
+        originalVideo: true,
+      },
+      socialPosts: [
+        { platform: "facebook", url: "https://www.facebook.com/61591964083308/posts/122115263553398802/" },
+        { platform: "instagram", url: "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/" },
+      ],
+      media: {
+        photos: [
+          "/assets/hala-stulecia-01.jpg",
+          "/assets/hala-stulecia-02.jpg",
+          "/assets/hala-stulecia-03.jpg",
+          "/assets/hala-stulecia-04.jpg",
+          "/assets/hala-stulecia-05.jpg",
+          "/assets/gallery-stulecia-02.jpg",
+          "/assets/gallery-stulecia-03.jpg",
+          "/assets/gallery-stulecia-04.jpg",
+        ],
+        videos: [
+          "/assets/hala-stulecia-visit.mp4",
+          "/assets/video-stulecia-fountain.mp4",
+        ],
+        metadata: {
+          "/assets/hala-stulecia-01.jpg": { tags: ["centennial-hall", "exterior", "architecture", "hero"], original: true, heroCandidate: true, sourceFile: "IMG_5063.JPG" },
+          "/assets/hala-stulecia-02.jpg": { tags: ["centennial-hall", "exterior", "flowers"], original: true, sourceFile: "IMG_5062.JPG" },
+          "/assets/hala-stulecia-03.jpg": { tags: ["centennial-hall", "exterior", "landscape"], original: true, sourceFile: "IMG_5059.JPG" },
+          "/assets/hala-stulecia-04.jpg": { tags: ["centennial-hall", "dwarf", "visitor-detail"], original: true, sourceFile: "IMG_5064.JPG" },
+          "/assets/hala-stulecia-05.jpg": { tags: ["centennial-hall", "visitor-area", "food-truck"], original: true, sourceFile: "IMG_5104.JPG" },
+          "/assets/hala-stulecia-visit.mp4": { tags: ["centennial-hall", "visitor-experience", "video"], original: true, sourceFile: "IMG_5061.MOV" },
+          "/assets/video-stulecia-fountain.mp4": { tags: ["multimedia-fountain", "centennial-hall-area", "video"], original: true },
+        },
+      },
+      status: "published",
+      editorialPriority: "high",
+      languages: ["he", "en", "pl", "de", "cs"],
+    },
+    {
       id: "ksiaz-castle",
       aliases: [],
       localName: "Zamek Książ w Wałbrzychu",

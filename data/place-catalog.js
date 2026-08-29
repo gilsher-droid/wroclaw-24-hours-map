@@ -4389,7 +4389,7 @@
       "en": "Centennial Hall",
       "pl": "Hala Stulecia",
       "de": "Jahrhunderthalle",
-      "cs": "Centennial Hall"
+      "cs": "Hala století"
     },
     "description": {
       "he": "אתר מורשת עולמית של אונסק״ו ואחד המבנים האייקוניים בעיר.",
@@ -4428,12 +4428,17 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "high",
     "taxonomy": {
       "categories": [
         "architecture"
       ],
-      "tags": []
+      "tags": [
+        "architecture",
+        "unesco",
+        "historical",
+        "photography"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -4463,35 +4468,6 @@
         "appleMaps": null
       }
     },
-    "media": {
-      "photos": [
-        "/assets/gallery-stulecia-02.jpg",
-        "/assets/gallery-stulecia-03.jpg",
-        "/assets/gallery-stulecia-04.jpg"
-      ],
-      "videos": [
-        {
-          "src": "/assets/video-stulecia-fountain.mp4",
-          "title": {
-            "he": "המזרקה ליד Hala Stulecia",
-            "en": "The fountain beside Centennial Hall",
-            "pl": "Fontanna przy Hali Stulecia",
-            "de": "Der Brunnen an der Jahrhunderthalle",
-            "cs": "Fontána u Haly století"
-          }
-        }
-      ]
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
-      },
-      {
-        "platform": "instagram",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/"
-      }
-    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -4504,6 +4480,104 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "originalVideo": true
+    },
+    "media": {
+      "photos": [
+        "/assets/hala-stulecia-01.jpg",
+        "/assets/hala-stulecia-02.jpg",
+        "/assets/hala-stulecia-03.jpg",
+        "/assets/hala-stulecia-04.jpg",
+        "/assets/hala-stulecia-05.jpg",
+        "/assets/gallery-stulecia-02.jpg",
+        "/assets/gallery-stulecia-03.jpg",
+        "/assets/gallery-stulecia-04.jpg"
+      ],
+      "videos": [
+        "/assets/hala-stulecia-visit.mp4",
+        "/assets/video-stulecia-fountain.mp4"
+      ],
+      "metadata": {
+        "/assets/hala-stulecia-01.jpg": {
+          "tags": [
+            "centennial-hall",
+            "exterior",
+            "architecture",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true,
+          "sourceFile": "IMG_5063.JPG"
+        },
+        "/assets/hala-stulecia-02.jpg": {
+          "tags": [
+            "centennial-hall",
+            "exterior",
+            "flowers"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5062.JPG"
+        },
+        "/assets/hala-stulecia-03.jpg": {
+          "tags": [
+            "centennial-hall",
+            "exterior",
+            "landscape"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5059.JPG"
+        },
+        "/assets/hala-stulecia-04.jpg": {
+          "tags": [
+            "centennial-hall",
+            "dwarf",
+            "visitor-detail"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5064.JPG"
+        },
+        "/assets/hala-stulecia-05.jpg": {
+          "tags": [
+            "centennial-hall",
+            "visitor-area",
+            "food-truck"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5104.JPG"
+        },
+        "/assets/hala-stulecia-visit.mp4": {
+          "tags": [
+            "centennial-hall",
+            "visitor-experience",
+            "video"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5061.MOV"
+        },
+        "/assets/video-stulecia-fountain.mp4": {
+          "tags": [
+            "multimedia-fountain",
+            "centennial-hall-area",
+            "video"
+          ],
+          "original": true
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/"
+      }
     ]
   },
   "hala-targowa": {
