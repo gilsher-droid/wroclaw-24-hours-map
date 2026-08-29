@@ -30,6 +30,8 @@ for (const file of [
   "premium.js",
   "lifestyle.css",
   "lifestyle.js",
+  "cultural.css",
+  "cultural.js",
   "excursions.css",
   "excursions.js",
 ]) {
@@ -39,7 +41,7 @@ for (const file of [
 // Phase 1: access.js, checkout.js, admin.html and admin.js are deliberately
 // retained in source control for reversibility, but are not shipped publicly.
 
-for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html"]) {
+for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"]) {
   await cp(resolve(root, file), resolve(interactiveMaps, file));
 }
 
@@ -61,6 +63,7 @@ await writeFile(resolve(client, "premium.html"), legacyRedirect("/products/inter
 await writeFile(resolve(client, "moshe.html"), legacyRedirect("/products/interactive-maps/moshe.html", "מסלול כריסמס"));
 await writeFile(resolve(client, "lifestyle.html"), legacyRedirect("/products/interactive-maps/lifestyle.html", "לאכול, לשתות, לקנות ולישון"));
 await writeFile(resolve(client, "excursions.html"), legacyRedirect("/products/interactive-maps/excursions.html", "טיולים בשלזיה התחתית"));
+await writeFile(resolve(client, "cultural.html"), legacyRedirect("/products/interactive-maps/cultural.html", "ההרפתקה התרבותית"));
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
 await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true });
 await writeFile(resolve(client, ".nojekyll"), "");

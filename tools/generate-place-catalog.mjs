@@ -41,6 +41,7 @@ const canonicalSourceFile = process.env.WROC_CANONICAL_PLACE_SOURCE_FILE || "dat
 const freeWaterSourceFile = process.env.WROC_FREE_WATER_PLACE_SOURCE_FILE || "data/free-water-places.js";
 const canonicalSource = [
   ...((await evaluate([canonicalSourceFile])).WROC_CANONICAL_PLACE_SOURCE || []),
+  ...((await evaluate(["data/cultural-canonical-places.js"])).WROC_CULTURAL_CANONICAL_PLACE_SOURCE || []),
   ...((await evaluate([freeWaterSourceFile])).WROC_FREE_WATER_PLACE_SOURCE || []),
 ];
 const outputFile = process.env.WROC_PLACE_CATALOG_OUTPUT_FILE || "data/place-catalog.js";

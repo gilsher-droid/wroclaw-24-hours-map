@@ -10,6 +10,8 @@
 - `products/interactive-maps/premium.html` – מסלול 4 ימים.
 - `products/interactive-maps/moshe.html` – מסלול כריסמס.
 - `products/interactive-maps/lifestyle.html` – מדריך אינטראקטיבי לאוכל, שתייה, קניות ולינה עם 41 מקומות וחמישה מסננים.
+- `products/interactive-maps/excursions.html` – טיולי יום עצמאיים בשלזיה התחתית.
+- `products/interactive-maps/cultural.html` – ההרפתקה התרבותית: 26 מקומות קנוניים, חוויית אזור ושבעה מסנני תרבות.
 
 הכתובות הישנות נשמרות כהפניות אוטומטיות, כדי שקישורים שכבר פורסמו ימשיכו לעבוד.
 
