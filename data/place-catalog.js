@@ -9957,10 +9957,6 @@
     },
     "media": {
       "photos": [
-        "/assets/gallery-opera-01.jpg",
-        "/assets/gallery-opera-02.jpg",
-        "/assets/gallery-opera-03.jpg",
-        "/assets/gallery-opera-04.jpg",
         "/assets/gallery-opera-05.jpg",
         "/assets/gallery-opera-06.jpg"
       ],
