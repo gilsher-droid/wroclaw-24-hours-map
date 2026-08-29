@@ -151,6 +151,7 @@
     panorama: { facebook: facebook.panorama, instagram: instagram.panorama, gallery: galleries.panorama },
     hala: { facebook: facebook.hala, instagram: instagram.hala, gallery: galleries.stulecia, videos: videos.stulecia },
     fountain: { gallery: galleries.stulecia, videos: videos.stulecia },
+    pergola: canonicalResources("pergola"),
     japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: galleries.japanese },
     wroclavia: { gallery: galleries.wroclavia },
     "wroclavia-station": { gallery: galleries.wroclavia },

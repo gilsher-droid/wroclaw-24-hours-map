@@ -3618,18 +3618,18 @@
     "id": "fountain",
     "localName": "Wrocławska Fontanna Multimedialna",
     "name": {
-      "he": "הפרגולה והמזרקה המולטימדיאלית",
-      "en": "Pergola and Multimedia Fountain",
-      "pl": "Pergola i Fontanna Multimedialna",
-      "de": "Pergola und Multimedia-Brunnen",
-      "cs": "Pergola a multimediální fontána"
+      "he": "המזרקה המולטימדיאלית של ורוצלב",
+      "en": "Wrocław Multimedia Fountain",
+      "pl": "Wrocławska Fontanna Multimedialna",
+      "de": "Multimedia-Brunnen Wrocław",
+      "cs": "Vratislavská multimediální fontána"
     },
     "description": {
-      "he": "טיילת מוצלת סביב הבריכה והמזרקה עם מופעים עונתיים.",
-      "en": "A shaded walk around the pool and fountain with seasonal shows.",
-      "pl": "Zacieniona promenada wokół stawu i fontanny z sezonowymi pokazami.",
-      "de": "Ein schattiger Spaziergang rund um den Pool und den Brunnen mit saisonalen Shows.",
-      "cs": "Procházka ve stínu kolem bazénu a fontány se sezónními představeními."
+      "he": "מזרקה עונתית גדולה ליד אולם המאה, עם מופעי מים, מוזיקה ואור בשעות המתפרסמות מראש.",
+      "en": "A large seasonal fountain beside Centennial Hall, with scheduled water, music and light shows.",
+      "pl": "Duża sezonowa fontanna przy Hali Stulecia z zaplanowanymi pokazami wody, muzyki i światła.",
+      "de": "Ein großer saisonaler Brunnen an der Jahrhunderthalle mit angekündigten Wasser-, Musik- und Lichtshows.",
+      "cs": "Velká sezonní fontána u Haly století s plánovanými vodními, hudebními a světelnými představeními."
     },
     "location": {
       "countryCode": "PL",
@@ -3638,13 +3638,21 @@
       "coordinates": {
         "lat": 51.10832,
         "lng": 17.07948
+      },
+      "address": {
+        "street": "Wystawowa 1",
+        "postalCode": "51-618",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
       "river"
     ],
     "sourceUrls": [],
-    "aliases": [],
+    "aliases": [
+      "multimedia-fountain"
+    ],
     "sourceRecords": [
       {
         "productId": "wroclaw-four-days",
@@ -3661,12 +3669,17 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "high",
     "taxonomy": {
       "categories": [
         "river"
       ],
-      "tags": []
+      "tags": [
+        "water-show",
+        "seasonal",
+        "outdoor",
+        "evening"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -3696,6 +3709,19 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
       "photos": [
         "/assets/gallery-stulecia-02.jpg",
@@ -3715,20 +3741,7 @@
         }
       ]
     },
-    "socialPosts": [],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
-    ]
+    "socialPosts": []
   },
   "four-domes": {
     "id": "four-domes",
@@ -10216,6 +10229,187 @@
       "cs"
     ]
   },
+  "pergola": {
+    "id": "pergola",
+    "localName": "Pergola Wrocławska",
+    "name": {
+      "he": "הפרגולה של ורוצלב",
+      "en": "Wrocław Pergola",
+      "pl": "Pergola Wrocławska",
+      "de": "Pergola Wrocław",
+      "cs": "Vratislavská pergola"
+    },
+    "description": {
+      "he": "טיילת אדריכלית מוצלת ועטופה בצמחייה ליד אולם המאה, המתאימה להליכה רגועה ולמנוחה בין האתרים שבאזור.",
+      "en": "A shaded, plant-covered architectural promenade beside Centennial Hall, ideal for a relaxed walk and a pause between nearby sights.",
+      "pl": "Zacieniona, porośnięta zielenią promenada architektoniczna przy Hali Stulecia, dobra na spokojny spacer i odpoczynek między pobliskimi atrakcjami.",
+      "de": "Eine schattige, begrünte Architekturpromenade an der Jahrhunderthalle – ideal für einen ruhigen Spaziergang und eine Pause zwischen den Sehenswürdigkeiten der Umgebung.",
+      "cs": "Stinná architektonická promenáda porostlá zelení u Haly století, vhodná ke klidné procházce a odpočinku mezi okolními památkami."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.10882,
+        "lng": 17.07762
+      },
+      "address": {
+        "street": "Wystawowa 1",
+        "postalCode": "51-618",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "nature"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "pergola-wroclawska"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "pergola"
+      }
+    ],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "high",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "nature"
+      ],
+      "tags": [
+        "architecture",
+        "walking",
+        "photography",
+        "outdoor",
+        "green-space"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [
+        "couples",
+        "families",
+        "architecture-lovers",
+        "photographers"
+      ],
+      "walkingIntensity": "easy",
+      "familyFriendly": true,
+      "couples": true,
+      "solo": true,
+      "romantic": true,
+      "indoorOutdoor": "outdoor",
+      "rainFriendly": "partial",
+      "budgetLevel": null,
+      "accessibility": {
+        "level": "good",
+        "notes": {
+          "he": "הטיילת ברובה מישורית, אך ייתכנו משטחים לא אחידים ועומס באירועים.",
+          "en": "The promenade is mostly level, though some surfaces may be uneven and events can make it busy.",
+          "pl": "Promenada jest w większości płaska, choć miejscami nawierzchnia może być nierówna, a podczas wydarzeń bywa tłoczno.",
+          "de": "Die Promenade ist überwiegend eben; einzelne Flächen können jedoch uneben sein, und bei Veranstaltungen kann es voll werden.",
+          "cs": "Promenáda je převážně rovná, místy však může být povrch nerovný a během akcí zde bývá rušno."
+        }
+      }
+    },
+    "visit": {
+      "durationMinutes": 30,
+      "bestTimeOfDay": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "seasonalSuitability": [
+        "spring",
+        "summer",
+        "autumn"
+      ],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10882%2C17.07762",
+        "appleMaps": "https://maps.apple.com/?ll=51.10882,17.07762&q=Pergola%20Wroc%C5%82awska"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalContent": true,
+      "originalPhotography": true
+    },
+    "media": {
+      "photos": [
+        "/assets/pergola-wroclawska-01.jpg",
+        "/assets/pergola-wroclawska-02.jpg",
+        "/assets/pergola-wroclawska-03.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/pergola-wroclawska-01.jpg": {
+          "tags": [
+            "pergola",
+            "architecture",
+            "greenery",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true,
+          "sourceFile": "IMG_5068.JPG"
+        },
+        "/assets/pergola-wroclawska-02.jpg": {
+          "tags": [
+            "pergola",
+            "architecture",
+            "greenery",
+            "promenade"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5073.JPG"
+        },
+        "/assets/pergola-wroclawska-03.jpg": {
+          "tags": [
+            "pergola",
+            "architecture",
+            "greenery",
+            "visitor-experience"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5074.JPG"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/p/1CHRnrqLwQ/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1"
+      }
+    ]
+  },
   "peruwiana": {
     "id": "peruwiana",
     "localName": "Peruwiana",
@@ -16140,6 +16334,8 @@
   "chapel-of-skulls": "kaplica-czaszek-czermna",
   "kaplica-czaszek-w-czermnej": "kaplica-czaszek-czermna",
   "kaplica-czaszek-kudowa-zdroj": "kaplica-czaszek-czermna",
+  "multimedia-fountain": "fountain",
+  "pergola-wroclawska": "pergola",
   "wroclaw-zoo": "zoo-wroclaw",
   "zoo-wrocław": "zoo-wroclaw"
 };

@@ -26,7 +26,7 @@ test("every canonical social item remains a direct Facebook or Instagram link", 
     }
   }
 
-  assert.equal(uniqueUrls.size, 38);
+  assert.equal(uniqueUrls.size, 40);
 });
 
 test("the supplied priority links stay on their existing canonical places", () => {
@@ -38,6 +38,8 @@ test("the supplied priority links stay on their existing canonical places", () =
   assert.ok(urls("kaplica-czaszek-czermna").includes("https://www.instagram.com/p/Dbf9RSWnOB8/?img_index=1"));
   assert.ok(urls("glowny").includes("https://www.facebook.com/share/r/1Kx6Fvn9c2/"));
   assert.ok(urls("zoo-wroclaw").includes("https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/"));
+  assert.ok(urls("pergola").includes("https://www.facebook.com/share/p/1CHRnrqLwQ/"));
+  assert.ok(urls("pergola").includes("https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1"));
 });
 
 test("all products render plain social anchors without a preview interceptor", () => {
