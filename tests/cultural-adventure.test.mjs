@@ -44,6 +44,8 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
     assert.ok(aula.media.photos.includes(photo), `Aula gallery missing ${photo}`);
     assert.ok(existsSync(resolve(root, photo.replace(/^\//, ""))), `missing ${photo}`);
   }
+  const opera = window.WROC_CATALOG.getPlace("opera");
+  assert.deepEqual(Array.from(opera.media.photos), ["/assets/gallery-opera-05.jpg", "/assets/gallery-opera-06.jpg"]);
   assert.equal(window.WROC_CATALOG.resolveId("galeria-dizajn"), "zyjnia-bwa-wroclaw");
   assert.ok(window.WROC_CATALOG.getPlace("glowny").experiences.some((item) => item.id === "bwa-wroclaw-glowny-gallery"));
 });

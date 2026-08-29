@@ -32,7 +32,7 @@
     ],
     tumskiBridge: ["/assets/gallery-cathedral-02.jpg"],
     nfm: gallery("nfm", 3),
-    opera: gallery("opera", 6),
+    opera: ["/assets/gallery-opera-05.jpg", "/assets/gallery-opera-06.jpg"],
     boguslawskiego: gallery("boguslawskiego", 6),
     hydropolis: Array.from({ length: 10 }, (_, index) =>
       `/assets/hydropolis-${String(index + 1).padStart(2, "0")}.jpg`),
