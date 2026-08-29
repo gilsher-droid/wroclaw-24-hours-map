@@ -304,6 +304,11 @@
           tags: ["architecture", "history", "historical"],
           accessibility: { level: "good", notes: null },
         },
+        {
+          id: "bwa-wroclaw-glowny-gallery",
+          tags: ["art", "contemporary-art", "gallery"],
+          accessibility: { level: "good", notes: null },
+        },
       ],
       provenance: {
         contentType: "personal-visit",

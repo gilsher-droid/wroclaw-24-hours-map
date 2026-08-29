@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#062b5c" />
+    <meta name="description" content="ההרפתקה התרבותית של Wroc-love: מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות בוורוצלב." />
+    <meta property="og:title" content="ההרפתקה התרבותית בוורוצלב | Wroc-love" />
+    <meta property="og:description" content="מפת תרבות אינטראקטיבית עם סינון, כרטיסי מקום קנוניים וניווט ישיר." />
+    <meta property="og:image" content="https://wroc-love.com/assets/og-product.png" />
+    <title>ההרפתקה התרבותית בוורוצלב | Wroc-love</title>
+    <link rel="icon" href="/assets/logo.png" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+    <link rel="stylesheet" href="/cultural.css?v=20260829-1" />
+    <link rel="stylesheet" href="/site-actions.css?v=20260811-1" />
+    <link rel="stylesheet" href="/place-amenities.css?v=20260824-1" />
+  </head>
+  <body>
+    <header class="lifestyle-header">
+      <a class="lifestyle-brand" href="/?lang=he" data-home-link aria-label="חזרה לדף הבית">
+        <img src="/assets/logo.png" alt="Wrocław & Lower Silesia" />
+        <span><strong>Wroc-love</strong><small data-i18n="brandLine">מגלים את התרבות של ורוצלב</small></span>
+      </a>
+      <div class="header-actions">
+        <a class="home-return" href="/?lang=he" data-home-link><span aria-hidden="true">⌂</span><span data-i18n="homeReturn">חזרה לאתר הראשי</span></a>
+        <div class="language-switcher" role="group" aria-label="שפה">
+          <button type="button" data-lang="he">עברית</button>
+          <button type="button" data-lang="en">English</button>
+          <button type="button" data-lang="pl">Polski</button>
+          <button type="button" data-lang="de">Deutsch</button>
+          <button type="button" data-lang="cs">Čeština</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="lifestyle-hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">המוצר השישי של Wroc-love</p>
+          <h1 data-i18n="title">ההרפתקה<br />התרבותית.</h1>
+          <p class="hero-lead" data-i18n="lead">מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות — בוחרים תחום ומרכיבים ביקור שמתאים לכם.</p>
+          <div class="hero-notes">
+            <span><b id="place-count">26</b> <span data-i18n="places">מקומות</span></span>
+            <span data-i18n="fiveLanguages">חמש שפות</span>
+            <span data-i18n="directNavigation">ניווט ישיר</span>
+          </div>
+        </div>
+        <aside class="hero-prompt">
+          <span data-i18n="questionLabel">אין מסלול חובה</span>
+          <strong data-i18n="question">מה מסקרן אתכם היום?</strong>
+          <p data-i18n="questionHint">בחרו תחום; המפה תציג את המקומות המתאימים ותאפשר לעבור ביניהם בחופשיות.</p>
+        </aside>
+      </section>
+
+      <section class="directory-shell" aria-labelledby="directory-title">
+        <div class="directory-toolbar">
+          <div>
+            <p class="section-kicker" data-i18n="explore">לגלות לפי תחום</p>
+            <h2 id="directory-title" data-i18n="mapTitle">מפת התרבות</h2>
+          </div>
+          <label class="search-box">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <span class="sr-only" data-i18n="searchLabel">חיפוש מקום</span>
+            <input id="place-search" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="חפשו שם או אזור…" autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="category-filters" role="group" aria-label="סינון לפי קטגוריה">
+          <button class="category-button active" type="button" data-category="all"><span class="category-symbol">✦</span><span data-i18n="all">הכול</span><b data-count="all"></b></button>
+          <button class="category-button eat" type="button" data-category="museums-history"><span class="category-symbol">🏛</span><span data-i18n="museumsHistory">מוזיאונים והיסטוריה</span><b data-count="museums-history"></b></button>
+          <button class="category-button drink" type="button" data-category="art-contemporary"><span class="category-symbol">◐</span><span data-i18n="artContemporary">אמנות עכשווית</span><b data-count="art-contemporary"></b></button>
+          <button class="category-button buy" type="button" data-category="theatre-performing-arts"><span class="category-symbol">◭</span><span data-i18n="theatre">תיאטרון ומופע</span><b data-count="theatre-performing-arts"></b></button>
+          <button class="category-button sleep" type="button" data-category="music-opera"><span class="category-symbol">♫</span><span data-i18n="musicOpera">מוזיקה ואופרה</span><b data-count="music-opera"></b></button>
+          <button class="category-button eat" type="button" data-category="film"><span class="category-symbol">▶</span><span data-i18n="film">קולנוע</span><b data-count="film"></b></button>
+          <button class="category-button drink" type="button" data-category="architecture-design"><span class="category-symbol">◇</span><span data-i18n="architectureDesign">אדריכלות ועיצוב</span><b data-count="architecture-design"></b></button>
+          <button class="category-button buy" type="button" data-category="street-art"><span class="category-symbol">✺</span><span data-i18n="streetArt">אמנות רחוב</span><b data-count="street-art"></b></button>
+        </div>
+
+        <div class="map-layout">
+          <div class="map-column">
+            <div id="lifestyle-map" aria-label="מפת המקומות בוורוצלב"></div>
+            <p class="map-note" data-i18n="mapNote">המפה מתקרבת אוטומטית לתוצאות. לבדיקת מסלול בזמן אמת השתמשו בכפתור הניווט.</p>
+          </div>
+          <div class="results-column">
+            <div class="results-heading">
+              <strong id="results-title" data-i18n="allPlaces">כל המקומות</strong>
+              <span id="results-count"></span>
+            </div>
+            <div id="place-results" class="place-results" aria-live="polite"></div>
+            <div id="empty-state" class="empty-state" hidden>
+              <strong data-i18n="emptyTitle">לא מצאנו מקום מתאים</strong>
+              <p data-i18n="emptyText">נסו מילת חיפוש אחרת או חזרו להצגת הכול.</p>
+              <button type="button" id="reset-search" data-i18n="showAll">הציגו הכול</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="editorial-note">
+        <div>
+          <p class="section-kicker" data-i18n="livingGuide">מדריך שחי ומתעדכן</p>
+          <h2 data-i18n="editorialTitle">לא מסלול קשיח. אוסף תרבותי שאפשר להרכיב ממנו יום משלכם.</h2>
+        </div>
+        <p data-i18n="editorialText">כל כרטיס מפנה לרשומת המקום הקנונית, לאתר הרשמי ולניווט. אמנות הרחוב מוצגת כחוויית שכונות ללא סיכה מטעה.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div><strong>Wroc-love</strong><span data-i18n="communityLine">מבית קהילת Wrocław & Lower Silesia</span></div>
+      <nav aria-label="Social media">
+        <a href="https://www.facebook.com/groups/2525899074519424" target="_blank" rel="noopener" data-i18n="facebookGroup">קבוצת הפייסבוק</a>
+        <a href="https://www.facebook.com/profile.php?id=61591964083308" target="_blank" rel="noopener" data-i18n="facebookPage">הדף העסקי</a>
+        <a href="https://www.instagram.com/wroclaw.lowersilesia/" target="_blank" rel="noopener" data-i18n="instagram">אינסטגרם</a>
+      </nav>
+    </footer>
+
+    <div class="media-modal" id="media-modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="media-title">
+      <div class="media-dialog">
+        <button class="media-close" type="button" data-close-media aria-label="סגירה">×</button>
+        <h2 id="media-title"></h2>
+        <div id="media-content"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="/data/extra-languages.js?v=20260807-1"></script>
+    <script src="/data/place-catalog.js?v=20260809-1"></script>
+    <script src="/data/location-media.js?v=20260808-10"></script>
+    <script src="/data/cultural-places.js?v=20260829-1"></script>
+    <script src="/campaign-access.js?v=20260809-1"></script>
+    <script src="/cultural.js?v=20260829-1"></script>
+    <script src="/site-actions.js?v=20260811-1" defer></script>
+  </body>
+</html>

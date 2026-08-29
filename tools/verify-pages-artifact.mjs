@@ -10,6 +10,7 @@ const requiredFiles = [
   "data/premium-route.js",
   "data/moshe-route.js",
   "data/lifestyle-places.js",
+  "data/cultural-places.js",
   "data/lower-silesia-excursions.js",
 ];
 
@@ -27,6 +28,7 @@ const pages = [
   ["products/interactive-maps/moshe.html", "data/moshe-route.js"],
   ["products/interactive-maps/lifestyle.html", "data/lifestyle-places.js"],
   ["products/interactive-maps/excursions.html", "data/lower-silesia-excursions.js"],
+  ["products/interactive-maps/cultural.html", "data/cultural-places.js"],
 ];
 
 for (const [pagePath, routeDataPath] of pages) {

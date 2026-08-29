@@ -449,11 +449,11 @@
       "cs": "Aula Leopoldina"
     },
     "description": {
-      "he": "אולם בארוקי מפואר בתוך האוניברסיטה. בדקו שעות פתיחה וכרטיסים; אם סגור, המשיכו בלי לעכב את המסלול.",
-      "en": "A magnificent Baroque ceremonial hall inside the university. Check opening hours and tickets; if closed, keep moving.",
-      "pl": "Wspaniała barokowa sala reprezentacyjna uniwersytetu. Sprawdź godziny otwarcia i bilety; jeśli jest zamknięta, kontynuuj trasę.",
-      "de": "Ein prachtvoller barocker Festsaal im Inneren der Universität. Überprüfen Sie die Öffnungszeiten und Tickets. Wenn es geschlossen ist, bewegen Sie sich weiter.",
-      "cs": "Velkolepá barokní obřadní síň uvnitř univerzity. Zkontrolujte otevírací dobu a vstupenky; pokud je zavřeno, pokračujte v pohybu."
+      "he": "אולם בארוקי מפואר כחלק ממוזיאון אוניברסיטת ורוצלב.",
+      "en": "A magnificent Baroque hall within the University of Wrocław Museum.",
+      "pl": "Wspaniała barokowa sala w Muzeum Uniwersytetu Wrocławskiego.",
+      "de": "Prachtvoller Barocksaal im Museum der Universität Breslau.",
+      "cs": "Velkolepý barokní sál v Muzeu Vratislavské univerzity."
     },
     "location": {
       "countryCode": "PL",
@@ -465,7 +465,10 @@
       }
     },
     "categories": [
-      "culture"
+      "architecture",
+      "culture",
+      "history",
+      "museum"
     ],
     "sourceUrls": [],
     "aliases": [],
@@ -507,12 +510,18 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
-        "culture"
+        "architecture",
+        "culture",
+        "history",
+        "museum"
       ],
-      "tags": []
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -536,11 +545,63 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://muzeum.uni.wroc.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.11371%2C17.03362",
+        "appleMaps": "https://maps.apple.com/?ll=51.11371,17.03362&q=Aula%20Leopoldina"
       }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "aula-leopoldina",
+        "tags": [
+          "architecture",
+          "history"
+        ]
+      },
+      {
+        "id": "oratorium-marianum",
+        "tags": [
+          "architecture",
+          "music"
+        ]
+      },
+      {
+        "id": "mathematical-tower",
+        "tags": [
+          "history",
+          "viewpoint"
+        ]
+      },
+      {
+        "id": "university-exhibition-rooms",
+        "tags": [
+          "history"
+        ]
+      }
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeum.uni.wroc.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
     },
     "media": {
       "photos": [
@@ -561,19 +622,6 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/p/DbgEDzmnDcY/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "bar-mis": {
@@ -2597,6 +2645,114 @@
     },
     "socialPosts": []
   },
+  "depot-history-centre": {
+    "id": "depot-history-centre",
+    "localName": "Centrum Historii Zajezdnia",
+    "name": {
+      "he": "מרכז ההיסטוריה זאייזדניה",
+      "en": "Depot History Centre",
+      "pl": "Centrum Historii Zajezdnia",
+      "de": "Geschichtszentrum Zajezdnia",
+      "cs": "Historické centrum Zajezdnia"
+    },
+    "description": {
+      "he": "מרכז היסטוריה המספר את סיפורה של ורוצלב אחרי 1945.",
+      "en": "A history centre telling Wrocław's story after 1945.",
+      "pl": "Centrum historii opowiadające o Wrocławiu po 1945 roku.",
+      "de": "Geschichtszentrum über Breslau nach 1945.",
+      "cs": "Historické centrum vyprávějící příběh Vratislavi po roce 1945."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.0965976,
+        "lng": 16.9912403
+      },
+      "address": {
+        "street": "Grabiszyńska 184",
+        "postalCode": "53-235",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "history",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "history",
+        "museum"
+      ],
+      "tags": [
+        "museums-history"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zajezdnia.org/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.0965976%2C16.9912403",
+        "appleMaps": "https://maps.apple.com/?ll=51.0965976,16.9912403&q=Centrum%20Historii%20Zajezdnia"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://zajezdnia.org/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "dinette": {
     "id": "dinette",
     "localName": "Dinette",
@@ -3750,15 +3906,15 @@
       "he": "ביתן ארבע הכיפות",
       "en": "Four Domes Pavilion",
       "pl": "Pawilon Czterech Kopuł",
-      "de": "Pavillon mit vier Kuppeln",
+      "de": "Vier-Kuppel-Pavillon",
       "cs": "Pavilon čtyř kopulí"
     },
     "description": {
-      "he": "מוזיאון לאמנות עכשווית במבנה מרשים לצד Hala Stulecia.",
-      "en": "A contemporary art museum in an impressive building beside Centennial Hall.",
-      "pl": "Muzeum sztuki współczesnej w imponującym budynku obok Hali Stulecia.",
-      "de": "Ein Museum für zeitgenössische Kunst in einem beeindruckenden Gebäude neben der Centennial Hall.",
-      "cs": "Muzeum současného umění v impozantní budově vedle Centennial Hall."
+      "he": "שלוחה לאמנות עכשווית של המוזיאון הלאומי במבנה מודרניסטי.",
+      "en": "The National Museum's contemporary-art branch in a modernist building.",
+      "pl": "Oddział sztuki współczesnej Muzeum Narodowego w modernistycznym budynku.",
+      "de": "Abteilung für Gegenwartskunst des Nationalmuseums in einem modernen Gebäude.",
+      "cs": "Pobočka současného umění Národního muzea v modernistické budově."
     },
     "location": {
       "countryCode": "PL",
@@ -3770,7 +3926,10 @@
       }
     },
     "categories": [
-      "culture"
+      "architecture",
+      "art",
+      "culture",
+      "museum"
     ],
     "sourceUrls": [],
     "aliases": [],
@@ -3790,12 +3949,18 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
-        "culture"
+        "architecture",
+        "art",
+        "culture",
+        "museum"
       ],
-      "tags": []
+      "tags": [
+        "art-contemporary",
+        "architecture-design"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -3819,17 +3984,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://mnwr.pl/oddzialy/pawilon-czterech-kopul/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10805%2C17.07527",
+        "appleMaps": "https://maps.apple.com/?ll=51.10805,17.07527&q=Pawilon%20Czterech%20Kopu%C5%82"
       }
     },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -3842,7 +4002,22 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://mnwr.pl/oddzialy/pawilon-czterech-kopul/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "frytki": {
     "id": "frytki",
@@ -4106,6 +4281,18 @@
           "architecture",
           "history",
           "historical"
+        ],
+        "accessibility": {
+          "level": "good",
+          "notes": null
+        }
+      },
+      {
+        "id": "bwa-wroclaw-glowny-gallery",
+        "tags": [
+          "art",
+          "contemporary-art",
+          "gallery"
         ],
         "accessibility": {
           "level": "good",
@@ -4745,6 +4932,115 @@
       "de",
       "cs"
     ]
+  },
+  "henryk-tomaszewski-theatre-museum": {
+    "id": "henryk-tomaszewski-theatre-museum",
+    "localName": "Muzeum Teatru im. Henryka Tomaszewskiego",
+    "name": {
+      "he": "מוזיאון התיאטרון ע״ש הנריק תומשבסקי",
+      "en": "Henryk Tomaszewski Theatre Museum",
+      "pl": "Muzeum Teatru im. Henryka Tomaszewskiego",
+      "de": "Henryk-Tomaszewski-Theatermuseum",
+      "cs": "Divadelní muzeum Henryka Tomaszewského"
+    },
+    "description": {
+      "he": "מוזיאון לתולדות התיאטרון של ורוצלב וליצירת הנריק תומשבסקי.",
+      "en": "A museum of Wrocław theatre history and Henryk Tomaszewski's work.",
+      "pl": "Muzeum historii wrocławskiego teatru i twórczości Henryka Tomaszewskiego.",
+      "de": "Museum zur Breslauer Theatergeschichte und zu Henryk Tomaszewski.",
+      "cs": "Muzeum dějin vratislavského divadla a tvorby Henryka Tomaszewského."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1069642,
+        "lng": 17.0278621
+      },
+      "address": {
+        "street": "plac Wolności 7A",
+        "postalCode": "50-071",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "museum",
+      "theatre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "museum",
+        "theatre"
+      ],
+      "tags": [
+        "museums-history",
+        "theatre-performing-arts"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://muzeum.miejskie.wroclaw.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1069642%2C17.0278621",
+        "appleMaps": "https://maps.apple.com/?ll=51.1069642,17.0278621&q=Muzeum%20Teatru%20im.%20Henryka%20Tomaszewskiego"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeum.miejskie.wroclaw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "herbal": {
     "id": "herbal",
@@ -8499,6 +8795,348 @@
       "cs"
     ]
   },
+  "municipal-arsenal-wroclaw": {
+    "id": "municipal-arsenal-wroclaw",
+    "localName": "Arsenał Miejski",
+    "name": {
+      "he": "הארסנל העירוני",
+      "en": "Municipal Arsenal",
+      "pl": "Arsenał Miejski",
+      "de": "Städtisches Arsenal",
+      "cs": "Městský arzenál"
+    },
+    "description": {
+      "he": "מתחם היסטורי המאכלס את המוזיאונים לארכאולוגיה ולצבא.",
+      "en": "A historic complex housing the archaeology and military museums.",
+      "pl": "Historyczny zespół mieszczący muzea archeologiczne i militariów.",
+      "de": "Historischer Komplex mit Archäologie- und Militärmuseum.",
+      "cs": "Historický areál s archeologickým a vojenským muzeem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1127984,
+        "lng": 17.0268468
+      },
+      "address": {
+        "street": "Antoniego Cieszyńskiego 9",
+        "postalCode": "50-136",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "history",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "history",
+        "museum"
+      ],
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://muzeum.miejskie.wroclaw.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1127984%2C17.0268468",
+        "appleMaps": "https://maps.apple.com/?ll=51.1127984,17.0268468&q=Arsena%C5%82%20Miejski"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "archaeological-museum",
+        "tags": [
+          "history",
+          "archaeology"
+        ]
+      },
+      {
+        "id": "military-museum",
+        "tags": [
+          "history",
+          "military"
+        ]
+      }
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeum.miejskie.wroclaw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "museum-of-architecture-wroclaw": {
+    "id": "museum-of-architecture-wroclaw",
+    "localName": "Muzeum Architektury we Wrocławiu",
+    "name": {
+      "he": "המוזיאון לאדריכלות",
+      "en": "Museum of Architecture",
+      "pl": "Muzeum Architektury",
+      "de": "Architekturmuseum",
+      "cs": "Muzeum architektury"
+    },
+    "description": {
+      "he": "מוזיאון לאדריכלות במנזר ברנרדיני לשעבר.",
+      "en": "An architecture museum in a former Bernardine monastery.",
+      "pl": "Muzeum architektury w dawnym klasztorze bernardynów.",
+      "de": "Architekturmuseum in einem ehemaligen Bernhardinerkloster.",
+      "cs": "Muzeum architektury v bývalém bernardinském klášteře."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1094652,
+        "lng": 17.0420402
+      },
+      "address": {
+        "street": "Bernardyńska 5",
+        "postalCode": "50-156",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "museum"
+      ],
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://ma.wroc.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1094652%2C17.0420402",
+        "appleMaps": "https://maps.apple.com/?ll=51.1094652,17.0420402&q=Muzeum%20Architektury%20we%20Wroc%C5%82awiu"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://ma.wroc.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "museum-of-pharmacy-wroclaw": {
+    "id": "museum-of-pharmacy-wroclaw",
+    "localName": "Muzeum Farmacji Uniwersytetu Medycznego",
+    "name": {
+      "he": "מוזיאון הרוקחות",
+      "en": "Museum of Pharmacy",
+      "pl": "Muzeum Farmacji",
+      "de": "Pharmazie-Museum",
+      "cs": "Muzeum farmacie"
+    },
+    "description": {
+      "he": "מוזיאון באוניברסיטה הרפואית המתאר את תולדות הרוקחות.",
+      "en": "A Medical University museum exploring the history of pharmacy.",
+      "pl": "Muzeum Uniwersytetu Medycznego poświęcone historii farmacji.",
+      "de": "Museum der Medizinischen Universität zur Geschichte der Pharmazie.",
+      "cs": "Muzeum lékařské univerzity věnované dějinám farmacie."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1097389,
+        "lng": 17.0340548
+      },
+      "address": {
+        "street": "Kurzy Targ 4",
+        "postalCode": "50-103",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "history",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "history",
+        "museum"
+      ],
+      "tags": [
+        "museums-history"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://umw.edu.pl/pl/muzeum-farmacji",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1097389%2C17.0340548",
+        "appleMaps": "https://maps.apple.com/?ll=51.1097389,17.0340548&q=Muzeum%20Farmacji%20Uniwersytetu%20Medycznego"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://umw.edu.pl/pl/muzeum-farmacji",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "nanan": {
     "id": "nanan",
     "localName": "NANAN",
@@ -8604,18 +9242,18 @@
     "id": "national-museum",
     "localName": "Muzeum Narodowe we Wrocławiu",
     "name": {
-      "he": "המוזיאון הלאומי",
+      "he": "המוזיאון הלאומי בוורוצלב",
       "en": "National Museum in Wrocław",
       "pl": "Muzeum Narodowe we Wrocławiu",
-      "de": "Nationalmuseum in Breslau",
+      "de": "Nationalmuseum Breslau",
       "cs": "Národní muzeum ve Vratislavi"
     },
     "description": {
-      "he": "חלופה מקורה מצוינת ליום קר או גשום, במרחק קצר מהפנורמה.",
-      "en": "An excellent indoor option for a cold or rainy day, close to the Panorama.",
-      "pl": "Świetna opcja pod dachem na zimny lub deszczowy dzień, blisko Panoramy.",
-      "de": "Eine ausgezeichnete Indoor-Option für einen kalten oder regnerischen Tag, in der Nähe des Panoramas.",
-      "cs": "Vynikající vnitřní varianta pro chladné nebo deštivé dny v blízkosti Panorama."
+      "he": "אוספי אמנות שלזית ופולנית בבניין היסטורי עטוי קיסוס.",
+      "en": "Silesian and Polish art collections in a historic ivy-covered building.",
+      "pl": "Zbiory sztuki śląskiej i polskiej w zabytkowym budynku porośniętym bluszczem.",
+      "de": "Schlesische und polnische Kunst in einem historischen, efeubewachsenen Gebäude.",
+      "cs": "Sbírky slezského a polského umění v historické budově porostlé břečťanem."
     },
     "location": {
       "countryCode": "PL",
@@ -8627,7 +9265,10 @@
       }
     },
     "categories": [
-      "culture"
+      "art",
+      "culture",
+      "history",
+      "museum"
     ],
     "sourceUrls": [],
     "aliases": [],
@@ -8647,12 +9288,18 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
-        "culture"
+        "art",
+        "culture",
+        "history",
+        "museum"
       ],
-      "tags": []
+      "tags": [
+        "museums-history",
+        "art-contemporary"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -8676,17 +9323,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://mnwr.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.11061%2C17.04725",
+        "appleMaps": "https://maps.apple.com/?ll=51.11061,17.04725&q=Muzeum%20Narodowe%20we%20Wroc%C5%82awiu"
       }
     },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -8699,7 +9341,130 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://mnwr.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "new-horizons-cinema": {
+    "id": "new-horizons-cinema",
+    "localName": "Kino Nowe Horyzonty",
+    "name": {
+      "he": "קולנוע ניו הורייזונס",
+      "en": "New Horizons Cinema",
+      "pl": "Kino Nowe Horyzonty",
+      "de": "Kino Nowe Horyzonty",
+      "cs": "Kino Nowe Horyzonty"
+    },
+    "description": {
+      "he": "קולנוע רב־מסכי מרכזי המזוהה עם פסטיבל New Horizons.",
+      "en": "A major multi-screen cinema associated with the New Horizons festival.",
+      "pl": "Wielosalowe kino związane z festiwalem Nowe Horyzonty.",
+      "de": "Großes Programmkino, verbunden mit dem New-Horizons-Festival.",
+      "cs": "Velké multikino spojené s festivalem New Horizons."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.109306,
+        "lng": 17.026094
+      },
+      "address": {
+        "street": "Kazimierza Wielkiego 19A-21",
+        "postalCode": "50-077",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "cinema",
+      "film"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "cinema",
+        "film"
+      ],
+      "tags": [
+        "film"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://kinonh.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.109306%2C17.026094",
+        "appleMaps": "https://maps.apple.com/?ll=51.109306,17.026094&q=Kino%20Nowe%20Horyzonty"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://kinonh.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "nfm": {
     "id": "nfm",
@@ -8708,15 +9473,15 @@
       "he": "הפורום הלאומי למוזיקה",
       "en": "National Forum of Music",
       "pl": "Narodowe Forum Muzyki",
-      "de": "National Forum of Music",
-      "cs": "National Forum of Music"
+      "de": "Nationales Musikforum",
+      "cs": "Národní hudební fórum"
     },
     "description": {
-      "he": "אחד ממוסדות התרבות המרכזיים בעיר. בדקו אם מתקיים מופע בערב הביקור.",
-      "en": "One of the city’s leading cultural venues. Check whether a performance is scheduled for your evening.",
-      "pl": "Jedna z najważniejszych instytucji kultury w mieście. Sprawdź, czy wieczorem odbywa się koncert.",
-      "de": "One of the city’s leading cultural venues. Check whether a performance is scheduled for your evening.",
-      "cs": "One of the city’s leading cultural venues. Check whether a performance is scheduled for your evening."
+      "he": "אולם הקונצרטים המרכזי בעיר, עם תוכנית קלאסית ועכשווית.",
+      "en": "The city's main concert hall, with classical and contemporary programmes.",
+      "pl": "Główna sala koncertowa miasta z repertuarem klasycznym i współczesnym.",
+      "de": "Wichtigster Konzertsaal der Stadt mit klassischem und zeitgenössischem Programm.",
+      "cs": "Hlavní koncertní sál města s klasickým i současným programem."
     },
     "location": {
       "countryCode": "PL",
@@ -8727,7 +9492,10 @@
         "lng": 17.02857
       }
     },
-    "categories": [],
+    "categories": [
+      "architecture",
+      "music"
+    ],
     "sourceUrls": [],
     "aliases": [],
     "sourceRecords": [
@@ -8746,10 +9514,16 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "normal",
     "taxonomy": {
-      "categories": [],
-      "tags": []
+      "categories": [
+        "architecture",
+        "music"
+      ],
+      "tags": [
+        "music-opera",
+        "architecture-design"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -8773,21 +9547,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://nfm.wroclaw.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10775%2C17.02857",
+        "appleMaps": "https://maps.apple.com/?ll=51.10775,17.02857&q=Narodowe%20Forum%20Muzyki"
       }
     },
-    "media": {
-      "photos": [
-        "/assets/gallery-nfm-01.jpg",
-        "/assets/gallery-nfm-02.jpg",
-        "/assets/gallery-nfm-03.jpg"
-      ],
-      "videos": []
-    },
-    "socialPosts": [],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -8800,7 +9565,26 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://nfm.wroclaw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/gallery-nfm-01.jpg",
+        "/assets/gallery-nfm-02.jpg",
+        "/assets/gallery-nfm-03.jpg"
+      ],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "odra-centrum": {
     "id": "odra-centrum",
@@ -8911,55 +9695,59 @@
     },
     "socialPosts": []
   },
-  "opera": {
-    "id": "opera",
-    "localName": "Opera Wrocławska",
+  "old-jewish-cemetery-wroclaw": {
+    "id": "old-jewish-cemetery-wroclaw",
+    "localName": "Stary Cmentarz Żydowski",
     "name": {
-      "he": "האופרה של ורוצלב",
-      "en": "Wrocław Opera",
-      "pl": "Opera Wrocławska",
-      "de": "Wrocław Opera",
-      "cs": "Wrocław Opera"
+      "he": "בית הקברות היהודי הישן",
+      "en": "Old Jewish Cemetery",
+      "pl": "Stary Cmentarz Żydowski",
+      "de": "Alter Jüdischer Friedhof",
+      "cs": "Starý židovský hřbitov"
     },
     "description": {
-      "he": "מבנה תרבותי מרכזי במרכז העיר. כדאי לבדוק מראש את תוכנית ההופעות.",
-      "en": "A major cultural venue in the city centre. Check the current programme in advance.",
-      "pl": "Ważna scena kulturalna w centrum miasta. Warto wcześniej sprawdzić aktualny repertuar.",
-      "de": "A major cultural venue in the city centre. Check the current programme in advance.",
-      "cs": "A major cultural venue in the city centre. Check the current programme in advance."
+      "he": "בית קברות יהודי היסטורי שהוא גם מוזיאון לאמנות הקבורה.",
+      "en": "A historic Jewish cemetery and museum of funerary art.",
+      "pl": "Historyczny cmentarz żydowski i muzeum sztuki cmentarnej.",
+      "de": "Historischer jüdischer Friedhof und Museum der Sepulkralkunst.",
+      "cs": "Historický židovský hřbitov a muzeum funerálního umění."
     },
     "location": {
       "countryCode": "PL",
       "regionId": "lower-silesia",
       "cityId": "wroclaw",
       "coordinates": {
-        "lat": 51.10672,
-        "lng": 17.03254
+        "lat": 51.0876535,
+        "lng": 17.0269459
+      },
+      "address": {
+        "street": "Ślężna 37/39",
+        "postalCode": "53-301",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
-    "categories": [],
+    "categories": [
+      "heritage",
+      "history",
+      "museum"
+    ],
     "sourceUrls": [],
     "aliases": [],
-    "sourceRecords": [
-      {
-        "productId": "wroclaw-24-hours",
-        "kind": "route-stop",
-        "sourceId": "opera"
-      }
-    ],
-    "coordinateCandidates": [
-      {
-        "productId": "wroclaw-24-hours",
-        "sourceId": "opera",
-        "lat": 51.10672,
-        "lng": 17.03254
-      }
-    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "normal",
     "taxonomy": {
-      "categories": [],
-      "tags": []
+      "categories": [
+        "heritage",
+        "history",
+        "museum"
+      ],
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -8983,11 +9771,153 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://muzeum.miejskie.wroclaw.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.0876535%2C17.0269459",
+        "appleMaps": "https://maps.apple.com/?ll=51.0876535,17.0269459&q=Stary%20Cmentarz%20%C5%BBydowski"
       }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeum.miejskie.wroclaw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "opera": {
+    "id": "opera",
+    "localName": "Opera Wrocławska",
+    "name": {
+      "he": "האופרה של ורוצלב",
+      "en": "Wrocław Opera",
+      "pl": "Opera Wrocławska",
+      "de": "Oper Breslau",
+      "cs": "Vratislavská opera"
+    },
+    "description": {
+      "he": "בית אופרה היסטורי פעיל בלב העיר.",
+      "en": "An active historic opera house in the city centre.",
+      "pl": "Czynny historyczny gmach opery w centrum miasta.",
+      "de": "Aktives historisches Opernhaus im Stadtzentrum.",
+      "cs": "Aktivní historická operní budova v centru města."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.10672,
+        "lng": 17.03254
+      }
+    },
+    "categories": [
+      "architecture",
+      "music",
+      "theatre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-24-hours",
+        "kind": "route-stop",
+        "sourceId": "opera"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "wroclaw-24-hours",
+        "sourceId": "opera",
+        "lat": 51.10672,
+        "lng": 17.03254
+      }
+    ],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "music",
+        "theatre"
+      ],
+      "tags": [
+        "music-opera",
+        "theatre-performing-arts",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://opera.wroclaw.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10672%2C17.03254",
+        "appleMaps": "https://maps.apple.com/?ll=51.10672,17.03254&q=Opera%20Wroc%C5%82awska"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://opera.wroclaw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
     },
     "media": {
       "photos": [
@@ -9005,19 +9935,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/photo/?fbid=122108355723398802"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "ossolineum": {
@@ -9741,59 +10658,58 @@
       "cs"
     ]
   },
-  "panorama": {
-    "id": "panorama",
-    "localName": "Panorama Racławicka",
+  "pan-tadeusz-museum": {
+    "id": "pan-tadeusz-museum",
+    "localName": "Muzeum Pana Tadeusza",
     "name": {
-      "he": "Panorama Racławicka",
-      "en": "Panorama Racławicka",
-      "pl": "Panorama Racławicka",
-      "de": "Panorama Racławicka",
-      "cs": "Panorama Racławicka"
+      "he": "מוזיאון פאן טדאוש",
+      "en": "Pan Tadeusz Museum",
+      "pl": "Muzeum Pana Tadeusza",
+      "de": "Pan-Tadeusz-Museum",
+      "cs": "Muzeum Pana Tadeusze"
     },
     "description": {
-      "he": "ציור פנורמי עצום בביקור מתוזמן, מתאים במיוחד לבוקר חורפי.",
-      "en": "A monumental panoramic painting with timed entry, ideal for a winter morning.",
-      "pl": "Monumentalne malowidło panoramiczne ze wstępem na konkretną godzinę, idealne na zimowy poranek.",
-      "de": "Ein monumentales Panoramagemälde mit zeitgesteuertem Eintritt, ideal für einen Wintermorgen.",
-      "cs": "Monumentální panoramatický obraz s časovaným vstupem, ideální pro zimní ráno."
+      "he": "מוזיאון ספרותי אינטראקטיבי בבית היסטורי בכיכר השוק.",
+      "en": "An interactive literary museum in a historic Market Square house.",
+      "pl": "Interaktywne muzeum literackie w zabytkowej kamienicy przy Rynku.",
+      "de": "Interaktives Literaturmuseum in einem historischen Haus am Rynek.",
+      "cs": "Interaktivní literární muzeum v historickém domě na Rynku."
     },
     "location": {
       "countryCode": "PL",
       "regionId": "lower-silesia",
       "cityId": "wroclaw",
       "coordinates": {
-        "lat": 51.11027,
-        "lng": 17.04457
+        "lat": 51.1104299,
+        "lng": 17.0302752
+      },
+      "address": {
+        "street": "Rynek 6",
+        "postalCode": "50-106",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
-      "culture"
+      "history",
+      "literature",
+      "museum"
     ],
     "sourceUrls": [],
     "aliases": [],
-    "sourceRecords": [
-      {
-        "productId": "wroclaw-christmas",
-        "kind": "route-stop",
-        "sourceId": "panorama"
-      }
-    ],
-    "coordinateCandidates": [
-      {
-        "productId": "wroclaw-christmas",
-        "sourceId": "panorama",
-        "lat": 51.11027,
-        "lng": 17.04457
-      }
-    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
-        "culture"
+        "history",
+        "literature",
+        "museum"
       ],
-      "tags": []
+      "tags": [
+        "museums-history"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -9817,11 +10733,154 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://muzeumpanatadeusza.ossolineum.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1104299%2C17.0302752",
+        "appleMaps": "https://maps.apple.com/?ll=51.1104299,17.0302752&q=Muzeum%20Pana%20Tadeusza"
       }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeumpanatadeusza.ossolineum.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "panorama": {
+    "id": "panorama",
+    "localName": "Panorama Racławicka",
+    "name": {
+      "he": "פנורמת רצלאביצה",
+      "en": "Racławice Panorama",
+      "pl": "Panorama Racławicka",
+      "de": "Panorama von Racławice",
+      "cs": "Racławické panorama"
+    },
+    "description": {
+      "he": "ציור פנורמי מונומנטלי בביקור בשעה מוזמנת.",
+      "en": "A monumental panoramic painting visited at a reserved time.",
+      "pl": "Monumentalne malowidło panoramiczne zwiedzane o zarezerwowanej godzinie.",
+      "de": "Monumentales Panoramagemälde mit festem Besuchstermin.",
+      "cs": "Monumentální panoramatický obraz s návštěvou v rezervovaném čase."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.11027,
+        "lng": 17.04457
+      }
+    },
+    "categories": [
+      "art",
+      "culture",
+      "history",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-christmas",
+        "kind": "route-stop",
+        "sourceId": "panorama"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "wroclaw-christmas",
+        "sourceId": "panorama",
+        "lat": 51.11027,
+        "lng": 17.04457
+      }
+    ],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "art",
+        "culture",
+        "history",
+        "museum"
+      ],
+      "tags": [
+        "museums-history",
+        "art-contemporary"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://mnwr.pl/oddzialy/panorama-raclawicka/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.11027%2C17.04457",
+        "appleMaps": "https://maps.apple.com/?ll=51.11027,17.04457&q=Panorama%20Rac%C5%82awicka"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://mnwr.pl/oddzialy/panorama-raclawicka/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
     },
     "media": {
       "photos": [
@@ -9841,19 +10900,6 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/p/Dbf-y1HHDum/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "papa": {
@@ -11120,6 +12166,112 @@
       "cs"
     ]
   },
+  "polish-theatre-wroclaw": {
+    "id": "polish-theatre-wroclaw",
+    "localName": "Teatr Polski we Wrocławiu",
+    "name": {
+      "he": "התיאטרון הפולני",
+      "en": "Polish Theatre in Wrocław",
+      "pl": "Teatr Polski we Wrocławiu",
+      "de": "Polnisches Theater Wrocław",
+      "cs": "Polské divadlo ve Vratislavi"
+    },
+    "description": {
+      "he": "במת תיאטרון פעילה; מומלץ לבדוק את הרפרטואר הרשמי מראש.",
+      "en": "An active theatre venue; check the official programme in advance.",
+      "pl": "Czynna scena teatralna; warto wcześniej sprawdzić oficjalny repertuar.",
+      "de": "Aktive Theaterbühne; das offizielle Programm vorab prüfen.",
+      "cs": "Aktivní divadelní scéna; program si ověřte předem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.101278,
+        "lng": 17.0260842
+      },
+      "address": {
+        "street": "Gabrieli Zapolskiej 3",
+        "postalCode": "50-032",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "theatre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "theatre"
+      ],
+      "tags": [
+        "theatre-performing-arts"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://teatrpolski.wroc.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.101278%2C17.0260842",
+        "appleMaps": "https://maps.apple.com/?ll=51.101278,17.0260842&q=Teatr%20Polski%20we%20Wroc%C5%82awiu"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://teatrpolski.wroc.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "puro": {
     "id": "puro",
     "localName": "PURO Wrocław Stare Miasto",
@@ -11492,6 +12644,133 @@
     },
     "socialPosts": []
   },
+  "royal-palace-wroclaw": {
+    "id": "royal-palace-wroclaw",
+    "localName": "Pałac Królewski",
+    "name": {
+      "he": "הארמון המלכותי",
+      "en": "Royal Palace",
+      "pl": "Pałac Królewski",
+      "de": "Königspalais",
+      "cs": "Královský palác"
+    },
+    "description": {
+      "he": "ארמון מלכותי ובו תולדות ורוצלב ואמנות המדליות.",
+      "en": "A royal palace presenting Wrocław's history and medallic art.",
+      "pl": "Pałac królewski z historią Wrocławia i sztuką medalierską.",
+      "de": "Königspalais mit Breslauer Geschichte und Medaillenkunst.",
+      "cs": "Královský palác s dějinami Vratislavi a medailérským uměním."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1076223,
+        "lng": 17.0292728
+      },
+      "address": {
+        "street": "Kazimierza Wielkiego 35",
+        "postalCode": "50-077",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "art",
+      "history",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "art",
+        "history",
+        "museum"
+      ],
+      "tags": [
+        "museums-history",
+        "art-contemporary",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://muzeum.miejskie.wroclaw.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1076223%2C17.0292728",
+        "appleMaps": "https://maps.apple.com/?ll=51.1076223,17.0292728&q=Pa%C5%82ac%20Kr%C3%B3lewski"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "historical-museum",
+        "tags": [
+          "history"
+        ]
+      },
+      {
+        "id": "museum-of-medallic-art",
+        "tags": [
+          "art",
+          "history"
+        ]
+      }
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeum.miejskie.wroclaw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "rynek": {
     "id": "rynek",
     "localName": "Rynek Wrocław",
@@ -11777,6 +13056,117 @@
       "cs"
     ]
   },
+  "sic-gallery-bwa-wroclaw": {
+    "id": "sic-gallery-bwa-wroclaw",
+    "localName": "Galeria SiC! BWA Wrocław",
+    "name": {
+      "he": "גלריית SiC! BWA",
+      "en": "SiC! Gallery BWA Wrocław",
+      "pl": "Galeria SiC! BWA Wrocław",
+      "de": "Galerie SiC! BWA Wrocław",
+      "cs": "Galerie SiC! BWA Wrocław"
+    },
+    "description": {
+      "he": "גלריה של BWA ורוצלב לאמנות ועיצוב עכשוויים.",
+      "en": "A BWA Wrocław gallery for contemporary art and design.",
+      "pl": "Galeria BWA Wrocław poświęcona sztuce i współczesnemu projektowaniu.",
+      "de": "Galerie von BWA Wrocław für Gegenwartskunst und Design.",
+      "cs": "Galerie BWA Wrocław zaměřená na současné umění a design."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1025544,
+        "lng": 17.0287526
+      },
+      "address": {
+        "street": "plac Kościuszki 9/10",
+        "postalCode": "50-028",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "art",
+      "design",
+      "gallery"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "art",
+        "design",
+        "gallery"
+      ],
+      "tags": [
+        "art-contemporary",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bwa.wroc.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1025544%2C17.0287526",
+        "appleMaps": "https://maps.apple.com/?ll=51.1025544,17.0287526&q=Galeria%20SiC!%20BWA%20Wroc%C5%82aw"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://bwa.wroc.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "slodowa": {
     "id": "slodowa",
     "localName": "Wyspa Słodowa",
@@ -11979,6 +13369,112 @@
       "cs"
     ]
   },
+  "song-of-the-goat-theatre": {
+    "id": "song-of-the-goat-theatre",
+    "localName": "Teatr Pieśń Kozła",
+    "name": {
+      "he": "תיאטרון שירת העז",
+      "en": "Song of the Goat Theatre",
+      "pl": "Teatr Pieśń Kozła",
+      "de": "Song of the Goat Theatre",
+      "cs": "Divadlo Pieśń Kozła"
+    },
+    "description": {
+      "he": "במת תיאטרון פעילה; מומלץ לבדוק את הרפרטואר הרשמי מראש.",
+      "en": "An active theatre venue; check the official programme in advance.",
+      "pl": "Czynna scena teatralna; warto wcześniej sprawdzić oficjalny repertuar.",
+      "de": "Aktive Theaterbühne; das offizielle Programm vorab prüfen.",
+      "cs": "Aktivní divadelní scéna; program si ověřte předem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1103079,
+        "lng": 17.0397134
+      },
+      "address": {
+        "street": "Jana Ewangelisty Purkyniego 1",
+        "postalCode": "50-155",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "theatre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "theatre"
+      ],
+      "tags": [
+        "theatre-performing-arts"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://piesnkozla.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1103079%2C17.0397134",
+        "appleMaps": "https://maps.apple.com/?ll=51.1103079,17.0397134&q=Teatr%20Pie%C5%9B%C5%84%20Koz%C5%82a"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://piesnkozla.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "stadion-olimpijski-wroclaw": {
     "id": "stadion-olimpijski-wroclaw",
     "localName": "Stadion Olimpijski we Wrocławiu",
@@ -12180,6 +13676,114 @@
           "heroCandidate": true
         }
       }
+    },
+    "socialPosts": []
+  },
+  "studio-bwa-wroclaw": {
+    "id": "studio-bwa-wroclaw",
+    "localName": "Studio BWA Wrocław",
+    "name": {
+      "he": "סטודיו BWA ורוצלב",
+      "en": "Studio BWA Wrocław",
+      "pl": "Studio BWA Wrocław",
+      "de": "Studio BWA Wrocław",
+      "cs": "Studio BWA Wrocław"
+    },
+    "description": {
+      "he": "גלריה של BWA ורוצלב לאמנות ועיצוב עכשוויים.",
+      "en": "A BWA Wrocław gallery for contemporary art and design.",
+      "pl": "Galeria BWA Wrocław poświęcona sztuce i współczesnemu projektowaniu.",
+      "de": "Galerie von BWA Wrocław für Gegenwartskunst und Design.",
+      "cs": "Galerie BWA Wrocław zaměřená na současné umění a design."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1102855,
+        "lng": 17.0245017
+      },
+      "address": {
+        "street": "Ruska 46A",
+        "postalCode": "50-079",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "art",
+      "gallery"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "art",
+        "gallery"
+      ],
+      "tags": [
+        "art-contemporary"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bwa.wroc.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1102855%2C17.0245017",
+        "appleMaps": "https://maps.apple.com/?ll=51.1102855,17.0245017&q=Studio%20BWA%20Wroc%C5%82aw"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://bwa.wroc.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
     },
     "socialPosts": []
   },
@@ -12732,15 +14336,15 @@
       "he": "בית העירייה העתיק",
       "en": "Wrocław Old Town Hall",
       "pl": "Ratusz we Wrocławiu",
-      "de": "Breslauer Altes Rathaus",
+      "de": "Altes Rathaus Breslau",
       "cs": "Stará radnice ve Vratislavi"
     },
     "description": {
-      "he": "מבנה גותי מרשים בלב הכיכר. מומלץ להקיף אותו ולראות את החזיתות השונות.",
-      "en": "An impressive Gothic landmark at the centre of the square. Walk around it to see its different façades.",
-      "pl": "Imponujący gotycki zabytek w centrum Rynku. Warto obejść go dookoła i zobaczyć różne elewacje.",
-      "de": "Ein beeindruckendes gotisches Wahrzeichen in der Mitte des Platzes. Gehen Sie darum herum und sehen Sie sich die verschiedenen Fassaden an.",
-      "cs": "Působivá gotická dominanta uprostřed náměstí. Projděte se kolem něj, abyste viděli jeho různé fasády."
+      "he": "בית עירייה גותי ובתוכו המוזיאון לאמנות בורגנית.",
+      "en": "A Gothic town hall housing the Museum of Bourgeois Art.",
+      "pl": "Gotycki ratusz mieszczący Muzeum Sztuki Mieszczańskiej.",
+      "de": "Gotisches Rathaus mit dem Museum der Bürgerlichen Kunst.",
+      "cs": "Gotická radnice s Muzeem měšťanského umění."
     },
     "location": {
       "countryCode": "PL",
@@ -12752,7 +14356,9 @@
       }
     },
     "categories": [
-      "architecture"
+      "architecture",
+      "history",
+      "museum"
     ],
     "sourceUrls": [],
     "aliases": [],
@@ -12783,12 +14389,17 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
-        "architecture"
+        "architecture",
+        "history",
+        "museum"
       ],
-      "tags": []
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -12812,19 +14423,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://muzeum.miejskie.wroclaw.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10993%2C17.0317",
+        "appleMaps": "https://maps.apple.com/?ll=51.10993,17.0317&q=Ratusz%20we%20Wroc%C5%82awiu"
       }
     },
-    "media": {
-      "photos": [
-        "/assets/old-town-hall-wroclaw.jpg"
-      ],
-      "videos": []
-    },
-    "socialPosts": [],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -12837,7 +14441,33 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "experiences": [
+      {
+        "id": "museum-of-bourgeois-art",
+        "tags": [
+          "art",
+          "history"
+        ]
+      }
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeum.miejskie.wroclaw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/old-town-hall-wroclaw.jpg"
+      ],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "university": {
     "id": "university",
@@ -15761,6 +17391,329 @@
       "cs"
     ]
   },
+  "wroclaw-contemporary-museum": {
+    "id": "wroclaw-contemporary-museum",
+    "localName": "Muzeum Współczesne Wrocław",
+    "name": {
+      "he": "המוזיאון לאמנות עכשווית",
+      "en": "Wrocław Contemporary Museum",
+      "pl": "Muzeum Współczesne Wrocław",
+      "de": "Museum für Gegenwartskunst Wrocław",
+      "cs": "Vratislavské muzeum současného umění"
+    },
+    "description": {
+      "he": "מוזיאון לאמנות עכשווית בבונקר האווירי בכיכר סטרזגומסקי.",
+      "en": "A contemporary-art museum in the former air-raid shelter at Strzegomski Square.",
+      "pl": "Muzeum sztuki współczesnej w dawnym schronie przy pl. Strzegomskim.",
+      "de": "Museum für Gegenwartskunst im ehemaligen Luftschutzbunker am Strzegomski-Platz.",
+      "cs": "Muzeum současného umění v bývalém krytu na Strzegomském náměstí."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.113059,
+        "lng": 17.0047051
+      },
+      "address": {
+        "street": "plac Strzegomski 2A",
+        "postalCode": "53-681",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "art",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "art",
+        "museum"
+      ],
+      "tags": [
+        "art-contemporary",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://muzeumwspolczesne.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.113059%2C17.0047051",
+        "appleMaps": "https://maps.apple.com/?ll=51.113059,17.0047051&q=Muzeum%20Wsp%C3%B3%C5%82czesne%20Wroc%C5%82aw"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeumwspolczesne.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "wroclaw-contemporary-theatre": {
+    "id": "wroclaw-contemporary-theatre",
+    "localName": "Wrocławski Teatr Współczesny",
+    "name": {
+      "he": "התיאטרון העכשווי של ורוצלב",
+      "en": "Wrocław Contemporary Theatre",
+      "pl": "Wrocławski Teatr Współczesny",
+      "de": "Zeitgenössisches Theater Wrocław",
+      "cs": "Vratislavské současné divadlo"
+    },
+    "description": {
+      "he": "במת תיאטרון פעילה; מומלץ לבדוק את הרפרטואר הרשמי מראש.",
+      "en": "An active theatre venue; check the official programme in advance.",
+      "pl": "Czynna scena teatralna; warto wcześniej sprawdzić oficjalny repertuar.",
+      "de": "Aktive Theaterbühne; das offizielle Programm vorab prüfen.",
+      "cs": "Aktivní divadelní scéna; program si ověřte předem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1122412,
+        "lng": 17.0289254
+      },
+      "address": {
+        "street": "Rzeźnicza 12",
+        "postalCode": "50-132",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "theatre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "theatre"
+      ],
+      "tags": [
+        "theatre-performing-arts"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wteatrw.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1122412%2C17.0289254",
+        "appleMaps": "https://maps.apple.com/?ll=51.1122412,17.0289254&q=Wroc%C5%82awski%20Teatr%20Wsp%C3%B3%C5%82czesny"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.wteatrw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "wroclaw-puppet-theatre": {
+    "id": "wroclaw-puppet-theatre",
+    "localName": "Wrocławski Teatr Lalek",
+    "name": {
+      "he": "תיאטרון הבובות של ורוצלב",
+      "en": "Wrocław Puppet Theatre",
+      "pl": "Wrocławski Teatr Lalek",
+      "de": "Breslauer Puppentheater",
+      "cs": "Vratislavské loutkové divadlo"
+    },
+    "description": {
+      "he": "במת תיאטרון פעילה; מומלץ לבדוק את הרפרטואר הרשמי מראש.",
+      "en": "An active theatre venue; check the official programme in advance.",
+      "pl": "Czynna scena teatralna; warto wcześniej sprawdzić oficjalny repertuar.",
+      "de": "Aktive Theaterbühne; das offizielle Programm vorab prüfen.",
+      "cs": "Aktivní divadelní scéna; program si ověřte předem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.105053,
+        "lng": 17.033054
+      },
+      "address": {
+        "street": "plac Teatralny 4",
+        "postalCode": "50-051",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "family",
+      "theatre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "family",
+        "theatre"
+      ],
+      "tags": [
+        "theatre-performing-arts"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://teatrlalek.wroclaw.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.105053%2C17.033054",
+        "appleMaps": "https://maps.apple.com/?ll=51.105053,17.033054&q=Wroc%C5%82awski%20Teatr%20Lalek"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://teatrlalek.wroclaw.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "wuwa": {
     "id": "wuwa",
     "localName": "WUWA Café",
@@ -15861,6 +17814,114 @@
       "de",
       "cs"
     ]
+  },
+  "wuwa-estate": {
+    "id": "wuwa-estate",
+    "localName": "Osiedle WuWA",
+    "name": {
+      "he": "שכונת WuWA",
+      "en": "WuWA Housing Estate",
+      "pl": "Osiedle WuWA",
+      "de": "WuWA-Siedlung",
+      "cs": "Sídliště WuWA"
+    },
+    "description": {
+      "he": "שכונת המגורים הניסיונית WuWA — מסלול פתוח של אדריכלות מודרניסטית.",
+      "en": "The experimental WuWA housing estate — an open-air modernist architecture walk.",
+      "pl": "Eksperymentalne osiedle WuWA — plenerowy spacer po architekturze modernistycznej.",
+      "de": "Die Versuchssiedlung WuWA – ein Rundgang durch moderne Architektur im Freien.",
+      "cs": "Experimentální sídliště WuWA – venkovní procházka modernistickou architekturou."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1066175,
+        "lng": 17.0855336
+      },
+      "address": {
+        "street": "Zielonego Dębu 21",
+        "postalCode": "51-621",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "area"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "area"
+      ],
+      "tags": [
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://wuwa.eu/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1066175%2C17.0855336",
+        "appleMaps": "https://maps.apple.com/?ll=51.1066175,17.0855336&q=Osiedle%20WuWA"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://wuwa.eu/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "wyspa-piasek": {
     "id": "wyspa-piasek",
@@ -16384,6 +18445,119 @@
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/"
       }
     ]
+  },
+  "zyjnia-bwa-wroclaw": {
+    "id": "zyjnia-bwa-wroclaw",
+    "localName": "Żyjnia BWA Wrocław",
+    "name": {
+      "he": "ז׳ייניה BWA",
+      "en": "Żyjnia BWA Wrocław",
+      "pl": "Żyjnia BWA Wrocław",
+      "de": "Żyjnia BWA Wrocław",
+      "cs": "Żyjnia BWA Wrocław"
+    },
+    "description": {
+      "he": "גלריה של BWA ורוצלב לאמנות ועיצוב עכשוויים.",
+      "en": "A BWA Wrocław gallery for contemporary art and design.",
+      "pl": "Galeria BWA Wrocław poświęcona sztuce i współczesnemu projektowaniu.",
+      "de": "Galerie von BWA Wrocław für Gegenwartskunst und Design.",
+      "cs": "Galerie BWA Wrocław zaměřená na současné umění a design."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1086376,
+        "lng": 17.0331186
+      },
+      "address": {
+        "street": "Świdnicka 2-4",
+        "postalCode": "50-067",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "art",
+      "design",
+      "gallery"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "galeria-dizajn"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "art",
+        "design",
+        "gallery"
+      ],
+      "tags": [
+        "art-contemporary",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bwa.wroc.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1086376%2C17.0331186",
+        "appleMaps": "https://maps.apple.com/?ll=51.1086376,17.0331186&q=%C5%BByjnia%20BWA%20Wroc%C5%82aw"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://bwa.wroc.pl/",
+          "checkedAt": "2026-08-29"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   }
 };
   const aliases = {
@@ -16411,7 +18585,8 @@
   "multimedia-fountain": "fountain",
   "pergola-wroclawska": "pergola",
   "wroclaw-zoo": "zoo-wroclaw",
-  "zoo-wrocław": "zoo-wroclaw"
+  "zoo-wrocław": "zoo-wroclaw",
+  "galeria-dizajn": "zyjnia-bwa-wroclaw"
 };
   const relatedPlaces = {
   "ostrow-cathedral": [
