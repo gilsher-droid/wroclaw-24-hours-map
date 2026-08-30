@@ -52,6 +52,11 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
   }
   const opera = window.WROC_CATALOG.getPlace("opera");
   assert.deepEqual(Array.from(opera.media.photos), ["/assets/gallery-opera-05.jpg", "/assets/gallery-opera-06.jpg"]);
+  const nfm = window.WROC_CATALOG.getPlace("nfm");
+  assert.deepEqual(Array.from(nfm.socialPosts, (post) => [post.platform, post.url]), [
+    ["facebook", "https://www.facebook.com/share/p/1C4YQxxtU1/"],
+    ["instagram", "https://www.instagram.com/p/DcrATSoDN-C/?img_index=1"],
+  ]);
   const fourDomes = window.WROC_CATALOG.getPlace("four-domes");
   assert.deepEqual(Array.from(fourDomes.media.photos), ["/assets/four-domes-pavilion-01.jpg"]);
   assert.ok(existsSync(resolve(root, "assets/four-domes-pavilion-01.jpg")));
