@@ -9,11 +9,11 @@
     cs: "Sledujte nás"
   };
   const navigationLabels = {
-    he: { products: "כל המוצרים", how: "איך זה עובד", aria: "ניווט בין המוצרים" },
-    en: { products: "All products", how: "How it works", aria: "Product navigation" },
-    pl: { products: "Wszystkie produkty", how: "Jak to działa", aria: "Nawigacja produktów" },
-    de: { products: "Alle Produkte", how: "So funktioniert es", aria: "Produktnavigation" },
-    cs: { products: "Všechny produkty", how: "Jak to funguje", aria: "Navigace produktů" }
+    he: { products: "המפות האינטראקטיביות שלנו", how: "איך זה עובד", aria: "ניווט בין המפות האינטראקטיביות שלנו" },
+    en: { products: "Our interactive maps", how: "How it works", aria: "Our interactive maps navigation" },
+    pl: { products: "Nasze interaktywne mapy", how: "Jak to działa", aria: "Nawigacja po naszych interaktywnych mapach" },
+    de: { products: "Unsere interaktiven Karten", how: "So funktioniert es", aria: "Navigation durch unsere interaktiven Karten" },
+    cs: { products: "Naše interaktivní mapy", how: "Jak to funguje", aria: "Navigace našimi interaktivními mapami" }
   };
   const productLinks = {
     he: ["24 שעות בוורוצלב", "וורוצלב – המסלול המלא ל־4 ימים", "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים", "לאכול, לשתות, לקנות ולישון בוורוצלב", "טיולים בשלזיה התחתית"],

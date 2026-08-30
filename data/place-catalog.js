@@ -4040,20 +4040,46 @@
       "cs"
     ],
     "provenance": {
-      "contentType": "official-institution-audit",
+      "contentType": "personal-visit",
       "factualSources": [
         {
           "type": "official",
           "url": "https://mnwr.pl/oddzialy/pawilon-czterech-kopul/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "personalVisit": true,
+      "originalPhotography": true
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/four-domes-pavilion-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/four-domes-pavilion-01.jpg": {
+          "tags": [
+            "four-domes-pavilion",
+            "architecture",
+            "exterior",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true,
+          "sourceFile": "IMG_5067.JPG"
+        }
+      }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/p/1CAQHdKSat/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DcqyG24DMHg/"
+      }
+    ]
   },
   "frytki": {
     "id": "frytki",
