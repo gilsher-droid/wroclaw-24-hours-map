@@ -19,4 +19,14 @@ test("the product dropdown is named Our interactive maps in every supported lang
 
   const homepage = readFileSync(resolve(root, "index.html"), "utf8");
   assert.match(homepage, /<summary>המפות האינטראקטיביות שלנו<\/summary>/);
+
+  const homepageTranslations = readFileSync(resolve(root, "site-i18n.js"), "utf8");
+  for (const label of [
+    '"המפות האינטראקטיביות שלנו": "Our interactive maps"',
+    '"המפות האינטראקטיביות שלנו": "Nasze interaktywne mapy"',
+    '"המפות האינטראקטיביות שלנו": "Unsere interaktiven Karten"',
+    '"המפות האינטראקטיביות שלנו": "Naše interaktivní mapy"',
+  ]) {
+    assert.ok(homepageTranslations.includes(label), `homepage translation missing ${label}`);
+  }
 });

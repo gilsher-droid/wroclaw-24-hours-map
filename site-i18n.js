@@ -392,19 +392,19 @@
 
   const productNavigationTranslations = {
     en: {
-      "כל המוצרים": "All products", "לכל המוצרים": "View all products", "מסלול ליום אחד": "One-day route",
+      "כל המוצרים": "All products", "המפות האינטראקטיביות שלנו": "Our interactive maps", "לכל המוצרים": "View all products", "מסלול ליום אחד": "One-day route",
       "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "A complete one-day city route. Open it on your phone, choose a stop and set off — no registration or credit card."
     },
     pl: {
-      "כל המוצרים": "Wszystkie produkty", "לכל המוצרים": "Zobacz wszystkie produkty", "מסלול ליום אחד": "Trasa jednodniowa",
+      "כל המוצרים": "Wszystkie produkty", "המפות האינטראקטיביות שלנו": "Nasze interaktywne mapy", "לכל המוצרים": "Zobacz wszystkie produkty", "מסלול ליום אחד": "Trasa jednodniowa",
       "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Pełna jednodniowa trasa po mieście. Otwórz ją w telefonie, wybierz przystanek i ruszaj — bez rejestracji i karty."
     },
     de: {
-      "כל המוצרים": "Alle Produkte", "לכל המוצרים": "Alle Produkte ansehen", "מסלול ליום אחד": "Route für einen Tag",
+      "כל המוצרים": "Alle Produkte", "המפות האינטראקטיביות שלנו": "Unsere interaktiven Karten", "לכל המוצרים": "Alle Produkte ansehen", "מסלול ליום אחד": "Route für einen Tag",
       "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Eine vollständige Route für einen Tag in der Stadt. Auf dem Smartphone öffnen, Station wählen und losgehen — ohne Registrierung oder Kreditkarte."
     },
     cs: {
-      "כל המוצרים": "Všechny produkty", "לכל המוצרים": "Zobrazit všechny produkty", "מסלול ליום אחד": "Jednodenní trasa",
+      "כל המוצרים": "Všechny produkty", "המפות האינטראקטיביות שלנו": "Naše interaktivní mapy", "לכל המוצרים": "Zobrazit všechny produkty", "מסלול ליום אחד": "Jednodenní trasa",
       "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Kompletní jednodenní trasa městem. Otevřete ji v telefonu, vyberte zastávku a vyrazte — bez registrace a platební karty."
     }
   };
