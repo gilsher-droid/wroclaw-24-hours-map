@@ -9833,7 +9833,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://muzeum.miejskie.wroclaw.pl/",
+      "website": "https://muzeum.miejskie.wroclaw.pl/museum/sztuki-cmentarnej/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.0876535%2C17.0269459",
         "appleMaps": "https://maps.apple.com/?ll=51.0876535,17.0269459&q=Stary%20Cmentarz%20%C5%BBydowski"
@@ -9857,7 +9857,7 @@
       "factualSources": [
         {
           "type": "official",
-          "url": "https://muzeum.miejskie.wroclaw.pl/",
+          "url": "https://muzeum.miejskie.wroclaw.pl/museum/sztuki-cmentarnej/",
           "checkedAt": "2026-08-29"
         }
       ]
