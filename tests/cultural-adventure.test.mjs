@@ -26,10 +26,7 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
     window.WROC_CATALOG.getPlace("old-jewish-cemetery-wroclaw").links.website,
     "https://muzeum.miejskie.wroclaw.pl/museum/sztuki-cmentarnej/",
   );
-  assert.deepEqual(
-    Array.from(window.WROC_CATALOG.getPlace("old-jewish-cemetery-wroclaw").socialPosts, (post) => post.url),
-    ["https://www.instagram.com/p/Dcq_ageDDb4/?img_index=1"],
-  );
+  assert.deepEqual(Array.from(window.WROC_CATALOG.getPlace("old-jewish-cemetery-wroclaw").socialPosts), []);
 
   for (const record of window.WROC_CULTURAL_PLACES) {
     const place = window.WROC_CATALOG.getPlace(record.canonicalPlaceId);
@@ -43,8 +40,9 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
   const wuwaEstate = window.WROC_CATALOG.getPlace("wuwa-estate");
   assert.equal(wuwaEstate.media.photos.length, 10);
   assert.equal(wuwaEstate.media.videos.length, 0);
-  assert.deepEqual(Array.from(wuwaEstate.socialPosts, (post) => post.platform), ["facebook"]);
+  assert.deepEqual(Array.from(wuwaEstate.socialPosts, (post) => post.platform), ["facebook", "instagram"]);
   assert.equal(wuwaEstate.socialPosts[0].url, "https://www.facebook.com/share/p/19G81XL7j2/");
+  assert.equal(wuwaEstate.socialPosts[1].url, "https://www.instagram.com/p/Dcq_ageDDb4/?img_index=1");
   wuwaEstate.media.photos.forEach((photo) => assert.ok(existsSync(resolve(root, photo.replace(/^\//, ""))), `missing ${photo}`));
   const aula = window.WROC_CATALOG.getPlace("aula");
   assert.equal(aula.media.photos.length, 8);
