@@ -9866,12 +9866,7 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": [
-      {
-        "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dcq_ageDDb4/?img_index=1"
-      }
-    ]
+    "socialPosts": []
   },
   "opera": {
     "id": "opera",
@@ -18099,6 +18094,10 @@
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19G81XL7j2/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/Dcq_ageDDb4/?img_index=1"
       }
     ]
   },
