@@ -9646,7 +9646,16 @@
       ],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/p/1C4YQxxtU1/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DcrATSoDN-C/?img_index=1"
+      }
+    ]
   },
   "odra-centrum": {
     "id": "odra-centrum",
