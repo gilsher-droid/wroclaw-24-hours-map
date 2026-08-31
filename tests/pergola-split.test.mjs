@@ -30,8 +30,25 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   assert.equal(pergola.media.videos.length, 0);
   assert.equal(pergola.socialPosts.find((post) => post.platform === "facebook")?.url, "https://www.facebook.com/share/p/1CHRnrqLwQ/");
   assert.equal(pergola.socialPosts.find((post) => post.platform === "instagram")?.url, "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1");
-  assert.equal(fountain.socialPosts.length, 0);
-  assert.ok(fountain.media.videos.some((video) => video.src === "/assets/video-stulecia-fountain.mp4"));
+  assert.deepEqual(Array.from(fountain.media.photos), [
+    "/assets/multimedia-fountain-01.jpg",
+    "/assets/multimedia-fountain-02.jpg",
+    "/assets/multimedia-fountain-03.jpg",
+    "/assets/multimedia-fountain-04.jpg",
+    "/assets/multimedia-fountain-05.jpg",
+    "/assets/multimedia-fountain-06.jpg",
+    "/assets/multimedia-fountain-07.jpg",
+  ]);
+  fountain.media.photos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
+  assert.deepEqual(Array.from(fountain.media.videos), [
+    "/assets/multimedia-fountain-01.mp4",
+    "/assets/multimedia-fountain-02.mp4",
+    "/assets/multimedia-fountain-03.mp4",
+    "/assets/video-stulecia-fountain.mp4",
+  ]);
+  fountain.media.videos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
+  assert.equal(fountain.socialPosts.find((post) => post.platform === "facebook")?.url, "https://www.facebook.com/share/r/1ANYoSUn3J/");
+  assert.equal(fountain.socialPosts.find((post) => post.platform === "instagram")?.url, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
 
   const dayThree = window.PREMIUM_STOPS.filter((stop) => stop.day === 3);
   const pergolaStop = dayThree.find((stop) => stop.id === "pergola");
@@ -45,4 +62,10 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   assert.deepEqual(Array.from(resources.gallery), Array.from(pergola.media.photos));
   assert.equal(resources.facebook, "https://www.facebook.com/share/p/1CHRnrqLwQ/");
   assert.equal(resources.instagram, "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1");
+
+  const fountainResources = window.WROC_LOCATION_MEDIA.fountain;
+  assert.deepEqual(Array.from(fountainResources.gallery), Array.from(fountain.media.photos));
+  assert.deepEqual(Array.from(fountainResources.videos, (video) => video.src), Array.from(fountain.media.videos));
+  assert.equal(fountainResources.facebook, "https://www.facebook.com/share/r/1ANYoSUn3J/");
+  assert.equal(fountainResources.instagram, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
 });

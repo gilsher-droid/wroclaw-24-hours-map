@@ -153,7 +153,7 @@
       { he: "היכל המאה והאזור שסביבו", en: "Centennial Hall and its surroundings", pl: "Hala Stulecia i jej otoczenie", de: "Jahrhunderthalle und Umgebung", cs: "Hala století a její okolí" },
       { he: "המזרקה ליד Hala Stulecia", en: "The fountain beside Centennial Hall", pl: "Fontanna przy Hali Stulecia", de: "Der Brunnen an der Jahrhunderthalle", cs: "Fontána u Haly století" },
     ]),
-    fountain: { gallery: galleries.stulecia, videos: videos.stulecia },
+    fountain: canonicalResources("fountain"),
     pergola: canonicalResources("pergola"),
     japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: galleries.japanese },
     wroclavia: { gallery: galleries.wroclavia },
