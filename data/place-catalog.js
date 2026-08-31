@@ -3914,26 +3914,143 @@
       "de",
       "cs"
     ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "originalVideo": true
+    },
     "media": {
       "photos": [
-        "/assets/gallery-stulecia-02.jpg",
-        "/assets/gallery-stulecia-03.jpg",
-        "/assets/gallery-stulecia-04.jpg"
+        "/assets/multimedia-fountain-01.jpg",
+        "/assets/multimedia-fountain-02.jpg",
+        "/assets/multimedia-fountain-03.jpg",
+        "/assets/multimedia-fountain-04.jpg",
+        "/assets/multimedia-fountain-05.jpg",
+        "/assets/multimedia-fountain-06.jpg",
+        "/assets/multimedia-fountain-07.jpg"
       ],
       "videos": [
-        {
-          "src": "/assets/video-stulecia-fountain.mp4",
-          "title": {
-            "he": "המזרקה ליד Hala Stulecia",
-            "en": "The fountain beside Centennial Hall",
-            "pl": "Fontanna przy Hali Stulecia",
-            "de": "Der Brunnen an der Jahrhunderthalle",
-            "cs": "Fontána u Haly století"
-          }
+        "/assets/multimedia-fountain-01.mp4",
+        "/assets/multimedia-fountain-02.mp4",
+        "/assets/multimedia-fountain-03.mp4",
+        "/assets/video-stulecia-fountain.mp4"
+      ],
+      "metadata": {
+        "/assets/multimedia-fountain-01.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "water-show",
+            "rainbow",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true,
+          "sourceFile": "IMG_5099.JPG"
+        },
+        "/assets/multimedia-fountain-02.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "water-show",
+            "rainbow",
+            "visitor-experience"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5087.JPG"
+        },
+        "/assets/multimedia-fountain-03.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "water-show",
+            "rainbow",
+            "visitor-experience"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5095.JPG"
+        },
+        "/assets/multimedia-fountain-04.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "centennial-hall",
+            "wide-view"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-22 at 14.44.51.jpeg"
+        },
+        "/assets/multimedia-fountain-05.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "centennial-hall",
+            "water-show"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-22 at 14.44.51 (2).jpeg"
+        },
+        "/assets/multimedia-fountain-06.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "splash-zone",
+            "families"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5077.JPG"
+        },
+        "/assets/multimedia-fountain-07.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "visitor-area",
+            "bicycles"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5078.JPG"
+        },
+        "/assets/multimedia-fountain-01.mp4": {
+          "tags": [
+            "multimedia-fountain",
+            "water-show",
+            "video"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5096.MOV"
+        },
+        "/assets/multimedia-fountain-02.mp4": {
+          "tags": [
+            "multimedia-fountain",
+            "water-show",
+            "video"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5084.MOV"
+        },
+        "/assets/multimedia-fountain-03.mp4": {
+          "tags": [
+            "multimedia-fountain",
+            "water-show",
+            "video"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5088.MOV"
+        },
+        "/assets/video-stulecia-fountain.mp4": {
+          "tags": [
+            "multimedia-fountain",
+            "centennial-hall-area",
+            "video"
+          ],
+          "original": true
         }
-      ]
+      }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/r/1ANYoSUn3J/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DctbD99jLvg/?img_index=1"
+      }
+    ]
   },
   "four-domes": {
     "id": "four-domes",
