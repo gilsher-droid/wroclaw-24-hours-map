@@ -30,6 +30,7 @@ jobs:
         run: |
           node tools/generate-place-catalog.mjs
           node tools/validate-place-catalog.mjs
+          node tools/validate-canonical-experiences.mjs
 
       - name: Build static site
         run: node build-static.mjs

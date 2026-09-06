@@ -114,6 +114,19 @@
     { id:"stadion-olimpijski-wroclaw", canonicalPlaceId:"stadion-olimpijski-wroclaw", coordinates:[51.1195926,17.0966604], category:"activity", bestDay:3 }
   ];
 
+  const experienceByStopId = {
+    "dwarf-info": "wroclaw-dwarf-hunt",
+    polinka: "polinka-cable-car-ride",
+    fountain: "wroclaw-multimedia-fountain-show",
+    marina: "oder-river-cruise",
+  };
+  window.PREMIUM_STOPS = window.PREMIUM_STOPS.map((record) => {
+    const experienceId = experienceByStopId[record.id];
+    if (!experienceId) return record;
+    return window.WROC_EXPERIENCE_CATALOG?.attachReference(record, experienceId)
+      || { ...record, canonicalExperienceId: experienceId };
+  });
+
   if (window.WROC_CATALOG?.registerProduct) {
     const registered = window.WROC_CATALOG.registerProduct({
       id: "wroclaw-four-days",

@@ -51,29 +51,10 @@
   });
 
   window.WROC_CULTURAL_PLACES = registered?.places || places;
+
+  const streetArtExperience = window.WROC_EXPERIENCE_CATALOG?.getExperience("street-art-nadodrze-olbin");
+  if (!streetArtExperience) throw new Error("Cultural Adventure requires the street-art-nadodrze-olbin canonical experience");
   window.WROC_CULTURAL_EXPERIENCES = [
-    {
-      id: "street-art-nadodrze-olbin",
-      categories: ["street-art"],
-      placeType: "area-experience",
-      mapPoints: [
-        { id: "nadodrze", coordinates: [51.1192, 17.0325], label: "Nadodrze" },
-        { id: "olbin", coordinates: [51.1190, 17.0500], label: "Ołbin" },
-      ],
-      name: {
-        he: "אמנות רחוב בנדודז׳ה ואולבין",
-        en: "Street art in Nadodrze and Ołbin",
-        pl: "Street art na Nadodrzu i Ołbinie",
-        de: "Street Art in Nadodrze und Ołbin",
-        cs: "Street art v Nadodrze a Ołbinu",
-      },
-      description: {
-        he: "חוויית שיטוט בשכונות ולא כתובת יחידה; הפעילו את המסנן ובחרו אזור להתחיל ממנו.",
-        en: "A neighbourhood exploration rather than one address; use the filter and choose an area to begin.",
-        pl: "Spacer po dzielnicach, a nie jeden adres; użyj filtra i wybierz obszar startowy.",
-        de: "Ein Streifzug durch Viertel statt einer einzelnen Adresse; Filter wählen und ein Startgebiet aussuchen.",
-        cs: "Průzkum čtvrtí, nikoli jedna adresa; použijte filtr a vyberte si výchozí oblast.",
-      },
-    },
+    Object.freeze({ ...streetArtExperience, placeType: "area-experience" }),
   ];
 })();

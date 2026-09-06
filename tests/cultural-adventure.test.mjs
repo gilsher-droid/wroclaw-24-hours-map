@@ -10,6 +10,7 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
   const window = {};
   const context = { window, console, URLSearchParams };
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
+  runInNewContext(readFileSync(resolve(root, "data/canonical-experiences.js"), "utf8"), context);
   runInNewContext(readFileSync(resolve(root, "data/cultural-places.js"), "utf8"), context);
 
   assert.equal(window.WROC_CULTURAL_PLACES.length, 26);
