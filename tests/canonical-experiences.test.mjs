@@ -86,6 +86,26 @@ test("Experience media resolves through existing Place media and Prague original
   for (const mediaPath of [...prague.media.images, ...prague.media.videos]) {
     assert.ok(existsSync(resolve(root, mediaPath.slice(1))), `missing ${mediaPath}`);
   }
+
+  const tram = registry.getExperience("wroclaw-tram-ride");
+  assert.equal(tram.media.hero.src, "/assets/experiences/tram/IMG_4629.jpg");
+  assert.equal(tram.media.images.length, 13);
+  assert.equal(tram.media.videos.length, 4);
+  assert.equal(tram.metadata.fieldProductionGaps, undefined);
+  for (const mediaPath of [...tram.media.images, ...tram.media.videos]) {
+    assert.ok(existsSync(resolve(root, mediaPath.slice(1))), `missing ${mediaPath}`);
+  }
+
+  const tunnels = registry.getExperience("underground-wwii-tunnels");
+  assert.equal(tunnels.media.hero.src, "/assets/ksiaz-castle-13.jpg");
+  assert.deepEqual(Array.from(tunnels.media.images), ["/assets/ksiaz-castle-12.jpg", "/assets/ksiaz-castle-13.jpg"]);
+  assert.equal(tunnels.media.videos.length, 0);
+  assert.deepEqual(Array.from(tunnels.metadata.fieldProductionGaps), ["video"]);
+
+  const ksiaz = window.WROC_CATALOG.getPlace("ksiaz-castle");
+  assert.equal(ksiaz.media.photos.length, 13);
+  assert.ok(ksiaz.media.photos.includes("/assets/ksiaz-castle-12.jpg"));
+  assert.ok(ksiaz.media.photos.includes("/assets/ksiaz-castle-13.jpg"));
 });
 
 test("Routes, non-approved nested records and Hebrew RTL remain intact", () => {
