@@ -140,6 +140,13 @@
     rec("wuwa",[51.10709,17.08730],"cafe",3,l("WUWA Café – רק אם יוצאים מזרחה","WUWA Café – only if heading east","WUWA Café – tylko przy wyjeździe na wschód"),"WUWA Café",l("בית קפה נעים ליד Hala Stulecia; הגיעו בחשמלית או במונית.","A pleasant café near Centennial Hall; use a tram or taxi.","Przyjemna kawiarnia przy Hali Stulecia; dojedźcie tramwajem lub taksówką."))
   ];
 
+  window.PREMIUM_STOPS = window.PREMIUM_STOPS.map((record) =>
+    record.id === "culture-evening"
+      ? window.WROC_EXPERIENCE_CATALOG?.attachReference(record, "culture-evening")
+        || { ...record, canonicalExperienceId: "culture-evening" }
+      : record
+  );
+
   if (window.WROC_CATALOG?.registerProduct) {
     const registered = window.WROC_CATALOG.registerProduct({
       id: "wroclaw-christmas",
