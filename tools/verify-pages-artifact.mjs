@@ -12,6 +12,9 @@ const requiredFiles = [
   "data/lifestyle-places.js",
   "data/cultural-places.js",
   "data/lower-silesia-excursions.js",
+  "data/now-in-wroclaw.js",
+  "now-in-wroclaw.js",
+  "now-in-wroclaw.css",
 ];
 
 for (const relativePath of requiredFiles) {
@@ -45,6 +48,14 @@ for (const [pagePath, routeDataPath] of pages) {
   if (catalogIndex > routeDataIndex) {
     throw new Error(`${pagePath} loads the canonical catalog after its route data`);
   }
+  if (!html.includes('/data/now-in-wroclaw.js') || !html.includes('/now-in-wroclaw.js') || !html.includes('/now-in-wroclaw.css')) {
+    throw new Error(`${pagePath} does not load the shared Now in Wrocław ticker`);
+  }
+}
+
+const home = await readFile(resolve(artifact, "index.html"), "utf8");
+if (!home.includes('/data/now-in-wroclaw.js') || !home.includes('/now-in-wroclaw.js') || !home.includes('/now-in-wroclaw.css')) {
+  throw new Error("Homepage does not load the shared Now in Wrocław ticker");
 }
 
 console.log("Pages artifact verified: canonical catalog assets are present, non-empty, and ordered correctly.");

@@ -110,7 +110,8 @@
 
   function searchable(place) {
     const names = typeof place.name === "object" ? Object.values(place.name) : [place.name];
-    return [...names, place.localName, ...Object.values(place.description || {}), ...Object.values(place.note || {})].join(" ").toLocaleLowerCase();
+    const aliases = place.canonicalPlace?.aliases || [];
+    return [...names, place.localName, ...aliases, ...Object.values(place.description || {}), ...Object.values(place.note || {})].join(" ").toLocaleLowerCase();
   }
 
   function filteredPlaces() {

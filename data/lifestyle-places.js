@@ -76,7 +76,7 @@
     place("la-maddalena", ["eat","drink"], [51.1143103,17.0314381], "Restauracja La Maddalena", food.fine, foodPost, null, sourceFood),
     place("boguslawskiego", ["eat","drink"], [51.10289,17.02979], "ul. Wojciecha Bogusławskiego", food.street, foodPost, "boguslawskiego", sourceFood),
 
-    place("wroclavia", ["buy","eat"], [51.0964311,17.0348417], "Wroclavia",
+    place("wroclavia", ["buy","eat"], [51.0964311,17.0348417], "Westfield Wroclavia",
       t("מרכז גדול ומודרני ליד התחנה המרכזית, עם מותגים בינלאומיים ומתחם אוכל רחב.", "A large modern centre by the main station, with international brands and a broad food court.", "Duże nowoczesne centrum przy dworcu, z międzynarodowymi markami i rozbudowaną strefą gastronomiczną.", "Ein großes modernes Zentrum am Hauptbahnhof mit internationalen Marken und Food Court.", "Velké moderní centrum u hlavního nádraží s mezinárodními značkami a food courtem."), shoppingPost, "wroclavia", sourceShopping),
     place("magnolia", ["buy","eat"], [51.1187024,16.9896567], "Magnolia Park", sourceShopping, shoppingPost, null, sourceShopping),
     place("pasaz", ["buy","eat"], [51.1121562,17.0597204], "Pasaż Grunwaldzki", sourceShopping, shoppingPost, null, sourceShopping),

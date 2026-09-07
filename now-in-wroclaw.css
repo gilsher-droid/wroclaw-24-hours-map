@@ -1,0 +1,115 @@
+.wroc-now {
+  --wroc-now-navy: #062b5c;
+  --wroc-now-blue: #0f62a8;
+  --wroc-now-gold: #dca543;
+  position: relative;
+  z-index: 1100;
+  width: 100%;
+  background: var(--wroc-now-navy);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 1px 0 rgb(255 255 255 / 16%);
+}
+
+.wroc-now__inner {
+  width: min(100% - 32px, 1320px);
+  min-height: 48px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr) max-content;
+  align-items: center;
+  gap: 16px;
+}
+
+.wroc-now__title {
+  color: #ffd77f;
+  font-size: 0.82rem;
+  letter-spacing: 0.025em;
+  white-space: nowrap;
+}
+
+.wroc-now__item {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.wroc-now__category {
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--wroc-now-gold);
+}
+
+.wroc-now__category[data-category="transport"] { background: #7ed7ff; }
+.wroc-now__category[data-category="event"] { background: #ff9e8d; }
+.wroc-now__category[data-category="airport"] { background: #b7e6b0; }
+.wroc-now[data-priority="important"] .wroc-now__category { box-shadow: 0 0 0 3px rgb(255 255 255 / 24%); }
+
+.wroc-now__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wroc-now__link {
+  flex: 0 0 auto;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.wroc-now__link:hover,
+.wroc-now__link:focus-visible { color: #ffd77f; }
+
+.wroc-now__controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.wroc-now__button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(255 255 255 / 38%);
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font: 700 1.25rem/1 Arial, sans-serif;
+}
+
+.wroc-now__button:hover,
+.wroc-now__button:focus-visible {
+  border-color: #ffd77f;
+  color: #ffd77f;
+  outline: none;
+}
+
+.wroc-now__button:focus-visible { box-shadow: 0 0 0 3px rgb(255 215 127 / 35%); }
+.wroc-now__position { min-width: 28px; text-align: center; font-size: 0.72rem; color: #dce8f5; }
+
+@media (max-width: 720px) {
+  .wroc-now__inner {
+    width: min(100% - 24px, 680px);
+    min-height: 76px;
+    grid-template-columns: minmax(0, 1fr) max-content;
+    gap: 4px 10px;
+    padding-block: 8px;
+  }
+
+  .wroc-now__title { grid-column: 1; font-size: 0.75rem; }
+  .wroc-now__controls { grid-column: 2; grid-row: 1 / span 2; }
+  .wroc-now__item { grid-column: 1; font-size: 0.82rem; }
+  .wroc-now__text { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .wroc-now__link { white-space: nowrap; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wroc-now *, .wroc-now *::before, .wroc-now *::after { scroll-behavior: auto !important; }
+}

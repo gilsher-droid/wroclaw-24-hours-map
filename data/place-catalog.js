@@ -16974,6 +16974,130 @@
       "cs"
     ]
   },
+  "wedrowcy-kolejowa-63": {
+    "id": "wedrowcy-kolejowa-63",
+    "localName": "Wędrowcy",
+    "name": {
+      "he": "Wędrowcy – אמנות ציבורית ברחוב קולייובה 63",
+      "en": "Wędrowcy — public artwork at Kolejowa 63",
+      "pl": "Wędrowcy — instalacja przy Kolejowej 63",
+      "de": "Wędrowcy – Kunstwerk an der Kolejowa 63",
+      "cs": "Wędrowcy – umělecká instalace na Kolejowé 63"
+    },
+    "description": {
+      "he": "מיצב ציבורי מונומנטלי של אנה שפאקובסקה־קויאבסקה על קיר וארובת בית הדוודים לשעבר במתחם Kraftpost. היצירה כבר קיימת; המטה העתידי של BWA ורוצלב במקום עדיין אינו פתוח.",
+      "en": "Anna Szpakowska-Kujawska’s monumental public installation on the wall and chimney of the former boiler house at the Kraftpost complex. The artwork is in place; the future BWA Wrocław venue here is not yet open.",
+      "pl": "Monumentalna instalacja Anny Szpakowskiej-Kujawskiej na ścianie i kominie dawnej kotłowni w kompleksie Kraftpost. Dzieło już istnieje; przyszła siedziba BWA Wrocław w tym miejscu nie jest jeszcze otwarta.",
+      "de": "Monumentale öffentliche Installation von Anna Szpakowska-Kujawska an Wand und Schornstein des ehemaligen Kesselhauses im Kraftpost-Komplex. Das Kunstwerk ist bereits zu sehen; der künftige Standort von BWA Wrocław ist noch nicht eröffnet.",
+      "cs": "Monumentální veřejná instalace Anny Szpakowské-Kujawské na stěně a komíně bývalé kotelny v areálu Kraftpost. Dílo již existuje; budoucí sídlo BWA Wrocław zde zatím není otevřeno."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.104343,
+        "lng": 17.015783
+      },
+      "address": {
+        "street": "Kolejowa 63",
+        "postalCode": "53-510",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "art"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "art"
+      ],
+      "tags": [
+        "art-contemporary",
+        "street-art",
+        "public-art",
+        "outdoor-art"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bwa.wroc.pl/wydarzenie/kraftpostfest-wedrowcy/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.104343%2C17.015783",
+        "appleMaps": "https://maps.apple.com/?ll=51.104343,17.015783&q=W%C4%99drowcy"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "editorial-intake",
+      "personalVisit": false,
+      "originalContent": true,
+      "originalPhotography": false,
+      "originalVideo": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://bwa.wroc.pl/wydarzenie/kraftpostfest-wedrowcy/",
+          "checkedAt": "2026-09-07"
+        },
+        {
+          "type": "city",
+          "url": "https://www.wroclaw.pl/kultura/dzis-kraftpostfest-wedrowcy-anna-szpakowska-kujawska",
+          "checkedAt": "2026-09-07"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://pl.near-place.com/poczta-polska-sa-pol-wt-we-wroclawiu-mechanika-pojazdowa-stacja-kontroli-pojazdow-kolejowa-63-wroclaw",
+          "checkedAt": "2026-09-07",
+          "note": "Address-level coordinates for Kolejowa 63."
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "whiskey": {
     "id": "whiskey",
     "localName": "Whiskey in the Jar",
@@ -17427,13 +17551,13 @@
   },
   "wroclavia": {
     "id": "wroclavia",
-    "localName": "Wroclavia",
+    "localName": "Westfield Wroclavia",
     "name": {
-      "he": "Wroclavia",
-      "en": "Wroclavia",
-      "pl": "Wroclavia",
-      "de": "Wroclavia",
-      "cs": "Wroclavia"
+      "he": "Westfield Wroclavia",
+      "en": "Westfield Wroclavia",
+      "pl": "Westfield Wroclavia",
+      "de": "Westfield Wroclavia",
+      "cs": "Westfield Wroclavia"
     },
     "description": {
       "he": "מרכז גדול ומודרני ליד התחנה המרכזית, עם מותגים בינלאומיים ומתחם אוכל רחב.",
@@ -17460,6 +17584,7 @@
       "https://www.facebook.com/61591964083308/posts/122110542891398802/"
     ],
     "aliases": [
+      "Wroclavia",
       "wroclavia-rec",
       "wroclavia-station"
     ],
@@ -17512,7 +17637,7 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
         "buy",
@@ -17549,6 +17674,30 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-name-update",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.urw.com/news/allnews/wroclavia-centre-rebrand-westfield-wroclavia",
+          "checkedAt": "2026-09-07",
+          "note": "Official rebrand launches 2026-09-17."
+        }
+      ]
+    },
     "media": {
       "photos": [
         "/assets/gallery-wroclavia-01.jpg",
@@ -17564,19 +17713,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "wroclaw-contemporary-museum": {
@@ -18892,6 +19028,7 @@
   "kaplica-czaszek-kudowa-zdroj": "kaplica-czaszek-czermna",
   "multimedia-fountain": "fountain",
   "pergola-wroclawska": "pergola",
+  "Wroclavia": "wroclavia",
   "wroclaw-zoo": "zoo-wroclaw",
   "zoo-wrocław": "zoo-wroclaw",
   "galeria-dizajn": "zyjnia-bwa-wroclaw"

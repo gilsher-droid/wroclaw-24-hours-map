@@ -31,6 +31,7 @@ jobs:
           node tools/generate-place-catalog.mjs
           node tools/validate-place-catalog.mjs
           node tools/validate-canonical-experiences.mjs
+          node tools/validate-now-in-wroclaw.mjs
 
       - name: Build static site
         run: node build-static.mjs
