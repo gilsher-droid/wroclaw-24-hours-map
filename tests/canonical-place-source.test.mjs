@@ -66,8 +66,8 @@ test("an independent Lower Silesia place is supported without changing current p
     const baselineFile = resolve(root, "data/place-catalog.js");
     const baseline = loadCatalog(baselineFile);
     const candidate = loadCatalog(outputFile);
-    assert.equal(Object.keys(baseline.places).length, 149);
-    assert.equal(Object.keys(candidate.places).length, 150);
+    assert.equal(Object.keys(baseline.places).length, 150);
+    assert.equal(Object.keys(candidate.places).length, 151);
     assert.equal(baseline.coordinateConflicts.length, 28);
     assert.equal(JSON.stringify(candidate.coordinateConflicts), JSON.stringify(baseline.coordinateConflicts));
 
@@ -109,8 +109,8 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
   const place = catalog.getPlace("ksiaz-castle");
 
   assert.ok(place);
-  assert.equal(Object.keys(catalog.places).length, 149);
-  assert.equal(Object.keys(catalog.aliases).length, 26);
+  assert.equal(Object.keys(catalog.places).length, 150);
+  assert.equal(Object.keys(catalog.aliases).length, 27);
   assert.equal(catalog.coordinateConflicts.length, 28);
   assert.equal(place.localName, "Zamek Książ w Wałbrzychu");
   assert.equal(place.location.countryCode, "PL");
@@ -135,6 +135,64 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
     const records = [...(product.stops || []), ...(product.recommendations || []), ...(product.places || [])];
     assert.equal(records.some((record) => record.placeId === "ksiaz-castle"), false);
   }
+});
+
+test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonical identity", () => {
+  const window = {};
+  const context = { window, console };
+  runInNewContext(readFileSync(resolve(root, "data/extra-languages.js"), "utf8"), context);
+  runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
+  runInNewContext(readFileSync(resolve(root, "data/lifestyle-places.js"), "utf8"), context);
+  runInNewContext(readFileSync(resolve(root, "data/premium-route.js"), "utf8"), context);
+  const premiumStop = window.PREMIUM_STOPS.find((place) => place.id === "wroclavia");
+  const premiumRecommendation = window.PREMIUM_RECOMMENDATIONS.find((place) => place.id === "wroclavia-rec");
+  runInNewContext(readFileSync(resolve(root, "data/moshe-route.js"), "utf8"), context);
+  const christmasStop = window.PREMIUM_STOPS.find((place) => place.id === "wroclavia-station");
+
+  const catalog = window.WROC_CATALOG;
+  const artwork = catalog.getPlace("wedrowcy-kolejowa-63");
+  assert.ok(artwork);
+  assert.equal(artwork.location.cityId, "wroclaw");
+  assert.equal(artwork.location.address.street, "Kolejowa 63");
+  assert.deepEqual(Array.from(artwork.categories), ["art"]);
+  assert.ok(artwork.taxonomy.tags.includes("street-art"));
+  assert.equal(artwork.sourceRecords.length, 0);
+  assert.equal(artwork.description.en.includes("not yet open"), true);
+  assert.equal(
+    Object.values(catalog.places).filter((place) =>
+      place.location.coordinates?.lat === artwork.location.coordinates.lat
+      && place.location.coordinates?.lng === artwork.location.coordinates.lng).length,
+    1,
+  );
+
+  const shoppingCentre = catalog.getPlace("wroclavia");
+  assert.equal(shoppingCentre.id, "wroclavia");
+  assert.equal(shoppingCentre.localName, "Westfield Wroclavia");
+  assert.equal(shoppingCentre.name.en, "Westfield Wroclavia");
+  assert.equal(catalog.resolveId("Wroclavia"), "wroclavia");
+  assert.equal(catalog.resolveId("wroclavia-rec"), "wroclavia");
+  assert.equal(catalog.resolveId("wroclavia-station"), "wroclavia");
+  assert.deepEqual(
+    Array.from(shoppingCentre.sourceRecords, ({ productId, sourceId }) => `${productId}:${sourceId}`),
+    [
+      "lifestyle-guide:wroclavia",
+      "wroclaw-four-days:wroclavia",
+      "wroclaw-four-days:wroclavia-rec",
+      "wroclaw-christmas:wroclavia-station",
+    ],
+  );
+  assert.equal(shoppingCentre.media.photos.length, 5);
+  assert.ok(shoppingCentre.socialPosts.some((post) => post.platform === "facebook"));
+  assert.equal(window.WROC_LIFESTYLE_PLACES.find((place) => place.id === "wroclavia")?.localName, "Westfield Wroclavia");
+  assert.equal(premiumStop?.localName, "Westfield Wroclavia");
+  assert.equal(premiumStop?.name.de, "Westfield Wroclavia");
+  assert.equal(premiumStop?.name.cs, "Westfield Wroclavia");
+  assert.equal(premiumRecommendation?.localName, "Westfield Wroclavia");
+  assert.equal(premiumRecommendation?.name.de, "Westfield Wroclavia – großes Einkaufsangebot");
+  assert.equal(premiumRecommendation?.name.cs, "Westfield Wroclavia – hlavní nákupní možnosti");
+  assert.equal(christmasStop?.localName, "Westfield Wroclavia / Wrocław Główny");
+  assert.equal(christmasStop?.name.de, "Westfield Wroclavia und der Hauptbahnhof");
+  assert.equal(christmasStop?.name.cs, "Westfield Wroclavia a hlavní nádraží");
 });
 
 test("ZOO Wrocław is one canonical place referenced by Four Days with curated media", () => {
