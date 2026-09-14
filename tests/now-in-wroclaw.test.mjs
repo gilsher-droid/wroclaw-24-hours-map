@@ -14,11 +14,11 @@ function loadTicker() {
   return { window, context };
 }
 
-test("weekly news includes four localized and dated items", () => {
+test("weekly news includes six localized and dated items", () => {
   const { window } = loadTicker();
   const items = window.WROC_NOW_IN_WROCLAW_ITEMS;
-  assert.equal(items.length, 4);
-  assert.equal(new Set(items.map((item) => item.id)).size, 4);
+  assert.equal(items.length, 6);
+  assert.equal(new Set(items.map((item) => item.id)).size, items.length);
   for (const item of items) {
     assert.deepEqual(Object.keys(item.title).sort(), ["cs", "de", "en", "he", "pl"]);
     assert.doesNotThrow(() => new URL(item.url));
