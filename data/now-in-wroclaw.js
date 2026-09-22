@@ -4,7 +4,7 @@
   const title = (he, en, pl, de, cs) => Object.freeze({ he, en, pl, de, cs });
 
   window.WROC_NOW_IN_WROCLAW_ITEMS = Object.freeze([
-    // Editorial expiry: review these weekly items after 21 September.
+    // September 14 items expire after September 21; the Ryanair update after September 29.
     // The promenade expiry is not an announced reopening date.
     Object.freeze({
       id: "promenada-staromiejska-works-2026-09",
@@ -22,17 +22,17 @@
       category: "transport",
     }),
     Object.freeze({
-      id: "airport-electric-buses-106-129-2026-09",
+      id: "ryanair-wroclaw-winter-2026-27",
       title: title(
-        "קווי האוטובוס 106 ו־129 לשדה התעופה מופעלים כעת באוטובוסים חשמליים",
-        "Airport bus routes 106 and 129 now run with electric buses",
-        "Linie lotniskowe 106 i 129 są teraz obsługiwane autobusami elektrycznymi",
-        "Die Flughafenlinien 106 und 129 fahren jetzt mit Elektrobussen",
-        "Letištní linky 106 a 129 nyní obsluhují elektrobusy"
+        "Ryanair הכריזה על 43 קווים מוורוצלב לחורף 2026/27, כולל מדריד, מרקש, טירנה וטורינו",
+        "Ryanair announces 43 Wrocław routes for winter 2026/27, including Madrid, Marrakesh, Tirana and Turin",
+        "Ryanair zapowiada 43 trasy z Wrocławia na zimę 2026/27, w tym Madryt, Marrakesz, Tiranę i Turyn",
+        "Ryanair kündigt 43 Strecken ab Wrocław für den Winter 2026/27 an, darunter Madrid, Marrakesch, Tirana und Turin",
+        "Ryanair oznámil 43 linek z Vratislavi na zimu 2026/27, včetně Madridu, Marrákeše, Tirany a Turína"
       ),
-      url: "https://www.wroclaw.pl/komunikacja/autobusy-elektryczne-mpk-wroclaw-zapewniaja-obsluge-lotniska",
-      startDate: "2026-09-14",
-      endDate: "2026-09-21",
+      url: "https://corporate.ryanair.com/informacje/ryanair-oglasza-rekordowy-zimowy-rozklad-lotow-z-wroclawia/",
+      startDate: "2026-09-22",
+      endDate: "2026-09-29",
       priority: "normal",
       category: "airport",
     }),

@@ -12460,6 +12460,124 @@
     },
     "socialPosts": []
   },
+  "prize-by-radisson-wroclaw-sky-tower": {
+    "id": "prize-by-radisson-wroclaw-sky-tower",
+    "localName": "Prize by Radisson, Wroclaw Sky Tower",
+    "name": {
+      "he": "Prize by Radisson, Wroclaw Sky Tower",
+      "en": "Prize by Radisson, Wroclaw Sky Tower",
+      "pl": "Prize by Radisson, Wroclaw Sky Tower",
+      "de": "Prize by Radisson, Wroclaw Sky Tower",
+      "cs": "Prize by Radisson, Wroclaw Sky Tower"
+    },
+    "description": {
+      "he": "מלון של מותג Prize by Radisson במתחם Sky Tower, עם 208 חדרים, ארוחת בוקר ובר הפועל בכל שעות היממה. המלון הוא עסק נפרד מאטרקציות המגדל.",
+      "en": "A Prize by Radisson hotel within Sky Tower, with 208 rooms, breakfast and a 24-hour bar. The hotel is separate from the tower’s visitor attractions.",
+      "pl": "Hotel marki Prize by Radisson w kompleksie Sky Tower, z 208 pokojami, śniadaniami i całodobowym barem. Hotel jest odrębny od atrakcji turystycznych wieżowca.",
+      "de": "Ein Hotel der Marke Prize by Radisson im Sky Tower mit 208 Zimmern, Frühstück und einer rund um die Uhr geöffneten Bar. Eigenständig gegenüber den Besucherattraktionen des Turms.",
+      "cs": "Hotel značky Prize by Radisson v komplexu Sky Tower nabízí 208 pokojů, snídaně a nepřetržitě otevřený bar. Hotel je samostatný podnik, odlišný od návštěvnických atrakcí věže."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.094799,
+        "lng": 17.019579
+      },
+      "address": {
+        "street": "Szczęśliwa 33",
+        "postalCode": "53-445",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.radissonhotels.com/en-us/hotels/prize-by-radisson-wroclaw-sky-tower",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.094799%2C17.019579",
+        "appleMaps": "https://maps.apple.com/?ll=51.094799,17.019579&q=Prize%20by%20Radisson"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "verified-intake",
+      "personalVisit": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.radissonhotels.com/en-us/hotels/prize-by-radisson-wroclaw-sky-tower",
+          "checkedAt": "2026-09-22",
+          "note": "Official hotel name, Szczęśliwa 33 address and 208 rooms."
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.cvent.com/venues/wroclaw/hotel/prize-by-radisson-wroclaw/venue-61e12c0c-5f20-4c36-8d65-e4ace6c13734",
+          "checkedAt": "2026-09-22",
+          "note": "Hotel supplier profile structured location: latitude 51.094799, longitude 17.019579; address matches official hotel."
+        },
+        {
+          "type": "opening-confirmation",
+          "url": "https://architektura.muratorplus.pl/projekty/to-ma-byc-wizytowka-marki-w-polsce-a-powierzchnia-biurowa-nie-jest-juz-potrzebna-zajeli-piec-pieter-w-sky-tower-za-projekt-wnetrz-odpowiada-tremend-aa-iM8f-rTGG-qKnw.html",
+          "checkedAt": "2026-09-22",
+          "note": "15 September report confirms opening; corroborated by active September accommodation offers."
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "puro": {
     "id": "puro",
     "localName": "PURO Wrocław Stare Miasto",
@@ -17693,8 +17811,8 @@
         {
           "type": "official",
           "url": "https://www.urw.com/news/allnews/wroclavia-centre-rebrand-westfield-wroclavia",
-          "checkedAt": "2026-09-07",
-          "note": "Official rebrand launches 2026-09-17."
+          "checkedAt": "2026-09-22",
+          "note": "Official rebrand effective 2026-09-17; existing identity, aliases and product references retained."
         }
       ]
     },
