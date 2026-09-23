@@ -1,0 +1,119 @@
+{
+  "reviewed": 16,
+  "accepted": 15,
+  "rejected": 1,
+  "hero": "/assets/wieza-cisnien-borek-01.jpg",
+  "note": "Reviewed all 16 explicitly supplied images. The extra 15.04.38 (4).jpeg in the directory was not supplied and is not included. Accepted JPEGs are byte-for-byte copies; source originals remain untouched. Existing asset pipeline copies JPEGs without derivatives.",
+  "images": [
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (3).jpeg",
+      "decision": "KEEP",
+      "reason": "Full tower with fountain; hero",
+      "path": "/assets/wieza-cisnien-borek-01.jpg",
+      "sha256": "5928e1bb5650679323aa8d43495dd0dc4c59d0ba84f8ccf9ede2f367dc58e449"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (4).jpeg",
+      "decision": "KEEP",
+      "reason": "Complete tower and street context",
+      "path": "/assets/wieza-cisnien-borek-02.jpg",
+      "sha256": "443fd43b1243ddcd1d03b6dd658f7044d12b39103da155c46dbf6bb884507131"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (2).jpeg",
+      "decision": "KEEP",
+      "reason": "Entrance and alternate exterior",
+      "path": "/assets/wieza-cisnien-borek-03.jpg",
+      "sha256": "c8aa21641589e73f33e49cb5cba94b3247ea1785ec43cd82576b028611967e63"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (1).jpeg",
+      "decision": "KEEP",
+      "reason": "Low-angle monumental arches and relief",
+      "path": "/assets/wieza-cisnien-borek-04.jpg",
+      "sha256": "202e79162e58c0fb9b2ac85ba4d51b80c522af723f591ba2130069a3f3dbf9a2"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (3).jpeg",
+      "decision": "KEEP",
+      "reason": "Upper facade, spires and large arches",
+      "path": "/assets/wieza-cisnien-borek-05.jpg",
+      "sha256": "8accae1eecf2f8f0ee05b5b17eefcb747020709cdd9b8f2b90685f74314b4bd4"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (11).jpeg",
+      "decision": "KEEP",
+      "reason": "Both spires and connecting passage",
+      "path": "/assets/wieza-cisnien-borek-06.jpg",
+      "sha256": "5162f1e06a49f559e59fade7157d992dba623a7e78d7d231872b40b8231406f7"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (10).jpeg",
+      "decision": "KEEP",
+      "reason": "Closer view of elevated passage",
+      "path": "/assets/wieza-cisnien-borek-07.jpg",
+      "sha256": "e749cfd8994f470a70d51236635a0e7a25d6df819d130179288614196d3a7ece"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39.jpeg",
+      "decision": "KEEP",
+      "reason": "Complete spire with clear outline",
+      "path": "/assets/wieza-cisnien-borek-08.jpg",
+      "sha256": "4482d5a5244ef81977e3a21fd833f6634cc85926e22e91477c6cba8096646039"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (2).jpeg",
+      "decision": "KEEP",
+      "reason": "Legible ERBAUT 1904–1905 inscription",
+      "path": "/assets/wieza-cisnien-borek-09.jpg",
+      "sha256": "d5fe95f405780aa50d496886bb0cbdd9daa619a0bc10364238447af512f0b6ae"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38.jpeg",
+      "decision": "KEEP",
+      "reason": "Detailed animal relief",
+      "path": "/assets/wieza-cisnien-borek-10.jpg",
+      "sha256": "ab7081678071df6fbcb078468a7c56d6c700a2359ccf165bbfc5468caf61b2e4"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (9).jpeg",
+      "decision": "KEEP",
+      "reason": "Different animal sculpture",
+      "path": "/assets/wieza-cisnien-borek-11.jpg",
+      "sha256": "91cadb14ffdec5092b8cba3f74961724305a7f15cf7fe40b9aa944ce51e331d9"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (6).jpeg",
+      "decision": "KEEP",
+      "reason": "Distinct curled animal relief; slight softness but useful detail",
+      "path": "/assets/wieza-cisnien-borek-12.jpg",
+      "sha256": "e5359415e5e251486b09e4b94a9b49170701611bfafd1f239ff315d9e8fd29d6"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (8).jpeg",
+      "decision": "KEEP",
+      "reason": "Unique W stone emblem; slight softness but readable",
+      "path": "/assets/wieza-cisnien-borek-13.jpg",
+      "sha256": "3a1f5916660c06bdf26e1c10f55d53d95bd25d67a0b143ebac1b2184aee5e030"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (7).jpeg",
+      "decision": "KEEP",
+      "reason": "Distinct roof ornament and masonry",
+      "path": "/assets/wieza-cisnien-borek-14.jpg",
+      "sha256": "565350e679fe96b11efa66347edd05a2028b883b1e60f619a2dd1a4e70b724fa"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (5).jpeg",
+      "decision": "KEEP",
+      "reason": "Full sculptural fountain detail",
+      "path": "/assets/wieza-cisnien-borek-15.jpg",
+      "sha256": "830e9da5d1cedff4fcd868cab20c2e5044b27d207594016d9bf77dc2c8ae238f"
+    },
+    {
+      "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (1).jpeg",
+      "decision": "REJECT",
+      "reason": "Near-duplicate of 15.04.39.jpeg; spire finial is clipped at the top and adds no useful detail."
+    }
+  ]
+}

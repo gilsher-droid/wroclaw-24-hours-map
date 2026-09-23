@@ -17448,6 +17448,295 @@
     },
     "socialPosts": []
   },
+  "wieza-cisnien-borek": {
+    "id": "wieza-cisnien-borek",
+    "localName": "Wieża Ciśnień Borek",
+    "name": {
+      "he": "מגדל המים של בורק",
+      "en": "Borek Water Tower",
+      "pl": "Wieża Ciśnień Borek",
+      "de": "Wasserturm Borek",
+      "cs": "Vodárenská věž Borek"
+    },
+    "description": {
+      "he": "מגדל המים של בורק נבנה בשנים 1904–1905 בתכנון קרל קלים כחלק ממערכת המים העירונית, ומתנשא לגובה של כ־62 מטר. קשתות גדולות, צריחים, מעבר מוגבה, פסלי אבן ומזרקה מעטרים את מבנה הלבנים האדומות. ב־1906 נפתחה בו גלריית תצפית לציבור; זהו פרט היסטורי, ואינו מעיד על גישה כיום.",
+      "en": "Built in 1904–1905 to Karl Klimm’s design for the municipal water system, this red-brick tower rises about 62 metres. Look for the monumental arches, spires, elevated passage, stone sculptures and fountain. A public viewing gallery opened in 1906; this is historical information, not confirmation of access today.",
+      "pl": "Ceglana wieża wodociągowa projektu Karla Klimma powstała w latach 1904–1905 i ma około 62 metrów wysokości. Warto zwrócić uwagę na monumentalne łuki, wieżyczki, wysoko zawieszony łącznik, kamienne rzeźby i fontannę. Galerię widokową udostępniono publiczności w 1906 roku; to informacja historyczna, nie potwierdzenie obecnej dostępności.",
+      "de": "Der etwa 62 Meter hohe Backsteinturm entstand 1904–1905 nach Karl Klimms Entwurf für die städtische Wasserversorgung. Auffällig sind die großen Bögen, Turmspitzen, der hoch gelegene Verbindungsgang, Steinskulpturen und der Brunnen. 1906 öffnete eine öffentliche Aussichtsgalerie; diese historische Angabe bestätigt keinen heutigen Zugang.",
+      "cs": "Cihlová vodárenská věž vznikla v letech 1904–1905 podle návrhu Karla Klimma pro městský vodovod a měří přibližně 62 metrů. Zaujmou mohutné oblouky, věžičky, vyvýšená spojovací chodba, kamenné plastiky a kašna. Vyhlídková galerie se veřejnosti otevřela v roce 1906; jde o historický údaj, nikoli potvrzení dnešní přístupnosti."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.08533,
+        "lng": 17.01765
+      },
+      "address": {
+        "street": "Sudecka 125A",
+        "postalCode": "53-128",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "historical-landmark"
+      ],
+      "tags": [
+        "architecture",
+        "historical",
+        "history",
+        "photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/najpiekniejsza-wieza-cisnien-w-polsce-to-jego-dzielo-sto-lat-temu-zmarl-karl-klimm-galeria",
+          "checkedAt": "2026-09-23",
+          "note": "Karl Klimm attribution."
+        },
+        {
+          "type": "architecture",
+          "url": "https://www.whitemad.pl/wieza-cisnien-borek-we-wroclawiu-jedna-z-najpiekniejszych-w-europie/",
+          "checkedAt": "2026-09-23",
+          "note": "1904–1905 construction, 62 m height, red-brick architecture and stone sculptures."
+        },
+        {
+          "type": "local-history",
+          "url": "https://tuwroclaw.com/artykul/odkrywamy-wroclaw-wieza-n1372617",
+          "checkedAt": "2026-09-23",
+          "note": "Municipal water-supply role and historic viewing gallery opened in June 1906. No current access claims."
+        },
+        {
+          "type": "coordinates",
+          "url": "https://mapcarta.com/29217282",
+          "checkedAt": "2026-09-23",
+          "note": "Tower-specific location from GeoNames 8435802: 51.08533, 17.01765; distinct from Borek neighborhood and shopping centre."
+        },
+        {
+          "type": "address",
+          "url": "https://geoportal.wroclaw.pl/poi/poi/2628",
+          "checkedAt": "2026-09-23",
+          "note": "Municipal indexed listing: Sudecka 125a, 53-128 Wrocław; direct retrieval unavailable during verification."
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/wieza-cisnien-borek-01.jpg",
+        "/assets/wieza-cisnien-borek-02.jpg",
+        "/assets/wieza-cisnien-borek-03.jpg",
+        "/assets/wieza-cisnien-borek-04.jpg",
+        "/assets/wieza-cisnien-borek-05.jpg",
+        "/assets/wieza-cisnien-borek-06.jpg",
+        "/assets/wieza-cisnien-borek-07.jpg",
+        "/assets/wieza-cisnien-borek-08.jpg",
+        "/assets/wieza-cisnien-borek-09.jpg",
+        "/assets/wieza-cisnien-borek-10.jpg",
+        "/assets/wieza-cisnien-borek-11.jpg",
+        "/assets/wieza-cisnien-borek-12.jpg",
+        "/assets/wieza-cisnien-borek-13.jpg",
+        "/assets/wieza-cisnien-borek-14.jpg",
+        "/assets/wieza-cisnien-borek-15.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/wieza-cisnien-borek-01.jpg": {
+          "tags": [
+            "architecture",
+            "full-tower-fountain",
+            "hero"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (3).jpeg",
+          "heroCandidate": true
+        },
+        "/assets/wieza-cisnien-borek-02.jpg": {
+          "tags": [
+            "architecture",
+            "street-context"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (4).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-03.jpg": {
+          "tags": [
+            "architecture",
+            "entrance-exterior"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (2).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-04.jpg": {
+          "tags": [
+            "architecture",
+            "arches"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (1).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-05.jpg": {
+          "tags": [
+            "architecture",
+            "upper-facade"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (3).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-06.jpg": {
+          "tags": [
+            "architecture",
+            "spires-passage"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (11).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-07.jpg": {
+          "tags": [
+            "architecture",
+            "connecting-passage"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (10).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-08.jpg": {
+          "tags": [
+            "architecture",
+            "spire"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39.jpeg"
+        },
+        "/assets/wieza-cisnien-borek-09.jpg": {
+          "tags": [
+            "architecture",
+            "inscription"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (2).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-10.jpg": {
+          "tags": [
+            "architecture",
+            "animal-relief"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38.jpeg"
+        },
+        "/assets/wieza-cisnien-borek-11.jpg": {
+          "tags": [
+            "architecture",
+            "animal-relief-2"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (9).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-12.jpg": {
+          "tags": [
+            "architecture",
+            "animal-relief-3"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (6).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-13.jpg": {
+          "tags": [
+            "architecture",
+            "stone-emblem"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (8).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-14.jpg": {
+          "tags": [
+            "architecture",
+            "roof-ornament"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (7).jpeg"
+        },
+        "/assets/wieza-cisnien-borek-15.jpg": {
+          "tags": [
+            "architecture",
+            "fountain"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (5).jpeg"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/p/19hnYF5mwX/",
+        "language": "he"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DdoS5H8jIhZ/?img_index=1",
+        "language": "he"
+      }
+    ]
+  },
   "woda-cafe": {
     "id": "woda-cafe",
     "localName": "Woda café",

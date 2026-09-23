@@ -126,6 +126,7 @@
   };
 
   const resources = {
+    "wieza-cisnien-borek": canonicalResources("wieza-cisnien-borek"),
     rynek: { gallery: [...galleries.rynek, ...galleries.townHall], videos: videos.rynek },
     "town-hall": { gallery: galleries.townHall },
     "dwarf-info": { facebook: facebook.rynek, instagram: instagram.rynek, gallery: galleries.gnomes },
