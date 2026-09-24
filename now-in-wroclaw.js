@@ -77,6 +77,10 @@
       const link = ticker.querySelector(".wroc-now__link");
       link.textContent = copy.source;
       link.hidden = !item.url;
+      link.dataset.newsId = item.id;
+      link.dataset.newsCategory = item.category || "";
+      link.dataset.canonicalPlaceId = item.relatedCanonicalPlaceId || "";
+      link.dataset.canonicalExperienceId = item.relatedCanonicalExperienceId || "";
       if (item.url) link.href = item.url;
       else link.removeAttribute("href");
 

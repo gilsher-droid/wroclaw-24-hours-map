@@ -147,7 +147,10 @@
     marker.evening = evening;
     marker.category = evening ? "evening" : location.category;
     marker.bindPopup(popupHtml(location, evening));
-    marker.on("popupopen", () => { currentOpenId = location.id; });
+    marker.on("popupopen", () => {
+      if (currentOpenId !== location.id) window.WROC_ANALYTICS?.track("place_open", { canonical_place_id: location.canonicalPlaceId || location.id });
+      currentOpenId = location.id;
+    });
     marker.on("popupclose", () => { if (currentOpenId === location.id) currentOpenId = null; });
     markers.set(location.id, marker);
   }
@@ -262,7 +265,7 @@
         ? `<p class="recommendation">${escapeHtml(location.recommendation[currentLanguage])}</p>` : "";
       const optional = location.optional ? `<span class="optional-pill">${escapeHtml(t("optionalStop"))}</span>` : "";
       return `
-        <article class="route-card" data-category="${location.category}" id="stop-${location.id}">
+        <article class="route-card" data-category="${location.category}" data-canonical-place-id="${location.canonicalPlaceId || location.id}" id="stop-${location.id}">
           <div class="stop-number" style="background:${categoryColors[location.category]}">${location.order}</div>
           <div>
             <h3>${escapeHtml(location.name[currentLanguage])}</h3>

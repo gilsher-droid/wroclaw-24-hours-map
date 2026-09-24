@@ -180,6 +180,7 @@
   }
 
   function selectPlace(id, openPopup = true) {
+    if (selectedId !== id) window.WROC_ANALYTICS?.track("place_open", { canonical_place_id: places.find((item) => item.id === id)?.canonicalPlaceId || id });
     selectedId = id;
     document.querySelectorAll(".place-card").forEach((card) => card.classList.toggle("selected", card.dataset.place === id));
     const marker = markers.get(id);

@@ -15,6 +15,12 @@ const requiredFiles = [
   "data/now-in-wroclaw.js",
   "now-in-wroclaw.js",
   "now-in-wroclaw.css",
+  "analytics-config.js",
+  "analytics.js",
+  "consent.css",
+  "consent.js",
+  "privacy.html",
+  "privacy.js",
 ];
 
 for (const relativePath of requiredFiles) {
@@ -51,11 +57,17 @@ for (const [pagePath, routeDataPath] of pages) {
   if (!html.includes('/data/now-in-wroclaw.js') || !html.includes('/now-in-wroclaw.js') || !html.includes('/now-in-wroclaw.css')) {
     throw new Error(`${pagePath} does not load the shared Now in Wrocław ticker`);
   }
+  if (!html.includes('/analytics-config.js') || !html.includes('/analytics.js') || !html.includes('/consent.js') || !html.includes('/consent.css')) {
+    throw new Error(`${pagePath} does not load consent-gated analytics assets`);
+  }
 }
 
 const home = await readFile(resolve(artifact, "index.html"), "utf8");
 if (!home.includes('/data/now-in-wroclaw.js') || !home.includes('/now-in-wroclaw.js') || !home.includes('/now-in-wroclaw.css')) {
   throw new Error("Homepage does not load the shared Now in Wrocław ticker");
+}
+if (!home.includes('/analytics-config.js') || !home.includes('/analytics.js') || !home.includes('/consent.js') || !home.includes('/consent.css')) {
+  throw new Error("Homepage does not load consent-gated analytics assets");
 }
 
 console.log("Pages artifact verified: canonical catalog assets are present, non-empty, and ordered correctly.");

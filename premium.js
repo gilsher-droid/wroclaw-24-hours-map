@@ -369,7 +369,7 @@
 
   function renderStops(stops) {
     document.getElementById("premium-stop-list").innerHTML = stops.map((item) => `
-      <article class="premium-stop-card ${item.optional ? "optional" : ""}" id="stop-${item.id}">
+      <article class="premium-stop-card ${item.optional ? "optional" : ""}" data-canonical-place-id="${item.canonicalPlaceId || item.id}" id="stop-${item.id}">
         <div class="stop-index" style="--marker-color:${categoryColors[item.category]}">${item.order}</div>
         <div class="stop-copy">
           <div class="stop-heading">
@@ -421,6 +421,10 @@
         iconSize: [36, 36], iconAnchor: [18, 34], popupAnchor: [0, -30]
       });
       const marker = L.marker(item.coordinates, { icon, title: text(item.name) }).addTo(map).bindPopup(popupHtml(item));
+      marker.on("popupopen", () => {
+        window.WROC_ANALYTICS?.track("place_open", { canonical_place_id: item.canonicalPlaceId || item.id });
+        if (item.canonicalExperienceId) window.WROC_ANALYTICS?.track("experience_open", { canonical_experience_id: item.canonicalExperienceId });
+      });
       mapLayers.push(marker);
       markerById.set(item.id, marker);
     });
