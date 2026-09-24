@@ -50,6 +50,7 @@ test("consent starts one page view and one map_open per provider", () => {
   assert.deepEqual(events.map((item) => item[1]), ["page_view", "map_open"]);
   assert.equal(events[1][2].product_id, "wroclaw-24-hours");
   assert.equal(events[1][2].language, "pl");
+  assert.equal(events[1][2].site_language, "pl");
   assert.equal(events[1][2].utm_source, "instagram");
   assert.equal(events[0][2].page_location.includes("private=omit"), false);
   assert.equal(state.calls().find((item) => item[0] === "config")[2].page_location.includes("private=omit"), false);
@@ -69,6 +70,7 @@ test("attribution survives internal navigation and events use current language",
   map.window.WROC_ANALYTICS.track("place_open", { canonical_place_id: "opera" });
   const event = map.calls().filter((item) => item[1] === "place_open")[0][2];
   assert.equal(event.language, "cs");
+  assert.equal(event.site_language, "cs");
   assert.equal(event.product_id, "wroclaw-four-days");
   assert.equal(event.utm_source, "facebook");
   assert.equal(event.utm_campaign, "water-tower");
@@ -82,6 +84,7 @@ test("all five supported languages are included in map events", () => {
     const events = state.calls().filter((item) => item[0] === "event");
     assert.deepEqual(events.map((item) => item[1]), ["page_view", "map_open"]);
     assert.equal(events[1][2].language, language);
+    assert.equal(events[1][2].site_language, language);
   }
 });
 

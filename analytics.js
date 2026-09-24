@@ -63,7 +63,7 @@
   }
 
   function context() {
-    return { language: language(), ...(productId() ? { product_id: productId() } : {}), ...attribution() };
+    return { language: language(), site_language: language(), ...(productId() ? { product_id: productId() } : {}), ...attribution() };
   }
 
   function safePageLocation() {

@@ -33,6 +33,10 @@ The module sends one manual GA4 `page_view` per page, with automatic page views 
 
 The exact product IDs come from the catalog: `wroclaw-24-hours`, `wroclaw-four-days`, `wroclaw-christmas`, `lifestyle-guide`, `lower-silesia-excursions`, and `cultural-adventure`. Some product pages do not have a separate place or experience opening interaction; those events are emitted only where a real user action exists.
 
+GA4 receives both `language` and `site_language` with the current site language. Use the event-scoped `site_language` custom dimension for reporting; GA4's built-in `language` field is treated specially and did not appear as a normal event parameter in DebugView.
+
+The GA4 property has event-scoped custom dimensions for `site_language`, `product_id`, `canonical_place_id`, and `canonical_experience_id`. Dimension values can take time to appear in standard reports. Standard UTM values support traffic-acquisition reports; the custom events can be inspected immediately in DebugView.
+
 UTM source, medium, campaign, content, and term are read from the landing URL. After analytics consent, the current campaign context is kept in session storage for internal navigation and language changes. Internal links do not receive repeatedly appended UTMs. The `page_location` sent to GA4 contains only the path, `lang`, and standard UTM keys; unrelated query parameters and fragments are omitted. External destination URLs are never sent, only their domains. A local `?analytics_debug=1` flag logs custom events to the browser console on `localhost` or `127.0.0.1` only.
 
 ## Dependencies before production merge
@@ -41,7 +45,7 @@ UTM source, medium, campaign, content, and term are read from the landing URL. A
 2. Verify the five-language privacy notice and contact details (`Gil Sher`, `gil.sher@gmail.com`) are correct for the site operator.
 3. Confirm no other tag manager or Pixel was installed in the meantime. Test both providers on a staging URL and deploy after the consent flow and IDs are verified.
 
-Meta Test Events cannot show traffic until its Pixel exists. GA4 has been checked locally after consent; test production traffic after deployment.
+Meta Test Events cannot show traffic until its Pixel exists. In a consented local preview, GA4 DebugView displayed one `page_view` and one `map_open` for the tested map page, plus `place_open` and `experience_open` after the corresponding interactions. The `map_open` parameters included `product_id`, `site_language=de`, and campaign UTM values. Test production traffic after deployment.
 
 ## Verification after activation
 
