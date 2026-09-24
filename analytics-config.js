@@ -2,5 +2,5 @@
 // A missing ID keeps that provider disabled.
 window.WROC_ANALYTICS_CONFIG = Object.freeze({
   ga4MeasurementId: "G-6FWP69HHWG",
-  metaPixelId: null,
+  metaPixelId: "906515755669709",
 });
