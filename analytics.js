@@ -86,7 +86,7 @@
     });
     window.gtag("js", new Date());
     window.gtag("consent", "update", { analytics_storage: "granted" });
-    window.gtag("config", gaId, { send_page_view: false, page_location: safePageLocation() });
+    window.gtag("config", gaId, { send_page_view: false, page_location: safePageLocation(), ...(debug ? { debug_mode: true } : {}) });
     const script = document.createElement("script");
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
@@ -135,10 +135,27 @@
 
   function setConsent(next) {
     if (!next || typeof next !== "object") return;
+    const previous = { ...consent };
     consent.analytics = next.analytics === true;
     consent.marketing = next.marketing === true;
     if (gaLoaded) window.gtag("consent", "update", { analytics_storage: consent.analytics ? "granted" : "denied" });
     if (pixelLoaded) window.fbq("consent", consent.marketing ? "grant" : "revoke");
+    if ((previous.analytics && !consent.analytics) || (previous.marketing && !consent.marketing)) {
+      if (previous.analytics && !consent.analytics) {
+        try { sessionStorage.removeItem("wroc-analytics-attribution"); } catch (_) { /* storage may be unavailable */ }
+      }
+      if (typeof document.cookie === "string") {
+        for (const entry of document.cookie.split(";")) {
+          const name = entry.trim().split("=")[0];
+          if ((previous.analytics && !consent.analytics && /^_ga(?:_|$)/.test(name)) ||
+              (previous.marketing && !consent.marketing && /^_fb[pc]$/.test(name))) {
+            for (const domain of ["", `; domain=${location.hostname}`, `; domain=.${location.hostname}`]) {
+              document.cookie = `${name}=; Max-Age=0; path=/${domain}; SameSite=Lax`;
+            }
+          }
+        }
+      }
+    }
     emitInitialEvents();
   }
 

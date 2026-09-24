@@ -15,7 +15,9 @@ Audit date: 24 September 2026. Source: `origin/main` at `0b955bc`, the seven liv
 
 ## Prepared integration
 
-`analytics-config.js` has null IDs. `analytics.js` is loaded once on the homepage and all six map product pages. It does not load GA4 or Meta Pixel or send data unless a valid ID exists **and** a consent interface calls `WROC_ANALYTICS.setConsent({ analytics: true, marketing: true })` for the relevant categories. Consent is denied by default and is not stored by this module. The future consent manager must supply the user's current choice on every page and handle withdrawal.
+The new WROC-LOVE GA4 property and web stream use Measurement ID `G-6FWP69HHWG`. Enhanced Measurement is disabled to avoid automatic duplicate events; `analytics.js` sends one manual page view. `analytics-config.js` contains that verified ID. The Meta Pixel ID remains null until the correct Dataset/Pixel can be created and associated with the ad account.
+
+`analytics.js` is loaded on the homepage, the six map product pages, and the privacy page. The site's `consent.js` presents separate analytics and marketing choices in HE/EN/PL/DE/CS, with equal access to rejection and acceptance, and a persistent settings button for withdrawal. Consent is denied by default. The choice is stored locally for up to 180 days; no provider script loads until its relevant category is granted. On withdrawal, subsequent events stop and first-party GA/Meta cookies and session attribution are cleared where the browser permits.
 
 The module sends one manual GA4 `page_view` per page, with automatic page views disabled, and one `map_open` per product page. With marketing consent, Meta receives one `PageView` and one product `ViewContent`. It does not send Purchase or Lead. Other events go to GA4 only. All event calls are dropped without the relevant consent. The module does not create a visitor identifier or fingerprint.
 
@@ -33,14 +35,13 @@ The exact product IDs come from the catalog: `wroclaw-24-hours`, `wroclaw-four-d
 
 UTM source, medium, campaign, content, and term are read from the landing URL. After analytics consent, the current campaign context is kept in session storage for internal navigation and language changes. Internal links do not receive repeatedly appended UTMs. The `page_location` sent to GA4 contains only the path, `lang`, and standard UTM keys; unrelated query parameters and fragments are omitted. External destination URLs are never sent, only their domains. A local `?analytics_debug=1` flag logs custom events to the browser console on `localhost` or `127.0.0.1` only.
 
-## Dependencies before enabling production tracking
+## Dependencies before production merge
 
-1. Identify or create the correct WROC-LOVE GA4 web stream and provide its real `G-…` Measurement ID.
-2. Create or authorize the correct Meta Dataset/Pixel in the business account, associate it with the ad account, and provide its numeric ID.
-3. Choose and implement a site consent interface/CMP that presents analytics and marketing choices, calls `WROC_ANALYTICS.setConsent` on every page only after obtaining the applicable choice, and allows withdrawal. Review the site's privacy notice before activation.
-4. Confirm no other tag manager or Pixel was installed in the meantime. Then enter verified IDs into `analytics-config.js`, test on a staging URL, and deploy only after the consent flow is working.
+1. Complete the Meta business-portfolio/ad-account association, create the correct Dataset/Pixel, and enter its numeric ID into `analytics-config.js`.
+2. Verify the five-language privacy notice and contact details (`Gil Sher`, `gil.sher@gmail.com`) are correct for the site operator.
+3. Confirm no other tag manager or Pixel was installed in the meantime. Test both providers on a staging URL and deploy after the consent flow and IDs are verified.
 
-The PR containing this preparation should remain unmerged until these dependencies are resolved. With null IDs and no consent call, the code is inert even if built locally. GA4 DebugView and Meta Test Events cannot show real traffic yet.
+Meta Test Events cannot show traffic until its Pixel exists. GA4 has been checked locally after consent; test production traffic after deployment.
 
 ## Verification after activation
 

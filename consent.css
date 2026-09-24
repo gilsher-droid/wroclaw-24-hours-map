@@ -1,0 +1,16 @@
+.wroc-consent-settings { position: fixed; z-index: 1199; inset: auto auto 12px 12px; padding: 8px 12px; border: 1px solid #4e5a69; border-radius: 999px; background: #fff; color: #1d2732; font: 600 13px/1.3 system-ui,sans-serif; cursor: pointer; box-shadow: 0 2px 10px #0002; }
+.wroc-consent-panel { position: fixed; z-index: 1200; inset: auto 12px 12px 12px; width: min(580px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; box-sizing: border-box; padding: 18px; border: 1px solid #596677; border-radius: 16px; background: #fff; color: #1d2732; box-shadow: 0 8px 35px #0004; font: 15px/1.5 system-ui,sans-serif; text-align: start; }
+.wroc-consent-panel[hidden], .wroc-consent-options[hidden], .wroc-consent-panel button[hidden] { display: none; }
+.wroc-consent-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.wroc-consent-head h2 { margin: 0; font: 700 20px/1.3 system-ui,sans-serif; }
+.wroc-consent-panel p { margin: 10px 0; }
+.wroc-consent-panel a { color: #0a55a6; text-decoration: underline; }
+.wroc-consent-options { display: grid; gap: 10px; margin: 14px 0; }
+.wroc-consent-options label { display: flex; align-items: center; gap: 9px; cursor: pointer; }
+.wroc-consent-options input { width: 18px; height: 18px; margin: 0; }
+.wroc-consent-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.wroc-consent-panel button { padding: 9px 13px; border: 1px solid #344253; border-radius: 8px; background: #fff; color: #1d2732; font: 600 14px/1.3 system-ui,sans-serif; cursor: pointer; }
+.wroc-consent-panel [data-action="accept"], .wroc-consent-panel [data-action="save"] { background: #193b61; color: #fff; }
+.wroc-consent-panel [data-action="reject"] { border-color: #193b61; }
+.wroc-consent-panel :is(button,a,input):focus-visible { outline: 3px solid #f1aa2f; outline-offset: 2px; }
+@media (max-width: 620px) { .wroc-consent-panel { inset: auto 0 0 0; width: 100vw; border-radius: 16px 16px 0 0; padding: 16px; max-height: 80vh; } .wroc-consent-settings { inset: auto 8px 8px auto; } }

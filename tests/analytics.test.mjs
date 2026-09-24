@@ -19,6 +19,7 @@ function page(url, config = {}, storage = new Map()) {
   const sessionStorage = {
     getItem: (key) => storage.get(key) ?? null,
     setItem: (key, value) => storage.set(key, value),
+    removeItem: (key) => storage.delete(key),
   };
   const window = { WROC_ANALYTICS_CONFIG: config };
   vm.runInNewContext(source, { window, document, location, sessionStorage, URL, URLSearchParams, Date, console });
@@ -82,6 +83,18 @@ test("all five supported languages are included in map events", () => {
     assert.deepEqual(events.map((item) => item[1]), ["page_view", "map_open"]);
     assert.equal(events[1][2].language, language);
   }
+});
+
+test("withdrawal stops later events and clears stored attribution", () => {
+  const state = page("https://wroc-love.com/?lang=en&utm_source=facebook", { ga4MeasurementId: "G-ABC123" });
+  state.window.WROC_ANALYTICS.setConsent({ analytics: true, marketing: false });
+  assert.equal(state.storage.has("wroc-analytics-attribution"), true);
+  const before = state.calls().length;
+  state.window.WROC_ANALYTICS.setConsent({ analytics: false, marketing: false });
+  state.window.WROC_ANALYTICS.track("interactive_maps_click", { target_product: "wroclaw-24-hours" });
+  assert.equal(state.storage.has("wroc-analytics-attribution"), false);
+  assert.equal(state.calls().filter((item) => item[0] === "event").length, 1);
+  assert.equal(state.calls().length, before + 1); // consent update only
 });
 
 test("link events use product IDs, ticker IDs, and domains without query strings", () => {
