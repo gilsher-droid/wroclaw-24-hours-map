@@ -11758,7 +11758,7 @@
       }
     ],
     "status": "published",
-    "editorialPriority": null,
+    "editorialPriority": "medium",
     "taxonomy": {
       "categories": [
         "buy",
@@ -11795,16 +11795,6 @@
         "appleMaps": null
       }
     },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
-      }
-    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -11817,6 +11807,177 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "originalVideo": true
+    },
+    "media": {
+      "photos": [
+        "/assets/pedet-01.jpg",
+        "/assets/pedet-02.jpg",
+        "/assets/pedet-03.jpg",
+        "/assets/pedet-04.jpg",
+        "/assets/pedet-05.jpg",
+        "/assets/pedet-06.jpg",
+        "/assets/pedet-07.jpg",
+        "/assets/pedet-08.jpg",
+        "/assets/pedet-09.jpg",
+        "/assets/pedet-10.jpg",
+        "/assets/pedet-11.jpg",
+        "/assets/pedet-12.jpg",
+        "/assets/pedet-13.jpg",
+        "/assets/pedet-14.jpg",
+        "/assets/pedet-15.jpg"
+      ],
+      "videos": [
+        "/assets/video-pedet-01.mp4",
+        "/assets/video-pedet-02.mp4",
+        "/assets/video-pedet-03.mp4"
+      ],
+      "metadata": {
+        "/assets/pedet-01.jpg": {
+          "original": true,
+          "heroCandidate": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.34 (1).jpeg",
+          "alt": {
+            "he": "מבט רחב על חלל הישיבה ב־PeDeT",
+            "en": "Wide view of the PeDeT seating area"
+          }
+        },
+        "/assets/pedet-02.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.36.jpeg",
+          "alt": {
+            "he": "הבר והשולחן המרכזי ב־PeDeT",
+            "en": "The bar and communal table at PeDeT"
+          }
+        },
+        "/assets/pedet-03.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.40 (1).jpeg",
+          "alt": {
+            "he": "אורחים והופעה חיה ב־PeDeT",
+            "en": "Guests and live music at PeDeT"
+          }
+        },
+        "/assets/pedet-04.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.42 (2).jpeg",
+          "alt": {
+            "he": "נגן גיטרה מול שלט PeDeT",
+            "en": "Guitarist in front of the PeDeT sign"
+          }
+        },
+        "/assets/pedet-05.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.42 (1).jpeg",
+          "alt": {
+            "he": "במה קטנה ושלט PeDeT מואר",
+            "en": "Small stage and illuminated PeDeT sign"
+          }
+        },
+        "/assets/pedet-06.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.41.jpeg",
+          "alt": {
+            "he": "דוכן אוכל בתוך מתחם PeDeT",
+            "en": "Food stall inside PeDeT"
+          }
+        },
+        "/assets/pedet-07.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.41 (1).jpeg",
+          "alt": {
+            "he": "שורת דוכני אוכל ב־PeDeT",
+            "en": "Row of food stalls at PeDeT"
+          }
+        },
+        "/assets/pedet-08.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.41 (2).jpeg",
+          "alt": {
+            "he": "מעבר בין דוכני האוכל ב־PeDeT",
+            "en": "Walkway between PeDeT food stalls"
+          }
+        },
+        "/assets/pedet-09.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.42.jpeg",
+          "alt": {
+            "he": "שלט הכניסה למתחם PeDeT",
+            "en": "PeDeT entrance sign"
+          }
+        },
+        "/assets/pedet-10.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.34 (2).jpeg",
+          "alt": {
+            "he": "שולחן משותף ומקומות ישיבה ב־PeDeT",
+            "en": "Communal table and seating at PeDeT"
+          }
+        },
+        "/assets/pedet-11.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.34 (3).jpeg",
+          "alt": {
+            "he": "דוכן אוכל במתחם Renoma ליד PeDeT",
+            "en": "Food stall in Renoma near PeDeT"
+          }
+        },
+        "/assets/pedet-12.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.35 (1).jpeg",
+          "alt": {
+            "he": "לוגו PeDeT על קיר",
+            "en": "PeDeT logo on a wall"
+          }
+        },
+        "/assets/pedet-13.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.35.jpeg",
+          "alt": {
+            "he": "שלט PeDeT על קיר אפור",
+            "en": "PeDeT lettering on a grey wall"
+          }
+        },
+        "/assets/pedet-14.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.40 (2).jpeg",
+          "alt": {
+            "he": "הבר ואזור הישיבה ב־PeDeT",
+            "en": "Bar and seating area at PeDeT"
+          }
+        },
+        "/assets/pedet-15.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.40.jpeg",
+          "alt": {
+            "he": "אורחים ליד הבר של PeDeT",
+            "en": "Guests by the PeDeT bar"
+          }
+        },
+        "/assets/video-pedet-01.mp4": {
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-25 at 12.56.40.mp4"
+        },
+        "/assets/video-pedet-02.mp4": {
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-25 at 12.57.37.mp4"
+        },
+        "/assets/video-pedet-03.mp4": {
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-25 at 12.57.39.mp4"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+      }
     ]
   },
   "pergola": {

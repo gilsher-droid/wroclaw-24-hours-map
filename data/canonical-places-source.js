@@ -1,6 +1,27 @@
 (function () {
   "use strict";
 
+  const pedetPhotoSources = [
+    ["12.57.34 (1)", "מבט רחב על חלל הישיבה ב־PeDeT", "Wide view of the PeDeT seating area"],
+    ["12.56.36", "הבר והשולחן המרכזי ב־PeDeT", "The bar and communal table at PeDeT"],
+    ["12.57.40 (1)", "אורחים והופעה חיה ב־PeDeT", "Guests and live music at PeDeT"],
+    ["12.56.42 (2)", "נגן גיטרה מול שלט PeDeT", "Guitarist in front of the PeDeT sign"],
+    ["12.56.42 (1)", "במה קטנה ושלט PeDeT מואר", "Small stage and illuminated PeDeT sign"],
+    ["12.56.41", "דוכן אוכל בתוך מתחם PeDeT", "Food stall inside PeDeT"],
+    ["12.56.41 (1)", "שורת דוכני אוכל ב־PeDeT", "Row of food stalls at PeDeT"],
+    ["12.56.41 (2)", "מעבר בין דוכני האוכל ב־PeDeT", "Walkway between PeDeT food stalls"],
+    ["12.56.42", "שלט הכניסה למתחם PeDeT", "PeDeT entrance sign"],
+    ["12.57.34 (2)", "שולחן משותף ומקומות ישיבה ב־PeDeT", "Communal table and seating at PeDeT"],
+    ["12.57.34 (3)", "דוכן אוכל במתחם Renoma ליד PeDeT", "Food stall in Renoma near PeDeT"],
+    ["12.57.35 (1)", "לוגו PeDeT על קיר", "PeDeT logo on a wall"],
+    ["12.57.35", "שלט PeDeT על קיר אפור", "PeDeT lettering on a grey wall"],
+    ["12.57.40 (2)", "הבר ואזור הישיבה ב־PeDeT", "Bar and seating area at PeDeT"],
+    ["12.57.40", "אורחים ליד הבר של PeDeT", "Guests by the PeDeT bar"],
+  ];
+  const pedetPhotos = pedetPhotoSources.map((_, index) => `/assets/pedet-${String(index + 1).padStart(2, "0")}.jpg`);
+  const pedetVideoSources = ["12.56.40", "12.57.37", "12.57.39"];
+  const pedetVideos = pedetVideoSources.map((_, index) => `/assets/video-pedet-${String(index + 1).padStart(2, "0")}.mp4`);
+
   // Editorial source of truth for canonical places that do not need to belong
   // to an existing route or product. Every record added here must provide its
   // geography explicitly; no city is inferred by the catalog generator.
@@ -49,6 +70,39 @@
         }
       },
       status: "published", editorialPriority: "medium", languages: ["he", "en", "pl", "de", "cs"]
+    },
+    {
+      id: "pedet",
+      aliases: [],
+      localName: "PeDeT Food Hall",
+      name: { he: "PeDeT Food Hall", en: "PeDeT Food Hall", pl: "PeDeT Food Hall", de: "PeDeT Food Hall", cs: "PeDeT Food Hall" },
+      description: {
+        he: "מתחם אוכל מעוצב בתוך Renoma עם מטבחים, קינוחים וקוקטיילים.",
+        en: "A stylish food hall inside Renoma with varied cuisines, desserts and cocktails.",
+        pl: "Stylowy food hall w Renomie z różnymi kuchniami, deserami i koktajlami.",
+        de: "Eine stilvolle Food Hall in der Renoma mit Küchen, Desserts und Cocktails.",
+        cs: "Stylová food hall v Renomě s různými kuchyněmi, dezerty a koktejly."
+      },
+      location: { countryCode: "PL", regionId: "lower-silesia", cityId: "wroclaw", coordinates: { lat: 51.1037104, lng: 17.0324564 } },
+      categories: ["eat", "drink", "buy"],
+      provenance: { contentType: "personal-visit", personalVisit: true, originalPhotography: true, originalVideo: true },
+      media: {
+        photos: pedetPhotos,
+        videos: pedetVideos,
+        metadata: {
+          ...Object.fromEntries(pedetPhotos.map((path, index) => [path, {
+            original: true,
+            ...(index === 0 ? { heroCandidate: true } : {}),
+            sourceFile: `WhatsApp Image 2026-09-25 at ${pedetPhotoSources[index][0]}.jpeg`,
+            alt: { he: pedetPhotoSources[index][1], en: pedetPhotoSources[index][2] },
+          }])),
+          ...Object.fromEntries(pedetVideos.map((path, index) => [path, {
+            original: true,
+            sourceFile: `WhatsApp Video 2026-09-25 at ${pedetVideoSources[index]}.mp4`,
+          }])),
+        },
+      },
+      status: "published", editorialPriority: "medium", languages: ["he", "en", "pl", "de", "cs"],
     },
     {
       "id": "wieza-cisnien-borek",

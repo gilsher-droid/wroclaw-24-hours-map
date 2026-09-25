@@ -164,6 +164,25 @@ test("Aleja Bielany is one canonical shopping place used by Lifestyle", () => {
   assert.equal(window.WROC_LIFESTYLE_PLACES.filter((place) => place.categories.includes("buy")).length, 11);
 });
 
+test("PeDeT media belongs to its existing Lifestyle place, separate from Renoma", () => {
+  const window = {};
+  const context = { window, console };
+  for (const file of ["data/place-catalog.js", "data/location-media.js", "data/lifestyle-places.js"]) {
+    runInNewContext(readFileSync(resolve(root, file), "utf8"), context);
+  }
+  const place = window.WROC_CATALOG.getPlace("pedet");
+  const lifestyle = window.WROC_LIFESTYLE_PLACES.filter((item) => item.canonicalPlaceId === "pedet");
+  assert.ok(place);
+  assert.equal(lifestyle.length, 1);
+  assert.equal(lifestyle[0].mediaKey, "pedet");
+  assert.equal(place.media.photos.length, 15);
+  assert.equal(place.media.videos.length, 3);
+  assert.equal(place.media.guideVideos, undefined);
+  assert.equal(window.WROC_LOCATION_MEDIA.pedet.gallery.length, 15);
+  assert.equal(window.WROC_LOCATION_MEDIA.pedet.videos.length, 3);
+  assert.equal(window.WROC_LOCATION_MEDIA.renoma.gallery.length, 5);
+});
+
 test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonical identity", () => {
   const window = {};
   const context = { window, console };

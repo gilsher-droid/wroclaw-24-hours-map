@@ -131,6 +131,11 @@
       { he: "מבט חזיתי על ביתן ארבע הכיפות", en: "Front view of the Four Domes Pavilion", pl: "Widok na Pawilon Czterech Kopuł od frontu", de: "Frontalansicht des Vier-Kuppel-Pavillons", cs: "Čelní pohled na Pavilon čtyř kopulí" },
     ]),
     "aleja-bielany": canonicalResources("aleja-bielany"),
+    pedet: canonicalResources("pedet", [
+      { he: "PeDeT מבפנים", en: "Inside PeDeT", pl: "Wnętrze PeDeT", de: "Im PeDeT", cs: "Uvnitř PeDeT" },
+      { he: "הופעה במתחם PeDeT", en: "Live music at PeDeT", pl: "Muzyka na żywo w PeDeT", de: "Live-Musik im PeDeT", cs: "Živá hudba v PeDeT" },
+      { he: "אווירה ב־PeDeT", en: "The atmosphere at PeDeT", pl: "Atmosfera w PeDeT", de: "Atmosphäre im PeDeT", cs: "Atmosféra v PeDeT" },
+    ]),
     "wieza-cisnien-borek": canonicalResources("wieza-cisnien-borek"),
     rynek: { gallery: [...galleries.rynek, ...galleries.townHall], videos: videos.rynek },
     "town-hall": { gallery: galleries.townHall },
