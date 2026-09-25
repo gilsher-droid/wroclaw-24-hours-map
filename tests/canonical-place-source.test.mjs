@@ -66,8 +66,8 @@ test("an independent Lower Silesia place is supported without changing current p
     const baselineFile = resolve(root, "data/place-catalog.js");
     const baseline = loadCatalog(baselineFile);
     const candidate = loadCatalog(outputFile);
-    assert.equal(Object.keys(baseline.places).length, 152);
-    assert.equal(Object.keys(candidate.places).length, 153);
+    assert.equal(Object.keys(baseline.places).length, 153);
+    assert.equal(Object.keys(candidate.places).length, 154);
     assert.equal(baseline.coordinateConflicts.length, 28);
     assert.equal(JSON.stringify(candidate.coordinateConflicts), JSON.stringify(baseline.coordinateConflicts));
 
@@ -109,7 +109,7 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
   const place = catalog.getPlace("ksiaz-castle");
 
   assert.ok(place);
-  assert.equal(Object.keys(catalog.places).length, 152);
+  assert.equal(Object.keys(catalog.places).length, 153);
   assert.equal(Object.keys(catalog.aliases).length, 27);
   assert.equal(catalog.coordinateConflicts.length, 28);
   assert.equal(place.localName, "Zamek Książ w Wałbrzychu");
@@ -135,6 +135,33 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
     const records = [...(product.stops || []), ...(product.recommendations || []), ...(product.places || [])];
     assert.equal(records.some((record) => record.placeId === "ksiaz-castle"), false);
   }
+});
+
+test("Aleja Bielany is one canonical shopping place used by Lifestyle", () => {
+  const window = {};
+  const context = { window, console };
+  for (const file of ["data/place-catalog.js", "data/location-media.js", "data/lifestyle-places.js"]) {
+    runInNewContext(readFileSync(resolve(root, file), "utf8"), context);
+  }
+  const canonical = window.WROC_CATALOG.getPlace("aleja-bielany");
+  const lifestyle = window.WROC_LIFESTYLE_PLACES.filter((place) => place.canonicalPlaceId === "aleja-bielany");
+  assert.ok(canonical);
+  assert.equal(lifestyle.length, 1);
+  assert.equal(lifestyle[0].id, "aleja-bielany");
+  assert.equal(canonical.location.cityId, "bielany-wroclawskie");
+  assert.equal(canonical.location.address.city, "Bielany Wrocławskie");
+  assert.equal(canonical.location.coordinates.lat, 51.0489);
+  assert.equal(canonical.location.coordinates.lng, 16.95959);
+  assert.equal(canonical.links.website, "https://www.alejabielany.pl/pl/");
+  assert.ok(canonical.categories.includes("buy"));
+  assert.deepEqual(Object.keys(canonical.name).sort(), ["cs", "de", "en", "he", "pl"]);
+  assert.deepEqual(Object.keys(canonical.description).sort(), ["cs", "de", "en", "he", "pl"]);
+  assert.equal(canonical.media.photos.length, 6);
+  assert.equal(canonical.media.metadata[canonical.media.photos[0]].heroCandidate, true);
+  assert.ok(canonical.socialPosts.some((post) => post.platform === "facebook"));
+  assert.ok(canonical.socialPosts.some((post) => post.platform === "instagram"));
+  assert.equal(window.WROC_LOCATION_MEDIA["aleja-bielany"].gallery.length, 6);
+  assert.equal(window.WROC_LIFESTYLE_PLACES.filter((place) => place.categories.includes("buy")).length, 11);
 });
 
 test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonical identity", () => {

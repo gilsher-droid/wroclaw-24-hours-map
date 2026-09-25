@@ -26,7 +26,7 @@ test("every canonical social item remains a direct Facebook or Instagram link", 
     }
   }
 
-  assert.equal(uniqueUrls.size, 51);
+  assert.equal(uniqueUrls.size, 53);
 });
 
 test("the supplied priority links stay on their existing canonical places", () => {

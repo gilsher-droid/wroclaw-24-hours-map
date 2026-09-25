@@ -85,6 +85,8 @@
       t("מרכז קטן ואדריכלי יותר עם חנויות אופנה, בתי קפה ומבנה שהוא חלק מהביקור.", "A smaller, more architectural centre with fashion, cafés and a building that is part of the experience.", "Mniejsze, bardziej architektoniczne centrum z modą, kawiarniami i budynkiem wartym obejrzenia.", "Ein kleineres, architektonisch besonderes Zentrum mit Mode, Cafés und sehenswerter Fassade.", "Menší architektonicky výrazné centrum s módou, kavárnami a budovou, která stojí za návštěvu."), shoppingPost, "renoma", sourceShopping),
     place("korona-shopping", ["buy","eat"], [51.1417421,17.0874182], "Centrum Handlowe Korona", sourceShopping, shoppingPost, null, sourceShopping),
     place("borek", ["buy","eat"], [51.0881075,17.0005693], "Centrum Handlowe Borek", sourceShopping, shoppingPost, null, sourceShopping),
+    // Presentation adapter; the name, description, links and photos live in the canonical catalog.
+    { id: "aleja-bielany", categories: ["buy"], coordinates: [51.0489, 16.95959], mediaKey: "aleja-bielany" },
     place("fashion-outlet", ["buy"], [51.1067753,16.9451904], "Wrocław Fashion Outlet", sourceShopping, shoppingPost, null, sourceShopping),
 
     place("puro", ["sleep"], [51.1079917,17.0248927], "PURO Wrocław Stare Miasto", sourceHotel, hotelPost, null, t("ברובע ארבע הדתות, קרוב למסעדות ולמרכז.", "In the Four Denominations District, close to restaurants and the centre.", "W Dzielnicy Czterech Wyznań, blisko restauracji i centrum.", "Im Viertel der vier Konfessionen, nahe Restaurants und Zentrum.", "Ve čtvrti čtyř vyznání, blízko restaurací a centra.")),

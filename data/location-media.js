@@ -126,6 +126,7 @@
   };
 
   const resources = {
+    "aleja-bielany": canonicalResources("aleja-bielany"),
     "wieza-cisnien-borek": canonicalResources("wieza-cisnien-borek"),
     rynek: { gallery: [...galleries.rynek, ...galleries.townHall], videos: videos.rynek },
     "town-hall": { gallery: galleries.townHall },
