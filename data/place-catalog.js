@@ -114,6 +114,222 @@
       "cs"
     ]
   },
+  "aleja-bielany": {
+    "id": "aleja-bielany",
+    "localName": "Aleja Bielany",
+    "name": {
+      "he": "Aleja Bielany",
+      "en": "Aleja Bielany",
+      "pl": "Aleja Bielany",
+      "de": "Aleja Bielany",
+      "cs": "Aleja Bielany"
+    },
+    "description": {
+      "he": "Aleja Bielany הוא מרכז קניות גדול בביילאני ורוצלבסקיה, מדרום לוורוצלב. תמצאו בו חנויות, מקומות לאכול ושירותים, בלב אזור קניות רחב יותר.",
+      "en": "Aleja Bielany is a large shopping centre in Bielany Wrocławskie, just south of Wrocław. It brings together shops, places to eat and services in a wider retail area.",
+      "pl": "Aleja Bielany to duże centrum handlowe w Bielanach Wrocławskich, tuż na południe od Wrocławia. Łączy sklepy, gastronomię i usługi w większej strefie handlowej.",
+      "de": "Aleja Bielany ist ein großes Einkaufszentrum in Bielany Wrocławskie, südlich von Wrocław. Geschäfte, Gastronomie und Dienstleistungen liegen hier in einem größeren Einkaufsgebiet beieinander.",
+      "cs": "Aleja Bielany je velké nákupní centrum v Bielanech Wrocławských jižně od Vratislavi. Nabízí obchody, občerstvení a služby v širší nákupní oblasti."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "bielany-wroclawskie",
+      "coordinates": {
+        "lat": 51.0489,
+        "lng": 16.95959
+      },
+      "address": {
+        "street": "Czekoladowa 7-9",
+        "postalCode": "55-040",
+        "city": "Bielany Wrocławskie",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "buy"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "aleja-bielany"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "aleja-bielany",
+        "lat": 51.0489,
+        "lng": 16.95959
+      }
+    ],
+    "status": "published",
+    "editorialPriority": "medium",
+    "taxonomy": {
+      "categories": [
+        "buy"
+      ],
+      "tags": [
+        "shopping",
+        "shopping-centre"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.alejabielany.pl/pl/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.alejabielany.pl/pl/kontakt",
+          "checkedAt": "2026-09-25",
+          "note": "Official name and address."
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.alejabielany.pl/pl/jak-dojechac",
+          "checkedAt": "2026-09-25",
+          "note": "Official directions page embeds a map centred at 51.0489, 16.95959 for Aleja Bielany."
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/aleja-bielany-01.jpg",
+        "/assets/aleja-bielany-02.jpg",
+        "/assets/aleja-bielany-03.jpg",
+        "/assets/aleja-bielany-04.jpg",
+        "/assets/aleja-bielany-05.jpg",
+        "/assets/aleja-bielany-06.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/aleja-bielany-01.jpg": {
+          "original": true,
+          "heroCandidate": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 19.21.11 (22).jpeg",
+          "alt": {
+            "he": "אותיות Aleja Bielany מעל מבנה באזור הקניות",
+            "en": "Aleja Bielany lettering on a structure in the shopping area",
+            "pl": "Napis Aleja Bielany na konstrukcji w strefie handlowej",
+            "de": "Schriftzug Aleja Bielany auf einer Konstruktion im Einkaufsgebiet",
+            "cs": "Nápis Aleja Bielany na konstrukci v nákupní oblasti"
+          }
+        },
+        "/assets/aleja-bielany-02.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 19.21.11 (21).jpeg",
+          "alt": {
+            "he": "חזית וכניסה מוארות של Aleja Bielany בלילה",
+            "en": "Illuminated Aleja Bielany exterior and entrance at night",
+            "pl": "Oświetlona fasada i wejście do Alei Bielany nocą",
+            "de": "Beleuchtete Fassade und Eingang der Aleja Bielany bei Nacht",
+            "cs": "Osvětlené průčelí a vstup do Aleja Bielany v noci"
+          }
+        },
+        "/assets/aleja-bielany-03.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.19.00 (1).jpeg",
+          "alt": {
+            "he": "שלט Aleja Bielany מואר לצד הכביש בלילה",
+            "en": "Illuminated Aleja Bielany roadside sign at night",
+            "pl": "Podświetlony pylon Aleja Bielany przy drodze nocą",
+            "de": "Beleuchteter Wegweiser der Aleja Bielany an der Straße bei Nacht",
+            "cs": "Osvětlený poutač Aleja Bielany u silnice v noci"
+          }
+        },
+        "/assets/aleja-bielany-04.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.19.00 (3).jpeg",
+          "alt": {
+            "he": "כביש הגישה ושלט Aleja Bielany בלילה",
+            "en": "Approach road and Aleja Bielany sign at night",
+            "pl": "Droga dojazdowa i pylon Aleja Bielany nocą",
+            "de": "Zufahrtsstraße und Schild der Aleja Bielany bei Nacht",
+            "cs": "Příjezdová silnice a poutač Aleja Bielany v noci"
+          }
+        },
+        "/assets/aleja-bielany-05.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 19.21.11 (20).jpeg",
+          "alt": {
+            "he": "שלט Aleja Bielany המואר מקרוב",
+            "en": "Close view of the illuminated Aleja Bielany sign",
+            "pl": "Zbliżenie na podświetlony pylon Aleja Bielany",
+            "de": "Nahaufnahme des beleuchteten Aleja Bielany Schildes",
+            "cs": "Detail osvětleného poutače Aleja Bielany"
+          }
+        },
+        "/assets/aleja-bielany-06.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 19.21.11 (23).jpeg",
+          "alt": {
+            "he": "אזור הקניות סביב Aleja Bielany, עם IKEA בסמוך",
+            "en": "Shopping area around Aleja Bielany, with nearby IKEA",
+            "pl": "Okolica handlowa Alei Bielany z pobliską IKEA",
+            "de": "Einkaufsgebiet rund um Aleja Bielany mit IKEA in der Nähe",
+            "cs": "Nákupní oblast kolem Aleja Bielany s nedalekým obchodem IKEA"
+          }
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/p/1E6RkQAwRa/",
+        "language": "he"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DdtGmqajP3o/?img_index=1",
+        "language": "he"
+      }
+    ]
+  },
   "altus": {
     "id": "altus",
     "localName": "Hotel Altus Palace – Destigo Hotels",

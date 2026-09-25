@@ -58,7 +58,17 @@
     }
   };
 
-  const places = Array.isArray(window.WROC_LIFESTYLE_PLACES) ? window.WROC_LIFESTYLE_PLACES : [];
+  const places = (Array.isArray(window.WROC_LIFESTYLE_PLACES) ? window.WROC_LIFESTYLE_PLACES : []).map((place) => {
+    const canonical = place.canonicalPlace;
+    if (!canonical) return place;
+    return {
+      ...place,
+      name: place.name || canonical.name,
+      localName: place.localName || canonical.localName,
+      description: place.description || canonical.description,
+      sourceUrl: place.sourceUrl || canonical.socialPosts?.find((post) => post.platform === "facebook")?.url || null,
+    };
+  });
   const placeFilters = window.WROC_PLACE_FILTERS;
   const placeAmenities = window.WROC_PLACE_AMENITIES;
   const independentFreeWaterPlaces = [
@@ -95,7 +105,7 @@
     : ui[language]?.[key] || ui.en[key] || key;
   const escapeHtml = (value) => String(value || "").replace(/[&<>'"]/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
   const placeName = (place) => local(place.name) || place.localName || place.id;
-  const googleUrl = (place) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${placeName(place)}, Wrocław`)}`;
+  const googleUrl = (place) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.coordinates.join(","))}`;
 
   function categoryFor(place) {
     if (activeCategory !== "all" && place.categories.includes(activeCategory)) return activeCategory;
@@ -129,6 +139,7 @@
     const media = place.mediaKey ? resources[place.mediaKey] : null;
     const actions = [`<a href="${googleUrl(place)}" target="_blank" rel="noopener"><span class="brand-icon media">↗</span>${tr("navigate")}</a>`];
     if (place.sourceUrl) actions.push(`<a href="${place.sourceUrl}" target="_blank" rel="noopener"><span class="brand-icon facebook">f</span>${tr("readPost")}</a>`);
+    if (place.canonicalPlace?.links?.website) actions.push(`<a href="${escapeHtml(place.canonicalPlace.links.website)}" target="_blank" rel="noopener">${({ he:"אתר רשמי", en:"Official site", pl:"Oficjalna strona", de:"Offizielle Website", cs:"Oficiální web" })[language]}</a>`);
     if (media?.instagram) actions.push(`<a href="${media.instagram}" target="_blank" rel="noopener"><span class="brand-icon instagram">◎</span>${tr("instagram")}</a>`);
     if (media?.gallery?.length) actions.push(`<button type="button" data-gallery="${place.id}"><span class="brand-icon media">▣</span>${tr("photos")}</button>`);
     if (media?.videos?.length) actions.push(`<button type="button" data-video="${place.id}"><span class="brand-icon media">▶</span>${tr("videos")}</button>`);
@@ -224,9 +235,9 @@
     const media = place?.mediaKey ? resources[place.mediaKey] : null;
     if (!place || !media) return;
     const modal = document.getElementById("media-modal");
-    document.getElementById("media-title").textContent = place.name;
+    document.getElementById("media-title").textContent = placeName(place);
     const content = document.getElementById("media-content");
-    if (type === "gallery") content.innerHTML = `<div class="media-grid">${(media.gallery || []).map((src) => `<img src="${src}" alt="${escapeHtml(place.name)}" loading="lazy">`).join("")}</div>`;
+    if (type === "gallery") content.innerHTML = `<div class="media-grid">${(media.gallery || []).map((src) => `<img src="${escapeHtml(src)}" alt="${escapeHtml(local(place.canonicalPlace?.media?.metadata?.[src]?.alt) || placeName(place))}" loading="lazy">`).join("")}</div>`;
     else content.innerHTML = `<div class="media-grid">${(media.videos || []).map((video) => `<video controls playsinline preload="metadata" src="${video.src}"></video>`).join("")}</div>`;
     modal.hidden = false;
     modal.setAttribute("aria-hidden", "false");
