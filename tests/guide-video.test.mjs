@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { resolve } from "node:path";
 import { runInNewContext } from "node:vm";
 
@@ -15,8 +16,11 @@ test("travel-guide videos are a separate canonical resource selected by site lan
 
   const place = window.WROC_CATALOG.getPlace("four-domes");
   assert.equal(place.media.videos.length, 2);
-  assert.equal(place.media.guideVideos.he, "/assets/guide-four-domes-he.mp4");
-  assert.equal(place.media.guideVideos.en, "/assets/guide-four-domes-en.mp4");
+  assert.equal(place.media.guideVideos.he, "/assets/guide-four-domes-he-v2.mp4");
+  assert.equal(place.media.guideVideos.en, "/assets/guide-four-domes-en-v2.mp4");
+  const hash = (file) => createHash("sha256").update(readFileSync(resolve(root, file.slice(1)))).digest("hex");
+  assert.equal(hash(place.media.guideVideos.he), "63273e0a26537d1d35cefe10cf3be15958f290a135f90fa128feecb156178ea7");
+  assert.equal(hash(place.media.guideVideos.en), "7a62ce96f903270eb6fe3286b9edbe5be3e08ea612bea905502757e3ead32d31");
   for (const file of Object.values(place.media.guideVideos)) {
     assert.ok(existsSync(resolve(root, file.slice(1))), file);
     assert.ok(!place.media.videos.includes(file), "guide must stay out of ordinary videos");
