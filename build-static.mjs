@@ -28,6 +28,8 @@ for (const file of [
   "now-in-wroclaw.css",
   "now-in-wroclaw.js",
   "place-amenities.css",
+  "guide-video.css",
+  "guide-video.js",
   "campaign-access.js",
   "map-styles.css",
   "app.js",

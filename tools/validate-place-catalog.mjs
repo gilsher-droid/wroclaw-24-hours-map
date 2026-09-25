@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { runInNewContext } from "node:vm";
@@ -80,6 +81,14 @@ for (const record of source) {
   for (const field of ["photos", "videos"]) {
     if (media[field] != null && (!Array.isArray(media[field]) || media[field].some((item) => typeof item !== "string" || !item))) {
       throw new Error(`${record.id}: media.${field} must remain an array of non-empty strings.`);
+    }
+  }
+  if (media.guideVideos != null) {
+    if (typeof media.guideVideos !== "object" || Array.isArray(media.guideVideos)
+      || Object.keys(media.guideVideos).some((language) => !["he", "en"].includes(language))
+      || !media.guideVideos.he || !media.guideVideos.en
+      || Object.values(media.guideVideos).some((path) => typeof path !== "string" || !path.startsWith("/assets/") || !existsSync(resolve(root, path.slice(1))))) {
+      throw new Error(`${record.id}: media.guideVideos requires existing Hebrew and English assets.`);
     }
   }
   if (media.metadata != null && (typeof media.metadata !== "object" || Array.isArray(media.metadata))) {
