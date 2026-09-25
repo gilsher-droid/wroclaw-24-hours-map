@@ -63,8 +63,16 @@ assert.deepEqual(Array.from(opera.socialPosts, (post) => [post.platform, post.ur
     ["instagram", "https://www.instagram.com/p/DcrATSoDN-C/?img_index=1"],
   ]);
   const fourDomes = window.WROC_CATALOG.getPlace("four-domes");
-  assert.deepEqual(Array.from(fourDomes.media.photos), ["/assets/four-domes-pavilion-01.jpg"]);
-  assert.ok(existsSync(resolve(root, "assets/four-domes-pavilion-01.jpg")));
+  assert.deepEqual(Array.from(fourDomes.media.photos), ["/assets/four-domes-pavilion-02.jpg", "/assets/four-domes-pavilion-01.jpg", "/assets/four-domes-pavilion-03.jpg"]);
+  assert.deepEqual(Array.from(fourDomes.media.videos), ["/assets/video-four-domes-pavilion-01.mp4", "/assets/video-four-domes-pavilion-02.mp4"]);
+  for (const path of [...fourDomes.media.photos, ...fourDomes.media.videos]) {
+    assert.ok(existsSync(resolve(root, path.slice(1))), `${path} exists`);
+  }
+  assert.equal(fourDomes.media.metadata[fourDomes.media.photos[0]].heroCandidate, true);
+  assert.deepEqual(Object.keys(fourDomes.media.metadata[fourDomes.media.photos[0]].alt).sort(), ["cs", "de", "en", "he", "pl"]);
+  runInNewContext(readFileSync(resolve(root, "data/location-media.js"), "utf8"), context);
+  assert.deepEqual(Array.from(window.WROC_LOCATION_MEDIA["four-domes"].gallery), Array.from(fourDomes.media.photos));
+  assert.equal(window.WROC_LOCATION_MEDIA["four-domes"].videos.length, 2);
   assert.deepEqual(Array.from(fourDomes.socialPosts, (post) => post.platform), ["facebook", "instagram"]);
   assert.deepEqual(Array.from(fourDomes.socialPosts, (post) => post.url), [
     "https://www.facebook.com/share/p/1CAQHdKSat/",

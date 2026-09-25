@@ -126,6 +126,10 @@
   };
 
   const resources = {
+    "four-domes": canonicalResources("four-domes", [
+      { he: "הכיפה והחזית של ביתן ארבע הכיפות", en: "Dome and facade of the Four Domes Pavilion", pl: "Kopuła i fasada Pawilonu Czterech Kopuł", de: "Kuppel und Fassade des Vier-Kuppel-Pavillons", cs: "Kupole a průčelí Pavilonu čtyř kopulí" },
+      { he: "מבט חזיתי על ביתן ארבע הכיפות", en: "Front view of the Four Domes Pavilion", pl: "Widok na Pawilon Czterech Kopuł od frontu", de: "Frontalansicht des Vier-Kuppel-Pavillons", cs: "Čelní pohled na Pavilon čtyř kopulí" },
+    ]),
     "aleja-bielany": canonicalResources("aleja-bielany"),
     "wieza-cisnien-borek": canonicalResources("wieza-cisnien-borek"),
     rynek: { gallery: [...galleries.rynek, ...galleries.townHall], videos: videos.rynek },
