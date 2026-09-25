@@ -11,15 +11,6 @@
   border: 1px solid #d5dce7;
 }
 .guide-video-action .brand-icon.guide img { display: block; width: 26px; height: 26px; object-fit: contain; }
-.place-actions > .guide-video-action, .leaflet-popup-content .guide-video-action { display: inline-flex; align-items: center; gap: 7px; min-height: 42px; padding: 4px 11px; border: 1px solid #d5dce7; border-radius: 12px; background: #fff; color: #062b5c; font: inherit; font-weight: 800; cursor: pointer; }
+.place-actions > .guide-video-action, .leaflet-popup-content .guide-video-action { display: inline-flex; align-items: center; gap: 7px; min-height: 42px; padding: 4px 11px; border: 1px solid #d5dce7; border-radius: 12px; background: #fff; color: #062b5c; font: inherit; font-weight: 800; cursor: pointer; text-decoration: none; }
 .place-actions > .guide-video-action:hover, .leaflet-popup-content .guide-video-action:hover { border-color: #2578bd; }
-.guide-video-modal[hidden] { display: none !important; }
-.guide-video-modal { position: fixed; inset: 0; z-index: 10000; display: grid; place-items: center; padding: 20px; }
-.guide-video-backdrop { position: absolute; inset: 0; background: rgba(3, 18, 37, .8); }
-.guide-video-dialog { position: relative; width: min(92vw, 860px); max-height: 90vh; overflow: auto; border-radius: 16px; background: #fff; box-shadow: 0 18px 60px rgba(0, 0, 0, .35); }
-.guide-video-dialog header { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 16px; }
-.guide-video-dialog h2 { margin: 0; color: #062b5c; font-size: 1.1rem; }
-.guide-video-close { width: 40px; height: 40px; flex: 0 0 auto; border: 0; border-radius: 8px; background: #e8edf5; color: #062b5c; font-size: 1.6rem; cursor: pointer; }
-.guide-video-close:focus-visible { outline: 3px solid #d6a657; }
-.guide-video-dialog video { display: block; width: 100%; max-height: calc(90vh - 76px); background: #000; }
-body.guide-video-open { overflow: hidden; }
+.guide-video-action:focus-visible { outline: 3px solid #d6a657; outline-offset: 2px; }

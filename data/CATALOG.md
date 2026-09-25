@@ -30,7 +30,7 @@ Independent places may additionally use these optional, backward-compatible fiel
 
 `media.photos` and `media.videos` remain arrays of URL/path strings. Metadata augments those paths without changing their existing representation.
 
-`media.guideVideos` is an optional, separate travel-guide resource with `he` and `en` asset paths. The Hebrew site uses `he`; every other site language uses `en`. It is not part of the ordinary `media.videos` gallery. Both language versions are required when a place has this resource.
+`media.guideVideos` is an optional, separate travel-guide resource with `he` and `en` YouTube URLs. The Hebrew site uses `he`; every other site language uses `en`. Its logo link opens YouTube in a new tab, and it is not part of the ordinary `media.videos` gallery. Both language versions are required when a place has this resource.
 
 Empty personalization fields are intentional. They are ready for later editorial enrichment and must not be populated from the open web automatically.
 

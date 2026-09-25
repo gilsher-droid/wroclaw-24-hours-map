@@ -4395,8 +4395,8 @@
         "/assets/video-four-domes-pavilion-02.mp4"
       ],
       "guideVideos": {
-        "he": "/assets/guide-four-domes-he-v2.mp4",
-        "en": "/assets/guide-four-domes-en-v2.mp4"
+        "he": "https://youtube.com/shorts/cs7AmJhitLo",
+        "en": "https://youtube.com/shorts/Ud5KD21e5kE"
       },
       "metadata": {
         "/assets/four-domes-pavilion-01.jpg": {

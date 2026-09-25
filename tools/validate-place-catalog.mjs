@@ -1,4 +1,3 @@
-import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { runInNewContext } from "node:vm";
@@ -87,8 +86,8 @@ for (const record of source) {
     if (typeof media.guideVideos !== "object" || Array.isArray(media.guideVideos)
       || Object.keys(media.guideVideos).some((language) => !["he", "en"].includes(language))
       || !media.guideVideos.he || !media.guideVideos.en
-      || Object.values(media.guideVideos).some((path) => typeof path !== "string" || !path.startsWith("/assets/") || !existsSync(resolve(root, path.slice(1))))) {
-      throw new Error(`${record.id}: media.guideVideos requires existing Hebrew and English assets.`);
+      || Object.values(media.guideVideos).some((url) => typeof url !== "string" || !/^https:\/\/(?:www\.)?youtube\.com\/(?:watch\?v=|shorts\/)[A-Za-z0-9_-]{11}$/.test(url))) {
+      throw new Error(`${record.id}: media.guideVideos requires Hebrew and English YouTube URLs.`);
     }
   }
   if (media.metadata != null && (typeof media.metadata !== "object" || Array.isArray(media.metadata))) {
