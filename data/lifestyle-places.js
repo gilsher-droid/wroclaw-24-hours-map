@@ -68,7 +68,7 @@
     place("jolie-kurzy-targ", ["eat","drink"], [51.1093944,17.0341861], "Jolie Brasserie Cafe – Kurzy Targ 2", food.jolie, familiarPost, "jolie-kurzy-targ", sourceFood),
     place("jolie-plac-solny", ["eat","drink"], [51.10965,17.02904], "Jolie Brasserie Cafe – Plac Solny 6", food.jolie, familiarPost, null,
       t("סניף נוסף בעיר העתיקה; התמונות בפוסט צולמו בסניף Kurzy Targ.", "Another Old Town branch; the post photos were taken at Kurzy Targ.", "Drugi lokal na Starym Mieście; zdjęcia w poście wykonano przy Kurzym Targu.", "Eine weitere Altstadt-Filiale; die Fotos im Beitrag entstanden am Kurzy Targ.", "Další pobočka ve Starém Městě; fotografie v příspěvku vznikly na Kurzy Targ.")),
-    place("pedet", ["eat","drink","buy"], [51.1037104,17.0324564], "PeDeT Food Hall", food.foodHall, foodPost, "renoma", sourceFood),
+    place("pedet", ["eat","drink","buy"], [51.1037104,17.0324564], "PeDeT Food Hall", food.foodHall, foodPost, "pedet", sourceFood),
     place("hala-targowa", ["eat","drink","buy"], [51.1126206,17.039748], "Hala Targowa", food.market, familiarPost, "marketHall", sourceFood),
     place("wedel", ["drink"], [51.1110173,17.031212], "Chocolate Cafe E.Wedel", food.chocolate, foodPost, "rynek", sourceFood),
     place("karmello", ["drink"], [51.1104418,17.0337016], "Karmello Chocolatier", food.gelato, foodPost, "rynek", sourceFood),
