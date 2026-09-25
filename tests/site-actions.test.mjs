@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
+import { runInNewContext } from "node:vm";
 
 const root = resolve(import.meta.dirname, "..");
 
@@ -28,6 +29,25 @@ test("the product dropdown is named Our interactive maps in every supported lang
     '"המפות האינטראקטיביות שלנו": "Naše interaktivní mapy"',
   ]) {
     assert.ok(homepageTranslations.includes(label), `homepage translation missing ${label}`);
+  }
+});
+
+test("every map dropdown offers all six maps in the selected language", () => {
+  const source = readFileSync(resolve(root, "site-actions.js"), "utf8");
+  const context = { document: { readyState: "loading", addEventListener() {} } };
+  runInNewContext(source.replace(/\}\)\(\);\s*$/, "globalThis.productMenuTest = { productPaths, productLinks, productMenuMarkup };\n})();"), context);
+  const { productPaths, productLinks, productMenuMarkup } = context.productMenuTest;
+  const expectedPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"];
+  assert.deepEqual(Array.from(productPaths), expectedPaths);
+
+  for (const lang of ["he", "en", "pl", "de", "cs"]) {
+    assert.equal(productLinks[lang].length, expectedPaths.length);
+    const markup = productMenuMarkup(lang);
+    for (const [index, path] of expectedPaths.entries()) {
+      assert.ok(markup.includes(`href="/products/interactive-maps/${path}?lang=${lang}"`));
+      assert.ok(markup.includes(productLinks[lang][index]));
+    }
+    assert.equal((markup.match(/<a /g) || []).length, expectedPaths.length);
   }
 });
 
