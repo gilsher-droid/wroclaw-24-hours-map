@@ -4386,20 +4386,82 @@
     },
     "media": {
       "photos": [
-        "/assets/four-domes-pavilion-01.jpg"
+        "/assets/four-domes-pavilion-02.jpg",
+        "/assets/four-domes-pavilion-01.jpg",
+        "/assets/four-domes-pavilion-03.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "/assets/video-four-domes-pavilion-01.mp4",
+        "/assets/video-four-domes-pavilion-02.mp4"
+      ],
       "metadata": {
         "/assets/four-domes-pavilion-01.jpg": {
           "tags": [
             "four-domes-pavilion",
             "architecture",
-            "exterior",
+            "side-view"
+          ],
+          "original": true,
+          "sourceFile": "IMG_5067.JPG",
+          "alt": {
+            "he": "מבט צדדי על אחת הכיפות והאכסדרה של הפביליון",
+            "en": "Side view of a dome and colonnade at the pavilion",
+            "pl": "Boczny widok kopuły i kolumnady pawilonu",
+            "de": "Seitenansicht einer Kuppel und Kolonnade des Pavillons",
+            "cs": "Boční pohled na kupoli a kolonádu pavilonu"
+          }
+        },
+        "/assets/four-domes-pavilion-02.jpg": {
+          "tags": [
+            "four-domes-pavilion",
+            "architecture",
+            "front-facade",
             "hero"
           ],
           "original": true,
           "heroCandidate": true,
-          "sourceFile": "IMG_5067.JPG"
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.32.03.jpeg",
+          "alt": {
+            "he": "החזית והכיפה של ביתן ארבע הכיפות",
+            "en": "Front facade and dome of the Four Domes Pavilion",
+            "pl": "Fasada i kopuła Pawilonu Czterech Kopuł",
+            "de": "Fassade und Kuppel des Vier-Kuppel-Pavillons",
+            "cs": "Průčelí a kupole Pavilonu čtyř kopulí"
+          }
+        },
+        "/assets/four-domes-pavilion-03.jpg": {
+          "tags": [
+            "four-domes-pavilion",
+            "architecture",
+            "angled-facade"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.32.03 (1).jpeg",
+          "alt": {
+            "he": "חזית ביתן ארבע הכיפות במבט אלכסוני",
+            "en": "Angled view of the Four Domes Pavilion facade",
+            "pl": "Fasada Pawilonu Czterech Kopuł z ukosa",
+            "de": "Schrägansicht der Fassade des Vier-Kuppel-Pavillons",
+            "cs": "Šikmý pohled na průčelí Pavilonu čtyř kopulí"
+          }
+        },
+        "/assets/video-four-domes-pavilion-01.mp4": {
+          "tags": [
+            "four-domes-pavilion",
+            "exterior",
+            "facade-pan"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.32.00.mp4"
+        },
+        "/assets/video-four-domes-pavilion-02.mp4": {
+          "tags": [
+            "four-domes-pavilion",
+            "exterior",
+            "front-facade"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.32.01.mp4"
         }
       }
     },
