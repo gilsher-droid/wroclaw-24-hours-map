@@ -261,6 +261,7 @@ for (const place of places.values()) {
     videos: Array.isArray(canonicalMedia.videos)
       ? canonicalMedia.videos
       : Array.isArray(resources.videos) ? resources.videos : [],
+    ...(canonicalMedia.guideVideos ? { guideVideos: canonicalMedia.guideVideos } : {}),
     ...(canonicalMedia.metadata ? { metadata: canonicalMedia.metadata } : {}),
   };
   place.socialPosts = [

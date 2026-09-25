@@ -40,6 +40,7 @@
     for(const social of place.socialPosts||[]) actions.push(`<a href="${esc(social.url)}" target="_blank" rel="noopener"><span class="brand-icon ${social.platform}">${social.platform==="facebook"?"f":"◎"}</span>${social.platform==="facebook"?"Facebook":"Instagram"}</a>`);
     if(place.media?.photos?.length) actions.push(`<button type="button" data-gallery="${esc(item.id)}"><span class="brand-icon media">▣</span>${tr("photos")}</button>`);
     if(place.media?.videos?.length) actions.push(`<button type="button" data-video="${esc(item.id)}"><span class="brand-icon media">▶</span>${tr("videos")}</button>`);
+    actions.push(window.WROC_GUIDE_VIDEO?.button(item.canonicalPlaceId || item.id,language)||"");
     return actions.join("");
   }
   const tagsHtml=(item)=>item.categories.map((c)=>`<span class="place-tag eat">${symbols[c]||"✦"} ${esc(tr(labels[c]||c))}</span>`).join("");

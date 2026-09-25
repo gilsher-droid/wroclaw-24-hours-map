@@ -179,6 +179,7 @@
     if (resources.videos?.length) {
       actions.push(`<button type="button" class="resource-icon video-resource" data-open-video="${escapeHtml(item.id)}" aria-label="${escapeHtml(t("videoGallery"))}" title="${escapeHtml(t("videoGallery"))}"><span class="brand-icon media" aria-hidden="true">▶</span><span>${escapeHtml(actionLabel("videos"))}</span></button>`);
     }
+    actions.push(window.WROC_GUIDE_VIDEO?.button(item.canonicalPlaceId || item.id, language, "resource-icon") || "");
     return `<div class="resource-actions" aria-label="${escapeHtml(text(item.name))}">${actions.join("")}</div>`;
   }
 
