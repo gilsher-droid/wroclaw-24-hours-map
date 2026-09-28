@@ -95,6 +95,7 @@
       const walk = points.map(coords).filter(Boolean).map(({ lat, lng }) => [lat, lng]);
       L.polyline(walk, { color: "#c55b2f", weight: 5 }).addTo(map);
       points.forEach((point) => {
+        if (point.id === "G") return;
         const coordinate = coords(point);
         if (!coordinate) return;
         const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
