@@ -25,8 +25,12 @@ test("weekly news includes six localized and dated items", () => {
     assert.match(item.startDate, /^2026-/);
     assert.match(item.endDate, /^2026-/);
   }
-  assert.equal(items.find((item) => item.id === "westfield-wroclavia-rebrand-2026").relatedCanonicalPlaceId, "wroclavia");
-  assert.equal(items.find((item) => item.id === "kinomural-nadodrze-2026").relatedCanonicalExperienceId, "street-art-nadodrze-olbin");
+  assert.equal(items.every((item) => item.startDate === "2026-09-28"), true);
+  for (const item of items) {
+    assert.match(item.articleUrl, /^\/news\/2026-09-28\.html#/);
+    const article = readFileSync(resolve(root, "news/2026-09-28.html"), "utf8");
+    assert.ok(article.includes(`id="${item.articleUrl.split("#")[1]}"`));
+  }
 });
 
 test("expiry uses inclusive local calendar dates and empty active sets stay empty", () => {
@@ -47,7 +51,7 @@ test("ticker is shared across the homepage and every main product page", () => {
   }
 });
 
-test("ticker supports five languages, RTL/LTR, keyboard controls and responsive layout", () => {
+test("ticker rotates without arrows, can pause, and offers static reduced-motion news", () => {
   const source = readFileSync(resolve(root, "now-in-wroclaw.js"), "utf8");
   const styles = readFileSync(resolve(root, "now-in-wroclaw.css"), "utf8");
   for (const title of ["עכשיו בוורוצלב", "Now in Wrocław", "Teraz we Wrocławiu", "Jetzt in Wrocław", "Právě ve Vratislavi"]) {
@@ -55,10 +59,13 @@ test("ticker supports five languages, RTL/LTR, keyboard controls and responsive 
   }
   assert.match(source, /language === "he"/);
   assert.match(source, /"rtl" : "ltr"/);
-  assert.match(source, /ArrowLeft/);
-  assert.match(source, /ArrowRight/);
-  assert.match(source, /aria-live="polite"/);
+  assert.match(source, /setInterval/);
+  assert.match(source, /12000/);
+  assert.match(source, /data-now-pause/);
+  assert.match(source, /hovering \|\| focused \|\| motion.matches/);
+  assert.doesNotMatch(source, /data-now-previous|data-now-next|ArrowLeft|ArrowRight/);
+  assert.match(source, /wroc-now__reduced-list/);
   assert.match(source, /getElementById\("wroc-now-in-wroclaw"\)/);
   assert.match(styles, /@media \(max-width: 720px\)/);
-  assert.doesNotMatch(source, /setInterval|setTimeout/);
+  assert.match(styles, /prefers-reduced-motion: reduce/);
 });
