@@ -12,7 +12,7 @@
     <link rel="icon" href="/assets/logo.png" />
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="/excursions.css?v=20260928-1" />
+    <link rel="stylesheet" href="/excursions.css?v=20260928-2" />
     <link rel="stylesheet" href="/site-actions.css?v=20260925-3" />
     <link rel="stylesheet" href="/now-in-wroclaw.css?v=20260928-2" />
     <link rel="stylesheet" href="/place-amenities.css?v=20260824-1" />
@@ -40,9 +40,16 @@
           <h1 data-i18n="title">טיולי יום מוורוצלב</h1>
           <p class="hero-lead" data-i18n="lead">טיולי יום עצמאיים מוורוצלב אל יעדים באזור ובמחוזות השכנים.</p>
         </div>
-        <aside class="excursion-preview">
-          <img data-excursion-hero alt="טירת קשונז׳" />
-          <div><strong data-excursion-title></strong><p data-excursion-summary></p></div>
+        <aside class="excursion-preview" data-excursion-carousel>
+          <a class="excursion-preview-link" data-excursion-preview-link href="#">
+            <img data-excursion-hero alt="" />
+            <div class="excursion-preview-copy"><strong data-excursion-preview-title></strong><p data-excursion-summary></p></div>
+          </a>
+          <div class="excursion-preview-controls">
+            <button type="button" data-excursion-previous aria-label="טיול קודם">‹</button>
+            <span data-excursion-position aria-live="off"></span>
+            <button type="button" data-excursion-next aria-label="טיול הבא">›</button>
+          </div>
         </aside>
       </section>
 
@@ -110,7 +117,7 @@
     <script src="/data/canonical-experiences.js?v=20260906-1"></script>
     <script src="/data/place-amenities.js?v=20260824-1"></script>
     <script src="/data/lower-silesia-excursions.js?v=20260928-1"></script>
-    <script src="/excursions.js?v=20260928-4"></script>
+    <script src="/excursions.js?v=20260928-5"></script>
     <script src="/data/now-in-wroclaw.js?v=20260928-2"></script>
     <script src="/now-in-wroclaw.js?v=20260928-2"></script>
     <script src="/analytics-config.js?v=20260924-2" defer></script>

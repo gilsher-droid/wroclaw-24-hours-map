@@ -7,6 +7,10 @@
   let language = supported.includes(params.get("lang")) ? params.get("lang") : supported.includes(saved) ? saved : "he";
   let map;
   let walkingMap;
+  let previewIndex = 0;
+  let previewInitialized = false;
+  let previewTimer;
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const placeAmenities = window.WROC_PLACE_AMENITIES;
 
   const ui = {
@@ -26,11 +30,11 @@
   };
 
   const tripUi = {
-    he: { select: "בחרו טיול", opole: "מחוז אופולה", walk: "מסלול הליכה בברז׳ג", walkingDirections: "ניווט להליכה", approximate: "נקודות המשנה מסומנות בקירוב. עקבו אחרי שבילי ההליכה והניווט המקומי." },
-    en: { select: "Choose a trip", opole: "Opole Voivodeship", walk: "Brzeg walking route", walkingDirections: "Walking directions", approximate: "Minor waypoints are approximate. Follow local paths and navigation." },
-    pl: { select: "Wybierz wycieczkę", opole: "Województwo opolskie", walk: "Trasa piesza w Brzegu", walkingDirections: "Trasa piesza", approximate: "Mniejsze punkty są orientacyjne. Korzystaj ze ścieżek i lokalnej nawigacji." },
-    de: { select: "Ausflug wählen", opole: "Woiwodschaft Opole", walk: "Spaziergang durch Brzeg", walkingDirections: "Fußweg öffnen", approximate: "Kleinere Punkte sind ungefähr verortet. Folgen Sie den Wegen und der Navigation vor Ort." },
-    cs: { select: "Vyberte výlet", opole: "Opolské vojvodství", walk: "Pěší trasa v Brzegu", walkingDirections: "Pěší navigace", approximate: "Menší body jsou orientační. Sledujte místní cesty a navigaci." },
+    he: { select: "בחרו טיול", previous: "טיול קודם", next: "טיול הבא", view: "הציגו מסלול", carousel: "מסלולי טיול יום", opole: "מחוז אופולה", walk: "מסלול הליכה בברז׳ג", walkingDirections: "ניווט להליכה", approximate: "נקודות המשנה מסומנות בקירוב. עקבו אחרי שבילי ההליכה והניווט המקומי." },
+    en: { select: "Choose a trip", previous: "Previous trip", next: "Next trip", view: "View trip", carousel: "Day trip routes", opole: "Opole Voivodeship", walk: "Brzeg walking route", walkingDirections: "Walking directions", approximate: "Minor waypoints are approximate. Follow local paths and navigation." },
+    pl: { select: "Wybierz wycieczkę", previous: "Poprzednia wycieczka", next: "Następna wycieczka", view: "Zobacz trasę", carousel: "Trasy jednodniowe", opole: "Województwo opolskie", walk: "Trasa piesza w Brzegu", walkingDirections: "Trasa piesza", approximate: "Mniejsze punkty są orientacyjne. Korzystaj ze ścieżek i lokalnej nawigacji." },
+    de: { select: "Ausflug wählen", previous: "Vorheriger Ausflug", next: "Nächster Ausflug", view: "Ausflug ansehen", carousel: "Tagesausflüge", opole: "Woiwodschaft Opole", walk: "Spaziergang durch Brzeg", walkingDirections: "Fußweg öffnen", approximate: "Kleinere Punkte sind ungefähr verortet. Folgen Sie den Wegen und der Navigation vor Ort." },
+    cs: { select: "Vyberte výlet", previous: "Předchozí výlet", next: "Další výlet", view: "Zobrazit výlet", carousel: "Jednodenní výlety", opole: "Opolské vojvodství", walk: "Pěší trasa v Brzegu", walkingDirections: "Pěší navigace", approximate: "Menší body jsou orientační. Sledujte místní cesty a navigaci." },
   };
 
   function tr(key) { return ui[language]?.[key] || ui.en[key] || key; }
@@ -53,11 +57,40 @@
 
   function renderHero(excursion) {
     document.querySelectorAll("[data-excursion-title]").forEach((element) => { element.textContent = local(excursion.title); });
-    document.querySelector("[data-excursion-summary]").textContent = local(excursion.summary);
-    document.querySelector("[data-excursion-hero]").src = hero(excursion);
-    document.querySelector("[data-excursion-hero]").alt = local(excursion.title);
     document.querySelector("[data-route-link]").href = excursion.navigation.googleMaps;
     document.querySelector("[data-excursion-meta]").innerHTML = [tr("duration"), tr("starts"), excursion.meta.region === "opole" ? tripUi[language].opole : tr("region")].map((value) => `<span>${value}</span>`).join("");
+  }
+
+  function renderPreview() {
+    const excursions = window.WROC_LOWER_SILESIA_EXCURSIONS.excursions;
+    const excursion = excursions[previewIndex];
+    const carousel = document.querySelector("[data-excursion-carousel]");
+    const link = document.querySelector("[data-excursion-preview-link]");
+    carousel.setAttribute("aria-label", tripUi[language].carousel);
+    link.href = `?lang=${language}&trip=${encodeURIComponent(excursion.id)}`;
+    link.setAttribute("aria-label", `${tripUi[language].view}: ${local(excursion.title)}`);
+    document.querySelector("[data-excursion-hero]").src = hero(excursion);
+    document.querySelector("[data-excursion-preview-title]").textContent = local(excursion.title);
+    document.querySelector("[data-excursion-summary]").textContent = local(excursion.summary);
+    document.querySelector("[data-excursion-position]").textContent = `${previewIndex + 1} / ${excursions.length}`;
+    document.querySelector("[data-excursion-previous]").setAttribute("aria-label", tripUi[language].previous);
+    document.querySelector("[data-excursion-next]").setAttribute("aria-label", tripUi[language].next);
+  }
+
+  function stopPreview() { clearInterval(previewTimer); previewTimer = undefined; }
+  function startPreview() {
+    stopPreview();
+    const carousel = document.querySelector("[data-excursion-carousel]");
+    if (reducedMotion.matches || document.hidden || carousel.matches(":hover") || carousel.contains(document.activeElement)) return;
+    if (window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length < 2) return;
+    previewTimer = setInterval(() => { previewIndex = (previewIndex + 1) % window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length; renderPreview(); }, 8000);
+  }
+
+  function movePreview(direction) {
+    const count = window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length;
+    previewIndex = (previewIndex + direction + count) % count;
+    renderPreview();
+    startPreview();
   }
 
   function selectedExcursion() {
@@ -190,7 +223,9 @@
     const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
     const excursion = selectedExcursion();
     if (!excursion) return;
-    renderTripList(); renderHero(excursion); renderMap(excursion); renderWalkingRoute(excursion); renderSteps(excursion); renderLogistics(excursion); renderPlaces(excursion); renderEditorial(excursion);
+    if (!previewInitialized) { previewIndex = product.excursions.indexOf(excursion); previewInitialized = true; }
+    renderTripList(); renderHero(excursion); renderPreview(); renderMap(excursion); renderWalkingRoute(excursion); renderSteps(excursion); renderLogistics(excursion); renderPlaces(excursion); renderEditorial(excursion);
+    startPreview();
   }
 
   function applyLanguage(next = language) {
@@ -207,5 +242,14 @@
   }
 
   document.querySelectorAll("[data-lang]").forEach((button) => button.addEventListener("click", () => applyLanguage(button.dataset.lang)));
+  document.querySelector("[data-excursion-previous]").addEventListener("click", () => movePreview(-1));
+  document.querySelector("[data-excursion-next]").addEventListener("click", () => movePreview(1));
+  const carousel = document.querySelector("[data-excursion-carousel]");
+  carousel.addEventListener("mouseenter", stopPreview);
+  carousel.addEventListener("mouseleave", startPreview);
+  carousel.addEventListener("focusin", stopPreview);
+  carousel.addEventListener("focusout", () => setTimeout(startPreview, 0));
+  document.addEventListener("visibilitychange", startPreview);
+  reducedMotion.addEventListener("change", startPreview);
   applyLanguage();
 })();
