@@ -10,7 +10,7 @@ const root = resolve(import.meta.dirname, "..");
 test("travel-guide videos are a separate canonical resource selected by site language", () => {
   const window = {};
   const document = { documentElement: { lang: "he" }, body: { insertAdjacentHTML() {} }, addEventListener() {} };
-  const context = { window, document, console };
+  const context = { window, document, console, URLSearchParams };
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
   runInNewContext(readFileSync(resolve(root, "guide-video.js"), "utf8"), context);
 
@@ -29,6 +29,13 @@ test("travel-guide videos are a separate canonical resource selected by site lan
     assert.match(button, /target="_blank" rel="noopener noreferrer"/);
     assert.match(button, /assets\/logo.png/);
     assert.match(button, /resource-icon/);
+    const embed = window.WROC_GUIDE_VIDEO.embedUrlFor(expected, language);
+    assert.match(embed, new RegExp(`youtube-nocookie\\.com/embed/${language === "he" ? "cs7AmJhitLo" : "Ud5KD21e5kE"}`));
+    if (language === "he") assert.doesNotMatch(embed, /cc_lang_pref/);
+    else {
+      assert.match(embed, new RegExp(`cc_lang_pref=${language}`));
+      assert.match(embed, /cc_load_policy=1/);
+    }
   }
   assert.equal(window.WROC_GUIDE_VIDEO.button("aleja-bielany", "he"), "");
 });
