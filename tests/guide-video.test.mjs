@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { runInNewContext } from "node:vm";
+import { createHash } from "node:crypto";
 
 const root = resolve(import.meta.dirname, "..");
 
@@ -30,6 +31,40 @@ test("travel-guide videos are a separate canonical resource selected by site lan
     assert.match(button, /resource-icon/);
   }
   assert.equal(window.WROC_GUIDE_VIDEO.button("aleja-bielany", "he"), "");
+});
+
+test("Brzeg and Moszna guide clips use their verified place and spoken language", () => {
+  const provenance = JSON.parse(readFileSync(resolve(root, "data/brzeg-moszna-guide-video-provenance.json"), "utf8"));
+  const window = {};
+  const document = { documentElement: { lang: "he" }, addEventListener() {} };
+  runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), { window, console });
+  runInNewContext(readFileSync(resolve(root, "guide-video.js"), "utf8"), { window, document, console });
+  const places = ["brzeg-castle", "brzeg-oder-gate", "moszna-castle"];
+  const assigned = new Set();
+  for (const id of places) {
+    const place = window.WROC_CATALOG.getPlace(id);
+    for (const lang of ["he", "en"]) {
+      const asset = place.media.guideVideos[lang];
+      assigned.add(asset);
+      assert.match(asset, new RegExp(`^/assets/guide-${id}-${lang}\\.mp4$`));
+      assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id, lang), asset);
+      assert.match(window.WROC_GUIDE_VIDEO.button(id, lang), /data-guide-video-src=/);
+      assert.ok(existsSync(resolve(root, asset.slice(1))));
+      const source = provenance[asset];
+      assert.ok(source, `missing approved source for ${asset}`);
+      assert.match(source.toLowerCase(), id.startsWith("moszna-") ? /\/moszna castle\/tlourguide\// : /\/brzeg\/tourguide\//);
+      if (existsSync(source)) {
+        const digest = (file) => createHash("sha256").update(readFileSync(file)).digest("hex");
+        assert.equal(digest(resolve(root, asset.slice(1))), digest(source));
+      }
+    }
+    for (const lang of ["pl", "de", "cs"]) {
+      assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id, lang), place.media.guideVideos.en);
+    }
+  }
+  assert.deepEqual([...assigned].sort(), Object.keys(provenance).sort());
+  assert.equal(window.WROC_GUIDE_VIDEO.button("brzeg-town-hall", "he"), "");
+  assert.equal(window.WROC_GUIDE_VIDEO.button("moszna-castle-park", "en"), "");
 });
 
 test("all map products load the dedicated travel-guide link", () => {
