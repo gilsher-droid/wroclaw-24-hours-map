@@ -26,10 +26,14 @@ test("weekly news includes six localized and dated items", () => {
     assert.match(item.endDate, /^2026-/);
   }
   assert.equal(items.every((item) => item.startDate === "2026-09-28"), true);
-  for (const item of items) {
-    assert.match(item.articleUrl, /^\/news\/2026-09-28\.html#/);
-    const article = readFileSync(resolve(root, "news/2026-09-28.html"), "utf8");
-    assert.ok(article.includes(`id="${item.articleUrl.split("#")[1]}"`));
+  for (const language of ["he", "en", "pl", "de", "cs"]) {
+    const suffix = language === "he" ? "" : `-${language}`;
+    const article = readFileSync(resolve(root, `news/2026-09-28${suffix}.html`), "utf8");
+    assert.match(article, new RegExp(`<html lang="${language}"`));
+    for (const item of items) {
+      assert.match(item.articleUrl, /^\/news\/2026-09-28\.html#/);
+      assert.ok(article.includes(`id="${item.articleUrl.split("#")[1]}"`));
+    }
   }
 });
 
@@ -60,7 +64,8 @@ test("ticker rotates without arrows, can pause, and offers static reduced-motion
   assert.match(source, /language === "he"/);
   assert.match(source, /"rtl" : "ltr"/);
   assert.match(source, /setInterval/);
-  assert.match(source, /12000/);
+  assert.match(source, /6000/);
+  assert.match(source, /item\.articleUrl\.replace\("\.html#"/);
   assert.match(source, /data-now-pause/);
   assert.match(source, /hovering \|\| focused \|\| motion.matches/);
   assert.doesNotMatch(source, /data-now-previous|data-now-next|ArrowLeft|ArrowRight/);

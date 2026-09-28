@@ -4,10 +4,10 @@
   const supportedLanguages = Object.freeze(["he", "en", "pl", "de", "cs"]);
   const labels = Object.freeze({
     he: { title: "עכשיו בוורוצלב", pause: "השהיית המבזקים", play: "הפעלת המבזקים", source: "לכתבת השבוע" },
-    en: { title: "Now in Wrocław", pause: "Pause news", play: "Resume news", source: "Source" },
-    pl: { title: "Teraz we Wrocławiu", pause: "Wstrzymaj wiadomości", play: "Wznów wiadomości", source: "Źródło" },
-    de: { title: "Jetzt in Wrocław", pause: "Meldungen anhalten", play: "Meldungen fortsetzen", source: "Quelle" },
-    cs: { title: "Právě ve Vratislavi", pause: "Pozastavit zprávy", play: "Spustit zprávy", source: "Zdroj" },
+    en: { title: "Now in Wrocław", pause: "Pause news", play: "Resume news", source: "Weekly news" },
+    pl: { title: "Teraz we Wrocławiu", pause: "Wstrzymaj wiadomości", play: "Wznów wiadomości", source: "Wiadomości tygodnia" },
+    de: { title: "Jetzt in Wrocław", pause: "Meldungen anhalten", play: "Meldungen fortsetzen", source: "Wochennews" },
+    cs: { title: "Právě ve Vratislavi", pause: "Pozastavit zprávy", play: "Spustit zprávy", source: "Týdenní zprávy" },
   });
 
   function dateOnly(value) {
@@ -69,7 +69,9 @@
     const reducedList = ticker.querySelector(".wroc-now__reduced-list");
 
     function itemUrl(item, language) {
-      return language === "he" && item.articleUrl ? item.articleUrl : item.url;
+      if (!item.articleUrl) return item.url;
+      if (language === "he") return item.articleUrl;
+      return item.articleUrl.replace(".html#", `-${language}.html#`);
     }
 
     function render() {
@@ -93,8 +95,8 @@
       link.dataset.canonicalExperienceId = item.relatedCanonicalExperienceId || "";
       if (itemUrl(item, language)) link.href = itemUrl(item, language);
       else link.removeAttribute("href");
-      link.target = language === "he" ? "_self" : "_blank";
-      link.rel = language === "he" ? "" : "noopener";
+      link.target = "_self";
+      link.rel = "";
       pauseButton.textContent = paused ? "▶" : "Ⅱ";
       pauseButton.setAttribute("aria-label", paused ? copy.play : copy.pause);
       pauseButton.setAttribute("aria-pressed", String(paused));
@@ -107,7 +109,6 @@
           const anchor = document.createElement("a");
           anchor.textContent = news.title[language];
           anchor.href = itemUrl(news, language);
-          if (language !== "he") { anchor.target = "_blank"; anchor.rel = "noopener"; }
           row.append(anchor);
           reducedList.append(row);
         }
@@ -127,7 +128,7 @@
       if (paused || hovering || focused || motion.matches || document.hidden) return;
       index = (index + 1) % items.length;
       render();
-    }, 12000);
+    }, 6000);
 
     new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ["lang", "dir"] });
     render();

@@ -6,6 +6,8 @@ a { color: var(--navy); text-underline-offset: 3px; }
 .news-header a { color: #fff; display: inline-flex; align-items: center; gap: 10px; }
 .news-header img { width: 38px; height: 38px; object-fit: contain; }
 main { width: min(100% - 36px, 800px); margin: 38px auto 70px; }
+.news-languages { display: flex; flex-wrap: wrap; gap: 4px 8px; margin-bottom: 24px; font-size: .9rem; }
+.news-languages a[aria-current="page"] { font-weight: 700; text-decoration: none; }
 .eyebrow { color: var(--navy); font-weight: 700; }
 h1 { color: var(--navy); font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; margin: 10px 0 20px; }
 .lead { font-size: 1.16rem; }
