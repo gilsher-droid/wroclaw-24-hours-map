@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#062b5c" />
-    <meta name="description" content="טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתית מבית Wroc-love." />
-    <meta property="og:title" content="טיולים בשלזיה התחתית | Wroc-love" />
-    <meta property="og:description" content="טירת קשונז׳, Wałbrzych ושווידניצה — טיול יום מלא מוורוצלב." />
+    <meta name="description" content="טיולי יום עצמאיים מוורוצלב: קשונז׳ ושווידניצה, ברז׳ג ומושנה." />
+    <meta property="og:title" content="טיולי יום מוורוצלב | Wroc-love" />
+    <meta property="og:description" content="מסלולי יום עצמאיים מוורוצלב אל שלזיה התחתית ומחוז אופולה." />
     <meta property="og:image" content="https://wroc-love.com/assets/ksiaz-castle-01.jpg" />
-    <title>טיולים בשלזיה התחתית | Wroc-love</title>
+    <title>טיולי יום מוורוצלב | Wroc-love</title>
     <link rel="icon" href="/assets/logo.png" />
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="/excursions.css?v=20260812-2" />
+    <link rel="stylesheet" href="/excursions.css?v=20260928-1" />
     <link rel="stylesheet" href="/site-actions.css?v=20260925-3" />
     <link rel="stylesheet" href="/now-in-wroclaw.css?v=20260907-1" />
     <link rel="stylesheet" href="/place-amenities.css?v=20260824-1" />
@@ -37,13 +37,18 @@
       <section class="excursions-hero">
         <div class="hero-copy">
           <p class="eyebrow" data-i18n="eyebrow">המוצר החמישי של Wroc-love</p>
-          <h1 data-i18n="title">טיולים בשלזיה התחתית</h1>
-          <p class="hero-lead" data-i18n="lead">טיולי יום עצמאיים מוורוצלב אל המקומות המיוחדים של שלזיה התחתית.</p>
+          <h1 data-i18n="title">טיולי יום מוורוצלב</h1>
+          <p class="hero-lead" data-i18n="lead">טיולי יום עצמאיים מוורוצלב אל יעדים באזור ובמחוזות השכנים.</p>
         </div>
         <aside class="excursion-preview">
           <img data-excursion-hero alt="טירת קשונז׳" />
           <div><strong data-excursion-title></strong><p data-excursion-summary></p></div>
         </aside>
+      </section>
+
+      <section class="trip-list-section" aria-label="טיולים זמינים">
+        <h2 data-trip-list-title></h2>
+        <div class="trip-list" data-trip-list></div>
       </section>
 
       <section class="excursion-content">
@@ -56,6 +61,13 @@
           <div class="section-title-row"><h2 data-i18n="mapTitle">מפת הטיול</h2><a class="route-link" data-route-link target="_blank" rel="noopener" data-i18n="routeButton">פתחו את המסלול ב־Google Maps</a></div>
           <div id="excursion-map" aria-label="מפת מסלול"></div>
           <p class="map-note" data-travel-note></p>
+        </section>
+
+        <section class="walking-section" data-walking-route hidden>
+          <div class="section-title-row"><h2 data-walk-title></h2><a class="route-link" data-walk-link target="_blank" rel="noopener"></a></div>
+          <p data-walk-note></p>
+          <div id="brzeg-walk-map" aria-label="מפת הליכה בברז׳ג"></div>
+          <ol class="walk-stops" data-walk-stops></ol>
         </section>
 
         <section class="itinerary-section">
@@ -93,12 +105,12 @@
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="/data/place-catalog.js?v=20260925-4"></script>
+    <script src="/data/place-catalog.js?v=20260928-1"></script>
     <script src="/guide-video.js?v=20260925-2"></script>
     <script src="/data/canonical-experiences.js?v=20260906-1"></script>
     <script src="/data/place-amenities.js?v=20260824-1"></script>
-    <script src="/data/lower-silesia-excursions.js?v=20260812-2"></script>
-    <script src="/excursions.js?v=20260812-2"></script>
+    <script src="/data/lower-silesia-excursions.js?v=20260928-1"></script>
+    <script src="/excursions.js?v=20260928-1"></script>
     <script src="/data/now-in-wroclaw.js?v=20260907-1"></script>
     <script src="/now-in-wroclaw.js?v=20260907-1"></script>
     <script src="/analytics-config.js?v=20260924-2" defer></script>

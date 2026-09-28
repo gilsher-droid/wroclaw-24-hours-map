@@ -1673,6 +1673,485 @@
     },
     "socialPosts": []
   },
+  "brzeg-castle": {
+    "id": "brzeg-castle",
+    "localName": "Zamek Piastów Śląskich w Brzegu",
+    "name": {
+      "he": "טירת פיאסט בברז׳ג",
+      "en": "Brzeg Castle",
+      "pl": "Zamek Piastów Śląskich w Brzegu",
+      "de": "Piastenschloss Brieg",
+      "cs": "Zámek slezských Piastovců v Brzegu"
+    },
+    "description": {
+      "he": "טירת פיאסט בברז׳ג משמשת כיום את מוזיאון פיאסט השלזיים. כדאי להתחיל בחזית השער המעוטרת ולהמשיך לחצר הקשתות.",
+      "en": "Brzeg Castle houses the Museum of the Silesian Piasts. Start at the decorated entrance and continue into the arcaded courtyard.",
+      "pl": "W zamku mieści się Muzeum Piastów Śląskich. Warto zacząć od zdobionej bramy i przejść na krużgankowy dziedziniec.",
+      "de": "Im Schloss befindet sich das Museum der schlesischen Piasten. Der Besuch beginnt am verzierten Tor und führt in den Arkadenhof.",
+      "cs": "Na zámku sídlí Muzeum slezských Piastovců. Začněte u zdobené brány a pokračujte na arkádové nádvoří."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "brzeg",
+      "coordinates": {
+        "lat": 50.86387,
+        "lng": 17.46659
+      },
+      "address": {
+        "street": "Plac Zamkowy 1",
+        "postalCode": "49-300",
+        "city": "Brzeg",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "castle",
+      "historical-landmark",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "zamek-piastow-slaskich-brzeg"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "castle",
+        "historical-landmark",
+        "museum"
+      ],
+      "tags": [
+        "architecture",
+        "history",
+        "excursion",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zamek.brzeg.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.86387%2C17.46659",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://zamek.brzeg.pl/kontakt",
+          "checkedAt": "2026-09-28"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/way/230535120",
+          "checkedAt": "2026-09-28"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/brzeg-castle-courtyard.jpeg",
+        "/assets/brzeg-castle-entrance.jpeg",
+        "/assets/brzeg-castle-facade.jpeg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/brzeg-castle-courtyard.jpeg": {
+          "sourceFile": "Brzeg/FORCODEX/02-castle-courtyard.jpeg",
+          "original": true,
+          "heroCandidate": true
+        },
+        "/assets/brzeg-castle-entrance.jpeg": {
+          "sourceFile": "Brzeg/FORCODEX/01-castle-entrance.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-castle-facade.jpeg": {
+          "sourceFile": "Brzeg/FORCODEX/03-facade-details.jpeg",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "brzeg-holy-cross-church": {
+    "id": "brzeg-holy-cross-church",
+    "localName": "Kościół Podwyższenia Krzyża Świętego w Brzegu",
+    "name": {
+      "he": "כנסיית רוממות הצלב הקדוש בברז׳ג",
+      "en": "Holy Cross Church, Brzeg",
+      "pl": "Kościół Podwyższenia Krzyża Świętego w Brzegu",
+      "de": "Kreuzerhöhungskirche in Brieg",
+      "cs": "Kostel Povýšení svatého Kříže v Brzegu"
+    },
+    "description": {
+      "he": "כנסייה הסמוכה לטירה; בצילומי הביקור נראים החזית והחלל המעוטר שלה.",
+      "en": "A church close to the castle; the visit photographs show its exterior and ornate interior.",
+      "pl": "Kościół niedaleko zamku; zdjęcia z wizyty pokazują elewację i bogato zdobione wnętrze.",
+      "de": "Eine Kirche nahe dem Schloss; die Besuchsfotos zeigen Außenansicht und reich geschmückten Innenraum.",
+      "cs": "Kostel poblíž zámku; fotografie z návštěvy ukazují průčelí i zdobený interiér."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "brzeg",
+      "coordinates": {
+        "lat": 50.8634,
+        "lng": 17.46746
+      }
+    },
+    "categories": [
+      "church",
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "church",
+        "historical-landmark"
+      ],
+      "tags": [
+        "architecture",
+        "excursion",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.8634%2C17.46746",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "originalVideo": true,
+      "factualSources": [
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/way/230535122",
+          "checkedAt": "2026-09-28"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/brzeg-holy-cross-exterior.jpeg",
+        "/assets/brzeg-holy-cross-interior.jpeg"
+      ],
+      "videos": [
+        "/assets/brzeg-holy-cross-interior.mp4"
+      ],
+      "metadata": {
+        "/assets/brzeg-holy-cross-exterior.jpeg": {
+          "sourceFile": "Brzeg/FORCODEX/04-church-exterior.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-holy-cross-interior.jpeg": {
+          "sourceFile": "Brzeg/FORCODEX/05-church-interior.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-holy-cross-interior.mp4": {
+          "sourceFile": "Brzeg/FORCODEX/VIDEO-church-interior.mp4",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "brzeg-oder-gate": {
+    "id": "brzeg-oder-gate",
+    "localName": "Brama Odrzańska",
+    "name": {
+      "he": "שער האודרה בברז׳ג",
+      "en": "Oder Gate, Brzeg",
+      "pl": "Brama Odrzańska w Brzegu",
+      "de": "Odertor in Brieg",
+      "cs": "Odřanská brána v Brzegu"
+    },
+    "description": {
+      "he": "שער האודרה הוא נקודת סיום ליד הטירה ונהר האודרה.",
+      "en": "The Oder Gate is a useful end point near the castle and the Oder River.",
+      "pl": "Brama Odrzańska to wygodne zakończenie spaceru w pobliżu zamku i Odry.",
+      "de": "Das Odertor eignet sich als Endpunkt des Spaziergangs nahe Schloss und Oder.",
+      "cs": "Odřanská brána je vhodným zakončením procházky poblíž zámku a Odry."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "brzeg",
+      "coordinates": {
+        "lat": 50.86501,
+        "lng": 17.46659
+      }
+    },
+    "categories": [
+      "architecture",
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "historical-landmark"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.86501%2C17.46659",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "editorial",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://brzeg.pl/sport-i-turystyka/szlaki-turystyczne/",
+          "checkedAt": "2026-09-28"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/node/3928164427",
+          "checkedAt": "2026-09-28"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "brzeg-town-hall": {
+    "id": "brzeg-town-hall",
+    "localName": "Ratusz w Brzegu",
+    "name": {
+      "he": "בית העירייה של ברז׳ג",
+      "en": "Brzeg Town Hall",
+      "pl": "Ratusz w Brzegu",
+      "de": "Rathaus Brieg",
+      "cs": "Radnice v Brzegu"
+    },
+    "description": {
+      "he": "בית העירייה עומד בלב כיכר השוק של ברז׳ג. זו עצירה נוחה בהליכה בין הטירה למרכז הישן.",
+      "en": "The town hall stands in Brzeg's market square, an easy stop on a walk through the historic centre.",
+      "pl": "Ratusz stoi pośrodku brzeskiego rynku i jest naturalnym przystankiem spaceru przez starówkę.",
+      "de": "Das Rathaus steht mitten auf dem Marktplatz und liegt auf dem Weg durch die Altstadt.",
+      "cs": "Radnice stojí uprostřed brzeského náměstí a hodí se jako zastávka při procházce centrem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "brzeg",
+      "coordinates": {
+        "lat": 50.8618,
+        "lng": 17.46958
+      }
+    },
+    "categories": [
+      "architecture",
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "historical-landmark"
+      ],
+      "tags": [
+        "architecture",
+        "excursion",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://brzeg.pl/ratusz-w-brzegu/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Ratusz%20w%20Brzegu",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "editorial",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://brzeg.pl/ratusz-w-brzegu/",
+          "checkedAt": "2026-09-28"
+        }
+      ]
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "bulka": {
     "id": "bulka",
     "localName": "Bułka z Masłem Włodkowica",
@@ -9255,6 +9734,275 @@
       "de",
       "cs"
     ]
+  },
+  "moszna-castle": {
+    "id": "moszna-castle",
+    "localName": "Zamek Moszna",
+    "name": {
+      "he": "טירת מושנה",
+      "en": "Moszna Castle",
+      "pl": "Zamek Moszna",
+      "de": "Schloss Moschen",
+      "cs": "Zámek Moszna"
+    },
+    "description": {
+      "he": "טירת מושנה היא מוקד הביקור השני ביום הטיול. אפשר לבקר בחללים הפתוחים לקהל ולצאת משם לפארק.",
+      "en": "Moszna Castle is the second main destination of the day. Visit the areas open to guests, then continue into the park.",
+      "pl": "Zamek Moszna to drugi główny cel dnia. Po zwiedzaniu dostępnych wnętrz można przejść do parku.",
+      "de": "Schloss Moschen ist das zweite Hauptziel des Tages. Nach dem Besuch der zugänglichen Räume geht es in den Park.",
+      "cs": "Zámek Moszna je druhým hlavním cílem dne. Po návštěvě přístupných prostor pokračujte do parku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "moszna",
+      "coordinates": {
+        "lat": 50.44079,
+        "lng": 17.76793
+      },
+      "address": {
+        "street": "Zamkowa 1",
+        "postalCode": "47-370",
+        "city": "Moszna",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "castle",
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "castle",
+        "historical-landmark"
+      ],
+      "tags": [
+        "architecture",
+        "excursion",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://mosznazamek.pl/zwiedzanie/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.44079%2C17.76793",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "originalVideo": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://mosznazamek.pl/kontakt/",
+          "checkedAt": "2026-09-28"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/way/73054209",
+          "checkedAt": "2026-09-28"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/moszna-castle-hero.jpeg",
+        "/assets/moszna-castle-approach.jpeg",
+        "/assets/moszna-castle-entrance.jpeg"
+      ],
+      "videos": [
+        "/assets/moszna-castle-video.mp4"
+      ],
+      "metadata": {
+        "/assets/moszna-castle-hero.jpeg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (16).jpeg",
+          "original": true,
+          "heroCandidate": true
+        },
+        "/assets/moszna-castle-approach.jpeg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (11).jpeg",
+          "original": true
+        },
+        "/assets/moszna-castle-entrance.jpeg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (14).jpeg",
+          "original": true
+        },
+        "/assets/moszna-castle-video.mp4": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Video 2026-09-24 at 17.26.50.mp4",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "moszna-castle-park": {
+    "id": "moszna-castle-park",
+    "localName": "Park Zamkowy w Mosznej",
+    "name": {
+      "he": "פארק טירת מושנה",
+      "en": "Moszna Castle Park",
+      "pl": "Park Zamkowy w Mosznej",
+      "de": "Schlosspark Moschen",
+      "cs": "Zámecký park v Moszně"
+    },
+    "description": {
+      "he": "הפארק מקיף את הטירה וכולל שבילים, מדשאות, עצים ומקווי מים. זה המקום לסיים בו את הביקור במושנה.",
+      "en": "The park around the castle has paths, lawns, trees and water features. It makes a calm finish to the Moszna visit.",
+      "pl": "Park wokół zamku ma alejki, trawniki, drzewa i wodę. To spokojne zakończenie wizyty w Mosznej.",
+      "de": "Der Park am Schloss bietet Wege, Rasenflächen, Bäume und Wasseranlagen. Hier lässt sich der Besuch ruhig ausklingen.",
+      "cs": "Park kolem zámku nabízí cesty, trávníky, stromy i vodní plochy. Je to klidné zakončení návštěvy Moszny."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "moszna",
+      "coordinates": {
+        "lat": 50.44079,
+        "lng": 17.76793
+      },
+      "address": {
+        "street": "Zamkowa 1",
+        "postalCode": "47-370",
+        "city": "Moszna",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "garden",
+      "park"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "garden",
+        "park"
+      ],
+      "tags": [
+        "nature",
+        "walking",
+        "excursion",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://mosznazamek.pl/zwiedzanie-parku/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Park%20Zamkowy%20w%20Mosznej",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://mosznazamek.pl/zwiedzanie-parku/",
+          "checkedAt": "2026-09-28"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/moszna-park-view.jpeg",
+        "/assets/moszna-park-garden.jpeg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/moszna-park-view.jpeg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.21 (1).jpeg",
+          "original": true
+        },
+        "/assets/moszna-park-garden.jpeg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (2).jpeg",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
   },
   "municipal-arsenal-wroclaw": {
     "id": "municipal-arsenal-wroclaw",
@@ -19881,6 +20629,7 @@
   "Wroclavia": "wroclavia",
   "wroclaw-zoo": "zoo-wroclaw",
   "zoo-wrocław": "zoo-wroclaw",
+  "zamek-piastow-slaskich-brzeg": "brzeg-castle",
   "galeria-dizajn": "zyjnia-bwa-wroclaw"
 };
   const relatedPlaces = {
