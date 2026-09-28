@@ -12,8 +12,8 @@
 }
 
 .wroc-now__inner {
-  width: min(100% - 32px, 1320px);
-  min-height: 48px;
+  width: calc(100% - 32px);
+  min-height: 68px;
   margin-inline: auto;
   display: grid;
   grid-template-columns: max-content minmax(0, 1fr) max-content;
@@ -53,6 +53,9 @@
 
 .wroc-now__text {
   min-width: 0;
+  flex: 1 1 auto;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 .wroc-now__link {
@@ -96,8 +99,8 @@
 
 @media (max-width: 720px) {
   .wroc-now__inner {
-    width: min(100% - 24px, 680px);
-    min-height: 76px;
+    width: calc(100% - 24px);
+    min-height: 88px;
     grid-template-columns: minmax(0, 1fr) max-content;
     gap: 4px 10px;
     padding-block: 8px;
@@ -105,8 +108,8 @@
 
   .wroc-now__title { grid-column: 1; font-size: 0.75rem; }
   .wroc-now__controls { grid-column: 2; grid-row: 1 / span 2; }
-  .wroc-now__item { grid-column: 1; font-size: 0.82rem; }
-  .wroc-now__text { white-space: normal; }
+  .wroc-now__item { grid-column: 1; flex-wrap: wrap; font-size: 0.82rem; }
+  .wroc-now__text { flex-basis: calc(100% - 17px); }
   .wroc-now__link { white-space: nowrap; }
 }
 
