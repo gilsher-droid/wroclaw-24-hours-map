@@ -42,6 +42,9 @@
     return canonical?.location?.coordinates || canonical?.coordinates;
   }
   function safeLink(value) { return typeof value === "string" && /^https?:\/\//.test(value) ? value : ""; }
+  function trackPlaceOpen(canonical) {
+    if (canonical) window.WROC_ANALYTICS?.track("place_open", { canonical_place_id: canonical.id });
+  }
 
   function hero(excursion) {
     const canonical = place(excursion.heroMedia.canonicalPlaceId);
@@ -85,7 +88,7 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }) }).addTo(map).bindPopup(`<strong>${label}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}${canonical ? window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "" : ""}`);
+      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }) }).addTo(map).bindPopup(`<strong>${label}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}${canonical ? window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "" : ""}`).on("popupopen", () => trackPlaceOpen(canonical));
     });
     if (excursion.walkingRoute) {
       const points = excursion.walkingRoute.points;
@@ -96,7 +99,7 @@
         if (!coordinate) return;
         const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
         const label = canonical ? local(canonical.name) : local(point.label);
-        L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }) }).addTo(map).bindPopup(`<strong>${point.id} — ${label}</strong>`);
+        L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }) }).addTo(map).bindPopup(`<strong>${point.id} — ${label}</strong>`).on("popupopen", () => trackPlaceOpen(canonical));
       });
     }
     map.fitBounds(route, { padding: [30, 30] });
@@ -127,7 +130,7 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }) }).addTo(walkingMap).bindPopup(`<strong>${point.id} — ${label}</strong>`);
+      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }) }).addTo(walkingMap).bindPopup(`<strong>${point.id} — ${label}</strong>`).on("popupopen", () => trackPlaceOpen(canonical));
     });
     walkingMap.fitBounds(line, { padding: [25, 25] });
   }
