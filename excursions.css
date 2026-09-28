@@ -17,11 +17,17 @@ a { color:inherit; }
 .eyebrow { margin:0 0 14px; color:var(--gold); font-size:13px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
 h1 { margin:0 0 24px; font:700 clamp(44px,6vw,76px)/1.04 Georgia,serif; }
 .hero-lead { max-width:650px; margin:0; color:rgba(255,255,255,.76); font-size:20px; line-height:1.7; }
-.excursion-preview { overflow:hidden; border:1px solid rgba(255,255,255,.2); border-radius:28px; background:rgba(255,255,255,.09); box-shadow:0 24px 58px rgba(0,0,0,.22); }
+.excursion-preview { min-width:0; overflow:hidden; border:1px solid rgba(255,255,255,.2); border-radius:28px; background:rgba(255,255,255,.09); box-shadow:0 24px 58px rgba(0,0,0,.22); }
+.excursion-preview-link { display:block; color:inherit; text-decoration:none; }
+.excursion-preview-link:focus-visible,.excursion-preview-controls button:focus-visible { outline:3px solid var(--gold); outline-offset:-3px; }
 .excursion-preview img { display:block; width:100%; height:280px; object-fit:cover; }
-.excursion-preview div { padding:26px 30px 30px; }
-.excursion-preview strong { display:block; font:700 27px/1.25 Georgia,serif; }
+.excursion-preview-copy { padding:26px 30px 18px; }
+.excursion-preview strong { display:block; overflow-wrap:anywhere; font:700 27px/1.25 Georgia,serif; }
 .excursion-preview p { margin:12px 0 0; color:rgba(255,255,255,.72); line-height:1.6; }
+.excursion-preview-controls { display:flex; align-items:center; justify-content:center; gap:18px; padding:0 20px 18px; }
+.excursion-preview-controls button { width:40px; height:40px; border:1px solid rgba(255,255,255,.45); border-radius:50%; background:transparent; color:white; font-size:30px; line-height:1; cursor:pointer; }
+.excursion-preview-controls button:hover { background:rgba(255,255,255,.16); }
+.excursion-preview-controls span { min-width:3ch; text-align:center; font-weight:700; }
 .trip-list-section { width:min(1180px,calc(100% - 36px)); margin:52px auto 0; }
 .trip-list-section h2 { margin-bottom:22px; }
 .trip-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
