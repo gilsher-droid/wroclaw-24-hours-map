@@ -76,6 +76,7 @@ await writeFile(resolve(client, "excursions.html"), legacyRedirect("/products/in
 await writeFile(resolve(client, "cultural.html"), legacyRedirect("/products/interactive-maps/cultural.html", "ההרפתקה התרבותית"));
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
 await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true });
+await cp(resolve(root, "news"), resolve(client, "news"), { recursive: true });
 await writeFile(resolve(client, ".nojekyll"), "");
 
 await cp(resolve(root, "worker/site-worker.js"), resolve(server, "index.js"));

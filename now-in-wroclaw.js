@@ -3,11 +3,11 @@
 
   const supportedLanguages = Object.freeze(["he", "en", "pl", "de", "cs"]);
   const labels = Object.freeze({
-    he: { title: "עכשיו בוורוצלב", previous: "המבזק הקודם", next: "המבזק הבא", source: "לפרטים" },
-    en: { title: "Now in Wrocław", previous: "Previous update", next: "Next update", source: "Details" },
-    pl: { title: "Teraz we Wrocławiu", previous: "Poprzednia informacja", next: "Następna informacja", source: "Szczegóły" },
-    de: { title: "Jetzt in Wrocław", previous: "Vorherige Meldung", next: "Nächste Meldung", source: "Details" },
-    cs: { title: "Právě ve Vratislavi", previous: "Předchozí zpráva", next: "Další zpráva", source: "Podrobnosti" },
+    he: { title: "עכשיו בוורוצלב", pause: "השהיית המבזקים", play: "הפעלת המבזקים", source: "לכתבת השבוע" },
+    en: { title: "Now in Wrocław", pause: "Pause news", play: "Resume news", source: "Source" },
+    pl: { title: "Teraz we Wrocławiu", pause: "Wstrzymaj wiadomości", play: "Wznów wiadomości", source: "Źródło" },
+    de: { title: "Jetzt in Wrocław", pause: "Meldungen anhalten", play: "Meldungen fortsetzen", source: "Quelle" },
+    cs: { title: "Právě ve Vratislavi", pause: "Pozastavit zprávy", play: "Spustit zprávy", source: "Zdroj" },
   });
 
   function dateOnly(value) {
@@ -48,19 +48,29 @@
     ticker.innerHTML = `
       <div class="wroc-now__inner">
         <strong class="wroc-now__title" id="wroc-now-title"></strong>
-        <div class="wroc-now__item" aria-live="polite">
+        <div class="wroc-now__item">
           <span class="wroc-now__category" aria-hidden="true"></span>
           <span class="wroc-now__text"></span>
-          <a class="wroc-now__link" target="_blank" rel="noopener"></a>
+          <a class="wroc-now__link"></a>
         </div>
         <div class="wroc-now__controls">
-          <button class="wroc-now__button" type="button" data-now-previous><span aria-hidden="true">‹</span></button>
           <span class="wroc-now__position" aria-hidden="true"></span>
-          <button class="wroc-now__button" type="button" data-now-next><span aria-hidden="true">›</span></button>
+          <button class="wroc-now__button" type="button" data-now-pause aria-pressed="false"></button>
         </div>
+        <ul class="wroc-now__reduced-list"></ul>
       </div>`;
 
     let index = 0;
+    let paused = false;
+    let hovering = false;
+    let focused = false;
+    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const pauseButton = ticker.querySelector("[data-now-pause]");
+    const reducedList = ticker.querySelector(".wroc-now__reduced-list");
+
+    function itemUrl(item, language) {
+      return language === "he" && item.articleUrl ? item.articleUrl : item.url;
+    }
 
     function render() {
       const language = currentLanguage();
@@ -76,36 +86,48 @@
 
       const link = ticker.querySelector(".wroc-now__link");
       link.textContent = copy.source;
-      link.hidden = !item.url;
+      link.hidden = !itemUrl(item, language);
       link.dataset.newsId = item.id;
       link.dataset.newsCategory = item.category || "";
       link.dataset.canonicalPlaceId = item.relatedCanonicalPlaceId || "";
       link.dataset.canonicalExperienceId = item.relatedCanonicalExperienceId || "";
-      if (item.url) link.href = item.url;
+      if (itemUrl(item, language)) link.href = itemUrl(item, language);
       else link.removeAttribute("href");
-
-      const previous = ticker.querySelector("[data-now-previous]");
-      const next = ticker.querySelector("[data-now-next]");
-      previous.setAttribute("aria-label", copy.previous);
-      next.setAttribute("aria-label", copy.next);
+      link.target = language === "he" ? "_self" : "_blank";
+      link.rel = language === "he" ? "" : "noopener";
+      pauseButton.textContent = paused ? "▶" : "Ⅱ";
+      pauseButton.setAttribute("aria-label", paused ? copy.play : copy.pause);
+      pauseButton.setAttribute("aria-pressed", String(paused));
       ticker.querySelector(".wroc-now__position").textContent = `${index + 1}/${items.length}`;
-      ticker.querySelector(".wroc-now__controls").hidden = items.length < 2;
+      ticker.querySelector(".wroc-now__controls").hidden = items.length < 2 || motion.matches;
+      reducedList.replaceChildren();
+      if (motion.matches) {
+        for (const news of items) {
+          const row = document.createElement("li");
+          const anchor = document.createElement("a");
+          anchor.textContent = news.title[language];
+          anchor.href = itemUrl(news, language);
+          if (language !== "he") { anchor.target = "_blank"; anchor.rel = "noopener"; }
+          row.append(anchor);
+          reducedList.append(row);
+        }
+      }
     }
 
-    ticker.querySelector("[data-now-previous]").addEventListener("click", () => {
-      index = (index - 1 + items.length) % items.length;
+    pauseButton.addEventListener("click", () => {
+      paused = !paused;
       render();
     });
-    ticker.querySelector("[data-now-next]").addEventListener("click", () => {
+    ticker.addEventListener("mouseenter", () => { hovering = true; });
+    ticker.addEventListener("mouseleave", () => { hovering = false; });
+    ticker.addEventListener("focusin", () => { focused = true; });
+    ticker.addEventListener("focusout", () => { focused = ticker.contains(document.activeElement); });
+    motion.addEventListener("change", render);
+    if (items.length > 1) window.setInterval(() => {
+      if (paused || hovering || focused || motion.matches || document.hidden) return;
       index = (index + 1) % items.length;
       render();
-    });
-    ticker.addEventListener("keydown", (event) => {
-      if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
-      const forward = event.key === (ticker.dir === "rtl" ? "ArrowLeft" : "ArrowRight");
-      index = (index + (forward ? 1 : -1) + items.length) % items.length;
-      render();
-    });
+    }, 12000);
 
     new MutationObserver(render).observe(document.documentElement, { attributes: true, attributeFilter: ["lang", "dir"] });
     render();
