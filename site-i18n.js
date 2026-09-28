@@ -340,6 +340,26 @@
       "טיולים חדשים מתווספים בהדרגה.": "Postupně přidáváme nové výlety.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Základ produktu je nyní dostupný. První výlet se zde objeví po dokončení obsahu.", "הטיול הראשון כבר פתוח.": "První výlet je nyní otevřený.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Zámek Książ, Valbřich a Svídnice — celý den plný zámku, historického města a dědictví.", "פתחו את המוצר": "Otevřít produkt"
     }
   };
+  excursionProductTranslations.en["טיולי יום מוורוצלב"] = "Day trips from Wrocław";
+  excursionProductTranslations.en["טיולי יום עצמאיים מוורוצלב אל יעדים באזור ובמחוזות השכנים, המבוססים על המקומות והתוכן המקורי של WROC-LOVE."] = "Independent day trips from Wrocław to the region and neighbouring provinces, based on WROC-LOVE’s original content.";
+  excursionProductTranslations.en["האזור, בקצב שלכם."] = "The region, at your pace.";
+  excursionProductTranslations.en["שני טיולים כבר פתוחים."] = "Two trips are now open.";
+  excursionProductTranslations.en["בחרו בין קשונז׳ ושווידניצה לבין ברז׳ג ומושנה — שני טיולי יום מוורוצלב."] = "Choose Książ and Świdnica or Brzeg and Moszna — two day trips from Wrocław.";
+  excursionProductTranslations.pl["טיולי יום מוורוצלב"] = "Wycieczki jednodniowe z Wrocławia";
+  excursionProductTranslations.pl["טיולי יום עצמאיים מוורוצלב אל יעדים באזור ובמחוזות השכנים, המבוססים על המקומות והתוכן המקורי של WROC-LOVE."] = "Samodzielne wycieczki z Wrocławia po regionie i sąsiednich województwach, oparte na treściach WROC-LOVE.";
+  excursionProductTranslations.pl["האזור, בקצב שלכם."] = "Region w Twoim tempie.";
+  excursionProductTranslations.pl["שני טיולים כבר פתוחים."] = "Dwie wycieczki są już dostępne.";
+  excursionProductTranslations.pl["בחרו בין קשונז׳ ושווידניצה לבין ברז׳ג ומושנה — שני טיולי יום מוורוצלב."] = "Wybierz Książ i Świdnicę lub Brzeg i Moszną — dwie wycieczki z Wrocławia.";
+  excursionProductTranslations.de["טיולי יום מוורוצלב"] = "Tagesausflüge ab Wrocław";
+  excursionProductTranslations.de["טיולי יום עצמאיים מוורוצלב אל יעדים באזור ובמחוזות השכנים, המבוססים על המקומות והתוכן המקורי של WROC-LOVE."] = "Individuelle Tagesausflüge von Wrocław in die Region und benachbarte Woiwodschaften mit Originalinhalten von WROC-LOVE.";
+  excursionProductTranslations.de["האזור, בקצב שלכם."] = "Die Region in Ihrem Tempo.";
+  excursionProductTranslations.de["שני טיולים כבר פתוחים."] = "Zwei Ausflüge sind jetzt verfügbar.";
+  excursionProductTranslations.de["בחרו בין קשונז׳ ושווידניצה לבין ברז׳ג ומושנה — שני טיולי יום מוורוצלב."] = "Wählen Sie Książ und Świdnica oder Brzeg und Moszna — zwei Tagesausflüge ab Wrocław.";
+  excursionProductTranslations.cs["טיולי יום מוורוצלב"] = "Jednodenní výlety z Vratislavi";
+  excursionProductTranslations.cs["טיולי יום עצמאיים מוורוצלב אל יעדים באזור ובמחוזות השכנים, המבוססים על המקומות והתוכן המקורי של WROC-LOVE."] = "Samostatné jednodenní výlety z Vratislavi po regionu a sousedních vojvodstvích s původním obsahem WROC-LOVE.";
+  excursionProductTranslations.cs["האזור, בקצב שלכם."] = "Region vaším tempem.";
+  excursionProductTranslations.cs["שני טיולים כבר פתוחים."] = "Dva výlety jsou již dostupné.";
+  excursionProductTranslations.cs["בחרו בין קשונז׳ ושווידניצה לבין ברז׳ג ומושנה — שני טיולי יום מוורוצלב."] = "Vyberte si Książ a Svídnici nebo Brzeg a Mosznu — dva jednodenní výlety z Vratislavi.";
   Object.entries(excursionProductTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
 
   const culturalProductTranslations = {
