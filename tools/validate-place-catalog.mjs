@@ -1,4 +1,4 @@
-import { readFile } from "node:fs/promises";
+import { readFile, stat } from "node:fs/promises";
 import { resolve } from "node:path";
 import { runInNewContext } from "node:vm";
 
@@ -83,11 +83,17 @@ for (const record of source) {
     }
   }
   if (media.guideVideos != null) {
+    const guideSources = Object.values(media.guideVideos);
     if (typeof media.guideVideos !== "object" || Array.isArray(media.guideVideos)
       || Object.keys(media.guideVideos).some((language) => !["he", "en"].includes(language))
       || !media.guideVideos.he || !media.guideVideos.en
-      || Object.values(media.guideVideos).some((url) => typeof url !== "string" || !/^https:\/\/(?:www\.)?youtube\.com\/(?:watch\?v=|shorts\/)[A-Za-z0-9_-]{11}$/.test(url))) {
-      throw new Error(`${record.id}: media.guideVideos requires Hebrew and English YouTube URLs.`);
+      || guideSources.some((url) => typeof url !== "string" || !(/^(?:https:\/\/(?:www\.)?youtube\.com\/(?:watch\?v=|shorts\/)[A-Za-z0-9_-]{11}|\/assets\/guide-[A-Za-z0-9._-]+\.mp4)$/.test(url)))) {
+      throw new Error(`${record.id}: media.guideVideos requires valid Hebrew and English YouTube URLs or local guide MP4 paths.`);
+    }
+    for (const url of guideSources.filter((item) => item.startsWith("/assets/"))) {
+      if (!(await stat(resolve(root, url.slice(1))).catch(() => null))?.isFile()) {
+        throw new Error(`${record.id}: local guide video is missing: ${url}`);
+      }
     }
   }
   if (media.metadata != null && (typeof media.metadata !== "object" || Array.isArray(media.metadata))) {

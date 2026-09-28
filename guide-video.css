@@ -14,3 +14,9 @@
 .place-actions > .guide-video-action, .leaflet-popup-content .guide-video-action { display: inline-flex; align-items: center; gap: 7px; min-height: 42px; padding: 4px 11px; border: 1px solid #d5dce7; border-radius: 12px; background: #fff; color: #062b5c; font: inherit; font-weight: 800; cursor: pointer; text-decoration: none; }
 .place-actions > .guide-video-action:hover, .leaflet-popup-content .guide-video-action:hover { border-color: #2578bd; }
 .guide-video-action:focus-visible { outline: 3px solid #d6a657; outline-offset: 2px; }
+.guide-video-dialog { width: min(94vw, 760px); max-width: none; padding: 0; border: 0; border-radius: 16px; background: #fff; color: #062b5c; box-shadow: 0 18px 64px #001c3e66; }
+.guide-video-dialog::backdrop { background: #00172fc9; }
+.guide-video-panel { padding: 16px; }
+.guide-video-panel h2 { margin: 0 0 12px; font-size: 1.15rem; }
+.guide-video-panel video { display: block; width: 100%; max-height: 75vh; border-radius: 9px; background: #000; }
+.guide-video-close { float: inline-end; margin: 0 0 8px 8px; padding: 6px 12px; border: 1px solid #d5dce7; border-radius: 8px; background: #fff; color: inherit; font: inherit; cursor: pointer; }

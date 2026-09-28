@@ -1796,6 +1796,10 @@
         "/assets/brzeg-castle-facade.jpeg"
       ],
       "videos": [],
+      "guideVideos": {
+        "he": "/assets/guide-brzeg-castle-he.mp4",
+        "en": "/assets/guide-brzeg-castle-en.mp4"
+      },
       "metadata": {
         "/assets/brzeg-castle-courtyard.jpeg": {
           "sourceFile": "Brzeg/FORCODEX/02-castle-courtyard.jpeg",
@@ -2044,7 +2048,11 @@
     },
     "media": {
       "photos": [],
-      "videos": []
+      "videos": [],
+      "guideVideos": {
+        "he": "/assets/guide-brzeg-oder-gate-he.mp4",
+        "en": "/assets/guide-brzeg-oder-gate-en.mp4"
+      }
     },
     "socialPosts": []
   },
@@ -9856,6 +9864,10 @@
       "videos": [
         "/assets/moszna-castle-video.mp4"
       ],
+      "guideVideos": {
+        "he": "/assets/guide-moszna-castle-he.mp4",
+        "en": "/assets/guide-moszna-castle-en.mp4"
+      },
       "metadata": {
         "/assets/moszna-castle-hero.jpeg": {
           "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (16).jpeg",
