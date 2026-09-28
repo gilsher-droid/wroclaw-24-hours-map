@@ -35,6 +35,11 @@ test("travel-guide videos are a separate canonical resource selected by site lan
 
 test("Brzeg and Moszna guide clips use their verified place and spoken language", () => {
   const provenance = JSON.parse(readFileSync(resolve(root, "data/brzeg-moszna-guide-video-provenance.json"), "utf8"));
+  const youtube = {
+    "brzeg-castle": { he: "IYllRzq9VJs", en: "zbpTMh2Fe2c" },
+    "brzeg-oder-gate": { he: "hvnoxm3reWo", en: "xs3NY7q0OX4" },
+    "moszna-castle": { he: "5ghRWvbwU6Q", en: "UqqWiyXRk00" },
+  };
   const window = {};
   const document = { documentElement: { lang: "he" }, addEventListener() {} };
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), { window, console });
@@ -44,11 +49,12 @@ test("Brzeg and Moszna guide clips use their verified place and spoken language"
   for (const id of places) {
     const place = window.WROC_CATALOG.getPlace(id);
     for (const lang of ["he", "en"]) {
-      const asset = place.media.guideVideos[lang];
+      const url = place.media.guideVideos[lang];
+      const asset = `/assets/guide-${id}-${lang}.mp4`;
       assigned.add(asset);
-      assert.match(asset, new RegExp(`^/assets/guide-${id}-${lang}\\.mp4$`));
-      assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id, lang), asset);
-      assert.match(window.WROC_GUIDE_VIDEO.button(id, lang), /data-guide-video-src=/);
+      assert.equal(url, `https://youtube.com/shorts/${youtube[id][lang]}`);
+      assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id, lang), url);
+      assert.match(window.WROC_GUIDE_VIDEO.button(id, lang), new RegExp(`href="${url}"`));
       assert.ok(existsSync(resolve(root, asset.slice(1))));
       const source = provenance[asset];
       assert.ok(source, `missing approved source for ${asset}`);

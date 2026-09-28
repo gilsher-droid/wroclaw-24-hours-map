@@ -1797,8 +1797,8 @@
       ],
       "videos": [],
       "guideVideos": {
-        "he": "/assets/guide-brzeg-castle-he.mp4",
-        "en": "/assets/guide-brzeg-castle-en.mp4"
+        "he": "https://youtube.com/shorts/IYllRzq9VJs",
+        "en": "https://youtube.com/shorts/zbpTMh2Fe2c"
       },
       "metadata": {
         "/assets/brzeg-castle-courtyard.jpeg": {
@@ -2050,8 +2050,8 @@
       "photos": [],
       "videos": [],
       "guideVideos": {
-        "he": "/assets/guide-brzeg-oder-gate-he.mp4",
-        "en": "/assets/guide-brzeg-oder-gate-en.mp4"
+        "he": "https://youtube.com/shorts/hvnoxm3reWo",
+        "en": "https://youtube.com/shorts/xs3NY7q0OX4"
       }
     },
     "socialPosts": []
@@ -9865,8 +9865,8 @@
         "/assets/moszna-castle-video.mp4"
       ],
       "guideVideos": {
-        "he": "/assets/guide-moszna-castle-he.mp4",
-        "en": "/assets/guide-moszna-castle-en.mp4"
+        "he": "https://youtube.com/shorts/5ghRWvbwU6Q",
+        "en": "https://youtube.com/shorts/UqqWiyXRk00"
       },
       "metadata": {
         "/assets/moszna-castle-hero.jpeg": {
