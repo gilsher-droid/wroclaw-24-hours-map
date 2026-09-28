@@ -83,7 +83,7 @@
     const carousel = document.querySelector("[data-excursion-carousel]");
     if (reducedMotion.matches || document.hidden || carousel.matches(":hover") || carousel.contains(document.activeElement)) return;
     if (window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length < 2) return;
-    previewTimer = setInterval(() => { previewIndex = (previewIndex + 1) % window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length; renderPreview(); }, 8000);
+    previewTimer = setInterval(() => { previewIndex = (previewIndex + 1) % window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length; renderPreview(); }, 6000);
   }
 
   function movePreview(direction) {
