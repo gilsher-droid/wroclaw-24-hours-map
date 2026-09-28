@@ -19,4 +19,7 @@
 .guide-video-panel { padding: 16px; }
 .guide-video-panel h2 { margin: 0 0 12px; font-size: 1.15rem; }
 .guide-video-panel video { display: block; width: 100%; max-height: 75vh; border-radius: 9px; background: #000; }
+.guide-video-panel iframe { display: block; width: min(100%, 420px); height: min(75vh, 740px); aspect-ratio: 9 / 16; margin: auto; border: 0; border-radius: 9px; background: #000; }
+.guide-video-panel [hidden] { display: none; }
+.guide-video-youtube { display: table; margin: 12px auto 0; color: #062b5c; font-weight: 700; text-decoration: underline; }
 .guide-video-close { float: inline-end; margin: 0 0 8px 8px; padding: 6px 12px; border: 1px solid #d5dce7; border-radius: 8px; background: #fff; color: inherit; font: inherit; cursor: pointer; }
