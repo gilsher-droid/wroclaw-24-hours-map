@@ -3,7 +3,7 @@
   "source": "/Users/rachelfiler/Desktop/Wroclaw/4 domes/Guide/WhatsApp Video 2026-09-24 at 17.32.12.mp4",
   "sourceYouTube": "https://youtube.com/shorts/Ud5KD21e5kE",
   "sourceSHA256": "7a62ce96f903270eb6fe3286b9edbe5be3e08ea612bea905502757e3ead32d31",
-  "outputSHA256": "8f68d7b315eea7dd210bbfabf2c1b6cd8b4cab8f4c22ab5667cc68ad68089061",
+  "outputSHA256": "bc68114e4ef71d76ae5083dcde003c2c9e3a12213674c0e232c4dabfa2396ce6",
   "spokenLanguage": "en",
   "burnedSubtitleLanguages": [
     "de",
@@ -12,7 +12,7 @@
   ],
   "durationSeconds": 78.333333,
   "width": 576,
-  "height": 1524,
+  "height": 1604,
   "subtitleBandHeight": 420,
   "fontPixels": 28,
   "sourcePreserved": true,
@@ -164,5 +164,5 @@
       ]
     ]
   ],
-  "playerControlsSafeAreaHeight": 80
+  "playerControlsSafeAreaHeight": 160
 }
