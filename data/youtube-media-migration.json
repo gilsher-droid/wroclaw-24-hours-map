@@ -1,0 +1,212 @@
+{
+  "/assets/brzeg-holy-cross-interior.mp4": {
+    "title": "Holy Cross Church, Brzeg | Visit clip 1 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/3zsPgj8Q5_0",
+    "sourceSHA256": "42b1fb0735c5964314cb5a0b82ba83d29dc25d669fd0b24cfb0c6df10db3c5cc"
+  },
+  "/assets/multimedia-fountain-01.mp4": {
+    "title": "Wrocław Multimedia Fountain | Visit clip 2 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/dUm3NDEX-y4",
+    "sourceSHA256": "803334bd1218b73db60565fd465c9d9cd2f12cabf437878680ec01e2664adae4"
+  },
+  "/assets/multimedia-fountain-02.mp4": {
+    "title": "Wrocław Multimedia Fountain | Visit clip 3 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/dI_FB67JBL4",
+    "sourceSHA256": "9e37db9da36924f3eccf18a18c1cc8054757f35d8060e92d4cbc9f1ec6b52732"
+  },
+  "/assets/multimedia-fountain-03.mp4": {
+    "title": "Wrocław Multimedia Fountain | Visit clip 4 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/94K1bIwjteg",
+    "sourceSHA256": "331681aa909a36710ccb413c3d50643bee117a8d84863419bae55abc864aad79"
+  },
+  "/assets/video-stulecia-fountain.mp4": {
+    "title": "Centennial Hall | Visit clip 5 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/oFpZE7jAuZE",
+    "sourceSHA256": "8a2ea29025652bdf837df87dd775ccfa7a8a80693bb2693b13dece35ec0fe7d4"
+  },
+  "/assets/video-four-domes-pavilion-01.mp4": {
+    "title": "Four Domes Pavilion | Visit clip 6 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/pNJK5HYFumQ",
+    "sourceSHA256": "2b72fb7297483c10fb95638f9f4bacd3c67541be03d2c7bd345d08ffcfbd69b7"
+  },
+  "/assets/video-four-domes-pavilion-02.mp4": {
+    "title": "Four Domes Pavilion | Visit clip 7 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/1emk-8xwsXk",
+    "sourceSHA256": "fbc864a4f9b830f4178178df34631cd6c3d3a81d88e64e3d6ecdf476b2e0a3b8"
+  },
+  "/assets/wroclaw-glowny-video-01.mp4": {
+    "title": "Wrocław Main Railway Station | Visit clip 8 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/3S871U6OtW8",
+    "sourceSHA256": "9fa78b4cda3a85a50dc7711ac191a747ceeb6072d6ae57f1c6db9a3b92434842"
+  },
+  "/assets/wroclaw-glowny-video-02.mp4": {
+    "title": "Wrocław Main Railway Station | Visit clip 9 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/PY0wHgtzASk",
+    "sourceSHA256": "c41ededfb22aa0053d1feb98f4e9ee0f66fc05814b2ded9e09d40781d79aae1f"
+  },
+  "/assets/hala-stulecia-visit.mp4": {
+    "title": "Centennial Hall | Visit clip 10 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/Erjtrfj5rEc",
+    "sourceSHA256": "36509ba9cbc01671ba5a29abb6bd6852c75554c5b310af6400789a8f5bf5d012"
+  },
+  "/assets/morskie-oko-video-01.mp4": {
+    "title": "Morskie Oko — Wrocław | Visit clip 11 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "bc76fe8184d1a6bf4fef69bfbdb2f00a56331ba7c2de09e86d432294956c8272"
+  },
+  "/assets/morskie-oko-video-02.mov": {
+    "title": "Morskie Oko — Wrocław | Visit clip 12 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "400bbcf4377bb21b2e5979942d2709e13d6089bf3731c31bdd8b84519f8dff98"
+  },
+  "/assets/morskie-oko-video-03.mov": {
+    "title": "Morskie Oko — Wrocław | Visit clip 13 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "a1c3fda6cadf874a8bdde833bd2a357061470486c3c158fea4db4c1c46cf953a"
+  },
+  "/assets/morskie-oko-video-04.mov": {
+    "title": "Morskie Oko — Wrocław | Visit clip 14 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "3ef03f64f85842a84dc04c73c9c9c0fd548770e9cd5298f20864cd32c7aa2509"
+  },
+  "/assets/moszna-castle-video.mp4": {
+    "title": "Moszna Castle | Visit clip 15 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "acf8706c9f64862ba663f96df5c32873bcefdf4cf26d12331708e1ee465200fd"
+  },
+  "/assets/video-ossolineum-garden.mp4": {
+    "title": "Ossolineum | Visit clip 16 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "1306a8da8139e13065f09e3a076fd928af53266d94fa05bc3fe6da3b5d5e2b05"
+  },
+  "/assets/video-pedet-01.mp4": {
+    "title": "PeDeT Food Hall | Visit clip 17 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "8a99fd19d9311b27525f903c496518e943813f20113e6cca68acc401ba7785be"
+  },
+  "/assets/video-pedet-02.mp4": {
+    "title": "PeDeT Food Hall | Visit clip 18 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "b6202f3434dd07d2b276a5a5d831b47de1865bc0ceb28a267cc5daa0bed79736"
+  },
+  "/assets/video-pedet-03.mp4": {
+    "title": "PeDeT Food Hall | Visit clip 19 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "6c452760749bf2bd7ea86aab863b1b7399b6e2bd88eae2dc7d11499bae83197f"
+  },
+  "/assets/video-rynek-fountains.mp4": {
+    "title": "Wrocław Market Square | Visit clip 20 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "b611581fdcbe32b3701dd752549fb6eb4a6af608450020075bbd84e0233bde0b"
+  },
+  "/assets/video-rynek-cinema.mp4": {
+    "title": "Wrocław Market Square | Visit clip 21 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "0ab7c0ab3cf32f75eff1235df0506e1773cf43c8f228e8aa0f18502382923b44"
+  },
+  "/assets/zoo-wroclaw-afrykarium.mp4": {
+    "title": "ZOO Wrocław | Visit clip 22 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "9c989fdb89a03d30a907dfeb05a3b41e4649eb304d2bbee8bf60b0a76f4236dc"
+  },
+  "/assets/zoo-wroclaw-aquatic-animal.mp4": {
+    "title": "ZOO Wrocław | Visit clip 23 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "5029c4d9cb2f9f03196b5932b016569bee7c0f2957f8d240249d2bf43f1eb242"
+  },
+  "/assets/experiences/prague/IMG_5406.mp4": {
+    "title": "A Song I Dreamed About Prague | Visit clip 24 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "ea621ac69200668c7cedb047b8b31afcac4346089f79c9b7c28cc5667b17bf48"
+  },
+  "/assets/experiences/prague/IMG_5407.mp4": {
+    "title": "A Song I Dreamed About Prague | Visit clip 25 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "b56db21bcb9f5176aabf6abecf1e4769d4438d49beb6cfe8b37002e9becdf8e3"
+  },
+  "/assets/experiences/prague/IMG_5409.mp4": {
+    "title": "A Song I Dreamed About Prague | Visit clip 26 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "fb82f7a4abea0908cf307bbb7fb87b6105452a2f14fc1393970acf29afb8985b"
+  },
+  "/assets/experiences/prague/IMG_5410.mp4": {
+    "title": "A Song I Dreamed About Prague | Visit clip 27 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "6b915cc02b16b77292a90f27c198f98a62b700f2318553286bccc3bcf21ab4bf"
+  },
+  "/assets/experiences/prague/IMG_5411.mp4": {
+    "title": "A Song I Dreamed About Prague | Visit clip 28 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "443df3711d817af7dff33e558de50bced984ad3d6be355efc7c7237874e422c2"
+  },
+  "/assets/experiences/prague/IMG_5415.mp4": {
+    "title": "A Song I Dreamed About Prague | Visit clip 29 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "9f591f54f2b35abf98bfaeb7764132e1d67b8528b1fd3138db02a8b4f09f8f7d"
+  },
+  "/assets/experiences/prague/IMG_5416.mp4": {
+    "title": "A Song I Dreamed About Prague | Visit clip 30 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "886a37cd8a5d1d950407a1570f9e89f084d113efc4fae300b1efd518270728fb"
+  },
+  "/assets/experiences/prague/IMG_5418.mp4": {
+    "title": "A Song I Dreamed About Prague | Visit clip 31 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "e0c1fea89540dc22b36add618daf180f13456e36365934b0248a113525736c42"
+  },
+  "/assets/experiences/tram/IMG_4371.mp4": {
+    "title": "Ride a tram in Wrocław | Visit clip 32 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "e9d909fad22e7e3d78199a6286347c58116005a2f547e12a34153814a6cd6877"
+  },
+  "/assets/experiences/tram/IMG_4434.mp4": {
+    "title": "Ride a tram in Wrocław | Visit clip 33 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "bb3d2368b8e48cb222dfeba27a03da36ad5416c86af6f4e06c2c0e59c6daa706"
+  },
+  "/assets/experiences/tram/IMG_4722.mp4": {
+    "title": "Ride a tram in Wrocław | Visit clip 34 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "6b873722c94bb84d7c142ac8aadd132454ca4b844f9e892c2cfcf475b98b3a86"
+  },
+  "/assets/experiences/tram/IMG_4725.mp4": {
+    "title": "Ride a tram in Wrocław | Visit clip 35 | WROC-LOVE",
+    "status": "pending-daily-quota",
+    "youtube": null,
+    "sourceSHA256": "0a268a8daa62ee0338955b5ea2357053a3d7daae659af480156d7979688449eb"
+  }
+}

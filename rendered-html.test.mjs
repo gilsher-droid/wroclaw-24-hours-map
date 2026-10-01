@@ -159,8 +159,8 @@ test("24-hour map exposes verified social posts and local photo galleries", () =
   assert.match(media, /"town-hall":\s*\{ gallery: galleries\.townHall \}/);
   assert.match(media, /old-town-hall-wroclaw\.jpg/);
   assert.equal(existsSync(resolve(root, "dist/client/assets/old-town-hall-wroclaw.jpg")), true);
-  assert.equal(existsSync(resolve(root, "dist/client/assets/video-rynek-fountains.mp4")), true);
-  assert.equal(existsSync(resolve(root, "dist/client/assets/video-ossolineum-garden.mp4")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/video-rynek-fountains.mp4")), false);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/video-ossolineum-garden.mp4")), false);
 });
 
 test("every interactive map product exposes relevant social, photo and video resources", () => {
@@ -198,7 +198,7 @@ test("every interactive map product exposes relevant social, photo and video res
   assert.match(mosheRoute, /\[51\.11343,17\.03657\]/);
   assert.match(extraLanguages, /Eine 1817 in Lwiw gegründete nationale Institution/);
   assert.match(extraLanguages, /Národní instituce založená ve Lvově roku 1817/);
-  assert.equal(existsSync(resolve(root, "dist/client/assets/video-stulecia-fountain.mp4")), true);
+  assert.equal(existsSync(resolve(root, "dist/client/assets/video-stulecia-fountain.mp4")), false);
   assert.equal(existsSync(resolve(root, "dist/client/assets/ossolineum-cover.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-wroclavia-05.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-renoma-05.jpg")), true);

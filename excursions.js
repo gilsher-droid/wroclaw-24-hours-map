@@ -195,7 +195,7 @@
       if (!canonical) return "";
       const photos = (canonical.media?.photos || []).slice(0, 4);
       const cover = photos[0] ? `<img class="place-cover" src="${photos[0]}" alt="${local(canonical.name)}">` : "";
-      const video = canonical.media?.videos?.[0] ? `<video controls preload="metadata" playsinline src="${canonical.media.videos[0]}"></video>` : "";
+      const video = canonical.media?.videos?.[0] ? window.WROC_YOUTUBE_VIDEO.html(canonical.media.videos[0], local(canonical.name), language) : "";
       return `<article class="place-card" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1).map((photo) => `<img src="${photo}" alt="">`).join("")}</div>${video}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
   }

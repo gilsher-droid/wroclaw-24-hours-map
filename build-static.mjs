@@ -30,6 +30,7 @@ for (const file of [
   "place-amenities.css",
   "guide-video.css",
   "guide-video.js",
+  "youtube-video.js",
   "campaign-access.js",
   "map-styles.css",
   "app.js",
@@ -75,7 +76,7 @@ await writeFile(resolve(client, "lifestyle.html"), legacyRedirect("/products/int
 await writeFile(resolve(client, "excursions.html"), legacyRedirect("/products/interactive-maps/excursions.html", "טיולי יום מוורוצלב"));
 await writeFile(resolve(client, "cultural.html"), legacyRedirect("/products/interactive-maps/cultural.html", "ההרפתקה התרבותית"));
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
-await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true });
+await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true, filter: (source) => !/\.(?:mp4|mov|webm|m4v|avi)$/i.test(source) });
 await cp(resolve(root, "news"), resolve(client, "news"), { recursive: true });
 await writeFile(resolve(client, ".nojekyll"), "");
 

@@ -61,3 +61,13 @@
 }
 .guide-video-responsive .guide-video-panel { position: relative; }
 .guide-video-responsive .guide-video-close { float: none; position: absolute; top: 14px; inset-inline-end: 14px; margin: 0; }
+.youtube-media-frame { display: block; width: 100%; aspect-ratio: 16 / 9; min-height: 200px; border: 0; border-radius: 10px; background: #081d33; }
+.youtube-video-pending { padding: 18px; color: #062b5c; background: #f4f1e9; border-radius: 10px; font: inherit; line-height: 1.5; }
+.guide-video-frame-host { min-width: 0; }
+.guide-video-responsive .guide-video-frame-host iframe { display: block; width: min(40.5dvh, 405px); height: min(72dvh, 720px); max-width: 45vw; margin: 0; }
+.guide-video-responsive:fullscreen .guide-video-frame-host iframe, .guide-video-responsive.guide-video-expanded .guide-video-frame-host iframe { height: 74dvh; width: 41.625dvh; }
+@media(max-width:640px) {
+  .guide-video-responsive .guide-video-frame-host iframe, .guide-video-responsive:fullscreen .guide-video-frame-host iframe, .guide-video-responsive.guide-video-expanded .guide-video-frame-host iframe { height: min(38dvh,420px); width: max(200px,21.375dvh); max-width: 100%; }
+}
+.video-player[hidden] { display: none; }
+.video-dialog iframe.video-player { width: 100%; height: auto; aspect-ratio: 16 / 9; min-height: 200px; border: 0; }
