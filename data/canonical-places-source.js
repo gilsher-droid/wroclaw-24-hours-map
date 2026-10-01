@@ -26,6 +26,214 @@
   // to an existing route or product. Every record added here must provide its
   // geography explicitly; no city is inferred by the catalog generator.
   window.WROC_CANONICAL_PLACE_SOURCE = [
+{
+  "id": "arche-klasztor",
+  "aliases": [
+    "Arche Klasztor Wroclaw",
+    "ארכה קלשטור",
+    "ארכה קלשטור ורוצלב"
+  ],
+  "localName": "Arche Klasztor Wrocław",
+  "name": {
+    "he": "Arche Klasztor Wrocław",
+    "en": "Arche Klasztor Wrocław",
+    "pl": "Arche Klasztor Wrocław",
+    "de": "Arche Klasztor Wrocław",
+    "cs": "Arche Klasztor Wrocław"
+  },
+  "description": {
+    "he": "מלון בוטיק במנזר משוחזר מהמאה ה־19 בשכונת Karłowice הירוקה, עם פארק, בית קפה ומסעדה הנכללת במדריך MICHELIN. חלק מהמתחם עדיין משמש מנזר פעיל. כתובת: Al. Jana Kasprowicza 64–66.",
+    "en": "A boutique hotel in a restored 19th-century monastery in leafy Karłowice, with a park, café and a restaurant included in the MICHELIN Guide. Part of the complex is still an active monastery. Address: Al. Jana Kasprowicza 64–66.",
+    "pl": "Hotel butikowy w odrestaurowanym XIX-wiecznym klasztorze na zielonych Karłowicach, z parkiem, kawiarnią i restauracją wyróżnioną obecnością w przewodniku MICHELIN. Część kompleksu nadal pełni funkcję czynnego klasztoru. Adres: Al. Jana Kasprowicza 64–66.",
+    "de": "Ein Boutiquehotel in einem restaurierten Kloster aus dem 19. Jahrhundert im grünen Karłowice, mit Park, Café und einem Restaurant im Guide MICHELIN. Ein Teil des Komplexes wird weiterhin als aktives Kloster genutzt. Adresse: Al. Jana Kasprowicza 64–66.",
+    "cs": "Butikový hotel v obnoveném klášteře z 19. století v zelené čtvrti Karłowice, s parkem, kavárnou a restaurací zařazenou do průvodce MICHELIN. Část komplexu stále slouží jako činný klášter. Adresa: Al. Jana Kasprowicza 64–66."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.138478,
+      "lng": 17.0509769
+    },
+    "address": {
+      "street": "Al. Jana Kasprowicza 64–66",
+      "postalCode": "51-137",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "sleep",
+    "eat",
+    "drink"
+  ],
+  "taxonomy": {
+    "tags": [
+      "hotel",
+      "restaurant",
+      "cafe",
+      "historic-building",
+      "michelin-guide"
+    ]
+  },
+  "provenance": {
+    "contentType": "personal-visit",
+    "personalVisit": true,
+    "originalPhotography": true,
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://archeklasztorwroclaw.pl/en",
+        "checkedAt": "2026-10-01",
+        "note": "Restored monastery hotel, restaurant, cafés and park."
+      },
+      {
+        "type": "official",
+        "url": "https://archeklasztorwroclaw.pl/en/contact",
+        "checkedAt": "2026-10-01",
+        "note": "Official address and JSON-LD coordinates: 51.138478, 17.0509769."
+      },
+      {
+        "type": "official",
+        "url": "https://guide.michelin.com/pl/en/lower-silesian/wroclaw_2399695/restaurant/arche-klasztor",
+        "checkedAt": "2026-10-01",
+        "note": "Restaurant included in the MICHELIN Guide; no star claim."
+      }
+    ]
+  },
+  "socialPosts": [],
+  "links": {
+    "website": "https://archeklasztorwroclaw.pl/",
+    "michelin": "https://guide.michelin.com/pl/en/lower-silesian/wroclaw_2399695/restaurant/arche-klasztor"
+  },
+  "media": {
+    "photos": [
+      "/assets/arche-klasztor-01.jpg",
+      "/assets/arche-klasztor-02.jpg",
+      "/assets/arche-klasztor-03.jpg",
+      "/assets/arche-klasztor-04.jpg",
+      "/assets/arche-klasztor-05.jpg",
+      "/assets/arche-klasztor-06.jpg",
+      "/assets/arche-klasztor-07.jpg",
+      "/assets/arche-klasztor-08.jpg",
+      "/assets/arche-klasztor-09.jpg",
+      "/assets/arche-klasztor-10.jpg",
+      "/assets/arche-klasztor-11.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/arche-klasztor-01.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17 (5).jpeg",
+        "heroCandidate": true,
+        "alt": {
+          "he": "חזית המלון המוארת בלילה",
+          "en": "Illuminated hotel exterior at night"
+        }
+      },
+      "/assets/arche-klasztor-02.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17.jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "דלת הכניסה ההיסטורית",
+          "en": "Historic entrance door"
+        }
+      },
+      "/assets/arche-klasztor-03.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.18 (3).jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "קיר הפסיפס בחצר",
+          "en": "Courtyard mosaic wall"
+        }
+      },
+      "/assets/arche-klasztor-04.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17 (3).jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "גרם המדרגות ההיסטורי",
+          "en": "Historic staircase"
+        }
+      },
+      "/assets/arche-klasztor-05.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17 (1).jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "מזרקת האבן ואריחי הקיר",
+          "en": "Stone fountain and wall tiles"
+        }
+      },
+      "/assets/arche-klasztor-06.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.16.jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "תפריט בהשראת מתכוני הנזירות",
+          "en": "Menu inspired by the nuns’ recipes"
+        }
+      },
+      "/assets/arche-klasztor-07.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.15.jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "מנות על שולחן המסעדה",
+          "en": "Dishes on the restaurant table"
+        }
+      },
+      "/assets/arche-klasztor-08.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.15 (3).jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "מנה עם עגבניות ורוטב ירוק",
+          "en": "Dish with tomatoes and green sauce"
+        }
+      },
+      "/assets/arche-klasztor-09.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.15 (2).jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "מנה לצד ירקות ונבטים",
+          "en": "Dish with vegetables and sprouts"
+        }
+      },
+      "/assets/arche-klasztor-10.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 19.03.00 (1).jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "שלט הכניסה למתחם",
+          "en": "Entrance sign for the complex"
+        }
+      },
+      "/assets/arche-klasztor-11.jpg": {
+        "original": true,
+        "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17 (4).jpeg",
+        "heroCandidate": false,
+        "alt": {
+          "he": "צילום אישי בכניסה למלון",
+          "en": "Personal photograph at the hotel entrance"
+        }
+      }
+    }
+  },
+  "status": "published",
+  "editorialPriority": "medium",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
     {
       id: "aleja-bielany",
       aliases: [],
