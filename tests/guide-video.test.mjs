@@ -135,3 +135,22 @@ test("every linked non-Hebrew guide has all three subtitle languages and valid c
     }
   }
 });
+
+test("responsive captions stay synchronized after seeking and retain all three languages", () => {
+  const window = {};
+  const document = { documentElement: { lang: "en" }, addEventListener() {} };
+  runInNewContext(readFileSync(resolve(root, "guide-video.js"), "utf8"), { window, document, console, URLSearchParams });
+  const editions = JSON.parse(readFileSync(resolve(root, "data/guide-player-captions.json"), "utf8"));
+  assert.equal(Object.keys(editions).length, 4);
+  for (const edition of Object.values(editions)) {
+    assert.ok(existsSync(resolve(root, edition.source.slice(1))));
+    assert.ok(existsSync(resolve(root, `dist/client${edition.source}`)));
+    for (const [start, end, text] of edition.cues) {
+      assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues, (start + end) / 2)), text);
+    }
+    assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues, -1)), ["", "", ""]);
+    assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues, edition.cues.at(-1)[1])), ["", "", ""]);
+    const first = edition.cues[0];
+    assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues, first[0])), first[2]);
+  }
+});
