@@ -40,7 +40,7 @@
       "מסלול טעימה מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "A complete one-day sample route. Open it on your phone, choose a stop and set off — no registration or credit card.",
       "יום אחד. העיר העתיקה, הנהר ואוסטרוב טומסקי.": "One day: the Old Town, the river and Ostrów Tumski.",
       "לפתיחת המפה ←": "Open the map →",
-      "המוצר הראשון של Wroc-love": "The first Wroc-love product",
+      "המפה הראשונה של Wroc-love": "The first Wroc-love map",
       "וורוצלב – המסלול המלא ל־4 ימים": "Wrocław — the complete 4-day route",
       "ארבעה ימים מסודרים בקצב הגיוני, עם כל מה שצריך כדי ליהנות מהעיר בלי לקפוץ הלוך ושוב ובלי לבלות את החופשה בחיפושים.": "Four well-paced days with everything you need to enjoy the city without unnecessary backtracking or spending your holiday searching.",
       "יום 1": "Day 1", "יום 2": "Day 2", "יום 3": "Day 3", "יום 4": "Day 4",
@@ -157,7 +157,7 @@
       "פתחו את מסלול 24 השעות": "Otwórz trasę 24-godzinną", "הכירו את המסלול המלא": "Poznaj pełną trasę", "יתרונות": "Zalety", "בעברית": "W trzech językach", "בחמש שפות": "W pięciu językach", "מותאם לנייד": "Dostosowane do telefonu", "קישורי ניווט ישירים": "Bezpośrednie linki nawigacyjne",
       "תצוגה מקדימה של המסלול": "Podgląd trasy", "היום שלכם בוורוצלב": "Twój dzień we Wrocławiu", "מסלול חי": "Trasa na żywo", "התחנה הבאה": "Następny przystanek", "כיכר השוק של ורוצלב": "Rynek we Wrocławiu", "8 דקות הליכה": "8 minut pieszo", "4.6 ק״מ": "4,6 km", "מתחילים בנחת": "Spokojny początek", "תחנות": "przystanków", "הליכה": "pieszo",
       "מתחילים בחינם": "Zacznij bezpłatnie", "24 שעות בוורוצלב": "24 godziny we Wrocławiu", "מסלול טעימה מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Pełna jednodniowa trasa próbna. Otwórz ją w telefonie, wybierz przystanek i ruszaj — bez rejestracji i karty.", "יום אחד. העיר העתיקה, הנהר ואוסטרוב טומסקי.": "Jeden dzień: Stare Miasto, rzeka i Ostrów Tumski.", "לפתיחת המפה ←": "Otwórz mapę →",
-      "המוצר הראשון של Wroc-love": "Pierwszy produkt Wroc-love", "וורוצלב – המסלול המלא ל־4 ימים": "Wrocław — pełna trasa na 4 dni", "ארבעה ימים מסודרים בקצב הגיוני, עם כל מה שצריך כדי ליהנות מהעיר בלי לקפוץ הלוך ושוב ובלי לבלות את החופשה בחיפושים.": "Cztery dobrze zaplanowane dni, aby cieszyć się miastem bez zbędnego krążenia i szukania informacji.",
+      "המפה הראשונה של Wroc-love": "Pierwsza mapa Wroc-love", "וורוצלב – המסלול המלא ל־4 ימים": "Wrocław — pełna trasa na 4 dni", "ארבעה ימים מסודרים בקצב הגיוני, עם כל מה שצריך כדי ליהנות מהעיר בלי לקפוץ הלוך ושוב ובלי לבלות את החופשה בחיפושים.": "Cztery dobrze zaplanowane dni, aby cieszyć się miastem bez zbędnego krążenia i szukania informacji.",
       "יום 1": "Dzień 1", "יום 2": "Dzień 2", "יום 3": "Dzień 3", "יום 4": "Dzień 4",
       "העיר העתיקה והגמדים": "Stare Miasto i krasnale", "מסלול ראשון נעים בין כיכר השוק, הרחובות ההיסטוריים והגמדים שאסור לפספס.": "Spokojna pierwsza trasa przez Rynek, historyczne ulice i najciekawsze krasnale.",
       "האוניברסיטה, הנהר ואוסטרוב טומסקי": "Uniwersytet, rzeka i Ostrów Tumski", "יום שמחבר תצפית, טיילת על גדת האודר והאזור העתיק והרגוע ביותר בעיר.": "Dzień łączący punkt widokowy, promenadę nad Odrą i najstarszą, spokojną część miasta.",
@@ -176,7 +176,7 @@
   };
   Object.assign(translations.en, {
     "מסלול כריסמס": "Christmas route",
-    "המוצר השלישי של Wroc-love": "The third Wroc-love product",
+    "המפה השלישית של Wroc-love": "The third Wroc-love map",
     "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים": "Christmas in Wrocław — a relaxed 3-day route",
     "מסלול חורפי רגוע: שווקי כריסמס, העיר העתיקה, אוסטרוב טומסקי, קפה חם וזמן למנוחה בלי לרוץ בין התחנות.": "A relaxed winter route: Christmas markets, the Old Town, Ostrów Tumski, warm coffee and time to rest without rushing between stops.",
     "שוק הכריסמס והעיר העתיקה": "Christmas Market and the Old Town",
@@ -218,7 +218,7 @@
 
   Object.assign(translations.pl, {
     "מסלול כריסמס": "Trasa świąteczna",
-    "המוצר השלישי של Wroc-love": "Trzeci produkt Wroc-love",
+    "המפה השלישית של Wroc-love": "Trzecia mapa Wroc-love",
     "וורוצלב בכריסמס – מסלול רגוע ל־3 ימים": "Boże Narodzenie we Wrocławiu — spokojna trasa na 3 dni",
     "מסלול חורפי רגוע: שווקי כריסמס, העיר העתיקה, אוסטרוב טומסקי, קפה חם וזמן למנוחה בלי לרוץ בין התחנות.": "Spokojna zimowa trasa: jarmarki bożonarodzeniowe, Stare Miasto, Ostrów Tumski, gorąca kawa i czas na odpoczynek bez pośpiechu.",
     "שוק הכריסמס והעיר העתיקה": "Jarmark bożonarodzeniowy i Stare Miasto",
@@ -263,7 +263,7 @@
   const lifestyleTranslations = {
     en: {
       "אוכל, קניות ולינה": "Food, shopping & stays",
-      "המוצר הרביעי של Wroc-love": "The fourth Wroc-love product",
+      "המפה הרביעית של Wroc-love": "The fourth Wroc-love map",
       "לאכול, לשתות, לקנות ולישון בוורוצלב": "Eat, drink, shop and sleep in Wrocław",
       "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restaurants, cafés, shopping centres and hotels from our original posts — in one interactive guide that shows exactly what you need now.",
       "קטגוריות במדריך": "Guide categories", "לאכול": "Eat", "מסעדות וטעמים": "Restaurants and flavours", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "From Polish cuisine to ramen, sushi, pizza and evening spots.",
@@ -275,7 +275,7 @@
       ,"חינם עד 31 בדצמבר 2026": "Free until 31 December 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Currently free in Hebrew, English, Polish, German and Czech. From 1 January 2027, a purchase or access code will be required."
     },
     pl: {
-      "אוכל, קניות ולינה": "Jedzenie, zakupy i noclegi", "המוצר הרביעי של Wroc-love": "Czwarty produkt Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jedz, pij, kupuj i śpij we Wrocławiu",
+      "אוכל, קניות ולינה": "Jedzenie, zakupy i noclegi", "המפה הרביעית של Wroc-love": "Czwarta mapa Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jedz, pij, kupuj i śpij we Wrocławiu",
       "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restauracji, kawiarni, centrów handlowych i hoteli z naszych oryginalnych postów — w jednym interaktywnym przewodniku.",
       "קטגוריות במדריך": "Kategorie przewodnika", "לאכול": "Jedzenie", "מסעדות וטעמים": "Restauracje i smaki", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Od kuchni polskiej po ramen, sushi, pizzę i miejsca na wieczór.",
       "לשתות": "Napoje", "קפה, מתוקים וברים": "Kawa, słodkości i bary", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Dobre przystanki na kawę, deser, lody lub drinka.",
@@ -286,7 +286,7 @@
       ,"חינם עד 31 בדצמבר 2026": "Bezpłatnie do 31 grudnia 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Obecnie bezpłatny po hebrajsku, angielsku, polsku, niemiecku i czesku. Od 1 stycznia 2027 wymagany będzie zakup lub kod dostępu."
     },
     de: {
-      "אוכל, קניות ולינה": "Essen, Einkaufen & Übernachten", "המוצר הרביעי של Wroc-love": "Das vierte Wroc-love-Produkt", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Essen, trinken, einkaufen und übernachten in Wrocław",
+      "אוכל, קניות ולינה": "Essen, Einkaufen & Übernachten", "המפה הרביעית של Wroc-love": "Die vierte Wroc-love-Karte", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Essen, trinken, einkaufen und übernachten in Wrocław",
       "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 Restaurants, Cafés, Einkaufszentren und Hotels aus unseren Originalbeiträgen — in einem interaktiven Guide.",
       "קטגוריות במדריך": "Guide-Kategorien", "לאכול": "Essen", "מסעדות וטעמים": "Restaurants und Aromen", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Von polnischer Küche bis Ramen, Sushi, Pizza und Abendlocations.",
       "לשתות": "Trinken", "קפה, מתוקים וברים": "Kaffee, Süßes und Bars", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Gute Stopps für Kaffee, Dessert, Eis oder einen Drink.",
@@ -297,7 +297,7 @@
       ,"חינם עד 31 בדצמבר 2026": "Kostenlos bis 31. Dezember 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Derzeit kostenlos auf Hebräisch, Englisch, Polnisch, Deutsch und Tschechisch. Ab 1. Januar 2027 ist ein Kauf oder Zugangscode erforderlich."
     },
     cs: {
-      "אוכל, קניות ולינה": "Jídlo, nákupy a ubytování", "המוצר הרביעי של Wroc-love": "Čtvrtý produkt Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jíst, pít, nakupovat a spát ve Vratislavi",
+      "אוכל, קניות ולינה": "Jídlo, nákupy a ubytování", "המפה הרביעית של Wroc-love": "Čtvrtá mapa Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jíst, pít, nakupovat a spát ve Vratislavi",
       "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restaurací, kaváren, nákupních center a hotelů z našich původních příspěvků — v jednom interaktivním průvodci.",
       "קטגוריות במדריך": "Kategorie průvodce", "לאכול": "Jíst", "מסעדות וטעמים": "Restaurace a chutě", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Od polské kuchyně po ramen, sushi, pizzu a večerní podniky.",
       "לשתות": "Pít", "קפה, מתוקים וברים": "Káva, sladkosti a bary", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Dobré zastávky na kávu, dezert, zmrzlinu nebo drink.",
@@ -312,32 +312,32 @@
 
   const excursionProductTranslations = {
     en: {
-      "טיולים בשלזיה התחתית": "Lower Silesia excursions", "המוצר החמישי של Wroc-love": "The fifth Wroc-love product",
+      "טיולים בשלזיה התחתית": "Lower Silesia excursions", "המפה החמישית של Wroc-love": "The fifth Wroc-love map",
       "טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתית, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.": "Independent day trips from Wrocław across Lower Silesia, based on WROC-LOVE’s curated places and original content.",
-      "מוצר חדש": "New product", "שלזיה התחתית, בקצב שלכם.": "Lower Silesia, at your pace.",
+      "מפה חדשה": "New map", "שלזיה התחתית, בקצב שלכם.": "Lower Silesia, at your pace.",
       "כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.": "Each excursion will include an organised route and practical information, and will be published only when its stops and content are ready.",
-      "טיולים חדשים מתווספים בהדרגה.": "New excursions are being added.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "The product foundation is now open. The first excursion will appear here when its content is ready.", "הטיול הראשון כבר פתוח.": "The first excursion is now open.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Książ Castle, Wałbrzych and Świdnica — a full day of castle, historic city and heritage.", "פתחו את המוצר": "Open the product"
+      "טיולים חדשים מתווספים בהדרגה.": "New excursions are being added.", "הבסיס למפה כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "The map foundation is now open. The first excursion will appear here when its content is ready.", "הטיול הראשון כבר פתוח.": "The first excursion is now open.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Książ Castle, Wałbrzych and Świdnica — a full day of castle, historic city and heritage.", "פתחו את המפה": "Open the map"
     },
     pl: {
-      "טיולים בשלזיה התחתית": "Wycieczki po Dolnym Śląsku", "המוצר החמישי של Wroc-love": "Piąty produkt Wroc-love",
+      "טיולים בשלזיה התחתית": "Wycieczki po Dolnym Śląsku", "המפה החמישית של Wroc-love": "Piąta mapa Wroc-love",
       "טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתית, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.": "Samodzielne wycieczki jednodniowe z Wrocławia po Dolnym Śląsku, oparte na wybranych miejscach i oryginalnych treściach WROC-LOVE.",
-      "מוצר חדש": "Nowy produkt", "שלזיה התחתית, בקצב שלכם.": "Dolny Śląsk w Twoim tempie.",
+      "מפה חדשה": "Nowa mapa", "שלזיה התחתית, בקצב שלכם.": "Dolny Śląsk w Twoim tempie.",
       "כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.": "Każda wycieczka będzie zawierać uporządkowaną trasę i informacje praktyczne, a ukaże się dopiero po przygotowaniu przystanków i treści.",
-      "טיולים חדשים מתווספים בהדרגה.": "Stopniowo dodajemy nowe wycieczki.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Podstawa produktu jest już dostępna. Pierwsza wycieczka pojawi się tutaj po przygotowaniu treści.", "הטיול הראשון כבר פתוח.": "Pierwsza wycieczka jest już dostępna.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Zamek Książ, Wałbrzych i Świdnica — cały dzień zamku, historycznego miasta i dziedzictwa.", "פתחו את המוצר": "Otwórz produkt"
+      "טיולים חדשים מתווספים בהדרגה.": "Stopniowo dodajemy nowe wycieczki.", "הבסיס למפה כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Podstawa mapy jest już dostępna. Pierwsza wycieczka pojawi się tutaj po przygotowaniu treści.", "הטיול הראשון כבר פתוח.": "Pierwsza wycieczka jest już dostępna.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Zamek Książ, Wałbrzych i Świdnica — cały dzień zamku, historycznego miasta i dziedzictwa.", "פתחו את המפה": "Otwórz mapę"
     },
     de: {
-      "טיולים בשלזיה התחתית": "Ausflüge in Niederschlesien", "המוצר החמישי של Wroc-love": "Das fünfte Wroc-love-Produkt",
+      "טיולים בשלזיה התחתית": "Ausflüge in Niederschlesien", "המפה החמישית של Wroc-love": "Die fünfte Wroc-love-Karte",
       "טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתית, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.": "Selbstständige Tagesausflüge von Wrocław durch Niederschlesien, basierend auf den kuratierten Orten und Originalinhalten von WROC-LOVE.",
-      "מוצר חדש": "Neues Produkt", "שלזיה התחתית, בקצב שלכם.": "Niederschlesien in Ihrem Tempo.",
+      "מפה חדשה": "Neue Karte", "שלזיה התחתית, בקצב שלכם.": "Niederschlesien in Ihrem Tempo.",
       "כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.": "Jeder Ausflug enthält eine geordnete Route und praktische Informationen und erscheint erst, wenn Stationen und Inhalte fertig sind.",
-      "טיולים חדשים מתווספים בהדרגה.": "Nach und nach kommen neue Ausflüge hinzu.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Die Produktbasis ist jetzt verfügbar. Der erste Ausflug erscheint hier, sobald die Inhalte fertig sind.", "הטיול הראשון כבר פתוח.": "Der erste Ausflug ist jetzt verfügbar.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Schloss Książ, Wałbrzych und Świdnica — ein ganzer Tag mit Schloss, historischer Stadt und Kulturerbe.", "פתחו את המוצר": "Produkt öffnen"
+      "טיולים חדשים מתווספים בהדרגה.": "Nach und nach kommen neue Ausflüge hinzu.", "הבסיס למפה כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Die Kartengrundlage ist jetzt verfügbar. Der erste Ausflug erscheint hier, sobald die Inhalte fertig sind.", "הטיול הראשון כבר פתוח.": "Der erste Ausflug ist jetzt verfügbar.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Schloss Książ, Wałbrzych und Świdnica — ein ganzer Tag mit Schloss, historischer Stadt und Kulturerbe.", "פתחו את המפה": "Karte öffnen"
     },
     cs: {
-      "טיולים בשלזיה התחתית": "Výlety po Dolním Slezsku", "המוצר החמישי של Wroc-love": "Pátý produkt Wroc-love",
+      "טיולים בשלזיה התחתית": "Výlety po Dolním Slezsku", "המפה החמישית של Wroc-love": "Pátá mapa Wroc-love",
       "טיולי יום עצמאיים מוורוצלב ברחבי שלזיה התחתית, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.": "Samostatné jednodenní výlety z Vratislavi po Dolním Slezsku založené na vybraných místech a původním obsahu WROC-LOVE.",
-      "מוצר חדש": "Nový produkt", "שלזיה התחתית, בקצב שלכם.": "Dolní Slezsko vaším tempem.",
+      "מפה חדשה": "Nová mapa", "שלזיה התחתית, בקצב שלכם.": "Dolní Slezsko vaším tempem.",
       "כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.": "Každý výlet bude obsahovat uspořádanou trasu a praktické informace a vyjde až po dokončení zastávek a obsahu.",
-      "טיולים חדשים מתווספים בהדרגה.": "Postupně přidáváme nové výlety.", "הבסיס למוצר כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Základ produktu je nyní dostupný. První výlet se zde objeví po dokončení obsahu.", "הטיול הראשון כבר פתוח.": "První výlet je nyní otevřený.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Zámek Książ, Valbřich a Svídnice — celý den plný zámku, historického města a dědictví.", "פתחו את המוצר": "Otevřít produkt"
+      "טיולים חדשים מתווספים בהדרגה.": "Postupně přidáváme nové výlety.", "הבסיס למפה כבר פתוח. הטיול הראשון יופיע כאן לאחר השלמת התוכן.": "Základ mapy je nyní dostupný. První výlet se zde objeví po dokončení obsahu.", "הטיול הראשון כבר פתוח.": "První výlet je nyní otevřený.", "טירת קשונז׳, Wałbrzych ושווידניצה — יום מלא של טירה, עיר היסטורית ואתר מורשת.": "Zámek Książ, Valbřich a Svídnice — celý den plný zámku, historického města a dědictví.", "פתחו את המפה": "Otevřít mapu"
     }
   };
   excursionProductTranslations.en["טיולי יום מוורוצלב"] = "Day trips from Wrocław";
@@ -363,10 +363,10 @@
   Object.entries(excursionProductTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
 
   const culturalProductTranslations = {
-    en: {"ההרפתקה התרבותית בוורוצלב":"The cultural adventure in Wrocław","המוצר השישי של Wroc-love":"The sixth Wroc-love product","מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.":"Museums, art, theatre, music, film and architecture on one interactive map — without a fixed route.","תחומי תרבות":"Culture fields","לגלות":"Discover","26 מקומות קנוניים":"26 canonical places","מוסדות מוכרים לצד גלריות, בתי תיאטרון ואתרי אדריכלות.":"Major institutions alongside galleries, theatres and architecture sites.","לבחור":"Choose","שבעה תחומי תרבות":"Seven culture fields","מסננים את המפה לפי מה שמסקרן אתכם עכשיו.":"Filter the map by what interests you now.","ההרפתקה התרבותית":"The cultural adventure","מוצר חדש":"New product","התרבות של ורוצלב, בדרך שלכם.":"Wrocław culture, your way.","כרטיסי מקום, אתרים רשמיים, מדיה קיימת וניווט ישיר בחמש שפות.":"Place cards, official websites, existing media and direct navigation in five languages.","פתחו את מפת התרבות":"Open the culture map"},
-    pl: {"ההרפתקה התרבותית בוורוצלב":"Kulturalna przygoda we Wrocławiu","המוצר השישי של Wroc-love":"Szósty produkt Wroc-love","מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.":"Muzea, sztuka, teatr, muzyka, film i architektura na jednej interaktywnej mapie — bez sztywnej trasy.","תחומי תרבות":"Dziedziny kultury","לגלות":"Odkrywaj","26 מקומות קנוניים":"26 kanonicznych miejsc","מוסדות מוכרים לצד גלריות, בתי תיאטרון ואתרי אדריכלות.":"Znane instytucje obok galerii, teatrów i miejsc architektury.","לבחור":"Wybieraj","שבעה תחומי תרבות":"Siedem dziedzin kultury","מסננים את המפה לפי מה שמסקרן אתכם עכשיו.":"Filtruj mapę według tego, co Cię teraz interesuje.","ההרפתקה התרבותית":"Kulturalna przygoda","מוצר חדש":"Nowy produkt","התרבות של ורוצלב, בדרך שלכם.":"Kultura Wrocławia po Twojemu.","כרטיסי מקום, אתרים רשמיים, מדיה קיימת וניווט ישיר בחמש שפות.":"Karty miejsc, oficjalne strony, istniejące media i nawigacja w pięciu językach.","פתחו את מפת התרבות":"Otwórz mapę kultury"},
-    de: {"ההרפתקה התרבותית בוורוצלב":"Das Kulturabenteuer in Wrocław","המוצר השישי של Wroc-love":"Das sechste Wroc-love-Produkt","מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.":"Museen, Kunst, Theater, Musik, Film und Architektur auf einer interaktiven Karte — ohne feste Route.","תחומי תרבות":"Kulturbereiche","לגלות":"Entdecken","26 מקומות קנוניים":"26 kanonische Orte","מוסדות מוכרים לצד גלריות, בתי תיאטרון ואתרי אדריכלות.":"Bekannte Institutionen neben Galerien, Theatern und Architekturorten.","לבחור":"Wählen","שבעה תחומי תרבות":"Sieben Kulturbereiche","מסננים את המפה לפי מה שמסקרן אתכם עכשיו.":"Filtern Sie die Karte nach Ihrem aktuellen Interesse.","ההרפתקה התרבותית":"Das Kulturabenteuer","מוצר חדש":"Neues Produkt","התרבות של ורוצלב, בדרך שלכם.":"Breslaus Kultur auf Ihre Art.","כרטיסי מקום, אתרים רשמיים, מדיה קיימת וניווט ישיר בחמש שפות.":"Ortskarten, offizielle Websites, vorhandene Medien und Navigation in fünf Sprachen.","פתחו את מפת התרבות":"Kulturkarte öffnen"},
-    cs: {"ההרפתקה התרבותית בוורוצלב":"Kulturní dobrodružství ve Vratislavi","המוצר השישי של Wroc-love":"Šestý produkt Wroc-love","מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.":"Muzea, umění, divadlo, hudba, film a architektura na jedné interaktivní mapě — bez pevné trasy.","תחומי תרבות":"Kulturní oblasti","לגלות":"Objevujte","26 מקומות קנוניים":"26 kanonických míst","מוסדות מוכרים לצד גלריות, בתי תיאטרון ואתרי אדריכלות.":"Známé instituce vedle galerií, divadel a architektonických míst.","לבחור":"Vyberte","שבעה תחומי תרבות":"Sedm kulturních oblastí","מסננים את המפה לפי מה שמסקרן אתכם עכשיו.":"Filtrujte mapu podle toho, co vás právě zajímá.","ההרפתקה התרבותית":"Kulturní dobrodružství","מוצר חדש":"Nový produkt","התרבות של ורוצלב, בדרך שלכם.":"Kultura Vratislavi po vašem.","כרטיסי מקום, אתרים רשמיים, מדיה קיימת וניווט ישיר בחמש שפות.":"Karty míst, oficiální weby, stávající média a navigace v pěti jazycích.","פתחו את מפת התרבות":"Otevřít mapu kultury"}
+    en: {"ההרפתקה התרבותית בוורוצלב":"The cultural adventure in Wrocław","המפה השישית של Wroc-love":"The sixth Wroc-love map","מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.":"Museums, art, theatre, music, film and architecture on one interactive map — without a fixed route.","תחומי תרבות":"Culture fields","לגלות":"Discover","26 מקומות קנוניים":"26 canonical places","מוסדות מוכרים לצד גלריות, בתי תיאטרון ואתרי אדריכלות.":"Major institutions alongside galleries, theatres and architecture sites.","לבחור":"Choose","שבעה תחומי תרבות":"Seven culture fields","מסננים את המפה לפי מה שמסקרן אתכם עכשיו.":"Filter the map by what interests you now.","ההרפתקה התרבותית":"The cultural adventure","מפה חדשה":"New map","התרבות של ורוצלב, בדרך שלכם.":"Wrocław culture, your way.","כרטיסי מקום, אתרים רשמיים, מדיה קיימת וניווט ישיר בחמש שפות.":"Place cards, official websites, existing media and direct navigation in five languages.","פתחו את מפת התרבות":"Open the culture map"},
+    pl: {"ההרפתקה התרבותית בוורוצלב":"Kulturalna przygoda we Wrocławiu","המפה השישית של Wroc-love":"Szósta mapa Wroc-love","מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.":"Muzea, sztuka, teatr, muzyka, film i architektura na jednej interaktywnej mapie — bez sztywnej trasy.","תחומי תרבות":"Dziedziny kultury","לגלות":"Odkrywaj","26 מקומות קנוניים":"26 kanonicznych miejsc","מוסדות מוכרים לצד גלריות, בתי תיאטרון ואתרי אדריכלות.":"Znane instytucje obok galerii, teatrów i miejsc architektury.","לבחור":"Wybieraj","שבעה תחומי תרבות":"Siedem dziedzin kultury","מסננים את המפה לפי מה שמסקרן אתכם עכשיו.":"Filtruj mapę według tego, co Cię teraz interesuje.","ההרפתקה התרבותית":"Kulturalna przygoda","מפה חדשה":"Nowa mapa","התרבות של ורוצלב, בדרך שלכם.":"Kultura Wrocławia po Twojemu.","כרטיסי מקום, אתרים רשמיים, מדיה קיימת וניווט ישיר בחמש שפות.":"Karty miejsc, oficjalne strony, istniejące media i nawigacja w pięciu językach.","פתחו את מפת התרבות":"Otwórz mapę kultury"},
+    de: {"ההרפתקה התרבותית בוורוצלב":"Das Kulturabenteuer in Wrocław","המפה השישית של Wroc-love":"Die sechste Wroc-love-Karte","מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.":"Museen, Kunst, Theater, Musik, Film und Architektur auf einer interaktiven Karte — ohne feste Route.","תחומי תרבות":"Kulturbereiche","לגלות":"Entdecken","26 מקומות קנוניים":"26 kanonische Orte","מוסדות מוכרים לצד גלריות, בתי תיאטרון ואתרי אדריכלות.":"Bekannte Institutionen neben Galerien, Theatern und Architekturorten.","לבחור":"Wählen","שבעה תחומי תרבות":"Sieben Kulturbereiche","מסננים את המפה לפי מה שמסקרן אתכם עכשיו.":"Filtern Sie die Karte nach Ihrem aktuellen Interesse.","ההרפתקה התרבותית":"Das Kulturabenteuer","מפה חדשה":"Neue Karte","התרבות של ורוצלב, בדרך שלכם.":"Breslaus Kultur auf Ihre Art.","כרטיסי מקום, אתרים רשמיים, מדיה קיימת וניווט ישיר בחמש שפות.":"Ortskarten, offizielle Websites, vorhandene Medien und Navigation in fünf Sprachen.","פתחו את מפת התרבות":"Kulturkarte öffnen"},
+    cs: {"ההרפתקה התרבותית בוורוצלב":"Kulturní dobrodružství ve Vratislavi","המפה השישית של Wroc-love":"Šestá mapa Wroc-love","מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.":"Muzea, umění, divadlo, hudba, film a architektura na jedné interaktivní mapě — bez pevné trasy.","תחומי תרבות":"Kulturní oblasti","לגלות":"Objevujte","26 מקומות קנוניים":"26 kanonických míst","מוסדות מוכרים לצד גלריות, בתי תיאטרון ואתרי אדריכלות.":"Známé instituce vedle galerií, divadel a architektonických míst.","לבחור":"Vyberte","שבעה תחומי תרבות":"Sedm kulturních oblastí","מסננים את המפה לפי מה שמסקרן אתכם עכשיו.":"Filtrujte mapu podle toho, co vás právě zajímá.","ההרפתקה התרבותית":"Kulturní dobrodružství","מפה חדשה":"Nová mapa","התרבות של ורוצלב, בדרך שלכם.":"Kultura Vratislavi po vašem.","כרטיסי מקום, אתרים רשמיים, מדיה קיימת וניווט ישיר בחמש שפות.":"Karty míst, oficiální weby, stávající média a navigace v pěti jazycích.","פתחו את מפת התרבות":"Otevřít mapu kultury"}
   };
   Object.entries(culturalProductTranslations).forEach(([code, values]) => Object.assign(translations[code] ||= {}, values));
 
@@ -412,19 +412,19 @@
 
   const productNavigationTranslations = {
     en: {
-      "כל המוצרים": "All products", "המפות האינטראקטיביות שלנו": "Our interactive maps", "לכל המוצרים": "View all products", "מסלול ליום אחד": "One-day route",
+      "כל המפות": "All maps", "המפות האינטראקטיביות שלנו": "Our interactive maps", "לכל המפות": "View all maps", "מסלול ליום אחד": "One-day route",
       "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "A complete one-day city route. Open it on your phone, choose a stop and set off — no registration or credit card."
     },
     pl: {
-      "כל המוצרים": "Wszystkie produkty", "המפות האינטראקטיביות שלנו": "Nasze interaktywne mapy", "לכל המוצרים": "Zobacz wszystkie produkty", "מסלול ליום אחד": "Trasa jednodniowa",
+      "כל המפות": "Wszystkie mapy", "המפות האינטראקטיביות שלנו": "Nasze interaktywne mapy", "לכל המפות": "Zobacz wszystkie mapy", "מסלול ליום אחד": "Trasa jednodniowa",
       "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Pełna jednodniowa trasa po mieście. Otwórz ją w telefonie, wybierz przystanek i ruszaj — bez rejestracji i karty."
     },
     de: {
-      "כל המוצרים": "Alle Produkte", "המפות האינטראקטיביות שלנו": "Unsere interaktiven Karten", "לכל המוצרים": "Alle Produkte ansehen", "מסלול ליום אחד": "Route für einen Tag",
+      "כל המפות": "Alle Karten", "המפות האינטראקטיביות שלנו": "Unsere interaktiven Karten", "לכל המפות": "Alle Karten ansehen", "מסלול ליום אחד": "Route für einen Tag",
       "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Eine vollständige Route für einen Tag in der Stadt. Auf dem Smartphone öffnen, Station wählen und losgehen — ohne Registrierung oder Kreditkarte."
     },
     cs: {
-      "כל המוצרים": "Všechny produkty", "המפות האינטראקטיביות שלנו": "Naše interaktivní mapy", "לכל המוצרים": "Zobrazit všechny produkty", "מסלול ליום אחד": "Jednodenní trasa",
+      "כל המפות": "Všechny mapy", "המפות האינטראקטיביות שלנו": "Naše interaktivní mapy", "לכל המפות": "Zobrazit všechny mapy", "מסלול ליום אחד": "Jednodenní trasa",
       "מסלול מלא ליום אחד בעיר. פותחים בטלפון, בוחרים תחנה ויוצאים לדרך — בלי הרשמה ובלי כרטיס אשראי.": "Kompletní jednodenní trasa městem. Otevřete ji v telefonu, vyberte zastávku a vyrazte — bez registrace a platební karty."
     }
   };
@@ -432,19 +432,19 @@
 
   const homepagePreviewTranslations = {
     en: {
-      "המחשה של ספריית המפות": "Map library illustration", "כך נראות המפות מבפנים": "A look inside the maps", "המחשת המוצר": "Product preview",
+      "המחשה של ספריית המפות": "Map library illustration", "כך נראות המפות מבפנים": "A look inside the maps", "המחשת המפה": "Map preview",
       "מסלול עירוני": "City route", "תחנות מסודרות וניווט ישיר": "Organised stops and direct navigation", "תכנון לפי ימים": "Plan by day", "4 ימים בוורוצלב": "4 days in Wrocław", "כל יום באזור אחר בעיר": "A different part of the city each day", "מדריך מקומות": "Places guide", "אוכל, קפה וקניות": "Food, coffee and shopping", "בוחרים קטגוריה ומוצאים מקום": "Choose a category and find a place", "מסלולים מוכנים · מקומות מומלצים · ניווט ישיר": "Ready-made routes · recommended places · direct navigation", "גלו את כל המפות ↓": "Explore all maps ↓"
     },
     pl: {
-      "המחשה של ספריית המפות": "Ilustracja biblioteki map", "כך נראות המפות מבפנים": "Zajrzyj do naszych map", "המחשת המוצר": "Podgląd produktu",
+      "המחשה של ספריית המפות": "Ilustracja biblioteki map", "כך נראות המפות מבפנים": "Zajrzyj do naszych map", "המחשת המפה": "Podgląd mapy",
       "מסלול עירוני": "Trasa miejska", "תחנות מסודרות וניווט ישיר": "Uporządkowane przystanki i bezpośrednia nawigacja", "תכנון לפי ימים": "Plan według dni", "4 ימים בוורוצלב": "4 dni we Wrocławiu", "כל יום באזור אחר בעיר": "Każdy dzień w innej części miasta", "מדריך מקומות": "Przewodnik po miejscach", "אוכל, קפה וקניות": "Jedzenie, kawa i zakupy", "בוחרים קטגוריה ומוצאים מקום": "Wybierz kategorię i znajdź miejsce", "מסלולים מוכנים · מקומות מומלצים · ניווט ישיר": "Gotowe trasy · polecane miejsca · bezpośrednia nawigacja", "גלו את כל המפות ↓": "Odkryj wszystkie mapy ↓"
     },
     de: {
-      "המחשה של ספריית המפות": "Illustration der Kartenbibliothek", "כך נראות המפות מבפנים": "Ein Blick in unsere Karten", "המחשת המוצר": "Produktvorschau",
+      "המחשה של ספריית המפות": "Illustration der Kartenbibliothek", "כך נראות המפות מבפנים": "Ein Blick in unsere Karten", "המחשת המפה": "Kartenvorschau",
       "מסלול עירוני": "Stadtroute", "תחנות מסודרות וניווט ישיר": "Geordnete Stopps und direkte Navigation", "תכנון לפי ימים": "Planung nach Tagen", "4 ימים בוורוצלב": "4 Tage in Wrocław", "כל יום באזור אחר בעיר": "Jeden Tag ein anderer Stadtteil", "מדריך מקומות": "Orte-Guide", "אוכל, קפה וקניות": "Essen, Kaffee und Einkaufen", "בוחרים קטגוריה ומוצאים מקום": "Kategorie wählen und Ort finden", "מסלולים מוכנים · מקומות מומלצים · ניווט ישיר": "Fertige Routen · empfohlene Orte · direkte Navigation", "גלו את כל המפות ↓": "Alle Karten entdecken ↓"
     },
     cs: {
-      "המחשה של ספריית המפות": "Ilustrace knihovny map", "כך נראות המפות מבפנים": "Nahlédněte do našich map", "המחשת המוצר": "Náhled produktu",
+      "המחשה של ספריית המפות": "Ilustrace knihovny map", "כך נראות המפות מבפנים": "Nahlédněte do našich map", "המחשת המפה": "Náhled mapy",
       "מסלול עירוני": "Městská trasa", "תחנות מסודרות וניווט ישיר": "Uspořádané zastávky a přímá navigace", "תכנון לפי ימים": "Plánování podle dnů", "4 ימים בוורוצלב": "4 dny ve Vratislavi", "כל יום באזור אחר בעיר": "Každý den v jiné části města", "מדריך מקומות": "Průvodce místy", "אוכל, קפה וקניות": "Jídlo, káva a nákupy", "בוחרים קטגוריה ומוצאים מקום": "Vyberte kategorii a najděte místo", "מסלולים מוכנים · מקומות מומלצים · ניווט ישיר": "Hotové trasy · doporučená místa · přímá navigace", "גלו את כל המפות ↓": "Objevte všechny mapy ↓"
     }
   };
@@ -452,6 +452,8 @@
 
   const originalText = new WeakMap();
   const originalAttributes = new WeakMap();
+  Object.entries({ en: "Choose a map", pl: "Wybierz mapę", de: "Karte auswählen", cs: "Vybrat mapu" }).forEach(([code, value]) => { translations[code]["בחירת מפה"] = value; });
+
   const originalTitle = document.title;
 
   function t(text) {

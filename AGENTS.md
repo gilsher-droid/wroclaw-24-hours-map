@@ -19,3 +19,7 @@ The user requested responsive spacing on 2026-10-01: the website player displays
 ## YouTube-only hosting (supersedes local playback and burned-asset fallback)
 
 User instruction 2026-10-01: all website videos must be hosted on YouTube, and all project uploads must be Public. Never ship MP4, MOV, WebM or other video files in the website artifact. Preserve local production backups in Git or the workspace. Use the verified YouTube media registry for visit clips; until quota-delayed uploads are published, render a localized pending notice instead of a local player or broken URL. Guide videos use existing YouTube originals with responsive synchronized DE/CS/PL live captions. The user explicitly confirmed all visit clips are general-audience content and approved not-made-for-kids. They also approved daily automated continuation until the migration is complete.
+
+## Map terminology
+
+User instruction 2026-10-01: call all site offerings maps, never products, in user-facing copy in all five languages: מפה, map, mapa (Polish/Czech), Karte (German). Apply grammatical gender to badges, headings, navigation and accessibility labels. Preserve technical routes and identifiers. References to physical retail products are unaffected.
