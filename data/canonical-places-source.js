@@ -102,7 +102,7 @@
       }
     ]
   },
-  "socialPosts": [],
+  "socialPosts": [{"platform": "facebook", "url": "https://facebook.com/permalink.php?story_fbid=pfbid026ARddCkCLMWtYCZW6LDMyYD2CQgotXgV2SMXdpSp4RjaZvFaRBaiNLJ4bfvaY7whl&id=61591964083308", "language": "he"}, {"platform": "instagram", "url": "https://www.instagram.com/p/Dd8ty96FGmt/", "language": "he"}, {"platform": "facebook", "url": "https://www.facebook.com/groups/2525899074519424/posts/2603091250133539/", "language": "he", "context": "community-group"}],
   "links": {
     "website": "https://archeklasztorwroclaw.pl/",
     "michelin": "https://guide.michelin.com/pl/en/lower-silesian/wroclaw_2399695/restaurant/arche-klasztor"
