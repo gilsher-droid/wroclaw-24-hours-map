@@ -11,6 +11,11 @@
   const closeLabels = { he: "סגירה", en: "Close", pl: "Zamknij", de: "Schließen", cs: "Zavřít" };
   const youtubeLabels = { he: "צפייה ביוטיוב", en: "Watch on YouTube", pl: "Oglądaj w YouTube", de: "Auf YouTube ansehen", cs: "Sledovat na YouTube" };
   const englishLabels = { pl: "po angielsku", de: "auf Englisch", cs: "anglicky" };
+  const multilingualVideo = (url) => url === "/assets/guide-four-domes-en-de-cs-pl.mp4";
+  const subtitleLabels = {
+    en: "English · DE/CZ/PL subtitles", pl: "Angielski · napisy DE/CZ/PL",
+    de: "Englisch · Untertitel DE/CZ/PL", cs: "Anglicky · titulky DE/CZ/PL",
+  };
   const escapeHtml = (value) => String(value || "").replace(/[&<>'"]/g, (char) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;",
   }[char]));
@@ -51,6 +56,7 @@
       });
       document.body.appendChild(dialog);
     }
+    dialog.classList.remove("guide-video-multilingual");
     dialog.querySelector("h2").textContent = title;
     dialog.querySelector(".guide-video-close").textContent = closeLabels[lang] || closeLabels.en;
     return dialog;
@@ -63,6 +69,7 @@
     const video = dialog.querySelector("video");
     video.hidden = false;
     video.src = url;
+    dialog.classList.toggle("guide-video-multilingual", multilingualVideo(url));
     dialog.showModal();
   }
 
@@ -85,7 +92,8 @@
   function button(id, lang = language(), resourceClass = "") {
     const url = sourceFor(id, lang);
     if (!url) return "";
-    const title = `${labels[lang] || labels.en}${englishLabels[lang] ? ` · ${englishLabels[lang]}` : ""}`;
+    const suffix = multilingualVideo(url) ? subtitleLabels[lang] || subtitleLabels.en : englishLabels[lang];
+    const title = `${labels[lang] || labels.en}${suffix ? ` · ${suffix}` : ""}`;
     if (localVideo(url)) {
       return `<button class="guide-video-action${resourceClass ? ` ${escapeHtml(resourceClass)}` : ""}" type="button" data-guide-video-src="${escapeHtml(url)}" data-guide-video-lang="${escapeHtml(lang)}" aria-label="${escapeHtml(title)}" title="${escapeHtml(title)}"><span class="brand-icon guide" aria-hidden="true"><img src="/assets/logo.png" alt=""></span><span>${escapeHtml(title)}</span></button>`;
     }

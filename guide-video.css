@@ -23,3 +23,12 @@
 .guide-video-panel [hidden] { display: none; }
 .guide-video-youtube { display: table; margin: 12px auto 0; color: #062b5c; font-weight: 700; text-decoration: underline; }
 .guide-video-close { float: inline-end; margin: 0 0 8px 8px; padding: 6px 12px; border: 1px solid #d5dce7; border-radius: 8px; background: #fff; color: inherit; font: inherit; cursor: pointer; }
+
+/* The extra subtitle band stays visible together with the portrait clip. */
+.guide-video-multilingual { max-height: 92dvh; }
+.guide-video-multilingual video {
+  width: auto;
+  max-width: 100%;
+  max-height: calc(92dvh - 110px);
+  margin-inline: auto;
+}
