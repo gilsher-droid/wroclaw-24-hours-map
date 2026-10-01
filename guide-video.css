@@ -71,3 +71,4 @@
 }
 .video-player[hidden] { display: none; }
 .video-dialog iframe.video-player { width: 100%; height: auto; aspect-ratio: 16 / 9; min-height: 200px; border: 0; }
+.guide-video-frame-host iframe { min-height: 200px; }
