@@ -1,0 +1,168 @@
+{
+  "asset": "/assets/guide-four-domes-en-de-cs-pl.mp4",
+  "source": "/Users/rachelfiler/Desktop/Wroclaw/4 domes/Guide/WhatsApp Video 2026-09-24 at 17.32.12.mp4",
+  "sourceYouTube": "https://youtube.com/shorts/Ud5KD21e5kE",
+  "sourceSHA256": "7a62ce96f903270eb6fe3286b9edbe5be3e08ea612bea905502757e3ead32d31",
+  "outputSHA256": "8f68d7b315eea7dd210bbfabf2c1b6cd8b4cab8f4c22ab5667cc68ad68089061",
+  "spokenLanguage": "en",
+  "burnedSubtitleLanguages": [
+    "de",
+    "cs",
+    "pl"
+  ],
+  "durationSeconds": 78.333333,
+  "width": 576,
+  "height": 1524,
+  "subtitleBandHeight": 420,
+  "fontPixels": 28,
+  "sourcePreserved": true,
+  "timingSource": "Original timestamped English transcript, regrouped into non-overlapping cues",
+  "translationPolicy": "Captions translate the spoken narrative, including its stated dates; they are not a corrected historical script.",
+  "cues": [
+    [
+      2.8,
+      5.28,
+      [
+        "Cześć, jak się masz?",
+        "Cześć, jak się masz?",
+        "Cześć, jak się masz?"
+      ]
+    ],
+    [
+      5.28,
+      8.16,
+      [
+        "Hallo! Wie geht es euch?",
+        "Ahoj! Jak se máte?",
+        "Cześć! Jak się macie?"
+      ]
+    ],
+    [
+      8.16,
+      16.84,
+      [
+        "Unser nächster Halt ist der Vier-Kuppel-Pavillon.",
+        "Naší další zastávkou je Pavilon čtyř kopulí.",
+        "Naszym kolejnym przystankiem jest Pawilon Czterech Kopuł."
+      ]
+    ],
+    [
+      16.84,
+      21.12,
+      [
+        "Auf Polnisch: Pawilon Czterech Kopuł.",
+        "Polsky: Pawilon Czterech Kopuł.",
+        "Po polsku: Pawilon Czterech Kopuł."
+      ]
+    ],
+    [
+      21.12,
+      26.32,
+      [
+        "Vielleicht spreche ich das falsch aus. Ich weiß es nicht.",
+        "Možná to vyslovuji špatně. Nevím.",
+        "Może źle to wymawiam. Nie wiem."
+      ]
+    ],
+    [
+      26.32,
+      29.04,
+      [
+        "So heißt dieser Ort auf Polnisch, ungefähr.",
+        "Tak nějak se toto místo jmenuje polsky.",
+        "Mniej więcej tak nazywa się to miejsce po polsku."
+      ]
+    ],
+    [
+      29.04,
+      37.5,
+      [
+        "Er wurde 1912 als Teil einer Ausstellung nahe der Jahrhunderthalle eröffnet.",
+        "Byl otevřen v roce 1912 jako součást výstavy poblíž Haly století.",
+        "Otwarto go w 1912 roku jako część wystawy przy Hali Stulecia."
+      ]
+    ],
+    [
+      37.5,
+      42.72,
+      [
+        "Das Gebäude entwarf der Architekt Hans Poelzig.",
+        "Budovu navrhl architekt Hans Poelzig.",
+        "Budynek zaprojektował architekt Hans Poelzig."
+      ]
+    ],
+    [
+      42.72,
+      46.7,
+      [
+        "Anfangs fanden hier Ausstellungen statt.",
+        "Zpočátku se zde konaly výstavy.",
+        "Początkowo odbywały się tu wystawy."
+      ]
+    ],
+    [
+      46.7,
+      49.28,
+      [
+        "Später wurde er ein Kino.",
+        "Později se z něj stalo kino.",
+        "Później stał się kinem."
+      ]
+    ],
+    [
+      49.28,
+      55.84,
+      [
+        "In der dritten Phase wurde er ein Museum für moderne Kunst,",
+        "Ve třetí fázi se stal muzeem moderního umění,",
+        "W trzecim etapie stał się muzeum sztuki nowoczesnej,"
+      ]
+    ],
+    [
+      55.84,
+      59.12,
+      [
+        "ein Teil des Nationalmuseums in Wrocław.",
+        "součástí Národního muzea ve Vratislavi.",
+        "częścią Muzeum Narodowego we Wrocławiu."
+      ]
+    ],
+    [
+      59.12,
+      63.84,
+      [
+        "Hinter mir seht ihr eine Kuppel. Schaut genau hin:",
+        "Za mnou vidíte kupoli. Podívejte se pozorně:",
+        "Za mną widzicie kopułę. Przyjrzyjcie się uważnie:"
+      ]
+    ],
+    [
+      63.84,
+      67.6,
+      [
+        "Es gibt tatsächlich vier Kuppeln!",
+        "Jsou tu ve skutečnosti čtyři kopule!",
+        "Tak naprawdę są tu cztery kopuły!"
+      ]
+    ],
+    [
+      67.6,
+      75.2,
+      [
+        "Besucht diesen wunderbaren Ort und seine großartigen Ausstellungen.",
+        "Navštivte toto nádherné místo a užijte si skvělé výstavy uvnitř.",
+        "Odwiedźcie to wspaniałe miejsce i zobaczcie świetne wystawy w środku."
+      ]
+    ],
+    [
+      75.2,
+      78.333333,
+      [
+        "Bis zu unserem nächsten Halt!",
+        "Uvidíme se na další zastávce!",
+        "Do zobaczenia na następnym przystanku!"
+      ]
+    ]
+  ],
+  "playerControlsSafeAreaHeight": 80
+}

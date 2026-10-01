@@ -17,7 +17,7 @@ test("travel-guide videos are a separate canonical resource selected by site lan
   const place = window.WROC_CATALOG.getPlace("four-domes");
   assert.equal(place.media.videos.length, 2);
   assert.equal(place.media.guideVideos.he, "https://youtube.com/shorts/cs7AmJhitLo");
-  assert.equal(place.media.guideVideos.en, "https://youtube.com/shorts/Ud5KD21e5kE");
+  assert.equal(place.media.guideVideos.en, "/assets/guide-four-domes-en-de-cs-pl.mp4");
   for (const url of Object.values(place.media.guideVideos)) {
     assert.ok(!place.media.videos.includes(url), "guide must stay out of ordinary videos");
   }
@@ -25,16 +25,19 @@ test("travel-guide videos are a separate canonical resource selected by site lan
     const expected = language === "he" ? place.media.guideVideos.he : place.media.guideVideos.en;
     assert.equal(window.WROC_GUIDE_VIDEO.sourceFor("four-domes", language), expected);
     const button = window.WROC_GUIDE_VIDEO.button("four-domes", language, "resource-icon");
-    assert.match(button, new RegExp(`href="${expected}"`));
-    assert.match(button, /target="_blank" rel="noopener noreferrer"/);
     assert.match(button, /assets\/logo.png/);
     assert.match(button, /resource-icon/);
-    const embed = window.WROC_GUIDE_VIDEO.embedUrlFor(expected, language);
-    assert.match(embed, new RegExp(`youtube-nocookie\\.com/embed/${language === "he" ? "cs7AmJhitLo" : "Ud5KD21e5kE"}`));
-    if (language === "he") assert.doesNotMatch(embed, /cc_lang_pref/);
-    else {
-      assert.match(embed, new RegExp(`cc_lang_pref=${language}`));
-      assert.match(embed, /cc_load_policy=1/);
+    if (language === "he") {
+      assert.match(button, new RegExp(`href="${expected}"`));
+      const embed = window.WROC_GUIDE_VIDEO.embedUrlFor(expected, language);
+      assert.match(embed, /youtube-nocookie\.com\/embed\/cs7AmJhitLo/);
+      assert.doesNotMatch(embed, /cc_lang_pref/);
+    } else {
+      assert.match(button, /<button/);
+      assert.match(button, /data-guide-video-src="\/assets\/guide-four-domes-en-de-cs-pl\.mp4"/);
+      assert.match(button, /DE\/CZ\/PL/);
+      assert.equal(window.WROC_GUIDE_VIDEO.embedUrlFor(expected, language), null);
+      assert.ok(existsSync(resolve(root, expected.slice(1))));
     }
   }
   assert.equal(window.WROC_GUIDE_VIDEO.button("aleja-bielany", "he"), "");
@@ -93,4 +96,5 @@ test("all map products load the dedicated travel-guide link", () => {
   assert.ok(existsSync(resolve(root, "dist/client/guide-video.css")));
   assert.ok(!existsSync(resolve(root, "dist/client/assets/guide-four-domes-he-v2.mp4")));
   assert.ok(!existsSync(resolve(root, "dist/client/assets/guide-four-domes-en-v2.mp4")));
+  assert.ok(existsSync(resolve(root, "dist/client/assets/guide-four-domes-en-de-cs-pl.mp4")));
 });

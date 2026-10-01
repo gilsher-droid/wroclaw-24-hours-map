@@ -4883,7 +4883,7 @@
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/cs7AmJhitLo",
-        "en": "https://youtube.com/shorts/Ud5KD21e5kE"
+        "en": "/assets/guide-four-domes-en-de-cs-pl.mp4"
       },
       "metadata": {
         "/assets/four-domes-pavilion-01.jpg": {
