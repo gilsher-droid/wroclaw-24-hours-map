@@ -1,0 +1,392 @@
+{
+  "brzeg-castle": {
+    "asset": "/assets/guide-brzeg-castle-en-de-cs-pl.mp4",
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/Queue/Brzeg/TourGuide/WhatsApp Video 2026-09-24 at 17.30.53.mp4",
+    "sourceAsset": "/assets/guide-brzeg-castle-en.mp4",
+    "sourceYouTube": "https://youtube.com/shorts/zbpTMh2Fe2c",
+    "sourceSHA256": "52e363c4732866b79e3401c783e561eedb10ee92836eae194fd1ccedd072336e",
+    "outputSHA256": "e0149bbd5ef8dc2814013f88c84a4fc4aebd8a1952ab93e4ce6a56216c385281",
+    "spokenLanguage": "en",
+    "burnedSubtitleLanguages": [
+      "de",
+      "cs",
+      "pl"
+    ],
+    "durationSeconds": 92.118333,
+    "width": 576,
+    "height": 1604,
+    "subtitleBandHeight": 420,
+    "playerControlsSafeAreaHeight": 160,
+    "fontPixels": 28,
+    "sourcePicturePreserved": true,
+    "timingSource": "Original timestamped English transcript, regrouped into non-overlapping cues and bounded by source duration",
+    "translationPolicy": "Translation of the spoken narrative, including uncertainty and stated historical claims; not a corrected historical script.",
+    "cues": [
+      [
+        1.68,
+        3.36,
+        [
+          "Hallo!",
+          "Ahoj!",
+          "Cześć!"
+        ]
+      ],
+      [
+        3.36,
+        11.52,
+        [
+          "Heute sind wir eine Stunde von Wrocław gefahren",
+          "Dnes jsme jeli hodinu z Vratislavi",
+          "Dziś jechaliśmy godzinę z Wrocławia"
+        ]
+      ],
+      [
+        11.52,
+        15.76,
+        [
+          "und in Italien angekommen. Ein Scherz natürlich!",
+          "a dorazili do Itálie. Samozřejmě žertuji!",
+          "i dotarliśmy do Włoch. Oczywiście żartuję!"
+        ]
+      ],
+      [
+        15.76,
+        22.24,
+        [
+          "Wir sind beim Schloss der Piasten in Brzeg.",
+          "Jsme na zámku piastovské dynastie v Brzegu.",
+          "Dotarliśmy do zamku Piastów w Brzegu."
+        ]
+      ],
+      [
+        22.24,
+        28.64,
+        [
+          "Hinter mir seht ihr den Eingang zu diesem Schloss,",
+          "Za mnou vidíte vstup do tohoto nádherného zámku,",
+          "Za mną widać wejście do tego wspaniałego zamku,"
+        ]
+      ],
+      [
+        28.64,
+        35.6,
+        [
+          "dem Sitz vieler Herrscher aus der Piasten-Dynastie.",
+          "který byl sídlem mnoha piastovských vládců.",
+          "który był siedzibą wielu władców z dynastii Piastów."
+        ]
+      ],
+      [
+        35.6,
+        42.48,
+        [
+          "Zu verschiedenen Zeiten gab es Fürsten, Herzöge und Könige Polens.",
+          "V různých dobách to byli knížata, vévodové i polští králové.",
+          "W różnych okresach byli to książęta i królowie Polski."
+        ]
+      ],
+      [
+        42.48,
+        49.28,
+        [
+          "In ganz Niederschlesien finden wir Spuren der Piasten:",
+          "Po celém Dolním Slezsku najdeme stopy Piastovců:",
+          "W całym Dolnym Śląsku można odnaleźć ślady Piastów:"
+        ]
+      ],
+      [
+        49.28,
+        54.56,
+        [
+          "in Wrocław, Brzeg und vielen anderen Orten.",
+          "ve Vratislavi, Brzegu a na mnoha dalších místech.",
+          "we Wrocławiu, Brzegu i wielu innych miejscach."
+        ]
+      ],
+      [
+        54.56,
+        63.6,
+        [
+          "Im Museum gibt es auch ein Mausoleum",
+          "V muzeu se nachází také mauzoleum",
+          "W muzeum znajduje się także mauzoleum"
+        ]
+      ],
+      [
+        63.6,
+        68.32,
+        [
+          "mit den Gräbern dieser Herzöge und Fürsten.",
+          "s hrobkami těchto vévodů a knížat.",
+          "z grobowcami książąt z tej dynastii."
+        ]
+      ],
+      [
+        68.32,
+        77.28,
+        [
+          "Es erzählt ein wichtiges Kapitel der polnischen Geschichte.",
+          "Vypráví důležitý příběh polských dějin.",
+          "Muzeum opowiada ważną część historii Polski."
+        ]
+      ],
+      [
+        77.28,
+        85.2,
+        [
+          "Besucht die schöne Stadt Brzeg an der Oder!",
+          "Navštivte krásný Brzeg na řece Odře!",
+          "Zapraszam do pięknego Brzegu nad Odrą."
+        ]
+      ],
+      [
+        85.2,
+        92.118333,
+        [
+          "Wir sehen uns auf dem Rynek, dem Marktplatz von Brzeg!",
+          "Uvidíme se na brzeském Rynku, na náměstí!",
+          "Do zobaczenia na brzeskim Rynku!"
+        ]
+      ]
+    ]
+  },
+  "brzeg-oder-gate": {
+    "asset": "/assets/guide-brzeg-oder-gate-en-de-cs-pl.mp4",
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/Queue/Brzeg/TourGuide/WhatsApp Video 2026-09-24 at 17.28.40.mp4",
+    "sourceAsset": "/assets/guide-brzeg-oder-gate-en.mp4",
+    "sourceYouTube": "https://youtube.com/shorts/xs3NY7q0OX4",
+    "sourceSHA256": "8de253722a732dfd285157e8744388550f4563b031f4490767acec76910b88a4",
+    "outputSHA256": "5f8f8a940ffc9e9159b9ef481e26044a6ec987eb5d98957cb88ca241461b9bfd",
+    "spokenLanguage": "en",
+    "burnedSubtitleLanguages": [
+      "de",
+      "cs",
+      "pl"
+    ],
+    "durationSeconds": 50.933333,
+    "width": 576,
+    "height": 1604,
+    "subtitleBandHeight": 420,
+    "playerControlsSafeAreaHeight": 160,
+    "fontPixels": 28,
+    "sourcePicturePreserved": true,
+    "timingSource": "Original timestamped English transcript, regrouped into non-overlapping cues and bounded by source duration",
+    "translationPolicy": "Translation of the spoken narrative, including uncertainty and stated historical claims; not a corrected historical script.",
+    "cues": [
+      [
+        1.36,
+        5.36,
+        [
+          "Wow. Wir kommen gerade aus dem Schloss Brzeg.",
+          "Právě jsme vyšli ze zámku v Brzegu.",
+          "Właśnie wyszliśmy z zamku w Brzegu."
+        ]
+      ],
+      [
+        5.36,
+        8.56,
+        [
+          "Ein Museum über die schlesischen Piasten,",
+          "Muzeum vypráví o slezských Piastovcích,",
+          "Muzeum opowiada o Piastach śląskich,"
+        ]
+      ],
+      [
+        8.56,
+        19.52,
+        [
+          "einem Zweig der Familie, die Polen regierte: Königen und Herzögen.",
+          "větvi rodu, který vládl Polsku: králích a vévodech.",
+          "gałęzi rodu, który rządził Polską: królach i książętach."
+        ]
+      ],
+      [
+        19.52,
+        22.88,
+        [
+          "Ich empfehle einen Besuch wirklich sehr.",
+          "Návštěvu tohoto místa opravdu doporučuji.",
+          "Naprawdę polecam odwiedzić to miejsce."
+        ]
+      ],
+      [
+        22.88,
+        30.96,
+        [
+          "Hinter mir seht ihr einen letzten Rest der Stadtmauer von Brzeg.",
+          "Za mnou vidíte poslední pozůstatek hradeb kolem Brzegu.",
+          "Za mną widać ostatnią pozostałość murów otaczających Brzeg."
+        ]
+      ],
+      [
+        30.96,
+        38.96,
+        [
+          "In der Mitte ist das Symbol der Stadt zu sehen,",
+          "Uprostřed je symbol města,",
+          "Pośrodku widać symbol miasta,"
+        ]
+      ],
+      [
+        38.96,
+        43.52,
+        [
+          "darüber das Wappen der Piasten-Dynastie.",
+          "nad ním erb piastovské dynastie.",
+          "a nad nim herb dynastii Piastów."
+        ]
+      ],
+      [
+        43.52,
+        50.933333,
+        [
+          "Ich empfehle euch den Besuch. Es ist wunderbar.",
+          "Návštěvu vřele doporučuji. Je to nádherné.",
+          "Bardzo polecam wizytę. To piękne miejsce."
+        ]
+      ]
+    ]
+  },
+  "moszna-castle": {
+    "asset": "/assets/guide-moszna-castle-en-de-cs-pl.mp4",
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/Queue/Moszna Castle/TlourGuide/WhatsApp Video 2026-09-24 at 17.26.40.mp4",
+    "sourceAsset": "/assets/guide-moszna-castle-en.mp4",
+    "sourceYouTube": "https://youtube.com/shorts/UqqWiyXRk00",
+    "sourceSHA256": "67f78cde4b288f68f066fbfd44fea9cfd879740e0fe79c1513a33b9bbc4e0615",
+    "outputSHA256": "325dd97ea991f888ad2a78e4960696f4c2484001020568da43b50f01b44ae9d0",
+    "spokenLanguage": "en",
+    "burnedSubtitleLanguages": [
+      "de",
+      "cs",
+      "pl"
+    ],
+    "durationSeconds": 68.766667,
+    "width": 576,
+    "height": 1604,
+    "subtitleBandHeight": 420,
+    "playerControlsSafeAreaHeight": 160,
+    "fontPixels": 28,
+    "sourcePicturePreserved": true,
+    "timingSource": "Original timestamped English transcript, regrouped into non-overlapping cues and bounded by source duration",
+    "translationPolicy": "Translation of the spoken narrative, including uncertainty and stated historical claims; not a corrected historical script.",
+    "cues": [
+      [
+        1.68,
+        7.52,
+        [
+          "Cześć! Nächster Halt unseres Tagesausflugs ab Wrocław,",
+          "Cześć! Další zastávka našeho výletu z Vratislavi,",
+          "Cześć! To kolejny przystanek wycieczki z Wrocławia,"
+        ]
+      ],
+      [
+        7.52,
+        11.28,
+        [
+          "Unser Ausflug begann in Brzeg.",
+          "Náš výlet začal v Brzegu.",
+          "Nasza wycieczka zaczęła się w Brzegu."
+        ]
+      ],
+      [
+        11.28,
+        14.48,
+        [
+          "Ich freue mich, euch Schloss Moszna zu zeigen!",
+          "S nadšením vám představuji zámek Moszna!",
+          "Z radością przedstawiam wam zamek w Mosznej!"
+        ]
+      ],
+      [
+        14.48,
+        22.64,
+        [
+          "Manche Schlösser sind historisch; dieses wirkt wie ein Märchen.",
+          "Některé zámky jsou historické; tento vypadá jako z pohádky.",
+          "Niektóre zamki są historyczne, a ten wygląda jak z bajki."
+        ]
+      ],
+      [
+        22.64,
+        32.24,
+        [
+          "Erbaut wurde es von der reichen Familie Tiele-Winckler.",
+          "Postavila ho bohatá místní rodina Tiele-Wincklerů.",
+          "Zbudowała go zamożna rodzina Tiele-Wincklerów."
+        ]
+      ],
+      [
+        32.24,
+        35.36,
+        [
+          "Das Familienoberhaupt Hubert von Tiele-Winckler",
+          "Hlava rodu, Hubert von Tiele-Winckler,",
+          "Głowa rodu, Hubert von Tiele-Winckler,"
+        ]
+      ],
+      [
+        35.36,
+        44.08,
+        [
+          "erhielt den Grafentitel von Kaiser Wilhelm II.",
+          "získal hraběcí titul od císaře Viléma II.",
+          "otrzymał tytuł hrabiego od cesarza Wilhelma II."
+        ]
+      ],
+      [
+        44.08,
+        47.36,
+        [
+          "Das Schloss soll 99 Türme haben.",
+          "Zámek prý má 99 věží.",
+          "Zamek ma podobno 99 wież."
+        ]
+      ],
+      [
+        47.36,
+        49.1,
+        [
+          "Da bin ich mir nicht sicher.",
+          "Tím si nejsem jistý.",
+          "Tego nie jestem pewien."
+        ]
+      ],
+      [
+        49.1,
+        53.04,
+        [
+          "Und 365 Zimmer — das klingt plausibler.",
+          "A 365 pokojů — to dává větší smysl.",
+          "I 365 pokoi — to wydaje się bardziej sensowne."
+        ]
+      ],
+      [
+        53.04,
+        58.0,
+        [
+          "Heute gibt es hier auch ein Hotel und ein Restaurant.",
+          "Dnes je zde také hotel a restaurace.",
+          "Dziś działa tu także hotel i restauracja."
+        ]
+      ],
+      [
+        58.0,
+        64.0,
+        [
+          "Kommt vorbei und steigt auf die Türme!",
+          "Přijeďte se podívat a vystoupejte na věže!",
+          "Przyjedźcie zobaczyć to miejsce i wejdźcie na wieże,"
+        ]
+      ],
+      [
+        64.0,
+        68.766667,
+        [
+          "Zum Schluss gibt es Kuchen und Kaffee. Bis bald!",
+          "Nakonec si dejte dort a kávu. Na viděnou!",
+          "a na koniec zjedzcie ciasto i wypijcie kawę. Do zobaczenia!"
+        ]
+      ]
+    ]
+  }
+}

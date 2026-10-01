@@ -15,4 +15,4 @@ Studio audit on 2026-10-01: all 8 Shorts were already Public; no existing visibi
 - Ud5KD21e5kE — Four Domes Pavilion, English
 - cs7AmJhitLo — Four Domes Pavilion, Hebrew
 
-The new Four Domes multilingual edition was prepared from the English source with German, Czech and Polish subtitles shown together below the original picture. It is selected on the website for every non-Hebrew language. The existing Hebrew guide remains selected for Hebrew. A specific approval for a new YouTube upload was requested in the chat; the blocked attempt did not create a new video.
+The Four Domes, Brzeg Castle, Brzeg Oder Gate and Moszna Castle multilingual editions were prepared from their English sources with German, Czech and Polish subtitles shown together below the original picture. Each is selected on the website for every non-Hebrew language. The existing Hebrew guide remains selected for Hebrew. A specific approval for a new YouTube upload was requested in the chat; the blocked attempt did not create a new video.

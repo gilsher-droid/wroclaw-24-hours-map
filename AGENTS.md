@@ -7,3 +7,9 @@ The user explicitly instructed on 2026-10-01 that all videos uploaded to the Wro
 Channel ID: UCecxn_f6i_i47s3HXYrUVkA.
 
 YouTube Studio upload defaults were changed to Public on 2026-10-01. Check each actual upload's final visibility as well.
+
+## Multilingual video subtitles
+
+The user instructed on 2026-10-01 to apply the Four Domes subtitle treatment to all non-Hebrew project guide videos linked from the website. Every non-Hebrew edition must show German, Czech and Polish subtitles simultaneously in a separate dark band below the preserved original picture. Preserve the spoken audio, translate the actual narrative, use source-based timing, and reserve sufficient space below captions for native playback controls. Hebrew visitors select the Hebrew edition. All other site languages select the captioned edition.
+
+Record each captioned asset, source, translations, timings and checksum in the subtitle provenance manifests. The guide regression tests enforce coverage for all linked English editions. For future videos, produce the captioned edition before linking it from the website.
