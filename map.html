@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/now-in-wroclaw.css?v=20260928-2" />
     <link rel="stylesheet" href="/place-amenities.css?v=20260824-1" />
     <link rel="stylesheet" href="/consent.css?v=20260924-2" />
-    <link rel="stylesheet" href="/guide-video.css?v=20261001-5" />
+    <link rel="stylesheet" href="/guide-video.css?v=20261001-6" />
   </head>
   <body>
     <a class="skip-link" href="#route-list" data-i18n="skipToRoute">דלגו למסלול</a>
@@ -155,7 +155,7 @@
           <h2 id="video-title"></h2>
           <button type="button" class="gallery-close" id="video-close" aria-label="סגירת נגן הווידאו">×</button>
         </header>
-        <video id="video-player" class="video-player" controls playsinline preload="metadata"></video>
+        <iframe id="video-player" class="video-player" title="YouTube video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <div class="video-choices" id="video-choices"></div>
       </section>
     </div>
@@ -167,12 +167,14 @@
       <script src="/campaign-access.js?v=20260809-1"></script>
     <script src="/data/translations.js?v=20260807-3"></script>
     <script src="/data/place-catalog.js?v=20260925-4"></script>
-    <script src="/guide-video.js?v=20261001-5"></script>
+    <script src="/data/youtube-video-hosting.js?v=20261001-1"></script>
+    <script src="/youtube-video.js?v=20261001-1"></script>
+    <script src="/guide-video.js?v=20261001-6"></script>
     <script src="/data/canonical-experiences.js?v=20260906-1"></script>
     <script src="/data/place-amenities.js?v=20260824-1"></script>
     <script src="/data/location-media.js?v=20260808-10"></script>
     <script src="/data/locations.js?v=20260809-1"></script>
-    <script src="/app.js?v=20260812-1"></script>
+    <script src="/app.js?v=20261001-6"></script>
     <script src="/data/now-in-wroclaw.js?v=20260928-2"></script>
     <script src="/now-in-wroclaw.js?v=20260928-2"></script>
     <script src="/analytics-config.js?v=20260924-2" defer></script>

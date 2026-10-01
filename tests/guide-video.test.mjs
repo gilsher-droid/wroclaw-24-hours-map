@@ -1,156 +1,54 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { existsSync, readFileSync } from "node:fs";
-import { resolve } from "node:path";
-import { runInNewContext } from "node:vm";
-import { createHash } from "node:crypto";
-
-const root = resolve(import.meta.dirname, "..");
-
-test("travel-guide videos are a separate canonical resource selected by site language", () => {
-  const window = {};
-  const document = { documentElement: { lang: "he" }, body: { insertAdjacentHTML() {} }, addEventListener() {} };
-  const context = { window, document, console, URLSearchParams };
-  runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
-  runInNewContext(readFileSync(resolve(root, "guide-video.js"), "utf8"), context);
-
-  const place = window.WROC_CATALOG.getPlace("four-domes");
-  assert.equal(place.media.videos.length, 2);
-  assert.equal(place.media.guideVideos.he, "https://youtube.com/shorts/cs7AmJhitLo");
-  assert.equal(place.media.guideVideos.en, "/assets/guide-four-domes-en-de-cs-pl.mp4");
-  for (const url of Object.values(place.media.guideVideos)) {
-    assert.ok(!place.media.videos.includes(url), "guide must stay out of ordinary videos");
-  }
-  for (const language of ["he", "en", "pl", "de", "cs"]) {
-    const expected = language === "he" ? place.media.guideVideos.he : place.media.guideVideos.en;
-    assert.equal(window.WROC_GUIDE_VIDEO.sourceFor("four-domes", language), expected);
-    const button = window.WROC_GUIDE_VIDEO.button("four-domes", language, "resource-icon");
-    assert.match(button, /assets\/logo.png/);
-    assert.match(button, /resource-icon/);
-    if (language === "he") {
-      assert.match(button, new RegExp(`href="${expected}"`));
-      const embed = window.WROC_GUIDE_VIDEO.embedUrlFor(expected, language);
-      assert.match(embed, /youtube-nocookie\.com\/embed\/cs7AmJhitLo/);
-      assert.doesNotMatch(embed, /cc_lang_pref/);
-    } else {
-      assert.match(button, /<button/);
-      assert.match(button, /data-guide-video-src="\/assets\/guide-four-domes-en-de-cs-pl\.mp4"/);
-      assert.match(button, /DE\/CZ\/PL/);
-      assert.equal(window.WROC_GUIDE_VIDEO.embedUrlFor(expected, language), null);
-      assert.ok(existsSync(resolve(root, expected.slice(1))));
-    }
-  }
-  assert.equal(window.WROC_GUIDE_VIDEO.button("aleja-bielany", "he"), "");
+import {existsSync,readFileSync,readdirSync} from "node:fs";
+import {resolve} from "node:path";
+import {runInNewContext} from "node:vm";
+import {createHash} from "node:crypto";
+const root=resolve(import.meta.dirname,"..");
+const videos={"four-domes":{he:"cs7AmJhitLo",en:"Ud5KD21e5kE"},"brzeg-castle":{he:"IYllRzq9VJs",en:"zbpTMh2Fe2c"},"brzeg-oder-gate":{he:"hvnoxm3reWo",en:"xs3NY7q0OX4"},"moszna-castle":{he:"5ghRWvbwU6Q",en:"UqqWiyXRk00"}};
+function runtime(){const window={location:{origin:"https://wroc-love.com"}};const document={documentElement:{lang:"he"},addEventListener(){}};for(const file of ["data/place-catalog.js","guide-video.js"])runInNewContext(readFileSync(resolve(root,file),"utf8"),{window,document,console,URLSearchParams});return window;}
+const captions=JSON.parse(readFileSync(resolve(root,"data/guide-player-captions.json"),"utf8"));
+const manifests={...JSON.parse(readFileSync(resolve(root,"data/additional-guides-subtitle-provenance.json"),"utf8")),"four-domes":JSON.parse(readFileSync(resolve(root,"data/four-domes-subtitle-provenance.json"),"utf8"))};
+test("all guide language editions use the correct YouTube video and preserve separate ordinary media",()=>{
+ const window=runtime();
+ for(const [id,edition]of Object.entries(videos))for(const lang of ["he","en","pl","de","cs"]){
+  const expected=`https://youtube.com/shorts/${edition[lang==="he"?"he":"en"]}`;
+  const place=window.WROC_CATALOG.getPlace(id);
+  assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id,lang),expected);
+  assert.ok(!place.media.videos.includes(expected));
+  const button=window.WROC_GUIDE_VIDEO.button(id,lang);assert.match(button,new RegExp(`href="${expected}"`));
+  assert.match(button,/<a/);if(lang!=="he")assert.match(button,/DE\/CZ\/PL/);
+  const embed=window.WROC_GUIDE_VIDEO.embedUrlFor(expected,lang);assert.match(embed,/youtube-nocookie\.com\/embed\//);assert.match(embed,/enablejsapi=1/);assert.match(embed,/origin=https%3A%2F%2Fwroc-love.com/);
+ }
+ assert.equal(window.WROC_GUIDE_VIDEO.button("aleja-bielany","he"),"");
 });
-
-test("Brzeg and Moszna guide clips use their verified place and spoken language", () => {
-  const provenance = JSON.parse(readFileSync(resolve(root, "data/brzeg-moszna-guide-video-provenance.json"), "utf8"));
-  const youtube = {
-    "brzeg-castle": { he: "IYllRzq9VJs", en: "zbpTMh2Fe2c" },
-    "brzeg-oder-gate": { he: "hvnoxm3reWo", en: "xs3NY7q0OX4" },
-    "moszna-castle": { he: "5ghRWvbwU6Q", en: "UqqWiyXRk00" },
-  };
-  const window = {};
-  const document = { documentElement: { lang: "he" }, addEventListener() {} };
-  runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), { window, console });
-  runInNewContext(readFileSync(resolve(root, "guide-video.js"), "utf8"), { window, document, console });
-  const places = ["brzeg-castle", "brzeg-oder-gate", "moszna-castle"];
-  const assigned = new Set();
-  for (const id of places) {
-    const place = window.WROC_CATALOG.getPlace(id);
-    for (const lang of ["he", "en"]) {
-      const url = place.media.guideVideos[lang];
-      const asset = `/assets/guide-${id}-${lang}.mp4`;
-      assigned.add(asset);
-      assert.equal(url, lang === "he" ? `https://youtube.com/shorts/${youtube[id][lang]}` : `/assets/guide-${id}-en-de-cs-pl.mp4`);
-      assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id, lang), url);
-      const button = window.WROC_GUIDE_VIDEO.button(id, lang);
-      if (lang === "he") assert.match(button, new RegExp(`href="${url}"`));
-      else {
-        assert.match(button, new RegExp(`data-guide-video-src="${url}"`));
-        assert.match(button, /DE\/CZ\/PL/);
-        assert.match(button, /<button/);
-        assert.ok(existsSync(resolve(root, url.slice(1))));
-      }
-      assert.ok(existsSync(resolve(root, asset.slice(1))));
-      const source = provenance[asset];
-      assert.ok(source, `missing approved source for ${asset}`);
-      assert.match(source.toLowerCase(), id.startsWith("moszna-") ? /\/moszna castle\/tlourguide\// : /\/brzeg\/tourguide\//);
-      if (existsSync(source)) {
-        const digest = (file) => createHash("sha256").update(readFileSync(file)).digest("hex");
-        assert.equal(digest(resolve(root, asset.slice(1))), digest(source));
-      }
-    }
-    for (const lang of ["pl", "de", "cs"]) {
-      assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id, lang), place.media.guideVideos.en);
-    }
-  }
-  assert.deepEqual([...assigned].sort(), Object.keys(provenance).sort());
-  assert.equal(window.WROC_GUIDE_VIDEO.button("brzeg-town-hall", "he"), "");
-  assert.equal(window.WROC_GUIDE_VIDEO.button("moszna-castle-park", "en"), "");
+test("guide sources remain traceable in local production backups",()=>{
+ const digest=file=>createHash("sha256").update(readFileSync(file)).digest("hex");
+ for(const [id,manifest]of Object.entries(manifests)){
+  const source=resolve(root,`assets/guide-${id}-en.mp4`);
+  assert.equal(digest(source),manifest.sourceSHA256);
+  assert.equal(digest(resolve(root,manifest.asset.slice(1))),manifest.outputSHA256);
+ }
 });
-
-test("all map products load the dedicated travel-guide link", () => {
-  for (const page of ["map", "premium", "moshe", "lifestyle", "cultural", "excursions"]) {
-    const html = readFileSync(resolve(root, `${page}.html`), "utf8");
-    assert.match(html, /\/guide-video\.js\?v=/);
-    assert.match(html, /\/guide-video\.css\?v=/);
-  }
-  for (const page of ["app", "premium", "lifestyle", "cultural", "excursions"]) {
-    assert.match(readFileSync(resolve(root, `${page}.js`), "utf8"), /WROC_GUIDE_VIDEO\?\.button/);
-  }
-  assert.ok(existsSync(resolve(root, "dist/client/guide-video.js")));
-  assert.ok(existsSync(resolve(root, "dist/client/guide-video.css")));
-  assert.ok(!existsSync(resolve(root, "dist/client/assets/guide-four-domes-he-v2.mp4")));
-  assert.ok(!existsSync(resolve(root, "dist/client/assets/guide-four-domes-en-v2.mp4")));
-  for (const id of ["four-domes", "brzeg-castle", "brzeg-oder-gate", "moszna-castle"]) {
-    assert.ok(existsSync(resolve(root, `dist/client/assets/guide-${id}-en-de-cs-pl.mp4`)));
-  }
+test("no video files are published and every product loads the YouTube renderer",()=>{
+ function scan(folder){return readdirSync(folder,{withFileTypes:true}).flatMap(e=>e.isDirectory()?scan(resolve(folder,e.name)):[resolve(folder,e.name)]);}
+ assert.deepEqual(scan(resolve(root,"dist/client")).filter(p=>/\.(mp4|mov|webm|m4v|avi)$/i.test(p)),[]);
+ for(const name of ["map","premium","moshe","lifestyle","cultural","excursions"]){const html=readFileSync(resolve(root,`${name}.html`),"utf8");assert.match(html,/\/guide-video\.js\?v=/);assert.match(html,/\/youtube-video\.js\?v=/);assert.match(html,/\/data\/youtube-video-hosting\.js\?v=/);}
+ assert.ok(existsSync(resolve(root,"dist/client/youtube-video.js")));
 });
-
-
-test("every linked non-Hebrew guide has all three subtitle languages and valid cue coverage", () => {
-  const window = {};
-  runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), { window, console });
-  const additional = JSON.parse(readFileSync(resolve(root, "data/additional-guides-subtitle-provenance.json"), "utf8"));
-  const manifests = { ...additional, "four-domes": JSON.parse(readFileSync(resolve(root, "data/four-domes-subtitle-provenance.json"), "utf8")) };
-  // Audit all canonical records, so future guides cannot silently omit the subtitle edition.
-  const linkedPaths = Object.values(window.WROC_CATALOG.places)
-    .filter((place) => place.media?.guideVideos?.en)
-    .map((place) => place.media.guideVideos.en);
-  assert.equal(linkedPaths.length, Object.keys(manifests).length);
-  for (const [id, manifest] of Object.entries(manifests)) {
-    const place = window.WROC_CATALOG.getPlace(id);
-    assert.equal(place.media.guideVideos.en, manifest.asset);
-    assert.ok(linkedPaths.includes(manifest.asset));
-    assert.deepEqual(manifest.burnedSubtitleLanguages, ["de", "cs", "pl"]);
-    assert.equal(createHash("sha256").update(readFileSync(resolve(root, manifest.asset.slice(1)))).digest("hex"), manifest.outputSHA256);
-    assert.ok(manifest.playerControlsSafeAreaHeight >= 160);
-    let previousEnd = 0;
-    for (const [start, end, translations] of manifest.cues) {
-      assert.ok(start >= previousEnd && end > start && end <= manifest.durationSeconds);
-      assert.equal(translations.length, 3);
-      assert.ok(translations.every((text) => typeof text === "string" && text.trim()));
-      previousEnd = end;
-    }
-  }
+test("every linked English guide has complete DE CS PL cue coverage",()=>{
+ const window=runtime();const linked=Object.values(window.WROC_CATALOG.places).filter(p=>p.media?.guideVideos?.en);
+ assert.equal(linked.length,Object.keys(captions).length);
+ for(const place of linked){
+  const id=place.id,manifest=manifests[id],edition=captions[videos[id].en];
+  assert.ok(edition);assert.deepEqual(manifest.burnedSubtitleLanguages,["de","cs","pl"]);assert.deepEqual(edition.cues,manifest.cues);
+  let previousEnd=0;for(const [start,end,translations]of edition.cues){assert.ok(start>=previousEnd&&end>start&&end<=manifest.durationSeconds);assert.equal(translations.length,3);assert.ok(translations.every(text=>typeof text==="string"&&text.trim()));previousEnd=end;}
+ }
 });
-
-test("responsive captions stay synchronized after seeking and retain all three languages", () => {
-  const window = {};
-  const document = { documentElement: { lang: "en" }, addEventListener() {} };
-  runInNewContext(readFileSync(resolve(root, "guide-video.js"), "utf8"), { window, document, console, URLSearchParams });
-  const editions = JSON.parse(readFileSync(resolve(root, "data/guide-player-captions.json"), "utf8"));
-  assert.equal(Object.keys(editions).length, 4);
-  for (const edition of Object.values(editions)) {
-    assert.ok(existsSync(resolve(root, edition.source.slice(1))));
-    assert.ok(existsSync(resolve(root, `dist/client${edition.source}`)));
-    for (const [start, end, text] of edition.cues) {
-      assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues, (start + end) / 2)), text);
-    }
-    assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues, -1)), ["", "", ""]);
-    assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues, edition.cues.at(-1)[1])), ["", "", ""]);
-    const first = edition.cues[0];
-    assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues, first[0])), first[2]);
-  }
+test("responsive captions stay synchronized across seeks and exact cue boundaries",()=>{
+ const window=runtime();for(const edition of Object.values(captions)){
+  for(const [start,end,text]of edition.cues){assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues,(start+end)/2)),text);assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues,start)),text);}
+  assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues,-1)),["","",""]);
+  assert.deepEqual(Array.from(window.WROC_GUIDE_VIDEO.cueAt(edition.cues,edition.cues.at(-1)[1])),["","",""]);
+ }
 });

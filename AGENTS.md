@@ -15,3 +15,7 @@ The user instructed on 2026-10-01 to apply the Four Domes subtitle treatment to 
 Record each captioned asset, source, translations, timings and checksum in the subtitle provenance manifests. The guide regression tests enforce coverage for all linked English editions. For future videos, produce the captioned edition before linking it from the website.
 
 The user requested responsive spacing on 2026-10-01: the website player displays synchronized DE/CS/PL captions beside the original portrait video on desktop and below it on mobile. Keep all three languages visible with readable live text, no baked-in empty spacer, and captions included in the custom fullscreen presentation. Burned-caption assets remain the fallback if caption data cannot load.
+
+## YouTube-only hosting (supersedes local playback and burned-asset fallback)
+
+User instruction 2026-10-01: all website videos must be hosted on YouTube, and all project uploads must be Public. Never ship MP4, MOV, WebM or other video files in the website artifact. Preserve local production backups in Git or the workspace. Use the verified YouTube media registry for visit clips; until quota-delayed uploads are published, render a localized pending notice instead of a local player or broken URL. Guide videos use existing YouTube originals with responsive synchronized DE/CS/PL live captions. The user explicitly confirmed all visit clips are general-audience content and approved not-made-for-kids. They also approved daily automated continuation until the migration is complete.

@@ -239,7 +239,7 @@
     document.getElementById("media-title").textContent = placeName(place);
     const content = document.getElementById("media-content");
     if (type === "gallery") content.innerHTML = `<div class="media-grid">${(media.gallery || []).map((src) => `<img src="${escapeHtml(src)}" alt="${escapeHtml(local(place.canonicalPlace?.media?.metadata?.[src]?.alt) || placeName(place))}" loading="lazy">`).join("")}</div>`;
-    else content.innerHTML = `<div class="media-grid">${(media.videos || []).map((video) => `<video controls playsinline preload="metadata" src="${video.src}"></video>`).join("")}</div>`;
+    else content.innerHTML = `<div class="media-grid">${(media.videos || []).map((video) => window.WROC_YOUTUBE_VIDEO.html(video.src, "Video", language)).join("")}</div>`;
     modal.hidden = false;
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
@@ -250,7 +250,7 @@
     const modal = document.getElementById("media-modal");
     modal.hidden = true;
     modal.setAttribute("aria-hidden", "true");
-    modal.querySelectorAll("video").forEach((video) => video.pause());
+    modal.querySelectorAll("iframe").forEach((frame) => frame.removeAttribute("src"));
     document.body.style.overflow = "";
   }
 

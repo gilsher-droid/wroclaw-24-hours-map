@@ -202,7 +202,7 @@
         <button type="button" class="gallery-backdrop" data-close-video aria-label="${escapeHtml(t("closeVideo"))}"></button>
         <section class="video-dialog" role="dialog" aria-modal="true" aria-labelledby="video-title">
           <header class="gallery-header"><h2 id="video-title"></h2><button type="button" class="gallery-close" id="video-close" data-close-video>×</button></header>
-          <video id="video-player" class="video-player" controls playsinline preload="metadata"></video><div class="video-choices" id="video-choices"></div>
+          <iframe id="video-player" class="video-player" title="YouTube video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe><div class="video-choices" id="video-choices"></div>
         </section>
       </div>`);
     translateResourceControls();
@@ -279,8 +279,7 @@
     const videos = resourcesFor(activeVideoLocation).videos;
     const selected = videos[activeVideoIndex];
     const player = document.getElementById("video-player");
-    player.pause();
-    player.src = selected.src;
+    window.WROC_YOUTUBE_VIDEO.setFrame(player, selected.src);
     player.setAttribute("aria-label", text(selected.title));
     document.getElementById("video-title").textContent = `${text(activeVideoLocation.name)} — ${text(selected.title)}`;
     document.querySelectorAll(".video-choice").forEach((button, index) => {
@@ -309,9 +308,7 @@
     const modal = document.getElementById("video-modal");
     if (!modal || modal.hidden) return;
     const player = document.getElementById("video-player");
-    player.pause();
     player.removeAttribute("src");
-    player.load();
     modal.hidden = true;
     document.body.classList.remove("gallery-open");
     activeVideoLocation = null;

@@ -404,8 +404,7 @@
     const videos = activeVideoLocation.resources.videos;
     const selected = videos[activeVideoIndex];
     const player = document.getElementById("video-player");
-    player.pause();
-    player.src = selected.src;
+    window.WROC_YOUTUBE_VIDEO.setFrame(player, selected.src);
     player.setAttribute("aria-label", selected.title[currentLanguage]);
     document.getElementById("video-title").textContent = `${activeVideoLocation.name[currentLanguage]} — ${selected.title[currentLanguage]}`;
     document.querySelectorAll(".video-choice").forEach((button, index) => {
@@ -434,9 +433,7 @@
     const modal = document.getElementById("video-modal");
     if (modal.hidden) return;
     const player = document.getElementById("video-player");
-    player.pause();
     player.removeAttribute("src");
-    player.load();
     modal.hidden = true;
     document.body.classList.remove("gallery-open");
     activeVideoLocation = null;
