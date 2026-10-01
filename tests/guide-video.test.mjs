@@ -62,9 +62,16 @@ test("Brzeg and Moszna guide clips use their verified place and spoken language"
       const url = place.media.guideVideos[lang];
       const asset = `/assets/guide-${id}-${lang}.mp4`;
       assigned.add(asset);
-      assert.equal(url, `https://youtube.com/shorts/${youtube[id][lang]}`);
+      assert.equal(url, lang === "he" ? `https://youtube.com/shorts/${youtube[id][lang]}` : `/assets/guide-${id}-en-de-cs-pl.mp4`);
       assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id, lang), url);
-      assert.match(window.WROC_GUIDE_VIDEO.button(id, lang), new RegExp(`href="${url}"`));
+      const button = window.WROC_GUIDE_VIDEO.button(id, lang);
+      if (lang === "he") assert.match(button, new RegExp(`href="${url}"`));
+      else {
+        assert.match(button, new RegExp(`data-guide-video-src="${url}"`));
+        assert.match(button, /DE\/CZ\/PL/);
+        assert.match(button, /<button/);
+        assert.ok(existsSync(resolve(root, url.slice(1))));
+      }
       assert.ok(existsSync(resolve(root, asset.slice(1))));
       const source = provenance[asset];
       assert.ok(source, `missing approved source for ${asset}`);
@@ -96,5 +103,35 @@ test("all map products load the dedicated travel-guide link", () => {
   assert.ok(existsSync(resolve(root, "dist/client/guide-video.css")));
   assert.ok(!existsSync(resolve(root, "dist/client/assets/guide-four-domes-he-v2.mp4")));
   assert.ok(!existsSync(resolve(root, "dist/client/assets/guide-four-domes-en-v2.mp4")));
-  assert.ok(existsSync(resolve(root, "dist/client/assets/guide-four-domes-en-de-cs-pl.mp4")));
+  for (const id of ["four-domes", "brzeg-castle", "brzeg-oder-gate", "moszna-castle"]) {
+    assert.ok(existsSync(resolve(root, `dist/client/assets/guide-${id}-en-de-cs-pl.mp4`)));
+  }
+});
+
+
+test("every linked non-Hebrew guide has all three subtitle languages and valid cue coverage", () => {
+  const window = {};
+  runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), { window, console });
+  const additional = JSON.parse(readFileSync(resolve(root, "data/additional-guides-subtitle-provenance.json"), "utf8"));
+  const manifests = { ...additional, "four-domes": JSON.parse(readFileSync(resolve(root, "data/four-domes-subtitle-provenance.json"), "utf8")) };
+  // Audit all canonical records, so future guides cannot silently omit the subtitle edition.
+  const linkedPaths = Object.values(window.WROC_CATALOG.places)
+    .filter((place) => place.media?.guideVideos?.en)
+    .map((place) => place.media.guideVideos.en);
+  assert.equal(linkedPaths.length, Object.keys(manifests).length);
+  for (const [id, manifest] of Object.entries(manifests)) {
+    const place = window.WROC_CATALOG.getPlace(id);
+    assert.equal(place.media.guideVideos.en, manifest.asset);
+    assert.ok(linkedPaths.includes(manifest.asset));
+    assert.deepEqual(manifest.burnedSubtitleLanguages, ["de", "cs", "pl"]);
+    assert.equal(createHash("sha256").update(readFileSync(resolve(root, manifest.asset.slice(1)))).digest("hex"), manifest.outputSHA256);
+    assert.ok(manifest.playerControlsSafeAreaHeight >= 160);
+    let previousEnd = 0;
+    for (const [start, end, translations] of manifest.cues) {
+      assert.ok(start >= previousEnd && end > start && end <= manifest.durationSeconds);
+      assert.equal(translations.length, 3);
+      assert.ok(translations.every((text) => typeof text === "string" && text.trim()));
+      previousEnd = end;
+    }
+  }
 });

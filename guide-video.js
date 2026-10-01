@@ -11,7 +11,7 @@
   const closeLabels = { he: "סגירה", en: "Close", pl: "Zamknij", de: "Schließen", cs: "Zavřít" };
   const youtubeLabels = { he: "צפייה ביוטיוב", en: "Watch on YouTube", pl: "Oglądaj w YouTube", de: "Auf YouTube ansehen", cs: "Sledovat na YouTube" };
   const englishLabels = { pl: "po angielsku", de: "auf Englisch", cs: "anglicky" };
-  const multilingualVideo = (url) => url === "/assets/guide-four-domes-en-de-cs-pl.mp4";
+  const multilingualVideo = (url) => /^\/assets\/guide-[A-Za-z0-9._-]+-en-de-cs-pl\.mp4$/.test(url);
   const subtitleLabels = {
     en: "English · DE/CZ/PL subtitles", pl: "Angielski · napisy DE/CZ/PL",
     de: "Englisch · Untertitel DE/CZ/PL", cs: "Anglicky · titulky DE/CZ/PL",
