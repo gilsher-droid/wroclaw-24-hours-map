@@ -21,7 +21,7 @@
 .guide-video-panel video { display: block; width: 100%; max-height: 75vh; border-radius: 9px; background: #000; }
 .guide-video-panel iframe { display: block; width: min(100%, 420px); height: min(75vh, 740px); aspect-ratio: 9 / 16; margin: auto; border: 0; border-radius: 9px; background: #000; }
 .guide-video-panel [hidden] { display: none; }
-.guide-video-youtube { display: table; margin: 12px auto 0; color: #062b5c; font-weight: 700; text-decoration: underline; }
+.guide-video-youtube { display: flex; align-items: center; justify-content: center; gap: 7px; width: fit-content; margin: 12px auto 0; color: #062b5c; font-weight: 700; text-decoration: underline; }
 .guide-video-close { float: inline-end; margin: 0 0 8px 8px; padding: 6px 12px; border: 1px solid #d5dce7; border-radius: 8px; background: #fff; color: inherit; font: inherit; cursor: pointer; }
 
 /* The extra subtitle band stays visible together with the portrait clip. */
@@ -84,3 +84,5 @@
 .guide-map-legend { max-width:210px; padding:7px 10px; background:#fffef9; color:#062b5c; border:1px solid #d6a657; border-radius:8px; box-shadow:0 1px 5px #0002; font:600 12px/1.4 Arial,sans-serif; direction:inherit; }
 .guide-map-legend > span { display:inline-grid; place-items:center; width:18px; height:18px; margin-inline-end:4px; background:#062b5c; color:#edc278; border:2px solid #d6a657; border-radius:50%; font-size:9px; }
 @media(max-width:640px) { .guide-map-legend { max-width:160px; font-size:11px; padding:5px 7px; } }
+
+.guide-video-youtube-icon { width: 22px; height: 17px; flex: 0 0 22px; }
