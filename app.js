@@ -131,13 +131,13 @@
   }
 
   function addMarker(location, evening = false) {
-    const icon = L.divIcon({
+    const icon = L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({
       className: "custom-marker",
       html: markerHtml(location, evening),
       iconSize: [34, 34],
       iconAnchor: [17, 32],
       popupAnchor: [0, -30]
-    });
+    }, location, currentLanguage));
     const marker = L.marker(location.coordinates, {
       icon,
       keyboard: true,
@@ -168,6 +168,7 @@
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
     }).addTo(map);
 
+    window.WROC_GUIDE_VIDEO.legend(map, currentLanguage);
     window.LOCATIONS.forEach((location) => addMarker(location, false));
     window.EVENING_LOCATIONS.forEach((location) => addMarker(location, true));
 
@@ -319,13 +320,14 @@
   }
 
   function refreshMarkerLanguage() {
+    window.WROC_GUIDE_VIDEO.legend(map, currentLanguage);
     markers.forEach((marker) => {
       const location = marker.locationData;
-      marker.setIcon(L.divIcon({
+      marker.setIcon(L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({
         className: "custom-marker",
         html: markerHtml(location, marker.evening),
         iconSize: [34, 34], iconAnchor: [17, 32], popupAnchor: [0, -30]
-      }));
+      }, location, currentLanguage)));
       marker.setPopupContent(popupHtml(location, marker.evening));
       marker.options.title = location.name[currentLanguage];
       marker.options.alt = location.name[currentLanguage];

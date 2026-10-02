@@ -94,13 +94,29 @@
   }
   function button(id,lang=language(),resourceClass=""){
     const url=sourceFor(id,lang);if(!youtubeId(url))return "";
-    const suffix=lang!=="he"&&captionIds.has(youtubeId(url))?subtitleLabels[lang]||subtitleLabels.en:"";
+    const suffix=lang==="he"?"הדרכה בעברית":captionIds.has(youtubeId(url))?subtitleLabels[lang]||subtitleLabels.en:"English";
     const title=`${labels[lang]||labels.en}${suffix?` · ${suffix}`:""}`;
-    return `<a class="guide-video-action${resourceClass?` ${escapeHtml(resourceClass)}`:""}" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-guide-video-src="${escapeHtml(url)}" data-guide-video-lang="${escapeHtml(lang)}" aria-label="${escapeHtml(title)}" title="${escapeHtml(title)}"><span class="brand-icon guide" aria-hidden="true"><img src="/assets/logo.png" alt=""></span><span>${escapeHtml(title)}</span></a>`;
+    return `<a class="guide-video-action${resourceClass?` ${escapeHtml(resourceClass)}`:""}" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-guide-video-src="${escapeHtml(url)}" data-guide-video-lang="${escapeHtml(lang)}" aria-label="${escapeHtml(title)}" title="${escapeHtml(title)}"><span class="brand-icon guide" aria-hidden="true"><img src="/assets/logo.png" alt=""></span><span class="guide-video-action-copy"><span class="guide-video-action-title">${escapeHtml(labels[lang]||labels.en)}</span><span class="guide-video-action-language">${escapeHtml(suffix)}</span></span></a>`;
   }
   document.addEventListener("click",event=>{
     const trigger=event.target.closest?.("[data-guide-video-src]");const url=trigger?.dataset.guideVideoSrc;if(!youtubeId(url))return;
     event.preventDefault();openYouTubeVideo(url,trigger.getAttribute("title")||labels.en,trigger.dataset.guideVideoLang||language());
   });
-  window.WROC_GUIDE_VIDEO=Object.freeze({button,sourceFor,embedUrlFor,cueAt});
+  const markerLabels={he:"כאן יש הדרכת וידאו שלנו",en:"Our video guide available",pl:"Dostępny nasz przewodnik wideo",de:"Unser Video-Reiseführer verfügbar",cs:"Náš videoprůvodce je k dispozici"};
+  function decorateIcon(options,place,lang=language()){
+    const id=typeof place==="string"?place:place?.canonicalPlaceId||place?.id;
+    if(!youtubeId(sourceFor(id,lang)))return options;
+    const label=escapeHtml(markerLabels[lang]||markerLabels.en);
+    return {...options,className:`${options.className||""} guide-marker-shell`.trim(),html:options.html+`<span class="guide-marker-badge" role="img" aria-label="${label}" title="${label}">▶</span>`};
+  }
+  function legend(map,lang=language()){
+    if(!map||!window.L)return;
+    if(!map._wrocGuideLegend){
+      const control=window.L.control({position:"bottomright"});
+      control.onAdd=()=>{const el=document.createElement("div");el.className="guide-map-legend";window.L.DomEvent.disableClickPropagation(el);return el;};
+      control.addTo(map);map._wrocGuideLegend=control;
+    }
+    map._wrocGuideLegend.getContainer().innerHTML=`<span aria-hidden="true">▶</span> ${escapeHtml(markerLabels[lang]||markerLabels.en)}`;
+  }
+  window.WROC_GUIDE_VIDEO=Object.freeze({button,sourceFor,embedUrlFor,cueAt,decorateIcon,legend});
 })();

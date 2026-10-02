@@ -411,13 +411,14 @@
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
       }).addTo(map);
     }
+    window.WROC_GUIDE_VIDEO.legend(map, language);
     clearMap();
     stops.forEach((item) => {
-      const icon = L.divIcon({
+      const icon = L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({
         className: "premium-marker-shell",
         html: `<div class="premium-marker" style="--marker-color:${categoryColors[item.category]}"><span>${item.order}</span>${placeAmenities.markerBadgeHtml(item, language)}</div>`,
         iconSize: [36, 36], iconAnchor: [18, 34], popupAnchor: [0, -30]
-      });
+      }, item, language));
       const marker = L.marker(item.coordinates, { icon, title: text(item.name) }).addTo(map).bindPopup(popupHtml(item));
       marker.on("popupopen", () => {
         window.WROC_ANALYTICS?.track("place_open", { canonical_place_id: item.canonicalPlaceId || item.id });

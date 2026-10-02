@@ -61,62 +61,62 @@
   },
   "/assets/morskie-oko-video-01.mp4": {
     "title": "Morskie Oko — Wrocław | Visit clip 11 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/cfigvTx41kY",
     "sourceSHA256": "bc76fe8184d1a6bf4fef69bfbdb2f00a56331ba7c2de09e86d432294956c8272"
   },
   "/assets/morskie-oko-video-02.mov": {
     "title": "Morskie Oko — Wrocław | Visit clip 12 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/Bipflkjozmk",
     "sourceSHA256": "400bbcf4377bb21b2e5979942d2709e13d6089bf3731c31bdd8b84519f8dff98"
   },
   "/assets/morskie-oko-video-03.mov": {
     "title": "Morskie Oko — Wrocław | Visit clip 13 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/wk5U3Wq93TY",
     "sourceSHA256": "a1c3fda6cadf874a8bdde833bd2a357061470486c3c158fea4db4c1c46cf953a"
   },
   "/assets/morskie-oko-video-04.mov": {
     "title": "Morskie Oko — Wrocław | Visit clip 14 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/WgQpojqi9pk",
     "sourceSHA256": "3ef03f64f85842a84dc04c73c9c9c0fd548770e9cd5298f20864cd32c7aa2509"
   },
   "/assets/moszna-castle-video.mp4": {
     "title": "Moszna Castle | Visit clip 15 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/RBfyIyiNje4",
     "sourceSHA256": "acf8706c9f64862ba663f96df5c32873bcefdf4cf26d12331708e1ee465200fd"
   },
   "/assets/video-ossolineum-garden.mp4": {
     "title": "Ossolineum | Visit clip 16 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/vNnkACMk0tI",
     "sourceSHA256": "1306a8da8139e13065f09e3a076fd928af53266d94fa05bc3fe6da3b5d5e2b05"
   },
   "/assets/video-pedet-01.mp4": {
     "title": "PeDeT Food Hall | Visit clip 17 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/pgrSi8qfjos",
     "sourceSHA256": "8a99fd19d9311b27525f903c496518e943813f20113e6cca68acc401ba7785be"
   },
   "/assets/video-pedet-02.mp4": {
     "title": "PeDeT Food Hall | Visit clip 18 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/H6KhwHfutxo",
     "sourceSHA256": "b6202f3434dd07d2b276a5a5d831b47de1865bc0ceb28a267cc5daa0bed79736"
   },
   "/assets/video-pedet-03.mp4": {
     "title": "PeDeT Food Hall | Visit clip 19 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/efAClRRcOhM",
     "sourceSHA256": "6c452760749bf2bd7ea86aab863b1b7399b6e2bd88eae2dc7d11499bae83197f"
   },
   "/assets/video-rynek-fountains.mp4": {
     "title": "Wrocław Market Square | Visit clip 20 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/XGNYmjLwEz0",
     "sourceSHA256": "b611581fdcbe32b3701dd752549fb6eb4a6af608450020075bbd84e0233bde0b"
   },
   "/assets/video-rynek-cinema.mp4": {
