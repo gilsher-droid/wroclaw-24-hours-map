@@ -23,3 +23,7 @@ User instruction 2026-10-01: all website videos must be hosted on YouTube, and a
 ## Map terminology
 
 User instruction 2026-10-01: call all site offerings maps, never products, in user-facing copy in all five languages: מפה, map, mapa (Polish/Czech), Karte (German). Apply grammatical gender to badges, headings, navigation and accessibility labels. Preserve technical routes and identifiers. References to physical retail products are unaffected.
+
+## Separate Hebrew and Latin-script text
+
+User standing instruction 2026-10-01: in posts and other user-facing writing, never mix Hebrew and English/Latin-script text on the same line. Place English/Polish names, addresses, URLs, and Latin hashtags on their own lines, separated from Hebrew with real line breaks. Rewrite sentences naturally when needed; preserve their meaning. Apply this generally to future writing, including social posts, reel captions, stories, campaign copy and graphics. Keep Hebrew hashtags separate from Latin hashtags.
