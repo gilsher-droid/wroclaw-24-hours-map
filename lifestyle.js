@@ -115,7 +115,7 @@
 
   function markerIcon(place) {
     const category = categoryFor(place);
-    return L.divIcon({ className:"", html:`<span class="lifestyle-marker ${category}"><span>${categorySymbols[category]}</span>${placeAmenities.markerBadgeHtml(place, language)}</span>`, iconSize:[34,34], iconAnchor:[17,17], popupAnchor:[0,-18] });
+    return L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className:"", html:`<span class="lifestyle-marker ${category}"><span>${categorySymbols[category]}</span>${placeAmenities.markerBadgeHtml(place, language)}</span>`, iconSize:[34,34], iconAnchor:[17,17], popupAnchor:[0,-18] }, place, language));
   }
 
   function searchable(place) {
@@ -173,6 +173,7 @@
   }
 
   function render({ fit = true } = {}) {
+    window.WROC_GUIDE_VIDEO.legend(map, language);
     const results = filteredPlaces();
     markerLayer.clearLayers();
     markers.clear();

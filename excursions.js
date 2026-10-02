@@ -113,6 +113,7 @@
     if (!window.L) return;
     if (map) map.remove();
     map = L.map("excursion-map", { scrollWheelZoom: false });
+    window.WROC_GUIDE_VIDEO.legend(map, language);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
     const route = excursion.routePoints.map(coords).filter(Boolean).map(({ lat, lng }) => [lat, lng]);
     L.polyline(route, { color: "#2578bd", weight: 4, dashArray: "8 8" }).addTo(map);
@@ -121,7 +122,7 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }) }).addTo(map).bindPopup(`<strong>${label}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}${canonical ? window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "" : ""}`).on("popupopen", () => trackPlaceOpen(canonical));
+      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }, canonical, language)) }).addTo(map).bindPopup(`<strong>${label}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}${canonical ? window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "" : ""}`).on("popupopen", () => trackPlaceOpen(canonical));
     });
     map.fitBounds(route, { padding: [30, 30] });
   }
@@ -144,6 +145,7 @@
     const points = excursion.walkingRoute.points;
     const line = points.map(coords).filter(Boolean).map(({ lat, lng }) => [lat, lng]);
     walkingMap = L.map("brzeg-walk-map", { scrollWheelZoom: false });
+    window.WROC_GUIDE_VIDEO.legend(walkingMap, language);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(walkingMap);
     L.polyline(line, { color: "#c55b2f", weight: 5 }).addTo(walkingMap);
     points.forEach((point) => {
@@ -151,7 +153,7 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }) }).addTo(walkingMap).bindPopup(`<strong>${point.id} — ${label}</strong>${canonical ? window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "" : ""}`).on("popupopen", () => trackPlaceOpen(canonical));
+      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }, canonical, language)) }).addTo(walkingMap).bindPopup(`<strong>${point.id} — ${label}</strong>${canonical ? window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "" : ""}`).on("popupopen", () => trackPlaceOpen(canonical));
     });
     walkingMap.fitBounds(line, { padding: [25, 25] });
   }
