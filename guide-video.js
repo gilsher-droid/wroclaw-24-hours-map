@@ -71,7 +71,7 @@
     const frame=document.createElement("iframe");frame.id="guide-youtube-frame";frame.title=title;frame.src=embed;
     frame.allow="autoplay; encrypted-media; picture-in-picture";frame.allowFullscreen=true;frame.referrerPolicy="strict-origin-when-cross-origin";
     dialog.querySelector(".guide-video-frame-host").replaceChildren(frame);
-    const link=dialog.querySelector(".guide-video-youtube");link.href=url;link.textContent=youtubeLabels[lang]||youtubeLabels.en;
+    const link=dialog.querySelector(".guide-video-youtube");link.href=url;link.innerHTML='<svg class="guide-video-youtube-icon" viewBox="0 0 24 18" aria-hidden="true" focusable="false"><path fill="#f00" d="M23.5 2.8a3 3 0 0 0-2.1-2.1C19.5.2 12 .2 12 .2S4.5.2 2.6.7A3 3 0 0 0 .5 2.8C0 4.7 0 9 0 9s0 4.3.5 6.2a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 13.3 24 9 24 9s0-4.3-.5-6.2Z"/><path fill="#fff" d="m9.6 12.8 6.3-3.8-6.3-3.8Z"/></svg><span></span>';link.querySelector('span').textContent=youtubeLabels[lang]||youtubeLabels.en;
     dialog.showModal();
     if(lang==="he"||!captionIds.has(youtubeId(url)))return;
     const editions=await playerCaptions();
