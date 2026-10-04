@@ -181,32 +181,32 @@
   },
   "/assets/experiences/prague/IMG_5418.mp4": {
     "title": "A Song I Dreamed About Prague | Visit clip 31 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/lotA5g4GOSI",
     "sourceSHA256": "e0c1fea89540dc22b36add618daf180f13456e36365934b0248a113525736c42"
   },
   "/assets/experiences/tram/IMG_4371.mp4": {
     "title": "Ride a tram in Wrocław | Visit clip 32 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/S90qj1dv7rQ",
     "sourceSHA256": "e9d909fad22e7e3d78199a6286347c58116005a2f547e12a34153814a6cd6877"
   },
   "/assets/experiences/tram/IMG_4434.mp4": {
     "title": "Ride a tram in Wrocław | Visit clip 33 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/KJgC3DnCaQM",
     "sourceSHA256": "bb3d2368b8e48cb222dfeba27a03da36ad5416c86af6f4e06c2c0e59c6daa706"
   },
   "/assets/experiences/tram/IMG_4722.mp4": {
     "title": "Ride a tram in Wrocław | Visit clip 34 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/Fk1qa6vte40",
     "sourceSHA256": "6b873722c94bb84d7c142ac8aadd132454ca4b844f9e892c2cfcf475b98b3a86"
   },
   "/assets/experiences/tram/IMG_4725.mp4": {
     "title": "Ride a tram in Wrocław | Visit clip 35 | WROC-LOVE",
-    "status": "pending-daily-quota",
-    "youtube": null,
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/R8gU-o3rexA",
     "sourceSHA256": "0a268a8daa62ee0338955b5ea2357053a3d7daae659af480156d7979688449eb"
   }
 }
