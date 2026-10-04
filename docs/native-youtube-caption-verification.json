@@ -1,0 +1,81 @@
+{
+  "verifiedAt": "2026-10-04",
+  "method": "YouTube Studio translations UI, published status",
+  "mapLanguageCaptionPreference": {
+    "he": "he",
+    "en": "en",
+    "de": "de",
+    "cs": "cs",
+    "pl": "pl"
+  },
+  "guides": [
+    {
+      "place": "four-domes-pavilion",
+      "videos": {
+        "en": "Ud5KD21e5kE",
+        "he": "cs7AmJhitLo"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "automatic"
+      }
+    },
+    {
+      "place": "brzeg-castle",
+      "videos": {
+        "en": "zbpTMh2Fe2c",
+        "he": "IYllRzq9VJs"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "automatic"
+      }
+    },
+    {
+      "place": "oder-gate",
+      "videos": {
+        "en": "xs3NY7q0OX4",
+        "he": "hvnoxm3reWo"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "automatic"
+      }
+    },
+    {
+      "place": "moszna-castle",
+      "videos": {
+        "en": "UqqWiyXRk00",
+        "he": "5ghRWvbwU6Q"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "automatic"
+      }
+    }
+  ]
+}

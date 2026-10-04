@@ -86,3 +86,10 @@
 @media(max-width:640px) { .guide-map-legend { max-width:160px; font-size:11px; padding:5px 7px; } }
 
 .guide-video-youtube-icon { width: 22px; height: 17px; flex: 0 0 22px; }
+
+/* Native YouTube captions follow the map language, including fullscreen. */
+.guide-video-dialog { width: fit-content; max-width: calc(100vw - 20px); max-height: 94dvh; }
+.guide-video-panel iframe { height: auto; width: min(40.5dvh, 416.25px, calc(100vw - 52px)); max-height: none; aspect-ratio: 9 / 16; }
+.guide-video-panel h2 { max-width: 420px; font-size: 1rem; padding-inline-end: 80px; }
+.guide-video-panel { position: relative; }
+.guide-video-close { float: none; position: absolute; top: 16px; inset-inline-end: 16px; margin: 0; }

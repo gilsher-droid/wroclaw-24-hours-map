@@ -17,8 +17,8 @@ test("all guide language editions use the correct YouTube video and preserve sep
   assert.equal(window.WROC_GUIDE_VIDEO.sourceFor(id,lang),expected);
   assert.ok(!place.media.videos.includes(expected));
   const button=window.WROC_GUIDE_VIDEO.button(id,lang);assert.match(button,new RegExp(`href="${expected}"`));
-  assert.match(button,/<a/);if(lang!=="he")assert.match(button,/DE\/CZ\/PL/);
-  const embed=window.WROC_GUIDE_VIDEO.embedUrlFor(expected,lang);assert.match(embed,/youtube-nocookie\.com\/embed\//);assert.match(embed,/enablejsapi=1/);assert.match(embed,/origin=https%3A%2F%2Fwroc-love.com/);
+  assert.match(button,/<a/);assert.ok(!button.includes("DE/CZ/PL"));
+  const embed=window.WROC_GUIDE_VIDEO.embedUrlFor(expected,lang);assert.match(embed,/youtube-nocookie\.com\/embed\//);assert.match(embed,/cc_load_policy=1/);assert.match(embed,new RegExp(`cc_lang_pref=${lang}`));assert.ok(!embed.includes("fs=0"));assert.match(embed,/origin=https%3A%2F%2Fwroc-love.com/);
  }
  assert.equal(window.WROC_GUIDE_VIDEO.button("aleja-bielany","he"),"");
 });

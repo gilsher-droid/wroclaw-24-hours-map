@@ -27,3 +27,7 @@ User instruction 2026-10-01: call all site offerings maps, never products, in us
 ## Separate Hebrew and Latin-script text
 
 User standing instruction 2026-10-01: in posts and other user-facing writing, never mix Hebrew and English/Latin-script text on the same line. Place English/Polish names, addresses, URLs, and Latin hashtags on their own lines, separated from Hebrew with real line breaks. Rewrite sentences naturally when needed; preserve their meaning. Apply this generally to future writing, including social posts, reel captions, stories, campaign copy and graphics. Keep Hebrew hashtags separate from Latin hashtags.
+
+## Native YouTube captions by map language (2026-10-04)
+
+The user superseded the earlier simultaneous DE/CS/PL website caption band. Website guide players must now enable native YouTube captions with cc_load_policy=1 and cc_lang_pref matching the selected map language (he/en/de/cs/pl). Hebrew maps select the Hebrew guide and Hebrew captions; every other map selects the English guide with captions in its own language. Preserve the original portrait picture and audio, and native YouTube fullscreen controls. Verify published caption tracks in YouTube Studio before linking future guides. This change concerns website playback; language-specific social editions remain unchanged.
