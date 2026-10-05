@@ -181,8 +181,8 @@
     const website = safeLink(canonical.links?.website);
     const navigation = safeLink(canonical.links?.navigation?.googleMaps || canonical.links?.navigation?.google || canonical.links?.googleMaps || canonical.navigationLinks?.google);
     const socialPosts = Array.isArray(canonical.socialPosts) ? canonical.socialPosts : [];
-    const facebook = safeLink(canonical.social?.facebook || socialPosts.find((item) => item.platform === "facebook")?.url || canonical.socialPosts?.facebook?.[0] || canonical.socialPosts?.facebook);
-    const instagram = safeLink(canonical.social?.instagram || socialPosts.find((item) => item.platform === "instagram")?.url || canonical.socialPosts?.instagram?.[0] || canonical.socialPosts?.instagram);
+    const facebook = safeLink(canonical.social?.facebook || window.WROC_CATALOG?.getSocialPost?.(canonical, "facebook", language)?.url || canonical.socialPosts?.facebook?.[0] || canonical.socialPosts?.facebook);
+    const instagram = safeLink(canonical.social?.instagram || window.WROC_CATALOG?.getSocialPost?.(canonical, "instagram", language)?.url || canonical.socialPosts?.instagram?.[0] || canonical.socialPosts?.instagram);
     if (website) links.push(`<a href="${website}" target="_blank" rel="noopener">${tr("website")}</a>`);
     if (navigation) links.push(`<a href="${navigation}" target="_blank" rel="noopener">${tr("navigate")}</a>`);
     if (facebook) links.push(`<a href="${facebook}" target="_blank" rel="noopener">${tr("facebook")}</a>`);
