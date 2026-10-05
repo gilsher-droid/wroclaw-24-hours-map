@@ -25,6 +25,9 @@
   const productPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"];
   const facebookUrl = "https://www.facebook.com/profile.php?id=61591964083308";
   const instagramUrl = "https://www.instagram.com/wroclaw.lowersilesia/";
+  const englishSocials = { facebook: "https://www.facebook.com/profile.php?id=61595036942289", instagram: instagramUrl };
+  const hebrewSocials = { facebook: facebookUrl, instagram: "https://www.instagram.com/wroclaw.lowersilesia.he/" };
+  const czechSocials = { facebook: "https://www.facebook.com/profile.php?id=61594716405964", instagram: "https://www.instagram.com/wroclaw.lowersilesia.cs/" };
   const polishSocials = { facebook: "https://www.facebook.com/profile.php?id=61595207664875", instagram: "https://www.instagram.com/wroclaw.lowersilesia.pl/" };
   const germanSocials = { facebook: "https://www.facebook.com/profile.php?id=61595239823399", instagram: "https://www.instagram.com/wroclaw.lowersilesia.de/" };
   const shareSvg = '<svg class="site-action-svg share" viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"></path></svg>';
@@ -115,9 +118,10 @@
     document.querySelectorAll('a[href*="facebook.com"], a[href*="instagram.com"]').forEach((link) => {
       if (!link.dataset.languageSocialOriginal) link.dataset.languageSocialOriginal = link.href;
       const original = link.dataset.languageSocialOriginal;
-      const localized = { pl: polishSocials, de: germanSocials }[lang];
-      if ([facebookUrl, polishSocials.facebook, germanSocials.facebook].includes(original)) link.href = localized?.facebook || facebookUrl;
-      if ([instagramUrl, polishSocials.instagram, germanSocials.instagram].includes(original)) link.href = localized?.instagram || instagramUrl;
+      const socialChannels = { en: englishSocials, he: hebrewSocials, cs: czechSocials, pl: polishSocials, de: germanSocials };
+      const localized = socialChannels[lang];
+      if (Object.values(socialChannels).some((channel) => channel.facebook === original)) link.href = localized?.facebook || facebookUrl;
+      if (Object.values(socialChannels).some((channel) => channel.instagram === original)) link.href = localized?.instagram || instagramUrl;
     });
     document.querySelectorAll(".site-social-follow").forEach((nav) => {
       nav.setAttribute("aria-label", labels[lang]);

@@ -5243,6 +5243,11 @@
       {
         "platform": "instagram",
         "url": "https://www.instagram.com/p/DcqyG24DMHg/"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/reel/DeALvKfB6Xw/"
       }
     ]
   },
