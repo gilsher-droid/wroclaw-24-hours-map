@@ -25,13 +25,13 @@ test("weekly news includes six localized and dated items", () => {
     assert.match(item.startDate, /^2026-/);
     assert.match(item.endDate, /^2026-/);
   }
-  assert.equal(items.every((item) => item.startDate === "2026-09-28"), true);
+  assert.equal(items.every((item) => item.startDate === "2026-10-05"), true);
   for (const language of ["he", "en", "pl", "de", "cs"]) {
     const suffix = language === "he" ? "" : `-${language}`;
-    const article = readFileSync(resolve(root, `news/2026-09-28${suffix}.html`), "utf8");
+    const article = readFileSync(resolve(root, `news/2026-10-05${suffix}.html`), "utf8");
     assert.match(article, new RegExp(`<html lang="${language}"`));
     for (const item of items) {
-      assert.match(item.articleUrl, /^\/news\/2026-09-28\.html#/);
+      assert.match(item.articleUrl, /^\/news\/2026-10-05\.html#/);
       assert.ok(article.includes(`id="${item.articleUrl.split("#")[1]}"`));
     }
   }
@@ -45,6 +45,22 @@ test("expiry uses inclusive local calendar dates and empty active sets stay empt
   assert.equal(api.isActive(item, new Date(2026, 8, 17, 23, 59)), true);
   assert.equal(api.isActive(item, new Date(2026, 8, 18, 0, 1)), false);
   assert.equal(api.activeItems([item], new Date(2026, 8, 18)).length, 0);
+});
+
+test("October farm remains seasonal and the new bulletin excludes recycled stories", () => {
+  const { window } = loadTicker();
+  const api = window.WROC_NOW_IN_WROCLAW;
+  const items = window.WROC_NOW_IN_WROCLAW_ITEMS;
+  const farm = items.find((item) => item.id === "dyniowa-farma-season-2026-10");
+  assert.equal(farm.category, "event");
+  assert.equal(api.isActive(farm, new Date(2026, 9, 31, 23, 59)), true);
+  assert.equal(api.isActive(farm, new Date(2026, 10, 1)), false);
+  assert.deepEqual(Array.from(api.activeItems(items, new Date(2026, 9, 13)), (item) => item.id), [farm.id]);
+  assert.equal(api.activeItems(items, new Date(2026, 10, 1)).length, 0);
+  assert.equal(items.some((item) => /ryanair|prize|coffee-planet|pixel-rush|piwnica/.test(item.id)), false);
+  const klodzko = items.find((item) => item.id === "przy-klodzkiej-opening-2026-10");
+  assert.match(klodzko.title.en, /now open/);
+  assert.doesNotMatch(klodzko.title.en, /scheduled/);
 });
 
 test("ticker is shared across the homepage and every main product page", () => {
