@@ -185,5 +185,14 @@
   };
 
   resources["arche-klasztor"] = { facebook: "https://facebook.com/permalink.php?story_fbid=pfbid026ARddCkCLMWtYCZW6LDMyYD2CQgotXgV2SMXdpSp4RjaZvFaRBaiNLJ4bfvaY7whl&id=61591964083308", instagram: "https://www.instagram.com/p/Dd8ty96FGmt/", gallery: ["/assets/arche-klasztor-01.jpg", "/assets/arche-klasztor-02.jpg", "/assets/arche-klasztor-03.jpg", "/assets/arche-klasztor-04.jpg", "/assets/arche-klasztor-05.jpg", "/assets/arche-klasztor-06.jpg", "/assets/arche-klasztor-07.jpg", "/assets/arche-klasztor-08.jpg", "/assets/arche-klasztor-09.jpg", "/assets/arche-klasztor-10.jpg", "/assets/arche-klasztor-11.jpg"] };
+  for (const [id, media] of Object.entries(resources)) {
+    const place = window.WROC_CATALOG?.getPlace?.(id);
+    if (!place) continue;
+    for (const platform of ["facebook", "instagram"]) {
+      const legacy = media[platform];
+      Object.defineProperty(media, platform, { enumerable: true, configurable: true,
+        get: () => window.WROC_CATALOG?.getSocialPost?.(place, platform)?.url || legacy });
+    }
+  }
   window.WROC_LOCATION_MEDIA = resources;
 })();

@@ -20941,6 +20941,10 @@
 
   const resolveId = (id) => aliases[id] || id;
   const getPlace = (id) => places[resolveId(id)] || null;
+  const getSocialPost = (place, platform, lang = window.document?.documentElement?.lang || "en") => {
+    const posts = (place?.socialPosts || []).filter((post) => post.platform === platform && !post.url.includes("/groups/"));
+    return posts.find((post) => post.language === lang) || posts.find((post) => !post.language) || posts[0] || null;
+  };
   const queryIndependentPlaces = ({ cityId, placeType, amenity } = {}) => Object.values(places).filter((place) => {
     if (place.sourceRecords.length !== 0) return false;
     if (cityId && place.location.cityId !== cityId) return false;
@@ -21373,6 +21377,7 @@
     products,
     resolveId,
     getPlace,
+    getSocialPost,
     queryIndependentPlaces,
     registerProduct,
   });
