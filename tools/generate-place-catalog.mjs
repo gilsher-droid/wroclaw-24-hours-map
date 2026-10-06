@@ -44,6 +44,7 @@ const canonicalSource = [
   ...((await evaluate(["data/cultural-canonical-places.js"])).WROC_CULTURAL_CANONICAL_PLACE_SOURCE || []),
   ...((await evaluate([freeWaterSourceFile])).WROC_FREE_WATER_PLACE_SOURCE || []),
 ];
+const localizedSocialPosts = JSON.parse(await readFile(resolve(root, "data/localized-social-posts.json"), "utf8"));
 const outputFile = process.env.WROC_PLACE_CATALOG_OUTPUT_FILE || "data/place-catalog.js";
 
 const wroclawLocation = Object.freeze({
@@ -265,6 +266,7 @@ for (const place of places.values()) {
     ...(canonicalMedia.metadata ? { metadata: canonicalMedia.metadata } : {}),
   };
   place.socialPosts = [
+    ...(localizedSocialPosts[place.id] || []),
     ...(place._canonicalSocialPosts || []),
     ...(resources.facebook ? [{ platform: "facebook", url: resources.facebook }] : []),
     ...(resources.instagram ? [{ platform: "instagram", url: resources.instagram }] : []),

@@ -4438,6 +4438,18 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0asfY9MKaRH7cd4MqHv4ejghUuowUhs7ffvXTy2XQuYfYd3NtzBYDZDvtdiXoTk7Ml&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeJ79_lDo-Z/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122107696491398802/"
       },
       {
