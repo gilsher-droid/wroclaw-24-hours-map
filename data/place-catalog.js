@@ -2155,6 +2155,12 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.pl/reel/DeKegqLjsY5/",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/reel/1648535340299665",
+        "verifiedAt": "2026-10-06"
       }
     ]
   },
@@ -2832,6 +2838,18 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0QfRGdX2siMR2Ze8iJx29UYY9bHhFBEjt8w8gboxqujFLij7KTqUsqp43ryQQKzLNl&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKpNFBEW2p/",
+        "verifiedAt": "2026-10-06"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109921771398802/"
@@ -5354,6 +5372,12 @@
       },
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/reel/1710159514114671",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CAQHdKSat/"
       },
       {
@@ -6294,6 +6318,12 @@
         "platform": "facebook",
         "language": "de",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid026VYHfKJTgAqoG6kjREGi8FNnicFrBNi6HiAJ8Qm6oDEct9kHMZkVxsTQH3pPXRWWl&id=61595239823399",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKmIh4lgmo/",
         "verifiedAt": "2026-10-06"
       },
       {
@@ -10413,6 +10443,12 @@
         "language": "pl",
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.pl/reel/DeKeswRD9eq/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/reel/1395586979225961",
         "verifiedAt": "2026-10-06"
       }
     ]
