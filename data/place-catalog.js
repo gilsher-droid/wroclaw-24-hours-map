@@ -2137,6 +2137,12 @@
         "language": "pl",
         "url": "https://www.facebook.com/reel/1408574808145716",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "language": "pl",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.pl/reel/DeKegqLjsY5/",
+        "verifiedAt": "2026-10-06"
       }
     ]
   },
@@ -10329,6 +10335,12 @@
         "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/reel/1540497554763531",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "language": "pl",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.pl/reel/DeKeswRD9eq/",
         "verifiedAt": "2026-10-06"
       }
     ]
