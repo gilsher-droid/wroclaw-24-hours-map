@@ -1206,6 +1206,12 @@
         "verifiedAt": "2026-10-07"
       },
       {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKwU9LHfVz/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
       },
@@ -6196,6 +6202,12 @@
         "verifiedAt": "2026-10-07"
       },
       {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKwh5xFSBv/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
       },
@@ -7111,6 +7123,12 @@
         "platform": "facebook",
         "language": "en",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02SwzutLP7KeJ4PgR75QtGqZRKyvLHUtQhY5WdzpLPy8obLBUKUaVbbQgdCsFcwf5Jl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKwqPWlJ3A/",
         "verifiedAt": "2026-10-07"
       },
       {
