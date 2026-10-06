@@ -5407,6 +5407,12 @@
         "verifiedAt": "2026-10-07"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/reel/DeKvKsbk2iV/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CAQHdKSat/"
       },
@@ -10515,6 +10521,12 @@
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/reel/1933657697610134",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/reel/DeKvE6JAhY5/",
         "verifiedAt": "2026-10-07"
       }
     ]
