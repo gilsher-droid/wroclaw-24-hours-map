@@ -5335,6 +5335,12 @@
         "verifiedAt": "2026-10-06"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.pl/reel/DeKgsPgAcxN/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CAQHdKSat/"
       },
