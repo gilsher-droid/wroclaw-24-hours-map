@@ -73,12 +73,13 @@ assert.deepEqual(Array.from(opera.socialPosts, (post) => [post.platform, post.ur
   runInNewContext(readFileSync(resolve(root, "data/location-media.js"), "utf8"), context);
   assert.deepEqual(Array.from(window.WROC_LOCATION_MEDIA["four-domes"].gallery), Array.from(fourDomes.media.photos));
   assert.equal(window.WROC_LOCATION_MEDIA["four-domes"].videos.length, 2);
-  assert.deepEqual(Array.from(fourDomes.socialPosts.filter((post) => post.language !== "pl"), (post) => post.platform), ["facebook", "instagram", "instagram"]);
-  assert.deepEqual(Array.from(fourDomes.socialPosts.filter((post) => post.language !== "pl"), (post) => post.url), [
-    "https://www.facebook.com/share/p/1CAQHdKSat/",
-    "https://www.instagram.com/p/DcqyG24DMHg/",
-    "https://www.instagram.com/wroclaw.lowersilesia/reel/DeALvKfB6Xw/",
-  ]);
+  for (const [platform, url] of [
+    ["facebook", "https://www.facebook.com/share/p/1CAQHdKSat/"],
+    ["instagram", "https://www.instagram.com/p/DcqyG24DMHg/"],
+    ["instagram", "https://www.instagram.com/wroclaw.lowersilesia/reel/DeALvKfB6Xw/"],
+  ]) {
+    assert.ok(fourDomes.socialPosts.some((post) => post.platform === platform && post.url === url), `${url} remains available alongside new language posts`);
+  }
   assert.equal(fourDomes.socialPosts.find((post) => post.url === "https://www.instagram.com/wroclaw.lowersilesia/reel/DeALvKfB6Xw/").language, "en");
   assert.equal(fourDomes.socialPosts.find((post) => post.language === "pl" && post.platform === "facebook").url, "https://www.facebook.com/reel/1126321077002576");
   assert.equal(window.WROC_CATALOG.resolveId("galeria-dizajn"), "zyjnia-bwa-wroclaw");
