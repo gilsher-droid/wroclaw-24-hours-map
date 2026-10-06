@@ -700,6 +700,18 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKYYTdABQZ/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0QGhja8QemmvnVAuEVTNn8h782suvWcYs5ryfzGeHudbUMxsHiWrfen9tAUz41RrXl&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
+      {
         "platform": "facebook",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid026ARddCkCLMWtYCZW6LDMyYD2CQgotXgV2SMXdpSp4RjaZvFaRBaiNLJ4bfvaY7whl&id=61591964083308",
         "language": "he"
@@ -1145,6 +1157,18 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02XFsXk3DTRyen3r7181WETGsvYd2UrCqnUEZnphBbY3KBfT4uw3r7pYHM38Sy6h25l&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKWP2eDNkm/",
+        "verifiedAt": "2026-10-06"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
@@ -2095,7 +2119,14 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/reel/1408574808145716",
+        "verifiedAt": "2026-10-06"
+      }
+    ]
   },
   "brzeg-holy-cross-church": {
     "id": "brzeg-holy-cross-church",
@@ -5281,6 +5312,12 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/reel/1126321077002576",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CAQHdKSat/"
       },
       {
@@ -6033,6 +6070,18 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKXHlADBhV/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid036UfaZi1CerpaxXdVCXp5M7UJQ3cewJQtkD7WjV32CQG9KcmRWW5cFL61auuwmZ3Al&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
       },
@@ -6181,6 +6230,18 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKZLYoj4R2/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02tnUFuuTfeCouMzWBFeZB4jdwjK3eGj6mkemU6eFKJUAVzdJq3t2fgFbbUCQTkngAl&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/photo/?fbid=122110916907398802"
@@ -6524,6 +6585,18 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKXdjlDvc2/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0rkk69tPt8Qe2L8V74eyc2eUJJG5WEbm34bRRuMzVoSyJko6Bxm83QErrvM8GbToKl&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122107706685398802/"
       },
@@ -6860,6 +6933,18 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKXQhuDPZd/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02kQA8HRdFcPoiikqBGM84n8KFwpjy6U6RbLwJXS2HGyKzmkcfSPNMsBcfrRN1Edual&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109906747398802/"
@@ -8490,6 +8575,18 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKYLGCCel9/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0237WRXXZ1FXh5suHbBqJHNagUiQQsDAzDMgPvDtDQUijTudrxh16ZRhTB14pyP8ykl&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19UBPN184V/"
@@ -10215,7 +10312,14 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/reel/1540497554763531",
+        "verifiedAt": "2026-10-06"
+      }
+    ]
   },
   "moszna-castle-park": {
     "id": "moszna-castle-park",
@@ -11623,6 +11727,18 @@
       ]
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKX3G-DtBB/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0222pboCLNNAomDu117jexoKcuhDjkQvQJSieG4CdGa473vgthHmz2SS8VhcixxMoPl&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122111795823398802/"
@@ -14756,7 +14872,20 @@
         }
       ]
     },
-    "socialPosts": [],
+    "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKYP2JFY-c/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02r7cQXktM43CrwyNJ1R5vvRSjEg5mf7J5Ed4x6kFCQP9iHiDfDG7bM6kHeckNAs6bl&id=61595207664875",
+        "verifiedAt": "2026-10-06"
+      }
+    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
