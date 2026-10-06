@@ -118,6 +118,11 @@
     document.querySelectorAll('a[href*="facebook.com"], a[href*="instagram.com"]').forEach((link) => {
       if (!link.dataset.languageSocialOriginal) link.dataset.languageSocialOriginal = link.href;
       const original = link.dataset.languageSocialOriginal;
+      // The existing community group is Hebrew; do not present it as a localized channel.
+      if (original.includes("facebook.com/groups/2525899074519424")) {
+        link.hidden = lang !== "he";
+        return;
+      }
       const socialChannels = { en: englishSocials, he: hebrewSocials, cs: czechSocials, pl: polishSocials, de: germanSocials };
       const localized = socialChannels[lang];
       if (Object.values(socialChannels).some((channel) => channel.facebook === original)) link.href = localized?.facebook || facebookUrl;

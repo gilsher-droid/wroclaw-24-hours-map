@@ -9,13 +9,13 @@ import { runInNewContext } from "node:vm";
 const root = resolve(import.meta.dirname, "..");
 
 function loadCatalog(file) {
-  const window = {};
+  const window = { document: { documentElement: { lang: "he" } } };
   runInNewContext(readFileSync(file, "utf8"), { window, console });
   return window.WROC_CATALOG;
 }
 
 function registeredProduct(catalogFile, productFile, productId, extraLanguages = false) {
-  const window = {};
+  const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
   if (extraLanguages) runInNewContext(readFileSync(resolve(root, "data/extra-languages.js"), "utf8"), context);
   runInNewContext(readFileSync(catalogFile, "utf8"), context);
@@ -138,7 +138,7 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
 });
 
 test("Aleja Bielany is one canonical shopping place used by Lifestyle", () => {
-  const window = {};
+  const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
   for (const file of ["data/place-catalog.js", "data/location-media.js", "data/lifestyle-places.js"]) {
     runInNewContext(readFileSync(resolve(root, file), "utf8"), context);
@@ -165,7 +165,7 @@ test("Aleja Bielany is one canonical shopping place used by Lifestyle", () => {
 });
 
 test("PeDeT media belongs to its existing Lifestyle place, separate from Renoma", () => {
-  const window = {};
+  const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
   for (const file of ["data/place-catalog.js", "data/location-media.js", "data/lifestyle-places.js"]) {
     runInNewContext(readFileSync(resolve(root, file), "utf8"), context);
@@ -184,7 +184,7 @@ test("PeDeT media belongs to its existing Lifestyle place, separate from Renoma"
 });
 
 test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonical identity", () => {
-  const window = {};
+  const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
   runInNewContext(readFileSync(resolve(root, "data/extra-languages.js"), "utf8"), context);
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
@@ -242,7 +242,7 @@ test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonica
 });
 
 test("ZOO Wrocław is one canonical place referenced by Four Days with curated media", () => {
-  const window = {};
+  const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
   runInNewContext(readFileSync(resolve(root, "data/extra-languages.js"), "utf8"), context);
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
@@ -290,7 +290,7 @@ test("ZOO Wrocław is one canonical place referenced by Four Days with curated m
 });
 
 test("Hala Stulecia social links stay on its canonical place and shared resources", () => {
-  const window = {};
+  const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
   runInNewContext(readFileSync(resolve(root, "data/extra-languages.js"), "utf8"), context);
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);

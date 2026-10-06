@@ -7,7 +7,7 @@ import { runInNewContext } from "node:vm";
 const root = resolve(import.meta.dirname, "..");
 
 test("Pergola and Multimedia Fountain remain independent canonical places", () => {
-  const window = {};
+  const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
   for (const file of ["data/extra-languages.js", "data/place-catalog.js", "data/premium-route.js", "data/location-media.js"]) {
     runInNewContext(readFileSync(resolve(root, file), "utf8"), context, { filename: file });

@@ -37,7 +37,7 @@
     const actions=[]; const maps=place.links?.navigation?.googleMaps||`https://www.google.com/maps/search/?api=1&query=${place.location.coordinates.lat}%2C${place.location.coordinates.lng}`;
     actions.push(`<a href="${esc(maps)}" target="_blank" rel="noopener"><span class="brand-icon media">↗</span>${tr("navigate")}</a>`);
     if(place.links?.website) actions.push(`<a href="${esc(place.links.website)}" target="_blank" rel="noopener"><span class="brand-icon media">◎</span>${tr("officialWebsite")}</a>`);
-    for(const social of place.socialPosts||[]) actions.push(`<a href="${esc(social.url)}" target="_blank" rel="noopener"><span class="brand-icon ${social.platform}">${social.platform==="facebook"?"f":"◎"}</span>${social.platform==="facebook"?"Facebook":"Instagram"}</a>`);
+    for(const social of ["facebook","instagram"].map((platform)=>window.WROC_CATALOG.getSocialPost(place,platform,language)).filter(Boolean)) actions.push(`<a href="${esc(social.url)}" target="_blank" rel="noopener"><span class="brand-icon ${social.platform}">${social.platform==="facebook"?"f":"◎"}</span>${social.platform==="facebook"?"Facebook":"Instagram"}</a>`);
     if(place.media?.photos?.length) actions.push(`<button type="button" data-gallery="${esc(item.id)}"><span class="brand-icon media">▣</span>${tr("photos")}</button>`);
     if(place.media?.videos?.length) actions.push(`<button type="button" data-video="${esc(item.id)}"><span class="brand-icon media">▶</span>${tr("videos")}</button>`);
     actions.push(window.WROC_GUIDE_VIDEO?.button(item.canonicalPlaceId || item.id,language)||"");
