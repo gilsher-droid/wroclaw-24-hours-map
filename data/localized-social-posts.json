@@ -649,5 +649,19 @@
       "url": "https://facebook.com/permalink.php?story_fbid=pfbid03gGjqYsZC9bxMD46cGZjknhS7ZuDZTroeA6F4ZBBCBso8LHLoHpqYqtTDN6gKkL3l&id=61595207664875",
       "verifiedAt": "2026-10-07"
     }
+  ],
+  "university": [
+    {
+      "platform": "instagram",
+      "language": "en",
+      "url": "https://www.instagram.com/p/DeK5qzMibhV/",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02jcqSRKQnLZAxV7rVd3La39GJDYA88T52dj96GGcrvH8BqPwZiFxbhrEhsn88jtVTl&id=61595036942289",
+      "verifiedAt": "2026-10-07"
+    }
   ]
 }
