@@ -28,8 +28,8 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   ]);
   pergola.media.photos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
   assert.equal(pergola.media.videos.length, 0);
-  assert.equal(pergola.socialPosts.find((post) => post.platform === "facebook")?.url, "https://www.facebook.com/share/p/1CHRnrqLwQ/");
-  assert.equal(pergola.socialPosts.find((post) => post.platform === "instagram")?.url, "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1");
+  assert.equal(pergola.socialPosts.find((post) => post.platform === "facebook" && (!post.language || post.language === "he"))?.url, "https://www.facebook.com/share/p/1CHRnrqLwQ/");
+  assert.equal(pergola.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url, "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1");
   assert.deepEqual(Array.from(fountain.media.photos), [
     "/assets/multimedia-fountain-01.jpg",
     "/assets/multimedia-fountain-02.jpg",
@@ -47,8 +47,8 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
     "/assets/video-stulecia-fountain.mp4",
   ]);
   fountain.media.videos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
-  assert.equal(fountain.socialPosts.find((post) => post.platform === "facebook")?.url, "https://www.facebook.com/share/r/1ANYoSUn3J/");
-  assert.equal(fountain.socialPosts.find((post) => post.platform === "instagram")?.url, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
+  assert.equal(fountain.socialPosts.find((post) => post.platform === "facebook" && (!post.language || post.language === "he"))?.url, "https://www.facebook.com/share/r/1ANYoSUn3J/");
+  assert.equal(fountain.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
 
   const dayThree = window.PREMIUM_STOPS.filter((stop) => stop.day === 3);
   const pergolaStop = dayThree.find((stop) => stop.id === "pergola");
