@@ -725,6 +725,12 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid021VG2AdDW4yXduqU1fh3CFhQ83CQVenea72AUnEaYFXvaBrMQjDt2kLtXLg42FjNwl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid026ARddCkCLMWtYCZW6LDMyYD2CQgotXgV2SMXdpSp4RjaZvFaRBaiNLJ4bfvaY7whl&id=61591964083308",
         "language": "he"
       },
@@ -1192,6 +1198,12 @@
         "language": "de",
         "url": "https://www.instagram.com/p/DeKd1gglsdS/",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02BVVZ1Q86VfXEz379fYALCCkiYCbpwhC6unAMfieoPMt59Hoe8o2Wur3kqMV7e3bwl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -2161,6 +2173,18 @@
         "language": "de",
         "url": "https://www.facebook.com/reel/1648535340299665",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/reel/DeKso2-lOpN/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/reel/1114108844368132",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -5378,6 +5402,12 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/reel/982242520801854",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CAQHdKSat/"
       },
       {
@@ -6155,6 +6185,12 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0rgbNAx5M1iDs3ZDxsCHQ6kdUkTAEtP8jD5Uer6XLk9dBJw1jdHupUdG2QmV8Dcggl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
       },
       {
@@ -6325,6 +6361,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKmIh4lgmo/",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02t2gGqsT9CoZRfZB4st5WV6QhQ77Kng8tHtQV9W4vbtdW3UrpEt5ZizPLPzS8sfXVl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -6694,6 +6736,12 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid025jxyMgoV6MoAHHpfiLszUbjDyx8tjs2amGnMH8RwzenKRLra3ap86RhMPPquegd2l&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122107706685398802/"
       },
       {
@@ -7052,6 +7100,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKffvAD6hp/",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02SwzutLP7KeJ4PgR75QtGqZRKyvLHUtQhY5WdzpLPy8obLBUKUaVbbQgdCsFcwf5Jl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -8706,6 +8760,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKgNAzH8aC/",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02C7RXPK53mUfQsXkjcwV74dYagsniY3rxTFtzjqLLYBJ6RNoQwfpy5BHGQycQyjQ3l&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -10450,6 +10510,12 @@
         "language": "de",
         "url": "https://www.facebook.com/reel/1395586979225961",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/reel/1933657697610134",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -11882,6 +11948,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKgDXbkZl2/",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02F99CtAoKgEeCkqNa47dn5pAL3SL6u3sCphfKkycseKBGr1WTURrbE6gMXSvnJXZyl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -15040,6 +15112,12 @@
         "language": "de",
         "url": "https://www.instagram.com/p/DeKgn3cFf66/",
         "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FkkD9Tk1kqxigyX8Dr8T4VSjwfRvUcrhgg8T7SYKEsfAE4C4oPoMrgJATUVEwm4ol&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ],
     "transport": {
