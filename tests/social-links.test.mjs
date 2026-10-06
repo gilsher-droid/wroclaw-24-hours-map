@@ -26,7 +26,11 @@ test("every canonical social item remains a direct Facebook or Instagram link", 
     }
   }
 
-  assert.equal(uniqueUrls.size, 57);
+  assert.ok(uniqueUrls.size >= 57, "preserve all historical links while adding localized posts");
+  const localized = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"));
+  for (const [id, posts] of Object.entries(localized)) {
+    for (const post of posts) assert.equal(catalog.getSocialPost(catalog.getPlace(id), post.platform, post.language).url, post.url);
+  }
 });
 
 test("the supplied priority links stay on their existing canonical places", () => {
