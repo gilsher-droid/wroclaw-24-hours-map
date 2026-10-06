@@ -266,7 +266,7 @@ test("ZOO Wrocław is one canonical place referenced by Four Days with curated m
   [...place.media.photos, ...place.media.videos].forEach((asset) => {
     assert.ok(existsSync(resolve(root, asset.slice(1))), `missing Zoo asset ${asset}`);
   });
-  assert.equal(place.socialPosts.filter((post) => post.platform === "facebook").length, 2);
+  assert.equal(place.socialPosts.filter((post) => post.platform === "facebook" && (!post.language || post.language === "he")).length, 2);
   assert.equal(
     place.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url,
     "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/",
