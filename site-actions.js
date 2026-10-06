@@ -121,6 +121,7 @@
       // The existing community group is Hebrew; do not present it as a localized channel.
       if (original.includes("facebook.com/groups/2525899074519424")) {
         link.hidden = lang !== "he";
+        link.style.setProperty("display", lang === "he" ? "" : "none", "important");
         return;
       }
       const socialChannels = { en: englishSocials, he: hebrewSocials, cs: czechSocials, pl: polishSocials, de: germanSocials };

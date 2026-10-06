@@ -31,3 +31,12 @@ User standing instruction 2026-10-01: in posts and other user-facing writing, ne
 ## Native YouTube captions by map language (2026-10-04)
 
 The user superseded the earlier simultaneous DE/CS/PL website caption band. Website guide players must now enable native YouTube captions with cc_load_policy=1 and cc_lang_pref matching the selected map language (he/en/de/cs/pl). Hebrew maps select the Hebrew guide and Hebrew captions; every other map selects the English guide with captions in its own language. Preserve the original portrait picture and audio, and native YouTube fullscreen controls. Verify published caption tracks in YouTube Studio before linking future guides. This change concerns website playback; language-specific social editions remain unchanged.
+
+
+## Native-language social link previews (2026-10-06)
+
+User requires paid-ad headlines, website link titles and previews to match audience language, not merely destination. Social crawlers do not run the client-side language switch. Use the static /share/{he|en|pl|de|cs}/{home|map|premium|moshe|lifestyle|excursions|cultural}.html entry URL for new shared links and campaign destinations; it has localized metadata and immediately opens the existing matching-language map. Verify the saved ad headline, description, website button and destination before publication. Audit existing ad previews without changing account identities or deferred connections.
+
+## Immediate missing place post publication (2026-10-06)
+
+User explicitly requires the map point to open a published post about the same place in the selected language. Publish missing localized place posts now, without waiting days for the scheduled series. If the corresponding post is already scheduled, bring it forward instead of duplicating it. Then record its actual public permalink in the localized social registry and deploy. Channel fallback is temporary and not completion.
