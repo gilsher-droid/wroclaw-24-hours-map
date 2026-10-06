@@ -16988,6 +16988,18 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeK5qzMibhV/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02jcqSRKQnLZAxV7rVd3La39GJDYA88T52dj96GGcrvH8BqPwZiFxbhrEhsn88jtVTl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
       },
