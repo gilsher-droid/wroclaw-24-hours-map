@@ -5915,6 +5915,12 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02QGp1V7GGGSnnw9qAaSyuGRgmEULhc5SzaCJteSiogdEDWdnGfzzJAzCknDLEMEYGl&id=61595207664875",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/r/1Kx6Fvn9c2/"
       },
       {
@@ -21374,6 +21380,18 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeK4eLkiU9G/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid03gGjqYsZC9bxMD46cGZjknhS7ZuDZTroeA6F4ZBBCBso8LHLoHpqYqtTDN6gKkL3l&id=61595207664875",
+        "verifiedAt": "2026-10-07"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122114783229398802/"
