@@ -268,7 +268,7 @@ test("ZOO Wrocław is one canonical place referenced by Four Days with curated m
   });
   assert.equal(place.socialPosts.filter((post) => post.platform === "facebook").length, 2);
   assert.equal(
-    place.socialPosts.find((post) => post.platform === "instagram")?.url,
+    place.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url,
     "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/",
   );
 
@@ -305,17 +305,17 @@ test("Hala Stulecia social links stay on its canonical place and shared resource
     ["wroclaw-four-days:hala"],
   );
   assert.equal(
-    place.socialPosts.find((post) => post.platform === "facebook")?.url,
+    place.socialPosts.find((post) => post.platform === "facebook" && (!post.language || post.language === "he"))?.url,
     "https://www.facebook.com/61591964083308/posts/122115263553398802/",
   );
   assert.equal(
-    place.socialPosts.find((post) => post.platform === "instagram")?.url,
+    place.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url,
     "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/",
   );
 
   const halaStop = window.PREMIUM_STOPS.find((stop) => stop.id === "hala");
   assert.equal(halaStop?.canonicalPlaceId, "hala");
   const resources = window.WROC_LOCATION_MEDIA.hala;
-  assert.equal(resources.facebook, place.socialPosts.find((post) => post.platform === "facebook")?.url);
-  assert.equal(resources.instagram, place.socialPosts.find((post) => post.platform === "instagram")?.url);
+  assert.equal(resources.facebook, place.socialPosts.find((post) => post.platform === "facebook" && (!post.language || post.language === "he"))?.url);
+  assert.equal(resources.instagram, place.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url);
 });

@@ -73,13 +73,14 @@ assert.deepEqual(Array.from(opera.socialPosts, (post) => [post.platform, post.ur
   runInNewContext(readFileSync(resolve(root, "data/location-media.js"), "utf8"), context);
   assert.deepEqual(Array.from(window.WROC_LOCATION_MEDIA["four-domes"].gallery), Array.from(fourDomes.media.photos));
   assert.equal(window.WROC_LOCATION_MEDIA["four-domes"].videos.length, 2);
-  assert.deepEqual(Array.from(fourDomes.socialPosts, (post) => post.platform), ["facebook", "instagram", "instagram"]);
-  assert.deepEqual(Array.from(fourDomes.socialPosts, (post) => post.url), [
+  assert.deepEqual(Array.from(fourDomes.socialPosts.filter((post) => post.language !== "pl"), (post) => post.platform), ["facebook", "instagram", "instagram"]);
+  assert.deepEqual(Array.from(fourDomes.socialPosts.filter((post) => post.language !== "pl"), (post) => post.url), [
     "https://www.facebook.com/share/p/1CAQHdKSat/",
     "https://www.instagram.com/p/DcqyG24DMHg/",
     "https://www.instagram.com/wroclaw.lowersilesia/reel/DeALvKfB6Xw/",
   ]);
-  assert.equal(fourDomes.socialPosts[2].language, "en");
+  assert.equal(fourDomes.socialPosts.find((post) => post.url === "https://www.instagram.com/wroclaw.lowersilesia/reel/DeALvKfB6Xw/").language, "en");
+  assert.equal(fourDomes.socialPosts.find((post) => post.language === "pl" && post.platform === "facebook").url, "https://www.facebook.com/reel/1126321077002576");
   assert.equal(window.WROC_CATALOG.resolveId("galeria-dizajn"), "zyjnia-bwa-wroclaw");
   assert.ok(window.WROC_CATALOG.getPlace("glowny").experiences.some((item) => item.id === "bwa-wroclaw-glowny-gallery"));
 });
