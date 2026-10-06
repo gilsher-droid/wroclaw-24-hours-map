@@ -53,3 +53,27 @@ test("all products render plain social anchors without a preview interceptor", (
     assert.doesNotMatch(script, /WROC_SOCIAL_PREVIEW|data-social-content-ref/, `${file}: no click interception`);
   }
 });
+
+test("all canonical places use only the selected language post or matching channel", () => {
+  const catalog = loadCatalog();
+  const pages = {he:"61591964083308",en:"61595036942289",pl:"61595207664875",de:"61595239823399",cs:"61594716405964"};
+  for (const place of Object.values(catalog.places)) for (const lang of Object.keys(pages)) for (const platform of ["facebook","instagram"]) {
+    const result = catalog.getSocialPost(place, platform, lang);
+    const exact = place.socialPosts.find(p => p.platform === platform && p.language === lang && !p.url.includes('/groups/'));
+    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.language && !p.url.includes('/groups/'));
+    if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
+    else {
+      assert.equal(result.language, lang);
+      assert.equal(result.context, "language-channel");
+      assert.equal(result.url, platform === "facebook" ? `https://www.facebook.com/profile.php?id=${pages[lang]}` : `https://www.instagram.com/wroclaw.lowersilesia${lang === 'en' ? '' : '.'+lang}/`);
+    }
+  }
+});
+
+test("new language posts take priority without leaking to another map language", () => {
+  const catalog = loadCatalog();
+  const place = { socialPosts: [{platform:"facebook",url:"https://www.facebook.com/old/"},{platform:"facebook",language:"pl",url:"https://www.facebook.com/polish/"}] };
+  assert.equal(catalog.getSocialPost(place, "facebook", "pl").url, "https://www.facebook.com/polish/");
+  assert.equal(catalog.getSocialPost(place, "facebook", "he").url, "https://www.facebook.com/old/");
+  assert.match(catalog.getSocialPost(place, "facebook", "de").url, /61595239823399/);
+});

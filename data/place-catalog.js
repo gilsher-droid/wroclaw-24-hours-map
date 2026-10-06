@@ -20946,9 +20946,14 @@
 
   const resolveId = (id) => aliases[id] || id;
   const getPlace = (id) => places[resolveId(id)] || null;
+  const socialChannels = {"he": {"facebook": "https://www.facebook.com/profile.php?id=61591964083308", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/"}, "en": {"facebook": "https://www.facebook.com/profile.php?id=61595036942289", "instagram": "https://www.instagram.com/wroclaw.lowersilesia/"}, "pl": {"facebook": "https://www.facebook.com/profile.php?id=61595207664875", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.pl/"}, "de": {"facebook": "https://www.facebook.com/profile.php?id=61595239823399", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/"}, "cs": {"facebook": "https://www.facebook.com/profile.php?id=61594716405964", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/"}};
   const getSocialPost = (place, platform, lang = window.document?.documentElement?.lang || "en") => {
+    const language = socialChannels[lang] ? lang : "en";
     const posts = (place?.socialPosts || []).filter((post) => post.platform === platform && !post.url.includes("/groups/"));
-    return posts.find((post) => post.language === lang) || posts.find((post) => !post.language) || posts[0] || null;
+    // Untagged historical editorial posts are Hebrew; never fall back to another language.
+    const post = posts.find((post) => post.language === language)
+      || (language === "he" ? posts.find((post) => !post.language) : null);
+    return post || (socialChannels[language][platform] ? { platform, language, url: socialChannels[language][platform], context: "language-channel" } : null);
   };
   const queryIndependentPlaces = ({ cityId, placeType, amenity } = {}) => Object.values(places).filter((place) => {
     if (place.sourceRecords.length !== 0) return false;
