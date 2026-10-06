@@ -1171,6 +1171,18 @@
       },
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02KcBttu2jmZJY2UmNBSbHkjmYnefrN1zZRLtg4hSnJf8iN4udRpWHQXXvYFPSdpual&id=61595239823399",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeKd1gglsdS/",
+        "verifiedAt": "2026-10-06"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
       },
       {
