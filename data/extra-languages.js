@@ -301,7 +301,7 @@ window.EXTRA_SITE_TRANSLATIONS={
     "רובע ארבע הדתות": "Okres čtyř denominací",
     "סמטאות, חצרות ובתי קפה באווירה שונה מהכיכר הראשית.": "Uličky, dvorky a kavárny s jinou atmosférou než na hlavním náměstí.",
     "יום של תצפית, מים והחלק העתיק והשקט ביותר של העיר.": "Den vyhlídek, vody a nejstarší a nejklidnější čtvrti města.",
-    "אוניברסיטת ורוצלב": "University of Wrocław",
+    "אוניברסיטת ורוצלב": "Vratislavská univerzita",
     "אם פתוח, כדאי לעלות למגדל המתמטי ולהיכנס לאולם לאופולדינה.": "Pokud je otevřeno, vylezte na Matematickou věž a navštivte Aula Leopoldina.",
     "Ossolineum והחצר": "Ossolineum a jeho nádvoří",
     "פינה יפה ושקטה שרבים עוברים לידה בלי להיכנס.": "Krásný, tichý kout, mnoho lidí projde bez vstupu.",
@@ -576,7 +576,7 @@ window.EXTRA_MAP_TRANSLATIONS={
       ],
       [
         "10:45",
-        "University of Wrocław"
+        "Vratislavská univerzita"
       ],
       [
         "11:30",
@@ -592,7 +592,7 @@ window.EXTRA_MAP_TRANSLATIONS={
       ],
       [
         "14:15",
-        "Sand Bridge a Sand Island"
+        "Písečný most a Písečný ostrov"
       ],
       [
         "15:00",
@@ -637,7 +637,7 @@ window.EXTRA_ROUTE_TRANSLATIONS={
     "An impressive Gothic landmark at the centre of the square. Walk around it to see its different façades.": "Ein beeindruckendes gotisches Wahrzeichen in der Mitte des Platzes. Gehen Sie darum herum und sehen Sie sich die verschiedenen Fassaden an.",
     "Two famous narrow houses beside St Elizabeth’s Church, joined by a small Baroque gateway.": "Zwei berühmte schmale Häuser neben der St.-Elisabeth-Kirche, verbunden durch ein kleines barockes Tor.",
     "10 minutes": "10 Minuten",
-    "One of the city’s most important and impressive buildings, set beside the river with a long Baroque façade.": "Eines der bedeutendsten und beeindruckendsten Gebäude der Stadt, direkt am Fluss gelegen und mit einer langen Barockfassade ausgestattet.",
+    "One of the city’s most important and impressive buildings, set beside the river with a long Baroque façade.": "Eines der bedeutendsten und eindrucksvollsten Gebäude der Stadt, direkt am Fluss gelegen und mit einer langen Barockfassade.",
     "Aula Leopoldina": "Aula Leopoldina",
     "Optional, depending on time and opening hours.": "Optional, je nach Uhrzeit und Öffnungszeiten.",
     "A small historic alley with galleries and the memorable monument to slaughtered animals.": "Eine kleine historische Gasse mit Galerien und dem denkwürdigen Denkmal für geschlachtete Tiere.",
@@ -1186,7 +1186,15 @@ window.EXTRA_ROUTE_TRANSLATIONS={
     "food and warm-up picks": "Essen und Aufwärmtipps",
     "Save the Christmas route on your phone": "Speichern Sie die Weihnachtsroute auf Ihrem Handy",
     "Choose each day according to the weather. Start relatively late, warm up often and skip optional stops whenever streets are slippery or energy is low.": "Wählen Sie jeden Tag entsprechend dem Wetter. Beginnen Sie relativ spät, wärmen Sie sich häufig auf und überspringen Sie optionale Stopps, wenn die Straßen rutschig sind oder die Energie niedrig ist.",
-    "All three days, maps and navigation remain available throughout the access period.": "Alle drei Tage, Karten und Navigation bleiben während des gesamten Zugangszeitraums verfügbar."
+    "All three days, maps and navigation remain available throughout the access period.": "Alle drei Tage, Karten und Navigation bleiben während des gesamten Zugangszeitraums verfügbar.",
+    "National Forum of Music": "Nationales Musikforum",
+    "One of the city’s leading cultural venues. Check whether a performance is scheduled for your evening.": "Einer der wichtigsten Kulturorte der Stadt. Prüft, ob an eurem Besuchsabend eine Vorstellung stattfindet.",
+    "Wrocław Opera": "Breslauer Oper",
+    "A major cultural venue in the city centre. Check the current programme in advance.": "Ein bedeutender Kulturort im Stadtzentrum. Prüft vor eurem Besuch das aktuelle Programm.",
+    "Bogusławskiego restaurant street": "Restaurantstraße Bogusławskiego",
+    "Restaurants and bars beneath the railway arches — an easy place to end the day.": "Restaurants und Bars unter den Eisenbahnbögen – ein schöner Ort, um den Tag ausklingen zu lassen.",
+    "Wrocław Main Railway Station": "Breslauer Hauptbahnhof",
+    "A striking station that resembles a castle. Add it at the end only if it suits your onward journey.": "Ein eindrucksvoller Bahnhof, der an ein Schloss erinnert. Plant ihn nur dann als letzten Halt ein, wenn er zu eurer Weiterreise passt."
   },
   "cs": {
     "All four days, maps and navigation are currently available free of charge.": "Všechny čtyři dny, mapy a navigace jsou nyní k dispozici zdarma.",
@@ -1204,7 +1212,7 @@ window.EXTRA_ROUTE_TRANSLATIONS={
     "20–30 minutes": "20–30 minut",
     "One of the city’s most important and impressive buildings, set beside the river with a long Baroque façade.": "Jedna z nejvýznamnějších a nejpůsobivějších budov města, stojící u řeky s dlouhou barokní fasádou.",
     "Two famous narrow houses beside St Elizabeth’s Church, joined by a small Baroque gateway.": "Dva slavné úzké domy vedle kostela svaté Alžběty spojené malou barokní branou.",
-    "University of Wrocław": "University of Wrocław",
+    "University of Wrocław": "Vratislavská univerzita",
     "Jatki Alley": "Alej Jatki",
     "10 minutes": "10 minut",
     "Wrocław Market Hall": "Vratislavská tržnice",
@@ -1684,7 +1692,7 @@ window.EXTRA_ROUTE_TRANSLATIONS={
     "12:30": "12:30",
     "Aula Leopoldina or Mathematical Tower": "Aula Leopoldina neboli Matematická věž",
     "Market Hall and food break": "Tržnice a přestávka na jídlo",
-    "Sand Bridge and Sand Island": "Sand Bridge a Sand Island",
+    "Sand Bridge and Sand Island": "Písečný most a Písečný ostrov",
     "15:00": "15:00",
     "Return toward the city centre": "Návrat směrem do centra města",
     "18:00": "18:00",
@@ -1750,6 +1758,15 @@ window.EXTRA_ROUTE_TRANSLATIONS={
     "How to use the winter route": "Jak používat zimní trasu",
     "Save the Christmas route on your phone": "Uložte si vánoční trasu do telefonu",
     "All three days, maps and navigation remain available throughout the access period.": "Všechny tři dny, mapy a navigace zůstávají dostupné po celou dobu přístupu.",
-    "food and warm-up picks": "výběr jídla a zahřátí"
+    "food and warm-up picks": "výběr jídla a zahřátí",
+    "National Forum of Music": "Národní hudební fórum",
+    "One of the city’s leading cultural venues. Check whether a performance is scheduled for your evening.": "Jedno z hlavních kulturních center města. Ověřte si, zda se v den vaší návštěvy večer koná koncert.",
+    "Wrocław Opera": "Vratislavská opera",
+    "A major cultural venue in the city centre. Check the current programme in advance.": "Významná kulturní scéna v centru města. Aktuální program si ověřte předem.",
+    "Bogusławskiego restaurant street": "Ulice Bogusławskiego – restaurace pod oblouky",
+    "Restaurants and bars beneath the railway arches — an easy place to end the day.": "Restaurace a bary pod železničními oblouky – příjemné místo na zakončení dne.",
+    "Wrocław Main Railway Station": "Hlavní nádraží Wrocław",
+    "A striking station that resembles a castle. Add it at the end only if it suits your onward journey.": "Výrazné nádraží připomínající zámek. Zařaďte ho na konec trasy, pokud se hodí pro vaši další cestu.",
+    "15–25 minutes": "15–25 minut"
   }
 };

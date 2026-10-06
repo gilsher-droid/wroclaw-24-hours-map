@@ -320,6 +320,18 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0eyphtHc89bUybtWLSa13CNmi6xgRcUoorKPDy8ePmX822C19HPdhnSxauvi4ibMl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeK7FfbEXx-/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1E6RkQAwRa/",
         "language": "he"
       },
@@ -1689,15 +1701,15 @@
       "he": "רחוב המסעדות בוגוסלבסקייגו",
       "en": "Bogusławskiego restaurant street",
       "pl": "Ulica Wojciecha Bogusławskiego",
-      "de": "Bogusławskiego restaurant street",
-      "cs": "Bogusławskiego restaurant street"
+      "de": "Restaurantstraße Bogusławskiego",
+      "cs": "Ulice Bogusławskiego – restaurace pod oblouky"
     },
     "description": {
       "he": "מסעדות וברים מתחת לקשתות מסילת הרכבת — מקום נעים לסיים בו את היום.",
       "en": "Restaurants and bars beneath the railway arches — an easy place to end the day.",
       "pl": "Restauracje i bary pod arkadami kolejowymi — dobre miejsce na zakończenie dnia.",
-      "de": "Restaurants and bars beneath the railway arches — an easy place to end the day.",
-      "cs": "Restaurants and bars beneath the railway arches — an easy place to end the day."
+      "de": "Restaurants und Bars unter den Eisenbahnbögen – ein schöner Ort, um den Tag ausklingen zu lassen.",
+      "cs": "Restaurace a bary pod železničními oblouky – příjemné místo na zakončení dne."
     },
     "location": {
       "countryCode": "PL",
@@ -1804,6 +1816,12 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid03818GdsLedjWE6s96GvNtJagLsC5qZXEqC5XX5Csb1rZmJLJdQhnMZyeqRta1nWhNl&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:19:37.411572+00:00"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/"
@@ -2918,6 +2936,18 @@
       },
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0r2hQLdBYsHvtsE7y9A18avz3p6vmQW8jSJEqXW8PMEsHFQ2gWNj75mMf8QNBnYzol&id=61595239823399",
+        "verifiedAt": "2026-10-06T23:05:07.778906+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeK64dsG1La/",
+        "verifiedAt": "2026-10-06T23:05:07.778906+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109921771398802/"
       },
       {
@@ -3576,6 +3606,12 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02xwiVxqJvFKuuhkAhqD9KGFhbmhjSyvFwzEPJT8u5WkjDax2wqBdRQaWMCYZV675bl&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:15:47.897250+00:00"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/groups/2525899074519424/posts/2533682413741090/"
@@ -5212,6 +5248,12 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid036ZucwSEPDShZLdQxnf2aLyE7yoJNqReXZ6ZkRnKWaYtZx84MjLCRpUghpopL5wgal&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:11:55.108182+00:00"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/r/1ANYoSUn3J/"
@@ -9570,6 +9612,12 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02SNoJ5VJXFxGtxXJXhVKopJPu7TMFHLNKcPUhc3r6xxK3tWFN3ucv1xGuU1JH4Trvl&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:13:31.358779+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
       },
       {
@@ -11605,6 +11653,12 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02nnJty31FqZX2J3jmXKXYEsC3L6wdC14kk3SBMfyw1AkExKHzub9Ur78N2BdAJ6dol&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:17:27.632328+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1C4YQxxtU1/"
       },
       {
@@ -11955,6 +12009,12 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Z8kgxs3fBBWm21rF1HhaxvyXqs4cv1W1KhPQmxcND991g7VVKxJMDXYVPCFR4vTxl&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:18:30.335855+00:00"
+      },
+      {
         "platform": "instagram",
         "url": "https://www.instagram.com/p/DcrGVaJDCs3/?img_index=1"
       },
@@ -12273,6 +12333,12 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0pRm31PYSfXLwZGJwGJpxwp8kPygsWPJZf6qLqon1hEL8EBTCMJ7MbuLpi5LRc3gcl&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:14:08.484895+00:00"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109921771398802/"
@@ -13581,6 +13647,12 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Yegs3zyk229PCi2BWLpgwKB4BC8M7cGDwtomZv5hksFxAfcv4T52eQGCt8kA92jel&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:14:57.941919+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
       }
     ]
@@ -13756,6 +13828,12 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PBubtq5LoHRZqauEt2AxHHKPjbGjNhXShCarFr5ogphMk9iHW8vfEF9TfE2F47mdl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CHRnrqLwQ/"
@@ -16880,13 +16958,13 @@
       "en": "University of Wrocław",
       "pl": "Uniwersytet Wrocławski",
       "de": "Universität Breslau",
-      "cs": "University of Wrocław"
+      "cs": "Vratislavská univerzita"
     },
     "description": {
       "he": "אחד המבנים המרשימים והחשובים בעיר, ממש סמוך לנהר, עם חזית בארוקית ארוכה.",
       "en": "One of the city’s most important and impressive buildings, set beside the river with a long Baroque façade.",
       "pl": "Jeden z najważniejszych i najbardziej okazałych budynków miasta, położony nad rzeką, z długą barokową fasadą.",
-      "de": "Eines der bedeutendsten und beeindruckendsten Gebäude der Stadt, direkt am Fluss gelegen und mit einer langen Barockfassade ausgestattet.",
+      "de": "Eines der bedeutendsten und eindrucksvollsten Gebäude der Stadt, direkt am Fluss gelegen und mit einer langen Barockfassade.",
       "cs": "Jedna z nejvýznamnějších a nejpůsobivějších budov města, stojící u řeky s dlouhou barokní fasádou."
     },
     "location": {
@@ -16998,6 +17076,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02jcqSRKQnLZAxV7rVd3La39GJDYA88T52dj96GGcrvH8BqPwZiFxbhrEhsn88jtVTl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0AnDHn1jT1GBvwypP74q5qCrenHQ9F2XcUL82ZSRykLY1JHMwUTfZ1yhJmx6H4tTdl&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:16:49.656608+00:00"
       },
       {
         "platform": "facebook",

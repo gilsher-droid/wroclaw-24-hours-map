@@ -78,11 +78,12 @@ const siteSource = read("site-i18n.js");
 const site = vm.runInNewContext(`(${extractObject(siteSource, "const translations =")})`);
 Object.assign(site.en, vm.runInNewContext(`(${extractObject(siteSource, "Object.assign(translations.en,")})`));
 const map = runData("data/translations.js").TRANSLATIONS;
-const locations = runData("data/locations.js").LOCATIONS;
+const locationData = runData("data/locations.js");
+const locations = locationData.LOCATIONS;
 const premium = runData("data/premium-route.js");
 const moshe = runData("data/moshe-route.js");
 const routeStrings = new Set();
-[locations, premium.PREMIUM_DAYS, premium.PREMIUM_STOPS, premium.PREMIUM_RECOMMENDATIONS, moshe.PREMIUM_DAYS, moshe.PREMIUM_STOPS, moshe.PREMIUM_RECOMMENDATIONS].forEach((value) => collectEnglish(value, routeStrings));
+[locations, locationData.EVENING_LOCATIONS, premium.PREMIUM_DAYS, premium.PREMIUM_STOPS, premium.PREMIUM_RECOMMENDATIONS, moshe.PREMIUM_DAYS, moshe.PREMIUM_STOPS, moshe.PREMIUM_RECOMMENDATIONS].forEach((value) => collectEnglish(value, routeStrings));
 const allEnglish = new Set([...routeStrings]);
 const collectPlain = (value) => {
   if (typeof value === "string") allEnglish.add(value);
@@ -98,6 +99,9 @@ collectPlain(moshe.PREMIUM_ROUTE_CONFIG?.ui?.en);
 
 const de = await translateMany(allEnglish, "de");
 const cs = await translateMany(allEnglish, "cs");
+const overrides = JSON.parse(read("data/extra-language-overrides.json"));
+Object.assign(de, overrides.de || {});
+Object.assign(cs, overrides.cs || {});
 const generated = `/* Generated from the English source strings. Do not edit by hand. */\n` +
   `window.EXTRA_SITE_TRANSLATIONS=${JSON.stringify({ de: mapObject(site.en, de), cs: mapObject(site.en, cs) }, null, 2)};\n` +
   `window.EXTRA_MAP_TRANSLATIONS=${JSON.stringify({ de: mapObject(map.en, de), cs: mapObject(map.en, cs) }, null, 2)};\n` +
