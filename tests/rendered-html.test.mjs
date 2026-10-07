@@ -258,7 +258,9 @@ test("island crossings and galleries use the corrected route and media", () => {
   assert.match(media, /cathedral: \["\/assets\/gallery-cathedral-01\.jpg"\]/);
   assert.match(media, /ostrow: \[[\s\S]*gallery-cathedral-02\.jpg[\s\S]*gallery-cathedral-01\.jpg[\s\S]*\]/);
   assert.doesNotMatch(media, /"wyspa-piasek": \{ gallery:/);
-  assert.match(media, /"most-tumski": \{ gallery: galleries\.tumskiBridge \}/);
+  assert.match(media, /sandBridge: \["\/assets\/gallery-cathedral-02\.jpg"\]/);
+  assert.match(media, /"most-piaskowy": \{ gallery: galleries\.sandBridge \}/);
+  assert.doesNotMatch(media, /"(?:most-tumski|tumski-bridge)": \{ gallery:/);
   assert.match(locations, /id: "most-piaskowy"[\s\S]*coordinates: \[51\.113559, 17\.039816\]/);
   assert.match(locations, /id: "wyspa-piasek"[\s\S]*coordinates: \[51\.11453, 17\.040199\]/);
   assert.match(locations, /id: "most-tumski"[\s\S]*coordinates: \[51\.114714, 17\.042248\]/);
