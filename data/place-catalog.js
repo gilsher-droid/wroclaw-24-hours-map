@@ -368,6 +368,12 @@
       },
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0U6Hr9p3a7XHMtEa5yQXX1zxUXZZBsorjfuGRtzMi9mhyuVX721vVB3naDLgaWpjfl&id=61595207664875",
+        "verifiedAt": "2026-10-07T17:40:25.527662+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1E6RkQAwRa/",
         "language": "he"
       },
@@ -472,6 +478,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid024P7iQbXJegfBiR3oSHHRJEyw4mX6jY2CMGMSGyMBP9jzsJPh4qQ4HkF8PNtqYrdzl&id=61595239823399",
         "verifiedAt": "2026-10-07T14:33:43.289944+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid07FLP53VMDvHYEvZxeUqijwipq3KcEDmm98bjLEpyz1R9voKgttmg5NnYUCNpBtUQl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -916,6 +928,12 @@
       },
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02zibKzyuicRazdJUeM9gvSz2kqsoy847qspy8ereLgEmnVtpRAqPGwsx4ZtPN8p6Jl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
     ],
@@ -1033,6 +1051,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02WNKo4NyqEsvBePKTEb1evUfsAjyRm7jyCvVYSv52udkQdifd6Rn7nN5zmHTQncdrl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0SyRKLC6Lpap2vDi84YgakoVYvzkzAHMiJJSzDc7ZZm3Zrvj6xpWzm3ShVimbCdJWl&id=61595207664875",
+        "verifiedAt": "2026-10-07T17:58:35.101185+00:00"
       },
       {
         "platform": "facebook",
@@ -4705,6 +4729,12 @@
       },
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0pxzdvb36264kXQdXhikSjbkKELV3XDxoDE8AowLGnheHigcXxDbkpb7TBLYj5PEsl&id=61595207664875",
+        "verifiedAt": "2026-10-07T17:47:10.872858+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
     ],
@@ -4811,6 +4841,12 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KzMpWVnFVsfcJUyvyAM7xTikV5f8uT7D159JqNLZUJqaYqyeDqPgDhpP5dzPN5WQl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
@@ -5334,6 +5370,12 @@
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0y5gxNrJdT65Hx2hoN1zuuqMLhDLTkdTZ5wyS1VNU7H9bivvBkHoR4PZYobJ8hBcAl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0225SeRJ64VFdo6pT42qxSj8WmATUy4D4PHUq7syAKGMeLjEMmcdQ2yrcUQMpJHmv8l&id=61595036942289",
         "verifiedAt": "2026-10-07"
       },
       {
@@ -7578,7 +7620,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid029WPLy2GjqDJTcRVKPmQxibM8D14LwSyk3ajHEt17xZb997ewZhHvUtHcPz4qt2eul&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "ida-kuchnia-i-wino": {
     "id": "ida-kuchnia-i-wino",
@@ -9090,6 +9139,12 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0rCRCH8dhAuFEbzZwmHX4zG6xFvc6ofAYmU5FGTfF91Jh6gY61cLHfAX8UuNUkbJCl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
     ],
@@ -9202,6 +9257,12 @@
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZyTr2wqWLcrryFrXqZLFH6dJFcREGT8oSJPYHfrq9xQT18VXbLUEwYTRWCymYo1yl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PnrYPgbDsqZZTbgiZtbB96ApFcMJ9Wzvigc4YuE5utuNoVUvyJcMrV7wTgiuY6Ztl&id=61595036942289",
         "verifiedAt": "2026-10-07"
       },
       {
@@ -10453,7 +10514,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0V55dDCWNs6SrsQ2GmZHVjnXq7htFCcH8hvxS1JrMo8GgyqS2R4hT9UdYRftSBDkGl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "meatologia-wlodkowica": {
     "id": "meatologia-wlodkowica",
@@ -10560,7 +10628,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zW2xSu1oHHyAcAAT9xgGbDhg7b9bRpMzSununVf9JDNpTteJKHU7QzeMCdnZzfXLl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "meatologia-zwycieska": {
     "id": "meatologia-zwycieska",
@@ -10667,7 +10742,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid038Kh5iKeLTY4vgx5H3SPPH4ZHwnwHLuFWxHNJU8LAPxot9UhAxNRRLJzh3MiFYfVjl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "monopol": {
     "id": "monopol",
@@ -10758,6 +10840,12 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0srJawqeiSY93cszKiFJeZEygRTXmL2Wi5KLhiuBeGf1Y8yzP3WeQcXXBmTYfpeHyl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
@@ -12561,6 +12649,12 @@
         "language": "de",
         "url": "https://www.instagram.com/p/DeMpEByFEH1/",
         "verifiedAt": "2026-10-07T15:07:43.253189+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeM5aYvjcZA/",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -14439,6 +14533,12 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Lkv7Dxp8qrQjVamvnRMPwZGAjGXuDo6JXP1dpmJdM64k3CVsMbxbc7NKz7f2vr1Rl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
     ],
@@ -15891,7 +15991,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qRyA3QpKVBziSxr2L4sxwmQWTrYHezx1ZkNanWp5KuRpnjFNL3r991s9EUbfX4ehl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "puro": {
     "id": "puro",
@@ -21072,7 +21179,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NfyyY5NvzaYdtgVRhHyuJ54hCmCmLLPhLqCrVxJdu1d9D8zCLiofT4Lsqc2odVWyl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "wieza-cisnien-borek": {
     "id": "wieza-cisnien-borek",
