@@ -4151,7 +4151,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02R2piC24YEu38SJvyrbBVff6o14DzyxbZjKVmSajeB6PCFEMKBkMPufJTUqv5g8QZl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:44:50.131344+00:00"
+      }
+    ]
   },
   "depot-history-centre": {
     "id": "depot-history-centre",
@@ -4271,6 +4278,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid031gwmXZMReeJXG2zShX9eWJUasTrBNKN22mZLntJCbn5b37iSLfayNDPz85RUU9Dql&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02CyDuwjEH76HTe74ijcwqw7dfuk5Rfdz8NC3FQ4g7yTi95dG2UMVaXXbHma1kp5Udl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:47:09.934353+00:00"
       }
     ]
   },
@@ -4605,6 +4618,12 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z2jPJzh3MFxZxnqY77cU3RrWcFyEYP33pafk8KPG7jzxoqfV2trojqWoqDMRDWVUl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
@@ -10974,6 +10993,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FHzMo3UL9PAraowMZqES1GjrYWuuHFJXQB6VYaK52VHW4HAhHphdUH9Ax6JddFuUl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMtaw6FNEj/",
+        "verifiedAt": "2026-10-07"
       }
     ],
     "transport": {
@@ -11454,6 +11479,12 @@
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fK5BP3yJzi72M1jcfVUTbb4UGJRVQXHdmXGxQmHyUye9aRDx5XdxefbKeNShS5dGl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Bj9MHy72P7DdQjNPwYHPBqoD1AcDsRDpxvgVV3hgr7JGW9pEyL6HhfwfQfZKVZvkl&id=61595036942289",
         "verifiedAt": "2026-10-07"
       }
     ]
