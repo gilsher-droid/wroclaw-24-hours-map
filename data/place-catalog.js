@@ -1473,7 +1473,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": [],
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0WyboB4fCY6hTPmZ1axkzeBh61r5bZGgcpvAG3VquNsgZYFGW8zFRsBReZqxvNnj6l&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -4588,6 +4595,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0292KS9hfZQPC8xFUtkw1yfpbythvWjnf8Xs6nRZn5QPPMwCS4u1ZFgwq3dep7t5nKl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XidRxvmLisFjDxyEYbb8VqhoyhbChh8CnnSyqVazCfeYeqEXdVyb4wkFXtPnJSZhl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       }
     ],
     "transport": {
@@ -4860,7 +4873,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": [],
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0re5gNHiXfJcVUMvow7XC1p2ZdHWnjm7EZBhf9i9tqWUrLCEjBuBpZyq4QyvJK1G4l&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -5356,6 +5376,12 @@
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeL0B4dDLj5/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeMbANnGNmL/",
         "verifiedAt": "2026-10-07"
       },
       {
@@ -14128,6 +14154,12 @@
         "verifiedAt": "2026-10-07T00:05:33.503827+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMa3xtDvbr/",
+        "verifiedAt": "2026-10-07T13:03:39.472349+00:00"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CHRnrqLwQ/"
       },
@@ -20257,6 +20289,12 @@
       },
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JRViYewbfMXS7pVWpG1jJuzL9MpvtS2jjBRRBfx9eU4dKWFRX6mgfknUGQPVwNRUl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19hnYF5mwX/",
         "language": "he"
       },
@@ -21320,6 +21358,24 @@
         "verifiedAt": "2026-10-07"
       },
       {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMbjvQjkfH/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMbchpH9GT/",
+        "verifiedAt": "2026-10-07T13:08:23.292977+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02koCgvf9uBARNFmT3HnwDwTPcZiUfUg8HtxRHSWsMrh3hkyNi9qBN1m7o9NnntHPXl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19G81XL7j2/"
       },
@@ -21874,6 +21930,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0i9DXCtEjmR6NCAfS5Awh9BftTrUiocELZPFNKFwTuPHBjeAmnTcNpckPBMU7gkc6l&id=61595239823399",
         "verifiedAt": "2026-10-07T06:25:20.589593+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMa91bmPJA/",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
