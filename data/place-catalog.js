@@ -1853,6 +1853,12 @@
         "verifiedAt": "2026-10-07T06:27:53.385594+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeLtgcQCev-/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/"
       },
@@ -4010,7 +4016,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid07GRhTqPzfYcHmAZQRbUzxkWpRZVR1KZTcDnvTgDBxAzGirA9UuW7qDw7Z2aog24Zl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "dinette": {
     "id": "dinette",
@@ -5338,6 +5351,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0k5bQ7Rrq4N2WeLnvafKw6EqqHsufmomjNAzTXiv2n6GyJ7ek5MsodeP5BokLvR4dl&id=61595239823399",
         "verifiedAt": "2026-10-07T06:16:11.120822+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeL0B4dDLj5/",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -7528,6 +7547,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02PtXrpzwLifvY15DGfac3nRa86RdVvt7DQ7c62xWcyv3XbaBaLnxWopZXTyqH72vwl&id=61594716405964",
         "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0inM9Mnr7QuJLbJJVWJ2RgMoLnjPD6ftGU8iUtAfELVN1ndSEn3SHm9HmQEWQCZ2Hl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ],
     "transport": {
@@ -7658,6 +7683,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02uBBnyJ5taZgj7zGQFCu9LBCEtT9Eq1UGLs17GMMWcrZkdoNZDzu6EBYDQ8b46PsPl&id=61594716405964",
         "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Ed7PWtnZeKpaPsJ3b1QcdCtn7KBbuoLqH8zQKdYFTDomWaZKxGRDXY7r9eZQBt6Bl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ],
     "transport": {
@@ -9748,6 +9779,12 @@
       },
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06EFayQBGyQq4jBuJ1ZHiCxojVfjMjfkaJhUZeZUej3ZUCKKJryMZNqqJnpothuu9l&id=61595239823399",
+        "verifiedAt": "2026-10-07T07:20:42.113348+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
       },
       {
@@ -11586,6 +11623,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid035u8xcFfHoe8tiGWCkUnMRbj5Qg7GQYR6cD9ZY2u1LRaURcnjAkY1jorwjrCdQxvhl&id=61594716405964",
         "verifiedAt": "2026-10-07T06:27:53.385594+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0xqpWm7TFYjKmZZxKxYSAGv22kY5B7YBPfAkwJEYBN6AiTkDPXTZfQf9Vqwc3WZCFl&id=61595207664875",
+        "verifiedAt": "2026-10-07T06:59:06.136764+00:00"
       }
     ]
   },
@@ -13102,7 +13145,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0y9jKYMEHoVf2NWnPeYqiecZhchuXcoK1AXCDfe6hJZQwrqv46YPN1ARPbxkcpefql&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "panorama": {
     "id": "panorama",
@@ -13244,6 +13294,12 @@
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GA7h2qziqTfjsbVpQ9TsY6NfxZ2kJMrk9JVGJPF58VFziESyMYqoYC3LCNA6X4H3l&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ToudpxJ7b2JtpccdnALkQptQbNFrbLdG9unXqu2fbgkyBb9d4CVGeakzcSyH2jYVl&id=61594716405964",
         "verifiedAt": "2026-10-07"
       },
       {
@@ -17204,6 +17260,12 @@
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02LEfYBpkZggr1eW6Xi6S8V5zU6q4ZYS5Hp2HUcT4RhLYih7jqVZMfGn3HVkatao66l&id=61595207664875",
         "verifiedAt": "2026-10-06T23:24:19.550729+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0j3RGBm11XgUCo3woiec6vgRksebyjTBeo4GuUrHs7EDia1tm518LS2jdhx2U1TJVl&id=61595239823399",
+        "verifiedAt": "2026-10-07T06:29:27.948641+00:00"
       }
     ]
   },
@@ -20188,6 +20250,12 @@
         "verifiedAt": "2026-10-07T06:13:03.791281+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeLxaKsD11H/",
+        "verifiedAt": "2026-10-07T07:22:37.269496+00:00"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19hnYF5mwX/",
         "language": "he"
@@ -20697,7 +20765,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid037hYU1EpwAiQLmMnHgejRx3bEWjvYU9MirwLLQzvM7TiV5hqq4eXzD2xfPB57fGkPl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "wroclaw-contemporary-theatre": {
     "id": "wroclaw-contemporary-theatre",
