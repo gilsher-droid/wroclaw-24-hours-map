@@ -343,6 +343,12 @@
         "verifiedAt": "2026-10-07T06:22:51.005286+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMdFydABN2/",
+        "verifiedAt": "2026-10-07T13:23:02.745335+00:00"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1E6RkQAwRa/",
         "language": "he"
@@ -1866,6 +1872,12 @@
         "verifiedAt": "2026-10-07"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeMdN4ilxx3/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/"
       },
@@ -2415,7 +2427,14 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UWkczkZpo4J4sBNZxVXpD61Eeegs9wDnuELQfVzmYwzjcuBJ9RKksL7TiEA4iVZzl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "brzeg-oder-gate": {
     "id": "brzeg-oder-gate",
@@ -2527,7 +2546,14 @@
         "en": "https://youtube.com/shorts/xs3NY7q0OX4"
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06HXcTUpWpjptKrbJB4UBcD8yS5J6cZzqF34R2hjTWSruBEgafGp2NEpcctSgCkDMl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "brzeg-town-hall": {
     "id": "brzeg-town-hall",
@@ -2631,7 +2657,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02FLW1Zia5ubLZyjg9b334KSt66R3Av7wvR7YUGgvAEjuogYyb75VWu5J2FWrS9vAel&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "bulka": {
     "id": "bulka",
@@ -3684,6 +3717,24 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NxUSLgLuBMcAc2EYehR817MHTgJyaPhE3DpHqV11PFnyUreN6HvVAxyy7y78xETRl&id=61595239823399",
         "verifiedAt": "2026-10-07T06:27:24.962975+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMc4eUjT8v/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMcogcnP-C/",
+        "verifiedAt": "2026-10-07T13:18:52.221637+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02qtiyMqpwWBwV9kLHDof7aGnnK3EdyoxFwGpeAnymKmK8xcTJeRQn18XLK8gWRGHel&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -5383,6 +5434,12 @@
         "language": "pl",
         "url": "https://www.instagram.com/p/DeMbANnGNmL/",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMcDkvCd92/",
+        "verifiedAt": "2026-10-07T13:14:03.493954+00:00"
       },
       {
         "platform": "facebook",
@@ -17436,6 +17493,12 @@
       },
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02LjPTJMtPgkqyGbgviQRvEujHNBUFTN8EJswpyN9k3YBPdQfKhj5awm3WbBj6X5vgl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
       },
       {
@@ -20294,6 +20357,12 @@
         "verifiedAt": "2026-10-07"
       },
       {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMcQcHHAG8/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19hnYF5mwX/",
         "language": "he"
@@ -20916,7 +20985,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HEUVBLJw6MgmeBQUyhdUj225dAZsHWseuMUEh1fx15fd8THG8KG29Ai4fDnxdbPHl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "wroclaw-puppet-theatre": {
     "id": "wroclaw-puppet-theatre",
@@ -21024,7 +21100,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid057bkMRNhNuDJwMbemvanmJBLJyKmtL9Xe87Q283vPZ1dHFuJVqrP28cPy4TAeszol&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "wuwa": {
     "id": "wuwa",
