@@ -2539,6 +2539,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMenhziY4u/",
         "verifiedAt": "2026-10-07T13:38:38.891703+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02vMDzTZHUxL49ppw3R6HDr8vFmYKMoB3DB7mqQGopZvDy8eBtgb5hT4tCdB6Fefodl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -2664,6 +2670,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02VZN6TESk3RUKLLofX8tPGuekbnQ2coTDnRvKoKYxutCh9ovd9RTdY86QSGKaCBXDl&id=61595239823399",
         "verifiedAt": "2026-10-07T14:56:27.189345+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0aaQm6ZiHaWQitYkDFamaUc8tgBD8K3AtmbusUW7VmAcvgpkst5J3xDMzM15d121Bl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -2781,6 +2793,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0343TUbf8cGjexs6DTQfDjjH6JszYFQwKbohGqEy1GLtuqxjEMz8U5bEwUULffZu1pl&id=61595239823399",
         "verifiedAt": "2026-10-07T15:15:40.522467+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Audymoo4YNBkj95HgAaJ4oNxVviw4kMsXhLHhGAGFJyk4Q1cmnfrS7QzMCisi28Dl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -2888,6 +2906,12 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02A71HKGXJ8No1DBr6pKnb9dMS62MrGaZY48jb5RiHCkkHgevRkeAKTMp3fAyUkVDJl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:29:41.841580+00:00"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
@@ -3293,6 +3317,12 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0rgvRC2csUVPtvk3SbainQtGftzEfiN4yQ5tK5aUaUnY7JEime5NQre2tsMrSUKMsl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:31:50.457386+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
       }
     ],
@@ -3433,6 +3463,12 @@
       },
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0SiTZKfLKUYRfUsgTBSzVB5CJ6ogqVHaAkLhTmN4JN76bnYRiKp2pgu448MFPioEbl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:35:28.303461+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
       }
     ],
@@ -3546,6 +3582,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02DQfoaBisFjW5FTHoBWW6yKVGHL82QbsC28Cv42fNj35ZsyU3zvWmRQjjnUMQC53Kl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0evMjE7tMKqvQRu1kRo3iWkbcVS7cnuHnugyqmwHnyzyBQgmzQurLsRBKQFBPMHJLl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:38:56.860801+00:00"
       },
       {
         "platform": "facebook",
@@ -3993,7 +4035,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hYvb1FFWG2NQckQwrmYrdeT1ao8k9DoVv7Nf67GfL2thamPNtyNezHJskKonJPaol&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:42:27.567730+00:00"
+      }
+    ]
   },
   "concordia-taste": {
     "id": "concordia-taste",
@@ -8548,6 +8597,12 @@
       },
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid037rPY1exgN9wgmg5qRg1gcN3yLPFYkMx3asL8oHfExKcdkFv5Miv787dVL6aUEafEl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1LmJyCrvFT/"
       },
       {
@@ -9721,6 +9776,12 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JBqwhKbmcnwZbpgRvhzPayWvgDGuE25zaHgivDtZJBH2JL3gohqd4AwoFm1QoQMjl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
     ],
@@ -10804,6 +10865,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMhgrtAAHo/",
         "verifiedAt": "2026-10-07T14:04:16.275470+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid026tUVV7SEUJqBHJbpCS9qwzz27JpABWeFsj8rmEvahjyPdqN2kxvYihyPegPj9ta7l&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -11382,6 +11449,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMflo3jWMP/",
         "verifiedAt": "2026-10-07T13:48:23.057608+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fK5BP3yJzi72M1jcfVUTbb4UGJRVQXHdmXGxQmHyUye9aRDx5XdxefbKeNShS5dGl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -14371,6 +14444,12 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid034fiT8BLtL7iEV4Y5tHyLroNpAX4btjbERsJ772utbiiQaQ7qk5NrpQUNwyTet47Jl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
       }
     ]
@@ -15738,6 +15817,12 @@
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMoMKgDmiX/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0a1KW7A2aHNKgpXgheWtWeHpCcDQD6injwUUCuDktDeZu7dFinCh7gKspQFGRBVNVl&id=61595036942289",
         "verifiedAt": "2026-10-07"
       },
       {
@@ -18271,7 +18356,14 @@
       "videos": [],
       "metadata": {}
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02p5fV6smkQpVDNDkWjNWmB3UcWcHP7Tic8TuMdkK4HduKGrTotib8F4RDjwXySBgzl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-hala-stulecia": {
     "id": "water-refill-hala-stulecia",
@@ -21288,6 +21380,12 @@
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0w7M61tjhHb2WBPx7e2n4uNhtFrUgs2xSUBT4vqpE2cxFQQ1frfh4rvAHa9FUmc6Wl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0xxGFnJd4AKZBtd5iW5hXRVf3AFsYwAsjunpcrM4imAEEKLAdMkCwA9ZNReGR23tKl&id=61595036942289",
         "verifiedAt": "2026-10-07"
       },
       {
