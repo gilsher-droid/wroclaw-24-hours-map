@@ -27,7 +27,10 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
     window.WROC_CATALOG.getPlace("old-jewish-cemetery-wroclaw").links.website,
     "https://muzeum.miejskie.wroclaw.pl/museum/sztuki-cmentarnej/",
   );
-  assert.deepEqual(Array.from(window.WROC_CATALOG.getPlace("old-jewish-cemetery-wroclaw").socialPosts), []);
+  const cemeteryPosts = window.WROC_CATALOG.getPlace("old-jewish-cemetery-wroclaw").socialPosts;
+  assert.deepEqual(Array.from(cemeteryPosts.filter(post => !post.language || post.language === "he")), []);
+  const localizedPosts = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"));
+  assert.deepEqual(JSON.parse(JSON.stringify(cemeteryPosts)), localizedPosts["old-jewish-cemetery-wroclaw"] || []);
 
   for (const record of window.WROC_CULTURAL_PLACES) {
     const place = window.WROC_CATALOG.getPlace(record.canonicalPlaceId);
