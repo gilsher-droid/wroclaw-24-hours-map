@@ -332,6 +332,12 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid036Gypc2FKKYahFGszQpyvVTqFKuUYQn74GVnGPuJNjvAd1em4XHF7UmRdBZmYT7kql&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1E6RkQAwRa/",
         "language": "he"
       },
@@ -1824,6 +1830,12 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GDPh5gzrr5q8o6zjeBgrBzeo3g6Ud6YDFfnBbM83DLdcZeKnYinTgB2BSWLsWrp4l&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/"
       },
       {
@@ -2948,6 +2960,24 @@
       },
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PZe5dvdPhrSH6ZceALziU4G35mQ2kQNtUkzf2PvQvHsPhXYnL6nDxtpUpS7bNtTyl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XyvAgq9b1ecuZ4JMJjHAzNHESaFc7gK6nYnL4ZNMCjHpLRUyHgT5iZC6EyaSaPUgl&id=61594716405964",
+        "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeLr3hFHJ_u/",
+        "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109921771398802/"
       },
       {
@@ -3611,6 +3641,12 @@
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02xwiVxqJvFKuuhkAhqD9KGFhbmhjSyvFwzEPJT8u5WkjDax2wqBdRQaWMCYZV675bl&id=61595207664875",
         "verifiedAt": "2026-10-06T23:15:47.897250+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Rt5QQBoo6XMA4Fbk46XZDMXcoZ347xnjWV5cgHg3WEWX7pKKzjKjBmEWGASJthWil&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -5262,6 +5298,18 @@
       },
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06Jqd3usoy3Zbf1Cj1SW2ueRXDEoVimdohhS6qGp8JKzGr1pqGAiPT1RLmsDsmZ6Zl&id=61594716405964",
+        "verifiedAt": "2026-10-07T06:10:22.343275+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0k5bQ7Rrq4N2WeLnvafKw6EqqHsufmomjNAzTXiv2n6GyJ7ek5MsodeP5BokLvR4dl&id=61595239823399",
+        "verifiedAt": "2026-10-07T06:16:11.120822+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/r/1ANYoSUn3J/"
       },
       {
@@ -5972,6 +6020,18 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0SNoMYiCgh2ui7kbiMaXSzQsJ7A2Qu2j5DiAVSRoPvTFYxMWzRm3Vi5vz4c5BsXxil&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XMDuVyCQvMy7ddvw8pukfLCqHEzRQejkd68j2KzeEy7n1VT5a3PpBf41WQc29SN8l&id=61594716405964",
+        "verifiedAt": "2026-10-07T06:10:22.342973+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0iCiDTNPXUaWob7i3ozesx63hKKbaykxim79Uim1rJrpeDMJmgRBSKwtL4NTmQ7ZNl&id=61595239823399",
+        "verifiedAt": "2026-10-07T06:18:23.432198+00:00"
       },
       {
         "platform": "facebook",
@@ -7424,7 +7484,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": [],
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02PtXrpzwLifvY15DGfac3nRa86RdVvt7DQ7c62xWcyv3XbaBaLnxWopZXTyqH72vwl&id=61594716405964",
+        "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+      }
+    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -7547,7 +7614,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": [],
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02uBBnyJ5taZgj7zGQFCu9LBCEtT9Eq1UGLs17GMMWcrZkdoNZDzu6EBYDQ8b46PsPl&id=61594716405964",
+        "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+      }
+    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -8117,6 +8191,12 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Yr9vDHy1uGQrdLD74eJtxDCE9TxkeuTMu2Uk4YK6HbLoBkHMcDAvPjdu8uonX8e5l&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
       {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1LmJyCrvFT/"
@@ -11681,6 +11761,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02as1UNutmRETqDwaaLhFnASu3sSGkm6YXuwHEcm2frbFS1Dn6H6zfz1pTLQh7cjHKl&id=61595239823399",
         "verifiedAt": "2026-10-06T23:23:36.915916+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02CNbxAFLcyLKi4DekY7QhVSVkoxvBoG5fMMCMb7vKZiFLSfMUP9sdpWStaz3oaJiPl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -20012,6 +20098,18 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z52QMFYJqykBthKe3S1s9m6ussFVVqRfq2Fi3cjS9eZTy1ZCRW5n6Ji668LExb9Nl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ySKqNUcrmputEAo8ew2xk5tW6zYyZhMrKtbHLCBbjgTDPSJXvcX4szNtgoYwBcLl&id=61595239823399",
+        "verifiedAt": "2026-10-07T06:13:03.791281+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19hnYF5mwX/",
         "language": "he"
       },
@@ -21174,7 +21272,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": [],
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbTJoTBWFT4sTSCasVK8HQVfnecf7tXsUX8ZS3oeUj3av3Gj4k3SLgkAVrAJxQdwl&id=61594716405964",
+        "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+      }
+    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
