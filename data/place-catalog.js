@@ -1485,6 +1485,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0WyboB4fCY6hTPmZ1axkzeBh61r5bZGgcpvAG3VquNsgZYFGW8zFRsBReZqxvNnj6l&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0371MV8f5sXXZX1BpC6HuDawK6CGG9cXb4CCh764caCageg5ngX7jgdn2bAm6g9xMkl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ],
     "transport": {
@@ -2433,6 +2439,18 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UWkczkZpo4J4sBNZxVXpD61Eeegs9wDnuELQfVzmYwzjcuBJ9RKksL7TiEA4iVZzl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02qSd6sQSodDzsGCFBP67fkhSRu7PnUUprXdtwd9Q2NTyxDhSQQDKeNx3zWPLNpadYl&id=61595239823399",
+        "verifiedAt": "2026-10-07T13:38:38.891703+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMenhziY4u/",
+        "verifiedAt": "2026-10-07T13:38:38.891703+00:00"
       }
     ]
   },
@@ -5442,6 +5460,12 @@
         "verifiedAt": "2026-10-07T13:14:03.493954+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMetHLj5Z8/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/r/1ANYoSUn3J/"
       },
@@ -8347,6 +8371,12 @@
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Yr9vDHy1uGQrdLD74eJtxDCE9TxkeuTMu2Uk4YK6HbLoBkHMcDAvPjdu8uonX8e5l&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMduO3DRbn/",
         "verifiedAt": "2026-10-07"
       },
       {
@@ -15338,6 +15368,12 @@
       },
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02yE6dPEX7WGCb8Fou82HrK1fWqpagf1L1az57vRSFp6F5K23tZM7yiCYwXcHqX9Lpl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
     ],
@@ -17355,6 +17391,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0j3RGBm11XgUCo3woiec6vgRksebyjTBeo4GuUrHs7EDia1tm518LS2jdhx2U1TJVl&id=61595239823399",
         "verifiedAt": "2026-10-07T06:29:27.948641+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02h3exwi5k2HW2dRQZk6kLteBFzEAn92VTVs23Y8qfkGE2QswVk9zB5M3gnJzM8k3Sl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -20761,6 +20803,12 @@
       },
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0w7M61tjhHb2WBPx7e2n4uNhtFrUgs2xSUBT4vqpE2cxFQQ1frfh4rvAHa9FUmc6Wl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
     ]
@@ -22018,6 +22066,18 @@
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeMa91bmPJA/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMdxpsDqXQ/",
+        "verifiedAt": "2026-10-07T13:29:22.339724+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0n2JHAakF8wFmMjYdZ5iDcN3VNftQmB9x9aqjLhPgVtrdg6w7ieTmDn8V2T9nePqEl&id=61594716405964",
         "verifiedAt": "2026-10-07"
       },
       {
