@@ -349,6 +349,12 @@
         "verifiedAt": "2026-10-07T13:23:02.745335+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMgpACiWkY/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1E6RkQAwRa/",
         "language": "he"
@@ -4098,6 +4104,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid07GRhTqPzfYcHmAZQRbUzxkWpRZVR1KZTcDnvTgDBxAzGirA9UuW7qDw7Z2aog24Zl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid031gwmXZMReeJXG2zShX9eWJUasTrBNKN22mZLntJCbn5b37iSLfayNDPz85RUU9Dql&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -4947,6 +4959,12 @@
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0re5gNHiXfJcVUMvow7XC1p2ZdHWnjm7EZBhf9i9tqWUrLCEjBuBpZyq4QyvJK1G4l&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02R1d2ynm22fQJKxsLdzMnPnAcj2xYmPC6zRdP41EwM4MyoJhQh1gnDHkn7vM4iRbal&id=61595036942289",
         "verifiedAt": "2026-10-07"
       }
     ],
@@ -6875,6 +6893,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0k8YRSuEk8A36w6mu5CKPxnwPi8pBswawrVTLSq5fxj73seJVq9v1ch5qxwr4j35Wl&id=61594716405964",
         "verifiedAt": "2026-10-07T06:27:53.385594+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02qV2THs3r3nMSwba861JC8LEfMoDXq3mf1k7oxAEi2k16WJKX8zxsSnyUHKM82PfUl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -11153,7 +11177,20 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0rhFRLdtCG2T4XhsKqUZcmAhA8Eb8QeQnzjqD6n4LBUHX8TMvjCCvnTPuaC6FCtSwl&id=61595239823399",
+        "verifiedAt": "2026-10-07T13:48:23.057608+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMflo3jWMP/",
+        "verifiedAt": "2026-10-07T13:48:23.057608+00:00"
+      }
+    ]
   },
   "municipal-arsenal-wroclaw": {
     "id": "municipal-arsenal-wroclaw",
@@ -11988,6 +12025,12 @@
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02CNbxAFLcyLKi4DekY7QhVSVkoxvBoG5fMMCMb7vKZiFLSfMUP9sdpWStaz3oaJiPl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0TBekCtd6oLi3gnT41ecz1taVw4Y97K4ZXr8x1VDFZdUsdbjbUzJhQDDfWeZpxxPYl&id=61594716405964",
         "verifiedAt": "2026-10-07"
       },
       {
@@ -16589,7 +16632,26 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gbt6bsxvvkEwV9Z7qs5L9ZmUk9e9Pf46VMai4FZ4eFrtCRtoqTdVER1F7i4wjXEZl&id=61595239823399",
+        "verifiedAt": "2026-10-07T13:56:26.305812+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMgkuYFUU9/",
+        "verifiedAt": "2026-10-07T13:56:26.305812+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0XPJKF3SHzXX8ttEr8XhyQvyospBmtPMjNvXH8iJHNQHyqJTERzx1LceU97K28ZMGl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "studio-bwa-wroclaw": {
     "id": "studio-bwa-wroclaw",
@@ -16697,7 +16759,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0WMLr5n62KLEtT1oUJcdMvD5wvAQqC54MyYTgiwXrgh8N689YKHS35ZSMUosuQScul&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "sushi-corner": {
     "id": "sushi-corner",
@@ -19863,7 +19932,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0vUYSaMkYb28uqVXSASwswVomy7kdxns9sjCuFmK133ajf2ZkFSdVcRyeJdrKpayol&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "whiskey": {
     "id": "whiskey",
@@ -22081,6 +22157,12 @@
         "verifiedAt": "2026-10-07"
       },
       {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMgPV8F8e4/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122114783229398802/"
       },
@@ -22205,7 +22287,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ghZXye7Ndozg5UUqAW8PT2vth7R77VP81EQGsWu6BMavB4jpPJ2jKrg2UD36EmkQl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   }
 };
   const aliases = {
