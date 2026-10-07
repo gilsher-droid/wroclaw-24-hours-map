@@ -1663,7 +1663,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JEFMb16yUQUR21rkEBDZcqhYFEtXSCRvgh7vRYMH2ZUbKWpDN797xcYh3N4rABdml&id=61595239823399",
+        "verifiedAt": "2026-10-07T14:46:48.680974+00:00"
+      }
+    ]
   },
   "bistro-stu-mostow": {
     "id": "bistro-stu-mostow",
@@ -1772,7 +1779,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ksnhZwDLL3NV8tspGUkjEEVzXSdSqPQrG4nkdPDDEQYy4J43kcSqGwH48KturC1xl&id=61595239823399",
+        "verifiedAt": "2026-10-07T14:49:49.526583+00:00"
+      }
+    ]
   },
   "boguslawskiego": {
     "id": "boguslawskiego",
@@ -2625,6 +2639,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06HXcTUpWpjptKrbJB4UBcD8yS5J6cZzqF34R2hjTWSruBEgafGp2NEpcctSgCkDMl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02VZN6TESk3RUKLLofX8tPGuekbnQ2coTDnRvKoKYxutCh9ovd9RTdY86QSGKaCBXDl&id=61595239823399",
+        "verifiedAt": "2026-10-07T14:56:27.189345+00:00"
       }
     ]
   },
@@ -5797,6 +5817,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/reel/4470394119889135/",
         "verifiedAt": "2026-10-06T22:27:16.195800+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DdtUydJDAc2/",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -10826,7 +10852,9 @@
       }
     },
     "media": {
-      "photos": [],
+      "photos": [
+        "/assets/gallery-cathedral-02.jpg"
+      ],
       "videos": []
     },
     "socialPosts": [
@@ -10947,9 +10975,7 @@
       }
     },
     "media": {
-      "photos": [
-        "/assets/gallery-cathedral-02.jpg"
-      ],
+      "photos": [],
       "videos": []
     },
     "socialPosts": [
@@ -12006,7 +12032,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KWWbtpKimDyQ7wDmNHr9T53waaWn9T6LkzH1c5P6RsRpHznhphaqvqNTCbmJXy1Kl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "nfm": {
     "id": "nfm",
@@ -12535,6 +12568,18 @@
       },
       {
         "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMm2qnlLRJ/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ShhCD1Qo8tRT5fzNzJBNDP6HqpSoxNjh1P7KVq9iaNzJMUkpybznT9Q6CVzZ2GNpl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
         "url": "https://www.instagram.com/p/DcrGVaJDCs3/?img_index=1"
       },
       {
@@ -12869,6 +12914,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeLBxEina0b/",
         "verifiedAt": "2026-10-07T00:08:57.316167+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid05QkEtUWQyNM7VgsL1dWiCF7DXZJ5gEh1Yw931xb3HiQRQsEytNkKJaZb7mktkDs3l&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       },
       {
         "platform": "facebook",
@@ -14452,6 +14503,12 @@
       },
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Mzn17KRqi5sJhmoVc5hmDy7JAoKDERNTXrnmPReC7miwDF9D4WDY4YcZycdWgVdJl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CHRnrqLwQ/"
       },
       {
@@ -15584,6 +15641,12 @@
         "verifiedAt": "2026-10-07"
       },
       {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMoMKgDmiX/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
@@ -16288,7 +16351,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02vE1wCBUMgWMLuFUyKRHw9QsFPbmGR5YHKEh6pZXeWVPmctdDs21FoYzN7qtVMSbSl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "slodowa": {
     "id": "slodowa",
@@ -16603,7 +16673,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JsGeMhxaBzC2F6xJiK5oKcMvwuq67M6ZL6vXhnm32Fd2vJ8qjVt6ixb1n8dyTs1Dl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "stadion-olimpijski-wroclaw": {
     "id": "stadion-olimpijski-wroclaw",

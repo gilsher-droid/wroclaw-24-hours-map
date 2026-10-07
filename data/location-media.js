@@ -30,7 +30,7 @@
       "/assets/gallery-cathedral-02.jpg",
       "/assets/gallery-cathedral-01.jpg"
     ],
-    tumskiBridge: ["/assets/gallery-cathedral-02.jpg"],
+    sandBridge: ["/assets/gallery-cathedral-02.jpg"],
     nfm: gallery("nfm", 3),
     opera: ["/assets/gallery-opera-05.jpg", "/assets/gallery-opera-06.jpg"],
     boguslawskiego: gallery("boguslawskiego", 6),
@@ -153,8 +153,7 @@
     "dobra-paczkarnia-kuznicza": { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries["dobra-paczkarnia-kuznicza"] },
     "jolie-kurzy-targ": { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries["jolie-kurzy-targ"] },
     "jolie-plac-solny": { facebook: facebook.familiar, instagram: instagram.familiar },
-    "most-tumski": { gallery: galleries.tumskiBridge },
-    "tumski-bridge": { gallery: galleries.tumskiBridge },
+    "most-piaskowy": { gallery: galleries.sandBridge },
     ostrow: { facebook: facebook.ostrow, instagram: instagram.ostrow, gallery: galleries.ostrow },
     cathedral: { facebook: facebook.ostrow, instagram: instagram.ostrow, gallery: galleries.cathedral },
     "ostrow-cathedral": { facebook: facebook.ostrow, instagram: instagram.ostrow, gallery: galleries.ostrow },
