@@ -2156,6 +2156,12 @@
       },
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02o3VNcSZ2inFNjreHzkuPiYk9jP2THXW6NycigBj2bmNSKQunnEzeYGWS3YjAvaEtl&id=61595207664875",
+        "verifiedAt": "2026-10-08T13:47:40.723Z"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
     ],
@@ -4447,6 +4453,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02CyDuwjEH76HTe74ijcwqw7dfuk5Rfdz8NC3FQ4g7yTi95dG2UMVaXXbHma1kp5Udl&id=61595239823399",
         "verifiedAt": "2026-10-07T15:47:09.934353+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02tXctA3jcuB3svUXh4S7n4Ef9oT8PcDMnYr9ZzcTZrvAFNfER5Nz43uPE2DaamQJUl&id=61595207664875",
+        "verifiedAt": "2026-10-08T13:52:04.890Z"
       }
     ]
   },
@@ -6745,6 +6757,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0yduYJdx9Kc8cUjeW1KXgY3RvRyTnV1aVEuP31SkjDS34u8S24gkc4xnJQZYYQoPRl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0uE2bGFtPq95XAVLnH2iBAdvX2usMAAQeo3ySEK1TGA16kHcmF5QjTwrn1bz92Dxul&id=61595207664875",
+        "verifiedAt": "2026-10-08T13:45:12.153Z"
       }
     ],
     "transport": {
@@ -11873,6 +11891,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Bj9MHy72P7DdQjNPwYHPBqoD1AcDsRDpxvgVV3hgr7JGW9pEyL6HhfwfQfZKVZvkl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DePEDwvjon1/",
+        "verifiedAt": "2026-10-08T13:49:06.512154+00:00"
       }
     ]
   },
