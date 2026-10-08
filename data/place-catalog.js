@@ -1705,6 +1705,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JEFMb16yUQUR21rkEBDZcqhYFEtXSCRvgh7vRYMH2ZUbKWpDN797xcYh3N4rABdml&id=61595239823399",
         "verifiedAt": "2026-10-07T14:46:48.680974+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02oJETrZoWD7MCkmaSh3q4gnFdC4UHp79CCNPP2WPKvbHf5mZBZGMn5HEUeYXY57Gvl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -1821,6 +1827,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ksnhZwDLL3NV8tspGUkjEEVzXSdSqPQrG4nkdPDDEQYy4J43kcSqGwH48KturC1xl&id=61595239823399",
         "verifiedAt": "2026-10-07T14:49:49.526583+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid021Td2rpXyz1nXTsZXBocUzEcAr4KrSJoLAivcshcFHpQPBSD1cGu8aAtvEB48Npc1l&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -2254,6 +2266,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0mUQipe19tdKKcSCqRLmvrpPUHFDo4eMFQSUPtPsqJuD1FBN43RCmAEsrVcfjw891l&id=61595239823399",
         "verifiedAt": "2026-10-07T15:19:07.158208+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0VH6MtFtV9TaC4Z8jg628GTYuP6HxxGhCUoFn5n685pPzM1bFY717sjrKyxHFBPK5l&id=61594716405964",
+        "verifiedAt": "2026-10-07"
       }
     ]
   },
@@ -3086,7 +3104,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0217xsxLgYsjwnafJVD7RdQW9rXWEN9gbjoDTGgQqH5o412MvwYD4P7YjJiomqWeN2l&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "cathedral": {
     "id": "cathedral",
@@ -3526,6 +3551,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0SiTZKfLKUYRfUsgTBSzVB5CJ6ogqVHaAkLhTmN4JN76bnYRiKp2pgu448MFPioEbl&id=61595239823399",
         "verifiedAt": "2026-10-07T15:35:28.303461+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02fYHchaJ3KvBtA6MAMy1p9ysvyeXsnJTZzt2wuVYpNXqZe5aT6nTEDTE3TCAoUdHHl&id=61595207664875",
+        "verifiedAt": "2026-10-07T18:01:55.887896+00:00"
       },
       {
         "platform": "facebook",
@@ -5504,7 +5535,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0299rYSA2D91PQSivWvSdepQet69ZeWHuKcAUJNVpeRRGxX5GpChLwNRYoyiPjzfQol&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "fountain": {
     "id": "fountain",
@@ -7736,7 +7774,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02qh9YnMpq6ZmckLkgGtkS3ZZ9wRo7op6iJkevnS6xhyMRh14ReerCCudNLN5Sn7Frl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "japanese": {
     "id": "japanese",
@@ -8532,7 +8577,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JcJruwZT1FmqAnmWNNtzugmz12PkMN87o2u7QTXDDd75mcM2A74g7eiqi481rWwAl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "kaplica-czaszek-czermna": {
     "id": "kaplica-czaszek-czermna",
@@ -13650,7 +13702,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0YMm7b4GsoKtPgZEEPcxXvTS8baGff7LTvMyG7WAZmGmvhgugEXQBywVhFDa58kuDl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "pan-precel": {
     "id": "pan-precel",
@@ -15309,7 +15368,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0LUD38BEnEQnPLVKHi8djzEuirx3B1JjMa9WfSQQ7f3W6uRvV6WidbHDEUaX4F7aKl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "pijalni-wino-bistro": {
     "id": "pijalni-wino-bistro",
@@ -15418,7 +15484,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FLiiN7LhMTX8EMFbjZQf8QEpKuDcqEbLK9LcafPFsdHAde3fEqrNZVD8rowoFU9Gl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "pizza-si": {
     "id": "pizza-si",
@@ -16400,7 +16473,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XHqa4vSVynCXARsbVDicpGgMtkq9Yf4pK2PK8z7EUfePz6gWdBxLEjwCChSVCQVWl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "royal-palace-wroclaw": {
     "id": "royal-palace-wroclaw",
@@ -17922,7 +18002,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0im38mMnpGsLG6NPbfKRe2dvw6EtLZtJZYH31kN1pQt7gZNZTiTMsqosMw2aUrxCfl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "taproom-stu-mostow": {
     "id": "taproom-stu-mostow",
@@ -18031,7 +18118,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Kz2qo8A2Z1eC3VFqrw2HjS41Mabz2yEhWa1uzbc1N2a7QjuvLEfdm8SjMqLgxkhPl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "the-bridge": {
     "id": "the-bridge",
@@ -18713,7 +18807,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0axgwBugJxufMRzSvh36G8fLKNVXH9BEHMvnKEE4fEJYbPKwAT84oNTJmWaVRKJPWl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "walbrzych-market-square": {
     "id": "walbrzych-market-square",
@@ -18998,7 +19099,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0CgWsHBJ2LXoPCvpdiWtD99BaACX1aRXVSY6zSN5iiocFXMvawRZiv7B7ZSZXDfmgl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-hydropolis": {
     "id": "water-refill-hydropolis",
@@ -19118,7 +19226,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02RU3w453aXttHyuGbvBu92rN9nnbRGgnquSwXjpM6KTZQcrkiHheHVsm1bEiGkZqjl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-nmp-piasek": {
     "id": "water-refill-nmp-piasek",
@@ -19238,7 +19353,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KYFx24Q7crai1zd51tUU7CFfjzT3xeTtbbazHtVdRzBPzivvmScAcgjeEgmdGBaBl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-olawska-swidnicka": {
     "id": "water-refill-olawska-swidnicka",
@@ -19358,7 +19480,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid032G32Wy38wwRh97ix4myPXfMFaTXRSv3g8hes7L268ww9w8WWxyk7sYf2WJjkqsWNl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-park-tolpy": {
     "id": "water-refill-park-tolpy",
@@ -19478,7 +19607,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0QNGoXhYFxeErGLyyL6iPoTZ31rKemZB4AnH1SBcBvddb9aPfHsV5ifKysKdFkbxnl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-plac-dominikanski": {
     "id": "water-refill-plac-dominikanski",
@@ -19598,7 +19734,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0LQAhPuxDitAuyGLntEycC6PMqzCZUKRFHnVCTzqwXJ9VdE2tQH6ewyytEDS7J1xkl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-plac-nowy-targ": {
     "id": "water-refill-plac-nowy-targ",
@@ -19718,7 +19861,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Ra4Hfyv5kifW5bMPfgf9ZfoTwbfkPcznz4Vw1FgLLFPVNFpDA2xZvJhpQcbDV6XRl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-plac-solny": {
     "id": "water-refill-plac-solny",
@@ -19838,7 +19988,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02KVkCkB98qN1BUWKgRwdCF9jh5TmY2Vuz4dzYbfG4UwHGkYMadKxizLKRkTAWdw2Rl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-plac-teatralny": {
     "id": "water-refill-plac-teatralny",
@@ -19958,7 +20115,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02J9fG3GWH3mpTTmgEnivUS8YTPj4RLyVet8XyJMAjJVDgQtPpHGhxgcfcab2XtdfAl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-plac-wolnosci": {
     "id": "water-refill-plac-wolnosci",
@@ -20078,7 +20242,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0o5TSyK38s7p9dVbHw7rs1cCw6151YRCx7a5Wd8eiiUibwAV7JRjn7VhcwHPnbX3yl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-rynek-psiego-pola": {
     "id": "water-refill-rynek-psiego-pola",
@@ -20198,7 +20369,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02CYyixjgK1QZe187EnnzouMED9mENyA7BQSx5ij5WpSBe4cpBQGsEpvLSDjSXVu8Pl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-skwer-steinmetza": {
     "id": "water-refill-skwer-steinmetza",
@@ -20318,7 +20496,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0228wLfnErCBXuHYuQBMECfbRa5xeXaUBUbuqqcmyjEVXKSkVRCdC1ZkDW5DDsMFgul&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-wroclaw-airport": {
     "id": "water-refill-wroclaw-airport",
@@ -20437,7 +20622,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hsAPw6HsJ62AXYi7F1UUg8WCgi5t1cP4ePDaW987cSRFcP5NzUasUUWqmrAmgZ4ml&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-wyspa-slodowa": {
     "id": "water-refill-wyspa-slodowa",
@@ -20557,7 +20749,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02jdpUJNqrXrM5iiFxbWPF2Sp8P7WGjfPU7nwDqhSXAhaEvJvgNKQrmHMKiumRKqwzl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "water-refill-zoo-afrykarium": {
     "id": "water-refill-zoo-afrykarium",
@@ -20677,7 +20876,14 @@
       "photos": [],
       "videos": []
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02xR8vn5z2JiR1Jv6xVeLDZsC1NYcnG6s3jpQS4Pjs3WFCqLyZyXY7SXj7mwR2Gp4Kl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ]
   },
   "wedel": {
     "id": "wedel",
