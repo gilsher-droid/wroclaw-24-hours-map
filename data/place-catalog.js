@@ -398,7 +398,8 @@
       {
         "platform": "instagram",
         "url": "https://www.instagram.com/p/DdtGmqajP3o/?img_index=1",
-        "language": "he"
+        "language": "he",
+        "context": "historical-cross-account"
       }
     ]
   },
@@ -845,7 +846,8 @@
       {
         "platform": "instagram",
         "url": "https://www.instagram.com/p/Dd8ty96FGmt/",
-        "language": "he"
+        "language": "he",
+        "context": "historical-cross-account"
       },
       {
         "platform": "facebook",
@@ -1783,6 +1785,12 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0fnAAf1KnLjVBXSoksDtaTknN1uZhUxAWVWyjzraJzDeGsVJ4RcDYnExJUqmxTjF4l&id=61591964083308",
         "verifiedAt": "2026-10-08T16:28:43.943050+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zvpqn8yjryjRq2xEo6ELWVTHa8iWEycp2sNWUq9SAUKDUDpbCGmhR7Zu9MycoSDNl&id=61595036942289",
+        "verifiedAt": "2026-10-08"
       }
     ]
   },
@@ -3242,6 +3250,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02BAP7tQKjiA4mzMD3tUvz2G8xH3FuXYa8jgqHD6wXvA3yq4NTjYuJRYnGvpjYVvpUl&id=61595239823399",
         "verifiedAt": "2026-10-08T14:42:53.429137+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NDt9v7GznzDvzJE5ZB3tcSukryvU33RayiiDWrzAwX2AyEJmWvzmPF2nwV5ZvU6ul&id=61595036942289",
+        "verifiedAt": "2026-10-08"
       }
     ]
   },
@@ -8263,7 +8277,9 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122109906747398802/"
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122109906747398802/",
+        "verifiedAt": "2026-10-08T19:19:37.851Z"
       },
       {
         "platform": "instagram",
@@ -19455,7 +19471,9 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/",
+        "verifiedAt": "2026-10-08T19:20:20.400Z"
       },
       {
         "platform": "instagram",
@@ -22519,7 +22537,8 @@
       {
         "platform": "instagram",
         "url": "https://www.instagram.com/p/DdoS5H8jIhZ/?img_index=1",
-        "language": "he"
+        "language": "he",
+        "context": "historical-cross-account"
       }
     ]
   },
@@ -24519,7 +24538,7 @@
   const socialChannels = {"he": {"facebook": "https://www.facebook.com/profile.php?id=61591964083308", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/"}, "en": {"facebook": "https://www.facebook.com/profile.php?id=61595036942289", "instagram": "https://www.instagram.com/wroclaw.lowersilesia/"}, "pl": {"facebook": "https://www.facebook.com/profile.php?id=61595207664875", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.pl/"}, "de": {"facebook": "https://www.facebook.com/profile.php?id=61595239823399", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/"}, "cs": {"facebook": "https://www.facebook.com/profile.php?id=61594716405964", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/"}};
   const getSocialPost = (place, platform, lang = window.document?.documentElement?.lang || "en") => {
     const language = socialChannels[lang] ? lang : "en";
-    const posts = (place?.socialPosts || []).filter((post) => post.platform === platform && !post.url.includes("/groups/"));
+    const posts = (place?.socialPosts || []).filter((post) => post.platform === platform && post.context !== "historical-cross-account" && !post.url.includes("/groups/"));
     // Untagged historical editorial posts are Hebrew; never fall back to another language.
     const post = posts.find((post) => post.language === language)
       || (language === "he" ? posts.find((post) => !post.language) : null);
