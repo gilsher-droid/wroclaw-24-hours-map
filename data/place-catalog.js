@@ -2454,6 +2454,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/reel/1074246012040883/",
         "verifiedAt": "2026-10-06T22:27:16.195800+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeOGD8ZGkXL/",
+        "verifiedAt": "2026-10-08"
       }
     ]
   },
@@ -2980,6 +2986,12 @@
       },
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0gDc1QzYApB4hmdTr2fAt68WBUMU6xVoxgCCGkTx4nM9VDTFxH9Fht5AMfWz8v8M1l&id=61595207664875",
+        "verifiedAt": "2026-10-08T04:37:27.179984+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
       }
     ],
@@ -3408,6 +3420,12 @@
       },
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02yurJAEtBGhCXdscvPQoBJwEgdb2U5n7DfGnkbDmE5ZT8o74n9EVCgTEi6sr1JyL8l&id=61595207664875",
+        "verifiedAt": "2026-10-08T04:42:08.958334+00:00"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
       }
     ],
@@ -3685,6 +3703,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Zj3i4xa9xSbZMzchprW2m4RA4xBhx9GnUX1PWB5V7Vibk6g8i3WsBRfBRZyEYLaNl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0RFVZVz9fCiBGw8uwZhf6Dcbr4SWx2hnAN7BHenPFz62iYP9wvrB573pQSa6gb6fml&id=61595207664875",
+        "verifiedAt": "2026-10-08T04:39:51.145405+00:00"
       },
       {
         "platform": "facebook",
@@ -13114,6 +13138,12 @@
         "language": "de",
         "url": "https://www.instagram.com/p/DeMpfnYj-zN/",
         "verifiedAt": "2026-10-07T15:11:03.812718+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeOF5bFCVkv/",
+        "verifiedAt": "2026-10-08"
       },
       {
         "platform": "instagram",
