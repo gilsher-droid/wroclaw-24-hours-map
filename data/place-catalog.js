@@ -4536,6 +4536,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0NaQzUxnb5XetnUFeTxo9Z6JAJRAXEK1LQsJn5BjUeNw2QQSXDaUWy3Tggg2tPqw2l&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02iPdbhebvigBEvu2RmZcQXV9CqiNV5Pz1aYyH135V7EKVht6JoE6wZHzdSKD68FHxl&id=61595207664875",
+        "verifiedAt": "2026-10-08"
       }
     ],
     "transport": {
@@ -5056,6 +5062,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XidRxvmLisFjDxyEYbb8VqhoyhbChh8CnnSyqVazCfeYeqEXdVyb4wkFXtPnJSZhl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid023nw7bAHr53s7ELW35K8UKYYvw5YQmrDu5H5KziXs94cdjntv3o73gotj5WNW6P7cl&id=61595207664875",
+        "verifiedAt": "2026-10-08"
       }
     ],
     "transport": {
@@ -5340,6 +5352,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02R1d2ynm22fQJKxsLdzMnPnAcj2xYmPC6zRdP41EwM4MyoJhQh1gnDHkn7vM4iRbal&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid034vEu38iuoXoymW4pCQz1PogXDZFv9HtSsJW1XbdmEeJw3TmiRr4EoMxXGmTeps4Wl&id=61595207664875",
+        "verifiedAt": "2026-10-08"
       }
     ],
     "transport": {
@@ -22188,6 +22206,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0xxGFnJd4AKZBtd5iW5hXRVf3AFsYwAsjunpcrM4imAEEKLAdMkCwA9ZNReGR23tKl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeOt7mQHcTI/",
+        "verifiedAt": "2026-10-08"
       },
       {
         "platform": "facebook",
