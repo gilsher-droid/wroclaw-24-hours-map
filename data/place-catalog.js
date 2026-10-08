@@ -1588,6 +1588,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02s5kCjATc5ApB7Tu1DodgdTkhDWW9kqwMw5P3Ax1tAGcjJVKpRrLTai5JF3aqyV5Hl&id=61595239823399",
         "verifiedAt": "2026-10-07T14:37:01.319144+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0ZNdEvJ5QBwRsJiNq6N8J6swvXvNiMr1dUkUjz9F2L1ZQNtTGzAHma6txoWmJ7ju7l&id=61595207664875",
+        "verifiedAt": "2026-10-08"
       }
     ],
     "transport": {
@@ -2623,6 +2629,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02vMDzTZHUxL49ppw3R6HDr8vFmYKMoB3DB7mqQGopZvDy8eBtgb5hT4tCdB6Fefodl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeOqEVdj2ge/",
+        "verifiedAt": "2026-10-08"
       }
     ]
   },
