@@ -3735,6 +3735,12 @@
         "verifiedAt": "2026-10-08T04:39:51.145405+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DePBtSmFyRI/",
+        "verifiedAt": "2026-10-08"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/"
       },
@@ -6257,6 +6263,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid027bRqUM6pT66VZfQRKQEv9XeP1HmJjKTu1bZuKXCYg357CL3vs3JWU9L1cB46nGSRl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0hkHPgo2GVKkCKv68drxUSfRE6rhkvu55eEZaUTMyfsRhPTZuNVKiu2xgDWcH6jonl&id=61595207664875",
+        "verifiedAt": "2026-10-08"
       },
       {
         "platform": "facebook",
@@ -21784,6 +21796,12 @@
         "language": "pl",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0L9kZRvgsLg48K5PeiW5hLSxUZ9aozLozAWw1BWrpoQAzeKTdTTwKPsXxwvzaamPQl&id=61595207664875",
         "verifiedAt": "2026-10-07T14:43:32.718528+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DePBwkJDa4l/",
+        "verifiedAt": "2026-10-08"
       },
       {
         "platform": "facebook",
