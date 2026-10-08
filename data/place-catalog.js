@@ -4560,6 +4560,12 @@
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02iPdbhebvigBEvu2RmZcQXV9CqiNV5Pz1aYyH135V7EKVht6JoE6wZHzdSKD68FHxl&id=61595207664875",
         "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0kkajD1wUL1tP857UNQzbWc6w1a74Grht94zknhCHt39ffqXW4wGc56RaguiGdTA3l&id=61595239823399",
+        "verifiedAt": "2026-10-08T14:06:51.154559+00:00"
       }
     ],
     "transport": {
@@ -4679,6 +4685,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gAKyvutvxjm4ihnazZPCgxZSkCM9vhQCbRXaZeATj8oQ1sryajjb9Yjjy2mmey4kl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0j8DzTurCDaYRvS5o2XauQiZLWHYyFFoV7dct6UfUGiNeoAuqNJKt1wbFfajsLm9xl&id=61595239823399",
+        "verifiedAt": "2026-10-08T14:10:16.326536+00:00"
       },
       {
         "platform": "facebook",
@@ -4835,6 +4847,12 @@
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0pxzdvb36264kXQdXhikSjbkKELV3XDxoDE8AowLGnheHigcXxDbkpb7TBLYj5PEsl&id=61595207664875",
         "verifiedAt": "2026-10-07T17:47:10.872858+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0UkjWLPMLjmijcNQrsdiW9LtTSwVTzejGZ4VjJzkpYUurPRhwkpNv5QGGppTbuxNCl&id=61595239823399",
+        "verifiedAt": "2026-10-08T14:06:51.154559+00:00"
       },
       {
         "platform": "facebook",
@@ -5492,6 +5510,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0225SeRJ64VFdo6pT42qxSj8WmATUy4D4PHUq7syAKGMeLjEMmcdQ2yrcUQMpJHmv8l&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02DH8kACeRCNniy7ijpmCmq6WED23WsbMqZpehPag3wn3nr5ZJ6EFaaRHaaah5QBKMl&id=61595207664875",
+        "verifiedAt": "2026-10-08T13:49:47.255Z"
       },
       {
         "platform": "facebook",
@@ -7359,6 +7383,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02qV2THs3r3nMSwba861JC8LEfMoDXq3mf1k7oxAEi2k16WJKX8zxsSnyUHKM82PfUl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid091zYLnabjJGGcBeqdzWQhdBnE734Uj4MZhvJbJorFQPgvXekCy464vNYdQcJTJ7nl&id=61595207664875",
+        "verifiedAt": "2026-10-08T13:59:18.794Z"
       }
     ]
   },
@@ -8164,6 +8194,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0inM9Mnr7QuJLbJJVWJ2RgMoLnjPD6ftGU8iUtAfELVN1ndSEn3SHm9HmQEWQCZ2Hl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0GpT5JSSsxyRorjs12NiVSDJinSxcaR57XXQd2kcayMc7Ds4JpZSStthdF1W862vEl&id=61595207664875",
+        "verifiedAt": "2026-10-08T14:05:48.373Z"
       }
     ],
     "transport": {
@@ -8300,6 +8336,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Ed7PWtnZeKpaPsJ3b1QcdCtn7KBbuoLqH8zQKdYFTDomWaZKxGRDXY7r9eZQBt6Bl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0dZ58kDb5AucRMsNFRWVBSdpWPFaqLexSNqRSaUjQhRrxe9CWQHmDhTA8xVDuSPa3l&id=61595207664875",
+        "verifiedAt": "2026-10-08T14:03:01.085Z"
       }
     ],
     "transport": {
@@ -11740,6 +11782,12 @@
         "language": "en",
         "url": "https://www.instagram.com/reel/DeKx7ejjQA3/",
         "verifiedAt": "2026-10-06T22:29:02.899058+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DePHdqHDflt/",
+        "verifiedAt": "2026-10-08T14:11:23.897471+00:00"
       }
     ]
   },
@@ -22380,6 +22428,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02muCVpBnjMuip5YeinigJ7gdpofb4wBZ6Hxpi7YtLWcdw1gJVwSEZkSvdAnFV2vYnl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0RGobXer4BYNK2PpLCwNPEN56tiViaPwXgTz9UNsWTzymFxk5sBrN8hx6T5MwuYrWl&id=61595207664875",
+        "verifiedAt": "2026-10-08T14:11:20.263Z"
       }
     ]
   },
@@ -22984,6 +23038,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/p/DeOJwU5j9fo/",
         "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0WutV2eH4ejL2ZdqTPueWuacjeLrbwVX8j7bQ4qstD89wCqnbNAfcwBmSHoNWCdaYl&id=61595207664875",
+        "verifiedAt": "2026-10-08T14:08:27.084Z"
       },
       {
         "platform": "facebook",
