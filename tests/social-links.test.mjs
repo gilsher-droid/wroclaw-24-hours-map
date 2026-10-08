@@ -63,8 +63,8 @@ test("all canonical places use only the selected language post or matching chann
   const pages = {he:"61591964083308",en:"61595036942289",pl:"61595207664875",de:"61595239823399",cs:"61594716405964"};
   for (const place of Object.values(catalog.places)) for (const lang of Object.keys(pages)) for (const platform of ["facebook","instagram"]) {
     const result = catalog.getSocialPost(place, platform, lang);
-    const exact = place.socialPosts.find(p => p.platform === platform && p.language === lang && !p.url.includes('/groups/'));
-    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.language && !p.url.includes('/groups/'));
+    const exact = place.socialPosts.find(p => p.platform === platform && p.context !== "historical-cross-account" && p.language === lang && !p.url.includes('/groups/'));
+    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && p.context !== "historical-cross-account" && !p.language && !p.url.includes('/groups/'));
     if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
     else {
       assert.equal(result.language, lang);
@@ -80,4 +80,14 @@ test("new language posts take priority without leaking to another map language",
   assert.equal(catalog.getSocialPost(place, "facebook", "pl").url, "https://www.facebook.com/polish/");
   assert.equal(catalog.getSocialPost(place, "facebook", "he").url, "https://www.facebook.com/old/");
   assert.match(catalog.getSocialPost(place, "facebook", "de").url, /61595239823399/);
+});
+
+
+test("Hebrew maps exclude verified historical posts from the English Instagram account", () => {
+  const catalog = loadCatalog();
+  for (const id of ["arche-klasztor", "aleja-bielany", "wieza-cisnien-borek"]) {
+    const place = catalog.getPlace(id);
+    assert.ok(place.socialPosts.some(p => p.context === "historical-cross-account"));
+    assert.equal(catalog.getSocialPost(place, "instagram", "he").url, "https://www.instagram.com/wroclaw.lowersilesia.he/");
+  }
 });
