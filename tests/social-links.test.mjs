@@ -88,6 +88,9 @@ test("Hebrew maps exclude verified historical posts from the English Instagram a
   for (const id of ["arche-klasztor", "aleja-bielany", "wieza-cisnien-borek"]) {
     const place = catalog.getPlace(id);
     assert.ok(place.socialPosts.some(p => p.context === "historical-cross-account"));
-    assert.equal(catalog.getSocialPost(place, "instagram", "he").url, "https://www.instagram.com/wroclaw.lowersilesia.he/");
+    const verified = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"))[id]?.find(p => p.platform === "instagram" && p.language === "he");
+    const result = catalog.getSocialPost(place, "instagram", "he");
+    assert.equal(result.url, verified?.url || "https://www.instagram.com/wroclaw.lowersilesia.he/");
+    assert.ok(!place.socialPosts.some(p => p.context === "historical-cross-account" && p.url === result.url));
   }
 });
