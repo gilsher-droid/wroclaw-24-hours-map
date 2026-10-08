@@ -373,6 +373,12 @@
         "verifiedAt": "2026-10-07T17:40:25.527662+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeOKjiyG1Vl/",
+        "verifiedAt": "2026-10-08T05:19:17.881430+00:00"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1E6RkQAwRa/",
         "language": "he"
