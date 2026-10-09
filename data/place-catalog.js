@@ -11094,6 +11094,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0V55dDCWNs6SrsQ2GmZHVjnXq7htFCcH8hvxS1JrMo8GgyqS2R4hT9UdYRftSBDkGl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0uCpv42ascnUzWqKyXDaK7tDmJey9vhajFuTub9zN7Zndsqx9Hrd7AgnfG3TGXQdJl&id=61595036942289",
+        "verifiedAt": "2026-10-09"
       }
     ]
   },
@@ -11208,6 +11214,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zW2xSu1oHHyAcAAT9xgGbDhg7b9bRpMzSununVf9JDNpTteJKHU7QzeMCdnZzfXLl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0RXL3ScE5f6UtB37ESFWnKGJR99se59txNyVbsXbfaptwa11nwq5QupHLYLQTiiYel&id=61595036942289",
+        "verifiedAt": "2026-10-09"
       }
     ]
   },
@@ -24410,7 +24422,9 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122114783229398802/"
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122114783229398802/",
+        "verifiedAt": "2026-10-09T01:32:48.811Z"
       },
       {
         "platform": "facebook",
