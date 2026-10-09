@@ -1389,6 +1389,12 @@
       },
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid031ioVuUTo7QM3u5vaEo1MUJRcUaEjR1HHheDXh7mjizSNkAhNBKJV5AhbeLdei37fl&id=61591964083308",
+        "verifiedAt": "2026-10-09T05:30:27.092Z"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
       },
       {
@@ -7907,6 +7913,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XJAYnJ4ivi18YiKyGctodg8FziPYPbhCk7PxWZGH3X23EqrG1GLfyNnc1vHDSeq3l&id=61594716405964",
         "verifiedAt": "2026-10-06T22:27:16.195800+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02MhrH5cN5L4QmGioUFwaQCXDCC3FZtox5Sr9sURAFRVrZXQKDag7Dnjtpj31DyCZel&id=61591964083308",
+        "verifiedAt": "2026-10-09T05:34:36.990Z"
       },
       {
         "platform": "facebook",
@@ -15204,6 +15216,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0tEoTEpmPXQkacSPnEnduwSjtQ5y3LBnu7kVYgBYb92CDZ7nzrMqm1Pj5rTNMZTy3l&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0M1SfUcNXRkKAXtLF2Gsi53XoVMdEByv5GoroiZpeS4bLueVTghg5hMBAR55U4W43l&id=61595036942289",
+        "verifiedAt": "2026-10-09"
       }
     ]
   },
@@ -22765,6 +22783,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02R93nSoinznSHqwnMSz3e6226NT8UPQdDbfGj5i43ngsY2KMn5NmaFWnh4t64dvbCl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02aRnMFoU8V15BbbUhtiCCxjK6YkHGM7nnow156mLdjLq5RAtgBmAGH84Qw4qN94Zel&id=61595036942289",
+        "verifiedAt": "2026-10-09"
       }
     ]
   },
