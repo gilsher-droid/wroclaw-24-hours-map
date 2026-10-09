@@ -6867,24 +6867,15 @@
     },
     "media": {
       "photos": [
-        "/assets/wroclaw-glowny-01.jpg",
-        "/assets/wroclaw-glowny-02.jpg",
-        "/assets/wroclaw-glowny-03.jpg",
-        "/assets/wroclaw-glowny-04.jpg",
-        "/assets/wroclaw-glowny-05.jpg",
-        "/assets/wroclaw-glowny-06.jpg",
-        "/assets/wroclaw-glowny-07.jpg",
-        "/assets/wroclaw-glowny-08.jpg",
-        "/assets/wroclaw-glowny-09.jpg",
-        "/assets/wroclaw-glowny-10.jpg",
-        "/assets/wroclaw-glowny-11.jpg"
+        "/assets/wroclaw-glowny-exterior-b870acd8.jpg",
+        "/assets/wroclaw-glowny-interior-922f25cf.jpg"
       ],
       "videos": [
         "/assets/wroclaw-glowny-video-01.mp4",
         "/assets/wroclaw-glowny-video-02.mp4"
       ],
       "metadata": {
-        "/assets/wroclaw-glowny-01.jpg": {
+        "/assets/wroclaw-glowny-exterior-b870acd8.jpg": {
           "tags": [
             "station",
             "exterior",
@@ -6894,83 +6885,11 @@
           "original": true,
           "heroCandidate": true
         },
-        "/assets/wroclaw-glowny-02.jpg": {
-          "tags": [
-            "station",
-            "exterior",
-            "architecture"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-03.jpg": {
-          "tags": [
-            "station",
-            "entrance",
-            "architecture"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-04.jpg": {
-          "tags": [
-            "station",
-            "interior",
-            "architecture"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-05.jpg": {
-          "tags": [
-            "station",
-            "interior",
-            "detail"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-06.jpg": {
+        "/assets/wroclaw-glowny-interior-922f25cf.jpg": {
           "tags": [
             "station",
             "interior",
             "hall"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-07.jpg": {
-          "tags": [
-            "station",
-            "interior",
-            "hall"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-08.jpg": {
-          "tags": [
-            "station",
-            "interior",
-            "hall"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-09.jpg": {
-          "tags": [
-            "station",
-            "interior",
-            "hall"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-10.jpg": {
-          "tags": [
-            "station",
-            "interior",
-            "hall"
-          ],
-          "original": true
-        },
-        "/assets/wroclaw-glowny-11.jpg": {
-          "tags": [
-            "station",
-            "tourist-information",
-            "useful-place"
           ],
           "original": true
         },
@@ -7034,6 +6953,12 @@
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122113574949398802/",
         "verifiedAt": "2026-10-09T00:43:30.999Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRX6mNjK3_/",
+        "verifiedAt": "2026-10-09T11:13:52.552Z"
       },
       {
         "platform": "facebook",
@@ -7880,6 +7805,12 @@
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid032TinUeo2HH84ALWTK23PEM46GjCetgskJRKvHRERmwRFuB6NsP1YRr7SysqY8bGMl&id=61595207664875",
         "verifiedAt": "2026-10-08T17:11:19.092Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0kiWRodsxNCnCrUjfPJtaLcxX1TzgvAMDB4MPgh2chiZpySdrJSiMs7juPYB4eRiNl&id=61591964083308",
+        "verifiedAt": "2026-10-09T11:26:22.912383+00:00"
       },
       {
         "platform": "facebook",
@@ -11647,6 +11578,12 @@
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid08RGJ3aDNM8121V49vCdNm7r53WR7NDUt77e8DAVJ7WWFixLqgrmEiLJ4mVgvQbwjl&id=61595207664875",
         "verifiedAt": "2026-10-08T17:57:34.764490+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0sASgXa6H77K7Xvc1YrYgeG5qP1RgdUo3MwEXTUGdNQsuQQ44CFGUzHX6RWBNLeoUl&id=61591964083308",
+        "verifiedAt": "2026-10-09T11:26:22.912704+00:00"
       },
       {
         "platform": "facebook",
@@ -16462,6 +16399,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FLiiN7LhMTX8EMFbjZQf8QEpKuDcqEbLK9LcafPFsdHAde3fEqrNZVD8rowoFU9Gl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid028pJmnMCke6S7zm99khK9z6ZjiYpMTZLvdNPMWu9Z2dFTnqTpPSNtGPbKFirJUEnHl&id=61595036942289",
+        "verifiedAt": "2026-10-09T11:28:34.910Z"
       }
     ]
   },
@@ -19367,6 +19310,12 @@
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02NHGWnPg1a4v4ppSAzWvEneeTNVRKb5XgamgFvtnyTWm4DMpSybHRLyAkkZxZ4v4al&id=61595207664875",
         "verifiedAt": "2026-10-08T18:23:12.690591+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02zzs9UR1EnAJ2fj3nnUJDFUJuvjfMEdw79GsQ1GbXcju9wWA8J4wTuRTQAT8T6HBdl&id=61591964083308",
+        "verifiedAt": "2026-10-09T11:26:22.912748+00:00"
       },
       {
         "platform": "facebook",
