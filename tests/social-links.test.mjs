@@ -63,8 +63,8 @@ test("all canonical places use only the selected language post or matching chann
   const pages = {he:"61591964083308",en:"61595036942289",pl:"61595207664875",de:"61595239823399",cs:"61594716405964"};
   for (const place of Object.values(catalog.places)) for (const lang of Object.keys(pages)) for (const platform of ["facebook","instagram"]) {
     const result = catalog.getSocialPost(place, platform, lang);
-    const exact = place.socialPosts.find(p => p.platform === platform && p.context !== "historical-cross-account" && p.language === lang && !p.url.includes('/groups/'));
-    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && p.context !== "historical-cross-account" && !p.language && !p.url.includes('/groups/'));
+    const exact = place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && p.language === lang && !p.url.includes('/groups/'));
+    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !p.language && !p.url.includes('/groups/'));
     if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
     else {
       assert.equal(result.language, lang);
@@ -93,4 +93,21 @@ test("Hebrew maps exclude verified historical posts from the English Instagram a
     assert.equal(result.url, verified?.url || "https://www.instagram.com/wroclaw.lowersilesia.he/");
     assert.ok(!place.socialPosts.some(p => p.context === "historical-cross-account" && p.url === result.url));
   }
+});
+
+
+test("reviewed unrelated legacy posts are retained without being selected for exact place routing", () => {
+  const catalog = loadCatalog();
+  const exclusions = JSON.parse(readFileSync(resolve(root, "data/social-post-routing-exclusions.json"), "utf8"));
+  for (const review of exclusions) {
+    const place = catalog.getPlace(review.placeId);
+    const legacy = place.socialPosts.find(post => post.platform === review.platform && post.url === review.url);
+    assert.ok(legacy?.routingExcluded, `${review.placeId}: retain excluded historical record`);
+    assert.notEqual(catalog.getSocialPost(place, review.platform, "he").url, review.url);
+  }
+  const place = {socialPosts: [
+    {platform: "facebook", language: "he", url: "https://www.facebook.com/wrong/", routingExcluded: true},
+    {platform: "facebook", language: "he", url: "https://www.facebook.com/exact/"}
+  ]};
+  assert.equal(catalog.getSocialPost(place, "facebook", "he").url, "https://www.facebook.com/exact/");
 });
