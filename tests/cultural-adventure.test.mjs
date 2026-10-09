@@ -44,10 +44,15 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
   const wuwaEstate = window.WROC_CATALOG.getPlace("wuwa-estate");
   assert.equal(wuwaEstate.media.photos.length, 10);
   assert.equal(wuwaEstate.media.videos.length, 0);
-  const originalWuwaPosts = wuwaEstate.socialPosts.filter(post => !post.language || post.language === "he");
-  assert.deepEqual(Array.from(originalWuwaPosts, (post) => post.platform), ["facebook", "instagram"]);
-  assert.equal(originalWuwaPosts[0].url, "https://www.facebook.com/share/p/19G81XL7j2/");
-  assert.equal(originalWuwaPosts[1].url, "https://www.instagram.com/p/Dcq_ageDDb4/?img_index=1");
+  for (const [platform, url] of [
+    ["facebook", "https://www.facebook.com/share/p/19G81XL7j2/"],
+    ["instagram", "https://www.instagram.com/p/Dcq_ageDDb4/?img_index=1"],
+  ]) {
+    assert.ok(wuwaEstate.socialPosts.some(post => post.platform === platform && post.url === url), `${url} remains preserved alongside verified language posts`);
+  }
+  const verifiedWuwaHebrew = localizedPosts["wuwa-estate"].find(post => post.language === "he" && post.platform === "facebook");
+  assert.ok(verifiedWuwaHebrew);
+  assert.equal(window.WROC_CATALOG.getSocialPost(wuwaEstate, "facebook", "he").url, verifiedWuwaHebrew.url);
   wuwaEstate.media.photos.forEach((photo) => assert.ok(existsSync(resolve(root, photo.replace(/^\//, ""))), `missing ${photo}`));
   const aula = window.WROC_CATALOG.getPlace("aula");
   assert.equal(aula.media.photos.length, 8);

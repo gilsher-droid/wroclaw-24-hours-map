@@ -47,7 +47,11 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
     "/assets/video-stulecia-fountain.mp4",
   ]);
   fountain.media.videos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
-  assert.equal(fountain.socialPosts.find((post) => post.platform === "facebook" && (!post.language || post.language === "he"))?.url, "https://www.facebook.com/share/r/1ANYoSUn3J/");
+  assert.ok(fountain.socialPosts.some(post => post.platform === "facebook" && post.url === "https://www.facebook.com/share/r/1ANYoSUn3J/"), "legacy fountain post stays preserved");
+  const localizedPosts = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"));
+  const verifiedFountainHebrew = localizedPosts.fountain.find(post => post.language === "he" && post.platform === "facebook");
+  assert.ok(verifiedFountainHebrew);
+  assert.equal(window.WROC_CATALOG.getSocialPost(fountain, "facebook", "he").url, verifiedFountainHebrew.url);
   assert.equal(fountain.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
 
   const dayThree = window.PREMIUM_STOPS.filter((stop) => stop.day === 3);
