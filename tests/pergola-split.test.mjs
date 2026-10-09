@@ -64,12 +64,13 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
 
   const resources = window.WROC_LOCATION_MEDIA.pergola;
   assert.deepEqual(Array.from(resources.gallery), Array.from(pergola.media.photos));
-  assert.equal(resources.facebook, "https://www.facebook.com/share/p/1CHRnrqLwQ/");
-  assert.equal(resources.instagram, "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1");
+  assert.equal(resources.facebook, "https://www.facebook.com/profile.php?id=61591964083308");
+  assert.equal(resources.facebook, window.WROC_CATALOG.getSocialPost(pergola, "facebook", "he").url);
+  assert.equal(resources.instagram, "https://www.instagram.com/wroclaw.lowersilesia.he/");
 
   const fountainResources = window.WROC_LOCATION_MEDIA.fountain;
   assert.deepEqual(Array.from(fountainResources.gallery), Array.from(fountain.media.photos));
   assert.deepEqual(Array.from(fountainResources.videos, (video) => video.src), Array.from(fountain.media.videos));
   assert.equal(fountainResources.facebook, verifiedFountainHebrew.url);
-  assert.equal(fountainResources.instagram, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
+  assert.equal(fountainResources.instagram, "https://www.instagram.com/wroclaw.lowersilesia.he/");
 });
