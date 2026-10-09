@@ -1,0 +1,37 @@
+[
+  {
+    "placeId": "math-tower",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/",
+    "reason": "hold-wrong-canonical-narrative",
+    "reviewedAt": "2026-10-09T16:29:06.537Z"
+  },
+  {
+    "placeId": "dwarf-info",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122107696491398802/",
+    "reason": "hold-category-not-exact-place",
+    "reviewedAt": "2026-10-09T16:29:06.537Z"
+  },
+  {
+    "placeId": "chatka",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+    "reason": "hold-roundup-incidental-mention",
+    "reviewedAt": "2026-10-09T16:29:06.537Z"
+  },
+  {
+    "placeId": "dominikan",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+    "reason": "hold-wrong-canonical-narrative",
+    "reviewedAt": "2026-10-09T16:29:06.537Z"
+  },
+  {
+    "placeId": "karmello",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+    "reason": "hold-roundup-ambiguous-identity",
+    "reviewedAt": "2026-10-09T16:29:06.537Z"
+  }
+]

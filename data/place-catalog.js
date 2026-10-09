@@ -4008,7 +4008,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
@@ -5170,7 +5171,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -5596,7 +5598,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122107696491398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122107696491398802/",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
@@ -8623,6 +8626,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeRtg6CiQpO/",
         "verifiedAt": "2026-10-09T14:23:31.292Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0r1ApijB7EFdh2gx78ha6HDXX2m5dCrAzGrxzu3P1r98W8xmEAeGt8c2jRYbyGCSdl&id=61591964083308",
+        "verifiedAt": "2026-10-09T16:33:18.988Z"
       }
     ],
     "transport": {
@@ -9559,7 +9568,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -11175,7 +11185,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
@@ -23517,6 +23528,12 @@
       },
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Y4WJWHQXN7ir8p15rX5HJdDrXJKsJjWoGkG6u5BL6AvASFGgagn8woRHfG2cwvuTl&id=61591964083308",
+        "verifiedAt": "2026-10-09T16:40:23.324Z"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
       }
     ]
@@ -25097,7 +25114,7 @@
   const socialChannels = {"he": {"facebook": "https://www.facebook.com/profile.php?id=61591964083308", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/"}, "en": {"facebook": "https://www.facebook.com/profile.php?id=61595036942289", "instagram": "https://www.instagram.com/wroclaw.lowersilesia/"}, "pl": {"facebook": "https://www.facebook.com/profile.php?id=61595207664875", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.pl/"}, "de": {"facebook": "https://www.facebook.com/profile.php?id=61595239823399", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/"}, "cs": {"facebook": "https://www.facebook.com/profile.php?id=61594716405964", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/"}};
   const getSocialPost = (place, platform, lang = window.document?.documentElement?.lang || "en") => {
     const language = socialChannels[lang] ? lang : "en";
-    const posts = (place?.socialPosts || []).filter((post) => post.platform === platform && post.context !== "historical-cross-account" && !post.url.includes("/groups/"));
+    const posts = (place?.socialPosts || []).filter((post) => post.platform === platform && !post.routingExcluded && post.context !== "historical-cross-account" && !post.url.includes("/groups/"));
     // Untagged historical editorial posts are Hebrew; never fall back to another language.
     const post = posts.find((post) => post.language === language)
       || (language === "he" ? posts.find((post) => !post.language) : null);
