@@ -1,4 +1,5 @@
-import { cp, mkdir, rm, writeFile } from "node:fs/promises";
+import { versionScriptUrls } from "./tools/version-script-urls.mjs";
+import { cp, mkdir, rm, writeFile, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = process.cwd();
@@ -53,7 +54,9 @@ for (const file of [
 // retained in source control for reversibility, but are not shipped publicly.
 
 for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"]) {
-  await cp(resolve(root, file), resolve(interactiveMaps, file));
+  const html = await readFile(resolve(root, file), "utf8");
+  const scripts = await Promise.all(["/data/place-catalog.js", "/data/location-media.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
+  await writeFile(resolve(interactiveMaps, file), versionScriptUrls(html, scripts));
 }
 
 const legacyRedirect = (target, title) => `<!doctype html>
