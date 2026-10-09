@@ -32,5 +32,6 @@ test("Centennial Hall exposes its expanded canonical media everywhere", () => {
   assert.deepEqual(Array.from(resources.gallery), Array.from(place.media.photos));
   assert.deepEqual(Array.from(resources.videos, (video) => video.src), Array.from(place.media.videos));
   assert.equal(resources.facebook, place.socialPosts.find((post) => post.platform === "facebook" && (!post.language || post.language === "he"))?.url);
-  assert.equal(resources.instagram, place.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url);
+  assert.equal(resources.instagram, "https://www.instagram.com/wroclaw.lowersilesia.he/");
+  assert.equal(resources.instagram, window.WROC_CATALOG.getSocialPost(place, "instagram", "he").url);
 });
