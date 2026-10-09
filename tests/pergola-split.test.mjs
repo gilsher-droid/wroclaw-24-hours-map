@@ -70,6 +70,6 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   const fountainResources = window.WROC_LOCATION_MEDIA.fountain;
   assert.deepEqual(Array.from(fountainResources.gallery), Array.from(fountain.media.photos));
   assert.deepEqual(Array.from(fountainResources.videos, (video) => video.src), Array.from(fountain.media.videos));
-  assert.equal(fountainResources.facebook, "https://www.facebook.com/share/r/1ANYoSUn3J/");
+  assert.equal(fountainResources.facebook, verifiedFountainHebrew.url);
   assert.equal(fountainResources.instagram, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
 });
