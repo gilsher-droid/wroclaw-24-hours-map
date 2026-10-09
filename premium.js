@@ -147,7 +147,8 @@
   }
 
   function resourcesFor(item) {
-    return item.resources || window.WROC_LOCATION_MEDIA?.[item.id] || {};
+    return item.resources || window.WROC_LOCATION_MEDIA?.[item.id]
+      || window.WROC_LOCATION_MEDIA?.[item.canonicalPlaceId] || {};
   }
 
   const compactActionLabels = {
@@ -164,14 +165,17 @@
 
   function resourceActionsHtml(item) {
     const resources = resourcesFor(item);
+    const place = window.WROC_CATALOG?.getPlace?.(item.canonicalPlaceId || item.id);
+    const facebook = window.WROC_CATALOG?.getSocialPost?.(place, "facebook", language)?.url;
+    const instagram = window.WROC_CATALOG?.getSocialPost?.(place, "instagram", language)?.url;
     const actions = [
       `<a class="resource-icon navigate-resource" href="${googleNavigationUrl(item)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("navigate"))}" title="${escapeHtml(t("navigate"))}"><span class="brand-icon media" aria-hidden="true">↗</span><span>${escapeHtml(actionLabel("navigate"))}</span></a>`
     ];
-    if (resources.facebook) {
-      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(resources.facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="brand-icon facebook" aria-hidden="true">f</span><span>${escapeHtml(actionLabel("facebook"))}</span></a>`);
+    if (facebook) {
+      actions.push(`<a class="resource-icon facebook-resource" href="${escapeHtml(facebook)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("facebookPost"))}" title="${escapeHtml(t("facebookPost"))}"><span class="brand-icon facebook" aria-hidden="true">f</span><span>${escapeHtml(actionLabel("facebook"))}</span></a>`);
     }
-    if (resources.instagram) {
-      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(resources.instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="brand-icon instagram" aria-hidden="true">◎</span><span>${escapeHtml(actionLabel("instagram"))}</span></a>`);
+    if (instagram) {
+      actions.push(`<a class="resource-icon instagram-resource" href="${escapeHtml(instagram)}" target="_blank" rel="noopener" aria-label="${escapeHtml(t("instagramPost"))}" title="${escapeHtml(t("instagramPost"))}"><span class="brand-icon instagram" aria-hidden="true">◎</span><span>${escapeHtml(actionLabel("instagram"))}</span></a>`);
     }
     if (resources.gallery?.length) {
       actions.push(`<button type="button" class="resource-icon gallery-resource" data-open-gallery="${escapeHtml(item.id)}" aria-label="${escapeHtml(t("photoGallery"))}" title="${escapeHtml(t("photoGallery"))}"><span class="brand-icon media" aria-hidden="true">▣</span><span>${escapeHtml(actionLabel("photos"))}</span></button>`);
@@ -223,7 +227,7 @@
   }
 
   function locationById(id) {
-    return window.PREMIUM_STOPS.find((item) => item.id === id);
+    return [...window.PREMIUM_STOPS, ...window.PREMIUM_RECOMMENDATIONS].find((item) => item.id === id);
   }
 
   function renderGalleryPhoto() {
@@ -459,13 +463,14 @@
   function renderRecommendations() {
     const recommendations = window.PREMIUM_RECOMMENDATIONS.filter((item) => recommendationFilter === "all" || item.category === recommendationFilter);
     document.getElementById("recommendation-grid").innerHTML = recommendations.map((item) => `
-      <article class="recommendation-card">
+      <article class="recommendation-card" data-canonical-place-id="${escapeHtml(item.canonicalPlaceId || item.id)}">
         <span class="recommendation-type">${escapeHtml(t(item.category))}</span>
         <h3>${escapeHtml(text(item.name))}</h3>
         <small>${escapeHtml(item.localName)}</small>
         ${placeAmenities.labelBadgeHtml(item, language)}
         <p>${escapeHtml(text(item.description))}</p>
-        <div><span>${escapeHtml(t("bestFor"))} ${item.bestDay}</span><a href="${googleNavigationUrl(item)}" target="_blank" rel="noopener">${escapeHtml(t("navigate"))}</a></div>
+        <div><span>${escapeHtml(t("bestFor"))} ${item.bestDay}</span></div>
+        ${resourceActionsHtml(item)}
       </article>`).join("");
   }
 

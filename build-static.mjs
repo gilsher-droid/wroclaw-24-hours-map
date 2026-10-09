@@ -55,7 +55,7 @@ for (const file of [
 
 for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"]) {
   const html = await readFile(resolve(root, file), "utf8");
-  const scripts = await Promise.all(["/data/place-catalog.js", "/data/location-media.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
+  const scripts = await Promise.all(["/data/place-catalog.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
   await writeFile(resolve(interactiveMaps, file), versionScriptUrls(html, scripts));
 }
 
