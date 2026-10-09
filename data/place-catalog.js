@@ -1442,7 +1442,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DbgEDzmnDcY/"
+        "url": "https://www.instagram.com/p/DbgEDzmnDcY/",
+        "routingExcluded": true
       }
     ]
   },
@@ -3543,7 +3544,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DbgE00LnOKH/"
+        "url": "https://www.instagram.com/p/DbgE00LnOKH/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -4354,7 +4356,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dbf-bApnAo5/?img_index=1"
+        "url": "https://www.instagram.com/p/Dbf-bApnAo5/?img_index=1",
+        "routingExcluded": true
       }
     ]
   },
@@ -8056,7 +8059,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dbf-GySnOyi/"
+        "url": "https://www.instagram.com/p/Dbf-GySnOyi/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -8481,7 +8485,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DbgCVSbnL0Q/"
+        "url": "https://www.instagram.com/p/DbgCVSbnL0Q/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -9460,7 +9465,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dbf9RSWnOB8/?img_index=1"
+        "url": "https://www.instagram.com/p/Dbf9RSWnOB8/?img_index=1",
+        "routingExcluded": true
       }
     ]
   },
@@ -10419,7 +10425,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dbhy7ROHMi_/?img_index=1"
+        "url": "https://www.instagram.com/p/Dbhy7ROHMi_/?img_index=1",
+        "routingExcluded": true
       }
     ]
   },
@@ -11208,7 +11215,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DbgEDzmnDcY/"
+        "url": "https://www.instagram.com/p/DbgEDzmnDcY/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -12679,6 +12687,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeRLRDiFlUp/",
         "verifiedAt": "2026-10-09T09:27:04.379706+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid05C5XMSEkxoSD5DnLvT7g7husbaQiEkEnFSG6XP8aYYWyEEVV6dDtX8Yno8TSU2txl&id=61591964083308",
+        "verifiedAt": "2026-10-09T19:42:46.961Z"
       }
     ]
   },
@@ -13646,7 +13660,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DcrATSoDN-C/?img_index=1"
+        "url": "https://www.instagram.com/p/DcrATSoDN-C/?img_index=1",
+        "routingExcluded": true
       }
     ]
   },
@@ -14073,7 +14088,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DcrGVaJDCs3/?img_index=1"
+        "url": "https://www.instagram.com/p/DcrGVaJDCs3/?img_index=1",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
@@ -14436,7 +14452,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DbgE00LnOKH/"
+        "url": "https://www.instagram.com/p/DbgE00LnOKH/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -15245,7 +15262,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/Dbf-y1HHDum/"
+        "url": "https://www.instagram.com/p/Dbf-y1HHDum/",
+        "routingExcluded": true
       }
     ]
   },
@@ -19962,7 +19980,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DbgEDzmnDcY/"
+        "url": "https://www.instagram.com/p/DbgEDzmnDcY/",
+        "routingExcluded": true
       }
     ],
     "transport": {
