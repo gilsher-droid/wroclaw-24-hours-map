@@ -1152,7 +1152,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -2168,7 +2169,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -2308,7 +2310,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -3234,7 +3237,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -3692,7 +3696,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -3856,7 +3861,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -5872,7 +5878,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -6697,7 +6704,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -9720,7 +9728,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -9992,7 +10001,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -10520,7 +10530,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -10640,7 +10651,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -10786,7 +10798,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -10912,7 +10925,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -15330,7 +15344,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122107696491398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122107696491398802/",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
@@ -15590,7 +15605,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -15918,7 +15934,14 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid09HB4rfQaHmxjeBz4kJtNdgX5eKnjbboW2hdW9qUhB5vWVvBCYxh9nAsumMNVZQf5l&id=61591964083308",
+        "verifiedAt": "2026-10-09T19:11:25.733Z"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ]
   },
@@ -16254,7 +16277,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -16624,7 +16648,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -17449,7 +17474,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -17931,6 +17957,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02g2uAzg2zZWEJU8mHXJo4SWHWMnQM9hQiWjqsbJKCq4xMbgagFoXHjEgYU9quv3Bdl&id=61594716405964",
         "verifiedAt": "2026-10-06T22:27:16.195800+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02WQQDdwErPyTsbADcmp5ivHoKiw175FEYFeaDBbhiZWw288FbDRWy35a36JsjM9R8l&id=61591964083308",
+        "verifiedAt": "2026-10-09T19:13:08.945Z"
       }
     ],
     "transport": {
@@ -18063,7 +18095,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -19058,7 +19091,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -19560,7 +19594,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -22331,7 +22366,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -22609,7 +22645,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -23319,7 +23356,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
@@ -23540,7 +23578,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
       }
     ]
   },
@@ -24568,7 +24607,8 @@
       },
       {
         "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
       }
     ],
     "transport": {
