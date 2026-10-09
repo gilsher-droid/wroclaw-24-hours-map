@@ -143,7 +143,8 @@
     const communityPost = place.canonicalPlace?.socialPosts?.find((post) => post.url.includes("/groups/") && (post.language || "he") === language);
     if (communityPost) actions.push(`<a href="${escapeHtml(communityPost.url)}" target="_blank" rel="noopener">${({ he:"הפוסט בקבוצה", en:"Community post", pl:"Post w grupie", de:"Beitrag in der Gruppe", cs:"Příspěvek ve skupině" })[language]}</a>`);
     if (place.canonicalPlace?.links?.website) actions.push(`<a href="${escapeHtml(place.canonicalPlace.links.website)}" target="_blank" rel="noopener">${({ he:"אתר רשמי", en:"Official site", pl:"Oficjalna strona", de:"Offizielle Website", cs:"Oficiální web" })[language]}</a>`);
-    if (media?.instagram) actions.push(`<a href="${media.instagram}" target="_blank" rel="noopener"><span class="brand-icon instagram">◎</span>${tr("instagram")}</a>`);
+    const localizedInstagram = window.WROC_CATALOG?.getSocialPost?.(place.canonicalPlace, "instagram", language)?.url;
+    if (media?.instagram || place.canonicalPlace?.socialPosts?.some((post) => post.platform === "instagram")) actions.push(`<a href="${escapeHtml(localizedInstagram || media.instagram)}" target="_blank" rel="noopener"><span class="brand-icon instagram">◎</span>${tr("instagram")}</a>`);
     if (media?.gallery?.length) actions.push(`<button type="button" data-gallery="${place.id}"><span class="brand-icon media">▣</span>${tr("photos")}</button>`);
     if (media?.videos?.length) actions.push(`<button type="button" data-video="${place.id}"><span class="brand-icon media">▶</span>${tr("videos")}</button>`);
     actions.push(window.WROC_GUIDE_VIDEO?.button(place.canonicalPlaceId || place.id, language) || "");
