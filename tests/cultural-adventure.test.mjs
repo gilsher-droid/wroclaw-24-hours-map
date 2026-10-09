@@ -62,10 +62,15 @@ assert.deepEqual(Array.from(opera.socialPosts.filter(post => !post.language || p
   ["facebook", "https://www.facebook.com/photo/?fbid=122108355723398802"],
 ]);
   const nfm = window.WROC_CATALOG.getPlace("nfm");
-  assert.deepEqual(Array.from(nfm.socialPosts.filter(post => !post.language || post.language === "he"), (post) => [post.platform, post.url]), [
+  for (const [platform, url] of [
     ["facebook", "https://www.facebook.com/share/p/1C4YQxxtU1/"],
     ["instagram", "https://www.instagram.com/p/DcrATSoDN-C/?img_index=1"],
-  ]);
+  ]) {
+    assert.ok(nfm.socialPosts.some(post => post.platform === platform && post.url === url), `${url} remains available alongside verified language posts`);
+  }
+  const verifiedNfmHebrewFacebook = localizedPosts.nfm.find(post => post.language === "he" && post.platform === "facebook");
+  assert.ok(verifiedNfmHebrewFacebook);
+  assert.equal(window.WROC_CATALOG.getSocialPost(nfm, "facebook", "he").url, verifiedNfmHebrewFacebook.url);
   const fourDomes = window.WROC_CATALOG.getPlace("four-domes");
   assert.deepEqual(Array.from(fourDomes.media.photos), ["/assets/four-domes-pavilion-02.jpg", "/assets/four-domes-pavilion-01.jpg", "/assets/four-domes-pavilion-03.jpg"]);
   assert.deepEqual(Array.from(fourDomes.media.videos), ["/assets/video-four-domes-pavilion-01.mp4", "/assets/video-four-domes-pavilion-02.mp4"]);
