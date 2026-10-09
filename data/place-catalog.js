@@ -121,6 +121,12 @@
       },
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0ZUxeZHVRshGzgGDznevQHmRTsStJymqUHMqukZcu9ykhqCsnQBFKFCzPWKo8xHc5l&id=61591964083308",
+        "verifiedAt": "2026-10-09T09:02:22.110Z"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
     ],
@@ -515,6 +521,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid032u4LiuXqW6r7P7YoWpCPQf1Crw9FsnVMbQm5omUHpshTiRDkQEggwmJnx6dQRPQ8l&id=61595036942289",
         "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0ZQsvVMW8xyNkaV1i9XoFZsNk3jHsRUBuP3gXumBS2EiVTzD7vukE43auyRUKQWCl&id=61591964083308",
+        "verifiedAt": "2026-10-09T09:05:26.682Z"
       },
       {
         "platform": "facebook",
@@ -2612,6 +2624,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0hzbAqLtk78ek4QGgZJcNGZLGfWPqZ82WGaFFq6XkoSVG6dCQyNepETRa8Czszr3Gl&id=61591964083308",
         "verifiedAt": "2026-10-08T18:42:11.458Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRIy46iShX/",
+        "verifiedAt": "2026-10-09T09:01:22.931Z"
       }
     ]
   },
@@ -2775,6 +2793,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02MiPvZPVr8bj2xhpfFmzdxue8qkiG73TyzaycFkwQomUoXUDE6VGJhgXDsa3Pb7g2l&id=61591964083308",
         "verifiedAt": "2026-10-08T18:45:46.952Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRJFP7DXHD/",
+        "verifiedAt": "2026-10-09T09:05:16.171Z"
       }
     ]
   },
@@ -4793,11 +4817,11 @@
       "cs": "Dobra Pączkarnia – Kuźnicza 25"
     },
     "description": {
-      "he": "חלון מלא pączki — המאפה הפולני הקלאסי שעשוי להזכיר לרגע סופגנייה.",
-      "en": "A window full of pączki — the classic Polish pastry that may briefly bring a doughnut from home to mind.",
-      "pl": "Witryna pełna pączków — klasycznego polskiego wypieku, który może przywołać znajome skojarzenie.",
-      "de": "Ein Schaufenster voller Pączki – das klassische polnische Gebäck, das kurz an Krapfen von zu Hause erinnern kann.",
-      "cs": "Výloha plná pączků – klasického polského pečiva, které může na chvíli připomenout známou koblihu."
+      "he": "לפי אתר הרשת, הסניף סגור זמנית. בדקו את המצב העדכני באתר הרשמי לפני ביקור.",
+      "en": "The chain’s official website lists this branch as temporarily closed. Check its current status before visiting.",
+      "pl": "Oficjalna strona sieci podaje, że ten lokal jest chwilowo zamknięty. Sprawdź aktualny status przed wizytą.",
+      "de": "Die offizielle Website der Kette führt diese Filiale als vorübergehend geschlossen. Prüfen Sie den aktuellen Status vor einem Besuch.",
+      "cs": "Oficiální web řetězce uvádí, že tato pobočka je dočasně uzavřena. Před návštěvou ověřte aktuální stav."
     },
     "location": {
       "countryCode": "PL",
@@ -19108,6 +19132,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Kz2qo8A2Z1eC3VFqrw2HjS41Mabz2yEhWa1uzbc1N2a7QjuvLEfdm8SjMqLgxkhPl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid024i7utL8HsAXwwbHMZf33CBLWxTWFYVeBxo1aEaYN9EWiN5BZSV172MbuXHxofNg3l&id=61595036942289",
+        "verifiedAt": "2026-10-09"
       }
     ]
   },
@@ -20127,6 +20157,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0CgWsHBJ2LXoPCvpdiWtD99BaACX1aRXVSY6zSN5iiocFXMvawRZiv7B7ZSZXDfmgl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02QGV5eCvF18jAXuPZb8yAFmf8kJmRYLfkTKyYzVWpEEM8ShtqDZyiGBCRsfwAskz6l&id=61595036942289",
+        "verifiedAt": "2026-10-09"
       }
     ]
   },
