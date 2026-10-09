@@ -147,6 +147,17 @@
         description: record.description || place.description,
       };
     });
-    window.PREMIUM_RECOMMENDATIONS = registered.recommendations;
+    window.PREMIUM_RECOMMENDATIONS = registered.recommendations.map((record) => {
+      const place = record.canonicalPlace;
+      if (!place) return record;
+      const coordinates = place.location?.coordinates;
+      return {
+        ...record,
+        coordinates: record.coordinates || (coordinates ? [coordinates.lat, coordinates.lng] : null),
+        name: record.name || place.name,
+        localName: record.localName || place.localName,
+        description: record.description || place.description,
+      };
+    });
   }
 })();
