@@ -63,8 +63,8 @@ test("all canonical places use only the selected language post or matching chann
   const pages = {he:"61591964083308",en:"61595036942289",pl:"61595207664875",de:"61595239823399",cs:"61594716405964"};
   for (const place of Object.values(catalog.places)) for (const lang of Object.keys(pages)) for (const platform of ["facebook","instagram"]) {
     const result = catalog.getSocialPost(place, platform, lang);
-    const exact = place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && p.language === lang && !p.url.includes('/groups/'));
-    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !p.language && !p.url.includes('/groups/'));
+    const exact = place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && p.language === lang && !p.url.includes('/groups/'));
+    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && !p.language && !p.url.includes('/groups/'));
     if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
     else {
       assert.equal(result.language, lang);
@@ -110,4 +110,19 @@ test("reviewed unrelated legacy posts are retained without being selected for ex
     {platform: "facebook", language: "he", url: "https://www.facebook.com/exact/"}
   ]};
   assert.equal(catalog.getSocialPost(place, "facebook", "he").url, "https://www.facebook.com/exact/");
+});
+
+
+test("explicit English Instagram account paths never route from Hebrew maps", () => {
+  const catalog = loadCatalog();
+  const ids = ["boguslawskiego", "chatka", "dobra-paczkarnia-kuznicza", "dwarf-info", "glowny", "hala", "hala-targowa", "jolie-kurzy-targ", "jolie-plac-solny", "ossolineum", "pan-precel", "pan-precel-olawska", "papa", "zoo-wroclaw"];
+  for (const id of ids) {
+    const place = catalog.getPlace(id);
+    assert.ok(place.socialPosts.some(p => p.platform === "instagram" && p.url.startsWith("https://www.instagram.com/wroclaw.lowersilesia/")), id);
+    assert.ok(!catalog.getSocialPost(place, "instagram", "he").url.startsWith("https://www.instagram.com/wroclaw.lowersilesia/"), id);
+  }
+  const generic = {socialPosts: [{platform:"instagram",url:"https://www.instagram.com/p/unknown-owner/"}]};
+  assert.equal(catalog.getSocialPost(generic,"instagram","he").url,generic.socialPosts[0].url);
+  const english = {socialPosts:[{platform:"instagram",language:"en",url:"https://www.instagram.com/wroclaw.lowersilesia/p/english-post/"}]};
+  assert.equal(catalog.getSocialPost(english,"instagram","en").url,english.socialPosts[0].url);
 });
