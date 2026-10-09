@@ -229,5 +229,68 @@
     "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
     "reason": "hold-comparison-not-dedicated",
     "reviewedAt": "2026-10-09T19:13:15.553985+00:00"
+  },
+  {
+    "placeId": "dobra-paczkarnia-kuznicza",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+    "reason": "hold-roundup-branch-unverified",
+    "reviewedAt": "2026-10-09T19:22:33.076561+00:00"
+  },
+  {
+    "placeId": "jolie-kurzy-targ",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+    "reason": "hold-roundup-branch-unverified",
+    "reviewedAt": "2026-10-09T19:22:33.076561+00:00"
+  },
+  {
+    "placeId": "jolie-plac-solny",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+    "reason": "hold-roundup-branch-unverified",
+    "reviewedAt": "2026-10-09T19:22:33.076561+00:00"
+  },
+  {
+    "placeId": "pan-precel",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+    "reason": "hold-roundup-branch-unverified",
+    "reviewedAt": "2026-10-09T19:22:33.076561+00:00"
+  },
+  {
+    "placeId": "pan-precel-olawska",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+    "reason": "hold-roundup-branch-unverified",
+    "reviewedAt": "2026-10-09T19:22:33.076561+00:00"
+  },
+  {
+    "placeId": "pergola",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/share/p/1CHRnrqLwQ/",
+    "reason": "hold-wrong-owner",
+    "reviewedAt": "2026-10-09T19:22:33.076561+00:00"
+  },
+  {
+    "placeId": "pergola",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1",
+    "reason": "hold-confirmed-English-account-owner",
+    "reviewedAt": "2026-10-09T19:28:04.675Z"
+  },
+  {
+    "placeId": "fountain",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/p/DctbD99jLvg/?img_index=1",
+    "reason": "hold-confirmed-English-account-owner",
+    "reviewedAt": "2026-10-09T19:28:04.675Z"
+  },
+  {
+    "placeId": "wuwa-estate",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/p/Dcq_ageDDb4/?img_index=1",
+    "reason": "hold-confirmed-English-account-owner",
+    "reviewedAt": "2026-10-09T19:28:04.675Z"
   }
 ]
