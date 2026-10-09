@@ -7459,6 +7459,12 @@
       },
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122110918965398802/",
+        "verifiedAt": "2026-10-09T01:44:03.916Z"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/photo/?fbid=122110916907398802"
       },
       {
@@ -13774,6 +13780,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/p/DeOF5bFCVkv/",
         "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122108359197398802/",
+        "verifiedAt": "2026-10-09T01:42:27.437Z"
       },
       {
         "platform": "instagram",
