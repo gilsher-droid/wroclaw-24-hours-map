@@ -1145,6 +1145,12 @@
         "verifiedAt": "2026-10-09T09:30:04.832Z"
       },
       {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeR0xjIjo85/",
+        "verifiedAt": "2026-10-09T15:26:40.896Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/"
       }
@@ -9677,6 +9683,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid09zM2jqJWSxmujNfg6kJzsiBqLvJHQEWPWrdsHRdCXaZyTtgVy44TevU29DhRJBQil&id=61591964083308",
         "verifiedAt": "2026-10-09T10:46:26.109Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeR1WQRDbG8/",
+        "verifiedAt": "2026-10-09T15:31:33.658Z"
       },
       {
         "platform": "facebook",
