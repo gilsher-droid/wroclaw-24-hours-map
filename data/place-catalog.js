@@ -392,6 +392,12 @@
       },
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02oBTpRhvnAwzQqeDbCyqZRQZJWyBaakRBjXLg2canYFsYdNJFamyWfbgwMtfmp9aJl&id=61591964083308",
+        "verifiedAt": "2026-10-09T07:40:49.574Z"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1E6RkQAwRa/",
         "language": "he"
       },
@@ -843,6 +849,12 @@
         "language": "he",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeM2JmIjSr3/",
         "verifiedAt": "2026-10-08T19:51:48.223Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid026RifZvoehYyod52kUPEdijssZFTHaxdzKmkiDSLft3G9wqMaAnVYjwDdgYf7MCirl&id=61591964083308",
+        "verifiedAt": "2026-10-09T07:39:13.845Z"
       },
       {
         "platform": "facebook",
@@ -8070,6 +8082,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0N8XqdQCCjbZ491itiqUeZnELdit72zChmrgkfDs2pE9FqMixSBRHHDx8vrFUqUTwl&id=61591964083308",
         "verifiedAt": "2026-10-08T18:01:26.524Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0386hN2g7MfHEqhLwd1s9fk1JudND2nkHLo5BK7AkV4h33H8oaHZrBcJJD583fbEXFl&id=61595036942289",
+        "verifiedAt": "2026-10-09"
       }
     ]
   },
@@ -17301,6 +17319,12 @@
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XHqa4vSVynCXARsbVDicpGgMtkq9Yf4pK2PK8z7EUfePz6gWdBxLEjwCChSVCQVWl&id=61594716405964",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qTHEwYnv9QYvFzy2JiBSiaKhBFNaLFfdtJJKuFNyJuD1eSqSSASAcmXB4kYntJfml&id=61595036942289",
+        "verifiedAt": "2026-10-09"
       }
     ]
   },
