@@ -2954,6 +2954,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02GdCcqaT2kWnLtjL5VNPf51GQQhjg172FBRAi5v88gELVoeYpU4Paq8XvJTaLcPypl&id=61591964083308",
         "verifiedAt": "2026-10-09T09:39:08.764Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRyOWyjaol/",
+        "verifiedAt": "2026-10-09T15:05:47.660Z"
       }
     ]
   },
