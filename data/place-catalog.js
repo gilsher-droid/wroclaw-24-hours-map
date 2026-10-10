@@ -1151,6 +1151,12 @@
         "verifiedAt": "2026-10-09T15:26:40.896Z"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTqg4QEaF7/",
+        "verifiedAt": "2026-10-10T08:35:50.524Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
@@ -9735,6 +9741,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeR1WQRDbG8/",
         "verifiedAt": "2026-10-09T15:31:33.658Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTqG_7muvs/",
+        "verifiedAt": "2026-10-10T08:32:01.659Z"
       },
       {
         "platform": "facebook",
