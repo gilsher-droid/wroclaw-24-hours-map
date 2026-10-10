@@ -16196,6 +16196,12 @@
       },
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0dgwGcWr9XoWXfW5GRqkXRUEdQ1ZArZ8ykio6KKCQi8tRLzLNjFap26ed7TvSuUMKl&id=61591964083308",
+        "verifiedAt": "2026-10-09T20:04:09.107Z"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1CHRnrqLwQ/",
         "routingExcluded": true
       },
