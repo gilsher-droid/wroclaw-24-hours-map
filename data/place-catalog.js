@@ -13739,6 +13739,12 @@
         "verifiedAt": "2026-10-09T00:42:44.577Z"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeT6y0OlcwE/",
+        "verifiedAt": "2026-10-10T10:57:32.950Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/1C4YQxxtU1/"
       },
@@ -14169,6 +14175,12 @@
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122108359197398802/",
         "verifiedAt": "2026-10-09T01:42:27.437Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeT6b4dj9Oo/",
+        "verifiedAt": "2026-10-10T10:54:06.740Z"
       },
       {
         "platform": "instagram",
