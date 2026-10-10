@@ -24533,6 +24533,12 @@
         "verifiedAt": "2026-10-09T15:58:04.541Z"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeT9CdlD66a/",
+        "verifiedAt": "2026-10-10T11:19:02.202Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19G81XL7j2/"
       },
