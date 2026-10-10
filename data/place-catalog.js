@@ -10660,6 +10660,12 @@
         "verifiedAt": "2026-10-09T08:03:57.583Z"
       },
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUke1_DEPn/",
+        "verifiedAt": "2026-10-10T18:02:17.736789+00:00"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19UBPN184V/"
       },
