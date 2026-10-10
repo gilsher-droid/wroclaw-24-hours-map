@@ -2833,6 +2833,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeRJFP7DXHD/",
         "verifiedAt": "2026-10-09T09:05:16.171Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0NvWafCDXFnhiQyZptM5Mac9bemsBQ3P4gcCizkc2oeEUQgP4d9SW1suKMX7UkbQWl&id=61595207664875",
+        "verifiedAt": "2026-10-10T09:19:13.925Z"
       }
     ]
   },
@@ -10832,6 +10838,12 @@
         "verifiedAt": "2026-10-09T16:04:02.594Z"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTwdw_j9oy/",
+        "verifiedAt": "2026-10-10T09:27:09.399Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
@@ -12723,6 +12735,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid05C5XMSEkxoSD5DnLvT7g7husbaQiEkEnFSG6XP8aYYWyEEVV6dDtX8Yno8TSU2txl&id=61591964083308",
         "verifiedAt": "2026-10-09T19:42:46.961Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02kE19RWzcdc8fCwgSLTMB4ixQvWfktiFTkqNza2fZBsGyUeVgbvZosnH7wEFBf5F8l&id=61595207664875",
+        "verifiedAt": "2026-10-10T09:21:24.182Z"
       }
     ]
   },
@@ -14479,6 +14497,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeRcDQVndcx/",
         "verifiedAt": "2026-10-09T11:49:32.089Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTw-45kaEK/",
+        "verifiedAt": "2026-10-10T09:31:39.554Z"
       },
       {
         "platform": "instagram",
@@ -24154,6 +24178,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeRn66OHJOa/",
         "verifiedAt": "2026-10-09T13:33:43.270Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02ELBdTCTjgBX72bnjJfQwKYLYKeqYWp9M9DBiLmRwF1rgXS9Yz7s3yywssM21qdhdl&id=61595207664875",
+        "verifiedAt": "2026-10-10T09:18:32.120775+00:00"
       }
     ],
     "transport": {
