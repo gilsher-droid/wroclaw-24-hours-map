@@ -16083,6 +16083,12 @@
         "verifiedAt": "2026-10-09T19:11:25.733Z"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeUATwilaWF/",
+        "verifiedAt": "2026-10-10T11:46:00.592Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
