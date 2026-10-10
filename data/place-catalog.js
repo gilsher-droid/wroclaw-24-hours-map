@@ -4437,6 +4437,12 @@
         "verifiedAt": "2026-10-10T11:31:21.614Z"
       },
       {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeUklK1FJRV/",
+        "verifiedAt": "2026-10-10T17:03:53.932636+00:00"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/groups/2525899074519424/posts/2533682413741090/"
       },
