@@ -11209,6 +11209,12 @@
         "verifiedAt": "2026-10-09T08:02:52.017Z"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeToGayjS0m/",
+        "verifiedAt": "2026-10-10T08:16:00.393359+00:00"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/",
         "routingExcluded": true
@@ -19830,6 +19836,12 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02adMixpC3DKFekh3ranhYzvdA6zcuJWoLo8F57zW8PUcRf3u8dEf14HTsLoXRqzUjl&id=61595036942289",
         "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTnoF3je_J/",
+        "verifiedAt": "2026-10-10T08:10:12.781Z"
       }
     ]
   },
