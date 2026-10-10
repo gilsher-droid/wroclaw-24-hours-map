@@ -3447,6 +3447,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeUmhj9EVDI/",
         "verifiedAt": "2026-10-10T17:18:55.202Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtkTiEf4g/",
+        "verifiedAt": "2026-10-10T18:20:18.968Z"
       }
     ]
   },
@@ -3950,6 +3956,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeUm9vTkasE/",
         "verifiedAt": "2026-10-10T17:22:39.708Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtzRREccd/",
+        "verifiedAt": "2026-10-10T18:23:05.129Z"
       },
       {
         "platform": "facebook",
@@ -5604,6 +5616,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeUm1UFGCln/",
         "verifiedAt": "2026-10-10T17:22:26.178Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUttjQETXY/",
+        "verifiedAt": "2026-10-10T18:21:47.027Z"
       }
     ],
     "transport": {
@@ -20069,6 +20087,12 @@
         "verifiedAt": "2026-10-10T17:24:21.702277+00:00"
       },
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUuDffEb9K/",
+        "verifiedAt": "2026-10-10T18:24:35.036Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
@@ -20274,6 +20298,12 @@
         "language": "de",
         "url": "https://www.instagram.com/p/DeUTwPkjyOh/",
         "verifiedAt": "2026-10-10T14:35:33.948Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtnbDkfUF/",
+        "verifiedAt": "2026-10-10T18:21:14.623Z"
       }
     ]
   },
