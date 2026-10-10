@@ -28,7 +28,7 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   ]);
   pergola.media.photos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
   assert.equal(pergola.media.videos.length, 0);
-  assert.equal(pergola.socialPosts.find((post) => post.platform === "facebook" && (!post.language || post.language === "he"))?.url, "https://www.facebook.com/share/p/1CHRnrqLwQ/");
+  assert.ok(pergola.socialPosts.some(post => post.platform === "facebook" && post.url === "https://www.facebook.com/share/p/1CHRnrqLwQ/"), "historical Pergola group post stays preserved");
   assert.equal(pergola.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url, "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1");
   assert.deepEqual(Array.from(fountain.media.photos), [
     "/assets/multimedia-fountain-01.jpg",
@@ -51,6 +51,10 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   const localizedPosts = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"));
   const verifiedFountainHebrew = localizedPosts.fountain.find(post => post.language === "he" && post.platform === "facebook");
   assert.ok(verifiedFountainHebrew);
+  const verifiedPergolaHebrew = localizedPosts.pergola.find(post => post.language === "he" && post.platform === "facebook");
+  assert.ok(verifiedPergolaHebrew);
+  assert.equal(window.WROC_CATALOG.getSocialPost(pergola, "facebook", "he").url, verifiedPergolaHebrew.url);
+  assert.notEqual(verifiedPergolaHebrew.url, verifiedFountainHebrew.url);
   assert.equal(window.WROC_CATALOG.getSocialPost(fountain, "facebook", "he").url, verifiedFountainHebrew.url);
   assert.equal(fountain.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
 
@@ -64,7 +68,7 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
 
   const resources = window.WROC_LOCATION_MEDIA.pergola;
   assert.deepEqual(Array.from(resources.gallery), Array.from(pergola.media.photos));
-  assert.equal(resources.facebook, "https://www.facebook.com/profile.php?id=61591964083308");
+  assert.equal(resources.facebook, verifiedPergolaHebrew.url);
   assert.equal(resources.facebook, window.WROC_CATALOG.getSocialPost(pergola, "facebook", "he").url);
   assert.equal(resources.instagram, "https://www.instagram.com/wroclaw.lowersilesia.he/");
 
