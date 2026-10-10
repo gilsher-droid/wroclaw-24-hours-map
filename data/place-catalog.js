@@ -5887,6 +5887,12 @@
         "verifiedAt": "2026-10-09T13:30:03.451Z"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTsEVcD0KE/",
+        "verifiedAt": "2026-10-10T08:48:53.112Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
@@ -8653,6 +8659,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0r1ApijB7EFdh2gx78ha6HDXX2m5dCrAzGrxzu3P1r98W8xmEAeGt8c2jRYbyGCSdl&id=61591964083308",
         "verifiedAt": "2026-10-09T16:33:18.988Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTsdeyjxvo/",
+        "verifiedAt": "2026-10-10T08:52:25.609Z"
       }
     ],
     "transport": {
