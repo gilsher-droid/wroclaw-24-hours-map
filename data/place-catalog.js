@@ -1157,6 +1157,12 @@
         "verifiedAt": "2026-10-10T08:35:50.524Z"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUUYaWGL_b/",
+        "verifiedAt": "2026-10-10T14:40:33.996Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
@@ -8743,6 +8749,12 @@
         "language": "pl",
         "url": "https://www.instagram.com/p/DeTsdeyjxvo/",
         "verifiedAt": "2026-10-10T08:52:25.609Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUUiTxG2Xv/",
+        "verifiedAt": "2026-10-10T14:41:56.221Z"
       }
     ],
     "transport": {
@@ -9861,6 +9873,18 @@
         "language": "pl",
         "url": "https://www.instagram.com/p/DeTqG_7muvs/",
         "verifiedAt": "2026-10-10T08:32:01.659Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02522k6oYRxcux8VsLGvJKXAQ18f5KHbtin7KHTUabQQMDcazLjWuh333KtSHQU376l&id=61595239823399",
+        "verifiedAt": "2026-10-10T14:37:36.294Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUUq8Sj1TN/",
+        "verifiedAt": "2026-10-10T14:43:32.653Z"
       },
       {
         "platform": "facebook",
@@ -11351,6 +11375,12 @@
         "language": "pl",
         "url": "https://www.instagram.com/p/DeToGayjS0m/",
         "verifiedAt": "2026-10-10T08:16:00.393359+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUTxH0jZ5u/",
+        "verifiedAt": "2026-10-10T14:36:12.215Z"
       },
       {
         "platform": "facebook",
@@ -20100,6 +20130,12 @@
         "language": "pl",
         "url": "https://www.instagram.com/p/DeTnoF3je_J/",
         "verifiedAt": "2026-10-10T08:10:12.781Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUTwPkjyOh/",
+        "verifiedAt": "2026-10-10T14:35:33.948Z"
       }
     ]
   },
