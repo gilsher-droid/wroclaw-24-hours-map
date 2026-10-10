@@ -15484,6 +15484,12 @@
       },
       {
         "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUSNzMgDZg/",
+        "verifiedAt": "2026-10-10T14:21:51.859Z"
+      },
+      {
+        "platform": "instagram",
         "url": "https://www.instagram.com/p/Dbf-y1HHDum/",
         "routingExcluded": true
       }
