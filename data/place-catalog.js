@@ -1169,6 +1169,12 @@
         "verifiedAt": "2026-10-10T16:34:23.642Z"
       },
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUub8JEVcI/",
+        "verifiedAt": "2026-10-10T18:27:50.618Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
@@ -4121,6 +4127,12 @@
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUat5vDnCe/",
         "verifiedAt": "2026-10-10T15:37:31.464Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUurgzkeMm/",
+        "verifiedAt": "2026-10-10T18:30:01.440Z"
       },
       {
         "platform": "facebook",
@@ -8857,6 +8869,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/p/DeUibNADwPe/",
         "verifiedAt": "2026-10-10T16:43:31.171Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUugFakQQd/",
+        "verifiedAt": "2026-10-10T18:28:42.289Z"
       }
     ],
     "transport": {
@@ -9993,6 +10011,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/p/DeUihTzDGvn/",
         "verifiedAt": "2026-10-10T16:44:11.011Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUuL7-ER8R/",
+        "verifiedAt": "2026-10-10T18:25:42.867Z"
       },
       {
         "platform": "facebook",
@@ -11507,6 +11531,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/p/DeUh7z_DvU_/",
         "verifiedAt": "2026-10-10T16:39:05.502Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUuXjPEd_R/",
+        "verifiedAt": "2026-10-10T18:27:37.583Z"
       },
       {
         "platform": "facebook",
