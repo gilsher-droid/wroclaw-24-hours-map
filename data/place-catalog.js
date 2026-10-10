@@ -2191,6 +2191,12 @@
         "verifiedAt": "2026-10-10T15:15:02.438Z"
       },
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvzqnkT0O/",
+        "verifiedAt": "2026-10-10T18:40:09.180Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/"
       },
@@ -7233,6 +7239,12 @@
         "language": "de",
         "url": "https://www.instagram.com/p/DeUU5etF4__/",
         "verifiedAt": "2026-10-10T15:09:34.558Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvbXmkSPI/",
+        "verifiedAt": "2026-10-10T18:37:07.591Z"
       },
       {
         "platform": "facebook",
@@ -14854,6 +14866,12 @@
       },
       {
         "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvUmZEfUn/",
+        "verifiedAt": "2026-10-10T18:35:38.933Z"
+      },
+      {
+        "platform": "instagram",
         "url": "https://www.instagram.com/p/DbgE00LnOKH/",
         "routingExcluded": true
       }
@@ -15697,6 +15715,12 @@
         "language": "de",
         "url": "https://www.instagram.com/p/DeUSNzMgDZg/",
         "verifiedAt": "2026-10-10T14:21:51.859Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvy0TEbkc/",
+        "verifiedAt": "2026-10-10T18:39:32.386Z"
       },
       {
         "platform": "instagram",
@@ -24180,6 +24204,12 @@
         "verifiedAt": "2026-10-10T15:11:52.455Z"
       },
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvWGxkQrh/",
+        "verifiedAt": "2026-10-10T18:36:10.004Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
@@ -24706,6 +24736,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeUjq81nYYb/",
         "verifiedAt": "2026-10-10T16:55:39.901137+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUv_EEkU6W/",
+        "verifiedAt": "2026-10-10T18:41:21.031Z"
       }
     ],
     "transport": {
