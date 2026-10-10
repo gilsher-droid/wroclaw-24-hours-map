@@ -4365,6 +4365,12 @@
         "verifiedAt": "2026-10-09T15:58:04.540Z"
       },
       {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeT-oeoEW-s/",
+        "verifiedAt": "2026-10-10T11:31:21.614Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/groups/2525899074519424/posts/2533682413741090/"
       },
