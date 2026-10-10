@@ -3441,6 +3441,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeUiEDXgHkx/",
         "verifiedAt": "2026-10-10T16:41:38.210Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeUmhj9EVDI/",
+        "verifiedAt": "2026-10-10T17:18:55.202Z"
       }
     ]
   },
@@ -3938,6 +3944,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeUizxDnbBc/",
         "verifiedAt": "2026-10-10T16:48:08.163Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeUm9vTkasE/",
+        "verifiedAt": "2026-10-10T17:22:39.708Z"
       },
       {
         "platform": "facebook",
@@ -5586,6 +5598,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/p/DeUjZi5iZo-/",
         "verifiedAt": "2026-10-10T16:52:02.495Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeUm1UFGCln/",
+        "verifiedAt": "2026-10-10T17:22:26.178Z"
       }
     ],
     "transport": {
@@ -20037,6 +20055,12 @@
         "language": "cs",
         "url": "https://www.instagram.com/p/DeUjojPidBA/",
         "verifiedAt": "2026-10-10T16:54:00.117Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeUmzzVDpsR/",
+        "verifiedAt": "2026-10-10T17:24:21.702277+00:00"
       },
       {
         "platform": "facebook",
