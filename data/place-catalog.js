@@ -2173,6 +2173,12 @@
         "verifiedAt": "2026-10-09T07:56:28.011Z"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUYT-aDVLU/",
+        "verifiedAt": "2026-10-10T15:15:02.438Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122109385623398802/"
       },
@@ -4067,6 +4073,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeRLkyUj9kD/",
         "verifiedAt": "2026-10-09T09:27:04.380437+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUat5vDnCe/",
+        "verifiedAt": "2026-10-10T15:37:31.464Z"
       },
       {
         "platform": "facebook",
@@ -5977,6 +5989,12 @@
         "verifiedAt": "2026-10-10T08:48:53.112Z"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUU5cHDyxM/",
+        "verifiedAt": "2026-10-10T15:08:34.803Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
@@ -7119,6 +7137,12 @@
         "language": "en",
         "url": "https://www.instagram.com/p/DeRX6mNjK3_/",
         "verifiedAt": "2026-10-09T11:13:52.552Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUU5etF4__/",
+        "verifiedAt": "2026-10-10T15:09:34.558Z"
       },
       {
         "platform": "facebook",
@@ -17781,6 +17805,12 @@
         "verifiedAt": "2026-10-10T14:49:02.619Z"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUYdZtDATM/",
+        "verifiedAt": "2026-10-10T15:18:10.572293+00:00"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
@@ -20307,6 +20337,12 @@
         "language": "de",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0fh8sMPXT9vspLZPqDxaLD3MWWKzi38mz9uWNv7XonWzq1LnKoGNhcDNojZdHvN6Gl&id=61595239823399",
         "verifiedAt": "2026-10-10T15:00:48.303Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUY0P-kSoB/",
+        "verifiedAt": "2026-10-10T15:19:13.000Z"
       },
       {
         "platform": "instagram",
@@ -23944,6 +23980,12 @@
         "language": "de",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid036XWNFvBk9k9FrNe4BHX5oJkiCMnquVEnxKTkeJQ7sXs39ahGmvLPyCPVz6PMKjgLl&id=61595239823399",
         "verifiedAt": "2026-10-10T14:52:04.874Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUX8QrDfY9/",
+        "verifiedAt": "2026-10-10T15:11:52.455Z"
       },
       {
         "platform": "facebook",
