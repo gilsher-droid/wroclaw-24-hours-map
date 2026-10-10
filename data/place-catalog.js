@@ -3399,6 +3399,18 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NDt9v7GznzDvzJE5ZB3tcSukryvU33RayiiDWrzAwX2AyEJmWvzmPF2nwV5ZvU6ul&id=61595036942289",
         "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0vPXAhybKEvV4rgVtKwgVRatgdLyjCzqSuk2gZaTL3h6roD6XgAAyBcEQAiErySHml&id=61595207664875",
+        "verifiedAt": "2026-10-10T12:48:29.064Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.pl/p/DeUIiJKnWCf/",
+        "verifiedAt": "2026-10-10T12:57:04.997Z"
       }
     ]
   },
@@ -3878,6 +3890,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Wwdrb7zZLqRuZHCUACtUKQhbVREA2a3WEqxcY63WW5XQLYLQFtJctdTv21GgUYQDl&id=61591964083308",
         "verifiedAt": "2026-10-09T10:43:51.207Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeUIB5tj3lm/",
+        "verifiedAt": "2026-10-10T12:52:35.573Z"
       },
       {
         "platform": "facebook",
@@ -5490,6 +5508,12 @@
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JgTYrtcvXii9WVXEjQqes22qof7o6Djgp6v4Cy1UCkYwzYjz2WfyL4wXRaZnvFTxl&id=61595239823399",
         "verifiedAt": "2026-10-08T14:50:58.766337+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeUHRV1CQNY/",
+        "verifiedAt": "2026-10-10T12:48:07.310Z"
       }
     ],
     "transport": {
@@ -19785,6 +19809,18 @@
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02jPd5QW1MXDs6oXbKWocqkQhpNiZTqSneuGp2YVsRtDYTJsVf6oro4Xy6u1YvkKTxl&id=61595036942289",
         "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0h19QuyYPd9B8SqtuDEWUjGf14ptwEhxL9ExyuYNA9o1eVaGzXybMkMLshraszjKdl&id=61595207664875",
+        "verifiedAt": "2026-10-10T12:45:25.561Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeUHpiAl_3s/",
+        "verifiedAt": "2026-10-10T12:49:34.730Z"
       },
       {
         "platform": "facebook",
