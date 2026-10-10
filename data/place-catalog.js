@@ -15063,6 +15063,18 @@
       },
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Tn444T2MAKthGfoCdDq9KMKhkKqRkA67eqGedZVwSPKtxuMdEhkpcgG3AQdkWG1Gl&id=61595207664875",
+        "verifiedAt": "2026-10-10T12:12:39.048Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeUDjCoDc_d/",
+        "verifiedAt": "2026-10-10T12:14:00.961Z"
+      },
+      {
+        "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
         "routingExcluded": true
       },
