@@ -18001,6 +18001,12 @@
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02WQQDdwErPyTsbADcmp5ivHoKiw175FEYFeaDBbhiZWw288FbDRWy35a36JsjM9R8l&id=61591964083308",
         "verifiedAt": "2026-10-09T19:13:08.945Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeR_sDMG2RQ/",
+        "verifiedAt": "2026-10-10T07:46:20.834361+00:00"
       }
     ],
     "transport": {
