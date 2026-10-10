@@ -20303,6 +20303,12 @@
         "verifiedAt": "2026-10-08T19:20:20.400Z"
       },
       {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0fh8sMPXT9vspLZPqDxaLD3MWWKzi38mz9uWNv7XonWzq1LnKoGNhcDNojZdHvN6Gl&id=61595239823399",
+        "verifiedAt": "2026-10-10T15:00:48.303Z"
+      },
+      {
         "platform": "instagram",
         "url": "https://www.instagram.com/p/DbgEDzmnDcY/",
         "routingExcluded": true
