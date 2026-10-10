@@ -10922,6 +10922,12 @@
         "verifiedAt": "2026-10-10T09:27:09.399Z"
       },
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUNdoNj55L/",
+        "verifiedAt": "2026-10-10T13:40:02.855Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
@@ -12296,6 +12302,12 @@
         "language": "pl",
         "url": "https://www.instagram.com/p/DeT0u0DDfS7/",
         "verifiedAt": "2026-10-10T10:04:06.675Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUNep6CQfA/",
+        "verifiedAt": "2026-10-10T13:40:24.682Z"
       }
     ],
     "transport": {
@@ -24352,6 +24364,18 @@
         "language": "pl",
         "url": "https://www.instagram.com/p/DeT4aJOHMdJ/",
         "verifiedAt": "2026-10-10T10:36:20.041Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02kVjHywKG9wWBWQafPGFXc7ozCCKJAwoSzGWzPnLLhifGkoGCfJugK6znAaEKkEdsl&id=61595239823399",
+        "verifiedAt": "2026-10-10T13:42:04.181Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUOZLAH2Y3/",
+        "verifiedAt": "2026-10-10T13:48:21.784Z"
       }
     ],
     "transport": {
