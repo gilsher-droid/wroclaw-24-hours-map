@@ -1812,6 +1812,38 @@
   ],
   "wuwa-estate": [
     {
+      "platform": "facebook",
+      "language": "cs",
+      "url": "https://facebook.com/reel/1435670912020615/",
+      "verifiedAt": "2026-10-11T13:50:25.810Z",
+      "context": "native-language-guide",
+      "account": "61594716405964"
+    },
+    {
+      "platform": "instagram",
+      "language": "cs",
+      "url": "https://www.instagram.com/reel/DeWzQoTEhBv/",
+      "verifiedAt": "2026-10-11T13:50:25.810Z",
+      "context": "native-language-guide",
+      "account": "wroclaw.lowersilesia.cs"
+    },
+    {
+      "platform": "facebook",
+      "language": "pl",
+      "url": "https://www.facebook.com/reel/1429928149250782/",
+      "verifiedAt": "2026-10-11T13:53:12.619Z",
+      "context": "native-language-guide",
+      "account": "61595207664875"
+    },
+    {
+      "platform": "instagram",
+      "language": "pl",
+      "url": "https://www.instagram.com/reel/DeWzkmpEabq/",
+      "verifiedAt": "2026-10-11T13:53:12.619Z",
+      "context": "native-language-guide",
+      "account": "wroclaw.lowersilesia.pl"
+    },
+    {
       "platform": "instagram",
       "language": "de",
       "url": "https://www.instagram.com/reel/DeWyP7ugQcO/",
