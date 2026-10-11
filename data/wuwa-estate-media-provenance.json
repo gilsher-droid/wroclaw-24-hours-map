@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceId": "wuwa-estate",
+  "reviewedAt": "2026-10-11",
+  "sourceDirectory": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa",
+  "photoSelection": "Full originals visually checked. Select strongest distinct architecture, models, gardens and café visitor-stop views. Include café in estate per human clarification2026-10-11; preserve independent cafécanonical. Omit near duplicates, toilet-door and unrelatedŁódźstreet-signphoto. Older weakereditedentrancesign/hotel/model views remain on disk and provenance but are replaced in activegallery.",
+  "photos": [
+    {
+      "asset": "/assets/wuwa-estate-11.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.33.49.jpeg",
+      "sourceSha256": "ec4b039c6cf612b16fb2491e3c9755a324fad58048e8203457d58e3414eeab9f",
+      "assetSha256": "06a5d8dba25b2bb8098b50ae162a759291242c9abdf85ac1ece376b15d3a74b5",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "confirmed exact estate visit",
+      "tags": [
+        "park-hotel",
+        "modernist-architecture"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-12.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.33.53 (1).jpeg",
+      "sourceSha256": "b4c0395b636e8d58748ad4377322309a59f943abd777fdc180d0dd6519c1b3b7",
+      "assetSha256": "2442638ed6ca1bbb05df33ff027181c3aa35a76c8958a91aae61eda76e7980bb",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "confirmed exact estate visit",
+      "tags": [
+        "modernist-architecture",
+        "residential-facade"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-13.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.33.57 (1).jpeg",
+      "sourceSha256": "7f0f8ee219315805703a32d5e120ad833784c1f0bb257d45b726f5d2c74f1f6a",
+      "assetSha256": "54dab2542b29c4227bf539b83c3ef52c548ee86a4af9bfd2854fc7ccdfcff0a7",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "confirmed exact estate visit",
+      "tags": [
+        "modernist-architecture",
+        "blue-window-band"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-14.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.33.58 (1).jpeg",
+      "sourceSha256": "035a5c6c220bf1d59cc77f1b304e8a3cca1b00c1a2a515b90f47bd6fbcbad440",
+      "assetSha256": "8f229333ccf756012b3c654c8a2c3adb455dbb50ec16577231d6a66b0d196395",
+      "width": 1600,
+      "height": 1200,
+      "visualReview": "confirmed exact estate visit",
+      "tags": [
+        "architecture-model",
+        "visitor-information",
+        "hero"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-15.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.33.58 (3).jpeg",
+      "sourceSha256": "19da5cae8c8424bd724f5af124c828a4988cfd9860a7f828304b676b20b0538a",
+      "assetSha256": "d2dea6f1d92339c67976c28cc1cf981cc6b9721e6a2302ccdc693ba5e7b6ac14",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "confirmed exact estate visit",
+      "tags": [
+        "architecture-model",
+        "detail"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-16.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.34.25 (1).jpeg",
+      "sourceSha256": "956724f26b5394ec99f9fd6c3f5fb34cc010938102f1110e09383f46417bf399",
+      "assetSha256": "91357ad6fea87bb3d6d16497c60665bbcc6ac114c11fc6c2f55ca12b564e4790",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "confirmed exact estate visit",
+      "tags": [
+        "architecture-exhibition",
+        "visitor-information"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-17.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.34.25.jpeg",
+      "sourceSha256": "a831d4a065e33e882937ffdfb9a99228aced1d4bae75d12471259a544eeb007c",
+      "assetSha256": "7df255271ea05e038a8d408cec086be7740dadefb13d1d7705adfa88b19f478a",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "confirmed exact estate visit",
+      "tags": [
+        "modernist-architecture",
+        "landscape"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-18.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.26.10 (2).jpeg",
+      "sourceSha256": "d98d3d1cc92ae595c5dc038114d73388f3dd367a148ba3778741d29e496bc508",
+      "assetSha256": "6f4e8f94107a5c9a03933b0f966ea614100322a6d690dfa65672c7ac176e6cd1",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "full original inspected; exact estate or user-confirmed cafe within estate visit",
+      "tags": [
+        "wuwa-cafe",
+        "food",
+        "visitor-stop"
+      ],
+      "canonicalPlaceIds": [
+        "wuwa-estate",
+        "wuwa"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-19.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 19.02.58.jpeg",
+      "sourceSha256": "331dacf2341a96e0890d90e6e6dd4086a79115b4bc49f269648d5f3ab62faadb",
+      "assetSha256": "47a38afa655db277d5306a2a496a8baf7d2486a4acb5bed26f387187bb2cbb90",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "full original inspected; exact estate or user-confirmed cafe within estate visit",
+      "tags": [
+        "wuwa-cafe",
+        "terrace",
+        "visitor-stop"
+      ],
+      "canonicalPlaceIds": [
+        "wuwa-estate",
+        "wuwa"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-20.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 19.02.58 (5).jpeg",
+      "sourceSha256": "6bd89e0faba3b34f33db8c5712531013d78f8094a8ec35dad40c5a021ac2c41b",
+      "assetSha256": "04b57afeeadb29d16de8b997b005adf551628800fa5b8807d84454bdbe191f73",
+      "width": 1600,
+      "height": 1200,
+      "visualReview": "full original inspected; exact estate or user-confirmed cafe within estate visit",
+      "tags": [
+        "wuwa-cafe",
+        "terrace",
+        "tram",
+        "visitor-stop"
+      ],
+      "canonicalPlaceIds": [
+        "wuwa-estate",
+        "wuwa"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-21.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.33.53.jpeg",
+      "sourceSha256": "b835c68f7b5e7df7e52a0790929b00ebf86fdf2876997ed19a339a4f2d832e09",
+      "assetSha256": "6453eb17d2e8e99eb7bf4684cb49c52a83b540eafd6a1c30b54f742f14066982",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "full original inspected; exact estate or user-confirmed cafe within estate visit",
+      "tags": [
+        "wuwa",
+        "entrance-sign",
+        "architecture"
+      ]
+    },
+    {
+      "asset": "/assets/wuwa-estate-22.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.33.59 (1).jpeg",
+      "sourceSha256": "37a77bf619d64de1d950867b562642cd916e0ef8ea61a1ec23d7b0090bfb0032",
+      "assetSha256": "3c8a46b101437ab8784d412b504230bf42019532a0160d583317cc81bfe00eac",
+      "width": 1200,
+      "height": 1600,
+      "visualReview": "full original inspected; exact estate or user-confirmed cafe within estate visit",
+      "tags": [
+        "wuwa",
+        "architecture-model",
+        "curved-building-detail"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Video 2026-09-24 at 17.33.50.mp4",
+      "duration": 3.533333,
+      "sizeBytes": 643271,
+      "streams": [
+        {
+          "type": "video",
+          "codec": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "codec": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "sourceSha256": "45cd628a34b22b2325190627b1947df68fbb8f18efc8730607d8a05a67505553",
+      "canonicalPlaceId": "wuwa-estate",
+      "status": "public",
+      "visualReview": "sampled two frames; exact estate sequence context",
+      "youtube": "https://youtube.com/shorts/wzZWtxP0ct0",
+      "virtualAsset": "/assets/wuwa-estate-visit-01.mp4",
+      "verifiedAt": "2026-10-11",
+      "verification": "Root YouTube Studio Public selected and Video published UI checked"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Video 2026-09-24 at 17.33.54.mp4",
+      "duration": 5.366667,
+      "sizeBytes": 994946,
+      "streams": [
+        {
+          "type": "video",
+          "codec": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "codec": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "sourceSha256": "3d4f09848c8f587550cc2a04bbc5daf2a0b37279995b8dba4c45b64b396eb2ae",
+      "canonicalPlaceId": "wuwa-estate",
+      "status": "public",
+      "visualReview": "sampled two frames; exact estate sequence context",
+      "youtube": "https://youtube.com/shorts/KPtXyrazaLY",
+      "virtualAsset": "/assets/wuwa-estate-visit-02.mp4",
+      "verifiedAt": "2026-10-11",
+      "verification": "Root YouTube Studio Public selected and Video published UI checked"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Video 2026-09-24 at 17.34.01.mp4",
+      "duration": 11.336667,
+      "sizeBytes": 1984219,
+      "streams": [
+        {
+          "type": "video",
+          "codec": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "codec": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "sourceSha256": "c7066316e231fb008e298e76e22f2948df0e88b170071780429028a788285a30",
+      "canonicalPlaceId": "wuwa-estate",
+      "status": "public",
+      "visualReview": "sampled two frames; exact estate sequence context",
+      "youtube": "https://youtube.com/shorts/Ky1TMR0E7Js",
+      "virtualAsset": "/assets/wuwa-estate-visit-03.mp4",
+      "verifiedAt": "2026-10-11",
+      "verification": "Root YouTube Studio Public selected and Video published UI checked"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Video 2026-09-24 at 17.34.02.mp4",
+      "duration": 3.9,
+      "sizeBytes": 735755,
+      "streams": [
+        {
+          "type": "video",
+          "codec": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "codec": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "sourceSha256": "0ba0ca75b8d60a0bf7e4d8896ea0fe70999305f967753cbfcc8a70c3f9ff0e0f",
+      "canonicalPlaceId": "wuwa-estate",
+      "status": "public",
+      "visualReview": "sampled two frames; exact estate sequence context",
+      "youtube": "https://youtube.com/shorts/oMzorjEobHs",
+      "virtualAsset": "/assets/wuwa-estate-visit-04.mp4",
+      "verifiedAt": "2026-10-11",
+      "verification": "Root YouTube Studio Public selected and Video published UI checked"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Video 2026-09-24 at 17.34.22.mp4",
+      "duration": 4.3,
+      "sizeBytes": 830274,
+      "streams": [
+        {
+          "type": "video",
+          "codec": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "codec": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "sourceSha256": "4f1a5faf3c4e549683d5e32d57112304bd968f9469aa5d8fa4a26907efecbcbd",
+      "canonicalPlaceId": "wuwa-estate",
+      "status": "public",
+      "visualReview": "sampled two frames; exact estate sequence context",
+      "youtube": "https://youtube.com/shorts/7O6cQl0VE_o",
+      "virtualAsset": "/assets/wuwa-estate-visit-05.mp4",
+      "verifiedAt": "2026-10-11",
+      "verification": "Root YouTube Studio Public selected and Video published UI checked"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Video 2026-09-24 at 17.34.23.mp4",
+      "duration": 7.833333,
+      "sizeBytes": 1395248,
+      "streams": [
+        {
+          "type": "video",
+          "codec": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "codec": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "sourceSha256": "3673c702ad4035608c7ec88fe0a4291ec255ed2c05a97f023b48174dd11cd9a0",
+      "canonicalPlaceId": "wuwa-estate",
+      "status": "public",
+      "visualReview": "sampled two frames; exact estate sequence context",
+      "youtube": "https://youtube.com/shorts/dQoFpHbTKxg",
+      "virtualAsset": "/assets/wuwa-estate-visit-06.mp4",
+      "verifiedAt": "2026-10-11",
+      "verification": "Root YouTube Studio Public selected and Video published UI checked"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Video 2026-09-24 at 17.34.26.mp4",
+      "duration": 3.966667,
+      "sizeBytes": 797683,
+      "streams": [
+        {
+          "type": "video",
+          "codec": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "codec": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "sourceSha256": "a3f32558cd113c206155ade57902cf3b5eb5435735c09b3ee889e4930349c11c",
+      "canonicalPlaceId": "wuwa-estate",
+      "status": "public",
+      "visualReview": "sampled two frames; exact estate sequence context",
+      "youtube": "https://youtube.com/shorts/YRr8QFMPTmc",
+      "virtualAsset": "/assets/wuwa-estate-visit-07.mp4",
+      "verifiedAt": "2026-10-11",
+      "verification": "Root YouTube Studio Public selected and Video published UI checked"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Video 2026-09-24 at 17.34.30.mp4",
+      "duration": 6.233333,
+      "sizeBytes": 1127251,
+      "streams": [
+        {
+          "type": "video",
+          "codec": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "codec": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "sourceSha256": "f6ebd79d501c4ca6c6e140f72fffff64b98e93cef7e6ef725c3b8d1b33114dae",
+      "canonicalPlaceId": "wuwa-estate",
+      "status": "public",
+      "visualReview": "cafe facade and tram; human confirms cafe part of estateexperience",
+      "experience": "wuwa-cafe",
+      "canonicalPlaceIds": [
+        "wuwa-estate",
+        "wuwa"
+      ],
+      "youtube": "https://youtube.com/shorts/EYv9g8XlrdA",
+      "verifiedAt": "2026-10-11",
+      "verification": "Root YouTube Studio Public selected and Video published UI checked",
+      "virtualAsset": "/assets/wuwa-cafe-visit-01.mp4"
+    }
+  ],
+  "supersededGalleryViews": [
+    {
+      "asset": "/assets/wuwa-estate-03.jpg",
+      "sourceFile": "IMG_4587.JPG",
+      "replacement": "/assets/wuwa-estate-14.jpg",
+      "reason": "clearer complete model view",
+      "assetPreserved": true
+    },
+    {
+      "asset": "/assets/wuwa-estate-04.jpg",
+      "sourceFile": "IMG_4589.JPG",
+      "replacement": "/assets/wuwa-estate-11.jpg",
+      "reason": "unobstructed building exterior",
+      "assetPreserved": true
+    },
+    {
+      "asset": "/assets/wuwa-estate-01.jpg",
+      "replacement": "/assets/wuwa-estate-21.jpg",
+      "sourceFile": "Firefly_Gemini Flash_בזר את אשתי מהתמונה הזו 596359.jpg",
+      "reason": "new unedited original entrance-sign view",
+      "assetPreserved": true
+    }
+  ],
+  "excludedSources": [
+    {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.34.31 (1).jpeg",
+      "reason": "Street signs identify Stare Bałuty/Zgierska/Limanowskiego, unrelated to estate; not enough sourceidentity for estate."
+    },
+    {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.34.30.jpeg",
+      "reason": "Toilet-door close-up adds no useful destinationcontext."
+    },
+    {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 19.02.58 (4).jpeg",
+      "reason": "Near duplicate café-terrace tramview; choose(5) with cafétablecontext."
+    }
+  ],
+  "cafeCanonicalPlaceId": "wuwa",
+  "cafeGallery": [
+    "/assets/wuwa-estate-18.jpg",
+    "/assets/wuwa-estate-19.jpg",
+    "/assets/wuwa-estate-20.jpg"
+  ]
+}

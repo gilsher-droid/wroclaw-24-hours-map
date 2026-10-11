@@ -8,7 +8,7 @@ test('every video waiting for quota has a working localized pending state with n
  const window={};const document={documentElement:{lang:'en'}};
  for(const file of ['data/youtube-video-hosting.js','youtube-video.js'])runInNewContext(readFileSync(resolve(root,file),'utf8'),{window,document});
  const records=Object.entries(window.WROC_YOUTUBE_VIDEO_HOSTING);
- assert.equal(records.length,35);
+ assert.equal(records.length,Object.keys(JSON.parse(readFileSync(resolve(root,"data/youtube-media-migration.json"),"utf8"))).length);
  for(const [src,item]of records){
   for(const lang of ['he','en','de','cs','pl']){
    const html=window.WROC_YOUTUBE_VIDEO.html(src,item.title,lang);

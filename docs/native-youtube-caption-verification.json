@@ -76,6 +76,30 @@
         "language": "he",
         "kind": "automatic"
       }
+    },
+    {
+      "place": "wuwa-estate",
+      "videos": {
+        "en": "4EnO5yNkQxc",
+        "he": "tEbmB6OWe90"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-11",
+      "method": "YouTube Studio published translations rows verified",
+      "sharedCanonicalPlaceIds": [
+        "wuwa-estate",
+        "wuwa"
+      ],
+      "sharingReason": "Human2026-10-11 confirms the same guide also discusses the cafe, with cafe-only gallery."
     }
   ]
 }
