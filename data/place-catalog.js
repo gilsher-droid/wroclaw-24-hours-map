@@ -25274,6 +25274,55 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/reel/DeWyP7ugQcO/",
+        "verifiedAt": "2026-10-11T13:47:54.230072+00:00",
+        "context": "native-language-guide",
+        "account": "wroclaw.lowersilesia.de"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/reel/1495527859295815/",
+        "verifiedAt": "2026-10-11T13:47:54.230071+00:00",
+        "context": "native-language-guide",
+        "account": "61595239823399"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/reel/DeWy1l6hun1/",
+        "verifiedAt": "2026-10-11T13:47:54.230068+00:00",
+        "context": "native-language-guide",
+        "account": "wroclaw.lowersilesia"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/reel/2839486733089503",
+        "verifiedAt": "2026-10-11T13:47:54.229914+00:00",
+        "context": "native-language-guide",
+        "account": "61591964083308"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/reel/1065198726348075",
+        "verifiedAt": "2026-10-11T13:39:06.363Z",
+        "context": "native-language-guide",
+        "account": "Wroc-Love Wrocław & Lower Silesia",
+        "ownerPageId": "61595036942289"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeWwwEGoSad/",
+        "verifiedAt": "2026-10-11T13:29:01.786Z",
+        "context": "native-language-guide",
+        "account": "wroclaw.lowersilesia.he"
+      },
+      {
         "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JiyDq4xbnzy5CyJKtWVdQz3PnXXXJR4ZzGAqbW3HntH3pqoP5w3rPTATjvwdJQfEl&id=61595239823399",

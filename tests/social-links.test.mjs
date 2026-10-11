@@ -29,7 +29,12 @@ test("every canonical social item remains a direct Facebook or Instagram link", 
   assert.ok(uniqueUrls.size >= 57, "preserve all historical links while adding localized posts");
   const localized = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"));
   for (const [id, posts] of Object.entries(localized)) {
-    for (const post of posts) assert.equal(catalog.getSocialPost(catalog.getPlace(id), post.platform, post.language).url, post.url);
+    for (const post of posts) {
+      const place = catalog.getPlace(id);
+      assert.ok(place.socialPosts.some(item => item.platform === post.platform && item.url === post.url), `${id}: retain every verified historical post`);
+      const preferred = posts.find(item => item.platform === post.platform && item.language === post.language);
+      assert.equal(catalog.getSocialPost(place, post.platform, post.language).url, preferred.url, `${id}: route to the first verified matching-language post`);
+    }
   }
 });
 

@@ -51,3 +51,25 @@ test("WuWA café Lifestyle video modal resolves the verified Public YouTube clip
  const build=readFileSync(resolve(root,"build-static.mjs"),"utf8");
  assert.match(build,/scripts = await Promise.all\(\[.*"\/data\/youtube-video-hosting\.js"/);
 });
+
+test("WuWA Hebrew estate opens the verified guide reel while the café keeps its exact café photo post",()=>{
+ const window={};
+ runInNewContext(readFileSync(resolve(root,"data/place-catalog.js"),"utf8"),{window});
+ const estate=window.WROC_CATALOG.getPlace("wuwa-estate");
+ const cafe=window.WROC_CATALOG.getPlace("wuwa");
+ assert.equal(window.WROC_CATALOG.getSocialPost(estate,"instagram","he").url,"https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeWwwEGoSad/");
+ assert.equal(window.WROC_CATALOG.getSocialPost(cafe,"instagram","he").url,"https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUv_EEkU6W/");
+ assert.equal(window.WROC_CATALOG.getSocialPost(estate,"facebook","en").url,"https://www.facebook.com/reel/1065198726348075");
+ assert.ok(window.WROC_CATALOG.getSocialPost(cafe,"facebook","en").url.includes("pfbid02HdjiayM8Wsxbz17y6gU7ThBTokKsUrckz5QK8D5n9mUPxtKPgDZ64TWidZFb6s7bl"));
+ assert.ok(estate.socialPosts.some(p=>p.platform==="instagram"&&p.language==="en"&&p.url==="https://www.instagram.com/p/DeMbjvQjkfH/"));
+});
+
+
+test("WuWA estate routes to verified new guide posts in Hebrew, English and German without discarding previous posts",()=>{
+ const window={};
+ runInNewContext(readFileSync(resolve(root,"data/place-catalog.js"),"utf8"),{window});
+ const estate=window.WROC_CATALOG.getPlace("wuwa-estate");
+ const expected={he:{facebook:"https://www.facebook.com/reel/2839486733089503",instagram:"https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeWwwEGoSad/"},en:{facebook:"https://www.facebook.com/reel/1065198726348075",instagram:"https://www.instagram.com/wroclaw.lowersilesia/reel/DeWy1l6hun1/"},de:{facebook:"https://www.facebook.com/reel/1495527859295815/",instagram:"https://www.instagram.com/reel/DeWyP7ugQcO/"}};
+ for(const [lang,platforms] of Object.entries(expected))for(const [platform,url] of Object.entries(platforms))assert.equal(window.WROC_CATALOG.getSocialPost(estate,platform,lang).url,url);
+ assert.ok(estate.socialPosts.some(p=>p.url==="https://www.instagram.com/p/DeMbjvQjkfH/"));
+});
