@@ -24606,18 +24606,18 @@
     "id": "wuwa",
     "localName": "WUWA Café",
     "name": {
-      "he": "WUWA Café – רק אם יוצאים מזרחה",
-      "en": "WUWA Café – only if heading east",
-      "pl": "WUWA Café – tylko przy wyjeździe na wschód",
-      "de": "WUWA Café – nur wenn Sie nach Osten fahren",
-      "cs": "WUWA Café – pouze pokud míříte na východ"
+      "he": "בית הקפה בשכונת וו־ווה",
+      "en": "WuWA Café",
+      "pl": "Kawiarnia WuWA",
+      "de": "WuWA Café",
+      "cs": "Kavárna WuWA"
     },
     "description": {
-      "he": "בית קפה נעים ליד Hala Stulecia; הגיעו בחשמלית או במונית.",
-      "en": "A pleasant café near Centennial Hall; use a tram or taxi.",
-      "pl": "Przyjemna kawiarnia przy Hali Stulecia; dojedźcie tramwajem lub taksówką.",
-      "de": "Ein angenehmes Café in der Nähe der Centennial Hall; Verwenden Sie eine Straßenbahn oder ein Taxi.",
-      "cs": "Příjemná kavárna poblíž Centennial Hall; použít tramvaj nebo taxi."
+      "he": "עצירה לקפה ועוגה בשכונת המגורים הניסיונית, עם מקום ישיבה בחוץ.",
+      "en": "A coffee and cake stop at the experimental housing estate, with outdoor seating.",
+      "pl": "Przerwa na kawę i ciasto na osiedlu eksperymentalnym, z miejscami na zewnątrz.",
+      "de": "Eine Pause für Kaffee und Kuchen in der experimentellen Wohnsiedlung, mit Sitzplätzen im Freien.",
+      "cs": "Zastávka na kávu a dort na experimentálním sídlišti, s venkovním posezením."
     },
     "location": {
       "countryCode": "PL",
@@ -24629,11 +24629,18 @@
       }
     },
     "categories": [
-      "cafe"
+      "cafe",
+      "drink",
+      "eat"
     ],
     "sourceUrls": [],
     "aliases": [],
     "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "wuwa"
+      },
       {
         "productId": "wroclaw-christmas",
         "kind": "recommendation",
@@ -24641,6 +24648,12 @@
       }
     ],
     "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "wuwa",
+        "lat": 51.10709,
+        "lng": 17.0873
+      },
       {
         "productId": "wroclaw-christmas",
         "sourceId": "wuwa",
@@ -24652,7 +24665,9 @@
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
-        "cafe"
+        "cafe",
+        "drink",
+        "eat"
       ],
       "tags": []
     },
