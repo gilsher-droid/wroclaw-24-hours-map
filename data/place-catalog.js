@@ -24685,8 +24685,18 @@
       }
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/wuwa-estate-18.jpg",
+        "/assets/wuwa-estate-19.jpg",
+        "/assets/wuwa-estate-20.jpg"
+      ],
+      "videos": [
+        "/assets/wuwa-cafe-visit-01.mp4"
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/tEbmB6OWe90",
+        "en": "https://youtube.com/shorts/4EnO5yNkQxc"
+      }
     },
     "socialPosts": [
       {
@@ -24865,10 +24875,19 @@
     },
     "media": {
       "photos": [
-        "/assets/wuwa-estate-01.jpg",
+        "/assets/wuwa-estate-14.jpg",
+        "/assets/wuwa-estate-21.jpg",
+        "/assets/wuwa-estate-11.jpg",
+        "/assets/wuwa-estate-12.jpg",
+        "/assets/wuwa-estate-13.jpg",
+        "/assets/wuwa-estate-15.jpg",
+        "/assets/wuwa-estate-22.jpg",
+        "/assets/wuwa-estate-16.jpg",
+        "/assets/wuwa-estate-17.jpg",
+        "/assets/wuwa-estate-18.jpg",
+        "/assets/wuwa-estate-19.jpg",
+        "/assets/wuwa-estate-20.jpg",
         "/assets/wuwa-estate-02.jpg",
-        "/assets/wuwa-estate-03.jpg",
-        "/assets/wuwa-estate-04.jpg",
         "/assets/wuwa-estate-05.jpg",
         "/assets/wuwa-estate-06.jpg",
         "/assets/wuwa-estate-07.jpg",
@@ -24876,19 +24895,93 @@
         "/assets/wuwa-estate-09.jpg",
         "/assets/wuwa-estate-10.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "/assets/wuwa-cafe-visit-01.mp4",
+        "/assets/wuwa-estate-visit-01.mp4",
+        "/assets/wuwa-estate-visit-02.mp4",
+        "/assets/wuwa-estate-visit-03.mp4",
+        "/assets/wuwa-estate-visit-04.mp4",
+        "/assets/wuwa-estate-visit-05.mp4",
+        "/assets/wuwa-estate-visit-06.mp4",
+        "/assets/wuwa-estate-visit-07.mp4"
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/tEbmB6OWe90",
+        "en": "https://youtube.com/shorts/4EnO5yNkQxc"
+      },
       "metadata": {
-        "/assets/wuwa-estate-01.jpg": {
+        "/assets/wuwa-estate-visit-01.mp4": {
           "tags": [
             "wuwa",
-            "entrance-sign",
-            "architecture",
-            "hero"
+            "visit-clip"
           ],
           "original": true,
-          "editedToRemovePeople": true,
-          "heroCandidate": true,
-          "sourceFile": "Firefly_Gemini Flash_בזר את אשתי מהתמונה הזו 596359.jpg"
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.33.50.mp4",
+          "sourceSha256": "45cd628a34b22b2325190627b1947df68fbb8f18efc8730607d8a05a67505553"
+        },
+        "/assets/wuwa-estate-visit-02.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.33.54.mp4",
+          "sourceSha256": "3d4f09848c8f587550cc2a04bbc5daf2a0b37279995b8dba4c45b64b396eb2ae"
+        },
+        "/assets/wuwa-estate-visit-03.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.01.mp4",
+          "sourceSha256": "c7066316e231fb008e298e76e22f2948df0e88b170071780429028a788285a30"
+        },
+        "/assets/wuwa-estate-visit-04.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.02.mp4",
+          "sourceSha256": "0ba0ca75b8d60a0bf7e4d8896ea0fe70999305f967753cbfcc8a70c3f9ff0e0f"
+        },
+        "/assets/wuwa-estate-visit-05.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.22.mp4",
+          "sourceSha256": "4f1a5faf3c4e549683d5e32d57112304bd968f9469aa5d8fa4a26907efecbcbd"
+        },
+        "/assets/wuwa-estate-visit-06.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.23.mp4",
+          "sourceSha256": "3673c702ad4035608c7ec88fe0a4291ec255ed2c05a97f023b48174dd11cd9a0"
+        },
+        "/assets/wuwa-estate-visit-07.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.26.mp4",
+          "sourceSha256": "a3f32558cd113c206155ade57902cf3b5eb5435735c09b3ee889e4930349c11c"
+        },
+        "/assets/wuwa-cafe-visit-01.mp4": {
+          "tags": [
+            "wuwa-cafe",
+            "visitor-stop",
+            "tram"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.30.mp4",
+          "sourceSha256": "f6ebd79d501c4ca6c6e140f72fffff64b98e93cef7e6ef725c3b8d1b33114dae"
         },
         "/assets/wuwa-estate-02.jpg": {
           "tags": [
@@ -24900,24 +24993,6 @@
           "original": true,
           "editedToRemovePeople": true,
           "sourceFile": "Untitled - 19 July 2026 at 11.40.26.jpeg"
-        },
-        "/assets/wuwa-estate-03.jpg": {
-          "tags": [
-            "wuwa",
-            "architecture-model",
-            "visitor-information"
-          ],
-          "original": true,
-          "sourceFile": "IMG_4587.JPG"
-        },
-        "/assets/wuwa-estate-04.jpg": {
-          "tags": [
-            "wuwa",
-            "park-hotel",
-            "modernist-architecture"
-          ],
-          "original": true,
-          "sourceFile": "IMG_4589.JPG"
         },
         "/assets/wuwa-estate-05.jpg": {
           "tags": [
@@ -24972,6 +25047,213 @@
           ],
           "original": true,
           "sourceFile": "WhatsApp Image 2026-07-18 at 11.41.26.jpeg"
+        },
+        "/assets/wuwa-estate-11.jpg": {
+          "tags": [
+            "wuwa",
+            "park-hotel",
+            "modernist-architecture"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.49.jpeg",
+          "sourceSha256": "ec4b039c6cf612b16fb2491e3c9755a324fad58048e8203457d58e3414eeab9f",
+          "alt": {
+            "he": "חזית המלון בשכונת המגורים הניסיונית",
+            "en": "Park Hotel facade at the experimental housing estate",
+            "pl": "Fasada Park Hotelu na osiedlu eksperymentalnym",
+            "de": "Fassade des Park Hotels in der experimentellen Wohnsiedlung",
+            "cs": "Průčelí Park Hotelu na experimentálním sídlišti"
+          }
+        },
+        "/assets/wuwa-estate-12.jpg": {
+          "tags": [
+            "wuwa",
+            "modernist-architecture",
+            "residential-facade"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.53 (1).jpeg",
+          "sourceSha256": "b4c0395b636e8d58748ad4377322309a59f943abd777fdc180d0dd6519c1b3b7",
+          "alt": {
+            "he": "חזית מגורים מודרניסטית לצד הרחוב",
+            "en": "Modernist residential facade beside the street",
+            "pl": "Modernistyczna fasada mieszkalna przy ulicy",
+            "de": "Modernistische Wohnhausfassade an der Straße",
+            "cs": "Modernistické průčelí obytného domu u ulice"
+          }
+        },
+        "/assets/wuwa-estate-13.jpg": {
+          "tags": [
+            "wuwa",
+            "modernist-architecture",
+            "blue-window-band"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.57 (1).jpeg",
+          "sourceSha256": "7f0f8ee219315805703a32d5e120ad833784c1f0bb257d45b726f5d2c74f1f6a",
+          "alt": {
+            "he": "בית מודרניסטי עם פס כחול וחלונות אופקיים",
+            "en": "Modernist house with a blue band and horizontal windows",
+            "pl": "Modernistyczny dom z niebieskim pasem i poziomymi oknami",
+            "de": "Modernistisches Haus mit blauem Band und horizontalen Fenstern",
+            "cs": "Modernistický dům s modrým pásem a vodorovnými okny"
+          }
+        },
+        "/assets/wuwa-estate-14.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-model",
+            "visitor-information",
+            "hero"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.58 (1).jpeg",
+          "sourceSha256": "035a5c6c220bf1d59cc77f1b304e8a3cca1b00c1a2a515b90f47bd6fbcbad440",
+          "alt": {
+            "he": "הדגם האדריכלי של שכונת המגורים הניסיונית",
+            "en": "Architectural model of the experimental housing estate",
+            "pl": "Model architektoniczny osiedla eksperymentalnego",
+            "de": "Architekturmodell der experimentellen Wohnsiedlung",
+            "cs": "Architektonický model experimentálního sídliště"
+          },
+          "heroCandidate": true
+        },
+        "/assets/wuwa-estate-15.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-model",
+            "detail"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.58 (3).jpeg",
+          "sourceSha256": "19da5cae8c8424bd724f5af124c828a4988cfd9860a7f828304b676b20b0538a",
+          "alt": {
+            "he": "פרט של בתים טוריים בדגם האדריכלי",
+            "en": "Detail of terraced houses in the architectural model",
+            "pl": "Detal domów szeregowych w modelu architektonicznym",
+            "de": "Detail der Reihenhäuser im Architekturmodell",
+            "cs": "Detail řadových domů v architektonickém modelu"
+          }
+        },
+        "/assets/wuwa-estate-16.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-exhibition",
+            "visitor-information"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.34.25 (1).jpeg",
+          "sourceSha256": "956724f26b5394ec99f9fd6c3f5fb34cc010938102f1110e09383f46417bf399",
+          "alt": {
+            "he": "לוחות תצוגה של תערוכת אדריכלות בחוץ",
+            "en": "Outdoor architecture exhibition display panels",
+            "pl": "Plansze plenerowej wystawy architektonicznej",
+            "de": "Tafeln einer Architekturausstellung im Freien",
+            "cs": "Panely venkovní výstavy architektury"
+          }
+        },
+        "/assets/wuwa-estate-17.jpg": {
+          "tags": [
+            "wuwa",
+            "modernist-architecture",
+            "landscape"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.34.25.jpeg",
+          "sourceSha256": "a831d4a065e33e882937ffdfb9a99228aced1d4bae75d12471259a544eeb007c",
+          "alt": {
+            "he": "בניין מגורים מודרניסטי לצד ערוגות וגינה",
+            "en": "Modernist residential building beside planted beds and a garden",
+            "pl": "Modernistyczny budynek mieszkalny przy rabatach i ogrodzie",
+            "de": "Modernistisches Wohngebäude neben Pflanzbeeten und Garten",
+            "cs": "Modernistický obytný dům u záhonů a zahrady"
+          }
+        },
+        "/assets/wuwa-estate-18.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "food",
+            "visitor-stop"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.26.10 (2).jpeg",
+          "sourceSha256": "d98d3d1cc92ae595c5dc038114d73388f3dd367a148ba3778741d29e496bc508",
+          "alt": {
+            "he": "עוגה וקפה בהפסקה בבית הקפה של השכונה",
+            "en": "Cake and coffee during a stop at WuWA café",
+            "pl": "Ciasto i kawa podczas przerwy w kawiarni WuWA",
+            "de": "Kuchen und Kaffee bei einer Pause im WuWA Café",
+            "cs": "Dort a káva během zastávky v kavárně WuWA"
+          }
+        },
+        "/assets/wuwa-estate-19.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "terrace",
+            "visitor-stop"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 19.02.58.jpeg",
+          "sourceSha256": "331dacf2341a96e0890d90e6e6dd4086a79115b4bc49f269648d5f3ab62faadb",
+          "alt": {
+            "he": "כיסא נוח ממותג בבית הקפה של השכונה",
+            "en": "Branded deckchair at WuWA café",
+            "pl": "Leżak z logo kawiarni WuWA",
+            "de": "Liegestuhl mit dem Logo des WuWA Cafés",
+            "cs": "Lehátko s logem kavárny WuWA"
+          }
+        },
+        "/assets/wuwa-estate-20.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "terrace",
+            "tram",
+            "visitor-stop"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 19.02.58 (5).jpeg",
+          "sourceSha256": "6bd89e0faba3b34f33db8c5712531013d78f8094a8ec35dad40c5a021ac2c41b",
+          "alt": {
+            "he": "מבט מהמרפסת של בית הקפה אל החשמלית הכחולה",
+            "en": "View from the WuWA café terrace towards a blue tram",
+            "pl": "Widok z tarasu kawiarni WuWA na niebieski tramwaj",
+            "de": "Blick von der Terrasse des WuWA Cafés auf eine blaue Straßenbahn",
+            "cs": "Pohled z terasy kavárny WuWA na modrou tramvaj"
+          }
+        },
+        "/assets/wuwa-estate-21.jpg": {
+          "tags": [
+            "wuwa",
+            "entrance-sign",
+            "architecture"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.53.jpeg",
+          "sourceSha256": "b835c68f7b5e7df7e52a0790929b00ebf86fdf2876997ed19a339a4f2d832e09",
+          "alt": {
+            "he": "שלט הכניסה הלבן של שכונת המגורים בין העצים",
+            "en": "White WuWA entrance sign among the trees",
+            "pl": "Biały napis WuWA przy wejściu wśród drzew",
+            "de": "Weißer WuWA Schriftzug am Eingang zwischen den Bäumen",
+            "cs": "Bílý nápis WuWA u vstupu mezi stromy"
+          }
+        },
+        "/assets/wuwa-estate-22.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-model",
+            "curved-building-detail"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.59 (1).jpeg",
+          "sourceSha256": "37a77bf619d64de1d950867b562642cd916e0ef8ea61a1ec23d7b0090bfb0032",
+          "alt": {
+            "he": "פרט של מבנה מעוגל בדגם האדריכלי של השכונה",
+            "en": "Curved building detail in the estate architectural model",
+            "pl": "Detal zakrzywionego budynku w modelu architektonicznym osiedla",
+            "de": "Detail eines gebogenen Gebäudes im Architekturmodell der Siedlung",
+            "cs": "Detail zakřivené budovy v architektonickém modelu sídliště"
+          }
         }
       }
     },

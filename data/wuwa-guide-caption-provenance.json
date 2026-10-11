@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "wuwa-estate",
+    "wuwa"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "playback": "Native YouTube captions; Hebrew edition for he, English edition for en/de/cs/pl; original portrait video/audio preserved. No burned-caption new video or raw source is shipped.",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/המדריך שלנו/המדריך שלנו - עברית - שכונת וו וה.mp4",
+      "sourceSHA256": "a0281b24271eda1628cda7ee33d2793c8e86b5aacda10b1f5ef8c5e31fc4679d",
+      "videoId": "tEbmB6OWe90",
+      "visibility": "Public",
+      "verifiedAt": "2026-10-11",
+      "durationSeconds": 87.4
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/המדריך שלנו/המדריך שלנו - אנגלית - שכונת וו - ווה.mp4",
+      "sourceSHA256": "fb37432e98012cf396686e9098e5c41c671ac43d785e3e4c4929eec4dfb0e77b",
+      "videoId": "4EnO5yNkQxc",
+      "visibility": "Public",
+      "verifiedAt": "2026-10-11",
+      "durationSeconds": 93.765
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "srtFile": "docs/native-youtube-captions/wuwa/he.srt",
+      "srtSHA256": "2749c699b2a28cbfb50e480e797636fa7ca2fc071919527df5b83e571b6240a9",
+      "status": "Published",
+      "verification": "YouTube Studio published rows checked by root2026-10-11",
+      "cues": [
+        {
+          "start": 0.0,
+          "end": 9.0,
+          "text": "דז׳ין דוברי, ברוכים הבאים שוב לוורוצלב ושלזיה התחתית."
+        },
+        {
+          "start": 9.7,
+          "end": 21.2,
+          "text": "אז אחרי שביקרנו בהיכל המאה, מבנה מונומנטלי,\nבמרחק של כמה דקות הליכה אנחנו מגיעים לפרויקט משנת 1929 שנקרא וו־ווה."
+        },
+        {
+          "start": 21.96,
+          "end": 27.26,
+          "text": "וו־ווה זה קיצור בגרמנית של\nWohnung und Werkraum."
+        },
+        {
+          "start": 27.26,
+          "end": 36.14,
+          "text": "הגרמנית שלי היא לא משהו, אבל מה שזה אמור להגיד\nזה בעצם מרחב מחיה ומרחב עבודה משולבים זה בזה."
+        },
+        {
+          "start": 36.46,
+          "end": 39.4,
+          "text": "זה פרויקט אדריכלות משנת 1929."
+        },
+        {
+          "start": 40.06,
+          "end": 49.92,
+          "text": "כמו שאתם יכולים לראות, סגנון האדריכלות הוא מודרניסטי,\nקצת מזכיר את הבאוהאוס שיש לנו בתל אביב."
+        },
+        {
+          "start": 49.92,
+          "end": 62.38,
+          "text": "ובעצם אתם יכולים להסתובב בשכונה הזאת בין בתים,\nבתים שבהם אנשים גרים, וגני ילדים שנבנו במסגרת הפרויקט הזה."
+        },
+        {
+          "start": 62.76,
+          "end": 70.96,
+          "text": "אני ממליץ בסוף לעבור דרך בית קפה נפלא שנקרא וו־ווה קפה,\nשמציע מאפים, עוגות וקפה נהדר."
+        },
+        {
+          "start": 71.22,
+          "end": 78.1,
+          "text": "ושם גם אפשר לקבל את הפרוספקט הזה של וו־ווה,\nשבעצם מדריך אתכם על כל המבנים שיש בשכונה"
+        },
+        {
+          "start": 78.1,
+          "end": 86.46,
+          "text": "ומסביר לכל מבנה מה הרעיון מאחוריו ולמה הוא מיועד.\nנתראה בתחנה הבאה."
+        }
+      ]
+    },
+    "en": {
+      "edition": "en",
+      "srtFile": "docs/native-youtube-captions/wuwa/en.srt",
+      "srtSHA256": "bc95a691e6f86af7ae3fdd57e80f129a1b91099f002d18a01ff1dfe8a5792451",
+      "status": "Published",
+      "verification": "YouTube Studio published rows checked by root2026-10-11",
+      "cues": [
+        {
+          "start": 2.4999999999999982,
+          "end": 7.38,
+          "text": "Dzień dobry, and welcome back to Wrocław and Lower Silesia."
+        },
+        {
+          "start": 7.88,
+          "end": 13.48,
+          "text": "So, after visiting Hala Stulecia, the Hall of the Century, which is a monumental structure,"
+        },
+        {
+          "start": 14.28,
+          "end": 20.08,
+          "text": "a few minutes walking will lead us to this amazing neighbourhood called WuWA."
+        },
+        {
+          "start": 20.68,
+          "end": 29.04,
+          "text": "WuWA is short in German for Wohnung und Werkraum, which means living and working."
+        },
+        {
+          "start": 29.599999999999998,
+          "end": 38.38,
+          "text": "This is a project from 1929 in which famous architects built all of these amazing structures"
+        },
+        {
+          "start": 38.38,
+          "end": 48.32,
+          "text": "in a modernist way, and offered structures for living and working mixed with each other."
+        },
+        {
+          "start": 49.14,
+          "end": 53.68,
+          "text": "Today you are invited just to stroll around all of these amazing structures."
+        },
+        {
+          "start": 53.82,
+          "end": 58.22,
+          "text": "Some of them are kindergartens, some of them are homes in which people live,"
+        },
+        {
+          "start": 58.22,
+          "end": 62.66,
+          "text": "and you can just walk between all of these amazing structures."
+        },
+        {
+          "start": 63.2,
+          "end": 71.12,
+          "text": "I recommend, at the end of your visit, going to WuWA Café, which offers great pastries and coffee."
+        },
+        {
+          "start": 71.12,
+          "end": 77.66,
+          "text": "And over there you can also get this brochure that shows you all the different structures"
+        },
+        {
+          "start": 77.66,
+          "end": 87.52,
+          "text": "that you can find in WuWA, with an explanation about the architects and the objective of each"
+        },
+        {
+          "start": 87.52,
+          "end": 92.74,
+          "text": "structure. See you at our next stop."
+        }
+      ]
+    },
+    "de": {
+      "edition": "en",
+      "srtFile": "docs/native-youtube-captions/wuwa/de.srt",
+      "srtSHA256": "012b04e3ad3d7d8cae9602425fa11fa9d2811d5c81b4aa00a7ed937eb947e969",
+      "status": "Published",
+      "verification": "YouTube Studio published rows checked by root2026-10-11",
+      "cues": [
+        {
+          "start": 2.4999999999999982,
+          "end": 7.38,
+          "text": "Guten Tag und willkommen zurück in Breslau und Niederschlesien."
+        },
+        {
+          "start": 7.88,
+          "end": 13.48,
+          "text": "Nach dem Besuch der Hala Stulecia, der monumentalen Jahrhunderthalle,"
+        },
+        {
+          "start": 14.28,
+          "end": 20.08,
+          "text": "erreichen wir nach wenigen Minuten zu Fuß dieses bemerkenswerte Viertel namens WuWA."
+        },
+        {
+          "start": 20.68,
+          "end": 29.04,
+          "text": "WuWA steht für „Wohnung und Werkraum“, also Wohnen und Arbeiten."
+        },
+        {
+          "start": 29.599999999999998,
+          "end": 38.38,
+          "text": "Dies ist ein Projekt von 1929, bei dem berühmte Architekten all diese bemerkenswerten Gebäude errichteten"
+        },
+        {
+          "start": 38.38,
+          "end": 48.32,
+          "text": "im modernistischen Stil und Wohn- und Arbeitsräume miteinander verbanden."
+        },
+        {
+          "start": 49.14,
+          "end": 53.68,
+          "text": "Heute können Sie einfach zwischen diesen bemerkenswerten Gebäuden spazieren gehen."
+        },
+        {
+          "start": 53.82,
+          "end": 58.22,
+          "text": "Einige sind Kindergärten, andere Wohnhäuser, in denen Menschen leben,"
+        },
+        {
+          "start": 58.22,
+          "end": 62.66,
+          "text": "und Sie können zwischen all diesen Gebäuden umhergehen."
+        },
+        {
+          "start": 63.2,
+          "end": 71.12,
+          "text": "Zum Abschluss empfehle ich das WuWA Café mit ausgezeichnetem Gebäck und Kaffee."
+        },
+        {
+          "start": 71.12,
+          "end": 77.66,
+          "text": "Dort erhalten Sie auch diese Broschüre, die die verschiedenen Gebäude vorstellt,"
+        },
+        {
+          "start": 77.66,
+          "end": 87.52,
+          "text": "die Sie in WuWA finden, mit Informationen über die Architekten und den Zweck jedes"
+        },
+        {
+          "start": 87.52,
+          "end": 92.74,
+          "text": "Gebäudes. Wir sehen uns am nächsten Halt."
+        }
+      ]
+    },
+    "cs": {
+      "edition": "en",
+      "srtFile": "docs/native-youtube-captions/wuwa/cs.srt",
+      "srtSHA256": "bf10f440d8d09b363dbed6380c8bfd0c0057fe61f2d8c31161c99bbd302599a8",
+      "status": "Published",
+      "verification": "YouTube Studio published rows checked by root2026-10-11",
+      "cues": [
+        {
+          "start": 2.4999999999999982,
+          "end": 7.38,
+          "text": "Dobrý den a vítejte zpět ve Vratislavi a Dolním Slezsku."
+        },
+        {
+          "start": 7.88,
+          "end": 13.48,
+          "text": "Po návštěvě Haly století, monumentální stavby,"
+        },
+        {
+          "start": 14.28,
+          "end": 20.08,
+          "text": "nás několik minut chůze zavede do této pozoruhodné čtvrti zvané WuWA."
+        },
+        {
+          "start": 20.68,
+          "end": 29.04,
+          "text": "WuWA je německá zkratka pro Wohnung und Werkraum, tedy bydlení a práci."
+        },
+        {
+          "start": 29.599999999999998,
+          "end": 38.38,
+          "text": "Jde o projekt z roku 1929, v němž slavní architekti postavili všechny tyto pozoruhodné budovy"
+        },
+        {
+          "start": 38.38,
+          "end": 48.32,
+          "text": "v modernistickém stylu a propojili prostory pro bydlení a práci."
+        },
+        {
+          "start": 49.14,
+          "end": 53.68,
+          "text": "Dnes se můžete mezi těmito pozoruhodnými budovami jednoduše procházet."
+        },
+        {
+          "start": 53.82,
+          "end": 58.22,
+          "text": "Některé slouží jako mateřské školy, jiné jsou domovy, kde lidé bydlí,"
+        },
+        {
+          "start": 58.22,
+          "end": 62.66,
+          "text": "a můžete se procházet mezi všemi těmito budovami."
+        },
+        {
+          "start": 63.2,
+          "end": 71.12,
+          "text": "Na závěr návštěvy doporučuji WuWA Café, které nabízí skvělé pečivo a kávu."
+        },
+        {
+          "start": 71.12,
+          "end": 77.66,
+          "text": "Tam si také můžete vzít tento prospekt, který představuje jednotlivé budovy,"
+        },
+        {
+          "start": 77.66,
+          "end": 87.52,
+          "text": "jež najdete ve WuWA, s vysvětlením o architektech a účelu každé"
+        },
+        {
+          "start": 87.52,
+          "end": 92.74,
+          "text": "budovy. Uvidíme se na naší další zastávce."
+        }
+      ]
+    },
+    "pl": {
+      "edition": "en",
+      "srtFile": "docs/native-youtube-captions/wuwa/pl.srt",
+      "srtSHA256": "7d14caae8afc3e94b40e55d024e4c5635a527fc88b51420c02c3a0d495605f8c",
+      "status": "Published",
+      "verification": "YouTube Studio published rows checked by root2026-10-11",
+      "cues": [
+        {
+          "start": 2.4999999999999982,
+          "end": 7.38,
+          "text": "Dzień dobry i witamy ponownie we Wrocławiu i na Dolnym Śląsku."
+        },
+        {
+          "start": 7.88,
+          "end": 13.48,
+          "text": "Po zwiedzeniu Hali Stulecia, monumentalnego obiektu,"
+        },
+        {
+          "start": 14.28,
+          "end": 20.08,
+          "text": "kilka minut spaceru doprowadzi nas do tego niezwykłego osiedla zwanego WuWA."
+        },
+        {
+          "start": 20.68,
+          "end": 29.04,
+          "text": "WuWA to niemiecki skrót od Wohnung und Werkraum, czyli mieszkanie i praca."
+        },
+        {
+          "start": 29.599999999999998,
+          "end": 38.38,
+          "text": "To projekt z 1929 roku, w którym znani architekci zbudowali wszystkie te niezwykłe obiekty"
+        },
+        {
+          "start": 38.38,
+          "end": 48.32,
+          "text": "w stylu modernistycznym, łącząc przestrzenie mieszkalne i miejsca pracy."
+        },
+        {
+          "start": 49.14,
+          "end": 53.68,
+          "text": "Dziś można po prostu spacerować wśród tych niezwykłych budynków."
+        },
+        {
+          "start": 53.82,
+          "end": 58.22,
+          "text": "Niektóre są przedszkolami, inne domami, w których mieszkają ludzie,"
+        },
+        {
+          "start": 58.22,
+          "end": 62.66,
+          "text": "i można przechadzać się pomiędzy wszystkimi tymi obiektami."
+        },
+        {
+          "start": 63.2,
+          "end": 71.12,
+          "text": "Na zakończenie wizyty polecam WuWA Café, które oferuje świetne wypieki i kawę."
+        },
+        {
+          "start": 71.12,
+          "end": 77.66,
+          "text": "Można tam również otrzymać ten prospekt przedstawiający poszczególne budynki,"
+        },
+        {
+          "start": 77.66,
+          "end": 87.52,
+          "text": "które znajdziecie na osiedlu WuWA, z informacjami o architektach i przeznaczeniu każdego"
+        },
+        {
+          "start": 87.52,
+          "end": 92.74,
+          "text": "obiektu. Do zobaczenia na naszym następnym przystanku."
+        }
+      ]
+    }
+  }
+}
