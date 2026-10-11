@@ -30,3 +30,24 @@ test("WuWA café is actually registered on Lifestyle with café-only media and s
   assert.match(window.WROC_GUIDE_VIDEO.embedUrlFor(url,lang),new RegExp(`cc_lang_pref=${lang}`));
  }
 });
+
+
+test("WuWA café Lifestyle video modal resolves the verified Public YouTube clip instead of pending",()=>{
+ const window={};
+ const content={innerHTML:""};
+ const modal={hidden:true,setAttribute(){},querySelector(){return {focus(){}};}};
+ const document={addEventListener(){},body:{style:{}},getElementById(id){return id==="media-content"?content:id==="media-modal"?modal:{textContent:""};}};
+ const context={window,document,console,language:"en",escapeHtml:s=>s,placeName:()=>"WuWA Café"};
+ for(const file of ["data/place-catalog.js","data/location-media.js","data/youtube-video-hosting.js","youtube-video.js"])
+  runInNewContext(readFileSync(resolve(root,file),"utf8"),context);
+ context.resources=window.WROC_LOCATION_MEDIA;
+ context.places=[{id:"wuwa",mediaKey:"wuwa",canonicalPlace:window.WROC_CATALOG.getPlace("wuwa")}];
+ const source=readFileSync(resolve(root,"lifestyle.js"),"utf8");
+ const body=source.slice(source.indexOf("  function openMedia("),source.indexOf("\n  function ",source.indexOf("  function openMedia(")+10));
+ runInNewContext(body+'openMedia("wuwa","video");',context);
+ assert.match(content.innerHTML,/youtube-nocookie\.com\/embed\/EYv9g8XlrdA/);
+ assert.ok(!content.innerHTML.includes("youtube-video-pending"));
+ assert.equal(modal.hidden,false);
+ const build=readFileSync(resolve(root,"build-static.mjs"),"utf8");
+ assert.match(build,/scripts = await Promise.all\(\[.*"\/data\/youtube-video-hosting\.js"/);
+});
