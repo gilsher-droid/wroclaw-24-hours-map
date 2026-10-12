@@ -33,14 +33,50 @@
     {
       "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5799.JPG",
       "asset": "assets/japanese-visit-07.jpg",
-      "assetSHA256": "94affdfa196aff198952b9d8a2d5bd2bdb5260a8ba3f869f8bdee4e05caf0bc2",
-      "visuallyVerified": true
+      "assetSHA256": "a01f9f391de267dc52f8eabe6652a3d5d697bbc5e9c35c95727a3c6e7df94cd7",
+      "visuallyVerified": true,
+      "sourceSHA256": "1f5f2026f7a3581bfe66fc92304fa5554525706fd8563a4b3f0811ffaebfec30",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "pixelMean": [
+        141.46818541666667,
+        140.09149322916667,
+        105.00425625
+      ],
+      "pixelStdDev": [
+        55.21738064533927,
+        55.765336000973875,
+        54.061905956360214
+      ],
+      "repair": "Re-export original photo with EXIF orientation; previous all-black derivative replaced Oct12",
+      "verifiedAt": "2026-10-12",
+      "visualCheck": "Full output displayed: stream/red bridge/ducks and wooden entrance gate/trees; actual nonblack pixels verified"
     },
     {
       "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5822.JPG",
       "asset": "assets/japanese-visit-08.jpg",
-      "assetSHA256": "2ae580345dc3d7a02e7902c13f170796407d92b54e09d4a2b8689e4c25a04b3c",
-      "visuallyVerified": true
+      "assetSHA256": "ae7326de8020ad07f7a0ab2d879030f0ed3a6168fa521c1c2a29100482a9f35a",
+      "visuallyVerified": true,
+      "sourceSHA256": "c1a037c543014bf2cb40715428d64eaf02e93ae95eded3308df1beac39183213",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "pixelMean": [
+        131.71413020833333,
+        124.06334479166667,
+        102.18917916666666
+      ],
+      "pixelStdDev": [
+        78.10502181440627,
+        74.24785323734307,
+        80.6112227233357
+      ],
+      "repair": "Re-export original photo with EXIF orientation; previous all-black derivative replaced Oct12",
+      "verifiedAt": "2026-10-12",
+      "visualCheck": "Full output displayed: stream/red bridge/ducks and wooden entrance gate/trees; actual nonblack pixels verified"
     }
   ],
   "publishedVideos": [
