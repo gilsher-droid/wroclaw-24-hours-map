@@ -27,6 +27,268 @@
   // geography explicitly; no city is inferred by the catalog generator.
   window.WROC_CANONICAL_PLACE_SOURCE = [
 {
+  "id": "zamek-topacz",
+  "aliases": [
+    "Zamek Topacz",
+    "Topacz Castle"
+  ],
+  "localName": "Zamek Topacz Resort & Art SPA",
+  "name": {
+    "he": "טירת טופץ׳",
+    "en": "Zamek Topacz",
+    "pl": "Zamek Topacz",
+    "de": "Schloss Topacz",
+    "cs": "Zámek Topacz"
+  },
+  "description": {
+    "he": "מתחם טירה היסטורי בשלנזה, עם מלון, מסעדות ומוזיאון מוטורי. פעילות האורות היא אירוע עונתי נפרד; בדקו כניסה וכרטיסים אצל המפעיל.",
+    "en": "Historic castle resort in Ślęza with a hotel, dining and a motor museum. The light park is a separate seasonal event; check entry and tickets with the operator.",
+    "pl": "Zabytkowy kompleks zamkowy w Ślęzie z hotelem, restauracjami i muzeum motoryzacji. Park iluminacji jest osobnym wydarzeniem sezonowym; sprawdź wejścia i bilety u organizatora.",
+    "de": "Historische Schlossanlage in Ślęza mit Hotel, Restaurants und Automobilmuseum. Der Lichterpark ist eine gesonderte Saisonveranstaltung; Einlass und Tickets beim Betreiber prüfen.",
+    "cs": "Historický zámecký areál ve Ślęze s hotelem, restauracemi a muzeem automobilů. Světelný park je samostatná sezonní akce; ověřte vstup a vstupenky u pořadatele."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "sleza",
+    "coordinates": {
+      "lat": 51.0359459,
+      "lng": 16.9891338
+    },
+    "address": {
+      "street": "Templariuszy 1",
+      "postalCode": "55-040",
+      "city": "Ślęza",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "castle",
+    "hotel",
+    "museum"
+  ],
+  "links": {
+    "website": "https://www.zamektopacz.pl/",
+    "navigation": {"googleMaps":"https://www.google.com/maps/search/?api=1&query=51.0359459%2C16.9891338","appleMaps":"https://maps.apple.com/?ll=51.0359459,16.9891338"}
+  },
+  "experiences": [
+    {
+      "id": "lumina-park-2026-10",
+      "type": "seasonal-event",
+      "name": {
+        "he": "עונת האורות בטירת טופץ׳ מתוכננת להיפתח ב־16 באוקטובר",
+        "en": "Lumina Park at Zamek Topacz: opening planned for 16 October",
+        "pl": "Lumina Park w Zamku Topacz: otwarcie planowane na 16 października",
+        "de": "Lumina Park am Schloss Topacz: Eröffnung für 16. Oktober angekündigt",
+        "cs": "Lumina Park na zámku Topacz: otevření plánováno na 16. října"
+      },
+      "startDate": "2026-10-16",
+      "endDate": "2027-02-14",
+      "status": "announced",
+      "sourceUrl": "https://luminapark.pl/wroclaw/",
+      "verifiedAt": "2026-10-12"
+    }
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://www.zamektopacz.pl/kontakt/skontaktuj-sie",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "type": "official",
+        "url": "https://luminapark.pl/wroclaw/",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "https://www.zamektopacz.pl/kontakt/skontaktuj-sie",
+      "method": "Operator GeoCoordinates in JSON-LD; resort location, not seasonal event entrance.",
+      "checkedAt": "2026-10-12"
+    },
+    "seasonalEntrance": {
+      "pedestrian": "https://maps.app.goo.gl/3PuTRCS3DwTJATzx6",
+      "note": "Lumina operator directs pedestrians via Templariuszy 1 and cars via Tulipanowa; use operator directions."
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "editorialPriority": "normal"
+},
+{
+  "id": "wroclaw-botanical-garden",
+  "aliases": [
+    "Ogród Botaniczny Uniwersytetu Wrocławskiego",
+    "Botanical Garden Wroclaw"
+  ],
+  "localName": "Ogród Botaniczny Uniwersytetu Wrocławskiego",
+  "name": {
+    "he": "הגן הבוטני בוורוצלב",
+    "en": "Wrocław Botanical Garden",
+    "pl": "Ogród Botaniczny we Wrocławiu",
+    "de": "Botanischer Garten Breslau",
+    "cs": "Botanická zahrada ve Vratislavi"
+  },
+  "description": {
+    "he": "הגן הבוטני של אוניברסיטת ורוצלב, ליד אוסטרוב טומסקי. בדקו את שעות הפעילות והאירועים העונתיים באתר הגן.",
+    "en": "The University of Wrocław Botanical Garden near Ostrów Tumski. Check the garden website for opening hours and seasonal events.",
+    "pl": "Ogród Botaniczny Uniwersytetu Wrocławskiego przy Ostrowie Tumskim. Sprawdź godziny otwarcia i wydarzenia sezonowe na stronie ogrodu.",
+    "de": "Botanischer Garten der Universität Breslau nahe der Dominsel. Öffnungszeiten und Saisonveranstaltungen auf der Gartenseite prüfen.",
+    "cs": "Botanická zahrada Vratislavské univerzity poblíž Ostrówa Tumského. Otevírací dobu a sezonní akce ověřte na webu zahrady."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1159,
+      "lng": 17.0478
+    },
+    "address": {
+      "street": "Henryka Sienkiewicza 23",
+      "postalCode": "50-335",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "garden",
+    "nature"
+  ],
+  "links": {
+    "website": "https://www.ogrodbotaniczny.wroclaw.pl/",
+    "navigation": {"googleMaps":"https://www.google.com/maps/search/?api=1&query=51.1159%2C17.0478","appleMaps":"https://maps.apple.com/?ll=51.1159,17.0478"}
+  },
+  "experiences": [
+    {
+      "id": "pumpkin-illuminations-2026-10",
+      "type": "seasonal-event",
+      "name": {
+        "he": "דלעות מוארות בגן הבוטני: מתוכנן ל־13–18 באוקטובר",
+        "en": "Dyniowe Iluminacje: planned for 13–18 October at the Botanical Garden",
+        "pl": "Dyniowe Iluminacje: zaplanowane na 13–18 października w Ogrodzie Botanicznym",
+        "de": "Kürbisilluminationen im Botanischen Garten: für 13.–18. Oktober angekündigt",
+        "cs": "Dýňové iluminace v botanické zahradě: plánovány na 13.–18. října"
+      },
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-18",
+      "status": "announced",
+      "sourceUrl": "https://www.ogrodbotaniczny.wroclaw.pl/wydarzenia.html",
+      "verifiedAt": "2026-10-12"
+    }
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://www.ogrodbotaniczny.wroclaw.pl/kontakt.html",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "type": "official",
+        "url": "https://www.ogrodbotaniczny.wroclaw.pl/wydarzenia.html",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "https://www.ogrodbotaniczny.wroclaw.pl/kontakt.html",
+      "method": "GPS coordinates published by the university garden; garden location, not a claimed entrance.",
+      "checkedAt": "2026-10-12"
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "editorialPriority": "normal"
+},
+{
+  "id": "przystanek-kowary",
+  "aliases": [
+    "Przystanek Kowary",
+    "Muzeum Przystanek Kowary"
+  ],
+  "localName": "Muzeum Przystanek Kowary",
+  "name": {
+    "he": "מוזיאון תחנת קובארי",
+    "en": "Przystanek Kowary Museum",
+    "pl": "Muzeum Przystanek Kowary",
+    "de": "Museum Przystanek Kowary",
+    "cs": "Muzeum Przystanek Kowary"
+  },
+  "description": {
+    "he": "מוזיאון בתחנת הרכבת ההיסטורית בקובארי, המוקדש לכרייה, שטיחים ומורשת הרכבת המקומית. הכניסה דרך לשכת התיירות ברחוב דבורצובה 8, ללא תשלום, בימים שלישי–ראשון בשעות 08:00–16:00. מדריך קולי בפולנית, אנגלית, גרמנית וצ׳כית; בדקו שעות לפני ההגעה.",
+    "en": "Museum in Kowary’s historic railway station about mining, carpets and local railway heritage. Enter through Tourist Information at Dworcowa 8. Free admission, Tuesday–Sunday 08:00–16:00; audioguides in Polish, English, German and Czech. Check hours before visiting.",
+    "pl": "Muzeum w dawnym dworcu w Kowarach poświęcone górnictwu, dywanom i kolei. Wejście przez Informację Turystyczną przy Dworcowej 8. Wstęp wolny, wtorek–niedziela 8:00–16:00; audioguide po polsku, angielsku, niemiecku i czesku. Sprawdź godziny przed wizytą.",
+    "de": "Museum im historischen Bahnhof Kowary über Bergbau, Teppiche und Eisenbahngeschichte. Eingang über die Touristinformation, Dworcowa 8. Eintritt frei, Dienstag–Sonntag 08:00–16:00; Audioguides auf Polnisch, Englisch, Deutsch und Tschechisch. Öffnungszeiten vor dem Besuch prüfen.",
+    "cs": "Muzeum v historickém nádraží v Kowarech o hornictví, kobercích a železnici. Vstup přes turistické informace na Dworcowa 8. Vstup zdarma, úterý–neděle 08:00–16:00; audioprůvodci polsky, anglicky, německy a česky. Před návštěvou ověřte hodiny."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "kowary",
+    "coordinates": {
+      "lat": 50.79803,
+      "lng": 15.82576
+    },
+    "address": {
+      "street": "Dworcowa 8",
+      "postalCode": "58-530",
+      "city": "Kowary",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "museum",
+    "history"
+  ],
+  "links": {
+    "website": "https://turysta.kowary.pl/informacja-turystyczna/",
+    "navigation": {"googleMaps":"https://www.google.com/maps/search/?api=1&query=50.79803%2C15.82576","appleMaps":"https://maps.apple.com/?ll=50.79803,15.82576"}
+  },
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://turysta.kowary.pl/informacja-turystyczna/",
+        "checkedAt": "2026-10-12"
+      },
+      {
+        "type": "regional-tourism",
+        "url": "https://karkonosze.treespot.pl/de/item/print?category=80",
+        "checkedAt": "2026-10-12"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "https://karkonosze.treespot.pl/de/item/print?category=80",
+      "method": "Published GPS for Tourist Information at Dworcowa 8, the museum entrance explicitly identified by Kowary municipality.",
+      "checkedAt": "2026-10-12"
+    },
+    "openingDate": "2026-04-28",
+    "openingDateNote": "Municipality states museum operates from 28 April; earlier conversation stated 27 April. No new-opening claim published."
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "editorialPriority": "normal"
+},
+{
   "id": "arche-klasztor",
   "aliases": [
     "Arche Klasztor Wroclaw",

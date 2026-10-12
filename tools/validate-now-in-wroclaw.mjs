@@ -30,10 +30,13 @@ for (const item of window.WROC_NOW_IN_WROCLAW_ITEMS || []) {
   }
   if (!categories.has(item.category)) throw new Error(`${item.id} has unsupported category: ${item.category}`);
   if (!priorities.has(item.priority || "normal")) throw new Error(`${item.id} has unsupported priority: ${item.priority}`);
-  for (const field of ["startDate", "endDate"]) {
+  for (const field of ["startDate", "endDate", "eventStartDate", "eventEndDate", "verifiedAt"]) {
     if (item[field] && !validDate(item[field])) throw new Error(`${item.id} has invalid ${field}: ${item[field]}`);
   }
   if (item.startDate && item.endDate && item.startDate > item.endDate) throw new Error(`${item.id} ends before it starts`);
+  if (item.eventStartDate && item.eventEndDate && item.eventStartDate > item.eventEndDate) throw new Error(`${item.id} has reversed event dates`);
+  if (item.status && !["announced", "confirmed"].includes(item.status)) throw new Error(`${item.id} has invalid status`);
+  if (item.status === "confirmed" && item.verifiedAt && item.eventStartDate > item.verifiedAt) throw new Error(`${item.id} claims a future event is already open`);
   if (item.url) new URL(item.url);
   if (item.relatedCanonicalPlaceId && !window.WROC_CATALOG.getPlace(item.relatedCanonicalPlaceId)) {
     throw new Error(`${item.id} references missing Canonical Place: ${item.relatedCanonicalPlaceId}`);
