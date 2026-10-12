@@ -8716,6 +8716,13 @@
       },
       {
         "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeZ3S3gkbNr/",
+        "verifiedAt": "2026-10-12",
+        "owner": "wroclaw.lowersilesia.he"
+      },
+      {
+        "platform": "instagram",
         "url": "https://www.instagram.com/p/DbgCVSbnL0Q/",
         "routingExcluded": true
       }
