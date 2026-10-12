@@ -147,8 +147,10 @@
   }
 
   function resourcesFor(item) {
-    return item.resources || window.WROC_LOCATION_MEDIA?.[item.id]
+    const resources = item.resources || window.WROC_LOCATION_MEDIA?.[item.id]
       || window.WROC_LOCATION_MEDIA?.[item.canonicalPlaceId] || {};
+    return { ...resources, videos: resources.videos?.map((video, index) =>
+      typeof video === "string" ? { src: video, title: `${compactActionLabels[language].videos} ${index + 1}` } : video) };
   }
 
   const compactActionLabels = {

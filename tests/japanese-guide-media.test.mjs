@@ -24,3 +24,20 @@ test('Japanese Garden five manual caption tracks are published and match stored 
  const p=JSON.parse(readFileSync(resolve(root,'data/japanese-guide-caption-provenance.json'),'utf8'));
  for(const lang of ['he','en','de','cs','pl']){const t=p.tracks[lang];assert.equal(t.status,'Published');assert.equal(t.edition,lang==='he'?'he':'en');assert.equal(p.editions[t.edition].visibility,'Public');assert.equal(t.srtSHA256,createHash('sha256').update(readFileSync(resolve(root,t.srtFile))).digest('hex'));let end=0;for(const c of t.cues){assert.ok(c.start>=end&&c.end>c.start&&c.end<=p.editions[t.edition].durationSeconds);end=c.end;}}
 });
+
+test('four-day native visit modal resolves Japanese direct YouTube URLs and preserves titled video records',()=>{
+ const w=runtime(),place=w.WROC_CATALOG.getPlace('japanese');
+ const nodes={"video-player":{src:"",parentElement:{querySelector:()=>null},setAttribute(){}},"video-title":{textContent:""}};
+ const document={getElementById:id=>nodes[id],querySelectorAll:()=>[]};
+ const source=readFileSync(resolve(root,'premium.js'),'utf8');
+ const extract=name=>{const start=source.indexOf('  function '+name+'(');return source.slice(start,source.indexOf('\n  ',source.indexOf('\n  }',start)+5));};
+ const context={window:w,document,language:'en',compactActionLabels:{en:{videos:'Video'}},activeVideoLocation:{id:'japanese',name:'Japanese Garden',resources:{videos:place.media.videos}},activeVideoIndex:0,text:s=>s};
+ runInNewContext(extract('resourcesFor')+extract('renderVideo')+'renderVideo();',context);
+ assert.match(nodes['video-player'].src,/youtube-nocookie\.com\/embed\/Ni0GwsP-uMg/);
+ assert.equal(nodes['video-title'].textContent,'Japanese Garden — Video 1');
+ context.activeVideoIndex=1;runInNewContext('renderVideo();',context);
+ assert.match(nodes['video-player'].src,/youtube-nocookie\.com\/embed\/OMuXVtwAkAA/);
+ const titled={src:'https://youtube.com/shorts/Ni0GwsP-uMg',title:'Stream'};
+ context.activeVideoLocation.resources.videos=[titled];context.activeVideoIndex=0;runInNewContext('renderVideo();',context);
+ assert.equal(nodes['video-title'].textContent,'Japanese Garden — Stream');
+});
