@@ -226,7 +226,7 @@ test("every interactive map product exposes relevant social, photo and video res
   assert.match(media, /japanese: gallery\("japanese", 6\)/);
   assert.match(media, /facebook\.com\/61591964083308\/posts\/122109906747398802/);
   assert.match(media, /instagram\.com\/p\/DbgCVSbnL0Q/);
-  assert.match(media, /japanese: \{ facebook: facebook\.japanese, instagram: instagram\.japanese, gallery: galleries\.japanese \}/);
+  assert.match(media, /japanese: \{\s*facebook: facebook\.japanese,\s*instagram: instagram\.japanese,\s*gallery: \[\.\.\.galleries\.japanese,/);
   assert.match(media, /facebook\.com\/61591964083308\/posts\/122109914649398802/);
   assert.match(media, /instagram\.com\/p\/DbgEDzmnDcY/);
   assert.match(media, /university: \{ facebook: facebook\.university, instagram: instagram\.university, gallery: galleries\.university \}/);
