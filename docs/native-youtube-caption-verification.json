@@ -100,6 +100,25 @@
         "wuwa"
       ],
       "sharingReason": "Human2026-10-11 confirms the same guide also discusses the cafe, with cafe-only gallery."
+    },
+    {
+      "place": "japanese",
+      "videos": {
+        "en": "anSJzrqzqqg",
+        "he": "x39Gu8wchuA"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-12",
+      "method": "NativeYouTubeStudio Publishedmanualrows verified beforelinking"
     }
   ]
 }

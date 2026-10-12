@@ -297,5 +297,29 @@
       "wuwa-estate"
     ],
     "verifiedAt": "2026-10-11"
+  },
+  "https://youtube.com/shorts/Ni0GwsP-uMg": {
+    "title": "Japanese Garden, Wrocław | Stream and bridge | Visit clip 1 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/Ni0GwsP-uMg",
+    "sourceSHA256": "4b8c2911739d2dc708ef8535d114a5d53a7de99507736ca406b3b97db70b65a0",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5800.MOV",
+    "canonicalPlaceIds": [
+      "japanese"
+    ],
+    "verifiedAt": "2026-10-12",
+    "verification": "NativeStudioPublicselection+VideoPublishedconfirmed"
+  },
+  "https://youtube.com/shorts/OMuXVtwAkAA": {
+    "title": "Japanese Garden, Wrocław | Entrance gate | Visit clip 2 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/OMuXVtwAkAA",
+    "sourceSHA256": "abd2bb43eb2e4bdd57ab276740ef7a6c20aa46e08ea8752a3937999999b5a72e",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5823.MOV",
+    "canonicalPlaceIds": [
+      "japanese"
+    ],
+    "verifiedAt": "2026-10-12",
+    "verification": "NativeStudioPublicselection+VideoPublishedconfirmed"
   }
 }

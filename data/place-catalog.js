@@ -8646,9 +8646,18 @@
         "/assets/gallery-japanese-03.jpg",
         "/assets/gallery-japanese-04.jpg",
         "/assets/gallery-japanese-05.jpg",
-        "/assets/gallery-japanese-06.jpg"
+        "/assets/gallery-japanese-06.jpg",
+        "/assets/japanese-visit-07.jpg",
+        "/assets/japanese-visit-08.jpg"
       ],
-      "videos": []
+      "videos": [
+        "https://youtube.com/shorts/Ni0GwsP-uMg",
+        "https://youtube.com/shorts/OMuXVtwAkAA"
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/x39Gu8wchuA",
+        "en": "https://youtube.com/shorts/anSJzrqzqqg"
+      }
     },
     "socialPosts": [
       {
