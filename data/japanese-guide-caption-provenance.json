@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "japanese"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Downloads/WhatsApp Video 2026-10-12 at 12.42.56.mp4",
+      "sourceSHA256": "920d1ca0640490bc74195bf6186c6c3b5babba809ea305d9f7496869da1ee15d",
+      "videoId": "anSJzrqzqqg",
+      "visibility": "Public",
+      "durationSeconds": 43.266667
+    },
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/סרטוני הדרכה/המדריך שלנו/המדריך שלנו - הגן היפני בעברית.mp4",
+      "sourceSHA256": "918fdb205e325064ebb25c0468da07d0b30ec0fefc34195ab5bc038d206aebcc",
+      "videoId": "x39Gu8wchuA",
+      "visibility": "Public",
+      "durationSeconds": 47.31
+    }
+  },
+  "tracks": {
+    "en": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 0.9,
+          "end": 2.9,
+          "text": "Dzień dobry. Hello everyone."
+        },
+        {
+          "start": 3.48,
+          "end": 5.6,
+          "text": "I'm standing on this beautiful bridge."
+        },
+        {
+          "start": 6.06,
+          "end": 9.4,
+          "text": "You can see some love locks on the bridge."
+        },
+        {
+          "start": 9.58,
+          "end": 12.0,
+          "text": "This is a very romantic place indeed."
+        },
+        {
+          "start": 12.5,
+          "end": 17.12,
+          "text": "We're in Szczytnicki Park,\nin a garden called the Japanese Garden."
+        },
+        {
+          "start": 17.3,
+          "end": 22.15,
+          "text": "This garden was established in 1916\nas part of the exhibition held in this area."
+        },
+        {
+          "start": 22.16,
+          "end": 27.2,
+          "text": "It was created together with\nJapanese landscape architects."
+        },
+        {
+          "start": 28.64,
+          "end": 32.36,
+          "text": "I really recommend visiting.\nIt's a beautiful garden."
+        },
+        {
+          "start": 32.62,
+          "end": 37.5,
+          "text": "The plants, goldfish and carp in the water\nare really amazing."
+        },
+        {
+          "start": 38.52,
+          "end": 41.5,
+          "text": "Enjoy the calm and relaxing atmosphere."
+        },
+        {
+          "start": 42.0,
+          "end": 43.1,
+          "text": "Goodbye."
+        }
+      ],
+      "srtSHA256": "01933a65e428e79819771e0377410550fdbb6143b699df1c9b5bf777086c1d0f",
+      "status": "Published",
+      "videoId": "anSJzrqzqqg",
+      "verifiedAt": "2026-10-12",
+      "verification": "NativeYouTubeStudioPublishedmanualtrackrow, separate fromautomatictrack",
+      "srtFile": "docs/native-youtube-captions/japanese/en.srt"
+    },
+    "de": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 0.9,
+          "end": 2.9,
+          "text": "Dzień dobry. Hallo zusammen."
+        },
+        {
+          "start": 3.48,
+          "end": 5.6,
+          "text": "Ich stehe auf dieser schönen Brücke."
+        },
+        {
+          "start": 6.06,
+          "end": 9.4,
+          "text": "Auf der Brücke seht ihr Liebesschlösser."
+        },
+        {
+          "start": 9.58,
+          "end": 12.0,
+          "text": "Das ist wirklich ein sehr romantischer Ort."
+        },
+        {
+          "start": 12.5,
+          "end": 17.12,
+          "text": "Wir sind im Szczytnicki-Park,\nin einem Garten namens Japanischer Garten."
+        },
+        {
+          "start": 17.3,
+          "end": 22.15,
+          "text": "Dieser Garten wurde 1916 angelegt,\nals Teil der Ausstellung in dieser Gegend."
+        },
+        {
+          "start": 22.16,
+          "end": 27.2,
+          "text": "Er entstand gemeinsam\nmit japanischen Landschaftsarchitekten."
+        },
+        {
+          "start": 28.64,
+          "end": 32.36,
+          "text": "Ich empfehle einen Besuch sehr.\nEs ist ein wunderschöner Garten."
+        },
+        {
+          "start": 32.62,
+          "end": 37.5,
+          "text": "Die Pflanzen, Goldfische und Karpfen im Wasser\nsind wirklich beeindruckend."
+        },
+        {
+          "start": 38.52,
+          "end": 41.5,
+          "text": "Genießt die ruhige und entspannte Atmosphäre."
+        },
+        {
+          "start": 42.0,
+          "end": 43.1,
+          "text": "Auf Wiedersehen."
+        }
+      ],
+      "srtSHA256": "405b96c71f6bbc3c09663eed3efe91da7a0b8c7f72fe02b8895b9e3fa00a77d7",
+      "status": "Published",
+      "videoId": "anSJzrqzqqg",
+      "verifiedAt": "2026-10-12",
+      "verification": "NativeYouTubeStudioPublishedmanualtrackrow, separate fromautomatictrack",
+      "srtFile": "docs/native-youtube-captions/japanese/de.srt"
+    },
+    "cs": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 0.9,
+          "end": 2.9,
+          "text": "Dzień dobry. Ahoj všem."
+        },
+        {
+          "start": 3.48,
+          "end": 5.6,
+          "text": "Stojím na tomto krásném mostě."
+        },
+        {
+          "start": 6.06,
+          "end": 9.4,
+          "text": "Na mostě vidíte zámky lásky."
+        },
+        {
+          "start": 9.58,
+          "end": 12.0,
+          "text": "Je to opravdu velmi romantické místo."
+        },
+        {
+          "start": 12.5,
+          "end": 17.12,
+          "text": "Jsme v parku Szczytnicki,\nv zahradě zvané Japonská zahrada."
+        },
+        {
+          "start": 17.3,
+          "end": 22.15,
+          "text": "Zahrada vznikla v roce 1916\njako součást výstavy v této oblasti."
+        },
+        {
+          "start": 22.16,
+          "end": 27.2,
+          "text": "Vznikla ve spolupráci\ns japonskými krajinnými architekty."
+        },
+        {
+          "start": 28.64,
+          "end": 32.36,
+          "text": "Návštěvu opravdu doporučuji.\nJe to krásná zahrada."
+        },
+        {
+          "start": 32.62,
+          "end": 37.5,
+          "text": "Rostliny, zlaté rybky a kapři ve vodě\njsou opravdu úžasní."
+        },
+        {
+          "start": 38.52,
+          "end": 41.5,
+          "text": "Užijte si klidnou a odpočinkovou atmosféru."
+        },
+        {
+          "start": 42.0,
+          "end": 43.1,
+          "text": "Na shledanou."
+        }
+      ],
+      "srtSHA256": "73bbcfd58c7cb2a48de3682aa730cdbf1380dcf88e53baf6cfa2a048470804e3",
+      "status": "Published",
+      "videoId": "anSJzrqzqqg",
+      "verifiedAt": "2026-10-12",
+      "verification": "NativeYouTubeStudioPublishedmanualtrackrow, separate fromautomatictrack",
+      "srtFile": "docs/native-youtube-captions/japanese/cs.srt"
+    },
+    "pl": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 0.9,
+          "end": 2.9,
+          "text": "Dzień dobry. Witam wszystkich."
+        },
+        {
+          "start": 3.48,
+          "end": 5.6,
+          "text": "Stoję na tym pięknym mostku."
+        },
+        {
+          "start": 6.06,
+          "end": 9.4,
+          "text": "Na mostku widać kłódki miłości."
+        },
+        {
+          "start": 9.58,
+          "end": 12.0,
+          "text": "To naprawdę bardzo romantyczne miejsce."
+        },
+        {
+          "start": 12.5,
+          "end": 17.12,
+          "text": "Jesteśmy w Parku Szczytnickim,\nw ogrodzie zwanym Ogrodem Japońskim."
+        },
+        {
+          "start": 17.3,
+          "end": 22.15,
+          "text": "Ogród założono w 1916 roku\njako część wystawy w tej okolicy."
+        },
+        {
+          "start": 22.16,
+          "end": 27.2,
+          "text": "Powstał we współpracy\nz japońskimi architektami krajobrazu."
+        },
+        {
+          "start": 28.64,
+          "end": 32.36,
+          "text": "Naprawdę polecam tu przyjechać.\nTo piękny ogród."
+        },
+        {
+          "start": 32.62,
+          "end": 37.5,
+          "text": "Roślinność, złote rybki i karpie w wodzie\nsą naprawdę wspaniałe."
+        },
+        {
+          "start": 38.52,
+          "end": 41.5,
+          "text": "Cieszcie się spokojną i relaksującą atmosferą."
+        },
+        {
+          "start": 42.0,
+          "end": 43.1,
+          "text": "Do widzenia."
+        }
+      ],
+      "srtSHA256": "c9a4e9c0e5acd012cfcf726ce1778f967e7f2866babf7545b6c1af1d6e393d9d",
+      "status": "Published",
+      "videoId": "anSJzrqzqqg",
+      "verifiedAt": "2026-10-12",
+      "verification": "NativeYouTubeStudioPublishedmanualtrackrow, separate fromautomatictrack",
+      "srtFile": "docs/native-youtube-captions/japanese/pl.srt"
+    },
+    "he": {
+      "edition": "he",
+      "cues": [
+        {
+          "start": 0,
+          "end": 2.8,
+          "text": "דז׳ין דוברי. שלום לכולם."
+        },
+        {
+          "start": 3.36,
+          "end": 5.95,
+          "text": "אני נמצא עכשיו על הגשר המקסים הזה."
+        },
+        {
+          "start": 6.3,
+          "end": 9.15,
+          "text": "אתם יכולים לראות פה גם את מנעולי האהבה."
+        },
+        {
+          "start": 10,
+          "end": 13.5,
+          "text": "בתוך פארק שצ׳יטניצקי, באזור שנקרא הגן היפני."
+        },
+        {
+          "start": 14.4,
+          "end": 18.85,
+          "text": "הגן הזה הוקם במסגרת התערוכה\nשהייתה כאן בשנת 1916."
+        },
+        {
+          "start": 19.96,
+          "end": 22.0,
+          "text": "בסיוע של אדריכלים יפנים."
+        },
+        {
+          "start": 22.5,
+          "end": 30.95,
+          "text": "לאורך השנים הגן הזה קצת נפגע בשיטפונות\nשחוותה העיר, ב־1997 בעיקר."
+        },
+        {
+          "start": 30.98,
+          "end": 33.2,
+          "text": "אבל נפתח מחדש ב־1999."
+        },
+        {
+          "start": 33.21,
+          "end": 36.72,
+          "text": "ואני מזמין אתכם לבקר בגן היפני המקסים הזה,"
+        },
+        {
+          "start": 36.73,
+          "end": 41.4,
+          "text": "ליהנות מהצמחייה, מדגי הזהב\nודגי הקרפיון הענקיים"
+        },
+        {
+          "start": 41.41,
+          "end": 43.46,
+          "text": "שנמצאים ושוחים כאן בתוך הבריכות."
+        },
+        {
+          "start": 43.54,
+          "end": 46.8,
+          "text": "נתראה בתחנה הבאה."
+        }
+      ],
+      "srtSHA256": "abfb2f8022adc4f2e8ab588cf36b356ae3ad0f3adb76a75c1802b50ddf71a567",
+      "status": "Published",
+      "videoId": "x39Gu8wchuA",
+      "verifiedAt": "2026-10-12",
+      "verification": "NativeYouTubeStudioPublishedmanualtrackrow, separate fromautomatictrack",
+      "srtFile": "docs/native-youtube-captions/japanese/he.srt"
+    }
+  },
+  "sourceNotes": "Two localASRpasses; corrected obvious recognition errors andpropernames, timingbasedonsourcewords. Translations ofactualnarrative. Source1916kept asspokenandbakedcaption, not independently verified historical assertion.",
+  "placeIdentity": "UserconfirmedJapaneseGarden; sourcecaptionexplicitlymentionsJapaneseGarden",
+  "playback": "NativeYouTube cc_load_policy=1 cc_lang_pref=selectedmaplanguage. No rawvideos shipped."
+}

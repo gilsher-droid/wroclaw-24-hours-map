@@ -1,0 +1,72 @@
+{
+  "uniqueImages": [
+    "IMG_5799.JPG",
+    "IMG_5822.JPG"
+  ],
+  "uniqueVideos": [
+    "IMG_5800.MOV",
+    "IMG_5823.MOV"
+  ],
+  "exactCopiesIgnored": [
+    "IMG_5800 2.MOV",
+    "IMG_5823 2.MOV",
+    "IMG_5799 2.JPG",
+    "IMG_5822 2.JPG"
+  ],
+  "compressedDuplicate": "WhatsApp Video 2026-09-24 at 17.33.31.mp4",
+  "duplicateEvidence": [
+    {
+      "second": 1,
+      "meanAbsolutePixelDifference": 2.0146484375
+    },
+    {
+      "second": 5,
+      "meanAbsolutePixelDifference": 2.4015299479166665
+    },
+    {
+      "second": 9,
+      "meanAbsolutePixelDifference": 10.544596354166666
+    }
+  ],
+  "visualCheck": "All3 source frames inspected; WhatsApp same5800view ducksstreamredbridge andsame10.233duration, usehigherqualityoriginal",
+  "images": [
+    {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5799.JPG",
+      "asset": "assets/japanese-visit-07.jpg",
+      "assetSHA256": "94affdfa196aff198952b9d8a2d5bd2bdb5260a8ba3f869f8bdee4e05caf0bc2",
+      "visuallyVerified": true
+    },
+    {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5822.JPG",
+      "asset": "assets/japanese-visit-08.jpg",
+      "assetSHA256": "2ae580345dc3d7a02e7902c13f170796407d92b54e09d4a2b8689e4c25a04b3c",
+      "visuallyVerified": true
+    }
+  ],
+  "publishedVideos": [
+    {
+      "title": "Japanese Garden, Wrocław | Stream and bridge | Visit clip 1 | WROC-LOVE",
+      "status": "public",
+      "youtube": "https://youtube.com/shorts/Ni0GwsP-uMg",
+      "sourceSHA256": "4b8c2911739d2dc708ef8535d114a5d53a7de99507736ca406b3b97db70b65a0",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5800.MOV",
+      "canonicalPlaceIds": [
+        "japanese"
+      ],
+      "verifiedAt": "2026-10-12",
+      "verification": "NativeStudioPublicselection+VideoPublishedconfirmed"
+    },
+    {
+      "title": "Japanese Garden, Wrocław | Entrance gate | Visit clip 2 | WROC-LOVE",
+      "status": "public",
+      "youtube": "https://youtube.com/shorts/OMuXVtwAkAA",
+      "sourceSHA256": "abd2bb43eb2e4bdd57ab276740ef7a6c20aa46e08ea8752a3937999999b5a72e",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5823.MOV",
+      "canonicalPlaceIds": [
+        "japanese"
+      ],
+      "verifiedAt": "2026-10-12",
+      "verification": "NativeStudioPublicselection+VideoPublishedconfirmed"
+    }
+  ]
+}
