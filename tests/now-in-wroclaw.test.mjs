@@ -14,10 +14,10 @@ function loadTicker() {
   return { window, context };
 }
 
-test("weekly news includes six localized and dated items", () => {
+test("weekly news includes four localized and dated items", () => {
   const { window } = loadTicker();
   const items = window.WROC_NOW_IN_WROCLAW_ITEMS;
-  assert.equal(items.length, 6);
+  assert.equal(items.length, 4);
   assert.equal(new Set(items.map((item) => item.id)).size, items.length);
   for (const item of items) {
     assert.deepEqual(Object.keys(item.title).sort(), ["cs", "de", "en", "he", "pl"]);
@@ -25,13 +25,13 @@ test("weekly news includes six localized and dated items", () => {
     assert.match(item.startDate, /^2026-/);
     assert.match(item.endDate, /^2026-/);
   }
-  assert.equal(items.every((item) => item.startDate === "2026-10-05"), true);
+  assert.equal(items.every((item) => item.startDate === "2026-10-12"), true);
   for (const language of ["he", "en", "pl", "de", "cs"]) {
     const suffix = language === "he" ? "" : `-${language}`;
-    const article = readFileSync(resolve(root, `news/2026-10-05${suffix}.html`), "utf8");
+    const article = readFileSync(resolve(root, `news/2026-10-12${suffix}.html`), "utf8");
     assert.match(article, new RegExp(`<html lang="${language}"`));
     for (const item of items) {
-      assert.match(item.articleUrl, /^\/news\/2026-10-05\.html#/);
+      assert.match(item.articleUrl, /^\/news\/2026-10-12\.html#/);
       assert.ok(article.includes(`id="${item.articleUrl.split("#")[1]}"`));
     }
   }
@@ -47,20 +47,18 @@ test("expiry uses inclusive local calendar dates and empty active sets stay empt
   assert.equal(api.activeItems([item], new Date(2026, 8, 18)).length, 0);
 });
 
-test("October farm remains seasonal and the new bulletin excludes recycled stories", () => {
-  const { window } = loadTicker();
-  const api = window.WROC_NOW_IN_WROCLAW;
-  const items = window.WROC_NOW_IN_WROCLAW_ITEMS;
-  const farm = items.find((item) => item.id === "dyniowa-farma-season-2026-10");
-  assert.equal(farm.category, "event");
-  assert.equal(api.isActive(farm, new Date(2026, 9, 31, 23, 59)), true);
-  assert.equal(api.isActive(farm, new Date(2026, 10, 1)), false);
-  assert.deepEqual(Array.from(api.activeItems(items, new Date(2026, 9, 13)), (item) => item.id), [farm.id]);
-  assert.equal(api.activeItems(items, new Date(2026, 10, 1)).length, 0);
-  assert.equal(items.some((item) => /ryanair|prize|coffee-planet|pixel-rush|piwnica/.test(item.id)), false);
-  const klodzko = items.find((item) => item.id === "przy-klodzkiej-opening-2026-10");
-  assert.match(klodzko.title.en, /now open/);
-  assert.doesNotMatch(klodzko.title.en, /scheduled/);
+test("announcements expire before stale opening claims and temporary events have separate dates", () => {
+  const { window } = loadTicker(); const items=window.WROC_NOW_IN_WROCLAW_ITEMS; const api=window.WROC_NOW_IN_WROCLAW;
+  assert.equal(api.activeItems(items, new Date(2026,9,12)).length,4);
+  assert.equal(items[0].status,"announced"); assert.equal(items[0].eventStartDate,"2026-10-16");
+  assert.equal(api.isActive(items[0],new Date(2026,9,16)),false);
+  assert.equal(items[2].status,"announced"); assert.equal(items[2].eventStartDate,"2026-10-13");
+  assert.equal(api.isActive(items[2],new Date(2026,9,18,23,59)),true);
+  assert.equal(api.isActive(items[2],new Date(2026,9,19)),false);
+  assert.equal(items[1].eventEndDate,"2026-12-30"); assert.equal(items[3].eventEndDate,"2026-11-25");
+  assert.equal(items[1].status,"confirmed"); assert.equal(items[3].status,"confirmed");
+  assert.equal(api.activeItems(items,new Date(2026,9,20)).length,0);
+  assert.equal(items.some(x=>/dyniowa-farma|klodzkiej|schody|100-bridges/.test(x.id)),false);
 });
 
 test("ticker is shared across the homepage and every main product page", () => {

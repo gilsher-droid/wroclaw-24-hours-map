@@ -13709,13 +13709,48 @@
       "de",
       "cs"
     ],
+    "experiences": [
+      {
+        "id": "peace-churches-silverwork-2026",
+        "type": "temporary-exhibition",
+        "name": {
+          "he": "תערוכת אוצרות כנסיות השלום פתוחה עד 30 בדצמבר",
+          "en": "Churches of Peace silverwork: on view until 30 December",
+          "pl": "Złotnictwo kościołów pokoju: wystawa do 30 grudnia",
+          "de": "Goldschmiedekunst der Friedenskirchen: Ausstellung bis 30. Dezember",
+          "cs": "Zlatnictví kostelů míru: výstava do 30. prosince"
+        },
+        "description": {
+          "he": "תערוכת הצורפות מכנסיות השלום ביאבור ובשווידניצה מוצגת במוזיאון הלאומי בוורוצלב מ־1 באוקטובר עד 30 בדצמבר 2026. הכניסה לתערוכה חופשית. הזדמנות לחבר בין הביקור במוזיאון לבין כנסיות המורשת בשלזיה התחתית; בדקו את שעות המוזיאון לפני ההגעה.",
+          "en": "The National Museum in Wrocław presents silverwork from the Churches of Peace in Jawor and Świdnica from 1 October to 30 December 2026. Admission to this temporary exhibition is free. Pair the museum visit with the historic churches in Lower Silesia; check museum opening hours before visiting.",
+          "pl": "Muzeum Narodowe we Wrocławiu prezentuje złotnictwo kościołów pokoju w Jaworze i Świdnicy od 1 października do 30 grudnia 2026. Wstęp na wystawę czasową jest bezpłatny. Połącz wizytę w muzeum z poznawaniem dolnośląskich kościołów; sprawdź godziny muzeum.",
+          "de": "Das Nationalmuseum Breslau zeigt vom 1. Oktober bis 30. Dezember 2026 Goldschmiedekunst aus den Friedenskirchen in Jawor und Świdnica. Der Eintritt zu dieser Sonderausstellung ist frei. Verbinden Sie den Museumsbesuch mit den historischen Kirchen in Niederschlesien; Öffnungszeiten prüfen.",
+          "cs": "Národní muzeum ve Vratislavi vystavuje zlatnické práce z kostelů míru v Jaworu a Świdnici od 1. října do 30. prosince 2026. Vstup na tuto dočasnou výstavu je zdarma. Návštěvu lze spojit s poznáváním historických kostelů v Dolním Slezsku; ověřte otevírací dobu muzea."
+        },
+        "startDate": "2026-10-01",
+        "endDate": "2026-12-30",
+        "status": "confirmed",
+        "sourceUrl": "https://mnwr.pl/nowozytne-zlotnictwo-slaskich-kosciolow-pokoju/",
+        "verifiedAt": "2026-10-12",
+        "tags": [
+          "art",
+          "history",
+          "temporary-exhibition"
+        ]
+      }
+    ],
     "provenance": {
       "contentType": "official-institution-audit",
       "factualSources": [
         {
           "type": "official",
           "url": "https://mnwr.pl/",
-          "checkedAt": "2026-08-29"
+          "checkedAt": "2026-10-12"
+        },
+        {
+          "type": "official",
+          "url": "https://mnwr.pl/nowozytne-zlotnictwo-slaskich-kosciolow-pokoju/",
+          "checkedAt": "2026-10-12"
         }
       ]
     },
@@ -17667,6 +17702,126 @@
         "verifiedAt": "2026-10-08T17:46:22.536Z"
       }
     ]
+  },
+  "przystanek-kowary": {
+    "id": "przystanek-kowary",
+    "localName": "Muzeum Przystanek Kowary",
+    "name": {
+      "he": "מוזיאון תחנת קובארי",
+      "en": "Przystanek Kowary Museum",
+      "pl": "Muzeum Przystanek Kowary",
+      "de": "Museum Przystanek Kowary",
+      "cs": "Muzeum Przystanek Kowary"
+    },
+    "description": {
+      "he": "מוזיאון בתחנת הרכבת ההיסטורית בקובארי, המוקדש לכרייה, שטיחים ומורשת הרכבת המקומית. הכניסה דרך לשכת התיירות ברחוב דבורצובה 8, ללא תשלום, בימים שלישי–ראשון בשעות 08:00–16:00. מדריך קולי בפולנית, אנגלית, גרמנית וצ׳כית; בדקו שעות לפני ההגעה.",
+      "en": "Museum in Kowary’s historic railway station about mining, carpets and local railway heritage. Enter through Tourist Information at Dworcowa 8. Free admission, Tuesday–Sunday 08:00–16:00; audioguides in Polish, English, German and Czech. Check hours before visiting.",
+      "pl": "Muzeum w dawnym dworcu w Kowarach poświęcone górnictwu, dywanom i kolei. Wejście przez Informację Turystyczną przy Dworcowej 8. Wstęp wolny, wtorek–niedziela 8:00–16:00; audioguide po polsku, angielsku, niemiecku i czesku. Sprawdź godziny przed wizytą.",
+      "de": "Museum im historischen Bahnhof Kowary über Bergbau, Teppiche und Eisenbahngeschichte. Eingang über die Touristinformation, Dworcowa 8. Eintritt frei, Dienstag–Sonntag 08:00–16:00; Audioguides auf Polnisch, Englisch, Deutsch und Tschechisch. Öffnungszeiten vor dem Besuch prüfen.",
+      "cs": "Muzeum v historickém nádraží v Kowarech o hornictví, kobercích a železnici. Vstup přes turistické informace na Dworcowa 8. Vstup zdarma, úterý–neděle 08:00–16:00; audioprůvodci polsky, anglicky, německy a česky. Před návštěvou ověřte hodiny."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "kowary",
+      "coordinates": {
+        "lat": 50.79803,
+        "lng": 15.82576
+      },
+      "address": {
+        "street": "Dworcowa 8",
+        "postalCode": "58-530",
+        "city": "Kowary",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "history",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Muzeum Przystanek Kowary",
+      "Przystanek Kowary"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "history",
+        "museum"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://turysta.kowary.pl/informacja-turystyczna/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.79803%2C15.82576",
+        "appleMaps": "https://maps.apple.com/?ll=50.79803,15.82576"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://turysta.kowary.pl/informacja-turystyczna/",
+          "checkedAt": "2026-10-12"
+        },
+        {
+          "type": "regional-tourism",
+          "url": "https://karkonosze.treespot.pl/de/item/print?category=80",
+          "checkedAt": "2026-10-12"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://karkonosze.treespot.pl/de/item/print?category=80",
+        "method": "Published GPS for Tourist Information at Dworcowa 8, the museum entrance explicitly identified by Kowary municipality.",
+        "checkedAt": "2026-10-12"
+      },
+      "openingDate": "2026-04-28",
+      "openingDateNote": "Municipality states museum operates from 28 April; earlier conversation stated 27 April. No new-opening claim published."
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "puro": {
     "id": "puro",
@@ -24216,6 +24371,142 @@
       }
     ]
   },
+  "wroclaw-botanical-garden": {
+    "id": "wroclaw-botanical-garden",
+    "localName": "Ogród Botaniczny Uniwersytetu Wrocławskiego",
+    "name": {
+      "he": "הגן הבוטני בוורוצלב",
+      "en": "Wrocław Botanical Garden",
+      "pl": "Ogród Botaniczny we Wrocławiu",
+      "de": "Botanischer Garten Breslau",
+      "cs": "Botanická zahrada ve Vratislavi"
+    },
+    "description": {
+      "he": "הגן הבוטני של אוניברסיטת ורוצלב, ליד אוסטרוב טומסקי. בדקו את שעות הפעילות והאירועים העונתיים באתר הגן.",
+      "en": "The University of Wrocław Botanical Garden near Ostrów Tumski. Check the garden website for opening hours and seasonal events.",
+      "pl": "Ogród Botaniczny Uniwersytetu Wrocławskiego przy Ostrowie Tumskim. Sprawdź godziny otwarcia i wydarzenia sezonowe na stronie ogrodu.",
+      "de": "Botanischer Garten der Universität Breslau nahe der Dominsel. Öffnungszeiten und Saisonveranstaltungen auf der Gartenseite prüfen.",
+      "cs": "Botanická zahrada Vratislavské univerzity poblíž Ostrówa Tumského. Otevírací dobu a sezonní akce ověřte na webu zahrady."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1159,
+        "lng": 17.0478
+      },
+      "address": {
+        "street": "Henryka Sienkiewicza 23",
+        "postalCode": "50-335",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "garden",
+      "nature"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Botanical Garden Wroclaw",
+      "Ogród Botaniczny Uniwersytetu Wrocławskiego"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "garden",
+        "nature"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.ogrodbotaniczny.wroclaw.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1159%2C17.0478",
+        "appleMaps": "https://maps.apple.com/?ll=51.1159,17.0478"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "pumpkin-illuminations-2026-10",
+        "type": "seasonal-event",
+        "name": {
+          "he": "דלעות מוארות בגן הבוטני: מתוכנן ל־13–18 באוקטובר",
+          "en": "Dyniowe Iluminacje: planned for 13–18 October at the Botanical Garden",
+          "pl": "Dyniowe Iluminacje: zaplanowane na 13–18 października w Ogrodzie Botanicznym",
+          "de": "Kürbisilluminationen im Botanischen Garten: für 13.–18. Oktober angekündigt",
+          "cs": "Dýňové iluminace v botanické zahradě: plánovány na 13.–18. října"
+        },
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-18",
+        "status": "announced",
+        "sourceUrl": "https://www.ogrodbotaniczny.wroclaw.pl/wydarzenia.html",
+        "verifiedAt": "2026-10-12"
+      }
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.ogrodbotaniczny.wroclaw.pl/kontakt.html",
+          "checkedAt": "2026-10-12"
+        },
+        {
+          "type": "official",
+          "url": "https://www.ogrodbotaniczny.wroclaw.pl/wydarzenia.html",
+          "checkedAt": "2026-10-12"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.ogrodbotaniczny.wroclaw.pl/kontakt.html",
+        "method": "GPS coordinates published by the university garden; garden location, not a claimed entrance.",
+        "checkedAt": "2026-10-12"
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "wroclaw-contemporary-museum": {
     "id": "wroclaw-contemporary-museum",
     "localName": "Muzeum Współczesne Wrocław",
@@ -25550,6 +25841,148 @@
       "cs"
     ]
   },
+  "zamek-topacz": {
+    "id": "zamek-topacz",
+    "localName": "Zamek Topacz Resort & Art SPA",
+    "name": {
+      "he": "טירת טופץ׳",
+      "en": "Zamek Topacz",
+      "pl": "Zamek Topacz",
+      "de": "Schloss Topacz",
+      "cs": "Zámek Topacz"
+    },
+    "description": {
+      "he": "מתחם טירה היסטורי בשלנזה, עם מלון, מסעדות ומוזיאון מוטורי. פעילות האורות היא אירוע עונתי נפרד; בדקו כניסה וכרטיסים אצל המפעיל.",
+      "en": "Historic castle resort in Ślęza with a hotel, dining and a motor museum. The light park is a separate seasonal event; check entry and tickets with the operator.",
+      "pl": "Zabytkowy kompleks zamkowy w Ślęzie z hotelem, restauracjami i muzeum motoryzacji. Park iluminacji jest osobnym wydarzeniem sezonowym; sprawdź wejścia i bilety u organizatora.",
+      "de": "Historische Schlossanlage in Ślęza mit Hotel, Restaurants und Automobilmuseum. Der Lichterpark ist eine gesonderte Saisonveranstaltung; Einlass und Tickets beim Betreiber prüfen.",
+      "cs": "Historický zámecký areál ve Ślęze s hotelem, restauracemi a muzeem automobilů. Světelný park je samostatná sezonní akce; ověřte vstup a vstupenky u pořadatele."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "sleza",
+      "coordinates": {
+        "lat": 51.0359459,
+        "lng": 16.9891338
+      },
+      "address": {
+        "street": "Templariuszy 1",
+        "postalCode": "55-040",
+        "city": "Ślęza",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "castle",
+      "hotel",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Topacz Castle",
+      "Zamek Topacz"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "castle",
+        "hotel",
+        "museum"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.zamektopacz.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.0359459%2C16.9891338",
+        "appleMaps": "https://maps.apple.com/?ll=51.0359459,16.9891338"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "lumina-park-2026-10",
+        "type": "seasonal-event",
+        "name": {
+          "he": "עונת האורות בטירת טופץ׳ מתוכננת להיפתח ב־16 באוקטובר",
+          "en": "Lumina Park at Zamek Topacz: opening planned for 16 October",
+          "pl": "Lumina Park w Zamku Topacz: otwarcie planowane na 16 października",
+          "de": "Lumina Park am Schloss Topacz: Eröffnung für 16. Oktober angekündigt",
+          "cs": "Lumina Park na zámku Topacz: otevření plánováno na 16. října"
+        },
+        "startDate": "2026-10-16",
+        "endDate": "2027-02-14",
+        "status": "announced",
+        "sourceUrl": "https://luminapark.pl/wroclaw/",
+        "verifiedAt": "2026-10-12"
+      }
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.zamektopacz.pl/kontakt/skontaktuj-sie",
+          "checkedAt": "2026-10-12"
+        },
+        {
+          "type": "official",
+          "url": "https://luminapark.pl/wroclaw/",
+          "checkedAt": "2026-10-12"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.zamektopacz.pl/kontakt/skontaktuj-sie",
+        "method": "Operator GeoCoordinates in JSON-LD; resort location, not seasonal event entrance.",
+        "checkedAt": "2026-10-12"
+      },
+      "seasonalEntrance": {
+        "pedestrian": "https://maps.app.goo.gl/3PuTRCS3DwTJATzx6",
+        "note": "Lumina operator directs pedestrians via Templariuszy 1 and cars via Tulipanowa; use operator directions."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
   "zenka": {
     "id": "zenka",
     "localName": "Zenka Cafe",
@@ -26172,6 +26605,12 @@
   "wroclavia-station": "wroclavia",
   "ostrow-cathedral": "ostrow",
   "christmas-market": "rynek",
+  "Zamek Topacz": "zamek-topacz",
+  "Topacz Castle": "zamek-topacz",
+  "Ogród Botaniczny Uniwersytetu Wrocławskiego": "wroclaw-botanical-garden",
+  "Botanical Garden Wroclaw": "wroclaw-botanical-garden",
+  "Przystanek Kowary": "przystanek-kowary",
+  "Muzeum Przystanek Kowary": "przystanek-kowary",
   "Arche Klasztor Wroclaw": "arche-klasztor",
   "ארכה קלשטור": "arche-klasztor",
   "ארכה קלשטור ורוצלב": "arche-klasztor",
