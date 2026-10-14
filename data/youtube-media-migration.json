@@ -321,5 +321,57 @@
     ],
     "verifiedAt": "2026-10-12",
     "verification": "NativeStudioPublicselection+VideoPublishedconfirmed"
+  },
+  "https://youtube.com/shorts/KR_7B_LUe-w": {
+    "title": "Wrocław Multimedia Fountain | Visit clip 5 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/KR_7B_LUe-w",
+    "sourceSHA256": "66d971189262c641d37b64053da0f0b49ef713e3d13d6f89f4a258ead90e2481",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/3D Fountain/IMG_5805.MOV",
+    "canonicalPlaceIds": [
+      "fountain"
+    ],
+    "verifiedAt": "2026-10-14",
+    "verification": "Native Public visibility and Video Published dialog"
+  },
+  "https://youtube.com/shorts/F8dmjvigNcc": {
+    "title": "Wrocław Multimedia Fountain | Visit clip 6 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/F8dmjvigNcc",
+    "sourceSHA256": "c5cfcce9a8be80ac3267f607df031902c7f67241a828c2a8302e193eed4efa8b",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/3D Fountain/IMG_5806.MOV",
+    "canonicalPlaceIds": [
+      "fountain"
+    ],
+    "verifiedAt": "2026-10-14",
+    "verification": "Native Public visibility and Video Published dialog"
+  },
+  "https://youtube.com/watch?v=j8HliEzlKG0": {
+    "title": "Wrocław Multimedia Fountain | Visit clip 7 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/watch?v=j8HliEzlKG0",
+    "sourceSHA256": "4dc8f44e5c40132e282d1db8a07d368c0db6a930b2f9cf52ba09d28d85ec8339",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/3D Fountain/WhatsApp Video 2026-07-22 at 14.46.23.mp4",
+    "canonicalPlaceIds": [
+      "fountain"
+    ],
+    "verifiedAt": "2026-10-14",
+    "verification": "Native Public visibility and Video Published dialog",
+    "copyright": {
+      "claim": "1 Thing (A Cappella), Amerie",
+      "availability": "No effect on video visibility or channel, verified native Studio claim overview"
+    }
+  },
+  "https://youtube.com/shorts/U7TyifQyg7k": {
+    "title": "Wrocław Multimedia Fountain | Visit clip 8 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/U7TyifQyg7k",
+    "sourceSHA256": "f959f0e56e525191d4431497d7a4097d0cd852fbe1b0c0c1c3358e6225befdb1",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/3D Fountain/WhatsApp Video 2026-09-24 at 17.33.18.mp4",
+    "canonicalPlaceIds": [
+      "fountain"
+    ],
+    "verifiedAt": "2026-10-14",
+    "verification": "Native Public visibility and Video Published dialog"
   }
 }

@@ -9,7 +9,7 @@ const root = resolve(import.meta.dirname, "..");
 test("Pergola and Multimedia Fountain remain independent canonical places", () => {
   const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
-  for (const file of ["data/extra-languages.js", "data/place-catalog.js", "data/premium-route.js", "data/location-media.js"]) {
+  for (const file of ["data/extra-languages.js", "data/place-catalog.js", "data/premium-route.js", "data/location-media.js", "data/youtube-video-hosting.js"]) {
     runInNewContext(readFileSync(resolve(root, file), "utf8"), context, { filename: file });
   }
 
@@ -45,8 +45,16 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
     "/assets/multimedia-fountain-02.mp4",
     "/assets/multimedia-fountain-03.mp4",
     "/assets/video-stulecia-fountain.mp4",
+    "https://youtube.com/shorts/KR_7B_LUe-w",
+    "https://youtube.com/shorts/F8dmjvigNcc",
+    "https://youtube.com/watch?v=j8HliEzlKG0",
+    "https://youtube.com/shorts/U7TyifQyg7k",
   ]);
-  fountain.media.videos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
+  fountain.media.videos.forEach((asset) => {
+    const hosted = window.WROC_YOUTUBE_VIDEO_HOSTING[asset];
+    assert.equal(hosted.status, "public", asset);
+    assert.match(hosted.youtube, /^https:\/\/youtube\.com\/(?:shorts\/|watch\?v=)/);
+  });
   assert.ok(fountain.socialPosts.some(post => post.platform === "facebook" && post.url === "https://www.facebook.com/share/r/1ANYoSUn3J/"), "legacy fountain post stays preserved");
   const localizedPosts = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"));
   const verifiedFountainHebrew = localizedPosts.fountain.find(post => post.language === "he" && post.platform === "facebook");

@@ -69,7 +69,7 @@ test("Experience media resolves through existing Place media and Prague original
 
   const fountainMedia = registry.resolveMedia("wroclaw-multimedia-fountain-show");
   assert.equal(fountainMedia.images.length, 7);
-  assert.equal(fountainMedia.videos.length, 4);
+  assert.equal(fountainMedia.videos.length, 8);
   const morskieMedia = registry.resolveMedia("summer-bathing-and-relaxation");
   assert.equal(morskieMedia.images.length, 35);
   assert.equal(morskieMedia.videos.length, 4);

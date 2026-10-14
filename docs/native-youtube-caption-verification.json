@@ -119,6 +119,25 @@
       },
       "verifiedAt": "2026-10-12",
       "method": "NativeYouTubeStudio Publishedmanualrows verified beforelinking"
+    },
+    {
+      "place": "fountain",
+      "videos": {
+        "en": "wYu3-sO5WkE",
+        "he": "O4te9Tsw3FU"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-14",
+      "method": "Native Studio Published manual rows verified; both source auto replacements explicitly approved"
     }
   ]
 }
