@@ -6360,8 +6360,16 @@
         "/assets/multimedia-fountain-01.mp4",
         "/assets/multimedia-fountain-02.mp4",
         "/assets/multimedia-fountain-03.mp4",
-        "/assets/video-stulecia-fountain.mp4"
+        "/assets/video-stulecia-fountain.mp4",
+        "https://youtube.com/shorts/KR_7B_LUe-w",
+        "https://youtube.com/shorts/F8dmjvigNcc",
+        "https://youtube.com/watch?v=j8HliEzlKG0",
+        "https://youtube.com/shorts/U7TyifQyg7k"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/O4te9Tsw3FU",
+        "en": "https://youtube.com/shorts/wYu3-sO5WkE"
+      },
       "metadata": {
         "/assets/multimedia-fountain-01.jpg": {
           "tags": [

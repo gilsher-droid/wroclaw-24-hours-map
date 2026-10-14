@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "fountain"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/3D Fountain/המדריך שלנו/MOV/מזרקת במולטימדיה באנגלית.MOV",
+      "sourceSHA256": "d1333c81599e103661b9259874e31c6e4f2b23c8e6ec9701f070fb80d5e4e989",
+      "uploadSHA256": "13c634a413536a34db2462ac6d1dbaf11e5318762a4a842bfdb57acb66dce0d8",
+      "uploadMethod": "lossless stream copy MOV to MP4; original video, audio and rotation preserved",
+      "videoId": "wYu3-sO5WkE",
+      "visibility": "Public",
+      "durationSeconds": 52.908
+    },
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/3D Fountain/המדריך שלנו/MOV/מזרקת המולטי מדיה בעברית.MOV",
+      "sourceSHA256": "f451a9587772edd96190aab38b5f6531b175724e15d233865f5c890656e519aa",
+      "uploadSHA256": "1bfe0c75697e543984f8294dce23126045c7fa4dafaa6df0449c4279cf3a4815",
+      "uploadMethod": "lossless stream copy MOV to MP4; original video, audio and rotation preserved",
+      "videoId": "O4te9Tsw3FU",
+      "visibility": "Public",
+      "durationSeconds": 51.506
+    }
+  },
+  "tracks": {
+    "en": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 2.22,
+          "end": 4.2,
+          "text": "Cześć. Hi!"
+        },
+        {
+          "start": 4.92,
+          "end": 9.26,
+          "text": "We are standing in front of\nthe Multimedia Fountain."
+        },
+        {
+          "start": 9.94,
+          "end": 17.2,
+          "text": "This fountain has 300 water jets\nand fire jets."
+        },
+        {
+          "start": 17.88,
+          "end": 21.6,
+          "text": "The fountain covers\napproximately one hectare."
+        },
+        {
+          "start": 22.24,
+          "end": 28.6,
+          "text": "Check the schedule of the fountain shows\nbefore you arrive."
+        },
+        {
+          "start": 28.6,
+          "end": 36.12,
+          "text": "Do not miss the wonderful show\nof music, lights and water."
+        },
+        {
+          "start": 37.44,
+          "end": 44.9,
+          "text": "Visit both in daylight\nand in the evening or at night."
+        },
+        {
+          "start": 44.9,
+          "end": 48.46,
+          "text": "You will have\na completely different experience."
+        },
+        {
+          "start": 49.04,
+          "end": 52.24,
+          "text": "See you at our next stop.\nDo widzenia!"
+        }
+      ],
+      "srtSHA256": "8610142fab49ab3c2a43fa93038d7c4b932bc6365a6d11874173ea90888fbe9b",
+      "status": "Published",
+      "videoId": "wYu3-sO5WkE",
+      "verifiedAt": "2026-10-14",
+      "verification": "Native YouTube Studio Published manual track row",
+      "srtFile": "docs/native-youtube-captions/fountain/en.srt"
+    },
+    "de": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 2.22,
+          "end": 4.2,
+          "text": "Cześć. Hallo!"
+        },
+        {
+          "start": 4.92,
+          "end": 9.26,
+          "text": "Wir stehen vor\ndem Multimedia-Brunnen."
+        },
+        {
+          "start": 9.94,
+          "end": 17.2,
+          "text": "Dieser Brunnen hat 300 Wasserfontänen\nund Feuerdüsen."
+        },
+        {
+          "start": 17.88,
+          "end": 21.6,
+          "text": "Der Brunnen erstreckt sich\nüber etwa einen Hektar."
+        },
+        {
+          "start": 22.24,
+          "end": 28.6,
+          "text": "Prüft vor eurer Ankunft\ndie Zeiten der Brunnenshows."
+        },
+        {
+          "start": 28.6,
+          "end": 36.12,
+          "text": "Verpasst nicht das wunderbare Schauspiel\naus Musik, Licht und Wasser."
+        },
+        {
+          "start": 37.44,
+          "end": 44.9,
+          "text": "Kommt sowohl bei Tageslicht\nals auch am Abend oder bei Nacht."
+        },
+        {
+          "start": 44.9,
+          "end": 48.46,
+          "text": "So erlebt ihr\nzwei ganz unterschiedliche Eindrücke."
+        },
+        {
+          "start": 49.04,
+          "end": 52.24,
+          "text": "Bis zu unserer nächsten Station.\nAuf Wiedersehen!"
+        }
+      ],
+      "srtSHA256": "27db83cfeda7dd285cca6ac6710ec4c3f30777297a72073610e71a6727e2c910",
+      "status": "Published",
+      "videoId": "wYu3-sO5WkE",
+      "verifiedAt": "2026-10-14",
+      "verification": "Native YouTube Studio Published manual track row",
+      "srtFile": "docs/native-youtube-captions/fountain/de.srt"
+    },
+    "cs": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 2.22,
+          "end": 4.2,
+          "text": "Cześć. Ahoj!"
+        },
+        {
+          "start": 4.92,
+          "end": 9.26,
+          "text": "Stojíme před\nmultimediální fontánou."
+        },
+        {
+          "start": 9.94,
+          "end": 17.2,
+          "text": "Fontána má 300 vodních trysek\na také ohnivé trysky."
+        },
+        {
+          "start": 17.88,
+          "end": 21.6,
+          "text": "Fontána zabírá plochu\npřibližně jednoho hektaru."
+        },
+        {
+          "start": 22.24,
+          "end": 28.6,
+          "text": "Před příjezdem si zkontrolujte\nčasy představení fontány."
+        },
+        {
+          "start": 28.6,
+          "end": 36.12,
+          "text": "Nenechte si ujít nádhernou podívanou\ns hudbou, světly a vodou."
+        },
+        {
+          "start": 37.44,
+          "end": 44.9,
+          "text": "Přijďte za denního světla\ni večer nebo v noci."
+        },
+        {
+          "start": 44.9,
+          "end": 48.46,
+          "text": "Získáte tak\nzcela odlišný zážitek."
+        },
+        {
+          "start": 49.04,
+          "end": 52.24,
+          "text": "Uvidíme se na další zastávce.\nNa shledanou!"
+        }
+      ],
+      "srtSHA256": "2a302f6c0e3302f14ce798d5c4718b04c961e9b2c4c2b8766ea68d18b25f9896",
+      "status": "Published",
+      "videoId": "wYu3-sO5WkE",
+      "verifiedAt": "2026-10-14",
+      "verification": "Native YouTube Studio Published manual track row",
+      "srtFile": "docs/native-youtube-captions/fountain/cs.srt"
+    },
+    "pl": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 2.22,
+          "end": 4.2,
+          "text": "Cześć!"
+        },
+        {
+          "start": 4.92,
+          "end": 9.26,
+          "text": "Stoimy przed\nFontanną Multimedialną."
+        },
+        {
+          "start": 9.94,
+          "end": 17.2,
+          "text": "Fontanna ma 300 dysz wodnych\noraz dysze ogniowe."
+        },
+        {
+          "start": 17.88,
+          "end": 21.6,
+          "text": "Fontanna zajmuje powierzchnię\nokoło jednego hektara."
+        },
+        {
+          "start": 22.24,
+          "end": 28.6,
+          "text": "Przed przyjazdem sprawdźcie\nharmonogram pokazów fontanny."
+        },
+        {
+          "start": 28.6,
+          "end": 36.12,
+          "text": "Nie przegapcie wspaniałego pokazu\nmuzyki, świateł i wody."
+        },
+        {
+          "start": 37.44,
+          "end": 44.9,
+          "text": "Przyjdźcie zarówno za dnia,\njak i wieczorem lub nocą."
+        },
+        {
+          "start": 44.9,
+          "end": 48.46,
+          "text": "Dzięki temu czekają was\nzupełnie różne wrażenia."
+        },
+        {
+          "start": 49.04,
+          "end": 52.24,
+          "text": "Do zobaczenia na następnym przystanku.\nDo widzenia!"
+        }
+      ],
+      "srtSHA256": "1aabb62bb9d311a742015f09956e3a435f6e92b77442c1598ee6a7ae73b545df",
+      "status": "Published",
+      "videoId": "wYu3-sO5WkE",
+      "verifiedAt": "2026-10-14",
+      "verification": "Native YouTube Studio Published manual track row",
+      "srtFile": "docs/native-youtube-captions/fountain/pl.srt"
+    },
+    "he": {
+      "edition": "he",
+      "cues": [
+        {
+          "start": 1.6,
+          "end": 2.88,
+          "text": "צ׳שץ׳!"
+        },
+        {
+          "start": 3.76,
+          "end": 6.92,
+          "text": "ברוכים הבאים למזרקת המולטימדיה."
+        },
+        {
+          "start": 7.36,
+          "end": 13.56,
+          "text": "במזרקה יש שלוש מאות סילוני מים\nוגם סילוני אש."
+        },
+        {
+          "start": 14.3,
+          "end": 23.06,
+          "text": "המזרקה מציגה מופעים מרהיבים\nשמשלבים מים, מוזיקה ואורות."
+        },
+        {
+          "start": 23.48,
+          "end": 30.98,
+          "text": "מומלץ לבדוק את לוח הזמנים\nומתי המופעים מתקיימים."
+        },
+        {
+          "start": 31.5,
+          "end": 35.2,
+          "text": "המזרקה נמצאת במרכז מבנה הפרגולה,"
+        },
+        {
+          "start": 35.2,
+          "end": 37.82,
+          "text": "שדיברנו עליו בפוסט אחר."
+        },
+        {
+          "start": 38.36,
+          "end": 43.56,
+          "text": "מומלץ להגיע גם באור יום\nוגם בערב,"
+        },
+        {
+          "start": 43.56,
+          "end": 46.3,
+          "text": "כדי לקבל חוויה שונה."
+        },
+        {
+          "start": 46.9,
+          "end": 50.54,
+          "text": "להתראות בתחנה הבאה!"
+        }
+      ],
+      "srtSHA256": "5643b1df6c31aa7f6a8997d9e43e8594dddec7cd956adb1ce26bf9c9c4805e05",
+      "status": "Published",
+      "videoId": "O4te9Tsw3FU",
+      "verifiedAt": "2026-10-14",
+      "verification": "Native YouTube Studio Published manual track row; automatic track replacement approved 2026-10-14",
+      "srtFile": "docs/native-youtube-captions/fountain/he.srt"
+    }
+  }
+}
