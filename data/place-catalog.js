@@ -16114,7 +16114,11 @@
             "cs": "Trpaslík s kolem jízdního kola"
           }
         }
-      ]
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/Eyns7Gj66d0",
+        "en": "https://youtube.com/shorts/pIzp5Bmb9ck"
+      }
     },
     "socialPosts": [
       {

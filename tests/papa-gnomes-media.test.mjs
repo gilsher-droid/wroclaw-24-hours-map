@@ -14,7 +14,7 @@ test('Papa point holds the complete deduplicated dwarf picture collection and ke
  assert.equal(provenance.photos.length,20);assert.equal(Object.keys(provenance.photoDuplicatesOmitted).length,6);
  assert.equal(provenance.photos.filter(x=>x.original===false).length,2);
  for(const photo of provenance.photos){const f=resolve(root,photo.asset.slice(1));assert.ok(existsSync(f));assert.equal(createHash('sha256').update(readFileSync(f)).digest('hex'),photo.outputSHA256);assert.ok(p.media.photos.includes(photo.asset));}
- assert.equal(p.media.guideVideos,undefined);for(const l of ['he','en','de','cs','pl'])assert.equal(w.WROC_GUIDE_VIDEO.sourceFor('papa',l),null);
+ for(const l of ['he','en','de','cs','pl']){const src=w.WROC_GUIDE_VIDEO.sourceFor('papa',l);assert.equal(src,'https://youtube.com/shorts/'+(l==='he'?'Eyns7Gj66d0':'pIzp5Bmb9ck'));assert.match(w.WROC_GUIDE_VIDEO.embedUrlFor(src,l),new RegExp('cc_lang_pref='+l));assert.match(w.WROC_GUIDE_VIDEO.decorateIcon({html:'papa',className:'place'},'papa',l).html,/guide-marker-badge/);}
 });
 test('Dwarf visit media uses six unique public YouTube clips with localized titles and no raw playback',()=>{
  const w=runtime(),p=w.WROC_CATALOG.getPlace('papa');assert.equal(p.media.videos.length,6);
@@ -22,4 +22,14 @@ test('Dwarf visit media uses six unique public YouTube clips with localized titl
  const hosted=records.map(v=>w.WROC_YOUTUBE_VIDEO_HOSTING[v.src]);assert.equal(hosted.filter(x=>x.status==='public').length,6);assert.ok(hosted.every(x=>x.status==='public'));
  for(const v of records){assert.ok(v.title.he&&v.title.en&&v.title.de&&v.title.cs&&v.title.pl);const reg=w.WROC_YOUTUBE_VIDEO_HOSTING[v.src];for(const lang of ['he','en','de','cs','pl']){const html=w.WROC_YOUTUBE_VIDEO.html(v.src,v.title[lang],lang);if(reg.status==='public'){assert.match(html,/youtube-nocookie\.com\/embed\//);}else{assert.equal(w.WROC_YOUTUBE_VIDEO.resolve(v.src),null);assert.match(html,/youtube-video-pending/);assert.ok(!html.includes('<iframe'));}}}
  assert.equal(w.WROC_CATALOG.getPlace('dwarf-info').media.videos.length,0);
+});
+
+test('Papa manual caption files preserve timing and verified source checksums',async()=>{
+ const {createHash}=await import('node:crypto');
+ const p=JSON.parse(readFileSync(resolve(root,'data/papa-guide-caption-provenance.json'),'utf8'));
+ for(const lang of ['he','en','de','cs','pl']){
+  const t=p.tracks[lang],s=p.editions[t.edition];assert.equal(t.status,'Published');assert.equal(t.edition,lang==='he'?'he':'en');assert.equal(s.visibility,'Public');
+  assert.equal(t.srtSHA256,createHash('sha256').update(readFileSync(resolve(root,t.srtFile))).digest('hex'));
+  assert.match(s.sourceSHA256,/^[a-f0-9]{64}$/);let end=0;for(const c of t.cues){assert.ok(c.start>=end&&c.end>c.start&&c.end<=s.durationSeconds);end=c.end;}
+ }
 });
