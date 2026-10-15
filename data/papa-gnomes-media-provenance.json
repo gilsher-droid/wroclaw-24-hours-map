@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceId": "papa",
+  "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes",
+  "photos": [
+    {
+      "asset": "/assets/gallery-gnomes-01.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/IMG_1133.JPG",
+      "sourceSHA256": "b2c0068f26b3eb2cd4c835b5d6fcb24f740c47aaeaa23e10b253e9aa2fe5e656",
+      "outputSHA256": "10395ba47095023cd288326c89787c6d9fa322d7054d536e93300973e563605b",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": true,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/gallery-gnomes-02.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/IMG_1132.JPG",
+      "sourceSHA256": "2c2aed735cbcafb81874847e94113beff25c6ceea010a64cdb4ae3773e6979ed",
+      "outputSHA256": "e36c7654928d4b5082d0272bbb9145e4701ecb454212587b1a5e9c88457f6d22",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": true,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/gallery-gnomes-03.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/IMG_1131.JPG",
+      "sourceSHA256": "b6a82da9f45c70cfbaa654a628fc2c7df022ef8e12da55018644f3466c9684ef",
+      "outputSHA256": "0d6416df9b576b9cfa512828e772a8bc2bdd1ee0e3c99fe1941fcaea9cec721c",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": true,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/gallery-gnomes-04.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/IMG_1118.JPG",
+      "sourceSHA256": "3a9281738ffa3f8807651170e582b519233cf70b195689bd97bd018df102f76f",
+      "outputSHA256": "67ba2c29d93f1849ab2bf09ec1d811dd54c693044a85b60d9119c171c1d76f4a",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": true,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/gallery-gnomes-05.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-20 at 17.57.01.jpeg",
+      "sourceSHA256": "0ad16418bf00c1b3b5ce928058ac7e0bc2be28310faea056fcd0a031fefb849f",
+      "outputSHA256": "21da07bb9beb170eacaaed8dc322d3b4edc2f71731c992ee30623dc9d62012cd",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": true,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-01.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/ChatGPT Image Jun 23, 2026, 06_33_20 PM.png",
+      "sourceSHA256": "9cfd6e19122d83982d76398b3ae54080613478debb7b11258a436ccb41cf49f9",
+      "outputSHA256": "7b8e4bf5925c8ca51c10dbed358c9069c3375d65698865d365313eb817960fa5",
+      "original": false,
+      "sourceType": "user-supplied edited image",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-02.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/ChatGPT Image Jun 23, 2026, 06_40_20 PM.png",
+      "sourceSHA256": "b47a33738848be441bba43e4e472e7296714137361e8133be6be7acebf04944a",
+      "outputSHA256": "67fa9a7de57c3dadddc16d3f6e90f8bb55f1f453d91647892866614f6da5866b",
+      "original": false,
+      "sourceType": "user-supplied edited image",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-03.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/IMG_0925.JPG",
+      "sourceSHA256": "461933c3b24a14b7a99e96ee17a6f6db6ba5f7e5dc511240b2d01318b7768196",
+      "outputSHA256": "5f440558a23b2718b243fa6568002672d2fd1dc84b9b51b53819994b9d675df9",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-04.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/IMG_0952.JPG",
+      "sourceSHA256": "ff05afe4a265aba9ecdf3ed12de3e645c460c795964ecaa6d62fcc1cb0693286",
+      "outputSHA256": "13cb2cf942b75056dafa79f8810d0fa9f396d54cccd0aa6cdebdc73dfa0a81ae",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-05.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/IMG_1070.JPG",
+      "sourceSHA256": "92cb80deb6df2fbdbaf4c08d9e2b5f512d1f7abdaa1cd4c6fd892c934537fa69",
+      "outputSHA256": "490122c168f500f94a1ee645a7c6b5e51b13d849ead3309a2cabe50283013c6d",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-06.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 12.34.26.jpeg",
+      "sourceSHA256": "445a00361e1981f70ef2d7e97269edd3c46ab707fb92f9b969a295c604f81190",
+      "outputSHA256": "f28940438abd73cbf166e31c889594167efda92d8a60e07552937cb10396b526",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-07.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 12.34.38.jpeg",
+      "sourceSHA256": "face872a4142ef4b5f7ff1608e8d39e9582d16b9235fa4b943016c1f8a05d6ea",
+      "outputSHA256": "42a3a1807531c2555acf26877789d1a946b4d39804a296b82e077ef26ca61fda",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-08.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 12.34.47.jpeg",
+      "sourceSHA256": "371c5de6456c29d9892107e4f2ba4d044f484128d4549d4fe8bce9a9f9db8fc8",
+      "outputSHA256": "e7fa27afe46cf1afdfcd7dcef99bc7ff069c11ce5bb4bf8db9323f6a4dad463b",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-09.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 18.17.49.jpeg",
+      "sourceSHA256": "bb183ca17946f9b7899e9ef7ff462859064bddf7af73019ade138b65514c0bd2",
+      "outputSHA256": "94a24e56bf5aabcd02b2944c18394a5d5d65bb9536cd518dcc37ca24dcf8a301",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-10.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 18.18.01.jpeg",
+      "sourceSHA256": "462a8fd74dbe53e486afcdcd48d19b2c8529d6feb047d44b204e9dc37cb0608b",
+      "outputSHA256": "c1375b8dcd2785986281e2d1d532d42bfa46a9ec84ee53729b562be65728b846",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-11.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 18.21.53.jpeg",
+      "sourceSHA256": "fcfeb076e885b422251792542f30cc98b60960c29682eb7421e5fada69ac6c55",
+      "outputSHA256": "42a84591a583542d86e1b35a636ad75ebc482d14f6d5674d7bbc792314eb26a2",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-12.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 18.22.11.jpeg",
+      "sourceSHA256": "9d414d283121dd6831183babdba1eef7caa09f18166ac2656e67625c86c6c877",
+      "outputSHA256": "a0385b66ff96472ba15b55ab596ee13b159e109a90167bd7f2cceb38757709ea",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-13.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 18.22.39.jpeg",
+      "sourceSHA256": "187953ba471403ba7246ad4b772019af7130ee7499c5b917b34998a051600a7e",
+      "outputSHA256": "ee8fc0a743b96e82f283f2f1aef75595ad267a6687d645a75bac30890ec10b18",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-14.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 18.24.15.jpeg",
+      "sourceSHA256": "96310c976d85d157a798d21d7968db68914429585726035ca476f25504ce6ddd",
+      "outputSHA256": "b6a34ef17d1feb769fed8ff40886364a913f8384bab674daacdd4aeb59c14b68",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    },
+    {
+      "asset": "/assets/papa-gnomes-15.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Image 2026-06-23 at 18.25.28.jpeg",
+      "sourceSHA256": "e6b60d30d7d743d4ffb44b1b8a44c000f4e051ccf8221c48ebca9fcc680ee2ef",
+      "outputSHA256": "6c81df239d521c2e9118d1e0263bcb5b2231d253d48d770811cd0e9e6ebd474c",
+      "original": true,
+      "sourceType": "user-original photograph",
+      "reusedExistingCanonicalAsset": false,
+      "scope": "Wroclaw dwarf collection attached to Papa point at explicit user request; not all figures depict Papa Krasnal"
+    }
+  ],
+  "photoDuplicatesOmitted": {
+    "WhatsApp Image 2026-06-20 at 17.55.42.jpeg": "IMG_1133.JPG",
+    "WhatsApp Image 2026-06-20 at 17.55.50.jpeg": "IMG_1132.JPG",
+    "WhatsApp Image 2026-06-20 at 17.55.57.jpeg": "IMG_1131.JPG",
+    "WhatsApp Image 2026-06-20 at 17.56.54.jpeg": "IMG_1118.JPG",
+    "WhatsApp Image 2026-06-23 at 12.35.46.jpeg": "IMG_1070.JPG",
+    "WhatsApp Image 2026-06-23 at 18.24.30.jpeg": "IMG_0952.JPG"
+  },
+  "guideMediaDeferred": true,
+  "userInstructionDate": "2026-10-15",
+  "visitClips": [
+    {
+      "index": 1,
+      "src": "https://youtube.com/shorts/gQoBaOkFAd0",
+      "title": "A moment from our dwarf walk",
+      "status": "public",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-01 at 09.20.37.mp4",
+      "sourceSHA256": "859131e3d46a83d86ee9315d493e015e89863f6b506e4a718d1988497ddf3bd9",
+      "canonicalPlaceIds": [
+        "papa"
+      ],
+      "youtube": "https://youtube.com/shorts/gQoBaOkFAd0",
+      "verifiedAt": "2026-10-15",
+      "verification": "Fresh native Studio Public/Published row, no notices"
+    },
+    {
+      "index": 2,
+      "src": "https://youtube.com/shorts/_m2XyzWQD7Q",
+      "title": "Dwarf sculpture from our walk",
+      "status": "public",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.25.46.mp4",
+      "sourceSHA256": "8ec8591a59c507a501f15281536cf5c4bad1d293d2e7e498149b1ee2a47fb38b",
+      "canonicalPlaceIds": [
+        "papa"
+      ],
+      "youtube": "https://youtube.com/shorts/_m2XyzWQD7Q",
+      "verifiedAt": "2026-10-15",
+      "verification": "Fresh native Studio Public/Published row, no notices"
+    },
+    {
+      "index": 3,
+      "src": "https://youtube.com/shorts/Hl6Jbr2fRW4",
+      "title": "Violinist dwarf",
+      "status": "public",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.25.48.mp4",
+      "sourceSHA256": "249a778505b2e5e7304b4d99f12c659d11cbcde281fa8ff4b764fa8df3d5daa8",
+      "canonicalPlaceIds": [
+        "papa"
+      ],
+      "youtube": "https://youtube.com/shorts/Hl6Jbr2fRW4",
+      "verifiedAt": "2026-10-15",
+      "verification": "Fresh native Studio Public/Published row, no notices"
+    },
+    {
+      "index": 4,
+      "src": "https://youtube.com/shorts/ONT976zS3a8",
+      "title": "Saxophonist dwarf",
+      "status": "public",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.25.49.mp4",
+      "sourceSHA256": "8089b24d72159fe88b0d9ca050dd0e3ddabcfb3c42c8b7ab99315dc6fb5c7402",
+      "canonicalPlaceIds": [
+        "papa"
+      ],
+      "youtube": "https://youtube.com/shorts/ONT976zS3a8",
+      "verifiedAt": "2026-10-15",
+      "verification": "Fresh native Studio Public/Published row, no notices"
+    },
+    {
+      "index": 5,
+      "src": "https://youtube.com/shorts/X73FCz5ZhAw",
+      "title": "Harpist dwarf",
+      "status": "public",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.25.51.mp4",
+      "sourceSHA256": "3ede9a554aa14e019454dcc8c9416ed30941a9dbe87ae72adeb3b53f2c41a386",
+      "canonicalPlaceIds": [
+        "papa"
+      ],
+      "youtube": "https://youtube.com/shorts/X73FCz5ZhAw",
+      "verifiedAt": "2026-10-15",
+      "verification": "Fresh native Studio Public/Published row, no notices"
+    },
+    {
+      "index": 6,
+      "src": "https://youtube.com/shorts/MEdz8wAlpME",
+      "title": "Dwarf with a bicycle wheel",
+      "status": "public",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.26.04.mp4",
+      "sourceSHA256": "f141b3681575a8fc09944c7a9737eafe7d9632b19b66d597e784f5e32e4f686d",
+      "canonicalPlaceIds": [
+        "papa"
+      ],
+      "youtube": "https://youtube.com/shorts/MEdz8wAlpME",
+      "verifiedAt": "2026-10-15",
+      "verification": "Fresh native Studio Public/Published row, no notices"
+    }
+  ],
+  "duplicateVisitSource": {
+    "omitted": "WhatsApp Video 2026-10-05 at 18.27.59.mp4",
+    "retained": "WhatsApp Video 2026-10-01 at 09.20.37.mp4",
+    "proof": "Three normalized visual samples and matching walk sequence; compressed same footage"
+  },
+  "pendingVisitCount": 0
+}

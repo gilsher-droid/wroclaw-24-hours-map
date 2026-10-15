@@ -373,5 +373,77 @@
     ],
     "verifiedAt": "2026-10-14",
     "verification": "Native Public visibility and Video Published dialog"
+  },
+  "https://youtube.com/shorts/gQoBaOkFAd0": {
+    "title": "A moment from our dwarf walk",
+    "status": "public",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-01 at 09.20.37.mp4",
+    "sourceSHA256": "859131e3d46a83d86ee9315d493e015e89863f6b506e4a718d1988497ddf3bd9",
+    "canonicalPlaceIds": [
+      "papa"
+    ],
+    "youtube": "https://youtube.com/shorts/gQoBaOkFAd0",
+    "verifiedAt": "2026-10-15",
+    "verification": "Fresh native Studio Public/Published row, no notices"
+  },
+  "https://youtube.com/shorts/_m2XyzWQD7Q": {
+    "title": "Dwarf sculpture from our walk",
+    "status": "public",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.25.46.mp4",
+    "sourceSHA256": "8ec8591a59c507a501f15281536cf5c4bad1d293d2e7e498149b1ee2a47fb38b",
+    "canonicalPlaceIds": [
+      "papa"
+    ],
+    "youtube": "https://youtube.com/shorts/_m2XyzWQD7Q",
+    "verifiedAt": "2026-10-15",
+    "verification": "Fresh native Studio Public/Published row, no notices"
+  },
+  "https://youtube.com/shorts/Hl6Jbr2fRW4": {
+    "title": "Violinist dwarf",
+    "status": "public",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.25.48.mp4",
+    "sourceSHA256": "249a778505b2e5e7304b4d99f12c659d11cbcde281fa8ff4b764fa8df3d5daa8",
+    "canonicalPlaceIds": [
+      "papa"
+    ],
+    "youtube": "https://youtube.com/shorts/Hl6Jbr2fRW4",
+    "verifiedAt": "2026-10-15",
+    "verification": "Fresh native Studio Public/Published row, no notices"
+  },
+  "https://youtube.com/shorts/ONT976zS3a8": {
+    "title": "Saxophonist dwarf",
+    "status": "public",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.25.49.mp4",
+    "sourceSHA256": "8089b24d72159fe88b0d9ca050dd0e3ddabcfb3c42c8b7ab99315dc6fb5c7402",
+    "canonicalPlaceIds": [
+      "papa"
+    ],
+    "youtube": "https://youtube.com/shorts/ONT976zS3a8",
+    "verifiedAt": "2026-10-15",
+    "verification": "Fresh native Studio Public/Published row, no notices"
+  },
+  "https://youtube.com/shorts/X73FCz5ZhAw": {
+    "title": "Harpist dwarf",
+    "status": "public",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.25.51.mp4",
+    "sourceSHA256": "3ede9a554aa14e019454dcc8c9416ed30941a9dbe87ae72adeb3b53f2c41a386",
+    "canonicalPlaceIds": [
+      "papa"
+    ],
+    "youtube": "https://youtube.com/shorts/X73FCz5ZhAw",
+    "verifiedAt": "2026-10-15",
+    "verification": "Fresh native Studio Public/Published row, no notices"
+  },
+  "https://youtube.com/shorts/MEdz8wAlpME": {
+    "title": "Dwarf with a bicycle wheel",
+    "status": "public",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-05 at 18.26.04.mp4",
+    "sourceSHA256": "f141b3681575a8fc09944c7a9737eafe7d9632b19b66d597e784f5e32e4f686d",
+    "canonicalPlaceIds": [
+      "papa"
+    ],
+    "youtube": "https://youtube.com/shorts/MEdz8wAlpME",
+    "verifiedAt": "2026-10-15",
+    "verification": "Fresh native Studio Public/Published row, no notices"
   }
 }
