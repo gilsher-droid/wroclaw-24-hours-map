@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "papa"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/המדריך שלנו/דרדסבא המדרי שלנו באנגלית.mp4",
+      "sourceSHA256": "438b61645d325b044b7788bb8ece50cfcb2f7decaf03c444d5f7e18245759b93",
+      "uploadSHA256": "438b61645d325b044b7788bb8ece50cfcb2f7decaf03c444d5f7e18245759b93",
+      "uploadMethod": "Original MP4 uploaded directly; original picture, audio and orientation preserved",
+      "videoId": "pIzp5Bmb9ck",
+      "visibility": "Public",
+      "durationSeconds": 139.5
+    },
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/המדריך שלנו/דרדסבא - המדריך שלנו בעברית.mp4",
+      "sourceSHA256": "e9b8f6957de490a6c5e06fdb9ca5da1aacf59fb3e5da79bfb8bf3b0653edbc5f",
+      "uploadSHA256": "e9b8f6957de490a6c5e06fdb9ca5da1aacf59fb3e5da79bfb8bf3b0653edbc5f",
+      "uploadMethod": "Original MP4 uploaded directly; original picture, audio and orientation preserved",
+      "videoId": "Eyns7Gj66d0",
+      "visibility": "Public",
+      "durationSeconds": 117.0
+    }
+  },
+  "tracks": {
+    "en": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 3.36,
+          "end": 10.76,
+          "text": "I'm very excited and honored\nto stand near this guy."
+        },
+        {
+          "start": 10.76,
+          "end": 15.58,
+          "text": "Papa Smurf, or in Polish, Papa Krasnal."
+        },
+        {
+          "start": 15.84,
+          "end": 21.26,
+          "text": "As you know, Wrocław is famous\nfor all the little dwarfs"
+        },
+        {
+          "start": 21.26,
+          "end": 27.76,
+          "text": "spread around the city,\nusually at places of interest."
+        },
+        {
+          "start": 27.76,
+          "end": 32.6,
+          "text": "However, the father of all these dwarfs\nis this guy,"
+        },
+        {
+          "start": 32.6,
+          "end": 37.1,
+          "text": "who was put here in 2001."
+        },
+        {
+          "start": 37.8,
+          "end": 42.54,
+          "text": "The story of the dwarfs\nis very interesting. It actually"
+        },
+        {
+          "start": 42.54,
+          "end": 48.78,
+          "text": "started as an anti-communist movement\ncalled Orange Alternative,"
+        },
+        {
+          "start": 48.78,
+          "end": 51.78,
+          "text": "in the 1980s here in Wrocław."
+        },
+        {
+          "start": 51.78,
+          "end": 59.16,
+          "text": "To protest against\nthe communist regime here,"
+        },
+        {
+          "start": 59.16,
+          "end": 64.98,
+          "text": "people dressed up as these dwarfs,\nwearing orange costumes,"
+        },
+        {
+          "start": 64.98,
+          "end": 69.64,
+          "text": "and shouted in the street:\n‘Freedom for the dwarfs!’"
+        },
+        {
+          "start": 70.4,
+          "end": 75.04,
+          "text": "When the police or the authorities"
+        },
+        {
+          "start": 75.04,
+          "end": 78.84,
+          "text": "wanted to stop the protest,"
+        },
+        {
+          "start": 78.84,
+          "end": 84.1,
+          "text": "they arrested a ‘dwarf’\nand put him in a police car."
+        },
+        {
+          "start": 84.1,
+          "end": 91.8,
+          "text": "That looked rather ridiculous and humorous\nin the next day's newspaper."
+        },
+        {
+          "start": 91.8,
+          "end": 97.28,
+          "text": "In this very creative way,\nthe people of Wrocław contributed"
+        },
+        {
+          "start": 97.28,
+          "end": 101.74,
+          "text": "to changing the regime in this city."
+        },
+        {
+          "start": 102.54,
+          "end": 107.32,
+          "text": "I'm very honored\nto present this guy:"
+        },
+        {
+          "start": 107.32,
+          "end": 110.02,
+          "text": "Papa Krasnal, Papa Smurf."
+        },
+        {
+          "start": 110.6,
+          "end": 114.28,
+          "text": "By the way, right next to us"
+        },
+        {
+          "start": 114.28,
+          "end": 118.88,
+          "text": "is Wrocław's cultural centre,\ncalled Barbara."
+        },
+        {
+          "start": 119.9,
+          "end": 124.6,
+          "text": "Wrocław was the European\nCapital of Culture in 2016."
+        },
+        {
+          "start": 124.6,
+          "end": 130.96,
+          "text": "Here you can find\nstudios and a library,"
+        },
+        {
+          "start": 130.96,
+          "end": 135.54,
+          "text": "cultural activities\nand great coffee."
+        },
+        {
+          "start": 136.22,
+          "end": 139.0,
+          "text": "I really recommend coming here.\nDo widzenia!"
+        }
+      ],
+      "srtSHA256": "ee65baf53736a5f21cf2a301c82bcb4071f686a3d215057829291f3b94181fe0",
+      "status": "Published",
+      "verifiedAt": "2026-10-15",
+      "verification": "Native Studio exact SRT loaded into caption editor and Publish completed",
+      "srtFile": "assets/captions/papa-gnomes-en.srt",
+      "videoId": "pIzp5Bmb9ck"
+    },
+    "de": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 3.36,
+          "end": 10.76,
+          "text": "Ich freue mich sehr und fühle mich geehrt,\nneben diesem Kerl zu stehen."
+        },
+        {
+          "start": 10.76,
+          "end": 15.58,
+          "text": "Papa Schlumpf, auf Polnisch Papa Krasnal."
+        },
+        {
+          "start": 15.84,
+          "end": 21.26,
+          "text": "Wie ihr wisst, ist Breslau berühmt\nfür seine kleinen Zwerge,"
+        },
+        {
+          "start": 21.26,
+          "end": 27.76,
+          "text": "die in der ganzen Stadt stehen,\nmeist an interessanten Orten."
+        },
+        {
+          "start": 27.76,
+          "end": 32.6,
+          "text": "Der Vater all dieser Zwerge\nist jedoch dieser Kerl,"
+        },
+        {
+          "start": 32.6,
+          "end": 37.1,
+          "text": "der 2001 hier aufgestellt wurde."
+        },
+        {
+          "start": 37.8,
+          "end": 42.54,
+          "text": "Die Geschichte der Zwerge\nist sehr interessant. Sie"
+        },
+        {
+          "start": 42.54,
+          "end": 48.78,
+          "text": "begann mit einer antikommunistischen Bewegung,\nder Orangen Alternative,"
+        },
+        {
+          "start": 48.78,
+          "end": 51.78,
+          "text": "hier in Breslau in den 1980er-Jahren."
+        },
+        {
+          "start": 51.78,
+          "end": 59.16,
+          "text": "Um gegen das kommunistische Regime\nhier zu protestieren,"
+        },
+        {
+          "start": 59.16,
+          "end": 64.98,
+          "text": "verkleideten sich Menschen als Zwerge\nin orangefarbenen Kostümen"
+        },
+        {
+          "start": 64.98,
+          "end": 69.64,
+          "text": "und riefen auf der Straße:\n„Freiheit für die Zwerge!“"
+        },
+        {
+          "start": 70.4,
+          "end": 75.04,
+          "text": "Wenn die Polizei oder die Behörden"
+        },
+        {
+          "start": 75.04,
+          "end": 78.84,
+          "text": "den Protest beenden wollten,"
+        },
+        {
+          "start": 78.84,
+          "end": 84.1,
+          "text": "verhafteten sie einen „Zwerg“\nund setzten ihn in ein Polizeiauto."
+        },
+        {
+          "start": 84.1,
+          "end": 91.8,
+          "text": "Das wirkte in der Zeitung am nächsten Tag\nziemlich lächerlich und komisch."
+        },
+        {
+          "start": 91.8,
+          "end": 97.28,
+          "text": "Auf diese sehr kreative Weise\ntrugen die Menschen in Breslau"
+        },
+        {
+          "start": 97.28,
+          "end": 101.74,
+          "text": "zum Regimewechsel in dieser Stadt bei."
+        },
+        {
+          "start": 102.54,
+          "end": 107.32,
+          "text": "Es ist mir eine große Ehre,\neuch diesen Kerl vorzustellen:"
+        },
+        {
+          "start": 107.32,
+          "end": 110.02,
+          "text": "Papa Krasnal, Papa Schlumpf."
+        },
+        {
+          "start": 110.6,
+          "end": 114.28,
+          "text": "Übrigens befindet sich direkt neben uns"
+        },
+        {
+          "start": 114.28,
+          "end": 118.88,
+          "text": "Breslaus Kulturzentrum\nnamens Barbara."
+        },
+        {
+          "start": 119.9,
+          "end": 124.6,
+          "text": "Breslau war 2016\nEuropäische Kulturhauptstadt."
+        },
+        {
+          "start": 124.6,
+          "end": 130.96,
+          "text": "Hier findet ihr\nAteliers und eine Bibliothek,"
+        },
+        {
+          "start": 130.96,
+          "end": 135.54,
+          "text": "Kulturangebote\nund guten Kaffee."
+        },
+        {
+          "start": 136.22,
+          "end": 139.0,
+          "text": "Ein Besuch lohnt sich wirklich.\nAuf Wiedersehen!"
+        }
+      ],
+      "srtSHA256": "1b406af05f845b62bf1290fac0ec787022cd7b8a9e1a1a77e9c51ff4477c9fc3",
+      "status": "Published",
+      "verifiedAt": "2026-10-15",
+      "verification": "Native Studio exact SRT loaded into caption editor and Publish completed",
+      "srtFile": "assets/captions/papa-gnomes-de.srt",
+      "videoId": "pIzp5Bmb9ck"
+    },
+    "cs": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 3.36,
+          "end": 10.76,
+          "text": "Jsem nadšený a je mi ctí\nstát vedle tohoto chlapíka."
+        },
+        {
+          "start": 10.76,
+          "end": 15.58,
+          "text": "Taťka Šmoula, polsky Papa Krasnal."
+        },
+        {
+          "start": 15.84,
+          "end": 21.26,
+          "text": "Jak víte, Vratislav je známá\nsvými malými trpaslíky,"
+        },
+        {
+          "start": 21.26,
+          "end": 27.76,
+          "text": "kteří jsou rozmístěni po městě,\nobvykle u zajímavých míst."
+        },
+        {
+          "start": 27.76,
+          "end": 32.6,
+          "text": "Otcem všech těchto trpaslíků\nje ale tento chlapík,"
+        },
+        {
+          "start": 32.6,
+          "end": 37.1,
+          "text": "který sem byl umístěn v roce 2001."
+        },
+        {
+          "start": 37.8,
+          "end": 42.54,
+          "text": "Příběh trpaslíků\nje velmi zajímavý. Vlastně"
+        },
+        {
+          "start": 42.54,
+          "end": 48.78,
+          "text": "začal antikomunistickým hnutím\nzvaným Oranžová alternativa,"
+        },
+        {
+          "start": 48.78,
+          "end": 51.78,
+          "text": "tady ve Vratislavi v osmdesátých letech."
+        },
+        {
+          "start": 51.78,
+          "end": 59.16,
+          "text": "Na protest proti\nzdejšímu komunistickému režimu"
+        },
+        {
+          "start": 59.16,
+          "end": 64.98,
+          "text": "se lidé převlékali za trpaslíky\nv oranžových kostýmech"
+        },
+        {
+          "start": 64.98,
+          "end": 69.64,
+          "text": "a v ulicích volali:\n„Svobodu trpaslíkům!“"
+        },
+        {
+          "start": 70.4,
+          "end": 75.04,
+          "text": "Když policisté nebo úřady"
+        },
+        {
+          "start": 75.04,
+          "end": 78.84,
+          "text": "chtěli protest zastavit,"
+        },
+        {
+          "start": 78.84,
+          "end": 84.1,
+          "text": "zatkli „trpaslíka“\na posadili ho do policejního auta."
+        },
+        {
+          "start": 84.1,
+          "end": 91.8,
+          "text": "V novinách následujícího dne\nto působilo směšně a humorně."
+        },
+        {
+          "start": 91.8,
+          "end": 97.28,
+          "text": "Tímto velmi tvořivým způsobem\nobyvatelé Vratislavi přispěli"
+        },
+        {
+          "start": 97.28,
+          "end": 101.74,
+          "text": "ke změně režimu v tomto městě."
+        },
+        {
+          "start": 102.54,
+          "end": 107.32,
+          "text": "Je mi velkou ctí\nvám představit tohoto chlapíka:"
+        },
+        {
+          "start": 107.32,
+          "end": 110.02,
+          "text": "Papa Krasnal, Taťka Šmoula."
+        },
+        {
+          "start": 110.6,
+          "end": 114.28,
+          "text": "Mimochodem, hned vedle nás"
+        },
+        {
+          "start": 114.28,
+          "end": 118.88,
+          "text": "je vratislavské kulturní centrum\nzvané Barbara."
+        },
+        {
+          "start": 119.9,
+          "end": 124.6,
+          "text": "Vratislav byla v roce 2016\nevropským hlavním městem kultury."
+        },
+        {
+          "start": 124.6,
+          "end": 130.96,
+          "text": "Najdete tu\nateliéry a knihovnu,"
+        },
+        {
+          "start": 130.96,
+          "end": 135.54,
+          "text": "kulturní aktivity\na skvělou kávu."
+        },
+        {
+          "start": 136.22,
+          "end": 139.0,
+          "text": "Návštěvu opravdu doporučuji.\nNa shledanou!"
+        }
+      ],
+      "srtSHA256": "ef6f03d0226716583d1e9578e96f626d694754c2c65f25a277ed6c2d555d5e9e",
+      "status": "Published",
+      "verifiedAt": "2026-10-15",
+      "verification": "Native Studio Published row",
+      "srtFile": "assets/captions/papa-gnomes-cs.srt",
+      "videoId": "pIzp5Bmb9ck"
+    },
+    "pl": {
+      "edition": "en",
+      "cues": [
+        {
+          "start": 3.36,
+          "end": 10.76,
+          "text": "Jestem bardzo podekscytowany i zaszczycony,\nże mogę stanąć obok tego gościa."
+        },
+        {
+          "start": 10.76,
+          "end": 15.58,
+          "text": "Papa Smerf, czyli po polsku Papa Krasnal."
+        },
+        {
+          "start": 15.84,
+          "end": 21.26,
+          "text": "Jak wiecie, Wrocław słynie\nz małych krasnali,"
+        },
+        {
+          "start": 21.26,
+          "end": 27.76,
+          "text": "rozmieszczonych w całym mieście,\nzwykle przy atrakcjach."
+        },
+        {
+          "start": 27.76,
+          "end": 32.6,
+          "text": "Jednak ojcem wszystkich tych krasnali\njest właśnie ten gość,"
+        },
+        {
+          "start": 32.6,
+          "end": 37.1,
+          "text": "który stanął tutaj w 2001 roku."
+        },
+        {
+          "start": 37.8,
+          "end": 42.54,
+          "text": "Historia krasnali\njest bardzo ciekawa. Wszystko"
+        },
+        {
+          "start": 42.54,
+          "end": 48.78,
+          "text": "zaczęło się od antykomunistycznego ruchu\nzwanego Pomarańczową Alternatywą,"
+        },
+        {
+          "start": 48.78,
+          "end": 51.78,
+          "text": "tutaj we Wrocławiu w latach osiemdziesiątych."
+        },
+        {
+          "start": 51.78,
+          "end": 59.16,
+          "text": "Aby zaprotestować przeciwko\ntutejszemu komunistycznemu reżimowi,"
+        },
+        {
+          "start": 59.16,
+          "end": 64.98,
+          "text": "ludzie przebierali się za krasnale\nw pomarańczowych strojach"
+        },
+        {
+          "start": 64.98,
+          "end": 69.64,
+          "text": "i krzyczeli na ulicach:\n„Wolność dla krasnoludków!”"
+        },
+        {
+          "start": 70.4,
+          "end": 75.04,
+          "text": "Gdy policja lub władze"
+        },
+        {
+          "start": 75.04,
+          "end": 78.84,
+          "text": "chciały zatrzymać protest,"
+        },
+        {
+          "start": 78.84,
+          "end": 84.1,
+          "text": "aresztowały „krasnala”\ni wsadzały go do radiowozu."
+        },
+        {
+          "start": 84.1,
+          "end": 91.8,
+          "text": "W gazecie następnego dnia\nwyglądało to dość absurdalnie i zabawnie."
+        },
+        {
+          "start": 91.8,
+          "end": 97.28,
+          "text": "W ten bardzo kreatywny sposób\nmieszkańcy Wrocławia przyczynili się"
+        },
+        {
+          "start": 97.28,
+          "end": 101.74,
+          "text": "do zmiany ustroju w tym mieście."
+        },
+        {
+          "start": 102.54,
+          "end": 107.32,
+          "text": "Jestem zaszczycony,\nże mogę wam przedstawić tego gościa:"
+        },
+        {
+          "start": 107.32,
+          "end": 110.02,
+          "text": "Papa Krasnal, Papa Smerf."
+        },
+        {
+          "start": 110.6,
+          "end": 114.28,
+          "text": "A tak przy okazji, tuż obok nas"
+        },
+        {
+          "start": 114.28,
+          "end": 118.88,
+          "text": "znajduje się wrocławskie centrum kultury\no nazwie Barbara."
+        },
+        {
+          "start": 119.9,
+          "end": 124.6,
+          "text": "Wrocław był w 2016 roku\nEuropejską Stolicą Kultury."
+        },
+        {
+          "start": 124.6,
+          "end": 130.96,
+          "text": "Znajdziecie tu\npracownie i bibliotekę,"
+        },
+        {
+          "start": 130.96,
+          "end": 135.54,
+          "text": "wydarzenia kulturalne\ni świetną kawę."
+        },
+        {
+          "start": 136.22,
+          "end": 139.0,
+          "text": "Naprawdę polecam tu zajrzeć.\nDo widzenia!"
+        }
+      ],
+      "srtSHA256": "1a01433d70b4ebc8c261f8372b9f74419fa12627ed6d974d338235a73e67b7d6",
+      "status": "Published",
+      "verifiedAt": "2026-10-15",
+      "verification": "Native Studio Published row",
+      "srtFile": "assets/captions/papa-gnomes-pl.srt",
+      "videoId": "pIzp5Bmb9ck"
+    },
+    "he": {
+      "edition": "he",
+      "cues": [
+        {
+          "start": 0,
+          "end": 1.6,
+          "text": "צ׳שץ׳!"
+        },
+        {
+          "start": 3.34,
+          "end": 9.96,
+          "text": "אני נרגש מאוד לעמוד ליד\nהאבא של כל הגמדים,"
+        },
+        {
+          "start": 9.96,
+          "end": 12.36,
+          "text": "פאפא קרסנל."
+        },
+        {
+          "start": 12.36,
+          "end": 16.38,
+          "text": "כולנו מכירים את הגמדים\nהמפורסמים של ורוצלב."
+        },
+        {
+          "start": 17.08,
+          "end": 20.08,
+          "text": "בעיר מפוזרים כשלושת אלפים גמדים,"
+        },
+        {
+          "start": 20.08,
+          "end": 23.76,
+          "text": "בדרך כלל במקומות שהם אטרקציות."
+        },
+        {
+          "start": 23.76,
+          "end": 27.94,
+          "text": "אבל הבחור הזה הוא הגמד הראשון בעיר,"
+        },
+        {
+          "start": 27.94,
+          "end": 33.48,
+          "text": "והוא מוצב כאן בשנת אלפיים ואחת.\nועל כן, דרדסבא."
+        },
+        {
+          "start": 34.48,
+          "end": 38.64,
+          "text": "מה שחשוב להבין על הגמדים\nזה שבעצם הכול התחיל"
+        },
+        {
+          "start": 38.64,
+          "end": 44.08,
+          "text": "מתנועה אנטי קומוניסטית בשנות השמונים\nשנקראה,"
+        },
+        {
+          "start": 44.08,
+          "end": 48.32,
+          "text": "או נקראת, אלטרנטיבה כתומה."
+        },
+        {
+          "start": 48.52,
+          "end": 52.7,
+          "text": "בעצם המפגינים כנגד\nהמשטר הקומוניסטי"
+        },
+        {
+          "start": 52.7,
+          "end": 56.74,
+          "text": "לבשו בגדים כתומים\nוהתחפשו לגמדים,"
+        },
+        {
+          "start": 56.74,
+          "end": 59.96,
+          "text": "וצעקו ברחובות: חופש לגמדים!"
+        },
+        {
+          "start": 59.96,
+          "end": 63.8,
+          "text": "ואז, כאשר השוטרים עצרו אותם,"
+        },
+        {
+          "start": 63.8,
+          "end": 67.78,
+          "text": "אזקו אותם והכניסו אותם\nלמכונית המשטרה,"
+        },
+        {
+          "start": 67.78,
+          "end": 73.1,
+          "text": "בבוקר למחרת בעיתון ראו גמד כתום\nנכנס למכונית של שוטר."
+        },
+        {
+          "start": 73.62,
+          "end": 80.02,
+          "text": "וככה הם הציגו בעצם את התנועה הזו\nכמשהו הומוריסטי,"
+        },
+        {
+          "start": 80.02,
+          "end": 84.56,
+          "text": "יצירתי. הם גם ריססו גרפיטי\nבכל העיר של הגמדים האלו."
+        },
+        {
+          "start": 84.56,
+          "end": 88.46,
+          "text": "ובסופו של דבר, זה הוביל\nלקריסת המשטר הקומוניסטי."
+        },
+        {
+          "start": 88.96,
+          "end": 92.94,
+          "text": "אני גם נמצא כאן ליד\nמרכז תרבות שנקרא ברברה,"
+        },
+        {
+          "start": 92.94,
+          "end": 98.06,
+          "text": "שהוא מקום מאוד חשוב בוורוצלב,\nשנבחרה לבירת התרבות בשנת אלפיים ושש עשרה."
+        },
+        {
+          "start": 98.84,
+          "end": 104.4,
+          "text": "בתוך המרחב הזה ישנם סטודיואים,\nפעילויות תיירותיות,"
+        },
+        {
+          "start": 104.4,
+          "end": 107.38,
+          "text": "ספרייה וגם אחלה קפה."
+        },
+        {
+          "start": 108,
+          "end": 112.74,
+          "text": "אז אני ממליץ מאוד להגיע לכאן,\nולא לשכוח להגיד שלום לדרדסבא."
+        },
+        {
+          "start": 112.74,
+          "end": 115.16,
+          "text": "נתראה בווידאו הבא!"
+        },
+        {
+          "start": 115.26,
+          "end": 116.4,
+          "text": "דו וידזניה!"
+        }
+      ],
+      "srtSHA256": "f7096959e2072b46c56c998c75b335efa8f216b990f3683b0937e4e93fb383f6",
+      "status": "Published",
+      "verifiedAt": "2026-10-15",
+      "verification": "Native Studio Hebrew details manual caption row Published",
+      "srtFile": "assets/captions/papa-gnomes-he.srt",
+      "videoId": "Eyns7Gj66d0"
+    }
+  },
+  "method": "Source audio local ASR with word timestamps; corrected proper names and recognition errors, translated actual narrative. Claims retained as spoken rather than substituted. Original picture/audio untouched."
+}

@@ -138,6 +138,25 @@
       },
       "verifiedAt": "2026-10-14",
       "method": "Native Studio Published manual rows verified; both source auto replacements explicitly approved"
+    },
+    {
+      "place": "papa",
+      "videos": {
+        "en": "pIzp5Bmb9ck",
+        "he": "Eyns7Gj66d0"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-15",
+      "method": "Native YouTube Studio Published tracks; exact manual SRT with source timing"
     }
   ]
 }
