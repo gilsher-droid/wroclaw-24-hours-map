@@ -5,6 +5,17 @@ import {resolve} from 'node:path';
 import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
 const root=resolve(import.meta.dirname,'..');
+test('Papa primary social destinations open the verified written galleries in every map language',()=>{
+ const w=runtime(),p=w.WROC_CATALOG.getPlace('papa');
+ const expected=JSON.parse(readFileSync(resolve(root,'tests/fixtures/papa-written-social.json'),'utf8'));
+ for(const [language,platforms] of Object.entries(expected))for(const [platform,url] of Object.entries(platforms)){
+  const post=w.WROC_CATALOG.getSocialPost(p,platform,language);
+  assert.equal(post.url,url,`${language} ${platform}`);
+  assert.equal(post.context,'papa-original-photo-gallery');
+  assert.ok(!/\/(reel|reels|stories)\//.test(post.url));
+ }
+ assert.ok(p.socialPosts.some(post=>/\/reel\//.test(post.url)),'Historical reels stay available');
+});
 function runtime(){const window={location:{origin:'https://wroc-love.com'}};const document={documentElement:{lang:'he'},addEventListener(){}};for(const f of ['data/place-catalog.js','data/youtube-video-hosting.js','youtube-video.js','guide-video.js','data/location-media.js'])runInNewContext(readFileSync(resolve(root,f),'utf8'),{window,document,console,URLSearchParams});return window;}
 test('Papa point holds the complete deduplicated dwarf picture collection and keeps the information centre independent',()=>{
  const w=runtime(),p=w.WROC_CATALOG.getPlace('papa');assert.equal(p.media.photos.length,20);assert.equal(new Set(p.media.photos).size,20);
