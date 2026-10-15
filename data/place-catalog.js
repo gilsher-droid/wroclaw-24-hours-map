@@ -16123,6 +16123,86 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/reel/1070421675754597/",
+        "account": "61591964083308",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/reel/Deg9DeAESLG/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/reel/2431843240972340/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/reel/Deg5oQxje2e/",
+        "account": "wroclaw.lowersilesia",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/reel/2849187188782321/",
+        "account": "61595239823399",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/reel/DehOI7JF2QH/",
+        "account": "wroclaw.lowersilesia.de",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/reel/28609747382011075/",
+        "account": "61594716405964",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/reel/DehPsNUgqU_/",
+        "account": "wroclaw.lowersilesia.cs",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/reel/1110948581332218/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/reel/DehQeMpCWYI/",
+        "account": "wroclaw.lowersilesia.pl",
+        "verifiedAt": "2026-10-15",
+        "context": "papa-original-guide-reel"
+      },
+      {
+        "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0dUNjrGVfQjypVpKTbfMGAfkApADNwECnsC32VoMZs7DhGYaR782UcJHPtbL1KcrAl&id=61595036942289",
         "verifiedAt": "2026-10-07"
