@@ -119,3 +119,27 @@ button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
 .walk-stop-button { display:flex; align-items:center; gap:12px; border:0; background:transparent; color:inherit; text-align:start; font:inherit; cursor:pointer; }
 .itinerary-stop:hover,.walk-stop-button:hover { background:#eaf2f8; }
 .itinerary-stop:focus-visible,.walk-stop-button:focus-visible,.show-on-map:focus-visible,.map-toolbar button:focus-visible { outline:3px solid var(--gold); outline-offset:3px; }
+
+/* A single viewer for every photo and YouTube visit clip of the selected place. */
+.place-cover-button,.place-photo-button { display:block; width:100%; padding:0; border:0; background:none; cursor:zoom-in; }
+.place-cover-button img { display:block; }
+.place-photo-button:focus-visible,.place-cover-button:focus-visible { outline:3px solid #2578bd; outline-offset:-3px; }
+.excursion-media-open { overflow:hidden; }
+.excursion-media-dialog { width:min(960px,calc(100vw - 24px)); max-width:none; max-height:calc(100dvh - 24px); box-sizing:border-box; padding:16px; border:0; border-radius:18px; color:#062b5c; background:#fff; }
+.excursion-media-dialog::backdrop { background:#00172fda; }
+.excursion-media-dialog header { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.excursion-media-dialog h2 { margin:0; font-size:18px; line-height:1.35; }
+.excursion-media-dialog button { min-height:44px; padding:7px 14px; border:1px solid #d5dce7; border-radius:9px; background:#fff; color:#062b5c; font:700 14px Arial,sans-serif; cursor:pointer; }
+.excursion-media-dialog button:focus-visible { outline:3px solid #d6a657; outline-offset:2px; }
+.excursion-media-dialog button:disabled { opacity:.4; cursor:default; }
+.excursion-media-tabs { display:flex; gap:8px; margin:10px 0; }
+.excursion-media-tabs button[aria-pressed="true"] { background:#062b5c; color:#fff; }
+.excursion-media-stage { display:grid; place-items:center; height:min(60dvh,620px); background:#071c35; border-radius:10px; overflow:hidden; touch-action:pan-y; }
+.excursion-media-stage img { width:100%; height:100%; min-height:0; object-fit:contain; }
+.excursion-media-stage iframe { width:100%; height:100%; border:0; }
+.excursion-media-stage .youtube-video-pending { color:white; padding:20px; }
+.excursion-media-controls { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:10px; }
+.excursion-gallery-actions { margin-block:12px; }
+@media(max-width:640px) { .excursion-media-dialog { padding:10px; } .excursion-media-dialog h2 { font-size:15px; } .excursion-media-stage { height:55dvh; } }
+
+.excursion-place-popup .place-actions button { border:1px solid #d5dce7; background:#fff; color:#062b5c; font:inherit; cursor:pointer; }
