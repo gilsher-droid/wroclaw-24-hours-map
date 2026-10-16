@@ -43,7 +43,7 @@ h1 { margin:0 0 24px; font:700 clamp(44px,6vw,76px)/1.04 Georgia,serif; }
 #brzeg-walk-map { width:100%; height:420px; margin-top:20px; border-radius:18px; overflow:hidden; }
 .walk-stops { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; padding:0; margin:22px 0 0; list-style:none; }
 .walk-stops li { display:flex; align-items:center; gap:12px; padding:12px; border:1px solid var(--line); border-radius:12px; }
-.walk-stops strong,.walk-marker span { display:grid; place-items:center; flex:0 0 30px; width:30px; height:30px; border-radius:50%; background:#c55b2f; color:white; font-weight:900; }
+.walk-stops strong,.walk-marker > span:first-child { display:grid; place-items:center; flex:0 0 30px; width:30px; height:30px; border-radius:50%; background:#c55b2f; color:white; font-weight:900; }
 .walk-marker { border:0; background:transparent; }
 .place-copy video { display:block; width:100%; max-height:240px; margin-top:18px; border-radius:12px; background:#111; }
 .excursion-content { width:min(1180px,calc(100% - 36px)); margin:0 auto; padding:78px 0 92px; }
@@ -61,8 +61,11 @@ h2 { margin:0; font:700 clamp(32px,4vw,50px)/1.15 Georgia,serif; }
 .route-link { padding:14px 18px; border-radius:14px; background:var(--navy); color:white; font-weight:800; text-decoration:none; }
 #excursion-map { width:100%; height:520px; overflow:hidden; border:8px solid white; border-radius:28px; box-shadow:0 20px 55px rgba(3,29,61,.12); }
 .route-marker { background:transparent; border:0; }
-.route-marker span { display:grid; place-items:center; width:42px; height:42px; border:3px solid white; border-radius:50% 50% 50% 10%; background:var(--navy); color:white; font-weight:900; transform:rotate(-45deg); box-shadow:0 4px 12px rgba(0,0,0,.24); }
-.route-marker span::first-line { transform:rotate(45deg); }
+/* Keep the numbered pin separate from accessory badges. */
+.route-marker > span:first-child { position:relative; z-index:0; display:grid; place-items:center; width:42px; height:42px; color:white; font-weight:900; }
+.route-marker > span:first-child::before { content:""; position:absolute; inset:0; z-index:-1; box-sizing:border-box; border:3px solid white; border-radius:50% 50% 50% 10%; background:var(--navy); transform:rotate(-45deg); box-shadow:0 4px 12px rgba(0,0,0,.24); }
+.route-marker.guide-marker-shell::before,.walk-marker.guide-marker-shell::before { content:none; }
+.route-marker > .guide-marker-badge,.walk-marker > .guide-marker-badge { position:absolute; top:-5px; left:auto; right:-5px; width:18px; height:18px; border:2px solid white; border-radius:50%; background:var(--navy); color:var(--gold); font:700 9px/1 Arial,sans-serif; transform:none; box-shadow:0 1px 4px #001c3e55; }
 .map-note { max-width:900px; margin:18px 0 0; color:var(--muted); line-height:1.7; }
 .itinerary { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; padding:0; margin:28px 0 0; list-style:none; }
 .itinerary li { min-height:116px; padding:22px; border:1px solid var(--line); border-radius:20px; background:white; display:flex; align-items:center; gap:16px; }
