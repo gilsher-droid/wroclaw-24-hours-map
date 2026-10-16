@@ -10499,16 +10499,12 @@
         "/assets/excursion-three/jelenia-gora-market-square-22.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-23.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-24.jpg",
-        "/assets/excursion-three/jelenia-gora-market-square-25.jpg",
-        "/assets/excursion-three/jelenia-gora-market-square-26.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-27.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-28.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-29.jpg",
-        "/assets/excursion-three/jelenia-gora-market-square-30.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-31.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-32.jpg",
-        "/assets/excursion-three/jelenia-gora-market-square-33.jpg",
-        "/assets/excursion-three/jelenia-gora-market-square-34.jpg"
+        "/assets/excursion-three/jelenia-gora-market-square-33.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/evb3VZTBi70",
@@ -10620,14 +10616,6 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31 (1).jpeg",
           "original": true
         },
-        "/assets/excursion-three/jelenia-gora-market-square-25.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31 (2).jpeg",
-          "original": true
-        },
-        "/assets/excursion-three/jelenia-gora-market-square-26.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31.jpeg",
-          "original": true
-        },
         "/assets/excursion-three/jelenia-gora-market-square-27.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.32 (1).jpeg",
           "original": true
@@ -10640,10 +10628,6 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33 (1).jpeg",
           "original": true
         },
-        "/assets/excursion-three/jelenia-gora-market-square-30.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33 (2).jpeg",
-          "original": true
-        },
         "/assets/excursion-three/jelenia-gora-market-square-31.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33.jpeg",
           "original": true
@@ -10654,10 +10638,6 @@
         },
         "/assets/excursion-three/jelenia-gora-market-square-33.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.36.jpeg",
-          "original": true
-        },
-        "/assets/excursion-three/jelenia-gora-market-square-34.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.09.jpeg",
           "original": true
         },
         "https://youtube.com/shorts/evb3VZTBi70": {
@@ -11652,7 +11632,6 @@
         "/assets/excursion-three/karpacz-centre-01.jpg",
         "/assets/excursion-three/karpacz-centre-02.jpg",
         "/assets/excursion-three/karpacz-centre-03.jpg",
-        "/assets/excursion-three/karpacz-centre-04.jpg",
         "/assets/excursion-three/karpacz-centre-05.jpg",
         "/assets/excursion-three/karpacz-centre-06.jpg",
         "/assets/excursion-three/karpacz-centre-07.jpg",
@@ -11661,16 +11640,13 @@
         "/assets/excursion-three/karpacz-centre-10.jpg",
         "/assets/excursion-three/karpacz-centre-11.jpg",
         "/assets/excursion-three/karpacz-centre-12.jpg",
-        "/assets/excursion-three/karpacz-centre-13.jpg",
         "/assets/excursion-three/karpacz-centre-14.jpg",
         "/assets/excursion-three/karpacz-centre-15.jpg",
         "/assets/excursion-three/karpacz-centre-16.jpg",
         "/assets/excursion-three/karpacz-centre-17.jpg",
         "/assets/excursion-three/karpacz-centre-18.jpg",
         "/assets/excursion-three/karpacz-centre-19.jpg",
-        "/assets/excursion-three/karpacz-centre-20.jpg",
-        "/assets/excursion-three/karpacz-centre-21.jpg",
-        "/assets/excursion-three/karpacz-centre-22.jpg"
+        "/assets/excursion-three/karpacz-centre-20.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/j3ORWLifr1o",
@@ -11702,10 +11678,6 @@
         },
         "/assets/excursion-three/karpacz-centre-03.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14 (1).jpeg",
-          "original": true
-        },
-        "/assets/excursion-three/karpacz-centre-04.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
           "original": true
         },
         "/assets/excursion-three/karpacz-centre-05.jpg": {
@@ -11740,10 +11712,6 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
           "original": true
         },
-        "/assets/excursion-three/karpacz-centre-13.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
-          "original": true
-        },
         "/assets/excursion-three/karpacz-centre-14.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (3).jpeg",
           "original": true
@@ -11770,14 +11738,6 @@
         },
         "/assets/excursion-three/karpacz-centre-20.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (1).jpeg",
-          "original": true
-        },
-        "/assets/excursion-three/karpacz-centre-21.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
-          "original": true
-        },
-        "/assets/excursion-three/karpacz-centre-22.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (6).jpeg",
           "original": true
         },
         "https://youtube.com/shorts/j3ORWLifr1o": {
@@ -23674,13 +23634,10 @@
       "photos": [
         "/assets/excursion-three/wang-church-01.jpg",
         "/assets/excursion-three/wang-church-02.jpg",
-        "/assets/excursion-three/wang-church-03.jpg",
-        "/assets/excursion-three/wang-church-04.jpg",
         "/assets/excursion-three/wang-church-05.jpg",
         "/assets/excursion-three/wang-church-06.jpg",
         "/assets/excursion-three/wang-church-07.jpg",
         "/assets/excursion-three/wang-church-08.jpg",
-        "/assets/excursion-three/wang-church-09.jpg",
         "/assets/excursion-three/wang-church-10.jpg",
         "/assets/excursion-three/wang-church-11.jpg",
         "/assets/excursion-three/wang-church-12.jpg",
@@ -23728,14 +23685,6 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.47.jpeg",
           "original": true
         },
-        "/assets/excursion-three/wang-church-03.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
-          "original": true
-        },
-        "/assets/excursion-three/wang-church-04.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50.jpeg",
-          "original": true
-        },
         "/assets/excursion-three/wang-church-05.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (2).jpeg",
           "original": true
@@ -23750,10 +23699,6 @@
         },
         "/assets/excursion-three/wang-church-08.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (5).jpeg",
-          "original": true
-        },
-        "/assets/excursion-three/wang-church-09.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (6).jpeg",
           "original": true
         },
         "/assets/excursion-three/wang-church-10.jpg": {

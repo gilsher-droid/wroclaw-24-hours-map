@@ -40,3 +40,7 @@ User requires paid-ad headlines, website link titles and previews to match audie
 ## Immediate missing place post publication (2026-10-06)
 
 User explicitly requires the map point to open a published post about the same place in the selected language. Publish missing localized place posts now, without waiting days for the scheduled series. If the corresponding post is already scheduled, bring it forward instead of duplicating it. Then record its actual public permalink in the localized social registry and deploy. Channel fallback is temporary and not completion.
+
+## No family photographs on the public website (2026-10-16)
+
+The user explicitly prohibits family photos on the website. Exclude personal posed portraits and family images from place galleries, teasers and publication artifacts. Preserve all original personal files. Guide videos intentionally featuring our guide remain authorized. Record excluded originals and prevent their optimized copies from re-entering canonical media.

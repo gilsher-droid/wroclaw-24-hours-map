@@ -865,18 +865,6 @@
       "outputSHA256": "4ebadff124cdefc8fbb68f71754ec32291b66c655709db6eb5f22c2692dbcd99"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
-      "sha256": "2b56207fe36a2b83cd508c973aad9dba1956084ce8d1a953229f52b1324e13fc",
-      "type": "photo",
-      "group": "karpacz",
-      "guide": false,
-      "excluded": false,
-      "place": "karpacz-centre",
-      "contactIndex": 3,
-      "asset": "/assets/excursion-three/karpacz-centre-04.jpg",
-      "outputSHA256": "ef2766660e0e396596b1d6bbc7169fd48e96c3f772c61dd185a3ebc373e757ae"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.15.jpeg",
       "sha256": "c9395e53246d3f0398f7e581ad629fa8bd2a622856949ad10414f57f6b059ec5",
       "type": "photo",
@@ -973,18 +961,6 @@
       "outputSHA256": "467a7c4a4d5050fe57632a6723eb5d521e1cc557e075318d8df5db2768e26f51"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
-      "sha256": "7026b4cf4d91069ec380900a18a0862244fd9e933deda241146703eeb00d7006",
-      "type": "photo",
-      "group": "karpacz",
-      "guide": false,
-      "excluded": false,
-      "place": "karpacz-centre",
-      "contactIndex": 13,
-      "asset": "/assets/excursion-three/karpacz-centre-13.jpg",
-      "outputSHA256": "e6e9ebdd769be8a5543a7a562677391280f06cfb23fd6e683a73403355d4056f"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (3).jpeg",
       "sha256": "4ec3dc74d4a3adc631b0cd0083be796fd747ab62ea0a0dd6c871f75207faa7c2",
       "type": "photo",
@@ -1069,30 +1045,6 @@
       "outputSHA256": "27f0e86120bf050b0025002af9763a2c601de33ba6f67e01b4668cde168b3a14"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
-      "sha256": "d0ea5d6f52e599cd2c380ef50efa34771c3a255cac8b7d434e81259d7d245be7",
-      "type": "photo",
-      "group": "karpacz",
-      "guide": false,
-      "excluded": false,
-      "place": "karpacz-centre",
-      "contactIndex": 21,
-      "asset": "/assets/excursion-three/karpacz-centre-21.jpg",
-      "outputSHA256": "e37f7f4e405bd42fea1026c0ac6114172d9c0709e38273fe1c243183619706d9"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (6).jpeg",
-      "sha256": "fce41d73a6466923c01a89bfa9a76d5f514aa206380d347f395bab1c25f668e3",
-      "type": "photo",
-      "group": "karpacz",
-      "guide": false,
-      "excluded": false,
-      "place": "karpacz-centre",
-      "contactIndex": 22,
-      "asset": "/assets/excursion-three/karpacz-centre-22.jpg",
-      "outputSHA256": "36be2c2dcd33bbb2236cd4bfe7f9702082c5dfde201e7f3383b9483d3a5a1c8d"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (1).jpeg",
       "sha256": "5e1a7b1e8f3ea1e0d9a8c67bae803cd0a6dd6b8d4a6d0a9e5ee61605117c79aa",
       "type": "photo",
@@ -1115,30 +1067,6 @@
       "contactIndex": 1,
       "asset": "/assets/excursion-three/wang-church-02.jpg",
       "outputSHA256": "d999467d92556c5968a78e6dc17db515dd348671d2715fbd9ed220ad3474b0c3"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
-      "sha256": "be42a064d88f08d5150b215423bf1c12ca48f12ee74f6c86e6230bd4eea7cda8",
-      "type": "photo",
-      "group": "wang",
-      "guide": false,
-      "excluded": false,
-      "place": "wang-church",
-      "contactIndex": 2,
-      "asset": "/assets/excursion-three/wang-church-03.jpg",
-      "outputSHA256": "6c5df0d73cc8902e1232fa9227eccbc30666904a9f759b53f8b1c53eb5eea046"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50.jpeg",
-      "sha256": "347191f2766371377dbd4b8b4bb3a9d33e350301d069a75920a03aeeff3ff3be",
-      "type": "photo",
-      "group": "wang",
-      "guide": false,
-      "excluded": false,
-      "place": "wang-church",
-      "contactIndex": 3,
-      "asset": "/assets/excursion-three/wang-church-04.jpg",
-      "outputSHA256": "519161ac84a45e791f40099532cf5677e5c4643bc36d4ed0255725af96d3c426"
     },
     {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (2).jpeg",
@@ -1187,18 +1115,6 @@
       "contactIndex": 8,
       "asset": "/assets/excursion-three/wang-church-08.jpg",
       "outputSHA256": "474bc30e78278dd398c7f722199be8b92dc834fc1d238173b06d727fa3b3ac29"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (6).jpeg",
-      "sha256": "df45e3a7587ba72a506a379f583d1026e20be2ed5e694247074af6f0fd34b97b",
-      "type": "photo",
-      "group": "wang",
-      "guide": false,
-      "excluded": false,
-      "place": "wang-church",
-      "contactIndex": 9,
-      "asset": "/assets/excursion-three/wang-church-09.jpg",
-      "outputSHA256": "825d44a9dad3141d9e630fd8b5451863d466055a9bc105b9a8cb5dd6073578fb"
     },
     {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56.jpeg",
@@ -1585,30 +1501,6 @@
       "outputSHA256": "9154ffa10437d98eab01c8c742e6293df52935311cd4fe97061188bd4669d972"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31 (2).jpeg",
-      "sha256": "e086995a6720529689bbf90acd73cc2b7eb37a854371ca98cd7c556392905598",
-      "type": "photo",
-      "group": "jelenia",
-      "guide": false,
-      "excluded": false,
-      "place": "jelenia-gora-market-square",
-      "contactIndex": 25,
-      "asset": "/assets/excursion-three/jelenia-gora-market-square-25.jpg",
-      "outputSHA256": "5a192ec4b823ed5daea96af664fa4bf7439f98d17a57465c1c269fa697fb09ce"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31.jpeg",
-      "sha256": "46b0d26b145db9e85d70a06e7f6eff637d37297c54d12ac867b7f110988d0a16",
-      "type": "photo",
-      "group": "jelenia",
-      "guide": false,
-      "excluded": false,
-      "place": "jelenia-gora-market-square",
-      "contactIndex": 26,
-      "asset": "/assets/excursion-three/jelenia-gora-market-square-26.jpg",
-      "outputSHA256": "f7d929961d5f1367bac6e2c3cdf9060a278e3f2cb66389bcd6ad90b606305f55"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.32 (1).jpeg",
       "sha256": "141ebfe5c06ed59e075925ae2bc646e69ef62875045d1b68405bd175ed7131c2",
       "type": "photo",
@@ -1645,18 +1537,6 @@
       "outputSHA256": "360a68de441a1f68534913af37feabc37a6705b37fa753303c42e515644d5a8f"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33 (2).jpeg",
-      "sha256": "55a1063849109bc82eaecd93bc4c488726e850dd84cc8485b2c2276857fc5c58",
-      "type": "photo",
-      "group": "jelenia",
-      "guide": false,
-      "excluded": false,
-      "place": "jelenia-gora-market-square",
-      "contactIndex": 30,
-      "asset": "/assets/excursion-three/jelenia-gora-market-square-30.jpg",
-      "outputSHA256": "689c47c4338538f6e40cc3f0092be3d77145ac1eed4271ad5a62ebe8fe6d96e1"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33.jpeg",
       "sha256": "678026b024937e35fdaf69eb0b4d6bed5e8856277702f7ac18f69348c8a735f8",
       "type": "photo",
@@ -1691,18 +1571,6 @@
       "contactIndex": 34,
       "asset": "/assets/excursion-three/jelenia-gora-market-square-33.jpg",
       "outputSHA256": "0c7c2fe25d29d020f79d9c740c2dce0dd8838ab950139b4bd65cdecab07728f9"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.09.jpeg",
-      "sha256": "b5b6b486b6ac191b6796f6a311b85810ff7bb1a04b114d1693d60209de0fbefc",
-      "type": "photo",
-      "group": "jelenia",
-      "guide": false,
-      "excluded": false,
-      "place": "jelenia-gora-market-square",
-      "contactIndex": 36,
-      "asset": "/assets/excursion-three/jelenia-gora-market-square-34.jpg",
-      "outputSHA256": "6fc2c34928e8125ce46dde7425c333237583e2ac9e153037aba2a3f2af87eb6f"
     }
   ],
   "excluded": [
@@ -1753,6 +1621,149 @@
       "excluded": false,
       "hold": "Road/approach context, not identified as old-town point",
       "contactIndex": 38
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50.jpeg",
+      "sha256": "347191f2766371377dbd4b8b4bb3a9d33e350301d069a75920a03aeeff3ff3be",
+      "type": "photo",
+      "group": "wang",
+      "guide": false,
+      "excluded": true,
+      "place": "wang-church",
+      "contactIndex": 3,
+      "asset": "/assets/excursion-three/wang-church-04.jpg",
+      "outputSHA256": "519161ac84a45e791f40099532cf5677e5c4643bc36d4ed0255725af96d3c426",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (6).jpeg",
+      "sha256": "df45e3a7587ba72a506a379f583d1026e20be2ed5e694247074af6f0fd34b97b",
+      "type": "photo",
+      "group": "wang",
+      "guide": false,
+      "excluded": true,
+      "place": "wang-church",
+      "contactIndex": 9,
+      "asset": "/assets/excursion-three/wang-church-09.jpg",
+      "outputSHA256": "825d44a9dad3141d9e630fd8b5451863d466055a9bc105b9a8cb5dd6073578fb",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31 (2).jpeg",
+      "sha256": "e086995a6720529689bbf90acd73cc2b7eb37a854371ca98cd7c556392905598",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": true,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 25,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-25.jpg",
+      "outputSHA256": "5a192ec4b823ed5daea96af664fa4bf7439f98d17a57465c1c269fa697fb09ce",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31.jpeg",
+      "sha256": "46b0d26b145db9e85d70a06e7f6eff637d37297c54d12ac867b7f110988d0a16",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": true,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 26,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-26.jpg",
+      "outputSHA256": "f7d929961d5f1367bac6e2c3cdf9060a278e3f2cb66389bcd6ad90b606305f55",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33 (2).jpeg",
+      "sha256": "55a1063849109bc82eaecd93bc4c488726e850dd84cc8485b2c2276857fc5c58",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": true,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 30,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-30.jpg",
+      "outputSHA256": "689c47c4338538f6e40cc3f0092be3d77145ac1eed4271ad5a62ebe8fe6d96e1",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.09.jpeg",
+      "sha256": "b5b6b486b6ac191b6796f6a311b85810ff7bb1a04b114d1693d60209de0fbefc",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": true,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 36,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-34.jpg",
+      "outputSHA256": "6fc2c34928e8125ce46dde7425c333237583e2ac9e153037aba2a3f2af87eb6f",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
+      "sha256": "2b56207fe36a2b83cd508c973aad9dba1956084ce8d1a953229f52b1324e13fc",
+      "type": "photo",
+      "group": "karpacz",
+      "guide": false,
+      "excluded": true,
+      "place": "karpacz-centre",
+      "contactIndex": 3,
+      "asset": "/assets/excursion-three/karpacz-centre-04.jpg",
+      "outputSHA256": "ef2766660e0e396596b1d6bbc7169fd48e96c3f772c61dd185a3ebc373e757ae",
+      "reason": "Personal visit/gear or roadside/private lodging imagery, without a very-high-certainty match to the exact public landmark gallery; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
+      "sha256": "7026b4cf4d91069ec380900a18a0862244fd9e933deda241146703eeb00d7006",
+      "type": "photo",
+      "group": "karpacz",
+      "guide": false,
+      "excluded": true,
+      "place": "karpacz-centre",
+      "contactIndex": 13,
+      "asset": "/assets/excursion-three/karpacz-centre-13.jpg",
+      "outputSHA256": "e6e9ebdd769be8a5543a7a562677391280f06cfb23fd6e683a73403355d4056f",
+      "reason": "Personal visit/gear or roadside/private lodging imagery, without a very-high-certainty match to the exact public landmark gallery; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
+      "sha256": "d0ea5d6f52e599cd2c380ef50efa34771c3a255cac8b7d434e81259d7d245be7",
+      "type": "photo",
+      "group": "karpacz",
+      "guide": false,
+      "excluded": true,
+      "place": "karpacz-centre",
+      "contactIndex": 21,
+      "asset": "/assets/excursion-three/karpacz-centre-21.jpg",
+      "outputSHA256": "e37f7f4e405bd42fea1026c0ac6114172d9c0709e38273fe1c243183619706d9",
+      "reason": "Personal visit/gear or roadside/private lodging imagery, without a very-high-certainty match to the exact public landmark gallery; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (6).jpeg",
+      "sha256": "fce41d73a6466923c01a89bfa9a76d5f514aa206380d347f395bab1c25f668e3",
+      "type": "photo",
+      "group": "karpacz",
+      "guide": false,
+      "excluded": true,
+      "place": "karpacz-centre",
+      "contactIndex": 22,
+      "asset": "/assets/excursion-three/karpacz-centre-22.jpg",
+      "outputSHA256": "36be2c2dcd33bbb2236cd4bfe7f9702082c5dfde201e7f3383b9483d3a5a1c8d",
+      "reason": "Personal visit/gear or roadside/private lodging imagery, without a very-high-certainty match to the exact public landmark gallery; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
+      "sha256": "be42a064d88f08d5150b215423bf1c12ca48f12ee74f6c86e6230bd4eea7cda8",
+      "type": "photo",
+      "group": "wang",
+      "guide": false,
+      "excluded": true,
+      "place": "wang-church",
+      "contactIndex": 2,
+      "asset": "/assets/excursion-three/wang-church-03.jpg",
+      "outputSHA256": "6c5df0d73cc8902e1232fa9227eccbc30666904a9f759b53f8b1c53eb5eea046",
+      "reason": "Personal visit/gear or roadside/private lodging imagery, without a very-high-certainty match to the exact public landmark gallery; original preserved"
     }
   ],
   "duplicates": [
