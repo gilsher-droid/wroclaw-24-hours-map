@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-16",
+  "reason": "User prohibits family photos on website. Conservatively exclude these six personal posed photos. Preserve original files.",
+  "photos": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50.jpeg",
+      "sha256": "347191f2766371377dbd4b8b4bb3a9d33e350301d069a75920a03aeeff3ff3be",
+      "type": "photo",
+      "group": "wang",
+      "guide": false,
+      "excluded": true,
+      "place": "wang-church",
+      "contactIndex": 3,
+      "asset": "/assets/excursion-three/wang-church-04.jpg",
+      "outputSHA256": "519161ac84a45e791f40099532cf5677e5c4643bc36d4ed0255725af96d3c426",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (6).jpeg",
+      "sha256": "df45e3a7587ba72a506a379f583d1026e20be2ed5e694247074af6f0fd34b97b",
+      "type": "photo",
+      "group": "wang",
+      "guide": false,
+      "excluded": true,
+      "place": "wang-church",
+      "contactIndex": 9,
+      "asset": "/assets/excursion-three/wang-church-09.jpg",
+      "outputSHA256": "825d44a9dad3141d9e630fd8b5451863d466055a9bc105b9a8cb5dd6073578fb",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31 (2).jpeg",
+      "sha256": "e086995a6720529689bbf90acd73cc2b7eb37a854371ca98cd7c556392905598",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": true,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 25,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-25.jpg",
+      "outputSHA256": "5a192ec4b823ed5daea96af664fa4bf7439f98d17a57465c1c269fa697fb09ce",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31.jpeg",
+      "sha256": "46b0d26b145db9e85d70a06e7f6eff637d37297c54d12ac867b7f110988d0a16",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": true,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 26,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-26.jpg",
+      "outputSHA256": "f7d929961d5f1367bac6e2c3cdf9060a278e3f2cb66389bcd6ad90b606305f55",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33 (2).jpeg",
+      "sha256": "55a1063849109bc82eaecd93bc4c488726e850dd84cc8485b2c2276857fc5c58",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": true,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 30,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-30.jpg",
+      "outputSHA256": "689c47c4338538f6e40cc3f0092be3d77145ac1eed4271ad5a62ebe8fe6d96e1",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.09.jpeg",
+      "sha256": "b5b6b486b6ac191b6796f6a311b85810ff7bb1a04b114d1693d60209de0fbefc",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": true,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 36,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-34.jpg",
+      "outputSHA256": "6fc2c34928e8125ce46dde7425c333237583e2ac9e153037aba2a3f2af87eb6f",
+      "reason": "Personal posed photograph excluded from public website by user instruction 2026-10-16; original preserved"
+    }
+  ]
+}

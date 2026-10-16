@@ -20,9 +20,9 @@ test('Third excursion preserves the human visit order with Wang separate from Ka
 });
 test('Excursion photos have unique verified source hashes and intact optimized assets',()=>{
  const w=load(),provenance=JSON.parse(readFileSync('data/excursion-three-media-provenance.json'));const photos=provenance.photos;
- assert.equal(photos.length,142);assert.equal(new Set(photos.map(x=>x.sha256)).size,photos.length);
+ assert.equal(photos.length,136);assert.equal(new Set(photos.map(x=>x.sha256)).size,photos.length);
  for(const photo of photos){assert.ok(w.WROC_CATALOG.getPlace(photo.place).media.photos.includes(photo.asset));const f=photo.asset.slice(1);assert.ok(existsSync(f));assert.equal(createHash('sha256').update(readFileSync(f)).digest('hex'),photo.outputSHA256);assert.ok(!photo.source.includes('פספוסים'));}
- assert.ok(provenance.duplicates.length>0);assert.equal(provenance.excluded.filter(x=>x.excluded).length,1);
+ assert.ok(provenance.duplicates.length>0);assert.equal(provenance.excluded.filter(x=>x.excluded).length,7);
 });
 
 test('Jawor guides keep published native captions and source timing for all five languages',()=>{
