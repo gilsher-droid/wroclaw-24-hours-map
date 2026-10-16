@@ -84,7 +84,7 @@
   function placePopup(canonical, label, coordinate) {
     const actions = canonical ? actionLinks(canonical, false) : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${coordinate.lat},${coordinate.lng}`)}" target="_blank" rel="noopener">${tr("navigate")}</a>`;
     const details = canonical && selectedExcursion().canonicalPlaceIds.includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
-    return `<div class="excursion-place-popup" dir="${language === "he" ? "rtl" : "ltr"}">${window.WROC_PLACE_POPUP_PHOTO.html(canonical,language)}<strong>${escapeHtml(label)}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}<div class="place-actions">${actions}</div>${details}</div>`;
+    return `<div class="excursion-place-popup" dir="${language === "he" ? "rtl" : "ltr"}">${window.WROC_PLACE_POPUP_PHOTO.html(canonical,language).replace('class="place-popup-photo-link"', `class="place-popup-photo-link" data-place-gallery="${escapeHtml(canonical?.id)}" data-media-kind="photos"`)}<strong>${escapeHtml(label)}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}<div class="place-actions">${actions}${canonical ? mediaButtons(canonical) : ""}</div>${details}</div>`;
   }
 
   function tr(key) { return ui[language]?.[key] || ui.en[key] || key; }
@@ -252,20 +252,89 @@
     return links.join("");
   }
 
+  const mediaLabels = {
+    he:{photos:"תמונות",videos:"סרטוני ביקור",previous:"הקודם",next:"הבא",close:"סגירה",open:"פתיחת גלריה"},
+    en:{photos:"Photos",videos:"Visit videos",previous:"Previous",next:"Next",close:"Close",open:"Open gallery"},
+    pl:{photos:"Zdjęcia",videos:"Filmy z wizyty",previous:"Poprzedni",next:"Następny",close:"Zamknij",open:"Otwórz galerię"},
+    de:{photos:"Fotos",videos:"Besuchsvideos",previous:"Zurück",next:"Weiter",close:"Schließen",open:"Galerie öffnen"},
+    cs:{photos:"Fotografie",videos:"Videa z návštěvy",previous:"Předchozí",next:"Další",close:"Zavřít",open:"Otevřít galerii"}
+  };
+  let mediaDialog, activeMedia, touchStart;
+  function mediaItems(canonical,kind) {
+    return [...new Set(canonical?.media?.[kind] || [])];
+  }
+  function mediaButtons(canonical) {
+    return ["photos","videos"].map(kind=>{
+      const count=mediaItems(canonical,kind).length;
+      return count ? `<button type="button" data-place-gallery="${escapeHtml(canonical.id)}" data-media-kind="${kind}">${mediaLabels[language][kind]} (${count})</button>` : "";
+    }).join("");
+  }
+  function ensureMediaDialog() {
+    if(mediaDialog) return;
+    mediaDialog=document.createElement("dialog");
+    mediaDialog.className="excursion-media-dialog";
+    mediaDialog.setAttribute("aria-labelledby","excursion-media-title");
+    mediaDialog.innerHTML=`<header><h2 id="excursion-media-title"></h2><button type="button" data-media-close></button></header><div class="excursion-media-tabs"></div><div class="excursion-media-stage"></div><nav class="excursion-media-controls" dir="ltr"><button type="button" data-media-step="-1"></button><span data-media-counter role="status" aria-live="polite" dir="ltr"></span><button type="button" data-media-step="1"></button></nav>`;
+    document.body.append(mediaDialog);
+    mediaDialog.addEventListener("close",()=>{mediaDialog.querySelector(".excursion-media-stage").replaceChildren();activeMedia=null;document.body.classList.remove("excursion-media-open");});
+    mediaDialog.addEventListener("click",event=>{
+      const step=event.target.closest("[data-media-step]");
+      const tab=event.target.closest("[data-media-tab]");
+      if(event.target.closest("[data-media-close]") || event.target===mediaDialog) mediaDialog.close();
+      else if(step) moveMedia(Number(step.dataset.mediaStep));
+      else if(tab) {activeMedia.kind=tab.dataset.mediaTab;activeMedia.index=0;renderMediaDialog();}
+    });
+    mediaDialog.addEventListener("keydown",event=>{
+      if(event.key!=="ArrowLeft"&&event.key!=="ArrowRight") return;
+      event.preventDefault();moveMedia(event.key==="ArrowLeft"?-1:1);
+    });
+    const stage=mediaDialog.querySelector(".excursion-media-stage");
+    stage.addEventListener("touchstart",event=>{const t=event.touches[0];touchStart={x:t.clientX,y:t.clientY};},{passive:true});
+    stage.addEventListener("touchend",event=>{
+      if(!touchStart) return;
+      const t=event.changedTouches[0],dx=t.clientX-touchStart.x,dy=t.clientY-touchStart.y;
+      touchStart=null;
+      if(Math.abs(dx)>45 && Math.abs(dx)>Math.abs(dy)) moveMedia(dx<0?1:-1);
+    },{passive:true});
+  }
+  function renderMediaDialog() {
+    const canonical=place(activeMedia.id),labels=mediaLabels[language],items=mediaItems(canonical,activeMedia.kind);
+    mediaDialog.dir=language==="he"?"rtl":"ltr";
+    mediaDialog.querySelector("h2").textContent=local(canonical.name);
+    mediaDialog.querySelector("[data-media-close]").textContent=labels.close;
+    const tabs=mediaDialog.querySelector(".excursion-media-tabs");
+    // Keep the selected tab focused when changing media types.
+    if(!tabs.querySelector("[data-media-tab]")) tabs.innerHTML=["photos","videos"].filter(kind=>mediaItems(canonical,kind).length).map(kind=>`<button type="button" data-media-tab="${kind}">${labels[kind]}</button>`).join("");
+    tabs.querySelectorAll("button").forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.mediaTab===activeMedia.kind)));
+    mediaDialog.querySelector(".excursion-media-stage").innerHTML=activeMedia.kind==="photos" ? `<img src="${escapeHtml(items[activeMedia.index])}" alt="${escapeHtml(local(canonical.name))}" draggable="false">` : window.WROC_YOUTUBE_VIDEO.html(items[activeMedia.index],`${local(canonical.name)} ${activeMedia.index+1}`,language);
+    mediaDialog.querySelector("[data-media-counter]").textContent=`${activeMedia.index+1} / ${items.length}`;
+    for(const step of [-1,1]) {const button=mediaDialog.querySelector(`[data-media-step="${step}"]`);button.textContent=step<0?`‹ ${labels.previous}`:`${labels.next} ›`;button.disabled=items.length<2;}
+  }
+  function moveMedia(step) {
+    if(!activeMedia) return;
+    const count=mediaItems(place(activeMedia.id),activeMedia.kind).length;
+    activeMedia.index=(activeMedia.index+step+count)%count;renderMediaDialog();
+  }
+  function openPlaceMedia(id,kind,index=0) {
+    const canonical=place(id),items=mediaItems(canonical,kind);
+    if(!items.length) return;
+    ensureMediaDialog();activeMedia={id,kind,index:Math.max(0,Math.min(index,items.length-1))};
+    mediaDialog.querySelector(".excursion-media-tabs").replaceChildren();
+    renderMediaDialog();document.body.classList.add("excursion-media-open");mediaDialog.showModal();
+  }
+  document.addEventListener("click",event=>{
+    const button=event.target.closest("[data-place-gallery]");
+    if(button) {event.preventDefault();openPlaceMedia(button.dataset.placeGallery,button.dataset.mediaKind,Number(button.dataset.mediaIndex||0));}
+  });
   function renderPlaces(excursion) {
-    const morePhotos = {he:"תמונות נוספות מהביקור",en:"More visit photos",pl:"Więcej zdjęć z wizyty",de:"Weitere Besuchsfotos",cs:"Další fotografie z návštěvy"};
-    const moreVideos = {he:"סרטונים נוספים מהביקור",en:"More visit videos",pl:"Więcej filmów z wizyty",de:"Weitere Besuchsvideos",cs:"Další videa z návštěvy"};
-    document.querySelector("[data-places]").innerHTML = excursion.canonicalPlaceIds.map((id) => {
-      const canonical = place(id);
-      if (!canonical) return "";
-      const photos = canonical.media?.photos || [];
-      const cover = photos[0] ? `<img class="place-cover" src="${photos[0]}" alt="${local(canonical.name)}">` : "";
-      const videos = canonical.media?.videos || [];
-      const video = videos[0] ? window.WROC_YOUTUBE_VIDEO.html(videos[0], local(canonical.name), language) : "";
-      const videoGallery = videos.length > 1 ? `<details class="visit-gallery"><summary>${moreVideos[language]} (${videos.length - 1})</summary><div class="visit-video-grid">${videos.slice(1).map((src,index)=>window.WROC_YOUTUBE_VIDEO.html(src,`${local(canonical.name)} ${index + 2}`,language)).join("")}</div></details>` : "";
-      const photoLink = (photo) => `<a href="${photo}" target="_blank" rel="noopener"><img loading="lazy" src="${photo}" alt="${local(canonical.name)}"></a>`;
-      const gallery = photos.length > 4 ? `<details class="visit-gallery"><summary>${morePhotos[language]} (${photos.length - 4})</summary><div class="photo-strip">${photos.slice(4).map(photoLink).join("")}</div></details>` : "";
-      return `<article class="place-card" id="excursion-place-${id}" tabindex="-1" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1,4).map(photoLink).join("")}</div>${gallery}${video}${videoGallery}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
+    document.querySelector("[data-places]").innerHTML = excursion.canonicalPlaceIds.map(id=>{
+      const canonical=place(id);if(!canonical) return "";
+      const photos=mediaItems(canonical,"photos"),videos=mediaItems(canonical,"videos");
+      const openPhoto=(photo,index,cover=false)=>`<button type="button" class="${cover?"place-cover-button":"place-photo-button"}" data-place-gallery="${escapeHtml(id)}" data-media-kind="photos" data-media-index="${index}" aria-label="${escapeHtml(mediaLabels[language].open)}: ${escapeHtml(local(canonical.name))}, ${index+1} / ${photos.length}"><img ${cover?'class="place-cover"':'loading="lazy"'} src="${escapeHtml(photo)}" alt="${escapeHtml(local(canonical.name))}"></button>`;
+      const cover=photos[0]?openPhoto(photos[0],0,true):"";
+      const strip=photos.slice(1,4).map((photo,index)=>openPhoto(photo,index+1)).join("");
+      const video=videos[0]?window.WROC_YOUTUBE_VIDEO.html(videos[0],local(canonical.name),language):"";
+      return `<article class="place-card" id="excursion-place-${id}" tabindex="-1" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical,language)}<p>${local(canonical.description)}</p><div class="photo-strip">${strip}</div><div class="place-actions excursion-gallery-actions">${mediaButtons(canonical)}</div>${video}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
   }
 
