@@ -80,6 +80,7 @@
   function stopPreview() { clearInterval(previewTimer); previewTimer = undefined; }
   function startPreview() {
     stopPreview();
+    if (new URLSearchParams(location.search).has("trip")) return;
     const carousel = document.querySelector("[data-excursion-carousel]");
     if (reducedMotion.matches || document.hidden || carousel.matches(":hover") || carousel.contains(document.activeElement)) return;
     if (window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length < 2) return;
@@ -196,15 +197,18 @@
 
   function renderPlaces(excursion) {
     const morePhotos = {he:"תמונות נוספות מהביקור",en:"More visit photos",pl:"Więcej zdjęć z wizyty",de:"Weitere Besuchsfotos",cs:"Další fotografie z návštěvy"};
+    const moreVideos = {he:"סרטונים נוספים מהביקור",en:"More visit videos",pl:"Więcej filmów z wizyty",de:"Weitere Besuchsvideos",cs:"Další videa z návštěvy"};
     document.querySelector("[data-places]").innerHTML = excursion.canonicalPlaceIds.map((id) => {
       const canonical = place(id);
       if (!canonical) return "";
       const photos = canonical.media?.photos || [];
       const cover = photos[0] ? `<img class="place-cover" src="${photos[0]}" alt="${local(canonical.name)}">` : "";
-      const video = canonical.media?.videos?.[0] ? window.WROC_YOUTUBE_VIDEO.html(canonical.media.videos[0], local(canonical.name), language) : "";
+      const videos = canonical.media?.videos || [];
+      const video = videos[0] ? window.WROC_YOUTUBE_VIDEO.html(videos[0], local(canonical.name), language) : "";
+      const videoGallery = videos.length > 1 ? `<details class="visit-gallery"><summary>${moreVideos[language]} (${videos.length - 1})</summary><div class="visit-video-grid">${videos.slice(1).map((src,index)=>window.WROC_YOUTUBE_VIDEO.html(src,`${local(canonical.name)} ${index + 2}`,language)).join("")}</div></details>` : "";
       const photoLink = (photo) => `<a href="${photo}" target="_blank" rel="noopener"><img loading="lazy" src="${photo}" alt="${local(canonical.name)}"></a>`;
       const gallery = photos.length > 4 ? `<details class="visit-gallery"><summary>${morePhotos[language]} (${photos.length - 4})</summary><div class="photo-strip">${photos.slice(4).map(photoLink).join("")}</div></details>` : "";
-      return `<article class="place-card" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1,4).map(photoLink).join("")}</div>${gallery}${video}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
+      return `<article class="place-card" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1,4).map(photoLink).join("")}</div>${gallery}${video}${videoGallery}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
   }
 
