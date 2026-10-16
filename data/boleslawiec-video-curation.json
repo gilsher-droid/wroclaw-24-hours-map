@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-10-16",
+  "placeId": "boleslawiec-old-town",
+  "method": "Visual comparison of sampled beginning, middle and end motion frames across all thirteen Boleslawiec visit clips; exact decoded signatures already distinct",
+  "before": 12,
+  "after": 4,
+  "retained": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.29.mp4",
+      "sourceSHA256": "587e176be26333a025bedb18b4c93c59ff55694cc365cccd2e0a0fdf392e9ca8",
+      "youtube": "https://youtube.com/shorts/YMyuRk3Fm7o",
+      "reason": "Rainbow sweep across square"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.32.mp4",
+      "sourceSHA256": "f198e172d163a2d281f65a8fdbf79c18428d81d04507ac022403db13a2d0a545",
+      "youtube": "https://youtube.com/shorts/ut4a1jalggk",
+      "reason": "Town lettering and church pan"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.21.15.mp4",
+      "sourceSHA256": "76a039676a2fb6b68a239da490a1481210586482dba17d6c8996c32a611f2d7d",
+      "youtube": "https://youtube.com/shorts/8omNiWR6tVI",
+      "reason": "Daytime fountain and square pan"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.21.21.mp4",
+      "sourceSHA256": "72a1b97ada2cab7669d3721a718b239db50eebe8c7747e78c6d94455850e64a0",
+      "youtube": "https://youtube.com/shorts/lu3GKpKwjE4",
+      "reason": "Ceramic bench and nearby square pan"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.25.mp4",
+      "sourceSHA256": "a4683f5cc539b5a6e584db63a583cdf92f5dfabd0fa6f471ffdd48c355ea4b67",
+      "youtube": "https://youtube.com/shorts/maSKnck5q1g",
+      "reason": "Repetitive rainbow/church framing or shorter near-repeat camera sequence"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.33.mp4",
+      "sourceSHA256": "3ea33fbefc5bea8fd2b65e8c74d22eb93df97551b8332861855150d98e016214",
+      "youtube": "https://youtube.com/shorts/Ur6aD6_oITk",
+      "reason": "Repetitive rainbow/church framing or shorter near-repeat camera sequence"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.34.mp4",
+      "sourceSHA256": "eb747535e8e6aa7634f2d3dd919407d945d7b7ef0ab1f87168409a0031f1307e",
+      "youtube": "https://youtube.com/shorts/lifCtbBFbE8",
+      "reason": "Repetitive rainbow/church framing or shorter near-repeat camera sequence"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.37.mp4",
+      "sourceSHA256": "ea4b2bb5d754e7be2a791ac69f0fb55219de3bc36d81deac346885a2052f07df",
+      "youtube": "https://youtube.com/shorts/LVAZFxAHypM",
+      "reason": "Repetitive rainbow/church framing or shorter near-repeat camera sequence"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.39.mp4",
+      "sourceSHA256": "34b24664caf3da3e3823a022bce08502dbc16cf235838aa5a17094c0c86645a4",
+      "youtube": "https://youtube.com/shorts/KVL-jKq3jTc",
+      "reason": "Repetitive rainbow/church framing or shorter near-repeat camera sequence"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.42.mp4",
+      "sourceSHA256": "7ff710930515d34d2ab0e2d00abdc315670f009ee8d9d524fb1e73b2c300ba6e",
+      "youtube": "https://youtube.com/watch?v=TTn0iQPIQTA",
+      "reason": "Repetitive rainbow/church framing or shorter near-repeat camera sequence"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.43.mp4",
+      "sourceSHA256": "5d5ceab70adf3f2cef29c966a655a99d00704bbd5903e6df05fbc00b60f10514",
+      "youtube": "https://youtube.com/shorts/AYEFN90-7N0",
+      "reason": "Repetitive rainbow/church framing or shorter near-repeat camera sequence"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.21.20.mp4",
+      "sourceSHA256": "8b75215bde260a3029a89329aeaa876eb1e3ec6a910a2cc2c3974ce272418367",
+      "youtube": "https://youtube.com/shorts/ummWiuQrOds",
+      "reason": "Same ceramic bench as retained moving view"
+    }
+  ],
+  "originalsPreserved": true,
+  "youTubePublicUploadsPreserved": true,
+  "museumVisitClipPreserved": true
+}
