@@ -103,7 +103,19 @@ footer>div { display:grid; gap:5px; } footer span { color:var(--muted); } footer
 .excursion-place-popup > strong { display:block; font-size:17px; line-height:1.4; }
 .excursion-place-popup .place-actions { margin-top:12px; gap:7px; }
 .excursion-place-popup .place-actions a { font-size:13px; color:var(--navy); padding:8px 10px; }
-.excursion-place-popup .place-actions .guide-video-button { width:100%; box-sizing:border-box; }
+.excursion-place-popup .place-actions .guide-video-action { width:100%; box-sizing:border-box; }
 .excursion-place-details { display:block; margin-top:14px; font-weight:700; }
 .place-card[id] { scroll-margin-top:24px; }
 .place-card:target { outline:3px solid var(--gold); outline-offset:4px; }
+
+.map-toolbar { display:flex; flex-wrap:wrap; gap:10px; }
+button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
+.place-actions .show-on-map { padding:10px 13px; border:1px solid var(--line); border-radius:12px; background:white; color:var(--navy); font:inherit; font-weight:800; cursor:pointer; }
+.itinerary li { padding:0; }
+.itinerary-stop { display:flex; align-items:center; gap:16px; width:100%; min-height:116px; padding:22px; border:0; border-radius:20px; background:transparent; color:inherit; text-align:start; font:inherit; cursor:pointer; }
+.itinerary-stop > span:first-child { flex:0 0 42px; display:grid; place-items:center; width:42px; height:42px; border-radius:50%; background:var(--gold); color:var(--navy); font-weight:900; }
+.itinerary-stop-copy { display:grid; gap:7px; }
+.map-focus-hint { color:#245e91; font-size:13px; text-decoration:underline; }
+.walk-stop-button { display:flex; align-items:center; gap:12px; border:0; background:transparent; color:inherit; text-align:start; font:inherit; cursor:pointer; }
+.itinerary-stop:hover,.walk-stop-button:hover { background:#eaf2f8; }
+.itinerary-stop:focus-visible,.walk-stop-button:focus-visible,.show-on-map:focus-visible,.map-toolbar button:focus-visible { outline:3px solid var(--gold); outline-offset:3px; }
