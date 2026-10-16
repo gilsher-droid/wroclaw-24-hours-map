@@ -143,3 +143,6 @@ button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
 @media(max-width:640px) { .excursion-media-dialog { padding:10px; } .excursion-media-dialog h2 { font-size:15px; } .excursion-media-stage { height:55dvh; } }
 
 .excursion-place-popup .place-actions button { border:1px solid #d5dce7; background:#fff; color:#062b5c; font:inherit; cursor:pointer; }
+
+.itinerary .itinerary-day-heading { grid-column:1 / -1; min-height:0; border:0; background:transparent; padding:20px 0 0; }
+.itinerary-day-heading h3 { margin:0; color:var(--navy); font-size:24px; }

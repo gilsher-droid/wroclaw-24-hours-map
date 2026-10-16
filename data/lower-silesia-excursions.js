@@ -504,13 +504,405 @@
   ]
 };
 
+  const czochaBoleslawiec = {
+  "id": "czocha-boleslawiec-two-day-trip",
+  "slug": "czocha-overnight-boleslawiec",
+  "title": {
+    "he": "יומיים בטירת צ׳וחה ובולסלבייץ, עם לינה בטירה",
+    "en": "Two days: Czocha Castle overnight and Bolesławiec",
+    "pl": "Dwa dni: nocleg na zamku Czocha i Bolesławiec",
+    "de": "Zwei Tage: Burgübernachtung Czocha und Bolesławiec",
+    "cs": "Dva dny: noc na hradě Czocha a Bolesławiec"
+  },
+  "summary": {
+    "he": "יום ראשון בטירה ולינה במקום. ביום השני אוכלים ארוחת בוקר, יוצאים להליכה לסכר וממשיכים לבולסלבייץ ולמוזיאון הקרמיקה לפני החזרה לוורוצלב.",
+    "en": "A castle visit and overnight stay on day one. After breakfast on day two, walk to the dam, then continue to Bolesławiec and its Ceramics Museum before returning to Wrocław.",
+    "pl": "Pierwszy dzień to zamek i nocleg. Drugiego dnia po śniadaniu spacer do zapory, następnie Bolesławiec i Muzeum Ceramiki przed powrotem do Wrocławia.",
+    "de": "Am ersten Tag Burgbesuch und Übernachtung. Nach dem Frühstück am zweiten Tag zur Talsperre spazieren, dann Bolesławiec und das Keramikmuseum besuchen und nach Wrocław zurückfahren.",
+    "cs": "První den návštěva hradu a přenocování. Druhý den po snídani procházka k přehradě, potom Bolesławiec a Muzeum keramiky před návratem do Vratislavi."
+  },
+  "meta": {
+    "duration": "two-days",
+    "days": 2,
+    "nights": 1,
+    "startsAt": "wroclaw",
+    "region": "lower-silesia",
+    "tags": [
+      "castles",
+      "overnight",
+      "walking",
+      "ceramics"
+    ]
+  },
+  "durationLabel": {
+    "he": "יומיים ולילה בטירה",
+    "en": "Two days, one castle night",
+    "pl": "Dwa dni i noc w zamku",
+    "de": "Zwei Tage, eine Nacht in der Burg",
+    "cs": "Dva dny a noc na hradě"
+  },
+  "heroMedia": {
+    "canonicalPlaceId": "czocha-castle",
+    "photoIndex": 0
+  },
+  "canonicalPlaceIds": [
+    "czocha-castle",
+    "lesnianska-dam",
+    "boleslawiec-old-town",
+    "boleslawiec-ceramics-museum"
+  ],
+  "routePoints": [
+    {
+      "id": "wroclaw-start",
+      "kind": "context",
+      "label": {
+        "he": "וורוצלב",
+        "en": "Wrocław",
+        "pl": "Wrocław",
+        "de": "Wrocław",
+        "cs": "Vratislav"
+      },
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      }
+    },
+    {
+      "id": "czocha-castle",
+      "kind": "place",
+      "canonicalPlaceId": "czocha-castle"
+    },
+    {
+      "id": "lesnianska-dam",
+      "kind": "place",
+      "canonicalPlaceId": "lesnianska-dam"
+    },
+    {
+      "id": "boleslawiec-old-town",
+      "kind": "place",
+      "canonicalPlaceId": "boleslawiec-old-town"
+    },
+    {
+      "id": "boleslawiec-ceramics-museum",
+      "kind": "place",
+      "canonicalPlaceId": "boleslawiec-ceramics-museum"
+    },
+    {
+      "id": "wroclaw-return",
+      "kind": "context",
+      "label": {
+        "he": "חזרה לוורוצלב",
+        "en": "Return to Wrocław",
+        "pl": "Powrót do Wrocławia",
+        "de": "Rückfahrt nach Wrocław",
+        "cs": "Návrat do Vratislavi"
+      },
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      }
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": {
+        "he": "יום ראשון: הטירה ולינה בטירה",
+        "en": "Day 1: castle visit and overnight stay",
+        "pl": "Dzień 1: zamek i nocleg",
+        "de": "Tag 1: Burgbesuch und Übernachtung",
+        "cs": "Den 1: návštěva hradu a přenocování"
+      }
+    },
+    {
+      "day": 2,
+      "title": {
+        "he": "יום שני: ארוחת בוקר, הסכר ובולסלבייץ",
+        "en": "Day 2: breakfast, dam walk and Bolesławiec",
+        "pl": "Dzień 2: śniadanie, zapora i Bolesławiec",
+        "de": "Tag 2: Frühstück, Talsperre und Bolesławiec",
+        "cs": "Den 2: snídaně, přehrada a Bolesławiec"
+      }
+    }
+  ],
+  "travel": {
+    "recommendedMode": "car",
+    "estimates": [],
+    "segments": [
+      {
+        "from": "wroclaw-start",
+        "to": "czocha-castle",
+        "mode": "car",
+        "day": 1
+      },
+      {
+        "from": "czocha-castle",
+        "to": "lesnianska-dam",
+        "mode": "walking",
+        "day": 2
+      },
+      {
+        "from": "lesnianska-dam",
+        "to": "czocha-castle",
+        "mode": "walking",
+        "day": 2
+      },
+      {
+        "from": "czocha-castle",
+        "to": "boleslawiec-old-town",
+        "mode": "car",
+        "day": 2
+      },
+      {
+        "from": "boleslawiec-old-town",
+        "to": "boleslawiec-ceramics-museum",
+        "mode": "walking",
+        "day": 2
+      },
+      {
+        "from": "boleslawiec-ceramics-museum",
+        "to": "wroclaw-return",
+        "mode": "car",
+        "day": 2
+      }
+    ],
+    "note": {
+      "he": "מסלול של יומיים ברכב עם לילה שהוזמן מראש בטירה. את ההליכה לסכר עושים בבוקר אחרי ארוחת הבוקר וחוזרים לטירה לאסוף את הרכב. בדקו מסלול הליכה וזמני נסיעה בניווט עדכני; הקו במפה מציג את סדר התחנות.",
+      "en": "A two-day car trip with a castle overnight stay booked in advance. Walk to the dam after breakfast and return to the castle for the car. Check the walking route and driving times in current navigation; the map line shows the stop order.",
+      "pl": "Dwudniowa wycieczka samochodem z wcześniej zarezerwowanym noclegiem w zamku. Po śniadaniu spacer do zapory i powrót po samochód. Trasę pieszą i czasy przejazdów sprawdź w aktualnej nawigacji; linia na mapie pokazuje kolejność punktów.",
+      "de": "Zweitägige Autoreise mit vorab gebuchter Burgübernachtung. Nach dem Frühstück zur Talsperre spazieren und zum Auto zurückkehren. Fußweg und Fahrzeiten in der aktuellen Navigation prüfen; die Kartenlinie zeigt die Reihenfolge.",
+      "cs": "Dvoudenní výlet autem s předem rezervovaným noclehem na hradě. Po snídani pěšky k přehradě a zpět pro auto. Pěší trasu a jízdní doby ověřte v aktuální navigaci; čára na mapě ukazuje pořadí zastávek."
+    },
+    "options": [
+      {
+        "mode": "car",
+        "title": {
+          "he": "רכב והליכה",
+          "en": "Car and walking",
+          "pl": "Samochód i spacer",
+          "de": "Auto und Spaziergänge",
+          "cs": "Auto a pěší úseky"
+        },
+        "description": {
+          "he": "מסלול של יומיים ברכב עם לילה שהוזמן מראש בטירה. את ההליכה לסכר עושים בבוקר אחרי ארוחת הבוקר וחוזרים לטירה לאסוף את הרכב. בדקו מסלול הליכה וזמני נסיעה בניווט עדכני; הקו במפה מציג את סדר התחנות.",
+          "en": "A two-day car trip with a castle overnight stay booked in advance. Walk to the dam after breakfast and return to the castle for the car. Check the walking route and driving times in current navigation; the map line shows the stop order.",
+          "pl": "Dwudniowa wycieczka samochodem z wcześniej zarezerwowanym noclegiem w zamku. Po śniadaniu spacer do zapory i powrót po samochód. Trasę pieszą i czasy przejazdów sprawdź w aktualnej nawigacji; linia na mapie pokazuje kolejność punktów.",
+          "de": "Zweitägige Autoreise mit vorab gebuchter Burgübernachtung. Nach dem Frühstück zur Talsperre spazieren und zum Auto zurückkehren. Fußweg und Fahrzeiten in der aktuellen Navigation prüfen; die Kartenlinie zeigt die Reihenfolge.",
+          "cs": "Dvoudenní výlet autem s předem rezervovaným noclehem na hradě. Po snídani pěšky k přehradě a zpět pro auto. Pěší trasu a jízdní doby ověřte v aktuální navigaci; čára na mapě ukazuje pořadí zastávek."
+        }
+      }
+    ],
+    "accessibility": []
+  },
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Wroc%C5%82aw%2C+Poland&destination=Wroc%C5%82aw%2C+Poland&waypoints=Zamek+Czocha%7CRynek+Boles%C5%82awiec%7CMuzeum+Ceramiki+Zgorzelecka+28+Boles%C5%82awiec&travelmode=driving",
+    "morningWalk": "https://www.google.com/maps/dir/?api=1&origin=Zamek+Czocha&destination=Zapora+Le%C5%9Bnia%C5%84ska&travelmode=walking"
+  },
+  "editorial": {
+    "why": {
+      "he": "לילה בטירה מאפשר ליהנות ממנה בלי לדחוס את הכול ליום אחד. בבוקר משלבים טבע וסכר, ובהמשך כיכר עירונית וקרמיקה בבולסלבייץ.",
+      "en": "Sleeping in the castle gives the visit room to breathe. The next morning combines a reservoir walk with the town square and ceramics in Bolesławiec.",
+      "pl": "Nocleg w zamku pozwala zwiedzać bez pośpiechu. Następny dzień łączy spacer nad jeziorem z rynkiem i ceramiką Bolesławca.",
+      "de": "Die Burgübernachtung lässt Raum für den Besuch. Am nächsten Morgen folgen ein Spaziergang am Stausee und danach Altstadt und Keramik in Bolesławiec.",
+      "cs": "Noc na hradě umožňuje návštěvu bez spěchu. Další den spojuje procházku u přehrady s náměstím a keramikou v Bolesławci."
+    },
+    "forWhom": {
+      "he": "למי שאוהבים טירות, לינה עם אופי, הליכה ונופי אגם, וגם עיר נעימה וקרמיקה.",
+      "en": "For travellers who enjoy castles, atmospheric overnight stays, walks, lake views and ceramics.",
+      "pl": "Dla miłośników zamków, klimatycznych noclegów, spacerów, jezior i ceramiki.",
+      "de": "Für alle, die Burgen, besondere Übernachtungen, Spaziergänge, Seen und Keramik mögen.",
+      "cs": "Pro milovníky hradů, osobitých noclehů, procházek, jezer a keramiky."
+    },
+    "practical": {
+      "he": "הזמינו לינה וסיור בטירה מראש ובדקו את תנאי ההזמנה. בדקו שעות פתיחת המוזיאון ביום הביקור. ההליכה לסכר תלויה במזג האוויר ובמצב השבילים. נעלו נעליים נוחות והשאירו זמן לחזרה לרכב.",
+      "en": "Book the castle stay and tour in advance and check the booking terms. Check museum hours for your visit day. The dam walk depends on weather and path conditions. Wear suitable shoes and allow time to return to the car.",
+      "pl": "Zarezerwuj nocleg i zwiedzanie zamku oraz sprawdź warunki rezerwacji. Sprawdź godziny muzeum w dniu wizyty. Spacer do zapory zależy od pogody i stanu ścieżek. Załóż wygodne buty i zostaw czas na powrót do samochodu.",
+      "de": "Burgübernachtung und Führung vorab buchen und Buchungsbedingungen prüfen. Museumszeiten am Besuchstag kontrollieren. Der Spaziergang hängt von Wetter und Wegzustand ab. Geeignete Schuhe tragen und Zeit für den Rückweg zum Auto lassen.",
+      "cs": "Nocleh a prohlídku hradu rezervujte předem a ověřte podmínky. Zkontrolujte otevírací dobu muzea v den návštěvy. Procházka závisí na počasí a stavu cest. Vezměte vhodné boty a nechte si čas na návrat k autu."
+    }
+  },
+  "steps": [
+    {
+      "id": "depart",
+      "day": 1,
+      "title": {
+        "he": "נסיעה מוורוצלב לטירת צ׳וחה",
+        "en": "Drive from Wrocław to Czocha Castle",
+        "pl": "Przejazd z Wrocławia do zamku Czocha",
+        "de": "Fahrt von Wrocław zur Burg Czocha",
+        "cs": "Cesta z Vratislavi na hrad Czocha"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "mapPointId": "wroclaw-start"
+    },
+    {
+      "id": "castle",
+      "day": 1,
+      "title": {
+        "he": "ביקור בטירה ובחצרות",
+        "en": "Explore the castle and courtyards",
+        "pl": "Zwiedzanie zamku i dziedzińców",
+        "de": "Burg und Innenhöfe erkunden",
+        "cs": "Prohlídka hradu a nádvoří"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "canonicalPlaceId": "czocha-castle"
+    },
+    {
+      "id": "overnight",
+      "day": 1,
+      "title": {
+        "he": "ערב ולינה בטירה",
+        "en": "Evening and overnight at the castle",
+        "pl": "Wieczór i nocleg w zamku",
+        "de": "Abend und Übernachtung in der Burg",
+        "cs": "Večer a noc na hradě"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "canonicalPlaceId": "czocha-castle"
+    },
+    {
+      "id": "breakfast",
+      "day": 2,
+      "title": {
+        "he": "ארוחת בוקר בטירה",
+        "en": "Breakfast at the castle",
+        "pl": "Śniadanie w zamku",
+        "de": "Frühstück in der Burg",
+        "cs": "Snídaně na hradě"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "canonicalPlaceId": "czocha-castle"
+    },
+    {
+      "id": "dam",
+      "day": 2,
+      "title": {
+        "he": "הליכת בוקר לסכר אחרי ארוחת הבוקר",
+        "en": "Morning dam walk after breakfast",
+        "pl": "Poranny spacer do zapory po śniadaniu",
+        "de": "Morgenspaziergang zur Talsperre nach dem Frühstück",
+        "cs": "Ranní procházka k přehradě po snídani"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "canonicalPlaceId": "lesnianska-dam"
+    },
+    {
+      "id": "return-car",
+      "day": 2,
+      "title": {
+        "he": "חזרה לטירה ואיסוף הרכב",
+        "en": "Return to the castle for the car",
+        "pl": "Powrót do zamku po samochód",
+        "de": "Zurück zur Burg zum Auto",
+        "cs": "Návrat k hradu pro auto"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "canonicalPlaceId": "czocha-castle"
+    },
+    {
+      "id": "town",
+      "day": 2,
+      "title": {
+        "he": "נסיעה לבולסלבייץ והליכה בעיר העתיקה",
+        "en": "Continue to Bolesławiec and walk the old town",
+        "pl": "Przejazd do Bolesławca i spacer po starówce",
+        "de": "Weiter nach Bolesławiec und Altstadtspaziergang",
+        "cs": "Cesta do Bolesławce a procházka centrem"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "canonicalPlaceId": "boleslawiec-old-town"
+    },
+    {
+      "id": "museum",
+      "day": 2,
+      "title": {
+        "he": "מוזיאון הקרמיקה",
+        "en": "Visit the Ceramics Museum",
+        "pl": "Muzeum Ceramiki",
+        "de": "Besuch im Keramikmuseum",
+        "cs": "Muzeum keramiky"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "canonicalPlaceId": "boleslawiec-ceramics-museum"
+    },
+    {
+      "id": "home",
+      "day": 2,
+      "title": {
+        "he": "חזרה לוורוצלב",
+        "en": "Return to Wrocław",
+        "pl": "Powrót do Wrocławia",
+        "de": "Rückfahrt nach Wrocław",
+        "cs": "Návrat do Vratislavi"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      },
+      "mapPointId": "wroclaw-return"
+    }
+  ]
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
-    title: t("טיולי יום מוורוצלב", "Day trips from Wrocław", "Wycieczki jednodniowe z Wrocławia", "Tagesausflüge ab Wrocław", "Jednodenní výlety z Vratislavi"),
-    status: t("שלושה טיולים מוכנים", "Three excursions ready", "Trzy wycieczki gotowe", "Drei Ausflüge verfügbar", "Tři výlety připraveny"),
-    excursions: [excursion, brzegMoszna, jaworKarpacz],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds],
+    title: t("טיולים מוורוצלב", "Excursions from Wrocław", "Wycieczki z Wrocławia", "Ausflüge ab Wrocław", "Výlety z Vratislavi"),
+    status: t("ארבעה טיולים מוכנים", "Four excursions ready", "Cztery wycieczki gotowe", "Vier Ausflüge verfügbar", "Čtyři výlety připraveny"),
+    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {

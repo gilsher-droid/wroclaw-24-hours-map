@@ -2224,6 +2224,1283 @@
       "cs"
     ]
   },
+  "boleslawiec-ceramics-museum": {
+    "id": "boleslawiec-ceramics-museum",
+    "localName": "Muzeum Ceramiki w Bolesławcu",
+    "name": {
+      "he": "מוזיאון הקרמיקה בבולסלבייץ",
+      "en": "Ceramics Museum in Bolesławiec",
+      "pl": "Muzeum Ceramiki w Bolesławcu",
+      "de": "Keramikmuseum in Bolesławiec",
+      "cs": "Muzeum keramiky v Bolesławci"
+    },
+    "description": {
+      "he": "ביקור במוזיאון הקרמיקה משלים את ההיכרות עם בולסלבייץ. בגלריה נמצאים צילומי התצוגות, כלי הקרמיקה והבניין מהביקור שלנו. לפני הנסיעה יש לבדוק שעות פתיחה וכרטיסים באתר המוזיאון.",
+      "en": "The Ceramics Museum adds context to our Bolesławiec visit. Our photographs show the exhibitions, ceramic pieces and museum building. Check current opening hours and tickets on the museum website before travelling.",
+      "pl": "Muzeum Ceramiki dopełnia spacer po Bolesławcu. Nasze zdjęcia pokazują wystawy, wyroby ceramiczne i budynek muzeum. Przed wyjazdem sprawdź aktualne godziny otwarcia i bilety na stronie muzeum.",
+      "de": "Das Keramikmuseum ergänzt unseren Besuch in Bolesławiec. Unsere Fotos zeigen Ausstellungen, Keramikstücke und das Museumsgebäude. Aktuelle Öffnungszeiten und Eintrittskarten vorab auf der Museumsseite prüfen.",
+      "cs": "Muzeum keramiky doplňuje naši návštěvu Bolesławce. Fotografie ukazují expozice, keramické předměty a budovu muzea. Před cestou si ověřte aktuální otevírací dobu a vstupenky na webu muzea."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "boleslawiec",
+      "coordinates": {
+        "lat": 51.265045,
+        "lng": 15.5556335
+      }
+    },
+    "categories": [
+      "culture",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "culture",
+        "museum"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://muzeum.boleslawiec.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Muzeum+Ceramiki+w+Boles%C5%82awcu",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://muzeum.boleslawiec.pl/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://muzeum.boleslawiec.pl/dojazd-muzeum/",
+          "checkedAt": "2026-10-16"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-058.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-057.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-037.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-038.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-039.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-040.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-041.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-042.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-043.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-044.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-045.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-046.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-047.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-048.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-049.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-052.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-053.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-055.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-059.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-060.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-099.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-100.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-102.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-103.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-104.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-113.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-114.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-115.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-117.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-118.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-119.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-120.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-121.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-122.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-123.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-124.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-125.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-136.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-144.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-145.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-146.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-147.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-148.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-149.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-150.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-151.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-152.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/AREkvigE0pI"
+      ],
+      "metadata": {
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-058.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.56 (2).jpeg",
+          "sourceSHA256": "4e32cdfeb13eeb1d601baf4620e6bf455dc1d7fc57b0c4016e03e2ea7d376ae5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-057.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.56 (1).jpeg",
+          "sourceSHA256": "83a6a7b38f4af029cbac3fd02034e1cb7339ab0e9e5b6f5768ca394e54374a5b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-037.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.49 (1).jpeg",
+          "sourceSHA256": "cba321f76545b5113c536cd3be4c08a65253db57faab265d7b439caa155c2852",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-038.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.49.jpeg",
+          "sourceSHA256": "b31d6a39d8a66fd17b4450aa413b4c3a346e9f2b350cb09ab494f76e6425f8da",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-039.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.50 (1).jpeg",
+          "sourceSHA256": "f673d1756c4cb47fdd7812131e44fe729a18ce1fbb94812e3ce7b583637b48bc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-040.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.50 (2).jpeg",
+          "sourceSHA256": "7b4f1ebe3f19a32694fd9d76fe834a54a20b8d5ba3ba2d8e86f414bdd18204a2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-041.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.50 (3).jpeg",
+          "sourceSHA256": "f34bfd89726f7478052182cae3466d8ed71fe468117a732292ee463816bfd065",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-042.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.50.jpeg",
+          "sourceSHA256": "496cb1fc1a8a54b702007cf3e1dfdd07b48d28b3c738816c26d9079c0ef2253f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-043.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.51 (1).jpeg",
+          "sourceSHA256": "5ab75198889e019193f4ab2a325a257ca5372192ac4cec793636bc38afe2c0ba",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-044.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.51 (2).jpeg",
+          "sourceSHA256": "74a067a959a1a2d98942315a76df79f77f49d47be145ba06550bcd10264b56b8",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-045.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.51 (3).jpeg",
+          "sourceSHA256": "e645bfe8a81b0580778d5f13d22cd900b27a99446cf36646ea394352ce733526",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-046.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.51 (4).jpeg",
+          "sourceSHA256": "c4b832b8bf34ea4661e44288127c764ce60fa10f35ecf7a013e8a83871041d0f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-047.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.51 (5).jpeg",
+          "sourceSHA256": "471343b7960bbd87b11fc0d57b9c5fa4c2d98615acc3ed0a6087113c25763e08",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-048.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.51 (6).jpeg",
+          "sourceSHA256": "e60c65a087052ada7b40fedba5c2b35fef20978b45baf4019a192bae595cf413",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-049.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.51 (7).jpeg",
+          "sourceSHA256": "ea45259dc477ba71e2afbd39f22b7796c854adf2b0745271baca34ed29831dc9",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-052.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.52 (2).jpeg",
+          "sourceSHA256": "24b91672c26e84f5b1e933d888e2dab98944c2823188c96a39a630fcbf521f52",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-053.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.52.jpeg",
+          "sourceSHA256": "45f960bebc1361238bd6c23d35bfd0e5c88ead60fbe3449ef7791f8305634bdd",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-055.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.55 (2).jpeg",
+          "sourceSHA256": "b08bbf4eb8a09981cb1b5e5b239d0969dc783e4f39a77e9598910ffa149fad0c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-059.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.56 (3).jpeg",
+          "sourceSHA256": "4717d90af94bc00bb8052e8f003c094650367a16cbde109be5b504642f4c2300",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-060.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.56 (4).jpeg",
+          "sourceSHA256": "867342abc7df6471a2c16726ee9d1c594d4c6c6166cf348fd9e5716bb1b5d437",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-099.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (18).jpeg",
+          "sourceSHA256": "bfba31d4be9b882cb1b9342e51c1d89326ac463200f1800348b01b78a4a48064",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-100.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (19).jpeg",
+          "sourceSHA256": "8100edba8f0573e154166b8af050844d214dd95677e177f170eda42bbe7f60b7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-102.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (20).jpeg",
+          "sourceSHA256": "4005b123653706f327245e0e139344d618fc410c11c4096a7335eeba9c755c5a",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-103.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (21).jpeg",
+          "sourceSHA256": "3c0e95fe7faba714808603e3338e079a34c4d17af67e9d6577f0527be65d911d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-104.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (22).jpeg",
+          "sourceSHA256": "142669abde06bfcd65934315f91a6126e5e3467d2394008a114194eb404b65b8",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-113.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (1).jpeg",
+          "sourceSHA256": "5f5ba26ea705e484ac602a0fccb27b095b313b2df38813d448cf7cb6243cd61b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-114.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (10).jpeg",
+          "sourceSHA256": "25b210603a437a05336c5f93b0c5439b509ad1a16638bf444e954b7b627f83ab",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-115.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (11).jpeg",
+          "sourceSHA256": "07726cadeb25f4c28992703298c279c2875f94e4a3d6cf7ddf49e86a6c8c62a6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-117.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (3).jpeg",
+          "sourceSHA256": "1700fbbe1a1974ecb243a6d4437d9449a799e17f8f305f764a8256e88e997595",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-118.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (4).jpeg",
+          "sourceSHA256": "602044c7eea45632af56a0cb9c942c191ab03f6d2bcfaff72a49028e04b562a7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-119.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (5).jpeg",
+          "sourceSHA256": "bd26e1728c509cef43f6c436033724a677a99f424b29108a204b68ca4f870e91",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-120.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (6).jpeg",
+          "sourceSHA256": "e401c3f2bd276824db086686b1e533eda7cf11a8ad749922e5f3db43ec6cdf05",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-121.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (7).jpeg",
+          "sourceSHA256": "2b0b070ce4ca20fc908a1d96fff5b2c023dfef8cc19e705770dd3844503a70b1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-122.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (8).jpeg",
+          "sourceSHA256": "e41476e0a7d20d366c4653ca81c71d767b35d50a33679d6c9e8702729251e2af",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-123.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (9).jpeg",
+          "sourceSHA256": "6c89d484636925332f35e393f8be8f02a1e7fdc51d71e0d07376ca6daecee2a5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-124.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30.jpeg",
+          "sourceSHA256": "81ea1e9aa363c00da11deb29273addc23221f755b28922a3a5159c74fa02bafd",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-125.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (1).jpeg",
+          "sourceSHA256": "856c7376a44d2a6feb242a2736ef702281c58ffe29557ed22d677b83da868c7e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-136.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (2).jpeg",
+          "sourceSHA256": "40ab73bc68c03abd4e78c022974bdd31f0fe50ace4171b4f70be4d1697593c88",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-144.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (3).jpeg",
+          "sourceSHA256": "5715bb938df0e7f1e6ba42d9f99948c884b8d6d6d552e8c4cad36198200e6fdf",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-145.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (4).jpeg",
+          "sourceSHA256": "ed3309312fd4aff4de595b0de4795d21d55c0f23b82712ec71e3767edc6cc7b7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-146.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (5).jpeg",
+          "sourceSHA256": "565f11539e3b2b737341bc5482d1785cc2d39ceb5ed742182b3d3a8eb6352b3d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-147.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (6).jpeg",
+          "sourceSHA256": "cc2b7eb7c644ad8272a7f036ca3ea7afa2318d7310e92c7a40388dbf53950657",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-148.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (7).jpeg",
+          "sourceSHA256": "7884584d02a37793fefacee9f63432f8eb8ec74ea9ddd2c2c2278419bcd01ed8",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-149.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (8).jpeg",
+          "sourceSHA256": "5dd04ef5c1a3e6d924b1c9215ddd1b09413bbe9f701bf087a9d2ce43a5e85343",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-150.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (9).jpeg",
+          "sourceSHA256": "730c9f9ceb1c274bd5a394fb7c5309c16071916624ed250633b333a031826a46",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-151.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31.jpeg",
+          "sourceSHA256": "b0ac8434d0bb385d973600dd52d2b95d6ce57659b391ad39f88027a05a207abf",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-152.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-10-05 at 18.25.00 (1).jpeg",
+          "sourceSHA256": "bade5554336fc85ab7f14651b5baefa1745e6cade2cdfee89a73909826411058",
+          "visitCategory": "place-visit"
+        },
+        "https://youtube.com/shorts/AREkvigE0pI": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.53.mp4",
+          "sourceSHA256": "9988168ea94035f98d6dd4a4ec4b7fc83f5adfa2d4c77e36d8e16e8eadcaf0d7",
+          "youtube": "https://youtube.com/shorts/AREkvigE0pI",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "boleslawiec-old-town": {
+    "id": "boleslawiec-old-town",
+    "localName": "Rynek i stare miasto w Bolesławcu",
+    "name": {
+      "he": "בולסלבייץ, הכיכר והעיר העתיקה",
+      "en": "Bolesławiec market square and old town",
+      "pl": "Rynek i stare miasto w Bolesławcu",
+      "de": "Marktplatz und Altstadt von Bolesławiec",
+      "cs": "Náměstí a historické centrum Bolesławce"
+    },
+    "description": {
+      "he": "אחרי הסכר ממשיכים לבולסלבייץ. מטיילים בכיכר ובין חזיתות הבתים, מגלים את הפרטים הקרמיים בעיר ומשלבים את מוזיאון הקרמיקה לפני החזרה לוורוצלב.",
+      "en": "After the dam we continue to Bolesławiec. Walk through the square and colourful streets, look for ceramic details around town and include the Ceramics Museum before returning to Wrocław.",
+      "pl": "Po spacerze przy zaporze jedziemy do Bolesławca. Spacerujemy po rynku i uliczkach, wypatrujemy ceramicznych detali i odwiedzamy Muzeum Ceramiki przed powrotem do Wrocławia.",
+      "de": "Nach dem Besuch der Talsperre fahren wir nach Bolesławiec. Marktplatz, bunte Häuser und keramische Details lassen sich mit dem Keramikmuseum verbinden, bevor es zurück nach Wrocław geht.",
+      "cs": "Po návštěvě přehrady pokračujeme do Bolesławce. Projdeme náměstí a barevné uličky, všímáme si keramických detailů a před návratem do Vratislavi navštívíme Muzeum keramiky."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "boleslawiec",
+      "coordinates": {
+        "lat": 51.262998,
+        "lng": 15.564833
+      }
+    },
+    "categories": [
+      "architecture",
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "historical-landmark"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://boleslawiec.eu/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Rynek+i+stare+miasto+w+Boles%C5%82awcu",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://boleslawiec.eu/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://dolnoslaskie.szlaki.pttk.pl/2523-dolnoslaskie-boleslawiec-rynek-i-ratusz",
+          "checkedAt": "2026-10-16"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-069.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-070.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-071.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-072.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-001.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-002.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-003.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-004.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-005.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-006.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-007.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-008.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-009.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-010.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-011.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-012.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-013.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-014.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-015.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-016.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-017.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-018.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-019.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-020.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-021.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-022.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-023.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-024.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-025.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-026.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-027.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-028.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-029.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-030.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-031.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-032.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-033.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-061.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-062.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-066.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-067.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-068.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-073.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-074.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-075.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-076.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-077.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-078.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-079.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-080.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-081.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-082.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-083.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-084.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-085.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-086.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-087.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-088.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-091.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-092.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-093.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-095.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-096.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-105.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-106.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-107.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-108.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-109.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-110.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-111.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-128.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-129.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-130.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-131.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-132.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-133.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-134.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-135.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-137.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-138.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-139.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-140.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-141.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-142.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/maSKnck5q1g",
+        "https://youtube.com/shorts/YMyuRk3Fm7o",
+        "https://youtube.com/shorts/ut4a1jalggk",
+        "https://youtube.com/shorts/Ur6aD6_oITk",
+        "https://youtube.com/shorts/lifCtbBFbE8",
+        "https://youtube.com/shorts/LVAZFxAHypM",
+        "https://youtube.com/shorts/KVL-jKq3jTc",
+        "https://youtube.com/watch?v=TTn0iQPIQTA",
+        "https://youtube.com/shorts/AYEFN90-7N0",
+        "https://youtube.com/shorts/8omNiWR6tVI",
+        "https://youtube.com/shorts/ummWiuQrOds",
+        "https://youtube.com/shorts/lu3GKpKwjE4"
+      ],
+      "metadata": {
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-069.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.16 (1).jpeg",
+          "sourceSHA256": "d25d8f2ce39ac01ce14a37cb560519d705e35b076f2dd4908867d5c99f75a365",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-070.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.16.jpeg",
+          "sourceSHA256": "db6d60444b4a4bcd377e42cb955b682e896b04d1537e57fda775aab392aba001",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-071.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.17.jpeg",
+          "sourceSHA256": "03e98d4c7bd53f6ba19f55440607a16303492d0461014d59fed22e5ec8b28d89",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-072.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.18.jpeg",
+          "sourceSHA256": "d7a37a1d35491954f72fd8deda2fc00087b1c7ed21749be6045a08cbff498a24",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-001.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.26.jpeg",
+          "sourceSHA256": "6cb6169e2a677cd587c3c5a5cdfecb788c55603598a087d4282e00319c474f13",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-002.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (1).jpeg",
+          "sourceSHA256": "c9bdfaf96c3ff0381f82d049912f282be68709e18004129687bca4e6ecd0b4cc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-003.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (2).jpeg",
+          "sourceSHA256": "480a00172e3e5bcdcb96537f79bcce406952b2a1604ab47e3f3a96f02a69df0b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-004.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (3).jpeg",
+          "sourceSHA256": "8116003859aad6d7be833a14f588f6b601bd5e207f062f572ac31ddb5eb57125",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-005.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (4).jpeg",
+          "sourceSHA256": "82d60a810e9f7cdb43c512950190faf77409e11c7733be87301eb39886e94272",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-006.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (5).jpeg",
+          "sourceSHA256": "33e8acc78ab8f2ae65851c319856fea6b8629d571f331ede21802fc58911bee0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-007.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27.jpeg",
+          "sourceSHA256": "b469dea34283f957f673185ee73dbda5b224923a8d32a7a3becfbe7f88ff7f31",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-008.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.30.jpeg",
+          "sourceSHA256": "b71066cb603c2e0e799fe7ad71fda36f5308eb82d793f5fbf1a743e07efd64d2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-009.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31 (1).jpeg",
+          "sourceSHA256": "d5a8e3ef2affb40276e69c3d6abb41fc4d47232bd784e8f80375f67d379bce8d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-010.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31 (2).jpeg",
+          "sourceSHA256": "0bc86dcf952ffcd11b220f1a1115a326e67e6fc91cf44295c069a72aaa52741b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-011.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31 (3).jpeg",
+          "sourceSHA256": "1ad47fa920fdefc346fa7cf846179a1b6e7a8210bb282f99a824e2e505bb740b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-012.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31.jpeg",
+          "sourceSHA256": "1196c8e1cb6e210cd433881a9dfe62249b486b1f465129fbb193d1daf38cd53e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-013.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.36 (1).jpeg",
+          "sourceSHA256": "d8b02b18e4c2ab086ee09c3def411c4370311e9554d9c7bd6cbe4d6fb8514d37",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-014.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.36.jpeg",
+          "sourceSHA256": "eef5cc364ea11d27f43140e54438b06cbc0266d935728e04523a95f0f511c427",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-015.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40 (1).jpeg",
+          "sourceSHA256": "22308c88eb8f815cc458a7bebd73c2e344b1a2a009ac8d33fd7b9e7339840abc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-016.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40 (2).jpeg",
+          "sourceSHA256": "b3fd76549fd56ae861818d23d99af44b46c67f9fed107eb1ce8a858dfb03da2e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-017.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40 (3).jpeg",
+          "sourceSHA256": "d247e2d718901fb4e781638cf0161cca4bdea7200acfdd6f7565c88ada065139",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-018.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40.jpeg",
+          "sourceSHA256": "d9a5564956a606c4f275f3620077fe5fb58227a533d39e6e5dadc51f326b37a5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-019.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.41 (1).jpeg",
+          "sourceSHA256": "b8b3f7a3d7a8b797a947de055998367e56afec02a878bea83a2744eb78c769c2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-020.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.41.jpeg",
+          "sourceSHA256": "a7a6d4911fd9a84080bc38c1414ae59e923fc98aa667e26c1cf231dc229a7029",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-021.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.44 (1).jpeg",
+          "sourceSHA256": "563b532a1fda5678bd904e67c237c5d7498d5d4188550da51cb37eadf0fd2365",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-022.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.44.jpeg",
+          "sourceSHA256": "acd1d1a30a6bb9feefcb2936d674a77319da1be8ba25225dc95a4495417f92c6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-023.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.45 (1).jpeg",
+          "sourceSHA256": "b38753584ecfddfed25719679942c8ad57367b953d4da37b55fe264d46cbe98f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-024.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.45 (2).jpeg",
+          "sourceSHA256": "c6c6ab27cfef6376233ec430a0e11cb167baf271b7a92ad6579c2a497ecb5567",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-025.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.45.jpeg",
+          "sourceSHA256": "78cd3d21d9f123328287bd757837bfe77f6de2f3b38480d1c1c270242abcae28",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-026.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46 (1).jpeg",
+          "sourceSHA256": "43c280139186b7f4fbe996858bfe404b05a5011677ff24cd1b7e95e012d75eeb",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-027.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46 (2).jpeg",
+          "sourceSHA256": "72e29c13cbbb5aff290f2c132c427109df8834f4cdbf1fa970f98939f07c1e98",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-028.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46 (3).jpeg",
+          "sourceSHA256": "4ce4220b9a9307a079ce8a35654f7fa028fc025959ecfe183e459ce7a8be0481",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-029.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46.jpeg",
+          "sourceSHA256": "459e0a752a6e3556c5e3ded25d4c0c6c9e3ebf1725eb6185eb16026d68584f1b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-030.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.47 (1).jpeg",
+          "sourceSHA256": "0bd29721433a3a46e55b991cf83cabdbd6e35757d6608a2546c1a6c7d034c8f5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-031.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.47 (2).jpeg",
+          "sourceSHA256": "f86e3fbd70a1a07de5787b5a36b3be11780c1a7d1a918195b1505bde7e4bef10",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-032.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.47 (3).jpeg",
+          "sourceSHA256": "bb75f46794dd08a2254e6b4bbf72ad9316da001b7034ce5bce0fa1d9e36a4400",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-033.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.47.jpeg",
+          "sourceSHA256": "443c132eaa9090d37e784bf4a7f0ca1a2554a377858117fefd1b397ba8f98824",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-061.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.11 (1).jpeg",
+          "sourceSHA256": "7703bc595d8fe84ae0668ea09248bdb5941826d857bce775781489bff55b0f03",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-062.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.11 (2).jpeg",
+          "sourceSHA256": "e239e32bd1d3bbfde22228316319fda779ddc0760365c5b7f34a0ffcafa834d7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-066.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.13 (1).jpeg",
+          "sourceSHA256": "5269cb636fbc93e77e72348210715817dc42f7a2267bc0e9404b9bbf328f42b7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-067.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.13 (2).jpeg",
+          "sourceSHA256": "3a009487fde383626476dd2aa9ed09e9d848ea5a3cf6a1ca08b7f536e039a759",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-068.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.13.jpeg",
+          "sourceSHA256": "2baf6599a5fc3988663ca9f160dda6f6b6c0c6c72242d77f51d5fdb1b50caf7e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-073.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (1).jpeg",
+          "sourceSHA256": "1d0c883ba28a566b3914bb6da1d47ed4383a57d1d721e4789b557a678c37a5ff",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-074.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (2).jpeg",
+          "sourceSHA256": "16cda5ab975147919a25fdca8706e2588693bc8a9a06b5e0d699b81bd4e4f4e5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-075.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (3).jpeg",
+          "sourceSHA256": "147bd6f44130e252a17c64d0d4d24906dc29488c32cc3525d2b09b8b9e3eaaf6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-076.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (4).jpeg",
+          "sourceSHA256": "d7afcc579b6b75991dd38a92a301b6a5abd643b172d234f02cc6299cb61e8b84",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-077.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19.jpeg",
+          "sourceSHA256": "004df7a946b1eca7bd7bcd22e384081f1c08bf81be99077a067de25ca63dc3e3",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-078.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.22.jpeg",
+          "sourceSHA256": "081c9a43cf5bb39f44f40b051fb7b71dade0059936e29aae73a187e0ba9f2f66",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-079.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.23 (1).jpeg",
+          "sourceSHA256": "f5cdd807a4217bea38a367a6760d2b15f9c3789c90c6db05f985c72b4848ead0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-080.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.23 (2).jpeg",
+          "sourceSHA256": "8ea5f7b4ce140a0fc74ec7feb9bb21e98d0f1bfd33423e051e41e5c0ffa1f2f5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-081.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.23.jpeg",
+          "sourceSHA256": "9ef3db81f64866bb8a972fc3d8de80c89fa9d450fa77951242f6efe77c5822f1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-082.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.24 (1).jpeg",
+          "sourceSHA256": "09833e29dc7cdc20c787492027b67532684cc3d72e88e318e390ccd957936a19",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-083.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.24.jpeg",
+          "sourceSHA256": "58f6f8dc9c666f17f9223095fc9dd2b1ac5106bf80a97c9d82db0b9d560ec7a6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-084.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.25.jpeg",
+          "sourceSHA256": "8cc7d29d6ad881f6e5b49b4425e407b4ed28185180dd1ce49800b77056add0ff",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-085.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (5).jpeg",
+          "sourceSHA256": "cd9e27b29a245cf285eafbf1f218b81db0c3d73cd09637ba8cef7dd15f2a04c0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-086.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (6).jpeg",
+          "sourceSHA256": "f766dba38d7ab10a4f8fc1b5d856b97593d3ba109436a526385e8438384fd07c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-087.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (7).jpeg",
+          "sourceSHA256": "caf8330dc48b327b195fe217722e11e30cb54b1a5359b51caef9c0bf38f74a70",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-088.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (8).jpeg",
+          "sourceSHA256": "043ba44530c0df4dc6f0b64f71c69e17b6c5c0e24b4517c46da386fb686b0d8d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-091.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (10).jpeg",
+          "sourceSHA256": "6aa5968e89d99d6bb11f1dcd318250429a0b8fd48decab3c5998039162b693cc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-092.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (11).jpeg",
+          "sourceSHA256": "8eac7015836d60e827f877d5266c88982d4f74449263ecf0c418b09794399147",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-093.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (12).jpeg",
+          "sourceSHA256": "e8f41be1b2ef099b95105ad7056e5fdfbe65d27a75bb9f2fbf153e0ac39f9ade",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-095.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (14).jpeg",
+          "sourceSHA256": "61f4ee685c3e4d1c6ca6476bf92758faf082bba2494226dbe27c2881b5f028ed",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-096.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (15).jpeg",
+          "sourceSHA256": "f9cd856640147eb69f543c1f145698ce8297af56a4d0031c33ceabe5e69da562",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-105.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (3).jpeg",
+          "sourceSHA256": "7f329d0e1ec1cba078cd8def6700e20738e5d2c20bbc006b4959745b9d1385cd",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-106.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (4).jpeg",
+          "sourceSHA256": "1c9fab2027ba938d4d90a0ce537f4f954946896ceed51b7690dcce3fc458701d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-107.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (5).jpeg",
+          "sourceSHA256": "0da16dfa703cdf014a39e19f46f63f9a13d54ed774a8733bdc68428374f0ac26",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-108.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (6).jpeg",
+          "sourceSHA256": "b3926894856dce1fc9e0b536ea67a6f85a4500d880bcf9c740de191e50e2e0f9",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-109.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (7).jpeg",
+          "sourceSHA256": "e7c2b0ea5c578a06ff450c792079c419ce0d8e44027113be607aba3328c9a8da",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-110.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (8).jpeg",
+          "sourceSHA256": "2b0ba90906a4b3ddca5db2f0bc3f8c80029c1c5a859113ab241d58c905e1f2e8",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-111.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (9).jpeg",
+          "sourceSHA256": "c54d2eea6da5c10fd6905450935195603a8e571d5a7c10c086efb205c07a8c01",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-128.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (12).jpeg",
+          "sourceSHA256": "feaa8a9de1d632b4a9f655dffe61f23dcd7cfdcc84155d21dd07353084edd0cf",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-129.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (13).jpeg",
+          "sourceSHA256": "03165a241e12cd15d499779a4186256ae1059c0174389c0b4e6cef68675a7f65",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-130.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (14).jpeg",
+          "sourceSHA256": "1ffbf85f24e582cfd46219ce0600628dc6e529b88a5f973d2adab83ea25e5e8d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-131.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (15).jpeg",
+          "sourceSHA256": "ccdb17603c509b526a773c118799ce3e356c35a39117a07c1e47db12c38460cc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-132.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (16).jpeg",
+          "sourceSHA256": "69454d0674b009cf91ce71e825df07bc4cd32a06539047c3f1dd89b902a89edf",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-133.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (17).jpeg",
+          "sourceSHA256": "9beced8907830629176fe54dd3027850f76a5b58533f96917cbc0f39d6fead11",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-134.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (18).jpeg",
+          "sourceSHA256": "aee4d5f60ed432f0bda4226d73a2460534f7a666d6820a6aa9dabbe25b30a655",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-135.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (19).jpeg",
+          "sourceSHA256": "6dc6a78f365a95114b99358447fe946042b5e34435d842cba612c2a8eb772d08",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-137.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (20).jpeg",
+          "sourceSHA256": "3f464b65fe54fdc26f545b1b07bf291cb08e64116db07933eb1612a617f2785c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-138.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (21).jpeg",
+          "sourceSHA256": "ef323c69eed41c7dde8acf8585e1514757dfe11d77dc3b49b091191002693d94",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-139.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (22).jpeg",
+          "sourceSHA256": "eb1751e0eaa1b82646fce0e2b12b931ba40d729a2c20e1e501f684f9992a83ab",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-140.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (23).jpeg",
+          "sourceSHA256": "64c83dd072181942c0052fb49b5e85721c46612bd4c61c728689292be51870be",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-141.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (24).jpeg",
+          "sourceSHA256": "e8eea2bf55f576730b7a4fe35418b09d4feb4e3d5384730623061c1ded94f443",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-142.jpg": {
+          "original": true,
+          "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (25).jpeg",
+          "sourceSHA256": "941ade0ae529c22b8a0b2d319b66c8672dd82f07424cdc20f37a3418f5b32574",
+          "visitCategory": "place-visit"
+        },
+        "https://youtube.com/shorts/maSKnck5q1g": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.25.mp4",
+          "sourceSHA256": "a4683f5cc539b5a6e584db63a583cdf92f5dfabd0fa6f471ffdd48c355ea4b67",
+          "youtube": "https://youtube.com/shorts/maSKnck5q1g",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/YMyuRk3Fm7o": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.29.mp4",
+          "sourceSHA256": "587e176be26333a025bedb18b4c93c59ff55694cc365cccd2e0a0fdf392e9ca8",
+          "youtube": "https://youtube.com/shorts/YMyuRk3Fm7o",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/ut4a1jalggk": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.32.mp4",
+          "sourceSHA256": "f198e172d163a2d281f65a8fdbf79c18428d81d04507ac022403db13a2d0a545",
+          "youtube": "https://youtube.com/shorts/ut4a1jalggk",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/Ur6aD6_oITk": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.33.mp4",
+          "sourceSHA256": "3ea33fbefc5bea8fd2b65e8c74d22eb93df97551b8332861855150d98e016214",
+          "youtube": "https://youtube.com/shorts/Ur6aD6_oITk",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/lifCtbBFbE8": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.34.mp4",
+          "sourceSHA256": "eb747535e8e6aa7634f2d3dd919407d945d7b7ef0ab1f87168409a0031f1307e",
+          "youtube": "https://youtube.com/shorts/lifCtbBFbE8",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/LVAZFxAHypM": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.37.mp4",
+          "sourceSHA256": "ea4b2bb5d754e7be2a791ac69f0fb55219de3bc36d81deac346885a2052f07df",
+          "youtube": "https://youtube.com/shorts/LVAZFxAHypM",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/KVL-jKq3jTc": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.39.mp4",
+          "sourceSHA256": "34b24664caf3da3e3823a022bce08502dbc16cf235838aa5a17094c0c86645a4",
+          "youtube": "https://youtube.com/shorts/KVL-jKq3jTc",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/watch?v=TTn0iQPIQTA": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.42.mp4",
+          "sourceSHA256": "7ff710930515d34d2ab0e2d00abdc315670f009ee8d9d524fb1e73b2c300ba6e",
+          "youtube": "https://youtube.com/watch?v=TTn0iQPIQTA",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/AYEFN90-7N0": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.43.mp4",
+          "sourceSHA256": "5d5ceab70adf3f2cef29c966a655a99d00704bbd5903e6df05fbc00b60f10514",
+          "youtube": "https://youtube.com/shorts/AYEFN90-7N0",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/8omNiWR6tVI": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.21.15.mp4",
+          "sourceSHA256": "76a039676a2fb6b68a239da490a1481210586482dba17d6c8996c32a611f2d7d",
+          "youtube": "https://youtube.com/shorts/8omNiWR6tVI",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/ummWiuQrOds": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.21.20.mp4",
+          "sourceSHA256": "8b75215bde260a3029a89329aeaa876eb1e3ec6a910a2cc2c3974ce272418367",
+          "youtube": "https://youtube.com/shorts/ummWiuQrOds",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/lu3GKpKwjE4": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.21.21.mp4",
+          "sourceSHA256": "72a1b97ada2cab7669d3721a718b239db50eebe8c7747e78c6d94455850e64a0",
+          "youtube": "https://youtube.com/shorts/lu3GKpKwjE4",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "borek": {
     "id": "borek",
     "localName": "Centrum Handlowe Borek",
@@ -5193,6 +6470,1618 @@
         "verifiedAt": "2026-10-08"
       }
     ]
+  },
+  "czocha-castle": {
+    "id": "czocha-castle",
+    "localName": "Zamek Czocha",
+    "name": {
+      "he": "טירת צ׳וחה ולינה בטירה",
+      "en": "Czocha Castle and overnight stay",
+      "pl": "Zamek Czocha i nocleg w zamku",
+      "de": "Burg Czocha mit Übernachtung",
+      "cs": "Hrad Czocha s přenocováním"
+    },
+    "description": {
+      "he": "ביקרנו בטירת צ׳וחה ולננו בטירה. בגלריה תמצאו את החצרות, החללים ההיסטוריים, מזנון ארוחת הבוקר ועוגת התפוחים שאכלנו במקום. את ההליכה לסכר אנחנו ממליצים לעשות בבוקר למחרת, אחרי ארוחת הבוקר.",
+      "en": "We visited Czocha Castle and stayed overnight. Our gallery includes the courtyards, historic interiors, breakfast buffet and the apple cake we enjoyed here. We recommend the dam walk the following morning, after breakfast.",
+      "pl": "Zwiedziliśmy zamek Czocha i spędziliśmy w nim noc. Galeria pokazuje dziedzińce, zabytkowe wnętrza, bufet śniadaniowy i jedzoną na miejscu szarlotkę. Spacer do zapory polecamy następnego ranka po śniadaniu.",
+      "de": "Wir besuchten Burg Czocha und übernachteten dort. Die Galerie zeigt Innenhöfe, historische Räume, das Frühstücksbuffet und unseren Apfelkuchen vor Ort. Den Spaziergang zur Talsperre empfehlen wir am nächsten Morgen nach dem Frühstück.",
+      "cs": "Navštívili jsme hrad Czocha a přenocovali v něm. Galerie ukazuje nádvoří, historické interiéry, snídaňový bufet a jablečný koláč, který jsme tu ochutnali. Procházku k přehradě doporučujeme následující ráno po snídani."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "sucha-lesna",
+      "coordinates": {
+        "lat": 51.0306821,
+        "lng": 15.3035811
+      }
+    },
+    "categories": [
+      "castle",
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "castle",
+        "historical-landmark"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zamekczocha.com/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Zamek+Czocha",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://zamekczocha.com/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/way/1329470087",
+          "checkedAt": "2026-10-16"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/czocha-boleslawiec/czocha-castle-107.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-001.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-103.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-104.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-111.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-112.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-113.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-114.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-122.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-123.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-133.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-134.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-135.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-156.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-083.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-141.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-142.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-143.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-012.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-013.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-016.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-017.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-019.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-021.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-022.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-023.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-024.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-025.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-026.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-027.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-029.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-030.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-032.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-033.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-034.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-036.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-037.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-038.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-039.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-046.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-047.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-048.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-049.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-050.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-051.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-052.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-053.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-054.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-055.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-056.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-057.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-058.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-059.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-060.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-061.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-063.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-064.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-065.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-066.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-067.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-068.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-069.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-070.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-071.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-075.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-077.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-078.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-079.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-082.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-084.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-085.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-087.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-088.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-100.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-115.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-116.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-117.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-118.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-119.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-120.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-121.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-130.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-137.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-138.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-139.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-140.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-144.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-147.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-158.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-159.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-160.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-161.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-162.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-163.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-165.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-166.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-167.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-168.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-169.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-172.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-173.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-179.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-180.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-181.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-182.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-183.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-184.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-185.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-186.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-187.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-188.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-189.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-190.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-191.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-192.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-193.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-194.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-195.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-196.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-197.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-198.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-199.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-200.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-201.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-202.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-205.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-206.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-207.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-208.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-209.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-210.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-211.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-212.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-213.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-214.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-215.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-216.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-217.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-218.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-219.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-220.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-221.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-222.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-223.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-224.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-225.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-226.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-227.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-232.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-233.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-234.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-235.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-236.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-237.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-239.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-240.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-241.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-242.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-244.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-245.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-246.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-247.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-248.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-249.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-250.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-252.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-253.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-254.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-255.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-257.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-258.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-259.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-260.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-261.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-262.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-263.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-264.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-265.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-266.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-267.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-268.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-269.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-271.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-272.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-273.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-274.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-275.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-278.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-279.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-280.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-281.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-282.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-284.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-285.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-286.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-287.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-288.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-289.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-290.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-291.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-292.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-293.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-294.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-295.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-296.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-297.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-298.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-299.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-300.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-302.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-303.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/L1Z0nIxGFsU",
+        "https://youtube.com/shorts/LQZA0KUMTyM"
+      ],
+      "metadata": {
+        "/assets/czocha-boleslawiec/czocha-castle-107.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.10.06 (1).jpeg",
+          "sourceSHA256": "38291268ca8e03ee7a5cd3b323283a2eb4893aeb44f291b24bc664918ca60b6e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-001.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.31.jpeg",
+          "sourceSHA256": "0e4dd548b2f0432de64a9726d581b9d63c58840f75e4a72f9bdcdbaec08457d6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-103.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.37.jpeg",
+          "sourceSHA256": "131a18bdf5170351d385cc4a9663797e0253911c5896dfd990c2f2e45d6daa54",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-104.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.38.jpeg",
+          "sourceSHA256": "0b10bd510c0b44351f5ca77a42dbd5fdd3a62336679567425478a753effa68fc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-111.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.10.06 (13).jpeg",
+          "sourceSHA256": "443e7c22febce586d1f9c7ff1e9ecb4afade1cec5bb69eefd563c3faa4c9f096",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-112.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.10.06 (14).jpeg",
+          "sourceSHA256": "b4d962bef463c84a3dde24b5019d8b594302bacfcced968c07202fb72d70afaf",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-113.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.10.06 (15).jpeg",
+          "sourceSHA256": "33ee41bbc7b48ebc3be010eb457fbf95b2fb9e25b35bd065d80b05d482fa8663",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-114.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.10.06 (8).jpeg",
+          "sourceSHA256": "3c309655012bacff3ca39caf3b9691d278ed48ba0e31204f930876acf31997ab",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-122.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (13).jpeg",
+          "sourceSHA256": "058da1bf174f4cd9cbfb65ec8c93f35f2cd88a0cb41159bf2102577ba3f4a838",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-123.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (14).jpeg",
+          "sourceSHA256": "1634907bd2b600a14ed77da3c06a5d4766c590607c2db51d4ea5a831101cede7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-133.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.20 (1).jpeg",
+          "sourceSHA256": "7a7a15e92c0280762366b157f7bcc6af50b373430309baf59b7324917a5128fe",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-134.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.20 (2).jpeg",
+          "sourceSHA256": "85e43ee2179487e78f044666bf218e2ecd3842cf0352d60fa61b2a1352ef428f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-135.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.20 (3).jpeg",
+          "sourceSHA256": "b3871aa3e0b99489aa6314be789c8cfcac448660112f76ce53ac52e697731550",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-156.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (28).jpeg",
+          "sourceSHA256": "235e02db6a0a73337d8e6548a1410528341d0efcb8b1c9637ac53963dfeb8c54",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-083.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.33 (2).jpeg",
+          "sourceSHA256": "74a1fb21b9b8d905535c68352b246b76235a7148f5286857a45e7c1006128580",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-141.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (14).jpeg",
+          "sourceSHA256": "c8ad6724395e06370012be2549f175355137ba07e548b31bda8ba620a6696ec2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-142.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (15).jpeg",
+          "sourceSHA256": "80fe154800f334b02c3f853516934f983e6ac7aeafbfcb778e19fb3e2c0eda51",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-143.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (16).jpeg",
+          "sourceSHA256": "8a33af59e97b8d8a03f3f1851702d229ae4772d6eb519de1285c6516d4872f85",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-012.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.37 (4).jpeg",
+          "sourceSHA256": "b14738402a033c13b584dcf2f6cf83ff2a11d06de9fa4736fc7573a7bd581e1c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-013.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.37.jpeg",
+          "sourceSHA256": "7af35ba34c80c0ff97faa82480f0cdd73627d09f38ad901a9e142a042cae6400",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-016.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.38.jpeg",
+          "sourceSHA256": "8da77dfda1ad6a58965340a5817941a9bc8b4470c6501a756175c6d292078de8",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-017.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.39 (1).jpeg",
+          "sourceSHA256": "0f319de8ea61a91f034df0fc10d8dfb2b575c801b21868bdd88f4ec5cac9818a",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-019.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.39 (3).jpeg",
+          "sourceSHA256": "d01239ebfdc19524d4f3bf9c5580835726507d64dff815a9c1aef7c95ae8cf3a",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-021.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.40 (1).jpeg",
+          "sourceSHA256": "8dfb2a1712d7b6291ef88ed6f9638ab5007ad747ceaeb15bb99ce18f72b148a0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-022.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.40 (2).jpeg",
+          "sourceSHA256": "ab30350071d0ea08ba49a379a444d9f0400281aa4ce14bc10dfb0a19d000e2c5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-023.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.40 (3).jpeg",
+          "sourceSHA256": "2431637aa6a8306c51bd4d35e1a24b16dd5e078d903247712becbdfa7c5b5c96",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-024.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.40.jpeg",
+          "sourceSHA256": "2ab0cc19a4b6b3d7beb3d898dec0d174eb38c757782df5e4abf493b3eefc3e00",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-025.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.41 (1).jpeg",
+          "sourceSHA256": "72635bfe2b0a5167b32b75a400de4d6b98472b00fb60997b1014b9d4411c9b27",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-026.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.41 (2).jpeg",
+          "sourceSHA256": "3e13eaa7de7c7fde8aff144f068a6e427fba158e5b47bffe64785b4545aedee6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-027.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.41.jpeg",
+          "sourceSHA256": "61b79c721c22ccbfc83b4fa25c1fa97ededa0b3e5090e48704a95679e35e297b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-029.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.42 (2).jpeg",
+          "sourceSHA256": "867bf0aa9e21c1633c6de3a83f14e013a34ead7c2fa6480affab2d2f974e7ec2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-030.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.42 (3).jpeg",
+          "sourceSHA256": "b2b7f1f8ac366dbba03bd0aa044491ea6c242323ce6c3029973579e843f8b4c1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-032.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.42 (5).jpeg",
+          "sourceSHA256": "2b11c7c7ef9812d1fcdab2d4eefbed1a8d076fcea7bdcf8fa6c5daac3f0985d5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-033.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.42 (6).jpeg",
+          "sourceSHA256": "5f6344312b9c786052bfc49c0bcc58e7678238a3a5d51d29954c736c78babc37",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-034.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.42 (7).jpeg",
+          "sourceSHA256": "9a55441ee704188b7288e4e9c16b0a0c252407e21e1a61888b0be4e72c29b3ae",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-036.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.43 (1).jpeg",
+          "sourceSHA256": "14e123fecd7d94fdf6e20adeb90b0be82fbe0eba511cefc1be457a5b66338de0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-037.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.43.jpeg",
+          "sourceSHA256": "15ab957a69d399a717b11aee89cd28c84aeb7d5be6f3c5b7153c86b9baff925d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-038.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.45 (1).jpeg",
+          "sourceSHA256": "5c8c96b51048dc91e4d2e560df5e608476dc65f6d18cb1610cf106cb6169ec89",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-039.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.45.jpeg",
+          "sourceSHA256": "53575236c09d8e954f333721fa4311b8f2d42ccd45a76706fa07c13a97b5b6a9",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-046.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.48.jpeg",
+          "sourceSHA256": "67ec48e8beedc280762a7a2905e20e1bf205bbbeb6cb932b06889f9bf029aeee",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-047.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.49 (1).jpeg",
+          "sourceSHA256": "d17e5c3b49879e4ef0108c8647f37d1ef6eb2128e2b0c20000ec158a12f6069d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-048.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.49.jpeg",
+          "sourceSHA256": "88cbdec602c553e1fa527df7c10c31c938505577985aa3a002ebec80122b092a",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-049.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50 (1).jpeg",
+          "sourceSHA256": "36f8de78b6237fceecf6bdf72c40fd5d9b4a9ac5ee49685541b8f456c6e7aa7e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-050.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50 (2).jpeg",
+          "sourceSHA256": "e1fb13731b8db2cc1d2ec477d807de925ae971e73d2ad5e07898d124d00c0b13",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-051.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50 (3).jpeg",
+          "sourceSHA256": "3c84112b5a9342e462056ee8e661394144a5393b8cbb8b535f8c969ce41fa00d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-052.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50.jpeg",
+          "sourceSHA256": "23fc69755bf4d2e1e7c1e2d8a1ce11ea2dac48dbbea867621919af9f45cbe40c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-053.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (1).jpeg",
+          "sourceSHA256": "5d0b778f43d15ac2e5fe9853b08bd28bb4da36480efe0194ec13be2b052657b3",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-054.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (2).jpeg",
+          "sourceSHA256": "63ae0a858073bc79341435d5cf270151de357008af48ca7f3311d8dad9630ae2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-055.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (3).jpeg",
+          "sourceSHA256": "dec776dd36669c71303fcdb54f67f7adff818295dd7e0de050c3a3aecba75d63",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-056.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (4).jpeg",
+          "sourceSHA256": "902029164083657cf7d75d685d1ae16eba92750de88a9bb5d72048033be6d73e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-057.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (5).jpeg",
+          "sourceSHA256": "171abaa3b43be2fe2f6f397fb6f570eeb7452d8dd8be0a3d77489cc262672f35",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-058.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51.jpeg",
+          "sourceSHA256": "d0fea793ede2c946c8c203573c507223614bd06a7694ec290abace4a48ba484f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-059.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.52 (1).jpeg",
+          "sourceSHA256": "5108426151c1982348472334901d4d1c00995c15a77c8fd01697fc6e0e24835d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-060.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.52 (2).jpeg",
+          "sourceSHA256": "b6fe3fe04a9522e5873a788b1fb0af3e4ffced3154d7178dab74fa542bdc9b24",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-061.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.52 (3).jpeg",
+          "sourceSHA256": "c25c8a97abc35aa4629f6a5749c53df8cac52ba70959271e905b2eb3a60f8b01",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-063.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.52 (5).jpeg",
+          "sourceSHA256": "bdbca3916d11dd5ecb9cf19d24748953bbcc41a57c43732242e317e83738f742",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-064.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.52.jpeg",
+          "sourceSHA256": "11496125bce771ca7c4ec51ef1b98f617310c9b87b56689e9c3d824ea1c1a94b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-065.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.25.jpeg",
+          "sourceSHA256": "a40ef033249aeec23587a15db48460a7978e8a322188aeeb60b79bdcb491e9c3",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-066.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.26 (1).jpeg",
+          "sourceSHA256": "4704fee2cefb5209dbd49f021c896c7f21633dc4eecffc8d0944439ce0dcd491",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-067.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.26 (2).jpeg",
+          "sourceSHA256": "135070a335c1550c9b8fbae3bd025227abae20765de1f800cd7013a2fc43e84d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-068.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.26.jpeg",
+          "sourceSHA256": "823a139cd469b15a3d850801342e75eaeaf4d54f1d072bd67d2ca7bbdf17d447",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-069.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.27 (1).jpeg",
+          "sourceSHA256": "f681fd31b282dab6080ad522b3039256018dd302fd328799ecc1a11eb6696aef",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-070.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.27 (2).jpeg",
+          "sourceSHA256": "e6899dd11106cb39b08c496e7aaa0adb99a7054051737ddd3a3777eef0b86f61",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-071.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.27.jpeg",
+          "sourceSHA256": "c04580ad46387d2dd45bf844c4e5f9afe015a2cf60ec794540ef77827c186bc7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-075.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.30 (1).jpeg",
+          "sourceSHA256": "c56e60d4089dcea0cd1851fd2b8bd09e9a2ad62fca547dab903912a60e6c2c48",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-077.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.31 (1).jpeg",
+          "sourceSHA256": "bbc5b994bb56866f09905d29f6b0c5b68f9b88d12b294b6f31db7e24a1036e5b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-078.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.31 (2).jpeg",
+          "sourceSHA256": "e2f9d39565e96e99b12e7da3ae75fec5a65636bac7364ecfe96b16b0cf4a2e02",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-079.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.31.jpeg",
+          "sourceSHA256": "23b4565f789d35ebcbe05cfc807dd5109194eaacf139553689aa4dfbdfff5c5d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-082.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.33 (1).jpeg",
+          "sourceSHA256": "65be628cb40804257ddb0710df05c65c9447e4295c28c0cc47c05d3a1ce39558",
+          "visitCategory": "apple-cake"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-084.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.33.jpeg",
+          "sourceSHA256": "098224bed54ec5226abb0a24c45fe79a7a0eafb0db9ccb240d80bb5421497eee",
+          "visitCategory": "apple-cake"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-085.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.34 (1).jpeg",
+          "sourceSHA256": "a24d46b1ce2d5309b7b436174d734258e3d3afc07879a33b103b936a7c4eb1a0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-087.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.34.jpeg",
+          "sourceSHA256": "3fbd3529e5b5e99d60a27efc1ec6362ca921262de5ddcbfa4926f8ca8d0721a0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-088.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.35 (1).jpeg",
+          "sourceSHA256": "4c26ecd143275ae20a236f45e60b132443709d444260e3536046160605ac003f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-100.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.37 (1).jpeg",
+          "sourceSHA256": "8de02d741e2663c51ca04952a89ed77682dc0f60792a4bfd5587b0b97995a1f8",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-115.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.17 (1).jpeg",
+          "sourceSHA256": "c0e7cd681dd07a9736ce2d9153019bd5f59e6e9094885c7533fb73f5caaf4d81",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-116.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.17 (2).jpeg",
+          "sourceSHA256": "3c28fcb95f136f77b9e234ea1aa74eb5553d38e2048b46c87d74c9a4c88dd87b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-117.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.17 (3).jpeg",
+          "sourceSHA256": "3c2790ce427c1568b489ab9496802569e0318fcbd15abef06ec69f4a424d727d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-118.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (1).jpeg",
+          "sourceSHA256": "35c1bd6628b01e4c43390939dbe9c5b45199de04fb3c4a528f1ee97610370439",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-119.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (10).jpeg",
+          "sourceSHA256": "df4f3166a559917c4b081d9a1ce7d198985096a8a7bc096ca3683769dec42b41",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-120.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (11).jpeg",
+          "sourceSHA256": "13918aa96e91396d0b82d2530dcb4e021df366e1254493ff06d14ae6bdf620c1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-121.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (12).jpeg",
+          "sourceSHA256": "f437ed579c5808229062b346f932e22b8f4bf8005fa80d8efc72bd35226b1d00",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-130.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (22).jpeg",
+          "sourceSHA256": "88d90467b60b0d1d1858cdd1bdb62c24b0dfd0b85cabdb089659e97bb1072ab2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-137.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (10).jpeg",
+          "sourceSHA256": "be9cb1f0c58d067d04608750fac7bd0231e62a09fde3e87f3cc4e55bc79191a2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-138.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (11).jpeg",
+          "sourceSHA256": "05a44164a2d3ac5d4848165ef99fc70bd73ea6316bca0c33483b57af0bde1809",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-139.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (12).jpeg",
+          "sourceSHA256": "4537df8812110f5c261e68479091de1bfb1a1d4626f662653b8bf747429d44aa",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-140.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (13).jpeg",
+          "sourceSHA256": "764f11b7d52e97f29892f37f1fbcad5437c0ac530e4b536fe6b275c4b971edfc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-144.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (17).jpeg",
+          "sourceSHA256": "4df74bc6a694a2434800c86084efa7ed27faed592c4040143526b5d8d55e652c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-147.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (2).jpeg",
+          "sourceSHA256": "2aba8ca70e227932dfd7bfdaaeedb61eb0536c909617023b29d89a1e47079bd7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-158.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (32).jpeg",
+          "sourceSHA256": "82ebe9d96684c93e3f5ffe476efe97d6d2d8dc14f84989efc46993bebd2847d1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-159.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (33).jpeg",
+          "sourceSHA256": "2bec65b3a4b26b3f4f63e6a34922b99f7495ba263fc9b3ca39b3b2ab3a913eb1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-160.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (34).jpeg",
+          "sourceSHA256": "9620d920f62086e96f33ffe63aef4af2cc979a482ddc90c4070fcad75e5a1a51",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-161.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (35).jpeg",
+          "sourceSHA256": "fb47abbb339cd1cb9093469104af099192591c2fcd3af9bc4ff8bdf45edf7202",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-162.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (36).jpeg",
+          "sourceSHA256": "c88db0adba0a194458772d2017cf9ff508bb9af9c13d124ae12dbf63ebf006db",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-163.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (37).jpeg",
+          "sourceSHA256": "c4508a2c8471e87fce8063926d4864395449b6420a825880bc1eb21c33502c0d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-165.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.22 (10).jpeg",
+          "sourceSHA256": "3e7de99af1d30ed61e8d5087fa936a17e0a128c25b80e6b46882dca9fb69c393",
+          "visitCategory": "breakfast"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-166.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.22 (11).jpeg",
+          "sourceSHA256": "3b0dd2cd71cc57d47442b7a6d4ee99362a9385ce7d79506979cfa8c769d1a9b4",
+          "visitCategory": "breakfast"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-167.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.22 (12).jpeg",
+          "sourceSHA256": "5c8de4c55542b757fa19b9880bb706a98c541a0d7d2ec96bbe54732b8cc3bd6f",
+          "visitCategory": "breakfast"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-168.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.22 (13).jpeg",
+          "sourceSHA256": "4e47b62cc99fe760e3d28de7c5a78fa31e80e42dd8c232834fee8ecbfcdb6352",
+          "visitCategory": "breakfast"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-169.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.22 (14).jpeg",
+          "sourceSHA256": "e76bf13074bd3d12fbc76a3f08e292f3d50473787b95111e36cdf84b804b397a",
+          "visitCategory": "breakfast"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-172.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.22 (18).jpeg",
+          "sourceSHA256": "9d7b3eac5a65235db9dcd343bffd92b135fc1b63473a251f3ca8e136dd0c3cb2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-173.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.22 (19).jpeg",
+          "sourceSHA256": "7dc9beefbf0379fb492617624a3adc0947d0277a41381f70a59b7739e7e889cb",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-179.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.11 (1).jpeg",
+          "sourceSHA256": "64818ed456903b2594d8e2dc983cfef752ebdb87ddc62e872264287c0ed18aa3",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-180.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (1).jpeg",
+          "sourceSHA256": "0ee00f4adeafac41b0386f986b03863c09f90cb3c7be2adca5dabaef907ad6a6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-181.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (11).jpeg",
+          "sourceSHA256": "4d934a28d9991783ff97b7883f12b08cf35699a96a2e3cd5a7c95a05b684717d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-182.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (12).jpeg",
+          "sourceSHA256": "7bbff3bc9c8b1521bc2d8dca9b59913bd4df86a7624a497aa360055366c6dae7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-183.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (13).jpeg",
+          "sourceSHA256": "1c239f3d8dc9c9af4713a14fdaf7b9af6bc20b95f156a1640b01fd2f6417dd1e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-184.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (14).jpeg",
+          "sourceSHA256": "34e0dd429f49ed4626b662e19edc71939467f268ebdcc15066fd534d0c6de48d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-185.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (15).jpeg",
+          "sourceSHA256": "83eaac66b167ded713c58b0a9d4d8f11e26523c3f33fa01480dda0c25edb3d92",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-186.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (16).jpeg",
+          "sourceSHA256": "c22eea580bc1e56173b76c2671769a8cd9ce20b7ccacf4f445e66388e51cd9e6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-187.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (17).jpeg",
+          "sourceSHA256": "f716a86442247e2e5ab0c3751ad4bd21f13bbe573d5fa49179442e0b51f18413",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-188.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (9).jpeg",
+          "sourceSHA256": "3e8a3998e8d6ad3d19c42bfbf0cb2f9aa13d1e29d8dae333aa526d983f4fa4c0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-189.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (1).jpeg",
+          "sourceSHA256": "900c0a5df91461a751f64608c02464232f1294f002f502f9c19a7caecd4da32b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-190.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (10).jpeg",
+          "sourceSHA256": "b81f5882b8f1dff034d16a99f597b5038e2dbdf15efa9695892e8d5c0dbffd73",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-191.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (11).jpeg",
+          "sourceSHA256": "703a4ac39321402a344c8dc9eb465ca266847b5b651acd60af61625d5b7dae0c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-192.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (13).jpeg",
+          "sourceSHA256": "398674438936e390b72cd6b3347b5581c42ea87bf34efe038cf2aa21b10dd4ff",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-193.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (14).jpeg",
+          "sourceSHA256": "02ef3d4520b8f906fe070eaacf60fe98b7de52c97dc062dbda90c46ae22c4111",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-194.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (15).jpeg",
+          "sourceSHA256": "ca81f6160d5421775e8afcd716417cf86cf024a4702b6ea96622adc01079edbb",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-195.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (16).jpeg",
+          "sourceSHA256": "9b58801a97db71ccc42c22a9cadcc430fa8766e863a05aa120bf324956b8f347",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-196.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (17).jpeg",
+          "sourceSHA256": "7579f326def7ed5af5b59d4fa127bfe37203db9db3c4c949f8b223d6a9aaffd8",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-197.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (18).jpeg",
+          "sourceSHA256": "e442a3272951fb4145a977c3f87b8d83ca2dfa009f7e5a54f128f7f455221f12",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-198.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (19).jpeg",
+          "sourceSHA256": "75ec2e85fd930f2b2c958ce9ca30d527223fc3ffbd824cd0d594e78b9c1ea7b8",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-199.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (20).jpeg",
+          "sourceSHA256": "751a2e2ce7e7096f19321b659935c10d3596512a027872d6b00b85f5e364f482",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-200.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (1).jpeg",
+          "sourceSHA256": "00f77ccd5ceeb58fba9443876ebd3b14e6680d5c806b4ce6827a67cfa898741c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-201.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (10).jpeg",
+          "sourceSHA256": "87eddd1b8c6cb488ab11ec8b19fdf504db6044475a3b1b18e020f64c67a63424",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-202.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (11).jpeg",
+          "sourceSHA256": "141badfcfecc3dc02e9c931781a61c7dfb27e7a4ebc19607df3fa2cdec0312ba",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-205.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (2).jpeg",
+          "sourceSHA256": "322c89a5bec1afb7b61bfc893b1edd0d0240037b037f753b6aad78177a2abc61",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-206.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (7).jpeg",
+          "sourceSHA256": "107838461c94fffbb692f88ca6b92cfe8949eac447e2acd9ab3620d5668bc13f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-207.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.19.57 (1).jpeg",
+          "sourceSHA256": "31664ec7b6648cf45661a5bea93e7a5c63a5ae4e371f9c1fae1b85f0b397a842",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-208.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.19.57 (2).jpeg",
+          "sourceSHA256": "d190bba98c52965d24cae832c61847f00cc9a7e9981aad0e2acd4bdb96e6445d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-209.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.19.57 (4).jpeg",
+          "sourceSHA256": "327bac2ed92c9d448f2ac580529a317e42ccd0ee089ce6c5de9b406f5c93a785",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-210.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.23 (1).jpeg",
+          "sourceSHA256": "5605ba5478d38eafd55876f52a620774308a16ffd2ae27099df2b5dd955c310c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-211.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.23.jpeg",
+          "sourceSHA256": "7d825861bcfd19fec178a04ddb9c74aaf1997d592b16ac45f31c5ffa5a10bc3f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-212.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (1).jpeg",
+          "sourceSHA256": "479cb76046f50b16aeec118f1458e06729caa9d7fe3529f0b038d35045c794ac",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-213.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (10).jpeg",
+          "sourceSHA256": "cb5628dc85679e72935f669f9f0c819e8136a64b3f4ced86488571867963fc25",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-214.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (11).jpeg",
+          "sourceSHA256": "70107bd45172238d28ace347718a03bcbf3e47a8b28b24f77af8b338af2f4912",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-215.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (12).jpeg",
+          "sourceSHA256": "38a814359bfbccfc10e22c48ceda57b6d33100dedfe7e3503344031168e38936",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-216.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (13).jpeg",
+          "sourceSHA256": "1a54b4395b3fac0451ba17b7251c8023ec4b21e948e89764846cfb38b3f6c90f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-217.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (14).jpeg",
+          "sourceSHA256": "c448b5e78acd0371409956c17df0d263dba622b9ee140923c992af27bcd1752c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-218.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (15).jpeg",
+          "sourceSHA256": "0507bd53f46a5dc6b9be74757311155b2f418736c5bd815478f4a749f36f2a98",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-219.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (2).jpeg",
+          "sourceSHA256": "c48bca674f13a7a6c6a1b3e17f1f443d8af7298ebdc3e88804d6e743cbce28ba",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-220.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (3).jpeg",
+          "sourceSHA256": "e9354b853efa772930924aae7131b210d7228cae617944aa1e1fc2e4013d8412",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-221.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (4).jpeg",
+          "sourceSHA256": "43189961ca9900e7ff862515c00f7eaa93a0680559988afd5f46ca6864210a8e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-222.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (5).jpeg",
+          "sourceSHA256": "b3b38db92f1c2eafbfd39bec547925d95c58a32a910992398244d7594dc706e7",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-223.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (6).jpeg",
+          "sourceSHA256": "d2fdccd59f5babd34c62d3063aeee981211120a681f053bd5a366e600d410973",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-224.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (7).jpeg",
+          "sourceSHA256": "40645250d41b06cca47b1f1d99f0ff01d3af9ac2858558b2ab6a30602d475155",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-225.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (8).jpeg",
+          "sourceSHA256": "9590683a1f093fa76f67b1ab97dac0e7324a2119a77b38a88076c374cb4244f4",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-226.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (9).jpeg",
+          "sourceSHA256": "c51cc01b2bf56b2198737a3af975154f7c4d85adb9366403aa3beedb95717166",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-227.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25.jpeg",
+          "sourceSHA256": "267c95cf1d9d1d9e4023a6f4d2d1eb7dd229a7ef1159c9858b5298fb425077da",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-232.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.18 (1).jpeg",
+          "sourceSHA256": "c7fed243feff8a6aae3235bc44a0dd008e6a36406810ab8bfd8c3a8c5bf586c1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-233.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.18 (2).jpeg",
+          "sourceSHA256": "031fac4769734e704a4766e1fa1bd7b6bd3f62a185458316b079430184465276",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-234.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.18.jpeg",
+          "sourceSHA256": "e5697281c3d4328bf6f3968aa6b90136798c570b3e570fb3d2d3a5064205eefe",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-235.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.19 (1).jpeg",
+          "sourceSHA256": "a82a2571820fa24efc1935c37486fba2b61b46152c851053fcb33abc94e72edb",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-236.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.19 (2).jpeg",
+          "sourceSHA256": "18e65dadceb782cf9461e83541002cdb5441e5a75f58d3cf2a0e9c9bc963bc34",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-237.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.19 (3).jpeg",
+          "sourceSHA256": "5635c27325f9e03ae62c975485e0ddda7fec4bff9c6328a745989bcbe6219b7d",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-239.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.19.jpeg",
+          "sourceSHA256": "5d4eee587f8ebc167d6ab3a8f88e070669f25dd746cf366174b1048061a8b070",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-240.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.20 (1).jpeg",
+          "sourceSHA256": "9eec2630b672940f8a50583c1bb650a840c5929ce3a9b52bea279a3b7d4614e1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-241.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.20 (2).jpeg",
+          "sourceSHA256": "a32b6752bdd684865488966169c1643809023cd7bf59f41390663fc20ba0e74a",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-242.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.20 (3).jpeg",
+          "sourceSHA256": "06131e41ac7b479d0b5dd0501a44815980c4fe574042750ecb5844e6d98eadd2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-244.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.21 (1).jpeg",
+          "sourceSHA256": "fa4f009a09b7b24d1a072c888d065fa0acc3027211540bf1839f6668a912f49c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-245.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.21 (2).jpeg",
+          "sourceSHA256": "0a5574c8d244c03e1293f6fc76a60e0fa1ab01876b65cacb63b9bff410d236e6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-246.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.21 (3).jpeg",
+          "sourceSHA256": "3d95c732e0fee370b3da65eca5709c558a36869de45d515fd6d2617598238efc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-247.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.21.jpeg",
+          "sourceSHA256": "1d031d8556e1f5c780167e1e9494a8f0da5a2feca6fdbf5ee488795eb8039891",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-248.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.22 (1).jpeg",
+          "sourceSHA256": "9b166b9bbc8d87062f8fb8d10a11869a7a1c8c4935fb000577f6058f071f1d1a",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-249.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.22.jpeg",
+          "sourceSHA256": "6bae28f24d85a17f85cfafa6d691a303271f4b4730aa05ceedbb6b485a220add",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-250.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.23 (1).jpeg",
+          "sourceSHA256": "b212184288a3ef7c0015ba79bbf65adf8b3aff3a8c03d7b46f78569d6a23ba50",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-252.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.23 (3).jpeg",
+          "sourceSHA256": "902b9ff2ba9af309b62b476376db6adb37d3f7b24480bb26168461a0a6cdb265",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-253.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.23 (4).jpeg",
+          "sourceSHA256": "ec7df8055bc7f01f3d81c255452422e5352e3f3097d189ec56a6785f3df3e062",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-254.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.23.jpeg",
+          "sourceSHA256": "57a5dd1af6d5059aa1bcfa7e331ce3fc186e787a2a29f9f949b914fe92f5d039",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-255.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.24 (1).jpeg",
+          "sourceSHA256": "135e3feb4b1e2cd37ebc559597e9decef0e801342ae240b65ff08ee09d72bb43",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-257.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.25.jpeg",
+          "sourceSHA256": "8a421fcf3ff5780ea3e65d20fcf4d878e1ac27b62b0e964ff0ea8e93f05b48f3",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-258.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.26 (1).jpeg",
+          "sourceSHA256": "7ca68bc24323a2ec6934717f0c61862ad59587bd875d03d138685f9935f27695",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-259.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.26.jpeg",
+          "sourceSHA256": "2f3cbd7197fd664c9ae790f2386d8130a2500eab20f4da400e66e3ed7bac1622",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-260.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27 (1).jpeg",
+          "sourceSHA256": "1fbb8b045579f09da04f0c4c6d94691ad95ccf612197cd8be48c9ed8afa8e3fc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-261.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27 (2).jpeg",
+          "sourceSHA256": "7eca0e103cbbabd47b2db6280bfee2cb915aeb3f437e4eeceb9ac7b1b08468b5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-262.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27 (3).jpeg",
+          "sourceSHA256": "e40fd85b659f184ba4c4cd8856ded55e77959b15226cc0cc47c8d8e527878194",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-263.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27 (4).jpeg",
+          "sourceSHA256": "85ef15482fce8c3b2b6b6c8145e9f0459b0bcde9d5d871a6210e02243583a964",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-264.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27.jpeg",
+          "sourceSHA256": "d3da50c4f76e46e8d86922a85d8c1d5f2d68edc1b097fea1d2e9021a61955326",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-265.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.28 (1).jpeg",
+          "sourceSHA256": "32d0a235b8721880d03d09202d1c0e3be3b93c721a156d612e9b97689e4154aa",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-266.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.28 (2).jpeg",
+          "sourceSHA256": "15e75ef4c6e030b5b6daae06bda0f3c6c00204859c394e5756fac67734a95ee0",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-267.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.28 (3).jpeg",
+          "sourceSHA256": "f0642dd07411647a39076dc5ce02b173ada0970facf0c3a49f8749c994fdedb2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-268.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.28 (4).jpeg",
+          "sourceSHA256": "a2ed17a470f10e71186c8cf0e1e0fc90a9eb482024d2bafec5023184d3c63e7f",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-269.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.28.jpeg",
+          "sourceSHA256": "d7a158f16ba44373bd279db91d23dbb21188b9092e7f2f8758b701a25f7ff2df",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-271.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.29 (2).jpeg",
+          "sourceSHA256": "e2829d9037fb57a08a20a99a8cf3a8f2253b75263a321c0c9b158b92385a7c62",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-272.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.29 (3).jpeg",
+          "sourceSHA256": "3219978586ef78a979aee1fd1ee9684e2f3410bec9646b8414a1dab241a8f890",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-273.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.29.jpeg",
+          "sourceSHA256": "547b05ddaa470f314ed4054f51abfcf5c4b19058ca335435586ab6093916a7af",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-274.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.30 (1).jpeg",
+          "sourceSHA256": "5ebb82161da7d6ec6b829ed0e7fcb252baed00e0e136a8d6d372d945ee856868",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-275.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.30 (2).jpeg",
+          "sourceSHA256": "33c43e50057127d59c2bc32ccf3961877f23da2c4a54d58e6dd562013dd2d49b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-278.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.30.jpeg",
+          "sourceSHA256": "230c3265b2e14f76aac8e40fb9242503a7988d1b9e4eb9265b6ecef24f74a9f1",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-279.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.31 (1).jpeg",
+          "sourceSHA256": "227238d057f567051ebf977cd956b8f44cac87e60384ef9dbea18e8fa6cc36f5",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-280.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.31 (2).jpeg",
+          "sourceSHA256": "f40ff9040efc8f15a499f862b57a9b48b7f67aa2555f065a1263b459846f057e",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-281.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.31 (3).jpeg",
+          "sourceSHA256": "5e6bf2699bf1488f58e6a1fb085acd6b55719b7ff1a63e4e23ead2cb8767335c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-282.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.31 (4).jpeg",
+          "sourceSHA256": "d18e65af89928ee0d1e0b0b6109866451a799229d6d1307ae013b1b940ba60bc",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-284.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.32 (1).jpeg",
+          "sourceSHA256": "26cf3c0f44c434c5a1375dbccc3cfa0d195e7e5640223b702971e874f37296ad",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-285.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.32 (2).jpeg",
+          "sourceSHA256": "7e6436d608f0a212c9a315246fcbaa1c880c5a414a500b76e82437a10771d1b2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-286.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.32 (3).jpeg",
+          "sourceSHA256": "d792fa9bc43ddeed0bc7632802a24d485fce6afc9d4509b725e71b99b5eb526c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-287.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.32 (4).jpeg",
+          "sourceSHA256": "799b5044729f6f468f1ffd96cea80374e0a1f3161234f2971f9d29d081e49710",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-288.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.32.jpeg",
+          "sourceSHA256": "f1a69553ac941bf1fb0bdb39a582964076bf59c47d08362ce679037f7ce716b6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-289.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.33 (1).jpeg",
+          "sourceSHA256": "973dcef0d1f00a0fb838aeb7215ec68719151e32068f97805cdd1f99d116fea6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-290.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.33 (2).jpeg",
+          "sourceSHA256": "40730d34bde374692ffe8ac80b45b169b2b3c41df1ac78c70868164904b9c664",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-291.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.33 (3).jpeg",
+          "sourceSHA256": "84c54f019f7029c98f10c4df604787cbf9b9016d7a1d46f28951ffc37333f35c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-292.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.33 (4).jpeg",
+          "sourceSHA256": "22e34067053ef24eda27a7daa2b2b373ade5c3a64574549238ed8ab6a8d3e016",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-293.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.33.jpeg",
+          "sourceSHA256": "9c85690389d713bd07f8ecb578a645bf1b7fa25c63648d4fb04b1ed8646827df",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-294.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.34 (1).jpeg",
+          "sourceSHA256": "6a04292abd20388c78076dd38f46d68e7195aa3f20a38addd83049cbe753d3d6",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-295.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.34 (2).jpeg",
+          "sourceSHA256": "157a75513020534734071afb167097bd4b3a97c19e9c827fd7ba445f9100ce09",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-296.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.34 (3).jpeg",
+          "sourceSHA256": "279069b4a78a9a409fd993b211e0bf465463f30195be17db67a2324feee5ad61",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-297.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.34.jpeg",
+          "sourceSHA256": "c80c6b1334d3413c5909c9776747a9e80f6eed38c9a9670293fa9158d1c1882c",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-298.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.35 (1).jpeg",
+          "sourceSHA256": "329e411429f714c7c7d73afb317bf5f2b6bb91ca7d2ba30424a479fa40507ee2",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-299.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.35 (2).jpeg",
+          "sourceSHA256": "aef99aa22d749ec7c7b8f9db862069d4792ad00fe96dbd3e1a49498f9a96496b",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-300.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.35 (3).jpeg",
+          "sourceSHA256": "23305f8126c5e94d5face964046afb2ea61f6914d3abe8255072b82a9ab34a8a",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-302.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.35.jpeg",
+          "sourceSHA256": "b0feca7baf5492ed046bfa5d828c30ee80314b83b32a1a33e89fd6e5c7d54895",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-303.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.36.jpeg",
+          "sourceSHA256": "49cfd03c3885c8c9616da715a6defb1390d1191e1f8077203c8b4dd27cdcb6bd",
+          "visitCategory": "place-visit"
+        },
+        "https://youtube.com/shorts/L1Z0nIxGFsU": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Video 2026-09-24 at 17.21.29.mp4",
+          "sourceSHA256": "97bf88e9c61b75117cfd6b7e55d6f35287e14c80c92794a6e38e8371152f6705",
+          "youtube": "https://youtube.com/shorts/L1Z0nIxGFsU",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        },
+        "https://youtube.com/shorts/LQZA0KUMTyM": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Video 2026-09-24 at 17.21.30.mp4",
+          "sourceSHA256": "19083b2e568bfeb19434b0c6220920ca7e327033fb6799f357d43d0281d36e69",
+          "youtube": "https://youtube.com/shorts/LQZA0KUMTyM",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "depot-history-centre": {
     "id": "depot-history-centre",
@@ -12851,6 +15740,173 @@
       "de",
       "cs"
     ]
+  },
+  "lesnianska-dam": {
+    "id": "lesnianska-dam",
+    "localName": "Zapora Leśniańska",
+    "name": {
+      "he": "סכר לשנה ואגם לשניאנסקיה",
+      "en": "Leśniańska Dam and reservoir",
+      "pl": "Zapora Leśniańska i jezioro",
+      "de": "Marklissa-Talsperre und Stausee",
+      "cs": "Leśniańská přehrada a nádrž"
+    },
+    "description": {
+      "he": "הסכר שעל נהר הקוויסה הוא יעד ההליכה שלנו בבוקר שאחרי הלינה בטירה. יוצאים אחרי ארוחת הבוקר, נהנים ממראות האגם והעמק וחוזרים לטירה לאסוף את הרכב לפני ההמשך לבולסלבייץ.",
+      "en": "The dam on the Kwisa is our morning walk after the castle overnight stay. Set out after breakfast, enjoy the reservoir and valley views, then return to the castle for the car before continuing to Bolesławiec.",
+      "pl": "Zapora na Kwisie jest celem naszego porannego spaceru po noclegu w zamku. Wyruszamy po śniadaniu, oglądamy jezioro i dolinę, a następnie wracamy do zamku po samochód przed wyjazdem do Bolesławca.",
+      "de": "Die Talsperre an der Queis ist das Ziel unseres Morgenspaziergangs nach der Burgübernachtung. Nach dem Frühstück geht es zu See und Talblick, danach zurück zur Burg zum Auto und weiter nach Bolesławiec.",
+      "cs": "Přehrada na Kwise je cílem ranní procházky po přenocování na hradě. Vyrazíme po snídani, užijeme si výhledy na nádrž a údolí a vrátíme se k hradu pro auto před cestou do Bolesławce."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "lesna",
+      "coordinates": {
+        "lat": 51.0306373,
+        "lng": 15.2907543
+      }
+    },
+    "categories": [
+      "historical-landmark",
+      "nature"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark",
+        "nature"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://lesna.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Zapora+Le%C5%9Bnia%C5%84ska",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://lesna.pl/",
+          "checkedAt": "2026-10-16"
+        },
+        {
+          "type": "coordinates",
+          "url": "https://www.openstreetmap.org/way/221036091",
+          "checkedAt": "2026-10-16"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/czocha-boleslawiec/lesnianska-dam-093.jpg",
+        "/assets/czocha-boleslawiec/lesnianska-dam-095.jpg",
+        "/assets/czocha-boleslawiec/lesnianska-dam-096.jpg",
+        "/assets/czocha-boleslawiec/lesnianska-dam-125.jpg",
+        "/assets/czocha-boleslawiec/lesnianska-dam-126.jpg",
+        "/assets/czocha-boleslawiec/lesnianska-dam-127.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/uFeL9yIz0VM"
+      ],
+      "metadata": {
+        "/assets/czocha-boleslawiec/lesnianska-dam-093.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.36 (2).jpeg",
+          "sourceSHA256": "93dacdfeacd9798017a43369aa2dbe59a340c5aa2a2cb97496eef3a9ed1d3a63",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/lesnianska-dam-095.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.36 (4).jpeg",
+          "sourceSHA256": "3518b3ca1f0b337eb346e89793a259cfeeea0b29dbab3996bdb63c50e9954876",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/lesnianska-dam-096.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.36 (5).jpeg",
+          "sourceSHA256": "7a6b00c06423af53bef3416a8a1f4290624291f9ca6ef5274aca920a726658ea",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/lesnianska-dam-125.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (17).jpeg",
+          "sourceSHA256": "b3731d964bb224d1e685d7b1fd3bc5ae1047e60d69c2977ba4498d992e1abe49",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/lesnianska-dam-126.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (18).jpeg",
+          "sourceSHA256": "9170e075d6a7917319279bd9ddb428d50d98dbc5c0598e289f80b19cba8bb3dd",
+          "visitCategory": "place-visit"
+        },
+        "/assets/czocha-boleslawiec/lesnianska-dam-127.jpg": {
+          "original": true,
+          "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (19).jpeg",
+          "sourceSHA256": "58361d840c1b7f3d4bfb1a884929009804770ed0906f81e475229a96d7ff1559",
+          "visitCategory": "place-visit"
+        },
+        "https://youtube.com/shorts/uFeL9yIz0VM": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Video 2026-09-24 at 17.21.27.mp4",
+          "sourceSHA256": "992a5c6cc5dc945c1ee44b329bc1c9f514fad711c304f5a5ee6c23295751a12d",
+          "youtube": "https://youtube.com/shorts/uFeL9yIz0VM",
+          "visibility": "Public",
+          "checks": "completed, no issues",
+          "verifiedAt": "2026-10-16"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "lodziarnia-roma": {
     "id": "lodziarnia-roma",
