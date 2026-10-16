@@ -1445,118 +1445,249 @@
       languages: ["he", "en", "pl", "de", "cs"],
     },
     {
-      id: "church-of-peace-swidnica",
-      aliases: ["kosciol-pokoju-swidnica", "peace-church-swidnica"],
-      localName: "Kościół Pokoju w Świdnicy",
-      name: {
-        he: "כנסיית השלום בשווידניצה",
-        en: "Church of Peace in Świdnica",
-        pl: "Kościół Pokoju w Świdnicy",
-        de: "Friedenskirche in Świdnica",
-        cs: "Kostel míru ve Svídnici",
-      },
-      description: {
-        he: "אחד המקומות המיוחדים בשלזיה התחתית: כנסיית עץ מרשימה שמבחוץ נראית כמעט צנועה, ובפנים נפתחת לחלל עשיר, מפורט ומפתיע. הכנסייה היא חלק מאתר המורשת העולמית של אונסק״ו ומצדיקה נסיעה לשווידניצה בזכות האדריכלות, ההיסטוריה והאווירה השקטה שלה.",
-        en: "One of Lower Silesia’s most distinctive places: an impressive timber church that seems almost modest outside, then opens into a richly detailed and surprising interior. Part of a UNESCO World Heritage site, it is worth the journey to Świdnica for its architecture, history and calm atmosphere.",
-        pl: "Jedno z najbardziej wyjątkowych miejsc na Dolnym Śląsku: imponujący drewniany kościół, który z zewnątrz wydaje się niemal skromny, a wewnątrz zachwyca bogactwem detali. Obiekt wpisany na Listę Światowego Dziedzictwa UNESCO jest wart podróży do Świdnicy ze względu na architekturę, historię i spokojną atmosferę.",
-        de: "Einer der außergewöhnlichsten Orte Niederschlesiens: eine beeindruckende Holzkirche, die außen beinahe schlicht wirkt und innen einen reich ausgestatteten, überraschenden Raum eröffnet. Als Teil des UNESCO-Welterbes lohnt sie die Fahrt nach Świdnica wegen ihrer Architektur, Geschichte und ruhigen Atmosphäre.",
-        cs: "Jedno z nejvýjimečnějších míst Dolního Slezska: působivý dřevěný kostel, který zvenku působí téměř skromně, ale uvnitř překvapí bohatstvím detailů. Jako součást světového dědictví UNESCO stojí za cestu do Svídnice díky architektuře, historii a klidné atmosféře.",
-      },
-      location: {
-        countryCode: "PL",
-        regionId: "lower-silesia",
-        cityId: "swidnica",
-        coordinates: { lat: 50.8465028, lng: 16.4918111 },
-        address: {
-          street: "plac Pokoju 6",
-          postalCode: "58-100",
-          city: "Świdnica",
-          country: "Poland",
-        },
-      },
-      categories: ["religious-heritage", "historical-landmark", "wooden-architecture", "unesco-world-heritage"],
-      taxonomy: {
-        tags: [
-          "culture", "history", "architecture", "religious-heritage", "wooden-architecture",
-          "unesco", "photography", "contemplative", "lower-silesia", "outside-wroclaw",
-        ],
-      },
-      suitability: {
-        recommendedFor: ["culture-lovers", "history-lovers", "architecture-lovers", "couples", "adults", "photographers"],
-        walkingIntensity: "low",
-        familyFriendly: true,
-        couples: true,
-        romantic: false,
-        indoorOutdoor: "both",
-        rainFriendly: "partial",
-        accessibility: { level: "partial", notes: {
-          he: "הגישה למתחם אפשרית, אך משטחים היסטוריים ותנאי הכניסה עשויים להשתנות; מומלץ לברר ישירות לפני הביקור.",
-          en: "The site can be accessed, but historic surfaces and entry conditions may vary; confirm directly before visiting.",
-          pl: "Dostęp do obiektu jest możliwy, ale historyczne nawierzchnie i warunki wejścia mogą się różnić; warto potwierdzić je przed wizytą.",
-          de: "Das Gelände ist zugänglich, historische Oberflächen und Zugangsbedingungen können jedoch variieren; bitte vor dem Besuch direkt nachfragen.",
-          cs: "Areál je přístupný, historické povrchy a podmínky vstupu se však mohou lišit; před návštěvou je ověřte přímo."
-        } },
-      },
-      visit: {
-        durationMinutes: 60,
-        bestTimeOfDay: ["morning", "afternoon"],
-        seasonalSuitability: ["spring", "summer", "autumn", "winter"],
-      },
-      links: {
-        website: "https://kosciolpokoju.pl/",
-        navigation: {
-          googleMaps: "https://www.google.com/maps/search/?api=1&query=50.8465028%2C16.4918111",
-          appleMaps: "https://maps.apple.com/?ll=50.8465028,16.4918111&q=Ko%C5%9Bci%C3%B3%C5%82%20Pokoju%20w%20%C5%9Awidnicy",
-        },
-      },
-      experiences: [
-        {
-          id: "timber-church-and-interior",
-          tags: ["cultural", "historical", "architectural", "contemplative", "unique"],
-          accessibility: { level: "partial", notes: "See place accessibility notes." },
-        },
-      ],
-      provenance: {
-        contentType: "personal-visit",
-        personalVisit: true,
-        originalContent: true,
-        originalPhotography: true,
-        originalVideo: false,
-        factualSources: [
-          { type: "official", url: "https://kosciolpokoju.pl/", checkedAt: "2026-08-12" },
-          { type: "address", url: "https://kosciolpokoju.pl/kontakt/", checkedAt: "2026-08-12" },
-          { type: "unesco", url: "https://whc.unesco.org/en/list/1054/", checkedAt: "2026-08-12" },
-          { type: "coordinates", url: "https://whc.unesco.org/en/list/1054/maps/", checkedAt: "2026-08-12", note: "50°50′47.41″N, 16°29′30.52″E" },
-        ],
-      },
-      socialPosts: [
-        { platform: "facebook", url: "https://www.facebook.com/groups/2525899074519424/posts/2533682413741090/" },
-        { platform: "facebook", url: "https://www.facebook.com/share/p/1HatdkPSmz/" },
-        { platform: "instagram", url: "https://www.instagram.com/p/Dbf-bApnAo5/?img_index=1" },
-      ],
-      media: {
-        photos: [
-          "/assets/church-of-peace-swidnica-01.jpg", "/assets/church-of-peace-swidnica-02.jpg", "/assets/church-of-peace-swidnica-03.jpg",
-          "/assets/church-of-peace-swidnica-04.jpg", "/assets/church-of-peace-swidnica-05.jpg", "/assets/church-of-peace-swidnica-06.jpg",
-          "/assets/church-of-peace-swidnica-07.jpg", "/assets/church-of-peace-swidnica-08.jpg", "/assets/church-of-peace-swidnica-09.jpg",
-        ],
-        videos: [],
-        metadata: {
-          "/assets/church-of-peace-swidnica-01.jpg": { tags: ["church-exterior", "wooden-architecture", "heritage", "hero"], original: true, heroCandidate: true },
-          "/assets/church-of-peace-swidnica-02.jpg": { tags: ["church-interior", "religious-art", "heritage"], original: true },
-          "/assets/church-of-peace-swidnica-03.jpg": { tags: ["church-interior", "wooden-architecture", "religious-art"], original: true },
-          "/assets/church-of-peace-swidnica-04.jpg": { tags: ["church-exterior", "wooden-architecture", "swidnica"], original: true },
-          "/assets/church-of-peace-swidnica-05.jpg": { tags: ["church-interior", "architecture", "heritage"], original: true },
-          "/assets/church-of-peace-swidnica-06.jpg": { tags: ["church-interior", "religious-art", "architecture"], original: true },
-          "/assets/church-of-peace-swidnica-07.jpg": { tags: ["church-exterior", "heritage", "lower-silesia"], original: true },
-          "/assets/church-of-peace-swidnica-08.jpg": { tags: ["church-interior", "heritage", "architecture"], original: true },
-          "/assets/church-of-peace-swidnica-09.jpg": { tags: ["church-exterior", "wooden-architecture", "lower-silesia"], original: true },
-        },
-      },
-      status: "published",
-      editorialPriority: "high",
-      languages: ["he", "en", "pl", "de", "cs"],
+  "id": "church-of-peace-swidnica",
+  "aliases": [
+    "kosciol-pokoju-swidnica",
+    "peace-church-swidnica"
+  ],
+  "localName": "Kościół Pokoju w Świdnicy",
+  "name": {
+    "he": "כנסיית השלום בשווידניצה",
+    "en": "Church of Peace in Świdnica",
+    "pl": "Kościół Pokoju w Świdnicy",
+    "de": "Friedenskirche in Świdnica",
+    "cs": "Kostel míru ve Svídnici"
+  },
+  "description": {
+    "he": "אחד המקומות המיוחדים בשלזיה התחתית: כנסיית עץ מרשימה שמבחוץ נראית כמעט צנועה, ובפנים נפתחת לחלל עשיר, מפורט ומפתיע. הכנסייה היא חלק מאתר המורשת העולמית של אונסק״ו ומצדיקה נסיעה לשווידניצה בזכות האדריכלות, ההיסטוריה והאווירה השקטה שלה.",
+    "en": "One of Lower Silesia’s most distinctive places: an impressive timber church that seems almost modest outside, then opens into a richly detailed and surprising interior. Part of a UNESCO World Heritage site, it is worth the journey to Świdnica for its architecture, history and calm atmosphere.",
+    "pl": "Jedno z najbardziej wyjątkowych miejsc na Dolnym Śląsku: imponujący drewniany kościół, który z zewnątrz wydaje się niemal skromny, a wewnątrz zachwyca bogactwem detali. Obiekt wpisany na Listę Światowego Dziedzictwa UNESCO jest wart podróży do Świdnicy ze względu na architekturę, historię i spokojną atmosferę.",
+    "de": "Einer der außergewöhnlichsten Orte Niederschlesiens: eine beeindruckende Holzkirche, die außen beinahe schlicht wirkt und innen einen reich ausgestatteten, überraschenden Raum eröffnet. Als Teil des UNESCO-Welterbes lohnt sie die Fahrt nach Świdnica wegen ihrer Architektur, Geschichte und ruhigen Atmosphäre.",
+    "cs": "Jedno z nejvýjimečnějších míst Dolního Slezska: působivý dřevěný kostel, který zvenku působí téměř skromně, ale uvnitř překvapí bohatstvím detailů. Jako součást světového dědictví UNESCO stojí za cestu do Svídnice díky architektuře, historii a klidné atmosféře."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "swidnica",
+    "coordinates": {
+      "lat": 50.8465028,
+      "lng": 16.4918111
     },
+    "address": {
+      "street": "plac Pokoju 6",
+      "postalCode": "58-100",
+      "city": "Świdnica",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "religious-heritage",
+    "historical-landmark",
+    "wooden-architecture",
+    "unesco-world-heritage"
+  ],
+  "taxonomy": {
+    "tags": [
+      "culture",
+      "history",
+      "architecture",
+      "religious-heritage",
+      "wooden-architecture",
+      "unesco",
+      "photography",
+      "contemplative",
+      "lower-silesia",
+      "outside-wroclaw"
+    ]
+  },
+  "suitability": {
+    "recommendedFor": [
+      "culture-lovers",
+      "history-lovers",
+      "architecture-lovers",
+      "couples",
+      "adults",
+      "photographers"
+    ],
+    "walkingIntensity": "low",
+    "familyFriendly": true,
+    "couples": true,
+    "romantic": false,
+    "indoorOutdoor": "both",
+    "rainFriendly": "partial",
+    "accessibility": {
+      "level": "partial",
+      "notes": {
+        "he": "הגישה למתחם אפשרית, אך משטחים היסטוריים ותנאי הכניסה עשויים להשתנות; מומלץ לברר ישירות לפני הביקור.",
+        "en": "The site can be accessed, but historic surfaces and entry conditions may vary; confirm directly before visiting.",
+        "pl": "Dostęp do obiektu jest możliwy, ale historyczne nawierzchnie i warunki wejścia mogą się różnić; warto potwierdzić je przed wizytą.",
+        "de": "Das Gelände ist zugänglich, historische Oberflächen und Zugangsbedingungen können jedoch variieren; bitte vor dem Besuch direkt nachfragen.",
+        "cs": "Areál je přístupný, historické povrchy a podmínky vstupu se však mohou lišit; před návštěvou je ověřte přímo."
+      }
+    }
+  },
+  "visit": {
+    "durationMinutes": 60,
+    "bestTimeOfDay": [
+      "morning",
+      "afternoon"
+    ],
+    "seasonalSuitability": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ]
+  },
+  "links": {
+    "website": "https://kosciolpokoju.pl/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.8465028%2C16.4918111",
+      "appleMaps": "https://maps.apple.com/?ll=50.8465028,16.4918111&q=Ko%C5%9Bci%C3%B3%C5%82%20Pokoju%20w%20%C5%9Awidnicy"
+    }
+  },
+  "experiences": [
+    {
+      "id": "timber-church-and-interior",
+      "tags": [
+        "cultural",
+        "historical",
+        "architectural",
+        "contemplative",
+        "unique"
+      ],
+      "accessibility": {
+        "level": "partial",
+        "notes": "See place accessibility notes."
+      }
+    }
+  ],
+  "provenance": {
+    "contentType": "personal-visit",
+    "personalVisit": true,
+    "originalContent": true,
+    "originalPhotography": true,
+    "originalVideo": false,
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://kosciolpokoju.pl/",
+        "checkedAt": "2026-08-12"
+      },
+      {
+        "type": "address",
+        "url": "https://kosciolpokoju.pl/kontakt/",
+        "checkedAt": "2026-08-12"
+      },
+      {
+        "type": "unesco",
+        "url": "https://whc.unesco.org/en/list/1054/",
+        "checkedAt": "2026-08-12"
+      },
+      {
+        "type": "coordinates",
+        "url": "https://whc.unesco.org/en/list/1054/maps/",
+        "checkedAt": "2026-08-12",
+        "note": "50°50′47.41″N, 16°29′30.52″E"
+      }
+    ]
+  },
+  "socialPosts": [
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/groups/2525899074519424/posts/2533682413741090/"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/share/p/1HatdkPSmz/"
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/Dbf-bApnAo5/?img_index=1"
+    }
+  ],
+  "media": {
+    "photos": [
+      "/assets/church-of-peace-swidnica-01.jpg",
+      "/assets/church-of-peace-swidnica-02.jpg",
+      "/assets/church-of-peace-swidnica-03.jpg",
+      "/assets/church-of-peace-swidnica-04.jpg",
+      "/assets/church-of-peace-swidnica-05.jpg",
+      "/assets/church-of-peace-swidnica-06.jpg",
+      "/assets/church-of-peace-swidnica-07.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/church-of-peace-swidnica-01.jpg": {
+        "tags": [
+          "church-exterior",
+          "wooden-architecture",
+          "heritage",
+          "hero"
+        ],
+        "original": true,
+        "heroCandidate": true
+      },
+      "/assets/church-of-peace-swidnica-02.jpg": {
+        "tags": [
+          "church-interior",
+          "religious-art",
+          "heritage"
+        ],
+        "original": true
+      },
+      "/assets/church-of-peace-swidnica-03.jpg": {
+        "tags": [
+          "church-interior",
+          "wooden-architecture",
+          "religious-art"
+        ],
+        "original": true
+      },
+      "/assets/church-of-peace-swidnica-04.jpg": {
+        "tags": [
+          "church-exterior",
+          "wooden-architecture",
+          "swidnica"
+        ],
+        "original": true
+      },
+      "/assets/church-of-peace-swidnica-05.jpg": {
+        "tags": [
+          "church-interior",
+          "architecture",
+          "heritage"
+        ],
+        "original": true
+      },
+      "/assets/church-of-peace-swidnica-06.jpg": {
+        "tags": [
+          "church-interior",
+          "religious-art",
+          "architecture"
+        ],
+        "original": true
+      },
+      "/assets/church-of-peace-swidnica-07.jpg": {
+        "tags": [
+          "church-exterior",
+          "heritage",
+          "lower-silesia"
+        ],
+        "original": true
+      }
+    }
+  },
+  "status": "published",
+  "editorialPriority": "high",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
     {
       id: "walbrzych-market-square",
       aliases: ["walbrzych-city-centre", "rynek-walbrzych"],
@@ -2057,25 +2188,602 @@
     // Brzeg and Moszna are in Opole Voivodeship. Media provenance for every
     // assets below are recorded in the Brzeg/Moszna media and guide-video provenance manifests.
     {
-      id: "brzeg-castle", localName: "Zamek Piastów Śląskich w Brzegu", aliases: ["zamek-piastow-slaskich-brzeg"],
-      name: { he: "טירת פיאסט בברז׳ג", en: "Brzeg Castle", pl: "Zamek Piastów Śląskich w Brzegu", de: "Piastenschloss Brieg", cs: "Zámek slezských Piastovců v Brzegu" },
-      description: { he: "טירת פיאסט בברז׳ג משמשת כיום את מוזיאון פיאסט השלזיים. כדאי להתחיל בחזית השער המעוטרת ולהמשיך לחצר הקשתות.", en: "Brzeg Castle houses the Museum of the Silesian Piasts. Start at the decorated entrance and continue into the arcaded courtyard.", pl: "W zamku mieści się Muzeum Piastów Śląskich. Warto zacząć od zdobionej bramy i przejść na krużgankowy dziedziniec.", de: "Im Schloss befindet sich das Museum der schlesischen Piasten. Der Besuch beginnt am verzierten Tor und führt in den Arkadenhof.", cs: "Na zámku sídlí Muzeum slezských Piastovců. Začněte u zdobené brány a pokračujte na arkádové nádvoří." },
-      location: { countryCode: "PL", regionId: "opole", cityId: "brzeg", coordinates: { lat: 50.86387, lng: 17.46659 }, address: { street: "Plac Zamkowy 1", postalCode: "49-300", city: "Brzeg", country: "Poland" } },
-      categories: ["castle", "museum", "historical-landmark"], taxonomy: { tags: ["architecture", "history", "excursion", "outside-wroclaw"] },
-      links: { website: "https://zamek.brzeg.pl/", navigation: { googleMaps: "https://www.google.com/maps/search/?api=1&query=50.86387%2C17.46659" } },
-      provenance: { contentType: "personal-visit", personalVisit: true, originalPhotography: true, factualSources: [{ type: "official", url: "https://zamek.brzeg.pl/kontakt", checkedAt: "2026-09-28" }, { type: "coordinates", url: "https://www.openstreetmap.org/way/230535120", checkedAt: "2026-09-28" }] },
-      socialPosts: [], media: { photos: ["/assets/brzeg-castle-courtyard.jpeg", "/assets/brzeg-castle-entrance.jpeg", "/assets/brzeg-castle-facade.jpeg", "/assets/brzeg-enrichment/brzeg-castle-014.jpg", "/assets/brzeg-enrichment/brzeg-castle-015.jpg", "/assets/brzeg-enrichment/brzeg-castle-017.jpg", "/assets/brzeg-enrichment/brzeg-castle-019.jpg", "/assets/brzeg-enrichment/brzeg-castle-020.jpg", "/assets/brzeg-enrichment/brzeg-castle-021.jpg", "/assets/brzeg-enrichment/brzeg-castle-022.jpg", "/assets/brzeg-enrichment/brzeg-castle-023.jpg", "/assets/brzeg-enrichment/brzeg-castle-025.jpg", "/assets/brzeg-enrichment/brzeg-castle-027.jpg", "/assets/brzeg-enrichment/brzeg-castle-028.jpg", "/assets/brzeg-enrichment/brzeg-castle-029.jpg", "/assets/brzeg-enrichment/brzeg-castle-030.jpg", "/assets/brzeg-enrichment/brzeg-castle-031.jpg", "/assets/brzeg-enrichment/brzeg-castle-032.jpg", "/assets/brzeg-enrichment/brzeg-castle-033.jpg", "/assets/brzeg-enrichment/brzeg-castle-034.jpg", "/assets/brzeg-enrichment/brzeg-castle-035.jpg", "/assets/brzeg-enrichment/brzeg-castle-036.jpg", "/assets/brzeg-enrichment/brzeg-castle-037.jpg", "/assets/brzeg-enrichment/brzeg-castle-038.jpg", "/assets/brzeg-enrichment/brzeg-castle-039.jpg", "/assets/brzeg-enrichment/brzeg-castle-040.jpg", "/assets/brzeg-enrichment/brzeg-castle-041.jpg", "/assets/brzeg-enrichment/brzeg-castle-042.jpg", "/assets/brzeg-enrichment/brzeg-castle-043.jpg", "/assets/brzeg-enrichment/brzeg-castle-044.jpg", "/assets/brzeg-enrichment/brzeg-castle-045.jpg", "/assets/brzeg-enrichment/brzeg-castle-046.jpg", "/assets/brzeg-enrichment/brzeg-castle-047.jpg", "/assets/brzeg-enrichment/brzeg-castle-048.jpg", "/assets/brzeg-enrichment/brzeg-castle-049.jpg", "/assets/brzeg-enrichment/brzeg-castle-051.jpg", "/assets/brzeg-enrichment/brzeg-castle-057.jpg", "/assets/brzeg-enrichment/brzeg-castle-058.jpg", "/assets/brzeg-enrichment/brzeg-castle-059.jpg", "/assets/brzeg-enrichment/brzeg-castle-060.jpg", "/assets/brzeg-enrichment/brzeg-castle-061.jpg", "/assets/brzeg-enrichment/brzeg-castle-065.jpg", "/assets/brzeg-enrichment/brzeg-castle-066.jpg", "/assets/brzeg-enrichment/brzeg-castle-069.jpg", "/assets/brzeg-enrichment/brzeg-castle-070.jpg", "/assets/brzeg-enrichment/brzeg-castle-073.jpg", "/assets/brzeg-enrichment/brzeg-castle-075.jpg", "/assets/brzeg-enrichment/brzeg-castle-076.jpg", "/assets/brzeg-enrichment/brzeg-castle-077.jpg", "/assets/brzeg-enrichment/brzeg-castle-078.jpg", "/assets/brzeg-enrichment/brzeg-castle-079.jpg", "/assets/brzeg-enrichment/brzeg-castle-080.jpg", "/assets/brzeg-enrichment/brzeg-castle-081.jpg", "/assets/brzeg-enrichment/brzeg-castle-082.jpg", "/assets/brzeg-enrichment/brzeg-castle-084.jpg", "/assets/brzeg-enrichment/brzeg-castle-088.jpg", "/assets/brzeg-enrichment/brzeg-castle-089.jpg", "/assets/brzeg-enrichment/brzeg-castle-091.jpg", "/assets/brzeg-enrichment/brzeg-castle-092.jpg", "/assets/brzeg-enrichment/brzeg-castle-093.jpg", "/assets/brzeg-enrichment/brzeg-castle-094.jpg", "/assets/brzeg-enrichment/brzeg-castle-095.jpg", "/assets/brzeg-enrichment/brzeg-castle-096.jpg", "/assets/brzeg-enrichment/brzeg-castle-097.jpg", "/assets/brzeg-enrichment/brzeg-castle-098.jpg", "/assets/brzeg-enrichment/brzeg-castle-099.jpg", "/assets/brzeg-enrichment/brzeg-castle-100.jpg", "/assets/brzeg-enrichment/brzeg-castle-101.jpg", "/assets/brzeg-enrichment/brzeg-castle-102.jpg", "/assets/brzeg-enrichment/brzeg-castle-103.jpg", "/assets/brzeg-enrichment/brzeg-castle-104.jpg", "/assets/brzeg-enrichment/brzeg-castle-105.jpg", "/assets/brzeg-enrichment/brzeg-castle-106.jpg", "/assets/brzeg-enrichment/brzeg-castle-107.jpg", "/assets/brzeg-enrichment/brzeg-castle-109.jpg", "/assets/brzeg-enrichment/brzeg-castle-144.jpg"], videos: [], guideVideos: { he: "https://youtube.com/shorts/IYllRzq9VJs", en: "https://youtube.com/shorts/zbpTMh2Fe2c" }, metadata: { "/assets/brzeg-enrichment/brzeg-castle-014.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.50.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-015.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.52 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-017.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-019.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (3).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-020.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-021.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-022.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (3).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-023.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.57 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-025.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.58 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-027.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-028.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-029.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (3).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-030.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-031.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (11).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-032.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-033.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (3).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-034.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (5).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-035.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (6).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-036.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-037.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-038.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (14).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-039.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (15).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-040.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (4).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-041.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (5).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-042.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.31 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-043.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.31.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-044.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.32 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-045.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.32.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-046.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.33 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-047.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.33.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-048.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.35 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-049.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.35.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-051.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.38 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-057.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-058.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-059.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-060.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.06.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-061.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.07 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-065.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (3).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-066.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (4).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-069.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-070.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (4).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-073.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.32 (4).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-075.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (10).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-076.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (11).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-077.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (12).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-078.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (13).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-079.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (14).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-080.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (17).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-081.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (18).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-082.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (19).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-084.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (20).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-088.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (36).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-089.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (37).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-091.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (9).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-092.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (10).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-093.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (11).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-094.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (12).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-095.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (13).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-096.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (14).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-097.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-098.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (21).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-099.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (22).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-100.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (3).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-101.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (4).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-102.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (5).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-103.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (6).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-104.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (7).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-105.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (8).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-106.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (9).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-107.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-109.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-castle-144.jpg": {"sourceFile": "Brzeg/WhatsApp Image 2026-09-24 at 17.30.38 (3).jpeg", "original": true}, "/assets/brzeg-castle-courtyard.jpeg": { sourceFile: "Brzeg/FORCODEX/02-castle-courtyard.jpeg", original: true, heroCandidate: true }, "/assets/brzeg-castle-entrance.jpeg": { sourceFile: "Brzeg/FORCODEX/01-castle-entrance.jpeg", original: true }, "/assets/brzeg-castle-facade.jpeg": { sourceFile: "Brzeg/FORCODEX/03-facade-details.jpeg", original: true } } },
-      status: "published", languages: ["he", "en", "pl", "de", "cs"] },
+  "id": "brzeg-castle",
+  "localName": "Zamek Piastów Śląskich w Brzegu",
+  "aliases": [
+    "zamek-piastow-slaskich-brzeg"
+  ],
+  "name": {
+    "he": "טירת פיאסט בברז׳ג",
+    "en": "Brzeg Castle",
+    "pl": "Zamek Piastów Śląskich w Brzegu",
+    "de": "Piastenschloss Brieg",
+    "cs": "Zámek slezských Piastovců v Brzegu"
+  },
+  "description": {
+    "he": "טירת פיאסט בברז׳ג משמשת כיום את מוזיאון פיאסט השלזיים. כדאי להתחיל בחזית השער המעוטרת ולהמשיך לחצר הקשתות.",
+    "en": "Brzeg Castle houses the Museum of the Silesian Piasts. Start at the decorated entrance and continue into the arcaded courtyard.",
+    "pl": "W zamku mieści się Muzeum Piastów Śląskich. Warto zacząć od zdobionej bramy i przejść na krużgankowy dziedziniec.",
+    "de": "Im Schloss befindet sich das Museum der schlesischen Piasten. Der Besuch beginnt am verzierten Tor und führt in den Arkadenhof.",
+    "cs": "Na zámku sídlí Muzeum slezských Piastovců. Začněte u zdobené brány a pokračujte na arkádové nádvoří."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "opole",
+    "cityId": "brzeg",
+    "coordinates": {
+      "lat": 50.86387,
+      "lng": 17.46659
+    },
+    "address": {
+      "street": "Plac Zamkowy 1",
+      "postalCode": "49-300",
+      "city": "Brzeg",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "castle",
+    "museum",
+    "historical-landmark"
+  ],
+  "taxonomy": {
+    "tags": [
+      "architecture",
+      "history",
+      "excursion",
+      "outside-wroclaw"
+    ]
+  },
+  "links": {
+    "website": "https://zamek.brzeg.pl/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.86387%2C17.46659"
+    }
+  },
+  "provenance": {
+    "contentType": "personal-visit",
+    "personalVisit": true,
+    "originalPhotography": true,
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://zamek.brzeg.pl/kontakt",
+        "checkedAt": "2026-09-28"
+      },
+      {
+        "type": "coordinates",
+        "url": "https://www.openstreetmap.org/way/230535120",
+        "checkedAt": "2026-09-28"
+      }
+    ]
+  },
+  "socialPosts": [],
+  "media": {
+    "photos": [
+      "/assets/brzeg-castle-courtyard.jpeg",
+      "/assets/brzeg-castle-entrance.jpeg",
+      "/assets/brzeg-castle-facade.jpeg",
+      "/assets/brzeg-enrichment/brzeg-castle-014.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-015.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-017.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-019.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-020.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-021.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-022.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-023.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-025.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-027.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-028.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-029.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-030.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-031.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-032.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-033.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-034.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-035.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-036.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-037.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-038.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-039.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-040.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-041.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-042.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-043.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-044.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-045.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-046.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-047.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-048.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-049.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-051.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-057.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-058.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-061.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-065.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-066.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-069.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-070.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-073.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-075.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-076.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-077.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-078.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-079.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-080.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-081.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-082.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-084.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-088.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-089.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-091.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-092.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-093.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-094.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-095.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-096.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-097.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-098.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-099.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-100.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-101.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-102.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-103.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-104.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-105.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-106.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-107.jpg",
+      "/assets/brzeg-enrichment/brzeg-castle-109.jpg"
+    ],
+    "videos": [],
+    "guideVideos": {
+      "he": "https://youtube.com/shorts/IYllRzq9VJs",
+      "en": "https://youtube.com/shorts/zbpTMh2Fe2c"
+    },
+    "metadata": {
+      "/assets/brzeg-enrichment/brzeg-castle-014.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.50.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-015.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.52 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-017.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-019.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (3).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-020.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-021.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-022.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (3).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-023.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.57 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-025.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.58 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-027.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-028.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-029.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (3).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-030.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-031.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (11).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-032.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-033.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (3).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-034.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (5).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-035.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (6).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-036.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-037.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-038.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (14).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-039.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (15).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-040.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (4).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-041.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (5).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-042.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.31 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-043.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.31.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-044.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.32 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-045.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.32.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-046.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.33 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-047.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.33.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-048.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.35 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-049.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.35.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-051.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.38 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-057.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-058.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-061.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.07 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-065.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (3).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-066.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (4).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-069.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-070.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (4).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-073.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.32 (4).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-075.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (10).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-076.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (11).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-077.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (12).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-078.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (13).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-079.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (14).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-080.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (17).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-081.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (18).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-082.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (19).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-084.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (20).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-088.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (36).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-089.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (37).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-091.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (9).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-092.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (10).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-093.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (11).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-094.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (12).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-095.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (13).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-096.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (14).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-097.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-098.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (21).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-099.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (22).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-100.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (3).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-101.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (4).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-102.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (5).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-103.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (6).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-104.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (7).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-105.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (8).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-106.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (9).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-107.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-castle-109.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-castle-courtyard.jpeg": {
+        "sourceFile": "Brzeg/FORCODEX/02-castle-courtyard.jpeg",
+        "original": true,
+        "heroCandidate": true
+      },
+      "/assets/brzeg-castle-entrance.jpeg": {
+        "sourceFile": "Brzeg/FORCODEX/01-castle-entrance.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-castle-facade.jpeg": {
+        "sourceFile": "Brzeg/FORCODEX/03-facade-details.jpeg",
+        "original": true
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
     {
-      id: "brzeg-holy-cross-church", localName: "Kościół Podwyższenia Krzyża Świętego w Brzegu", aliases: [],
-      name: { he: "כנסיית רוממות הצלב הקדוש בברז׳ג", en: "Holy Cross Church, Brzeg", pl: "Kościół Podwyższenia Krzyża Świętego w Brzegu", de: "Kreuzerhöhungskirche in Brieg", cs: "Kostel Povýšení svatého Kříže v Brzegu" },
-      description: { he: "כנסייה הסמוכה לטירה; בצילומי הביקור נראים החזית והחלל המעוטר שלה.", en: "A church close to the castle; the visit photographs show its exterior and ornate interior.", pl: "Kościół niedaleko zamku; zdjęcia z wizyty pokazują elewację i bogato zdobione wnętrze.", de: "Eine Kirche nahe dem Schloss; die Besuchsfotos zeigen Außenansicht und reich geschmückten Innenraum.", cs: "Kostel poblíž zámku; fotografie z návštěvy ukazují průčelí i zdobený interiér." },
-      location: { countryCode: "PL", regionId: "opole", cityId: "brzeg", coordinates: { lat: 50.8634, lng: 17.46746 } },
-      categories: ["church", "historical-landmark"], taxonomy: { tags: ["architecture", "excursion", "outside-wroclaw"] },
-      links: { navigation: { googleMaps: "https://www.google.com/maps/search/?api=1&query=50.8634%2C17.46746" } },
-      provenance: { contentType: "personal-visit", personalVisit: true, originalPhotography: true, originalVideo: true, factualSources: [{ type: "coordinates", url: "https://www.openstreetmap.org/way/230535122", checkedAt: "2026-09-28" }] },
-      socialPosts: [], media: { photos: ["/assets/brzeg-holy-cross-exterior.jpeg", "/assets/brzeg-holy-cross-interior.jpeg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-050.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-053.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-054.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-055.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-068.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-074.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-083.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-086.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-087.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg", "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg"], videos: ["/assets/brzeg-holy-cross-interior.mp4"], metadata: { "/assets/brzeg-enrichment/brzeg-holy-cross-church-050.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.38 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-053.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-054.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-055.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.42 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.42.jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-068.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-074.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (1).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-083.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (2).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-086.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (24).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-087.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (26).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (4).jpeg", "original": true}, "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg": {"sourceFile": "Brzeg/WhatsApp Image 2026-09-24 at 19.05.33 (27).jpeg", "original": true}, "/assets/brzeg-holy-cross-exterior.jpeg": { sourceFile: "Brzeg/FORCODEX/04-church-exterior.jpeg", original: true }, "/assets/brzeg-holy-cross-interior.jpeg": { sourceFile: "Brzeg/FORCODEX/05-church-interior.jpeg", original: true }, "/assets/brzeg-holy-cross-interior.mp4": { sourceFile: "Brzeg/FORCODEX/VIDEO-church-interior.mp4", original: true } } },
-      status: "published", languages: ["he", "en", "pl", "de", "cs"] },
+  "id": "brzeg-holy-cross-church",
+  "localName": "Kościół Podwyższenia Krzyża Świętego w Brzegu",
+  "aliases": [],
+  "name": {
+    "he": "כנסיית רוממות הצלב הקדוש בברז׳ג",
+    "en": "Holy Cross Church, Brzeg",
+    "pl": "Kościół Podwyższenia Krzyża Świętego w Brzegu",
+    "de": "Kreuzerhöhungskirche in Brieg",
+    "cs": "Kostel Povýšení svatého Kříže v Brzegu"
+  },
+  "description": {
+    "he": "כנסייה הסמוכה לטירה; בצילומי הביקור נראים החזית והחלל המעוטר שלה.",
+    "en": "A church close to the castle; the visit photographs show its exterior and ornate interior.",
+    "pl": "Kościół niedaleko zamku; zdjęcia z wizyty pokazują elewację i bogato zdobione wnętrze.",
+    "de": "Eine Kirche nahe dem Schloss; die Besuchsfotos zeigen Außenansicht und reich geschmückten Innenraum.",
+    "cs": "Kostel poblíž zámku; fotografie z návštěvy ukazují průčelí i zdobený interiér."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "opole",
+    "cityId": "brzeg",
+    "coordinates": {
+      "lat": 50.8634,
+      "lng": 17.46746
+    }
+  },
+  "categories": [
+    "church",
+    "historical-landmark"
+  ],
+  "taxonomy": {
+    "tags": [
+      "architecture",
+      "excursion",
+      "outside-wroclaw"
+    ]
+  },
+  "links": {
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.8634%2C17.46746"
+    }
+  },
+  "provenance": {
+    "contentType": "personal-visit",
+    "personalVisit": true,
+    "originalPhotography": true,
+    "originalVideo": true,
+    "factualSources": [
+      {
+        "type": "coordinates",
+        "url": "https://www.openstreetmap.org/way/230535122",
+        "checkedAt": "2026-09-28"
+      }
+    ]
+  },
+  "socialPosts": [],
+  "media": {
+    "photos": [
+      "/assets/brzeg-holy-cross-exterior.jpeg",
+      "/assets/brzeg-holy-cross-interior.jpeg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-050.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-053.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-054.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-068.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-074.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-083.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-086.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-087.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg",
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg"
+    ],
+    "videos": [
+      "/assets/brzeg-holy-cross-interior.mp4"
+    ],
+    "metadata": {
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-050.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.38 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-053.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-054.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-068.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-074.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (1).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-083.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (2).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-086.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (24).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-087.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (26).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg": {
+        "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (4).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg": {
+        "sourceFile": "Brzeg/WhatsApp Image 2026-09-24 at 19.05.33 (27).jpeg",
+        "original": true
+      },
+      "/assets/brzeg-holy-cross-exterior.jpeg": {
+        "sourceFile": "Brzeg/FORCODEX/04-church-exterior.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-holy-cross-interior.jpeg": {
+        "sourceFile": "Brzeg/FORCODEX/05-church-interior.jpeg",
+        "original": true
+      },
+      "/assets/brzeg-holy-cross-interior.mp4": {
+        "sourceFile": "Brzeg/FORCODEX/VIDEO-church-interior.mp4",
+        "original": true
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
     {
       id: "brzeg-town-hall", localName: "Ratusz w Brzegu", aliases: [],
       name: { he: "בית העירייה של ברז׳ג", en: "Brzeg Town Hall", pl: "Ratusz w Brzegu", de: "Rathaus Brieg", cs: "Radnice v Brzegu" },
@@ -2095,25 +2803,441 @@
       provenance: { contentType: "editorial", factualSources: [{ type: "official", url: "https://brzeg.pl/sport-i-turystyka/szlaki-turystyczne/", checkedAt: "2026-09-28" }, { type: "coordinates", url: "https://www.openstreetmap.org/node/3928164427", checkedAt: "2026-09-28" }] },
       socialPosts: [], media: { photos: ["/assets/brzeg-enrichment/brzeg-oder-gate-110.jpg"], videos: [], metadata: {"/assets/brzeg-enrichment/brzeg-oder-gate-110.jpg": {"sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (3).jpeg", "original": true}}, guideVideos: { he: "https://youtube.com/shorts/hvnoxm3reWo", en: "https://youtube.com/shorts/xs3NY7q0OX4" } }, status: "published", languages: ["he", "en", "pl", "de", "cs"] },
     {
-      id: "moszna-castle", localName: "Zamek Moszna", aliases: [],
-      name: { he: "טירת מושנה", en: "Moszna Castle", pl: "Zamek Moszna", de: "Schloss Moschen", cs: "Zámek Moszna" },
-      description: { he: "טירת מושנה היא מוקד הביקור השני ביום הטיול. אפשר לבקר בחללים הפתוחים לקהל ולצאת משם לפארק.", en: "Moszna Castle is the second main destination of the day. Visit the areas open to guests, then continue into the park.", pl: "Zamek Moszna to drugi główny cel dnia. Po zwiedzaniu dostępnych wnętrz można przejść do parku.", de: "Schloss Moschen ist das zweite Hauptziel des Tages. Nach dem Besuch der zugänglichen Räume geht es in den Park.", cs: "Zámek Moszna je druhým hlavním cílem dne. Po návštěvě přístupných prostor pokračujte do parku." },
-      location: { countryCode: "PL", regionId: "opole", cityId: "moszna", coordinates: { lat: 50.44079, lng: 17.76793 }, address: { street: "Zamkowa 1", postalCode: "47-370", city: "Moszna", country: "Poland" } },
-      categories: ["castle", "historical-landmark"], taxonomy: { tags: ["architecture", "excursion", "outside-wroclaw"] },
-      links: { website: "https://mosznazamek.pl/zwiedzanie/", navigation: { googleMaps: "https://www.google.com/maps/search/?api=1&query=50.44079%2C17.76793" } },
-      provenance: { contentType: "personal-visit", personalVisit: true, originalPhotography: true, originalVideo: true, factualSources: [{ type: "official", url: "https://mosznazamek.pl/kontakt/", checkedAt: "2026-09-28" }, { type: "coordinates", url: "https://www.openstreetmap.org/way/73054209", checkedAt: "2026-09-28" }] },
-      socialPosts: [], media: { photos: ["/assets/moszna-castle-hero.jpeg", "/assets/moszna-castle-approach.jpeg", "/assets/moszna-castle-entrance.jpeg", "/assets/moszna-enrichment/moszna-castle-002.jpg", "/assets/moszna-enrichment/moszna-castle-003.jpg", "/assets/moszna-enrichment/moszna-castle-004.jpg", "/assets/moszna-enrichment/moszna-castle-006.jpg", "/assets/moszna-enrichment/moszna-castle-009.jpg", "/assets/moszna-enrichment/moszna-castle-010.jpg", "/assets/moszna-enrichment/moszna-castle-011.jpg", "/assets/moszna-enrichment/moszna-castle-040.jpg", "/assets/moszna-enrichment/moszna-castle-053.jpg", "/assets/moszna-enrichment/moszna-castle-054.jpg", "/assets/moszna-enrichment/moszna-castle-058.jpg", "/assets/moszna-enrichment/moszna-castle-060.jpg", "/assets/moszna-enrichment/moszna-castle-061.jpg", "/assets/moszna-enrichment/moszna-castle-062.jpg", "/assets/moszna-enrichment/moszna-castle-001.jpg", "/assets/moszna-enrichment/moszna-castle-005.jpg", "/assets/moszna-enrichment/moszna-castle-049.jpg", "/assets/moszna-enrichment/moszna-castle-050.jpg", "/assets/moszna-enrichment/moszna-castle-051.jpg", "/assets/moszna-enrichment/moszna-castle-052.jpg", "/assets/moszna-enrichment/moszna-castle-055.jpg", "/assets/moszna-enrichment/moszna-castle-069.jpg", "/assets/moszna-enrichment/moszna-castle-033.jpg", "/assets/moszna-enrichment/moszna-castle-034.jpg", "/assets/moszna-enrichment/moszna-castle-035.jpg", "/assets/moszna-enrichment/moszna-castle-036.jpg", "/assets/moszna-enrichment/moszna-castle-037.jpg", "/assets/moszna-enrichment/moszna-castle-043.jpg", "/assets/moszna-enrichment/moszna-castle-044.jpg", "/assets/moszna-enrichment/moszna-castle-045.jpg", "/assets/moszna-enrichment/moszna-castle-046.jpg", "/assets/moszna-enrichment/moszna-castle-047.jpg", "/assets/moszna-enrichment/moszna-castle-048.jpg", "/assets/moszna-enrichment/moszna-castle-013.jpg", "/assets/moszna-enrichment/moszna-castle-017.jpg", "/assets/moszna-enrichment/moszna-castle-018.jpg", "/assets/moszna-enrichment/moszna-castle-014.jpg", "/assets/moszna-enrichment/moszna-castle-015.jpg", "/assets/moszna-enrichment/moszna-castle-020.jpg", "/assets/moszna-enrichment/moszna-castle-021.jpg", "/assets/moszna-enrichment/moszna-castle-022.jpg", "/assets/moszna-enrichment/moszna-castle-025.jpg", "/assets/moszna-enrichment/moszna-castle-028.jpg", "/assets/moszna-enrichment/moszna-castle-063.jpg", "/assets/moszna-enrichment/moszna-castle-064.jpg", "/assets/moszna-enrichment/moszna-castle-065.jpg", "/assets/moszna-enrichment/moszna-castle-066.jpg", "/assets/moszna-enrichment/moszna-castle-067.jpg"], videos: ["/assets/moszna-castle-video.mp4"], guideVideos: { he: "https://youtube.com/shorts/5ghRWvbwU6Q", en: "https://youtube.com/shorts/UqqWiyXRk00" }, metadata: { "/assets/moszna-enrichment/moszna-castle-002.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (1).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-003.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-004.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-006.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.28 (1).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-009.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.51.jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-010.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.52.jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-011.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.53 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-040.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (15).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-053.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (8).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-054.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (9).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-058.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (17).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-060.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (20).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-061.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (21).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-062.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (24).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-001.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.25.jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-005.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (4).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-049.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-050.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-051.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (4).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-052.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (5).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-055.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (10).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-069.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (9).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-033.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (1).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-034.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-035.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-036.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.26 (1).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-037.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.26 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-043.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (18).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-044.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (19).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-045.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (20).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-046.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (21).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-047.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (22).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-048.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.21 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-013.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (1).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-017.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.18 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-018.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.18 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-014.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-015.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (4).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-020.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-021.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-022.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.20 (1).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-025.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-028.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.23 (1).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-063.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-064.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (4).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-065.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (5).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-066.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (6).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-067.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (7).jpeg", "original": true}, "/assets/moszna-castle-hero.jpeg": { sourceFile: "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (16).jpeg", original: true, heroCandidate: true }, "/assets/moszna-castle-approach.jpeg": { sourceFile: "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (11).jpeg", original: true }, "/assets/moszna-castle-entrance.jpeg": { sourceFile: "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (14).jpeg", original: true }, "/assets/moszna-castle-video.mp4": { sourceFile: "Moszna Castle/FORCODEX/WhatsApp Video 2026-09-24 at 17.26.50.mp4", original: true } } },
-      status: "published", languages: ["he", "en", "pl", "de", "cs"] },
+  "id": "moszna-castle",
+  "localName": "Zamek Moszna",
+  "aliases": [],
+  "name": {
+    "he": "טירת מושנה",
+    "en": "Moszna Castle",
+    "pl": "Zamek Moszna",
+    "de": "Schloss Moschen",
+    "cs": "Zámek Moszna"
+  },
+  "description": {
+    "he": "טירת מושנה היא מוקד הביקור השני ביום הטיול. אפשר לבקר בחללים הפתוחים לקהל ולצאת משם לפארק.",
+    "en": "Moszna Castle is the second main destination of the day. Visit the areas open to guests, then continue into the park.",
+    "pl": "Zamek Moszna to drugi główny cel dnia. Po zwiedzaniu dostępnych wnętrz można przejść do parku.",
+    "de": "Schloss Moschen ist das zweite Hauptziel des Tages. Nach dem Besuch der zugänglichen Räume geht es in den Park.",
+    "cs": "Zámek Moszna je druhým hlavním cílem dne. Po návštěvě přístupných prostor pokračujte do parku."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "opole",
+    "cityId": "moszna",
+    "coordinates": {
+      "lat": 50.44079,
+      "lng": 17.76793
+    },
+    "address": {
+      "street": "Zamkowa 1",
+      "postalCode": "47-370",
+      "city": "Moszna",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "castle",
+    "historical-landmark"
+  ],
+  "taxonomy": {
+    "tags": [
+      "architecture",
+      "excursion",
+      "outside-wroclaw"
+    ]
+  },
+  "links": {
+    "website": "https://mosznazamek.pl/zwiedzanie/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.44079%2C17.76793"
+    }
+  },
+  "provenance": {
+    "contentType": "personal-visit",
+    "personalVisit": true,
+    "originalPhotography": true,
+    "originalVideo": true,
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://mosznazamek.pl/kontakt/",
+        "checkedAt": "2026-09-28"
+      },
+      {
+        "type": "coordinates",
+        "url": "https://www.openstreetmap.org/way/73054209",
+        "checkedAt": "2026-09-28"
+      }
+    ]
+  },
+  "socialPosts": [],
+  "media": {
+    "photos": [
+      "/assets/moszna-castle-hero.jpeg",
+      "/assets/moszna-castle-approach.jpeg",
+      "/assets/moszna-castle-entrance.jpeg",
+      "/assets/moszna-enrichment/moszna-castle-002.jpg",
+      "/assets/moszna-enrichment/moszna-castle-004.jpg",
+      "/assets/moszna-enrichment/moszna-castle-009.jpg",
+      "/assets/moszna-enrichment/moszna-castle-010.jpg",
+      "/assets/moszna-enrichment/moszna-castle-040.jpg",
+      "/assets/moszna-enrichment/moszna-castle-053.jpg",
+      "/assets/moszna-enrichment/moszna-castle-054.jpg",
+      "/assets/moszna-enrichment/moszna-castle-058.jpg",
+      "/assets/moszna-enrichment/moszna-castle-060.jpg",
+      "/assets/moszna-enrichment/moszna-castle-061.jpg",
+      "/assets/moszna-enrichment/moszna-castle-062.jpg",
+      "/assets/moszna-enrichment/moszna-castle-001.jpg",
+      "/assets/moszna-enrichment/moszna-castle-005.jpg",
+      "/assets/moszna-enrichment/moszna-castle-049.jpg",
+      "/assets/moszna-enrichment/moszna-castle-050.jpg",
+      "/assets/moszna-enrichment/moszna-castle-051.jpg",
+      "/assets/moszna-enrichment/moszna-castle-052.jpg",
+      "/assets/moszna-enrichment/moszna-castle-055.jpg",
+      "/assets/moszna-enrichment/moszna-castle-069.jpg",
+      "/assets/moszna-enrichment/moszna-castle-033.jpg",
+      "/assets/moszna-enrichment/moszna-castle-034.jpg",
+      "/assets/moszna-enrichment/moszna-castle-035.jpg",
+      "/assets/moszna-enrichment/moszna-castle-036.jpg",
+      "/assets/moszna-enrichment/moszna-castle-037.jpg",
+      "/assets/moszna-enrichment/moszna-castle-043.jpg",
+      "/assets/moszna-enrichment/moszna-castle-044.jpg",
+      "/assets/moszna-enrichment/moszna-castle-045.jpg",
+      "/assets/moszna-enrichment/moszna-castle-046.jpg",
+      "/assets/moszna-enrichment/moszna-castle-047.jpg",
+      "/assets/moszna-enrichment/moszna-castle-048.jpg",
+      "/assets/moszna-enrichment/moszna-castle-013.jpg",
+      "/assets/moszna-enrichment/moszna-castle-017.jpg",
+      "/assets/moszna-enrichment/moszna-castle-018.jpg",
+      "/assets/moszna-enrichment/moszna-castle-015.jpg",
+      "/assets/moszna-enrichment/moszna-castle-020.jpg",
+      "/assets/moszna-enrichment/moszna-castle-022.jpg",
+      "/assets/moszna-enrichment/moszna-castle-025.jpg",
+      "/assets/moszna-enrichment/moszna-castle-063.jpg",
+      "/assets/moszna-enrichment/moszna-castle-064.jpg",
+      "/assets/moszna-enrichment/moszna-castle-065.jpg",
+      "/assets/moszna-enrichment/moszna-castle-067.jpg"
+    ],
+    "videos": [
+      "/assets/moszna-castle-video.mp4"
+    ],
+    "guideVideos": {
+      "he": "https://youtube.com/shorts/5ghRWvbwU6Q",
+      "en": "https://youtube.com/shorts/UqqWiyXRk00"
+    },
+    "metadata": {
+      "/assets/moszna-enrichment/moszna-castle-002.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (1).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-004.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (3).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-009.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.51.jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-010.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.52.jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-040.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (15).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-053.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (8).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-054.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (9).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-058.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (17).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-060.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (20).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-061.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (21).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-062.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (24).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-001.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.25.jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-005.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (4).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-049.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (2).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-050.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (3).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-051.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (4).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-052.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (5).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-055.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (10).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-069.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (9).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-033.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (1).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-034.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (2).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-035.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (3).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-036.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.26 (1).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-037.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.26 (3).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-043.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (18).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-044.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (19).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-045.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (20).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-046.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (21).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-047.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (22).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-048.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.21 (2).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-013.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (1).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-017.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.18 (2).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-018.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.18 (3).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-015.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (4).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-020.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (2).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-022.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.20 (1).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-025.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22 (2).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-063.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (3).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-064.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (4).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-065.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (5).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-067.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (7).jpeg",
+        "original": true
+      },
+      "/assets/moszna-castle-hero.jpeg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (16).jpeg",
+        "original": true,
+        "heroCandidate": true
+      },
+      "/assets/moszna-castle-approach.jpeg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (11).jpeg",
+        "original": true
+      },
+      "/assets/moszna-castle-entrance.jpeg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (14).jpeg",
+        "original": true
+      },
+      "/assets/moszna-castle-video.mp4": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Video 2026-09-24 at 17.26.50.mp4",
+        "original": true
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
     {
-      id: "moszna-castle-park", localName: "Park Zamkowy w Mosznej", aliases: [],
-      name: { he: "פארק טירת מושנה", en: "Moszna Castle Park", pl: "Park Zamkowy w Mosznej", de: "Schlosspark Moschen", cs: "Zámecký park v Moszně" },
-      description: { he: "הפארק מקיף את הטירה וכולל שבילים, מדשאות, עצים ומקווי מים. זה המקום לסיים בו את הביקור במושנה.", en: "The park around the castle has paths, lawns, trees and water features. It makes a calm finish to the Moszna visit.", pl: "Park wokół zamku ma alejki, trawniki, drzewa i wodę. To spokojne zakończenie wizyty w Mosznej.", de: "Der Park am Schloss bietet Wege, Rasenflächen, Bäume und Wasseranlagen. Hier lässt sich der Besuch ruhig ausklingen.", cs: "Park kolem zámku nabízí cesty, trávníky, stromy i vodní plochy. Je to klidné zakončení návštěvy Moszny." },
-      location: { countryCode: "PL", regionId: "opole", cityId: "moszna", coordinates: { lat: 50.44079, lng: 17.76793 }, address: { street: "Zamkowa 1", postalCode: "47-370", city: "Moszna", country: "Poland" } },
-      categories: ["park", "garden"], taxonomy: { tags: ["nature", "walking", "excursion", "outside-wroclaw"] },
-      links: { website: "https://mosznazamek.pl/zwiedzanie-parku/", navigation: { googleMaps: "https://www.google.com/maps/search/?api=1&query=Park%20Zamkowy%20w%20Mosznej" } },
-      provenance: { contentType: "personal-visit", personalVisit: true, originalPhotography: true, factualSources: [{ type: "official", url: "https://mosznazamek.pl/zwiedzanie-parku/", checkedAt: "2026-09-28" }] },
-      socialPosts: [], media: { photos: ["/assets/moszna-park-view.jpeg", "/assets/moszna-park-garden.jpeg", "/assets/moszna-enrichment/moszna-castle-park-012.jpg", "/assets/moszna-enrichment/moszna-castle-park-024.jpg", "/assets/moszna-enrichment/moszna-castle-park-026.jpg", "/assets/moszna-enrichment/moszna-castle-park-027.jpg", "/assets/moszna-enrichment/moszna-castle-park-038.jpg", "/assets/moszna-enrichment/moszna-castle-park-041.jpg", "/assets/moszna-enrichment/moszna-castle-park-042.jpg", "/assets/moszna-enrichment/moszna-castle-park-068.jpg"], videos: [], metadata: { "/assets/moszna-enrichment/moszna-castle-park-012.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.53 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-park-024.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.21 (2).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-park-026.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22 (4).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-park-027.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22.jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-park-038.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.27 (3).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-park-041.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (16).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-park-042.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (17).jpeg", "original": true}, "/assets/moszna-enrichment/moszna-castle-park-068.jpg": {"sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (8).jpeg", "original": true}, "/assets/moszna-park-view.jpeg": { sourceFile: "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.21 (1).jpeg", original: true }, "/assets/moszna-park-garden.jpeg": { sourceFile: "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (2).jpeg", original: true } } },
-      status: "published", languages: ["he", "en", "pl", "de", "cs"] },
+  "id": "moszna-castle-park",
+  "localName": "Park Zamkowy w Mosznej",
+  "aliases": [],
+  "name": {
+    "he": "פארק טירת מושנה",
+    "en": "Moszna Castle Park",
+    "pl": "Park Zamkowy w Mosznej",
+    "de": "Schlosspark Moschen",
+    "cs": "Zámecký park v Moszně"
+  },
+  "description": {
+    "he": "הפארק מקיף את הטירה וכולל שבילים, מדשאות, עצים ומקווי מים. זה המקום לסיים בו את הביקור במושנה.",
+    "en": "The park around the castle has paths, lawns, trees and water features. It makes a calm finish to the Moszna visit.",
+    "pl": "Park wokół zamku ma alejki, trawniki, drzewa i wodę. To spokojne zakończenie wizyty w Mosznej.",
+    "de": "Der Park am Schloss bietet Wege, Rasenflächen, Bäume und Wasseranlagen. Hier lässt sich der Besuch ruhig ausklingen.",
+    "cs": "Park kolem zámku nabízí cesty, trávníky, stromy i vodní plochy. Je to klidné zakončení návštěvy Moszny."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "opole",
+    "cityId": "moszna",
+    "coordinates": {
+      "lat": 50.44079,
+      "lng": 17.76793
+    },
+    "address": {
+      "street": "Zamkowa 1",
+      "postalCode": "47-370",
+      "city": "Moszna",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "park",
+    "garden"
+  ],
+  "taxonomy": {
+    "tags": [
+      "nature",
+      "walking",
+      "excursion",
+      "outside-wroclaw"
+    ]
+  },
+  "links": {
+    "website": "https://mosznazamek.pl/zwiedzanie-parku/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=Park%20Zamkowy%20w%20Mosznej"
+    }
+  },
+  "provenance": {
+    "contentType": "personal-visit",
+    "personalVisit": true,
+    "originalPhotography": true,
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://mosznazamek.pl/zwiedzanie-parku/",
+        "checkedAt": "2026-09-28"
+      }
+    ]
+  },
+  "socialPosts": [],
+  "media": {
+    "photos": [
+      "/assets/moszna-park-view.jpeg",
+      "/assets/moszna-park-garden.jpeg",
+      "/assets/moszna-enrichment/moszna-castle-park-012.jpg",
+      "/assets/moszna-enrichment/moszna-castle-park-024.jpg",
+      "/assets/moszna-enrichment/moszna-castle-park-027.jpg",
+      "/assets/moszna-enrichment/moszna-castle-park-038.jpg",
+      "/assets/moszna-enrichment/moszna-castle-park-041.jpg",
+      "/assets/moszna-enrichment/moszna-castle-park-068.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/moszna-enrichment/moszna-castle-park-012.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.53 (3).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-park-024.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.21 (2).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-park-027.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22.jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-park-038.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.27 (3).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-park-041.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (16).jpeg",
+        "original": true
+      },
+      "/assets/moszna-enrichment/moszna-castle-park-068.jpg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (8).jpeg",
+        "original": true
+      },
+      "/assets/moszna-park-view.jpeg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.21 (1).jpeg",
+        "original": true
+      },
+      "/assets/moszna-park-garden.jpeg": {
+        "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (2).jpeg",
+        "original": true
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
     {
   "id": "jawor-church-of-peace",
   "localName": "Kościół Pokoju w Jaworze",
@@ -2183,13 +3307,11 @@
       "/assets/excursion-three/jawor-church-of-peace-02.jpg",
       "/assets/excursion-three/jawor-church-of-peace-03.jpg",
       "/assets/excursion-three/jawor-church-of-peace-04.jpg",
-      "/assets/excursion-three/jawor-church-of-peace-05.jpg",
       "/assets/excursion-three/jawor-church-of-peace-06.jpg",
       "/assets/excursion-three/jawor-church-of-peace-07.jpg",
       "/assets/excursion-three/jawor-church-of-peace-08.jpg",
       "/assets/excursion-three/jawor-church-of-peace-09.jpg",
       "/assets/excursion-three/jawor-church-of-peace-10.jpg",
-      "/assets/excursion-three/jawor-church-of-peace-11.jpg",
       "/assets/excursion-three/jawor-church-of-peace-12.jpg",
       "/assets/excursion-three/jawor-church-of-peace-13.jpg",
       "/assets/excursion-three/jawor-church-of-peace-14.jpg",
@@ -2198,7 +3320,6 @@
       "/assets/excursion-three/jawor-church-of-peace-17.jpg",
       "/assets/excursion-three/jawor-church-of-peace-18.jpg",
       "/assets/excursion-three/jawor-church-of-peace-19.jpg",
-      "/assets/excursion-three/jawor-church-of-peace-20.jpg",
       "/assets/excursion-three/jawor-church-of-peace-21.jpg",
       "/assets/excursion-three/jawor-church-of-peace-22.jpg",
       "/assets/excursion-three/jawor-church-of-peace-23.jpg",
@@ -2250,10 +3371,6 @@
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.14 (1).jpeg",
         "original": true
       },
-      "/assets/excursion-three/jawor-church-of-peace-05.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.14.jpeg",
-        "original": true
-      },
       "/assets/excursion-three/jawor-church-of-peace-06.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15 (1).jpeg",
         "original": true
@@ -2272,10 +3389,6 @@
       },
       "/assets/excursion-three/jawor-church-of-peace-10.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15 (5).jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/jawor-church-of-peace-11.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15.jpeg",
         "original": true
       },
       "/assets/excursion-three/jawor-church-of-peace-12.jpg": {
@@ -2308,10 +3421,6 @@
       },
       "/assets/excursion-three/jawor-church-of-peace-19.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (3).jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/jawor-church-of-peace-20.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (4).jpeg",
         "original": true
       },
       "/assets/excursion-three/jawor-church-of-peace-21.jpg": {
@@ -2632,7 +3741,6 @@
       "/assets/excursion-three/jawor-piast-castle-08.jpg",
       "/assets/excursion-three/jawor-piast-castle-09.jpg",
       "/assets/excursion-three/jawor-piast-castle-10.jpg",
-      "/assets/excursion-three/jawor-piast-castle-11.jpg",
       "/assets/excursion-three/jawor-piast-castle-12.jpg",
       "/assets/excursion-three/jawor-piast-castle-13.jpg"
     ],
@@ -2676,10 +3784,6 @@
       },
       "/assets/excursion-three/jawor-piast-castle-10.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (19).jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/jawor-piast-castle-11.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (20).jpeg",
         "original": true
       },
       "/assets/excursion-three/jawor-piast-castle-12.jpg": {
@@ -2777,12 +3881,10 @@
       "/assets/excursion-three/karpacz-centre-09.jpg",
       "/assets/excursion-three/karpacz-centre-10.jpg",
       "/assets/excursion-three/karpacz-centre-11.jpg",
-      "/assets/excursion-three/karpacz-centre-12.jpg",
       "/assets/excursion-three/karpacz-centre-14.jpg",
       "/assets/excursion-three/karpacz-centre-15.jpg",
       "/assets/excursion-three/karpacz-centre-16.jpg",
       "/assets/excursion-three/karpacz-centre-17.jpg",
-      "/assets/excursion-three/karpacz-centre-18.jpg",
       "/assets/excursion-three/karpacz-centre-19.jpg",
       "/assets/excursion-three/karpacz-centre-20.jpg"
     ],
@@ -2842,10 +3944,6 @@
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.56 (2).jpeg",
         "original": true
       },
-      "/assets/excursion-three/karpacz-centre-12.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
-        "original": true
-      },
       "/assets/excursion-three/karpacz-centre-14.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (3).jpeg",
         "original": true
@@ -2860,10 +3958,6 @@
       },
       "/assets/excursion-three/karpacz-centre-17.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36 (3).jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/karpacz-centre-18.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36.jpeg",
         "original": true
       },
       "/assets/excursion-three/karpacz-centre-19.jpg": {
@@ -3076,11 +4170,9 @@
       "/assets/excursion-three/wang-church-08.jpg",
       "/assets/excursion-three/wang-church-10.jpg",
       "/assets/excursion-three/wang-church-11.jpg",
-      "/assets/excursion-three/wang-church-12.jpg",
       "/assets/excursion-three/wang-church-13.jpg",
       "/assets/excursion-three/wang-church-14.jpg",
       "/assets/excursion-three/wang-church-15.jpg",
-      "/assets/excursion-three/wang-church-16.jpg",
       "/assets/excursion-three/wang-church-17.jpg"
     ],
     "videos": [
@@ -3100,13 +4192,7 @@
       "https://youtube.com/shorts/MY2mECOq9_Q",
       "https://youtube.com/shorts/eT4DJ_wCEX0",
       "https://youtube.com/shorts/c0JQMmmXGpo",
-      "https://youtube.com/shorts/D8HmY7lvWmk",
-      "https://youtube.com/shorts/4uEHwuoId9c",
-      "https://youtube.com/shorts/7WJ6rV3GKcs",
-      "https://youtube.com/shorts/UUB2CQEg4AM",
-      "https://youtube.com/shorts/k9i8mTVmHEI",
-      "https://youtube.com/shorts/kX5L3MzXhzo",
-      "https://youtube.com/shorts/LplVP7BLSUI"
+      "https://youtube.com/shorts/UUB2CQEg4AM"
     ],
     "metadata": {
       "/assets/excursion-three/wang-church-01.jpg": {
@@ -3141,10 +4227,6 @@
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57 (1).jpeg",
         "original": true
       },
-      "/assets/excursion-three/wang-church-12.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57.jpeg",
-        "original": true
-      },
       "/assets/excursion-three/wang-church-13.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01 (1).jpeg",
         "original": true
@@ -3155,10 +4237,6 @@
       },
       "/assets/excursion-three/wang-church-15.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01.jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/wang-church-16.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53 (1).jpeg",
         "original": true
       },
       "/assets/excursion-three/wang-church-17.jpg": {
@@ -3309,33 +4387,6 @@
         "checks": "completed, no issues",
         "verifiedAt": "2026-10-16T09:08:32.028Z"
       },
-      "https://youtube.com/shorts/D8HmY7lvWmk": {
-        "original": true,
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-05 at 18.32.32.mp4",
-        "sourceSHA256": "e48e3065c1b7689d3e0c219d2e12fd012915dd4582303a4303f2238c6b5ff833",
-        "youtube": "https://youtube.com/shorts/D8HmY7lvWmk",
-        "visibility": "Public",
-        "checks": "completed, no issues",
-        "verifiedAt": "2026-10-16T09:11:58.281Z"
-      },
-      "https://youtube.com/shorts/4uEHwuoId9c": {
-        "original": true,
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-05 at 18.32.54.mp4",
-        "sourceSHA256": "8fbbe9a536463d0daa005a74b07ae0463268e295463b85f3846cc059ea233022",
-        "youtube": "https://youtube.com/shorts/4uEHwuoId9c",
-        "visibility": "Public",
-        "checks": "completed, no issues",
-        "verifiedAt": "2026-10-16T09:12:40.605Z"
-      },
-      "https://youtube.com/shorts/7WJ6rV3GKcs": {
-        "original": true,
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-05 at 18.32.55.mp4",
-        "sourceSHA256": "5801238fa0bdfca0372f60e18d8261b3336629c1f06c9a24736be7039dd39320",
-        "youtube": "https://youtube.com/shorts/7WJ6rV3GKcs",
-        "visibility": "Public",
-        "checks": "completed, no issues",
-        "verifiedAt": "2026-10-16T09:12:51.149Z"
-      },
       "https://youtube.com/shorts/UUB2CQEg4AM": {
         "original": true,
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-05 at 18.32.57.mp4",
@@ -3344,33 +4395,6 @@
         "visibility": "Public",
         "checks": "completed, no issues",
         "verifiedAt": "2026-10-16T09:13:04.209Z"
-      },
-      "https://youtube.com/shorts/k9i8mTVmHEI": {
-        "original": true,
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-05 at 18.32.59.mp4",
-        "sourceSHA256": "ca3e211841388c33a751f2a60e60d3d047683ddeb48e59e9cec1d01d6dd63ba9",
-        "youtube": "https://youtube.com/shorts/k9i8mTVmHEI",
-        "visibility": "Public",
-        "checks": "completed, no issues",
-        "verifiedAt": "2026-10-16T09:13:29.197Z"
-      },
-      "https://youtube.com/shorts/kX5L3MzXhzo": {
-        "original": true,
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-05 at 18.33.01.mp4",
-        "sourceSHA256": "0bb9d13fec934763229e27cea38aa6749d1fc797ab42c659e0237fa7c26dd942",
-        "youtube": "https://youtube.com/shorts/kX5L3MzXhzo",
-        "visibility": "Public",
-        "checks": "completed, no issues",
-        "verifiedAt": "2026-10-16T09:13:41.564Z"
-      },
-      "https://youtube.com/shorts/LplVP7BLSUI": {
-        "original": true,
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-05 at 18.33.03.mp4",
-        "sourceSHA256": "02db191f4b17877a7195eaea6982180995988480935c6228deffbacb8354f657",
-        "youtube": "https://youtube.com/shorts/LplVP7BLSUI",
-        "visibility": "Public",
-        "checks": "completed, no issues",
-        "verifiedAt": "2026-10-16T09:14:05.241Z"
       }
     }
   },
@@ -3456,9 +4480,7 @@
       "/assets/excursion-three/jelenia-gora-market-square-05.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-06.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-07.jpg",
-      "/assets/excursion-three/jelenia-gora-market-square-08.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-09.jpg",
-      "/assets/excursion-three/jelenia-gora-market-square-10.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-11.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-12.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-13.jpg",
@@ -3469,7 +4491,6 @@
       "/assets/excursion-three/jelenia-gora-market-square-18.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-19.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-20.jpg",
-      "/assets/excursion-three/jelenia-gora-market-square-21.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-22.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-23.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-24.jpg",
@@ -3518,16 +4539,8 @@
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (4).jpeg",
         "original": true
       },
-      "/assets/excursion-three/jelenia-gora-market-square-08.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11.jpeg",
-        "original": true
-      },
       "/assets/excursion-three/jelenia-gora-market-square-09.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (2).jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/jelenia-gora-market-square-10.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (3).jpeg",
         "original": true
       },
       "/assets/excursion-three/jelenia-gora-market-square-11.jpg": {
@@ -3568,10 +4581,6 @@
       },
       "/assets/excursion-three/jelenia-gora-market-square-20.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.27.jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/jelenia-gora-market-square-21.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30 (1).jpeg",
         "original": true
       },
       "/assets/excursion-three/jelenia-gora-market-square-22.jpg": {
@@ -3756,26 +4765,21 @@
       "/assets/czocha-boleslawiec/czocha-castle-113.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-114.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-122.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-123.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-133.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-134.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-135.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-083.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-141.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-142.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-143.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-012.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-013.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-016.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-017.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-019.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-021.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-022.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-023.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-024.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-025.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-026.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-027.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-029.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-030.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-032.jpg",
@@ -3788,15 +4792,10 @@
       "/assets/czocha-boleslawiec/czocha-castle-046.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-047.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-048.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-049.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-050.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-051.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-052.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-053.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-054.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-055.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-056.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-057.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-058.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-059.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-060.jpg",
@@ -3804,25 +4803,19 @@
       "/assets/czocha-boleslawiec/czocha-castle-063.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-064.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-065.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-066.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-067.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-068.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-069.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-070.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-071.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-075.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-077.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-078.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-079.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-082.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-084.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-085.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-087.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-088.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-100.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-115.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-116.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-117.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-118.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-119.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-120.jpg",
@@ -3867,21 +4860,16 @@
       "/assets/czocha-boleslawiec/czocha-castle-199.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-200.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-201.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-202.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-205.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-206.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-207.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-208.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-209.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-210.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-211.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-212.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-213.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-214.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-215.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-216.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-217.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-218.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-219.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-220.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-221.jpg",
@@ -3900,11 +4888,9 @@
       "/assets/czocha-boleslawiec/czocha-castle-240.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-241.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-242.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-244.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-245.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-246.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-247.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-248.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-249.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-250.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-253.jpg",
@@ -3914,14 +4900,11 @@
       "/assets/czocha-boleslawiec/czocha-castle-258.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-259.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-260.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-261.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-262.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-263.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-264.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-265.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-266.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-267.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-268.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-269.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-271.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-272.jpg",
@@ -3931,9 +4914,7 @@
       "/assets/czocha-boleslawiec/czocha-castle-279.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-280.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-281.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-282.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-284.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-285.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-286.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-287.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-288.jpg",
@@ -3942,7 +4923,6 @@
       "/assets/czocha-boleslawiec/czocha-castle-291.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-292.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-293.jpg",
-      "/assets/czocha-boleslawiec/czocha-castle-294.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-295.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-296.jpg",
       "/assets/czocha-boleslawiec/czocha-castle-297.jpg",
@@ -4005,12 +4985,6 @@
         "sourceSHA256": "058da1bf174f4cd9cbfb65ec8c93f35f2cd88a0cb41159bf2102577ba3f4a838",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-123.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (14).jpeg",
-        "sourceSHA256": "1634907bd2b600a14ed77da3c06a5d4766c590607c2db51d4ea5a831101cede7",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-133.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.20 (1).jpeg",
@@ -4047,12 +5021,6 @@
         "sourceSHA256": "80fe154800f334b02c3f853516934f983e6ac7aeafbfcb778e19fb3e2c0eda51",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-143.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (16).jpeg",
-        "sourceSHA256": "8a33af59e97b8d8a03f3f1851702d229ae4772d6eb519de1285c6516d4872f85",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-012.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.37 (4).jpeg",
@@ -4083,12 +5051,6 @@
         "sourceSHA256": "d01239ebfdc19524d4f3bf9c5580835726507d64dff815a9c1aef7c95ae8cf3a",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-021.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.40 (1).jpeg",
-        "sourceSHA256": "8dfb2a1712d7b6291ef88ed6f9638ab5007ad747ceaeb15bb99ce18f72b148a0",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-022.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.40 (2).jpeg",
@@ -4107,22 +5069,10 @@
         "sourceSHA256": "2ab0cc19a4b6b3d7beb3d898dec0d174eb38c757782df5e4abf493b3eefc3e00",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-025.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.41 (1).jpeg",
-        "sourceSHA256": "72635bfe2b0a5167b32b75a400de4d6b98472b00fb60997b1014b9d4411c9b27",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-026.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.41 (2).jpeg",
         "sourceSHA256": "3e13eaa7de7c7fde8aff144f068a6e427fba158e5b47bffe64785b4545aedee6",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-027.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.41.jpeg",
-        "sourceSHA256": "61b79c721c22ccbfc83b4fa25c1fa97ededa0b3e5090e48704a95679e35e297b",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-029.jpg": {
@@ -4197,40 +5147,16 @@
         "sourceSHA256": "88cbdec602c553e1fa527df7c10c31c938505577985aa3a002ebec80122b092a",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-049.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50 (1).jpeg",
-        "sourceSHA256": "36f8de78b6237fceecf6bdf72c40fd5d9b4a9ac5ee49685541b8f456c6e7aa7e",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-050.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50 (2).jpeg",
         "sourceSHA256": "e1fb13731b8db2cc1d2ec477d807de925ae971e73d2ad5e07898d124d00c0b13",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-051.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50 (3).jpeg",
-        "sourceSHA256": "3c84112b5a9342e462056ee8e661394144a5393b8cbb8b535f8c969ce41fa00d",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-052.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50.jpeg",
         "sourceSHA256": "23fc69755bf4d2e1e7c1e2d8a1ce11ea2dac48dbbea867621919af9f45cbe40c",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-053.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (1).jpeg",
-        "sourceSHA256": "5d0b778f43d15ac2e5fe9853b08bd28bb4da36480efe0194ec13be2b052657b3",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-054.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (2).jpeg",
-        "sourceSHA256": "63ae0a858073bc79341435d5cf270151de357008af48ca7f3311d8dad9630ae2",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-055.jpg": {
@@ -4243,12 +5169,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (4).jpeg",
         "sourceSHA256": "902029164083657cf7d75d685d1ae16eba92750de88a9bb5d72048033be6d73e",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-057.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (5).jpeg",
-        "sourceSHA256": "171abaa3b43be2fe2f6f397fb6f570eeb7452d8dd8be0a3d77489cc262672f35",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-058.jpg": {
@@ -4293,22 +5213,10 @@
         "sourceSHA256": "a40ef033249aeec23587a15db48460a7978e8a322188aeeb60b79bdcb491e9c3",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-066.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.26 (1).jpeg",
-        "sourceSHA256": "4704fee2cefb5209dbd49f021c896c7f21633dc4eecffc8d0944439ce0dcd491",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-067.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.26 (2).jpeg",
         "sourceSHA256": "135070a335c1550c9b8fbae3bd025227abae20765de1f800cd7013a2fc43e84d",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-068.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.26.jpeg",
-        "sourceSHA256": "823a139cd469b15a3d850801342e75eaeaf4d54f1d072bd67d2ca7bbdf17d447",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-069.jpg": {
@@ -4323,22 +5231,10 @@
         "sourceSHA256": "e6899dd11106cb39b08c496e7aaa0adb99a7054051737ddd3a3777eef0b86f61",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-071.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.27.jpeg",
-        "sourceSHA256": "c04580ad46387d2dd45bf844c4e5f9afe015a2cf60ec794540ef77827c186bc7",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-075.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.30 (1).jpeg",
         "sourceSHA256": "c56e60d4089dcea0cd1851fd2b8bd09e9a2ad62fca547dab903912a60e6c2c48",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-077.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.31 (1).jpeg",
-        "sourceSHA256": "bbc5b994bb56866f09905d29f6b0c5b68f9b88d12b294b6f31db7e24a1036e5b",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-078.jpg": {
@@ -4357,12 +5253,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.33 (1).jpeg",
         "sourceSHA256": "65be628cb40804257ddb0710df05c65c9447e4295c28c0cc47c05d3a1ce39558",
-        "visitCategory": "apple-cake"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-084.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.33.jpeg",
-        "sourceSHA256": "098224bed54ec5226abb0a24c45fe79a7a0eafb0db9ccb240d80bb5421497eee",
         "visitCategory": "apple-cake"
       },
       "/assets/czocha-boleslawiec/czocha-castle-085.jpg": {
@@ -4399,12 +5289,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.17 (2).jpeg",
         "sourceSHA256": "3c28fcb95f136f77b9e234ea1aa74eb5553d38e2048b46c87d74c9a4c88dd87b",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-117.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.17 (3).jpeg",
-        "sourceSHA256": "3c2790ce427c1568b489ab9496802569e0318fcbd15abef06ec69f4a424d727d",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-118.jpg": {
@@ -4671,12 +5555,6 @@
         "sourceSHA256": "87eddd1b8c6cb488ab11ec8b19fdf504db6044475a3b1b18e020f64c67a63424",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-202.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (11).jpeg",
-        "sourceSHA256": "141badfcfecc3dc02e9c931781a61c7dfb27e7a4ebc19607df3fa2cdec0312ba",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-205.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (2).jpeg",
@@ -4687,12 +5565,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (7).jpeg",
         "sourceSHA256": "107838461c94fffbb692f88ca6b92cfe8949eac447e2acd9ab3620d5668bc13f",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-207.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.19.57 (1).jpeg",
-        "sourceSHA256": "31664ec7b6648cf45661a5bea93e7a5c63a5ae4e371f9c1fae1b85f0b397a842",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-208.jpg": {
@@ -4711,12 +5583,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.23 (1).jpeg",
         "sourceSHA256": "5605ba5478d38eafd55876f52a620774308a16ffd2ae27099df2b5dd955c310c",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-211.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.23.jpeg",
-        "sourceSHA256": "7d825861bcfd19fec178a04ddb9c74aaf1997d592b16ac45f31c5ffa5a10bc3f",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-212.jpg": {
@@ -4747,18 +5613,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (13).jpeg",
         "sourceSHA256": "1a54b4395b3fac0451ba17b7251c8023ec4b21e948e89764846cfb38b3f6c90f",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-217.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (14).jpeg",
-        "sourceSHA256": "c448b5e78acd0371409956c17df0d263dba622b9ee140923c992af27bcd1752c",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-218.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (15).jpeg",
-        "sourceSHA256": "0507bd53f46a5dc6b9be74757311155b2f418736c5bd815478f4a749f36f2a98",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-219.jpg": {
@@ -4869,12 +5723,6 @@
         "sourceSHA256": "06131e41ac7b479d0b5dd0501a44815980c4fe574042750ecb5844e6d98eadd2",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-244.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.21 (1).jpeg",
-        "sourceSHA256": "fa4f009a09b7b24d1a072c888d065fa0acc3027211540bf1839f6668a912f49c",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-245.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.21 (2).jpeg",
@@ -4891,12 +5739,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.21.jpeg",
         "sourceSHA256": "1d031d8556e1f5c780167e1e9494a8f0da5a2feca6fdbf5ee488795eb8039891",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-248.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.22 (1).jpeg",
-        "sourceSHA256": "9b166b9bbc8d87062f8fb8d10a11869a7a1c8c4935fb000577f6058f071f1d1a",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-249.jpg": {
@@ -4953,12 +5795,6 @@
         "sourceSHA256": "1fbb8b045579f09da04f0c4c6d94691ad95ccf612197cd8be48c9ed8afa8e3fc",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-261.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27 (2).jpeg",
-        "sourceSHA256": "7eca0e103cbbabd47b2db6280bfee2cb915aeb3f437e4eeceb9ac7b1b08468b5",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-262.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27 (3).jpeg",
@@ -4969,12 +5805,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27 (4).jpeg",
         "sourceSHA256": "85ef15482fce8c3b2b6b6c8145e9f0459b0bcde9d5d871a6210e02243583a964",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-264.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27.jpeg",
-        "sourceSHA256": "d3da50c4f76e46e8d86922a85d8c1d5f2d68edc1b097fea1d2e9021a61955326",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-265.jpg": {
@@ -4993,12 +5823,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.28 (3).jpeg",
         "sourceSHA256": "f0642dd07411647a39076dc5ce02b173ada0970facf0c3a49f8749c994fdedb2",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-268.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.28 (4).jpeg",
-        "sourceSHA256": "a2ed17a470f10e71186c8cf0e1e0fc90a9eb482024d2bafec5023184d3c63e7f",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-269.jpg": {
@@ -5055,22 +5879,10 @@
         "sourceSHA256": "5e6bf2699bf1488f58e6a1fb085acd6b55719b7ff1a63e4e23ead2cb8767335c",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/czocha-castle-282.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.31 (4).jpeg",
-        "sourceSHA256": "d18e65af89928ee0d1e0b0b6109866451a799229d6d1307ae013b1b940ba60bc",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/czocha-castle-284.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.32 (1).jpeg",
         "sourceSHA256": "26cf3c0f44c434c5a1375dbccc3cfa0d195e7e5640223b702971e874f37296ad",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-285.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.32 (2).jpeg",
-        "sourceSHA256": "7e6436d608f0a212c9a315246fcbaa1c880c5a414a500b76e82437a10771d1b2",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-286.jpg": {
@@ -5119,12 +5931,6 @@
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.33.jpeg",
         "sourceSHA256": "9c85690389d713bd07f8ecb578a645bf1b7fa25c63648d4fb04b1ed8646827df",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/czocha-castle-294.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.34 (1).jpeg",
-        "sourceSHA256": "6a04292abd20388c78076dd38f46d68e7195aa3f20a38addd83049cbe753d3d6",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/czocha-castle-295.jpg": {
@@ -5268,11 +6074,8 @@
   "media": {
     "photos": [
       "/assets/czocha-boleslawiec/lesnianska-dam-093.jpg",
-      "/assets/czocha-boleslawiec/lesnianska-dam-095.jpg",
       "/assets/czocha-boleslawiec/lesnianska-dam-096.jpg",
-      "/assets/czocha-boleslawiec/lesnianska-dam-125.jpg",
-      "/assets/czocha-boleslawiec/lesnianska-dam-126.jpg",
-      "/assets/czocha-boleslawiec/lesnianska-dam-127.jpg"
+      "/assets/czocha-boleslawiec/lesnianska-dam-126.jpg"
     ],
     "videos": [
       "https://youtube.com/shorts/uFeL9yIz0VM"
@@ -5284,34 +6087,16 @@
         "sourceSHA256": "93dacdfeacd9798017a43369aa2dbe59a340c5aa2a2cb97496eef3a9ed1d3a63",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/lesnianska-dam-095.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.36 (4).jpeg",
-        "sourceSHA256": "3518b3ca1f0b337eb346e89793a259cfeeea0b29dbab3996bdb63c50e9954876",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/lesnianska-dam-096.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.36 (5).jpeg",
         "sourceSHA256": "7a6b00c06423af53bef3416a8a1f4290624291f9ca6ef5274aca920a726658ea",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/lesnianska-dam-125.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (17).jpeg",
-        "sourceSHA256": "b3731d964bb224d1e685d7b1fd3bc5ae1047e60d69c2977ba4498d992e1abe49",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/lesnianska-dam-126.jpg": {
         "original": true,
         "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (18).jpeg",
         "sourceSHA256": "9170e075d6a7917319279bd9ddb428d50d98dbc5c0598e289f80b19cba8bb3dd",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/lesnianska-dam-127.jpg": {
-        "original": true,
-        "sourceFile": "Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (19).jpeg",
-        "sourceSHA256": "58361d840c1b7f3d4bfb1a884929009804770ed0906f81e475229a96d7ff1559",
         "visitCategory": "place-visit"
       },
       "https://youtube.com/shorts/uFeL9yIz0VM": {

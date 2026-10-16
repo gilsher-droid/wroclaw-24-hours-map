@@ -16,7 +16,7 @@ test('Fourth excursion preserves castle overnight and breakfast before the morni
 });
 test('New route photos are traceable, unique, unmodified optimized assets with family material held',()=>{
  const w=load(),proof=JSON.parse(readFileSync('data/czocha-boleslawiec-media-provenance.json','utf8'));
- assert.equal(proof.familyPhotosAllowed,false);assert.ok(proof.held.length>0);assert.ok(proof.photos.length>250);
+ assert.equal(proof.familyPhotosAllowed,false);assert.ok(proof.held.length>0);assert.ok(proof.photos.length>0);assert.equal(proof.photos.length,['czocha-castle','lesnianska-dam','boleslawiec-old-town','boleslawiec-ceramics-museum'].reduce((n,id)=>n+w.WROC_CATALOG.getPlace(id).media.photos.length,0));
  assert.equal(new Set(proof.photos.map(p=>p.sourceSHA256)).size,proof.photos.length);
  const held=new Set(proof.held.map(p=>p.sha256));
  for(const photo of proof.photos){assert.equal(held.has(photo.sourceSHA256),false);assert.ok(w.WROC_CATALOG.getPlace(photo.placeId).media.photos.includes(photo.asset));assert.equal(createHash('sha256').update(readFileSync(photo.asset.slice(1))).digest('hex'),photo.assetSHA256);}
