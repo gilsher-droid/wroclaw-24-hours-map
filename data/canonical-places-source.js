@@ -2762,12 +2762,14 @@
     }
   },
   "media": {
-    "guideVideos": {"he": "https://youtube.com/shorts/gQlJjc241gk", "en": "https://youtube.com/shorts/4WgaQo6HmWg"},
+    "guideVideos": {
+      "he": "https://youtube.com/shorts/gQlJjc241gk",
+      "en": "https://youtube.com/shorts/4WgaQo6HmWg"
+    },
     "photos": [
       "/assets/excursion-three/karpacz-centre-01.jpg",
       "/assets/excursion-three/karpacz-centre-02.jpg",
       "/assets/excursion-three/karpacz-centre-03.jpg",
-      "/assets/excursion-three/karpacz-centre-04.jpg",
       "/assets/excursion-three/karpacz-centre-05.jpg",
       "/assets/excursion-three/karpacz-centre-06.jpg",
       "/assets/excursion-three/karpacz-centre-07.jpg",
@@ -2776,16 +2778,13 @@
       "/assets/excursion-three/karpacz-centre-10.jpg",
       "/assets/excursion-three/karpacz-centre-11.jpg",
       "/assets/excursion-three/karpacz-centre-12.jpg",
-      "/assets/excursion-three/karpacz-centre-13.jpg",
       "/assets/excursion-three/karpacz-centre-14.jpg",
       "/assets/excursion-three/karpacz-centre-15.jpg",
       "/assets/excursion-three/karpacz-centre-16.jpg",
       "/assets/excursion-three/karpacz-centre-17.jpg",
       "/assets/excursion-three/karpacz-centre-18.jpg",
       "/assets/excursion-three/karpacz-centre-19.jpg",
-      "/assets/excursion-three/karpacz-centre-20.jpg",
-      "/assets/excursion-three/karpacz-centre-21.jpg",
-      "/assets/excursion-three/karpacz-centre-22.jpg"
+      "/assets/excursion-three/karpacz-centre-20.jpg"
     ],
     "videos": [
       "https://youtube.com/shorts/j3ORWLifr1o",
@@ -2813,10 +2812,6 @@
       },
       "/assets/excursion-three/karpacz-centre-03.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14 (1).jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/karpacz-centre-04.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
         "original": true
       },
       "/assets/excursion-three/karpacz-centre-05.jpg": {
@@ -2851,10 +2846,6 @@
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
         "original": true
       },
-      "/assets/excursion-three/karpacz-centre-13.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
-        "original": true
-      },
       "/assets/excursion-three/karpacz-centre-14.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (3).jpeg",
         "original": true
@@ -2881,14 +2872,6 @@
       },
       "/assets/excursion-three/karpacz-centre-20.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (1).jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/karpacz-centre-21.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/karpacz-centre-22.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (6).jpeg",
         "original": true
       },
       "https://youtube.com/shorts/j3ORWLifr1o": {
@@ -3087,7 +3070,6 @@
     "photos": [
       "/assets/excursion-three/wang-church-01.jpg",
       "/assets/excursion-three/wang-church-02.jpg",
-      "/assets/excursion-three/wang-church-03.jpg",
       "/assets/excursion-three/wang-church-05.jpg",
       "/assets/excursion-three/wang-church-06.jpg",
       "/assets/excursion-three/wang-church-07.jpg",
@@ -3133,10 +3115,6 @@
       },
       "/assets/excursion-three/wang-church-02.jpg": {
         "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.47.jpeg",
-        "original": true
-      },
-      "/assets/excursion-three/wang-church-03.jpg": {
-        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
         "original": true
       },
       "/assets/excursion-three/wang-church-05.jpg": {

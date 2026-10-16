@@ -6,7 +6,7 @@ import {runInNewContext} from 'node:vm';
 test('Personal excursion portraits remain outside canonical galleries and public artifacts',()=>{
  const excluded=JSON.parse(readFileSync('data/excursion-personal-photo-exclusions.json','utf8')).photos;
  const window={};runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window});
- assert.equal(excluded.length,6);
+ assert.equal(excluded.length,11);
  for(const photo of excluded){
   assert.equal(photo.excluded,true);
   assert.equal(existsSync(photo.asset.slice(1)),false,`public original copy must be removed: ${photo.asset}`);
