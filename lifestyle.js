@@ -164,7 +164,7 @@
   }
 
   function popupHtml(place) {
-    return `<strong>${escapeHtml(placeName(place))}</strong><br>${placeAmenities.labelBadgeHtml(place, language)}<span>${escapeHtml(local(place.description))}</span><div class="place-actions">${actionHtml(place)}</div>`;
+    return `${window.WROC_PLACE_POPUP_PHOTO.html(place,language)}<strong>${escapeHtml(placeName(place))}</strong><br>${placeAmenities.labelBadgeHtml(place, language)}<span>${escapeHtml(local(place.description))}</span><div class="place-actions">${actionHtml(place)}</div>`;
   }
 
   function fitResults(results) {

@@ -1,0 +1,6 @@
+.place-popup-photo-link { display:block; max-width:240px; margin:0 0 10px; border-radius:10px; overflow:hidden; }
+.place-popup-photo-link[hidden] { display:none; }
+.place-popup-photo { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:10px; }
+.place-popup-photo-link:focus-visible { outline:3px solid #d6a657; outline-offset:3px; }
+/* Keep navigation reachable when the photo makes a long popup taller. */
+.leaflet-popup-content:has(.place-popup-photo) { max-height:min(340px,calc(100vh - 160px)); overflow-y:auto; overscroll-behavior:contain; }
