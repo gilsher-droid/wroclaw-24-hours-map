@@ -2,16 +2,6 @@
   "checkedAt": "2026-10-16",
   "photos": [
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.10.06 (1).jpeg",
-      "sourceSHA256": "38291268ca8e03ee7a5cd3b323283a2eb4893aeb44f291b24bc664918ca60b6e",
-      "pixelSHA256": "238d8ae214c2dd72fbb4ec1ba63df5f32c8b60547ebd54635ea7de05a38df2f5",
-      "asset": "/assets/czocha-boleslawiec/czocha-castle-107.jpg",
-      "assetSHA256": "a055fd3a4711e204fd90e852aeba1bdaf61cc70dae3073cf048d9c1f1cfe36d6",
-      "placeId": "czocha-castle",
-      "originalIndex": 107,
-      "category": "place-visit"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.31.jpeg",
       "sourceSHA256": "0e4dd548b2f0432de64a9726d581b9d63c58840f75e4a72f9bdcdbaec08457d6",
       "pixelSHA256": "8ef713739e05eb0d23057b8afb39b0c2e2937b827c43363e27b90c16dbe8e10f",
@@ -129,16 +119,6 @@
       "assetSHA256": "6928472a6141498814e5d181d682b7c9b9ee8e72122b27f375d9069602907099",
       "placeId": "czocha-castle",
       "originalIndex": 135,
-      "category": "place-visit"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (28).jpeg",
-      "sourceSHA256": "235e02db6a0a73337d8e6548a1410528341d0efcb8b1c9637ac53963dfeb8c54",
-      "pixelSHA256": "7d6f1f9b536b985a749e5cad0471ec7df0074b1ae8ee36c1997273efa0e0e433",
-      "asset": "/assets/czocha-boleslawiec/czocha-castle-156.jpg",
-      "assetSHA256": "2e93117358fe5459bdda70eb83255a5e8e9ad2bdda92454d67298ba51ec3c845",
-      "placeId": "czocha-castle",
-      "originalIndex": 156,
       "category": "place-visit"
     },
     {
@@ -1012,16 +992,6 @@
       "category": "place-visit"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.11 (1).jpeg",
-      "sourceSHA256": "64818ed456903b2594d8e2dc983cfef752ebdb87ddc62e872264287c0ed18aa3",
-      "pixelSHA256": "6dd744e045dba55a4782a552fe1d96f04173779574b8e77271daac76f171e358",
-      "asset": "/assets/czocha-boleslawiec/czocha-castle-179.jpg",
-      "assetSHA256": "11f6400909d3b9ba5c3f8d6166d87e9cfb84c6988352b2a86a0f20aa1c29da29",
-      "placeId": "czocha-castle",
-      "originalIndex": 179,
-      "category": "place-visit"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.20 (1).jpeg",
       "sourceSHA256": "0ee00f4adeafac41b0386f986b03863c09f90cb3c7be2adca5dabaef907ad6a6",
       "pixelSHA256": "c4d55fa25cce9b32d890ddc8ba16912520a3e1c885bb1d64fcffa8c70f186eb1",
@@ -1162,16 +1132,6 @@
       "category": "place-visit"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (15).jpeg",
-      "sourceSHA256": "ca81f6160d5421775e8afcd716417cf86cf024a4702b6ea96622adc01079edbb",
-      "pixelSHA256": "c16ca991c8a168ecf7d508eca253051e67193ed4ad6c050f58dac66460b627f0",
-      "asset": "/assets/czocha-boleslawiec/czocha-castle-194.jpg",
-      "assetSHA256": "d21b3ca54c23ecb1020202a1a7685f2981306c92e7d373496365a5d8caff2b05",
-      "placeId": "czocha-castle",
-      "originalIndex": 194,
-      "category": "place-visit"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (16).jpeg",
       "sourceSHA256": "9b58801a97db71ccc42c22a9cadcc430fa8766e863a05aa120bf324956b8f347",
       "pixelSHA256": "7290eabe1c8ee5b25262cbd59329d650c1c35b4ea4d0c7d924ebb33106b9989e",
@@ -1179,16 +1139,6 @@
       "assetSHA256": "e6deace1aa12df2f17e6dcb6d06c054be2f3c490562165dc65b3fff9968a9351",
       "placeId": "czocha-castle",
       "originalIndex": 195,
-      "category": "place-visit"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (17).jpeg",
-      "sourceSHA256": "7579f326def7ed5af5b59d4fa127bfe37203db9db3c4c949f8b223d6a9aaffd8",
-      "pixelSHA256": "f0e647fc7991e4cc48048e8e3d140ec6e5e948de10970474787335d3040c69ce",
-      "asset": "/assets/czocha-boleslawiec/czocha-castle-196.jpg",
-      "assetSHA256": "51c08860748fed4588e1bb7add4247ccb25864271a0ca4cbaf757dadf301372a",
-      "placeId": "czocha-castle",
-      "originalIndex": 196,
       "category": "place-visit"
     },
     {
@@ -1532,16 +1482,6 @@
       "category": "place-visit"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.19 (3).jpeg",
-      "sourceSHA256": "5635c27325f9e03ae62c975485e0ddda7fec4bff9c6328a745989bcbe6219b7d",
-      "pixelSHA256": "e657523d9620f04d64e331b140b07f018b779bfc21c06f179f66d455aad149ea",
-      "asset": "/assets/czocha-boleslawiec/czocha-castle-237.jpg",
-      "assetSHA256": "0bc8d2b8e886cede3c7596f74e97dccdc9c19ae42f282cd6e152b180a374590a",
-      "placeId": "czocha-castle",
-      "originalIndex": 237,
-      "category": "place-visit"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.19.jpeg",
       "sourceSHA256": "5d4eee587f8ebc167d6ab3a8f88e070669f25dd746cf366174b1048061a8b070",
       "pixelSHA256": "0836908cd1ce25091b6334888c6ce89df47074e2ab3db6c7d3f99cb8431636db",
@@ -1649,16 +1589,6 @@
       "assetSHA256": "7250f719e2d38fd58238815e2fdbeff6e0dee2167ce53f606dc9db225a6f7097",
       "placeId": "czocha-castle",
       "originalIndex": 250,
-      "category": "place-visit"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.23 (3).jpeg",
-      "sourceSHA256": "902b9ff2ba9af309b62b476376db6adb37d3f7b24480bb26168461a0a6cdb265",
-      "pixelSHA256": "63a90c4aeb741770cbbcddddfd23b41bffce65c42223490ceb9655347752f3fd",
-      "asset": "/assets/czocha-boleslawiec/czocha-castle-252.jpg",
-      "assetSHA256": "5932a3913b123469c951813254fa6fdb472ba39497bf08fc148b76abe9ee277e",
-      "placeId": "czocha-castle",
-      "originalIndex": 252,
       "category": "place-visit"
     },
     {
@@ -1859,16 +1789,6 @@
       "assetSHA256": "e3d559891d92c45551efa0e2090ddb117c7b2d25ab975302fce700f3f92dd10e",
       "placeId": "czocha-castle",
       "originalIndex": 274,
-      "category": "place-visit"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.30 (2).jpeg",
-      "sourceSHA256": "33c43e50057127d59c2bc32ccf3961877f23da2c4a54d58e6dd562013dd2d49b",
-      "pixelSHA256": "120c00dd4039fd4ce9a5c04ee98693ffa7743a3e4029db3747f76b414e379579",
-      "asset": "/assets/czocha-boleslawiec/czocha-castle-275.jpg",
-      "assetSHA256": "e35785f4d87f1d886c1ac2936b637debd96fb2573d46bfb6745e190f959c799d",
-      "placeId": "czocha-castle",
-      "originalIndex": 275,
       "category": "place-visit"
     },
     {
@@ -2692,16 +2612,6 @@
       "category": "place-visit"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.24.jpeg",
-      "sourceSHA256": "58f6f8dc9c666f17f9223095fc9dd2b1ac5106bf80a97c9d82db0b9d560ec7a6",
-      "pixelSHA256": "e61809795b5e11ee7e8f2636d23bec1c092548e9e51c25a4c25136c2177b7511",
-      "asset": "/assets/czocha-boleslawiec/boleslawiec-old-town-083.jpg",
-      "assetSHA256": "67ae221ff17de13d0713a5ffe42bd5259d06e79594bca7029846dfcc3d470504",
-      "placeId": "boleslawiec-old-town",
-      "originalIndex": 83,
-      "category": "place-visit"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.25.jpeg",
       "sourceSHA256": "8cc7d29d6ad881f6e5b49b4425e407b4ed28185180dd1ce49800b77056add0ff",
       "pixelSHA256": "51f986880f422514ff992cef165802bc8725ca5fc06162e53c631c5a6364d870",
@@ -2809,16 +2719,6 @@
       "assetSHA256": "b9d8d07238ec4085fbe68a092adf774d8ba0afd7c848fa38fa5c3f9311626cf3",
       "placeId": "boleslawiec-old-town",
       "originalIndex": 105,
-      "category": "place-visit"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (4).jpeg",
-      "sourceSHA256": "1c9fab2027ba938d4d90a0ce537f4f954946896ceed51b7690dcce3fc458701d",
-      "pixelSHA256": "a12470ebd0ad7776ff9d8fbbc72a2cf27791d6aa6ca68f0b57e1bb539d264f01",
-      "asset": "/assets/czocha-boleslawiec/boleslawiec-old-town-106.jpg",
-      "assetSHA256": "54aaf8c610c5a0068b34eb42320e37fd94d14e4bf3c9cac4dd7c4627a548da47",
-      "placeId": "boleslawiec-old-town",
-      "originalIndex": 106,
       "category": "place-visit"
     },
     {
@@ -3329,16 +3229,6 @@
       "assetSHA256": "f0db4f24167c6d7aeebeb0497cc10d6e41d3e09e7cacac01e005345d9ad11870",
       "placeId": "boleslawiec-ceramics-museum",
       "originalIndex": 120,
-      "category": "place-visit"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (7).jpeg",
-      "sourceSHA256": "2b0b070ce4ca20fc908a1d96fff5b2c023dfef8cc19e705770dd3844503a70b1",
-      "pixelSHA256": "452181f744027b7e3ba16000e0c5dc2601d6062a2538446dc1a953d34e1a5b37",
-      "asset": "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-121.jpg",
-      "assetSHA256": "98e2c1f78b5a85a5310e79629ae8f313fa7e7f23f1dc8f58efb366d4b2ffb66f",
-      "placeId": "boleslawiec-ceramics-museum",
-      "originalIndex": 121,
       "category": "place-visit"
     },
     {
@@ -4232,6 +4122,72 @@
       "group": "boleslawiec",
       "index": 143,
       "reason": "Personal/family, uncertain exact place, secondary or low-quality frame; not published"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.10.06 (1).jpeg",
+      "sha256": "38291268ca8e03ee7a5cd3b323283a2eb4893aeb44f291b24bc664918ca60b6e",
+      "index": 107,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.21 (28).jpeg",
+      "sha256": "235e02db6a0a73337d8e6548a1410528341d0efcb8b1c9637ac53963dfeb8c54",
+      "index": 156,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.11 (1).jpeg",
+      "sha256": "64818ed456903b2594d8e2dc983cfef752ebdb87ddc62e872264287c0ed18aa3",
+      "index": 179,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (15).jpeg",
+      "sha256": "ca81f6160d5421775e8afcd716417cf86cf024a4702b6ea96622adc01079edbb",
+      "index": 194,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.21 (17).jpeg",
+      "sha256": "7579f326def7ed5af5b59d4fa127bfe37203db9db3c4c949f8b223d6a9aaffd8",
+      "index": 196,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.19 (3).jpeg",
+      "sha256": "5635c27325f9e03ae62c975485e0ddda7fec4bff9c6328a745989bcbe6219b7d",
+      "index": 237,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.23 (3).jpeg",
+      "sha256": "902b9ff2ba9af309b62b476376db6adb37d3f7b24480bb26168461a0a6cdb265",
+      "index": 252,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.30 (2).jpeg",
+      "sha256": "33c43e50057127d59c2bc32ccf3961877f23da2c4a54d58e6dd562013dd2d49b",
+      "index": 275,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.24.jpeg",
+      "sha256": "58f6f8dc9c666f17f9223095fc9dd2b1ac5106bf80a97c9d82db0b9d560ec7a6",
+      "index": 83,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (4).jpeg",
+      "sha256": "1c9fab2027ba938d4d90a0ce537f4f954946896ceed51b7690dcce3fc458701d",
+      "index": 106,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (7).jpeg",
+      "sha256": "2b0b070ce4ca20fc908a1d96fff5b2c023dfef8cc19e705770dd3844503a70b1",
+      "index": 121,
+      "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
     }
   ],
   "userEvidence": {
@@ -4242,5 +4198,10 @@
     "appleCakeMenuNameUnconfirmed": true,
     "guidesDeferredToStage2": true
   },
-  "familyPhotosAllowed": false
+  "familyPhotosAllowed": false,
+  "finalPrivacyReview": {
+    "date": "2026-10-16",
+    "allSelectedPhotosReinspected": true,
+    "additionalPersonalOrUncertainHeld": 11
+  }
 }
