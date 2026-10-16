@@ -13,6 +13,7 @@ test('Third excursion preserves the human visit order with Wang separate from Ka
  assert.equal(trip.travel.segments.filter(x=>x.mode==='walking').length,2);
  assert.equal(trip.travel.estimates.length,0,'No invented drive-time estimates');
  assert.match(trip.navigation.googleMaps,/travelmode=driving/);
+ assert.deepEqual(Object.keys(w.WROC_CATALOG.getPlace('jawor-church-of-peace').media.guideVideos),['he','en']);
  for(const id of ids){const p=w.WROC_CATALOG.getPlace(id);assert.equal(p.location.regionId,'lower-silesia');assert.ok(p.media.photos.length>0);}
  for(const id of ids.slice(3))assert.equal(w.WROC_CATALOG.getPlace(id).media.guideVideos,undefined,'No fabricated guide badge');
 });
@@ -21,4 +22,16 @@ test('Excursion photos have unique verified source hashes and intact optimized a
  assert.equal(photos.length,142);assert.equal(new Set(photos.map(x=>x.sha256)).size,photos.length);
  for(const photo of photos){assert.ok(w.WROC_CATALOG.getPlace(photo.place).media.photos.includes(photo.asset));const f=photo.asset.slice(1);assert.ok(existsSync(f));assert.equal(createHash('sha256').update(readFileSync(f)).digest('hex'),photo.outputSHA256);assert.ok(!photo.source.includes('פספוסים'));}
  assert.ok(provenance.duplicates.length>0);assert.equal(provenance.excluded.filter(x=>x.excluded).length,1);
+});
+
+test('Jawor guides keep published native captions and source timing for all five languages',()=>{
+ const proof=JSON.parse(readFileSync('data/jawor-guide-caption-provenance.json'));
+ for(const lang of ['he','en','pl','de','cs']){const track=proof.tracks[lang];assert.equal(track.status,'Published');assert.equal(track.edition,lang==='he'?'he':'en');const edition=proof.editions[track.edition];assert.equal(edition.visibility,'Public');assert.match(edition.sourceSHA256,/^[a-f0-9]{64}$/);assert.equal(createHash('sha256').update(readFileSync(track.srtFile)).digest('hex'),track.srtSHA256);let end=0;for(const cue of track.cues){assert.ok(cue.start>=end&&cue.end>cue.start&&cue.end<=edition.durationSeconds);end=cue.end;}}
+});
+test('All 44 distinct visit clips resolve to verified Public YouTube entries without raw website videos',()=>{
+ const w=load(),provenance=JSON.parse(readFileSync('data/excursion-three-visit-provenance.json'));const registry=JSON.parse(readFileSync('data/youtube-media-migration.json'));
+ assert.equal(provenance.visits.length,44);assert.equal(new Set(provenance.visits.map(x=>x.youtube)).size,44);
+ const expected={'jawor-church-of-peace':1,'karpacz-centre':13,'wang-church':23,'jelenia-gora-market-square':7};
+ for(const [id,count]of Object.entries(expected))assert.equal(w.WROC_CATALOG.getPlace(id).media.videos.length,count);
+ for(const row of provenance.visits){assert.equal(row.visibility,'Public');assert.equal(row.checks,'completed, no issues');assert.match(row.youtube,/^https:\/\/youtube.com\/shorts\/[A-Za-z0-9_-]{11}$/);assert.ok(w.WROC_CATALOG.getPlace(row.place).media.videos.includes(row.youtube));assert.equal(registry[row.registryKey].status,'public');assert.equal(registry[row.registryKey].youtube,row.youtube);assert.equal(registry[row.registryKey].sourceSHA256,row.sourceSHA256);assert.ok(!existsSync(row.registryKey.slice(1)),'Registry alias must not create a raw website video');}
 });

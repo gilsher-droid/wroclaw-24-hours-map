@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "jawor-church-of-peace"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/המדריך שלנו/המדריך שלנו בעברית.mp4",
+      "sourceSHA256": "20e6f0d358b8c20f3b4a366cbfc730b550b4eb0a0d01629490507cc37640f9b0",
+      "uploadSHA256": "20e6f0d358b8c20f3b4a366cbfc730b550b4eb0a0d01629490507cc37640f9b0",
+      "videoId": "NovPV4iArX8",
+      "visibility": "Public",
+      "durationSeconds": 134.678333,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/המדריך שלנו/המדריך שלנו באנגלית.mp4",
+      "sourceSHA256": "423426484b09c87a24ff813499b8034f1f69f67d76339161aff06a5ec386322d",
+      "uploadSHA256": "423426484b09c87a24ff813499b8034f1f69f67d76339161aff06a5ec386322d",
+      "videoId": "JAXpHFfZH74",
+      "visibility": "Public",
+      "durationSeconds": 139.2,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "assets/captions/jawor-church-of-peace-he.srt",
+      "srtSHA256": "86c2c7d051d095d0ee1710e19e15de08d4e8846798553a20d5fb43b3c9f6af37",
+      "cues": [
+        {
+          "start": 2.2,
+          "end": 11.68,
+          "text": "צ׳שץ׳, ג׳ין דוברי. היום אנחנו ביום טיול מוורוצלב שמתחיל בעיירה יאבור."
+        },
+        {
+          "start": 12.22,
+          "end": 22.5,
+          "text": "מה שאתם רואים מאחוריי הוא למעשה כנסייה שעשויה מעץ. אנחנו בדיוק יצאנו מתוך הכנסייה הזאת."
+        },
+        {
+          "start": 22.5,
+          "end": 29.5,
+          "text": "ואני יכול להגיד לכם שכשתיכנסו, תהיו מופתעים מאוד ממה שתראו בפנים."
+        },
+        {
+          "start": 30.46,
+          "end": 37.78,
+          "text": "מדובר באחת משלוש כנסיות בפולין שהן חלק מאתר המורשת של אונסק״ו."
+        },
+        {
+          "start": 38.14,
+          "end": 48.98,
+          "text": "כנסיות עץ: אחת יש בשווידניצה, אחת כאן ביאבור, ועוד אחת שלא שרדה, במקום שנקרא גלוגוב."
+        },
+        {
+          "start": 50.16,
+          "end": 54.74,
+          "text": "הסיפור מאחורי הכנסיות האלה מאוד מעניין. קודם כול, הן נקראות כנסיות השלום."
+        },
+        {
+          "start": 55.74,
+          "end": 64.9,
+          "text": "מדוע כנסיות השלום? מכיוון שהן נבנו כחלק מהסכם השלום שנחתם בווסטפליה אחרי מלחמת שלושים השנים."
+        },
+        {
+          "start": 65.14,
+          "end": 72.32,
+          "text": "מלחמת שלושים השנים הייתה מלחמה עקובה מדם, בין השנים 1618 ל־1648,"
+        },
+        {
+          "start": 73.74,
+          "end": 81.66,
+          "text": "בין מחוזות, דוכסויות ונסיכויות שונות, שכולן היו תחת האימפריה הרומית הקדושה."
+        },
+        {
+          "start": 81.66,
+          "end": 91.1,
+          "text": "האימפריה הרומית הקדושה הייתה אימפריה קתולית, אבל היא כבשה מקומות שבהם אנשים היו לותרנים או פרוטסטנטים,"
+        },
+        {
+          "start": 91.38,
+          "end": 93.52,
+          "text": "שזה זרם שונה של הנצרות."
+        },
+        {
+          "start": 94.2,
+          "end": 102.08,
+          "text": "ולכן המלחמה הזו הובילה לכך שהשליט שלה, פרדיננד השלישי, הסכים"
+        },
+        {
+          "start": 102.18,
+          "end": 106.66,
+          "text": "שייבנו שלוש כנסיות לטובת התושבים הפרוטסטנטים,"
+        },
+        {
+          "start": 106.96,
+          "end": 114.2,
+          "text": "ובתנאי שייבנו אך ורק מעץ וחומר מתכלה, מחוץ לחומות העיר,"
+        },
+        {
+          "start": 114.36,
+          "end": 117.46,
+          "text": "ושייבנו תוך שנה אחת בלבד."
+        },
+        {
+          "start": 117.76,
+          "end": 120.42,
+          "text": "וכך נבנו שלוש הכנסיות שהזכרתי,"
+        },
+        {
+          "start": 121.08,
+          "end": 125.22,
+          "text": "ביניהן הכנסייה המדהימה הזאת שנמצאת מאחוריי ביאבור."
+        },
+        {
+          "start": 126.16,
+          "end": 129.84,
+          "text": "ואני ממליץ לכולם לבוא לבקר ולהתרשם."
+        },
+        {
+          "start": 130.48,
+          "end": 131.62,
+          "text": "מקום מדהים."
+        },
+        {
+          "start": 132.46,
+          "end": 133.34,
+          "text": "דו וידזניה."
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "assets/captions/jawor-church-of-peace-en.srt",
+      "srtSHA256": "d606a0acacaf307b44735caaaff4fd945c182898bb825230dfb4a8efb5773fc0",
+      "cues": [
+        {
+          "start": 3.14,
+          "end": 10.7,
+          "text": "Today we started a day trip from Wrocław. Our first stop is the city of Jawor."
+        },
+        {
+          "start": 11.3,
+          "end": 19.1,
+          "text": "Behind me you can see a large wooden structure, the Church of Peace in Jawor."
+        },
+        {
+          "start": 20.24,
+          "end": 24.9,
+          "text": "There is another Church of Peace in Lower Silesia, in Świdnica."
+        },
+        {
+          "start": 24.9,
+          "end": 29.36,
+          "text": "There was a third one, which was destroyed in a fire."
+        },
+        {
+          "start": 30.0,
+          "end": 34.1,
+          "text": "The story behind these wooden churches is quite amazing."
+        },
+        {
+          "start": 35.22,
+          "end": 42.54,
+          "text": "This church was built in 1654 and 1655."
+        },
+        {
+          "start": 43.54,
+          "end": 57.82,
+          "text": "It was built using timber because the Holy Roman Empire, which conquered this area, was a Catholic empire."
+        },
+        {
+          "start": 58.5,
+          "end": 63.02,
+          "text": "However, the people in these places were Lutherans, or Protestants."
+        },
+        {
+          "start": 63.02,
+          "end": 71.96,
+          "text": "This ignited a war between the Protestant people under the Holy Roman Empire"
+        },
+        {
+          "start": 73.1,
+          "end": 80.94,
+          "text": "and the Catholics. The war lasted thirty years, from 1618 to 1648."
+        },
+        {
+          "start": 81.82,
+          "end": 87.94,
+          "text": "At the end, a peace agreement was signed, called the Peace of Westphalia."
+        },
+        {
+          "start": 87.94,
+          "end": 99.94,
+          "text": "As part of it, Emperor Ferdinand III agreed that the Protestants could build their own churches, with some restrictions."
+        },
+        {
+          "start": 100.52,
+          "end": 107.22,
+          "text": "The church had to be built outside the city walls and made of wood or timber."
+        },
+        {
+          "start": 107.98,
+          "end": 110.54,
+          "text": "It also had to be built within one year."
+        },
+        {
+          "start": 110.54,
+          "end": 122.66,
+          "text": "These limitations gave birth to a wonderful invention, a wonderfully creative church,"
+        },
+        {
+          "start": 124.22,
+          "end": 134.42,
+          "text": "such as this amazing church. I recommend going inside. You will be amazed by its interior."
+        },
+        {
+          "start": 135.28,
+          "end": 137.84,
+          "text": "See you soon. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "assets/captions/jawor-church-of-peace-de.srt",
+      "srtSHA256": "27ee133ac5aba87afbd1f0df7ac0740c31a131edcf423f4bec1391c8c260d115",
+      "cues": [
+        {
+          "start": 3.14,
+          "end": 10.7,
+          "text": "Heute sind wir zu einem Tagesausflug ab Wrocław aufgebrochen. Unser erster Halt ist die Stadt Jawor."
+        },
+        {
+          "start": 11.3,
+          "end": 19.1,
+          "text": "Hinter mir sehen Sie einen großen Holzbau, die Friedenskirche in Jawor."
+        },
+        {
+          "start": 20.24,
+          "end": 24.9,
+          "text": "Eine weitere Friedenskirche in Niederschlesien steht in Świdnica."
+        },
+        {
+          "start": 24.9,
+          "end": 29.36,
+          "text": "Es gab eine dritte, die bei einem Brand zerstört wurde."
+        },
+        {
+          "start": 30.0,
+          "end": 34.1,
+          "text": "Die Geschichte dieser Holzkirchen ist erstaunlich."
+        },
+        {
+          "start": 35.22,
+          "end": 42.54,
+          "text": "Diese Kirche wurde 1654 und 1655 gebaut."
+        },
+        {
+          "start": 43.54,
+          "end": 57.82,
+          "text": "Sie wurde aus Holz gebaut, weil das Heilige Römische Reich, das dieses Gebiet erobert hatte, katholisch war."
+        },
+        {
+          "start": 58.5,
+          "end": 63.02,
+          "text": "Die Menschen hier waren jedoch Lutheraner oder Protestanten."
+        },
+        {
+          "start": 63.02,
+          "end": 71.96,
+          "text": "Das führte zu einem Krieg zwischen den Protestanten unter dem Heiligen Römischen Reich"
+        },
+        {
+          "start": 73.1,
+          "end": 80.94,
+          "text": "und den Katholiken. Dieser Krieg dauerte dreißig Jahre, von 1618 bis 1648."
+        },
+        {
+          "start": 81.82,
+          "end": 87.94,
+          "text": "Am Ende wurde ein Friedensvertrag geschlossen, der Westfälische Frieden."
+        },
+        {
+          "start": 87.94,
+          "end": 99.94,
+          "text": "Darin erlaubte Kaiser Ferdinand III. den Protestanten, eigene Kirchen zu bauen, allerdings unter Einschränkungen."
+        },
+        {
+          "start": 100.52,
+          "end": 107.22,
+          "text": "Die Kirche musste außerhalb der Stadtmauern stehen und aus Holz gebaut sein."
+        },
+        {
+          "start": 107.98,
+          "end": 110.54,
+          "text": "Außerdem musste sie innerhalb eines Jahres fertig werden."
+        },
+        {
+          "start": 110.54,
+          "end": 122.66,
+          "text": "Diese Einschränkungen brachten eine wunderbare, kreative Lösung hervor,"
+        },
+        {
+          "start": 124.22,
+          "end": 134.42,
+          "text": "wie diese erstaunliche Kirche. Ich empfehle einen Besuch im Inneren. Sie werden begeistert sein."
+        },
+        {
+          "start": 135.28,
+          "end": 137.84,
+          "text": "Bis bald. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "assets/captions/jawor-church-of-peace-cs.srt",
+      "srtSHA256": "2947d661f58cba9e9a6ca1d3bdc30aa07548abe36cf8f0da7cd730435e916c66",
+      "cues": [
+        {
+          "start": 3.14,
+          "end": 10.7,
+          "text": "Dnes jsme vyrazili na jednodenní výlet z Vratislavi. První zastávkou je město Jawor."
+        },
+        {
+          "start": 11.3,
+          "end": 19.1,
+          "text": "Za mnou vidíte velkou dřevěnou stavbu, Kostel míru v Jaworu."
+        },
+        {
+          "start": 20.24,
+          "end": 24.9,
+          "text": "Další Kostel míru v Dolním Slezsku stojí ve Svídnici."
+        },
+        {
+          "start": 24.9,
+          "end": 29.36,
+          "text": "Existoval i třetí, který zničil požár."
+        },
+        {
+          "start": 30.0,
+          "end": 34.1,
+          "text": "Příběh těchto dřevěných kostelů je pozoruhodný."
+        },
+        {
+          "start": 35.22,
+          "end": 42.54,
+          "text": "Tento kostel byl postaven v letech 1654 a 1655."
+        },
+        {
+          "start": 43.54,
+          "end": 57.82,
+          "text": "Byl postaven ze dřeva, protože Svatá říše římská, která tuto oblast dobyla, byla katolická."
+        },
+        {
+          "start": 58.5,
+          "end": 63.02,
+          "text": "Zdejší obyvatelé však byli luteráni neboli protestanti."
+        },
+        {
+          "start": 63.02,
+          "end": 71.96,
+          "text": "To vyvolalo válku mezi protestanty pod nadvládou Svaté říše římské"
+        },
+        {
+          "start": 73.1,
+          "end": 80.94,
+          "text": "a katolíky. Válka trvala třicet let, od roku 1618 do roku 1648."
+        },
+        {
+          "start": 81.82,
+          "end": 87.94,
+          "text": "Nakonec byla podepsána mírová dohoda nazývaná vestfálský mír."
+        },
+        {
+          "start": 87.94,
+          "end": 99.94,
+          "text": "Císař Ferdinand III. v ní protestantům povolil stavět vlastní kostely, ovšem s několika omezeními."
+        },
+        {
+          "start": 100.52,
+          "end": 107.22,
+          "text": "Kostel musel stát za městskými hradbami a být postaven ze dřeva."
+        },
+        {
+          "start": 107.98,
+          "end": 110.54,
+          "text": "Musel být také dokončen během jediného roku."
+        },
+        {
+          "start": 110.54,
+          "end": 122.66,
+          "text": "Tato omezení dala vzniknout úžasnému a tvořivému řešení,"
+        },
+        {
+          "start": 124.22,
+          "end": 134.42,
+          "text": "jakým je tento nádherný kostel. Doporučuji jít dovnitř. Jeho interiér vás ohromí."
+        },
+        {
+          "start": 135.28,
+          "end": 137.84,
+          "text": "Brzy na viděnou. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "assets/captions/jawor-church-of-peace-pl.srt",
+      "srtSHA256": "0a1d8684183cf02c6709e90320473930153d47f865e93298e5f48fc86e75db13",
+      "cues": [
+        {
+          "start": 3.14,
+          "end": 10.7,
+          "text": "Dziś wyruszyliśmy na jednodniową wycieczkę z Wrocławia. Naszym pierwszym przystankiem jest Jawor."
+        },
+        {
+          "start": 11.3,
+          "end": 19.1,
+          "text": "Za mną widać dużą drewnianą budowlę, Kościół Pokoju w Jaworze."
+        },
+        {
+          "start": 20.24,
+          "end": 24.9,
+          "text": "Drugi Kościół Pokoju na Dolnym Śląsku znajduje się w Świdnicy."
+        },
+        {
+          "start": 24.9,
+          "end": 29.36,
+          "text": "Był też trzeci, który spłonął w pożarze."
+        },
+        {
+          "start": 30.0,
+          "end": 34.1,
+          "text": "Historia tych drewnianych kościołów jest niezwykła."
+        },
+        {
+          "start": 35.22,
+          "end": 42.54,
+          "text": "Ten kościół zbudowano w latach 1654 i 1655."
+        },
+        {
+          "start": 43.54,
+          "end": 57.82,
+          "text": "Użyto drewna, ponieważ Święte Cesarstwo Rzymskie, które podbiło ten obszar, było katolickie."
+        },
+        {
+          "start": 58.5,
+          "end": 63.02,
+          "text": "Jednak tutejsi mieszkańcy byli luteranami, czyli protestantami."
+        },
+        {
+          "start": 63.02,
+          "end": 71.96,
+          "text": "Doprowadziło to do wojny między protestantami podlegającymi Świętemu Cesarstwu Rzymskiemu"
+        },
+        {
+          "start": 73.1,
+          "end": 80.94,
+          "text": "a katolikami. Wojna trwała trzydzieści lat, od 1618 do 1648 roku."
+        },
+        {
+          "start": 81.82,
+          "end": 87.94,
+          "text": "Na końcu podpisano porozumienie pokojowe zwane pokojem westfalskim."
+        },
+        {
+          "start": 87.94,
+          "end": 99.94,
+          "text": "W jego ramach cesarz Ferdynand III zgodził się na budowę kościołów protestanckich, ale z pewnymi ograniczeniami."
+        },
+        {
+          "start": 100.52,
+          "end": 107.22,
+          "text": "Kościół musiał powstać poza murami miasta i być zbudowany z drewna."
+        },
+        {
+          "start": 107.98,
+          "end": 110.54,
+          "text": "Musiał też zostać wzniesiony w ciągu jednego roku."
+        },
+        {
+          "start": 110.54,
+          "end": 122.66,
+          "text": "Te ograniczenia dały początek wspaniałemu, twórczemu rozwiązaniu,"
+        },
+        {
+          "start": 124.22,
+          "end": 134.42,
+          "text": "takiemu jak ten niezwykły kościół. Polecam wejść do środka. Wnętrze was zachwyci."
+        },
+        {
+          "start": 135.28,
+          "end": 137.84,
+          "text": "Do zobaczenia. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    }
+  },
+  "transcription": "Local source-audio ASR with manual spelling cleanup; translations follow actual guide narrative and source timing",
+  "sourceNarrativeNote": "Captions preserve spoken narrative; no new historical claims are added to the route copy."
+}

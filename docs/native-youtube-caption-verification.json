@@ -157,6 +157,25 @@
       },
       "verifiedAt": "2026-10-15",
       "method": "Native YouTube Studio Published tracks; exact manual SRT with source timing"
+    },
+    {
+      "place": "jawor-church-of-peace",
+      "videos": {
+        "he": "NovPV4iArX8",
+        "en": "JAXpHFfZH74"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio source-manual Published rows and DE/PL/CS Published table; source-timed SRTs"
     }
   ]
 }

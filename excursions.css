@@ -81,6 +81,7 @@ h2 { margin:0; font:700 clamp(32px,4vw,50px)/1.15 Georgia,serif; }
 .visit-gallery { margin-top:20px; }
 .visit-gallery summary { cursor:pointer; font-weight:700; padding-block:12px; }
 .visit-gallery .photo-strip img { height:135px; }
+.visit-video-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr)); gap:16px; }
 .photo-strip a:focus-visible { outline:3px solid #2578bd; outline-offset:3px; }
 .place-actions { display:flex; gap:8px; flex-wrap:wrap; margin-top:22px; }
 .place-actions a { padding:10px 13px; border:1px solid var(--line); border-radius:12px; font-weight:800; text-decoration:none; }
