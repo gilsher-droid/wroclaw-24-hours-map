@@ -6,7 +6,7 @@ import { runInNewContext } from "node:vm";
 
 const root = process.cwd();
 
-test("day-trip product includes both routes and reuses canonical places in five languages", () => {
+test("day-trip product includes three routes and reuses canonical places in five languages", () => {
   const window = {};
   const context = { window, console };
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
@@ -15,8 +15,8 @@ test("day-trip product includes both routes and reuses canonical places in five 
   const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
   assert.equal(product.id, "lower-silesia-excursions");
   assert.equal(product.type, "excursions");
-  assert.equal(product.excursions.length, 2);
-  const expectedPlaces = ["ksiaz-castle", "walbrzych-market-square", "church-of-peace-swidnica", "brzeg-castle", "brzeg-holy-cross-church", "brzeg-town-hall", "brzeg-oder-gate", "moszna-castle", "moszna-castle-park"];
+  assert.equal(product.excursions.length, 3);
+  const expectedPlaces = ["ksiaz-castle", "walbrzych-market-square", "church-of-peace-swidnica", "brzeg-castle", "brzeg-holy-cross-church", "brzeg-town-hall", "brzeg-oder-gate", "moszna-castle", "moszna-castle-park", "jawor-church-of-peace", "jawor-market-square", "jawor-piast-castle", "karpacz-centre", "wang-church", "jelenia-gora-market-square"];
   assert.deepEqual(Array.from(product.canonicalPlaceIds), expectedPlaces);
   assert.deepEqual(Object.keys(product.title), ["he", "en", "pl", "de", "cs"]);
   assert.deepEqual(Object.keys(product.excursions[0].title), ["he", "en", "pl", "de", "cs"]);

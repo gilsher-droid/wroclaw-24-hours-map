@@ -9241,6 +9241,969 @@
       "cs"
     ]
   },
+  "jawor-church-of-peace": {
+    "id": "jawor-church-of-peace",
+    "localName": "Kościół Pokoju w Jaworze",
+    "name": {
+      "he": "כנסיית השלום ביאבור",
+      "en": "Church of Peace in Jawor",
+      "pl": "Kościół Pokoju w Jaworze",
+      "de": "Friedenskirche in Jawor",
+      "cs": "Kostel míru v Jaworu"
+    },
+    "description": {
+      "he": "תחנת הפתיחה ביאבור: ביקור בכנסיית העץ, בחלל הפנימי ובחצר. התמונות שלנו מתעדות את היציעים, הציורים והפרטים מקרוב. בדקו שעות ביקור וכרטיסים באתר הכנסייה.",
+      "en": "Begin the Jawor visit at the timber Church of Peace. Our photographs explore its galleries, painted interior, details and grounds. Check visiting hours and tickets on the church website.",
+      "pl": "Początek wizyty w Jaworze przy drewnianym Kościele Pokoju. Nasze zdjęcia pokazują empory, malowane wnętrze, detale i otoczenie. Godziny zwiedzania i bilety sprawdź na stronie kościoła.",
+      "de": "Der Besuch in Jawor beginnt an der hölzernen Friedenskirche. Unsere Fotos zeigen Emporen, bemalte Innenräume, Details und das Gelände. Besuchszeiten und Eintritt auf der Kirchenseite prüfen.",
+      "cs": "Návštěva Jaworu začíná u dřevěného Kostela míru. Naše fotografie ukazují empory, malovaný interiér, detaily i okolí. Otevírací dobu a vstupenky ověřte na webu kostela."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "jawor",
+      "coordinates": {
+        "lat": 51.0539315,
+        "lng": 16.1891045
+      }
+    },
+    "categories": [
+      "church"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "church"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "architecture",
+        "photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://kosciolpokojujawor.com/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Ko%C5%9Bci%C3%B3%C5%82%20Pokoju%20w%20Jaworze",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://kosciolpokojujawor.com/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+        "checkedAt": "2026-10-16"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/excursion-three/jawor-church-of-peace-01.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-02.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-03.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-04.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-05.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-06.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-07.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-08.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-09.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-10.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-11.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-12.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-13.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-14.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-15.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-16.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-17.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-18.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-19.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-20.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-21.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-22.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-23.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-24.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-25.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-26.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-27.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-28.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-29.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-30.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-31.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-32.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-33.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-34.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-35.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-36.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-37.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-38.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-39.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-40.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-41.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-42.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-43.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-44.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-45.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-46.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-47.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-48.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-49.jpg",
+        "/assets/excursion-three/jawor-church-of-peace-50.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/excursion-three/jawor-church-of-peace-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.12.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.11.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.13.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.14 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.14.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15 (4).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15 (5).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.48 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.48.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.49 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.49.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.50.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-20.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (4).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (5).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-22.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-23.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.52.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-24.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.57.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.58.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-26.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.59 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-27.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.59 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-28.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.59 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-29.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.26.00.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-30.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.03 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-31.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.03 (15).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-32.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.03 (16).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-33.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.03 (17).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-34.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.03 (18).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-35.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.03 (19).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-36.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.03 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-37.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.03 (4).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-38.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-39.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (10).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-40.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (11).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-41.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (12).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-42.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-43.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (25).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-44.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (28).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-45.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (29).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-46.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (30).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-47.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (31).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-48.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (32).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-49.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (34).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-church-of-peace-50.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 19.10.05 (8).jpeg",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "jawor-market-square": {
+    "id": "jawor-market-square",
+    "localName": "Rynek w Jaworze",
+    "name": {
+      "he": "כיכר העיר יאבור",
+      "en": "Jawor Market Square",
+      "pl": "Rynek w Jaworze",
+      "de": "Marktplatz in Jawor",
+      "cs": "Náměstí v Jaworu"
+    },
+    "description": {
+      "he": "ממשיכים להליכה בכיכר העיר ובסביבת בית העירייה. תחנה עירונית קצרה בין הביקור בכנסייה לבין המשך היום.",
+      "en": "Continue with a walk around the market square and town hall, a short urban stop within the Jawor visit.",
+      "pl": "Spacer po rynku i wokół ratusza, krótki miejski przystanek podczas wizyty w Jaworze.",
+      "de": "Ein Spaziergang über den Marktplatz und am Rathaus, ein kurzer Stadtstopp beim Besuch in Jawor.",
+      "cs": "Procházka po náměstí kolem radnice, krátká městská zastávka během návštěvy Jaworu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "jawor",
+      "coordinates": {
+        "lat": 51.0503785,
+        "lng": 16.1942221
+      }
+    },
+    "categories": [
+      "city-centre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "city-centre"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "architecture",
+        "photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://jawor.pl/dla-turysty/zabytki/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Rynek%20w%20Jaworze",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://jawor.pl/dla-turysty/zabytki/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+        "checkedAt": "2026-10-16"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/excursion-three/jawor-market-square-01.jpg",
+        "/assets/excursion-three/jawor-market-square-02.jpg",
+        "/assets/excursion-three/jawor-market-square-03.jpg",
+        "/assets/excursion-three/jawor-market-square-04.jpg",
+        "/assets/excursion-three/jawor-market-square-05.jpg",
+        "/assets/excursion-three/jawor-market-square-06.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/excursion-three/jawor-market-square-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כיכר העיר/WhatsApp Image 2026-09-24 at 19.10.05 (14).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-market-square-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כיכר העיר/WhatsApp Image 2026-09-24 at 17.23.41 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-market-square-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כיכר העיר/WhatsApp Image 2026-09-24 at 19.10.05 (23).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-market-square-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כיכר העיר/WhatsApp Image 2026-09-24 at 19.10.05 (38).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-market-square-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כיכר העיר/WhatsApp Image 2026-09-24 at 19.10.05 (49).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-market-square-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.11 (1).jpeg",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "jawor-piast-castle": {
+    "id": "jawor-piast-castle",
+    "localName": "Zamek Piastowski w Jaworze",
+    "name": {
+      "he": "טירת הפיאסט ביאבור",
+      "en": "Piast Castle in Jawor",
+      "pl": "Zamek Piastowski w Jaworze",
+      "de": "Piastenschloss in Jawor",
+      "cs": "Piastovský zámek v Jaworu"
+    },
+    "description": {
+      "he": "עצירה ליד מתחם טירת הפיאסט ביאבור. החומרים מהביקור מציגים חזיתות, חצר ופרטים של המבנה; אין כאן הבטחה לכניסה לחללים פנימיים.",
+      "en": "A stop by the Piast Castle complex in Jawor. Visit photographs show façades, the courtyard and building details; interior access is not assumed.",
+      "pl": "Przystanek przy kompleksie Zamku Piastowskiego w Jaworze. Zdjęcia z wizyty pokazują elewacje, dziedziniec i detale; nie zakładamy dostępu do wnętrz.",
+      "de": "Halt am Piastenschloss in Jawor. Die Besuchsfotos zeigen Fassaden, Innenhof und Baudetails; Zugang zu Innenräumen wird nicht vorausgesetzt.",
+      "cs": "Zastávka u Piastovského zámku v Jaworu. Fotografie zachycují průčelí, nádvoří a detaily; přístup do interiéru nepředpokládáme."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "jawor",
+      "coordinates": {
+        "lat": 51.0498699,
+        "lng": 16.1904138
+      }
+    },
+    "categories": [
+      "castle"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "castle"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "architecture",
+        "photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://jawor.pl/dla-turysty/zabytki/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Zamek%20Piastowski%20w%20Jaworze",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://jawor.pl/dla-turysty/zabytki/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+        "checkedAt": "2026-10-16"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/excursion-three/jawor-piast-castle-01.jpg",
+        "/assets/excursion-three/jawor-piast-castle-02.jpg",
+        "/assets/excursion-three/jawor-piast-castle-03.jpg",
+        "/assets/excursion-three/jawor-piast-castle-04.jpg",
+        "/assets/excursion-three/jawor-piast-castle-05.jpg",
+        "/assets/excursion-three/jawor-piast-castle-06.jpg",
+        "/assets/excursion-three/jawor-piast-castle-07.jpg",
+        "/assets/excursion-three/jawor-piast-castle-08.jpg",
+        "/assets/excursion-three/jawor-piast-castle-09.jpg",
+        "/assets/excursion-three/jawor-piast-castle-10.jpg",
+        "/assets/excursion-three/jawor-piast-castle-11.jpg",
+        "/assets/excursion-three/jawor-piast-castle-12.jpg",
+        "/assets/excursion-three/jawor-piast-castle-13.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/excursion-three/jawor-piast-castle-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 17.23.40.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 17.23.40 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 17.23.41 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 17.23.41 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 17.23.41.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (15).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (16).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (17).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (18).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (19).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (20).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (21).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jawor-piast-castle-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (22).jpeg",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "jelenia-gora-market-square": {
+    "id": "jelenia-gora-market-square",
+    "localName": "Rynek i stare miasto w Jeleniej Górze",
+    "name": {
+      "he": "ילניה גורה, הכיכר והעיר העתיקה",
+      "en": "Jelenia Góra market square and old town",
+      "pl": "Rynek i stare miasto w Jeleniej Górze",
+      "de": "Marktplatz und Altstadt von Jelenia Góra",
+      "cs": "Náměstí a historické centrum Jelení Hory"
+    },
+    "description": {
+      "he": "התחנה האחרונה לפני החזרה לוורוצלב: הליכה בכיכר ובסמטאות העיר העתיקה של ילניה גורה. בחומרי הביקור שלנו מופיעים בית העירייה, חזיתות צבעוניות, דוכנים ואווירת הרחוב. אירועים ודוכנים שתועדו אינם מובטחים בכל ביקור.",
+      "en": "The final stop before returning to Wrocław: a walk around Jelenia Góra market square and old-town streets. Our visit photographs show the town hall, colourful façades, stalls and street life. Recorded events and stalls are not guaranteed on every visit.",
+      "pl": "Ostatni przystanek przed powrotem do Wrocławia: spacer po rynku i uliczkach starego miasta Jeleniej Góry. Nasze zdjęcia pokazują ratusz, kolorowe kamienice, stoiska i życie uliczne. Uwiecznione wydarzenia i stoiska nie są stałą ofertą.",
+      "de": "Letzter Halt vor der Rückfahrt nach Wrocław: Spaziergang über den Marktplatz und durch die Altstadt von Jelenia Góra. Unsere Fotos zeigen Rathaus, bunte Fassaden, Stände und Straßenleben. Die dokumentierten Veranstaltungen und Stände finden nicht ständig statt.",
+      "cs": "Poslední zastávka před návratem do Vratislavi: procházka náměstím a uličkami historického centra Jelení Hory. Naše fotografie ukazují radnici, barevné domy, stánky a život v ulicích. Zachycené akce a stánky nejsou stálou nabídkou."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "jelenia-gora",
+      "coordinates": {
+        "lat": 50.9035044,
+        "lng": 15.7344539
+      }
+    },
+    "categories": [
+      "city-centre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "city-centre"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "architecture",
+        "photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://turystyka.jeleniagora.pl/content/ratusz-miejski-i-siedem-dom%C3%B3w",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Rynek%20i%20stare%20miasto%20w%20Jeleniej%20G%C3%B3rze",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://turystyka.jeleniagora.pl/content/ratusz-miejski-i-siedem-dom%C3%B3w",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+        "checkedAt": "2026-10-16"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/excursion-three/jelenia-gora-market-square-01.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-02.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-03.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-04.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-05.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-06.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-07.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-08.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-09.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-10.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-11.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-12.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-13.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-14.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-15.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-16.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-17.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-18.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-19.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-20.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-21.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-22.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-23.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-24.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-25.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-26.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-27.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-28.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-29.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-30.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-31.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-32.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-33.jpg",
+        "/assets/excursion-three/jelenia-gora-market-square-34.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/excursion-three/jelenia-gora-market-square-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.09 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.10.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (4).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (4).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.23 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.23 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.23.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.24.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.25 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.25.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.27 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.27 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-20.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.27.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-22.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-23.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-24.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-26.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-27.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.32 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-28.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.32.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-29.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-30.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-31.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-32.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.36 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-33.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.36.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/jelenia-gora-market-square-34.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.09.jpeg",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "jolie-kurzy-targ": {
     "id": "jolie-kurzy-targ",
     "localName": "Jolie Brasserie Cafe – Kurzy Targ 2",
@@ -10057,6 +11020,228 @@
       "de",
       "cs"
     ]
+  },
+  "karpacz-centre": {
+    "id": "karpacz-centre",
+    "localName": "Centrum Karpacza",
+    "name": {
+      "he": "מרכז קרפץ",
+      "en": "Karpacz town centre",
+      "pl": "Centrum Karpacza",
+      "de": "Zentrum von Karpacz",
+      "cs": "Centrum Karpacze"
+    },
+    "description": {
+      "he": "אחרי יאבור נוסעים לקרפץ. כאן מטיילים במרכז העיירה ובמדרחוב, עם זמן להפסקה, אוכל ונוף הררי. הביקור בכנסיית וואנג מוצג בנפרד, כתחנה הבאה.",
+      "en": "After Jawor, drive to Karpacz for a walk through the centre and pedestrian street, with a break for food and mountain views. Wang Church is the next, separate stop.",
+      "pl": "Po Jaworze przejazd do Karpacza: spacer po centrum i deptaku, przerwa na jedzenie oraz górskie widoki. Świątynia Wang jest kolejnym, osobnym przystankiem.",
+      "de": "Nach Jawor geht es nach Karpacz: Spaziergang durch Zentrum und Fußgängerzone, Zeit für eine Pause, Essen und Bergblicke. Die Wang-Kirche folgt als eigener Halt.",
+      "cs": "Po Jaworu následuje Karpacz: procházka centrem a pěší zónou, přestávka na jídlo a horské výhledy. Kostel Wang je další samostatnou zastávkou."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "karpacz",
+      "coordinates": {
+        "lat": 50.7749665,
+        "lng": 15.7539066
+      }
+    },
+    "categories": [
+      "city-centre"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "city-centre"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "architecture",
+        "photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.karpacz.pl/deptak",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Centrum%20Karpacza",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.karpacz.pl/deptak",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+        "checkedAt": "2026-10-16"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/excursion-three/karpacz-centre-01.jpg",
+        "/assets/excursion-three/karpacz-centre-02.jpg",
+        "/assets/excursion-three/karpacz-centre-03.jpg",
+        "/assets/excursion-three/karpacz-centre-04.jpg",
+        "/assets/excursion-three/karpacz-centre-05.jpg",
+        "/assets/excursion-three/karpacz-centre-06.jpg",
+        "/assets/excursion-three/karpacz-centre-07.jpg",
+        "/assets/excursion-three/karpacz-centre-08.jpg",
+        "/assets/excursion-three/karpacz-centre-09.jpg",
+        "/assets/excursion-three/karpacz-centre-10.jpg",
+        "/assets/excursion-three/karpacz-centre-11.jpg",
+        "/assets/excursion-three/karpacz-centre-12.jpg",
+        "/assets/excursion-three/karpacz-centre-13.jpg",
+        "/assets/excursion-three/karpacz-centre-14.jpg",
+        "/assets/excursion-three/karpacz-centre-15.jpg",
+        "/assets/excursion-three/karpacz-centre-16.jpg",
+        "/assets/excursion-three/karpacz-centre-17.jpg",
+        "/assets/excursion-three/karpacz-centre-18.jpg",
+        "/assets/excursion-three/karpacz-centre-19.jpg",
+        "/assets/excursion-three/karpacz-centre-20.jpg",
+        "/assets/excursion-three/karpacz-centre-21.jpg",
+        "/assets/excursion-three/karpacz-centre-22.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/excursion-three/karpacz-centre-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.55.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.12.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.15.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.21.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.47 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.54 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.54 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.54.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.56 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.41.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-20.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/karpacz-centre-22.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (6).jpeg",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
   },
   "konspira": {
     "id": "konspira",
@@ -21443,6 +22628,203 @@
         "verifiedAt": "2026-10-07"
       }
     ]
+  },
+  "wang-church": {
+    "id": "wang-church",
+    "localName": "Świątynia Wang",
+    "name": {
+      "he": "כנסיית וואנג",
+      "en": "Wang Church",
+      "pl": "Świątynia Wang",
+      "de": "Stabkirche Wang",
+      "cs": "Kostel Wang"
+    },
+    "description": {
+      "he": "תחנה נפרדת אחרי מרכז קרפץ: כנסיית העץ וואנג והסביבה שלה. התמונות מהביקור מציגות את המבנה, גילופי העץ והחצר. בדקו באתר הכנסייה את תנאי הביקור העדכניים.",
+      "en": "A separate stop after central Karpacz: Wang timber church and its surroundings. Visit photographs show the building, carved wood and grounds. Check current visiting arrangements on the church website.",
+      "pl": "Osobny przystanek po centrum Karpacza: drewniana świątynia Wang i jej otoczenie. Zdjęcia pokazują budowlę, rzeźbione drewno i teren wokół kościoła. Aktualne zasady zwiedzania sprawdź na stronie świątyni.",
+      "de": "Ein eigener Halt nach dem Zentrum von Karpacz: die hölzerne Wang-Kirche mit ihrem Gelände. Die Fotos zeigen Gebäude, Holzschnitzereien und Umgebung. Aktuelle Besuchsregeln auf der Kirchenseite prüfen.",
+      "cs": "Samostatná zastávka po centru Karpacze: dřevěný kostel Wang a jeho okolí. Fotografie ukazují stavbu, dřevořezby a areál. Aktuální podmínky návštěvy ověřte na webu kostela."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "karpacz",
+      "coordinates": {
+        "lat": 50.7773866,
+        "lng": 15.7241515
+      }
+    },
+    "categories": [
+      "church"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "church"
+      ],
+      "tags": [
+        "excursion",
+        "outside-wroclaw",
+        "architecture",
+        "photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://wang.com.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=%C5%9Awi%C4%85tynia%20Wang",
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://wang.com.pl/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.openstreetmap.org/",
+        "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+        "checkedAt": "2026-10-16"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/excursion-three/wang-church-01.jpg",
+        "/assets/excursion-three/wang-church-02.jpg",
+        "/assets/excursion-three/wang-church-03.jpg",
+        "/assets/excursion-three/wang-church-04.jpg",
+        "/assets/excursion-three/wang-church-05.jpg",
+        "/assets/excursion-three/wang-church-06.jpg",
+        "/assets/excursion-three/wang-church-07.jpg",
+        "/assets/excursion-three/wang-church-08.jpg",
+        "/assets/excursion-three/wang-church-09.jpg",
+        "/assets/excursion-three/wang-church-10.jpg",
+        "/assets/excursion-three/wang-church-11.jpg",
+        "/assets/excursion-three/wang-church-12.jpg",
+        "/assets/excursion-three/wang-church-13.jpg",
+        "/assets/excursion-three/wang-church-14.jpg",
+        "/assets/excursion-three/wang-church-15.jpg",
+        "/assets/excursion-three/wang-church-16.jpg",
+        "/assets/excursion-three/wang-church-17.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/excursion-three/wang-church-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.47.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (3).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (4).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (5).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (6).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01 (2).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01.jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53 (1).jpeg",
+          "original": true
+        },
+        "/assets/excursion-three/wang-church-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.33.02.jpeg",
+          "original": true
+        }
+      }
+    },
+    "socialPosts": []
   },
   "water-refill-hala-stulecia": {
     "id": "water-refill-hala-stulecia",

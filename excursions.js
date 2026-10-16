@@ -167,6 +167,8 @@
     const labels = logisticsUi[language] || logisticsUi.en;
     document.querySelector("[data-logistics-title]").textContent = labels.transport;
     document.querySelector("[data-accessibility-title]").textContent = labels.accessibility;
+    document.querySelector("[data-accessibility-title]").hidden = !(excursion.travel.accessibility || []).length;
+    document.querySelector("[data-accessibility]").hidden = !(excursion.travel.accessibility || []).length;
     document.querySelector("[data-transport-options]").innerHTML = (excursion.travel.options || []).map((option) => `<article><strong>${local(option.title)}</strong><p>${local(option.description)}</p></article>`).join("");
     document.querySelector("[data-accessibility]").innerHTML = (excursion.travel.accessibility || []).map((item) => {
       const canonical = item.canonicalPlaceId ? place(item.canonicalPlaceId) : null;
@@ -180,9 +182,10 @@
     const links = [];
     const website = safeLink(canonical.links?.website);
     const navigation = safeLink(canonical.links?.navigation?.googleMaps || canonical.links?.navigation?.google || canonical.links?.googleMaps || canonical.navigationLinks?.google);
-    const socialPosts = Array.isArray(canonical.socialPosts) ? canonical.socialPosts : [];
-    const facebook = safeLink(window.WROC_CATALOG?.getSocialPost?.(canonical, "facebook", language)?.url);
-    const instagram = safeLink(window.WROC_CATALOG?.getSocialPost?.(canonical, "instagram", language)?.url);
+    const facebookPost = window.WROC_CATALOG?.getSocialPost?.(canonical, "facebook", language);
+    const instagramPost = window.WROC_CATALOG?.getSocialPost?.(canonical, "instagram", language);
+    const facebook = facebookPost?.context !== "language-channel" ? safeLink(facebookPost?.url) : "";
+    const instagram = instagramPost?.context !== "language-channel" ? safeLink(instagramPost?.url) : "";
     if (website) links.push(`<a href="${website}" target="_blank" rel="noopener">${tr("website")}</a>`);
     if (navigation) links.push(`<a href="${navigation}" target="_blank" rel="noopener">${tr("navigate")}</a>`);
     if (facebook) links.push(`<a href="${facebook}" target="_blank" rel="noopener">${tr("facebook")}</a>`);
@@ -192,13 +195,16 @@
   }
 
   function renderPlaces(excursion) {
+    const morePhotos = {he:"תמונות נוספות מהביקור",en:"More visit photos",pl:"Więcej zdjęć z wizyty",de:"Weitere Besuchsfotos",cs:"Další fotografie z návštěvy"};
     document.querySelector("[data-places]").innerHTML = excursion.canonicalPlaceIds.map((id) => {
       const canonical = place(id);
       if (!canonical) return "";
-      const photos = (canonical.media?.photos || []).slice(0, 4);
+      const photos = canonical.media?.photos || [];
       const cover = photos[0] ? `<img class="place-cover" src="${photos[0]}" alt="${local(canonical.name)}">` : "";
       const video = canonical.media?.videos?.[0] ? window.WROC_YOUTUBE_VIDEO.html(canonical.media.videos[0], local(canonical.name), language) : "";
-      return `<article class="place-card" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1).map((photo) => `<img src="${photo}" alt="">`).join("")}</div>${video}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
+      const photoLink = (photo) => `<a href="${photo}" target="_blank" rel="noopener"><img loading="lazy" src="${photo}" alt="${local(canonical.name)}"></a>`;
+      const gallery = photos.length > 4 ? `<details class="visit-gallery"><summary>${morePhotos[language]} (${photos.length - 4})</summary><div class="photo-strip">${photos.slice(4).map(photoLink).join("")}</div></details>` : "";
+      return `<article class="place-card" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1,4).map(photoLink).join("")}</div>${gallery}${video}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
   }
 
