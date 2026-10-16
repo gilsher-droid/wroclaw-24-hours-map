@@ -162,13 +162,355 @@
     ],
   };
 
+  const jaworKarpacz = {
+  "id": "jawor-karpacz-jelenia-gora-day-trip",
+  "slug": "jawor-karpacz-wang-jelenia-gora",
+  "title": {
+    "he": "יום טיול 3: יאבור, קרפץ, וואנג וילניה גורה",
+    "en": "Day trip 3: Jawor, Karpacz, Wang and Jelenia Góra",
+    "pl": "Wycieczka 3: Jawor, Karpacz, Wang i Jelenia Góra",
+    "de": "Tagesausflug 3: Jawor, Karpacz, Wang und Jelenia Góra",
+    "cs": "Výlet 3: Jawor, Karpacz, Wang a Jelení Hora"
+  },
+  "summary": {
+    "he": "מוורוצלב לכנסיית השלום ולמרכז יאבור, ממשיכים לקרפץ, עוצרים בנפרד בכנסיית וואנג ומסיימים בילניה גורה לפני החזרה.",
+    "en": "From Wrocław to the Church of Peace and central Jawor, then Karpacz, a separate visit to Wang Church and a final walk in Jelenia Góra before returning.",
+    "pl": "Z Wrocławia do Kościoła Pokoju i centrum Jawora, dalej Karpacz, osobna wizyta w świątyni Wang i spacer po Jeleniej Górze przed powrotem.",
+    "de": "Von Wrocław zur Friedenskirche und ins Zentrum von Jawor, weiter nach Karpacz, ein eigener Besuch der Wang-Kirche und zum Abschluss Jelenia Góra.",
+    "cs": "Z Vratislavi ke Kostelu míru a do centra Jaworu, dále Karpacz, samostatná návštěva kostela Wang a závěrečná procházka Jelení Horou."
+  },
+  "meta": {
+    "duration": "full-day",
+    "startsAt": "wroclaw",
+    "region": "lower-silesia",
+    "tags": [
+      "history",
+      "architecture",
+      "mountains",
+      "photography"
+    ]
+  },
+  "heroMedia": {
+    "canonicalPlaceId": "jawor-church-of-peace",
+    "photoIndex": 0
+  },
+  "canonicalPlaceIds": [
+    "jawor-church-of-peace",
+    "jawor-market-square",
+    "jawor-piast-castle",
+    "karpacz-centre",
+    "wang-church",
+    "jelenia-gora-market-square"
+  ],
+  "routePoints": [
+    {
+      "id": "wroclaw-start",
+      "kind": "context",
+      "label": {
+        "he": "וורוצלב",
+        "en": "Wrocław",
+        "pl": "Wrocław",
+        "de": "Wrocław",
+        "cs": "Vratislav"
+      },
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      }
+    },
+    {
+      "id": "jawor-church-of-peace",
+      "kind": "place",
+      "canonicalPlaceId": "jawor-church-of-peace"
+    },
+    {
+      "id": "jawor-market-square",
+      "kind": "place",
+      "canonicalPlaceId": "jawor-market-square"
+    },
+    {
+      "id": "jawor-piast-castle",
+      "kind": "place",
+      "canonicalPlaceId": "jawor-piast-castle"
+    },
+    {
+      "id": "karpacz-centre",
+      "kind": "place",
+      "canonicalPlaceId": "karpacz-centre"
+    },
+    {
+      "id": "wang-church",
+      "kind": "place",
+      "canonicalPlaceId": "wang-church"
+    },
+    {
+      "id": "jelenia-gora-market-square",
+      "kind": "place",
+      "canonicalPlaceId": "jelenia-gora-market-square"
+    },
+    {
+      "id": "wroclaw-return",
+      "kind": "context",
+      "label": {
+        "he": "חזרה לוורוצלב",
+        "en": "Return to Wrocław",
+        "pl": "Powrót do Wrocławia",
+        "de": "Rückfahrt nach Wrocław",
+        "cs": "Návrat do Vratislavi"
+      },
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      }
+    }
+  ],
+  "travel": {
+    "recommendedMode": "car",
+    "segments": [
+      {
+        "from": "wroclaw-start",
+        "to": "jawor-church-of-peace",
+        "mode": "car"
+      },
+      {
+        "from": "jawor-church-of-peace",
+        "to": "jawor-market-square",
+        "mode": "walking"
+      },
+      {
+        "from": "jawor-market-square",
+        "to": "jawor-piast-castle",
+        "mode": "walking"
+      },
+      {
+        "from": "jawor-piast-castle",
+        "to": "karpacz-centre",
+        "mode": "car"
+      },
+      {
+        "from": "karpacz-centre",
+        "to": "wang-church",
+        "mode": "car"
+      },
+      {
+        "from": "wang-church",
+        "to": "jelenia-gora-market-square",
+        "mode": "car"
+      },
+      {
+        "from": "jelenia-gora-market-square",
+        "to": "wroclaw-return",
+        "mode": "car"
+      }
+    ],
+    "estimates": [],
+    "note": {
+      "he": "זהו יום מלא ברכב, לפי סדר הביקור שלנו. השאירו זמן לנסיעות ולהליכה בין התחנות. בדקו בניווט את זמני הנסיעה ביום היציאה; הקו במפה מציג את סדר התחנות ואינו מסלול כביש מדויק.",
+      "en": "This is a full driving day in our visit order. Allow time for travel and walking. Check live driving times before departure; the map line shows the stop order rather than exact roads.",
+      "pl": "To całodniowa trasa samochodem w kolejności naszej wizyty. Zostaw czas na przejazdy i spacery. Sprawdź aktualne czasy jazdy; linia na mapie pokazuje kolejność, a nie dokładny przebieg dróg.",
+      "de": "Ein voller Ausflugstag mit dem Auto in unserer Besuchsreihenfolge. Zeit für Fahrten und Spaziergänge einplanen. Aktuelle Fahrzeiten prüfen; die Kartenlinie zeigt die Reihenfolge, nicht den genauen Straßenverlauf.",
+      "cs": "Celodenní výlet autem v pořadí naší návštěvy. Počítejte s přejezdy i chůzí. Ověřte aktuální jízdní doby; čára v mapě ukazuje pořadí zastávek, nikoli přesnou silniční trasu."
+    },
+    "options": [
+      {
+        "mode": "car",
+        "title": {
+          "he": "רכב",
+          "en": "Car",
+          "pl": "Samochód",
+          "de": "Auto",
+          "cs": "Auto"
+        },
+        "description": {
+          "he": "נסיעה בין הערים והליכה בכל תחנה. וואנג היא עצירה נפרדת אחרי מרכז קרפץ.",
+          "en": "Drive between towns and walk at each stop. Wang is a separate stop after central Karpacz.",
+          "pl": "Przejazdy między miastami i spacery na miejscu. Wang to osobny przystanek po centrum Karpacza.",
+          "de": "Fahrten zwischen den Städten, Spaziergänge vor Ort. Wang folgt als eigener Halt nach dem Zentrum von Karpacz.",
+          "cs": "Přejezdy mezi městy a procházky na místě. Wang je samostatný bod po centru Karpacze."
+        }
+      }
+    ],
+    "accessibility": []
+  },
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Wroc%C5%82aw%2CPoland&destination=Wroc%C5%82aw%2CPoland&waypoints=51.0539315%2C16.1891045%7C50.7749665%2C15.7539066%7C50.7773866%2C15.7241515%7C50.9035044%2C15.7344539&travelmode=driving"
+  },
+  "editorial": {
+    "why": {
+      "he": "יום שמתחיל בפרטי העץ והציורים של כנסיית השלום, ממשיך לרחובות יאבור ולנוף ההררי של קרפץ, ועובר דרך וואנג אל הכיכר הצבעונית של ילניה גורה.",
+      "en": "A day moving from the timber details and paintings of the Church of Peace through Jawor streets and mountain-town Karpacz, via Wang to the colourful square of Jelenia Góra.",
+      "pl": "Od drewnianych detali i malowideł Kościoła Pokoju przez ulice Jawora i górski Karpacz, następnie Wang i kolorowy rynek Jeleniej Góry.",
+      "de": "Von Holzdetails und Malereien der Friedenskirche über die Straßen von Jawor und das Bergstädtchen Karpacz, weiter über Wang zum bunten Markt von Jelenia Góra.",
+      "cs": "Od dřevěných detailů a maleb Kostela míru přes ulice Jaworu a horskou Karpacz, dále přes Wang k barevnému náměstí Jelení Hory."
+    },
+    "forWhom": {
+      "he": "למי שאוהבים כנסיות מיוחדות, אדריכלות, עיירות וצילום, ומעדיפים לשלב כמה תחנות ביום מלא מחוץ לוורוצלב.",
+      "en": "For travellers who enjoy distinctive churches, architecture, towns and photography, combining several stops in a full day outside Wrocław.",
+      "pl": "Dla miłośników niezwykłych kościołów, architektury, miasteczek i fotografii, którzy chcą połączyć kilka miejsc w całodniowej wycieczce.",
+      "de": "Für alle, die besondere Kirchen, Architektur, kleine Städte und Fotografie mögen und mehrere Stationen an einem vollen Tag verbinden möchten.",
+      "cs": "Pro milovníky neobvyklých kostelů, architektury, měst a fotografování, kteří chtějí spojit několik zastávek během celého dne."
+    },
+    "practical": {
+      "he": "בדקו מראש שעות ביקור בכנסיית השלום ובוואנג. השאירו מרווח לנסיעות ולהפסקות והתאימו את משך ההליכות לקצב שלכם. התמונות מתעדות את הביקור שלנו ואינן מבטיחות שדוכנים או אירועים יתקיימו ביום שלכם.",
+      "en": "Check visiting hours at the Church of Peace and Wang in advance. Allow travel buffers and breaks, and adapt walks to your pace. Photographs document our visit; stalls or events may not take place on your day.",
+      "pl": "Sprawdź godziny zwiedzania Kościoła Pokoju i Wang. Zostaw zapas na przejazdy i przerwy, dostosuj spacery do własnego tempa. Zdjęcia dokumentują nasz pobyt, a nie stałą dostępność stoisk czy wydarzeń.",
+      "de": "Besuchszeiten der Friedenskirche und von Wang vorab prüfen. Puffer für Fahrten und Pausen einplanen, Spaziergänge dem eigenen Tempo anpassen. Fotos dokumentieren unseren Besuch; Stände und Veranstaltungen sind nicht ständig vorhanden.",
+      "cs": "Předem ověřte návštěvní dobu Kostela míru a Wangu. Nechte rezervu na přejezdy a přestávky, procházky přizpůsobte svému tempu. Fotografie dokumentují náš pobyt; stánky či akce nemusí být v den vaší návštěvy."
+    }
+  },
+  "steps": [
+    {
+      "id": "wroclaw-start",
+      "title": {
+        "he": "וורוצלב",
+        "en": "Wrocław",
+        "pl": "Wrocław",
+        "de": "Wrocław",
+        "cs": "Vratislav"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      }
+    },
+    {
+      "id": "jawor-church-of-peace",
+      "canonicalPlaceId": "jawor-church-of-peace",
+      "title": {
+        "he": "כנסיית השלום ביאבור",
+        "en": "Church of Peace in Jawor",
+        "pl": "Kościół Pokoju w Jaworze",
+        "de": "Friedenskirche in Jawor",
+        "cs": "Kostel míru v Jaworu"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      }
+    },
+    {
+      "id": "jawor-market-square",
+      "canonicalPlaceId": "jawor-market-square",
+      "title": {
+        "he": "כיכר העיר יאבור",
+        "en": "Jawor Market Square",
+        "pl": "Rynek w Jaworze",
+        "de": "Marktplatz in Jawor",
+        "cs": "Náměstí v Jaworu"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      }
+    },
+    {
+      "id": "jawor-piast-castle",
+      "canonicalPlaceId": "jawor-piast-castle",
+      "title": {
+        "he": "טירת הפיאסט ביאבור",
+        "en": "Piast Castle in Jawor",
+        "pl": "Zamek Piastowski w Jaworze",
+        "de": "Piastenschloss in Jawor",
+        "cs": "Piastovský zámek v Jaworu"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      }
+    },
+    {
+      "id": "karpacz-centre",
+      "canonicalPlaceId": "karpacz-centre",
+      "title": {
+        "he": "מרכז קרפץ",
+        "en": "Karpacz town centre",
+        "pl": "Centrum Karpacza",
+        "de": "Zentrum von Karpacz",
+        "cs": "Centrum Karpacze"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      }
+    },
+    {
+      "id": "wang-church",
+      "canonicalPlaceId": "wang-church",
+      "title": {
+        "he": "כנסיית וואנג",
+        "en": "Wang Church",
+        "pl": "Świątynia Wang",
+        "de": "Stabkirche Wang",
+        "cs": "Kostel Wang"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      }
+    },
+    {
+      "id": "jelenia-gora-market-square",
+      "canonicalPlaceId": "jelenia-gora-market-square",
+      "title": {
+        "he": "ילניה גורה, הכיכר והעיר העתיקה",
+        "en": "Jelenia Góra market square and old town",
+        "pl": "Rynek i stare miasto w Jeleniej Górze",
+        "de": "Marktplatz und Altstadt von Jelenia Góra",
+        "cs": "Náměstí a historické centrum Jelení Hory"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      }
+    },
+    {
+      "id": "wroclaw-return",
+      "title": {
+        "he": "חזרה לוורוצלב",
+        "en": "Return to Wrocław",
+        "pl": "Powrót do Wrocławia",
+        "de": "Rückfahrt nach Wrocław",
+        "cs": "Návrat do Vratislavi"
+      },
+      "duration": {
+        "he": "בקצב שלכם",
+        "en": "At your own pace",
+        "pl": "We własnym tempie",
+        "de": "Im eigenen Tempo",
+        "cs": "Vlastním tempem"
+      }
+    }
+  ]
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
     title: t("טיולי יום מוורוצלב", "Day trips from Wrocław", "Wycieczki jednodniowe z Wrocławia", "Tagesausflüge ab Wrocław", "Jednodenní výlety z Vratislavi"),
-    status: t("שני טיולים מוכנים", "Two excursions ready", "Dwie wycieczki gotowe", "Zwei Ausflüge verfügbar", "Dva výlety připraveny"),
-    excursions: [excursion, brzegMoszna],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds],
+    status: t("שלושה טיולים מוכנים", "Three excursions ready", "Trzy wycieczki gotowe", "Drei Ausflüge verfügbar", "Tři výlety připraveny"),
+    excursions: [excursion, brzegMoszna, jaworKarpacz],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {
