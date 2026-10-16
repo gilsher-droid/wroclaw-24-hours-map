@@ -5398,87 +5398,36 @@
   "media": {
     "photos": [
       "/assets/czocha-boleslawiec/boleslawiec-old-town-069.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-070.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-071.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-072.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-001.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-002.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-003.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-004.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-005.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-006.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-007.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-008.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-009.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-010.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-011.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-012.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-013.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-014.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-015.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-016.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-017.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-018.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-019.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-020.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-021.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-022.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-023.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-024.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-025.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-026.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-027.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-028.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-029.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-030.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-031.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-032.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-033.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-061.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-062.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-066.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-067.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-068.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-073.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-074.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-075.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-076.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-077.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-078.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-079.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-080.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-081.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-082.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-084.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-085.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-086.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-087.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-088.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-091.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-092.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-093.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-095.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-096.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-105.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-107.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-108.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-109.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-110.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-111.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-128.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-129.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-130.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-131.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-132.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-133.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-134.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-135.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-137.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-138.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-139.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-140.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-141.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-142.jpg"
+      "/assets/czocha-boleslawiec/boleslawiec-old-town-141.jpg"
     ],
     "videos": [
       "https://youtube.com/shorts/maSKnck5q1g",
@@ -5501,24 +5450,6 @@
         "sourceSHA256": "d25d8f2ce39ac01ce14a37cb560519d705e35b076f2dd4908867d5c99f75a365",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-070.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.16.jpeg",
-        "sourceSHA256": "db6d60444b4a4bcd377e42cb955b682e896b04d1537e57fda775aab392aba001",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-071.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.17.jpeg",
-        "sourceSHA256": "03e98d4c7bd53f6ba19f55440607a16303492d0461014d59fed22e5ec8b28d89",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-072.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.18.jpeg",
-        "sourceSHA256": "d7a37a1d35491954f72fd8deda2fc00087b1c7ed21749be6045a08cbff498a24",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-001.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.26.jpeg",
@@ -5529,36 +5460,6 @@
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (1).jpeg",
         "sourceSHA256": "c9bdfaf96c3ff0381f82d049912f282be68709e18004129687bca4e6ecd0b4cc",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-003.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (2).jpeg",
-        "sourceSHA256": "480a00172e3e5bcdcb96537f79bcce406952b2a1604ab47e3f3a96f02a69df0b",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-004.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (3).jpeg",
-        "sourceSHA256": "8116003859aad6d7be833a14f588f6b601bd5e207f062f572ac31ddb5eb57125",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-005.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (4).jpeg",
-        "sourceSHA256": "82d60a810e9f7cdb43c512950190faf77409e11c7733be87301eb39886e94272",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-006.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (5).jpeg",
-        "sourceSHA256": "33e8acc78ab8f2ae65851c319856fea6b8629d571f331ede21802fc58911bee0",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-007.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27.jpeg",
-        "sourceSHA256": "b469dea34283f957f673185ee73dbda5b224923a8d32a7a3becfbe7f88ff7f31",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-008.jpg": {
@@ -5573,82 +5474,10 @@
         "sourceSHA256": "d5a8e3ef2affb40276e69c3d6abb41fc4d47232bd784e8f80375f67d379bce8d",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-010.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31 (2).jpeg",
-        "sourceSHA256": "0bc86dcf952ffcd11b220f1a1115a326e67e6fc91cf44295c069a72aaa52741b",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-011.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31 (3).jpeg",
-        "sourceSHA256": "1ad47fa920fdefc346fa7cf846179a1b6e7a8210bb282f99a824e2e505bb740b",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-012.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31.jpeg",
-        "sourceSHA256": "1196c8e1cb6e210cd433881a9dfe62249b486b1f465129fbb193d1daf38cd53e",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-013.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.36 (1).jpeg",
-        "sourceSHA256": "d8b02b18e4c2ab086ee09c3def411c4370311e9554d9c7bd6cbe4d6fb8514d37",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-014.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.36.jpeg",
-        "sourceSHA256": "eef5cc364ea11d27f43140e54438b06cbc0266d935728e04523a95f0f511c427",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-015.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40 (1).jpeg",
         "sourceSHA256": "22308c88eb8f815cc458a7bebd73c2e344b1a2a009ac8d33fd7b9e7339840abc",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-016.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40 (2).jpeg",
-        "sourceSHA256": "b3fd76549fd56ae861818d23d99af44b46c67f9fed107eb1ce8a858dfb03da2e",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-017.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40 (3).jpeg",
-        "sourceSHA256": "d247e2d718901fb4e781638cf0161cca4bdea7200acfdd6f7565c88ada065139",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-018.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40.jpeg",
-        "sourceSHA256": "d9a5564956a606c4f275f3620077fe5fb58227a533d39e6e5dadc51f326b37a5",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-019.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.41 (1).jpeg",
-        "sourceSHA256": "b8b3f7a3d7a8b797a947de055998367e56afec02a878bea83a2744eb78c769c2",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-020.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.41.jpeg",
-        "sourceSHA256": "a7a6d4911fd9a84080bc38c1414ae59e923fc98aa667e26c1cf231dc229a7029",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-021.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.44 (1).jpeg",
-        "sourceSHA256": "563b532a1fda5678bd904e67c237c5d7498d5d4188550da51cb37eadf0fd2365",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-022.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.44.jpeg",
-        "sourceSHA256": "acd1d1a30a6bb9feefcb2936d674a77319da1be8ba25225dc95a4495417f92c6",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-023.jpg": {
@@ -5663,40 +5492,10 @@
         "sourceSHA256": "c6c6ab27cfef6376233ec430a0e11cb167baf271b7a92ad6579c2a497ecb5567",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-025.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.45.jpeg",
-        "sourceSHA256": "78cd3d21d9f123328287bd757837bfe77f6de2f3b38480d1c1c270242abcae28",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-026.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46 (1).jpeg",
-        "sourceSHA256": "43c280139186b7f4fbe996858bfe404b05a5011677ff24cd1b7e95e012d75eeb",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-027.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46 (2).jpeg",
         "sourceSHA256": "72e29c13cbbb5aff290f2c132c427109df8834f4cdbf1fa970f98939f07c1e98",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-028.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46 (3).jpeg",
-        "sourceSHA256": "4ce4220b9a9307a079ce8a35654f7fa028fc025959ecfe183e459ce7a8be0481",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-029.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46.jpeg",
-        "sourceSHA256": "459e0a752a6e3556c5e3ded25d4c0c6c9e3ebf1725eb6185eb16026d68584f1b",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-030.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.47 (1).jpeg",
-        "sourceSHA256": "0bd29721433a3a46e55b991cf83cabdbd6e35757d6608a2546c1a6c7d034c8f5",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-031.jpg": {
@@ -5711,22 +5510,10 @@
         "sourceSHA256": "bb75f46794dd08a2254e6b4bbf72ad9316da001b7034ce5bce0fa1d9e36a4400",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-033.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.47.jpeg",
-        "sourceSHA256": "443c132eaa9090d37e784bf4a7f0ca1a2554a377858117fefd1b397ba8f98824",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-061.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.11 (1).jpeg",
         "sourceSHA256": "7703bc595d8fe84ae0668ea09248bdb5941826d857bce775781489bff55b0f03",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-062.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.11 (2).jpeg",
-        "sourceSHA256": "e239e32bd1d3bbfde22228316319fda779ddc0760365c5b7f34a0ffcafa834d7",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-066.jpg": {
@@ -5741,18 +5528,6 @@
         "sourceSHA256": "3a009487fde383626476dd2aa9ed09e9d848ea5a3cf6a1ca08b7f536e039a759",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-068.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.13.jpeg",
-        "sourceSHA256": "2baf6599a5fc3988663ca9f160dda6f6b6c0c6c72242d77f51d5fdb1b50caf7e",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-073.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (1).jpeg",
-        "sourceSHA256": "1d0c883ba28a566b3914bb6da1d47ed4383a57d1d721e4789b557a678c37a5ff",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-074.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (2).jpeg",
@@ -5763,30 +5538,6 @@
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (3).jpeg",
         "sourceSHA256": "147bd6f44130e252a17c64d0d4d24906dc29488c32cc3525d2b09b8b9e3eaaf6",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-076.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (4).jpeg",
-        "sourceSHA256": "d7afcc579b6b75991dd38a92a301b6a5abd643b172d234f02cc6299cb61e8b84",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-077.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19.jpeg",
-        "sourceSHA256": "004df7a946b1eca7bd7bcd22e384081f1c08bf81be99077a067de25ca63dc3e3",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-078.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.22.jpeg",
-        "sourceSHA256": "081c9a43cf5bb39f44f40b051fb7b71dade0059936e29aae73a187e0ba9f2f66",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-079.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.23 (1).jpeg",
-        "sourceSHA256": "f5cdd807a4217bea38a367a6760d2b15f9c3789c90c6db05f985c72b4848ead0",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-080.jpg": {
@@ -5813,28 +5564,10 @@
         "sourceSHA256": "8cc7d29d6ad881f6e5b49b4425e407b4ed28185180dd1ce49800b77056add0ff",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-085.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (5).jpeg",
-        "sourceSHA256": "cd9e27b29a245cf285eafbf1f218b81db0c3d73cd09637ba8cef7dd15f2a04c0",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-086.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (6).jpeg",
-        "sourceSHA256": "f766dba38d7ab10a4f8fc1b5d856b97593d3ba109436a526385e8438384fd07c",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-087.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (7).jpeg",
         "sourceSHA256": "caf8330dc48b327b195fe217722e11e30cb54b1a5359b51caef9c0bf38f74a70",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-088.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (8).jpeg",
-        "sourceSHA256": "043ba44530c0df4dc6f0b64f71c69e17b6c5c0e24b4517c46da386fb686b0d8d",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-091.jpg": {
@@ -5861,34 +5594,10 @@
         "sourceSHA256": "61f4ee685c3e4d1c6ca6476bf92758faf082bba2494226dbe27c2881b5f028ed",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-096.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (15).jpeg",
-        "sourceSHA256": "f9cd856640147eb69f543c1f145698ce8297af56a4d0031c33ceabe5e69da562",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-105.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (3).jpeg",
-        "sourceSHA256": "7f329d0e1ec1cba078cd8def6700e20738e5d2c20bbc006b4959745b9d1385cd",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-107.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (5).jpeg",
-        "sourceSHA256": "0da16dfa703cdf014a39e19f46f63f9a13d54ed774a8733bdc68428374f0ac26",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-108.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (6).jpeg",
         "sourceSHA256": "b3926894856dce1fc9e0b536ea67a6f85a4500d880bcf9c740de191e50e2e0f9",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-109.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (7).jpeg",
-        "sourceSHA256": "e7c2b0ea5c578a06ff450c792079c419ce0d8e44027113be607aba3328c9a8da",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-110.jpg": {
@@ -5897,70 +5606,10 @@
         "sourceSHA256": "2b0ba90906a4b3ddca5db2f0bc3f8c80029c1c5a859113ab241d58c905e1f2e8",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-111.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (9).jpeg",
-        "sourceSHA256": "c54d2eea6da5c10fd6905450935195603a8e571d5a7c10c086efb205c07a8c01",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-128.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (12).jpeg",
-        "sourceSHA256": "feaa8a9de1d632b4a9f655dffe61f23dcd7cfdcc84155d21dd07353084edd0cf",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-129.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (13).jpeg",
-        "sourceSHA256": "03165a241e12cd15d499779a4186256ae1059c0174389c0b4e6cef68675a7f65",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-130.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (14).jpeg",
-        "sourceSHA256": "1ffbf85f24e582cfd46219ce0600628dc6e529b88a5f973d2adab83ea25e5e8d",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-131.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (15).jpeg",
-        "sourceSHA256": "ccdb17603c509b526a773c118799ce3e356c35a39117a07c1e47db12c38460cc",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-132.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (16).jpeg",
-        "sourceSHA256": "69454d0674b009cf91ce71e825df07bc4cd32a06539047c3f1dd89b902a89edf",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-133.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (17).jpeg",
-        "sourceSHA256": "9beced8907830629176fe54dd3027850f76a5b58533f96917cbc0f39d6fead11",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-134.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (18).jpeg",
         "sourceSHA256": "aee4d5f60ed432f0bda4226d73a2460534f7a666d6820a6aa9dabbe25b30a655",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-135.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (19).jpeg",
-        "sourceSHA256": "6dc6a78f365a95114b99358447fe946042b5e34435d842cba612c2a8eb772d08",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-137.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (20).jpeg",
-        "sourceSHA256": "3f464b65fe54fdc26f545b1b07bf291cb08e64116db07933eb1612a617f2785c",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-138.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (21).jpeg",
-        "sourceSHA256": "ef323c69eed41c7dde8acf8585e1514757dfe11d77dc3b49b091191002693d94",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-old-town-139.jpg": {
@@ -5979,12 +5628,6 @@
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (24).jpeg",
         "sourceSHA256": "e8eea2bf55f576730b7a4fe35418b09d4feb4e3d5384730623061c1ded94f443",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-old-town-142.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (25).jpeg",
-        "sourceSHA256": "941ade0ae529c22b8a0b2d319b66c8672dd82f07424cdc20f37a3418f5b32574",
         "visitCategory": "place-visit"
       },
       "https://youtube.com/shorts/maSKnck5q1g": {
@@ -6174,7 +5817,6 @@
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-037.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-038.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-039.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-040.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-041.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-042.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-043.jpg",
@@ -6187,7 +5829,6 @@
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-052.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-053.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-055.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-059.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-060.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-099.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-100.jpg",
@@ -6200,7 +5841,6 @@
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-117.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-118.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-119.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-120.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-122.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-123.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-124.jpg",
@@ -6208,12 +5848,10 @@
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-136.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-144.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-145.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-146.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-147.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-148.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-149.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-150.jpg",
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-151.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-152.jpg"
     ],
     "videos": [
@@ -6248,12 +5886,6 @@
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.50 (1).jpeg",
         "sourceSHA256": "f673d1756c4cb47fdd7812131e44fe729a18ce1fbb94812e3ce7b583637b48bc",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-040.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.50 (2).jpeg",
-        "sourceSHA256": "7b4f1ebe3f19a32694fd9d76fe834a54a20b8d5ba3ba2d8e86f414bdd18204a2",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-041.jpg": {
@@ -6328,12 +5960,6 @@
         "sourceSHA256": "b08bbf4eb8a09981cb1b5e5b239d0969dc783e4f39a77e9598910ffa149fad0c",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-059.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.56 (3).jpeg",
-        "sourceSHA256": "4717d90af94bc00bb8052e8f003c094650367a16cbde109be5b504642f4c2300",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-060.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.56 (4).jpeg",
@@ -6406,12 +6032,6 @@
         "sourceSHA256": "bd26e1728c509cef43f6c436033724a677a99f424b29108a204b68ca4f870e91",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-120.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (6).jpeg",
-        "sourceSHA256": "e401c3f2bd276824db086686b1e533eda7cf11a8ad749922e5f3db43ec6cdf05",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-122.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (8).jpeg",
@@ -6454,12 +6074,6 @@
         "sourceSHA256": "ed3309312fd4aff4de595b0de4795d21d55c0f23b82712ec71e3767edc6cc7b7",
         "visitCategory": "place-visit"
       },
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-146.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (5).jpeg",
-        "sourceSHA256": "565f11539e3b2b737341bc5482d1785cc2d39ceb5ed742182b3d3a8eb6352b3d",
-        "visitCategory": "place-visit"
-      },
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-147.jpg": {
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (6).jpeg",
@@ -6482,12 +6096,6 @@
         "original": true,
         "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (9).jpeg",
         "sourceSHA256": "730c9f9ceb1c274bd5a394fb7c5309c16071916624ed250633b333a031826a46",
-        "visitCategory": "place-visit"
-      },
-      "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-151.jpg": {
-        "original": true,
-        "sourceFile": "Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31.jpeg",
-        "sourceSHA256": "b0ac8434d0bb385d973600dd52d2b95d6ce57659b391ad39f88027a05a207abf",
         "visitCategory": "place-visit"
       },
       "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-152.jpg": {
