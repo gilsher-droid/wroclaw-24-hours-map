@@ -287,6 +287,30 @@
       "asset": "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-121.jpg",
       "outputSHA256": "98e2c1f78b5a85a5310e79629ae8f313fa7e7f23f1dc8f58efb366d4b2ffb66f",
       "reason": "Personal posed or identifiable visitor imagery held conservatively after final visual privacy review; user prohibits family photos; original preserved"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/church of peace/WhatsApp Image 2026-06-19 at 21.06.42 (7).jpeg",
+      "sha256": "c8c674cdd2513cd65306e838263b84fd85327217262cbbf5cf28b8230a220413",
+      "type": "photo",
+      "group": "ksiaz-swidnica",
+      "guide": false,
+      "excluded": true,
+      "place": "church-of-peace-swidnica",
+      "asset": "/assets/church-of-peace-swidnica-08.jpg",
+      "outputSHA256": "c8c674cdd2513cd65306e838263b84fd85327217262cbbf5cf28b8230a220413",
+      "reason": "Posed personal portrait excluded under standing privacy instruction"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/church of peace/WhatsApp Image 2026-06-19 at 21.06.42 (8).jpeg",
+      "sha256": "80bd376bf0db0f90006daf830a9fc8d95bfdf6beaadc6eb0f8f0719f067c6289",
+      "type": "photo",
+      "group": "ksiaz-swidnica",
+      "guide": false,
+      "excluded": true,
+      "place": "church-of-peace-swidnica",
+      "asset": "/assets/church-of-peace-swidnica-09.jpg",
+      "outputSHA256": "80bd376bf0db0f90006daf830a9fc8d95bfdf6beaadc6eb0f8f0719f067c6289",
+      "reason": "Posed personal portrait excluded under standing privacy instruction"
     }
   ]
 }

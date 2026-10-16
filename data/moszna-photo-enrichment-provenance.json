@@ -13,16 +13,6 @@
       "original": true
     },
     {
-      "asset": "/assets/moszna-enrichment/moszna-castle-003.jpg",
-      "placeId": "moszna-castle",
-      "originalIndex": 3,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (2).jpeg",
-      "sourceSHA256": "ec648c8eef8b3239ceaacb8dfdf933a5f48f90d068e897bf8b7a56fd94ed10fb",
-      "sourcePixelSHA256": "fd41f0fc9d02380a73916e41d685b8768c5818fa178e0a50872bff88c9a676ac",
-      "assetSHA256": "596d881de35247c4fddbfcf834d259b8498e9379e4549e26efeee7d570c09cea",
-      "original": true
-    },
-    {
       "asset": "/assets/moszna-enrichment/moszna-castle-004.jpg",
       "placeId": "moszna-castle",
       "originalIndex": 4,
@@ -30,16 +20,6 @@
       "sourceSHA256": "62a0ac7b2d7633defa857a794047f67d9ac95c254dad916d7c6305f6b46ebc56",
       "sourcePixelSHA256": "27e6db6c7ee7d106357c1b040dcb4479e24d2135393ad4f4e395c92a567a3791",
       "assetSHA256": "e8fe86072e8e1d251794ef076430aed10f7ae655b0320533d50e06d375e0337f",
-      "original": true
-    },
-    {
-      "asset": "/assets/moszna-enrichment/moszna-castle-006.jpg",
-      "placeId": "moszna-castle",
-      "originalIndex": 6,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.28 (1).jpeg",
-      "sourceSHA256": "ccdd424734085d27e157827ba467012134e8ec27caa17201ed5349dd680171c3",
-      "sourcePixelSHA256": "6866cbc1fb2862654f7bba604b1926e3ef8d2eca680f1ff50c7a9ab53bdc846d",
-      "assetSHA256": "88bfbecfb74be826827a7ccdf23fea8d5dec1841bb2e1e16b6fead2ed870160e",
       "original": true
     },
     {
@@ -60,16 +40,6 @@
       "sourceSHA256": "820634f81bc6461ff0779a463d3a723dc543c169df6f55eebac4bc59435d91aa",
       "sourcePixelSHA256": "e7320de35e52804dafaa33bd932875e462f3dc6caaa13becb89c70eeaba7f36f",
       "assetSHA256": "6b0b86acccf0bc1e2b968111a2ca9c0b32bbcb305e28edf4786a41dde1e77637",
-      "original": true
-    },
-    {
-      "asset": "/assets/moszna-enrichment/moszna-castle-011.jpg",
-      "placeId": "moszna-castle",
-      "originalIndex": 11,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.53 (2).jpeg",
-      "sourceSHA256": "e8818340d3c42bf1a90afd39548ae7fd626bacce6d050d98106c8ed4bcbc3890",
-      "sourcePixelSHA256": "1c644241367d85c8b64c8690ba5b492f1cf4076c59506c198ead9ebe3f9a0718",
-      "assetSHA256": "cb9880249df9373083a645a6a66e83791f85e00d2d064f6ae60ce0e94920c722",
       "original": true
     },
     {
@@ -363,16 +333,6 @@
       "original": true
     },
     {
-      "asset": "/assets/moszna-enrichment/moszna-castle-014.jpg",
-      "placeId": "moszna-castle",
-      "originalIndex": 14,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (3).jpeg",
-      "sourceSHA256": "df6ecb15e38f0893e7776adba23d77a60a0de0d91180bd2e5d96974214f5939a",
-      "sourcePixelSHA256": "1e8d16591ce381788f104e4eb0e7e3cb617830d7aab9b62b770e9be0b5748233",
-      "assetSHA256": "9dd46f7c983ab801229564a9c31733201596d47859d8864ee00ea9e93abeb117",
-      "original": true
-    },
-    {
       "asset": "/assets/moszna-enrichment/moszna-castle-015.jpg",
       "placeId": "moszna-castle",
       "originalIndex": 15,
@@ -393,16 +353,6 @@
       "original": true
     },
     {
-      "asset": "/assets/moszna-enrichment/moszna-castle-021.jpg",
-      "placeId": "moszna-castle",
-      "originalIndex": 21,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (3).jpeg",
-      "sourceSHA256": "44a570d4896654e82e364493bb23fca995f4066305eaa9ed8fad1c313e4bb3a2",
-      "sourcePixelSHA256": "c8a7f7480541d6b5338559be332d51134ff9dc82d7806f61c8c5c876ad6a00c8",
-      "assetSHA256": "533b98f7c0bfdf4bbda2ebf68a9eab5f32989496c02aeae977071ee439349293",
-      "original": true
-    },
-    {
       "asset": "/assets/moszna-enrichment/moszna-castle-022.jpg",
       "placeId": "moszna-castle",
       "originalIndex": 22,
@@ -420,16 +370,6 @@
       "sourceSHA256": "f7413152a380fd5b538bfe8e680b86ca94626f1b057519a84673318a07ac475e",
       "sourcePixelSHA256": "a106d5c1632dc055367e76e98013a98f575dd81938ced736e179c8a0a7163800",
       "assetSHA256": "12241a97a42d8df38e857f20f2ed538a1b9cb49594fee6d1714f7bf66d3923c1",
-      "original": true
-    },
-    {
-      "asset": "/assets/moszna-enrichment/moszna-castle-028.jpg",
-      "placeId": "moszna-castle",
-      "originalIndex": 28,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.23 (1).jpeg",
-      "sourceSHA256": "5a227fd4bcbf749061167f34eb0668de226c57653b6184f1340eebb49cebc8e3",
-      "sourcePixelSHA256": "337901e728e20cc4201a47597743b4310c0bb08aec521ef2f43a4233ab0a5031",
-      "assetSHA256": "110c5294b5140ac35c527a0b7a64c405cd27b076339291658a0ba227b6255c62",
       "original": true
     },
     {
@@ -463,16 +403,6 @@
       "original": true
     },
     {
-      "asset": "/assets/moszna-enrichment/moszna-castle-066.jpg",
-      "placeId": "moszna-castle",
-      "originalIndex": 66,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (6).jpeg",
-      "sourceSHA256": "17c32c24964d95cae1abf7ba1d4c89654ca157bc0cc8ea56bfb35cae9d3bb2cc",
-      "sourcePixelSHA256": "bed4c9f435e5e880a0d20708e5de306dddc147af7627635b7c996f04ad578964",
-      "assetSHA256": "eb051ae27ff92231587af9e234d91b8e592ee55338abaa0320c507630c1dfec9",
-      "original": true
-    },
-    {
       "asset": "/assets/moszna-enrichment/moszna-castle-067.jpg",
       "placeId": "moszna-castle",
       "originalIndex": 67,
@@ -503,16 +433,6 @@
       "original": true
     },
     {
-      "asset": "/assets/moszna-enrichment/moszna-castle-park-026.jpg",
-      "placeId": "moszna-castle-park",
-      "originalIndex": 26,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22 (4).jpeg",
-      "sourceSHA256": "545bf8cf73f10f2ae7baee0e0d63fe1be7408b1dc5bafd68420f00b9769db1ae",
-      "sourcePixelSHA256": "88e367a4d57d43374a3fe29206d44f9bb143584e70fce8071c2aedd8b077ded7",
-      "assetSHA256": "8aed3eae615ae130d74fc0c7baad37910e49fe6b82d4362cd41764857ead4daf",
-      "original": true
-    },
-    {
       "asset": "/assets/moszna-enrichment/moszna-castle-park-027.jpg",
       "placeId": "moszna-castle-park",
       "originalIndex": 27,
@@ -540,16 +460,6 @@
       "sourceSHA256": "f44a9c220282d973686ac472f1941e1754f5ee7ecabd30e072a064f7c8f3fc6a",
       "sourcePixelSHA256": "2398821a1d505dd5072dd53dad5c44246ffbf7b022538cba0bb8514a4ac23cba",
       "assetSHA256": "0d1926f065a1e2c4e338212cf9cc53afe7c513938261fb47becc0fe2855fd892",
-      "original": true
-    },
-    {
-      "asset": "/assets/moszna-enrichment/moszna-castle-park-042.jpg",
-      "placeId": "moszna-castle-park",
-      "originalIndex": 42,
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (17).jpeg",
-      "sourceSHA256": "235b52f8c56a814b453852dac99a764649812fe107ca55ede00504467d44e9ee",
-      "sourcePixelSHA256": "3041c06d28624a370a28262618cc1453b69ee5bc7b41085c8ae561bf5643d8e5",
-      "assetSHA256": "04112646e641d0de3cdb31586d75d50223a40c4dd969b063fb72e4080d849a46",
       "original": true
     },
     {
@@ -902,5 +812,98 @@
       "duration": "1.466667",
       "decision": "Deferred possible blooper, per user Oct16; excluded from site and guide gallery"
     }
-  ]
+  ],
+  "curatedOut": [
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-003.jpg",
+      "placeId": "moszna-castle",
+      "originalIndex": 3,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (2).jpeg",
+      "sourceSHA256": "ec648c8eef8b3239ceaacb8dfdf933a5f48f90d068e897bf8b7a56fd94ed10fb",
+      "sourcePixelSHA256": "fd41f0fc9d02380a73916e41d685b8768c5818fa178e0a50872bff88c9a676ac",
+      "assetSHA256": "596d881de35247c4fddbfcf834d259b8498e9379e4549e26efeee7d570c09cea",
+      "original": true
+    },
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-006.jpg",
+      "placeId": "moszna-castle",
+      "originalIndex": 6,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.28 (1).jpeg",
+      "sourceSHA256": "ccdd424734085d27e157827ba467012134e8ec27caa17201ed5349dd680171c3",
+      "sourcePixelSHA256": "6866cbc1fb2862654f7bba604b1926e3ef8d2eca680f1ff50c7a9ab53bdc846d",
+      "assetSHA256": "88bfbecfb74be826827a7ccdf23fea8d5dec1841bb2e1e16b6fead2ed870160e",
+      "original": true
+    },
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-011.jpg",
+      "placeId": "moszna-castle",
+      "originalIndex": 11,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.53 (2).jpeg",
+      "sourceSHA256": "e8818340d3c42bf1a90afd39548ae7fd626bacce6d050d98106c8ed4bcbc3890",
+      "sourcePixelSHA256": "1c644241367d85c8b64c8690ba5b492f1cf4076c59506c198ead9ebe3f9a0718",
+      "assetSHA256": "cb9880249df9373083a645a6a66e83791f85e00d2d064f6ae60ce0e94920c722",
+      "original": true
+    },
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-014.jpg",
+      "placeId": "moszna-castle",
+      "originalIndex": 14,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (3).jpeg",
+      "sourceSHA256": "df6ecb15e38f0893e7776adba23d77a60a0de0d91180bd2e5d96974214f5939a",
+      "sourcePixelSHA256": "1e8d16591ce381788f104e4eb0e7e3cb617830d7aab9b62b770e9be0b5748233",
+      "assetSHA256": "9dd46f7c983ab801229564a9c31733201596d47859d8864ee00ea9e93abeb117",
+      "original": true
+    },
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-021.jpg",
+      "placeId": "moszna-castle",
+      "originalIndex": 21,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (3).jpeg",
+      "sourceSHA256": "44a570d4896654e82e364493bb23fca995f4066305eaa9ed8fad1c313e4bb3a2",
+      "sourcePixelSHA256": "c8a7f7480541d6b5338559be332d51134ff9dc82d7806f61c8c5c876ad6a00c8",
+      "assetSHA256": "533b98f7c0bfdf4bbda2ebf68a9eab5f32989496c02aeae977071ee439349293",
+      "original": true
+    },
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-028.jpg",
+      "placeId": "moszna-castle",
+      "originalIndex": 28,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.23 (1).jpeg",
+      "sourceSHA256": "5a227fd4bcbf749061167f34eb0668de226c57653b6184f1340eebb49cebc8e3",
+      "sourcePixelSHA256": "337901e728e20cc4201a47597743b4310c0bb08aec521ef2f43a4233ab0a5031",
+      "assetSHA256": "110c5294b5140ac35c527a0b7a64c405cd27b076339291658a0ba227b6255c62",
+      "original": true
+    },
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-066.jpg",
+      "placeId": "moszna-castle",
+      "originalIndex": 66,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (6).jpeg",
+      "sourceSHA256": "17c32c24964d95cae1abf7ba1d4c89654ca157bc0cc8ea56bfb35cae9d3bb2cc",
+      "sourcePixelSHA256": "bed4c9f435e5e880a0d20708e5de306dddc147af7627635b7c996f04ad578964",
+      "assetSHA256": "eb051ae27ff92231587af9e234d91b8e592ee55338abaa0320c507630c1dfec9",
+      "original": true
+    },
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-park-026.jpg",
+      "placeId": "moszna-castle-park",
+      "originalIndex": 26,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22 (4).jpeg",
+      "sourceSHA256": "545bf8cf73f10f2ae7baee0e0d63fe1be7408b1dc5bafd68420f00b9769db1ae",
+      "sourcePixelSHA256": "88e367a4d57d43374a3fe29206d44f9bb143584e70fce8071c2aedd8b077ded7",
+      "assetSHA256": "8aed3eae615ae130d74fc0c7baad37910e49fe6b82d4362cd41764857ead4daf",
+      "original": true
+    },
+    {
+      "asset": "/assets/moszna-enrichment/moszna-castle-park-042.jpg",
+      "placeId": "moszna-castle-park",
+      "originalIndex": 42,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (17).jpeg",
+      "sourceSHA256": "235b52f8c56a814b453852dac99a764649812fe107ca55ede00504467d44e9ee",
+      "sourcePixelSHA256": "3041c06d28624a370a28262618cc1453b69ee5bc7b41085c8ae561bf5643d8e5",
+      "assetSHA256": "04112646e641d0de3cdb31586d75d50223a40c4dd969b063fb72e4080d849a46",
+      "original": true
+    }
+  ],
+  "visualCurationManifest": "data/excursion-gallery-curation-oct16.json"
 }

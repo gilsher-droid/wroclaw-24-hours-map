@@ -49,18 +49,6 @@
       "outputSHA256": "2d3b7a6f0c146e2402b2a734f4797c8a45ff240bd6f4d99489ae8e6e1e8d5388"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.14.jpeg",
-      "sha256": "ca6105393bda2f2f5de15746f13b43f4a0626e8d4963ee5a0d8443a23bf9f2a6",
-      "type": "photo",
-      "group": "jawor",
-      "guide": false,
-      "excluded": false,
-      "place": "jawor-church-of-peace",
-      "contactIndex": 11,
-      "asset": "/assets/excursion-three/jawor-church-of-peace-05.jpg",
-      "outputSHA256": "003ef2112509b0240d6e0646afdadb53be7b9d28f1256f57a1810e349cf631bf"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15 (1).jpeg",
       "sha256": "35d35143ff5bc56da6a459aeb34a78768faec8cce1290cbe26dff5057c98fb45",
       "type": "photo",
@@ -119,18 +107,6 @@
       "contactIndex": 16,
       "asset": "/assets/excursion-three/jawor-church-of-peace-10.jpg",
       "outputSHA256": "2211237ccba65cdd4296bd02f4272d7d7c4f37b449177f8389008315c4878cb7"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15.jpeg",
-      "sha256": "261c5088a60991c33d77fed307f0638e3d9278e2097cec844c43a3e873806d7b",
-      "type": "photo",
-      "group": "jawor",
-      "guide": false,
-      "excluded": false,
-      "place": "jawor-church-of-peace",
-      "contactIndex": 17,
-      "asset": "/assets/excursion-three/jawor-church-of-peace-11.jpg",
-      "outputSHA256": "96f5d063d9ee5dcbc1670b25e0400da815b8401e590f119a9afa92ced4939a49"
     },
     {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.48 (1).jpeg",
@@ -227,18 +203,6 @@
       "contactIndex": 25,
       "asset": "/assets/excursion-three/jawor-church-of-peace-19.jpg",
       "outputSHA256": "4a5d188d956c883a26521965734c8d82bdce87e1e85a8808eee4e9220b7db87d"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (4).jpeg",
-      "sha256": "09f6ef651973353b390ccfc6fec9519a9d2ea12eb0743bef19d70a3943a89d53",
-      "type": "photo",
-      "group": "jawor",
-      "guide": false,
-      "excluded": false,
-      "place": "jawor-church-of-peace",
-      "contactIndex": 26,
-      "asset": "/assets/excursion-three/jawor-church-of-peace-20.jpg",
-      "outputSHA256": "47c3ac3a0456e5a528d43e801bc5037bdbf4c718b9eaaba39ea8ede74ea60061"
     },
     {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (5).jpeg",
@@ -793,18 +757,6 @@
       "outputSHA256": "75f93f05db979da90dcafc789d3e3b6cc8c62fb9b453974f0a73df83b91515e4"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (20).jpeg",
-      "sha256": "d9d71c7ba81dd2431ba28f965c9cd4af2301c6922527b3c387b80145f6f59a7a",
-      "type": "photo",
-      "group": "jawor",
-      "guide": false,
-      "excluded": false,
-      "place": "jawor-piast-castle",
-      "contactIndex": 67,
-      "asset": "/assets/excursion-three/jawor-piast-castle-11.jpg",
-      "outputSHA256": "39b3667d097ef1793a90a5ca987b3a587b03c192440a979a3d8dcf49f69c09b0"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (21).jpeg",
       "sha256": "63bf2955f38b10e57b327b13d15323486c0c691d97965f46f3c8ad2286b19280",
       "type": "photo",
@@ -949,18 +901,6 @@
       "outputSHA256": "4c1eb703d950a4be3ae976b746fe921842979cb66f3aef0f902fa38d22087063"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
-      "sha256": "cc5c0d762c5e9e97d630e60cc556f276834fb0b9d40d43ca78c860fe8e723f76",
-      "type": "photo",
-      "group": "karpacz",
-      "guide": false,
-      "excluded": false,
-      "place": "karpacz-centre",
-      "contactIndex": 12,
-      "asset": "/assets/excursion-three/karpacz-centre-12.jpg",
-      "outputSHA256": "467a7c4a4d5050fe57632a6723eb5d521e1cc557e075318d8df5db2768e26f51"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (3).jpeg",
       "sha256": "4ec3dc74d4a3adc631b0cd0083be796fd747ab62ea0a0dd6c871f75207faa7c2",
       "type": "photo",
@@ -1007,18 +947,6 @@
       "contactIndex": 17,
       "asset": "/assets/excursion-three/karpacz-centre-17.jpg",
       "outputSHA256": "f2d8c32a30e6d848ceef85b490a5f1a854528ba2a0e7ee3298f92a33ca1f6aa4"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36.jpeg",
-      "sha256": "15373cf89580661b02d7030f41d5b1752e3b13f2301e89c8492f0f3fa7b76ed6",
-      "type": "photo",
-      "group": "karpacz",
-      "guide": false,
-      "excluded": false,
-      "place": "karpacz-centre",
-      "contactIndex": 18,
-      "asset": "/assets/excursion-three/karpacz-centre-18.jpg",
-      "outputSHA256": "30db14d40efb67d733181eee30e3fb8fcfa41cb6ead14e406edd2daf2c585f32"
     },
     {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.41.jpeg",
@@ -1141,18 +1069,6 @@
       "outputSHA256": "2db9feb6a8a8418ac128a034409a9e47ad9d53ed2d4174634a6ff0bbc2abcd43"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57.jpeg",
-      "sha256": "2a576a62131c2748652ae5235437f36444a0a33b7c0eb212f013d229c03f34db",
-      "type": "photo",
-      "group": "wang",
-      "guide": false,
-      "excluded": false,
-      "place": "wang-church",
-      "contactIndex": 12,
-      "asset": "/assets/excursion-three/wang-church-12.jpg",
-      "outputSHA256": "d6320aa060e4de2859b4435c885ece13fd9466a4af265f70574e70ea57b3e8d1"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01 (1).jpeg",
       "sha256": "26e25100e0a2af43ccc1ca2244dd2cd578ca1054c3179f0620e94e81b7e09a35",
       "type": "photo",
@@ -1187,18 +1103,6 @@
       "contactIndex": 15,
       "asset": "/assets/excursion-three/wang-church-15.jpg",
       "outputSHA256": "c8fe0cda6fa163b01ff22021f2231bb661dc7b7c914bd061a57d6b06e65e1898"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53 (1).jpeg",
-      "sha256": "3bd32254e07e169e80ef13ccd6991f1e07964f1f5d6a4e84e19d8fb8cf9ff63f",
-      "type": "photo",
-      "group": "wang",
-      "guide": false,
-      "excluded": false,
-      "place": "wang-church",
-      "contactIndex": 16,
-      "asset": "/assets/excursion-three/wang-church-16.jpg",
-      "outputSHA256": "a714e4cb2108869a218001ee97ec12939d9de9ee8b207599407acdd16de9b79a"
     },
     {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.33.02.jpeg",
@@ -1297,18 +1201,6 @@
       "outputSHA256": "938ae46abed883ab7f8e468b54cb220da28dc1f830e536dca3bd90991a6cc7f9"
     },
     {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11.jpeg",
-      "sha256": "3adbd3e304f22376282b588daf57962940c8bbff3b8d06d8a9c7a17fd837905a",
-      "type": "photo",
-      "group": "jelenia",
-      "guide": false,
-      "excluded": false,
-      "place": "jelenia-gora-market-square",
-      "contactIndex": 7,
-      "asset": "/assets/excursion-three/jelenia-gora-market-square-08.jpg",
-      "outputSHA256": "54c256244257bc9b7682ec18d1339238ae74807f4e746f7dc0b4cd090d6ec4f4"
-    },
-    {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (2).jpeg",
       "sha256": "e5211960b9fd0f2b2362ba2889060f916c4592a8487d920a4af89f964d1f6c78",
       "type": "photo",
@@ -1319,18 +1211,6 @@
       "contactIndex": 9,
       "asset": "/assets/excursion-three/jelenia-gora-market-square-09.jpg",
       "outputSHA256": "5456643b2be81361f70adf18d5cabf2ed008c994a2c2f9e5a4b47dd522a1cde4"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (3).jpeg",
-      "sha256": "d2b910904df9ed91977a6d4101163baf7ed050ad9cf335bbfbf0ac1fd0dbf066",
-      "type": "photo",
-      "group": "jelenia",
-      "guide": false,
-      "excluded": false,
-      "place": "jelenia-gora-market-square",
-      "contactIndex": 10,
-      "asset": "/assets/excursion-three/jelenia-gora-market-square-10.jpg",
-      "outputSHA256": "cb9b3021d1fcce7ee9b9ca51f52c67e10eb7e2fc180f6764bd987e51861bf586"
     },
     {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (4).jpeg",
@@ -1451,18 +1331,6 @@
       "contactIndex": 20,
       "asset": "/assets/excursion-three/jelenia-gora-market-square-20.jpg",
       "outputSHA256": "cf9c30e53838dba00d9f70fe37918451806479f396f7cfbcb2da97e61b8dab59"
-    },
-    {
-      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30 (1).jpeg",
-      "sha256": "20ea3e31fb66a2ccc25c4092be11e360702077b6038cc0fb2d31c219deae1478",
-      "type": "photo",
-      "group": "jelenia",
-      "guide": false,
-      "excluded": false,
-      "place": "jelenia-gora-market-square",
-      "contactIndex": 21,
-      "asset": "/assets/excursion-three/jelenia-gora-market-square-21.jpg",
-      "outputSHA256": "32257e79fd74d2178b531a8364d27484fd2789fe73c3aae363b14105528f8c59"
     },
     {
       "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30 (2).jpeg",
@@ -2334,5 +2202,140 @@
       "excluded": false,
       "duplicateOf": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.39 (1).jpeg"
     }
-  ]
+  ],
+  "curatedOut": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.14.jpeg",
+      "sha256": "ca6105393bda2f2f5de15746f13b43f4a0626e8d4963ee5a0d8443a23bf9f2a6",
+      "type": "photo",
+      "group": "jawor",
+      "guide": false,
+      "excluded": false,
+      "place": "jawor-church-of-peace",
+      "contactIndex": 11,
+      "asset": "/assets/excursion-three/jawor-church-of-peace-05.jpg",
+      "outputSHA256": "003ef2112509b0240d6e0646afdadb53be7b9d28f1256f57a1810e349cf631bf"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15.jpeg",
+      "sha256": "261c5088a60991c33d77fed307f0638e3d9278e2097cec844c43a3e873806d7b",
+      "type": "photo",
+      "group": "jawor",
+      "guide": false,
+      "excluded": false,
+      "place": "jawor-church-of-peace",
+      "contactIndex": 17,
+      "asset": "/assets/excursion-three/jawor-church-of-peace-11.jpg",
+      "outputSHA256": "96f5d063d9ee5dcbc1670b25e0400da815b8401e590f119a9afa92ced4939a49"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (4).jpeg",
+      "sha256": "09f6ef651973353b390ccfc6fec9519a9d2ea12eb0743bef19d70a3943a89d53",
+      "type": "photo",
+      "group": "jawor",
+      "guide": false,
+      "excluded": false,
+      "place": "jawor-church-of-peace",
+      "contactIndex": 26,
+      "asset": "/assets/excursion-three/jawor-church-of-peace-20.jpg",
+      "outputSHA256": "47c3ac3a0456e5a528d43e801bc5037bdbf4c718b9eaaba39ea8ede74ea60061"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (20).jpeg",
+      "sha256": "d9d71c7ba81dd2431ba28f965c9cd4af2301c6922527b3c387b80145f6f59a7a",
+      "type": "photo",
+      "group": "jawor",
+      "guide": false,
+      "excluded": false,
+      "place": "jawor-piast-castle",
+      "contactIndex": 67,
+      "asset": "/assets/excursion-three/jawor-piast-castle-11.jpg",
+      "outputSHA256": "39b3667d097ef1793a90a5ca987b3a587b03c192440a979a3d8dcf49f69c09b0"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
+      "sha256": "cc5c0d762c5e9e97d630e60cc556f276834fb0b9d40d43ca78c860fe8e723f76",
+      "type": "photo",
+      "group": "karpacz",
+      "guide": false,
+      "excluded": false,
+      "place": "karpacz-centre",
+      "contactIndex": 12,
+      "asset": "/assets/excursion-three/karpacz-centre-12.jpg",
+      "outputSHA256": "467a7c4a4d5050fe57632a6723eb5d521e1cc557e075318d8df5db2768e26f51"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36.jpeg",
+      "sha256": "15373cf89580661b02d7030f41d5b1752e3b13f2301e89c8492f0f3fa7b76ed6",
+      "type": "photo",
+      "group": "karpacz",
+      "guide": false,
+      "excluded": false,
+      "place": "karpacz-centre",
+      "contactIndex": 18,
+      "asset": "/assets/excursion-three/karpacz-centre-18.jpg",
+      "outputSHA256": "30db14d40efb67d733181eee30e3fb8fcfa41cb6ead14e406edd2daf2c585f32"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57.jpeg",
+      "sha256": "2a576a62131c2748652ae5235437f36444a0a33b7c0eb212f013d229c03f34db",
+      "type": "photo",
+      "group": "wang",
+      "guide": false,
+      "excluded": false,
+      "place": "wang-church",
+      "contactIndex": 12,
+      "asset": "/assets/excursion-three/wang-church-12.jpg",
+      "outputSHA256": "d6320aa060e4de2859b4435c885ece13fd9466a4af265f70574e70ea57b3e8d1"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53 (1).jpeg",
+      "sha256": "3bd32254e07e169e80ef13ccd6991f1e07964f1f5d6a4e84e19d8fb8cf9ff63f",
+      "type": "photo",
+      "group": "wang",
+      "guide": false,
+      "excluded": false,
+      "place": "wang-church",
+      "contactIndex": 16,
+      "asset": "/assets/excursion-three/wang-church-16.jpg",
+      "outputSHA256": "a714e4cb2108869a218001ee97ec12939d9de9ee8b207599407acdd16de9b79a"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11.jpeg",
+      "sha256": "3adbd3e304f22376282b588daf57962940c8bbff3b8d06d8a9c7a17fd837905a",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": false,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 7,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-08.jpg",
+      "outputSHA256": "54c256244257bc9b7682ec18d1339238ae74807f4e746f7dc0b4cd090d6ec4f4"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (3).jpeg",
+      "sha256": "d2b910904df9ed91977a6d4101163baf7ed050ad9cf335bbfbf0ac1fd0dbf066",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": false,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 10,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-10.jpg",
+      "outputSHA256": "cb9b3021d1fcce7ee9b9ca51f52c67e10eb7e2fc180f6764bd987e51861bf586"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30 (1).jpeg",
+      "sha256": "20ea3e31fb66a2ccc25c4092be11e360702077b6038cc0fb2d31c219deae1478",
+      "type": "photo",
+      "group": "jelenia",
+      "guide": false,
+      "excluded": false,
+      "place": "jelenia-gora-market-square",
+      "contactIndex": 21,
+      "asset": "/assets/excursion-three/jelenia-gora-market-square-21.jpg",
+      "outputSHA256": "32257e79fd74d2178b531a8364d27484fd2789fe73c3aae363b14105528f8c59"
+    }
+  ],
+  "visualCurationManifest": "data/excursion-gallery-curation-oct16.json"
 }

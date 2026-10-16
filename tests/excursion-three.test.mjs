@@ -20,7 +20,7 @@ test('Third excursion preserves the human visit order with Wang separate from Ka
 });
 test('Excursion photos have unique verified source hashes and intact optimized assets',()=>{
  const w=load(),provenance=JSON.parse(readFileSync('data/excursion-three-media-provenance.json'));const photos=provenance.photos;
- assert.equal(photos.length,131);assert.equal(new Set(photos.map(x=>x.sha256)).size,photos.length);
+ assert.equal(photos.length,120);assert.equal(new Set(photos.map(x=>x.sha256)).size,photos.length);
  for(const photo of photos){assert.ok(w.WROC_CATALOG.getPlace(photo.place).media.photos.includes(photo.asset));const f=photo.asset.slice(1);assert.ok(existsSync(f));assert.equal(createHash('sha256').update(readFileSync(f)).digest('hex'),photo.outputSHA256);assert.ok(!photo.source.includes('פספוסים'));}
  assert.ok(provenance.duplicates.length>0);assert.equal(provenance.excluded.filter(x=>x.excluded).length,12);
 });
@@ -29,12 +29,12 @@ test('Jawor guides keep published native captions and source timing for all five
  const proof=JSON.parse(readFileSync('data/jawor-guide-caption-provenance.json'));
  for(const lang of ['he','en','pl','de','cs']){const track=proof.tracks[lang];assert.equal(track.status,'Published');assert.equal(track.edition,lang==='he'?'he':'en');const edition=proof.editions[track.edition];assert.equal(edition.visibility,'Public');assert.match(edition.sourceSHA256,/^[a-f0-9]{64}$/);assert.equal(createHash('sha256').update(readFileSync(track.srtFile)).digest('hex'),track.srtSHA256);let end=0;for(const cue of track.cues){assert.ok(cue.start>=end&&cue.end>cue.start&&cue.end<=edition.durationSeconds);end=cue.end;}}
 });
-test('All 44 distinct visit clips resolve to verified Public YouTube entries without raw website videos',()=>{
+test('All 44 published visit uploads and 38 curated clips resolve to verified Public YouTube entries without raw website videos',()=>{
  const w=load(),provenance=JSON.parse(readFileSync('data/excursion-three-visit-provenance.json'));const registry=JSON.parse(readFileSync('data/youtube-media-migration.json'));
  assert.equal(provenance.visits.length,44);assert.equal(new Set(provenance.visits.map(x=>x.youtube)).size,44);
- const expected={'jawor-church-of-peace':1,'karpacz-centre':13,'wang-church':23,'jelenia-gora-market-square':7};
+ const expected={'jawor-church-of-peace':1,'karpacz-centre':13,'wang-church':17,'jelenia-gora-market-square':7};
  for(const [id,count]of Object.entries(expected))assert.equal(w.WROC_CATALOG.getPlace(id).media.videos.length,count);
- for(const row of provenance.visits){assert.equal(row.visibility,'Public');assert.equal(row.checks,'completed, no issues');assert.match(row.youtube,/^https:\/\/youtube.com\/shorts\/[A-Za-z0-9_-]{11}$/);assert.ok(w.WROC_CATALOG.getPlace(row.place).media.videos.includes(row.youtube));assert.equal(registry[row.registryKey].status,'public');assert.equal(registry[row.registryKey].youtube,row.youtube);assert.equal(registry[row.registryKey].sourceSHA256,row.sourceSHA256);assert.ok(!existsSync(row.registryKey.slice(1)),'Registry alias must not create a raw website video');}
+ for(const row of provenance.visits){assert.equal(row.visibility,'Public');assert.equal(row.checks,'completed, no issues');assert.match(row.youtube,/^https:\/\/youtube.com\/shorts\/[A-Za-z0-9_-]{11}$/);assert.equal(w.WROC_CATALOG.getPlace(row.place).media.videos.includes(row.youtube),row.websiteIncluded!==false);assert.equal(registry[row.registryKey].status,'public');assert.equal(registry[row.registryKey].youtube,row.youtube);assert.equal(registry[row.registryKey].sourceSHA256,row.sourceSHA256);assert.ok(!existsSync(row.registryKey.slice(1)),'Registry alias must not create a raw website video');}
 });
 
 test('Karpacz, Wang and Jelenia guides preserve verified native tracks and original source checksums',()=>{
