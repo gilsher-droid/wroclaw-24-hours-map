@@ -3080,6 +3080,7 @@
     }
   },
   "media": {
+    "guideVideos": {"he": "https://youtube.com/shorts/MinjLfDR-nc", "en": "https://youtube.com/shorts/I0yVmZFViio"},
     "photos": [
       "/assets/excursion-three/wang-church-01.jpg",
       "/assets/excursion-three/wang-church-02.jpg",

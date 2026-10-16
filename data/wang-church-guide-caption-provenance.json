@@ -1,0 +1,481 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "wang-church"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/המדריך שלנו/המדריך שלנו בעברית בוונג.mp4",
+      "sourceSHA256": "613be56446d5d063967a03496d5a2edf861e53586f8d68dfed1ba3fc7eb5c948",
+      "uploadSHA256": "613be56446d5d063967a03496d5a2edf861e53586f8d68dfed1ba3fc7eb5c948",
+      "videoId": "MinjLfDR-nc",
+      "visibility": "Public",
+      "durationSeconds": 102.283333,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/המדריך שלנו/המדריך שלנו באנגלית בוונג.mp4",
+      "sourceSHA256": "7ee1f5bb1f81127129f259866528db934c1d093af8c645371892fbaaa73309a1",
+      "uploadSHA256": "7ee1f5bb1f81127129f259866528db934c1d093af8c645371892fbaaa73309a1",
+      "videoId": "I0yVmZFViio",
+      "visibility": "Public",
+      "durationSeconds": 95.3,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "assets/captions/wang-church-he.srt",
+      "srtSHA256": "d1a86b4d97ca53d66e09ac64511002ed2091764d7c8609c34fd18ce0ba77991b",
+      "cues": [
+        {
+          "start": 0,
+          "end": 1.78,
+          "text": "צ׳שץ׳!"
+        },
+        {
+          "start": 2.4,
+          "end": 11.8,
+          "text": "אני נמצא כרגע במקום מדהים, כנסיית וואנג, בנורבגיה."
+        },
+        {
+          "start": 11.8,
+          "end": 16.5,
+          "text": "אנחנו לא בנורבגיה, אנחנו בפולין."
+        },
+        {
+          "start": 16.7,
+          "end": 22.88,
+          "text": "אבל הכנסייה שאתם רואים כאן מאחוריי היא כנסייה שהגיעה לכאן מנורבגיה."
+        },
+        {
+          "start": 22.88,
+          "end": 27.9,
+          "text": "היא נבנתה במאה השתים עשרה בעיר בדרום נורבגיה."
+        },
+        {
+          "start": 27.9,
+          "end": 35.2,
+          "text": "התושבים רצו לחדש את הכנסייה ולא היה להם כסף, אז הם מכרו אותה."
+        },
+        {
+          "start": 35.3,
+          "end": 40.6,
+          "text": "כל החלקים שלה הגיעו לכאן בשנת 1842,"
+        },
+        {
+          "start": 40.6,
+          "end": 48.7,
+          "text": "כאשר מלך פרוסיה, פרדיננד הרביעי, רכש את הכנסייה."
+        },
+        {
+          "start": 48.8,
+          "end": 54,
+          "text": "פירקו אותה לחלקים והביאו אותה לכאן לפולין, והקימו אותה ממש כאן"
+        },
+        {
+          "start": 54,
+          "end": 57.04,
+          "text": "על הרי קרקונושה, ההרים הענקיים של פולין."
+        },
+        {
+          "start": 57.04,
+          "end": 64.5,
+          "text": "הכנסייה הזאת נמצאת בחצי הגובה בין העיר קרפץ לבין פסגת ההר שנקראת שניישקה,"
+        },
+        {
+          "start": 64.5,
+          "end": 67.1,
+          "text": "שבעצם זו הפסגה הגבוהה ביותר בפולין."
+        },
+        {
+          "start": 67.1,
+          "end": 70.8,
+          "text": "אנחנו בגובה של משהו כמו 880 מטר מעל הקרקע."
+        },
+        {
+          "start": 70.8,
+          "end": 74.64,
+          "text": "זאת אומרת שהפעמון שמצלצל במגדל הפעמונים הזה"
+        },
+        {
+          "start": 74.64,
+          "end": 80.38,
+          "text": "הוא בעצם הפעמון הגבוה ביותר בפולין שמצלצל מכנסייה כלשהי."
+        },
+        {
+          "start": 82.16,
+          "end": 86.1,
+          "text": "הנוף מדהים, האוויר מדהים, הטבע מדהים."
+        },
+        {
+          "start": 86.1,
+          "end": 91.5,
+          "text": "יש כאן המון מסלולים של הליכה שמאפשרים לטפס מכאן"
+        },
+        {
+          "start": 91.5,
+          "end": 96.1,
+          "text": "לפסגת ההרים פה שנמצאים מאחורינו."
+        },
+        {
+          "start": 96.1,
+          "end": 98.6,
+          "text": "ואני מזמין אתכם לבוא."
+        },
+        {
+          "start": 98.6,
+          "end": 100.92,
+          "text": "אז נתראה בווידאו הבא. דו וידזניה!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "assets/captions/wang-church-en.srt",
+      "srtSHA256": "6def40ed495062d687ce7a82dffafb7a34da50d69bd71ddf6da8831b83717112",
+      "cues": [
+        {
+          "start": 4.56,
+          "end": 14.06,
+          "text": "I am excited to stand in front of this amazing church in Norway. I'm just kidding, I'm not"
+        },
+        {
+          "start": 14.06,
+          "end": 20.82,
+          "text": "in Norway, I'm actually in Poland. But this church behind me, the Wang Church, was built"
+        },
+        {
+          "start": 20.82,
+          "end": 28.7,
+          "text": "in the 12th century in the south of Norway. So how did it arrive here? Well, the citizens"
+        },
+        {
+          "start": 28.7,
+          "end": 33,
+          "text": "of this village in Norway wanted to build a bigger church, but they didn't have the"
+        },
+        {
+          "start": 33,
+          "end": 41.34,
+          "text": "money, so they decided to try and sell their church. So at around 1840, the King of"
+        },
+        {
+          "start": 41.34,
+          "end": 48.3,
+          "text": "Prussia, Ferdinand IV, bought this church from this village in Norway, and all the"
+        },
+        {
+          "start": 48.3,
+          "end": 56.12,
+          "text": "parts of the church were transported here by sea, and he decided to locate it"
+        },
+        {
+          "start": 56.12,
+          "end": 63.12,
+          "text": "here in the Karkonosze Mountains, the Giant Mountains, at an altitude of 880 metres,"
+        },
+        {
+          "start": 63.12,
+          "end": 69.58,
+          "text": "just midway between the town of Karpacz and the top of Śnieżka Mountain, which"
+        },
+        {
+          "start": 69.58,
+          "end": 74.04,
+          "text": "is the highest peak in Poland. In other words, when the bell rings here in the"
+        },
+        {
+          "start": 74.04,
+          "end": 79.36,
+          "text": "church, it's actually the highest bell that rings in any church all around"
+        },
+        {
+          "start": 79.36,
+          "end": 84.92,
+          "text": "Poland. I invite you to this amazing place, and also to walk on all of the"
+        },
+        {
+          "start": 84.92,
+          "end": 89.8,
+          "text": "amazing walking trails that you can find here in the Karkonosze Mountains, and to"
+        },
+        {
+          "start": 89.8,
+          "end": 94.42,
+          "text": "visit this amazing place. See you in the next video. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "assets/captions/wang-church-de.srt",
+      "srtSHA256": "92e57cb42b47345772e2b0906d6f7256c331b7a6c9b1e22df3d0462213dd1977",
+      "cues": [
+        {
+          "start": 4.56,
+          "end": 14.06,
+          "text": "Ich freue mich, vor dieser wunderbaren Kirche in Norwegen zu stehen. Nur ein Scherz, ich bin nicht"
+        },
+        {
+          "start": 14.06,
+          "end": 20.82,
+          "text": "in Norwegen, sondern in Polen. Doch diese Kirche hinter mir, die Stabkirche Wang, wurde"
+        },
+        {
+          "start": 20.82,
+          "end": 28.7,
+          "text": "im 12. Jahrhundert im Süden Norwegens erbaut. Wie kam sie hierher? Die Einwohner"
+        },
+        {
+          "start": 28.7,
+          "end": 33,
+          "text": "dieses norwegischen Dorfes wollten eine größere Kirche bauen, hatten aber nicht das"
+        },
+        {
+          "start": 33,
+          "end": 41.34,
+          "text": "Geld dafür. Deshalb wollten sie ihre Kirche verkaufen. Um 1840 kaufte der König von"
+        },
+        {
+          "start": 41.34,
+          "end": 48.3,
+          "text": "Preußen, Ferdinand IV., diese Kirche aus dem norwegischen Dorf, und alle"
+        },
+        {
+          "start": 48.3,
+          "end": 56.12,
+          "text": "Teile der Kirche wurden über das Meer hierhergebracht. Er beschloss, sie"
+        },
+        {
+          "start": 56.12,
+          "end": 63.12,
+          "text": "hier im Riesengebirge auf einer Höhe von 880 Metern aufzustellen,"
+        },
+        {
+          "start": 63.12,
+          "end": 69.58,
+          "text": "auf halbem Weg zwischen Karpacz und dem Gipfel der Schneekoppe, die"
+        },
+        {
+          "start": 69.58,
+          "end": 74.04,
+          "text": "der höchste Gipfel Polens ist. Wenn hier die Glocke der"
+        },
+        {
+          "start": 74.04,
+          "end": 79.36,
+          "text": "Kirche läutet, ist sie also die höchstgelegene Kirchenglocke in ganz"
+        },
+        {
+          "start": 79.36,
+          "end": 84.92,
+          "text": "Polen. Ich lade Sie ein, diesen wunderbaren Ort zu besuchen und auf all den"
+        },
+        {
+          "start": 84.92,
+          "end": 89.8,
+          "text": "wunderschönen Wanderwegen hier im Riesengebirge zu wandern und"
+        },
+        {
+          "start": 89.8,
+          "end": 94.42,
+          "text": "diesen großartigen Ort kennenzulernen. Bis zum nächsten Video. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "assets/captions/wang-church-cs.srt",
+      "srtSHA256": "f102a5cd918dba40a0134f7c842df116d49917a8e9c22d5ad9c58ca975862766",
+      "cues": [
+        {
+          "start": 4.56,
+          "end": 14.06,
+          "text": "Jsem nadšený, že stojím před tímto úžasným kostelem v Norsku. Jen žertuji, nejsem"
+        },
+        {
+          "start": 14.06,
+          "end": 20.82,
+          "text": "v Norsku, ale v Polsku. Tento kostel za mnou, kostel Wang, byl postaven"
+        },
+        {
+          "start": 20.82,
+          "end": 28.7,
+          "text": "ve 12. století na jihu Norska. Jak se dostal sem? Obyvatelé"
+        },
+        {
+          "start": 28.7,
+          "end": 33,
+          "text": "této norské vesnice chtěli postavit větší kostel, ale neměli"
+        },
+        {
+          "start": 33,
+          "end": 41.34,
+          "text": "peníze. Rozhodli se tedy svůj kostel prodat. Kolem roku 1840 ho koupil král"
+        },
+        {
+          "start": 41.34,
+          "end": 48.3,
+          "text": "pruský Ferdinand IV. z této norské vesnice a všechny"
+        },
+        {
+          "start": 48.3,
+          "end": 56.12,
+          "text": "části kostela sem byly dopraveny po moři. Rozhodl se jej umístit"
+        },
+        {
+          "start": 56.12,
+          "end": 63.12,
+          "text": "sem do Krkonoš, do Obřích hor, v nadmořské výšce 880 metrů,"
+        },
+        {
+          "start": 63.12,
+          "end": 69.58,
+          "text": "na půli cesty mezi městem Karpacz a vrcholem Sněžky, která"
+        },
+        {
+          "start": 69.58,
+          "end": 74.04,
+          "text": "je nejvyšším vrcholem Polska. Když zde tedy zazní zvon"
+        },
+        {
+          "start": 74.04,
+          "end": 79.36,
+          "text": "kostela, je to vlastně nejvýše položený kostelní zvon v celém"
+        },
+        {
+          "start": 79.36,
+          "end": 84.92,
+          "text": "Polsku. Zvu vás na toto úžasné místo i k procházkám po všech"
+        },
+        {
+          "start": 84.92,
+          "end": 89.8,
+          "text": "nádherných turistických stezkách, které tady v Krkonoších najdete, a k"
+        },
+        {
+          "start": 89.8,
+          "end": 94.42,
+          "text": "návštěvě tohoto krásného místa. Uvidíme se v příštím videu. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "assets/captions/wang-church-pl.srt",
+      "srtSHA256": "cfed18480c603b0919db0ffc7d9445eae93c68658566dcdb3bf4127f03bc61af",
+      "cues": [
+        {
+          "start": 4.56,
+          "end": 14.06,
+          "text": "Cieszę się, że stoję przed tym wspaniałym kościołem w Norwegii. Żartuję, nie jestem"
+        },
+        {
+          "start": 14.06,
+          "end": 20.82,
+          "text": "w Norwegii, lecz w Polsce. Ale ten kościół za mną, kościół Wang, został zbudowany"
+        },
+        {
+          "start": 20.82,
+          "end": 28.7,
+          "text": "w XII wieku na południu Norwegii. Jak tu trafił? Mieszkańcy"
+        },
+        {
+          "start": 28.7,
+          "end": 33,
+          "text": "tej norweskiej wsi chcieli zbudować większy kościół, ale nie mieli"
+        },
+        {
+          "start": 33,
+          "end": 41.34,
+          "text": "pieniędzy. Postanowili więc sprzedać swój kościół. Około 1840 roku król"
+        },
+        {
+          "start": 41.34,
+          "end": 48.3,
+          "text": "Prus, Ferdynand IV, kupił ten kościół od norweskiej wsi, a wszystkie"
+        },
+        {
+          "start": 48.3,
+          "end": 56.12,
+          "text": "jego części przewieziono tutaj drogą morską. Postanowił umieścić go"
+        },
+        {
+          "start": 56.12,
+          "end": 63.12,
+          "text": "tutaj, w Karkonoszach, Górach Olbrzymich, na wysokości 880 metrów,"
+        },
+        {
+          "start": 63.12,
+          "end": 69.58,
+          "text": "w połowie drogi między Karpaczem a szczytem Śnieżki, która"
+        },
+        {
+          "start": 69.58,
+          "end": 74.04,
+          "text": "jest najwyższym szczytem w Polsce. Innymi słowy, kiedy dzwoni tutaj dzwon"
+        },
+        {
+          "start": 74.04,
+          "end": 79.36,
+          "text": "kościelny, jest to najwyżej położony dzwon kościelny w całej"
+        },
+        {
+          "start": 79.36,
+          "end": 84.92,
+          "text": "Polsce. Zapraszam was do tego wspaniałego miejsca oraz na wszystkie"
+        },
+        {
+          "start": 84.92,
+          "end": 89.8,
+          "text": "piękne szlaki turystyczne, które znajdziecie tutaj w Karkonoszach, i do"
+        },
+        {
+          "start": 89.8,
+          "end": 94.42,
+          "text": "odwiedzenia tego niesamowitego miejsca. Do zobaczenia w następnym filmie. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio Published manual source and translation tracks"
+    }
+  },
+  "transcription": "Local source-audio ASR word timing, spelling cleanup and native source transcript cross-check; faithful translations of spoken narrative",
+  "bloopersExcluded": true,
+  "spokenNarrativeCaution": {
+    "claims": [
+      "Narrator calls Śnieżka highest peak in Poland",
+      "Narrator calls Prussian king Ferdinand IV"
+    ],
+    "corrections": [
+      "Śnieżka is highest peak of Karkonosze and Sudetes",
+      "King was Frederick William IV"
+    ],
+    "sources": [
+      "https://www.kpnmab.pl/sniezka-mountain/a",
+      "https://www.karpacz.pl/wang-church-en/at"
+    ],
+    "handling": "Original recording and captions preserved, clarifications added to both video descriptions"
+  }
+}
