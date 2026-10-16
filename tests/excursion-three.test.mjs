@@ -15,7 +15,7 @@ test('Third excursion preserves the human visit order with Wang separate from Ka
  assert.match(trip.navigation.googleMaps,/travelmode=driving/);
  assert.deepEqual(Object.keys(w.WROC_CATALOG.getPlace('jawor-church-of-peace').media.guideVideos),['he','en']);
  for(const id of ids){const p=w.WROC_CATALOG.getPlace(id);assert.equal(p.location.regionId,'lower-silesia');assert.ok(p.media.photos.length>0);}
- assert.equal(w.WROC_CATALOG.getPlace('wang-church').media.guideVideos,undefined,'Wang has no supplied guide');
+ assert.deepEqual(Object.keys(w.WROC_CATALOG.getPlace('wang-church').media.guideVideos),['he','en'],'Wang uses the existing canonical place');
  for(const id of ['karpacz-centre','jelenia-gora-market-square'])assert.deepEqual(Object.keys(w.WROC_CATALOG.getPlace(id).media.guideVideos),['he','en']);
 });
 test('Excursion photos have unique verified source hashes and intact optimized assets',()=>{
@@ -37,8 +37,8 @@ test('All 44 distinct visit clips resolve to verified Public YouTube entries wit
  for(const row of provenance.visits){assert.equal(row.visibility,'Public');assert.equal(row.checks,'completed, no issues');assert.match(row.youtube,/^https:\/\/youtube.com\/shorts\/[A-Za-z0-9_-]{11}$/);assert.ok(w.WROC_CATALOG.getPlace(row.place).media.videos.includes(row.youtube));assert.equal(registry[row.registryKey].status,'public');assert.equal(registry[row.registryKey].youtube,row.youtube);assert.equal(registry[row.registryKey].sourceSHA256,row.sourceSHA256);assert.ok(!existsSync(row.registryKey.slice(1)),'Registry alias must not create a raw website video');}
 });
 
-test('New Karpacz and Jelenia guides preserve verified native tracks and original source checksums',()=>{
- for(const id of ['karpacz-centre','jelenia-gora-market-square']){
+test('Karpacz, Wang and Jelenia guides preserve verified native tracks and original source checksums',()=>{
+ for(const id of ['karpacz-centre','jelenia-gora-market-square','wang-church']){
  const proof=JSON.parse(readFileSync(`data/${id}-guide-caption-provenance.json`));
  assert.equal(proof.bloopersExcluded,true);
  for(const lang of ['he','en','pl','de','cs']){const t=proof.tracks[lang],edition=proof.editions[lang==='he'?'he':'en'];assert.equal(t.status,'Published');assert.equal(edition.visibility,'Public');assert.match(edition.sourceSHA256,/^[a-f0-9]{64}$/);assert.equal(createHash('sha256').update(readFileSync(t.srtFile)).digest('hex'),t.srtSHA256);let end=0;for(const c of t.cues){assert.ok(c.start>=end&&c.end>c.start&&c.end<=edition.durationSeconds);end=c.end;}}

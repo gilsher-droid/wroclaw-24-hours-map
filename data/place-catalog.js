@@ -23002,6 +23002,10 @@
         "https://youtube.com/shorts/kX5L3MzXhzo",
         "https://youtube.com/shorts/LplVP7BLSUI"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/MinjLfDR-nc",
+        "en": "https://youtube.com/shorts/I0yVmZFViio"
+      },
       "metadata": {
         "/assets/excursion-three/wang-church-01.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (1).jpeg",

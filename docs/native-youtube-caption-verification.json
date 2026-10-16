@@ -214,6 +214,25 @@
       },
       "verifiedAt": "2026-10-16",
       "method": "Native Studio Published manual source tracks and translated rows"
+    },
+    {
+      "place": "wang-church",
+      "videos": {
+        "he": "MinjLfDR-nc",
+        "en": "I0yVmZFViio"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio Published manual source and translated tracks"
     }
   ]
 }
