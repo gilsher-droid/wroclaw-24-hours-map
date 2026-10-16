@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "jelenia-gora-market-square"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/המדריך שלנו/המדריך שלנו ילנה גורה בעברית.mp4",
+      "sourceSHA256": "eb4efd7d80a73d172fefaf2d73b6d7efc4a0be717a89de532d6375c1ef8c1d9b",
+      "uploadSHA256": "eb4efd7d80a73d172fefaf2d73b6d7efc4a0be717a89de532d6375c1ef8c1d9b",
+      "videoId": "kv047H3sRvA",
+      "visibility": "Public",
+      "durationSeconds": 57.9,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/המדריך שלנו/המדריך שלנו ילנה גורה באנגלית.mp4",
+      "sourceSHA256": "e90cd3bc5cbb1a0fabd3ad1e33f201a59464f2dbcaac1a6f7dee00fa7d3ecf49",
+      "uploadSHA256": "e90cd3bc5cbb1a0fabd3ad1e33f201a59464f2dbcaac1a6f7dee00fa7d3ecf49",
+      "videoId": "G8QVSsk1ABk",
+      "visibility": "Public",
+      "durationSeconds": 54.966667,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "assets/captions/jelenia-gora-market-square-he.srt",
+      "srtSHA256": "75410f6556afda0f57ddbc065948bb76289625056880c4473941aca44d554c32",
+      "cues": [
+        {
+          "start": 1.62,
+          "end": 9.8,
+          "text": "צ׳שץ׳! אנחנו נמצאים ברינק של העיר ילנה גורה, או ג׳לניה גורה."
+        },
+        {
+          "start": 9.8,
+          "end": 19.78,
+          "text": "העיר הזאת נמצאת במרכז הרי הקרקונושה, הרי הענקים, ולכן היא תמיד היוותה מקום מרכזי לכל מי שביקר באזור."
+        },
+        {
+          "start": 20.78,
+          "end": 27.3,
+          "text": "רינק מהמם, בתים צבעוניים. מאחוריי אתם רואים את בית העירייה שנבנה במאה השמונה עשרה."
+        },
+        {
+          "start": 27.3,
+          "end": 34.9,
+          "text": "אתם רואים גם את שבעת הבתים הצבעוניים כאן, שמחבר ביניהם גשרון קטן."
+        },
+        {
+          "start": 34.9,
+          "end": 41.1,
+          "text": "נקראים בפולנית שיידם מיישקניה, שבעת הבתים. פעם אפילו עברו חשמליות מתחת לגשר הקטן הזה."
+        },
+        {
+          "start": 41.1,
+          "end": 48.3,
+          "text": "אני ממליץ לכם לבוא לילנה גורה כאשר אתם נמצאים פה באזור ומבקרים גם בקרפץ."
+        },
+        {
+          "start": 48.3,
+          "end": 53.7,
+          "text": "אנחנו ביום ראשון, ויש כאן שוק של עתיקות מומלץ ביותר."
+        },
+        {
+          "start": 53.7,
+          "end": 57.18,
+          "text": "נתראה בתחנה הבאה. דו וידזניה!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "assets/captions/jelenia-gora-market-square-en.srt",
+      "srtSHA256": "c29439d44183b65f924f40d524fe29aea4747d0f8fd6342cab1301a33df39739",
+      "cues": [
+        {
+          "start": 6.14,
+          "end": 13.52,
+          "text": "Cześć! We are now in the city of Jelenia Góra, the central town of the Karkonosze Mountains."
+        },
+        {
+          "start": 13.52,
+          "end": 20.76,
+          "text": "In other words, everyone who used to pass through this region usually stopped in this city."
+        },
+        {
+          "start": 21.64,
+          "end": 26.8,
+          "text": "The Rynek, the market square, is amazing. It is Sunday and we have an antique market here."
+        },
+        {
+          "start": 26.8,
+          "end": 32.3,
+          "text": "It is very lively, with lots of street food. Behind me you can see"
+        },
+        {
+          "start": 32.3,
+          "end": 38.4,
+          "text": "the beautiful city hall, built in the 18th century, and the seven little houses"
+        },
+        {
+          "start": 38.4,
+          "end": 40.96,
+          "text": "that you can see here with the little bridge."
+        },
+        {
+          "start": 41.78,
+          "end": 46.62,
+          "text": "Once there was even a tram that went under this little bridge. Can you imagine?"
+        },
+        {
+          "start": 47.42,
+          "end": 51.1,
+          "text": "I recommend coming here. It is really a wonderful place."
+        },
+        {
+          "start": 51.48,
+          "end": 54.24,
+          "text": "See you in our next video. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "assets/captions/jelenia-gora-market-square-de.srt",
+      "srtSHA256": "69f184bf6eb70213001f3fae3cc7cd1eb8d1f6275a7536f568e20c01fa433d38",
+      "cues": [
+        {
+          "start": 6.14,
+          "end": 13.52,
+          "text": "Cześć! Wir sind jetzt in Jelenia Góra, der zentralen Stadt des Riesengebirges."
+        },
+        {
+          "start": 13.52,
+          "end": 20.76,
+          "text": "Mit anderen Worten: Wer früher durch diese Region kam, machte meist in dieser Stadt Halt."
+        },
+        {
+          "start": 21.64,
+          "end": 26.8,
+          "text": "Der Rynek, der Marktplatz, ist wunderschön. Es ist Sonntag, und hier findet ein Antiquitätenmarkt statt."
+        },
+        {
+          "start": 26.8,
+          "end": 32.3,
+          "text": "Es ist sehr lebendig, mit viel Streetfood. Hinter mir sehen Sie"
+        },
+        {
+          "start": 32.3,
+          "end": 38.4,
+          "text": "das schöne Rathaus aus dem 18. Jahrhundert und die sieben kleinen Häuser"
+        },
+        {
+          "start": 38.4,
+          "end": 40.96,
+          "text": "die Sie hier mit der kleinen Brücke sehen können."
+        },
+        {
+          "start": 41.78,
+          "end": 46.62,
+          "text": "Früher fuhr sogar eine Straßenbahn unter dieser kleinen Brücke hindurch. Können Sie sich das vorstellen?"
+        },
+        {
+          "start": 47.42,
+          "end": 51.1,
+          "text": "Ich empfehle einen Besuch. Es ist wirklich ein wunderbarer Ort."
+        },
+        {
+          "start": 51.48,
+          "end": 54.24,
+          "text": "Bis zu unserem nächsten Video. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "assets/captions/jelenia-gora-market-square-cs.srt",
+      "srtSHA256": "5ee1f5518989df60188b6b34d47b4a7a06d2b31697134fbe124e5ab7efeeea9a",
+      "cues": [
+        {
+          "start": 6.14,
+          "end": 13.52,
+          "text": "Cześć! Jsme ve městě Jelenia Góra, ústředním městě oblasti Krkonoš."
+        },
+        {
+          "start": 13.52,
+          "end": 20.76,
+          "text": "Jinými slovy: každý, kdo dříve procházel tímto krajem, se obvykle zastavil v tomto městě."
+        },
+        {
+          "start": 21.64,
+          "end": 26.8,
+          "text": "Rynek, tedy náměstí, je nádherný. Je neděle a koná se tu trh se starožitnostmi."
+        },
+        {
+          "start": 26.8,
+          "end": 32.3,
+          "text": "Je tu živo a spousta pouličního jídla. Za mnou vidíte"
+        },
+        {
+          "start": 32.3,
+          "end": 38.4,
+          "text": "krásnou radnici postavenou v 18. století a sedm malých domků"
+        },
+        {
+          "start": 38.4,
+          "end": 40.96,
+          "text": "které tady vidíte s malým můstkem."
+        },
+        {
+          "start": 41.78,
+          "end": 46.62,
+          "text": "Kdysi pod tímto můstkem dokonce jezdila tramvaj. Dokážete si to představit?"
+        },
+        {
+          "start": 47.42,
+          "end": 51.1,
+          "text": "Doporučuji sem přijet. Je to opravdu nádherné místo."
+        },
+        {
+          "start": 51.48,
+          "end": 54.24,
+          "text": "Uvidíme se v příštím videu. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "assets/captions/jelenia-gora-market-square-pl.srt",
+      "srtSHA256": "a70e94bfa14391ce024fea54f3a6191c147443fc49dbcb53e1f9d0e968878379",
+      "cues": [
+        {
+          "start": 6.14,
+          "end": 13.52,
+          "text": "Cześć! Jesteśmy w Jeleniej Górze, głównym mieście regionu Karkonoszy."
+        },
+        {
+          "start": 13.52,
+          "end": 20.76,
+          "text": "Innymi słowy, każdy, kto dawniej przejeżdżał przez ten region, zwykle zatrzymywał się w tym mieście."
+        },
+        {
+          "start": 21.64,
+          "end": 26.8,
+          "text": "Rynek jest wspaniały. Jest niedziela i odbywa się tu targ staroci."
+        },
+        {
+          "start": 26.8,
+          "end": 32.3,
+          "text": "Jest bardzo żywo, jest mnóstwo jedzenia ulicznego. Za mną widać"
+        },
+        {
+          "start": 32.3,
+          "end": 38.4,
+          "text": "piękny ratusz z XVIII wieku oraz siedem małych domków"
+        },
+        {
+          "start": 38.4,
+          "end": 40.96,
+          "text": "które widać tutaj z małym mostkiem."
+        },
+        {
+          "start": 41.78,
+          "end": 46.62,
+          "text": "Kiedyś pod tym mostkiem jeździł nawet tramwaj. Wyobrażacie to sobie?"
+        },
+        {
+          "start": 47.42,
+          "end": 51.1,
+          "text": "Polecam tu przyjechać. To naprawdę wspaniałe miejsce."
+        },
+        {
+          "start": 51.48,
+          "end": 54.24,
+          "text": "Do zobaczenia w następnym filmie. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    }
+  },
+  "transcription": "Local source-audio ASR and native source transcript cross-check, spelling cleanup; faithful translations using source timing",
+  "bloopersExcluded": true
+}
