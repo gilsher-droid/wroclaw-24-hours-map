@@ -2617,7 +2617,80 @@
       "photos": [
         "/assets/brzeg-castle-courtyard.jpeg",
         "/assets/brzeg-castle-entrance.jpeg",
-        "/assets/brzeg-castle-facade.jpeg"
+        "/assets/brzeg-castle-facade.jpeg",
+        "/assets/brzeg-enrichment/brzeg-castle-014.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-015.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-017.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-019.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-020.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-021.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-022.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-023.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-025.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-027.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-028.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-029.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-030.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-031.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-032.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-033.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-034.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-035.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-036.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-037.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-038.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-039.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-040.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-041.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-042.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-043.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-044.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-045.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-046.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-047.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-048.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-049.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-051.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-057.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-058.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-059.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-060.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-061.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-065.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-066.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-069.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-070.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-073.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-075.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-076.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-077.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-078.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-079.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-080.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-081.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-082.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-084.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-088.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-089.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-091.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-092.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-093.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-094.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-095.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-096.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-097.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-098.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-099.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-100.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-101.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-102.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-103.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-104.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-105.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-106.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-107.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-109.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-144.jpg"
       ],
       "videos": [],
       "guideVideos": {
@@ -2625,6 +2698,298 @@
         "en": "https://youtube.com/shorts/zbpTMh2Fe2c"
       },
       "metadata": {
+        "/assets/brzeg-enrichment/brzeg-castle-014.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.50.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-015.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.52 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-017.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-019.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (3).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-020.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-021.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-022.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (3).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-023.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.57 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-025.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.58 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-027.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-028.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-029.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (3).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-030.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-031.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (11).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-032.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-033.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (3).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-034.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (5).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-035.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (6).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-036.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-037.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-038.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (14).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-039.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (15).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-040.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (4).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-041.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (5).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-042.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.31 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-043.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.31.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-044.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.32 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-045.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.32.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-046.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.33 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-047.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.33.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-048.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.35 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-049.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.35.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-051.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.38 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-057.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-058.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-059.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-060.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.06.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-061.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.07 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-065.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (3).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-066.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (4).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-069.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-070.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (4).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-073.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.32 (4).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-075.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (10).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-076.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (11).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-077.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (12).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-078.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (13).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-079.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (14).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-080.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (17).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-081.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (18).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-082.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (19).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-084.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (20).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-088.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (36).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-089.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (37).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-091.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (9).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-092.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (10).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-093.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (11).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-094.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (12).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-095.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (13).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-096.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (14).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-097.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-098.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (21).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-099.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (22).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-100.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (3).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-101.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (4).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-102.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (5).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-103.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (6).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-104.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (7).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-105.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (8).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-106.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (9).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-107.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-109.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-144.jpg": {
+          "sourceFile": "Brzeg/WhatsApp Image 2026-09-24 at 17.30.38 (3).jpeg",
+          "original": true
+        },
         "/assets/brzeg-castle-courtyard.jpeg": {
           "sourceFile": "Brzeg/FORCODEX/02-castle-courtyard.jpeg",
           "original": true,
@@ -2801,12 +3166,72 @@
     "media": {
       "photos": [
         "/assets/brzeg-holy-cross-exterior.jpeg",
-        "/assets/brzeg-holy-cross-interior.jpeg"
+        "/assets/brzeg-holy-cross-interior.jpeg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-050.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-053.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-054.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-055.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-068.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-074.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-083.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-086.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-087.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg"
       ],
       "videos": [
         "/assets/brzeg-holy-cross-interior.mp4"
       ],
       "metadata": {
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-050.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.38 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-053.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-054.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-055.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.42 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.42.jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-068.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-074.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (1).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-083.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (2).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-086.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (24).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-087.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (26).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (4).jpeg",
+          "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg": {
+          "sourceFile": "Brzeg/WhatsApp Image 2026-09-24 at 19.05.33 (27).jpeg",
+          "original": true
+        },
         "/assets/brzeg-holy-cross-exterior.jpeg": {
           "sourceFile": "Brzeg/FORCODEX/04-church-exterior.jpeg",
           "original": true
@@ -2981,11 +3406,19 @@
       ]
     },
     "media": {
-      "photos": [],
+      "photos": [
+        "/assets/brzeg-enrichment/brzeg-oder-gate-110.jpg"
+      ],
       "videos": [],
       "guideVideos": {
         "he": "https://youtube.com/shorts/hvnoxm3reWo",
         "en": "https://youtube.com/shorts/xs3NY7q0OX4"
+      },
+      "metadata": {
+        "/assets/brzeg-enrichment/brzeg-oder-gate-110.jpg": {
+          "sourceFile": "Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (3).jpeg",
+          "original": true
+        }
       }
     },
     "socialPosts": [
