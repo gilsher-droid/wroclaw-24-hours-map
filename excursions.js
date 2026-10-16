@@ -7,6 +7,7 @@
   let language = supported.includes(params.get("lang")) ? params.get("lang") : supported.includes(saved) ? saved : "he";
   let map;
   let walkingMap;
+  const mapStops = new Map();
   let previewIndex = 0;
   let previewInitialized = false;
   let previewTimer;
@@ -38,9 +39,50 @@
   };
 
   const placeDetailsLabels = {he:"לכרטיס המקום המלא",en:"Full place details",pl:"Pełne informacje o miejscu",de:"Alle Informationen zum Ort",cs:"Podrobnosti o místě"};
+  const mapFocusLabels = {
+    he: {show:"הצגה במפה",overview:"המסלול כולו",walk:"מבט על מסלול ההליכה"},
+    en: {show:"Show on map",overview:"Full route",walk:"Walking route overview"},
+    pl: {show:"Pokaż na mapie",overview:"Cała trasa",walk:"Widok trasy pieszej"},
+    de: {show:"Auf der Karte zeigen",overview:"Gesamte Route",walk:"Übersicht des Spaziergangs"},
+    cs: {show:"Zobrazit na mapě",overview:"Celá trasa",walk:"Přehled pěší trasy"}
+  };
+  function focusMapButton(attributes) { return `<button type="button" class="show-on-map" ${attributes}>${mapFocusLabels[language].show}</button>`; }
+  function registerMapStop(key, targetMap, marker, coordinate, canonical, label, containerId) {
+    const stop = {targetMap,marker,coordinate,canonical,label,containerId};
+    mapStops.set(key,stop);
+    if (canonical && !mapStops.has(`place:${canonical.id}`)) mapStops.set(`place:${canonical.id}`,stop);
+  }
+  function bringMapIntoView(targetMap, containerId) {
+    const element = document.getElementById(containerId);
+    element.setAttribute("tabindex","-1");
+    element.scrollIntoView({behavior:reducedMotion.matches ? "auto" : "smooth",block:"center"});
+    element.focus({preventScroll:true});
+    targetMap.invalidateSize();
+  }
+  function focusMapPlace(placeId, pointId) {
+    let stop = mapStops.get(placeId ? `place:${placeId}` : pointId);
+    if (!stop && pointId === "wroclaw-return") stop = mapStops.get("wroclaw-start");
+    if (!stop && placeId) {
+      const canonical = place(placeId), coordinate = canonical?.location?.coordinates || canonical?.coordinates;
+      if (coordinate) stop = {targetMap:map,coordinate,canonical,label:local(canonical.name),containerId:"excursion-map"};
+    }
+    if (!stop) return;
+    bringMapIntoView(stop.targetMap,stop.containerId);
+    stop.targetMap.setView([stop.coordinate.lat,stop.coordinate.lng],stop.containerId === "brzeg-walk-map" ? 17 : 15,{animate:false});
+    if (stop.marker) stop.marker.openPopup();
+    else L.popup({maxWidth:320}).setLatLng([stop.coordinate.lat,stop.coordinate.lng]).setContent(placePopup(stop.canonical,stop.label,stop.coordinate)).openOn(stop.targetMap);
+  }
+  function showMapOverview(walking = false) {
+    const excursion = selectedExcursion(), targetMap = walking ? walkingMap : map;
+    const points = walking ? excursion.walkingRoute?.points : excursion.routePoints;
+    if (!targetMap || !points) return;
+    bringMapIntoView(targetMap,walking ? "brzeg-walk-map" : "excursion-map");
+    targetMap.closePopup();
+    targetMap.fitBounds(points.map(coords).filter(Boolean).map(p=>[p.lat,p.lng]),{padding:[30,30],animate:false});
+  }
   function escapeHtml(value) { return String(value || "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
   function placePopup(canonical, label, coordinate) {
-    const actions = canonical ? actionLinks(canonical) : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${coordinate.lat},${coordinate.lng}`)}" target="_blank" rel="noopener">${tr("navigate")}</a>`;
+    const actions = canonical ? actionLinks(canonical, false) : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${coordinate.lat},${coordinate.lng}`)}" target="_blank" rel="noopener">${tr("navigate")}</a>`;
     const details = canonical && selectedExcursion().canonicalPlaceIds.includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
     return `<div class="excursion-place-popup" dir="${language === "he" ? "rtl" : "ltr"}"><strong>${escapeHtml(label)}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}<div class="place-actions">${actions}</div>${details}</div>`;
   }
@@ -121,6 +163,7 @@
   function renderMap(excursion) {
     if (!window.L) return;
     if (map) map.remove();
+    mapStops.clear();
     map = L.map("excursion-map", { scrollWheelZoom: false });
     window.WROC_GUIDE_VIDEO.legend(map, language);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
@@ -131,7 +174,8 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }, canonical, language)) }).addTo(map).bindPopup(placePopup(canonical, label, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      const marker = L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }, canonical, language)) }).addTo(map).bindPopup(placePopup(canonical, label, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      registerMapStop(point.id,map,marker,coordinate,canonical,label,"excursion-map");
     });
     map.fitBounds(route, { padding: [30, 30] });
   }
@@ -148,7 +192,7 @@
     document.querySelector("[data-walk-stops]").innerHTML = excursion.walkingRoute.points.map((point) => {
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      return `<li><strong>${point.id}</strong><span>${label}</span></li>`;
+      return `<li><button type="button" class="walk-stop-button" data-map-point="walk:${point.id}" title="${mapFocusLabels[language].show}"><strong>${point.id}</strong><span>${label}</span></button></li>`;
     }).join("");
     if (!window.L) return;
     const points = excursion.walkingRoute.points;
@@ -162,13 +206,17 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }, canonical, language)) }).addTo(walkingMap).bindPopup(placePopup(canonical, `${point.id}. ${label}`, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      const marker = L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }, canonical, language)) }).addTo(walkingMap).bindPopup(placePopup(canonical, `${point.id}. ${label}`, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      registerMapStop(`walk:${point.id}`,walkingMap,marker,coordinate,canonical,label,"brzeg-walk-map");
     });
     walkingMap.fitBounds(line, { padding: [25, 25] });
   }
 
   function renderSteps(excursion) {
-    document.querySelector("[data-itinerary]").innerHTML = excursion.steps.map((step, index) => `<li><span>${index + 1}</span><div><strong>${local(step.title)}</strong><small>${local(step.duration)}</small></div></li>`).join("");
+    document.querySelector("[data-itinerary]").innerHTML = excursion.steps.map((step,index) => {
+      const target = step.mapWalkingOverview ? 'data-map-walk-overview' : step.canonicalPlaceId ? `data-map-place="${step.canonicalPlaceId}"` : `data-map-point="${step.mapPointId || step.id}"`;
+      return `<li><button type="button" class="itinerary-stop" ${target} title="${mapFocusLabels[language].show}"><span>${index+1}</span><span class="itinerary-stop-copy"><strong>${local(step.title)}</strong><small>${local(step.duration)}</small><span class="map-focus-hint">${mapFocusLabels[language].show}</span></span></button></li>`;
+    }).join("");
     document.querySelector("[data-travel-note]").textContent = local(excursion.travel.note);
   }
 
@@ -187,7 +235,7 @@
     }).join("");
   }
 
-  function actionLinks(canonical) {
+  function actionLinks(canonical, includeMapFocus = true) {
     const links = [];
     const website = safeLink(canonical.links?.website);
     const navigation = safeLink(canonical.links?.navigation?.googleMaps || canonical.links?.navigation?.google || canonical.links?.googleMaps || canonical.navigationLinks?.google);
@@ -200,6 +248,7 @@
     if (facebook) links.push(`<a href="${facebook}" target="_blank" rel="noopener">${tr("facebook")}</a>`);
     if (instagram) links.push(`<a href="${instagram}" target="_blank" rel="noopener">${tr("instagram")}</a>`);
     links.push(window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "");
+    if (includeMapFocus && (canonical.location?.coordinates || canonical.coordinates)) links.push(focusMapButton(`data-map-place="${canonical.id}"`));
     return links.join("");
   }
 
@@ -231,6 +280,8 @@
     const excursion = selectedExcursion();
     if (!excursion) return;
     if (!previewInitialized) { previewIndex = product.excursions.indexOf(excursion); previewInitialized = true; }
+    document.querySelector("[data-map-overview]").textContent = mapFocusLabels[language].overview;
+    document.querySelector("[data-walk-overview]").textContent = mapFocusLabels[language].walk;
     renderTripList(); renderHero(excursion); renderPreview(); renderMap(excursion); renderWalkingRoute(excursion); renderSteps(excursion); renderLogistics(excursion); renderPlaces(excursion); renderEditorial(excursion);
     startPreview();
   }
@@ -248,6 +299,13 @@
     render();
   }
 
+  document.addEventListener("click",event=>{
+    const button = event.target.closest("[data-map-place],[data-map-point],[data-map-overview],[data-map-walk-overview],[data-walk-overview]");
+    if (!button) return;
+    if (button.hasAttribute("data-map-overview")) showMapOverview();
+    else if (button.hasAttribute("data-map-walk-overview") || button.hasAttribute("data-walk-overview")) showMapOverview(true);
+    else focusMapPlace(button.dataset.mapPlace,button.dataset.mapPoint);
+  });
   document.querySelectorAll("[data-lang]").forEach((button) => button.addEventListener("click", () => applyLanguage(button.dataset.lang)));
   document.querySelector("[data-excursion-previous]").addEventListener("click", () => movePreview(-1));
   document.querySelector("[data-excursion-next]").addEventListener("click", () => movePreview(1));
