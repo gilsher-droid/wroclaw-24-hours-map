@@ -2776,17 +2776,9 @@
         "/assets/czocha-boleslawiec/boleslawiec-old-town-141.jpg"
       ],
       "videos": [
-        "https://youtube.com/shorts/maSKnck5q1g",
         "https://youtube.com/shorts/YMyuRk3Fm7o",
         "https://youtube.com/shorts/ut4a1jalggk",
-        "https://youtube.com/shorts/Ur6aD6_oITk",
-        "https://youtube.com/shorts/lifCtbBFbE8",
-        "https://youtube.com/shorts/LVAZFxAHypM",
-        "https://youtube.com/shorts/KVL-jKq3jTc",
-        "https://youtube.com/watch?v=TTn0iQPIQTA",
-        "https://youtube.com/shorts/AYEFN90-7N0",
         "https://youtube.com/shorts/8omNiWR6tVI",
-        "https://youtube.com/shorts/ummWiuQrOds",
         "https://youtube.com/shorts/lu3GKpKwjE4"
       ],
       "metadata": {
@@ -2976,15 +2968,6 @@
           "sourceSHA256": "e8eea2bf55f576730b7a4fe35418b09d4feb4e3d5384730623061c1ded94f443",
           "visitCategory": "place-visit"
         },
-        "https://youtube.com/shorts/maSKnck5q1g": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.25.mp4",
-          "sourceSHA256": "a4683f5cc539b5a6e584db63a583cdf92f5dfabd0fa6f471ffdd48c355ea4b67",
-          "youtube": "https://youtube.com/shorts/maSKnck5q1g",
-          "visibility": "Public",
-          "checks": "completed, no issues",
-          "verifiedAt": "2026-10-16"
-        },
         "https://youtube.com/shorts/YMyuRk3Fm7o": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.29.mp4",
@@ -3003,74 +2986,11 @@
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"
         },
-        "https://youtube.com/shorts/Ur6aD6_oITk": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.33.mp4",
-          "sourceSHA256": "3ea33fbefc5bea8fd2b65e8c74d22eb93df97551b8332861855150d98e016214",
-          "youtube": "https://youtube.com/shorts/Ur6aD6_oITk",
-          "visibility": "Public",
-          "checks": "completed, no issues",
-          "verifiedAt": "2026-10-16"
-        },
-        "https://youtube.com/shorts/lifCtbBFbE8": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.34.mp4",
-          "sourceSHA256": "eb747535e8e6aa7634f2d3dd919407d945d7b7ef0ab1f87168409a0031f1307e",
-          "youtube": "https://youtube.com/shorts/lifCtbBFbE8",
-          "visibility": "Public",
-          "checks": "completed, no issues",
-          "verifiedAt": "2026-10-16"
-        },
-        "https://youtube.com/shorts/LVAZFxAHypM": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.37.mp4",
-          "sourceSHA256": "ea4b2bb5d754e7be2a791ac69f0fb55219de3bc36d81deac346885a2052f07df",
-          "youtube": "https://youtube.com/shorts/LVAZFxAHypM",
-          "visibility": "Public",
-          "checks": "completed, no issues",
-          "verifiedAt": "2026-10-16"
-        },
-        "https://youtube.com/shorts/KVL-jKq3jTc": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.39.mp4",
-          "sourceSHA256": "34b24664caf3da3e3823a022bce08502dbc16cf235838aa5a17094c0c86645a4",
-          "youtube": "https://youtube.com/shorts/KVL-jKq3jTc",
-          "visibility": "Public",
-          "checks": "completed, no issues",
-          "verifiedAt": "2026-10-16"
-        },
-        "https://youtube.com/watch?v=TTn0iQPIQTA": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.42.mp4",
-          "sourceSHA256": "7ff710930515d34d2ab0e2d00abdc315670f009ee8d9d524fb1e73b2c300ba6e",
-          "youtube": "https://youtube.com/watch?v=TTn0iQPIQTA",
-          "visibility": "Public",
-          "checks": "completed, no issues",
-          "verifiedAt": "2026-10-16"
-        },
-        "https://youtube.com/shorts/AYEFN90-7N0": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.19.43.mp4",
-          "sourceSHA256": "5d5ceab70adf3f2cef29c966a655a99d00704bbd5903e6df05fbc00b60f10514",
-          "youtube": "https://youtube.com/shorts/AYEFN90-7N0",
-          "visibility": "Public",
-          "checks": "completed, no issues",
-          "verifiedAt": "2026-10-16"
-        },
         "https://youtube.com/shorts/8omNiWR6tVI": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.21.15.mp4",
           "sourceSHA256": "76a039676a2fb6b68a239da490a1481210586482dba17d6c8996c32a611f2d7d",
           "youtube": "https://youtube.com/shorts/8omNiWR6tVI",
-          "visibility": "Public",
-          "checks": "completed, no issues",
-          "verifiedAt": "2026-10-16"
-        },
-        "https://youtube.com/shorts/ummWiuQrOds": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.21.20.mp4",
-          "sourceSHA256": "8b75215bde260a3029a89329aeaa876eb1e3ec6a910a2cc2c3974ce272418367",
-          "youtube": "https://youtube.com/shorts/ummWiuQrOds",
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"

@@ -9,7 +9,8 @@
       "youtube": "https://youtube.com/shorts/uFeL9yIz0VM",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": true
     },
     {
       "place": "czocha-castle",
@@ -20,7 +21,8 @@
       "youtube": "https://youtube.com/shorts/L1Z0nIxGFsU",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": true
     },
     {
       "place": "czocha-castle",
@@ -31,7 +33,8 @@
       "youtube": "https://youtube.com/shorts/LQZA0KUMTyM",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": true
     },
     {
       "place": "boleslawiec-old-town",
@@ -42,7 +45,8 @@
       "youtube": "https://youtube.com/shorts/maSKnck5q1g",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": false
     },
     {
       "place": "boleslawiec-old-town",
@@ -53,7 +57,8 @@
       "youtube": "https://youtube.com/shorts/YMyuRk3Fm7o",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": true
     },
     {
       "place": "boleslawiec-old-town",
@@ -64,7 +69,8 @@
       "youtube": "https://youtube.com/shorts/ut4a1jalggk",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": true
     },
     {
       "place": "boleslawiec-old-town",
@@ -75,7 +81,8 @@
       "youtube": "https://youtube.com/shorts/Ur6aD6_oITk",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": false
     },
     {
       "place": "boleslawiec-old-town",
@@ -86,7 +93,8 @@
       "youtube": "https://youtube.com/shorts/lifCtbBFbE8",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": false
     },
     {
       "place": "boleslawiec-old-town",
@@ -97,7 +105,8 @@
       "youtube": "https://youtube.com/shorts/LVAZFxAHypM",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": false
     },
     {
       "place": "boleslawiec-old-town",
@@ -108,7 +117,8 @@
       "youtube": "https://youtube.com/shorts/KVL-jKq3jTc",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": false
     },
     {
       "place": "boleslawiec-old-town",
@@ -119,7 +129,8 @@
       "youtube": "https://youtube.com/watch?v=TTn0iQPIQTA",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": false
     },
     {
       "place": "boleslawiec-old-town",
@@ -130,7 +141,8 @@
       "youtube": "https://youtube.com/shorts/AYEFN90-7N0",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": false
     },
     {
       "place": "boleslawiec-old-town",
@@ -141,7 +153,8 @@
       "youtube": "https://youtube.com/shorts/8omNiWR6tVI",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": true
     },
     {
       "place": "boleslawiec-old-town",
@@ -152,7 +165,8 @@
       "youtube": "https://youtube.com/shorts/ummWiuQrOds",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": false
     },
     {
       "place": "boleslawiec-old-town",
@@ -163,7 +177,8 @@
       "youtube": "https://youtube.com/shorts/lu3GKpKwjE4",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": true
     },
     {
       "place": "boleslawiec-ceramics-museum",
@@ -174,10 +189,12 @@
       "youtube": "https://youtube.com/shorts/AREkvigE0pI",
       "visibility": "Public",
       "checks": "completed, no issues",
-      "verifiedAt": "2026-10-16"
+      "verifiedAt": "2026-10-16",
+      "websiteIncluded": true
     }
   ],
   "sourceOriginalsPreserved": true,
   "guidesDeferred": true,
-  "publicationMethod": "Native YouTube Studio; Public selected, not made for kids, checks completed with no issues before publication"
+  "publicationMethod": "Native YouTube Studio; Public selected, not made for kids, checks completed with no issues before publication",
+  "visualCurationManifest": "data/boleslawiec-video-curation.json"
 }
