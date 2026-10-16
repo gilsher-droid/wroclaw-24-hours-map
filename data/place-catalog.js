@@ -14846,7 +14846,55 @@
       "photos": [
         "/assets/moszna-castle-hero.jpeg",
         "/assets/moszna-castle-approach.jpeg",
-        "/assets/moszna-castle-entrance.jpeg"
+        "/assets/moszna-castle-entrance.jpeg",
+        "/assets/moszna-enrichment/moszna-castle-002.jpg",
+        "/assets/moszna-enrichment/moszna-castle-003.jpg",
+        "/assets/moszna-enrichment/moszna-castle-004.jpg",
+        "/assets/moszna-enrichment/moszna-castle-006.jpg",
+        "/assets/moszna-enrichment/moszna-castle-009.jpg",
+        "/assets/moszna-enrichment/moszna-castle-010.jpg",
+        "/assets/moszna-enrichment/moszna-castle-011.jpg",
+        "/assets/moszna-enrichment/moszna-castle-040.jpg",
+        "/assets/moszna-enrichment/moszna-castle-053.jpg",
+        "/assets/moszna-enrichment/moszna-castle-054.jpg",
+        "/assets/moszna-enrichment/moszna-castle-058.jpg",
+        "/assets/moszna-enrichment/moszna-castle-060.jpg",
+        "/assets/moszna-enrichment/moszna-castle-061.jpg",
+        "/assets/moszna-enrichment/moszna-castle-062.jpg",
+        "/assets/moszna-enrichment/moszna-castle-001.jpg",
+        "/assets/moszna-enrichment/moszna-castle-005.jpg",
+        "/assets/moszna-enrichment/moszna-castle-049.jpg",
+        "/assets/moszna-enrichment/moszna-castle-050.jpg",
+        "/assets/moszna-enrichment/moszna-castle-051.jpg",
+        "/assets/moszna-enrichment/moszna-castle-052.jpg",
+        "/assets/moszna-enrichment/moszna-castle-055.jpg",
+        "/assets/moszna-enrichment/moszna-castle-069.jpg",
+        "/assets/moszna-enrichment/moszna-castle-033.jpg",
+        "/assets/moszna-enrichment/moszna-castle-034.jpg",
+        "/assets/moszna-enrichment/moszna-castle-035.jpg",
+        "/assets/moszna-enrichment/moszna-castle-036.jpg",
+        "/assets/moszna-enrichment/moszna-castle-037.jpg",
+        "/assets/moszna-enrichment/moszna-castle-043.jpg",
+        "/assets/moszna-enrichment/moszna-castle-044.jpg",
+        "/assets/moszna-enrichment/moszna-castle-045.jpg",
+        "/assets/moszna-enrichment/moszna-castle-046.jpg",
+        "/assets/moszna-enrichment/moszna-castle-047.jpg",
+        "/assets/moszna-enrichment/moszna-castle-048.jpg",
+        "/assets/moszna-enrichment/moszna-castle-013.jpg",
+        "/assets/moszna-enrichment/moszna-castle-017.jpg",
+        "/assets/moszna-enrichment/moszna-castle-018.jpg",
+        "/assets/moszna-enrichment/moszna-castle-014.jpg",
+        "/assets/moszna-enrichment/moszna-castle-015.jpg",
+        "/assets/moszna-enrichment/moszna-castle-020.jpg",
+        "/assets/moszna-enrichment/moszna-castle-021.jpg",
+        "/assets/moszna-enrichment/moszna-castle-022.jpg",
+        "/assets/moszna-enrichment/moszna-castle-025.jpg",
+        "/assets/moszna-enrichment/moszna-castle-028.jpg",
+        "/assets/moszna-enrichment/moszna-castle-063.jpg",
+        "/assets/moszna-enrichment/moszna-castle-064.jpg",
+        "/assets/moszna-enrichment/moszna-castle-065.jpg",
+        "/assets/moszna-enrichment/moszna-castle-066.jpg",
+        "/assets/moszna-enrichment/moszna-castle-067.jpg"
       ],
       "videos": [
         "/assets/moszna-castle-video.mp4"
@@ -14856,6 +14904,198 @@
         "en": "https://youtube.com/shorts/UqqWiyXRk00"
       },
       "metadata": {
+        "/assets/moszna-enrichment/moszna-castle-002.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (1).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-003.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-004.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-006.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.28 (1).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-009.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.51.jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-010.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.52.jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-011.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.53 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-040.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (15).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-053.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (8).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-054.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (9).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-058.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (17).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-060.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (20).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-061.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (21).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-062.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (24).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-001.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.25.jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-005.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (4).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-049.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-050.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-051.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (4).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-052.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.27 (5).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-055.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (10).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-069.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (9).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-033.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (1).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-034.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-035.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.25 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-036.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.26 (1).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-037.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.26 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-043.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (18).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-044.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (19).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-045.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (20).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-046.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (21).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-047.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (22).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-048.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.21 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-013.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (1).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-017.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.18 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-018.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.18 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-014.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-015.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (4).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-020.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-021.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-022.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.20 (1).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-025.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-028.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.23 (1).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-063.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-064.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (4).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-065.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (5).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-066.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (6).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-067.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (7).jpeg",
+          "original": true
+        },
         "/assets/moszna-castle-hero.jpeg": {
           "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (16).jpeg",
           "original": true,
@@ -15042,10 +15282,50 @@
     "media": {
       "photos": [
         "/assets/moszna-park-view.jpeg",
-        "/assets/moszna-park-garden.jpeg"
+        "/assets/moszna-park-garden.jpeg",
+        "/assets/moszna-enrichment/moszna-castle-park-012.jpg",
+        "/assets/moszna-enrichment/moszna-castle-park-024.jpg",
+        "/assets/moszna-enrichment/moszna-castle-park-026.jpg",
+        "/assets/moszna-enrichment/moszna-castle-park-027.jpg",
+        "/assets/moszna-enrichment/moszna-castle-park-038.jpg",
+        "/assets/moszna-enrichment/moszna-castle-park-041.jpg",
+        "/assets/moszna-enrichment/moszna-castle-park-042.jpg",
+        "/assets/moszna-enrichment/moszna-castle-park-068.jpg"
       ],
       "videos": [],
       "metadata": {
+        "/assets/moszna-enrichment/moszna-castle-park-012.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.53 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-park-024.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.21 (2).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-park-026.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22 (4).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-park-027.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22.jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-park-038.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.27 (3).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-park-041.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (16).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-park-042.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (17).jpeg",
+          "original": true
+        },
+        "/assets/moszna-enrichment/moszna-castle-park-068.jpg": {
+          "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (8).jpeg",
+          "original": true
+        },
         "/assets/moszna-park-view.jpeg": {
           "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.21 (1).jpeg",
           "original": true

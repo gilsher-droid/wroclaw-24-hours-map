@@ -10,7 +10,8 @@ const root = resolve(import.meta.dirname, "..");
 test("every new Brzeg and Moszna media asset has an approved source", () => {
   const provenance = JSON.parse(readFileSync(resolve(root, "data/brzeg-moszna-media-provenance.json"), "utf8"));
   const enrichment = JSON.parse(readFileSync(resolve(root, "data/brzeg-photo-enrichment-provenance.json"), "utf8"));
-  const optimized = new Map(enrichment.assets.map(item => [item.asset, item]));
+  const moszna = JSON.parse(readFileSync(resolve(root, "data/moszna-photo-enrichment-provenance.json"), "utf8"));
+  const optimized = new Map([...enrichment.assets, ...moszna.assets].map(item => [item.asset, item]));
   const window = {};
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), { window, console });
   const used = new Set();
@@ -20,10 +21,10 @@ test("every new Brzeg and Moszna media asset has an approved source", () => {
     for (const asset of [...place.media.photos, ...place.media.videos]) {
       used.add(asset);
       assert.ok(provenance[asset], `missing provenance for ${asset}`);
-      const expectedFolder = id.startsWith("brzeg-") ? (optimized.has(asset) ? "/brzeg/" : "/brzeg/forcodex/") : "/moszna castle/forcodex/";
+      const expectedFolder = id.startsWith("brzeg-") ? (optimized.has(asset) ? "/brzeg/" : "/brzeg/forcodex/") : (optimized.has(asset) ? "/moszna castle/" : "/moszna castle/forcodex/");
       assert.ok(provenance[asset].toLowerCase().includes(expectedFolder), `wrong source folder for ${asset}`);
       assert.ok(existsSync(resolve(root, asset.slice(1))), `missing asset ${asset}`);
-      assert.match(place.media.metadata[asset].sourceFile.toLowerCase(), optimized.has(asset) ? /^brzeg\// : /\/forcodex\//);
+      assert.match(place.media.metadata[asset].sourceFile.toLowerCase(), optimized.has(asset) ? /^(brzeg|moszna castle)\// : /\/forcodex\//);
       if (optimized.has(asset)) {
         const record = optimized.get(asset);
         assert.equal(record.placeId, id);
