@@ -9,6 +9,8 @@ const root = resolve(import.meta.dirname, "..");
 
 test("every new Brzeg and Moszna media asset has an approved source", () => {
   const provenance = JSON.parse(readFileSync(resolve(root, "data/brzeg-moszna-media-provenance.json"), "utf8"));
+  const enrichment = JSON.parse(readFileSync(resolve(root, "data/brzeg-photo-enrichment-provenance.json"), "utf8"));
+  const optimized = new Map(enrichment.assets.map(item => [item.asset, item]));
   const window = {};
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), { window, console });
   const used = new Set();
@@ -18,13 +20,25 @@ test("every new Brzeg and Moszna media asset has an approved source", () => {
     for (const asset of [...place.media.photos, ...place.media.videos]) {
       used.add(asset);
       assert.ok(provenance[asset], `missing provenance for ${asset}`);
-      const expectedFolder = id.startsWith("brzeg-") ? "/brzeg/forcodex/" : "/moszna castle/forcodex/";
+      const expectedFolder = id.startsWith("brzeg-") ? (optimized.has(asset) ? "/brzeg/" : "/brzeg/forcodex/") : "/moszna castle/forcodex/";
       assert.ok(provenance[asset].toLowerCase().includes(expectedFolder), `wrong source folder for ${asset}`);
       assert.ok(existsSync(resolve(root, asset.slice(1))), `missing asset ${asset}`);
-      assert.match(place.media.metadata[asset].sourceFile.toLowerCase(), /\/forcodex\//);
+      assert.match(place.media.metadata[asset].sourceFile.toLowerCase(), optimized.has(asset) ? /^brzeg\// : /\/forcodex\//);
+      if (optimized.has(asset)) {
+        const record = optimized.get(asset);
+        assert.equal(record.placeId, id);
+        assert.equal(createHash("sha256").update(readFileSync(resolve(root, asset.slice(1)))).digest("hex"), record.assetSHA256);
+      }
       if (existsSync(provenance[asset])) {
         const digest = (path) => createHash("sha256").update(readFileSync(path)).digest("hex");
-        assert.equal(digest(resolve(root, asset.slice(1))), digest(provenance[asset]), `modified source copy ${asset}`);
+        const record = optimized.get(asset);
+        if (record) {
+          assert.equal(record.placeId, id, `wrong owner ${asset}`);
+          assert.equal(digest(provenance[asset]), record.sourceSHA256, `changed original ${asset}`);
+          assert.equal(digest(resolve(root, asset.slice(1))), record.assetSHA256, `changed optimized photo ${asset}`);
+        } else {
+          assert.equal(digest(resolve(root, asset.slice(1))), digest(provenance[asset]), `modified source copy ${asset}`);
+        }
       }
     }
   }
