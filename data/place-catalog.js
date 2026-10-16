@@ -10086,6 +10086,10 @@
         "https://youtube.com/shorts/GcAlPb9lUn4",
         "https://youtube.com/shorts/XgCNgAVm92U"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/kv047H3sRvA",
+        "en": "https://youtube.com/shorts/G8QVSsk1ABk"
+      },
       "metadata": {
         "/assets/excursion-three/jelenia-gora-market-square-01.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (1).jpeg",
@@ -11250,6 +11254,10 @@
         "https://youtube.com/shorts/APA9JFyAhCo",
         "https://youtube.com/shorts/POUbYhobU9o"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/gQlJjc241gk",
+        "en": "https://youtube.com/shorts/4WgaQo6HmWg"
+      },
       "metadata": {
         "/assets/excursion-three/karpacz-centre-01.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.55.jpeg",

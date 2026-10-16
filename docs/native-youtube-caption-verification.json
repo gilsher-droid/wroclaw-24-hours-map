@@ -176,6 +176,44 @@
       },
       "verifiedAt": "2026-10-16",
       "method": "Native Studio source-manual Published rows and DE/PL/CS Published table; source-timed SRTs"
+    },
+    {
+      "place": "jelenia-gora-market-square",
+      "videos": {
+        "he": "kv047H3sRvA",
+        "en": "G8QVSsk1ABk"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio Published manual source tracks and translated rows"
+    },
+    {
+      "place": "karpacz-centre",
+      "videos": {
+        "he": "gQlJjc241gk",
+        "en": "4WgaQo6HmWg"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio Published manual source tracks and translated rows"
     }
   ]
 }

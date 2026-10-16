@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "karpacz-centre"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/המדריך שלנו/קרפץ המדריך שלנו בעיברית.mp4",
+      "sourceSHA256": "053a0a57a05f184bfa3ae4212cbdb30f277fb8103919527673b573a8b9957c4c",
+      "uploadSHA256": "053a0a57a05f184bfa3ae4212cbdb30f277fb8103919527673b573a8b9957c4c",
+      "videoId": "gQlJjc241gk",
+      "visibility": "Public",
+      "durationSeconds": 66.666667,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/המדריך שלנו/המדריך שלנו קרפץ באנגלית.mp4",
+      "sourceSHA256": "21b1441df8fef7902f97386d23b7553ea99d58303277a5b38601ae3033b50b78",
+      "uploadSHA256": "21b1441df8fef7902f97386d23b7553ea99d58303277a5b38601ae3033b50b78",
+      "videoId": "4WgaQo6HmWg",
+      "visibility": "Public",
+      "durationSeconds": 75.968333,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "assets/captions/karpacz-centre-he.srt",
+      "srtSHA256": "ae657b18f1fde5d2d553bbbc2ad4e209b0bf1ced5ff8442b0ee3af45e5e0f7d2",
+      "cues": [
+        {
+          "start": 1.36,
+          "end": 8.5,
+          "text": "דז׳יין דוברי, בוקר טוב! מה שלומכם? אנחנו נמצאים במרחק שעה וחצי נסיעה מוורוצלב,"
+        },
+        {
+          "start": 8.5,
+          "end": 15,
+          "text": "בעיר שנקראת קרפץ, או יותר נכון עיירה."
+        },
+        {
+          "start": 15,
+          "end": 21.12,
+          "text": "כמו שלקרקוב יש את זקופנה, לוורוצלב יש את קרפץ."
+        },
+        {
+          "start": 21.12,
+          "end": 29.7,
+          "text": "העיר נמצאת בהרי קרקונושה, מה שנקרא הרי הענקים, בדרום מערב פולין."
+        },
+        {
+          "start": 29.7,
+          "end": 39.6,
+          "text": "זו למעשה עיר סקי ציורית, עם מדרחוב מאוד מאוד ארוך, עם המון בתי קפה ומסעדות."
+        },
+        {
+          "start": 41.06,
+          "end": 47,
+          "text": "טבע מדהים מסביבנו, אווירה מדהימה. אפשר לאכול כאן את הגבינה המפורסמת של הרי פולין,"
+        },
+        {
+          "start": 47,
+          "end": 54.98,
+          "text": "גבינה בגריל, גבינה שנעשית בגריל עם ריבה."
+        },
+        {
+          "start": 56.42,
+          "end": 61.6,
+          "text": "פשוט גן עדן. אני ממליץ לבוא ולטייל באזור המדהים הזה."
+        },
+        {
+          "start": 61.6,
+          "end": 65.42,
+          "text": "להתראות בתחנה הבאה. דו וידזניה!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "assets/captions/karpacz-centre-en.srt",
+      "srtSHA256": "393691e62af7cf1dfcf5875cfae6172aa7bbcbf52d0eea3e0c652d4b7ee4b205",
+      "cues": [
+        {
+          "start": 2.94,
+          "end": 11,
+          "text": "Good morning! We just drove one and a half hours away from Wrocław"
+        },
+        {
+          "start": 11,
+          "end": 18.42,
+          "text": "and reached this amazing mountain resort called Karpacz."
+        },
+        {
+          "start": 18.42,
+          "end": 27.56,
+          "text": "Just as Kraków has Zakopane, Wrocław has Karpacz. This ski resort sits in"
+        },
+        {
+          "start": 27.56,
+          "end": 32.7,
+          "text": "a mountain range called the Karkonosze Mountains, which means in Polish"
+        },
+        {
+          "start": 32.7,
+          "end": 40.72,
+          "text": "the Giant Mountains. Just behind this town is the highest peak in Poland."
+        },
+        {
+          "start": 40.72,
+          "end": 47.56,
+          "text": "It is called Śnieżka, and there is an observation deck at the top"
+        },
+        {
+          "start": 47.56,
+          "end": 54.24,
+          "text": "that you can take a cable car to. I invite you to visit this amazing place."
+        },
+        {
+          "start": 54.24,
+          "end": 60.58,
+          "text": "There is a pedestrian street full of cafés, restaurants and amazing wooden houses,"
+        },
+        {
+          "start": 60.58,
+          "end": 72.38,
+          "text": "with the atmosphere of a mountain ski resort. Come to Karpacz, and see you"
+        },
+        {
+          "start": 72.38,
+          "end": 75,
+          "text": "in our next video. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "assets/captions/karpacz-centre-de.srt",
+      "srtSHA256": "ac826d9934bb5124642e4319c79b2b89f431b4572a56e3d40342bd6940e33757",
+      "cues": [
+        {
+          "start": 2.94,
+          "end": 11,
+          "text": "Guten Morgen! Wir sind gerade eineinhalb Stunden von Wrocław gefahren"
+        },
+        {
+          "start": 11,
+          "end": 18.42,
+          "text": "und haben diesen wunderbaren Bergferienort namens Karpacz erreicht."
+        },
+        {
+          "start": 18.42,
+          "end": 27.56,
+          "text": "Wie Krakau Zakopane hat, hat Wrocław Karpacz. Dieser Skiort liegt in"
+        },
+        {
+          "start": 27.56,
+          "end": 32.7,
+          "text": "einem Gebirge namens Karkonosze, was auf Polnisch"
+        },
+        {
+          "start": 32.7,
+          "end": 40.72,
+          "text": "Riesengebirge bedeutet. Direkt hinter dieser Stadt liegt der höchste Gipfel Polens."
+        },
+        {
+          "start": 40.72,
+          "end": 47.56,
+          "text": "Er heißt Śnieżka. Auf dem Gipfel gibt es eine Aussichtsplattform,"
+        },
+        {
+          "start": 47.56,
+          "end": 54.24,
+          "text": "zu der man mit einer Seilbahn fahren kann. Ich lade Sie ein, diesen wunderbaren Ort zu besuchen."
+        },
+        {
+          "start": 54.24,
+          "end": 60.58,
+          "text": "Es gibt eine Fußgängerstraße voller Cafés, Restaurants und wunderschöner Holzhäuser,"
+        },
+        {
+          "start": 60.58,
+          "end": 72.38,
+          "text": "mit der Atmosphäre eines Skiorts in den Bergen. Kommen Sie nach Karpacz, und bis"
+        },
+        {
+          "start": 72.38,
+          "end": 75,
+          "text": "zu unserem nächsten Video. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "assets/captions/karpacz-centre-cs.srt",
+      "srtSHA256": "55debf38b40ef1b18240c36ea3d94f0568e9f884d6c17a4d5b1509a212e8e9aa",
+      "cues": [
+        {
+          "start": 2.94,
+          "end": 11,
+          "text": "Dobré ráno! Právě jsme jeli hodinu a půl z Vratislavi"
+        },
+        {
+          "start": 11,
+          "end": 18.42,
+          "text": "a dorazili do tohoto úžasného horského letoviska jménem Karpacz."
+        },
+        {
+          "start": 18.42,
+          "end": 27.56,
+          "text": "Stejně jako má Krakov Zakopané, má Vratislav Karpacz. Toto lyžařské středisko leží"
+        },
+        {
+          "start": 27.56,
+          "end": 32.7,
+          "text": "v pohoří zvaném Karkonosze, což v polštině znamená"
+        },
+        {
+          "start": 32.7,
+          "end": 40.72,
+          "text": "Obří hory. Hned za městem se nachází nejvyšší vrchol Polska."
+        },
+        {
+          "start": 40.72,
+          "end": 47.56,
+          "text": "Jmenuje se Sněžka a na vrcholu je vyhlídková plošina,"
+        },
+        {
+          "start": 47.56,
+          "end": 54.24,
+          "text": "kam se můžete dostat lanovkou. Zvu vás k návštěvě tohoto úžasného místa."
+        },
+        {
+          "start": 54.24,
+          "end": 60.58,
+          "text": "Je tu pěší ulice plná kaváren, restaurací a nádherných dřevěných domů"
+        },
+        {
+          "start": 60.58,
+          "end": 72.38,
+          "text": "s atmosférou horského lyžařského střediska. Přijeďte do Karpacze a uvidíme se"
+        },
+        {
+          "start": 72.38,
+          "end": 75,
+          "text": "v příštím videu. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "assets/captions/karpacz-centre-pl.srt",
+      "srtSHA256": "cbd7a67403b2d812713732cc58fa042f1a3e23aa18c63dfab80d45dcdf76102f",
+      "cues": [
+        {
+          "start": 2.94,
+          "end": 11,
+          "text": "Dzień dobry! Właśnie jechaliśmy półtorej godziny z Wrocławia"
+        },
+        {
+          "start": 11,
+          "end": 18.42,
+          "text": "i dotarliśmy do tego wspaniałego górskiego kurortu o nazwie Karpacz."
+        },
+        {
+          "start": 18.42,
+          "end": 27.56,
+          "text": "Tak jak Kraków ma Zakopane, Wrocław ma Karpacz. Ten ośrodek narciarski leży"
+        },
+        {
+          "start": 27.56,
+          "end": 32.7,
+          "text": "w paśmie górskim zwanym Karkonoszami, co po polsku oznacza"
+        },
+        {
+          "start": 32.7,
+          "end": 40.72,
+          "text": "Góry Olbrzymie. Tuż za tym miastem znajduje się najwyższy szczyt Polski."
+        },
+        {
+          "start": 40.72,
+          "end": 47.56,
+          "text": "Nazywa się Śnieżka. Na szczycie znajduje się taras widokowy,"
+        },
+        {
+          "start": 47.56,
+          "end": 54.24,
+          "text": "do którego można dojechać kolejką linową. Zapraszam do odwiedzenia tego wspaniałego miejsca."
+        },
+        {
+          "start": 54.24,
+          "end": 60.58,
+          "text": "Jest tu deptak pełen kawiarni, restauracji i wspaniałych drewnianych domów"
+        },
+        {
+          "start": 60.58,
+          "end": 72.38,
+          "text": "z atmosferą górskiego kurortu narciarskiego. Przyjedźcie do Karpacza. Do zobaczenia"
+        },
+        {
+          "start": 72.38,
+          "end": 75,
+          "text": "w następnym filmie. Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-16",
+      "method": "Native Studio published manual source/translation tracks"
+    }
+  },
+  "transcription": "Local source-audio ASR and native source transcript cross-check, spelling cleanup; faithful translations using source timing",
+  "bloopersExcluded": true,
+  "spokenNarrativeCaution": {
+    "claim": "The English guide says Śnieżka is the highest peak in Poland. Captions preserve the spoken narrative.",
+    "correction": "Śnieżka is the highest peak of the Karkonosze and Sudetes. English video description includes correction and official source.",
+    "source": "https://www.kpnmab.pl/sniezka-mountain/a"
+  }
+}

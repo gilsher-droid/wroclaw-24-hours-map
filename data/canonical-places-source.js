@@ -2762,6 +2762,7 @@
     }
   },
   "media": {
+    "guideVideos": {"he": "https://youtube.com/shorts/gQlJjc241gk", "en": "https://youtube.com/shorts/4WgaQo6HmWg"},
     "photos": [
       "/assets/excursion-three/karpacz-centre-01.jpg",
       "/assets/excursion-three/karpacz-centre-02.jpg",
@@ -3471,6 +3472,7 @@
     }
   },
   "media": {
+    "guideVideos": {"he": "https://youtube.com/shorts/kv047H3sRvA", "en": "https://youtube.com/shorts/G8QVSsk1ABk"},
     "photos": [
       "/assets/excursion-three/jelenia-gora-market-square-01.jpg",
       "/assets/excursion-three/jelenia-gora-market-square-02.jpg",
