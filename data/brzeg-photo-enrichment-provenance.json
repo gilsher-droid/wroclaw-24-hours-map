@@ -1,0 +1,1248 @@
+{
+  "checkedAt": "2026-10-16",
+  "method": "Original photo contact sheets and full-size architectural identity checks; museum interior sequence matched to castle. Gate matched to both existing guide recordings. Church information panel identifies the church explicitly. No new canonical points.",
+  "assets": [
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-014.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 14,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.50.jpeg",
+      "sourceSHA256": "a01e5e23b3e4bd051019f534bfd1ccbb1a61a0213daa1b759e7811380c64272f",
+      "sourcePixelSHA256": "3adfeb56968afbb323437850fec3ff056223553523372f23ce7dfa6f448b37f8",
+      "assetSHA256": "7d6cc7d2492023cad50b9450ecc9d5e049cecea6a9ec06c675582eb51184bd14",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-015.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 15,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.52 (1).jpeg",
+      "sourceSHA256": "8014284943fe1b6c3d539d446fec410131d452d475fb2a9a4a7b50eedee6db81",
+      "sourcePixelSHA256": "13075bd21089d0af1c023514faa23d0710ab26aa1b1fbd8a91bc073c75fc87b5",
+      "assetSHA256": "001152c67d92bf7d6a9a3dcac360d5ad22c71955008fa11ead68c39049fa9efd",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-017.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 17,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (1).jpeg",
+      "sourceSHA256": "e5c288cb85bddebc7be6731cd1530712cfa170234991dcf6df7850bedf8c9a2c",
+      "sourcePixelSHA256": "eb0a45c9b8287321ded41ed41264ae965148fd576dba51086fc6f6035095f7f8",
+      "assetSHA256": "0e0fefb19bbc5b77f551f4383d9fd9caf7620228d59324288583f4adde9367ac",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-019.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 19,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (3).jpeg",
+      "sourceSHA256": "8f4344fb26bf0d1ce16b591a2bd453c7d41f6d4152ffff7bc0fc435b0ef342fe",
+      "sourcePixelSHA256": "58bdd291502d1ff7c1ce7277f1256f9700d17eccd0abed3f63e4f8aa69df89dd",
+      "assetSHA256": "d7fc721384997424010851a75c0de55f8ad33bcb89ae3e068ad83b18ad000813",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-020.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 20,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (1).jpeg",
+      "sourceSHA256": "fe4d331a2e9e0c349e9554212dd4d705f635caf2b28d0a8d5679788288d7add7",
+      "sourcePixelSHA256": "acec10ead6d8a82211f2ee4ce531d7fec412d3f9fb820c5ad1c9020edb6b5890",
+      "assetSHA256": "0bc8aafbb02c51c275ceefcdd4637040e1d88669a1efb6c14e89af8bd2dced65",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-021.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 21,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (2).jpeg",
+      "sourceSHA256": "1b24870b3231a77912a7f66492875770f84ef0ca5274f2894843f4ef410b2a00",
+      "sourcePixelSHA256": "3ac6ecca8557d7bae4a0a95e4626fbd98c7029ba25159670baf6e7ff81f930ac",
+      "assetSHA256": "9453ac2b25ae40d657deca27e39e192eadbedbe2f9c2b9764e992083c4007ba0",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-022.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 22,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.56 (3).jpeg",
+      "sourceSHA256": "84be4bc4e4e4e5968af0527c0ed2219925b7199cb5da145f5e7beb5e6859e1a7",
+      "sourcePixelSHA256": "49471fc5197cd5098ed2ab6fa98169b43cb7735a4df3cb209e6c1125934c1375",
+      "assetSHA256": "16b268ce33ef85f32ef4ac26101953d7d76ae166d50e85afd1409cc6f2169176",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-023.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 23,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.57 (1).jpeg",
+      "sourceSHA256": "2b5988c2f956186a4dd6e177e75aa79a52ae483fa14c2eb05c00d2c858235da3",
+      "sourcePixelSHA256": "5358a1b08c9ac220a25df4f808a8bc0854d0599caf5a3392a9ea0986c6f1be0b",
+      "assetSHA256": "bab3d5e2f95cae16785c0cd827acc51b2009a8f4288be3055bfcdcdc5e25759d",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-025.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 25,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.58 (1).jpeg",
+      "sourceSHA256": "eb9431f13cfafb9790ba33b983b3100fa4fbf79ffefe6b63aa60e96cc03885dd",
+      "sourcePixelSHA256": "a5eb331d23c7c641f936a53e3d2fbdd0295a76a246fd29423d117b77dde9f4e9",
+      "assetSHA256": "6c46902006b8bec94c7616a56d3f88aad2d82462c79eff3157cc4c9f4b0ca4ad",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-027.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 27,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (1).jpeg",
+      "sourceSHA256": "e307394cb0bd0c07f4a5e11f4870bb0d4574be067014c47a3f93c15c4c1c431c",
+      "sourcePixelSHA256": "e1f594ffa19717f5b66283d9b0b89861526bd0f8dbd47a04213e6a6d3678967d",
+      "assetSHA256": "1d15589f7c180fe9e9b4fe838319edf71dbb13f5b810b4d56db643f8df48f45a",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-028.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 28,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (2).jpeg",
+      "sourceSHA256": "64592939c3ff21b7b1af50a9185522ea46164e00b7c79a377c0eaad28cfa52d0",
+      "sourcePixelSHA256": "6cec28f07f69f15327fb8e2fcc8f71c85dabc45d9c999187775ccf9d1d6ae9cf",
+      "assetSHA256": "b02e4aad973ce7a40e9211e36f001dec88d8c359cb6e4ce9d8089f1a59a47422",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-029.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 29,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.00 (3).jpeg",
+      "sourceSHA256": "5f081b7491dd13e893674a4f1b1e6e2af0117a80976d445fef80dfd7618ae8ee",
+      "sourcePixelSHA256": "066b34525e877cd22d0cf2bb663d17d151c003686657eef39983e5484e6916ec",
+      "assetSHA256": "94544c7bed9542b3adadf6df86a28dfcee92caadd2c996151b9a494b7ab020e0",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-030.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 30,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (1).jpeg",
+      "sourceSHA256": "b5116cbb8061bb73daf3dc08ff1959c2194d559fd216dbaa053c26f0dd3a83f9",
+      "sourcePixelSHA256": "e59e8ba4fde2ea87214e3436274cfc83934f2a63da801f3133ec8515d6c0d95c",
+      "assetSHA256": "c62ffab2d2976d6d3be8f45c7816363b282cb8507fbbea12c3504a9e166e3228",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-031.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 31,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (11).jpeg",
+      "sourceSHA256": "afd50d0905c0ee668c184c3fcfc07503532729a0699713c2f187a1907cb9ab2a",
+      "sourcePixelSHA256": "777faed1f6fb488b919d5425d8231573a11795bdfd75ebbc98f9abcbc4741a7a",
+      "assetSHA256": "04609f2049761a8d1f1ab37eeac8a91cae4c65708a96b7870ecd5a477afe0ece",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-032.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 32,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (2).jpeg",
+      "sourceSHA256": "bf9d4714414e95ec22a987499b5ba9dc461079266fbd3637ebea4d0dc3d54a8c",
+      "sourcePixelSHA256": "f2d9de144ad5aabceff2ecc522f1576477bf49a06a0c63a3aa0ae375de2eff09",
+      "assetSHA256": "24d219e7f71b320fb021cd69ab88ac56e08564c94459b6d6e6f62e35c5cf07e5",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-033.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 33,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (3).jpeg",
+      "sourceSHA256": "daf5432f7a08a4a1267648ecb314c0f8167d5233c7593ffade80beeda7594b66",
+      "sourcePixelSHA256": "2fbec11549d7301962e250c443fbe41bcaf48a69e25a9acb65c194131a99ec8e",
+      "assetSHA256": "f164f70010704776f230ccab8c219b79b0cceb138c785b8cb8cdab249305c523",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-034.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 34,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (5).jpeg",
+      "sourceSHA256": "f357760e4ab161e0c92de1b7b7af16e9f7859f0017ad6aea209c32168462ced6",
+      "sourcePixelSHA256": "8f18a71d7b5e217f79200d229379f76487261beffd83cf2e5c177ff5b674d37a",
+      "assetSHA256": "8fcbae94b83da27f633d707f7c34742aeed98b0d05d8c1ad1a4b21aa59473d4b",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-035.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 35,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01 (6).jpeg",
+      "sourceSHA256": "3cc13ef9981978ab9142a6f465fde410fb3741a3f2865f0d595c7fb3bcee1de9",
+      "sourcePixelSHA256": "812228d09e851d4877fe878bf205bf28f5d701471b092f4d78df07da02a89222",
+      "assetSHA256": "c59ea804ec34a6e26a2d28348e3feb0af874310de7d95280cb8cf9ad05ec18b1",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-036.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 36,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.01.jpeg",
+      "sourceSHA256": "7e81802b06afc81298291af50241e69bdffd6e2a576460faf56f00ba6c099016",
+      "sourcePixelSHA256": "796e9152d2e025b3b79f882ae82eec04d203b8ba52321959309f6d1e0c7ed7b1",
+      "assetSHA256": "66883c6d4eb9aea949ea33a3b0eee1075ad9ea8035732e54094445e278aad73d",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-037.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 37,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (1).jpeg",
+      "sourceSHA256": "fdb9f0a4c46930e46cbc0c9027a89c636a028156a3ec5282e26dc73f025b979c",
+      "sourcePixelSHA256": "05183f86fd61e784028a9fb0b3d6c166d8ff6e817d9fd6e73912bc26b90e471d",
+      "assetSHA256": "4c5857cbbc7f60d899b325bea68ab56971b791d81d14fdc69ecdd414b8b66ad2",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-038.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 38,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (14).jpeg",
+      "sourceSHA256": "71cda106dc6108e674b57c04bc2ee5320121d4faadd764f9a6d66ee500d33a25",
+      "sourcePixelSHA256": "3c2c1565461011876e04da28f7b1a6f4e6b026eab3e1f97a96b444bece14a916",
+      "assetSHA256": "3c906e98c9c4c269b6fc1f93378aa0853830a2920e1facc13bb8bdf38d40e04a",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-039.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 39,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (15).jpeg",
+      "sourceSHA256": "6358fe232dacb1c3111c1e8d7b0b17a88ceba3df335c0c6a3ffb72a73f6fddd7",
+      "sourcePixelSHA256": "a8e7b776080618e5fced3b03aa43d728c4a8c4ef4e158fb236233dc7a248080a",
+      "assetSHA256": "13cec5872e6e231f430d42d06ecd70f60462e5a5f909994e3738415956fb9a31",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-040.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 40,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (4).jpeg",
+      "sourceSHA256": "632bb93f6d80f7a73245ced8b60239f125e022f55c5da22b00f6110f63d26404",
+      "sourcePixelSHA256": "db8f1b8cc241f62fdc5674e224dbe308679fdda4bb8873d07c57e264723eb1f2",
+      "assetSHA256": "15d1fa8da31d14f64a9e931e5ce0d08de8cf1978e16737deb37439817b14dcab",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-041.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 41,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.29.02 (5).jpeg",
+      "sourceSHA256": "a729cd96cca5bc156b1295232dcdc5c8b10457b545306ca8a7416fe071697549",
+      "sourcePixelSHA256": "d99766f419123402de60edb329255bea6afe03afdbdb224405954e0b13fc3c5a",
+      "assetSHA256": "fb1d3311e4e17cf2434417103e36828b442f5faabf71f82a024216c02fbb1d6d",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-042.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 42,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.31 (1).jpeg",
+      "sourceSHA256": "10887df0db3a53eab5891957637e60552958ee4f3cf97373255298a354af5474",
+      "sourcePixelSHA256": "6a6b20cb71be820d6d1cc7f05705199840dce7ed4a506a8723a8d34800dbf742",
+      "assetSHA256": "fb66a4b1cb54f65278c1788f59a03d7d36de9429db9522c2c82c60aa5f3bd17a",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-043.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 43,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.31.jpeg",
+      "sourceSHA256": "838588bcdfc534f7279ea133bff4de0dad5025fcbb237aeed1c26bf9fecd1001",
+      "sourcePixelSHA256": "04a38f5c14b64a6c7af2c9bec880cb596b895e8d500da2b90f49fdd32eb73ac6",
+      "assetSHA256": "f44d754415dc388dd1f505e105816241818119eacec92043ed7d1f2c6600b16f",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-044.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 44,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.32 (1).jpeg",
+      "sourceSHA256": "d16b786e24919318a1b774399a06f8e07d01e00b635e0efe0bf64e2a2c8e2777",
+      "sourcePixelSHA256": "07b8b2259fd134198b0b9bb4d5e37197d89d550df9738d695416221a579cb64c",
+      "assetSHA256": "2c9502f102701958bc5f870b43710d230b5bd92a81840a546019218540ec14a3",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-045.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 45,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.32.jpeg",
+      "sourceSHA256": "581abc9b7cbc44464a0fcef44d792c3d9540c022d4158984004239897c2405e0",
+      "sourcePixelSHA256": "2076bf84edda6b2b9fa62482465233438806b58c2a80276cfd03dfcd0feb767f",
+      "assetSHA256": "e33ca48bb8f5f97d9323960fe010e4e0514e745b2b316f359759e30fcaa9c539",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-046.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 46,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.33 (1).jpeg",
+      "sourceSHA256": "4346759dd40e1a95323dce36dd031d4a52e4fc607451f9d29b918acc08927045",
+      "sourcePixelSHA256": "4300780f7e65fca1ad6600f638969b415de5e0fab275c6ea17f494aca57773da",
+      "assetSHA256": "773d6fa8e3e2c79c1cbe5bb396ae9a4cddf336e7581dc02389a74641e9b29105",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-047.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 47,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.33.jpeg",
+      "sourceSHA256": "2ccc8d79e8b6bb454b684c21d76811af27a36f7d07056ca66cab554811978590",
+      "sourcePixelSHA256": "1972b46b26a9cf60dcae2fb2e74088da4a4faacc1b5922f93179b46f752ae2da",
+      "assetSHA256": "d3b7d3eeaf3870b0e1824ca5e60a0c0be07eadc6a8f2b75f38d9b5ae89219981",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-048.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 48,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.35 (1).jpeg",
+      "sourceSHA256": "aaf625a5584619d6287a55b2ae44cdd5319e8303563275390d886cd11877d87a",
+      "sourcePixelSHA256": "ec805716f8f7eb25e97e6d2b9fb72263e47b55e5c789759b578683b3b3e70700",
+      "assetSHA256": "276029d69e8755fd4ae357a827108bd45ad1e134f1193f818c5aecb683219f62",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-049.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 49,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.35.jpeg",
+      "sourceSHA256": "1828e561abc8d4486e0723cbe637e3eaa2d9afd5e3aa023ec476d0d2017f3fa5",
+      "sourcePixelSHA256": "e90b58e5679b7c8ac5d00ff36b09e696a90df78d01f50e4df2653f2cb2eb2a9d",
+      "assetSHA256": "303691cefc5bc74f3db0bdeee13692a3c916420f26fe944439b56727cf57e60d",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-051.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 51,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.38 (2).jpeg",
+      "sourceSHA256": "560a1cc84b86eba0907fc5e6ba60ecef040ba7e314d45d0fc55c4161d53f9c01",
+      "sourcePixelSHA256": "e67477283b21e9b75f957606926c5064cdf5e9d40cb689ef411bbff02018ae59",
+      "assetSHA256": "5aaae238f5a077ebf3885e08c0329b6420ad6ea195cf3618f12441f0e20286e0",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-057.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 57,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43 (1).jpeg",
+      "sourceSHA256": "a77aafacf9c6437d3c9381c88f51f896d7a4979a68b04bd3beea2758e454addb",
+      "sourcePixelSHA256": "b8d454c6b8b48b587fa20e54df1b78dc7bf2670ae72998eccb3d94ad90989b2b",
+      "assetSHA256": "ce57970e541873eaf365f66b5d319b9855437f94c608d5c452fe6cc86590408b",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-058.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 58,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43 (2).jpeg",
+      "sourceSHA256": "635593ef0e2ef4424fef30a60b61403937b53672ece61295207f34cc771fe2ad",
+      "sourcePixelSHA256": "da96290481f814f41030083c0721a07639226466b3da7d618008c7cb1b03dae9",
+      "assetSHA256": "704fbe213893170cf3a60990c9440ebc9cef37285eecfdf1424da8fa6b15bd6a",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-059.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 59,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43.jpeg",
+      "sourceSHA256": "2c3caeda0b3cc5ec4ed797ac026ddefcd055133b026051134529f55e56ffa5b7",
+      "sourcePixelSHA256": "85e963a586b723692581b43925d32da2aa1017bdc51b489d7b20dc51c8454b85",
+      "assetSHA256": "dd6c5a626fb3989c993704a211723ec12d0b20b02804533bb939aa833691daad",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-060.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 60,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.06.jpeg",
+      "sourceSHA256": "21ec1e4b9926e9237cdb7a2fc6e1abfb31add43ce1e7557dca6beec38519179a",
+      "sourcePixelSHA256": "1a6de3b6035b1b2b104163867655e9ed253b82056d9a649a21a9bcee7fcd58cd",
+      "assetSHA256": "b52276e75b769a5774a26281b2001484c82a682ab859ff89ce549d69edeecbea",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-061.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 61,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.07 (1).jpeg",
+      "sourceSHA256": "22623f3f1092bf7d396480919cf6a11d7df29b7d8c00e70f31294c57c2f9ecd3",
+      "sourcePixelSHA256": "b180ff64d7eb55f918aee7a05a70724118043619a840ed1795fd62b4af3763b3",
+      "assetSHA256": "fb839015d2f45ec0bc0d897f1878fc2f8f994e77c91cf18d4e2b6e54f14fcd9a",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-065.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 65,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (3).jpeg",
+      "sourceSHA256": "5bc22e61e56bb8a2700dbdff66a236090253b80c12698478da9e41b6d3c88f16",
+      "sourcePixelSHA256": "85a403ef06369f36a4efaabea43e9267032ce806b3976f4522f98124f703c93b",
+      "assetSHA256": "698a7a67bfdbad1e97d552304950315afdb89660a71690e8853da6758b99dfed",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-066.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 66,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (4).jpeg",
+      "sourceSHA256": "47a575a7a4bf90da95f5a31429abebf29b09b74777b85abec0014c5b646d8026",
+      "sourcePixelSHA256": "5c7c6ddefde374ae09411557d4bbeb44720a4c07acad3fe3f3876a9d3ecdc18b",
+      "assetSHA256": "211a3b5a280f0ea8ee3d3b9bb2ca2159c674f6789290069a0e3024491c17d017",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-069.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 69,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (2).jpeg",
+      "sourceSHA256": "f2e4ceecba82ab4d282b61f830dfe4b097deb8468d2d25e6f3a3396af49c96c1",
+      "sourcePixelSHA256": "1c589a08dc03cda92f87cd478c79bc155ca7bffa8a10668c313bb2b257909683",
+      "assetSHA256": "0c5ea1eab1c648c286b50acbf15454f122cef873bf3288e803c7b8102a67d0b0",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-070.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 70,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (4).jpeg",
+      "sourceSHA256": "aab4581800da8a16df4a628ec994d1439e1d68ec7ddced6ec9cf04d417acd2ac",
+      "sourcePixelSHA256": "2e9926ed0cfee71c6330c56eddd556298db24e2e3fe2dfe6edef2ebdcc6f85c1",
+      "assetSHA256": "e9e45d9067531453def5f4f4a53d17fd4abae5af98268ea70f0a1eca55274494",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-073.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 73,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.32 (4).jpeg",
+      "sourceSHA256": "6b61cbfcd349bfb254004e5ce1d4d36e332c878f9ad58ec26323d13ab14fec08",
+      "sourcePixelSHA256": "bf8a203ab09ea231596db29eacda7275af958ed51fd407b02a3ea55bf3c0d4c2",
+      "assetSHA256": "93b824d253c9232f96bfb88e891cbbd2d3063d05777fee6ef587ce9fedf2c473",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-075.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 75,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (10).jpeg",
+      "sourceSHA256": "d73efa8fa1edc1f4ff5594c628964bc374fad6be5ef0a10230fef1f1f2d87ef0",
+      "sourcePixelSHA256": "71b93f07ee2449a199105635bfc78939a2ace712d3da78e053c9f3b39eb13613",
+      "assetSHA256": "3b46d17849ac7a8ecbd2d913b3ecc592334b53b24c44ddac73a143db00266e60",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-076.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 76,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (11).jpeg",
+      "sourceSHA256": "86686409141d7b414be2d9cd022f8b44478994f889655418fbaae9e87d562bc5",
+      "sourcePixelSHA256": "ba4d4d571e1cae90c7eb61e231e5fca652b8b32c0698916f9663bb8774f88182",
+      "assetSHA256": "74d155907ad74c04246ed825a4be74624d45bd578e0938cc1760df2364b82a4e",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-077.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 77,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (12).jpeg",
+      "sourceSHA256": "cbf9533213d29f4bcacc686879864bec67ba2c73398affa9d428b3049db04c1e",
+      "sourcePixelSHA256": "d5d40ea79e729d0c205db9b819b2a189417227b5b220ac1f84585114d1088bb1",
+      "assetSHA256": "137cfde1f36c4751b57a16b89b4814898b7fba1c0d177a97b508af1a2c2599fa",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-078.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 78,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (13).jpeg",
+      "sourceSHA256": "f966d92f3e3bc9bb9e6732c8e4f5513d6c88eb8e0e2fc009576c81d6c566645b",
+      "sourcePixelSHA256": "9901340a79b8bd012ee8ed8974aae74f9f42216c842f1467e3b897c99b1c4d7a",
+      "assetSHA256": "642daf6f1c5dfb28b2c35c1ce4fdb223eaffe4937d0c1113a669432a04b395bc",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-079.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 79,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (14).jpeg",
+      "sourceSHA256": "fd0d85878575f6fdc26940194f82b9ef92698050b9dc4e31e3170428b5ebd242",
+      "sourcePixelSHA256": "ebd5967b5edf0006e4c0b592edceda496ab257bb52d5dc50d7a1a051d57ee91b",
+      "assetSHA256": "40fbf146d64ae49a0499223da89d2daf6bdfa5e9df29272065ce0b7a049a83f1",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-080.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 80,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (17).jpeg",
+      "sourceSHA256": "524f270785f6835546194533b795015c45d39afabca271d29fbebd359355917d",
+      "sourcePixelSHA256": "ef8868fec919869cc844ec54db905c1d2d3c380abf5d1c67c6cede2367181555",
+      "assetSHA256": "a599e43cba85a72596ee4150506d272412b2cd5687a2dcc089f26c27dcfc9557",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-081.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 81,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (18).jpeg",
+      "sourceSHA256": "d32eadd905910fca205734c84d88a116a9815b32d14be2f3c6fe60471f524e3b",
+      "sourcePixelSHA256": "bb55d0dac1969e225dc65da41f4e62e04daeb21036c6b975431f63734ef2e48b",
+      "assetSHA256": "978ecca2453c2e20f8e0ebb483587a16ae34b2304b2c23b96efdca4d04de075f",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-082.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 82,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (19).jpeg",
+      "sourceSHA256": "3d9a9514e330b960795a02a4a3ef5d16da9346d4238523ddc1cc884c80f0b838",
+      "sourcePixelSHA256": "1252c004d1f9dfb6ffc9262bf1553997cb4a0216bdb9064f1a79c30ad7108b3c",
+      "assetSHA256": "ed403fb85cefeb4ea0fbabe1f26e48f11ad20358f1b2af62db16b1a18343284c",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-084.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 84,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (20).jpeg",
+      "sourceSHA256": "5de6c19dc9b971f647a710335b5c4f3bbf7be8628503cf030fb7211bdf01a697",
+      "sourcePixelSHA256": "269ac73501ccacc25c6dfdfcbf803708d7e7b5bb1d84133678372e2d4c5fe61b",
+      "assetSHA256": "68479ee14a3cd5db34e4fb9e0c13cf7585ffc9155a34126e3116c59fcce1dfb6",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-088.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 88,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (36).jpeg",
+      "sourceSHA256": "e01e800ed2bbc1536d28c7268a985df5b0b55a266de96d5a1f0e718b267da7e6",
+      "sourcePixelSHA256": "98a329fdaa39504c692de0ce56d4cc8e13da5e9e9cafc6eac83ff89fe93bad13",
+      "assetSHA256": "35a3abba5a9149a5303649ca16d6a6de65564bcb424d2d13a2799f45daa89cc0",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-089.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 89,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (37).jpeg",
+      "sourceSHA256": "671ada7abab19e03b2e182179058ca4e455aa52d10ce1205eedb6350ab798e86",
+      "sourcePixelSHA256": "9a19ae7e8589575fd92a85eadfbd61d670d04bc5e2588c8ae7266a8d44f31ed3",
+      "assetSHA256": "a597ba95a70541c09a991ceaefbdc505f93adef2ca8668f9a03cd6ebf87eb3cc",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-091.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 91,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (9).jpeg",
+      "sourceSHA256": "6c5ce22b53b4ee09c50f55aa7ae65ece60fa78dd29f11eb36eb3a2c017e634ff",
+      "sourcePixelSHA256": "3305fbd1b567ba401221198b5d234cff188c7380a49a5ea86e68a6fcce6fe9ba",
+      "assetSHA256": "c90d381b09dd3163b55c3b98ba90b006cfcb4ea6c3a98c4e167e5ddc67ed7003",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-092.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 92,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (10).jpeg",
+      "sourceSHA256": "cb91464f2c17e5c0865d2f466636718de3f663ed6bc4e329e9841bc134bc9e95",
+      "sourcePixelSHA256": "19a23aac4314f3e75874f292afc90bf5cd7f2ef591001efd8a30d0700f062796",
+      "assetSHA256": "a734ae0b3857d838aecca02eb15c2c18e37aa47d3991aedd15a87b9827f9d0aa",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-093.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 93,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (11).jpeg",
+      "sourceSHA256": "3b5e966048745ceda51b92e6b35c96db452d8486b78c042aeaacdf3241f3341d",
+      "sourcePixelSHA256": "889ebdca7bb069c2fcae8f6c6a750f392b1507810d328f567a6e36599d5e212b",
+      "assetSHA256": "b0dded7349aa952b0e8850d1aeeb4d43b281c5e8be43bfa6abad3ab0e1b527a0",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-094.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 94,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (12).jpeg",
+      "sourceSHA256": "7da90c00776c01f8a65726556648f2e096b5a8ab7031aa995d789fdddbed7337",
+      "sourcePixelSHA256": "95485fe8d4564f9f697200dbd6d98b0bb1a4beabdb324f2d0cb3b008e5b5ffd4",
+      "assetSHA256": "f13f0db1201b06158c52040dbddf4d4c4b209f66df14ac1955377604d5cc0ea0",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-095.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 95,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (13).jpeg",
+      "sourceSHA256": "2ded2c4616f20608ec1f87554d8cbb433ba681d20d3d5091d1a10617d0227294",
+      "sourcePixelSHA256": "fbaf34ebb942c35d61bc99f19bddf91f17a01798f6373809c58607bd4392eb53",
+      "assetSHA256": "46eaf5cf7cd611e61ac366028f95179e8bf8aded3487c1b878c8cf2bddbd5b39",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-096.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 96,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (14).jpeg",
+      "sourceSHA256": "afd417de6bec938aa13a668083411ba3da30ceacb66d1ac01345f51508c683fe",
+      "sourcePixelSHA256": "6b568bdfe479c662465bfa8ed8570ffa4345754e5cf7daf0ae5f88167e3a1512",
+      "assetSHA256": "aad4a498233c32a98a03eb4289e1d58301d4ca1ecb5cdb90c1ed1f25e0a1d503",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-097.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 97,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (2).jpeg",
+      "sourceSHA256": "d547e5e4ab6a0802371d2de303770db21db181138d49c4792f0130deb15ed23d",
+      "sourcePixelSHA256": "7bdfb5e4c0e5431dd311f4665964360133fe9c304922555b177e06b400b684a7",
+      "assetSHA256": "623d600b9af42ec9f08892b27be580d74f19e80d65021cdf970e0f98e2aae2c7",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-098.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 98,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (21).jpeg",
+      "sourceSHA256": "4b58205a3e010135fbda27de7ab7a043f5415fe3352c74d23bee660ba8df70c1",
+      "sourcePixelSHA256": "bf66ccb6999de9f7eaead2a957e453a0eb669083ad344bfcf7264d651133c358",
+      "assetSHA256": "5675cfad7294b09355791843f3eab31ccba83f2361ef34f4c0edac01ed2d02e6",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-099.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 99,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (22).jpeg",
+      "sourceSHA256": "c2c851af010797eda9018d4e7f133fef66c7ca9607dd3f6ccb13ce8e9e7d4855",
+      "sourcePixelSHA256": "df98432575ad04c54fe64882d8820655c301fe429d9563971d6c5e883cb0f7bc",
+      "assetSHA256": "98119ceaf3377fba3d7a703bc06f0d2059cfe75b6b53be25ff0861feb74fe6c7",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-100.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 100,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (3).jpeg",
+      "sourceSHA256": "adddaf158e4745797a4b530595bda554f22a74a5c4ebf5a115afd533778158a8",
+      "sourcePixelSHA256": "e5af342e535cc399d04c2701ce0d4a4157b14fd2627bbc6057319b00b142060f",
+      "assetSHA256": "68d383f39d7b562c9227f2b965afeb7fa19acb841254614d06f3e44631730f44",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-101.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 101,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (4).jpeg",
+      "sourceSHA256": "3dcfdd8edb36a1fd75f72bd14891ead15d3d2b107a19e550aec729e392a53510",
+      "sourcePixelSHA256": "e8362c4f90392d2ebf06b5ed5252861b296ef9ee6f239f82587f964df75a28a8",
+      "assetSHA256": "811efa63280f9c63f33c94b6bdaeed8a13fe7d76ce7c1f826fed76dd4a2c283b",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-102.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 102,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (5).jpeg",
+      "sourceSHA256": "c4767547e33a8208d433d334a5b9576ec5db3cf903ae2db3ebcdcf103c53422c",
+      "sourcePixelSHA256": "3e6e1778aa3e13b45956f007c81912d6f3fc2680954bcfee3850dcbe56404ba1",
+      "assetSHA256": "b5ad20c1f7ad81293bb861d5791b4f05e2140921d7c38aff3c88fb1f51adce63",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-103.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 103,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (6).jpeg",
+      "sourceSHA256": "92b3811827bb06abdc9cf569e954551c8cf6d984ec1697de17d7d7710fd4cbf9",
+      "sourcePixelSHA256": "5f2662d7c473c3861e61c9707fc4f039b3c22c6c36d9d3bf74a4386138862a48",
+      "assetSHA256": "d712e2deb314554aabd731023ee3c127798d1fd33531efa84151e7202b1c6b03",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-104.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 104,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (7).jpeg",
+      "sourceSHA256": "9e7c1180bc321ce6ac699b9745543e94f878b264435cb70441d4c674ff997a2e",
+      "sourcePixelSHA256": "6dc7d327d898f5f7e76896bf6deef9da2a6d4586296b4d14b4f1c5eb19466123",
+      "assetSHA256": "e0951210d8756a89c0efa0bef5bd2f8136118c00f662631ff1a002a5f1829247",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-105.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 105,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (8).jpeg",
+      "sourceSHA256": "0822630d8fc609aae0c9c57d2a85753e3de741a7d30155c0b4d21be49f0f35c2",
+      "sourcePixelSHA256": "ff297d77a144690d9577df9b7bc87aceacba81eaf2b0e7b2c105ed55f6618425",
+      "assetSHA256": "dd2fe90f1616b952cb5427fac9bfff4199206559d95d40a0eb2f38faeae6407e",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-106.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 106,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.34 (9).jpeg",
+      "sourceSHA256": "be30ad19ecd0e8ce882d9903592a4cc7d9a09030c6b705808a15a666fa7771b5",
+      "sourcePixelSHA256": "0e5d6d7c919a9c3cea154da189a8f4f8b48407d65afeb8e5d766ea94bcbb745f",
+      "assetSHA256": "f729773fcade0181b241ac3e48b351048868af94393e0213fa720976a5e77e02",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-107.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 107,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (1).jpeg",
+      "sourceSHA256": "54a701ae87caecdf850d374fbd970fac9914602592edffb462c81ce2c5334810",
+      "sourcePixelSHA256": "30f94369a20d8405086685ff19c2df69421d1b5ce5da2f1d18e226881294b305",
+      "assetSHA256": "fb75ca15865d20d03349be8dbf3eaf01b1e58f3c85eca33b79ab1c985fde5228",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-109.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 109,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (2).jpeg",
+      "sourceSHA256": "63cdc05e3caa4dd1da3f9314a140848154b827639f76e2317371f9d6deae0c00",
+      "sourcePixelSHA256": "404910f939da66430f27b58b46c3ebfed5f19cdbab4aa322b8560e0bda545f21",
+      "assetSHA256": "7d07db1c9bf2d882df9681e7f92d6c4d853d1909499855b6f0f5062917835e86",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-castle-144.jpg",
+      "placeId": "brzeg-castle",
+      "originalIndex": 144,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 17.30.38 (3).jpeg",
+      "sourceSHA256": "f168029674953a5c8d1cc86046f897ad4b8533c7def62ee92730e319fadb078c",
+      "sourcePixelSHA256": "73d8a2d7ff196d08a3495afb8bc7c94076329a5ccf73b51055c4cd304e6f5ca6",
+      "assetSHA256": "1dd7621be9fc43c0193dcbf5a3ef61255bcfe045cd356744029570f9306ef396",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-050.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 50,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.38 (1).jpeg",
+      "sourceSHA256": "4c6c1aa60a9f4349369bd0d4a5629d5b171e84f30ce2b5a393e4252033b1a32d",
+      "sourcePixelSHA256": "a020eb6a112286e8de479957dc9b99b6d2a0818bb62bf5af98ba132ad7c28e36",
+      "assetSHA256": "76acda711ab476b50e9d89b71f4dfdadd52d1ba973251389055c17391ffd8517",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-053.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 53,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39 (2).jpeg",
+      "sourceSHA256": "34a01edc3d43acec6ee9a2d4c3c44897c7193369e7915cac335db9818862117d",
+      "sourcePixelSHA256": "efa520e5b48f789685ae36e35c3333632dacfb89d9d90da3e6146995f7103e3b",
+      "assetSHA256": "e47cc8f53167d0e5050c69086590b172657b799eb7ce2f0e16d27ddc812d714e",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-054.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 54,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39.jpeg",
+      "sourceSHA256": "ce326c51a53ffd9314b867fe66ec20eb8c4e23a7a95f8b47fb55ffce07c775fe",
+      "sourcePixelSHA256": "2ac9465c96b4eeee55f9dfe34b8f0d913c05d37dbd1493db968a2c1f39dfb925",
+      "assetSHA256": "fea6257204ebea5484b11f4c5691e80a9faa83d8c291df00382981cd5694d4c9",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-055.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 55,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.42 (1).jpeg",
+      "sourceSHA256": "7d8a577f24f172e9f49bac5a457d39a02ab5c296ae0e17fa18de6b6b08b595e0",
+      "sourcePixelSHA256": "8c6b8eda42e61bc4fdbdb7c9246554300b16b9094470c79a91f5cb48eb83ddf0",
+      "assetSHA256": "155a8e8ec37e06a3a5572d78cc5cd364d9f904d4dc9a2fe901d8036e990bbee2",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 56,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.42.jpeg",
+      "sourceSHA256": "7a7592a2b721c0633b33e52e6db18cdf0aa789c1ba300db1360c7ebab06d6ccb",
+      "sourcePixelSHA256": "be011cff57fbb3ea17b254d036c4d08b316a21b2bc0ef80a3232e1db4a74282d",
+      "assetSHA256": "309739573694e9c106ccd2d600012e23399ef25b22aeeb3fb09c8427cd155bca",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-068.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 68,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.27 (1).jpeg",
+      "sourceSHA256": "1f21f4d104dcc4efc1f83d228c8b9f7137f17c568691aedd2713e8ce3ba16f14",
+      "sourcePixelSHA256": "e5e37fb7a75df89d7c4be571327078bdbea4fa06710544936bed47dd0e3d32ce",
+      "assetSHA256": "46c9e08884d6d36e4b18ddad1b1e3258a42bb208085fed1e55612b3f6721fce5",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-074.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 74,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (1).jpeg",
+      "sourceSHA256": "fb8a036ee2f395964316bc333a612e7200d934a9535648d778c0f7a96e764702",
+      "sourcePixelSHA256": "327c5ed64f5749d5edae5722dc9f2f0ca0b95382dfd0dfc51893ac315cb24fb3",
+      "assetSHA256": "f9d2d98660ad37f8352ba9990ef9b78107552f2ec9f44d1fd9a6b4fe5b2c433a",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-083.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 83,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (2).jpeg",
+      "sourceSHA256": "d355a92ddf3e752b623fd4db2009eadcd8b0f3698c90fb861afdc4241a55acdf",
+      "sourcePixelSHA256": "0c91f0cfc33f4199c24269f9d583e4eac3b472a39ab223ddee96495b26a3de84",
+      "assetSHA256": "fa3d29c24e24bb0dc361ca410d5f0cd6500faf17dc729e88ae32306e1a6bfb89",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-086.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 86,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (24).jpeg",
+      "sourceSHA256": "bda2d33ee4cdf99d053643bc99f3d27eb70391625d38fe8e96662086f110ad33",
+      "sourcePixelSHA256": "b159bfc77358892cfc1ad263b8a3462cd359d0414ef0b9fd2b394243dd0017f9",
+      "assetSHA256": "376323c2abd8d7ce343dbe30fdc7255a5ac91f1f8a4589d54f386305e8cf7716",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-087.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 87,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (26).jpeg",
+      "sourceSHA256": "124d5367c43bf0164a5fb2be64667ee540f70599c068305b7d1cede04920e0f1",
+      "sourcePixelSHA256": "32353923819809c400656428893d352cd50423df117c9dee2e6e48b9939c7e5e",
+      "assetSHA256": "3f48101873fe8274d011ffa1fd6f9adb7e87a0cb250b28700972f21eed39e3d7",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 90,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (4).jpeg",
+      "sourceSHA256": "39a2558ab1c6cbcd67f3924275e34c7be7520170cf695b9d7715a61f9e81e43e",
+      "sourcePixelSHA256": "57affb145280c6a656974947d4aa9cd324a5188bc02f3d4d7afbd8f9fb894d4d",
+      "assetSHA256": "02b7fe17467fde5493182ba78dba623156ed057762b7a52231e522a13a49ec5f",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg",
+      "placeId": "brzeg-holy-cross-church",
+      "originalIndex": 148,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 19.05.33 (27).jpeg",
+      "sourceSHA256": "23daa6e635bc8a76fbf4e262ee6f3e4eef95ee3e172a3c9ea1f67630a9b4673c",
+      "sourcePixelSHA256": "718735236914601cd7db7e5e607b02893a298f3a524c7be48807ed2dec5c8ef5",
+      "assetSHA256": "6d81e683c745788d70078f0b11565078a0ed2997580e5368a8052fde25579209",
+      "original": true
+    },
+    {
+      "asset": "/assets/brzeg-enrichment/brzeg-oder-gate-110.jpg",
+      "placeId": "brzeg-oder-gate",
+      "originalIndex": 110,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (3).jpeg",
+      "sourceSHA256": "92d54fcd27db6a76f6b5ff6191a125216e0c718f9afab3f1e731929e7254ca93",
+      "sourcePixelSHA256": "228faf6a7c5da6d9960048847e855d35415ab4392b4ed9afb1d4aed3bc3021e9",
+      "assetSHA256": "2940adfb3c752a995891e93d4252a2a02aa47368d35979c0e83094171371ca42",
+      "original": true
+    }
+  ],
+  "held": [
+    {
+      "originalIndex": 6,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.32 (5).jpeg",
+      "sourceSHA256": "2c081bb5c59a4c42f5633a2eae8db26ac8f39a1f56468bd9c4b39801f65c4624",
+      "reason": "Former Piast grammar school, not the canonical Town Hall"
+    },
+    {
+      "originalIndex": 7,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.32 (8).jpeg",
+      "sourceSHA256": "2dd6004a194e733d14928ed1b34a290e2ae3ec6194ff13cb49b447429f71445c",
+      "reason": "Different church, not Holy Cross"
+    },
+    {
+      "originalIndex": 8,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.33 (1).jpeg",
+      "sourceSHA256": "99903c547a6820f7e90ba250bd7117366c6d20462fca26fd3aba419c4b437ba6",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 9,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.33 (5).jpeg",
+      "sourceSHA256": "0331abfa07e06c1a0384649d13f31465d53b806dd506a0162beb36b02521d3ac",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 10,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.33 (7).jpeg",
+      "sourceSHA256": "bafcc8e1ce5cb63a808ba64eb7291f05d770fefa955b01cf68ed1d1bc85b7805",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 11,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.33 (8).jpeg",
+      "sourceSHA256": "99edef2ec2b766c56192dfa526b75680fc741156cc86863d0c1aa0d12466ff93",
+      "reason": "Former Piast grammar school, not the canonical Town Hall"
+    },
+    {
+      "originalIndex": 12,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.33 (9).jpeg",
+      "sourceSHA256": "1f6918b7eafd71e94a928cf8f8471a92661f38985d35c51650a3578efbe12874",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 13,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.50 (3).jpeg",
+      "sourceSHA256": "49660149f50ae18ba39963a47828e60d2a85c08d8e392e96f20ff09aabf138fc",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 16,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.52 (5).jpeg",
+      "sourceSHA256": "32b7a9a0cc53be44a23ba23fe0cbe26d210ee40f06a90809bdb1fa0c347256fe",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 18,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (2).jpeg",
+      "sourceSHA256": "e372f8b1682821c64d71ab2a1061767043af60ff8eb5ca4d44d6fc8dfc2b86d2",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 24,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.57.jpeg",
+      "sourceSHA256": "e0adf68bc7451037a00b1746a3ad5ff35d0e821df1bc4ef1f2d7d21c042c5d1a",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 26,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.58 (3).jpeg",
+      "sourceSHA256": "f4553287e177a9a598d1235fb4807e4673033c59076b14183b56d71051ce3b33",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 52,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39 (1).jpeg",
+      "sourceSHA256": "a2acc9f3f09ed92bab12aa87630a9def66fa7990165189fbe6da2b9e6f42dbc4",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 62,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.07 (2).jpeg",
+      "sourceSHA256": "7b7d74e96b7222bd711cbe9a3939b60c97a1574176f7067943b5ab4f2d5dca8c",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 63,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (1).jpeg",
+      "sourceSHA256": "4c8efde482bc17a03734c931c66c4906e286f947f96fee7a4eace70b4b8eed17",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 64,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (2).jpeg",
+      "sourceSHA256": "0e5d64d006414162cca83a3dd537ac1ff0b27b6635615eae7b45de4dd3bb987f",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 67,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.26 (5).jpeg",
+      "sourceSHA256": "bd03f0bacd0a27e1381a03935d24082dfe10fb0b0ecd5da759c9a3af505e481f",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 71,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.32 (2).jpeg",
+      "sourceSHA256": "99f6b5753c25720810dc9774e3402db9b2edf388bdd3d5b408571b57cd466888",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 72,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.32 (3).jpeg",
+      "sourceSHA256": "c3dd268826b0e3d1a6ae7cbe191c40c4ac941ec75c8b00138cbe45e25dc11f87",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 85,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.33 (21).jpeg",
+      "sourceSHA256": "a417e0d63e74e8083481f4b38fd35e7a4d5f33034e6108b7e2c7b89d3e7f02c5",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 108,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (11).jpeg",
+      "sourceSHA256": "660cedd6e05e735e23fc0bb82688549aa55c03b7218630a2df63be4616a20895",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 111,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (35).jpeg",
+      "sourceSHA256": "225ba35463ff2fb5007619306ea61c100a3133e80ce7821ee202753dc7806627",
+      "reason": "Different church, not Holy Cross"
+    },
+    {
+      "originalIndex": 112,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (4).jpeg",
+      "sourceSHA256": "716ae28de18301bc2bb35dfd26538ac1841358fcac06d63e9c47509fee3c9dfc",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 113,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (5).jpeg",
+      "sourceSHA256": "63b559f4a2373195f8ea41622d53d10c4b328e8384a4afca2f0d666997ad8fec",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 114,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (6).jpeg",
+      "sourceSHA256": "1529f333539ff75837e3017db794c34fbe0223c309c6708a1f4416beb1c3398f",
+      "reason": "Former Piast grammar school, not the canonical Town Hall"
+    },
+    {
+      "originalIndex": 115,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (7).jpeg",
+      "sourceSHA256": "162f71e7d4c02d00e3ac43fe090e036f5c8df439c8d18cc8a172a560cc676075",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 116,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (8).jpeg",
+      "sourceSHA256": "b80b19ef2f15892019946570592da8bd6284ae8dc416c156531f9ce56f6cbc6c",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 117,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (9).jpeg",
+      "sourceSHA256": "3ffe406887e2dc7824d8740decac0880a82c52b287430b8eed976d4da51821dc",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 118,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.36 (1).jpeg",
+      "sourceSHA256": "923b8f23dd6d1dd0d75634a17477fdecae8f4fb16440ea25194463bfa0b0402d",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 119,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.36.jpeg",
+      "sourceSHA256": "bd4a4ac06c265b2e16b0f1b43d7a56e87da46b04c148a576080608bb4e6aeaf6",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 120,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.37 (1).jpeg",
+      "sourceSHA256": "1c48baeb4fa9117905bde1cede9708d8caaebaea0fe1b70bbc73d3d4f395704d",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 121,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.37 (2).jpeg",
+      "sourceSHA256": "f42369046985e7b5fd830fd8b64fe5c2db2c89c62842763720d0f92891dbae52",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 122,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.37 (3).jpeg",
+      "sourceSHA256": "83c1e17619798c1ea5f2feeeacf3e4fe4026942282b4ddae062d157120d4d6f8",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 123,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.37 (4).jpeg",
+      "sourceSHA256": "346cab7e5b611c87231781bcba00fd81d629ac41c460761d8459884aeddb4e59",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 124,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.37 (5).jpeg",
+      "sourceSHA256": "ab8babbb3cd6592b385ee038c8700e7c0c005b8ff8ab1db5d0f5b9ddbb8d7d03",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 125,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.37 (6).jpeg",
+      "sourceSHA256": "6ccc4f5fcafa52b3cf23a0e2fcd37f4036e989b60d570e1aa1601ba55d6de505",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 126,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.37.jpeg",
+      "sourceSHA256": "fe2afe7d7dcf258352706105c466c23c4cfb58b0ea470926e52fa16ec84016a0",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 127,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.38.jpeg",
+      "sourceSHA256": "b0c9e848efa99542203f7617ecbcb3912988a7d526e762554dfb681d5cdf735e",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 128,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 17.30.43 (3).jpeg",
+      "sourceSHA256": "fa7d0f35466c12403b9afb3ed2fb409599f85fa60087b21c7250026695587525",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 129,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.33 (28).jpeg",
+      "sourceSHA256": "550980cd4378c98818bbaf8ef7e4f8298144a9543e231f589c98510fec180a5c",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 130,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.33 (29).jpeg",
+      "sourceSHA256": "b7201e4343d85fbeaa4042764cbde045598a071779a2bba2fa1f68f0fd94ce8e",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 131,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.34 (17).jpeg",
+      "sourceSHA256": "c9f4989affdd076047dac6960c75efa7ab3b91a3724776498c59a0ab8cd6aa90",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 132,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.34 (18).jpeg",
+      "sourceSHA256": "c3754cd4a7011b4c2ddcf7df8d0ea87ed6c91bc707be75bd321285ab084414c3",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 133,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.34 (19).jpeg",
+      "sourceSHA256": "f957990b0a6c6e32cab0e00c24058546a0e5ffe2b87266da09e0ffb7e013c222",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 134,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.34 (20).jpeg",
+      "sourceSHA256": "8c7841e77b67f6f118eea1050f13b1375b815fa1232677cd42bf150d7806e287",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 135,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.34 (36).jpeg",
+      "sourceSHA256": "ae053c51164f32e28f5723202d8260536e0cf2a63ebf59209d87a3292897d65c",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 136,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.34 (37).jpeg",
+      "sourceSHA256": "cd59b7ff655b2f13eb713074c0bbea4d11981669a76327e22422222488ac865a",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 137,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.35 (10).jpeg",
+      "sourceSHA256": "43fa76f547e066c58094c76c3880624013332fe7daea47df42dd3814793b8f94",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 138,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Family/WhatsApp Image 2026-09-24 at 19.05.35 (23).jpeg",
+      "sourceSHA256": "1e088a54ab662d85d1ffed898d9abc569f4a86209298815774b2d6ce09ab3e6e",
+      "reason": "Personal portraits; excluded from public landmark gallery"
+    },
+    {
+      "originalIndex": 139,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Photos and Videos/WhatsApp Image 2026-09-24 at 17.29.02 (11).jpeg",
+      "sourceSHA256": "d813872b19e29b35da75a2b009a604f1737c62d785633815af62ee4caa16aad2",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 140,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Photos and Videos/WhatsApp Image 2026-09-24 at 19.05.32 (5).jpeg",
+      "sourceSHA256": "32a07bacf5642b13f6ae27b2a9c8efa87ead274cec50cbab2b0fd9386a3ace20",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 141,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 17.28.32 (7).jpeg",
+      "sourceSHA256": "4626ec981a3725163f44843bc2dc70362d7df6cd65e0b7aaac928f9b55dfa60e",
+      "reason": "Former Piast grammar school, not the canonical Town Hall"
+    },
+    {
+      "originalIndex": 142,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 17.28.32 (9).jpeg",
+      "sourceSHA256": "5ecfac9d6e574adae0617a31601094f58cc414fb0838390f9d9298bbd38879ba",
+      "reason": "Former Piast grammar school, not the canonical Town Hall"
+    },
+    {
+      "originalIndex": 143,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 17.28.55 (5).jpeg",
+      "sourceSHA256": "e767a56d6303d8d43ce26595afb327610ec76d2c19f8c660410427cf67099122",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 145,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 17.30.42 (2).jpeg",
+      "sourceSHA256": "21292ba8565baac9dbb98020db5abb0389101760d2766ca64ba40a6d1ecf2a9a",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 146,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 19.05.27 (7).jpeg",
+      "sourceSHA256": "2cd2c6bda994d9f8338ff5f4c98aafcff9a7f7f05059f9ce3e2679c87b95204f",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    },
+    {
+      "originalIndex": 147,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 19.05.32 (6).jpeg",
+      "sourceSHA256": "c522e620d38f2a4ea2e5f593eb0dd3c1452d7f3d57c6239cbab419b2fde02ffb",
+      "reason": "Uncertain exact canonical place or secondary material; do not associate speculatively"
+    }
+  ],
+  "videos": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/VIDEO-church-interior.mp4",
+      "sourceSHA256": "42b1fb0735c5964314cb5a0b82ba83d29dc25d669fd0b24cfb0c6df10db3c5cc",
+      "existingYouTubeId": "3zsPgj8Q5_0",
+      "decision": "reuse existing public upload"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Photos and Videos/WhatsApp Video 2026-09-24 at 17.28.40.mp4",
+      "sourceSHA256": "8de253722a732dfd285157e8744388550f4563b031f4490767acec76910b88a4",
+      "existingYouTubeId": "xs3NY7q0OX4",
+      "decision": "reuse existing public upload"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Photos and Videos/WhatsApp Video 2026-09-24 at 17.28.49.mp4",
+      "sourceSHA256": "bab31399bac5e4402c3d630d70d639b07917dfcb656e2e171c42057bfc4525ab",
+      "existingYouTubeId": "hvnoxm3reWo",
+      "decision": "reuse existing public upload"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Photos and Videos/WhatsApp Video 2026-09-24 at 17.30.53.mp4",
+      "sourceSHA256": "52e363c4732866b79e3401c783e561eedb10ee92836eae194fd1ccedd072336e",
+      "existingYouTubeId": "zbpTMh2Fe2c",
+      "decision": "reuse existing public upload"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/Photos and Videos/WhatsApp Video 2026-09-24 at 17.31.04.mp4",
+      "sourceSHA256": "c9ac7ca71fb27679a69819b9971901158ab1b4e50da0a36922b1c0acba0e2e12",
+      "existingYouTubeId": "IYllRzq9VJs",
+      "decision": "reuse existing public upload"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/המדריך שלנו/WhatsApp Video 2026-09-24 at 17.28.33 (1).mp4",
+      "sourceSHA256": "4a2cd7ff7992a4ef468c4596b6cb2000d91f3f790123ad0fcd5c70cd0ba5ea49",
+      "existingYouTubeId": null,
+      "decision": "hold: 1.8-second bin/painting shot; no exact canonical landmark identity"
+    }
+  ]
+}
