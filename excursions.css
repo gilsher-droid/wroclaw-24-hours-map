@@ -98,3 +98,12 @@ footer>div { display:grid; gap:5px; } footer span { color:var(--muted); } footer
 @media(max-width:640px){ .lifestyle-brand small,.home-return{display:none}.language-switcher{max-width:100%;overflow-x:auto}.language-switcher button{padding-inline:10px}.excursions-hero{padding-top:54px;padding-bottom:54px}h1{font-size:44px}.hero-lead{font-size:17px}.excursion-preview img{height:220px}.excursion-content{padding-top:56px}.section-title-row{align-items:flex-start;flex-direction:column}#excursion-map{height:390px}.itinerary,.editorial-grid{grid-template-columns:1fr}.place-cover{height:250px}footer{align-items:flex-start;flex-direction:column} }
 @media(max-width:640px){ .transport-grid,.accessibility-list{grid-template-columns:1fr} }
 @media(max-width:640px){ .trip-list,.walk-stops{grid-template-columns:1fr}.trip-card{min-height:120px}.trip-card img{min-width:110px}.walking-section{padding:18px} }
+
+.excursion-place-popup { min-width:180px; font-family:Arial,sans-serif; }
+.excursion-place-popup > strong { display:block; font-size:17px; line-height:1.4; }
+.excursion-place-popup .place-actions { margin-top:12px; gap:7px; }
+.excursion-place-popup .place-actions a { font-size:13px; color:var(--navy); padding:8px 10px; }
+.excursion-place-popup .place-actions .guide-video-button { width:100%; box-sizing:border-box; }
+.excursion-place-details { display:block; margin-top:14px; font-weight:700; }
+.place-card[id] { scroll-margin-top:24px; }
+.place-card:target { outline:3px solid var(--gold); outline-offset:4px; }

@@ -37,6 +37,14 @@
     cs: { select: "Vyberte výlet", previous: "Předchozí výlet", next: "Další výlet", view: "Zobrazit výlet", carousel: "Jednodenní výlety", opole: "Opolské vojvodství", walk: "Pěší trasa v Brzegu", walkingDirections: "Pěší navigace", approximate: "Menší body jsou orientační. Sledujte místní cesty a navigaci." },
   };
 
+  const placeDetailsLabels = {he:"לכרטיס המקום המלא",en:"Full place details",pl:"Pełne informacje o miejscu",de:"Alle Informationen zum Ort",cs:"Podrobnosti o místě"};
+  function escapeHtml(value) { return String(value || "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
+  function placePopup(canonical, label, coordinate) {
+    const actions = canonical ? actionLinks(canonical) : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${coordinate.lat},${coordinate.lng}`)}" target="_blank" rel="noopener">${tr("navigate")}</a>`;
+    const details = canonical && selectedExcursion().canonicalPlaceIds.includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
+    return `<div class="excursion-place-popup" dir="${language === "he" ? "rtl" : "ltr"}"><strong>${escapeHtml(label)}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}<div class="place-actions">${actions}</div>${details}</div>`;
+  }
+
   function tr(key) { return ui[language]?.[key] || ui.en[key] || key; }
   function local(value) { return value?.[language] || value?.en || value?.he || ""; }
   function place(id) { return window.WROC_CATALOG?.getPlace?.(id) || window.WROC_CATALOG?.places?.[id]; }
@@ -123,7 +131,7 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }, canonical, language)) }).addTo(map).bindPopup(`<strong>${label}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}${canonical ? window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "" : ""}`).on("popupopen", () => trackPlaceOpen(canonical));
+      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }, canonical, language)) }).addTo(map).bindPopup(placePopup(canonical, label, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
     });
     map.fitBounds(route, { padding: [30, 30] });
   }
@@ -154,7 +162,7 @@
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
       const label = canonical ? local(canonical.name) : local(point.label);
-      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }, canonical, language)) }).addTo(walkingMap).bindPopup(`<strong>${point.id} — ${label}</strong>${canonical ? window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "" : ""}`).on("popupopen", () => trackPlaceOpen(canonical));
+      L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }, canonical, language)) }).addTo(walkingMap).bindPopup(placePopup(canonical, `${point.id}. ${label}`, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
     });
     walkingMap.fitBounds(line, { padding: [25, 25] });
   }
@@ -208,7 +216,7 @@
       const videoGallery = videos.length > 1 ? `<details class="visit-gallery"><summary>${moreVideos[language]} (${videos.length - 1})</summary><div class="visit-video-grid">${videos.slice(1).map((src,index)=>window.WROC_YOUTUBE_VIDEO.html(src,`${local(canonical.name)} ${index + 2}`,language)).join("")}</div></details>` : "";
       const photoLink = (photo) => `<a href="${photo}" target="_blank" rel="noopener"><img loading="lazy" src="${photo}" alt="${local(canonical.name)}"></a>`;
       const gallery = photos.length > 4 ? `<details class="visit-gallery"><summary>${morePhotos[language]} (${photos.length - 4})</summary><div class="photo-strip">${photos.slice(4).map(photoLink).join("")}</div></details>` : "";
-      return `<article class="place-card" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1,4).map(photoLink).join("")}</div>${gallery}${video}${videoGallery}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
+      return `<article class="place-card" id="excursion-place-${id}" tabindex="-1" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical, language)}<p>${local(canonical.description)}</p><div class="photo-strip">${photos.slice(1,4).map(photoLink).join("")}</div>${gallery}${video}${videoGallery}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
   }
 
