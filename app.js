@@ -122,6 +122,7 @@
     const time = evening ? "" : `<span class="popup-chip">${escapeHtml(t("recommendedTime"))}: ${escapeHtml(location.time[currentLanguage])}</span>`;
     const optional = location.optional ? `<span class="popup-chip">${escapeHtml(t("optionalStop"))}</span>` : "";
     return `
+      ${window.WROC_PLACE_POPUP_PHOTO.html(location,currentLanguage)}
       <div class="popup-title">${escapeHtml(location.name[currentLanguage])}</div>
       <div class="popup-local">${escapeHtml(location.localName)}</div>
       ${placeAmenities.labelBadgeHtml(location, currentLanguage)}

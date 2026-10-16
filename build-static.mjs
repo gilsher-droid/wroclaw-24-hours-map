@@ -29,6 +29,8 @@ for (const file of [
   "now-in-wroclaw.css",
   "now-in-wroclaw.js",
   "place-amenities.css",
+  "place-popup-photo.css",
+  "place-popup-photo.js",
   "guide-video.css",
   "guide-video.js",
   "youtube-video.js",
