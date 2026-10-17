@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-17",
+  "scope": "Original photos only. Four cafe visit videos deferred; no guide/social/advertising changes.",
+  "places": {
+    "pizza-si": {
+      "selected": [
+        {
+          "group": "pizza-si",
+          "index": 5,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-10-01 at 09.23.56 (5).jpeg",
+          "sha256": "691310b7126801e837f99c94c249a0e1a8391d0dcc069532fc9e386a68a076e4",
+          "pixelSHA256": "38a589c5a3a28e8d785a8d2c25152408dc55308e3f9dc46de7bdda62025e8c94",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "asset": "/assets/food-cafes/pizza-si-01.jpg",
+          "assetSHA256": "11b5dd7263f984409934ac65c524a92891dec1305a0e610b6553bd1789a8e426",
+          "dimensionsPublished": [
+            1200,
+            1600
+          ]
+        },
+        {
+          "group": "pizza-si",
+          "index": 1,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-07-30 at 16.04.00 (1).jpeg",
+          "sha256": "72c226c7894e434dd623109a1c6ed990c9d4df2b505973f1dd9d3166dcfb3389",
+          "pixelSHA256": "2510c5dc0d2ff4d8f3e851da6ad1cf61e63e4d45072ef701d8c0d175b5b7c116",
+          "dimensions": [
+            1200,
+            1600
+          ],
+          "asset": "/assets/food-cafes/pizza-si-02.jpg",
+          "assetSHA256": "6a3e382400be08d88640bb0e0c88f11526afc0408fab2fe7f432756fc181e4fa",
+          "dimensionsPublished": [
+            1200,
+            1600
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "group": "pizza-si",
+          "index": 2,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-10-01 at 09.23.56 (2).jpeg",
+          "sha256": "eb7b599aca2a6213dab4b6abae2a360fc78b8496d8e51a282b21f8b77e22bd9a",
+          "pixelSHA256": "8bd84cf60881e84ad91bd55d96d489fe7b03bf9f393f83b7e2d9b77767c6fae4",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "near-repeat of selected meal frame 5"
+        },
+        {
+          "group": "pizza-si",
+          "index": 3,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-10-01 at 09.23.56 (3).jpeg",
+          "sha256": "d031e216687e10101926934f1a77560280a17c6a8387c996906ed4283e859316",
+          "pixelSHA256": "4a04fcb69c0e3787242405d1dcc8560a782cd5eaa48daf9f84a4aa213372ee53",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "near-repeat of selected meal frame 5"
+        },
+        {
+          "group": "pizza-si",
+          "index": 4,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-10-01 at 09.23.56 (4).jpeg",
+          "sha256": "ce1c4f398223a2bba519480083e2a401f10ec3b72c3a83939c84fed3745e101f",
+          "pixelSHA256": "2455b98eede92e4990758ad2e0dc63a820d4d8124457d4a44ac68adc28f0c5db",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "near-repeat of selected meal frame 5"
+        },
+        {
+          "group": "pizza-si",
+          "index": 6,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-10-05 at 18.31.26.jpeg",
+          "sha256": "8702178e02b8298311208592fba204c143b28c42200be1cf6b39238ddb103409",
+          "pixelSHA256": "e1c6d80eb359e4da808fa3179904a121377d449098cd1b33f66597704d76fc95",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "personal posed portrait excluded"
+        }
+      ]
+    },
+    "czarna-magia": {
+      "selected": [
+        {
+          "group": "czarna-magia",
+          "index": 11,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-05 at 18.28.04 (7).jpeg",
+          "sha256": "49eb4c1561364ef9bc81e25599c275587f600412e9eec26fac0d65e929e50a03",
+          "pixelSHA256": "e181ae4163817ad8958d488ac3f1c7cd8ebe70b9138794f1988c2ac3a5b53fdc",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "asset": "/assets/food-cafes/czarna-magia-01.jpg",
+          "assetSHA256": "42f696e3cff60badb4a7885cd1c2d79284d7275e9e921cd47e5a498e01c53d45",
+          "dimensionsPublished": [
+            1200,
+            1600
+          ]
+        },
+        {
+          "group": "czarna-magia",
+          "index": 6,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.41.jpeg",
+          "sha256": "042f0d6af17d964639172219be30c8e702ccdd0802a0ce8593850db48238ed0e",
+          "pixelSHA256": "ebace71fda0bcef0050f1a938e0ce2d84e2054fa89b6dba5812ef97469e85b52",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "asset": "/assets/food-cafes/czarna-magia-02.jpg",
+          "assetSHA256": "3848f8ff380d917a4948b6876d1f27bba22102e80c9768c10f15b8c6c44633e4",
+          "dimensionsPublished": [
+            1200,
+            1600
+          ]
+        },
+        {
+          "group": "czarna-magia",
+          "index": 2,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.40.jpeg",
+          "sha256": "aec58c502e95105630c5a351b48d1a40e8585d4987e15d32b66523fd288772df",
+          "pixelSHA256": "ba9a9bb77a03d9087271cc9c454493af564774aa139241ba4e9089b219b0487f",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "asset": "/assets/food-cafes/czarna-magia-03.jpg",
+          "assetSHA256": "9906cfffc2bc50f1ac9821fa6121dabcafa17a99b1900250b77d41208420f0c5",
+          "dimensionsPublished": [
+            1200,
+            1600
+          ]
+        },
+        {
+          "group": "czarna-magia",
+          "index": 4,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.41 (3).jpeg",
+          "sha256": "cb108846381312ba4c0cd3b0e6a07c20bf314cc5a70b55f10d1436c514301e25",
+          "pixelSHA256": "c8b504a78b1aa539bb5628418088511246d88901fcf8946ae6b7f43c72bd78eb",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "asset": "/assets/food-cafes/czarna-magia-04.jpg",
+          "assetSHA256": "8123887d2b5a61ada6a0c00c7a1428c92df6069cd3e45e316a08f2d95919b060",
+          "dimensionsPublished": [
+            1200,
+            1600
+          ]
+        },
+        {
+          "group": "czarna-magia",
+          "index": 1,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.40 (1).jpeg",
+          "sha256": "09c44cc76fd3f4d0fce754475ae896bf455ac66e7984b7029ac1463dab615f08",
+          "pixelSHA256": "60fc3a3b33c682a5a095804b20b3876d8e8db3715ab61fcfee71dc1e31a4e919",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "asset": "/assets/food-cafes/czarna-magia-05.jpg",
+          "assetSHA256": "c1381fea82425794fe47294ce8937ebe5bc5dd274d77895d0802e16525a12a1a",
+          "dimensionsPublished": [
+            1200,
+            1600
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "group": "czarna-magia",
+          "index": 3,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.41 (1).jpeg",
+          "sha256": "46420ba806acbf791188cd82cc228a0fd5ff19c70686f59c8cc9cc6fdf9868f6",
+          "pixelSHA256": "01c92f4f572aff8a7b9dccf938cbfd7ccddc917f1e9a7a14fc1e23e6421b646e",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "near-repeat of selected table detail 4"
+        },
+        {
+          "group": "czarna-magia",
+          "index": 5,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.41 (4).jpeg",
+          "sha256": "ff70cdbcb13c2b3c8937221cce261d8c77ea080432bdde4a037b1892dd4019e7",
+          "pixelSHA256": "efbf2d366e2760777485f7ae685869457bfd71efd30a7873dd8a59d9384d3be0",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "near-repeat of selected interior 6"
+        },
+        {
+          "group": "czarna-magia",
+          "index": 7,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.45 (3).jpeg",
+          "sha256": "e6bde18faa9b58b888a589f38fec6456976c0888ab9d6f6776a68259e8af540c",
+          "pixelSHA256": "f6a34e6c281469cd145dfb3e2ad629c9f5f65a81dbfaec969d54ea29be1b71c7",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "people foreground, conservative personal-photo exclusion"
+        },
+        {
+          "group": "czarna-magia",
+          "index": 8,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-05 at 18.27.57.jpeg",
+          "sha256": "43989847e8f8bfc90ad166760f93408e10018abfc45329fddc0e3421ecdf5b4f",
+          "pixelSHA256": "8d3fc6912114de3703bcc8345916dbbf1a678e0211cfb3a65c260f8c2cea5d85",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "generic coffee arrow, exact venue unverified"
+        },
+        {
+          "group": "czarna-magia",
+          "index": 9,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-05 at 18.28.04 (4).jpeg",
+          "sha256": "3f7cc263e901636b95ea2f9d1de1539439eba9e218112e5c0d8b15bdc6f2d5cb",
+          "pixelSHA256": "df51ce2381c525d21caece2cf3276f36917a4d83204b59fefe8360da6893173e",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "street view, exact venue unverified"
+        },
+        {
+          "group": "czarna-magia",
+          "index": 10,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-05 at 18.28.04 (5).jpeg",
+          "sha256": "aec58c502e95105630c5a351b48d1a40e8585d4987e15d32b66523fd288772df",
+          "pixelSHA256": "ba9a9bb77a03d9087271cc9c454493af564774aa139241ba4e9089b219b0487f",
+          "dimensions": [
+            1536,
+            2048
+          ],
+          "reason": "byte-identical duplicate of selected frame 2"
+        }
+      ]
+    }
+  }
+}

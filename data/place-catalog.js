@@ -5935,6 +5935,173 @@
       }
     ]
   },
+  "czarna-magia": {
+    "id": "czarna-magia",
+    "localName": "Czarna Magia",
+    "name": {
+      "he": "צ׳ארנה מגיה",
+      "en": "Czarna Magia Café",
+      "pl": "Czarna Magia",
+      "de": "Café Czarna Magia",
+      "cs": "Kavárna Czarna Magia"
+    },
+    "description": {
+      "he": "בית קפה וארוחות בוקר בעיר העתיקה, סמוך לכיכר השוק. בגלריה מהביקור שלנו תמצאו את שלט המקום, חלל הישיבה המקומר, קפה וארוחת בוקר.",
+      "en": "An Old Town café and breakfast spot near Market Square. Our visit gallery includes the café sign, vaulted seating area, coffee and breakfast.",
+      "pl": "Kawiarnia i miejsce na śniadanie na Starym Mieście, niedaleko Rynku. Galeria z naszej wizyty pokazuje szyld, sklepione wnętrze, kawę i śniadanie.",
+      "de": "Café und Frühstückslokal in der Altstadt nahe dem Rynek. Unsere Besuchsgalerie zeigt das Schild, den gewölbten Gastraum, Kaffee und Frühstück.",
+      "cs": "Kavárna se snídaněmi ve Starém Městě poblíž Rynku. Galerie z naší návštěvy ukazuje vývěsní štít, klenutý interiér, kávu a snídani."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1101717,
+        "lng": 17.02932
+      },
+      "address": {
+        "street": "Kiełbaśnicza 2",
+        "postalCode": "50-108",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "czarna-magia"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "czarna-magia",
+        "lat": 51.1101717,
+        "lng": 17.02932
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.facebook.com/czarnamagiacafe/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1101717%2C17.02932",
+        "appleMaps": "https://maps.apple.com/?ll=51.1101717,17.02932"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "url": "https://dialogfestival.pl/en/recommended-places/",
+          "verifiedAt": "2026-10-17"
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/6402930598",
+          "verifiedAt": "2026-10-17",
+          "scope": "coordinates"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/food-cafes/czarna-magia-01.jpg",
+        "/assets/food-cafes/czarna-magia-02.jpg",
+        "/assets/food-cafes/czarna-magia-03.jpg",
+        "/assets/food-cafes/czarna-magia-04.jpg",
+        "/assets/food-cafes/czarna-magia-05.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-cafes/czarna-magia-01.jpg": {
+          "original": true,
+          "sourceFile": "צארנה מגיה/WhatsApp Image 2026-10-05 at 18.28.04 (7).jpeg",
+          "sourceSHA256": "49eb4c1561364ef9bc81e25599c275587f600412e9eec26fac0d65e929e50a03",
+          "heroCandidate": true,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/czarna-magia-02.jpg": {
+          "original": true,
+          "sourceFile": "צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.41.jpeg",
+          "sourceSHA256": "042f0d6af17d964639172219be30c8e702ccdd0802a0ce8593850db48238ed0e",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/czarna-magia-03.jpg": {
+          "original": true,
+          "sourceFile": "צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.40.jpeg",
+          "sourceSHA256": "aec58c502e95105630c5a351b48d1a40e8585d4987e15d32b66523fd288772df",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/czarna-magia-04.jpg": {
+          "original": true,
+          "sourceFile": "צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.41 (3).jpeg",
+          "sourceSHA256": "cb108846381312ba4c0cd3b0e6a07c20bf314cc5a70b55f10d1436c514301e25",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/czarna-magia-05.jpg": {
+          "original": true,
+          "sourceFile": "צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.40 (1).jpeg",
+          "sourceSHA256": "09c44cc76fd3f4d0fce754475ae896bf455ac66e7984b7029ac1463dab615f08",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "czocha-castle": {
     "id": "czocha-castle",
     "localName": "Zamek Czocha",
@@ -21741,18 +21908,18 @@
     "id": "pizza-si",
     "localName": "Pizza Si",
     "name": {
-      "he": "Pizza Si",
+      "he": "פיצה סי",
       "en": "Pizza Si",
       "pl": "Pizza Si",
       "de": "Pizza Si",
       "cs": "Pizza Si"
     },
     "description": {
-      "he": "פיצה נפוליטנית מצוינת מדרום למרכז.",
-      "en": "Excellent Neapolitan pizza just south of the centre.",
-      "pl": "Świetna pizza neapolitańska na południe od centrum.",
-      "de": "Ausgezeichnete neapolitanische Pizza südlich des Zentrums.",
-      "cs": "Výborná neapolská pizza jižně od centra."
+      "he": "פיצרייה איטלקית ברחוב בוגוסלבסקייגו, מתחת למסילת הרכבת. בגלריה תמונות מהארוחה שלנו, עם פיצה וסלט.",
+      "en": "Italian pizzeria on Bogusławskiego Street beneath the railway. Our visit gallery shows pizza and salad.",
+      "pl": "Włoska pizzeria przy ulicy Bogusławskiego, pod nasypem kolejowym. Galeria z naszej wizyty przedstawia pizzę i sałatkę.",
+      "de": "Italienische Pizzeria an der Straße Bogusławskiego unter dem Bahndamm. Unsere Besuchsgalerie zeigt Pizza und Salat.",
+      "cs": "Italská pizzerie v ulici Bogusławskiego pod železničním náspem. Galerie z naší návštěvy ukazuje pizzu a salát."
     },
     "location": {
       "countryCode": "PL",
@@ -21761,6 +21928,12 @@
       "coordinates": {
         "lat": 51.0999236,
         "lng": 17.0299738
+      },
+      "address": {
+        "street": "Bogusławskiego 89-91",
+        "postalCode": "50-031",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -21815,15 +21988,57 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://pizza-si.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.0999236%2C17.0299738",
+        "appleMaps": "https://maps.apple.com/?ll=51.0999236,17.0299738"
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "url": "https://pizza-si.pl/",
+          "verifiedAt": "2026-10-17"
+        }
+      ]
+    },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/food-cafes/pizza-si-01.jpg",
+        "/assets/food-cafes/pizza-si-02.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-cafes/pizza-si-01.jpg": {
+          "original": true,
+          "sourceFile": "פיצה סי/WhatsApp Image 2026-10-01 at 09.23.56 (5).jpeg",
+          "sourceSHA256": "691310b7126801e837f99c94c249a0e1a8391d0dcc069532fc9e386a68a076e4",
+          "heroCandidate": true,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/pizza-si-02.jpg": {
+          "original": true,
+          "sourceFile": "פיצה סי/WhatsApp Image 2026-07-30 at 16.04.00 (1).jpeg",
+          "sourceSHA256": "72c226c7894e434dd623109a1c6ed990c9d4df2b505973f1dd9d3166dcfb3389",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -21849,19 +22064,6 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "polinka": {
