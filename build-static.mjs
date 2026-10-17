@@ -83,6 +83,7 @@ await writeFile(resolve(client, "cultural.html"), legacyRedirect("/products/inte
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
 await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true, filter: (source) => !/\.(?:mp4|mov|webm|m4v|avi)$/i.test(source) });
 await cp(resolve(root, "news"), resolve(client, "news"), { recursive: true });
+await cp(resolve(root, "management"), resolve(client, "management"), { recursive: true });
 await writeFile(resolve(client, ".nojekyll"), "");
 
 // Social crawlers do not execute the site's client-side language switch.
@@ -123,3 +124,4 @@ for (const [lang, copy] of Object.entries(shareCopy)) {
 await cp(resolve(root, "worker/site-worker.js"), resolve(server, "index.js"));
 
 console.log("Static site built in dist/");
+
