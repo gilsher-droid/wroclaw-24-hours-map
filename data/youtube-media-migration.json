@@ -805,5 +805,14 @@
     "status": "public",
     "youtube": "https://youtube.com/shorts/AREkvigE0pI",
     "sourceSHA256": "9988168ea94035f98d6dd4a4ec4b7fc83f5adfa2d4c77e36d8e16e8eadcaf0d7"
+  },
+  "/assets/mala-czarna-visit-01.mp4": {
+    "title": "Mała Czarna cake display",
+    "status": "public",
+    "youtube": "https://youtube.com/watch?v=xUGky_l826A",
+    "sourceSHA256": "7d1870fe0c44bcac241dc3d0d867c2498e5450bf99ea7e3675fb8ac7e1c05a48",
+    "publicationSHA256": "676da979ea5256a00a02ac33d74f5670367498f4f3119f5fc059a7c68b7018f7",
+    "verifiedAt": "2026-10-17",
+    "audio": "muted publication copy"
   }
 }
