@@ -47,7 +47,9 @@ test("every map dropdown offers all six maps in the selected language", () => {
       assert.ok(markup.includes(`href="/products/interactive-maps/${path}?lang=${lang}"`));
       assert.ok(markup.includes(productLinks[lang][index]));
     }
-    assert.equal((markup.match(/<a /g) || []).length, expectedPaths.length);
+    assert.equal((markup.match(/<a /g) || []).length, expectedPaths.length + 1);
+    assert.ok(markup.includes(`href="/personal-trip.html?lang=${lang}"`));
+    assert.ok(markup.includes('class="personal-menu-link"'));
   }
 });
 

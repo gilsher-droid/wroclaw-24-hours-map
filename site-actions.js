@@ -23,6 +23,13 @@
     cs: ["24 hodin ve Vratislavi", "Čtyři dny ve Vratislavi", "Vánoce ve Vratislavi", "Jídlo, pití, nákupy a ubytování", "Výlety po Dolním Slezsku", "Kulturní dobrodružství ve Vratislavi"]
   };
   const productPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"];
+  const personalCopy = {
+    he: ["מפות בהתאמה אישית", "הטיול האישי שלכם", "מסלול שנבנה סביב מה שאתם אוהבים.", "מקומות, אוכל וקצב שמתאימים לכם. מספרים לנו מה מחפשים, ומקבלים הצעה למסלול ולמפה אישית.", "מתחילים לתכנן"],
+    en: ["Personal maps", "Your personal trip", "An itinerary built around what you love.", "Places, food and a pace that suit you. Tell us what you enjoy and receive a proposal for your own itinerary and map.", "Start planning"],
+    pl: ["Mapy na zamówienie", "Twoja osobista podróż", "Trasa dopasowana do tego, co lubisz.", "Miejsca, smaki i tempo dla Ciebie. Opowiedz o swoich planach i otrzymaj ofertę osobistej trasy i mapy.", "Zacznij planować"],
+    de: ["Persönliche Karten", "Ihre persönliche Reise", "Eine Route rund um Ihre Interessen.", "Orte, Essen und Tempo nach Ihren Wünschen. Erzählen Sie uns von Ihren Plänen und erhalten Sie ein Angebot für Ihre Route und Karte.", "Planung beginnen"],
+    cs: ["Mapy na míru", "Váš osobní výlet", "Trasa podle toho, co máte rádi.", "Místa, jídlo a tempo pro vás. Napište nám svá přání a získejte nabídku osobní trasy a mapy.", "Začít plánovat"]
+  };
   const facebookUrl = "https://www.facebook.com/profile.php?id=61591964083308";
   const instagramUrl = "https://www.instagram.com/wroclaw.lowersilesia/";
   const englishSocials = { facebook: "https://www.facebook.com/profile.php?id=61595036942289", instagram: instagramUrl };
@@ -52,7 +59,20 @@
 
   function productMenuMarkup(lang) {
     const names = productLinks[lang];
-    return productPaths.map((path, index) => `<a href="/products/interactive-maps/${path}?lang=${lang}">${names[index]}</a>`).join("");
+    return productPaths.map((path, index) => `<a href="/products/interactive-maps/${path}?lang=${lang}">${names[index]}</a>`).join("") + `<a class="personal-menu-link" href="/personal-trip.html?lang=${lang}"><small>${personalCopy[lang][0]}</small><strong>${personalCopy[lang][1]}</strong></a>`;
+  }
+
+  function addPersonalServiceEntry() {
+    const menu = document.querySelector('.products-menu-panel');
+    if (menu && !menu.querySelector('[data-personal-menu]')) {
+      const link = document.createElement('a'); link.dataset.personalMenu = ''; link.className = 'personal-menu-link'; menu.append(link);
+    }
+    const hero = document.querySelector('main > .hero');
+    if (hero && !document.querySelector('#personal-service')) {
+      const section = document.createElement('section'); section.id = 'personal-service'; section.className = 'personal-service-banner';
+      section.innerHTML = '<div><p data-personal-copy="0"></p><h2 data-personal-copy="2"></h2><p data-personal-copy="3"></p><a class="button" data-personal-copy="4" data-personal-link></a></div><img src="/assets/rynek-market-square.jpg" alt="" loading="lazy">';
+      hero.after(section);
+    }
   }
 
   function addProductNavigation() {
@@ -115,6 +135,10 @@
 
   function refreshLanguage() {
     const lang = language();
+    const personal = personalCopy[lang];
+    document.querySelectorAll('[data-personal-copy]').forEach(el => { el.textContent = personal[Number(el.dataset.personalCopy)]; });
+    document.querySelectorAll('[data-personal-link]').forEach(el => { el.href = `/personal-trip.html?lang=${lang}`; });
+    document.querySelectorAll('[data-personal-menu]').forEach(el => { el.href = `/personal-trip.html?lang=${lang}`; el.textContent = `${personal[0]}: ${personal[1]}`; });
     document.querySelectorAll('a[href*="facebook.com"], a[href*="instagram.com"]').forEach((link) => {
       if (!link.dataset.languageSocialOriginal) link.dataset.languageSocialOriginal = link.href;
       const original = link.dataset.languageSocialOriginal;
@@ -147,6 +171,7 @@
   }
 
   function init() {
+    addPersonalServiceEntry();
     addProductNavigation();
     addHeaderSocials();
     enhanceExistingSocialLinks();
