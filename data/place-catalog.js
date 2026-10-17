@@ -15506,6 +15506,168 @@
       "cs"
     ]
   },
+  "mala-czarna-paderewskiego": {
+    "id": "mala-czarna-paderewskiego",
+    "localName": "Mała Czarna",
+    "name": {
+      "he": "מאלה צארנה",
+      "en": "Mała Czarna Café",
+      "pl": "Mała Czarna",
+      "de": "Café Mała Czarna",
+      "cs": "Kavárna Mała Czarna"
+    },
+    "description": {
+      "he": "בית קפה ובית קלייה ליד שער הכניסה למתחם האצטדיון האולימפי. בגלריה מהביקור שלנו תמצאו את דלפק המקום, מדפי הקפה וכוסות הקפה.",
+      "en": "A café and local coffee roastery by the entrance gate to the Olympic Stadium complex. Our visit gallery shows the café counter, coffee shelves and cups of coffee.",
+      "pl": "Kawiarnia i lokalna palarnia kawy przy bramie kompleksu Stadionu Olimpijskiego. Galeria z naszej wizyty pokazuje ladę, półki z kawą i czarki z kawą.",
+      "de": "Café und lokale Kaffeerösterei am Eingang zum Olympiastadion-Komplex. Unsere Besuchsgalerie zeigt die Theke, Kaffeeregale und Kaffeetassen.",
+      "cs": "Kavárna a místní pražírna kávy u vstupní brány do areálu Olympijského stadionu. Galerie z naší návštěvy ukazuje pult, police s kávou a šálky kávy."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1174365,
+        "lng": 17.0905595
+      },
+      "address": {
+        "street": "al. Ignacego Jana Paderewskiego 35",
+        "postalCode": "51-612",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Mala Czarna",
+      "Mała Czarna",
+      "mala-czarna",
+      "מאלה צארנה",
+      "מלה צארנה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "mala-czarna-paderewskiego"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "mala-czarna-paderewskiego",
+        "lat": 51.1174365,
+        "lng": 17.0905595
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://malaczarna.coffee/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1174365%2C17.0905595",
+        "appleMaps": "https://maps.apple.com/?ll=51.1174365,17.0905595"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "branchConfirmedByOwnerAt": "2026-10-17",
+      "factualSources": [
+        {
+          "url": "https://malaczarna.coffee/kawiarnie/",
+          "verifiedAt": "2026-10-17",
+          "scope": "official café address in indexed listing; branch confirmed by owner"
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4780068506",
+          "verifiedAt": "2026-10-17",
+          "scope": "café coordinates and street number, live Overpass lookup"
+        }
+      ]
+    },
+    "media": {
+      "photos": [
+        "/assets/food-cafes/mala-czarna-01.jpg",
+        "/assets/food-cafes/mala-czarna-02.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/watch?v=xUGky_l826A"
+      ],
+      "metadata": {
+        "https://youtube.com/watch?v=xUGky_l826A": {
+          "original": true,
+          "sourceFile": "מלה צארנה/WhatsApp Video 2026-10-01 at 09.26.16 (1).mp4",
+          "sourceSHA256": "7d1870fe0c44bcac241dc3d0d867c2498e5450bf99ea7e3675fb8ac7e1c05a48",
+          "publicationSHA256": "676da979ea5256a00a02ac33d74f5670367498f4f3119f5fc059a7c68b7018f7",
+          "audio": "removed from publication copy; original preserved",
+          "status": "public",
+          "verifiedAt": "2026-10-17"
+        },
+        "/assets/food-cafes/mala-czarna-01.jpg": {
+          "original": true,
+          "sourceFile": "מלה צארנה/WhatsApp Image 2026-09-24 at 17.26.00 (6).jpeg",
+          "sourceSHA256": "2c44bf859c22f74c180153b6f6ad30739346a612bcd36a69200c99254022bb0d",
+          "heroCandidate": true,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/mala-czarna-02.jpg": {
+          "original": true,
+          "sourceFile": "מלה צארנה/WhatsApp Image 2026-09-24 at 19.09.56 (1).jpeg",
+          "sourceSHA256": "4c51e2f12d2d71b145e4ef1da3dec2a4664de78e621ca05ce1fed6f6e1381068",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "mandarin": {
     "id": "mandarin",
     "localName": "Mandarin House Restauracja",
@@ -31999,6 +32161,11 @@
   "wroclaw-zoo": "zoo-wroclaw",
   "zoo-wrocław": "zoo-wroclaw",
   "zamek-piastow-slaskich-brzeg": "brzeg-castle",
+  "mala-czarna": "mala-czarna-paderewskiego",
+  "Mała Czarna": "mala-czarna-paderewskiego",
+  "Mala Czarna": "mala-czarna-paderewskiego",
+  "מאלה צארנה": "mala-czarna-paderewskiego",
+  "מלה צארנה": "mala-czarna-paderewskiego",
   "galeria-dizajn": "zyjnia-bwa-wroclaw"
 };
   const relatedPlaces = {

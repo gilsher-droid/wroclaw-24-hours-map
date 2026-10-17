@@ -58,6 +58,7 @@
     place("sushi-corner", ["eat"], [51.1085849,17.0234579], "Sushi Corner – Wrocław", food.sushi, foodPost, null, sourceFood),
     place("whiskey", ["eat","drink"], [51.1092096,17.0321278], "Whiskey in the Jar", food.meat, foodPost, "rynek", sourceFood),
     place("pizza-si", ["eat"], [51.0999236,17.0299738], "Pizza Si", food.pizza, foodPost, "pizza-si", sourceFood),
+    { id: "mala-czarna-paderewskiego", categories: ["eat", "drink"], coordinates: [51.1174365, 17.0905595], mediaKey: "mala-czarna-paderewskiego" },
     { id: "czarna-magia", categories: ["eat", "drink"], coordinates: [51.1101717, 17.02932], mediaKey: "czarna-magia" },
     place("the-mexican", ["eat","drink"], [51.1110238,17.0309369], "The Mexican", food.mexican, foodPost, null, sourceFood),
     place("peruwiana", ["eat"], [51.1082145,17.0247652], "Peruwiana", food.peruvian, foodPost, null, sourceFood),

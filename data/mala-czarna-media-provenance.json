@@ -1,0 +1,32 @@
+{
+  "reviewedAt": "2026-10-17",
+  "placeId": "mala-czarna-paderewskiego",
+  "branchConfirmedByOwner": true,
+  "coordinateSource": "https://www.openstreetmap.org/node/4780068506",
+  "originalsPreserved": true,
+  "photos": [
+    {
+      "asset": "/assets/food-cafes/mala-czarna-01.jpg",
+      "sha256": "4070e0c200dacbf59eda64c2c1ef6c29e21916a18af52cc66b1c416800272ef9"
+    },
+    {
+      "asset": "/assets/food-cafes/mala-czarna-02.jpg",
+      "sha256": "e9ac8d0c7a165ef613eeb4a7c79151ed6e57446a81a423435f7c5663f53ead26"
+    }
+  ],
+  "video": {
+    "original": true,
+    "sourceFile": "מלה צארנה/WhatsApp Video 2026-10-01 at 09.26.16 (1).mp4",
+    "sourceSHA256": "7d1870fe0c44bcac241dc3d0d867c2498e5450bf99ea7e3675fb8ac7e1c05a48",
+    "publicationSHA256": "676da979ea5256a00a02ac33d74f5670367498f4f3119f5fc059a7c68b7018f7",
+    "audio": "removed from publication copy; original preserved",
+    "status": "public",
+    "verifiedAt": "2026-10-17",
+    "youtube": "https://youtube.com/watch?v=xUGky_l826A"
+  },
+  "excludedReasons": [
+    "One exact duplicate",
+    "Near duplicate counter view",
+    "Patrons dominate other views"
+  ]
+}
