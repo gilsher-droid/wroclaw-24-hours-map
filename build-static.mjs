@@ -20,6 +20,10 @@ for (const file of [
   "site-i18n.js",
   "site-actions.css",
   "site-actions.js",
+  "personal-trip.html",
+  "personal-trip.css",
+  "personal-trip-copy.js",
+  "personal-trip.js",
   "analytics-config.js",
   "analytics.js",
   "consent.css",
@@ -96,13 +100,14 @@ const shareCopy = {
   cs: { locale: "cs_CZ", open: "Otevřít mapu", title: "Méně plánování, více času zamilovat se do města", description: "Interaktivní mapy Vratislavi a Dolního Slezska, místní příběhy a krátká videa s průvodcem.", maps: ["Vratislav za 24 hodin", "Čtyři dny ve Vratislavi", "Vánoce ve Vratislavi", "Vratislav — mapa životního stylu", "Výlety z Vratislavi", "Kulturní mapa Vratislavi"] },
 };
 const shareMaps = ["map", "premium", "moshe", "lifestyle", "excursions", "cultural"];
+const personalShareTitles = { he: "הטיול האישי שלכם", en: "Your personal Wrocław trip", pl: "Twoja osobista podróż do Wrocławia", de: "Ihre persönliche Reise nach Wrocław", cs: "Váš osobní výlet do Vratislavi" };
 const escapeHtml = value => value.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;");
 for (const [lang, copy] of Object.entries(shareCopy)) {
   const folder = resolve(client, "share", lang);
   await mkdir(folder, { recursive: true });
-  for (const name of ["home", ...shareMaps]) {
-    const target = name === "home" ? `/?lang=${lang}` : `/products/interactive-maps/${name}.html?lang=${lang}`;
-    const title = name === "home" ? copy.title : copy.maps[shareMaps.indexOf(name)];
+  for (const name of ["home", ...shareMaps, "personal-trip"]) {
+    const target = name === "home" ? `/?lang=${lang}` : name === "personal-trip" ? `/personal-trip.html?lang=${lang}` : `/products/interactive-maps/${name}.html?lang=${lang}`;
+    const title = name === "home" ? copy.title : name === "personal-trip" ? personalShareTitles[lang] : copy.maps[shareMaps.indexOf(name)];
     const shareUrl = `https://wroc-love.com/share/${lang}/${name}.html`;
     await writeFile(resolve(folder, `${name}.html`), `<!doctype html>
 <html lang="${lang}" dir="${lang === "he" ? "rtl" : "ltr"}"><head>
