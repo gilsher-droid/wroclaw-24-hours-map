@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-18",
+  "placeId": "hala",
+  "sourceFolder": "Centenial Hall",
+  "newPhotos": [
+    {
+      "index": 1,
+      "sourceFile": "IMG_0990.JPG",
+      "sha256": "51d2278a03c46c69638beaad16ffa17900d0f076a931c38722cc942c3158f86d",
+      "asset": "/assets/hala-refresh-oct18-01.jpg",
+      "assetSHA256": "9e3a71f61cebcafb492d2ab1daadbc81dcb284f9a131c7b5349a8dbe1dc3c275"
+    },
+    {
+      "index": 17,
+      "sourceFile": "IMG_5826.JPG",
+      "sha256": "0975afe74165ba6b256e7dac2880b8d61d6f5f293c93319e8ff25d7ca41b19fc",
+      "asset": "/assets/hala-refresh-oct18-02.jpg",
+      "assetSHA256": "550bf27edf51c785dd025af867d6cc4586e28fdb116edbd1602c90383e50c221"
+    },
+    {
+      "index": 21,
+      "sourceFile": "IMG_5831.JPG",
+      "sha256": "57827cd9e6f3bda451aec3eaf0742d4efcb3619c01d925623296e39b1f13b34d",
+      "asset": "/assets/hala-refresh-oct18-03.jpg",
+      "assetSHA256": "1ba6cbc6042fab8d29d54692bf0c686af101dabd324d358c2cafd15e7e9b06ea"
+    },
+    {
+      "index": 24,
+      "sourceFile": "IMG_5852.JPG",
+      "sha256": "3683a22a40ed230c92ca9cdd6cfb2513821a59e31434048eac61fe05ea06e5b8",
+      "asset": "/assets/hala-refresh-oct18-04.jpg",
+      "assetSHA256": "a6e0a118eafb7c88b8b8eed29c0e08f18c19c77125ff3e4b1ac0fcbcd1f5ea7f"
+    },
+    {
+      "index": 25,
+      "sourceFile": "IMG_5853.JPG",
+      "sha256": "027690a89d788de97a032eda83d19de2af33c959e4610c3ffea96dd6f0f1ce51",
+      "asset": "/assets/hala-refresh-oct18-05.jpg",
+      "assetSHA256": "aa567827d1b5633016680659903d333738b2eedec79d3465a832d9355668fd06"
+    }
+  ],
+  "excluded": {
+    "gallery-stulecia-04.jpg": "Near-repeat of gallery-stulecia-03.jpg; original asset preserved",
+    "familyOrProminentPersonalForeground": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "otherDecisions": "Fountain-only repeats and family-like foreground held; duplicate WhatsApp copies of MOV/stills not reimported; guide subfolder excluded"
+  },
+  "mapMembership": {
+    "retain": [
+      "wroclaw-four-days"
+    ],
+    "add": [
+      "cultural-adventure"
+    ],
+    "omit": {
+      "wroclaw-24-hours": "Preserve existing compact central walking route; eastern venue already included in four-day map",
+      "wroclaw-christmas": "Not a Christmas-market stop",
+      "lifestyle-guide": "Hall is architecture/culture, not a restaurant, hotel or shop",
+      "lower-silesia-excursions": "Local city venue outside the existing excursions"
+    }
+  },
+  "newVideoUploads": [
+    {
+      "index": 18,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/IMG_5828.MOV",
+      "sha256": "f1da2b16ec7fcadeca4d15906a362e1d80a34114a4748238585ffa3b937a5bdc",
+      "bytes": 8769302,
+      "kind": "video",
+      "duration": 4.233333,
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_type": "audio",
+          "width": null,
+          "height": null
+        },
+        {
+          "codec_type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "codec_type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "codec_type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "codec_type": "data",
+          "width": null,
+          "height": null
+        }
+      ],
+      "upload": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/centennial-hall-refresh-oct18/upload/Centennial Hall - Pergola view - WROC-LOVE.mp4",
+      "title": "Centennial Hall - Pergola view - WROC-LOVE",
+      "registryKey": "/assets/hala-pergola-view-oct18.mp4",
+      "publicationSHA256": "f2a8d3d9cf97fd537acf0f8e13590b1187f673743275f04c6f626e0f6841c43f",
+      "status": "public",
+      "description": "Original visit footage from Centennial Hall in Wroclaw. Architecture and the surrounding public space, recorded during our visit.\nExplore the place on our cultural map:\nhttps://wroc-love.com/share/en/cultural.html",
+      "youtube": "https://youtube.com/shorts/_JpBjBHvP1s"
+    },
+    {
+      "index": 23,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/IMG_5851.MOV",
+      "sha256": "a5dddfb802740aff44863691d47e2337b0971b1f9aba39d777bce83a386c1a79",
+      "bytes": 7015050,
+      "kind": "video",
+      "duration": 3.501667,
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_type": "audio",
+          "width": null,
+          "height": null
+        },
+        {
+          "codec_type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "codec_type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "codec_type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "codec_type": "data",
+          "width": null,
+          "height": null
+        }
+      ],
+      "upload": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/centennial-hall-refresh-oct18/upload/Centennial Hall - Iglica and plaza - WROC-LOVE.mp4",
+      "title": "Centennial Hall - Iglica and plaza - WROC-LOVE",
+      "registryKey": "/assets/hala-iglica-plaza-oct18.mp4",
+      "publicationSHA256": "bd9543fd29571190d3f73f1668a1f89e2235af896268d051c8759b5586b4f032",
+      "status": "public",
+      "description": "Original visit footage from Centennial Hall in Wroclaw. Architecture and the surrounding public space, recorded during our visit.\nExplore the place on our cultural map:\nhttps://wroc-love.com/share/en/cultural.html",
+      "youtube": "https://youtube.com/shorts/WIxyGzuvVZw"
+    }
+  ],
+  "originalsPreserved": true,
+  "personalPhotoException": false,
+  "guideVideosExcluded": true
+}

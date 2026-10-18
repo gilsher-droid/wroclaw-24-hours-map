@@ -10092,18 +10092,18 @@
     "id": "hala",
     "localName": "Hala Stulecia",
     "name": {
-      "he": "Hala Stulecia",
+      "he": "היכל המאה",
       "en": "Centennial Hall",
       "pl": "Hala Stulecia",
       "de": "Jahrhunderthalle",
       "cs": "Hala století"
     },
     "description": {
-      "he": "אתר מורשת עולמית של אונסק״ו ואחד המבנים האייקוניים בעיר.",
-      "en": "A UNESCO World Heritage site and one of the city’s iconic buildings.",
-      "pl": "Obiekt UNESCO i jeden z najbardziej ikonicznych budynków miasta.",
-      "de": "Ein UNESCO-Weltkulturerbe und eines der Wahrzeichen der Stadt.",
-      "cs": "Památka světového dědictví UNESCO a jedna z ikonických budov města."
+      "he": "היכל המאה הוא מבנה משנת 1913 בתכנון מקס ברג, ואתר מורשת עולמית של אונסק״ו. בגלריה מבטים על החזית והכיפה, רחבת האיגליצה וההיכל מעבר לבריכת המזרקה. אפשר לשלב ביקור עם הפרגולה וביתן ארבע הכיפות הסמוכים. הכניסה לפנים ההיכל תלויה בלוח האירועים ובזמינות הביקורים; בדקו באתר הרשמי לפני ההגעה.",
+      "en": "Designed by Max Berg and opened in 1913, Centennial Hall is a UNESCO World Heritage site. Our gallery shows its façade and dome, the Iglica plaza and views across the fountain basin. Combine it with the nearby Pergola and Four Domes Pavilion. Interior access depends on events and visitor availability; check the official site before arriving.",
+      "pl": "Hala Stulecia, zaprojektowana przez Maxa Berga i otwarta w 1913 roku, jest obiektem światowego dziedzictwa UNESCO. Galeria pokazuje elewację i kopułę, plac z Iglicą oraz widoki zza niecki fontanny. Wizytę można połączyć z pobliską Pergolą i Pawilonem Czterech Kopuł. Dostęp do wnętrza zależy od wydarzeń i dostępności zwiedzania; sprawdź oficjalną stronę przed przyjazdem.",
+      "de": "Die von Max Berg entworfene und 1913 eröffnete Jahrhunderthalle gehört zum UNESCO-Welterbe. Unsere Galerie zeigt Fassade und Kuppel, den Platz mit der Iglica und Blicke über das Wasserbecken. Ein Besuch lässt sich mit der nahen Pergola und dem Vier-Kuppel-Pavillon verbinden. Der Innenzugang hängt von Veranstaltungen und Besichtigungsmöglichkeiten ab; prüfen Sie vorher die offizielle Website.",
+      "cs": "Hala století, navržená Maxem Bergem a otevřená v roce 1913, je památkou světového dědictví UNESCO. Galerie ukazuje průčelí a kupoli, prostranství s Iglicou a pohledy přes nádrž fontány. Návštěvu lze spojit s nedalekou Pergolou a Pavilonem čtyř kupolí. Přístup dovnitř závisí na akcích a dostupnosti prohlídek; před cestou ověřte oficiální web."
     },
     "location": {
       "countryCode": "PL",
@@ -10112,6 +10112,12 @@
       "coordinates": {
         "lat": 51.10689,
         "lng": 17.07733
+      },
+      "address": {
+        "street": "Wystawowa 1",
+        "postalCode": "51-618",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -10169,10 +10175,10 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://halastulecia.pl/en/for-visitors/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10689%2C17.07733",
+        "appleMaps": "https://maps.apple.com/?ll=51.10689,17.07733"
       }
     },
     "transport": {
@@ -10192,7 +10198,17 @@
       "contentType": "personal-visit",
       "personalVisit": true,
       "originalPhotography": true,
-      "originalVideo": true
+      "originalVideo": true,
+      "factualSources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1165",
+          "verifiedAt": "2026-10-18"
+        },
+        {
+          "url": "https://halastulecia.pl/en/for-visitors/",
+          "verifiedAt": "2026-10-18"
+        }
+      ]
     },
     "media": {
       "photos": [
@@ -10203,11 +10219,17 @@
         "/assets/hala-stulecia-05.jpg",
         "/assets/gallery-stulecia-02.jpg",
         "/assets/gallery-stulecia-03.jpg",
-        "/assets/gallery-stulecia-04.jpg"
+        "/assets/hala-refresh-oct18-01.jpg",
+        "/assets/hala-refresh-oct18-02.jpg",
+        "/assets/hala-refresh-oct18-03.jpg",
+        "/assets/hala-refresh-oct18-04.jpg",
+        "/assets/hala-refresh-oct18-05.jpg"
       ],
       "videos": [
         "/assets/hala-stulecia-visit.mp4",
-        "/assets/video-stulecia-fountain.mp4"
+        "/assets/video-stulecia-fountain.mp4",
+        "/assets/hala-pergola-view-oct18.mp4",
+        "/assets/hala-iglica-plaza-oct18.mp4"
       ],
       "metadata": {
         "/assets/hala-stulecia-01.jpg": {
@@ -10273,6 +10295,74 @@
             "video"
           ],
           "original": true
+        },
+        "/assets/hala-refresh-oct18-01.jpg": {
+          "original": true,
+          "sourceFile": "IMG_0990.JPG",
+          "sourceSHA256": "51d2278a03c46c69638beaad16ffa17900d0f076a931c38722cc942c3158f86d",
+          "tags": [
+            "centennial-hall",
+            "exterior",
+            "architecture"
+          ]
+        },
+        "/assets/hala-refresh-oct18-02.jpg": {
+          "original": true,
+          "sourceFile": "IMG_5826.JPG",
+          "sourceSHA256": "0975afe74165ba6b256e7dac2880b8d61d6f5f293c93319e8ff25d7ca41b19fc",
+          "tags": [
+            "centennial-hall",
+            "exterior",
+            "architecture"
+          ]
+        },
+        "/assets/hala-refresh-oct18-03.jpg": {
+          "original": true,
+          "sourceFile": "IMG_5831.JPG",
+          "sourceSHA256": "57827cd9e6f3bda451aec3eaf0742d4efcb3619c01d925623296e39b1f13b34d",
+          "tags": [
+            "centennial-hall",
+            "exterior",
+            "architecture"
+          ]
+        },
+        "/assets/hala-refresh-oct18-04.jpg": {
+          "original": true,
+          "sourceFile": "IMG_5852.JPG",
+          "sourceSHA256": "3683a22a40ed230c92ca9cdd6cfb2513821a59e31434048eac61fe05ea06e5b8",
+          "tags": [
+            "centennial-hall",
+            "exterior",
+            "architecture"
+          ]
+        },
+        "/assets/hala-refresh-oct18-05.jpg": {
+          "original": true,
+          "sourceFile": "IMG_5853.JPG",
+          "sourceSHA256": "027690a89d788de97a032eda83d19de2af33c959e4610c3ffea96dd6f0f1ce51",
+          "tags": [
+            "centennial-hall",
+            "exterior",
+            "architecture"
+          ]
+        },
+        "/assets/hala-pergola-view-oct18.mp4": {
+          "original": true,
+          "sourceFile": "IMG_5828.MOV",
+          "sourceSHA256": "f1da2b16ec7fcadeca4d15906a362e1d80a34114a4748238585ffa3b937a5bdc",
+          "tags": [
+            "centennial-hall",
+            "visit-video"
+          ]
+        },
+        "/assets/hala-iglica-plaza-oct18.mp4": {
+          "original": true,
+          "sourceFile": "IMG_5851.MOV",
+          "sourceSHA256": "a5dddfb802740aff44863691d47e2337b0971b1f9aba39d777bce83a386c1a79",
+          "tags": [
+            "centennial-hall",
+            "visit-video"
+          ]
         }
       }
     },
