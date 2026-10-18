@@ -9,28 +9,130 @@
   });
 
   const experiences = [
+{
+  "id": "street-art-nadodrze-olbin",
+  "type": "area-exploration",
+  "categories": [
+    "street-art"
+  ],
+  "name": {
+    "he": "אמנות רחוב בנדודז׳ה ואולבין",
+    "en": "Street art in Nadodrze and Ołbin",
+    "pl": "Street art na Nadodrzu i Ołbinie",
+    "de": "Street Art in Nadodrze und Ołbin",
+    "cs": "Street art v Nadodrze a Ołbinu"
+  },
+  "description": {
+    "he": "חוויית שיטוט בשכונות ולא כתובת יחידה; הפעילו את המסנן ובחרו אזור להתחיל ממנו.",
+    "en": "A neighbourhood exploration rather than one address; use the filter and choose an area to begin.",
+    "pl": "Spacer po dzielnicach, a nie jeden adres; użyj filtra i wybierz obszar startowy.",
+    "de": "Ein Streifzug durch Viertel statt einer einzelnen Adresse; Filter wählen und ein Startgebiet aussuchen.",
+    "cs": "Průzkum čtvrtí, nikoli jedna adresa; použijte filtr a vyberte si výchozí oblast."
+  },
+  "relatedCanonicalPlaceIds": [],
+  "productRefs": [
+    "cultural-adventure"
+  ],
+  "mapPoints": [
     {
-      id: "street-art-nadodrze-olbin",
-      type: "area-exploration",
-      categories: ["street-art"],
-      name: t("אמנות רחוב בנדודז׳ה ואולבין", "Street art in Nadodrze and Ołbin", "Street art na Nadodrzu i Ołbinie", "Street Art in Nadodrze und Ołbin", "Street art v Nadodrze a Ołbinu"),
-      description: t(
-        "חוויית שיטוט בשכונות ולא כתובת יחידה; הפעילו את המסנן ובחרו אזור להתחיל ממנו.",
-        "A neighbourhood exploration rather than one address; use the filter and choose an area to begin.",
-        "Spacer po dzielnicach, a nie jeden adres; użyj filtra i wybierz obszar startowy.",
-        "Ein Streifzug durch Viertel statt einer einzelnen Adresse; Filter wählen und ein Startgebiet aussuchen.",
-        "Průzkum čtvrtí, nikoli jedna adresa; použijte filtr a vyberte si výchozí oblast."
-      ),
-      relatedCanonicalPlaceIds: [],
-      productRefs: ["cultural-adventure"],
-      mapPoints: [
-        { id: "nadodrze", coordinates: [51.1192, 17.0325], label: "Nadodrze" },
-        { id: "olbin", coordinates: [51.1190, 17.0500], label: "Ołbin" },
+      "id": "nadodrze",
+      "coordinates": [
+        51.1192,
+        17.0325
       ],
-      media: null,
-      social: [],
-      metadata: { source: "WROC_CULTURAL_EXPERIENCES", fieldProductionGaps: ["photos", "video"] },
+      "label": "Nadodrze",
+      "name": {
+        "he": "נדאודז׳ה",
+        "en": "Nadodrze",
+        "pl": "Nadodrze",
+        "de": "Nadodrze",
+        "cs": "Nadodrze"
+      },
+      "aliases": [
+        "Nadodrze",
+        "Nadodje",
+        "נדאודזה",
+        "נדאודז׳ה",
+        "נדודז׳ה"
+      ],
+      "description": {
+        "he": "שכונה מצפון לעיר העתיקה, עם בתי מגורים היסטוריים, סדנאות, חצרות ואמנות ברחוב. בגלריה שלנו חזית הספרייה העירונית, שעליה צוירו מדפי ספרים. זהו פרט מתוך שיטוט בשכונה, ולא תיעוד של החצרות הצבעוניות. התחשבו בדיירים והיכנסו לחצרות רק היכן שהגישה מותרת.",
+        "en": "A neighbourhood north of the Old Town, with historic tenements, workshops, courtyards and art in the streets. Our gallery shows the municipal library facade painted with bookshelves. It is a detail from a neighbourhood walk, not footage of the Colourful Courtyards. Respect residents and enter courtyards only where access is permitted.",
+        "pl": "Osiedle na północ od Starego Miasta, z historycznymi kamienicami, pracowniami, podwórkami i sztuką na ulicach. Nasza galeria pokazuje fasadę biblioteki miejskiej ozdobioną malowanymi regałami książek. To detal ze spaceru po osiedlu, a nie dokumentacja Kolorowych Podwórek. Uszanuj mieszkańców i wchodź na podwórza tylko tam, gdzie dostęp jest dozwolony.",
+        "de": "Ein Viertel nördlich der Altstadt mit historischen Mietshäusern, Werkstätten, Innenhöfen und Kunst im Straßenraum. Unsere Galerie zeigt die mit Bücherregalen bemalte Fassade der Stadtbibliothek. Sie dokumentiert ein Detail eines Viertelspaziergangs, nicht die Bunten Innenhöfe. Nehmen Sie Rücksicht auf Bewohner und betreten Sie Höfe nur bei erlaubtem Zugang.",
+        "cs": "Čtvrť severně od Starého Města s historickými činžovními domy, dílnami, dvory a uměním v ulicích. Naše galerie ukazuje průčelí městské knihovny s namalovanými policemi knih. Jde o detail z procházky čtvrtí, nikoli o záběry Barevných dvorků. Respektujte obyvatele a vstupujte do dvorů jen tam, kde je to dovoleno."
+      },
+      "media": {
+        "thumbnail": "/assets/experiences/nadodrze/nadodrze-library-facade.jpg",
+        "photos": [
+          "/assets/experiences/nadodrze/nadodrze-library-facade.jpg"
+        ],
+        "videos": [
+          "https://youtube.com/shorts/tLQTKvqj7H0"
+        ],
+        "metadata": {
+          "/assets/experiences/nadodrze/nadodrze-library-facade.jpg": {
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.30 (1).jpeg",
+            "sourceSHA256": "261c6e974edbea8d2bb3b739af43ef4118b6d3b4489767dfd8ce126899586265",
+            "alt": {
+              "he": "חזית הספרייה עם ציורי מדפי ספרים בשכונת נדאודז׳ה",
+              "en": "Library facade painted with bookshelves in Nadodrze",
+              "pl": "Fasada biblioteki z malowanymi regałami na Nadodrzu",
+              "de": "Bibliotheksfassade mit gemalten Bücherregalen in Nadodrze",
+              "cs": "Průčelí knihovny s namalovanými policemi v Nadodrze"
+            }
+          },
+          "https://youtube.com/shorts/tLQTKvqj7H0": {
+            "original": true,
+            "sourceSHA256": "92b8df0d5cf974786047562e9d779ffa03151b223b404b287537f9c530de94ef",
+            "publicationSHA256": "3d512a2880b7e2f3fe51ae1e93cd52855b8004bf23ce086219ceb1dc569da24d",
+            "audio": "Removed from publication copy; original preserved",
+            "status": "public",
+            "verifiedAt": "2026-10-18"
+          }
+        }
+      },
+      "social": [],
+      "links": {
+        "socialProfileFallback": false
+      },
+      "metadata": {
+        "scope": "Nadodrze area only; not Olbin or Colourful Courtyards",
+        "sourceAddress": "Łokietka13, Wrocław",
+        "provenanceFile": "/data/nadodrze-media-provenance.json"
+      }
     },
+    {
+      "id": "olbin",
+      "coordinates": [
+        51.119,
+        17.05
+      ],
+      "label": "Ołbin"
+    }
+  ],
+  "media": null,
+  "social": [],
+  "metadata": {
+    "source": "WROC_CULTURAL_EXPERIENCES",
+    "fieldProductionGaps": [
+      "olbin-photos",
+      "olbin-video"
+    ],
+    "nadodrzeEnrichment": "Existing nadodrze mapPoint enriched without creating a Place or pin"
+  },
+  "aliases": [
+    "Nadodrze",
+    "Nadodje",
+    "Ołbin",
+    "Olbin",
+    "נדאודזה",
+    "נדאודז׳ה",
+    "נדודז׳ה",
+    "אולבין"
+  ]
+},
     {
       id: "culture-evening",
       type: "cultural-performance",
