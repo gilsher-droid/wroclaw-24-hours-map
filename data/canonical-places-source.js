@@ -7404,5 +7404,118 @@
     "cs"
   ]
 },
+{
+  "id": "chatka",
+  "aliases": [
+    "Chatka przy Jatkach",
+    "Chatka Przy Jatkach",
+    "צ׳אטקה",
+    "צאטקה"
+  ],
+  "localName": "Chatka przy Jatkach",
+  "name": {
+    "he": "צ׳אטקה ליד יאטקי",
+    "en": "Chatka przy Jatkach",
+    "pl": "Chatka przy Jatkach",
+    "de": "Chatka przy Jatkach",
+    "cs": "Chatka przy Jatkach"
+  },
+  "description": {
+    "he": "מסעדה למטבח פולני מסורתי בעיר העתיקה, סמוך לסמטת יאטקי ולכיכר השוק. בגלריית הביקור שלנו נראים פירוגי על מגש עץ, לביבות תפוחי אדמה ברוטב פטריות ואווירת הארוחה בפנים. התמונות מתעדות את הביקור שלנו, ולא תפריט או מחירים עדכניים. הכתובת ופרטי הביקור מופיעים באתר הרשמי. לפני ביקור בדקו שם את שעות הפתיחה והזמנת השולחן.",
+    "en": "A traditional Polish restaurant in the Old Town, close to the Jatki lane and Market Square. Our visit gallery shows pierogi on a wooden platter, potato pancakes with mushroom sauce and the indoor dining atmosphere. The photographs document our visit rather than a current menu or prices. The restaurant lists its entrance address as Odrzańska 6–7. Check the official website for current opening hours and table reservations.",
+    "pl": "Restauracja z tradycyjną kuchnią polską na Starym Mieście, blisko Jatek i Rynku. Galeria z naszej wizyty pokazuje pierogi na drewnianej desce, placki ziemniaczane z sosem grzybowym i atmosferę posiłku we wnętrzu. Zdjęcia dokumentują naszą wizytę, a nie aktualne menu czy ceny. Restauracja podaje adres wejść: Odrzańska 6–7. Przed wizytą sprawdź godziny otwarcia i rezerwacje na oficjalnej stronie.",
+    "de": "Ein Restaurant mit traditioneller polnischer Küche in der Altstadt, nahe der Gasse Jatki und dem Marktplatz. Unsere Besuchsgalerie zeigt Pierogi auf einer Holzplatte, Kartoffelpuffer mit Pilzsauce und die Atmosphäre beim Essen im Innenraum. Die Fotos dokumentieren unseren Besuch und sind keine aktuelle Speisekarte oder Preisliste. Das Restaurant nennt als Eingangsadresse Odrzańska 6–7. Aktuelle Öffnungszeiten und Tischreservierungen finden Sie auf der offiziellen Website.",
+    "cs": "Restaurace s tradiční polskou kuchyní ve Starém Městě, blízko uličky Jatki a hlavního náměstí. Galerie z naší návštěvy ukazuje pirohy na dřevěném tácu, bramboráky s houbovou omáčkou a atmosféru stolování uvnitř. Fotografie zachycují naši návštěvu, nikoli aktuální jídelní lístek či ceny. Restaurace uvádí adresu vstupů Odrzańska 6–7. Před návštěvou ověřte otevírací dobu a rezervace na oficiálním webu."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1119289,
+      "lng": 17.0313524
+    },
+    "address": {
+      "street": "Odrzańska 6–7",
+      "postalCode": "50-113",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "eat"
+  ],
+  "links": {
+    "website": "https://chatkaprzyjatkach.pl/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1119289%2C17.0313524",
+      "appleMaps": "https://maps.apple.com/?ll=51.1119289,17.0313524"
+    }
+  },
+  "provenance": {
+    "personalVisit": true,
+    "originalPhotography": true,
+    "factualSources": [
+      {
+        "url": "https://chatkaprzyjatkach.pl/",
+        "verifiedAt": "2026-10-18",
+        "scope": "official restaurant identity, traditional Polish cuisine, address Odrzańska 6–7; no fixed hours or prices copied"
+      },
+      {
+        "url": "https://geoportal.wroclaw.pl/poi/poi/2306",
+        "verifiedAt": "2026-10-18",
+        "scope": "municipal restaurant identity at Odrzańska 7; historical directory last modified 2013, not used for current phone or opening times"
+      }
+    ]
+  },
+  "media": {
+    "photos": [
+      "/assets/food-cafes/chatka-pierogi-01.jpg",
+      "/assets/feels-familiar/chatka-placki.jpg",
+      "/assets/food-cafes/chatka-visit-02.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/food-cafes/chatka-pierogi-01.jpg": {
+        "original": true,
+        "sourceFile": "Chatka/IMG_0948.JPG",
+        "sourceSHA256": "638422334bd660b0a5c3b649f7e1ea1e2d515e8617f7962422e6527025e120dc",
+        "publicationSHA256": "5a74c6cbd42827de56890d1cee6a146bda06c52549523038b33a7dd9585f575b",
+        "alt": {
+          "he": "מגש פירוגי מעוטר בשמיר וברוטב, מהביקור שלנו במסעדה",
+          "en": "Pierogi platter with dill and sauce during our restaurant visit",
+          "pl": "Półmisek pierogów z koperkiem i sosem podczas naszej wizyty",
+          "de": "Pierogi-Platte mit Dill und Sauce bei unserem Restaurantbesuch",
+          "cs": "Tác pirohů s koprem a omáčkou při naší návštěvě restaurace"
+        },
+        "heroCandidate": true,
+        "personalPhotoExceptionApplied": false
+      },
+      "/assets/food-cafes/chatka-visit-02.jpg": {
+        "original": true,
+        "sourceFile": "Chatka/IMG_0950.JPG",
+        "sourceSHA256": "5d4a46bec422a713dfad94fcb12ba8c32f98062f4c193450bba99893fc8a3641",
+        "publicationSHA256": "3396409ff0ac00a62d7aab27223e94d6f952f2755334caf0b79f92073ec5cd07",
+        "alt": {
+          "he": "סועדת ומגש פירוגי בחלל המסעדה, מהביקור שלנו",
+          "en": "Diner and pierogi platter inside the restaurant during our visit",
+          "pl": "Osoba przy stole i półmisek pierogów we wnętrzu restauracji podczas naszej wizyty",
+          "de": "Gast am Tisch mit Pierogi-Platte im Restaurant bei unserem Besuch",
+          "cs": "Host u stolu s tácem pirohů v interiéru restaurace při naší návštěvě"
+        },
+        "heroCandidate": false,
+        "personalPhotoExceptionApplied": true
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
   ];
 })();

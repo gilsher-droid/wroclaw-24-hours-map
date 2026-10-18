@@ -151,7 +151,7 @@
     ossolineum: { facebook: facebook.ossolineum, instagram: instagram.ossolineum, gallery: galleries.ossolineum, videos: videos.ossolineum },
     "hala-targowa": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
     "market-hall": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
-    chatka: { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries.chatka },
+    chatka: { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries.chatka, ...canonicalResources("chatka") },
     "pan-precel": { facebook: facebook.familiar, instagram: instagram.familiar },
     "pan-precel-olawska": { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries["pan-precel-olawska"] },
     "dobra-paczkarnia-kuznicza": { facebook: facebook.familiar, instagram: instagram.familiar, gallery: galleries["dobra-paczkarnia-kuznicza"] },
