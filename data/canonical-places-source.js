@@ -27,6 +27,276 @@
   // geography explicitly; no city is inferred by the catalog generator.
   window.WROC_CANONICAL_PLACE_SOURCE = [
 {
+  "id": "warsaw-nozyk-synagogue",
+  "localName": "Synagoga Nożyków w Warszawie",
+  "name": {
+    "he": "בית הכנסת נוז׳יק בוורשה",
+    "en": "Nożyk Synagogue, Warsaw",
+    "pl": "Synagoga Nożyków w Warszawie",
+    "de": "Nożyk-Synagoge in Warschau",
+    "cs": "Nożykova synagoga ve Varšavě"
+  },
+  "description": {
+    "he": "בית הכנסת ברחוב טווארדה 6 הוא מקום תפילה פעיל ומוקד של הקהילה היהודית בוורשה. תמונות הביקור שלנו מציגות פרטים אדריכליים בפנים. לפני ביקור בדקו באתר הקהילה את אפשרויות הכניסה וכבדו את כללי המקום.",
+    "en": "The synagogue at 6 Twarda Street is an active place of worship and a centre of Warsaw’s Jewish community. Our visit photos show architectural details inside. Check visitor access with the community and respect the rules of the site.",
+    "pl": "Synagoga przy Twardej 6 jest czynnym miejscem modlitwy i ośrodkiem warszawskiej społeczności żydowskiej. Nasze zdjęcia pokazują detale architektoniczne wnętrza. Przed wizytą sprawdź zasady zwiedzania w gminie i uszanuj reguły miejsca.",
+    "de": "Die Synagoge an der Twarda 6 ist ein aktives Gotteshaus und Zentrum der jüdischen Gemeinde Warschaus. Unsere Besuchsfotos zeigen architektonische Details im Inneren. Besuchsmöglichkeiten bei der Gemeinde prüfen und die Regeln vor Ort beachten.",
+    "cs": "Synagoga v ulici Twarda 6 je aktivním místem modlitby a centrem varšavské židovské obce. Naše fotografie zachycují detaily interiéru. Před návštěvou ověřte přístup u obce a respektujte pravidla místa."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "masovian",
+    "cityId": "warsaw",
+    "coordinates": {
+      "lat": 52.2360735,
+      "lng": 21.0010467
+    },
+    "address": {
+      "city": "Warszawa",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "history"
+  ],
+  "taxonomy": {
+    "tags": [
+      "warsaw",
+      "optional-before-departure"
+    ]
+  },
+  "links": {
+    "website": "https://warszawa.jewish.org.pl/en/visit/warsaw/nozyk",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.2360735%2C21.0010467"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg",
+      "/assets/warsaw/warsaw-nozyk-synagogue-02.jpg",
+      "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg",
+      "/assets/warsaw/warsaw-nozyk-synagogue-04.jpg"
+    ],
+    "videos": [],
+    "thumbnail": "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg",
+    "metadata": {
+      "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg": {
+        "original": true,
+        "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.25.jpeg",
+        "sourceSHA256": "e69eff48469e4ba0d4c6e793f5c22519f582ccce9260266d50d2626a8355e889",
+        "assetSHA256": "19ff449f689e83b1f71e7318731ce605a7cb017ca54f32e8146426676ac34027",
+        "alt": {
+          "he": "בית הכנסת נוז׳יק בוורשה",
+          "en": "Nożyk Synagogue, Warsaw",
+          "pl": "Synagoga Nożyków w Warszawie",
+          "de": "Nożyk-Synagoge in Warschau",
+          "cs": "Nożykova synagoga ve Varšavě"
+        },
+        "familyForeground": false
+      },
+      "/assets/warsaw/warsaw-nozyk-synagogue-02.jpg": {
+        "original": true,
+        "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.24 (2).jpeg",
+        "sourceSHA256": "15fceabd6d62348adcea48e0b8a8bdca821559971dcb4ea5ca4374aa4ccbd62b",
+        "assetSHA256": "b9eb04be22767c2c059a75b60112c205663fad2bb57b9e5f9fa911de1c1b9330",
+        "alt": {
+          "he": "בית הכנסת נוז׳יק בוורשה",
+          "en": "Nożyk Synagogue, Warsaw",
+          "pl": "Synagoga Nożyków w Warszawie",
+          "de": "Nożyk-Synagoge in Warschau",
+          "cs": "Nożykova synagoga ve Varšavě"
+        },
+        "familyForeground": false
+      },
+      "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg": {
+        "original": true,
+        "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.24 (5).jpeg",
+        "sourceSHA256": "7410f7dadb7440ad9034186144fe2ba13446535e7edc9b4a26221e7bde286fc8",
+        "assetSHA256": "3376b6d1e2c404f8acf161a91149bc9b61798a4eec6e0fe97cf59aa39385401d",
+        "alt": {
+          "he": "בית הכנסת נוז׳יק בוורשה",
+          "en": "Nożyk Synagogue, Warsaw",
+          "pl": "Synagoga Nożyków w Warszawie",
+          "de": "Nożyk-Synagoge in Warschau",
+          "cs": "Nożykova synagoga ve Varšavě"
+        },
+        "familyForeground": false
+      },
+      "/assets/warsaw/warsaw-nozyk-synagogue-04.jpg": {
+        "original": true,
+        "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.29.jpeg",
+        "sourceSHA256": "295346d89ac728b99577dddffb60ea5cdf6d751aeedb86eb8728b2138fa668b4",
+        "assetSHA256": "237b73a7cac0961579d46d77ed631665682c863cac2552f69506c87b7464bc74",
+        "alt": {
+          "he": "בית הכנסת נוז׳יק בוורשה",
+          "en": "Nożyk Synagogue, Warsaw",
+          "pl": "Synagoga Nożyków w Warszawie",
+          "de": "Nożyk-Synagoge in Warschau",
+          "cs": "Nożykova synagoga ve Varšavě"
+        },
+        "familyForeground": false
+      }
+    }
+  },
+  "source": {
+    "kind": "editorial-original-media",
+    "coordinateSource": "https://www.openstreetmap.org/api/0.6/way/32792753/full",
+    "verifiedAt": "2026-10-18"
+  }
+},
+{
+  "id": "warsaw-unknown-soldier",
+  "localName": "Grób Nieznanego Żołnierza w Warszawie",
+  "name": {
+    "he": "קבר החייל האלמוני בוורשה",
+    "en": "Tomb of the Unknown Soldier, Warsaw",
+    "pl": "Grób Nieznanego Żołnierza w Warszawie",
+    "de": "Grabmal des unbekannten Soldaten, Warschau",
+    "cs": "Hrob neznámého vojína ve Varšavě"
+  },
+  "description": {
+    "he": "אתר זיכרון בכיכר פילסודסקי, בתוך שרידי האכסדרה של הארמון הסקסוני. בתמונה שלנו נראים הקשתות ואש התמיד. זו עצירת התבוננות שקטה בסמוך לגן הסקסוני, ללא הבטחה לטקס בשעה מסוימת.",
+    "en": "A memorial on Piłsudski Square, within the surviving arcade of the Saxon Palace. Our photo shows the arches and eternal flame. A quiet stop beside the Saxon Garden, without a promise of a ceremony at a particular time.",
+    "pl": "Miejsce pamięci na placu Piłsudskiego, w zachowanej arkadzie Pałacu Saskiego. Nasze zdjęcie pokazuje łuki i wieczny ogień. Spokojny przystanek przy Ogrodzie Saskim, bez obietnicy ceremonii o określonej porze.",
+    "de": "Gedenkstätte am Piłsudski-Platz in der erhaltenen Arkade des Sächsischen Palais. Unser Foto zeigt die Bögen und das ewige Feuer. Ein ruhiger Halt am Sächsischen Garten, ohne Zusage einer Zeremonie zu einer bestimmten Zeit.",
+    "cs": "Památník na Piłsudského náměstí v dochované arkádě Saského paláce. Naše fotografie ukazuje oblouky a věčný oheň. Klidná zastávka u Saské zahrady bez příslibu obřadu v určitou hodinu."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "masovian",
+    "cityId": "warsaw",
+    "coordinates": {
+      "lat": 52.2409544,
+      "lng": 21.0113136
+    },
+    "address": {
+      "city": "Warszawa",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "history"
+  ],
+  "taxonomy": {
+    "tags": [
+      "warsaw",
+      "optional-before-departure"
+    ]
+  },
+  "links": {
+    "website": "https://go2warsaw.pl/en/warsaw-is-awash-with-greenery/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.2409544%2C21.0113136"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/warsaw/warsaw-unknown-soldier-01.jpg"
+    ],
+    "videos": [],
+    "thumbnail": "/assets/warsaw/warsaw-unknown-soldier-01.jpg",
+    "metadata": {
+      "/assets/warsaw/warsaw-unknown-soldier-01.jpg": {
+        "original": true,
+        "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.20 (3).jpeg",
+        "sourceSHA256": "c4f68efd877f985a20256c5af2d4d55555af323fd73c739da4988b609b390716",
+        "assetSHA256": "179f0a0113e9686bd8e694a2d1cafaf2f46b1b044ebacd70a5c1a4c107e6613c",
+        "alt": {
+          "he": "קבר החייל האלמוני בוורשה",
+          "en": "Tomb of the Unknown Soldier, Warsaw",
+          "pl": "Grób Nieznanego Żołnierza w Warszawie",
+          "de": "Grabmal des unbekannten Soldaten, Warschau",
+          "cs": "Hrob neznámého vojína ve Varšavě"
+        },
+        "familyForeground": false
+      }
+    }
+  },
+  "source": {
+    "kind": "editorial-original-media",
+    "coordinateSource": "https://www.openstreetmap.org/api/0.6/way/72833763/full",
+    "verifiedAt": "2026-10-18"
+  }
+},
+{
+  "id": "warsaw-saxon-garden-fountain",
+  "localName": "Fontanna Wielka w Ogrodzie Saskim",
+  "name": {
+    "he": "המזרקה בגן הסקסוני בוורשה",
+    "en": "Saxon Garden Fountain, Warsaw",
+    "pl": "Fontanna Wielka w Ogrodzie Saskim",
+    "de": "Große Fontäne im Sächsischen Garten",
+    "cs": "Velká fontána v Saské zahradě"
+  },
+  "description": {
+    "he": "המזרקה הגדולה בגן הסקסוני היא עצירה ירוקה במרכז ורשה, סמוך לקבר החייל האלמוני. בתמונת הביקור שלנו נראים אגן המזרקה ועצי הגן. פעולת המים תלויה בעונה ובתנאי התפעול.",
+    "en": "The Great Fountain in the Saxon Garden offers a green stop in central Warsaw, close to the Tomb of the Unknown Soldier. Our visit photo shows the basin and surrounding trees. Water operation depends on season and operating conditions.",
+    "pl": "Fontanna Wielka w Ogrodzie Saskim to zielony przystanek w centrum Warszawy, blisko Grobu Nieznanego Żołnierza. Zdjęcie z wizyty pokazuje jej basen i drzewa ogrodu. Działanie wody zależy od sezonu i warunków eksploatacji.",
+    "de": "Die Große Fontäne im Sächsischen Garten bietet eine grüne Pause im Zentrum Warschaus, nahe dem Grabmal des unbekannten Soldaten. Unser Besuchsfoto zeigt das Becken und die Bäume. Der Wasserbetrieb hängt von Saison und Betriebsbedingungen ab.",
+    "cs": "Velká fontána v Saské zahradě nabízí zelenou zastávku v centru Varšavy nedaleko Hrobu neznámého vojína. Fotografie zachycuje nádrž a okolní stromy. Provoz vody závisí na roční době a provozních podmínkách."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "masovian",
+    "cityId": "warsaw",
+    "coordinates": {
+      "lat": 52.240792,
+      "lng": 21.010229
+    },
+    "address": {
+      "city": "Warszawa",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "park"
+  ],
+  "taxonomy": {
+    "tags": [
+      "warsaw",
+      "optional-before-departure"
+    ]
+  },
+  "links": {
+    "website": "https://go2warsaw.pl/en/warsaw-is-awash-with-greenery/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.240792%2C21.010229"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/warsaw/warsaw-saxon-garden-fountain-01.jpg"
+    ],
+    "videos": [],
+    "thumbnail": "/assets/warsaw/warsaw-saxon-garden-fountain-01.jpg",
+    "metadata": {
+      "/assets/warsaw/warsaw-saxon-garden-fountain-01.jpg": {
+        "original": true,
+        "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.20 (5).jpeg",
+        "sourceSHA256": "c021043121b153191b2c41431374e20d2b635448046e173d6c19d750b2a852f4",
+        "assetSHA256": "74889698846e4a477b2072944c3d4f14b1c0294f0f878ca2bebf78567f16774c",
+        "alt": {
+          "he": "המזרקה בגן הסקסוני בוורשה",
+          "en": "Saxon Garden Fountain, Warsaw",
+          "pl": "Fontanna Wielka w Ogrodzie Saskim",
+          "de": "Große Fontäne im Sächsischen Garten",
+          "cs": "Velká fontána v Saské zahradě"
+        },
+        "familyForeground": false
+      }
+    }
+  },
+  "source": {
+    "kind": "editorial-original-media",
+    "coordinateSource": "https://www.openstreetmap.org/api/0.6/way/72833745/full",
+    "verifiedAt": "2026-10-18"
+  }
+},
+{
   "id": "mania-al-taglio-kuznicza",
   "aliases": [
     "מניה",

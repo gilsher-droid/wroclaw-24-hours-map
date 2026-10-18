@@ -165,3 +165,6 @@ button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
 
 /* The inset city map is narrower than the viewport on mobile. */
 @media(max-width:640px){#brzeg-walk-map .leaflet-popup-content{width:min(300px,calc(100vw - 136px))!important;max-width:calc(100vw - 136px);}}
+
+.departure-marker span{background:#946d2b;border-color:#e2c273;}
+[data-departure-places]>.route-link{margin-bottom:24px;}
