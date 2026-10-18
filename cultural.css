@@ -174,3 +174,8 @@ footer > div { display: grid; gap: 4px; } footer span { color: rgba(255,255,255,
 
 /* Preserve the full Bastion visit photograph on desktop and mobile. */
 .media-grid img[src*="bastion-sakwowy-"] { object-fit: contain; background: #f4f0e8; }
+
+/* Area-specific visit media stays separate from the neighboring area. */
+.area-resources { flex-basis:100%; width:100%; padding:12px 0; border-top:1px solid #e6dfd3; }
+.area-resources p { margin:8px 0; }
+.media-grid img[src*="/nadodrze/"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }

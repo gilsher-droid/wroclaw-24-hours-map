@@ -972,5 +972,17 @@
       "mania-al-taglio-kuznicza"
     ],
     "verifiedAt": "2026-10-18"
+  },
+  "/assets/nadodrze-library-visit.mp4": {
+    "title": "Nadodrze, Wroclaw | Painted library facade | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/tLQTKvqj7H0",
+    "sourceSHA256": "92b8df0d5cf974786047562e9d779ffa03151b223b404b287537f9c530de94ef",
+    "publicationSHA256": "3d512a2880b7e2f3fe51ae1e93cd52855b8004bf23ce086219ceb1dc569da24d",
+    "canonicalExperienceIds": [
+      "street-art-nadodrze-olbin"
+    ],
+    "mapPointId": "nadodrze",
+    "verifiedAt": "2026-10-18"
   }
 }
