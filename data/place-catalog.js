@@ -1842,6 +1842,7 @@
       ]
     },
     "media": {
+      "thumbnail": "/assets/bastion-sakwowy-representative.jpg",
       "photos": [
         "/assets/bastion-sakwowy-01.jpg",
         "/assets/bastion-sakwowy-02.jpg"
@@ -1881,6 +1882,23 @@
             "cs": "Široký pohled z bašty na ulici a město"
           },
           "heroCandidate": true
+        },
+        "/assets/bastion-sakwowy-representative.jpg": {
+          "original": true,
+          "derivedFromVisitVideo": true,
+          "sourceFile": "בסטיון/WhatsApp Video 2026-10-05 at 18.26.59.mp4",
+          "sourceSHA256": "ad58ea995af2f959ca95cf9c01b6810c92e1c096623d8cc6798c02f6ba82b887",
+          "frameSeconds": 0.2,
+          "frameCrop": "576x324 at x0,y330 after display rotation; full building retained, excess sky and road removed",
+          "assetSHA256": "e2480ec77ea9acb6c67f3fa71686e35c18324bf2bacc2688ab7266cc72b92c79",
+          "purpose": "Representative map popup image only. Existing two gallery images and five visit videos unchanged.",
+          "alt": {
+            "he": "המבנה הצהבהב של הבסטיון והקשתות במבט רחב",
+            "en": "Wide view of the yellow bastion pavilion and arcades",
+            "pl": "Szeroki widok żółtego pawilonu bastionu i arkad",
+            "de": "Gesamtansicht des gelben Bastionspavillons mit Arkaden",
+            "cs": "Celkový pohled na žlutý pavilon bašty s arkádami"
+          }
         }
       }
     },

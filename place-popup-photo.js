@@ -9,7 +9,7 @@
     const resources = record.resources || window.WROC_LOCATION_MEDIA?.[record.mediaKey || record.id] || window.WROC_LOCATION_MEDIA?.[canonical.id];
     const experience = record.canonicalExperienceId || (record.placeType === "area-experience" ? record.id : null);
     const inherited = experience ? window.WROC_EXPERIENCE_CATALOG?.resolveMedia?.(experience)?.images : [];
-    const candidates = [...(canonical.media?.photos || []),...(record.media?.photos || []),...(record.media?.gallery || []),...(resources?.gallery || []),...(inherited || [])];
+    const candidates = [canonical.media?.thumbnail, record.media?.thumbnail, ...(canonical.media?.photos || []),...(record.media?.photos || []),...(record.media?.gallery || []),...(resources?.gallery || []),...(inherited || [])];
     return candidates.map(photo => typeof photo === "string" ? photo : photo?.src).find(src => typeof src === "string" && (/^\/assets\//.test(src) || /^https?:\/\//.test(src))) || "";
   }
   function html(record,lang = "he") {

@@ -6,7 +6,7 @@ function runtime(){const window={},document={addEventListener(){}};for(const f o
 test('Popup photos preserve exact canonical place and alias ownership in every language',()=>{
  const w=runtime();let photographed=0;
  for(const p of Object.values(w.WROC_CATALOG.places)){
-  const photo=p.media?.photos?.[0];if(!photo)continue;photographed++;
+  const photo=p.media?.thumbnail || p.media?.photos?.[0];if(!photo)continue;photographed++;
   assert.equal(w.WROC_PLACE_POPUP_PHOTO.sourceFor({canonicalPlaceId:p.id,resources:{gallery:['/assets/unrelated.jpg']}}),photo);
   assert.ok(existsSync(photo.slice(1)),p.id);
   for(const lang of ['he','en','pl','de','cs']){const html=w.WROC_PLACE_POPUP_PHOTO.html({canonicalPlaceId:p.id},lang);assert.ok(html.includes(`src="${photo}"`));assert.ok(html.includes('width="240" height="135"'));assert.ok(!html.includes('unrelated.jpg'));}

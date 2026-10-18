@@ -257,6 +257,7 @@ for (const place of places.values()) {
   };
   const canonicalMedia = place._canonicalMedia || {};
   place.media = {
+    ...(canonicalMedia.thumbnail ? { thumbnail: canonicalMedia.thumbnail } : {}),
     photos: Array.isArray(canonicalMedia.photos)
       ? canonicalMedia.photos
       : Array.isArray(resources.gallery) ? resources.gallery : [],

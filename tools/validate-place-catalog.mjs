@@ -99,7 +99,12 @@ for (const record of source) {
   if (media.metadata != null && (typeof media.metadata !== "object" || Array.isArray(media.metadata))) {
     throw new Error(`${record.id}: media.metadata must be an object when provided.`);
   }
-  const mediaPaths = new Set([...(media.photos || []), ...(media.videos || [])]);
+  if (media.thumbnail != null) {
+    if (typeof media.thumbnail !== "string" || !media.thumbnail.startsWith("/assets/") || !(await stat(resolve(root, media.thumbnail.slice(1))).catch(() => null))?.isFile()) {
+      throw new Error(`${record.id}: media.thumbnail requires an existing local image asset.`);
+    }
+  }
+  const mediaPaths = new Set([...(media.photos || []), ...(media.videos || []), ...(media.thumbnail ? [media.thumbnail] : [])]);
   for (const mediaPath of Object.keys(media.metadata || {})) {
     if (!mediaPaths.has(mediaPath)) throw new Error(`${record.id}: metadata references unknown media ${mediaPath}.`);
   }
