@@ -962,5 +962,15 @@
       "park-szczytnicki-wroclaw"
     ],
     "verifiedAt": "2026-10-18"
+  },
+  "/assets/mania-al-taglio-kuznicza-visit-01.mp4": {
+    "title": "Mania Al Taglio Kuźnicza Wrocław | Pizza visit clip | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/JwK2shHUx8g",
+    "sourceSHA256": "ae7f607a5a803ecafe38f42471573b9b28a4bbce62c051307624b101b94c9d7d",
+    "placeIds": [
+      "mania-al-taglio-kuznicza"
+    ],
+    "verifiedAt": "2026-10-18"
   }
 }

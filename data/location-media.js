@@ -126,6 +126,7 @@
   };
 
   const resources = {
+    "mania-al-taglio-kuznicza": canonicalResources("mania-al-taglio-kuznicza"),
     "park-szczytnicki-wroclaw": canonicalResources("park-szczytnicki-wroclaw", [{"he": "הליכה בשביל בין עצי הפארק", "en": "A tree-lined park path", "pl": "Alejka wśród parkowych drzew", "de": "Parkweg zwischen Bäumen", "cs": "Cesta mezi parkovými stromy"}, {"he": "עץ לצד שביל הפארק", "en": "A tree beside the park path", "pl": "Drzewo przy parkowej alejce", "de": "Ein Baum am Parkweg", "cs": "Strom u parkové cesty"}]),
     "magnolia": canonicalResources("magnolia"),
     "fashion-outlet": canonicalResources("fashion-outlet"),

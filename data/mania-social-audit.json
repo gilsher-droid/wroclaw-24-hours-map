@@ -1,0 +1,251 @@
+{
+  "placeId": "mania-al-taglio-kuznicza",
+  "checkedAt": "2026-10-18",
+  "entries": [
+    {
+      "platform": "facebook",
+      "language": "he",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61591964083308",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "he",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.he/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595036942289",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "en",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "facebook",
+      "language": "pl",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595207664875",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "pl",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.pl/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "facebook",
+      "language": "de",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595239823399",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "de",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.de/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "facebook",
+      "language": "cs",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61594716405964",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "cs",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.cs/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact restaurant post candidate identified in canonical/localized registry or accessible media documentation. Hebrew live profile grid also searched while auditing Borek; no Mania candidate. Recent Instagram grids and accessible Facebook feeds reviewed in all5languages; no candidate, but archives not exhaustively reviewed.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "data/mania-media-provenance.json"
+      ],
+      "checkedAt": "2026-10-18"
+    }
+  ],
+  "newSocialPostsPublished": false,
+  "profileFallbackDisabled": true,
+  "searchStatus": {
+    "status": "no-verified-exact-place-post-candidate",
+    "registrySearch": "canonical/localized registries contain no Mania name, alias, address or point",
+    "documentationSearch": "no restaurant-specific candidate in accessible social-language sync/backfill documentation; unrelated Germania matches discarded",
+    "hebrewProfileSearch": "earlier Borek audit reviewed39accessibleHebrewprofilelinksplus2captionlessposts;noManiarestaurantcandidate",
+    "otherAccountSearch": "connection recovered; live recent profile grids reviewed in5Instagramaccounts(12visiblepostseach) and accessible feeds in5Facebookpages; no exact Mania candidate. Not exhaustive archives.",
+    "conclusion": "hide all unverified post actions; do not claim no posts exist; no new publication authorized",
+    "checkedAt": "2026-10-18",
+    "liveInstagramSearch": [
+      {
+        "language": "en",
+        "account": "wroclaw.lowersilesia",
+        "visiblePostsReviewed": 12,
+        "matches": [],
+        "scope": "recent accessible profile grid; not exhaustive archive"
+      },
+      {
+        "language": "he",
+        "account": "wroclaw.lowersilesia.he",
+        "visiblePostsReviewed": 12,
+        "matches": [],
+        "scope": "recent accessible profile grid; not exhaustive archive"
+      },
+      {
+        "language": "pl",
+        "account": "wroclaw.lowersilesia.pl",
+        "visiblePostsReviewed": 12,
+        "matches": [],
+        "scope": "recent accessible profile grid; not exhaustive archive"
+      },
+      {
+        "language": "de",
+        "account": "wroclaw.lowersilesia.de",
+        "visiblePostsReviewed": 12,
+        "matches": [],
+        "scope": "recent accessible profile grid; not exhaustive archive"
+      },
+      {
+        "language": "cs",
+        "account": "wroclaw.lowersilesia.cs",
+        "visiblePostsReviewed": 12,
+        "matches": [],
+        "scope": "recent accessible profile grid; not exhaustive archive"
+      }
+    ],
+    "liveFacebookSearch": [
+      {
+        "language": "he",
+        "account": "וורוצלב ושלזיה התחתית",
+        "accountId": "61591964083308",
+        "matches": [],
+        "scope": "accessible profile feed only; not exhaustive archive"
+      },
+      {
+        "language": "en",
+        "account": "Wroc-Love Wrocław & Lower Silesia",
+        "accountId": "61595036942289",
+        "matches": [],
+        "scope": "accessible profile feed only; not exhaustive archive"
+      },
+      {
+        "language": "pl",
+        "account": "Wroc-Love Wrocław i Dolny Śląsk",
+        "accountId": "61595207664875",
+        "matches": [],
+        "scope": "accessible profile feed only; not exhaustive archive"
+      },
+      {
+        "language": "de",
+        "account": "Wroc-Love Breslau und Niederschlesien",
+        "accountId": "61595239823399",
+        "matches": [],
+        "scope": "accessible profile feed only; not exhaustive archive"
+      },
+      {
+        "language": "cs",
+        "account": "Wroc-Love Vratislav a Dolní Slezsko",
+        "accountId": "61594716405964",
+        "matches": [],
+        "scope": "accessible profile feed only; not exhaustive archive"
+      }
+    ]
+  }
+}
