@@ -71,6 +71,7 @@ test("all canonical places use only the selected language post or matching chann
     const exact = place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && p.language === lang && !p.url.includes('/groups/'));
     const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && !p.language && !p.url.includes('/groups/'));
     if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
+    else if (place.links?.socialProfileFallback === false) assert.equal(result, null);
     else {
       assert.equal(result.language, lang);
       assert.equal(result.context, "language-channel");
