@@ -54,7 +54,7 @@
     place("zenka", ["eat","drink"], [51.1180815,17.0271292], "Zenka Cafe", food.nadodrze, foodPost, null, sourceFood),
     // Canonical identity, description and gallery are maintained in the shared catalog.
     { id: "chatka", categories: ["eat"], coordinates: [51.1119289,17.0313524], mediaKey: "chatka", sourceUrl: familiarPost, note: sourceFood },
-    place("ato-ramen", ["eat"], [51.1117934,17.0312819], "Ato Ramen", food.ramen, foodPost, null, sourceFood),
+    { id: "ato-ramen", categories: ["eat"], coordinates: [51.1117934,17.0312819], mediaKey: "ato-ramen", sourceUrl: foodPost, note: sourceFood },
     place("woosabi", ["eat","drink"], [51.1089823,17.0234378], "Woosabi Włodkowica – Urban Oasis", food.asian, foodPost, null, sourceFood),
     place("mandarin", ["eat"], [51.1124229,17.0313084], "Mandarin House Restauracja", food.chinese, foodPost, null, sourceFood),
     place("sushi-corner", ["eat"], [51.1085849,17.0234579], "Sushi Corner – Wrocław", food.sushi, foodPost, null, sourceFood),
