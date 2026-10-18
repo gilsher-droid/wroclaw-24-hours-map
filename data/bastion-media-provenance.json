@@ -1,0 +1,287 @@
+{
+  "canonicalPlaceId": "bastion",
+  "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון",
+  "inventory": [
+    {
+      "name": "WhatsApp Image 2026-10-05 at 18.26.58 (1).jpeg",
+      "bytes": 531841,
+      "sha256": "f6e1263b48564b9ce7c7be890cb58829dc1c569ff122f14698cf9be0f1ad1723",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (1).jpeg",
+      "decision": "selected",
+      "reason": "Distinct location view, confirmed by colonnade/fountain/terrace or visible city alignment"
+    },
+    {
+      "name": "WhatsApp Image 2026-10-05 at 18.26.58 (2).jpeg",
+      "bytes": 575748,
+      "sha256": "017019993b8ac62ecef0b285c5c8e0d25cc836d9e3f4552648ab146a13d15bca",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (2).jpeg",
+      "decision": "excluded",
+      "reason": "Personal portrait, no permission for this place"
+    },
+    {
+      "name": "WhatsApp Image 2026-10-05 at 18.26.58 (3).jpeg",
+      "bytes": 549191,
+      "sha256": "e484a84835e7b24473dc750a7cc96d79626532638274b84dce0a9d767034d8d6",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (3).jpeg",
+      "decision": "excluded",
+      "reason": "Near-identical landscape view, retain sharper sunset frame (4)"
+    },
+    {
+      "name": "WhatsApp Image 2026-10-05 at 18.26.58 (4).jpeg",
+      "bytes": 544176,
+      "sha256": "8cbd174c57afebebe8900cbff48f7cec550e56b8fdec6179484046beeb21934d",
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (4).jpeg",
+      "decision": "selected",
+      "reason": "Distinct location view, confirmed by colonnade/fountain/terrace or visible city alignment"
+    },
+    {
+      "name": "WhatsApp Image 2026-10-05 at 18.26.58.jpeg",
+      "bytes": 577758,
+      "sha256": "6422b43d199e6fc2d2bbfc9ab7172610365352d92d02367786b86d3199972709",
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58.jpeg",
+      "decision": "excluded",
+      "reason": "Personal portrait, no permission for this place"
+    },
+    {
+      "name": "WhatsApp Video 2026-10-05 at 18.26.50.mp4",
+      "bytes": 2507471,
+      "sha256": "4ca57cd90a49dce8cf60c14752fa342cd53c3e7a8f1d4bd637d90d10c9ce0362",
+      "duration": 11.9,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.50.mp4",
+      "decision": "selected",
+      "reason": "Distinct location view, confirmed by colonnade/fountain/terrace or visible city alignment"
+    },
+    {
+      "name": "WhatsApp Video 2026-10-05 at 18.26.51.mp4",
+      "bytes": 1375788,
+      "sha256": "f04ec88ac3e332959bf9669776e39fa30d77e11bc38551322cced9eb27ffd800",
+      "duration": 6.4,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.51.mp4",
+      "decision": "excluded",
+      "reason": "Terrace pan contains potentially personal identifiable visitor; withheld without exception"
+    },
+    {
+      "name": "WhatsApp Video 2026-10-05 at 18.26.53.mp4",
+      "bytes": 1612127,
+      "sha256": "819fc557b6c98e77de97022cbae8cdebc425843702d4344b8c8d853286e6fd4a",
+      "duration": 7.6,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.53.mp4",
+      "decision": "selected",
+      "reason": "Distinct location view, confirmed by colonnade/fountain/terrace or visible city alignment"
+    },
+    {
+      "name": "WhatsApp Video 2026-10-05 at 18.26.54.mp4",
+      "bytes": 1183069,
+      "sha256": "92538a3ab1c0dc5532b588a7919bf49da7607384703473832cb76fd13b27c414",
+      "duration": 5.466667,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.54.mp4",
+      "decision": "selected",
+      "reason": "Distinct location view, confirmed by colonnade/fountain/terrace or visible city alignment"
+    },
+    {
+      "name": "WhatsApp Video 2026-10-05 at 18.26.56.mp4",
+      "bytes": 1595050,
+      "sha256": "8baf23128df9b92339b45bb1cd27cd4c04757723effda2240115909769fdcfa3",
+      "duration": 7.366667,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.56.mp4",
+      "decision": "selected",
+      "reason": "Distinct location view, confirmed by colonnade/fountain/terrace or visible city alignment"
+    },
+    {
+      "name": "WhatsApp Video 2026-10-05 at 18.26.59.mp4",
+      "bytes": 1434085,
+      "sha256": "ad58ea995af2f959ca95cf9c01b6810c92e1c096623d8cc6798c02f6ba82b887",
+      "duration": 6.666667,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.59.mp4",
+      "decision": "selected",
+      "reason": "Distinct location view, confirmed by colonnade/fountain/terrace or visible city alignment"
+    }
+  ],
+  "photos": {
+    "/assets/bastion-sakwowy-01.jpg": {
+      "original": true,
+      "sourceFile": "בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (1).jpeg",
+      "sourceSHA256": "f6e1263b48564b9ce7c7be890cb58829dc1c569ff122f14698cf9be0f1ad1723",
+      "assetSHA256": "ed1fb818072b4e402ba6bd60bd9c474dcab02e435df5d29f95c4d10f6fb7f1d2",
+      "alt": {
+        "he": "מבט מהבסטיון אל העיר בשעת שקיעה",
+        "en": "Sunset city view from the bastion",
+        "pl": "Widok na miasto z bastionu o zachodzie słońca",
+        "de": "Blick von der Bastion auf die Stadt bei Sonnenuntergang",
+        "cs": "Pohled z bašty na město při západu slunce"
+      },
+      "heroCandidate": false
+    },
+    "/assets/bastion-sakwowy-02.jpg": {
+      "original": true,
+      "sourceFile": "בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (4).jpeg",
+      "sourceSHA256": "8cbd174c57afebebe8900cbff48f7cec550e56b8fdec6179484046beeb21934d",
+      "assetSHA256": "dd0af9a7c61c933e7b320e8cb4332f11e5ae198da42ef0896a1c26fede38fb20",
+      "alt": {
+        "he": "מבט רחב על הרחוב והעיר מן הבסטיון",
+        "en": "Wide street and city view from the bastion",
+        "pl": "Szeroki widok na ulicę i miasto z bastionu",
+        "de": "Weiter Blick von der Bastion auf Straße und Stadt",
+        "cs": "Široký pohled z bašty na ulici a město"
+      },
+      "heroCandidate": true
+    }
+  },
+  "youtube": [
+    {
+      "file": "WhatsApp Video 2026-10-05 at 18.26.50.mp4",
+      "youtube": "https://youtube.com/shorts/tbHy-48b9fo",
+      "title": "Bastion Sakwowy - Fountain and sunset view - WROC-LOVE",
+      "status": "public-verified"
+    },
+    {
+      "file": "WhatsApp Video 2026-10-05 at 18.26.53.mp4",
+      "youtube": "https://youtube.com/shorts/fhySn2JiZ38",
+      "title": "Bastion Sakwowy - Fountain close-up at sunset - WROC-LOVE",
+      "status": "public-verified"
+    },
+    {
+      "file": "WhatsApp Video 2026-10-05 at 18.26.54.mp4",
+      "youtube": "https://youtube.com/shorts/8JwoMSxXzvc",
+      "title": "Bastion Sakwowy - Fountain and colonnade - WROC-LOVE",
+      "status": "public-verified"
+    },
+    {
+      "file": "WhatsApp Video 2026-10-05 at 18.26.56.mp4",
+      "youtube": "https://youtube.com/shorts/HQIvi34MIUg",
+      "title": "Bastion Sakwowy - Colonnade and pavilion - WROC-LOVE",
+      "status": "public-verified"
+    },
+    {
+      "file": "WhatsApp Video 2026-10-05 at 18.26.59.mp4",
+      "youtube": "https://youtube.com/shorts/MjXLNkUw9zs",
+      "title": "Bastion Sakwowy - Pavilion exterior - WROC-LOVE",
+      "status": "public-verified"
+    }
+  ],
+  "permissions": {
+    "personalMediaPermission": false,
+    "personalExceptionOtherPlaceDoesNotApply": "Chatka only",
+    "videoUploadApproval": {
+      "receivedViaParent": "2026-10-18",
+      "userText": "מאשר העלאת חמשת הסרטונים בתנאים המוצגים",
+      "scope": "Five selected Bastion visit clips to YouTube Public under displayed Terms of Service and Community Guidelines",
+      "evidence": "outputs/bastion-enrichment/youtube-terms.png"
+    },
+    "guides": "Not requested; preserve existing"
+  },
+  "facts": [
+    {
+      "url": "https://visitwroclaw.eu/en/atrakcje/sakwowy-bastion/",
+      "scope": "Official municipal tourism identity, address, moat setting, colonnade, fountain, terrace and former fortifications",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "url": "https://www.wroclaw.pl/dla-mieszkanca/otwarcie-bastionu-sakwowego-kolejne-inwestycje-na-wzgorzu-partyzantow-etapy-rewitalizacja",
+      "scope": "Municipal June 2024 reopening and restoration; historical article, current hours/events not inferred",
+      "verifiedAt": "2026-10-18"
+    }
+  ],
+  "mapDecisions": {
+    "wroclaw-four-days": "Preserved optional day4, stop3,13:00,30minutes",
+    "wroclaw-christmas": "Preserved optional day3,stop3,12:45,30minutes and icy-path skip warning",
+    "cultural-adventure": "Added architecture-design and museums-history for fortifications, colonnade,restoration",
+    "lifestyle-guide": "Not added. This point represents monument/viewpoint, not a particular restaurant or cafe. Cafe Berg remains distinct.",
+    "wroclaw-24-hours": "Not added, avoid extending timed route",
+    "lower-silesia-excursions": "Not added, inner-city monument rather than regional trip"
+  },
+  "originalsPreserved": true,
+  "guidesUntouched": true
+}

@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    bastion: ["architecture-design", "museums-history"],
     "cafe-berg-wroclaw": ["architecture-design"],
     "hala": ["architecture-design"],
     "royal-palace-wroclaw": ["museums-history", "art-contemporary", "architecture-design"],

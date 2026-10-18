@@ -858,5 +858,60 @@
     "sourceSHA256": "a5dddfb802740aff44863691d47e2337b0971b1f9aba39d777bce83a386c1a79",
     "publicationSHA256": "bd9543fd29571190d3f73f1668a1f89e2235af896268d051c8759b5586b4f032",
     "verifiedAt": "2026-10-18"
+  },
+  "/assets/bastion-sakwowy-visit-01.mp4": {
+    "title": "Bastion Sakwowy - Fountain and sunset view - WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/tbHy-48b9fo",
+    "sourceSHA256": "4ca57cd90a49dce8cf60c14752fa342cd53c3e7a8f1d4bd637d90d10c9ce0362",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.50.mp4",
+    "canonicalPlaceIds": [
+      "bastion"
+    ],
+    "verifiedAt": "2026-10-18"
+  },
+  "/assets/bastion-sakwowy-visit-02.mp4": {
+    "title": "Bastion Sakwowy - Fountain close-up at sunset - WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/fhySn2JiZ38",
+    "sourceSHA256": "819fc557b6c98e77de97022cbae8cdebc425843702d4344b8c8d853286e6fd4a",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.53.mp4",
+    "canonicalPlaceIds": [
+      "bastion"
+    ],
+    "verifiedAt": "2026-10-18"
+  },
+  "/assets/bastion-sakwowy-visit-04.mp4": {
+    "title": "Bastion Sakwowy - Colonnade and pavilion - WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/HQIvi34MIUg",
+    "sourceSHA256": "8baf23128df9b92339b45bb1cd27cd4c04757723effda2240115909769fdcfa3",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.56.mp4",
+    "canonicalPlaceIds": [
+      "bastion"
+    ],
+    "verifiedAt": "2026-10-18"
+  },
+  "/assets/bastion-sakwowy-visit-05.mp4": {
+    "title": "Bastion Sakwowy - Pavilion exterior - WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/MjXLNkUw9zs",
+    "sourceSHA256": "ad58ea995af2f959ca95cf9c01b6810c92e1c096623d8cc6798c02f6ba82b887",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.59.mp4",
+    "canonicalPlaceIds": [
+      "bastion"
+    ],
+    "verifiedAt": "2026-10-18"
+  },
+  "/assets/bastion-sakwowy-visit-03.mp4": {
+    "title": "Bastion Sakwowy - Fountain and colonnade - WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/8JwoMSxXzvc",
+    "sourceSHA256": "92538a3ab1c0dc5532b588a7919bf49da7607384703473832cb76fd13b27c414",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.54.mp4",
+    "canonicalPlaceIds": [
+      "bastion"
+    ],
+    "verifiedAt": "2026-10-18"
   }
 }
