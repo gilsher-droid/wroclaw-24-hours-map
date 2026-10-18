@@ -1029,18 +1029,18 @@
     "id": "ato-ramen",
     "localName": "Ato Ramen",
     "name": {
-      "he": "Ato Ramen",
+      "he": "אטו ראמן",
       "en": "Ato Ramen",
       "pl": "Ato Ramen",
       "de": "Ato Ramen",
       "cs": "Ato Ramen"
     },
     "description": {
-      "he": "אחד ממקומות הראמן המומלצים ביותר בעיר.",
-      "en": "One of the most recommended ramen spots in the city.",
-      "pl": "Jedno z najczęściej polecanych miejsc z ramenem w mieście.",
-      "de": "Einer der meistempfohlenen Ramen-Orte der Stadt.",
-      "cs": "Jedno z nejdoporučovanějších míst na ramen ve městě."
+      "he": "מסעדת ראמן ברחוב אודז׳נסקה בעיר העתיקה, סמוך לכיכר השוק ולסמטת יאטקי. זו עצירת אוכל שאפשר לשלב בין אתרי המרכז בלי לצאת מהאזור. בגלריית הביקור שלנו מופיעות קערות ראמן, משקה וחזית המסעדה המוארת בערב. התמונות מתעדות את הביקור שלנו ואינן מבטיחות תפריט, מחירים או זמני המתנה נוכחיים. בדקו את תפריט סניף ורוצלב ואת המידע העדכני באתר הרשמי לפני ההגעה.",
+      "en": "A ramen restaurant on Odrzańska in the Old Town, close to Market Square and the Jatki lane. It makes a convenient food stop between central sights. Our visit gallery shows ramen bowls, a drink and the illuminated evening frontage. The photographs document our visit rather than a current menu, prices or waiting times. The restaurant lists its Wrocław address as Odrzańska 4-5. Check the Wrocław branch menu and current information on the official website before visiting.",
+      "pl": "Restauracja z ramenem przy ulicy Odrzańskiej na Starym Mieście, blisko Rynku i Jatek. To dogodny przystanek na posiłek pomiędzy atrakcjami centrum. Galeria z naszej wizyty pokazuje miski ramenu, napój i oświetloną wieczorną fasadę. Zdjęcia dokumentują naszą wizytę, a nie aktualne menu, ceny czy czas oczekiwania. Restauracja podaje adres wrocławskiego lokalu: Odrzańska 4-5. Przed wizytą sprawdź menu oddziału we Wrocławiu i aktualne informacje na oficjalnej stronie.",
+      "de": "Ramen-Restaurant an der Odrzańska in der Altstadt, nahe dem Marktplatz und der Gasse Jatki. Ein praktischer Essensstopp zwischen den Sehenswürdigkeiten im Zentrum. Unsere Besuchsgalerie zeigt Ramen-Schalen, ein Getränk und die abends beleuchtete Fassade. Die Fotos dokumentieren unseren Besuch, keine aktuelle Speisekarte, Preise oder Wartezeiten. Das Restaurant nennt für die Breslauer Filiale die Adresse Odrzańska 4-5. Prüfen Sie vor dem Besuch das Menü der Filiale Wrocław und aktuelle Angaben auf der offiziellen Website.",
+      "cs": "Restaurace s ramenem v ulici Odrzańska ve Starém Městě, blízko hlavního náměstí a uličky Jatki. Hodí se jako zastávka na jídlo mezi památkami v centru. Galerie z naší návštěvy ukazuje misky ramenu, nápoj a večer osvětlené průčelí. Fotografie zachycují naši návštěvu, nikoli aktuální nabídku, ceny či čekací dobu. Restaurace uvádí pro vratislavskou pobočku adresu Odrzańska 4-5. Před návštěvou zkontrolujte menu pobočky Wrocław a aktuální informace na oficiálním webu."
     },
     "location": {
       "countryCode": "PL",
@@ -1049,6 +1049,11 @@
       "coordinates": {
         "lat": 51.1117934,
         "lng": 17.0312819
+      },
+      "address": {
+        "street": "Odrzańska 4-5",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -1057,7 +1062,11 @@
     "sourceUrls": [
       "https://www.facebook.com/61591964083308/posts/122108686497398802/"
     ],
-    "aliases": [],
+    "aliases": [
+      "ATO RAMEN Wrocław",
+      "Ato Ramen WRO",
+      "אטו ראמן"
+    ],
     "sourceRecords": [
       {
         "productId": "lifestyle-guide",
@@ -1079,7 +1088,12 @@
       "categories": [
         "eat"
       ],
-      "tags": []
+      "tags": [
+        "ramen",
+        "japanese-food",
+        "old-town",
+        "wroclaw"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -1103,15 +1117,103 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://atoramen.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1117934%2C17.0312819",
+        "appleMaps": "https://maps.apple.com/?ll=51.1117934,17.0312819"
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-18",
+      "factualSources": [
+        {
+          "url": "https://atoramen.pl/",
+          "verifiedAt": "2026-10-18",
+          "scope": "official Wrocław branch identity, Odrzańska 4-5 address and links to branch-specific current menus; no fixed hours or prices copied"
+        }
+      ]
+    },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/food-cafes/ato-ramen-bowl-01.jpg",
+        "/assets/food-cafes/ato-ramen-bowls-02.jpg",
+        "/assets/food-cafes/ato-ramen-exterior-03.jpg",
+        "/assets/food-cafes/ato-ramen-drink-04.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-cafes/ato-ramen-bowl-01.jpg": {
+          "original": true,
+          "sourceFile": "אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.02.jpeg",
+          "sourceSHA256": "a1854ca35388f49643e004b201da8622deb81a0d0f2ef3b8febe0bdf6baca92b",
+          "assetSHA256": "fd74c24996c0f14079cead2006198c65652e0087e10793451b53f336ec507a25",
+          "alt": {
+            "he": "קערת ראמן מהביקור שלנו",
+            "en": "Ramen bowl from our visit",
+            "pl": "Miska ramenu podczas naszej wizyty",
+            "de": "Ramen-Schale bei unserem Besuch",
+            "cs": "Miska ramenu při naší návštěvě"
+          },
+          "heroCandidate": true
+        },
+        "/assets/food-cafes/ato-ramen-bowls-02.jpg": {
+          "original": true,
+          "sourceFile": "אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.02 (2).jpeg",
+          "sourceSHA256": "1021627384b955ff921b130c1698f5b1c15f4471f4b6134414e4146b1d1bff71",
+          "assetSHA256": "e236481164455f58c5426c10c4935fe9f230c423700322af142e471686673f96",
+          "alt": {
+            "he": "שתי קערות ראמן על שולחן המסעדה",
+            "en": "Two ramen bowls on the restaurant table",
+            "pl": "Dwie miski ramenu na stole w restauracji",
+            "de": "Zwei Ramen-Schalen auf dem Restauranttisch",
+            "cs": "Dvě misky ramenu na stole v restauraci"
+          },
+          "heroCandidate": false
+        },
+        "/assets/food-cafes/ato-ramen-exterior-03.jpg": {
+          "original": true,
+          "sourceFile": "אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59 (2).jpeg",
+          "sourceSHA256": "e4444ecbb83675deffcc462d35f447eb600c2d49ca604e7572f23cf3f22715b7",
+          "assetSHA256": "ebbbefe376102a2ef11784ac028665f0f707a88e234403386293d076330dfa8b",
+          "alt": {
+            "he": "חזית המסעדה המוארת בשעות הערב",
+            "en": "Illuminated restaurant frontage in the evening",
+            "pl": "Oświetlona fasada restauracji wieczorem",
+            "de": "Beleuchtete Restaurantfront am Abend",
+            "cs": "Osvětlené průčelí restaurace večer"
+          },
+          "heroCandidate": false
+        },
+        "/assets/food-cafes/ato-ramen-drink-04.jpg": {
+          "original": true,
+          "sourceFile": "אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (4).jpeg",
+          "sourceSHA256": "f498980b3d5f901379bd5dfdd60294b7232607c4832cd595df55655ca7c3fb98",
+          "assetSHA256": "f4b4031034505674b0598fbc871053ac9c872e0b3c5ef0956e01ce8b85edd613",
+          "alt": {
+            "he": "משקה שכבות צהוב ולבן מהביקור שלנו",
+            "en": "Yellow and white layered drink from our visit",
+            "pl": "Żółto-biały napój warstwowy podczas naszej wizyty",
+            "de": "Gelb-weiß geschichtetes Getränk bei unserem Besuch",
+            "cs": "Žlutobílý vrstvený nápoj při naší návštěvě"
+          },
+          "heroCandidate": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -1179,19 +1281,6 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "aula": {
@@ -32591,6 +32680,9 @@
   "wroclavia-station": "wroclavia",
   "ostrow-cathedral": "ostrow",
   "christmas-market": "rynek",
+  "אטו ראמן": "ato-ramen",
+  "Ato Ramen WRO": "ato-ramen",
+  "ATO RAMEN Wrocław": "ato-ramen",
   "הבסטיון": "bastion",
   "בסטיון": "bastion",
   "בסטיון סאקבובי": "bastion",

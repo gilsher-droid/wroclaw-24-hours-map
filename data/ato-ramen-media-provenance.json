@@ -1,0 +1,370 @@
+{
+  "canonicalPlaceId": "ato-ramen",
+  "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן",
+  "sourceInventory": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59 (1).jpeg",
+      "sha256": "a6aa1d0f9aa92c07f8a221ec4b1e3234a573c0e510bcbd3262ffd03f14bdb84b",
+      "bytes": 433686,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "excluded: near-duplicate exterior viewpoint; wider photo selected"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59 (2).jpeg",
+      "sha256": "e4444ecbb83675deffcc462d35f447eb600c2d49ca604e7572f23cf3f22715b7",
+      "bytes": 553526,
+      "dimensions": [
+        2048,
+        1536
+      ],
+      "decision": "selected: distinct restaurant/food detail; incidental street bystanders only in exterior"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59 (3).jpeg",
+      "sha256": "db96b89cc6a16ac7e24a9ee1240ea3aac618544ec82dad885c6677c5763cbb5f",
+      "bytes": 521661,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "excluded: near-duplicate exterior viewpoint; wider photo selected"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59.jpeg",
+      "sha256": "2426d4ceef6972630a2315634a061ac4f895c305859e05121edbefe3ff2abf6a",
+      "bytes": 593957,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "excluded: near-duplicate exterior viewpoint; wider photo selected"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.02 (1).jpeg",
+      "sha256": "a54eced83e0b60ca68750dfa0a43a8db5b4e5f1d1916aae4e091a1deaaa67f67",
+      "bytes": 423007,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "excluded: near-duplicate bowl framing; full-bowl photograph selected"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.02 (2).jpeg",
+      "sha256": "1021627384b955ff921b130c1698f5b1c15f4471f4b6134414e4146b1d1bff71",
+      "bytes": 435104,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "selected: distinct restaurant/food detail; incidental street bystanders only in exterior"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.02.jpeg",
+      "sha256": "a1854ca35388f49643e004b201da8622deb81a0d0f2ef3b8febe0bdf6baca92b",
+      "bytes": 506507,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "selected: distinct restaurant/food detail; incidental street bystanders only in exterior"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (1).jpeg",
+      "sha256": "e136e95b8e7e7b3c17c81b6d0c96e70b77b816394c94be9e812aaeb06246f734",
+      "bytes": 542175,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "held: close identifiable diners, no personal-media exception"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (3).jpeg",
+      "sha256": "f42ade9cf3ccf481548e6c15a9e510c476d8ae50ba1d6dcdf1b26b6520c85102",
+      "bytes": 404355,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "held: close identifiable diners, no personal-media exception"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (4).jpeg",
+      "sha256": "f498980b3d5f901379bd5dfdd60294b7232607c4832cd595df55655ca7c3fb98",
+      "bytes": 223336,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "selected: distinct restaurant/food detail; incidental street bystanders only in exterior"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (5).jpeg",
+      "sha256": "ec3b7cba97cdc353e56b5d613e10c73a336f8665abdecb330c86dcf9077e16c7",
+      "bytes": 533069,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "excluded: historic menu with mutable prices; official current menu linked"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03.jpeg",
+      "sha256": "6da193b8085098509ab9a0e655590b1fe5082281268e1a9e8c4f8effd59f12e0",
+      "bytes": 467372,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "held: close identifiable diners, no personal-media exception"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-05 at 18.31.38.jpeg",
+      "sha256": "1021627384b955ff921b130c1698f5b1c15f4471f4b6134414e4146b1d1bff71",
+      "bytes": 435104,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "duplicate: identical SHA256 to 5"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-05 at 18.31.41.jpeg",
+      "sha256": "f42ade9cf3ccf481548e6c15a9e510c476d8ae50ba1d6dcdf1b26b6520c85102",
+      "bytes": 404355,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "duplicate: identical SHA256 to 8"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-01 at 09.24.00.mp4",
+      "sha256": "6b306d5efdc3b6440b5bf63302a544de9d1cf5b7b9b55621faa69a4044e443fa",
+      "bytes": 634688,
+      "duration": 3.566667,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decision": "held: close identifiable diners, no personal-media exception",
+      "sampledFrameDHash": [
+        17504561225347680440,
+        3757634342291120160,
+        6890373431887618512
+      ]
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-01 at 09.24.01 (1).mp4",
+      "sha256": "eb8a1b0c657e3c1a159b697473a2c5375d75051eeb94ef83023a379ce14b2bd6",
+      "bytes": 600818,
+      "duration": 3.266667,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decision": "selected-video: distinct food-focused visit; verify existing YouTube/upload after queue release",
+      "sampledFrameDHash": [
+        861370120668712076,
+        13169601611853234983,
+        16555637821041459347
+      ]
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-01 at 09.24.01.mp4",
+      "sha256": "434444d1ef9df4796f923566ade0bb51a773847d63953fc2be825966430ac3bb",
+      "bytes": 668904,
+      "duration": 3.7,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decision": "selected-video: distinct food-focused visit; verify existing YouTube/upload after queue release",
+      "sampledFrameDHash": [
+        15921202264809606188,
+        10302890744601259052,
+        1078112498938154092
+      ]
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-05 at 18.31.35.mp4",
+      "sha256": "397341727e944fc6a2f6456d391159e35921a8d34a8b473433f6eac3a71143d0",
+      "bytes": 765375,
+      "duration": 3.566667,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decision": "duplicate-video: alternate encoding of clip 14",
+      "sampledFrameDHash": [
+        17504561225347680440,
+        3757634342291120160,
+        6890373431887618512
+      ]
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-05 at 18.31.36.mp4",
+      "sha256": "eba46fa97fc839d263eb4cd7f4e1c9e872baeeb9e9b8ab02fa7ae4f5dc9044df",
+      "bytes": 809951,
+      "duration": 3.7,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decision": "duplicate-video: alternate encoding of clip 16",
+      "sampledFrameDHash": [
+        15921202264809606188,
+        10302890744600996908,
+        1078112498938154092
+      ]
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-05 at 18.31.37.mp4",
+      "sha256": "aff41e09c20253a1614e5038e9d6239be2e4d11d2a2d3398a022e83f8277f69a",
+      "bytes": 726077,
+      "duration": 3.266667,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decision": "duplicate-video: alternate encoding of clip 15",
+      "sampledFrameDHash": [
+        1149600496820423820,
+        13169601611853234983,
+        16555637821041459347
+      ]
+    }
+  ],
+  "factualSources": [
+    {
+      "url": "https://atoramen.pl/",
+      "verifiedAt": "2026-10-18",
+      "scope": "official Wrocław branch identity, Odrzańska 4-5 address and links to branch-specific current menus; no fixed hours or prices copied"
+    }
+  ],
+  "mapDecisions": {
+    "lifestyle-guide": "retain eat, restaurant relevant to dining map",
+    "cultural-adventure": "not added, food business without substantiated cultural attraction",
+    "wroclaw-24-hours": "not added, keep selected timed itinerary",
+    "wroclaw-four-days": "not added, optional meal stop already available through dining map",
+    "wroclaw-christmas": "not added, no established specific seasonal relevance",
+    "lower-silesia-excursions": "not added, central-city restaurant rather than regional excursion"
+  },
+  "personalMediaPermission": false,
+  "originalsPreserved": true,
+  "sourceVideoDecision": "Two distinct food clips; diner/wall clip held without personal-media exception; three alternate encodings excluded after sampled-frame comparison",
+  "photos": [
+    {
+      "asset": "/assets/food-cafes/ato-ramen-bowl-01.jpg",
+      "original": true,
+      "sourceFile": "אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.02.jpeg",
+      "sourceSHA256": "a1854ca35388f49643e004b201da8622deb81a0d0f2ef3b8febe0bdf6baca92b",
+      "assetSHA256": "fd74c24996c0f14079cead2006198c65652e0087e10793451b53f336ec507a25",
+      "alt": {
+        "he": "קערת ראמן מהביקור שלנו",
+        "en": "Ramen bowl from our visit",
+        "pl": "Miska ramenu podczas naszej wizyty",
+        "de": "Ramen-Schale bei unserem Besuch",
+        "cs": "Miska ramenu při naší návštěvě"
+      },
+      "heroCandidate": true
+    },
+    {
+      "asset": "/assets/food-cafes/ato-ramen-bowls-02.jpg",
+      "original": true,
+      "sourceFile": "אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.02 (2).jpeg",
+      "sourceSHA256": "1021627384b955ff921b130c1698f5b1c15f4471f4b6134414e4146b1d1bff71",
+      "assetSHA256": "e236481164455f58c5426c10c4935fe9f230c423700322af142e471686673f96",
+      "alt": {
+        "he": "שתי קערות ראמן על שולחן המסעדה",
+        "en": "Two ramen bowls on the restaurant table",
+        "pl": "Dwie miski ramenu na stole w restauracji",
+        "de": "Zwei Ramen-Schalen auf dem Restauranttisch",
+        "cs": "Dvě misky ramenu na stole v restauraci"
+      },
+      "heroCandidate": false
+    },
+    {
+      "asset": "/assets/food-cafes/ato-ramen-exterior-03.jpg",
+      "original": true,
+      "sourceFile": "אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59 (2).jpeg",
+      "sourceSHA256": "e4444ecbb83675deffcc462d35f447eb600c2d49ca604e7572f23cf3f22715b7",
+      "assetSHA256": "ebbbefe376102a2ef11784ac028665f0f707a88e234403386293d076330dfa8b",
+      "alt": {
+        "he": "חזית המסעדה המוארת בשעות הערב",
+        "en": "Illuminated restaurant frontage in the evening",
+        "pl": "Oświetlona fasada restauracji wieczorem",
+        "de": "Beleuchtete Restaurantfront am Abend",
+        "cs": "Osvětlené průčelí restaurace večer"
+      },
+      "heroCandidate": false
+    },
+    {
+      "asset": "/assets/food-cafes/ato-ramen-drink-04.jpg",
+      "original": true,
+      "sourceFile": "אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (4).jpeg",
+      "sourceSHA256": "f498980b3d5f901379bd5dfdd60294b7232607c4832cd595df55655ca7c3fb98",
+      "assetSHA256": "f4b4031034505674b0598fbc871053ac9c872e0b3c5ef0956e01ce8b85edd613",
+      "alt": {
+        "he": "משקה שכבות צהוב ולבן מהביקור שלנו",
+        "en": "Yellow and white layered drink from our visit",
+        "pl": "Żółto-biały napój warstwowy podczas naszej wizyty",
+        "de": "Gelb-weiß geschichtetes Getränk bei unserem Besuch",
+        "cs": "Žlutobílý vrstvený nápoj při naší návštěvě"
+      },
+      "heroCandidate": false
+    }
+  ]
+}

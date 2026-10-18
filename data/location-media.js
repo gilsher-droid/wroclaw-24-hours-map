@@ -126,6 +126,7 @@
   };
 
   const resources = {
+    "ato-ramen": canonicalResources("ato-ramen"),
     bastion: canonicalResources("bastion"),
     "cafe-berg-wroclaw": canonicalResources("cafe-berg-wroclaw"),
     "lodziarnia-roma": canonicalResources("lodziarnia-roma"),
