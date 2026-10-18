@@ -27,6 +27,139 @@
   // geography explicitly; no city is inferred by the catalog generator.
   window.WROC_CANONICAL_PLACE_SOURCE = [
 {
+  "id": "bastion",
+  "localName": "Bastion Sakwowy",
+  "aliases": [
+    "הבסטיון",
+    "בסטיון",
+    "בסטיון סאקבובי",
+    "Sakwowy Bastion",
+    "Wzgórze Partyzantów",
+    "Partisan Hill",
+    "Liebichshöhe"
+  ],
+  "name": {
+    "he": "בסטיון סאקבובי",
+    "en": "Sakwowy Bastion",
+    "pl": "Bastion Sakwowy",
+    "de": "Bastion Sakwowy",
+    "cs": "Bašta Sakwowy"
+  },
+  "description": {
+    "he": "מתחם היסטורי על גבעת הפרטיזנים לצד חפיר העיר, המשלב שרידי ביצורים עם קולונדה, מזרקה ומרפסות תצפית. הוא נפתח מחדש לאחר שיקום ביוני 2024. התמונות וסרטוני הביקור שלנו מציגים את המזרקה, הקשתות והעיר בשעת שקיעה. מתאים לעצירת אדריכלות ולהליכה קצרה לצד החפיר. בכריסמס דלגו אם המדרגות והשבילים מכוסים קרח.",
+    "en": "Historic complex on Partisan Hill beside the city moat, combining former fortifications with a colonnade, fountain and viewing terraces. It reopened after restoration in June 2024. Our visit photos and clips show the fountain, arches and city at sunset. A useful architecture stop and short moat walk. On the Christmas route, skip it when steps or paths are icy.",
+    "pl": "Historyczny kompleks na Wzgórzu Partyzantów przy fosie miejskiej, łączący dawne fortyfikacje z kolumnadą, fontanną i tarasami widokowymi. Po renowacji otwarto go ponownie w czerwcu 2024 roku. Nasze zdjęcia i filmy z wizyty pokazują fontannę, arkady i miasto o zachodzie słońca. Dobry przystanek architektoniczny i krótki spacer nad fosą. Na trasie bożonarodzeniowej pomiń go, gdy schody lub alejki są oblodzone.",
+    "de": "Historische Anlage auf dem Partisanenhügel am Stadtgraben mit ehemaligen Befestigungen, Kolonnade, Brunnen und Aussichtsterrassen. Nach der Restaurierung wurde sie im Juni 2024 wiedereröffnet. Unsere Besuchsfotos und Videos zeigen Brunnen, Arkaden und Stadt im Abendlicht. Geeignet für einen Architekturhalt und einen kurzen Spaziergang am Graben. Auf der Weihnachtsroute bei vereisten Stufen oder Wegen auslassen.",
+    "cs": "Historický areál na Partizánském návrší u městského příkopu spojuje někdejší opevnění s kolonádou, kašnou a vyhlídkovými terasami. Po obnově byl znovu otevřen v červnu 2024. Naše fotografie a videa z návštěvy ukazují kašnu, arkády a město při západu slunce. Hodí se jako architektonická zastávka a krátká procházka podél příkopu. Na vánoční trase jej vynechte, pokud jsou schody nebo cesty namrzlé."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.10519,
+      "lng": 17.03829
+    },
+    "address": {
+      "street": "ks. Piotra Skargi 18a",
+      "postalCode": "50-082",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "viewpoint",
+    "historical-landmark",
+    "architecture"
+  ],
+  "taxonomy": {
+    "tags": [
+      "bastion",
+      "colonnade",
+      "fountain",
+      "city-moat",
+      "sunset",
+      "architecture",
+      "historical"
+    ]
+  },
+  "links": {
+    "website": "https://visitwroclaw.eu/en/atrakcje/sakwowy-bastion/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10519%2C17.03829",
+      "appleMaps": "https://maps.apple.com/?ll=51.10519,17.03829"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/bastion-sakwowy-01.jpg",
+      "/assets/bastion-sakwowy-02.jpg"
+    ],
+    "videos": [
+      "/assets/bastion-sakwowy-visit-01.mp4",
+      "/assets/bastion-sakwowy-visit-02.mp4",
+      "/assets/bastion-sakwowy-visit-03.mp4",
+      "/assets/bastion-sakwowy-visit-04.mp4",
+      "/assets/bastion-sakwowy-visit-05.mp4"
+    ],
+    "metadata": {
+      "/assets/bastion-sakwowy-01.jpg": {
+        "original": true,
+        "sourceFile": "בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (1).jpeg",
+        "sourceSHA256": "f6e1263b48564b9ce7c7be890cb58829dc1c569ff122f14698cf9be0f1ad1723",
+        "assetSHA256": "ed1fb818072b4e402ba6bd60bd9c474dcab02e435df5d29f95c4d10f6fb7f1d2",
+        "alt": {
+          "he": "מבט מהבסטיון אל העיר בשעת שקיעה",
+          "en": "Sunset city view from the bastion",
+          "pl": "Widok na miasto z bastionu o zachodzie słońca",
+          "de": "Blick von der Bastion auf die Stadt bei Sonnenuntergang",
+          "cs": "Pohled z bašty na město při západu slunce"
+        },
+        "heroCandidate": false
+      },
+      "/assets/bastion-sakwowy-02.jpg": {
+        "original": true,
+        "sourceFile": "בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (4).jpeg",
+        "sourceSHA256": "8cbd174c57afebebe8900cbff48f7cec550e56b8fdec6179484046beeb21934d",
+        "assetSHA256": "dd0af9a7c61c933e7b320e8cb4332f11e5ae198da42ef0896a1c26fede38fb20",
+        "alt": {
+          "he": "מבט רחב על הרחוב והעיר מן הבסטיון",
+          "en": "Wide street and city view from the bastion",
+          "pl": "Szeroki widok na ulicę i miasto z bastionu",
+          "de": "Weiter Blick von der Bastion auf Straße und Stadt",
+          "cs": "Široký pohled z bašty na ulici a město"
+        },
+        "heroCandidate": true
+      }
+    }
+  },
+  "provenance": {
+    "personalVisit": true,
+    "originalPhotography": true,
+    "verifiedAt": "2026-10-18",
+    "factualSources": [
+      {
+        "url": "https://visitwroclaw.eu/en/atrakcje/sakwowy-bastion/",
+        "scope": "Official municipal tourism identity, address, moat setting, colonnade, fountain, terrace and former fortifications",
+        "verifiedAt": "2026-10-18"
+      },
+      {
+        "url": "https://www.wroclaw.pl/dla-mieszkanca/otwarcie-bastionu-sakwowego-kolejne-inwestycje-na-wzgorzu-partyzantow-etapy-rewitalizacja",
+        "scope": "Municipal June 2024 reopening and restoration; historical article, current hours/events not inferred",
+        "verifiedAt": "2026-10-18"
+      }
+    ]
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
+{
   "id": "cafe-berg-wroclaw",
   "aliases": [
     "Cafe Berg",

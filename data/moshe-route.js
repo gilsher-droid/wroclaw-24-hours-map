@@ -121,7 +121,7 @@
 
     stop("panorama",3,1,[51.11027,17.04457],"culture","10:00","45 min",false,l("Panorama Racławicka","Panorama Racławicka","Panorama Racławicka"),"Panorama Racławicka",l("ציור פנורמי עצום בביקור מתוזמן, מתאים במיוחד לבוקר חורפי.","A monumental panoramic painting with timed entry, ideal for a winter morning.","Monumentalne malowidło panoramiczne ze wstępem na konkretną godzinę, idealne na zimowy poranek."),l("הגיעו 15 דקות לפני שעת הכרטיס.","Arrive 15 minutes before the ticket time.","Przyjdźcie 15 minut przed godziną biletu.")),
     stop("national-museum",3,2,[51.11061,17.04725],"culture","11:05","75 min",true,l("המוזיאון הלאומי","National Museum in Wrocław","Muzeum Narodowe we Wrocławiu"),"Muzeum Narodowe we Wrocławiu",l("חלופה מקורה מצוינת ליום קר או גשום, במרחק קצר מהפנורמה.","An excellent indoor option for a cold or rainy day, close to the Panorama.","Świetna opcja pod dachem na zimny lub deszczowy dzień, blisko Panoramy."),l("דלגו אם אתם מעדיפים יותר זמן לקניות או להופעת ערב.","Skip it if shopping or an evening performance is a priority.","Pomińcie, jeśli wolicie więcej czasu na zakupy lub wieczorne wydarzenie.")),
-    stop("bastion",3,3,[51.10519,17.03829],"viewpoint","12:45","30 min",true,l("Bastion Sakwowy","Bastion Sakwowy","Bastion Sakwowy"),"Bastion Sakwowy",l("תצפית קצרה על המרכז והחפיר, רק אם השבילים יבשים ובטוחים.","A short view over the centre and moat, only when paths are dry and safe.","Krótki widok na centrum i fosę, tylko gdy alejki są suche i bezpieczne."),l("בשלג או קרח דלגו ללא היסוס.","Skip without hesitation in snow or ice.","Przy śniegu lub lodzie pomińcie bez wahania.")),
+    {"id": "bastion", "day": 3, "order": 3, "coordinates": [51.10519, 17.03829], "category": "viewpoint", "time": "12:45", "duration": "30 min", "optional": true, "tip": {"he": "בשלג או קרח דלגו ללא היסוס.", "en": "Skip without hesitation in snow or ice.", "pl": "Przy śniegu lub lodzie pomińcie bez wahania.", "de": "Bei Schnee oder Eis ohne Zögern auslassen.", "cs": "Při sněhu nebo náledí bez váhání vynechte."}},
     stop("renoma",3,4,[51.10394,17.03123],"shopping","13:30","75 min",false,l("Renoma","Renoma","Renoma"),"Renoma",l("מרכז קניות אייקוני ונוח להפסקת צהריים, קפה וקניות קלות.","An iconic shopping centre convenient for lunch, coffee and light shopping.","Ikoniczne centrum handlowe dobre na lunch, kawę i lekkie zakupy."),l("אפשר לסיים כאן אם אינכם מעוניינים בקניון נוסף.","You can finish here if another shopping centre is unnecessary.","Możecie zakończyć tutaj, jeśli nie chcecie odwiedzać kolejnego centrum.")),
     stop("culture-evening",3,5,[51.10775,17.02857],"culture","16:00","120 min",true,l("אופרה או NFM","Opera or National Forum of Music","Opera lub Narodowe Forum Muzyki"),"Opera Wrocławska / NFM",l("בחרו מראש הופעת אופרה או קונצרט חגיגי לפי התוכנית.","Choose an opera performance or festive concert in advance.","Wybierzcie wcześniej spektakl operowy lub świąteczny koncert."),l("הזמינו כרטיסים ומקומות ישיבה נגישים מראש.","Book tickets and accessible seating in advance.","Zarezerwujcie wcześniej bilety i wygodne miejsca.")),
     stop("wroclavia-station",3,6,[51.09858,17.03675],"shopping","16:30","90 min",true,l("Westfield Wroclavia ותחנת הרכבת","Westfield Wroclavia and the main station","Westfield Wroclavia i Dworzec Główny"),"Westfield Wroclavia / Wrocław Główny",l("קניון מודרני וחם ליד תחנת הרכבת המרשימה; חלופה טובה למזג אוויר קשה.","A warm modern mall beside the striking main station; a good bad-weather option.","Ciepłe nowoczesne centrum obok efektownego dworca; dobra opcja na złą pogodę."),l("הגיעו בתחבורה מ־Renoma כדי לחסוך הליכה.","Use transport from Renoma to save walking.","Przyjedźcie z Renomy komunikacją, aby ograniczyć chodzenie.")),
@@ -155,7 +155,18 @@
       stops: window.PREMIUM_STOPS,
       recommendations: window.PREMIUM_RECOMMENDATIONS,
     });
-    window.PREMIUM_STOPS = registered.stops;
+    window.PREMIUM_STOPS = registered.stops.map((record) => {
+      const place = record.canonicalPlace;
+      if (!place) return record;
+      const coordinates = place.location?.coordinates;
+      return {
+        ...record,
+        coordinates: record.coordinates || (coordinates ? [coordinates.lat, coordinates.lng] : null),
+        name: record.name || place.name,
+        localName: record.localName || place.localName,
+        description: record.description || place.description,
+      };
+    });
     window.PREMIUM_RECOMMENDATIONS = registered.recommendations;
   }
 })();
