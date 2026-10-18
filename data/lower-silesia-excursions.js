@@ -1684,7 +1684,7 @@
     },
     {
       "id": "return",
-      "mapPointId": "manufaktura-return",
+      "canonicalPlaceId": "lodz-manufaktura",
       "title": {
         "he": "ארוחה או קפה וחזרה לרכב",
         "en": "Meal or coffee and return to the car",
