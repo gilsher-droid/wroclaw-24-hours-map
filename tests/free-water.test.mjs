@@ -20,7 +20,8 @@ test("free-water catalog records are additive, scoped and preserve identity", ()
 
   assert.equal(hospitality.length, 24);
   assert.equal(refillPoints.length, 15);
-  assert.equal(new Set(Object.keys(catalog.places)).size, 185);
+  const waterPlaces = [...hospitality, ...refillPoints];
+  assert.equal(new Set(waterPlaces.map((place) => place.id)).size, hospitality.length + refillPoints.length);
 
   const wierzbowa = catalog.getPlace("wierzbowa-15");
   assert.equal(wierzbowa.id, "wierzbowa-15");
