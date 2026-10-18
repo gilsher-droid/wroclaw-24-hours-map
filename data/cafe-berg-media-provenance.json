@@ -1,0 +1,148 @@
+{
+  "canonicalPlaceId": "cafe-berg-wroclaw",
+  "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג",
+  "sourceInventory": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-18 at 09.58.00 (1).jpeg",
+      "sha256": "bb6281f8bb5aa1f5a44aeeaa05542c246941c96a90cb4d59ab0bf8d3ff0613d3",
+      "bytes": 232811,
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "decision": "excluded_personal",
+      "reason": "recognizable personal portrait, no specific authorization for Cafe Berg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-18 at 09.58.00.jpeg",
+      "sha256": "3525dff7fedf1bb5338b967ace5342b3e471b53009506f1c4c8faecb07f2e5fb",
+      "bytes": 226873,
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "decision": "excluded_personal",
+      "reason": "recognizable personal portrait, no specific authorization for Cafe Berg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (1).jpeg",
+      "sha256": "f8aa43071182aea39ac9f605bb0d7beec6c6f2528bc1f5a88055649acfc10b01",
+      "bytes": 284053,
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "decision": "excluded_personal",
+      "reason": "recognizable personal portrait, no specific authorization for Cafe Berg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (2).jpeg",
+      "sha256": "43938b8b506d00afa177bc4b50ea48b1086629f23b5f5594681cf827f1c66899",
+      "bytes": 279179,
+      "dimensions": [
+        2048,
+        1152
+      ],
+      "decision": "excluded_personal",
+      "reason": "recognizable personal portrait, no specific authorization for Cafe Berg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (4).jpeg",
+      "sha256": "77389d266c3af2c34484a9bcaf8e1c0746ce7541d38e83eec5177fdea705ba39",
+      "bytes": 270441,
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "decision": "excluded_personal",
+      "reason": "recognizable personal portrait, no specific authorization for Cafe Berg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (5).jpeg",
+      "sha256": "c824039f224559aedb887b78139bbf5f7503c73889b308ddd9389b715740035a",
+      "bytes": 230479,
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "decision": "selected",
+      "reason": "distinct dessert/table/moat view, no identifiable foreground people"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (7).jpeg",
+      "sha256": "a32514b50a58e6bcaddcb8c9b8ab23b98682f2f0afb4a14f0af0e870091b537e",
+      "bytes": 156095,
+      "dimensions": [
+        1152,
+        2048
+      ],
+      "decision": "selected",
+      "reason": "distinct dessert/table/moat view, no identifiable foreground people"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (8).jpeg",
+      "sha256": "54ef6e101bf2da323c29279a54099f968f78d3ca94708da22969c85207ce276d",
+      "bytes": 319908,
+      "dimensions": [
+        2048,
+        1152
+      ],
+      "decision": "selected",
+      "reason": "distinct dessert/table/moat view, no identifiable foreground people"
+    }
+  ],
+  "photos": [
+    {
+      "asset": "/assets/food-cafes/cafe-berg-01.jpg",
+      "original": true,
+      "sourceFile": "קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (5).jpeg",
+      "sourceSHA256": "c824039f224559aedb887b78139bbf5f7503c73889b308ddd9389b715740035a",
+      "assetSHA256": "b205be4229879fa16389cc4f17a6bf7c4987d389c43a19d060f94cb6977a48c1",
+      "heroCandidate": true,
+      "visitCategory": "food-and-cafe"
+    },
+    {
+      "asset": "/assets/food-cafes/cafe-berg-02.jpg",
+      "original": true,
+      "sourceFile": "קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (7).jpeg",
+      "sourceSHA256": "a32514b50a58e6bcaddcb8c9b8ab23b98682f2f0afb4a14f0af0e870091b537e",
+      "assetSHA256": "961ad513045a24adeb57bfdaef93c8ee25fe9a47f197bc204247d18a47376265",
+      "heroCandidate": false,
+      "visitCategory": "food-and-cafe"
+    },
+    {
+      "asset": "/assets/food-cafes/cafe-berg-03.jpg",
+      "original": true,
+      "sourceFile": "קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (8).jpeg",
+      "sourceSHA256": "54ef6e101bf2da323c29279a54099f968f78d3ca94708da22969c85207ce276d",
+      "assetSHA256": "b2e4ce4d7c9cc1dcfe5cfad1b76f4d9a62e5e41fdfaae1ecb3d3da4a1c5271b4",
+      "heroCandidate": false,
+      "visitCategory": "food-and-cafe"
+    }
+  ],
+  "newVideos": 0,
+  "personalMediaPermission": false,
+  "facts": [
+    {
+      "url": "https://cafe-berg.pl/o-nas",
+      "scope": "official identity, intersection, Max Berg kiosk and view across moat; coordinates from the official embedded Google map",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "url": "https://www.wroclaw.pl/przedsiebiorczy-wroclaw/cafe-berg-kawiarnia-nad-fosa-wroclaw",
+      "scope": "municipal historical account and location, published 2023-04-01; historic hours not reused",
+      "verifiedAt": "2026-10-18"
+    }
+  ],
+  "mapDecisions": {
+    "lifestyle-guide": "added, cafe and desserts",
+    "cultural-adventure": "added, Max Berg historic kiosk under architecture-design",
+    "wroclaw-24-hours": "not added, no need to expand timed route",
+    "wroclaw-four-days": "not added, cafe is optional and no existing route recommendation requires modification",
+    "wroclaw-christmas": "not added, no verified seasonal relevance",
+    "lower-silesia-excursions": "not added, inner-city cafe rather than regional excursion"
+  },
+  "privacy": "Five identifiable portraits excluded. No exception inherited from Chatka.",
+  "deduplication": "Eight distinct SHA256 values; selected three different dessert/waterside views after visual inspection; no videos present.",
+  "originalsPreserved": true
+}

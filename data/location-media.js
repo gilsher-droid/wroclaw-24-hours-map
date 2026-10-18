@@ -126,6 +126,7 @@
   };
 
   const resources = {
+    "cafe-berg-wroclaw": canonicalResources("cafe-berg-wroclaw"),
     "lodziarnia-roma": canonicalResources("lodziarnia-roma"),
     "pizza-si": canonicalResources("pizza-si"),
     "czarna-magia": canonicalResources("czarna-magia"),

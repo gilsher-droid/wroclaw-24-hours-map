@@ -27,6 +27,131 @@
   // geography explicitly; no city is inferred by the catalog generator.
   window.WROC_CANONICAL_PLACE_SOURCE = [
 {
+  "id": "cafe-berg-wroclaw",
+  "aliases": [
+    "Cafe Berg",
+    "Café Berg",
+    "Kawiarnia Cafe Berg",
+    "קפה ברג",
+    "קפה ברג ורוצלב",
+    "Kiosk projektu Maxa Berga"
+  ],
+  "localName": "Cafe Berg",
+  "name": {
+    "he": "קפה ברג",
+    "en": "Cafe Berg",
+    "pl": "Cafe Berg",
+    "de": "Café Berg",
+    "cs": "Kavárna Berg"
+  },
+  "description": {
+    "he": "בית קפה בקיוסק היסטורי שתכנן מקס ברג, לצד חפיר העיר בצומת הרחובות פיוטרה סקארגי ופודוואלה. המרפסת משקיפה על המים ועל גבעת הפרטיזנים שממול. בגלריה תמונות העוגה והישיבה ליד המים מהביקור שלנו. אפשר לשלב הפסקת קפה עם הליכה לאורך החפיר וביקור בבסטיון הסמוך. בדקו שעות פתיחה ותפריט באתר הרשמי לפני ההגעה.",
+    "en": "A café in a historic kiosk designed by Max Berg, beside the city moat at Piotra Skargi and Podwale. The terrace looks over the water towards Wzgórze Partyzantów. Our gallery shows cake and waterside seating from our visit. Combine a coffee break with a moat walk and the nearby bastion. Check opening hours and the menu with the café before visiting.",
+    "pl": "Kawiarnia w zabytkowym kiosku projektu Maxa Berga, nad fosą miejską u zbiegu ulic Piotra Skargi i Podwale. Taras wychodzi na wodę i Wzgórze Partyzantów. Nasza galeria pokazuje ciasto i stoliki nad wodą podczas wizyty. Przerwę na kawę można połączyć ze spacerem wzdłuż fosy i odwiedzinami pobliskiego bastionu. Przed przyjazdem sprawdź godziny otwarcia i menu u kawiarni.",
+    "de": "Café in einem historischen Kiosk von Max Berg am Stadtgraben, an der Kreuzung Piotra Skargi und Podwale. Die Terrasse blickt über das Wasser zum Wzgórze Partyzantów. Unsere Galerie zeigt Kuchen und Sitzplätze am Wasser bei unserem Besuch. Eine Kaffeepause lässt sich mit einem Spaziergang am Graben und zur nahen Bastion verbinden. Öffnungszeiten und Speisekarte vorab beim Café prüfen.",
+    "cs": "Kavárna v historickém kiosku navrženém Maxem Bergem u městského příkopu, na křižovatce ulic Piotra Skargi a Podwale. Terasa nabízí výhled přes vodu na Wzgórze Partyzantów. Naše galerie ukazuje dort a posezení u vody během návštěvy. Kávu lze spojit s procházkou podél příkopu a návštěvou blízké bašty. Před cestou ověřte otevírací dobu a nabídku u kavárny."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.103978840814904,
+      "lng": 17.03740582927844
+    },
+    "address": {
+      "street": "Piotra Skargi / Podwale",
+      "postalCode": "50-001",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "eat",
+    "drink",
+    "historical-landmark"
+  ],
+  "taxonomy": {
+    "tags": [
+      "cafe",
+      "cake",
+      "waterside",
+      "architecture",
+      "max-berg",
+      "historical",
+      "wroclaw"
+    ]
+  },
+  "links": {
+    "website": "https://cafe-berg.pl/",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.103978840814904%2C17.03740582927844",
+      "appleMaps": "https://maps.apple.com/?ll=51.103978840814904,17.03740582927844"
+    }
+  },
+  "provenance": {
+    "personalVisit": true,
+    "originalPhotography": true,
+    "verifiedAt": "2026-10-18",
+    "factualSources": [
+      {
+        "url": "https://cafe-berg.pl/o-nas",
+        "scope": "official identity, intersection, Max Berg kiosk and view across moat; coordinates from the official embedded Google map",
+        "verifiedAt": "2026-10-18"
+      },
+      {
+        "url": "https://www.wroclaw.pl/przedsiebiorczy-wroclaw/cafe-berg-kawiarnia-nad-fosa-wroclaw",
+        "scope": "municipal historical account and location, published 2023-04-01; historic hours not reused",
+        "verifiedAt": "2026-10-18"
+      }
+    ]
+  },
+  "media": {
+    "photos": [
+      "/assets/food-cafes/cafe-berg-01.jpg",
+      "/assets/food-cafes/cafe-berg-02.jpg",
+      "/assets/food-cafes/cafe-berg-03.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/food-cafes/cafe-berg-01.jpg": {
+        "original": true,
+        "sourceFile": "קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (5).jpeg",
+        "sourceSHA256": "c824039f224559aedb887b78139bbf5f7503c73889b308ddd9389b715740035a",
+        "assetSHA256": "b205be4229879fa16389cc4f17a6bf7c4987d389c43a19d060f94cb6977a48c1",
+        "heroCandidate": true,
+        "visitCategory": "food-and-cafe"
+      },
+      "/assets/food-cafes/cafe-berg-02.jpg": {
+        "original": true,
+        "sourceFile": "קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (7).jpeg",
+        "sourceSHA256": "a32514b50a58e6bcaddcb8c9b8ab23b98682f2f0afb4a14f0af0e870091b537e",
+        "assetSHA256": "961ad513045a24adeb57bfdaef93c8ee25fe9a47f197bc204247d18a47376265",
+        "heroCandidate": false,
+        "visitCategory": "food-and-cafe"
+      },
+      "/assets/food-cafes/cafe-berg-03.jpg": {
+        "original": true,
+        "sourceFile": "קפה ברג/WhatsApp Image 2026-10-18 at 09.58.01 (8).jpeg",
+        "sourceSHA256": "54ef6e101bf2da323c29279a54099f968f78d3ca94708da22969c85207ce276d",
+        "assetSHA256": "b2e4ce4d7c9cc1dcfe5cfad1b76f4d9a62e5e41fdfaae1ecb3d3da4a1c5271b4",
+        "heroCandidate": false,
+        "visitCategory": "food-and-cafe"
+      }
+    }
+  },
+  "socialPosts": [],
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
+{
   "id": "zamek-topacz",
   "aliases": [
     "Zamek Topacz",
