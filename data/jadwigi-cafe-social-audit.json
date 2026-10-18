@@ -1,0 +1,167 @@
+{
+  "placeId": "kawiarenka-sw-jadwigi",
+  "checkedAt": "2026-10-18",
+  "entries": [
+    {
+      "platform": "facebook",
+      "language": "he",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61591964083308",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Page search for מנזר returned no result. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/facebook-he-no-result.png",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "he",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.he/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Reviewed 47 loaded post/reel captions in the matching account; no café candidate. Hebrew monastery mentions refer to the different Arche Klasztor hotel or a generic welcome post. Other archives were not exhaustively reviewed. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/instagram-he-visible-posts.json",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595036942289",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Page search for Jadwigi returned no result. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/facebook-en-no-result.png",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "en",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Reviewed 36 loaded post/reel captions in the matching account; no café candidate. Hebrew monastery mentions refer to the different Arche Klasztor hotel or a generic welcome post. Other archives were not exhaustively reviewed. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/instagram-en-visible-posts.json",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "facebook",
+      "language": "pl",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595207664875",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Page search for Jadwigi returned no result. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/facebook-pl-no-result.png",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "pl",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.pl/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Reviewed 36 loaded post/reel captions in the matching account; no café candidate. Hebrew monastery mentions refer to the different Arche Klasztor hotel or a generic welcome post. Other archives were not exhaustively reviewed. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/instagram-pl-visible-posts.json",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "facebook",
+      "language": "de",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595239823399",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Only a German Sand Bridge post mentioning Świętej Jadwigi street was returned; it is not this café and was rejected. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/facebook-de-unrelated-result.png",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "de",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.de/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Reviewed 36 loaded post/reel captions in the matching account; no café candidate. Hebrew monastery mentions refer to the different Arche Klasztor hotel or a generic welcome post. Other archives were not exhaustively reviewed. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/instagram-de-visible-posts.json",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "facebook",
+      "language": "cs",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61594716405964",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Page search for Jadwigi returned no result. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/facebook-cs-no-result.png",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "platform": "instagram",
+      "language": "cs",
+      "url": null,
+      "actualDestination": null,
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.cs/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "Reviewed 36 loaded post/reel captions in the matching account; no café candidate. Hebrew monastery mentions refer to the different Arche Klasztor hotel or a generic welcome post. Other archives were not exhaustively reviewed. No candidate found in canonical/localized media registry or existing documentation.",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "outputs/jadwigi-enrichment/instagram-cs-visible-posts.json",
+        "data/localized-social-posts.json"
+      ],
+      "checkedAt": "2026-10-18"
+    }
+  ],
+  "conclusion": "No verified written place post in any of ten language/platform cells. Hide point post actions, preserve general account follow area. No social publication performed. A missing verified post is not proof that no historical post exists."
+}

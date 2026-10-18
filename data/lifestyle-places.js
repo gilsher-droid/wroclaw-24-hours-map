@@ -45,6 +45,7 @@
   const sourceShopping = t("מופיע בשכבת מרכזי הקניות של מפת הקהילה.", "Included in the community map’s shopping-centre layer.", "Znajduje się w warstwie centrów handlowych mapy społeczności.", "In der Einkaufszentrum-Ebene der Community-Karte enthalten.", "Zahrnuto ve vrstvě nákupních center komunitní mapy.");
 
   window.WROC_LIFESTYLE_PLACES = [
+    { id: "kawiarenka-sw-jadwigi", categories: ["eat", "drink"], coordinates: [51.1160449, 17.0433953], mediaKey: "kawiarenka-sw-jadwigi" },
     { id: "cafe-berg-wroclaw", categories: ["eat", "drink"], coordinates: [51.103978840814904, 17.03740582927844], mediaKey: "cafe-berg-wroclaw" },
     { ...place("wuwa", ["drink", "eat"], [51.10709,17.08730],
       t("בית הקפה בשכונת וו־ווה", "WuWA Café", "Kawiarnia WuWA", "WuWA Café", "Kavárna WuWA"),
