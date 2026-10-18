@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "cafe-berg-wroclaw": ["architecture-design"],
     "hala": ["architecture-design"],
     "royal-palace-wroclaw": ["museums-history", "art-contemporary", "architecture-design"],
     "municipal-arsenal-wroclaw": ["museums-history", "architecture-design"],
