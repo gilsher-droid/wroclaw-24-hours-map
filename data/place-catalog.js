@@ -22805,7 +22805,7 @@
           "scope": "visual geographic check of geo-tagged original tree/path footage: public park east of canal, outside Japanese Garden boundary"
         }
       ],
-      "visitVideosPendingApproval": 2
+      "visitVideosPublished": 2
     },
     "media": {
       "photos": [
@@ -22814,7 +22814,10 @@
         "/assets/szczytnicki-park/szczytnicki-park-03.jpg",
         "/assets/szczytnicki-park/szczytnicki-park-04.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/shorts/QWyefecg6RQ",
+        "https://youtube.com/shorts/jgKVkItk8z0"
+      ],
       "metadata": {
         "/assets/szczytnicki-park/szczytnicki-park-01.jpg": {
           "original": true,
@@ -22847,6 +22850,24 @@
           "publicationSHA256": "c7f0be96daede2baab04638144637df9e6cd58fcaf4cd5ccf8ed2a696918a546",
           "scene": "protected tree beside park path",
           "heroCandidate": false
+        },
+        "https://youtube.com/shorts/QWyefecg6RQ": {
+          "original": true,
+          "sourceFile": "פארק שטניצקי/IMG_5792.MOV",
+          "sourceSHA256": "5c30575d344e03c14e4febd8df76e11ec7bcf7b6b52ef5eaa747b15a79495cc6",
+          "publicationSHA256": "9949b54ee783b50b60e06913b8ed40790f2e46a7163465c42bf0a2b25f545ce2",
+          "audio": "Removed from publication copy; original preserved",
+          "status": "public",
+          "verifiedAt": "2026-10-18"
+        },
+        "https://youtube.com/shorts/jgKVkItk8z0": {
+          "original": true,
+          "sourceFile": "פארק שטניצקי/IMG_5796 2.MOV",
+          "sourceSHA256": "075e8dcbd55b7caece4308fccfdffc0b9d9dd4390e41f9676ebf55a58ce69925",
+          "publicationSHA256": "fa89ededc4e81d3c5ba7958b8c5fc628a2aa4ad0e95bc438b70c376fa37b7794",
+          "audio": "Removed from publication copy; original preserved",
+          "status": "public",
+          "verifiedAt": "2026-10-18"
         }
       }
     },
