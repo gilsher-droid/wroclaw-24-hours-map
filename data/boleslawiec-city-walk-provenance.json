@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-18",
+  "selection": "Nine selected stops following photographed city trail clockwise; board numbers retained; not a transcription of all 37 points",
+  "sources": [
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/טיול בעיר/WhatsApp Image 2026-09-24 at 19.20.29 (3).jpeg",
+      "sha256": "7f329d0e1ec1cba078cd8def6700e20738e5d2c20bbc006b4959745b9d1385cd"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/טיול בעיר/WhatsApp Image 2026-09-24 at 19.20.29 (6).jpeg",
+      "sha256": "b3926894856dce1fc9e0b536ea67a6f85a4500d880bcf9c740de191e50e2e0f9"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/טיול בעיר/WhatsApp Image 2026-09-24 at 19.20.29 (7).jpeg",
+      "sha256": "e7c2b0ea5c578a06ff450c792079c419ce0d8e44027113be607aba3328c9a8da"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/טיול בעיר/WhatsApp Image 2026-09-24 at 19.20.29 (8).jpeg",
+      "sha256": "2b0ba90906a4b3ddca5db2f0bc3f8c80029c1c5a859113ab241d58c905e1f2e8"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/טיול בעיר/WhatsApp Image 2026-09-24 at 19.20.29 (9).jpeg",
+      "sha256": "c54d2eea6da5c10fd6905450935195603a8e571d5a7c10c086efb205c07a8c01"
+    }
+  ],
+  "coordinateSource": "OpenStreetMap named places and exact information boards, snapshot osm-source.json",
+  "points": [
+    {
+      "id": "1",
+      "boardNumbers": [
+        1,
+        2,
+        37
+      ],
+      "coordinateSource": "existing canonical place",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/ratusz/"
+    },
+    {
+      "id": "2",
+      "boardNumbers": [
+        6,
+        7
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/197405068",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/"
+    },
+    {
+      "id": "3",
+      "boardNumbers": [
+        11
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/304663933",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/"
+    },
+    {
+      "id": "4",
+      "boardNumbers": [
+        16
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/197405071",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/kosciol-pw-matki-bozej-nieustajacej-pomocy-dawny-kosciol-ewangelicki/"
+    },
+    {
+      "id": "5",
+      "boardNumbers": [
+        22
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/3894735102",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/fortyfikacje-miejskie/"
+    },
+    {
+      "id": "6",
+      "boardNumbers": [
+        24
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/304649863",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/"
+    },
+    {
+      "id": "7",
+      "boardNumbers": [
+        26
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/3092221677",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/"
+    },
+    {
+      "id": "8",
+      "boardNumbers": [
+        28,
+        29
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/node/8999646381",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/"
+    },
+    {
+      "id": "9",
+      "boardNumbers": [
+        33
+      ],
+      "coordinateSource": "https://www.openstreetmap.org/way/197358819",
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/kosciol-pw-wniebowziecia-najswietszej-maryi-panny-i-sw-mikolaja/"
+    }
+  ],
+  "existingCanonicalPlacesReused": [
+    "boleslawiec-old-town",
+    "boleslawiec-ceramics-museum"
+  ],
+  "newCanonicalPlaces": 0,
+  "sourcePhotosReuse": "Existing canonical images 067 and 110 show the same photographed trail map and legend; referenced directly, no duplicated public image copies.",
+  "verification": {
+    "boardLegend": "User original photo (8), visually read",
+    "routeMap": "User original photos (3), (7), (9), visually checked",
+    "officialMonumentIndex": "https://muzeum.boleslawiec.pl/zabytki/",
+    "museumCurrentAddress": "ul. Zgorzelecka 28/29, separate existing canonical point",
+    "osmTimestamp": "2026-10-18T12:54:20Z"
+  }
+}

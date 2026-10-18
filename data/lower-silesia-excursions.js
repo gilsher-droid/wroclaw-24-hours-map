@@ -896,6 +896,322 @@
   ]
 };
 
+  czochaBoleslawiec.walkingRoute = {
+  "city": "boleslawiec",
+  "title": {
+    "he": "מסלול הליכה בבולסלבייץ",
+    "en": "Bolesławiec city walk",
+    "pl": "Spacer po Bolesławcu",
+    "de": "Stadtspaziergang durch Bolesławiec",
+    "cs": "Procházka Bolesławcem"
+  },
+  "summary": {
+    "he": "אחרי הליכת הבוקר לסכר והנסיעה לעיר: מסלול נבחר של תשע תחנות מתוך השביל המצולם, סביב הכיכר והטיילות. המספרים שלנו הם סדר ההליכה; בכל תחנה מופיעים גם מספרי השלט.",
+    "en": "After the morning dam walk and drive to town: nine selected stops from the photographed trail, around the square and promenades. Our numbers show the walking order; each stop also shows the board numbers.",
+    "pl": "Po porannym spacerze do zapory i dojeździe do miasta: dziewięć wybranych przystanków ze sfotografowanego szlaku, wokół Rynku i promenad. Nasze numery oznaczają kolejność spaceru; podajemy też numery z tablicy.",
+    "de": "Nach Morgenspaziergang zur Talsperre und Fahrt in die Stadt: neun ausgewählte Stationen des fotografierten Weges um Markt und Promenaden. Unsere Nummern zeigen die Reihenfolge, dazu stehen die Nummern der Tafel.",
+    "cs": "Po ranní procházce k přehradě a přejezdu do města: devět vybraných zastávek z vyfotografované stezky kolem náměstí a promenád. Naše čísla označují pořadí, uvádíme i čísla z tabule."
+  },
+  "note": {
+    "he": "הקו מציג סדר תחנות, לא שביל ניווט מדויק. השתמשו בניווט להליכה בכל מקטע ועקבו אחר המעברים והשילוט במקום. הביקורים בתוך מבנים אינם כלולים בזמן ההליכה.",
+    "en": "The line shows stop order, not a precise navigable path. Use walking directions for each leg and follow local crossings and signs. Indoor visits are additional.",
+    "pl": "Linia wskazuje kolejność, nie dokładny przebieg ścieżki. Korzystaj z nawigacji pieszej dla odcinków oraz miejscowych przejść i oznaczeń. Wizyty we wnętrzach są dodatkowe.",
+    "de": "Die Linie zeigt die Reihenfolge, keinen exakten Navigationsweg. Fußgängernavigation je Abschnitt sowie örtliche Übergänge und Schilder nutzen. Innenbesuche kommen hinzu.",
+    "cs": "Čára ukazuje pořadí, nikoli přesnou navigační trasu. Použijte pěší navigaci jednotlivých úseků a místní přechody a značení. Návštěvy interiérů jsou navíc."
+  },
+  "closedLoop": true,
+  "geometryAccuracy": "stop-order-only",
+  "points": [
+    {
+      "id": "1",
+      "kind": "place",
+      "label": {
+        "he": "כיכר השוק ובית העירייה",
+        "en": "Market Square and Town Hall",
+        "pl": "Rynek i ratusz",
+        "de": "Marktplatz und Rathaus",
+        "cs": "Náměstí a radnice"
+      },
+      "description": {
+        "he": "פותחים בהדרכה שלנו, מקיפים את בית העירייה ומסתכלים על החזיתות הצבעוניות. כאן גם מסיימים את הלולאה.",
+        "en": "Start with our guide, circle the town hall and look at the colourful façades. The loop also finishes here.",
+        "pl": "Zacznij od naszego przewodnika, obejdź ratusz i obejrzyj kolorowe fasady. Tutaj kończy się też pętla.",
+        "de": "Mit unserem Video beginnen, das Rathaus umrunden und die bunten Fassaden betrachten. Hier endet auch die Runde.",
+        "cs": "Začněte naším průvodcem, obejděte radnici a prohlédněte si barevné fasády. Zde okruh také končí."
+      },
+      "boardNumbers": [
+        1,
+        2,
+        37
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/ratusz/",
+      "canonicalPlaceId": "boleslawiec-old-town",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.262998%2C15.564833&destination=51.2647291%2C15.5642461&travelmode=walking"
+    },
+    {
+      "id": "2",
+      "kind": "waypoint",
+      "label": {
+        "he": "התיאטרון הישן והמזרקה",
+        "en": "Old Theatre and fountain",
+        "pl": "Teatr Stary i fontanna",
+        "de": "Altes Theater und Brunnen",
+        "cs": "Staré divadlo a kašna"
+      },
+      "description": {
+        "he": "ממשיכים צפונה אל התיאטרון והמזרקה שלפניו. זו עצירה חיצונית קצרה לאורך השביל העירוני.",
+        "en": "Continue north to the theatre and the fountain in front. A short outdoor stop on the city trail.",
+        "pl": "Idź na północ do teatru i stojącej przed nim fontanny. To krótki przystanek na zewnątrz.",
+        "de": "Nach Norden zum Theater und dem Brunnen davor gehen. Ein kurzer Halt im Freien am Stadtweg.",
+        "cs": "Pokračujte na sever k divadlu a kašně před ním. Krátká venkovní zastávka na městské trase."
+      },
+      "boardNumbers": [
+        6,
+        7
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/",
+      "coordinates": {
+        "lat": 51.2647291,
+        "lng": 15.5642461
+      },
+      "coordinateSource": "https://www.openstreetmap.org/way/197405068",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.2647291%2C15.5642461&destination=51.2641104%2C15.5623199&travelmode=walking"
+    },
+    {
+      "id": "3",
+      "kind": "waypoint",
+      "label": {
+        "he": "מבנה המרחצאות ההיסטורי",
+        "en": "Historic municipal baths",
+        "pl": "Dawne Miejskie Zakłady Kąpielowe",
+        "de": "Historisches Stadtbad",
+        "cs": "Historické městské lázně"
+      },
+      "description": {
+        "he": "פונים מערבה אל מבנה המרחצאות. המסלול כולל מבט מבחוץ, לא ביקור בבריכה.",
+        "en": "Turn west towards the historic baths. The route includes an exterior view, not a swimming visit.",
+        "pl": "Skręć na zachód ku dawnym łaźniom. Trasa obejmuje oglądanie budynku z zewnątrz, nie wizytę na basenie.",
+        "de": "Nach Westen zum historischen Bad gehen. Vorgesehen ist die Außenansicht, kein Schwimmbadbesuch.",
+        "cs": "Zamiřte na západ k historickým lázním. Trasa zahrnuje pohled zvenčí, nikoli návštěvu bazénu."
+      },
+      "boardNumbers": [
+        11
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/",
+      "coordinates": {
+        "lat": 51.2641104,
+        "lng": 15.5623199
+      },
+      "coordinateSource": "https://www.openstreetmap.org/way/304663933",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.2641104%2C15.5623199&destination=51.2622126%2C15.5615349&travelmode=walking"
+    },
+    {
+      "id": "4",
+      "kind": "waypoint",
+      "label": {
+        "he": "הכנסייה בכיכר הטירה",
+        "en": "Church at Castle Square",
+        "pl": "Kościół przy placu Zamkowym",
+        "de": "Kirche am Schlossplatz",
+        "cs": "Kostel na Zámeckém náměstí"
+      },
+      "description": {
+        "he": "ממשיכים דרומה אל הכנסייה שבכיכר הטירה, המסומנת במפת השלט כמספר 16.",
+        "en": "Continue south to the church on Castle Square, marked 16 on the photographed board.",
+        "pl": "Idź na południe do kościoła przy placu Zamkowym, oznaczonego na tablicy numerem 16.",
+        "de": "Nach Süden zur Kirche am Schlossplatz gehen, auf der fotografierten Tafel mit 16 markiert.",
+        "cs": "Pokračujte na jih ke kostelu na Zámeckém náměstí, na vyfotografované tabuli označenému číslem 16."
+      },
+      "boardNumbers": [
+        16
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/kosciol-pw-matki-bozej-nieustajacej-pomocy-dawny-kosciol-ewangelicki/",
+      "coordinates": {
+        "lat": 51.2622126,
+        "lng": 15.5615349
+      },
+      "coordinateSource": "https://www.openstreetmap.org/way/197405071",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.2622126%2C15.5615349&destination=51.2617077%2C15.5621161&travelmode=walking"
+    },
+    {
+      "id": "5",
+      "kind": "waypoint",
+      "label": {
+        "he": "החומות והמגדלים",
+        "en": "Town walls and towers",
+        "pl": "Fortyfikacje i baszty",
+        "de": "Stadtmauer und Türme",
+        "cs": "Hradby a bašty"
+      },
+      "description": {
+        "he": "עוקבים אחר הטיילת דרומה אל שרידי הביצורים. הסיכה ממוקמת ליד שלט ההסבר על החומות והמגדלים.",
+        "en": "Follow the promenade south to the fortifications. The pin is beside the walls-and-towers information board.",
+        "pl": "Podążaj promenadą na południe do fortyfikacji. Punkt znajduje się przy tablicy o murach i basztach.",
+        "de": "Der Promenade nach Süden zu den Befestigungen folgen. Der Punkt liegt an der Infotafel zu Mauern und Türmen.",
+        "cs": "Jděte promenádou na jih k opevnění. Bod je u informační tabule o hradbách a baštách."
+      },
+      "boardNumbers": [
+        22
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/fortyfikacje-miejskie/",
+      "coordinates": {
+        "lat": 51.2617077,
+        "lng": 15.5621161
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/3894735102",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.2617077%2C15.5621161&destination=51.2617804%2C15.564&travelmode=walking"
+    },
+    {
+      "id": "6",
+      "kind": "waypoint",
+      "label": {
+        "he": "המרכז לטכניקות כדרות עתיקות",
+        "en": "Centre for Old Pottery Techniques",
+        "pl": "Centrum Dawnych Technik Garncarskich",
+        "de": "Zentrum für alte Töpfertechniken",
+        "cs": "Centrum starých hrnčířských technik"
+      },
+      "description": {
+        "he": "ממשיכים מזרחה אל מרכז הכדרות. כניסה פנימה היא תוספת לבחירה, בהתאם לפתיחה ולכרטיסים. זה אינו מוזיאון הקרמיקה החדש.",
+        "en": "Continue east to the pottery centre. Going inside is optional, subject to opening and tickets. This is not the new Ceramics Museum.",
+        "pl": "Idź na wschód do centrum garncarstwa. Wejście jest opcjonalne, zależne od godzin i biletów. To nie nowa siedziba Muzeum Ceramiki.",
+        "de": "Nach Osten zum Töpferzentrum gehen. Ein Besuch innen ist optional und von Öffnung und Tickets abhängig. Dies ist nicht das neue Keramikmuseum.",
+        "cs": "Pokračujte na východ k hrnčířskému centru. Vstup je volitelný podle otevírací doby a vstupenek. Nejde o nové Muzeum keramiky."
+      },
+      "boardNumbers": [
+        24
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/",
+      "coordinates": {
+        "lat": 51.2617804,
+        "lng": 15.564
+      },
+      "coordinateSource": "https://www.openstreetmap.org/way/304649863",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.2617804%2C15.564&destination=51.2612358%2C15.5646957&travelmode=walking"
+    },
+    {
+      "id": "7",
+      "kind": "waypoint",
+      "label": {
+        "he": "אנדרטת קוטוזוב",
+        "en": "Kutuzov monument",
+        "pl": "Pomnik Kutuzowa",
+        "de": "Kutusow-Denkmal",
+        "cs": "Kutuzovův pomník"
+      },
+      "description": {
+        "he": "ממשיכים לאורך החלק הדרומי של השביל אל האנדרטה, המסומנת בשלט כמספר 26.",
+        "en": "Continue along the southern part of the trail to the monument, numbered 26 on the board.",
+        "pl": "Idź południową częścią szlaku do pomnika oznaczonego na tablicy numerem 26.",
+        "de": "Am südlichen Abschnitt des Weges zum Denkmal gehen, auf der Tafel als 26 bezeichnet.",
+        "cs": "Pokračujte jižní částí stezky k pomníku, na tabuli označenému číslem 26."
+      },
+      "boardNumbers": [
+        26
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/",
+      "coordinates": {
+        "lat": 51.2612358,
+        "lng": 15.5646957
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/3092221677",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.2612358%2C15.5646957&destination=51.2611112%2C15.5662188&travelmode=walking"
+    },
+    {
+      "id": "8",
+      "kind": "waypoint",
+      "label": {
+        "he": "תחנת מזג האוויר והטיילת",
+        "en": "Weather station and promenade",
+        "pl": "Pogodynka i promenada",
+        "de": "Wettersäule und Promenade",
+        "cs": "Meteorologický sloupek a promenáda"
+      },
+      "description": {
+        "he": "עוצרים ליד תחנת מזג האוויר והמגדל. אפשר להמשיך מעט לאורך הטיילת אל מזרקת האנפה הסמוכה.",
+        "en": "Stop by the weather station and tower. You can continue a little along the promenade to the nearby heron fountain.",
+        "pl": "Zatrzymaj się przy pogodynce i baszcie. Można podejść promenadą do pobliskiej fontanny z czaplą.",
+        "de": "An Wettersäule und Turm halten. Ein kurzer Abstecher auf der Promenade führt zum nahen Reiherbrunnen.",
+        "cs": "Zastavte u meteorologického sloupku a bašty. Promenádou lze krátce dojít k blízké kašně s volavkou."
+      },
+      "boardNumbers": [
+        28,
+        29
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/",
+      "coordinates": {
+        "lat": 51.2611112,
+        "lng": 15.5662188
+      },
+      "coordinateSource": "https://www.openstreetmap.org/node/8999646381",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.2611112%2C15.5662188&destination=51.2623425%2C15.5666728&travelmode=walking"
+    },
+    {
+      "id": "9",
+      "kind": "waypoint",
+      "label": {
+        "he": "הבזיליקה וחזרה לכיכר",
+        "en": "Basilica and return to the square",
+        "pl": "Bazylika i powrót na Rynek",
+        "de": "Basilika und zurück zum Markt",
+        "cs": "Bazilika a návrat na náměstí"
+      },
+      "description": {
+        "he": "ממשיכים צפונה לבזיליקה, ואז חוזרים לכיכר השוק. השאירו זמן לקפה או לחנויות הקרמיקה לפי בחירתכם.",
+        "en": "Continue north to the basilica, then return to Market Square. Leave time for coffee or ceramics shops of your choice.",
+        "pl": "Idź na północ do bazyliki, a potem wróć na Rynek. Zostaw czas na kawę lub wybrane sklepy z ceramiką.",
+        "de": "Nach Norden zur Basilika und dann zurück zum Marktplatz gehen. Zeit für Kaffee oder Keramikgeschäfte nach Wahl lassen.",
+        "cs": "Pokračujte na sever k bazilice a pak se vraťte na náměstí. Nechte si čas na kávu nebo obchody s keramikou dle výběru."
+      },
+      "boardNumbers": [
+        33
+      ],
+      "sourceUrl": "https://muzeum.boleslawiec.pl/zabytki/kosciol-pw-wniebowziecia-najswietszej-maryi-panny-i-sw-mikolaja/",
+      "coordinates": {
+        "lat": 51.2623425,
+        "lng": 15.5666728
+      },
+      "coordinateSource": "https://www.openstreetmap.org/way/197358819",
+      "nextNavigation": "https://www.google.com/maps/dir/?api=1&origin=51.2623425%2C15.5666728&destination=51.262998%2C15.564833&travelmode=walking"
+    }
+  ],
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=51.262998%2C15.564833&destination=51.2622126%2C15.5615349&waypoints=51.2647291%2C15.5642461%7C51.2641104%2C15.5623199&travelmode=walking",
+    "segments": [
+      {
+        "from": "1",
+        "to": "4",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=51.262998%2C15.564833&destination=51.2622126%2C15.5615349&waypoints=51.2647291%2C15.5642461%7C51.2641104%2C15.5623199&travelmode=walking"
+      },
+      {
+        "from": "4",
+        "to": "7",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=51.2622126%2C15.5615349&destination=51.2612358%2C15.5646957&waypoints=51.2617077%2C15.5621161%7C51.2617804%2C15.564&travelmode=walking"
+      },
+      {
+        "from": "7",
+        "to": "1",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=51.2612358%2C15.5646957&destination=51.262998%2C15.564833&waypoints=51.2611112%2C15.5662188%7C51.2623425%2C15.5666728&travelmode=walking"
+      }
+    ]
+  },
+  "guidePlaceId": "boleslawiec-old-town",
+  "sourcePhotos": [
+    "/assets/czocha-boleslawiec/boleslawiec-old-town-067.jpg",
+    "/assets/czocha-boleslawiec/boleslawiec-old-town-110.jpg"
+  ],
+  "extension": {
+    "canonicalPlaceId": "boleslawiec-ceramics-museum",
+    "description": {
+      "he": "אחרי החזרה לכיכר אפשר להמשיך למוזיאון הקרמיקה הנוכחי, בנקודה הקיימת שלנו. זו תוספת מחוץ ללולאה, ולא מבנה המוזיאון הישן שמסומן בשלט. בדקו פתיחה וכרטיסים לפני ההגעה.",
+      "en": "After returning to the square, continue optionally to the current Ceramics Museum using our existing place card. This extension is outside the loop, not the former museum building on the board. Check opening and tickets.",
+      "pl": "Po powrocie na Rynek można wybrać się do obecnej siedziby Muzeum Ceramiki, korzystając z istniejącej karty miejsca. To dodatek poza pętlą, nie dawny budynek muzeum z tablicy. Sprawdź godziny i bilety.",
+      "de": "Nach der Rückkehr zum Markt optional zum heutigen Keramikmuseum auf unserer vorhandenen Ortskarte weitergehen. Diese Erweiterung liegt außerhalb der Runde, nicht im früheren Museumsgebäude auf der Tafel. Öffnung und Tickets prüfen.",
+      "cs": "Po návratu na náměstí lze pokračovat k současnému Muzeu keramiky přes naši existující kartu místa. Jde o rozšíření mimo okruh, nikoli bývalou budovu muzea z tabule. Ověřte otevření a vstupenky."
+    }
+  }
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
