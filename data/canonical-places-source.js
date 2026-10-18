@@ -7980,5 +7980,678 @@
     "cs"
   ]
 },
+{
+  "id": "lodz-manufaktura",
+  "localName": "Manufaktura",
+  "name": {
+    "he": "מנופקטורה",
+    "en": "Manufaktura",
+    "pl": "Manufaktura",
+    "de": "Manufaktura",
+    "cs": "Manufaktura"
+  },
+  "description": {
+    "he": "מתחם מפעלי הטקסטיל לשעבר שהפך למוקד של תרבות, קניות ומסעדות. התחילו ברחבה בין מבני הלבנים והמשיכו פנימה לפי הזמן והרצון. התמונות וסרטון הביקור שלנו מציגים את החוץ ואת חלל המרכז המסחרי.",
+    "en": "A former textile factory complex, now a place for culture, shopping and food. Begin in the courtyard between the brick buildings, then explore indoors if time allows. Our visit photos and video show both the exterior and the shopping-centre interior.",
+    "pl": "Dawny kompleks fabryk włókienniczych, dziś miejsce kultury, zakupów i jedzenia. Zacznij na placu między ceglanymi budynkami, potem zajrzyj do środka, jeśli masz czas. Nasze zdjęcia i film pokazują przestrzeń zewnętrzną oraz wnętrze centrum handlowego.",
+    "de": "Ehemaliger Textilfabrikkomplex mit Kultur, Einkaufsmöglichkeiten und Gastronomie. Beginnen Sie auf dem Platz zwischen den Backsteinbauten und gehen Sie bei genügend Zeit hinein. Unsere Fotos und der Besuchsfilm zeigen Außenbereiche und das Einkaufszentrum.",
+    "cs": "Bývalý komplex textilních továren, dnes místo kultury, obchodů a restaurací. Začněte na prostranství mezi cihlovými budovami a podle času pokračujte dovnitř. Naše fotografie a video zachycují venkovní prostor i interiér obchodního centra."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lodz",
+    "cityId": "lodz",
+    "coordinates": {
+      "lat": 51.7794621,
+      "lng": 19.444461
+    },
+    "address": {
+      "street": "Drewnowska 58",
+      "city": "Łódź",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "culture",
+    "shopping",
+    "food"
+  ],
+  "links": {
+    "website": "https://lodz.travel/en/tourism/what-to-see/manufaktura/",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7794621%2C19.444461",
+      "appleMaps": "https://maps.apple.com/?ll=51.7794621,19.444461"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/lodz-arrival/lodz-manufaktura-01.jpg",
+      "/assets/lodz-arrival/lodz-manufaktura-02.jpg",
+      "/assets/lodz-arrival/lodz-manufaktura-03.jpg",
+      "/assets/lodz-arrival/lodz-manufaktura-04.jpg"
+    ],
+    "videos": ["/assets/lodz-manufaktura-visit-01.mp4"],
+    "photoProvenance": {
+      "/assets/lodz-arrival/lodz-manufaktura-01.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.01 (10).jpeg",
+        "sourceSHA256": "e83320d698f4a0a57eb4033d74ae16b9b1d7682283cae79bf6261b5f8b33671b",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      },
+      "/assets/lodz-arrival/lodz-manufaktura-02.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.01 (11).jpeg",
+        "sourceSHA256": "5857b7d0895fca6a7239fc3877d882e6f6293054ce49f7bced856b9da112d04b",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      },
+      "/assets/lodz-arrival/lodz-manufaktura-03.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.01 (23).jpeg",
+        "sourceSHA256": "401d94567da9ad90fd42fca829a07881f88531b88e7cf4cc36af897b78f77f6f",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      },
+      "/assets/lodz-arrival/lodz-manufaktura-04.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.01 (4).jpeg",
+        "sourceSHA256": "866004c8627cbf6cc55e92a127d1f312d04eb69c671a2273113db837c088c6ed",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://lodz.travel/en/tourism/what-to-see/manufaktura/",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "https://www.openstreetmap.org/way/27148381",
+      "checkedAt": "2026-10-18",
+      "method": "Named OpenStreetMap feature matched to official address and original imagery; street representative point uses original GPS."
+    }
+  }
+},{
+  "id": "lodz-freedom-square",
+  "localName": "Plac Wolności",
+  "name": {
+    "he": "כיכר החירות בלודז׳",
+    "en": "Freedom Square, Łódź",
+    "pl": "Plac Wolności w Łodzi",
+    "de": "Freiheitsplatz in Łódź",
+    "cs": "Náměstí Svobody v Lodži"
+  },
+  "description": {
+    "he": "כיכר החירות מסמנת את הקצה הצפוני של רחוב פיוטרקובסקה. עצרו להתרשם מחזיתות המבנים ומהכנסייה הצהובה שבתמונות שלנו, ואז המשיכו אל חצר המראות הסמוכה.",
+    "en": "Freedom Square marks the northern end of Piotrkowska Street. Pause to see the surrounding facades and the yellow church in our photos, then continue to nearby Rose Passage.",
+    "pl": "Plac Wolności wyznacza północny koniec ulicy Piotrkowskiej. Obejrzyj okoliczne fasady i żółty kościół z naszych zdjęć, a potem przejdź do pobliskiego Pasażu Róży.",
+    "de": "Der Freiheitsplatz liegt am nördlichen Ende der Piotrkowska. Betrachten Sie die Fassaden und die gelbe Kirche auf unseren Fotos und gehen Sie anschließend zum nahen Rosenpassage.",
+    "cs": "Náměstí Svobody leží na severním konci Piotrkowské ulice. Prohlédněte si okolní průčelí a žlutý kostel z našich fotografií a pokračujte do nedaleké Růžové pasáže."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lodz",
+    "cityId": "lodz",
+    "coordinates": {
+      "lat": 51.7767836,
+      "lng": 19.4546995
+    },
+    "address": {
+      "street": "Plac Wolności",
+      "city": "Łódź",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "architecture",
+    "culture"
+  ],
+  "links": {
+    "website": "https://lodz.travel/files/lot/public/user_upload/Lodz_na_weekend_pol_ang_v2024_net.pdf",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7767836%2C19.4546995",
+      "appleMaps": "https://maps.apple.com/?ll=51.7767836,19.4546995"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/lodz-arrival/lodz-freedom-square-01.jpg",
+      "/assets/lodz-arrival/lodz-freedom-square-02.jpg"
+    ],
+    "videos": [],
+    "photoProvenance": {
+      "/assets/lodz-arrival/lodz-freedom-square-01.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.01 (13).jpeg",
+        "sourceSHA256": "f92a0bcd0aa0821a169d711b4ecc977cd060877d68d27f9d63daa93234f66fd3",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      },
+      "/assets/lodz-arrival/lodz-freedom-square-02.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 17.35.12 (1).jpeg",
+        "sourceSHA256": "76ae03d5196a1e27cc99e93472877678cf71eb13c98b28f35727c54440f7f11f",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://lodz.travel/files/lot/public/user_upload/Lodz_na_weekend_pol_ang_v2024_net.pdf",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "https://www.openstreetmap.org/way/1249182058",
+      "checkedAt": "2026-10-18",
+      "method": "Named OpenStreetMap feature matched to official address and original imagery; street representative point uses original GPS."
+    }
+  }
+},{
+  "id": "lodz-rose-passage",
+  "localName": "Pasaż Róży",
+  "name": {
+    "he": "חצר המראות",
+    "en": "Rose Passage",
+    "pl": "Pasaż Róży",
+    "de": "Rosenpassage",
+    "cs": "Růžová pasáž"
+  },
+  "description": {
+    "he": "חצר שדפנותיה כוסו בפסיפס של שברי מראות, ביצירתה של האמנית יואנה רייקובסקה. האור וההשתקפויות הופכים מעבר קטן לעצירה מיוחדת. הכניסה מרחוב פיוטרקובסקה מספר 3. בדקו את שעות הגישה לפני ההגעה.",
+    "en": "Joanna Rajkowska transformed this courtyard with a mosaic of mirror fragments. Light and reflections turn a small passage into a memorable stop. Enter from 3 Piotrkowska Street and check access hours before visiting.",
+    "pl": "Joanna Rajkowska pokryła ściany tego podwórza mozaiką z fragmentów luster. Światło i odbicia zmieniają niewielki pasaż w wyjątkowy przystanek. Wejście od Piotrkowskiej 3. Przed wizytą sprawdź godziny dostępu.",
+    "de": "Joanna Rajkowska verwandelte diesen Hof mit einem Mosaik aus Spiegelfragmenten. Licht und Spiegelungen machen den kleinen Durchgang zu einem besonderen Halt. Zugang über Piotrkowska 3. Zugangszeiten vor dem Besuch prüfen.",
+    "cs": "Joanna Rajkowska proměnila tento dvůr mozaikou z úlomků zrcadel. Světlo a odrazy vytvářejí z malé pasáže působivou zastávku. Vstup z Piotrkowské 3. Před návštěvou ověřte přístupové hodiny."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lodz",
+    "cityId": "lodz",
+    "coordinates": {
+      "lat": 51.7758847,
+      "lng": 19.4536534
+    },
+    "address": {
+      "street": "Piotrkowska 3",
+      "city": "Łódź",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "architecture",
+    "culture"
+  ],
+  "links": {
+    "website": "https://lodz.travel/turystyka/co-zobaczyc/ulica-piotrkowska/pasaz-rozy/",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7758847%2C19.4536534",
+      "appleMaps": "https://maps.apple.com/?ll=51.7758847,19.4536534"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/lodz-arrival/lodz-rose-passage-01.jpg",
+      "/assets/lodz-arrival/lodz-rose-passage-02.jpg"
+    ],
+    "videos": [],
+    "photoProvenance": {
+      "/assets/lodz-arrival/lodz-rose-passage-01.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.02 (6).jpeg",
+        "sourceSHA256": "515d0ccd88bf5a329f78c6fba805ccff36b9f1891f76fea560485b740a3d639e",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      },
+      "/assets/lodz-arrival/lodz-rose-passage-02.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 17.35.12.jpeg",
+        "sourceSHA256": "75b30791773b4b80a417a54f22c9c8e0f6eb928cc5cf6364036c9c6d37009446",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://lodz.travel/turystyka/co-zobaczyc/ulica-piotrkowska/pasaz-rozy/",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "https://www.openstreetmap.org/relation/12609642",
+      "checkedAt": "2026-10-18",
+      "method": "Named OpenStreetMap feature matched to official address and original imagery; street representative point uses original GPS."
+    }
+  }
+},{
+  "id": "lodz-gutenberg-house",
+  "localName": "Kamienica pod Gutenbergiem",
+  "name": {
+    "he": "בית גוטנברג",
+    "en": "Gutenberg House",
+    "pl": "Kamienica pod Gutenbergiem",
+    "de": "Gutenberg-Haus",
+    "cs": "Gutenbergův dům"
+  },
+  "description": {
+    "he": "בית מספר 86 ברחוב פיוטרקובסקה בולט בחזית הצבעונית, בפסל גוטנברג ובדרקוני המתכת. זו עצירת התבוננות וצילום מבחוץ, ולא הבטחה לביקור בתוך הבניין. חפשו את הפרטים מעל השער.",
+    "en": "Number 86 Piotrkowska stands out for its colourful facade, Gutenberg statue and metal dragons. This is an exterior architecture and photo stop, not a promised interior visit. Look for the details above the gateway.",
+    "pl": "Kamienica przy Piotrkowskiej 86 wyróżnia się barwną fasadą, figurą Gutenberga i metalowymi smokami. To przystanek na oglądanie architektury z zewnątrz, bez obietnicy zwiedzania wnętrz. Wypatrz detale nad bramą.",
+    "de": "Piotrkowska 86 fällt durch die farbige Fassade, die Gutenberg-Figur und Metalldrachen auf. Dieser Halt dient dem Betrachten der Außenarchitektur, ohne zugesicherte Innenbesichtigung. Achten Sie auf die Details über dem Tor.",
+    "cs": "Dům v Piotrkowské 86 vyniká barevnou fasádou, sochou Gutenberga a kovovými draky. Jde o zastávku u vnější architektury, nikoli příslib prohlídky interiéru. Hledejte detaily nad průjezdem."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lodz",
+    "cityId": "lodz",
+    "coordinates": {
+      "lat": 51.7668862,
+      "lng": 19.4570933
+    },
+    "address": {
+      "street": "Piotrkowska 86",
+      "city": "Łódź",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "architecture",
+    "culture"
+  ],
+  "links": {
+    "website": "https://lodz.travel/en/tourism/what-to-see/piotrkowska-street/the-gutenberg-tenement-house/",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7668862%2C19.4570933",
+      "appleMaps": "https://maps.apple.com/?ll=51.7668862,19.4570933"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/lodz-arrival/lodz-gutenberg-house-01.jpg"
+    ],
+    "videos": [],
+    "photoProvenance": {
+      "/assets/lodz-arrival/lodz-gutenberg-house-01.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.02 (24).jpeg",
+        "sourceSHA256": "75e2314269c84f79cdb68a5498b6d9adbf5215195e155d4eb2f9b8838518d251",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://lodz.travel/en/tourism/what-to-see/piotrkowska-street/the-gutenberg-tenement-house/",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "https://www.openstreetmap.org/node/7566036517",
+      "checkedAt": "2026-10-18",
+      "method": "Named OpenStreetMap feature matched to official address and original imagery; street representative point uses original GPS."
+    }
+  }
+},{
+  "id": "lodz-piotrkowska",
+  "localName": "Ulica Piotrkowska",
+  "name": {
+    "he": "רחוב פיוטרקובסקה",
+    "en": "Piotrkowska Street",
+    "pl": "Ulica Piotrkowska",
+    "de": "Piotrkowska-Straße",
+    "cs": "Piotrkowská ulice"
+  },
+  "description": {
+    "he": "הקטע המצולם של הרחוב משלב בתי מידות, פסלי רחוב ומקומות לעצירת קפה או ארוחה. המסלול שלנו מתרכז בחלק הצפוני והמרכזי, ולא בכל אורכו של הרחוב. מכאן חוזרים למנופקטורה לפני המשך הנסיעה לוורוצלב.",
+    "en": "Our photographed stretch combines ornate townhouses, street sculptures and places to pause for coffee or a meal. This walk covers the northern and central sections, not the entire street. Return to Manufaktura before continuing to Wrocław.",
+    "pl": "Na sfotografowanym przez nas odcinku są ozdobne kamienice, rzeźby uliczne oraz miejsca na kawę i posiłek. Spacer obejmuje część północną i środkową, nie całą ulicę. Wróć do Manufaktury przed dalszą podróżą do Wrocławia.",
+    "de": "Unser fotografierter Abschnitt verbindet prächtige Stadthäuser, Straßenskulpturen und Möglichkeiten für Kaffee oder Essen. Der Spaziergang umfasst den nördlichen und mittleren Teil, nicht die ganze Straße. Vor der Weiterfahrt nach Wrocław geht es zurück zur Manufaktura.",
+    "cs": "Náš fotografovaný úsek spojuje zdobené městské domy, pouliční sochy a místa na kávu či jídlo. Procházka vede severní a střední částí, nikoli celou ulicí. Před pokračováním do Vratislavi se vraťte k Manufaktuře."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lodz",
+    "cityId": "lodz",
+    "coordinates": {
+      "lat": 51.7654694,
+      "lng": 19.4573028
+    },
+    "address": {
+      "street": "Piotrkowska",
+      "city": "Łódź",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "architecture",
+    "culture"
+  ],
+  "links": {
+    "website": "https://lodz.travel/en/tourism/what-to-see/piotrkowska-street/",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7654694%2C19.4573028",
+      "appleMaps": "https://maps.apple.com/?ll=51.7654694,19.4573028"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/lodz-arrival/lodz-piotrkowska-01.jpg",
+      "/assets/lodz-arrival/lodz-piotrkowska-02.jpg",
+      "/assets/lodz-arrival/lodz-piotrkowska-03.jpg"
+    ],
+    "videos": [],
+    "photoProvenance": {
+      "/assets/lodz-arrival/lodz-piotrkowska-01.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/IMG_5722.JPG",
+        "sourceSHA256": "c6de12a01d8d7131858ad8b7c6a8eb10b43ade82f25c01bddf306b2e2177c83e",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      },
+      "/assets/lodz-arrival/lodz-piotrkowska-02.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 17.34.37 (2).jpeg",
+        "sourceSHA256": "05e85f914b23bbf2ac285540cd6cce76f899e84c0fbc725016ac24b0850581e5",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      },
+      "/assets/lodz-arrival/lodz-piotrkowska-03.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.02 (8).jpeg",
+        "sourceSHA256": "5196707c5af41a242fc1567a1639dba9ded0668e5dc1a2e711d0e883e348d90f",
+        "reviewedAt": "2026-10-18",
+        "review": "Visually inspected; no posed family portrait; repeated views excluded."
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://lodz.travel/en/tourism/what-to-see/piotrkowska-street/",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "user-original IMG_5722.JPG EXIF GPS; photographed representative street segment",
+      "checkedAt": "2026-10-18",
+      "method": "Named OpenStreetMap feature matched to official address and original imagery; street representative point uses original GPS."
+    }
+  }
+},
+{
+  "id": "lodz-old-market",
+  "localName": "Stary Rynek",
+  "name": {
+    "he": "השוק הישן של לודז׳",
+    "en": "Łódź Old Market Square",
+    "pl": "Stary Rynek w Łodzi",
+    "de": "Alter Markt in Łódź",
+    "cs": "Staré tržiště v Lodži"
+  },
+  "description": {
+    "he": "כיכר השוק הישן הייתה חלק מאזור הגטו בזמן הכיבוש הגרמני. בביקור שלנו צילמנו את המרחב הציבורי כפי שהוא נראה כיום. זו תחנת מעבר בין מנופקטורה לבין האזור ההיסטורי של הגטו, ולא שחזור של מראהו בזמן המלחמה.",
+    "en": "The Old Market Square lay within the ghetto area during the German occupation. Our photo shows the public space as it looks today. This is a stop between Manufaktura and the historical ghetto area, not a reconstruction of its wartime appearance.",
+    "pl": "Stary Rynek znajdował się na terenie getta podczas okupacji niemieckiej. Nasze zdjęcie pokazuje współczesną przestrzeń publiczną. To przystanek między Manufakturą a historycznym obszarem getta, a nie rekonstrukcja wyglądu z czasów wojny.",
+    "de": "Der Alte Markt lag während der deutschen Besatzung im Ghettogebiet. Unser Foto zeigt den heutigen öffentlichen Raum. Dieser Halt verbindet Manufaktura und das historische Ghettogebiet, ohne das damalige Aussehen zu rekonstruieren.",
+    "cs": "Staré tržiště leželo za německé okupace na území ghetta. Naše fotografie ukazuje dnešní veřejný prostor. Jde o zastávku mezi Manufakturou a historickou oblastí ghetta, nikoli rekonstrukci válečné podoby."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lodz",
+    "cityId": "lodz",
+    "coordinates": {
+      "lat": 51.7815222,
+      "lng": 19.4537361
+    }
+  },
+  "categories": [
+    "history",
+    "heritage",
+    "remembrance"
+  ],
+  "links": {
+    "website": "https://lodz.travel/files/public/user_upload/MINI_ATRAKCJE__TURYSTYCZNE_POL.pdf",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7815222%2C19.4537361"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/lodz-arrival/lodz-old-market-01.jpg"
+    ],
+    "videos": [],
+    "photoProvenance": {
+      "/assets/lodz-arrival/lodz-old-market-01.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/IMG_5724.JPG",
+        "sourceSHA256": "abd90e27ddd06aff583e631d292ad8d6cff88ee1e97a3d61429c74cdc1b5c59c",
+        "reviewedAt": "2026-10-18",
+        "review": "Original visual and GPS inspection; no posed family portrait. Pavement marker photo includes only unidentifiable shoes."
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://lodz.travel/files/public/user_upload/MINI_ATRAKCJE__TURYSTYCZNE_POL.pdf",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "Original IMG_5724.JPG EXIF GPS; photographed square viewpoint",
+      "checkedAt": "2026-10-18"
+    }
+  }
+},{
+  "id": "lodz-church-square",
+  "localName": "Plac Kościelny",
+  "name": {
+    "he": "כיכר הכנסייה באזור הגטו לשעבר",
+    "en": "Church Square in the former ghetto",
+    "pl": "Plac Kościelny na terenie dawnego getta",
+    "de": "Kirchplatz im ehemaligen Ghetto",
+    "cs": "Kostelní náměstí v bývalém ghettu"
+  },
+  "description": {
+    "he": "כנסיית הלבנים האדומות של עליית מרים ניצבת בכיכר הכנסייה, שהייתה בתוך גטו לודז׳. הצילום שלנו מציג את חזיתה מבחוץ. התחנה נועדה להתבוננות במקום ולסיפור האזור, ואינה כוללת התחייבות לכניסה לכנסייה.",
+    "en": "The red-brick Church of the Assumption stands on Church Square, within the former Łódź ghetto. Our photograph shows its exterior. This stop introduces the site and its historical setting, without promising interior access.",
+    "pl": "Ceglany kościół Wniebowzięcia NMP stoi przy placu Kościelnym, na terenie dawnego getta łódzkiego. Nasze zdjęcie przedstawia fasadę. Przystanek przybliża miejsce i jego kontekst historyczny, bez gwarancji wejścia do środka.",
+    "de": "Die rote Backsteinkirche Mariä Himmelfahrt steht am Kirchplatz im ehemaligen Ghetto von Łódź. Unser Foto zeigt die Außenansicht. Der Halt erläutert den Ort und seinen historischen Kontext, ohne zugesicherten Innenzugang.",
+    "cs": "Červený cihlový kostel Nanebevzetí Panny Marie stojí na Kostelním náměstí v bývalém lodžském ghettu. Naše fotografie ukazuje exteriér. Zastávka představuje místo a historické souvislosti, bez příslibu vstupu dovnitř."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lodz",
+    "cityId": "lodz",
+    "coordinates": {
+      "lat": 51.7831681,
+      "lng": 19.4538249
+    }
+  },
+  "categories": [
+    "history",
+    "heritage",
+    "remembrance"
+  ],
+  "links": {
+    "website": "https://mariacka-lodz.com.pl/?p=2408",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7831681%2C19.4538249"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/lodz-arrival/lodz-church-square-01.jpg"
+    ],
+    "videos": [],
+    "photoProvenance": {
+      "/assets/lodz-arrival/lodz-church-square-01.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/IMG_5726.JPG",
+        "sourceSHA256": "25a44c47425c210003aab6e7d680791cb72ad8abf78ff630152ff4675d05d6e0",
+        "reviewedAt": "2026-10-18",
+        "review": "Original visual and GPS inspection; no posed family portrait. Pavement marker photo includes only unidentifiable shoes."
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://mariacka-lodz.com.pl/?p=2408",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "https://www.openstreetmap.org/way/103281496",
+      "checkedAt": "2026-10-18"
+    }
+  }
+},{
+  "id": "lodz-ghetto-baluty",
+  "localName": "Bałuty / Litzmannstadt Ghetto",
+  "name": {
+    "he": "אזור גטו לודז׳ לשעבר, באלוטי",
+    "en": "Former Łódź Ghetto, Bałuty",
+    "pl": "Obszar dawnego getta łódzkiego, Bałuty",
+    "de": "Ehemaliges Ghetto Łódź, Bałuty",
+    "cs": "Bývalé lodžské ghetto, Bałuty"
+  },
+  "description": {
+    "he": "תחנת זיכרון באזור שוק באלוטי ורחובות זגיירסקה ולימנובסקייגו, שבהם צילמנו גם את סימון הגטו במדרכה. באזור זה התקיימו מוסדות מנהל מרכזיים של גטו ליצמנשטט בשנים 1940–1944. הסיכה מסמנת נקודת ביקור עכשווית באזור, ולא את מלוא גבולות הגטו.",
+    "en": "A remembrance stop near Bałucki Market and Zgierska and Limanowskiego streets, where we also photographed a pavement ghetto marker. Central administrative institutions of the Litzmannstadt Ghetto operated in this area in 1940–1944. The pin represents a present-day visiting point, not the full ghetto boundary.",
+    "pl": "Przystanek pamięci w okolicy Bałuckiego Rynku oraz ulic Zgierskiej i Limanowskiego, gdzie sfotografowaliśmy także oznaczenie getta w chodniku. W tej okolicy działały główne instytucje administracyjne getta Litzmannstadt w latach 1940–1944. Pinezka wskazuje współczesny punkt odwiedzin, nie całe granice getta.",
+    "de": "Erinnerungsort am Bałucki-Markt sowie den Straßen Zgierska und Limanowskiego, wo wir auch eine Gehwegmarkierung des Ghettos fotografierten. Hier befanden sich 1940–1944 zentrale Verwaltungseinrichtungen des Ghettos Litzmannstadt. Die Markierung zeigt einen heutigen Besuchspunkt, nicht die vollständige Ghettogrenze.",
+    "cs": "Pietní zastávka u tržiště Bałucki a ulic Zgierska a Limanowskiego, kde jsme fotografovali i označení ghetta v chodníku. V této oblasti působily v letech 1940–1944 ústřední správní instituce ghetta Litzmannstadt. Špendlík označuje dnešní místo návštěvy, nikoli celé hranice ghetta."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lodz",
+    "cityId": "lodz",
+    "coordinates": {
+      "lat": 51.7869694,
+      "lng": 19.4518556
+    }
+  },
+  "categories": [
+    "history",
+    "heritage",
+    "remembrance"
+  ],
+  "links": {
+    "website": "https://www.centrumdialogu.com/en/information-for-the-deaf?catid=91&id=776%3Athe-baucki-market&view=article",
+    "socialProfileFallback": false,
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7869694%2C19.4518556"
+    }
+  },
+  "media": {
+    "photos": [
+      "/assets/lodz-arrival/lodz-ghetto-baluty-01.jpg",
+      "/assets/lodz-arrival/lodz-ghetto-baluty-03.jpg"
+    ],
+    "videos": [],
+    "photoProvenance": {
+      "/assets/lodz-arrival/lodz-ghetto-baluty-01.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/IMG_5735.JPG",
+        "sourceSHA256": "68a11ec40de0d431ca093c96f6a7f00c742990726cc425a78cfe3c1170892757",
+        "reviewedAt": "2026-10-18",
+        "review": "Original visual and GPS inspection; no posed family portrait. Pavement marker photo includes only unidentifiable shoes."
+      },
+      "/assets/lodz-arrival/lodz-ghetto-baluty-03.jpg": {
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/לודז/IMG_5730.JPG",
+        "sourceSHA256": "6d59838d69d15ee517ab9bb2eaeea3d3e53888f515d94b27f19cd4d7c99066b3",
+        "reviewedAt": "2026-10-18",
+        "review": "Original visual and GPS inspection; no posed family portrait. Pavement marker photo includes only unidentifiable shoes."
+      }
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://www.centrumdialogu.com/en/information-for-the-deaf?catid=91&id=776%3Athe-baucki-market&view=article",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "coordinateVerification": {
+      "sourceUrl": "Original IMG_5735.JPG EXIF GPS and visible Zgierska / Limanowskiego street signs",
+      "checkedAt": "2026-10-18"
+    }
+  }
+},
   ];
 })();
