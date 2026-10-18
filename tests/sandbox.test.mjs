@@ -21,3 +21,13 @@ test('sandbox guard prevents live API reads, mutations and form submission',asyn
 test('sandbox workflow cannot publish GitHub Pages',()=>{
  const workflow=readFileSync('.github/workflows/sandbox.yml','utf8');assert.ok(!workflow.includes('deploy-pages'));assert.ok(!workflow.includes('pages: write'));assert.ok(!workflow.includes('id-token: write'));const live=readFileSync('.github/workflows/pages.yml','utf8');assert.equal((live.match(/if: github.ref == 'refs\/heads\/main'/g)||[]).length,2);
 });
+test('sandbox UX recommends by traveller needs and preserves place return context',()=>{
+ const document={documentElement:{lang:'en'},readyState:'loading',addEventListener(){},querySelector(){return null;}};
+ const window={addEventListener(){}};const location={href:'https://sandbox.wroc-love.com/products/interactive-maps/excursions.html?lang=pl&trip=warsaw-lodz-wroclaw&category=history',pathname:'/products/interactive-maps/excursions.html'};
+ runInNewContext(readFileSync('sandbox-ux.js','utf8'),{window,document,location,URL,URLSearchParams,localStorage:{getItem(){return null;}}});
+ const {recommend,placeLink}=window.WROC_SANDBOX_UX;
+ assert.equal(recommend({time:0,interest:0}),0);assert.equal(recommend({time:1,interest:0}),1);assert.equal(recommend({time:2,interest:2}),2);assert.equal(recommend({time:0,interest:1}),3);assert.equal(recommend({time:0,interest:2}),4);assert.equal(recommend({time:0,interest:3}),5);
+ const link=new URL(placeLink('lodz-manufaktura','lodz-manufaktura'));for(const [k,v] of Object.entries({lang:'pl',trip:'warsaw-lodz-wroclaw',category:'history',place:'lodz-manufaktura',stop:'lodz-manufaktura'}))assert.equal(link.searchParams.get(k),v);assert.equal(link.host,'sandbox.wroc-love.com');
+ for(const file of ['sandbox-ux.js','sandbox-ux.css'])assert.ok(existsSync(join(output,file)));
+ assert.ok(readFileSync(join(output,'index.html'),'utf8').includes('/sandbox-ux.js'));
+});

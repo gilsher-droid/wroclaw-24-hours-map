@@ -5,8 +5,8 @@ const root=process.cwd(),client=resolve(root,'dist/client'),output=resolve(root,
 const disabled=['management','admin.html','admin.js','access.html','access.js','checkout.html','checkout.js'];
 for(const name of disabled)await rm(join(client,name),{recursive:true,force:true});
 await writeFile(join(client,'analytics-config.js'),'window.WROC_ANALYTICS_CONFIG = Object.freeze({ga4MeasurementId:"",metaPixelId:""});\n');
-await copyFile(resolve(root,'sandbox-guard.js'),join(client,'sandbox-guard.js'));
-async function walk(dir){for(const e of await readdir(dir,{withFileTypes:true})){const p=join(dir,e.name);if(e.isDirectory()){await walk(p);continue;}if(!e.name.endsWith('.html'))continue;let html=await readFile(p,'utf8');html=html.replace(/<head([^>]*)>/i,'<head$1>\n<meta name="robots" content="noindex,nofollow,noarchive">\n<script src="/sandbox-guard.js"></script>');await writeFile(p,html);}}
+for(const file of ['sandbox-guard.js','sandbox-ux.js','sandbox-ux.css'])await copyFile(resolve(root,file),join(client,file));
+async function walk(dir){for(const e of await readdir(dir,{withFileTypes:true})){const p=join(dir,e.name);if(e.isDirectory()){await walk(p);continue;}if(!e.name.endsWith('.html'))continue;let html=await readFile(p,'utf8');html=html.replace(/<head([^>]*)>/i,'<head$1>\n<meta name="robots" content="noindex,nofollow,noarchive">\n<script src="/sandbox-guard.js"></script>');html=html.replace('</head>','<link rel="stylesheet" href="/sandbox-ux.css"></head>');html=html.replace('</body>','<script src="/sandbox-ux.js" defer></script></body>');if(p===join(client,'index.html'))html=html.replace('</body>','<script src="/data/place-catalog.js"></script><script src="/data/lower-silesia-excursions.js"></script><link rel="stylesheet" href="/guide-video.css"><script src="/guide-video.js"></script></body>');await writeFile(p,html);}}
 await walk(client);
 // Read-only production image reuse keeps this preview small. Put experimental
 // images under assets/sandbox/ so they remain local to this environment.

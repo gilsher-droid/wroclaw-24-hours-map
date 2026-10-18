@@ -10,3 +10,12 @@ No live customer requests, private records, secrets, authentication data or paid
 No changes reach main without the human approving the concrete sandbox result. Do not merge the entire sandbox environment configuration into main. Transfer only individually reviewed UX changes through a dedicated pull request.
 
 Hosting target: a separate Apache subdomain document root. The artifact reuses existing public production media through a read-only .htaccess redirect. Put new experiment assets under assets/sandbox/; they remain local and are not sent to production. Never point the sandbox document root at the production API directory.
+
+2026-10-18 human authorizes implementing all UX report recommendations in sandbox.
+Experiments are isolated in sandbox-ux.js/css and injected ONLY by build-sandbox.mjs.
+Home: visual photo hero, existing verified YouTube guide, need-based route finder,
+concise six-map library, dynamic five-excursion count, personal-map example.
+Maps: browser-only visited progress/next/resume, exact-place share link and saved
+social return context. External platform captions are not edited by this prototype.
+Profile fallback labels are distinct from exact-post labels. Test without real form
+submission; sandbox-guard stays first in every page head.
