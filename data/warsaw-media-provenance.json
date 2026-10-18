@@ -1,0 +1,201 @@
+{
+  "updatedAt": "2026-10-18",
+  "photos": [
+    {
+      "id": "warsaw-nozyk-synagogue",
+      "sourceIds": [
+        93,
+        86,
+        89,
+        56
+      ],
+      "coordinateSource": {
+        "way": "32792753",
+        "lat": 52.23607352692307,
+        "lng": 21.00104671923077,
+        "tags": {
+          "addr:city": "Warszawa",
+          "addr:housenumber": "6",
+          "addr:postcode": "00-950",
+          "addr:street": "Twarda",
+          "alt_name": "Synagoga im. Rywki i Zalmana Nożyków",
+          "amenity": "place_of_worship",
+          "building": "synagogue",
+          "denomination": "orthodox",
+          "name": "Synagoga Nożyków",
+          "name:de": "Nożyk-Synagoge",
+          "name:en": "Nożyk Synagogue",
+          "ref:nid": "yes",
+          "religion": "jewish",
+          "source": "msi",
+          "start_date": "1902",
+          "tourism": "attraction",
+          "wikidata": "Q2915221",
+          "wikipedia": "pl:Synagoga im. Małżonków Nożyków w Warszawie"
+        },
+        "source": "https://www.openstreetmap.org/api/0.6/way/32792753/full"
+      },
+      "photos": {
+        "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.25.jpeg",
+          "sourceSHA256": "e69eff48469e4ba0d4c6e793f5c22519f582ccce9260266d50d2626a8355e889",
+          "assetSHA256": "19ff449f689e83b1f71e7318731ce605a7cb017ca54f32e8146426676ac34027",
+          "alt": {
+            "he": "בית הכנסת נוז׳יק בוורשה",
+            "en": "Nożyk Synagogue, Warsaw",
+            "pl": "Synagoga Nożyków w Warszawie",
+            "de": "Nożyk-Synagoge in Warschau",
+            "cs": "Nożykova synagoga ve Varšavě"
+          },
+          "familyForeground": false
+        },
+        "/assets/warsaw/warsaw-nozyk-synagogue-02.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.24 (2).jpeg",
+          "sourceSHA256": "15fceabd6d62348adcea48e0b8a8bdca821559971dcb4ea5ca4374aa4ccbd62b",
+          "assetSHA256": "b9eb04be22767c2c059a75b60112c205663fad2bb57b9e5f9fa911de1c1b9330",
+          "alt": {
+            "he": "בית הכנסת נוז׳יק בוורשה",
+            "en": "Nożyk Synagogue, Warsaw",
+            "pl": "Synagoga Nożyków w Warszawie",
+            "de": "Nożyk-Synagoge in Warschau",
+            "cs": "Nożykova synagoga ve Varšavě"
+          },
+          "familyForeground": false
+        },
+        "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.24 (5).jpeg",
+          "sourceSHA256": "7410f7dadb7440ad9034186144fe2ba13446535e7edc9b4a26221e7bde286fc8",
+          "assetSHA256": "3376b6d1e2c404f8acf161a91149bc9b61798a4eec6e0fe97cf59aa39385401d",
+          "alt": {
+            "he": "בית הכנסת נוז׳יק בוורשה",
+            "en": "Nożyk Synagogue, Warsaw",
+            "pl": "Synagoga Nożyków w Warszawie",
+            "de": "Nożyk-Synagoge in Warschau",
+            "cs": "Nożykova synagoga ve Varšavě"
+          },
+          "familyForeground": false
+        },
+        "/assets/warsaw/warsaw-nozyk-synagogue-04.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.29.jpeg",
+          "sourceSHA256": "295346d89ac728b99577dddffb60ea5cdf6d751aeedb86eb8728b2138fa668b4",
+          "assetSHA256": "237b73a7cac0961579d46d77ed631665682c863cac2552f69506c87b7464bc74",
+          "alt": {
+            "he": "בית הכנסת נוז׳יק בוורשה",
+            "en": "Nożyk Synagogue, Warsaw",
+            "pl": "Synagoga Nożyków w Warszawie",
+            "de": "Nożyk-Synagoge in Warschau",
+            "cs": "Nożykova synagoga ve Varšavě"
+          },
+          "familyForeground": false
+        }
+      }
+    },
+    {
+      "id": "warsaw-unknown-soldier",
+      "sourceIds": [
+        38
+      ],
+      "coordinateSource": {
+        "way": "72833763",
+        "lat": 52.2409544,
+        "lng": 21.01131358,
+        "tags": {
+          "building": "ruins",
+          "gez:inscription_date": "2012-07-24",
+          "height": "0",
+          "heritage": "2",
+          "heritage:operator": "NID;GEZ",
+          "historic": "monument",
+          "memorial": "war_memorial",
+          "monument:type": "eternal_flame",
+          "name": "Grób Nieznanego Żołnierza",
+          "name:be": "Магіла невядомага салдата",
+          "name:de": "Grabmal des unbekannten Soldaten",
+          "name:en": "Tomb of the Unknown Soldier",
+          "name:eo": "Tombo de la Nekonata Soldato",
+          "name:es": "Tumba del Soldado Desconocido",
+          "name:fr": "Tombe du soldat inconnu",
+          "name:ja": "無名戦士の墓",
+          "name:ko": "무명 용사의 무덤",
+          "name:pl": "Grób Nieznanego Żołnierza",
+          "name:ru": "Могила неизвестного солдата",
+          "name:tr": "Meçhul Asker Anıtı",
+          "nid:inscription_date": "1965-07-01",
+          "ref:ckkp": "MZ00841",
+          "ref:gez": "SRO10036",
+          "ref:nid": "511/2",
+          "start_date": "1925-11-02",
+          "surveillance": "outdoor",
+          "surveillance:type": "guard",
+          "wikidata": "Q1540926",
+          "wikipedia": "pl:Grób Nieznanego Żołnierza w Warszawie"
+        },
+        "source": "https://www.openstreetmap.org/api/0.6/way/72833763/full"
+      },
+      "photos": {
+        "/assets/warsaw/warsaw-unknown-soldier-01.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.20 (3).jpeg",
+          "sourceSHA256": "c4f68efd877f985a20256c5af2d4d55555af323fd73c739da4988b609b390716",
+          "assetSHA256": "179f0a0113e9686bd8e694a2d1cafaf2f46b1b044ebacd70a5c1a4c107e6613c",
+          "alt": {
+            "he": "קבר החייל האלמוני בוורשה",
+            "en": "Tomb of the Unknown Soldier, Warsaw",
+            "pl": "Grób Nieznanego Żołnierza w Warszawie",
+            "de": "Grabmal des unbekannten Soldaten, Warschau",
+            "cs": "Hrob neznámého vojína ve Varšavě"
+          },
+          "familyForeground": false
+        }
+      }
+    },
+    {
+      "id": "warsaw-saxon-garden-fountain",
+      "sourceIds": [
+        40
+      ],
+      "coordinateSource": {
+        "way": "72833745",
+        "lat": 52.24079195357143,
+        "lng": 21.010228960714283,
+        "tags": {
+          "amenity": "fountain",
+          "autor": "Henryk Marconi",
+          "gez:inscription_date": "2012-07-24",
+          "heritage": "7",
+          "heritage:operator": "GEZ",
+          "name": "Fontanna Wielka",
+          "name:de": "Große Fontäne",
+          "name:pl": "Fontanna Wielka",
+          "ref:gez": "SRO10624",
+          "start_date": "1855",
+          "wikidata": "Q9261264",
+          "wikipedia": "pl:Fontanna w Ogrodzie Saskim"
+        },
+        "source": "https://www.openstreetmap.org/api/0.6/way/72833745/full"
+      },
+      "photos": {
+        "/assets/warsaw/warsaw-saxon-garden-fountain-01.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.20 (5).jpeg",
+          "sourceSHA256": "c021043121b153191b2c41431374e20d2b635448046e173d6c19d750b2a852f4",
+          "assetSHA256": "74889698846e4a477b2072944c3d4f14b1c0294f0f878ca2bebf78567f16774c",
+          "alt": {
+            "he": "המזרקה בגן הסקסוני בוורשה",
+            "en": "Saxon Garden Fountain, Warsaw",
+            "pl": "Fontanna Wielka w Ogrodzie Saskim",
+            "de": "Große Fontäne im Sächsischen Garten",
+            "cs": "Velká fontána v Saské zahradě"
+          },
+          "familyForeground": false
+        }
+      }
+    }
+  ],
+  "videoHolds": "All seven videos held: unidentified venue, family or low-value clip; no upload performed.",
+  "familyPolicy": "No family portraits published; original folders preserved."
+}

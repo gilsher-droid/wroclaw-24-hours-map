@@ -14776,6 +14776,410 @@
     },
     "socialPosts": []
   },
+  "kawiarenka-sw-jadwigi": {
+    "id": "kawiarenka-sw-jadwigi",
+    "localName": "Kawiarenka św. Jadwigi",
+    "name": {
+      "he": "בית הקפה הדוויגה הקדושה",
+      "en": "St Hedwig’s Café",
+      "pl": "Kawiarenka św. Jadwigi",
+      "de": "Café der heiligen Hedwig",
+      "cs": "Kavárna svaté Hedviky"
+    },
+    "description": {
+      "he": "בית קפה במתחם נוטרדאם שבאוסטרוב טומסקי, עם קפה ועוגות הנאפות במקום. בתמונות הביקור שלנו נראים חדרי לבנים מקומרים, ריהוט עץ וגן עם ערוגות ושולחנות תחת שמשיות. מתאים להפסקת קפה בין הסיורים באזור הקתדרלה. בית הקפה הוא יעד נפרד מהמנזר ומהאתר הארכאולוגי שבמתחם. בדקו ישירות שעות פתיחה וגישה לגן לפני ההגעה.\nKawiarenka św. Jadwigi\nDom Notre Dame\nul. św. Marcina 12, Wrocław",
+      "en": "A café at Dom Notre Dame on Ostrów Tumski, serving coffee and cakes baked on site. Our visit photographs show brick-vaulted rooms, wooden furniture and a garden with planted beds and tables under parasols. A useful coffee break while exploring the cathedral quarter. The café is a separate destination from the monastery and the archaeological site in the complex. Check opening hours and garden access directly before visiting. Address: ul. św. Marcina 12, Wrocław.",
+      "pl": "Kawiarenka w Domu Notre Dame na Ostrowie Tumskim, z kawą i ciastami wypiekanymi na miejscu. Nasze zdjęcia z wizyty pokazują ceglane sklepienia, drewniane meble oraz ogród z rabatami i stolikami pod parasolami. To propozycja przerwy na kawę podczas spaceru po okolicy katedry. Kawiarnia jest odrębnym celem od klasztoru i stanowiska archeologicznego w kompleksie. Przed przyjazdem sprawdź bezpośrednio godziny otwarcia i dostęp do ogrodu. Adres: ul. św. Marcina 12, Wrocław.",
+      "de": "Ein Café im Dom Notre Dame auf Ostrów Tumski mit Kaffee und vor Ort gebackenen Kuchen. Unsere Besuchsfotos zeigen Räume mit Backsteingewölben, Holzmöbel und einen Garten mit Beeten und Tischen unter Sonnenschirmen. Eine Kaffeepause beim Rundgang durch das Domviertel. Das Café ist ein eigenständiges Ziel neben dem Kloster und der archäologischen Stätte im Komplex. Öffnungszeiten und Gartenzugang vor dem Besuch direkt erfragen. Adresse: ul. św. Marcina 12, Wrocław.",
+      "cs": "Kavárna v Domě Notre Dame na Ostrově Tumski s kávou a moučníky pečenými přímo na místě. Naše fotografie z návštěvy zachycují místnosti s cihlovými klenbami, dřevěný nábytek a zahradu se záhony a stolky pod slunečníky. Tip na přestávku na kávu při procházce kolem katedrály. Kavárna je samostatným cílem vedle kláštera a archeologického areálu v komplexu. Před návštěvou si přímo ověřte otevírací dobu a přístup do zahrady. Adresa: ul. św. Marcina 12, Wrocław."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1160449,
+        "lng": 17.0433953
+      },
+      "address": {
+        "street": "ul. św. Marcina 12",
+        "postalCode": "50-327",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "cafe",
+      "coffee",
+      "dessert",
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "kawiarenka-jadwigi",
+      "kawiarenka-sw-jadwigi-wroclaw",
+      "st-hedwigs-cafe",
+      "בית קפה במנזר"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "kawiarenka-sw-jadwigi"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "kawiarenka-sw-jadwigi",
+        "lat": 51.1160449,
+        "lng": 17.0433953
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "cafe",
+        "coffee",
+        "dessert",
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.ndwroclaw.com/kawiarnia",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1160449%2C17.0433953",
+        "appleMaps": "https://maps.apple.com/?ll=51.1160449,17.0433953&q=Kawiarenka%20%C5%9Bw.%20Jadwigi"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.ndwroclaw.com/kawiarnia",
+          "checkedAt": "2026-10-18",
+          "note": "Official café name, coffee, on-site baking and garden; visually compared official garden photographs with original visit media."
+        },
+        {
+          "type": "official",
+          "url": "https://www.ndwroclaw.com/kontakt",
+          "checkedAt": "2026-10-18",
+          "note": "Official address and reservation contacts."
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.openstreetmap.org/node/13749056601",
+        "checkedAt": "2026-10-18",
+        "note": "OSM café POI matches exact name and official street address; separate from monastery and church."
+      },
+      "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר",
+      "personalMediaPermission": false
+    },
+    "media": {
+      "thumbnail": "/assets/food-cafes/jadwigi-cafe-thumbnail.jpg",
+      "photos": [
+        "/assets/food-cafes/jadwigi-cafe-01.jpg",
+        "/assets/food-cafes/jadwigi-cafe-02.jpg",
+        "/assets/food-cafes/jadwigi-cafe-03.jpg",
+        "/assets/food-cafes/jadwigi-cafe-04.jpg",
+        "/assets/food-cafes/jadwigi-cafe-05.jpg",
+        "/assets/food-cafes/jadwigi-cafe-07.jpg",
+        "/assets/food-cafes/jadwigi-cafe-08.jpg"
+      ],
+      "videos": [
+        "/assets/food-cafes/jadwigi-visit-01.mp4",
+        "/assets/food-cafes/jadwigi-visit-02.mp4",
+        "/assets/food-cafes/jadwigi-visit-03.mp4",
+        "/assets/food-cafes/jadwigi-visit-04.mp4",
+        "/assets/food-cafes/jadwigi-visit-05.mp4",
+        "/assets/food-cafes/jadwigi-visit-06.mp4",
+        "/assets/food-cafes/jadwigi-visit-07.mp4",
+        "/assets/food-cafes/jadwigi-visit-08.mp4",
+        "/assets/food-cafes/jadwigi-visit-09.mp4"
+      ],
+      "metadata": {
+        "/assets/food-cafes/jadwigi-cafe-01.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.20.59.jpeg",
+          "sourceSHA256": "4f2b3b92bbb91047a31f9b7a2171fe6d02db86c54ea57600ba3e6e859cecbc6f",
+          "reviewedAt": "2026-10-18",
+          "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+          "alt": {
+            "he": "גן בית הקפה והשמשיות לצד מבני המתחם",
+            "en": "Café garden and parasols beside the buildings",
+            "pl": "Ogród kawiarni i parasole przy budynkach",
+            "de": "Cafégarten und Sonnenschirme neben den Gebäuden",
+            "cs": "Zahrada kavárny a slunečníky u budov"
+          }
+        },
+        "/assets/food-cafes/jadwigi-cafe-02.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.22.10 (1).jpeg",
+          "sourceSHA256": "f9d4da85633309ad2b9fef4bcb7f39b33ddaa99999038a8687e3375027bc7031",
+          "reviewedAt": "2026-10-18",
+          "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+          "alt": {
+            "he": "חדר בית הקפה תחת קמרונות לבנים",
+            "en": "Café room beneath brick vaults",
+            "pl": "Sala kawiarni pod ceglanym sklepieniem",
+            "de": "Caféraum unter Backsteingewölben",
+            "cs": "Místnost kavárny pod cihlovými klenbami"
+          }
+        },
+        "/assets/food-cafes/jadwigi-cafe-03.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-05 at 18.28.41 (6).jpeg",
+          "sourceSHA256": "82b8d83edd878877f8abe24671a217255d39e4e8e36c5116ebef027cd021e691",
+          "reviewedAt": "2026-10-18",
+          "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+          "alt": {
+            "he": "שולחנות עץ ותמונות בחדר בית הקפה",
+            "en": "Wooden tables and pictures in the café room",
+            "pl": "Drewniane stoliki i obrazy w sali kawiarni",
+            "de": "Holztische und Bilder im Caféraum",
+            "cs": "Dřevěné stolky a obrazy v kavárně"
+          }
+        },
+        "/assets/food-cafes/jadwigi-cafe-04.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.20.53.jpeg",
+          "sourceSHA256": "b337de9a72bf16ead5c2949634af84441c36591b00bf6b76d2849b07ba4870ea",
+          "reviewedAt": "2026-10-18",
+          "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+          "alt": {
+            "he": "מעבר מוצל בצמחייה בגן בית הקפה",
+            "en": "A leafy passage in the café garden",
+            "pl": "Zielone przejście w ogrodzie kawiarni",
+            "de": "Begrünter Durchgang im Cafégarten",
+            "cs": "Zelený průchod v zahradě kavárny"
+          }
+        },
+        "/assets/food-cafes/jadwigi-cafe-05.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.22.06.jpeg",
+          "sourceSHA256": "0d686d6e587cc287eacb73e409bb3df8ee6f916667c3e6b1d287ef3f5b761ea9",
+          "reviewedAt": "2026-10-18",
+          "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+          "alt": {
+            "he": "דלפק הקפה וקיר הלבנים",
+            "en": "The café counter and brick wall",
+            "pl": "Lada kawiarni i ceglana ściana",
+            "de": "Cafétresen und Backsteinwand",
+            "cs": "Pult kavárny a cihlová zeď"
+          }
+        },
+        "/assets/food-cafes/jadwigi-cafe-07.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.22.05.jpeg",
+          "sourceSHA256": "964ec3aba8fe7dc8dc7f73e105288c374e613d94d362edc8fa144d655cc11480",
+          "reviewedAt": "2026-10-18",
+          "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+          "alt": {
+            "he": "ערוגות וגדרות חיות בגן בית הקפה",
+            "en": "Planted beds and hedges in the café garden",
+            "pl": "Rabaty i żywopłoty w ogrodzie kawiarni",
+            "de": "Beete und Hecken im Cafégarten",
+            "cs": "Záhony a živé ploty v zahradě kavárny"
+          }
+        },
+        "/assets/food-cafes/jadwigi-cafe-08.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.20.58.jpeg",
+          "sourceSHA256": "33a4f1016c66d81eae76d7d9b62411bd310bff3b5674ae98db1391c2c440ba5c",
+          "reviewedAt": "2026-10-18",
+          "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+          "alt": {
+            "he": "פרחים צהובים מעל שפת הלבנים בגן",
+            "en": "Yellow flowers above a brick garden border",
+            "pl": "Żółte kwiaty przy ceglanym obrzeżu",
+            "de": "Gelbe Blumen am Beetrand aus Backstein",
+            "cs": "Žluté květy u cihlového okraje záhonu"
+          }
+        },
+        "/assets/food-cafes/jadwigi-cafe-thumbnail.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.20.59.jpeg",
+          "sourceSHA256": "4f2b3b92bbb91047a31f9b7a2171fe6d02db86c54ea57600ba3e6e859cecbc6f",
+          "reviewedAt": "2026-10-18",
+          "review": "Representative landscape crop from original garden photograph; café umbrellas, garden and central building remain visible. Full original view retained in gallery.",
+          "alt": {
+            "he": "גן בית הקפה והשמשיות לצד מבני המתחם",
+            "en": "Café garden and parasols beside the buildings",
+            "pl": "Ogród kawiarni i parasole przy budynkach",
+            "de": "Cafégarten und Sonnenschirme neben den Gebäuden",
+            "cs": "Zahrada kavárny a slunečníky u budov"
+          }
+        },
+        "/assets/food-cafes/jadwigi-visit-01.mp4": {
+          "title": {
+            "he": "דלפק בית הקפה",
+            "en": "Café counter",
+            "pl": "Lada kawiarni",
+            "de": "Cafétresen",
+            "cs": "Pult kavárny"
+          },
+          "sourceSHA256": "91bef484195596e23e8a4800e574539d9dfc2542f2ae64d01315c1527d446aaf",
+          "uploadSHA256": "af4c42934e1165fc90b179cf75cc3563897ba1b502cc626fbb669cc0631b7445",
+          "originalDurationSeconds": 6.733333,
+          "youtubeId": "IVBHDnnD8D0",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        },
+        "/assets/food-cafes/jadwigi-visit-02.mp4": {
+          "title": {
+            "he": "חדר תחת קמרונות לבנים",
+            "en": "Brick-vaulted room",
+            "pl": "Sala z ceglanym sklepieniem",
+            "de": "Raum mit Backsteingewölbe",
+            "cs": "Místnost s cihlovou klenbou"
+          },
+          "sourceSHA256": "93f50482c9be3b47ced5dccf4385acd8dcf08b6fd18ef67156c24811d00104a6",
+          "uploadSHA256": "628be5120c9edd7ded384422f47411d610c6876d1816089a86bdeb9db8aa5768",
+          "originalDurationSeconds": 2.866667,
+          "youtubeId": "PLp2IWBStZI",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        },
+        "/assets/food-cafes/jadwigi-visit-03.mp4": {
+          "title": {
+            "he": "פסל הציפור בגן בית הקפה",
+            "en": "Bird sculpture in the café garden",
+            "pl": "Rzeźba ptaka w ogrodzie kawiarni",
+            "de": "Vogelskulptur im Cafégarten",
+            "cs": "Ptačí plastika v zahradě kavárny"
+          },
+          "sourceSHA256": "64d27ab7d50db2be6d8b2917c9d7087170de617dde44de49d39c198569f2d58e",
+          "uploadSHA256": "5c815d4ca623b8b0f50143ed2ab9315aae5a436b5f4dd03dcc55593861eb212b",
+          "originalDurationSeconds": 4.833333,
+          "youtubeId": "4ch3e2-8_GM",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        },
+        "/assets/food-cafes/jadwigi-visit-04.mp4": {
+          "title": {
+            "he": "שבשבת צבעונית בגן",
+            "en": "Colourful garden pinwheel",
+            "pl": "Kolorowy wiatraczek w ogrodzie",
+            "de": "Buntes Windrad im Garten",
+            "cs": "Barevný větrník v zahradě"
+          },
+          "sourceSHA256": "9c671deb00daaad4a1553835390994acbccbbaeacb63e129b947cb4ee9d2469c",
+          "uploadSHA256": "a58941a0a480850607dbcf59314fbbd18dcfdec9fe850ea9d6114064bbdb9d9d",
+          "originalDurationSeconds": 3.266667,
+          "youtubeId": "81jhRnGNqDY",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        },
+        "/assets/food-cafes/jadwigi-visit-05.mp4": {
+          "title": {
+            "he": "פרחי הגן",
+            "en": "Garden flowers",
+            "pl": "Kwiaty w ogrodzie",
+            "de": "Gartenblumen",
+            "cs": "Květiny v zahradě"
+          },
+          "sourceSHA256": "baab954b71a8cf04f6e01f2d1b92c6ae432e01c7be2a0a5e739df32276f49a30",
+          "uploadSHA256": "66b8f12d89b98e96fea28c27571214a507b1600078200d5074cce35ac8e52b9a",
+          "originalDurationSeconds": 6.066667,
+          "youtubeId": "70fTYo2LVjA",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        },
+        "/assets/food-cafes/jadwigi-visit-06.mp4": {
+          "title": {
+            "he": "שביל וגדרות חיות בגן",
+            "en": "Garden path and hedges",
+            "pl": "Ścieżka i żywopłoty w ogrodzie",
+            "de": "Gartenweg und Hecken",
+            "cs": "Zahradní cesta a živé ploty"
+          },
+          "sourceSHA256": "aeacafcb0fca2c2227e718cac4d2024eeb4d93fec1589ad40f9b3ba4e8d1228f",
+          "uploadSHA256": "37db1c8a234ced4f6dc925b7aa6e4f24ac040d0ab9be29531a9e5aecfdc15bea",
+          "originalDurationSeconds": 4,
+          "youtubeId": "Ly0PIKBKHzQ",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        },
+        "/assets/food-cafes/jadwigi-visit-07.mp4": {
+          "title": {
+            "he": "הגן ובנייני מתחם בית הקפה",
+            "en": "Garden and café complex buildings",
+            "pl": "Ogród i budynki kompleksu kawiarni",
+            "de": "Garten und Gebäude des Cafékomplexes",
+            "cs": "Zahrada a budovy areálu kavárny"
+          },
+          "sourceSHA256": "bfc0e7c7de9f1aff0d600ea2d95f7ecf998830f5c3267769f05d43055acc69ab",
+          "uploadSHA256": "1c52435583a6ac6270deb38c25d1b6ff310f63c452ab912916b2fb395b999be9",
+          "originalDurationSeconds": 7.125,
+          "youtubeId": "HvpsxHDp5sA",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        },
+        "/assets/food-cafes/jadwigi-visit-08.mp4": {
+          "title": {
+            "he": "מבט מקרוב על צמחי הגן",
+            "en": "A closer look at garden plants",
+            "pl": "Rośliny w ogrodzie z bliska",
+            "de": "Gartenpflanzen aus der Nähe",
+            "cs": "Pohled zblízka na zahradní rostliny"
+          },
+          "sourceSHA256": "d91d874a1521fd9e71d6a72b021e2f25459715d927739563f760a70c555921ec",
+          "uploadSHA256": "e0650fb0f32a6c0dfa6da7f3350fd98084d3cf42c9b8f56aeb4c250026c9b69f",
+          "originalDurationSeconds": 3.566667,
+          "youtubeId": "cPsYNR_MhgQ",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        },
+        "/assets/food-cafes/jadwigi-visit-09.mp4": {
+          "title": {
+            "he": "קפה ועוגה בביקור שלנו",
+            "en": "Coffee and cake during our visit",
+            "pl": "Kawa i ciasto podczas naszej wizyty",
+            "de": "Kaffee und Kuchen bei unserem Besuch",
+            "cs": "Káva a moučník během naší návštěvy"
+          },
+          "sourceSHA256": "3a2bf411df023b93e52961ffb4074a1834f6e4f705d4cbdffe9c2a2afa6dbce0",
+          "uploadSHA256": "4bc90868d82b38a2521340561f481ec33deacfd612203319c2383fda77929ab9",
+          "originalDurationSeconds": 3.933333,
+          "youtubeId": "HqoVMQUWySQ",
+          "reviewedAt": "2026-10-18",
+          "audio": "omitted-background-conversation"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "konspira": {
     "id": "konspira",
     "localName": "Konspira",
@@ -28556,6 +28960,396 @@
     },
     "socialPosts": []
   },
+  "warsaw-nozyk-synagogue": {
+    "id": "warsaw-nozyk-synagogue",
+    "localName": "Synagoga Nożyków w Warszawie",
+    "name": {
+      "he": "בית הכנסת נוז׳יק בוורשה",
+      "en": "Nożyk Synagogue, Warsaw",
+      "pl": "Synagoga Nożyków w Warszawie",
+      "de": "Nożyk-Synagoge in Warschau",
+      "cs": "Nożykova synagoga ve Varšavě"
+    },
+    "description": {
+      "he": "בית הכנסת ברחוב טווארדה 6 הוא מקום תפילה פעיל ומוקד של הקהילה היהודית בוורשה. תמונות הביקור שלנו מציגות פרטים אדריכליים בפנים. לפני ביקור בדקו באתר הקהילה את אפשרויות הכניסה וכבדו את כללי המקום.",
+      "en": "The synagogue at 6 Twarda Street is an active place of worship and a centre of Warsaw’s Jewish community. Our visit photos show architectural details inside. Check visitor access with the community and respect the rules of the site.",
+      "pl": "Synagoga przy Twardej 6 jest czynnym miejscem modlitwy i ośrodkiem warszawskiej społeczności żydowskiej. Nasze zdjęcia pokazują detale architektoniczne wnętrza. Przed wizytą sprawdź zasady zwiedzania w gminie i uszanuj reguły miejsca.",
+      "de": "Die Synagoge an der Twarda 6 ist ein aktives Gotteshaus und Zentrum der jüdischen Gemeinde Warschaus. Unsere Besuchsfotos zeigen architektonische Details im Inneren. Besuchsmöglichkeiten bei der Gemeinde prüfen und die Regeln vor Ort beachten.",
+      "cs": "Synagoga v ulici Twarda 6 je aktivním místem modlitby a centrem varšavské židovské obce. Naše fotografie zachycují detaily interiéru. Před návštěvou ověřte přístup u obce a respektujte pravidla místa."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "masovian",
+      "cityId": "warsaw",
+      "coordinates": {
+        "lat": 52.2360735,
+        "lng": 21.0010467
+      },
+      "address": {
+        "city": "Warszawa",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "history"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "warsaw",
+        "optional-before-departure"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://warszawa.jewish.org.pl/en/visit/warsaw/nozyk",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.2360735%2C21.0010467",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "thumbnail": "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg",
+      "photos": [
+        "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg",
+        "/assets/warsaw/warsaw-nozyk-synagogue-02.jpg",
+        "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg",
+        "/assets/warsaw/warsaw-nozyk-synagogue-04.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.25.jpeg",
+          "sourceSHA256": "e69eff48469e4ba0d4c6e793f5c22519f582ccce9260266d50d2626a8355e889",
+          "assetSHA256": "19ff449f689e83b1f71e7318731ce605a7cb017ca54f32e8146426676ac34027",
+          "alt": {
+            "he": "בית הכנסת נוז׳יק בוורשה",
+            "en": "Nożyk Synagogue, Warsaw",
+            "pl": "Synagoga Nożyków w Warszawie",
+            "de": "Nożyk-Synagoge in Warschau",
+            "cs": "Nożykova synagoga ve Varšavě"
+          },
+          "familyForeground": false
+        },
+        "/assets/warsaw/warsaw-nozyk-synagogue-02.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.24 (2).jpeg",
+          "sourceSHA256": "15fceabd6d62348adcea48e0b8a8bdca821559971dcb4ea5ca4374aa4ccbd62b",
+          "assetSHA256": "b9eb04be22767c2c059a75b60112c205663fad2bb57b9e5f9fa911de1c1b9330",
+          "alt": {
+            "he": "בית הכנסת נוז׳יק בוורשה",
+            "en": "Nożyk Synagogue, Warsaw",
+            "pl": "Synagoga Nożyków w Warszawie",
+            "de": "Nożyk-Synagoge in Warschau",
+            "cs": "Nożykova synagoga ve Varšavě"
+          },
+          "familyForeground": false
+        },
+        "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-18 at 09.54.24 (5).jpeg",
+          "sourceSHA256": "7410f7dadb7440ad9034186144fe2ba13446535e7edc9b4a26221e7bde286fc8",
+          "assetSHA256": "3376b6d1e2c404f8acf161a91149bc9b61798a4eec6e0fe97cf59aa39385401d",
+          "alt": {
+            "he": "בית הכנסת נוז׳יק בוורשה",
+            "en": "Nożyk Synagogue, Warsaw",
+            "pl": "Synagoga Nożyków w Warszawie",
+            "de": "Nożyk-Synagoge in Warschau",
+            "cs": "Nożykova synagoga ve Varšavě"
+          },
+          "familyForeground": false
+        },
+        "/assets/warsaw/warsaw-nozyk-synagogue-04.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.29.jpeg",
+          "sourceSHA256": "295346d89ac728b99577dddffb60ea5cdf6d751aeedb86eb8728b2138fa668b4",
+          "assetSHA256": "237b73a7cac0961579d46d77ed631665682c863cac2552f69506c87b7464bc74",
+          "alt": {
+            "he": "בית הכנסת נוז׳יק בוורשה",
+            "en": "Nożyk Synagogue, Warsaw",
+            "pl": "Synagoga Nożyków w Warszawie",
+            "de": "Nożyk-Synagoge in Warschau",
+            "cs": "Nożykova synagoga ve Varšavě"
+          },
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "warsaw-saxon-garden-fountain": {
+    "id": "warsaw-saxon-garden-fountain",
+    "localName": "Fontanna Wielka w Ogrodzie Saskim",
+    "name": {
+      "he": "המזרקה בגן הסקסוני בוורשה",
+      "en": "Saxon Garden Fountain, Warsaw",
+      "pl": "Fontanna Wielka w Ogrodzie Saskim",
+      "de": "Große Fontäne im Sächsischen Garten",
+      "cs": "Velká fontána v Saské zahradě"
+    },
+    "description": {
+      "he": "המזרקה הגדולה בגן הסקסוני היא עצירה ירוקה במרכז ורשה, סמוך לקבר החייל האלמוני. בתמונת הביקור שלנו נראים אגן המזרקה ועצי הגן. פעולת המים תלויה בעונה ובתנאי התפעול.",
+      "en": "The Great Fountain in the Saxon Garden offers a green stop in central Warsaw, close to the Tomb of the Unknown Soldier. Our visit photo shows the basin and surrounding trees. Water operation depends on season and operating conditions.",
+      "pl": "Fontanna Wielka w Ogrodzie Saskim to zielony przystanek w centrum Warszawy, blisko Grobu Nieznanego Żołnierza. Zdjęcie z wizyty pokazuje jej basen i drzewa ogrodu. Działanie wody zależy od sezonu i warunków eksploatacji.",
+      "de": "Die Große Fontäne im Sächsischen Garten bietet eine grüne Pause im Zentrum Warschaus, nahe dem Grabmal des unbekannten Soldaten. Unser Besuchsfoto zeigt das Becken und die Bäume. Der Wasserbetrieb hängt von Saison und Betriebsbedingungen ab.",
+      "cs": "Velká fontána v Saské zahradě nabízí zelenou zastávku v centru Varšavy nedaleko Hrobu neznámého vojína. Fotografie zachycuje nádrž a okolní stromy. Provoz vody závisí na roční době a provozních podmínkách."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "masovian",
+      "cityId": "warsaw",
+      "coordinates": {
+        "lat": 52.240792,
+        "lng": 21.010229
+      },
+      "address": {
+        "city": "Warszawa",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "park"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "park"
+      ],
+      "tags": [
+        "warsaw",
+        "optional-before-departure"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://go2warsaw.pl/en/warsaw-is-awash-with-greenery/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.240792%2C21.010229",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "thumbnail": "/assets/warsaw/warsaw-saxon-garden-fountain-01.jpg",
+      "photos": [
+        "/assets/warsaw/warsaw-saxon-garden-fountain-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/warsaw/warsaw-saxon-garden-fountain-01.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.20 (5).jpeg",
+          "sourceSHA256": "c021043121b153191b2c41431374e20d2b635448046e173d6c19d750b2a852f4",
+          "assetSHA256": "74889698846e4a477b2072944c3d4f14b1c0294f0f878ca2bebf78567f16774c",
+          "alt": {
+            "he": "המזרקה בגן הסקסוני בוורשה",
+            "en": "Saxon Garden Fountain, Warsaw",
+            "pl": "Fontanna Wielka w Ogrodzie Saskim",
+            "de": "Große Fontäne im Sächsischen Garten",
+            "cs": "Velká fontána v Saské zahradě"
+          },
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "warsaw-unknown-soldier": {
+    "id": "warsaw-unknown-soldier",
+    "localName": "Grób Nieznanego Żołnierza w Warszawie",
+    "name": {
+      "he": "קבר החייל האלמוני בוורשה",
+      "en": "Tomb of the Unknown Soldier, Warsaw",
+      "pl": "Grób Nieznanego Żołnierza w Warszawie",
+      "de": "Grabmal des unbekannten Soldaten, Warschau",
+      "cs": "Hrob neznámého vojína ve Varšavě"
+    },
+    "description": {
+      "he": "אתר זיכרון בכיכר פילסודסקי, בתוך שרידי האכסדרה של הארמון הסקסוני. בתמונה שלנו נראים הקשתות ואש התמיד. זו עצירת התבוננות שקטה בסמוך לגן הסקסוני, ללא הבטחה לטקס בשעה מסוימת.",
+      "en": "A memorial on Piłsudski Square, within the surviving arcade of the Saxon Palace. Our photo shows the arches and eternal flame. A quiet stop beside the Saxon Garden, without a promise of a ceremony at a particular time.",
+      "pl": "Miejsce pamięci na placu Piłsudskiego, w zachowanej arkadzie Pałacu Saskiego. Nasze zdjęcie pokazuje łuki i wieczny ogień. Spokojny przystanek przy Ogrodzie Saskim, bez obietnicy ceremonii o określonej porze.",
+      "de": "Gedenkstätte am Piłsudski-Platz in der erhaltenen Arkade des Sächsischen Palais. Unser Foto zeigt die Bögen und das ewige Feuer. Ein ruhiger Halt am Sächsischen Garten, ohne Zusage einer Zeremonie zu einer bestimmten Zeit.",
+      "cs": "Památník na Piłsudského náměstí v dochované arkádě Saského paláce. Naše fotografie ukazuje oblouky a věčný oheň. Klidná zastávka u Saské zahrady bez příslibu obřadu v určitou hodinu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "masovian",
+      "cityId": "warsaw",
+      "coordinates": {
+        "lat": 52.2409544,
+        "lng": 21.0113136
+      },
+      "address": {
+        "city": "Warszawa",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "history"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "history"
+      ],
+      "tags": [
+        "warsaw",
+        "optional-before-departure"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://go2warsaw.pl/en/warsaw-is-awash-with-greenery/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.2409544%2C21.0113136",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "thumbnail": "/assets/warsaw/warsaw-unknown-soldier-01.jpg",
+      "photos": [
+        "/assets/warsaw/warsaw-unknown-soldier-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/warsaw/warsaw-unknown-soldier-01.jpg": {
+          "original": true,
+          "sourceFile": "ווארשה/WhatsApp Image 2026-10-05 at 18.24.20 (3).jpeg",
+          "sourceSHA256": "c4f68efd877f985a20256c5af2d4d55555af323fd73c739da4988b609b390716",
+          "assetSHA256": "179f0a0113e9686bd8e694a2d1cafaf2f46b1b044ebacd70a5c1a4c107e6613c",
+          "alt": {
+            "he": "קבר החייל האלמוני בוורשה",
+            "en": "Tomb of the Unknown Soldier, Warsaw",
+            "pl": "Grób Nieznanego Żołnierza w Warszawie",
+            "de": "Grabmal des unbekannten Soldaten, Warschau",
+            "cs": "Hrob neznámého vojína ve Varšavě"
+          },
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "water-refill-hala-stulecia": {
     "id": "water-refill-hala-stulecia",
     "localName": "Zdrój uliczny – Hala Stulecia",
@@ -34489,6 +35283,10 @@
   "Chatka Przy Jatkach": "chatka",
   "צ׳אטקה": "chatka",
   "צאטקה": "chatka",
+  "kawiarenka-jadwigi": "kawiarenka-sw-jadwigi",
+  "kawiarenka-sw-jadwigi-wroclaw": "kawiarenka-sw-jadwigi",
+  "st-hedwigs-cafe": "kawiarenka-sw-jadwigi",
+  "בית קפה במנזר": "kawiarenka-sw-jadwigi",
   "galeria-dizajn": "zyjnia-bwa-wroclaw"
 };
   const relatedPlaces = {

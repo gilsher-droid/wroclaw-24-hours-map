@@ -1215,6 +1215,7 @@
   const warsawLodz = {
   "id": "warsaw-lodz-wroclaw",
   "initialMapFocus": "local-stops",
+  "departurePlaceIds": ["warsaw-nozyk-synagogue", "warsaw-unknown-soldier", "warsaw-saxon-garden-fountain"],
   "showDestinationMarker": true,
   "slug": "warsaw-lodz-wroclaw",
   "title": {
@@ -1728,7 +1729,7 @@
     title: t("טיולים מוורוצלב", "Excursions from Wrocław", "Wycieczki z Wrocławia", "Ausflüge ab Wrocław", "Výlety z Vratislavi"),
     status: t("חמישה טיולים מוכנים", "Five excursions ready", "Pięć wycieczek gotowych", "Fünf Ausflüge verfügbar", "Pět výletů připraveno"),
     excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {
