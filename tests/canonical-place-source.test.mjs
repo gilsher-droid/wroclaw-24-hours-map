@@ -67,7 +67,7 @@ test("an independent Lower Silesia place is supported without changing current p
     const baseline = loadCatalog(baselineFile);
     const candidate = loadCatalog(outputFile);
     assert.equal(Object.keys(baseline.places).length, 184);
-    assert.equal(Object.keys(candidate.places).length, 177);
+    assert.equal(Object.keys(candidate.places).length, Object.keys(baseline.places).length + 1);
     assert.equal(baseline.coordinateConflicts.length, 28);
     assert.equal(JSON.stringify(candidate.coordinateConflicts), JSON.stringify(baseline.coordinateConflicts));
 
