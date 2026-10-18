@@ -366,5 +366,41 @@
       },
       "heroCandidate": false
     }
-  ]
+  ],
+  "videos": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-01 at 09.24.01.mp4",
+      "sourceSHA256": "434444d1ef9df4796f923566ade0bb51a773847d63953fc2be825966430ac3bb",
+      "uploadFile": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/ato-ramen-enrichment/upload/ato-ramen-visit-01.mp4",
+      "title": "Ato Ramen Wrocław | Food visit clip 1 | WROC-LOVE",
+      "assetKey": "/assets/ato-ramen-visit-01.mp4",
+      "sourceIndex": 16,
+      "duration": 3.7,
+      "alterations": "none; original picture and audio",
+      "youtube": "https://youtube.com/shorts/dwtgXyi61i4",
+      "state": "public-and-checks-complete-verified",
+      "verifiedAt": "2026-10-18"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-01 at 09.24.01 (1).mp4",
+      "sourceSHA256": "eb8a1b0c657e3c1a159b697473a2c5375d75051eeb94ef83023a379ce14b2bd6",
+      "uploadFile": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/ato-ramen-enrichment/upload/ato-ramen-visit-02.mp4",
+      "title": "Ato Ramen Wrocław | Food visit clip 2 | WROC-LOVE",
+      "assetKey": "/assets/ato-ramen-visit-02.mp4",
+      "sourceIndex": 15,
+      "duration": 3.266667,
+      "alterations": "none; original picture and audio",
+      "youtube": "https://youtube.com/shorts/0_33qzP4ll8",
+      "state": "public-and-checks-complete-verified",
+      "verifiedAt": "2026-10-18"
+    }
+  ],
+  "youtubeActionTimeApproval": {
+    "approvedAt": "2026-10-18",
+    "approvedBy": "user, relayed by /root",
+    "exactUserReply": "מאשר העלאת שני הסרטונים בתנאים המוצגים",
+    "scope": "Only the two selected Ato Ramen food visit clips, uploaded to WROC-LOVE YouTube channel UCecxn_f6i_i47s3HXYrUVkA as Public, accepting the displayed YouTube Terms of Service and Community Guidelines",
+    "notIncluded": "Personal/family media, other places, guides or any social campaign",
+    "evidence": "outputs/ato-ramen-enrichment/youtube-upload-approval.png"
+  }
 }
