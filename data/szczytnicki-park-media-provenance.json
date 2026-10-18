@@ -172,22 +172,44 @@
       "sourceSHA256": "5c30575d344e03c14e4febd8df76e11ec7bcf7b6b52ef5eaa747b15a79495cc6",
       "publicationSHA256": "9949b54ee783b50b60e06913b8ed40790f2e46a7163465c42bf0a2b25f545ce2",
       "duration": "5.966667",
-      "title": "Szczytnicki Park | Tree-lined path | WROC-LOVE",
+      "title": "Szczytnicki Park, Wroclaw | Woodland path | WROC-LOVE",
       "description": "Original silent visit footage from the public paths of Park Szczytnicki in Wrocław, Poland. This clip shows the park, outside the Japanese Garden. Explore our interactive maps: https://wroc-love.com/share/en/premium.html",
       "audio": "Removed from publication copy; original preserved",
-      "youtubeStatus": "awaiting specific terms approval at Select files",
+      "youtubeStatus": "public-verified",
       "publicVisibilityRequired": true,
+      "youtubeUrl": "https://youtube.com/shorts/QWyefecg6RQ",
+      "youtubeId": "QWyefecg6RQ",
+      "termsApproval": {
+        "source": "User explicit action-time approval relayed by /root",
+        "quote": "מאשר את שלושת הסרטונים בתנאים המוצגים",
+        "scope": "two selected silent park clips; YouTube Terms of Service and Community Guidelines shown at Select files"
+      },
+      "processing": "SD and HD complete",
+      "copyrightCheck": "No issues found",
+      "communityGuidelinesCheck": "No issues found",
+      "verifiedAt": "2026-10-18",
       "sourceFile": "IMG_5792.MOV"
     },
     {
       "sourceSHA256": "075e8dcbd55b7caece4308fccfdffc0b9d9dd4390e41f9676ebf55a58ce69925",
       "publicationSHA256": "fa89ededc4e81d3c5ba7958b8c5fc628a2aa4ad0e95bc438b70c376fa37b7794",
       "duration": "2.533333",
-      "title": "Szczytnicki Park | Park tree and path | WROC-LOVE",
+      "title": "Szczytnicki Park, Wroclaw | Trees beside the path | WROC-LOVE",
       "description": "Original silent visit footage from the public paths of Park Szczytnicki in Wrocław, Poland. This clip shows the park, outside the Japanese Garden. Explore our interactive maps: https://wroc-love.com/share/en/premium.html",
       "audio": "Removed from publication copy; original preserved",
-      "youtubeStatus": "awaiting specific terms approval at Select files",
+      "youtubeStatus": "public-verified",
       "publicVisibilityRequired": true,
+      "youtubeUrl": "https://youtube.com/shorts/jgKVkItk8z0",
+      "youtubeId": "jgKVkItk8z0",
+      "termsApproval": {
+        "source": "User explicit action-time approval relayed by /root",
+        "quote": "מאשר את שלושת הסרטונים בתנאים המוצגים",
+        "scope": "two selected silent park clips; YouTube Terms of Service and Community Guidelines shown at Select files"
+      },
+      "processing": "SD and HD complete",
+      "copyrightCheck": "No issues found",
+      "communityGuidelinesCheck": "No issues found",
+      "verifiedAt": "2026-10-18",
       "sourceFile": "IMG_5796 2.MOV"
     }
   ],

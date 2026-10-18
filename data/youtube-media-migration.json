@@ -940,5 +940,27 @@
       "ato-ramen"
     ],
     "verifiedAt": "2026-10-18"
+  },
+  "/assets/szczytnicki-park-visit-01.mp4": {
+    "title": "Szczytnicki Park, Wroclaw | Woodland path | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/QWyefecg6RQ",
+    "sourceSHA256": "5c30575d344e03c14e4febd8df76e11ec7bcf7b6b52ef5eaa747b15a79495cc6",
+    "publicationSHA256": "9949b54ee783b50b60e06913b8ed40790f2e46a7163465c42bf0a2b25f545ce2",
+    "canonicalPlaceIds": [
+      "park-szczytnicki-wroclaw"
+    ],
+    "verifiedAt": "2026-10-18"
+  },
+  "/assets/szczytnicki-park-visit-02.mp4": {
+    "title": "Szczytnicki Park, Wroclaw | Trees beside the path | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/jgKVkItk8z0",
+    "sourceSHA256": "075e8dcbd55b7caece4308fccfdffc0b9d9dd4390e41f9676ebf55a58ce69925",
+    "publicationSHA256": "fa89ededc4e81d3c5ba7958b8c5fc628a2aa4ad0e95bc438b70c376fa37b7794",
+    "canonicalPlaceIds": [
+      "park-szczytnicki-wroclaw"
+    ],
+    "verifiedAt": "2026-10-18"
   }
 }
