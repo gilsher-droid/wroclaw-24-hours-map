@@ -38,6 +38,8 @@
     cs: { select: "Vyberte výlet", previous: "Předchozí výlet", next: "Další výlet", view: "Zobrazit výlet", carousel: "Výletní trasy", opole: "Opolské vojvodství", walk: "Pěší trasa v Brzegu", walkingDirections: "Pěší navigace", approximate: "Menší body jsou orientační. Sledujte místní cesty a navigaci." },
   };
 
+  const walkUi = {"he": {"board": "מספרים בשלט", "next": "ניווט לתחנה הבאה", "back": "ניווט חזרה לכיכר", "part": "מקטע", "source": "צילומי השלט המקורי", "extension": "המשך לבחירה: מוזיאון הקרמיקה", "walk": "מסלול ההליכה בעיר", "sourceAlt": "מפת המסלול והמקרא שצילמנו בבולסלבייץ", "reference": "על התחנות באתר המוזיאון"}, "en": {"board": "Board numbers", "next": "Walk to the next stop", "back": "Walk back to the square", "part": "Leg", "source": "Original trail-board photos", "extension": "Optional extension: Ceramics Museum", "walk": "City walking route", "sourceAlt": "The route map and legend we photographed in Bolesławiec", "reference": "About the stops on the museum website"}, "pl": {"board": "Numery na tablicy", "next": "Idź do następnego punktu", "back": "Wróć pieszo na Rynek", "part": "Odcinek", "source": "Zdjęcia oryginalnej tablicy", "extension": "Opcjonalnie: Muzeum Ceramiki", "walk": "Miejska trasa piesza", "sourceAlt": "Mapa trasy i legenda sfotografowane przez nas w Bolesławcu", "reference": "O zabytkach na stronie muzeum"}, "de": {"board": "Nummern auf der Tafel", "next": "Zum nächsten Halt gehen", "back": "Zurück zum Marktplatz gehen", "part": "Abschnitt", "source": "Fotos der Original-Wegtafel", "extension": "Optional: Keramikmuseum", "walk": "Stadtspaziergang", "sourceAlt": "Unsere Fotos der Streckenkarte und Legende in Bolesławiec", "reference": "Zu den Stationen auf der Museumswebsite"}, "cs": {"board": "Čísla na tabuli", "next": "Pěšky k další zastávce", "back": "Pěšky zpět na náměstí", "part": "Úsek", "source": "Fotografie původní tabule", "extension": "Volitelně: Muzeum keramiky", "walk": "Městská pěší trasa", "sourceAlt": "Mapa trasy a legenda, které jsme vyfotografovali v Bolesławci", "reference": "O památkách na webu muzea"}};
+
   const placeDetailsLabels = {he:"לכרטיס המקום המלא",en:"Full place details",pl:"Pełne informacje o miejscu",de:"Alle Informationen zum Ort",cs:"Podrobnosti o místě"};
   const mapFocusLabels = {
     he: {show:"הצגה במפה",overview:"המסלול כולו",walk:"מבט על מסלול ההליכה"},
@@ -186,33 +188,59 @@
     map.fitBounds(route, { padding: [30, 30] });
   }
 
+  function extensionActions(id) {
+    const canonical = place(id), coordinate = canonical.location?.coordinates || canonical.coordinates;
+    const start = place("boleslawiec-old-town").location.coordinates;
+    const url = `https://www.google.com/maps/dir/?api=1&origin=${start.lat},${start.lng}&destination=${coordinate.lat},${coordinate.lng}&travelmode=walking`;
+    return `<a href="${escapeHtml(canonical.links.website)}" target="_blank" rel="noopener">${tr("website")}</a><a href="${url}" target="_blank" rel="noopener">${tr("navigate")}</a>${focusMapButton(`data-map-place="${id}"`)}`;
+  }
+
   function renderWalkingRoute(excursion) {
     const section = document.querySelector("[data-walking-route]");
-    section.hidden = !excursion.walkingRoute;
+    const route = excursion.walkingRoute;
+    section.hidden = !route;
     if (walkingMap) { walkingMap.remove(); walkingMap = null; }
-    if (!excursion.walkingRoute) return;
-    document.querySelector("[data-walk-title]").textContent = tripUi[language].walk;
+    if (!route) return;
+    const copy = walkUi[language];
+    const title = local(route.title) || tripUi[language].walk;
+    document.querySelector("[data-walk-title]").textContent = title;
+    document.querySelector("#brzeg-walk-map").setAttribute("aria-label",title);
+    document.querySelector("[data-walk-intro]").textContent = local(route.summary);
+    document.querySelector("[data-walk-guide]").innerHTML = route.guidePlaceId ? window.WROC_GUIDE_VIDEO.button(route.guidePlaceId,language) : "";
+    const segments = route.navigation.segments || [];
+    document.querySelector("[data-walk-link]").hidden = segments.length > 0;
     document.querySelector("[data-walk-link]").textContent = tripUi[language].walkingDirections;
-    document.querySelector("[data-walk-link]").href = excursion.walkingRoute.navigation.googleMaps;
-    document.querySelector("[data-walk-note]").textContent = tripUi[language].approximate;
-    document.querySelector("[data-walk-stops]").innerHTML = excursion.walkingRoute.points.map((point) => {
+    document.querySelector("[data-walk-link]").href = route.navigation.googleMaps;
+    document.querySelector("[data-walk-segments]").innerHTML = segments.map(segment=>`<a class="route-link" href="${escapeHtml(segment.url)}" target="_blank" rel="noopener">${copy.part} <bdi>${segment.from} → ${segment.to}</bdi></a>`).join("");
+    document.querySelector("[data-walk-note]").textContent = local(route.note) || tripUi[language].approximate;
+    document.querySelector("[data-walk-stops]").innerHTML = route.points.map((point) => {
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
-      const label = canonical ? local(canonical.name) : local(point.label);
-      return `<li><button type="button" class="walk-stop-button" data-map-point="walk:${point.id}" title="${mapFocusLabels[language].show}"><strong>${point.id}</strong><span>${label}</span></button></li>`;
+      const label = local(point.label) || local(canonical?.name);
+      const extra = point.description ? `<p>${escapeHtml(local(point.description))}</p><small>${copy.board}: <bdi>${point.boardNumbers.join(", ")}</bdi></small><a class="walk-leg-link" href="${escapeHtml(point.nextNavigation)}" target="_blank" rel="noopener">${point === route.points.at(-1) ? copy.back : copy.next}</a>` : "";
+      return `<li${extra ? ' class="walk-stop-detailed"' : ''}><button type="button" class="walk-stop-button" data-map-point="walk:${point.id}" title="${mapFocusLabels[language].show}"><strong>${point.id}</strong><span>${escapeHtml(label)}</span></button>${extra}</li>`;
     }).join("");
+    const sources = document.querySelector("[data-walk-sources]");
+    sources.hidden = !route.sourcePhotos?.length;
+    sources.innerHTML = route.sourcePhotos?.length ? `<details><summary>${copy.source}</summary><div class="walk-source-photos">${route.sourcePhotos.map((photo,index)=>`<button type="button" data-walk-source-index="${index}" aria-label="${escapeHtml(copy.sourceAlt)} ${index+1}"><img src="${escapeHtml(photo)}" alt="${escapeHtml(copy.sourceAlt)}" loading="lazy"></button>`).join("")}</div><a href="https://muzeum.boleslawiec.pl/zabytki/" target="_blank" rel="noopener">${copy.reference}</a></details>` : "";
+    const extension = document.querySelector("[data-walk-extension]");
+    extension.hidden = !route.extension;
+    extension.innerHTML = route.extension ? `<h3>${copy.extension}</h3><p>${escapeHtml(local(route.extension.description))}</p><div class="place-actions"><a href="#excursion-place-${route.extension.canonicalPlaceId}">${placeDetailsLabels[language]}</a>${extensionActions(route.extension.canonicalPlaceId)}</div>` : "";
     if (!window.L) return;
-    const points = excursion.walkingRoute.points;
+    const points = route.points;
     const line = points.map(coords).filter(Boolean).map(({ lat, lng }) => [lat, lng]);
+    if(route.closedLoop) line.push(line[0]);
     walkingMap = L.map("brzeg-walk-map", { scrollWheelZoom: false });
     window.WROC_GUIDE_VIDEO.legend(walkingMap, language);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(walkingMap);
-    L.polyline(line, { color: "#c55b2f", weight: 5 }).addTo(walkingMap);
+    L.polyline(line, { color: "#c55b2f", weight: 4, dashArray: route.geometryAccuracy === "stop-order-only" ? "7 7" : undefined }).addTo(walkingMap);
     points.forEach((point) => {
       const coordinate = coords(point);
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
-      const label = canonical ? local(canonical.name) : local(point.label);
-      const marker = L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }, canonical, language)) }).addTo(walkingMap).bindPopup(placePopup(canonical, `${point.id}. ${label}`, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      const label = local(point.label) || local(canonical?.name);
+      const directions = point.nextNavigation ? `<a href="${escapeHtml(point.nextNavigation)}" target="_blank" rel="noopener">${point === points.at(-1) ? copy.back : copy.next}</a>` : "";
+      const popup = canonical ? placePopup(canonical, `${point.id}. ${label}`, coordinate) : `<div class="excursion-place-popup" dir="${language === "he" ? "rtl" : "ltr"}"><strong>${point.id}. ${escapeHtml(label)}</strong>${point.boardNumbers ? `<small>${copy.board}: <bdi>${point.boardNumbers.join(", ")}</bdi></small>` : ""}<div class="place-actions"><a href="https://www.google.com/maps/search/?api=1&query=${coordinate.lat},${coordinate.lng}" target="_blank" rel="noopener">${tr("navigate")}</a>${directions}</div></div>`;
+      const marker = L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "walk-marker", html: `<span>${point.id}</span>`, iconSize: [30, 30] }, canonical, language)) }).addTo(walkingMap).bindPopup(popup, { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
       registerMapStop(`walk:${point.id}`,walkingMap,marker,coordinate,canonical,label,"brzeg-walk-map");
     });
     walkingMap.fitBounds(line, { padding: [25, 25] });
@@ -261,6 +289,7 @@
     if (facebook) links.push(`<a href="${facebook}" target="_blank" rel="noopener">${tr("facebook")}</a>`);
     if (instagram) links.push(`<a href="${instagram}" target="_blank" rel="noopener">${tr("instagram")}</a>`);
     links.push(window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "");
+    if(selectedExcursion().walkingRoute?.city === "boleslawiec" && canonical.id === "boleslawiec-old-town") links.push(`<button type="button" data-walk-overview>${walkUi[language].walk}</button>`);
     if (includeMapFocus && (canonical.location?.coordinates || canonical.coordinates)) links.push(focusMapButton(`data-map-place="${canonical.id}"`));
     return links.join("");
   }
@@ -311,7 +340,7 @@
     },{passive:true});
   }
   function renderMediaDialog() {
-    const canonical=place(activeMedia.id),labels=mediaLabels[language],items=mediaItems(canonical,activeMedia.kind);
+    const canonical=activeMedia.canonical || place(activeMedia.id),labels=mediaLabels[language],items=mediaItems(canonical,activeMedia.kind);
     mediaDialog.dir=language==="he"?"rtl":"ltr";
     mediaDialog.querySelector("h2").textContent=local(canonical.name);
     mediaDialog.querySelector("[data-media-close]").textContent=labels.close;
@@ -325,17 +354,19 @@
   }
   function moveMedia(step) {
     if(!activeMedia) return;
-    const count=mediaItems(place(activeMedia.id),activeMedia.kind).length;
+    const count=mediaItems(activeMedia.canonical || place(activeMedia.id),activeMedia.kind).length;
     activeMedia.index=(activeMedia.index+step+count)%count;renderMediaDialog();
   }
-  function openPlaceMedia(id,kind,index=0) {
-    const canonical=place(id),items=mediaItems(canonical,kind);
+  function openPlaceMedia(id,kind,index=0,custom=null) {
+    const canonical=custom || place(id),items=mediaItems(canonical,kind);
     if(!items.length) return;
-    ensureMediaDialog();activeMedia={id,kind,index:Math.max(0,Math.min(index,items.length-1))};
+    ensureMediaDialog();activeMedia={id,kind,canonical:custom,index:Math.max(0,Math.min(index,items.length-1))};
     mediaDialog.querySelector(".excursion-media-tabs").replaceChildren();
     renderMediaDialog();document.body.classList.add("excursion-media-open");mediaDialog.showModal();
   }
   document.addEventListener("click",event=>{
+    const source=event.target.closest("[data-walk-source-index]");
+    if(source){const route=selectedExcursion().walkingRoute;openPlaceMedia("walking-source","photos",Number(source.dataset.walkSourceIndex),{name:route.title,media:{photos:route.sourcePhotos}});return;}
     const button=event.target.closest("[data-place-gallery]");
     if(button) {event.preventDefault();openPlaceMedia(button.dataset.placeGallery,button.dataset.mediaKind,Number(button.dataset.mediaIndex||0));}
   });
