@@ -842,5 +842,21 @@
     "youtube": "https://youtube.com/shorts/-ywF9tSVBaw",
     "sourceSHA256": "608e6a3bbc50b6536e85446bbe086f1a8e20b9ca75f3fbae0b73f35d9c829d56",
     "verifiedAt": "2026-10-18"
+  },
+  "/assets/hala-pergola-view-oct18.mp4": {
+    "title": "Centennial Hall - Pergola view - WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/_JpBjBHvP1s",
+    "sourceSHA256": "f1da2b16ec7fcadeca4d15906a362e1d80a34114a4748238585ffa3b937a5bdc",
+    "publicationSHA256": "f2a8d3d9cf97fd537acf0f8e13590b1187f673743275f04c6f626e0f6841c43f",
+    "verifiedAt": "2026-10-18"
+  },
+  "/assets/hala-iglica-plaza-oct18.mp4": {
+    "title": "Centennial Hall - Iglica and plaza - WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/WIxyGzuvVZw",
+    "sourceSHA256": "a5dddfb802740aff44863691d47e2337b0971b1f9aba39d777bce83a386c1a79",
+    "publicationSHA256": "bd9543fd29571190d3f73f1668a1f89e2235af896268d051c8759b5586b4f032",
+    "verifiedAt": "2026-10-18"
   }
 }
