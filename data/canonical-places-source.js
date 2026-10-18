@@ -975,6 +975,7 @@
     }
   ],
   "media": {
+    "guideVideos": {"he": "https://youtube.com/shorts/y74YI_tgRq0", "en": "https://youtube.com/shorts/EOBJMMmLY_I"},
     "photos": [
       "/assets/hala-stulecia-01.jpg",
       "/assets/hala-stulecia-02.jpg",

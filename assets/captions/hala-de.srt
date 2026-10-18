@@ -1,0 +1,75 @@
+1
+00:00:01,540 --> 00:00:03,180
+Hallo wieder!
+
+2
+00:00:03,880 --> 00:00:07,100
+Was glauben Sie, was Sie hinter mir sehen?
+
+3
+00:00:09,980 --> 00:00:13,460
+Es sieht aus wie ein riesiger Betonbau.
+
+4
+00:00:14,480 --> 00:00:18,040
+Doch dies ist eines der Wahrzeichen von Wrocław.
+
+5
+00:00:19,000 --> 00:00:22,320
+Dieser Ort heißt Jahrhunderthalle,
+
+6
+00:00:23,000 --> 00:00:24,060
+Hala Stulecia.
+
+7
+00:00:24,060 --> 00:00:26,580
+Sie wurde 1913 erbaut,
+
+8
+00:00:26,580 --> 00:00:29,700
+nach einem Entwurf des Architekten Max Berg.
+
+9
+00:00:30,560 --> 00:00:35,640
+Damals ein so riesiges Bauwerk aus Beton zu errichten,
+
+10
+00:00:35,640 --> 00:00:39,600
+war eine sehr mutige, bahnbrechende Idee.
+
+11
+00:00:40,540 --> 00:00:42,320
+Im Jahr 2006
+
+12
+00:00:42,820 --> 00:00:48,520
+wurde dieser Ort in die UNESCO-Welterbeliste aufgenommen.
+
+13
+00:00:50,040 --> 00:00:52,760
+Heute ist es nicht einfach ein erstarrtes Museum.
+
+14
+00:00:53,800 --> 00:00:56,900
+Hier finden tatsächlich Aufführungen statt,
+
+15
+00:00:57,940 --> 00:01:02,360
+Ausstellungen, Konzerte, Sportveranstaltungen und vieles mehr.
+
+16
+00:01:03,540 --> 00:01:07,460
+Ich lade Sie ein, dieses erstaunliche geometrische Bauwerk zu umrunden
+
+17
+00:01:07,460 --> 00:01:10,780
+und auch das Innere zu besuchen.
+
+18
+00:01:11,600 --> 00:01:12,940
+Bis zu unserem nächsten Halt!
+
+19
+00:01:13,600 --> 00:01:14,160
+Auf Wiedersehen!
