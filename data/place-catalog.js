@@ -30644,7 +30644,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.08533%2C17.01765",
         "appleMaps": "https://maps.apple.com/?ll=51.08533,17.01765"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -30702,7 +30703,16 @@
         }
       ],
       "verifiedAt": "2026-10-18",
-      "currentAccessUnverified": true
+      "currentAccessUnverified": true,
+      "socialVerification": {
+        "checkedAt": "2026-10-18T19:08:46Z",
+        "audit": "/data/borek-social-audit.json",
+        "verifiedPosts": 9,
+        "missing": [
+          "instagram:he"
+        ],
+        "fallbackDisabled": true
+      }
     },
     "media": {
       "photos": [
@@ -30898,55 +30908,109 @@
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z52QMFYJqykBthKe3S1s9m6ussFVVqRfq2Fi3cjS9eZTy1ZCRW5n6Ji668LExb9Nl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-07",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "Wroc-Love Wrocław & Lower Silesia",
+          "evidence": "data/borek-social-audit.json#facebook-en"
+        }
       },
       {
         "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ySKqNUcrmputEAo8ew2xk5tW6zYyZhMrKtbHLCBbjgTDPSJXvcX4szNtgoYwBcLl&id=61595239823399",
-        "verifiedAt": "2026-10-07T06:13:03.791281+00:00"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-07T06:13:03.791281+00:00",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "Wroc-Love Breslau und Niederschlesien",
+          "evidence": "data/borek-social-audit.json#facebook-de"
+        }
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeLxaKsD11H/",
-        "verifiedAt": "2026-10-07T07:22:37.269496+00:00"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-07T07:22:37.269496+00:00",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "wroclaw.lowersilesia.de",
+          "evidence": "data/borek-social-audit.json#instagram-de"
+        }
       },
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JRViYewbfMXS7pVWpG1jJuzL9MpvtS2jjBRRBfx9eU4dKWFRX6mgfknUGQPVwNRUl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-07",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "Wroc-Love Vratislav a Dolní Slezsko",
+          "evidence": "data/borek-social-audit.json#facebook-cs"
+        }
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeMcQcHHAG8/",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-07",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "wroclaw.lowersilesia",
+          "evidence": "data/borek-social-audit.json#instagram-en"
+        }
       },
       {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeMimjhm8-C/",
-        "verifiedAt": "2026-10-07T14:15:57.430179+00:00"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-07T14:15:57.430179+00:00",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "wroclaw.lowersilesia.pl",
+          "evidence": "data/borek-social-audit.json#instagram-pl"
+        }
       },
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0L9kZRvgsLg48K5PeiW5hLSxUZ9aozLozAWw1BWrpoQAzeKTdTTwKPsXxwvzaamPQl&id=61595207664875",
-        "verifiedAt": "2026-10-07T14:43:32.718528+00:00"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-07T14:43:32.718528+00:00",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "Wroc-Love Wrocław i Dolny Śląsk",
+          "evidence": "data/borek-social-audit.json#facebook-pl"
+        }
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/p/DePBwkJDa4l/",
-        "verifiedAt": "2026-10-08"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-08",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "wroclaw.lowersilesia.cs",
+          "evidence": "data/borek-social-audit.json#instagram-cs"
+        }
       },
       {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02NbQ1mGbhXEPmADsU2FpjhVi1mN7mE7y4yjFdNkeLKq9EfQPeRSNu81wGmgReF1FGl&id=61591964083308",
-        "verifiedAt": "2026-10-09T07:54:57.789Z"
+        "verifiedAt": "2026-10-18T19:08:46Z",
+        "previousVerifiedAt": "2026-10-09T07:54:57.789Z",
+        "verification": {
+          "method": "live-browser-written-post-content-and-author-language-reviewed",
+          "account": "וורוצלב ושלזיה התחתית",
+          "evidence": "data/borek-social-audit.json#facebook-he"
+        }
       },
       {
         "platform": "facebook",
