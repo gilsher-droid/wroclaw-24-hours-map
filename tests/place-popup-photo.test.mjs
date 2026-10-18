@@ -24,3 +24,13 @@ test('All six map pages and the published artifact load the shared popup photo r
  }
  for(const f of ['place-popup-photo.js','place-popup-photo.css'])assert.ok(existsSync(`dist/client/${f}`));
 });
+test('Thumbnail delegates to the existing gallery, preserves native excursion handling and safe fallback',()=>{
+ const handlers={};runInNewContext(readFileSync('place-popup-photo.js','utf8'),{window:{},document:{addEventListener(type,handler){handlers[type]=handler;}}});
+ let clicked=0,prevented=0,stopped=0;
+ const gallery={click(){clicked++;}};
+ const thumbnail={hasAttribute(){return false;},closest(){return {querySelector(){return gallery;}};}};
+ const event={target:{closest(){return thumbnail;}},preventDefault(){prevented++;},stopPropagation(){stopped++;}};
+ handlers.click(event);assert.equal(clicked,1);assert.equal(prevented,1);assert.equal(stopped,1);
+ thumbnail.hasAttribute=()=>true;handlers.click(event);assert.equal(clicked,1,'native excursion handler owns this click');
+ thumbnail.hasAttribute=()=>false;thumbnail.closest=()=>({querySelector(){return null;}});handlers.click(event);assert.equal(prevented,1,'unavailable gallery keeps the existing image fallback');
+});
