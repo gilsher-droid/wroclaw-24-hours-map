@@ -27,6 +27,132 @@
   // geography explicitly; no city is inferred by the catalog generator.
   window.WROC_CANONICAL_PLACE_SOURCE = [
 {
+  "id": "mania-al-taglio-kuznicza",
+  "aliases": [
+    "מניה",
+    "מאניה",
+    "Mania Kuźnicza",
+    "Mania Al Taglio"
+  ],
+  "localName": "Mania Al Taglio • Kuźnicza",
+  "name": {
+    "he": "מניה אל טאליו, קוז׳ניצ׳ה",
+    "en": "Mania Al Taglio • Kuźnicza",
+    "pl": "Mania Al Taglio • Kuźnicza",
+    "de": "Mania Al Taglio • Kuźnicza",
+    "cs": "Mania Al Taglio • Kuźnicza"
+  },
+  "description": {
+    "he": "פיצרייה ברחוב קוז׳ניצ׳ה בעיר העתיקה, המתמחה בפיצה רומאית מלבנית הנמכרת במנות. זהו סניף קוז׳ניצ׳ה של מניה, ולא הסניף שברחוב אולבסקה. בתמונת הביקור שלנו נראים החזית, שלט הניאון והתור בחוץ. אפשר לשלב עצירה לאוכל במהלך הליכה באזור האוניברסיטה וכיכר השוק. בדקו בתפריט הרשמי את ההיצע, המחירים ושעות הפתיחה; התמונה מתעדת את הביקור שלנו ולא מבטיחה עומס או מנות זהים כיום.",
+    "en": "A pizzeria on Kuźnicza in the Old Town, specialising in rectangular Roman-style pizza sold by the slice. This is Mania’s Kuźnicza branch, distinct from its Oławska location. Our visit photograph shows the frontage, neon sign and queue outside. Consider a food stop while walking between the university area and Market Square. Check the official menu for the selection, prices and opening hours; our photograph records a visit rather than guaranteeing the same dishes or queue today.",
+    "pl": "Pizzeria przy Kuźniczej na Starym Mieście, specjalizująca się w prostokątnej pizzy w stylu rzymskim sprzedawanej na kawałki. To lokal Manii przy Kuźniczej, odrębny od punktu przy Oławskiej. Zdjęcie z naszej wizyty pokazuje fasadę, neon i kolejkę przed wejściem. Może być przystankiem na jedzenie podczas spaceru między okolicą uniwersytetu a Rynkiem. Aktualny wybór, ceny i godziny otwarcia sprawdź w oficjalnym menu; fotografia dokumentuje wizytę i nie gwarantuje dzisiejszej oferty ani długości kolejki.",
+    "de": "Pizzeria an der Kuźnicza in der Altstadt mit rechteckiger Pizza nach römischer Art, die stückweise verkauft wird. Gemeint ist die Filiale an der Kuźnicza, nicht der Standort an der Oławska. Unser Besuchsfoto zeigt die Fassade, die Leuchtschrift und die Schlange vor dem Eingang. Ein möglicher Essensstopp beim Spaziergang zwischen Universität und Rynek. Auswahl, Preise und Öffnungszeiten im offiziellen Menü prüfen; das Foto dokumentiert unseren Besuch und garantiert weder die heutige Auswahl noch eine bestimmte Warteschlange.",
+    "cs": "Pizzerie v ulici Kuźnicza ve Starém Městě, zaměřená na obdélníkovou pizzu římského typu prodávanou po kusech. Jde o pobočku Manie v ulici Kuźnicza, nikoli o provozovnu v ulici Oławska. Fotografie z naší návštěvy ukazuje průčelí, neonový nápis a frontu před vchodem. Může posloužit jako zastávka na jídlo při procházce mezi univerzitní čtvrtí a Rynkem. Aktuální nabídku, ceny a otevírací dobu ověřte v oficiálním menu; fotografie zachycuje naši návštěvu a nezaručuje dnešní nabídku ani délku fronty."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1125673,
+      "lng": 17.0345083
+    },
+    "address": {
+      "street": "Kuźnicza 25",
+      "postalCode": "50-147",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "eat"
+  ],
+  "taxonomy": {
+    "tags": [
+      "pizza",
+      "roman-pizza",
+      "old-town",
+      "wroclaw"
+    ]
+  },
+  "links": {
+    "website": "https://mania.pizza/zamow/kuznicza/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1125673%2C17.0345083",
+      "appleMaps": "https://maps.apple.com/?ll=51.1125673,17.0345083"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/food-cafes/mania-al-taglio-kuznicza-01.jpg"
+    ],
+    "videos": [
+      "/assets/mania-al-taglio-kuznicza-visit-01.mp4"
+    ],
+    "metadata": {
+      "/assets/food-cafes/mania-al-taglio-kuznicza-01.jpg": {
+        "original": true,
+        "sourceFile": "mania/WhatsApp Image 2026-10-05 at 18.25.01.jpeg",
+        "sourceSHA256": "b06824a6e50885a3d19f02d9191ebf4e1cc817219b99f61f49893caba3f8bbd0",
+        "assetSHA256": "7498ce2b1c4054677377c494596505160195045a47ba16f3143b69f57c3c1de8",
+        "alt": {
+          "he": "חזית הפיצרייה ושלט הניאון בעת הביקור",
+          "en": "Pizzeria frontage and neon sign during our visit",
+          "pl": "Fasada pizzerii i neon podczas naszej wizyty",
+          "de": "Fassade der Pizzeria und Leuchtschrift bei unserem Besuch",
+          "cs": "Průčelí pizzerie a neonový nápis při naší návštěvě"
+        },
+        "heroCandidate": true
+      },
+      "/assets/mania-al-taglio-kuznicza-visit-01.mp4": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/mania/WhatsApp Video 2026-10-05 at 18.25.02.mp4",
+        "sourceSHA256": "ae7f607a5a803ecafe38f42471573b9b28a4bbce62c051307624b101b94c9d7d",
+        "youtube": "https://youtube.com/shorts/JwK2shHUx8g",
+        "visibility": "public",
+        "checks": "complete-no-issues",
+        "verifiedAt": "2026-10-18"
+      }
+    }
+  },
+  "provenance": {
+    "personalVisit": true,
+    "originalPhotography": true,
+    "verifiedAt": "2026-10-18",
+    "factualSources": [
+      {
+        "url": "https://mania.pizza/zamow/kuznicza/",
+        "verifiedAt": "2026-10-18",
+        "scope": "official branch identity, Kuźnicza25 address, Roman pizza slices and official directions link"
+      },
+      {
+        "url": "https://maps.app.goo.gl/aM9xSTgqLgq3gEB67",
+        "verifiedAt": "2026-10-18",
+        "scope": "official branch directions link redirects to place coordinates51.1125673,17.0345083"
+      },
+      {
+        "url": "https://bubblejoy.pl/",
+        "verifiedAt": "2026-10-18",
+        "scope": "official indexed Kuźnicza25 branch corroborates adjacent BubbleJoy sign in source photographs"
+      }
+    ],
+    "socialVerification": {
+      "audit": "/data/mania-social-audit.json",
+      "verifiedPosts": 0,
+      "status": "no-exact-place-post-candidate-found-in-registry-or-accessible-documentation;not-exhaustive-account-absence"
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
+{
   "id": "park-szczytnicki-wroclaw",
   "aliases": [
     "Park Szczytnicki",

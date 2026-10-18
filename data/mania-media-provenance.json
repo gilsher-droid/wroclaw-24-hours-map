@@ -1,0 +1,107 @@
+{
+  "placeId": "mania-al-taglio-kuznicza",
+  "inventory": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/mania/WhatsApp Image 2026-10-05 at 18.25.00.jpeg",
+      "sha256": "18e67f9b7c2d32703ce4d95fbe8e5d33ff097626c150f8965ac1d3650239dd39",
+      "bytes": 550913,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "excluded: near-duplicate storefront photograph; second frame provides a slightly wider view of the same scene"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/mania/WhatsApp Image 2026-10-05 at 18.25.01.jpeg",
+      "sha256": "b06824a6e50885a3d19f02d9191ebf4e1cc817219b99f61f49893caba3f8bbd0",
+      "bytes": 578922,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "decision": "selected: restaurant storefront with Mania sign and adjacent BubbleJoy; incidental street queue, no personal portrait"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/mania/WhatsApp Video 2026-10-05 at 18.25.02.mp4",
+      "sha256": "ae7f607a5a803ecafe38f42471573b9b28a4bbce62c051307624b101b94c9d7d",
+      "bytes": 1216989,
+      "duration": 5.795,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decision": "selected visit video pending YouTube search and action-time terms approval: rectangular pizza slices at counter, no personal subject; do not copy displayed historical prices into current claims"
+    }
+  ],
+  "factualSources": [
+    {
+      "url": "https://mania.pizza/zamow/kuznicza/",
+      "verifiedAt": "2026-10-18",
+      "scope": "official branch identity, Kuźnicza25 address, Roman pizza slices and official directions link"
+    },
+    {
+      "url": "https://maps.app.goo.gl/aM9xSTgqLgq3gEB67",
+      "verifiedAt": "2026-10-18",
+      "scope": "official branch directions link redirects to place coordinates51.1125673,17.0345083"
+    },
+    {
+      "url": "https://bubblejoy.pl/",
+      "verifiedAt": "2026-10-18",
+      "scope": "official indexed Kuźnicza25 branch corroborates adjacent BubbleJoy sign in source photographs"
+    }
+  ],
+  "originalsPreserved": true,
+  "personalMediaPermission": false,
+  "mapDecisions": {
+    "lifestyle": {
+      "action": "add",
+      "categories": [
+        "eat"
+      ],
+      "reason": "verified public pizzeria for dining discovery"
+    },
+    "otherMaps": {
+      "action": "do-not-add",
+      "reason": "not a cultural attraction, accommodation, regional excursion or a confirmed existing tour stop; no forced inclusion in Christmas or timed routes"
+    },
+    "canonicalIdentity": "Mania Al Taglio Kuźnicza25; not Oławska8, Racławicka13 or Dobra Pączkarnia (a different business at the same street number)"
+  },
+  "videoStatus": "public-and-checks-complete-verified",
+  "visitVideo": {
+    "state": "public-and-checks-complete-verified",
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/mania/WhatsApp Video 2026-10-05 at 18.25.02.mp4",
+    "sourceSHA256": "ae7f607a5a803ecafe38f42471573b9b28a4bbce62c051307624b101b94c9d7d",
+    "duration": 5.795,
+    "title": "Mania Al Taglio Kuźnicza Wrocław | Pizza visit clip | WROC-LOVE",
+    "assetKey": "/assets/mania-al-taglio-kuznicza-visit-01.mp4",
+    "targetChannel": "WROC-LOVE / Wroclaw.lowersilesia / UCecxn_f6i_i47s3HXYrUVkA",
+    "requestedVisibility": "public",
+    "requestSentToManager": "2026-10-18",
+    "approvalScreenshot": "outputs/mania-enrichment/youtube-upload-approval.png",
+    "approvalScopeNeeded": "This single original pizza-counter visit clip to the WROC-LOVE YouTube channel, accepting the displayed Terms of Service and Community Guidelines. Ato approval does not cover it.",
+    "youtubeURL": "https://youtube.com/shorts/JwK2shHUx8g",
+    "uploadFile": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/mania-enrichment/upload/mania-al-taglio-kuznicza-visit-01.mp4",
+    "editorState": "closed-and-saved",
+    "processing": "complete",
+    "copyrightCheck": "complete-no-issues",
+    "communityGuidelinesCheck": "complete-no-issues",
+    "verifiedAt": "2026-10-18",
+    "savedPublicVerified": true
+  },
+  "actionTimeApproval": {
+    "userQuote": "מאשר את שלושת הסרטונים בתנאים המוצגים",
+    "scope": "Single selected5.8secondManiaAlTaglioKuźniczafoodcliptotheWROCLOVEYouTubechannelasPublicacceptingthecurrentlydisplayedYouTubeTermsOfServiceandCommunityGuidelines;other2approvedclipsbelongtoParkagent",
+    "parentMessageReceived": "2026-10-18",
+    "screenshot": "outputs/mania-enrichment/youtube-upload-approval.png",
+    "noPersonalMediaPermission": true,
+    "noGuideOrSocialPublicationPermission": true
+  }
+}
