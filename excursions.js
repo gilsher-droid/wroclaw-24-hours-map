@@ -85,7 +85,7 @@
   function escapeHtml(value) { return String(value || "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
   function placePopup(canonical, label, coordinate) {
     const actions = canonical ? actionLinks(canonical, false) : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${coordinate.lat},${coordinate.lng}`)}" target="_blank" rel="noopener">${tr("navigate")}</a>`;
-    const details = canonical && selectedExcursion().canonicalPlaceIds.includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
+    const details = canonical && [...selectedExcursion().canonicalPlaceIds, ...(selectedExcursion().departurePlaceIds || [])].includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
     return `<div class="excursion-place-popup" dir="${language === "he" ? "rtl" : "ltr"}">${window.WROC_PLACE_POPUP_PHOTO.html(canonical,language).replace('class="place-popup-photo-link"', `class="place-popup-photo-link" data-place-gallery="${escapeHtml(canonical?.id)}" data-media-kind="photos"`)}<strong>${escapeHtml(label)}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}<div class="place-actions">${actions}${canonical ? mediaButtons(canonical) : ""}</div>${details}</div>`;
   }
 
@@ -184,6 +184,12 @@
       const label = canonical ? local(canonical.name) : local(point.label);
       const marker = L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }, canonical, language)) }).addTo(map).bindPopup(placePopup(canonical, label, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
       registerMapStop(point.id,map,marker,coordinate,canonical,label,"excursion-map");
+    });
+    (excursion.departurePlaceIds || []).forEach((id,index)=>{
+      const canonical=place(id), coordinate=canonical?.location?.coordinates;
+      if(!coordinate) return;
+      const marker=L.marker([coordinate.lat,coordinate.lng], {title:local(canonical.name),icon:L.divIcon({className:"route-marker departure-marker",html:`<span>W${index+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]})}).addTo(map).bindPopup(placePopup(canonical,local(canonical.name),coordinate),{maxWidth:320}).on("popupopen",()=>trackPlaceOpen(canonical));
+      registerMapStop(`departure-${id}`,map,marker,coordinate,canonical,local(canonical.name),"excursion-map");
     });
     const localStops = excursion.initialMapFocus === "local-stops"
       ? excursion.routePoints.filter(point => excursion.canonicalPlaceIds.includes(point.canonicalPlaceId)).map(coords).filter(Boolean).map(({lat,lng})=>[lat,lng])
@@ -373,8 +379,8 @@
     const button=event.target.closest("[data-place-gallery]");
     if(button) {event.preventDefault();openPlaceMedia(button.dataset.placeGallery,button.dataset.mediaKind,Number(button.dataset.mediaIndex||0));}
   });
-  function renderPlaces(excursion) {
-    document.querySelector("[data-places]").innerHTML = excursion.canonicalPlaceIds.map(id=>{
+  function placeCards(ids) {
+    return ids.map(id=>{
       const canonical=place(id);if(!canonical) return "";
       const photos=mediaItems(canonical,"photos"),videos=mediaItems(canonical,"videos");
       const openPhoto=(photo,index,cover=false)=>`<button type="button" class="${cover?"place-cover-button":"place-photo-button"}" data-place-gallery="${escapeHtml(id)}" data-media-kind="photos" data-media-index="${index}" aria-label="${escapeHtml(mediaLabels[language].open)}: ${escapeHtml(local(canonical.name))}, ${index+1} / ${photos.length}"><img ${cover?'class="place-cover"':'loading="lazy"'} src="${escapeHtml(photo)}" alt="${escapeHtml(local(canonical.name))}"></button>`;
@@ -383,6 +389,21 @@
       const video=videos[0]?window.WROC_YOUTUBE_VIDEO.html(videos[0],local(canonical.name),language):"";
       return `<article class="place-card" id="excursion-place-${id}" tabindex="-1" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical,language)}<p>${local(canonical.description)}</p><div class="photo-strip">${strip}</div><div class="place-actions excursion-gallery-actions">${mediaButtons(canonical)}</div>${video}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
+  }
+
+  const departureCopy={
+    he:["לפני שיוצאים מוורשה, לבחירה","אתרים שצילמנו בוורשה. הם אינם חלק מסיור ההליכה בלודז׳. הוסיפו זמן נפרד ובדקו אפשרויות ביקור לפני היציאה.","הציגו את מקומות ורשה במפה"],
+    en:["Before leaving Warsaw, optional","Places we photographed in Warsaw. These are separate from the Łódź walk. Allow extra time and check visitor access before departure.","Show Warsaw places on the map"],
+    pl:["Przed wyjazdem z Warszawy, opcjonalnie","Miejsca sfotografowane przez nas w Warszawie. Nie należą do spaceru po Łodzi. Zaplanuj dodatkowy czas i sprawdź dostęp przed wyjazdem.","Pokaż miejsca w Warszawie na mapie"],
+    de:["Vor der Abfahrt aus Warschau, optional","Orte unserer Warschau-Fotos, getrennt vom Spaziergang in Łódź. Zusätzliche Zeit einplanen und Besuchsmöglichkeiten vor der Abfahrt prüfen.","Warschauer Orte auf der Karte zeigen"],
+    cs:["Před odjezdem z Varšavy, volitelně","Místa z našich varšavských fotografií nejsou součástí procházky v Lodži. Vyhraďte čas navíc a před odjezdem ověřte přístup.","Ukázat varšavská místa na mapě"]
+  };
+  function renderPlaces(excursion) {
+    document.querySelector("[data-places]").innerHTML=placeCards(excursion.canonicalPlaceIds);
+    const section=document.querySelector("[data-departure-places]");
+    const ids=excursion.departurePlaceIds || [],copy=departureCopy[language];
+    section.hidden=!ids.length;
+    section.innerHTML=ids.length ? `<h2>${copy[0]}</h2><p>${copy[1]}</p><button type="button" class="route-link" data-departure-overview>${copy[2]}</button><div class="places-grid">${placeCards(ids)}</div>` : "";
   }
 
   function renderEditorial(excursion) {
@@ -416,9 +437,13 @@
   }
 
   document.addEventListener("click",event=>{
-    const button = event.target.closest("[data-map-place],[data-map-point],[data-map-overview],[data-map-walk-overview],[data-walk-overview]");
+    const button = event.target.closest("[data-map-place],[data-map-point],[data-map-overview],[data-map-walk-overview],[data-walk-overview],[data-departure-overview]");
     if (!button) return;
-    if (button.hasAttribute("data-map-overview")) showMapOverview();
+    if(button.hasAttribute("data-departure-overview")) {
+      const points=(selectedExcursion().departurePlaceIds||[]).map(id=>place(id)?.location?.coordinates).filter(Boolean);
+      if(points.length){bringMapIntoView(map,"excursion-map");map.closePopup();map.fitBounds(points.map(p=>[p.lat,p.lng]),{padding:[45,45],maxZoom:16});}
+    }
+    else if (button.hasAttribute("data-map-overview")) showMapOverview();
     else if (button.hasAttribute("data-map-walk-overview") || button.hasAttribute("data-walk-overview")) showMapOverview(true);
     else focusMapPlace(button.dataset.mapPlace,button.dataset.mapPoint);
   });
