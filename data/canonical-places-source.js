@@ -1312,7 +1312,16 @@
           }
         ],
         "verifiedAt": "2026-10-18",
-        "currentAccessUnverified": true
+        "currentAccessUnverified": true,
+        "socialVerification": {
+          "checkedAt": "2026-10-18T19:08:46Z",
+          "audit": "/data/borek-social-audit.json",
+          "verifiedPosts": 9,
+          "missing": [
+            "instagram:he"
+          ],
+          "fallbackDisabled": true
+        }
       },
       "socialPosts": [
         {
@@ -1530,7 +1539,8 @@
         "navigation": {
           "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.08533%2C17.01765",
           "appleMaps": "https://maps.apple.com/?ll=51.08533,17.01765"
-        }
+        },
+        "socialProfileFallback": false
       }
     },
     {

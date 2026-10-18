@@ -96,8 +96,8 @@ test("Hebrew maps exclude verified historical posts from the English Instagram a
     assert.ok(place.socialPosts.some(p => p.context === "historical-cross-account"));
     const verified = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"))[id]?.find(p => p.platform === "instagram" && p.language === "he");
     const result = catalog.getSocialPost(place, "instagram", "he");
-    assert.equal(result.url, verified?.url || "https://www.instagram.com/wroclaw.lowersilesia.he/");
-    assert.ok(!place.socialPosts.some(p => p.context === "historical-cross-account" && p.url === result.url));
+    assert.equal(result?.url ?? null, verified?.url || (place.links?.socialProfileFallback === false ? null : "https://www.instagram.com/wroclaw.lowersilesia.he/"));
+    assert.ok(!place.socialPosts.some(p => p.context === "historical-cross-account" && p.url === result?.url));
   }
 });
 
@@ -131,4 +131,17 @@ test("explicit English Instagram account paths never route from Hebrew maps", ()
   assert.equal(catalog.getSocialPost(generic,"instagram","he").url,generic.socialPosts[0].url);
   const english = {socialPosts:[{platform:"instagram",language:"en",url:"https://www.instagram.com/wroclaw.lowersilesia/p/english-post/"}]};
   assert.equal(catalog.getSocialPost(english,"instagram","en").url,english.socialPosts[0].url);
+});
+
+test('Borek exposes only reviewed place posts and hides the missing Hebrew Instagram post', () => {
+  const catalog = loadCatalog();
+  const place = catalog.getPlace('wieza-cisnien-borek');
+  assert.equal(place.links.socialProfileFallback, false);
+  assert.equal(catalog.getSocialPost(place, 'instagram', 'he'), null);
+  const audit = JSON.parse(readFileSync(resolve(root, 'data/borek-social-audit.json'), 'utf8'));
+  assert.equal(audit.entries.length, 10);
+  for (const row of audit.entries.filter(row => row.status === 'verified-post')) {
+    assert.equal(catalog.getSocialPost(place, row.platform, row.language)?.url, row.url);
+    assert.ok(row.contentReviewed && row.account && row.checkedAt && row.evidence.length);
+  }
 });
