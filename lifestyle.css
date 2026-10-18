@@ -177,3 +177,9 @@ footer > div { display: grid; gap: 4px; } footer span { color: rgba(255,255,255,
   .media-grid img { height: auto; max-height: 70vh; }
   footer { align-items: flex-start; flex-direction: column; }
 }
+
+/* Jadwigi café visit photographs retain the full original view. */
+.media-grid img[src*="/food-cafes/jadwigi-"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
+.place-popup-photo[src*="/food-cafes/jadwigi-"] { object-fit:contain; background:#fffaf0; }
+.place-card[data-place="kawiarenka-sw-jadwigi"] p,
+.leaflet-popup-content:has(.place-popup-photo[src*="/food-cafes/jadwigi-"]) > span { white-space:pre-line; }
