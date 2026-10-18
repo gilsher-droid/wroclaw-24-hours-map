@@ -58,8 +58,13 @@ test('24-hour and four-day social actions use canonical identity across all lang
     // A shared picture source must never override the card's canonical place.
     const html=render({...item,resources:{facebook:'https://facebook.com/wrong-place',instagram:'https://instagram.com/wrong-place',gallery:['/original.jpg'],videos:[{src:'/original-video'}]}});
     for(const platform of ['facebook','instagram']) {
-     const expected=window.WROC_CATALOG.getSocialPost(place,platform,language).url.replaceAll('&','&amp;');
-     assert.ok(html.includes(expected),`${file} ${item.id} ${language} ${platform}`);
+     const post=window.WROC_CATALOG.getSocialPost(place,platform,language);
+     if(post) {
+      const expected=post.url.replaceAll('&','&amp;');
+      assert.ok(html.includes(expected),`${file} ${item.id} ${language} ${platform}`);
+     } else {
+      assert.ok(!html.includes(`class="resource-icon ${platform}-resource"`),`${file} ${item.id} ${language} hides missing ${platform} post`);
+     }
     }
     assert.ok(!html.includes('wrong-place'));
     assert.ok(html.includes('/navigate'));

@@ -22662,6 +22662,196 @@
       "cs"
     ]
   },
+  "park-szczytnicki-wroclaw": {
+    "id": "park-szczytnicki-wroclaw",
+    "localName": "Park Szczytnicki",
+    "name": {
+      "he": "פארק שטניצקי",
+      "en": "Szczytnicki Park",
+      "pl": "Park Szczytnicki",
+      "de": "Scheitniger Park",
+      "cs": "Park Szczytnicki"
+    },
+    "description": {
+      "he": "פארק נוף היסטורי במזרח ורוצלב, עם שדרות עצים, שבילים, מים ופינות שקטות להליכה. ראשיתו בגן שהוקם בשנת 1783, ובין האתרים שבשטחו כנסיית העץ של יוחנן מנפומוק. הגלריה מתעדת את הכנסייה, תעלת המים והעצים מהביקור שלנו. אפשר לשלבו ביום הביקור באזור היכל המאה. הגן היפני, היכל המאה והמזרקה נשארים נקודות נפרדות במפות, עם תנאי ביקור משלהם.",
+      "en": "A historic landscape park in eastern Wrocław, with tree-lined paths, water and quiet spaces for a walk. Its origins go back to a garden established in 1783; the wooden Church of St John of Nepomuk is one of its landmarks. Our gallery shows the church, a watercourse and trees from our visit. Combine a walk with the Centennial Hall area. The Japanese Garden, hall and fountain remain separate map places with their own visiting arrangements.",
+      "pl": "Zabytkowy park krajobrazowy we wschodnim Wrocławiu, z alejami drzew, wodą i spokojnymi miejscami na spacer. Jego początki sięgają ogrodu założonego w 1783 roku; jednym z obiektów jest drewniany kościół św. Jana Nepomucena. Nasza galeria pokazuje kościół, ciek wodny i drzewa podczas wizyty. Spacer można połączyć z okolicą Hali Stulecia. Ogród Japoński, hala i fontanna pozostają osobnymi punktami na mapach, z własnymi zasadami zwiedzania.",
+      "de": "Historischer Landschaftspark im Osten Breslaus mit baumbestandenen Wegen, Wasser und ruhigen Spazierplätzen. Seine Anfänge reichen zu einem 1783 angelegten Garten zurück; zu seinen Bauwerken gehört die Holzkirche des heiligen Johannes Nepomuk. Unsere Galerie zeigt Kirche, Wasserlauf und Bäume bei unserem Besuch. Ein Spaziergang lässt sich mit der Umgebung der Jahrhunderthalle verbinden. Japanischer Garten, Halle und Brunnen bleiben eigene Kartenorte mit eigenen Besuchsbedingungen.",
+      "cs": "Historický krajinářský park ve východní Vratislavi s alejemi stromů, vodou a klidnými místy k procházce. Jeho počátky sahají k zahradě založené roku 1783; jednou z památek je dřevěný kostel sv. Jana Nepomuckého. Naše galerie zachycuje kostel, vodní tok a stromy při návštěvě. Procházku lze spojit s okolím Haly století. Japonská zahrada, hala a fontána zůstávají samostatnými body na mapách s vlastními podmínkami návštěvy."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1081,
+        "lng": 17.082
+      },
+      "address": {
+        "street": "Park Szczytnicki, aleja Dąbska",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "activity",
+      "historical-landmark",
+      "nature",
+      "park"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Park Szczytnicki",
+      "Scheitniger Park",
+      "Szczytnicki Park",
+      "פארק שטניצקי",
+      "פארק שצ׳יטניצקי"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "recommendation",
+        "sourceId": "park-szczytnicki-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "wroclaw-four-days",
+        "sourceId": "park-szczytnicki-wroclaw",
+        "lat": 51.1081,
+        "lng": 17.082
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "activity",
+        "historical-landmark",
+        "nature",
+        "park"
+      ],
+      "tags": [
+        "park",
+        "landscape-design",
+        "walking",
+        "trees",
+        "history",
+        "wooden-architecture",
+        "wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zzm.wroc.pl/obiektyzzmcp/park-szczytnicki/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1081%2C17.0820",
+        "appleMaps": "https://maps.apple.com/?ll=51.1081,17.0820"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-18",
+      "representativeMapPoint": "Public park path by aleja Dąbska, source photo/video GPS cross-checked on OpenStreetMap against the Japanese Garden boundary; not the entire park centroid",
+      "factualSources": [
+        {
+          "url": "https://zzm.wroc.pl/obiektyzzmcp/park-szczytnicki/",
+          "verifiedAt": "2026-10-18",
+          "scope": "municipal parks authority: identity, historic aliases, origin, landscape composition, street boundaries and wooden church; exhibition grounds remain distinct"
+        },
+        {
+          "url": "https://www.wroclaw.pl/zielony-wroclaw/odkrywamy-wroclawskie-parki-park-szczytnicki-historia-miejsca",
+          "verifiedAt": "2026-10-18",
+          "scope": "municipal historical overview and named landmarks; historic prices/hours not reused"
+        },
+        {
+          "url": "https://www.openstreetmap.org/#map=18/51.1081/17.0819",
+          "verifiedAt": "2026-10-18",
+          "scope": "visual geographic check of geo-tagged original tree/path footage: public park east of canal, outside Japanese Garden boundary"
+        }
+      ],
+      "visitVideosPendingApproval": 2
+    },
+    "media": {
+      "photos": [
+        "/assets/szczytnicki-park/szczytnicki-park-01.jpg",
+        "/assets/szczytnicki-park/szczytnicki-park-02.jpg",
+        "/assets/szczytnicki-park/szczytnicki-park-03.jpg",
+        "/assets/szczytnicki-park/szczytnicki-park-04.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/szczytnicki-park/szczytnicki-park-01.jpg": {
+          "original": true,
+          "sourceFile": "פארק שטניצקי/WhatsApp Image 2026-09-24 at 19.21.11 (18).jpeg",
+          "sourceSHA256": "39efb820de230b557caa474aada8cb0c525f622b967887122685ab0143831658",
+          "publicationSHA256": "69f8565a8c24a672bff1bd53cd54750b2c647b226e954b27a8d6f21dec5e2ab6",
+          "scene": "wooden church exterior",
+          "heroCandidate": true
+        },
+        "/assets/szczytnicki-park/szczytnicki-park-02.jpg": {
+          "original": true,
+          "sourceFile": "פארק שטניצקי/WhatsApp Image 2026-09-24 at 17.33.32.jpeg",
+          "sourceSHA256": "5755c10431626a6f10b8ce7bb314031ba68680ce19f329fd1a5606803c3a4fde",
+          "publicationSHA256": "bb6ab534e682385a7fe8e95d120e4ee602cf4e5d78b6cace0273077f6425b635",
+          "scene": "public park watercourse",
+          "heroCandidate": false
+        },
+        "/assets/szczytnicki-park/szczytnicki-park-03.jpg": {
+          "original": true,
+          "sourceFile": "פארק שטניצקי/WhatsApp Image 2026-09-24 at 19.21.11 (17).jpeg",
+          "sourceSHA256": "42e4250e021d6877df74aa5fa7c7628209b724de615d2f48a61507fc2e52eca4",
+          "publicationSHA256": "e38830d9454d01b2ab4db4546c4693e5d654e4b6ed21ba84c30ee978615e3cb2",
+          "scene": "wooden church and surrounding trees",
+          "heroCandidate": false
+        },
+        "/assets/szczytnicki-park/szczytnicki-park-04.jpg": {
+          "original": true,
+          "sourceFile": "פארק שטניצקי/IMG_5795.JPG",
+          "sourceSHA256": "33ed0195ce87925a63a58f3638c746a588d2f76672bcfbc590d823a10432aa7e",
+          "publicationSHA256": "c7f0be96daede2baab04638144637df9e6cd58fcaf4cd5ccf8ed2a696918a546",
+          "scene": "protected tree beside park path",
+          "heroCandidate": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "parrot-coffee-bema": {
     "id": "parrot-coffee-bema",
     "localName": "Parrot Coffee – Bema",
@@ -34036,6 +34226,11 @@
   "wroclavia-station": "wroclavia",
   "ostrow-cathedral": "ostrow",
   "christmas-market": "rynek",
+  "Park Szczytnicki": "park-szczytnicki-wroclaw",
+  "Szczytnicki Park": "park-szczytnicki-wroclaw",
+  "Scheitniger Park": "park-szczytnicki-wroclaw",
+  "פארק שטניצקי": "park-szczytnicki-wroclaw",
+  "פארק שצ׳יטניצקי": "park-szczytnicki-wroclaw",
   "מגנוליה פארק": "magnolia",
   "מגנוליה": "magnolia",
   "פשיון אאוטלט": "fashion-outlet",

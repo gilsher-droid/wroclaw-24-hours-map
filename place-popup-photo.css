@@ -49,3 +49,6 @@
 
 /* The broad Bastion facade remains recognizable in its representative thumbnail. */
 .leaflet-popup-content .place-popup-photo-link[href="/assets/bastion-sakwowy-representative.jpg"] { width:112px; max-width:40%; }
+
+/* Keep the wooden church and its roof visible in the park thumbnail. */
+.place-popup-photo[src*="/szczytnicki-park/"] { object-fit:contain; background:#fffaf0; }
