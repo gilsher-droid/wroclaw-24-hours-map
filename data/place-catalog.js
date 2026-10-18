@@ -2781,6 +2781,10 @@
         "https://youtube.com/shorts/8omNiWR6tVI",
         "https://youtube.com/shorts/lu3GKpKwjE4"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/0OvV3ic5ukk",
+        "en": "https://youtube.com/shorts/WUcLYYodyrg"
+      },
       "metadata": {
         "/assets/czocha-boleslawiec/boleslawiec-old-town-069.jpg": {
           "original": true,

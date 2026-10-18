@@ -6181,6 +6181,7 @@
     ]
   },
   "media": {
+    "guideVideos": {"he": "https://youtube.com/shorts/0OvV3ic5ukk", "en": "https://youtube.com/shorts/WUcLYYodyrg"},
     "photos": [
       "/assets/czocha-boleslawiec/boleslawiec-old-town-069.jpg",
       "/assets/czocha-boleslawiec/boleslawiec-old-town-001.jpg",

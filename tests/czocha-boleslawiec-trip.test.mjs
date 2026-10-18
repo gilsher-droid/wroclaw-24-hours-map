@@ -12,7 +12,7 @@ test('Fourth excursion preserves castle overnight and breakfast before the morni
  assert.deepEqual(Array.from(trip.steps.filter(s=>s.day===2),s=>s.id),['breakfast','dam','return-car','town','museum','home']);
  assert.equal(trip.steps.find(s=>s.id==='overnight').day,1);assert.match(trip.navigation.morningWalk,/travelmode=walking/);
  assert.ok(!trip.navigation.googleMaps.includes('Zapora'),'The dam belongs to the separate morning walking navigation, not the car route');assert.equal(trip.travel.estimates.length,0);for(const lang of ['he','en','pl','de','cs']){assert.ok(trip.title[lang]);assert.ok(trip.days.every(d=>d.title[lang]));}
- for(const id of ids){const p=w.WROC_CATALOG.getPlace(id);assert.ok(p);assert.equal(p.location.regionId,'lower-silesia');assert.ok(!p.media.guideVideos,'Our guides are deferred to stage two');}
+ for(const id of ids){const p=w.WROC_CATALOG.getPlace(id);assert.ok(p);assert.equal(p.location.regionId,'lower-silesia');if(id==='boleslawiec-old-town')assert.deepEqual(Object.keys(p.media.guideVideos),['he','en']);else assert.ok(!p.media.guideVideos,'No supplied guides for other route points');}
 });
 test('New route photos are traceable, unique, unmodified optimized assets with family material held',()=>{
  const w=load(),proof=JSON.parse(readFileSync('data/czocha-boleslawiec-media-provenance.json','utf8'));

@@ -233,6 +233,25 @@
       },
       "verifiedAt": "2026-10-16",
       "method": "Native Studio Published manual source and translated tracks"
+    },
+    {
+      "place": "boleslawiec-old-town",
+      "videos": {
+        "he": "0OvV3ic5ukk",
+        "en": "WUcLYYodyrg"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translated tracks"
     }
   ]
 }

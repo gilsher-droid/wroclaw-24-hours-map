@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "boleslawiec-old-town"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/המדריך שלנו בולזלבייץ בעברית 2.mp4",
+      "sourceSHA256": "a61dd59e438c73269e2b88f9931fe7ca084eaddd7e6d5ebb055d3f061496489f",
+      "uploadSHA256": "a61dd59e438c73269e2b88f9931fe7ca084eaddd7e6d5ebb055d3f061496489f",
+      "videoId": "0OvV3ic5ukk",
+      "visibility": "Public",
+      "durationSeconds": 57.411667,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/המדריך שלנו/המדריך שלנו באנגלית.mp4",
+      "sourceSHA256": "fa8ee336916bd76cf71d650862aa5edb296a5af8298bdd738a0134de06b1ea9e",
+      "uploadSHA256": "fa8ee336916bd76cf71d650862aa5edb296a5af8298bdd738a0134de06b1ea9e",
+      "videoId": "WUcLYYodyrg",
+      "visibility": "Public",
+      "durationSeconds": 70.633333,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "assets/captions/boleslawiec-old-town-he.srt",
+      "srtSHA256": "b969225c9ca16a2e1b29d2cdf8abdf316f9509f5fb95046807fa835cc25a757a",
+      "cues": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "ערב טוב. אני נמצא בעיר בולסלבייץ."
+        },
+        {
+          "start": 5,
+          "end": 8.74,
+          "text": "נקודת עצירה שווה מאוד בשלזיה התחתית."
+        },
+        {
+          "start": 8.74,
+          "end": 15.64,
+          "text": "לא רק שהעיר הזאת היא מאוד יפה ומרשימה בזכות הבתים הצבעוניים שיש כאן,"
+        },
+        {
+          "start": 15.64,
+          "end": 20.24,
+          "text": "בית העירייה ועוד מבנים מרשימים כמו הכנסייה הזאת שנמצאת מאחוריי."
+        },
+        {
+          "start": 20.24,
+          "end": 26.46,
+          "text": "העיר הזאת מפורסמת בכל העולם בזכות הקרמיקה שיוצאת מכאן."
+        },
+        {
+          "start": 26.46,
+          "end": 32.46,
+          "text": "מדובר בבירת הקרמיקה של פולין. אני מזמין אתכם לבקר במוזיאון הקרמיקה החדש,"
+        },
+        {
+          "start": 32.98,
+          "end": 38.8,
+          "text": "מוזיאון מאוד מאוד מעניין, עם הרבה מאוד מיצגים בשפה האנגלית."
+        },
+        {
+          "start": 38.8,
+          "end": 43.96,
+          "text": "וכמו כן מומלץ לבקר ביצרני הקרמיקה שפזורים פה בעיר."
+        },
+        {
+          "start": 43.96,
+          "end": 48.46,
+          "text": "שם גם תוכלו לקנות את כלי הקרמיקה שמיוצרים כאן."
+        },
+        {
+          "start": 49.46,
+          "end": 52.02,
+          "text": "אז עם ההמלצה הזאת אני אאחל לכם"
+        },
+        {
+          "start": 52.02,
+          "end": 56.04,
+          "text": "דוברנוץ, לילה טוב, דו וידזניה!"
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "assets/captions/boleslawiec-old-town-en.srt",
+      "srtSHA256": "c234d582723e315a15693c989085ff68f2e1bd165f4cbd5baa4f03e043f53482",
+      "cues": [
+        {
+          "start": 0,
+          "end": 6.84,
+          "text": "Dobry wieczór, good evening. So I am happy to share with you"
+        },
+        {
+          "start": 6.84,
+          "end": 9.02,
+          "text": "my experience in this amazing"
+        },
+        {
+          "start": 9.02,
+          "end": 12.8,
+          "text": "town called Bolesławiec. Not only"
+        },
+        {
+          "start": 12.8,
+          "end": 17.3,
+          "text": "is it a very charming little town with all of those"
+        },
+        {
+          "start": 17.44,
+          "end": 21.62,
+          "text": "colourful buildings and impressive monuments and churches"
+        },
+        {
+          "start": 21.62,
+          "end": 25.0,
+          "text": "and the city hall behind me"
+        },
+        {
+          "start": 25,
+          "end": 28.72,
+          "text": "and the fountain. It is also considered the capital"
+        },
+        {
+          "start": 28.72,
+          "end": 32.32,
+          "text": "of ceramics and porcelain of Poland."
+        },
+        {
+          "start": 33.02,
+          "end": 40.86,
+          "text": "It is a world-renowned place for manufacturing ceramics,"
+        },
+        {
+          "start": 40.86,
+          "end": 42.72,
+          "text": "and if you want to buy ceramics,"
+        },
+        {
+          "start": 42.92,
+          "end": 48.1,
+          "text": "I invite you to go to one of the manufacturers that are spread around the city. Also, do not"
+        },
+        {
+          "start": 48.1,
+          "end": 52.42,
+          "text": "forget to visit the Museum of Ceramics that presents"
+        },
+        {
+          "start": 52.42,
+          "end": 55.32,
+          "text": "amazing artefacts throughout the history"
+        },
+        {
+          "start": 55.32,
+          "end": 60.46,
+          "text": "of this place. Of course, you can also view the exhibits"
+        },
+        {
+          "start": 60.46,
+          "end": 62.82,
+          "text": "and get the explanations in English."
+        },
+        {
+          "start": 64,
+          "end": 69.44,
+          "text": "So on that note, I am going to wish you dobranoc, good night, and do widzenia."
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "assets/captions/boleslawiec-old-town-de.srt",
+      "srtSHA256": "59ef9050f950a7f8c33335262d3093b770c2a4ac67c00a36581889cd104f8450",
+      "cues": [
+        {
+          "start": 0,
+          "end": 6.84,
+          "text": "Dobry wieczór, guten Abend. Ich freue mich, euch"
+        },
+        {
+          "start": 6.84,
+          "end": 9.02,
+          "text": "von meinen Erlebnissen in dieser wunderbaren"
+        },
+        {
+          "start": 9.02,
+          "end": 12.8,
+          "text": "Stadt namens Bolesławiec zu erzählen. Sie ist nicht nur"
+        },
+        {
+          "start": 12.8,
+          "end": 17.3,
+          "text": "eine sehr charmante kleine Stadt mit all diesen"
+        },
+        {
+          "start": 17.44,
+          "end": 21.62,
+          "text": "farbenfrohen Gebäuden, beeindruckenden Bauwerken und Kirchen"
+        },
+        {
+          "start": 21.62,
+          "end": 25.0,
+          "text": "und dem Rathaus hinter mir"
+        },
+        {
+          "start": 25,
+          "end": 28.72,
+          "text": "und dem Brunnen. Sie gilt auch als Hauptstadt"
+        },
+        {
+          "start": 28.72,
+          "end": 32.32,
+          "text": "der Keramik und des Porzellans in Polen."
+        },
+        {
+          "start": 33.02,
+          "end": 40.86,
+          "text": "Sie ist für ihre Keramikherstellung weltweit bekannt."
+        },
+        {
+          "start": 40.86,
+          "end": 42.72,
+          "text": "Wenn ihr Keramik kaufen möchtet,"
+        },
+        {
+          "start": 42.92,
+          "end": 48.1,
+          "text": "lade ich euch ein, eine der Manufakturen in der Stadt zu besuchen. Vergesst auch nicht,"
+        },
+        {
+          "start": 48.1,
+          "end": 52.42,
+          "text": "das Keramikmuseum zu besuchen. Es zeigt"
+        },
+        {
+          "start": 52.42,
+          "end": 55.32,
+          "text": "beeindruckende Objekte aus der Geschichte"
+        },
+        {
+          "start": 55.32,
+          "end": 60.46,
+          "text": "dieses Ortes. Natürlich könnt ihr die Ausstellungen auch ansehen"
+        },
+        {
+          "start": 60.46,
+          "end": 62.82,
+          "text": "und Erklärungen auf Englisch erhalten."
+        },
+        {
+          "start": 64,
+          "end": 69.44,
+          "text": "In diesem Sinne wünsche ich euch dobranoc, gute Nacht und auf Wiedersehen."
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "assets/captions/boleslawiec-old-town-cs.srt",
+      "srtSHA256": "b6b65dacab1d38a0c1e07dfd8986c7c4424294814b4c491b347635ebad45a29a",
+      "cues": [
+        {
+          "start": 0,
+          "end": 6.84,
+          "text": "Dobry wieczór, dobrý večer. Rád se s vámi podělím"
+        },
+        {
+          "start": 6.84,
+          "end": 9.02,
+          "text": "o své zážitky z tohoto úžasného"
+        },
+        {
+          "start": 9.02,
+          "end": 12.8,
+          "text": "města jménem Bolesławiec. Je to nejen"
+        },
+        {
+          "start": 12.8,
+          "end": 17.3,
+          "text": "velmi půvabné městečko se všemi těmi"
+        },
+        {
+          "start": 17.44,
+          "end": 21.62,
+          "text": "barevnými domy, působivými památkami a kostely"
+        },
+        {
+          "start": 21.62,
+          "end": 25.0,
+          "text": "a radnicí za mnou"
+        },
+        {
+          "start": 25,
+          "end": 28.72,
+          "text": "a kašnou. Je také považováno za hlavní město"
+        },
+        {
+          "start": 28.72,
+          "end": 32.32,
+          "text": "keramiky a porcelánu v Polsku."
+        },
+        {
+          "start": 33.02,
+          "end": 40.86,
+          "text": "Je to světoznámé místo výroby keramiky."
+        },
+        {
+          "start": 40.86,
+          "end": 42.72,
+          "text": "Pokud si chcete keramiku koupit,"
+        },
+        {
+          "start": 42.92,
+          "end": 48.1,
+          "text": "zvu vás k návštěvě některého z výrobců po městě. Nezapomeňte také"
+        },
+        {
+          "start": 48.1,
+          "end": 52.42,
+          "text": "navštívit Muzeum keramiky, které představuje"
+        },
+        {
+          "start": 52.42,
+          "end": 55.32,
+          "text": "úžasné předměty z historie"
+        },
+        {
+          "start": 55.32,
+          "end": 60.46,
+          "text": "tohoto místa. Expozice si samozřejmě můžete prohlédnout"
+        },
+        {
+          "start": 60.46,
+          "end": 62.82,
+          "text": "a získat vysvětlení v angličtině."
+        },
+        {
+          "start": 64,
+          "end": 69.44,
+          "text": "A tak vám přeji dobranoc, dobrou noc a na shledanou."
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "assets/captions/boleslawiec-old-town-pl.srt",
+      "srtSHA256": "9d0b975f7696d1452e94e586cf337eb225409a9a77df44e9556418b4c2a8ded5",
+      "cues": [
+        {
+          "start": 0,
+          "end": 6.84,
+          "text": "Dobry wieczór. Cieszę się, że mogę podzielić się z wami"
+        },
+        {
+          "start": 6.84,
+          "end": 9.02,
+          "text": "moimi wrażeniami z tego wspaniałego"
+        },
+        {
+          "start": 9.02,
+          "end": 12.8,
+          "text": "miasta o nazwie Bolesławiec. To nie tylko"
+        },
+        {
+          "start": 12.8,
+          "end": 17.3,
+          "text": "bardzo urokliwe miasteczko ze wszystkimi tymi"
+        },
+        {
+          "start": 17.44,
+          "end": 21.62,
+          "text": "kolorowymi budynkami, imponującymi zabytkami i kościołami"
+        },
+        {
+          "start": 21.62,
+          "end": 25.0,
+          "text": "oraz ratuszem za mną"
+        },
+        {
+          "start": 25,
+          "end": 28.72,
+          "text": "i fontanną. Jest również uważane za stolicę"
+        },
+        {
+          "start": 28.72,
+          "end": 32.32,
+          "text": "ceramiki i porcelany w Polsce."
+        },
+        {
+          "start": 33.02,
+          "end": 40.86,
+          "text": "To miejsce znane na całym świecie z produkcji ceramiki."
+        },
+        {
+          "start": 40.86,
+          "end": 42.72,
+          "text": "Jeśli chcecie kupić ceramikę,"
+        },
+        {
+          "start": 42.92,
+          "end": 48.1,
+          "text": "zapraszam do jednego z producentów rozsianych po mieście. Nie zapomnijcie też"
+        },
+        {
+          "start": 48.1,
+          "end": 52.42,
+          "text": "odwiedzić Muzeum Ceramiki, które prezentuje"
+        },
+        {
+          "start": 52.42,
+          "end": 55.32,
+          "text": "wspaniałe eksponaty z historii"
+        },
+        {
+          "start": 55.32,
+          "end": 60.46,
+          "text": "tego miejsca. Oczywiście możecie też oglądać wystawy"
+        },
+        {
+          "start": 60.46,
+          "end": 62.82,
+          "text": "i korzystać z objaśnień w języku angielskim."
+        },
+        {
+          "start": 64,
+          "end": 69.44,
+          "text": "Na zakończenie życzę wam dobranoc i do widzenia."
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    }
+  },
+  "transcription": "Local source-audio ASR word timing, proper-name spelling cleanup and native source transcript cross-check; faithful translations of spoken narrative",
+  "bloopersExcluded": true,
+  "originalsPreserved": true
+}
