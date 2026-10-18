@@ -126,6 +126,7 @@
   };
 
   const resources = {
+    "magnolia": canonicalResources("magnolia"),
     "fashion-outlet": canonicalResources("fashion-outlet"),
     "ato-ramen": canonicalResources("ato-ramen"),
     bastion: canonicalResources("bastion"),

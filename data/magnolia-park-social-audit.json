@@ -1,0 +1,136 @@
+{
+  "placeId": "magnolia",
+  "entries": [
+    {
+      "platform": "facebook",
+      "language": "cs",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JBqwhKbmcnwZbpgRvhzPayWvgDGuE25zaHgivDtZJBH2JL3gohqd4AwoFm1QoQMjl&id=61594716405964",
+      "status": "verified-post",
+      "account": "Wroc-Love Vratislav a Dolní Slezsko",
+      "contentReviewed": "Magnolia Park ve Vratislavi  Nákupní centrum Magnolia Park najdete v nákupní vrstvě naší komunitní mapy. Uložte si ho do vlastní trasy, když chcete poznávání Vratislavi spojit s praktickou nákupní zastávkou.",
+      "checkedAt": "2026-10-18T19:11:51.493Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/facebook-cs.txt",
+        "outputs/magnolia-park-enrichment/social-audit/facebook-cs.png"
+      ]
+    },
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0k6gmNh3gBWJr6enydEK82uCtxRnmxMjeiagAc3ysmyXtwZA2Af8DkfXipwoSfEtPl&id=61595036942289",
+      "status": "verified-post",
+      "account": "Wroc-Love Wrocław & Lower Silesia",
+      "contentReviewed": "A shopping stop on Legnicka.  Magnolia Park at Legnicka 58 brings shops, cafés, restaurants and services together in one Wrocław shopping centre. It can be a practical stop when you want to combine shopping with a meal or coffee. Find Magnolia Park on our English lifestyle map:",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/facebook-en.txt",
+        "outputs/magnolia-park-enrichment/social-audit/facebook-en.png"
+      ]
+    },
+    {
+      "platform": "facebook",
+      "language": "de",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0WYNecibTm8Ta29DsEPnfxksRQUUv2jHfGJwLnNmTnceuFs81Xi9AQCLEX5bFaqdyl&id=61595239823399",
+      "status": "verified-post",
+      "account": "Wroc-Love Breslau und Niederschlesien",
+      "contentReviewed": "Magnolia Park an der ul. Legnicka 58.  Findet Magnolia Park auf unserer Lifestyle-Karte auf Deutsch: #Breslau #MagnoliaPark #Shopping",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/facebook-de.txt",
+        "outputs/magnolia-park-enrichment/social-audit/facebook-de.png"
+      ]
+    },
+    {
+      "platform": "facebook",
+      "language": "pl",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid0ZzmrdNtoUmxtk6EgGsuB9EcosqUAz2fEENjSBS2gpCwp1jAb3eb23mK5VoutiN7gl&id=61595207664875",
+      "status": "verified-post",
+      "account": "Wroc-Love Wrocław i Dolny Śląsk",
+      "contentReviewed": "Magnolia Park: podróż czasem robi przerwę na zakupy.  Nie każda wrocławska trasa musi składać się wyłącznie z zabytków. Magnolia Park to centrum handlowe zaznaczone na naszej mapie lifestyle — pomysł na osobny przystanek, kiedy macie ochotę zmienić rytm miejskiego dnia. Znajdźcie Magnolia Park na naszej mapie po polsku:",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/facebook-pl.txt",
+        "outputs/magnolia-park-enrichment/social-audit/facebook-pl.png"
+      ]
+    },
+    {
+      "platform": "facebook",
+      "language": "he",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02zBMmxFhGwSukS3gVgNXue97ZNr1bmUHNh84oux9wip2rtrhhpsWxDjshPreD6UD4l&id=61591964083308",
+      "status": "verified-post",
+      "account": "וורוצלב ושלזיה התחתית",
+      "contentReviewed": "מגנוליה פארק הוא מרכז קניות ובילוי בוורוצלב, עם חנויות, בתי קפה, מסעדות ושירותים — אפשרות לעצירה עירונית כשמתחשק לשלב שיטוט עם קצת קניות או ארוחה. Magnolia Park Legnicka 58, Wrocław",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/facebook-he.txt",
+        "outputs/magnolia-park-enrichment/social-audit/facebook-he.png"
+      ]
+    },
+    {
+      "platform": "instagram",
+      "language": "en",
+      "url": "https://www.instagram.com/p/DeRukIljkyA/",
+      "status": "verified-post",
+      "account": "wroclaw.lowersilesia",
+      "contentReviewed": "Magnolia Park at Legnicka 58 brings shops, cafés, restaurants and services together in western Wrocław. Our original visit photo catches its signed glass entrance, brick façade and water feature — a different city scene from the Old Town lanes. Find Magnolia Park on our English lifestyle map through the website link in our profile:",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/instagram-en.txt",
+        "outputs/magnolia-park-enrichment/social-audit/instagram-en.png"
+      ]
+    },
+    {
+      "platform": "instagram",
+      "language": "pl",
+      "url": "https://www.instagram.com/p/DeTwdw_j9oy/",
+      "status": "verified-post",
+      "account": "wroclaw.lowersilesia.pl",
+      "contentReviewed": "Magnolia Park: dziś w planie mała zmiana tempa. 🛍️ Wrocław można odkrywać także między zakupami a przerwą przy stoliku. Na naszym zdjęciu z wizyty widać charakterystyczne wejście do Magnolia Park: duży szyld, szklaną fasadę i wodę przed budynkiem. To osobny zakupowy przystanek na naszej mapie miasta. Magnolia Park znajdziecie na naszej interaktywnej mapie lifestyle po polsku:",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/instagram-pl.txt",
+        "outputs/magnolia-park-enrichment/social-audit/instagram-pl.png"
+      ]
+    },
+    {
+      "platform": "instagram",
+      "language": "de",
+      "url": "https://www.instagram.com/p/DeUNdoNj55L/",
+      "status": "verified-post",
+      "account": "wroclaw.lowersilesia.de",
+      "contentReviewed": "Magnolia Park: ein anderer Rhythmus für einen Tag in Breslau. 🛍️ Plant ihr eure Einkäufe unterwegs lieber mit einer Liste oder lasst ihr euch überraschen? Magnolia Park ist ein eigener Einkaufsstopp auf unserer Stadtkarte, außerhalb des Altstadtspaziergangs. Findet Magnolia Park auf unserer interaktiven Lifestyle-Karte auf Deutsch:",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/instagram-de.txt",
+        "outputs/magnolia-park-enrichment/social-audit/instagram-de.png"
+      ]
+    },
+    {
+      "platform": "instagram",
+      "language": "cs",
+      "url": "https://www.instagram.com/p/DeUi8NkiRhf/",
+      "status": "verified-post",
+      "account": "wroclaw.lowersilesia.cs",
+      "contentReviewed": "Magnolia Park: vratislavská zastávka, kterou poznáte už od vchodu. 🛍️ Magnolia Park najdete v nákupní vrstvě naší interaktivní komunitní mapy v češtině: #Vratislav #MagnoliaPark #Cestovani #WrocLove",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/instagram-cs.txt",
+        "outputs/magnolia-park-enrichment/social-audit/instagram-cs.png"
+      ]
+    },
+    {
+      "platform": "instagram",
+      "language": "he",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUuxSqkUrj/",
+      "status": "verified-post",
+      "account": "wroclaw.lowersilesia.he",
+      "contentReviewed": "מגנוליה פארק: גם עצירה לקניות יכולה להיכנס לאלבום של הטיול. 🛍️ Magnolia Park מצאו את מגנוליה פארק כנקודה נפרדת במפת הלייף־סטייל שלנו בעברית:",
+      "checkedAt": "2026-10-18T19:11:51.495Z",
+      "evidence": [
+        "outputs/magnolia-park-enrichment/social-audit/instagram-he.txt",
+        "outputs/magnolia-park-enrichment/social-audit/instagram-he.png"
+      ]
+    }
+  ],
+  "newSocialPostsPublished": false
+}

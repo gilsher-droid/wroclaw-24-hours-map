@@ -27,6 +27,205 @@
   // geography explicitly; no city is inferred by the catalog generator.
   window.WROC_CANONICAL_PLACE_SOURCE = [
 {
+  "id": "magnolia",
+  "aliases": [
+    "מגנוליה פארק",
+    "מגנוליה"
+  ],
+  "localName": "Magnolia Park",
+  "name": {
+    "he": "מגנוליה פארק",
+    "en": "Magnolia Park",
+    "pl": "Magnolia Park",
+    "de": "Magnolia Park",
+    "cs": "Magnolia Park"
+  },
+  "description": {
+    "he": "מרכז קניות ברחוב לגניצקה, עם חנויות, בתי קפה, מסעדות ושירותים במתחם אחד. בגלריית הביקור שלנו נראים הכניסה והמזרקה בחוץ, מעברי החנויות, ארוחה במתחם האוכל והחלל המרכזי המקורה בזכוכית. מתאים להפסקת קניות וארוחה מחוץ לעיר העתיקה, וגם כשמחפשים פעילות מקורה. בדקו באתר הרשמי את החנויות, ההגעה ושעות הפתיחה, ובמיוחד את ימי ראשון המסחריים והחגים. התמונות מציגות את הביקור שלנו, ולא תצוגות או מבצעים המובטחים כיום.",
+    "en": "A shopping centre on Legnicka with shops, cafés, restaurants and services in one complex. Our visit gallery shows the entrance and outdoor fountain, shopping passages, a food-court meal and the central glass-roofed atrium. Consider a shopping and food break outside the Old Town, including when you want an indoor activity. Check the official website for stores, access and opening hours, especially trading Sundays and holidays. The photographs show our visit rather than displays or offers guaranteed today.",
+    "pl": "Centrum handlowe przy ulicy Legnickiej ze sklepami, kawiarniami, restauracjami i usługami w jednym kompleksie. Galeria z naszej wizyty pokazuje wejście i fontannę na zewnątrz, pasaże sklepowe, posiłek w strefie gastronomicznej oraz centralne atrium pod szklanym dachem. To propozycja zakupów i przerwy na jedzenie poza Starym Miastem, również gdy szukasz aktywności pod dachem. Sklepy, dojazd i godziny otwarcia, zwłaszcza w niedziele handlowe i święta, sprawdź na oficjalnej stronie. Zdjęcia pokazują naszą wizytę, nie gwarantują dzisiejszych ekspozycji czy promocji.",
+    "de": "Einkaufszentrum an der Legnicka mit Geschäften, Cafés, Restaurants und Dienstleistungen in einem Komplex. Unsere Besuchsgalerie zeigt den Eingang und den Brunnen im Freien, Einkaufspassagen, ein Essen im Gastronomiebereich und das zentrale Atrium unter einem Glasdach. Ein Einkaufs- und Essensstopp außerhalb der Altstadt, auch bei der Suche nach einer Aktivität im Innenraum. Geschäfte, Anreise und Öffnungszeiten, besonders an verkaufsoffenen Sonntagen und Feiertagen, auf der offiziellen Website prüfen. Die Fotos zeigen unseren Besuch und garantieren keine heutigen Ausstellungen oder Angebote.",
+    "cs": "Nákupní centrum v ulici Legnicka s obchody, kavárnami, restauracemi a službami v jednom komplexu. Galerie z naší návštěvy ukazuje vstup a venkovní fontánu, nákupní pasáže, jídlo ve stravovací zóně a centrální atrium pod skleněnou střechou. Hodí se na nákupní a stravovací zastávku mimo Staré Město, také pokud hledáte aktivitu pod střechou. Obchody, příjezd a otevírací dobu, zejména o prodejních nedělích a svátcích, ověřte na oficiálním webu. Fotografie zachycují naši návštěvu a nezaručují dnešní expozice ani nabídky."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1187024,
+      "lng": 16.9896567
+    },
+    "address": {
+      "street": "Legnicka 58",
+      "postalCode": "54-204",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "buy",
+    "eat"
+  ],
+  "taxonomy": {
+    "tags": [
+      "shopping-centre",
+      "food-court",
+      "indoor",
+      "wroclaw"
+    ]
+  },
+  "links": {
+    "website": "https://www.magnoliapark.pl/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1187024%2C16.9896567",
+      "appleMaps": "https://maps.apple.com/?ll=51.1187024,16.9896567"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/food-cafes/magnolia-park-01.jpg",
+      "/assets/food-cafes/magnolia-park-02.jpg",
+      "/assets/food-cafes/magnolia-park-03.jpg",
+      "/assets/food-cafes/magnolia-park-04.jpg",
+      "/assets/food-cafes/magnolia-park-05.jpg",
+      "/assets/food-cafes/magnolia-park-06.jpg",
+      "/assets/food-cafes/magnolia-park-07.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/food-cafes/magnolia-park-01.jpg": {
+        "original": true,
+        "sourceFile": "Magnolia park/IMG_4906.JPG",
+        "sourceSHA256": "b5caa6f85e8cdbeef7b557f64ba446cb0ae941ecc49cc0f67340be5046b375f0",
+        "assetSHA256": "db1f5d1595462271fbdfb643126b2bae4ccc113467c74ae4e4c65a176833875b",
+        "alt": {
+          "he": "חזית מרכז הקניות והכניסה",
+          "en": "Shopping centre frontage and entrance",
+          "pl": "Fasada centrum handlowego i wejście",
+          "de": "Fassade und Eingang des Einkaufszentrums",
+          "cs": "Průčelí nákupního centra a vstup"
+        },
+        "heroCandidate": true
+      },
+      "/assets/food-cafes/magnolia-park-02.jpg": {
+        "original": true,
+        "sourceFile": "Magnolia park/IMG_4903.JPG",
+        "sourceSHA256": "31012da1dc602d18a139faa31c39f3af520cd9e1b8de29f04fa09b423b3b75e0",
+        "assetSHA256": "a0c367a7f6305c37d538aa4c2f26ebaf60725b2b4245b092cf2f87fa2090636a",
+        "alt": {
+          "he": "המזרקה והרחבה בחזית המרכז",
+          "en": "Fountain and square in front of the centre",
+          "pl": "Fontanna i plac przed centrum",
+          "de": "Brunnen und Platz vor dem Center",
+          "cs": "Fontána a prostranství před centrem"
+        },
+        "heroCandidate": false
+      },
+      "/assets/food-cafes/magnolia-park-03.jpg": {
+        "original": true,
+        "sourceFile": "Magnolia park/IMG_4912.JPG",
+        "sourceSHA256": "7b8119118378891ae9242618dd6bb8fa684f364708b33a196099df6ee49baa24",
+        "assetSHA256": "5e000d6ded5661c47c6b535241881d0cc2f538ba6c911b5a2f9c200490fc6734",
+        "alt": {
+          "he": "מעבר מקורה בין החנויות",
+          "en": "Covered shopping passage",
+          "pl": "Kryty pasaż handlowy",
+          "de": "Überdachte Einkaufspassage",
+          "cs": "Zastřešená nákupní pasáž"
+        },
+        "heroCandidate": false
+      },
+      "/assets/food-cafes/magnolia-park-04.jpg": {
+        "original": true,
+        "sourceFile": "Magnolia park/IMG_4913.JPG",
+        "sourceSHA256": "706e85966424b6ce68354f90855520425a18f1135fe9321563533935426b6d13",
+        "assetSHA256": "d46948167f40377911d7fb749e66984a450ca997b87c2a3b174e9bb15eb29fa6",
+        "alt": {
+          "he": "ארוחה במתחם האוכל במהלך הביקור",
+          "en": "Meal in the food court during our visit",
+          "pl": "Posiłek w strefie gastronomicznej podczas naszej wizyty",
+          "de": "Essen im Gastronomiebereich bei unserem Besuch",
+          "cs": "Jídlo ve stravovací zóně při naší návštěvě"
+        },
+        "heroCandidate": false
+      },
+      "/assets/food-cafes/magnolia-park-05.jpg": {
+        "original": true,
+        "sourceFile": "Magnolia park/IMG_4918.JPG",
+        "sourceSHA256": "074748f500d0adb1cf9315a39ddf6562b339fe0d6ed7588e45e656f5bb6a2713",
+        "assetSHA256": "e72cb7592880ca32489e0f55d61eab8e6c8a6f62592e0c32f1bd6b2c2ee70a1f",
+        "alt": {
+          "he": "החלל המרכזי והקירוי העגול",
+          "en": "Central atrium and circular skylight",
+          "pl": "Centralne atrium i okrągły świetlik",
+          "de": "Zentrales Atrium und rundes Oberlicht",
+          "cs": "Centrální atrium a kruhový světlík"
+        },
+        "heroCandidate": false
+      },
+      "/assets/food-cafes/magnolia-park-06.jpg": {
+        "original": true,
+        "sourceFile": "Magnolia park/IMG_4920.JPG",
+        "sourceSHA256": "bc7e9362e83c015b8cd8f0cd0ffd6d357705c5b9233e1c8604ec1407fa9eada8",
+        "assetSHA256": "b609dfad3cdc3f983f9ea19a8998a55e3059f045e35659f7208907b1a85b4db7",
+        "alt": {
+          "he": "מבט נוסף על הגלריות והמדרגות הנעות",
+          "en": "Another view of galleries and escalators",
+          "pl": "Dodatkowy widok galerii i schodów ruchomych",
+          "de": "Weitere Ansicht der Galerien und Rolltreppen",
+          "cs": "Další pohled na galerie a eskalátory"
+        },
+        "heroCandidate": false
+      },
+      "/assets/food-cafes/magnolia-park-07.jpg": {
+        "original": true,
+        "sourceFile": "Magnolia park/IMG_4923.JPG",
+        "sourceSHA256": "70fb587518454c8fe83b459e212977983aa818bb16d59e46b929285e1c440c86",
+        "assetSHA256": "3bd556c57035c0ba6e3aab267d27d91f3154f8c45002fa5739d6d43bc50d11d1",
+        "alt": {
+          "he": "אזור החנויות והחלל לתצוגות מתחלפות",
+          "en": "Shopping area and temporary display space",
+          "pl": "Strefa sklepów i przestrzeń wystaw czasowych",
+          "de": "Einkaufsbereich und Fläche für wechselnde Präsentationen",
+          "cs": "Nákupní zóna a prostor pro dočasné prezentace"
+        },
+        "heroCandidate": false
+      }
+    }
+  },
+  "provenance": {
+    "personalVisit": true,
+    "originalPhotography": true,
+    "verifiedAt": "2026-10-18",
+    "factualSources": [
+      {
+        "url": "https://www.magnoliapark.pl/kontakt",
+        "verifiedAt": "2026-10-18",
+        "scope": "official identity,address Legnicka58, shopping and dining facilities; no mutable hours, stock or counts copied"
+      },
+      {
+        "url": "https://geoportal.wroclaw.pl/poi/poi/1849",
+        "verifiedAt": "2026-10-18",
+        "scope": "municipal indexed identity/address only;2017contact details are historical and not reused"
+      }
+    ],
+    "socialVerification": {
+      "audit": "/data/magnolia-park-social-audit.json",
+      "verifiedPosts": 10,
+      "checkedAt": "2026-10-18"
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
+{
   "id": "fashion-outlet",
   "aliases": [
     "פשיון אאוטלט",
