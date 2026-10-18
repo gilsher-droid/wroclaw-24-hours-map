@@ -126,6 +126,7 @@
   };
 
   const resources = {
+    "lodziarnia-roma": canonicalResources("lodziarnia-roma"),
     "pizza-si": canonicalResources("pizza-si"),
     "czarna-magia": canonicalResources("czarna-magia"),
     "mala-czarna-paderewskiego": canonicalResources("mala-czarna-paderewskiego"),

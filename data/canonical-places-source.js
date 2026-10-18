@@ -7140,5 +7140,90 @@
     "cs"
   ]
 },
+{
+  "id": "lodziarnia-roma",
+  "localName": "Lodziarnia Roma",
+  "name": {
+    "he": "גלידריית רומא",
+    "en": "Lodziarnia Roma",
+    "pl": "Lodziarnia Roma",
+    "de": "Eisdiele Roma",
+    "cs": "Zmrzlinárna Roma"
+  },
+  "description": {
+    "he": "גלידרייה בשכונת נדאודז׳ה. בגלריה תמונות וסרטונים מהביקור שלנו, עם ויטרינת הגלידות, תפריט הביקור וחזית המקום. הטעמים והמחירים המופיעים בצילומים משקפים את מועד הביקור.",
+    "en": "An ice-cream shop in Nadodrze. Our visit gallery shows the ice-cream counter, the menu from our visit and the exterior. Flavours and prices shown reflect the visit date.",
+    "pl": "Lodziarnia na Nadodrzu. W galerii z naszej wizyty są zdjęcia i filmy lady z lodami, ówczesnego menu i elewacji lokalu. Smaki i ceny na zdjęciach dotyczą dnia wizyty.",
+    "de": "Eine Eisdiele in Nadodrze. Unsere Besuchsgalerie zeigt die Eistheke, die damalige Speisekarte und die Außenansicht. Abgebildete Sorten und Preise beziehen sich auf den Besuchszeitpunkt.",
+    "cs": "Zmrzlinárna ve čtvrti Nadodrze. Galerie z naší návštěvy ukazuje pult se zmrzlinou, tehdejší nabídku a průčelí podniku. Vyobrazené příchutě a ceny odpovídají době návštěvy."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.117917,
+      "lng": 17.0343499
+    }
+  },
+  "categories": [
+    "drink"
+  ],
+  "media": {
+    "photos": [
+      "/assets/food-cafes/lodziarnia-roma-01.jpg",
+      "/assets/food-cafes/lodziarnia-roma-02.jpg",
+      "/assets/food-cafes/lodziarnia-roma-03.jpg"
+    ],
+    "videos": [
+      "/assets/lodziarnia-roma-visit-01.mp4",
+      "/assets/lodziarnia-roma-visit-02.mp4",
+      "/assets/lodziarnia-roma-visit-03.mp4",
+      "/assets/lodziarnia-roma-visit-04.mp4"
+    ],
+    "metadata": {
+      "/assets/food-cafes/lodziarnia-roma-01.jpg": {
+        "original": true,
+        "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.35 (1).jpeg",
+        "sourceSHA256": "fe2e19aaa9e575e85fc34d27d16611dd5fc8d3d7195fe02e7ef951754b9af347",
+        "heroCandidate": true,
+        "personalPhotoException": false,
+        "personalPhotoExceptionAuthorizedAt": null
+      },
+      "/assets/food-cafes/lodziarnia-roma-02.jpg": {
+        "original": true,
+        "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.35 (3).jpeg",
+        "sourceSHA256": "943bb5391ec1a94b21a0efe7879a59d2c72217ec3ed95bc5607879d8164cdcd1",
+        "heroCandidate": false,
+        "personalPhotoException": false,
+        "personalPhotoExceptionAuthorizedAt": null
+      },
+      "/assets/food-cafes/lodziarnia-roma-03.jpg": {
+        "original": true,
+        "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.33.jpeg",
+        "sourceSHA256": "040c1aaf753914c8b6d82d796eb283ea7bb266dd29171f8e1ba1240b13b549ae",
+        "heroCandidate": false,
+        "personalPhotoException": true,
+        "personalPhotoExceptionAuthorizedAt": "2026-10-18"
+      }
+    }
+  },
+  "provenance": {
+    "personalVisit": true,
+    "originalPhotography": true,
+    "personalMediaException": {
+      "authorizedAt": "2026-10-18",
+      "scope": "User expressly permits personal media from Roma folder only"
+    }
+  },
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+},
   ];
 })();

@@ -78,7 +78,7 @@
     place("hala-targowa", ["eat","drink","buy"], [51.1126206,17.039748], "Hala Targowa", food.market, familiarPost, "marketHall", sourceFood),
     place("wedel", ["drink"], [51.1110173,17.031212], "Chocolate Cafe E.Wedel", food.chocolate, foodPost, "rynek", sourceFood),
     place("karmello", ["drink"], [51.1104418,17.0337016], "Karmello Chocolatier", food.gelato, foodPost, "rynek", sourceFood),
-    place("lodziarnia-roma", ["drink"], [51.117917,17.0343499], "Lodziarnia Roma", food.roma, foodPost, null, sourceFood),
+    place("lodziarnia-roma", ["drink"], [51.117917,17.0343499], "Lodziarnia Roma", food.roma, foodPost, "lodziarnia-roma", sourceFood),
     place("la-maddalena", ["eat","drink"], [51.1143103,17.0314381], "Restauracja La Maddalena", food.fine, foodPost, null, sourceFood),
     place("boguslawskiego", ["eat","drink"], [51.10289,17.02979], "ul. Wojciecha Bogusławskiego", food.street, foodPost, "boguslawskiego", sourceFood),
 

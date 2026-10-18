@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-18",
+  "canonicalPlace": "lodziarnia-roma",
+  "selection": {
+    "photos": [
+      "/assets/food-cafes/lodziarnia-roma-01.jpg",
+      "/assets/food-cafes/lodziarnia-roma-02.jpg",
+      "/assets/food-cafes/lodziarnia-roma-03.jpg"
+    ],
+    "metadata": {
+      "/assets/food-cafes/lodziarnia-roma-01.jpg": {
+        "original": true,
+        "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.35 (1).jpeg",
+        "sourceSHA256": "fe2e19aaa9e575e85fc34d27d16611dd5fc8d3d7195fe02e7ef951754b9af347",
+        "heroCandidate": true,
+        "personalPhotoException": false,
+        "personalPhotoExceptionAuthorizedAt": null
+      },
+      "/assets/food-cafes/lodziarnia-roma-02.jpg": {
+        "original": true,
+        "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.35 (3).jpeg",
+        "sourceSHA256": "943bb5391ec1a94b21a0efe7879a59d2c72217ec3ed95bc5607879d8164cdcd1",
+        "heroCandidate": false,
+        "personalPhotoException": false,
+        "personalPhotoExceptionAuthorizedAt": null
+      },
+      "/assets/food-cafes/lodziarnia-roma-03.jpg": {
+        "original": true,
+        "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.33.jpeg",
+        "sourceSHA256": "040c1aaf753914c8b6d82d796eb283ea7bb266dd29171f8e1ba1240b13b549ae",
+        "heroCandidate": false,
+        "personalPhotoException": true,
+        "personalPhotoExceptionAuthorizedAt": "2026-10-18"
+      }
+    },
+    "videoIndices": [
+      5,
+      6,
+      9,
+      4
+    ],
+    "excluded": {
+      "7": "Visually same short portrait sequence as4, alternate encoded file",
+      "8": "Byte-identical copy of7",
+      "10": "Byte-identical copy of9"
+    },
+    "approval": "2026-10-18 user expressly allows personal photos in Roma folder only; four public YouTube uploads and terms approved"
+  },
+  "videos": [
+    {
+      "index": 5,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Video 2026-10-05 at 18.25.36.mp4",
+      "sha256": "25f4e53ff62c9fd0f13e2ef94c6d605446d53827460103887b5a6cd616245b4d",
+      "bytes": 2030951,
+      "kind": "video",
+      "duration": 9.69,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decodedSignature": "SHA256=6a08e9e0ed029cb468b242ea3234fe963a72637f2b66e087fa9ff627333014f5",
+      "title": "Lodziarnia Roma - Ice cream counter - WROC-LOVE",
+      "upload": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/roma-media-oct18/upload/Lodziarnia Roma - Ice cream counter - WROC-LOVE.mp4",
+      "registryKey": "/assets/lodziarnia-roma-visit-01.mp4",
+      "status": "public",
+      "description": "Original visit footage from Lodziarnia Roma, an ice-cream shop in Wroclaw. Explore the place and our original photo gallery on the WROC-LOVE lifestyle map.\nhttps://wroc-love.com/share/en/lifestyle.html",
+      "youtube": "https://youtube.com/shorts/y5z0w3v_ta0"
+    },
+    {
+      "index": 6,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Video 2026-10-05 at 18.25.38.mp4",
+      "sha256": "6a0e4c74ae239aa5beef5301b5b8fcf9e02da4e8122cf29917f402d64d345b5b",
+      "bytes": 531563,
+      "kind": "video",
+      "duration": 2.366667,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decodedSignature": "SHA256=e9285a7424da5fae75b576dbf25509367f1b5f6461df2776f1aface9ffa07abb",
+      "title": "Lodziarnia Roma - Menu from our visit - WROC-LOVE",
+      "upload": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/roma-media-oct18/upload/Lodziarnia Roma - Menu from our visit - WROC-LOVE.mp4",
+      "registryKey": "/assets/lodziarnia-roma-visit-02.mp4",
+      "status": "public",
+      "description": "Original visit footage from Lodziarnia Roma, an ice-cream shop in Wroclaw. Explore the place and our original photo gallery on the WROC-LOVE lifestyle map.\nhttps://wroc-love.com/share/en/lifestyle.html",
+      "youtube": "https://youtube.com/shorts/wdCORtqPNig"
+    },
+    {
+      "index": 9,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Video 2026-10-05 at 18.27.58 (1).mp4",
+      "sha256": "57dfd0a8dd17488ac5a99cdb572ac1e7074ff67237d20a4d286ae7f60b172c41",
+      "bytes": 602067,
+      "kind": "video",
+      "duration": 2.633333,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decodedSignature": "SHA256=85907ec743d7ad663a7782c69dec35b31ce1b05e8a9f816432d118d43854005c",
+      "title": "Lodziarnia Roma - Exterior - WROC-LOVE",
+      "upload": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/roma-media-oct18/upload/Lodziarnia Roma - Exterior - WROC-LOVE.mp4",
+      "registryKey": "/assets/lodziarnia-roma-visit-03.mp4",
+      "status": "public",
+      "description": "Original visit footage from Lodziarnia Roma, an ice-cream shop in Wroclaw. Explore the place and our original photo gallery on the WROC-LOVE lifestyle map.\nhttps://wroc-love.com/share/en/lifestyle.html",
+      "youtube": "https://youtube.com/shorts/nz280BcMPPg"
+    },
+    {
+      "index": 4,
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Video 2026-10-01 at 09.20.34.mp4",
+      "sha256": "608e6a3bbc50b6536e85446bbe086f1a8e20b9ca75f3fbae0b73f35d9c829d56",
+      "bytes": 269269,
+      "kind": "video",
+      "duration": 1.366667,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decodedSignature": "SHA256=d55213ad914cc48e3f4fd3e65b1516d9c455eab0b63968e8a980f02c9caf6dd0",
+      "title": "Lodziarnia Roma - Enjoying an ice cream - WROC-LOVE",
+      "upload": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/roma-media-oct18/upload/Lodziarnia Roma - Enjoying an ice cream - WROC-LOVE.mp4",
+      "registryKey": "/assets/lodziarnia-roma-visit-04.mp4",
+      "status": "public",
+      "description": "Original visit footage from Lodziarnia Roma, an ice-cream shop in Wroclaw. Explore the place and our original photo gallery on the WROC-LOVE lifestyle map.\nhttps://wroc-love.com/share/en/lifestyle.html",
+      "youtube": "https://youtube.com/shorts/-ywF9tSVBaw"
+    }
+  ],
+  "originalsPreserved": true,
+  "newCanonicalPins": 0
+}
