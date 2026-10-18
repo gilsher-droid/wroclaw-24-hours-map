@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "park-szczytnicki-wroclaw": ["architecture-design"],
     "wieza-cisnien-borek": ["architecture-design"],
     bastion: ["architecture-design", "museums-history"],
     "cafe-berg-wroclaw": ["architecture-design"],

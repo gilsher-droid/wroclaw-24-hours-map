@@ -1,0 +1,203 @@
+{
+  "canonicalPlaceId": "park-szczytnicki-wroclaw",
+  "inventory": [
+    {
+      "sha256": "b1335919e00ec5447468bdc07ad44f593c2d32eab8663644f791d9644e04a343",
+      "bytes": 7605951,
+      "decision": "excluded-wrong-location",
+      "reason": "Source GPS places this tree near the zoo, south of the park; folder name is not sufficient",
+      "sourceFile": "IMG_5744.JPG"
+    },
+    {
+      "sha256": "5c30575d344e03c14e4febd8df76e11ec7bcf7b6b52ef5eaa747b15a79495cc6",
+      "bytes": 12413412,
+      "decision": "selected-video-awaiting-upload-turn",
+      "reason": "Original geo-tagged public park visit clip, sampled at start/middle/end; publication copy has no audio",
+      "sourceFile": "IMG_5792.MOV"
+    },
+    {
+      "sha256": "68e5aa77e1648e0bdf7356569852624a2409816293a38f523e63cd7b10871f14",
+      "bytes": 6456600,
+      "decision": "excluded-duplicate-view",
+      "reason": "Exact duplicate, compressed export or repeated view of tree; wider original IMG_5795 selected",
+      "sourceFile": "IMG_5794 2.JPG"
+    },
+    {
+      "sha256": "68e5aa77e1648e0bdf7356569852624a2409816293a38f523e63cd7b10871f14",
+      "bytes": 6456600,
+      "decision": "excluded-duplicate-view",
+      "reason": "Exact duplicate, compressed export or repeated view of tree; wider original IMG_5795 selected",
+      "sourceFile": "IMG_5794.JPG"
+    },
+    {
+      "sha256": "33ed0195ce87925a63a58f3638c746a588d2f76672bcfbc590d823a10432aa7e",
+      "bytes": 6088459,
+      "decision": "selected-photo",
+      "reason": "protected tree beside park path",
+      "sourceFile": "IMG_5795.JPG"
+    },
+    {
+      "sha256": "075e8dcbd55b7caece4308fccfdffc0b9d9dd4390e41f9676ebf55a58ce69925",
+      "bytes": 5515700,
+      "decision": "selected-video-awaiting-upload-turn",
+      "reason": "Original geo-tagged public park visit clip, sampled at start/middle/end; publication copy has no audio",
+      "sourceFile": "IMG_5796 2.MOV"
+    },
+    {
+      "sha256": "5755c10431626a6f10b8ce7bb314031ba68680ce19f329fd1a5606803c3a4fde",
+      "bytes": 1124821,
+      "decision": "selected-photo",
+      "reason": "public park watercourse",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.32.jpeg"
+    },
+    {
+      "sha256": "d0265e68c38e8d47c0f4239d3fd07438700cb5abe738b8dfbf7a166904f3259a",
+      "bytes": 1171609,
+      "decision": "excluded-duplicate-view",
+      "reason": "Exact duplicate, compressed export or repeated view of tree; wider original IMG_5795 selected",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.46 (1).jpeg"
+    },
+    {
+      "sha256": "bdaa40f998440a6e0df9f0ffc6b217be971a7271c37a918b475f4a149c7f9aa2",
+      "bytes": 1172673,
+      "decision": "excluded-duplicate-view",
+      "reason": "Exact duplicate, compressed export or repeated view of tree; wider original IMG_5795 selected",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.46.jpeg"
+    },
+    {
+      "sha256": "7d2ee5cbf8a90430c70cea4701da7b20c8d33e41185c81b5a4e960bbd18cdd84",
+      "bytes": 1256095,
+      "decision": "excluded-duplicate-view",
+      "reason": "Exact duplicate, compressed export or repeated view of tree; wider original IMG_5795 selected",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.47.jpeg"
+    },
+    {
+      "sha256": "8c84155dcfbdaabbd608b65df64bc7088d016b1583c06553eb452dfed32698bb",
+      "bytes": 385913,
+      "decision": "held-location-needs-verification",
+      "reason": "Rose/avenue/pond/building scene without sufficient exact scene-location proof; not publishing from folder name alone",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 19.03.00 (3).jpeg"
+    },
+    {
+      "sha256": "e5dd38b7197b9cde76d422484cf0b3187aa53562733b6b7b0862188d5c2fd6ff",
+      "bytes": 372495,
+      "decision": "held-location-needs-verification",
+      "reason": "Rose/avenue/pond/building scene without sufficient exact scene-location proof; not publishing from folder name alone",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 19.03.00 (4).jpeg"
+    },
+    {
+      "sha256": "42e4250e021d6877df74aa5fa7c7628209b724de615d2f48a61507fc2e52eca4",
+      "bytes": 518090,
+      "decision": "selected-photo",
+      "reason": "wooden church and surrounding trees",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 19.21.11 (17).jpeg"
+    },
+    {
+      "sha256": "39efb820de230b557caa474aada8cb0c525f622b967887122685ab0143831658",
+      "bytes": 475081,
+      "decision": "selected-photo",
+      "reason": "wooden church exterior",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 19.21.11 (18).jpeg"
+    },
+    {
+      "sha256": "aa0233ea8496fa1189df0c1154fbe07726d9ff1fed5480cc39afc7ee8141b129",
+      "bytes": 328302,
+      "decision": "held-location-needs-verification",
+      "reason": "Rose/avenue/pond/building scene without sufficient exact scene-location proof; not publishing from folder name alone",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 19.21.11 (19).jpeg"
+    },
+    {
+      "sha256": "2c83dbb5612f7512bc978feb1287e04e69cc1b1f845dbf3b57131d85d51320e9",
+      "bytes": 563755,
+      "decision": "excluded-duplicate-encoding",
+      "reason": "Same scene and duration as selected original MOV; start/middle/end comparison confirms re-encoding",
+      "sourceFile": "WhatsApp Video 2026-09-24 at 17.33.44.mp4"
+    },
+    {
+      "sha256": "b043922b005ce73c66aef71b02164c65cb02656d2b277d01ce0a617c70318fa1",
+      "bytes": 1085765,
+      "decision": "excluded-duplicate-encoding",
+      "reason": "Same scene and duration as selected original MOV; start/middle/end comparison confirms re-encoding",
+      "sourceFile": "WhatsApp Video 2026-09-24 at 17.33.48.mp4"
+    },
+    {
+      "sha256": "859ec04b876f9306de91db17bb74a360c2492bf2985fcd2bde55f675ddccf7ba",
+      "bytes": 1182141,
+      "decision": "held-location-needs-verification",
+      "reason": "Rose/avenue/pond/building scene without sufficient exact scene-location proof; not publishing from folder name alone",
+      "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.42.mp4"
+    },
+    {
+      "sha256": "2f52d6ee2f9ca4d9ab8dc3d6eb91f3ffd412c5678a948770a87f09e4e24aabb4",
+      "bytes": 1143402,
+      "decision": "held-location-needs-verification",
+      "reason": "Rose/avenue/pond/building scene without sufficient exact scene-location proof; not publishing from folder name alone",
+      "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.43.mp4"
+    },
+    {
+      "sha256": "4824863732bda49eaec98660f209551f51f645712f88b6284c24af322ae3b2e9",
+      "bytes": 965690,
+      "decision": "held-location-needs-verification",
+      "reason": "Rose/avenue/pond/building scene without sufficient exact scene-location proof; not publishing from folder name alone",
+      "sourceFile": "WhatsApp Video 2026-10-05 at 18.27.33.mp4"
+    }
+  ],
+  "originalsPreserved": true,
+  "personalMediaAuthorized": false,
+  "factualSources": [
+    {
+      "url": "https://zzm.wroc.pl/obiektyzzmcp/park-szczytnicki/",
+      "verifiedAt": "2026-10-18",
+      "scope": "municipal parks authority: identity, historic aliases, origin, landscape composition, street boundaries and wooden church; exhibition grounds remain distinct"
+    },
+    {
+      "url": "https://www.wroclaw.pl/zielony-wroclaw/odkrywamy-wroclawskie-parki-park-szczytnicki-historia-miejsca",
+      "verifiedAt": "2026-10-18",
+      "scope": "municipal historical overview and named landmarks; historic prices/hours not reused"
+    },
+    {
+      "url": "https://www.openstreetmap.org/#map=18/51.1081/17.0819",
+      "verifiedAt": "2026-10-18",
+      "scope": "visual geographic check of geo-tagged original tree/path footage: public park east of canal, outside Japanese Garden boundary"
+    }
+  ],
+  "photos": [
+    "/assets/szczytnicki-park/szczytnicki-park-01.jpg",
+    "/assets/szczytnicki-park/szczytnicki-park-02.jpg",
+    "/assets/szczytnicki-park/szczytnicki-park-03.jpg",
+    "/assets/szczytnicki-park/szczytnicki-park-04.jpg"
+  ],
+  "visitVideos": [
+    {
+      "sourceSHA256": "5c30575d344e03c14e4febd8df76e11ec7bcf7b6b52ef5eaa747b15a79495cc6",
+      "publicationSHA256": "9949b54ee783b50b60e06913b8ed40790f2e46a7163465c42bf0a2b25f545ce2",
+      "duration": "5.966667",
+      "title": "Szczytnicki Park | Tree-lined path | WROC-LOVE",
+      "description": "Original silent visit footage from the public paths of Park Szczytnicki in Wrocław, Poland. This clip shows the park, outside the Japanese Garden. Explore our interactive maps: https://wroc-love.com/share/en/premium.html",
+      "audio": "Removed from publication copy; original preserved",
+      "youtubeStatus": "awaiting specific terms approval at Select files",
+      "publicVisibilityRequired": true,
+      "sourceFile": "IMG_5792.MOV"
+    },
+    {
+      "sourceSHA256": "075e8dcbd55b7caece4308fccfdffc0b9d9dd4390e41f9676ebf55a58ce69925",
+      "publicationSHA256": "fa89ededc4e81d3c5ba7958b8c5fc628a2aa4ad0e95bc438b70c376fa37b7794",
+      "duration": "2.533333",
+      "title": "Szczytnicki Park | Park tree and path | WROC-LOVE",
+      "description": "Original silent visit footage from the public paths of Park Szczytnicki in Wrocław, Poland. This clip shows the park, outside the Japanese Garden. Explore our interactive maps: https://wroc-love.com/share/en/premium.html",
+      "audio": "Removed from publication copy; original preserved",
+      "youtubeStatus": "awaiting specific terms approval at Select files",
+      "publicVisibilityRequired": true,
+      "sourceFile": "IMG_5796 2.MOV"
+    }
+  ],
+  "mapDecisions": {
+    "cultural-adventure": "Historic landscape design and wooden church, architecture-design category",
+    "wroclaw-four-days": "Optional day3 recommendation; no change to timed stops or route line",
+    "lifestyle-guide": "Not a food/drink/shopping/accommodation place",
+    "wroclaw-24-hours": "Not added to the time-limited central route",
+    "wroclaw-christmas": "No verified seasonal role",
+    "lower-silesia-excursions": "Inner-city park rather than regional excursion"
+  },
+  "socialPosts": "No verified exact-place posts found; see ten-row social audit. Global follow links may remain labeled as accounts."
+}

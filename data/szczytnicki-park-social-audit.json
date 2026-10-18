@@ -1,0 +1,122 @@
+[
+  {
+    "language": "he",
+    "platform": "facebook",
+    "expectedAccount": "61591964083308",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "he",
+    "platform": "instagram",
+    "expectedAccount": "wroclaw.lowersilesia.he",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "en",
+    "platform": "facebook",
+    "expectedAccount": "61595036942289",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "en",
+    "platform": "instagram",
+    "expectedAccount": "wroclaw.lowersilesia",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "pl",
+    "platform": "facebook",
+    "expectedAccount": "61595207664875",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "pl",
+    "platform": "instagram",
+    "expectedAccount": "wroclaw.lowersilesia.pl",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "de",
+    "platform": "facebook",
+    "expectedAccount": "61595239823399",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "de",
+    "platform": "instagram",
+    "expectedAccount": "wroclaw.lowersilesia.de",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "cs",
+    "platform": "facebook",
+    "expectedAccount": "61594716405964",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  },
+  {
+    "language": "cs",
+    "platform": "instagram",
+    "expectedAccount": "wroclaw.lowersilesia.cs",
+    "existingPostUrl": null,
+    "outgoingPostUrl": null,
+    "status": "missing",
+    "checkedAt": "2026-10-18",
+    "checkedContent": "No exact-place canonical post located in current localized registry, publication receipts or targeted public-index search. Existing WUWA/fountain posts mention the park as nearby context and are not exact-place park posts.",
+    "evidence": "Current localized-social-posts.json + historical publication receipts search + targeted public-index searches; no claim that inaccessible/non-indexed account content was exhaustively checked.",
+    "action": "Hide place-post action. Global labeled Follow account links may remain. No new social publication authorized."
+  }
+]
