@@ -9055,18 +9055,18 @@
     "id": "fashion-outlet",
     "localName": "Wrocław Fashion Outlet",
     "name": {
-      "he": "Wrocław Fashion Outlet",
+      "he": "פאשן אאוטלט ורוצלב",
       "en": "Wrocław Fashion Outlet",
       "pl": "Wrocław Fashion Outlet",
       "de": "Wrocław Fashion Outlet",
       "cs": "Wrocław Fashion Outlet"
     },
     "description": {
-      "he": "מופיע בשכבת מרכזי הקניות של מפת הקהילה.",
-      "en": "Included in the community map’s shopping-centre layer.",
-      "pl": "Znajduje się w warstwie centrów handlowych mapy społeczności.",
-      "de": "In der Einkaufszentrum-Ebene der Community-Karte enthalten.",
-      "cs": "Zahrnuto ve vrstvě nákupních center komunitní mapy."
+      "he": "מרכז אאוטלט ברחוב גרניצ׳נה במערב ורוצלב, עם חנויות אופנה וספורט, בתי קפה ומקומות לאכול. בגלריית הביקור שלנו נראים החזית, מעברי החנויות, אזור הישיבה, החניה והשילוט ביום ובלילה. מתאים למי שרוצה להקדיש זמן לקניות מחוץ למסלול ההליכה בעיר העתיקה. בדקו באתר הרשמי אילו חנויות ומבצעים פעילים ומהן שעות הפתיחה, במיוחד בימי ראשון ובחגים. התמונות מתעדות ביקור קודם ואינן הבטחה למבצעים או למלאי הנוכחי.",
+      "en": "An outlet shopping centre on Graniczna in western Wrocław, with fashion and sports shops, cafés and places to eat. Our visit gallery shows the frontage, shopping passages, seating, parking and signs by day and night. Consider a dedicated shopping stop outside the Old Town walking route. Check the official website for current shops, offers and opening hours, especially on Sundays and holidays. The photographs record an earlier visit and do not guarantee current offers or stock.",
+      "pl": "Centrum outletowe przy ulicy Granicznej w zachodniej części Wrocławia, ze sklepami modowymi i sportowymi, kawiarniami i gastronomią. Galeria z naszej wizyty pokazuje fasadę, pasaże handlowe, strefę wypoczynku, parking oraz oznakowanie za dnia i nocą. To propozycja osobnego przystanku na zakupy poza pieszą trasą po Starym Mieście. Aktualne sklepy, promocje i godziny otwarcia, zwłaszcza w niedziele i święta, sprawdź na oficjalnej stronie. Zdjęcia z wcześniejszej wizyty nie gwarantują obecnych ofert ani dostępności towarów.",
+      "de": "Outlet-Center an der Graniczna im Westen von Wrocław mit Mode- und Sportgeschäften, Cafés und Gastronomie. Unsere Besuchsgalerie zeigt die Fassade, Einkaufspassagen, Sitzplätze, den Parkplatz und Schilder bei Tag und Nacht. Ein eigener Einkaufsstopp außerhalb des Altstadtrundgangs bietet sich an. Aktuelle Geschäfte, Angebote und Öffnungszeiten, besonders an Sonn- und Feiertagen, auf der offiziellen Website prüfen. Die Fotos eines früheren Besuchs garantieren keine aktuellen Angebote oder Warenbestände.",
+      "cs": "Outletové nákupní centrum v ulici Graniczna na západě Vratislavi s obchody s módou a sportovním zbožím, kavárnami a občerstvením. Galerie z naší návštěvy ukazuje průčelí, nákupní pasáže, posezení, parkoviště a označení ve dne i v noci. Hodí se pro samostatnou nákupní zastávku mimo pěší okruh Starým Městem. Aktuální obchody, nabídky a otevírací dobu, zejména o nedělích a svátcích, ověřte na oficiálním webu. Fotografie z dřívější návštěvy nezaručují současné nabídky ani dostupnost zboží."
     },
     "location": {
       "countryCode": "PL",
@@ -9075,15 +9075,25 @@
       "coordinates": {
         "lat": 51.1067753,
         "lng": 16.9451904
+      },
+      "address": {
+        "street": "Graniczna 2",
+        "postalCode": "54-610",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
-      "buy"
+      "buy",
+      "eat"
     ],
     "sourceUrls": [
       "https://www.facebook.com/61591964083308/posts/122110542891398802/"
     ],
-    "aliases": [],
+    "aliases": [
+      "פאשן אאוטלט",
+      "פשיון אאוטלט"
+    ],
     "sourceRecords": [
       {
         "productId": "lifestyle-guide",
@@ -9103,9 +9113,15 @@
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
-        "buy"
+        "buy",
+        "eat"
       ],
-      "tags": []
+      "tags": [
+        "outlet-shopping",
+        "fashion",
+        "restaurants",
+        "wroclaw"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -9129,15 +9145,168 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.wroclawfashionoutlet.com/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1067753%2C16.9451904",
+        "appleMaps": "https://maps.apple.com/?ll=51.1067753,16.9451904"
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-18",
+      "factualSources": [
+        {
+          "url": "https://www.wroclawfashionoutlet.com/en/contact",
+          "verifiedAt": "2026-10-18",
+          "scope": "official centre identity and Graniczna2 address"
+        },
+        {
+          "url": "https://www.wroclawfashionoutlet.com/en/practical-information",
+          "verifiedAt": "2026-10-18",
+          "scope": "official shopping/dining facilities and current opening information; no mutable hours, prices or promotions copied"
+        }
+      ]
+    },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/food-cafes/fashion-outlet-01.jpg",
+        "/assets/food-cafes/fashion-outlet-02.jpg",
+        "/assets/food-cafes/fashion-outlet-03.jpg",
+        "/assets/food-cafes/fashion-outlet-04.jpg",
+        "/assets/food-cafes/fashion-outlet-05.jpg",
+        "/assets/food-cafes/fashion-outlet-06.jpg",
+        "/assets/food-cafes/fashion-outlet-07.jpg",
+        "/assets/food-cafes/fashion-outlet-08.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-cafes/fashion-outlet-01.jpg": {
+          "original": true,
+          "sourceFile": "FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (14).jpeg",
+          "sourceSHA256": "db81d96f3932f9b2b2cb6e527823f9263a6878d9bbcd11ed512081754b63275f",
+          "assetSHA256": "02d20be27a041461409ced412c56ed5ce9f70625c8d08354a6689eb5ae93f23b",
+          "alt": {
+            "he": "חזית הכניסה למרכז האאוטלט",
+            "en": "Outlet centre entrance frontage",
+            "pl": "Fasada wejścia do centrum outletowego",
+            "de": "Eingangsfront des Outlet-Centers",
+            "cs": "Průčelí vstupu do outletového centra"
+          },
+          "heroCandidate": true
+        },
+        "/assets/food-cafes/fashion-outlet-02.jpg": {
+          "original": true,
+          "sourceFile": "FashionOutlet/WhatsApp Image 2026-09-24 at 19.21.11 (15).jpeg",
+          "sourceSHA256": "a0be0d7f6ca63b2fe9772ae249e16606865d797d3200f418f57fc165879df032",
+          "assetSHA256": "50e7b655f90c0810e19f4ad4a28554c87df7f359704e0e0aa7c139ead2a2a05a",
+          "alt": {
+            "he": "מבט רחב על הכניסה וסביבתה",
+            "en": "Wide view of the entrance and surroundings",
+            "pl": "Szeroki widok wejścia i otoczenia",
+            "de": "Weitwinkelansicht des Eingangs und der Umgebung",
+            "cs": "Široký pohled na vstup a okolí"
+          },
+          "heroCandidate": false
+        },
+        "/assets/food-cafes/fashion-outlet-03.jpg": {
+          "original": true,
+          "sourceFile": "FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (15).jpeg",
+          "sourceSHA256": "784391806b17f32c75366b2dd5c38fe43ce239016fc8c14c551c39c52c6b8ece",
+          "assetSHA256": "cebd74c0f5c023b9ac6c5c5ee60709dd1ebf54d93eaafcebc0c63ad93dec91e7",
+          "alt": {
+            "he": "מעבר החנויות בתוך המרכז",
+            "en": "Shopping passage inside the centre",
+            "pl": "Pasaż sklepowy wewnątrz centrum",
+            "de": "Einkaufspassage im Center",
+            "cs": "Nákupní pasáž uvnitř centra"
+          },
+          "heroCandidate": false
+        },
+        "/assets/food-cafes/fashion-outlet-04.jpg": {
+          "original": true,
+          "sourceFile": "FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (16).jpeg",
+          "sourceSHA256": "1bbaf30858026dcfc03dee908e9aab216828d8cca663f40db5e42022e2733f11",
+          "assetSHA256": "3dae73d010f16b54491e2b9895b8940047d0a17b606292a837bf73705a5fdac9",
+          "alt": {
+            "he": "תצוגת אופנה ומעבר מקורה",
+            "en": "Fashion display and covered passage",
+            "pl": "Ekspozycja mody i kryty pasaż",
+            "de": "Modeausstellung und überdachte Passage",
+            "cs": "Módní expozice a zastřešená pasáž"
+          },
+          "heroCandidate": false
+        },
+        "/assets/food-cafes/fashion-outlet-05.jpg": {
+          "original": true,
+          "sourceFile": "FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (17).jpeg",
+          "sourceSHA256": "55befb2b78476caad7323e7bb3141296ac677015f5f16ee549b58ad88e0d5859",
+          "assetSHA256": "53d8cf84ec6b9814dfe8bb954b28179be8ed78fd3794bedbf2deaabfb9ae3b4a",
+          "alt": {
+            "he": "אזור ישיבה בין החנויות",
+            "en": "Seating area between shops",
+            "pl": "Strefa wypoczynku między sklepami",
+            "de": "Sitzbereich zwischen den Geschäften",
+            "cs": "Odpočinková zóna mezi obchody"
+          },
+          "heroCandidate": false
+        },
+        "/assets/food-cafes/fashion-outlet-06.jpg": {
+          "original": true,
+          "sourceFile": "FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (11).jpeg",
+          "sourceSHA256": "71bc9e44722487decfb79aa109dc0d207f63668bd46477372ba644d20db5741a",
+          "assetSHA256": "71241c7a80d35230ce579db6136135fa8e204867f673524ce0f7378604a190ab",
+          "alt": {
+            "he": "החניה והגישה למרכז",
+            "en": "Parking and approach to the centre",
+            "pl": "Parking i dojazd do centrum",
+            "de": "Parkplatz und Zufahrt zum Center",
+            "cs": "Parkoviště a příjezd k centru"
+          },
+          "heroCandidate": false
+        },
+        "/assets/food-cafes/fashion-outlet-07.jpg": {
+          "original": true,
+          "sourceFile": "FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (10).jpeg",
+          "sourceSHA256": "8d7a966de5deb50327f6eeba5bc97f74ffadc61eefc1c919402132f8a15d7ebd",
+          "assetSHA256": "5b25dc00b8f910e15bae1c15abc92252942c9563768f1d359da7ba02bfa5b0f2",
+          "alt": {
+            "he": "שלט המרכז בשעות היום",
+            "en": "Centre sign in daylight",
+            "pl": "Pylon centrum w świetle dziennym",
+            "de": "Center-Schild bei Tageslicht",
+            "cs": "Označení centra za denního světla"
+          },
+          "heroCandidate": false
+        },
+        "/assets/food-cafes/fashion-outlet-08.jpg": {
+          "original": true,
+          "sourceFile": "FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (18).jpeg",
+          "sourceSHA256": "8cd360748180e497a87a12114d505b9f60c2e231a7a5f4f97f87c3f9349b7eb4",
+          "assetSHA256": "03f181b6204084261553da996dfa67fa644fce367a56e6b5968011b3fca69c69",
+          "alt": {
+            "he": "שלט המרכז המואר בלילה",
+            "en": "Illuminated centre sign at night",
+            "pl": "Oświetlony pylon centrum nocą",
+            "de": "Beleuchtetes Center-Schild bei Nacht",
+            "cs": "Osvětlené označení centra v noci"
+          },
+          "heroCandidate": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -9199,19 +9368,6 @@
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "figa-w-barbarze": {
@@ -33632,6 +33788,8 @@
   "wroclavia-station": "wroclavia",
   "ostrow-cathedral": "ostrow",
   "christmas-market": "rynek",
+  "פשיון אאוטלט": "fashion-outlet",
+  "פאשן אאוטלט": "fashion-outlet",
   "אטו ראמן": "ato-ramen",
   "Ato Ramen WRO": "ato-ramen",
   "ATO RAMEN Wrocław": "ato-ramen",
