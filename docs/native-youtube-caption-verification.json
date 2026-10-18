@@ -252,6 +252,25 @@
       },
       "verifiedAt": "2026-10-18",
       "method": "Native Studio Published manual source and translated tracks"
+    },
+    {
+      "place": "hala",
+      "videos": {
+        "he": "y74YI_tgRq0",
+        "en": "EOBJMMmLY_I"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translated tracks"
     }
   ]
 }

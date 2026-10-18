@@ -1,0 +1,567 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "hala"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/המדריך שלנו/המדריך שלנו בעברית - היכל המאה.mp4",
+      "sourceSHA256": "873206816bf23082166388f2304dedbcfaedf49c9cfa2e0a103d631dd54eb1ba",
+      "uploadSHA256": "873206816bf23082166388f2304dedbcfaedf49c9cfa2e0a103d631dd54eb1ba",
+      "videoId": "y74YI_tgRq0",
+      "visibility": "Public",
+      "durationSeconds": 57.5,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/המדריך שלנו/המדריך שלנו באנגלית - היכל המאה.mp4",
+      "sourceSHA256": "657a14e077db10f254a74a09aebd7ca801c76e39a9eff62af0723a58ba16f35b",
+      "uploadSHA256": "657a14e077db10f254a74a09aebd7ca801c76e39a9eff62af0723a58ba16f35b",
+      "videoId": "EOBJMMmLY_I",
+      "visibility": "Public",
+      "durationSeconds": 74.866667,
+      "uploadMethod": "Original MP4, unchanged picture and audio"
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "assets/captions/hala-he.srt",
+      "srtSHA256": "e3336567788f5b7891b9f1c2eddbcb6871dc67dda88a829d14f896c0e5381796",
+      "cues": [
+        {
+          "start": 1.44,
+          "end": 2.52,
+          "text": "Cześć!"
+        },
+        {
+          "start": 2.94,
+          "end": 4.22,
+          "text": "שלום שוב."
+        },
+        {
+          "start": 4.88,
+          "end": 7.7,
+          "text": "מה אתם חושבים שאתם רואים שנמצא מאחוריי?"
+        },
+        {
+          "start": 8.48,
+          "end": 10.96,
+          "text": "מבנה בטון עצום."
+        },
+        {
+          "start": 10.96,
+          "end": 15.22,
+          "text": "למעשה זהו אחד מהסמלים של וורוצלב."
+        },
+        {
+          "start": 15.92,
+          "end": 18.42,
+          "text": "המקום הזה נקרא היכל המאה,"
+        },
+        {
+          "start": 18.68,
+          "end": 19.62,
+          "text": "Hala Stulecia."
+        },
+        {
+          "start": 19.98,
+          "end": 22.76,
+          "text": "והוא נבנה בשנת 1913"
+        },
+        {
+          "start": 22.76,
+          "end": 26.2,
+          "text": "על ידי האדריכל מקס ברג,"
+        },
+        {
+          "start": 26.28,
+          "end": 28.02,
+          "text": "כחלק ממתחם התערוכה."
+        },
+        {
+          "start": 28.02,
+          "end": 32.44,
+          "text": "המקום הזה הוכר כאתר מורשת עולמית"
+        },
+        {
+          "start": 32.44,
+          "end": 34.36,
+          "text": "של אונסק״ו בשנת 2006."
+        },
+        {
+          "start": 34.94,
+          "end": 37.22,
+          "text": "כיום, כשאתם מסתובבים כאן,"
+        },
+        {
+          "start": 37.48,
+          "end": 39.2,
+          "text": "אתם לא צופים רק במבנה קפוא,"
+        },
+        {
+          "start": 39.74,
+          "end": 43.72,
+          "text": "אלא במבנה שמארח תחרויות ספורט,"
+        },
+        {
+          "start": 43.72,
+          "end": 47.52,
+          "text": "תערוכות, מופעים וכיוצא בזה."
+        },
+        {
+          "start": 48.38,
+          "end": 49.96,
+          "text": "פשוט תגיעו למקום,"
+        },
+        {
+          "start": 50.48,
+          "end": 52.68,
+          "text": "תסתובבו סביבו ותיכנסו פנימה."
+        },
+        {
+          "start": 53.32,
+          "end": 55.36,
+          "text": "נתראה בתחנה הבאה."
+        },
+        {
+          "start": 55.7,
+          "end": 56.72,
+          "text": "Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "assets/captions/hala-en.srt",
+      "srtSHA256": "e20b113b17aa40b558cb185ad4dc788c56705d2f15594173a2c6aaa7d2e6466f",
+      "cues": [
+        {
+          "start": 1.54,
+          "end": 3.18,
+          "text": "Hello again."
+        },
+        {
+          "start": 3.88,
+          "end": 7.1,
+          "text": "What do you think you can see behind me?"
+        },
+        {
+          "start": 9.98,
+          "end": 13.46,
+          "text": "Looks like a giant concrete structure."
+        },
+        {
+          "start": 14.48,
+          "end": 18.04,
+          "text": "However, this is one of Wrocław’s symbols."
+        },
+        {
+          "start": 19,
+          "end": 22.32,
+          "text": "This place is called the Hall of the Century,"
+        },
+        {
+          "start": 23,
+          "end": 24.06,
+          "text": "Hala Stulecia."
+        },
+        {
+          "start": 24.06,
+          "end": 26.58,
+          "text": "It was built in 1913"
+        },
+        {
+          "start": 26.58,
+          "end": 29.7,
+          "text": "by the architect Max Berg."
+        },
+        {
+          "start": 30.56,
+          "end": 35.64,
+          "text": "Back then, to build such a huge structure made of concrete"
+        },
+        {
+          "start": 35.64,
+          "end": 39.6,
+          "text": "was a very courageous, groundbreaking idea."
+        },
+        {
+          "start": 40.54,
+          "end": 42.32,
+          "text": "In the year 2006,"
+        },
+        {
+          "start": 42.82,
+          "end": 48.52,
+          "text": "this place was added to the UNESCO Heritage List."
+        },
+        {
+          "start": 50.04,
+          "end": 52.76,
+          "text": "Today, it is not just a frozen museum."
+        },
+        {
+          "start": 53.8,
+          "end": 56.9,
+          "text": "The place actually hosts performances,"
+        },
+        {
+          "start": 57.94,
+          "end": 62.36,
+          "text": "exhibitions, music shows, sports events, etc."
+        },
+        {
+          "start": 63.54,
+          "end": 67.46,
+          "text": "I invite you to walk around this amazing geometrical structure"
+        },
+        {
+          "start": 67.46,
+          "end": 70.78,
+          "text": "and also visit the inside of the structure."
+        },
+        {
+          "start": 71.6,
+          "end": 72.94,
+          "text": "See you on our next stop."
+        },
+        {
+          "start": 73.6,
+          "end": 74.16,
+          "text": "Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "assets/captions/hala-de.srt",
+      "srtSHA256": "387993817c2e08e1fe7ececd6b938d6782ce8bda805a1dbb83249928c042ee93",
+      "cues": [
+        {
+          "start": 1.54,
+          "end": 3.18,
+          "text": "Hallo wieder!"
+        },
+        {
+          "start": 3.88,
+          "end": 7.1,
+          "text": "Was glauben Sie, was Sie hinter mir sehen?"
+        },
+        {
+          "start": 9.98,
+          "end": 13.46,
+          "text": "Es sieht aus wie ein riesiger Betonbau."
+        },
+        {
+          "start": 14.48,
+          "end": 18.04,
+          "text": "Doch dies ist eines der Wahrzeichen von Wrocław."
+        },
+        {
+          "start": 19,
+          "end": 22.32,
+          "text": "Dieser Ort heißt Jahrhunderthalle,"
+        },
+        {
+          "start": 23,
+          "end": 24.06,
+          "text": "Hala Stulecia."
+        },
+        {
+          "start": 24.06,
+          "end": 26.58,
+          "text": "Sie wurde 1913 erbaut,"
+        },
+        {
+          "start": 26.58,
+          "end": 29.7,
+          "text": "nach einem Entwurf des Architekten Max Berg."
+        },
+        {
+          "start": 30.56,
+          "end": 35.64,
+          "text": "Damals ein so riesiges Bauwerk aus Beton zu errichten,"
+        },
+        {
+          "start": 35.64,
+          "end": 39.6,
+          "text": "war eine sehr mutige, bahnbrechende Idee."
+        },
+        {
+          "start": 40.54,
+          "end": 42.32,
+          "text": "Im Jahr 2006"
+        },
+        {
+          "start": 42.82,
+          "end": 48.52,
+          "text": "wurde dieser Ort in die UNESCO-Welterbeliste aufgenommen."
+        },
+        {
+          "start": 50.04,
+          "end": 52.76,
+          "text": "Heute ist es nicht einfach ein erstarrtes Museum."
+        },
+        {
+          "start": 53.8,
+          "end": 56.9,
+          "text": "Hier finden tatsächlich Aufführungen statt,"
+        },
+        {
+          "start": 57.94,
+          "end": 62.36,
+          "text": "Ausstellungen, Konzerte, Sportveranstaltungen und vieles mehr."
+        },
+        {
+          "start": 63.54,
+          "end": 67.46,
+          "text": "Ich lade Sie ein, dieses erstaunliche geometrische Bauwerk zu umrunden"
+        },
+        {
+          "start": 67.46,
+          "end": 70.78,
+          "text": "und auch das Innere zu besuchen."
+        },
+        {
+          "start": 71.6,
+          "end": 72.94,
+          "text": "Bis zu unserem nächsten Halt!"
+        },
+        {
+          "start": 73.6,
+          "end": 74.16,
+          "text": "Auf Wiedersehen!"
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "assets/captions/hala-cs.srt",
+      "srtSHA256": "866b74f41ff97024a7ab900f25239a3bb45022e7f32f35d92e8aec566689274e",
+      "cues": [
+        {
+          "start": 1.54,
+          "end": 3.18,
+          "text": "Znovu vás zdravím."
+        },
+        {
+          "start": 3.88,
+          "end": 7.1,
+          "text": "Co myslíte, že vidíte za mnou?"
+        },
+        {
+          "start": 9.98,
+          "end": 13.46,
+          "text": "Vypadá to jako obrovská betonová stavba."
+        },
+        {
+          "start": 14.48,
+          "end": 18.04,
+          "text": "Je to však jeden ze symbolů Vratislavi."
+        },
+        {
+          "start": 19,
+          "end": 22.32,
+          "text": "Toto místo se nazývá Hala století,"
+        },
+        {
+          "start": 23,
+          "end": 24.06,
+          "text": "Hala Stulecia."
+        },
+        {
+          "start": 24.06,
+          "end": 26.58,
+          "text": "Byla postavena v roce 1913"
+        },
+        {
+          "start": 26.58,
+          "end": 29.7,
+          "text": "podle návrhu architekta Maxe Berga."
+        },
+        {
+          "start": 30.56,
+          "end": 35.64,
+          "text": "Postavit tehdy tak obrovskou stavbu z betonu"
+        },
+        {
+          "start": 35.64,
+          "end": 39.6,
+          "text": "byl velmi odvážný, průkopnický nápad."
+        },
+        {
+          "start": 40.54,
+          "end": 42.32,
+          "text": "V roce 2006"
+        },
+        {
+          "start": 42.82,
+          "end": 48.52,
+          "text": "bylo toto místo zapsáno na seznam světového dědictví UNESCO."
+        },
+        {
+          "start": 50.04,
+          "end": 52.76,
+          "text": "Dnes to není jen strnulé muzeum."
+        },
+        {
+          "start": 53.8,
+          "end": 56.9,
+          "text": "Konají se zde představení,"
+        },
+        {
+          "start": 57.94,
+          "end": 62.36,
+          "text": "výstavy, koncerty, sportovní akce a další události."
+        },
+        {
+          "start": 63.54,
+          "end": 67.46,
+          "text": "Zvu vás na procházku kolem této úžasné geometrické stavby"
+        },
+        {
+          "start": 67.46,
+          "end": 70.78,
+          "text": "a také k návštěvě jejího interiéru."
+        },
+        {
+          "start": 71.6,
+          "end": 72.94,
+          "text": "Uvidíme se na další zastávce."
+        },
+        {
+          "start": 73.6,
+          "end": 74.16,
+          "text": "Na shledanou!"
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "assets/captions/hala-pl.srt",
+      "srtSHA256": "2d61b255213c802608148e083680085ace6e38ea798863fb36866fd7b319eec8",
+      "cues": [
+        {
+          "start": 1.54,
+          "end": 3.18,
+          "text": "Witam ponownie."
+        },
+        {
+          "start": 3.88,
+          "end": 7.1,
+          "text": "Jak myślicie, co widzicie za mną?"
+        },
+        {
+          "start": 9.98,
+          "end": 13.46,
+          "text": "Wygląda jak ogromna betonowa konstrukcja."
+        },
+        {
+          "start": 14.48,
+          "end": 18.04,
+          "text": "To jednak jeden z symboli Wrocławia."
+        },
+        {
+          "start": 19,
+          "end": 22.32,
+          "text": "To miejsce nazywa się Halą Stulecia,"
+        },
+        {
+          "start": 23,
+          "end": 24.06,
+          "text": "Hala Stulecia."
+        },
+        {
+          "start": 24.06,
+          "end": 26.58,
+          "text": "Zbudowano ją w 1913 roku"
+        },
+        {
+          "start": 26.58,
+          "end": 29.7,
+          "text": "według projektu architekta Maxa Berga."
+        },
+        {
+          "start": 30.56,
+          "end": 35.64,
+          "text": "W tamtych czasach budowa tak ogromnego obiektu z betonu"
+        },
+        {
+          "start": 35.64,
+          "end": 39.6,
+          "text": "była bardzo odważnym, przełomowym pomysłem."
+        },
+        {
+          "start": 40.54,
+          "end": 42.32,
+          "text": "W roku 2006"
+        },
+        {
+          "start": 42.82,
+          "end": 48.52,
+          "text": "miejsce to wpisano na Listę Światowego Dziedzictwa UNESCO."
+        },
+        {
+          "start": 50.04,
+          "end": 52.76,
+          "text": "Dziś to nie tylko zastygłe muzeum."
+        },
+        {
+          "start": 53.8,
+          "end": 56.9,
+          "text": "Odbywają się tu przedstawienia,"
+        },
+        {
+          "start": 57.94,
+          "end": 62.36,
+          "text": "wystawy, koncerty, wydarzenia sportowe i wiele innych."
+        },
+        {
+          "start": 63.54,
+          "end": 67.46,
+          "text": "Zapraszam na spacer wokół tej niezwykłej geometrycznej budowli"
+        },
+        {
+          "start": 67.46,
+          "end": 70.78,
+          "text": "oraz do odwiedzenia jej wnętrza."
+        },
+        {
+          "start": 71.6,
+          "end": 72.94,
+          "text": "Do zobaczenia na następnym przystanku."
+        },
+        {
+          "start": 73.6,
+          "end": 74.16,
+          "text": "Do widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "method": "Native Studio Published manual source and translation tracks"
+    }
+  },
+  "transcription": "Local source-audio ASR word timing, proper-name spelling cleanup and native source transcript cross-check; faithful translations of spoken narrative",
+  "bloopersExcluded": true,
+  "originalsPreserved": true
+}

@@ -10231,6 +10231,10 @@
         "/assets/hala-pergola-view-oct18.mp4",
         "/assets/hala-iglica-plaza-oct18.mp4"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/y74YI_tgRq0",
+        "en": "https://youtube.com/shorts/EOBJMMmLY_I"
+      },
       "metadata": {
         "/assets/hala-stulecia-01.jpg": {
           "tags": [
