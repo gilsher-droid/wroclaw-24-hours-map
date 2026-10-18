@@ -1,0 +1,293 @@
+{
+  "canonicalExperienceId": "street-art-nadodrze-olbin",
+  "mapPointId": "nadodrze",
+  "existingCoordinates": [
+    51.1192,
+    17.0325
+  ],
+  "olbinPreserved": true,
+  "newCanonicalPlaceCreated": false,
+  "newPinCreated": false,
+  "factualSources": [
+    {
+      "url": "https://biblioteka.wroc.pl/filie/filia-nr-27/",
+      "fact": "MBP branch27 is at Łokietka13 in a Nadodrze tenement"
+    },
+    {
+      "url": "https://biblioteka.wroc.pl/wp-content/uploads/2020/03/F27-4.jpg",
+      "fact": "Official facade image visually matches original photo and video: same painted books, inscription, ground floor framing"
+    },
+    {
+      "url": "https://www.wroclaw.pl/dla-mieszkanca/poznaj-wroclawskie-osiedla-zapraszamy-na-nadodrze",
+      "fact": "Neighborhood identity, tenements, courtyards and urban walking context; historical2023 article not used for current roadworks status"
+    }
+  ],
+  "originalsPreserved": true,
+  "personalMediaAuthorized": false,
+  "inventory": [
+    {
+      "index": 1,
+      "sha256": "24884e452e08859197f0f46b7c6653cb16d5587ee2ef5f9242baaaa2a3f0f0d6",
+      "bytes": 483892,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points. Construction-site clock/new riverside buildings/Pomorski bridge are not sufficient evidence for the exact neighborhood scope.",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 17.19.00 (2).jpeg"
+    },
+    {
+      "index": 2,
+      "sha256": "24884e452e08859197f0f46b7c6653cb16d5587ee2ef5f9242baaaa2a3f0f0d6",
+      "bytes": 483892,
+      "decision": "excluded-duplicate",
+      "reason": "Byte-identical duplicate of an earlier file in this inventory. Construction-site clock/new riverside buildings/Pomorski bridge are not sufficient evidence for the exact neighborhood scope.",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 17.19.00.jpeg"
+    },
+    {
+      "index": 3,
+      "sha256": "261c6e974edbea8d2bb3b739af43ef4118b6d3b4489767dfd8ce126899586265",
+      "bytes": 814641,
+      "decision": "selected",
+      "reason": "Exact library facade and painted book shelves visually match official MBP branch27 photo; official address Łokietka13 in Nadodrze.",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.30 (1).jpeg"
+    },
+    {
+      "index": 4,
+      "sha256": "44ce72a9fe66c4041c2ff28b1f421e964438c88c6720037d5f6771f7dcede533",
+      "bytes": 771654,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points.",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.30 (2).jpeg"
+    },
+    {
+      "index": 5,
+      "sha256": "df874468104c6a369e1b65cd63b38aaa888b3936b7fd425ca479b91bc734cfa8",
+      "bytes": 691113,
+      "decision": "excluded-personal",
+      "reason": "Prominent identifiable individual in foreground; no task-specific personal-media permission. Index6 also duplicates5.",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.30 (3).jpeg"
+    },
+    {
+      "index": 6,
+      "sha256": "df874468104c6a369e1b65cd63b38aaa888b3936b7fd425ca479b91bc734cfa8",
+      "bytes": 691113,
+      "decision": "excluded-personal",
+      "reason": "Prominent identifiable individual in foreground; no task-specific personal-media permission. Index6 also duplicates5.",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.30.jpeg"
+    },
+    {
+      "index": 7,
+      "sha256": "34019918bcc15d6d7c4817542dc378bdd3c4b20d65b46f2f5d0577ac37de8cbb",
+      "bytes": 488456,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points. Construction-site clock/new riverside buildings/Pomorski bridge are not sufficient evidence for the exact neighborhood scope.",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.33 (1).jpeg"
+    },
+    {
+      "index": 8,
+      "sha256": "cb9d480bcef48006a1ea83466df8dee37ce4ea89ff84d9d472d21124f30188ff",
+      "bytes": 495666,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points. Construction-site clock/new riverside buildings/Pomorski bridge are not sufficient evidence for the exact neighborhood scope.",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.33 (2).jpeg"
+    },
+    {
+      "index": 9,
+      "sha256": "a6d71c62337ed30749a3c9c5b5f8544d37c0ab6a204a9bc3ada0dc5748313a32",
+      "bytes": 821246,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points.",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.33 (3).jpeg"
+    },
+    {
+      "index": 10,
+      "sha256": "6cc40762df498c48a9b5ad61221aa2c06dc0edef367c8267f440c03c120c799a",
+      "bytes": 428095,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points.",
+      "sourceFile": "WhatsApp Image 2026-10-05 at 18.25.00 (2).jpeg"
+    },
+    {
+      "index": 11,
+      "sha256": "e555875c1d2c9fbbace90a2a1a3236889cd2464cc781da51e23a67a0fa245a3a",
+      "bytes": 523513,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points.",
+      "sourceFile": "WhatsApp Image 2026-10-05 at 18.25.00 (3).jpeg"
+    },
+    {
+      "index": 12,
+      "sha256": "92b8df0d5cf974786047562e9d779ffa03151b223b404b287537f9c530de94ef",
+      "bytes": 790625,
+      "decision": "selected",
+      "reason": "Exact library facade and painted book shelves visually match official MBP branch27 photo; official address Łokietka13 in Nadodrze.",
+      "sourceFile": "WhatsApp Video 2026-10-01 at 09.20.31.mp4"
+    },
+    {
+      "index": 13,
+      "sha256": "72c0f106452b77839294831a13a31b73313b769eadcf6338698e232e5c2dff63",
+      "bytes": 1069863,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points.",
+      "sourceFile": "WhatsApp Video 2026-10-01 at 09.20.32.mp4"
+    },
+    {
+      "index": 14,
+      "sha256": "69b3635cee0b8255bb6e57e3aea83b13f8dfe659820e05381b059995e412d6c6",
+      "bytes": 1541732,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points. Construction-site clock/new riverside buildings/Pomorski bridge are not sufficient evidence for the exact neighborhood scope.",
+      "sourceFile": "WhatsApp Video 2026-10-01 at 09.20.36.mp4"
+    },
+    {
+      "index": 15,
+      "sha256": "d2531e79d2b708642ec04915bb74fd2dd6ba631da68f05b5ed3b5782262712ef",
+      "bytes": 946725,
+      "decision": "excluded-visual-duplicate",
+      "reason": "Same library clip as selected index12, re-encoded WhatsApp export; keep one video.",
+      "sourceFile": "WhatsApp Video 2026-10-05 at 18.27.49 (1).mp4"
+    },
+    {
+      "index": 16,
+      "sha256": "d2531e79d2b708642ec04915bb74fd2dd6ba631da68f05b5ed3b5782262712ef",
+      "bytes": 946725,
+      "decision": "excluded-duplicate",
+      "reason": "Byte-identical duplicate of an earlier file in this inventory.",
+      "sourceFile": "WhatsApp Video 2026-10-05 at 18.27.49.mp4"
+    },
+    {
+      "index": 17,
+      "sha256": "0ecbed333af7448a0cfeecd56bfb661f7a3d678aa78fae222a39f59e6473f1b8",
+      "bytes": 1296553,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points.",
+      "sourceFile": "WhatsApp Video 2026-10-05 at 18.27.50 (1).mp4"
+    },
+    {
+      "index": 18,
+      "sha256": "0ecbed333af7448a0cfeecd56bfb661f7a3d678aa78fae222a39f59e6473f1b8",
+      "bytes": 1296553,
+      "decision": "excluded-duplicate",
+      "reason": "Byte-identical duplicate of an earlier file in this inventory.",
+      "sourceFile": "WhatsApp Video 2026-10-05 at 18.27.50.mp4"
+    },
+    {
+      "index": 19,
+      "sha256": "f0784eff189e569273507ad2a39150f8db74092dbf1ccfd07437c122171f67d1",
+      "bytes": 1875642,
+      "decision": "held-unverified-location",
+      "reason": "Folder title alone does not establish the scene within Nadodrze; no automatic transfer to nearby points. Construction-site clock/new riverside buildings/Pomorski bridge are not sufficient evidence for the exact neighborhood scope.",
+      "sourceFile": "WhatsApp Video 2026-10-05 at 18.27.56 (1).mp4"
+    },
+    {
+      "index": 20,
+      "sha256": "f0784eff189e569273507ad2a39150f8db74092dbf1ccfd07437c122171f67d1",
+      "bytes": 1875642,
+      "decision": "excluded-duplicate",
+      "reason": "Byte-identical duplicate of an earlier file in this inventory. Construction-site clock/new riverside buildings/Pomorski bridge are not sufficient evidence for the exact neighborhood scope.",
+      "sourceFile": "WhatsApp Video 2026-10-05 at 18.27.56.mp4"
+    }
+  ],
+  "mapDecisions": {
+    "cultural-adventure": "Enrich existing canonical area experience and its Nadodrze point; keep Olbin separately",
+    "otherProducts": "No forced insertion into time-limited/seasonal routes, lifestyle venues or regional excursions"
+  },
+  "socialAudit": {
+    "verifiedExactPosts": 0,
+    "missingOrUnverifiedCells": 10,
+    "oldLinks": [],
+    "reason": "Existing experience has empty social array; no exact-place posts found in registry/receipts or focused public-index search. Non-indexed account content not exhaustively inspectable; hidden rather than inventing links.",
+    "cells": [
+      {
+        "language": "he",
+        "platform": "facebook",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "he",
+        "platform": "instagram",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "en",
+        "platform": "facebook",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "en",
+        "platform": "instagram",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "pl",
+        "platform": "facebook",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "pl",
+        "platform": "instagram",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "de",
+        "platform": "facebook",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "de",
+        "platform": "instagram",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "cs",
+        "platform": "facebook",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      },
+      {
+        "language": "cs",
+        "platform": "instagram",
+        "status": "missing-or-unverified",
+        "exactPostUrl": null,
+        "renderAction": false
+      }
+    ]
+  },
+  "video": {
+    "sourceSHA256": "92b8df0d5cf974786047562e9d779ffa03151b223b404b287537f9c530de94ef",
+    "publicationSHA256": "3d512a2880b7e2f3fe51ae1e93cd52855b8004bf23ce086219ceb1dc569da24d",
+    "duration": 4.166667,
+    "audio": "Removed from publication copy; original preserved",
+    "status": "public-verified",
+    "title": "Nadodrze, Wroclaw | Painted library facade | WROC-LOVE",
+    "description": "Original silent visit footage showing the painted facade of Municipal Public Library branch27 at Lokietka13, Nadodrze, Wroclaw. Explore our cultural map: https://wroc-love.com/products/interactive-maps/cultural.html?lang=en",
+    "termsApproval": {
+      "source": "User action-time approval relayed by /root",
+      "quote": "מאשר את התנאים לסרטון נדאודזה",
+      "scope": "4.17 second silent library-facade clip; shown Terms of Service and Community Guidelines; Public"
+    },
+    "youtubeId": "tLQTKvqj7H0",
+    "youtubeUrl": "https://youtube.com/shorts/tLQTKvqj7H0",
+    "processing": "complete SD",
+    "copyrightCheck": "No issues found",
+    "communityGuidelinesCheck": "No issues found",
+    "visibility": "Public",
+    "verifiedAt": "2026-10-18",
+    "sourceFile": "WhatsApp Video 2026-10-01 at 09.20.31.mp4"
+  }
+}

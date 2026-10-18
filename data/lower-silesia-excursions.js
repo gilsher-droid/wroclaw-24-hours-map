@@ -1214,6 +1214,7 @@
 
   const warsawLodz = {
   "id": "warsaw-lodz-wroclaw",
+  "initialMapFocus": "local-stops",
   "showDestinationMarker": true,
   "slug": "warsaw-lodz-wroclaw",
   "title": {

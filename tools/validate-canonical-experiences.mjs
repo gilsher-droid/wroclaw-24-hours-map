@@ -59,6 +59,18 @@ for (const experience of registry.experiences) {
     if (!point?.id || !Array.isArray(point.coordinates) || point.coordinates.length !== 2 || point.coordinates.some((value) => !Number.isFinite(value))) {
       throw new Error(`${experience.id}: invalid mapPoint.`);
     }
+    for (const field of ["name", "description"]) {
+      if (point[field]) for (const language of languages) {
+        if (!point[field][language]?.trim()) throw new Error(`${experience.id}/${point.id}: ${field}.${language} is required.`);
+      }
+    }
+    for (const photo of point.media?.photos || []) validateMediaPath(`${experience.id}/${point.id}`, photo);
+    for (const video of point.media?.videos || []) {
+      const registry = JSON.parse(readFileSync(resolve(root, "data/youtube-media-migration.json"), "utf8"));
+      const verified = Object.values(registry).find(entry => entry.youtube === video && entry.status === "public");
+      if (!verified) throw new Error(`${experience.id}/${point.id}: area video lacks verified public YouTube hosting.`);
+    }
+
   }
   for (const endpoint of ["origin", "destination"]) {
     if (experience[endpoint] && (!experience[endpoint].city || !experience[endpoint].countryCode)) {

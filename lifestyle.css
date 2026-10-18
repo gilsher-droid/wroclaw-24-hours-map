@@ -130,6 +130,7 @@ footer > div { display: grid; gap: 4px; } footer span { color: rgba(255,255,255,
 .media-dialog h2 { padding-inline-end: 48px; }
 .media-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
 .media-grid img { width: 100%; height: 330px; object-fit: cover; border-radius: 16px; }
+.media-grid img[src*="/food-cafes/mania-al-taglio-"],
 .media-grid img[src*="/food-cafes/magnolia-park-"],
 .media-grid img[src*="/food-cafes/ato-ramen-"],
 .media-grid img[src*="/food-cafes/fashion-outlet-"],
