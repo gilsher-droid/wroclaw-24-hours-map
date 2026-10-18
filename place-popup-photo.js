@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  const labels = {he:"הגדלת תמונת המקום",en:"Enlarge place photo",pl:"Powiększ zdjęcie miejsca",de:"Ortsfoto vergrößern",cs:"Zvětšit fotografii místa"};
+  const labels = {he:"פתיחת גלריית תמונות המקום",en:"Open place photo gallery",pl:"Otwórz galerię zdjęć miejsca",de:"Fotogalerie des Ortes öffnen",cs:"Otevřít fotogalerii místa"};
   const escape = value => String(value || "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
   const local = (value,lang) => typeof value === "string" ? value : value?.[lang] || value?.en || value?.he || "";
   function sourceFor(record) {
@@ -19,6 +19,19 @@
     const name = local(canonical.name || record.name,lang) || canonical.localName || "";
     return `<a class="place-popup-photo-link" href="${escape(src)}" target="_blank" rel="noopener" aria-label="${escape(labels[lang] || labels.en)}"><img class="place-popup-photo" src="${escape(src)}" alt="${escape(name)}" width="240" height="135" loading="lazy" decoding="async"></a>`;
   }
+  // Reuse the map's existing gallery, keeping the open popup and map position.
+  document.addEventListener("click",event=>{
+    const thumbnail = event.target.closest?.(".place-popup-photo-link");
+    if (!thumbnail) return;
+    // Excursions already attach their native gallery action directly to the photo.
+    if (thumbnail.hasAttribute("data-place-gallery")) return;
+    const popup = thumbnail.closest(".leaflet-popup-content");
+    const gallery = popup?.querySelector("button.open-gallery, button[data-open-gallery], button[data-gallery], button[data-place-gallery][data-media-kind='photos']");
+    if (!gallery) return;
+    event.preventDefault();
+    event.stopPropagation();
+    gallery.click();
+  }, true);
   document.addEventListener("error",event=>{
     if (event.target?.classList?.contains("place-popup-photo")) event.target.closest(".place-popup-photo-link").hidden = true;
   },true);

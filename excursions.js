@@ -185,7 +185,10 @@
       const marker = L.marker([coordinate.lat, coordinate.lng], { icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({ className: "route-marker", html: `<span>${index + 1}</span>${placeAmenities.markerBadgeHtml(canonical, language)}`, iconSize: [42, 50], iconAnchor: [21, 48] }, canonical, language)) }).addTo(map).bindPopup(placePopup(canonical, label, coordinate), { maxWidth: 320 }).on("popupopen", () => trackPlaceOpen(canonical));
       registerMapStop(point.id,map,marker,coordinate,canonical,label,"excursion-map");
     });
-    map.fitBounds(route, { padding: [30, 30] });
+    const localStops = excursion.initialMapFocus === "local-stops"
+      ? excursion.routePoints.filter(point => excursion.canonicalPlaceIds.includes(point.canonicalPlaceId)).map(coords).filter(Boolean).map(({lat,lng})=>[lat,lng])
+      : [];
+    map.fitBounds(localStops.length ? localStops : route, { padding: [30, 30], maxZoom: 15 });
   }
 
   function extensionActions(id) {
