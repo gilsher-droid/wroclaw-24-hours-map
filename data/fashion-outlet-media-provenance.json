@@ -1,0 +1,640 @@
+{
+  "canonicalPlaceId": "fashion-outlet",
+  "inventory": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 17.31.10.jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "d2ad7b5f806166056460fb310d2ae34dca9bd780f6544b1ef3dbf489f8ebd2b3",
+      "bytes": 693286,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "identicalSourceIndex": null,
+      "decision": "excluded: near-duplicate framing or repeated sign; clearer representative chosen"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (10).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "8d7a966de5deb50327f6eeba5bc97f74ffadc61eefc1c919402132f8a15d7ebd",
+      "bytes": 111226,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "selected: distinct verified outlet view"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (11).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "71bc9e44722487decfb79aa109dc0d207f63668bd46477372ba644d20db5741a",
+      "bytes": 208652,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": null,
+      "decision": "selected: distinct verified outlet view"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (12).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "a9f6eeb5fc7d29fb8b2fb2219720907f3772ed3cd7d7d82b7a7c6d2b24601fe1",
+      "bytes": 225503,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (13).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "8ffe19b48f58e788f37f4dad91ffc8419c7144a4f531dd9ba482511937799179",
+      "bytes": 153655,
+      "dimensions": [
+        900,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (14).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "db81d96f3932f9b2b2cb6e527823f9263a6878d9bbcd11ed512081754b63275f",
+      "bytes": 375047,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": null,
+      "decision": "selected: distinct verified outlet view"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (15).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "784391806b17f32c75366b2dd5c38fe43ce239016fc8c14c551c39c52c6b8ece",
+      "bytes": 255299,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "selected: distinct verified outlet view"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (16).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "1bbaf30858026dcfc03dee908e9aab216828d8cca663f40db5e42022e2733f11",
+      "bytes": 300223,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "selected: distinct verified outlet view"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (17).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "55befb2b78476caad7323e7bb3141296ac677015f5f16ee549b58ad88e0d5859",
+      "bytes": 289500,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "selected: distinct verified outlet view"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (18).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "8cd360748180e497a87a12114d505b9f60c2e231a7a5f4f97f87c3f9349b7eb4",
+      "bytes": 110544,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "selected: distinct verified outlet view"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (9).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "14e1f645f0cda26de6a0b1710bdf4bcd9f643975b89913defe40aa28ceb9749b",
+      "bytes": 108469,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "excluded: near-duplicate framing or repeated sign; clearer representative chosen"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.21.11 (15).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "a0be0d7f6ca63b2fe9772ae249e16606865d797d3200f418f57fc165879df032",
+      "bytes": 222030,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": null,
+      "decision": "selected: distinct verified outlet view"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.21.11 (16).jpeg",
+      "sourceFolder": "FashionOutlet",
+      "sha256": "4266ef93aa48c05da7635e1869891d62fa1710d91eb552205a2abfe51e2467db",
+      "bytes": 122939,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "excluded: near-duplicate framing or repeated sign; clearer representative chosen"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 17.31.10 (2).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "9caddc7bf240d69c699f231c1dc99af0ce965a1620fadfa5cb4363fb0497840b",
+      "bytes": 461274,
+      "dimensions": [
+        1536,
+        2048
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (10).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "8d7a966de5deb50327f6eeba5bc97f74ffadc61eefc1c919402132f8a15d7ebd",
+      "bytes": 111226,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 1,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (11).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "71bc9e44722487decfb79aa109dc0d207f63668bd46477372ba644d20db5741a",
+      "bytes": 208652,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": 2,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (12).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "a9f6eeb5fc7d29fb8b2fb2219720907f3772ed3cd7d7d82b7a7c6d2b24601fe1",
+      "bytes": 225503,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 3,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (13).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "8ffe19b48f58e788f37f4dad91ffc8419c7144a4f531dd9ba482511937799179",
+      "bytes": 153655,
+      "dimensions": [
+        900,
+        1600
+      ],
+      "identicalSourceIndex": 4,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (14).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "db81d96f3932f9b2b2cb6e527823f9263a6878d9bbcd11ed512081754b63275f",
+      "bytes": 375047,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": 5,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (15).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "784391806b17f32c75366b2dd5c38fe43ce239016fc8c14c551c39c52c6b8ece",
+      "bytes": 255299,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 6,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (16).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "1bbaf30858026dcfc03dee908e9aab216828d8cca663f40db5e42022e2733f11",
+      "bytes": 300223,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 7,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (17).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "55befb2b78476caad7323e7bb3141296ac677015f5f16ee549b58ad88e0d5859",
+      "bytes": 289500,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 8,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (18).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "8cd360748180e497a87a12114d505b9f60c2e231a7a5f4f97f87c3f9349b7eb4",
+      "bytes": 110544,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 9,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (19).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "6bd61a28aca67c345f250e1760be32f173dbbec581ff2c6634f97c538b01f361",
+      "bytes": 304813,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (2).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "cccf278e5dc1725b7e73a195ff71e23256bac6df85ad4ff4bd196d8cb053dc4d",
+      "bytes": 242729,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (20).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "b76007e4011d7718e752e69d25be6c185986a7a8d6fa0a10e5f87b501ce35df9",
+      "bytes": 277462,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (21).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "cccf278e5dc1725b7e73a195ff71e23256bac6df85ad4ff4bd196d8cb053dc4d",
+      "bytes": 242729,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 24,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (22).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "8c84155dcfbdaabbd608b65df64bc7088d016b1583c06553eb452dfed32698bb",
+      "bytes": 385913,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (23).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "e5dd38b7197b9cde76d422484cf0b3187aa53562733b6b7b0862188d5c2fd6ff",
+      "bytes": 372495,
+      "dimensions": [
+        900,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (24).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "d6dcfdfef1e5bc03139d343c68d04d8b0e7396571ec7b793c16950d0de574918",
+      "bytes": 360483,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (25).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "b33666fb50175163eeb402930a834cffda55f9bf9b0a768eee17fe91c142d99d",
+      "bytes": 473633,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (26).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "f5ab6c86ea63464c54296041bad8aaaec7d7cd963bfe24c0b1689568d10ce698",
+      "bytes": 296174,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (27).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "7d34cd87c820c7a1d45d218402738e0093593a4fa0e8ef4a0ae4bb2c697ad1b6",
+      "bytes": 376305,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": null,
+      "decision": "held: other shop/area, dwarf or bathroom showroom not securely attributed to outlet"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (28).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "14e1f645f0cda26de6a0b1710bdf4bcd9f643975b89913defe40aa28ceb9749b",
+      "bytes": 108469,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 10,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (29).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "8d7a966de5deb50327f6eeba5bc97f74ffadc61eefc1c919402132f8a15d7ebd",
+      "bytes": 111226,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 1,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (3).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "8c84155dcfbdaabbd608b65df64bc7088d016b1583c06553eb452dfed32698bb",
+      "bytes": 385913,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "identicalSourceIndex": 27,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (30).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "71bc9e44722487decfb79aa109dc0d207f63668bd46477372ba644d20db5741a",
+      "bytes": 208652,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": 2,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (31).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "a9f6eeb5fc7d29fb8b2fb2219720907f3772ed3cd7d7d82b7a7c6d2b24601fe1",
+      "bytes": 225503,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 3,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (32).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "8ffe19b48f58e788f37f4dad91ffc8419c7144a4f531dd9ba482511937799179",
+      "bytes": 153655,
+      "dimensions": [
+        900,
+        1600
+      ],
+      "identicalSourceIndex": 4,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (33).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "db81d96f3932f9b2b2cb6e527823f9263a6878d9bbcd11ed512081754b63275f",
+      "bytes": 375047,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": 5,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (34).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "784391806b17f32c75366b2dd5c38fe43ce239016fc8c14c551c39c52c6b8ece",
+      "bytes": 255299,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 6,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (35).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "1bbaf30858026dcfc03dee908e9aab216828d8cca663f40db5e42022e2733f11",
+      "bytes": 300223,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 7,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (36).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "55befb2b78476caad7323e7bb3141296ac677015f5f16ee549b58ad88e0d5859",
+      "bytes": 289500,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 8,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (37).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "8cd360748180e497a87a12114d505b9f60c2e231a7a5f4f97f87c3f9349b7eb4",
+      "bytes": 110544,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 9,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (4).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "e5dd38b7197b9cde76d422484cf0b3187aa53562733b6b7b0862188d5c2fd6ff",
+      "bytes": 372495,
+      "dimensions": [
+        900,
+        1600
+      ],
+      "identicalSourceIndex": 28,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (5).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "d6dcfdfef1e5bc03139d343c68d04d8b0e7396571ec7b793c16950d0de574918",
+      "bytes": 360483,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "identicalSourceIndex": 29,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (6).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "b33666fb50175163eeb402930a834cffda55f9bf9b0a768eee17fe91c142d99d",
+      "bytes": 473633,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "identicalSourceIndex": 30,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (7).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "f5ab6c86ea63464c54296041bad8aaaec7d7cd963bfe24c0b1689568d10ce698",
+      "bytes": 296174,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 31,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (8).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "7d34cd87c820c7a1d45d218402738e0093593a4fa0e8ef4a0ae4bb2c697ad1b6",
+      "bytes": 376305,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": 32,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00 (9).jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "14e1f645f0cda26de6a0b1710bdf4bcd9f643975b89913defe40aa28ceb9749b",
+      "bytes": 108469,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "identicalSourceIndex": 10,
+      "decision": "excluded: exact duplicate source"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Wrocław - Fashion Outlet and vicinity/WhatsApp Image 2026-09-24 at 19.03.00.jpeg",
+      "sourceFolder": "Wrocław - Fashion Outlet and vicinity",
+      "sha256": "6bd61a28aca67c345f250e1760be32f173dbbec581ff2c6634f97c538b01f361",
+      "bytes": 304813,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "identicalSourceIndex": 23,
+      "decision": "excluded: exact duplicate source"
+    }
+  ],
+  "personalMediaPermission": false,
+  "videosFound": 0,
+  "originalsPreserved": true,
+  "factualSources": [
+    {
+      "url": "https://www.wroclawfashionoutlet.com/en/contact",
+      "verifiedAt": "2026-10-18",
+      "scope": "official centre identity and Graniczna2 address"
+    },
+    {
+      "url": "https://www.wroclawfashionoutlet.com/en/practical-information",
+      "verifiedAt": "2026-10-18",
+      "scope": "official shopping/dining facilities and current opening information; no mutable hours, prices or promotions copied"
+    }
+  ],
+  "mapDecisions": {
+    "lifestyle-guide": "retained shopping map; dining category added because official site and visit photos confirm food facilities, matching other shopping centres",
+    "cultural-adventure": "not added; no documented cultural landmark",
+    "wroclaw-24-hours": "not added; dedicated shopping detour unnecessary in timed city route",
+    "wroclaw-four-days": "not added; optional shopping remains on dedicated lifestyle map",
+    "wroclaw-christmas": "not added; no specifically verified Christmas attraction",
+    "lower-silesia-excursions": "not added; city shopping centre rather than regional excursion"
+  }
+}

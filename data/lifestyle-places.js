@@ -95,7 +95,7 @@
     place("borek", ["buy","eat"], [51.0881075,17.0005693], "Centrum Handlowe Borek", sourceShopping, shoppingPost, null, sourceShopping),
     // Presentation adapter; the name, description, links and photos live in the canonical catalog.
     { id: "aleja-bielany", categories: ["buy"], coordinates: [51.0489, 16.95959], mediaKey: "aleja-bielany" },
-    place("fashion-outlet", ["buy"], [51.1067753,16.9451904], "Wrocław Fashion Outlet", sourceShopping, shoppingPost, null, sourceShopping),
+    { id: "fashion-outlet", categories: ["buy", "eat"], coordinates: [51.1067753,16.9451904], mediaKey: "fashion-outlet", sourceUrl: shoppingPost, note: sourceShopping },
 
     place("puro", ["sleep"], [51.1079917,17.0248927], "PURO Wrocław Stare Miasto", sourceHotel, hotelPost, null, t("ברובע ארבע הדתות, קרוב למסעדות ולמרכז.", "In the Four Denominations District, close to restaurants and the centre.", "W Dzielnicy Czterech Wyznań, blisko restauracji i centrum.", "Im Viertel der vier Konfessionen, nahe Restaurants und Zentrum.", "Ve čtvrti čtyř vyznání, blízko restaurací a centra.")),
     place("korona-hotel", ["sleep"], [51.1090144,17.0337412], "Korona Hotel Wrocław Market Square", sourceHotel, hotelPost, null, t("ממש ליד כיכר השוק.", "Right by Market Square.", "Tuż przy Rynku.", "Direkt am Rynek.", "Přímo u Rynku.")),
