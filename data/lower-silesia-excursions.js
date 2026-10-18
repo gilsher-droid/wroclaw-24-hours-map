@@ -1212,13 +1212,522 @@
   }
 };
 
+  const warsawLodz = {
+  "id": "warsaw-lodz-wroclaw",
+  "showDestinationMarker": true,
+  "slug": "warsaw-lodz-wroclaw",
+  "title": {
+    "he": "בדרך לוורוצלב עוצרים בלודז׳",
+    "en": "Stop in Łódź on the way to Wrocław",
+    "pl": "W drodze do Wrocławia zatrzymaj się w Łodzi",
+    "de": "Auf dem Weg nach Wrocław in Łódź anhalten",
+    "cs": "Cestou do Vratislavi se zastavte v Lodži"
+  },
+  "summary": {
+    "he": "יוצאים מוורשה, עוצרים בלודז׳ למורשת היהודית באזור הגטו לשעבר, למנופקטורה, לחצר המראות ולרחוב פיוטרקובסקה, וממשיכים לוורוצלב.",
+    "en": "Leave Warsaw, stop in Łódź for Jewish heritage in the former ghetto, Manufaktura, Rose Passage and Piotrkowska, then continue to Wrocław.",
+    "pl": "Wyjazd z Warszawy, postój w Łodzi: dziedzictwo żydowskie dawnego getta, Manufaktura, Pasaż Róży i Piotrkowska, potem droga do Wrocławia.",
+    "de": "Von Warschau über Łódź mit jüdischer Geschichte im ehemaligen Ghetto, Manufaktura, Rosenpassage und Piotrkowska nach Wrocław.",
+    "cs": "Z Varšavy přes Lodž: židovské dědictví v bývalém ghettu, Manufaktura, Růžová pasáž a Piotrkowská, dále do Vratislavi."
+  },
+  "meta": {
+    "duration": "full-day",
+    "startsAt": "warsaw",
+    "region": "lodz",
+    "tags": [
+      "city-walk",
+      "architecture",
+      "photography",
+      "food",
+      "shopping"
+    ]
+  },
+  "durationLabel": {
+    "he": "יום נסיעה עם עצירה של כ־5–6 שעות",
+    "en": "Travel day with a 5–6 hour stop",
+    "pl": "Dzień podróży z postojem na 5–6 godzin",
+    "de": "Reisetag mit 5–6 Stunden Aufenthalt",
+    "cs": "Cestovní den se zastávkou na 5–6 hodin"
+  },
+  "startsLabel": {
+    "he": "יציאה מוורשה",
+    "en": "Start in Warsaw",
+    "pl": "Start w Warszawie",
+    "de": "Start in Warschau",
+    "cs": "Start ve Varšavě"
+  },
+  "regionLabel": {
+    "he": "לודז׳, בדרך לוורוצלב",
+    "en": "Łódź, en route to Wrocław",
+    "pl": "Łódź, w drodze do Wrocławia",
+    "de": "Łódź, auf dem Weg nach Wrocław",
+    "cs": "Lodž, cestou do Vratislavi"
+  },
+  "heroMedia": {
+    "canonicalPlaceId": "lodz-manufaktura",
+    "photoIndex": 0
+  },
+  "canonicalPlaceIds": [
+    "lodz-manufaktura",
+    "lodz-old-market",
+    "lodz-church-square",
+    "lodz-ghetto-baluty",
+    "lodz-freedom-square",
+    "lodz-rose-passage",
+    "lodz-gutenberg-house",
+    "lodz-piotrkowska"
+  ],
+  "routePoints": [
+    {
+      "id": "warsaw-start",
+      "kind": "context",
+      "label": {
+        "he": "יציאה מוורשה",
+        "en": "Depart Warsaw",
+        "pl": "Wyjazd z Warszawy",
+        "de": "Abfahrt aus Warschau",
+        "cs": "Odjezd z Varšavy"
+      },
+      "coordinates": {
+        "lat": 52.2297,
+        "lng": 21.0122
+      }
+    },
+    {
+      "id": "lodz-manufaktura",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-manufaktura"
+    },
+    {
+      "id": "lodz-old-market",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-old-market"
+    },
+    {
+      "id": "lodz-church-square",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-church-square"
+    },
+    {
+      "id": "lodz-ghetto-baluty",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-ghetto-baluty"
+    },
+    {
+      "id": "lodz-freedom-square",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-freedom-square"
+    },
+    {
+      "id": "lodz-rose-passage",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-rose-passage"
+    },
+    {
+      "id": "lodz-gutenberg-house",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-gutenberg-house"
+    },
+    {
+      "id": "lodz-piotrkowska",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-piotrkowska"
+    },
+    {
+      "id": "manufaktura-return",
+      "kind": "context",
+      "label": {
+        "he": "חזרה לרכב במנופקטורה",
+        "en": "Return to the car at Manufaktura",
+        "pl": "Powrót do samochodu w Manufakturze",
+        "de": "Zurück zum Auto an der Manufaktura",
+        "cs": "Zpět k autu u Manufaktury"
+      },
+      "coordinates": {
+        "lat": 51.7794621,
+        "lng": 19.444461
+      },
+      "hideMarker": true
+    },
+    {
+      "id": "wroclaw-arrival",
+      "kind": "context",
+      "label": {
+        "he": "הגעה לוורוצלב",
+        "en": "Arrive in Wrocław",
+        "pl": "Przyjazd do Wrocławia",
+        "de": "Ankunft in Wrocław",
+        "cs": "Příjezd do Vratislavi"
+      },
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      }
+    }
+  ],
+  "walkingRoute": {
+    "title": {
+      "he": "המסלול הרגלי בלודז׳",
+      "en": "The Łódź city walk",
+      "pl": "Spacer po Łodzi",
+      "de": "Stadtrundgang durch Łódź",
+      "cs": "Procházka Lodží"
+    },
+    "summary": {
+      "he": "ממנופקטורה הולכים צפונה דרך השוק הישן וכיכר הכנסייה לאזור שוק באלוטי בגטו לשעבר. ממשיכים דרומה אל כיכר החירות, חצר המראות ורחוב פיוטרקובסקה, וחוזרים לרכב. למסלול קצר יותר אפשר לצמצם את הקטע הדרומי.",
+      "en": "From Manufaktura walk north via the Old Market and Church Square to Bałuty in the former ghetto. Continue south to Freedom Square, Rose Passage and Piotrkowska, then return to the car. Shorten the southern section if you have less time.",
+      "pl": "Z Manufaktury idź na północ przez Stary Rynek i plac Kościelny na Bałuty, na teren dawnego getta. Dalej na południe do placu Wolności, Pasażu Róży i Piotrkowskiej, potem wróć do samochodu. Przy mniejszej ilości czasu skróć odcinek południowy.",
+      "de": "Von Manufaktura nordwärts über Alten Markt und Kirchplatz nach Bałuty im ehemaligen Ghetto. Danach südwärts zu Freiheitsplatz, Rosenpassage und Piotrkowska, zurück zum Auto. Bei wenig Zeit den südlichen Abschnitt kürzen.",
+      "cs": "Od Manufaktury severně přes Staré tržiště a Kostelní náměstí na Bałuty v bývalém ghettu. Dále na jih na náměstí Svobody, Růžovou pasáž a Piotrkowskou, pak zpět k autu. Při nedostatku času zkraťte jižní část."
+    },
+    "closedLoop": true,
+    "geometryAccuracy": "stop-order-only",
+    "points": [
+      {
+        "id": "1",
+        "canonicalPlaceId": "lodz-manufaktura"
+      },
+      {
+        "id": "2",
+        "canonicalPlaceId": "lodz-old-market"
+      },
+      {
+        "id": "3",
+        "canonicalPlaceId": "lodz-church-square"
+      },
+      {
+        "id": "4",
+        "canonicalPlaceId": "lodz-ghetto-baluty"
+      },
+      {
+        "id": "5",
+        "canonicalPlaceId": "lodz-freedom-square"
+      },
+      {
+        "id": "6",
+        "canonicalPlaceId": "lodz-rose-passage"
+      },
+      {
+        "id": "7",
+        "canonicalPlaceId": "lodz-gutenberg-house"
+      },
+      {
+        "id": "8",
+        "canonicalPlaceId": "lodz-piotrkowska"
+      }
+    ],
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=51.7794621%2C19.444461&destination=51.7794621%2C19.444461&travelmode=walking&waypoints=51.7815222%2C19.4537361%7C51.7831681%2C19.4538249%7C51.7869694%2C19.4518556%7C51.7767836%2C19.4546995%7C51.7758847%2C19.4536534%7C51.7668862%2C19.4570933%7C51.7654694%2C19.4573028",
+      "segments": [
+        {
+          "from": "1",
+          "to": "4",
+          "url": "https://www.google.com/maps/dir/?api=1&origin=51.7794621%2C19.444461&destination=51.7869694%2C19.4518556&waypoints=51.7815222%2C19.4537361%7C51.7831681%2C19.4538249&travelmode=walking"
+        },
+        {
+          "from": "4",
+          "to": "6",
+          "url": "https://www.google.com/maps/dir/?api=1&origin=51.7869694%2C19.4518556&destination=51.7758847%2C19.4536534&waypoints=51.7767836%2C19.4546995&travelmode=walking"
+        },
+        {
+          "from": "6",
+          "to": "1",
+          "url": "https://www.google.com/maps/dir/?api=1&origin=51.7758847%2C19.4536534&destination=51.7794621%2C19.444461&waypoints=51.7668862%2C19.4570933%7C51.7654694%2C19.4573028&travelmode=walking"
+        }
+      ]
+    },
+    "note": {
+      "he": "הקו מציג את סדר התחנות, ולא תוואי הליכה מדויק. פתחו ניווט להולכי רגל לקבלת מסלול רחובות עדכני.",
+      "en": "The line shows stop order, not an exact walking path. Open walking directions for current street routing.",
+      "pl": "Linia pokazuje kolejność przystanków, nie dokładny przebieg spaceru. Otwórz nawigację pieszą, aby sprawdzić aktualną trasę ulicami.",
+      "de": "Die Linie zeigt die Reihenfolge, keinen exakten Fußweg. Für die aktuelle Straßenführung die Fußgängernavigation öffnen.",
+      "cs": "Čára ukazuje pořadí zastávek, nikoli přesnou pěší trasu. Aktuální cestu ulicemi zobrazí pěší navigace."
+    }
+  },
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Warsaw%2C+Poland&destination=Wroc%C5%82aw%2C+Poland&travelmode=driving&waypoints=51.7794621%2C19.444461"
+  },
+  "editorial": {
+    "why": {
+      "he": "העצירה מחברת בין זיכרון המורשת היהודית באזור הגטו לשעבר לבין העיר של היום: מתחם המפעלים במנופקטורה, חצר המראות ואדריכלות רחוב פיוטרקובסקה. משאירים גם זמן למנוחה ולארוחה.",
+      "en": "The stop connects Jewish remembrance in the former ghetto with the city today: Manufaktura’s former factories, Rose Passage and Piotrkowska architecture. Leave time for a rest and a meal.",
+      "pl": "Postój łączy pamięć o żydowskim dziedzictwie dawnego getta ze współczesnym miastem: pofabryczną Manufakturą, Pasażem Róży i architekturą Piotrkowskiej. Zostaw czas na odpoczynek i posiłek.",
+      "de": "Der Halt verbindet jüdisches Gedenken im ehemaligen Ghetto mit der heutigen Stadt: den Fabrikbauten der Manufaktura, der Rosenpassage und der Architektur der Piotrkowska. Zeit für Pause und Essen einplanen.",
+      "cs": "Zastávka spojuje připomínku židovského dědictví bývalého ghetta s dnešním městem: továrnami Manufaktury, Růžovou pasáží a architekturou Piotrkowské. Ponechte čas na odpočinek a jídlo."
+    },
+    "forWhom": {
+      "he": "לנוסעים מוורשה לוורוצלב ברכב, שמוכנים להקדיש כמה שעות לעיר בדרך. אם יוצאים מאוחר, קצרו את ההליכה ושמרו זמן לנסיעה.",
+      "en": "For travellers driving from Warsaw to Wrocław who can spare several hours for a city stop. If departing late, shorten the walk and preserve driving time.",
+      "pl": "Dla podróżujących samochodem z Warszawy do Wrocławia, którzy mają kilka godzin na miasto po drodze. Przy późnym wyjeździe skróć spacer i zachowaj czas na jazdę.",
+      "de": "Für Autofahrer von Warschau nach Wrocław mit einigen Stunden Zeit für einen Stadtstopp. Bei später Abfahrt den Spaziergang kürzen und Fahrzeit einplanen.",
+      "cs": "Pro cestující autem z Varšavy do Vratislavi, kteří mají několik hodin na město po cestě. Při pozdním odjezdu zkraťte procházku a ponechte čas na jízdu."
+    },
+    "practical": {
+      "he": "התמונות הן מהביקור שלנו. בדקו חניה, זמני נסיעה ופתיחת מקומות ביום הנסיעה. הארוחות והקניות אינן כלולות בזמן הליכה קבוע. אין צורך להיכנס לכל מוזיאון כדי ליהנות מהמסלול.",
+      "en": "The photos are from our visit. Check parking, traffic and venue opening on your travel day. Allow your own time for food and shopping. You do not need to enter every museum to enjoy the walk.",
+      "pl": "Zdjęcia pochodzą z naszej wizyty. W dniu podróży sprawdź parking, ruch i otwarcie obiektów. Dodaj czas na jedzenie i zakupy. Nie trzeba odwiedzać każdego muzeum, aby cieszyć się spacerem.",
+      "de": "Die Fotos stammen von unserem Besuch. Am Reisetag Parken, Verkehr und Öffnung prüfen. Zusätzliche Zeit für Essen und Einkäufe einplanen. Für einen schönen Rundgang muss man nicht jedes Museum betreten.",
+      "cs": "Fotografie pocházejí z naší návštěvy. V den cesty ověřte parkování, dopravu a otevření míst. Přidejte čas na jídlo a nákupy. Pro příjemnou procházku nemusíte navštívit každé muzeum."
+    }
+  },
+  "travel": {
+    "recommendedMode": "car",
+    "segments": [],
+    "estimates": [],
+    "note": {
+      "he": "ניווט הנהיגה עובר מוורשה דרך מנופקטורה לוורוצלב. הוסיפו אליו עצירה של כ־5–6 שעות בלודז׳. משך הנהיגה ייבדק בניווט בזמן הנסיעה, ללא הבטחה לשעת הגעה.",
+      "en": "Driving directions run from Warsaw via Manufaktura to Wrocław. Add a 5–6 hour stop in Łódź. Check driving time in navigation on the day; no fixed arrival time is promised.",
+      "pl": "Trasa samochodowa prowadzi z Warszawy przez Manufakturę do Wrocławia. Dodaj postój na 5–6 godzin w Łodzi. Czas jazdy sprawdź w nawigacji w dniu podróży; bez gwarantowanej godziny przyjazdu.",
+      "de": "Die Autoroute führt von Warschau über die Manufaktura nach Wrocław. Dazu 5–6 Stunden Aufenthalt in Łódź einplanen. Fahrzeit am Reisetag in der Navigation prüfen; ohne garantierte Ankunftszeit.",
+      "cs": "Autotrasa vede z Varšavy přes Manufakturu do Vratislavi. Přidejte zastávku na 5–6 hodin v Lodži. Dobu jízdy ověřte v navigaci v den cesty; bez zaručeného času příjezdu."
+    },
+    "options": [
+      {
+        "mode": "car",
+        "title": {
+          "he": "רכב והמשך הדרך",
+          "en": "Car and onward travel",
+          "pl": "Samochód i dalsza podróż",
+          "de": "Auto und Weiterfahrt",
+          "cs": "Auto a pokračování cesty"
+        },
+        "description": {
+          "he": "התחילו את העצירה במנופקטורה ובדקו שם את החניה. אחרי הסיור חזרו לרכב והמשיכו לוורוצלב לפי הניווט.",
+          "en": "Start the stop at Manufaktura and check parking there. After the walk, return to the car and continue to Wrocław using current navigation.",
+          "pl": "Zacznij postój przy Manufakturze i sprawdź parking. Po spacerze wróć do samochodu i jedź do Wrocławia według aktualnej nawigacji.",
+          "de": "An der Manufaktura beginnen und die Parkbedingungen prüfen. Nach dem Rundgang zum Auto zurückkehren und mit aktueller Navigation nach Wrocław weiterfahren.",
+          "cs": "Začněte u Manufaktury a ověřte parkování. Po procházce se vraťte k autu a pokračujte do Vratislavi podle aktuální navigace."
+        }
+      },
+      {
+        "mode": "walking",
+        "title": {
+          "he": "הסיור בעיר ברגל",
+          "en": "Explore the city on foot",
+          "pl": "Zwiedzanie pieszo",
+          "de": "Zu Fuß durch die Stadt",
+          "cs": "Prohlídka pěšky"
+        },
+        "description": {
+          "he": "המסלול הרגלי מחבר את התחנות באזור הגטו לשעבר ואת מרכז העיר. לביקור מקוצר בחרו תחנות לפי הזמן והשאירו מרווח לארוחה ולחזרה לרכב.",
+          "en": "The walking loop connects the former ghetto area with the city centre. For a shorter visit choose stops to fit your time and leave a buffer for food and the return to the car.",
+          "pl": "Pętla piesza łączy teren dawnego getta z centrum. Przy krótszej wizycie wybierz punkty według czasu i zostaw zapas na posiłek oraz powrót do auta.",
+          "de": "Der Rundgang verbindet das ehemalige Ghettogebiet mit dem Zentrum. Für einen kürzeren Besuch Stationen nach Zeit auswählen und Puffer für Essen und Rückweg lassen.",
+          "cs": "Pěší okruh spojuje bývalé ghetto s centrem. Při kratší návštěvě vyberte zastávky podle času a ponechte rezervu na jídlo a návrat k autu."
+        }
+      }
+    ],
+    "accessibility": []
+  },
+  "steps": [
+    {
+      "id": "depart",
+      "mapPointId": "warsaw-start",
+      "title": {
+        "he": "יציאה מוורשה",
+        "en": "Depart Warsaw",
+        "pl": "Wyjazd z Warszawy",
+        "de": "Abfahrt aus Warschau",
+        "cs": "Odjezd z Varšavy"
+      },
+      "duration": {
+        "he": "לפי הניווט ביום הנסיעה",
+        "en": "Check navigation on the day",
+        "pl": "Według nawigacji w dniu podróży",
+        "de": "Navigation am Reisetag prüfen",
+        "cs": "Podle navigace v den cesty"
+      }
+    },
+    {
+      "id": "lodz-manufaktura",
+      "canonicalPlaceId": "lodz-manufaktura",
+      "title": {
+        "he": "מנופקטורה",
+        "en": "Manufaktura",
+        "pl": "Manufaktura",
+        "de": "Manufaktura",
+        "cs": "Manufaktura"
+      },
+      "duration": {
+        "he": "45–60 דקות",
+        "en": "45–60 min",
+        "pl": "45–60 min",
+        "de": "45–60 Min.",
+        "cs": "45–60 min"
+      }
+    },
+    {
+      "id": "lodz-old-market",
+      "canonicalPlaceId": "lodz-old-market",
+      "title": {
+        "he": "השוק הישן של לודז׳",
+        "en": "Łódź Old Market Square",
+        "pl": "Stary Rynek w Łodzi",
+        "de": "Alter Markt in Łódź",
+        "cs": "Staré tržiště v Lodži"
+      },
+      "duration": {
+        "he": "15–20 דקות",
+        "en": "15–20 min",
+        "pl": "15–20 min",
+        "de": "15–20 Min.",
+        "cs": "15–20 min"
+      }
+    },
+    {
+      "id": "lodz-church-square",
+      "canonicalPlaceId": "lodz-church-square",
+      "title": {
+        "he": "כיכר הכנסייה באזור הגטו לשעבר",
+        "en": "Church Square in the former ghetto",
+        "pl": "Plac Kościelny na terenie dawnego getta",
+        "de": "Kirchplatz im ehemaligen Ghetto",
+        "cs": "Kostelní náměstí v bývalém ghettu"
+      },
+      "duration": {
+        "he": "15–20 דקות",
+        "en": "15–20 min",
+        "pl": "15–20 min",
+        "de": "15–20 Min.",
+        "cs": "15–20 min"
+      }
+    },
+    {
+      "id": "lodz-ghetto-baluty",
+      "canonicalPlaceId": "lodz-ghetto-baluty",
+      "title": {
+        "he": "אזור גטו לודז׳ לשעבר, באלוטי",
+        "en": "Former Łódź Ghetto, Bałuty",
+        "pl": "Obszar dawnego getta łódzkiego, Bałuty",
+        "de": "Ehemaliges Ghetto Łódź, Bałuty",
+        "cs": "Bývalé lodžské ghetto, Bałuty"
+      },
+      "duration": {
+        "he": "15–20 דקות",
+        "en": "15–20 min",
+        "pl": "15–20 min",
+        "de": "15–20 Min.",
+        "cs": "15–20 min"
+      }
+    },
+    {
+      "id": "lodz-freedom-square",
+      "canonicalPlaceId": "lodz-freedom-square",
+      "title": {
+        "he": "כיכר החירות בלודז׳",
+        "en": "Freedom Square, Łódź",
+        "pl": "Plac Wolności w Łodzi",
+        "de": "Freiheitsplatz in Łódź",
+        "cs": "Náměstí Svobody v Lodži"
+      },
+      "duration": {
+        "he": "15–30 דקות",
+        "en": "15–30 min",
+        "pl": "15–30 min",
+        "de": "15–30 Min.",
+        "cs": "15–30 min"
+      }
+    },
+    {
+      "id": "lodz-rose-passage",
+      "canonicalPlaceId": "lodz-rose-passage",
+      "title": {
+        "he": "חצר המראות",
+        "en": "Rose Passage",
+        "pl": "Pasaż Róży",
+        "de": "Rosenpassage",
+        "cs": "Růžová pasáž"
+      },
+      "duration": {
+        "he": "15–30 דקות",
+        "en": "15–30 min",
+        "pl": "15–30 min",
+        "de": "15–30 Min.",
+        "cs": "15–30 min"
+      }
+    },
+    {
+      "id": "lodz-gutenberg-house",
+      "canonicalPlaceId": "lodz-gutenberg-house",
+      "title": {
+        "he": "בית גוטנברג",
+        "en": "Gutenberg House",
+        "pl": "Kamienica pod Gutenbergiem",
+        "de": "Gutenberg-Haus",
+        "cs": "Gutenbergův dům"
+      },
+      "duration": {
+        "he": "15–30 דקות",
+        "en": "15–30 min",
+        "pl": "15–30 min",
+        "de": "15–30 Min.",
+        "cs": "15–30 min"
+      }
+    },
+    {
+      "id": "lodz-piotrkowska",
+      "canonicalPlaceId": "lodz-piotrkowska",
+      "title": {
+        "he": "רחוב פיוטרקובסקה",
+        "en": "Piotrkowska Street",
+        "pl": "Ulica Piotrkowska",
+        "de": "Piotrkowska-Straße",
+        "cs": "Piotrkowská ulice"
+      },
+      "duration": {
+        "he": "15–30 דקות",
+        "en": "15–30 min",
+        "pl": "15–30 min",
+        "de": "15–30 Min.",
+        "cs": "15–30 min"
+      }
+    },
+    {
+      "id": "return",
+      "mapPointId": "manufaktura-return",
+      "title": {
+        "he": "ארוחה או קפה וחזרה לרכב",
+        "en": "Meal or coffee and return to the car",
+        "pl": "Posiłek lub kawa i powrót do samochodu",
+        "de": "Essen oder Kaffee und zurück zum Auto",
+        "cs": "Jídlo či káva a návrat k autu"
+      },
+      "duration": {
+        "he": "השאירו זמן גמיש להליכה ולמנוחה",
+        "en": "Leave flexible time for walking and a break",
+        "pl": "Zostaw zapas czasu na spacer i odpoczynek",
+        "de": "Zeit für Fußweg und Pause einplanen",
+        "cs": "Ponechte čas na chůzi a odpočinek"
+      }
+    },
+    {
+      "id": "arrival",
+      "mapPointId": "wroclaw-arrival",
+      "title": {
+        "he": "ממשיכים לוורוצלב",
+        "en": "Continue to Wrocław",
+        "pl": "Dalsza droga do Wrocławia",
+        "de": "Weiter nach Wrocław",
+        "cs": "Pokračování do Vratislavi"
+      },
+      "duration": {
+        "he": "לפי הניווט ביום הנסיעה",
+        "en": "Check navigation on the day",
+        "pl": "Według nawigacji w dniu podróży",
+        "de": "Navigation am Reisetag prüfen",
+        "cs": "Podle navigace v den cesty"
+      }
+    }
+  ]
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
     title: t("טיולים מוורוצלב", "Excursions from Wrocław", "Wycieczki z Wrocławia", "Ausflüge ab Wrocław", "Výlety z Vratislavi"),
-    status: t("ארבעה טיולים מוכנים", "Four excursions ready", "Cztery wycieczki gotowe", "Vier Ausflüge verfügbar", "Čtyři výlety připraveny"),
-    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds],
+    status: t("חמישה טיולים מוכנים", "Five excursions ready", "Pięć wycieczek gotowych", "Fünf Ausflüge verfügbar", "Pět výletů připraveno"),
+    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {

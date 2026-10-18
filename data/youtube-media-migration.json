@@ -913,5 +913,12 @@
       "bastion"
     ],
     "verifiedAt": "2026-10-18"
+  },
+  "/assets/lodz-manufaktura-visit-01.mp4": {
+    "title": "Manufaktura, Lodz | Original visit | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/NUoexW1XB4E",
+    "sourceSHA256": "c1e90d7504c4b2a4448f222cfcbfa1acfdbb35b850234109a9aca93fd532f784",
+    "verifiedAt": "2026-10-18"
   }
 }
