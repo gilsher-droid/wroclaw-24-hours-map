@@ -920,5 +920,25 @@
     "youtube": "https://youtube.com/shorts/NUoexW1XB4E",
     "sourceSHA256": "c1e90d7504c4b2a4448f222cfcbfa1acfdbb35b850234109a9aca93fd532f784",
     "verifiedAt": "2026-10-18"
+  },
+  "/assets/ato-ramen-visit-01.mp4": {
+    "title": "Ato Ramen Wrocław | Food visit clip 1 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/dwtgXyi61i4",
+    "sourceSHA256": "434444d1ef9df4796f923566ade0bb51a773847d63953fc2be825966430ac3bb",
+    "placeIds": [
+      "ato-ramen"
+    ],
+    "verifiedAt": "2026-10-18"
+  },
+  "/assets/ato-ramen-visit-02.mp4": {
+    "title": "Ato Ramen Wrocław | Food visit clip 2 | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/0_33qzP4ll8",
+    "sourceSHA256": "eb8a1b0c657e3c1a159b697473a2c5375d75051eeb94ef83023a379ce14b2bd6",
+    "placeIds": [
+      "ato-ramen"
+    ],
+    "verifiedAt": "2026-10-18"
   }
 }

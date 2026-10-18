@@ -1155,7 +1155,10 @@
         "/assets/food-cafes/ato-ramen-exterior-03.jpg",
         "/assets/food-cafes/ato-ramen-drink-04.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "/assets/ato-ramen-visit-01.mp4",
+        "/assets/ato-ramen-visit-02.mp4"
+      ],
       "metadata": {
         "/assets/food-cafes/ato-ramen-bowl-01.jpg": {
           "original": true,
@@ -1212,6 +1215,24 @@
             "cs": "Žlutobílý vrstvený nápoj při naší návštěvě"
           },
           "heroCandidate": false
+        },
+        "/assets/ato-ramen-visit-01.mp4": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-01 at 09.24.01.mp4",
+          "sourceSHA256": "434444d1ef9df4796f923566ade0bb51a773847d63953fc2be825966430ac3bb",
+          "youtube": "https://youtube.com/shorts/dwtgXyi61i4",
+          "visibility": "public",
+          "checks": "complete-no-issues",
+          "verifiedAt": "2026-10-18"
+        },
+        "/assets/ato-ramen-visit-02.mp4": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Video 2026-10-01 at 09.24.01 (1).mp4",
+          "sourceSHA256": "eb8a1b0c657e3c1a159b697473a2c5375d75051eeb94ef83023a379ce14b2bd6",
+          "youtube": "https://youtube.com/shorts/0_33qzP4ll8",
+          "visibility": "public",
+          "checks": "complete-no-issues",
+          "verifiedAt": "2026-10-18"
         }
       }
     },
