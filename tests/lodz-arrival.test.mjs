@@ -5,7 +5,7 @@ import {runInNewContext} from 'node:vm';
 const load=()=>{const window={}; for(const file of ['data/place-catalog.js','data/lower-silesia-excursions.js','data/youtube-video-hosting.js']) runInNewContext(readFileSync(file,'utf8'),{window});return window;};
 test('arrival itinerary keeps Warsaw origin, Wroclaw destination and a distinct local walking loop',()=>{
  const w=load(), trip=w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(t=>t.id==='warsaw-lodz-wroclaw');
- assert.equal(trip.routePoints[0].id,'warsaw-start');assert.equal(trip.routePoints.at(-1).id,'wroclaw-arrival');assert.equal(trip.showDestinationMarker,true);
+ assert.equal(trip.routePoints[0].id,'warsaw-start');assert.equal(trip.routePoints.at(-1).id,'wroclaw-arrival');assert.equal(trip.showDestinationMarker,true);assert.equal(trip.steps.find(s=>s.id==='return').canonicalPlaceId,'lodz-manufaktura');
  assert.equal(trip.canonicalPlaceIds.length,8);assert.equal(new Set(trip.canonicalPlaceIds).size,8);
  assert.deepEqual(Array.from(trip.walkingRoute.points,p=>p.canonicalPlaceId),Array.from(trip.canonicalPlaceIds));
  const drive=new URL(trip.navigation.googleMaps),walk=new URL(trip.walkingRoute.navigation.googleMaps);
