@@ -1,0 +1,136 @@
+{
+  "canonicalPlaceId": "magnolia",
+  "inventory": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4903.JPG",
+      "sha256": "31012da1dc602d18a139faa31c39f3af520cd9e1b8de29f04fa09b423b3b75e0",
+      "bytes": 3646782,
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "decision": "selected: distinct verified mall view; any visitors are incidental public-scene background, no personal portrait"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4904.MOV",
+      "sha256": "ce939eab5b1870093af4b425406effb67c1d9e684bd35b08794d082f5adfb256",
+      "bytes": 10103302,
+      "duration": 4.933333,
+      "streams": [
+        {
+          "type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "type": "audio",
+          "width": null,
+          "height": null
+        },
+        {
+          "type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "type": "data",
+          "width": null,
+          "height": null
+        },
+        {
+          "type": "data",
+          "width": null,
+          "height": null
+        }
+      ],
+      "decision": "held: video follows a child in foreground at the fountain; no personal-media exception or child-focused publication permission for this folder; no upload"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4906.JPG",
+      "sha256": "b5caa6f85e8cdbeef7b557f64ba446cb0ae941ecc49cc0f67340be5046b375f0",
+      "bytes": 3289047,
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "decision": "selected: distinct verified mall view; any visitors are incidental public-scene background, no personal portrait"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4912.JPG",
+      "sha256": "7b8119118378891ae9242618dd6bb8fa684f364708b33a196099df6ee49baa24",
+      "bytes": 2848966,
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "decision": "selected: distinct verified mall view; any visitors are incidental public-scene background, no personal portrait"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4913.JPG",
+      "sha256": "706e85966424b6ce68354f90855520425a18f1135fe9321563533935426b6d13",
+      "bytes": 2690139,
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "decision": "selected: distinct verified mall view; any visitors are incidental public-scene background, no personal portrait"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4918.JPG",
+      "sha256": "074748f500d0adb1cf9315a39ddf6562b339fe0d6ed7588e45e656f5bb6a2713",
+      "bytes": 3515342,
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "decision": "selected: distinct verified mall view; any visitors are incidental public-scene background, no personal portrait"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4920.JPG",
+      "sha256": "bc7e9362e83c015b8cd8f0cd0ffd6d357705c5b9233e1c8604ec1407fa9eada8",
+      "bytes": 3040186,
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "decision": "selected: distinct verified mall view; any visitors are incidental public-scene background, no personal portrait"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4923.JPG",
+      "sha256": "70fb587518454c8fe83b459e212977983aa818bb16d59e46b929285e1c440c86",
+      "bytes": 2977843,
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "decision": "selected: distinct verified mall view; any visitors are incidental public-scene background, no personal portrait"
+    }
+  ],
+  "originalsPreserved": true,
+  "personalMediaPermission": false,
+  "photosSelected": 7,
+  "videosHeld": 1,
+  "reasonVideoHeld": "child is the foreground subject; no folder-specific personal-media permission",
+  "factualSources": [
+    {
+      "url": "https://www.magnoliapark.pl/kontakt",
+      "verifiedAt": "2026-10-18",
+      "scope": "official identity,address Legnicka58, shopping and dining facilities; no mutable hours, stock or counts copied"
+    },
+    {
+      "url": "https://geoportal.wroclaw.pl/poi/poi/1849",
+      "verifiedAt": "2026-10-18",
+      "scope": "municipal indexed identity/address only;2017contact details are historical and not reused"
+    }
+  ],
+  "mapDecisions": {
+    "lifestyle-guide": "retain buy and eat, existing canonical membership",
+    "cultural-adventure": "do not add mall because a cinema exists; no independent cultural attraction established",
+    "cityTimedRoutesChristmasRegionalExcursions": "do not force mall into routes without a task-specific reason"
+  }
+}
