@@ -29481,11 +29481,11 @@
       "cs": "Vodárenská věž Borek"
     },
     "description": {
-      "he": "מגדל המים של בורק נבנה בשנים 1904–1905 בתכנון קרל קלים כחלק ממערכת המים העירונית, ומתנשא לגובה של כ־62 מטר. קשתות גדולות, צריחים, מעבר מוגבה, פסלי אבן ומזרקה מעטרים את מבנה הלבנים האדומות. ב־1906 נפתחה בו גלריית תצפית לציבור; זהו פרט היסטורי, ואינו מעיד על גישה כיום.",
-      "en": "Built in 1904–1905 to Karl Klimm’s design for the municipal water system, this red-brick tower rises about 62 metres. Look for the monumental arches, spires, elevated passage, stone sculptures and fountain. A public viewing gallery opened in 1906; this is historical information, not confirmation of access today.",
-      "pl": "Ceglana wieża wodociągowa projektu Karla Klimma powstała w latach 1904–1905 i ma około 62 metrów wysokości. Warto zwrócić uwagę na monumentalne łuki, wieżyczki, wysoko zawieszony łącznik, kamienne rzeźby i fontannę. Galerię widokową udostępniono publiczności w 1906 roku; to informacja historyczna, nie potwierdzenie obecnej dostępności.",
-      "de": "Der etwa 62 Meter hohe Backsteinturm entstand 1904–1905 nach Karl Klimms Entwurf für die städtische Wasserversorgung. Auffällig sind die großen Bögen, Turmspitzen, der hoch gelegene Verbindungsgang, Steinskulpturen und der Brunnen. 1906 öffnete eine öffentliche Aussichtsgalerie; diese historische Angabe bestätigt keinen heutigen Zugang.",
-      "cs": "Cihlová vodárenská věž vznikla v letech 1904–1905 podle návrhu Karla Klimma pro městský vodovod a měří přibližně 62 metrů. Zaujmou mohutné oblouky, věžičky, vyvýšená spojovací chodba, kamenné plastiky a kašna. Vyhlídková galerie se veřejnosti otevřela v roce 1906; jde o historický údaj, nikoli potvrzení dnešní přístupnosti."
+      "he": "מגדל המים של בורק נבנה בשנים 1904–1905 בתכנון קרל קלים כחלק ממערכת המים העירונית, ומתנשא לגובה של כ־62 מטר. קשתות גדולות, צריחים, מעבר מוגבה, פסלי אבן ומזרקה מעטרים את מבנה הלבנים האדומות. ב־1906 נפתחה בו גלריית תצפית לציבור; זהו פרט היסטורי, ואינו מעיד על גישה כיום. בגלריה שלנו מבטים על המגדל, המעבר הגבוה, המזרקה ותבליטי בעלי החיים. כדאי לשלב עצירת צילום חיצונית בסיור אדריכלי בשכונת בורק. לא אומתו כניסה לפנים המבנה, פעילות מסעדה או עלייה לתצפית כיום.",
+      "en": "Built in 1904–1905 to Karl Klimm’s design for the municipal water system, this red-brick tower rises about 62 metres. Look for the monumental arches, spires, elevated passage, stone sculptures and fountain. A public viewing gallery opened in 1906; this is historical information, not confirmation of access today. Our gallery shows the tower, elevated passage, fountain and animal reliefs. Consider an exterior photography stop on an architectural walk through Borek. Current interior entry, restaurant operation and access to the viewing gallery have not been verified.",
+      "pl": "Ceglana wieża wodociągowa projektu Karla Klimma powstała w latach 1904–1905 i ma około 62 metrów wysokości. Warto zwrócić uwagę na monumentalne łuki, wieżyczki, wysoko zawieszony łącznik, kamienne rzeźby i fontannę. Galerię widokową udostępniono publiczności w 1906 roku; to informacja historyczna, nie potwierdzenie obecnej dostępności. Nasza galeria pokazuje wieżę, wysoko zawieszony łącznik, fontannę i płaskorzeźby zwierząt. To przystanek na zdjęcia z zewnątrz podczas spaceru architektonicznego po Borku. Nie potwierdzono obecnej możliwości wejścia do wnętrza, działalności restauracji ani dostępu do galerii widokowej.",
+      "de": "Der etwa 62 Meter hohe Backsteinturm entstand 1904–1905 nach Karl Klimms Entwurf für die städtische Wasserversorgung. Auffällig sind die großen Bögen, Turmspitzen, der hoch gelegene Verbindungsgang, Steinskulpturen und der Brunnen. 1906 öffnete eine öffentliche Aussichtsgalerie; diese historische Angabe bestätigt keinen heutigen Zugang. Unsere Galerie zeigt den Turm, den hoch gelegenen Verbindungsgang, den Brunnen und Tierreliefs. Der Außenbereich bietet einen Fotostopp auf einem Architekturspaziergang durch Borek. Ein heutiger Innenzugang, Restaurantbetrieb oder Zugang zur Aussichtsgalerie ist nicht bestätigt.",
+      "cs": "Cihlová vodárenská věž vznikla v letech 1904–1905 podle návrhu Karla Klimma pro městský vodovod a měří přibližně 62 metrů. Zaujmou mohutné oblouky, věžičky, vyvýšená spojovací chodba, kamenné plastiky a kašna. Vyhlídková galerie se veřejnosti otevřela v roce 1906; jde o historický údaj, nikoli potvrzení dnešní přístupnosti. Naše galerie ukazuje věž, vyvýšenou spojovací chodbu, kašnu a zvířecí reliéfy. Vnější pohled lze zařadit jako fotografickou zastávku při architektonické procházce čtvrtí Borek. Současný vstup do interiéru, provoz restaurace ani přístup na vyhlídkovou galerii nejsou ověřeny."
     },
     "location": {
       "countryCode": "PL",
@@ -29507,7 +29507,10 @@
       "historical-landmark"
     ],
     "sourceUrls": [],
-    "aliases": [],
+    "aliases": [
+      "Wasserturm Kleinburg",
+      "Wieża ciśnień przy alei Wiśniowej"
+    ],
     "sourceRecords": [],
     "coordinateCandidates": [],
     "status": "published",
@@ -29546,10 +29549,10 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/najpiekniejsza-wieza-cisnien-w-polsce-to-jego-dzielo-sto-lat-temu-zmarl-karl-klimm-galeria",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.08533%2C17.01765",
+        "appleMaps": "https://maps.apple.com/?ll=51.08533,17.01765"
       }
     },
     "transport": {
@@ -29599,8 +29602,16 @@
           "url": "https://geoportal.wroclaw.pl/poi/poi/2628",
           "checkedAt": "2026-09-23",
           "note": "Municipal indexed listing: Sudecka 125a, 53-128 Wrocław; direct retrieval unavailable during verification."
+        },
+        {
+          "type": "official-reverification",
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/najpiekniejsza-wieza-cisnien-w-polsce-to-jego-dzielo-sto-lat-temu-zmarl-karl-klimm-galeria",
+          "checkedAt": "2026-10-18",
+          "note": "Municipal account confirms Karl Klimm and identifies the tower at Wiśniowa; municipal geoportal indexed address Sudecka125a corroborates the existing identity. Historical opening information is not reused as current access."
         }
-      ]
+      ],
+      "verifiedAt": "2026-10-18",
+      "currentAccessUnverified": true
     },
     "media": {
       "photos": [
@@ -29618,7 +29629,8 @@
         "/assets/wieza-cisnien-borek-12.jpg",
         "/assets/wieza-cisnien-borek-13.jpg",
         "/assets/wieza-cisnien-borek-14.jpg",
-        "/assets/wieza-cisnien-borek-15.jpg"
+        "/assets/wieza-cisnien-borek-15.jpg",
+        "/assets/wieza-cisnien-borek-16.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -29630,7 +29642,9 @@
           ],
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (3).jpeg",
-          "heroCandidate": true
+          "heroCandidate": true,
+          "sourceSHA256": "5928e1bb5650679323aa8d43495dd0dc4c59d0ba84f8ccf9ede2f367dc58e449",
+          "assetSHA256": "5928e1bb5650679323aa8d43495dd0dc4c59d0ba84f8ccf9ede2f367dc58e449"
         },
         "/assets/wieza-cisnien-borek-02.jpg": {
           "tags": [
@@ -29638,7 +29652,9 @@
             "street-context"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (4).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (4).jpeg",
+          "sourceSHA256": "443fd43b1243ddcd1d03b6dd658f7044d12b39103da155c46dbf6bb884507131",
+          "assetSHA256": "443fd43b1243ddcd1d03b6dd658f7044d12b39103da155c46dbf6bb884507131"
         },
         "/assets/wieza-cisnien-borek-03.jpg": {
           "tags": [
@@ -29646,7 +29662,9 @@
             "entrance-exterior"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (2).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (2).jpeg",
+          "sourceSHA256": "c8aa21641589e73f33e49cb5cba94b3247ea1785ec43cd82576b028611967e63",
+          "assetSHA256": "c8aa21641589e73f33e49cb5cba94b3247ea1785ec43cd82576b028611967e63"
         },
         "/assets/wieza-cisnien-borek-04.jpg": {
           "tags": [
@@ -29654,7 +29672,9 @@
             "arches"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (1).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (1).jpeg",
+          "sourceSHA256": "202e79162e58c0fb9b2ac85ba4d51b80c522af723f591ba2130069a3f3dbf9a2",
+          "assetSHA256": "202e79162e58c0fb9b2ac85ba4d51b80c522af723f591ba2130069a3f3dbf9a2"
         },
         "/assets/wieza-cisnien-borek-05.jpg": {
           "tags": [
@@ -29662,7 +29682,9 @@
             "upper-facade"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (3).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (3).jpeg",
+          "sourceSHA256": "8accae1eecf2f8f0ee05b5b17eefcb747020709cdd9b8f2b90685f74314b4bd4",
+          "assetSHA256": "8accae1eecf2f8f0ee05b5b17eefcb747020709cdd9b8f2b90685f74314b4bd4"
         },
         "/assets/wieza-cisnien-borek-06.jpg": {
           "tags": [
@@ -29670,7 +29692,9 @@
             "spires-passage"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (11).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (11).jpeg",
+          "sourceSHA256": "5162f1e06a49f559e59fade7157d992dba623a7e78d7d231872b40b8231406f7",
+          "assetSHA256": "5162f1e06a49f559e59fade7157d992dba623a7e78d7d231872b40b8231406f7"
         },
         "/assets/wieza-cisnien-borek-07.jpg": {
           "tags": [
@@ -29678,7 +29702,9 @@
             "connecting-passage"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (10).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (10).jpeg",
+          "sourceSHA256": "e749cfd8994f470a70d51236635a0e7a25d6df819d130179288614196d3a7ece",
+          "assetSHA256": "e749cfd8994f470a70d51236635a0e7a25d6df819d130179288614196d3a7ece"
         },
         "/assets/wieza-cisnien-borek-08.jpg": {
           "tags": [
@@ -29686,7 +29712,9 @@
             "spire"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39.jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39.jpeg",
+          "sourceSHA256": "4482d5a5244ef81977e3a21fd833f6634cc85926e22e91477c6cba8096646039",
+          "assetSHA256": "4482d5a5244ef81977e3a21fd833f6634cc85926e22e91477c6cba8096646039"
         },
         "/assets/wieza-cisnien-borek-09.jpg": {
           "tags": [
@@ -29694,7 +29722,9 @@
             "inscription"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (2).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.39 (2).jpeg",
+          "sourceSHA256": "d5fe95f405780aa50d496886bb0cbdd9daa619a0bc10364238447af512f0b6ae",
+          "assetSHA256": "d5fe95f405780aa50d496886bb0cbdd9daa619a0bc10364238447af512f0b6ae"
         },
         "/assets/wieza-cisnien-borek-10.jpg": {
           "tags": [
@@ -29702,7 +29732,9 @@
             "animal-relief"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38.jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38.jpeg",
+          "sourceSHA256": "ab7081678071df6fbcb078468a7c56d6c700a2359ccf165bbfc5468caf61b2e4",
+          "assetSHA256": "ab7081678071df6fbcb078468a7c56d6c700a2359ccf165bbfc5468caf61b2e4"
         },
         "/assets/wieza-cisnien-borek-11.jpg": {
           "tags": [
@@ -29710,7 +29742,9 @@
             "animal-relief-2"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (9).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (9).jpeg",
+          "sourceSHA256": "91cadb14ffdec5092b8cba3f74961724305a7f15cf7fe40b9aa944ce51e331d9",
+          "assetSHA256": "91cadb14ffdec5092b8cba3f74961724305a7f15cf7fe40b9aa944ce51e331d9"
         },
         "/assets/wieza-cisnien-borek-12.jpg": {
           "tags": [
@@ -29718,7 +29752,9 @@
             "animal-relief-3"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (6).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (6).jpeg",
+          "sourceSHA256": "e5359415e5e251486b09e4b94a9b49170701611bfafd1f239ff315d9e8fd29d6",
+          "assetSHA256": "e5359415e5e251486b09e4b94a9b49170701611bfafd1f239ff315d9e8fd29d6"
         },
         "/assets/wieza-cisnien-borek-13.jpg": {
           "tags": [
@@ -29726,7 +29762,9 @@
             "stone-emblem"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (8).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (8).jpeg",
+          "sourceSHA256": "3a1f5916660c06bdf26e1c10f55d53d95bd25d67a0b143ebac1b2184aee5e030",
+          "assetSHA256": "3a1f5916660c06bdf26e1c10f55d53d95bd25d67a0b143ebac1b2184aee5e030"
         },
         "/assets/wieza-cisnien-borek-14.jpg": {
           "tags": [
@@ -29734,7 +29772,9 @@
             "roof-ornament"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (7).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (7).jpeg",
+          "sourceSHA256": "565350e679fe96b11efa66347edd05a2028b883b1e60f619a2dd1a4e70b724fa",
+          "assetSHA256": "565350e679fe96b11efa66347edd05a2028b883b1e60f619a2dd1a4e70b724fa"
         },
         "/assets/wieza-cisnien-borek-15.jpg": {
           "tags": [
@@ -29742,7 +29782,23 @@
             "fountain"
           ],
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (5).jpeg"
+          "sourceFile": "WhatsApp Image 2026-09-23 at 15.04.38 (5).jpeg",
+          "sourceSHA256": "830e9da5d1cedff4fcd868cab20c2e5044b27d207594016d9bf77dc2c8ae238f",
+          "assetSHA256": "830e9da5d1cedff4fcd868cab20c2e5044b27d207594016d9bf77dc2c8ae238f"
+        },
+        "/assets/wieza-cisnien-borek-16.jpg": {
+          "original": true,
+          "sourceFile": "waterTower/IMG_2449 2.HEIC",
+          "sourceSHA256": "69fdc396f504f547f79da96c7dcf884b19f3a559c0a593a84fbb936290551eaf",
+          "assetSHA256": "14dd53bb609a96f48f5c26fbf8e69f79a3a9e25673d6060bb9492a6c4e0bdc51",
+          "transformations": "HEIC decoded, visual orientation corrected by90degrees counterclockwise after EXIF transpose, resized proportionally, no crop",
+          "alt": {
+            "he": "מבט נוסף על תבליט חיות האבן בקשת המגדל",
+            "en": "Additional view of the stone animal relief on the tower arch",
+            "pl": "Dodatkowe ujęcie kamiennej płaskorzeźby zwierząt na łuku wieży",
+            "de": "Weitere Ansicht des steinernen Tierreliefs am Turmbogen",
+            "cs": "Další pohled na kamenný zvířecí reliéf na oblouku věže"
+          }
         }
       }
     },
@@ -32705,6 +32761,8 @@
   "Arche Klasztor Wroclaw": "arche-klasztor",
   "ארכה קלשטור": "arche-klasztor",
   "ארכה קלשטור ורוצלב": "arche-klasztor",
+  "Wieża ciśnień przy alei Wiśniowej": "wieza-cisnien-borek",
+  "Wasserturm Kleinburg": "wieza-cisnien-borek",
   "wroclaw-glowny": "glowny",
   "dworzec-wroclaw-glowny": "glowny",
   "wroclaw-main-railway-station": "glowny",
