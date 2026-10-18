@@ -1,0 +1,34 @@
+name: Build isolated WROC-LOVE sandbox
+on:
+  push:
+    branches: [sandbox]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: sandbox-preview
+  cancel-in-progress: true
+jobs:
+  preview:
+    if: github.ref == 'refs/heads/sandbox'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Generate canonical catalog
+        run: node tools/generate-place-catalog.mjs
+      - name: Verify catalog
+        run: node tools/validate-place-catalog.mjs
+      - name: Build isolated preview
+        run: node build-sandbox.mjs
+      - name: Check sandbox isolation
+        run: node --test tests/sandbox.test.mjs
+      - name: Save preview for the existing hosting account
+        uses: actions/upload-artifact@v4
+        with:
+          name: wroc-love-sandbox
+          path: dist/sandbox
+          retention-days: 7
+          include-hidden-files: true

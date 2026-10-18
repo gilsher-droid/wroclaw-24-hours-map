@@ -1,0 +1,12 @@
+WROC-LOVE sandbox branch. No production UX changes are authorized by its creation.
+Source: sandbox branch, isolated local checkout work/wroc-love-sandbox.
+Build: node tools/generate-place-catalog.mjs, then node build-sandbox.mjs.
+Output: dist/sandbox, static website only. Upload only this folder to a separate sandbox document root. Never replace the production API or the production website.
+The GitHub sandbox workflow saves a preview artifact; it has no Pages-write or deployment permission and does not deploy to wroc-love.com.
+The Pages workflow additionally refuses non-main branches, even for manual dispatch.
+Sandbox pages are marked noindex/nofollow and display an explicit preview banner. Form submission, mutation fetches and live API requests are blocked. Production GA4 and Meta Pixel IDs are blank. This is a UX preview, not an end-to-end replica of server email/payment/authentication services.
+Native YouTube and social links remain external. Do not publish or change accounts while reviewing the preview. Videos remain YouTube-only.
+No live customer requests, private records, secrets, authentication data or paid-service credentials belong in this branch or the public artifact.
+No changes reach main without the human approving the concrete sandbox result. Do not merge the entire sandbox environment configuration into main. Transfer only individually reviewed UX changes through a dedicated pull request.
+
+Hosting target: a separate Apache subdomain document root. The artifact reuses existing public production media through a read-only .htaccess redirect. Put new experiment assets under assets/sandbox/; they remain local and are not sent to production. Never point the sandbox document root at the production API directory.
