@@ -58,3 +58,8 @@
 /* Preserve the full mall facade in its compact representative photograph. */
 .place-popup-photo[src="/assets/gallery-wroclavia-01.jpg"] { object-fit:contain; background:#fffaf0; }
 .leaflet-popup-content .place-popup-photo-link[href="/assets/gallery-wroclavia-01.jpg"] { width:112px; max-width:40%; }
+
+/* Keep the refreshed Hebrew text separate from its Latin names and address. */
+.place-card[data-place="wroclavia"] p,
+.premium-stop-card[data-canonical-place-id="wroclavia"] p,
+.recommendation-card[data-canonical-place-id="wroclavia"] p { white-space:pre-line; }
