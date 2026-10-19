@@ -1,0 +1,61 @@
+{
+  "authorization": "User permits merge only if complementary missing material found; complete alternative takes selected instead.",
+  "candidates": [
+    {
+      "id": 0,
+      "spokenLanguage": "en",
+      "duration": 63.6,
+      "opening": "Excuse me, how do I get from here to the sea?",
+      "closing": "See you soon on our next video. Do widzenia.",
+      "content": "Complete: rivers/canals/islands/bridges, artificial beach, name meaning, grass/sand/volleyball/tennis, summer visit, autumn birds.",
+      "decision": "Selected whole original."
+    },
+    {
+      "id": 1,
+      "spokenLanguage": "en",
+      "autoLanguageDetectionCaution": "Polish greeting caused auto-ASR to misidentify Hebrew and corrupt opening; English body confirms English.",
+      "duration": 54.733333,
+      "opening": "Same question and premise as candidate0.",
+      "closing": "Stops after beach experience, no full goodbye.",
+      "content": "Alternative take, same story. Loungers mentioned but no narrative gap requiring insertion.",
+      "decision": "Not selected, no merge needed."
+    },
+    {
+      "id": 2,
+      "spokenLanguage": "he",
+      "duration": 54.5,
+      "opening": "סליחה, איך אני מגיע מכאן לים?",
+      "closing": "אז נתראה בווידאו הבא, do widzenia",
+      "content": "Complete shorter alternative: includes Gdansk contrast, name meaning, sand/volleyball/loungers, autumn swans.",
+      "decision": "Alternative, no complementary missing narrative."
+    },
+    {
+      "id": 3,
+      "spokenLanguage": "he",
+      "duration": 71.4,
+      "opening": "סליחה, איך אני מגיע מכאן לים?",
+      "closing": "אני ממליץ מאוד לבוא ... בקיץ וגם בחורף. Do widzenia.",
+      "content": "Complete fuller alternative, tennis, sand and lawns, season closure explicitly stated.",
+      "decision": "Selected whole original. Description will clarify seasonal supervised bathing; winter recommendation does not mean winter bathing or guaranteed entry."
+    }
+  ],
+  "timeline": {
+    "he": [
+      {
+        "sourceId": 3,
+        "in": 0,
+        "out": 71.4,
+        "outputStart": 0
+      }
+    ],
+    "en": [
+      {
+        "sourceId": 0,
+        "in": 0,
+        "out": 63.6,
+        "outputStart": 0
+      }
+    ]
+  },
+  "originalsPreserved": true
+}

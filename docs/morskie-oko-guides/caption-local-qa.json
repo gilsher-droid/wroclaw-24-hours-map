@@ -1,0 +1,37 @@
+{
+  "he": {
+    "cueCount": 16,
+    "sha256": "cc4b8353d9b03766d3fe8d2d08bc06e84d1c42a6f296c8c563720d9db9186c27",
+    "timing": "monotonic and within original duration",
+    "status": "local-ready-not-uploaded",
+    "translations": "Actual spoken narrative, shared EN timebase for EN PL DE CS"
+  },
+  "en": {
+    "cueCount": 15,
+    "sha256": "8561e56fcfd68cfb21484130ad59ef77e941717f7be3ade85654a34d82156004",
+    "timing": "monotonic and within original duration",
+    "status": "local-ready-not-uploaded",
+    "translations": "Actual spoken narrative, shared EN timebase for EN PL DE CS"
+  },
+  "pl": {
+    "cueCount": 15,
+    "sha256": "7ab56eba90f716708367e521561be82a7c63b3e44961ad22797d29dfa80e9270",
+    "timing": "monotonic and within original duration",
+    "status": "local-ready-not-uploaded",
+    "translations": "Actual spoken narrative, shared EN timebase for EN PL DE CS"
+  },
+  "de": {
+    "cueCount": 15,
+    "sha256": "f41b0fa63a65f08e76130caf6489888cbaddf1e8e6f2cfa00e1da38c17f58b33",
+    "timing": "monotonic and within original duration",
+    "status": "local-ready-not-uploaded",
+    "translations": "Actual spoken narrative, shared EN timebase for EN PL DE CS"
+  },
+  "cs": {
+    "cueCount": 15,
+    "sha256": "d639a6dedf852851acccf27437f339e4ab0c4739ac4220f47dc85ffd0a0a4208",
+    "timing": "monotonic and within original duration",
+    "status": "local-ready-not-uploaded",
+    "translations": "Actual spoken narrative, shared EN timebase for EN PL DE CS"
+  }
+}

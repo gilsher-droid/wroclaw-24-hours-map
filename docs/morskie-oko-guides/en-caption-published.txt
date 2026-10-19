@@ -1,0 +1,122 @@
+- generic: English subtitles published
+- generic: All changes saved.
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- navigation:
+  - img "Wroclaw.lowersilesia"
+  - generic: Your channel
+  - generic: Wroclaw.lowersilesia
+  - menu:
+    - menuitem "Dashboard":
+      - generic: Dashboard
+    - menuitem "Content":
+      - generic: Content
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Community":
+      - generic: Community
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Content detection":
+      - generic: Content detection
+    - menuitem "Earn":
+      - generic: Earn
+    - menuitem "Customisation":
+      - generic: Customisation
+    - menuitem "Audio library":
+      - generic: Audio library
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - generic "Back":
+    - button "Back":
+  - generic: Videos
+  - generic: Videos
+  - generic: Shorts
+  - generic: Live
+  - generic: Posts
+  - generic: Playlists
+  - generic: Promotions
+  - table "Video list":
+    - rowgroup:
+      - button "Title contains 'Morskie'. Press enter to edit":
+        - generic: Title contains 'Morskie'
+        - button "Remove":
+      - textbox
+      - row "Select all Video Notices Visibility Sort by Date Sort by Views Comments":
+        - columnheader "Select all":
+          - generic "Select all":
+            - checkbox "Select all"
+        - columnheader "Video":
+          - heading "Video" [level=3]:
+            - generic: Video
+        - columnheader "Notices":
+          - heading "Notices" [level=3]:
+            - generic: Notices
+        - columnheader "Visibility":
+          - heading "Visibility" [level=3]:
+            - generic: Visibility
+        - columnheader "Sort by Date":
+          - heading "Sort by Date" [level=3]:
+            - button "Sort by Date":
+              - generic: Date
+        - columnheader "Sort by Views":
+          - heading "Sort by Views" [level=3]:
+            - button "Sort by Views":
+              - generic: Views
+        - columnheader "Comments":
+          - heading "Comments" [level=3]:
+            - generic: Comments
+    - alert: No matching videos
+- dialog:
+  - generic: Morskie Oko Wrocław | Our full English guide | WROC-LOVE
+  - generic: Saved as private
+  - button "Send Feedback":
+  - button "Close":
+  - tablist:
+    - tab "Details":
+      - generic: Details
+    - tab "Video elements" [selected]:
+      - generic: Video elements
+    - tab "Initial check":
+      - generic: Initial check
+    - tab "Visibility":
+      - generic: Visibility
+  - heading "Video elements" [level=1]
+  - text: Use cards and an end screen to show viewers related videos, websites and calls to action.
+  - link "Learn more":
+    - /url: https://support.google.com/youtube/answer/57407?hl=en-GB#video-elements
+  - heading "Related video" [level=3]
+  - generic: Connect another of your videos to your video
+  - button "Add":
+    - generic: Add
+  - heading "Subtitles" [level=3]
+  - generic: Reach a broader audience by adding subtitles to your video
+  - button "English by you":
+    - generic: English by you
+  - button "Edit" [active]:
+    - generic: Edit
+  - generic "Copyright check complete No issues found Community Guidelines Checking for Community Guidelines issues 12 5 minutes left":
+  - generic: Checking 12% ... 5 minutes left
+  - button "Back":
+    - generic: Back
+  - button "Next":
+    - generic: Next
+- generic: English subtitles published

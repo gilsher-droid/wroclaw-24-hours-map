@@ -19655,6 +19655,10 @@
         "https://youtube.com/shorts/gN14-XYU8dM",
         "https://youtube.com/shorts/8cTLqypvJn4"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/R26FXh9Twh0",
+        "en": "https://youtube.com/shorts/e0gGTjUPYoQ"
+      },
       "metadata": {
         "/assets/morskie-oko-video-01.mp4": {
           "tags": [

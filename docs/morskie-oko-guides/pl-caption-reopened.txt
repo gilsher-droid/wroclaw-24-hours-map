@@ -1,0 +1,316 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- generic: This video is in a draft state
+- button "Edit draft":
+  - generic: Edit draft
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Morskie Oko Wrocław | Our full English guide | WROC-LOVE"'
+  - generic: 1:04
+  - generic: Your video
+  - generic: Morskie Oko Wrocław | Our full English guide | WROC-LOVE
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: English"':
+    - 'heading "Video language: English" [level=2]'
+    - button "Details":
+    - generic: English subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - generic: 4 translations
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup:
+        - row "Arabic 1 published":
+          - cell "Arabic":
+            - button "Arabic":
+              - generic: Arabic
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Czech 1 published":
+          - cell "Czech":
+            - button "Czech":
+              - generic: Czech
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "German 1 published":
+          - cell "German":
+            - button "German":
+              - generic: German
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Polish 1 published":
+          - cell "Polish":
+            - button "Polish":
+              - generic: Polish
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+- generic "Polish subtitles":
+  - dialog "Polish subtitles" [active]:
+    - generic: Polish
+    - region "Dialogue controls":
+      - heading "Dialogue controls" [level=2]
+      - button "Send feedback":
+      - button "Save draft":
+        - generic: Save draft
+      - status: Save draft button enabled
+      - button "Publish":
+        - generic: Publish
+      - status: Publish button enabled
+      - button "Close":
+    - region "Edit timings":
+      - heading "Edit timings" [level=2]
+      - button "Subtitle":
+        - generic: Subtitle
+      - button "Edit as text" [disabled]:
+        - generic: Edit as text
+      - button "Options":
+      - list "Timings":
+        - listitem "Text with timing":
+          - textbox "Subtitle": Cześć!
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 1 second 5 frames":
+            - generic: 0:01:05
+            - textbox "0 minutes 1 second 5 frames"
+          - generic "0 minutes 1 second 20 frames":
+            - generic: 0:01:20
+            - textbox "0 minutes 1 second 20 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Przepraszam, jak stąd dojść nad morze?
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 1 second 25 frames":
+            - generic: 0:01:25
+            - textbox "0 minutes 1 second 25 frames"
+          - generic "0 minutes 4 seconds 19 frames":
+            - generic: 0:04:19
+            - textbox "0 minutes 4 seconds 19 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Myślałem, że we Wrocławiu są tylko rzeki, kanały, wyspy i mosty.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 5 seconds 17 frames":
+            - generic: 0:05:17
+            - textbox "0 minutes 5 seconds 17 frames"
+          - generic "0 minutes 10 seconds 3 frames":
+            - generic: 0:10:03
+            - textbox "0 minutes 10 seconds 3 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Nigdy nie sądziłem, że mamy też plażę.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 10 seconds 18 frames":
+            - generic: 0:10:18
+            - textbox "0 minutes 10 seconds 18 frames"
+          - generic "0 minutes 13 seconds 21 frames":
+            - generic: 0:13:21
+            - textbox "0 minutes 13 seconds 21 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Otóż w samym środku miasta jest sztuczna plaża o nazwie Morskie Oko.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 14 seconds 21 frames":
+            - generic: 0:14:21
+            - textbox "0 minutes 14 seconds 21 frames"
+          - generic "0 minutes 20 seconds 21 frames":
+            - generic: 0:20:21
+            - textbox "0 minutes 20 seconds 21 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Ta polska nazwa oznacza oko morza.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 20 seconds 21 frames":
+            - generic: 0:20:21
+            - textbox "0 minutes 20 seconds 21 frames"
+          - generic "0 minutes 23 seconds 25 frames":
+            - generic: 0:23:25
+            - textbox "0 minutes 23 seconds 25 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": To wspaniałe miejsce z dużą ilością trawy i piasku,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 23 seconds 25 frames":
+            - generic: 0:23:25
+            - textbox "0 minutes 23 seconds 25 frames"
+          - generic "0 minutes 29 seconds 9 frames":
+            - generic: 0:29:09
+            - textbox "0 minutes 29 seconds 9 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": boiskiem do siatkówki i kortami tenisowymi.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 29 seconds 9 frames":
+            - generic: 0:29:09
+            - textbox "0 minutes 29 seconds 9 frames"
+          - generic "0 minutes 33 seconds 29 frames":
+            - generic: 0:33:29
+            - textbox "0 minutes 33 seconds 29 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Latem można tu przyjść z ręcznikiem plażowym
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 33 seconds 29 frames":
+            - generic: 0:33:29
+            - textbox "0 minutes 33 seconds 29 frames"
+          - generic "0 minutes 39 seconds 13 frames":
+            - generic: 0:39:13
+            - textbox "0 minutes 39 seconds 13 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": i wspaniale spędzić czas na plaży Morskiego Oka.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 39 seconds 13 frames":
+            - generic: 0:39:13
+            - textbox "0 minutes 39 seconds 13 frames"
+          - generic "0 minutes 45 seconds 5 frames":
+            - generic: 0:45:05
+            - textbox "0 minutes 45 seconds 5 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Polecam przyjść tu latem,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 45 seconds 20 frames":
+            - generic: 0:45:20
+            - textbox "0 minutes 45 seconds 20 frames"
+          - generic "0 minutes 48 seconds 13 frames":
+            - generic: 0:48:13
+            - textbox "0 minutes 48 seconds 13 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": ale jesienią też jest pięknie.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 48 seconds 13 frames":
+            - generic: 0:48:13
+            - textbox "0 minutes 48 seconds 13 frames"
+          - generic "0 minutes 51 seconds 20 frames":
+            - generic: 0:51:20
+            - textbox "0 minutes 51 seconds 20 frames"
+    - heading "Subtitles preview" [level=2]
+    - region "Subtitles preview":
+      - region "Video player":
+        - generic "Morskie Oko Wrocław | Our full English guide | WROC-LOVE"
+        - button "Play":
+        - button "Skip back 10 seconds":
+        - button "Skip forwards 10 seconds":
+        - button "Mute":
+        - slider "volume"
+        - generic: 0:00 / 1:04
+        - button "Settings":
+      - checkbox "Pause while typing"
+      - generic: Pause while typing
+      - button "View keyboard shortcuts":
+        - generic: View keyboard shortcuts
+    - heading "Subtitles timeline" [level=2]
+    - region "Subtitles timeline":
+      - generic "0 minutes 0 seconds 0 frames":
+        - generic: 0:00:00
+        - textbox "0 minutes 0 seconds 0 frames"
+      - button "Undo" [disabled]:
+        - generic: Undo
+      - button "Redo" [disabled]:
+        - generic: Redo
+      - button "Zoom out":
+      - slider "Zoom slider":
+        - progressbar
+      - button "Zoom in":
+      - generic "Timeline header"
+      - button "Find playhead":
+      - button "Find playhead":
+      - generic "Cześć!"
+      - generic: Cześć!
+      - generic "Przepraszam, jak stąd dojść nad morze?"
+      - generic: Przepraszam, jak stąd dojść nad morze?
+      - generic "Myślałem, że we Wrocławiu są tylko rzeki, kanały, wyspy i mosty."
+      - generic: Myślałem, że we Wrocławiu są tylko rzeki, kanały, wyspy i mosty.
+      - generic "Nigdy nie sądziłem, że mamy też plażę."
+      - generic: Nigdy nie sądziłem, że mamy też plażę.
+      - generic "Otóż w samym środku miasta jest sztuczna plaża o nazwie Morskie Oko."
+      - generic: Otóż w samym środku miasta jest sztuczna plaża o nazwie Morskie Oko.
+      - generic: Ta polska nazwa oznacza oko morza.
+      - generic: To wspaniałe miejsce z dużą ilością trawy i piasku,
+      - generic: boiskiem do siatkówki i kortami tenisowymi.
+      - generic: Latem można tu przyjść z ręcznikiem plażowym
+      - generic: i wspaniale spędzić czas na plaży Morskiego Oka.
+      - generic: Polecam przyjść tu latem,
+      - generic: ale jesienią też jest pięknie.
+      - generic: Zamiast ludzi spotkacie kaczki i łabędzie
+      - generic: pływające po jeziorze. Do zobaczenia wkrótce
+      - generic: w naszym następnym filmie. Do widzenia!
+      - generic "Audio waveform"
+      - generic "Start of timeline"
+      - generic "End of timeline"
+      - slider "Playhead"
+      - generic: 0:00:00

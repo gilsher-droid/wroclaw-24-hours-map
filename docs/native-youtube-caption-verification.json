@@ -309,6 +309,27 @@
       },
       "verifiedAt": "2026-10-19",
       "provenance": "data/olympic-stadium-guide-caption-provenance.json"
+    },
+    {
+      "canonicalId": "morskie-oko-wroclaw",
+      "videos": {
+        "he": "R26FXh9Twh0",
+        "en": "e0gGTjUPYoQ"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "status": "Published"
+      },
+      "verifiedAt": "2026-10-19",
+      "provenance": "data/morskie-oko-guide-caption-provenance.json",
+      "evidence": "docs/morskie-oko-guides",
+      "reopenedVerification": true
     }
   ]
 }

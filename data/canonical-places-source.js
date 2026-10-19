@@ -13487,3 +13487,11 @@
 };
   window.WROC_CANONICAL_PLACE_SOURCE = window.WROC_CANONICAL_PLACE_SOURCE.map(record => record.id === "stadion-olimpijski-wroclaw" ? stadiumOctober19Refresh : record);
 })();
+
+// Original full guide takes, verified Public with native captions, 2026-10-19.
+(function () {
+  window.WROC_CANONICAL_PLACE_SOURCE = window.WROC_CANONICAL_PLACE_SOURCE.map(record => record.id === "morskie-oko-wroclaw" ? {
+    ...record,
+    media: { ...record.media, guideVideos: { he: "https://youtube.com/shorts/R26FXh9Twh0", en: "https://youtube.com/shorts/e0gGTjUPYoQ" } }
+  } : record);
+})();
