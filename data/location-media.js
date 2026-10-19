@@ -126,6 +126,10 @@
   };
 
   const resources = {
+    "fc-caffe-kuznicza": canonicalResources("fc-caffe-kuznicza"),
+    "dominikan": canonicalResources("dominikan"),
+    "slodowa": canonicalResources("slodowa"),
+    "pasaz": canonicalResources("pasaz"),
     "kawiarenka-sw-jadwigi": canonicalResources("kawiarenka-sw-jadwigi", [{"he": "דלפק בית הקפה", "en": "Café counter", "pl": "Lada kawiarni", "de": "Cafétresen", "cs": "Pult kavárny"}, {"he": "חדר תחת קמרונות לבנים", "en": "Brick-vaulted room", "pl": "Sala z ceglanym sklepieniem", "de": "Raum mit Backsteingewölbe", "cs": "Místnost s cihlovou klenbou"}, {"he": "פסל הציפור בגן בית הקפה", "en": "Bird sculpture in the café garden", "pl": "Rzeźba ptaka w ogrodzie kawiarni", "de": "Vogelskulptur im Cafégarten", "cs": "Ptačí plastika v zahradě kavárny"}, {"he": "שבשבת צבעונית בגן", "en": "Colourful garden pinwheel", "pl": "Kolorowy wiatraczek w ogrodzie", "de": "Buntes Windrad im Garten", "cs": "Barevný větrník v zahradě"}, {"he": "פרחי הגן", "en": "Garden flowers", "pl": "Kwiaty w ogrodzie", "de": "Gartenblumen", "cs": "Květiny v zahradě"}, {"he": "שביל וגדרות חיות בגן", "en": "Garden path and hedges", "pl": "Ścieżka i żywopłoty w ogrodzie", "de": "Gartenweg und Hecken", "cs": "Zahradní cesta a živé ploty"}, {"he": "הגן ובנייני מתחם בית הקפה", "en": "Garden and café complex buildings", "pl": "Ogród i budynki kompleksu kawiarni", "de": "Garten und Gebäude des Cafékomplexes", "cs": "Zahrada a budovy areálu kavárny"}, {"he": "מבט מקרוב על צמחי הגן", "en": "A closer look at garden plants", "pl": "Rośliny w ogrodzie z bliska", "de": "Gartenpflanzen aus der Nähe", "cs": "Pohled zblízka na zahradní rostliny"}, {"he": "קפה ועוגה בביקור שלנו", "en": "Coffee and cake during our visit", "pl": "Kawa i ciasto podczas naszej wizyty", "de": "Kaffee und Kuchen bei unserem Besuch", "cs": "Káva a moučník během naší návštěvy"}]),
     "mania-al-taglio-kuznicza": canonicalResources("mania-al-taglio-kuznicza"),
     "park-szczytnicki-wroclaw": canonicalResources("park-szczytnicki-wroclaw", [{"he": "הליכה בשביל בין עצי הפארק", "en": "A tree-lined park path", "pl": "Alejka wśród parkowych drzew", "de": "Parkweg zwischen Bäumen", "cs": "Cesta mezi parkovými stromy"}, {"he": "עץ לצד שביל הפארק", "en": "A tree beside the park path", "pl": "Drzewo przy parkowej alejce", "de": "Ein Baum am Parkweg", "cs": "Strom u parkové cesty"}]),
@@ -149,13 +153,13 @@
       { he: "אווירה ב־PeDeT", en: "The atmosphere at PeDeT", pl: "Atmosfera w PeDeT", de: "Atmosphäre im PeDeT", cs: "Atmosféra v PeDeT" },
     ]),
     "wieza-cisnien-borek": canonicalResources("wieza-cisnien-borek"),
-    rynek: { gallery: [...galleries.rynek, ...galleries.townHall], videos: videos.rynek },
-    "town-hall": { gallery: galleries.townHall },
+    "rynek": canonicalResources("rynek"),
+    "town-hall": canonicalResources("town-hall"),
     "dwarf-info": { facebook: facebook.rynek, instagram: instagram.rynek, gallery: galleries.gnomes },
     papa: { guideVideos: { he: "https://youtube.com/shorts/Eyns7Gj66d0", en: "https://youtube.com/shorts/pIzp5Bmb9ck" }, facebook: facebook.rynek, instagram: instagram.rynek, gallery: ["/assets/gallery-gnomes-01.jpg", "/assets/gallery-gnomes-02.jpg", "/assets/gallery-gnomes-03.jpg", "/assets/gallery-gnomes-04.jpg", "/assets/gallery-gnomes-05.jpg", "/assets/papa-gnomes-01.jpg", "/assets/papa-gnomes-02.jpg", "/assets/papa-gnomes-03.jpg", "/assets/papa-gnomes-04.jpg", "/assets/papa-gnomes-05.jpg", "/assets/papa-gnomes-06.jpg", "/assets/papa-gnomes-07.jpg", "/assets/papa-gnomes-08.jpg", "/assets/papa-gnomes-09.jpg", "/assets/papa-gnomes-10.jpg", "/assets/papa-gnomes-11.jpg", "/assets/papa-gnomes-12.jpg", "/assets/papa-gnomes-13.jpg", "/assets/papa-gnomes-14.jpg", "/assets/papa-gnomes-15.jpg"], videos: [{"src": "https://youtube.com/shorts/gQoBaOkFAd0", "title": {"he": "פרט מההליכה בעקבות הגמדים", "en": "A moment from our dwarf walk", "pl": "Fragment spaceru szlakiem krasnali", "de": "Ein Moment vom Zwergenspaziergang", "cs": "Chvilka z procházky za trpaslíky"}}, {"src": "https://youtube.com/shorts/_m2XyzWQD7Q", "title": {"he": "גמד מהסיור שלנו", "en": "Dwarf sculpture from our walk", "pl": "Krasnal z naszego spaceru", "de": "Zwergenfigur auf unserem Spaziergang", "cs": "Trpaslík z naší procházky"}}, {"src": "https://youtube.com/shorts/Hl6Jbr2fRW4", "title": {"he": "גמד מנגן בכינור", "en": "Violinist dwarf", "pl": "Krasnal skrzypek", "de": "Geigenspielender Zwerg", "cs": "Trpaslík houslista"}}, {"src": "https://youtube.com/shorts/ONT976zS3a8", "title": {"he": "גמד מנגן בסקסופון", "en": "Saxophonist dwarf", "pl": "Krasnal saksofonista", "de": "Saxophonspielender Zwerg", "cs": "Trpaslík saxofonista"}}, {"src": "https://youtube.com/shorts/X73FCz5ZhAw", "title": {"he": "גמד מנגן בנבל", "en": "Harpist dwarf", "pl": "Krasnal harfista", "de": "Harfenspielender Zwerg", "cs": "Trpaslík harfista"}}, {"src": "https://youtube.com/shorts/MEdz8wAlpME", "title": {"he": "גמד עם גלגל אופניים", "en": "Dwarf with a bicycle wheel", "pl": "Krasnal z kołem rowerowym", "de": "Zwerg mit einem Fahrradreifen", "cs": "Trpaslík s kolem jízdního kola"}}] },
     university: { facebook: facebook.university, instagram: instagram.university, gallery: galleries.university },
     aula: { facebook: facebook.university, instagram: instagram.university, gallery: galleries.aula },
-    "math-tower": { facebook: facebook.university, instagram: instagram.university, gallery: galleries.university },
+    "math-tower": canonicalResources("math-tower"),
     ossolineum: { facebook: facebook.ossolineum, instagram: instagram.ossolineum, gallery: galleries.ossolineum, videos: videos.ossolineum },
     "hala-targowa": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
     "market-hall": { facebook: facebook.marketHall, instagram: instagram.marketHall, gallery: galleries.marketHall },
@@ -176,9 +180,9 @@
       { he: "המזרקה ליד Hala Stulecia", en: "The fountain beside Centennial Hall", pl: "Fontanna przy Hali Stulecia", de: "Der Brunnen an der Jahrhunderthalle", cs: "Fontána u Haly století" },
     ]),
     fountain: canonicalResources("fountain"),
-    pergola: canonicalResources("pergola"),
+    "pergola": canonicalResources("pergola"),
     japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: [...galleries.japanese, "/assets/japanese-visit-07.jpg", "/assets/japanese-visit-08.jpg"], guideVideos: { he:"https://youtube.com/shorts/x39Gu8wchuA", en:"https://youtube.com/shorts/anSJzrqzqqg" }, videos: ["https://youtube.com/shorts/Ni0GwsP-uMg", "https://youtube.com/shorts/OMuXVtwAkAA"] },
-    wroclavia: { gallery: galleries.wroclavia },
+    "wroclavia": canonicalResources("wroclavia"),
     "wroclavia-station": { gallery: galleries.wroclavia },
     glowny: canonicalResources("glowny", [
       { he: "חזית תחנת Wrocław Główny", en: "Wrocław Główny exterior", pl: "Fasada dworca Wrocław Główny", de: "Fassade des Hauptbahnhofs Wrocław", cs: "Průčelí nádraží Wrocław Główny" },
@@ -188,7 +192,7 @@
       { he: "Afrykarium והעולם התת־מימי", en: "Afrykarium underwater experience", pl: "Podwodny świat Afrykarium", de: "Unterwasserwelt des Afrykariums", cs: "Podvodní svět Afrykaria" },
       { he: "בעל חיים בתנועה מתחת למים", en: "Aquatic animal in motion", pl: "Zwierzę wodne w ruchu", de: "Wassertier in Bewegung", cs: "Vodní zvíře v pohybu" }
     ]),
-    renoma: { gallery: galleries.renoma },
+    "renoma": canonicalResources("renoma"),
     nfm: { gallery: galleries.nfm },
     opera: { facebook: facebook.opera, gallery: galleries.opera },
     "culture-evening": { facebook: facebook.opera, gallery: [...galleries.opera, ...galleries.nfm] },
@@ -204,7 +208,7 @@
     for (const platform of ["facebook", "instagram"]) {
       const legacy = media[platform];
       Object.defineProperty(media, platform, { enumerable: true, configurable: true,
-        get: () => window.WROC_CATALOG?.getSocialPost?.(place, platform)?.url || legacy });
+        get: () => window.WROC_CATALOG?.getSocialPost?.(place, platform)?.url || (place.links?.socialProfileFallback === false ? undefined : legacy) });
     }
   }
   window.WROC_LOCATION_MEDIA = resources;

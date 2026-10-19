@@ -1,0 +1,229 @@
+{
+  "photos": [
+    {
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/pan-tadeusz-enrichment/assets/pan-tadeusz-museum-01.jpg",
+      "sitePath": "/assets/pan-tadeusz-museum/pan-tadeusz-museum-01.jpg",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (10).jpeg",
+      "sourceSHA256": "55d8faf7be8441b7cc251221cc0e2ef79b3b86f8cfbf51deb154168e5ac6dd5e",
+      "assetSHA256": "407e2b13672579ac91914550c49f07fbc8a4a63d1d922b42e09fe41143b4db26",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "alt": {
+        "he": "שלט וסמל המוזיאון על דלת הכניסה",
+        "en": "Museum name and symbol on the entrance door",
+        "pl": "Nazwa i symbol muzeum na drzwiach wejściowych",
+        "de": "Museumsname und Symbol an der Eingangstür",
+        "cs": "Název a symbol muzea na vstupních dveřích"
+      }
+    },
+    {
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/pan-tadeusz-enrichment/assets/pan-tadeusz-museum-02.jpg",
+      "sitePath": "/assets/pan-tadeusz-museum/pan-tadeusz-museum-02.jpg",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (12).jpeg",
+      "sourceSHA256": "42ef8330b521991c4c1d4a7cc8858ac08a3676310b7673d3081d52a632a1562d",
+      "assetSHA256": "0c91321e68b35f936af18b86c264e5c914b6e99bc74ea4fc1c5b9a437d871865",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "alt": {
+        "he": "חזית המוזיאון המוארת ומסגרת הכניסה מזווית נמוכה",
+        "en": "Illuminated museum facade and entrance surround from below",
+        "pl": "Oświetlona fasada muzeum i portal widziane z dołu",
+        "de": "Beleuchtete Museumsfassade und Eingangsportal von unten",
+        "cs": "Osvětlené průčelí muzea a vstupní portál zdola"
+      }
+    },
+    {
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/pan-tadeusz-enrichment/assets/pan-tadeusz-museum-03.jpg",
+      "sitePath": "/assets/pan-tadeusz-museum/pan-tadeusz-museum-03.jpg",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (13).jpeg",
+      "sourceSHA256": "f3761e029fbe729b4dd1f071d2b7d1a694d3005423ec78642b353b73975f8b93",
+      "assetSHA256": "c564159238eeed1d3cee4018172001fc72fe324bdef3078105a3e7f7f7a0fe47",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "alt": {
+        "he": "חזית בית השמש הזהובה שבה שוכן המוזיאון",
+        "en": "Facade of the Under the Golden Sun house containing the museum",
+        "pl": "Fasada kamienicy Pod Złotym Słońcem, siedziby muzeum",
+        "de": "Fassade des Museumshauses Zur Goldenen Sonne",
+        "cs": "Průčelí domu U Zlatého slunce, sídla muzea"
+      }
+    },
+    {
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/pan-tadeusz-enrichment/assets/pan-tadeusz-museum-04.jpg",
+      "sitePath": "/assets/pan-tadeusz-museum/pan-tadeusz-museum-04.jpg",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (2).jpeg",
+      "sourceSHA256": "ec99416c67f618503fcd461798f184a5cde26517b848bc0de76e70dddbb32160",
+      "assetSHA256": "c611848767cb7a7a040c8f1803c6efef73d776a577709c5ce01103a7cb4b51d3",
+      "dimensions": [
+        1800,
+        1350
+      ],
+      "alt": {
+        "he": "לוחית שם מוזיאון פאן טדאוש ליד הכניסה",
+        "en": "Pan Tadeusz Museum name plaque beside the entrance",
+        "pl": "Tablica z nazwą Muzeum Pana Tadeusza przy wejściu",
+        "de": "Namensschild des Pan-Tadeusz-Museums am Eingang",
+        "cs": "Tabulka s názvem Muzea Pana Tadeusze u vchodu"
+      }
+    },
+    {
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/pan-tadeusz-enrichment/assets/pan-tadeusz-museum-05.jpg",
+      "sitePath": "/assets/pan-tadeusz-museum/pan-tadeusz-museum-05.jpg",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (7).jpeg",
+      "sourceSHA256": "68e600bdbc47acec9cd47b102f926e28fe29f1b14b197e3990a42aff83cae9fa",
+      "assetSHA256": "4aea67f4252d9a559ad062d64daa7950a33f03d5f77cf28ece4c5ef0835ec3a0",
+      "dimensions": [
+        1350,
+        1800
+      ],
+      "alt": {
+        "he": "החזית המוארת של המוזיאון בכיכר השוק בלילה",
+        "en": "Illuminated museum frontage on Market Square at night",
+        "pl": "Oświetlona nocą fasada muzeum przy Rynku",
+        "de": "Nachts beleuchtete Museumsfront am Rynek",
+        "cs": "Noční osvětlené průčelí muzea na Rynku"
+      }
+    }
+  ],
+  "video": {
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Video 2026-10-05 at 18.25.03.mp4",
+    "durationSeconds": 6.47,
+    "visualReview": "Three sampled frames confirm illuminated museum exterior, transient passers-by only; no posed personal/family portrait or guide.",
+    "publicationCopyPlan": "Muted copy preserving original video; no spoken-guide inclusion.",
+    "youtube": "Public published and saved visibility verified in Channel content; processing/checks complete no issues",
+    "publicationCopy": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/work/pan-tadeusz-enrichment/pan-tadeusz-museum-exterior-visit-muted.mp4",
+    "publicationSHA256": "e260e5a9598dba5d50451582078aa097a0dd6df6285bddbe8c6e88b7731c8181",
+    "audio": "Removed from publication copy, original preserved",
+    "youtubeId": "BTXtNDsF_8M",
+    "url": "https://youtube.com/shorts/BTXtNDsF_8M",
+    "authorization": {
+      "date": "2026-10-19",
+      "userWords": "מאשר את התנאים וההעלאה כציבורי",
+      "scope": "Exact6.47second muted museumfacadeclip;TermsOfService andCommunityGuidelines displayed inStudio tab31057712",
+      "source": "Direct user confirmation relayed by parent/root at action time"
+    },
+    "visibility": "Public",
+    "copyright": "No issues found",
+    "communityGuidelines": "No issues found",
+    "verifiedAt": "2026-10-19",
+    "evidence": [
+      "youtube-public-saved.txt",
+      "youtube-public-saved.png"
+    ]
+  },
+  "social": [
+    {
+      "language": "he",
+      "platform": "facebook",
+      "status": "not-verified-hide-place-post-action",
+      "url": null,
+      "coverage": "Targeted Page-scoped Tadeusz search; Hebrew also טדאוש, candidate is Racławice Panorama/Kościuszko and wrong place; German no results. No exhaustive historical absence claim.",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/pan-tadeusz-enrichment/facebook-he-search.txt"
+    },
+    {
+      "language": "he",
+      "platform": "instagram",
+      "status": "not-verified-hide-place-post-action",
+      "url": null,
+      "coverage": {
+        "archive": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/social-gap-completion/borek/he-instagram-full-grid.json",
+        "entries": 47,
+        "limitation": "Caption/alt full-grid inventory only; not every carousel/video frame. No dedicated museum match; English Tadeusz caption is Panorama/Kościuszko, wrong place."
+      }
+    },
+    {
+      "language": "en",
+      "platform": "facebook",
+      "status": "verified-place-post",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZR2WSJ9BLkbMnwHAdM1kcYc6mEXmby3TxfCq333gmwPPFajEVVJbn2p23BDBYtthl&id=61595036942289",
+      "verification": {
+        "method": "live-browser-written-post-content-author-language",
+        "account": "Wroc-Love Wrocław & Lower Silesia",
+        "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/pan-tadeusz-enrichment/facebook-en-live.txt"
+      },
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "language": "en",
+      "platform": "instagram",
+      "status": "not-verified-hide-place-post-action",
+      "url": null,
+      "coverage": {
+        "archive": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/social-gap-completion/jadwigi/instagram-en-archive.json",
+        "entries": 134,
+        "limitation": "Caption/alt full-grid inventory only; not every carousel/video frame. No dedicated museum match; English Tadeusz caption is Panorama/Kościuszko, wrong place."
+      }
+    },
+    {
+      "language": "pl",
+      "platform": "facebook",
+      "status": "verified-place-post",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid035KHQotyMh8Khym2tvnbTrccFeC5fgbzSDhwE2HanMPB4EGzghRp2oZtwN34djkqrl&id=61595207664875",
+      "verification": {
+        "method": "live-browser-written-post-content-author-language",
+        "account": "Wroc-Love Wrocław i Dolny Śląsk",
+        "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/pan-tadeusz-enrichment/facebook-pl-live.txt"
+      },
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "language": "pl",
+      "platform": "instagram",
+      "status": "not-verified-hide-place-post-action",
+      "url": null,
+      "coverage": {
+        "archive": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/social-gap-completion/jadwigi/instagram-pl-archive.json",
+        "entries": 63,
+        "limitation": "Caption/alt full-grid inventory only; not every carousel/video frame. No dedicated museum match; English Tadeusz caption is Panorama/Kościuszko, wrong place."
+      }
+    },
+    {
+      "language": "de",
+      "platform": "facebook",
+      "status": "not-verified-hide-place-post-action",
+      "url": null,
+      "coverage": "Targeted Page-scoped Tadeusz search; Hebrew also טדאוש, candidate is Racławice Panorama/Kościuszko and wrong place; German no results. No exhaustive historical absence claim.",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/pan-tadeusz-enrichment/facebook-de-search.txt"
+    },
+    {
+      "language": "de",
+      "platform": "instagram",
+      "status": "not-verified-hide-place-post-action",
+      "url": null,
+      "coverage": {
+        "archive": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/social-gap-completion/jadwigi/instagram-de-archive.json",
+        "entries": 63,
+        "limitation": "Caption/alt full-grid inventory only; not every carousel/video frame. No dedicated museum match; English Tadeusz caption is Panorama/Kościuszko, wrong place."
+      }
+    },
+    {
+      "language": "cs",
+      "platform": "facebook",
+      "status": "verified-place-post",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0y9jKYMEHoVf2NWnPeYqiecZhchuXcoK1AXCDfe6hJZQwrqv46YPN1ARPbxkcpefql&id=61594716405964",
+      "verification": {
+        "method": "live-browser-written-post-content-author-language",
+        "account": "Wroc-Love Vratislav a Dolní Slezsko",
+        "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/pan-tadeusz-enrichment/facebook-cs-live.txt"
+      },
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "language": "cs",
+      "platform": "instagram",
+      "status": "not-verified-hide-place-post-action",
+      "url": null,
+      "coverage": {
+        "archive": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/social-gap-completion/jadwigi/instagram-cs-archive.json",
+        "entries": 62,
+        "limitation": "Caption/alt full-grid inventory only; not every carousel/video frame. No dedicated museum match; English Tadeusz caption is Panorama/Kościuszko, wrong place."
+      }
+    }
+  ]
+}

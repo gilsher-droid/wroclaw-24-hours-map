@@ -93,7 +93,56 @@
           }
         }
       },
-      "social": [],
+      "social": [
+  {
+    "platform": "facebook",
+    "language": "en",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02VrJHkQfRNTqHvAXfsAzJHfUukbWXH28SR8gyxV7nR2TkaZjKXHo23nxLCejPk98Al&id=61595036942289",
+    "verifiedAt": "2026-10-19T07:40:38.438Z"
+  },
+  {
+    "platform": "instagram",
+    "language": "en",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeqvdJ0FXDK/",
+    "verifiedAt": "2026-10-19T07:40:56.160Z"
+  },
+  {
+    "platform": "facebook",
+    "language": "he",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid027xWhszMqDaVprsSAYVzVp6923ojAApT1vjFbenbs8dhnACN4ZKTc8N296gMX6EFZl&id=61591964083308",
+    "verifiedAt": "2026-10-19T07:49:40.472Z"
+  },
+  {
+    "platform": "instagram",
+    "language": "he",
+    "url": "https://www.instagram.com/p/Deqwh2ejGOC/",
+    "verifiedAt": "2026-10-19T07:49:49.594Z"
+  },
+  {
+    "platform": "facebook",
+    "language": "pl",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Z4B8ka7ztSyo88ngmpqxpFaznF7yx7iZPYqZ3UpX3mSsJDj6NKkNkzZy2t3GdTvdl&id=61595207664875",
+    "verifiedAt": "2026-10-19T07:57:40.275Z"
+  },
+  {
+    "platform": "instagram",
+    "language": "pl",
+    "url": "https://www.instagram.com/p/DeqxeNnDgGz/",
+    "verifiedAt": "2026-10-19T07:57:41.641Z"
+  },
+  {
+    "platform": "facebook",
+    "language": "de",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02XRALF2bumvwwBabMWgAAjeHS6uCLzqBMgVE1jLTJRnGH62jwnL8jbVCvzUEyXv8vl&id=61595239823399",
+    "verifiedAt": "2026-10-19T08:02:48.455Z"
+  },
+  {
+    "platform": "instagram",
+    "language": "de",
+    "url": "https://www.instagram.com/p/DeqyESNjuyI/",
+    "verifiedAt": "2026-10-19T08:02:49.524Z"
+  }
+],
       "links": {
         "socialProfileFallback": false
       },

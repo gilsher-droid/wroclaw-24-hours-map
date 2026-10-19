@@ -8350,11 +8350,11 @@
       "cs": "Galeria Dominikańska"
     },
     "description": {
-      "he": "מופיע בשכבת מרכזי הקניות של מפת הקהילה.",
-      "en": "Included in the community map’s shopping-centre layer.",
-      "pl": "Znajduje się w warstwie centrów handlowych mapy społeczności.",
-      "de": "In der Einkaufszentrum-Ebene der Community-Karte enthalten.",
-      "cs": "Zahrnuto ve vrstvě nákupních center komunitní mapy."
+      "he": "מרכז קניות בכיכר דומיניקנסקי, בקרבת העיר העתיקה, עם חנויות, סופרמרקט ואזור אוכל. תצלומי הביקור שלנו מציגים את החזית ואת האטריום המקורה עם הדרגנועים. מתאים לעצירת קניות או אוכל במהלך טיול במרכז. בדקו באתר הרשמי שעות פעילות וחנויות עדכניות, במיוחד בימי ראשון ובחגים.",
+      "en": "A shopping centre at Plac Dominikański near the Old Town, with shops, a supermarket and dining. Our visit photographs show the frontage and covered atrium with escalators. A practical shopping or food stop during a central walk. Check current stores and opening arrangements, especially Sundays and holidays.",
+      "pl": "Centrum handlowe przy placu Dominikańskim, blisko Starego Miasta, ze sklepami, supermarketem i gastronomią. Nasze zdjęcia pokazują fasadę i zadaszone atrium ze schodami ruchomymi. Przydatny przystanek na zakupy lub posiłek podczas spaceru po centrum. Aktualne sklepy i godziny, zwłaszcza w niedziele i święta, sprawdź na oficjalnej stronie.",
+      "de": "Einkaufszentrum am Plac Dominikański nahe der Altstadt mit Geschäften, Supermarkt und Gastronomie. Unsere Besuchsfotos zeigen die Fassade und das überdachte Atrium mit Rolltreppen. Ein praktischer Einkaufs- oder Essensstopp beim Innenstadtspaziergang. Aktuelle Geschäfte und Öffnungszeiten, besonders an Sonn- und Feiertagen, auf der offiziellen Website prüfen.",
+      "cs": "Nákupní centrum na náměstí Dominikański poblíž Starého Města s obchody, supermarketem a občerstvením. Naše snímky ukazují průčelí a zastřešené atrium s eskalátory. Praktická zastávka na nákupy či jídlo při procházce centrem. Aktuální obchody a otevírací dobu, zejména v neděli a o svátcích, ověřte na oficiálním webu."
     },
     "location": {
       "countryCode": "PL",
@@ -8363,6 +8363,12 @@
       "coordinates": {
         "lat": 51.1081196,
         "lng": 17.039349
+      },
+      "address": {
+        "street": "Plac Dominikański 3",
+        "postalCode": "50-159",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -8373,7 +8379,12 @@
     "sourceUrls": [
       "https://www.facebook.com/61591964083308/posts/122110542891398802/"
     ],
-    "aliases": [],
+    "aliases": [
+      "galeria-dominikana",
+      "galeria-dominikanska",
+      "גלריה דומיניקנה",
+      "גלריה דומיניקנסקה"
+    ],
     "sourceRecords": [
       {
         "productId": "lifestyle-guide",
@@ -8443,47 +8454,13 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://galeria-dominikanska.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1081196%2C17.039349",
+        "appleMaps": "https://maps.apple.com/?ll=51.1081196,17.039349&q=Galeria%20Dominika%C5%84ska"
+      },
+      "socialProfileFallback": false
     },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z2jPJzh3MFxZxnqY77cU3RrWcFyEYP33pafk8KPG7jzxoqfV2trojqWoqDMRDWVUl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "en",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid027GKL3ePA9Uxun1kGbKNeN4EhYmbfwh39hu9hsLLtKs728oKPtmmrDHNnEj4stb6Zl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "pl",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0pxzdvb36264kXQdXhikSjbkKELV3XDxoDE8AowLGnheHigcXxDbkpb7TBLYj5PEsl&id=61595207664875",
-        "verifiedAt": "2026-10-07T17:47:10.872858+00:00"
-      },
-      {
-        "platform": "facebook",
-        "language": "de",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0UkjWLPMLjmijcNQrsdiW9LtTSwVTzejGZ4VjJzkpYUurPRhwkpNv5QGGppTbuxNCl&id=61595239823399",
-        "verifiedAt": "2026-10-08T14:06:51.154559+00:00"
-      },
-      {
-        "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
-        "routingExcluded": true
-      }
-    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -8496,6 +8473,77 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-19",
+      "factualSources": [
+        {
+          "url": "https://galeria-dominikanska.pl/",
+          "checkedAt": "2026-10-19"
+        },
+        {
+          "url": "https://geoportal.wroclaw.pl/poi/poi/1939",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "personalMediaPermission": false
+    },
+    "media": {
+      "thumbnail": "/assets/galeria-dominikanska-01.jpg",
+      "photos": [
+        "/assets/galeria-dominikanska-01.jpg",
+        "/assets/galeria-dominikanska-02.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/galeria-dominikanska-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23.jpeg",
+          "sourceSHA256": "919c88d4338d09c80da83b061d6afa6a5b34a3d090885d5567b902e53f6a0864",
+          "assetSHA256": "79d44cd85b4c413950fb5bebb997b7522c40508de305d602c8118dd650223851"
+        },
+        "/assets/galeria-dominikanska-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23 (1).jpeg",
+          "sourceSHA256": "8eaeb63587f210982114e45a103d623ad40903849b1a5ab2d330df62901bc2b5",
+          "assetSHA256": "a64e4a33909504777c8a12ffe7b359303a93110c95ff348025510eac319ba303"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z2jPJzh3MFxZxnqY77cU3RrWcFyEYP33pafk8KPG7jzxoqfV2trojqWoqDMRDWVUl&id=61594716405964",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid027GKL3ePA9Uxun1kGbKNeN4EhYmbfwh39hu9hsLLtKs728oKPtmmrDHNnEj4stb6Zl&id=61595036942289",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0pxzdvb36264kXQdXhikSjbkKELV3XDxoDE8AowLGnheHigcXxDbkpb7TBLYj5PEsl&id=61595207664875",
+        "verifiedAt": "2026-10-07T17:47:10.872858+00:00",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0UkjWLPMLjmijcNQrsdiW9LtTSwVTzejGZ4VjJzkpYUurPRhwkpNv5QGGppTbuxNCl&id=61595239823399",
+        "verifiedAt": "2026-10-08T14:06:51.154559+00:00",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
+      }
     ]
   },
   "doubletree": {
@@ -9188,7 +9236,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1067753%2C16.9451904",
         "appleMaps": "https://maps.apple.com/?ll=51.1067753,16.9451904"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -9206,19 +9255,26 @@
     "provenance": {
       "personalVisit": true,
       "originalPhotography": true,
-      "verifiedAt": "2026-10-18",
+      "verifiedAt": "2026-10-19",
       "factualSources": [
         {
-          "url": "https://www.wroclawfashionoutlet.com/en/contact",
-          "verifiedAt": "2026-10-18",
-          "scope": "official centre identity and Graniczna2 address"
+          "url": "https://www.wroclawfashionoutlet.com/en/practical-information",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "Graniczna 2,54-610 Wrocław",
+            "shopping and dining",
+            "individual restaurant hours vary"
+          ]
         },
         {
-          "url": "https://www.wroclawfashionoutlet.com/en/practical-information",
-          "verifiedAt": "2026-10-18",
-          "scope": "official shopping/dining facilities and current opening information; no mutable hours, prices or promotions copied"
+          "url": "https://www.wroclawfashionoutlet.com/en/shops",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "current operator store directory"
+          ]
         }
-      ]
+      ],
+      "personalMediaPermission": false
     },
     "media": {
       "photos": [
@@ -9352,55 +9408,64 @@
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0y5gxNrJdT65Hx2hoN1zuuqMLhDLTkdTZ5wyS1VNU7H9bivvBkHoR4PZYobJ8hBcAl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0225SeRJ64VFdo6pT42qxSj8WmATUy4D4PHUq7syAKGMeLjEMmcdQ2yrcUQMpJHmv8l&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02DH8kACeRCNniy7ijpmCmq6WED23WsbMqZpehPag3wn3nr5ZJ6EFaaRHaaah5QBKMl&id=61595207664875",
-        "verifiedAt": "2026-10-08T13:49:47.255Z"
+        "verifiedAt": "2026-10-08T13:49:47.255Z",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02jdGppbi5jKEqwf69oW6RtKDku6RifEXF1Axw3xmG6Jum1iwbT9heM86WB4qBwCiFl&id=61595239823399",
-        "verifiedAt": "2026-10-08T14:15:04.416768+00:00"
+        "verifiedAt": "2026-10-08T14:15:04.416768+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeRneIqDUWT/",
-        "verifiedAt": "2026-10-09T13:30:03.451Z"
+        "verifiedAt": "2026-10-09T13:30:03.451Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeTsEVcD0KE/",
-        "verifiedAt": "2026-10-10T08:48:53.112Z"
+        "verifiedAt": "2026-10-10T08:48:53.112Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/p/DeUU5cHDyxM/",
-        "verifiedAt": "2026-10-10T15:08:34.803Z"
+        "verifiedAt": "2026-10-10T15:08:34.803Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/p/DeUh8VcjNsj/",
-        "verifiedAt": "2026-10-10T16:40:36.281Z"
+        "verifiedAt": "2026-10-10T16:40:36.281Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "he",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvLXGEXoN/",
-        "verifiedAt": "2026-10-10T18:34:11.796Z"
+        "verifiedAt": "2026-10-10T18:34:11.796Z",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
@@ -9408,6 +9473,160 @@
         "routingExcluded": true
       }
     ]
+  },
+  "fc-caffe-kuznicza": {
+    "id": "fc-caffe-kuznicza",
+    "localName": "FC Caffe",
+    "name": {
+      "he": "קפה אף סי",
+      "en": "FC Caffe",
+      "pl": "FC Caffe",
+      "de": "FC Caffe",
+      "cs": "FC Caffe"
+    },
+    "description": {
+      "he": "בית קפה ברחוב קוז׳ניצ׳ה, עם קפה, ארוחות בוקר ועוגות לפי אתר המקום. תמונת הביקור שלנו מציגה את השלט העגול, החזית הפתוחה ושולחנות הישיבה ברחוב. אפשר לשלב הפסקה בדרך בין אזור האוניברסיטה לכיכר השוק.\nFC Caffe\nKuźnicza 30, Wrocław",
+      "en": "A café on Kuźnicza serving coffee, breakfast and cakes according to its website. Our visit photograph shows the round sign, open frontage and street-side tables. A possible pause between the university area and Market Square.\nKuźnicza 30, Wrocław",
+      "pl": "Kawiarnia przy Kuźniczej, oferująca według własnej strony kawę, śniadania i ciasta. Nasze zdjęcie z wizyty pokazuje okrągły szyld, otwartą fasadę i stoliki na ulicy. Można połączyć przerwę ze spacerem między uniwersytetem a Rynkiem.\nKuźnicza 30, Wrocław",
+      "de": "Ein Café an der Kuźnicza mit Kaffee, Frühstück und Kuchen laut eigener Website. Unser Besuchsfoto zeigt das runde Schild, die offene Front und Tische am Straßenrand. Eine mögliche Pause zwischen Universitätsviertel und Rynek.\nKuźnicza 30, Wrocław",
+      "cs": "Kavárna v ulici Kuźnicza s kávou, snídaněmi a zákusky podle vlastního webu. Naše fotografie z návštěvy ukazuje kulatý vývěsní štít, otevřené průčelí a stolky u ulice. Možná zastávka mezi univerzitou a Rynkem.\nKuźnicza 30, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1132329,
+        "lng": 17.0346388
+      },
+      "address": {
+        "street": "Kuźnicza 30",
+        "city": "Wrocław",
+        "countryCode": "PL",
+        "postalCode": "50-138"
+      }
+    },
+    "categories": [
+      "cafe",
+      "drink",
+      "eat",
+      "food"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "CAFE FC",
+      "Cafe FC",
+      "FC CAFFE",
+      "FC Caffe",
+      "קפה אף סי",
+      "קפה אפ סי"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "fc-caffe-kuznicza"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "fc-caffe-kuznicza",
+        "lat": 51.1132329,
+        "lng": 17.0346388
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "cafe",
+        "drink",
+        "eat",
+        "food"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://fccaffe.eatbu.com/?lang=pl",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1132329%2C17.0346388",
+        "appleMaps": "https://maps.apple.com/?ll=51.1132329,17.0346388&q=FC%20Caffe"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-19",
+      "factualSources": [
+        {
+          "url": "https://fccaffe.eatbu.com/?lang=pl",
+          "checked": "2026-10-19",
+          "supports": [
+            "Brand",
+            "Kuźnicza30",
+            "Coffee,breakfast,cakes",
+            "Outdoorseating"
+          ]
+        },
+        {
+          "url": "https://sprawdzadres.pl/dolnoslaskie/wroclaw/kuznicza/30",
+          "checked": "2026-10-19",
+          "supports": [
+            "Addresscoordinatecandidate"
+          ]
+        }
+      ],
+      "personalMediaPermission": false
+    },
+    "media": {
+      "thumbnail": "/assets/food-cafes/fc-caffe-kuznicza-01.jpg",
+      "photos": [
+        "/assets/food-cafes/fc-caffe-kuznicza-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-cafes/fc-caffe-kuznicza-01.jpg": {
+          "original": true,
+          "sourceSHA256": "f0cb850e810a6ac3ae64808e31669cc41eca3196d40704590d4f011e5af96f69",
+          "assetSHA256": "a44078db11d5aacdd7697404627b3e5630ae00ccf2d524942f9188db15ff8952"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "figa-w-barbarze": {
     "id": "figa-w-barbarze",
@@ -15178,7 +15397,56 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0cXziB6sWWuJJtZZuc9aWVa5ufB3tZ4orCy44Xad6eUeF8LPPnNrwEzY8WSCjcwPAl&id=61595036942289",
+        "verifiedAt": "2026-10-19T07:18:39.994Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Deqs4wkD-Kb/",
+        "verifiedAt": "2026-10-19T07:18:47.742Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02AHPReHTVkrDeQrEHhrNHk6vhTyZibTajaqPtjyK3yXJnNusa9JbFS7mbctG8faGdl&id=61591964083308",
+        "verifiedAt": "2026-10-19T07:51:18.253Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DeqwucFDZSN/",
+        "verifiedAt": "2026-10-19T07:51:26.855Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02HptBAAveoenvhszEPfHbGN3iEfyBiKS3j1MdBS2QjfarLSYtNKDQpQY5YRJhMKFSl&id=61595207664875",
+        "verifiedAt": "2026-10-19T07:58:48.721Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/Deqxn5foBJ8/",
+        "verifiedAt": "2026-10-19T07:58:49.766Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0P2dbKNA7KXgJ35iCVY1hiECo8PHAAkNZNKKvk143SNeCqiu1pRuRiS8nikcriPzAl&id=61595239823399",
+        "verifiedAt": "2026-10-19T08:03:36.199Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeqyLogGNTs/",
+        "verifiedAt": "2026-10-19T08:03:37.387Z"
+      }
+    ]
   },
   "konspira": {
     "id": "konspira",
@@ -18154,7 +18422,56 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid09Wq7VanWaGqqc1zBhjXYmBaub3Ecmw3BrmKtof3RqbpL1o5N1p3ntZ2xkvmLL4SAl&id=61591964083308",
+        "verifiedAt": "2026-10-19T07:04:57.088Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Gc1MBs15j1dLkoHDWfFwrhx9wEU66vRUsKzzqFe38NQjQMAFTE5hNJ1Zi8swC8U1l&id=61595036942289",
+        "verifiedAt": "2026-10-19T07:33:20.980Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeqvRcblU63/",
+        "verifiedAt": "2026-10-19T07:38:21.758Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeqwNzpDnIT/",
+        "verifiedAt": "2026-10-19T07:46:17.419Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02j8tJpS5Bx1ZbYMSoSeSfn3S9ZokhSrhshptrWa6BNDLF5cV4H9MDnqkaWfVmVh6Zl&id=61595207664875",
+        "verifiedAt": "2026-10-19T07:54:18.784Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeqxCgnABp1/",
+        "verifiedAt": "2026-10-19T07:54:20.268Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid027JnMj418msq2BW6LVdN97NZHdhQw4TbW85WyGFeV3zByy64LvVLoQ9tnBKjG7iPl&id=61595239823399",
+        "verifiedAt": "2026-10-19T08:00:41.971Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/Deqx0WCD3h_/",
+        "verifiedAt": "2026-10-19T08:00:43.380Z"
+      }
+    ]
   },
   "marina": {
     "id": "marina",
@@ -18280,18 +18597,18 @@
     "id": "math-tower",
     "localName": "Wieża Matematyczna",
     "name": {
-      "he": "מגדל המתמטיקה",
+      "he": "המגדל המתמטי",
       "en": "Mathematical Tower",
       "pl": "Wieża Matematyczna",
       "de": "Mathematischer Turm",
       "cs": "Matematická věž"
     },
     "description": {
-      "he": "נקודת תצפית מעל מרכז ורוצלב. העלייה תלויה בשעות הפתיחה, במזג האוויר ובזמן שנותר.",
-      "en": "A viewpoint above central Wrocław. The climb depends on opening hours, weather and the time you have left.",
-      "pl": "Punkt widokowy nad centrum Wrocławia. Wejście zależy od godzin otwarcia, pogody i pozostałego czasu.",
-      "de": "Ein Aussichtspunkt über dem Zentrum von Breslau. Der Aufstieg hängt von den Öffnungszeiten, dem Wetter und der verbleibenden Zeit ab.",
-      "cs": "Vyhlídka nad centrální Vratislaví. Výstup závisí na otevírací době, počasí a času, který vám zbývá."
+      "he": "המגדל במוזיאון אוניברסיטת ורוצלב שימש מצפה כוכבים מ־1791. מרפסת התצפית בגובה כ־42 מטרים משקיפה על העיר. תמונות הביקור שלנו מציגות את המגדל המואר מבחוץ, פסל במרפסת ומבט מהנהר. העלייה במדרגות, ללא מעלית למגדל. בדקו שעות, כרטיסים ותנאי פתיחת המרפסת; המוזיאון סגור בימי רביעי, בחגים רשמיים ובערב חג המולד.\nWieża Matematyczna\npl. Uniwersytecki 1, Wrocław",
+      "en": "The University of Wrocław Museum tower housed an observatory from 1791; its viewing terrace is about 42 m above the city. Our visit photos show the illuminated exterior, a terrace statue and riverside context. Stairs only, with no lift to the tower. Check tickets, hours and terrace access; the museum closes Wednesdays, public holidays and Christmas Eve.\npl. Uniwersytecki 1, Wrocław",
+      "pl": "Wieża Muzeum Uniwersytetu Wrocławskiego mieściła obserwatorium od 1791 roku; taras widokowy znajduje się około 42 m nad miastem. Nasze zdjęcia pokazują oświetloną wieżę z zewnątrz, rzeźbę na tarasie i widok od Odry. Wejście schodami, bez windy na wieżę. Sprawdźcie bilety, godziny i dostęp do tarasu; muzeum jest nieczynne w środy, święta państwowe i Wigilię.\npl. Uniwersytecki 1, Wrocław",
+      "de": "Der Turm des Universitätsmuseums beherbergte ab 1791 eine Sternwarte; seine Aussichtsterrasse liegt etwa 42 m über der Stadt. Unsere Besuchsfotos zeigen den beleuchteten Turm von außen, eine Terrassenfigur und den Blick von der Oder. Aufstieg über Treppen, kein Aufzug zum Turm. Tickets, Öffnungszeiten und Terrassenzugang prüfen; mittwochs, an gesetzlichen Feiertagen und Heiligabend bleibt das Museum geschlossen.\npl. Uniwersytecki 1, Wrocław",
+      "cs": "Věž univerzitního muzea sloužila od roku 1791 jako hvězdárna; vyhlídková terasa leží asi 42 m nad městem. Naše fotografie ukazují osvětlenou věž zvenčí, sochu na terase a pohled od Odry. Výstup po schodech, bez výtahu na věž. Ověřte vstupenky, otevírací dobu a přístup na terasu; muzeum má zavřeno ve středu, o státních svátcích a na Štědrý den.\npl. Uniwersytecki 1, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -18300,13 +18617,26 @@
       "coordinates": {
         "lat": 51.11391,
         "lng": 17.03329
+      },
+      "address": {
+        "street": "pl. Uniwersytecki 1",
+        "city": "Wrocław",
+        "countryCode": "PL",
+        "postalCode": "50-137"
       }
     },
     "categories": [
+      "architecture",
+      "history",
+      "museum",
       "viewpoint"
     ],
     "sourceUrls": [],
-    "aliases": [],
+    "aliases": [
+      "Wieża Matematyczna",
+      "mathematical-tower",
+      "המגדל המתמטי"
+    ],
     "sourceRecords": [
       {
         "productId": "wroclaw-24-hours",
@@ -18337,9 +18667,15 @@
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
+        "architecture",
+        "history",
+        "museum",
         "viewpoint"
       ],
-      "tags": []
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -18363,88 +18699,13 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://muzeum.uni.wroc.pl/plan-zwiedzania/wieza-matematyczna/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.11391%2C17.03329",
+        "appleMaps": "https://maps.apple.com/?ll=51.11391,17.03329&q=Wie%C5%BCa%20Matematyczna"
+      },
+      "socialProfileFallback": false
     },
-    "media": {
-      "photos": [
-        "/assets/gallery-university-01.jpg",
-        "/assets/gallery-university-02.jpg",
-        "/assets/gallery-university-03.jpg",
-        "/assets/gallery-university-04.jpg",
-        "/assets/gallery-university-05.jpg"
-      ],
-      "videos": []
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "language": "pl",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02SNoJ5VJXFxGtxXJXhVKopJPu7TMFHLNKcPUhc3r6xxK3tWFN3ucv1xGuU1JH4Trvl&id=61595207664875",
-        "verifiedAt": "2026-10-06T23:13:31.358779+00:00"
-      },
-      {
-        "platform": "facebook",
-        "language": "de",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06EFayQBGyQq4jBuJ1ZHiCxojVfjMjfkaJhUZeZUej3ZUCKKJryMZNqqJnpothuu9l&id=61595239823399",
-        "verifiedAt": "2026-10-07T07:20:42.113348+00:00"
-      },
-      {
-        "platform": "facebook",
-        "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02mLDaCyrnzfbp1wcRwAdkEpKEbdp6aBV51JPv2NZcReqH1hMpjyVSUpkFuB4LQNgrl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "en",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04Gthd2mDKvk36ypdxfpb6wU3yAKvycJAfaHC7qyjaBJRPC18bPjFGoBoweiaVf2vl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "instagram",
-        "language": "en",
-        "url": "https://www.instagram.com/p/DeRB61XGlu3/",
-        "verifiedAt": "2026-10-09T08:02:52.017Z"
-      },
-      {
-        "platform": "instagram",
-        "language": "pl",
-        "url": "https://www.instagram.com/p/DeToGayjS0m/",
-        "verifiedAt": "2026-10-10T08:16:00.393359+00:00"
-      },
-      {
-        "platform": "instagram",
-        "language": "de",
-        "url": "https://www.instagram.com/p/DeUTxH0jZ5u/",
-        "verifiedAt": "2026-10-10T14:36:12.215Z"
-      },
-      {
-        "platform": "instagram",
-        "language": "cs",
-        "url": "https://www.instagram.com/p/DeUh7z_DvU_/",
-        "verifiedAt": "2026-10-10T16:39:05.502Z"
-      },
-      {
-        "platform": "instagram",
-        "language": "he",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUuXjPEd_R/",
-        "verifiedAt": "2026-10-10T18:27:37.583Z"
-      },
-      {
-        "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/",
-        "routingExcluded": true
-      },
-      {
-        "platform": "instagram",
-        "url": "https://www.instagram.com/p/DbgEDzmnDcY/",
-        "routingExcluded": true
-      }
-    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -18457,6 +18718,148 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-19",
+      "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER",
+      "factualSources": [
+        {
+          "url": "https://muzeum.uni.wroc.pl/plan-zwiedzania/wieza-matematyczna/",
+          "facts": [
+            "Museum tower and former astronomical observatory",
+            "Observatory founded1791",
+            "Viewing terrace about42m",
+            "Imperial stairs lead to tower"
+          ]
+        },
+        {
+          "url": "https://muzeum.uni.wroc.pl/godziny-otwarcia/",
+          "facts": [
+            "No elevator to tower",
+            "Closed Wednesdays, public holidays, HolySaturday,ChristmasEve",
+            "Ticket office closes30minutes before museum"
+          ]
+        },
+        {
+          "url": "https://muzeum.uni.wroc.pl/muzeum/kontakt/",
+          "facts": [
+            "Museum address pl.Uniwersytecki1"
+          ]
+        }
+      ],
+      "personalMediaPermission": false
+    },
+    "media": {
+      "thumbnail": "/assets/mathematical-tower-night.jpg",
+      "photos": [
+        "/assets/mathematical-tower-night.jpg",
+        "/assets/mathematical-tower-statue.jpg",
+        "/assets/mathematical-tower-riverside.jpg",
+        "/assets/gallery-university-01.jpg",
+        "/assets/gallery-university-03.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/mathematical-tower-night.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.47 (1).jpeg",
+          "alt": {
+            "he": "המגדל המתמטי מואר בלילה במבט מהרחוב",
+            "en": "Mathematical Tower illuminated at night from the street",
+            "pl": "Wieża Matematyczna nocą widziana z ulicy",
+            "de": "Mathematischer Turm bei Nacht von der Straße",
+            "cs": "Matematická věž v noci z ulice"
+          }
+        },
+        "/assets/mathematical-tower-statue.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.46 (3).jpeg",
+          "alt": {
+            "he": "פסל במרפסת המגדל המוארת",
+            "en": "Statue on the illuminated tower terrace",
+            "pl": "Rzeźba na oświetlonym tarasie wieży",
+            "de": "Figur auf der beleuchteten Turmterrasse",
+            "cs": "Socha na osvětlené terase věže"
+          }
+        },
+        "/assets/mathematical-tower-riverside.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-10-19 at 08.41.52 (1).jpeg",
+          "alt": {
+            "he": "המגדל ובניין האוניברסיטה מעל הנהר בלילה",
+            "en": "Tower and university building above the river at night",
+            "pl": "Wieża i gmach uniwersytetu nad rzeką nocą",
+            "de": "Turm und Universitätsgebäude über dem Fluss bei Nacht",
+            "cs": "Věž a univerzitní budova nad řekou v noci"
+          }
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02SNoJ5VJXFxGtxXJXhVKopJPu7TMFHLNKcPUhc3r6xxK3tWFN3ucv1xGuU1JH4Trvl&id=61595207664875",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06EFayQBGyQq4jBuJ1ZHiCxojVfjMjfkaJhUZeZUej3ZUCKKJryMZNqqJnpothuu9l&id=61595239823399",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02mLDaCyrnzfbp1wcRwAdkEpKEbdp6aBV51JPv2NZcReqH1hMpjyVSUpkFuB4LQNgrl&id=61594716405964",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04Gthd2mDKvk36ypdxfpb6wU3yAKvycJAfaHC7qyjaBJRPC18bPjFGoBoweiaVf2vl&id=61595036942289",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRB61XGlu3/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeToGayjS0m/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUTxH0jZ5u/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeUh7z_DvU_/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUuXjPEd_R/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DbgEDzmnDcY/",
+        "routingExcluded": true
+      }
     ]
   },
   "meatologia-sikorskiego": {
@@ -22562,11 +22965,11 @@
       "cs": "Muzeum Pana Tadeusze"
     },
     "description": {
-      "he": "מוזיאון ספרותי אינטראקטיבי בבית היסטורי בכיכר השוק.",
-      "en": "An interactive literary museum in a historic Market Square house.",
-      "pl": "Interaktywne muzeum literackie w zabytkowej kamienicy przy Rynku.",
-      "de": "Interaktives Literaturmuseum in einem historischen Haus am Rynek.",
-      "cs": "Interaktivní literární muzeum v historickém domě na Rynku."
+      "he": "מוזיאון לספרות ולהיסטוריה פולנית בבית ״תחת השמש הזהובה״ שבכיכר השוק. המוזיאון הוא שלוחה של אוסולינאום, ובמרכזו כתב היד של ״פאן טדאוש״ מאת אדם מיצקביץ׳. התצוגות משלבות חפצים מקוריים ומולטימדיה ועוסקות גם בהיסטוריה של המאה העשרים ובמשורר תדאוש רוז׳ביץ׳. תמונות הביקור שלנו מתעדות את החזית המוארת ואת שלט הכניסה, ולא את חללי התצוגה. פרטי הביקור המעודכנים מופיעים באתר המוזיאון.\nMuzeum Pana Tadeusza\nRynek 6, Wrocław",
+      "en": "A museum of Polish literature and history in the Under the Golden Sun house on Market Square. Part of the Ossolineum, it centres on Adam Mickiewicz’s Pan Tadeusz manuscript. Original objects and multimedia displays also explore twentieth-century history and the poet Tadeusz Różewicz. Our visit photographs show the illuminated facade and entrance plaque, rather than the exhibition rooms. See the museum website for current visiting details.\nRynek 6, Wrocław",
+      "pl": "Muzeum literatury i historii Polski w kamienicy Pod Złotym Słońcem przy Rynku. Oddział Ossolineum, którego najważniejszym eksponatem jest rękopis Pana Tadeusza Adama Mickiewicza. Oryginalne obiekty i multimedia przybliżają również historię XX wieku oraz twórczość Tadeusza Różewicza. Nasze zdjęcia z wizyty przedstawiają oświetloną fasadę i tablicę przy wejściu, a nie sale wystawowe. Aktualne informacje dla zwiedzających znajdują się na stronie muzeum.\nRynek 6, Wrocław",
+      "de": "Ein Museum zur polnischen Literatur und Geschichte im Haus Zur Goldenen Sonne am Rynek. Die Einrichtung gehört zum Ossolineum; im Mittelpunkt steht Adam Mickiewiczs Handschrift des Pan Tadeusz. Originalobjekte und Multimedia beleuchten außerdem die Geschichte des 20. Jahrhunderts und den Dichter Tadeusz Różewicz. Unsere Besuchsfotos zeigen die beleuchtete Fassade und die Tafel am Eingang, nicht die Ausstellungsräume. Aktuelle Besuchsinformationen stehen auf der Museumswebsite.\nRynek 6, Wrocław",
+      "cs": "Muzeum polské literatury a historie v domě U Zlatého slunce na hlavním náměstí. Je součástí Ossolinea a jeho ústředním exponátem je rukopis Pana Tadeáše Adama Mickiewicze. Původní předměty a multimédia přibližují také dějiny 20. století a básníka Tadeusze Różewicze. Naše fotografie z návštěvy zachycují osvětlené průčelí a tabulku u vstupu, nikoli výstavní sály. Aktuální informace pro návštěvníky jsou na webu muzea.\nRynek 6, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -22578,9 +22981,9 @@
       },
       "address": {
         "street": "Rynek 6",
-        "postalCode": "50-106",
         "city": "Wrocław",
-        "country": "Poland"
+        "countryCode": "PL",
+        "postalCode": "50-106"
       }
     },
     "categories": [
@@ -22626,11 +23029,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://muzeumpanatadeusza.ossolineum.pl/",
+      "website": "https://muzeumpanatadeusza.ossolineum.pl/en/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1104299%2C17.0302752",
-        "appleMaps": "https://maps.apple.com/?ll=51.1104299,17.0302752&q=Muzeum%20Pana%20Tadeusza"
-      }
+        "appleMaps": "https://maps.apple.com/?q=Muzeum%20Pana%20Tadeusza&ll=51.1104299,17.0302752"
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -22653,30 +23057,110 @@
           "url": "https://muzeumpanatadeusza.ossolineum.pl/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "verifiedAt": "2026-10-19",
+      "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH",
+      "personalMediaPermission": false,
+      "videoReceipt": "data/pan-tadeusz-enrichment-provenance.json"
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/pan-tadeusz-museum/pan-tadeusz-museum-03.jpg",
+      "photos": [
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-01.jpg",
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-02.jpg",
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-03.jpg",
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-04.jpg",
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-05.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/BTXtNDsF_8M"
+      ],
+      "metadata": {
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (10).jpeg",
+          "sourceSHA256": "55d8faf7be8441b7cc251221cc0e2ef79b3b86f8cfbf51deb154168e5ac6dd5e",
+          "assetSHA256": "407e2b13672579ac91914550c49f07fbc8a4a63d1d922b42e09fe41143b4db26",
+          "alt": {
+            "he": "שלט וסמל המוזיאון על דלת הכניסה",
+            "en": "Museum name and symbol on the entrance door",
+            "pl": "Nazwa i symbol muzeum na drzwiach wejściowych",
+            "de": "Museumsname und Symbol an der Eingangstür",
+            "cs": "Název a symbol muzea na vstupních dveřích"
+          }
+        },
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (12).jpeg",
+          "sourceSHA256": "42ef8330b521991c4c1d4a7cc8858ac08a3676310b7673d3081d52a632a1562d",
+          "assetSHA256": "0c91321e68b35f936af18b86c264e5c914b6e99bc74ea4fc1c5b9a437d871865",
+          "alt": {
+            "he": "חזית המוזיאון המוארת ומסגרת הכניסה מזווית נמוכה",
+            "en": "Illuminated museum facade and entrance surround from below",
+            "pl": "Oświetlona fasada muzeum i portal widziane z dołu",
+            "de": "Beleuchtete Museumsfassade und Eingangsportal von unten",
+            "cs": "Osvětlené průčelí muzea a vstupní portál zdola"
+          }
+        },
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (13).jpeg",
+          "sourceSHA256": "f3761e029fbe729b4dd1f071d2b7d1a694d3005423ec78642b353b73975f8b93",
+          "assetSHA256": "c564159238eeed1d3cee4018172001fc72fe324bdef3078105a3e7f7f7a0fe47",
+          "alt": {
+            "he": "חזית בית השמש הזהובה שבה שוכן המוזיאון",
+            "en": "Facade of the Under the Golden Sun house containing the museum",
+            "pl": "Fasada kamienicy Pod Złotym Słońcem, siedziby muzeum",
+            "de": "Fassade des Museumshauses Zur Goldenen Sonne",
+            "cs": "Průčelí domu U Zlatého slunce, sídla muzea"
+          }
+        },
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (2).jpeg",
+          "sourceSHA256": "ec99416c67f618503fcd461798f184a5cde26517b848bc0de76e70dddbb32160",
+          "assetSHA256": "c611848767cb7a7a040c8f1803c6efef73d776a577709c5ce01103a7cb4b51d3",
+          "alt": {
+            "he": "לוחית שם מוזיאון פאן טדאוש ליד הכניסה",
+            "en": "Pan Tadeusz Museum name plaque beside the entrance",
+            "pl": "Tablica z nazwą Muzeum Pana Tadeusza przy wejściu",
+            "de": "Namensschild des Pan-Tadeusz-Museums am Eingang",
+            "cs": "Tabulka s názvem Muzea Pana Tadeusze u vchodu"
+          }
+        },
+        "/assets/pan-tadeusz-museum/pan-tadeusz-museum-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (7).jpeg",
+          "sourceSHA256": "68e600bdbc47acec9cd47b102f926e28fe29f1b14b197e3990a42aff83cae9fa",
+          "assetSHA256": "4aea67f4252d9a559ad062d64daa7950a33f03d5f77cf28ece4c5ef0835ec3a0",
+          "alt": {
+            "he": "החזית המוארת של המוזיאון בכיכר השוק בלילה",
+            "en": "Illuminated museum frontage on Market Square at night",
+            "pl": "Oświetlona nocą fasada muzeum przy Rynku",
+            "de": "Nachts beleuchtete Museumsfront am Rynek",
+            "cs": "Noční osvětlené průčelí muzea na Rynku"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0y9jKYMEHoVf2NWnPeYqiecZhchuXcoK1AXCDfe6hJZQwrqv46YPN1ARPbxkcpefql&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZR2WSJ9BLkbMnwHAdM1kcYc6mEXmby3TxfCq333gmwPPFajEVVJbn2p23BDBYtthl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid035KHQotyMh8Khym2tvnbTrccFeC5fgbzSDhwE2HanMPB4EGzghRp2oZtwN34djkqrl&id=61595207664875",
-        "verifiedAt": "2026-10-08T15:40:16.505Z"
+        "verifiedAt": "2026-10-19"
       }
     ]
   },
@@ -23449,7 +23933,56 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02CZe8DiSa1ecS3daFvVrvCTmE6SPMvf8vahfKtLKbhFrKVkszfJXdrGwoGxHvey6bl&id=61595036942289",
+        "verifiedAt": "2026-10-19T07:15:24.508Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Deqsik7FT2p/",
+        "verifiedAt": "2026-10-19T07:15:42.090Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FMpRifUxERGCXjjXtqXZJ6RmjA73s7fQdgGpnKQ9qAK43KH9xShNC6ShLmkz1iVhl&id=61591964083308",
+        "verifiedAt": "2026-10-19T07:48:05.557Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DeqwWCdjfxC/",
+        "verifiedAt": "2026-10-19T07:48:13.479Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid059noY14hYLMAD9vK9jMNoAh7Aw2YAsmtqRHWf3mAsBPgYLqttLAAyWT4328Z6eu8l&id=61595207664875",
+        "verifiedAt": "2026-10-19T07:56:20.033Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeqxSf9mP4E/",
+        "verifiedAt": "2026-10-19T07:56:15.539Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid025izMsdF8B4FFFzLABAbEXpjJr1NnAgw4gnoEWDt5H138maaCxMVoMCVX3vWxax2tl&id=61595239823399",
+        "verifiedAt": "2026-10-19T08:01:45.124Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/Deqx8bhlmWL/",
+        "verifiedAt": "2026-10-19T08:01:46.188Z"
+      }
+    ]
   },
   "parrot-coffee-bema": {
     "id": "parrot-coffee-bema",
@@ -23584,11 +24117,11 @@
       "cs": "Pasaż Grunwaldzki"
     },
     "description": {
-      "he": "מופיע בשכבת מרכזי הקניות של מפת הקהילה.",
-      "en": "Included in the community map’s shopping-centre layer.",
-      "pl": "Znajduje się w warstwie centrów handlowych mapy społeczności.",
-      "de": "In der Einkaufszentrum-Ebene der Community-Karte enthalten.",
-      "cs": "Zahrnuto ve vrstvě nákupních center komunitní mapy."
+      "he": "מרכז קניות ואוכל בכיכר גרונדוולדזקי, עם חנויות, בתי קפה וקולנוע. נוח להגיע בתחבורה הציבורית אל תחנות הכיכר. בגלריה מוצגים הכניסה, הסביבה ופעילות יצירה שתועדה בעת ביקורנו; אין בכך הבטחה שהפעילות מתקיימת כיום. לפני ביקור ביום ראשון יש לבדוק את שעות החנויות והעסקים הפתוחים.\nPasaż Grunwaldzki\nPlac Grunwaldzki 22, Wrocław",
+      "en": "Shopping and dining centre on Grunwaldzki Square, with shops, cafés and a cinema. Public transport stops serve the square. Our gallery shows the entrance, surroundings and a craft activity recorded during our visit, not a current event promise. Check Sunday retail opening and individual venues before visiting. Address: Plac Grunwaldzki 22, Wrocław.",
+      "pl": "Centrum zakupów i gastronomii przy placu Grunwaldzkim, ze sklepami, kawiarniami i kinem. Przy placu zatrzymuje się komunikacja miejska. Galeria pokazuje wejście, otoczenie i warsztaty uchwycone podczas naszej wizyty, nie zapowiedź bieżącego wydarzenia. Przed wizytą w niedzielę sprawdź otwarcie sklepów i poszczególnych lokali. Adres: Plac Grunwaldzki 22, Wrocław.",
+      "de": "Einkaufs- und Gastronomiezentrum am Grunwaldzki-Platz mit Geschäften, Cafés und Kino. Öffentliche Verkehrsmittel halten am Platz. Unsere Galerie zeigt Eingang, Umgebung und während unseres Besuchs dokumentiertes Basteln, keine Zusage einer aktuellen Veranstaltung. Vor einem Sonntagsbesuch die Öffnung der Geschäfte und einzelnen Betriebe prüfen. Adresse: Plac Grunwaldzki 22, Wrocław.",
+      "cs": "Nákupní a gastronomické centrum na náměstí Grunwaldzki s obchody, kavárnami a kinem. Na náměstí zastavuje veřejná doprava. Galerie ukazuje vstup, okolí a tvořivou aktivitu zachycenou při naší návštěvě, nikoli příslib aktuální akce. Před nedělní návštěvou ověřte otevření obchodů a jednotlivých provozoven. Adresa: Plac Grunwaldzki 22, Wrocław."
     },
     "location": {
       "countryCode": "PL",
@@ -23597,6 +24130,12 @@
       "coordinates": {
         "lat": 51.1121562,
         "lng": 17.0597204
+      },
+      "address": {
+        "street": "Plac Grunwaldzki 22",
+        "city": "Wrocław",
+        "countryCode": "PL",
+        "postalCode": "50-363"
       }
     },
     "categories": [
@@ -23653,47 +24192,13 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://pasazgrunwaldzki.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1121562%2C17.0597204",
+        "appleMaps": "https://maps.apple.com/?ll=51.1121562,17.0597204&q=Pasa%C5%BC%20Grunwaldzki"
+      },
+      "socialProfileFallback": false
     },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZPHDnGxwvLsLVX4C75rFtnwh3o1NEqhUEYxXjsbWbkTxQPLrgkRpqiUd9d17EMQnl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "en",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Lkv7Dxp8qrQjVamvnRMPwZGAjGXuDo6JXP1dpmJdM64k3CVsMbxbc7NKz7f2vr1Rl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "de",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UPyx8f3zv9Qd5aE84HG72B1DMZf2Z8YUnxGPg8uNNNLC7eT5znDvVfpowDJ7UgHUl&id=61595239823399",
-        "verifiedAt": "2026-10-08T14:24:13.626965+00:00"
-      },
-      {
-        "language": "pl",
-        "platform": "facebook",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid08aDfzxTndg1ApvtgBy3bmZLhNFQoitGWgGmQGb35id88PtHfUsPxw5HFGRgeTqjDl&id=61595207664875",
-        "verifiedAt": "2026-10-08T16:27:57.155Z"
-      },
-      {
-        "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
-        "routingExcluded": true
-      }
-    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -23706,24 +24211,120 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-19",
+      "factualSources": [
+        {
+          "url": "https://pasazgrunwaldzki.pl/",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://pasazgrunwaldzki.pl/informacje/",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://pasazgrunwaldzki.pl/kontakt/",
+          "checked": "2026-10-19"
+        }
+      ],
+      "personalMediaPermission": false
+    },
+    "media": {
+      "thumbnail": "/assets/pasaz-refresh-oct19-01.jpg",
+      "photos": [
+        "/assets/pasaz-refresh-oct19-01.jpg",
+        "/assets/pasaz-refresh-oct19-02.jpg",
+        "/assets/pasaz-refresh-oct19-03.jpg",
+        "/assets/pasaz-refresh-oct19-04.jpg",
+        "/assets/pasaz-refresh-oct19-05.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/pasaz-refresh-oct19-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-05 at 18.26.34 (4).jpeg",
+          "sourceSHA256": "6f566c0563fa49e115c3812f02f7e693ffac83b70ef0ccab1b49034471f999b0",
+          "assetSHA256": "571ecbb54d8fa8da328bf0025bdf64eafca4b8adcc899fe07387c9e724224a81"
+        },
+        "/assets/pasaz-refresh-oct19-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-05 at 18.26.34 (6).jpeg",
+          "sourceSHA256": "cbc4eb8490f28beec1cd8d44c2165096e43011dcad6274f0ed1d8a3fc02ffb2c",
+          "assetSHA256": "d1032a897a2cd6614e848e545ea0feff56dddce77dab1102022ebbcd6213a9e3"
+        },
+        "/assets/pasaz-refresh-oct19-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-19 at 08.41.55 (1).jpeg",
+          "sourceSHA256": "07873433ee7e273bbb564369f412887b1c9ad8e10704e63d3a974d8cf30cabf3",
+          "assetSHA256": "8939e899f7c85b9f2e9533209b1f43a61bdf91df961ccc4c6725776c7b2ab7cd"
+        },
+        "/assets/pasaz-refresh-oct19-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-19 at 08.41.55 (2).jpeg",
+          "sourceSHA256": "494c2093bb69cd5e41d11fb7c6336523e5e45e66810117b263bbc439bf567ca9",
+          "assetSHA256": "86135921b78cd387c26b43fd678656584d648879bae6fd733450e9d56a8de0f4"
+        },
+        "/assets/pasaz-refresh-oct19-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-19 at 08.41.55 (7).jpeg",
+          "sourceSHA256": "8c4a2fa55ca4085639974930686e02f7a60e5059d488d49a19413dc0d9f442e7",
+          "assetSHA256": "995931c8028268b3c15472c320c907c753798ad051da44b877988df65272eec6"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZPHDnGxwvLsLVX4C75rFtnwh3o1NEqhUEYxXjsbWbkTxQPLrgkRpqiUd9d17EMQnl&id=61594716405964",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Lkv7Dxp8qrQjVamvnRMPwZGAjGXuDo6JXP1dpmJdM64k3CVsMbxbc7NKz7f2vr1Rl&id=61595036942289",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UPyx8f3zv9Qd5aE84HG72B1DMZf2Z8YUnxGPg8uNNNLC7eT5znDvVfpowDJ7UgHUl&id=61595239823399",
+        "verifiedAt": "2026-10-08T14:24:13.626965+00:00",
+        "routingExcluded": true
+      },
+      {
+        "language": "pl",
+        "platform": "facebook",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid08aDfzxTndg1ApvtgBy3bmZLhNFQoitGWgGmQGb35id88PtHfUsPxw5HFGRgeTqjDl&id=61595207664875",
+        "verifiedAt": "2026-10-08T16:27:57.155Z",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
+      }
     ]
   },
   "pedet": {
     "id": "pedet",
     "localName": "PeDeT Food Hall",
     "name": {
-      "he": "PeDeT Food Hall",
+      "he": "מתחם האוכל פדט",
       "en": "PeDeT Food Hall",
       "pl": "PeDeT Food Hall",
       "de": "PeDeT Food Hall",
       "cs": "PeDeT Food Hall"
     },
     "description": {
-      "he": "מתחם אוכל מעוצב בתוך Renoma עם מטבחים, קינוחים וקוקטיילים.",
-      "en": "A stylish food hall inside Renoma with varied cuisines, desserts and cocktails.",
-      "pl": "Stylowy food hall w Renomie z różnymi kuchniami, deserami i koktajlami.",
-      "de": "Eine stilvolle Food Hall in der Renoma mit Küchen, Desserts und Cocktails.",
-      "cs": "Stylová food hall v Renomě s různými kuchyněmi, dezerty a koktejly."
+      "he": "מתחם אוכל ובר בחלל משותף, בתוך בית הכלבו רנומה. אפשר לבחור אוכל ממטבחים שונים ולשבת יחד באזור הישיבה, או לעצור למשקה. בגלריה שלנו נראים הדוכנים, הבר והופעה חיה בזמן הביקור. תוכנית האירועים משתנה, ולכן כדאי לבדוק אותה לפני שמגיעים במיוחד להופעה.\nPeDeT Food Hall\nRenoma\nŚwidnicka 40, Wrocław",
+      "en": "A food hall and bar inside the Renoma department store, with different cuisines around a shared seating area. Our visit gallery shows food counters, the bar and a live performance. A practical indoor meal or drinks stop. Check the current programme before coming specifically for music. Address: Świdnicka 40, Wrocław.",
+      "pl": "Food hall i bar w domu towarowym Renoma, z różnymi kuchniami wokół wspólnej przestrzeni do siedzenia. Nasza galeria z wizyty pokazuje lokale gastronomiczne, bar i występ na żywo. To propozycja na posiłek lub drinka pod dachem. Przed przyjściem specjalnie na muzykę sprawdź aktualny program. Adres: Świdnicka 40, Wrocław.",
+      "de": "Food Hall und Bar im Kaufhaus Renoma, mit verschiedenen Küchen rund um einen gemeinsamen Sitzbereich. Unsere Besuchsgalerie zeigt die Gastronomie, die Bar und einen Liveauftritt. Eine Möglichkeit für eine Mahlzeit oder ein Getränk im Innenbereich. Wer eigens wegen der Musik kommt, sollte das aktuelle Programm prüfen. Adresse: Świdnicka 40, Wrocław.",
+      "cs": "Food hall a bar v obchodním domě Renoma, s různými kuchyněmi kolem společného posezení. Naše galerie z návštěvy ukazuje gastronomické provozy, bar a živé vystoupení. Zastávka na jídlo nebo nápoj pod střechou. Pokud přicházíte přímo za hudbou, ověřte si aktuální program. Adresa: Świdnicka 40, Wrocław."
     },
     "location": {
       "countryCode": "PL",
@@ -23732,6 +24333,12 @@
       "coordinates": {
         "lat": 51.1037104,
         "lng": 17.0324564
+      },
+      "address": {
+        "street": "Świdnicka 40",
+        "city": "Wrocław",
+        "postalCode": "50-024",
+        "countryCode": "PL"
       }
     },
     "categories": [
@@ -23742,7 +24349,11 @@
     "sourceUrls": [
       "https://www.facebook.com/61591964083308/posts/122108686497398802/"
     ],
-    "aliases": [],
+    "aliases": [
+      "PEDET",
+      "PeDeT",
+      "PeDeT Renoma"
+    ],
     "sourceRecords": [
       {
         "productId": "lifestyle-guide",
@@ -23790,11 +24401,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://renoma-wroclaw.pl/pedet/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1037104%2C17.0324564",
+        "appleMaps": "https://maps.apple.com/?ll=51.1037104,17.0324564&q=PeDeT%20Food%20Hall"
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -23813,7 +24425,35 @@
       "contentType": "personal-visit",
       "personalVisit": true,
       "originalPhotography": true,
-      "originalVideo": true
+      "originalVideo": true,
+      "verifiedAt": "2026-10-19",
+      "factualSources": [
+        {
+          "url": "https://renoma-wroclaw.pl/pedet/",
+          "checked": "2026-10-19",
+          "supports": [
+            "food hall,bar,music/events",
+            "current programme link, historically dated events not treated as current"
+          ]
+        },
+        {
+          "url": "https://renoma-wroclaw.pl/",
+          "checked": "2026-10-19",
+          "supports": [
+            "Świdnicka40 address",
+            "Renoma building"
+          ]
+        },
+        {
+          "url": "https://renoma-wroclaw.pl/godziny-otwarcia/",
+          "checked": "2026-10-19",
+          "supports": [
+            "food vendors MonThu11-21,FriSat11-22,Sun11-21",
+            "bar MonThu11-23,FriSat11-01,Sun11-23"
+          ]
+        }
+      ],
+      "personalMediaPermission": false
     },
     "media": {
       "photos": [
@@ -23844,120 +24484,165 @@
           "heroCandidate": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.34 (1).jpeg",
           "alt": {
-            "he": "מבט רחב על חלל הישיבה ב־PeDeT",
-            "en": "Wide view of the PeDeT seating area"
+            "he": "מבט רחב על אזור הישיבה במתחם האוכל",
+            "en": "Wide view of the food hall seating area",
+            "pl": "Szeroki widok strefy siedzącej food hallu",
+            "de": "Weitblick über den Sitzbereich der Food Hall",
+            "cs": "Celkový pohled na posezení ve food hallu"
           }
         },
         "/assets/pedet-02.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.36.jpeg",
           "alt": {
-            "he": "הבר והשולחן המרכזי ב־PeDeT",
-            "en": "The bar and communal table at PeDeT"
+            "he": "הבר והשולחן המשותף במתחם האוכל",
+            "en": "Bar and communal table in the food hall",
+            "pl": "Bar i wspólny stół w food hallu",
+            "de": "Bar und Gemeinschaftstisch in der Food Hall",
+            "cs": "Bar a společný stůl ve food hallu"
           }
         },
         "/assets/pedet-03.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.40 (1).jpeg",
           "alt": {
-            "he": "אורחים והופעה חיה ב־PeDeT",
-            "en": "Guests and live music at PeDeT"
+            "he": "אזור הישיבה והופעה חיה בזמן ביקורנו",
+            "en": "Seating area and live performance during our visit",
+            "pl": "Strefa siedząca i występ na żywo podczas naszej wizyty",
+            "de": "Sitzbereich und Liveauftritt während unseres Besuchs",
+            "cs": "Posezení a živé vystoupení během naší návštěvy"
           }
         },
         "/assets/pedet-04.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.42 (2).jpeg",
           "alt": {
-            "he": "נגן גיטרה מול שלט PeDeT",
-            "en": "Guitarist in front of the PeDeT sign"
+            "he": "גיטריסט מול השלט המואר של המתחם",
+            "en": "Guitarist in front of the illuminated PeDeT sign",
+            "pl": "Gitarzysta przed podświetlonym napisem PeDeT",
+            "de": "Gitarrist vor dem beleuchteten PeDeT-Schriftzug",
+            "cs": "Kytarista před osvětleným nápisem PeDeT"
           }
         },
         "/assets/pedet-05.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.42 (1).jpeg",
           "alt": {
-            "he": "במה קטנה ושלט PeDeT מואר",
-            "en": "Small stage and illuminated PeDeT sign"
+            "he": "מבט נוסף על הבמה הקטנה במתחם",
+            "en": "Another view of the small stage",
+            "pl": "Kolejny widok niewielkiej sceny",
+            "de": "Weiterer Blick auf die kleine Bühne",
+            "cs": "Další pohled na malou scénu"
           }
         },
         "/assets/pedet-06.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.41.jpeg",
           "alt": {
-            "he": "דוכן אוכל בתוך מתחם PeDeT",
-            "en": "Food stall inside PeDeT"
+            "he": "שלט דוכן האוכל האיטלקי במתחם",
+            "en": "Italian food counter sign in the food hall",
+            "pl": "Szyld włoskiego lokalu gastronomicznego",
+            "de": "Schild des italienischen Gastronomiestands",
+            "cs": "Označení italského gastronomického stánku"
           }
         },
         "/assets/pedet-07.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.41 (1).jpeg",
           "alt": {
-            "he": "שורת דוכני אוכל ב־PeDeT",
-            "en": "Row of food stalls at PeDeT"
+            "he": "שורת דוכני אוכל ומעבר פנימי",
+            "en": "Row of food counters and interior walkway",
+            "pl": "Rząd lokali gastronomicznych i wewnętrzne przejście",
+            "de": "Reihe der Gastronomiestände und innerer Durchgang",
+            "cs": "Řada gastronomických stánků a vnitřní průchod"
           }
         },
         "/assets/pedet-08.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.41 (2).jpeg",
           "alt": {
-            "he": "מעבר בין דוכני האוכל ב־PeDeT",
-            "en": "Walkway between PeDeT food stalls"
+            "he": "מבט לאורך המעבר בין דוכני האוכל",
+            "en": "View along the passage between food counters",
+            "pl": "Widok wzdłuż przejścia między lokalami",
+            "de": "Blick entlang des Gangs zwischen den Gastronomieständen",
+            "cs": "Pohled podél průchodu mezi gastronomickými stánky"
           }
         },
         "/assets/pedet-09.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.56.42.jpeg",
           "alt": {
-            "he": "שלט הכניסה למתחם PeDeT",
-            "en": "PeDeT entrance sign"
+            "he": "השלט בכניסה למתחם האוכל",
+            "en": "Sign at the food hall entrance",
+            "pl": "Napis przy wejściu do food hallu",
+            "de": "Schriftzug am Eingang zur Food Hall",
+            "cs": "Nápis u vstupu do food hallu"
           }
         },
         "/assets/pedet-10.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.34 (2).jpeg",
           "alt": {
-            "he": "שולחן משותף ומקומות ישיבה ב־PeDeT",
-            "en": "Communal table and seating at PeDeT"
+            "he": "השולחן המשותף והישיבה לאורך המתחם",
+            "en": "Communal table and seating along the food hall",
+            "pl": "Wspólny stół i miejsca do siedzenia w food hallu",
+            "de": "Gemeinschaftstisch und Sitzplätze entlang der Food Hall",
+            "cs": "Společný stůl a posezení podél food hallu"
           }
         },
         "/assets/pedet-11.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.34 (3).jpeg",
           "alt": {
-            "he": "דוכן אוכל במתחם Renoma ליד PeDeT",
-            "en": "Food stall in Renoma near PeDeT"
+            "he": "חזית מסעדה סמוכה במתחם רנומה",
+            "en": "Front of a neighbouring restaurant in Renoma",
+            "pl": "Front sąsiedniej restauracji w Renomie",
+            "de": "Front eines benachbarten Restaurants in der Renoma",
+            "cs": "Průčelí sousední restaurace v Renomě"
           }
         },
         "/assets/pedet-12.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.35 (1).jpeg",
           "alt": {
-            "he": "לוגו PeDeT על קיר",
-            "en": "PeDeT logo on a wall"
+            "he": "סמל המתחם על הקיר",
+            "en": "PeDeT logo on the wall",
+            "pl": "Logo PeDeT na ścianie",
+            "de": "PeDeT-Logo an der Wand",
+            "cs": "Logo PeDeT na stěně"
           }
         },
         "/assets/pedet-13.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.35.jpeg",
           "alt": {
-            "he": "שלט PeDeT על קיר אפור",
-            "en": "PeDeT lettering on a grey wall"
+            "he": "שם מתחם האוכל על קיר אפור",
+            "en": "Food hall name on a grey wall",
+            "pl": "Nazwa food hallu na szarej ścianie",
+            "de": "Name der Food Hall an einer grauen Wand",
+            "cs": "Název food hallu na šedé stěně"
           }
         },
         "/assets/pedet-14.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.40 (2).jpeg",
           "alt": {
-            "he": "הבר ואזור הישיבה ב־PeDeT",
-            "en": "Bar and seating area at PeDeT"
+            "he": "הבר ואזור הישיבה בשעת הביקור",
+            "en": "Bar and seating area during our visit",
+            "pl": "Bar i strefa siedząca podczas naszej wizyty",
+            "de": "Bar und Sitzbereich während unseres Besuchs",
+            "cs": "Bar a posezení během naší návštěvy"
           }
         },
         "/assets/pedet-15.jpg": {
           "original": true,
           "sourceFile": "WhatsApp Image 2026-09-25 at 12.57.40.jpeg",
           "alt": {
-            "he": "אורחים ליד הבר של PeDeT",
-            "en": "Guests by the PeDeT bar"
+            "he": "מבט נוסף לאורך הבר ואזור הישיבה",
+            "en": "Another view along the bar and seating area",
+            "pl": "Kolejny widok baru i strefy siedzącej",
+            "de": "Weiterer Blick entlang der Bar und des Sitzbereichs",
+            "cs": "Další pohled podél baru a posezení"
           }
         },
         "/assets/video-pedet-01.mp4": {
@@ -23979,55 +24664,64 @@
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Yegs3zyk229PCi2BWLpgwKB4BC8M7cGDwtomZv5hksFxAfcv4T52eQGCt8kA92jel&id=61595207664875",
-        "verifiedAt": "2026-10-06T23:14:57.941919+00:00"
+        "verifiedAt": "2026-10-06T23:14:57.941919+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02A2RFEkpm8mGAndBWrRCtgE2ErkTFUA31KZEihnMrC3KZAMabHW8bZpxNFnUEXYykl&id=61595239823399",
-        "verifiedAt": "2026-10-07T14:17:09.335766+00:00"
+        "verifiedAt": "2026-10-07T14:17:09.335766+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMjEb6FO-Z/",
-        "verifiedAt": "2026-10-07T14:17:09.335766+00:00"
+        "verifiedAt": "2026-10-07T14:17:09.335766+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid034fiT8BLtL7iEV4Y5tHyLroNpAX4btjbERsJ772utbiiQaQ7qk5NrpQUNwyTet47Jl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid028jwLAY6TzJhVXEutJCeCVyGdc81NNtP7mjtj1bfvwLgjuTxHZxVEpiNLPyFv59C7l&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/p/DePRHIWjEqw/",
-        "verifiedAt": "2026-10-08"
+        "verifiedAt": "2026-10-08",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeRCa4AjODJ/",
-        "verifiedAt": "2026-10-09T08:05:35.568Z"
+        "verifiedAt": "2026-10-09T08:05:35.568Z",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid09HB4rfQaHmxjeBz4kJtNdgX5eKnjbboW2hdW9qUhB5vWVvBCYxh9nAsumMNVZQf5l&id=61591964083308",
-        "verifiedAt": "2026-10-09T19:11:25.733Z"
+        "verifiedAt": "2026-10-09T19:11:25.733Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeUATwilaWF/",
-        "verifiedAt": "2026-10-10T11:46:00.592Z"
+        "verifiedAt": "2026-10-10T11:46:00.592Z",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
@@ -24047,11 +24741,11 @@
       "cs": "Vratislavská pergola"
     },
     "description": {
-      "he": "טיילת אדריכלית מוצלת ועטופה בצמחייה ליד אולם המאה, המתאימה להליכה רגועה ולמנוחה בין האתרים שבאזור.",
-      "en": "A shaded, plant-covered architectural promenade beside Centennial Hall, ideal for a relaxed walk and a pause between nearby sights.",
-      "pl": "Zacieniona, porośnięta zielenią promenada architektoniczna przy Hali Stulecia, dobra na spokojny spacer i odpoczynek między pobliskimi atrakcjami.",
-      "de": "Eine schattige, begrünte Architekturpromenade an der Jahrhunderthalle – ideal für einen ruhigen Spaziergang und eine Pause zwischen den Sehenswürdigkeiten der Umgebung.",
-      "cs": "Stinná architektonická promenáda porostlá zelení u Haly století, vhodná ke klidné procházce a odpočinku mezi okolními památkami."
+      "he": "טיילת עמודים מקושתת בתכנון הנס פֶּלציג, בצדו הצפון־מזרחי של היכל המאה. הצמחייה המטפסת יוצרת צל ומסגרת לתצפית אל בריכת המזרקה. מקום להליכה רגועה בין אתרי המתחם. הגישה חופשית בכפוף למגבלות אירועים; בדקו עדכונים לפני הביקור.",
+      "en": "Hans Poelzig designed this curved colonnade northeast of Centennial Hall. Climbing greenery shades the promenade and frames views towards the fountain basin. It makes a relaxed walking stop between nearby sights. Public access is free, subject to event restrictions; check current notices.",
+      "pl": "Łukowata kolumnada projektu Hansa Poelziga leży na północny wschód od Hali Stulecia. Pnącza ocieniają promenadę i obramowują widok na nieckę fontanny. To spokojny przystanek między pobliskimi atrakcjami. Wstęp jest bezpłatny, z możliwymi ograniczeniami podczas wydarzeń; sprawdź aktualne komunikaty.",
+      "de": "Hans Poelzig entwarf diese geschwungene Säulenpromenade nordöstlich der Jahrhunderthalle. Kletterpflanzen spenden Schatten und rahmen den Blick zum Brunnenbecken. Ein ruhiger Zwischenstopp beim Spaziergang durch das Gelände. Der öffentliche Zugang ist kostenlos, kann bei Veranstaltungen aber eingeschränkt sein; aktuelle Hinweise beachten.",
+      "cs": "Zakřivenou sloupovou promenádu severovýchodně od Haly století navrhl Hans Poelzig. Popínavé rostliny poskytují stín a rámují výhled k nádrži fontány. Hodí se ke klidné zastávce mezi okolními památkami. Veřejný vstup je bezplatný, při akcích však může být omezen; ověřte aktuální oznámení."
     },
     "location": {
       "countryCode": "PL",
@@ -24063,9 +24757,9 @@
       },
       "address": {
         "street": "Wystawowa 1",
-        "postalCode": "51-618",
         "city": "Wrocław",
-        "country": "Poland"
+        "countryCode": "PL",
+        "postalCode": "51-618"
       }
     },
     "categories": [
@@ -24140,11 +24834,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://halastulecia.pl/zwiedzanie/pergola/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10882%2C17.07762",
         "appleMaps": "https://maps.apple.com/?ll=51.10882,17.07762&q=Pergola%20Wroc%C5%82awska"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -24163,15 +24858,45 @@
       "contentType": "personal-visit",
       "personalVisit": true,
       "originalContent": true,
-      "originalPhotography": true
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-19",
+      "factualSources": [
+        {
+          "url": "https://halastulecia.pl/zwiedzanie/pergola/",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "Hans Poelzig",
+            "northeast of Hall",
+            "curved colonnade",
+            "climbing greenery"
+          ]
+        },
+        {
+          "url": "https://www.halastulecia.pl/wp-content/uploads/2020/12/HS_regulamin_pergoli_www.pdf",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "address",
+            "free public access",
+            "event restrictions"
+          ]
+        }
+      ],
+      "personalMediaPermission": false
     },
     "media": {
       "photos": [
         "/assets/pergola-wroclawska-01.jpg",
-        "/assets/pergola-wroclawska-02.jpg",
-        "/assets/pergola-wroclawska-03.jpg"
+        "/assets/pergola-wroclawska-04.jpg",
+        "/assets/pergola-wroclawska-05.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/shorts/rWgg4GMPnLM",
+        "https://youtube.com/shorts/zjWtn3ecZb8",
+        "https://youtube.com/shorts/LpABCG98A30",
+        "https://youtube.com/shorts/2JEVLuDY4cc",
+        "https://youtube.com/shorts/gSVC14ucEB4",
+        "https://youtube.com/shorts/WFQyRKD66YQ"
+      ],
       "metadata": {
         "/assets/pergola-wroclawska-01.jpg": {
           "tags": [
@@ -24184,25 +24909,17 @@
           "heroCandidate": true,
           "sourceFile": "IMG_5068.JPG"
         },
-        "/assets/pergola-wroclawska-02.jpg": {
-          "tags": [
-            "pergola",
-            "architecture",
-            "greenery",
-            "promenade"
-          ],
+        "/assets/pergola-wroclawska-04.jpg": {
           "original": true,
-          "sourceFile": "IMG_5073.JPG"
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5811.JPG",
+          "sourceSHA256": "f417d7567f216609609bdc7b8c522e1101bab9f7f5e35662f974a3d6cc3e206b",
+          "assetSHA256": "418ceaa0d04f859b41f8714cdc5a6a0b68603471b8d7995cfe650ee3ce95b522"
         },
-        "/assets/pergola-wroclawska-03.jpg": {
-          "tags": [
-            "pergola",
-            "architecture",
-            "greenery",
-            "visitor-experience"
-          ],
+        "/assets/pergola-wroclawska-05.jpg": {
           "original": true,
-          "sourceFile": "IMG_5074.JPG"
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5813.JPG",
+          "sourceSHA256": "a0b3b27b810e68ba9bd91e0d5bc0cfca1fbb218d39457cdd5f65a539764818e7",
+          "assetSHA256": "35d4141c2fcfaea2cc24e44dcef80b25ab3ad1fced76486e477c690e1a8a5b91"
         }
       }
     },
@@ -24211,55 +24928,55 @@
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PBubtq5LoHRZqauEt2AxHHKPjbGjNhXShCarFr5ogphMk9iHW8vfEF9TfE2F47mdl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeK81I8Dq1T/",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Na5vs8d6rwMAA36q35BkKgcUEwnh5RDVkMKgpGQ2xdT5z8SSiFig3gqkMSsG8i3Vl&id=61595239823399",
-        "verifiedAt": "2026-10-06T23:21:49.553281+00:00"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02vNkfpPrKx9P9izcQjcpP1SNoaq9tXZEWDxnNCEz32yLTC7wAaDJ7V6bU836zHiDml&id=61595207664875",
-        "verifiedAt": "2026-10-07T00:05:33.503827+00:00"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeLBl7ajYMt/",
-        "verifiedAt": "2026-10-07T00:05:33.503827+00:00"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMa3xtDvbr/",
-        "verifiedAt": "2026-10-07T13:03:39.472349+00:00"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Mzn17KRqi5sJhmoVc5hmDy7JAoKDERNTXrnmPReC7miwDF9D4WDY4YcZycdWgVdJl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMqvYBj5jO/",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0dgwGcWr9XoWXfW5GRqkXRUEdQ1ZArZ8ykio6KKCQi8tRLzLNjFap26ed7TvSuUMKl&id=61591964083308",
-        "verifiedAt": "2026-10-09T20:04:09.107Z"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
@@ -25558,18 +26275,18 @@
     "id": "renoma",
     "localName": "Renoma",
     "name": {
-      "he": "Renoma",
-      "en": "Renoma",
-      "pl": "Renoma",
-      "de": "Renoma",
-      "cs": "Renoma"
+      "he": "מרכז הקניות רנומה",
+      "en": "Renoma Department Store",
+      "pl": "Dom Handlowy Renoma",
+      "de": "Kaufhaus Renoma",
+      "cs": "Obchodní dům Renoma"
     },
     "description": {
-      "he": "מרכז קטן ואדריכלי יותר עם חנויות אופנה, בתי קפה ומבנה שהוא חלק מהביקור.",
-      "en": "A smaller, more architectural centre with fashion, cafés and a building that is part of the experience.",
-      "pl": "Mniejsze, bardziej architektoniczne centrum z modą, kawiarniami i budynkiem wartym obejrzenia.",
-      "de": "Ein kleineres, architektonisch besonderes Zentrum mit Mode, Cafés und sehenswerter Fassade.",
-      "cs": "Menší architektonicky výrazné centrum s módou, kavárnami a budovou, která stojí za návštěvu."
+      "he": "בית הכלבו רנומה נפתח ב־1930 ומציע כיום קניות ואוכל במבנה מודרניסטי ייחודי. כדאי להביט בחזית המעוגלת, באריחים ובעיטורי ראשי האדם, וגם בחלל הפנימי ובנברשות. מתחם האוכל פדט נמצא בתוכו, אך הוא נקודה נפרדת במפה. שעות החנויות והמסעדות שונות, וביום ראשון יש לבדוק אם החנויות פתוחות.\nRenoma\nŚwidnicka 40, Wrocław",
+      "en": "Opened in 1930, Renoma combines shopping and dining with distinctive modernist architecture. Look at the curved façade, tiles and sculpted portrait heads, then the interior and chandeliers. PeDeT Food Hall is inside but has its own map point. Shops and restaurants have different hours; check Sunday retail opening before visiting. Address: Świdnicka 40, Wrocław.",
+      "pl": "Otwarta w 1930 roku Renoma łączy zakupy i gastronomię z charakterystyczną architekturą modernistyczną. Warto obejrzeć zaokrągloną elewację, płytki i rzeźbiarskie głowy, a także wnętrze i żyrandole. PeDeT znajduje się wewnątrz, ale ma osobny punkt na mapie. Sklepy i gastronomia mają różne godziny; sprawdź handel w niedzielę. Adres: Świdnicka 40, Wrocław.",
+      "de": "Die 1930 eröffnete Renoma verbindet Einkauf und Gastronomie mit markanter modernistischer Architektur. Sehenswert sind die geschwungene Fassade, Fliesen und Porträtköpfe sowie Innenraum und Kronleuchter. Die PeDeT Food Hall liegt im Gebäude, hat jedoch einen eigenen Kartenpunkt. Geschäfte und Gastronomie haben unterschiedliche Zeiten; die Sonntagsöffnung vorher prüfen. Adresse: Świdnicka 40, Wrocław.",
+      "cs": "Renoma, otevřená v roce 1930, spojuje nakupování a gastronomii s výraznou modernistickou architekturou. Prohlédněte si zaoblenou fasádu, obklady a sochařské hlavy, také interiér a lustry. PeDeT je uvnitř, ale má vlastní bod na mapě. Obchody a gastronomie mají odlišné hodiny; ověřte si nedělní otevření obchodů. Adresa: Świdnicka 40, Wrocław."
     },
     "location": {
       "countryCode": "PL",
@@ -25578,6 +26295,12 @@
       "coordinates": {
         "lat": 51.1038569,
         "lng": 17.0319662
+      },
+      "address": {
+        "street": "Świdnicka 40",
+        "city": "Wrocław",
+        "countryCode": "PL",
+        "postalCode": "50-024"
       }
     },
     "categories": [
@@ -25673,83 +26396,13 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://renoma-wroclaw.pl/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1038569%2C17.0319662",
+        "appleMaps": "https://maps.apple.com/?ll=51.1038569,17.0319662&q=Renoma"
+      },
+      "socialProfileFallback": false
     },
-    "media": {
-      "photos": [
-        "/assets/gallery-renoma-01.jpg",
-        "/assets/gallery-renoma-02.jpg",
-        "/assets/gallery-renoma-03.jpg",
-        "/assets/gallery-renoma-04.jpg",
-        "/assets/gallery-renoma-05.jpg"
-      ],
-      "videos": []
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "language": "pl",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0TRrAY16heWNSiP5iDDzcAwhSKLi7Hu6cUn2NT15wMBUzKL2Pu5FGAA8h3u5tjKpYl&id=61595207664875",
-        "verifiedAt": "2026-10-06T23:21:52.803528+00:00"
-      },
-      {
-        "platform": "facebook",
-        "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02yE6dPEX7WGCb8Fou82HrK1fWqpagf1L1az57vRSFp6F5K23tZM7yiCYwXcHqX9Lpl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "instagram",
-        "language": "cs",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMoMKgDmiX/",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "en",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0a1KW7A2aHNKgpXgheWtWeHpCcDQD6injwUUCuDktDeZu7dFinCh7gKspQFGRBVNVl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "instagram",
-        "language": "pl",
-        "url": "https://www.instagram.com/p/DePSGrFAKmY/",
-        "verifiedAt": "2026-10-08T15:44:44.092Z"
-      },
-      {
-        "platform": "instagram",
-        "language": "en",
-        "url": "https://www.instagram.com/p/DeRG3F0FyOF/",
-        "verifiedAt": "2026-10-09T08:44:42.572Z"
-      },
-      {
-        "platform": "facebook",
-        "language": "de",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02P8JcXrq2697rvposrx8KMvfzoVW3wuxk6cumAYsunoffRzsZrq7GBgixJFDfyJNLl&id=61595239823399",
-        "verifiedAt": "2026-10-10T14:49:02.619Z"
-      },
-      {
-        "platform": "instagram",
-        "language": "de",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUYdZtDATM/",
-        "verifiedAt": "2026-10-10T15:18:10.572293+00:00"
-      },
-      {
-        "platform": "instagram",
-        "language": "he",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUu8FTkUSS/",
-        "verifiedAt": "2026-10-10T18:32:08.208Z"
-      },
-      {
-        "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
-        "routingExcluded": true
-      }
-    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -25762,6 +26415,191 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-19",
+      "factualSources": [
+        {
+          "url": "https://renoma-wroclaw.pl/o-renomie/",
+          "checked": "2026-10-19",
+          "facts": [
+            "Opened2April1930",
+            "sculptedportraitheads",
+            "restoredceramicfacade"
+          ]
+        },
+        {
+          "url": "https://renoma-wroclaw.pl/press/great-return-of-fashion-brands-to-renoma/?lang=en",
+          "checked": "2026-10-19",
+          "facts": [
+            "Historicalopening1930",
+            "modernistarchitecture",
+            "HermannDernburg"
+          ],
+          "historicalPressRelease": true
+        },
+        {
+          "url": "https://renoma-wroclaw.pl/",
+          "checked": "2026-10-19",
+          "facts": [
+            "AddressŚwidnicka40",
+            "parkingCzysta",
+            "buildingaccessibility"
+          ]
+        },
+        {
+          "url": "https://renoma-wroclaw.pl/godziny-otwarcia/",
+          "checked": "2026-10-19",
+          "facts": [
+            "ShoppingMonSat9-21,tradingSun10-20",
+            "Separatefoodhours"
+          ]
+        }
+      ],
+      "personalMediaPermission": false
+    },
+    "media": {
+      "thumbnail": "/assets/renoma-refresh-oct19-07.jpg",
+      "photos": [
+        "/assets/gallery-renoma-01.jpg",
+        "/assets/gallery-renoma-02.jpg",
+        "/assets/renoma-refresh-oct19-01.jpg",
+        "/assets/renoma-refresh-oct19-02.jpg",
+        "/assets/renoma-refresh-oct19-03.jpg",
+        "/assets/renoma-refresh-oct19-04.jpg",
+        "/assets/renoma-refresh-oct19-05.jpg",
+        "/assets/renoma-refresh-oct19-06.jpg",
+        "/assets/renoma-refresh-oct19-07.jpg",
+        "/assets/renoma-refresh-oct19-08.jpg",
+        "/assets/renoma-refresh-oct19-09.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/renoma-refresh-oct19-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-01 at 09.28.23 (3).jpeg",
+          "sourceSHA256": "bafffd042f04ff15644c34cb8f1c47c39f8d9002e3825eb04450fcf2364a4bd2",
+          "assetSHA256": "dd1adb38b0d23ba257a6f20f9cef719930fefa1988c3b1d6cfe038521a149f86"
+        },
+        "/assets/renoma-refresh-oct19-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-01 at 09.28.23 (4).jpeg",
+          "sourceSHA256": "49b1e9c6f45d691a087841a131eeaf7aca78cddd3b4abd5a3f6ade2b1da51948",
+          "assetSHA256": "c89f64badd0194cde0b0e1e37b5dfb75928f03672cf849751a4d1bd8d50233af"
+        },
+        "/assets/renoma-refresh-oct19-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-05 at 18.26.39 (4).jpeg",
+          "sourceSHA256": "b4787817263dec9a8f12baf1650893b22ca234124055ee1af5a8f27aba20af8d",
+          "assetSHA256": "bf5e279ef5a8d0231e8eaf01c8cc1b986cdef932806c3d99e9b840e9d2b144d8"
+        },
+        "/assets/renoma-refresh-oct19-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-05 at 18.27.38 (5).jpeg",
+          "sourceSHA256": "0d709a1424d9a54ceebe3bebf942b013682ed71bf274252cdcc85e01438b9e9e",
+          "assetSHA256": "bc0dc7dfc8c4c99af2d40f8460fa0490b37a5daf429aa4eb908af2f3569503ca"
+        },
+        "/assets/renoma-refresh-oct19-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (2).jpeg",
+          "sourceSHA256": "7875d9764f2e26d063d39c79f2e4c95571e9f69f7a6bd25f4686aebee7e4523a",
+          "assetSHA256": "e488b674943e1a124532739ca24ae40f101362325caf8e79563d33f188a68832"
+        },
+        "/assets/renoma-refresh-oct19-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (6).jpeg",
+          "sourceSHA256": "f9b430d1f78e1a4698879223ba27b99101b5dcf01aeddbe8fe8683bdf812338f",
+          "assetSHA256": "88786e5d61d8a3fdb417b72c5ff2896b3583105801c2abcfb01c0a334563c2c8"
+        },
+        "/assets/renoma-refresh-oct19-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (8).jpeg",
+          "sourceSHA256": "614b1eb301f776e00e652f2d10db057c756ba57e4e4170ad45535f7f68062af2",
+          "assetSHA256": "79a83ec030a55ec2b0c35970299bdc954607b812b26405ef053c661bd8a8f322"
+        },
+        "/assets/renoma-refresh-oct19-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (11).jpeg",
+          "sourceSHA256": "736c92c6d34c0c30cf73924e75f0504b14add10097c078325b10af14bf559393",
+          "assetSHA256": "d4590ad4c2a44bf336ca3b9d3b32655ba14dee712b1142d1192812fc526231a6"
+        },
+        "/assets/renoma-refresh-oct19-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24.jpeg",
+          "sourceSHA256": "5816425c1615aad0c61a03bf4e4d96f5d2cc63ee46d14cec5ce55c940e8f3d01",
+          "assetSHA256": "307123435e659eb5bfcaf3a66f34876393415df3841a6972b8b8da235ee87f2a"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0TRrAY16heWNSiP5iDDzcAwhSKLi7Hu6cUn2NT15wMBUzKL2Pu5FGAA8h3u5tjKpYl&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:21:52.803528+00:00",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02yE6dPEX7WGCb8Fou82HrK1fWqpagf1L1az57vRSFp6F5K23tZM7yiCYwXcHqX9Lpl&id=61594716405964",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMoMKgDmiX/",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0a1KW7A2aHNKgpXgheWtWeHpCcDQD6injwUUCuDktDeZu7dFinCh7gKspQFGRBVNVl&id=61595036942289",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DePSGrFAKmY/",
+        "verifiedAt": "2026-10-08T15:44:44.092Z",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRG3F0FyOF/",
+        "verifiedAt": "2026-10-09T08:44:42.572Z",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02P8JcXrq2697rvposrx8KMvfzoVW3wuxk6cumAYsunoffRzsZrq7GBgixJFDfyJNLl&id=61595239823399",
+        "verifiedAt": "2026-10-10T14:49:02.619Z",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUYdZtDATM/",
+        "verifiedAt": "2026-10-10T15:18:10.572293+00:00",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUu8FTkUSS/",
+        "verifiedAt": "2026-10-10T18:32:08.208Z",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
+        "routingExcluded": true
+      }
     ]
   },
   "restauracja-tarasowa": {
@@ -26043,11 +26881,11 @@
       "cs": "Vratislavské náměstí"
     },
     "description": {
-      "he": "הלב של העיר העתיקה ונקודת פתיחה מצוינת. טיילו בין הבניינים הצבעוניים, עברו ליד בית העירייה וחפשו את הגמדים המפורסמים.",
-      "en": "The heart of the Old Town and an excellent starting point. Walk among the colourful façades, pass the Town Hall and look for the city’s famous dwarfs.",
-      "pl": "Serce Starego Miasta i doskonały punkt startowy. Przejdź wśród kolorowych kamienic, obok Ratusza i poszukaj słynnych krasnali.",
-      "de": "Das Herz der Altstadt und ein hervorragender Ausgangspunkt. Spazieren Sie zwischen den farbenfrohen Fassaden entlang, passieren Sie das Rathaus und halten Sie Ausschau nach den berühmten Zwergen der Stadt.",
-      "cs": "Srdce Starého Města a vynikající výchozí bod. Projděte se mezi barevnými fasádami, projděte kolem radnice a hledejte slavné trpaslíky města."
+      "he": "כיכר השוק היא לב העיר העתיקה, מוקפת חזיתות צבעוניות, בתי קפה וסמטאות. הביקור שלנו כולל מבטים על הבתים, מזרקת הזכוכית והכיכר בשעות שונות. בית העירייה העתיק מופיע גם כנקודה נפרדת. הדוכנים והאירועים שבתיעוד הם מביקורים קודמים ואינם פעילות קבועה.",
+      "en": "The Market Square is the heart of the Old Town, surrounded by colourful façades, cafés and side streets. Our visit views show its buildings, glass fountain and changing atmosphere. The Old Town Hall has a separate point. Recorded stalls and events are historical, not permanent fixtures.",
+      "pl": "Rynek jest sercem Starego Miasta, otoczonym kolorowymi kamienicami, kawiarniami i bocznymi uliczkami. Nasze zdjęcia pokazują fasady, szklaną fontannę i atmosferę różnych pór dnia. Stary Ratusz ma osobny punkt. Utrwalone stoiska i wydarzenia pochodzą z dawnych wizyt, nie są stałą ofertą.",
+      "de": "Der Marktplatz bildet das Herz der Altstadt, umgeben von farbigen Fassaden, Cafés und Seitenstraßen. Unsere Aufnahmen zeigen Häuser, Glasbrunnen und wechselnde Stimmungen. Das Alte Rathaus hat einen eigenen Kartenpunkt. Abgebildete Stände und Veranstaltungen stammen von früheren Besuchen und sind kein dauerhaftes Angebot.",
+      "cs": "Rynek je srdcem Starého Města, obklopeným barevnými domy, kavárnami a bočními uličkami. Naše snímky ukazují fasády, skleněnou fontánu a proměny atmosféry. Stará radnice má samostatný bod. Zachycené stánky a akce pocházejí z dřívějších návštěv a nejsou stálou nabídkou."
     },
     "location": {
       "countryCode": "PL",
@@ -26147,102 +26985,13 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://visitwroclaw.eu/en/atrakcje/market-square-and-town-hall/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10932%2C17.03167",
+        "appleMaps": "https://maps.apple.com/?ll=51.10932,17.03167&q=Rynek%20Wroc%C5%82aw"
+      },
+      "socialProfileFallback": false
     },
-    "media": {
-      "photos": [
-        "/assets/rynek-market-square.jpg",
-        "/assets/old-town-hall-wroclaw.jpg"
-      ],
-      "videos": [
-        {
-          "src": "/assets/video-rynek-fountains.mp4",
-          "title": {
-            "he": "המזרקות בכיכר השוק",
-            "en": "Market Square fountains",
-            "pl": "Fontanny na Rynku",
-            "de": "Brunnen auf dem Marktplatz",
-            "cs": "Fontány na Rynku"
-          }
-        },
-        {
-          "src": "/assets/video-rynek-cinema.mp4",
-          "title": {
-            "he": "קולנוע פתוח בכיכר",
-            "en": "Open-air cinema in the square",
-            "pl": "Kino plenerowe na Rynku",
-            "de": "Open-Air-Kino auf dem Marktplatz",
-            "cs": "Letní kino na náměstí"
-          }
-        }
-      ]
-    },
-    "socialPosts": [
-      {
-        "platform": "instagram",
-        "language": "pl",
-        "url": "https://www.instagram.com/p/DeKYP2JFY-c/",
-        "verifiedAt": "2026-10-06"
-      },
-      {
-        "platform": "facebook",
-        "language": "pl",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02r7cQXktM43CrwyNJ1R5vvRSjEg5mf7J5Ed4x6kFCQP9iHiDfDG7bM6kHeckNAs6bl&id=61595207664875",
-        "verifiedAt": "2026-10-06"
-      },
-      {
-        "platform": "facebook",
-        "language": "de",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0KeheAnHiYwKPBqobsFupCg6PbrbjFSttmhaKYJF1NAjUZqNb1mZq1RrNm4xTfhWql&id=61595239823399",
-        "verifiedAt": "2026-10-06"
-      },
-      {
-        "platform": "instagram",
-        "language": "de",
-        "url": "https://www.instagram.com/p/DeKgn3cFf66/",
-        "verifiedAt": "2026-10-06"
-      },
-      {
-        "platform": "facebook",
-        "language": "en",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FkkD9Tk1kqxigyX8Dr8T4VSjwfRvUcrhgg8T7SYKEsfAE4C4oPoMrgJATUVEwm4ol&id=61595036942289",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "instagram",
-        "language": "en",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKxgIVEf4_/",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "instagram",
-        "language": "cs",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeK0ECXAFUv/",
-        "verifiedAt": "2026-10-06T22:10:26.054724+00:00"
-      },
-      {
-        "platform": "facebook",
-        "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02g2uAzg2zZWEJU8mHXJo4SWHWMnQM9hQiWjqsbJKCq4xMbgagFoXHjEgYU9quv3Bdl&id=61594716405964",
-        "verifiedAt": "2026-10-06T22:27:16.195800+00:00"
-      },
-      {
-        "platform": "facebook",
-        "language": "he",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02WQQDdwErPyTsbADcmp5ivHoKiw175FEYFeaDBbhiZWw288FbDRWy35a36JsjM9R8l&id=61591964083308",
-        "verifiedAt": "2026-10-09T19:13:08.945Z"
-      },
-      {
-        "platform": "instagram",
-        "language": "he",
-        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeR_sDMG2RQ/",
-        "verifiedAt": "2026-10-10T07:46:20.834361+00:00"
-      }
-    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -26255,6 +27004,162 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-19",
+      "factualSources": [
+        {
+          "url": "https://visitwroclaw.eu/en/atrakcje/market-square-and-town-hall/",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "central square",
+            "cafés",
+            "pedestrian access",
+            "Town Hall within square"
+          ]
+        },
+        {
+          "url": "https://muzeum.miejskie.wroclaw.pl/en/museum/sztuki-mieszczenskiej/",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "Gothic Old Town Hall",
+            "Museum of Bourgeois Art",
+            "Rynek address"
+          ],
+          "caution": "Source contains visibly malformed hours and inconsistent postal codes; do not copy hours/prices/postal codes"
+        }
+      ],
+      "personalMediaPermission": false
+    },
+    "media": {
+      "photos": [
+        "/assets/rynek-market-square.jpg",
+        "/assets/old-town-hall-wroclaw.jpg",
+        "/assets/rynek-refresh-oct19-01.jpg",
+        "/assets/rynek-refresh-oct19-02.jpg",
+        "/assets/rynek-refresh-oct19-03.jpg",
+        "/assets/rynek-refresh-oct19-04.jpg",
+        "/assets/rynek-refresh-oct19-05.jpg",
+        "/assets/rynek-refresh-oct19-06.jpg",
+        "/assets/rynek-refresh-oct19-07.jpg",
+        "/assets/rynek-refresh-oct19-08.jpg"
+      ],
+      "videos": [
+        "/assets/video-rynek-fountains.mp4",
+        "/assets/video-rynek-cinema.mp4"
+      ],
+      "metadata": {
+        "/assets/rynek-refresh-oct19-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_1045.JPG",
+          "sourceSHA256": "5b9de0505d5c1bbd4e19c983e0717df1286f1082925a03f7496a1adc873e37e5",
+          "assetSHA256": "7d5abf9bb10203d318f363fc34c51b5c550af936844bc1ad4d404b0f0d8e8c18"
+        },
+        "/assets/rynek-refresh-oct19-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4675.JPG",
+          "sourceSHA256": "20bb9d1a6fe9565ff4960d09bf65d774f707f1a8af9f5fece11d7debbd89467b",
+          "assetSHA256": "ba2183cd178e07cb49f3437452a455e1395623d43ce504c1a1c3da5310cf8dfc"
+        },
+        "/assets/rynek-refresh-oct19-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4680.JPG",
+          "sourceSHA256": "ed18865a793fcf4bf99b04cf565f02f38b360cfc7d4238d3d850ca01db65b598",
+          "assetSHA256": "dad8bcefd850935e0f06d65dbd05ad869cec84df83b9762dc5450d4aba8b76c7"
+        },
+        "/assets/rynek-refresh-oct19-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4681.JPG",
+          "sourceSHA256": "9d45452ea98a3cadb86bc19a1cfdeeebc15e82e43e1c5df10110344f798b7942",
+          "assetSHA256": "c496b3b1f096f0ef16a1bb3ace53c4620b12084013dec4b86c7b259b5d58c5af"
+        },
+        "/assets/rynek-refresh-oct19-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4684.JPG",
+          "sourceSHA256": "9f1ddeb6fb3ccfd17377fbb945f8ddf817995b0346d7b1ff456ebcdf658e535a",
+          "assetSHA256": "0670e023bca2b8515def2d0908f7e228b5ca576a71dcbe877167abb2762f7c78"
+        },
+        "/assets/rynek-refresh-oct19-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4714.JPG",
+          "sourceSHA256": "92f4faad39febffdea290b46f4e5b5532488fd1ec2fbb90c832c7ec394185cab",
+          "assetSHA256": "3d0e189cc1ca141376fdc5aa5033dce328a5216b5c33a7fdd4ad33ccbf7f559b"
+        },
+        "/assets/rynek-refresh-oct19-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-05 at 18.31.33 (1).jpeg",
+          "sourceSHA256": "cee5deb9c4bc0b6c8e14ea6fab20ecf05451c35e5b898b63cdb86a17735a0ca9",
+          "assetSHA256": "632153598fa4dfc1a6d9b15b11ddba731b72c8bb3c979c9522028d40aa7892b4"
+        },
+        "/assets/rynek-refresh-oct19-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-19 at 08.42.09 (10).jpeg",
+          "sourceSHA256": "8bedaab5fa58c4f7ad0dda6abebfee665149b55ca230177e78e023d6cf4e8f37",
+          "assetSHA256": "9579844537ebfebd95e2ea5adc16b7fa94940fd7ab561a52ba5bcb7eed9d2c18"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeKYP2JFY-c/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02r7cQXktM43CrwyNJ1R5vvRSjEg5mf7J5Ed4x6kFCQP9iHiDfDG7bM6kHeckNAs6bl&id=61595207664875",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0KeheAnHiYwKPBqobsFupCg6PbrbjFSttmhaKYJF1NAjUZqNb1mZq1RrNm4xTfhWql&id=61595239823399",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeKgn3cFf66/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FkkD9Tk1kqxigyX8Dr8T4VSjwfRvUcrhgg8T7SYKEsfAE4C4oPoMrgJATUVEwm4ol&id=61595036942289",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKxgIVEf4_/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeK0ECXAFUv/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02g2uAzg2zZWEJU8mHXJo4SWHWMnQM9hQiWjqsbJKCq4xMbgagFoXHjEgYU9quv3Bdl&id=61594716405964",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02WQQDdwErPyTsbADcmp5ivHoKiw175FEYFeaDBbhiZWw288FbDRWy35a36JsjM9R8l&id=61591964083308",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeR_sDMG2RQ/",
+        "verifiedAt": "2026-10-19"
+      }
     ]
   },
   "sarah": {
@@ -26532,11 +27437,11 @@
       "cs": "Ostrov Słodowa"
     },
     "description": {
-      "he": "אי ירוק וצעיר על האודר, מתאים להפסקה קצרה ליד המים.",
-      "en": "A green, youthful island on the Oder, ideal for a short waterside break.",
-      "pl": "Zielona, młodzieżowa wyspa na Odrze, dobra na krótki odpoczynek nad wodą.",
-      "de": "Eine grüne, junge Insel an der Oder, ideal für einen Kurzurlaub am Wasser.",
-      "cs": "Zelený, mladistvý ostrov na Odře, ideální pro krátkou přestávku u vody."
+      "he": "אי ירוק בלב זרועות האודר, עם מדשאות, עצים וגדות המשמשות להליכה ולמפגש. הגשרים להולכי רגל מחברים אותו לגדות ולאיים הסמוכים. תמונות הביקור שלנו מציגות את שלט האי, המים והעצים באור ערב, ואת גשר הולכי הרגל כחלק מהסביבה. תחנת מילוי המים והברים הסמוכים הם מקומות נפרדים.\nWyspa Słodowa",
+      "en": "A green island between branches of the Oder, with lawns, trees and banks for walking and meeting friends. Footbridges connect it to nearby banks and islands. Our evening visit photos show the island sign, water, trees and a footbridge in context. The water-refill point and nearby bars remain separate places.",
+      "pl": "Zielona wyspa między odnogami Odry, z trawnikami, drzewami i brzegami sprzyjającymi spacerom oraz spotkaniom. Kładki łączą ją z pobliskimi nabrzeżami i wyspami. Nasze wieczorne zdjęcia pokazują tablicę wyspy, wodę, drzewa i kładkę w otoczeniu. Punkt poboru wody i pobliskie bary pozostają osobnymi miejscami.",
+      "de": "Eine grüne Insel zwischen Oderarmen, mit Rasenflächen, Bäumen und Ufern zum Spazierengehen und Treffen. Fußgängerbrücken verbinden sie mit den benachbarten Ufern und Inseln. Unsere abendlichen Besuchsfotos zeigen das Inselschild, Wasser, Bäume und eine Brücke im Umfeld. Trinkwasserstelle und nahe Bars bleiben eigenständige Orte.",
+      "cs": "Zelený ostrov mezi rameny Odry s trávníky, stromy a břehy pro procházky a setkávání. Lávky jej propojují s okolními nábřežími a ostrovy. Naše večerní fotografie ukazují tabuli ostrova, vodu, stromy a lávku v okolní krajině. Pítko a blízké bary zůstávají samostatnými místy."
     },
     "location": {
       "countryCode": "PL",
@@ -26597,36 +27502,13 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://zzm.wroc.pl/obiektyzzmcp/wyspa-slodowa/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
-    },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "language": "en",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0M1Scc96KkK1hWEzeduag3dyNj3W2yrsutuLLr6tm9S3exu2jtQ98zXwXckmZsKmMl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1169%2C17.03737",
+        "appleMaps": "https://maps.apple.com/?ll=51.1169,17.03737&q=Wyspa%20S%C5%82odowa"
       },
-      {
-        "platform": "facebook",
-        "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ngQumK9b8tSR51qva9E3FJaA1geZPfhbn5CnB6Nz4oKWtes9sb5efF3PBrvvqvdDl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "pl",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02qG93ZBdYLnCaFDxv55C1NSefUeXtj8syhFPwsx9DSU1656TY5AFfRnjXLAsveQiyl&id=61595207664875",
-        "verifiedAt": "2026-10-08T15:26:30.761Z"
-      }
-    ],
+      "socialProfileFallback": false
+    },
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -26639,6 +27521,88 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-19",
+      "factualSources": [
+        {
+          "url": "https://zzm.wroc.pl/obiektyzzmcp/wyspa-slodowa/",
+          "checked": "2026-10-19",
+          "supports": [
+            "IslandbetweenOderbranches",
+            "Publicrecreational lawns/trees",
+            "Footbridgeconnections",
+            "Socialmeetingandculturaluse"
+          ]
+        },
+        {
+          "url": "https://visitwroclaw.eu/poznaj-i-zwiedzaj/atrakcje/wyspa-slodowa",
+          "checked": "2026-10-19",
+          "supports": [
+            "Tourismidentity"
+          ]
+        }
+      ],
+      "personalMediaPermission": false
+    },
+    "media": {
+      "thumbnail": "/assets/wyspa-slodowa/wyspa-slodowa-01.jpg",
+      "photos": [
+        "/assets/wyspa-slodowa/wyspa-slodowa-01.jpg",
+        "/assets/wyspa-slodowa/wyspa-slodowa-02.jpg",
+        "/assets/wyspa-slodowa/wyspa-slodowa-03.jpg",
+        "/assets/wyspa-slodowa/wyspa-slodowa-04.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/wyspa-slodowa/wyspa-slodowa-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.46 (1).jpeg",
+          "sourceSHA256": "43f5bf689c4fb06d92cde8f870991fc07674b185218dbb543d6c8ca823305a40",
+          "assetSHA256": "4b1663eb09bac6caec943c943421dad7b31adef332609f40bb0234d8006df3a1"
+        },
+        "/assets/wyspa-slodowa/wyspa-slodowa-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.46 (2).jpeg",
+          "sourceSHA256": "f7b424151314541c0cd95ee80f4a3ee07c6d0f82a72422a948e91f93432cadca",
+          "assetSHA256": "69f905d5a33a9e61688c240caa5f172f533998e0ca61c0bb10f8f086c621aec9"
+        },
+        "/assets/wyspa-slodowa/wyspa-slodowa-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.47 (3).jpeg",
+          "sourceSHA256": "e46439af06d38ce9cdc86fd9b6a0f1bfdc1c9ad6d214af6787f4fc3df86c9350",
+          "assetSHA256": "b5871cba52183e1c59580f373223a9f1e4930dd07e31740ba4d4bcee2bf6571c"
+        },
+        "/assets/wyspa-slodowa/wyspa-slodowa-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.49 (3).jpeg",
+          "sourceSHA256": "5b28427315c7dc51f2478e3e3f05e1f675f97a4c405e7710f882d63a903909e5",
+          "assetSHA256": "1abb078762312792c21b5b6f89283caee00c7ae2d65c59ebd488224d25aea2b9"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0M1Scc96KkK1hWEzeduag3dyNj3W2yrsutuLLr6tm9S3exu2jtQ98zXwXckmZsKmMl&id=61595036942289",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ngQumK9b8tSR51qva9E3FJaA1geZPfhbn5CnB6Nz4oKWtes9sb5efF3PBrvvqvdDl&id=61594716405964",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02qG93ZBdYLnCaFDxv55C1NSefUeXtj8syhFPwsx9DSU1656TY5AFfRnjXLAsveQiyl&id=61595207664875",
+        "verifiedAt": "2026-10-08T15:26:30.761Z",
+        "routingExcluded": true
+      }
     ]
   },
   "solny": {
@@ -26897,11 +27861,11 @@
       "cs": "Olympijský stadion ve Vratislavi"
     },
     "description": {
-      "he": "מתחם ספורט היסטורי בוורוצלב, שנבנה בשנים 1926–1928 לפי תכנונו של ריכרד קונווירץ. למרות שמו לא נערכו בו משחקים אולימפיים; כיום הוא מזוהה במיוחד עם ספידוויי ופעילות ספורטיבית, ומעניין גם בזכות אדריכלות הלבנים וההיסטוריה המקומית.",
-      "en": "A historic sports complex in Wrocław, built in 1926–1928 to a design by Richard Konwiarz. Despite its name, it never hosted the Olympic Games; today it is closely associated with speedway and sport, and is also worth seeing for its brick architecture and local history.",
-      "pl": "Historyczny kompleks sportowy we Wrocławiu, zbudowany w latach 1926–1928 według projektu Richarda Konwiarza. Mimo nazwy nie odbyły się tu igrzyska olimpijskie; dziś obiekt kojarzy się przede wszystkim ze sportem żużlowym, a uwagę zwracają także ceglana architektura i lokalna historia.",
-      "de": "Ein historischer Sportkomplex in Breslau, erbaut 1926–1928 nach einem Entwurf von Richard Konwiarz. Trotz seines Namens fanden hier keine Olympischen Spiele statt; heute ist die Anlage vor allem mit Speedway und Sport verbunden und zudem wegen ihrer Backsteinarchitektur und lokalen Geschichte sehenswert.",
-      "cs": "Historický sportovní areál ve Vratislavi, postavený v letech 1926–1928 podle návrhu Richarda Konwiarze. Navzdory názvu se zde olympijské hry nekonaly; dnes je spojen především se speedwayem a sportem a zaujme také cihlovou architekturou a místní historií."
+      "he": "האצטדיון האולימפי הוא לב מתחם ספורט היסטורי בשכונת זלשיה. הוא תוכנן בידי ריכרד קונווירץ ונבנה בשנים 1926 עד 1928. אדריכלות הלבנים, שער הכניסה, הרחבה והשבילים המוצלים מציעים מבט אחר על העיר. המקום מזוהה עם מרוצי ספידוויי ופוטבול אמריקאי. גלריית הביקור שלנו מציגה את הכניסה, הרחבה והשטחים הסמוכים בקיץ ובסתיו. אפשר להתרשם מהחוץ; כניסה ליציעים ולמגרש תלויה באירועים ובהסדרי האתר, ויש לבדוק זאת לפני הביקור.",
+      "en": "At the heart of a historic sports complex in Zalesie, this stadium was designed by Richard Konwiarz and built in 1926 to 1928. Brick architecture, an entrance gateway, a broad courtyard and shaded paths reveal another side of Wrocław. The venue is associated with speedway and American football. Our visit gallery shows the entrance, courtyard and adjoining grounds in summer and autumn. The exterior can be explored; access to the stands and field depends on events and venue arrangements, so check before visiting.",
+      "pl": "Stadion stanowi serce historycznego kompleksu sportowego na Zalesiu. Zaprojektował go Richard Konwiarz, a budowa trwała od 1926 do 1928 roku. Ceglana architektura, brama wejściowa, rozległy dziedziniec i zacienione alejki pokazują inne oblicze Wrocławia. Obiekt jest związany z żużlem i futbolem amerykańskim. Galeria z naszej wizyty przedstawia wejście, dziedziniec i sąsiednie tereny latem oraz jesienią. Można oglądać obiekt z zewnątrz; dostęp do trybun i boiska zależy od wydarzeń i zasad obiektu, dlatego warto sprawdzić go przed wizytą.",
+      "de": "Das Stadion bildet das Herz einer historischen Sportanlage im Stadtteil Zalesie. Richard Konwiarz entwarf den Bau, der von 1926 bis 1928 entstand. Backsteinarchitektur, Eingangstor, weitläufiger Vorplatz und schattige Wege zeigen eine andere Seite Breslaus. Die Anlage ist mit Speedway und American Football verbunden. Unsere Besuchsgalerie zeigt Eingang, Vorplatz und angrenzendes Gelände im Sommer und Herbst. Die Außenbereiche lassen sich besichtigen; der Zugang zu Tribünen und Spielfeld hängt von Veranstaltungen und den Regelungen der Anlage ab und sollte vorab geprüft werden.",
+      "cs": "Stadion tvoří srdce historického sportovního areálu ve čtvrti Zalesie. Navrhl jej Richard Konwiarz a vznikl v letech 1926 až 1928. Cihlová architektura, vstupní brána, rozlehlé nádvoří a stinné cesty ukazují jinou tvář Vratislavi. Areál je spojen s plochou dráhou a americkým fotbalem. Naše návštěvní galerie zachycuje vstup, nádvoří a přilehlé prostory v létě i na podzim. Exteriér lze prohlížet; přístup na tribuny a hřiště závisí na akcích a pravidlech areálu, proto si jej před návštěvou ověřte."
     },
     "location": {
       "countryCode": "PL",
@@ -27008,7 +27972,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1195926%2C17.0966604",
         "appleMaps": "https://maps.apple.com/?ll=51.1195926,17.0966604&q=Stadion%20Olimpijski%20we%20Wroc%C5%82awiu"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -27046,18 +28011,25 @@
       "originalVideo": false,
       "factualSources": [
         {
-          "type": "official",
           "url": "https://www.wroclaw.pl/sport/stadion-olimpijski",
-          "checkedAt": "2026-08-11"
+          "checkedAt": "2026-10-19",
+          "supports": "Zalesie sports complex, Konwiarz, address Paderewskiego35, speedway and American football. Old transport and capacity excluded due inconsistencies with other official page."
         },
         {
-          "type": "coordinates",
-          "url": "https://www.openstreetmap.org/way/224222485",
-          "checkedAt": "2026-08-11"
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/stadion-olimpijski-poznaj-wroclaw",
+          "checkedAt": "2026-10-19",
+          "supports": "1926-1928 construction; external visits possible; event-related stadium use."
+        },
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/rocznica-urodzin-architekta-richarda-konwiarza-za-projekt-stadionu-dostal-medal-olimpijski",
+          "checkedAt": "2026-10-19",
+          "supports": "Historic gateway, later clock tower and stands; architectural sports venue rather than a generic park."
         }
-      ]
+      ],
+      "verifiedAt": "2026-10-19"
     },
     "media": {
+      "thumbnail": "/assets/stadion-olimpijski-09.jpg",
       "photos": [
         "/assets/stadion-olimpijski-01.jpg",
         "/assets/stadion-olimpijski-02.jpg",
@@ -27072,7 +28044,10 @@
         "/assets/stadion-olimpijski-11.jpg",
         "/assets/stadion-olimpijski-12.jpg",
         "/assets/stadion-olimpijski-13.jpg",
-        "/assets/stadion-olimpijski-14.jpg"
+        "/assets/stadion-olimpijski-14.jpg",
+        "/assets/stadion-olimpijski-15.jpg",
+        "/assets/stadion-olimpijski-16.jpg",
+        "/assets/stadion-olimpijski-17.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -27084,7 +28059,123 @@
             "hero"
           ],
           "original": true,
-          "heroCandidate": true
+          "heroCandidate": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4560.JPG",
+          "sourceSHA256": "094838871f8607407b7d8dfbf35d5c873e0f157bbac0e14183da71aeda1dff84",
+          "assetSHA256": "492682b3825b2d8570309075f6a814776a4d9d5fb9677a8c5c01a0d702c5cc9a",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4562.JPG",
+          "sourceSHA256": "e78999e2aa2c83c841289fd83fde7d88de08baf323ea3740b4f1e6ac664f8e9e",
+          "assetSHA256": "c7c68ee2b5bcc5ec4667f4001af308f02d26642057ccd2b1474eefc78a0a0602",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4563.JPG",
+          "sourceSHA256": "aab4ff4f298c2031e02ee86e9ea9793a2e37c9d7e9ac05600cb9d7f4034af783",
+          "assetSHA256": "4f8f8e27749c2014cb3d59daa123a058ad33af2a22e7a355fd856256acba71d4",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4564.JPG",
+          "sourceSHA256": "104d245b505894e37458e590e62eb76e1e45cd2091fa777f56c7eebe31c2b0ea",
+          "assetSHA256": "05233e09a3775d171a4d15847421352f71b01fe93f97371906e2e80e2ff3a1f8",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4565.JPG",
+          "sourceSHA256": "5777130b37c076f35f1e995e7109fdb2e13604642e7508d10a8c8245e1010344",
+          "assetSHA256": "5dc8554ff7e9b8365a4128f75bde0393f898a8c05ae2793a8e0aba1f867e847b",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4566.JPG",
+          "sourceSHA256": "e8705b5a39e4fbcbc7dcbae87de80df92a2f5ee5de58142e70ad2238343b5c88",
+          "assetSHA256": "627d38295b84d3cac9decff09d35469b7626605c3f97703127b0fd391535cb29",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4567.JPG",
+          "sourceSHA256": "c7b588ed78f9f7b6cd2a7320621aa47eeb65bfab4e6447020bfa772621d2c69c",
+          "assetSHA256": "68615b188f23669e8da19f3b509665aaf75cee28df8d8ae028fea765eccd4b09",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4568.JPG",
+          "sourceSHA256": "163a6181466fa73e0ae34cd2350660bc594a62c601ccb51bd56a18d4bae819ed",
+          "assetSHA256": "e333cb3d29bc06be54d94c8d9d210f84b8ebe9ae7102fb5c5cb62e7ad3ee5a2a",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4569.JPG",
+          "sourceSHA256": "cefb8cfaaf5958048cd851177b2c43d1dbad22a2ea83336481c65d7b80a8633d",
+          "assetSHA256": "b528c9b0a3b4db8b293510506545099b471a74acee3db11cb463e4f5d6a1cc5b",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4570.JPG",
+          "sourceSHA256": "d4bf521f3ce53221620a3abccb3ed9ce4315999e9987e92e0f7361c97c90c3cd",
+          "assetSHA256": "35fe7237db66761bddf550a7fe7409a124401cff390704181396bb8ad7a3d519",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-11.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4571.JPG",
+          "sourceSHA256": "c0bca9568fed0a8e11ae9f1407fa6a350e3e7adc43f19fe981a21ba2dd626b78",
+          "assetSHA256": "d49a5493362a2a67da2e3e0793f6fdaf0ac7e5d68987e1af29dafd810832b17e",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-12.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4572.JPG",
+          "sourceSHA256": "ed07c8ae9afc344f49617547120e6f6c4cd2bfe6f2e5b4b27d8a7aa3d6a29827",
+          "assetSHA256": "62c9253e950163f1df1484095874d9bb6cbeba03fe7685198af54b6a5c2ee6b1",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-13.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4573.JPG",
+          "sourceSHA256": "3db3adc83946e6e64a2d411be603af50092dbf381fd51c8b95f81c0e8193684f",
+          "assetSHA256": "ce99848596837aa77274f7cbc92277855d8701182481b454e96ad5a685e1bc70",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-14.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4574.JPG",
+          "sourceSHA256": "ea2636c42da8ce4d1a7c5318526d8ed2ea26ddee6e2a7610ecd9339fca248f24",
+          "assetSHA256": "f43fc615caa1c7454081d739d2d71eb53ec4692a1f93292d803b96dc8b9a3540",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-15.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 10.28.44.jpeg",
+          "sourceSHA256": "60ca4c636374e649e6cc03b94e6457eaf2a0d411f41f77cece3ae96a343f8640",
+          "assetSHA256": "ebc03edb9b25b15c7e36bc80690354130b1ed1de599bba28d6c4ce6e79073780",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-16.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 10.28.46 (2).jpeg",
+          "sourceSHA256": "447e6070d5120311c143092315679eae9d01b2bc529a8297c64ce490acd9ad95",
+          "assetSHA256": "297909525691e12f5c8888162d606abf6130388963d7cce1ab278a9a63fa89c4",
+          "orientation": "EXIF normalized, full frame"
+        },
+        "/assets/stadion-olimpijski-17.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 10.28.46 (4).jpeg",
+          "sourceSHA256": "b7701514162a504bbca8b12178c87cb3ce561e9baa36aa350294767b8370f3ba",
+          "assetSHA256": "170887a860aac756105bd43e0ab2ac2c89d8e774eade45dcdbff9d5c5cf28e8d",
+          "orientation": "EXIF normalized, full frame"
         }
       }
     },
@@ -27093,55 +28184,64 @@
         "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gbt6bsxvvkEwV9Z7qs5L9ZmUk9e9Pf46VMai4FZ4eFrtCRtoqTdVER1F7i4wjXEZl&id=61595239823399",
-        "verifiedAt": "2026-10-07T13:56:26.305812+00:00"
+        "verifiedAt": "2026-10-07T13:56:26.305812+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMgkuYFUU9/",
-        "verifiedAt": "2026-10-07T13:56:26.305812+00:00"
+        "verifiedAt": "2026-10-07T13:56:26.305812+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0XPJKF3SHzXX8ttEr8XhyQvyospBmtPMjNvXH8iJHNQHyqJTERzx1LceU97K28ZMGl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MBVMpnXbA9FS9MmSg4rfi5e1ESPU7WfYBJzXtPpvLJhaTwYKTY7DJJsAZgSDKMrCl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/p/DePIeQuDb5p/",
-        "verifiedAt": "2026-10-08T14:24:04.477592+00:00"
+        "verifiedAt": "2026-10-08T14:24:04.477592+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0tZobr66B4YgMsgnRtnNBpcbPyaZq4vXRJV1ne2HfjUqB1CMQSNhSCS3f3WJxx6w8l&id=61595207664875",
-        "verifiedAt": "2026-10-08T15:33:50.210Z"
+        "verifiedAt": "2026-10-08T15:33:50.210Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeRU3Srmthq/",
-        "verifiedAt": "2026-10-09T10:47:01.304Z"
+        "verifiedAt": "2026-10-09T10:47:01.304Z",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid032AMiv8iAC3GxxqwJLHbndc7M6PSbcb1WNLfxqBQbeNmrhowfsPtz8oVndX8rR6f9l&id=61591964083308",
-        "verifiedAt": "2026-10-09T18:30:42.565Z"
+        "verifiedAt": "2026-10-09T18:30:42.565Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeT10-PDU3n/",
-        "verifiedAt": "2026-10-10T10:13:55.707Z"
+        "verifiedAt": "2026-10-10T10:13:55.707Z",
+        "routingExcluded": true
       }
     ]
   },
@@ -27949,11 +29049,11 @@
       "cs": "Stará radnice ve Vratislavi"
     },
     "description": {
-      "he": "בית עירייה גותי ובתוכו המוזיאון לאמנות בורגנית.",
-      "en": "A Gothic town hall housing the Museum of Bourgeois Art.",
-      "pl": "Gotycki ratusz mieszczący Muzeum Sztuki Mieszczańskiej.",
-      "de": "Gotisches Rathaus mit dem Museum der Bürgerlichen Kunst.",
-      "cs": "Gotická radnice s Muzeem měšťanského umění."
+      "he": "בית העירייה העתיק בכיכר השוק הוא מבנה גותי ובו המוזיאון לאמנות בורגנית. התעכבו על השעון, הגמלונים והפיסול בחזיתות. התמונות שלנו מציגות את המבנה ביום ובערב. ביקור בפנים כפוף לשעות המוזיאון ולתערוכות; בדקו את האתר הרשמי לפני ההגעה.",
+      "en": "The Gothic Old Town Hall on the Market Square houses the Museum of Bourgeois Art. Look closely at its clock, gables and carved façades. Our photographs show daytime and evening views. Interior visits depend on museum opening and exhibitions; check the official website before arriving.",
+      "pl": "Gotycki Stary Ratusz na Rynku mieści Muzeum Sztuki Mieszczańskiej. Zwróćcie uwagę na zegar, szczyty i rzeźbione elewacje. Nasze zdjęcia pokazują budynek za dnia i wieczorem. Zwiedzanie wnętrz zależy od godzin muzeum i wystaw; przed wizytą sprawdźcie oficjalną stronę.",
+      "de": "Das gotische Alte Rathaus am Marktplatz beherbergt das Museum der Bürgerlichen Kunst. Achten Sie auf Uhr, Giebel und Fassadenschmuck. Unsere Fotos zeigen Tages- und Abendansichten. Innenbesichtigungen richten sich nach Museumsöffnungszeiten und Ausstellungen; prüfen Sie vorab die offizielle Website.",
+      "cs": "Gotická Stará radnice na Rynku hostí Muzeum měšťanského umění. Všimněte si hodin, štítů a zdobených fasád. Naše fotografie zachycují denní i večerní pohledy. Návštěva interiéru závisí na otevírací době muzea a výstavách; před cestou ověřte oficiální web."
     },
     "location": {
       "countryCode": "PL",
@@ -28032,11 +29132,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://muzeum.miejskie.wroclaw.pl/",
+      "website": "https://muzeum.miejskie.wroclaw.pl/en/museum/sztuki-mieszczenskiej/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10993%2C17.0317",
         "appleMaps": "https://maps.apple.com/?ll=51.10993,17.0317&q=Ratusz%20we%20Wroc%C5%82awiu"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -28064,72 +29165,105 @@
       "contentType": "official-institution-audit",
       "factualSources": [
         {
-          "type": "official",
-          "url": "https://muzeum.miejskie.wroclaw.pl/",
-          "checkedAt": "2026-08-29"
+          "url": "https://visitwroclaw.eu/en/atrakcje/market-square-and-town-hall/",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "central square",
+            "cafés",
+            "pedestrian access",
+            "Town Hall within square"
+          ]
+        },
+        {
+          "url": "https://muzeum.miejskie.wroclaw.pl/en/museum/sztuki-mieszczenskiej/",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "Gothic Old Town Hall",
+            "Museum of Bourgeois Art",
+            "Rynek address"
+          ],
+          "caution": "Source contains visibly malformed hours and inconsistent postal codes; do not copy hours/prices/postal codes"
         }
-      ]
+      ],
+      "verifiedAt": "2026-10-19",
+      "personalMediaPermission": false
     },
     "media": {
       "photos": [
-        "/assets/old-town-hall-wroclaw.jpg"
+        "/assets/old-town-hall-wroclaw.jpg",
+        "/assets/town-hall-refresh-oct19-01.jpg",
+        "/assets/town-hall-refresh-oct19-02.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/town-hall-refresh-oct19-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4717.JPG",
+          "sourceSHA256": "dedc7b9e6589a3c470bb6096e3e799c062650e30f4c0bdb17513488e46c8d0ef",
+          "assetSHA256": "93e6fd517daee150ab8c6e50a7687b646c8b08ef4de20005a4592e1631ed00e8"
+        },
+        "/assets/town-hall-refresh-oct19-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-19 at 08.42.09 (13).jpeg",
+          "sourceSHA256": "0d20823d01b95b570253d44025132179487c76de51e32728a6850ac1218072ac",
+          "assetSHA256": "b26914a29954b2e0c43cbe2ff803a732cc55bd12d7fc4f8990e6a82ba2123978"
+        }
+      }
     },
     "socialPosts": [
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02LEfYBpkZggr1eW6Xi6S8V5zU6q4ZYS5Hp2HUcT4RhLYih7jqVZMfGn3HVkatao66l&id=61595207664875",
-        "verifiedAt": "2026-10-06T23:24:19.550729+00:00"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0j3RGBm11XgUCo3woiec6vgRksebyjTBeo4GuUrHs7EDia1tm518LS2jdhx2U1TJVl&id=61595239823399",
-        "verifiedAt": "2026-10-07T06:29:27.948641+00:00"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02h3exwi5k2HW2dRQZk6kLteBFzEAn92VTVs23Y8qfkGE2QswVk9zB5M3gnJzM8k3Sl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMh5J1jbJy/",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeMldstj8FP/",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02adMixpC3DKFekh3ranhYzvdA6zcuJWoLo8F57zW8PUcRf3u8dEf14HTsLoXRqzUjl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeTnoF3je_J/",
-        "verifiedAt": "2026-10-10T08:10:12.781Z"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/p/DeUTwPkjyOh/",
-        "verifiedAt": "2026-10-10T14:35:33.948Z"
+        "verifiedAt": "2026-10-19"
       },
       {
         "platform": "instagram",
         "language": "he",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtnbDkfUF/",
-        "verifiedAt": "2026-10-10T18:21:14.623Z"
+        "verifiedAt": "2026-10-19"
       }
     ]
   },
@@ -32337,6 +33471,12 @@
         }
       },
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeqwHfdkYbq/",
+        "verifiedAt": "2026-10-19T07:45:33.483Z"
+      },
+      {
         "platform": "facebook",
         "url": "https://www.facebook.com/share/p/19hnYF5mwX/",
         "language": "he"
@@ -32605,11 +33745,11 @@
       "cs": "Westfield Wroclavia"
     },
     "description": {
-      "he": "מרכז גדול ומודרני ליד התחנה המרכזית, עם מותגים בינלאומיים ומתחם אוכל רחב.",
-      "en": "A large modern centre by the main station, with international brands and a broad food court.",
-      "pl": "Duże nowoczesne centrum przy dworcu, z międzynarodowymi markami i rozbudowaną strefą gastronomiczną.",
-      "de": "Ein großes modernes Zentrum am Hauptbahnhof mit internationalen Marken und Food Court.",
-      "cs": "Velké moderní centrum u hlavního nádraží s mezinárodními značkami a food courtem."
+      "he": "מרכז קניות מודרני ליד תחנת הרכבת המרכזית, עם חנויות, מסעדות ובתי קפה. יש בו גם קולנוע ומתקני פנאי, ולכן אפשר לשלב קניות והפסקה תחת קורת גג אחת. הסרטון שלנו מציג את הכניסה המוארת בלילה. בימי ראשון ללא מסחר חלק משירותי הבילוי והאוכל פועלים, ויש לבדוק כל עסק בנפרד.\nWestfield Wroclavia\nSucha 1, Wrocław",
+      "en": "A modern shopping centre by the main railway station, with shops, restaurants, cafés, cinema and leisure facilities. It combines shopping with an indoor break. Our clip shows the illuminated entrance at night. Selected dining and entertainment remain open on non-trading Sundays; check each venue separately. Address: Sucha 1, Wrocław.",
+      "pl": "Nowoczesne centrum handlowe przy dworcu głównym, ze sklepami, restauracjami, kawiarniami, kinem i rozrywką. Łączy zakupy z odpoczynkiem pod dachem. Nasz film pokazuje podświetlone wejście nocą. W niedziele niehandlowe działają wybrane lokale gastronomiczne i rozrywkowe; sprawdź każdy z nich oddzielnie. Adres: Sucha 1, Wrocław.",
+      "de": "Modernes Einkaufszentrum am Hauptbahnhof mit Geschäften, Restaurants, Cafés, Kino und Freizeitangeboten. Einkauf und eine Pause im Innenbereich lassen sich verbinden. Unser Clip zeigt den beleuchteten Eingang bei Nacht. An verkaufsfreien Sonntagen öffnen ausgewählte Gastronomie- und Freizeitbetriebe; die jeweiligen Zeiten einzeln prüfen. Adresse: Sucha 1, Wrocław.",
+      "cs": "Moderní nákupní centrum u hlavního nádraží s obchody, restauracemi, kavárnami, kinem a zábavou. Nákupy lze spojit s přestávkou pod střechou. Náš klip ukazuje osvětlený vstup v noci. O neprodejních nedělích fungují vybrané gastronomické a zábavní provozy; každý si ověřte zvlášť. Adresa: Sucha 1, Wrocław."
     },
     "location": {
       "countryCode": "PL",
@@ -32618,6 +33758,12 @@
       "coordinates": {
         "lat": 51.0964311,
         "lng": 17.0348417
+      },
+      "address": {
+        "street": "Sucha 1",
+        "city": "Wrocław",
+        "countryCode": "PL",
+        "postalCode": "50-086"
       }
     },
     "categories": [
@@ -32713,11 +33859,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.westfield.com/en/poland/wroclavia",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.0964311%2C17.0348417",
+        "appleMaps": "https://maps.apple.com/?ll=51.0964311,17.0348417&q=Westfield%20Wroclavia"
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -32736,83 +33883,115 @@
       "contentType": "official-name-update",
       "factualSources": [
         {
-          "type": "official",
-          "url": "https://www.urw.com/news/allnews/wroclavia-centre-rebrand-westfield-wroclavia",
-          "checkedAt": "2026-09-22",
-          "note": "Official rebrand effective 2026-09-17; existing identity, aliases and product references retained."
+          "url": "https://www.westfield.com/en/poland/wroclavia",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://www.westfield.com/en/poland/wroclavia/news/opening-hours-on-non-commercial-sundays/112423",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://cm.westfield.com/en/poland/wroclavia/contact-us",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://www.westfield.com/en/poland/wroclavia/shops/services",
+          "checked": "2026-10-19"
         }
-      ]
+      ],
+      "verifiedAt": "2026-10-19",
+      "personalMediaPermission": false
     },
     "media": {
+      "thumbnail": "/assets/gallery-wroclavia-01.jpg",
       "photos": [
         "/assets/gallery-wroclavia-01.jpg",
         "/assets/gallery-wroclavia-02.jpg",
         "/assets/gallery-wroclavia-03.jpg",
         "/assets/gallery-wroclavia-04.jpg",
-        "/assets/gallery-wroclavia-05.jpg"
+        "/assets/gallery-wroclavia-05.jpg",
+        "/assets/wroclavia-refresh-oct19-01.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/wroclavia-refresh-oct19-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.06.jpeg",
+          "sourceSHA256": "b980a5674d1bcdb9007c9c25fbf78494d57b4bffa65c87dd653dc6995329ee55",
+          "assetSHA256": "2f0d2591e403d6aaf7a643b6cc9e72ba781f4d077a1887f679dc132f689eca00"
+        }
+      }
     },
     "socialPosts": [
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02jrNuKgdwJ61vwM5vjAa7Xv79ozSSfbBZ7hgh2K6eAn8F2eNUYBNskm5uY78qLQJil&id=61595207664875",
-        "verifiedAt": "2026-10-06T23:20:51.066723+00:00"
+        "verifiedAt": "2026-10-06T23:20:51.066723+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0w7M61tjhHb2WBPx7e2n4uNhtFrUgs2xSUBT4vqpE2cxFQQ1frfh4rvAHa9FUmc6Wl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0xxGFnJd4AKZBtd5iW5hXRVf3AFsYwAsjunpcrM4imAEEKLAdMkCwA9ZNReGR23tKl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/p/DeOt7mQHcTI/",
-        "verifiedAt": "2026-10-08"
+        "verifiedAt": "2026-10-08",
+        "routingExcluded": true
       },
       {
         "language": "pl",
         "platform": "instagram",
         "url": "https://www.instagram.com/p/DePYM3oDd6y/",
-        "verifiedAt": "2026-10-08T16:39:22.083Z"
+        "verifiedAt": "2026-10-08T16:39:22.083Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeRMKpzFm-Z/",
-        "verifiedAt": "2026-10-09T09:32:51.995981+00:00"
+        "verifiedAt": "2026-10-09T09:32:51.995981+00:00",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Y4WJWHQXN7ir8p15rX5HJdDrXJKsJjWoGkG6u5BL6AvASFGgagn8woRHfG2cwvuTl&id=61591964083308",
-        "verifiedAt": "2026-10-09T16:40:23.324Z"
+        "verifiedAt": "2026-10-09T16:40:23.324Z",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
         "language": "de",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid036XWNFvBk9k9FrNe4BHX5oJkiCMnquVEnxKTkeJQ7sXs39ahGmvLPyCPVz6PMKjgLl&id=61595239823399",
-        "verifiedAt": "2026-10-10T14:52:04.874Z"
+        "verifiedAt": "2026-10-10T14:52:04.874Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/p/DeUX8QrDfY9/",
-        "verifiedAt": "2026-10-10T15:11:52.455Z"
+        "verifiedAt": "2026-10-10T15:11:52.455Z",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
         "language": "he",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvWGxkQrh/",
-        "verifiedAt": "2026-10-10T18:36:10.004Z"
+        "verifiedAt": "2026-10-10T18:36:10.004Z",
+        "routingExcluded": true
       },
       {
         "platform": "facebook",
@@ -35233,8 +36412,8 @@
   "פארק שצ׳יטניצקי": "park-szczytnicki-wroclaw",
   "מגנוליה פארק": "magnolia",
   "מגנוליה": "magnolia",
-  "פשיון אאוטלט": "fashion-outlet",
   "פאשן אאוטלט": "fashion-outlet",
+  "פשיון אאוטלט": "fashion-outlet",
   "אטו ראמן": "ato-ramen",
   "Ato Ramen WRO": "ato-ramen",
   "ATO RAMEN Wrocław": "ato-ramen",
@@ -35260,6 +36439,9 @@
   "Arche Klasztor Wroclaw": "arche-klasztor",
   "ארכה קלשטור": "arche-klasztor",
   "ארכה קלשטור ורוצלב": "arche-klasztor",
+  "PEDET": "pedet",
+  "PeDeT": "pedet",
+  "PeDeT Renoma": "pedet",
   "Wieża ciśnień przy alei Wiśniowej": "wieza-cisnien-borek",
   "Wasserturm Kleinburg": "wieza-cisnien-borek",
   "wroclaw-glowny": "glowny",
@@ -35294,6 +36476,19 @@
   "kawiarenka-sw-jadwigi-wroclaw": "kawiarenka-sw-jadwigi",
   "st-hedwigs-cafe": "kawiarenka-sw-jadwigi",
   "בית קפה במנזר": "kawiarenka-sw-jadwigi",
+  "mathematical-tower": "math-tower",
+  "Wieża Matematyczna": "math-tower",
+  "המגדל המתמטי": "math-tower",
+  "galeria-dominikanska": "dominikan",
+  "galeria-dominikana": "dominikan",
+  "גלריה דומיניקנסקה": "dominikan",
+  "גלריה דומיניקנה": "dominikan",
+  "CAFE FC": "fc-caffe-kuznicza",
+  "Cafe FC": "fc-caffe-kuznicza",
+  "FC CAFFE": "fc-caffe-kuznicza",
+  "FC Caffe": "fc-caffe-kuznicza",
+  "קפה אף סי": "fc-caffe-kuznicza",
+  "קפה אפ סי": "fc-caffe-kuznicza",
   "galeria-dizajn": "zyjnia-bwa-wroclaw"
 };
   const relatedPlaces = {

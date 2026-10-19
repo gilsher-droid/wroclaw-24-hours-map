@@ -1,0 +1,1080 @@
+{
+  "date": "2026-10-19",
+  "coverage": [
+    {
+      "id": "math-tower",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 5,
+      "videos": 0,
+      "package": "mathematical-tower-enrichment"
+    },
+    {
+      "id": "pan-tadeusz-museum",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 5,
+      "videos": 1,
+      "package": "pan-tadeusz-enrichment"
+    },
+    {
+      "id": "pedet",
+      "package": "pedet-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 15,
+      "videos": 3,
+      "pending": [
+        "Current social post audit incomplete; unverified place actions hidden"
+      ]
+    },
+    {
+      "id": "renoma",
+      "package": "renoma-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 11,
+      "videos": 0,
+      "pending": [
+        "New visit clip not yet Public-verified; omitted, existing videos retained",
+        "Social current audit incomplete; hide unverified post actions"
+      ]
+    },
+    {
+      "id": "wroclavia",
+      "package": "wroclavia-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 6,
+      "videos": 0,
+      "pending": [
+        "New visit clip not yet Public-verified; omitted, existing videos retained",
+        "Social current audit incomplete; hide unverified post actions"
+      ]
+    },
+    {
+      "id": "pasaz",
+      "package": "pasaz-grunwaldzki-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 5,
+      "videos": 0,
+      "pending": [
+        "No video upload required",
+        "Social current audit incomplete; hide unverified post actions"
+      ]
+    },
+    {
+      "id": "pergola",
+      "package": "pergola-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 3,
+      "videos": 6,
+      "pending": []
+    },
+    {
+      "id": "rynek",
+      "package": "rynek-town-hall-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 10,
+      "videos": 2,
+      "pending": [
+        "New visit clips have no verified Public receipts; existing videos retained"
+      ]
+    },
+    {
+      "id": "town-hall",
+      "package": "rynek-town-hall-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 3,
+      "videos": 0,
+      "pending": [
+        "New visit clips have no verified Public receipts; existing videos retained"
+      ]
+    },
+    {
+      "id": "slodowa",
+      "package": "wyspa-slodowa-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 4,
+      "videos": 0,
+      "pending": [
+        "Existing social posts not currently accessible for browser verification; hidden pending audit"
+      ]
+    },
+    {
+      "id": "dominikan",
+      "package": "galeria-dominikanska-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 2,
+      "videos": 0,
+      "pending": [
+        "Current browser/social verification pending; actions hidden"
+      ]
+    },
+    {
+      "id": "fashion-outlet",
+      "package": "fashion-outlet-refresh",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 8,
+      "videos": 0,
+      "pending": [
+        "No new media justified; eight photos and existing descriptive content preserved",
+        "Current social audit pending; actions hidden"
+      ]
+    },
+    {
+      "id": "fc-caffe-kuznicza",
+      "package": "cafe-fc-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 1,
+      "videos": 0,
+      "pending": [
+        "All ten social cells currently unverified; no generic-account action"
+      ]
+    },
+    {
+      "id": "stadion-olimpijski-wroclaw",
+      "package": "olympic-stadium-enrichment",
+      "state": "implemented-tested-pr-ready-awaiting-coordinated-merge-deployment-and-live-qa",
+      "photos": 17,
+      "videos": 0,
+      "pending": [
+        "Six new visit videos not uploaded or Public-verified; omitted",
+        "Historical social links pending current verification; actions hidden"
+      ]
+    }
+  ],
+  "photoSets": {
+    "renoma": [
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-01.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-01.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-01 at 09.28.23 (3).jpeg",
+        "sourceSHA256": "bafffd042f04ff15644c34cb8f1c47c39f8d9002e3825eb04450fcf2364a4bd2",
+        "assetSHA256": "dd1adb38b0d23ba257a6f20f9cef719930fefa1988c3b1d6cfe038521a149f86",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-02.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-02.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-01 at 09.28.23 (4).jpeg",
+        "sourceSHA256": "49b1e9c6f45d691a087841a131eeaf7aca78cddd3b4abd5a3f6ade2b1da51948",
+        "assetSHA256": "c89f64badd0194cde0b0e1e37b5dfb75928f03672cf849751a4d1bd8d50233af",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-03.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-03.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-05 at 18.26.39 (4).jpeg",
+        "sourceSHA256": "b4787817263dec9a8f12baf1650893b22ca234124055ee1af5a8f27aba20af8d",
+        "assetSHA256": "bf5e279ef5a8d0231e8eaf01c8cc1b986cdef932806c3d99e9b840e9d2b144d8",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-04.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-04.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-05 at 18.27.38 (5).jpeg",
+        "sourceSHA256": "0d709a1424d9a54ceebe3bebf942b013682ed71bf274252cdcc85e01438b9e9e",
+        "assetSHA256": "bc0dc7dfc8c4c99af2d40f8460fa0490b37a5daf429aa4eb908af2f3569503ca",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-05.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-05.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (2).jpeg",
+        "sourceSHA256": "7875d9764f2e26d063d39c79f2e4c95571e9f69f7a6bd25f4686aebee7e4523a",
+        "assetSHA256": "e488b674943e1a124532739ca24ae40f101362325caf8e79563d33f188a68832",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-06.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-06.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (6).jpeg",
+        "sourceSHA256": "f9b430d1f78e1a4698879223ba27b99101b5dcf01aeddbe8fe8683bdf812338f",
+        "assetSHA256": "88786e5d61d8a3fdb417b72c5ff2896b3583105801c2abcfb01c0a334563c2c8",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-07.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-07.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (8).jpeg",
+        "sourceSHA256": "614b1eb301f776e00e652f2d10db057c756ba57e4e4170ad45535f7f68062af2",
+        "assetSHA256": "79a83ec030a55ec2b0c35970299bdc954607b812b26405ef053c661bd8a8f322",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-08.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-08.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (11).jpeg",
+        "sourceSHA256": "736c92c6d34c0c30cf73924e75f0504b14add10097c078325b10af14bf559393",
+        "assetSHA256": "d4590ad4c2a44bf336ca3b9d3b32655ba14dee712b1142d1192812fc526231a6",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/renoma-refresh-oct19-09.jpg",
+        "sitePath": "/assets/renoma-refresh-oct19-09.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24.jpeg",
+        "sourceSHA256": "5816425c1615aad0c61a03bf4e4d96f5d2cc63ee46d14cec5ce55c940e8f3d01",
+        "assetSHA256": "307123435e659eb5bfcaf3a66f34876393415df3841a6972b8b8da235ee87f2a",
+        "dimensions": [
+          1600,
+          1200
+        ]
+      }
+    ],
+    "wroclavia": [
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/wroclavia-refresh-oct19-01.jpg",
+        "sitePath": "/assets/wroclavia-refresh-oct19-01.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.06.jpeg",
+        "sourceSHA256": "b980a5674d1bcdb9007c9c25fbf78494d57b4bffa65c87dd653dc6995329ee55",
+        "assetSHA256": "2f0d2591e403d6aaf7a643b6cc9e72ba781f4d077a1887f679dc132f689eca00",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      }
+    ],
+    "pasaz": [
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/pasaz-refresh-oct19-01.jpg",
+        "sitePath": "/assets/pasaz-refresh-oct19-01.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-05 at 18.26.34 (4).jpeg",
+        "sourceSHA256": "6f566c0563fa49e115c3812f02f7e693ffac83b70ef0ccab1b49034471f999b0",
+        "assetSHA256": "571ecbb54d8fa8da328bf0025bdf64eafca4b8adcc899fe07387c9e724224a81",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/pasaz-refresh-oct19-02.jpg",
+        "sitePath": "/assets/pasaz-refresh-oct19-02.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-05 at 18.26.34 (6).jpeg",
+        "sourceSHA256": "cbc4eb8490f28beec1cd8d44c2165096e43011dcad6274f0ed1d8a3fc02ffb2c",
+        "assetSHA256": "d1032a897a2cd6614e848e545ea0feff56dddce77dab1102022ebbcd6213a9e3",
+        "dimensions": [
+          900,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/pasaz-refresh-oct19-03.jpg",
+        "sitePath": "/assets/pasaz-refresh-oct19-03.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-19 at 08.41.55 (1).jpeg",
+        "sourceSHA256": "07873433ee7e273bbb564369f412887b1c9ad8e10704e63d3a974d8cf30cabf3",
+        "assetSHA256": "8939e899f7c85b9f2e9533209b1f43a61bdf91df961ccc4c6725776c7b2ab7cd",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/pasaz-refresh-oct19-04.jpg",
+        "sitePath": "/assets/pasaz-refresh-oct19-04.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-19 at 08.41.55 (2).jpeg",
+        "sourceSHA256": "494c2093bb69cd5e41d11fb7c6336523e5e45e66810117b263bbc439bf567ca9",
+        "assetSHA256": "86135921b78cd387c26b43fd678656584d648879bae6fd733450e9d56a8de0f4",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/enrichment-ready-batch/prepared-assets/pasaz-refresh-oct19-05.jpg",
+        "sitePath": "/assets/pasaz-refresh-oct19-05.jpg",
+        "source": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-19 at 08.41.55 (7).jpeg",
+        "sourceSHA256": "8c4a2fa55ca4085639974930686e02f7a60e5059d488d49a19413dc0d9f442e7",
+        "assetSHA256": "995931c8028268b3c15472c320c907c753798ad051da44b877988df65272eec6",
+        "dimensions": [
+          1600,
+          1200
+        ]
+      }
+    ]
+  },
+  "socialAudits": {
+    "pedet": [
+      {
+        "language": "he",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid09HB4rfQaHmxjeBz4kJtNdgX5eKnjbboW2hdW9qUhB5vWVvBCYxh9nAsumMNVZQf5l&id=61591964083308",
+          "verifiedAt": "2026-10-09T19:11:25.733Z"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "he",
+        "platform": "instagram",
+        "historicalRecord": null,
+        "status": "no-local-registry-record",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "en",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid034fiT8BLtL7iEV4Y5tHyLroNpAX4btjbERsJ772utbiiQaQ7qk5NrpQUNwyTet47Jl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "en",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRCa4AjODJ/",
+          "verifiedAt": "2026-10-09T08:05:35.568Z"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "pl",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Yegs3zyk229PCi2BWLpgwKB4BC8M7cGDwtomZv5hksFxAfcv4T52eQGCt8kA92jel&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:14:57.941919+00:00"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "pl",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeUATwilaWF/",
+          "verifiedAt": "2026-10-10T11:46:00.592Z"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "de",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02A2RFEkpm8mGAndBWrRCtgE2ErkTFUA31KZEihnMrC3KZAMabHW8bZpxNFnUEXYykl&id=61595239823399",
+          "verifiedAt": "2026-10-07T14:17:09.335766+00:00"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "de",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMjEb6FO-Z/",
+          "verifiedAt": "2026-10-07T14:17:09.335766+00:00"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "cs",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid028jwLAY6TzJhVXEutJCeCVyGdc81NNtP7mjtj1bfvwLgjuTxHZxVEpiNLPyFv59C7l&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      },
+      {
+        "language": "cs",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DePRHIWjEqw/",
+          "verifiedAt": "2026-10-08"
+        },
+        "status": "not-currently-verified",
+        "currentVerification": null,
+        "reason": "No Meta profile switching permitted during exclusive 41-post publication session. Public web fetch of EN FB/IG failed. Requires current read-only browser verification once account coordination permits."
+      }
+    ],
+    "renoma": [
+      {
+        "language": "he",
+        "platform": "facebook",
+        "historicalRecord": null,
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "he",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUu8FTkUSS/",
+          "verifiedAt": "2026-10-10T18:32:08.208Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "en",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0a1KW7A2aHNKgpXgheWtWeHpCcDQD6injwUUCuDktDeZu7dFinCh7gKspQFGRBVNVl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "en",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRG3F0FyOF/",
+          "verifiedAt": "2026-10-09T08:44:42.572Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "pl",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0TRrAY16heWNSiP5iDDzcAwhSKLi7Hu6cUn2NT15wMBUzKL2Pu5FGAA8h3u5tjKpYl&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:21:52.803528+00:00"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "pl",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DePSGrFAKmY/",
+          "verifiedAt": "2026-10-08T15:44:44.092Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "de",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02P8JcXrq2697rvposrx8KMvfzoVW3wuxk6cumAYsunoffRzsZrq7GBgixJFDfyJNLl&id=61595239823399",
+          "verifiedAt": "2026-10-10T14:49:02.619Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "de",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUYdZtDATM/",
+          "verifiedAt": "2026-10-10T15:18:10.572293+00:00"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "cs",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02yE6dPEX7WGCb8Fou82HrK1fWqpagf1L1az57vRSFp6F5K23tZM7yiCYwXcHqX9Lpl&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      },
+      {
+        "language": "cs",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMoMKgDmiX/",
+          "verifiedAt": "2026-10-07"
+        },
+        "currentStatus": "awaiting-current-readonly-verification"
+      }
+    ],
+    "wroclavia": [
+      {
+        "language": "he",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Y4WJWHQXN7ir8p15rX5HJdDrXJKsJjWoGkG6u5BL6AvASFGgagn8woRHfG2cwvuTl&id=61591964083308",
+          "verifiedAt": "2026-10-09T16:40:23.324Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "he",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvWGxkQrh/",
+          "verifiedAt": "2026-10-10T18:36:10.004Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "en",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0xxGFnJd4AKZBtd5iW5hXRVf3AFsYwAsjunpcrM4imAEEKLAdMkCwA9ZNReGR23tKl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "en",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRMKpzFm-Z/",
+          "verifiedAt": "2026-10-09T09:32:51.995981+00:00"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "pl",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02jrNuKgdwJ61vwM5vjAa7Xv79ozSSfbBZ7hgh2K6eAn8F2eNUYBNskm5uY78qLQJil&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:20:51.066723+00:00"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "pl",
+        "platform": "instagram",
+        "historicalRecord": {
+          "language": "pl",
+          "platform": "instagram",
+          "url": "https://www.instagram.com/p/DePYM3oDd6y/",
+          "verifiedAt": "2026-10-08T16:39:22.083Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "de",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid036XWNFvBk9k9FrNe4BHX5oJkiCMnquVEnxKTkeJQ7sXs39ahGmvLPyCPVz6PMKjgLl&id=61595239823399",
+          "verifiedAt": "2026-10-10T14:52:04.874Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "de",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeUX8QrDfY9/",
+          "verifiedAt": "2026-10-10T15:11:52.455Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "cs",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0w7M61tjhHb2WBPx7e2n4uNhtFrUgs2xSUBT4vqpE2cxFQQ1frfh4rvAHa9FUmc6Wl&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "cs",
+        "platform": "instagram",
+        "historicalRecord": {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DeOt7mQHcTI/",
+          "verifiedAt": "2026-10-08"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      }
+    ],
+    "pasaz": [
+      {
+        "language": "he",
+        "platform": "facebook",
+        "historicalRecord": null,
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "he",
+        "platform": "instagram",
+        "historicalRecord": null,
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "en",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Lkv7Dxp8qrQjVamvnRMPwZGAjGXuDo6JXP1dpmJdM64k3CVsMbxbc7NKz7f2vr1Rl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "en",
+        "platform": "instagram",
+        "historicalRecord": null,
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "pl",
+        "platform": "facebook",
+        "historicalRecord": {
+          "language": "pl",
+          "platform": "facebook",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid08aDfzxTndg1ApvtgBy3bmZLhNFQoitGWgGmQGb35id88PtHfUsPxw5HFGRgeTqjDl&id=61595207664875",
+          "verifiedAt": "2026-10-08T16:27:57.155Z"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "pl",
+        "platform": "instagram",
+        "historicalRecord": null,
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "de",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UPyx8f3zv9Qd5aE84HG72B1DMZf2Z8YUnxGPg8uNNNLC7eT5znDvVfpowDJ7UgHUl&id=61595239823399",
+          "verifiedAt": "2026-10-08T14:24:13.626965+00:00"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "de",
+        "platform": "instagram",
+        "historicalRecord": null,
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "cs",
+        "platform": "facebook",
+        "historicalRecord": {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ZPHDnGxwvLsLVX4C75rFtnwh3o1NEqhUEYxXjsbWbkTxQPLrgkRpqiUd9d17EMQnl&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      },
+      {
+        "language": "cs",
+        "platform": "instagram",
+        "historicalRecord": null,
+        "currentStatus": "awaiting-current-readonly-verification;Metaexclusiveato"
+      }
+    ],
+    "pergola": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0dgwGcWr9XoWXfW5GRqkXRUEdQ1ZArZ8ykio6KKCQi8tRLzLNjFap26ed7TvSuUMKl&id=61591964083308",
+        "expectedAccount": "61591964083308",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1",
+        "expectedAccount": "wroclaw.lowersilesia.he",
+        "checkedAt": "2026-10-19",
+        "status": "legacy-wrong-language-account",
+        "contentVerified": "Hebrew written Pergola post on current English account wroclaw.lowersilesia; not a verified Hebrew-account replacement",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve historical URL in audit; hide place-post CTA until matching-account verification"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PBubtq5LoHRZqauEt2AxHHKPjbGjNhXShCarFr5ogphMk9iHW8vfEF9TfE2F47mdl&id=61595036942289",
+        "expectedAccount": "61595036942289",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeK81I8Dq1T/",
+        "expectedAccount": "wroclaw.lowersilesia",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02vNkfpPrKx9P9izcQjcpP1SNoaq9tXZEWDxnNCEz32yLTC7wAaDJ7V6bU836zHiDml&id=61595207664875",
+        "expectedAccount": "61595207664875",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeLBl7ajYMt/",
+        "expectedAccount": "wroclaw.lowersilesia.pl",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Na5vs8d6rwMAA36q35BkKgcUEwnh5RDVkMKgpGQ2xdT5z8SSiFig3gqkMSsG8i3Vl&id=61595239823399",
+        "expectedAccount": "61595239823399",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMa3xtDvbr/",
+        "expectedAccount": "wroclaw.lowersilesia.de",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Mzn17KRqi5sJhmoVc5hmDy7JAoKDERNTXrnmPReC7miwDF9D4WDY4YcZycdWgVdJl&id=61594716405964",
+        "expectedAccount": "61594716405964",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMqvYBj5jO/",
+        "expectedAccount": "wroclaw.lowersilesia.cs",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "contentVerified": "Written post about the Pergola, not fountain or hall; language and author match",
+        "evidence": "outputs/pergola-enrichment/social-snapshots.json",
+        "action": "preserve-and-refresh-verification"
+      }
+    ],
+    "rynek": [
+      {
+        "canonicalId": "rynek",
+        "language": "he",
+        "platform": "facebook",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02WQQDdwErPyTsbADcmp5ivHoKiw175FEYFeaDBbhiZWw288FbDRWy35a36JsjM9R8l&id=61591964083308",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "he",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeR_sDMG2RQ/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "en",
+        "platform": "facebook",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FkkD9Tk1kqxigyX8Dr8T4VSjwfRvUcrhgg8T7SYKEsfAE4C4oPoMrgJATUVEwm4ol&id=61595036942289",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "en",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKxgIVEf4_/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "pl",
+        "platform": "facebook",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02r7cQXktM43CrwyNJ1R5vvRSjEg5mf7J5Ed4x6kFCQP9iHiDfDG7bM6kHeckNAs6bl&id=61595207664875",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "pl",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DeKYP2JFY-c/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "de",
+        "platform": "facebook",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0KeheAnHiYwKPBqobsFupCg6PbrbjFSttmhaKYJF1NAjUZqNb1mZq1RrNm4xTfhWql&id=61595239823399",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "de",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DeKgn3cFf66/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "cs",
+        "platform": "facebook",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02g2uAzg2zZWEJU8mHXJo4SWHWMnQM9hQiWjqsbJKCq4xMbgagFoXHjEgYU9quv3Bdl&id=61594716405964",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "rynek",
+        "language": "cs",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeK0ECXAFUv/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      }
+    ],
+    "town-hall": [
+      {
+        "canonicalId": "town-hall",
+        "language": "he",
+        "platform": "facebook",
+        "url": null,
+        "checkedAt": "2026-10-19",
+        "status": "no-matching-link-in-registry",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "No verified Hebrew Facebook Town Hall permalink found in registry; broader account archive search still pending; do not create new post or substitute account link"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "he",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtnbDkfUF/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "en",
+        "platform": "facebook",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02adMixpC3DKFekh3ranhYzvdA6zcuJWoLo8F57zW8PUcRf3u8dEf14HTsLoXRqzUjl&id=61595036942289",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "en",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DeMldstj8FP/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "pl",
+        "platform": "facebook",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02LEfYBpkZggr1eW6Xi6S8V5zU6q4ZYS5Hp2HUcT4RhLYih7jqVZMfGn3HVkatao66l&id=61595207664875",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "pl",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DeTnoF3je_J/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "de",
+        "platform": "facebook",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0j3RGBm11XgUCo3woiec6vgRksebyjTBeo4GuUrHs7EDia1tm518LS2jdhx2U1TJVl&id=61595239823399",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "de",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/DeUTwPkjyOh/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "cs",
+        "platform": "facebook",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02h3exwi5k2HW2dRQZk6kLteBFzEAn92VTVs23Y8qfkGE2QswVk9zB5M3gnJzM8k3Sl&id=61594716405964",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      },
+      {
+        "canonicalId": "town-hall",
+        "language": "cs",
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMh5J1jbJy/",
+        "checkedAt": "2026-10-19",
+        "status": "verified-written-place-post",
+        "evidence": "outputs/rynek-town-hall-enrichment/social-evidence.json",
+        "details": "Author account, place and original caption language observed live; social publication unchanged"
+      }
+    ],
+    "slodowa": [],
+    "dominikan": [],
+    "fashion-outlet": [],
+    "fc-caffe-kuznicza": []
+  },
+  "mediaLimits": "Seven new Public videos connected: one Pan Tadeusz and six Pergola. Other new visit clips remain unlinked; originals preserved.",
+  "fcPin": {
+    "url": "https://fccaffe.eatbu.com/?lang=pl",
+    "checkedAt": "2026-10-19",
+    "officialAddress": "Kuźnicza30,50-138Wrocław",
+    "officialEmbeddedMapMarker": {
+      "lat": 51.1132329,
+      "lng": 17.0346388
+    },
+    "evidence": "Official location image link served by site contains center and red marker at these coordinates. Official page read via web tool. No guessed coordinate adopted."
+  },
+  "publicVideoReceipts": [
+    "data/pan-tadeusz-enrichment-provenance.json",
+    "data/pergola-publication-receipts.json"
+  ]
+}

@@ -1,0 +1,662 @@
+[
+  {
+    "platform": "instagram",
+    "language": "he",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeqwHfdkYbq/",
+    "verifiedAt": "2026-10-19T07:45:33.483Z",
+    "key": "borek-instagram-he",
+    "canonicalId": "wieza-cisnien-borek",
+    "evidence": {
+      "account": "wroclaw.lowersilesia.he",
+      "language": "he",
+      "public": true,
+      "content": "Borek written carousel, 2 approved full-frame photos, Hebrew account and no-URL fallback.",
+      "evidence": [
+        "borek-instagram-he.txt",
+        "borek-instagram-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "he",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid09Wq7VanWaGqqc1zBhjXYmBaub3Ecmw3BrmKtof3RqbpL1o5N1p3ntZ2xkvmLL4SAl&id=61591964083308",
+    "verifiedAt": "2026-10-19T07:04:57.088Z",
+    "key": "mania-facebook-he",
+    "canonicalId": "mania-al-taglio-kuznicza",
+    "evidence": {
+      "account": "61591964083308",
+      "language": "he",
+      "content": "Full exact approved Mania caption, original storefront photograph, Public icon, website languagehe verified",
+      "evidence": [
+        "mania-facebook-he.txt",
+        "mania-facebook-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "he",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeqwNzpDnIT/",
+    "verifiedAt": "2026-10-19T07:46:17.419Z",
+    "key": "mania-instagram-he",
+    "canonicalId": "mania-al-taglio-kuznicza",
+    "evidence": {
+      "account": "wroclaw.lowersilesia.he",
+      "language": "he",
+      "public": true,
+      "content": "Mania approved Hebrew written photo post with full-frame visit photo and authorized no-URL fallback.",
+      "evidence": [
+        "mania-instagram-he.txt",
+        "mania-instagram-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "en",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Gc1MBs15j1dLkoHDWfFwrhx9wEU66vRUsKzzqFe38NQjQMAFTE5hNJ1Zi8swC8U1l&id=61595036942289",
+    "verifiedAt": "2026-10-19T07:33:20.980Z",
+    "key": "mania-facebook-en",
+    "canonicalId": "mania-al-taglio-kuznicza",
+    "evidence": {
+      "account": "61595036942289",
+      "language": "en",
+      "public": true,
+      "content": "Approved English Mania caption with authorized no-URL CTA; original visit photo.",
+      "evidence": [
+        "mania-facebook-en.txt",
+        "mania-facebook-en.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "en",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeqvRcblU63/",
+    "verifiedAt": "2026-10-19T07:38:21.758Z",
+    "key": "mania-instagram-en",
+    "canonicalId": "mania-al-taglio-kuznicza",
+    "evidence": {
+      "account": "wroclaw.lowersilesia",
+      "language": "en",
+      "content": "Written Mania post with approved full-frame photo and authorized no-URL caption fallback.",
+      "public": true,
+      "evidence": [
+        "mania-instagram-en.txt",
+        "mania-instagram-en.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "pl",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02j8tJpS5Bx1ZbYMSoSeSfn3S9ZokhSrhshptrWa6BNDLF5cV4H9MDnqkaWfVmVh6Zl&id=61595207664875",
+    "verifiedAt": "2026-10-19T07:54:18.784Z",
+    "key": "mania-facebook-pl",
+    "canonicalId": "mania-al-taglio-kuznicza",
+    "evidence": {
+      "account": "61595207664875",
+      "language": "pl",
+      "public": true,
+      "content": "Full Polish body matches; displayed URL shortened by Facebook, outgoing href verified separately.",
+      "evidenceLinkCheck": [
+        {
+          "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwroc-love.com%2Fproducts%2Finteractive-maps%2Flifestyle.html%3Flang%3Dpl%26fbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeqHBiWkQa0jIO_uzasGXSGY2THcFFcVawVewLz2ixjcc8ujCokbr6xk6_Asg_aem_ORlXlqN0L1rc1FTJthlldA&h=AUDIdj7UVtFn4iMZ2YV6wSYV8j6MmgEL-GHVWJeHPZzC747dxsd8glkhLUua8ODiqhX6BBnPjLfTp0Ul3o1PqGuGaak16XYdkAPL1fIE6PWLrbJh-6ox6GhfgfkNa2tZ4AnyuPokMVbBxu3qs6f_&__tn__=-UK-R&c[0]=AUCNZ5w7XRAFLEM5t_koXOxCScfMTuIf7mDJiCY0hXqwAVg5kwzOjDtcjxUf7UQaOv-KWOEU_3dYeZVvDmkhiWjLQuFmdZ8DA2ft9lrO5hGHrrmViDPZaUKVuNYpGQ4hRLjbqqEDvLN2uM_4Eaj5fN0LBa7e8yWek0Xs_DT6IZ5SAMSU4QUKfenEW8pjrottUls",
+          "text": "https://wroc-love.com/.../interactive-maps/lifestyle.html..."
+        }
+      ],
+      "evidence": [
+        "mania-facebook-pl.txt",
+        "mania-facebook-pl.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "pl",
+    "url": "https://www.instagram.com/p/DeqxCgnABp1/",
+    "verifiedAt": "2026-10-19T07:54:20.268Z",
+    "key": "mania-instagram-pl",
+    "canonicalId": "mania-al-taglio-kuznicza",
+    "evidence": {
+      "account": "/wroclaw.lowersilesia.pl/",
+      "language": "pl",
+      "public": true,
+      "content": "Actual written photo post: full published caption matches saved copy, correct account and source media uploaded.",
+      "fullCaptionMatch": true,
+      "evidence": [
+        "mania-instagram-pl.txt",
+        "mania-instagram-pl.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "de",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid027JnMj418msq2BW6LVdN97NZHdhQw4TbW85WyGFeV3zByy64LvVLoQ9tnBKjG7iPl&id=61595239823399",
+    "verifiedAt": "2026-10-19T08:00:41.971Z",
+    "key": "mania-facebook-de",
+    "canonicalId": "mania-al-taglio-kuznicza",
+    "evidence": {
+      "account": "https://www.facebook.com/profile.php?id=61595239823399",
+      "language": "de",
+      "public": true,
+      "content": "Actual full written body, matching account and outgoing approved website URL where present.",
+      "fullCaptionBodyMatch": true,
+      "outgoingLinks": [
+        {
+          "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwroc-love.com%2Fproducts%2Finteractive-maps%2Flifestyle.html%3Flang%3Dde%26fbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeqr_NkOUIbIH8wEUXowKjR0MaUmWJ-OB3Zu10iCYy3mdGjvWO4bhPQWuCde8_aem_GzrBfb10RoPzvwM260YjNA&h=AUCs5kJxgHv_N8wJXTXcTmGAl6NkyJke-Riuncn7CdGkRr2Vm-MF1f-HXIF8VS8bt4E_pP5Sl0HocvLUqTW57hErVDLVy25F0jfSiNF7ZETOUARNKd_5ChE0YlVtFDdv5nvGcH7RvVHlm7FJJoZ-&__tn__=-UK-R&c[0]=AUD-9DUq8rAbUdMIoHjcU2A4TzaxhiyZLO4aJUktkSKtFvXU9aqtYbDMgy4az59Re80FlnYV0L-VHcPcK11K5pcK3r-CNQGJ58CtyCpnslIR_4uYYM2IxJlslkIRy5v1VVjxDEXZeLMNp6hZkww2UiUvG5XN7cnGKKtYqJm_Jvmv-8MCUlZdO6L5NM3cz8M3Nuw",
+          "text": "https://wroc-love.com/.../interactive-maps/lifestyle.html..."
+        }
+      ],
+      "evidence": [
+        "mania-facebook-de.txt",
+        "mania-facebook-de.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "de",
+    "url": "https://www.instagram.com/p/Deqx0WCD3h_/",
+    "verifiedAt": "2026-10-19T08:00:43.380Z",
+    "key": "mania-instagram-de",
+    "canonicalId": "mania-al-taglio-kuznicza",
+    "evidence": {
+      "account": "/wroclaw.lowersilesia.de/",
+      "language": "de",
+      "public": true,
+      "content": "Actual written photo post: full published caption matches saved copy, correct account and source media uploaded.",
+      "fullCaptionMatch": true,
+      "evidence": [
+        "mania-instagram-de.txt",
+        "mania-instagram-de.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "he",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FMpRifUxERGCXjjXtqXZJ6RmjA73s7fQdgGpnKQ9qAK43KH9xShNC6ShLmkz1iVhl&id=61591964083308",
+    "verifiedAt": "2026-10-19T07:48:05.557Z",
+    "key": "park-facebook-he",
+    "canonicalId": "park-szczytnicki-wroclaw",
+    "evidence": {
+      "account": "61591964083308",
+      "language": "he",
+      "public": true,
+      "content": "Hebrew Szczytnicki Park photo post, approved original photo, no URL fallback.",
+      "evidence": [
+        "park-facebook-he.txt",
+        "park-facebook-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "he",
+    "url": "https://www.instagram.com/p/DeqwWCdjfxC/",
+    "verifiedAt": "2026-10-19T07:48:13.479Z",
+    "key": "park-instagram-he",
+    "canonicalId": "park-szczytnicki-wroclaw",
+    "evidence": {
+      "account": "wroclaw.lowersilesia.he",
+      "language": "he",
+      "public": true,
+      "content": "Hebrew Szczytnicki Park approved written photo post.",
+      "evidence": [
+        "park-instagram-he.txt",
+        "park-instagram-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "en",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02CZe8DiSa1ecS3daFvVrvCTmE6SPMvf8vahfKtLKbhFrKVkszfJXdrGwoGxHvey6bl&id=61595036942289",
+    "verifiedAt": "2026-10-19T07:15:24.508Z",
+    "key": "park-facebook-en",
+    "canonicalId": "park-szczytnicki-wroclaw",
+    "evidence": {
+      "evidence": [
+        "park-facebook-en.txt",
+        "park-facebook-en.png"
+      ],
+      "account": "https://www.facebook.com/profile.php?id=61595036942289",
+      "language": "en",
+      "method": "Public permalink opened; actual author, complete place-specific caption and selected original photograph reviewed"
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "en",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Deqsik7FT2p/",
+    "verifiedAt": "2026-10-19T07:15:42.090Z",
+    "key": "park-instagram-en",
+    "canonicalId": "park-szczytnicki-wroclaw",
+    "evidence": {
+      "evidence": [
+        "park-instagram-en.txt",
+        "park-instagram-en.png"
+      ],
+      "account": "https://www.instagram.com/wroclaw.lowersilesia/",
+      "language": "en",
+      "method": "Public permalink opened; actual author, complete place-specific caption and selected original photograph reviewed"
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "pl",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid059noY14hYLMAD9vK9jMNoAh7Aw2YAsmtqRHWf3mAsBPgYLqttLAAyWT4328Z6eu8l&id=61595207664875",
+    "verifiedAt": "2026-10-19T07:56:20.033Z",
+    "key": "park-facebook-pl",
+    "canonicalId": "park-szczytnicki-wroclaw",
+    "evidence": {
+      "account": "https://www.facebook.com/profile.php?id=61595207664875",
+      "language": "pl",
+      "public": true,
+      "content": "Actual full written body, matching account and outgoing approved website URL where present.",
+      "fullCaptionBodyMatch": true,
+      "outgoingLinks": [
+        {
+          "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwroc-love.com%2Fproducts%2Finteractive-maps%2Fcultural.html%3Flang%3Dpl%26fbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEethIGiOYgb7iKKUSm5vsAqkoaEU-vYzN9syM4elhvOHjjY4_rtI-CYWmo9EE_aem_QuEKN6FY_Z5fkIpoo5RGeA&h=AUCM8cEqulDb9_gizgHzUIk_VM-qFGnlaJx8__l78Y7iSUFlBAQfEKCR-PrnPIvLwDTF1VfBzKcT9sne7hNsSHoyLKnqzV9TZpDXs1SyBxQjhCxyhRNeSv9bEVIxRp332Kv3Ny9tNGmA-gBe1h5I&__tn__=-UK-R&c[0]=AUDr5S_dO3kLzcIum188mTg3yAPS8QcONnSu8NWFErlMUD88uP8x9Zzd_sjoBG80_6B6efjazEBa3pSuIzatHXG4Ov0KvNEMyHb4vTPVWE5CWvtAF-mH24ZL24KC9dNYd8uJElE2iFvcM0zM0z6a17WoSoQQcG6LkHDcXyQAOv8Cu6cC4kQ3DyDEULmHth7eBbk",
+          "text": "https://wroc-love.com/.../interactive-maps/cultural.html..."
+        }
+      ],
+      "evidence": [
+        "park-facebook-pl.txt",
+        "park-facebook-pl.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "pl",
+    "url": "https://www.instagram.com/p/DeqxSf9mP4E/",
+    "verifiedAt": "2026-10-19T07:56:15.539Z",
+    "key": "park-instagram-pl",
+    "canonicalId": "park-szczytnicki-wroclaw",
+    "evidence": {
+      "account": "/wroclaw.lowersilesia.pl/",
+      "language": "pl",
+      "public": true,
+      "content": "Actual written photo post: full published caption matches saved copy, correct account and source media uploaded.",
+      "fullCaptionMatch": true,
+      "evidence": [
+        "park-instagram-pl.txt",
+        "park-instagram-pl.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "de",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid025izMsdF8B4FFFzLABAbEXpjJr1NnAgw4gnoEWDt5H138maaCxMVoMCVX3vWxax2tl&id=61595239823399",
+    "verifiedAt": "2026-10-19T08:01:45.124Z",
+    "key": "park-facebook-de",
+    "canonicalId": "park-szczytnicki-wroclaw",
+    "evidence": {
+      "account": "https://www.facebook.com/profile.php?id=61595239823399",
+      "language": "de",
+      "public": true,
+      "content": "Actual full written body, matching account and outgoing approved website URL where present.",
+      "fullCaptionBodyMatch": true,
+      "outgoingLinks": [
+        {
+          "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwroc-love.com%2Fproducts%2Finteractive-maps%2Fcultural.html%3Flang%3Dde%26fbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEew6rUTc-GZkew2rz_dCoGqZiK7tVoTaZ6Z4Vll2D4n3Yf6tViV7w7tIoy-Lg_aem_hwunc9r0tHRVMJraZQ3Z6w&h=AUBimuEJGZnM9du3GmWzPhDyYldz3ehpMXOZ1Et9SY7igaFVSH5cGMGduxsjwBNZEPOlNbS1F9ViQ40mr9qvXbDoFZFmB1cWl0skDC5WcRoE7WGc5cJ5JWU-77_jJYw80UMmN2SNYp5UHj3HdVJ3&__tn__=-UK-R&c[0]=AUAU7Y0SQ41nrGdQSULzIYG44rtWrvRM_71arlnUiOO6iILfYxa-oLDzkAqb9nu6uLAowb0kO57Tx95dEqPaxi35LQJMThh4yfC0awRmwyc0pTlSV5cCHACWYjkYgy9kYLrOXobUpeBnXgtVqbFyJD8hFD0LewUe3paeIfagFLq0Bw-nilydytp1oYAx9nW0RBs",
+          "text": "https://wroc-love.com/.../interactive-maps/cultural.html..."
+        }
+      ],
+      "evidence": [
+        "park-facebook-de.txt",
+        "park-facebook-de.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "de",
+    "url": "https://www.instagram.com/p/Deqx8bhlmWL/",
+    "verifiedAt": "2026-10-19T08:01:46.188Z",
+    "key": "park-instagram-de",
+    "canonicalId": "park-szczytnicki-wroclaw",
+    "evidence": {
+      "account": "/wroclaw.lowersilesia.de/",
+      "language": "de",
+      "public": true,
+      "content": "Actual written photo post: full published caption matches saved copy, correct account and source media uploaded.",
+      "fullCaptionMatch": true,
+      "evidence": [
+        "park-instagram-de.txt",
+        "park-instagram-de.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "he",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid027xWhszMqDaVprsSAYVzVp6923ojAApT1vjFbenbs8dhnACN4ZKTc8N296gMX6EFZl&id=61591964083308",
+    "verifiedAt": "2026-10-19T07:49:40.472Z",
+    "key": "nadodrze-facebook-he",
+    "experienceId": "street-art-nadodrze-olbin",
+    "mapPointId": "nadodrze",
+    "evidence": {
+      "account": "61591964083308",
+      "language": "he",
+      "public": true,
+      "content": "Hebrew Nadodrze written library facade post, approved full-frame photo and no-URL fallback.",
+      "evidence": [
+        "nadodrze-facebook-he.txt",
+        "nadodrze-facebook-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "he",
+    "url": "https://www.instagram.com/p/Deqwh2ejGOC/",
+    "verifiedAt": "2026-10-19T07:49:49.594Z",
+    "key": "nadodrze-instagram-he",
+    "experienceId": "street-art-nadodrze-olbin",
+    "mapPointId": "nadodrze",
+    "evidence": {
+      "account": "wroclaw.lowersilesia.he",
+      "language": "he",
+      "public": true,
+      "content": "Hebrew Nadodrze written photo post, correct location and account.",
+      "evidence": [
+        "nadodrze-instagram-he.txt",
+        "nadodrze-instagram-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "en",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02VrJHkQfRNTqHvAXfsAzJHfUukbWXH28SR8gyxV7nR2TkaZjKXHo23nxLCejPk98Al&id=61595036942289",
+    "verifiedAt": "2026-10-19T07:40:38.438Z",
+    "key": "nadodrze-facebook-en",
+    "experienceId": "street-art-nadodrze-olbin",
+    "mapPointId": "nadodrze",
+    "evidence": {
+      "account": "61595036942289",
+      "language": "en",
+      "public": true,
+      "content": "Library facade Nadodrze at Łokietka13, approved photo and authorized no-URL caption.",
+      "evidence": [
+        "nadodrze-facebook-en.txt",
+        "nadodrze-facebook-en.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "en",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeqvdJ0FXDK/",
+    "verifiedAt": "2026-10-19T07:40:56.160Z",
+    "key": "nadodrze-instagram-en",
+    "experienceId": "street-art-nadodrze-olbin",
+    "mapPointId": "nadodrze",
+    "evidence": {
+      "account": "wroclaw.lowersilesia",
+      "language": "en",
+      "public": true,
+      "content": "English Nadodrze written photo post, approved full-frame source image and caption.",
+      "evidence": [
+        "nadodrze-instagram-en.txt",
+        "nadodrze-instagram-en.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "pl",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Z4B8ka7ztSyo88ngmpqxpFaznF7yx7iZPYqZ3UpX3mSsJDj6NKkNkzZy2t3GdTvdl&id=61595207664875",
+    "verifiedAt": "2026-10-19T07:57:40.275Z",
+    "key": "nadodrze-facebook-pl",
+    "experienceId": "street-art-nadodrze-olbin",
+    "mapPointId": "nadodrze",
+    "evidence": {
+      "account": "https://www.facebook.com/profile.php?id=61595207664875",
+      "language": "pl",
+      "public": true,
+      "content": "Actual full written body, matching account and outgoing approved website URL where present.",
+      "fullCaptionBodyMatch": true,
+      "outgoingLinks": [
+        {
+          "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwroc-love.com%2Fproducts%2Finteractive-maps%2Fcultural.html%3Flang%3Dpl%26fbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEegnXCKMUo9_zupSTp7YT-qTUCQeom7AsBRFXVHCMUW8R9GaTHE--sG8b9rms_aem_E4mx1KQrCwcYmVds_RHzCg&h=AUDtEqHF_y0Z55zNCCoYJ-Qnd1jgv1FJST5jhgRkGVBHZCxThAv0QX-uk4nvOXRSW8E0xdSG-SCNGMfx3z3nsSpTGyUVAQUWlQOxdVCW0lri7BC8rBanSlxUIZCkU3XEJloNEU0zjDLOZMkdvZ8L&__tn__=-UK-R&c[0]=AUCwzMYj2ImQNWw4CeiHopO3NdRHU3cir-dAyQ7PFogRXigi5Xa7-XB4MJcptWau6BzKoxgk7Fg5icMFeLnk85FFbZdqC83Z7tyE0qRiSeYCvwQsLSVPPOChfQp4BzKjyjjapG33cKEAdVqEEiWY84Zq29GWP0nXJK1HW0sEskWjIuv6gRRPimJVM0kWYRRlb9g",
+          "text": "https://wroc-love.com/.../interactive-maps/cultural.html..."
+        }
+      ],
+      "evidence": [
+        "nadodrze-facebook-pl.txt",
+        "nadodrze-facebook-pl.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "pl",
+    "url": "https://www.instagram.com/p/DeqxeNnDgGz/",
+    "verifiedAt": "2026-10-19T07:57:41.641Z",
+    "key": "nadodrze-instagram-pl",
+    "experienceId": "street-art-nadodrze-olbin",
+    "mapPointId": "nadodrze",
+    "evidence": {
+      "account": "/wroclaw.lowersilesia.pl/",
+      "language": "pl",
+      "public": true,
+      "content": "Actual written photo post: full published caption matches saved copy, correct account and source media uploaded.",
+      "fullCaptionMatch": true,
+      "evidence": [
+        "nadodrze-instagram-pl.txt",
+        "nadodrze-instagram-pl.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "de",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02XRALF2bumvwwBabMWgAAjeHS6uCLzqBMgVE1jLTJRnGH62jwnL8jbVCvzUEyXv8vl&id=61595239823399",
+    "verifiedAt": "2026-10-19T08:02:48.455Z",
+    "key": "nadodrze-facebook-de",
+    "experienceId": "street-art-nadodrze-olbin",
+    "mapPointId": "nadodrze",
+    "evidence": {
+      "account": "https://www.facebook.com/profile.php?id=61595239823399",
+      "language": "de",
+      "public": true,
+      "content": "Actual full written body, matching account and outgoing approved website URL where present.",
+      "fullCaptionBodyMatch": true,
+      "outgoingLinks": [
+        {
+          "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwroc-love.com%2Fproducts%2Finteractive-maps%2Fcultural.html%3Flang%3Dde%26fbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe1EB3Gouh2Nn_eYyUkvMCmMHpSvIFEECzl94GbHlYeXv0mUFWfZKTFR_g4ok_aem_U4BG1740n8hEsdfwh5Xk0A&h=AUA9C9Q72lDDAIC42V82aMAtd5kHfDHxxNxoUCklR2hVcRJvssL7gBcyT5zEMcqG_ByUXMNIeVt4njZd47iwfBA__oJXIJKKsYgxz0q-XIxaT2tESVlfT9S9qLY30oRYKXH-pebgV-8L5fZ7P1WU&__tn__=-UK-R&c[0]=AUAaPktAOUzZfIi3VuERQBW-AXRFq-bVciXwiNRuikS8cX4cG8nAv0Q5GbqprerDYmZkd85AQ6hk9N1H7OfRH6niO74T7pTVpW5w75jkecFNX4J04tB9g95y_iwFoPBuB_gfXqL3qoWGMcZfAg6nu3zJIHNeIzD90TQDOHMr_YyHG3ttKCUNurf7HihIUJtAyeI",
+          "text": "https://wroc-love.com/.../interactive-maps/cultural.html..."
+        }
+      ],
+      "evidence": [
+        "nadodrze-facebook-de.txt",
+        "nadodrze-facebook-de.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "de",
+    "url": "https://www.instagram.com/p/DeqyESNjuyI/",
+    "verifiedAt": "2026-10-19T08:02:49.524Z",
+    "key": "nadodrze-instagram-de",
+    "experienceId": "street-art-nadodrze-olbin",
+    "mapPointId": "nadodrze",
+    "evidence": {
+      "account": "/wroclaw.lowersilesia.de/",
+      "language": "de",
+      "public": true,
+      "content": "Actual written photo post: full published caption matches saved copy, correct account and source media uploaded.",
+      "fullCaptionMatch": true,
+      "evidence": [
+        "nadodrze-instagram-de.txt",
+        "nadodrze-instagram-de.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "he",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02AHPReHTVkrDeQrEHhrNHk6vhTyZibTajaqPtjyK3yXJnNusa9JbFS7mbctG8faGdl&id=61591964083308",
+    "verifiedAt": "2026-10-19T07:51:18.253Z",
+    "key": "jadwigi-facebook-he",
+    "canonicalId": "kawiarenka-sw-jadwigi",
+    "evidence": {
+      "account": "61591964083308",
+      "language": "he",
+      "public": true,
+      "content": "Jadwigi Hebrew photo carousel 3 approved full-frame images; no-URL fallback.",
+      "evidence": [
+        "jadwigi-facebook-he.txt",
+        "jadwigi-facebook-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "he",
+    "url": "https://www.instagram.com/p/DeqwucFDZSN/",
+    "verifiedAt": "2026-10-19T07:51:26.855Z",
+    "key": "jadwigi-instagram-he",
+    "canonicalId": "kawiarenka-sw-jadwigi",
+    "evidence": {
+      "account": "wroclaw.lowersilesia.he",
+      "language": "he",
+      "public": true,
+      "content": "Jadwigi approved Hebrew written carousel with all3 full-frame photos.",
+      "evidence": [
+        "jadwigi-instagram-he.txt",
+        "jadwigi-instagram-he.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "en",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid0cXziB6sWWuJJtZZuc9aWVa5ufB3tZ4orCy44Xad6eUeF8LPPnNrwEzY8WSCjcwPAl&id=61595036942289",
+    "verifiedAt": "2026-10-19T07:18:39.994Z",
+    "key": "jadwigi-facebook-en",
+    "canonicalId": "kawiarenka-sw-jadwigi",
+    "evidence": {
+      "evidence": [
+        "jadwigi-facebook-en.txt",
+        "jadwigi-facebook-en.png"
+      ],
+      "account": "https://www.facebook.com/profile.php?id=61595036942289",
+      "language": "en",
+      "method": "Public permalink opened; actual author, complete place-specific caption and selected original photograph reviewed"
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "en",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Deqs4wkD-Kb/",
+    "verifiedAt": "2026-10-19T07:18:47.742Z",
+    "key": "jadwigi-instagram-en",
+    "canonicalId": "kawiarenka-sw-jadwigi",
+    "evidence": {
+      "evidence": [
+        "jadwigi-instagram-en.txt",
+        "jadwigi-instagram-en.png"
+      ],
+      "account": "https://www.instagram.com/wroclaw.lowersilesia/",
+      "language": "en",
+      "method": "Public permalink opened; actual author, complete place-specific caption and selected original photograph reviewed"
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "pl",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02HptBAAveoenvhszEPfHbGN3iEfyBiKS3j1MdBS2QjfarLSYtNKDQpQY5YRJhMKFSl&id=61595207664875",
+    "verifiedAt": "2026-10-19T07:58:48.721Z",
+    "key": "jadwigi-facebook-pl",
+    "canonicalId": "kawiarenka-sw-jadwigi",
+    "evidence": {
+      "account": "https://www.facebook.com/profile.php?id=61595207664875",
+      "language": "pl",
+      "public": true,
+      "content": "Actual full written body, matching account and outgoing approved website URL where present.",
+      "fullCaptionBodyMatch": true,
+      "outgoingLinks": [
+        {
+          "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwroc-love.com%2Fshare%2Fpl%2Flifestyle.html%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeI_nTliWm1PXxVVg9u9HamX2i4IpENXw_qv5Q3LaL-c3_xqUwsOzyj9AOOcE_aem_2sabJ_zESsvSUbmBZsvGRQ&h=AUDPO5ILB3wM7d_DJhB6TQvs9m4-CUCmZt6xEPXT83AWqWnCBpb84cIq4yVw7ZawcF0XgaER2wPVimwA3aiKKaAdK7jO9OKeWPCD1wHVc1d2mD44xzTVqkq4vU0a7p4btoDAOO6GAU76XxhNsUV0&__tn__=-UK-R&c[0]=AUDKLQTPU1GBcoNYih_BUIUM7Hwg1AmWoLxds2BsdjYqSPxHoSiTuJJSTdLj1nSfgjojF1Y5VOzFF46H8ufqc1l9y4wEoNiQu5O8xbszfME7rK7AgW7Bo2xmh_uqAD1CnH2eEpbXvy7FrV32Q8JKeiupHo7Pu_U2ja0RgZ5q-hsZNZdKj5aqTFA8Lwsh2JqOSrM",
+          "text": "https://wroc-love.com/share/pl/lifestyle.html"
+        }
+      ],
+      "evidence": [
+        "jadwigi-facebook-pl.txt",
+        "jadwigi-facebook-pl.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "pl",
+    "url": "https://www.instagram.com/p/Deqxn5foBJ8/",
+    "verifiedAt": "2026-10-19T07:58:49.766Z",
+    "key": "jadwigi-instagram-pl",
+    "canonicalId": "kawiarenka-sw-jadwigi",
+    "evidence": {
+      "account": "/wroclaw.lowersilesia.pl/",
+      "language": "pl",
+      "public": true,
+      "content": "Actual written photo post: full published caption matches saved copy, correct account and source media uploaded.",
+      "fullCaptionMatch": true,
+      "evidence": [
+        "jadwigi-instagram-pl.txt",
+        "jadwigi-instagram-pl.png"
+      ]
+    }
+  },
+  {
+    "platform": "facebook",
+    "language": "de",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid0P2dbKNA7KXgJ35iCVY1hiECo8PHAAkNZNKKvk143SNeCqiu1pRuRiS8nikcriPzAl&id=61595239823399",
+    "verifiedAt": "2026-10-19T08:03:36.199Z",
+    "key": "jadwigi-facebook-de",
+    "canonicalId": "kawiarenka-sw-jadwigi",
+    "evidence": {
+      "account": "https://www.facebook.com/profile.php?id=61595239823399",
+      "language": "de",
+      "public": true,
+      "content": "Actual full written body, matching account and outgoing approved website URL where present.",
+      "fullCaptionBodyMatch": true,
+      "outgoingLinks": [
+        {
+          "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwroc-love.com%2Fshare%2Fde%2Flifestyle.html%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe2ni7A-sIxkuHXDNQywWOWDV-DMeg-bbFFBg4e-Q3BoHaXLjhGJQm0ckg-SA_aem_wyos_S5eju58M01gDhBsfQ&h=AUCOhAX12uMP5kdG6m07lMJEnQB1PPfVDHqjXF-rRBDfG_lPRYRkTh1LQBEVKsimxqNizKTBzKCQDh7Wcfd-bYcfgaKP-BE_cnpe93_f_jb7EeXpchGQJAH6P1oliGHcxzrN4w0zrEgahCewGNEQ&__tn__=-UK-R&c[0]=AUAjtjZAgrkt-7aaKphHbrdkj4mZsB3ou24c5wUEM_WpPvLO7qsEBCH-s9_jSF490On-1GjPJaUif9LSStyuIjR-VQ35OckGbbZQRGg1Y80Fnw7WuxvVwrLoVMN5i7aP5_e2fErAU2RdTeQ2EclDsHkqRGzUXSP9ZAAXs8Kpc9sSQhtkdnyuFHhnpb6hQivg-gI",
+          "text": "https://wroc-love.com/share/de/lifestyle.html"
+        }
+      ],
+      "evidence": [
+        "jadwigi-facebook-de.txt",
+        "jadwigi-facebook-de.png"
+      ]
+    }
+  },
+  {
+    "platform": "instagram",
+    "language": "de",
+    "url": "https://www.instagram.com/p/DeqyLogGNTs/",
+    "verifiedAt": "2026-10-19T08:03:37.387Z",
+    "key": "jadwigi-instagram-de",
+    "canonicalId": "kawiarenka-sw-jadwigi",
+    "evidence": {
+      "account": "/wroclaw.lowersilesia.de/",
+      "language": "de",
+      "public": true,
+      "content": "Actual written photo post: full published caption matches saved copy, correct account and source media uploaded.",
+      "fullCaptionMatch": true,
+      "evidence": [
+        "jadwigi-instagram-de.txt",
+        "jadwigi-instagram-de.png"
+      ]
+    }
+  }
+]

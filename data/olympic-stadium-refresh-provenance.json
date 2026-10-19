@@ -1,0 +1,417 @@
+{
+  "photos": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4560.JPG",
+      "asset": "/assets/stadion-olimpijski-01.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-01.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "094838871f8607407b7d8dfbf35d5c873e0f157bbac0e14183da71aeda1dff84",
+      "preparedSHA256": "492682b3825b2d8570309075f6a814776a4d9d5fb9677a8c5c01a0d702c5cc9a"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4562.JPG",
+      "asset": "/assets/stadion-olimpijski-02.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-02.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "e78999e2aa2c83c841289fd83fde7d88de08baf323ea3740b4f1e6ac664f8e9e",
+      "preparedSHA256": "c7c68ee2b5bcc5ec4667f4001af308f02d26642057ccd2b1474eefc78a0a0602"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4563.JPG",
+      "asset": "/assets/stadion-olimpijski-03.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-03.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "aab4ff4f298c2031e02ee86e9ea9793a2e37c9d7e9ac05600cb9d7f4034af783",
+      "preparedSHA256": "4f8f8e27749c2014cb3d59daa123a058ad33af2a22e7a355fd856256acba71d4"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4564.JPG",
+      "asset": "/assets/stadion-olimpijski-04.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-04.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "104d245b505894e37458e590e62eb76e1e45cd2091fa777f56c7eebe31c2b0ea",
+      "preparedSHA256": "05233e09a3775d171a4d15847421352f71b01fe93f97371906e2e80e2ff3a1f8"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4565.JPG",
+      "asset": "/assets/stadion-olimpijski-05.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-05.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "5777130b37c076f35f1e995e7109fdb2e13604642e7508d10a8c8245e1010344",
+      "preparedSHA256": "5dc8554ff7e9b8365a4128f75bde0393f898a8c05ae2793a8e0aba1f867e847b"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4566.JPG",
+      "asset": "/assets/stadion-olimpijski-06.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-06.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "e8705b5a39e4fbcbc7dcbae87de80df92a2f5ee5de58142e70ad2238343b5c88",
+      "preparedSHA256": "627d38295b84d3cac9decff09d35469b7626605c3f97703127b0fd391535cb29"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4567.JPG",
+      "asset": "/assets/stadion-olimpijski-07.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-07.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1800,
+        1350
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "c7b588ed78f9f7b6cd2a7320621aa47eeb65bfab4e6447020bfa772621d2c69c",
+      "preparedSHA256": "68615b188f23669e8da19f3b509665aaf75cee28df8d8ae028fea765eccd4b09"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4568.JPG",
+      "asset": "/assets/stadion-olimpijski-08.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-08.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "163a6181466fa73e0ae34cd2350660bc594a62c601ccb51bd56a18d4bae819ed",
+      "preparedSHA256": "e333cb3d29bc06be54d94c8d9d210f84b8ebe9ae7102fb5c5cb62e7ad3ee5a2a"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4569.JPG",
+      "asset": "/assets/stadion-olimpijski-09.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-09.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1800,
+        1350
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "cefb8cfaaf5958048cd851177b2c43d1dbad22a2ea83336481c65d7b80a8633d",
+      "preparedSHA256": "b528c9b0a3b4db8b293510506545099b471a74acee3db11cb463e4f5d6a1cc5b"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4570.JPG",
+      "asset": "/assets/stadion-olimpijski-10.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-10.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "d4bf521f3ce53221620a3abccb3ed9ce4315999e9987e92e0f7361c97c90c3cd",
+      "preparedSHA256": "35fe7237db66761bddf550a7fe7409a124401cff390704181396bb8ad7a3d519"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4571.JPG",
+      "asset": "/assets/stadion-olimpijski-11.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-11.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "c0bca9568fed0a8e11ae9f1407fa6a350e3e7adc43f19fe981a21ba2dd626b78",
+      "preparedSHA256": "d49a5493362a2a67da2e3e0793f6fdaf0ac7e5d68987e1af29dafd810832b17e"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4572.JPG",
+      "asset": "/assets/stadion-olimpijski-12.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-12.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "ed07c8ae9afc344f49617547120e6f6c4cd2bfe6f2e5b4b27d8a7aa3d6a29827",
+      "preparedSHA256": "62c9253e950163f1df1484095874d9bb6cbeba03fe7685198af54b6a5c2ee6b1"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4573.JPG",
+      "asset": "/assets/stadion-olimpijski-13.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-13.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "3db3adc83946e6e64a2d411be603af50092dbf381fd51c8b95f81c0e8193684f",
+      "preparedSHA256": "ce99848596837aa77274f7cbc92277855d8701182481b454e96ad5a685e1bc70"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/IMG_4574.JPG",
+      "asset": "/assets/stadion-olimpijski-14.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-14.jpg",
+      "action": "orientation-normalized replacement",
+      "sourceDimensions": [
+        4032,
+        3024
+      ],
+      "correctDimensions": [
+        1350,
+        1800
+      ],
+      "oldDimensions": [
+        4032,
+        3024
+      ],
+      "sourceSHA256": "ea2636c42da8ce4d1a7c5318526d8ed2ea26ddee6e2a7610ecd9339fca248f24",
+      "preparedSHA256": "f43fc615caa1c7454081d739d2d71eb53ec4692a1f93292d803b96dc8b9a3540"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 10.28.44.jpeg",
+      "asset": "/assets/stadion-olimpijski-15.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-15.jpg",
+      "action": "new autumn view",
+      "sourceSHA256": "60ca4c636374e649e6cc03b94e6457eaf2a0d411f41f77cece3ae96a343f8640",
+      "preparedSHA256": "ebc03edb9b25b15c7e36bc80690354130b1ed1de599bba28d6c4ce6e79073780"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 10.28.46 (2).jpeg",
+      "asset": "/assets/stadion-olimpijski-16.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-16.jpg",
+      "action": "new autumn view",
+      "sourceSHA256": "447e6070d5120311c143092315679eae9d01b2bc529a8297c64ce490acd9ad95",
+      "preparedSHA256": "297909525691e12f5c8888162d606abf6130388963d7cce1ab278a9a63fa89c4"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 10.28.46 (4).jpeg",
+      "asset": "/assets/stadion-olimpijski-17.jpg",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/olympic-stadium-enrichment/assets/stadion-olimpijski-17.jpg",
+      "action": "new autumn view",
+      "sourceSHA256": "b7701514162a504bbca8b12178c87cb3ce561e9baa36aa350294767b8370f3ba",
+      "preparedSHA256": "170887a860aac756105bd43e0ab2ac2c89d8e774eade45dcdbff9d5c5cf28e8d"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wroclaw.pl/sport/stadion-olimpijski",
+      "checkedAt": "2026-10-19",
+      "supports": "Zalesie sports complex, Konwiarz, address Paderewskiego35, speedway and American football. Old transport and capacity excluded due inconsistencies with other official page."
+    },
+    {
+      "url": "https://www.wroclaw.pl/dla-mieszkanca/stadion-olimpijski-poznaj-wroclaw",
+      "checkedAt": "2026-10-19",
+      "supports": "1926-1928 construction; external visits possible; event-related stadium use."
+    },
+    {
+      "url": "https://www.wroclaw.pl/dla-mieszkanca/rocznica-urodzin-architekta-richarda-konwiarza-za-projekt-stadionu-dostal-medal-olimpijski",
+      "checkedAt": "2026-10-19",
+      "supports": "Historic gateway, later clock tower and stands; architectural sports venue rather than a generic park."
+    }
+  ],
+  "social": [
+    {
+      "language": "he",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid032AMiv8iAC3GxxqwJLHbndc7M6PSbcb1WNLfxqBQbeNmrhowfsPtz8oVndX8rR6f9l&id=61591964083308",
+      "historicalVerifiedAt": "2026-10-09T18:30:42.565Z",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    },
+    {
+      "language": "he",
+      "platform": "instagram",
+      "url": null,
+      "historicalVerifiedAt": null,
+      "status": "missing",
+      "reason": "No matching entry in localized registry; no publication authorized by this task."
+    },
+    {
+      "language": "en",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MBVMpnXbA9FS9MmSg4rfi5e1ESPU7WfYBJzXtPpvLJhaTwYKTY7DJJsAZgSDKMrCl&id=61595036942289",
+      "historicalVerifiedAt": "2026-10-07",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    },
+    {
+      "language": "en",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeRU3Srmthq/",
+      "historicalVerifiedAt": "2026-10-09T10:47:01.304Z",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    },
+    {
+      "language": "pl",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid0tZobr66B4YgMsgnRtnNBpcbPyaZq4vXRJV1ne2HfjUqB1CMQSNhSCS3f3WJxx6w8l&id=61595207664875",
+      "historicalVerifiedAt": "2026-10-08T15:33:50.210Z",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    },
+    {
+      "language": "pl",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeT10-PDU3n/",
+      "historicalVerifiedAt": "2026-10-10T10:13:55.707Z",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    },
+    {
+      "language": "de",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gbt6bsxvvkEwV9Z7qs5L9ZmUk9e9Pf46VMai4FZ4eFrtCRtoqTdVER1F7i4wjXEZl&id=61595239823399",
+      "historicalVerifiedAt": "2026-10-07T13:56:26.305812+00:00",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    },
+    {
+      "language": "de",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMgkuYFUU9/",
+      "historicalVerifiedAt": "2026-10-07T13:56:26.305812+00:00",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    },
+    {
+      "language": "cs",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0XPJKF3SHzXX8ttEr8XhyQvyospBmtPMjNvXH8iJHNQHyqJTERzx1LceU97K28ZMGl&id=61594716405964",
+      "historicalVerifiedAt": "2026-10-07",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    },
+    {
+      "language": "cs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DePIeQuDb5p/",
+      "historicalVerifiedAt": "2026-10-08T14:24:04.477592+00:00",
+      "status": "not-accessible-for-current-verification",
+      "reason": "Meta account browser reserved to single publisher; old registry date is not a current content/account verification. Do not claim verified.",
+      "publicReadAttempt": "2026-10-19 web open failed fetch/cache miss; no current post body/account evidence available"
+    }
+  ],
+  "pendingVideoClips": 6
+}

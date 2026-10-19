@@ -32,8 +32,10 @@ test("every canonical social item remains a direct Facebook or Instagram link", 
     for (const post of posts) {
       const place = catalog.getPlace(id);
       assert.ok(place.socialPosts.some(item => item.platform === post.platform && item.url === post.url), `${id}: retain every verified historical post`);
-      const preferred = posts.find(item => item.platform === post.platform && item.language === post.language);
-      assert.equal(catalog.getSocialPost(place, post.platform, post.language).url, preferred.url, `${id}: route to the first verified matching-language post`);
+      const active = posts.filter(item => !place.socialPosts.find(row => row.platform === item.platform && row.url === item.url)?.routingExcluded);
+      const preferred = active.find(item => item.platform === post.platform && item.language === post.language);
+      if (preferred) assert.equal(catalog.getSocialPost(place, post.platform, post.language)?.url, preferred.url, `${id}: route to first currently verified matching-language post`);
+      else assert.notEqual(catalog.getSocialPost(place, post.platform, post.language)?.url, post.url, `${id}: unverified historical post stays hidden`);
     }
   }
 });
@@ -109,7 +111,7 @@ test("reviewed unrelated legacy posts are retained without being selected for ex
     const place = catalog.getPlace(review.placeId);
     const legacy = place.socialPosts.find(post => post.platform === review.platform && post.url === review.url);
     assert.ok(legacy?.routingExcluded, `${review.placeId}: retain excluded historical record`);
-    assert.notEqual(catalog.getSocialPost(place, review.platform, "he").url, review.url);
+    assert.notEqual(catalog.getSocialPost(place, review.platform, "he")?.url, review.url);
   }
   const place = {socialPosts: [
     {platform: "facebook", language: "he", url: "https://www.facebook.com/wrong/", routingExcluded: true},
@@ -133,11 +135,13 @@ test("explicit English Instagram account paths never route from Hebrew maps", ()
   assert.equal(catalog.getSocialPost(english,"instagram","en").url,english.socialPosts[0].url);
 });
 
-test('Borek exposes only reviewed place posts and hides the missing Hebrew Instagram post', () => {
+test('Borek exposes reviewed place posts and its newly verified Hebrew Instagram post', () => {
   const catalog = loadCatalog();
   const place = catalog.getPlace('wieza-cisnien-borek');
   assert.equal(place.links.socialProfileFallback, false);
-  assert.equal(catalog.getSocialPost(place, 'instagram', 'he'), null);
+  const replacement = JSON.parse(readFileSync(resolve(root, 'data/october19-verified-social-connections.json'), 'utf8')).find(row => row.canonicalId === 'wieza-cisnien-borek' && row.platform === 'instagram' && row.language === 'he');
+  assert.ok(replacement);
+  assert.equal(catalog.getSocialPost(place, 'instagram', 'he')?.url, replacement.url);
   const audit = JSON.parse(readFileSync(resolve(root, 'data/borek-social-audit.json'), 'utf8'));
   assert.equal(audit.entries.length, 10);
   for (const row of audit.entries.filter(row => row.status === 'verified-post')) {

@@ -188,7 +188,7 @@ test("24-hour map exposes verified social posts and local photo galleries", () =
   assert.match(media, /assets\/hydropolis-/);
   assert.equal(existsSync(resolve(root, "dist/client/assets/hydropolis-01.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/gallery-panorama-01.jpg")), true);
-  assert.match(media, /"town-hall":\s*\{ gallery: galleries\.townHall \}/);
+  assert.match(media, /"town-hall":\s*canonicalResources\("town-hall"\)/);
   assert.match(media, /old-town-hall-wroclaw\.jpg/);
   assert.equal(existsSync(resolve(root, "dist/client/assets/old-town-hall-wroclaw.jpg")), true);
   assert.equal(existsSync(resolve(root, "dist/client/assets/video-rynek-fountains.mp4")), false);
@@ -428,6 +428,6 @@ test("four-day and Christmas mobile controls contain overflow locally", () => {
   assert.match(css, /\.premium-languages\s*\{[\s\S]*?max-width:\s*100%;[\s\S]*?overflow-x:\s*auto;/);
   assert.match(css, /\.day-nav\s*\{[\s\S]*?max-width:\s*calc\(100% - 36px\);[\s\S]*?overflow-x:\s*auto;/);
   assert.doesNotMatch(css, /(?:html|body|\*)\s*\{[^}]*overflow-x:\s*hidden/);
-  assert.match(premium, /premium\.css\?v=20260811-1/);
-  assert.match(christmas, /premium\.css\?v=20260811-1/);
+  assert.match(premium, /premium\.css\?v=20261019-enrichment/);
+  assert.match(christmas, /premium\.css\?v=20261019-enrichment/);
 });

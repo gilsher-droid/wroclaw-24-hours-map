@@ -1,0 +1,363 @@
+{
+  "research": {
+    "canonicalId": "math-tower",
+    "existingCoordinatesPreserved": [
+      51.11391,
+      17.03329
+    ],
+    "officialAddress": "pl. Uniwersytecki 1, 50-137 Wrocław",
+    "existingPhotosRetained": [
+      "/assets/gallery-university-01.jpg",
+      "/assets/gallery-university-03.jpg"
+    ],
+    "existingPhotosRemovedFromTowerOnly": {
+      "/assets/gallery-university-02.jpg": "Aula Leopoldina interior, not the tower",
+      "/assets/gallery-university-04.jpg": "Aula Leopoldina interior, not the tower",
+      "/assets/gallery-university-05.jpg": "Prominent visitors at separate fountain, not tower; no personal-photo approval"
+    },
+    "newPhotos": [
+      "mathematical-tower-night.jpg",
+      "mathematical-tower-statue.jpg",
+      "mathematical-tower-riverside.jpg"
+    ],
+    "videosFound": 0,
+    "youtubeUploadsRequired": 0,
+    "guideChanges": 0,
+    "sourceFilesDeletedOrChanged": 0,
+    "mapDecisions": {
+      "wroclaw-24-hours": "Keep existing optional viewpoint stop",
+      "wroclaw-christmas": "Keep existing day2 optional viewpoint, verify official closures in practical copy",
+      "cultural-adventure": "Add same canonical math-tower under museums-history and architecture-design; existing aula experience is a relationship without independent pin, preserve it",
+      "wroclaw-four-days": "No new route stop; existing optional tower mention remains, route not expanded",
+      "lifestyle-guide": "Not food, lodging, or shopping",
+      "excursions": "Not an out-of-city excursion"
+    },
+    "officialSources": [
+      {
+        "url": "https://muzeum.uni.wroc.pl/plan-zwiedzania/wieza-matematyczna/",
+        "facts": [
+          "Museum tower and former astronomical observatory",
+          "Observatory founded1791",
+          "Viewing terrace about42m",
+          "Imperial stairs lead to tower"
+        ]
+      },
+      {
+        "url": "https://muzeum.uni.wroc.pl/godziny-otwarcia/",
+        "facts": [
+          "No elevator to tower",
+          "Closed Wednesdays, public holidays, HolySaturday,ChristmasEve",
+          "Ticket office closes30minutes before museum"
+        ]
+      },
+      {
+        "url": "https://muzeum.uni.wroc.pl/muzeum/kontakt/",
+        "facts": [
+          "Museum address pl.Uniwersytecki1"
+        ]
+      }
+    ]
+  },
+  "media": [
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.46 (3).jpeg",
+      "bytes": 141517,
+      "sha256": "c5756ed0697768838f013f3b0b06d39fb58da98b5ea0332ba0f6d98e4b6d398a",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 1,
+      "status": "selected",
+      "reason": "Distinct original view of the tower and university context",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/mathematical-tower-enrichment/prepared-assets/mathematical-tower-statue.jpg"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.46.jpeg",
+      "bytes": 141517,
+      "sha256": "c5756ed0697768838f013f3b0b06d39fb58da98b5ea0332ba0f6d98e4b6d398a",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 2,
+      "status": "excluded",
+      "reason": "Exact duplicate of selected statue photo"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.47 (1).jpeg",
+      "bytes": 128055,
+      "sha256": "4d3b405e50317749870d92f1d684a47f42cf0396ecdede1fea04b8b831a57fd3",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 3,
+      "status": "selected",
+      "reason": "Distinct original view of the tower and university context",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/mathematical-tower-enrichment/prepared-assets/mathematical-tower-night.jpg"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.47 (2).jpeg",
+      "bytes": 117377,
+      "sha256": "67a8cf9d0d1abdd1e442ebea2d95f707c83683959305960071bcd37e3c6f96ec",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 4,
+      "status": "excluded",
+      "reason": "Near-repeat of selected night tower composition; selected 3 shows broader facade and terrace"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.47 (4).jpeg",
+      "bytes": 128055,
+      "sha256": "4d3b405e50317749870d92f1d684a47f42cf0396ecdede1fea04b8b831a57fd3",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 5,
+      "status": "excluded",
+      "reason": "Exact duplicate of selected tower night photo"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.47 (5).jpeg",
+      "bytes": 117377,
+      "sha256": "67a8cf9d0d1abdd1e442ebea2d95f707c83683959305960071bcd37e3c6f96ec",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 6,
+      "status": "excluded",
+      "reason": "Exact duplicate of near-repeat 4"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/739066638_10244931964259640_153323123361004682_n.jpg",
+      "bytes": 317255,
+      "sha256": "6c75169539c30207829a6effda4fb09637c25c9b4a2e06e6daefe90163c7082e",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 7,
+      "status": "excluded",
+      "reason": "Same street composition already retained in gallery-university-01.jpg"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/740052756_10244931966979708_3788905547594391614_n.jpg",
+      "bytes": 474227,
+      "sha256": "5bcd1f2240d35aa116ccd61b20a68495458fb8d985f9f0a0f0a7fcadd0f6e7f6",
+      "size": [
+        2048,
+        1360
+      ],
+      "index": 8,
+      "status": "excluded",
+      "reason": "Aula Leopoldina interior, separate canonical place"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/740486966_10244931965779678_2232032539844803280_n.jpg",
+      "bytes": 237745,
+      "sha256": "cdf63921c4f3d99523cdc7dba4a7030b3bd094f4fff3cbdd3f9a4ba569ae5422",
+      "size": [
+        2048,
+        1150
+      ],
+      "index": 9,
+      "status": "excluded",
+      "reason": "University exterior context already retained in gallery-university-03.jpg"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/741112977_10244931966859705_8938826148654997271_n.jpg",
+      "bytes": 400390,
+      "sha256": "87fae3ce8831b831e411aaf7cf48dd8790d85a12ff6a6eaafe74a9f8f2278756",
+      "size": [
+        2048,
+        1360
+      ],
+      "index": 10,
+      "status": "excluded",
+      "reason": "Aula Leopoldina interior, separate canonical place"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/IMG_1091.JPG",
+      "bytes": 1091194,
+      "sha256": "c8a45e18f21694fc3786a484559e6fb09c19e13e170d71a99dd31593cc66dee2",
+      "size": [
+        1536,
+        2048
+      ],
+      "index": 11,
+      "status": "excluded",
+      "reason": "Prominent visitors / possible personal portrait at fencing-master fountain; not tower-specific, no permission"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-06-20 at 17.58.18.jpeg",
+      "bytes": 320206,
+      "sha256": "663e3ebf191bdff1aad523d6f47dc4e6420e08f5b24b2aaf41b2d26144a86dd5",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 12,
+      "status": "excluded",
+      "reason": "Visually repeats fountain portrait 11 at different encoding, no personal permission"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-07-05 at 20.44.54 (1).jpeg",
+      "bytes": 326002,
+      "sha256": "7639e24fab3bf3e7ba36c705afcbcf17c672295c9a60fe9699058ab91c1d6b5f",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 13,
+      "status": "excluded",
+      "reason": "Near-repeat street view already retained as existing photo01"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-07-05 at 20.44.54.jpeg",
+      "bytes": 328526,
+      "sha256": "8307bbbdd6612f13607ed4f69db5300bf315203e3a21d0779c6427c7651a4da2",
+      "size": [
+        1200,
+        1600
+      ],
+      "index": 14,
+      "status": "excluded",
+      "reason": "Near-repeat street view already retained as existing photo01"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-10-19 at 08.41.52 (1).jpeg",
+      "bytes": 412194,
+      "sha256": "b3c9a16d98cdc60a4a88f3a82c2ea593a01e613b15100ec45f80b9dbdf201adb",
+      "size": [
+        2048,
+        1536
+      ],
+      "index": 15,
+      "status": "selected",
+      "reason": "Distinct original view of the tower and university context",
+      "prepared": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/mathematical-tower-enrichment/prepared-assets/mathematical-tower-riverside.jpg"
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-10-19 at 08.41.52 (8).jpeg",
+      "bytes": 412194,
+      "sha256": "b3c9a16d98cdc60a4a88f3a82c2ea593a01e613b15100ec45f80b9dbdf201adb",
+      "size": [
+        2048,
+        1536
+      ],
+      "index": 16,
+      "status": "excluded",
+      "reason": "Exact duplicate of selected riverside view"
+    }
+  ],
+  "social": [
+    {
+      "language": "he",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUuXjPEd_R/",
+      "account": "wroclaw.lowersilesia.he",
+      "status": "verified-written-place-post",
+      "evidence": "social-ig-he.txt",
+      "content": "Hebrew caption explicitly Mathematical Tower, own street photograph and separate tower map stop.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "en",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeRB61XGlu3/",
+      "account": "wroclaw.lowersilesia",
+      "status": "verified-written-place-post",
+      "evidence": "social-ig-en.txt",
+      "content": "Written caption in matching language explicitly identifies Mathematical Tower and original street view, links map; correct account read in actual post.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "pl",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeToGayjS0m/",
+      "account": "wroclaw.lowersilesia.pl",
+      "status": "verified-written-place-post",
+      "evidence": "social-ig-pl.txt",
+      "content": "Written caption in matching language explicitly identifies Mathematical Tower and original street view, links map; correct account read in actual post.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "de",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeUTxH0jZ5u/",
+      "account": "wroclaw.lowersilesia.de",
+      "status": "verified-written-place-post",
+      "evidence": "social-ig-de.txt",
+      "content": "Written caption in matching language explicitly identifies Mathematical Tower and original street view, links map; correct account read in actual post.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "cs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeUh7z_DvU_/",
+      "account": "wroclaw.lowersilesia.cs",
+      "status": "verified-written-place-post",
+      "evidence": "social-ig-cs.txt",
+      "content": "Written caption in matching language explicitly identifies Mathematical Tower and original street view, links map; correct account read in actual post.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "en",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04Gthd2mDKvk36ypdxfpb6wU3yAKvycJAfaHC7qyjaBJRPC18bPjFGoBoweiaVf2vl&id=61595036942289",
+      "account": "Wroc-Love Wrocław & Lower Silesia",
+      "status": "verified-written-place-post",
+      "evidence": "social-fb-en.txt",
+      "content": "English public written post explicitly Mathematical Tower viewpoint and correct English page ID.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "pl",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02SNoJ5VJXFxGtxXJXhVKopJPu7TMFHLNKcPUhc3r6xxK3tWFN3ucv1xGuU1JH4Trvl&id=61595207664875",
+      "status": "verified-written-place-post",
+      "evidence": "social-fb-pl.txt",
+      "content": "Matching-language public written post specifically Mathematical Tower and correct localized page read in actual post.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "de",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06EFayQBGyQq4jBuJ1ZHiCxojVfjMjfkaJhUZeZUej3ZUCKKJryMZNqqJnpothuu9l&id=61595239823399",
+      "status": "verified-written-place-post",
+      "evidence": "social-fb-de.txt",
+      "content": "Matching-language public written post specifically Mathematical Tower and correct localized page read in actual post.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "cs",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02mLDaCyrnzfbp1wcRwAdkEpKEbdp6aBV51JPv2NZcReqH1hMpjyVSUpkFuB4LQNgrl&id=61594716405964",
+      "status": "verified-written-place-post",
+      "evidence": "social-fb-cs.txt",
+      "content": "Matching-language public written post specifically Mathematical Tower and correct localized page read in actual post.",
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "language": "he",
+      "platform": "facebook",
+      "url": null,
+      "account": "https://www.facebook.com/profile.php?id=61591964083308",
+      "status": "missing-verified-written-place-post",
+      "legacyUrl": "https://www.facebook.com/61591964083308/posts/122109914649398802/",
+      "legacyDisposition": "Already routingExcluded; actual post is general university/Aula story without Mathematical Tower narrative, keep excluded",
+      "content": "Local registry has no verified Hebrew tower post. Native Page search מגדל returned unrelated places; specific search מתמטיקה returned no results. Search completeness not guaranteed; no claim that a post cannot exist.",
+      "evidence": [
+        "social-fb-he-legacy.txt",
+        "social-fb-he-search.txt",
+        "social-fb-he-specific-search.txt"
+      ],
+      "checkedAt": "2026-10-19"
+    }
+  ]
+}
