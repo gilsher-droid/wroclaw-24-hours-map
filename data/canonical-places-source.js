@@ -13065,7 +13065,7 @@
     "personalVisit": true,
     "originalContent": true,
     "originalPhotography": true,
-    "originalVideo": false,
+    "originalVideo": true,
     "factualSources": [
       {
         "url": "https://www.wroclaw.pl/sport/stadion-olimpijski",
@@ -13083,7 +13083,8 @@
         "supports": "Historic gateway, later clock tower and stands; architectural sports venue rather than a generic park."
       }
     ],
-    "verifiedAt": "2026-10-19"
+    "verifiedAt": "2026-10-19",
+    "visitVideoPublicationReceipt": "data/olympic-stadium-visit-publication.json"
   },
   "socialPosts": [],
   "media": {
@@ -13106,7 +13107,14 @@
       "/assets/stadion-olimpijski-16.jpg",
       "/assets/stadion-olimpijski-17.jpg"
     ],
-    "videos": [],
+    "videos": [
+      "https://youtube.com/shorts/P2yacrgX_eg",
+      "https://youtube.com/shorts/mAtvLR3I5hA",
+      "https://youtube.com/shorts/WGMudkQ96D4",
+      "https://youtube.com/shorts/8dnp9MAaTig",
+      "https://youtube.com/shorts/YJGYqzLFYcQ",
+      "https://youtube.com/shorts/41IYcRT2G4c"
+    ],
     "metadata": {
       "/assets/stadion-olimpijski-01.jpg": {
         "tags": [
@@ -13233,6 +13241,48 @@
         "sourceSHA256": "b7701514162a504bbca8b12178c87cb3ce561e9baa36aa350294767b8370f3ba",
         "assetSHA256": "170887a860aac756105bd43e0ab2ac2c89d8e774eade45dcdbff9d5c5cf28e8d",
         "orientation": "EXIF normalized, full frame"
+      },
+      "https://youtube.com/shorts/P2yacrgX_eg": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-05 at 18.31.48.mp4",
+        "sourceSHA256": "da682045d48e3987913cee283f25c11db5224819f7ac9f8352fa5132c800364c",
+        "uploadSHA256": "c67b385b3cc395ff6304aa0da902d3474ab9bd3b3333c06e000b5453753e0130",
+        "transformation": "Video stream copied without re-encoding, full original image sequence and duration; background audio omitted in upload work copy only.",
+        "verifiedAt": "2026-10-19"
+      },
+      "https://youtube.com/shorts/mAtvLR3I5hA": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (1).mp4",
+        "sourceSHA256": "6adc7c0975cac1f1a04bafa286ff459723af12db44015aad78f7ec3ca6964121",
+        "uploadSHA256": "24f54a5286d2a00dc8fd7485278929c796c7407b74cb844446aff37fe7f7e5bb",
+        "transformation": "Video stream copied without re-encoding, full original image sequence and duration; background audio omitted in upload work copy only.",
+        "verifiedAt": "2026-10-19"
+      },
+      "https://youtube.com/shorts/WGMudkQ96D4": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (2).mp4",
+        "sourceSHA256": "6b787aac6c3493aa85afca597fe139e2a5379c6a883c8fb7d1a744c23f09b23d",
+        "uploadSHA256": "9fda570bd6534c2a3e1ead9e02a5414a44f0a301a1ce8437f9ce4624a17f74bb",
+        "transformation": "Video stream copied without re-encoding, full original image sequence and duration; background audio omitted in upload work copy only.",
+        "verifiedAt": "2026-10-19"
+      },
+      "https://youtube.com/shorts/8dnp9MAaTig": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (8).mp4",
+        "sourceSHA256": "9ff679e41d93eb65c48642250a88728f31da76d01c03442b6a8b82659b9efd5e",
+        "uploadSHA256": "85e997aba834bdff7df6ba37d8db6ef027f2d0d33a8fc7e8e06176698e8a9990",
+        "transformation": "Video stream copied without re-encoding, full original image sequence and duration; background audio omitted in upload work copy only.",
+        "verifiedAt": "2026-10-19"
+      },
+      "https://youtube.com/shorts/YJGYqzLFYcQ": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (9).mp4",
+        "sourceSHA256": "f8064502c97868d22319ac257846f280760c6ca407398cbda1e1b6c82c8f3892",
+        "uploadSHA256": "d53c642b233a16d7d95be5773f3c907f25660cfa70554889f59db11a9269c00c",
+        "transformation": "Video stream copied without re-encoding, full original image sequence and duration; background audio omitted in upload work copy only.",
+        "verifiedAt": "2026-10-19"
+      },
+      "https://youtube.com/shorts/41IYcRT2G4c": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48.mp4",
+        "sourceSHA256": "1966ad5f1e50c884b392d08d805399984e8452b61af2907483b85c131a8ddd7c",
+        "uploadSHA256": "2bfe6f12d8c503a424283ee82b7ec5928b38cab2894ee53f2ee247d051fb1aed",
+        "transformation": "Video stream copied without re-encoding, full original image sequence and duration; background audio omitted in upload work copy only.",
+        "verifiedAt": "2026-10-19"
       }
     },
     "thumbnail": "/assets/stadion-olimpijski-09.jpg"

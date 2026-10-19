@@ -424,8 +424,7 @@
   "pendingNewVideos": {
     "renoma": 0,
     "rynek": 2,
-    "town-hall": 0,
-    "stadion-olimpijski-wroclaw": 0
+    "town-hall": 0
   },
   "excludedTowerImages": [
     "/assets/gallery-university-02.jpg",
