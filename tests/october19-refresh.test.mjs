@@ -24,7 +24,7 @@ test('Refreshed galleries exclude wrongly associated and unapproved personal fra
  for(const id of ['math-tower','pan-tadeusz-museum','pedet','renoma','wroclavia','pasaz','pergola','rynek','town-hall','slodowa','dominikan','fashion-outlet','fc-caffe-kuznicza','stadion-olimpijski-wroclaw']){const p=catalog.getPlace(id);for(const lang of ['he','en','pl','de','cs'])assert.ok(p.description[lang]?.length>20,`${id}:${lang}`);for(const src of p.media.photos)assert.ok(existsSync(new URL(src.slice(1),root)),src);}
 });
 test('Approved social permalinks connect only to their canonical place or Nadodrze area',()=>{
- const links=json('data/october19-verified-social-connections.json');assert.equal(links.length,17);
+ const links=json('data/october19-verified-social-connections.json');assert.equal(links.length,33);
  const area=window.WROC_EXPERIENCE_CATALOG.getExperience('street-art-nadodrze-olbin');
  for(const row of links){if(row.mapPointId){assert.equal(row.mapPointId,'nadodrze');assert.ok(area.mapPoints.find(p=>p.id==='nadodrze').social.some(p=>p.url===row.url));assert.ok(!area.mapPoints.find(p=>p.id==='olbin').social?.some(p=>p.url===row.url));}else assert.equal(catalog.getSocialPost(catalog.getPlace(row.canonicalId),row.platform,row.language)?.url,row.url,row.key);}
  assert.equal(catalog.getSocialPost(catalog.getPlace('math-tower'),'facebook','he'),null);

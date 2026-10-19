@@ -16,5 +16,5 @@ test("Nadodrze media enriches its existing area without leaking to Olbin or dupl
  for(const l of ["he","en","pl","de","cs"]){assert.ok(n.name[l]);assert.ok(n.description[l]);assert.ok(n.media.metadata[n.media.photos[0]].alt[l]);}
  assert.ok(existsSync(resolve(root,n.media.photos[0].slice(1))));
  const registry=JSON.parse(readFileSync(resolve(root,"data/youtube-media-migration.json"),"utf8"));assert.ok(Object.values(registry).some(v=>v.youtube===n.media.videos[0]&&v.status==="public"));
- assert.equal(n.social.length,4);assert.ok(n.social.every(post=>["he","en"].includes(post.language)));assert.equal(n.links.socialProfileFallback,false);
+ assert.equal(n.social.length,8);assert.ok(n.social.every(post=>["he","en","pl","de"].includes(post.language)));assert.equal(n.links.socialProfileFallback,false);
 });
