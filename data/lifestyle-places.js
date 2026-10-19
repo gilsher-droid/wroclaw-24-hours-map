@@ -57,7 +57,7 @@
   "pl": "Kawiarnia przy Kuźniczej, oferująca według własnej strony kawę, śniadania i ciasta. Nasze zdjęcie z wizyty pokazuje okrągły szyld, otwartą fasadę i stoliki na ulicy. Można połączyć przerwę ze spacerem między uniwersytetem a Rynkiem.\nKuźnicza 30, Wrocław",
   "de": "Ein Café an der Kuźnicza mit Kaffee, Frühstück und Kuchen laut eigener Website. Unser Besuchsfoto zeigt das runde Schild, die offene Front und Tische am Straßenrand. Eine mögliche Pause zwischen Universitätsviertel und Rynek.\nKuźnicza 30, Wrocław",
   "cs": "Kavárna v ulici Kuźnicza s kávou, snídaněmi a zákusky podle vlastního webu. Naše fotografie z návštěvy ukazuje kulatý vývěsní štít, otevřené průčelí a stolky u ulice. Možná zastávka mezi univerzitou a Rynkem.\nKuźnicza 30, Wrocław"
-}, coordinates: [51.1132329,17.0346388], categories: ["eat","drink"], website: "https://fccaffe.eatbu.com/?lang=pl" },
+}, coordinates: [51.1132329,17.0346388], categories: ["eat","drink"], mediaKey: "fc-caffe-kuznicza", website: "https://fccaffe.eatbu.com/?lang=pl" },
 
     { id: "kawiarenka-sw-jadwigi", categories: ["eat", "drink"], coordinates: [51.1160449, 17.0433953], mediaKey: "kawiarenka-sw-jadwigi" },
     { id: "cafe-berg-wroclaw", categories: ["eat", "drink"], coordinates: [51.103978840814904, 17.03740582927844], mediaKey: "cafe-berg-wroclaw" },
