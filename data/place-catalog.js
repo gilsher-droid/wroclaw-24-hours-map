@@ -19429,18 +19429,18 @@
     "id": "morskie-oko-wroclaw",
     "localName": "Kąpielisko Morskie Oko",
     "name": {
-      "he": "מורסקיה אוקו – ורוצלב",
-      "en": "Morskie Oko — Wrocław",
+      "he": "מורסקי אוקו, אתר הרחצה בוורוצלב",
+      "en": "Morskie Oko bathing lake, Wrocław",
       "pl": "Kąpielisko Morskie Oko",
-      "de": "Morskie Oko – Breslau",
-      "cs": "Morskie Oko – Vratislav"
+      "de": "Morskie Oko, Badesee in Breslau",
+      "cs": "Morskie Oko, koupaliště ve Vratislavi"
     },
     "description": {
-      "he": "אגם רחצה עירוני עם חוף חולי, מדשאות ומרחב ירוק בוורוצלב. מקום מקומי ונינוח לשחייה, מנוחה ובילוי משפחתי בקיץ; בעונת הרחצה כדאי לבדוק מראש שעות פתיחה ותנאי כניסה.",
-      "en": "An urban bathing lake with a sandy beach, lawns and greenery in Wrocław. A relaxed local place for swimming, resting and family time in summer; check current opening hours and entry conditions during the bathing season.",
-      "pl": "Miejskie kąpielisko z piaszczystą plażą, trawnikami i zielenią we Wrocławiu. Spokojne, lokalne miejsce na pływanie, odpoczynek i rodzinne lato; w sezonie warto sprawdzić aktualne godziny otwarcia i zasady wstępu.",
-      "de": "Ein städtischer Badesee mit Sandstrand, Liegewiesen und viel Grün in Breslau. Ein entspannter lokaler Ort zum Schwimmen, Erholen und für Familien im Sommer; während der Badesaison aktuelle Öffnungszeiten und Eintrittsbedingungen prüfen.",
-      "cs": "Městské koupaliště s písečnou pláží, trávníky a zelení ve Vratislavi. Klidné místní místo na koupání, odpočinek a rodinné léto; v sezoně je vhodné ověřit aktuální otevírací dobu a podmínky vstupu."
+      "he": "מורסקי אוקו הוא אתר רחצה עירוני בצפון־מזרח ורוצלב, עם חוף חולי, מדשאות ואזורים מוצלים. אפשר לשלב כאן מנוחה ליד המים ביום קיץ חם, לצד מגרשי ספורט, מתקני החלפה ומקלחות בעונת הפעילות. זהו אתר הרחצה של ורוצלב, ולא האגם בעל אותו שם בהרי הטטרה. עונת הרחצה הרשמית של 2026 הסתיימה ב־31 באוגוסט; לפני ביקור יש לבדוק אצל המפעיל את מועדי העונה הבאה, תנאי הכניסה והנגישות.",
+      "en": "Morskie Oko is an urban bathing lake in northeastern Wrocław, with a sandy beach, lawns and shaded rest areas. In summer it offers a waterside break with beach sports, changing facilities and showers during the operating season. This is Wrocław’s bathing site, distinct from the lake with the same name in the Tatra Mountains. The official 2026 bathing season ended on 31 August; check the operator for the next season, entry arrangements and accessibility before visiting.",
+      "pl": "Morskie Oko to miejskie kąpielisko w północno-wschodniej części Wrocławia, z piaszczystą plażą, trawnikami i zacienionymi miejscami odpoczynku. Latem można tu połączyć relaks nad wodą ze sportami plażowymi; w sezonie dostępne są przebieralnie i natryski. To wrocławskie kąpielisko, a nie jezioro o tej samej nazwie w Tatrach. Oficjalny sezon kąpielowy 2026 zakończył się 31 sierpnia. Przed wizytą sprawdź u operatora terminy kolejnego sezonu, zasady wstępu i dostępność.",
+      "de": "Morskie Oko ist ein städtischer Badesee im Nordosten von Breslau mit Sandstrand, Liegewiesen und schattigen Ruhebereichen. Im Sommer lässt sich eine Pause am Wasser mit Strandsport verbinden; Umkleiden und Duschen stehen während der Betriebssaison zur Verfügung. Gemeint ist das Breslauer Freibad, nicht der gleichnamige See in der Tatra. Die offizielle Badesaison 2026 endete am 31. August. Vor dem Besuch die nächste Saison, den Eintritt und die Zugänglichkeit beim Betreiber prüfen.",
+      "cs": "Morskie Oko je městské koupaliště na severovýchodě Vratislavi s písečnou pláží, trávníky a zastíněnými místy k odpočinku. V létě nabízí relaxaci u vody i plážové sporty; v provozní sezoně jsou k dispozici převlékárny a sprchy. Jde o vratislavské koupaliště, nikoli stejnojmenné jezero v Tatrách. Oficiální koupací sezona 2026 skončila 31. srpna. Před návštěvou si u provozovatele ověřte termíny další sezony, podmínky vstupu a přístupnost."
     },
     "location": {
       "countryCode": "PL",
@@ -19479,8 +19479,8 @@
       {
         "productId": "wroclaw-four-days",
         "sourceId": "morskie-oko-wroclaw",
-        "lat": 51.1178,
-        "lng": 17.0804
+        "lat": 51.1232536,
+        "lng": 17.0828961
       }
     ],
     "status": "published",
@@ -19537,10 +19537,16 @@
       "seasonalSuitability": [
         "summer"
       ],
-      "openingHoursNotes": null
+      "openingHoursNotes": {
+        "he": "עונת הרחצה הרשמית של 2026 הסתיימה ב־31 באוגוסט. יש לבדוק מועדי פתיחה ותנאי כניסה לעונה הבאה לפני ביקור.",
+        "en": "The official 2026 bathing season ended on 31 August. Check next-season opening dates and entry arrangements before visiting.",
+        "pl": "Oficjalny sezon kąpielowy 2026 zakończył się 31 sierpnia. Przed wizytą sprawdź terminy kolejnego sezonu i zasady wstępu.",
+        "de": "Die offizielle Badesaison 2026 endete am 31. August. Vor dem Besuch die nächste Saison und die Eintrittsbedingungen prüfen.",
+        "cs": "Oficiální koupací sezona 2026 skončila 31. srpna. Před návštěvou ověřte další sezonu a podmínky vstupu."
+      }
     },
     "links": {
-      "website": "https://geoportal.wroclaw.pl/poi/poi/1835",
+      "website": "https://mcs.wroc.pl/obiekty/obiekty/k%C4%85pielisko-morskie-oko",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1232536%2C17.0828961",
         "appleMaps": "https://maps.apple.com/?ll=51.1232536,17.0828961&q=K%C4%85pielisko%20Morskie%20Oko"
@@ -19591,64 +19597,64 @@
           "type": "coordinates",
           "url": "https://www.openstreetmap.org/way/310593115",
           "checkedAt": "2026-08-11"
+        },
+        {
+          "type": "official",
+          "url": "https://mcs.wroc.pl/obiekty/obiekty/k%C4%85pielisko-morskie-oko",
+          "checkedAt": "2026-10-19"
+        },
+        {
+          "type": "official",
+          "url": "https://sk.gis.gov.pl/index.php/kapielisko/581",
+          "checkedAt": "2026-10-19"
+        },
+        {
+          "type": "official",
+          "url": "https://mcs.wroc.pl/aktualnosci/mcs/mcs-wroc%C5%82aw-zaprasza-nad-wod%C4%99-rusza-sezon-k%C4%85pielowy-2026",
+          "checkedAt": "2026-10-19"
         }
       ]
     },
     "media": {
       "photos": [
-        "/assets/morskie-oko-01.jpg",
-        "/assets/morskie-oko-02.jpg",
-        "/assets/morskie-oko-03.jpg",
-        "/assets/morskie-oko-04.jpg",
-        "/assets/morskie-oko-05.jpg",
-        "/assets/morskie-oko-06.jpg",
-        "/assets/morskie-oko-07.jpg",
-        "/assets/morskie-oko-08.jpg",
-        "/assets/morskie-oko-09.jpg",
-        "/assets/morskie-oko-10.jpg",
-        "/assets/morskie-oko-11.jpg",
-        "/assets/morskie-oko-12.jpg",
-        "/assets/morskie-oko-13.jpg",
-        "/assets/morskie-oko-14.jpg",
-        "/assets/morskie-oko-15.jpg",
-        "/assets/morskie-oko-16.jpg",
-        "/assets/morskie-oko-17.jpg",
-        "/assets/morskie-oko-18.jpg",
-        "/assets/morskie-oko-19.jpg",
-        "/assets/morskie-oko-20.jpg",
-        "/assets/morskie-oko-21.jpg",
-        "/assets/morskie-oko-22.jpg",
-        "/assets/morskie-oko-23.jpg",
-        "/assets/morskie-oko-24.jpg",
-        "/assets/morskie-oko-25.jpg",
-        "/assets/morskie-oko-26.jpg",
-        "/assets/morskie-oko-27.jpg",
-        "/assets/morskie-oko-28.jpg",
-        "/assets/morskie-oko-29.jpg",
-        "/assets/morskie-oko-30.jpg",
-        "/assets/morskie-oko-31.jpg",
-        "/assets/morskie-oko-32.jpg",
-        "/assets/morskie-oko-33.jpg",
-        "/assets/morskie-oko-34.jpg",
-        "/assets/morskie-oko-35.jpg"
+        "/assets/morskie-oko-refresh/morskie-oko-04.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-01.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-02.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-03.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-05.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-06.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-07.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-08.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-09.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-10.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-11.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-12.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-14.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-15.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-16.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-17.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-18.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-20.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-22.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-23.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-25.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-26.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-28.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-29.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-31.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-33.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-35.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-entrance-20261019.jpg"
       ],
       "videos": [
         "/assets/morskie-oko-video-01.mp4",
         "/assets/morskie-oko-video-02.mov",
         "/assets/morskie-oko-video-03.mov",
-        "/assets/morskie-oko-video-04.mov"
+        "/assets/morskie-oko-video-04.mov",
+        "https://youtube.com/shorts/gN14-XYU8dM",
+        "https://youtube.com/shorts/8cTLqypvJn4"
       ],
       "metadata": {
-        "/assets/morskie-oko-01.jpg": {
-          "tags": [
-            "lake",
-            "swimming",
-            "summer",
-            "hero"
-          ],
-          "original": true,
-          "heroCandidate": true
-        },
         "/assets/morskie-oko-video-01.mp4": {
           "tags": [
             "lake",
@@ -19680,6 +19686,15 @@
             "summer"
           ],
           "original": true
+        },
+        "/assets/morskie-oko-refresh/morskie-oko-04.jpg": {
+          "tags": [
+            "lake",
+            "summer",
+            "hero"
+          ],
+          "original": true,
+          "heroCandidate": true
         }
       }
     },
@@ -19688,55 +19703,73 @@
         "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0eydkiCXbBErmkorNRBXsAuwM9NFSxb7BiEzJ3KQ56WndqUJWDx62zyHXNrygNxLJl&id=61595239823399",
-        "verifiedAt": "2026-10-07T14:04:16.275470+00:00"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-07T14:04:16.275470+00:00",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMhgrtAAHo/",
-        "verifiedAt": "2026-10-07T14:04:16.275470+00:00"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-07T14:04:16.275470+00:00",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       },
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid026tUVV7SEUJqBHJbpCS9qwzz27JpABWeFsj8rmEvahjyPdqN2kxvYihyPegPj9ta7l&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-07",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hUzZDx5cqXC87oLhSfLBCurwZ9sCyr721acQ24PVyJuTCLaWrYnC1W7udx1YrKUFl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-07",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/p/DePOrTjDwr8/",
-        "verifiedAt": "2026-10-08"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-08",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       },
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid038Pd8vrTKieVn2uU5y3Qwqajz23bVfen4BNLrjWtx6UJReYNqSvv7NM2fAXfEp4DCl&id=61595207664875",
-        "verifiedAt": "2026-10-08T15:37:04.082Z"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-08T15:37:04.082Z",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       },
       {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0oSKKxVUHrufqTJfgM831se3MMVCv3MV9WPfugJ18BthRWhshstHwwe7oKwBUoULal&id=61591964083308",
-        "verifiedAt": "2026-10-09T08:07:46.325Z"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-09T08:07:46.325Z",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeRVMM3jQxZ/",
-        "verifiedAt": "2026-10-09T10:50:16.490Z"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-09T10:50:16.490Z",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       },
       {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeT2xmfDKGj/",
-        "verifiedAt": "2026-10-10T10:22:37.165Z"
+        "verifiedAt": "2026-10-19",
+        "previousVerifiedAt": "2026-10-10T10:22:37.165Z",
+        "verificationEvidence": "data/morskie-oko-social-audit.json"
       }
     ]
   },
@@ -36911,19 +36944,6 @@
     "candidate": {
       "lat": 51.10802,
       "lng": 17.04086
-    }
-  },
-  {
-    "canonicalId": "morskie-oko-wroclaw",
-    "productId": "wroclaw-four-days",
-    "sourceId": "morskie-oko-wroclaw",
-    "selected": {
-      "lat": 51.1232536,
-      "lng": 17.0828961
-    },
-    "candidate": {
-      "lat": 51.1178,
-      "lng": 17.0804
     }
   },
   {

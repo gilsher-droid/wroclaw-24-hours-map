@@ -3227,55 +3227,73 @@
       "platform": "facebook",
       "language": "de",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0eydkiCXbBErmkorNRBXsAuwM9NFSxb7BiEzJ3KQ56WndqUJWDx62zyHXNrygNxLJl&id=61595239823399",
-      "verifiedAt": "2026-10-07T14:04:16.275470+00:00"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-07T14:04:16.275470+00:00",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     },
     {
       "platform": "instagram",
       "language": "de",
       "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMhgrtAAHo/",
-      "verifiedAt": "2026-10-07T14:04:16.275470+00:00"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-07T14:04:16.275470+00:00",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     },
     {
       "platform": "facebook",
       "language": "cs",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid026tUVV7SEUJqBHJbpCS9qwzz27JpABWeFsj8rmEvahjyPdqN2kxvYihyPegPj9ta7l&id=61594716405964",
-      "verifiedAt": "2026-10-07"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-07",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     },
     {
       "platform": "facebook",
       "language": "en",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hUzZDx5cqXC87oLhSfLBCurwZ9sCyr721acQ24PVyJuTCLaWrYnC1W7udx1YrKUFl&id=61595036942289",
-      "verifiedAt": "2026-10-07"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-07",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     },
     {
       "platform": "instagram",
       "language": "cs",
       "url": "https://www.instagram.com/p/DePOrTjDwr8/",
-      "verifiedAt": "2026-10-08"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-08",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     },
     {
       "platform": "facebook",
       "language": "pl",
       "url": "https://facebook.com/permalink.php?story_fbid=pfbid038Pd8vrTKieVn2uU5y3Qwqajz23bVfen4BNLrjWtx6UJReYNqSvv7NM2fAXfEp4DCl&id=61595207664875",
-      "verifiedAt": "2026-10-08T15:37:04.082Z"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-08T15:37:04.082Z",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     },
     {
       "platform": "facebook",
       "language": "he",
       "url": "https://facebook.com/permalink.php?story_fbid=pfbid0oSKKxVUHrufqTJfgM831se3MMVCv3MV9WPfugJ18BthRWhshstHwwe7oKwBUoULal&id=61591964083308",
-      "verifiedAt": "2026-10-09T08:07:46.325Z"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-09T08:07:46.325Z",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     },
     {
       "platform": "instagram",
       "language": "en",
       "url": "https://www.instagram.com/p/DeRVMM3jQxZ/",
-      "verifiedAt": "2026-10-09T10:50:16.490Z"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-09T10:50:16.490Z",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     },
     {
       "platform": "instagram",
       "language": "pl",
       "url": "https://www.instagram.com/p/DeT2xmfDKGj/",
-      "verifiedAt": "2026-10-10T10:22:37.165Z"
+      "verifiedAt": "2026-10-19",
+      "previousVerifiedAt": "2026-10-10T10:22:37.165Z",
+      "verificationEvidence": "data/morskie-oko-social-audit.json"
     }
   ],
   "bar-mis": [

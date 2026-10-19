@@ -280,7 +280,6 @@
     "meatologia-wlodkowica": "82383214ebdf8625826ea5026c5f9871f79657a73e9f40c2c1f2e1da9d0ee608",
     "meatologia-zwycieska": "c87ded62efc76d94be674df71a711f4913585abb140d28d737839fb1813f3698",
     "monopol": "707039bcf5a1c0144726cbacba55638e847bf06ad9d757376a52a683dc5c8678",
-    "morskie-oko-wroclaw": "2f370faa23b449444a6a9e33b215b77f7f1e994a5e9e9ddbbdd4f8af67bf34cd",
     "most-piaskowy": "da3bb3fd696521beae9a354a8a922f4a4841f608c5a1ea24ddaed8323af8f500",
     "most-tumski": "3a0766c2c35e3f661bbdf2686ff993b05fff0d87bba1f2cd2dc556689768f3da",
     "moszna-castle": "f7d13915200085da70bc5c2ab0b491644ec4e13b38cb08554a5eea32a2c93aea",
@@ -438,6 +437,11 @@
       "date": "2026-10-19",
       "scope": "User requested canonical cafe refresh. Preserve ID/pin/video; add three reviewed photos, expand five-language visit text, hide unverified account fallbacks.",
       "receipt": "data/mala-czarna-media-provenance.json"
+    },
+    "morskie-oko-wroclaw": {
+      "date": "2026-10-19",
+      "scope": "User requested canonical enrichment: orientation/privacy repair, seasonal multilingual copy, reviewed visit media and current social verification.",
+      "receipt": "data/morskie-oko-media-provenance.json"
     }
   }
 }
