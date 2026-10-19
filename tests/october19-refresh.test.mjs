@@ -42,3 +42,8 @@ test('Olympic Stadium has one cultural card using its existing canonical identit
  const stadium=window.WROC_CULTURAL_PLACES.filter(record=>record.canonicalPlaceId==='stadion-olimpijski-wroclaw');
  assert.equal(stadium.length,1);assert.ok(stadium[0].categories.includes('architecture-design'));
 });
+
+test('Olympic Stadium day-three recommendation exposes its canonical gallery', () => {
+ const w={};runInNewContext(readFileSync(new URL('data/place-catalog.js',root),'utf8'),{window:w});runInNewContext(readFileSync(new URL('data/location-media.js',root),'utf8'),{window:w});
+ assert.equal(w.WROC_LOCATION_MEDIA['stadion-olimpijski-wroclaw'].gallery.length,17);
+});
