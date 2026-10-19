@@ -19644,8 +19644,7 @@
         "/assets/morskie-oko-refresh/morskie-oko-29.jpg",
         "/assets/morskie-oko-refresh/morskie-oko-31.jpg",
         "/assets/morskie-oko-refresh/morskie-oko-33.jpg",
-        "/assets/morskie-oko-refresh/morskie-oko-35.jpg",
-        "/assets/morskie-oko-refresh/morskie-oko-entrance-20261019.jpg"
+        "/assets/morskie-oko-refresh/morskie-oko-35.jpg"
       ],
       "videos": [
         "/assets/morskie-oko-video-01.mp4",
