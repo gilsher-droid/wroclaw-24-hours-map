@@ -273,7 +273,7 @@
     "lodz-rose-passage": "c9411d5acf942dcae86b3aa3ecdd66f9acfcf20b76f1c784b573fc4e09f068fb",
     "lodziarnia-roma": "5160f4ca8b9d33ac92342312310d51f621d5e4cd3617cfacce04d165e6eac9c6",
     "magnolia": "457be4756ad08e38d1322ca27f9501123e52351c6088a4e4c7e272cd8281372a",
-    "mala-czarna-paderewskiego": "70a47f5830a077b6495c886164cad7b0fb111a9a9dc64cae424ae7bbe3e92620",
+    "mala-czarna-paderewskiego": "84db76cb021113d4663e1dda858000c433fad31999a7f01db98a6176e8c95c4a",
     "mandarin": "904a3fea67469dbbf9561eb48f2c6f52cc72e4bcff7180313fafe5ffbc408976",
     "marina": "8c00d4e3e7a7432c93796d7a38815396dc47511df9985fbbcc82a60cc7bc821d",
     "meatologia-sikorskiego": "b04c7f4177ad627b087ae25b6f154369ae6ef88f56fadd67192b8a3a10474027",
@@ -432,5 +432,12 @@
     "/assets/gallery-renoma-04.jpg",
     "/assets/gallery-renoma-05.jpg"
   ],
-  "newsBaseSHA": "8b986dd9cb7e8e9ab0d0dd2bc45420175a3a3101"
+  "newsBaseSHA": "8b986dd9cb7e8e9ab0d0dd2bc45420175a3a3101",
+  "subsequentApprovedRefreshes": {
+    "mala-czarna-paderewskiego": {
+      "date": "2026-10-19",
+      "scope": "User requested canonical cafe refresh. Preserve ID/pin/video; add three reviewed photos, expand five-language visit text, hide unverified account fallbacks.",
+      "receipt": "data/mala-czarna-media-provenance.json"
+    }
+  }
 }

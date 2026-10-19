@@ -189,3 +189,7 @@ img[src*="-refresh-oct19-"], img[src*="pergola-wroclawska-"], img[src*="wyspa-sl
 
 /* Full-frame new visits and corrected stadium orientation. */
 img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stadion-olimpijski-"], img[src*="-refresh-oct19-"], img[src*="pergola-wroclawska-"], img[src*="wyspa-slodowa-"], img[src*="galeria-dominikanska-"], img[src*="fc-caffe-kuznicza-"] { object-fit: contain; background: #f4f0e8; }
+
+/* Preserve the separate native name and address lines on the cafe visit card. */
+.place-card[data-place="mala-czarna-paderewskiego"] > p,
+.leaflet-popup-content:has(.place-popup-photo[src*="/food-cafes/mala-czarna-"]) > span { white-space: pre-line; }

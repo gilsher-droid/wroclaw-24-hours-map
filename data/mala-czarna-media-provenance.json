@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-10-17",
+  "reviewedAt": "2026-10-19",
   "placeId": "mala-czarna-paderewskiego",
   "branchConfirmedByOwner": true,
   "coordinateSource": "https://www.openstreetmap.org/node/4780068506",
@@ -12,6 +12,18 @@
     {
       "asset": "/assets/food-cafes/mala-czarna-02.jpg",
       "sha256": "e9ac8d0c7a165ef613eeb4a7c79151ed6e57446a81a423435f7c5663f53ead26"
+    },
+    {
+      "asset": "/assets/food-cafes/mala-czarna-03.jpg",
+      "sha256": "a0ba0369181f2b53923bd0447f0d656b7e40c713817109192264589e419a4679"
+    },
+    {
+      "asset": "/assets/food-cafes/mala-czarna-04.jpg",
+      "sha256": "8758323309faf72cb95e9642bef6842418680b710d767ece88477b645a7f861b"
+    },
+    {
+      "asset": "/assets/food-cafes/mala-czarna-05.jpg",
+      "sha256": "30d94cbf32c836c75e1c4de7e3c5f121d05e72445ec6c2347df52f8fada9ecda"
     }
   ],
   "video": {
@@ -28,5 +40,21 @@
     "One exact duplicate",
     "Near duplicate counter view",
     "Patrons dominate other views"
-  ]
+  ],
+  "refresh": {
+    "retainedPhotos": 2,
+    "addedPhotos": 3,
+    "retainedPublicVideo": "https://youtube.com/watch?v=xUGky_l826A",
+    "newUploads": 0,
+    "excludedAdditionalContent": [
+      "re-encoded duplicate photographs",
+      "patron-dominated counter and display views",
+      "unrelated Fundamatics screenshot"
+    ],
+    "sourceInventoryCount": {
+      "photos": 18,
+      "videos": 1
+    },
+    "socialAudit": "data/mala-czarna-social-audit.json"
+  }
 }
