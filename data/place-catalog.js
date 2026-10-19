@@ -19550,7 +19550,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1232536%2C17.0828961",
         "appleMaps": "https://maps.apple.com/?ll=51.1232536,17.0828961&q=K%C4%85pielisko%20Morskie%20Oko"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,

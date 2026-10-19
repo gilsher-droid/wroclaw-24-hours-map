@@ -2999,6 +2999,7 @@
         }
       },
       "links": {
+        "socialProfileFallback": false,
         "website": "https://mcs.wroc.pl/obiekty/obiekty/k%C4%85pielisko-morskie-oko",
         "navigation": {
           "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1232536%2C17.0828961",
