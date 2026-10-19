@@ -1,0 +1,281 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: האצטדיון האולימפי בוורוצלב | ההדרכה המלאה של גיל שר"'
+  - generic: 1:42
+  - generic: Your video
+  - generic: האצטדיון האולימפי בוורוצלב | ההדרכה המלאה של גיל שר
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: Hebrew"':
+    - 'heading "Video language: Hebrew" [level=2]'
+    - button "Details":
+    - generic: Hebrew subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup
+- generic "Hebrew subtitles":
+  - dialog "Hebrew subtitles" [active]:
+    - generic: Hebrew
+    - region "Dialogue controls":
+      - heading "Dialogue controls" [level=2]
+      - button "Send feedback":
+      - button "Save draft":
+        - generic: Save draft
+      - status: Save draft button enabled
+      - button "Publish":
+        - generic: Publish
+      - status: Publish button enabled
+      - button "Close":
+    - region "Edit timings":
+      - heading "Edit timings" [level=2]
+      - button "Subtitle":
+        - generic: Subtitle
+      - button "Edit as text" [disabled]:
+        - generic: Edit as text
+      - button "Options":
+      - list "Timings":
+        - listitem "Text with timing":
+          - button "Add caption line":
+          - textbox "Subtitle": דוברי וייצ׳ור.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - button "Remove caption line":
+          - generic "0 minutes 1 second 12 frames":
+            - generic: 0:01:12
+            - textbox "0 minutes 1 second 12 frames"
+          - generic "0 minutes 3 seconds 2 frames":
+            - generic: 0:03:02
+            - textbox "0 minutes 3 seconds 2 frames"
+          - button "Add caption line" [disabled]:
+        - listitem "Text with timing":
+          - textbox "Subtitle": ערב טוב.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 3 seconds 2 frames":
+            - generic: 0:03:02
+            - textbox "0 minutes 3 seconds 2 frames"
+          - generic "0 minutes 4 seconds 23 frames":
+            - generic: 0:04:23
+            - textbox "0 minutes 4 seconds 23 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": סיטיוס, אלטיוס, פורטיוס.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 5 seconds 16 frames":
+            - generic: 0:05:16
+            - textbox "0 minutes 5 seconds 16 frames"
+          - generic "0 minutes 9 seconds 5 frames":
+            - generic: 0:09:05
+            - textbox "0 minutes 9 seconds 5 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": חזק יותר, גבוה יותר, מהר יותר.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 9 seconds 9 frames":
+            - generic: 0:09:09
+            - textbox "0 minutes 9 seconds 9 frames"
+          - generic "0 minutes 13 seconds 14 frames":
+            - generic: 0:13:14
+            - textbox "0 minutes 13 seconds 14 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": זאת סיסמת האולימפיאדה.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 14 seconds 8 frames":
+            - generic: 0:14:08
+            - textbox "0 minutes 14 seconds 8 frames"
+          - generic "0 minutes 15 seconds 21 frames":
+            - generic: 0:15:21
+            - textbox "0 minutes 15 seconds 21 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": אנחנו נמצאים כאן באצטדיון האולימפי של ורוצלב,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 16 seconds 4 frames":
+            - generic: 0:16:04
+            - textbox "0 minutes 16 seconds 4 frames"
+          - generic "0 minutes 20 seconds 11 frames":
+            - generic: 0:20:11
+            - textbox "0 minutes 20 seconds 11 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": שלמרות שנקרא האצטדיון האולימפי, מעולם לא התקיימה כאן אולימפיאדה.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 21 seconds 10 frames":
+            - generic: 0:21:10
+            - textbox "0 minutes 21 seconds 10 frames"
+          - generic "0 minutes 25 seconds 16 frames":
+            - generic: 0:25:16
+            - textbox "0 minutes 25 seconds 16 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": האצטדיון הזה נבנה בשנים 1926 עד 1928.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 26 seconds 1 frame":
+            - generic: 0:26:01
+            - textbox "0 minutes 26 seconds 1 frame"
+          - generic "0 minutes 31 seconds 4 frames":
+            - generic: 0:31:04
+            - textbox "0 minutes 31 seconds 4 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": בשנות ה־30 הוא שימש ספורטאים גרמנים
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 31 seconds 21 frames":
+            - generic: 0:31:21
+            - textbox "0 minutes 31 seconds 21 frames"
+          - generic "0 minutes 35 seconds 5 frames":
+            - generic: 0:35:05
+            - textbox "0 minutes 35 seconds 5 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": לאימונים לקראת אולימפיאדת לוס אנג׳לס.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 35 seconds 5 frames":
+            - generic: 0:35:05
+            - textbox "0 minutes 35 seconds 5 frames"
+          - generic "0 minutes 38 seconds 20 frames":
+            - generic: 0:38:20
+            - textbox "0 minutes 38 seconds 20 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": מאז האצטדיון הזה שופץ מספר פעמים,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 39 seconds 20 frames":
+            - generic: 0:39:20
+            - textbox "0 minutes 39 seconds 20 frames"
+          - generic "0 minutes 44 seconds 23 frames":
+            - generic: 0:44:23
+            - textbox "0 minutes 44 seconds 23 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": הורחב פה מספר מקומות הישיבה,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 45 seconds 2 frames":
+            - generic: 0:45:02
+            - textbox "0 minutes 45 seconds 2 frames"
+          - generic "0 minutes 47 seconds 25 frames":
+            - generic: 0:47:25
+            - textbox "0 minutes 47 seconds 25 frames"
+    - heading "Subtitles preview" [level=2]
+    - region "Subtitles preview":
+      - region "Video player":
+        - generic "האצטדיון האולימפי בוורוצלב | ההדרכה המלאה של גיל שר"
+        - button "Play":
+        - button "Skip back 10 seconds":
+        - button "Skip forwards 10 seconds":
+        - button "Mute":
+        - slider "volume"
+        - generic: 0:00 / 1:42
+        - button "Settings":
+      - checkbox "Pause while typing"
+      - generic: Pause while typing
+      - button "View keyboard shortcuts":
+        - generic: View keyboard shortcuts
+    - heading "Subtitles timeline" [level=2]
+    - region "Subtitles timeline":
+      - generic "0 minutes 0 seconds 0 frames":
+        - generic: 0:00:00
+        - textbox "0 minutes 0 seconds 0 frames"
+      - button "Undo" [disabled]:
+        - generic: Undo
+      - button "Redo" [disabled]:
+        - generic: Redo
+      - button "Zoom out":
+      - slider "Zoom slider":
+        - progressbar
+      - button "Zoom in":
+      - generic "Timeline header"
+      - button "Find playhead":
+      - button "Find playhead":
+      - generic "דוברי וייצ׳ור."
+      - generic: דוברי וייצ׳ור.
+      - generic "ערב טוב."
+      - generic: ערב טוב.
+      - generic "סיטיוס, אלטיוס, פורטיוס."
+      - generic: סיטיוס, אלטיוס, פורטיוס.
+      - generic "חזק יותר, גבוה יותר, מהר יותר."
+      - generic: חזק יותר, גבוה יותר, מהר יותר.
+      - generic "זאת סיסמת האולימפיאדה."
+      - generic: זאת סיסמת האולימפיאדה.
+      - generic "אנחנו נמצאים כאן באצטדיון האולימפי של ורוצלב,"
+      - generic: אנחנו נמצאים כאן באצטדיון האולימפי של ורוצלב,
+      - generic: שלמרות שנקרא האצטדיון האולימפי, מעולם לא התקיימה כאן אולימפיאדה.
+      - generic: האצטדיון הזה נבנה בשנים 1926 עד 1928.
+      - generic: בשנות ה־30 הוא שימש ספורטאים גרמנים
+      - generic: לאימונים לקראת אולימפיאדת לוס אנג׳לס.
+      - generic: מאז האצטדיון הזה שופץ מספר פעמים,
+      - generic: הורחב פה מספר מקומות הישיבה,
+      - generic: והיום הוא משמש לפוטבול אמריקאי
+      - generic: ולתחרויות רייסינג שנקראות ספידווי,
+      - generic: שממה ששמעתי זה תחרויות אופנועים מטורפות על עפר.
+      - generic: אני מרגיש שאני חייב לחזור לכאן ולראות את התחרויות האלה.
+      - generic: המקום מאוד מאוד מרשים אדריכלית.
+      - generic: מסביב יש כאן הרבה מאוד פארקים
+      - generic: שקשורים לספורט ולא קשורים לספורט.
+      - generic: ניתן להגיע לכאן עם אופניים
+      - generic: ולרכב עד ממש לגדת הנהר שנמצאת מאחוריי.
+      - generic: כמו כן ישנו קפה בכניסה
+      - generic: לאצטדיון האולימפי שנקרא
+      - generic: מאלה צארנה, שחור קטן.
+      - generic: בית קפה מצוין עם עוגות מצוינות.
+      - generic: מומלץ להתחיל בקפה ועוגה
+      - generic: ואז לרוץ באצטדיון האולימפי.
+      - generic: להתראות בווידאו הבא. דו וידזניה.
+      - generic "Audio waveform"
+      - generic "Start of timeline"
+      - generic "End of timeline"
+      - slider "Playhead"
+      - generic: 0:00:00

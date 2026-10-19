@@ -13285,7 +13285,11 @@
         "verifiedAt": "2026-10-19"
       }
     },
-    "thumbnail": "/assets/stadion-olimpijski-09.jpg"
+    "thumbnail": "/assets/stadion-olimpijski-09.jpg",
+    "guideVideos": {
+      "he": "https://youtube.com/shorts/--MnGY29fng",
+      "en": "https://youtube.com/shorts/tiCdc_8vIYw"
+    }
   },
   "status": "published",
   "editorialPriority": "medium",

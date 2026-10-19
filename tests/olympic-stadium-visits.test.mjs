@@ -11,7 +11,7 @@ test('Olympic Stadium keeps its canonical identity and 17 photo hashes, adding s
  for(const src of p.media.photos)assert.equal(createHash('sha256').update(readFileSync(src.slice(1))).digest('hex'),proof.photoSHA256[src]);
  assert.equal(clips.length,6);assert.equal(new Set(clips.map(c=>c.youtube)).size,6);assert.deepEqual(Array.from(p.media.videos),clips.map(c=>c.youtube));
  for(const clip of clips){assert.equal(clip.status,'public');assert.equal(clip.processingStatus,'complete');assert.equal(clip.copyrightStatus,'no-issues-found');assert.equal(clip.communityGuidelinesStatus,'no-issues-found');assert.equal(existsSync(clip.mediaKey.slice(1)),false);}
- assert.deepEqual(Array.from(w.WROC_LOCATION_MEDIA[p.id].videos,v=>v.src),clips.map(c=>c.youtube));assert.equal(p.media.guideVideos,undefined);
+ assert.deepEqual(Array.from(w.WROC_LOCATION_MEDIA[p.id].videos,v=>v.src),clips.map(c=>c.youtube));assert.ok(!p.media.videos.includes(p.media.guideVideos?.he));
 });
 test('Olympic Stadium routes nine verified exact-language posts and leaves Hebrew Instagram unavailable',()=>{
  const w=load(),p=w.WROC_CATALOG.getPlace('stadion-olimpijski-wroclaw'),audit=json('data/olympic-stadium-enrichment-provenance.json').social;
