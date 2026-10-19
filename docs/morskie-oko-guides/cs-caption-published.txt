@@ -1,0 +1,107 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- generic: This video is in a draft state
+- button "Edit draft":
+  - generic: Edit draft
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Morskie Oko Wrocław | Our full English guide | WROC-LOVE"'
+  - generic: 1:04
+  - generic: Your video
+  - generic: Morskie Oko Wrocław | Our full English guide | WROC-LOVE
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: English"':
+    - 'heading "Video language: English" [level=2]'
+    - button "Details":
+    - generic: English subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language" [active]:
+      - generic: Add language
+    - generic: 2 translations
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup:
+        - row "Arabic 1 published":
+          - cell "Arabic":
+            - button "Arabic":
+              - generic: Arabic
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Czech 1 published":
+          - cell "Czech":
+            - button "Czech":
+              - generic: Czech
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –

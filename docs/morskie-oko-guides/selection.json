@@ -1,0 +1,22 @@
+{
+  "en": {
+    "sourceId": 0,
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/המדריך שלנו/המדריך שלנו באנגלית במורסקי אוקו.mp4",
+    "duration": 63.6,
+    "sha256": "69dc7d00a3ae9441d8f0c5e1d2fcb8a952fd3fd013090a8d0eea494dbdb37cab",
+    "selectedFile": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/morskie-oko-video-guides-2026-10-19/morskie-oko-guide-en.mp4",
+    "selectedSHA256": "69dc7d00a3ae9441d8f0c5e1d2fcb8a952fd3fd013090a8d0eea494dbdb37cab",
+    "pictureAudioUnchanged": true,
+    "cuts": []
+  },
+  "he": {
+    "sourceId": 3,
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/המדריך שלנו/מורסקי אוקו המריך שלנו בעברית.mp4",
+    "duration": 71.4,
+    "sha256": "104891ffb54b8144cc0c8b9919859d961c0ab36f7dc2c0b44483b862d6ed5e32",
+    "selectedFile": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/morskie-oko-video-guides-2026-10-19/morskie-oko-guide-he.mp4",
+    "selectedSHA256": "104891ffb54b8144cc0c8b9919859d961c0ab36f7dc2c0b44483b862d6ed5e32",
+    "pictureAudioUnchanged": true,
+    "cuts": []
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "canonicalPlaceIds": [
+    "morskie-oko-wroclaw"
+  ],
+  "editions": {
+    "en": {
+      "id": "e0gGTjUPYoQ",
+      "url": "https://www.youtube.com/watch?v=e0gGTjUPYoQ",
+      "sourceLanguage": "en",
+      "durationSeconds": 63.6,
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "checks": "Copyright and Community Guidelines complete, no issues",
+      "sourceSHA256": "69dc7d00a3ae9441d8f0c5e1d2fcb8a952fd3fd013090a8d0eea494dbdb37cab",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/המדריך שלנו/המדריך שלנו באנגלית במורסקי אוקו.mp4",
+      "uploadSHA256": "69dc7d00a3ae9441d8f0c5e1d2fcb8a952fd3fd013090a8d0eea494dbdb37cab",
+      "originalPictureAudioUnchanged": true
+    },
+    "he": {
+      "id": "R26FXh9Twh0",
+      "url": "https://www.youtube.com/watch?v=R26FXh9Twh0",
+      "sourceLanguage": "he",
+      "durationSeconds": 71.4,
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "checks": "Copyright and Community Guidelines complete, no issues",
+      "sourceSHA256": "104891ffb54b8144cc0c8b9919859d961c0ab36f7dc2c0b44483b862d6ed5e32",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/המדריך שלנו/מורסקי אוקו המריך שלנו בעברית.mp4",
+      "uploadSHA256": "104891ffb54b8144cc0c8b9919859d961c0ab36f7dc2c0b44483b862d6ed5e32",
+      "originalPictureAudioUnchanged": true
+    }
+  },
+  "tracks": {
+    "he": {
+      "language": "he",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "R26FXh9Twh0",
+      "srtFile": "captions/morskie-oko/he.srt",
+      "srtSHA256": "cc4b8353d9b03766d3fe8d2d08bc06e84d1c42a6f296c8c563720d9db9186c27",
+      "cueCount": 16,
+      "cues": [
+        {
+          "start": 1.44,
+          "end": 5.36,
+          "text": "צ׳ש! סליחה, איך אני מגיע מכאן לים?"
+        },
+        {
+          "start": 7.34,
+          "end": 12.68,
+          "text": "מסתבר שבברוצלב חשבתי שיש רק נהרות, איים וגשרים."
+        },
+        {
+          "start": 12.68,
+          "end": 17.0,
+          "text": "אמרתי: אין פה חוף ים. טעיתי בגדול, ביג טיים."
+        },
+        {
+          "start": 17.6,
+          "end": 21.82,
+          "text": "מסתבר שבאמצע העיר, באחת השכונות הכי יפות שלה,"
+        },
+        {
+          "start": 21.82,
+          "end": 25.36,
+          "text": "נמצא מקום שנקרא מורסקי אוקו."
+        },
+        {
+          "start": 25.36,
+          "end": 28.48,
+          "text": "העין של הים, זה התרגום מפולנית."
+        },
+        {
+          "start": 28.48,
+          "end": 35.14,
+          "text": "זה בעצם חוף ים עירוני. אתם יכולים לראות שיש כאן אגם,"
+        },
+        {
+          "start": 35.4,
+          "end": 41.62,
+          "text": "מגרשי כדורעף, חוף ים, מתחם של טניס,"
+        },
+        {
+          "start": 41.82,
+          "end": 45.32,
+          "text": "כיסאות נוח, אפשרות להשתזף,"
+        },
+        {
+          "start": 45.5,
+          "end": 48.58,
+          "text": "לפרוס מגבות על הדשא או על החול,"
+        },
+        {
+          "start": 49.12,
+          "end": 52.12,
+          "text": "ובימי הקיץ ליהנות כאילו שהייתם בים."
+        },
+        {
+          "start": 52.82,
+          "end": 56.74,
+          "text": "כרגע המקום הזה סגור כי אנחנו בסתיו."
+        },
+        {
+          "start": 56.74,
+          "end": 61.29,
+          "text": "אז במקום אנשים אפשר למצוא כאן ברבורים."
+        },
+        {
+          "start": 61.82,
+          "end": 66.5,
+          "text": "אז אני ממליץ מאוד לבוא למורסקי אוקו בקיץ,"
+        },
+        {
+          "start": 67.4,
+          "end": 68.64,
+          "text": "וגם בחורף."
+        },
+        {
+          "start": 69.18,
+          "end": 70.3,
+          "text": "דו וידזניה!"
+        }
+      ],
+      "publishedReceipt": "docs/morskie-oko-guides/he-caption-published.txt",
+      "reopenedReceipt": "docs/morskie-oko-guides/he-caption-reopened.txt"
+    },
+    "en": {
+      "language": "en",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "e0gGTjUPYoQ",
+      "srtFile": "captions/morskie-oko/en.srt",
+      "srtSHA256": "8561e56fcfd68cfb21484130ad59ef77e941717f7be3ade85654a34d82156004",
+      "cueCount": 15,
+      "cues": [
+        {
+          "start": 1.18,
+          "end": 1.62,
+          "text": "Cześć!"
+        },
+        {
+          "start": 1.86,
+          "end": 4.66,
+          "text": "Excuse me, how do I get from here to the sea?"
+        },
+        {
+          "start": 5.6,
+          "end": 10.14,
+          "text": "I thought that in Wrocław there's only rivers, canals, islands and bridges."
+        },
+        {
+          "start": 10.62,
+          "end": 13.74,
+          "text": "I never thought that we also have a beach."
+        },
+        {
+          "start": 14.72,
+          "end": 20.72,
+          "text": "Well, just in the middle of the city there is an artificial beach called Morskie Oko,"
+        },
+        {
+          "start": 20.72,
+          "end": 23.86,
+          "text": "which, in translation from Polish, means the eye of the sea."
+        },
+        {
+          "start": 23.86,
+          "end": 29.34,
+          "text": "It is an amazing place with lots of grass and sand,"
+        },
+        {
+          "start": 29.34,
+          "end": 34.02,
+          "text": "a volleyball court and tennis courts."
+        },
+        {
+          "start": 34.02,
+          "end": 39.48,
+          "text": "And in the summertime you can just come with your beach towel"
+        },
+        {
+          "start": 39.48,
+          "end": 45.18,
+          "text": "and enjoy an amazing time here at the beach of Morskie Oko."
+        },
+        {
+          "start": 45.7,
+          "end": 48.44,
+          "text": "I recommend coming here in the summer,"
+        },
+        {
+          "start": 48.44,
+          "end": 51.68,
+          "text": "but it is beautiful also in the autumn."
+        },
+        {
+          "start": 51.98,
+          "end": 57.1,
+          "text": "Instead of people you will find ducks and swans"
+        },
+        {
+          "start": 57.1,
+          "end": 60.42,
+          "text": "swimming in the lake. So see you soon"
+        },
+        {
+          "start": 60.42,
+          "end": 62.84,
+          "text": "on our next video. Do widzenia!"
+        }
+      ],
+      "publishedReceipt": "docs/morskie-oko-guides/en-caption-published.txt",
+      "reopenedReceipt": "docs/morskie-oko-guides/en-caption-reopened.txt"
+    },
+    "pl": {
+      "language": "pl",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "e0gGTjUPYoQ",
+      "srtFile": "captions/morskie-oko/pl.srt",
+      "srtSHA256": "7ab56eba90f716708367e521561be82a7c63b3e44961ad22797d29dfa80e9270",
+      "cueCount": 15,
+      "cues": [
+        {
+          "start": 1.18,
+          "end": 1.62,
+          "text": "Cześć!"
+        },
+        {
+          "start": 1.86,
+          "end": 4.66,
+          "text": "Przepraszam, jak stąd dojść nad morze?"
+        },
+        {
+          "start": 5.6,
+          "end": 10.14,
+          "text": "Myślałem, że we Wrocławiu są tylko rzeki, kanały, wyspy i mosty."
+        },
+        {
+          "start": 10.62,
+          "end": 13.74,
+          "text": "Nigdy nie sądziłem, że mamy też plażę."
+        },
+        {
+          "start": 14.72,
+          "end": 20.72,
+          "text": "Otóż w samym środku miasta jest sztuczna plaża o nazwie Morskie Oko."
+        },
+        {
+          "start": 20.72,
+          "end": 23.86,
+          "text": "Ta polska nazwa oznacza oko morza."
+        },
+        {
+          "start": 23.86,
+          "end": 29.34,
+          "text": "To wspaniałe miejsce z dużą ilością trawy i piasku,"
+        },
+        {
+          "start": 29.34,
+          "end": 34.02,
+          "text": "boiskiem do siatkówki i kortami tenisowymi."
+        },
+        {
+          "start": 34.02,
+          "end": 39.48,
+          "text": "Latem można tu przyjść z ręcznikiem plażowym"
+        },
+        {
+          "start": 39.48,
+          "end": 45.18,
+          "text": "i wspaniale spędzić czas na plaży Morskiego Oka."
+        },
+        {
+          "start": 45.7,
+          "end": 48.44,
+          "text": "Polecam przyjść tu latem,"
+        },
+        {
+          "start": 48.44,
+          "end": 51.68,
+          "text": "ale jesienią też jest pięknie."
+        },
+        {
+          "start": 51.98,
+          "end": 57.1,
+          "text": "Zamiast ludzi spotkacie kaczki i łabędzie"
+        },
+        {
+          "start": 57.1,
+          "end": 60.42,
+          "text": "pływające po jeziorze. Do zobaczenia wkrótce"
+        },
+        {
+          "start": 60.42,
+          "end": 62.84,
+          "text": "w naszym następnym filmie. Do widzenia!"
+        }
+      ],
+      "publishedReceipt": "docs/morskie-oko-guides/pl-caption-published.txt",
+      "reopenedReceipt": "docs/morskie-oko-guides/pl-caption-reopened.txt"
+    },
+    "de": {
+      "language": "de",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "e0gGTjUPYoQ",
+      "srtFile": "captions/morskie-oko/de.srt",
+      "srtSHA256": "f41b0fa63a65f08e76130caf6489888cbaddf1e8e6f2cfa00e1da38c17f58b33",
+      "cueCount": 15,
+      "cues": [
+        {
+          "start": 1.18,
+          "end": 1.62,
+          "text": "Cześć!"
+        },
+        {
+          "start": 1.86,
+          "end": 4.66,
+          "text": "Entschuldigung, wie komme ich von hier ans Meer?"
+        },
+        {
+          "start": 5.6,
+          "end": 10.14,
+          "text": "Ich dachte, in Breslau gibt es nur Flüsse, Kanäle, Inseln und Brücken."
+        },
+        {
+          "start": 10.62,
+          "end": 13.74,
+          "text": "Ich hätte nie gedacht, dass wir auch einen Strand haben."
+        },
+        {
+          "start": 14.72,
+          "end": 20.72,
+          "text": "Nun, mitten in der Stadt gibt es einen künstlichen Strand namens Morskie Oko."
+        },
+        {
+          "start": 20.72,
+          "end": 23.86,
+          "text": "Aus dem Polnischen übersetzt bedeutet das Auge des Meeres."
+        },
+        {
+          "start": 23.86,
+          "end": 29.34,
+          "text": "Es ist ein großartiger Ort mit viel Gras und Sand,"
+        },
+        {
+          "start": 29.34,
+          "end": 34.02,
+          "text": "einem Volleyballfeld und Tennisplätzen."
+        },
+        {
+          "start": 34.02,
+          "end": 39.48,
+          "text": "Im Sommer kann man einfach mit seinem Strandtuch herkommen"
+        },
+        {
+          "start": 39.48,
+          "end": 45.18,
+          "text": "und eine wunderbare Zeit am Strand von Morskie Oko genießen."
+        },
+        {
+          "start": 45.7,
+          "end": 48.44,
+          "text": "Ich empfehle, im Sommer herzukommen,"
+        },
+        {
+          "start": 48.44,
+          "end": 51.68,
+          "text": "aber auch im Herbst ist es schön."
+        },
+        {
+          "start": 51.98,
+          "end": 57.1,
+          "text": "Statt Menschen findet man Enten und Schwäne,"
+        },
+        {
+          "start": 57.1,
+          "end": 60.42,
+          "text": "die im See schwimmen. Also bis bald"
+        },
+        {
+          "start": 60.42,
+          "end": 62.84,
+          "text": "in unserem nächsten Video. Auf Wiedersehen!"
+        }
+      ],
+      "publishedReceipt": "docs/morskie-oko-guides/de-caption-published.txt",
+      "reopenedReceipt": "docs/morskie-oko-guides/de-caption-reopened.txt"
+    },
+    "cs": {
+      "language": "cs",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "e0gGTjUPYoQ",
+      "srtFile": "captions/morskie-oko/cs.srt",
+      "srtSHA256": "d639a6dedf852851acccf27437f339e4ab0c4739ac4220f47dc85ffd0a0a4208",
+      "cueCount": 15,
+      "cues": [
+        {
+          "start": 1.18,
+          "end": 1.62,
+          "text": "Cześć!"
+        },
+        {
+          "start": 1.86,
+          "end": 4.66,
+          "text": "Promiňte, jak se odtud dostanu k moři?"
+        },
+        {
+          "start": 5.6,
+          "end": 10.14,
+          "text": "Myslel jsem, že ve Vratislavi jsou jen řeky, kanály, ostrovy a mosty."
+        },
+        {
+          "start": 10.62,
+          "end": 13.74,
+          "text": "Nikdy mě nenapadlo, že máme i pláž."
+        },
+        {
+          "start": 14.72,
+          "end": 20.72,
+          "text": "Přímo uprostřed města je umělá pláž s názvem Morskie Oko."
+        },
+        {
+          "start": 20.72,
+          "end": 23.86,
+          "text": "V překladu z polštiny to znamená oko moře."
+        },
+        {
+          "start": 23.86,
+          "end": 29.34,
+          "text": "Je to úžasné místo se spoustou trávy a písku,"
+        },
+        {
+          "start": 29.34,
+          "end": 34.02,
+          "text": "volejbalovým hřištěm a tenisovými kurty."
+        },
+        {
+          "start": 34.02,
+          "end": 39.48,
+          "text": "V létě sem stačí přijít s plážovou osuškou"
+        },
+        {
+          "start": 39.48,
+          "end": 45.18,
+          "text": "a užít si skvělý čas na pláži Morskie Oko."
+        },
+        {
+          "start": 45.7,
+          "end": 48.44,
+          "text": "Doporučuji sem přijít v létě,"
+        },
+        {
+          "start": 48.44,
+          "end": 51.68,
+          "text": "ale krásné je to tu i na podzim."
+        },
+        {
+          "start": 51.98,
+          "end": 57.1,
+          "text": "Místo lidí tu najdete kachny a labutě"
+        },
+        {
+          "start": 57.1,
+          "end": 60.42,
+          "text": "plující po jezeře. Takže brzy na viděnou"
+        },
+        {
+          "start": 60.42,
+          "end": 62.84,
+          "text": "v našem dalším videu. Na shledanou!"
+        }
+      ],
+      "publishedReceipt": "docs/morskie-oko-guides/cs-caption-published.txt",
+      "reopenedReceipt": "docs/morskie-oko-guides/cs-caption-reopened.txt"
+    }
+  },
+  "originalsPreserved": true,
+  "bloopersExcluded": true,
+  "sourceScope": "Two complete alternative original takes selected after comparing four recordings. No merge or cuts needed.",
+  "selectionEvidence": "docs/morskie-oko-guides/take-comparison-and-timeline.json"
+}

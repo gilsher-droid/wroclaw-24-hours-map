@@ -1,0 +1,219 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- generic: This video is in a draft state
+- button "Edit draft":
+  - generic: Edit draft
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Morskie Oko Wrocław | Our full English guide | WROC-LOVE"'
+  - generic: 1:04
+  - generic: Your video
+  - generic: Morskie Oko Wrocław | Our full English guide | WROC-LOVE
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: English"':
+    - 'heading "Video language: English" [level=2]'
+    - button "Details":
+    - generic: English subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - generic: 4 translations
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup:
+        - row "Arabic 1 published":
+          - cell "Arabic":
+            - button "Arabic":
+              - generic: Arabic
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Czech 1 published":
+          - cell "Czech":
+            - button "Czech":
+              - generic: Czech
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "German 1 published":
+          - cell "German":
+            - button "German":
+              - generic: German
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Polish 1 published":
+          - cell "Polish":
+            - button "Polish":
+              - generic: Polish
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+- generic: Title Description
+- dialog [active]:
+  - generic: Morskie Oko Wrocław | Our full English guide | WROC-LOVE
+  - generic: Saved as private
+  - button "Send Feedback":
+  - button "Close":
+  - tablist:
+    - tab "Details" [selected]:
+      - generic: Details
+    - tab "Video elements":
+      - generic: Video elements
+    - tab "Initial check":
+      - generic: Initial check
+    - tab "Visibility":
+      - generic: Visibility
+  - heading "Details" [level=1]
+  - button "Reuse details":
+    - generic: Reuse details
+  - text: Title (required)
+  - generic "A catchy title can help you to hook viewers. When you create video titles, it's a good idea to include keywords that your audience is likely to use when looking for videos like yours. Learn more":
+  - textbox "Add a title that describes your video (type @ to mention a channel)"
+  - text: Suggested hashtags
+  - text: Description
+  - generic "Writing descriptions with keywords can help viewers to find your videos more easily through search. You can give an overview of your video and place keywords at the beginning of the description. Learn more":
+  - textbox "Tell viewers about your video (type @ to mention a channel)"
+  - generic: Thumbnail
+  - text: Set a thumbnail that stands out and draws viewers' attention.
+  - link "Learn more about thumbnails":
+    - /url: https://support.google.com/youtube/answer/72431?hl=en-GB
+    - text: Learn more
+  - button "Upload file":
+    - generic: Upload file
+  - button "Auto-generated thumbnail 2 Select from video":
+    - img "Auto-generated thumbnail 2"
+    - generic: Select from video
+  - generic: Playlists
+  - text: Add your video to one or more playlists to organise your content for viewers.
+  - link "Learn more about playlists":
+    - /url: https://support.google.com/youtube/answer/57792
+    - text: Learn more
+  - generic "Add to playlist":
+    - button "Select playlists":
+      - button "Select":
+        - generic: Select
+  - generic: Audience
+  - text: This video is set to not 'Made for Kids'
+  - generic: Set by you
+  - text: Regardless of your location, you're legally required to comply with the Children's Online Privacy Protection Act (COPPA) and/or other laws. You're required to tell us whether your videos are 'Made for Kids'.
+  - link "What is 'Made for Kids' content?":
+    - /url: https://support.google.com/youtube/answer/9528076?hl=en-GB
+  - text: Features like personalised ads and notifications won't be available on videos that are Made for Kids. Videos that are set as Made for Kids by you are more likely to be recommended alongside other children's videos.
+  - link "Learn more about video's audience settings":
+    - /url: https://support.google.com/youtube/answer/9527654?hl=en-GB
+    - text: Learn more
+  - radiogroup:
+    - radio "Yes, it's Made for Kids . Features like personalised ads and notifications won't be available on videos that are Made for Kids. Videos that are set as Made for Kids by you are more likely to be recommended alongside other children's videos. Learn more":
+      - text: Yes, it's Made for Kids
+      - generic: .
+      - text: Features like personalised ads and notifications won't be available on videos that are Made for Kids. Videos that are set as Made for Kids by you are more likely to be recommended alongside other children's videos.
+      - link "Learn more":
+        - /url: https://support.google.com/youtube/answer/9527654?hl=en-GB
+    - radio "No, it's not Made for Kids" [checked]:
+      - generic: No, it's not Made for Kids
+  - button "Age restriction":
+    - heading "Age restriction" [level=3]
+  - generic "Show advanced settings":
+    - button "Show advanced settings":
+      - generic: Show more
+  - generic: Paid promotion, collaboration and more
+  - status
+  - region "Video player":
+    - button "Play":
+    - button "Mute":
+    - slider "volume"
+    - generic: 0:00 / 1:04
+    - button "Full screen":
+  - generic: Video link
+  - link "https://youtube.com/shorts/e0gGTjUPYoQ":
+    - /url: https://youtube.com/shorts/e0gGTjUPYoQ
+  - button "Copy video link":
+  - generic: Filename
+  - generic: morskie-oko-guide-en.mp4
+  - generic "Video upload complete":
+  - generic "Video processing Processing complete":
+  - generic "Copyright check complete No issues found Community Guidelines check complete No issues found":
+  - generic: Checks complete. No issues found.
+  - button "Next":
+    - generic: Next
