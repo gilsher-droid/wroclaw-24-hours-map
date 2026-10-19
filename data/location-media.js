@@ -185,7 +185,7 @@
     "stadion-olimpijski-wroclaw": canonicalResources("stadion-olimpijski-wroclaw"),
     japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: [...galleries.japanese, "/assets/japanese-visit-07.jpg", "/assets/japanese-visit-08.jpg"], guideVideos: { he:"https://youtube.com/shorts/x39Gu8wchuA", en:"https://youtube.com/shorts/anSJzrqzqqg" }, videos: ["https://youtube.com/shorts/Ni0GwsP-uMg", "https://youtube.com/shorts/OMuXVtwAkAA"] },
     "wroclavia": canonicalResources("wroclavia"),
-    "wroclavia-station": { gallery: galleries.wroclavia },
+    "wroclavia-station": canonicalResources("wroclavia"),
     glowny: canonicalResources("glowny", [
       { he: "חזית תחנת Wrocław Główny", en: "Wrocław Główny exterior", pl: "Fasada dworca Wrocław Główny", de: "Fassade des Hauptbahnhofs Wrocław", cs: "Průčelí nádraží Wrocław Główny" },
       { he: "התחנה והכיכר שלפניה", en: "The station and its forecourt", pl: "Dworzec i plac przed nim", de: "Der Bahnhof und sein Vorplatz", cs: "Nádraží a přednádražní prostor" }
