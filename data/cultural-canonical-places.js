@@ -363,7 +363,8 @@
         }
       ],
       "verifiedAt": "2026-10-19",
-      "personalMediaPermission": false
+      "personalMediaPermission": false,
+      "visitVideoPublicationReceipt": "data/renoma-rynek-townhall-visit-publication.json"
     },
     "media": {
       "photos": [
@@ -371,7 +372,9 @@
         "/assets/town-hall-refresh-oct19-01.jpg",
         "/assets/town-hall-refresh-oct19-02.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/shorts/a6Hx2tj5Dzg"
+      ],
       "metadata": {
         "/assets/town-hall-refresh-oct19-01.jpg": {
           "original": true,
