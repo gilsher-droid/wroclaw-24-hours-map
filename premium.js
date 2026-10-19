@@ -401,7 +401,8 @@
   }
 
   function popupHtml(item) {
-    return `<div class="premium-popup">${window.WROC_PLACE_POPUP_PHOTO.html(item,language)}<strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span>${placeAmenities.labelBadgeHtml(item, language)}<p>${escapeHtml(text(item.description))}</p>${resourceActionsHtml(item)}</div>`;
+    const popupDescription = item.canonicalPlaceId === "wroclavia" || item.id === "wroclavia" ? text(item.description).split(/[.!?]/)[0] + "." : text(item.description);
+    return `<div class="premium-popup">${window.WROC_PLACE_POPUP_PHOTO.html(item,language)}<strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span>${placeAmenities.labelBadgeHtml(item, language)}<p>${escapeHtml(popupDescription)}</p>${resourceActionsHtml(item)}</div>`;
   }
 
   function renderMap(stops) {
