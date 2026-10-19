@@ -28098,6 +28098,10 @@
         "https://youtube.com/shorts/YJGYqzLFYcQ",
         "https://youtube.com/shorts/41IYcRT2G4c"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/--MnGY29fng",
+        "en": "https://youtube.com/shorts/tiCdc_8vIYw"
+      },
       "metadata": {
         "/assets/stadion-olimpijski-01.jpg": {
           "tags": [

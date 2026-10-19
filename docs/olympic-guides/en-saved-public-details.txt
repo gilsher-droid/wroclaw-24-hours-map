@@ -1,0 +1,135 @@
+- generic: Video details
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Wrocław Olympic Stadium | Full Guide with Gil Sher"'
+  - generic: 1:50
+  - generic: Your video
+  - generic: Wrocław Olympic Stadium | Full Guide with Gil Sher
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Video details" [level=1]
+  - button "Undo changes" [disabled]:
+    - generic: Undo changes
+  - button "Save" [disabled]:
+    - generic: Save
+  - button "Options":
+  - generic "Video sync state dialog"
+  - text: Title (required)
+  - generic "A catchy title can help you to hook viewers. When you create video titles, it's a good idea to include keywords that your audience is likely to use when looking for videos like yours. Learn more":
+  - textbox "Add a title that describes your video (type @ to mention a channel)"
+  - text: Suggested hashtags
+  - text: Description
+  - generic "Writing descriptions with keywords can help viewers to find your videos more easily through search. You can give an overview of your video and place keywords at the beginning of the description. Learn more":
+  - textbox "Tell viewers about your video (type @ to mention a channel)"
+  - generic: Thumbnail
+  - text: Set a thumbnail that stands out and draws viewers' attention.
+  - link "Learn more about thumbnails":
+    - /url: https://support.google.com/youtube/answer/72431?hl=en-GB
+    - text: Learn more
+  - button "Upload file":
+    - generic: Upload file
+  - button "Auto-generated thumbnail 2 Select from video":
+    - img "Auto-generated thumbnail 2"
+    - generic: Select from video
+  - button "Get suggestions":
+    - generic: Get suggestions
+  - generic: Playlists
+  - text: Add your video to one or more playlists to organise your content for viewers.
+  - link "Learn more about playlists":
+    - /url: https://support.google.com/youtube/answer/57792
+    - text: Learn more
+  - generic "Add to playlist":
+    - button "Select playlists":
+      - button "Select":
+        - generic: Select
+  - generic: Audience
+  - text: This video is set to not 'Made for Kids'
+  - generic: Set by you
+  - text: Regardless of your location, you're legally required to comply with the Children's Online Privacy Protection Act (COPPA) and/or other laws. You're required to tell us whether your videos are 'Made for Kids'.
+  - link "What is 'Made for Kids' content?":
+    - /url: https://support.google.com/youtube/answer/9528076?hl=en-GB
+  - text: Features like personalised ads and notifications won't be available on videos that are Made for Kids. Videos that are set as Made for Kids by you are more likely to be recommended alongside other children's videos.
+  - link "Learn more about video's audience settings":
+    - /url: https://support.google.com/youtube/answer/9527654?hl=en-GB
+    - text: Learn more
+  - radiogroup:
+    - radio "Yes, it's Made for Kids . Features like personalised ads and notifications won't be available on videos that are Made for Kids. Videos that are set as Made for Kids by you are more likely to be recommended alongside other children's videos. Learn more":
+      - text: Yes, it's Made for Kids
+      - generic: .
+      - text: Features like personalised ads and notifications won't be available on videos that are Made for Kids. Videos that are set as Made for Kids by you are more likely to be recommended alongside other children's videos.
+      - link "Learn more":
+        - /url: https://support.google.com/youtube/answer/9527654?hl=en-GB
+    - radio "No, it's not Made for Kids" [checked]:
+      - generic: No, it's not Made for Kids
+  - button "Age restriction":
+    - heading "Age restriction" [level=3]
+  - generic "Show advanced settings":
+    - button "Show advanced settings":
+      - generic: Show more
+  - generic: Paid promotion, collaboration and more
+  - status
+  - region "Video player":
+    - button "Play":
+    - button "Mute":
+    - slider "volume"
+    - generic: 0:00 / 1:50
+    - button "Full screen":
+  - generic: Video link
+  - link "https://youtube.com/shorts/tiCdc_8vIYw":
+    - /url: https://youtube.com/shorts/tiCdc_8vIYw
+  - button "Copy video link":
+  - generic: Filename
+  - generic: המדריך שלנו באנגלית - האצטדיון האולימפי.mp4
+  - generic: Video quality
+  - img "Standard Definition complete":
+  - generic: Notices
+  - generic: —
+  - generic: Visibility
+  - generic: Public
+  - button "Edit video visibility status":
+  - button "Related video Guide your audience to a piece of your content related to this video. None":
+    - button "Related video Guide your audience to a piece of your content related to this video. None":
+      - generic: Related video
+      - generic "Guide your audience to a piece of your content related to this video.":
+      - generic: None
+  - button "Subtitles":
+    - button "Subtitles":
+      - button "Subtitles":
+        - generic: Subtitles

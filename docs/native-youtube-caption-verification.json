@@ -290,6 +290,25 @@
       },
       "verifiedAt": "2026-10-19",
       "provenance": "data/pergola-guide-caption-provenance.json"
+    },
+    {
+      "place": "stadion-olimpijski-wroclaw",
+      "videos": {
+        "he": "--MnGY29fng",
+        "en": "tiCdc_8vIYw"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-19",
+      "provenance": "data/olympic-stadium-guide-caption-provenance.json"
     }
   ]
 }

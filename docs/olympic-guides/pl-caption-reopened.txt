@@ -1,0 +1,317 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- generic: This video is in a draft state
+- button "Edit draft":
+  - generic: Edit draft
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Wrocław Olympic Stadium | Full Guide with Gil Sher"'
+  - generic: 1:50
+  - generic: Your video
+  - generic: Wrocław Olympic Stadium | Full Guide with Gil Sher
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: English"':
+    - 'heading "Video language: English" [level=2]'
+    - button "Details":
+    - generic: English subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - generic: 3 translations
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup:
+        - row "Czech 1 published":
+          - cell "Czech":
+            - button "Czech":
+              - generic: Czech
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "German 1 published":
+          - cell "German":
+            - button "German":
+              - generic: German
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Polish 1 published":
+          - cell "Polish":
+            - button "Polish":
+              - generic: Polish
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+- generic "Polish subtitles":
+  - dialog "Polish subtitles" [active]:
+    - generic: Polish
+    - region "Dialogue controls":
+      - heading "Dialogue controls" [level=2]
+      - button "Send feedback":
+      - button "Save draft":
+        - generic: Save draft
+      - status: Save draft button enabled
+      - button "Publish":
+        - generic: Publish
+      - status: Publish button enabled
+      - button "Close":
+    - region "Edit timings":
+      - heading "Edit timings" [level=2]
+      - button "Subtitle":
+        - generic: Subtitle
+      - button "Edit as text" [disabled]:
+        - generic: Edit as text
+      - button "Options":
+      - list "Timings":
+        - listitem "Text with timing":
+          - textbox "Subtitle": Cześć!
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 1 second 21 frames":
+            - generic: 0:01:21
+            - textbox "0 minutes 1 second 21 frames"
+          - generic "0 minutes 2 seconds 20 frames":
+            - generic: 0:02:20
+            - textbox "0 minutes 2 seconds 20 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Cześć! Stoję teraz na Stadionie Olimpijskim.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 3 seconds 5 frames":
+            - generic: 0:03:05
+            - textbox "0 minutes 3 seconds 5 frames"
+          - generic "0 minutes 7 seconds 24 frames":
+            - generic: 0:07:24
+            - textbox "0 minutes 7 seconds 24 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Jednak igrzyska olimpijskie nigdy się tutaj nie odbyły,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 8 seconds 27 frames":
+            - generic: 0:08:27
+            - textbox "0 minutes 8 seconds 27 frames"
+          - generic "0 minutes 13 seconds 8 frames":
+            - generic: 0:13:08
+            - textbox "0 minutes 13 seconds 8 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": "ale nadal można tu znaleźć hasło igrzysk olimpijskich:"
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 13 seconds 22 frames":
+            - generic: 0:13:22
+            - textbox "0 minutes 13 seconds 22 frames"
+          - generic "0 minutes 17 seconds 11 frames":
+            - generic: 0:17:11
+            - textbox "0 minutes 17 seconds 11 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": "Citius, Altius, Fortius, co oznacza:"
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 18 seconds 5 frames":
+            - generic: 0:18:05
+            - textbox "0 minutes 18 seconds 5 frames"
+          - generic "0 minutes 20 seconds 22 frames":
+            - generic: 0:20:22
+            - textbox "0 minutes 20 seconds 22 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": silniej, szybciej, wyżej.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 20 seconds 22 frames":
+            - generic: 0:20:22
+            - textbox "0 minutes 20 seconds 22 frames"
+          - generic "0 minutes 23 seconds 27 frames":
+            - generic: 0:23:27
+            - textbox "0 minutes 23 seconds 27 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Polecam odwiedzić ten niesamowity obiekt,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 23 seconds 27 frames":
+            - generic: 0:23:27
+            - textbox "0 minutes 23 seconds 27 frames"
+          - generic "0 minutes 29 seconds 15 frames":
+            - generic: 0:29:15
+            - textbox "0 minutes 29 seconds 15 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": który zbudowano w latach 1926–1928.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 29 seconds 15 frames":
+            - generic: 0:29:15
+            - textbox "0 minutes 29 seconds 15 frames"
+          - generic "0 minutes 34 seconds 5 frames":
+            - generic: 0:34:05
+            - textbox "0 minutes 34 seconds 5 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Służył głównie jako miejsce ćwiczeń i treningów dla
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 34 seconds 26 frames":
+            - generic: 0:34:26
+            - textbox "0 minutes 34 seconds 26 frames"
+          - generic "0 minutes 40 seconds 24 frames":
+            - generic: 0:40:24
+            - textbox "0 minutes 40 seconds 24 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": niemieckich sportowców przygotowujących się
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 40 seconds 24 frames":
+            - generic: 0:40:24
+            - textbox "0 minutes 40 seconds 24 frames"
+          - generic "0 minutes 44 seconds 26 frames":
+            - generic: 0:44:26
+            - textbox "0 minutes 44 seconds 26 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": do igrzysk olimpijskich w Los Angeles.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 44 seconds 26 frames":
+            - generic: 0:44:26
+            - textbox "0 minutes 44 seconds 26 frames"
+          - generic "0 minutes 47 seconds 2 frames":
+            - generic: 0:47:02
+            - textbox "0 minutes 47 seconds 2 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Od tego czasu stadion wielokrotnie remontowano.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 47 seconds 23 frames":
+            - generic: 0:47:23
+            - textbox "0 minutes 47 seconds 23 frames"
+          - generic "0 minutes 52 seconds 5 frames":
+            - generic: 0:52:05
+            - textbox "0 minutes 52 seconds 5 frames"
+    - heading "Subtitles preview" [level=2]
+    - region "Subtitles preview":
+      - region "Video player":
+        - generic "Wrocław Olympic Stadium | Full Guide with Gil Sher"
+        - button "Play":
+        - button "Skip back 10 seconds":
+        - button "Skip forwards 10 seconds":
+        - button "Mute":
+        - slider "volume"
+        - generic: 0:00 / 1:50
+        - button "Settings":
+      - checkbox "Pause while typing"
+      - generic: Pause while typing
+      - button "View keyboard shortcuts":
+        - generic: View keyboard shortcuts
+    - heading "Subtitles timeline" [level=2]
+    - region "Subtitles timeline":
+      - generic "0 minutes 0 seconds 0 frames":
+        - generic: 0:00:00
+        - textbox "0 minutes 0 seconds 0 frames"
+      - button "Undo" [disabled]:
+        - generic: Undo
+      - button "Redo" [disabled]:
+        - generic: Redo
+      - button "Zoom out":
+      - slider "Zoom slider":
+        - progressbar
+      - button "Zoom in":
+      - generic "Timeline header"
+      - button "Find playhead":
+      - button "Find playhead":
+      - generic "Cześć!"
+      - generic: Cześć!
+      - generic "Cześć! Stoję teraz na Stadionie Olimpijskim."
+      - generic: Cześć! Stoję teraz na Stadionie Olimpijskim.
+      - generic "Jednak igrzyska olimpijskie nigdy się tutaj nie odbyły,"
+      - generic: Jednak igrzyska olimpijskie nigdy się tutaj nie odbyły,
+      - generic "ale nadal można tu znaleźć hasło igrzysk olimpijskich:"
+      - generic: "ale nadal można tu znaleźć hasło igrzysk olimpijskich:"
+      - generic: "Citius, Altius, Fortius, co oznacza:"
+      - generic: silniej, szybciej, wyżej.
+      - generic: Polecam odwiedzić ten niesamowity obiekt,
+      - generic: który zbudowano w latach 1926–1928.
+      - generic: Służył głównie jako miejsce ćwiczeń i treningów dla
+      - generic: niemieckich sportowców przygotowujących się
+      - generic: do igrzysk olimpijskich w Los Angeles.
+      - generic: Od tego czasu stadion wielokrotnie remontowano.
+      - generic: Przez lata go rozbudowywano,
+      - generic: a dziś odbywają się tu głównie mecze piłki nożnej,
+      - generic: mecze futbolu amerykańskiego
+      - generic: i wyścigi motocyklowe,
+      - generic: które podobno są bardzo szalone
+      - generic: i emocjonujące. I
+      - generic: muszę tu wrócić, żeby obejrzeć taki wyścig.
+      - generic: Polecam też po prostu spacer po tym kompleksie,
+      - generic: w którym jest wiele obiektów sportowych.
+      - generic: Można też pojechać rowerem nad niedaleką Odrę.
+      - generic: I przed rozpoczęciem nie zapomnijcie o kawie i ciastku
+      - generic: w Małej Czarnej, przy samym wejściu
+      - generic: do kompleksu olimpijskiego. I
+      - generic: Kawa i ciastko, a potem pamiętajcie,
+      - generic: pobiegać, żeby to zrekompensować.
+      - generic: Do zobaczenia w następnym filmie.
+      - generic: Do widzenia!
+      - generic "Audio waveform"
+      - generic "Start of timeline"
+      - generic "End of timeline"
+      - slider "Playhead"
+      - generic: 0:00:00

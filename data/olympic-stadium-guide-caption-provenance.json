@@ -1,0 +1,858 @@
+{
+  "canonicalPlaceIds": [
+    "stadion-olimpijski-wroclaw"
+  ],
+  "aliases": [
+    "olympic-stadium-wroclaw"
+  ],
+  "editions": {
+    "he": {
+      "id": "--MnGY29fng",
+      "url": "https://www.youtube.com/watch?v=--MnGY29fng",
+      "sourceLanguage": "he",
+      "durationSeconds": 101.033333,
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "checks": "Copyright and Community Guidelines complete, no issues",
+      "sourceSHA256": "7d0839fd08d391396c21e985430594b20c8656a31dc439b5787a93c070102356",
+      "captionLanguages": [
+        "he"
+      ],
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/המדריך שלנו/המדריך שלנו בעברית הפארק האולימפי.mp4",
+      "uploadSHA256": "7d0839fd08d391396c21e985430594b20c8656a31dc439b5787a93c070102356",
+      "originalPictureAudioUnchanged": true
+    },
+    "en": {
+      "id": "tiCdc_8vIYw",
+      "url": "https://www.youtube.com/watch?v=tiCdc_8vIYw",
+      "sourceLanguage": "en",
+      "durationSeconds": 109.091667,
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "checks": "Copyright and Community Guidelines complete, no issues",
+      "sourceSHA256": "a85fbd6ffaf73a2aec1166d24cc3cf09f6a6859b73c77279b199d554f93a5e81",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/המדריך שלנו/המדריך שלנו באנגלית - האצטדיון האולימפי.mp4",
+      "uploadSHA256": "a85fbd6ffaf73a2aec1166d24cc3cf09f6a6859b73c77279b199d554f93a5e81",
+      "originalPictureAudioUnchanged": true
+    }
+  },
+  "tracks": {
+    "he": {
+      "language": "he",
+      "sourceCandidate": "candidate-1",
+      "sha256": "7b4423722a3fbc8b8f103f1dfcc29501d1fc5e3c2ee11da1962c27fa8ee6ff52",
+      "cueCount": 28,
+      "status": "Published",
+      "published": true,
+      "videoId": "--MnGY29fng",
+      "publishedReceipt": "he-caption-published.txt",
+      "reopenedReceipt": "he-caption-reopened.txt",
+      "srtFile": "captions/olympic-stadium/he.srt",
+      "srtSHA256": "7b4423722a3fbc8b8f103f1dfcc29501d1fc5e3c2ee11da1962c27fa8ee6ff52",
+      "cues": [
+        {
+          "start": 1.42,
+          "end": 3.1,
+          "text": "דוברי וייצ׳ור."
+        },
+        {
+          "start": 3.1,
+          "end": 4.8,
+          "text": "ערב טוב."
+        },
+        {
+          "start": 5.56,
+          "end": 9.2,
+          "text": "סיטיוס, אלטיוס, פורטיוס."
+        },
+        {
+          "start": 9.34,
+          "end": 13.48,
+          "text": "חזק יותר, גבוה יותר, מהר יותר."
+        },
+        {
+          "start": 14.3,
+          "end": 15.74,
+          "text": "זאת סיסמת האולימפיאדה."
+        },
+        {
+          "start": 16.16,
+          "end": 20.4,
+          "text": "אנחנו נמצאים כאן באצטדיון\nהאולימפי של ורוצלב,"
+        },
+        {
+          "start": 21.36,
+          "end": 25.58,
+          "text": "שלמרות שנקרא האצטדיון האולימפי,\nמעולם לא התקיימה כאן אולימפיאדה."
+        },
+        {
+          "start": 26.06,
+          "end": 31.16,
+          "text": "האצטדיון הזה נבנה בשנים\n1926 עד 1928."
+        },
+        {
+          "start": 31.74,
+          "end": 35.22,
+          "text": "בשנות ה־30 הוא שימש\nספורטאים גרמנים"
+        },
+        {
+          "start": 35.22,
+          "end": 38.72,
+          "text": "לאימונים לקראת\nאולימפיאדת לוס אנג׳לס."
+        },
+        {
+          "start": 39.72,
+          "end": 44.78,
+          "text": "מאז האצטדיון הזה\nשופץ מספר פעמים,"
+        },
+        {
+          "start": 45.08,
+          "end": 47.84,
+          "text": "הורחב פה מספר מקומות הישיבה,"
+        },
+        {
+          "start": 47.84,
+          "end": 51.92,
+          "text": "והיום הוא משמש\nלפוטבול אמריקאי"
+        },
+        {
+          "start": 51.92,
+          "end": 55.66,
+          "text": "ולתחרויות רייסינג\nשנקראות ספידווי,"
+        },
+        {
+          "start": 56.24,
+          "end": 60.68,
+          "text": "שממה ששמעתי זה תחרויות\nאופנועים מטורפות על עפר."
+        },
+        {
+          "start": 61.26,
+          "end": 65.52,
+          "text": "אני מרגיש שאני חייב לחזור לכאן\nולראות את התחרויות האלה."
+        },
+        {
+          "start": 65.52,
+          "end": 68.08,
+          "text": "המקום מאוד מאוד מרשים אדריכלית."
+        },
+        {
+          "start": 68.24,
+          "end": 70.92,
+          "text": "מסביב יש כאן הרבה מאוד פארקים"
+        },
+        {
+          "start": 70.92,
+          "end": 73.96000000000001,
+          "text": "שקשורים לספורט\nולא קשורים לספורט."
+        },
+        {
+          "start": 73.96000000000001,
+          "end": 76.2,
+          "text": "ניתן להגיע לכאן עם אופניים"
+        },
+        {
+          "start": 76.2,
+          "end": 80.0,
+          "text": "ולרכב עד ממש לגדת הנהר\nשנמצאת מאחוריי."
+        },
+        {
+          "start": 80.0,
+          "end": 83.32,
+          "text": "כמו כן ישנו קפה בכניסה"
+        },
+        {
+          "start": 83.32,
+          "end": 85.8,
+          "text": "לאצטדיון האולימפי שנקרא"
+        },
+        {
+          "start": 86.14,
+          "end": 88.64,
+          "text": "מאלה צארנה, שחור קטן."
+        },
+        {
+          "start": 89.26,
+          "end": 91.74,
+          "text": "בית קפה מצוין עם עוגות מצוינות."
+        },
+        {
+          "start": 91.92,
+          "end": 94.44,
+          "text": "מומלץ להתחיל בקפה ועוגה"
+        },
+        {
+          "start": 94.44,
+          "end": 97.36,
+          "text": "ואז לרוץ באצטדיון האולימפי."
+        },
+        {
+          "start": 97.36,
+          "end": 99.94,
+          "text": "להתראות בווידאו הבא. דו וידזניה."
+        }
+      ]
+    },
+    "en": {
+      "language": "en",
+      "sourceCandidate": "candidate-0",
+      "sha256": "f01d4ea0a319ba833683be04e02f2d15586e1aaa819760efd1f9664ea9085a87",
+      "cueCount": 29,
+      "status": "Published",
+      "published": true,
+      "videoId": "tiCdc_8vIYw",
+      "publishedReceipt": "en-caption-published.txt",
+      "reopenedReceipt": "en-caption-reopened.txt",
+      "srtFile": "captions/olympic-stadium/en.srt",
+      "srtSHA256": "f01d4ea0a319ba833683be04e02f2d15586e1aaa819760efd1f9664ea9085a87",
+      "cues": [
+        {
+          "start": 1.74,
+          "end": 2.7,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.22,
+          "end": 7.86,
+          "text": "Hi, so I am standing now\nin the Olympic Stadium."
+        },
+        {
+          "start": 8.94,
+          "end": 13.32,
+          "text": "However, the Olympic Games\nnever happened here,"
+        },
+        {
+          "start": 13.78,
+          "end": 17.42,
+          "text": "but you still can find\nthe Olympic Games slogan:"
+        },
+        {
+          "start": 18.22,
+          "end": 20.78,
+          "text": "Citius, Altius, Fortius,\nwhich means"
+        },
+        {
+          "start": 20.78,
+          "end": 23.96,
+          "text": "stronger, faster, higher."
+        },
+        {
+          "start": 23.96,
+          "end": 29.56,
+          "text": "And I recommend coming\nto this amazing structure"
+        },
+        {
+          "start": 29.56,
+          "end": 34.2,
+          "text": "that was built in the years\n1926 to 1928."
+        },
+        {
+          "start": 34.9,
+          "end": 40.84,
+          "text": "It serves mainly as an exercise\npractice place for"
+        },
+        {
+          "start": 40.84,
+          "end": 44.9,
+          "text": "the German athletes preparing"
+        },
+        {
+          "start": 44.9,
+          "end": 47.1,
+          "text": "for the Olympic Games\nin Los Angeles."
+        },
+        {
+          "start": 47.82,
+          "end": 52.2,
+          "text": "Since then this stadium went\nthrough lots of renovations."
+        },
+        {
+          "start": 52.2,
+          "end": 55.4,
+          "text": "Throughout the years\nit was expanded,"
+        },
+        {
+          "start": 55.4,
+          "end": 59.2,
+          "text": "and today it's mainly\nhosting football games,"
+        },
+        {
+          "start": 59.42,
+          "end": 61.26,
+          "text": "American football games"
+        },
+        {
+          "start": 61.26,
+          "end": 64.34,
+          "text": "and speed racing\nwith motorcycles"
+        },
+        {
+          "start": 64.34,
+          "end": 68.48,
+          "text": "that I heard is\nvery crazy"
+        },
+        {
+          "start": 68.48,
+          "end": 72.76,
+          "text": "and exciting, and"
+        },
+        {
+          "start": 72.76,
+          "end": 75.68,
+          "text": "I have to come back here\nto watch one of those races."
+        },
+        {
+          "start": 75.98,
+          "end": 79.02,
+          "text": "I recommend also just\nwalking around this complex"
+        },
+        {
+          "start": 79.02,
+          "end": 82.5,
+          "text": "that is filled\nwith sports facilities."
+        },
+        {
+          "start": 82.5,
+          "end": 87.78,
+          "text": "And also you can bike to\nthe Oder River not far from here."
+        },
+        {
+          "start": 87.78,
+          "end": 92.08,
+          "text": "And don't forget, before you start,\nto have a coffee and a cake"
+        },
+        {
+          "start": 92.08,
+          "end": 95.24000000000001,
+          "text": "in Mała Czarna,\njust in the entrance"
+        },
+        {
+          "start": 95.24000000000001,
+          "end": 98.22,
+          "text": "to the Olympic complex, and"
+        },
+        {
+          "start": 98.88,
+          "end": 101.3,
+          "text": "have a coffee and a cake,\nand then don't forget"
+        },
+        {
+          "start": 101.3,
+          "end": 103.94,
+          "text": "to run in order\nto compensate for that."
+        },
+        {
+          "start": 104.5,
+          "end": 106.66,
+          "text": "Anyway, I'll see you\nin the next video."
+        },
+        {
+          "start": 107.22,
+          "end": 108.2,
+          "text": "Do widzenia!"
+        }
+      ]
+    },
+    "pl": {
+      "language": "pl",
+      "sourceCandidate": "candidate-0",
+      "sha256": "64c5ae9e53685e6e810b0ba1675b970e3c5b581849682b5d566ce2c3a458f525",
+      "cueCount": 29,
+      "status": "Published",
+      "published": true,
+      "videoId": "tiCdc_8vIYw",
+      "publishedReceipt": "pl-caption-published.txt",
+      "reopenedReceipt": "pl-caption-reopened.txt",
+      "srtFile": "captions/olympic-stadium/pl.srt",
+      "srtSHA256": "64c5ae9e53685e6e810b0ba1675b970e3c5b581849682b5d566ce2c3a458f525",
+      "cues": [
+        {
+          "start": 1.74,
+          "end": 2.7,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.22,
+          "end": 7.86,
+          "text": "Cześć! Stoję teraz\nna Stadionie Olimpijskim."
+        },
+        {
+          "start": 8.94,
+          "end": 13.32,
+          "text": "Jednak igrzyska olimpijskie\nnigdy się tutaj nie odbyły,"
+        },
+        {
+          "start": 13.78,
+          "end": 17.42,
+          "text": "ale nadal można tu znaleźć\nhasło igrzysk olimpijskich:"
+        },
+        {
+          "start": 18.22,
+          "end": 20.78,
+          "text": "Citius, Altius, Fortius,\nco oznacza:"
+        },
+        {
+          "start": 20.78,
+          "end": 23.96,
+          "text": "silniej, szybciej, wyżej."
+        },
+        {
+          "start": 23.96,
+          "end": 29.56,
+          "text": "Polecam odwiedzić\nten niesamowity obiekt,"
+        },
+        {
+          "start": 29.56,
+          "end": 34.2,
+          "text": "który zbudowano\nw latach 1926–1928."
+        },
+        {
+          "start": 34.9,
+          "end": 40.84,
+          "text": "Służył głównie jako miejsce\nćwiczeń i treningów dla"
+        },
+        {
+          "start": 40.84,
+          "end": 44.9,
+          "text": "niemieckich sportowców\nprzygotowujących się"
+        },
+        {
+          "start": 44.9,
+          "end": 47.1,
+          "text": "do igrzysk olimpijskich\nw Los Angeles."
+        },
+        {
+          "start": 47.82,
+          "end": 52.2,
+          "text": "Od tego czasu stadion\nwielokrotnie remontowano."
+        },
+        {
+          "start": 52.2,
+          "end": 55.4,
+          "text": "Przez lata\ngo rozbudowywano,"
+        },
+        {
+          "start": 55.4,
+          "end": 59.2,
+          "text": "a dziś odbywają się tu głównie\nmecze piłki nożnej,"
+        },
+        {
+          "start": 59.42,
+          "end": 61.26,
+          "text": "mecze futbolu amerykańskiego"
+        },
+        {
+          "start": 61.26,
+          "end": 64.34,
+          "text": "i wyścigi motocyklowe,"
+        },
+        {
+          "start": 64.34,
+          "end": 68.48,
+          "text": "które podobno\nsą bardzo szalone"
+        },
+        {
+          "start": 68.48,
+          "end": 72.76,
+          "text": "i emocjonujące. I"
+        },
+        {
+          "start": 72.76,
+          "end": 75.68,
+          "text": "muszę tu wrócić,\nżeby obejrzeć taki wyścig."
+        },
+        {
+          "start": 75.98,
+          "end": 79.02,
+          "text": "Polecam też po prostu\nspacer po tym kompleksie,"
+        },
+        {
+          "start": 79.02,
+          "end": 82.5,
+          "text": "w którym jest wiele\nobiektów sportowych."
+        },
+        {
+          "start": 82.5,
+          "end": 87.78,
+          "text": "Można też pojechać rowerem\nnad niedaleką Odrę."
+        },
+        {
+          "start": 87.78,
+          "end": 92.08,
+          "text": "I przed rozpoczęciem nie zapomnijcie\no kawie i ciastku"
+        },
+        {
+          "start": 92.08,
+          "end": 95.24000000000001,
+          "text": "w Małej Czarnej,\nprzy samym wejściu"
+        },
+        {
+          "start": 95.24000000000001,
+          "end": 98.22,
+          "text": "do kompleksu olimpijskiego. I"
+        },
+        {
+          "start": 98.88,
+          "end": 101.3,
+          "text": "Kawa i ciastko,\na potem pamiętajcie,"
+        },
+        {
+          "start": 101.3,
+          "end": 103.94,
+          "text": "pobiegać, żeby\nto zrekompensować."
+        },
+        {
+          "start": 104.5,
+          "end": 106.66,
+          "text": "Do zobaczenia\nw następnym filmie."
+        },
+        {
+          "start": 107.22,
+          "end": 108.2,
+          "text": "Do widzenia!"
+        }
+      ]
+    },
+    "de": {
+      "language": "de",
+      "sourceCandidate": "candidate-0",
+      "sha256": "71b6079a394c99b75ab25d74bde0c07467c6c2765fcc86de139d0211d51d4dad",
+      "cueCount": 29,
+      "status": "Published",
+      "published": true,
+      "videoId": "tiCdc_8vIYw",
+      "publishedReceipt": "de-caption-published.txt",
+      "reopenedReceipt": "de-caption-reopened.txt",
+      "srtFile": "captions/olympic-stadium/de.srt",
+      "srtSHA256": "71b6079a394c99b75ab25d74bde0c07467c6c2765fcc86de139d0211d51d4dad",
+      "cues": [
+        {
+          "start": 1.74,
+          "end": 2.7,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.22,
+          "end": 7.86,
+          "text": "Hallo! Ich stehe jetzt\nim Olympiastadion."
+        },
+        {
+          "start": 8.94,
+          "end": 13.32,
+          "text": "Allerdings fanden hier\nnie Olympische Spiele statt,"
+        },
+        {
+          "start": 13.78,
+          "end": 17.42,
+          "text": "aber den olympischen Wahlspruch\nkann man hier noch finden:"
+        },
+        {
+          "start": 18.22,
+          "end": 20.78,
+          "text": "Citius, Altius, Fortius.\nDas bedeutet:"
+        },
+        {
+          "start": 20.78,
+          "end": 23.96,
+          "text": "stärker, schneller, höher."
+        },
+        {
+          "start": 23.96,
+          "end": 29.56,
+          "text": "Ich empfehle einen Besuch\ndieses großartigen Bauwerks,"
+        },
+        {
+          "start": 29.56,
+          "end": 34.2,
+          "text": "das in den Jahren\n1926 bis 1928 erbaut wurde."
+        },
+        {
+          "start": 34.9,
+          "end": 40.84,
+          "text": "Es diente hauptsächlich\nals Übungs- und Trainingsort für"
+        },
+        {
+          "start": 40.84,
+          "end": 44.9,
+          "text": "die deutschen Sportler,\ndie sich vorbereiteten"
+        },
+        {
+          "start": 44.9,
+          "end": 47.1,
+          "text": "auf die Olympischen Spiele\nin Los Angeles."
+        },
+        {
+          "start": 47.82,
+          "end": 52.2,
+          "text": "Seitdem wurde das Stadion\nviele Male renoviert."
+        },
+        {
+          "start": 52.2,
+          "end": 55.4,
+          "text": "Im Laufe der Jahre\nwurde es erweitert,"
+        },
+        {
+          "start": 55.4,
+          "end": 59.2,
+          "text": "und heute finden hier\nvor allem Fußballspiele statt,"
+        },
+        {
+          "start": 59.42,
+          "end": 61.26,
+          "text": "American-Football-Spiele"
+        },
+        {
+          "start": 61.26,
+          "end": 64.34,
+          "text": "und Motorradrennen,"
+        },
+        {
+          "start": 64.34,
+          "end": 68.48,
+          "text": "die angeblich\nsehr verrückt"
+        },
+        {
+          "start": 68.48,
+          "end": 72.76,
+          "text": "und aufregend sind. Und"
+        },
+        {
+          "start": 72.76,
+          "end": 75.68,
+          "text": "ich muss wiederkommen,\num mir so ein Rennen anzusehen."
+        },
+        {
+          "start": 75.98,
+          "end": 79.02,
+          "text": "Ich empfehle auch einen Spaziergang\ndurch diese Anlage,"
+        },
+        {
+          "start": 79.02,
+          "end": 82.5,
+          "text": "in der es viele\nSporteinrichtungen gibt."
+        },
+        {
+          "start": 82.5,
+          "end": 87.78,
+          "text": "Man kann auch mit dem Rad\nzur nahen Oder fahren."
+        },
+        {
+          "start": 87.78,
+          "end": 92.08,
+          "text": "Und vergesst vor dem Start nicht\neinen Kaffee und ein Stück Kuchen"
+        },
+        {
+          "start": 92.08,
+          "end": 95.24000000000001,
+          "text": "in der Mała Czarna,\ndirekt am Eingang"
+        },
+        {
+          "start": 95.24000000000001,
+          "end": 98.22,
+          "text": "zum olympischen Komplex. Und"
+        },
+        {
+          "start": 98.88,
+          "end": 101.3,
+          "text": "Kaffee und Kuchen,\nund vergesst dann nicht,"
+        },
+        {
+          "start": 101.3,
+          "end": 103.94,
+          "text": "laufen zu gehen,\num das auszugleichen."
+        },
+        {
+          "start": 104.5,
+          "end": 106.66,
+          "text": "Bis zum nächsten Video!"
+        },
+        {
+          "start": 107.22,
+          "end": 108.2,
+          "text": "Do widzenia!"
+        }
+      ]
+    },
+    "cs": {
+      "language": "cs",
+      "sourceCandidate": "candidate-0",
+      "sha256": "5ec83a3dc9c3f8411bf8bff9941fd2ac70e40465d7efa62cdaf3b26cd4f08ec8",
+      "cueCount": 29,
+      "status": "Published",
+      "published": true,
+      "videoId": "tiCdc_8vIYw",
+      "publishedReceipt": "en-three-translations-published.txt",
+      "reopenedReceipt": "cs-caption-reopened.txt",
+      "srtFile": "captions/olympic-stadium/cs.srt",
+      "srtSHA256": "5ec83a3dc9c3f8411bf8bff9941fd2ac70e40465d7efa62cdaf3b26cd4f08ec8",
+      "cues": [
+        {
+          "start": 1.74,
+          "end": 2.7,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.22,
+          "end": 7.86,
+          "text": "Ahoj! Stojím teď\nna Olympijském stadionu."
+        },
+        {
+          "start": 8.94,
+          "end": 13.32,
+          "text": "Olympijské hry\nse tu ale nikdy nekonaly,"
+        },
+        {
+          "start": 13.78,
+          "end": 17.42,
+          "text": "přesto tu stále najdete\nolympijské heslo:"
+        },
+        {
+          "start": 18.22,
+          "end": 20.78,
+          "text": "Citius, Altius, Fortius,\ncož znamená:"
+        },
+        {
+          "start": 20.78,
+          "end": 23.96,
+          "text": "silněji, rychleji, výše."
+        },
+        {
+          "start": 23.96,
+          "end": 29.56,
+          "text": "Doporučuji navštívit\ntuto úžasnou stavbu,"
+        },
+        {
+          "start": 29.56,
+          "end": 34.2,
+          "text": "která vznikla\nv letech 1926 až 1928."
+        },
+        {
+          "start": 34.9,
+          "end": 40.84,
+          "text": "Sloužila hlavně jako místo\npro cvičení a trénink"
+        },
+        {
+          "start": 40.84,
+          "end": 44.9,
+          "text": "německých sportovců,\nkteří se připravovali"
+        },
+        {
+          "start": 44.9,
+          "end": 47.1,
+          "text": "na olympijské hry\nv Los Angeles."
+        },
+        {
+          "start": 47.82,
+          "end": 52.2,
+          "text": "Od té doby stadion prošel\nmnoha rekonstrukcemi."
+        },
+        {
+          "start": 52.2,
+          "end": 55.4,
+          "text": "Během let\nbyl rozšířen"
+        },
+        {
+          "start": 55.4,
+          "end": 59.2,
+          "text": "a dnes se tu konají hlavně\nfotbalové zápasy,"
+        },
+        {
+          "start": 59.42,
+          "end": 61.26,
+          "text": "zápasy amerického fotbalu"
+        },
+        {
+          "start": 61.26,
+          "end": 64.34,
+          "text": "a motocyklové závody,"
+        },
+        {
+          "start": 64.34,
+          "end": 68.48,
+          "text": "které jsou prý\nhodně divoké"
+        },
+        {
+          "start": 68.48,
+          "end": 72.76,
+          "text": "a vzrušující. A"
+        },
+        {
+          "start": 72.76,
+          "end": 75.68,
+          "text": "musím se sem vrátit\na na takový závod se podívat."
+        },
+        {
+          "start": 75.98,
+          "end": 79.02,
+          "text": "Doporučuji také procházku\npo tomto areálu,"
+        },
+        {
+          "start": 79.02,
+          "end": 82.5,
+          "text": "který je plný\nsportovních zařízení."
+        },
+        {
+          "start": 82.5,
+          "end": 87.78,
+          "text": "Můžete také dojet na kole\nk nedaleké Odře."
+        },
+        {
+          "start": 87.78,
+          "end": 92.08,
+          "text": "A než začnete, nezapomeňte\nna kávu a dort"
+        },
+        {
+          "start": 92.08,
+          "end": 95.24000000000001,
+          "text": "v Mała Czarna,\nhned u vstupu"
+        },
+        {
+          "start": 95.24000000000001,
+          "end": 98.22,
+          "text": "do olympijského areálu. A"
+        },
+        {
+          "start": 98.88,
+          "end": 101.3,
+          "text": "dejte si kávu a dort\na pak nezapomeňte"
+        },
+        {
+          "start": 101.3,
+          "end": 103.94,
+          "text": "jít běhat,\nabyste to vykompenzovali."
+        },
+        {
+          "start": 104.5,
+          "end": 106.66,
+          "text": "Uvidíme se\nu dalšího videa."
+        },
+        {
+          "start": 107.22,
+          "end": 108.2,
+          "text": "Do widzenia!"
+        }
+      ]
+    }
+  },
+  "originalsPreserved": true,
+  "descriptionCorrections": [
+    "Latin motto order differs in narration; explanation prepared in descriptions only",
+    "English historical claim of main training purpose narrowed in description to verified 1930 German Games Olympics preparation",
+    "Modern principal uses contextualized as speedway and American football"
+  ],
+  "localQA": {
+    "tracks": 5,
+    "cuesTotal": 144,
+    "over22CPS": 0,
+    "over42LineChars": 0,
+    "noOverlaps": true,
+    "originalAudioVideoChanged": false,
+    "humanListeningVerified": false
+  },
+  "sourceScope": "Original guide recordings, unchanged image and audio; separate from six visit clips."
+}
