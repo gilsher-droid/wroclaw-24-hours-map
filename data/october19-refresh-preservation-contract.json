@@ -421,11 +421,7 @@
     }
   },
   "preservedGuides": {},
-  "pendingNewVideos": {
-    "renoma": 0,
-    "rynek": 2,
-    "town-hall": 0
-  },
+  "pendingNewVideos": {},
   "excludedTowerImages": [
     "/assets/gallery-university-02.jpg",
     "/assets/gallery-university-04.jpg",

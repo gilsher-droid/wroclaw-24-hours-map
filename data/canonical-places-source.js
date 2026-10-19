@@ -10690,7 +10690,12 @@
         "lat": 51.1038569,
         "lng": 17.0319662
       },
-      "address": {"street": "Świdnicka 40", "city": "Wrocław", "countryCode": "PL", "postalCode": "50-024"}
+      "address": {
+        "street": "Świdnicka 40",
+        "city": "Wrocław",
+        "countryCode": "PL",
+        "postalCode": "50-024"
+      }
     },
     "categories": [
       "buy",
@@ -10756,7 +10761,9 @@
         "/assets/renoma-refresh-oct19-08.jpg",
         "/assets/renoma-refresh-oct19-09.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/shorts/J3-FVZvzMGA"
+      ],
       "metadata": {
         "/assets/renoma-refresh-oct19-01.jpg": {
           "original": true,
@@ -10983,7 +10990,8 @@
           ]
         }
       ],
-      "personalMediaPermission": false
+      "personalMediaPermission": false,
+      "visitVideoPublicationReceipt": "data/renoma-rynek-townhall-visit-publication.json"
     }
   },
   "wroclavia": {
@@ -11891,7 +11899,10 @@
             "de": "Open-Air-Kino auf dem Marktplatz",
             "cs": "Letní kino na náměstí"
           }
-        }
+        },
+        "https://youtube.com/shorts/QujEX9RWHp4",
+        "https://youtube.com/shorts/CX6bWPCGK8w",
+        "https://youtube.com/shorts/qJTW6gR0Dx8"
       ],
       "metadata": {
         "/assets/rynek-refresh-oct19-01.jpg": {
@@ -12103,7 +12114,8 @@
           "caution": "Source contains visibly malformed hours and inconsistent postal codes; do not copy hours/prices/postal codes"
         }
       ],
-      "personalMediaPermission": false
+      "personalMediaPermission": false,
+      "visitVideoPublicationReceipt": "data/renoma-rynek-townhall-visit-publication.json"
     }
   },
   "slodowa": {
