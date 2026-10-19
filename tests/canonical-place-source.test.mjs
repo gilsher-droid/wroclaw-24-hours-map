@@ -110,7 +110,7 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
 
   assert.ok(place);
   assert.equal(Object.keys(catalog.places).length, 191);
-  assert.equal(Object.keys(catalog.aliases).length, 97);
+  assert.equal(Object.keys(catalog.aliases).length, 102);
   assert.equal(catalog.coordinateConflicts.length, 28);
   assert.equal(place.localName, "Zamek Książ w Wałbrzychu");
   assert.equal(place.location.countryCode, "PL");
@@ -234,11 +234,11 @@ test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonica
   assert.equal(premiumStop?.name.de, "Westfield Wroclavia");
   assert.equal(premiumStop?.name.cs, "Westfield Wroclavia");
   assert.equal(premiumRecommendation?.localName, "Westfield Wroclavia");
-  assert.equal(premiumRecommendation?.name.de, "Westfield Wroclavia – großes Einkaufsangebot");
-  assert.equal(premiumRecommendation?.name.cs, "Westfield Wroclavia – hlavní nákupní možnosti");
-  assert.equal(christmasStop?.localName, "Westfield Wroclavia / Wrocław Główny");
-  assert.equal(christmasStop?.name.de, "Westfield Wroclavia und der Hauptbahnhof");
-  assert.equal(christmasStop?.name.cs, "Westfield Wroclavia a hlavní nádraží");
+  assert.equal(premiumRecommendation?.name.de, "Westfield Wroclavia");
+  assert.equal(premiumRecommendation?.name.cs, "Westfield Wroclavia");
+  assert.equal(christmasStop?.localName, "Westfield Wroclavia");
+  assert.equal(christmasStop?.name.de, "Westfield Wroclavia");
+  assert.equal(christmasStop?.name.cs, "Westfield Wroclavia");
 });
 
 test("ZOO Wrocław is one canonical place referenced by Four Days with curated media", () => {

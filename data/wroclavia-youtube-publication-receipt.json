@@ -1,0 +1,30 @@
+{
+  "canonicalId": "wroclavia",
+  "videoId": "fTPTY-yic0o",
+  "url": "https://youtube.com/shorts/fTPTY-yic0o",
+  "sourceFile": "WROCLAWIA/WhatsApp Video 2026-10-05 at 18.31.17.mp4",
+  "sourceSHA256": "eac0bb8ecae8016996f99978aa94c89b87215248ed53480918e1474f58c7c5af",
+  "uploadSHA256": "eac0bb8ecae8016996f99978aa94c89b87215248ed53480918e1474f58c7c5af",
+  "sourceDurationSeconds": 4.0,
+  "youtubeDurationDisplay": "0:05 (player rounding)",
+  "visibility": "Public",
+  "savedPublicVerified": true,
+  "processing": "Standard Definition complete",
+  "copyright": "No issues found",
+  "communityGuidelines": "Checks complete. No issues found.",
+  "verifiedAt": "2026-10-19T10:01:11.900538+00:00",
+  "approval": {
+    "questionCall": "call_60a1553f97ae426ea8e9eea6ef940f66",
+    "item": 0,
+    "userWords": "מאשר את התנאים והעלאת הסרטון",
+    "scope": "Displayed YouTube Terms and Community Guidelines; single four-second illuminated Westfield Wroclavia entrance visit clip Public",
+    "source": "WhatsApp Video 2026-10-05 at 18.31.17.mp4",
+    "evidence": "youtube-upload-terms.png"
+  },
+  "evidence": {
+    "youtube-published.txt": "ae93cf1bd393896ab15b4524122bc23ab8784b61d8f022e3da8f33f249f6c402",
+    "youtube-published.png": "79d8fa22d094bf8c1fc696534cfa581daad09dc52562550f7b3e061b8c25c5ee",
+    "youtube-saved-public.txt": "17398aea4d924d2ed02b12df278d41b9c79c5e6319b1990ae4ebb1c7f1b75525",
+    "youtube-saved-public.png": "dbd9a75c6e6253cafbe0d51c99e916e015593973081e941e3daee167dc9e207a"
+  }
+}

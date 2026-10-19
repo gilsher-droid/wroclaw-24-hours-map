@@ -93,7 +93,7 @@ test('premium recommendations retain editorial text, hydrate canonical-only plac
  runInNewContext(body+'renderRecommendations();',context);
  assert.ok(grid.innerHTML.includes('data-canonical-place-id="renoma"'));
  assert.ok(!grid.innerHTML.includes('https://www.instagram.com/p/DeRG3F0FyOF/'), 'Unverified Renoma post is hidden');
- assert.ok(!grid.innerHTML.includes('https://www.instagram.com/p/DeRMKpzFm-Z/'), 'Unverified Wroclavia post is hidden');
+ assert.ok(grid.innerHTML.includes('https://www.instagram.com/p/DeRMKpzFm-Z/'), 'Reverified Wroclavia post is exposed');
  assert.ok(grid.innerHTML.includes(lake.name.en));
  // Media controls on repeated recommendations must be resolvable by the modal opener.
  const lookup=source.slice(source.indexOf('  function locationById('),source.indexOf('\n  function renderGalleryPhoto('));

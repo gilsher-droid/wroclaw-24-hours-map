@@ -1,0 +1,239 @@
+{
+  "canonicalId": "wroclavia",
+  "officialName": "Westfield Wroclavia",
+  "oldNamesAreSamePlace": true,
+  "verifiedAt": "2026-10-19",
+  "sources": [
+    "https://www.westfield.com/en/poland/wroclavia",
+    "https://www.westfield.com/en/poland/wroclavia/parking",
+    "https://www.westfield.com/pl/poland/wroclavia/aktualnosci/godziny-otwarcia-w-niedziele-niehandlowe/112423",
+    "https://www.wroclaw.pl/przedsiebiorczy-wroclaw/wroclavia-nowa-nazwa-centrum-handlowe-westfield"
+  ],
+  "preservedCanonicalCoordinates": {
+    "lat": 51.0964311,
+    "lng": 17.0348417
+  },
+  "retainedPhotos": [
+    "/assets/gallery-wroclavia-01.jpg",
+    "/assets/gallery-wroclavia-02.jpg",
+    "/assets/gallery-wroclavia-03.jpg",
+    "/assets/gallery-wroclavia-04.jpg",
+    "/assets/gallery-wroclavia-05.jpg",
+    "/assets/wroclavia-refresh-oct19-01.jpg"
+  ],
+  "photoSHA256": {
+    "/assets/gallery-wroclavia-01.jpg": "0e21f58d3a8cac12f77f7a9378d8e9f19a162def7de4df487a3110ed710250c9",
+    "/assets/gallery-wroclavia-02.jpg": "28bc018d38c25b877b88bf363f80b93d814091b82d98a454ea4f856c53b0b9eb",
+    "/assets/gallery-wroclavia-03.jpg": "7641b73c54b0943b77d93eeceb16fdf2e1be7a45b1598ca601ba0334b76872aa",
+    "/assets/gallery-wroclavia-04.jpg": "e5f275717899d2a398399a3f15ab5ef6ac3f3ee77a312e9847711eeddd1b9f59",
+    "/assets/gallery-wroclavia-05.jpg": "5a111d29ade0ed966999267895225439c43c9594ef588f4876b700d3f2582acc",
+    "/assets/wroclavia-refresh-oct19-01.jpg": "2f0d2591e403d6aaf7a643b6cc9e72ba781f4d077a1887f679dc132f689eca00"
+  },
+  "originalsUnchanged": [
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.00 (2).jpeg",
+      "sha256": "848529c7d7f9a5c198a1ca2a30ee4168a25148cc878ab28ca13074139efd8078",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.01 (1).jpeg",
+      "sha256": "16b80ad13a7492a488e0bd8aa5cefb395153477c522e1eac33e0c9fc549ff83d",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.01.jpeg",
+      "sha256": "a1c23ed40e64f3537d5d2923225b7c222f3fc4cd92fa84ecf259807cbf33f156",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.02.jpeg",
+      "sha256": "d8a61a8a5b0d24fd52300faf5af1c9f4e6b6beabf099c7a763eb038a5f1a2372",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.03.jpeg",
+      "sha256": "9744fbb76a34a86ef1d1940fb407837fd9b2d50125ecceaf6148ff94017e0123",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.05 (1).jpeg",
+      "sha256": "3900001992b84f7abe40e964c207dc0e73683527370c3157133879f67bf8af36",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.05 (2).jpeg",
+      "sha256": "42adea738f4dfef28364c794fe8aad5064cc10b529cb743e5c2839d8665d2bc8",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.06 (1).jpeg",
+      "sha256": "3e9205f2734658d27e25c9ac8581b499f2f57d5ea2b97e2dfc095bbf80f7095f",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.06.jpeg",
+      "sha256": "b980a5674d1bcdb9007c9c25fbf78494d57b4bffa65c87dd653dc6995329ee55",
+      "matches": true
+    },
+    {
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Video 2026-10-05 at 18.31.17.mp4",
+      "sha256": "eac0bb8ecae8016996f99978aa94c89b87215248ed53480918e1474f58c7c5af",
+      "matches": true
+    }
+  ],
+  "retainedMapMembership": [
+    "lifestyle-guide",
+    "wroclaw-four-days",
+    "wroclaw-christmas"
+  ],
+  "notAddedTo": [
+    "cultural-guide",
+    "excursions",
+    "wroclaw-24-hours"
+  ],
+  "ordinaryVisitVideo": {
+    "canonicalId": "wroclavia",
+    "videoId": "fTPTY-yic0o",
+    "url": "https://youtube.com/shorts/fTPTY-yic0o",
+    "sourceFile": "WROCLAWIA/WhatsApp Video 2026-10-05 at 18.31.17.mp4",
+    "sourceSHA256": "eac0bb8ecae8016996f99978aa94c89b87215248ed53480918e1474f58c7c5af",
+    "uploadSHA256": "eac0bb8ecae8016996f99978aa94c89b87215248ed53480918e1474f58c7c5af",
+    "sourceDurationSeconds": 4.0,
+    "youtubeDurationDisplay": "0:05 (player rounding)",
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "processing": "Standard Definition complete",
+    "copyright": "No issues found",
+    "communityGuidelines": "Checks complete. No issues found.",
+    "verifiedAt": "2026-10-19T10:01:11.900538+00:00",
+    "approval": {
+      "questionCall": "call_60a1553f97ae426ea8e9eea6ef940f66",
+      "item": 0,
+      "userWords": "מאשר את התנאים והעלאת הסרטון",
+      "scope": "Displayed YouTube Terms and Community Guidelines; single four-second illuminated Westfield Wroclavia entrance visit clip Public",
+      "source": "WhatsApp Video 2026-10-05 at 18.31.17.mp4",
+      "evidence": "youtube-upload-terms.png"
+    },
+    "evidence": {
+      "youtube-published.txt": "ae93cf1bd393896ab15b4524122bc23ab8784b61d8f022e3da8f33f249f6c402",
+      "youtube-published.png": "79d8fa22d094bf8c1fc696534cfa581daad09dc52562550f7b3e061b8c25c5ee",
+      "youtube-saved-public.txt": "17398aea4d924d2ed02b12df278d41b9c79c5e6319b1990ae4ebb1c7f1b75525",
+      "youtube-saved-public.png": "dbd9a75c6e6253cafbe0d51c99e916e015593973081e941e3daee167dc9e207a"
+    }
+  },
+  "social": [
+    {
+      "language": "he",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Y4WJWHQXN7ir8p15rX5HJdDrXJKsJjWoGkG6u5BL6AvASFGgagn8woRHfG2cwvuTl&id=61591964083308",
+      "account": "61591964083308",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-facebook-he.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "he",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvWGxkQrh/",
+      "account": "wroclaw.lowersilesia.he",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-instagram-he.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "en",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0xxGFnJd4AKZBtd5iW5hXRVf3AFsYwAsjunpcrM4imAEEKLAdMkCwA9ZNReGR23tKl&id=61595036942289",
+      "account": "61595036942289",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-facebook-en.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "en",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeRMKpzFm-Z/",
+      "account": "wroclaw.lowersilesia",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-instagram-en.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "pl",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02jrNuKgdwJ61vwM5vjAa7Xv79ozSSfbBZ7hgh2K6eAn8F2eNUYBNskm5uY78qLQJil&id=61595207664875",
+      "account": "61595207664875",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-facebook-pl.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "pl",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DePYM3oDd6y/",
+      "account": "wroclaw.lowersilesia.pl",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-instagram-pl.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "de",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid036XWNFvBk9k9FrNe4BHX5oJkiCMnquVEnxKTkeJQ7sXs39ahGmvLPyCPVz6PMKjgLl&id=61595239823399",
+      "account": "61595239823399",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-facebook-de.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "de",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeUX8QrDfY9/",
+      "account": "wroclaw.lowersilesia.de",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-instagram-de.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "cs",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0w7M61tjhHb2WBPx7e2n4uNhtFrUgs2xSUBT4vqpE2cxFQQ1frfh4rvAHa9FUmc6Wl&id=61594716405964",
+      "account": "61594716405964",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-facebook-cs.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    },
+    {
+      "language": "cs",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DeOt7mQHcTI/",
+      "account": "wroclaw.lowersilesia.cs",
+      "status": "verified-written-place-post",
+      "verifiedAt": "2026-10-19T09:57:32.576291+00:00",
+      "evidence": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/wroclavia-enrichment/social-instagram-cs.txt",
+      "method": "Opened actual permalink in authenticated browser; author account, caption language, mall identity and written photo-post content reviewed",
+      "historicalSignageAllowed": "Same Wroclavia mall before or after brand change; not a separate place"
+    }
+  ],
+  "guidesExcluded": true,
+  "personalMediaException": false,
+  "newSocialPublication": false
+}
