@@ -1,0 +1,177 @@
+{
+  "placeId": "mala-czarna-paderewskiego",
+  "checkedAt": "2026-10-19",
+  "scope": "Live outgoing card destinations inspected in all five languages; canonical/localized registry and available publication receipts searched, plus public exact-name search. No exact place-post candidate located; account archives not exhaustively reviewed. General profiles are not verified place posts.",
+  "entries": [
+    {
+      "language": "he",
+      "platform": "facebook",
+      "url": null,
+      "previousDestination": "https://www.facebook.com/profile.php?id=61591964083308",
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61591964083308",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "he",
+      "platform": "instagram",
+      "url": null,
+      "previousDestination": "https://www.instagram.com/wroclaw.lowersilesia.he/",
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.he/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "en",
+      "platform": "facebook",
+      "url": null,
+      "previousDestination": "https://www.facebook.com/profile.php?id=61595036942289",
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595036942289",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "en",
+      "platform": "instagram",
+      "url": null,
+      "previousDestination": "https://www.instagram.com/wroclaw.lowersilesia/",
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "pl",
+      "platform": "facebook",
+      "url": null,
+      "previousDestination": "https://www.facebook.com/profile.php?id=61595207664875",
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595207664875",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "pl",
+      "platform": "instagram",
+      "url": null,
+      "previousDestination": "https://www.instagram.com/wroclaw.lowersilesia.pl/",
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.pl/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "de",
+      "platform": "facebook",
+      "url": null,
+      "previousDestination": "https://www.facebook.com/profile.php?id=61595239823399",
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61595239823399",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "de",
+      "platform": "instagram",
+      "url": null,
+      "previousDestination": "https://www.instagram.com/wroclaw.lowersilesia.de/",
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.de/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "cs",
+      "platform": "facebook",
+      "url": null,
+      "previousDestination": "https://www.facebook.com/profile.php?id=61594716405964",
+      "expectedAccount": "https://www.facebook.com/profile.php?id=61594716405964",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    },
+    {
+      "language": "cs",
+      "platform": "instagram",
+      "url": null,
+      "previousDestination": "https://www.instagram.com/wroclaw.lowersilesia.cs/",
+      "expectedAccount": "https://www.instagram.com/wroclaw.lowersilesia.cs/",
+      "account": null,
+      "postLanguage": null,
+      "contentReviewed": "No exact cafe post located in reviewed sources. Previously displayed destination is a general account, not written content about this cafe.",
+      "checkedAt": "2026-10-19",
+      "status": "missing-verified-post-hidden",
+      "evidence": [
+        "data/localized-social-posts.json",
+        "live Lifestyle card, selected language",
+        "exact-name public search yielded no matching WROC-LOVE publication"
+      ]
+    }
+  ]
+}

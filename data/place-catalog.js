@@ -17995,11 +17995,11 @@
       "cs": "Kavárna Mała Czarna"
     },
     "description": {
-      "he": "בית קפה ובית קלייה ליד שער הכניסה למתחם האצטדיון האולימפי. בגלריה מהביקור שלנו תמצאו את דלפק המקום, מדפי הקפה וכוסות הקפה.",
-      "en": "A café and local coffee roastery by the entrance gate to the Olympic Stadium complex. Our visit gallery shows the café counter, coffee shelves and cups of coffee.",
-      "pl": "Kawiarnia i lokalna palarnia kawy przy bramie kompleksu Stadionu Olimpijskiego. Galeria z naszej wizyty pokazuje ladę, półki z kawą i czarki z kawą.",
-      "de": "Café und lokale Kaffeerösterei am Eingang zum Olympiastadion-Komplex. Unsere Besuchsgalerie zeigt die Theke, Kaffeeregale und Kaffeetassen.",
-      "cs": "Kavárna a místní pražírna kávy u vstupní brány do areálu Olympijského stadionu. Galerie z naší návštěvy ukazuje pult, police s kávou a šálky kávy."
+      "he": "בית קפה ובית קלייה ליד שער הכניסה למתחם האצטדיון האולימפי, באזור פארק שצ׳יטניצקי. מתאים להפסקת קפה לפני או אחרי טיול בסביבה. בגלריית הביקור שלנו נראים דלפק הקפה, המדפים, קפה עם חלב ועוגות בוויטרינה, ובסרטון הקצר מופיעה תצוגת העוגות. התמונות מתעדות את הביקור שלנו, ואינן תפריט או מחירון עדכני. בדקו שעות פתיחה והיצע ישירות אצל המקום לפני ההגעה.\nMała Czarna\nal. Ignacego Jana Paderewskiego 35, Wrocław",
+      "en": "A café and local coffee roastery by the entrance to the Olympic Stadium complex, in the Szczytnicki Park area. A coffee stop before or after exploring the surroundings. Our visit gallery shows the counter, coffee shelves, milk coffee and cakes in the display; the short clip offers another look at the cakes. The photographs record our visit rather than a current menu or price list. Check opening hours and availability directly before visiting.\nMała Czarna\nal. Ignacego Jana Paderewskiego 35, Wrocław",
+      "pl": "Kawiarnia i lokalna palarnia kawy przy bramie kompleksu Stadionu Olimpijskiego, w okolicy Parku Szczytnickiego. Miejsce na przerwę kawową przed spacerem lub po nim. Galeria z naszej wizyty pokazuje ladę, półki z kawą, kawę mleczną i ciasta w witrynie; krótki film przedstawia ciasta z bliska. Zdjęcia dokumentują naszą wizytę, a nie aktualne menu ani cennik. Przed przyjazdem sprawdź godziny otwarcia i ofertę bezpośrednio w lokalu.\nMała Czarna\nal. Ignacego Jana Paderewskiego 35, Wrocław",
+      "de": "Café und lokale Kaffeerösterei am Eingang zum Olympiastadion-Komplex, in der Umgebung des Szczytnicki-Parks. Ein Ort für eine Kaffeepause vor oder nach einem Spaziergang. Unsere Besuchsgalerie zeigt Theke, Kaffeeregale, Milchkaffee und Kuchen in der Vitrine; der kurze Film zeigt die Kuchenauslage aus der Nähe. Die Aufnahmen dokumentieren unseren Besuch und sind keine aktuelle Speise- oder Preiskarte. Öffnungszeiten und Angebot vor dem Besuch direkt beim Café prüfen.\nMała Czarna\nal. Ignacego Jana Paderewskiego 35, Wrocław",
+      "cs": "Kavárna a místní pražírna kávy u vstupu do areálu Olympijského stadionu, v okolí Szczytnického parku. Místo na kávovou přestávku před procházkou nebo po ní. Galerie z naší návštěvy ukazuje pult, police s kávou, mléčnou kávu a dorty ve vitríně; krátké video zachycuje dorty zblízka. Snímky dokumentují naši návštěvu, nikoli aktuální nabídku či ceník. Před návštěvou si ověřte otevírací dobu a nabídku přímo v kavárně.\nMała Czarna\nal. Ignacego Jana Paderewskiego 35, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -18078,7 +18078,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1174365%2C17.0905595",
         "appleMaps": "https://maps.apple.com/?ll=51.1174365,17.0905595"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -18107,13 +18108,21 @@
           "url": "https://www.openstreetmap.org/node/4780068506",
           "verifiedAt": "2026-10-17",
           "scope": "café coordinates and street number, live Overpass lookup"
+        },
+        {
+          "url": "https://malaczarna.coffee/",
+          "verifiedAt": "2026-10-19",
+          "scope": "current official roastery identity; visit images establish observed cakes and coffee, no current prices or hours asserted"
         }
       ]
     },
     "media": {
       "photos": [
         "/assets/food-cafes/mala-czarna-01.jpg",
-        "/assets/food-cafes/mala-czarna-02.jpg"
+        "/assets/food-cafes/mala-czarna-02.jpg",
+        "/assets/food-cafes/mala-czarna-03.jpg",
+        "/assets/food-cafes/mala-czarna-04.jpg",
+        "/assets/food-cafes/mala-czarna-05.jpg"
       ],
       "videos": [
         "https://youtube.com/watch?v=xUGky_l826A"
@@ -18139,6 +18148,27 @@
           "original": true,
           "sourceFile": "מלה צארנה/WhatsApp Image 2026-09-24 at 19.09.56 (1).jpeg",
           "sourceSHA256": "4c51e2f12d2d71b145e4ef1da3dec2a4664de78e621ca05ce1fed6f6e1381068",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/mala-czarna-03.jpg": {
+          "original": true,
+          "sourceFile": "מלה צארנה/WhatsApp Image 2026-10-18 at 09.59.45 (3).jpeg",
+          "sourceSHA256": "71394a29910fed627f4a1e1bdd7563e8c198047ae7b548724f335e13e4bebfae",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/mala-czarna-04.jpg": {
+          "original": true,
+          "sourceFile": "מלה צארנה/WhatsApp Image 2026-10-18 at 09.59.45 (5).jpeg",
+          "sourceSHA256": "ac7ca2dbd93e317080d630ee4be6f3e1d0be03c820f9ddc82f77ef1b0af3755e",
+          "heroCandidate": false,
+          "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-cafes/mala-czarna-05.jpg": {
+          "original": true,
+          "sourceFile": "מלה צארנה/WhatsApp Image 2026-10-18 at 09.59.45 (7).jpeg",
+          "sourceSHA256": "21bf8e8679c58884fe05f36339fc0e546f2ffdc77cf212239e88c68b6f338e60",
           "heroCandidate": false,
           "visitCategory": "food-and-cafe"
         }

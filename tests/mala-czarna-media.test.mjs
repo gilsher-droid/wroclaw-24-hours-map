@@ -15,7 +15,11 @@ test('Mała Czarna has one exact cafe point and verified photo/video media in fi
   assert.equal(place.location.coordinates.lat,51.1174365);
   assert.equal(place.location.coordinates.lng,17.0905595);
   const media=window.WROC_LOCATION_MEDIA[place.id];
-  assert.equal(media.gallery.length,2);
+  assert.equal(media.gallery.length,5);
+  assert.equal(new Set(media.gallery).size,5);
+  assert.equal(place.links.socialProfileFallback,false);
+  assert.equal(window.WROC_CATALOG.getSocialPost(place,"facebook",lang),null);
+  assert.equal(window.WROC_CATALOG.getSocialPost(place,"instagram",lang),null);
   assert.equal(media.videos[0].src,'https://youtube.com/watch?v=xUGky_l826A');
   assert.equal(window.WROC_YOUTUBE_VIDEO_HOSTING['/assets/mala-czarna-visit-01.mp4'].status,'public');
   assert.notEqual(window.WROC_CATALOG.getPlace('czarna-magia').id,place.id);
