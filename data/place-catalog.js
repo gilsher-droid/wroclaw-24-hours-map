@@ -19479,8 +19479,8 @@
       {
         "productId": "wroclaw-four-days",
         "sourceId": "morskie-oko-wroclaw",
-        "lat": 51.1178,
-        "lng": 17.0804
+        "lat": 51.1232536,
+        "lng": 17.0828961
       }
     ],
     "status": "published",
@@ -36944,19 +36944,6 @@
     "candidate": {
       "lat": 51.10802,
       "lng": 17.04086
-    }
-  },
-  {
-    "canonicalId": "morskie-oko-wroclaw",
-    "productId": "wroclaw-four-days",
-    "sourceId": "morskie-oko-wroclaw",
-    "selected": {
-      "lat": 51.1232536,
-      "lng": 17.0828961
-    },
-    "candidate": {
-      "lat": 51.1178,
-      "lng": 17.0804
     }
   },
   {
