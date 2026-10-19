@@ -33778,18 +33778,18 @@
     "id": "wroclavia",
     "localName": "Westfield Wroclavia",
     "name": {
-      "he": "Westfield Wroclavia",
+      "he": "וסטפילד וורוצלביה",
       "en": "Westfield Wroclavia",
       "pl": "Westfield Wroclavia",
       "de": "Westfield Wroclavia",
       "cs": "Westfield Wroclavia"
     },
     "description": {
-      "he": "מרכז קניות מודרני ליד תחנת הרכבת המרכזית, עם חנויות, מסעדות ובתי קפה. יש בו גם קולנוע ומתקני פנאי, ולכן אפשר לשלב קניות והפסקה תחת קורת גג אחת. הסרטון שלנו מציג את הכניסה המוארת בלילה. בימי ראשון ללא מסחר חלק משירותי הבילוי והאוכל פועלים, ויש לבדוק כל עסק בנפרד.\nWestfield Wroclavia\nSucha 1, Wrocław",
-      "en": "A modern shopping centre by the main railway station, with shops, restaurants, cafés, cinema and leisure facilities. It combines shopping with an indoor break. Our clip shows the illuminated entrance at night. Selected dining and entertainment remain open on non-trading Sundays; check each venue separately. Address: Sucha 1, Wrocław.",
-      "pl": "Nowoczesne centrum handlowe przy dworcu głównym, ze sklepami, restauracjami, kawiarniami, kinem i rozrywką. Łączy zakupy z odpoczynkiem pod dachem. Nasz film pokazuje podświetlone wejście nocą. W niedziele niehandlowe działają wybrane lokale gastronomiczne i rozrywkowe; sprawdź każdy z nich oddzielnie. Adres: Sucha 1, Wrocław.",
-      "de": "Modernes Einkaufszentrum am Hauptbahnhof mit Geschäften, Restaurants, Cafés, Kino und Freizeitangeboten. Einkauf und eine Pause im Innenbereich lassen sich verbinden. Unser Clip zeigt den beleuchteten Eingang bei Nacht. An verkaufsfreien Sonntagen öffnen ausgewählte Gastronomie- und Freizeitbetriebe; die jeweiligen Zeiten einzeln prüfen. Adresse: Sucha 1, Wrocław.",
-      "cs": "Moderní nákupní centrum u hlavního nádraží s obchody, restauracemi, kavárnami, kinem a zábavou. Nákupy lze spojit s přestávkou pod střechou. Náš klip ukazuje osvětlený vstup v noci. O neprodejních nedělích fungují vybrané gastronomické a zábavní provozy; každý si ověřte zvlášť. Adresa: Sucha 1, Wrocław."
+      "he": "מרכז קניות, אוכל ובילוי לצד תחנת הרכבת המרכזית. זהו אותו קניון וורוצלביה, שכיום נושא את המותג וסטפילד. תמונות הביקור הישנות מציגות את החזית עם השילוט הקודם ואת חללי הישיבה והמסחר בפנים. אפשר לשלב כאן חנויות, בתי קפה, מסעדות וקולנוע בהפסקה מקורה במהלך הטיול. בימי ראשון ללא מסחר פועלים רק חלק מעסקי האוכל, השירותים והבילוי; בדקו את העסק המבוקש ואת שעות החג באתר הרשמי. תחנת הרכבת הסמוכה נשארת מקום נפרד. סרטון הביקור הלילי מציג את השלט המואר בשם העדכני.\nWestfield Wroclavia\nSucha 1, Wrocław",
+      "en": "Shopping, dining and entertainment beside Wrocław’s main railway station. This is the same Wroclavia centre under its current Westfield name. Our older visit photos show the earlier façade signage, seating areas and indoor retail spaces. Combine shops, cafés, restaurants and cinema with a sheltered break during a city day. On non-trading Sundays only selected food, service and leisure venues operate; check each business and holiday hours on the official website. The neighbouring railway station remains a separate place. Our night visit clip shows the illuminated current name.\nSucha 1, Wrocław",
+      "pl": "Zakupy, gastronomia i rozrywka przy dworcu głównym we Wrocławiu. To ta sama Wroclavia, działająca obecnie pod marką Westfield. Starsze zdjęcia z naszej wizyty pokazują poprzedni szyld na fasadzie oraz strefy wypoczynku i wnętrza handlowe. Sklepy, kawiarnie, restauracje i kino można połączyć z przerwą pod dachem podczas zwiedzania. W niedziele niehandlowe działają tylko wybrane lokale gastronomiczne, usługowe i rozrywkowe; godziny konkretnego lokalu oraz świąteczne sprawdź na oficjalnej stronie. Sąsiedni dworzec pozostaje osobnym miejscem. Nasz nocny film z wizyty pokazuje podświetloną obecną nazwę.\nSucha 1, Wrocław",
+      "de": "Einkaufen, Gastronomie und Unterhaltung neben dem Breslauer Hauptbahnhof. Es ist dieselbe Wroclavia, heute unter der Marke Westfield. Unsere älteren Besuchsfotos zeigen die frühere Fassadenbeschriftung, Sitzbereiche und Innenräume. Geschäfte, Cafés, Restaurants und Kino lassen sich mit einer wettergeschützten Pause verbinden. An verkaufsfreien Sonntagen öffnen nur ausgewählte Gastronomie-, Service- und Freizeitangebote; die Zeiten einzelner Betriebe und an Feiertagen bitte auf der offiziellen Website prüfen. Der benachbarte Bahnhof bleibt ein eigener Ort. Unser nächtlicher Besuchsclip zeigt den beleuchteten aktuellen Namen.\nSucha 1, Wrocław",
+      "cs": "Nákupy, jídlo a zábava vedle hlavního vratislavského nádraží. Jde o stejnou Wroclavii, která dnes používá značku Westfield. Starší fotografie z naší návštěvy zachycují původní označení fasády, posezení a vnitřní obchodní prostory. Obchody, kavárny, restaurace a kino lze spojit s přestávkou pod střechou. O neprodejních nedělích fungují jen vybrané gastronomické, servisní a zábavní provozy; otevírací dobu konkrétního podniku a o svátcích ověřte na oficiálním webu. Sousední nádraží zůstává samostatným místem. Noční záznam z naší návštěvy ukazuje osvětlený současný název.\nSucha 1, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -33815,9 +33815,14 @@
       "https://www.facebook.com/61591964083308/posts/122110542891398802/"
     ],
     "aliases": [
+      "Westfield Wroclavia",
       "Wroclavia",
+      "westfield-wroclavia",
       "wroclavia-rec",
-      "wroclavia-station"
+      "wroclavia-station",
+      "וורוצלביה",
+      "וורוצלביה ווסטפילדס",
+      "וסטפילד וורוצלביה"
     ],
     "sourceRecords": [
       {
@@ -33940,7 +33945,16 @@
         }
       ],
       "verifiedAt": "2026-10-19",
-      "personalMediaPermission": false
+      "personalMediaPermission": false,
+      "brandVerifiedAt": "2026-10-19",
+      "officialName": "Westfield Wroclavia",
+      "historicalPhotoSignage": "Retained July2026 originals predate current branding; do not relabel visible signs",
+      "officialSources": [
+        "https://www.westfield.com/en/poland/wroclavia",
+        "https://www.westfield.com/en/poland/wroclavia/parking",
+        "https://www.westfield.com/pl/poland/wroclavia/aktualnosci/godziny-otwarcia-w-niedziele-niehandlowe/112423",
+        "https://www.wroclaw.pl/przedsiebiorczy-wroclaw/wroclavia-nowa-nazwa-centrum-handlowe-westfield"
+      ]
     },
     "media": {
       "thumbnail": "/assets/gallery-wroclavia-01.jpg",
@@ -33952,7 +33966,9 @@
         "/assets/gallery-wroclavia-05.jpg",
         "/assets/wroclavia-refresh-oct19-01.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/shorts/fTPTY-yic0o"
+      ],
       "metadata": {
         "/assets/wroclavia-refresh-oct19-01.jpg": {
           "original": true,
@@ -33967,71 +33983,61 @@
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02jrNuKgdwJ61vwM5vjAa7Xv79ozSSfbBZ7hgh2K6eAn8F2eNUYBNskm5uY78qLQJil&id=61595207664875",
-        "verifiedAt": "2026-10-06T23:20:51.066723+00:00",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0w7M61tjhHb2WBPx7e2n4uNhtFrUgs2xSUBT4vqpE2cxFQQ1frfh4rvAHa9FUmc6Wl&id=61594716405964",
-        "verifiedAt": "2026-10-07",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0xxGFnJd4AKZBtd5iW5hXRVf3AFsYwAsjunpcrM4imAEEKLAdMkCwA9ZNReGR23tKl&id=61595036942289",
-        "verifiedAt": "2026-10-07",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/p/DeOt7mQHcTI/",
-        "verifiedAt": "2026-10-08",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "language": "pl",
         "platform": "instagram",
         "url": "https://www.instagram.com/p/DePYM3oDd6y/",
-        "verifiedAt": "2026-10-08T16:39:22.083Z",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/DeRMKpzFm-Z/",
-        "verifiedAt": "2026-10-09T09:32:51.995981+00:00",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Y4WJWHQXN7ir8p15rX5HJdDrXJKsJjWoGkG6u5BL6AvASFGgagn8woRHfG2cwvuTl&id=61591964083308",
-        "verifiedAt": "2026-10-09T16:40:23.324Z",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "facebook",
         "language": "de",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid036XWNFvBk9k9FrNe4BHX5oJkiCMnquVEnxKTkeJQ7sXs39ahGmvLPyCPVz6PMKjgLl&id=61595239823399",
-        "verifiedAt": "2026-10-10T14:52:04.874Z",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "instagram",
         "language": "de",
         "url": "https://www.instagram.com/p/DeUX8QrDfY9/",
-        "verifiedAt": "2026-10-10T15:11:52.455Z",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "instagram",
         "language": "he",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvWGxkQrh/",
-        "verifiedAt": "2026-10-10T18:36:10.004Z",
-        "routingExcluded": true
+        "verifiedAt": "2026-10-19T09:57:32.576291+00:00"
       },
       {
         "platform": "facebook",
@@ -36500,6 +36506,11 @@
   "multimedia-fountain": "fountain",
   "pergola-wroclawska": "pergola",
   "Wroclavia": "wroclavia",
+  "westfield-wroclavia": "wroclavia",
+  "Westfield Wroclavia": "wroclavia",
+  "וסטפילד וורוצלביה": "wroclavia",
+  "וורוצלביה": "wroclavia",
+  "וורוצלביה ווסטפילדס": "wroclavia",
   "wroclaw-zoo": "zoo-wroclaw",
   "zoo-wrocław": "zoo-wroclaw",
   "zamek-piastow-slaskich-brzeg": "brzeg-castle",

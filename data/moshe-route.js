@@ -176,7 +176,8 @@ if (window.WROC_CATALOG) {
   [window.PREMIUM_STOPS].forEach(items => (items || []).forEach(record => {
     const place = window.WROC_CATALOG.getPlace(record.canonicalPlaceId || record.id);
     if (!place || !refreshedIds.has(place.id)) return;
-    if (record.id === place.id) record.name = place.name;
+    if (record.id === place.id || place.id === "wroclavia") record.name = place.name;
+    if (place.id === "wroclavia") { record.localName = place.localName; record.coordinates = [place.location.coordinates.lat, place.location.coordinates.lng]; }
     record.description = place.description;
   }));
 }
