@@ -6,18 +6,18 @@ import { runInNewContext } from "node:vm";
 
 const root = resolve(import.meta.dirname, "..");
 
-function loadTicker() {
+function loadTicker(historical = false) {
   const window = { location: { search: "" } };
   const context = { window, console, URLSearchParams };
-  runInNewContext(readFileSync(resolve(root, "data/now-in-wroclaw.js"), "utf8"), context);
+  runInNewContext(readFileSync(resolve(root, historical ? "tests/fixtures/news-2026-10-12.js" : "data/now-in-wroclaw.js"), "utf8"), context);
   runInNewContext(readFileSync(resolve(root, "now-in-wroclaw.js"), "utf8"), context);
   return { window, context };
 }
 
-test("weekly news includes four localized and dated items", () => {
+test("weekly news includes five localized and dated items", () => {
   const { window } = loadTicker();
   const items = window.WROC_NOW_IN_WROCLAW_ITEMS;
-  assert.equal(items.length, 4);
+  assert.equal(items.length, 5);
   assert.equal(new Set(items.map((item) => item.id)).size, items.length);
   for (const item of items) {
     assert.deepEqual(Object.keys(item.title).sort(), ["cs", "de", "en", "he", "pl"]);
@@ -25,13 +25,13 @@ test("weekly news includes four localized and dated items", () => {
     assert.match(item.startDate, /^2026-/);
     assert.match(item.endDate, /^2026-/);
   }
-  assert.equal(items.every((item) => item.startDate === "2026-10-12"), true);
+  assert.equal(items.every((item) => item.startDate === "2026-10-19"), true);
   for (const language of ["he", "en", "pl", "de", "cs"]) {
     const suffix = language === "he" ? "" : `-${language}`;
-    const article = readFileSync(resolve(root, `news/2026-10-12${suffix}.html`), "utf8");
+    const article = readFileSync(resolve(root, `news/2026-10-19${suffix}.html`), "utf8");
     assert.match(article, new RegExp(`<html lang="${language}"`));
     for (const item of items) {
-      assert.match(item.articleUrl, /^\/news\/2026-10-12\.html#/);
+      assert.match(item.articleUrl, /^\/news\/2026-10-19\.html#/);
       assert.ok(article.includes(`id="${item.articleUrl.split("#")[1]}"`));
     }
   }
@@ -48,7 +48,7 @@ test("expiry uses inclusive local calendar dates and empty active sets stay empt
 });
 
 test("announcements expire before stale opening claims and temporary events have separate dates", () => {
-  const { window } = loadTicker(); const items=window.WROC_NOW_IN_WROCLAW_ITEMS; const api=window.WROC_NOW_IN_WROCLAW;
+  const { window } = loadTicker(true); const items=window.WROC_NOW_IN_WROCLAW_ITEMS; const api=window.WROC_NOW_IN_WROCLAW;
   assert.equal(api.activeItems(items, new Date(2026,9,12)).length,4);
   assert.equal(items[0].status,"announced"); assert.equal(items[0].eventStartDate,"2026-10-16");
   assert.equal(api.isActive(items[0],new Date(2026,9,16)),false);
@@ -87,4 +87,20 @@ test("ticker rotates without arrows, can pause, and offers static reduced-motion
   assert.match(source, /getElementById\("wroc-now-in-wroclaw"\)/);
   assert.match(styles, /@media \(max-width: 720px\)/);
   assert.match(styles, /prefers-reduced-motion: reduce/);
+});
+
+
+test("October 19 replaces stale announcements while preserving seasonal identities", () => {
+ const { window } = loadTicker(); const items = window.WROC_NOW_IN_WROCLAW_ITEMS; const api=window.WROC_NOW_IN_WROCLAW;
+ const finale=items.find(x=>x.id==="fountain-finale-2026-10");
+ assert.equal(finale.status,"announced"); assert.equal(finale.eventStartDate,"2026-10-24");
+ assert.equal(api.isActive(finale,new Date(2026,9,24,23,59)),true);
+ assert.equal(api.isActive(finale,new Date(2026,9,25)),false);
+ const lumina=items.find(x=>x.id==="lumina-park-2026-10");
+ assert.equal(lumina.status,"confirmed"); assert.equal(lumina.eventEndDate,"2027-02-14");
+ assert.ok(items.every(x=>!/(pumpkin|restaurantweek|peace-churches)/.test(x.id)));
+ assert.equal(api.activeItems(items,new Date(2026,9,26)).length,0);
+ assert.equal(items.find(x=>x.id==="ruska-works-2026-10").eventEndDate,undefined);
+ const source=readFileSync(resolve(root,"data/canonical-experiences.js"),"utf8");
+ assert.match(source,/seasonEndDate: "2026-10-24"/);
 });

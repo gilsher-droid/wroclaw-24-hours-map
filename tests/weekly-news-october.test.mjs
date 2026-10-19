@@ -15,7 +15,7 @@ test('verified locations preserve one identity, source provenance and temporary 
    assert.ok(place.provenance.coordinateVerification.sourceUrl.startsWith('https://'));
    for(const alias of place.aliases) assert.equal(catalog.getPlace(alias)?.id,id);
  }
- for(const [id,start,end,status] of [['zamek-topacz','2026-10-16','2027-02-14','announced'],['wroclaw-botanical-garden','2026-10-13','2026-10-18','announced'],['national-museum','2026-10-01','2026-12-30','confirmed']]) {
+ for(const [id,start,end,status] of [['zamek-topacz','2026-10-16','2027-02-14','confirmed'],['wroclaw-botanical-garden','2026-10-13','2026-10-18','announced'],['national-museum','2026-10-01','2026-12-30','confirmed']]) {
    const event=catalog.getPlace(id).experiences[0];
    assert.equal(event.startDate,start); assert.equal(event.endDate,end); assert.equal(event.status,status);
  }
