@@ -24933,6 +24933,10 @@
         "https://youtube.com/shorts/gSVC14ucEB4",
         "https://youtube.com/shorts/WFQyRKD66YQ"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/78GzPBmtRo4",
+        "en": "https://youtube.com/shorts/yP9iXmP47RQ"
+      },
       "metadata": {
         "/assets/pergola-wroclawska-01.jpg": {
           "tags": [

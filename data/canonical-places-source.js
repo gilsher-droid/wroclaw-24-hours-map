@@ -11589,6 +11589,7 @@
       "personalMediaPermission": false
     },
     "media": {
+      "guideVideos": {"he": "https://youtube.com/shorts/78GzPBmtRo4", "en": "https://youtube.com/shorts/yP9iXmP47RQ"},
       "photos": [
         "/assets/pergola-wroclawska-01.jpg",
         "/assets/pergola-wroclawska-04.jpg",

@@ -271,6 +271,25 @@
       },
       "verifiedAt": "2026-10-18",
       "method": "Native Studio Published manual source and translated tracks"
+    },
+    {
+      "place": "pergola",
+      "videos": {
+        "he": "78GzPBmtRo4",
+        "en": "yP9iXmP47RQ"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual"
+      },
+      "verifiedAt": "2026-10-19",
+      "provenance": "data/pergola-guide-caption-provenance.json"
     }
   ]
 }
