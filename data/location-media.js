@@ -119,7 +119,7 @@
       ...(place.media?.videos?.length ? {
         videos: place.media.videos.map((src, index) => ({
           src,
-          title: videoTitles[index] || place.name,
+          title: videoTitles[index] || place.media.metadata?.[src]?.title || place.name,
         })),
       } : {}),
     };

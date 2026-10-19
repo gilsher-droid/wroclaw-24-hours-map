@@ -19652,7 +19652,9 @@
         "/assets/morskie-oko-video-03.mov",
         "/assets/morskie-oko-video-04.mov",
         "https://youtube.com/shorts/gN14-XYU8dM",
-        "https://youtube.com/shorts/8cTLqypvJn4"
+        "https://youtube.com/shorts/8cTLqypvJn4",
+        "https://youtube.com/shorts/hhhjCRE9aUc",
+        "https://youtube.com/shorts/ZQRrQni1Z5M"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/R26FXh9Twh0",
@@ -19699,6 +19701,34 @@
           ],
           "original": true,
           "heroCandidate": true
+        },
+        "https://youtube.com/shorts/hhhjCRE9aUc": {
+          "title": {
+            "he": "שביל לצד האגם בשקיעה",
+            "en": "Waterside path at sunset",
+            "pl": "Ścieżka nad wodą o zachodzie słońca",
+            "de": "Uferweg bei Sonnenuntergang",
+            "cs": "Cesta u vody při západu slunce"
+          },
+          "tags": [
+            "visit",
+            "waterside"
+          ],
+          "original": true
+        },
+        "https://youtube.com/shorts/ZQRrQni1Z5M": {
+          "title": {
+            "he": "סביבת השכונה הסמוכה למורסקי אוקו",
+            "en": "Neighborhood surroundings near Morskie Oko",
+            "pl": "Okolica w sąsiedztwie Morskiego Oka",
+            "de": "Nachbarschaft rund um Morskie Oko",
+            "cs": "Okolní čtvrť u Morského Oka"
+          },
+          "tags": [
+            "visit",
+            "neighborhood"
+          ],
+          "original": true
         }
       }
     },

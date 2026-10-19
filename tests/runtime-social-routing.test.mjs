@@ -104,7 +104,10 @@ test('premium recommendations retain editorial text, hydrate canonical-only plac
 
 test('Morskie Oko recommendation exposes reviewed canonical media and retains exact identity',()=>{
  const w=routeFixture('en');const p=w.WROC_CATALOG.getPlace('morskie-oko-wroclaw');const r=w.WROC_LOCATION_MEDIA['morskie-oko-wroclaw'];
- assert.equal(r.gallery.length,27);assert.equal(r.videos.length,6);
+ assert.equal(r.gallery.length,27);assert.equal(r.videos.length,8);
+ for(const lang of ['he','en','pl','de','cs']){assert.ok(r.videos[6].title[lang]);assert.ok(r.videos[7].title[lang]);assert.notEqual(r.videos[6].title[lang],r.videos[7].title[lang]);}
+ assert.equal(r.videos[6].src,'https://youtube.com/shorts/hhhjCRE9aUc');assert.equal(r.videos[7].src,'https://youtube.com/shorts/ZQRrQni1Z5M');
+ assert.equal(r.videos[7].title.en,'Neighborhood surroundings near Morskie Oko');
  const item=w.PREMIUM_RECOMMENDATIONS.find(p=>p.id==='morskie-oko-wroclaw');assert.equal(JSON.stringify(item.coordinates),JSON.stringify([51.1232536,17.0828961]));assert.equal(r.gallery[0],p.media.photos[0]);assert.ok(r.videos.some(v=>v.src.includes('gN14-XYU8dM')));
  assert.equal(w.WROC_CATALOG.getSocialPost(p,'instagram','he'),null);
  const html=resourceRenderer('premium.js',w,'en')(w.PREMIUM_RECOMMENDATIONS.find(p=>p.id==='morskie-oko-wroclaw'));assert.ok(html.includes('gallery-resource'));assert.ok(html.includes('video-resource'));

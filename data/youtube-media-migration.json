@@ -1385,5 +1385,39 @@
     "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.44.mp4",
     "virtualVideoPathOnly": true,
     "transformation": "Original picture stream copied without reencoding; audio removed from upload copy; source preserved."
+  },
+  "/assets/morskie-oko-extra-visit-20261019-01.mp4": {
+    "canonicalId": "morskie-oko-wroclaw",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/hhhjCRE9aUc",
+    "title": "Morskie Oko Wrocław | Waterside path at sunset | Visit clip | WROC-LOVE",
+    "sourceSHA256": "475ae21aa5620027ad0370c3f46c80d60b171d7ba3caeeefc843395a2a6cd574",
+    "uploadSHA256": "e073315fd12f4edfc27fef5ca04abe8017d98950ee6d225ebf0b6976bada11d6",
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "checks": "complete-no-issues",
+    "processingStatus": "complete",
+    "copyrightStatus": "no-issues-found",
+    "communityGuidelinesStatus": "no-issues-found",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-01 at 09.24.05.mp4",
+    "virtualVideoPathOnly": true,
+    "transformation": "Original video stream and orientation copied without reencoding; audio removed only from upload copy."
+  },
+  "/assets/morskie-oko-extra-visit-20261019-02.mp4": {
+    "canonicalId": "morskie-oko-wroclaw",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/ZQRrQni1Z5M",
+    "title": "Morskie Oko Wrocław | Neighborhood surroundings | Visit clip | WROC-LOVE",
+    "sourceSHA256": "363dd8b0053c9e402559a494fd2093344002c689b87236e3dd0ee2d5e0313214",
+    "uploadSHA256": "c8433748dc3ad9ed9317d1cf7a3bc657d38123311bb32aded60547d8837c8e59",
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "checks": "complete-no-issues",
+    "processingStatus": "complete",
+    "copyrightStatus": "no-issues-found",
+    "communityGuidelinesStatus": "no-issues-found",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.10.mp4",
+    "virtualVideoPathOnly": true,
+    "transformation": "Original video stream and orientation copied without reencoding; audio removed only from upload copy."
   }
 }
