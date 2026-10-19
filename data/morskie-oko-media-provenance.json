@@ -336,5 +336,46 @@
       "communityGuidelines": "No issues found"
     }
   ],
-  "galleryPhotoCount": 27
+  "galleryPhotoCount": 27,
+  "additionalPublishedVisits": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-01 at 09.24.05.mp4",
+      "sourceSHA256": "475ae21aa5620027ad0370c3f46c80d60b171d7ba3caeeefc843395a2a6cd574",
+      "upload": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/remaining-queue-resumed-2026-10-19/approach-clips-review/morskie-oko-waterside-walk-sunset-visit-muted.mp4",
+      "uploadSHA256": "e073315fd12f4edfc27fef5ca04abe8017d98950ee6d225ebf0b6976bada11d6",
+      "durationSeconds": 4.033333,
+      "audioPresent": false,
+      "title": "Morskie Oko Wrocław | Waterside path at sunset | Visit clip | WROC-LOVE",
+      "description": "Original silent visit clip showing the waterside paths and benches at Morskie Oko bathing lake in Wrocław. Original source preserved. Bathing and access are seasonal; check the operator before visiting.\n\nExplore the place on our four-day map:\nhttps://wroc-love.com/share/en/premium.html",
+      "state": "published-public-reopened-verified",
+      "videoId": "hhhjCRE9aUc",
+      "url": "https://youtube.com/shorts/hhhjCRE9aUc",
+      "publicVerified": true,
+      "uploadComplete": true,
+      "processingComplete": true,
+      "copyright": "No issues found",
+      "communityGuidelines": "No issues found",
+      "proof": "waterside-saved-public-reopened.txt"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.10.mp4",
+      "sourceSHA256": "363dd8b0053c9e402559a494fd2093344002c689b87236e3dd0ee2d5e0313214",
+      "upload": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/remaining-queue-resumed-2026-10-19/approach-clips-review/morskie-oko-neighborhood-surroundings-visit-muted.mp4",
+      "uploadSHA256": "c8433748dc3ad9ed9317d1cf7a3bc657d38123311bb32aded60547d8837c8e59",
+      "durationSeconds": 3.466667,
+      "audioPresent": false,
+      "title": "Morskie Oko Wrocław | Neighborhood surroundings | Visit clip | WROC-LOVE",
+      "description": "A short silent visit to the neighborhood surroundings near Morskie Oko in Wrocław. Trees, pavement and local buildings on the streets nearby.\n\nExplore Morskie Oko and our visit photographs on the four-day map:\nhttps://wroc-love.com/share/en/premium.html",
+      "state": "published-public-reopened-verified",
+      "videoId": "ZQRrQni1Z5M",
+      "url": "https://youtube.com/shorts/ZQRrQni1Z5M",
+      "publicVerified": true,
+      "uploadComplete": true,
+      "processingComplete": true,
+      "copyright": "No issues found",
+      "communityGuidelines": "No issues found",
+      "proof": "neighborhood-saved-public-reopened.txt"
+    }
+  ],
+  "totalPublishedVisitClips": 8
 }

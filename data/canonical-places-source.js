@@ -13494,3 +13494,13 @@
     media: { ...record.media, guideVideos: { he: "https://youtube.com/shorts/R26FXh9Twh0", en: "https://youtube.com/shorts/e0gGTjUPYoQ" } }
   } : record);
 })();
+
+// Two additional silent Morskie Oko visits, Public reopened and checks complete.
+(function () {
+  const extraVideos = ["https://youtube.com/shorts/hhhjCRE9aUc", "https://youtube.com/shorts/ZQRrQni1Z5M"];
+  const extraMetadata = {"https://youtube.com/shorts/hhhjCRE9aUc": {"title": {"he": "שביל לצד האגם בשקיעה", "en": "Waterside path at sunset", "pl": "Ścieżka nad wodą o zachodzie słońca", "de": "Uferweg bei Sonnenuntergang", "cs": "Cesta u vody při západu slunce"}, "tags": ["visit", "waterside"], "original": true}, "https://youtube.com/shorts/ZQRrQni1Z5M": {"title": {"he": "סביבת השכונה הסמוכה למורסקי אוקו", "en": "Neighborhood surroundings near Morskie Oko", "pl": "Okolica w sąsiedztwie Morskiego Oka", "de": "Nachbarschaft rund um Morskie Oko", "cs": "Okolní čtvrť u Morského Oka"}, "tags": ["visit", "neighborhood"], "original": true}};
+  window.WROC_CANONICAL_PLACE_SOURCE = window.WROC_CANONICAL_PLACE_SOURCE.map(record => record.id === "morskie-oko-wroclaw" ? {
+    ...record,
+    media: { ...record.media, videos: [...new Set([...record.media.videos, ...extraVideos])], metadata: { ...record.media.metadata, ...extraMetadata } }
+  } : record);
+})();
