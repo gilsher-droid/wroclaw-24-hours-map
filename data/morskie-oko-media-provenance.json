@@ -1,0 +1,337 @@
+{
+  "canonicalId": "morskie-oko-wroclaw",
+  "date": "2026-10-19",
+  "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו",
+  "decisions": [
+    {
+      "source": "820B3B94-9378-4D1E-8F3E-8FEBC80883D6.jpg",
+      "asset": "morskie-oko-01.jpg",
+      "decision": "retain-upright",
+      "size": [
+        900,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4586.JPG",
+      "asset": "morskie-oko-02.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4588.JPG",
+      "asset": "morskie-oko-03.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4589.JPG",
+      "asset": "morskie-oko-04.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4592.JPG",
+      "asset": "morskie-oko-05.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4595.JPG",
+      "asset": "morskie-oko-06.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4596.JPG",
+      "asset": "morskie-oko-07.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4598.JPG",
+      "asset": "morskie-oko-08.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4599.JPG",
+      "asset": "morskie-oko-09.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4600.JPG",
+      "asset": "morskie-oko-10.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4601.JPG",
+      "asset": "morskie-oko-11.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4602.JPG",
+      "asset": "morskie-oko-12.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4603.JPG",
+      "asset": "morskie-oko-13.jpg",
+      "decision": "exclude",
+      "reason": "near duplicate of IMG_4604"
+    },
+    {
+      "source": "IMG_4604.JPG",
+      "asset": "morskie-oko-14.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4608.JPG",
+      "asset": "morskie-oko-15.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4609.JPG",
+      "asset": "morskie-oko-16.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4611.JPG",
+      "asset": "morskie-oko-17.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4612.JPG",
+      "asset": "morskie-oko-18.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4613.JPG",
+      "asset": "morskie-oko-19.jpg",
+      "decision": "exclude",
+      "reason": "near duplicate of IMG_4614"
+    },
+    {
+      "source": "IMG_4614.JPG",
+      "asset": "morskie-oko-20.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4616.JPG",
+      "asset": "morskie-oko-21.jpg",
+      "decision": "exclude",
+      "reason": "person-focused private-image risk"
+    },
+    {
+      "source": "IMG_4617.JPG",
+      "asset": "morskie-oko-22.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4618.JPG",
+      "asset": "morskie-oko-23.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4619.JPG",
+      "asset": "morskie-oko-24.jpg",
+      "decision": "exclude",
+      "reason": "near duplicate of IMG_4618"
+    },
+    {
+      "source": "IMG_4620.JPG",
+      "asset": "morskie-oko-25.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4621.JPG",
+      "asset": "morskie-oko-26.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4622.JPG",
+      "asset": "morskie-oko-27.jpg",
+      "decision": "exclude",
+      "reason": "person-focused table scene"
+    },
+    {
+      "source": "IMG_4623.JPG",
+      "asset": "morskie-oko-28.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4624.JPG",
+      "asset": "morskie-oko-29.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4625.JPG",
+      "asset": "morskie-oko-30.jpg",
+      "decision": "exclude",
+      "reason": "personal portrait"
+    },
+    {
+      "source": "IMG_4626.JPG",
+      "asset": "morskie-oko-31.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4628.JPG",
+      "asset": "morskie-oko-32.jpg",
+      "decision": "exclude",
+      "reason": "personal arm close-up"
+    },
+    {
+      "source": "IMG_4629.JPG",
+      "asset": "morskie-oko-33.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "IMG_4630.JPG",
+      "asset": "morskie-oko-34.jpg",
+      "decision": "exclude",
+      "reason": "outdated price board"
+    },
+    {
+      "source": "IMG_4631.JPG",
+      "asset": "morskie-oko-35.jpg",
+      "decision": "retain-upright",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "source": "WhatsApp Image 2026-10-19 at 16.37.09.jpeg",
+      "asset": "morskie-oko-entrance-20261019.jpg",
+      "decision": "new",
+      "reason": "location sign and entrance context"
+    }
+  ],
+  "originalsModified": false,
+  "guidesExcluded": true,
+  "existingVideosPreserved": 4,
+  "newPublishedVideos": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.43.mp4",
+      "originalSHA256": "8a521b5871668c894c8a3c114f18dbf13df1a18e146cbb352ff8fe73cd7fd5b0",
+      "candidate": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/morskie-oko-enrichment-2026-10-19/upload-candidates/morskie-oko-swans-visit-muted.mp4",
+      "candidateSHA256": "d9e3e682d5a4704cd5f4c4a50bb46bccff22a39590193828f94951ffda18f4e7",
+      "title": "Morskie Oko Wrocław | Swans visit | WROC-LOVE",
+      "processing": "Original video stream copied without reencoding; audio removed, originals unchanged.",
+      "state": "published-verified-reopened",
+      "youtube": "https://youtube.com/shorts/gN14-XYU8dM",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "copyright": "No issues found",
+      "communityGuidelines": "No issues found"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.44.mp4",
+      "originalSHA256": "c37b5540bb4afd6e1d6cdbdc385adc9674b4aac395682a02fe765f61dff4e393",
+      "candidate": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/morskie-oko-enrichment-2026-10-19/upload-candidates/morskie-oko-sunset-visit-muted.mp4",
+      "candidateSHA256": "a84d120d071b3fea0d12dc7df8c450bf4be50dbced5c02996b2b5e3b330cf6b1",
+      "title": "Morskie Oko Wrocław | Sunset visit | WROC-LOVE",
+      "processing": "Original video stream copied without reencoding; audio removed, originals unchanged.",
+      "state": "published-verified-reopened",
+      "youtube": "https://youtube.com/shorts/8cTLqypvJn4",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "copyright": "No issues found",
+      "communityGuidelines": "No issues found"
+    }
+  ]
+}

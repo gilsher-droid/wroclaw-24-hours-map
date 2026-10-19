@@ -183,6 +183,7 @@
     "pergola": canonicalResources("pergola"),
     "fc-caffe-kuznicza": canonicalResources("fc-caffe-kuznicza"),
     "stadion-olimpijski-wroclaw": canonicalResources("stadion-olimpijski-wroclaw"),
+    "morskie-oko-wroclaw": canonicalResources("morskie-oko-wroclaw"),
     japanese: { facebook: facebook.japanese, instagram: instagram.japanese, gallery: [...galleries.japanese, "/assets/japanese-visit-07.jpg", "/assets/japanese-visit-08.jpg"], guideVideos: { he:"https://youtube.com/shorts/x39Gu8wchuA", en:"https://youtube.com/shorts/anSJzrqzqqg" }, videos: ["https://youtube.com/shorts/Ni0GwsP-uMg", "https://youtube.com/shorts/OMuXVtwAkAA"] },
     "wroclavia": canonicalResources("wroclavia"),
     "wroclavia-station": canonicalResources("wroclavia"),

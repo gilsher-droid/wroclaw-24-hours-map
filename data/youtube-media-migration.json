@@ -1351,5 +1351,39 @@
     "status": "public",
     "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Video 2026-10-05 at 18.26.07.mp4",
     "virtualVideoPathOnly": true
+  },
+  "/assets/morskie-oko-sunset-visit-20261019-01.mp4": {
+    "canonicalId": "morskie-oko-wroclaw",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/gN14-XYU8dM",
+    "title": "Morskie Oko Wrocław | Swans visit | WROC-LOVE",
+    "sourceSHA256": "8a521b5871668c894c8a3c114f18dbf13df1a18e146cbb352ff8fe73cd7fd5b0",
+    "uploadSHA256": "d9e3e682d5a4704cd5f4c4a50bb46bccff22a39590193828f94951ffda18f4e7",
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "checks": "complete-no-issues",
+    "processingStatus": "complete",
+    "copyrightStatus": "no-issues-found",
+    "communityGuidelinesStatus": "no-issues-found",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.43.mp4",
+    "virtualVideoPathOnly": true,
+    "transformation": "Original picture stream copied without reencoding; audio removed from upload copy; source preserved."
+  },
+  "/assets/morskie-oko-sunset-visit-20261019-02.mp4": {
+    "canonicalId": "morskie-oko-wroclaw",
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/8cTLqypvJn4",
+    "title": "Morskie Oko Wrocław | Sunset visit | WROC-LOVE",
+    "sourceSHA256": "c37b5540bb4afd6e1d6cdbdc385adc9674b4aac395682a02fe765f61dff4e393",
+    "uploadSHA256": "a84d120d071b3fea0d12dc7df8c450bf4be50dbced5c02996b2b5e3b330cf6b1",
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "checks": "complete-no-issues",
+    "processingStatus": "complete",
+    "copyrightStatus": "no-issues-found",
+    "communityGuidelinesStatus": "no-issues-found",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.44.mp4",
+    "virtualVideoPathOnly": true,
+    "transformation": "Original picture stream copied without reencoding; audio removed from upload copy; source preserved."
   }
 }

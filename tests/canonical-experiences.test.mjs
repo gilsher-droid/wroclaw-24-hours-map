@@ -71,8 +71,9 @@ test("Experience media resolves through existing Place media and Prague original
   assert.equal(fountainMedia.images.length, 7);
   assert.equal(fountainMedia.videos.length, 8);
   const morskieMedia = registry.resolveMedia("summer-bathing-and-relaxation");
-  assert.equal(morskieMedia.images.length, 35);
-  assert.equal(morskieMedia.videos.length, 4);
+  assert.equal(morskieMedia.images.length, 28);
+  assert.ok(morskieMedia.images.every(src => !/morskie-oko-(?:21|27|30|32|34)\.jpg$/.test(src)), "personal-focused images and old tariff board stay excluded");
+  assert.equal(morskieMedia.videos.length, 6);
 
   const prague = registry.getExperience("wroclaw-prague-public-transport");
   assert.equal(prague.relatedCanonicalPlaceIds.length, 0);
