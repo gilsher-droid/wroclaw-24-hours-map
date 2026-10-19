@@ -66,7 +66,7 @@ test("an independent Lower Silesia place is supported without changing current p
     const baselineFile = resolve(root, "data/place-catalog.js");
     const baseline = loadCatalog(baselineFile);
     const candidate = loadCatalog(outputFile);
-    assert.equal(Object.keys(baseline.places).length, 190);
+    assert.equal(Object.keys(baseline.places).length, 191);
     assert.equal(Object.keys(candidate.places).length, Object.keys(baseline.places).length + 1);
     assert.equal(baseline.coordinateConflicts.length, 28);
     assert.equal(JSON.stringify(candidate.coordinateConflicts), JSON.stringify(baseline.coordinateConflicts));
@@ -109,8 +109,8 @@ test("Książ Castle is an independent multilingual Lower Silesia place", () => 
   const place = catalog.getPlace("ksiaz-castle");
 
   assert.ok(place);
-  assert.equal(Object.keys(catalog.places).length, 190);
-  assert.equal(Object.keys(catalog.aliases).length, 81);
+  assert.equal(Object.keys(catalog.places).length, 191);
+  assert.equal(Object.keys(catalog.aliases).length, 97);
   assert.equal(catalog.coordinateConflicts.length, 28);
   assert.equal(place.localName, "Zamek Książ w Wałbrzychu");
   assert.equal(place.location.countryCode, "PL");
@@ -161,7 +161,7 @@ test("Aleja Bielany is one canonical shopping place used by Lifestyle", () => {
   assert.ok(canonical.socialPosts.some((post) => post.platform === "facebook"));
   assert.ok(canonical.socialPosts.some((post) => post.platform === "instagram"));
   assert.equal(window.WROC_LOCATION_MEDIA["aleja-bielany"].gallery.length, 6);
-  assert.equal(window.WROC_LIFESTYLE_PLACES.filter((place) => place.categories.includes("buy")).length, 11);
+  assert.equal(window.WROC_LIFESTYLE_PLACES.filter((place) => place.categories.includes("buy")).length, 10);
 });
 
 test("PeDeT media belongs to its existing Lifestyle place, separate from Renoma", () => {
@@ -180,7 +180,7 @@ test("PeDeT media belongs to its existing Lifestyle place, separate from Renoma"
   assert.equal(place.media.guideVideos, undefined);
   assert.equal(window.WROC_LOCATION_MEDIA.pedet.gallery.length, 15);
   assert.equal(window.WROC_LOCATION_MEDIA.pedet.videos.length, 3);
-  assert.equal(window.WROC_LOCATION_MEDIA.renoma.gallery.length, 5);
+  assert.equal(window.WROC_LOCATION_MEDIA.renoma.gallery.length, 11);
 });
 
 test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonical identity", () => {
@@ -227,7 +227,7 @@ test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonica
       "wroclaw-christmas:wroclavia-station",
     ],
   );
-  assert.equal(shoppingCentre.media.photos.length, 5);
+  assert.equal(shoppingCentre.media.photos.length, 6);
   assert.ok(shoppingCentre.socialPosts.some((post) => post.platform === "facebook"));
   assert.equal(window.WROC_LIFESTYLE_PLACES.find((place) => place.id === "wroclavia")?.localName, "Westfield Wroclavia");
   assert.equal(premiumStop?.localName, "Westfield Wroclavia");

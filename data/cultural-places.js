@@ -2,6 +2,9 @@
   "use strict";
 
   const memberships = {
+    "pergola": ["architecture-design"],
+    "renoma": ["architecture-design"],
+    "math-tower": ["museums-history", "architecture-design"],
     "park-szczytnicki-wroclaw": ["architecture-design"],
     "wieza-cisnien-borek": ["architecture-design"],
     bastion: ["architecture-design", "museums-history"],

@@ -1089,3 +1089,9 @@ footer a { color: var(--sky); font-weight: 800; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* Preserve the full tower and museum visit photographs. */
+img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"] { object-fit: contain; background: #f4f0e8; }
+
+/* Full-frame approved October visit images. */
+img[src*="-refresh-oct19-"], img[src*="pergola-wroclawska-"], img[src*="wyspa-slodowa-"], img[src*="galeria-dominikanska-"], img[src*="fc-caffe-kuznicza-"] { object-fit: contain; background: #f4f0e8; }

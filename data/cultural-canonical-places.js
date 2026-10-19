@@ -118,4 +118,393 @@
       "/assets/aula-leopoldina-03.jpg":{tags:["university-of-wroclaw","exterior","architecture"],original:true,sourceFile:"740486966_10244931965779678_2232032539844803280_n.jpg"}
     }}, provenance:{contentType:"personal-visit",personalVisit:true,originalPhotography:true} }),
   ];
+  const panTadeuszRefresh = {
+  "description": {
+    "he": "מוזיאון לספרות ולהיסטוריה פולנית בבית ״תחת השמש הזהובה״ שבכיכר השוק. המוזיאון הוא שלוחה של אוסולינאום, ובמרכזו כתב היד של ״פאן טדאוש״ מאת אדם מיצקביץ׳. התצוגות משלבות חפצים מקוריים ומולטימדיה ועוסקות גם בהיסטוריה של המאה העשרים ובמשורר תדאוש רוז׳ביץ׳. תמונות הביקור שלנו מתעדות את החזית המוארת ואת שלט הכניסה, ולא את חללי התצוגה. פרטי הביקור המעודכנים מופיעים באתר המוזיאון.\nMuzeum Pana Tadeusza\nRynek 6, Wrocław",
+    "en": "A museum of Polish literature and history in the Under the Golden Sun house on Market Square. Part of the Ossolineum, it centres on Adam Mickiewicz’s Pan Tadeusz manuscript. Original objects and multimedia displays also explore twentieth-century history and the poet Tadeusz Różewicz. Our visit photographs show the illuminated facade and entrance plaque, rather than the exhibition rooms. See the museum website for current visiting details.\nRynek 6, Wrocław",
+    "pl": "Muzeum literatury i historii Polski w kamienicy Pod Złotym Słońcem przy Rynku. Oddział Ossolineum, którego najważniejszym eksponatem jest rękopis Pana Tadeusza Adama Mickiewicza. Oryginalne obiekty i multimedia przybliżają również historię XX wieku oraz twórczość Tadeusza Różewicza. Nasze zdjęcia z wizyty przedstawiają oświetloną fasadę i tablicę przy wejściu, a nie sale wystawowe. Aktualne informacje dla zwiedzających znajdują się na stronie muzeum.\nRynek 6, Wrocław",
+    "de": "Ein Museum zur polnischen Literatur und Geschichte im Haus Zur Goldenen Sonne am Rynek. Die Einrichtung gehört zum Ossolineum; im Mittelpunkt steht Adam Mickiewiczs Handschrift des Pan Tadeusz. Originalobjekte und Multimedia beleuchten außerdem die Geschichte des 20. Jahrhunderts und den Dichter Tadeusz Różewicz. Unsere Besuchsfotos zeigen die beleuchtete Fassade und die Tafel am Eingang, nicht die Ausstellungsräume. Aktuelle Besuchsinformationen stehen auf der Museumswebsite.\nRynek 6, Wrocław",
+    "cs": "Muzeum polské literatury a historie v domě U Zlatého slunce na hlavním náměstí. Je součástí Ossolinea a jeho ústředním exponátem je rukopis Pana Tadeáše Adama Mickiewicze. Původní předměty a multimédia přibližují také dějiny 20. století a básníka Tadeusze Różewicze. Naše fotografie z návštěvy zachycují osvětlené průčelí a tabulku u vstupu, nikoli výstavní sály. Aktuální informace pro návštěvníky jsou na webu muzea.\nRynek 6, Wrocław"
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1104299,
+      "lng": 17.0302752
+    },
+    "address": {"street": "Rynek 6", "city": "Wrocław", "countryCode": "PL", "postalCode": "50-106"}
+  },
+  "links": {
+    "website": "https://muzeumpanatadeusza.ossolineum.pl/en/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1104299%2C17.0302752",
+      "appleMaps": "https://maps.apple.com/?q=Muzeum%20Pana%20Tadeusza&ll=51.1104299,17.0302752"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-01.jpg",
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-02.jpg",
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-03.jpg",
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-04.jpg",
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-05.jpg"
+    ],
+    "videos": [
+      "https://youtube.com/shorts/BTXtNDsF_8M"
+    ],
+    "thumbnail": "/assets/pan-tadeusz-museum/pan-tadeusz-museum-03.jpg",
+    "metadata": {
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-01.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (10).jpeg",
+        "sourceSHA256": "55d8faf7be8441b7cc251221cc0e2ef79b3b86f8cfbf51deb154168e5ac6dd5e",
+        "assetSHA256": "407e2b13672579ac91914550c49f07fbc8a4a63d1d922b42e09fe41143b4db26",
+        "alt": {
+          "he": "שלט וסמל המוזיאון על דלת הכניסה",
+          "en": "Museum name and symbol on the entrance door",
+          "pl": "Nazwa i symbol muzeum na drzwiach wejściowych",
+          "de": "Museumsname und Symbol an der Eingangstür",
+          "cs": "Název a symbol muzea na vstupních dveřích"
+        }
+      },
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-02.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (12).jpeg",
+        "sourceSHA256": "42ef8330b521991c4c1d4a7cc8858ac08a3676310b7673d3081d52a632a1562d",
+        "assetSHA256": "0c91321e68b35f936af18b86c264e5c914b6e99bc74ea4fc1c5b9a437d871865",
+        "alt": {
+          "he": "חזית המוזיאון המוארת ומסגרת הכניסה מזווית נמוכה",
+          "en": "Illuminated museum facade and entrance surround from below",
+          "pl": "Oświetlona fasada muzeum i portal widziane z dołu",
+          "de": "Beleuchtete Museumsfassade und Eingangsportal von unten",
+          "cs": "Osvětlené průčelí muzea a vstupní portál zdola"
+        }
+      },
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-03.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (13).jpeg",
+        "sourceSHA256": "f3761e029fbe729b4dd1f071d2b7d1a694d3005423ec78642b353b73975f8b93",
+        "assetSHA256": "c564159238eeed1d3cee4018172001fc72fe324bdef3078105a3e7f7f7a0fe47",
+        "alt": {
+          "he": "חזית בית השמש הזהובה שבה שוכן המוזיאון",
+          "en": "Facade of the Under the Golden Sun house containing the museum",
+          "pl": "Fasada kamienicy Pod Złotym Słońcem, siedziby muzeum",
+          "de": "Fassade des Museumshauses Zur Goldenen Sonne",
+          "cs": "Průčelí domu U Zlatého slunce, sídla muzea"
+        }
+      },
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-04.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (2).jpeg",
+        "sourceSHA256": "ec99416c67f618503fcd461798f184a5cde26517b848bc0de76e70dddbb32160",
+        "assetSHA256": "c611848767cb7a7a040c8f1803c6efef73d776a577709c5ce01103a7cb4b51d3",
+        "alt": {
+          "he": "לוחית שם מוזיאון פאן טדאוש ליד הכניסה",
+          "en": "Pan Tadeusz Museum name plaque beside the entrance",
+          "pl": "Tablica z nazwą Muzeum Pana Tadeusza przy wejściu",
+          "de": "Namensschild des Pan-Tadeusz-Museums am Eingang",
+          "cs": "Tabulka s názvem Muzea Pana Tadeusze u vchodu"
+        }
+      },
+      "/assets/pan-tadeusz-museum/pan-tadeusz-museum-05.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Image 2026-10-19 at 08.41.52 (7).jpeg",
+        "sourceSHA256": "68e600bdbc47acec9cd47b102f926e28fe29f1b14b197e3990a42aff83cae9fa",
+        "assetSHA256": "4aea67f4252d9a559ad062d64daa7950a33f03d5f77cf28ece4c5ef0835ec3a0",
+        "alt": {
+          "he": "החזית המוארת של המוזיאון בכיכר השוק בלילה",
+          "en": "Illuminated museum frontage on Market Square at night",
+          "pl": "Oświetlona nocą fasada muzeum przy Rynku",
+          "de": "Nachts beleuchtete Museumsfront am Rynek",
+          "cs": "Noční osvětlené průčelí muzea na Rynku"
+        }
+      }
+    }
+  },
+  "provenance": {
+    "contentType": "official-institution-audit",
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://muzeumpanatadeusza.ossolineum.pl/",
+        "checkedAt": "2026-08-29"
+      }
+    ],
+    "verifiedAt": "2026-10-19",
+    "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH",
+    "personalMediaPermission": false,
+    "videoReceipt": "data/pan-tadeusz-enrichment-provenance.json"
+  }
+};
+  window.WROC_CULTURAL_CANONICAL_PLACE_SOURCE = window.WROC_CULTURAL_CANONICAL_PLACE_SOURCE.map((record) => record.id === "pan-tadeusz-museum" ? { ...record, ...panTadeuszRefresh } : record);
+  const october19CultureRefreshes = {
+  "town-hall": {
+    "id": "town-hall",
+    "localName": "Ratusz we Wrocławiu",
+    "name": {
+      "he": "בית העירייה העתיק",
+      "en": "Wrocław Old Town Hall",
+      "pl": "Ratusz we Wrocławiu",
+      "de": "Altes Rathaus Breslau",
+      "cs": "Stará radnice ve Vratislavi"
+    },
+    "description": {
+      "he": "בית העירייה העתיק בכיכר השוק הוא מבנה גותי ובו המוזיאון לאמנות בורגנית. התעכבו על השעון, הגמלונים והפיסול בחזיתות. התמונות שלנו מציגות את המבנה ביום ובערב. ביקור בפנים כפוף לשעות המוזיאון ולתערוכות; בדקו את האתר הרשמי לפני ההגעה.",
+      "en": "The Gothic Old Town Hall on the Market Square houses the Museum of Bourgeois Art. Look closely at its clock, gables and carved façades. Our photographs show daytime and evening views. Interior visits depend on museum opening and exhibitions; check the official website before arriving.",
+      "pl": "Gotycki Stary Ratusz na Rynku mieści Muzeum Sztuki Mieszczańskiej. Zwróćcie uwagę na zegar, szczyty i rzeźbione elewacje. Nasze zdjęcia pokazują budynek za dnia i wieczorem. Zwiedzanie wnętrz zależy od godzin muzeum i wystaw; przed wizytą sprawdźcie oficjalną stronę.",
+      "de": "Das gotische Alte Rathaus am Marktplatz beherbergt das Museum der Bürgerlichen Kunst. Achten Sie auf Uhr, Giebel und Fassadenschmuck. Unsere Fotos zeigen Tages- und Abendansichten. Innenbesichtigungen richten sich nach Museumsöffnungszeiten und Ausstellungen; prüfen Sie vorab die offizielle Website.",
+      "cs": "Gotická Stará radnice na Rynku hostí Muzeum měšťanského umění. Všimněte si hodin, štítů a zdobených fasád. Naše fotografie zachycují denní i večerní pohledy. Návštěva interiéru závisí na otevírací době muzea a výstavách; před cestou ověřte oficiální web."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.10993,
+        "lng": 17.0317
+      }
+    },
+    "categories": [
+      "architecture",
+      "history",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "history",
+        "museum"
+      ],
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://muzeum.miejskie.wroclaw.pl/en/museum/sztuki-mieszczenskiej/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10993%2C17.0317",
+        "appleMaps": "https://maps.apple.com/?ll=51.10993,17.0317&q=Ratusz%20we%20Wroc%C5%82awiu"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "museum-of-bourgeois-art",
+        "tags": [
+          "art",
+          "history"
+        ]
+      }
+    ],
+    "provenance": {
+      "contentType": "official-institution-audit",
+      "factualSources": [
+        {
+          "url": "https://visitwroclaw.eu/en/atrakcje/market-square-and-town-hall/",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "central square",
+            "cafés",
+            "pedestrian access",
+            "Town Hall within square"
+          ]
+        },
+        {
+          "url": "https://muzeum.miejskie.wroclaw.pl/en/museum/sztuki-mieszczenskiej/",
+          "checkedAt": "2026-10-19",
+          "supports": [
+            "Gothic Old Town Hall",
+            "Museum of Bourgeois Art",
+            "Rynek address"
+          ],
+          "caution": "Source contains visibly malformed hours and inconsistent postal codes; do not copy hours/prices/postal codes"
+        }
+      ],
+      "verifiedAt": "2026-10-19",
+      "personalMediaPermission": false
+    },
+    "media": {
+      "photos": [
+        "/assets/old-town-hall-wroclaw.jpg",
+        "/assets/town-hall-refresh-oct19-01.jpg",
+        "/assets/town-hall-refresh-oct19-02.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/town-hall-refresh-oct19-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4717.JPG",
+          "sourceSHA256": "dedc7b9e6589a3c470bb6096e3e799c062650e30f4c0bdb17513488e46c8d0ef",
+          "assetSHA256": "93e6fd517daee150ab8c6e50a7687b646c8b08ef4de20005a4592e1631ed00e8"
+        },
+        "/assets/town-hall-refresh-oct19-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-19 at 08.42.09 (13).jpeg",
+          "sourceSHA256": "0d20823d01b95b570253d44025132179487c76de51e32728a6850ac1218072ac",
+          "assetSHA256": "b26914a29954b2e0c43cbe2ff803a732cc55bd12d7fc4f8990e6a82ba2123978"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02LEfYBpkZggr1eW6Xi6S8V5zU6q4ZYS5Hp2HUcT4RhLYih7jqVZMfGn3HVkatao66l&id=61595207664875",
+        "verifiedAt": "2026-10-06T23:24:19.550729+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0j3RGBm11XgUCo3woiec6vgRksebyjTBeo4GuUrHs7EDia1tm518LS2jdhx2U1TJVl&id=61595239823399",
+        "verifiedAt": "2026-10-07T06:29:27.948641+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02h3exwi5k2HW2dRQZk6kLteBFzEAn92VTVs23Y8qfkGE2QswVk9zB5M3gnJzM8k3Sl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMh5J1jbJy/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMldstj8FP/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02adMixpC3DKFekh3ranhYzvdA6zcuJWoLo8F57zW8PUcRf3u8dEf14HTsLoXRqzUjl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTnoF3je_J/",
+        "verifiedAt": "2026-10-10T08:10:12.781Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUTwPkjyOh/",
+        "verifiedAt": "2026-10-10T14:35:33.948Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtnbDkfUF/",
+        "verifiedAt": "2026-10-10T18:21:14.623Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02LEfYBpkZggr1eW6Xi6S8V5zU6q4ZYS5Hp2HUcT4RhLYih7jqVZMfGn3HVkatao66l&id=61595207664875",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0j3RGBm11XgUCo3woiec6vgRksebyjTBeo4GuUrHs7EDia1tm518LS2jdhx2U1TJVl&id=61595239823399",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02h3exwi5k2HW2dRQZk6kLteBFzEAn92VTVs23Y8qfkGE2QswVk9zB5M3gnJzM8k3Sl&id=61594716405964",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMh5J1jbJy/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMldstj8FP/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02adMixpC3DKFekh3ranhYzvdA6zcuJWoLo8F57zW8PUcRf3u8dEf14HTsLoXRqzUjl&id=61595036942289",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeTnoF3je_J/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUTwPkjyOh/",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtnbDkfUF/",
+        "verifiedAt": "2026-10-19"
+      }
+    ]
+  }
+};
+  window.WROC_CULTURAL_CANONICAL_PLACE_SOURCE = window.WROC_CULTURAL_CANONICAL_PLACE_SOURCE.map(record => october19CultureRefreshes[record.id] || record);
+  // Removed gallery associations remain in the refresh provenance, not active media metadata.
+  for (const record of window.WROC_CULTURAL_CANONICAL_PLACE_SOURCE) {
+    if (record.media?.videos) record.media.videos = record.media.videos.map(video => typeof video === "string" ? video : video.src);
+    if (!record.media?.metadata) continue;
+    const active = new Set([...(record.media.photos || []), ...(record.media.videos || []).map(video => typeof video === "string" ? video : video.src), record.media.thumbnail]);
+    record.media.metadata = Object.fromEntries(Object.entries(record.media.metadata).filter(([asset]) => active.has(asset)));
+  }
 })();

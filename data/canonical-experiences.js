@@ -93,7 +93,20 @@
           }
         }
       },
-      "social": [],
+      "social": [
+  {
+    "platform": "facebook",
+    "language": "en",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02VrJHkQfRNTqHvAXfsAzJHfUukbWXH28SR8gyxV7nR2TkaZjKXHo23nxLCejPk98Al&id=61595036942289",
+    "verifiedAt": "2026-10-19T07:40:38.438Z"
+  },
+  {
+    "platform": "instagram",
+    "language": "en",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeqvdJ0FXDK/",
+    "verifiedAt": "2026-10-19T07:40:56.160Z"
+  }
+],
       "links": {
         "socialProfileFallback": false
       },

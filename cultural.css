@@ -182,3 +182,12 @@ footer > div { display: grid; gap: 4px; } footer span { color: rgba(255,255,255,
 
 /* Keep the full Borek water tower visible in the cultural gallery. */
 .media-grid img[src*="/wieza-cisnien-borek-"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
+
+/* Preserve the full tower and museum visit photographs. */
+img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"] { object-fit: contain; background: #f4f0e8; }
+
+/* Full-frame approved October visit images. */
+img[src*="-refresh-oct19-"], img[src*="pergola-wroclawska-"], img[src*="wyspa-slodowa-"], img[src*="galeria-dominikanska-"], img[src*="fc-caffe-kuznicza-"] { object-fit: contain; background: #f4f0e8; }
+
+/* Full-frame new visits and corrected stadium orientation. */
+img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stadion-olimpijski-"], img[src*="-refresh-oct19-"], img[src*="pergola-wroclawska-"], img[src*="wyspa-slodowa-"], img[src*="galeria-dominikanska-"], img[src*="fc-caffe-kuznicza-"] { object-fit: contain; background: #f4f0e8; }

@@ -45,6 +45,20 @@
   const sourceShopping = t("מופיע בשכבת מרכזי הקניות של מפת הקהילה.", "Included in the community map’s shopping-centre layer.", "Znajduje się w warstwie centrów handlowych mapy społeczności.", "In der Einkaufszentrum-Ebene der Community-Karte enthalten.", "Zahrnuto ve vrstvě nákupních center komunitní mapy.");
 
   window.WROC_LIFESTYLE_PLACES = [
+    { id: "fc-caffe-kuznicza", localName: "FC Caffe", name: {
+  "he": "קפה אף סי",
+  "en": "FC Caffe",
+  "pl": "FC Caffe",
+  "de": "FC Caffe",
+  "cs": "FC Caffe"
+}, description: {
+  "he": "בית קפה ברחוב קוז׳ניצ׳ה, עם קפה, ארוחות בוקר ועוגות לפי אתר המקום. תמונת הביקור שלנו מציגה את השלט העגול, החזית הפתוחה ושולחנות הישיבה ברחוב. אפשר לשלב הפסקה בדרך בין אזור האוניברסיטה לכיכר השוק.\nFC Caffe\nKuźnicza 30, Wrocław",
+  "en": "A café on Kuźnicza serving coffee, breakfast and cakes according to its website. Our visit photograph shows the round sign, open frontage and street-side tables. A possible pause between the university area and Market Square.\nKuźnicza 30, Wrocław",
+  "pl": "Kawiarnia przy Kuźniczej, oferująca według własnej strony kawę, śniadania i ciasta. Nasze zdjęcie z wizyty pokazuje okrągły szyld, otwartą fasadę i stoliki na ulicy. Można połączyć przerwę ze spacerem między uniwersytetem a Rynkiem.\nKuźnicza 30, Wrocław",
+  "de": "Ein Café an der Kuźnicza mit Kaffee, Frühstück und Kuchen laut eigener Website. Unser Besuchsfoto zeigt das runde Schild, die offene Front und Tische am Straßenrand. Eine mögliche Pause zwischen Universitätsviertel und Rynek.\nKuźnicza 30, Wrocław",
+  "cs": "Kavárna v ulici Kuźnicza s kávou, snídaněmi a zákusky podle vlastního webu. Naše fotografie z návštěvy ukazuje kulatý vývěsní štít, otevřené průčelí a stolky u ulice. Možná zastávka mezi univerzitou a Rynkem.\nKuźnicza 30, Wrocław"
+}, coordinates: [51.1132329,17.0346388], categories: ["eat","drink"], website: "https://fccaffe.eatbu.com/?lang=pl" },
+
     { id: "kawiarenka-sw-jadwigi", categories: ["eat", "drink"], coordinates: [51.1160449, 17.0433953], mediaKey: "kawiarenka-sw-jadwigi" },
     { id: "cafe-berg-wroclaw", categories: ["eat", "drink"], coordinates: [51.103978840814904, 17.03740582927844], mediaKey: "cafe-berg-wroclaw" },
     { ...place("wuwa", ["drink", "eat"], [51.10709,17.08730],
@@ -78,7 +92,7 @@
     place("jolie-kurzy-targ", ["eat","drink"], [51.1093944,17.0341861], "Jolie Brasserie Cafe – Kurzy Targ 2", food.jolie, familiarPost, "jolie-kurzy-targ", sourceFood),
     place("jolie-plac-solny", ["eat","drink"], [51.10965,17.02904], "Jolie Brasserie Cafe – Plac Solny 6", food.jolie, familiarPost, null,
       t("סניף נוסף בעיר העתיקה; התמונות בפוסט צולמו בסניף Kurzy Targ.", "Another Old Town branch; the post photos were taken at Kurzy Targ.", "Drugi lokal na Starym Mieście; zdjęcia w poście wykonano przy Kurzym Targu.", "Eine weitere Altstadt-Filiale; die Fotos im Beitrag entstanden am Kurzy Targ.", "Další pobočka ve Starém Městě; fotografie v příspěvku vznikly na Kurzy Targ.")),
-    place("pedet", ["eat","drink","buy"], [51.1037104,17.0324564], "PeDeT Food Hall", food.foodHall, foodPost, "pedet", sourceFood),
+    place("pedet", ["eat","drink"], [51.1037104,17.0324564], "PeDeT Food Hall", food.foodHall, foodPost, "pedet", sourceFood),
     place("hala-targowa", ["eat","drink","buy"], [51.1126206,17.039748], "Hala Targowa", food.market, familiarPost, "marketHall", sourceFood),
     place("wedel", ["drink"], [51.1110173,17.031212], "Chocolate Cafe E.Wedel", food.chocolate, foodPost, "rynek", sourceFood),
     place("karmello", ["drink"], [51.1104418,17.0337016], "Karmello Chocolatier", food.gelato, foodPost, "rynek", sourceFood),
@@ -120,4 +134,15 @@
   }
 
   window.WROC_LIFESTYLE_SOURCES = { foodPost, hotelPost, shoppingPost, familiarPost };
+
+// Use refreshed canonical visitor information without changing itinerary choices.
+if (window.WROC_CATALOG) {
+  const refreshedIds = new Set(["math-tower","rynek","town-hall","renoma","wroclavia","pasaz","pergola","slodowa","dominikan","pedet","fashion-outlet","fc-caffe-kuznicza"]);
+  [window.WROC_LIFESTYLE_PLACES].forEach(items => (items || []).forEach(record => {
+    const place = window.WROC_CATALOG.getPlace(record.canonicalPlaceId || record.id);
+    if (!place || !refreshedIds.has(place.id)) return;
+    if (record.id === place.id) record.name = place.name;
+    record.description = place.description;
+  }));
+}
 })();
