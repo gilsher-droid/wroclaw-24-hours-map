@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "stadion-olimpijski-wroclaw": ["architecture-design", "museums-history"],
     "pergola": ["architecture-design"],
     "renoma": ["architecture-design"],
     "math-tower": ["museums-history", "architecture-design"],
