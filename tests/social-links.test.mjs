@@ -135,11 +135,13 @@ test("explicit English Instagram account paths never route from Hebrew maps", ()
   assert.equal(catalog.getSocialPost(english,"instagram","en").url,english.socialPosts[0].url);
 });
 
-test('Borek exposes only reviewed place posts and hides the missing Hebrew Instagram post', () => {
+test('Borek exposes reviewed place posts and its newly verified Hebrew Instagram post', () => {
   const catalog = loadCatalog();
   const place = catalog.getPlace('wieza-cisnien-borek');
   assert.equal(place.links.socialProfileFallback, false);
-  assert.equal(catalog.getSocialPost(place, 'instagram', 'he'), null);
+  const replacement = JSON.parse(readFileSync(resolve(root, 'data/october19-verified-social-connections.json'), 'utf8')).find(row => row.canonicalId === 'wieza-cisnien-borek' && row.platform === 'instagram' && row.language === 'he');
+  assert.ok(replacement);
+  assert.equal(catalog.getSocialPost(place, 'instagram', 'he')?.url, replacement.url);
   const audit = JSON.parse(readFileSync(resolve(root, 'data/borek-social-audit.json'), 'utf8'));
   assert.equal(audit.entries.length, 10);
   for (const row of audit.entries.filter(row => row.status === 'verified-post')) {

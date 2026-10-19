@@ -15409,6 +15409,18 @@
         "language": "en",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Deqs4wkD-Kb/",
         "verifiedAt": "2026-10-19T07:18:47.742Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02AHPReHTVkrDeQrEHhrNHk6vhTyZibTajaqPtjyK3yXJnNusa9JbFS7mbctG8faGdl&id=61591964083308",
+        "verifiedAt": "2026-10-19T07:51:18.253Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DeqwucFDZSN/",
+        "verifiedAt": "2026-10-19T07:51:26.855Z"
       }
     ]
   },
@@ -18404,6 +18416,12 @@
         "language": "en",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeqvRcblU63/",
         "verifiedAt": "2026-10-19T07:38:21.758Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeqwNzpDnIT/",
+        "verifiedAt": "2026-10-19T07:46:17.419Z"
       }
     ]
   },
@@ -23879,6 +23897,18 @@
         "language": "en",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Deqsik7FT2p/",
         "verifiedAt": "2026-10-19T07:15:42.090Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FMpRifUxERGCXjjXtqXZJ6RmjA73s7fQdgGpnKQ9qAK43KH9xShNC6ShLmkz1iVhl&id=61591964083308",
+        "verifiedAt": "2026-10-19T07:48:05.557Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DeqwWCdjfxC/",
+        "verifiedAt": "2026-10-19T07:48:13.479Z"
       }
     ]
   },
@@ -33367,6 +33397,12 @@
           "account": "וורוצלב ושלזיה התחתית",
           "evidence": "data/borek-social-audit.json#facebook-he"
         }
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeqwHfdkYbq/",
+        "verifiedAt": "2026-10-19T07:45:33.483Z"
       },
       {
         "platform": "facebook",

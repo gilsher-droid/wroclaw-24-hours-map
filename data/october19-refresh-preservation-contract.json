@@ -352,7 +352,6 @@
     "wedrowcy-kolejowa-63": "94388f9344d1955d11be8ca0f82d519ded846db5227ece3b6529941d7b0f8a14",
     "whiskey": "90fdf03d641d654b29d82bd324d6fc1c28bec0894e1ce32edcbc3c14cd3ae26f",
     "wierzbowa-15": "61e559adcc99042613a1b14910adb22f265d176e1b44c6ae6e3e02bf830e6fb2",
-    "wieza-cisnien-borek": "0d7dea6b8f81073f281383b33943b0abe38a53897083e8474b3828a6a203fd40",
     "woda-cafe": "37d4db9d3140048ab69f198c8db0e7101d28103ff3ca52c90e620135b25734f0",
     "woosabi": "b353dbf4f033b3a86e7e095c966c3e2512c635961b6582904d580dea99041c4e",
     "wroclaw-botanical-garden": "ba01a096cf4f2eecd05ba8b445a183093e9a359520dc055557dda2ba91429b5f",
@@ -362,7 +361,7 @@
     "wuwa": "086e40d6633ee4271bca3fd527d6b49ef0e45731be038801f1bdbff7ab5fdc75",
     "wuwa-estate": "e8e529dba2593bc96991e0aae08f9ffc3f6109048a27862dcf0884b3cb5ba0a5",
     "wyspa-piasek": "bb7abc81782608a667e093bfad482c0fbcf68d7e48bbadf8ab7e125da2cda9ab",
-    "zamek-topacz": "6d69133d120632fb83d0e2cf37f01e9a70dad5e0ace82edf4ba96c2c11c68d98",
+    "zamek-topacz": "69eca3dc99f98275b62a216ff22db26766372a977677e3937d7422b420107d93",
     "zenka": "eed8a3a01e27d47e8aad0df6805abf2cd0e200fa94b1c73750bfb210d208077d",
     "zoo-wroclaw": "b84a8fb51d1d380c79964e8891404caba7c9b81879f798071da66fbace207aea",
     "zyjnia-bwa-wroclaw": "3f49cd284eb3007a3081bc60139665fb9a55d3fa35232a251b912cadb9585361"
@@ -438,5 +437,6 @@
     "/assets/gallery-renoma-03.jpg",
     "/assets/gallery-renoma-04.jpg",
     "/assets/gallery-renoma-05.jpg"
-  ]
+  ],
+  "newsBaseSHA": "d8b082420e911caa1fbb68c6d8ba98fa89cd67cc"
 }

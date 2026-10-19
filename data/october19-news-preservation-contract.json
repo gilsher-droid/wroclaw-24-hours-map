@@ -1,0 +1,220 @@
+{
+  "mainSHA": "d8b082420e911caa1fbb68c6d8ba98fa89cd67cc",
+  "files": {
+    "data/now-in-wroclaw.js": "499a4828d7c954f2376ac33bde796de6fa54ecb2e85abe9d4cb5c5675675ec86",
+    "news/2026-10-19.html": "35ba30d22682dd4d5a89dada483f5af07b0a9538a5580a8dcf63ad4c345dd6f9",
+    "news/2026-10-19-en.html": "9f2ab60c4be22528ff092d187687ee18a0a47a4c7f63b54e350702b691ccfaea",
+    "news/2026-10-19-pl.html": "d15c4124d26697d70f7d46790098caadcdf527104d1f2b81f4d7fc79a126d067",
+    "news/2026-10-19-de.html": "6a05841215ccc2693b9ac3bd9fa51689cdcbde4cffa97154fca66b17ca0e021b",
+    "news/2026-10-19-cs.html": "28dd5b7df578ada7bea734f0fadce52fcc82884b7551f4c5b2bfdc74250d466f"
+  },
+  "topacz": {
+    "id": "zamek-topacz",
+    "localName": "Zamek Topacz Resort & Art SPA",
+    "name": {
+      "he": "טירת טופץ׳",
+      "en": "Zamek Topacz",
+      "pl": "Zamek Topacz",
+      "de": "Schloss Topacz",
+      "cs": "Zámek Topacz"
+    },
+    "description": {
+      "he": "מתחם טירה היסטורי בשלנזה, עם מלון, מסעדות ומוזיאון מוטורי. פעילות האורות היא אירוע עונתי נפרד; בדקו כניסה וכרטיסים אצל המפעיל.",
+      "en": "Historic castle resort in Ślęza with a hotel, dining and a motor museum. The light park is a separate seasonal event; check entry and tickets with the operator.",
+      "pl": "Zabytkowy kompleks zamkowy w Ślęzie z hotelem, restauracjami i muzeum motoryzacji. Park iluminacji jest osobnym wydarzeniem sezonowym; sprawdź wejścia i bilety u organizatora.",
+      "de": "Historische Schlossanlage in Ślęza mit Hotel, Restaurants und Automobilmuseum. Der Lichterpark ist eine gesonderte Saisonveranstaltung; Einlass und Tickets beim Betreiber prüfen.",
+      "cs": "Historický zámecký areál ve Ślęze s hotelem, restauracemi a muzeem automobilů. Světelný park je samostatná sezonní akce; ověřte vstup a vstupenky u pořadatele."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "sleza",
+      "coordinates": {
+        "lat": 51.0359459,
+        "lng": 16.9891338
+      },
+      "address": {
+        "street": "Templariuszy 1",
+        "postalCode": "55-040",
+        "city": "Ślęza",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "castle",
+      "hotel",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Topacz Castle",
+      "Zamek Topacz"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "castle",
+        "hotel",
+        "museum"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.zamektopacz.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.0359459%2C16.9891338",
+        "appleMaps": "https://maps.apple.com/?ll=51.0359459,16.9891338"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "experiences": [
+      {
+        "id": "lumina-park-2026-10",
+        "type": "seasonal-event",
+        "name": {
+          "he": "עונת האורות בטירת טופץ׳ כבר פועלת",
+          "en": "Lumina Park at Zamek Topacz: the season is underway",
+          "pl": "Lumina Park w Zamku Topacz: sezon już trwa",
+          "de": "Lumina Park am Schloss Topacz: die Saison läuft",
+          "cs": "Lumina Park na zámku Topacz: sezona už probíhá"
+        },
+        "startDate": "2026-10-16",
+        "endDate": "2027-02-14",
+        "status": "confirmed",
+        "sourceUrl": "https://luminapark.pl/wroclaw/",
+        "verifiedAt": "2026-10-19",
+        "description": {
+          "he": "Lumina Park · Zamek Topacz\nעדכון לידיעה הקודמת: עונת 2026/27 החלה ב־16 באוקטובר ומתוכננת עד 14 בפברואר. עד 24 באוקטובר שעות הביקור הן 17:30 עד 21:00 בימי רביעי עד ראשון; כניסה אחרונה ב־20:00. סגור בשני ושלישי. רכב מגיע דרך רחוב טוליפנובה; הולכי רגל דרך השער הראשי ברחוב טמפלריושי 1. בדקו אצל המפעיל שינויים ושעות להמשך העונה.",
+          "en": "Update to last week's announcement: the 2026/27 season began on 16 October and is scheduled to run until 14 February. Until 24 October, visits are Wednesday to Sunday, 17:30 to 21:00, with last entry at 20:00. Closed Monday and Tuesday. Cars approach via Tulipanowa; pedestrians use the main gate at Templariuszy 1. Check the operator's changing seasonal hours before travelling.",
+          "pl": "Aktualizacja zeszłotygodniowej zapowiedzi: sezon 2026/27 rozpoczął się 16 października i potrwa planowo do 14 lutego. Do 24 października park działa od środy do niedzieli, 17:30 do 21:00, ostatnie wejście o 20:00. W poniedziałki i wtorki jest zamknięty. Samochody dojeżdżają od Tulipanowej, piesi przez główną bramę przy Templariuszy 1. Przed wyjazdem sprawdź zmienne godziny sezonowe u organizatora.",
+          "de": "Aktualisierung der Vorwoche: Die Saison 2026/27 begann am 16. Oktober und ist bis 14. Februar geplant. Bis 24. Oktober ist Mittwoch bis Sonntag von 17:30 bis 21:00 Uhr geöffnet, letzter Einlass um 20:00 Uhr. Montag und Dienstag geschlossen. Autos fahren über die Tulipanowa, Fußgänger durch das Haupttor an der Templariuszy 1. Prüfen Sie vor der Anreise die wechselnden Saisonzeiten beim Betreiber.",
+          "cs": "Aktualizace oznámení z minulého týdne: sezona 2026/27 začala 16. října a je plánována do 14. února. Do 24. října je otevřeno od středy do neděle, 17:30 až 21:00, poslední vstup ve 20:00. V pondělí a úterý je zavřeno. Auta přijíždějí přes Tulipanowou, pěší hlavní branou u Templariuszy 1. Před cestou ověřte měnící se sezonní hodiny u provozovatele."
+        }
+      }
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.zamektopacz.pl/kontakt/skontaktuj-sie",
+          "checkedAt": "2026-10-12"
+        },
+        {
+          "type": "official",
+          "url": "https://luminapark.pl/wroclaw/",
+          "checkedAt": "2026-10-12"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://www.zamektopacz.pl/kontakt/skontaktuj-sie",
+        "method": "Operator GeoCoordinates in JSON-LD; resort location, not seasonal event entrance.",
+        "checkedAt": "2026-10-12"
+      },
+      "seasonalEntrance": {
+        "pedestrian": "https://maps.app.goo.gl/3PuTRCS3DwTJATzx6",
+        "note": "Lumina operator directs pedestrians via Templariuszy 1 and cars via Tulipanowa; use operator directions."
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": []
+  },
+  "fountainExperience": {
+    "id": "wroclaw-multimedia-fountain-show",
+    "type": "outdoor-show",
+    "categories": [
+      "music",
+      "light",
+      "water",
+      "performance"
+    ],
+    "name": {
+      "he": "מופע המזרקה המולטימדיאלית של ורוצלב",
+      "en": "Wrocław Multimedia Fountain show",
+      "pl": "Pokaz Wrocławskiej Fontanny Multimedialnej",
+      "de": "Show am Multimedia-Brunnen Wrocław",
+      "cs": "Představení Vratislavské multimediální fontány"
+    },
+    "description": {
+      "he": "המזרקה המולטימדיאלית ליד היכל המאה מתכננת ערב סיום עונה בשבת, 24 באוקטובר. שני מחזורים יתחילו ב־18:00 וב־20:00, כ־70 דקות כל אחד, והכניסה חופשית. זהו אירוע עתידי. לאחר סיום העונה אין להסתמך על שעות הקיץ; העונה הבאה מתוכננת לאביב 2027.",
+      "en": "The Multimedia Fountain beside Centennial Hall plans its season finale for Saturday 24 October. Two rounds start at 18:00 and 20:00, about 70 minutes each, with free admission. This is an upcoming event. Summer show times should not be used after the season ends; the next season is planned for spring 2027.",
+      "pl": "Fontanna Multimedialna przy Hali Stulecia planuje finał sezonu na sobotę 24 października. Dwie tury rozpoczną się o 18:00 i 20:00; każda potrwa około 70 minut. Wstęp wolny. To wydarzenie przyszłe. Po zakończeniu sezonu nie należy korzystać z letnich godzin pokazów; kolejny sezon jest planowany na wiosnę 2027.",
+      "de": "Der Multimedia-Brunnen an der Jahrhunderthalle plant sein Saisonfinale für Samstag, 24. Oktober. Zwei Durchgänge beginnen um 18:00 und 20:00 Uhr, jeweils etwa 70 Minuten. Der Eintritt ist frei. Die Veranstaltung steht noch bevor. Nach Saisonende gelten die Sommerzeiten nicht mehr; die nächste Saison ist für Frühjahr 2027 geplant.",
+      "cs": "Multimediální fontána u Haly století plánuje finále sezony na sobotu 24. října. Dva bloky začnou v 18:00 a 20:00, každý potrvá asi 70 minut. Vstup je zdarma. Jde o budoucí akci. Po skončení sezony neplatí letní časy představení; další sezona je plánována na jaro 2027."
+    },
+    "relatedCanonicalPlaceIds": [
+      "fountain"
+    ],
+    "productRefs": [
+      "wroclaw-four-days"
+    ],
+    "mapPoints": [],
+    "media": {
+      "hero": {
+        "canonicalPlaceId": "fountain",
+        "photoIndex": 0
+      },
+      "inheritFromCanonicalPlaceIds": [
+        "fountain"
+      ],
+      "inheritSocial": true
+    },
+    "social": [],
+    "metadata": {
+      "source": "wroclaw-four-days fountain stop",
+      "seasonal": true,
+      "seasonEndDate": "2026-10-24",
+      "verifiedAt": "2026-10-19",
+      "sourceUrl": "https://www.wroclaw.pl/dla-mieszkanca/fontanna-multimedialna-wroclaw-noc-pokazow-zakonczenie-sezonu-harmonogram",
+      "finale": {
+        "status": "announced",
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-24",
+        "times": [
+          "18:00",
+          "20:00"
+        ],
+        "durationMinutes": 70,
+        "admission": "free"
+      }
+    }
+  }
+}
