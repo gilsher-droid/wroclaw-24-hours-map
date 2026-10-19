@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "pergola"
+  ],
+  "aliases": [
+    "pergola-wroclawska"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5817.MOV",
+      "sourceSHA256": "aa3f41a87758c9c6323f86c978002aa0779ccd47799cdbf98e92f77f5c067133",
+      "uploadSHA256": "aa3f41a87758c9c6323f86c978002aa0779ccd47799cdbf98e92f77f5c067133",
+      "videoId": "78GzPBmtRo4",
+      "visibility": "Public",
+      "durationSeconds": 69.408333,
+      "uploadMethod": "Original MOV unchanged, full portrait picture and source audio, no cuts, speed changes or burned captions",
+      "savedPublicEvidence": "docs/pergola-guides/he-saved-public-details.txt",
+      "publicationEvidence": "docs/pergola-guides/he-publication-confirmation.txt",
+      "descriptionCorrection": "640 metres and 750 pillars based on official Centennial Hall source, while subtitles retain the numbers spoken in original recording"
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5804.MOV",
+      "sourceSHA256": "9cdd236a93adf1e5ddd3f04b9593085db78f28ffd781955caf413f5bdac30bce",
+      "uploadSHA256": "9cdd236a93adf1e5ddd3f04b9593085db78f28ffd781955caf413f5bdac30bce",
+      "videoId": "yP9iXmP47RQ",
+      "visibility": "Public",
+      "durationSeconds": 59.775,
+      "uploadMethod": "Original MOV unchanged, full portrait picture and source audio, no cuts, speed changes or burned captions",
+      "savedPublicEvidence": "docs/pergola-guides/en-saved-public-details.txt",
+      "publicationEvidence": "docs/pergola-guides/en-publication-confirmation.txt",
+      "descriptionCorrection": "640 metres and 750 pillars based on official Centennial Hall source, while subtitles retain the numbers spoken in original recording"
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "captions/pergola/he.srt",
+      "srtSHA256": "f0dc32a58803c8d18f0054e472cca490622ba316f6bce4d3129d0627f9b64602",
+      "cues": [
+        {
+          "start": 1.8,
+          "end": 4.04,
+          "text": "Cześć! Dzień dobry!"
+        },
+        {
+          "start": 5.24,
+          "end": 8.36,
+          "text": "שלום לכולם. אנחנו בתחנה הבאה שלנו בטיול."
+        },
+        {
+          "start": 8.74,
+          "end": 13.4,
+          "text": "ואנחנו נמצאים באחד המבנים\nהמיוחדים והאהובים בעיר."
+        },
+        {
+          "start": 13.46,
+          "end": 16.2,
+          "text": "שם המקום הוא הפרגולה."
+        },
+        {
+          "start": 16.2,
+          "end": 20.84,
+          "text": "מדובר בעצם במסלול חצי מעגלי\nשמקיף את היכל המאה"
+        },
+        {
+          "start": 20.84,
+          "end": 26.22,
+          "text": "ואת מזרקת המולטימדיה\nשאני אדבר עליה בפוסטים אחרים."
+        },
+        {
+          "start": 26.22,
+          "end": 32.22,
+          "text": "מה שיפה בפרגולה זה שמדובר פה\nבמסלול של 640 מטר"
+        },
+        {
+          "start": 32.22,
+          "end": 35.22,
+          "text": "שיש בו 480 עמודים"
+        },
+        {
+          "start": 35.22,
+          "end": 40.34,
+          "text": "וצמחייה שצומחת על גבי העמודים\nוהפרגולה הזאת."
+        },
+        {
+          "start": 40.62,
+          "end": 43.96,
+          "text": "בכל עונה בשנה, קיץ, סתיו, חורף, אביב,"
+        },
+        {
+          "start": 44.36,
+          "end": 46.46,
+          "text": "הצבע של הפרגולה משתנה."
+        },
+        {
+          "start": 47.0,
+          "end": 50.44,
+          "text": "למשל אנחנו עכשיו בין הקיץ לסתיו"
+        },
+        {
+          "start": 50.44,
+          "end": 55.44,
+          "text": "וניתן לראות שהירוק הזה\nלאט לאט יהפוך לכתום."
+        },
+        {
+          "start": 55.84,
+          "end": 59.68,
+          "text": "אני ממליץ לכולם לבוא לפרגולה"
+        },
+        {
+          "start": 59.68,
+          "end": 65.54,
+          "text": "וליהנות מהשלווה שהיא משדרת."
+        },
+        {
+          "start": 66.22,
+          "end": 69.3,
+          "text": "Do widzenia!\nלהתראות בתחנה הבאה."
+        }
+      ],
+      "verifiedAt": "2026-10-19",
+      "method": "Native Studio manual source/translated tracks, Published success and reopened server editor text/timing verified",
+      "reopenedEvidence": "docs/pergola-guides/he-source-reopened.txt"
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "captions/pergola/en.srt",
+      "srtSHA256": "36dd3dc7d103264889f5a4246a1a2623eaafdbc44397f27a5eaa36f165ac7d4e",
+      "cues": [
+        {
+          "start": 2.06,
+          "end": 3.82,
+          "text": "Cześć! Dzień dobry!"
+        },
+        {
+          "start": 4.08,
+          "end": 8.96,
+          "text": "So now we are on our next stop on our tour."
+        },
+        {
+          "start": 9.78,
+          "end": 11.74,
+          "text": "This structure is called the Pergola."
+        },
+        {
+          "start": 12.22,
+          "end": 17.06,
+          "text": "It is circling the three-dimensional fountain\nand the Hall of the Century."
+        },
+        {
+          "start": 18.12,
+          "end": 23.16,
+          "text": "It is one of the city's most relaxing\nand calming places."
+        },
+        {
+          "start": 23.74,
+          "end": 27.38,
+          "text": "This is a 600 meters pathway"
+        },
+        {
+          "start": 27.38,
+          "end": 31.36,
+          "text": "between 480 pillars"
+        },
+        {
+          "start": 31.36,
+          "end": 36.46,
+          "text": "that is covered with amazing plantations."
+        },
+        {
+          "start": 36.54,
+          "end": 41.1,
+          "text": "In every season the colors of this Pergola\nis very different."
+        },
+        {
+          "start": 41.82,
+          "end": 47.84,
+          "text": "In the autumn it moves between being green\nto soon being orange"
+        },
+        {
+          "start": 47.84,
+          "end": 51.3,
+          "text": "and so on and so forth\nin every season of the year."
+        },
+        {
+          "start": 51.82,
+          "end": 56.42,
+          "text": "I recommend coming here and enjoying\nthe relaxation of the Pergola."
+        },
+        {
+          "start": 56.84,
+          "end": 59.75,
+          "text": "See you on our next stop.\nDo widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-19",
+      "method": "Native Studio manual source/translated tracks, Published success and reopened server editor text/timing verified",
+      "reopenedEvidence": "docs/pergola-guides/en-source-reopened.txt"
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "captions/pergola/pl.srt",
+      "srtSHA256": "1c145c0f8aa739dd7e2b141479e77d20eb43b06e6550878ca2022ee61a6b363a",
+      "cues": [
+        {
+          "start": 2.06,
+          "end": 3.82,
+          "text": "Cześć! Dzień dobry!"
+        },
+        {
+          "start": 4.08,
+          "end": 8.96,
+          "text": "Jesteśmy teraz na kolejnym przystanku naszej wycieczki."
+        },
+        {
+          "start": 9.78,
+          "end": 11.74,
+          "text": "Ta konstrukcja nazywa się Pergola."
+        },
+        {
+          "start": 12.22,
+          "end": 17.06,
+          "text": "Otacza trójwymiarową fontannę\ni Halę Stulecia."
+        },
+        {
+          "start": 18.12,
+          "end": 23.16,
+          "text": "To jedno z najbardziej odprężających\ni spokojnych miejsc w mieście."
+        },
+        {
+          "start": 23.74,
+          "end": 27.38,
+          "text": "To ścieżka o długości 600 metrów"
+        },
+        {
+          "start": 27.38,
+          "end": 31.36,
+          "text": "między 480 kolumnami,"
+        },
+        {
+          "start": 31.36,
+          "end": 36.46,
+          "text": "pokryta wspaniałą roślinnością."
+        },
+        {
+          "start": 36.54,
+          "end": 41.1,
+          "text": "W każdej porze roku kolory Pergoli\nsą zupełnie inne."
+        },
+        {
+          "start": 41.82,
+          "end": 47.84,
+          "text": "Jesienią zieleń\nwkrótce przechodzi w pomarańcz,"
+        },
+        {
+          "start": 47.84,
+          "end": 51.3,
+          "text": "i tak dalej,\nw każdej porze roku."
+        },
+        {
+          "start": 51.82,
+          "end": 56.42,
+          "text": "Polecam tu przyjść\ni cieszyć się spokojem Pergoli."
+        },
+        {
+          "start": 56.84,
+          "end": 59.75,
+          "text": "Do zobaczenia na kolejnym przystanku.\nDo widzenia!"
+        }
+      ],
+      "verifiedAt": "2026-10-19",
+      "method": "Native Studio manual source/translated tracks, Published success and reopened server editor text/timing verified",
+      "reopenedEvidence": "docs/pergola-guides/pl-caption-reopened.txt"
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "captions/pergola/de.srt",
+      "srtSHA256": "f9f768999795cacd77b5118f1efba74c4aae0236bdd4d08d5d592c082aeb5ed6",
+      "cues": [
+        {
+          "start": 2.06,
+          "end": 3.82,
+          "text": "Hallo! Guten Tag!"
+        },
+        {
+          "start": 4.08,
+          "end": 8.96,
+          "text": "Jetzt sind wir am nächsten Halt unserer Tour."
+        },
+        {
+          "start": 9.78,
+          "end": 11.74,
+          "text": "Dieses Bauwerk heißt Pergola."
+        },
+        {
+          "start": 12.22,
+          "end": 17.06,
+          "text": "Es umgibt den dreidimensionalen Brunnen\nund die Jahrhunderthalle."
+        },
+        {
+          "start": 18.12,
+          "end": 23.16,
+          "text": "Es ist einer der entspannendsten\nund ruhigsten Orte der Stadt."
+        },
+        {
+          "start": 23.74,
+          "end": 27.38,
+          "text": "Dies ist ein 600 Meter langer Weg"
+        },
+        {
+          "start": 27.38,
+          "end": 31.36,
+          "text": "zwischen 480 Säulen,"
+        },
+        {
+          "start": 31.36,
+          "end": 36.46,
+          "text": "der mit wunderbaren Pflanzen bewachsen ist."
+        },
+        {
+          "start": 36.54,
+          "end": 41.1,
+          "text": "Zu jeder Jahreszeit sind die Farben\nder Pergola ganz unterschiedlich."
+        },
+        {
+          "start": 41.82,
+          "end": 47.84,
+          "text": "Im Herbst geht das Grün\nbald in Orange über,"
+        },
+        {
+          "start": 47.84,
+          "end": 51.3,
+          "text": "und so weiter,\nzu jeder Jahreszeit."
+        },
+        {
+          "start": 51.82,
+          "end": 56.42,
+          "text": "Ich empfehle, hierherzukommen\nund die Ruhe der Pergola zu genießen."
+        },
+        {
+          "start": 56.84,
+          "end": 59.75,
+          "text": "Bis zu unserem nächsten Halt.\nAuf Wiedersehen!"
+        }
+      ],
+      "verifiedAt": "2026-10-19",
+      "method": "Native Studio manual source/translated tracks, Published success and reopened server editor text/timing verified",
+      "reopenedEvidence": "docs/pergola-guides/de-caption-reopened.txt"
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "captions/pergola/cs.srt",
+      "srtSHA256": "afa2fe51063e847e4c897d68ff2c4550647185eb29c192875d1715f5dfed0666",
+      "cues": [
+        {
+          "start": 2.06,
+          "end": 3.82,
+          "text": "Ahoj! Dobrý den!"
+        },
+        {
+          "start": 4.08,
+          "end": 8.96,
+          "text": "Teď jsme na další zastávce naší prohlídky."
+        },
+        {
+          "start": 9.78,
+          "end": 11.74,
+          "text": "Tato stavba se jmenuje Pergola."
+        },
+        {
+          "start": 12.22,
+          "end": 17.06,
+          "text": "Obklopuje trojrozměrnou fontánu\na Halu století."
+        },
+        {
+          "start": 18.12,
+          "end": 23.16,
+          "text": "Je to jedno z nejpohodovějších\na nejklidnějších míst ve městě."
+        },
+        {
+          "start": 23.74,
+          "end": 27.38,
+          "text": "Je to cesta dlouhá 600 metrů"
+        },
+        {
+          "start": 27.38,
+          "end": 31.36,
+          "text": "mezi 480 sloupy,"
+        },
+        {
+          "start": 31.36,
+          "end": 36.46,
+          "text": "pokrytá nádhernou vegetací."
+        },
+        {
+          "start": 36.54,
+          "end": 41.1,
+          "text": "V každém ročním období\njsou barvy Pergoly úplně jiné."
+        },
+        {
+          "start": 41.82,
+          "end": 47.84,
+          "text": "Na podzim přechází zelená\nbrzy v oranžovou"
+        },
+        {
+          "start": 47.84,
+          "end": 51.3,
+          "text": "a tak dále\nv každém ročním období."
+        },
+        {
+          "start": 51.82,
+          "end": 56.42,
+          "text": "Doporučuji sem přijít\na užít si klid Pergoly."
+        },
+        {
+          "start": 56.84,
+          "end": 59.75,
+          "text": "Uvidíme se na další zastávce.\nNa shledanou!"
+        }
+      ],
+      "verifiedAt": "2026-10-19",
+      "method": "Native Studio manual source/translated tracks, Published success and reopened server editor text/timing verified",
+      "reopenedEvidence": "docs/pergola-guides/cs-caption-reopened.txt"
+    }
+  },
+  "transcription": "Local small and medium source-audio ASR word timestamps, Polish greeting cross-checks, manual proper-name corrections and faithful translations. No invented narration. Factual numerical correction disclosed in video descriptions.",
+  "bloopersExcluded": true,
+  "originalsPreserved": true,
+  "termsApproval": {
+    "date": "2026-10-19",
+    "userWords": "מאשר את התנאים והעלאת שתי ההדרכות",
+    "questionCall": "call_b3ecb31007a74421ac5ead5934388750",
+    "questionItem": 0,
+    "scope": "Displayed YouTube Terms and Community Guidelines; original Hebrew69.41s and English59.78s Pergola guides Public, original picture/audio, captions and factual description corrections",
+    "source": "Direct user reply in root transcript, conveyed by manager"
+  },
+  "factsSource": "https://halastulecia.pl/zwiedzanie/pergola/",
+  "readyForIntegration": true,
+  "websiteIntegrationStatus": "canonical guides connected; deployment/live verification pending"
+}

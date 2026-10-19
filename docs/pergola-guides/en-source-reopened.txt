@@ -1,0 +1,264 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Wrocław Pergola | Our complete guide | WROC-LOVE"'
+  - generic: 1:00
+  - generic: Your video
+  - generic: Wrocław Pergola | Our complete guide | WROC-LOVE
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: English"':
+    - 'heading "Video language: English" [level=2]'
+    - button "Details":
+    - generic: English subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup
+- generic "English subtitles":
+  - dialog "English subtitles" [active]:
+    - generic: English
+    - region "Dialogue controls":
+      - heading "Dialogue controls" [level=2]
+      - button "Send feedback":
+      - button "Save draft":
+        - generic: Save draft
+      - status: Save draft button enabled
+      - button "Publish":
+        - generic: Publish
+      - status: Publish button enabled
+      - button "Close":
+    - region "Edit timings":
+      - heading "Edit timings" [level=2]
+      - button "Subtitle":
+        - generic: Subtitle
+      - button "Edit as text":
+        - generic: Edit as text
+      - button "Options":
+      - list "Timings":
+        - listitem "Text with timing":
+          - button "Add caption line":
+          - textbox "Subtitle": Cześć! Dzień dobry!
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - button "Remove caption line":
+          - generic "2 seconds 0 frames":
+            - generic: 02:00
+            - textbox "2 seconds 0 frames"
+          - generic "3 seconds 23 frames":
+            - generic: 03:23
+            - textbox "3 seconds 23 frames"
+          - button "Add caption line" [disabled]:
+        - listitem "Text with timing":
+          - textbox "Subtitle": So now we are on our next stop on our tour.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "4 seconds 1 frame":
+            - generic: 04:01
+            - textbox "4 seconds 1 frame"
+          - generic "8 seconds 27 frames":
+            - generic: 08:27
+            - textbox "8 seconds 27 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": This structure is called the Pergola.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "9 seconds 22 frames":
+            - generic: 09:22
+            - textbox "9 seconds 22 frames"
+          - generic "11 seconds 21 frames":
+            - generic: 11:21
+            - textbox "11 seconds 21 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": It is circling the three-dimensional fountain and the Hall of the Century.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "12 seconds 5 frames":
+            - generic: 12:05
+            - textbox "12 seconds 5 frames"
+          - generic "17 seconds 0 frames":
+            - generic: 17:00
+            - textbox "17 seconds 0 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": It is one of the city's most relaxing and calming places.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "18 seconds 2 frames":
+            - generic: 18:02
+            - textbox "18 seconds 2 frames"
+          - generic "23 seconds 3 frames":
+            - generic: 23:03
+            - textbox "23 seconds 3 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": This is a 600 meters pathway
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "23 seconds 21 frames":
+            - generic: 23:21
+            - textbox "23 seconds 21 frames"
+          - generic "27 seconds 10 frames":
+            - generic: 27:10
+            - textbox "27 seconds 10 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": between 480 pillars
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "27 seconds 10 frames":
+            - generic: 27:10
+            - textbox "27 seconds 10 frames"
+          - generic "31 seconds 9 frames":
+            - generic: 31:09
+            - textbox "31 seconds 9 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": that is covered with amazing plantations.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "31 seconds 9 frames":
+            - generic: 31:09
+            - textbox "31 seconds 9 frames"
+          - generic "36 seconds 13 frames":
+            - generic: 36:13
+            - textbox "36 seconds 13 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": In every season the colors of this Pergola is very different.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "36 seconds 15 frames":
+            - generic: 36:15
+            - textbox "36 seconds 15 frames"
+          - generic "41 seconds 2 frames":
+            - generic: 41:02
+            - textbox "41 seconds 2 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": In the autumn it moves between being green to soon being orange
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "41 seconds 23 frames":
+            - generic: 41:23
+            - textbox "41 seconds 23 frames"
+          - generic "47 seconds 24 frames":
+            - generic: 47:24
+            - textbox "47 seconds 24 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": and so on and so forth in every season of the year.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "47 seconds 24 frames":
+            - generic: 47:24
+            - textbox "47 seconds 24 frames"
+          - generic "51 seconds 8 frames":
+            - generic: 51:08
+            - textbox "51 seconds 8 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": I recommend coming here and enjoying the relaxation of the Pergola.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "51 seconds 23 frames":
+            - generic: 51:23
+            - textbox "51 seconds 23 frames"
+          - generic "56 seconds 11 frames":
+            - generic: 56:11
+            - textbox "56 seconds 11 frames"
+    - heading "Subtitles preview" [level=2]
+    - region "Subtitles preview":
+      - region "Video player":
+        - generic "Wrocław Pergola | Our complete guide | WROC-LOVE"
+        - button "Play":
+        - button "Skip back 10 seconds":
+        - button "Skip forwards 10 seconds":
+        - button "Mute":
+        - slider "volume"
+        - generic: 0:00 / 1:00
+        - button "Settings":
+      - checkbox "Pause while typing"
+      - generic: Pause while typing
+      - button "View keyboard shortcuts":
+        - generic: View keyboard shortcuts
+    - heading "Subtitles timeline" [level=2]
+    - region "Subtitles timeline":
+      - generic "0 seconds 0 frames":
+        - generic: 00:00
+        - textbox "0 seconds 0 frames"
+      - button "Undo" [disabled]:
+        - generic: Undo
+      - button "Redo" [disabled]:
+        - generic: Redo
+      - button "Zoom out":
+      - slider "Zoom slider":
+        - progressbar
+      - button "Zoom in":
+      - generic "Timeline header"
+      - button "Find playhead":
+      - button "Find playhead":
+      - generic "Cześć! Dzień dobry!"
+      - generic: Cześć! Dzień dobry!
+      - generic "So now we are on our next stop on our tour."
+      - generic: So now we are on our next stop on our tour.
+      - generic "This structure is called the Pergola."
+      - generic: This structure is called the Pergola.
+      - generic "It is circling the three-dimensional fountain and the Hall of the Century."
+      - generic: It is circling the three-dimensional fountain and the Hall of the Century.
+      - generic: It is one of the city's most relaxing and calming places.
+      - generic: This is a 600 meters pathway
+      - generic: between 480 pillars
+      - generic: that is covered with amazing plantations.
+      - generic: In every season the colors of this Pergola is very different.
+      - generic: In the autumn it moves between being green to soon being orange
+      - generic: and so on and so forth in every season of the year.
+      - generic: I recommend coming here and enjoying the relaxation of the Pergola.
+      - generic: See you on our next stop. Do widzenia!
+      - generic "Audio waveform"
+      - generic "Start of timeline"
+      - generic "End of timeline"
+      - slider "Playhead"
+      - generic: 00:00

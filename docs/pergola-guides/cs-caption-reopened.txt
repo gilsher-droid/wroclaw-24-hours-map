@@ -1,0 +1,245 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Wrocław Pergola | Our complete guide | WROC-LOVE"'
+  - generic: 1:00
+  - generic: Your video
+  - generic: Wrocław Pergola | Our complete guide | WROC-LOVE
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: English"':
+    - 'heading "Video language: English" [level=2]'
+    - button "Details":
+    - generic: English subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - generic: 3 translations
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup:
+        - row "Czech":
+          - cell "Czech":
+            - button "Czech":
+              - generic: Czech
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "German":
+          - cell "German":
+            - button "German":
+              - generic: German
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Polish":
+          - cell "Polish":
+            - button "Polish":
+              - generic: Polish
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+- generic "Czech subtitles":
+  - dialog "Czech subtitles" [active]:
+    - generic: Czech
+    - region "Dialogue controls":
+      - heading "Dialogue controls" [level=2]
+      - button "Send feedback":
+      - button "Save draft":
+        - generic: Save draft
+      - status: Save draft button enabled
+      - button "Publish":
+        - generic: Publish
+      - status: Publish button enabled
+      - button "Close":
+    - region "Edit timings":
+      - heading "Edit timings" [level=2]
+      - button "Subtitle":
+        - generic: Subtitle
+      - button "Edit as text" [disabled]:
+        - generic: Edit as text
+      - button "Options":
+      - list "Timings":
+        - listitem "Text with timing":
+          - textbox "Subtitle": Ahoj! Dobrý den!
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "2 seconds 0 frames":
+            - generic: 02:00
+            - textbox "2 seconds 0 frames"
+          - generic "3 seconds 23 frames":
+            - generic: 03:23
+            - textbox "3 seconds 23 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Teď jsme na další zastávce naší prohlídky.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "4 seconds 1 frame":
+            - generic: 04:01
+            - textbox "4 seconds 1 frame"
+          - generic "8 seconds 27 frames":
+            - generic: 08:27
+            - textbox "8 seconds 27 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Tato stavba se jmenuje Pergola.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "9 seconds 22 frames":
+            - generic: 09:22
+            - textbox "9 seconds 22 frames"
+          - generic "11 seconds 21 frames":
+            - generic: 11:21
+            - textbox "11 seconds 21 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Obklopuje trojrozměrnou fontánu a Halu století.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "12 seconds 5 frames":
+            - generic: 12:05
+            - textbox "12 seconds 5 frames"
+          - generic "17 seconds 0 frames":
+            - generic: 17:00
+            - textbox "17 seconds 0 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Je to jedno z nejpohodovějších a nejklidnějších míst ve městě.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "18 seconds 2 frames":
+            - generic: 18:02
+            - textbox "18 seconds 2 frames"
+          - generic "23 seconds 3 frames":
+            - generic: 23:03
+            - textbox "23 seconds 3 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Je to cesta dlouhá 600 metrů
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "23 seconds 21 frames":
+            - generic: 23:21
+            - textbox "23 seconds 21 frames"
+          - generic "27 seconds 10 frames":
+            - generic: 27:10
+            - textbox "27 seconds 10 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": mezi 480 sloupy,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "27 seconds 10 frames":
+            - generic: 27:10
+            - textbox "27 seconds 10 frames"
+          - generic "31 seconds 9 frames":
+            - generic: 31:09
+            - textbox "31 seconds 9 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": pokrytá nádhernou vegetací.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "31 seconds 9 frames":
+            - generic: 31:09
+            - textbox "31 seconds 9 frames"
+          - generic "36 seconds 13 frames":
+            - generic: 36:13
+            - textbox "36 seconds 13 frames"
+    - heading "Subtitles preview" [level=2]
+    - region "Subtitles preview":
+      - region "Video player":
+        - generic "Wrocław Pergola | Our complete guide | WROC-LOVE"
+        - button "Play":
+        - button "Skip back 10 seconds":
+        - button "Skip forwards 10 seconds":
+        - button "Mute":
+        - slider "volume"
+        - generic: 0:00 / 1:00
+        - button "Settings":
+      - checkbox "Pause while typing"
+      - generic: Pause while typing
+      - button "View keyboard shortcuts":
+        - generic: View keyboard shortcuts
+    - heading "Subtitles timeline" [level=2]
+    - region "Subtitles timeline":
+      - generic "0 seconds 0 frames":
+        - generic: 00:00
+        - textbox "0 seconds 0 frames"
+      - button "Undo" [disabled]:
+        - generic: Undo
+      - button "Redo" [disabled]:
+        - generic: Redo
+      - button "Zoom out":
+      - slider "Zoom slider":
+        - progressbar
+      - button "Zoom in":
+      - generic "Timeline header"
+      - button "Find playhead":
+      - button "Find playhead":
+      - generic "Audio waveform"
+      - generic "Start of timeline"
+      - generic "End of timeline"
+      - slider "Playhead"
+      - generic: 00:00

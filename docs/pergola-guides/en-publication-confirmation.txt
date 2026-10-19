@@ -1,0 +1,146 @@
+| Pergola approach | Visit clip 8 | WROC-LOVE"'
+          - generic: 0:04
+        - link "Wrocław Multimedia Fountain | Pergola approach | Visit clip 8 | WROC-LOVE":
+          - /url: /video/U7TyifQyg7k/edit
+          - generic: Wrocław Multimedia Fountain | Pergola approach | Visit clip 8 | WROC-LOVE
+        - generic: "Original footage from our visit to the Multimedia Fountain beside Centennial Hall in Wrocław. Explore the fountain and our travel guide inside the interactive maps: https://wroc-love.com/share/en/premium.html"
+      - cell "—":
+        - generic: —
+      - cell "Public":
+        - generic: Public
+      - cell "14 Oct 2026 Published":
+        - text: 14 Oct 2026
+        - generic: Published
+      - cell "2"
+      - cell "Video has 0 comments. Video comments page":
+        - link "Video has 0 comments. Video comments page":
+          - /url: /video/U7TyifQyg7k/comments
+          - text: "0"
+    - generic: "Rows per page:"
+    - generic "Menu for selecting the number of rows per page.":
+      - button "30":
+        - button "30":
+          - generic: "30"
+    - generic: 1–8 of 8
+    - button "Navigate to the first page" [disabled]:
+    - button "Navigate to the previous page" [disabled]:
+    - button "Navigate to the next page" [disabled]:
+    - button "Navigate to the last page" [disabled]:
+- dialog:
+  - button "Uploads complete" [expanded]:
+    - generic: Uploads complete
+    - button:
+  - button "Close":
+  - list:
+    - button "Edit video IMG_5817.MOV":
+      - button:
+      - generic: IMG_5817.MOV
+      - generic: 100% uploaded
+    - button "Edit video IMG_5804.MOV":
+      - button:
+      - generic: IMG_5804.MOV
+      - generic: 100% uploaded
+- dialog:
+  - generic: Wrocław Pergola | Our complete guide | WROC-LOVE
+  - button "Send Feedback":
+  - button "Save and close" [disabled]:
+  - tablist:
+    - tab "Details":
+      - generic: Details
+    - tab "Video elements":
+      - generic: Video elements
+    - tab "Initial check":
+      - generic: Initial check
+    - tab "Visibility" [selected]:
+      - generic: Visibility
+  - progressbar
+  - heading "Visibility" [level=1]
+  - generic: Choose when to publish and who can see your video
+  - paragraph: Save or publish
+  - paragraph:
+    - generic: Make your video public, unlisted or private
+  - radiogroup:
+    - radio "Private":
+      - generic: Private
+    - paragraph: Only you and people who you choose can watch your video
+    - radio "Unlisted":
+      - generic: Unlisted
+    - generic: Anyone with the video link can watch your video
+    - radio "Public" [checked]:
+      - generic: Public
+    - paragraph: Everyone can watch your video
+  - paragraph: Schedule
+  - paragraph:
+    - generic: Select a date to make your video public.
+  - button "Click to expand":
+  - heading "Before you publish, check the following:" [level=2]
+  - heading "Do children appear in this video?" [level=3]
+  - text: Make sure that you follow our policies to protect minors from harm, exploitation, bullying and violations of labour law.
+  - link "Learn more":
+    - /url: https://support.google.com/youtube/answer/2801999?hl=en-GB
+  - heading "Looking for overall content guidance?" [level=3]
+  - text: Our Community Guidelines can help you avoid trouble and ensure that YouTube remains a safe and vibrant community.
+  - link "Learn more":
+    - /url: https://www.youtube.com/yt/about/policies#community-guidelines
+  - status
+  - region "Video player":
+    - button "Play":
+    - button "Mute":
+    - slider "volume"
+    - generic: 0:00 / 1:00
+    - button "Full screen":
+  - generic: Wrocław Pergola | Our complete guide | WROC-LOVE
+  - generic: Video link
+  - link "https://youtube.com/shorts/yP9iXmP47RQ":
+    - /url: https://youtube.com/shorts/yP9iXmP47RQ
+  - button "Copy video link":
+  - generic "Video upload complete":
+  - generic "Video processing Processing complete":
+  - generic "Copyright check complete No issues found Community Guidelines":
+  - generic: Checks complete. No issues found.
+  - button "Back" [disabled]:
+    - generic: Back
+  - button "Publish" [disabled]:
+    - generic: Publish
+- generic "Video published":
+  - dialog "Video published" [active]:
+    - heading "Video published" [level=1]
+    - button "Close":
+    - 'img "Video thumbnail: Wrocław Pergola | Our complete guide | WROC-LOVE"'
+    - generic: 1:00
+    - generic: Wrocław Pergola | Our complete guide | WROC-LOVE
+    - generic: Published 19 Oct 2026
+    - heading "Share a link" [level=2]
+    - toolbar:
+      - button "WhatsApp":
+        - button "WhatsApp":
+          - generic: WhatsApp
+      - button "Facebook":
+        - button "Facebook":
+          - generic: Facebook
+      - button "X":
+        - button "X":
+          - generic: X
+      - button "Email":
+        - button "Email":
+          - generic: Email
+      - button "Reddit":
+        - button "Reddit":
+          - generic: Reddit
+      - button "Pinterest":
+        - button "Pinterest":
+          - generic: Pinterest
+      - button "LinkedIn":
+        - button "LinkedIn":
+          - generic: LinkedIn
+    - button "HORIZONTAL_LIST_NEXT_LABEL":
+    - generic: Video link
+    - link "https://youtube.com/shorts/yP9iXmP47RQ?feature=share":
+      - /url: https://youtube.com/shorts/yP9iXmP47RQ?feature=share
+    - button "Copy video link":
+    - heading "Promote this video" [level=2]
+    - generic: Promote video to increase views, subscribers or website visits.
+    - button "Promote":
+      - generic: Promote
+    - button "Close":
+      - generic: Close
