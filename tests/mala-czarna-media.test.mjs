@@ -18,12 +18,12 @@ test('Mała Czarna has one exact cafe point and verified photo/video media in fi
   assert.equal(media.gallery.length,5);
   assert.equal(new Set(media.gallery).size,5);
   assert.equal(place.links.socialProfileFallback,false);
-  assert.equal(window.WROC_CATALOG.getSocialPost(place,"facebook",lang),null);
-  assert.equal(window.WROC_CATALOG.getSocialPost(place,"instagram",lang),null);
+  assert.ok(window.WROC_CATALOG.getSocialPost(place,"facebook",lang)?.url.includes("permalink.php"));
+  assert.ok(window.WROC_CATALOG.getSocialPost(place,"instagram",lang)?.url.includes("/p/"));
   assert.equal(media.videos[0].src,'https://youtube.com/watch?v=xUGky_l826A');
   assert.equal(window.WROC_YOUTUBE_VIDEO_HOSTING['/assets/mala-czarna-visit-01.mp4'].status,'public');
   assert.notEqual(window.WROC_CATALOG.getPlace('czarna-magia').id,place.id);
-  assert.equal(place.socialPosts.length,0);
+  assert.equal(place.socialPosts.length,10);
   for (const photo of proof.photos) assert.equal(createHash('sha256').update(readFileSync(new URL(photo.asset.slice(1),root))).digest('hex'),photo.sha256);
  }
 });

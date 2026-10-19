@@ -109,6 +109,6 @@ test('Morskie Oko recommendation exposes reviewed canonical media and retains ex
  assert.equal(r.videos[6].src,'https://youtube.com/shorts/hhhjCRE9aUc');assert.equal(r.videos[7].src,'https://youtube.com/shorts/ZQRrQni1Z5M');
  assert.equal(r.videos[7].title.en,'Neighborhood surroundings near Morskie Oko');
  const item=w.PREMIUM_RECOMMENDATIONS.find(p=>p.id==='morskie-oko-wroclaw');assert.equal(JSON.stringify(item.coordinates),JSON.stringify([51.1232536,17.0828961]));assert.equal(r.gallery[0],p.media.photos[0]);assert.ok(r.videos.some(v=>v.src.includes('gN14-XYU8dM')));
- assert.equal(w.WROC_CATALOG.getSocialPost(p,'instagram','he'),null);
+ assert.equal(w.WROC_CATALOG.getSocialPost(p,'instagram','he')?.url,'https://www.instagram.com/wroclaw.lowersilesia.he/p/DesDBfXn4Fe/');
  const html=resourceRenderer('premium.js',w,'en')(w.PREMIUM_RECOMMENDATIONS.find(p=>p.id==='morskie-oko-wroclaw'));assert.ok(html.includes('gallery-resource'));assert.ok(html.includes('video-resource'));
 });
