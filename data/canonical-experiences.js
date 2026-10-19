@@ -141,6 +141,18 @@
     "language": "de",
     "url": "https://www.instagram.com/p/DeqyESNjuyI/",
     "verifiedAt": "2026-10-19T08:02:49.524Z"
+  },
+  {
+    "platform": "facebook",
+    "language": "cs",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02FohbQi6UfKJ6P7TKXMKr4Xu2dZ4bgUBySrzdiUHgKwQLNuHpzszLpyfwNarxd7LEl&id=61594716405964",
+    "verifiedAt": "2026-10-19T08:07:09.292Z"
+  },
+  {
+    "platform": "instagram",
+    "language": "cs",
+    "url": "https://www.instagram.com/p/DeqylUrDJLM/",
+    "verifiedAt": "2026-10-19T08:07:10.405Z"
   }
 ],
       "links": {

@@ -24,7 +24,7 @@ test('Refreshed galleries exclude wrongly associated and unapproved personal fra
  for(const id of ['math-tower','pan-tadeusz-museum','pedet','renoma','wroclavia','pasaz','pergola','rynek','town-hall','slodowa','dominikan','fashion-outlet','fc-caffe-kuznicza','stadion-olimpijski-wroclaw']){const p=catalog.getPlace(id);for(const lang of ['he','en','pl','de','cs'])assert.ok(p.description[lang]?.length>20,`${id}:${lang}`);for(const src of p.media.photos)assert.ok(existsSync(new URL(src.slice(1),root)),src);}
 });
 test('Approved social permalinks connect only to their canonical place or Nadodrze area',()=>{
- const links=json('data/october19-verified-social-connections.json');assert.equal(links.length,33);
+ const links=json('data/october19-verified-social-connections.json');assert.equal(links.length,41);
  const area=window.WROC_EXPERIENCE_CATALOG.getExperience('street-art-nadodrze-olbin');
  for(const row of links){if(row.mapPointId){assert.equal(row.mapPointId,'nadodrze');assert.ok(area.mapPoints.find(p=>p.id==='nadodrze').social.some(p=>p.url===row.url));assert.ok(!area.mapPoints.find(p=>p.id==='olbin').social?.some(p=>p.url===row.url));}else assert.equal(catalog.getSocialPost(catalog.getPlace(row.canonicalId),row.platform,row.language)?.url,row.url,row.key);}
  assert.equal(catalog.getSocialPost(catalog.getPlace('math-tower'),'facebook','he'),null);
@@ -35,4 +35,10 @@ test('October 19 news edition and canonical event updates survive enrichment',()
  for(const [file,hash] of Object.entries(news.files))assert.equal(createHash('sha256').update(readFileSync(new URL(file,root))).digest('hex'),hash,file);
  assert.equal(JSON.stringify(catalog.getPlace('zamek-topacz')),JSON.stringify(news.topacz));
  assert.equal(JSON.stringify(window.WROC_EXPERIENCE_CATALOG.getExperience('wroclaw-multimedia-fountain-show')),JSON.stringify(news.fountainExperience));
+});
+
+test('Olympic Stadium has one cultural card using its existing canonical identity',()=>{
+ const context={window,console};runInNewContext(readFileSync(new URL('data/cultural-places.js',root),'utf8'),context);
+ const stadium=window.WROC_CULTURAL_PLACES.filter(record=>record.canonicalPlaceId==='stadion-olimpijski-wroclaw');
+ assert.equal(stadium.length,1);assert.ok(stadium[0].categories.includes('architecture-design'));
 });
