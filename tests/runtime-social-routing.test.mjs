@@ -104,6 +104,7 @@ test('premium recommendations retain editorial text, hydrate canonical-only plac
 
 test('Morskie Oko recommendation exposes reviewed canonical media and retains exact identity',()=>{
  const w=routeFixture('en');const p=w.WROC_CATALOG.getPlace('morskie-oko-wroclaw');const r=w.WROC_LOCATION_MEDIA['morskie-oko-wroclaw'];
- assert.equal(r.gallery.length,28);assert.equal(r.videos.length,6);assert.equal(r.gallery[0],p.media.photos[0]);assert.ok(r.videos.some(v=>v.src.includes('gN14-XYU8dM')));
+ assert.equal(r.gallery.length,28);assert.equal(r.videos.length,6);
+ const item=w.PREMIUM_RECOMMENDATIONS.find(p=>p.id==='morskie-oko-wroclaw');assert.equal(JSON.stringify(item.coordinates),JSON.stringify([51.1232536,17.0828961]));assert.equal(r.gallery[0],p.media.photos[0]);assert.ok(r.videos.some(v=>v.src.includes('gN14-XYU8dM')));
  const html=resourceRenderer('premium.js',w,'en')(w.PREMIUM_RECOMMENDATIONS.find(p=>p.id==='morskie-oko-wroclaw'));assert.ok(html.includes('gallery-resource'));assert.ok(html.includes('video-resource'));
 });
