@@ -7,7 +7,7 @@
   const youtubeId = (url) => /^https:\/\/(?:www\.)?youtube\.com\/(?:shorts\/|watch\?v=)([A-Za-z0-9_-]{11})$/.exec(url || "")?.[1] || null;
   const escapeHtml = (value) => String(value || "").replace(/[&<>'"]/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
   const language = () => document.documentElement.lang || "he";
-  const sourceFor = (id,lang=language()) => window.WROC_CATALOG?.getPlace(id)?.media?.guideVideos?.[lang==="he"?"he":"en"] || null;
+  const sourceFor = (id,lang=language()) => (window.WROC_CATALOG?.getPlace(id)?.media?.guideVideos || window.WROC_EXPERIENCE_CATALOG?.getExperience(id)?.media?.guideVideos)?.[lang==="he"?"he":"en"] || null;
   const cueAt = (cues,time) => cues.find(([start,end])=>time>=start&&time<end)?.[2] || ["","",""];
   const embedUrlFor = (url,lang) => {
     const id=youtubeId(url);if(!id)return null;
