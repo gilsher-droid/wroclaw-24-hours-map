@@ -1,0 +1,587 @@
+{
+  "charlotte": {
+    "id": "charlotte",
+    "localName": "Charlotte",
+    "name": {
+      "he": "Charlotte",
+      "en": "Charlotte",
+      "pl": "Charlotte",
+      "de": "Charlotte",
+      "cs": "Charlotte"
+    },
+    "description": {
+      "he": "ארוחת בוקר, קפה ומאפים במיקום מרכזי.",
+      "en": "Breakfast, coffee and pastries in a central location.",
+      "pl": "Śniadanie, kawa i wypieki w centrum.",
+      "de": "Frühstück, Kaffee und Gebäck in zentraler Lage.",
+      "cs": "Snídaně, káva a pečivo v centru."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1084962,
+        "lng": 17.026063
+      }
+    },
+    "categories": [
+      "cafe",
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [
+      "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+    ],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "charlotte"
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "recommendation",
+        "sourceId": "charlotte"
+      },
+      {
+        "productId": "wroclaw-christmas",
+        "kind": "recommendation",
+        "sourceId": "charlotte"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "charlotte",
+        "lat": 51.1084962,
+        "lng": 17.026063
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "sourceId": "charlotte",
+        "lat": 51.10862,
+        "lng": 17.03121
+      },
+      {
+        "productId": "wroclaw-christmas",
+        "sourceId": "charlotte",
+        "lat": 51.10862,
+        "lng": 17.03121
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "cafe",
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04BDKiVWw3z3Jzh3YSjigDrtxmn11KPJeaHTb3nx3tPKr9qn52xbwpUZk8tN1ZAisl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0SiTZKfLKUYRfUsgTBSzVB5CJ6ogqVHaAkLhTmN4JN76bnYRiKp2pgu448MFPioEbl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:35:28.303461+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02fYHchaJ3KvBtA6MAMy1p9ysvyeXsnJTZzt2wuVYpNXqZe5aT6nTEDTE3TCAoUdHHl&id=61595207664875",
+        "verifiedAt": "2026-10-07T18:01:55.887896+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hLarBac5CFnyRgbkvgnAf4uub4HrbKn99WCBxTncZCDFEwJAzSZ5h9SocyaqboWLl&id=61595036942289",
+        "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Wwdrb7zZLqRuZHCUACtUKQhbVREA2a3WEqxcY63WW5XQLYLQFtJctdTv21GgUYQDl&id=61591964083308",
+        "verifiedAt": "2026-10-09T10:43:51.207Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeUIB5tj3lm/",
+        "verifiedAt": "2026-10-10T12:52:35.573Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUL7JfFl73/",
+        "verifiedAt": "2026-10-10T13:28:34.051Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeUizxDnbBc/",
+        "verifiedAt": "2026-10-10T16:48:08.163Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeUm9vTkasE/",
+        "verifiedAt": "2026-10-10T17:22:39.708Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtzRREccd/",
+        "verifiedAt": "2026-10-10T18:23:05.129Z"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
+      }
+    ],
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ]
+  },
+  "district": {
+    "id": "four-denominations-district",
+    "localName": "Dzielnica Czterech Wyznań",
+    "name": {
+      "he": "רובע ארבע הדתות",
+      "en": "Four Denominations District",
+      "pl": "Dzielnica Czterech Wyznań",
+      "de": "Viertel der vier Konfessionen",
+      "cs": "Čtvrť čtyř vyznání"
+    },
+    "description": {
+      "he": "אזור הליכה קטן בעיר העתיקה, שבו נפגשות ארבע קהילות דתיות: יהודית, קתולית, לותרנית ואורתודוקסית. בין מקומות התפילה משתרעים רחובות, חצרות ובתי קפה, לצד עקבות של חיי התרבות והקהילה של ורוצלב. פסל כוכב הלכת מבדולח מסמן כניסה סמלית לאזור. מומלץ לשלב שיטוט ברחובות עם ביקור נפרד בבית הכנסת החסידה הלבנה; אפשרות הכניסה למקומות התפילה תלויה בכל מוסד ובפעילותו. זהו רובע תרבותי, ולא יחידה מנהלית נפרדת.",
+      "en": "A compact walking area in the Old Town bringing together Jewish, Roman Catholic, Lutheran and Orthodox communities. Streets, courtyards and cafés connect places of worship with traces of Wrocław’s cultural and community life. The Crystal Planet sculpture marks a symbolic entrance. Combine an unhurried walk with a separate visit to the White Stork Synagogue; entry to each place of worship depends on its own arrangements and activities. This is a cultural quarter, not a separate administrative district.",
+      "pl": "Niewielki obszar spacerowy na Starym Mieście łączy wspólnoty żydowską, rzymskokatolicką, ewangelicko-augsburską i prawosławną. Ulice, podwórza i kawiarnie prowadzą między świątyniami oraz śladami życia kulturalnego i społecznego Wrocławia. Symboliczne wejście wyznacza rzeźba Kryształowa Planeta. Spacer warto połączyć z osobną wizytą w Synagodze pod Białym Bocianem; dostęp do poszczególnych świątyń zależy od ich własnych zasad i odbywających się nabożeństw. Jest to dzielnica w znaczeniu kulturowym, nie odrębna jednostka administracyjna.",
+      "de": "Ein kleines Spaziergebiet in der Altstadt verbindet jüdische, römisch-katholische, lutherische und orthodoxe Gemeinden. Straßen, Innenhöfe und Cafés führen zwischen Gotteshäusern und Spuren des kulturellen und gemeinschaftlichen Lebens Breslaus hindurch. Die Skulptur Kristallplanet markiert einen symbolischen Eingang. Ein ruhiger Rundgang lässt sich mit einem gesonderten Besuch der Synagoge zum Weißen Storch verbinden; der Zutritt zu den Gotteshäusern richtet sich nach den jeweiligen Regeln und Veranstaltungen. Es handelt sich um ein Kulturviertel, nicht um einen eigenständigen Verwaltungsbezirk.",
+      "cs": "Malá pěší oblast ve Starém Městě propojuje židovskou, římskokatolickou, luterskou a pravoslavnou komunitu. Mezi svatyněmi vedou ulice, dvory a kavárny se stopami kulturního a společenského života Vratislavi. Symbolický vstup označuje socha Křišťálová planeta. Klidnou procházku lze spojit se samostatnou návštěvou synagogy U Bílého čápa; vstup do jednotlivých svatyní závisí na jejich pravidlech a probíhajících obřadech. Jde o kulturní čtvrť, nikoli samostatnou správní jednotku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.10968,
+        "lng": 17.023753
+      },
+      "address": {
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "area",
+      "history"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "district-of-mutual-respect",
+      "dzielnica-czterech-swiatyn",
+      "dzielnica-czterech-wyznan",
+      "four-religions",
+      "four-temples"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "area",
+        "history"
+      ],
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.fundacja4wyznan.pl/n/dzielnica/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10968%2C17.023753",
+        "appleMaps": "https://maps.apple.com/?ll=51.10968,17.023753&q=Dzielnica%20Czterech%20Wyzna%C5%84"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-area-identity-and-original-visit-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://dolnyslask.travel/obiekt/dzielnica-czterech-wyznan",
+          "checkedAt": "2026-10-20",
+          "scope": "District identity, official district coordinate anchor, Crystal Planet symbolic entrance"
+        },
+        {
+          "type": "official",
+          "url": "https://www.fundacja4wyznan.pl/n/dzielnica/",
+          "checkedAt": "2026-10-20",
+          "scope": "Four faith communities and district streets"
+        }
+      ],
+      "mediaSource": "Original WROC-LOVE visit materials; data/district-synagogue-enrichment-provenance.json"
+    },
+    "media": {
+      "thumbnail": "/assets/four-denominations-district-crystal-planet.jpg",
+      "photos": [
+        "/assets/four-denominations-district-crystal-planet.jpg",
+        "/assets/four-denominations-district-street.jpg",
+        "/assets/four-denominations-district-wlodkowica-entrance.jpg",
+        "/assets/four-denominations-district-plaque.jpg",
+        "/assets/four-denominations-district-rotbaum-plaque.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=Eu84SKoKNZA",
+        "https://www.youtube.com/watch?v=o6qgx0B_sU0",
+        "https://www.youtube.com/watch?v=UOkQKcNFqBw"
+      ],
+      "metadata": {
+        "/assets/four-denominations-district-crystal-planet.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_1044.JPG",
+          "sourceSHA256": "f5ded5bb2f18c4d035e8d07fad65f279e764f747925f5377bb2c86e184bdcae9",
+          "assetSHA256": "c5c9e699c956430b03f3144467e22d679dc212f191c2e09e16dcb552a86efc88",
+          "familyForeground": false,
+          "alt": {
+            "he": "פסל כוכב הלכת מבדולח בכניסה הסמלית לרובע",
+            "en": "Crystal Planet sculpture at the symbolic district entrance",
+            "pl": "Kryształowa Planeta przy symbolicznym wejściu do dzielnicy",
+            "de": "Kristallplanet am symbolischen Eingang des Viertels",
+            "cs": "Křišťálová planeta u symbolického vstupu do čtvrti"
+          }
+        },
+        "/assets/four-denominations-district-street.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-07-13 at 19.56.02 (1).jpeg",
+          "sourceSHA256": "26891c678af3a4653702a1f8c99500ab44fe1b78cb010b75716ab4bfe1d54b39",
+          "assetSHA256": "bcadc7676862e9801aeaabd2af60a8ef81c9d472c319132eec309ff923cd44db",
+          "familyForeground": false,
+          "alt": {
+            "he": "רחוב אנטוני הקדוש ובתי הקפה ברובע",
+            "en": "Saint Anthony Street and district cafés",
+            "pl": "Ulica św. Antoniego i kawiarnie w dzielnicy",
+            "de": "Świętego-Antoniego-Straße und Cafés im Viertel",
+            "cs": "Ulice svatého Antonína a kavárny ve čtvrti"
+          }
+        },
+        "/assets/four-denominations-district-wlodkowica-entrance.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.48.01.jpeg",
+          "sourceSHA256": "f7fe3903df3c350d5e9dd5ffc98c2d3773c0bc1e1f9e7e1266b723bc193d2ad6",
+          "assetSHA256": "b154ae4b12fdeddaec607caa20a81950739f49d7b385e49ab4375123ac9a3257",
+          "familyForeground": false,
+          "alt": {
+            "he": "כניסה לבניין ברחוב ולודקוביצה לצד לוח ההנצחה",
+            "en": "Włodkowica doorway beside the memorial plaque",
+            "pl": "Wejście przy ulicy Włodkowica obok tablicy pamiątkowej",
+            "de": "Eingang an der Włodkowica-Straße neben der Gedenktafel",
+            "cs": "Vchod v ulici Włodkowica vedle pamětní desky"
+          }
+        },
+        "/assets/four-denominations-district-plaque.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_1043.JPG",
+          "sourceSHA256": "7e258188ebea1bb64b8c1d8f6314200be367053cf849cd68d14670d3a4ccde56",
+          "assetSHA256": "f9950a8b65457277d2a0595db7e58e728a6a9e2a141e0cc0e23dc864009fde9d",
+          "familyForeground": false,
+          "alt": {
+            "he": "לוח סמלי ארבע הדתות בריצוף הרובע",
+            "en": "Four faith symbols in the district paving",
+            "pl": "Symbole czterech wyznań w nawierzchni dzielnicy",
+            "de": "Symbole der vier Konfessionen im Straßenpflaster",
+            "cs": "Symboly čtyř vyznání v dlažbě čtvrti"
+          }
+        },
+        "/assets/four-denominations-district-rotbaum-plaque.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.48.00 (1).jpeg",
+          "sourceSHA256": "95e34d14e2b84ad364db27bdc4f6fd1b38c28767dbecc55fba286fd0c62d7c78",
+          "assetSHA256": "d933118b4ae5dc9fb2fde5e869c5b5e528ba489d1fb0ebf6e6cb6f21a0b41521",
+          "familyForeground": false,
+          "alt": {
+            "he": "לוח הנצחה ליעקב וליה רוטבאום",
+            "en": "Jakub and Lia Rotbaum memorial plaque",
+            "pl": "Tablica upamiętniająca Jakuba i Lię Rotbaumów",
+            "de": "Gedenktafel für Jakub und Lia Rotbaum",
+            "cs": "Pamětní deska Jakuba a Lii Rotbaumových"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "whiteStork": {
+    "id": "white-stork-synagogue-wroclaw",
+    "localName": "Synagoga Pod Białym Bocianem",
+    "name": {
+      "he": "בית הכנסת החסידה הלבנה",
+      "en": "White Stork Synagogue",
+      "pl": "Synagoga Pod Białym Bocianem",
+      "de": "Synagoge zum Weißen Storch",
+      "cs": "Synagoga U Bílého čápa"
+    },
+    "description": {
+      "he": "בית הכנסת החסידה הלבנה נחנך בשנת 1829 בחצר ברובע ארבע הדתות, ותוכנן בסגנון נאו־קלאסי בידי קרל פרדיננד לנגהנס. לאחר פגיעות והזנחה שוקם ונפתח מחדש בשנת 2010. המקום קשור לחיי הקהילה היהודית ולזיכרון יהודי העיר. תמונות הביקור שלנו מציגות את החצר ופרטים במבני הקהילה הסמוכים. יש לברר את אפשרות הכניסה ואת הסיורים עם הקהילה היהודית לפני הביקור.",
+      "en": "Opened in 1829, the White Stork Synagogue stands in a courtyard in the Four Denominations District. Carl Ferdinand Langhans designed its neoclassical building, restored and reopened in 2010 after damage and neglect. It is connected with Jewish community life and remembrance. Our visit photographs show the courtyard and details of the adjoining community buildings. Check visitor access and guided tours with the Jewish community before visiting.",
+      "pl": "Synagoga Pod Białym Bocianem, otwarta w 1829 roku, znajduje się na dziedzińcu w Dzielnicy Czterech Wyznań. Jej neoklasycystyczny budynek zaprojektował Carl Ferdinand Langhans. Po zniszczeniach i zaniedbaniach został odrestaurowany i ponownie otwarty w 2010 roku. Miejsce wiąże się z życiem gminy żydowskiej i pamięcią o dawnych mieszkańcach. Nasze zdjęcia pokazują dziedziniec oraz detale sąsiednich budynków gminy. Możliwość wejścia i zwiedzania należy potwierdzić w gminie żydowskiej.",
+      "de": "Die 1829 eröffnete Synagoge zum Weißen Storch liegt in einem Innenhof im Viertel der vier Konfessionen. Carl Ferdinand Langhans entwarf den neoklassizistischen Bau, der nach Beschädigungen und Vernachlässigung restauriert und 2010 wiedereröffnet wurde. Der Ort ist mit jüdischem Gemeindeleben und Erinnerung verbunden. Unsere Besuchsfotos zeigen den Hof und Details der angrenzenden Gemeindegebäude. Zugang und Führungen vorab bei der jüdischen Gemeinde erfragen.",
+      "cs": "Synagoga U Bílého čápa, otevřená roku 1829, stojí ve dvoře ve čtvrti čtyř vyznání. Její neoklasicistní budovu navrhl Carl Ferdinand Langhans. Po poškození a zanedbání byla obnovena a znovu otevřena v roce 2010. Místo je spojeno se životem židovské obce a připomínkou její historie. Naše fotografie zachycují dvůr a detaily sousedních obecních budov. Možnosti vstupu a prohlídek si předem ověřte u židovské obce."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.108468291071,
+        "lng": 17.025364605411
+      },
+      "address": {
+        "street": "Pawła Włodkowica 7",
+        "postalCode": "50-072",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "history",
+      "religion"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "synagoga-pod-bialym-bocianem",
+      "white-stork-synagogue"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "history",
+        "religion"
+      ],
+      "tags": [
+        "museums-history",
+        "architecture-design",
+        "jewish-heritage"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://fbk.org.pl/synagoga_pod_bialym_bocianem/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.108468291071%2C17.025364605411",
+        "appleMaps": "https://maps.apple.com/?ll=51.108468291071,17.025364605411&q=Synagoga%20Pod%20Bia%C5%82ym%20Bocianem"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-history-and-original-visit-photo-audit",
+      "factualSources": [
+        {
+          "url": "https://fbk.org.pl/synagoga_pod_bialym_bocianem/historia-synagogi/",
+          "checkedAt": "2026-10-20",
+          "scope": "1829,architect,2010restoration,religious-culturalcontext"
+        },
+        {
+          "url": "https://fbk.org.pl/synagoga_pod_bialym_bocianem/",
+          "checkedAt": "2026-10-20",
+          "scope": "Currentnotice:FBKnolongerhandlesvisits;contactJewishcommunity"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q481571",
+          "checkedAt": "2026-10-20",
+          "scope": "Coordinatecrosscheck"
+        },
+        {
+          "url": "https://zabytek.pl/pl/obiekty/wroclaw-synagoga-pod-bialym-bocianem",
+          "checkedAt": "2026-10-20",
+          "scope": "OfficialNationalHeritageInstitute identity,architecture,2010restoration andgeolocationviaGoogleMapsoutgoingdestination",
+          "coordinateEvidence": "https://www.google.com/maps/dir/?api=1&destination=51.108468291071%2C17.025364605411"
+        }
+      ],
+      "officialWebsiteAccess": "Community website returned502 throughwebreader and NordVPN threat-protection page in browser on2026-10-20; not bypassed. Use accessible official BenteKahan synagogue notice, which directs visitor enquiries to Jewishcommunity; no openinghours asserted.",
+      "addressNotes": "NIDpropertyaddressPawlaWlodkowica5a;Jewishcommunityvisitor/contactaddressWlodkowica7. Samecourtyardcomplex,notseparatesynagogue."
+    },
+    "media": {
+      "thumbnail": "/assets/white-stork/white-stork-01.jpg",
+      "photos": [
+        "/assets/white-stork/white-stork-01.jpg",
+        "/assets/white-stork/white-stork-02.jpg",
+        "/assets/white-stork/white-stork-03.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/white-stork/white-stork-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.48.01 (1).jpeg",
+          "sourceSHA256": "d1b258c837c9e35e305a16a3c8924a843b51c2697bb93b3116ee555eb07f8fdc",
+          "assetSHA256": "7a8875f7dd24e658167b455e3cc98bce1370e2866333180d2c5a812259174a42",
+          "alt": {
+            "he": "חצר בית הכנסת והמבנה הנאו־קלאסי ברקע",
+            "en": "Synagogue courtyard with its neoclassical building in the background",
+            "pl": "Dziedziniec synagogi z neoklasycystycznym budynkiem w tle",
+            "de": "Synagogenhof mit dem neoklassizistischen Gebäude im Hintergrund",
+            "cs": "Dvůr synagogy s neoklasicistní budovou v pozadí"
+          },
+          "familyForeground": false
+        },
+        "/assets/white-stork/white-stork-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.46.24.jpeg",
+          "sourceSHA256": "201f6f3dcb102370e8488d40e272ad5499245465194fad525e17624aae493a0d",
+          "assetSHA256": "89a057a72d1ca2739eae117b47af767577dd6860b476ec8ed2e6d1c418052d13",
+          "alt": {
+            "he": "חזית מבני הקהילה היהודית לצד בית הכנסת",
+            "en": "Jewish community buildings beside the synagogue",
+            "pl": "Budynki gminy żydowskiej przy synagodze",
+            "de": "Gebäude der jüdischen Gemeinde neben der Synagoge",
+            "cs": "Budovy židovské obce vedle synagogy"
+          },
+          "familyForeground": false
+        },
+        "/assets/white-stork/white-stork-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.56.02.jpeg",
+          "sourceSHA256": "bbdc78b7c81e53331aeae5d8496f442e30aa812a385472f1b885e106024c7040",
+          "assetSHA256": "d051775d9c9176b0971d652dc5815d08a1fa83b60a44b391f33edb6c0186e335",
+          "alt": {
+            "he": "חלונות צבעוניים במבני הקהילה שבחצר",
+            "en": "Coloured windows in the community buildings around the courtyard",
+            "pl": "Kolorowe okna w budynkach gminy wokół dziedzińca",
+            "de": "Farbige Fenster der Gemeindegebäude am Innenhof",
+            "cs": "Barevná okna obecních budov kolem dvora"
+          },
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  }
+}

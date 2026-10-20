@@ -393,6 +393,26 @@
       "provenance": "data/renoma-guide-caption-provenance.json",
       "evidence": "docs/renoma-guides",
       "reopenedVerification": true
+    },
+    {
+      "canonicalId": "four-denominations-district",
+      "videos": {
+        "he": "rSn6kJy3gQE",
+        "en": "oqziuQx8hLQ"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "status": "Published"
+      },
+      "verifiedAt": "2026-10-20",
+      "provenance": "data/four-denominations-guide-caption-provenance.json",
+      "reopenedVerification": true
     }
   ]
 }

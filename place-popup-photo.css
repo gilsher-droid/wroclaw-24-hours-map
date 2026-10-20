@@ -74,3 +74,7 @@
 .place-popup-photo[src*="/barbara-wroclaw-"] { object-fit:contain; background:#f4f0e8; }
 
 .place-popup-photo[src*="/bru-coffee-bakehouse-"] { object-fit:contain; background:#faf8f3; }
+
+// Charlotte and district full photo framing20261020
+.place-popup-photo[src*="/charlotte/"], .place-popup-photo[src*="/four-denominations-refresh/"] { object-fit:contain; background:#faf8f3; }
+article[data-place="charlotte"] p, article[data-canonical-place-id="charlotte"] p, .leaflet-popup-content:has(img[src*="/charlotte/"]) > span, .premium-popup:has(img[src*="/charlotte/"]) p { white-space:pre-line; }

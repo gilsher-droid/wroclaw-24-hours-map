@@ -6102,18 +6102,18 @@
     "id": "charlotte",
     "localName": "Charlotte",
     "name": {
-      "he": "Charlotte",
+      "he": "שרלוט",
       "en": "Charlotte",
       "pl": "Charlotte",
       "de": "Charlotte",
       "cs": "Charlotte"
     },
     "description": {
-      "he": "ארוחת בוקר, קפה ומאפים במיקום מרכזי.",
-      "en": "Breakfast, coffee and pastries in a central location.",
-      "pl": "Śniadanie, kawa i wypieki w centrum.",
-      "de": "Frühstück, Kaffee und Gebäck in zentraler Lage.",
-      "cs": "Snídaně, káva a pečivo v centru."
+      "he": "בית קפה וביסטרו בסגנון צרפתי במעבר פוקויהוף, ברובע ארבע הדתות. נכנסים דרך השער אל חצר עם שולחנות וחזיתות מעוטרות. בפנים נמצא שולחן משותף גדול, ולצד הקפה מוגשים לחמים, מאפים וארוחות בוקר. חומרי הביקור שלנו מציגים את החצר, שלט הכניסה ופנים בית הקפה.\nCharlotte\nPasaż Pokoyhof\nŚwiętego Antoniego 2/4, Wrocław",
+      "en": "A French-style café and bistro in Pasaż Pokoyhof in the Four Denominations District. Enter through the gate to a courtyard with tables and decorated façades. Inside is a large communal table, with bread, pastries, coffee and breakfast on offer. Our visit materials show the courtyard, entrance sign and café interior.\nŚwiętego Antoniego 2/4, Wrocław",
+      "pl": "Kawiarnia i bistro w stylu francuskim w Pasażu Pokoyhof w Dzielnicy Czterech Wyznań. Przez bramę wchodzi się na dziedziniec ze stolikami i ozdobnymi elewacjami. W środku znajduje się duży wspólny stół, a oferta obejmuje pieczywo, wypieki, kawę i śniadania. Nasze materiały z wizyty pokazują dziedziniec, szyld i wnętrze kawiarni.\nŚwiętego Antoniego 2/4, Wrocław",
+      "de": "Ein Café und Bistro im französischen Stil im Pasaż Pokoyhof im Viertel der vier Konfessionen. Durch das Tor gelangt man in einen Innenhof mit Tischen und verzierten Fassaden. Im Inneren steht ein großer Gemeinschaftstisch; angeboten werden Brot, Gebäck, Kaffee und Frühstück. Unsere Besuchsaufnahmen zeigen den Hof, das Eingangsschild und das Café von innen.\nŚwiętego Antoniego 2/4, Wrocław",
+      "cs": "Kavárna a bistro ve francouzském stylu v pasáži Pokoyhof ve čtvrti čtyř vyznání. Branou se vstupuje na dvůr se stolky a zdobenými fasádami. Uvnitř stojí velký společný stůl; v nabídce je chléb, pečivo, káva a snídaně. Naše záběry z návštěvy ukazují dvůr, vývěsní štít a interiér kavárny.\nŚwiętego Antoniego 2/4, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -6122,6 +6122,12 @@
       "coordinates": {
         "lat": 51.1084962,
         "lng": 17.026063
+      },
+      "address": {
+        "street": "Świętego Antoniego 2/4",
+        "city": "Wrocław",
+        "postalCode": "50-073",
+        "countryCode": "PL"
       }
     },
     "categories": [
@@ -6132,7 +6138,12 @@
     "sourceUrls": [
       "https://www.facebook.com/61591964083308/posts/122108686497398802/"
     ],
-    "aliases": [],
+    "aliases": [
+      "Charlotte",
+      "Charlotte Pasaż Pokoyhof",
+      "Charlotte chleb i wino",
+      "שרלוט"
+    ],
     "sourceRecords": [
       {
         "productId": "lifestyle-guide",
@@ -6202,15 +6213,164 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://bistrocharlotte.com/pl/lokale/charlotte-pasaz-pokoyhof-wroclaw/",
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1084962%2C17.026063",
+        "appleMaps": "https://maps.apple.com/?ll=51.1084962,17.026063"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-20",
+      "factualSources": [
+        {
+          "url": "https://bistrocharlotte.com/pl/lokale/charlotte-pasaz-pokoyhof-wroclaw/",
+          "scope": "Official venue confirms identity/address, courtyard, communal table and French bakery/bistro offer",
+          "verifiedAt": "2026-10-20"
+        }
+      ]
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/charlotte/charlotte-visit-01.jpg",
+      "photos": [
+        "/assets/charlotte/charlotte-visit-01.jpg",
+        "/assets/charlotte/charlotte-visit-02.jpg",
+        "/assets/charlotte/charlotte-visit-03.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/3QY6HJLV84o",
+        "https://youtube.com/shorts/kfjJo2GNuMY"
+      ],
+      "metadata": {
+        "/assets/charlotte/charlotte-visit-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-07-13 at 19.48.01 (3).jpeg",
+          "sourceSHA256": "774f4ff9166c8483f89dd5bf2697ff3b1d0be56c91e7b57f40550d8e5630a102",
+          "assetSHA256": "90f6029ca9aed3e631b145870ca3891134e537e85a3e9ef3ac1d982eab003eaf",
+          "familyForeground": false,
+          "alt": {
+            "he": "חצר שרלוט במעבר פוקויהוף",
+            "en": "Charlotte courtyard in Pasaż Pokoyhof",
+            "pl": "Dziedziniec Charlotte w Pasażu Pokoyhof",
+            "de": "Charlotte-Innenhof im Pasaż Pokoyhof",
+            "cs": "Dvůr Charlotte v pasáži Pokoyhof"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/charlotte/charlotte-visit-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-20 at 16.26.57.jpeg",
+          "sourceSHA256": "83720b689922ceee1f97e9267ae5e851d90c8c46c23ad7dc141b39c3e05a3c33",
+          "assetSHA256": "66c6d6e9c64c81f7f9adb9cd141cfa4ef8da64fa1fea58786c0e9ccc03f4fb82",
+          "familyForeground": false,
+          "alt": {
+            "he": "חזיתות החצר ושולחנות בית הקפה",
+            "en": "Courtyard façades and café tables",
+            "pl": "Elewacje dziedzińca i stoliki kawiarni",
+            "de": "Hoffassaden und Cafétische",
+            "cs": "Průčelí dvora a kavárenské stolky"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/charlotte/charlotte-visit-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-20 at 16.27.19 (1).jpeg",
+          "sourceSHA256": "eb30d026b79cde9f540ee7cf0e8baba0e0a4ad478d63b5e54c11685815f0140a",
+          "assetSHA256": "b73a58d92c733845598ddc491de3dd150f23d0ec751e68a5ad6f6b875de75fbc",
+          "familyForeground": false,
+          "alt": {
+            "he": "השלט העגול של שרלוט",
+            "en": "Round Charlotte entrance sign",
+            "pl": "Okrągły szyld Charlotte",
+            "de": "Rundes Charlotte-Eingangsschild",
+            "cs": "Kulatý vývěsní štít Charlotte"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "https://youtube.com/shorts/3QY6HJLV84o": {
+          "index": 1,
+          "id": "3QY6HJLV84o",
+          "url": "https://youtube.com/shorts/3QY6HJLV84o",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "copyright": "no-issues",
+          "communityGuidelines": "no-issues",
+          "standardDefinitionComplete": true,
+          "noNewUpload": "Existingdraftresumedandpublished; sourceuploadownedbyenrichmentagent",
+          "evidence": [
+            "charlotte-1-checks.txt",
+            "charlotte-1-published.txt",
+            "charlotte-1-published.png",
+            "charlotte-1-public-reopened.txt",
+            "charlotte-1-public-reopened.png"
+          ],
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Video 2026-10-05 at 18.27.18.mp4",
+          "sourceSHA256": "54cf80ed51f69044560145cb8f08a6a7d2be8ef88cc1d0d52daf78531d538f5e",
+          "durationSeconds": 5.5,
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/charlotte-enrichment-2026-10-20/prepared-visits/charlotte-visit-01.mp4",
+          "uploadSHA256": "3d783115ca25d1ffec1c6ec32986e8cee19dc2538ef8ac216862dfbe3f08f872",
+          "audioRemoved": true,
+          "originalSourcePreserved": true,
+          "youtubeTitle": null,
+          "title": {
+            "he": "פנים שרלוט והשולחן המשותף",
+            "en": "Charlotte interior and communal table",
+            "pl": "Wnętrze Charlotte i wspólny stół",
+            "de": "Charlotte-Innenraum und Gemeinschaftstisch",
+            "cs": "Interiér Charlotte a společný stůl"
+          }
+        },
+        "https://youtube.com/shorts/kfjJo2GNuMY": {
+          "index": 2,
+          "id": "kfjJo2GNuMY",
+          "url": "https://youtube.com/shorts/kfjJo2GNuMY",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "copyright": "no-issues",
+          "communityGuidelines": "no-issues",
+          "standardDefinitionComplete": true,
+          "noNewUpload": "Existingdraftresumedandpublished; sourceuploadownedbyenrichmentagent",
+          "evidence": [
+            "charlotte-2-checks.txt",
+            "charlotte-2-published.txt",
+            "charlotte-2-published.png",
+            "charlotte-2-public-reopened.txt",
+            "charlotte-2-public-reopened.png"
+          ],
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Video 2026-10-20 at 16.28.05.mp4",
+          "sourceSHA256": "4c6ff68d9833bc9fe6eccc91eb00439830ff4b0e1988914693bd596f3b8c9b1b",
+          "durationSeconds": 6.266667,
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/charlotte-enrichment-2026-10-20/prepared-visits/charlotte-visit-02.mp4",
+          "uploadSHA256": "4d28422b36f695f80c0b437bf1e8feb777acb504939b54b5da233eb22fe17602",
+          "audioRemoved": true,
+          "originalSourcePreserved": true,
+          "youtubeTitle": null,
+          "title": {
+            "he": "חצר מעבר פוקויהוף ושרלוט",
+            "en": "Pokoyhof courtyard and Charlotte",
+            "pl": "Dziedziniec Pokoyhof i Charlotte",
+            "de": "Pokoyhof-Innenhof und Charlotte",
+            "cs": "Dvůr Pokoyhof a Charlotte"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -6278,19 +6438,6 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "chatka": {
@@ -11016,13 +11163,38 @@
         "/assets/four-denominations-district-street.jpg",
         "/assets/four-denominations-district-wlodkowica-entrance.jpg",
         "/assets/four-denominations-district-plaque.jpg",
-        "/assets/four-denominations-district-rotbaum-plaque.jpg"
+        "/assets/four-denominations-district-rotbaum-plaque.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-01.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-02.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-03.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-04.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-05.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-06.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-07.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-08.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-09.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-10.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-11.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-12.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-13.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-14.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-15.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=Eu84SKoKNZA",
         "https://www.youtube.com/watch?v=o6qgx0B_sU0",
-        "https://www.youtube.com/watch?v=UOkQKcNFqBw"
+        "https://www.youtube.com/watch?v=UOkQKcNFqBw",
+        "https://youtube.com/shorts/ExcXaGEwCz0",
+        "https://youtube.com/shorts/ZKCrh7ZNZFU",
+        "https://youtube.com/shorts/FgmfsnmETco",
+        "https://youtube.com/shorts/maNHvOKVA_s",
+        "https://youtube.com/shorts/sZjy6-Xfj8I",
+        "https://youtube.com/shorts/hp5UfkhbhUc"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/rSn6kJy3gQE",
+        "en": "https://youtube.com/shorts/oqziuQx8hLQ"
+      },
       "metadata": {
         "/assets/four-denominations-district-crystal-planet.jpg": {
           "original": true,
@@ -11093,6 +11265,415 @@
             "de": "Gedenktafel für Jakub und Lia Rotbaum",
             "cs": "Pamětní deska Jakuba a Lii Rotbaumových"
           }
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.26.54.jpeg",
+          "sourceSHA256": "38acc7d15088674b078efb4f9927605088eb8d44614da25f5267a78c69492068",
+          "assetSHA256": "ca6e9dab66f46d7c1dcc5c6bbe75fa14b6b55faed97acc4e2d621a0254b8601d",
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט פנס וחיפוי במעבר פוקויהוף",
+            "en": "Lantern and tile detail in Pokoyhof",
+            "pl": "Detal latarni i okładziny w Pokoyhof",
+            "de": "Laternen- und Fliesendetail im Pokoyhof",
+            "cs": "Detail lucerny a obkladu v Pokoyhof"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.07 (1).jpeg",
+          "sourceSHA256": "9b95889d06a50324aa62191ebcb19c3e2178d831ac0ed4a3d9ef3ca77aafd419",
+          "assetSHA256": "41e17d06464d91b5bd17907033b55d844c88e68d80366f75514e314307268de2",
+          "familyForeground": false,
+          "alt": {
+            "he": "רחוב ברובע ארבע הדתות",
+            "en": "Street in the Four Denominations District",
+            "pl": "Ulica w Dzielnicy Czterech Wyznań",
+            "de": "Straße im Viertel der vier Konfessionen",
+            "cs": "Ulice ve čtvrti čtyř vyznání"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.07.jpeg",
+          "sourceSHA256": "5696da22d47f008ee04cd41f7353cf04373b90c9f63fcd2a7d559e6b46b69e4a",
+          "assetSHA256": "43c83c08a4baf52db69d09253869e4d4c7f570d11b85863145cbdf70c4b1000e",
+          "familyForeground": false,
+          "alt": {
+            "he": "פסיפס השם פוקויהוף מעל השער",
+            "en": "Pokoyhof name mosaic above the gate",
+            "pl": "Mozaikowy napis Pokoyhof nad bramą",
+            "de": "Pokoyhof-Mosaikschrift über dem Tor",
+            "cs": "Mozaikový nápis Pokoyhof nad branou"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.12.jpeg",
+          "sourceSHA256": "29c11d4f0edb058a7ee64e12d1c7e541c41156dc535538a124aeb6b7d4c0865f",
+          "assetSHA256": "4ec775a0950652daec81a6d0da6842ad293165de13aef1522c43ea52f9baa8b5",
+          "familyForeground": false,
+          "alt": {
+            "he": "חזית כנסיית אנטוניוס ברחוב",
+            "en": "St Anthony church façade on the street",
+            "pl": "Fasada kościoła św. Antoniego przy ulicy",
+            "de": "Fassade der Antoniuskirche an der Straße",
+            "cs": "Průčelí kostela svatého Antonína v ulici"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.13 (1).jpeg",
+          "sourceSHA256": "39b57f856917d6bab38964465d76e1ef84fc01b20584b494a89a91bec1551d90",
+          "assetSHA256": "abceabd94dffe9ee719aa6ede8b5260796b6eac946f4d55c0ba31565e6bd2e5b",
+          "familyForeground": false,
+          "alt": {
+            "he": "דלת מעוטרת בחזית בניין ברובע",
+            "en": "Decorated doorway in a district façade",
+            "pl": "Ozdobne drzwi w kamienicy dzielnicy",
+            "de": "Verzierte Tür in einer Viertelfassade",
+            "cs": "Zdobené dveře v průčelí čtvrti"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.13.jpeg",
+          "sourceSHA256": "82366bbbfd51f65b398f132d9cf7354baab0de46aa36c2f6814a230e0bb96390",
+          "assetSHA256": "02201eaf3ca332318a5a9dd2d34e2f97857805c7279fc597ae3a85bbe5957b58",
+          "familyForeground": false,
+          "alt": {
+            "he": "מעבר מקורה עם ציורי קיר",
+            "en": "Covered passage with wall paintings",
+            "pl": "Kryte przejście z malowidłami",
+            "de": "Überdachter Durchgang mit Wandmalerei",
+            "cs": "Krytý průchod s nástěnnými malbami"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.14 (1).jpeg",
+          "sourceSHA256": "6938b4c7ab93b552e693101f66bb57576cc393df40034fc6f6a47e532fa5d905",
+          "assetSHA256": "7027b427d768583d0935ee10d8bb02439d2171b109526bfd00abfaba4e3ef22d",
+          "familyForeground": false,
+          "alt": {
+            "he": "חזית בית ברחוב ברובע",
+            "en": "Building façade on a district street",
+            "pl": "Fasada kamienicy przy ulicy dzielnicy",
+            "de": "Hausfassade an einer Straße im Viertel",
+            "cs": "Průčelí domu v ulici čtvrti"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.14 (2).jpeg",
+          "sourceSHA256": "5792ad91ef5f7520ec212c103383ff66c3d437a1a13d9ed2808952e8570bcc22",
+          "assetSHA256": "741eb15b1b6f667bdf51c35e69c9f92f8c55e9f10b8ea40acd4afc5ccb76edd2",
+          "familyForeground": false,
+          "alt": {
+            "he": "כניסת בית קפה ברחוב ברובע",
+            "en": "Café entrance on a district street",
+            "pl": "Wejście do kawiarni w dzielnicy",
+            "de": "Caféeingang an einer Viertelstraße",
+            "cs": "Vstup do kavárny v ulici čtvrti"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.14.jpeg",
+          "sourceSHA256": "409aaa9ee67a322c75b04e483d287ef14681a33720542c44c4099eb4f3e3abf4",
+          "assetSHA256": "fa9238ff6b48a35fd8a7782767cd9fd94a8587fec15c2e18b5c4bb561c610d29",
+          "familyForeground": false,
+          "alt": {
+            "he": "רצף חזיתות היסטוריות ברחוב",
+            "en": "Historic façades along the street",
+            "pl": "Historyczne fasady wzdłuż ulicy",
+            "de": "Historische Fassaden entlang der Straße",
+            "cs": "Historická průčelí podél ulice"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.15 (1).jpeg",
+          "sourceSHA256": "72082f7f41b52d9dbd4dcb4732e2c50a0d00c810562a0d982f32c2a08c8dbb3c",
+          "assetSHA256": "de82bed4b933d5fec1a4a0c444135fd5865aeac409b3dab9b11ac58156b17ea3",
+          "familyForeground": false,
+          "alt": {
+            "he": "שולחנות בחצר מעבר ברובע",
+            "en": "Tables in a district passage courtyard",
+            "pl": "Stoliki na dziedzińcu pasażu w dzielnicy",
+            "de": "Tische im Hof einer Viertelpassage",
+            "cs": "Stolky na dvoře pasáže ve čtvrti"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-11.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.15.jpeg",
+          "sourceSHA256": "c3c69939534bbfc1651e680a34045cf6a96ac2acf0ac570dd697c47ca7bb30bf",
+          "assetSHA256": "d614c87fe4e76d5fb55ac6437aa3eef17acd727fd640e045e1b6410a7af9802c",
+          "familyForeground": false,
+          "alt": {
+            "he": "חזית כניסה צבעונית ברחוב",
+            "en": "Colourful entrance frontage on the street",
+            "pl": "Kolorowe wejście przy ulicy",
+            "de": "Bunter Eingangsbereich an der Straße",
+            "cs": "Barevné vstupní průčelí v ulici"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-12.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.19.jpeg",
+          "sourceSHA256": "a8fdf4b3513bb738cdff42af19607b8fa4905a3bcf5edd1eb43b41137ec6881a",
+          "assetSHA256": "0c92a97404acfdcbc05c9cfd51c13b0c325c366b14e6fb91d26520321c20747a",
+          "familyForeground": false,
+          "alt": {
+            "he": "חלון עגול ופרטי חזית ברובע",
+            "en": "Round window and façade details in the district",
+            "pl": "Okrągłe okno i detale fasady w dzielnicy",
+            "de": "Rundes Fenster und Fassadendetails im Viertel",
+            "cs": "Kulaté okno a detaily průčelí ve čtvrti"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-13.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.22.jpeg",
+          "sourceSHA256": "062132c9178036799427649c2338c5d659c7676a958738c6f9d47ac3658aece3",
+          "assetSHA256": "bdf00e01d5282c5797f5437a9993b74db9f1086965424546299507a600674bff",
+          "familyForeground": false,
+          "alt": {
+            "he": "לוח מידע על ההיסטוריה של רחוב אנטוניוס",
+            "en": "Interpretation plaque about St Anthony Street history",
+            "pl": "Tablica o historii ulicy św. Antoniego",
+            "de": "Informationstafel zur Geschichte der Antoniusstraße",
+            "cs": "Informační deska o historii ulice svatého Antonína"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-14.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.23 (1).jpeg",
+          "sourceSHA256": "61c325b3a0fe603a1ecbafdf6ab570cce0c218a0dabd586d972af1d1db4e01b7",
+          "assetSHA256": "1ebb4e51c80d24ef96e30b177804dcaebeb744cfbfc74724ed35fad207bf0418",
+          "familyForeground": false,
+          "alt": {
+            "he": "דגם רחוב אנטוניוס על לוח ההסבר",
+            "en": "St Anthony Street relief model on the interpretation plaque",
+            "pl": "Model ulicy św. Antoniego na tablicy",
+            "de": "Reliefmodell der Antoniusstraße auf der Tafel",
+            "cs": "Reliéfní model ulice svatého Antonína na desce"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-15.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.24.jpeg",
+          "sourceSHA256": "202162a80366399365354c8eff1c0daf8c75cb412af8fc69ec217cda67c3b08a",
+          "assetSHA256": "666849e538fb33d95bb1a9b24cc0994350825b27a8c0b9a1a51e879228a01fab",
+          "familyForeground": false,
+          "alt": {
+            "he": "חזית כנסייה ומגדל ברובע",
+            "en": "Church façade and tower in the district",
+            "pl": "Fasada kościoła i wieża w dzielnicy",
+            "de": "Kirchenfassade und Turm im Viertel",
+            "cs": "Průčelí kostela a věž ve čtvrti"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "https://youtube.com/shorts/ExcXaGEwCz0": {
+          "index": 1,
+          "title": {
+            "he": "פרט פנס ואריחים בחזית",
+            "en": "Lantern and tile façade detail",
+            "pl": "Latarnia i detale okładziny fasady",
+            "de": "Laterne und Fliesendetail der Fassade",
+            "cs": "Lucerna a detail obkladu průčelí"
+          },
+          "filename": "four-denominations-refresh-visit-01.mp4",
+          "id": "ExcXaGEwCz0",
+          "url": "https://youtube.com/shorts/ExcXaGEwCz0",
+          "state": "public-reopened-verified",
+          "durationSeconds": 5.033333,
+          "sourceSHA256": "cf2d3b41e8898eaa143f4b1d7772d9887035beb2770ff0a6ca8056e40cc092b5",
+          "uploadSHA256": "7df59e3df2b27c21bf35a6cc8124d19a4469e9b44cd6bee0d233fde3645c9216",
+          "checksComplete": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.10.mp4",
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/four-denominations-refresh-2026-10-20/prepared-visits/four-denominations-refresh-visit-01.mp4",
+          "originalSourcePreserved": true,
+          "audioRemoved": true,
+          "evidence": [
+            "visit-1-checks.txt",
+            "visit-1-published.txt",
+            "visit-1-public-reopened.txt",
+            "visit-1-public-reopened.png"
+          ],
+          "youtubeTitle": "Façade detail"
+        },
+        "https://youtube.com/shorts/ZKCrh7ZNZFU": {
+          "index": 2,
+          "title": {
+            "he": "שער הכניסה למעבר פוקויהוף",
+            "en": "Pokoyhof passage entrance",
+            "pl": "Wejście do Pasażu Pokoyhof",
+            "de": "Eingang zur Pokoyhof-Passage",
+            "cs": "Vstup do pasáže Pokoyhof"
+          },
+          "filename": "four-denominations-refresh-visit-02.mp4",
+          "id": "ZKCrh7ZNZFU",
+          "url": "https://youtube.com/shorts/ZKCrh7ZNZFU",
+          "state": "public-reopened-verified",
+          "durationSeconds": 4.4,
+          "sourceSHA256": "3792da87942a2a96334753319447a58b352dd7e35772c64114b32f8295163bb6",
+          "uploadSHA256": "ae1dfe314970904564d836c6d009a0a95608206141dcdb21aa589a3f87b48fa9",
+          "checksComplete": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.16.mp4",
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/four-denominations-refresh-2026-10-20/prepared-visits/four-denominations-refresh-visit-02.mp4",
+          "originalSourcePreserved": true,
+          "audioRemoved": true,
+          "evidence": [
+            "visit-2-checks.txt",
+            "visit-2-published.txt",
+            "visit-2-public-reopened.txt",
+            "visit-2-public-reopened.png"
+          ],
+          "youtubeTitle": "Pokoyhof entrance"
+        },
+        "https://youtube.com/shorts/FgmfsnmETco": {
+          "index": 3,
+          "title": {
+            "he": "פסל כוכב הלכת מבדולח",
+            "en": "Crystal Planet sculpture",
+            "pl": "Rzeźba Kryształowa Planeta",
+            "de": "Skulptur Kristallplanet",
+            "cs": "Plastika Křišťálová planeta"
+          },
+          "filename": "four-denominations-refresh-visit-03.mp4",
+          "id": "FgmfsnmETco",
+          "url": "https://youtube.com/shorts/FgmfsnmETco",
+          "state": "public-reopened-verified",
+          "durationSeconds": 4.566667,
+          "sourceSHA256": "41c149c2aea7ebc68432005c33d6f980c731999d7bca87de3280da4135d4d35e",
+          "uploadSHA256": "0e810cb28fa30892803440d65ecd615c373f63ac07d7e99e10dbfb0bee5b5287",
+          "checksComplete": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.22.mp4",
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/four-denominations-refresh-2026-10-20/prepared-visits/four-denominations-refresh-visit-03.mp4",
+          "originalSourcePreserved": true,
+          "audioRemoved": true,
+          "evidence": [
+            "visit-3-checks.txt",
+            "visit-3-published.txt",
+            "visit-3-public-reopened.txt",
+            "visit-3-public-reopened.png"
+          ],
+          "youtubeTitle": "Crystal Planet"
+        },
+        "https://youtube.com/shorts/maNHvOKVA_s": {
+          "index": 4,
+          "title": {
+            "he": "מעבר מקורה ברובע",
+            "en": "Covered district passage",
+            "pl": "Kryte przejście w dzielnicy",
+            "de": "Überdachter Durchgang im Viertel",
+            "cs": "Krytý průchod ve čtvrti"
+          },
+          "filename": "four-denominations-refresh-visit-04.mp4",
+          "id": "maNHvOKVA_s",
+          "url": "https://youtube.com/shorts/maNHvOKVA_s",
+          "state": "public-reopened-verified",
+          "durationSeconds": 3.9,
+          "sourceSHA256": "b8cbf425e6fc03e2f0bfbb93448f3c22832fc2d9d3bfe29f6a6c479f751c54a9",
+          "uploadSHA256": "e513bae63e699a2b2801e57caae89e5fafb11a22d78420e73bd400108283c1c2",
+          "checksComplete": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.24.mp4",
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/four-denominations-refresh-2026-10-20/prepared-visits/four-denominations-refresh-visit-04.mp4",
+          "originalSourcePreserved": true,
+          "audioRemoved": true,
+          "evidence": [
+            "visit-4-checks.txt",
+            "visit-4-published.txt",
+            "visit-4-public-reopened.txt",
+            "visit-4-public-reopened.png"
+          ],
+          "youtubeTitle": "Passage"
+        },
+        "https://youtube.com/shorts/sZjy6-Xfj8I": {
+          "index": 5,
+          "title": {
+            "he": "חצר ובנייני הקהילה ברובע",
+            "en": "Courtyard and community buildings",
+            "pl": "Dziedziniec i budynki gminy",
+            "de": "Hof und Gemeindegebäude",
+            "cs": "Dvůr a komunitní budovy"
+          },
+          "id": "sZjy6-Xfj8I",
+          "url": "https://youtube.com/shorts/sZjy6-Xfj8I",
+          "state": "public-reopened-verified",
+          "durationSeconds": 8.7,
+          "sourceSHA256": "507f1c4d85231d1c1cde08b6ee5409e0ab36b3cad7887ef726f6df7b6389257a",
+          "uploadSHA256": "45207fe4c7a5fe7eea57f2775dd4b9527337a71b842567fe94ef87ae198401e8",
+          "checksComplete": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.30.mp4",
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/four-denominations-refresh-2026-10-20/prepared-visits/four-denominations-refresh-visit-05.mp4",
+          "originalSourcePreserved": true,
+          "audioRemoved": true,
+          "evidence": [
+            "visit-5-checks.txt",
+            "visit-5-published.txt",
+            "visit-5-public-reopened.txt",
+            "visit-5-public-reopened.png"
+          ],
+          "youtubeTitle": "Courtyard"
+        },
+        "https://youtube.com/shorts/hp5UfkhbhUc": {
+          "index": 6,
+          "title": {
+            "he": "חזית כנסיית אנטוניוס",
+            "en": "St Anthony church façade",
+            "pl": "Fasada kościoła św. Antoniego",
+            "de": "Fassade der Antoniuskirche",
+            "cs": "Průčelí kostela svatého Antonína"
+          },
+          "id": "hp5UfkhbhUc",
+          "url": "https://youtube.com/shorts/hp5UfkhbhUc",
+          "state": "public-reopened-verified",
+          "durationSeconds": 4.066667,
+          "sourceSHA256": "6e50b6947967c9f3dadedabd4f884af7cabb82dffbf18bd6ec7201ae7c80e77a",
+          "uploadSHA256": "e717dde6f3936b255a46b0f230eb779b5f360f5702a8abb6e439f59a9a54efc1",
+          "checksComplete": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.37.mp4",
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/four-denominations-refresh-2026-10-20/prepared-visits/four-denominations-refresh-visit-06.mp4",
+          "originalSourcePreserved": true,
+          "audioRemoved": true,
+          "evidence": [
+            "visit-6-checks.txt",
+            "visit-6-published.txt",
+            "visit-6-public-reopened.txt",
+            "visit-6-public-reopened.png"
+          ],
+          "youtubeTitle": "Church façade"
         }
       }
     },
@@ -34512,11 +35093,11 @@
       "cs": "Synagoga U Bílého čápa"
     },
     "description": {
-      "he": "בית הכנסת החסידה הלבנה נחנך בשנת 1829 בחצר ברובע ארבע הדתות, ותוכנן בסגנון נאו־קלאסי בידי קרל פרדיננד לנגהנס. לאחר פגיעות והזנחה שוקם ונפתח מחדש בשנת 2010. המקום קשור לחיי הקהילה היהודית ולזיכרון יהודי העיר. תמונות הביקור שלנו מציגות את החצר ופרטים במבני הקהילה הסמוכים. יש לברר את אפשרות הכניסה ואת הסיורים עם הקהילה היהודית לפני הביקור.",
-      "en": "Opened in 1829, the White Stork Synagogue stands in a courtyard in the Four Denominations District. Carl Ferdinand Langhans designed its neoclassical building, restored and reopened in 2010 after damage and neglect. It is connected with Jewish community life and remembrance. Our visit photographs show the courtyard and details of the adjoining community buildings. Check visitor access and guided tours with the Jewish community before visiting.",
-      "pl": "Synagoga Pod Białym Bocianem, otwarta w 1829 roku, znajduje się na dziedzińcu w Dzielnicy Czterech Wyznań. Jej neoklasycystyczny budynek zaprojektował Carl Ferdinand Langhans. Po zniszczeniach i zaniedbaniach został odrestaurowany i ponownie otwarty w 2010 roku. Miejsce wiąże się z życiem gminy żydowskiej i pamięcią o dawnych mieszkańcach. Nasze zdjęcia pokazują dziedziniec oraz detale sąsiednich budynków gminy. Możliwość wejścia i zwiedzania należy potwierdzić w gminie żydowskiej.",
-      "de": "Die 1829 eröffnete Synagoge zum Weißen Storch liegt in einem Innenhof im Viertel der vier Konfessionen. Carl Ferdinand Langhans entwarf den neoklassizistischen Bau, der nach Beschädigungen und Vernachlässigung restauriert und 2010 wiedereröffnet wurde. Der Ort ist mit jüdischem Gemeindeleben und Erinnerung verbunden. Unsere Besuchsfotos zeigen den Hof und Details der angrenzenden Gemeindegebäude. Zugang und Führungen vorab bei der jüdischen Gemeinde erfragen.",
-      "cs": "Synagoga U Bílého čápa, otevřená roku 1829, stojí ve dvoře ve čtvrti čtyř vyznání. Její neoklasicistní budovu navrhl Carl Ferdinand Langhans. Po poškození a zanedbání byla obnovena a znovu otevřena v roce 2010. Místo je spojeno se životem židovské obce a připomínkou její historie. Naše fotografie zachycují dvůr a detaily sousedních obecních budov. Možnosti vstupu a prohlídek si předem ověřte u židovské obce."
+      "he": "בית הכנסת החסידה הלבנה נחנך בשנת 1829 בחצר ברובע ארבע הדתות, ותוכנן בסגנון נאו־קלאסי בידי קרל פרדיננד לנגהנס. לאחר פגיעות והזנחה שוקם ונפתח מחדש בשנת 2010. המקום קשור לחיי הקהילה היהודית ולזיכרון יהודי העיר. תמונות הביקור שלנו מציגות את החצר, חזית בית הכנסת, הדלת עם מגן הדוד ולוחות הזיכרון וההסבר, לצד מבני הקהילה הסמוכים. יש לברר את אפשרות הכניסה ואת הסיורים עם הקהילה היהודית לפני הביקור.",
+      "en": "Opened in 1829, the White Stork Synagogue stands in a courtyard in the Four Denominations District. Carl Ferdinand Langhans designed its neoclassical building, restored and reopened in 2010 after damage and neglect. It is connected with Jewish community life and remembrance. Our visit photographs show the courtyard, synagogue façade, doorway with the Star of David, memorial and information plaques, and adjoining community buildings. Check visitor access and guided tours with the Jewish community before visiting.",
+      "pl": "Synagoga Pod Białym Bocianem, otwarta w 1829 roku, znajduje się na dziedzińcu w Dzielnicy Czterech Wyznań. Jej neoklasycystyczny budynek zaprojektował Carl Ferdinand Langhans. Po zniszczeniach i zaniedbaniach został odrestaurowany i ponownie otwarty w 2010 roku. Miejsce wiąże się z życiem gminy żydowskiej i pamięcią o dawnych mieszkańcach. Nasze zdjęcia pokazują dziedziniec, fasadę synagogi, drzwi z Gwiazdą Dawida, tablice pamięci i informacyjne oraz sąsiednie budynki gminy. Możliwość wejścia i zwiedzania należy potwierdzić w gminie żydowskiej.",
+      "de": "Die 1829 eröffnete Synagoge zum Weißen Storch liegt in einem Innenhof im Viertel der vier Konfessionen. Carl Ferdinand Langhans entwarf den neoklassizistischen Bau, der nach Beschädigungen und Vernachlässigung restauriert und 2010 wiedereröffnet wurde. Der Ort ist mit jüdischem Gemeindeleben und Erinnerung verbunden. Unsere Besuchsfotos zeigen den Hof, die Synagogenfassade, die Tür mit dem Davidstern, Gedenk- und Informationstafeln sowie angrenzende Gemeindegebäude. Zugang und Führungen vorab bei der jüdischen Gemeinde erfragen.",
+      "cs": "Synagoga U Bílého čápa, otevřená roku 1829, stojí ve dvoře ve čtvrti čtyř vyznání. Její neoklasicistní budovu navrhl Carl Ferdinand Langhans. Po poškození a zanedbání byla obnovena a znovu otevřena v roce 2010. Místo je spojeno se životem židovské obce a připomínkou její historie. Naše fotografie zachycují dvůr, průčelí synagogy, dveře s Davidovou hvězdou, pamětní a informační desky i sousední komunitní budovy. Možnosti vstupu a prohlídek si předem ověřte u židovské obce."
     },
     "location": {
       "countryCode": "PL",
@@ -34634,7 +35215,12 @@
       "photos": [
         "/assets/white-stork/white-stork-01.jpg",
         "/assets/white-stork/white-stork-02.jpg",
-        "/assets/white-stork/white-stork-03.jpg"
+        "/assets/white-stork/white-stork-03.jpg",
+        "/assets/white-stork/white-stork-refresh-01.jpg",
+        "/assets/white-stork/white-stork-refresh-02.jpg",
+        "/assets/white-stork/white-stork-refresh-03.jpg",
+        "/assets/white-stork/white-stork-refresh-04.jpg",
+        "/assets/white-stork/white-stork-refresh-05.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -34679,6 +35265,81 @@
             "cs": "Barevná okna obecních budov kolem dvora"
           },
           "familyForeground": false
+        },
+        "/assets/white-stork/white-stork-refresh-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-10-20 at 16.27.16.jpeg",
+          "sourceSHA256": "3a6390f8fb7405c2a2e915287484d75eae3725b420b9a9ab3b27d9c2e8e83fc7",
+          "assetSHA256": "cf24e8f8cc54680f29014518f30a3196de843d21fd2b45295c06a408c128da6b",
+          "familyForeground": false,
+          "alt": {
+            "he": "לוח הנצחה למגורשים מחצר בית הכנסת",
+            "en": "Memorial plaque to those deported from the synagogue courtyard",
+            "pl": "Tablica pamięci deportowanych z dziedzińca synagogi",
+            "de": "Gedenktafel für die vom Synagogenhof Deportierten",
+            "cs": "Pamětní deska deportovaným ze dvora synagogy"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/white-stork/white-stork-refresh-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-10-20 at 16.27.10.jpeg",
+          "sourceSHA256": "fbe1a1e9a0a8fd302ab088104ef5168477a6f79920d90cea03c4813e1f0e00dc",
+          "assetSHA256": "d570c23d0f66b33e736fa326cff5c0e595275190362e4422fe102262cfdb78b7",
+          "familyForeground": false,
+          "alt": {
+            "he": "החצר וחזית בית הכנסת החסידה הלבנה",
+            "en": "Courtyard and White Stork Synagogue façade",
+            "pl": "Dziedziniec i fasada Synagogi pod Białym Bocianem",
+            "de": "Hof und Fassade der Synagoge Zum Weißen Storch",
+            "cs": "Dvůr a průčelí synagogy U Bílého čápa"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/white-stork/white-stork-refresh-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-10-20 at 16.27.08.jpeg",
+          "sourceSHA256": "f87c62f539c526468c001479eb7821e418d4739f7ffe258987aca4651ce7741b",
+          "assetSHA256": "969913743aeaba5e2bdb3c87f4a8c90a328aa049d1a8f787c1f4d5747756205d",
+          "familyForeground": false,
+          "alt": {
+            "he": "בית הכנסת ובנייני הקהילה סביב החצר",
+            "en": "Synagogue and community buildings around the courtyard",
+            "pl": "Synagoga i budynki gminy wokół dziedzińca",
+            "de": "Synagoge und Gemeindegebäude um den Hof",
+            "cs": "Synagoga a komunitní budovy kolem dvora"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/white-stork/white-stork-refresh-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-10-20 at 16.26.58.jpeg",
+          "sourceSHA256": "088b85e9f0a05920a2b3a64d95ae74632102da0f2d82482a94c397ce3f2171a1",
+          "assetSHA256": "490350486522aa9d1fff71d8456982346e9966a4dc74029529620ba5fe683e74",
+          "familyForeground": false,
+          "alt": {
+            "he": "לוח זיהוי והיסטוריה בחזית בית הכנסת",
+            "en": "Identity and history plaque on the synagogue façade",
+            "pl": "Tablica z nazwą i historią na fasadzie synagogi",
+            "de": "Namens- und Geschichtstafel an der Synagogenfassade",
+            "cs": "Deska s názvem a historií na průčelí synagogy"
+          },
+          "verifiedAt": "2026-10-20"
+        },
+        "/assets/white-stork/white-stork-refresh-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-10-20 at 16.26.59.jpeg",
+          "sourceSHA256": "77feff7dfc33d8724c5a98a26d8bc127f302afc3ae4b731dab8bc93fcc43762e",
+          "assetSHA256": "6ae5f504e5513752091c7d969ba4808f63f961ad0a37df2384fc80868785d6c3",
+          "familyForeground": false,
+          "alt": {
+            "he": "מגן דוד מעל דלת בית הכנסת",
+            "en": "Star of David above the synagogue door",
+            "pl": "Gwiazda Dawida nad drzwiami synagogi",
+            "de": "Davidstern über der Synagogentür",
+            "cs": "Davidova hvězda nad dveřmi synagogy"
+          },
+          "verifiedAt": "2026-10-20"
         }
       }
     },
@@ -38621,17 +39282,21 @@
   "BRU coffee bakehouse": "bru-coffee-bakehouse-wroclaw",
   "ברו": "bru-coffee-bakehouse-wroclaw",
   "קפה ברו": "bru-coffee-bakehouse-wroclaw",
+  "Charlotte": "charlotte",
+  "שרלוט": "charlotte",
+  "Charlotte Pasaż Pokoyhof": "charlotte",
+  "Charlotte chleb i wino": "charlotte",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
   "wroclawski-instytut-kultury": "barbara-wroclaw",
+  "district-of-mutual-respect": "four-denominations-district",
+  "dzielnica-czterech-swiatyn": "four-denominations-district",
+  "dzielnica-czterech-wyznan": "four-denominations-district",
   "four-religions": "four-denominations-district",
   "four-temples": "four-denominations-district",
-  "district-of-mutual-respect": "four-denominations-district",
-  "dzielnica-czterech-wyznan": "four-denominations-district",
-  "dzielnica-czterech-swiatyn": "four-denominations-district",
-  "white-stork-synagogue": "white-stork-synagogue-wroclaw",
   "synagoga-pod-bialym-bocianem": "white-stork-synagogue-wroclaw",
+  "white-stork-synagogue": "white-stork-synagogue-wroclaw",
   "galeria-dizajn": "zyjnia-bwa-wroclaw"
 };
   const relatedPlaces = {
