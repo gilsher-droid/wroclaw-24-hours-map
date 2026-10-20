@@ -1,0 +1,326 @@
+Browser tab: 31058215, Title: "Languages - YouTube Studio", URL: "https://studio.youtube.com/video/xc9jiC3TfNA/translations".
+1 AXWebArea Languages - YouTube Studio, URL: studio.youtube.com/video/xc9jiC3TfNA/translations
+	2 container html-body
+		3 container
+			4 text Languages
+			5 container main-container
+				6 container
+					7 button Collapse menu
+					8 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					9 button Skip navigation
+						10 text Skip navigation
+					11 container search-layer
+						12 text field (settable) query-input
+					13 button Help
+					14 button Notifications
+					15 button Ask Studio
+						16 text Ask Studio
+					17 button Create
+						18 text Create
+					19 container Account
+						20 pop up button Description: Account, ID: avatar-btn
+				21 container
+					22 container left-nav
+						23 link Description: Channel content, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos, ID: back-button
+						24 container
+							25 image Description: Video thumbnail: WROC-LOVE | Bastion Sakwowy | Full original English guide, ID: img-with-fallback
+							26 text 1:45
+							27 container entity-label-container
+								28 text Your video
+								29 text WROC-LOVE | Bastion Sakwowy | Full original English guide
+						30 menu main-menu
+							214 text • 
+							32 Details, ID: menu-item-0
+								33 container menu-paper-icon-item-0
+									34 text Details
+							215 text • 
+							36 Analytics, ID: menu-item-1
+								37 container menu-paper-icon-item-1
+									38 text Analytics
+							216 text • 
+							40 Editor, ID: menu-item-2
+								41 container menu-paper-icon-item-2
+									42 text Editor
+							217 text • 
+							44 Comments, ID: menu-item-3
+								45 container menu-paper-icon-item-3
+									46 text Comments
+							218 text • 
+							48 Languages, ID: menu-item-4
+								49 container menu-paper-icon-item-4
+									50 text Languages
+							219 text • 
+							52 Claims, ID: menu-item-5
+								53 container menu-paper-icon-item-5
+									54 text Claims
+							220 text • 
+							56 Clips and Shorts, ID: menu-item-6
+								57 container menu-paper-icon-item-6
+									58 text Clips and Shorts
+						59 content list
+							60 button Settings, ID: settings-item
+								61 text Settings
+							62 button Send feedback, ID: send-feedback-item
+								63 text Send feedback
+					64 container main
+						72 heading Languages, Value: 1
+							73 text Languages
+						81 container Video language: English, ID: header-section
+							82 heading Video language: English, Value: 2, ID: default-language-title
+								83 text Video language: English
+							84 button Details
+							85 text English subtitles are the default source for auto-translation of subtitles and audio.
+							86 button Edit subtitles
+								87 text Edit subtitles
+							88 button Upload manual
+								89 text Upload manual
+						90 container Translations, ID: translations-section
+							91 heading Translations, Value: 2, ID: language-translations-header
+								92 text Translations
+							93 button Add language
+								94 text Add language
+							121 text 2 translations
+							95 container screen-size-container
+								96 table Description: Translations, ID: ytgn-video-translations-list-table, Help: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									97 text Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									98 row
+										99 cell
+											100 heading Description: Language, Value: 3, ID: language-header-name
+												101 text Language
+										102 cell
+											103 heading Description: Audio, Value: 3, ID: audio-header-name
+												104 text Audio
+										105 cell
+											106 heading Description: Subtitles, Value: 3, ID: captions-header-name
+												107 text Subtitles
+										108 cell
+											109 heading Description: Title and description, Value: 3, ID: metadata-header-name
+												110 text Title and description
+										111 cell
+											112 heading Description: Thumbnail, Value: 3, ID: thumbnail-header-name
+												113 text Thumbnail
+									129 container
+										130 row row-container
+											131 cell
+												132 button German
+											133 cell
+											134 cell
+												135 text 1 published
+											136 cell
+										137 row row-container
+											138 cell
+												139 button Polish
+											140 cell
+											141 cell
+												142 text 1 published
+											143 cell
+		144 container Description: German subtitles, ID: dialog
+			145 container Description: German subtitles, ID: dialog
+				146 container
+					221 container video-editor-captions-modal-header
+						222 text German
+					147 container Description: Dialogue controls, ID: secondary-header
+						148 heading Dialogue controls, Value: 2
+							149 text Dialogue controls
+						150 button Send feedback
+						151 button Save draft
+							152 text Save draft
+						153 text Save draft button enabled
+						154 container save-container
+							155 button Publish
+								156 text Publish
+							157 text Publish button enabled
+							158 button Description: Close, ID: close-button
+				160 container
+					161 container panels
+						162 container Edit timings
+							223 heading Edit timings, Value: 2, ID: edit-timings-header
+								224 text Edit timings
+							225 button Subtitle
+								226 text Subtitle
+							227 button (disabled) Edit as text
+								228 text Edit as text
+							229 button Description: Options, ID: more-actions-menu
+							230 container editing-container
+								231 content list Description: Timings, ID: items
+									232 container Text with timing
+										233 container row-container
+											234 text entry area (settable) Description: Subtitle, Value: Cześć! Ich bin an der Bastion Sakwowy. Die
+											235 container Description:  0 minutes 1 second 6 frames, ID: container
+												236 text field (settable)  0 minutes 1 second 6 frames
+											237 container Description:  0 minutes 8 seconds 15 frames, ID: container
+												238 text field (settable)  0 minutes 8 seconds 15 frames
+									239 container Text with timing
+										240 container row-container
+											241 text entry area (settable) Description: Subtitle, Value: Erdgeschoss namens Gustaw. Es ist sehr
+											242 container Description:  1 minute 22 seconds 3 frames, ID: container
+												243 text field (settable)  1 minute 22 seconds 3 frames
+											244 container Description:  1 minute 24 seconds 28 frames, ID: container
+												245 text field (settable)  1 minute 24 seconds 28 frames
+									246 container Text with timing
+										247 container row-container
+											248 text entry area (settable) Description: Subtitle, Value: empfehlenswert. Ich lade Sie also ein,
+											249 container Description:  1 minute 24 seconds 28 frames, ID: container
+												250 text field (settable)  1 minute 24 seconds 28 frames
+											251 container Description:  1 minute 27 seconds 12 frames, ID: container
+												252 text field (settable)  1 minute 27 seconds 12 frames
+									253 container Text with timing
+										254 container row-container
+											255 text entry area (settable) Description: Subtitle, Value: die Bastion Sakwowy zu jeder Tageszeit
+zu besuchen, ob am Morgen, mittags,
+											256 container Description:  1 minute 27 seconds 12 frames, ID: container
+												257 text field (settable)  1 minute 27 seconds 12 frames
+											258 container Description:  1 minute 32 seconds 29 frames, ID: container
+												259 text field (settable)  1 minute 32 seconds 29 frames
+									260 container Text with timing
+										261 container row-container
+											262 text entry area (settable) Description: Subtitle, Value: am Nachmittag und am besten zur
+											263 container Description:  1 minute 33 seconds 7 frames, ID: container
+												264 text field (settable)  1 minute 33 seconds 7 frames
+											265 container Description:  1 minute 36 seconds 23 frames, ID: container
+												266 text field (settable)  1 minute 36 seconds 23 frames
+									267 container Text with timing
+										268 container row-container
+											269 text entry area (settable) Description: Subtitle, Value: goldenen Stunde, kurz
+bevor die Sonne untergeht.
+											270 container Description:  1 minute 36 seconds 23 frames, ID: container
+												271 text field (settable)  1 minute 36 seconds 23 frames
+											272 container Description:  1 minute 39 seconds 29 frames, ID: container
+												273 text field (settable)  1 minute 39 seconds 29 frames
+									274 container Text with timing
+										275 container row-container
+											276 text entry area (settable) Description: Subtitle, Value: Wir sehen uns in unserem nächsten Video.
+											277 container Description:  1 minute 40 seconds 11 frames, ID: container
+												278 text field (settable)  1 minute 40 seconds 11 frames
+											279 container Description:  1 minute 42 seconds 6 frames, ID: container
+												280 text field (settable)  1 minute 42 seconds 6 frames
+									281 container Text with timing
+										282 container row-container
+											283 text entry area (settable) Description: Subtitle, Value: Auf Wiedersehen!
+											348 button Description: Remove caption line, ID: delete-segment-button
+											284 container Description:  1 minute 42 seconds 22 frames, ID: container
+												285 text field (settable)  1 minute 42 seconds 22 frames
+											286 container Description:  1 minute 44 seconds 11 frames, ID: container
+												287 text field (settable)  1 minute 44 seconds 11 frames
+											349 button Description: Add caption line, ID: add-segment-after-button
+									288 container Text with timing
+										289 container row-container
+											290 text entry area (settable) Description: Subtitle, Value: und sie wurde zu einem sehr eleganten Ort.
+											291 container Description:  1 minute 4 seconds 6 frames, ID: container
+												292 text field (settable)  1 minute 4 seconds 6 frames
+											293 container Description:  1 minute 8 seconds 13 frames, ID: container
+												294 text field (settable)  1 minute 8 seconds 13 frames
+									295 container Text with timing
+										296 container row-container
+											297 text entry area (settable) Description: Subtitle, Value: Hinter mir sehen Sie den Brunnen und
+											298 container Description:  1 minute 8 seconds 13 frames, ID: container
+												299 text field (settable)  1 minute 8 seconds 13 frames
+											300 container Description:  1 minute 10 seconds 27 frames, ID: container
+												301 text field (settable)  1 minute 10 seconds 27 frames
+									302 container Text with timing
+										303 container row-container
+											304 text entry area (settable) Description: Subtitle, Value: die Kolonnaden. Es wirkt wie ein sehr
+											305 container Description:  1 minute 10 seconds 27 frames, ID: container
+												306 text field (settable)  1 minute 10 seconds 27 frames
+											307 container Description:  1 minute 14 seconds 25 frames, ID: container
+												308 text field (settable)  1 minute 14 seconds 25 frames
+									309 container Text with timing
+										310 container row-container
+											311 text entry area (settable) Description: Subtitle, Value: italienischer, eleganter
+Ort zum Spazieren. Ich
+											312 container Description:  1 minute 14 seconds 25 frames, ID: container
+												313 text field (settable)  1 minute 14 seconds 25 frames
+											314 container Description:  1 minute 18 seconds 22 frames, ID: container
+												315 text field (settable)  1 minute 18 seconds 22 frames
+									350 container Text with timing
+										351 container row-container
+											352 text entry area (settable) Description: Subtitle, Value: empfehle auch das Restaurant im
+											353 container Description:  1 minute 19 seconds 7 frames, ID: container
+												354 text field (settable)  1 minute 19 seconds 7 frames
+											355 container Description:  1 minute 22 seconds 3 frames, ID: container
+												356 text field (settable)  1 minute 22 seconds 3 frames
+						163 heading Subtitles preview, Value: 2, ID: preview-header
+							164 text Subtitles preview
+						165 container Description: Subtitles preview, ID: preview-panel
+							166 container Description: Video player, ID: video-container
+								167 container Description: WROC-LOVE | Bastion Sakwowy | Full original English guide, ID: video
+								168 container toolbar
+									169 container button-bar
+										170 button Description: Play, ID: play-button
+										171 button Description: Skip back 10 seconds, ID: skip-back-10
+										172 button Description: Skip forwards 10 seconds, ID: skip-forward-10
+										173 container
+											174 button Description: Mute, ID: volume-icon-button
+											175 slider Description: volume, Value: 100, ID: volume-slider
+										316 text 0:00 / 1:45
+										176 container
+											177 button Description: Settings, ID: settings-button
+							178 container preview-cta
+								179 container root-container
+									180 checkbox Description: Pause while typing, Value: 0, ID: checkbox
+									181 text Pause while typing
+								182 button View keyboard shortcuts
+									183 text View keyboard shortcuts
+					184 heading Subtitles timeline, Value: 2, ID: timeline-header
+						185 text Subtitles timeline
+					186 container Description: Subtitles timeline, ID: timeline-section
+						187 container
+							188 container left-controls
+								189 container Description:  0 minutes 0 seconds 0 frames, ID: container
+									190 text field (settable)  0 minutes 0 seconds 0 frames
+								191 button (disabled) Undo
+									192 text Undo
+								193 button (disabled) Redo
+									194 text Redo
+							195 container right-controls
+								196 button Description: Zoom out, ID: zoom-out
+								197 slider Description: Zoom slider, Value: 3, ID: zoom-slider
+								198 button Description: Zoom in, ID: zoom-in
+						199 container
+							200 container header-container
+								201 container
+									202 image Description: Timeline header, ID: canvas
+									203 button Description: Find playhead, ID: find-left-button
+									204 button Description: Find playhead, ID: find-right-button
+							205 container plugin-timeline-surface
+								317 container CAPTIONS
+									318 container decorations
+										319 container Cześć! Ich bin an der Bastion Sakwowy. Die
+										320 text Cześć! Ich bin an der Bastion Sakwowy. Die
+										321 container beste Zeit für einen Stadtbesuch ist die goldene Stunde.
+										322 text beste Zeit für einen Stadtbesuch ist die goldene Stunde.
+										323 container Im Mittelalter befand sich hier ein
+										324 text Im Mittelalter befand sich hier ein
+										325 container Stadttor. Es hieß Brama Sakwowa.
+										326 text Stadttor. Es hieß Brama Sakwowa.
+										327 text Der Name Sakwowy verweist auf Hersteller
+										328 text von Geldbörsen und Beuteln, die
+										329 text damals in dieser Gegend tätig waren.
+										330 text Ab dem 16. Jahrhundert wurde der Ort
+										331 text zu einer Bastion, also einer befestigten Anlage
+										332 text als Teil der Verteidigung der Stadt Breslau.
+										333 text Im 19. Jahrhundert wurde die Stadt von Napoleons
+										334 text Truppen erobert. Danach verlor die Bastion ihre Aufgabe
+										335 text als Verteidigungsanlage Breslaus. Ihre Rolle änderte sich
+										336 text und sie wurde zu einem sehr eleganten Ort.
+										337 text Hinter mir sehen Sie den Brunnen und
+										338 text die Kolonnaden. Es wirkt wie ein sehr
+										339 text italienischer, eleganter Ort zum Spazieren. Ich
+										340 text empfehle auch das Restaurant im
+										341 text Erdgeschoss namens Gustaw. Es ist sehr
+										342 text empfehlenswert. Ich lade Sie also ein,
+										343 text die Bastion Sakwowy zu jeder Tageszeit zu besuchen, ob am Morgen, mittags,
+										344 text am Nachmittag und am besten zur
+										345 text goldenen Stunde, kurz bevor die Sonne untergeht.
+										346 text Wir sehen uns in unserem nächsten Video.
+										347 text Auf Wiedersehen!
+								206 container AUDIO_WAVEFORM
+									207 container audio-timeline-content
+										208 image Description: Audio waveform, ID: audio-waveform
+							209 container Description: Start of timeline, ID: left-bookend
+							210 container Description: End of timeline, ID: right-bookend
+							211 slider Description: Playhead, Value: 0, ID: playhead
+							212 container hover-playhead
+								213 text 0:00:00
+
+The focused UI element is 145 container Description: German subtitles, ID: dialog

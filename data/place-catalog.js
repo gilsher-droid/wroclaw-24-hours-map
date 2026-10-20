@@ -2161,7 +2161,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10519%2C17.03829",
         "appleMaps": "https://maps.apple.com/?ll=51.10519,17.03829"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -2184,28 +2185,40 @@
         {
           "url": "https://visitwroclaw.eu/en/atrakcje/sakwowy-bastion/",
           "scope": "Official municipal tourism identity, address, moat setting, colonnade, fountain, terrace and former fortifications",
-          "verifiedAt": "2026-10-18"
+          "verifiedAt": "2026-10-20"
         },
         {
           "url": "https://www.wroclaw.pl/dla-mieszkanca/otwarcie-bastionu-sakwowego-kolejne-inwestycje-na-wzgorzu-partyzantow-etapy-rewitalizacja",
           "scope": "Municipal June 2024 reopening and restoration; historical article, current hours/events not inferred",
           "verifiedAt": "2026-10-18"
         }
-      ]
+      ],
+      "mediaRefreshedAt": "2026-10-20"
     },
     "media": {
       "thumbnail": "/assets/bastion-sakwowy-representative.jpg",
       "photos": [
         "/assets/bastion-sakwowy-01.jpg",
-        "/assets/bastion-sakwowy-02.jpg"
+        "/assets/bastion-sakwowy-02.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-01.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-02.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-03.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-04.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-05.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg"
       ],
       "videos": [
         "/assets/bastion-sakwowy-visit-01.mp4",
         "/assets/bastion-sakwowy-visit-02.mp4",
         "/assets/bastion-sakwowy-visit-03.mp4",
         "/assets/bastion-sakwowy-visit-04.mp4",
-        "/assets/bastion-sakwowy-visit-05.mp4"
+        "/assets/bastion-sakwowy-visit-05.mp4",
+        "/assets/bastion-refresh-visit-20261020-06.mp4"
       ],
+      "guideVideos": {
+        "en": "https://youtube.com/shorts/xc9jiC3TfNA",
+        "he": "https://youtube.com/shorts/FLx49x9AtUM"
+      },
       "metadata": {
         "/assets/bastion-sakwowy-01.jpg": {
           "original": true,
@@ -2250,6 +2263,103 @@
             "pl": "Szeroki widok żółtego pawilonu bastionu i arkad",
             "de": "Gesamtansicht des gelben Bastionspavillons mit Arkaden",
             "cs": "Celkový pohled na žlutý pavilon bašty s arkádami"
+          }
+        },
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-01.jpg": {
+          "original": true,
+          "sourceFile": "בסטיון/WhatsApp Image 2026-10-20 at 13.36.15.jpeg",
+          "sourceSHA256": "3c64dde7a647637bdf937e6933787ab20e10030e2fd3e94bcba90cbddcb0c1b9",
+          "assetSHA256": "8186a4a6fc0f00fef9566f708683576ab88b39cfabbb931a783a7e200643fef9",
+          "alt": {
+            "he": "הקולונדה והחצר של הבסטיון במבט רחב",
+            "en": "Wide view of the bastion colonnade and courtyard",
+            "pl": "Szeroki widok kolumnady i dziedzińca bastionu",
+            "de": "Gesamtansicht der Kolonnade und des Hofs der Bastion",
+            "cs": "Celkový pohled na kolonádu a nádvoří bašty"
+          },
+          "selectionReason": "Full colonnade and fountain courtyard; incidental visitors at location, no posed portrait"
+        },
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-02.jpg": {
+          "original": true,
+          "sourceFile": "בסטיון/WhatsApp Image 2026-10-20 at 13.36.16.jpeg",
+          "sourceSHA256": "fa2c17f9cc0dc3756e00519b337b8f737cc1ee251be0f243eaa8ae37016b11de",
+          "assetSHA256": "0cbaf89a27db55e4d7870d64068bdd55ed9375e458e35403118ca2d5cff10011",
+          "alt": {
+            "he": "הביתן הצדדי, הקשתות והמדרגות בבסטיון",
+            "en": "Side pavilion, arcades and steps at the bastion",
+            "pl": "Pawilon boczny, arkady i schody bastionu",
+            "de": "Seitenpavillon, Arkaden und Treppen der Bastion",
+            "cs": "Boční pavilon, arkády a schodiště bašty"
+          },
+          "selectionReason": "Distinct side pavilion and access steps"
+        },
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-03.jpg": {
+          "original": true,
+          "sourceFile": "בסטיון/WhatsApp Image 2026-10-20 at 13.36.17 (1).jpeg",
+          "sourceSHA256": "2bf8ce565e4dd3d0777e15bf5881a46441e5bd298f545450bb964755afd21ffe",
+          "assetSHA256": "3bf613812e9f771a99586a1c8aea0d49f65730c909c338449032242e598459e7",
+          "alt": {
+            "he": "המזרקה והקשתות הצהבהבות של הבסטיון",
+            "en": "Fountain and yellow arcades at the bastion",
+            "pl": "Fontanna i żółte arkady bastionu",
+            "de": "Brunnen und gelbe Arkaden der Bastion",
+            "cs": "Kašna a žluté arkády bašty"
+          },
+          "selectionReason": "Fountain foreground and full arcade behind"
+        },
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-04.jpg": {
+          "original": true,
+          "sourceFile": "בסטיון/WhatsApp Image 2026-10-20 at 13.36.18.jpeg",
+          "sourceSHA256": "03557cc54363749a46f4778eab4e1a7a97c2e813d5dc560e5c3b6890364ece4b",
+          "assetSHA256": "dbed350621231d801ee5bd2983cdbe11f7d955f12db3e9b53043102101593639",
+          "alt": {
+            "he": "המזרקה והחצר הפתוחה מול אור השקיעה",
+            "en": "Fountain and open courtyard facing the sunset",
+            "pl": "Fontanna i otwarty dziedziniec w świetle zachodu słońca",
+            "de": "Brunnen und offener Hof im Abendlicht",
+            "cs": "Kašna a otevřené nádvoří při západu slunce"
+          },
+          "selectionReason": "Symmetrical courtyard and fountain looking toward sunset"
+        },
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-05.jpg": {
+          "original": true,
+          "sourceFile": "בסטיון/WhatsApp Image 2026-10-20 at 13.36.19.jpeg",
+          "sourceSHA256": "78ba68a303c57497c6dc3f97fe581168266824fd2d1427aa8b1dcf1c96b390cb",
+          "assetSHA256": "b2dffe53489840d3dc588d9695fd79772ba133ff6b1015b32b49636f837bc792",
+          "alt": {
+            "he": "מבט מוגבה על המזרקה והעיר בשקיעה",
+            "en": "Elevated view of the fountain and city at sunset",
+            "pl": "Widok z góry na fontannę i miasto o zachodzie słońca",
+            "de": "Blick von oben auf Brunnen und Stadt bei Sonnenuntergang",
+            "cs": "Pohled shora na kašnu a město při západu slunce"
+          },
+          "selectionReason": "Elevated broad fountain and city overview"
+        },
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg": {
+          "original": true,
+          "sourceFile": "בסטיון/WhatsApp Image 2026-10-20 at 13.36.20.jpeg",
+          "sourceSHA256": "9ddc6574f56940ad5f94f363aeba9dc3d717e2067a69077d12b877fd9b261c79",
+          "assetSHA256": "a70905cb5cb1dc3daaa1990644e222797950dd6ce1f5aa1d309665c216b95e90",
+          "alt": {
+            "he": "פרט הכניסה במבנה הקולונדה של הבסטיון",
+            "en": "Entrance detail in the bastion colonnade building",
+            "pl": "Detal wejścia w budynku kolumnady bastionu",
+            "de": "Eingangsdetail am Kolonnadengebäude der Bastion",
+            "cs": "Detail vstupu v budově kolonády bašty"
+          },
+          "selectionReason": "Doorway and architectural detail of the colonnade building; no claim of separate cafe point"
+        },
+        "/assets/bastion-refresh-visit-20261020-06.mp4": {
+          "original": true,
+          "sourceFile": "בסטיון/WhatsApp Video 2026-10-20 at 13.37.04.mp4",
+          "sourceSHA256": "79be611f39e72337fce4e5c97da4862d03e5bbe53f7a82a9aabee6c8da47582a",
+          "uploadSHA256": "31ad4e076d1d1f7947302dc7a01ca730125339362b9fea6165b0b37ee33b2e9b",
+          "title": {
+            "he": "מבט רחב על המזרקה, החצר והעיר בשקיעה",
+            "en": "Wide view of the fountain, courtyard and city at sunset",
+            "pl": "Szeroki widok fontanny, dziedzińca i miasta o zachodzie słońca",
+            "de": "Weiter Blick auf Brunnen, Hof und Stadt im Abendlicht",
+            "cs": "Široký pohled na kašnu, nádvoří a město při západu slunce"
           }
         }
       }

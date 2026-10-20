@@ -1,0 +1,300 @@
+Browser tab: 31058215, Title: "Languages - YouTube Studio", URL: "https://studio.youtube.com/video/FLx49x9AtUM/translations".
+0 AXWebArea Languages - YouTube Studio, URL: studio.youtube.com/video/FLx49x9AtUM/translations
+	1 container html-body
+		2 container
+			3 text Languages
+			4 container main-container
+				5 container
+					6 button Collapse menu
+					7 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					8 button Skip navigation
+						9 text Skip navigation
+					10 container search-layer
+						11 text field (settable) query-input
+					12 button Help
+					13 button Notifications
+					14 button Ask Studio
+						15 text Ask Studio
+					16 button Create
+						17 text Create
+					18 container Account
+						19 pop up button Description: Account, ID: avatar-btn
+				20 container
+					21 container left-nav
+						22 link Description: Channel content, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos, ID: back-button
+						23 container
+							24 image Description: Video thumbnail: בסטיון סאקבובי | המדריך שלנו בעברית, ID: img-with-fallback
+							25 text 1:31
+							26 container entity-label-container
+								27 text Your video
+								28 text בסטיון סאקבובי | המדריך שלנו בעברית
+						29 menu main-menu
+							30 text • 
+							31 Details, ID: menu-item-0
+								32 container menu-paper-icon-item-0
+									33 text Details
+							34 text • 
+							35 Analytics, ID: menu-item-1
+								36 container menu-paper-icon-item-1
+									37 text Analytics
+							38 text • 
+							39 Editor, ID: menu-item-2
+								40 container menu-paper-icon-item-2
+									41 text Editor
+							42 text • 
+							43 Comments, ID: menu-item-3
+								44 container menu-paper-icon-item-3
+									45 text Comments
+							46 text • 
+							47 Languages, ID: menu-item-4
+								48 container menu-paper-icon-item-4
+									49 text Languages
+							50 text • 
+							51 Claims, ID: menu-item-5
+								52 container menu-paper-icon-item-5
+									53 text Claims
+							54 text • 
+							55 Clips and Shorts, ID: menu-item-6
+								56 container menu-paper-icon-item-6
+									57 text Clips and Shorts
+						58 content list
+							59 button Settings, ID: settings-item
+								60 text Settings
+							61 button Send feedback, ID: send-feedback-item
+								62 text Send feedback
+					63 container main
+						64 heading Languages, Value: 1
+							65 text Languages
+						66 container Video language: Hebrew, ID: header-section
+							67 heading Video language: Hebrew, Value: 2, ID: default-language-title
+								68 text Video language: Hebrew
+							69 button Details
+							70 text Hebrew subtitles are the default source for auto-translation of subtitles and audio.
+							71 button Edit subtitles
+								72 text Edit subtitles
+							73 button Upload manual
+								74 text Upload manual
+						75 container Translations, ID: translations-section
+							76 heading Translations, Value: 2, ID: language-translations-header
+								77 text Translations
+							78 button Add language
+								79 text Add language
+							80 container screen-size-container
+								81 table Description: Translations, ID: ytgn-video-translations-list-table, Help: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									82 text Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									83 row
+										84 cell
+											85 heading Description: Language, Value: 3, ID: language-header-name
+												86 text Language
+										87 cell
+											88 heading Description: Audio, Value: 3, ID: audio-header-name
+												89 text Audio
+										90 cell
+											91 heading Description: Subtitles, Value: 3, ID: captions-header-name
+												92 text Subtitles
+										93 cell
+											94 heading Description: Title and description, Value: 3, ID: metadata-header-name
+												95 text Title and description
+										96 cell
+											97 heading Description: Thumbnail, Value: 3, ID: thumbnail-header-name
+												98 text Thumbnail
+		99 container Description: Hebrew subtitles, ID: dialog
+			100 container Description: Hebrew subtitles, ID: dialog
+				101 container
+					102 container video-editor-captions-modal-header
+						103 text Hebrew
+					104 container Description: Dialogue controls, ID: secondary-header
+						105 heading Dialogue controls, Value: 2
+							106 text Dialogue controls
+						107 button Send feedback
+						108 button Save draft
+							109 text Save draft
+						110 text Save draft button enabled
+						111 container save-container
+							112 button Publish
+								113 text Publish
+							114 text Publish button enabled
+							115 button Description: Close, ID: close-button
+				116 container
+					117 container panels
+						118 container Edit timings
+							119 heading Edit timings, Value: 2, ID: edit-timings-header
+								120 text Edit timings
+							121 button Subtitle
+								122 text Subtitle
+							123 button (disabled) Edit as text
+								124 text Edit as text
+							125 button Description: Options, ID: more-actions-menu
+							126 container editing-container
+								127 content list Description: Timings, ID: items
+									128 container Text with timing
+										129 container row-container
+											130 text entry area (settable) Description: Subtitle, Value: Cześć!
+אנחנו נמצאים בבסטיון סאקבובי, בשעה
+											131 container Description:  0 minutes 1 second 11 frames, ID: container
+												132 text field (settable)  0 minutes 1 second 11 frames
+											133 container Description:  0 minutes 8 seconds 7 frames, ID: container
+												134 text field (settable)  0 minutes 8 seconds 7 frames
+									135 container Text with timing
+										136 container row-container
+											137 text entry area (settable) Description: Subtitle, Value: של שקיעה, שעה מוזהבת, והמקום הזה מספר
+											138 container Description:  0 minutes 8 seconds 7 frames, ID: container
+												139 text field (settable)  0 minutes 8 seconds 7 frames
+											140 container Description:  0 minutes 12 seconds 23 frames, ID: container
+												141 text field (settable)  0 minutes 12 seconds 23 frames
+									142 container Text with timing
+										143 container row-container
+											144 text entry area (settable) Description: Subtitle, Value: גם הוא את ההיסטוריה של ורוצלב.
+											145 container Description:  0 minutes 12 seconds 23 frames, ID: container
+												146 text field (settable)  0 minutes 12 seconds 23 frames
+											147 container Description:  0 minutes 15 seconds 20 frames, ID: container
+												148 text field (settable)  0 minutes 15 seconds 20 frames
+									149 container Text with timing
+										150 container row-container
+											151 text entry area (settable) Description: Subtitle, Value: בימי הביניים עמד כאן
+שער שנקרא ברמה סאקבובה.
+											152 container Description:  0 minutes 15 seconds 20 frames, ID: container
+												153 text field (settable)  0 minutes 15 seconds 20 frames
+											154 container Description:  0 minutes 21 seconds 5 frames, ID: container
+												155 text field (settable)  0 minutes 21 seconds 5 frames
+									156 container Text with timing
+										157 container row-container
+											158 text entry area (settable) Description: Subtitle, Value: השם סאקבובי בא לייצג את יצרני הארנקים
+											159 container Description:  0 minutes 21 seconds 5 frames, ID: container
+												160 text field (settable)  0 minutes 21 seconds 5 frames
+											161 container Description:  0 minutes 26 seconds 29 frames, ID: container
+												162 text field (settable)  0 minutes 26 seconds 29 frames
+									163 container Text with timing
+										164 container row-container
+											165 text entry area (settable) Description: Subtitle, Value: והכיסים שפעלו כאן במאה ה־14, בימי הביניים.
+											166 container Description:  0 minutes 26 seconds 29 frames, ID: container
+												167 text field (settable)  0 minutes 26 seconds 29 frames
+											168 container Description:  0 minutes 31 seconds 12 frames, ID: container
+												169 text field (settable)  0 minutes 31 seconds 12 frames
+									170 container Text with timing
+										171 container row-container
+											172 text entry area (settable) Description: Subtitle, Value: במאה ה־16 המקום הזה הפך להיות מצודת
+											173 container Description:  0 minutes 31 seconds 12 frames, ID: container
+												174 text field (settable)  0 minutes 31 seconds 12 frames
+											175 container Description:  0 minutes 35 seconds 12 frames, ID: container
+												176 text field (settable)  0 minutes 35 seconds 12 frames
+									177 container Text with timing
+										178 container row-container
+											179 text entry area (settable) Description: Subtitle, Value: הגנה על העיר, ולכן נקרא בסטיון סאקבובי.
+											180 container Description:  0 minutes 35 seconds 12 frames, ID: container
+												181 text field (settable)  0 minutes 35 seconds 12 frames
+											182 container Description:  0 minutes 39 seconds 19 frames, ID: container
+												183 text field (settable)  0 minutes 39 seconds 19 frames
+									184 container Text with timing
+										185 container row-container
+											186 text entry area (settable) Description: Subtitle, Value: החל מהמאה ה־19, כשהעיר נכבשה
+על ידי צבאות נפוליון, המקום הזה
+											187 container Description:  0 minutes 39 seconds 19 frames, ID: container
+												188 text field (settable)  0 minutes 39 seconds 19 frames
+											189 container Description:  0 minutes 45 seconds 18 frames, ID: container
+												190 text field (settable)  0 minutes 45 seconds 18 frames
+									191 container Text with timing
+										192 container row-container
+											193 text entry area (settable) Description: Subtitle, Value: איבד את המשמעות שלו כמקום
+של ביצורים או הגנה על העיר.
+											194 container Description:  0 minutes 45 seconds 18 frames, ID: container
+												195 text field (settable)  0 minutes 45 seconds 18 frames
+											196 container Description:  0 minutes 51 seconds 13 frames, ID: container
+												197 text field (settable)  0 minutes 51 seconds 13 frames
+									198 container Text with timing
+										199 container row-container
+											200 text entry area (settable) Description: Subtitle, Value: ומאז הוא נבנה כמקום מאוד מאוד אלגנטי. ניתן
+											201 container Description:  0 minutes 51 seconds 13 frames, ID: container
+												202 text field (settable)  0 minutes 51 seconds 13 frames
+											203 container Description:  0 minutes 55 seconds 4 frames, ID: container
+												204 text field (settable)  0 minutes 55 seconds 4 frames
+									205 container Text with timing
+										206 container row-container
+											207 text entry area (settable) Description: Subtitle, Value: לראות את הקולונדות שיש
+מאחוריי, את המזרקה היפה.
+											208 container Description:  0 minutes 55 seconds 4 frames, ID: container
+												209 text field (settable)  0 minutes 55 seconds 4 frames
+											210 container Description:  0 minutes 59 seconds 17 frames, ID: container
+												211 text field (settable)  0 minutes 59 seconds 17 frames
+						212 heading Subtitles preview, Value: 2, ID: preview-header
+							213 text Subtitles preview
+						214 container Description: Subtitles preview, ID: preview-panel
+							215 container Description: Video player, ID: video-container
+								216 container Description: בסטיון סאקבובי | המדריך שלנו בעברית, ID: video
+								217 container toolbar
+									218 container button-bar
+										219 button Description: Play, ID: play-button
+										220 button Description: Skip back 10 seconds, ID: skip-back-10
+										221 button Description: Skip forwards 10 seconds, ID: skip-forward-10
+										222 container
+											223 button Description: Mute, ID: volume-icon-button
+											224 slider Description: volume, Value: 100, ID: volume-slider
+										225 text 0:00 / 1:31
+										226 container
+											227 button Description: Settings, ID: settings-button
+							228 container preview-cta
+								229 container root-container
+									230 checkbox Description: Pause while typing, Value: 0, ID: checkbox
+									231 text Pause while typing
+								232 button View keyboard shortcuts
+									233 text View keyboard shortcuts
+					234 heading Subtitles timeline, Value: 2, ID: timeline-header
+						235 text Subtitles timeline
+					236 container Description: Subtitles timeline, ID: timeline-section
+						237 container
+							238 container left-controls
+								239 container Description:  0 minutes 0 seconds 0 frames, ID: container
+									240 text field (settable)  0 minutes 0 seconds 0 frames
+								241 button (disabled) Undo
+									242 text Undo
+								243 button (disabled) Redo
+									244 text Redo
+							245 container right-controls
+								246 button Description: Zoom out, ID: zoom-out
+								247 slider Description: Zoom slider, Value: 3, ID: zoom-slider
+								248 button Description: Zoom in, ID: zoom-in
+						249 container
+							250 container header-container
+								251 container
+									252 image Description: Timeline header, ID: canvas
+									253 button Description: Find playhead, ID: find-left-button
+									254 button Description: Find playhead, ID: find-right-button
+							255 container plugin-timeline-surface
+								256 container CAPTIONS
+									257 container decorations
+										258 container Cześć! אנחנו נמצאים בבסטיון סאקבובי, בשעה
+										259 text Cześć! אנחנו נמצאים בבסטיון סאקבובי, בשעה
+										260 container של שקיעה, שעה מוזהבת, והמקום הזה מספר
+										261 text של שקיעה, שעה מוזהבת, והמקום הזה מספר
+										262 container גם הוא את ההיסטוריה של ורוצלב.
+										263 text גם הוא את ההיסטוריה של ורוצלב.
+										264 container בימי הביניים עמד כאן שער שנקרא ברמה סאקבובה.
+										265 text בימי הביניים עמד כאן שער שנקרא ברמה סאקבובה.
+										266 text השם סאקבובי בא לייצג את יצרני הארנקים
+										267 text והכיסים שפעלו כאן במאה ה־14, בימי הביניים.
+										268 text במאה ה־16 המקום הזה הפך להיות מצודת
+										269 text הגנה על העיר, ולכן נקרא בסטיון סאקבובי.
+										270 text החל מהמאה ה־19, כשהעיר נכבשה על ידי צבאות נפוליון, המקום הזה
+										271 text איבד את המשמעות שלו כמקום של ביצורים או הגנה על העיר.
+										272 text ומאז הוא נבנה כמקום מאוד מאוד אלגנטי. ניתן
+										273 text לראות את הקולונדות שיש מאחוריי, את המזרקה היפה.
+										274 text והמקום היום הוא באמת מקום מאוד אלגנטי, שמתאר
+										275 text קצת את ההיסטוריה של המקום הזה והעיר הזו.
+										276 text אני מזמין אתכם לבקר במקום הנפלא הזה. יש
+										277 text כאן גם מסעדה נפלאה שנמצאת בקומת הקרקע, מסעדת גוסטאב.
+										278 text ובכלל פשוט להסתובב כאן, בין אם זה בבוקר
+										279 text או אחרי הצהריים, והכי יפה בשעה המוזהבת, בשקיעה.
+										280 text נתראה בווידאו הבא.
+										281 text Do widzenia!
+								282 container AUDIO_WAVEFORM
+									283 container audio-timeline-content
+										284 image Description: Audio waveform, ID: audio-waveform
+							285 container Description: Start of timeline, ID: left-bookend
+							286 container Description: End of timeline, ID: right-bookend
+							287 slider Description: Playhead, Value: 0, ID: playhead
+							288 container hover-playhead
+								289 text 0:00:00
+		290 container Options, ID: goog_560417058
+			291 text Options
+
+The focused UI element is 125 button Description: Options, ID: more-actions-menu
