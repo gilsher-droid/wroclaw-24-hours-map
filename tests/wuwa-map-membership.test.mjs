@@ -34,7 +34,7 @@ test("WuWA café is actually registered on Lifestyle with café-only media and s
 
 test("WuWA café Lifestyle video modal resolves the verified Public YouTube clip instead of pending",()=>{
  const window={};
- const content={innerHTML:""};
+ const content={innerHTML:"",querySelectorAll:()=>[]};
  const modal={hidden:true,setAttribute(){},querySelector(){return {focus(){}};}};
  const document={addEventListener(){},body:{style:{}},getElementById(id){return id==="media-content"?content:id==="media-modal"?modal:{textContent:""};}};
  const context={window,document,console,language:"en",escapeHtml:s=>s,placeName:()=>"WuWA Café"};
