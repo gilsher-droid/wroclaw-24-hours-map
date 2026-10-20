@@ -428,6 +428,7 @@ test("four-day and Christmas mobile controls contain overflow locally", () => {
   assert.match(css, /\.premium-languages\s*\{[\s\S]*?max-width:\s*100%;[\s\S]*?overflow-x:\s*auto;/);
   assert.match(css, /\.day-nav\s*\{[\s\S]*?max-width:\s*calc\(100% - 36px\);[\s\S]*?overflow-x:\s*auto;/);
   assert.doesNotMatch(css, /(?:html|body|\*)\s*\{[^}]*overflow-x:\s*hidden/);
-  assert.match(premium, /premium\.css\?v=20\d{6}-[a-z0-9-]+/);
+  assert.match(premium, /premium\.css\?v=20261020-dwarf-info-lines/);
+  assert.match(css, /#stop-dwarf-info[\s\S]*?white-space:pre-line/);
   assert.match(christmas, /premium\.css\?v=20261019-enrichment/);
 });
