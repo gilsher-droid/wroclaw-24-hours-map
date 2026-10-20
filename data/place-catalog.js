@@ -1830,9 +1830,11 @@
         }
       ],
       "mediaSource": "data/barbara-media-provenance.json",
-      "familyException": false
+      "familyException": false,
+      "visitVideoPublication": "data/barbara-visit-publication-receipt.json"
     },
     "media": {
+      "thumbnail": "/assets/barbara-wroclaw-entrance.jpg",
       "photos": [
         "/assets/barbara-wroclaw-entrance.jpg",
         "/assets/barbara-wroclaw-neon-detail.jpg",
@@ -1842,7 +1844,11 @@
         "/assets/barbara-wroclaw-exhibition-room.jpg",
         "/assets/barbara-wroclaw-mosaic-column.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/shorts/lX2mxhtVMi8",
+        "https://youtube.com/shorts/w_vNteiYq4o",
+        "https://youtube.com/shorts/QGne7T7L6og"
+      ],
       "metadata": {
         "/assets/barbara-wroclaw-neon-detail.jpg": {
           "original": true,
@@ -1976,6 +1982,63 @@
             "barbara",
             "mosaic-column"
           ]
+        },
+        "https://youtube.com/shorts/lX2mxhtVMi8": {
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-10-20 at 13.04.23.mp4",
+          "sourceSHA256": "2987abfd3fe1709bf7be75f32e0a4ea583b51e503ec1fec587b3755e5696f08b",
+          "uploadSHA256": "5ec439d49adecef0a2bd4e96ff3545b3cba01e8c446c845b635b19911e388032",
+          "durationSeconds": 15.4,
+          "audio": "removed in publication derivative",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "No issues found",
+          "familyForeground": false,
+          "alt": {
+            "he": "סרטון ביקור בכניסה ובחלל התרבות של ברברה",
+            "en": "Visit clip of Barbara’s entrance and cultural space",
+            "pl": "Film z wejścia i przestrzeni kulturalnej Barbary",
+            "de": "Besuchsclip vom Eingang und Kulturraum von Barbara",
+            "cs": "Záběry vstupu a kulturního prostoru Barbary"
+          }
+        },
+        "https://youtube.com/shorts/w_vNteiYq4o": {
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-10-20 at 13.04.30.mp4",
+          "sourceSHA256": "b1a3dad39016d7c316948a0486d1fb8a5f5c311e7c68d5ce7fa4cb36f4e673b9",
+          "uploadSHA256": "bf8ee209bf584a2fdd2400c82a2ad5fae2dcbcbfc38fe9ab382aaa3c4a6afdf2",
+          "durationSeconds": 5.8,
+          "audio": "removed in publication derivative",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "No issues found",
+          "familyForeground": false,
+          "alt": {
+            "he": "סרטון ביקור בלוח התרבות של ברברה",
+            "en": "Visit clip of Barbara’s cultural noticeboard",
+            "pl": "Film z tablicy wydarzeń kulturalnych w Barbarze",
+            "de": "Besuchsclip der Kulturankündigungen in Barbara",
+            "cs": "Záběry kulturní nástěnky v Barbaře"
+          }
+        },
+        "https://youtube.com/shorts/QGne7T7L6og": {
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-10-20 at 13.04.42.mp4",
+          "sourceSHA256": "66b114ac1dc5f8fb130c5751f70e7966b0a8e8f5d55a856e034222681cdf4383",
+          "uploadSHA256": "90970e1baad4b318946871333f019d85104b2e8a2af6d07d8fc1470e0ff127cb",
+          "durationSeconds": 9.066667,
+          "audio": "removed in publication derivative",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "No issues found",
+          "familyForeground": false,
+          "alt": {
+            "he": "סרטון ביקור בלוח המודעות ובחלל הפנימי של ברברה",
+            "en": "Visit clip of Barbara’s noticeboard and interior",
+            "pl": "Film z tablicy ogłoszeń i wnętrza Barbary",
+            "de": "Besuchsclip von Aushängen und Innenraum in Barbara",
+            "cs": "Záběry nástěnky a interiéru Barbary"
+          }
         }
       }
     },
@@ -37498,14 +37561,24 @@
           "checkedAt": "2026-10-20"
         }
       ],
-      "mediaSource": "Original WROC-LOVE visit photographs and videos; see data/zyjnia-enrichment-provenance.json"
+      "mediaSource": "Original WROC-LOVE visit photographs and videos; see data/zyjnia-enrichment-provenance.json",
+      "refreshSource": "data/bwa-refresh-provenance.json"
     },
     "media": {
-      "thumbnail": "/assets/zyjnia-bwa/zyjnia-01.jpg",
+      "thumbnail": "/assets/zyjnia-bwa/zyjnia-refresh-oct20-01.jpg",
       "photos": [
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-01.jpg",
         "/assets/zyjnia-bwa/zyjnia-01.jpg",
         "/assets/zyjnia-bwa/zyjnia-02.jpg",
-        "/assets/zyjnia-bwa/zyjnia-03.jpg"
+        "/assets/zyjnia-bwa/zyjnia-03.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-02.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-03.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-04.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-05.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-06.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-07.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-08.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-09.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/umUSV_b5q6w",
@@ -37661,6 +37734,150 @@
           "audio": "omitted",
           "publicVerifiedAt": "2026-10-20T08:29:37.771Z",
           "durationSeconds": 17.966667
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.17.jpeg",
+          "sourceSHA256": "113e5efbbd306ffa3a786fcf0745b30ba05c7eed0f0d32e81e81d50dbb9d4349",
+          "assetSHA256": "3485c2cb15eb57eff4f26d74cb65ffd714481eeaafa3ce51968d63e8bc0cde9e",
+          "alt": {
+            "he": "חזית הגלריה עם שלטי המקום והכניסה הצהובה",
+            "en": "Gallery façade with its signs and yellow entrance",
+            "pl": "Fasada galerii z szyldami i żółtym wejściem",
+            "de": "Galeriefassade mit Beschriftung und gelbem Eingang",
+            "cs": "Průčelí galerie s nápisy a žlutým vstupem"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (10).jpeg",
+          "sourceSHA256": "dfed7da734946f75b526882f4e917fe0348d0b3014f66ce946af20ae1b97da59",
+          "assetSHA256": "3a51ca323870d6eeaba22eb66d92a9da2acc1d3eae6107d3bae58173fe648bf6",
+          "alt": {
+            "he": "עבודת טקסטיל ירוקה מתצוגת הגלריה בעת הביקור",
+            "en": "Green textile artwork displayed during our gallery visit",
+            "pl": "Zielona praca tekstylna podczas naszej wizyty w galerii",
+            "de": "Grünes Textilkunstwerk während unseres Galeriebesuchs",
+            "cs": "Zelené textilní dílo při naší návštěvě galerie"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (2).jpeg",
+          "sourceSHA256": "241777346b2f939e9ab0c627686e94dd15a4ca70e187025a6dfcf1e0138280c1",
+          "assetSHA256": "921ed27997287f6593686e1c53c39dec7c72a926bea408ceeefd86ed50be3bbe",
+          "alt": {
+            "he": "כרזה ממוסגרת עם הכיתוב ארבעה ביוני, יום החירות",
+            "en": "Framed poster reading 4 June, Freedom Day",
+            "pl": "Oprawiony plakat z napisem 4 czerwca, Dzień Wolności",
+            "de": "Gerahmtes Plakat mit der Aufschrift 4. Juni, Tag der Freiheit",
+            "cs": "Zarámovaný plakát s nápisem 4. června, Den svobody"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (3).jpeg",
+          "sourceSHA256": "2f80eb2cf3a8ba355de6498f5b1d8a59581f6841ef2ede5bbdbc4d7bc4b48a21",
+          "assetSHA256": "43fe467945a6dbb016ad98ab5013db24205852489ca6de218be42a98f4176d91",
+          "alt": {
+            "he": "שלט הכוונה פנימי בגלריה בין שתי הכניסות",
+            "en": "Interior gallery wayfinding between the two entrances",
+            "pl": "Oznakowanie wewnętrzne galerii między dwoma wejściami",
+            "de": "Wegweiser in der Galerie zwischen den beiden Eingängen",
+            "cs": "Vnitřní rozcestník galerie mezi dvěma vstupy"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (4).jpeg",
+          "sourceSHA256": "c771dfa99377ab9dc66cb6e156b0613ec72bbfbb83e7910cf2cfd9c6c7b9a1aa",
+          "assetSHA256": "ab3c0720b7c83559f04eeae37db1879fa2106c9d9f4c0760e33fcccadd4d5406",
+          "alt": {
+            "he": "שתי עבודות צילום ממוסגרות בתצוגה",
+            "en": "Two framed photographic works on display",
+            "pl": "Dwie oprawione prace fotograficzne na wystawie",
+            "de": "Zwei gerahmte fotografische Arbeiten in der Ausstellung",
+            "cs": "Dvě zarámovaná fotografická díla na výstavě"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (5).jpeg",
+          "sourceSHA256": "839d232a35711b046ed5f9ef28545a4a4fb038c8776121327ccac6884e25480b",
+          "assetSHA256": "57a18f2a9f504c6f32672a059fbad7e50744cb4a23e4e378b65d3990990fd698",
+          "alt": {
+            "he": "עבודת צילום במסגרת צהובה בתצוגה",
+            "en": "Photographic artwork in a yellow frame",
+            "pl": "Praca fotograficzna w żółtej ramie",
+            "de": "Fotografisches Werk in einem gelben Rahmen",
+            "cs": "Fotografické dílo ve žlutém rámu"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (6).jpeg",
+          "sourceSHA256": "a933d8c4b69ffc7aa35e6edafca1633f921c90864ad8ff1f1d1c0a93597d91ad",
+          "assetSHA256": "0a24115129c7f8d1172f893150266becc394d0aeefdc75fabb4f2538a63d2677",
+          "alt": {
+            "he": "מיצב אור עגול על קיר הגלריה",
+            "en": "Circular light installation on the gallery wall",
+            "pl": "Okrągła instalacja świetlna na ścianie galerii",
+            "de": "Runde Lichtinstallation an der Galeriewand",
+            "cs": "Kruhová světelná instalace na stěně galerie"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (7).jpeg",
+          "sourceSHA256": "ac2b4421f4f44e8f83e6bff60beaba8169e8d4802137c861c98923c371e5b7eb",
+          "assetSHA256": "059325bd5e3873dfa5a9f74b5f2d85223cdca35ec5c9ada6029a6d656fa63627",
+          "alt": {
+            "he": "אריחים צבעוניים וספסל בחלל הגלריה",
+            "en": "Colourful tiles and a bench in the gallery",
+            "pl": "Kolorowe płytki i ławka we wnętrzu galerii",
+            "de": "Bunte Fliesen und eine Bank im Galerieraum",
+            "cs": "Barevné obklady a lavice v galerii"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (8).jpeg",
+          "sourceSHA256": "9cda2a3f02c1872777170c86627a79edc531a1671d3c0f022284b1437dbcc52b",
+          "assetSHA256": "55c3dce8fa2537d05f6edd93bcbf4614c47bf4418fde13ab2c9bc01b0d29ad4d",
+          "alt": {
+            "he": "עבודת טקסטיל צבעונית על קיר ירוק",
+            "en": "Colourful textile artwork on a green wall",
+            "pl": "Kolorowa praca tekstylna na zielonej ścianie",
+            "de": "Buntes Textilkunstwerk an einer grünen Wand",
+            "cs": "Barevné textilní dílo na zelené stěně"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
         }
       }
     },

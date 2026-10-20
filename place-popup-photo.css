@@ -69,3 +69,6 @@
 
 /* Preserve full district and synagogue photographs. */
 .place-popup-photo[src*="four-denominations-district-"], .place-popup-photo[src*="/white-stork/"] { object-fit: contain; background: #f4f0e8; }
+
+/* Barbara representative facade keeps the full original framing. */
+.place-popup-photo[src*="/barbara-wroclaw-"] { object-fit:contain; background:#f4f0e8; }

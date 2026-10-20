@@ -1,0 +1,74 @@
+[
+  {
+    "order": 1,
+    "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.04.23.mp4",
+    "sourceSHA256": "2987abfd3fe1709bf7be75f32e0a4ea583b51e503ec1fec587b3755e5696f08b",
+    "prepared": "workspace/outputs/barbara-enrichment-2026-10-20/prepared-videos/barbara-visit-01-silent.mp4",
+    "preparedSHA256": "5ec439d49adecef0a2bd4e96ff3545b3cba01e8c446c845b635b19911e388032",
+    "seconds": 15.4,
+    "youtubeId": "lX2mxhtVMi8",
+    "youtube": "https://youtube.com/shorts/lX2mxhtVMi8",
+    "state": "published-public-checks-complete",
+    "visibility": "Public",
+    "publicVerified": true,
+    "checksComplete": true,
+    "audio": "none",
+    "familyException": false,
+    "originalUnchanged": true,
+    "identityConfirmation": "specific-video-identity-confirmation.json",
+    "savedPublicVerified": true,
+    "checks": "Copyright: No issues found; Community Guidelines: No issues found",
+    "evidence": [
+      "youtube-all3-public.png",
+      "youtube-01-checks-complete.txt"
+    ]
+  },
+  {
+    "order": 2,
+    "source": "Desktop/Wroclaw/BARBARA/WhatsApp Video 2026-10-20 at 13.04.30.mp4",
+    "sourceSHA256": "b1a3dad39016d7c316948a0486d1fb8a5f5c311e7c68d5ce7fa4cb36f4e673b9",
+    "prepared": "workspace/outputs/barbara-enrichment-2026-10-20/prepared-videos/barbara-visit-02-silent.mp4",
+    "preparedSHA256": "bf8ee209bf584a2fdd2400c82a2ad5fae2dcbcbfc38fe9ab382aaa3c4a6afdf2",
+    "seconds": 5.8,
+    "youtubeId": "w_vNteiYq4o",
+    "youtube": "https://youtube.com/shorts/w_vNteiYq4o",
+    "state": "published-public-checks-complete",
+    "visibility": "Public",
+    "publicVerified": true,
+    "checksComplete": true,
+    "audio": "none",
+    "familyException": false,
+    "originalUnchanged": true,
+    "identityConfirmation": "BARBARA source folder and visual venue match",
+    "savedPublicVerified": true,
+    "checks": "Copyright: No issues found; Community Guidelines: No issues found",
+    "evidence": [
+      "youtube-all3-public.png",
+      "youtube-02-checks-complete.txt"
+    ]
+  },
+  {
+    "order": 3,
+    "source": "Desktop/Wroclaw/BARBARA/WhatsApp Video 2026-10-20 at 13.04.42.mp4",
+    "sourceSHA256": "66b114ac1dc5f8fb130c5751f70e7966b0a8e8f5d55a856e034222681cdf4383",
+    "prepared": "workspace/outputs/barbara-enrichment-2026-10-20/prepared-videos/barbara-visit-03-silent.mp4",
+    "preparedSHA256": "90970e1baad4b318946871333f019d85104b2e8a2af6d07d8fc1470e0ff127cb",
+    "seconds": 9.066667,
+    "youtubeId": "QGne7T7L6og",
+    "youtube": "https://youtube.com/shorts/QGne7T7L6og",
+    "state": "published-public-checks-complete",
+    "visibility": "Public",
+    "publicVerified": true,
+    "checksComplete": true,
+    "audio": "none",
+    "familyException": false,
+    "originalUnchanged": true,
+    "identityConfirmation": "BARBARA source folder and visual venue match",
+    "savedPublicVerified": true,
+    "checks": "Copyright: No issues found; Community Guidelines: No issues found",
+    "evidence": [
+      "youtube-all3-public.png",
+      "youtube-03-checks-complete.txt"
+    ]
+  }
+]
