@@ -36815,7 +36815,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1086376%2C17.0331186",
         "appleMaps": "https://maps.apple.com/?ll=51.1086376,17.0331186&q=%C5%BByjnia%20BWA%20Wroc%C5%82aw"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
