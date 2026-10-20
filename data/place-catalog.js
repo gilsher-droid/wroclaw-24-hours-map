@@ -3936,6 +3936,173 @@
       }
     ]
   },
+  "bru-coffee-bakehouse-wroclaw": {
+    "id": "bru-coffee-bakehouse-wroclaw",
+    "localName": "BRÚ",
+    "name": {
+      "he": "קפה ברו",
+      "en": "BRÚ Coffee & Vegan Bakehouse",
+      "pl": "BRÚ Kawiarnia i wegańska piekarnia",
+      "de": "BRÚ Café und vegane Backstube",
+      "cs": "BRÚ Kavárna a veganská pekárna"
+    },
+    "description": {
+      "he": "בית קפה ומאפייה טבעונית ברחוב ציבולסקי, מצפון לנהר האודר. המקום מתמחה בקפה ובמאפים מהצומח, ואפשר לשלב עצירה בו עם שיטוט באזור נדאודז׳ה ובגדת הנהר. בתמונת הביקור שלנו נראים השלט הצהוב והכניסה מתחת לחזית הבניין המעוטרת.\nBRÚ\nWojciecha Cybulskiego 1, Wrocław",
+      "en": "A speciality coffee shop and vegan bakehouse on Cybulskiego, north of the Oder. A coffee and plant-based pastry stop to combine with a walk around Nadodrze and the riverside. Our visit photograph shows the yellow sign and entrance beneath the building’s ornate façade.\nWojciecha Cybulskiego 1, Wrocław",
+      "pl": "Kawiarnia speciality i wegańska piekarnia przy ulicy Cybulskiego, na północ od Odry. Przerwę na kawę i roślinne wypieki można połączyć ze spacerem po Nadodrzu i nad rzeką. Nasze zdjęcie z wizyty przedstawia żółty szyld oraz wejście pod ozdobną fasadą kamienicy.\nWojciecha Cybulskiego 1, Wrocław",
+      "de": "Ein Spezialitätencafé und eine vegane Backstube an der Cybulskiego nördlich der Oder. Eine Pause mit Kaffee und pflanzlichem Gebäck lässt sich mit einem Spaziergang durch Nadodrze und am Fluss verbinden. Unser Besuchsfoto zeigt das gelbe Schild und den Eingang unter der verzierten Hausfassade.\nWojciecha Cybulskiego 1, Wrocław",
+      "cs": "Výběrová kavárna a veganská pekárna v ulici Cybulskiego severně od Odry. Kávu a rostlinné pečivo lze spojit s procházkou po Nadodrzu a podél řeky. Naše fotografie z návštěvy zachycuje žlutý nápis a vstup pod zdobeným průčelím domu.\nWojciecha Cybulskiego 1, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1162404,
+        "lng": 17.0330587
+      },
+      "address": {
+        "street": "Wojciecha Cybulskiego 1",
+        "city": "Wrocław",
+        "postalCode": "50-206",
+        "countryCode": "PL"
+      }
+    },
+    "categories": [
+      "cafe",
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "BRU",
+      "BRU coffee bakehouse",
+      "BRÚ speciality coffee & vegan bakehouse",
+      "Brú",
+      "Brū",
+      "ברו",
+      "קפה ברו"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "bru-coffee-bakehouse-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "bru-coffee-bakehouse-wroclaw",
+        "lat": 51.1162404,
+        "lng": 17.0330587
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "cafe",
+        "drink",
+        "eat"
+      ],
+      "tags": [
+        "speciality-coffee",
+        "vegan-bakery",
+        "nadodrze",
+        "cafe"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1162404%2C17.0330587",
+        "appleMaps": "https://maps.apple.com/?ll=51.1162404,17.0330587"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-20",
+      "factualSources": [
+        {
+          "url": "https://www.instagram.com/bru.coffee.bakehouse/",
+          "scope": "Actual official profile confirms BRÚ speciality coffee and vegan bakehouse, Wrocław-Cybulskiego1. This is a source profile, not a WROC-LOVE place post.",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://europeancoffeetrip.com/cafe/bru-wroclaw/",
+          "scope": "Independent café address Cybulskiego1,postal50-206.",
+          "verifiedAt": "2026-10-20"
+        },
+        {
+          "url": "https://www.openstreetmap.org/node/4102501889",
+          "scope": "Mapped Brú café coordinates; OSM house1a and official business house1 discrepancy documented, official1 used for visitor address.",
+          "verifiedAt": "2026-10-20"
+        }
+      ]
+    },
+    "media": {
+      "thumbnail": "/assets/food-cafes/bru-coffee-bakehouse-01.jpg",
+      "photos": [
+        "/assets/food-cafes/bru-coffee-bakehouse-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-cafes/bru-coffee-bakehouse-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BRU/WhatsApp Image 2026-10-18 at 09.58.02 (3).jpeg",
+          "sourceSHA256": "6fae46b3278ff4c5b2fd7684fffa6377e0d0efefceb0a9505597dd273908e852",
+          "assetSHA256": "733bd60e4c0cc649c2946fe6135b1f2b577527d3ff3b6f1f69c4cb8160a001c5",
+          "alt": {
+            "he": "שלט הכניסה הצהוב של ברו מתחת לחזית המעוטרת",
+            "en": "Yellow BRÚ entrance sign beneath the ornate façade",
+            "pl": "Żółty szyld BRÚ pod ozdobną fasadą",
+            "de": "Gelbes BRÚ-Eingangsschild unter der verzierten Fassade",
+            "cs": "Žlutý nápis BRÚ pod zdobeným průčelím"
+          },
+          "privacyReview": "Place façade with incidental non-posed reflection; no personal/family portrait. No crop or retouch.",
+          "verifiedAt": "2026-10-20"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "brzeg-castle": {
     "id": "brzeg-castle",
     "localName": "Zamek Piastów Śląskich w Brzegu",
@@ -38447,6 +38614,13 @@
   "Restauracja Gustaw": "gustaw-restaurant-wroclaw",
   "מסעדת גוסטב": "gustaw-restaurant-wroclaw",
   "גוסטב": "gustaw-restaurant-wroclaw",
+  "BRU": "bru-coffee-bakehouse-wroclaw",
+  "Brú": "bru-coffee-bakehouse-wroclaw",
+  "Brū": "bru-coffee-bakehouse-wroclaw",
+  "BRÚ speciality coffee & vegan bakehouse": "bru-coffee-bakehouse-wroclaw",
+  "BRU coffee bakehouse": "bru-coffee-bakehouse-wroclaw",
+  "ברו": "bru-coffee-bakehouse-wroclaw",
+  "קפה ברו": "bru-coffee-bakehouse-wroclaw",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",

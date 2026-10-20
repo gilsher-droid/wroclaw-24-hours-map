@@ -1,0 +1,45 @@
+{
+  "canonicalId": "bru-coffee-bakehouse-wroclaw",
+  "photo": {
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/BRU/WhatsApp Image 2026-10-18 at 09.58.02 (3).jpeg",
+    "sourceSHA256": "6fae46b3278ff4c5b2fd7684fffa6377e0d0efefceb0a9505597dd273908e852",
+    "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/bru-enrichment-2026-10-20/prepared-assets/bru-coffee-bakehouse-01.jpg",
+    "sitePath": "/assets/food-cafes/bru-coffee-bakehouse-01.jpg",
+    "assetSHA256": "733bd60e4c0cc649c2946fe6135b1f2b577527d3ff3b6f1f69c4cb8160a001c5",
+    "dimensions": [
+      1350,
+      1800
+    ],
+    "alt": {
+      "he": "שלט הכניסה הצהוב של ברו מתחת לחזית המעוטרת",
+      "en": "Yellow BRÚ entrance sign beneath the ornate façade",
+      "pl": "Żółty szyld BRÚ pod ozdobną fasadą",
+      "de": "Gelbes BRÚ-Eingangsschild unter der verzierten Fassade",
+      "cs": "Žlutý nápis BRÚ pod zdobeným průčelím"
+    },
+    "privacyReview": "Manager visually reviewed original prepared frame: façade, sign and doorway are main subject; small non-posed incidental reflection has no identifiable family context. Not a family or personal portrait. No privacy exception granted or used; full image preserved."
+  },
+  "factualSources": [
+    {
+      "url": "https://www.instagram.com/bru.coffee.bakehouse/",
+      "scope": "Actual official profile confirms BRÚ speciality coffee and vegan bakehouse, Wrocław-Cybulskiego1. This is a source profile, not a WROC-LOVE place post.",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "url": "https://europeancoffeetrip.com/cafe/bru-wroclaw/",
+      "scope": "Independent café address Cybulskiego1,postal50-206.",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "url": "https://www.openstreetmap.org/node/4102501889",
+      "scope": "Mapped Brú café coordinates; OSM house1a and official business house1 discrepancy documented, official1 used for visitor address.",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "familyException": false,
+  "sourceOriginalModified": false,
+  "socialAudit": "No exact WROC-LOVE written post verified in bounded archive/name search. No account fallback or new publication.",
+  "maps": [
+    "lifestyle-guide/eat+drink"
+  ]
+}

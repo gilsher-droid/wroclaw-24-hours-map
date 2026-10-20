@@ -72,3 +72,5 @@
 
 /* Barbara representative facade keeps the full original framing. */
 .place-popup-photo[src*="/barbara-wroclaw-"] { object-fit:contain; background:#f4f0e8; }
+
+.place-popup-photo[src*="/bru-coffee-bakehouse-"] { object-fit:contain; background:#faf8f3; }
