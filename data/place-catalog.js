@@ -558,11 +558,11 @@
       "cs": "Arche Klasztor Wrocław"
     },
     "description": {
-      "he": "מלון בוטיק במנזר משוחזר מהמאה ה־19 בשכונת Karłowice הירוקה, עם פארק, בית קפה ומסעדה הנכללת במדריך MICHELIN. חלק מהמתחם עדיין משמש מנזר פעיל. כתובת: Al. Jana Kasprowicza 64–66.",
-      "en": "A boutique hotel in a restored 19th-century monastery in leafy Karłowice, with a park, café and a restaurant included in the MICHELIN Guide. Part of the complex is still an active monastery. Address: Al. Jana Kasprowicza 64–66.",
-      "pl": "Hotel butikowy w odrestaurowanym XIX-wiecznym klasztorze na zielonych Karłowicach, z parkiem, kawiarnią i restauracją wyróżnioną obecnością w przewodniku MICHELIN. Część kompleksu nadal pełni funkcję czynnego klasztoru. Adres: Al. Jana Kasprowicza 64–66.",
-      "de": "Ein Boutiquehotel in einem restaurierten Kloster aus dem 19. Jahrhundert im grünen Karłowice, mit Park, Café und einem Restaurant im Guide MICHELIN. Ein Teil des Komplexes wird weiterhin als aktives Kloster genutzt. Adresse: Al. Jana Kasprowicza 64–66.",
-      "cs": "Butikový hotel v obnoveném klášteře z 19. století v zelené čtvrti Karłowice, s parkem, kavárnou a restaurací zařazenou do průvodce MICHELIN. Část komplexu stále slouží jako činný klášter. Adresa: Al. Jana Kasprowicza 64–66."
+      "he": "מלון במתחם מנזר משוחזר מהמאה ה־19 בשכונת קרלוביצה, עם פארק פרטי, בית קפה ומסעדה המופיעה במדריך מישלן. באגף אחד עדיין חיות ופועלות הנזירות הפרנציסקניות. בתמונות הביקור שלנו נראים חזית הלבנים המוארת, דלת הכניסה, מדרגות העץ, המזרקה, הפסיפס והארוחה במסעדה. זו נקודה אחת למתחם, בנפרד ממלון ארכה שליד נמל התעופה.\nArche Klasztor Wrocław\nAl. Jana Kasprowicza 64–66, Wrocław",
+      "en": "A hotel in a restored 19th-century monastery complex in Karłowice, with a private park, café and a restaurant listed in the MICHELIN Guide. Franciscan Sisters still live and work in one wing. Our visit photographs show the illuminated brick facade, entrance door, wooden stairs, fountain, mosaic and restaurant meal. This is one point for the complex, separate from the Arche hotel near the airport.\nAl. Jana Kasprowicza 64–66, Wrocław",
+      "pl": "Hotel w odrestaurowanym XIX-wiecznym kompleksie klasztornym na Karłowicach, z prywatnym parkiem, kawiarnią i restauracją obecną w przewodniku MICHELIN. W jednym skrzydle nadal mieszkają i pracują siostry franciszkanki. Nasze zdjęcia z wizyty pokazują oświetloną ceglaną fasadę, drzwi wejściowe, drewniane schody, fontannę, mozaikę i posiłek w restauracji. To jeden punkt całego kompleksu, odrębny od hotelu Arche przy lotnisku.\nAl. Jana Kasprowicza 64–66, Wrocław",
+      "de": "Hotel in einem restaurierten Klosterkomplex aus dem 19. Jahrhundert in Karłowice mit Privatpark, Café und einem im Guide MICHELIN geführten Restaurant. In einem Flügel leben und arbeiten weiterhin Franziskanerinnen. Unsere Besuchsfotos zeigen die beleuchtete Backsteinfassade, die Eingangstür, Holztreppen, den Brunnen, das Mosaik und das Essen im Restaurant. Ein gemeinsamer Kartenpunkt für den Komplex, getrennt vom Arche-Hotel am Flughafen.\nAl. Jana Kasprowicza 64–66, Wrocław",
+      "cs": "Hotel v obnoveném klášterním komplexu z 19. století v Karłowicích se soukromým parkem, kavárnou a restaurací uvedenou v průvodci MICHELIN. V jednom křídle stále žijí a pracují františkánské sestry. Naše fotografie z návštěvy ukazují osvětlené cihlové průčelí, vstupní dveře, dřevěné schody, fontánu, mozaiku a jídlo v restauraci. Jeden bod pro celý komplex, oddělený od hotelu Arche u letiště.\nAl. Jana Kasprowicza 64–66, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -650,7 +650,8 @@
         "googleMaps": null,
         "appleMaps": null
       },
-      "michelin": "https://guide.michelin.com/pl/en/lower-silesian/wroclaw_2399695/restaurant/arche-klasztor"
+      "michelin": "https://guide.michelin.com/pl/en/lower-silesian/wroclaw_2399695/restaurant/arche-klasztor",
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -673,24 +674,35 @@
         {
           "type": "official",
           "url": "https://archeklasztorwroclaw.pl/en",
-          "checkedAt": "2026-10-01",
+          "checkedAt": "2026-10-20T18:42:08.948079+00:00",
           "note": "Restored monastery hotel, restaurant, cafés and park."
         },
         {
           "type": "official",
           "url": "https://archeklasztorwroclaw.pl/en/contact",
-          "checkedAt": "2026-10-01",
+          "checkedAt": "2026-10-20T18:42:08.948079+00:00",
           "note": "Official address and JSON-LD coordinates: 51.138478, 17.0509769."
         },
         {
           "type": "official",
           "url": "https://guide.michelin.com/pl/en/lower-silesian/wroclaw_2399695/restaurant/arche-klasztor",
-          "checkedAt": "2026-10-01",
+          "checkedAt": "2026-10-20T18:42:08.948079+00:00",
           "note": "Restaurant included in the MICHELIN Guide; no star claim."
         }
-      ]
+      ],
+      "refresh20261020": {
+        "sourceFiles": 18,
+        "sourceUniqueHashes": 17,
+        "newPhotos": 4,
+        "existingPhotosPreserved": 10,
+        "personalPortraitRemovedFromPublicArtifact": "/assets/arche-klasztor-11.jpg",
+        "originalsPreserved": true,
+        "officialMichelinListingReverified": "2026-10-20T18:42:08.948079+00:00",
+        "mapDecision": "Lifestyle sleep/eat/drink retained; no extra itinerary or culture point needed for private hotel complex"
+      }
     },
     "media": {
+      "thumbnail": "/assets/arche-klasztor-01.jpg",
       "photos": [
         "/assets/arche-klasztor-01.jpg",
         "/assets/arche-klasztor-02.jpg",
@@ -702,27 +714,44 @@
         "/assets/arche-klasztor-08.jpg",
         "/assets/arche-klasztor-09.jpg",
         "/assets/arche-klasztor-10.jpg",
-        "/assets/arche-klasztor-11.jpg"
+        "/assets/arche-klasztor-12.jpg",
+        "/assets/arche-klasztor-13.jpg",
+        "/assets/arche-klasztor-14.jpg",
+        "/assets/arche-klasztor-15.jpg"
       ],
       "videos": [],
       "metadata": {
         "/assets/arche-klasztor-01.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17 (5).jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.17 (5).jpeg",
           "heroCandidate": true,
           "alt": {
             "he": "חזית המלון המוארת בלילה",
-            "en": "Illuminated hotel exterior at night"
-          }
+            "en": "Illuminated hotel exterior at night",
+            "pl": "Oświetlona fasada hotelu nocą",
+            "de": "Beleuchtete Hotelfassade bei Nacht",
+            "cs": "Osvětlené průčelí hotelu v noci"
+          },
+          "assetSHA256": "064e82c0e06387101944cfefa12eff3b46635149e1e5fd1b48add851d598994a",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "064e82c0e06387101944cfefa12eff3b46635149e1e5fd1b48add851d598994a"
         },
         "/assets/arche-klasztor-02.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17.jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.17.jpeg",
           "heroCandidate": false,
           "alt": {
             "he": "דלת הכניסה ההיסטורית",
-            "en": "Historic entrance door"
-          }
+            "en": "Historic entrance door",
+            "pl": "Zabytkowe drzwi wejściowe",
+            "de": "Historische Eingangstür",
+            "cs": "Historické vstupní dveře"
+          },
+          "assetSHA256": "6a742a64510d0ee6af45c2f353469813a1c79a255eccf14a0407788dba307a9b",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "6a742a64510d0ee6af45c2f353469813a1c79a255eccf14a0407788dba307a9b"
         },
         "/assets/arche-klasztor-03.jpg": {
           "original": true,
@@ -730,80 +759,187 @@
           "heroCandidate": false,
           "alt": {
             "he": "קיר הפסיפס בחצר",
-            "en": "Courtyard mosaic wall"
-          }
+            "en": "Courtyard mosaic wall",
+            "pl": "Ściana z mozaiką na dziedzińcu",
+            "de": "Mosaikwand im Hof",
+            "cs": "Mozaiková stěna na nádvoří"
+          },
+          "assetSHA256": "9e7984c82157b43c8804c1470b16a66b3cd9f0374f79e7e8e660759a7d6adf2e",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceAvailability": "Historical original filename no longer present in current source folder; existing reviewed valid asset preserved"
         },
         "/assets/arche-klasztor-04.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17 (3).jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.17 (3).jpeg",
           "heroCandidate": false,
           "alt": {
-            "he": "גרם המדרגות ההיסטורי",
-            "en": "Historic staircase"
-          }
+            "he": "גרם מדרגות העץ ההיסטורי",
+            "en": "Historic wooden staircase",
+            "pl": "Zabytkowe drewniane schody",
+            "de": "Historische Holztreppe",
+            "cs": "Historické dřevěné schodiště"
+          },
+          "assetSHA256": "304af80a4bb20081da4a1bced6540b97c11b689bda83facfc24da86a0e6caa70",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "304af80a4bb20081da4a1bced6540b97c11b689bda83facfc24da86a0e6caa70"
         },
         "/assets/arche-klasztor-05.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17 (1).jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.17 (1).jpeg",
           "heroCandidate": false,
           "alt": {
             "he": "מזרקת האבן ואריחי הקיר",
-            "en": "Stone fountain and wall tiles"
-          }
+            "en": "Stone fountain and wall tiles",
+            "pl": "Kamienna fontanna i płytki ścienne",
+            "de": "Steinbrunnen und Wandfliesen",
+            "cs": "Kamenná fontána a nástěnné obklady"
+          },
+          "assetSHA256": "7ff5686d2d211e1684c878fc4f4e993ce90a369fcfa2ec5dd059745f8af9e743",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "7ff5686d2d211e1684c878fc4f4e993ce90a369fcfa2ec5dd059745f8af9e743"
         },
         "/assets/arche-klasztor-06.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.16.jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.16.jpeg",
           "heroCandidate": false,
           "alt": {
-            "he": "תפריט בהשראת מתכוני הנזירות",
-            "en": "Menu inspired by the nuns’ recipes"
-          }
+            "he": "כריכת תפריט המסעדה בזמן הביקור",
+            "en": "Restaurant menu cover during our visit",
+            "pl": "Okładka menu podczas naszej wizyty",
+            "de": "Speisekartenumschlag bei unserem Besuch",
+            "cs": "Obálka jídelního lístku při naší návštěvě"
+          },
+          "assetSHA256": "7e9c5d3174c31c0300515263bc6a0f7aa995d824d236d77f175cd1e732caa699",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "7e9c5d3174c31c0300515263bc6a0f7aa995d824d236d77f175cd1e732caa699"
         },
         "/assets/arche-klasztor-07.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.15.jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.15.jpeg",
           "heroCandidate": false,
           "alt": {
             "he": "מנות על שולחן המסעדה",
-            "en": "Dishes on the restaurant table"
-          }
+            "en": "Dishes on the restaurant table",
+            "pl": "Dania na restauracyjnym stole",
+            "de": "Gerichte auf dem Restauranttisch",
+            "cs": "Pokrmy na stole restaurace"
+          },
+          "assetSHA256": "eaf79cd281aa1cd18a4140c3d51877591eff4eb7ada2510fafafebd7cead6af3",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "eaf79cd281aa1cd18a4140c3d51877591eff4eb7ada2510fafafebd7cead6af3"
         },
         "/assets/arche-klasztor-08.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.15 (3).jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.15 (3).jpeg",
           "heroCandidate": false,
           "alt": {
             "he": "מנה עם עגבניות ורוטב ירוק",
-            "en": "Dish with tomatoes and green sauce"
-          }
+            "en": "Dish with tomatoes and green sauce",
+            "pl": "Danie z pomidorami i zielonym sosem",
+            "de": "Gericht mit Tomaten und grüner Sauce",
+            "cs": "Pokrm s rajčaty a zelenou omáčkou"
+          },
+          "assetSHA256": "1f84e0ec42257c547adfdc84b7dd4239fdd8716808fbf8984785f2c38030269d",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "1f84e0ec42257c547adfdc84b7dd4239fdd8716808fbf8984785f2c38030269d"
         },
         "/assets/arche-klasztor-09.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.15 (2).jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.15 (2).jpeg",
           "heroCandidate": false,
           "alt": {
             "he": "מנה לצד ירקות ונבטים",
-            "en": "Dish with vegetables and sprouts"
-          }
+            "en": "Dish with vegetables and sprouts",
+            "pl": "Danie z warzywami i kiełkami",
+            "de": "Gericht mit Gemüse und Sprossen",
+            "cs": "Pokrm se zeleninou a klíčky"
+          },
+          "assetSHA256": "bad44f53ef0d3ab689aaed706c04439771f835814ff9e98b5ed08ac8eba09776",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "bad44f53ef0d3ab689aaed706c04439771f835814ff9e98b5ed08ac8eba09776"
         },
         "/assets/arche-klasztor-10.jpg": {
           "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 19.03.00 (1).jpeg",
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 19.03.00 (1).jpeg",
           "heroCandidate": false,
           "alt": {
             "he": "שלט הכניסה למתחם",
-            "en": "Entrance sign for the complex"
-          }
+            "en": "Entrance sign for the complex",
+            "pl": "Szyld przy wejściu do kompleksu",
+            "de": "Eingangsschild des Komplexes",
+            "cs": "Vstupní označení areálu"
+          },
+          "assetSHA256": "b76007e4011d7718e752e69d25be6c185986a7a8d6fa0a10e5f87b501ce35df9",
+          "familyForeground": false,
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00",
+          "sourceSHA256": "b76007e4011d7718e752e69d25be6c185986a7a8d6fa0a10e5f87b501ce35df9"
         },
-        "/assets/arche-klasztor-11.jpg": {
-          "original": true,
-          "sourceFile": "WhatsApp Image 2026-09-24 at 17.31.17 (4).jpeg",
-          "heroCandidate": false,
+        "/assets/arche-klasztor-12.jpg": {
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.18 (1).jpeg",
+          "sourceSHA256": "da941fa156b0986bd197d66666dc87dbf5673d67a7dfe66772bae648fb62df8f",
+          "assetSHA256": "6c445aaeaeb5e3b056770c326e40a50f3671d618f7bf9329298f1e6fc1b2e195",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
           "alt": {
-            "he": "צילום אישי בכניסה למלון",
-            "en": "Personal photograph at the hotel entrance"
-          }
+            "he": "פרט הפסיפס עם שתי דמויות",
+            "en": "Mosaic detail with two figures",
+            "pl": "Fragment mozaiki z dwiema postaciami",
+            "de": "Mosaikdetail mit zwei Figuren",
+            "cs": "Detail mozaiky se dvěma postavami"
+          },
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00"
+        },
+        "/assets/arche-klasztor-13.jpg": {
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.18 (4).jpeg",
+          "sourceSHA256": "4a44f8c6d37e31175a0594b73130c24e5a1a38fd808c59d35bcd8b07914b61ee",
+          "assetSHA256": "c743373e37772e08282cec34fc633a3a107c6b0e69cb3aa9f1a4740c216f932e",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט קרוב על חזית הלבנים המוארת",
+            "en": "Closer view of the illuminated brick facade",
+            "pl": "Zbliżenie oświetlonej ceglanej fasady",
+            "de": "Nahansicht der beleuchteten Backsteinfassade",
+            "cs": "Bližší pohled na osvětlené cihlové průčelí"
+          },
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00"
+        },
+        "/assets/arche-klasztor-14.jpg": {
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 19.03.00 (19).jpeg",
+          "sourceSHA256": "6bd61a28aca67c345f250e1760be32f173dbbec581ff2c6634f97c538b01f361",
+          "assetSHA256": "adb1f49bb78df48fcb67b3fcd7a5f82c344b5d928fcb9cd44f3305d2d89b0a5c",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "קיר הפסיפס והגן מסביבו",
+            "en": "Mosaic wall and surrounding garden",
+            "pl": "Ściana z mozaiką i otaczający ogród",
+            "de": "Mosaikwand und umgebender Garten",
+            "cs": "Mozaiková stěna a okolní zahrada"
+          },
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00"
+        },
+        "/assets/arche-klasztor-15.jpg": {
+          "sourceFile": "Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 19.03.00 (21).jpeg",
+          "sourceSHA256": "cccf278e5dc1725b7e73a195ff71e23256bac6df85ad4ff4bd196d8cb053dc4d",
+          "assetSHA256": "138a971ba3ec18086de8c8d0b5ad094d45fd98cee25809a5f461f303cd255f53",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "חזית המתחם והשטח שלפניה בלילה",
+            "en": "Complex facade and foreground at night",
+            "pl": "Fasada kompleksu i teren przed nią nocą",
+            "de": "Komplexfassade und Vorplatz bei Nacht",
+            "cs": "Průčelí areálu a prostor před ním v noci"
+          },
+          "verifiedAt": "2026-10-20T18:42:08.948079+00:00"
         }
       }
     },
