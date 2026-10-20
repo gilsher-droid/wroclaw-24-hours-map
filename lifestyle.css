@@ -197,3 +197,8 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 /* Keep coffee cups, counter signs and cake details fully visible in this visit gallery. */
 .media-grid img[src*="/food-cafes/mala-czarna-"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
 .place-popup-photo[src*="/food-cafes/mala-czarna-"] { object-fit:contain; background:#fffaf0; }
+
+/* Preserve complete visit photos for Cafe Berg and the Gustaw entrance. */
+.media-grid img[src*="/food-cafes/cafe-berg-"],
+.media-grid img[src*="/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg"],
+.media-grid img[src*="/renoma-refresh-oct20-"] { height: auto; max-height: 65vh; object-fit: contain; background: #faf8f3; }

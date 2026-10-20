@@ -1,0 +1,319 @@
+Browser tab: 31058224, Title: "Languages - YouTube Studio", URL: "https://studio.youtube.com/video/0lgh4TXXbeo/translations".
+1 AXWebArea Languages - YouTube Studio, URL: studio.youtube.com/video/0lgh4TXXbeo/translations
+	2 container html-body
+		3 container
+			4 text Languages
+			5 container main-container
+				6 container
+					7 button Collapse menu
+					8 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					9 button Skip navigation
+						10 text Skip navigation
+					11 container search-layer
+						12 text field (settable) query-input
+					13 button Help
+					14 button Notifications
+					15 button Ask Studio
+						16 text Ask Studio
+					17 button Create
+						18 text Create
+					19 container Account
+						20 pop up button Description: Account, ID: avatar-btn
+				21 container
+					22 container left-nav
+						23 link Description: Channel content, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos, ID: back-button
+						24 container
+							25 image Description: Video thumbnail: Renoma Wrocław | Our full English guide, ID: img-with-fallback
+							26 text 1:55
+							27 container entity-label-container
+								28 text Your video
+								29 text Renoma Wrocław | Our full English guide
+						30 menu main-menu
+							200 text • 
+							32 Details, ID: menu-item-0
+								33 container menu-paper-icon-item-0
+									34 text Details
+							201 text • 
+							36 Analytics, ID: menu-item-1
+								37 container menu-paper-icon-item-1
+									38 text Analytics
+							202 text • 
+							40 Editor, ID: menu-item-2
+								41 container menu-paper-icon-item-2
+									42 text Editor
+							203 text • 
+							44 Comments, ID: menu-item-3
+								45 container menu-paper-icon-item-3
+									46 text Comments
+							204 text • 
+							48 Languages, ID: menu-item-4
+								49 container menu-paper-icon-item-4
+									50 text Languages
+							205 text • 
+							52 Claims, ID: menu-item-5
+								53 container menu-paper-icon-item-5
+									54 text Claims
+							206 text • 
+							56 Clips and Shorts, ID: menu-item-6
+								57 container menu-paper-icon-item-6
+									58 text Clips and Shorts
+						59 content list
+							60 button Settings, ID: settings-item
+								61 text Settings
+							62 button Send feedback, ID: send-feedback-item
+								63 text Send feedback
+					64 container main
+						72 heading Languages, Value: 1
+							73 text Languages
+						81 container Video language: English, ID: header-section
+							82 heading Video language: English, Value: 2, ID: default-language-title
+								83 text Video language: English
+							84 button Details
+							85 text English subtitles are the default source for auto-translation of subtitles and audio.
+							86 button Edit subtitles
+								87 text Edit subtitles
+							88 button Upload manual
+								89 text Upload manual
+						90 container Translations, ID: translations-section
+							91 heading Translations, Value: 2, ID: language-translations-header
+								92 text Translations
+							93 button Add language
+								94 text Add language
+							122 text 1 translation
+							95 container screen-size-container
+								96 table Description: Translations, ID: ytgn-video-translations-list-table, Help: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									97 text Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									98 row
+										99 cell
+											100 heading Description: Language, Value: 3, ID: language-header-name
+												101 text Language
+										102 cell
+											103 heading Description: Audio, Value: 3, ID: audio-header-name
+												104 text Audio
+										105 cell
+											106 heading Description: Subtitles, Value: 3, ID: captions-header-name
+												107 text Subtitles
+										108 cell
+											109 heading Description: Title and description, Value: 3, ID: metadata-header-name
+												110 text Title and description
+										111 cell
+											112 heading Description: Thumbnail, Value: 3, ID: thumbnail-header-name
+												113 text Thumbnail
+									123 row row-container
+										124 cell
+											125 button Polish
+										126 cell
+										127 cell
+											128 text 1 published
+										129 cell
+		130 container Description: Polish subtitles, ID: dialog
+			131 container Description: Polish subtitles, ID: dialog
+				132 container
+					207 container video-editor-captions-modal-header
+						208 text Polish
+					133 container Description: Dialogue controls, ID: secondary-header
+						134 heading Dialogue controls, Value: 2
+							135 text Dialogue controls
+						136 button Send feedback
+						137 button Save draft
+							138 text Save draft
+						139 text Save draft button enabled
+						140 container save-container
+							141 button Publish
+								142 text Publish
+							143 text Publish button enabled
+							144 button Description: Close, ID: close-button
+				146 container
+					147 container panels
+						148 container Edit timings
+							209 heading Edit timings, Value: 2, ID: edit-timings-header
+								210 text Edit timings
+							211 button Subtitle
+								212 text Subtitle
+							213 button (disabled) Edit as text
+								214 text Edit as text
+							215 button Description: Options, ID: more-actions-menu
+							216 container editing-container
+								217 content list Description: Timings, ID: items
+									218 container Text with timing
+										219 container row-container
+											220 text entry area (settable) Description: Subtitle, Value: Cześć!
+											221 container Description:  0 minutes 0 seconds 23 frames, ID: container
+												222 text field (settable)  0 minutes 0 seconds 23 frames
+											223 container Description:  0 minutes 2 seconds 2 frames, ID: container
+												224 text field (settable)  0 minutes 2 seconds 2 frames
+									225 container Text with timing
+										226 container row-container
+											227 text entry area (settable) Description: Subtitle, Value: o której mówiliśmy w jednym
+z naszych ostatnich postów,
+											228 container Description:  1 minute 20 seconds 29 frames, ID: container
+												229 text field (settable)  1 minute 20 seconds 29 frames
+											230 container Description:  1 minute 25 seconds 14 frames, ID: container
+												231 text field (settable)  1 minute 25 seconds 14 frames
+									232 container Text with timing
+										233 container row-container
+											234 text entry area (settable) Description: Subtitle, Value: oferującą różne rodzaje kuchni,
+											235 container Description:  1 minute 25 seconds 14 frames, ID: container
+												236 text field (settable)  1 minute 25 seconds 14 frames
+											237 container Description:  1 minute 30 seconds 26 frames, ID: container
+												238 text field (settable)  1 minute 30 seconds 26 frames
+									239 container Text with timing
+										240 container row-container
+											241 text entry area (settable) Description: Subtitle, Value: a także duży bar pośrodku.
+											242 container Description:  1 minute 31 seconds 11 frames, ID: container
+												243 text field (settable)  1 minute 31 seconds 11 frames
+											244 container Description:  1 minute 35 seconds 20 frames, ID: container
+												245 text field (settable)  1 minute 35 seconds 20 frames
+									246 container Text with timing
+										247 container row-container
+											248 text entry area (settable) Description: Subtitle, Value: Odbywają się tu też wydarzenia
+muzyczne i inne atrakcje.
+											249 container Description:  1 minute 35 seconds 20 frames, ID: container
+												250 text field (settable)  1 minute 35 seconds 20 frames
+											251 container Description:  1 minute 41 seconds 19 frames, ID: container
+												252 text field (settable)  1 minute 41 seconds 19 frames
+									253 container Text with timing
+										254 container row-container
+											255 text entry area (settable) Description: Subtitle, Value: Bardzo więc polecam odwiedzenie
+tego wspaniałego domu handlowego,
+											256 container Description:  1 minute 41 seconds 19 frames, ID: container
+												257 text field (settable)  1 minute 41 seconds 19 frames
+											258 container Description:  1 minute 47 seconds 28 frames, ID: container
+												259 text field (settable)  1 minute 47 seconds 28 frames
+									260 container Text with timing
+										261 container row-container
+											262 text entry area (settable) Description: Subtitle, Value: Renomy we Wrocławiu.
+											263 container Description:  1 minute 47 seconds 28 frames, ID: container
+												264 text field (settable)  1 minute 47 seconds 28 frames
+											265 container Description:  1 minute 50 seconds 5 frames, ID: container
+												266 text field (settable)  1 minute 50 seconds 5 frames
+									267 container Text with timing
+										268 container row-container
+											269 text entry area (settable) Description: Subtitle, Value: Do zobaczenia w następnym filmie. Do widzenia!
+											337 button Description: Remove caption line, ID: delete-segment-button
+											270 container Description:  1 minute 50 seconds 5 frames, ID: container
+												271 text field (settable)  1 minute 50 seconds 5 frames
+											272 container Description:  1 minute 53 seconds 14 frames, ID: container
+												273 text field (settable)  1 minute 53 seconds 14 frames
+											338 button Description: Add caption line, ID: add-segment-after-button
+									274 container Text with timing
+										275 container row-container
+											276 text entry area (settable) Description: Subtitle, Value: a także 40 różnych portfolio.
+											277 container Description:  0 minutes 59 seconds 8 frames, ID: container
+												278 text field (settable)  0 minutes 59 seconds 8 frames
+											279 container Description:  1 minute 3 seconds 29 frames, ID: container
+												280 text field (settable)  1 minute 3 seconds 29 frames
+									281 container Text with timing
+										282 container row-container
+											283 text entry area (settable) Description: Subtitle, Value: Robi wrażenie nie tylko z zewnątrz, ale także
+											284 container Description:  1 minute 4 seconds 0 frames, ID: container
+												285 text field (settable)  1 minute 4 seconds 0 frames
+											286 container Description:  1 minute 7 seconds 29 frames, ID: container
+												287 text field (settable)  1 minute 7 seconds 29 frames
+									288 container Text with timing
+										289 container row-container
+											290 text entry area (settable) Description: Subtitle, Value: wewnątrz. Jak widzicie za mną, to dość
+											291 container Description:  1 minute 7 seconds 29 frames, ID: container
+												292 text field (settable)  1 minute 7 seconds 29 frames
+											293 container Description:  1 minute 12 seconds 23 frames, ID: container
+												294 text field (settable)  1 minute 12 seconds 23 frames
+									295 container Text with timing
+										296 container row-container
+											297 text entry area (settable) Description: Subtitle, Value: luksusowy dom handlowy z markami premium.
+											298 container Description:  1 minute 12 seconds 23 frames, ID: container
+												299 text field (settable)  1 minute 12 seconds 23 frames
+											300 container Description:  1 minute 17 seconds 5 frames, ID: container
+												301 text field (settable)  1 minute 17 seconds 5 frames
+									339 container Text with timing
+										340 container row-container
+											341 text entry area (settable) Description: Subtitle, Value: Mieści też strefę gastronomiczną PeDeT,
+											342 container Description:  1 minute 17 seconds 5 frames, ID: container
+												343 text field (settable)  1 minute 17 seconds 5 frames
+											344 container Description:  1 minute 20 seconds 29 frames, ID: container
+												345 text field (settable)  1 minute 20 seconds 29 frames
+						149 heading Subtitles preview, Value: 2, ID: preview-header
+							150 text Subtitles preview
+						151 container Description: Subtitles preview, ID: preview-panel
+							152 container Description: Video player, ID: video-container
+								153 container Description: Renoma Wrocław | Our full English guide, ID: video
+								154 container toolbar
+									155 container button-bar
+										156 button Description: Play, ID: play-button
+										157 button Description: Skip back 10 seconds, ID: skip-back-10
+										158 button Description: Skip forwards 10 seconds, ID: skip-forward-10
+										159 container
+											160 button Description: Mute, ID: volume-icon-button
+											161 slider Description: volume, Value: 100, ID: volume-slider
+										302 text 0:00 / 1:55
+										162 container
+											163 button Description: Settings, ID: settings-button
+							164 container preview-cta
+								165 container root-container
+									166 checkbox Description: Pause while typing, Value: 0, ID: checkbox
+									167 text Pause while typing
+								168 button View keyboard shortcuts
+									169 text View keyboard shortcuts
+					170 heading Subtitles timeline, Value: 2, ID: timeline-header
+						171 text Subtitles timeline
+					172 container Description: Subtitles timeline, ID: timeline-section
+						173 container
+							174 container left-controls
+								175 container Description:  0 minutes 0 seconds 0 frames, ID: container
+									176 text field (settable)  0 minutes 0 seconds 0 frames
+								177 button (disabled) Undo
+									178 text Undo
+								179 button (disabled) Redo
+									180 text Redo
+							181 container right-controls
+								182 button Description: Zoom out, ID: zoom-out
+								183 slider Description: Zoom slider, Value: 3, ID: zoom-slider
+								184 button Description: Zoom in, ID: zoom-in
+						185 container
+							186 container header-container
+								187 container
+									188 image Description: Timeline header, ID: canvas
+									189 button Description: Find playhead, ID: find-left-button
+									190 button Description: Find playhead, ID: find-right-button
+							191 container plugin-timeline-surface
+								303 container CAPTIONS
+									304 container decorations
+										305 container Cześć!
+										306 text Cześć!
+										307 container Wrocław łączy handel i architekturę,
+										308 text Wrocław łączy handel i architekturę,
+										309 container a jednym z miejsc, w których możemy zobaczyć to
+										310 text a jednym z miejsc, w których możemy zobaczyć to
+										311 container połączenie, jest Świdnicka 40,
+										312 text połączenie, jest Świdnicka 40,
+										313 container dom handlowy Renoma.
+										314 text dom handlowy Renoma.
+										315 text Ten dom handlowy otwarto 2 kwietnia 1930 roku.
+										316 text Wtedy nosił nazwę Wertheim.
+										317 text Już wtedy był bardzo imponującym i nowoczesnym domem handlowym.
+										318 text Został zniszczony podczas II wojny światowej
+										319 text i ponownie otwarty w 1977 roku.
+										320 text Szczególnie imponująca jest zewnętrzna elewacja,
+										321 text na której można zobaczyć kolorowe płytki
+										322 text i otaczające je złote, pozłacane dekoracje,
+										323 text a także 40 różnych portfolio.
+										324 text Robi wrażenie nie tylko z zewnątrz, ale także
+										325 text wewnątrz. Jak widzicie za mną, to dość
+										326 text luksusowy dom handlowy z markami premium.
+										327 text Mieści też strefę gastronomiczną PeDeT,
+										328 text o której mówiliśmy w jednym z naszych ostatnich postów,
+										329 text oferującą różne rodzaje kuchni,
+										330 text a także duży bar pośrodku.
+										331 text Odbywają się tu też wydarzenia muzyczne i inne atrakcje.
+										332 text Bardzo więc polecam odwiedzenie tego wspaniałego domu handlowego,
+										333 text Renomy we Wrocławiu.
+										334 text Do zobaczenia w następnym filmie. Do widzenia!
+								192 container AUDIO_WAVEFORM
+									335 container audio-timeline-content
+										336 image Description: Audio waveform, ID: audio-waveform
+							195 container Description: Start of timeline, ID: left-bookend
+							196 container Description: End of timeline, ID: right-bookend
+							197 slider Description: Playhead, Value: 0, ID: playhead
+							198 container hover-playhead
+								199 text 0:00:00
+
+The focused UI element is 131 container Description: Polish subtitles, ID: dialog

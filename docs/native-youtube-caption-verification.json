@@ -372,6 +372,27 @@
       "provenance": "data/bastion-guide-caption-provenance.json",
       "evidence": "docs/bastion-guides",
       "reopenedVerification": true
+    },
+    {
+      "canonicalId": "renoma",
+      "videos": {
+        "he": "nrLBgAkEdt0",
+        "en": "0lgh4TXXbeo"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "status": "Published"
+      },
+      "verifiedAt": "2026-10-20",
+      "provenance": "data/renoma-guide-caption-provenance.json",
+      "evidence": "docs/renoma-guides",
+      "reopenedVerification": true
     }
   ]
 }

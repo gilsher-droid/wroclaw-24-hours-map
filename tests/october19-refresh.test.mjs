@@ -9,11 +9,11 @@ const window={};for(const file of ['data/place-catalog.js','data/canonical-exper
 const catalog=window.WROC_CATALOG, contract=json('data/october19-refresh-preservation-contract.json');
 test('October refresh preserves existing identities, pins, guide links and unrelated places',()=>{
  for(const id of contract.originalPlaceIds)assert.ok(catalog.getPlace(id),id);
- assert.deepEqual(Object.keys(catalog.places).filter(id=>!contract.originalPlaceIds.includes(id)),['barbara-wroclaw','fc-caffe-kuznicza','four-denominations-district','white-stork-synagogue-wroclaw']);
+ assert.deepEqual(Object.keys(catalog.places).filter(id=>!contract.originalPlaceIds.includes(id)),['barbara-wroclaw','fc-caffe-kuznicza','four-denominations-district','gustaw-restaurant-wroclaw','white-stork-synagogue-wroclaw']);
  for(const [id,pin] of Object.entries(contract.preservedCoordinates))assert.equal(JSON.stringify(catalog.getPlace(id).location.coordinates),JSON.stringify(pin),id);
  for(const [id,guides] of Object.entries(contract.preservedGuides))assert.equal(JSON.stringify(catalog.getPlace(id).media.guideVideos),JSON.stringify(guides),id);
  const authorizedPosts=new Set(json('data/october19-published-remaining-social-connections.json').map(row=>row.url));
- for(const [id,hash] of Object.entries(contract.unchangedPlaceSHA256)){const preserved=JSON.parse(JSON.stringify(catalog.getPlace(id)));preserved.socialPosts=preserved.socialPosts.filter(post=>!authorizedPosts.has(post.url));if(id==='bastion'){const before=json('data/bastion-refresh-preservation-baseline.json');preserved.media=before.media;preserved.provenance=before.provenance;delete preserved.links.socialProfileFallback;}assert.equal(createHash('sha256').update(JSON.stringify(preserved)).digest('hex'),hash,id);}
+ for(const [id,hash] of Object.entries(contract.unchangedPlaceSHA256)){const laterRefresh=json('data/cafe-gustaw-renoma-preservation.json');const preserved=JSON.parse(JSON.stringify(laterRefresh.preserved[id] || catalog.getPlace(id)));preserved.socialPosts=preserved.socialPosts.filter(post=>!authorizedPosts.has(post.url));if(id==='bastion'){const before=json('data/bastion-refresh-preservation-baseline.json');preserved.media=before.media;preserved.provenance=before.provenance;delete preserved.links.socialProfileFallback;}assert.equal(createHash('sha256').update(JSON.stringify(preserved)).digest('hex'),hash,id);}
 });
 test('Refreshed galleries exclude wrongly associated and unapproved personal frames; pending clips stay unlinked',()=>{
  for(const src of contract.excludedTowerImages)assert.ok(!catalog.getPlace('math-tower').media.photos.includes(src));

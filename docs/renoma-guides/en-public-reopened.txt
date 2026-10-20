@@ -1,0 +1,202 @@
+Browser tab: 31058224, Title: "Video details - YouTube Studio", URL: "https://studio.youtube.com/video/0lgh4TXXbeo/edit".
+1 AXWebArea Video details - YouTube Studio, URL: studio.youtube.com/video/0lgh4TXXbeo/edit
+	2 container html-body
+		3 container
+			4 text Video details
+			5 container main-container
+				6 container
+					7 button Collapse menu
+					8 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					9 button Skip navigation
+						10 text Skip navigation
+					11 container search-layer
+						12 text field (settable) query-input
+					13 button Help
+					14 button Notifications
+					15 button Ask Studio
+						16 text Ask Studio
+					17 button Create
+						18 text Create
+					19 container Account
+						20 pop up button Description: Account, ID: avatar-btn
+				21 container
+					22 container left-nav
+						23 link Description: Channel content, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos, ID: back-button
+						24 container
+							25 image Description: Video thumbnail: Renoma Wrocław | Our full English guide, ID: img-with-fallback
+							26 text 1:55
+							27 container entity-label-container
+								28 text Your video
+								29 text Renoma Wrocław | Our full English guide
+						30 menu main-menu
+							65 text • 
+							32 Details, ID: menu-item-0
+								33 container menu-paper-icon-item-0
+									34 text Details
+							66 text • 
+							36 Analytics, ID: menu-item-1
+								37 container menu-paper-icon-item-1
+									38 text Analytics
+							67 text • 
+							40 Editor, ID: menu-item-2
+								41 container menu-paper-icon-item-2
+									42 text Editor
+							68 text • 
+							44 Comments, ID: menu-item-3
+								45 container menu-paper-icon-item-3
+									46 text Comments
+							69 text • 
+							48 Languages, ID: menu-item-4
+								49 container menu-paper-icon-item-4
+									50 text Languages
+							70 text • 
+							52 Claims, ID: menu-item-5
+								53 container menu-paper-icon-item-5
+									54 text Claims
+							71 text • 
+							56 Clips and Shorts, ID: menu-item-6
+								57 container menu-paper-icon-item-6
+									58 text Clips and Shorts
+						59 content list
+							60 button Settings, ID: settings-item
+								61 text Settings
+							62 button Send feedback, ID: send-feedback-item
+								63 text Send feedback
+					64 container main
+						72 container edit
+							73 container
+								74 heading Video details, Value: 1
+									75 text Video details
+								76 button (disabled) Undo changes
+									77 text Undo changes
+								78 button (disabled) Save
+									79 text Save
+								80 container video-overflow-menu
+									81 button Description: Options, ID: overflow-menu-button
+									82 container Description: Video sync state dialog, ID: dialog
+							83 container video-metadata-editor
+								84 container basics
+									85 container container
+										86 container outer
+											87 container label
+												88 text Title (required)
+												89 container ID: help-icon, Description: A catchy title can help you to hook viewers. When you create video titles, it's a good idea to include keywords that your audience is likely to use when looking for videos like yours. Learn more 
+											90 container child-input
+												91 container container-content
+													92 text entry area (settable) Description: Add a title that describes your video (type @ to mention a channel), Value: Renoma Wrocław | Our full English guide, ID: textbox
+														93 text Renoma Wrocław | Our full English guide
+												94 container
+													95 text Suggested hashtags
+									96 container container
+										97 container outer
+											98 container label
+												99 text Description
+												100 container ID: help-icon, Description: Writing descriptions with keywords can help viewers to find your videos more easily through search. You can give an overview of your video and place keywords at the beginning of the description. Learn more 
+											101 container container-content
+												102 text entry area (settable) Description: Tell viewers about your video (type @ to mention a channel), ID: textbox, Value: Our complete original visit guide to Renoma department store in Wrocław. Original picture and sound, with no cuts.
+
+Historical clarification: the recording says the postwar reopening was in 1977. Renoma’s official history instead dates the partial rebuilding and reopening to 1948; 1977 was the heritage-list registration. The current operator describes more than 100 portrait sculptures on the façade. The original narration is preserved in full.
+
+Address: Świdnicka 40, Wrocław.
+
+Sources:
+https://renoma-wroclaw.pl/o-renomie/?lang=en
+https://renoma-wroclaw.pl/press/8-nowa-renoma-presented-in-the-form-of-an-artistic-collage/?lang=en
+https://www.wroclaw.pl/dla-mieszkanca/85-lat-wroclawskiej-renomy
+
+Our interactive maps: https://wroc-love.com/
+Native YouTube subtitles: English, Polish, German and Czech. Renoma department store is separate from the PeDeT food-hall point.
+													103 text Our complete original visit guide to Renoma department store in Wrocław. Original picture and sound, with no cuts.
+
+Historical clarification: the recording says the postwar reopening was in 1977. Renoma’s official history instead dates the partial rebuilding and reopening to 1948; 1977 was the heritage-list registration. The current operator describes more than 100 portrait sculptures on the façade. The original narration is preserved in full.
+
+Address: Świdnicka 40, Wrocław.
+
+Sources:
+https://renoma-wroclaw.pl/o-renomie/?lang=en
+https://renoma-wroclaw.pl/press/8-nowa-renoma-presented-in-the-form-of-an-artistic-collage/?lang=en
+https://www.wroclaw.pl/dla-mieszkanca/85-lat-wroclawskiej-renomy
+
+Our interactive maps: https://wroc-love.com/
+Native YouTube subtitles: English, Polish, German and Czech. Renoma department store is separate from the PeDeT food-hall point.
+									104 text Thumbnail
+									105 container
+										106 text Set a thumbnail that stands out and draws viewers' attention. 
+										107 link Description: Learn more about thumbnails, Value: support.google.com/youtube/answer/72431?hl=en-GB
+									108 container custom-still-editor-wrapper
+										109 button Description: Upload file, ID: select-button
+											110 text Upload file
+									111 button Auto-generated thumbnail 2 Select from video, ID: select-button
+										112 image Description: Auto-generated thumbnail 2, ID: img-with-fallback
+										113 text Select from video
+									114 button Get suggestions
+										115 text Get suggestions
+									116 text Playlists
+									117 container
+										118 text Add your video to one or more playlists to organise your content for viewers. 
+										119 link Description: Learn more about playlists, Value: support.google.com/youtube/answer/57792
+									120 container Add to playlist
+										121 button Select playlists
+											122 button Select
+												123 text Select
+									124 container audience
+										125 text Audience
+										126 container
+											127 text This video is set to not 'Made for Kids' 
+											128 text Set by you
+										129 container
+											130 text Regardless of your location, you're legally required to comply with the Children's Online Privacy Protection Act (COPPA) and/or other laws. You're required to tell us whether your videos are 'Made for Kids'. 
+											131 link Description: What is 'Made for Kids' content?, Value: support.google.com/youtube/answer/9528076?hl=en-GB
+										132 container
+											133 link Description: Learn more about video's audience settings, Value: support.google.com/youtube/answer/9527654?hl=en-GB
+										134 radio button Value: 0, Yes, it's Made for Kids . Features like personalised ads and notifications won't be available on videos that are Made for Kids. Videos that are set as Made for Kids by you are more likely to be recommended alongside other children's videos. Learn more
+											135 container radioLabel
+												136 text Yes, it's Made for Kids .
+												137 container
+													138 text Features like personalised ads and notifications won't be available on videos that are Made for Kids. Videos that are set as Made for Kids by you are more likely to be recommended alongside other children's videos. 
+													139 link Description: Learn more, Value: support.google.com/youtube/answer/9527654?hl=en-GB
+										140 radio button No, it's not Made for Kids, Value: 1
+											141 text No, it's not Made for Kids
+										142 button Age restriction
+											143 heading Age restriction, Value: 3, ID: age-restriction-label
+												144 text Age restriction
+								145 container Description: Show advanced settings, ID: toggle-button
+									146 button Show advanced settings
+										147 text Show more
+								148 text Paid promotion, collaboration and more
+								149 container
+									150 container Description: Video player, ID: video-container
+										151 container toolbar
+											152 container button-bar
+												153 button Description: Play, ID: play-button
+												154 container
+													155 button Description: Mute, ID: volume-icon-button
+													156 slider Description: volume, Value: 100, ID: volume-slider
+												157 text 0:00 / 1:55
+												158 button Description: Full screen, ID: fullscreen-icon-button
+								159 container
+									160 text Video link
+									161 link Description: https://youtube.com/shorts/0lgh4TXXbeo, Value: youtube.com/shorts/0lgh4TXXbeo, ID: video-link
+									162 button Copy video link
+									163 text Filename
+									164 text renoma-guide-en-full-original.mp4
+									165 text Video quality
+									166 image Description: Standard Definition complete, ID: badge-sd
+								167 text Notices
+								168 text —
+								169 container container
+									170 text Visibility
+									171 container icon-and-type
+										172 text Public
+									173 button Description: Edit video visibility status, ID: select-button
+								174 button Related video Guide your audience to a piece of your content related to this video. None
+									175 button Related video Guide your audience to a piece of your content related to this video. None
+										176 text Related video
+										177 container Description: Guide your audience to a piece of your content related to this video., ID: help-icon
+										178 text None
+								179 button Subtitles, ID: subtitles-editor-link
+									180 button Subtitles
+										181 button Subtitles
+											182 text Subtitles
+
+The focused UI element is 1 AXWebArea Video details - YouTube Studio, URL: studio.youtube.com/video/0lgh4TXXbeo/edit

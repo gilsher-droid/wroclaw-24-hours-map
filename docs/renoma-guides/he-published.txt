@@ -1,0 +1,383 @@
+Browser tab: 31058224, Title: "Channel dashboard - YouTube Studio", URL: "https://studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA".
+0 AXWebArea Channel dashboard - YouTube Studio, URL: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA
+	1 container html-body
+		2 container
+			3 text All changes saved.
+			4 container main-container
+				5 container
+					6 button Collapse menu
+					7 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					8 button Skip navigation
+						9 text Skip navigation
+					10 container search-layer
+						11 text field (settable) query-input
+					12 button Help
+					13 button Notifications
+					14 button Ask Studio
+						15 text Ask Studio
+					16 button Create
+						17 text Create
+					18 container Account
+						19 pop up button Description: Account, ID: avatar-btn
+				20 container
+					21 container left-nav
+						22 container
+							23 image Wroclaw.lowersilesia
+							24 container entity-label-container
+								25 text Your channel
+								26 text Wroclaw.lowersilesia
+						27 menu main-menu
+							875 text • 
+							29 Dashboard, ID: menu-item-0
+								30 container menu-paper-icon-item-0
+									31 text Dashboard
+							876 text • 
+							33 Content, ID: menu-item-1
+								34 container menu-paper-icon-item-1
+									35 text Content
+							877 text • 
+							37 Analytics, ID: menu-item-2
+								38 container menu-paper-icon-item-2
+									39 text Analytics
+							878 text • 
+							41 Community, ID: menu-item-3
+								42 container menu-paper-icon-item-3
+									43 text Community
+							879 text • 
+							45 Languages, ID: menu-item-4
+								46 container menu-paper-icon-item-4
+									47 text Languages
+							880 text • 
+							49 Content detection, ID: menu-item-5
+								50 container menu-paper-icon-item-5
+									51 text Content detection
+							881 text • 
+							53 Earn, ID: menu-item-6
+								54 container menu-paper-icon-item-6
+									55 text Earn
+							882 text • 
+							57 Customisation, ID: menu-item-7
+								58 container menu-paper-icon-item-7
+									59 text Customisation
+							883 text • 
+							61 Audio library, ID: menu-item-8
+								62 container menu-paper-icon-item-8
+									63 text Audio library
+						64 content list
+							65 button Settings, ID: settings-item
+								66 text Settings
+							67 button Send feedback, ID: send-feedback-item
+								68 text Send feedback
+					69 container main
+						70 container page-title-container
+							71 heading Channel dashboard, Value: 1
+								72 text Channel dashboard
+							73 container dashboard-actions
+								74 button Description: Upload videos, ID: upload-icon
+								75 link Description: Go live, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/livestreaming
+								76 link Description: Create post, Value: youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/posts?show_create_dialog=1
+						86 container channel-dashboard-section
+							87 container video-snapshot
+								88 heading Description: Latest Short performance, Value: 2, ID: entity-snapshot-title
+									89 text Latest Short performance
+								90 container
+									91 image Video thumbnail: Cafe Berg Wrocław | Moat and terrace | WROC-LOVE
+								92 text 0
+								93 text 0
+								94 text 0
+								95 button Description: Collapse, ID: collapsable-button
+								96 container entity-snapshot
+									97 text First 1 minute
+									98 container metrics-table
+										99 button Views 0
+											100 text Views
+											101 text 0
+										102 button Average percentage viewed —
+											103 text Average percentage viewed
+											104 text —
+										105 button Likes —
+											106 text Likes
+											107 text —
+									108 text See comparisons with previous videos in 29 minutes.
+								109 container link-button-container
+									110 button Catch me up on this video
+										111 text Catch me up on this video
+									112 link Description: Go to video analytics, Value: studio.youtube.com/video/bEKAP8m_KoI/analytics/tab-overview/period-default
+									113 link Description: See comments (0), Value: studio.youtube.com/video/bEKAP8m_KoI/comments/inbox
+							114 container align-experimental-badge
+								115 text Published videos
+								116 content list
+									117 container row-container
+										118 link Description: בסטיון סאקבובי | המדריך שלנו בעברית, Value: studio.youtube.com/video/FLx49x9AtUM/edit, ID: thumbnail-anchor
+										119 heading בסטיון סאקבובי | המדריך שלנו בעברית, Value: 3
+											120 text בסטיון סאקבובי | המדריך שלנו בעברית
+										121 text 0
+										122 text 0
+										123 text 0
+									124 container row-container
+										125 link Description: WROC-LOVE | Bastion Sakwowy | Full original English guide, Value: studio.youtube.com/video/xc9jiC3TfNA/edit, ID: thumbnail-anchor
+										126 heading WROC-LOVE | Bastion Sakwowy | Full original English guide, Value: 3
+											127 text WROC-LOVE | Bastion Sakwowy | Full original English guide
+										128 text 0
+										129 text 0
+										130 text 0
+									131 container row-container
+										132 link Description: Bastion Sakwowy | Fountain and courtyard panorama | WROC-LOVE, Value: studio.youtube.com/video/TlV9gewmJVI/edit, ID: thumbnail-anchor
+										133 heading Bastion Sakwowy | Fountain and courtyard panorama | WROC-LOVE, Value: 3
+											134 text Bastion Sakwowy | Fountain and courtyard panorama | WROC-LOVE
+										135 text 2
+										136 text 0
+										137 text 0
+									138 container
+										139 container row-container
+											140 link Description: Barbara Wrocław | Entrance and cultural space | WROC-LOVE visit 01, Value: studio.youtube.com/video/lX2mxhtVMi8/edit, ID: thumbnail-anchor
+											141 heading Barbara Wrocław | Entrance and cultural space | WROC-LOVE visit 01, Value: 3
+												142 text Barbara Wrocław | Entrance and cultural space | WROC-LOVE visit 01
+											143 text 3
+											144 text 0
+											145 text 0
+										146 link Description: Go to videos, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/content
+							147 content list
+								148 container
+									149 text Create your first post to start a conversation and get feedback from your community.
+									150 link Description: Create post, Value: youtube.com/my_community?pdc=OAk%253D
+							151 container
+								152 heading Important notifications, Value: 2
+									153 text Important notifications
+								154 container inbox-container
+									155 heading Video is blocked in some territories, Value: 3, ID: title-id
+										156 text Video is blocked in some territories
+									157 text Your video 'Centennial Hall Visit clip 5 WROC LOVE' is blocked due to one or more claims. This is not a copyright strike and doesn't affect your channel.
+									158 text 1 Oct 2026, 13:41
+									159 link Description: View options, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA?d=vc&videoId=oFpZE7jAuZE
+									160 button Description: Dismiss, ID: item-menu
+							161 container
+								162 heading Channel analytics, Value: 2
+									163 text Channel analytics
+								164 text Current subscribers 19 +19  in last 28 days
+								165 text Summary Last 28 days
+								166 container metrics-table
+									167 container
+										168 container Views
+											169 text Views
+										170 container 24K, ID: metric-0-value
+											171 text 24K
+										172 container —, ID: metric-0-trend
+											173 text —
+									174 container
+										175 container Watch time (hours)
+											176 text Watch time (hours)
+										177 container 24.5, ID: metric-1-value
+											178 text 24.5
+										179 container —, ID: metric-1-trend
+											180 text —
+								181 text Top content Last 48 hours  · Views
+								182 container
+									183 container Lodziarnia Roma - Ice cream counter - WROC-LOVE
+										184 link Description: Lodziarnia Roma - Ice cream counter - WROC-LOVE, Value: studio.youtube.com/video/y5z0w3v_ta0/analytics/tab-overview/period-default
+									185 container 1K
+										186 link Description: 1K, Value: studio.youtube.com/video/y5z0w3v_ta0/analytics/tab-overview/period-default
+								187 container
+									188 container Pan Tadeusz Museum | Illuminated facade at Rynek 6 | WROC-LOVE
+										189 link Description: Pan Tadeusz Museum | Illuminated facade at Rynek 6 | WROC-LOVE, Value: studio.youtube.com/video/BTXtNDsF_8M/analytics/tab-overview/period-default
+									190 container 161
+										191 link Description: 161, Value: studio.youtube.com/video/BTXtNDsF_8M/analytics/tab-overview/period-default
+								192 container
+									193 container Wrocław Pergola | Climbing greenery and columns | WROC-LOVE
+										194 link Description: Wrocław Pergola | Climbing greenery and columns | WROC-LOVE, Value: studio.youtube.com/video/zjWtn3ecZb8/analytics/tab-overview/period-default
+									195 container 159
+										196 link Description: 159, Value: studio.youtube.com/video/zjWtn3ecZb8/analytics/tab-overview/period-default
+								197 link Description: Go to channel analytics, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/analytics/tab-overview/period-default
+							198 content list
+								199 heading Comments, Value: 2
+									200 text Comments
+								201 container all-content
+									202 container body
+										203 container content
+											204 container header
+												205 text @ArekHildebrand
+												206 text •
+												207 text 2 weeks ago
+											208 text ❤
+								209 container
+									210 container all-content
+										211 container body
+											212 container content
+												213 container header
+													214 text @DamianNowak-x4v
+													215 text •
+													216 text 2 weeks ago
+												217 text Jesteś piękny
+								218 container
+									219 container all-content
+										220 container body
+											221 container content
+												222 container header
+													223 text @alexdavibe
+													224 text •
+													225 text 2 weeks ago
+												226 text Kraków ma zamek w centrum miasta, Wrocław ma ich 5
+								227 link Description: View more, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/comments/inbox?filter=%5B%7B%22name%22%3A%22ENGAGED_STATUS%22%2C%22value%22%3A%5B%22COMMENT_CATEGORY_NOT_ENGAGED%22%5D%7D%2C%7B%22isPinned%22%3Atrue%2C%22name%22%3A%22SORT_BY%22%2C%22value%22%3A%22SORT_BY_MOST_RELEVANT%22%7D%5D
+							228 container align-experimental-badge
+								229 heading Recent subscribers, Value: 2
+									230 text Recent subscribers
+								231 text Last 90 days
+								232 content list
+									233 link Description: שרית אמיתי מחברת הספר "אינטימיות פיננסית" 83 subscribers, Value: youtube.com/channel/UCw08i-hIMXjOwY5D5uLJpFg/
+									234 link Description: Marcin Kucharczyk 65 subscribers, Value: youtube.com/channel/UCXtrWss7ZAk7XyPOhLAHf8g/
+									235 link Description: infiniti blade 32 subscribers, Value: youtube.com/channel/UCAk3wuYrmky0DUVBdu0S08g/
+								236 button See all
+									237 text See all
+							238 container
+								239 button (disabled) Previous item
+								240 container Card 1 of 3
+								241 button Next item
+								242 heading Creator Insider, Value: 2
+									243 text Creator Insider
+								244 link Description: Views (Co-Viewed) & Branded Content, Value: youtube.com/watch?v=8DgguXIU4L8
+								245 heading Views (Co-Viewed) & Branded Content, Value: 2
+									246 text Views (Co-Viewed) & Branded Content
+								247 text US creators can now tag Amazon products in YouTube Shopping, see more accurate TV audience stats, and get updates on branded content deals
+								248 button Watch on YouTube
+									249 text Watch on YouTube
+							250 link Description: Terms of use , Value: youtube.com/t/terms
+							251 link Description: Privacy Policy , Value: policies.google.com/privacy?hl=en-GB
+							252 link Description: Policies and Safety , Value: youtube.com/yt/policyandsafety/
+		262 container dialog
+			263 button (expanded) Uploads complete, ID: expand-button, Secondary Actions: Collapse
+				264 text Uploads complete
+				265 button
+			686 button Description: Close, ID: close-button
+			267 content list progress-list
+				268 container
+					269 button Edit video renoma-guide-he-full-original.mp4
+						270 button
+						271 text renoma-guide-he-full-original.mp4
+						272 text 100% uploaded
+				274 container
+					275 button Edit video renoma-guide-en-full-original.mp4
+						276 button
+						277 text renoma-guide-en-full-original.mp4
+						278 text 100% uploaded
+		696 container dialog
+			697 text רנומה | המדריך שלנו בעברית
+			699 button Send Feedback
+			700 button (disabled) Save and close
+			701 tab group
+				702 tab (selectable, settable, boolean) Details, ID: step-badge-0, Value: 0
+Details
+				703 tab (selectable, settable, boolean) Video elements, ID: step-badge-1, Value: 0
+Video elements
+				704 tab (selectable, settable, boolean) Initial check, ID: step-badge-2, Value: 0
+Initial check
+				705 tab (selected, settable, boolean) Visibility, ID: step-badge-3, Value: 1
+Visibility
+			706 container scrollable-content
+				823 heading Visibility, Value: 1
+					824 text Visibility
+				825 text Choose when to publish and who can see your video
+				826 container visibility-container
+					827 container first-container
+						828 text Save or publish
+						829 container
+							830 text Make your video  public ,  unlisted  or  private
+						831 privacy-radios
+							832 radio button Private, Value: 0, ID: private-radio-button
+								833 text Private
+							834 text Only you and people who you choose can watch your video
+							835 radio button Unlisted, Value: 0
+								836 text Unlisted
+							837 text Anyone with the video link can watch your video
+							838 radio button Public, Value: 1
+								839 text Public
+							840 text Everyone can watch your video
+					841 container second-container
+						842 text Schedule
+						843 container
+							844 text Select a date to make your video  public .
+						845 button Description: Click to expand, ID: second-container-expand-button
+				846 heading Before you publish, check the following:, Value: 2
+					847 text Before you publish, check the following:
+				848 heading Do children appear in this video?, Value: 3
+					849 text Do children appear in this video?
+				850 container
+					851 text Make sure that you follow our policies to protect minors from harm, exploitation, bullying and violations of labour law.
+					852 link Description: Learn more, Value: support.google.com/youtube/answer/2801999?hl=en-GB
+				853 heading Looking for overall content guidance?, Value: 3
+					854 text Looking for overall content guidance?
+				855 container
+					856 text Our Community Guidelines can help you avoid trouble and ensure that YouTube remains a safe and vibrant community.
+					857 link Description: Learn more, Value: youtube.com/yt/about/policies#community-guidelines
+				858 container
+					859 container
+						860 container Description: Video player, ID: video-container
+							861 container toolbar
+								862 container button-bar
+									863 button Description: Play, ID: play-button
+									864 container
+										865 button Description: Mute, ID: volume-icon-button
+										866 slider Description: volume, Value: 100, ID: volume-slider
+									867 text 0:00 / 1:36
+									868 button Description: Full screen, ID: fullscreen-icon-button
+					869 text רנומה | המדריך שלנו בעברית
+					870 text Video link
+					871 link Description: https://youtube.com/shorts/nrLBgAkEdt0, Value: youtube.com/shorts/nrLBgAkEdt0, ID: video-link
+					872 button Copy video link
+			785 container Description: Video upload complete, ID: uploading-badge
+			786 container Description: Video processing Processing complete, ID: processing-badge
+			787 container Description: Copyright check complete No issues found Community Guidelines, ID: checks-badge
+			788 text Checks complete. No issues found.
+			811 button (disabled) Back
+				812 text Back
+			873 button (disabled) Publish
+				874 text Publish
+		884 container Description: Video published, ID: dialog
+			885 container Video published, ID: dialog
+				886 container
+					887 heading Video published, Value: 1, ID: dialog-title
+						888 text Video published
+					889 button Description: Close, ID: close-icon-button
+				890 container
+					891 image Description: Video thumbnail: רנומה | המדריך שלנו בעברית, ID: img-with-fallback
+					892 text 1:36
+				893 text רנומה | המדריך שלנו בעברית
+				894 text Published 20 Oct 2026
+				895 heading Share a link, Value: 2
+					896 text Share a link
+				897 container
+					898 toolbar contents
+						899 button WhatsApp
+							900 button WhatsApp, ID: target
+								901 text WhatsApp
+						902 button Facebook
+							903 button Facebook, ID: target
+								904 text Facebook
+						905 button X
+							906 button X, ID: target
+								907 text X
+						908 button Email
+							909 button Email, ID: target
+								910 text Email
+						911 button Reddit
+							912 button Reddit, ID: target
+								913 text Reddit
+						914 button Pinterest
+							915 button Pinterest, ID: target
+								916 text Pinterest
+						917 button LinkedIn
+							918 button LinkedIn, ID: target
+								919 text LinkedIn
+					920 container scroll-button-forward
+						921 button Description: HORIZONTAL_LIST_NEXT_LABEL, ID: button
+				922 text Video link
+				923 link Description: https://youtube.com/shorts/nrLBgAkEdt0?feature=share, Value: youtube.com/shorts/nrLBgAkEdt0?feature=share, ID: share-url
+				924 button Copy video link
+				925 heading Promote this video, Value: 2
+					926 text Promote this video
+				927 text Promote video to increase views, subscribers or website visits.
+				928 button Promote
+					929 text Promote
+				930 button Close
+					931 text Close
+
+The focused UI element is 885 container Video published, ID: dialog

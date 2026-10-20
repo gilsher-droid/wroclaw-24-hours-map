@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-20",
+  "canonicalIds": [
+    "cafe-berg-wroclaw",
+    "gustaw-restaurant-wroclaw",
+    "renoma"
+  ],
+  "photos": {
+    "cafe-berg-wroclaw": [
+      {
+        "path": "/assets/food-cafes/cafe-berg-04.jpg",
+        "sourceSHA256": "b90b5c4aa984be1413be7b0d06619787a7a9f0e317a77752286335bbea144adb",
+        "assetSHA256": "0463e05fdc5635d02f8e82c8dea47459f9b7ff688a7987624a4393e8138578d8"
+      },
+      {
+        "path": "/assets/food-cafes/cafe-berg-05.jpg",
+        "sourceSHA256": "8cd2134a6f6c69148dd3d3869e6e530c88946d0d895a8effa15a8296ae61579e",
+        "assetSHA256": "47f17fd417188570953aa084ebd534f39a510af76bcb1ac88078e1c7d3c4236a"
+      },
+      {
+        "path": "/assets/food-cafes/cafe-berg-06.jpg",
+        "sourceSHA256": "ac6ef153d2b05417332deda4abf56f92bcecaf3fedece2a7527ad116953eb1cd",
+        "assetSHA256": "14036bc0b13a0147c93c22c301e49bb18b7a54c5677c5b2b194b14cd9e65f863"
+      },
+      {
+        "path": "/assets/food-cafes/cafe-berg-07.jpg",
+        "sourceSHA256": "8821b15828e583f46ada15c3026a7d55ed7556d4da568ebabb144ebb2b652634",
+        "assetSHA256": "047528e02e368345942adf4071038761a84d3853551feba11a9fd9e851279b4a"
+      },
+      {
+        "path": "/assets/food-cafes/cafe-berg-08.jpg",
+        "sourceSHA256": "0a4783b636f28de0966258869694b97b00e08ff54405ce02f54da5b20748348c",
+        "assetSHA256": "266d21a7dbaeba42b8370713b81a47368d0f43324b654c662887f79ac5618b3a"
+      },
+      {
+        "path": "/assets/food-cafes/cafe-berg-09.jpg",
+        "sourceSHA256": "4632fdb8e9efa3f90a7a0cf0dc159fc9770a576a61ee65f8e95eb6ea95be136f",
+        "assetSHA256": "43825e61c99417c1f9419dd287f4dc53bc0994ae3cb0df5daff95b0e81de5ec2"
+      }
+    ],
+    "gustaw-restaurant-wroclaw": [
+      {
+        "path": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg",
+        "sourceSHA256": "9ddc6574f56940ad5f94f363aeba9dc3d717e2067a69077d12b877fd9b261c79",
+        "assetSHA256": "a70905cb5cb1dc3daaa1990644e222797950dd6ce1f5aa1d309665c216b95e90"
+      }
+    ],
+    "renoma": [
+      {
+        "path": "/assets/renoma-refresh-oct20-01.jpg",
+        "sourceSHA256": "17ed4c01b195720de00f81c4c5b18a6d0f6da8654b3d60ee4a93f8a4a910c72f",
+        "assetSHA256": "b1c0ad9502e5fba4901da22ee6082b46750ffbb8d6e7c161d63f1a2903e62c98"
+      },
+      {
+        "path": "/assets/renoma-refresh-oct20-02.jpg",
+        "sourceSHA256": "a614727bf3e3040e4d1c9af98feea8db7c1c54f8da5a6ae690b8aadebc911c6e",
+        "assetSHA256": "02710bed285567629273ccc10809500aefa62bf88d721c69bdcc838b88ab73d9"
+      },
+      {
+        "path": "/assets/renoma-refresh-oct20-03.jpg",
+        "sourceSHA256": "195c1c01e0853179615e20ff2b7fece4bd6cccd4a076bbf97f75c16db0ffe869",
+        "assetSHA256": "343d33f7cf63b79c36bb17a98fd78992775871d10fbb5711a289140c5869c178"
+      }
+    ]
+  },
+  "privacyExcludedSourceHashes": [
+    "bb6281f8bb5aa1f5a44aeeaa05542c246941c96a90cb4d59ab0bf8d3ff0613d3",
+    "3525dff7fedf1bb5338b967ace5342b3e471b53009506f1c4c8faecb07f2e5fb",
+    "f8aa43071182aea39ac9f605bb0d7beec6c6f2528bc1f5a88055649acfc10b01",
+    "43938b8b506d00afa177bc4b50ea48b1086629f23b5f5594681cf827f1c66899",
+    "77389d266c3af2c34484a9bcaf8e1c0746ce7541d38e83eec5177fdea705ba39",
+    "5fb0cab48ed958646d7a335d6eb95ed9dad3456dde6fd2a7853ae87583700ffc",
+    "89f703dfca247ee09ee6d3a784fc0d15a59c76458b5f8aa88a168b98ab687186",
+    "4736cfd4f6bd04b813436eb368d7875a4ea8189b095dc435233d929f9536a824",
+    "1e491d56c262a8fcb0dc52881524141b1cd21f4aab889f92395e38458a29e027",
+    "06d135660a428172279c8c4529ca6c51f51280520226e357c0e11d2889d33d74",
+    "6cad8a26df39b741bdf47f77e58da94b1356c77ad60541d58025e9b45e18773b",
+    "31d4b072eabbfdd52b314f3fcb9779edc981dc0cdbb943f1e4c95dbe5acccd82",
+    "c0214836ac897c0238f575d78e75b5d26b6e0b71a82c7ab4b0bb3ea1cd18e610",
+    "ec31ef35af5f12cb11db692097bca4463f7761760c36249a9c97320225618ced",
+    "bf6d4e3fa02d23533a041e8606c03d328f4f75cd0dd1496f1babfb8012266ff5",
+    "bdb6d64d3bc9845c1ff11c9432f68761ed6229fe9bed88f6b98206169df02108"
+  ],
+  "visitClip": {
+    "id": "bEKAP8m_KoI",
+    "url": "https://youtube.com/shorts/bEKAP8m_KoI",
+    "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+    "title": "Cafe Berg Wrocław | Moat and terrace | WROC-LOVE",
+    "durationSeconds": 5.966667,
+    "audio": false,
+    "visibility": "Public",
+    "reopenedVisibilityVerified": true,
+    "sdProcessing": "complete",
+    "copyrightCheck": "complete-no-issues",
+    "communityGuidelinesCheck": "complete-no-issues",
+    "checkedAt": "2026-10-20T12:16:10.964189+00:00",
+    "proof": [
+      "youtube-checks-complete.txt",
+      "youtube-public-reopened.txt",
+      "youtube-public-reopened.png"
+    ],
+    "approval": "youtube-three-files-approval.json",
+    "sourceManifest": "visit-upload-manifest.json"
+  }
+}

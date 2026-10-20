@@ -1,0 +1,406 @@
+Browser tab: 31058224, Title: "Channel dashboard - YouTube Studio", URL: "https://studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA".
+0 AXWebArea Channel dashboard - YouTube Studio, URL: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA
+	1 container html-body
+		2 container
+			3 text All changes saved.
+			4 container main-container
+				5 container
+					6 button Collapse menu
+					7 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					8 button Skip navigation
+						9 text Skip navigation
+					10 container search-layer
+						11 text field (settable) query-input
+					12 button Help
+					13 button Notifications
+					14 button Ask Studio
+						15 text Ask Studio
+					16 button Create
+						17 text Create
+					18 container Account
+						19 pop up button Description: Account, ID: avatar-btn
+				20 container
+					21 container left-nav
+						22 container
+							23 image Wroclaw.lowersilesia
+							24 container entity-label-container
+								25 text Your channel
+								26 text Wroclaw.lowersilesia
+						27 menu main-menu
+							1006 text • 
+							29 Dashboard, ID: menu-item-0
+								30 container menu-paper-icon-item-0
+									31 text Dashboard
+							1007 text • 
+							33 Content, ID: menu-item-1
+								34 container menu-paper-icon-item-1
+									35 text Content
+							1008 text • 
+							37 Analytics, ID: menu-item-2
+								38 container menu-paper-icon-item-2
+									39 text Analytics
+							1009 text • 
+							41 Community, ID: menu-item-3
+								42 container menu-paper-icon-item-3
+									43 text Community
+							1010 text • 
+							45 Languages, ID: menu-item-4
+								46 container menu-paper-icon-item-4
+									47 text Languages
+							1011 text • 
+							49 Content detection, ID: menu-item-5
+								50 container menu-paper-icon-item-5
+									51 text Content detection
+							1012 text • 
+							53 Earn, ID: menu-item-6
+								54 container menu-paper-icon-item-6
+									55 text Earn
+							1013 text • 
+							57 Customisation, ID: menu-item-7
+								58 container menu-paper-icon-item-7
+									59 text Customisation
+							1014 text • 
+							61 Audio library, ID: menu-item-8
+								62 container menu-paper-icon-item-8
+									63 text Audio library
+						64 content list
+							65 button Settings, ID: settings-item
+								66 text Settings
+							67 button Send feedback, ID: send-feedback-item
+								68 text Send feedback
+					69 container main
+						70 container page-title-container
+							71 heading Channel dashboard, Value: 1
+								72 text Channel dashboard
+							73 container dashboard-actions
+								74 button Description: Upload videos, ID: upload-icon
+								75 link Description: Go live, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/livestreaming
+								76 link Description: Create post, Value: youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/posts?show_create_dialog=1
+						86 container channel-dashboard-section
+							87 container video-snapshot
+								88 heading Description: Latest Short performance, Value: 2, ID: entity-snapshot-title
+									89 text Latest Short performance
+								90 container
+									91 image Video thumbnail: Cafe Berg Wrocław | Moat and terrace | WROC-LOVE
+								92 text 0
+								93 text 0
+								94 text 0
+								95 button Description: Collapse, ID: collapsable-button
+								96 container entity-snapshot
+									97 text First 1 minute
+									98 container metrics-table
+										99 button Views 0
+											100 text Views
+											101 text 0
+										102 button Average percentage viewed —
+											103 text Average percentage viewed
+											104 text —
+										105 button Likes —
+											106 text Likes
+											107 text —
+									108 text See comparisons with previous videos in 29 minutes.
+								109 container link-button-container
+									110 button Catch me up on this video
+										111 text Catch me up on this video
+									112 link Description: Go to video analytics, Value: studio.youtube.com/video/bEKAP8m_KoI/analytics/tab-overview/period-default
+									113 link Description: See comments (0), Value: studio.youtube.com/video/bEKAP8m_KoI/comments/inbox
+							114 container align-experimental-badge
+								115 text Published videos
+								116 content list
+									117 container row-container
+										118 link Description: בסטיון סאקבובי | המדריך שלנו בעברית, Value: studio.youtube.com/video/FLx49x9AtUM/edit, ID: thumbnail-anchor
+										119 heading בסטיון סאקבובי | המדריך שלנו בעברית, Value: 3
+											120 text בסטיון סאקבובי | המדריך שלנו בעברית
+										121 text 0
+										122 text 0
+										123 text 0
+									124 container row-container
+										125 link Description: WROC-LOVE | Bastion Sakwowy | Full original English guide, Value: studio.youtube.com/video/xc9jiC3TfNA/edit, ID: thumbnail-anchor
+										126 heading WROC-LOVE | Bastion Sakwowy | Full original English guide, Value: 3
+											127 text WROC-LOVE | Bastion Sakwowy | Full original English guide
+										128 text 0
+										129 text 0
+										130 text 0
+									131 container row-container
+										132 link Description: Bastion Sakwowy | Fountain and courtyard panorama | WROC-LOVE, Value: studio.youtube.com/video/TlV9gewmJVI/edit, ID: thumbnail-anchor
+										133 heading Bastion Sakwowy | Fountain and courtyard panorama | WROC-LOVE, Value: 3
+											134 text Bastion Sakwowy | Fountain and courtyard panorama | WROC-LOVE
+										135 text 2
+										136 text 0
+										137 text 0
+									138 container
+										139 container row-container
+											140 link Description: Barbara Wrocław | Entrance and cultural space | WROC-LOVE visit 01, Value: studio.youtube.com/video/lX2mxhtVMi8/edit, ID: thumbnail-anchor
+											141 heading Barbara Wrocław | Entrance and cultural space | WROC-LOVE visit 01, Value: 3
+												142 text Barbara Wrocław | Entrance and cultural space | WROC-LOVE visit 01
+											143 text 3
+											144 text 0
+											145 text 0
+										146 link Description: Go to videos, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/content
+							147 content list
+								148 container
+									149 text Create your first post to start a conversation and get feedback from your community.
+									150 link Description: Create post, Value: youtube.com/my_community?pdc=OAk%253D
+							151 container
+								152 heading Important notifications, Value: 2
+									153 text Important notifications
+								154 container inbox-container
+									155 heading Video is blocked in some territories, Value: 3, ID: title-id
+										156 text Video is blocked in some territories
+									157 text Your video 'Centennial Hall Visit clip 5 WROC LOVE' is blocked due to one or more claims. This is not a copyright strike and doesn't affect your channel.
+									158 text 1 Oct 2026, 13:41
+									159 link Description: View options, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA?d=vc&videoId=oFpZE7jAuZE
+									160 button Description: Dismiss, ID: item-menu
+							161 container
+								162 heading Channel analytics, Value: 2
+									163 text Channel analytics
+								164 text Current subscribers 19 +19  in last 28 days
+								165 text Summary Last 28 days
+								166 container metrics-table
+									167 container
+										168 container Views
+											169 text Views
+										170 container 24K, ID: metric-0-value
+											171 text 24K
+										172 container —, ID: metric-0-trend
+											173 text —
+									174 container
+										175 container Watch time (hours)
+											176 text Watch time (hours)
+										177 container 24.5, ID: metric-1-value
+											178 text 24.5
+										179 container —, ID: metric-1-trend
+											180 text —
+								181 text Top content Last 48 hours  · Views
+								182 container
+									183 container Lodziarnia Roma - Ice cream counter - WROC-LOVE
+										184 link Description: Lodziarnia Roma - Ice cream counter - WROC-LOVE, Value: studio.youtube.com/video/y5z0w3v_ta0/analytics/tab-overview/period-default
+									185 container 1K
+										186 link Description: 1K, Value: studio.youtube.com/video/y5z0w3v_ta0/analytics/tab-overview/period-default
+								187 container
+									188 container Pan Tadeusz Museum | Illuminated facade at Rynek 6 | WROC-LOVE
+										189 link Description: Pan Tadeusz Museum | Illuminated facade at Rynek 6 | WROC-LOVE, Value: studio.youtube.com/video/BTXtNDsF_8M/analytics/tab-overview/period-default
+									190 container 161
+										191 link Description: 161, Value: studio.youtube.com/video/BTXtNDsF_8M/analytics/tab-overview/period-default
+								192 container
+									193 container Wrocław Pergola | Climbing greenery and columns | WROC-LOVE
+										194 link Description: Wrocław Pergola | Climbing greenery and columns | WROC-LOVE, Value: studio.youtube.com/video/zjWtn3ecZb8/analytics/tab-overview/period-default
+									195 container 159
+										196 link Description: 159, Value: studio.youtube.com/video/zjWtn3ecZb8/analytics/tab-overview/period-default
+								197 link Description: Go to channel analytics, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/analytics/tab-overview/period-default
+							198 content list
+								199 heading Comments, Value: 2
+									200 text Comments
+								201 container all-content
+									202 container body
+										203 container content
+											204 container header
+												205 text @ArekHildebrand
+												206 text •
+												207 text 2 weeks ago
+											208 text ❤
+								209 container
+									210 container all-content
+										211 container body
+											212 container content
+												213 container header
+													214 text @DamianNowak-x4v
+													215 text •
+													216 text 2 weeks ago
+												217 text Jesteś piękny
+								218 container
+									219 container all-content
+										220 container body
+											221 container content
+												222 container header
+													223 text @alexdavibe
+													224 text •
+													225 text 2 weeks ago
+												226 text Kraków ma zamek w centrum miasta, Wrocław ma ich 5
+								227 link Description: View more, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/comments/inbox?filter=%5B%7B%22name%22%3A%22ENGAGED_STATUS%22%2C%22value%22%3A%5B%22COMMENT_CATEGORY_NOT_ENGAGED%22%5D%7D%2C%7B%22isPinned%22%3Atrue%2C%22name%22%3A%22SORT_BY%22%2C%22value%22%3A%22SORT_BY_MOST_RELEVANT%22%7D%5D
+							228 container align-experimental-badge
+								229 heading Recent subscribers, Value: 2
+									230 text Recent subscribers
+								231 text Last 90 days
+								232 content list
+									233 link Description: שרית אמיתי מחברת הספר "אינטימיות פיננסית" 83 subscribers, Value: youtube.com/channel/UCw08i-hIMXjOwY5D5uLJpFg/
+									234 link Description: Marcin Kucharczyk 65 subscribers, Value: youtube.com/channel/UCXtrWss7ZAk7XyPOhLAHf8g/
+									235 link Description: infiniti blade 32 subscribers, Value: youtube.com/channel/UCAk3wuYrmky0DUVBdu0S08g/
+								236 button See all
+									237 text See all
+							238 container
+								239 button (disabled) Previous item
+								240 container Card 1 of 3
+								241 button Next item
+								242 heading Creator Insider, Value: 2
+									243 text Creator Insider
+								244 link Description: Views (Co-Viewed) & Branded Content, Value: youtube.com/watch?v=8DgguXIU4L8
+								245 heading Views (Co-Viewed) & Branded Content, Value: 2
+									246 text Views (Co-Viewed) & Branded Content
+								247 text US creators can now tag Amazon products in YouTube Shopping, see more accurate TV audience stats, and get updates on branded content deals
+								248 button Watch on YouTube
+									249 text Watch on YouTube
+							250 link Description: Terms of use , Value: youtube.com/t/terms
+							251 link Description: Privacy Policy , Value: policies.google.com/privacy?hl=en-GB
+							252 link Description: Policies and Safety , Value: youtube.com/yt/policyandsafety/
+		262 container dialog
+			263 button (expanded) Uploads complete, ID: expand-button, Secondary Actions: Collapse
+				264 text Uploads complete
+				265 button
+			686 button Description: Close, ID: close-button
+			267 content list progress-list
+				268 container
+					269 button Edit video renoma-guide-he-full-original.mp4
+						270 button
+						271 text renoma-guide-he-full-original.mp4
+						272 text 100% uploaded
+				274 container
+					275 button Edit video renoma-guide-en-full-original.mp4
+						276 button
+						277 text renoma-guide-en-full-original.mp4
+						278 text 100% uploaded
+		709 container dialog
+			710 text Renoma Wrocław | Our full English guide
+			711 text Saved as private
+			712 button Send Feedback
+			713 button Save and close
+			714 tab group
+				715 tab (selectable, settable, boolean) Details, ID: step-badge-0, Value: 0
+Details
+				716 tab (selected, settable, boolean) Video elements, ID: step-badge-1, Value: 1
+Video elements
+				717 tab (selectable, settable, boolean) Initial check, ID: step-badge-2, Value: 0
+Initial check
+				718 tab (selectable, settable, boolean) Visibility, ID: step-badge-3, Value: 0
+Visibility
+			719 container scrollable-content
+				914 heading Video elements, Value: 1
+					915 text Video elements
+				916 container
+					917 text Use cards and an end screen to show viewers related videos, websites and calls to action.
+					918 link Description: Learn more, Value: support.google.com/youtube/answer/57407?hl=en-GB#video-elements
+				919 container
+					920 heading Related video, Value: 3
+						921 text Related video
+					922 text Connect another of your videos to your video
+					923 button Add
+						924 text Add
+				925 container
+					926 heading Subtitles, Value: 3
+						927 text Subtitles
+					928 text Reach a broader audience by adding subtitles to your video
+					1015 button English by YouTube (automatic), ID: trigger
+						1016 text English by YouTube (automatic)
+					931 button Edit
+						932 text Edit
+			795 container Description: Video upload complete, ID: uploading-badge
+			796 container Description: Video processing Processing complete, ID: processing-badge
+			797 container Description: Copyright check complete No issues found Community Guidelines check complete No issues found, ID: checks-badge
+			798 text Checks complete. No issues found.
+			933 button Back
+				934 text Back
+			799 button Next
+				800 text Next
+		935 container Description: English subtitles, ID: dialog
+			936 container Description: English subtitles, ID: dialog
+				937 container
+					938 container video-editor-captions-modal-header
+						939 text English
+					940 container Description: Dialogue controls, ID: secondary-header
+						941 heading Dialogue controls, Value: 2
+							942 text Dialogue controls
+						943 button Send feedback
+						944 button Save draft
+							945 text Save draft
+						946 text Save draft button enabled
+						947 container save-container
+							948 button Done
+								949 text Done
+							950 text Done button enabled
+							951 button Description: Close, ID: close-button
+				953 container
+					954 container panels
+						955 container Edit transcript
+							1017 container automatic-timing-toggle-container
+								1018 heading Edit transcript, Value: 2, ID: edit-transcript-header
+									1019 text Edit transcript
+								1020 button Edit timings
+									1021 text Edit timings
+							1022 button Description: Options, ID: more-actions-menu
+							1023 container editing-container
+								1024 text entry area (settable) Chesh Vlav mixes between trade and architecture and one of the places that we can be witnessing this mixture is invnit.
+
+The department store of this department store opened in the 2nd of April 1930. Back then it was called Verheim. Even back then it was a very impressive and modern department store. It was ruined during uh the Second World War and reopened in 1977. What's very uh impressive about this place is the um external facade in which you can see the colorful uh tiles and the uh golden decorations around it, the gilded decorations as well as 40 different portfolios. Not only that, it is impressive from the outside, it's also very impressive from the inside. You can see behind me that it's quite luxurious department store with uh high-end uh brands. Moreover, it hosts the food court that called Pi that we talked about in one of our recent posts that uh offers different different styles of cuisine as well as a big bar in the middle and al also hosting um musical events and uh and other kinds of uh entertainments. So I really recommend to come and visit this amazing department store Renoma in Vlav. See you on our next video. Doitenia.
+						956 heading Subtitles preview, Value: 2, ID: preview-header
+							957 text Subtitles preview
+						958 container Description: Subtitles preview, ID: preview-panel
+							959 container Description: Video player, ID: video-container
+								960 container toolbar
+									961 container button-bar
+										962 button Description: Play, ID: play-button
+										963 button Description: Skip back 10 seconds, ID: skip-back-10
+										964 button Description: Skip forwards 10 seconds, ID: skip-forward-10
+										965 container
+											966 button Description: Mute, ID: volume-icon-button
+											967 slider Description: volume, Value: 100, ID: volume-slider
+										1025 text 0:00 / 1:55
+										968 container
+											969 button Description: Settings, ID: settings-button
+							970 container preview-cta
+								971 container root-container
+									972 checkbox Description: Pause while typing, Value: 0, ID: checkbox
+									973 text Pause while typing
+								974 button View keyboard shortcuts
+									975 text View keyboard shortcuts
+					976 heading Subtitles timeline, Value: 2, ID: timeline-header
+						977 text Subtitles timeline
+					978 container Description: Subtitles timeline, ID: timeline-section
+						979 container
+							980 container left-controls
+								981 container Description:  0 minutes 0 seconds 0 frames, ID: container
+									982 text field (settable)  0 minutes 0 seconds 0 frames
+								983 button Undo
+									984 text Undo
+								985 button (disabled) Redo
+									986 text Redo
+							987 container right-controls
+								988 button Description: Zoom out, ID: zoom-out
+								989 slider Description: Zoom slider, Value: 3, ID: zoom-slider
+								990 button Description: Zoom in, ID: zoom-in
+						991 container
+							992 container header-container
+								993 container
+									994 image Description: Timeline header, ID: canvas
+									995 button Description: Find playhead, ID: find-left-button
+									996 button Description: Find playhead, ID: find-right-button
+							997 container plugin-timeline-surface
+								1026 container CAPTIONS
+									1027 container decorations
+										1028 container Chesh Vlav mixes between trade and  architecture and one of the places  
+										1029 text Chesh Vlav mixes between trade and  architecture and one of the places  
+										1030 container that we can be witnessing this mixture is invnit.
+										1031 text that we can be witnessing this mixture is invnit.
+										1032 container The department store of this department  store opened in the 2nd of April 1930.  
+										1033 text The department store of this department  store opened in the 2nd of April 1930.  
+										1034 text Back then it was called Verheim. Even back then it  was a very impressive and modern department store.  
+										1035 text It was ruined during uh the Second World War and  reopened in 1977. What's very uh impressive about  
+										1036 text this place is the um external facade in which you  can see the colorful uh tiles and the uh golden  
+										1037 text decorations around it, the gilded decorations as  well as 40 different portfolios. Not only that,  
+										1038 text it is impressive from the outside, it's also  very impressive from the inside. You can see  
+										1039 text behind me that it's quite luxurious department  store with uh high-end uh brands. Moreover, it  
+										1040 text hosts the food court that called Pi that we talked  about in one of our recent posts that uh offers  
+										1041 text different different styles of cuisine as well  as a big bar in the middle and al also hosting  
+										1042 text um musical events and uh and other kinds of uh  entertainments. So I really recommend to come  
+										1043 text and visit this amazing department store Renoma  in Vlav. See you on our next video. Doitenia.
+								998 container AUDIO_WAVEFORM
+									999 container audio-timeline-content
+										1000 image Description: Audio waveform, ID: audio-waveform
+							1001 container Description: Start of timeline, ID: left-bookend
+							1002 container Description: End of timeline, ID: right-bookend
+							1003 slider Description: Playhead, Value: 0, ID: playhead
+							1004 container hover-playhead
+								1005 text 0:00:00
+
+The focused UI element is 1024 text entry area (settable) Chesh Vlav mixes between trade and architecture and one of the places that we can be witnessing this mixture is invnit.
+
+The department store of this department store opened in the 2nd of April 1930. Back then it was called Verheim. Even back then it was a very impressive and modern department store. It was ruined during uh the Second World War and reopened in 1977. What's very uh impressive about this place is the um external facade in which you can see the colorful uh tiles and the uh golden decorations around it, the gilded decorations as well as 40 different portfolios. Not only that, it is impressive from the outside, it's also very impressive from the inside. You can see behind me that it's quite luxurious department store with uh high-end uh brands. Moreover, it hosts the food court that called Pi that we talked about in one of our recent posts that uh offers different different styles of cuisine as well as a big bar in the middle and al also hosting um musical events and uh and other kinds of uh entertainments. So I really recommend to come and visit this amazing department store Renoma in Vlav. See you on our next video. Doitenia.
