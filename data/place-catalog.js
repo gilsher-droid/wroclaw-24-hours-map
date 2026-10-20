@@ -26178,20 +26178,20 @@
   },
   "parrot-coffee-bema": {
     "id": "parrot-coffee-bema",
-    "localName": "Parrot Coffee – Bema",
+    "localName": "Parrot Coffee, Bema",
     "name": {
-      "he": "Parrot Coffee – Bema",
-      "en": "Parrot Coffee – Bema",
-      "pl": "Parrot Coffee – Bema",
-      "de": "Parrot Coffee – Bema",
-      "cs": "Parrot Coffee – Bema"
+      "he": "קפה פארוט, סניף במה",
+      "en": "Parrot Coffee, Bema",
+      "pl": "Parrot Coffee przy Bema",
+      "de": "Parrot Coffee an der Bema",
+      "cs": "Parrot Coffee v ulici Bema"
     },
     "description": {
-      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
-      "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
-      "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
-      "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
-      "cs": "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."
+      "he": "בית קפה ברחוב הגנרל יוזף במה2, מצפון לעיר העתיקה. האתר הרשמי מתאר קפה ממכונת אספרסו ובשיטות חליטה ידניות, לצד קינוחים. תמונת הביקור שלנו מציגה את השלט העגול עם התוכי, חזית הזכוכית והצמחייה בחוץ. זהו סניף במה, בנפרד מהסניף של אותו מותג ליד כיכר דומיניקנסקי. המקום מופיע גם בתוכנית העירונית למי ברז בחינם.\nParrot Coffee\nGenerała Józefa Bema 2, Wrocław",
+      "en": "A café at 2 Generała Józefa Bema, north of the Old Town. Its official website describes espresso and manual-brew coffee alongside desserts. Our visit photograph shows the round parrot sign, glass frontage and planting outside. This is the Bema branch, separate from the same brand near Plac Dominikański. It is also listed in the city tap-water programme.\nGenerała Józefa Bema 2, Wrocław",
+      "pl": "Kawiarnia przy Generała Józefa Bema 2, na północ od Starego Miasta. Oficjalna strona opisuje kawę z ekspresu i metod przelewowych oraz desery. Nasze zdjęcie z wizyty pokazuje okrągły szyld z papugą, szklaną fasadę i rośliny na zewnątrz. To lokal przy Bema, odrębny od kawiarni tej samej marki przy placu Dominikańskim. Figuruje również w miejskim programie bezpłatnej kranówki.\nGenerała Józefa Bema 2, Wrocław",
+      "de": "Café an der Generała Józefa Bema 2 nördlich der Altstadt. Die offizielle Website beschreibt Espresso, handgebrühten Kaffee und Desserts. Unser Besuchsfoto zeigt das runde Papageienschild, die Glasfassade und Pflanzen vor dem Lokal. Dies ist die Bema-Filiale, getrennt vom Café derselben Marke am Plac Dominikański. Sie ist auch im städtischen Leitungswasserprogramm aufgeführt.\nGenerała Józefa Bema 2, Wrocław",
+      "cs": "Kavárna na adrese Generała Józefa Bema 2 severně od Starého Města. Oficiální web uvádí espresso, ručně filtrovanou kávu a dezerty. Naše fotografie zachycuje kulatý štít s papouškem, prosklené průčelí a venkovní zeleň. Jde o pobočku v ulici Bema, oddělenou od kavárny stejné značky u náměstí Plac Dominikański. Je také uvedena v městském programu kohoutkové vody zdarma.\nGenerała Józefa Bema 2, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -26200,6 +26200,12 @@
       "coordinates": {
         "lat": 51.1176655,
         "lng": 17.0416121
+      },
+      "address": {
+        "street": "Generała Józefa Bema 2",
+        "city": "Wrocław",
+        "postalCode": "50-265",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -26208,8 +26214,21 @@
     ],
     "sourceUrls": [],
     "aliases": [],
-    "sourceRecords": [],
-    "coordinateCandidates": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "parrot-coffee-bema"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "parrot-coffee-bema",
+        "lat": 51.1176655,
+        "lng": 17.0416121
+      }
+    ],
     "status": "published",
     "editorialPriority": "normal",
     "taxonomy": {
@@ -26241,11 +26260,12 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "website": "https://www.parrotcoffee.pl/",
       "navigation": {
-        "googleMaps": null,
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1176655%2C17.0416121",
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -26272,16 +26292,57 @@
           "type": "coordinates",
           "url": "https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ",
           "checkedAt": "2026-08-24"
+        },
+        {
+          "type": "official-venue",
+          "url": "https://www.parrotcoffee.pl/kontakt",
+          "checkedAt": "2026-10-20",
+          "scope": "Two distinct branch addresses; Bema2 is this existing canonical place."
+        },
+        {
+          "type": "official-venue",
+          "url": "https://www.parrotcoffee.pl/",
+          "checkedAt": "2026-10-20",
+          "scope": "Espresso/manual-brew coffee and desserts."
+        },
+        {
+          "type": "official-programme",
+          "url": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+          "checkedAt": "2026-10-20",
+          "scope": "Parrot remains listed among tap-water partners; preserve existing amenity."
         }
-      ]
+      ],
+      "originalPhotography": true,
+      "personalVisit": true,
+      "verifiedAt": "2026-10-20"
     },
     "placeType": "hospitality",
     "amenities": {
       "freeTapWater": true
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/parrot-coffee-bema/parrot-bema-visit-01.jpg",
+      "photos": [
+        "/assets/parrot-coffee-bema/parrot-bema-visit-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/parrot-coffee-bema/parrot-bema-visit-01.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 17.30.29 (3).jpeg",
+          "sourceSHA256": "9b31feeeb9a4b0df9de5f6861636220d070f023d5993138b254e5d1d43c118ed",
+          "assetSHA256": "a6c384bb4b6589a79a074490a1964ce65180bc7af0d6155024e085d93e302ead",
+          "familyForeground": false,
+          "privacyReview": "No posed people or family. Place sign, facade and planting are the subject. Full frame preserved.",
+          "alt": {
+            "he": "שלט התוכי וחזית קפה פארוט בסניף במה",
+            "en": "Parrot sign and glass frontage at the Bema branch",
+            "pl": "Szyld z papugą i szklana fasada lokalu przy Bema",
+            "de": "Papageienschild und Glasfassade der Bema-Filiale",
+            "cs": "Štít s papouškem a prosklené průčelí pobočky v ulici Bema"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
