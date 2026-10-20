@@ -1,0 +1,242 @@
+{
+  "canonicalId": "bastion",
+  "date": "2026-10-20",
+  "photos": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.15.jpeg",
+      "sourceSHA256": "3c64dde7a647637bdf937e6933787ab20e10030e2fd3e94bcba90cbddcb0c1b9",
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/bastion-refresh-2026-10-20/assets/bastion-refresh-20261020-01.jpg",
+      "assetSHA256": "8186a4a6fc0f00fef9566f708683576ab88b39cfabbb931a783a7e200643fef9",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "reason": "Full colonnade and fountain courtyard; incidental visitors at location, no posed portrait",
+      "alt": {
+        "he": "הקולונדה והחצר של הבסטיון במבט רחב",
+        "en": "Wide view of the bastion colonnade and courtyard",
+        "pl": "Szeroki widok kolumnady i dziedzińca bastionu",
+        "de": "Gesamtansicht der Kolonnade und des Hofs der Bastion",
+        "cs": "Celkový pohled na kolonádu a nádvoří bašty"
+      },
+      "siteAsset": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-01.jpg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.16.jpeg",
+      "sourceSHA256": "fa2c17f9cc0dc3756e00519b337b8f737cc1ee251be0f243eaa8ae37016b11de",
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/bastion-refresh-2026-10-20/assets/bastion-refresh-20261020-02.jpg",
+      "assetSHA256": "0cbaf89a27db55e4d7870d64068bdd55ed9375e458e35403118ca2d5cff10011",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "reason": "Distinct side pavilion and access steps",
+      "alt": {
+        "he": "הביתן הצדדי, הקשתות והמדרגות בבסטיון",
+        "en": "Side pavilion, arcades and steps at the bastion",
+        "pl": "Pawilon boczny, arkady i schody bastionu",
+        "de": "Seitenpavillon, Arkaden und Treppen der Bastion",
+        "cs": "Boční pavilon, arkády a schodiště bašty"
+      },
+      "siteAsset": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-02.jpg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.17 (1).jpeg",
+      "sourceSHA256": "2bf8ce565e4dd3d0777e15bf5881a46441e5bd298f545450bb964755afd21ffe",
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/bastion-refresh-2026-10-20/assets/bastion-refresh-20261020-03.jpg",
+      "assetSHA256": "3bf613812e9f771a99586a1c8aea0d49f65730c909c338449032242e598459e7",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "reason": "Fountain foreground and full arcade behind",
+      "alt": {
+        "he": "המזרקה והקשתות הצהבהבות של הבסטיון",
+        "en": "Fountain and yellow arcades at the bastion",
+        "pl": "Fontanna i żółte arkady bastionu",
+        "de": "Brunnen und gelbe Arkaden der Bastion",
+        "cs": "Kašna a žluté arkády bašty"
+      },
+      "siteAsset": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-03.jpg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.18.jpeg",
+      "sourceSHA256": "03557cc54363749a46f4778eab4e1a7a97c2e813d5dc560e5c3b6890364ece4b",
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/bastion-refresh-2026-10-20/assets/bastion-refresh-20261020-04.jpg",
+      "assetSHA256": "dbed350621231d801ee5bd2983cdbe11f7d955f12db3e9b53043102101593639",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "reason": "Symmetrical courtyard and fountain looking toward sunset",
+      "alt": {
+        "he": "המזרקה והחצר הפתוחה מול אור השקיעה",
+        "en": "Fountain and open courtyard facing the sunset",
+        "pl": "Fontanna i otwarty dziedziniec w świetle zachodu słońca",
+        "de": "Brunnen und offener Hof im Abendlicht",
+        "cs": "Kašna a otevřené nádvoří při západu slunce"
+      },
+      "siteAsset": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-04.jpg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.19.jpeg",
+      "sourceSHA256": "78ba68a303c57497c6dc3f97fe581168266824fd2d1427aa8b1dcf1c96b390cb",
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/bastion-refresh-2026-10-20/assets/bastion-refresh-20261020-05.jpg",
+      "assetSHA256": "b2dffe53489840d3dc588d9695fd79772ba133ff6b1015b32b49636f837bc792",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "reason": "Elevated broad fountain and city overview",
+      "alt": {
+        "he": "מבט מוגבה על המזרקה והעיר בשקיעה",
+        "en": "Elevated view of the fountain and city at sunset",
+        "pl": "Widok z góry na fontannę i miasto o zachodzie słońca",
+        "de": "Blick von oben auf Brunnen und Stadt bei Sonnenuntergang",
+        "cs": "Pohled shora na kašnu a město při západu slunce"
+      },
+      "siteAsset": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-05.jpg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.20.jpeg",
+      "sourceSHA256": "9ddc6574f56940ad5f94f363aeba9dc3d717e2067a69077d12b877fd9b261c79",
+      "asset": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/bastion-refresh-2026-10-20/assets/bastion-refresh-20261020-06.jpg",
+      "assetSHA256": "a70905cb5cb1dc3daaa1990644e222797950dd6ce1f5aa1d309665c216b95e90",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "reason": "Doorway and architectural detail of the colonnade building; no claim of separate cafe point",
+      "alt": {
+        "he": "פרט הכניסה במבנה הקולונדה של הבסטיון",
+        "en": "Entrance detail in the bastion colonnade building",
+        "pl": "Detal wejścia w budynku kolumnady bastionu",
+        "de": "Eingangsdetail am Kolonnadengebäude der Bastion",
+        "cs": "Detail vstupu v budově kolonády bašty"
+      },
+      "siteAsset": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg"
+    }
+  ],
+  "originalsPreserved": true,
+  "heroPreserved": true,
+  "excluded": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.17.jpeg",
+      "name": "WhatsApp Image 2026-10-20 at 13.36.17.jpeg",
+      "sha256": "b6a19622699d0b6d9f3720770b34200298357015a6bb6845923a1906567e59c8",
+      "bytes": 222878,
+      "historical": false,
+      "role": "photo",
+      "previousDecision": null,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "withheld-prominent-visitors",
+      "reason": "Two identifiable foreground visitors dominate; no personal/family exception; no crop or edit"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.19 (1).jpeg",
+      "name": "WhatsApp Image 2026-10-20 at 13.36.19 (1).jpeg",
+      "sha256": "25a42dece2af1d5ebee33f2d7e9bf244bd578892e44338b59bfeeccf4e41304b",
+      "bytes": 236227,
+      "historical": false,
+      "role": "photo",
+      "previousDecision": null,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "decision": "excluded-near-duplicate",
+      "reason": "Near identical adjacent elevated fountain frame; retain item12 with similar complete composition"
+    }
+  ],
+  "guidesOwner": "separate-upload-role;integration-pending-Public-and-native-caption-proof",
+  "newVisit": {
+    "canonicalId": "bastion",
+    "kind": "visit",
+    "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-20 at 13.37.04.mp4",
+    "sourceSHA256": "79be611f39e72337fce4e5c97da4862d03e5bbe53f7a82a9aabee6c8da47582a",
+    "durationSeconds": 12.096667,
+    "streams": [
+      {
+        "type": "video",
+        "width": 1024,
+        "height": 576
+      },
+      {
+        "type": "audio",
+        "width": null,
+        "height": null
+      }
+    ],
+    "title": "Bastion Sakwowy | Fountain and courtyard panorama | WROC-LOVE",
+    "description": "A wide visit view of the fountain, arcades and city at sunset at Bastion Sakwowy in Wrocław. Original footage from our visit.",
+    "plannedVisibility": "Public",
+    "uploadState": "public-verified-reopened",
+    "uploadCopy": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/bastion-refresh-2026-10-20/upload/bastion-fountain-panorama-silent.mp4",
+    "audioPlan": "silent visit copy proposed; original preserved; final action-time approval bundle will explicitly describe this",
+    "dedupe": {
+      "fileSHA256AlreadyInHistoricalInventory": false,
+      "visualSamples": [
+        0.1,
+        6.0483335,
+        11.896667
+      ],
+      "reviewFiles": [
+        "review/new-clip-0.jpg",
+        "review/new-clip-1.jpg",
+        "review/new-clip-2.jpg",
+        "review/visit-comparison.jpg"
+      ],
+      "comparison": "Existing first clip is portrait-oriented distinct fountain view; new clip is wide zoom-out with both pavilions. Fresh YouTube account search still required.",
+      "existingPublicVideos": [
+        {
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.50.mp4",
+          "url": "https://youtube.com/shorts/tbHy-48b9fo",
+          "title": "Bastion Sakwowy - Fountain and sunset view - WROC-LOVE",
+          "state": "historical-public-needs-current-recheck"
+        },
+        {
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.53.mp4",
+          "url": "https://youtube.com/shorts/fhySn2JiZ38",
+          "title": "Bastion Sakwowy - Fountain close-up at sunset - WROC-LOVE",
+          "state": "historical-public-needs-current-recheck"
+        },
+        {
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.54.mp4",
+          "url": "https://youtube.com/shorts/8JwoMSxXzvc",
+          "title": "Bastion Sakwowy - Fountain and colonnade - WROC-LOVE",
+          "state": "historical-public-needs-current-recheck"
+        },
+        {
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.56.mp4",
+          "url": "https://youtube.com/shorts/HQIvi34MIUg",
+          "title": "Bastion Sakwowy - Colonnade and pavilion - WROC-LOVE",
+          "state": "historical-public-needs-current-recheck"
+        },
+        {
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.59.mp4",
+          "url": "https://youtube.com/shorts/MjXLNkUw9zs",
+          "title": "Bastion Sakwowy - Pavilion exterior - WROC-LOVE",
+          "state": "historical-public-needs-current-recheck"
+        }
+      ]
+    },
+    "permissions": {
+      "sourceModification": false,
+      "familyException": false,
+      "actionTimeTerms": "pending actual screen",
+      "plannedBundle": "1visit+2guides viaRoot after guideowner manifest and UIlease"
+    },
+    "uploadSHA256": "31ad4e076d1d1f7947302dc7a01ca730125339362b9fea6165b0b37ee33b2e9b",
+    "processing": "SD complete",
+    "youtubeId": "TlV9gewmJVI",
+    "youtubeUrl": "https://youtu.be/TlV9gewmJVI",
+    "visibility": "Public",
+    "checks": "Copyright and Community Guidelines complete; no issues found",
+    "verifiedAt": "2026-10-20T11:12:32.408Z",
+    "proof": "new-visit-public-reopened.txt",
+    "approval": "youtube-three-files-approval.json"
+  }
+}

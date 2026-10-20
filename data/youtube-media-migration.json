@@ -1419,5 +1419,25 @@
     "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.10.mp4",
     "virtualVideoPathOnly": true,
     "transformation": "Original video stream and orientation copied without reencoding; audio removed only from upload copy."
+  },
+  "/assets/bastion-refresh-visit-20261020-06.mp4": {
+    "title": "Bastion Sakwowy | Fountain and courtyard panorama | WROC-LOVE",
+    "canonicalPlaceIds": [
+      "bastion"
+    ],
+    "status": "public",
+    "youtube": "https://youtube.com/watch?v=TlV9gewmJVI",
+    "sourceSHA256": "79be611f39e72337fce4e5c97da4862d03e5bbe53f7a82a9aabee6c8da47582a",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-20 at 13.37.04.mp4",
+    "uploadSHA256": "31ad4e076d1d1f7947302dc7a01ca730125339362b9fea6165b0b37ee33b2e9b",
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "processingStatus": "complete",
+    "checks": "complete-no-issues",
+    "copyrightStatus": "no-issues-found",
+    "communityGuidelinesStatus": "no-issues-found",
+    "verifiedAt": "2026-10-20T11:12:32.408Z",
+    "virtualVideoPathOnly": true,
+    "transformation": "Video stream copied unchanged; audio omitted in upload work copy; source preserved."
   }
 }
