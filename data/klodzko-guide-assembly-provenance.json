@@ -1,0 +1,264 @@
+{
+  "status": "assembled-and-published-public",
+  "userScope": "Assemble four city/fortress HE/EN films; follow-up explicitly authorizes removing repetition while preserving unique information.",
+  "sources": [
+    {
+      "index": 0,
+      "name": "המדריך שלנו באנגלית -  המצבר של קולדזקודו וידזניה.mp4",
+      "sha256": "2acd9b481cb2ea03c5bd43bf32dd8444c5275cd8c5ef855ad2cc08529921f68d",
+      "lang": "en",
+      "duration": 5.5,
+      "boundaries": [
+        {
+          "section": "start",
+          "offset": 0,
+          "text": "And I'll see you guys on our next video. Dovigenia!"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "המדריך שלנו באנגלית מסביר על המבצר של קלודזקו 2.mp4",
+      "sha256": "a7a335e7f79e87e77c80f4159d3051072477f77fc59d44eff05c08dc896843d6",
+      "lang": "en",
+      "duration": 98.546667,
+      "boundaries": [
+        {
+          "section": "start",
+          "offset": 0,
+          "text": "So, we are in Klochko, a city that's famous for trade, manufacturing and defense. And when I say defense, I mean line of defense."
+        },
+        {
+          "section": "end",
+          "offset": 82.546667,
+          "text": "enjoy the fortress, enjoy the surroundings and enjoy the beautiful butterflies and bees and birds that are just enjoying the amazing plantation no shit"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "המדריך שלנו באנגלית מסביר על המצבר של קלודזקו 3.mp4",
+      "sha256": "560ce6f5d9c4614c4bf3145c9f40e5a8808487b89b3e5ee8af457a16c7551ed2",
+      "lang": "en",
+      "duration": 43.921667,
+      "boundaries": [
+        {
+          "section": "start",
+          "offset": 0,
+          "text": "Chesh, as we mentioned before, Klochko is a famous town for commerce, for manufacturing, and for defense."
+        },
+        {
+          "section": "end",
+          "offset": 27.921667,
+          "text": "There's also lots of tunnels and passages under the ground and you can do the two of the underground tunnels with the Polish guide. With the Polish guide or a guide speaking Polish? With the..."
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "המדריך שלנו באנגלית מסביר על העיר קלודזקו 2.mp4",
+      "sha256": "2b70b006d043f46b80cd579a783127eda6acd2e41c49fb36a1a2f016d4ec9c24",
+      "lang": "en",
+      "duration": 126.533333,
+      "boundaries": [
+        {
+          "section": "start",
+          "offset": 0,
+          "text": "So I'm located in the city of Klochko in Lower Silesia. It's about one and a half to two hours drive from Votslav and the city is the main city of Klochko in Lower Silesia."
+        },
+        {
+          "section": "end",
+          "offset": 110.533333,
+          "text": "as I mentioned. So I invite you to visit Klochko, the air is fantastic, mountains air, and really it's a great place. See you on our next one."
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "המדריך שלנו באנגלית מסביר על העיר קלודזקו.mp4",
+      "sha256": "243b8dd003ccd17eaab43bc672ad68b95dee6475d2b2d88d54feb9c7865f0474",
+      "lang": "en",
+      "duration": 156.1,
+      "boundaries": [
+        {
+          "section": "start",
+          "offset": 0,
+          "text": "Czech, hi everyone, so we are in the city of Glodzko, one and a half hour's drive from Votslav, this city is actually"
+        },
+        {
+          "section": "end",
+          "offset": 140.1,
+          "text": "The air is fantastic. The views are fantastic. The landscape is fantastic. The drive is fantastic. And I will see you on our next video. Dovidzenya."
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "המדריך שלנו בעברית על המבצר של קלודזקו.mp4",
+      "sha256": "f100a80aad91700e9046cae63b18d6ca61229ddb9bf47a23aff5283cee206ba2",
+      "lang": "he",
+      "duration": 84.2,
+      "boundaries": [
+        {
+          "section": "start",
+          "offset": 0,
+          "text": "שש מה שלומכן אנחנו נמצאים כאמור בעיר כלוצקו עיר מפוסמת על המשחר שבה על המלאכה שבה ועל ההגנה שבה"
+        },
+        {
+          "section": "end",
+          "offset": 68.2,
+          "text": "פרפרים ודבורים וציפורים והמקום הזה פשוט קסום ומקסים ואני מזמין אתכם לבוא לבקר במבצר של קלודג'קור להתראות בבידיואבא דווי ג'ניה"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "המדריך שלנו בעברית על העיר קלודזקו.mp4",
+      "sha256": "f15c20db8391970fb4fc6f2bea835112c59f707be0021b33c201e45e1ffa64da",
+      "lang": "he",
+      "duration": 113.4,
+      "boundaries": [
+        {
+          "section": "start",
+          "offset": 0,
+          "text": "שש, אנחנו נמצאים בעיר קלודשקו, שעתיים נסיעה מברוץ לה, שעה וחצי שעתיים, בואו נאמר, העיר הזאת נמצאת בעצם באמת שקרוי על שמה והיא בעצם"
+        },
+        {
+          "section": "end",
+          "offset": 97.4,
+          "text": "איכה השאר הלכת לנהר ובעצם למצוא את עצמנו הולכים על גבי גשר גוטי ואני מזמין אופכן לבוא להעיר המקסימה הזאת וליהנות מקום מה שיש לה להציע דוביץניה"
+        }
+      ]
+    }
+  ],
+  "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/המדריך שלנו",
+  "excluded": "All files under פספוסים. No family or visit clips used.",
+  "edits": {
+    "cityEnglish": {
+      "segments": [
+        {
+          "source": 4,
+          "start": 1.3,
+          "end": 67.65,
+          "reason": "Complete greeting, location, journey, city hall, market square and architectural influences."
+        },
+        {
+          "source": 3,
+          "start": 30.75,
+          "end": 78.44,
+          "reason": "Trade/manufacturing, Prussian/Bohemian frontier context, fortress viewpoint and city underground tunnels."
+        },
+        {
+          "source": 4,
+          "start": 91.0,
+          "end": 155.0,
+          "reason": "Drive and regional fortresses, further historical context, Gothic bridge, visit recommendation and one farewell."
+        }
+      ],
+      "removed": "Repeated introductions, repeated market-square/bridge description and second signoff; incomplete restart in second take. No factual audio rewritten. Partial thematic overlap retained where additional historical detail is given."
+    },
+    "fortressEnglish": {
+      "segments": [
+        {
+          "source": 1,
+          "start": 1.75,
+          "end": 97.05
+        },
+        {
+          "source": 0,
+          "start": 0,
+          "end": 4.6
+        }
+      ],
+      "omittedSource2": "Alternate incomplete take. All historical and visit information also present in source1; ends in off-camera correction."
+    },
+    "hebrew": "Each subject already has one complete Hebrew source. Delivered byte-identical copies."
+  },
+  "outputs": [
+    {
+      "name": "קלודזקו - המבצר - אנגלית.mp4",
+      "file": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/klodzko-guide-assembly-oct20/final/קלודזקו - המבצר - אנגלית.mp4",
+      "sha256": "a2942fa71cb29864cc75887bb0da603810de6b40de459648234ac1b6701500f3",
+      "bytes": 28036683,
+      "duration": 99.9,
+      "videoDuration": 99.9,
+      "audioDuration": 99.9,
+      "width": 576,
+      "height": 1024,
+      "rotation": [],
+      "decode": "pass"
+    },
+    {
+      "name": "קלודזקו - המבצר - עברית.mp4",
+      "file": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/klodzko-guide-assembly-oct20/final/קלודזקו - המבצר - עברית.mp4",
+      "sha256": "f100a80aad91700e9046cae63b18d6ca61229ddb9bf47a23aff5283cee206ba2",
+      "bytes": 10290495,
+      "duration": 84.2,
+      "videoDuration": 84.2,
+      "audioDuration": 84.165646,
+      "width": 1024,
+      "height": 576,
+      "rotation": [
+        {
+          "side_data_type": "Display Matrix",
+          "displaymatrix": "\n00000000:            0       65536           0\n00000001:       -65536           0           0\n00000002:     70778880           0  1073741824\n",
+          "rotation": -90
+        }
+      ],
+      "decode": "pass"
+    },
+    {
+      "name": "קלודזקו - העיר - אנגלית.mp4",
+      "file": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/klodzko-guide-assembly-oct20/final/קלודזקו - העיר - אנגלית.mp4",
+      "sha256": "693d94ced4e397e7870bace0f4d3cee9efa63564ec142c2d004479d1941e911f",
+      "bytes": 43904856,
+      "duration": 178.066667,
+      "videoDuration": 178.066667,
+      "audioDuration": 178.066,
+      "width": 576,
+      "height": 1024,
+      "rotation": [],
+      "decode": "pass"
+    },
+    {
+      "name": "קלודזקו - העיר - עברית.mp4",
+      "file": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/klodzko-guide-assembly-oct20/final/קלודזקו - העיר - עברית.mp4",
+      "sha256": "f15c20db8391970fb4fc6f2bea835112c59f707be0021b33c201e45e1ffa64da",
+      "bytes": 13869011,
+      "duration": 113.4,
+      "videoDuration": 113.4,
+      "audioDuration": 113.38898,
+      "width": 1024,
+      "height": 576,
+      "rotation": [
+        {
+          "side_data_type": "Display Matrix",
+          "displaymatrix": "\n00000000:            0       65536           0\n00000001:       -65536           0           0\n00000002:     70778880           0  1073741824\n",
+          "rotation": -90
+        }
+      ],
+      "decode": "pass"
+    }
+  ],
+  "checks": {
+    "allFourFullyDecode": true,
+    "sourceChecksumsUnchanged": true,
+    "hebrewByteIdentical": true,
+    "audioVideoDurationDifferenceUnder80ms": true,
+    "editedJoinSpeechReview": "Pass. City joins preserve complete sentences about specialtown/trade and citytunnels/regionaldrive. Fortress joins finaldescription to one farewell; trailingblooperexcluded.",
+    "visualOrientationAndJoins": "Pass, uprightportrait/fullpicture; source frame ratio retained."
+  },
+  "hosting": "No uploads, social publications or website changes. Videos remain local pending any further user instruction.",
+  "publication": {
+    "verifiedAt": "2026-10-20",
+    "city": {
+      "he": "https://youtube.com/shorts/0YyKS3LcHrU",
+      "en": "https://youtube.com/shorts/reMcbePY2yo"
+    },
+    "fortress": {
+      "he": "https://youtube.com/shorts/zNAM3xG5ED4",
+      "en": "https://youtube.com/shorts/Swz838oySqQ"
+    },
+    "captionTracks": "Native Hebrew plus English/German/Czech/Polish tracks published; see per-place caption provenance."
+  }
+}

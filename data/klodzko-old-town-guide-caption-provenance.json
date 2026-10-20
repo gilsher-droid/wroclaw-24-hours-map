@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "klodzko-old-town"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/klodzko-guide-assembly-oct20/final/קלודזקו - העיר - עברית.mp4",
+      "sourceSHA256": "f15c20db8391970fb4fc6f2bea835112c59f707be0021b33c201e45e1ffa64da",
+      "uploadSHA256": "f15c20db8391970fb4fc6f2bea835112c59f707be0021b33c201e45e1ffa64da",
+      "videoId": "0YyKS3LcHrU",
+      "visibility": "Public",
+      "durationSeconds": 113.4,
+      "uploadMethod": "Reviewed assembled original guide, unchanged after final assembly; source edits recorded in assembly provenance."
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/klodzko-guide-assembly-oct20/final/קלודזקו - העיר - אנגלית.mp4",
+      "sourceSHA256": "693d94ced4e397e7870bace0f4d3cee9efa63564ec142c2d004479d1941e911f",
+      "uploadSHA256": "693d94ced4e397e7870bace0f4d3cee9efa63564ec142c2d004479d1941e911f",
+      "videoId": "reMcbePY2yo",
+      "visibility": "Public",
+      "durationSeconds": 178.066667,
+      "uploadMethod": "Reviewed assembled original guide, unchanged after final assembly; source edits recorded in assembly provenance."
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-old-town-he.srt",
+      "srtSHA256": "82c5e76bd9279527c41f72edf6364494f2653c3f3c8abe7839303a4974c86244",
+      "cues": [
+        {
+          "start": 1.1599999999999997,
+          "end": 10.16,
+          "text": "צ׳שץ׳. אנחנו נמצאים בעיר קלודזקו, כשעה וחצי עד שעתיים נסיעה מוורוצלב."
+        },
+        {
+          "start": 11.02,
+          "end": 22.74,
+          "text": "העיר נמצאת בעמק שקרוי על שמה. היא העיר המרכזית בעמק והייתה מרכז של מלאכה, מסחר והגנה."
+        },
+        {
+          "start": 22.74,
+          "end": 47.1,
+          "text": "העיר נמצאת באזור הררי עם הרבה מצודות שנלחמו עליהן הפרוסים, הגרמנים, האוסטרים והצרפתים. האזור חווה מלחמות רבות."
+        },
+        {
+          "start": 47.1,
+          "end": 64.16,
+          "text": "אני מראה לכם את כיכר העיר, הרינק. אפשר לראות את בית העירייה מהמאה התשע עשרה, ומסביבו בתים מרשימים וצבעוניים."
+        },
+        {
+          "start": 65.16,
+          "end": 78.66,
+          "text": "העיר עברה השפעות צ׳כיות, גרמניות, פרוסיות ופולניות. היא החליפה ידיים רבות, ולכן כל ההשפעות נמצאות בעיר המקסימה הזאת."
+        },
+        {
+          "start": 78.66,
+          "end": 86.86,
+          "text": "האזור מהמם ביופיו. כל ההרים שמסביב והדרך לכאן פשוט מהממים."
+        },
+        {
+          "start": 86.86,
+          "end": 102.42,
+          "text": "בעיר יש מבצר שצופה אליה, ונדבר עליו בהמשך. במרחק הליכה אפשר להגיע לנהר וללכת על גשר גותי."
+        },
+        {
+          "start": 105.82,
+          "end": 110.22,
+          "text": "אני מזמין אתכם לבוא לעיר המקסימה הזאת וליהנות מכל מה שיש לה להציע."
+        },
+        {
+          "start": 110.9,
+          "end": 112.0,
+          "text": "דו וידזניה."
+        }
+      ]
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-old-town-en.srt",
+      "srtSHA256": "01f76d5f50dbff8bb8c204ded34533fa190fa64f6a1067b0e6171539e48d969b",
+      "cues": [
+        {
+          "start": 0.44,
+          "end": 8.64,
+          "text": "Cześć, hi everyone. So we are in the city of Kłodzko, one and a half hour's drive from"
+        },
+        {
+          "start": 8.64,
+          "end": 19.02,
+          "text": "Wroclaw. This city is actually the main city in a big valley that's also called the"
+        },
+        {
+          "start": 19.02,
+          "end": 25.54,
+          "text": "valley of Kłodzko. What you can see here behind me is the ratusz, the city hall from"
+        },
+        {
+          "start": 25.54,
+          "end": 30.1,
+          "text": "the 19th century, that is just in the middle of the Rynek, of the market square."
+        },
+        {
+          "start": 31.66,
+          "end": 37.9,
+          "text": "Around it, if you look carefully, you can see some amazing beautiful buildings."
+        },
+        {
+          "start": 39.88,
+          "end": 45.42,
+          "text": "When we walked here in the street, when we just arrived, we were really amazed to see"
+        },
+        {
+          "start": 46.6,
+          "end": 53.54,
+          "text": "special architecture. We could see actually that there are different influences in the"
+        },
+        {
+          "start": 53.54,
+          "end": 61.66,
+          "text": "architecture of this town. Bohemian, German, Polish, Prussian, and you can really feel that"
+        },
+        {
+          "start": 61.66,
+          "end": 65.94,
+          "text": "you are walking in a very special town."
+        },
+        {
+          "start": 66.56,
+          "end": 75.68,
+          "text": "This city was a hub for trade, for manufacturing"
+        },
+        {
+          "start": 75.68,
+          "end": 84.2,
+          "text": "throughout the ages and it's also on the frontier line that divided between"
+        },
+        {
+          "start": 84.2,
+          "end": 89.98,
+          "text": "empires in Europe, between the Prussians and the Germans and the"
+        },
+        {
+          "start": 89.98,
+          "end": 99.28,
+          "text": "Bohemians and the Poles. So this area is populated with lots of fortresses."
+        },
+        {
+          "start": 99.58,
+          "end": 105.74,
+          "text": "To be honest, I am now standing on the fortress of Kłodzko, which was one of"
+        },
+        {
+          "start": 105.74,
+          "end": 111.0,
+          "text": "these fortresses that is overlooking the town. You can also visit underground"
+        },
+        {
+          "start": 111.0,
+          "end": 113.98,
+          "text": "tunnels here in the city of Kłodzko."
+        },
+        {
+          "start": 114.2,
+          "end": 121.3,
+          "text": "And if you will drive along these mountains behind me, you will actually find lots of"
+        },
+        {
+          "start": 121.3,
+          "end": 129.92,
+          "text": "fortresses that marked a kind of a frontier or a border between the empires of Europe,"
+        },
+        {
+          "start": 129.92,
+          "end": 141.36,
+          "text": "Prussia, Austria, Germany, Poland, and so on and so forth. Many wars happened on this borderline."
+        },
+        {
+          "start": 142.02,
+          "end": 149.04,
+          "text": "So as you can understand, the city swapped many hands. Therefore, in five minutes' walk,"
+        },
+        {
+          "start": 149.82,
+          "end": 155.3,
+          "text": "you can reach the Gothic bridge over the river and then you can feel that you are in Prague"
+        },
+        {
+          "start": 155.3,
+          "end": 163.66,
+          "text": "because it's a bit similar to the famous bridge that we know from Prague. I recommend coming here."
+        },
+        {
+          "start": 164.06,
+          "end": 173.2,
+          "text": "The air is fantastic. The views are fantastic. The landscape is fantastic. The drive is fantastic."
+        },
+        {
+          "start": 174.04,
+          "end": 177.54,
+          "text": "And I will see you on our next video. Do widzenia."
+        }
+      ]
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-old-town-de.srt",
+      "srtSHA256": "976394636c6e2494045d53715260d82016e0d2b91a66c07b71327cf00b2818de",
+      "cues": [
+        {
+          "start": 0.44,
+          "end": 8.64,
+          "text": "Cześć, hallo zusammen! Wir sind in Kłodzko, etwa anderthalb Autostunden von"
+        },
+        {
+          "start": 8.64,
+          "end": 19.02,
+          "text": "Wrocław entfernt. Die Stadt ist der Hauptort eines großen Tals,"
+        },
+        {
+          "start": 19.02,
+          "end": 25.54,
+          "text": "des Glatzer Tals. Hinter mir sehen Sie das Rathaus"
+        },
+        {
+          "start": 25.54,
+          "end": 30.1,
+          "text": "aus dem 19. Jahrhundert, mitten auf dem Rynek, dem Marktplatz."
+        },
+        {
+          "start": 31.66,
+          "end": 37.9,
+          "text": "Rundherum stehen erstaunlich schöne Gebäude."
+        },
+        {
+          "start": 39.88,
+          "end": 45.42,
+          "text": "Schon als wir ankamen und durch die Straßen liefen, waren wir begeistert"
+        },
+        {
+          "start": 46.6,
+          "end": 53.54,
+          "text": "von der besonderen Architektur. Verschiedene Einflüsse sind erkennbar:"
+        },
+        {
+          "start": 53.54,
+          "end": 61.66,
+          "text": "böhmische, deutsche, polnische und preußische. Man spürt,"
+        },
+        {
+          "start": 61.66,
+          "end": 65.94,
+          "text": "dass man durch eine ganz besondere Stadt geht."
+        },
+        {
+          "start": 66.56,
+          "end": 75.68,
+          "text": "Die Stadt war über die Jahrhunderte ein Zentrum für Handel und Handwerk"
+        },
+        {
+          "start": 75.68,
+          "end": 84.2,
+          "text": "und lag an einer Grenzlinie zwischen"
+        },
+        {
+          "start": 84.2,
+          "end": 89.98,
+          "text": "Europas Reichen, zwischen Preußen, Deutschen,"
+        },
+        {
+          "start": 89.98,
+          "end": 99.28,
+          "text": "Böhmen und Polen. Deshalb gibt es in dieser Gegend viele Festungen."
+        },
+        {
+          "start": 99.58,
+          "end": 105.74,
+          "text": "Ich stehe gerade auf der Festung von Kłodzko, einer dieser"
+        },
+        {
+          "start": 105.74,
+          "end": 111.0,
+          "text": "Festungen mit Blick auf die Stadt. Man kann auch unterirdische"
+        },
+        {
+          "start": 111.0,
+          "end": 113.98,
+          "text": "Gänge hier in der Stadt Kłodzko besuchen."
+        },
+        {
+          "start": 114.2,
+          "end": 121.3,
+          "text": "Wenn Sie an diesen Bergen hinter mir entlangfahren, finden Sie viele"
+        },
+        {
+          "start": 121.3,
+          "end": 129.92,
+          "text": "Festungen, die eine Art Grenze zwischen Europas Reichen markierten:"
+        },
+        {
+          "start": 129.92,
+          "end": 141.36,
+          "text": "Preußen, Österreich, Deutschland, Polen und weitere. Hier fanden viele Kriege statt."
+        },
+        {
+          "start": 142.02,
+          "end": 149.04,
+          "text": "Die Stadt wechselte also oft den Besitzer. In fünf Minuten zu Fuß"
+        },
+        {
+          "start": 149.82,
+          "end": 155.3,
+          "text": "erreichen Sie die gotische Brücke über den Fluss und fühlen sich fast wie in Prag,"
+        },
+        {
+          "start": 155.3,
+          "end": 163.66,
+          "text": "weil sie der berühmten Prager Brücke etwas ähnelt. Ich empfehle einen Besuch."
+        },
+        {
+          "start": 164.06,
+          "end": 173.2,
+          "text": "Die Luft, die Aussicht, die Landschaft und die Fahrt sind fantastisch."
+        },
+        {
+          "start": 174.04,
+          "end": 177.54,
+          "text": "Wir sehen uns im nächsten Video. Do widzenia!"
+        }
+      ]
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-old-town-cs.srt",
+      "srtSHA256": "d6fc419a72248cde2a2652bf9f18b7a705551fb423df5dd18fb844a3c53b755d",
+      "cues": [
+        {
+          "start": 0.44,
+          "end": 8.64,
+          "text": "Cześć, ahoj všichni! Jsme v Kladsku, asi hodinu a půl jízdy autem"
+        },
+        {
+          "start": 8.64,
+          "end": 19.02,
+          "text": "od Vratislavi. Město je hlavním centrem velkého údolí,"
+        },
+        {
+          "start": 19.02,
+          "end": 25.54,
+          "text": "Kladské kotliny. Za mnou vidíte radnici"
+        },
+        {
+          "start": 25.54,
+          "end": 30.1,
+          "text": "z 19. století, přímo uprostřed rynku, tedy náměstí."
+        },
+        {
+          "start": 31.66,
+          "end": 37.9,
+          "text": "Kolem stojí úžasně krásné domy."
+        },
+        {
+          "start": 39.88,
+          "end": 45.42,
+          "text": "Když jsme přijeli a procházeli ulicemi, byli jsme nadšeni"
+        },
+        {
+          "start": 46.6,
+          "end": 53.54,
+          "text": "zvláštní architekturou. Jsou tu různé vlivy:"
+        },
+        {
+          "start": 53.54,
+          "end": 61.66,
+          "text": "české, německé, polské a pruské. Opravdu cítíte,"
+        },
+        {
+          "start": 61.66,
+          "end": 65.94,
+          "text": "že procházíte velmi zvláštním městem."
+        },
+        {
+          "start": 66.56,
+          "end": 75.68,
+          "text": "Město bylo po staletí centrem obchodu a řemesel"
+        },
+        {
+          "start": 75.68,
+          "end": 84.2,
+          "text": "a leželo na hraniční linii, která rozdělovala"
+        },
+        {
+          "start": 84.2,
+          "end": 89.98,
+          "text": "říše v Evropě, Prusy, Němce,"
+        },
+        {
+          "start": 89.98,
+          "end": 99.28,
+          "text": "Čechy a Poláky. Proto je v této oblasti mnoho pevností."
+        },
+        {
+          "start": 99.58,
+          "end": 105.74,
+          "text": "Právě stojím na Kladské pevnosti, jedné z těchto"
+        },
+        {
+          "start": 105.74,
+          "end": 111.0,
+          "text": "pevností nad městem. Můžete navštívit také podzemní"
+        },
+        {
+          "start": 111.0,
+          "end": 113.98,
+          "text": "chodby zde v Kladsku."
+        },
+        {
+          "start": 114.2,
+          "end": 121.3,
+          "text": "Když pojedete podél hor za mnou, najdete mnoho"
+        },
+        {
+          "start": 121.3,
+          "end": 129.92,
+          "text": "pevností, které vyznačovaly hranici mezi evropskými říšemi:"
+        },
+        {
+          "start": 129.92,
+          "end": 141.36,
+          "text": "Pruskem, Rakouskem, Německem, Polskem a dalšími. Proběhlo tu mnoho válek."
+        },
+        {
+          "start": 142.02,
+          "end": 149.04,
+          "text": "Město tedy často měnilo vlastníky. Za pět minut pěšky"
+        },
+        {
+          "start": 149.82,
+          "end": 155.3,
+          "text": "dojdete ke gotickému mostu přes řeku a budete si připadat jako v Praze,"
+        },
+        {
+          "start": 155.3,
+          "end": 163.66,
+          "text": "protože trochu připomíná známý pražský most. Návštěvu doporučuji."
+        },
+        {
+          "start": 164.06,
+          "end": 173.2,
+          "text": "Vzduch, výhledy, krajina i cesta jsou fantastické."
+        },
+        {
+          "start": 174.04,
+          "end": 177.54,
+          "text": "Uvidíme se v dalším videu. Do widzenia!"
+        }
+      ]
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-old-town-pl.srt",
+      "srtSHA256": "0109cd85f36a3e8e5d70beb73dab6b53b9bc282ea42fb614d7a923c5ae9f84e3",
+      "cues": [
+        {
+          "start": 0.44,
+          "end": 8.64,
+          "text": "Cześć wszystkim! Jesteśmy w Kłodzku, około półtorej godziny jazdy"
+        },
+        {
+          "start": 8.64,
+          "end": 19.02,
+          "text": "od Wrocławia. To główne miasto dużej kotliny,"
+        },
+        {
+          "start": 19.02,
+          "end": 25.54,
+          "text": "Kotliny Kłodzkiej. Za mną widać ratusz"
+        },
+        {
+          "start": 25.54,
+          "end": 30.1,
+          "text": "z XIX wieku, stojący pośrodku rynku."
+        },
+        {
+          "start": 31.66,
+          "end": 37.9,
+          "text": "Wokół znajdują się niesamowicie piękne kamienice."
+        },
+        {
+          "start": 39.88,
+          "end": 45.42,
+          "text": "Kiedy przyjechaliśmy i szliśmy ulicami, zachwyciła nas"
+        },
+        {
+          "start": 46.6,
+          "end": 53.54,
+          "text": "wyjątkowa architektura. Widać w niej różne wpływy:"
+        },
+        {
+          "start": 53.54,
+          "end": 61.66,
+          "text": "czeskie, niemieckie, polskie i pruskie. Naprawdę czuć,"
+        },
+        {
+          "start": 61.66,
+          "end": 65.94,
+          "text": "że spaceruje się po wyjątkowym mieście."
+        },
+        {
+          "start": 66.56,
+          "end": 75.68,
+          "text": "Przez wieki miasto było ośrodkiem handlu i rzemiosła,"
+        },
+        {
+          "start": 75.68,
+          "end": 84.2,
+          "text": "a także leżało na granicy, która dzieliła"
+        },
+        {
+          "start": 84.2,
+          "end": 89.98,
+          "text": "europejskie imperia, Prusaków, Niemców,"
+        },
+        {
+          "start": 89.98,
+          "end": 99.28,
+          "text": "Czechów i Polaków. Dlatego w okolicy jest tak wiele twierdz."
+        },
+        {
+          "start": 99.58,
+          "end": 105.74,
+          "text": "Stoję teraz na Twierdzy Kłodzko, jednej z tych"
+        },
+        {
+          "start": 105.74,
+          "end": 111.0,
+          "text": "warowni górujących nad miastem. Można też zwiedzić podziemne"
+        },
+        {
+          "start": 111.0,
+          "end": 113.98,
+          "text": "korytarze tutaj, w Kłodzku."
+        },
+        {
+          "start": 114.2,
+          "end": 121.3,
+          "text": "Jadąc wzdłuż gór za mną, znajdziecie wiele"
+        },
+        {
+          "start": 121.3,
+          "end": 129.92,
+          "text": "twierdz, które wyznaczały granicę między europejskimi imperiami:"
+        },
+        {
+          "start": 129.92,
+          "end": 141.36,
+          "text": "Prusami, Austrią, Niemcami, Polską i innymi. Toczyło się tu wiele wojen."
+        },
+        {
+          "start": 142.02,
+          "end": 149.04,
+          "text": "Miasto wielokrotnie zmieniało więc właścicieli. W pięć minut pieszo"
+        },
+        {
+          "start": 149.82,
+          "end": 155.3,
+          "text": "dojdziecie do gotyckiego mostu nad rzeką i poczujecie się jak w Pradze,"
+        },
+        {
+          "start": 155.3,
+          "end": 163.66,
+          "text": "bo trochę przypomina słynny praski most. Polecam tu przyjechać."
+        },
+        {
+          "start": 164.06,
+          "end": 173.2,
+          "text": "Powietrze, widoki, krajobraz i sama droga są fantastyczne."
+        },
+        {
+          "start": 174.04,
+          "end": 177.54,
+          "text": "Do zobaczenia w kolejnym filmie. Do widzenia!"
+        }
+      ]
+    }
+  },
+  "verifiedAt": "2026-10-20",
+  "nativeVerification": "Published each uploaded timed track in YouTube Studio. Reopened Hebrew source; native translation tables show Czech/German/Polish 1 published. Correct city and fortress guide identities maintained.",
+  "assemblyProvenance": "data/klodzko-guide-assembly-provenance.json"
+}

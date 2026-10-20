@@ -413,6 +413,44 @@
       "verifiedAt": "2026-10-20",
       "provenance": "data/four-denominations-guide-caption-provenance.json",
       "reopenedVerification": true
+    },
+    {
+      "canonicalId": "klodzko-old-town",
+      "videos": {
+        "he": "0YyKS3LcHrU",
+        "en": "reMcbePY2yo"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "status": "Published"
+      },
+      "verifiedAt": "2026-10-20",
+      "provenance": "data/klodzko-old-town-guide-caption-provenance.json"
+    },
+    {
+      "canonicalId": "klodzko-fortress",
+      "videos": {
+        "he": "zNAM3xG5ED4",
+        "en": "Swz838oySqQ"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "status": "Published"
+      },
+      "verifiedAt": "2026-10-20",
+      "provenance": "data/klodzko-fortress-guide-caption-provenance.json"
     }
   ]
 }

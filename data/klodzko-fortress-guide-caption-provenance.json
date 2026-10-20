@@ -1,0 +1,482 @@
+{
+  "schemaVersion": 1,
+  "canonicalPlaceIds": [
+    "klodzko-fortress"
+  ],
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "editions": {
+    "he": {
+      "sourceFile": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/klodzko-guide-assembly-oct20/final/קלודזקו - המבצר - עברית.mp4",
+      "sourceSHA256": "f100a80aad91700e9046cae63b18d6ca61229ddb9bf47a23aff5283cee206ba2",
+      "uploadSHA256": "f100a80aad91700e9046cae63b18d6ca61229ddb9bf47a23aff5283cee206ba2",
+      "videoId": "zNAM3xG5ED4",
+      "visibility": "Public",
+      "durationSeconds": 84.2,
+      "uploadMethod": "Reviewed assembled original guide, unchanged after final assembly; source edits recorded in assembly provenance."
+    },
+    "en": {
+      "sourceFile": "/Users/rachelfiler/Documents/Codex/2026-09-30/referenced-chatgpt-conversation-this-is-an/work/klodzko-guide-assembly-oct20/final/קלודזקו - המבצר - אנגלית.mp4",
+      "sourceSHA256": "a2942fa71cb29864cc75887bb0da603810de6b40de459648234ac1b6701500f3",
+      "uploadSHA256": "a2942fa71cb29864cc75887bb0da603810de6b40de459648234ac1b6701500f3",
+      "videoId": "Swz838oySqQ",
+      "visibility": "Public",
+      "durationSeconds": 99.9,
+      "uploadMethod": "Reviewed assembled original guide, unchanged after final assembly; source edits recorded in assembly provenance."
+    }
+  },
+  "tracks": {
+    "he": {
+      "edition": "he",
+      "language": "he",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-fortress-he.srt",
+      "srtSHA256": "8f69c56b040999f906993147ca6fec79c06756cf4ba0d2b2aaaea29d4cb6ffa9",
+      "cues": [
+        {
+          "start": 1.46,
+          "end": 16.5,
+          "text": "צ׳שץ׳, מה שלומכם? אנחנו בעיר קלודזקו, המפורסמת במסחר, במלאכה ובהגנה שלה."
+        },
+        {
+          "start": 16.5,
+          "end": 23.54,
+          "text": "כשאני אומר הגנה, אני מתכוון לקו הגנה. אני מדבר איתכם ממבצר קלודזקו."
+        },
+        {
+          "start": 23.54,
+          "end": 33.52,
+          "text": "הוא נמצא על גבעה שמשקיפה על העיר. מאחוריי רואים את החומות ואת הביצורים."
+        },
+        {
+          "start": 33.52,
+          "end": 41.68,
+          "text": "אפשר לסייר ולטייל כאן. יש שלטים באנגלית שמסבירים על הפינות במבצר המדהים הזה."
+        },
+        {
+          "start": 41.68,
+          "end": 48.38,
+          "text": "מה שאתם לא רואים הוא סיור בבטן האדמה, מתחת למבצר."
+        },
+        {
+          "start": 48.38,
+          "end": 53.84,
+          "text": "אפשר ללכת עם מדריך בפולנית כרגע. אני מקווה שיהיה בעתיד גם בשפות אחרות,"
+        },
+        {
+          "start": 54.38,
+          "end": 63.18,
+          "text": "בתוך מחילות, מנהרות ומעברים ששימשו את החיילים הפרוסים שהוצבו במבצר."
+        },
+        {
+          "start": 64.18,
+          "end": 74.88,
+          "text": "מסביבי עפים פרפרים, דבורים וציפורים. המקום פשוט קסום ומקסים."
+        },
+        {
+          "start": 74.88,
+          "end": 82.34,
+          "text": "אני מזמין אתכם לבקר במבצר קלודזקו. להתראות, דו וידזניה."
+        }
+      ]
+    },
+    "en": {
+      "edition": "en",
+      "language": "en",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-fortress-en.srt",
+      "srtSHA256": "1fe80c28c6ccd5119a50d920a8adbcd757062f2317fb009ffe34113529055a84",
+      "cues": [
+        {
+          "start": 0.29,
+          "end": 9.15,
+          "text": "So, we are in Kłodzko, a city that's famous for trade, manufacturing and defense."
+        },
+        {
+          "start": 9.95,
+          "end": 13.05,
+          "text": "And when I say defense, I mean line of defense."
+        },
+        {
+          "start": 13.83,
+          "end": 18.77,
+          "text": "And when I say line of defense, I mean fortresses and fortifications."
+        },
+        {
+          "start": 19.65,
+          "end": 26.15,
+          "text": "I am now standing on the fortress of Kłodzko, which is on the top of the hill overlooking"
+        },
+        {
+          "start": 26.15,
+          "end": 29.47,
+          "text": "the magnificent town in the Kłodzko Valley."
+        },
+        {
+          "start": 30.17,
+          "end": 34.31,
+          "text": "Behind me, you can see some serious walls and fortifications."
+        },
+        {
+          "start": 35.62,
+          "end": 43.33,
+          "text": "What you can't see is also all the underground tunnels that are under these fortifications"
+        },
+        {
+          "start": 43.33,
+          "end": 49.65,
+          "text": "and under these fortresses that were used by all the Prussian soldiers who were stationed here."
+        },
+        {
+          "start": 50.17,
+          "end": 53.65,
+          "text": "You can actually take a tour inside those tunnels."
+        },
+        {
+          "start": 53.65,
+          "end": 55.25,
+          "text": "It's a bit claustrophobic."
+        },
+        {
+          "start": 55.75,
+          "end": 60.39,
+          "text": "Currently, it's a Polish guy that speaks in Polish."
+        },
+        {
+          "start": 60.73,
+          "end": 65.09,
+          "text": "Hopefully, in the future, it will be in other languages as well."
+        },
+        {
+          "start": 65.97,
+          "end": 71.65,
+          "text": "And around the fortress itself, you have lots of signs in English"
+        },
+        {
+          "start": 71.65,
+          "end": 75.55,
+          "text": "that explains about the different places in the fortress."
+        },
+        {
+          "start": 76.55,
+          "end": 84.79,
+          "text": "So, I encourage you to come here, enjoy the fortress, enjoy the surroundings"
+        },
+        {
+          "start": 85.37,
+          "end": 94.85,
+          "text": "and enjoy the beautiful butterflies and bees and birds that are just enjoying the amazing plantation."
+        },
+        {
+          "start": 95.3,
+          "end": 97.9,
+          "text": "And I'll see you guys on our next video."
+        },
+        {
+          "start": 98.72,
+          "end": 99.28,
+          "text": "Do widzenia!"
+        }
+      ]
+    },
+    "de": {
+      "edition": "en",
+      "language": "de",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-fortress-de.srt",
+      "srtSHA256": "6a208af8b81bf2e1e20f8ea814df4091404862e0af8a09b9b5091d2213a82c25",
+      "cues": [
+        {
+          "start": 0.29,
+          "end": 9.15,
+          "text": "Wir sind in Kłodzko, einer Stadt, die für Handel, Handwerk und Verteidigung bekannt ist."
+        },
+        {
+          "start": 9.95,
+          "end": 13.05,
+          "text": "Mit Verteidigung meine ich eine Verteidigungslinie."
+        },
+        {
+          "start": 13.83,
+          "end": 18.77,
+          "text": "Und damit meine ich Festungen und Befestigungen."
+        },
+        {
+          "start": 19.65,
+          "end": 26.15,
+          "text": "Ich stehe auf der Festung Kłodzko, oben auf einem Hügel"
+        },
+        {
+          "start": 26.15,
+          "end": 29.47,
+          "text": "mit Blick auf die wunderbare Stadt im Glatzer Tal."
+        },
+        {
+          "start": 30.17,
+          "end": 34.31,
+          "text": "Hinter mir sehen Sie mächtige Mauern und Befestigungen."
+        },
+        {
+          "start": 35.62,
+          "end": 43.33,
+          "text": "Was Sie nicht sehen, sind die unterirdischen Gänge unter diesen Befestigungen"
+        },
+        {
+          "start": 43.33,
+          "end": 49.65,
+          "text": "und Festungen, die von den hier stationierten preußischen Soldaten genutzt wurden."
+        },
+        {
+          "start": 50.17,
+          "end": 53.65,
+          "text": "Man kann diese Gänge im Rahmen einer Führung besuchen."
+        },
+        {
+          "start": 53.65,
+          "end": 55.25,
+          "text": "Es ist ein bisschen klaustrophobisch."
+        },
+        {
+          "start": 55.75,
+          "end": 60.39,
+          "text": "Derzeit führt ein polnischer Führer auf Polnisch."
+        },
+        {
+          "start": 60.73,
+          "end": 65.09,
+          "text": "Hoffentlich wird es künftig auch andere Sprachen geben."
+        },
+        {
+          "start": 65.97,
+          "end": 71.65,
+          "text": "Rund um die Festung gibt es viele englische Schilder,"
+        },
+        {
+          "start": 71.65,
+          "end": 75.55,
+          "text": "die die verschiedenen Orte innerhalb der Festung erklären."
+        },
+        {
+          "start": 76.55,
+          "end": 84.79,
+          "text": "Kommen Sie her und genießen Sie die Festung und ihre Umgebung"
+        },
+        {
+          "start": 85.37,
+          "end": 94.85,
+          "text": "sowie die schönen Schmetterlinge, Bienen und Vögel in der wunderbaren Pflanzenwelt."
+        },
+        {
+          "start": 95.3,
+          "end": 97.9,
+          "text": "Wir sehen uns im nächsten Video."
+        },
+        {
+          "start": 98.72,
+          "end": 99.28,
+          "text": "Do widzenia!"
+        }
+      ]
+    },
+    "cs": {
+      "edition": "en",
+      "language": "cs",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-fortress-cs.srt",
+      "srtSHA256": "8a02f5ee6df6fe8dc0ad9b9ba264af8b5c36ca7a03ad43e5be9eab4bc1d483e6",
+      "cues": [
+        {
+          "start": 0.29,
+          "end": 9.15,
+          "text": "Jsme v Kladsku, městě známém obchodem, řemesly a obranou."
+        },
+        {
+          "start": 9.95,
+          "end": 13.05,
+          "text": "Obranou myslím obrannou linii."
+        },
+        {
+          "start": 13.83,
+          "end": 18.77,
+          "text": "A obrannou linií myslím pevnosti a opevnění."
+        },
+        {
+          "start": 19.65,
+          "end": 26.15,
+          "text": "Stojím na Kladské pevnosti na vrcholu kopce,"
+        },
+        {
+          "start": 26.15,
+          "end": 29.47,
+          "text": "ze kterého je výhled na nádherné město v Kladské kotlině."
+        },
+        {
+          "start": 30.17,
+          "end": 34.31,
+          "text": "Za mnou vidíte mohutné hradby a opevnění."
+        },
+        {
+          "start": 35.62,
+          "end": 43.33,
+          "text": "Co nevidíte, jsou podzemní chodby pod těmito opevněními"
+        },
+        {
+          "start": 43.33,
+          "end": 49.65,
+          "text": "a pevnostmi, které používali zdejší pruští vojáci."
+        },
+        {
+          "start": 50.17,
+          "end": 53.65,
+          "text": "Tyto chodby můžete navštívit s průvodcem."
+        },
+        {
+          "start": 53.65,
+          "end": 55.25,
+          "text": "Je to trochu klaustrofobické."
+        },
+        {
+          "start": 55.75,
+          "end": 60.39,
+          "text": "V tuto chvíli provází polský průvodce v polštině."
+        },
+        {
+          "start": 60.73,
+          "end": 65.09,
+          "text": "Doufejme, že v budoucnu přibudou i další jazyky."
+        },
+        {
+          "start": 65.97,
+          "end": 71.65,
+          "text": "Kolem pevnosti je mnoho tabulí v angličtině,"
+        },
+        {
+          "start": 71.65,
+          "end": 75.55,
+          "text": "které vysvětlují jednotlivá místa v pevnosti."
+        },
+        {
+          "start": 76.55,
+          "end": 84.79,
+          "text": "Přijeďte si užít pevnost a její okolí,"
+        },
+        {
+          "start": 85.37,
+          "end": 94.85,
+          "text": "krásné motýly, včely a ptáky v úžasné zeleni."
+        },
+        {
+          "start": 95.3,
+          "end": 97.9,
+          "text": "Uvidíme se v dalším videu."
+        },
+        {
+          "start": 98.72,
+          "end": 99.28,
+          "text": "Do widzenia!"
+        }
+      ]
+    },
+    "pl": {
+      "edition": "en",
+      "language": "pl",
+      "status": "Published",
+      "srtFile": "assets/captions/klodzko-fortress-pl.srt",
+      "srtSHA256": "b0ddba533712b0a5be3a6cdc6b08aefd6ddce14ef7388cb00d9a9e730d6e1ac7",
+      "cues": [
+        {
+          "start": 0.29,
+          "end": 9.15,
+          "text": "Jesteśmy w Kłodzku, mieście słynącym z handlu, rzemiosła i obrony."
+        },
+        {
+          "start": 9.95,
+          "end": 13.05,
+          "text": "Mówiąc o obronie, mam na myśli linię obrony."
+        },
+        {
+          "start": 13.83,
+          "end": 18.77,
+          "text": "A mówiąc o linii obrony, myślę o twierdzach i fortyfikacjach."
+        },
+        {
+          "start": 19.65,
+          "end": 26.15,
+          "text": "Stoję na Twierdzy Kłodzko, na szczycie wzgórza,"
+        },
+        {
+          "start": 26.15,
+          "end": 29.47,
+          "text": "z którego widać wspaniałe miasto w Kotlinie Kłodzkiej."
+        },
+        {
+          "start": 30.17,
+          "end": 34.31,
+          "text": "Za mną widać potężne mury i fortyfikacje."
+        },
+        {
+          "start": 35.62,
+          "end": 43.33,
+          "text": "Nie widać natomiast podziemnych korytarzy pod tymi fortyfikacjami"
+        },
+        {
+          "start": 43.33,
+          "end": 49.65,
+          "text": "i twierdzami, których używali stacjonujący tu pruscy żołnierze."
+        },
+        {
+          "start": 50.17,
+          "end": 53.65,
+          "text": "Można zwiedzać te korytarze z przewodnikiem."
+        },
+        {
+          "start": 53.65,
+          "end": 55.25,
+          "text": "Jest tam trochę klaustrofobicznie."
+        },
+        {
+          "start": 55.75,
+          "end": 60.39,
+          "text": "Obecnie oprowadza polski przewodnik mówiący po polsku."
+        },
+        {
+          "start": 60.73,
+          "end": 65.09,
+          "text": "Mam nadzieję, że w przyszłości będą również inne języki."
+        },
+        {
+          "start": 65.97,
+          "end": 71.65,
+          "text": "Na terenie twierdzy jest wiele tablic po angielsku,"
+        },
+        {
+          "start": 71.65,
+          "end": 75.55,
+          "text": "które opisują jej poszczególne miejsca."
+        },
+        {
+          "start": 76.55,
+          "end": 84.79,
+          "text": "Zapraszam do zwiedzania twierdzy i okolicy,"
+        },
+        {
+          "start": 85.37,
+          "end": 94.85,
+          "text": "a także podziwiania motyli, pszczół i ptaków wśród wspaniałej roślinności."
+        },
+        {
+          "start": 95.3,
+          "end": 97.9,
+          "text": "Do zobaczenia w kolejnym filmie."
+        },
+        {
+          "start": 98.72,
+          "end": 99.28,
+          "text": "Do widzenia!"
+        }
+      ]
+    }
+  },
+  "verifiedAt": "2026-10-20",
+  "nativeVerification": "Published each uploaded timed track in YouTube Studio. Reopened Hebrew source; native translation tables show Czech/German/Polish 1 published. Correct city and fortress guide identities maintained.",
+  "assemblyProvenance": "data/klodzko-guide-assembly-provenance.json"
+}
