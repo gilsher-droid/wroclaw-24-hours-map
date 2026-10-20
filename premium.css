@@ -490,3 +490,6 @@ img[src*="-refresh-oct19-"], img[src*="pergola-wroclawska-"], img[src*="wyspa-sl
 
 /* Full-frame new visits and corrected stadium orientation. */
 img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stadion-olimpijski-"], img[src*="-refresh-oct19-"], img[src*="pergola-wroclawska-"], img[src*="wyspa-slodowa-"], img[src*="galeria-dominikanska-"], img[src*="fc-caffe-kuznicza-"] { object-fit: contain; background: #f4f0e8; }
+
+/* Keep the relocated dwarf centre Hebrew and Latin address on separate lines. */
+#stop-dwarf-info .stop-copy > p:not(.stop-tip),.premium-popup:has(img[src*="/dwarf-info/"]) > p{white-space:pre-line;}
