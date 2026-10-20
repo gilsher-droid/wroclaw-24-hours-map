@@ -397,6 +397,15 @@
 
   );
 
+  experiences.push({
+    id: "wroclaw-milk-bars", type: "local-food-experience", categories: ["food", "local-life"],
+    name: t("אוכלים במילק בארים", "Discover Wrocław milk bars", "Odkryj wrocławskie bary mleczne", "Breslaus Milchbars entdecken", "Objevte vratislavské mléčné bary"),
+    description: t("היכרות עם תרבות האוכל המקומית דרך מילק בארים: חללי אוכל פשוטים, הגשה מהדלפק ומנות מהמטבח הפולני. המפה מובילה לבר מיש. בגלריה גם חזית בר מווה ותיעוד ארוחה מהביקורים שלנו. תפריטים ושלטי שעות בצילומים משקפים את מועד הביקור; בדקו את פרטי המקום לפני ההגעה.", "Discover local food culture through milk bars: simple dining rooms, counter service and Polish dishes. The map points to Bar Miś. The gallery also includes the Bar Mewa exterior and a meal from our visits. Menus and opening-time notices in photographs reflect the visit date; check venue details before going.", "Poznaj lokalną kulturę jedzenia przez bary mleczne: proste sale, obsługę przy ladzie i polskie dania. Mapa wskazuje Bar Miś. W galerii jest też fasada Baru Mewa i posiłek z naszych wizyt. Menu i godziny na zdjęciach dotyczą dnia wizyty; sprawdź aktualne informacje.", "Entdecken Sie lokale Esskultur in Milchbars: einfache Speisesäle, Thekenbedienung und polnische Gerichte. Die Karte zeigt Bar Miś. Die Galerie enthält auch die Fassade von Bar Mewa und eine Mahlzeit unserer Besuche. Fotografierte Speisekarten und Zeiten gelten für den Besuchstag; aktuelle Angaben vorher prüfen.", "Poznejte místní kulturu jídla v mléčných barech: jednoduché jídelny, výdej u pultu a polská jídla. Mapa ukazuje Bar Miś. Galerie obsahuje také průčelí Baru Mewa a jídlo z našich návštěv. Vyfocená menu a otevírací doby odpovídají dni návštěvy; aktuální údaje si ověřte."),
+    relatedCanonicalPlaceIds: ["bar-mis"], productRefs: ["lifestyle-guide"], mapPoints: [], social: [],
+    media: {hero:{src:"/assets/experiences/milk-bars/visit-05.jpg"},images:["/assets/experiences/milk-bars/visit-02.jpg", "/assets/experiences/milk-bars/visit-03.jpg", "/assets/experiences/milk-bars/visit-04.jpg", "/assets/experiences/milk-bars/visit-05.jpg", "/assets/experiences/milk-bars/visit-07.jpg"],videos:[],guideVideos:{},inheritFromCanonicalPlaceIds:["bar-mis"],inheritSocial:true},
+    metadata: {sourceLibraryFolder:"מילק באר",pendingMedia:["two visit videos await review and Public YouTube publication"],pendingCanonicalPlaces:["Bar Mewa requires a separately verified canonical location"]}
+  });
+
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
   const getExperience = (id) => byId[id] || null;
   const forProduct = (productId) => experiences.filter((experience) => experience.productRefs.includes(productId));
