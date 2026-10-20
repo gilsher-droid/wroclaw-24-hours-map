@@ -33,9 +33,9 @@ test('Gustaw is one dining place independent of Bastion, reusing its verified en
  for(const l of ['he','en','pl','de','cs']){assert.ok(p.description[l]);for(const platform of ['facebook','instagram'])assert.equal(catalog.getSocialPost(p,platform,l),null);}
 });
 test('All 192 unrelated places remain byte-equivalent after the authorized three-place refresh',()=>{
- assert.equal(Object.keys(catalog.places).length,baseline.beforeCount+2);assert.equal(Object.keys(baseline.unrelatedHashes).length,192);
- for(const[id,hash]of Object.entries(baseline.unrelatedHashes).filter(([id])=>!["charlotte","four-denominations-district","white-stork-synagogue-wroclaw"].includes(id)))assert.equal(createHash('sha256').update(JSON.stringify(catalog.getPlace(id))).digest('hex'),hash,id);
- assert.deepEqual(Object.keys(catalog.places).filter(id=>id!=='bru-coffee-bakehouse-wroclaw'&&!Object.hasOwn(baseline.unrelatedHashes,id)&&!Object.hasOwn(baseline.preserved,id)),baseline.newCanonicalIds);
+ assert.equal(Object.keys(catalog.places).length,baseline.beforeCount+3);assert.equal(Object.keys(baseline.unrelatedHashes).length,192);
+ for(const[id,hash]of Object.entries(baseline.unrelatedHashes).filter(([id])=>!["charlotte","four-denominations-district","white-stork-synagogue-wroclaw","central"].includes(id)))assert.equal(createHash('sha256').update(JSON.stringify(catalog.getPlace(id))).digest('hex'),hash,id);
+ assert.deepEqual(Object.keys(catalog.places).filter(id=>id!=='central-cafe-nadodrze'&&id!=='bru-coffee-bakehouse-wroclaw'&&!Object.hasOwn(baseline.unrelatedHashes,id)&&!Object.hasOwn(baseline.preserved,id)),baseline.newCanonicalIds);
 });
 
 test('Explicitly excluded family and doubtful clips cannot enter canonical photo or video metadata',()=>{

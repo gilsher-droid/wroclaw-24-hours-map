@@ -219,3 +219,5 @@
   }
   window.WROC_LOCATION_MEDIA = resources;
 })();
+
+(function(){for(const id of ["central","central-cafe-nadodrze"]){const p=window.WROC_CATALOG?.getPlace(id);if(p)window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos,videos:[],get facebook(){return window.WROC_CATALOG.getSocialPost(p,"facebook")?.url;},get instagram(){return window.WROC_CATALOG.getSocialPost(p,"instagram")?.url;}}}})();

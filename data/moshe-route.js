@@ -185,3 +185,6 @@ if (window.WROC_CATALOG) {
 
 // Charlotte canonical recommendation refresh20261020
 (function(){ const p=window.WROC_CATALOG?.getPlace('charlotte'); if(!p)return; for(const r of window.PREMIUM_RECOMMENDATIONS||[]){if((r.canonicalPlaceId||r.id)!=='charlotte')continue;r.name=p.name;r.localName=p.localName;r.description=p.description;r.coordinates=[p.location.coordinates.lat,p.location.coordinates.lng];} })();
+
+// Central Antoniego canonical recommendation, not the Nadodrze branch
+(function(){const p=window.WROC_CATALOG?.getPlace("central");if(!p)return;for(const r of window.PREMIUM_RECOMMENDATIONS||[]){if((r.canonicalPlaceId||r.id)!=="central")continue;r.name=p.name;r.localName=p.localName;r.description=p.description;r.coordinates=[p.location.coordinates.lat,p.location.coordinates.lng];}})();

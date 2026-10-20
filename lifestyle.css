@@ -208,3 +208,7 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 
 /* Charlotte and district full photo framing20261020 */
 .media-grid img[src*="/charlotte/"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
+
+/* Two Central Cafe branches: preserve complete visit photo frames. */
+.media-grid img[src*="/central-cafe/"] {height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="central"] p,article[data-place="central-cafe-nadodrze"] p,article[data-canonical-place-id="central"] p {white-space:pre-line;}

@@ -78,3 +78,7 @@
 /* Charlotte and district full photo framing20261020 */
 .place-popup-photo[src*="/charlotte/"], .place-popup-photo[src*="/four-denominations-refresh/"] { object-fit:contain; background:#faf8f3; }
 article[data-place="charlotte"] p, article[data-canonical-place-id="charlotte"] p, .leaflet-popup-content:has(img[src*="/charlotte/"]) > span, .premium-popup:has(img[src*="/charlotte/"]) p { white-space:pre-line; }
+
+/* Two Central Cafe branches: preserve complete visit photo frames. */
+.media-grid img[src*="/central-cafe/"] {height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="central"] p,article[data-place="central-cafe-nadodrze"] p,article[data-canonical-place-id="central"] p {white-space:pre-line;}

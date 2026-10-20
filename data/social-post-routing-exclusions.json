@@ -383,5 +383,19 @@
     "url": "https://www.instagram.com/p/Dbf9RSWnOB8/?img_index=1",
     "reason": "hold-confirmed-English-account-owner",
     "reviewedAt": "2026-10-09T19:39:05.044Z"
+  },
+  {
+    "placeId": "central",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HiDPr3enjr4EUa6gf8JN5sYy6TcQzNYSxJ5Hy91NkbSb9uNTAy6J9pfzRGmR3QH5l&id=61594716405964",
+    "reason": "Current post names Central Cafe but lacks branch address or branch-specific visual evidence; two physical branches now known. Preserved historically, hidden until exact branch can be verified.",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "placeId": "central",
+    "platform": "facebook",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02yurJAEtBGhCXdscvPQoBJwEgdb2U5n7DfGnkbDmE5ZT8o74n9EVCgTEi6sr1JyL8l&id=61595207664875",
+    "reason": "Current post names Central Cafe but lacks branch address or branch-specific visual evidence; two physical branches now known. Preserved historically, hidden until exact branch can be verified.",
+    "reviewedAt": "2026-10-20"
   }
 ]
