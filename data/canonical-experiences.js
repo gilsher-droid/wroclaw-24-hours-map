@@ -361,6 +361,47 @@
     },
   ];
 
+
+  // New public experience pages reuse existing canonical Place identities.
+  const dwarfHunt = experiences.find(e => e.id === "wroclaw-dwarf-hunt");
+  dwarfHunt.relatedCanonicalPlaceIds = ["papa", "dwarf-info"];
+  dwarfHunt.media = { hero: { canonicalPlaceId: "papa", photoIndex: 0 }, inheritFromCanonicalPlaceIds: ["papa", "dwarf-info"], inheritSocial: true };
+  dwarfHunt.metadata.sourceLibraryFolders = ["Gnomes", "פפה קרסנל", "מרכז המידע על הגמדים"];
+  dwarfHunt.description = t("יוצאים לחפש את הגמדים ברחובות העיר. מתחילים בפאפא קרסנל, מציצים במרכז המידע על הגמדים וממשיכים לגלות דמויות קטנות בין הכיכרות והסמטאות. בגלריה תיעוד עשיר מהביקורים שלנו, ובהדרכה הסיפור שמאחורי הדמויות. התמונות הן אוסף עירוני, ולא כולן צולמו ליד אחת משתי הסיכות.", "Explore the city through its dwarfs. Begin with Papa Krasnal, visit the dwarf information centre and keep looking between squares and lanes. Browse our citywide visit collection and the guide explaining the story. Gallery images are not all located at the two marked places.", "Odkrywaj miasto tropem krasnali. Zacznij od Papy Krasnala, zajrzyj do centrum informacji i szukaj kolejnych postaci na placach i uliczkach. Nasza galeria obejmuje różne miejsca w mieście, nie tylko dwa zaznaczone punkty. Przewodnik opowiada historię krasnali.", "Entdecken Sie die Stadt auf den Spuren der Zwerge. Beginnen Sie bei Papa Krasnal, besuchen Sie das Informationszentrum und suchen Sie weiter auf Plätzen und in Gassen. Unsere stadtweite Sammlung zeigt nicht nur die beiden markierten Orte. Der Reiseführer erzählt die Geschichte dahinter.", "Objevujte město po stopách trpaslíků. Začněte u Papy Krasnala, navštivte informační centrum a pokračujte náměstími a uličkami. Galerie zachycuje různá místa ve městě, nejen dva označené body. Průvodce vysvětluje příběh postaviček.");
+  const tramRide = experiences.find(e => e.id === "wroclaw-tram-ride");
+  tramRide.media.images = tramRide.media.images.filter(src => !/IMG_(4409|4474|4728|4374|4653)\.jpg$/.test(src));
+  tramRide.metadata.selectedImageCount = tramRide.media.images.length;
+  tramRide.metadata.excludedPersonalImages = ["IMG_4409.JPG", "IMG_4474.JPG", "IMG_4728.JPG"];
+  tramRide.metadata.nearDuplicateImages = ["IMG_4374.JPG", "IMG_4653.JPG"];
+  tramRide.media.guideVideos = {};
+  const streetAreas = experiences.find(e => e.id === "street-art-nadodrze-olbin");
+  streetAreas.metadata.childExperienceIds = ["nadodrze-neighbourhood-walk", "olbin-mural-walk"];
+  const n = streetAreas.mapPoints.find(p => p.id === "nadodrze");
+  const o = streetAreas.mapPoints.find(p => p.id === "olbin");
+  experiences.push(
+    {
+      id: "beach-bars-and-waterside-summer", type: "seasonal-leisure", categories: ["summer", "water", "beach-bars"],
+      name: t("ביץ׳ ברים וקיץ ליד המים", "Beach bars and summer by the water", "Beach bary i lato nad wodą", "Beachbars und Sommer am Wasser", "Plážové bary a léto u vody"),
+      description: t("כסאות נוח, חול, נוף לנהר ועצירה לאוכל או למשקה. חוויה קיצית ברחבי העיר, עם תמונות הביץ׳ ברים מהביקורים שלנו ואפשרות לשלב את מורסקיה אוקו לרחצה ולמנוחה. מורסקיה אוקו היא אתר רחצה נפרד ואינה בר על האודר. בדקו את עונת הפעילות ואת תנאי הכניסה לפני ביקור.", "Deckchairs, sand, river views and a stop for food or a drink. A citywide summer experience with our beach-bar visit photos and the option of Morskie Oko for bathing and relaxation. Morskie Oko is a separate bathing site, not an Oder beach bar. Check seasonal operation and entry conditions before visiting.", "Leżaki, piasek, widoki na rzekę i przerwa na jedzenie lub napój. Letnia przygoda w różnych częściach miasta, ze zdjęciami z naszych wizyt i możliwością odpoczynku na Morskim Oku. Morskie Oko to osobne kąpielisko, nie beach bar nad Odrą. Sprawdź sezon i warunki wejścia.", "Liegestühle, Sand, Flussblicke und eine Pause für Essen oder Getränke. Ein Sommererlebnis in verschiedenen Stadtteilen mit unseren Besuchsfotos und Morskie Oko zum Baden und Entspannen. Morskie Oko ist ein eigener Badeort, keine Oder-Beachbar. Saison und Zutrittsbedingungen vorher prüfen.", "Lehátka, písek, výhledy na řeku a zastávka na jídlo či pití. Letní zážitek v různých částech města s fotografiemi z našich návštěv a možností odpočinku na Morském Oku. Morskie Oko je samostatné koupaliště, nikoli bar na Odře. Ověřte sezonu a podmínky vstupu."),
+      relatedCanonicalPlaceIds: ["morskie-oko-wroclaw"], productRefs: ["lifestyle-guide"], mapPoints: [], social: [],
+      media: {hero:{src:"/assets/experiences/beach-bars/visit-43.jpg"},images:["/assets/experiences/beach-bars/visit-43.jpg","/assets/experiences/beach-bars/visit-37.jpg","/assets/experiences/beach-bars/visit-45.jpg"],videos:[],guideVideos:{},inheritFromCanonicalPlaceIds:["morskie-oko-wroclaw"],inheritSocial:true},
+      metadata:{seasonal:true,season:"summer",sourceLibraryFolders:["Beach bars","מורסקי אוקו"],pendingIdentifications:["pictured riverside beach bar","bar near Biskupin","bar by the zoo"],pinPolicy:"Only verified canonical places. Unidentified bar photographs remain experience-level scenes."}
+    },
+    {
+      id:"nadodrze-neighbourhood-walk",type:"area-exploration",categories:["neighbourhood","street-art","coffee"],
+      name:t("שיטוט ברובע נדאודז׳ה", "Explore the Nadodrze neighbourhood", "Spacer po Nadodrzu", "Streifzug durch Nadodrze", "Procházka čtvrtí Nadodrze"),
+      description:t("רובע אקלקטי שמגלים ברגל, בין חזיתות מעוטרות, אמנות רחוב, מעברים ופרטים קטנים מחיי הרחוב. משלבים עצירה בבית הקפה ברו ובגלידרייה רומא. הגלריה מבוססת על תיקיית הרובע ועל המקומות הקנוניים. כבדו את הדיירים והיכנסו לחצרות רק כשהגישה מותרת.", "Explore an eclectic neighbourhood on foot, with decorated facades, street art, passages and everyday street details. Stop at BRÚ and Lodziarnia Roma along the way. The gallery draws on the neighbourhood folder and existing canonical places. Respect residents and enter courtyards only where access is permitted.", "Odkrywaj pieszo eklektyczne Nadodrze: zdobione fasady, sztukę uliczną, przejścia i codzienne detale. Zatrzymaj się w BRÚ i Lodziarni Roma. Galeria korzysta z folderu dzielnicy i istniejących miejsc kanonicznych. Szanuj mieszkańców i wchodź na podwórza tylko tam, gdzie wolno.", "Erkunden Sie das vielseitige Viertel zu Fuß: verzierte Fassaden, Straßenkunst, Durchgänge und Alltagsdetails. Unterwegs bieten sich BRÚ und Lodziarnia Roma für eine Pause an. Die Galerie nutzt das Viertelarchiv und bestehende Orte. Privatsphäre respektieren und Höfe nur bei erlaubtem Zugang betreten.", "Poznejte pěšky eklektickou čtvrť: zdobené fasády, pouliční umění, průchody a každodenní detaily. Zastavte se v BRÚ a Lodziarnia Roma. Galerie využívá složku čtvrti a existující místa. Respektujte obyvatele a do dvorů vstupujte jen tam, kde je to dovoleno."),
+      relatedCanonicalPlaceIds:["bru-coffee-bakehouse-wroclaw","lodziarnia-roma"],productRefs:["cultural-adventure","lifestyle-guide"],mapPoints:[n],social:[],
+      media:{hero:{src:n.media.photos[0]},images:["/assets/experiences/nadodrze/nadodrze-library-facade.jpg", "/assets/experiences/nadodrze-walk/visit-01.jpg", "/assets/experiences/nadodrze-walk/visit-05.jpg", "/assets/experiences/nadodrze-walk/visit-10.jpg", "/assets/experiences/nadodrze-walk/visit-11.jpg", "/assets/experiences/nadodrze-walk/visit-12.jpg", "/assets/experiences/nadodrze-walk/visit-13.jpg", "/assets/experiences/nadodrze-walk/visit-15.jpg"],videos:[],guideVideos:{},inheritFromCanonicalPlaceIds:["bru-coffee-bakehouse-wroclaw","lodziarnia-roma"],inheritSocial:true},metadata:{sourceLibraryFolder:"Nadodje",parentExperienceId:streetAreas.id,scope:"Neighbourhood exploration, not only murals"}
+    },
+    {
+      id:"olbin-mural-walk",type:"area-exploration",categories:["street-art","neighbourhood"],
+      name:t("מחפשים מיוראלים באולבין", "Discover murals in Ołbin", "Odkryj murale na Ołbinie", "Wandbilder in Ołbin entdecken", "Objevujte muraly v Ołbinu"),
+      description:t("חוויית שיטוט נפרדת באזור אולבין, בחיפוש אחר אמנות על קירות ופרטים ברחובות. הסיכה מייצגת את האזור ולא מיוראל מסוים.", "A separate neighbourhood exploration of Ołbin, looking for wall art and street details. The pin represents the area, not a specific mural.", "Osobny spacer po Ołbinie w poszukiwaniu sztuki na ścianach i ulicznych detali. Pinezka oznacza obszar, nie konkretny mural.", "Ein eigener Streifzug durch Ołbin auf der Suche nach Wandkunst und Straßendetails. Die Markierung bezeichnet das Gebiet, kein einzelnes Wandbild.", "Samostatná procházka Ołbinem za uměním na zdech a detaily ulic. Značka označuje oblast, nikoli konkrétní mural."),
+      relatedCanonicalPlaceIds:[],productRefs:["cultural-adventure"],mapPoints:[o],media:{images:[],videos:[],guideVideos:{}},social:[],metadata:{parentExperienceId:streetAreas.id,fieldProductionGaps:["identified-local-photos","identified-local-videos"]}
+    }
+  );
+
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
   const getExperience = (id) => byId[id] || null;
   const forProduct = (productId) => experiences.filter((experience) => experience.productRefs.includes(productId));
@@ -379,7 +420,14 @@
         social.push(...(place?.socialPosts || []).map((post) => ({ ...post, sourceCanonicalPlaceId: placeId })));
       }
     }
-    return { images: [...new Set(images)], videos: [...new Set(videos)], social };
+    for (const point of experience.mapPoints || []) { images.push(...(point.media?.photos || [])); videos.push(...(point.media?.videos || [])); }
+    const guides = [];
+    if (experience.media?.guideVideos?.he || experience.media?.guideVideos?.en) guides.push({ experienceId: experience.id, editions: experience.media.guideVideos });
+    for (const placeId of experience.media?.inheritFromCanonicalPlaceIds || []) {
+      const editions = window.WROC_CATALOG?.getPlace(placeId)?.media?.guideVideos;
+      if (editions?.he || editions?.en) guides.push({ canonicalPlaceId: placeId, editions });
+    }
+    return { images: [...new Set(images)], videos: [...new Set(videos)], social, guides };
   };
 
   window.WROC_EXPERIENCE_CATALOG = Object.freeze({

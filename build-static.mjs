@@ -1,3 +1,4 @@
+import { generateHomeExperiences } from "./tools/generate-home-experiences.mjs";
 import { generateHomeExcursions } from "./tools/generate-home-excursions.mjs";
 import { versionScriptUrls } from "./tools/version-script-urls.mjs";
 import { cp, mkdir, rm, writeFile, readFile } from "node:fs/promises";
@@ -5,6 +6,7 @@ import { resolve } from "node:path";
 
 const root = process.cwd();
 await generateHomeExcursions(root);
+await generateHomeExperiences(root);
 const client = resolve(root, "dist/client");
 const server = resolve(root, "dist/server");
 const interactiveMaps = resolve(client, "products/interactive-maps");
@@ -18,8 +20,13 @@ await mkdir(interactiveMaps, { recursive: true });
 
 for (const file of [
   "index.html",
+  "experiences.html",
+  "experiences.js",
+  "experiences.css",
   "styles.css",
   "home-excursions.css",
+  "home-experiences.css",
+  "home-experiences.js",
   "home-excursions.js",
   "site-i18n.js",
   "site-actions.css",
@@ -92,7 +99,7 @@ await writeFile(resolve(client, "cultural.html"), legacyRedirect("/products/inte
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
 // Exclude reviewed personal-focused Morskie Oko frames from public artifacts; preserve source backups.
 const morskiePersonalAssets = new Set(["morskie-oko-21.jpg", "morskie-oko-27.jpg", "morskie-oko-30.jpg", "morskie-oko-32.jpg", "arche-klasztor-11.jpg"]);
-await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true, filter: (source) => !/\.(?:mp4|mov|webm|m4v|avi)$/i.test(source) && !morskiePersonalAssets.has(source.split(/[\\/]/).pop()) });
+await cp(resolve(root, "assets"), resolve(client, "assets"), { recursive: true, filter: (source) => !/\.(?:mp4|mov|webm|m4v|avi)$/i.test(source) && !morskiePersonalAssets.has(source.split(/[\\/]/).pop()) && !/experiences[\\/]tram[\\/]IMG_(?:4409|4474|4728)\.jpg$/.test(source) });
 await cp(resolve(root, "news"), resolve(client, "news"), { recursive: true });
 await cp(resolve(root, "management"), resolve(client, "management"), { recursive: true });
 await writeFile(resolve(client, ".nojekyll"), "");

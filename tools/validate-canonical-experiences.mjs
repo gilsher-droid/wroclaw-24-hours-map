@@ -21,7 +21,7 @@ for (const file of ["data/place-catalog.js", "data/canonical-experiences.js"]) {
 const catalog = context.window.WROC_CATALOG;
 const registry = context.window.WROC_EXPERIENCE_CATALOG;
 if (!registry || registry.version !== 1) throw new Error("Canonical Experience Registry v1 is unavailable.");
-if (registry.experiences.length !== 10) throw new Error(`Expected exactly 10 canonical experiences, found ${registry.experiences.length}.`);
+if (registry.experiences.length !== 13) throw new Error(`Expected exactly 13 canonical experiences, found ${registry.experiences.length}.`);
 
 const ids = new Set();
 const validateMediaPath = (experienceId, mediaPath) => {
@@ -91,6 +91,14 @@ for (const experience of registry.experiences) {
   }
   for (const mediaPath of [...(experience.media?.images || []), ...(experience.media?.videos || [])]) {
     validateMediaPath(experience.id, mediaPath);
+  }
+  const ownGuides = experience.media?.guideVideos || {};
+  for (const [edition, url] of Object.entries(ownGuides)) {
+    const proof = experience.metadata?.guidePublications?.[edition];
+    const required = edition === "he" ? ["he"] : ["en", "pl", "de", "cs"];
+    if (!["he", "en"].includes(edition) || !/^https:\/\/(?:www\.)?youtube\.com\/(?:shorts\/|watch\?v=)[A-Za-z0-9_-]{11}$/.test(url) || proof?.visibility !== "Public" || !proof.savedPublicVerified || !required.every(lang => proof.publishedCaptionLanguages?.includes(lang))) {
+      throw new Error(`${experience.id}: own guide needs verified Public YouTube and published native captions.`);
+    }
   }
   for (const item of experience.social || []) {
     if (!item?.platform || !item?.url) throw new Error(`${experience.id}: invalid social reference.`);

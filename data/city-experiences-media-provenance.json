@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-20",
+  "assets": [
+    {
+      "asset": "/assets/experiences/beach-bars/visit-37.jpg",
+      "sourceFile": "IMG_4634.JPG",
+      "sourceFolder": "Beach bars",
+      "sourceSHA256": "7fc8cfad214dcb6bf0fbf025e7ba02d7452d88dabe0acc6793cd8e233c716f0a",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/beach-bars/visit-43.jpg",
+      "sourceFile": "IMG_4640.JPG",
+      "sourceFolder": "Beach bars",
+      "sourceSHA256": "a1984a7c39c5a27490c1b2b89edd8fbe12b1cc189e950d0f6a615f0640694a06",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/beach-bars/visit-45.jpg",
+      "sourceFile": "IMG_4647.JPG",
+      "sourceFolder": "Beach bars",
+      "sourceSHA256": "8d79e59196a7dbbf054e236ed4f1322507a30526e7e7f4d8571e10e96e57143a",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/nadodrze-walk/visit-01.jpg",
+      "sourceFile": "WhatsApp Image 2026-09-24 at 17.19.00 (2).jpeg",
+      "sourceFolder": "Nadodje",
+      "sourceSHA256": "24884e452e08859197f0f46b7c6653cb16d5587ee2ef5f9242baaaa2a3f0f0d6",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/nadodrze-walk/visit-05.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.30 (2).jpeg",
+      "sourceFolder": "Nadodje",
+      "sourceSHA256": "44ce72a9fe66c4041c2ff28b1f421e964438c88c6720037d5f6771f7dcede533",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/nadodrze-walk/visit-10.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.33 (3).jpeg",
+      "sourceFolder": "Nadodje",
+      "sourceSHA256": "a6d71c62337ed30749a3c9c5b5f8544d37c0ab6a204a9bc3ada0dc5748313a32",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/nadodrze-walk/visit-11.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-05 at 18.25.00 (2).jpeg",
+      "sourceFolder": "Nadodje",
+      "sourceSHA256": "6cc40762df498c48a9b5ad61221aa2c06dc0edef367c8267f440c03c120c799a",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/nadodrze-walk/visit-12.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-05 at 18.25.00 (3).jpeg",
+      "sourceFolder": "Nadodje",
+      "sourceSHA256": "e555875c1d2c9fbbace90a2a1a3236889cd2464cc781da51e23a67a0fa245a3a",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/nadodrze-walk/visit-13.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-19 at 08.41.45 (7).jpeg",
+      "sourceFolder": "Nadodje",
+      "sourceSHA256": "b24a6c4816ac9ea81e6c9968f4ef74a86132bfd9708bd479bbfce86e8300a004",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    },
+    {
+      "asset": "/assets/experiences/nadodrze-walk/visit-15.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-19 at 08.41.54 (4).jpeg",
+      "sourceFolder": "Nadodje",
+      "sourceSHA256": "f4c06bb82b4da6e8f9da66601cf1d1d63318b20335d671902d26342ead8ca671",
+      "review": "Visual review, no posed family portrait; experience-level scene, no inferred business identity"
+    }
+  ],
+  "heldAssociations": [
+    "Riverside bar name unverified. No inferred bar pins.",
+    "Olbin media must be identified separately from Nadodrze."
+  ],
+  "excludedTramPhotos": [
+    "IMG_4409.JPG",
+    "IMG_4474.JPG",
+    "IMG_4728.JPG"
+  ],
+  "nearDuplicateTramPhotos": [
+    "IMG_4374.JPG",
+    "IMG_4653.JPG"
+  ],
+  "guides": "Existing verified Public canonical-place guides inherited. No new guide uploads."
+}

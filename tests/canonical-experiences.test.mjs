@@ -16,8 +16,8 @@ function load(files) {
 test("the canonical Experience Registry contains exactly the approved localized set", () => {
   const window = load(["data/place-catalog.js", "data/canonical-experiences.js"]);
   const registry = window.WROC_EXPERIENCE_CATALOG;
-  assert.equal(registry.experiences.length, 10);
-  assert.equal(new Set(Array.from(registry.experiences, ({ id }) => id)).size, 10);
+  assert.equal(registry.experiences.length, 13);
+  assert.equal(new Set(Array.from(registry.experiences, ({ id }) => id)).size, 13);
   for (const experience of registry.experiences) {
     assert.deepEqual(Object.keys(experience.name), languages);
     assert.deepEqual(Object.keys(experience.description), languages);
@@ -90,7 +90,7 @@ test("Experience media resolves through existing Place media and Prague original
 
   const tram = registry.getExperience("wroclaw-tram-ride");
   assert.equal(tram.media.hero.src, "/assets/experiences/tram/IMG_4629.jpg");
-  assert.equal(tram.media.images.length, 13);
+  assert.equal(tram.media.images.length, 8);
   assert.equal(tram.media.videos.length, 4);
   assert.equal(tram.metadata.fieldProductionGaps, undefined);
   for (const mediaPath of [...tram.media.images, ...tram.media.videos]) {
