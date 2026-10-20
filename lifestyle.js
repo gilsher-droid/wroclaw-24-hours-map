@@ -246,6 +246,8 @@
     const content = document.getElementById("media-content");
     if (type === "gallery") content.innerHTML = `<div class="media-grid">${(media.gallery || []).map((src) => `<img style="${["math-tower", "pan-tadeusz-museum", "pedet", "renoma", "wroclavia", "pasaz", "pergola", "rynek", "town-hall", "slodowa", "dominikan", "fashion-outlet", "fc-caffe-kuznicza", "stadion-olimpijski-wroclaw"].includes(place.id)?"object-fit:contain":""}" src="${escapeHtml(src)}" alt="${escapeHtml(local(place.canonicalPlace?.media?.metadata?.[src]?.alt) || placeName(place))}" loading="lazy">`).join("")}</div>`;
     else content.innerHTML = `<div class="media-grid">${(media.videos || []).map((video) => window.WROC_YOUTUBE_VIDEO.html(typeof video === "string" ? video : video.src, "Video", language)).join("")}</div>`;
+    // The user explicitly opened this modal; do not defer its selected players.
+    content.querySelectorAll("iframe").forEach((frame) => { frame.loading = "eager"; });
     modal.hidden = false;
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
