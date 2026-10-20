@@ -1,0 +1,748 @@
+{
+  "canonicalId": "wroclaw-botanical-garden",
+  "readyForIntegration": true,
+  "state": "youtube-complete-awaiting-single-writer-site-integration",
+  "editions": {
+    "he": {
+      "language": "he",
+      "sourceCandidate": "candidate-06",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.51.mp4",
+      "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/botanical-garden-video-guides-2026-10-20/review-originals/candidate-06.mp4",
+      "sourceSHA256": "85c6308f0463e2a63dd258c682d7fbabbd662be1175860a1257feb5decb59484",
+      "uploadSHA256": "85c6308f0463e2a63dd258c682d7fbabbd662be1175860a1257feb5decb59484",
+      "workingCopyByteIdentical": true,
+      "originalPictureAudioUnchanged": true,
+      "durationSeconds": 78.1,
+      "visibilityTarget": "Public",
+      "currentlyUploaded": true,
+      "id": "xkwNR0L_azo",
+      "visibility": "Public",
+      "checksComplete": true,
+      "savedPublicVerified": true,
+      "reopenedAt": "2026-10-20T19:45:19.960Z",
+      "url": "https://youtube.com/shorts/xkwNR0L_azo",
+      "savedVisibilityVerified": true,
+      "checks": {
+        "copyright": "complete-no-issues",
+        "communityGuidelines": "complete-no-issues",
+        "standardDefinition": "complete"
+      },
+      "evidence": [
+        "he-checks.txt",
+        "he-published.txt",
+        "he-published.png",
+        "he-public-reopened.txt",
+        "he-public-reopened.png"
+      ]
+    },
+    "en": {
+      "language": "en",
+      "sourceCandidate": "candidate-02",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.51 (1).mp4",
+      "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/botanical-garden-video-guides-2026-10-20/review-originals/candidate-02.mp4",
+      "sourceSHA256": "6dc4654f5e6b2e5e0b16ec037f2c84c69820f89555ad155bc9c5a20627ffef26",
+      "uploadSHA256": "6dc4654f5e6b2e5e0b16ec037f2c84c69820f89555ad155bc9c5a20627ffef26",
+      "workingCopyByteIdentical": true,
+      "originalPictureAudioUnchanged": true,
+      "durationSeconds": 79.166667,
+      "visibilityTarget": "Public",
+      "currentlyUploaded": true,
+      "id": "sV59N6brOoI",
+      "visibility": "Public",
+      "checksComplete": true,
+      "savedPublicVerified": true,
+      "reopenedAt": "2026-10-20T19:45:27.962Z",
+      "url": "https://youtube.com/shorts/sV59N6brOoI",
+      "savedVisibilityVerified": true,
+      "checks": {
+        "copyright": "complete-no-issues",
+        "communityGuidelines": "complete-no-issues",
+        "standardDefinition": "complete"
+      },
+      "evidence": [
+        "en-checks.txt",
+        "en-published.txt",
+        "en-published.png",
+        "en-public-reopened.txt",
+        "en-public-reopened.png"
+      ]
+    }
+  },
+  "tracks": {
+    "he": {
+      "language": "he",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "xkwNR0L_azo",
+      "sourceAudioLanguage": "he",
+      "srtFile": "data/botanical-garden-guide-captions/he.srt",
+      "localSrtFile": "outputs/botanical-garden-video-guides-2026-10-20/captions/he.srt",
+      "srtSHA256": "5e6094f2f8347fed2edb30c76d1ced8059c8238111775f368c3c6384b08f4848",
+      "cueCount": 23,
+      "cues": [
+        {
+          "start": 1.49,
+          "end": 2.13,
+          "text": "Cześć!"
+        },
+        {
+          "start": 2.69,
+          "end": 3.39,
+          "text": "Dzień dobry!"
+        },
+        {
+          "start": 3.75,
+          "end": 7.4,
+          "text": "אני נמצא באי הקתדרלות, אוסטרוב טומסקי,"
+        },
+        {
+          "start": 7.4,
+          "end": 11.09,
+          "text": "היכן שוורוצלב התחילה."
+        },
+        {
+          "start": 11.29,
+          "end": 16.5,
+          "text": "ובין כל הכנסיות והמנזרים\nוהמבנים המקסימים שנמצאים כאן,"
+        },
+        {
+          "start": 16.5,
+          "end": 22.15,
+          "text": "ישנה פינה אחת של חמד שאתם\nחייבים לבוא ולבקר בה."
+        },
+        {
+          "start": 22.71,
+          "end": 25.13,
+          "text": "אלו הם הגנים הבוטניים של ורוצלב."
+        },
+        {
+          "start": 25.13,
+          "end": 28.5,
+          "text": "הם חלק מאוניברסיטת ורוצלב."
+        },
+        {
+          "start": 28.5,
+          "end": 32.2,
+          "text": "מדובר בגנים מרהיבים עם צמחייה,"
+        },
+        {
+          "start": 32.69,
+          "end": 35.5,
+          "text": "עצים, פרחים, שבילים,"
+        },
+        {
+          "start": 35.5,
+          "end": 38.71,
+          "text": "שאנשים פשוט מטיילים פה"
+        },
+        {
+          "start": 39.25,
+          "end": 43.35,
+          "text": "ולוקחים רגע שלווה בתוך יום עמוס."
+        },
+        {
+          "start": 43.97,
+          "end": 47.7,
+          "text": "ניתן לראות כאן זוגות מאוהבים,"
+        },
+        {
+          "start": 47.7,
+          "end": 49.4,
+          "text": "המקום מאוד רומנטי."
+        },
+        {
+          "start": 49.4,
+          "end": 52.8,
+          "text": "יש בפנים גם אגם, מעין גשר, מזרקה."
+        },
+        {
+          "start": 52.8,
+          "end": 54.85,
+          "text": "מאוד מאוד מומלץ."
+        },
+        {
+          "start": 55.41,
+          "end": 60.3,
+          "text": "לפני או אחרי אני ממליץ לבקר\nבבית קפה שנמצא בתוך מנזר,"
+        },
+        {
+          "start": 60.3,
+          "end": 63.01,
+          "text": "שנקרא קפה ידוויגי."
+        },
+        {
+          "start": 63.49,
+          "end": 66.05,
+          "text": "תוכלו למצוא אותו במפה שלנו."
+        },
+        {
+          "start": 66.83,
+          "end": 71.03,
+          "text": "גם בבית הקפה הזה יש מעין\nגן בוטני קטן שנמצא מסביבו."
+        },
+        {
+          "start": 71.03,
+          "end": 73.2,
+          "text": "המקום הזה הוא חובה."
+        },
+        {
+          "start": 73.2,
+          "end": 75.5,
+          "text": "נתראה בווידאו הבא."
+        },
+        {
+          "start": 75.5,
+          "end": 77.4,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T19:49:09.699664+00:00",
+      "evidence": [
+        "he-captions-reopened-middle2.txt",
+        "he-captions-reopened-middle.txt",
+        "he-captions-reopened-end.txt",
+        "he-captions-reopened-start.txt"
+      ]
+    },
+    "en": {
+      "language": "en",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "sV59N6brOoI",
+      "sourceAudioLanguage": "en",
+      "srtFile": "data/botanical-garden-guide-captions/en.srt",
+      "localSrtFile": "outputs/botanical-garden-video-guides-2026-10-20/captions/en.srt",
+      "srtSHA256": "fea90e8d69e9fe18e72ce613b6ef71b46c96cfe69ef770223e79946c70724063",
+      "cueCount": 21,
+      "cues": [
+        {
+          "start": 1.2,
+          "end": 3.4,
+          "text": "Cześć! Dzień dobry!"
+        },
+        {
+          "start": 3.79,
+          "end": 8.7,
+          "text": "I am standing inside the\nplace where Wrocław started,"
+        },
+        {
+          "start": 8.7,
+          "end": 12.49,
+          "text": "Ostrów Tumski, the Cathedral Island."
+        },
+        {
+          "start": 13.51,
+          "end": 17.2,
+          "text": "In between all those amazing\nchurches and monasteries"
+        },
+        {
+          "start": 17.2,
+          "end": 21.85,
+          "text": "and beautiful structures, there\nis a piece of green heaven."
+        },
+        {
+          "start": 22.35,
+          "end": 27.77,
+          "text": "I am referring to the Botanical\nGardens of Wrocław, just behind me."
+        },
+        {
+          "start": 27.77,
+          "end": 31.2,
+          "text": "This is part of the University of Wrocław."
+        },
+        {
+          "start": 31.2,
+          "end": 34.79,
+          "text": "I recommend coming here to enjoy the"
+        },
+        {
+          "start": 34.79,
+          "end": 38.53,
+          "text": "beautiful trees, flowers and plantation."
+        },
+        {
+          "start": 38.53,
+          "end": 42.53,
+          "text": "Walk in all those nice pathways"
+        },
+        {
+          "start": 42.53,
+          "end": 45.7,
+          "text": "in between those gardens and enjoy a big lake"
+        },
+        {
+          "start": 45.7,
+          "end": 49.8,
+          "text": "with a wonderful bridge and a fountain."
+        },
+        {
+          "start": 49.8,
+          "end": 54.63,
+          "text": "It's a very romantic place, so I\nreally recommend couples to come"
+        },
+        {
+          "start": 54.63,
+          "end": 57,
+          "text": "and stroll in this garden."
+        },
+        {
+          "start": 57,
+          "end": 61.33,
+          "text": "Also, I would like to recommend\nvisiting, just before or after,"
+        },
+        {
+          "start": 61.33,
+          "end": 64.7,
+          "text": "the Jadwigi café, which is inside a monastery"
+        },
+        {
+          "start": 64.7,
+          "end": 68.35,
+          "text": "adjacent to the Botanical Garden"
+        },
+        {
+          "start": 68.35,
+          "end": 72.4,
+          "text": "and has a little botanical garden by itself."
+        },
+        {
+          "start": 72.4,
+          "end": 74.2,
+          "text": "This is a must-visit."
+        },
+        {
+          "start": 74.2,
+          "end": 77,
+          "text": "See you in our next video."
+        },
+        {
+          "start": 77.1,
+          "end": 78.9,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T19:49:09.699664+00:00",
+      "evidence": [
+        "en-captions-reopened-end.txt",
+        "en-captions-reopened-middle.txt",
+        "en-captions-reopened-start.txt",
+        "en-captions-reopened-middle2.txt"
+      ]
+    },
+    "pl": {
+      "language": "pl",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "sV59N6brOoI",
+      "sourceAudioLanguage": "en",
+      "srtFile": "data/botanical-garden-guide-captions/pl.srt",
+      "localSrtFile": "outputs/botanical-garden-video-guides-2026-10-20/captions/pl.srt",
+      "srtSHA256": "448236390ee72519a0396bb3d97d3ac34ceb0fab870c2d02752068c06f30b804",
+      "cueCount": 21,
+      "cues": [
+        {
+          "start": 1.2,
+          "end": 3.4,
+          "text": "Cześć! Dzień dobry!"
+        },
+        {
+          "start": 3.79,
+          "end": 8.7,
+          "text": "Stoję w miejscu, w którym\nnarodził się Wrocław,"
+        },
+        {
+          "start": 8.7,
+          "end": 12.49,
+          "text": "na Ostrowie Tumskim, czyli Wyspie Katedralnej."
+        },
+        {
+          "start": 13.51,
+          "end": 17.2,
+          "text": "Pomiędzy tymi niezwykłymi\nkościołami i klasztorami"
+        },
+        {
+          "start": 17.2,
+          "end": 21.85,
+          "text": "oraz pięknymi budynkami\njest kawałek zielonego raju."
+        },
+        {
+          "start": 22.35,
+          "end": 27.77,
+          "text": "Mam na myśli Ogród Botaniczny\nwe Wrocławiu, tuż za mną."
+        },
+        {
+          "start": 27.77,
+          "end": 31.2,
+          "text": "To część Uniwersytetu Wrocławskiego."
+        },
+        {
+          "start": 31.2,
+          "end": 34.79,
+          "text": "Polecam przyjść tutaj, aby podziwiać"
+        },
+        {
+          "start": 34.79,
+          "end": 38.53,
+          "text": "piękne drzewa, kwiaty i roślinność."
+        },
+        {
+          "start": 38.53,
+          "end": 42.53,
+          "text": "Pospacerować tymi wszystkimi\nprzyjemnymi alejkami"
+        },
+        {
+          "start": 42.53,
+          "end": 45.7,
+          "text": "między ogrodami i zobaczyć duże jezioro"
+        },
+        {
+          "start": 45.7,
+          "end": 49.8,
+          "text": "z uroczym mostkiem i fontanną."
+        },
+        {
+          "start": 49.8,
+          "end": 54.63,
+          "text": "To bardzo romantyczne miejsce,\nwięc szczególnie polecam parom"
+        },
+        {
+          "start": 54.63,
+          "end": 57,
+          "text": "spacer po tym ogrodzie."
+        },
+        {
+          "start": 57,
+          "end": 61.33,
+          "text": "Polecam też odwiedzić, tuż\nprzed wizytą lub po niej,"
+        },
+        {
+          "start": 61.33,
+          "end": 64.7,
+          "text": "kawiarenkę św. Jadwigi,\nznajdującą się w klasztorze"
+        },
+        {
+          "start": 64.7,
+          "end": 68.35,
+          "text": "w pobliżu Ogrodu Botanicznego."
+        },
+        {
+          "start": 68.35,
+          "end": 72.4,
+          "text": "Ona także ma swój mały ogród botaniczny."
+        },
+        {
+          "start": 72.4,
+          "end": 74.2,
+          "text": "To miejsce, które trzeba odwiedzić."
+        },
+        {
+          "start": 74.2,
+          "end": 77,
+          "text": "Do zobaczenia w naszym następnym filmie."
+        },
+        {
+          "start": 77.1,
+          "end": 78.9,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T19:49:09.699664+00:00",
+      "evidence": [
+        "pl-captions-reopened-middle.txt",
+        "pl-captions-reopened-start.txt",
+        "pl-captions-reopened-end.txt",
+        "pl-captions-reopened-middle2.txt"
+      ]
+    },
+    "de": {
+      "language": "de",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "sV59N6brOoI",
+      "sourceAudioLanguage": "en",
+      "srtFile": "data/botanical-garden-guide-captions/de.srt",
+      "localSrtFile": "outputs/botanical-garden-video-guides-2026-10-20/captions/de.srt",
+      "srtSHA256": "6938a1306377f9a219f8f2f4243d72c5b912c9da0b7f40d173999eb261fa4d0c",
+      "cueCount": 21,
+      "cues": [
+        {
+          "start": 1.2,
+          "end": 3.4,
+          "text": "Cześć! Dzień dobry!"
+        },
+        {
+          "start": 3.79,
+          "end": 8.7,
+          "text": "Ich stehe an dem Ort, an dem\nWrocław seinen Ursprung hat,"
+        },
+        {
+          "start": 8.7,
+          "end": 12.49,
+          "text": "Ostrów Tumski, der Dominsel."
+        },
+        {
+          "start": 13.51,
+          "end": 17.2,
+          "text": "Zwischen all diesen beeindruckenden\nKirchen und Klöstern"
+        },
+        {
+          "start": 17.2,
+          "end": 21.85,
+          "text": "und schönen Gebäuden liegt\nein Stück grünes Paradies."
+        },
+        {
+          "start": 22.35,
+          "end": 27.77,
+          "text": "Ich meine den Botanischen Garten\nvon Wrocław, direkt hinter mir."
+        },
+        {
+          "start": 27.77,
+          "end": 31.2,
+          "text": "Er gehört zur Universität Wrocław."
+        },
+        {
+          "start": 31.2,
+          "end": 34.79,
+          "text": "Ich empfehle, hierherzukommen und"
+        },
+        {
+          "start": 34.79,
+          "end": 38.53,
+          "text": "die schönen Bäume, Blumen\nund Pflanzen zu genießen."
+        },
+        {
+          "start": 38.53,
+          "end": 42.53,
+          "text": "Geht auf all diesen schönen Wegen spazieren,"
+        },
+        {
+          "start": 42.53,
+          "end": 45.7,
+          "text": "zwischen den Gärten, und\ngenießt einen großen See"
+        },
+        {
+          "start": 45.7,
+          "end": 49.8,
+          "text": "mit einer wunderschönen Brücke\nund einem Springbrunnen."
+        },
+        {
+          "start": 49.8,
+          "end": 54.63,
+          "text": "Es ist ein sehr romantischer Ort,\ndaher empfehle ich besonders Paaren,"
+        },
+        {
+          "start": 54.63,
+          "end": 57,
+          "text": "durch diesen Garten zu schlendern."
+        },
+        {
+          "start": 57,
+          "end": 61.33,
+          "text": "Außerdem empfehle ich,\ndirekt davor oder danach"
+        },
+        {
+          "start": 61.33,
+          "end": 64.7,
+          "text": "das Café der heiligen Hedwig zu\nbesuchen, das in einem Kloster liegt,"
+        },
+        {
+          "start": 64.7,
+          "end": 68.35,
+          "text": "in der Nähe des Botanischen Gartens."
+        },
+        {
+          "start": 68.35,
+          "end": 72.4,
+          "text": "Es hat selbst einen\nkleinen botanischen Garten."
+        },
+        {
+          "start": 72.4,
+          "end": 74.2,
+          "text": "Das ist ein Ort, den man besuchen muss."
+        },
+        {
+          "start": 74.2,
+          "end": 77,
+          "text": "Wir sehen uns in unserem nächsten Video."
+        },
+        {
+          "start": 77.1,
+          "end": 78.9,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T19:49:09.699664+00:00",
+      "evidence": [
+        "de-captions-reopened-middle2.txt",
+        "de-captions-reopened-start.txt",
+        "de-captions-reopened-middle.txt",
+        "de-captions-reopened-end.txt"
+      ]
+    },
+    "cs": {
+      "language": "cs",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "sV59N6brOoI",
+      "sourceAudioLanguage": "en",
+      "srtFile": "data/botanical-garden-guide-captions/cs.srt",
+      "localSrtFile": "outputs/botanical-garden-video-guides-2026-10-20/captions/cs.srt",
+      "srtSHA256": "afb5301ba56ad982cb0a1e8fc94029d7a538653121b561f3b05b0ac7cb2f59c3",
+      "cueCount": 21,
+      "cues": [
+        {
+          "start": 1.2,
+          "end": 3.4,
+          "text": "Cześć! Dzień dobry!"
+        },
+        {
+          "start": 3.79,
+          "end": 8.7,
+          "text": "Stojím na místě, kde vznikla Vratislav,"
+        },
+        {
+          "start": 8.7,
+          "end": 12.49,
+          "text": "na Ostrówě Tumském, Katedrálním ostrově."
+        },
+        {
+          "start": 13.51,
+          "end": 17.2,
+          "text": "Mezi všemi těmito úžasnými kostely a kláštery"
+        },
+        {
+          "start": 17.2,
+          "end": 21.85,
+          "text": "a krásnými budovami je kousek zeleného ráje."
+        },
+        {
+          "start": 22.35,
+          "end": 27.77,
+          "text": "Mám na mysli vratislavskou\nbotanickou zahradu přímo za mnou."
+        },
+        {
+          "start": 27.77,
+          "end": 31.2,
+          "text": "Je součástí Vratislavské univerzity."
+        },
+        {
+          "start": 31.2,
+          "end": 34.79,
+          "text": "Doporučuji sem přijít a užít si"
+        },
+        {
+          "start": 34.79,
+          "end": 38.53,
+          "text": "krásné stromy, květiny a rostliny."
+        },
+        {
+          "start": 38.53,
+          "end": 42.53,
+          "text": "Projděte se po všech těch\npříjemných cestičkách"
+        },
+        {
+          "start": 42.53,
+          "end": 45.7,
+          "text": "mezi zahradami a užijte si velké jezero"
+        },
+        {
+          "start": 45.7,
+          "end": 49.8,
+          "text": "s nádherným mostkem a fontánou."
+        },
+        {
+          "start": 49.8,
+          "end": 54.63,
+          "text": "Je to velmi romantické místo,\ntakže zejména párům doporučuji"
+        },
+        {
+          "start": 54.63,
+          "end": 57,
+          "text": "procházku touto zahradou."
+        },
+        {
+          "start": 57,
+          "end": 61.33,
+          "text": "Také doporučuji navštívit,\ntěsně před návštěvou nebo po ní,"
+        },
+        {
+          "start": 61.33,
+          "end": 64.7,
+          "text": "kavárnu svaté Hedviky,\nkterá se nachází v klášteře"
+        },
+        {
+          "start": 64.7,
+          "end": 68.35,
+          "text": "poblíž botanické zahrady."
+        },
+        {
+          "start": 68.35,
+          "end": 72.4,
+          "text": "Má také svou vlastní malou botanickou zahradu."
+        },
+        {
+          "start": 72.4,
+          "end": 74.2,
+          "text": "Tohle místo musíte navštívit."
+        },
+        {
+          "start": 74.2,
+          "end": 77,
+          "text": "Uvidíme se v našem příštím videu."
+        },
+        {
+          "start": 77.1,
+          "end": 78.9,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T19:49:09.699664+00:00",
+      "evidence": [
+        "cs-captions-reopened-middle.txt",
+        "cs-captions-reopened-end.txt",
+        "cs-captions-reopened-middle2.txt",
+        "cs-captions-reopened-start.txt"
+      ]
+    }
+  },
+  "mediaPatch": {
+    "guideVideos": {
+      "he": "https://youtube.com/shorts/xkwNR0L_azo",
+      "en": "https://youtube.com/shorts/sV59N6brOoI"
+    }
+  },
+  "siteWriter": "/root/cafe_berg_enrichment",
+  "siteIntegrationStillRequired": true,
+  "browserOwner": null,
+  "uiReleased": true,
+  "approvalReceipt": "youtube-action-approval.json",
+  "preserve": [
+    "ExistingcanonicalID,coordinates,memberships and currentenrichmentphotos/visits",
+    "UniversityBotanicalGardenidentitydistinctJapaneseGarden andseparateJadwigicafepoint",
+    "Fulloriginalpictureandaudio,no cuts/merges/speedchanges"
+  ],
+  "captionMechanism": "HEguideforHE;ENguideforEN/PL/DE/CS withnativecc_load_policy1andcc_lang_pref",
+  "transcriptionCrosscheck": "Hebrewquietmomentcorrectedto רגע שלווה afterindependentYouTubeautomatictranscriptcrosscheck beforemanualpublication;propernamesnormalized,alloriginalaudiospreserved",
+  "moneySpent": 0,
+  "updatedAt": "2026-10-20T19:49:09.699664+00:00"
+}
