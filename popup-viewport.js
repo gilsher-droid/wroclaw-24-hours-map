@@ -20,6 +20,10 @@
   root.L.Popup.addInitHook(function () { this.options.autoPan=false; this.options.keepInView=false; });
   root.L.Map.addInitHook(function () {
     const map=this, container=map.getContainer();
+    // Leaflet corner controls use z-index 1000; an open popup must not have its
+    // title or close button obscured when fitted against the map's upper edge.
+    const pane=map.getPane?.('popupPane');
+    if(pane) pane.style.zIndex='1100';
     let active=null, frame=0, observer=null;
     const originalOptions=new WeakMap();
     function schedule() { if(active&&!frame) frame=requestAnimationFrame(fit); }
