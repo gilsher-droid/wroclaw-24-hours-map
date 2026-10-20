@@ -85,4 +85,6 @@ article[data-place="central"] p,article[data-place="central-cafe-nadodrze"] p,ar
 
 /* Complete Boguslawskiego visit frames, including existing street views. */
 .media-grid img[src*="boguslawskiego"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
-article[data-place="boguslawskiego"] p,[data-place-id="boguslawskiego"] p{white-space:pre-line;}
+article[data-place="boguslawskiego"] p,article[data-canonical-place-id="boguslawskiego"] p{white-space:pre-line;}
+
+.leaflet-popup-content:has(img[src*="boguslawskiego"]) > span,.premium-popup:has(img[src*="boguslawskiego"]) p{white-space:pre-line;}
