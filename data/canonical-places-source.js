@@ -12647,11 +12647,11 @@
       "cs": "Ostrov Słodowa"
     },
     "description": {
-      "he": "אי ירוק בלב זרועות האודר, עם מדשאות, עצים וגדות המשמשות להליכה ולמפגש. הגשרים להולכי רגל מחברים אותו לגדות ולאיים הסמוכים. תמונות הביקור שלנו מציגות את שלט האי, המים והעצים באור ערב, ואת גשר הולכי הרגל כחלק מהסביבה. תחנת מילוי המים והברים הסמוכים הם מקומות נפרדים.\nWyspa Słodowa",
-      "en": "A green island between branches of the Oder, with lawns, trees and banks for walking and meeting friends. Footbridges connect it to nearby banks and islands. Our evening visit photos show the island sign, water, trees and a footbridge in context. The water-refill point and nearby bars remain separate places.",
-      "pl": "Zielona wyspa między odnogami Odry, z trawnikami, drzewami i brzegami sprzyjającymi spacerom oraz spotkaniom. Kładki łączą ją z pobliskimi nabrzeżami i wyspami. Nasze wieczorne zdjęcia pokazują tablicę wyspy, wodę, drzewa i kładkę w otoczeniu. Punkt poboru wody i pobliskie bary pozostają osobnymi miejscami.",
-      "de": "Eine grüne Insel zwischen Oderarmen, mit Rasenflächen, Bäumen und Ufern zum Spazierengehen und Treffen. Fußgängerbrücken verbinden sie mit den benachbarten Ufern und Inseln. Unsere abendlichen Besuchsfotos zeigen das Inselschild, Wasser, Bäume und eine Brücke im Umfeld. Trinkwasserstelle und nahe Bars bleiben eigenständige Orte.",
-      "cs": "Zelený ostrov mezi rameny Odry s trávníky, stromy a břehy pro procházky a setkávání. Lávky jej propojují s okolními nábřežími a ostrovy. Naše večerní fotografie ukazují tabuli ostrova, vodu, stromy a lávku v okolní krajině. Pítko a blízké bary zůstávají samostatnými místy."
+      "he": "אי ירוק בלב זרועות האודר, עם מדשאות, עצים וגדות המשמשות להליכה ולמפגש. הגשרים להולכי רגל מחברים אותו לגדות ולאיים הסמוכים. תמונות הביקור שלנו מציגות את שלט האי, המים והעצים באור ערב, ואת גשר הולכי הרגל כחלק מהסביבה. תחנת מילוי המים והברים הסמוכים הם מקומות נפרדים. נוספו גם מבט על גדת האי ותיעוד סירת הבר המוארת בסביבה, כחלק מנוף הערב ולא כנקודת עסק נוספת.\nWyspa Słodowa",
+      "en": "A green island between branches of the Oder, with lawns, trees and banks for walking and meeting friends. Footbridges connect it to nearby banks and islands. Our evening visit photos show the island sign, water, trees and a footbridge in context. The water-refill point and nearby bars remain separate places. Additional views show the island bank and an illuminated floating bar nearby as evening surroundings, without creating a separate business point.",
+      "pl": "Zielona wyspa między odnogami Odry, z trawnikami, drzewami i brzegami sprzyjającymi spacerom oraz spotkaniom. Kładki łączą ją z pobliskimi nabrzeżami i wyspami. Nasze wieczorne zdjęcia pokazują tablicę wyspy, wodę, drzewa i kładkę w otoczeniu. Punkt poboru wody i pobliskie bary pozostają osobnymi miejscami. Dodatkowe ujęcia pokazują brzeg wyspy i oświetlony bar na barce w pobliżu jako element wieczornego otoczenia, bez tworzenia osobnego punktu lokalu.",
+      "de": "Eine grüne Insel zwischen Oderarmen, mit Rasenflächen, Bäumen und Ufern zum Spazierengehen und Treffen. Fußgängerbrücken verbinden sie mit den benachbarten Ufern und Inseln. Unsere abendlichen Besuchsfotos zeigen das Inselschild, Wasser, Bäume und eine Brücke im Umfeld. Trinkwasserstelle und nahe Bars bleiben eigenständige Orte. Weitere Aufnahmen zeigen das Inselufer und eine beleuchtete schwimmende Bar in der Nähe als abendliches Umfeld, ohne einen eigenen Geschäftspunkt anzulegen.",
+      "cs": "Zelený ostrov mezi rameny Odry s trávníky, stromy a břehy pro procházky a setkávání. Lávky jej propojují s okolními nábřežími a ostrovy. Naše večerní fotografie ukazují tabuli ostrova, vodu, stromy a lávku v okolní krajině. Pítko a blízké bary zůstávají samostatnými místy. Další snímky ukazují břeh ostrova a osvětlený plovoucí bar poblíž jako součást večerního okolí, bez vytváření samostatného bodu podniku."
     },
     "location": {
       "countryCode": "PL",
@@ -12709,7 +12709,9 @@
         "/assets/wyspa-slodowa/wyspa-slodowa-01.jpg",
         "/assets/wyspa-slodowa/wyspa-slodowa-02.jpg",
         "/assets/wyspa-slodowa/wyspa-slodowa-03.jpg",
-        "/assets/wyspa-slodowa/wyspa-slodowa-04.jpg"
+        "/assets/wyspa-slodowa/wyspa-slodowa-04.jpg",
+        "/assets/wyspa-slodowa/wyspa-slodowa-05.jpg",
+        "/assets/wyspa-slodowa/wyspa-slodowa-06.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -12736,6 +12738,36 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.49 (3).jpeg",
           "sourceSHA256": "5b28427315c7dc51f2478e3e3f05e1f675f97a4c405e7710f882d63a903909e5",
           "assetSHA256": "1abb078762312792c21b5b6f89283caee00c7ae2d65c59ebd488224d25aea2b9"
+        },
+        "/assets/wyspa-slodowa/wyspa-slodowa-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.48 (1).jpeg",
+          "sourceSHA256": "0d51b98bef31479ea2b98b35e2b626f1d32d70a8d95b46b12aab2b1373da391d",
+          "assetSHA256": "5953f2ea30d37e4ed113bbcf1a132c0356c6e8c61a554411b88b013f8466869f",
+          "alt": {
+            "he": "גדת אי סלודובה והמים בלילה",
+            "en": "Słodowa Island bank and water at night",
+            "pl": "Brzeg Wyspy Słodowej i woda nocą",
+            "de": "Ufer der Insel Słodowa und Wasser bei Nacht",
+            "cs": "Břeh ostrova Słodowa a voda v noci"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false
+        },
+        "/assets/wyspa-slodowa/wyspa-slodowa-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.48.jpeg",
+          "sourceSHA256": "14f1c952cc2290b266db822b317156b520e15aacc5a838fceed54a7b957bb65d",
+          "assetSHA256": "9fd45f09a993c8c8e54ce7dde52a59005d795c1ed8149ec567748877d4eba493",
+          "alt": {
+            "he": "סירת הבר המוארת בסביבת האי",
+            "en": "Illuminated floating bar near the island",
+            "pl": "Oświetlony bar na barce w otoczeniu wyspy",
+            "de": "Beleuchtete schwimmende Bar im Inselumfeld",
+            "cs": "Osvětlený plovoucí bar v okolí ostrova"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false
         }
       },
       "thumbnail": "/assets/wyspa-slodowa/wyspa-slodowa-01.jpg"
@@ -12812,7 +12844,16 @@
           ]
         }
       ],
-      "personalMediaPermission": false
+      "personalMediaPermission": false,
+      "refresh20261020": {
+        "sourcePhotos": 21,
+        "selectedNew": 2,
+        "preservedOld": 4,
+        "familyException": false,
+        "social": "Existing ten localized exact-place posts preserved from October19 verified-publication receipts. No new publication or repeated archive sweep.",
+        "surroundingFloatingBarEvidence": "https://www.wroclaw.pl/dla-mieszkanca/galeria/bary-plenerowe-wroclaw-beach-bary%2Cp%2C1",
+        "mapDecision": "Preserve existing four-day itinerary membership only; surrounding bars and water refill remain separate identities."
+      }
     }
   },
   "dominikan": {
