@@ -28115,11 +28115,11 @@
       "cs": "Pizza Si"
     },
     "description": {
-      "he": "פיצרייה איטלקית ברחוב בוגוסלבסקייגו, מתחת למסילת הרכבת. בגלריה תמונות מהארוחה שלנו, עם פיצה וסלט.",
-      "en": "Italian pizzeria on Bogusławskiego Street beneath the railway. Our visit gallery shows pizza and salad.",
-      "pl": "Włoska pizzeria przy ulicy Bogusławskiego, pod nasypem kolejowym. Galeria z naszej wizyty przedstawia pizzę i sałatkę.",
-      "de": "Italienische Pizzeria an der Straße Bogusławskiego unter dem Bahndamm. Unsere Besuchsgalerie zeigt Pizza und Salat.",
-      "cs": "Italská pizzerie v ulici Bogusławskiego pod železničním náspem. Galerie z naší návštěvy ukazuje pizzu a salát."
+      "he": "פיצרייה מתחת לקשתות מסילת הרכבת ברחוב בוגוסלבסקייגו, עם פיצות איטלקיות וסלטים. תמונות הביקור שלנו מציגות את הארוחה, קמרון הלבנים והדלפק בפנים, ואת החזית המוארת והשולחנות בחוץ בלילה. אפשר לשלב את הארוחה בשיטוט ברחוב המסעדות.\nPizza Si\nWojciecha Bogusławskiego 89–91, Wrocław",
+      "en": "Pizzeria beneath the railway arches on Bogusławskiego Street, serving Italian pizzas and salads. Our visit photographs show the meal, the brick-vaulted interior and counter, and the illuminated facade with outdoor tables at night. Combine a meal here with a walk along the restaurant street.\nWojciecha Bogusławskiego 89–91, Wrocław",
+      "pl": "Pizzeria pod arkadami nasypu kolejowego przy ulicy Bogusławskiego, serwująca włoskie pizze i sałatki. Nasze zdjęcia z wizyty pokazują posiłek, ceglane sklepienie i ladę we wnętrzu oraz oświetloną fasadę ze stolikami na zewnątrz nocą. Posiłek można połączyć ze spacerem wzdłuż gastronomicznej ulicy.\nWojciecha Bogusławskiego 89–91, Wrocław",
+      "de": "Pizzeria unter den Eisenbahnbögen an der Bogusławskiego-Straße mit italienischer Pizza und Salaten. Unsere Besuchsfotos zeigen das Essen, das Backsteingewölbe und die Theke im Innenraum sowie die beleuchtete Fassade mit Außentischen bei Nacht. Ein Essen lässt sich mit einem Spaziergang entlang der Restaurantstraße verbinden.\nWojciecha Bogusławskiego 89–91, Wrocław",
+      "cs": "Pizzerie pod železničními oblouky v ulici Bogusławskiego s italskou pizzou a saláty. Naše fotografie z návštěvy ukazují jídlo, cihlovou klenbu a pult uvnitř i osvětlené průčelí s venkovními stoly v noci. Jídlo lze spojit s procházkou po ulici plné restaurací.\nWojciecha Bogusławskiego 89–91, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -28192,7 +28192,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.0999236%2C17.0299738",
         "appleMaps": "https://maps.apple.com/?ll=51.0999236,17.0299738"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -28213,14 +28214,27 @@
       "factualSources": [
         {
           "url": "https://pizza-si.pl/",
-          "verifiedAt": "2026-10-17"
+          "verifiedAt": "2026-10-20T18:20:01.143208+00:00"
         }
-      ]
+      ],
+      "refresh20261020": {
+        "sourceFiles": 11,
+        "selectedNewPhotos": 3,
+        "existingPhotosKept": 2,
+        "personalPortraitsExcluded": 1,
+        "visitVideos": 0,
+        "identityEvidence": "Official pizza-si.pl address and Google Maps business match coordinates",
+        "maps": "Existing Lifestyle food point only"
+      }
     },
     "media": {
+      "thumbnail": "/assets/food-cafes/pizza-si-01.jpg",
       "photos": [
         "/assets/food-cafes/pizza-si-01.jpg",
-        "/assets/food-cafes/pizza-si-02.jpg"
+        "/assets/food-cafes/pizza-si-02.jpg",
+        "/assets/food-cafes/pizza-si-03.jpg",
+        "/assets/food-cafes/pizza-si-04.jpg",
+        "/assets/food-cafes/pizza-si-05.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -28229,14 +28243,83 @@
           "sourceFile": "פיצה סי/WhatsApp Image 2026-10-01 at 09.23.56 (5).jpeg",
           "sourceSHA256": "691310b7126801e837f99c94c249a0e1a8391d0dcc069532fc9e386a68a076e4",
           "heroCandidate": true,
-          "visitCategory": "food-and-cafe"
+          "visitCategory": "food-and-cafe",
+          "assetSHA256": "11b5dd7263f984409934ac65c524a92891dec1305a0e610b6553bd1789a8e426",
+          "alt": {
+            "he": "פיצה וסלט על שולחן במסעדה",
+            "en": "Pizza and salad on a restaurant table",
+            "pl": "Pizza i sałatka na stoliku w restauracji",
+            "de": "Pizza und Salat auf einem Restauranttisch",
+            "cs": "Pizza a salát na stole v restauraci"
+          },
+          "familyForeground": false
         },
         "/assets/food-cafes/pizza-si-02.jpg": {
           "original": true,
           "sourceFile": "פיצה סי/WhatsApp Image 2026-07-30 at 16.04.00 (1).jpeg",
           "sourceSHA256": "72c226c7894e434dd623109a1c6ed990c9d4df2b505973f1dd9d3166dcfb3389",
           "heroCandidate": false,
-          "visitCategory": "food-and-cafe"
+          "visitCategory": "food-and-cafe",
+          "assetSHA256": "6a3e382400be08d88640bb0e0c88f11526afc0408fab2fe7f432756fc181e4fa",
+          "alt": {
+            "he": "סלט עם פרוסות לחם על שולחן המסעדה",
+            "en": "Salad with slices of bread on the restaurant table",
+            "pl": "Sałatka z kromkami pieczywa na stoliku w restauracji",
+            "de": "Salat mit Brotscheiben auf dem Restauranttisch",
+            "cs": "Salát s plátky chleba na stole v restauraci"
+          },
+          "familyForeground": false
+        },
+        "/assets/food-cafes/pizza-si-03.jpg": {
+          "sourceFile": "פיצה סי/WhatsApp Image 2026-10-18 at 09.59.10.jpeg",
+          "sourceSHA256": "d7b9f30fc9048ceafccc0b0e1b5ee836a8d47b57f80f1521619174097ef40379",
+          "assetSHA256": "d7b9f30fc9048ceafccc0b0e1b5ee836a8d47b57f80f1521619174097ef40379",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicDiners": false,
+          "alt": {
+            "he": "פיצה, סלט ומשקה על שולחן לצד חלון המסעדה",
+            "en": "Pizza, salad and a drink beside the restaurant window",
+            "pl": "Pizza, sałatka i napój przy oknie restauracji",
+            "de": "Pizza, Salat und Getränk am Restaurantfenster",
+            "cs": "Pizza, salát a nápoj u okna restaurace"
+          },
+          "verifiedAt": "2026-10-20T18:20:01.143208+00:00"
+        },
+        "/assets/food-cafes/pizza-si-04.jpg": {
+          "sourceFile": "פיצה סי/WhatsApp Image 2026-10-19 at 16.55.18.jpeg",
+          "sourceSHA256": "0870cb106a6cf07e733b025609aee74e6e16620463166730e476eb2ef2d94482",
+          "assetSHA256": "0870cb106a6cf07e733b025609aee74e6e16620463166730e476eb2ef2d94482",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicDiners": true,
+          "alt": {
+            "he": "פנים המסעדה תחת קמרון לבנים עם דלפק ושולחנות",
+            "en": "Restaurant interior beneath a brick vault, with counter and tables",
+            "pl": "Restauracja pod ceglanym sklepieniem, z ladą i stolikami",
+            "de": "Restaurant unter einem Backsteingewölbe mit Theke und Tischen",
+            "cs": "Restaurace pod cihlovou klenbou s pultem a stoly"
+          },
+          "verifiedAt": "2026-10-20T18:20:01.143208+00:00"
+        },
+        "/assets/food-cafes/pizza-si-05.jpg": {
+          "sourceFile": "פיצה סי/WhatsApp Image 2026-10-19 at 16.55.19.jpeg",
+          "sourceSHA256": "ffecc1ca00a43aaedf9c277855bed283c48f38993d4c720461f60c728fa2568f",
+          "assetSHA256": "ffecc1ca00a43aaedf9c277855bed283c48f38993d4c720461f60c728fa2568f",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicDiners": true,
+          "alt": {
+            "he": "חזית המסעדה בלילה עם שלט מואר ושולחנות בחוץ",
+            "en": "Night-time restaurant facade with illuminated sign and outdoor tables",
+            "pl": "Nocna fasada restauracji ze świecącym szyldem i stolikami na zewnątrz",
+            "de": "Nächtliche Restaurantfassade mit Leuchtschild und Außentischen",
+            "cs": "Noční průčelí restaurace se svítícím nápisem a venkovními stoly"
+          },
+          "verifiedAt": "2026-10-20T18:20:01.143208+00:00"
         }
       }
     },

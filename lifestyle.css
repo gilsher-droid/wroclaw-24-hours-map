@@ -220,3 +220,7 @@ article[data-place="parrot-coffee-bema"] p{white-space:pre-line;}
 /* Complete Boguslawskiego visit frames, including existing street views. */
 .media-grid img[src*="boguslawskiego"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 article[data-place="boguslawskiego"] p,[data-place-id="boguslawskiego"] p{white-space:pre-line;}
+
+/* Preserve full original Pizza Si visit photographs. */
+.media-grid img[src*="/food-cafes/pizza-si-"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="pizza-si"] p,.leaflet-popup-content:has(img[src*="/food-cafes/pizza-si-"]) > span{white-space:pre-line;}
