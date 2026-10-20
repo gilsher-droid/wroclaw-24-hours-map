@@ -162,3 +162,5 @@ if (window.WROC_CATALOG) {
   }));
 }
 })();
+
+(function(){for(const p of window.WROC_LIFESTYLE_PLACES){if(["altus", "puro", "herbal", "ac-hotel", "boogie-aparthouse-garbary", "art-hotel", "entre-hotel-wroclaw", "joyinn-aparthotel-wroclaw", "dwor-polski-hotel-wroclaw", "wyndham-wroclaw-old-town", "tulip-hotels-wroclaw-patio"].includes(p.id))p.mediaKey=p.id;}})();
