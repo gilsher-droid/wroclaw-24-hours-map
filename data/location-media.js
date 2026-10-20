@@ -126,6 +126,7 @@
   };
 
   const resources = {
+    "charlotte": canonicalResources("charlotte"),
     "fc-caffe-kuznicza": canonicalResources("fc-caffe-kuznicza"),
     "dominikan": canonicalResources("dominikan"),
     "slodowa": canonicalResources("slodowa"),

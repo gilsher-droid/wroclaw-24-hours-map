@@ -1,0 +1,886 @@
+{
+  "canonicalId": "four-denominations-district",
+  "readyForIntegration": true,
+  "state": "youtube-complete-awaiting-single-writer-site-integration",
+  "editions": {
+    "en": {
+      "id": "oqziuQx8hLQ",
+      "url": "https://youtube.com/shorts/oqziuQx8hLQ",
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "originalPictureAudioUnchanged": true,
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/untitled folder/המדריך שלנו באנגלית.mp4",
+      "sourceSHA256": "85febb1c3e988585ee3f2eba2e0f397ae0d464f5e36e27239ebe5dc592a7d0e2",
+      "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/four-denominations-video-guides-2026-10-20/upload-originals/district-guide-en-full-original.mp4",
+      "uploadSHA256": "85febb1c3e988585ee3f2eba2e0f397ae0d464f5e36e27239ebe5dc592a7d0e2",
+      "durationSeconds": 124.6,
+      "checks": {
+        "copyright": "complete-no-issues",
+        "communityGuidelines": "complete-no-issues",
+        "standardDefinition": "complete"
+      },
+      "evidence": [
+        "en-checks-complete.txt",
+        "en-published.txt",
+        "en-published.png",
+        "en-public-reopened.txt",
+        "en-public-reopened.png"
+      ]
+    },
+    "he": {
+      "id": "rSn6kJy3gQE",
+      "url": "https://youtube.com/shorts/rSn6kJy3gQE",
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "originalPictureAudioUnchanged": true,
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/untitled folder/המדריך שלנו בעברית.mp4",
+      "sourceSHA256": "1ab70d81923f4ca1190f31c94b2e5e09de89d8556d2f6aa9847ed6b76fbd17f3",
+      "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/four-denominations-video-guides-2026-10-20/upload-originals/district-guide-he-full-original.mp4",
+      "uploadSHA256": "1ab70d81923f4ca1190f31c94b2e5e09de89d8556d2f6aa9847ed6b76fbd17f3",
+      "durationSeconds": 84.433333,
+      "checks": {
+        "copyright": "complete-no-issues",
+        "communityGuidelines": "complete-no-issues",
+        "standardDefinition": "complete"
+      },
+      "evidence": [
+        "he-checks-complete.txt",
+        "he-published.txt",
+        "he-published.png",
+        "he-public-reopened.txt",
+        "he-public-reopened.png"
+      ]
+    }
+  },
+  "tracks": {
+    "he": {
+      "language": "he",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "rSn6kJy3gQE",
+      "sourceAudioLanguage": "he",
+      "srtFile": "data/four-denominations-guide-captions/he.srt",
+      "localSrtFile": "outputs/four-denominations-video-guides-2026-10-20/captions/he.srt",
+      "srtSHA256": "6875aa69d1f4aafee2945841b2ce045624a705730898cdcca3acac41bc897356",
+      "cueCount": 22,
+      "cues": [
+        {
+          "start": 1.65,
+          "end": 2.29,
+          "text": "Cześć!"
+        },
+        {
+          "start": 2.63,
+          "end": 7.01,
+          "text": "שלום לכולם, אנחנו נמצאים ברובע ארבע הדתות."
+        },
+        {
+          "start": 7.01,
+          "end": 10.4,
+          "text": "וכשאני אומר ארבע דתות, אני מתכוון"
+        },
+        {
+          "start": 10.4,
+          "end": 13.93,
+          "text": "לשלושה זרמים שונים של נצרות וליהדות."
+        },
+        {
+          "start": 14.47,
+          "end": 18.6,
+          "text": "ניתן למצוא ברובע הזה שלוש כנסיות מזרמים שונים,"
+        },
+        {
+          "start": 18.6,
+          "end": 21.73,
+          "text": "וגם בית כנסת החסידה הלבנה,"
+        },
+        {
+          "start": 21.91,
+          "end": 26.27,
+          "text": "שהוא בית כנסת מדהים\nשביקרנו בו במהלך יום כיפור."
+        },
+        {
+          "start": 29.43,
+          "end": 34.3,
+          "text": "האזור הזה משופע בפסאז׳ים, מסעדות ובתי קפה."
+        },
+        {
+          "start": 34.3,
+          "end": 40.6,
+          "text": "אני למשל נמצא כרגע באחד הפסאז׳ים\nהמפורסמים שנקרא פוקויהוף,"
+        },
+        {
+          "start": 40.6,
+          "end": 45.43,
+          "text": "בתרגום חופשי, החצר של פוקוי."
+        },
+        {
+          "start": 45.43,
+          "end": 49,
+          "text": "מעבר למבנה המרשים ארכיטקטונית"
+        },
+        {
+          "start": 49,
+          "end": 52.63,
+          "text": "והאריחים הצבעוניים היפהפיים שיש פה,"
+        },
+        {
+          "start": 52.63,
+          "end": 55,
+          "text": "יש כאן בית קפה סטארבקס,"
+        },
+        {
+          "start": 55,
+          "end": 57.71,
+          "text": "בית קפה שרלוט, שהוא בית קפה צרפתי."
+        },
+        {
+          "start": 57.71,
+          "end": 60.5,
+          "text": "ישנו גם בית קפה ממש בכניסה לפסאז׳ שנקרא פוקוי,"
+        },
+        {
+          "start": 60.5,
+          "end": 62.73,
+          "text": "שהוא גם מומלץ."
+        },
+        {
+          "start": 62.73,
+          "end": 65.49,
+          "text": "יש כאן ברים ומסעדות."
+        },
+        {
+          "start": 65.49,
+          "end": 69.3,
+          "text": "ממש לידנו נמצא רחוב שנקרא אנטונייגו,"
+        },
+        {
+          "start": 69.3,
+          "end": 74.93,
+          "text": "שזה רחוב קטן וארוך מלא במסעדות ובתי קפה."
+        },
+        {
+          "start": 74.93,
+          "end": 78.45,
+          "text": "מאוד מאוד מומלץ לבקר באזור הזה."
+        },
+        {
+          "start": 78.45,
+          "end": 81,
+          "text": "אז נתראה בסרטון הבא."
+        },
+        {
+          "start": 81,
+          "end": 83.8,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T14:24:09.376923+00:00",
+      "evidence": [
+        "he-captions-reopened-middle2.txt",
+        "he-captions-reopened-middle.txt",
+        "he-captions-reopened-end.txt",
+        "he-captions-reopened-start.txt"
+      ]
+    },
+    "en": {
+      "language": "en",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "oqziuQx8hLQ",
+      "sourceAudioLanguage": "en",
+      "srtFile": "data/four-denominations-guide-captions/en.srt",
+      "localSrtFile": "outputs/four-denominations-video-guides-2026-10-20/captions/en.srt",
+      "srtSHA256": "8b5146fbdae0cda876b6c660c3cf6758487cb8880ac0244b30e4a4a25b3d691f",
+      "cueCount": 29,
+      "cues": [
+        {
+          "start": 1.07,
+          "end": 1.59,
+          "text": "So,"
+        },
+        {
+          "start": 1.59,
+          "end": 6.73,
+          "text": "I'm standing here in the\nneighborhood that's called"
+        },
+        {
+          "start": 6.73,
+          "end": 10.25,
+          "text": "the Four Religions Quarter."
+        },
+        {
+          "start": 10.97,
+          "end": 14.4,
+          "text": "When I say four religions, I actually mean"
+        },
+        {
+          "start": 14.4,
+          "end": 17.31,
+          "text": "three different streams of\nChristianity and Judaism."
+        },
+        {
+          "start": 18.11,
+          "end": 23.2,
+          "text": "In this beautiful neighborhood you can\nfind three different kinds of churches"
+        },
+        {
+          "start": 23.2,
+          "end": 27.45,
+          "text": "that serve three Christian streams,"
+        },
+        {
+          "start": 27.45,
+          "end": 30.9,
+          "text": "as well as a beautiful synagogue\ncalled the White Stork."
+        },
+        {
+          "start": 30.9,
+          "end": 35.8,
+          "text": "We visited that synagogue\non the last Yom Kippur,"
+        },
+        {
+          "start": 35.8,
+          "end": 40.19,
+          "text": "and it was really an exciting experience."
+        },
+        {
+          "start": 40.19,
+          "end": 45.5,
+          "text": "Moreover, this neighborhood is filled\nwith passages and little streets"
+        },
+        {
+          "start": 45.5,
+          "end": 49.3,
+          "text": "filled with cafés and restaurants."
+        },
+        {
+          "start": 49.3,
+          "end": 53.11,
+          "text": "I'm standing now in one of\nthe famous passages called"
+        },
+        {
+          "start": 53.11,
+          "end": 57.1,
+          "text": "Pokoyhof. In translation it\nmeans the garden of Pokoy."
+        },
+        {
+          "start": 57.1,
+          "end": 61.8,
+          "text": "Just at the entrance to this passage\nthere is a very nice café called Pokoy."
+        },
+        {
+          "start": 61.8,
+          "end": 66.7,
+          "text": "When you enter the passage,\nfirst of all you can be impressed"
+        },
+        {
+          "start": 66.7,
+          "end": 71.19,
+          "text": "by this building, this kind of\ncourtyard that I'm standing in,"
+        },
+        {
+          "start": 71.19,
+          "end": 76.55,
+          "text": "with beautiful architecture\nand colorful tiles."
+        },
+        {
+          "start": 76.55,
+          "end": 79.4,
+          "text": "Inside this passage you can find Starbucks."
+        },
+        {
+          "start": 79.4,
+          "end": 84.7,
+          "text": "You can also find Charlotte's café,\nwhich is a French coffee house."
+        },
+        {
+          "start": 84.7,
+          "end": 90.79,
+          "text": "You can find some bars and other restaurants."
+        },
+        {
+          "start": 90.79,
+          "end": 96.29,
+          "text": "Just adjacent to here, there's a very\nfamous little street called Antoniego,"
+        },
+        {
+          "start": 96.29,
+          "end": 100.3,
+          "text": "that is also filled with\nrestaurants and cafés."
+        },
+        {
+          "start": 100.3,
+          "end": 106.27,
+          "text": "I recommend coming here and strolling in\nthose beautiful passages and little streets."
+        },
+        {
+          "start": 106.27,
+          "end": 110.95,
+          "text": "Another passage that is very\ninteresting is the passage of neons."
+        },
+        {
+          "start": 111.49,
+          "end": 116.6,
+          "text": "I recommend coming to this\npassage in the evening,"
+        },
+        {
+          "start": 116.6,
+          "end": 119.79,
+          "text": "when all the neons are shining\nbright in beautiful colors."
+        },
+        {
+          "start": 120.35,
+          "end": 121.77,
+          "text": "See you in our next video."
+        },
+        {
+          "start": 122.63,
+          "end": 123.8,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T14:24:09.376923+00:00",
+      "evidence": [
+        "en-captions-reopened-end.txt",
+        "en-captions-reopened-middle.txt",
+        "en-captions-reopened-start.txt",
+        "en-captions-reopened-middle2.txt"
+      ]
+    },
+    "pl": {
+      "language": "pl",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "oqziuQx8hLQ",
+      "sourceAudioLanguage": "en",
+      "srtFile": "data/four-denominations-guide-captions/pl.srt",
+      "localSrtFile": "outputs/four-denominations-video-guides-2026-10-20/captions/pl.srt",
+      "srtSHA256": "0f9b25c164f19f28392460e99bab1a02a753d5dceddf24c12750298e3a3435d9",
+      "cueCount": 29,
+      "cues": [
+        {
+          "start": 1.07,
+          "end": 1.59,
+          "text": "Więc,"
+        },
+        {
+          "start": 1.59,
+          "end": 6.73,
+          "text": "Stoję tutaj w dzielnicy nazywanej"
+        },
+        {
+          "start": 6.73,
+          "end": 10.25,
+          "text": "Dzielnicą Czterech Religii."
+        },
+        {
+          "start": 10.97,
+          "end": 14.4,
+          "text": "Kiedy mówię o czterech religiach, mam na myśli"
+        },
+        {
+          "start": 14.4,
+          "end": 17.31,
+          "text": "trzy różne nurty chrześcijaństwa oraz judaizm."
+        },
+        {
+          "start": 18.11,
+          "end": 23.2,
+          "text": "W tej pięknej dzielnicy\nznajdziecie trzy różne kościoły"
+        },
+        {
+          "start": 23.2,
+          "end": 27.45,
+          "text": "służące trzem wyznaniom chrześcijańskim,"
+        },
+        {
+          "start": 27.45,
+          "end": 30.9,
+          "text": "a także piękną Synagogę Pod Białym Bocianem."
+        },
+        {
+          "start": 30.9,
+          "end": 35.8,
+          "text": "Odwiedziliśmy ją podczas ostatniego Jom Kipur"
+        },
+        {
+          "start": 35.8,
+          "end": 40.19,
+          "text": "i było to naprawdę poruszające doświadczenie."
+        },
+        {
+          "start": 40.19,
+          "end": 45.5,
+          "text": "Ponadto ta dzielnica jest\npełna pasaży i małych uliczek"
+        },
+        {
+          "start": 45.5,
+          "end": 49.3,
+          "text": "z kawiarniami i restauracjami."
+        },
+        {
+          "start": 49.3,
+          "end": 53.11,
+          "text": "Stoję teraz w jednym ze\nsłynnych pasaży o nazwie"
+        },
+        {
+          "start": 53.11,
+          "end": 57.1,
+          "text": "Pokoyhof. W tłumaczeniu\noznacza to ogród Pokoya."
+        },
+        {
+          "start": 57.1,
+          "end": 61.8,
+          "text": "Tuż przy wejściu do pasażu jest\nbardzo miła kawiarnia Pokoy."
+        },
+        {
+          "start": 61.8,
+          "end": 66.7,
+          "text": "Gdy wejdziecie do pasażu,\nnajpierw zachwyci was"
+        },
+        {
+          "start": 66.7,
+          "end": 71.19,
+          "text": "ten budynek i dziedziniec, na którym stoję,"
+        },
+        {
+          "start": 71.19,
+          "end": 76.55,
+          "text": "z piękną architekturą i kolorowymi płytkami."
+        },
+        {
+          "start": 76.55,
+          "end": 79.4,
+          "text": "W tym pasażu znajdziecie Starbucks."
+        },
+        {
+          "start": 79.4,
+          "end": 84.7,
+          "text": "Jest tu także Charlotte, francuska kawiarnia."
+        },
+        {
+          "start": 84.7,
+          "end": 90.79,
+          "text": "Znajdziecie tu bary i inne restauracje."
+        },
+        {
+          "start": 90.79,
+          "end": 96.29,
+          "text": "Tuż obok jest słynna\nuliczka świętego Antoniego,"
+        },
+        {
+          "start": 96.29,
+          "end": 100.3,
+          "text": "również pełna restauracji i kawiarni."
+        },
+        {
+          "start": 100.3,
+          "end": 106.27,
+          "text": "Polecam przyjść i pospacerować po\ntych pięknych pasażach i uliczkach."
+        },
+        {
+          "start": 106.27,
+          "end": 110.95,
+          "text": "Innym bardzo ciekawym pasażem\njest podwórko z neonami."
+        },
+        {
+          "start": 111.49,
+          "end": 116.6,
+          "text": "Polecam odwiedzić je wieczorem,"
+        },
+        {
+          "start": 116.6,
+          "end": 119.79,
+          "text": "kiedy wszystkie neony świecą\njasnymi, pięknymi kolorami."
+        },
+        {
+          "start": 120.35,
+          "end": 121.77,
+          "text": "Do zobaczenia w naszym następnym filmie."
+        },
+        {
+          "start": 122.63,
+          "end": 123.8,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T14:24:09.376923+00:00",
+      "evidence": [
+        "pl-captions-reopened-middle.txt",
+        "pl-captions-reopened-start.txt",
+        "pl-captions-reopened-end.txt",
+        "pl-captions-reopened-middle2.txt"
+      ]
+    },
+    "de": {
+      "language": "de",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "oqziuQx8hLQ",
+      "sourceAudioLanguage": "en",
+      "srtFile": "data/four-denominations-guide-captions/de.srt",
+      "localSrtFile": "outputs/four-denominations-video-guides-2026-10-20/captions/de.srt",
+      "srtSHA256": "200d0134d03c9833113da904aa3ab84cea230939e8578ae64274bfc3b6799d75",
+      "cueCount": 29,
+      "cues": [
+        {
+          "start": 1.07,
+          "end": 1.59,
+          "text": "Also,"
+        },
+        {
+          "start": 1.59,
+          "end": 6.73,
+          "text": "Ich stehe hier in einem Viertel, das"
+        },
+        {
+          "start": 6.73,
+          "end": 10.25,
+          "text": "Viertel der vier Religionen genannt wird."
+        },
+        {
+          "start": 10.97,
+          "end": 14.4,
+          "text": "Mit vier Religionen meine ich eigentlich"
+        },
+        {
+          "start": 14.4,
+          "end": 17.31,
+          "text": "drei verschiedene christliche\nKonfessionen und das Judentum."
+        },
+        {
+          "start": 18.11,
+          "end": 23.2,
+          "text": "In diesem schönen Viertel gibt\nes drei verschiedene Kirchen"
+        },
+        {
+          "start": 23.2,
+          "end": 27.45,
+          "text": "für drei christliche Konfessionen"
+        },
+        {
+          "start": 27.45,
+          "end": 30.9,
+          "text": "sowie die schöne Synagoge zum Weißen Storch."
+        },
+        {
+          "start": 30.9,
+          "end": 35.8,
+          "text": "Wir besuchten diese Synagoge\nam letzten Jom Kippur,"
+        },
+        {
+          "start": 35.8,
+          "end": 40.19,
+          "text": "und es war wirklich ein bewegendes Erlebnis."
+        },
+        {
+          "start": 40.19,
+          "end": 45.5,
+          "text": "Außerdem ist dieses Viertel voller\nPassagen und kleiner Straßen"
+        },
+        {
+          "start": 45.5,
+          "end": 49.3,
+          "text": "mit Cafés und Restaurants."
+        },
+        {
+          "start": 49.3,
+          "end": 53.11,
+          "text": "Ich stehe gerade in einer\nder bekannten Passagen namens"
+        },
+        {
+          "start": 53.11,
+          "end": 57.1,
+          "text": "Pokoyhof. Übersetzt bedeutet\ndas Garten von Pokoy."
+        },
+        {
+          "start": 57.1,
+          "end": 61.8,
+          "text": "Direkt am Eingang gibt es ein\nsehr schönes Café namens Pokoy."
+        },
+        {
+          "start": 61.8,
+          "end": 66.7,
+          "text": "Wenn man die Passage\nbetritt, beeindruckt zunächst"
+        },
+        {
+          "start": 66.7,
+          "end": 71.19,
+          "text": "dieses Gebäude und der Hof, in dem ich stehe,"
+        },
+        {
+          "start": 71.19,
+          "end": 76.55,
+          "text": "mit schöner Architektur und farbigen Fliesen."
+        },
+        {
+          "start": 76.55,
+          "end": 79.4,
+          "text": "In dieser Passage gibt es Starbucks."
+        },
+        {
+          "start": 79.4,
+          "end": 84.7,
+          "text": "Hier ist auch Charlotte,\nein französisches Café."
+        },
+        {
+          "start": 84.7,
+          "end": 90.79,
+          "text": "Außerdem gibt es Bars und weitere Restaurants."
+        },
+        {
+          "start": 90.79,
+          "end": 96.29,
+          "text": "Gleich nebenan liegt die\nbekannte kleine Straße Antoniego,"
+        },
+        {
+          "start": 96.29,
+          "end": 100.3,
+          "text": "die ebenfalls voller\nRestaurants und Cafés ist."
+        },
+        {
+          "start": 100.3,
+          "end": 106.27,
+          "text": "Ich empfehle, hierherzukommen und durch die\nschönen Passagen und Straßen zu schlendern."
+        },
+        {
+          "start": 106.27,
+          "end": 110.95,
+          "text": "Eine weitere interessante Passage\nist der Hof mit den Neonschildern."
+        },
+        {
+          "start": 111.49,
+          "end": 116.6,
+          "text": "Ich empfehle einen Besuch am Abend,"
+        },
+        {
+          "start": 116.6,
+          "end": 119.79,
+          "text": "wenn alle Neonschilder in\nschönen Farben hell leuchten."
+        },
+        {
+          "start": 120.35,
+          "end": 121.77,
+          "text": "Wir sehen uns in unserem nächsten Video."
+        },
+        {
+          "start": 122.63,
+          "end": 123.8,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T14:24:09.376923+00:00",
+      "evidence": [
+        "de-captions-reopened-middle2.txt",
+        "de-captions-reopened-start.txt",
+        "de-captions-reopened-middle.txt",
+        "de-captions-reopened-end.txt"
+      ]
+    },
+    "cs": {
+      "language": "cs",
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "oqziuQx8hLQ",
+      "sourceAudioLanguage": "en",
+      "srtFile": "data/four-denominations-guide-captions/cs.srt",
+      "localSrtFile": "outputs/four-denominations-video-guides-2026-10-20/captions/cs.srt",
+      "srtSHA256": "43b3b8ef9288ff51e5ef53d78da800ee6f1ecf711e4bb8a3fe364f564abe7185",
+      "cueCount": 29,
+      "cues": [
+        {
+          "start": 1.07,
+          "end": 1.59,
+          "text": "Takže,"
+        },
+        {
+          "start": 1.59,
+          "end": 6.73,
+          "text": "Stojím zde ve čtvrti, které se říká"
+        },
+        {
+          "start": 6.73,
+          "end": 10.25,
+          "text": "Čtvrť čtyř náboženství."
+        },
+        {
+          "start": 10.97,
+          "end": 14.4,
+          "text": "Když říkám čtyři náboženství,\nmám vlastně na mysli"
+        },
+        {
+          "start": 14.4,
+          "end": 17.31,
+          "text": "tři různé křesťanské směry a judaismus."
+        },
+        {
+          "start": 18.11,
+          "end": 23.2,
+          "text": "V této krásné čtvrti najdete tři různé kostely"
+        },
+        {
+          "start": 23.2,
+          "end": 27.45,
+          "text": "sloužící třem křesťanským vyznáním"
+        },
+        {
+          "start": 27.45,
+          "end": 30.9,
+          "text": "a také krásnou synagogu U Bílého čápa."
+        },
+        {
+          "start": 30.9,
+          "end": 35.8,
+          "text": "Navštívili jsme ji o minulém Jom kipuru"
+        },
+        {
+          "start": 35.8,
+          "end": 40.19,
+          "text": "a byl to opravdu silný zážitek."
+        },
+        {
+          "start": 40.19,
+          "end": 45.5,
+          "text": "Navíc je tato čtvrť plná\npasáží a malých uliček"
+        },
+        {
+          "start": 45.5,
+          "end": 49.3,
+          "text": "s kavárnami a restauracemi."
+        },
+        {
+          "start": 49.3,
+          "end": 53.11,
+          "text": "Právě stojím v jedné ze známých pasáží jménem"
+        },
+        {
+          "start": 53.11,
+          "end": 57.1,
+          "text": "Pokoyhof. V překladu to\nznamená zahrada Pokoye."
+        },
+        {
+          "start": 57.1,
+          "end": 61.8,
+          "text": "Hned u vstupu do pasáže je\nvelmi příjemná kavárna Pokoy."
+        },
+        {
+          "start": 61.8,
+          "end": 66.7,
+          "text": "Když do pasáže vstoupíte, nejprve vás zaujme"
+        },
+        {
+          "start": 66.7,
+          "end": 71.19,
+          "text": "tato budova a nádvoří, na kterém stojím,"
+        },
+        {
+          "start": 71.19,
+          "end": 76.55,
+          "text": "s krásnou architekturou a barevnými obklady."
+        },
+        {
+          "start": 76.55,
+          "end": 79.4,
+          "text": "V této pasáži najdete Starbucks."
+        },
+        {
+          "start": 79.4,
+          "end": 84.7,
+          "text": "Je zde také Charlotte, francouzská kavárna."
+        },
+        {
+          "start": 84.7,
+          "end": 90.79,
+          "text": "Najdete tu bary a další restaurace."
+        },
+        {
+          "start": 90.79,
+          "end": 96.29,
+          "text": "Hned vedle je známá malá ulice Antoniego,"
+        },
+        {
+          "start": 96.29,
+          "end": 100.3,
+          "text": "také plná restaurací a kaváren."
+        },
+        {
+          "start": 100.3,
+          "end": 106.27,
+          "text": "Doporučuji sem přijít a projít se\ntěmito krásnými pasážemi a uličkami."
+        },
+        {
+          "start": 106.27,
+          "end": 110.95,
+          "text": "Další velmi zajímavou pasáží je dvůr s neony."
+        },
+        {
+          "start": 111.49,
+          "end": 116.6,
+          "text": "Doporučuji přijít večer,"
+        },
+        {
+          "start": 116.6,
+          "end": 119.79,
+          "text": "kdy všechny neony jasně září krásnými barvami."
+        },
+        {
+          "start": 120.35,
+          "end": 121.77,
+          "text": "Uvidíme se v našem příštím videu."
+        },
+        {
+          "start": 122.63,
+          "end": 123.8,
+          "text": "Do widzenia!"
+        }
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.15,
+      "verificationTime": "2026-10-20T14:24:09.376923+00:00",
+      "evidence": [
+        "cs-captions-reopened-middle.txt",
+        "cs-captions-reopened-end.txt",
+        "cs-captions-reopened-middle2.txt",
+        "cs-captions-reopened-start.txt"
+      ]
+    }
+  },
+  "mediaPatch": {
+    "guideVideos": {
+      "en": "https://youtube.com/shorts/oqziuQx8hLQ",
+      "he": "https://youtube.com/shorts/rSn6kJy3gQE"
+    }
+  },
+  "siteWriter": "/root/cafe_berg_enrichment",
+  "siteIntegrationStillRequired": true,
+  "browserOwner": null,
+  "approvalReceipt": "youtube-action-approval.json",
+  "preserve": [
+    "Existingcanonicalidentity/coordinates/memberships, historic5photos/3visits andcurrentenrichment additions",
+    "SeparatebusinesspointsandWhiteStorkSynagogue identity",
+    "Fulloriginalpictureaudio, no merges or cuts"
+  ],
+  "excludedGuide": "IncompleteENalternate37.62s, no upload;see sourceinventory",
+  "captionMechanism": "HEguideforHE;ENguideforEN/PL/DE/CS withnativecc_load_policy1andcc_lang_pref",
+  "moneySpent": 0,
+  "updatedAt": "2026-10-20T14:26:23.169811+00:00"
+}

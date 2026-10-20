@@ -14055,3 +14055,347 @@
   ]
 });
 })();
+
+// Charlotte canonical enrichment20261020
+(function(){ window.WROC_CANONICAL_PLACE_SOURCE.push({
+  "id": "charlotte",
+  "localName": "Charlotte",
+  "name": {
+    "he": "שרלוט",
+    "en": "Charlotte",
+    "pl": "Charlotte",
+    "de": "Charlotte",
+    "cs": "Charlotte"
+  },
+  "description": {
+    "he": "בית קפה וביסטרו בסגנון צרפתי במעבר פוקויהוף, ברובע ארבע הדתות. נכנסים דרך השער אל חצר עם שולחנות וחזיתות מעוטרות. בפנים נמצא שולחן משותף גדול, ולצד הקפה מוגשים לחמים, מאפים וארוחות בוקר. חומרי הביקור שלנו מציגים את החצר, שלט הכניסה ופנים בית הקפה.\nCharlotte\nPasaż Pokoyhof\nŚwiętego Antoniego 2/4, Wrocław",
+    "en": "A French-style café and bistro in Pasaż Pokoyhof in the Four Denominations District. Enter through the gate to a courtyard with tables and decorated façades. Inside is a large communal table, with bread, pastries, coffee and breakfast on offer. Our visit materials show the courtyard, entrance sign and café interior.\nŚwiętego Antoniego 2/4, Wrocław",
+    "pl": "Kawiarnia i bistro w stylu francuskim w Pasażu Pokoyhof w Dzielnicy Czterech Wyznań. Przez bramę wchodzi się na dziedziniec ze stolikami i ozdobnymi elewacjami. W środku znajduje się duży wspólny stół, a oferta obejmuje pieczywo, wypieki, kawę i śniadania. Nasze materiały z wizyty pokazują dziedziniec, szyld i wnętrze kawiarni.\nŚwiętego Antoniego 2/4, Wrocław",
+    "de": "Ein Café und Bistro im französischen Stil im Pasaż Pokoyhof im Viertel der vier Konfessionen. Durch das Tor gelangt man in einen Innenhof mit Tischen und verzierten Fassaden. Im Inneren steht ein großer Gemeinschaftstisch; angeboten werden Brot, Gebäck, Kaffee und Frühstück. Unsere Besuchsaufnahmen zeigen den Hof, das Eingangsschild und das Café von innen.\nŚwiętego Antoniego 2/4, Wrocław",
+    "cs": "Kavárna a bistro ve francouzském stylu v pasáži Pokoyhof ve čtvrti čtyř vyznání. Branou se vstupuje na dvůr se stolky a zdobenými fasádami. Uvnitř stojí velký společný stůl; v nabídce je chléb, pečivo, káva a snídaně. Naše záběry z návštěvy ukazují dvůr, vývěsní štít a interiér kavárny.\nŚwiętego Antoniego 2/4, Wrocław"
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1084962,
+      "lng": 17.026063
+    },
+    "address": {
+      "street": "Świętego Antoniego 2/4",
+      "city": "Wrocław",
+      "postalCode": "50-073",
+      "countryCode": "PL"
+    }
+  },
+  "categories": [
+    "cafe",
+    "drink",
+    "eat"
+  ],
+  "sourceUrls": [
+    "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+  ],
+  "aliases": [
+    "Charlotte",
+    "שרלוט",
+    "Charlotte Pasaż Pokoyhof",
+    "Charlotte chleb i wino"
+  ],
+  "sourceRecords": [
+    {
+      "productId": "lifestyle-guide",
+      "kind": "catalog-place",
+      "sourceId": "charlotte"
+    },
+    {
+      "productId": "wroclaw-four-days",
+      "kind": "recommendation",
+      "sourceId": "charlotte"
+    },
+    {
+      "productId": "wroclaw-christmas",
+      "kind": "recommendation",
+      "sourceId": "charlotte"
+    }
+  ],
+  "coordinateCandidates": [
+    {
+      "productId": "lifestyle-guide",
+      "sourceId": "charlotte",
+      "lat": 51.1084962,
+      "lng": 17.026063
+    },
+    {
+      "productId": "wroclaw-four-days",
+      "sourceId": "charlotte",
+      "lat": 51.10862,
+      "lng": 17.03121
+    },
+    {
+      "productId": "wroclaw-christmas",
+      "sourceId": "charlotte",
+      "lat": 51.10862,
+      "lng": 17.03121
+    }
+  ],
+  "status": "published",
+  "editorialPriority": null,
+  "taxonomy": {
+    "categories": [
+      "cafe",
+      "drink",
+      "eat"
+    ],
+    "tags": []
+  },
+  "suitability": {
+    "recommendedFor": [],
+    "walkingIntensity": null,
+    "familyFriendly": null,
+    "couples": null,
+    "solo": null,
+    "romantic": null,
+    "indoorOutdoor": null,
+    "rainFriendly": null,
+    "budgetLevel": null,
+    "accessibility": {
+      "level": null,
+      "notes": null
+    }
+  },
+  "visit": {
+    "durationMinutes": null,
+    "bestTimeOfDay": [],
+    "seasonalSuitability": [],
+    "openingHoursNotes": null
+  },
+  "links": {
+    "website": "https://bistrocharlotte.com/pl/lokale/charlotte-pasaz-pokoyhof-wroclaw/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1084962%2C17.026063",
+      "appleMaps": "https://maps.apple.com/?ll=51.1084962,17.026063"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/charlotte/charlotte-visit-01.jpg",
+      "/assets/charlotte/charlotte-visit-02.jpg",
+      "/assets/charlotte/charlotte-visit-03.jpg"
+    ],
+    "videos": [
+      "https://youtube.com/shorts/3QY6HJLV84o",
+      "https://youtube.com/shorts/kfjJo2GNuMY"
+    ],
+    "metadata": {
+      "/assets/charlotte/charlotte-visit-01.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-07-13 at 19.48.01 (3).jpeg",
+        "sourceSHA256": "774f4ff9166c8483f89dd5bf2697ff3b1d0be56c91e7b57f40550d8e5630a102",
+        "assetSHA256": "90f6029ca9aed3e631b145870ca3891134e537e85a3e9ef3ac1d982eab003eaf",
+        "familyForeground": false,
+        "alt": {
+          "he": "חצר שרלוט במעבר פוקויהוף",
+          "en": "Charlotte courtyard in Pasaż Pokoyhof",
+          "pl": "Dziedziniec Charlotte w Pasażu Pokoyhof",
+          "de": "Charlotte-Innenhof im Pasaż Pokoyhof",
+          "cs": "Dvůr Charlotte v pasáži Pokoyhof"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/charlotte/charlotte-visit-02.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-20 at 16.26.57.jpeg",
+        "sourceSHA256": "83720b689922ceee1f97e9267ae5e851d90c8c46c23ad7dc141b39c3e05a3c33",
+        "assetSHA256": "66c6d6e9c64c81f7f9adb9cd141cfa4ef8da64fa1fea58786c0e9ccc03f4fb82",
+        "familyForeground": false,
+        "alt": {
+          "he": "חזיתות החצר ושולחנות בית הקפה",
+          "en": "Courtyard façades and café tables",
+          "pl": "Elewacje dziedzińca i stoliki kawiarni",
+          "de": "Hoffassaden und Cafétische",
+          "cs": "Průčelí dvora a kavárenské stolky"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/charlotte/charlotte-visit-03.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-20 at 16.27.19 (1).jpeg",
+        "sourceSHA256": "eb30d026b79cde9f540ee7cf0e8baba0e0a4ad478d63b5e54c11685815f0140a",
+        "assetSHA256": "b73a58d92c733845598ddc491de3dd150f23d0ec751e68a5ad6f6b875de75fbc",
+        "familyForeground": false,
+        "alt": {
+          "he": "השלט העגול של שרלוט",
+          "en": "Round Charlotte entrance sign",
+          "pl": "Okrągły szyld Charlotte",
+          "de": "Rundes Charlotte-Eingangsschild",
+          "cs": "Kulatý vývěsní štít Charlotte"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "https://youtube.com/shorts/3QY6HJLV84o": {
+        "index": 1,
+        "id": "3QY6HJLV84o",
+        "url": "https://youtube.com/shorts/3QY6HJLV84o",
+        "visibility": "Public",
+        "savedPublicVerified": true,
+        "checksComplete": true,
+        "copyright": "no-issues",
+        "communityGuidelines": "no-issues",
+        "standardDefinitionComplete": true,
+        "noNewUpload": "Existingdraftresumedandpublished; sourceuploadownedbyenrichmentagent",
+        "evidence": [
+          "charlotte-1-checks.txt",
+          "charlotte-1-published.txt",
+          "charlotte-1-published.png",
+          "charlotte-1-public-reopened.txt",
+          "charlotte-1-public-reopened.png"
+        ],
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Video 2026-10-05 at 18.27.18.mp4",
+        "sourceSHA256": "54cf80ed51f69044560145cb8f08a6a7d2be8ef88cc1d0d52daf78531d538f5e",
+        "durationSeconds": 5.5,
+        "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/charlotte-enrichment-2026-10-20/prepared-visits/charlotte-visit-01.mp4",
+        "uploadSHA256": "3d783115ca25d1ffec1c6ec32986e8cee19dc2538ef8ac216862dfbe3f08f872",
+        "audioRemoved": true,
+        "originalSourcePreserved": true,
+        "youtubeTitle": null,
+        "title": {
+          "he": "פנים שרלוט והשולחן המשותף",
+          "en": "Charlotte interior and communal table",
+          "pl": "Wnętrze Charlotte i wspólny stół",
+          "de": "Charlotte-Innenraum und Gemeinschaftstisch",
+          "cs": "Interiér Charlotte a společný stůl"
+        }
+      },
+      "https://youtube.com/shorts/kfjJo2GNuMY": {
+        "index": 2,
+        "id": "kfjJo2GNuMY",
+        "url": "https://youtube.com/shorts/kfjJo2GNuMY",
+        "visibility": "Public",
+        "savedPublicVerified": true,
+        "checksComplete": true,
+        "copyright": "no-issues",
+        "communityGuidelines": "no-issues",
+        "standardDefinitionComplete": true,
+        "noNewUpload": "Existingdraftresumedandpublished; sourceuploadownedbyenrichmentagent",
+        "evidence": [
+          "charlotte-2-checks.txt",
+          "charlotte-2-published.txt",
+          "charlotte-2-published.png",
+          "charlotte-2-public-reopened.txt",
+          "charlotte-2-public-reopened.png"
+        ],
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Video 2026-10-20 at 16.28.05.mp4",
+        "sourceSHA256": "4c6ff68d9833bc9fe6eccc91eb00439830ff4b0e1988914693bd596f3b8c9b1b",
+        "durationSeconds": 6.266667,
+        "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/charlotte-enrichment-2026-10-20/prepared-visits/charlotte-visit-02.mp4",
+        "uploadSHA256": "4d28422b36f695f80c0b437bf1e8feb777acb504939b54b5da233eb22fe17602",
+        "audioRemoved": true,
+        "originalSourcePreserved": true,
+        "youtubeTitle": null,
+        "title": {
+          "he": "חצר מעבר פוקויהוף ושרלוט",
+          "en": "Pokoyhof courtyard and Charlotte",
+          "pl": "Dziedziniec Pokoyhof i Charlotte",
+          "de": "Pokoyhof-Innenhof und Charlotte",
+          "cs": "Dvůr Pokoyhof a Charlotte"
+        }
+      }
+    },
+    "thumbnail": "/assets/charlotte/charlotte-visit-01.jpg"
+  },
+  "socialPosts": [
+    {
+      "platform": "facebook",
+      "language": "cs",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04BDKiVWw3z3Jzh3YSjigDrtxmn11KPJeaHTb3nx3tPKr9qn52xbwpUZk8tN1ZAisl&id=61594716405964",
+      "verifiedAt": "2026-10-07"
+    },
+    {
+      "platform": "facebook",
+      "language": "de",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0SiTZKfLKUYRfUsgTBSzVB5CJ6ogqVHaAkLhTmN4JN76bnYRiKp2pgu448MFPioEbl&id=61595239823399",
+      "verifiedAt": "2026-10-07T15:35:28.303461+00:00"
+    },
+    {
+      "platform": "facebook",
+      "language": "pl",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02fYHchaJ3KvBtA6MAMy1p9ysvyeXsnJTZzt2wuVYpNXqZe5aT6nTEDTE3TCAoUdHHl&id=61595207664875",
+      "verifiedAt": "2026-10-07T18:01:55.887896+00:00"
+    },
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hLarBac5CFnyRgbkvgnAf4uub4HrbKn99WCBxTncZCDFEwJAzSZ5h9SocyaqboWLl&id=61595036942289",
+      "verifiedAt": "2026-10-08"
+    },
+    {
+      "platform": "facebook",
+      "language": "he",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Wwdrb7zZLqRuZHCUACtUKQhbVREA2a3WEqxcY63WW5XQLYLQFtJctdTv21GgUYQDl&id=61591964083308",
+      "verifiedAt": "2026-10-09T10:43:51.207Z"
+    },
+    {
+      "platform": "instagram",
+      "language": "pl",
+      "url": "https://www.instagram.com/p/DeUIB5tj3lm/",
+      "verifiedAt": "2026-10-10T12:52:35.573Z"
+    },
+    {
+      "platform": "instagram",
+      "language": "de",
+      "url": "https://www.instagram.com/p/DeUL7JfFl73/",
+      "verifiedAt": "2026-10-10T13:28:34.051Z"
+    },
+    {
+      "platform": "instagram",
+      "language": "cs",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeUizxDnbBc/",
+      "verifiedAt": "2026-10-10T16:48:08.163Z"
+    },
+    {
+      "platform": "instagram",
+      "language": "en",
+      "url": "https://www.instagram.com/p/DeUm9vTkasE/",
+      "verifiedAt": "2026-10-10T17:22:39.708Z"
+    },
+    {
+      "platform": "instagram",
+      "language": "he",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtzRREccd/",
+      "verifiedAt": "2026-10-10T18:23:05.129Z"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+      "routingExcluded": true
+    }
+  ],
+  "transport": {
+    "carRequired": null,
+    "publicTransportNotes": null,
+    "parkingNotes": null,
+    "drivingTimeFromWroclawMinutes": null
+  },
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "personalVisit": true,
+    "originalPhotography": true,
+    "verifiedAt": "2026-10-20",
+    "factualSources": [
+      {
+        "url": "https://bistrocharlotte.com/pl/lokale/charlotte-pasaz-pokoyhof-wroclaw/",
+        "scope": "Official venue confirms identity/address, courtyard, communal table and French bakery/bistro offer",
+        "verifiedAt": "2026-10-20"
+      }
+    ]
+  }
+}); })();
