@@ -17630,6 +17630,273 @@
       }
     ]
   },
+  "klodzko-fortress": {
+    "id": "klodzko-fortress",
+    "localName": "Twierdza Kłodzko",
+    "name": {
+      "he": "מבצר קלודזקו",
+      "en": "Kłodzko Fortress",
+      "pl": "Twierdza Kłodzko",
+      "de": "Festung Glatz",
+      "cs": "Kladská pevnost"
+    },
+    "description": {
+      "he": "מעל גגות קלודזקו נמצא המבצר שממנו נשקף מרכז העיר. בביקור שלנו צילמנו את החצר, הביצורים, המעברים והתצפיות. המסלול העליון הוא ביקור נפרד ממבוך המנהרות, שאינו חובה ביום שמשלב שני מבצרים. בדקו מראש את שעת הכניסה האחרונה והשאירו זמן למדרגות ולעלייה.",
+      "en": "The fortress overlooks the roofs of Kłodzko. Our visit photographs show its courtyard, fortifications, passages and views. The upper route is separate from the underground labyrinth, which is optional on this two-fortress day. Check last admission and allow time for slopes and stairs.",
+      "pl": "Twierdza góruje nad dachami Kłodzka. Nasze zdjęcia pokazują dziedziniec, fortyfikacje, przejścia i panoramy. Górna trasa jest oddzielna od podziemnego labiryntu, który podczas dnia z dwiema twierdzami pozostaje opcją. Sprawdź ostatnie wejście i uwzględnij podejścia oraz schody.",
+      "de": "Die Festung überblickt die Dächer von Kłodzko. Unsere Fotos zeigen Hof, Befestigungen, Gänge und Aussichten. Die obere Route ist vom unterirdischen Labyrinth getrennt; dieses bleibt an einem Tag mit zwei Festungen optional. Letzten Einlass, Steigungen und Treppen berücksichtigen.",
+      "cs": "Pevnost shlíží na střechy Kladska. Naše fotografie ukazují nádvoří, opevnění, průchody a výhledy. Horní trasa je oddělena od podzemního labyrintu, který je během dne se dvěma pevnostmi volitelný. Ověřte poslední vstup a počítejte se stoupáním a schody."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "klodzko",
+      "coordinates": {
+        "lat": 50.441154,
+        "lng": 16.653311
+      },
+      "address": {
+        "street": "Grodzisko 1",
+        "city": "Kłodzko",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "culture",
+      "history"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "culture",
+        "history"
+      ],
+      "tags": [
+        "fortress",
+        "history"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://twierdza.klodzko.pl/zwiedzanie/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.441154%2C16.653311",
+        "appleMaps": "https://maps.apple.com/?ll=50.441154,16.653311"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://twierdza.klodzko.pl/zwiedzanie/",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://dolnoslaskie.szlaki.pttk.pl/2121-dolnoslaskie-klodzko-twierdza",
+        "checkedAt": "2026-10-20",
+        "method": "Named tourist-route feature matched to official site and original photographs."
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/srebrna-klodzko/klodzko-fortress-01.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-02.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-03.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-04.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-05.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-06.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-07.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-08.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-09.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-10.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-11.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-12.jpg"
+      ],
+      "videos": [],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/zNAM3xG5ED4",
+        "en": "https://youtube.com/shorts/Swz838oySqQ"
+      }
+    },
+    "socialPosts": []
+  },
+  "klodzko-old-town": {
+    "id": "klodzko-old-town",
+    "localName": "Stare Miasto i Rynek w Kłodzku",
+    "name": {
+      "he": "מרכז קלודזקו והרינק",
+      "en": "Kłodzko Old Town and Market Square",
+      "pl": "Stare Miasto i Rynek w Kłodzku",
+      "de": "Altstadt und Marktplatz von Kłodzko",
+      "cs": "Staré město a náměstí v Kladsku"
+    },
+    "description": {
+      "he": "העיר שמתחת למבצר מזמינה להאט בין הרינק, בית העירייה, חזיתות הבתים והרחובות היורדים ממנו. הגלריה שלנו מתמקדת באדריכלות ובפרטים שצילמנו בעיר. השאירו זמן לשיטוט ולארוחה; אפשר להמשיך אל הגשר הגותי לפי הזמן והכוח.",
+      "en": "Below the fortress, slow down around the market square, town hall, facades and adjoining streets. Our gallery focuses on architecture and details photographed in the city. Leave time for a meal and a wander; continue to the Gothic Bridge if time and energy allow.",
+      "pl": "Pod twierdzą zwolnij przy rynku, ratuszu, kamienicach i sąsiednich ulicach. Nasza galeria skupia się na sfotografowanej architekturze i detalach. Zostaw czas na posiłek i spacer; jeśli wystarczy czasu i sił, przejdź na most gotycki.",
+      "de": "Unterhalb der Festung laden Marktplatz, Rathaus, Fassaden und Seitenstraßen zum Verweilen ein. Unsere Galerie zeigt Architektur und Details unseres Stadtbesuchs. Zeit für Essen und Spaziergang einplanen; bei genügend Zeit zum gotischen Brückchen weitergehen.",
+      "cs": "Pod pevností zpomalte na náměstí, u radnice, průčelí domů a v okolních ulicích. Galerie se zaměřuje na architekturu a detaily z naší návštěvy. Nechte čas na jídlo a procházku; podle času a sil pokračujte ke gotickému mostu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "klodzko",
+      "coordinates": {
+        "lat": 50.438758,
+        "lng": 16.654564
+      },
+      "address": {
+        "street": "Plac Bolesława Chrobrego",
+        "city": "Kłodzko",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "culture",
+      "history"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "culture",
+        "history"
+      ],
+      "tags": [
+        "old-town",
+        "architecture"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.stara.um.klodzko.pl/pl/turystyka/stare-miasto.html",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.438758%2C16.654564",
+        "appleMaps": "https://maps.apple.com/?ll=50.438758,16.654564"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.stara.um.klodzko.pl/pl/turystyka/stare-miasto.html",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://dolnoslaskie.szlaki.pttk.pl/2124-dolnoslaskie-klodzko-rynek-i-ratusz",
+        "checkedAt": "2026-10-20",
+        "method": "Named tourist-route feature matched to official site and original photographs."
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/srebrna-klodzko/klodzko-old-town-01.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-02.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-03.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-04.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-05.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-06.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-07.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-08.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-09.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-10.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-11.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-12.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-13.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/g4cP6YgOZ5k"
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/0YyKS3LcHrU",
+        "en": "https://youtube.com/shorts/reMcbePY2yo"
+      }
+    },
+    "socialPosts": []
+  },
   "konspira": {
     "id": "konspira",
     "localName": "Konspira",
@@ -30435,6 +30702,135 @@
         "verifiedAt": "2026-10-08T15:20:41.532Z"
       }
     ]
+  },
+  "srebrna-gora-fortress": {
+    "id": "srebrna-gora-fortress",
+    "localName": "Twierdza Srebrna Góra",
+    "name": {
+      "he": "מבצר סרברנה גורה",
+      "en": "Srebrna Góra Fortress",
+      "pl": "Twierdza Srebrna Góra",
+      "de": "Festung Silberberg",
+      "cs": "Pevnost Stříbrná Hora"
+    },
+    "description": {
+      "he": "מבצר הררי עם חצרות, מעברים מקומרים ותצפיות אל הנוף. הגלריה שלנו מציגה את הדונז׳ון, פרטי השערים, תצוגות ומעברי המבצר. התחילו כאן את יום הטיול והקדישו זמן גם לעלייה מהחניה. סיור מודרך בסיסי אורך כשבעים דקות, ולביקור עצמאי בתצוגות דרוש זמן נוסף. מסלול הביקור וזמני הסיורים עשויים להשתנות, בדקו אותם באתר הרשמי.",
+      "en": "A mountain fortress with courtyards, vaulted passages and countryside views. Our gallery shows the Donjon, gateways, displays and passages. Begin the day here and allow time for the uphill walk from parking. The basic guided tour takes about seventy minutes; independent displays need extra time. Check current routes and departures on the official website.",
+      "pl": "Górska twierdza z dziedzińcami, sklepionymi przejściami i widokami. Nasza galeria pokazuje Donjon, bramy, ekspozycje i przejścia. Zacznij tutaj i dolicz podejście z parkingu. Podstawowe zwiedzanie z przewodnikiem trwa około siedemdziesięciu minut; wystawy wymagają dodatkowego czasu. Aktualne trasy i godziny sprawdź na oficjalnej stronie.",
+      "de": "Bergfestung mit Höfen, gewölbten Durchgängen und Ausblicken. Unsere Galerie zeigt den Donjon, Tore, Ausstellungen und Gänge. Beginnen Sie hier und planen Sie den Aufstieg vom Parkplatz ein. Die Grundführung dauert etwa siebzig Minuten; Ausstellungen benötigen zusätzliche Zeit. Aktuelle Routen und Führungszeiten auf der offiziellen Website prüfen.",
+      "cs": "Horská pevnost s nádvořími, klenutými průchody a výhledy. Naše galerie ukazuje Donjon, brány, expozice a chodby. Začněte zde a počítejte s výstupem z parkoviště. Základní prohlídka s průvodcem trvá asi sedmdesát minut; expozice vyžadují čas navíc. Aktuální trasy a časy ověřte na oficiálním webu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "srebrna-gora",
+      "coordinates": {
+        "lat": 50.574479,
+        "lng": 16.642978
+      },
+      "address": {
+        "street": "Kręta 4",
+        "city": "Srebrna Góra",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "culture",
+      "history"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "culture",
+        "history"
+      ],
+      "tags": [
+        "fortress",
+        "history"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://forty.pl/odwiedz-nas/faq/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.574479%2C16.642978",
+        "appleMaps": "https://maps.apple.com/?ll=50.574479,16.642978"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://forty.pl/odwiedz-nas/faq/",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://szlakpodziemi.pl/project/twierdza-srebrna-gora/",
+        "checkedAt": "2026-10-20",
+        "method": "Named tourist-route feature matched to official site and original photographs."
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-01.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-02.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-03.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-04.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-05.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-06.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-07.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-08.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-09.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-10.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-11.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-12.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-13.jpg"
+      ],
+      "videos": []
+    },
+    "socialPosts": []
   },
   "stadion-olimpijski-wroclaw": {
     "id": "stadion-olimpijski-wroclaw",

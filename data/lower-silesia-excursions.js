@@ -1723,13 +1723,273 @@
   ]
 };
 
+  const srebrnaKlodzko = {
+  "id": "srebrna-gora-klodzko-day-trip",
+  "slug": "srebrna-gora-klodzko",
+  "title": {
+    "he": "סרברנה גורה וקלודזקו: מבצרים, תצפיות ועיר עתיקה",
+    "en": "Srebrna Góra and Kłodzko: fortresses, views and an old town",
+    "pl": "Srebrna Góra i Kłodzko: twierdze, panoramy i stare miasto",
+    "de": "Silberberg und Kłodzko: Festungen, Aussichten und Altstadt",
+    "cs": "Stříbrná Hora a Kladsko: pevnosti, výhledy a staré město"
+  },
+  "summary": {
+    "he": "יוצאים מוורוצלב אל המבצר ההררי בסרברנה גורה, ממשיכים למבצר קלודזקו ומסיימים ברינק וברחובות העיר. יום מלא ברכב, עם בחירה כמה להעמיק בכל אתר.",
+    "en": "Drive from Wrocław to the mountain fortress at Srebrna Góra, continue to Kłodzko Fortress and finish in the market square and old streets. A full driving day with room to choose how deeply to explore.",
+    "pl": "Z Wrocławia do górskiej twierdzy w Srebrnej Górze, dalej do Twierdzy Kłodzko i na koniec spacer po rynku oraz starych ulicach. Pełny dzień samochodem, z elastycznym zakresem zwiedzania.",
+    "de": "Von Wrocław zur Bergfestung Silberberg, weiter zur Festung Kłodzko und zum Abschluss über Marktplatz und Altstadtgassen. Ein ganzer Tag mit dem Auto und frei wählbarer Besichtigungstiefe.",
+    "cs": "Z Vratislavi k horské pevnosti Stříbrná Hora, dále do Kladské pevnosti a nakonec na náměstí a do starých ulic. Celodenní cesta autem s volitelným rozsahem prohlídek."
+  },
+  "meta": {
+    "duration": "full-day",
+    "startsAt": "wroclaw",
+    "region": "lower-silesia",
+    "tags": [
+      "history",
+      "fortresses",
+      "old-town",
+      "photography"
+    ]
+  },
+  "heroMedia": {
+    "canonicalPlaceId": "srebrna-gora-fortress",
+    "photoIndex": 0
+  },
+  "canonicalPlaceIds": [
+    "srebrna-gora-fortress",
+    "klodzko-fortress",
+    "klodzko-old-town"
+  ],
+  "initialMapFocus": "local-stops",
+  "routePoints": [
+    {
+      "id": "wroclaw-start",
+      "kind": "context",
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      },
+      "label": {
+        "he": "יציאה מוורוצלב",
+        "en": "Depart Wrocław",
+        "pl": "Wyjazd z Wrocławia",
+        "de": "Abfahrt aus Wrocław",
+        "cs": "Odjezd z Vratislavi"
+      }
+    },
+    {
+      "id": "srebrna-gora-fortress",
+      "kind": "place",
+      "canonicalPlaceId": "srebrna-gora-fortress"
+    },
+    {
+      "id": "klodzko-fortress",
+      "kind": "place",
+      "canonicalPlaceId": "klodzko-fortress"
+    },
+    {
+      "id": "klodzko-old-town",
+      "kind": "place",
+      "canonicalPlaceId": "klodzko-old-town"
+    },
+    {
+      "id": "wroclaw-return",
+      "kind": "context",
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      },
+      "label": {
+        "he": "חזרה לוורוצלב",
+        "en": "Return to Wrocław",
+        "pl": "Powrót do Wrocławia",
+        "de": "Rückfahrt nach Wrocław",
+        "cs": "Návrat do Vratislavi"
+      }
+    }
+  ],
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Wroc%C5%82aw%2CPoland&destination=Wroc%C5%82aw%2CPoland&waypoints=50.572949%2C16.6479108%7CParking%20Czeska%2C%20K%C5%82odzko&travelmode=driving"
+  },
+  "travel": {
+    "recommendedMode": "car",
+    "estimates": [],
+    "note": {
+      "he": "צאו מוקדם ובדקו ניווט חי. בסרברנה גורה החניה במעבר ההרים וממנה עולים ברגל כ־15 עד 25 דקות. בקלודזקו העדיפו את המבצר לפני שיטוט ארוך בעיר כדי להספיק לכניסה האחרונה. קישור הנהיגה מגיע לאזורי החניה, והסיורים עצמם ברגל.",
+      "en": "Leave early and check live navigation. At Srebrna Góra, park at the pass and allow a 15 to 25 minute uphill walk. In Kłodzko visit the fortress before a long city walk to meet last admission. Driving directions lead to parking areas; sightseeing is on foot.",
+      "pl": "Wyjedź wcześnie i sprawdź aktualną nawigację. W Srebrnej Górze zaparkuj na przełęczy i dolicz 15 do 25 minut podejścia. W Kłodzku odwiedź twierdzę przed dłuższym spacerem po mieście, aby zdążyć na ostatnie wejście. Trasa samochodowa prowadzi do parkingów; zwiedzanie odbywa się pieszo.",
+      "de": "Früh starten und aktuelle Navigation prüfen. In Silberberg am Pass parken und 15 bis 25 Minuten Aufstieg einplanen. In Kłodzko vor dem langen Stadtspaziergang die Festung besuchen, um den letzten Einlass zu erreichen. Die Autoroute führt zu Parkplätzen; besichtigt wird zu Fuß.",
+      "cs": "Vyjeďte brzy a ověřte aktuální navigaci. Ve Stříbrné Hoře zaparkujte v sedle a počítejte s 15 až 25 minutami stoupání. V Kladsku navštivte pevnost před delší procházkou městem, abyste stihli poslední vstup. Autotrasa vede k parkovištím; prohlídky jsou pěší."
+    },
+    "options": [
+      {
+        "mode": "car",
+        "title": {
+          "he": "ברכב וברגל",
+          "en": "By car and on foot",
+          "pl": "Samochodem i pieszo",
+          "de": "Mit dem Auto und zu Fuß",
+          "cs": "Autem a pěšky"
+        },
+        "description": {
+          "he": "החניה והסיור הם חלקים נפרדים. בסרברנה גורה משאירים את הרכב במעבר ההרים ועולים למבצר; בקלודזקו הולכים בין המבצר לרינק. שמרו זמן גם לנסיעות ולארוחה.",
+          "en": "Parking and sightseeing are separate. Leave the car at the mountain pass for Srebrna Góra and walk uphill; in Kłodzko walk between the fortress and the market square. Allow extra time for driving and a meal.",
+          "pl": "Parking i zwiedzanie to oddzielne etapy. W Srebrnej Górze zostaw auto na przełęczy i podejdź do twierdzy; w Kłodzku przejdź między twierdzą a rynkiem. Dodaj czas na przejazdy i posiłek.",
+          "de": "Parken und Besichtigen getrennt einplanen. In Silberberg am Pass parken und zur Festung aufsteigen; in Kłodzko zwischen Festung und Marktplatz zu Fuß gehen. Fahrten und Essenspause zusätzlich einplanen.",
+          "cs": "Parkování a prohlídky jsou oddělené. Ve Stříbrné Hoře nechte auto v sedle a vyjděte k pevnosti; v Kladsku jděte mezi pevností a náměstím pěšky. Přidejte čas na jízdu a jídlo."
+        }
+      }
+    ],
+    "accessibility": []
+  },
+  "editorial": {
+    "why": {
+      "he": "שני מבצרים שונים ומרכז עיר אחד משלבים נוף הררי, היסטוריה צבאית ואדריכלות עירונית. סיימו בקצב רגוע סביב הרינק, בלי להוסיף עוד יעדי חובה.",
+      "en": "Two different fortresses and one old town combine mountain scenery, military history and urban architecture. Finish slowly around the market square without adding more compulsory stops.",
+      "pl": "Dwie różne twierdze i jedno stare miasto łączą górskie widoki, historię wojskową i architekturę. Zakończ spokojnie przy rynku, bez kolejnych obowiązkowych przystanków.",
+      "de": "Zwei unterschiedliche Festungen und eine Altstadt verbinden Berglandschaft, Militärgeschichte und Architektur. Rund um den Marktplatz entspannt ausklingen lassen, ohne weitere Pflichtstopps.",
+      "cs": "Dvě různé pevnosti a jedno staré město spojují horskou krajinu, vojenskou historii a architekturu. Zakončete v klidu kolem náměstí bez dalších povinných zastávek."
+    },
+    "forWhom": {
+      "he": "לאוהבי מבצרים, תצפיות והיסטוריה שמוכנים ליום פעיל. יש עליות, מדרגות וריצוף לא אחיד. בקצב משפחתי או רגוע בחרו מסלול אחד בכל מבצר והשאירו את המנהרות כאפשרות.",
+      "en": "For fortress, view and history lovers ready for an active day. Expect slopes, stairs and uneven paving. For a slower or family pace, choose one route per fortress and keep tunnels optional.",
+      "pl": "Dla miłośników twierdz, widoków i historii gotowych na aktywny dzień. Są podejścia, schody i nierówne nawierzchnie. Przy spokojnym lub rodzinnym tempie wybierz jedną trasę w każdej twierdzy, a podziemia pozostaw jako opcję.",
+      "de": "Für Festungs-, Aussichts- und Geschichtsfreunde mit Lust auf einen aktiven Tag. Steigungen, Treppen und unebene Wege einplanen. Bei gemütlichem oder familiärem Tempo je eine Festungsroute wählen und Tunnel optional lassen.",
+      "cs": "Pro milovníky pevností, výhledů a historie připravené na aktivní den. Čekají vás stoupání, schody a nerovné povrchy. Při pomalejším či rodinném tempu zvolte jednu trasu v každé pevnosti a podzemí nechte jako možnost."
+    },
+    "practical": {
+      "he": "בדקו שעות פתיחה, שפת הסיור והכניסה האחרונה בשני המבצרים לפני היציאה. הזמנים כאן הם הקצאת זמן מומלצת ולא שעות סיור מוזמנות. אם מתעכבים, קצרו את הביקור במבצר השני ושמרו זמן למרכז קלודזקו.",
+      "en": "Check opening hours, tour language and last admission at both fortresses before departure. Suggested durations are planning allowances, not booked departure times. If delayed, shorten the second fortress visit and preserve time for central Kłodzko.",
+      "pl": "Przed wyjazdem sprawdź otwarcie, język zwiedzania i ostatnie wejście do obu twierdz. Podane czasy są zaleceniami planistycznymi, nie rezerwacją. Przy opóźnieniu skróć drugą twierdzę i zachowaj czas na centrum Kłodzka.",
+      "de": "Öffnungszeiten, Führungssprache und letzten Einlass beider Festungen vorab prüfen. Die Zeitangaben sind Planungshilfen, keine gebuchten Termine. Bei Verspätung die zweite Festung kürzer besuchen und Zeit für Kłodzko bewahren.",
+      "cs": "Před odjezdem ověřte otevření, jazyk prohlídek a poslední vstup do obou pevností. Uvedené časy jsou plánovací doporučení, nikoli rezervace. Při zpoždění zkraťte druhou pevnost a ponechte čas na centrum Kladska."
+    }
+  },
+  "steps": [
+    {
+      "id": "depart",
+      "mapPointId": "wroclaw-start",
+      "title": {
+        "he": "יציאה מוורוצלב",
+        "en": "Depart Wrocław",
+        "pl": "Wyjazd z Wrocławia",
+        "de": "Abfahrt aus Wrocław",
+        "cs": "Odjezd z Vratislavi"
+      },
+      "duration": {
+        "he": "יציאה מוקדמת, לפי הניווט",
+        "en": "Early departure, check navigation",
+        "pl": "Wczesny wyjazd, sprawdź nawigację",
+        "de": "Frühe Abfahrt, Navigation prüfen",
+        "cs": "Brzký odjezd, ověřte navigaci"
+      }
+    },
+    {
+      "id": "srebrna-gora-fortress",
+      "canonicalPlaceId": "srebrna-gora-fortress",
+      "title": {
+        "he": "מבצר סרברנה גורה",
+        "en": "Srebrna Góra Fortress",
+        "pl": "Twierdza Srebrna Góra",
+        "de": "Festung Silberberg",
+        "cs": "Pevnost Stříbrná Hora"
+      },
+      "duration": {
+        "he": "כשעתיים וחצי כולל הליכה מהחניה",
+        "en": "About 2.5 hours including the parking walk",
+        "pl": "Około 2,5 godziny z podejściem",
+        "de": "Etwa 2,5 Stunden mit Parkplatzweg",
+        "cs": "Asi 2,5 hodiny včetně chůze z parkoviště"
+      }
+    },
+    {
+      "id": "klodzko-fortress",
+      "canonicalPlaceId": "klodzko-fortress",
+      "title": {
+        "he": "מבצר קלודזקו",
+        "en": "Kłodzko Fortress",
+        "pl": "Twierdza Kłodzko",
+        "de": "Festung Glatz",
+        "cs": "Kladská pevnost"
+      },
+      "duration": {
+        "he": "כשעה וחצי עד שעתיים, לפי המסלול",
+        "en": "About 1.5 to 2 hours, depending on route",
+        "pl": "Około 1,5 do 2 godzin, zależnie od trasy",
+        "de": "Etwa 1,5 bis 2 Stunden, je nach Route",
+        "cs": "Asi 1,5 až 2 hodiny podle trasy"
+      }
+    },
+    {
+      "id": "klodzko-old-town",
+      "canonicalPlaceId": "klodzko-old-town",
+      "title": {
+        "he": "מרכז קלודזקו והרינק",
+        "en": "Kłodzko Old Town and Market Square",
+        "pl": "Stare Miasto i Rynek w Kłodzku",
+        "de": "Altstadt und Marktplatz von Kłodzko",
+        "cs": "Staré město a náměstí v Kladsku"
+      },
+      "duration": {
+        "he": "כשעה וחצי עד שעתיים, ועוד זמן לארוחה",
+        "en": "About 1.5 to 2 hours, plus a meal break",
+        "pl": "Około 1,5 do 2 godzin i przerwa na posiłek",
+        "de": "Etwa 1,5 bis 2 Stunden plus Essenspause",
+        "cs": "Asi 1,5 až 2 hodiny a přestávka na jídlo"
+      }
+    },
+    {
+      "id": "return",
+      "mapPointId": "wroclaw-return",
+      "title": {
+        "he": "חזרה לוורוצלב",
+        "en": "Return to Wrocław",
+        "pl": "Powrót do Wrocławia",
+        "de": "Rückfahrt nach Wrocław",
+        "cs": "Návrat do Vratislavi"
+      },
+      "duration": {
+        "he": "לפי ניווט חי ותנאי הדרך",
+        "en": "Check live navigation and road conditions",
+        "pl": "Według nawigacji i warunków drogowych",
+        "de": "Aktuelle Navigation und Straßenverhältnisse prüfen",
+        "cs": "Podle navigace a podmínek na silnici"
+      }
+    }
+  ],
+  "regionalInspiration": {
+    "photo": "/assets/srebrna-klodzko/klodzko-region-reference.jpg",
+    "title": {
+      "he": "רעיונות להמשך בחבל קלודזקו",
+      "en": "More ideas around the Kłodzko region",
+      "pl": "Pomysły na kolejne dni w ziemi kłodzkiej",
+      "de": "Weitere Ideen im Glatzer Land",
+      "cs": "Další tipy v Kladsku a okolí"
+    },
+    "description": {
+      "he": "מפת האטרקציות שצילמנו בדרך נותנת מבט על האזור: מבצרים, עיירות, מערות ואתרים נוספים. אלה רעיונות ליום אחר, ואינם תחנות נוספות במסלול הזה. לחצו להגדלה.",
+      "en": "The attraction map photographed on our trip gives a regional overview of fortresses, towns, caves and other places. These are ideas for another day, not extra stops on this route. Select the image to enlarge.",
+      "pl": "Mapa atrakcji sfotografowana podczas naszej podróży pokazuje twierdze, miasta, jaskinie i inne miejsca w regionie. To pomysły na inny dzień, nie kolejne punkty tej trasy. Kliknij, aby powiększyć.",
+      "de": "Die unterwegs fotografierte Attraktionskarte zeigt Festungen, Städte, Höhlen und weitere Orte der Region. Ideen für einen anderen Tag, keine zusätzlichen Stationen dieser Route. Zum Vergrößern auf das Bild klicken.",
+      "cs": "Mapa atrakcí vyfotografovaná během naší cesty ukazuje pevnosti, města, jeskyně a další místa v regionu. Jde o tipy na jiný den, nikoli další zastávky této trasy. Kliknutím obrázek zvětšíte."
+    },
+    "note": {
+      "he": "מקור המפה המצולמת הוא אתר נא ויפאד. זו תמונה מביקור קודם; פרסומות, הנחות ופרטי קשר שבתמונה אינם מידע עדכני מאומת.",
+      "en": "Photographed map by naWypad.pl, from an earlier visit. Advertisements, discounts and contact details in the image have not been verified as current.",
+      "pl": "Sfografowana mapa naWypad.pl pochodzi z wcześniejszej wizyty. Reklamy, rabaty i dane kontaktowe na zdjęciu nie zostały zweryfikowane jako aktualne.",
+      "de": "Fotografierte Karte von naWypad.pl aus einem früheren Besuch. Werbung, Rabatte und Kontaktdaten im Bild sind nicht auf Aktualität geprüft.",
+      "cs": "Vyfotografovaná mapa naWypad.pl z dřívější návštěvy. Reklamy, slevy a kontaktní údaje na snímku nejsou ověřeny jako aktuální."
+    }
+  }
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
     title: t("טיולים מוורוצלב", "Excursions from Wrocław", "Wycieczki z Wrocławia", "Ausflüge ab Wrocław", "Výlety z Vratislavi"),
-    status: t("חמישה טיולים מוכנים", "Five excursions ready", "Pięć wycieczek gotowych", "Fünf Ausflüge verfügbar", "Pět výletů připraveno"),
-    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds],
+    status: t("שישה טיולים מוכנים", "Six excursions ready", "Sześć wycieczek gotowych", "Sechs Ausflüge verfügbar", "Šest výletů připraveno"),
+    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {

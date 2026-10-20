@@ -168,3 +168,9 @@ button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
 
 .departure-marker span{background:#946d2b;border-color:#e2c273;}
 [data-departure-places]>.route-link{margin-bottom:24px;}
+/* Regional source maps are supporting reading, separate from route stops. */
+.regional-inspiration-content{display:flex;align-items:flex-start;gap:1.5rem}
+.regional-inspiration-content>button{flex:0 0 180px;max-width:35%;padding:0;border:2px solid #cba34e;border-radius:14px;background:#fff;overflow:hidden;cursor:zoom-in}
+.regional-inspiration-content img{display:block;width:100%;height:auto}
+.regional-inspiration-content>div{flex:1;min-width:0}
+@media(max-width:600px){.regional-inspiration-content{gap:1rem;flex-wrap:wrap}.regional-inspiration-content>button{flex-basis:120px;max-width:40%}.regional-inspiration-content>div{flex-basis:100%}}

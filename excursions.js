@@ -374,6 +374,8 @@
     renderMediaDialog();document.body.classList.add("excursion-media-open");mediaDialog.showModal();
   }
   document.addEventListener("click",event=>{
+    const regional=event.target.closest("[data-regional-photo]");
+    if(regional){const resource=selectedExcursion().regionalInspiration;if(resource)openPlaceMedia("regional-reference","photos",0,{name:resource.title,media:{photos:[resource.photo]}});return;}
     const source=event.target.closest("[data-walk-source-index]");
     if(source){const route=selectedExcursion().walkingRoute;openPlaceMedia("walking-source","photos",Number(source.dataset.walkSourceIndex),{name:route.title,media:{photos:route.sourcePhotos}});return;}
     const button=event.target.closest("[data-place-gallery]");
@@ -410,6 +412,9 @@
     document.querySelector("[data-why]").textContent = local(excursion.editorial.why);
     document.querySelector("[data-for-whom]").textContent = local(excursion.editorial.forWhom);
     document.querySelector("[data-practical]").textContent = local(excursion.editorial.practical);
+    const section=document.querySelector("[data-regional-inspiration]"),resource=excursion.regionalInspiration;
+    section.hidden=!resource;
+    section.innerHTML=resource ? `<h2>${escapeHtml(local(resource.title))}</h2><div class="regional-inspiration-content"><button type="button" data-regional-photo aria-label="${escapeHtml(mediaLabels[language].open)}: ${escapeHtml(local(resource.title))}"><img src="${escapeHtml(resource.photo)}" alt="${escapeHtml(local(resource.title))}" loading="lazy"></button><div><p>${escapeHtml(local(resource.description))}</p><p class="map-note">${escapeHtml(local(resource.note))}</p><p><bdi>naWypad.pl</bdi></p></div></div>` : "";
   }
 
   function render() {

@@ -15039,3 +15039,526 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({
     ]
   }
 });
+
+// Canonical stops for the Srebrna Gora and Klodzko excursion.
+window.WROC_CANONICAL_PLACE_SOURCE.push(...[
+  {
+    "id": "srebrna-gora-fortress",
+    "aliases": [],
+    "localName": "Twierdza Srebrna Góra",
+    "name": {
+      "he": "מבצר סרברנה גורה",
+      "en": "Srebrna Góra Fortress",
+      "pl": "Twierdza Srebrna Góra",
+      "de": "Festung Silberberg",
+      "cs": "Pevnost Stříbrná Hora"
+    },
+    "description": {
+      "he": "מבצר הררי עם חצרות, מעברים מקומרים ותצפיות אל הנוף. הגלריה שלנו מציגה את הדונז׳ון, פרטי השערים, תצוגות ומעברי המבצר. התחילו כאן את יום הטיול והקדישו זמן גם לעלייה מהחניה. סיור מודרך בסיסי אורך כשבעים דקות, ולביקור עצמאי בתצוגות דרוש זמן נוסף. מסלול הביקור וזמני הסיורים עשויים להשתנות, בדקו אותם באתר הרשמי.",
+      "en": "A mountain fortress with courtyards, vaulted passages and countryside views. Our gallery shows the Donjon, gateways, displays and passages. Begin the day here and allow time for the uphill walk from parking. The basic guided tour takes about seventy minutes; independent displays need extra time. Check current routes and departures on the official website.",
+      "pl": "Górska twierdza z dziedzińcami, sklepionymi przejściami i widokami. Nasza galeria pokazuje Donjon, bramy, ekspozycje i przejścia. Zacznij tutaj i dolicz podejście z parkingu. Podstawowe zwiedzanie z przewodnikiem trwa około siedemdziesięciu minut; wystawy wymagają dodatkowego czasu. Aktualne trasy i godziny sprawdź na oficjalnej stronie.",
+      "de": "Bergfestung mit Höfen, gewölbten Durchgängen und Ausblicken. Unsere Galerie zeigt den Donjon, Tore, Ausstellungen und Gänge. Beginnen Sie hier und planen Sie den Aufstieg vom Parkplatz ein. Die Grundführung dauert etwa siebzig Minuten; Ausstellungen benötigen zusätzliche Zeit. Aktuelle Routen und Führungszeiten auf der offiziellen Website prüfen.",
+      "cs": "Horská pevnost s nádvořími, klenutými průchody a výhledy. Naše galerie ukazuje Donjon, brány, expozice a chodby. Začněte zde a počítejte s výstupem z parkoviště. Základní prohlídka s průvodcem trvá asi sedmdesát minut; expozice vyžadují čas navíc. Aktuální trasy a časy ověřte na oficiálním webu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "srebrna-gora",
+      "coordinates": {
+        "lat": 50.574479,
+        "lng": 16.642978
+      },
+      "address": {
+        "street": "Kręta 4",
+        "city": "Srebrna Góra",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "culture",
+      "history"
+    ],
+    "taxonomy": {
+      "tags": [
+        "fortress",
+        "history"
+      ]
+    },
+    "links": {
+      "website": "https://forty.pl/odwiedz-nas/faq/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.574479%2C16.642978",
+        "appleMaps": "https://maps.apple.com/?ll=50.574479,16.642978"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-01.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-02.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-03.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-04.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-05.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-06.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-07.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-08.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-09.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-10.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-11.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-12.jpg",
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-13.jpg"
+      ],
+      "videos": [],
+      "photoProvenance": {
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-01.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.56 (6).jpeg",
+          "sourceSHA256": "f54956ec7e9bed31c00ad87d69fd064074703b53d025590088062057123f3c21",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-02.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.55 (4).jpeg",
+          "sourceSHA256": "f5c1c990b97b1f5b8c69ea0d7f129508a17e6fc17c05de1eafeb8f755b15d53c",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-03.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.55 (5).jpeg",
+          "sourceSHA256": "1cec5b622eab691593cea67bb8776f84606ba7c62f1c1683eb3d4399a88cd073",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-04.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.56 (1).jpeg",
+          "sourceSHA256": "2bff2795cd57974451d3370a975fb9b9ecda260c0e24596cdfe1b13291bde3c4",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-05.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.56 (3).jpeg",
+          "sourceSHA256": "71c84ebeab8ec52ac0caf380b9f8ec18034205b066c314a5ba36499e051dfcbd",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-06.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.57 (1).jpeg",
+          "sourceSHA256": "81a6e6ac4147f1876ae96b947e3a72abecfea13d36cb1d58a1e3c5da30952547",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-07.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.57 (7).jpeg",
+          "sourceSHA256": "38b07ec2bfa037019b7eaba5947a11d14ae05200020196bc06b12632ac5eadb4",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-08.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.58 (1).jpeg",
+          "sourceSHA256": "8d949d6b52c830b68b70655ab1c6ec86f88e5c410065cd91416594eff73bf988",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-09.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.58 (2).jpeg",
+          "sourceSHA256": "0052f472cb59738b30f5fd60eea6cdd0842cc9099df5308f278a26adce81557e",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-10.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.58.jpeg",
+          "sourceSHA256": "abf0adaff0d402928d6f0d3ca6a9236a63c504648784ac3a2b3bbb00303b00f2",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-11.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.59 (3).jpeg",
+          "sourceSHA256": "6a97b545b1b6144608f0715ee4402ed66ca3d0b2a45162796379c8283e27ad30",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-12.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.59 (5).jpeg",
+          "sourceSHA256": "fc46aaa23e81a5780b92bbb0d2216639e741835c1bd4b8d74f25f4b15022bc05",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/srebrna-gora-fortress-13.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/סברנה גורה/WhatsApp Image 2026-10-19 at 17.08.59 (6).jpeg",
+          "sourceSHA256": "96dcbe9198900caacc815df4d1ce698930a0affd204f3342cb978bd248928a3e",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        }
+      }
+    },
+    "status": "published",
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://forty.pl/odwiedz-nas/faq/",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://szlakpodziemi.pl/project/twierdza-srebrna-gora/",
+        "checkedAt": "2026-10-20",
+        "method": "Named tourist-route feature matched to official site and original photographs."
+      }
+    }
+  },
+  {
+    "id": "klodzko-fortress",
+    "aliases": [],
+    "localName": "Twierdza Kłodzko",
+    "name": {
+      "he": "מבצר קלודזקו",
+      "en": "Kłodzko Fortress",
+      "pl": "Twierdza Kłodzko",
+      "de": "Festung Glatz",
+      "cs": "Kladská pevnost"
+    },
+    "description": {
+      "he": "מעל גגות קלודזקו נמצא המבצר שממנו נשקף מרכז העיר. בביקור שלנו צילמנו את החצר, הביצורים, המעברים והתצפיות. המסלול העליון הוא ביקור נפרד ממבוך המנהרות, שאינו חובה ביום שמשלב שני מבצרים. בדקו מראש את שעת הכניסה האחרונה והשאירו זמן למדרגות ולעלייה.",
+      "en": "The fortress overlooks the roofs of Kłodzko. Our visit photographs show its courtyard, fortifications, passages and views. The upper route is separate from the underground labyrinth, which is optional on this two-fortress day. Check last admission and allow time for slopes and stairs.",
+      "pl": "Twierdza góruje nad dachami Kłodzka. Nasze zdjęcia pokazują dziedziniec, fortyfikacje, przejścia i panoramy. Górna trasa jest oddzielna od podziemnego labiryntu, który podczas dnia z dwiema twierdzami pozostaje opcją. Sprawdź ostatnie wejście i uwzględnij podejścia oraz schody.",
+      "de": "Die Festung überblickt die Dächer von Kłodzko. Unsere Fotos zeigen Hof, Befestigungen, Gänge und Aussichten. Die obere Route ist vom unterirdischen Labyrinth getrennt; dieses bleibt an einem Tag mit zwei Festungen optional. Letzten Einlass, Steigungen und Treppen berücksichtigen.",
+      "cs": "Pevnost shlíží na střechy Kladska. Naše fotografie ukazují nádvoří, opevnění, průchody a výhledy. Horní trasa je oddělena od podzemního labyrintu, který je během dne se dvěma pevnostmi volitelný. Ověřte poslední vstup a počítejte se stoupáním a schody."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "klodzko",
+      "coordinates": {
+        "lat": 50.441154,
+        "lng": 16.653311
+      },
+      "address": {
+        "street": "Grodzisko 1",
+        "city": "Kłodzko",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "culture",
+      "history"
+    ],
+    "taxonomy": {
+      "tags": [
+        "fortress",
+        "history"
+      ]
+    },
+    "links": {
+      "website": "https://twierdza.klodzko.pl/zwiedzanie/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.441154%2C16.653311",
+        "appleMaps": "https://maps.apple.com/?ll=50.441154,16.653311"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/srebrna-klodzko/klodzko-fortress-01.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-02.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-03.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-04.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-05.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-06.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-07.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-08.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-09.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-10.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-11.jpg",
+        "/assets/srebrna-klodzko/klodzko-fortress-12.jpg"
+      ],
+      "videos": [],
+      "photoProvenance": {
+        "/assets/srebrna-klodzko/klodzko-fortress-01.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-01 at 09.22.12 (2).jpeg",
+          "sourceSHA256": "8a7136154d48017070f9879e14dda59cd0adbcb7e32191acde5fd75c7ec60842",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-02.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-05 at 18.28.54 (1).jpeg",
+          "sourceSHA256": "57807698aa0bada500ad11b19737488244327708198a9a4e014f41d7988743a7",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-03.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.09 (4).jpeg",
+          "sourceSHA256": "3b993a4e1878063c3daf2ecb3625c9f64f6c323d2605e7e8b51962015b7e4bd2",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-04.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.09.jpeg",
+          "sourceSHA256": "59fc991a403d8714d8b8439c795d5b9e15b03420e7a8d4a7ceb687baabc6242c",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-05.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.10 (1).jpeg",
+          "sourceSHA256": "78775d705d501f87748da47ff6c9019e4f1a8526712b5a1d3017142f8ca0db4c",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-06.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.10 (3).jpeg",
+          "sourceSHA256": "70f78d9c6822ac99832464124bd1adcf787391531e15085584997fc349754048",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-07.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.10 (4).jpeg",
+          "sourceSHA256": "00b6f1d457480244c2e6232b043133c81159c02fe8919db9fadeb74118004c29",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-08.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.10.jpeg",
+          "sourceSHA256": "cdb32a9aeffb72385ed0cd5de7d674e5af0a1803023e976b211bbd1d60b80040",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-09.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.11 (2).jpeg",
+          "sourceSHA256": "1116e7ea91ec1a1547670ecc64b2bae64cd21fffc15bd59ff746e4e85df779a2",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-10.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.11 (3).jpeg",
+          "sourceSHA256": "ae915022500236f8d9d2dd4c5d619b6b0d8dd520c1711e7876663e6f6c6e67b5",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-11.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.11 (4).jpeg",
+          "sourceSHA256": "f38b0dccf6e1b77c462f695a0bcff12d90e07dbb2a020836dd07fc16adee2f37",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-fortress-12.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.11 (5).jpeg",
+          "sourceSHA256": "a54bc5188e5e36be2d2d8ea625652076c1aa3186f832973d6283dd4e234b3d3c",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        }
+      },
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/zNAM3xG5ED4",
+        "en": "https://youtube.com/shorts/Swz838oySqQ"
+      }
+    },
+    "status": "published",
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://twierdza.klodzko.pl/zwiedzanie/",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://dolnoslaskie.szlaki.pttk.pl/2121-dolnoslaskie-klodzko-twierdza",
+        "checkedAt": "2026-10-20",
+        "method": "Named tourist-route feature matched to official site and original photographs."
+      }
+    }
+  },
+  {
+    "id": "klodzko-old-town",
+    "aliases": [],
+    "localName": "Stare Miasto i Rynek w Kłodzku",
+    "name": {
+      "he": "מרכז קלודזקו והרינק",
+      "en": "Kłodzko Old Town and Market Square",
+      "pl": "Stare Miasto i Rynek w Kłodzku",
+      "de": "Altstadt und Marktplatz von Kłodzko",
+      "cs": "Staré město a náměstí v Kladsku"
+    },
+    "description": {
+      "he": "העיר שמתחת למבצר מזמינה להאט בין הרינק, בית העירייה, חזיתות הבתים והרחובות היורדים ממנו. הגלריה שלנו מתמקדת באדריכלות ובפרטים שצילמנו בעיר. השאירו זמן לשיטוט ולארוחה; אפשר להמשיך אל הגשר הגותי לפי הזמן והכוח.",
+      "en": "Below the fortress, slow down around the market square, town hall, facades and adjoining streets. Our gallery focuses on architecture and details photographed in the city. Leave time for a meal and a wander; continue to the Gothic Bridge if time and energy allow.",
+      "pl": "Pod twierdzą zwolnij przy rynku, ratuszu, kamienicach i sąsiednich ulicach. Nasza galeria skupia się na sfotografowanej architekturze i detalach. Zostaw czas na posiłek i spacer; jeśli wystarczy czasu i sił, przejdź na most gotycki.",
+      "de": "Unterhalb der Festung laden Marktplatz, Rathaus, Fassaden und Seitenstraßen zum Verweilen ein. Unsere Galerie zeigt Architektur und Details unseres Stadtbesuchs. Zeit für Essen und Spaziergang einplanen; bei genügend Zeit zum gotischen Brückchen weitergehen.",
+      "cs": "Pod pevností zpomalte na náměstí, u radnice, průčelí domů a v okolních ulicích. Galerie se zaměřuje na architekturu a detaily z naší návštěvy. Nechte čas na jídlo a procházku; podle času a sil pokračujte ke gotickému mostu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "klodzko",
+      "coordinates": {
+        "lat": 50.438758,
+        "lng": 16.654564
+      },
+      "address": {
+        "street": "Plac Bolesława Chrobrego",
+        "city": "Kłodzko",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "culture",
+      "history"
+    ],
+    "taxonomy": {
+      "tags": [
+        "old-town",
+        "architecture"
+      ]
+    },
+    "links": {
+      "website": "https://www.stara.um.klodzko.pl/pl/turystyka/stare-miasto.html",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.438758%2C16.654564",
+        "appleMaps": "https://maps.apple.com/?ll=50.438758,16.654564"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/srebrna-klodzko/klodzko-old-town-01.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-02.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-03.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-04.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-05.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-06.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-07.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-08.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-09.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-10.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-11.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-12.jpg",
+        "/assets/srebrna-klodzko/klodzko-old-town-13.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/g4cP6YgOZ5k"
+      ],
+      "photoProvenance": {
+        "/assets/srebrna-klodzko/klodzko-old-town-01.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.05 (1).jpeg",
+          "sourceSHA256": "e8785639add39ee06653ee76f166fa83bc14268cdcd6875f8250f734681c7215",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-02.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-05 at 18.29.00 (2).jpeg",
+          "sourceSHA256": "dad79b176e23ccfd4df7ddd6c7400436a366bbb3f12c7ca514d86fdf97f4ae73",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-03.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.34.50 (2).jpeg",
+          "sourceSHA256": "3cbb84452df61fe160da80b4e3339361f3e3347dec95abb3d1e25543e4b5f87d",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-04.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.34.54.jpeg",
+          "sourceSHA256": "fd2c973cd7496b4a011a47b757d5e808792978be5a20f570cfacda0846e19efc",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-05.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.34.55.jpeg",
+          "sourceSHA256": "91dcbf54785cffaa1f86ba9893aaf350903f974056aab5d5bef8591c5db1f8b1",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-06.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.34.57 (1).jpeg",
+          "sourceSHA256": "896b89483a361efc6aedfcb51db3cbbd15b3c083382917efc0b402672ec6b574",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-07.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.00.jpeg",
+          "sourceSHA256": "777d3d97e859bb17fdba12e4bd3b3d738d56c414827b7d14edf099be392c35e4",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-08.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.03 (2).jpeg",
+          "sourceSHA256": "55b3b6536cd638dc9fe5d2a6188f6a3666b8c6bda1d9eb2ae4686b50ca8db2c0",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-09.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.04 (1).jpeg",
+          "sourceSHA256": "df55a656b3788c12bffc7269680d6ff109c0509bc451a00048f7d1587fa53b1a",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-10.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.06 (1).jpeg",
+          "sourceSHA256": "281e492074cbc3727384f8aee3b1e235051ee5856131033c4179a7adb8f57553",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-11.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.08 (1).jpeg",
+          "sourceSHA256": "366faef68b748ceb8259fab5a2eb5e0b10531083549874743bf83ad343b14fb8",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-12.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.08 (2).jpeg",
+          "sourceSHA256": "20b24f4749cf2312c3ca32988928cec678d566267ad9a8eb02519a6b96aa042b",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        },
+        "/assets/srebrna-klodzko/klodzko-old-town-13.jpg": {
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-19 at 17.35.08.jpeg",
+          "sourceSHA256": "d34dfc732699b1def2acbe75b3b5d51fac33e675a198c50ac253fe9a27f78004",
+          "reviewedAt": "2026-10-20",
+          "review": "Visually inspected original; no posed family portrait; selected distinct views."
+        }
+      },
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/0YyKS3LcHrU",
+        "en": "https://youtube.com/shorts/reMcbePY2yo"
+      }
+    },
+    "status": "published",
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.stara.um.klodzko.pl/pl/turystyka/stare-miasto.html",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "coordinateVerification": {
+        "sourceUrl": "https://dolnoslaskie.szlaki.pttk.pl/2124-dolnoslaskie-klodzko-rynek-i-ratusz",
+        "checkedAt": "2026-10-20",
+        "method": "Named tourist-route feature matched to official site and original photographs."
+      }
+    }
+  }
+]);

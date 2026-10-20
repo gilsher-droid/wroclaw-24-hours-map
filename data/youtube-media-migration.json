@@ -1439,5 +1439,20 @@
     "verifiedAt": "2026-10-20T11:12:32.408Z",
     "virtualVideoPathOnly": true,
     "transformation": "Video stream copied unchanged; audio omitted in upload work copy; source preserved."
+  },
+  "/assets/klodzko-city-plan-visit.mp4": {
+    "title": "Kłodzko: Illustrated Town and Fortifications Plan | Visit Clip | WROC-LOVE",
+    "canonicalPlaceIds": [
+      "klodzko-old-town"
+    ],
+    "status": "public",
+    "youtube": "https://youtube.com/shorts/g4cP6YgOZ5k",
+    "sourceSHA256": "8944e31b1234abf756fbfee20de9876483455e92ff0720a04f531f0abf1f62bf",
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WhatsApp Video 2026-10-19 at 17.35.13.mp4",
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "processingStatus": "complete",
+    "verifiedAt": "2026-10-20",
+    "virtualVideoPathOnly": true
   }
 }
