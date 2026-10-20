@@ -53,6 +53,7 @@
       content.style.setProperty('width',width+'px','important');
       element.classList.add('wroc-fitted-popup');
       // Native content scrolling keeps the close button outside the scroll area.
+      content.style.maxHeight=height+'px';
       content.style.overflowY='auto';content.style.overscrollBehavior='contain';
       if(!content.hasAttribute('tabindex')) content.setAttribute('tabindex','0');
       const offset=panOffset(element.getBoundingClientRect(),bounds);

@@ -41,7 +41,7 @@ test('open/resize fitting caps tall content, pans once and settles without a fee
  popupHook.call(popup);assert.equal(popup.options.autoPan,false);assert.equal(popup.options.keepInView,false);
  mapHook.call(map);handlers.popupopen({popup});
  function drain(){let count=0;while(frames.length){assert.ok(++count<10,'fitter must settle');frames.shift()();}}
- drain();assert.equal(pans,1);assert.equal(content.style.overflowY,'auto');assert.equal(content.style.width,'291px');assert.ok(popupRect.top>=292);assert.ok(popupRect.bottom<=707);
+ drain();assert.equal(pans,1);assert.equal(content.style.overflowY,'auto');assert.equal(content.style.width,'291px');assert.equal(content.style.maxHeight,'366px');assert.ok(popupRect.top>=292);assert.ok(popupRect.bottom<=707);
  mapRect=rect(12,280,363,500);handlers.resize();drain();assert.equal(updates,2);assert.ok(popupRect.bottom<=488);
  handlers.popupclose();listeners.resize();assert.equal(frames.length,0);
 });
