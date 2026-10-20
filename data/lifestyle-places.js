@@ -121,6 +121,7 @@
     {"id": "dwor-polski-hotel-wroclaw", "categories": ["sleep"], "coordinates": [51.1106054, 17.0303179], "mediaKey": "dwor-polski-hotel-wroclaw"},
     {"id": "wyndham-wroclaw-old-town", "categories": ["sleep"], "coordinates": [51.111323, 17.028617], "mediaKey": "wyndham-wroclaw-old-town"},
     {"id": "tulip-hotels-wroclaw-patio", "categories": ["sleep"], "coordinates": [51.1118582, 17.0298244], "mediaKey": "tulip-hotels-wroclaw-patio"},
+    {"id": "domek-nad-fosa-wroclaw", "categories": ["eat", "drink"], "coordinates": [51.1064824, 17.0254809], "mediaKey": "domek-nad-fosa-wroclaw"},
     place("puro", ["sleep"], [51.1079917,17.0248927], "PURO Wrocław Stare Miasto", sourceHotel, hotelPost, null, t("ברובע ארבע הדתות, קרוב למסעדות ולמרכז.", "In the Four Denominations District, close to restaurants and the centre.", "W Dzielnicy Czterech Wyznań, blisko restauracji i centrum.", "Im Viertel der vier Konfessionen, nahe Restaurants und Zentrum.", "Ve čtvrti čtyř vyznání, blízko restaurací a centra.")),
     {"id": "movenpick-grand-hotel-wroclaw", "categories": ["sleep"], "coordinates": [51.100025, 17.0361251], "mediaKey": "movenpick-grand-hotel-wroclaw"},
     {"id": "the-cyrus-hotel-wroclaw", "categories": ["sleep"], "coordinates": [51.112265, 17.0287276], "mediaKey": "the-cyrus-hotel-wroclaw"},

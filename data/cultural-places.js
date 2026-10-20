@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "jatki": ["museums-history", "art-contemporary"],
     "dwarf-info": ["museums-history"],
     "barbara-wroclaw": ["art-contemporary", "architecture-design"],
     "four-denominations-district": ["museums-history", "architecture-design"],

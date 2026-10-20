@@ -235,3 +235,7 @@ article[data-place="movenpick-grand-hotel-wroclaw"] p,article[data-place="the-cy
 
 .media-grid img[src*="/hotels-extra-20261020/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 article[data-place="altus"] p,article[data-place="puro"] p,article[data-place="herbal"] p,article[data-place="ac-hotel"] p,article[data-place="boogie-aparthouse-garbary"] p,article[data-place="art-hotel"] p,article[data-place="entre-hotel-wroclaw"] p,article[data-place="joyinn-aparthotel-wroclaw"] p,article[data-place="dwor-polski-hotel-wroclaw"] p,article[data-place="wyndham-wroclaw-old-town"] p,article[data-place="tulip-hotels-wroclaw-patio"] p,.leaflet-popup-content:has(img[src*="/hotels-extra-20261020/"]) > span{white-space:pre-line;}
+
+.media-grid img[src*="/cafes-alley-refresh-20261020/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,article[data-place="domek-nad-fosa-wroclaw"] p,.leaflet-popup-content:has(img[src*="/cafes-alley-refresh-20261020/"]) > span{white-space:pre-line;}

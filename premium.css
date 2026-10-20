@@ -497,3 +497,7 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 /* Botanical Garden: preserve complete scenery frames and Hebrew line breaks. */
 img[src*="/botanical-garden/"]{object-fit:contain;background:#f4f0e8;}
 .recommendation-card[data-canonical-place-id="wroclaw-botanical-garden"] p,.premium-popup:has(img[src*="/botanical-garden/"])>p{white-space:pre-line;}
+
+#gallery-image[src*="/cafes-alley-refresh-20261020/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+#stop-jatki .stop-copy>p{white-space:pre-line;}

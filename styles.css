@@ -1095,3 +1095,7 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"] { object-fit: c
 
 /* Full-frame approved October visit images. */
 img[src*="-refresh-oct19-"], img[src*="pergola-wroclawska-"], img[src*="wyspa-slodowa-"], img[src*="galeria-dominikanska-"], img[src*="fc-caffe-kuznicza-"] { object-fit: contain; background: #f4f0e8; }
+
+#gallery-image[src*="/cafes-alley-refresh-20261020/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+#stop-jatki .stop-copy>p{white-space:pre-line;}

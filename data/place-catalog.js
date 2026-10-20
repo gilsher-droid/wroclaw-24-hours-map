@@ -8657,11 +8657,11 @@
       "cs": "Kavárna Czarna Magia"
     },
     "description": {
-      "he": "בית קפה וארוחות בוקר בעיר העתיקה, סמוך לכיכר השוק. בגלריה מהביקור שלנו תמצאו את שלט המקום, חלל הישיבה המקומר, קפה וארוחת בוקר.",
-      "en": "An Old Town café and breakfast spot near Market Square. Our visit gallery includes the café sign, vaulted seating area, coffee and breakfast.",
-      "pl": "Kawiarnia i miejsce na śniadanie na Starym Mieście, niedaleko Rynku. Galeria z naszej wizyty pokazuje szyld, sklepione wnętrze, kawę i śniadanie.",
-      "de": "Café und Frühstückslokal in der Altstadt nahe dem Rynek. Unsere Besuchsgalerie zeigt das Schild, den gewölbten Gastraum, Kaffee und Frühstück.",
-      "cs": "Kavárna se snídaněmi ve Starém Městě poblíž Rynku. Galerie z naší návštěvy ukazuje vývěsní štít, klenutý interiér, kávu a snídani."
+      "he": "בית קפה וארוחות בוקר בעיר העתיקה, סמוך לכיכר השוק. בגלריה מהביקור שלנו תמצאו את שלט המקום, חלל הישיבה המקומר, קפה וארוחת בוקר. נוספו חזית הכניסה ביום, השלט המואר בלילה וארבעה סרטוני ביקור המציגים את החצר, המעבר, הכניסה וויטרינת העוגות.\nCzarna Magia\nKiełbaśnicza 2, Wrocław",
+      "en": "An Old Town café and breakfast spot near Market Square. Our visit gallery includes the café sign, vaulted seating area, coffee and breakfast. The added daytime entrance, illuminated night sign and four visit clips show the courtyard, passage, entrance and cake display.\nKiełbaśnicza 2, Wrocław",
+      "pl": "Kawiarnia i miejsce na śniadanie na Starym Mieście, niedaleko Rynku. Galeria z naszej wizyty pokazuje szyld, sklepione wnętrze, kawę i śniadanie. Dodane zdjęcia wejścia za dnia i podświetlonego szyldu nocą oraz cztery filmy pokazują dziedziniec, przejście, wejście i witrynę z ciastami.\nKiełbaśnicza 2, Wrocław",
+      "de": "Café und Frühstückslokal in der Altstadt nahe dem Rynek. Unsere Besuchsgalerie zeigt das Schild, den gewölbten Gastraum, Kaffee und Frühstück. Ergänzt wurden der Eingang bei Tag, das beleuchtete Schild bei Nacht und vier Besuchsclips mit Innenhof, Durchgang, Eingang und Kuchenvitrine.\nKiełbaśnicza 2, Wrocław",
+      "cs": "Kavárna se snídaněmi ve Starém Městě poblíž Rynku. Galerie z naší návštěvy ukazuje vývěsní štít, klenutý interiér, kávu a snídani. Přibyly denní snímek vstupu, osvětlený noční štít a čtyři videa s dvorem, průchodem, vstupem a vitrínou se zákusky.\nKiełbaśnicza 2, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -8734,7 +8734,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1101717%2C17.02932",
         "appleMaps": "https://maps.apple.com/?ll=51.1101717,17.02932"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -8762,17 +8763,31 @@
           "verifiedAt": "2026-10-17",
           "scope": "coordinates"
         }
-      ]
+      ],
+      "refreshSource": {
+        "url": "https://www.facebook.com/czarnamagiacafe/",
+        "supportingSource": "https://wolt.com/pl/pol/wroclaw/restaurant/czarna-magia-wroclaw",
+        "checkedAt": "2026-10-20T20:30:21.488031+00:00",
+        "fact": "Exact cafe, branding and address; not Mała Czarna at Olympic Stadium."
+      }
     },
     "media": {
+      "thumbnail": "/assets/food-cafes/czarna-magia-01.jpg",
       "photos": [
         "/assets/food-cafes/czarna-magia-01.jpg",
         "/assets/food-cafes/czarna-magia-02.jpg",
         "/assets/food-cafes/czarna-magia-03.jpg",
         "/assets/food-cafes/czarna-magia-04.jpg",
-        "/assets/food-cafes/czarna-magia-05.jpg"
+        "/assets/food-cafes/czarna-magia-05.jpg",
+        "/assets/cafes-alley-refresh-20261020/czarna-magia-refresh-08.jpg",
+        "/assets/cafes-alley-refresh-20261020/czarna-magia-refresh-16.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/shorts/OUCfd8uWYlA",
+        "https://youtube.com/shorts/CoOWWHiCmmo",
+        "https://youtube.com/shorts/niLEIK2-N_Y",
+        "https://youtube.com/shorts/DNcaQOxlaLU"
+      ],
       "metadata": {
         "/assets/food-cafes/czarna-magia-01.jpg": {
           "original": true,
@@ -8808,6 +8823,118 @@
           "sourceSHA256": "09c44cc76fd3f4d0fce754475ae896bf455ac66e7984b7029ac1463dab615f08",
           "heroCandidate": false,
           "visitCategory": "food-and-cafe"
+        },
+        "/assets/cafes-alley-refresh-20261020/czarna-magia-refresh-08.jpg": {
+          "sourceFile": "צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.45 (3).jpeg",
+          "sourceSHA256": "e6bde18faa9b58b888a589f38fec6456976c0888ab9d6f6776a68259e8af540c",
+          "assetSHA256": "47ff234c8e0439af84c4fb14f94ebeca4144f00199dfbaa7e30d20d825e7e56f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום\nCzarna Magia",
+            "en": "Our visit photograph at Czarna Magia",
+            "pl": "Zdjęcie z naszej wizyty: Czarna Magia",
+            "de": "Unser Besuchsfoto: Czarna Magia",
+            "cs": "Fotografie z naší návštěvy: Czarna Magia"
+          },
+          "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
+        },
+        "/assets/cafes-alley-refresh-20261020/czarna-magia-refresh-16.jpg": {
+          "sourceFile": "צארנה מגיה/WhatsApp Image 2026-10-19 at 16.50.52.jpeg",
+          "sourceSHA256": "c5ad01796342d7e941233e2485dc694d97e094ce1401d483c8deb73b965e10a8",
+          "assetSHA256": "8af04305b1d0e8cd8cae774e33cc12d2c99852b4c6ccf15637832c300f5d5991",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום\nCzarna Magia",
+            "en": "Our visit photograph at Czarna Magia",
+            "pl": "Zdjęcie z naszej wizyty: Czarna Magia",
+            "de": "Unser Besuchsfoto: Czarna Magia",
+            "cs": "Fotografie z naší návštěvy: Czarna Magia"
+          },
+          "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
+        },
+        "https://youtube.com/shorts/OUCfd8uWYlA": {
+          "sourceSHA256": "671686e82e97d1c9d96696d4eddc540809b2bc9710c0e4937fd82bf4d3c493ce",
+          "uploadSHA256": "c8c550cb17d036c1c7e4725b902f3dfee45b904cf819ae16c1df41a579d803c9",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "processing": "SDcomplete",
+          "checks": "complete-no-issues",
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "durationSeconds": 3.433333,
+          "reopenedVerified": true,
+          "title": {
+            "he": "ביקור בבית הקפה",
+            "en": "Cafe visit",
+            "pl": "Wizyta w kawiarni",
+            "de": "Cafébesuch",
+            "cs": "Návštěva kavárny"
+          },
+          "verifiedAt": "2026-10-20T20:28:12.694Z"
+        },
+        "https://youtube.com/shorts/CoOWWHiCmmo": {
+          "sourceSHA256": "46847b93f457b2d64f5db4be68dd9b2aeb0bec49c37724d67d74dcfd3ae1d81f",
+          "uploadSHA256": "a6d2eb174cff350eb5a0911ca32c4a4b4450dfc2cfa93b6f7575c134a08a4c99",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "processing": "SDcomplete",
+          "checks": "complete-no-issues",
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "durationSeconds": 3.333333,
+          "reopenedVerified": true,
+          "title": {
+            "he": "ביקור בבית הקפה",
+            "en": "Cafe visit",
+            "pl": "Wizyta w kawiarni",
+            "de": "Cafébesuch",
+            "cs": "Návštěva kavárny"
+          },
+          "verifiedAt": "2026-10-20T20:28:15.037Z"
+        },
+        "https://youtube.com/shorts/niLEIK2-N_Y": {
+          "sourceSHA256": "65b7496c3113d683c483ace2b8d9c1842bd70fb205c653406428bb2f4b5a6f2e",
+          "uploadSHA256": "deb383c2fc389229d40375d43f19f308229e97db9226377144ad340f26b070d8",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "processing": "SDcomplete",
+          "checks": "complete-no-issues",
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "durationSeconds": 5.933333,
+          "reopenedVerified": true,
+          "title": {
+            "he": "ביקור בבית הקפה",
+            "en": "Cafe visit",
+            "pl": "Wizyta w kawiarni",
+            "de": "Cafébesuch",
+            "cs": "Návštěva kavárny"
+          },
+          "verifiedAt": "2026-10-20T20:28:18.521Z"
+        },
+        "https://youtube.com/shorts/DNcaQOxlaLU": {
+          "sourceSHA256": "dcce4ba4de7cb6d83648f4cf8e58a4d76c9a07f6df302c01366566591868ddb3",
+          "uploadSHA256": "7c03537644344475e161e1c3d41b4ef897f2ad7328598ba1e896a4d84102c26f",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "processing": "SDcomplete",
+          "checks": "complete-no-issues",
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "durationSeconds": 5.5,
+          "reopenedVerified": true,
+          "title": {
+            "he": "ביקור בבית הקפה",
+            "en": "Cafe visit",
+            "pl": "Wizyta w kawiarni",
+            "de": "Cafébesuch",
+            "cs": "Návštěva kavárny"
+          },
+          "verifiedAt": "2026-10-20T20:28:20.873Z"
         }
       }
     },
@@ -10600,6 +10727,191 @@
       "de",
       "cs"
     ]
+  },
+  "domek-nad-fosa-wroclaw": {
+    "id": "domek-nad-fosa-wroclaw",
+    "localName": "Domek nad Fosą",
+    "name": {
+      "he": "דומק נאד פוסה",
+      "en": "Domek nad Fosą",
+      "pl": "Domek nad Fosą",
+      "de": "Domek nad Fosą",
+      "cs": "Domek nad Fosą"
+    },
+    "description": {
+      "he": "מסעדה בביתן על שפת החפיר העירוני, בפינת הרחובות פודוואלה וקרופניצ׳ה. האתר הרשמי מציג פיצה ומשקאות, ותמונות הביקור שלנו מראות את הביתן לצד המים ואת שלט המקום. בבדיקה ב־20 באוקטובר 2026 המקום סומן במפות גוגל כסגור זמנית. יש לאמת חזרה לפעילות מול העסק לפני הגעה.\nDomek nad Fosą\nPodwale 29a, Wrocław",
+      "en": "Restaurant in a pavilion beside the city moat, at the corner of Podwale and Krupnicza. Its official website features pizza and drinks; our visit photographs show the waterside pavilion and venue sign. On 20 October 2026 Google Maps marked it temporarily closed. Confirm reopening with the business before visiting.\nPodwale 29a, Wrocław",
+      "pl": "Restauracja w pawilonie nad fosą miejską, na rogu Podwala i Krupniczej. Oficjalna strona prezentuje pizzę i napoje; nasze zdjęcia pokazują pawilon nad wodą i szyld. W dniu 20 października 2026 Mapy Google oznaczały lokal jako tymczasowo zamknięty. Przed wizytą potwierdź ponowne otwarcie bezpośrednio w lokalu.\nPodwale 29a, Wrocław",
+      "de": "Restaurant in einem Pavillon am Stadtgraben, an der Ecke Podwale/Krupnicza. Die offizielle Website zeigt Pizza und Getränke; unsere Besuchsfotos den Pavillon am Wasser und das Schild. Am 20. Oktober 2026 war der Ort bei Google Maps als vorübergehend geschlossen markiert. Wiedereröffnung vor einem Besuch beim Betrieb bestätigen.\nPodwale 29a, Wrocław",
+      "cs": "Restaurace v pavilonu u městského příkopu na rohu ulic Podwale a Krupnicza. Oficiální web představuje pizzu a nápoje; naše fotografie zachycují pavilon u vody a označení podniku. Dne 20. října 2026 jej Mapy Google označovaly jako dočasně uzavřený. Před návštěvou ověřte znovuotevření přímo u podniku.\nPodwale 29a, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1064824,
+        "lng": 17.0254809
+      },
+      "address": {
+        "street": "Podwale 29a",
+        "postalCode": "50-040",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "DOMEK NAD FOSA",
+      "Domek nad Fosa",
+      "דומק נאד פוסה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "domek-nad-fosa-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "domek-nad-fosa-wroclaw",
+        "lat": 51.1064824,
+        "lng": 17.0254809
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": {
+        "he": "מפות גוגל סימנו סגור זמנית בבדיקה ב־20 באוקטובר 2026; יש לאמת חזרה לפעילות מול העסק.",
+        "en": "Google Maps marked temporarily closed on 20 October 2026; confirm reopening with the business.",
+        "pl": "Mapy Google: tymczasowo zamknięte 20.10.2026; potwierdź ponowne otwarcie w lokalu.",
+        "de": "Google Maps: vorübergehend geschlossen am 20.10.2026; Wiedereröffnung beim Betrieb bestätigen.",
+        "cs": "Mapy Google: dočasně uzavřeno 20.10.2026; znovuotevření ověřte u podniku."
+      }
+    },
+    "links": {
+      "website": "https://domeknadfosa.pl/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://domeknadfosa.pl/",
+          "fact": "Official exact business name, pizza/drinks and Podwale/Krupnicza location."
+        },
+        {
+          "url": "https://bip.um.wroc.pl/attachments/download/82579",
+          "fact": "Municipal hospitality register lists DOMEK NAD FOSĄ at Podwale cornerKrupnicza."
+        }
+      ],
+      "coordinateVerification": {
+        "lat": 51.1064824,
+        "lng": 17.0254809,
+        "evidence": "GoogleMaps exact business, officialwebsite, telephone and Podwale29a address matched."
+      },
+      "operationalStatus": {
+        "observed": "temporarily-closed",
+        "source": "GoogleMaps",
+        "checkedAt": "2026-10-20T20:30:21.488031+00:00",
+        "ownerConfirmed": false
+      },
+      "mapDecision": "Lifestyle eat/drink only; historical visit photo, not a claim that the venue is currently open.",
+      "sourceOriginalsModified": false,
+      "wrongPlaceVideoExcluded": "Domek-folder video is a recoding of FC Caffe footage; no second upload."
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg",
+      "photos": [
+        "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg",
+        "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-02.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg": {
+          "sourceFile": "DOMEK NAD FOSA/WhatsApp Image 2026-10-05 at 18.25.37.jpeg",
+          "sourceSHA256": "5174d7dc38b71cbd961a6f5ea08cb712d2a820929fec9def823bcd15fd0b5af3",
+          "assetSHA256": "b8df3edecd658d0b4c6aef02deb87dff1b7ea2725b5e18d239888f6750efd46d",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום\nDomek nad Fosą",
+            "en": "Our visit photograph at Domek nad Fosą",
+            "pl": "Zdjęcie z naszej wizyty: Domek nad Fosą",
+            "de": "Unser Besuchsfoto: Domek nad Fosą",
+            "cs": "Fotografie z naší návštěvy: Domek nad Fosą"
+          },
+          "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
+        },
+        "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-02.jpg": {
+          "sourceFile": "DOMEK NAD FOSA/WhatsApp Image 2026-10-19 at 08.41.56 (1).jpeg",
+          "sourceSHA256": "5147ccfed4ddfa6079841701bcd0ba97cdd7b0fe3d290beb0a77f20134eb72a7",
+          "assetSHA256": "eba75bfade24edfe6a1fa6c959ee8133901b9448d0781a2a64080f11d371e356",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום\nDomek nad Fosą",
+            "en": "Our visit photograph at Domek nad Fosą",
+            "pl": "Zdjęcie z naszej wizyty: Domek nad Fosą",
+            "de": "Unser Besuchsfoto: Domek nad Fosą",
+            "cs": "Fotografie z naší návštěvy: Domek nad Fosą"
+          },
+          "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "dominikan": {
     "id": "dominikan",
@@ -12574,11 +12886,11 @@
       "cs": "FC Caffe"
     },
     "description": {
-      "he": "בית קפה ברחוב קוז׳ניצ׳ה, עם קפה, ארוחות בוקר ועוגות לפי אתר המקום. תמונת הביקור שלנו מציגה את השלט העגול, החזית הפתוחה ושולחנות הישיבה ברחוב. אפשר לשלב הפסקה בדרך בין אזור האוניברסיטה לכיכר השוק.\nFC Caffe\nKuźnicza 30, Wrocław",
-      "en": "A café on Kuźnicza serving coffee, breakfast and cakes according to its website. Our visit photograph shows the round sign, open frontage and street-side tables. A possible pause between the university area and Market Square.\nKuźnicza 30, Wrocław",
-      "pl": "Kawiarnia przy Kuźniczej, oferująca według własnej strony kawę, śniadania i ciasta. Nasze zdjęcie z wizyty pokazuje okrągły szyld, otwartą fasadę i stoliki na ulicy. Można połączyć przerwę ze spacerem między uniwersytetem a Rynkiem.\nKuźnicza 30, Wrocław",
-      "de": "Ein Café an der Kuźnicza mit Kaffee, Frühstück und Kuchen laut eigener Website. Unser Besuchsfoto zeigt das runde Schild, die offene Front und Tische am Straßenrand. Eine mögliche Pause zwischen Universitätsviertel und Rynek.\nKuźnicza 30, Wrocław",
-      "cs": "Kavárna v ulici Kuźnicza s kávou, snídaněmi a zákusky podle vlastního webu. Naše fotografie z návštěvy ukazuje kulatý vývěsní štít, otevřené průčelí a stolky u ulice. Možná zastávka mezi univerzitou a Rynkem.\nKuźnicza 30, Wrocław"
+      "he": "בית קפה ברחוב קוז׳ניצ׳ה, עם קפה, ארוחות בוקר ועוגות לפי אתר המקום. תמונת הביקור שלנו מציגה את השלט העגול, החזית הפתוחה ושולחנות הישיבה ברחוב. אפשר לשלב הפסקה בדרך בין אזור האוניברסיטה לכיכר השוק. בתמונת הלילה הנוספת נראים חלונות בית הקפה והשולחנות ברחוב. סרטון הביקור מציג את החזית הפתוחה ואת הדלפק.\nFC Caffe\nKuźnicza 30, Wrocław",
+      "en": "A café on Kuźnicza serving coffee, breakfast and cakes according to its website. Our visit photograph shows the round sign, open frontage and street-side tables. A possible pause between the university area and Market Square. The additional night photograph shows the café windows and street-side tables. The visit clip shows the open frontage and counter.\nKuźnicza 30, Wrocław",
+      "pl": "Kawiarnia przy Kuźniczej, oferująca według własnej strony kawę, śniadania i ciasta. Nasze zdjęcie z wizyty pokazuje okrągły szyld, otwartą fasadę i stoliki na ulicy. Można połączyć przerwę ze spacerem między uniwersytetem a Rynkiem. Dodatkowe zdjęcie nocne pokazuje okna kawiarni i stoliki przy ulicy. Film z wizyty przedstawia otwartą fasadę i ladę.\nKuźnicza 30, Wrocław",
+      "de": "Ein Café an der Kuźnicza mit Kaffee, Frühstück und Kuchen laut eigener Website. Unser Besuchsfoto zeigt das runde Schild, die offene Front und Tische am Straßenrand. Eine mögliche Pause zwischen Universitätsviertel und Rynek. Das zusätzliche Nachtfoto zeigt die Caféfenster und Straßentische. Der Besuchsclip zeigt die offene Front und die Theke.\nKuźnicza 30, Wrocław",
+      "cs": "Kavárna v ulici Kuźnicza s kávou, snídaněmi a zákusky podle vlastního webu. Naše fotografie z návštěvy ukazuje kulatý vývěsní štít, otevřené průčelí a stolky u ulice. Možná zastávka mezi univerzitou a Rynkem. Další noční fotografie ukazuje okna kavárny a stolky na ulici. Video z návštěvy zachycuje otevřené průčelí a pult.\nKuźnicza 30, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -12699,19 +13011,63 @@
           ]
         }
       ],
-      "personalMediaPermission": false
+      "personalMediaPermission": false,
+      "refreshSource": {
+        "url": "https://fccaffe.eatbu.com/?lang=pl",
+        "checkedAt": "2026-10-20T20:30:21.488031+00:00",
+        "fact": "Exact FC Caffe name, Kuźnicza30 address and cafe identity; original source sign/counter matches."
+      }
     },
     "media": {
       "thumbnail": "/assets/food-cafes/fc-caffe-kuznicza-01.jpg",
       "photos": [
-        "/assets/food-cafes/fc-caffe-kuznicza-01.jpg"
+        "/assets/food-cafes/fc-caffe-kuznicza-01.jpg",
+        "/assets/cafes-alley-refresh-20261020/fc-caffe-refresh-02.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/shorts/HNowfJsSUvc"
+      ],
       "metadata": {
         "/assets/food-cafes/fc-caffe-kuznicza-01.jpg": {
           "original": true,
           "sourceSHA256": "f0cb850e810a6ac3ae64808e31669cc41eca3196d40704590d4f011e5af96f69",
           "assetSHA256": "a44078db11d5aacdd7697404627b3e5630ae00ccf2d524942f9188db15ff8952"
+        },
+        "/assets/cafes-alley-refresh-20261020/fc-caffe-refresh-02.jpg": {
+          "sourceFile": "FC CAFFE/WhatsApp Image 2026-10-19 at 08.41.50 (3).jpeg",
+          "sourceSHA256": "3153f736b18a8189f834f9df3014009fc94ef04c431b413d1536cc479dc13d4f",
+          "assetSHA256": "ad0b76ec0c67ce23a9e7966c29ca5c34aab1b5a4d5d432d3ce1c20cf80e96cb3",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום\nFC Caffe",
+            "en": "Our visit photograph at FC Caffe",
+            "pl": "Zdjęcie z naszej wizyty: FC Caffe",
+            "de": "Unser Besuchsfoto: FC Caffe",
+            "cs": "Fotografie z naší návštěvy: FC Caffe"
+          },
+          "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
+        },
+        "https://youtube.com/shorts/HNowfJsSUvc": {
+          "sourceSHA256": "74cf7ea1c5be746659d9cd6cdeefc812c8ba9a38c58dd7c6f6d38447aa6f2947",
+          "uploadSHA256": "64ccdb2461677da987b2f0f318a03c76af38299d80419aaa661828656db5cadd",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "processing": "SDcomplete",
+          "checks": "final-content-row-no-notices",
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "durationSeconds": 10.133333,
+          "reopenedVerified": true,
+          "title": {
+            "he": "ביקור בבית הקפה",
+            "en": "Cafe visit",
+            "pl": "Wizyta w kawiarni",
+            "de": "Cafébesuch",
+            "cs": "Návštěva kavárny"
+          },
+          "verifiedAt": "2026-10-20T20:28:10.361Z"
         }
       }
     },
@@ -16929,11 +17285,11 @@
       "cs": "Alej Jatki"
     },
     "description": {
-      "he": "סמטה היסטורית קטנה עם גלריות ואנדרטת בעלי החיים שנשחטו, אחת הפינות המיוחדות ליד הכיכר.",
-      "en": "A small historic alley with galleries and the memorable monument to slaughtered animals.",
-      "pl": "Niewielka historyczna uliczka z galeriami i charakterystycznym pomnikiem Ku Czci Zwierząt Rzeźnych.",
-      "de": "Eine kleine historische Gasse mit Galerien und dem denkwürdigen Denkmal für geschlachtete Tiere.",
-      "cs": "Malá historická ulička s galeriemi a památným pomníkem zabitých zvířat."
+      "he": "סמטת האטליזים ההיסטורית בין רחוב קיילבאשניצ׳ה לרחוב אודז׳נסקה בעיר העתיקה. כיום פועלות בה גלריות וסדנאות אמנות, ולצדן פסלי ברונזה לזכר בעלי החיים שנשחטו כאן. בתמונת הלילה שלנו נראים הפסלים, אבני הריצוף והמעבר המקורה. אפשר לשלב את הסמטה בהליכה בין כיכר השוק לאזור האוניברסיטה.\nStare Jatki\nJatki, Wrocław",
+      "en": "The historic former butchers’ alley between Kiełbaśnicza and Odrzańska in the Old Town. Galleries and artists’ studios now line the lane, beside bronze animal sculptures commemorating the animals slaughtered here. Our night photograph shows the sculptures, cobblestones and covered passage. Include the alley in a walk between Market Square and the university area.",
+      "pl": "Historyczna uliczka dawnych jatek między Kiełbaśniczą a Odrzańską na Starym Mieście. Dziś działają tu galerie i pracownie artystyczne, obok brązowych rzeźb upamiętniających zwierzęta rzeźne. Nasze nocne zdjęcie pokazuje pomnik, bruk i zadaszony pasaż. Uliczkę można połączyć ze spacerem między Rynkiem a uniwersytetem.",
+      "de": "Historische ehemalige Fleischergasse zwischen Kiełbaśnicza und Odrzańska in der Altstadt. Heute säumen Galerien und Künstlerateliers die Gasse, neben bronzenen Tierfiguren zum Gedenken an die hier geschlachteten Tiere. Unser Nachtfoto zeigt Skulpturen, Kopfsteinpflaster und den überdachten Durchgang. Die Gasse lässt sich in einen Spaziergang zwischen Rynek und Universität einbauen.",
+      "cs": "Historická bývalá řeznická ulička mezi Kiełbaśnicza a Odrzańska ve Starém Městě. Dnes ji lemují galerie a umělecké ateliéry vedle bronzových zvířat připomínajících zvířata zde porážená. Naše noční fotografie ukazuje sochy, dlažbu a krytý průchod. Uličku lze zařadit do procházky mezi Rynkem a univerzitou."
     },
     "location": {
       "countryCode": "PL",
@@ -16948,7 +17304,12 @@
       "special"
     ],
     "sourceUrls": [],
-    "aliases": [],
+    "aliases": [
+      "Chatki Alley",
+      "Jatki Alley",
+      "Stare Jatki",
+      "צ׳טקי אלי"
+    ],
     "sourceRecords": [
       {
         "productId": "wroclaw-24-hours",
@@ -17016,15 +17377,63 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://geoportal.wroclaw.pl/poi/u/212/Jatki",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://geoportal.wroclaw.pl/poi/u/212/Jatki",
+          "fact": "Municipal official street identity Jatki,TERYT07384."
+        },
+        {
+          "url": "https://visitwroclaw.s3.eu-central-1.amazonaws.com/wp-content/uploads/2025/06/Prezentacja_o_Wroclawiu_Dubaj-EN_en.pdf",
+          "fact": "Former butchers lane connectingKielbasniczaandOdrzanska."
+        }
+      ],
+      "mapDecision": "Preserve all three walking-route memberships; add Cultural history/art because the historic lane houses galleries and the animal memorial. No Lifestyle dining or excursions membership."
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg",
+      "photos": [
+        "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg": {
+          "sourceFile": "Chatki Alley/WhatsApp Image 2026-10-19 at 08.41.53 (9).jpeg",
+          "sourceSHA256": "b65beb93ee37ab5f2eaa6c5e8c5e7f3b0f519f86e2b029a7b0302de05e8097e7",
+          "assetSHA256": "bc092cc14ea11369a27dee1aae57439f5c0134df5b8d699e4141be0308d29464",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום\nStare Jatki",
+            "en": "Our visit photograph at Stare Jatki",
+            "pl": "Zdjęcie z naszej wizyty: Stare Jatki",
+            "de": "Unser Besuchsfoto: Stare Jatki",
+            "cs": "Fotografie z naší návštěvy: Stare Jatki"
+          },
+          "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -17051,19 +17460,6 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02UE3WryjQbaV9FiPAevRcn2Rrf92FvgNjAGieQwLB82eSfY1gmeDanHk396kvAVszl&id=61595239823399",
         "verifiedAt": "2026-10-08T15:00:15.259480+00:00"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "jawor-church-of-peace": {
@@ -43673,12 +44069,6 @@
   "galeria-dominikana": "dominikan",
   "גלריה דומיניקנסקה": "dominikan",
   "גלריה דומיניקנה": "dominikan",
-  "CAFE FC": "fc-caffe-kuznicza",
-  "Cafe FC": "fc-caffe-kuznicza",
-  "FC CAFFE": "fc-caffe-kuznicza",
-  "FC Caffe": "fc-caffe-kuznicza",
-  "קפה אף סי": "fc-caffe-kuznicza",
-  "קפה אפ סי": "fc-caffe-kuznicza",
   "Gustaw": "gustaw-restaurant-wroclaw",
   "Gustav": "gustaw-restaurant-wroclaw",
   "Restauracja Gustaw": "gustaw-restaurant-wroclaw",
@@ -43736,6 +44126,19 @@
   "טוליפ הוטלס ורוצלב פטיו": "tulip-hotels-wroclaw-patio",
   "Hotel Patio Wrocław": "tulip-hotels-wroclaw-patio",
   "Patio Hotel Kiełbaśnicza": "tulip-hotels-wroclaw-patio",
+  "CAFE FC": "fc-caffe-kuznicza",
+  "Cafe FC": "fc-caffe-kuznicza",
+  "FC CAFFE": "fc-caffe-kuznicza",
+  "FC Caffe": "fc-caffe-kuznicza",
+  "קפה אף סי": "fc-caffe-kuznicza",
+  "קפה אפ סי": "fc-caffe-kuznicza",
+  "Chatki Alley": "jatki",
+  "Jatki Alley": "jatki",
+  "Stare Jatki": "jatki",
+  "צ׳טקי אלי": "jatki",
+  "Domek nad Fosa": "domek-nad-fosa-wroclaw",
+  "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
+  "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
