@@ -35,6 +35,16 @@
         const style=getComputedStyle(header), r=header.getBoundingClientRect();
         if((style.position==='fixed'||style.position==='sticky')&&r.top<=viewport.top+1&&r.bottom>viewport.top&&r.left<container.getBoundingClientRect().right&&r.right>container.getBoundingClientRect().left) viewport.top=r.bottom;
       });
+      // Corner controls live above the transformed map pane. Reserve their top
+      // row rather than moving panes or covering zoom/navigation controls.
+      container.querySelectorAll('.leaflet-top .leaflet-control').forEach(control=>{
+        const r=control.getBoundingClientRect();
+        if(r.width&&r.height&&r.bottom>viewport.top&&r.top<viewport.bottom) viewport.top=Math.max(viewport.top,r.bottom);
+      });
+      container.querySelectorAll('.leaflet-bottom .leaflet-control').forEach(control=>{
+        const r=control.getBoundingClientRect();
+        if(r.width&&r.height&&r.top<viewport.bottom&&r.bottom>viewport.top) viewport.bottom=Math.min(viewport.bottom,r.top);
+      });
       const bounds=visibleBounds(container.getBoundingClientRect(),viewport);
       // A map outside the viewport waits for scrolling; do not scroll the page or
       // collapse a popup into a sliver when its map is almost entirely offscreen.
