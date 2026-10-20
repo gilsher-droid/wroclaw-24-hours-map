@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-20",
+  "familyException": false,
+  "districtSelectedSources": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_1043.JPG",
+      "sourceSHA256": "7e258188ebea1bb64b8c1d8f6314200be367053cf849cd68d14670d3a4ccde56",
+      "prepared": "outputs/four-denominations-enrichment-2026-10-20/prepared-photos/four-denominations-district-plaque.jpg",
+      "preparedSHA256": "f9950a8b65457277d2a0595db7e58e728a6a9e2a141e0cc0e23dc864009fde9d",
+      "kind": "photo",
+      "selectionReason": "District four-faith symbols paving plaque"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_1044.JPG",
+      "sourceSHA256": "f5ded5bb2f18c4d035e8d07fad65f279e764f747925f5377bb2c86e184bdcae9",
+      "prepared": "outputs/four-denominations-enrichment-2026-10-20/prepared-photos/four-denominations-district-crystal-planet.jpg",
+      "preparedSHA256": "c5c9e699c956430b03f3144467e22d679dc212f191c2e09e16dcb552a86efc88",
+      "kind": "photo",
+      "selectionReason": "Crystal Planet sculpture at symbolic district entrance"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-07-13 at 19.56.02 (1).jpeg",
+      "sourceSHA256": "26891c678af3a4653702a1f8c99500ab44fe1b78cb010b75716ab4bfe1d54b39",
+      "prepared": "outputs/four-denominations-enrichment-2026-10-20/prepared-photos/four-denominations-district-street.jpg",
+      "preparedSHA256": "bcadc7676862e9801aeaabd2af60a8ef81c9d472c319132eec309ff923cd44db",
+      "kind": "photo",
+      "selectionReason": "Saint Anthony Street architecture and cafés"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.48.00 (1).jpeg",
+      "sourceSHA256": "95e34d14e2b84ad364db27bdc4f6fd1b38c28767dbecc55fba286fd0c62d7c78",
+      "prepared": "outputs/four-denominations-enrichment-2026-10-20/prepared-photos/four-denominations-district-rotbaum-plaque.jpg",
+      "preparedSHA256": "d933118b4ae5dc9fb2fde5e869c5b5e528ba489d1fb0ebf6e6cb6f21a0b41521",
+      "kind": "photo",
+      "selectionReason": "Jakub and Lia Rotbaum memorial plaque on Włodkowica"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.48.01.jpeg",
+      "sourceSHA256": "f7fe3903df3c350d5e9dd5ffc98c2d3773c0bc1e1f9e7e1266b723bc193d2ad6",
+      "prepared": "outputs/four-denominations-enrichment-2026-10-20/prepared-photos/four-denominations-district-wlodkowica-entrance.jpg",
+      "preparedSHA256": "b154ae4b12fdeddaec607caa20a81950739f49d7b385e49ab4375123ac9a3257",
+      "kind": "photo",
+      "selectionReason": "Włodkowica doorway alongside Rotbaum plaque"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.22.mp4",
+      "sourceSHA256": "0f51eab1bb3134e219d271f758a5a76ae195fbc9ed21e10278e3532fd60c20b9",
+      "prepared": "outputs/four-denominations-enrichment-2026-10-20/prepared-visits/four-denominations-district-visit-01.mp4",
+      "preparedSHA256": "0f1dc9bf9a2d856f97452b404cef40a35949a5fd1f7cd5a1a3f862bd92b0ef14",
+      "kind": "visitVideo",
+      "duration": 3.366667,
+      "audioRemoved": true,
+      "selectionReason": "Public street/café frontage, architectural context; sampled start/middle/end; no posed personal subject",
+      "youtubeVisibilityRequired": "public",
+      "youtubeDedupe": "pending-browser-lease"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.24.mp4",
+      "sourceSHA256": "aee6f15ba693787c82c7d1170635a1539089a54ff399096d3e13e8525b305d23",
+      "prepared": "outputs/four-denominations-enrichment-2026-10-20/prepared-visits/four-denominations-district-visit-02.mp4",
+      "preparedSHA256": "758baadecc43a0a03e3a4925172e2ba9677a0b45bcd1bf5d70c55ae1f2496b99",
+      "kind": "visitVideo",
+      "duration": 5.533333,
+      "audioRemoved": true,
+      "selectionReason": "Public street/café frontage, architectural context; sampled start/middle/end; no posed personal subject",
+      "youtubeVisibilityRequired": "public",
+      "youtubeDedupe": "pending-browser-lease"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.26.mp4",
+      "sourceSHA256": "cc131f1a4750ce45595c229f71aad93125e7cd2dd978a4ad0fda00835385d619",
+      "prepared": "outputs/four-denominations-enrichment-2026-10-20/prepared-visits/four-denominations-district-visit-03.mp4",
+      "preparedSHA256": "52c32a066442370db1c88fdddaa6b78311b35ec6505c68510795809a4b84d609",
+      "kind": "visitVideo",
+      "duration": 6.9,
+      "audioRemoved": true,
+      "selectionReason": "Public street/café frontage, architectural context; sampled start/middle/end; no posed personal subject",
+      "youtubeVisibilityRequired": "public",
+      "youtubeDedupe": "pending-browser-lease"
+    }
+  ],
+  "whiteStorkSelection": [
+    {
+      "index": 0,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.42.39.jpeg",
+      "sha256": "9892883d4390e1fbb7e8cb1c9e4d754b455ada7d44ccd31d4a0a4a40349303e8",
+      "size": 355851,
+      "dimensions": [
+        900,
+        1600
+      ],
+      "decision": "exclude-personal",
+      "reason": "Personalportraitforeground; no place-specificfamilyapproval"
+    },
+    {
+      "index": 1,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.42.40.jpeg",
+      "sha256": "b39f994816ed1bf556a54caa96496f5271547b3f6cc8071c83ab1b1ec4109d09",
+      "size": 284514,
+      "dimensions": [
+        900,
+        1600
+      ],
+      "decision": "exclude-personal",
+      "reason": "Personalportraitforeground; no place-specificfamilyapproval"
+    },
+    {
+      "index": 2,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.44.41.jpeg",
+      "sha256": "64e2890c0771fe4f49d4556e288d2d9dac4065fac0ce85d133188ab1fbe15b38",
+      "size": 529318,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "exclude-personal",
+      "reason": "Personalportraitforeground; no place-specificfamilyapproval"
+    },
+    {
+      "index": 3,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.46.24 (1).jpeg",
+      "sha256": "e3b61763b77ed1e9788e72efc48bb7aaab61d2104a723b1ac5f5499a13c767be",
+      "size": 553966,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "delegate-district",
+      "reason": "Fourfaithspavingplaque ratherthansynagogue-specificmedia"
+    },
+    {
+      "index": 4,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.46.24 (2).jpeg",
+      "sha256": "d25ef2f9c808b1ccc512f52766335cb609deaba47fa9c007c7ee2e7ee7cb7ab1",
+      "size": 399366,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "delegate-district",
+      "reason": "CrystalPlanetstreetart ratherthansynagogue"
+    },
+    {
+      "index": 5,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.46.24.jpeg",
+      "sha256": "201f6f3dcb102370e8488d40e272ad5499245465194fad525e17624aae493a0d",
+      "size": 462494,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "select",
+      "reason": "Jewishcommunitycomplexfacade surroundingWhiteStorkcourtyard; notmainneoclassicalsynagoguefacade"
+    },
+    {
+      "index": 6,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.48.00 (1).jpeg",
+      "sha256": "95e34d14e2b84ad364db27bdc4f6fd1b38c28767dbecc55fba286fd0c62d7c78",
+      "size": 264582,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "delegate-district",
+      "reason": "JakubandLiaRotbaummemorialplaque atWlodkowica5 notsynagogue"
+    },
+    {
+      "index": 7,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.48.01 (1).jpeg",
+      "sha256": "d1b258c837c9e35e305a16a3c8924a843b51c2697bb93b3116ee555eb07f8fdc",
+      "size": 512331,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "select-thumbnail",
+      "reason": "CourtyardofWhiteStorkSynagoguewithmainneoclassicalbuildinginbackground; nopersonalforeground"
+    },
+    {
+      "index": 8,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.48.01.jpeg",
+      "sha256": "f7fe3903df3c350d5e9dd5ffc98c2d3773c0bc1e1f9e7e1266b723bc193d2ad6",
+      "size": 282245,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "delegate-district",
+      "reason": "Mleczarniahostelentrance Wlodkowica5 notsynagogue"
+    },
+    {
+      "index": 9,
+      "path": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-07-13 at 19.56.02.jpeg",
+      "sha256": "bbdc78b7c81e53331aeae5d8496f442e30aa812a385472f1b885e106024c7040",
+      "size": 565244,
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "decision": "select",
+      "reason": "Stainedglassdetails inJewishcommunitycomplexcourtyard; nopersonalforeground"
+    }
+  ],
+  "websitePreservation": "Two new independent records only; all existing 191 places preserved; no new social publication; district guide not requested"
+}
