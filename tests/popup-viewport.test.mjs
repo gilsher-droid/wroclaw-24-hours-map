@@ -34,15 +34,14 @@ test('open/resize fitting caps tall content, pans once and settles without a fee
  const element={querySelector:()=>content,classList:{add(){}},getBoundingClientRect:()=>popupRect};
  const popup={options:{maxWidth:340,minWidth:50,autoPan:true,keepInView:true},getElement:()=>element,update(){updates++;popupRect.right=popupRect.left+this.options.maxWidth+30;popupRect.bottom=popupRect.top+this.options.maxHeight+26;}};
  const handlers={},listeners={};
- const container={getBoundingClientRect:()=>mapRect,addEventListener(){},removeEventListener(){}};
- const pane={style:{}};
- const map={getPane:()=>pane,getContainer:()=>container,hasLayer:()=>true,on(names,fn){names.split(' ').forEach(n=>handlers[n]=fn);},panBy([x,y],options){assert.equal(options.animate,false);pans++;popupRect={left:popupRect.left-x,right:popupRect.right-x,top:popupRect.top-y,bottom:popupRect.bottom-y};handlers.moveend();}};
+ const container={querySelectorAll:()=>[{getBoundingClientRect:()=>({...rect(22,290,54,350),width:32,height:60})}],getBoundingClientRect:()=>mapRect,addEventListener(){},removeEventListener(){}};
+ const map={getContainer:()=>container,hasLayer:()=>true,on(names,fn){names.split(' ').forEach(n=>handlers[n]=fn);},panBy([x,y],options){assert.equal(options.animate,false);pans++;popupRect={left:popupRect.left-x,right:popupRect.right-x,top:popupRect.top-y,bottom:popupRect.bottom-y};handlers.moveend();}};
  const root={L:{Map:{addInitHook(fn){mapHook=fn;}},Popup:{addInitHook(fn){popupHook=fn;}}},innerWidth:390,innerHeight:844,addEventListener(n,fn){listeners[n]=fn;},removeEventListener(){},document:{querySelectorAll:()=>[]},requestAnimationFrame(fn){frames.push(fn);return frames.length;},cancelAnimationFrame(){},ResizeObserver:class{observe(){}disconnect(){}}};
  root.window=root;vm.runInNewContext(readFileSync('popup-viewport.js','utf8'),root);
  popupHook.call(popup);assert.equal(popup.options.autoPan,false);assert.equal(popup.options.keepInView,false);
- mapHook.call(map);assert.equal(pane.style.zIndex,'1100');handlers.popupopen({popup});
+ mapHook.call(map);handlers.popupopen({popup});
  function drain(){let count=0;while(frames.length){assert.ok(++count<10,'fitter must settle');frames.shift()();}}
- drain();assert.equal(pans,1);assert.equal(content.style.overflowY,'auto');assert.equal(content.style.width,'291px');assert.equal(content.style.maxHeight,'367px');assert.ok(popupRect.top>=292);assert.ok(popupRect.bottom<=707);
+ drain();assert.equal(pans,1);assert.equal(content.style.overflowY,'auto');assert.equal(content.style.width,'291px');assert.equal(content.style.maxHeight,'297px');assert.ok(popupRect.top>=362);assert.ok(popupRect.bottom<=707);
  mapRect=rect(12,280,363,500);handlers.resize();drain();assert.equal(updates,2);assert.ok(popupRect.bottom<=488);
  handlers.popupclose();listeners.resize();assert.equal(frames.length,0);
 });

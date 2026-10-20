@@ -20,10 +20,6 @@
   root.L.Popup.addInitHook(function () { this.options.autoPan=false; this.options.keepInView=false; });
   root.L.Map.addInitHook(function () {
     const map=this, container=map.getContainer();
-    // Leaflet corner controls use z-index 1000; an open popup must not have its
-    // title or close button obscured when fitted against the map's upper edge.
-    const pane=map.getPane?.('popupPane');
-    if(pane) pane.style.zIndex='1100';
     let active=null, frame=0, observer=null;
     const originalOptions=new WeakMap();
     function schedule() { if(active&&!frame) frame=requestAnimationFrame(fit); }
@@ -38,6 +34,12 @@
       document.querySelectorAll('header, #wroc-now-in-wroclaw').forEach(header=>{
         const style=getComputedStyle(header), r=header.getBoundingClientRect();
         if((style.position==='fixed'||style.position==='sticky')&&r.top<=viewport.top+1&&r.bottom>viewport.top&&r.left<container.getBoundingClientRect().right&&r.right>container.getBoundingClientRect().left) viewport.top=r.bottom;
+      });
+      // Corner controls live above the transformed map pane. Reserve their top
+      // row rather than moving panes or covering zoom/navigation controls.
+      container.querySelectorAll('.leaflet-top .leaflet-control').forEach(control=>{
+        const r=control.getBoundingClientRect();
+        if(r.width&&r.height&&r.bottom>viewport.top&&r.top<viewport.bottom) viewport.top=Math.max(viewport.top,r.bottom);
       });
       const bounds=visibleBounds(container.getBoundingClientRect(),viewport);
       // A map outside the viewport waits for scrolling; do not scroll the page or
