@@ -88,3 +88,5 @@ article[data-place="central"] p,article[data-place="central-cafe-nadodrze"] p,ar
 article[data-place="boguslawskiego"] p,article[data-canonical-place-id="boguslawskiego"] p{white-space:pre-line;}
 
 .leaflet-popup-content:has(img[src*="boguslawskiego"]) > span,.premium-popup:has(img[src*="boguslawskiego"]) p{white-space:pre-line;}
+
+.evening-item:has([data-location="boguslawskiego"]) p { white-space:pre-line; }
