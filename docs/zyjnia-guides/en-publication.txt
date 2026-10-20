@@ -1,0 +1,217 @@
+- generic: All changes saved.
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide"'
+  - generic: 1:24
+  - generic: Your video
+  - generic: Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: English"':
+    - 'heading "Video language: English" [level=2]'
+    - button "Details":
+    - generic: English subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - generic: 3 translations
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup:
+        - row "Czech 1 published":
+          - cell "Czech":
+            - button "Czech":
+              - generic: Czech
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "German 1 published":
+          - cell "German":
+            - button "German":
+              - generic: German
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Polish 1 published":
+          - cell "Polish":
+            - button "Polish":
+              - generic: Polish
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+- generic: Title Description
+- dialog:
+  - generic: Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide
+  - button "Send Feedback":
+  - button "Save and close" [disabled]:
+  - tablist:
+    - tab "Details":
+      - generic: Details
+    - tab "Video elements":
+      - generic: Video elements
+    - tab "Initial check":
+      - generic: Initial check
+    - tab "Visibility" [selected]:
+      - generic: Visibility
+  - progressbar
+  - heading "Visibility" [level=1]
+  - generic: Choose when to publish and who can see your video
+  - paragraph: Save or publish
+  - paragraph:
+    - generic: Make your video public, unlisted or private
+  - radiogroup:
+    - radio "Private":
+      - generic: Private
+    - paragraph: Only you and people who you choose can watch your video
+    - radio "Unlisted":
+      - generic: Unlisted
+    - generic: Anyone with the video link can watch your video
+    - radio "Public" [checked]:
+      - generic: Public
+    - paragraph: Everyone can watch your video
+  - paragraph: Schedule
+  - paragraph:
+    - generic: Select a date to make your video public.
+  - button "Click to expand":
+  - heading "Before you publish, check the following:" [level=2]
+  - heading "Do children appear in this video?" [level=3]
+  - text: Make sure that you follow our policies to protect minors from harm, exploitation, bullying and violations of labour law.
+  - link "Learn more":
+    - /url: https://support.google.com/youtube/answer/2801999?hl=en-GB
+  - heading "Looking for overall content guidance?" [level=3]
+  - text: Our Community Guidelines can help you avoid trouble and ensure that YouTube remains a safe and vibrant community.
+  - link "Learn more":
+    - /url: https://www.youtube.com/yt/about/policies#community-guidelines
+  - status
+  - region "Video player":
+    - button "Play":
+    - button "Mute":
+    - slider "volume"
+    - generic: 0:00 / 1:24
+    - button "Full screen":
+  - generic: Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide
+  - generic: Video link
+  - link "https://youtube.com/shorts/BAueoGqdcC4":
+    - /url: https://youtube.com/shorts/BAueoGqdcC4
+  - button "Copy video link":
+  - generic "Video upload complete":
+  - generic "Video processing Processing complete":
+  - generic "Copyright check complete No issues found Community Guidelines":
+  - generic: Checks complete. No issues found.
+  - button "Back" [disabled]:
+    - generic: Back
+  - button "Publish" [disabled]:
+    - generic: Publish
+- generic "Video published":
+  - dialog "Video published" [active]:
+    - heading "Video published" [level=1]
+    - button "Close":
+    - 'img "Video thumbnail: Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide"'
+    - generic: 1:24
+    - generic: Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide
+    - generic: Uploaded 20 Oct 2026
+    - heading "Share a link" [level=2]
+    - toolbar:
+      - button "WhatsApp":
+        - button "WhatsApp":
+          - generic: WhatsApp
+      - button "Facebook":
+        - button "Facebook":
+          - generic: Facebook
+      - button "X":
+        - button "X":
+          - generic: X
+      - button "Email":
+        - button "Email":
+          - generic: Email
+      - button "Reddit":
+        - button "Reddit":
+          - generic: Reddit
+      - button "Pinterest":
+        - button "Pinterest":
+          - generic: Pinterest
+      - button "LinkedIn":
+        - button "LinkedIn":
+          - generic: LinkedIn
+    - button "HORIZONTAL_LIST_NEXT_LABEL":
+    - generic: Video link
+    - link "https://youtube.com/shorts/BAueoGqdcC4?feature=share":
+      - /url: https://youtube.com/shorts/BAueoGqdcC4?feature=share
+    - button "Copy video link":
+    - button "Close":
+      - generic: Close

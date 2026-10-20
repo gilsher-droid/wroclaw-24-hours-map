@@ -63,3 +63,6 @@
 .place-card[data-place="wroclavia"] p,
 .premium-stop-card[data-canonical-place-id="wroclavia"] p,
 .recommendation-card[data-canonical-place-id="wroclavia"] p { white-space:pre-line; }
+
+/* Show the complete gallery façade in the canonical popup. */
+.place-popup-photo[src*="/zyjnia-bwa/"] { object-fit:contain; background:#f4f0e8; }

@@ -1,0 +1,34 @@
+Browser tab: 31058179, Title: "Żyjnia BWA Wrocław: ciekawość... - Wroc-Love Wrocław i Dolny Śląsk | Facebook", URL: "https://www.facebook.com/permalink.php?story_fbid=pfbid048vMYhwsEVEtg8c6cUPLyFPjYXF6rxXoKHu9AJNhWHn2Q4RNBdwJT9LYtLHzPqs8l&id=61595207664875".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 7-14, 38-39
++			38 container
++				39 container Account Controls and Settings
++					40 pop up button (collapsed) Description: Facebook menu, Secondary Actions: Expand
++					41 pop up button (collapsed) Description: Messenger, Secondary Actions: Expand
++					42 pop up button (collapsed) Description: Notifications, Secondary Actions: Expand
++					43 container
++						44 pop up button (collapsed) Description: Your profile, Secondary Actions: Expand
++							45 container
++								46 image Your profile
++							47 container
++								48 button Like
++								49 button React
++							50 button Leave a comment
++							51 button Share, send this to friends or post it on your profile.
++							52 heading No comments yet, Value: 3
++								53 text No comments yet
++							54 text Be the first to comment.
++						55 container
++							56 button Switch to a different profile or Page
++							57 text entry area (settable) Description: Comment as Giles Sher, Value:
+
++							58 content list
++								59 pop up button (collapsed) Description: Comment with an avatar sticker, Secondary Actions: Expand
++								60 pop up button (collapsed) Description: Insert an emoji, Secondary Actions: Expand
++								61 button Attach a photo or video
++								62 pop up button (collapsed) Description: Add an AI label, Secondary Actions: Expand
++								63 pop up button (collapsed) Description: Comment with a GIF, Secondary Actions: Expand
++								64 pop up button (collapsed) Description: Comment with a sticker, Secondary Actions: Expand
++							65 text You're commenting as Giles Sher.
++			66 button New message
+The focused UI element is 20 button Close

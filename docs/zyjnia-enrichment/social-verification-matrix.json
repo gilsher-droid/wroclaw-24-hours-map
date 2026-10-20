@@ -1,0 +1,124 @@
+[
+  {
+    "language": "he",
+    "platform": "facebook",
+    "url": null,
+    "state": "not-found-in-registry-no-new-publication-authorized",
+    "historicalRecord": [],
+    "limitation": "No matching savedpost; fullaccountarchivesnotexhaustivelysearched"
+  },
+  {
+    "language": "he",
+    "platform": "instagram",
+    "url": null,
+    "state": "not-found-in-registry-no-new-publication-authorized",
+    "historicalRecord": [],
+    "limitation": "No matching savedpost; fullaccountarchivesnotexhaustivelysearched"
+  },
+  {
+    "language": "en",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HQCFgc7yZKPPDd1BJipHvnaZqCjWL6xuvU4oY2uBez2d3WxmhxPn9DrjrgiLBSDTl&id=61595036942289",
+    "state": "exact-place-written-post-verified",
+    "historicalRecord": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HQCFgc7yZKPPDd1BJipHvnaZqCjWL6xuvU4oY2uBez2d3WxmhxPn9DrjrgiLBSDTl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      }
+    ],
+    "verifiedAt": "2026-10-20T08:22:22.708439+00:00",
+    "accountId": "61595036942289",
+    "account": "Wroc-Love Wrocław & Lower Silesia",
+    "contentVerified": "Żyjnia BWA Wrocław at Świdnicka2-4; written post in matching language on matching account",
+    "evidence": [
+      "facebook-en.txt",
+      "facebook-en.png"
+    ]
+  },
+  {
+    "language": "en",
+    "platform": "instagram",
+    "url": null,
+    "state": "not-found-in-registry-no-new-publication-authorized",
+    "historicalRecord": [],
+    "limitation": "No matching savedpost; fullaccountarchivesnotexhaustivelysearched"
+  },
+  {
+    "language": "pl",
+    "platform": "facebook",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid048vMYhwsEVEtg8c6cUPLyFPjYXF6rxXoKHu9AJNhWHn2Q4RNBdwJT9LYtLHzPqs8l&id=61595207664875",
+    "state": "exact-place-written-post-verified",
+    "historicalRecord": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid048vMYhwsEVEtg8c6cUPLyFPjYXF6rxXoKHu9AJNhWHn2Q4RNBdwJT9LYtLHzPqs8l&id=61595207664875",
+        "verifiedAt": "2026-10-08T15:59:15.121Z"
+      }
+    ],
+    "verifiedAt": "2026-10-20T08:22:22.708658+00:00",
+    "accountId": "61595207664875",
+    "account": "Wroc-Love Wrocław i Dolny Śląsk",
+    "contentVerified": "Żyjnia BWA Wrocław at Świdnicka2-4; written post in matching language on matching account",
+    "evidence": [
+      "facebook-pl.txt",
+      "facebook-pl.png"
+    ]
+  },
+  {
+    "language": "pl",
+    "platform": "instagram",
+    "url": null,
+    "state": "not-found-in-registry-no-new-publication-authorized",
+    "historicalRecord": [],
+    "limitation": "No matching savedpost; fullaccountarchivesnotexhaustivelysearched"
+  },
+  {
+    "language": "de",
+    "platform": "facebook",
+    "url": null,
+    "state": "not-found-in-registry-no-new-publication-authorized",
+    "historicalRecord": [],
+    "limitation": "No matching savedpost; fullaccountarchivesnotexhaustivelysearched"
+  },
+  {
+    "language": "de",
+    "platform": "instagram",
+    "url": null,
+    "state": "not-found-in-registry-no-new-publication-authorized",
+    "historicalRecord": [],
+    "limitation": "No matching savedpost; fullaccountarchivesnotexhaustivelysearched"
+  },
+  {
+    "language": "cs",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ghZXye7Ndozg5UUqAW8PT2vth7R77VP81EQGsWu6BMavB4jpPJ2jKrg2UD36EmkQl&id=61594716405964",
+    "state": "exact-place-written-post-verified",
+    "historicalRecord": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ghZXye7Ndozg5UUqAW8PT2vth7R77VP81EQGsWu6BMavB4jpPJ2jKrg2UD36EmkQl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      }
+    ],
+    "verifiedAt": "2026-10-20T08:22:22.708660+00:00",
+    "accountId": "61594716405964",
+    "account": "Wroc-Love Vratislav a Dolní Slezsko",
+    "contentVerified": "Żyjnia BWA Wrocław at Świdnicka2-4; written post in matching language on matching account",
+    "evidence": [
+      "facebook-cs.txt",
+      "facebook-cs.png"
+    ]
+  },
+  {
+    "language": "cs",
+    "platform": "instagram",
+    "url": null,
+    "state": "not-found-in-registry-no-new-publication-authorized",
+    "historicalRecord": [],
+    "limitation": "No matching savedpost; fullaccountarchivesnotexhaustivelysearched"
+  }
+]

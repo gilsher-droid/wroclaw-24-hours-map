@@ -1,0 +1,507 @@
+{
+  "canonicalPlaceIds": [
+    "zyjnia-bwa-wroclaw"
+  ],
+  "editions": {
+    "he": {
+      "id": "ZO-A54BIZQk",
+      "url": "https://youtube.com/shorts/ZO-A54BIZQk",
+      "sourceLanguage": "he",
+      "durationSeconds": 64.733333,
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "checks": "Copyright and Community Guidelines complete, no issues",
+      "sourceSHA256": "fe87c7a451e569ab0f2f030036e25a8e98d4e846555ce2a858e05bf2821f9e9a",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BSW/המדריך שלנו/WhatsApp Video 2026-10-19 at 08.42.20.mp4",
+      "uploadSHA256": "fe87c7a451e569ab0f2f030036e25a8e98d4e846555ce2a858e05bf2821f9e9a",
+      "originalPictureAudioUnchanged": true
+    },
+    "en": {
+      "id": "BAueoGqdcC4",
+      "url": "https://youtube.com/shorts/BAueoGqdcC4",
+      "sourceLanguage": "en",
+      "durationSeconds": 83.766667,
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "checks": "Copyright and Community Guidelines complete, no issues",
+      "sourceSHA256": "018b04b05a579585d861abda9abf6ef23152ae2487e70b605862842932560c11",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BSW/המדריך שלנו/WhatsApp Video 2026-10-19 at 08.42.31.mp4",
+      "uploadSHA256": "018b04b05a579585d861abda9abf6ef23152ae2487e70b605862842932560c11",
+      "originalPictureAudioUnchanged": true
+    }
+  },
+  "tracks": {
+    "he": {
+      "language": "he",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "ZO-A54BIZQk",
+      "srtFile": "captions/zyjnia-bwa/he.srt",
+      "srtSHA256": "fc040e3bef33f31a77351427b25babe81a432228ccdaeecde82a9c1b5aa38dda",
+      "cueCount": 14,
+      "cues": [
+        {
+          "start": 2.38,
+          "end": 5.94,
+          "text": "אנחנו נמצאים במדרחוב\nשווידניצקה."
+        },
+        {
+          "start": 6.06,
+          "end": 10.72,
+          "text": "מדרחוב סואן, עמוס באנשים,"
+        },
+        {
+          "start": 11.72,
+          "end": 18.66,
+          "text": "רועש, אבל בתוך כל הרעש הזה\nוההמולה הזו"
+        },
+        {
+          "start": 18.66,
+          "end": 22.68,
+          "text": "ניתן להיכנס לגלריה\nשנמצאת פה מאחוריי,"
+        },
+        {
+          "start": 23.57,
+          "end": 28.94,
+          "text": "שהיא גם גלריה לאמנות עכשווית\nוהיא גם סלון עירוני."
+        },
+        {
+          "start": 29.78,
+          "end": 34.56,
+          "text": "בפנים אתם תמצאו חלל\nעם מיצגים אמנותיים, אמנותיים,"
+        },
+        {
+          "start": 34.56,
+          "end": 39.68,
+          "text": "וגם מקומות ישיבה ואפילו\nאפשרות להכין לכם כאן תה."
+        },
+        {
+          "start": 41.2,
+          "end": 46.26,
+          "text": "ומקומות הישיבה בעצם\nמשולבים בתוך התערוכה,"
+        },
+        {
+          "start": 46.26,
+          "end": 49.34,
+          "text": "ואתם פשוט מוזמנים\nלשבת ולשתות כוס תה,"
+        },
+        {
+          "start": 49.34,
+          "end": 52.3,
+          "text": "לנוח רגע מההמולה\nשל העיר הגדולה"
+        },
+        {
+          "start": 52.3,
+          "end": 58.56,
+          "text": "וליהנות מהשלווה והשקט\nומיצירות האמנות שמקיפות אתכם."
+        },
+        {
+          "start": 58.82,
+          "end": 60.22,
+          "text": "מומלץ מאוד."
+        },
+        {
+          "start": 60.82,
+          "end": 62.58,
+          "text": "נתראה בווידאו הבא."
+        },
+        {
+          "start": 62.9,
+          "end": 63.66,
+          "text": "Do widzenia."
+        }
+      ],
+      "evidence": [
+        "docs/zyjnia-guides/he-captions-reopened.txt",
+        "docs/zyjnia-guides/he-captions-reopened.png"
+      ]
+    },
+    "en": {
+      "language": "en",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "BAueoGqdcC4",
+      "srtFile": "captions/zyjnia-bwa/en.srt",
+      "srtSHA256": "26d0bfd6f6ee637a9789150302912c6649663a37d2351bf5d02196079eef54e7",
+      "cueCount": 16,
+      "cues": [
+        {
+          "start": 2.7,
+          "end": 9.48,
+          "text": "We are in the busy pedestrian\nstreet of Świdnicka."
+        },
+        {
+          "start": 9.9,
+          "end": 15.62,
+          "text": "It's noisy, it's lively,\nit's full of people, it's bustling."
+        },
+        {
+          "start": 16.5,
+          "end": 22.32,
+          "text": "However, if you walk just inside\nthe space behind me through that door,"
+        },
+        {
+          "start": 22.32,
+          "end": 28.28,
+          "text": "you will reach a piece of heaven,"
+        },
+        {
+          "start": 28.76,
+          "end": 32.72,
+          "text": "a piece of serenity\nin which you can relax"
+        },
+        {
+          "start": 32.72,
+          "end": 37.06,
+          "text": "and enjoy a modern art exhibition"
+        },
+        {
+          "start": 38.42,
+          "end": 43.1,
+          "text": "and places just to sit\nand enjoy a cup of tea,"
+        },
+        {
+          "start": 43.1,
+          "end": 47.22,
+          "text": "just like you are\nin your living room."
+        },
+        {
+          "start": 47.22,
+          "end": 51.32,
+          "text": "Rest and just admire"
+        },
+        {
+          "start": 51.32,
+          "end": 57.4,
+          "text": "the beautiful artistic artifacts"
+        },
+        {
+          "start": 57.4,
+          "end": 61.06,
+          "text": "that are around you in the space."
+        },
+        {
+          "start": 61.96,
+          "end": 66.3,
+          "text": "The exhibition is presenting\ndifferent artists"
+        },
+        {
+          "start": 66.3,
+          "end": 72.44,
+          "text": "and it's seasonal,\nit's changing through the year."
+        },
+        {
+          "start": 72.44,
+          "end": 77.6,
+          "text": "So I invite you to visit\nthis amazing gallery"
+        },
+        {
+          "start": 77.6,
+          "end": 78.78,
+          "text": "and it's for free."
+        },
+        {
+          "start": 79.52,
+          "end": 81.1,
+          "text": "See you on our next video."
+        }
+      ],
+      "evidence": [
+        "docs/zyjnia-guides/en-captions-reopened.txt",
+        "docs/zyjnia-guides/en-captions-reopened.png"
+      ]
+    },
+    "pl": {
+      "language": "pl",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "BAueoGqdcC4",
+      "srtFile": "captions/zyjnia-bwa/pl.srt",
+      "srtSHA256": "8bd5947f76876c031c56a033cd880723aa43838ec420b882085ef937e0cee5e9",
+      "cueCount": 16,
+      "cues": [
+        {
+          "start": 2.7,
+          "end": 9.48,
+          "text": "Jesteśmy na ruchliwym deptaku\nprzy ulicy Świdnickiej."
+        },
+        {
+          "start": 9.9,
+          "end": 15.62,
+          "text": "Jest głośno, tętni tu życie,\njest mnóstwo ludzi i ruchu."
+        },
+        {
+          "start": 16.5,
+          "end": 22.32,
+          "text": "Jeśli jednak wejdziecie do środka,\nprzez te drzwi za mną,"
+        },
+        {
+          "start": 22.32,
+          "end": 28.28,
+          "text": "znajdziecie kawałek nieba,"
+        },
+        {
+          "start": 28.76,
+          "end": 32.72,
+          "text": "oazę spokoju,\nw której można odpocząć"
+        },
+        {
+          "start": 32.72,
+          "end": 37.06,
+          "text": "i obejrzeć wystawę sztuki nowoczesnej"
+        },
+        {
+          "start": 38.42,
+          "end": 43.1,
+          "text": "oraz miejsca, gdzie można usiąść\ni wypić filiżankę herbaty,"
+        },
+        {
+          "start": 43.1,
+          "end": 47.22,
+          "text": "zupełnie jak we własnym salonie."
+        },
+        {
+          "start": 47.22,
+          "end": 51.32,
+          "text": "Odpocząć i po prostu podziwiać"
+        },
+        {
+          "start": 51.32,
+          "end": 57.4,
+          "text": "piękne dzieła sztuki,"
+        },
+        {
+          "start": 57.4,
+          "end": 61.06,
+          "text": "które otaczają was w tej przestrzeni."
+        },
+        {
+          "start": 61.96,
+          "end": 66.3,
+          "text": "Wystawa prezentuje\nróżnych artystów"
+        },
+        {
+          "start": 66.3,
+          "end": 72.44,
+          "text": "i ma charakter sezonowy,\nzmienia się w ciągu roku."
+        },
+        {
+          "start": 72.44,
+          "end": 77.6,
+          "text": "Zapraszam więc do odwiedzenia\ntej wspaniałej galerii."
+        },
+        {
+          "start": 77.6,
+          "end": 78.78,
+          "text": "Wstęp jest bezpłatny."
+        },
+        {
+          "start": 79.52,
+          "end": 81.1,
+          "text": "Do zobaczenia w naszym kolejnym filmie."
+        }
+      ],
+      "evidence": [
+        "docs/zyjnia-guides/pl-captions-reopened.txt",
+        "docs/zyjnia-guides/pl-captions-reopened.png"
+      ]
+    },
+    "de": {
+      "language": "de",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "BAueoGqdcC4",
+      "srtFile": "captions/zyjnia-bwa/de.srt",
+      "srtSHA256": "acdc7c063cfa0714120f3b3bb15624efa61e4afc335eb20cb735ce94ff54820d",
+      "cueCount": 16,
+      "cues": [
+        {
+          "start": 2.7,
+          "end": 9.48,
+          "text": "Wir sind in der belebten Fußgängerzone\nŚwidnicka."
+        },
+        {
+          "start": 9.9,
+          "end": 15.62,
+          "text": "Es ist laut und lebendig,\nvoller Menschen und geschäftigem Treiben."
+        },
+        {
+          "start": 16.5,
+          "end": 22.32,
+          "text": "Wenn ihr jedoch durch diese Tür\nin den Raum hinter mir geht,"
+        },
+        {
+          "start": 22.32,
+          "end": 28.28,
+          "text": "erreicht ihr ein Stück Himmel,"
+        },
+        {
+          "start": 28.76,
+          "end": 32.72,
+          "text": "einen Ort der Ruhe,\nan dem ihr entspannen"
+        },
+        {
+          "start": 32.72,
+          "end": 37.06,
+          "text": "und eine Ausstellung\nmoderner Kunst genießen könnt."
+        },
+        {
+          "start": 38.42,
+          "end": 43.1,
+          "text": "Es gibt auch Plätze zum Sitzen\nund für eine Tasse Tee,"
+        },
+        {
+          "start": 43.1,
+          "end": 47.22,
+          "text": "ganz wie im eigenen Wohnzimmer."
+        },
+        {
+          "start": 47.22,
+          "end": 51.32,
+          "text": "Ruht euch aus und bewundert einfach"
+        },
+        {
+          "start": 51.32,
+          "end": 57.4,
+          "text": "die schönen Kunstwerke,"
+        },
+        {
+          "start": 57.4,
+          "end": 61.06,
+          "text": "die euch hier im Raum umgeben."
+        },
+        {
+          "start": 61.96,
+          "end": 66.3,
+          "text": "Die Ausstellung zeigt\nverschiedene Künstler"
+        },
+        {
+          "start": 66.3,
+          "end": 72.44,
+          "text": "und ist saisonal,\nsie verändert sich im Laufe des Jahres."
+        },
+        {
+          "start": 72.44,
+          "end": 77.6,
+          "text": "Ich lade euch also ein,\ndiese großartige Galerie zu besuchen."
+        },
+        {
+          "start": 77.6,
+          "end": 78.78,
+          "text": "Der Eintritt ist frei."
+        },
+        {
+          "start": 79.52,
+          "end": 81.1,
+          "text": "Bis zu unserem nächsten Video."
+        }
+      ],
+      "evidence": [
+        "docs/zyjnia-guides/de-captions-reopened.txt",
+        "docs/zyjnia-guides/de-captions-reopened.png"
+      ]
+    },
+    "cs": {
+      "language": "cs",
+      "status": "Published",
+      "published": true,
+      "reopenedVerified": true,
+      "videoId": "BAueoGqdcC4",
+      "srtFile": "captions/zyjnia-bwa/cs.srt",
+      "srtSHA256": "04ee60071389fcc0d5699107f9cfa2d554c791313b0c560a538811d6cc7c267d",
+      "cueCount": 16,
+      "cues": [
+        {
+          "start": 2.7,
+          "end": 9.48,
+          "text": "Jsme na rušné pěší zóně\nv ulici Świdnicka."
+        },
+        {
+          "start": 9.9,
+          "end": 15.62,
+          "text": "Je tu hluk, živo,\nplno lidí a ruchu."
+        },
+        {
+          "start": 16.5,
+          "end": 22.32,
+          "text": "Když ale vejdete těmito dveřmi\ndo prostoru za mnou,"
+        },
+        {
+          "start": 22.32,
+          "end": 28.28,
+          "text": "dostanete se do kousku ráje,"
+        },
+        {
+          "start": 28.76,
+          "end": 32.72,
+          "text": "do oázy klidu,\nkde si můžete odpočinout"
+        },
+        {
+          "start": 32.72,
+          "end": 37.06,
+          "text": "a prohlédnout si výstavu\nmoderního umění."
+        },
+        {
+          "start": 38.42,
+          "end": 43.1,
+          "text": "Jsou tu také místa k posezení\na k vychutnání šálku čaje,"
+        },
+        {
+          "start": 43.1,
+          "end": 47.22,
+          "text": "jako byste byli\nve vlastním obývacím pokoji."
+        },
+        {
+          "start": 47.22,
+          "end": 51.32,
+          "text": "Odpočívejte a prostě obdivujte"
+        },
+        {
+          "start": 51.32,
+          "end": 57.4,
+          "text": "krásná umělecká díla,"
+        },
+        {
+          "start": 57.4,
+          "end": 61.06,
+          "text": "která vás v tomto prostoru obklopují."
+        },
+        {
+          "start": 61.96,
+          "end": 66.3,
+          "text": "Výstava představuje\nrůzné umělce"
+        },
+        {
+          "start": 66.3,
+          "end": 72.44,
+          "text": "a je sezónní,\nběhem roku se mění."
+        },
+        {
+          "start": 72.44,
+          "end": 77.6,
+          "text": "Zvu vás tedy k návštěvě\ntéto úžasné galerie."
+        },
+        {
+          "start": 77.6,
+          "end": 78.78,
+          "text": "Vstup je zdarma."
+        },
+        {
+          "start": 79.52,
+          "end": 81.1,
+          "text": "Uvidíme se v našem dalším videu."
+        }
+      ],
+      "evidence": [
+        "docs/zyjnia-guides/cs-captions-reopened.txt",
+        "docs/zyjnia-guides/cs-captions-reopened.png"
+      ]
+    }
+  },
+  "verifiedAt": "2026-10-20T08:46:09.851625+00:00",
+  "integrationManifest": "docs/zyjnia-guides/guide-integration-manifest.json"
+}

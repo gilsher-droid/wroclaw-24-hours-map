@@ -1,0 +1,114 @@
+{
+  "canonicalId": "zyjnia-bwa-wroclaw",
+  "checkedAt": "2026-10-20",
+  "website": "https://bwa.wroc.pl/galeria/zyjnia/",
+  "photos": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BSW/WhatsApp Image 2026-10-19 at 08.42.32.jpeg",
+      "sha256": "3bcf19f09494de9aeaad65008ced033d0782855779ef2efa096510ab100c15aa",
+      "asset": "/assets/zyjnia-bwa/zyjnia-01.jpg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BSW/WhatsApp Image 2026-10-19 at 08.42.12 (3).jpeg",
+      "sha256": "7ef8b41e5094ee90c001843da13699d3afdfaa53eb00765dd224f54fa77a053d",
+      "asset": "/assets/zyjnia-bwa/zyjnia-02.jpg"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BSW/WhatsApp Image 2026-10-19 at 08.42.32 (3).jpeg",
+      "sha256": "d859a933a74c5a7b0fd40b997f24cd10f45e4326940df0abf7d9210763ec9602",
+      "asset": "/assets/zyjnia-bwa/zyjnia-03.jpg"
+    }
+  ],
+  "visits": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.15.mp4",
+      "sourceSha256": "4e5c772dcc6fcfbf920c5b9560492cec36cc7106de9eb8f13a3e201e3952bb34",
+      "duration": "17.466667",
+      "youtube": "https://youtube.com/shorts/umUSV_b5q6w",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "checks": "No issues found",
+      "verifiedAt": "2026-10-20T08:29:37.769Z"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.10.mp4",
+      "sourceSha256": "b02f4c71bd95026b9ce69e64f3f347e3d6fa9525a9abcad6b132b5b9749a55d1",
+      "duration": "14.440000",
+      "youtube": "https://youtube.com/shorts/VWojyNlXCAI",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "checks": "No issues found",
+      "verifiedAt": "2026-10-20T08:29:37.771Z"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.18 (1).mp4",
+      "sourceSha256": "4d039124e3a7ec1bae20703aa0b202ff5014ffad887979348367d3305f8b910f",
+      "duration": "3.000000",
+      "youtube": "https://youtube.com/shorts/8otgPq47xtw",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "checks": "No issues found",
+      "verifiedAt": "2026-10-20T08:29:37.771Z"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.20.mp4",
+      "sourceSha256": "2a33b41a2e6678f6954f20f4db521fca4136f400f0e2d2f64f2e3af0726c0aae",
+      "duration": "5.566667",
+      "youtube": "https://youtube.com/shorts/CbgJvJMkd-k",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "checks": "No issues found",
+      "verifiedAt": "2026-10-20T08:29:37.771Z"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.21.mp4",
+      "sourceSha256": "234cc8e63cb19fbaedebc6fdf8a6750700a08b9d59e9f485415bc0200873a491",
+      "duration": "5.433333",
+      "youtube": "https://youtube.com/shorts/1Y75V_JyTJg",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "checks": "No issues found",
+      "verifiedAt": "2026-10-20T08:29:37.771Z"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.18.mp4",
+      "sourceSha256": "78565c9e4bef659600ebb57a11d42d7024b2afcaee65a7de8e72fc68b4cac66d",
+      "duration": "3.600000",
+      "youtube": "https://youtube.com/shorts/C84x5KSdeqQ",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "checks": "No issues found",
+      "verifiedAt": "2026-10-20T08:29:37.771Z"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BSW/WhatsApp Video 2026-10-05 at 18.26.24.mp4",
+      "sourceSha256": "872279b782a6c5ae1615c40c1433142822cf3de5072fd4deebc2f9c284941d47",
+      "duration": "17.966667",
+      "youtube": "https://youtube.com/shorts/8QNaMIMs-As",
+      "visibility": "Public",
+      "savedPublicVerified": true,
+      "checks": "No issues found",
+      "verifiedAt": "2026-10-20T08:29:37.771Z"
+    }
+  ],
+  "mapDecision": {
+    "cultural": "Retain single existing canonical point in contemporary-art and architecture/design categories",
+    "otherMaps": "No addition; user requested this cultural point, no route-wide change needed"
+  },
+  "excluded": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.17.mp4",
+      "reason": "Resting visitors prominent; no personal-media exception"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.06.mp4",
+      "reason": "Broad Rynek view does not show exact gallery"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/ביוואייואיי/WhatsApp Video 2026-10-05 at 18.26.11.mp4",
+      "reason": "Visual duplicate of selected façade pan"
+    }
+  ],
+  "privacy": "No family or posed personal material published; clip of resting visitors excluded. Guide presenter authorized separately.",
+  "guides": "data/zyjnia-guide-caption-provenance.json"
+}

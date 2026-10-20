@@ -1,0 +1,25 @@
+{
+  "approvedAt": "2026-10-20T08:23:37.000923+00:00",
+  "userWords": "מאשר את התנאים והעלאת תשעת הסרטונים",
+  "scope": {
+    "visits": 7,
+    "silentVisitSeconds": [
+      17.47,
+      14.44,
+      3.0,
+      5.57,
+      5.43,
+      3.6,
+      17.97
+    ],
+    "guides": {
+      "heSeconds": 64.73,
+      "enSeconds": 83.77
+    },
+    "visibility": "Public",
+    "guidePictureAudio": "original unchanged",
+    "nativeCaptions": 5
+  },
+  "termsScreen": "youtube-upload-terms.png",
+  "source": "Direct user answer to call_6bb98c7a1e3843c8a94a44cccb812a2f item0"
+}

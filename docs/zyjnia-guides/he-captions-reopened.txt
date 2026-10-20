@@ -1,0 +1,264 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: ז׳ייניה: אמנות ומנוחה במרכז ורוצלב | המדריך שלנו בעברית"'
+  - generic: 1:05
+  - generic: Your video
+  - generic: "ז׳ייניה: אמנות ומנוחה במרכז ורוצלב | המדריך שלנו בעברית"
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: Hebrew"':
+    - 'heading "Video language: Hebrew" [level=2]'
+    - button "Details":
+    - generic: Hebrew subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup
+- generic "Hebrew subtitles":
+  - dialog "Hebrew subtitles" [active]:
+    - generic: Hebrew
+    - region "Dialogue controls":
+      - heading "Dialogue controls" [level=2]
+      - button "Send feedback":
+      - button "Save draft":
+        - generic: Save draft
+      - status: Save draft button enabled
+      - button "Publish":
+        - generic: Publish
+      - status: Publish button enabled
+      - button "Close":
+    - region "Edit timings":
+      - heading "Edit timings" [level=2]
+      - button "Subtitle":
+        - generic: Subtitle
+      - button "Edit as text" [disabled]:
+        - generic: Edit as text
+      - button "Options":
+      - list "Timings":
+        - listitem "Text with timing":
+          - button "Add caption line":
+          - textbox "Subtitle": אנחנו נמצאים במדרחוב שווידניצקה.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - button "Remove caption line":
+          - generic "0 minutes 2 seconds 11 frames":
+            - generic: 0:02:11
+            - textbox "0 minutes 2 seconds 11 frames"
+          - generic "0 minutes 5 seconds 28 frames":
+            - generic: 0:05:28
+            - textbox "0 minutes 5 seconds 28 frames"
+          - button "Add caption line" [disabled]:
+        - listitem "Text with timing":
+          - textbox "Subtitle": מדרחוב סואן, עמוס באנשים,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 6 seconds 1 frame":
+            - generic: 0:06:01
+            - textbox "0 minutes 6 seconds 1 frame"
+          - generic "0 minutes 10 seconds 21 frames":
+            - generic: 0:10:21
+            - textbox "0 minutes 10 seconds 21 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": רועש, אבל בתוך כל הרעש הזה וההמולה הזו
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 11 seconds 21 frames":
+            - generic: 0:11:21
+            - textbox "0 minutes 11 seconds 21 frames"
+          - generic "0 minutes 18 seconds 19 frames":
+            - generic: 0:18:19
+            - textbox "0 minutes 18 seconds 19 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": ניתן להיכנס לגלריה שנמצאת פה מאחוריי,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 18 seconds 19 frames":
+            - generic: 0:18:19
+            - textbox "0 minutes 18 seconds 19 frames"
+          - generic "0 minutes 22 seconds 19 frames":
+            - generic: 0:22:19
+            - textbox "0 minutes 22 seconds 19 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": שהיא גם גלריה לאמנות עכשווית והיא גם סלון עירוני.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 23 seconds 16 frames":
+            - generic: 0:23:16
+            - textbox "0 minutes 23 seconds 16 frames"
+          - generic "0 minutes 28 seconds 27 frames":
+            - generic: 0:28:27
+            - textbox "0 minutes 28 seconds 27 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": בפנים אתם תמצאו חלל עם מיצגים אמנותיים, אמנותיים,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 29 seconds 22 frames":
+            - generic: 0:29:22
+            - textbox "0 minutes 29 seconds 22 frames"
+          - generic "0 minutes 34 seconds 15 frames":
+            - generic: 0:34:15
+            - textbox "0 minutes 34 seconds 15 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": וגם מקומות ישיבה ואפילו אפשרות להכין לכם כאן תה.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 34 seconds 15 frames":
+            - generic: 0:34:15
+            - textbox "0 minutes 34 seconds 15 frames"
+          - generic "0 minutes 39 seconds 19 frames":
+            - generic: 0:39:19
+            - textbox "0 minutes 39 seconds 19 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": ומקומות הישיבה בעצם משולבים בתוך התערוכה,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 41 seconds 5 frames":
+            - generic: 0:41:05
+            - textbox "0 minutes 41 seconds 5 frames"
+          - generic "0 minutes 46 seconds 7 frames":
+            - generic: 0:46:07
+            - textbox "0 minutes 46 seconds 7 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": ואתם פשוט מוזמנים לשבת ולשתות כוס תה,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 46 seconds 7 frames":
+            - generic: 0:46:07
+            - textbox "0 minutes 46 seconds 7 frames"
+          - generic "0 minutes 49 seconds 10 frames":
+            - generic: 0:49:10
+            - textbox "0 minutes 49 seconds 10 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": לנוח רגע מההמולה של העיר הגדולה
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 49 seconds 10 frames":
+            - generic: 0:49:10
+            - textbox "0 minutes 49 seconds 10 frames"
+          - generic "0 minutes 52 seconds 8 frames":
+            - generic: 0:52:08
+            - textbox "0 minutes 52 seconds 8 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": וליהנות מהשלווה והשקט ומיצירות האמנות שמקיפות אתכם.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 52 seconds 8 frames":
+            - generic: 0:52:08
+            - textbox "0 minutes 52 seconds 8 frames"
+          - generic "0 minutes 58 seconds 16 frames":
+            - generic: 0:58:16
+            - textbox "0 minutes 58 seconds 16 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": מומלץ מאוד.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 58 seconds 24 frames":
+            - generic: 0:58:24
+            - textbox "0 minutes 58 seconds 24 frames"
+          - generic "1 minute 0 seconds 6 frames":
+            - generic: 1:00:06
+            - textbox "1 minute 0 seconds 6 frames"
+    - heading "Subtitles preview" [level=2]
+    - region "Subtitles preview":
+      - region "Video player":
+        - 'generic "ז׳ייניה: אמנות ומנוחה במרכז ורוצלב | המדריך שלנו בעברית"'
+        - button "Play":
+        - button "Skip back 10 seconds":
+        - button "Skip forwards 10 seconds":
+        - button "Mute":
+        - slider "volume"
+        - generic: 0:00 / 1:05
+        - button "Settings":
+      - checkbox "Pause while typing"
+      - generic: Pause while typing
+      - button "View keyboard shortcuts":
+        - generic: View keyboard shortcuts
+    - heading "Subtitles timeline" [level=2]
+    - region "Subtitles timeline":
+      - generic "0 minutes 0 seconds 0 frames":
+        - generic: 0:00:00
+        - textbox "0 minutes 0 seconds 0 frames"
+      - button "Undo" [disabled]:
+        - generic: Undo
+      - button "Redo" [disabled]:
+        - generic: Redo
+      - button "Zoom out":
+      - slider "Zoom slider":
+        - progressbar
+      - button "Zoom in":
+      - generic "Timeline header"
+      - button "Find playhead":
+      - button "Find playhead":
+      - generic "אנחנו נמצאים במדרחוב שווידניצקה."
+      - generic: אנחנו נמצאים במדרחוב שווידניצקה.
+      - generic "מדרחוב סואן, עמוס באנשים,"
+      - generic: מדרחוב סואן, עמוס באנשים,
+      - generic "רועש, אבל בתוך כל הרעש הזה וההמולה הזו"
+      - generic: רועש, אבל בתוך כל הרעש הזה וההמולה הזו
+      - generic: ניתן להיכנס לגלריה שנמצאת פה מאחוריי,
+      - generic: שהיא גם גלריה לאמנות עכשווית והיא גם סלון עירוני.
+      - generic: בפנים אתם תמצאו חלל עם מיצגים אמנותיים, אמנותיים,
+      - generic: וגם מקומות ישיבה ואפילו אפשרות להכין לכם כאן תה.
+      - generic: ומקומות הישיבה בעצם משולבים בתוך התערוכה,
+      - generic: ואתם פשוט מוזמנים לשבת ולשתות כוס תה,
+      - generic: לנוח רגע מההמולה של העיר הגדולה
+      - generic: וליהנות מהשלווה והשקט ומיצירות האמנות שמקיפות אתכם.
+      - generic: מומלץ מאוד.
+      - generic: נתראה בווידאו הבא.
+      - generic: Do widzenia.
+      - generic "Audio waveform"
+      - generic "Start of timeline"
+      - generic "End of timeline"
+      - slider "Playhead"
+      - generic: 0:00:00

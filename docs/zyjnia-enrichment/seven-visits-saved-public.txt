@@ -1,0 +1,753 @@
+Browser tab: 31058176, Title: "Channel content - YouTube Studio", URL: "https://studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos/short?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D".
+1 AXWebArea Channel content - YouTube Studio, URL: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos/short
+	2 container html-body
+		3 container
+			4 text Channel content
+			5 container main-container
+				6 container
+					7 button Collapse menu
+					8 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					9 button Skip navigation
+						10 text Skip navigation
+					11 container search-layer
+						12 text field (settable) query-input
+					13 button Help
+					14 button Notifications
+					15 button Ask Studio
+						16 text Ask Studio
+					17 button Create
+						18 text Create
+					19 container Account
+						20 pop up button Description: Account, ID: avatar-btn
+				21 container
+					22 container left-nav
+						23 container
+							24 image Wroclaw.lowersilesia
+							25 container entity-label-container
+								26 text Your channel
+								27 text Wroclaw.lowersilesia
+						28 menu main-menu
+							110 text •
+							30 Dashboard, ID: menu-item-0
+								31 container menu-paper-icon-item-0
+									32 text Dashboard
+							111 text •
+							34 Content, ID: menu-item-1
+								35 container menu-paper-icon-item-1
+									36 text Content
+							112 text •
+							38 Analytics, ID: menu-item-2
+								39 container menu-paper-icon-item-2
+									40 text Analytics
+							113 text •
+							42 Community, ID: menu-item-3
+								43 container menu-paper-icon-item-3
+									44 text Community
+							114 text •
+							46 Languages, ID: menu-item-4
+								47 container menu-paper-icon-item-4
+									48 text Languages
+							115 text •
+							50 Content detection, ID: menu-item-5
+								51 container menu-paper-icon-item-5
+									52 text Content detection
+							116 text •
+							54 Earn, ID: menu-item-6
+								55 container menu-paper-icon-item-6
+									56 text Earn
+							117 text •
+							58 Customisation, ID: menu-item-7
+								59 container menu-paper-icon-item-7
+									60 text Customisation
+							118 text •
+							62 Audio library, ID: menu-item-8
+								63 container menu-paper-icon-item-8
+									64 text Audio library
+						65 content list
+							66 button Settings, ID: settings-item
+								67 text Settings
+							68 button Send feedback, ID: send-feedback-item
+								69 text Send feedback
+					70 container main
+						71 container Description: Back, ID: back-button
+							72 button Back
+						73 text Shorts
+						74 container
+							75 text Videos
+							76 text Shorts
+							77 text Live
+							78 text Posts
+							79 container chip-playlists
+								80 text Playlists
+							81 text Promotions
+						82 table Video list
+							83 container header
+								84 container stuck-to-left-header
+									85 container filter-bar
+										86 text field (settable) text-input
+								87 row table-header
+									88 cell
+										89 container Description: Select all, ID: selection-checkbox
+											90 checkbox Description: Select all, Value: 0, ID: checkbox
+									91 cell
+										92 heading Description: Short, Value: 3, ID: short-header-name
+											93 text Short
+									94 cell
+										95 heading Description: Notices, Value: 3, ID: notices-header-name
+											96 text Notices
+									97 cell
+										98 heading Description: Visibility, Value: 3, ID: visibility-header-name
+											99 text Visibility
+									100 cell
+										101 heading Sort by Date, Value: 3
+											102 button Description: Sort by Date, ID: date-header-name
+												103 text Date
+									104 cell
+										105 heading Sort by Views, Value: 3
+											106 button Description: Sort by Views, ID: views-header-name
+									107 cell
+										108 heading Description: Comments, Value: 3, ID: comments-header-name
+											109 text Comments
+							119 row
+								120 container row-container
+									121 cell
+										122 container Select Żyjnia BWA Wrocław | Video installation during our visit
+											123 checkbox Description: Select Żyjnia BWA Wrocław | Video installation during our visit, Value: 0, ID: checkbox
+									124 cell
+										125 container
+											126 link Description: Video thumbnail: Żyjnia BWA Wrocław | Video installation during our visit 0:18, Value: studio.youtube.com/video/8QNaMIMs-As/edit, ID: thumbnail-anchor
+											127 link Description: Żyjnia BWA Wrocław | Video installation during our visit, Value: studio.youtube.com/video/8QNaMIMs-As/edit, ID: video-title
+											128 text Original visit footage of Żyjnia BWA Wrocław, Świdnicka 2-4, Wrocław. Video installation during our visit. Exhibitions and installations shown reflect our visit and may change. Original picture preserved; background audio removed. WROC-LOVE.
+									129 cell
+										130 text —
+									131 cell
+										132 text Public
+									133 cell
+										134 text 20 Oct 2026
+										135 text Published
+									136 cell
+										137 text 0
+									138 cell
+										139 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/8QNaMIMs-As/comments
+							140 row
+								141 container row-container
+									142 cell
+										143 container Select Żyjnia BWA Wrocław | Ceramic wall detail
+											144 checkbox Description: Select Żyjnia BWA Wrocław | Ceramic wall detail, Value: 0, ID: checkbox
+									145 cell
+										146 container
+											147 link Description: Video thumbnail: Żyjnia BWA Wrocław | Ceramic wall detail 0:04, Value: studio.youtube.com/video/C84x5KSdeqQ/edit, ID: thumbnail-anchor
+											148 link Description: Żyjnia BWA Wrocław | Ceramic wall detail, Value: studio.youtube.com/video/C84x5KSdeqQ/edit, ID: video-title
+											149 text Original visit footage of Żyjnia BWA Wrocław, Świdnicka 2-4, Wrocław. Ceramic wall detail. Exhibitions and installations shown reflect our visit and may change. Original picture preserved; background audio removed. WROC-LOVE.
+									150 cell
+										151 text —
+									152 cell
+										153 text Public
+									154 cell
+										155 text 20 Oct 2026
+										156 text Published
+									157 cell
+										158 text 0
+									159 cell
+										160 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/C84x5KSdeqQ/comments
+							161 row
+								162 container row-container
+									163 cell
+										164 container Select Żyjnia BWA Wrocław | Colourful tiled interior and ramp
+											165 checkbox Description: Select Żyjnia BWA Wrocław | Colourful tiled interior and ramp, Value: 0, ID: checkbox
+									166 cell
+										167 container
+											168 link Description: Video thumbnail: Żyjnia BWA Wrocław | Colourful tiled interior and ramp 0:06, Value: studio.youtube.com/video/1Y75V_JyTJg/edit, ID: thumbnail-anchor
+											169 link Description: Żyjnia BWA Wrocław | Colourful tiled interior and ramp, Value: studio.youtube.com/video/1Y75V_JyTJg/edit, ID: video-title
+											170 text Original visit footage of Żyjnia BWA Wrocław, Świdnicka 2-4, Wrocław. Colourful tiled interior and ramp. Exhibitions and installations shown reflect our visit and may change. Original picture preserved; background audio removed. WROC-LOVE.
+									171 cell
+										172 text —
+									173 cell
+										174 text Public
+									175 cell
+										176 text 20 Oct 2026
+										177 text Published
+									178 cell
+										179 text 0
+									180 cell
+										181 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/1Y75V_JyTJg/comments
+							182 row
+								183 container row-container
+									184 cell
+										185 container Select Żyjnia BWA Wrocław | Pause and rest display
+											186 checkbox Description: Select Żyjnia BWA Wrocław | Pause and rest display, Value: 0, ID: checkbox
+									187 cell
+										188 container
+											189 link Description: Video thumbnail: Żyjnia BWA Wrocław | Pause and rest display 0:06, Value: studio.youtube.com/video/CbgJvJMkd-k/edit, ID: thumbnail-anchor
+											190 link Description: Żyjnia BWA Wrocław | Pause and rest display, Value: studio.youtube.com/video/CbgJvJMkd-k/edit, ID: video-title
+											191 text Original visit footage of Żyjnia BWA Wrocław, Świdnicka 2-4, Wrocław. Pause and rest display. Exhibitions and installations shown reflect our visit and may change. Original picture preserved; background audio removed. WROC-LOVE.
+									192 cell
+										193 text —
+									194 cell
+										195 text Public
+									196 cell
+										197 text 20 Oct 2026
+										198 text Published
+									199 cell
+										200 text 0
+									201 cell
+										202 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/CbgJvJMkd-k/comments
+							203 row
+								204 container row-container
+									205 cell
+										206 container Select Żyjnia BWA Wrocław | Shell installation detail
+											207 checkbox Description: Select Żyjnia BWA Wrocław | Shell installation detail, Value: 0, ID: checkbox
+									208 cell
+										209 container
+											210 link Description: Video thumbnail: Żyjnia BWA Wrocław | Shell installation detail 0:03, Value: studio.youtube.com/video/8otgPq47xtw/edit, ID: thumbnail-anchor
+											211 link Description: Żyjnia BWA Wrocław | Shell installation detail, Value: studio.youtube.com/video/8otgPq47xtw/edit, ID: video-title
+											212 text Original visit footage of Żyjnia BWA Wrocław, Świdnicka 2-4, Wrocław. Shell installation detail. Exhibitions and installations shown reflect our visit and may change. Original picture preserved; background audio removed. WROC-LOVE.
+									213 cell
+										214 text —
+									215 cell
+										216 text Public
+									217 cell
+										218 text 20 Oct 2026
+										219 text Published
+									220 cell
+										221 text 0
+									222 cell
+										223 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/8otgPq47xtw/comments
+							224 row
+								225 container row-container
+									226 cell
+										227 container Select Żyjnia BWA Wrocław | Gallery façade and Świdnicka street
+											228 checkbox Description: Select Żyjnia BWA Wrocław | Gallery façade and Świdnicka street, Value: 0, ID: checkbox
+									229 cell
+										230 container
+											231 link Description: Video thumbnail: Żyjnia BWA Wrocław | Gallery façade and Świdnicka street 0:15, Value: studio.youtube.com/video/VWojyNlXCAI/edit, ID: thumbnail-anchor
+											232 link Description: Żyjnia BWA Wrocław | Gallery façade and Świdnicka street, Value: studio.youtube.com/video/VWojyNlXCAI/edit, ID: video-title
+											233 text Original visit footage of Żyjnia BWA Wrocław, Świdnicka 2-4, Wrocław. Gallery façade and Świdnicka street. Exhibitions and installations shown reflect our visit and may change. Original picture preserved; background audio removed. WROC-LOVE.
+									234 cell
+										235 text —
+									236 cell
+										237 text Public
+									238 cell
+										239 text 20 Oct 2026
+										240 text Published
+									241 cell
+										242 text 0
+									243 cell
+										244 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/VWojyNlXCAI/comments
+							245 row
+								246 container row-container
+									247 cell
+										248 container Select Żyjnia BWA Wrocław | Stained-glass staircase
+											249 checkbox Description: Select Żyjnia BWA Wrocław | Stained-glass staircase, Value: 0, ID: checkbox
+									250 cell
+										251 container
+											252 link Description: Video thumbnail: Żyjnia BWA Wrocław | Stained-glass staircase 0:18, Value: studio.youtube.com/video/umUSV_b5q6w/edit, ID: thumbnail-anchor
+											253 link Description: Żyjnia BWA Wrocław | Stained-glass staircase, Value: studio.youtube.com/video/umUSV_b5q6w/edit, ID: video-title
+											254 text Original visit footage of Żyjnia BWA Wrocław, Świdnicka 2-4, Wrocław. Stained-glass staircase. Exhibitions and installations shown reflect our visit and may change. Original picture preserved; background audio removed. WROC-LOVE.
+									255 cell
+										256 text —
+									257 cell
+										258 text Public
+									259 cell
+										260 text 20 Oct 2026
+										261 text Published
+									262 cell
+										263 text 0
+									264 cell
+										265 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/umUSV_b5q6w/comments
+							266 row
+								267 container row-container
+									268 cell
+										269 container Select Morskie Oko Wrocław | Neighborhood surroundings | Visit clip | WROC-LOVE
+											270 checkbox Description: Select Morskie Oko Wrocław | Neighborhood surroundings | Visit clip | WROC-LOVE, Value: 0, ID: checkbox
+									271 cell
+										272 container
+											273 link Description: Video thumbnail: Morskie Oko Wrocław | Neighborhood surroundings | Visit clip | WROC-LOVE 0:04, Value: studio.youtube.com/video/ZQRrQni1Z5M/edit, ID: thumbnail-anchor
+											274 link Description: Morskie Oko Wrocław | Neighborhood surroundings | Visit clip | WROC-LOVE, Value: studio.youtube.com/video/ZQRrQni1Z5M/edit, ID: video-title
+											275 text A short silent visit to the neighborhood surroundings near Morskie Oko in Wrocław. Trees, pavement and local buildings on the streets nearby. Explore Morskie Oko and our visit photographs on the four-day map: https://wroc-love.com/share/en/premium.html
+									276 cell
+										277 text —
+									278 cell
+										279 text Public
+									280 cell
+										281 text 19 Oct 2026
+										282 text Published
+									283 cell
+										284 text 10
+									285 cell
+										286 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/ZQRrQni1Z5M/comments
+							287 row
+								288 container row-container
+									289 cell
+										290 container Select Morskie Oko Wrocław | Waterside path at sunset | Visit clip | WROC-LOVE
+											291 checkbox Description: Select Morskie Oko Wrocław | Waterside path at sunset | Visit clip | WROC-LOVE, Value: 0, ID: checkbox
+									292 cell
+										293 container
+											294 link Description: Video thumbnail: Morskie Oko Wrocław | Waterside path at sunset | Visit clip | WROC-LOVE 0:05, Value: studio.youtube.com/video/hhhjCRE9aUc/edit, ID: thumbnail-anchor
+											295 link Description: Morskie Oko Wrocław | Waterside path at sunset | Visit clip | WROC-LOVE, Value: studio.youtube.com/video/hhhjCRE9aUc/edit, ID: video-title
+											296 text Original silent visit clip showing the waterside paths and benches at Morskie Oko bathing lake in Wrocław. Original source preserved. Bathing and access are seasonal; check the operator before visiting. Explore the place on our four-day map: https://wroc-love.com/share/en/premium.html
+									297 cell
+										298 text —
+									299 cell
+										300 text Public
+									301 cell
+										302 text 19 Oct 2026
+										303 text Published
+									304 cell
+										305 text 12
+									306 cell
+										307 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/hhhjCRE9aUc/comments
+							308 row
+								309 container row-container
+									310 cell
+										311 container Select מורסקי אוקו בוורוצלב | המדריך שלנו בעברית
+											312 checkbox Description: Select מורסקי אוקו בוורוצלב | המדריך שלנו בעברית, Value: 0, ID: checkbox
+									313 cell
+										314 container
+											315 link Description: Video thumbnail: מורסקי אוקו בוורוצלב | המדריך שלנו בעברית 1:12, Value: studio.youtube.com/video/R26FXh9Twh0/edit, ID: thumbnail-anchor
+											316 link Description: מורסקי אוקו בוורוצלב | המדריך שלנו בעברית, Value: studio.youtube.com/video/R26FXh9Twh0/edit, ID: video-title
+											317 text הדרכה מקורית בעברית באתר הרחצה מורסקי אוקו בוורוצלב. טייק מלא, ללא חיתוך וללא שינוי בתמונה או בקול. זהו אתר הרחצה העירוני בוורוצלב, ולא האגם בהרי הטטרה. ההדרכה צולמה בסתיו ומתארת גם את חוויית הקיץ. הרחצה והכניסה למתחם תלויות בעונה ובמפעיל; אזכור ביקור בחורף אינו המלצה לרחצה בחורף או הבטחה שהמתחם פתוח. בדקו את תנאי הגישה העדכניים לפני ביקור. המקום, התמונות וסרטוני הביקור במפת ארבעת הימים שלנו: https://wroc-love.com/products/interactive-maps/premium.html?lang=he#recommendations-section
+									318 cell
+										319 text —
+									320 cell
+										321 text Public
+									322 cell
+										323 text 19 Oct 2026
+										324 text Published
+									325 cell
+										326 text 1
+									327 cell
+										328 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/R26FXh9Twh0/comments
+							329 row
+								330 container row-container
+									331 cell
+										332 container Select Morskie Oko Wrocław | Our full English guide | WROC-LOVE
+											333 checkbox Description: Select Morskie Oko Wrocław | Our full English guide | WROC-LOVE, Value: 0, ID: checkbox
+									334 cell
+										335 container
+											336 link Description: Video thumbnail: Morskie Oko Wrocław | Our full English guide | WROC-LOVE 1:04, Value: studio.youtube.com/video/e0gGTjUPYoQ/edit, ID: thumbnail-anchor
+											337 link Description: Morskie Oko Wrocław | Our full English guide | WROC-LOVE, Value: studio.youtube.com/video/e0gGTjUPYoQ/edit, ID: video-title
+											338 text Our original English guide to Morskie Oko bathing lake in Wrocław. Complete original take, with picture and spoken audio unchanged. This is the Wrocław bathing site, not the lake in the Tatra Mountains. Recorded in autumn, with a description of the summer beach experience. Bathing and access are seasonal and subject to the operator; check current opening and access before visiting. Explore the place, our photographs and visit clips on the four-day map: https://wroc-love.com/products/interactiv
+									339 cell
+										340 text —
+									341 cell
+										342 text Public
+									343 cell
+										344 text 19 Oct 2026
+										345 text Published
+									346 cell
+										347 text 4
+									348 cell
+										349 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/e0gGTjUPYoQ/comments
+							350 row
+								351 container row-container
+									352 cell
+										353 container Select Morskie Oko Wrocław | Lake sunset | Visit clip | WROC-LOVE
+											354 checkbox Description: Select Morskie Oko Wrocław | Lake sunset | Visit clip | WROC-LOVE, Value: 0, ID: checkbox
+									355 cell
+										356 container
+											357 link Description: Video thumbnail: Morskie Oko Wrocław | Lake sunset | Visit clip | WROC-LOVE 0:05, Value: studio.youtube.com/video/8cTLqypvJn4/edit, ID: thumbnail-anchor
+											358 link Description: Morskie Oko Wrocław | Lake sunset | Visit clip | WROC-LOVE, Value: studio.youtube.com/video/8cTLqypvJn4/edit, ID: video-title
+											359 text Original sunset visit footage at Morskie Oko bathing lake in Wrocław. Silent clip; original source preserved. This is the Wrocław site, not the Tatra lake. Bathing operates seasonally; verify current access with the operator before visiting. Explore the place and our visit photographs on the four-day map: https://wroc-love.com/products/interactive-maps/premium.html?lang=en
+									360 cell
+										361 text —
+									362 cell
+										363 text Public
+									364 cell
+										365 text 19 Oct 2026
+										366 text Published
+									367 cell
+										368 text 5
+									369 cell
+										370 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/8cTLqypvJn4/comments
+							371 row
+								372 container row-container
+									373 cell
+										374 container Select Morskie Oko Wrocław | Swans at sunset | Visit clip | WROC-LOVE
+											375 checkbox Description: Select Morskie Oko Wrocław | Swans at sunset | Visit clip | WROC-LOVE, Value: 0, ID: checkbox
+									376 cell
+										377 container
+											378 link Description: Video thumbnail: Morskie Oko Wrocław | Swans at sunset | Visit clip | WROC-LOVE 0:04, Value: studio.youtube.com/video/gN14-XYU8dM/edit, ID: thumbnail-anchor
+											379 link Description: Morskie Oko Wrocław | Swans at sunset | Visit clip | WROC-LOVE, Value: studio.youtube.com/video/gN14-XYU8dM/edit, ID: video-title
+											380 text Original visit footage at Morskie Oko bathing lake in Wrocław. Swans and reflections on the water at sunset. Silent clip; original source preserved. This is the Wrocław site, not the Tatra lake. Bathing operates seasonally; verify current access with the operator before visiting. Explore the place and our visit photographs on the four-day map: https://wroc-love.com/products/interactive-maps/premium.html?lang=en
+									381 cell
+										382 text —
+									383 cell
+										384 text Public
+									385 cell
+										386 text 19 Oct 2026
+										387 text Published
+									388 cell
+										389 text 6
+									390 cell
+										391 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/gN14-XYU8dM/comments
+							392 row
+								393 container row-container
+									394 cell
+										395 container Select Wroclaw Old Town Hall | Exterior visit | WROC-LOVE
+											396 checkbox Description: Select Wroclaw Old Town Hall | Exterior visit | WROC-LOVE, Value: 0, ID: checkbox
+									397 cell
+										398 container
+											399 link Description: Video thumbnail: Wroclaw Old Town Hall | Exterior visit | WROC-LOVE 0:07, Value: studio.youtube.com/video/a6Hx2tj5Dzg/edit, ID: thumbnail-anchor
+											400 link Description: Wroclaw Old Town Hall | Exterior visit | WROC-LOVE, Value: studio.youtube.com/video/a6Hx2tj5Dzg/edit, ID: video-title
+											401 text Original exterior visit footage of the Old Town Hall (Stary Ratusz) in Wroclaw Market Square. Full picture sequence preserved, without background audio. Explore the cultural map: https://wroc-love.com/share/en/cultural.html
+									402 cell
+										403 text —
+									404 cell
+										405 text Public
+									406 cell
+										407 text 19 Oct 2026
+										408 text Published
+									409 cell
+										410 text 20
+									411 cell
+										412 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/a6Hx2tj5Dzg/comments
+							413 row
+								414 container row-container
+									415 cell
+										416 container Select Wroclaw Rynek | Evening walk 3 | WROC-LOVE
+											417 checkbox Description: Select Wroclaw Rynek | Evening walk 3 | WROC-LOVE, Value: 0, ID: checkbox
+									418 cell
+										419 container
+											420 link Description: Video thumbnail: Wroclaw Rynek | Evening walk 3 | WROC-LOVE 0:06, Value: studio.youtube.com/video/qJTW6gR0Dx8/edit, ID: thumbnail-anchor
+											421 link Description: Wroclaw Rynek | Evening walk 3 | WROC-LOVE, Value: studio.youtube.com/video/qJTW6gR0Dx8/edit, ID: video-title
+											422 text Original visit footage of Wroclaw Market Square (Rynek), showing an evening walk in the square. Full picture sequence preserved, without background audio. Our interactive maps: https://wroc-love.com/
+									423 cell
+										424 text —
+									425 cell
+										426 text Public
+									427 cell
+										428 text 19 Oct 2026
+										429 text Published
+									430 cell
+										431 text 9
+									432 cell
+										433 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/qJTW6gR0Dx8/comments
+							434 row
+								435 container row-container
+									436 cell
+										437 container Select Wroclaw Rynek | Evening walk 2 | WROC-LOVE
+											438 checkbox Description: Select Wroclaw Rynek | Evening walk 2 | WROC-LOVE, Value: 0, ID: checkbox
+									439 cell
+										440 container
+											441 link Description: Video thumbnail: Wroclaw Rynek | Evening walk 2 | WROC-LOVE 0:04, Value: studio.youtube.com/video/CX6bWPCGK8w/edit, ID: thumbnail-anchor
+											442 link Description: Wroclaw Rynek | Evening walk 2 | WROC-LOVE, Value: studio.youtube.com/video/CX6bWPCGK8w/edit, ID: video-title
+											443 text Original visit footage of Wroclaw Market Square (Rynek), showing an evening walk in the square. Full picture sequence preserved, without background audio. Our interactive maps: https://wroc-love.com/
+									444 cell
+										445 text —
+									446 cell
+										447 text Public
+									448 cell
+										449 text 19 Oct 2026
+										450 text Published
+									451 cell
+										452 text 17
+									453 cell
+										454 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/CX6bWPCGK8w/comments
+							455 row
+								456 container row-container
+									457 cell
+										458 container Select Wroclaw Rynek | Evening walk 1 | WROC-LOVE
+											459 checkbox Description: Select Wroclaw Rynek | Evening walk 1 | WROC-LOVE, Value: 0, ID: checkbox
+									460 cell
+										461 container
+											462 link Description: Video thumbnail: Wroclaw Rynek | Evening walk 1 | WROC-LOVE 0:05, Value: studio.youtube.com/video/QujEX9RWHp4/edit, ID: thumbnail-anchor
+											463 link Description: Wroclaw Rynek | Evening walk 1 | WROC-LOVE, Value: studio.youtube.com/video/QujEX9RWHp4/edit, ID: video-title
+											464 text Original visit footage of Wroclaw Market Square (Rynek), showing an evening walk in the square. Full picture sequence preserved, without background audio. Our interactive maps: https://wroc-love.com/
+									465 cell
+										466 text —
+									467 cell
+										468 text Public
+									469 cell
+										470 text 19 Oct 2026
+										471 text Published
+									472 cell
+										473 text 14
+									474 cell
+										475 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/QujEX9RWHp4/comments
+							476 row
+								477 container row-container
+									478 cell
+										479 container Select Renoma Wroclaw | Illuminated facade | WROC-LOVE
+											480 checkbox Description: Select Renoma Wroclaw | Illuminated facade | WROC-LOVE, Value: 0, ID: checkbox
+									481 cell
+										482 container
+											483 link Description: Video thumbnail: Renoma Wroclaw | Illuminated facade | WROC-LOVE 0:04, Value: studio.youtube.com/video/J3-FVZvzMGA/edit, ID: thumbnail-anchor
+											484 link Description: Renoma Wroclaw | Illuminated facade | WROC-LOVE, Value: studio.youtube.com/video/J3-FVZvzMGA/edit, ID: video-title
+											485 text Original visit footage of the illuminated Renoma department store facade in Wroclaw. Full visit clip, without background audio. Explore the cultural map: https://wroc-love.com/share/en/cultural.html
+									486 cell
+										487 text —
+									488 cell
+										489 text Public
+									490 cell
+										491 text 19 Oct 2026
+										492 text Published
+									493 cell
+										494 text 14
+									495 cell
+										496 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/J3-FVZvzMGA/comments
+							497 row
+								498 container row-container
+									499 cell
+										500 container Select האצטדיון האולימפי בוורוצלב | ההדרכה המלאה של גיל שר
+											501 checkbox Description: Select האצטדיון האולימפי בוורוצלב | ההדרכה המלאה של גיל שר, Value: 0, ID: checkbox
+									502 cell
+										503 container
+											504 link Description: Video thumbnail: האצטדיון האולימפי בוורוצלב | ההדרכה המלאה של גיל שר 1:42, Value: studio.youtube.com/video/--MnGY29fng/edit, ID: thumbnail-anchor
+											505 link Description: האצטדיון האולימפי בוורוצלב | ההדרכה המלאה של גיל שר, Value: studio.youtube.com/video/--MnGY29fng/edit, ID: video-title
+											506 text הדרכה מקורית ומלאה של גיל שר מול הכניסה לאצטדיון האולימפי בוורוצלב, עם סיפור המקום והצעה להכיר את מתחם הספורט שסביבו. התמונה והקול המקוריים נשמרו. שם המקום בפולנית: Stadion Olimpijski הבהרה לסיסמה המופיעה בחזית: התרגום לפי סדר המילים בלטינית הוא מהר יותר, גבוה יותר, חזק יותר. בכתוביות נשמר סדר המילים שנאמר בהקלטה. Citius, Altius, Fortius הבהרה היסטורית: האצטדיון נבנה בשנים 1926 עד 1928 ושימש למגוון אירועי ספורט. במשחקים הגרמניים של 1930 היה חלק מההכנה לאולימפיאדת לוס אנג׳לס. כיום השימושים המר
+									507 cell
+										508 text —
+									509 cell
+										510 text Public
+									511 cell
+										512 text 19 Oct 2026
+										513 text Published
+									514 cell
+										515 text 1
+									516 cell
+										517 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/--MnGY29fng/comments
+							518 row
+								519 container row-container
+									520 cell
+										521 container Select Wrocław Olympic Stadium | Full Guide with Gil Sher
+											522 checkbox Description: Select Wrocław Olympic Stadium | Full Guide with Gil Sher, Value: 0, ID: checkbox
+									523 cell
+										524 container
+											525 link Description: Video thumbnail: Wrocław Olympic Stadium | Full Guide with Gil Sher 1:50, Value: studio.youtube.com/video/tiCdc_8vIYw/edit, ID: thumbnail-anchor
+											526 link Description: Wrocław Olympic Stadium | Full Guide with Gil Sher, Value: studio.youtube.com/video/tiCdc_8vIYw/edit, ID: video-title
+											527 text Gil Sher's original full guide at Wrocław's Olympic Stadium entrance, introducing the stadium and the surrounding sports complex. Original picture and spoken audio are preserved. Official Polish name: Stadion Olimpijski. Clarification: Citius, Altius, Fortius means Faster, Higher, Stronger, in that order. Subtitles preserve the order spoken in the recording. Historical context: the stadium was built between 1926 and 1928 and hosted various sporting events. The 1930 German Games formed part of
+									528 cell
+										529 text —
+									530 cell
+										531 text Public
+									532 cell
+										533 text 19 Oct 2026
+										534 text Published
+									535 cell
+										536 text 9
+									537 cell
+										538 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/tiCdc_8vIYw/comments
+							539 row
+								540 container row-container
+									541 cell
+										542 container Select Wrocław Olympic Stadium | Autumn entrance gateway | WROC-LOVE
+											543 checkbox Description: Select Wrocław Olympic Stadium | Autumn entrance gateway | WROC-LOVE, Value: 0, ID: checkbox
+									544 cell
+										545 container
+											546 link Description: Video thumbnail: Wrocław Olympic Stadium | Autumn entrance gateway | WROC-LOVE 0:06, Value: studio.youtube.com/video/mAtvLR3I5hA/edit, ID: thumbnail-anchor
+											547 link Description: Wrocław Olympic Stadium | Autumn entrance gateway | WROC-LOVE, Value: studio.youtube.com/video/mAtvLR3I5hA/edit, ID: video-title
+											548 text Original visit footage of Wrocław Olympic Stadium and its entrance courtyard. Full original picture sequence; published without background audio. Explore our interactive Wrocław map: https://wroc-love.com/products/interactive-maps/premium.html?lang=en
+									549 cell
+										550 text —
+									551 cell
+										552 text Public
+									553 cell
+										554 text 19 Oct 2026
+										555 text Published
+									556 cell
+										557 text 12
+									558 cell
+										559 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/mAtvLR3I5hA/comments
+							560 row
+								561 container row-container
+									562 cell
+										563 container Select Wrocław Olympic Stadium | Historic stadium entrance and sports mosaic | WROC-LOVE
+											564 checkbox Description: Select Wrocław Olympic Stadium | Historic stadium entrance and sports mosaic | WROC-LOVE, Value: 0, ID: checkbox
+									565 cell
+										566 container
+											567 link Value: studio.youtube.com/video/P2yacrgX_eg/edit, ID: thumbnail-anchor, Description: Video thumbnail: Wrocław Olympic Stadium | Historic stadium entrance and sports mosaic | WROC-LOVE 0:05
+											568 link Description: Wrocław Olympic Stadium | Historic stadium entrance and sports mosaic | WROC-LOVE, Value: studio.youtube.com/video/P2yacrgX_eg/edit, ID: video-title
+											569 text Original visit footage of Wrocław Olympic Stadium and its entrance courtyard. Full original picture sequence; published without background audio. Explore our interactive Wrocław map: https://wroc-love.com/products/interactive-maps/premium.html?lang=en
+									570 cell
+										571 text —
+									572 cell
+										573 text Public
+									574 cell
+										575 text 19 Oct 2026
+										576 text Published
+									577 cell
+										578 text 3
+									579 cell
+										580 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/P2yacrgX_eg/comments
+							581 row
+								582 container row-container
+									583 cell
+										584 container Select Wrocław Olympic Stadium | Stadium courtyard panorama | WROC-LOVE
+											585 checkbox Description: Select Wrocław Olympic Stadium | Stadium courtyard panorama | WROC-LOVE, Value: 0, ID: checkbox
+									586 cell
+										587 container
+											588 link Description: Video thumbnail: Wrocław Olympic Stadium | Stadium courtyard panorama | WROC-LOVE 0:09, Value: studio.youtube.com/video/41IYcRT2G4c/edit, ID: thumbnail-anchor
+											589 link Description: Wrocław Olympic Stadium | Stadium courtyard panorama | WROC-LOVE, Value: studio.youtube.com/video/41IYcRT2G4c/edit, ID: video-title
+											590 text Original visit footage of Wrocław Olympic Stadium and its entrance courtyard. Full original picture sequence; published without background audio. Explore our interactive Wrocław map: https://wroc-love.com/products/interactive-maps/premium.html?lang=en
+									591 cell
+										592 text —
+									593 cell
+										594 text Public
+									595 cell
+										596 text 19 Oct 2026
+										597 text Published
+									598 cell
+										599 text 7
+									600 cell
+										601 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/41IYcRT2G4c/comments
+							602 row
+								603 container row-container
+									604 cell
+										605 container Select Wrocław Olympic Stadium | Olympic rings on the stadium entrance | WROC-LOVE
+											606 checkbox Description: Select Wrocław Olympic Stadium | Olympic rings on the stadium entrance | WROC-LOVE, Value: 0, ID: checkbox
+									607 cell
+										608 container
+											609 link Description: Video thumbnail: Wrocław Olympic Stadium | Olympic rings on the stadium entrance | WROC-LOVE 0:03, Value: studio.youtube.com/video/YJGYqzLFYcQ/edit, ID: thumbnail-anchor
+											610 link Description: Wrocław Olympic Stadium | Olympic rings on the stadium entrance | WROC-LOVE, Value: studio.youtube.com/video/YJGYqzLFYcQ/edit, ID: video-title
+											611 text Original visit footage of Wrocław Olympic Stadium and its entrance courtyard. Full original picture sequence; published without background audio. Explore our interactive Wrocław map: https://wroc-love.com/products/interactive-maps/premium.html?lang=en
+									612 cell
+										613 text —
+									614 cell
+										615 text Public
+									616 cell
+										617 text 19 Oct 2026
+										618 text Published
+									619 cell
+										620 text 1
+									621 cell
+										622 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/YJGYqzLFYcQ/comments
+							623 row
+								624 container row-container
+									625 cell
+										626 container Select Wrocław Olympic Stadium | Gateway and red-brick pavilion | WROC-LOVE
+											627 checkbox Description: Select Wrocław Olympic Stadium | Gateway and red-brick pavilion | WROC-LOVE, Value: 0, ID: checkbox
+									628 cell
+										629 container
+											630 link Description: Video thumbnail: Wrocław Olympic Stadium | Gateway and red-brick pavilion | WROC-LOVE 0:03, Value: studio.youtube.com/video/8dnp9MAaTig/edit, ID: thumbnail-anchor
+											631 link Description: Wrocław Olympic Stadium | Gateway and red-brick pavilion | WROC-LOVE, Value: studio.youtube.com/video/8dnp9MAaTig/edit, ID: video-title
+											632 text Original visit footage of Wrocław Olympic Stadium and its entrance courtyard. Full original picture sequence; published without background audio. Explore our interactive Wrocław map: https://wroc-love.com/products/interactive-maps/premium.html?lang=en
+									633 cell
+										634 text —
+									635 cell
+										636 text Public
+									637 cell
+										638 text 19 Oct 2026
+										639 text Published
+									640 cell
+										641 text 19
+									642 cell
+										643 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/8dnp9MAaTig/comments
+							644 row
+								645 container row-container
+									646 cell
+										647 container Select Wrocław Olympic Stadium | Courtyard, steps and tree-lined gateway | WROC-LOVE
+											648 checkbox Description: Select Wrocław Olympic Stadium | Courtyard, steps and tree-lined gateway | WROC-LOVE, Value: 0, ID: checkbox
+									649 cell
+										650 container
+											651 link Description: Video thumbnail: Wrocław Olympic Stadium | Courtyard, steps and tree-lined gateway | WROC-LOVE 0:16, Value: studio.youtube.com/video/WGMudkQ96D4/edit, ID: thumbnail-anchor
+											652 link Description: Wrocław Olympic Stadium | Courtyard, steps and tree-lined gateway | WROC-LOVE, Value: studio.youtube.com/video/WGMudkQ96D4/edit, ID: video-title
+											653 text Original visit footage of Wrocław Olympic Stadium and its entrance courtyard. Full original picture sequence; published without background audio. Explore our interactive Wrocław map: https://wroc-love.com/products/interactive-maps/premium.html?lang=en
+									654 cell
+										655 text —
+									656 cell
+										657 text Public
+									658 cell
+										659 text 19 Oct 2026
+										660 text Published
+									661 cell
+										662 text 8
+									663 cell
+										664 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/WGMudkQ96D4/comments
+							665 row
+								666 container row-container
+									667 cell
+										668 container Select Westfield Wroclavia | Illuminated entrance | WROC-LOVE visit clip
+											669 checkbox Description: Select Westfield Wroclavia | Illuminated entrance | WROC-LOVE visit clip, Value: 0, ID: checkbox
+									670 cell
+										671 container
+											672 link Description: Video thumbnail: Westfield Wroclavia | Illuminated entrance | WROC-LOVE visit clip 0:05, Value: studio.youtube.com/video/fTPTY-yic0o/edit, ID: thumbnail-anchor
+											673 link Description: Westfield Wroclavia | Illuminated entrance | WROC-LOVE visit clip, Value: studio.youtube.com/video/fTPTY-yic0o/edit, ID: video-title
+											674 text Original four-second footage from our visit to Westfield Wroclavia in Wrocław, Poland. The illuminated entrance shows the current Westfield Wroclavia branding. Find the centre on our lifestyle map: https://wroc-love.com/share/en/lifestyle.html Address: Sucha 1, Wrocław.
+									675 cell
+										676 text —
+									677 cell
+										678 text Public
+									679 cell
+										680 text 19 Oct 2026
+										681 text Published
+									682 cell
+										683 text 4
+									684 cell
+										685 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/fTPTY-yic0o/comments
+							686 row
+								687 container row-container
+									688 cell
+										689 container Select Wrocław Pergola | Our complete guide | WROC-LOVE
+											690 checkbox Description: Select Wrocław Pergola | Our complete guide | WROC-LOVE, Value: 0, ID: checkbox
+									691 cell
+										692 container
+											693 link Description: Video thumbnail: Wrocław Pergola | Our complete guide | WROC-LOVE 1:00, Value: studio.youtube.com/video/yP9iXmP47RQ/edit, ID: thumbnail-anchor
+											694 link Description: Wrocław Pergola | Our complete guide | WROC-LOVE, Value: studio.youtube.com/video/yP9iXmP47RQ/edit, ID: video-title
+											695 text Our complete original guide to the Wrocław Pergola, the plant-covered promenade beside Centennial Hall and the Wrocław Multimedia Fountain. The original picture and spoken audio are preserved without cuts, speed changes or replacement narration. Factual correction: According to the official Centennial Hall website, the Pergola is 640 metres long and has 750 pillars. The figures of 600 metres and 480 pillars spoken in this recording are incorrect. The fountain mentioned in the guide is the Wrocł
+									696 cell
+										697 text —
+									698 cell
+										699 text Public
+									700 cell
+										701 text 19 Oct 2026
+										702 text Published
+									703 cell
+										704 text 3
+									705 cell
+										706 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/yP9iXmP47RQ/comments
+							707 row
+								708 container row-container
+									709 cell
+										710 container Select הפרגולה בוורוצלב | המדריך שלנו
+											711 checkbox Description: Select הפרגולה בוורוצלב | המדריך שלנו, Value: 0, ID: checkbox
+									712 cell
+										713 container
+											714 link Description: Video thumbnail: הפרגולה בוורוצלב | המדריך שלנו 1:10, Value: studio.youtube.com/video/78GzPBmtRo4/edit, ID: thumbnail-anchor
+											715 link Description: הפרגולה בוורוצלב | המדריך שלנו, Value: studio.youtube.com/video/78GzPBmtRo4/edit, ID: video-title
+											716 text הדרכה מקורית מלאה בפרגולה של ורוצלב, הטיילת עטופת הצמחייה ליד היכל המאה ומזרקת המולטימדיה. התמונה והקול המקוריים נשמרו ללא קיצור או שינוי. תיקון עובדתי להדרכה: לפי האתר הרשמי של היכל המאה, אורך הפרגולה הוא 640 מטר והיא כוללת 750 עמודים. המספר 480 שנאמר בהקלטה אינו נכון. הכתוביות משקפות את דברי המדריך המקוריים. מקור: https://halastulecia.pl/zwiedzanie/pergola/ למפת ארבעת הימים שלנו, חפשו את הפרגולה: https://wroc-love.com/share/he/premium.html כתוביות עברית זמינות בנגן יוטיוב.
+									717 cell
+										718 text —
+									719 cell
+										720 text Public
+									721 cell
+										722 text 19 Oct 2026
+										723 text Published
+									724 cell
+										725 text 1
+									726 cell
+										727 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/78GzPBmtRo4/comments
+							728 row
+								729 container row-container
+									730 cell
+										731 container Select Wrocław Pergola | Climbing leaves detail | WROC-LOVE
+											732 checkbox Description: Select Wrocław Pergola | Climbing leaves detail | WROC-LOVE, Value: 0, ID: checkbox
+									733 cell
+										734 container
+											735 link Description: Video thumbnail: Wrocław Pergola | Climbing leaves detail | WROC-LOVE 0:05, Value: studio.youtube.com/video/WFQyRKD66YQ/edit, ID: thumbnail-anchor
+											736 link Description: Wrocław Pergola | Climbing leaves detail | WROC-LOVE, Value: studio.youtube.com/video/WFQyRKD66YQ/edit, ID: video-title
+											737 text Original silent footage from our visit to Wrocław Pergola beside Centennial Hall. The full original picture sequence and duration are preserved. Explore our interactive maps: https://wroc-love.com/share/en/premium.html
+									738 cell
+										739 text —
+									740 cell
+										741 text Public
+									742 cell
+										743 text 19 Oct 2026
+										744 text Published
+									745 cell
+										746 text 0
+									747 cell
+										748 link Description: Video has 0 comments. Video comments page, Value: studio.youtube.com/video/WFQyRKD66YQ/comments
+							749 container footer
+								750 container page-control-container
+									751 text Rows per page:
+									752 container Description: Menu for selecting the number of rows per page., ID: page-size
+										753 button 30
+											754 button 30
+												755 text 30
+									756 text 1–30 of about 206
+									757 button (disabled) Description: Navigate to the first page, ID: navigate-first
+									758 button (disabled) Description: Navigate to the previous page, ID: navigate-before
+									759 button Description: Navigate to the next page, ID: navigate-after
+
+The focused UI element is 1 AXWebArea Channel content - YouTube Studio, URL: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos/short

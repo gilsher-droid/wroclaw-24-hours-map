@@ -330,6 +330,27 @@
       "provenance": "data/morskie-oko-guide-caption-provenance.json",
       "evidence": "docs/morskie-oko-guides",
       "reopenedVerification": true
+    },
+    {
+      "canonicalId": "zyjnia-bwa-wroclaw",
+      "videos": {
+        "he": "ZO-A54BIZQk",
+        "en": "BAueoGqdcC4"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "status": "Published"
+      },
+      "verifiedAt": "2026-10-20",
+      "provenance": "data/zyjnia-guide-caption-provenance.json",
+      "evidence": "docs/zyjnia-guides",
+      "reopenedVerification": true
     }
   ]
 }
