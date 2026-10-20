@@ -15799,3 +15799,479 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
     }
   }
 ]);
+
+// User-confirmed relocation of the existing dwarf information centre.
+window.WROC_CANONICAL_PLACE_SOURCE.push({
+  "id": "dwarf-info",
+  "aliases": [
+    "Dom Krasnali",
+    "Dom Krasnali Wrocławskich",
+    "Krasnal Info",
+    "KrasnalInfo",
+    "Dwarf Information Centre",
+    "מרכז המידע של הגמדים"
+  ],
+  "localName": "Dom Krasnali",
+  "name": {
+    "he": "מרכז המידע של הגמדים",
+    "en": "Dwarf Information Centre",
+    "pl": "Informacja o krasnalach",
+    "de": "Zwergen-Informationszentrum",
+    "cs": "Informační centrum trpaslíků"
+  },
+  "description": {
+    "he": "מרכז הגמדים, בכתובתו החדשה בכיכר השוק, משלב מפות, חומרי מידע וחוויה מקורה סביב הגמדים של העיר. הכניסה בקומה הראשונה, לפי האתר הרשמי והשילוט שבצילומי הביקור שלנו. בתמונות נראים הכניסה עם פסל הגמד, אזור הקבלה, מפות וחללי התצוגה. אפשר לשלב את הביקור עם חיפוש הגמדים ברחובות; תמונות הפסלים העירוניים הוותיקות בגלריה הן המחשה למסלול בחוץ. בדקו באתר הרשמי כרטיסים וזמינות לפני ההגעה.\nDom Krasnali\nRynek 36/37, Wrocław",
+    "en": "The dwarf centre, at its new address on the Market Square, combines maps, visitor information and an indoor experience about the city’s dwarfs. The entrance is on the first floor, as shown on the official site and our visit signs. Our photographs show the entrance with its dwarf figure, reception, maps and exhibition rooms. Combine a visit with a dwarf hunt outside; the older street-statue photographs in the gallery illustrate that city walk. Check tickets and availability on the official site before visiting.\nDom Krasnali\nRynek 36/37, Wrocław",
+    "pl": "Centrum krasnali pod nowym adresem na Rynku łączy mapy, materiały informacyjne i atrakcję we wnętrzu poświęconą wrocławskim krasnalom. Wejście znajduje się na pierwszym piętrze, zgodnie z oficjalną stroną i oznaczeniami na naszych zdjęciach. Fotografie z wizyty pokazują wejście z figurą krasnala, recepcję, mapy i sale ekspozycji. Wizytę można połączyć z szukaniem krasnali na ulicach; starsze zdjęcia ulicznych figurek w galerii ilustrują ten spacer. Przed przyjazdem sprawdź bilety i dostępność na oficjalnej stronie.\nDom Krasnali\nRynek 36/37, Wrocław",
+    "de": "Das Zwergenzentrum an seiner neuen Adresse am Marktplatz verbindet Karten, Besucherinformationen und ein Erlebnis im Innenraum rund um die Breslauer Zwerge. Der Eingang liegt im ersten Stock, wie die offizielle Website und die Beschilderung auf unseren Besuchsfotos zeigen. Zu sehen sind der Eingang mit Zwergenfigur, Empfang, Karten und Ausstellungsräume. Ein Besuch lässt sich mit einer Zwergensuche draußen verbinden; die älteren Fotos der Straßenfiguren in der Galerie illustrieren diesen Stadtspaziergang. Prüfen Sie Tickets und Verfügbarkeit auf der offiziellen Website.\nDom Krasnali\nRynek 36/37, Wrocław",
+    "cs": "Centrum trpaslíků na nové adrese na Rynku spojuje mapy, informace pro návštěvníky a vnitřní zážitek o vratislavských trpaslících. Vstup je v prvním patře podle oficiálního webu i označení na našich fotografiích. Snímky z návštěvy ukazují vchod s postavou trpaslíka, recepci, mapy a výstavní místnosti. Návštěvu lze spojit s hledáním trpaslíků v ulicích; starší fotografie pouličních figurek v galerii tento městský okruh ilustrují. Před návštěvou ověřte vstupenky a dostupnost na oficiálním webu.\nDom Krasnali\nRynek 36/37, Wrocław"
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1101013,
+      "lng": 17.0334642
+    },
+    "address": {
+      "street": "Rynek 36/37",
+      "postalCode": "50-102",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "special"
+  ],
+  "taxonomy": {
+    "tags": [
+      "dwarfs",
+      "visitor-centre",
+      "indoor-attraction",
+      "museum"
+    ]
+  },
+  "links": {
+    "website": "https://domkrasnali.pl/",
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/dwarf-info/dom-krasnali-01.jpg",
+      "/assets/dwarf-info/dom-krasnali-02.jpg",
+      "/assets/dwarf-info/dom-krasnali-03.jpg",
+      "/assets/dwarf-info/dom-krasnali-04.jpg",
+      "/assets/dwarf-info/dom-krasnali-05.jpg",
+      "/assets/dwarf-info/dom-krasnali-06.jpg",
+      "/assets/dwarf-info/dom-krasnali-07.jpg",
+      "/assets/dwarf-info/dom-krasnali-08.jpg",
+      "/assets/dwarf-info/dom-krasnali-09.jpg",
+      "/assets/dwarf-info/dom-krasnali-10.jpg",
+      "/assets/dwarf-info/dom-krasnali-11.jpg",
+      "/assets/dwarf-info/dom-krasnali-12.jpg",
+      "/assets/dwarf-info/dom-krasnali-13.jpg",
+      "/assets/dwarf-info/dom-krasnali-14.jpg",
+      "/assets/dwarf-info/dom-krasnali-15.jpg",
+      "/assets/gallery-gnomes-01.jpg",
+      "/assets/gallery-gnomes-02.jpg",
+      "/assets/gallery-gnomes-03.jpg",
+      "/assets/gallery-gnomes-04.jpg",
+      "/assets/gallery-gnomes-05.jpg"
+    ],
+    "videos": [],
+    "thumbnail": "/assets/dwarf-info/dom-krasnali-06.jpg",
+    "metadata": {
+      "/assets/dwarf-info/dom-krasnali-01.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.41 (1).jpeg",
+        "sourceSHA256": "4ea82ed53c061d662bf3411ef545c1d216f5c7e8c75b88f6ac0d41187fb7c513",
+        "assetSHA256": "4ea82ed53c061d662bf3411ef545c1d216f5c7e8c75b88f6ac0d41187fb7c513",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "כניסת המבנה עם קשת ושלט מרכז הגמדים",
+          "en": "Arched building entrance with dwarf centre sign",
+          "pl": "Wejście do budynku z łukiem i szyldem centrum krasnali",
+          "de": "Gebäudeeingang mit Bogen und Schild des Zwergenzentrums",
+          "cs": "Obloukový vstup do budovy s označením centra trpaslíků"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-02.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.41 (2).jpeg",
+        "sourceSHA256": "0dfe5dc95c4c2b2ffa47ffce09511d5e15119474f5e5ac3aaf82f8a6370a12e2",
+        "assetSHA256": "0dfe5dc95c4c2b2ffa47ffce09511d5e15119474f5e5ac3aaf82f8a6370a12e2",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "שלט מרכז הגמדים ליד הכניסה",
+          "en": "Dwarf centre sign beside the entrance",
+          "pl": "Szyld centrum krasnali przy wejściu",
+          "de": "Schild des Zwergenzentrums am Eingang",
+          "cs": "Označení centra trpaslíků u vchodu"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-03.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.41 (3).jpeg",
+        "sourceSHA256": "fce0ba582e21f24f2818b9532642619fd3426084f5fc98880ee785ad700855b2",
+        "assetSHA256": "fce0ba582e21f24f2818b9532642619fd3426084f5fc98880ee785ad700855b2",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "שלט הקומה הראשונה של מרכז הגמדים",
+          "en": "First-floor dwarf centre sign",
+          "pl": "Szyld centrum krasnali na pierwszym piętrze",
+          "de": "Schild des Zwergenzentrums im ersten Stock",
+          "cs": "Označení centra trpaslíků v prvním patře"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-04.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.41 (4).jpeg",
+        "sourceSHA256": "6be03ae68164367d719b0eb9f3be7561ec47d350c27c7386b565773c464432f7",
+        "assetSHA256": "6be03ae68164367d719b0eb9f3be7561ec47d350c27c7386b565773c464432f7",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "מבואת המבנה והמעלית תחת שלט המרכז",
+          "en": "Building lobby and lift below the centre sign",
+          "pl": "Hol i winda pod szyldem centrum",
+          "de": "Gebäudefoyer und Aufzug unter dem Zentrumsschild",
+          "cs": "Vstupní hala a výtah pod označením centra"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-05.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.41 (5).jpeg",
+        "sourceSHA256": "e3d787790382ff933e5ee9dbeb39f241f30ba143cb0516ce0f7498715dd3a592",
+        "assetSHA256": "e3d787790382ff933e5ee9dbeb39f241f30ba143cb0516ce0f7498715dd3a592",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "מבט רחב על שלט המרכז במסדרון",
+          "en": "Wider view of the centre sign in the corridor",
+          "pl": "Szerszy widok szyldu centrum na korytarzu",
+          "de": "Weiter Blick auf das Zentrumsschild im Flur",
+          "cs": "Širší pohled na označení centra na chodbě"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-06.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.41.jpeg",
+        "sourceSHA256": "b2172edd8a17eea12a27f282542a74718229a01993783c79aa782dd5ac37aa2d",
+        "assetSHA256": "b2172edd8a17eea12a27f282542a74718229a01993783c79aa782dd5ac37aa2d",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "הכניסה למרכז עם פסל הגמד והשלט",
+          "en": "Centre entrance with dwarf figure and sign",
+          "pl": "Wejście do centrum z figurą krasnala i szyldem",
+          "de": "Zentrumseingang mit Zwergenfigur und Schild",
+          "cs": "Vstup do centra s postavou trpaslíka a označením"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-07.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42 (1).jpeg",
+        "sourceSHA256": "3d28e0c8b40c65673b1df3cd74db2a7224b38c6be7c145908e1c1597398721eb",
+        "assetSHA256": "3d28e0c8b40c65673b1df3cd74db2a7224b38c6be7c145908e1c1597398721eb",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "מפות העיר והגמדים על הקיר",
+          "en": "City and dwarf maps on the wall",
+          "pl": "Mapy miasta i krasnali na ścianie",
+          "de": "Stadt- und Zwergenkarten an der Wand",
+          "cs": "Mapy města a trpaslíků na stěně"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-08.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42 (2).jpeg",
+        "sourceSHA256": "2bec83c28a5f9a581920e89fbac7aea91819e4096142ed9ffb67d6776607afa8",
+        "assetSHA256": "2bec83c28a5f9a581920e89fbac7aea91819e4096142ed9ffb67d6776607afa8",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "מפות וחומרי מידע בתצוגה",
+          "en": "Maps and information materials on display",
+          "pl": "Mapy i materiały informacyjne na wystawie",
+          "de": "Ausgestellte Karten und Informationsmaterialien",
+          "cs": "Vystavené mapy a informační materiály"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-09.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42 (3).jpeg",
+        "sourceSHA256": "1e75c610b323352d75bae2e92cba10dcfb3b5107b3eed81b82828b18da125e8b",
+        "assetSHA256": "1e75c610b323352d75bae2e92cba10dcfb3b5107b3eed81b82828b18da125e8b",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "מפה מאוירת של הגמדים בעיר",
+          "en": "Illustrated city dwarf map",
+          "pl": "Ilustrowana mapa miejskich krasnali",
+          "de": "Illustrierte Karte der Stadtzwerge",
+          "cs": "Ilustrovaná mapa městských trpaslíků"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-10.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42 (4).jpeg",
+        "sourceSHA256": "f59a0c4a327e53f598b0b64dba2a92c9b1ae84ff05aabf758883d9b6deb9351d",
+        "assetSHA256": "f59a0c4a327e53f598b0b64dba2a92c9b1ae84ff05aabf758883d9b6deb9351d",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "חדר התצוגה הירוק עם מדרגות וגדעי עץ",
+          "en": "Green exhibition room with steps and wooden stumps",
+          "pl": "Zielona sala ekspozycji ze schodami i drewnianymi pniami",
+          "de": "Grüner Ausstellungsraum mit Treppe und Holzstümpfen",
+          "cs": "Zelená výstavní místnost se schody a dřevěnými pařezy"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-11.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42 (5).jpeg",
+        "sourceSHA256": "7f202416ab2b784e124eabf959b495620d7dd75ecc102ececf8b0b119c7b310a",
+        "assetSHA256": "7f202416ab2b784e124eabf959b495620d7dd75ecc102ececf8b0b119c7b310a",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "דלפק הקבלה וקיר הלוגו הירוק",
+          "en": "Reception counter and green logo wall",
+          "pl": "Recepcja i zielona ściana z logo",
+          "de": "Empfangstresen und grüne Logowand",
+          "cs": "Recepční pult a zelená stěna s logem"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-12.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42 (6).jpeg",
+        "sourceSHA256": "94c6a08d0b9b1644a2ca19456c3d27ea01a26a52fb6ce01a48e376e677a58fe7",
+        "assetSHA256": "94c6a08d0b9b1644a2ca19456c3d27ea01a26a52fb6ce01a48e376e677a58fe7",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "קיר פתקים מעץ בחלל המרכז",
+          "en": "Wall of wooden notes inside the centre",
+          "pl": "Ściana drewnianych karteczek we wnętrzu centrum",
+          "de": "Wand aus Holznotizen im Zentrum",
+          "cs": "Stěna dřevěných vzkazů uvnitř centra"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-13.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42 (7).jpeg",
+        "sourceSHA256": "be6a86ccecf93bd7ff1d71fb69e6b14992e3b329ce891139dfaa0de74906a784",
+        "assetSHA256": "be6a86ccecf93bd7ff1d71fb69e6b14992e3b329ce891139dfaa0de74906a784",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "המסדרון עם שלט הקומה הראשונה",
+          "en": "Corridor with first-floor sign",
+          "pl": "Korytarz z oznaczeniem pierwszego piętra",
+          "de": "Flur mit Schild zum ersten Stock",
+          "cs": "Chodba s označením prvního patra"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-14.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42 (8).jpeg",
+        "sourceSHA256": "8d6f34cdb3119699ed6f70dcceb9a1a21e032fcf63be9ab93bfbd53fc107aba1",
+        "assetSHA256": "8d6f34cdb3119699ed6f70dcceb9a1a21e032fcf63be9ab93bfbd53fc107aba1",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "פסל הגמד הגדול בכניסה למרכז",
+          "en": "Large dwarf figure at the centre entrance",
+          "pl": "Duża figura krasnala przy wejściu do centrum",
+          "de": "Große Zwergenfigur am Zentrumseingang",
+          "cs": "Velká postava trpaslíka u vstupu do centra"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/dwarf-info/dom-krasnali-15.jpg": {
+        "sourceFile": "מרכז המידע על הגמדים/WhatsApp Image 2026-10-20 at 21.14.42.jpeg",
+        "sourceSHA256": "70938a38582bd88d1553fa39a55dc87b8ef08c74736438485617b0e2460aabf5",
+        "assetSHA256": "70938a38582bd88d1553fa39a55dc87b8ef08c74736438485617b0e2460aabf5",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "alt": {
+          "he": "מבט רחב על אזור הקבלה והמדפים",
+          "en": "Wider view of reception and shelves",
+          "pl": "Szerszy widok recepcji i regałów",
+          "de": "Weiter Blick auf Empfang und Regale",
+          "cs": "Širší pohled na recepci a police"
+        },
+        "verifiedAt": "2026-10-20T18:51:09.232514+00:00"
+      },
+      "/assets/gallery-gnomes-01.jpg": {
+        "assetSHA256": "10395ba47095023cd288326c89787c6d9fa322d7054d536e93300973e563605b",
+        "familyForeground": false,
+        "historicalContext": "Existing street-dwarf hunt illustration, not the new centre premises",
+        "alt": {
+          "he": "פסלי גמדים ברחובות העיר, המחשה לחיפוש בחוץ",
+          "en": "Street dwarf figures illustrating the outdoor city hunt",
+          "pl": "Uliczne figurki krasnali ilustrujące poszukiwania w mieście",
+          "de": "Zwergenfiguren auf der Straße als Illustration der Stadtsuche",
+          "cs": "Pouliční figurky trpaslíků ilustrující hledání ve městě"
+        }
+      },
+      "/assets/gallery-gnomes-02.jpg": {
+        "assetSHA256": "e36c7654928d4b5082d0272bbb9145e4701ecb454212587b1a5e9c88457f6d22",
+        "familyForeground": false,
+        "historicalContext": "Existing street-dwarf hunt illustration, not the new centre premises",
+        "alt": {
+          "he": "פסלי גמדים ברחובות העיר, המחשה לחיפוש בחוץ",
+          "en": "Street dwarf figures illustrating the outdoor city hunt",
+          "pl": "Uliczne figurki krasnali ilustrujące poszukiwania w mieście",
+          "de": "Zwergenfiguren auf der Straße als Illustration der Stadtsuche",
+          "cs": "Pouliční figurky trpaslíků ilustrující hledání ve městě"
+        }
+      },
+      "/assets/gallery-gnomes-03.jpg": {
+        "assetSHA256": "0d6416df9b576b9cfa512828e772a8bc2bdd1ee0e3c99fe1941fcaea9cec721c",
+        "familyForeground": false,
+        "historicalContext": "Existing street-dwarf hunt illustration, not the new centre premises",
+        "alt": {
+          "he": "פסלי גמדים ברחובות העיר, המחשה לחיפוש בחוץ",
+          "en": "Street dwarf figures illustrating the outdoor city hunt",
+          "pl": "Uliczne figurki krasnali ilustrujące poszukiwania w mieście",
+          "de": "Zwergenfiguren auf der Straße als Illustration der Stadtsuche",
+          "cs": "Pouliční figurky trpaslíků ilustrující hledání ve městě"
+        }
+      },
+      "/assets/gallery-gnomes-04.jpg": {
+        "assetSHA256": "67ba2c29d93f1849ab2bf09ec1d811dd54c693044a85b60d9119c171c1d76f4a",
+        "familyForeground": false,
+        "historicalContext": "Existing street-dwarf hunt illustration, not the new centre premises",
+        "alt": {
+          "he": "פסלי גמדים ברחובות העיר, המחשה לחיפוש בחוץ",
+          "en": "Street dwarf figures illustrating the outdoor city hunt",
+          "pl": "Uliczne figurki krasnali ilustrujące poszukiwania w mieście",
+          "de": "Zwergenfiguren auf der Straße als Illustration der Stadtsuche",
+          "cs": "Pouliční figurky trpaslíků ilustrující hledání ve městě"
+        }
+      },
+      "/assets/gallery-gnomes-05.jpg": {
+        "assetSHA256": "21da07bb9beb170eacaaed8dc322d3b4edc2f71731c992ee30623dc9d62012cd",
+        "familyForeground": false,
+        "historicalContext": "Existing street-dwarf hunt illustration, not the new centre premises",
+        "alt": {
+          "he": "פסלי גמדים ברחובות העיר, המחשה לחיפוש בחוץ",
+          "en": "Street dwarf figures illustrating the outdoor city hunt",
+          "pl": "Uliczne figurki krasnali ilustrujące poszukiwania w mieście",
+          "de": "Zwergenfiguren auf der Straße als Illustration der Stadtsuche",
+          "cs": "Pouliční figurky trpaslíků ilustrující hledání ve městě"
+        }
+      }
+    }
+  },
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "status": "published",
+  "provenance": {
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://domkrasnali.pl/krasnale-dla-dzieci/",
+        "checkedAt": "2026-10-20T18:51:09.232514+00:00",
+        "note": "Rynek36/37,firstfloor,visitorattraction; no claim of free entry or current hours"
+      }
+    ],
+    "coordinateVerification": {
+      "method": "Exact Google Maps business and official address match",
+      "lat": 51.1101013,
+      "lng": 17.0334642,
+      "checkedAt": "2026-10-20T18:51:09.232514+00:00"
+    },
+    "relocation": {
+      "identityContinuitySource": "Direct user clarification 2026-10-20",
+      "userWords": "זו הכתובת החדשה של מרכז המידע הקיים נא לעדכן",
+      "previousAddress": "Sukiennice 12, Wrocław",
+      "previousCoordinates": {
+        "lat": 51.10909,
+        "lng": 17.03176
+      },
+      "newAddress": "Rynek 36/37, Wrocław",
+      "newCoordinates": {
+        "lat": 51.1101013,
+        "lng": 17.0334642
+      },
+      "relocationDate": "Not independently established; no invented date",
+      "preservedCanonicalId": "dwarf-info"
+    },
+    "refresh20261020": {
+      "sourceFiles": 15,
+      "newPhotos": 15,
+      "olderCityHuntIllustrationsPreserved": 5,
+      "familyPublished": false,
+      "maps": [
+        "wroclaw-four-days",
+        "cultural-adventure"
+      ],
+      "mapDecision": "Existing four-day stop retained; same ID added to cultural museum theme for the verified indoor dwarf exhibition. No separate Dom Krasnali pin."
+    }
+  },
+  "socialPosts": [
+    {
+      "platform": "facebook",
+      "language": "pl",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid0asfY9MKaRH7cd4MqHv4ejghUuowUhs7ffvXTy2XQuYfYd3NtzBYDZDvtdiXoTk7Ml&id=61595207664875",
+      "verifiedAt": "2026-10-06"
+    },
+    {
+      "platform": "instagram",
+      "language": "pl",
+      "url": "https://www.instagram.com/p/DeJ79_lDo-Z/",
+      "verifiedAt": "2026-10-06"
+    },
+    {
+      "platform": "facebook",
+      "language": "cs",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Jv7JsjwcVL4ZcBzfixdw7fNAG9SzakbFSvWg6YqhZazPoNw3CEZk4xB1ZK3eXYHVl&id=61594716405964"
+    },
+    {
+      "platform": "instagram",
+      "language": "cs",
+      "url": "https://www.instagram.com/p/DeKRr14Dzgw/"
+    },
+    {
+      "platform": "facebook",
+      "language": "de",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid0YqAyEh5CyockKtVhW6EL5qDbZmuigEZrDoEU8PjGNgC5N4xksi9soh8pEugtoubSl&id=61595239823399"
+    },
+    {
+      "platform": "instagram",
+      "language": "de",
+      "url": "https://www.instagram.com/p/DeKSWYlldHe/"
+    },
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02RKRUwb9BWnpVVsg2p5GaWT2YxdwteyXiiJ1wAPsE9ETo3ricDAcAcURiL2gRRQKxl&id=61595036942289"
+    },
+    {
+      "platform": "instagram",
+      "language": "en",
+      "url": "https://www.instagram.com/p/DeKVQ45jpWq/",
+      "verifiedAt": "2026-10-06"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://www.facebook.com/61591964083308/posts/122107696491398802/",
+      "routingExcluded": true
+    },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc4V7NnBl_/"
+    }
+  ]
+});

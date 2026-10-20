@@ -127,7 +127,9 @@ test("explicit English Instagram account paths never route from Hebrew maps", ()
   for (const id of ids) {
     const place = catalog.getPlace(id);
     assert.ok(place.socialPosts.some(p => p.platform === "instagram" && p.url.startsWith("https://www.instagram.com/wroclaw.lowersilesia/")), id);
-    assert.ok(!catalog.getSocialPost(place, "instagram", "he").url.startsWith("https://www.instagram.com/wroclaw.lowersilesia/"), id);
+    const selected = catalog.getSocialPost(place, "instagram", "he");
+    if (!selected) assert.equal(place.links?.socialProfileFallback, false, id);
+    else assert.ok(!selected.url.startsWith("https://www.instagram.com/wroclaw.lowersilesia/"), id);
   }
   const generic = {socialPosts: [{platform:"instagram",url:"https://www.instagram.com/p/unknown-owner/"}]};
   assert.equal(catalog.getSocialPost(generic,"instagram","he").url,generic.socialPosts[0].url);
