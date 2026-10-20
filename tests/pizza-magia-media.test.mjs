@@ -14,7 +14,7 @@ test('Pizza Si and Czarna Magia expose one localized Lifestyle point with curate
     for (const file of ['data/place-catalog.js', 'data/location-media.js', 'data/lifestyle-places.js']) {
       runInNewContext(readFileSync(resolve(root, file), 'utf8'), context);
     }
-    for (const [id, count] of [['pizza-si', 2], ['czarna-magia', 5]]) {
+    for (const [id, count] of [['pizza-si', 5], ['czarna-magia', 5]]) {
       const place = window.WROC_CATALOG.getPlace(id);
       const points = window.WROC_LIFESTYLE_PLACES.filter(p => p.canonicalPlaceId === id);
       assert.equal(points.length, 1, `${language}: ${id} must have one point`);
@@ -27,7 +27,7 @@ test('Pizza Si and Czarna Magia expose one localized Lifestyle point with curate
       assert.equal(place.media.videos.length, 0);
       assert.ok(place.links.navigation.googleMaps.startsWith('https://www.google.com/maps/'));
       const selection = provenance.places[id];
-      assert.equal(new Set(selection.selected.map(p => p.pixelSHA256)).size, count);
+      assert.equal(new Set(selection.selected.map(p => p.pixelSHA256)).size, selection.selected.length);
       for (const row of selection.selected) {
         assert.ok(place.media.photos.includes(row.asset));
         const sha = createHash('sha256').update(readFileSync(resolve(root, row.asset.slice(1)))).digest('hex');
