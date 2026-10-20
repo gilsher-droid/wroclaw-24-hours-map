@@ -206,5 +206,5 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 .media-grid img[src*="/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg"],
 .media-grid img[src*="/renoma-refresh-oct20-"] { height: auto; max-height: 65vh; object-fit: contain; background: #faf8f3; }
 
-// Charlotte and district full photo framing20261020
+/* Charlotte and district full photo framing20261020 */
 .media-grid img[src*="/four-denominations-refresh/"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
