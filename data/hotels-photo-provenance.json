@@ -1,0 +1,122 @@
+{
+  "sourceFileCount": 19,
+  "uniqueSourceHashes": 16,
+  "duplicatesNotAdded": 3,
+  "sourceOriginalsUnchanged": true,
+  "familyException": false,
+  "selected": [
+    {
+      "number": 1,
+      "canonicalId": "movenpick-grand-hotel-wroclaw",
+      "sourceSHA256": "b0de9e87f7dbac8a362dcc0471eedb2fc797c2ab4d72b117c51b87e26cd6bb25",
+      "asset": "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-01.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 2,
+      "canonicalId": "movenpick-grand-hotel-wroclaw",
+      "sourceSHA256": "1fbdd92acde099815009c03b2bd4ee6f54e80990eb73d131d87e980ac13e6f3d",
+      "asset": "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-02.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 3,
+      "canonicalId": "movenpick-grand-hotel-wroclaw",
+      "sourceSHA256": "2904ad3e7cd1b5f391e654a338ca3900bc701b08a2e57386220d202796615dca",
+      "asset": "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-03.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 9,
+      "canonicalId": "movenpick-grand-hotel-wroclaw",
+      "sourceSHA256": "982cc86eb9ba73ffe59bc100cb5b587839a28ac21c733c626e2c3447ec25c051",
+      "asset": "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-09.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 4,
+      "canonicalId": "the-cyrus-hotel-wroclaw",
+      "sourceSHA256": "09312c36b0547e6beb7dbb10acebce06e6cd5f1931afce1681d34ccfab84d078",
+      "asset": "/assets/hotels-20261020/the-cyrus-hotel-wroclaw-04.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 5,
+      "canonicalId": "the-cyrus-hotel-wroclaw",
+      "sourceSHA256": "4ac9a381401e59a89e2c8d5bd7438b48447e9e480ebe6e825e740eac8bb39e1a",
+      "asset": "/assets/hotels-20261020/the-cyrus-hotel-wroclaw-05.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 6,
+      "canonicalId": "entre-hotel-wroclaw",
+      "sourceSHA256": "215cd7c66266b05a53f26102551b801f8aec7cbcaf931d64be4d569a95b7187c",
+      "asset": "/assets/hotels-20261020/entre-hotel-wroclaw-06.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 7,
+      "canonicalId": "absynt-aparthotel-garbary-wroclaw",
+      "sourceSHA256": "ba87b54d17b14eae7c8a7c59620f8f2e9f85b78d0f6712c346a25f24f27c92ac",
+      "asset": "/assets/hotels-20261020/absynt-aparthotel-garbary-wroclaw-07.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 8,
+      "canonicalId": "absynt-aparthotel-garbary-wroclaw",
+      "sourceSHA256": "64f8f26de02841709d03dd1950a1f01474406278b8631fec603858135bd5730f",
+      "asset": "/assets/hotels-20261020/absynt-aparthotel-garbary-wroclaw-08.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 10,
+      "canonicalId": "apartamenty-marina-topacz-wroclaw",
+      "sourceSHA256": "48b5da6f1df0b36c1a30cadebf6c20762e3fd0614d923198fcb04a251dcb4c32",
+      "asset": "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-10.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 11,
+      "canonicalId": "apartamenty-marina-topacz-wroclaw",
+      "sourceSHA256": "13c56e490972d038f8986a8e26e0e9778ea455e1212019bcb2630de5c48e8409",
+      "asset": "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-11.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 13,
+      "canonicalId": "apartamenty-marina-topacz-wroclaw",
+      "sourceSHA256": "c122fef52fdd467d021a7aaa2dbae231fb9c074bbeec109131f6b40260cc383c",
+      "asset": "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-13.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 12,
+      "canonicalId": "boogie-aparthouse-garbary",
+      "sourceSHA256": "f2a364c69234192776b0b6ed76d76de945d42c56a4c35eacc718a7e9e3d3b1ad",
+      "asset": "/assets/hotels-20261020/boogie-aparthouse-garbary-12.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 14,
+      "canonicalId": "hotel-traffic-wroclaw",
+      "sourceSHA256": "1ceac9ef8b4f7b0b4a66124fc71986d20cd5d9fa30904413ed4fce44978b86c0",
+      "asset": "/assets/hotels-20261020/hotel-traffic-wroclaw-14.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 15,
+      "canonicalId": "korona-hotel",
+      "sourceSHA256": "1064bf5227484fcfdbfd813037759906a3782a3b88f1314ed21781dfcd36c83c",
+      "asset": "/assets/hotels-20261020/korona-hotel-15.jpg",
+      "reusedExistingAsset": false
+    },
+    {
+      "number": 16,
+      "canonicalId": "korona-hotel",
+      "sourceSHA256": "baaf51f8d0c2c6180bba5b3c74f24bc85c0c2797bc4357676f7821c276b6b459",
+      "asset": "/assets/hotels-20261020/korona-hotel-16.jpg",
+      "reusedExistingAsset": false
+    }
+  ],
+  "mapMembership": "Lifestyle sleep only"
+}

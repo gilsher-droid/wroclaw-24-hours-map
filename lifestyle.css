@@ -228,3 +228,7 @@ article[data-place="pizza-si"] p,.leaflet-popup-content:has(img[src*="/food-cafe
 /* Keep full Arche visit frames; personal portrait is excluded at source and build. */
 .media-grid img[src*="/arche-klasztor-"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 article[data-place="arche-klasztor"] p,.leaflet-popup-content:has(img[src*="/arche-klasztor-"]) > span{white-space:pre-line;}
+
+/* Full hotel visit frames; Hebrew and Latin address lines remain separate. */
+.media-grid img[src*="/hotels-20261020/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="movenpick-grand-hotel-wroclaw"] p,article[data-place="the-cyrus-hotel-wroclaw"] p,article[data-place="entre-hotel-wroclaw"] p,article[data-place="absynt-aparthotel-garbary-wroclaw"] p,article[data-place="apartamenty-marina-topacz-wroclaw"] p,article[data-place="boogie-aparthouse-garbary"] p,article[data-place="hotel-traffic-wroclaw"] p,article[data-place="korona-hotel"] p,.leaflet-popup-content:has(img[src*="/hotels-20261020/"]) > span{white-space:pre-line;}

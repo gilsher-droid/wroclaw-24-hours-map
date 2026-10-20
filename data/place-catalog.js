@@ -6,6 +6,195 @@
   "use strict";
 
   const places = {
+  "absynt-aparthotel-garbary-wroclaw": {
+    "id": "absynt-aparthotel-garbary-wroclaw",
+    "localName": "Absynt ApartHotel, Garbary",
+    "name": {
+      "he": "אבסינט אפרטהוטל, גארבארי",
+      "en": "Absynt ApartHotel, Garbary",
+      "pl": "Absynt ApartHotel, Garbary",
+      "de": "Absynt ApartHotel, Garbary",
+      "cs": "Absynt ApartHotel, Garbary"
+    },
+    "description": {
+      "he": "סניף דירות האירוח של אבסינט ברחוב גארבארי. שתי תמונות הביקור שלנו מציגות את חזית הבניין ואת דלת הכניסה עם גגון הזכוכית והשלט. זהו הסניף המסוים בכתובת זו.\nAbsynt ApartHotel\nGarbary 3–4, Wrocław",
+      "en": "The Absynt accommodation branch on Garbary Street. Our two visit photographs show the building facade and entrance door with its glass canopy and sign. This point represents this specific branch.\nGarbary 3–4, Wrocław",
+      "pl": "Obiekt apartamentowy sieci Absynt przy ulicy Garbary. Dwa zdjęcia z naszej wizyty pokazują fasadę i drzwi wejściowe ze szklanym daszkiem oraz szyldem. Punkt dotyczy tego konkretnego obiektu.\nGarbary 3–4, Wrocław",
+      "de": "Die Absynt-Unterkunft an der Garbary-Straße. Zwei Besuchsfotos zeigen Fassade und Eingangstür mit Glasvordach und Schild. Dieser Kartenpunkt bezeichnet genau diesen Standort.\nGarbary 3–4, Wrocław",
+      "cs": "Ubytovací pobočka Absynt v ulici Garbary. Dvě fotografie z návštěvy ukazují průčelí a vstupní dveře se skleněnou stříškou a označením. Bod představuje tuto konkrétní pobočku.\nGarbary 3–4, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1129784,
+        "lng": 17.0310894
+      },
+      "address": {
+        "street": "Garbary 3–4",
+        "postalCode": "50-112",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Absynt Aparthotel Garbary 3–4",
+      "AbsyntApart Garbary",
+      "Apartamenty Garbary 3-4"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "absynt-aparthotel-garbary-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "absynt-aparthotel-garbary-wroclaw",
+        "lat": 51.1129784,
+        "lng": 17.0310894
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.absyntapartments.pl/apartamenty/garbary",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.absyntapartments.pl/apartamenty/garbary",
+          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
+          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "absynt-aparthotel-garbary-wroclaw",
+        "url": "https://www.google.com/maps/place/Apartamenty+Garbary+3-4/@51.1129784,17.0310894,17z/data=!4m9!3m8!1s0x470fe9a3b781d417:0x3d9f65f0103edf29!5m2!4m1!1i2!8m2!3d51.1129784!4d17.0310894!16s%2Fg%2F11gk5rgj6z?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "coordinates": {
+          "lat": 51.1129784,
+          "lng": 17.0310894
+        },
+        "publicPlaceEvidence": [
+          "Browser tab: 31058305, Title: \"Apartamenty Garbary 3-4 - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/Apartamenty+Garbary+3-4/@51.1129784,17.0310894,17z/data=!4m9!3m8!1s0x470fe9a3b781d417:0x3d9f65f0103edf29!5m2!4m1!1i2!8m2!3d51.1129784!4d17.0310894!16s%2Fg%2F11gk5rgj6z?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
+          "\t\t\t\t\t\t71 heading Apartamenty Garbary 3-4, Value: 1",
+          "\t\t\t\t\t\t\t\t120 button כתובת: Garbary 3/4, 50-112 Wrocław, פולין ",
+          "\t\t\t\t\t\t\t\t124 link Description: אתר: absyntapartments.pl , Value: absyntapartments.pl/apartamenty/garbary"
+        ],
+        "source": "Original facade sign GARBARY3-4 ABSYNT APARTHOTEL and official branch page https://www.absyntapartments.pl/apartamenty/garbary"
+      },
+      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "userIdentification": null,
+      "fullSizeSignReview": "Full original photographs7and8 clearly read ABSYNT APARTHOTEL GARBARY3–4; previous contact-sheet hypothesis ArtHotel rejected before site editing.",
+      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "accommodation",
+    "media": {
+      "thumbnail": "/assets/hotels-20261020/absynt-aparthotel-garbary-wroclaw-07.jpg",
+      "photos": [
+        "/assets/hotels-20261020/absynt-aparthotel-garbary-wroclaw-07.jpg",
+        "/assets/hotels-20261020/absynt-aparthotel-garbary-wroclaw-08.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-20261020/absynt-aparthotel-garbary-wroclaw-07.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-18 at 09.59.10 (2).jpeg",
+          "sourceSHA256": "ba87b54d17b14eae7c8a7c59620f8f2e9f85b78d0f6712c346a25f24f27c92ac",
+          "assetSHA256": "0d84c96f104b9e424e92320a3213cc21088bd904b4f89b0a77675af0896ca39f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "חזית אבסינט אפרטהוטל ברחוב גארבארי",
+            "en": "Absynt ApartHotel facade on Garbary Street",
+            "pl": "Fasada Absynt ApartHotel przy ulicy Garbary",
+            "de": "Fassade des Absynt ApartHotels an der Garbary-Straße",
+            "cs": "Průčelí Absynt ApartHotelu v ulici Garbary"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-20261020/absynt-aparthotel-garbary-wroclaw-08.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-18 at 09.59.10 (3).jpeg",
+          "sourceSHA256": "64f8f26de02841709d03dd1950a1f01474406278b8631fec603858135bd5730f",
+          "assetSHA256": "2582eeef1e5f5189a85ee7ae43237a70013226dd596737ee1aed93bbe2bf7682",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": true,
+          "alt": {
+            "he": "כניסת אבסינט עם שלט הכתובת וגגון זכוכית",
+            "en": "Absynt entrance with address sign and glass canopy",
+            "pl": "Wejście Absynt z adresem i szklanym daszkiem",
+            "de": "Absynt-Eingang mit Adressschild und Glasvordach",
+            "cs": "Vstup do Absynt s adresním označením a skleněnou stříškou"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "ac-hotel": {
     "id": "ac-hotel",
     "localName": "AC Hotel by Marriott Wrocław",
@@ -546,6 +735,217 @@
       "de",
       "cs"
     ]
+  },
+  "apartamenty-marina-topacz-wroclaw": {
+    "id": "apartamenty-marina-topacz-wroclaw",
+    "localName": "Apartamenty Marina Topacz",
+    "name": {
+      "he": "דירות מרינה טופץ׳",
+      "en": "Apartamenty Marina Topacz",
+      "pl": "Apartamenty Marina Topacz",
+      "de": "Apartamenty Marina Topacz",
+      "cs": "Apartamenty Marina Topacz"
+    },
+    "description": {
+      "he": "דירות אירוח במתחם המרינה לצד האודר בעיר. תמונות הביקור שלנו מציגות את מבנה הלבנים המואר בלילה ואת הכניסה עם שלט הדירות. זהו מתחם המרינה בוורוצלב, בנפרד מטירת טופץ׳ שמחוץ לעיר.\nApartamenty Marina Topacz\nKsięcia Witolda 2, Wrocław",
+      "en": "Accommodation apartments in the city’s riverside marina complex. Our visit photographs show the illuminated brick building at night and the entrance with its apartment sign. This is the Wrocław marina location, separate from Zamek Topacz outside the city.\nKsięcia Witolda 2, Wrocław",
+      "pl": "Apartamenty noclegowe w miejskim kompleksie mariny nad Odrą. Nasze zdjęcia z wizyty pokazują oświetlony nocą ceglany budynek i wejście z szyldem apartamentów. To wrocławska marina, odrębna od Zamku Topacz poza miastem.\nKsięcia Witolda 2, Wrocław",
+      "de": "Ferienapartments im städtischen Marinakomplex an der Oder. Unsere Besuchsfotos zeigen das nachts beleuchtete Backsteingebäude und den Eingang mit dem Apartmentschild. Dieser Standort liegt an der Marina in Wrocław, getrennt vom Zamek Topacz außerhalb der Stadt.\nKsięcia Witolda 2, Wrocław",
+      "cs": "Ubytovací apartmány v městském areálu mariny u Odry. Fotografie z návštěvy ukazují osvětlenou cihlovou budovu v noci a vchod s označením apartmánů. Jde o marinu ve Vratislavi, oddělenou od zámku Topacz mimo město.\nKsięcia Witolda 2, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1147264,
+        "lng": 17.0325428
+      },
+      "address": {
+        "street": "Księcia Witolda 2",
+        "postalCode": "50-202",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Apartamenty Topacz",
+      "Marina Topacz Apartments",
+      "דירות טופץ׳"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "apartamenty-marina-topacz-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "apartamenty-marina-topacz-wroclaw",
+        "lat": 51.1147264,
+        "lng": 17.0325428
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://topaczinvestments.pl/apartamenty-marina/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://topaczinvestments.pl/apartamenty-marina/",
+          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
+          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "apartamenty-marina-topacz-wroclaw",
+        "url": "https://www.google.com/maps/place/Ksi%C4%99cia+Witolda+2,+50-202+Wroc%C5%82aw,+%D7%A4%D7%95%D7%9C%D7%99%D7%9F%E2%80%AD/@51.1147264,17.0351177,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9de4b7b5545:0x47191fb95ca9aebe!8m2!3d51.1147264!4d17.0325428!16s%2Fg%2F11nnsbvyw1?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "publicPlaceEvidence": [
+          "Browser tab: 31058303, Title: \"Księcia Witolda 2 - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/Ksi%C4%99cia+Witolda+2,+50-202+Wroc%C5%82aw,+%D7%A4%D7%95%D7%9C%D7%99%D7%9F%E2%80%AD/@51.1147264,17.0351177,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9de4b7b5545:0x47191fb95ca9aebe!8m2!3d51.1147264!4d17.0325428!16s%2Fg%2F11nnsbvyw1?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
+          "\t\t\t\t\t64 heading Księcia Witolda 2, Value: 1",
+          "\t\t\t\t\t\t\t80 text Księcia Witolda 2, 50-202 Wrocław, פולין"
+        ],
+        "coordinates": {
+          "lat": 51.1147264,
+          "lng": 17.0325428
+        },
+        "method": "Exact official apartment street address geolocated after rejecting stale company short link that redirected to Ślęza headquarters. User identified photos10/13 and visually matching11."
+      },
+      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "userIdentification": {
+        "number10": "אותו אחד, in direct answer to whether this exterior belongs to Apartamenty Topacz",
+        "number11": "Visually matching same illuminated brick structure, adjacent frame",
+        "number13": "Legible APARTAMENTY TOPACZ sign"
+      },
+      "fullSizeSignReview": null,
+      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "sourceOriginalsModified": false,
+      "familyException": false,
+      "rejectedMapLink": "Old official short link redirected to company headquarters in Ślęza; exact city apartment street-address point used instead."
+    },
+    "placeType": "accommodation",
+    "media": {
+      "thumbnail": "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-10.jpg",
+      "photos": [
+        "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-10.jpg",
+        "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-11.jpg",
+        "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-13.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-10.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-19 at 08.41.53 (5).jpeg",
+          "sourceSHA256": "48b5da6f1df0b36c1a30cadebf6c20762e3fd0614d923198fcb04a251dcb4c32",
+          "assetSHA256": "acda3d873849302eb93e77f37b5394ab92bb5cb0adc86550d40f9d968c9890ad",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "מבט קרוב על מבנה דירות טופץ׳ המואר בלילה",
+            "en": "Close night view of the illuminated Topacz apartment building",
+            "pl": "Nocne zbliżenie oświetlonego budynku apartamentów Topacz",
+            "de": "Nächtliche Nahansicht des beleuchteten Topacz-Apartmentgebäudes",
+            "cs": "Noční detail osvětlené budovy apartmánů Topacz"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-11.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-19 at 08.41.53 (6).jpeg",
+          "sourceSHA256": "13c56e490972d038f8986a8e26e0e9778ea455e1212019bcb2630de5c48e8409",
+          "assetSHA256": "85ff5284f6d7001ab5c825bf383236145a502a4ee0ac28b519c206fc412c7d57",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "מבנה דירות מרינה טופץ׳ והמעבר לצדו בלילה",
+            "en": "Marina Topacz apartment building and adjacent walkway at night",
+            "pl": "Budynek apartamentów Marina Topacz i sąsiednie przejście nocą",
+            "de": "Marina-Topacz-Apartmentgebäude und angrenzender Weg bei Nacht",
+            "cs": "Budova apartmánů Marina Topacz a přilehlá cesta v noci"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-20261020/apartamenty-marina-topacz-wroclaw-13.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-19 at 08.41.54 (3).jpeg",
+          "sourceSHA256": "c122fef52fdd467d021a7aaa2dbae231fb9c074bbeec109131f6b40260cc383c",
+          "assetSHA256": "8cbd12c2a3c25a6e36d9c077de42e927ee0ca7f7fd8c1e1b15f5d2fe33632146",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": true,
+          "alt": {
+            "he": "כניסת דירות טופץ׳ עם שלט מואר",
+            "en": "Topacz apartment entrance with illuminated sign",
+            "pl": "Wejście do apartamentów Topacz z podświetlonym szyldem",
+            "de": "Eingang der Topacz-Apartments mit beleuchtetem Schild",
+            "cs": "Vstup do apartmánů Topacz s osvětleným označením"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "arche-klasztor": {
     "id": "arche-klasztor",
@@ -3972,6 +4372,176 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "boogie-aparthouse-garbary": {
+    "id": "boogie-aparthouse-garbary",
+    "localName": "Boogie ApartHouse, Garbary",
+    "name": {
+      "he": "בוגי אפרטהאוס, גארבארי",
+      "en": "Boogie ApartHouse, Garbary",
+      "pl": "Boogie ApartHouse, Garbary",
+      "de": "Boogie ApartHouse, Garbary",
+      "cs": "Boogie ApartHouse, Garbary"
+    },
+    "description": {
+      "he": "מקום אירוח ברחוב גארבארי בעיר העתיקה. תמונת הביקור שלנו מציגה את החזית המוארת והשלט בלילה. זהו אפרטהאוס גארבארי, בנפרד מסניף בוגי דלוקס.\nBoogie ApartHouse\nGarbary 2, Wrocław",
+      "en": "Accommodation on Garbary Street in the Old Town. Our visit photograph shows the illuminated facade and sign at night. This is the Garbary ApartHouse, separate from the Boogie Deluxe branch.\nGarbary 2, Wrocław",
+      "pl": "Obiekt noclegowy przy ulicy Garbary na Starym Mieście. Zdjęcie z naszej wizyty pokazuje oświetloną fasadę i szyld nocą. To ApartHouse przy Garbary, odrębny od obiektu Boogie Deluxe.\nGarbary 2, Wrocław",
+      "de": "Unterkunft an der Garbary-Straße in der Altstadt. Unser Besuchsfoto zeigt die beleuchtete Fassade und das Schild bei Nacht. Dies ist das ApartHouse an der Garbary-Straße, getrennt von Boogie Deluxe.\nGarbary 2, Wrocław",
+      "cs": "Ubytování v ulici Garbary ve Starém Městě. Fotografie z návštěvy ukazuje osvětlené průčelí a označení v noci. Jde o ApartHouse v Garbary, oddělený od pobočky Boogie Deluxe.\nGarbary 2, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1129543,
+        "lng": 17.0309412
+      },
+      "address": {
+        "street": "Garbary 2",
+        "postalCode": "50-134",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Boogie ApartHouse",
+      "Boogie Aparthouse Garbary 2"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "boogie-aparthouse-garbary"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "boogie-aparthouse-garbary",
+        "lat": 51.1129543,
+        "lng": 17.0309412
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://boogieapart.pl/en/boogie-aparthouse-2/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://boogieapart.pl/en/boogie-aparthouse-2/",
+          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
+          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "boogie-aparthouse-garbary",
+        "url": "https://www.google.com/maps/place/Boogie+ApartHouse/@51.1129543,17.0309412,17z/data=!4m9!3m8!1s0x470fe9dfed293c5f:0x7d99e2aa8503d9ff!5m2!4m1!1i2!8m2!3d51.1129543!4d17.0309412!16s%2Fg%2F11cs4f60v8?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "publicPlaceEvidence": [
+          "Browser tab: 31058303, Title: \"Boogie ApartHouse - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/Boogie+ApartHouse/@51.1129543,17.0309412,17z/data=!4m9!3m8!1s0x470fe9dfed293c5f:0x7d99e2aa8503d9ff!5m2!4m1!1i2!8m2!3d51.1129543!4d17.0309412!16s%2Fg%2F11cs4f60v8?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
+          "\t\t\t\t\t\t71 heading Boogie ApartHouse, Value: 1",
+          "\t\t\t\t\t\t\t\t135 button כתובת: Garbary 2, 48-300 Wrocław, פולין ",
+          "\t\t\t\t\t\t\t\t139 link Description: אתר: boogieapart.pl , Value: boogieapart.pl/"
+        ],
+        "note": "Official postal code50-134 retained instead of contradictory Google48-300; matching street/brand/website.",
+        "coordinates": {
+          "lat": 51.1129543,
+          "lng": 17.0309412
+        }
+      },
+      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "userIdentification": null,
+      "fullSizeSignReview": null,
+      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "accommodation",
+    "media": {
+      "thumbnail": "/assets/hotels-20261020/boogie-aparthouse-garbary-12.jpg",
+      "photos": [
+        "/assets/hotels-20261020/boogie-aparthouse-garbary-12.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-20261020/boogie-aparthouse-garbary-12.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-19 at 08.41.53 (7).jpeg",
+          "sourceSHA256": "f2a364c69234192776b0b6ed76d76de945d42c56a4c35eacc718a7e9e3d3b1ad",
+          "assetSHA256": "78cf539dd9680ce3e9e01809943388c5603897421d1c32334ef3e2e49df87f7a",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "חזית בוגי אפרטהאוס בלילה",
+            "en": "Boogie ApartHouse facade at night",
+            "pl": "Fasada Boogie ApartHouse nocą",
+            "de": "Fassade des Boogie ApartHouse bei Nacht",
+            "cs": "Průčelí Boogie ApartHouse v noci"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
         }
       }
     },
@@ -10924,6 +11494,177 @@
       "cs"
     ]
   },
+  "entre-hotel-wroclaw": {
+    "id": "entre-hotel-wroclaw",
+    "localName": "Entre Hotel by Zdrojowa",
+    "name": {
+      "he": "מלון אנטרה",
+      "en": "Entre Hotel by Zdrojowa",
+      "pl": "Entre Hotel by Zdrojowa",
+      "de": "Entre Hotel by Zdrojowa",
+      "cs": "Entre Hotel by Zdrojowa"
+    },
+    "description": {
+      "he": "מלון ברחוב קיילבאשניצ׳ה בעיר העתיקה. תמונת הביקור שלנו מראה את שלט המלון ואת הכניסה לצד חזית הבניין הצהובה.\nEntre Hotel by Zdrojowa\nKiełbaśnicza 16–19, Wrocław",
+      "en": "Hotel on Kiełbaśnicza Street in the Old Town. Our visit photograph shows the hotel sign and entrance beside the building’s yellow facade.\nKiełbaśnicza 16–19, Wrocław",
+      "pl": "Hotel przy ulicy Kiełbaśniczej na Starym Mieście. Zdjęcie z naszej wizyty pokazuje szyld i wejście przy żółtej fasadzie budynku.\nKiełbaśnicza 16–19, Wrocław",
+      "de": "Hotel an der Kiełbaśnicza-Straße in der Altstadt. Unser Besuchsfoto zeigt Hotelschild und Eingang neben der gelben Gebäudefassade.\nKiełbaśnicza 16–19, Wrocław",
+      "cs": "Hotel v ulici Kiełbaśnicza ve Starém Městě. Fotografie z návštěvy ukazuje hotelový štít a vchod vedle žlutého průčelí budovy.\nKiełbaśnicza 16–19, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1127669,
+        "lng": 17.0301481
+      },
+      "address": {
+        "street": "Kiełbaśnicza 16–19",
+        "postalCode": "50-110",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Entre Hotel",
+      "Entre Hotel Wrocław",
+      "אנטרה הוטל"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "entre-hotel-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "entre-hotel-wroclaw",
+        "lat": 51.1127669,
+        "lng": 17.0301481
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://entrehotel.pl/kontakt/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://entrehotel.pl/kontakt/",
+          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
+          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "entre-hotel-wroclaw",
+        "url": "https://www.google.com/maps/place/Entre+Hotel+by+Zdrojowa/@51.1127669,17.0301481,17z/data=!3m1!4b1!4m9!3m8!1s0x470fe9ae0150c10d:0xa07844139f82a1ab!5m2!4m1!1i2!8m2!3d51.1127669!4d17.0301481!16s%2Fg%2F11yjtwygh7?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "publicPlaceEvidence": [
+          "Browser tab: 31058303, Title: \"Entre Hotel by Zdrojowa - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/Entre+Hotel+by+Zdrojowa/@51.1127669,17.0301481,17z/data=!3m1!4b1!4m9!3m8!1s0x470fe9ae0150c10d:0xa07844139f82a1ab!5m2!4m1!1i2!8m2!3d51.1127669!4d17.0301481!16s%2Fg%2F11yjtwygh7?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
+          "\t\t\t\t\t\t71 heading Entre Hotel by Zdrojowa, Value: 1",
+          "\t\t\t\t\t\t\t\t145 button כתובת: Kiełbaśnicza 16/19, 50-110 Wrocław, פולין ",
+          "\t\t\t\t\t\t\t\t149 link Description: אתר: wroclawhotel.pl , Value: wroclawhotel.pl/"
+        ],
+        "source": "Official entrehotel.pl contact map link",
+        "coordinates": {
+          "lat": 51.1127669,
+          "lng": 17.0301481
+        }
+      },
+      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "userIdentification": null,
+      "fullSizeSignReview": null,
+      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/hotels-20261020/entre-hotel-wroclaw-06.jpg",
+      "photos": [
+        "/assets/hotels-20261020/entre-hotel-wroclaw-06.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-20261020/entre-hotel-wroclaw-06.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-05 at 18.28.14.jpeg",
+          "sourceSHA256": "215cd7c66266b05a53f26102551b801f8aec7cbcaf931d64be4d569a95b7187c",
+          "assetSHA256": "ef1c338c213d1e828630635c4ad267b3652fceaf53855bbbb030cd60991cc9ea",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "שלט מלון אנטרה לצד הכניסה",
+            "en": "Entre Hotel sign beside the entrance",
+            "pl": "Szyld Entre Hotel przy wejściu",
+            "de": "Schild des Entre Hotels am Eingang",
+            "cs": "Označení Entre Hotelu u vchodu"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "fashion-outlet": {
     "id": "fashion-outlet",
     "localName": "Wrocław Fashion Outlet",
@@ -14413,6 +15154,176 @@
       "de",
       "cs"
     ]
+  },
+  "hotel-traffic-wroclaw": {
+    "id": "hotel-traffic-wroclaw",
+    "localName": "Hotel Traffic Wrocław",
+    "name": {
+      "he": "מלון טראפיק ורוצלב",
+      "en": "Hotel Traffic Wrocław",
+      "pl": "Hotel Traffic Wrocław",
+      "de": "Hotel Traffic Wrocław",
+      "cs": "Hotel Traffic Wrocław"
+    },
+    "description": {
+      "he": "מלון ברחוב שווידניצקה במרכז העיר. תמונת הביקור שלנו מציגה את החזית ושלט המלון מעל אזור הישיבה שברחוב. זהו הסניף בוורוצלב.\nHotel Traffic Wrocław\nŚwidnicka 28, Wrocław",
+      "en": "Hotel on Świdnicka Street in the city centre. Our visit photograph shows the facade and hotel sign above the outdoor seating along the street. This point represents the Wrocław branch.\nŚwidnicka 28, Wrocław",
+      "pl": "Hotel przy ulicy Świdnickiej w centrum miasta. Zdjęcie z naszej wizyty pokazuje fasadę i szyld hotelu nad stolikami przy ulicy. Punkt dotyczy obiektu we Wrocławiu.\nŚwidnicka 28, Wrocław",
+      "de": "Hotel an der Świdnicka-Straße im Stadtzentrum. Unser Besuchsfoto zeigt die Fassade und das Hotelschild über den Außentischen an der Straße. Dieser Punkt bezeichnet den Standort in Wrocław.\nŚwidnicka 28, Wrocław",
+      "cs": "Hotel v ulici Świdnicka v centru města. Fotografie z návštěvy ukazuje průčelí a hotelový štít nad venkovním posezením v ulici. Bod označuje pobočku ve Vratislavi.\nŚwidnicka 28, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.106247,
+        "lng": 17.0318774
+      },
+      "address": {
+        "street": "Świdnicka 28",
+        "postalCode": "50-029",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Hotel Traffic",
+      "Traffic Hotel Wrocław",
+      "מלון טראפיק"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "hotel-traffic-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "hotel-traffic-wroclaw",
+        "lat": 51.106247,
+        "lng": 17.0318774
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.hoteltraffic.pl/wroclaw/o-hotelu",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.hoteltraffic.pl/wroclaw/o-hotelu",
+          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
+          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "hotel-traffic-wroclaw",
+        "url": "https://www.google.com/maps/place/Traffic+Hotel+Wroc%C5%82aw/@51.106247,17.0318774,17z/data=!4m9!3m8!1s0x470fc273fa25c6d7:0x515baafcb08812c9!5m2!4m1!1i2!8m2!3d51.106247!4d17.0318774!16s%2Fg%2F11fj3lprhn?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "publicPlaceEvidence": [
+          "Browser tab: 31058303, Title: \"Traffic Hotel Wrocław - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/Traffic+Hotel+Wroc%C5%82aw/@51.106247,17.0318774,17z/data=!4m9!3m8!1s0x470fc273fa25c6d7:0x515baafcb08812c9!5m2!4m1!1i2!8m2!3d51.106247!4d17.0318774!16s%2Fg%2F11fj3lprhn?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
+          "\t\t\t\t\t\t68 heading Traffic Hotel Wrocław, Value: 1",
+          "\t\t\t\t\t\t\t\t157 button כתובת: Świdnicka 28, 50-029 Wrocław, פולין ",
+          "\t\t\t\t\t\t\t\t161 link Description: אתר: hoteltraffic.pl , Value: hoteltraffic.pl/wroclaw"
+        ],
+        "coordinates": {
+          "lat": 51.106247,
+          "lng": 17.0318774
+        }
+      },
+      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "userIdentification": null,
+      "fullSizeSignReview": null,
+      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/hotels-20261020/hotel-traffic-wroclaw-14.jpg",
+      "photos": [
+        "/assets/hotels-20261020/hotel-traffic-wroclaw-14.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-20261020/hotel-traffic-wroclaw-14.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-19 at 08.42.07.jpeg",
+          "sourceSHA256": "1ceac9ef8b4f7b0b4a66124fc71986d20cd5d9fa30904413ed4fce44978b86c0",
+          "assetSHA256": "1909899e3a0d234c8f05d9fe213b82e5c3c109584d967e1e392681473f65b830",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": true,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "חזית מלון טראפיק מעל שולחנות הרחוב",
+            "en": "Hotel Traffic facade above street tables",
+            "pl": "Fasada Hotelu Traffic nad stolikami przy ulicy",
+            "de": "Fassade des Hotels Traffic über Straßentischen",
+            "cs": "Průčelí hotelu Traffic nad venkovními stoly"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "hydropolis": {
     "id": "hydropolis",
@@ -18584,18 +19495,18 @@
     "id": "korona-hotel",
     "localName": "Korona Hotel Wrocław Market Square",
     "name": {
-      "he": "Korona Hotel Wrocław Market Square",
+      "he": "מלון קורונה בכיכר השוק",
       "en": "Korona Hotel Wrocław Market Square",
       "pl": "Korona Hotel Wrocław Market Square",
       "de": "Korona Hotel Wrocław Market Square",
       "cs": "Korona Hotel Wrocław Market Square"
     },
     "description": {
-      "he": "אחד המלונות שמקבלים המלצות טובות באופן עקבי.",
-      "en": "One of the hotels that receives consistently good recommendations.",
-      "pl": "Jeden z hoteli regularnie otrzymujących dobre rekomendacje.",
-      "de": "Eines der Hotels mit regelmäßig guten Empfehlungen.",
-      "cs": "Jeden z hotelů, které pravidelně získávají dobrá doporučení."
+      "he": "מלון ברחוב אולבסקה, סמוך לכיכר השוק בעיר העתיקה. תמונות הביקור שלנו מציגות את גגון הכניסה, הדגלים ואת חזית הבניין ביחס לרחוב.\nKorona Hotel Wrocław Market Square\nOławska 2, Wrocław",
+      "en": "Hotel on Oławska Street beside the Market Square in the Old Town. Our visit photographs show the entrance canopy, flags and the building facade in its street setting.\nOławska 2, Wrocław",
+      "pl": "Hotel przy ulicy Oławskiej, obok Rynku na Starym Mieście. Zdjęcia z naszej wizyty pokazują daszek wejściowy, flagi i fasadę budynku w otoczeniu ulicy.\nOławska 2, Wrocław",
+      "de": "Hotel an der Oławska-Straße beim Marktplatz in der Altstadt. Unsere Besuchsfotos zeigen Eingangsvordach, Flaggen und die Gebäudefassade im Straßenbild.\nOławska 2, Wrocław",
+      "cs": "Hotel v ulici Oławska u Rynku ve Starém Městě. Fotografie z návštěvy ukazují vstupní stříšku, vlajky a průčelí budovy v okolní ulici.\nOławska 2, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -18604,6 +19515,12 @@
       "coordinates": {
         "lat": 51.1090144,
         "lng": 17.0337412
+      },
+      "address": {
+        "street": "Oławska 2",
+        "postalCode": "50-123",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -18612,7 +19529,10 @@
     "sourceUrls": [
       "https://www.facebook.com/61591964083308/posts/122108682867398802/"
     ],
-    "aliases": [],
+    "aliases": [
+      "Korona Market Square Wroclaw",
+      "קורונה הוטל"
+    ],
     "sourceRecords": [
       {
         "productId": "lifestyle-guide",
@@ -18634,7 +19554,10 @@
       "categories": [
         "sleep"
       ],
-      "tags": []
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -18658,15 +19581,91 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://koronahotel.com.pl/kontakt/napisz-do-nas",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://koronahotel.com.pl/kontakt/napisz-do-nas",
+          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
+          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+        }
+      ],
+      "coordinateVerification": {
+        "method": "Existing Korona canonical coordinates preserved; official street address verified."
+      },
+      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "userIdentification": null,
+      "fullSizeSignReview": null,
+      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/hotels-20261020/korona-hotel-15.jpg",
+      "photos": [
+        "/assets/hotels-20261020/korona-hotel-15.jpg",
+        "/assets/hotels-20261020/korona-hotel-16.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-20261020/korona-hotel-15.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-19 at 08.42.08.jpeg",
+          "sourceSHA256": "1064bf5227484fcfdbfd813037759906a3782a3b88f1314ed21781dfcd36c83c",
+          "assetSHA256": "24a308f201811536de615ded2d1902d78d922df1759663a9c41e1c5e2a9fad40",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "כניסת מלון קורונה, הגגון והדגלים",
+            "en": "Korona Hotel entrance, canopy and flags",
+            "pl": "Wejście do Hotelu Korona, daszek i flagi",
+            "de": "Eingang des Hotels Korona mit Vordach und Flaggen",
+            "cs": "Vstup do hotelu Korona, stříška a vlajky"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-20261020/korona-hotel-16.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-19 at 08.42.09 (11).jpeg",
+          "sourceSHA256": "baaf51f8d0c2c6180bba5b3c74f24bc85c0c2797bc4357676f7821c276b6b459",
+          "assetSHA256": "2b123a72f3caa5a9a474037c0ecccbe324d64ce6b089e79d68416c6fe130b1df",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": true,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "חזית מלון קורונה ברחוב אולבסקה",
+            "en": "Korona Hotel facade on Oławska Street",
+            "pl": "Fasada Hotelu Korona przy ulicy Oławskiej",
+            "de": "Fassade des Hotels Korona an der Oławska-Straße",
+            "cs": "Průčelí hotelu Korona v ulici Oławska"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -18703,19 +19702,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "korona-shopping": {
@@ -23721,6 +24707,232 @@
         "verifiedAt": "2026-10-10T10:43:44.880Z"
       }
     ]
+  },
+  "movenpick-grand-hotel-wroclaw": {
+    "id": "movenpick-grand-hotel-wroclaw",
+    "localName": "Mövenpick Grand Hotel Wrocław",
+    "name": {
+      "he": "מלון מובנפיק גרנד ורוצלב",
+      "en": "Mövenpick Grand Hotel Wrocław",
+      "pl": "Mövenpick Grand Hotel Wrocław",
+      "de": "Mövenpick Grand Hotel Wrocław",
+      "cs": "Mövenpick Grand Hotel Wrocław"
+    },
+    "description": {
+      "he": "מלון מול אזור תחנת הרכבת המרכזית, ברחוב פילסודסקייגו. ארבע תמונות הביקור שלנו מציגות את החזית המעוטרת והמוארת בלילה ממבטים שונים, כולל הרחוב והחשמלית בחזית.\nMövenpick Grand Hotel Wrocław\nMarszałka Józefa Piłsudskiego 100–102, Wrocław",
+      "en": "Hotel by the main railway station area on Piłsudskiego Street. Our four visit photographs show its ornate illuminated facade at night from different viewpoints, including the street and a passing tram.\nMarszałka Józefa Piłsudskiego 100–102, Wrocław",
+      "pl": "Hotel przy okolicy dworca głównego, przy ulicy Piłsudskiego. Cztery zdjęcia z naszej wizyty pokazują ozdobną, oświetloną nocą fasadę z różnych perspektyw, wraz z ulicą i przejeżdżającym tramwajem.\nMarszałka Józefa Piłsudskiego 100–102, Wrocław",
+      "de": "Hotel beim Hauptbahnhof an der Piłsudskiego-Straße. Vier Besuchsfotos zeigen die verzierte, nachts beleuchtete Fassade aus verschiedenen Blickwinkeln, einschließlich Straße und vorbeifahrender Straßenbahn.\nMarszałka Józefa Piłsudskiego 100–102, Wrocław",
+      "cs": "Hotel v okolí hlavního nádraží v ulici Piłsudskiego. Čtyři fotografie z naší návštěvy ukazují zdobené osvětlené průčelí v noci z různých pohledů, včetně ulice a projíždějící tramvaje.\nMarszałka Józefa Piłsudskiego 100–102, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.100025,
+        "lng": 17.0361251
+      },
+      "address": {
+        "street": "Marszałka Józefa Piłsudskiego 100–102",
+        "postalCode": "50-014",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Grand Hotel",
+      "Grand Hotel Wrocław",
+      "Movenpick Grand Hotel Wroclaw"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "movenpick-grand-hotel-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "movenpick-grand-hotel-wroclaw",
+        "lat": 51.100025,
+        "lng": 17.0361251
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://movenpick.accor.com/en/europe/poland/wroclaw/grand-hotel-wroclaw.html",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://movenpick.accor.com/en/europe/poland/wroclaw/grand-hotel-wroclaw.html",
+          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
+          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "movenpick-grand-hotel-wroclaw",
+        "url": "https://www.google.com/maps/place/M%C3%B6venpick+Grand+Hotel+Wroclaw/@51.100025,17.0361251,17z/data=!4m9!3m8!1s0x470fc26ff9dac6f3:0xacf1ed06a8045278!5m2!4m1!1i2!8m2!3d51.100025!4d17.0361251!16s%2Fg%2F11gf0gmg9s?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "publicPlaceEvidence": [
+          "Browser tab: 31058303, Title: \"Mövenpick Grand Hotel Wroclaw - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/M%C3%B6venpick+Grand+Hotel+Wroclaw/@51.100025,17.0361251,17z/data=!4m9!3m8!1s0x470fc26ff9dac6f3:0xacf1ed06a8045278!5m2!4m1!1i2!8m2!3d51.100025!4d17.0361251!16s%2Fg%2F11gf0gmg9s?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
+          "\t\t\t\t\t\t70 heading Mövenpick Grand Hotel Wroclaw, Value: 1",
+          "\t\t\t\t\t\t\t80 heading Description: ממומן, Value: 1",
+          "\t\t\t\t\t\t114 heading Description: ממומן, Value: 1",
+          "\t\t\t\t\t\t\t\t137 button כתובת: 100, Marszałka Józefa Piłsudskiego 102, 50-014 Wrocław, פולין ",
+          "\t\t\t\t\t\t\t\t141 link Description: אתר: all.accor.com , Value: all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=B8W2&merchantid=seo-maps-PL-B8W2&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+        ],
+        "coordinates": {
+          "lat": 51.100025,
+          "lng": 17.0361251
+        }
+      },
+      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "userIdentification": null,
+      "fullSizeSignReview": null,
+      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-01.jpg",
+      "photos": [
+        "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-01.jpg",
+        "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-02.jpg",
+        "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-03.jpg",
+        "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-09.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-01.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-01 at 09.23.56 (1).jpeg",
+          "sourceSHA256": "b0de9e87f7dbac8a362dcc0471eedb2fc797c2ab4d72b117c51b87e26cd6bb25",
+          "assetSHA256": "7bcfe21d55a6f707f4f59c0cafb6280e959466f6136633ed0859217b6ce9c960",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "חזית גרנד הוטל המוארת בלילה",
+            "en": "Grand Hotel facade illuminated at night",
+            "pl": "Oświetlona nocą fasada Grand Hotelu",
+            "de": "Nachts beleuchtete Fassade des Grand Hotels",
+            "cs": "Osvětlené průčelí Grand Hotelu v noci"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-02.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-01 at 09.23.56.jpeg",
+          "sourceSHA256": "1fbdd92acde099815009c03b2bd4ee6f54e80990eb73d131d87e980ac13e6f3d",
+          "assetSHA256": "c89c3cd650bf9f5b0bca4ec67c9e97f4ed08a62f3699af8526c8f53b27ca76a6",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "חזית גרנד הוטל וחשמלית ברחוב",
+            "en": "Grand Hotel facade and a tram in the street",
+            "pl": "Fasada Grand Hotelu i tramwaj na ulicy",
+            "de": "Grand-Hotel-Fassade und Straßenbahn",
+            "cs": "Průčelí Grand Hotelu a tramvaj v ulici"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-03.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-01 at 09.23.57 (4).jpeg",
+          "sourceSHA256": "2904ad3e7cd1b5f391e654a338ca3900bc701b08a2e57386220d202796615dca",
+          "assetSHA256": "07f9de45e8fc4d54496c574848299e21be1edc9584c40918c63eee0f4426c5c8",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "מבט רחב על המלון המואר מעבר לשטח הירוק",
+            "en": "Wide view of the illuminated hotel beyond a green area",
+            "pl": "Szeroki widok oświetlonego hotelu zza terenu zielonego",
+            "de": "Weiter Blick auf das beleuchtete Hotel hinter einer Grünfläche",
+            "cs": "Široký pohled na osvětlený hotel přes zelenou plochu"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-20261020/movenpick-grand-hotel-wroclaw-09.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-18 at 09.59.11.jpeg",
+          "sourceSHA256": "982cc86eb9ba73ffe59bc100cb5b587839a28ac21c733c626e2c3447ec25c051",
+          "assetSHA256": "4c12eae0aa8204f7fea2d6bd53cc97d387a81574218cb147c109f589d38b179b",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": true,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "חזית גרנד הוטל מהרחוב עם השלט העליון",
+            "en": "Grand Hotel facade from the street with its upper sign",
+            "pl": "Fasada Grand Hotelu od ulicy z górnym szyldem",
+            "de": "Grand-Hotel-Fassade von der Straße mit oberem Schild",
+            "cs": "Průčelí Grand Hotelu z ulice s horním označením"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "municipal-arsenal-wroclaw": {
     "id": "municipal-arsenal-wroclaw",
@@ -32484,6 +33696,199 @@
       "cs"
     ]
   },
+  "the-cyrus-hotel-wroclaw": {
+    "id": "the-cyrus-hotel-wroclaw",
+    "localName": "The Cyrus Hotel",
+    "name": {
+      "he": "מלון סיירוס",
+      "en": "The Cyrus Hotel",
+      "pl": "The Cyrus Hotel",
+      "de": "The Cyrus Hotel",
+      "cs": "The Cyrus Hotel"
+    },
+    "description": {
+      "he": "מלון בוטיק בעיר העתיקה, ברחוב ז׳ז׳ניצ׳ה. שתי תמונות הביקור שלנו מציגות את חלל הישיבה והבר, עם גוונים ירוקים, כורסאות ותאורה כדורית.\nThe Cyrus Hotel\nRzeźnicza 16, Wrocław",
+      "en": "Boutique hotel on Rzeźnicza Street in the Old Town. Our two visit photographs show the lounge and bar interior with green tones, armchairs and spherical lighting.\nRzeźnicza 16, Wrocław",
+      "pl": "Hotel butikowy przy ulicy Rzeźniczej na Starym Mieście. Dwa zdjęcia z naszej wizyty pokazują salon i bar z zielonymi akcentami, fotelami i kulistymi lampami.\nRzeźnicza 16, Wrocław",
+      "de": "Boutiquehotel an der Rzeźnicza-Straße in der Altstadt. Zwei Besuchsfotos zeigen Lounge und Bar mit Grüntönen, Sesseln und kugelförmiger Beleuchtung.\nRzeźnicza 16, Wrocław",
+      "cs": "Butikový hotel v ulici Rzeźnicza ve Starém Městě. Dvě fotografie z návštěvy ukazují posezení a bar se zelenými tóny, křesly a kulovým osvětlením.\nRzeźnicza 16, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.112265,
+        "lng": 17.0287276
+      },
+      "address": {
+        "street": "Rzeźnicza 16",
+        "postalCode": "50-132",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Cyrus Hotel",
+      "The Cyrus",
+      "סיירוס הוטל"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "the-cyrus-hotel-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "the-cyrus-hotel-wroclaw",
+        "lat": 51.112265,
+        "lng": 17.0287276
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.cyrushotel.pl/kontakt",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.cyrushotel.pl/kontakt",
+          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
+          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "the-cyrus-hotel-wroclaw",
+        "url": "https://www.google.com/maps/place/The+Cyrus+Hotel/@51.112265,17.0287276,17z/data=!4m9!3m8!1s0x470fc38bd57a27b9:0xf787f7cd4f43e7b7!5m2!4m1!1i2!8m2!3d51.112265!4d17.0287276!16s%2Fg%2F11xms36m1b?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+        "publicPlaceEvidence": [
+          "Browser tab: 31058303, Title: \"The Cyrus Hotel - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/The+Cyrus+Hotel/@51.112265,17.0287276,17z/data=!4m9!3m8!1s0x470fc38bd57a27b9:0xf787f7cd4f43e7b7!5m2!4m1!1i2!8m2!3d51.112265!4d17.0287276!16s%2Fg%2F11xms36m1b?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
+          "\t\t\t\t\t\t71 heading The Cyrus Hotel, Value: 1",
+          "\t\t\t\t\t\t\t81 heading Description: ממומן, Value: 1",
+          "\t\t\t\t\t\t115 heading Description: ממומן, Value: 1",
+          "\t\t\t\t\t\t\t\t136 button כתובת: Rzeźnicza 16, 50-132 Wrocław, פולין ",
+          "\t\t\t\t\t\t\t\t140 link Description: אתר: cyrushotel.pl , Value: cyrushotel.pl/?utm_source=google&utm_medium=gmf&utm_campaign=main"
+        ],
+        "coordinates": {
+          "lat": 51.112265,
+          "lng": 17.0287276
+        }
+      },
+      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "userIdentification": {
+        "number4": "סיירוס הוטל",
+        "number5": "Visually matching same green interior and spherical lamps; sequence supports same place"
+      },
+      "fullSizeSignReview": null,
+      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/hotels-20261020/the-cyrus-hotel-wroclaw-04.jpg",
+      "photos": [
+        "/assets/hotels-20261020/the-cyrus-hotel-wroclaw-04.jpg",
+        "/assets/hotels-20261020/the-cyrus-hotel-wroclaw-05.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-20261020/the-cyrus-hotel-wroclaw-04.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-05 at 18.28.14 (3).jpeg",
+          "sourceSHA256": "09312c36b0547e6beb7dbb10acebce06e6cd5f1931afce1681d34ccfab84d078",
+          "assetSHA256": "db719d119697ec66c798bce9b972a0e0b375471002886f66aae3f03e91c260b5",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "חלל הישיבה והבר הירוק במלון סיירוס",
+            "en": "Green lounge and bar interior at The Cyrus Hotel",
+            "pl": "Zielony salon i bar w hotelu The Cyrus",
+            "de": "Grüne Lounge und Bar im The Cyrus Hotel",
+            "cs": "Zelené posezení a bar v hotelu The Cyrus"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-20261020/the-cyrus-hotel-wroclaw-05.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-05 at 18.28.14 (4).jpeg",
+          "sourceSHA256": "4ac9a381401e59a89e2c8d5bd7438b48447e9e480ebe6e825e740eac8bb39e1a",
+          "assetSHA256": "461c40889e7f8991c4623bb13ada948af65ffbff5ccbe0f676abc09461035cb6",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": false,
+          "incidentalReflection": false,
+          "alt": {
+            "he": "כורסאות ותאורה כדורית בחלל המלון",
+            "en": "Armchairs and spherical lights in the hotel interior",
+            "pl": "Fotele i kuliste lampy we wnętrzu hotelu",
+            "de": "Sessel und Kugelleuchten im Hotelinnenraum",
+            "cs": "Křesla a kulová světla v interiéru hotelu"
+          },
+          "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "the-mexican": {
     "id": "the-mexican",
     "localName": "The Mexican",
@@ -40721,6 +42126,28 @@
   "KrasnalInfo": "dwarf-info",
   "Dwarf Information Centre": "dwarf-info",
   "מרכז המידע של הגמדים": "dwarf-info",
+  "Grand Hotel Wrocław": "movenpick-grand-hotel-wroclaw",
+  "Grand Hotel": "movenpick-grand-hotel-wroclaw",
+  "Movenpick Grand Hotel Wroclaw": "movenpick-grand-hotel-wroclaw",
+  "Cyrus Hotel": "the-cyrus-hotel-wroclaw",
+  "The Cyrus": "the-cyrus-hotel-wroclaw",
+  "סיירוס הוטל": "the-cyrus-hotel-wroclaw",
+  "Entre Hotel": "entre-hotel-wroclaw",
+  "Entre Hotel Wrocław": "entre-hotel-wroclaw",
+  "אנטרה הוטל": "entre-hotel-wroclaw",
+  "AbsyntApart Garbary": "absynt-aparthotel-garbary-wroclaw",
+  "Apartamenty Garbary 3-4": "absynt-aparthotel-garbary-wroclaw",
+  "Absynt Aparthotel Garbary 3–4": "absynt-aparthotel-garbary-wroclaw",
+  "Apartamenty Topacz": "apartamenty-marina-topacz-wroclaw",
+  "Marina Topacz Apartments": "apartamenty-marina-topacz-wroclaw",
+  "דירות טופץ׳": "apartamenty-marina-topacz-wroclaw",
+  "Boogie ApartHouse": "boogie-aparthouse-garbary",
+  "Boogie Aparthouse Garbary 2": "boogie-aparthouse-garbary",
+  "Traffic Hotel Wrocław": "hotel-traffic-wroclaw",
+  "Hotel Traffic": "hotel-traffic-wroclaw",
+  "מלון טראפיק": "hotel-traffic-wroclaw",
+  "Korona Market Square Wroclaw": "korona-hotel",
+  "קורונה הוטל": "korona-hotel",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
