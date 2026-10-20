@@ -3171,19 +3171,25 @@
       "platform": "facebook",
       "language": "cs",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ghZXye7Ndozg5UUqAW8PT2vth7R77VP81EQGsWu6BMavB4jpPJ2jKrg2UD36EmkQl&id=61594716405964",
-      "verifiedAt": "2026-10-07"
+      "verifiedAt": "2026-10-20",
+      "verification": "Exact-place written post, account and language verified live",
+      "verificationEvidence": "docs/zyjnia-enrichment/social-verification-matrix.json"
     },
     {
       "platform": "facebook",
       "language": "en",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HQCFgc7yZKPPDd1BJipHvnaZqCjWL6xuvU4oY2uBez2d3WxmhxPn9DrjrgiLBSDTl&id=61595036942289",
-      "verifiedAt": "2026-10-07"
+      "verifiedAt": "2026-10-20",
+      "verification": "Exact-place written post, account and language verified live",
+      "verificationEvidence": "docs/zyjnia-enrichment/social-verification-matrix.json"
     },
     {
       "platform": "facebook",
       "language": "pl",
       "url": "https://facebook.com/permalink.php?story_fbid=pfbid048vMYhwsEVEtg8c6cUPLyFPjYXF6rxXoKHu9AJNhWHn2Q4RNBdwJT9LYtLHzPqs8l&id=61595207664875",
-      "verifiedAt": "2026-10-08T15:59:15.121Z"
+      "verifiedAt": "2026-10-20",
+      "verification": "Exact-place written post, account and language verified live",
+      "verificationEvidence": "docs/zyjnia-enrichment/social-verification-matrix.json"
     }
   ],
   "studio-bwa-wroclaw": [

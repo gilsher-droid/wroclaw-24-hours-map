@@ -1,0 +1,303 @@
+- generic: Languages
+- banner:
+  - button "Collapse menu":
+  - link "YouTube Studio dashboard":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA
+    - img "YouTube Studio dashboard"
+  - button "Skip navigation":
+    - generic: Skip navigation
+  - textbox "Search across your channel"
+  - button "Help":
+  - button "Notifications":
+  - button "Ask Studio":
+    - generic: Ask Studio
+  - button "Create":
+    - generic: Create
+  - generic "Account":
+    - button "Account"
+- generic: This video is in a draft state
+- button "Edit draft":
+  - generic: Edit draft
+- navigation:
+  - link "Channel content":
+    - /url: /channel/UCecxn_f6i_i47s3HXYrUVkA/videos
+    - generic: Channel content
+  - 'img "Video thumbnail: Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide"'
+  - generic: 1:24
+  - generic: Your video
+  - generic: Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide
+  - menu:
+    - menuitem "Details":
+      - generic: Details
+    - menuitem "Analytics":
+      - generic: Analytics
+    - menuitem "Editor":
+      - generic: Editor
+    - menuitem "Comments":
+      - generic: Comments
+    - menuitem "Languages":
+      - generic: Languages
+    - menuitem "Claims":
+      - generic: Claims
+    - menuitem "Clips and Shorts":
+      - generic: Clips and Shorts
+  - list:
+    - button "Settings":
+      - generic: Settings
+    - button "Send feedback":
+      - generic: Send feedback
+- main:
+  - heading "Languages" [level=1]
+  - 'region "Video language: English"':
+    - 'heading "Video language: English" [level=2]'
+    - button "Details":
+    - generic: English subtitles are the default source for auto-translation of subtitles and audio.
+    - button "Edit subtitles":
+      - generic: Edit subtitles
+    - button "Upload manual":
+      - generic: Upload manual
+  - region "Translations":
+    - heading "Translations" [level=2]
+    - button "Add language":
+      - generic: Add language
+    - generic: 3 translations
+    - table "Translations":
+      - caption: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+      - rowgroup
+      - row "Language Audio Subtitles Title and description Thumbnail":
+        - columnheader "Language":
+          - heading "Language" [level=3]:
+            - generic: Language
+        - columnheader "Audio":
+          - heading "Audio" [level=3]:
+            - generic: Audio
+        - columnheader "Subtitles":
+          - heading "Subtitles" [level=3]:
+            - generic: Subtitles
+        - columnheader "Title and description":
+          - heading "Title and description" [level=3]:
+            - generic: Title and description
+        - columnheader "Thumbnail":
+          - heading "Thumbnail" [level=3]:
+            - generic: Thumbnail
+      - rowgroup:
+        - row "Czech 1 published":
+          - cell "Czech":
+            - button "Czech":
+              - generic: Czech
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "German 1 published":
+          - cell "German":
+            - button "German":
+              - generic: German
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+        - row "Polish 1 published":
+          - cell "Polish":
+            - button "Polish":
+              - generic: Polish
+          - cell:
+            - generic: –
+          - cell "1 published":
+            - generic: 1 published
+          - cell:
+            - generic: –
+          - cell:
+            - generic: –
+- generic "German subtitles":
+  - dialog "German subtitles" [active]:
+    - generic: German
+    - region "Dialogue controls":
+      - heading "Dialogue controls" [level=2]
+      - button "Send feedback":
+      - button "Save draft":
+        - generic: Save draft
+      - status: Save draft button enabled
+      - button "Publish":
+        - generic: Publish
+      - status: Publish button enabled
+      - button "Close":
+    - region "Edit timings":
+      - heading "Edit timings" [level=2]
+      - button "Subtitle":
+        - generic: Subtitle
+      - button "Edit as text" [disabled]:
+        - generic: Edit as text
+      - button "Options":
+      - list "Timings":
+        - listitem "Text with timing":
+          - textbox "Subtitle": Wir sind in der belebten Fußgängerzone Świdnicka.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 2 seconds 20 frames":
+            - generic: 0:02:20
+            - textbox "0 minutes 2 seconds 20 frames"
+          - generic "0 minutes 9 seconds 14 frames":
+            - generic: 0:09:14
+            - textbox "0 minutes 9 seconds 14 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Es ist laut und lebendig, voller Menschen und geschäftigem Treiben.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 9 seconds 26 frames":
+            - generic: 0:09:26
+            - textbox "0 minutes 9 seconds 26 frames"
+          - generic "0 minutes 15 seconds 18 frames":
+            - generic: 0:15:18
+            - textbox "0 minutes 15 seconds 18 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Wenn ihr jedoch durch diese Tür in den Raum hinter mir geht,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 16 seconds 14 frames":
+            - generic: 0:16:14
+            - textbox "0 minutes 16 seconds 14 frames"
+          - generic "0 minutes 22 seconds 9 frames":
+            - generic: 0:22:09
+            - textbox "0 minutes 22 seconds 9 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": erreicht ihr ein Stück Himmel,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 22 seconds 9 frames":
+            - generic: 0:22:09
+            - textbox "0 minutes 22 seconds 9 frames"
+          - generic "0 minutes 28 seconds 7 frames":
+            - generic: 0:28:07
+            - textbox "0 minutes 28 seconds 7 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": einen Ort der Ruhe, an dem ihr entspannen
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 28 seconds 22 frames":
+            - generic: 0:28:22
+            - textbox "0 minutes 28 seconds 22 frames"
+          - generic "0 minutes 32 seconds 20 frames":
+            - generic: 0:32:20
+            - textbox "0 minutes 32 seconds 20 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": und eine Ausstellung moderner Kunst genießen könnt.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 32 seconds 20 frames":
+            - generic: 0:32:20
+            - textbox "0 minutes 32 seconds 20 frames"
+          - generic "0 minutes 37 seconds 0 frames":
+            - generic: 0:37:00
+            - textbox "0 minutes 37 seconds 0 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Es gibt auch Plätze zum Sitzen und für eine Tasse Tee,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 38 seconds 11 frames":
+            - generic: 0:38:11
+            - textbox "0 minutes 38 seconds 11 frames"
+          - generic "0 minutes 43 seconds 2 frames":
+            - generic: 0:43:02
+            - textbox "0 minutes 43 seconds 2 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": ganz wie im eigenen Wohnzimmer.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 43 seconds 2 frames":
+            - generic: 0:43:02
+            - textbox "0 minutes 43 seconds 2 frames"
+          - generic "0 minutes 47 seconds 6 frames":
+            - generic: 0:47:06
+            - textbox "0 minutes 47 seconds 6 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Ruht euch aus und bewundert einfach
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 47 seconds 6 frames":
+            - generic: 0:47:06
+            - textbox "0 minutes 47 seconds 6 frames"
+          - generic "0 minutes 51 seconds 9 frames":
+            - generic: 0:51:09
+            - textbox "0 minutes 51 seconds 9 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": die schönen Kunstwerke,
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 51 seconds 9 frames":
+            - generic: 0:51:09
+            - textbox "0 minutes 51 seconds 9 frames"
+          - generic "0 minutes 57 seconds 11 frames":
+            - generic: 0:57:11
+            - textbox "0 minutes 57 seconds 11 frames"
+        - listitem "Text with timing":
+          - textbox "Subtitle": die euch hier im Raum umgeben.
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "0 minutes 57 seconds 11 frames":
+            - generic: 0:57:11
+            - textbox "0 minutes 57 seconds 11 frames"
+          - generic "1 minute 1 second 1 frame":
+            - generic: 1:01:01
+            - textbox "1 minute 1 second 1 frame"
+        - listitem "Text with timing":
+          - textbox "Subtitle": Die Ausstellung zeigt verschiedene Künstler
+          - generic: Press Enter to split or add a subtitle line. Press Shift+Enter for a new line.
+          - generic "1 minute 1 second 28 frames":
+            - generic: 1:01:28
+            - textbox "1 minute 1 second 28 frames"
+          - generic "1 minute 6 seconds 8 frames":
+            - generic: 1:06:08
+            - textbox "1 minute 6 seconds 8 frames"
+    - heading "Subtitles preview" [level=2]
+    - region "Subtitles preview":
+      - region "Video player":
+        - generic "Żyjnia BWA Wrocław | Art, tea and a quiet pause | English guide"
+        - button "Play":
+        - button "Skip back 10 seconds":
+        - button "Skip forwards 10 seconds":
+        - button "Mute":
+        - slider "volume"
+        - generic: 0:00 / 1:24
+        - button "Settings":
+      - checkbox "Pause while typing"
+      - generic: Pause while typing
+      - button "View keyboard shortcuts":
+        - generic: View keyboard shortcuts
+    - heading "Subtitles timeline" [level=2]
+    - region "Subtitles timeline":
+      - generic "0 minutes 0 seconds 0 frames":
+        - generic: 0:00:00
+        - textbox "0 minutes 0 seconds 0 frames"
+      - button "Undo" [disabled]:
+        - generic: Undo
+      - button "Redo" [disabled]:
+        - generic: Redo
+      - button "Zoom out":
+      - slider "Zoom slider":
+        - progressbar
+      - button "Zoom in":
+      - generic "Timeline header"
+      - button "Find playhead":
+      - button "Find playhead":
+      - generic "Wir sind in der belebten Fußgängerzone Świdnicka."
+      - generic: Wir sind in der belebten Fußgängerzone Świdnicka.
+      - generic "Es ist laut und lebendig, voller Menschen und geschäftigem Treiben."
+      - generic: Es ist laut und lebendig, voller Menschen und geschäftigem Treiben.
+      - generic "Wenn ihr jedoch durch diese Tür in den Raum hinter mir geht,"
+      - generic: Wenn ihr jedoch durch diese Tür in den Raum hinter mir geht,
+      - generic: erreicht ihr ein Stück Himmel,
+      - generic: einen Ort der Ruhe, an dem ihr entspannen
+      - generic: und eine Ausstellung moderner Kunst genießen könnt.
+      - generic: Es gibt auch Plätze zum Sitzen und für eine Tasse Tee,
+      - generic: ganz wie im eigenen Wohnzimmer.
+      - generic: Ruht euch aus und bewundert einfach
+      - generic: die schönen Kunstwerke,
+      - generic: die euch hier im Raum umgeben.
+      - generic: Die Ausstellung zeigt verschiedene Künstler
+      - generic: und ist saisonal, sie verändert sich im Laufe des Jahres.
+      - generic: Ich lade euch also ein, diese großartige Galerie zu besuchen.
+      - generic: Der Eintritt ist frei.
+      - generic: Bis zu unserem nächsten Video.
+      - generic "Audio waveform"
+      - generic "Start of timeline"
+      - generic "End of timeline"
+      - slider "Playhead"
+      - generic: 0:00:00

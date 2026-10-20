@@ -1,0 +1,183 @@
+{
+  "canonicalId": "zyjnia-bwa-wroclaw",
+  "alias": "galeria-dizajn",
+  "state": "youtube-complete-native-captions-published-and-reopened-verified",
+  "verifiedAt": "2026-10-20T08:46:09.851625+00:00",
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "approval": "outputs/zyjnia-enrichment-2026-10-20/youtube-action-approval.json",
+  "guides": [
+    {
+      "language": "he",
+      "id": "ZO-A54BIZQk",
+      "url": "https://youtube.com/shorts/ZO-A54BIZQk",
+      "sourcePath": "/Users/rachelfiler/Desktop/Wroclaw/BSW/המדריך שלנו/WhatsApp Video 2026-10-19 at 08.42.20.mp4",
+      "sourceSHA256": "fe87c7a451e569ab0f2f030036e25a8e98d4e846555ce2a858e05bf2821f9e9a",
+      "duration": 64.733333,
+      "visibility": "Public",
+      "published": true,
+      "publicReopenedVerified": true,
+      "originalPictureAudioUnchanged": true,
+      "nativeCaptionLanguages": [
+        "he"
+      ],
+      "evidence": [
+        "outputs/zyjnia-video-guides-2026-10-20/he-publication.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/he-publication.png",
+        "outputs/zyjnia-video-guides-2026-10-20/he-public-reopened.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/he-public-reopened.png"
+      ]
+    },
+    {
+      "language": "en",
+      "id": "BAueoGqdcC4",
+      "url": "https://youtube.com/shorts/BAueoGqdcC4",
+      "sourcePath": "/Users/rachelfiler/Desktop/Wroclaw/BSW/המדריך שלנו/WhatsApp Video 2026-10-19 at 08.42.31.mp4",
+      "sourceSHA256": "018b04b05a579585d861abda9abf6ef23152ae2487e70b605862842932560c11",
+      "duration": 83.766667,
+      "visibility": "Public",
+      "published": true,
+      "publicReopenedVerified": true,
+      "originalPictureAudioUnchanged": true,
+      "nativeCaptionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "evidence": [
+        "outputs/zyjnia-video-guides-2026-10-20/en-publication.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/en-publication.png",
+        "outputs/zyjnia-video-guides-2026-10-20/en-public-reopened.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/en-public-reopened.png"
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "language": "he",
+      "sourceAudioLanguage": "he",
+      "path": "outputs/zyjnia-video-guides-2026-10-20/captions/he.srt",
+      "sha256": "fc040e3bef33f31a77351427b25babe81a432228ccdaeecde82a9c1b5aa38dda",
+      "cueCount": 14,
+      "lastCueEnd": 63.66,
+      "youtubeState": "published-reopened-verified",
+      "videoId": "ZO-A54BIZQk",
+      "srtSHA256": "fc040e3bef33f31a77351427b25babe81a432228ccdaeecde82a9c1b5aa38dda",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "verificationTime": "2026-10-20T08:46:09.851625+00:00",
+      "evidence": [
+        "outputs/zyjnia-video-guides-2026-10-20/he-captions-reopened.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/he-captions-reopened.png"
+      ]
+    },
+    {
+      "language": "en",
+      "sourceAudioLanguage": "en",
+      "path": "outputs/zyjnia-video-guides-2026-10-20/captions/en.srt",
+      "sha256": "26d0bfd6f6ee637a9789150302912c6649663a37d2351bf5d02196079eef54e7",
+      "cueCount": 16,
+      "lastCueEnd": 81.1,
+      "youtubeState": "published-reopened-verified",
+      "videoId": "BAueoGqdcC4",
+      "srtSHA256": "26d0bfd6f6ee637a9789150302912c6649663a37d2351bf5d02196079eef54e7",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "verificationTime": "2026-10-20T08:46:09.851625+00:00",
+      "evidence": [
+        "outputs/zyjnia-video-guides-2026-10-20/en-captions-reopened.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/en-captions-reopened.png"
+      ]
+    },
+    {
+      "language": "pl",
+      "sourceAudioLanguage": "en",
+      "path": "outputs/zyjnia-video-guides-2026-10-20/captions/pl.srt",
+      "sha256": "8bd5947f76876c031c56a033cd880723aa43838ec420b882085ef937e0cee5e9",
+      "cueCount": 16,
+      "lastCueEnd": 81.1,
+      "youtubeState": "published-reopened-verified",
+      "videoId": "BAueoGqdcC4",
+      "srtSHA256": "8bd5947f76876c031c56a033cd880723aa43838ec420b882085ef937e0cee5e9",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "verificationTime": "2026-10-20T08:46:09.851625+00:00",
+      "evidence": [
+        "outputs/zyjnia-video-guides-2026-10-20/pl-captions-reopened.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/pl-captions-reopened.png"
+      ]
+    },
+    {
+      "language": "de",
+      "sourceAudioLanguage": "en",
+      "path": "outputs/zyjnia-video-guides-2026-10-20/captions/de.srt",
+      "sha256": "acdc7c063cfa0714120f3b3bb15624efa61e4afc335eb20cb735ce94ff54820d",
+      "cueCount": 16,
+      "lastCueEnd": 81.1,
+      "youtubeState": "published-reopened-verified",
+      "videoId": "BAueoGqdcC4",
+      "srtSHA256": "acdc7c063cfa0714120f3b3bb15624efa61e4afc335eb20cb735ce94ff54820d",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "verificationTime": "2026-10-20T08:46:09.851625+00:00",
+      "evidence": [
+        "outputs/zyjnia-video-guides-2026-10-20/de-captions-reopened.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/de-captions-reopened.png"
+      ]
+    },
+    {
+      "language": "cs",
+      "sourceAudioLanguage": "en",
+      "path": "outputs/zyjnia-video-guides-2026-10-20/captions/cs.srt",
+      "sha256": "04ee60071389fcc0d5699107f9cfa2d554c791313b0c560a538811d6cc7c267d",
+      "cueCount": 16,
+      "lastCueEnd": 81.1,
+      "youtubeState": "published-reopened-verified",
+      "videoId": "BAueoGqdcC4",
+      "srtSHA256": "04ee60071389fcc0d5699107f9cfa2d554c791313b0c560a538811d6cc7c267d",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "verificationTime": "2026-10-20T08:46:09.851625+00:00",
+      "evidence": [
+        "outputs/zyjnia-video-guides-2026-10-20/cs-captions-reopened.txt",
+        "outputs/zyjnia-video-guides-2026-10-20/cs-captions-reopened.png"
+      ]
+    }
+  ],
+  "integration": {
+    "guideVideos": {
+      "he": "https://youtube.com/shorts/ZO-A54BIZQk",
+      "en": "https://youtube.com/shorts/BAueoGqdcC4"
+    },
+    "languageRouting": {
+      "he": "he",
+      "en": "en",
+      "pl": "en",
+      "de": "en",
+      "cs": "en"
+    },
+    "ccLoadPolicy": 1,
+    "ccLangPref": "map-language",
+    "maps": [
+      "cultural"
+    ],
+    "soleWriter": "/root/zyjnia_enrichment",
+    "preserve": [
+      "3selectedphotos",
+      "7publicvisitclips",
+      "canonicalId",
+      "aliases",
+      "coordinates",
+      "existingverifiedsociallinks"
+    ],
+    "deploymentState": "pending-sole-writer-integration"
+  },
+  "browserReleased": true,
+  "noFamilyUploads": true,
+  "spend": 0
+}

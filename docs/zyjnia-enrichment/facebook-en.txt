@@ -1,0 +1,21 @@
+Browser tab: 31058179, Title: "A pause for art in the city... - Wroc-Love Wrocław & Lower Silesia | Facebook", URL: "https://www.facebook.com/permalink.php?story_fbid=pfbid02HQCFgc7yZKPPDd1BJipHvnaZqCjWL6xuvU4oY2uBez2d3WxmhxPn9DrjrgiLBSDTl&id=61595036942289".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~								40 button Like
+~								41 button React
+~							42 button Leave a comment
+~							43 button Share, send this to friends or post it on your profile.
+~							44 heading No comments yet, Value: 3
++								55 text No comments yet
++							56 text Be the first to comment.
+~							46 button Switch to a different profile or Page
+~							47 text entry area (settable) Description: Comment as Giles Sher, Value:
+
+~								49 pop up button (collapsed) Description: Comment with an avatar sticker, Secondary Actions: Expand
+~								50 pop up button (collapsed) Description: Insert an emoji, Secondary Actions: Expand
+~								51 button Attach a photo or video
+~								52 pop up button (collapsed) Description: Add an AI label, Secondary Actions: Expand
+~								53 pop up button (collapsed) Description: Comment with a GIF, Secondary Actions: Expand
+~								54 pop up button (collapsed) Description: Comment with a sticker, Secondary Actions: Expand
++							57 text You're commenting as Giles Sher.
++			58 button New message
+The focused UI element is 20 button Close

@@ -1,0 +1,33 @@
+Browser tab: 31058179, Title: "Żyjnia BWA Wrocław 🎨... - Wroc-Love Vratislav a Dolní Slezsko | Facebook", URL: "https://www.facebook.com/permalink.php?story_fbid=pfbid0ghZXye7Ndozg5UUqAW8PT2vth7R77VP81EQGsWu6BMavB4jpPJ2jKrg2UD36EmkQl&id=61594716405964".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 7-14, 44
++			44 container
++				45 container Account Controls and Settings
++					46 pop up button (collapsed) Description: Facebook menu, Secondary Actions: Expand
++					47 pop up button (collapsed) Description: Messenger, Secondary Actions: Expand
++					48 pop up button (collapsed) Description: Notifications, Secondary Actions: Expand
++					49 container
++						50 pop up button (collapsed) Description: Your profile, Secondary Actions: Expand
++							51 container
++								52 image Your profile
+~								39 button Like
+~								40 button React
+~							41 button Leave a comment
+~							42 button Share, send this to friends or post it on your profile.
+~							43 heading No comments yet, Value: 3
++								53 text No comments yet
++							54 text Be the first to comment.
++						55 container
++							56 button Switch to a different profile or Page
++							57 text entry area (settable) Description: Comment as Giles Sher, Value:
+
++							58 content list
++								59 pop up button (collapsed) Description: Comment with an avatar sticker, Secondary Actions: Expand
++								60 pop up button (collapsed) Description: Insert an emoji, Secondary Actions: Expand
++								61 button Attach a photo or video
++								62 pop up button (collapsed) Description: Add an AI label, Secondary Actions: Expand
++								63 pop up button (collapsed) Description: Comment with a GIF, Secondary Actions: Expand
++								64 pop up button (collapsed) Description: Comment with a sticker, Secondary Actions: Expand
++							65 text You're commenting as Giles Sher.
++			66 button New message
+The focused UI element is 20 button Close

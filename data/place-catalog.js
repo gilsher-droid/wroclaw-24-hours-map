@@ -36737,18 +36737,18 @@
     "id": "zyjnia-bwa-wroclaw",
     "localName": "Żyjnia BWA Wrocław",
     "name": {
-      "he": "ז׳ייניה BWA",
+      "he": "ז׳ייניה, גלריה לאמנות ועיצוב",
       "en": "Żyjnia BWA Wrocław",
       "pl": "Żyjnia BWA Wrocław",
       "de": "Żyjnia BWA Wrocław",
       "cs": "Żyjnia BWA Wrocław"
     },
     "description": {
-      "he": "גלריה של BWA ורוצלב לאמנות ועיצוב עכשוויים.",
-      "en": "A BWA Wrocław gallery for contemporary art and design.",
-      "pl": "Galeria BWA Wrocław poświęcona sztuce i współczesnemu projektowaniu.",
-      "de": "Galerie von BWA Wrocław für Gegenwartskunst und Design.",
-      "cs": "Galerie BWA Wrocław zaměřená na současné umění a design."
+      "he": "גלריה לאמנות ועיצוב עכשוויים בלב העיר, המחברת בין תערוכות לבין מרחב למנוחה והתבוננות. המקום פועל כסלון עירוני בהשראת בתי המרפא של שלזיה התחתונה, ומעודד מפגש עם אמנות באמצעות הדמיון והחושים. התערוכות והמיצבים משתנים; התמונות וסרטוני הביקור מתעדים את מה שראינו במקום. כדאי לבדוק באתר הרשמי את התוכנית ושעות הפתיחה לפני הביקור.",
+      "en": "A contemporary art and design gallery in central Wrocław combining exhibitions with a space for rest and reflection. Conceived as an urban living room inspired by Lower Silesian spa traditions, it invites visitors to experience art through imagination and the senses. Exhibitions and installations change; our photos and visit clips document the gallery as we experienced it. Check the official programme and opening hours before visiting.",
+      "pl": "Galeria sztuki współczesnej i projektowania w centrum Wrocławia łączy wystawy z przestrzenią odpoczynku i refleksji. Rozwija ideę miejskiego salonu inspirowanego dolnośląskimi uzdrowiskami i zaprasza do odbioru sztuki poprzez wyobraźnię i zmysły. Wystawy i instalacje się zmieniają; nasze zdjęcia i filmy pokazują galerię podczas wizyty. Przed przyjściem sprawdź aktualny program i godziny otwarcia na oficjalnej stronie.",
+      "de": "Eine Galerie für Gegenwartskunst und Design im Zentrum von Breslau, die Ausstellungen mit Raum für Ruhe und Betrachtung verbindet. Als städtischer Salon, inspiriert von den Kurtraditionen Niederschlesiens, lädt sie dazu ein, Kunst mit Fantasie und Sinnen zu erleben. Ausstellungen und Installationen wechseln; unsere Fotos und Besuchsvideos dokumentieren den damaligen Besuch. Aktuelles Programm und Öffnungszeiten vorab auf der offiziellen Website prüfen.",
+      "cs": "Galerie současného umění a designu v centru Vratislavi spojuje výstavy s prostorem pro odpočinek a rozjímání. Rozvíjí myšlenku městského salonu inspirovaného dolnoslezskými lázněmi a zve k vnímání umění prostřednictvím představivosti a smyslů. Výstavy a instalace se mění; naše fotografie a videa zachycují galerii při návštěvě. Předem si ověřte aktuální program a otevírací dobu na oficiálním webu."
     },
     "location": {
       "countryCode": "PL",
@@ -36811,7 +36811,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://bwa.wroc.pl/",
+      "website": "https://bwa.wroc.pl/galeria/zyjnia/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1086376%2C17.0331186",
         "appleMaps": "https://maps.apple.com/?ll=51.1086376,17.0331186&q=%C5%BByjnia%20BWA%20Wroc%C5%82aw"
@@ -36835,33 +36835,200 @@
       "factualSources": [
         {
           "type": "official",
-          "url": "https://bwa.wroc.pl/",
-          "checkedAt": "2026-08-29"
+          "url": "https://bwa.wroc.pl/galeria/zyjnia/",
+          "checkedAt": "2026-10-20"
         }
-      ]
+      ],
+      "mediaSource": "Original WROC-LOVE visit photographs and videos; see data/zyjnia-enrichment-provenance.json"
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/zyjnia-bwa/zyjnia-01.jpg",
+      "photos": [
+        "/assets/zyjnia-bwa/zyjnia-01.jpg",
+        "/assets/zyjnia-bwa/zyjnia-02.jpg",
+        "/assets/zyjnia-bwa/zyjnia-03.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/umUSV_b5q6w",
+        "https://youtube.com/shorts/VWojyNlXCAI",
+        "https://youtube.com/shorts/8otgPq47xtw",
+        "https://youtube.com/shorts/CbgJvJMkd-k",
+        "https://youtube.com/shorts/1Y75V_JyTJg",
+        "https://youtube.com/shorts/C84x5KSdeqQ",
+        "https://youtube.com/shorts/8QNaMIMs-As"
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/ZO-A54BIZQk",
+        "en": "https://youtube.com/shorts/BAueoGqdcC4"
+      },
+      "metadata": {
+        "/assets/zyjnia-bwa/zyjnia-01.jpg": {
+          "sourceFile": "WhatsApp Image 2026-10-19 at 08.42.32.jpeg",
+          "original": true,
+          "alt": {
+            "he": "חזית הגלריה ברחוב שווידניצקה",
+            "en": "Gallery façade on Świdnicka street",
+            "pl": "Fasada galerii przy ulicy Świdnickiej",
+            "de": "Galeriefassade an der Świdnicka-Straße",
+            "cs": "Průčelí galerie v ulici Świdnicka"
+          },
+          "sha256Original": "3bcf19f09494de9aeaad65008ced033d0782855779ef2efa096510ab100c15aa"
+        },
+        "/assets/zyjnia-bwa/zyjnia-02.jpg": {
+          "sourceFile": "WhatsApp Image 2026-10-19 at 08.42.12 (3).jpeg",
+          "original": true,
+          "alt": {
+            "he": "סביבת הגלריה ברחוב שווידניצקה",
+            "en": "The gallery and its Świdnicka street setting",
+            "pl": "Galeria i jej otoczenie przy ulicy Świdnickiej",
+            "de": "Galerie und Umgebung an der Świdnicka-Straße",
+            "cs": "Galerie a okolí v ulici Świdnicka"
+          },
+          "sha256Original": "7ef8b41e5094ee90c001843da13699d3afdfaa53eb00765dd224f54fa77a053d"
+        },
+        "/assets/zyjnia-bwa/zyjnia-03.jpg": {
+          "sourceFile": "WhatsApp Image 2026-10-19 at 08.42.32 (3).jpeg",
+          "original": true,
+          "alt": {
+            "he": "חלון ויטראז׳ ומעקה בחדר המדרגות",
+            "en": "Stained-glass window and staircase railing",
+            "pl": "Witraż i balustrada klatki schodowej",
+            "de": "Buntglasfenster und Treppengeländer",
+            "cs": "Vitrážové okno a zábradlí schodiště"
+          },
+          "sha256Original": "d859a933a74c5a7b0fd40b997f24cd10f45e4326940df0abf7d9210763ec9602"
+        },
+        "https://youtube.com/shorts/umUSV_b5q6w": {
+          "title": {
+            "he": "חלון הוויטראז׳ והמדרגות",
+            "en": "Stained-glass staircase",
+            "pl": "Witraż i schody",
+            "de": "Buntglasfenster und Treppe",
+            "cs": "Vitráž a schodiště"
+          },
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.15.mp4",
+          "sourceSha256": "4e5c772dcc6fcfbf920c5b9560492cec36cc7106de9eb8f13a3e201e3952bb34",
+          "originalPicture": true,
+          "audio": "omitted",
+          "publicVerifiedAt": "2026-10-20T08:29:37.769Z",
+          "durationSeconds": 17.466667
+        },
+        "https://youtube.com/shorts/VWojyNlXCAI": {
+          "title": {
+            "he": "חזית הגלריה וסביבתה ברחוב שווידניצקה",
+            "en": "Gallery façade and Świdnicka street",
+            "pl": "Fasada galerii i ulica Świdnicka",
+            "de": "Galeriefassade und Świdnicka-Straße",
+            "cs": "Průčelí galerie a ulice Świdnicka"
+          },
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.10.mp4",
+          "sourceSha256": "b02f4c71bd95026b9ce69e64f3f347e3d6fa9525a9abcad6b132b5b9749a55d1",
+          "originalPicture": true,
+          "audio": "omitted",
+          "publicVerifiedAt": "2026-10-20T08:29:37.771Z",
+          "durationSeconds": 14.44
+        },
+        "https://youtube.com/shorts/8otgPq47xtw": {
+          "title": {
+            "he": "פרט ממיצב הצדף",
+            "en": "Shell installation detail",
+            "pl": "Detal instalacji z muszlą",
+            "de": "Detail einer Muschel-Installation",
+            "cs": "Detail instalace s mušlí"
+          },
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.18 (1).mp4",
+          "sourceSha256": "4d039124e3a7ec1bae20703aa0b202ff5014ffad887979348367d3305f8b910f",
+          "originalPicture": true,
+          "audio": "omitted",
+          "publicVerifiedAt": "2026-10-20T08:29:37.771Z",
+          "durationSeconds": 3
+        },
+        "https://youtube.com/shorts/CbgJvJMkd-k": {
+          "title": {
+            "he": "תצוגה המזמינה להאט ולנוח",
+            "en": "Pause and rest display",
+            "pl": "Ekspozycja zachęcająca do odpoczynku",
+            "de": "Ausstellung zum Innehalten und Ausruhen",
+            "cs": "Expozice vybízející ke zpomalení a odpočinku"
+          },
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.20.mp4",
+          "sourceSha256": "2a33b41a2e6678f6954f20f4db521fca4136f400f0e2d2f64f2e3af0726c0aae",
+          "originalPicture": true,
+          "audio": "omitted",
+          "publicVerifiedAt": "2026-10-20T08:29:37.771Z",
+          "durationSeconds": 5.566667
+        },
+        "https://youtube.com/shorts/1Y75V_JyTJg": {
+          "title": {
+            "he": "חלל פנימי ודרך גישה לצד קיר אריחים",
+            "en": "Tiled interior and ramp",
+            "pl": "Wnętrze z płytkami i podjazd",
+            "de": "Innenraum mit Fliesen und Rampe",
+            "cs": "Interiér s obklady a rampou"
+          },
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.21.mp4",
+          "sourceSha256": "234cc8e63cb19fbaedebc6fdf8a6750700a08b9d59e9f485415bc0200873a491",
+          "originalPicture": true,
+          "audio": "omitted",
+          "publicVerifiedAt": "2026-10-20T08:29:37.771Z",
+          "durationSeconds": 5.433333
+        },
+        "https://youtube.com/shorts/C84x5KSdeqQ": {
+          "title": {
+            "he": "פרט בקיר הקרמיקה",
+            "en": "Ceramic wall detail",
+            "pl": "Detal ściany ceramicznej",
+            "de": "Detail der Keramikwand",
+            "cs": "Detail keramické stěny"
+          },
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.18.mp4",
+          "sourceSha256": "78565c9e4bef659600ebb57a11d42d7024b2afcaee65a7de8e72fc68b4cac66d",
+          "originalPicture": true,
+          "audio": "omitted",
+          "publicVerifiedAt": "2026-10-20T08:29:37.771Z",
+          "durationSeconds": 3.6
+        },
+        "https://youtube.com/shorts/8QNaMIMs-As": {
+          "title": {
+            "he": "מיצב וידאו שתועד בביקור שלנו",
+            "en": "Video installation during our visit",
+            "pl": "Instalacja wideo podczas naszej wizyty",
+            "de": "Videoinstallation bei unserem Besuch",
+            "cs": "Videoinstalace při naší návštěvě"
+          },
+          "sourceFile": "WhatsApp Video 2026-10-05 at 18.26.24.mp4",
+          "sourceSha256": "872279b782a6c5ae1615c40c1433142822cf3de5072fd4deebc2f9c284941d47",
+          "originalPicture": true,
+          "audio": "omitted",
+          "publicVerifiedAt": "2026-10-20T08:29:37.771Z",
+          "durationSeconds": 17.966667
+        }
+      }
     },
     "socialPosts": [
       {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ghZXye7Ndozg5UUqAW8PT2vth7R77VP81EQGsWu6BMavB4jpPJ2jKrg2UD36EmkQl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-20",
+        "verification": "Exact-place written post, account and language verified live",
+        "verificationEvidence": "docs/zyjnia-enrichment/social-verification-matrix.json"
       },
       {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HQCFgc7yZKPPDd1BJipHvnaZqCjWL6xuvU4oY2uBez2d3WxmhxPn9DrjrgiLBSDTl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "verifiedAt": "2026-10-20",
+        "verification": "Exact-place written post, account and language verified live",
+        "verificationEvidence": "docs/zyjnia-enrichment/social-verification-matrix.json"
       },
       {
         "platform": "facebook",
         "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid048vMYhwsEVEtg8c6cUPLyFPjYXF6rxXoKHu9AJNhWHn2Q4RNBdwJT9LYtLHzPqs8l&id=61595207664875",
-        "verifiedAt": "2026-10-08T15:59:15.121Z"
+        "verifiedAt": "2026-10-20",
+        "verification": "Exact-place written post, account and language verified live",
+        "verificationEvidence": "docs/zyjnia-enrichment/social-verification-matrix.json"
       }
     ]
   }
