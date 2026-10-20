@@ -242,3 +242,6 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 
 /* Preserve all retained Czarna Magia visit photographs, including the original five. */
 .media-grid img[src*="/food-cafes/czarna-magia-"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+.media-video-item { min-width:0; }
+.video-watch-link { display:inline-block; padding:10px 0; color:#163b64; font-weight:700; text-decoration:underline; text-underline-offset:3px; }
