@@ -1,5 +1,5 @@
 {
-  "status": "four-files-complete-local-not-published",
+  "status": "assembled-and-published-public",
   "userScope": "Assemble four city/fortress HE/EN films; follow-up explicitly authorizes removing repetition while preserving unique information.",
   "sources": [
     {
@@ -248,5 +248,17 @@
     "editedJoinSpeechReview": "Pass. City joins preserve complete sentences about specialtown/trade and citytunnels/regionaldrive. Fortress joins finaldescription to one farewell; trailingblooperexcluded.",
     "visualOrientationAndJoins": "Pass, uprightportrait/fullpicture; source frame ratio retained."
   },
-  "hosting": "No uploads, social publications or website changes. Videos remain local pending any further user instruction."
+  "hosting": "No uploads, social publications or website changes. Videos remain local pending any further user instruction.",
+  "publication": {
+    "verifiedAt": "2026-10-20",
+    "city": {
+      "he": "https://youtube.com/shorts/0YyKS3LcHrU",
+      "en": "https://youtube.com/shorts/reMcbePY2yo"
+    },
+    "fortress": {
+      "he": "https://youtube.com/shorts/zNAM3xG5ED4",
+      "en": "https://youtube.com/shorts/Swz838oySqQ"
+    },
+    "captionTracks": "Native Hebrew plus English/German/Czech/Polish tracks published; see per-place caption provenance."
+  }
 }
