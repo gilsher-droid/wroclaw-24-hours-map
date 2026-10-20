@@ -197,3 +197,6 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 
 /* Preserve full district and synagogue photographs. */
 .media-grid img[src*="four-denominations-district-"], .media-grid img[src*="/white-stork/"] { object-fit: contain; background: #f4f0e8; }
+
+/* Preserve complete Barbara visit frames on desktop and mobile. */
+.media-grid img[src*="/barbara-wroclaw-"] { height:auto; max-height:70vh; object-fit:contain; background:#f4f0e8; }

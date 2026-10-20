@@ -1,0 +1,450 @@
+{
+  "canonicalId": "zyjnia-bwa-wroclaw",
+  "sourceFolder": "Desktop/Wroclaw/BWA",
+  "familyException": false,
+  "originalsUnmodified": true,
+  "addedPhotos": 9,
+  "existingPhotosPreserved": [
+    "/assets/zyjnia-bwa/zyjnia-01.jpg",
+    "/assets/zyjnia-bwa/zyjnia-02.jpg",
+    "/assets/zyjnia-bwa/zyjnia-03.jpg"
+  ],
+  "videosPreserved": [
+    "https://youtube.com/shorts/umUSV_b5q6w",
+    "https://youtube.com/shorts/VWojyNlXCAI",
+    "https://youtube.com/shorts/8otgPq47xtw",
+    "https://youtube.com/shorts/CbgJvJMkd-k",
+    "https://youtube.com/shorts/1Y75V_JyTJg",
+    "https://youtube.com/shorts/C84x5KSdeqQ",
+    "https://youtube.com/shorts/8QNaMIMs-As"
+  ],
+  "guidesPreserved": {
+    "he": "https://youtube.com/shorts/ZO-A54BIZQk",
+    "en": "https://youtube.com/shorts/BAueoGqdcC4"
+  },
+  "socialPreserved": [],
+  "socialRegistry": "Existing3localizedFacebookposts remain in unchanged localized-social-posts registry",
+  "proposal": {
+    "canonicalId": "zyjnia-bwa-wroclaw",
+    "alias": "galeria-dizajn",
+    "sourceDirectory": "Desktop/Wroclaw/BWA",
+    "existingPreservation": {
+      "photos": 3,
+      "visits": 7,
+      "guides": {
+        "he": "ZO-A54BIZQk",
+        "en": "BAueoGqdcC4"
+      },
+      "captions": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "socialPosts": "preserve all verified existingexact-place links"
+    },
+    "mediaAdditions": {
+      "photos": [
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-01.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-02.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-03.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-04.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-05.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-06.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-07.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-08.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-09.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-01.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.17.jpeg",
+          "sourceSHA256": "113e5efbbd306ffa3a786fcf0745b30ba05c7eed0f0d32e81e81d50dbb9d4349",
+          "assetSHA256": "3485c2cb15eb57eff4f26d74cb65ffd714481eeaafa3ce51968d63e8bc0cde9e",
+          "alt": {
+            "he": "חזית הגלריה עם שלטי המקום והכניסה הצהובה",
+            "en": "Gallery façade with its signs and yellow entrance",
+            "pl": "Fasada galerii z szyldami i żółtym wejściem",
+            "de": "Galeriefassade mit Beschriftung und gelbem Eingang",
+            "cs": "Průčelí galerie s nápisy a žlutým vstupem"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-02.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (10).jpeg",
+          "sourceSHA256": "dfed7da734946f75b526882f4e917fe0348d0b3014f66ce946af20ae1b97da59",
+          "assetSHA256": "3a51ca323870d6eeaba22eb66d92a9da2acc1d3eae6107d3bae58173fe648bf6",
+          "alt": {
+            "he": "עבודת טקסטיל ירוקה מתצוגת הגלריה בעת הביקור",
+            "en": "Green textile artwork displayed during our gallery visit",
+            "pl": "Zielona praca tekstylna podczas naszej wizyty w galerii",
+            "de": "Grünes Textilkunstwerk während unseres Galeriebesuchs",
+            "cs": "Zelené textilní dílo při naší návštěvě galerie"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-03.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (2).jpeg",
+          "sourceSHA256": "241777346b2f939e9ab0c627686e94dd15a4ca70e187025a6dfcf1e0138280c1",
+          "assetSHA256": "921ed27997287f6593686e1c53c39dec7c72a926bea408ceeefd86ed50be3bbe",
+          "alt": {
+            "he": "כרזה ממוסגרת עם הכיתוב ארבעה ביוני, יום החירות",
+            "en": "Framed poster reading 4 June, Freedom Day",
+            "pl": "Oprawiony plakat z napisem 4 czerwca, Dzień Wolności",
+            "de": "Gerahmtes Plakat mit der Aufschrift 4. Juni, Tag der Freiheit",
+            "cs": "Zarámovaný plakát s nápisem 4. června, Den svobody"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-04.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (3).jpeg",
+          "sourceSHA256": "2f80eb2cf3a8ba355de6498f5b1d8a59581f6841ef2ede5bbdbc4d7bc4b48a21",
+          "assetSHA256": "43fe467945a6dbb016ad98ab5013db24205852489ca6de218be42a98f4176d91",
+          "alt": {
+            "he": "שלט הכוונה פנימי בגלריה בין שתי הכניסות",
+            "en": "Interior gallery wayfinding between the two entrances",
+            "pl": "Oznakowanie wewnętrzne galerii między dwoma wejściami",
+            "de": "Wegweiser in der Galerie zwischen den beiden Eingängen",
+            "cs": "Vnitřní rozcestník galerie mezi dvěma vstupy"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-05.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (4).jpeg",
+          "sourceSHA256": "c771dfa99377ab9dc66cb6e156b0613ec72bbfbb83e7910cf2cfd9c6c7b9a1aa",
+          "assetSHA256": "ab3c0720b7c83559f04eeae37db1879fa2106c9d9f4c0760e33fcccadd4d5406",
+          "alt": {
+            "he": "שתי עבודות צילום ממוסגרות בתצוגה",
+            "en": "Two framed photographic works on display",
+            "pl": "Dwie oprawione prace fotograficzne na wystawie",
+            "de": "Zwei gerahmte fotografische Arbeiten in der Ausstellung",
+            "cs": "Dvě zarámovaná fotografická díla na výstavě"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-06.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (5).jpeg",
+          "sourceSHA256": "839d232a35711b046ed5f9ef28545a4a4fb038c8776121327ccac6884e25480b",
+          "assetSHA256": "57a18f2a9f504c6f32672a059fbad7e50744cb4a23e4e378b65d3990990fd698",
+          "alt": {
+            "he": "עבודת צילום במסגרת צהובה בתצוגה",
+            "en": "Photographic artwork in a yellow frame",
+            "pl": "Praca fotograficzna w żółtej ramie",
+            "de": "Fotografisches Werk in einem gelben Rahmen",
+            "cs": "Fotografické dílo ve žlutém rámu"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-07.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (6).jpeg",
+          "sourceSHA256": "a933d8c4b69ffc7aa35e6edafca1633f921c90864ad8ff1f1d1c0a93597d91ad",
+          "assetSHA256": "0a24115129c7f8d1172f893150266becc394d0aeefdc75fabb4f2538a63d2677",
+          "alt": {
+            "he": "מיצב אור עגול על קיר הגלריה",
+            "en": "Circular light installation on the gallery wall",
+            "pl": "Okrągła instalacja świetlna na ścianie galerii",
+            "de": "Runde Lichtinstallation an der Galeriewand",
+            "cs": "Kruhová světelná instalace na stěně galerie"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-08.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (7).jpeg",
+          "sourceSHA256": "ac2b4421f4f44e8f83e6bff60beaba8169e8d4802137c861c98923c371e5b7eb",
+          "assetSHA256": "059325bd5e3873dfa5a9f74b5f2d85223cdca35ec5c9ada6029a6d656fa63627",
+          "alt": {
+            "he": "אריחים צבעוניים וספסל בחלל הגלריה",
+            "en": "Colourful tiles and a bench in the gallery",
+            "pl": "Kolorowe płytki i ławka we wnętrzu galerii",
+            "de": "Bunte Fliesen und eine Bank im Galerieraum",
+            "cs": "Barevné obklady a lavice v galerii"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        },
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-09.jpg": {
+          "original": true,
+          "sourceFile": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (8).jpeg",
+          "sourceSHA256": "9cda2a3f02c1872777170c86627a79edc531a1671d3c0f022284b1437dbcc52b",
+          "assetSHA256": "55c3dce8fa2537d05f6edd93bcbf4614c47bf4418fde13ab2c9bc01b0d29ad4d",
+          "alt": {
+            "he": "עבודת טקסטיל צבעונית על קיר ירוק",
+            "en": "Colourful textile artwork on a green wall",
+            "pl": "Kolorowa praca tekstylna na zielonej ścianie",
+            "de": "Buntes Textilkunstwerk an einer grünen Wand",
+            "cs": "Barevné textilní dílo na zelené stěně"
+          },
+          "familyForeground": false,
+          "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
+          "sourceDirectory": "BWA"
+        }
+      }
+    },
+    "preferredThumbnail": "/assets/zyjnia-bwa/zyjnia-refresh-oct20-01.jpg",
+    "photoOrder": "New clear signedfaçade, existing3photos unchanged, remaining8newgallerydetails",
+    "descriptions": "Existing5language factualdescriptions retained; exhibitionimagesdocumentvisit,notcurrentprogramme",
+    "newGuideWork": false,
+    "familyException": false,
+    "noSourceMutation": true,
+    "mapMembership": "Cultural map existing canonical identity only, no newpoint",
+    "deploymentGate": "No sharedcheckoutwrites until current Barbara writer explicit release; then merge/deploy/live5languages/mobile verification"
+  },
+  "decisions": [
+    {
+      "index": 0,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-19 at 08.42.12 (3).jpeg",
+      "sha256": "7ef8b41e5094ee90c001843da13699d3afdfaa53eb00765dd224f54fa77a053d",
+      "kind": "photo",
+      "decision": "already-live-preserve",
+      "reason": "Exact hash previously used photo/visit/guide; sourcefolder renamed/expanded"
+    },
+    {
+      "index": 1,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-19 at 08.42.32 (3).jpeg",
+      "sha256": "d859a933a74c5a7b0fd40b997f24cd10f45e4326940df0abf7d9210763ec9602",
+      "kind": "photo",
+      "decision": "already-live-preserve",
+      "reason": "Exact hash previously used photo/visit/guide; sourcefolder renamed/expanded"
+    },
+    {
+      "index": 2,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-19 at 08.42.32.jpeg",
+      "sha256": "3bcf19f09494de9aeaad65008ced033d0782855779ef2efa096510ab100c15aa",
+      "kind": "photo",
+      "decision": "already-live-preserve",
+      "reason": "Exact hash previously used photo/visit/guide; sourcefolder renamed/expanded"
+    },
+    {
+      "index": 3,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.09.13.jpeg",
+      "sha256": "72b57972538bde8e135b8cb9936a3b5b2fa2efd447a2b697378bba898ca74154",
+      "kind": "photo",
+      "decision": "exclude-nearby-gnomes",
+      "reason": "Nearby dwarf sculpture is separate subject, not gallery documentation"
+    },
+    {
+      "index": 4,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.03 (1).jpeg",
+      "sha256": "c944a8de457a6a8bace3361124fdd23ed3699c8815ee47e031c2c8ddd1219065",
+      "kind": "photo",
+      "decision": "exclude-personal-family",
+      "reason": "Child/personal foreground; no specific family exception"
+    },
+    {
+      "index": 5,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.03.jpeg",
+      "sha256": "6149a954f92f921f124cb91e916ef323d8164cd9b86053e000f0d4b509f70a2a",
+      "kind": "photo",
+      "decision": "exclude-personal-family",
+      "reason": "Child/personal foreground; no specific family exception"
+    },
+    {
+      "index": 6,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (1).jpeg",
+      "sha256": "e57c1ad0c427dc535fe4bb1330f449c4d27e28ff21bbf645fc40990a2908cbee",
+      "kind": "photo",
+      "decision": "exclude-nearby-gnomes",
+      "reason": "Nearby dwarf sculpture is separate subject, not gallery documentation"
+    },
+    {
+      "index": 7,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (10).jpeg",
+      "sha256": "dfed7da734946f75b526882f4e917fe0348d0b3014f66ce946af20ae1b97da59",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 8,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (2).jpeg",
+      "sha256": "241777346b2f939e9ab0c627686e94dd15a4ca70e187025a6dfcf1e0138280c1",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 9,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (3).jpeg",
+      "sha256": "2f80eb2cf3a8ba355de6498f5b1d8a59581f6841ef2ede5bbdbc4d7bc4b48a21",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 10,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (4).jpeg",
+      "sha256": "c771dfa99377ab9dc66cb6e156b0613ec72bbfbb83e7910cf2cfd9c6c7b9a1aa",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 11,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (5).jpeg",
+      "sha256": "839d232a35711b046ed5f9ef28545a4a4fb038c8776121327ccac6884e25480b",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 12,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (6).jpeg",
+      "sha256": "a933d8c4b69ffc7aa35e6edafca1633f921c90864ad8ff1f1d1c0a93597d91ad",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 13,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (7).jpeg",
+      "sha256": "ac2b4421f4f44e8f83e6bff60beaba8169e8d4802137c861c98923c371e5b7eb",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 14,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (8).jpeg",
+      "sha256": "9cda2a3f02c1872777170c86627a79edc531a1671d3c0f022284b1437dbcc52b",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 15,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05 (9).jpeg",
+      "sha256": "47b478d2740ecfa5898af92fff91e57af3ff3e33e2222465a6b0795140923121",
+      "kind": "photo",
+      "decision": "duplicate-visual",
+      "reason": "Same original photo as existing staircase/façade, re-encoded; meanRGBpixel difference at256px under4/255"
+    },
+    {
+      "index": 16,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.05.jpeg",
+      "sha256": "59249a4f432a8f5e3cba4bf1bf5c43304b7c0e59a721171720b5988fc38647b8",
+      "kind": "photo",
+      "decision": "exclude-nearby-gnomes",
+      "reason": "Nearby dwarf sculpture is separate subject, not gallery documentation"
+    },
+    {
+      "index": 17,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.17.jpeg",
+      "sha256": "113e5efbbd306ffa3a786fcf0745b30ba05c7eed0f0d32e81e81d50dbb9d4349",
+      "kind": "photo",
+      "decision": "add-photo",
+      "reason": "New visually verified Żyjnia gallery image"
+    },
+    {
+      "index": 18,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Image 2026-10-20 at 13.11.18.jpeg",
+      "sha256": "eee54000e62bddc8a6ae660312e1ca83fe785d8be3c6b569a3e07f2c4a613f68",
+      "kind": "photo",
+      "decision": "duplicate-visual",
+      "reason": "Same original photo as existing staircase/façade, re-encoded; meanRGBpixel difference at256px under4/255"
+    },
+    {
+      "index": 19,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-05 at 18.26.24.mp4",
+      "sha256": "872279b782a6c5ae1615c40c1433142822cf3de5072fd4deebc2f9c284941d47",
+      "kind": "video",
+      "decision": "already-live-preserve",
+      "reason": "Exact hash previously used photo/visit/guide; sourcefolder renamed/expanded"
+    },
+    {
+      "index": 20,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.04.23.mp4",
+      "sha256": "2987abfd3fe1709bf7be75f32e0a4ea583b51e503ec1fec587b3755e5696f08b",
+      "kind": "video",
+      "decision": "exclude-confirmed-barbara",
+      "reason": "User explicitly confirmed this15.40sclip belongsBarbara, despite currentBWAdirectory. Barbaraagentmayuseoriginalhere; no move or BWAattachment."
+    },
+    {
+      "index": 21,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.11.18.mp4",
+      "sha256": "6934943eea04d3879c0eb8529710763f4ee67a3c8dd129227c2365610f6e40fa",
+      "kind": "video",
+      "decision": "exclude-rynek-pan",
+      "reason": "Broad market-square view, no gallery identity"
+    },
+    {
+      "index": 22,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.11.19.mp4",
+      "sha256": "416aa88d9fe2243e25762d3c428a6c526f4f2cb7fb020a5613260f59cda0bc54",
+      "kind": "video",
+      "decision": "exclude-nearby-gnomes",
+      "reason": "Nearby dwarf sculpture is separate subject, not gallery documentation"
+    },
+    {
+      "index": 23,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.11.24 (1).mp4",
+      "sha256": "9aaa4c15f8fb245ecc5fedad9a43c489b7461120eb37568a11b6024721405912",
+      "kind": "video",
+      "decision": "exclude-personal-family",
+      "reason": "Child/personal foreground; no specific family exception"
+    },
+    {
+      "index": 24,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.11.24 (2).mp4",
+      "sha256": "e9fa128ff605fb414c79fc236008c2cff54eb82e8029b3e39f00d080d10a6153",
+      "kind": "video",
+      "decision": "exclude-personal-family",
+      "reason": "Child/personal foreground; no specific family exception"
+    },
+    {
+      "index": 25,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.11.24 (3).mp4",
+      "sha256": "97e867c7da0fdd8520252d2da49641571a9246e2fd488acf6764e216e40ac0bb",
+      "kind": "video",
+      "decision": "exclude-personal-family",
+      "reason": "Child/personal foreground; no specific family exception"
+    },
+    {
+      "index": 26,
+      "source": "Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.11.24.mp4",
+      "sha256": "7c92c2dfb60fa63efe2ca2bfc0d340cc355b0f81626f25134bd03ddfa3481deb",
+      "kind": "video",
+      "decision": "exclude-nearby-gnomes",
+      "reason": "Nearby dwarf sculpture is separate subject, not gallery documentation"
+    },
+    {
+      "index": 27,
+      "source": "Desktop/Wroclaw/BWA/המדריך שלנו/WhatsApp Video 2026-10-19 at 08.42.20.mp4",
+      "sha256": "fe87c7a451e569ab0f2f030036e25a8e98d4e846555ce2a858e05bf2821f9e9a",
+      "kind": "video",
+      "decision": "already-live-preserve",
+      "reason": "Exact hash previously used photo/visit/guide; sourcefolder renamed/expanded"
+    },
+    {
+      "index": 28,
+      "source": "Desktop/Wroclaw/BWA/המדריך שלנו/WhatsApp Video 2026-10-19 at 08.42.31.mp4",
+      "sha256": "018b04b05a579585d861abda9abf6ef23152ae2487e70b605862842932560c11",
+      "kind": "video",
+      "decision": "already-live-preserve",
+      "reason": "Exact hash previously used photo/visit/guide; sourcefolder renamed/expanded"
+    }
+  ]
+}

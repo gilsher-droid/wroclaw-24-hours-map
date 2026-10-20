@@ -10,8 +10,9 @@ test('Żyjnia keeps one cultural identity and traceable public media with publis
  assert.equal(window.WROC_CATALOG.getPlace('galeria-dizajn').id,p.id);
  assert.equal(window.WROC_CULTURAL_PLACES.filter(x=>(x.canonicalPlaceId||x.id)===p.id).length,1);
  assert.deepEqual(JSON.parse(JSON.stringify(p.location.coordinates)),{lat:51.1086376,lng:17.0331186});
- assert.equal(p.media.photos.length,3);assert.equal(p.media.videos.length,7);
+ assert.equal(p.media.photos.length,12);assert.equal(p.media.videos.length,7);
  for(const photo of p.media.photos)assert.ok(existsSync(photo.slice(1)));
+ for(const original of ["/assets/zyjnia-bwa/zyjnia-01.jpg","/assets/zyjnia-bwa/zyjnia-02.jpg","/assets/zyjnia-bwa/zyjnia-03.jpg"]) assert.ok(p.media.photos.includes(original));
  const visits=JSON.parse(readFileSync('data/zyjnia-visit-publication-receipt.json','utf8'));
  assert.equal(new Set(visits.map(v=>v.youtube)).size,7);
  for(const v of visits){assert.equal(v.visibility,'Public');assert.equal(v.savedPublicVerified,true);assert.ok(p.media.videos.includes(v.youtube));}

@@ -17,5 +17,5 @@ test('District and synagogue remain separate identities with one cultural pin ea
  assert.equal(window.WROC_CATALOG.resolveId('four-religions'),'four-denominations-district');
  assert.equal(window.WROC_CATALOG.resolveId('white-stork-synagogue'),'white-stork-synagogue-wroclaw');
  assert.equal(window.WROC_CATALOG.getPlace('zyjnia-bwa-wroclaw').media.videos.length,7);
- assert.equal(window.WROC_CATALOG.getPlace('zyjnia-bwa-wroclaw').media.photos.length,3);
+ assert.equal(window.WROC_CATALOG.getPlace('zyjnia-bwa-wroclaw').media.photos.length,12);
 });
