@@ -1,8 +1,10 @@
+import { generateHomeExcursions } from "./tools/generate-home-excursions.mjs";
 import { versionScriptUrls } from "./tools/version-script-urls.mjs";
 import { cp, mkdir, rm, writeFile, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = process.cwd();
+await generateHomeExcursions(root);
 const client = resolve(root, "dist/client");
 const server = resolve(root, "dist/server");
 const interactiveMaps = resolve(client, "products/interactive-maps");
@@ -17,6 +19,8 @@ await mkdir(interactiveMaps, { recursive: true });
 for (const file of [
   "index.html",
   "styles.css",
+  "home-excursions.css",
+  "home-excursions.js",
   "site-i18n.js",
   "site-actions.css",
   "site-actions.js",

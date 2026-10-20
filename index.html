@@ -11,6 +11,7 @@
     <title>Wroc-love | מסלולים חכמים בוורוצלב</title>
     <link rel="icon" href="assets/logo.png" />
     <link rel="stylesheet" href="styles.css?v=20260816-1" />
+    <link rel="stylesheet" href="/home-excursions.css?v=20261020-1" />
     <link rel="stylesheet" href="/site-actions.css?v=20261017-personal-trip" />
     <link rel="stylesheet" href="/now-in-wroclaw.css?v=20260928-2" />
     <link rel="stylesheet" href="/consent.css?v=20260924-2" />
@@ -56,22 +57,14 @@
           </ul>
         </div>
 
-        <div class="route-preview" aria-label="המחשה של ספריית המפות">
-          <div class="preview-topline"><span>כך נראות המפות מבפנים</span><span class="preview-badge">המחשת המפה</span></div>
-          <div class="preview-window">
-            <div class="preview-window-bar" aria-hidden="true"><span></span><span></span><span></span><b>WROC-LOVE</b></div>
-            <div class="preview-map" aria-hidden="true">
-            <span class="river river-one"></span><span class="river river-two"></span>
-            <span class="street street-one"></span><span class="street street-two"></span><span class="street street-three"></span>
-            <span class="pin pin-one">1</span><span class="pin pin-two">2</span><span class="pin pin-three">3</span><span class="pin pin-four">4</span>
-            </div>
-            <div class="preview-products">
-              <article><small>מסלול עירוני</small><strong>24 שעות בוורוצלב</strong><span>תחנות מסודרות וניווט ישיר</span></article>
-              <article><small>תכנון לפי ימים</small><strong>4 ימים בוורוצלב</strong><span>כל יום באזור אחר בעיר</span></article>
-              <article><small>מדריך מקומות</small><strong>אוכל, קפה וקניות</strong><span>בוחרים קטגוריה ומוצאים מקום</span></article>
-            </div>
-          </div>
-          <div class="preview-footer"><span>מסלולים מוכנים · מקומות מומלצים · ניווט ישיר</span><a href="#products">גלו את כל המפות ↓</a></div>
+        <div class="route-preview real-map-preview" aria-label="תצוגה מתוך המפה שלנו">
+          <div class="preview-topline"><span id="hero-preview-title">ככה מטיילים עם המפה שלנו</span><span class="preview-badge" id="hero-preview-badge">מתוך המפה האמיתית</span></div>
+          <a class="real-map-preview-link" href="/products/interactive-maps/map.html?lang=he#map" id="hero-preview-link">
+            <img id="hero-preview-image" src="/assets/home-map-preview/map-he.webp" width="650" height="560" alt="מפת מרכז וורוצלב עם כרטיס כיכר השוק פתוח" fetchpriority="high" />
+            <span id="hero-preview-cta">פותחים את המפה ומתחילים לגלות</span>
+          </a>
+          <p class="real-map-preview-caption" id="hero-preview-caption">לוחצים על מקום ומגלים תמונות, סרטונים, ניווט ופוסטים מהמקום.</p>
+          <div class="real-map-preview-credit" dir="ltr"><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">Map © OpenStreetMap contributors</a> · <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a></div>
         </div>
       </section>
 
@@ -179,18 +172,8 @@
           <div><span class="section-number">05</span><span class="eyebrow">המפה החמישית של Wroc-love</span><h2>טיולי יום מוורוצלב</h2></div>
           <p>טיולי יום עצמאיים מוורוצלב אל יעדים באזור ובמחוזות השכנים, המבוססים על המקומות והתוכן המקורי של WROC-LOVE.</p>
         </div>
-        <div class="excursions-product">
-          <div class="excursions-foundation">
-            <span>מפה חדשה</span>
-            <strong>האזור, בקצב שלכם.</strong>
-            <p>כל טיול יכלול מסלול מסודר ומידע מעשי, ויתפרסם רק כשהתחנות והתוכן יהיו מוכנים.</p>
-          </div>
-          <aside class="excursions-card">
-            <span>שלושה טיולים כבר פתוחים.</span>
-            <p>בחרו בין קשונז׳ ושווידניצה, ברז׳ג ומושנה, או יאבור, קרפץ, וואנג וילניה גורה.</p>
-            <a class="button excursions-button" href="/products/interactive-maps/excursions.html?lang=he">פתחו את המפה</a>
-          </aside>
-        </div>
+        <div id="home-excursions" class="home-excursions" aria-live="polite"></div>
+        <noscript><a class="button excursions-button" href="/products/interactive-maps/excursions.html?lang=he">פתחו את מפת הטיולים</a></noscript>
       </section>
 
       <section class="lifestyle-section" id="cultural">
@@ -240,6 +223,8 @@
     <script src="data/extra-languages.js?v=20261001-maps" defer></script>
     <script src="campaign-access.js?v=20260809-2" defer></script>
     <script src="site-i18n.js?v=20261001-maps" defer></script>
+    <script src="/data/home-excursions.js?v=20261020-1" defer></script>
+    <script src="/home-excursions.js?v=20261020-1" defer></script>
     <script src="/data/now-in-wroclaw.js?v=20261019-1" defer></script>
     <script src="/now-in-wroclaw.js?v=20260928-2" defer></script>
     <script src="/analytics-config.js?v=20260924-2" defer></script>

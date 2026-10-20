@@ -1,0 +1,29 @@
+.home-excursions{min-width:0}
+.home-excursions-toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:20px}
+.home-excursions-toolbar p{margin:0;color:var(--muted,#52627a);font-size:15px;line-height:1.6}
+.home-excursions-arrows{display:flex;gap:8px;direction:ltr;flex:none}
+.home-excursions-arrows button{width:44px;height:44px;border:1px solid #c9d5e4;border-radius:50%;background:white;color:#062b5c;font-size:24px;cursor:pointer}
+.home-excursions-arrows button:disabled{opacity:.35;cursor:default}
+.home-excursions-rail{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:#b48b42 #e7e8e9;padding:3px 3px 18px;overscroll-behavior-x:contain}
+.home-excursion{flex:0 0 290px;min-width:0;scroll-snap-align:start;background:#fff;border:1px solid #dbe3ec;border-radius:20px;overflow:hidden;display:flex;flex-direction:column;color:#062b5c;text-decoration:none;transition:box-shadow .2s,transform .2s}
+.home-excursion:hover{box-shadow:0 8px 24px #062b5c14;transform:translateY(-2px)}
+.home-excursion:focus-visible,.home-excursions-arrows button:focus-visible{outline:3px solid #bd9147;outline-offset:2px}
+.home-excursion img{width:100%;height:158px;object-fit:cover;display:block;border-bottom:3px solid #cda655}
+.home-excursion-body{padding:19px;display:flex;flex-direction:column;flex:1;gap:12px}
+.home-excursion h3{font-size:19px;line-height:1.4;margin:0;min-height:2.8em}
+.home-excursion p{font-size:14px;line-height:1.65;color:#52627a;margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.home-excursion-cta{margin-top:auto;padding-top:8px;font-size:14px;font-weight:700;color:#086f99}
+.home-excursions-footer{margin-top:22px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.home-excursions-footer small{color:#52627a;line-height:1.6}
+@media(max-width:600px){.home-excursion{flex-basis:78%;max-width:290px}.home-excursions-rail{gap:14px}.home-excursions-toolbar{gap:12px;align-items:flex-start}.home-excursions-toolbar p{font-size:13px}.home-excursions-arrows button{width:38px;height:38px}.home-excursion img{height:144px}}
+@media(prefers-reduced-motion:reduce){.home-excursion{transition:none}}
+.real-map-preview{transform:none}
+.real-map-preview-link{display:block;position:relative;overflow:hidden;border:1px solid #b8cddd;border-radius:20px;text-decoration:none;box-shadow:0 12px 28px #062b5c14}
+.real-map-preview-link img{display:block;width:100%;height:auto;aspect-ratio:650/560;object-fit:cover}
+.real-map-preview-link>span{display:block;padding:14px 18px;background:#062b5c;color:#fff;text-align:center;font-size:16px;font-weight:800}
+.real-map-preview-link:hover>span{background:#124879}
+.real-map-preview-link:focus-visible{outline:3px solid #cda655;outline-offset:4px}
+.real-map-preview-caption{font-size:14px;line-height:1.65;color:#52627a;margin:14px 4px 8px}
+.real-map-preview-credit{font-size:10px;text-align:center;color:#52627a}
+.real-map-preview-credit a{color:inherit}
+@media(max-width:600px){.real-map-preview .preview-topline{flex-wrap:wrap}.real-map-preview-link>span{font-size:14px}}
