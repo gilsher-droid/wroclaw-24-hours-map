@@ -194,3 +194,6 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 
 /* Preserve complete original Żyjnia visit photographs. */
 .media-grid img[src*="/zyjnia-bwa/"] { height:auto; max-height:70vh; object-fit:contain; background:#f4f0e8; }
+
+/* Preserve full district and synagogue photographs. */
+.media-grid img[src*="four-denominations-district-"], .media-grid img[src*="/white-stork/"] { object-fit: contain; background: #f4f0e8; }

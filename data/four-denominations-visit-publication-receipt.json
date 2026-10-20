@@ -1,0 +1,41 @@
+{
+  "state": "completed-three-public-visits-verified",
+  "verifiedAt": "2026-10-20T09:15:36.299827+00:00",
+  "channelId": "UCecxn_f6i_i47s3HXYrUVkA",
+  "videos": [
+    {
+      "id": "Eu84SKoKNZA",
+      "url": "https://www.youtube.com/watch?v=Eu84SKoKNZA",
+      "duration": 3.366667,
+      "sourceSHA256": "0f51eab1bb3134e219d271f758a5a76ae195fbc9ed21e10278e3532fd60c20b9",
+      "preparedSHA256": "0f1dc9bf9a2d856f97452b404cef40a35949a5fd1f7cd5a1a3f862bd92b0ef14",
+      "visibility": "Public",
+      "checks": "copyright+communityguidelinescomplete-noissues"
+    },
+    {
+      "id": "o6qgx0B_sU0",
+      "url": "https://www.youtube.com/watch?v=o6qgx0B_sU0",
+      "duration": 5.533333,
+      "sourceSHA256": "aee6f15ba693787c82c7d1170635a1539089a54ff399096d3e13e8525b305d23",
+      "preparedSHA256": "758baadecc43a0a03e3a4925172e2ba9677a0b45bcd1bf5d70c55ae1f2496b99",
+      "visibility": "Public",
+      "checks": "copyright+communityguidelinescomplete-noissues"
+    },
+    {
+      "id": "UOkQKcNFqBw",
+      "url": "https://www.youtube.com/watch?v=UOkQKcNFqBw",
+      "duration": 6.9,
+      "sourceSHA256": "cc131f1a4750ce45595c229f71aad93125e7cd2dd978a4ad0fda00835385d619",
+      "preparedSHA256": "52c32a066442370db1c88fdddaa6b78311b35ec6505c68510795809a4b84d609",
+      "visibility": "Public",
+      "checks": "copyright+communityguidelinescomplete-noissues"
+    }
+  ],
+  "verification": "All3VideoPublishedmodals+reloadedStudioShortstab3Public/Publishedrows",
+  "proofScreenshot": "outputs/four-denominations-enrichment-2026-10-20/three-visits-public-verified.png",
+  "proofText": "outputs/four-denominations-enrichment-2026-10-20/three-visits-public-verified.txt",
+  "termsApproval": "outputs/four-denominations-enrichment-2026-10-20/youtube-terms-approval.json",
+  "autoReviewRejectionResolved": "InitialPublishanywaydenied; waiteduntilallcheckscomplete,nooverride/bypass",
+  "siteDeployment": "notyet,solewriterzyjnia",
+  "newSocialPublishing": false
+}
