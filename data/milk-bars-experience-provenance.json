@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-20",
+  "sourceFolder": "מילק באר",
+  "photos": [
+    {
+      "asset": "/assets/experiences/milk-bars/visit-02.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-01 at 09.20.35.jpeg",
+      "sourceSHA256": "490d06854a000f6345ea6f9c43b596807195be5011487550f9c38159d798fcd1",
+      "subject": "Mewa facade"
+    },
+    {
+      "asset": "/assets/experiences/milk-bars/visit-03.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-05 at 18.26.03 (1).jpeg",
+      "sourceSHA256": "e35f4703a26f4fdf6608423ead410c4090ccd5d7f50aabc4381d11b5d9193075",
+      "subject": "meal, venue not independently established"
+    },
+    {
+      "asset": "/assets/experiences/milk-bars/visit-04.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-19 at 08.41.51 (1).jpeg",
+      "sourceSHA256": "bd7724a8f6d8045384ca370393189c6f2c265c0d622cb4d1598ee7bf9df847bd",
+      "subject": "Mis interior or facade"
+    },
+    {
+      "asset": "/assets/experiences/milk-bars/visit-05.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-19 at 08.41.51 (10).jpeg",
+      "sourceSHA256": "cbd7594342a1d6344d34102c7350557271dba20639ac5c6be18e3b0bebd7b324",
+      "subject": "Mis interior or facade"
+    },
+    {
+      "asset": "/assets/experiences/milk-bars/visit-07.jpg",
+      "sourceFile": "WhatsApp Image 2026-10-19 at 08.41.51 (3).jpeg",
+      "sourceSHA256": "400e3dafd0fd4db8b66e6c14cad27e326be0eca2e44a8aeb7428e214d73a47c1",
+      "subject": "Mis interior or facade"
+    }
+  ],
+  "canonicalReferences": [
+    "bar-mis"
+  ],
+  "unlinkedVenue": "Bar Mewa exterior positively identified by sign; not given a guessed canonical pin.",
+  "addressSource": "https://www.wroclaw.pl/dla-mieszkanca/galeria/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia,p,32",
+  "excluded": "blurred and duplicate frames; originals preserved",
+  "pendingVideos": [
+    "WhatsApp Video 2026-10-05 at 18.26.02.mp4",
+    "WhatsApp Video 2026-10-05 at 18.26.31.mp4"
+  ],
+  "pendingVideoReason": "Not in verified Public YouTube registry. No raw local player or URL invented."
+}

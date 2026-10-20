@@ -42,5 +42,16 @@ window.WROC_HOME_EXPERIENCES = [
       "cs": "Procházka čtvrtí Nadodrze"
     },
     "photo": "/assets/experiences/nadodrze/nadodrze-library-facade.jpg"
+  },
+  {
+    "id": "wroclaw-milk-bars",
+    "name": {
+      "he": "אוכלים במילק בארים",
+      "en": "Discover Wrocław milk bars",
+      "pl": "Odkryj wrocławskie bary mleczne",
+      "de": "Breslaus Milchbars entdecken",
+      "cs": "Objevte vratislavské mléčné bary"
+    },
+    "photo": "/assets/experiences/milk-bars/visit-05.jpg"
   }
 ];
