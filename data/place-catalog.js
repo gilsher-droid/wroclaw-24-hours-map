@@ -33652,7 +33652,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://wroclaw.jewish.org.pl/synagoga/",
+      "website": "https://fbk.org.pl/synagoga_pod_bialym_bocianem/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.108468291071%2C17.025364605411",
         "appleMaps": "https://maps.apple.com/?ll=51.108468291071,17.025364605411&q=Synagoga%20Pod%20Bia%C5%82ym%20Bocianem"
@@ -33697,7 +33697,7 @@
           "coordinateEvidence": "https://www.google.com/maps/dir/?api=1&destination=51.108468291071%2C17.025364605411"
         }
       ],
-      "officialWebsiteAccess": "Searchindexed; directfetch502/timeout. VerifyviaUIbeforelivecompletion.",
+      "officialWebsiteAccess": "Community website returned502 throughwebreader and NordVPN threat-protection page in browser on2026-10-20; not bypassed. Use accessible official BenteKahan synagogue notice, which directs visitor enquiries to Jewishcommunity; no openinghours asserted.",
       "addressNotes": "NIDpropertyaddressPawlaWlodkowica5a;Jewishcommunityvisitor/contactaddressWlodkowica7. Samecourtyardcomplex,notseparatesynagogue."
     },
     "media": {
