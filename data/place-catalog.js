@@ -199,18 +199,18 @@
     "id": "ac-hotel",
     "localName": "AC Hotel by Marriott Wrocław",
     "name": {
-      "he": "AC Hotel by Marriott Wrocław",
+      "he": "מלון איי סי ורוצלב",
       "en": "AC Hotel by Marriott Wrocław",
       "pl": "AC Hotel by Marriott Wrocław",
       "de": "AC Hotel by Marriott Wrocław",
       "cs": "AC Hotel by Marriott Wrocław"
     },
     "description": {
-      "he": "אחד המלונות שמקבלים המלצות טובות באופן עקבי.",
-      "en": "One of the hotels that receives consistently good recommendations.",
-      "pl": "Jeden z hoteli regularnie otrzymujących dobre rekomendacje.",
-      "de": "Eines der Hotels mit regelmäßig guten Empfehlungen.",
-      "cs": "Jeden z hotelů, které pravidelně získávají dobrá doporučení."
+      "he": "מלון בכיכר וולנושצ׳י, ליד הפורום הלאומי למוזיקה. תמונות הביקור מראות את החזית הקלאסית ואת שלט המלון מעל הכניסה.\nAC Hotel by Marriott Wrocław\nPlac Wolności 10, Wrocław",
+      "en": "Hotel on Plac Wolności beside the National Forum of Music. Our visit photographs show its classical facade and the hotel sign above the entrance.\nPlac Wolności 10, Wrocław",
+      "pl": "Hotel przy placu Wolności, obok Narodowego Forum Muzyki. Zdjęcia z wizyty pokazują klasyczną fasadę i szyld nad wejściem.\nPlac Wolności 10, Wrocław",
+      "de": "Hotel am Plac Wolności neben dem Nationalen Musikforum. Unsere Besuchsfotos zeigen die klassizistische Fassade und das Hotelschild über dem Eingang.\nPlac Wolności 10, Wrocław",
+      "cs": "Hotel na náměstí Plac Wolności vedle Národního hudebního fóra. Fotografie z návštěvy ukazují klasicistní průčelí a hotelový štít nad vstupem.\nPlac Wolności 10, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -219,6 +219,12 @@
       "coordinates": {
         "lat": 51.1076041,
         "lng": 17.0266219
+      },
+      "address": {
+        "street": "Plac Wolności 10",
+        "postalCode": "50-071",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -249,7 +255,10 @@
       "categories": [
         "sleep"
       ],
-      "tags": []
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -273,15 +282,87 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.marriott.com/en-us/hotels/wroar-ac-hotel-wroclaw/overview/",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.marriott.com/en-us/hotels/wroar-ac-hotel-wroclaw/overview/",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        }
+      ],
+      "coordinateVerification": {
+        "method": "Existing canonical coordinates preserved; exact official property address verified."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/hotels-extra-20261020/ac-hotel-extra-14.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/ac-hotel-extra-14.jpg",
+        "/assets/hotels-extra-20261020/ac-hotel-extra-17.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/ac-hotel-extra-14.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.28.47 (1).jpeg",
+          "sourceSHA256": "ca6a7c8d9f60ef143c1d33f79bed6f9aeade6c1a4ef4397d7d3d02b8d064cc43",
+          "assetSHA256": "35def7ed302dfe2f9c91804250eb8e2247500d680327178a977968d46ef3769d",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nAC Hotel by Marriott Wrocław",
+            "en": "Visit photograph at AC Hotel by Marriott Wrocław",
+            "pl": "Zdjęcie z wizyty przy AC Hotel by Marriott Wrocław",
+            "de": "Besuchsfoto am AC Hotel by Marriott Wrocław",
+            "cs": "Fotografie z návštěvy u AC Hotel by Marriott Wrocław"
+          }
+        },
+        "/assets/hotels-extra-20261020/ac-hotel-extra-17.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.28.47.jpeg",
+          "sourceSHA256": "3866f3c77fed817c147c7a30edf394faebd4e82827ea1898fe03a45a3cda93c7",
+          "assetSHA256": "ce549577eefb6d20f23a44abf7b51b6743a4586355f1bb4f767eb62541769d35",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nAC Hotel by Marriott Wrocław",
+            "en": "Visit photograph at AC Hotel by Marriott Wrocław",
+            "pl": "Zdjęcie z wizyty przy AC Hotel by Marriott Wrocław",
+            "de": "Besuchsfoto am AC Hotel by Marriott Wrocław",
+            "cs": "Fotografie z návštěvy u AC Hotel by Marriott Wrocław"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -318,19 +399,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "aleja-bielany": {
@@ -606,20 +674,20 @@
   },
   "altus": {
     "id": "altus",
-    "localName": "Hotel Altus Palace – Destigo Hotels",
+    "localName": "Hotel Altus Palace",
     "name": {
-      "he": "Hotel Altus Palace – Destigo Hotels",
-      "en": "Hotel Altus Palace – Destigo Hotels",
-      "pl": "Hotel Altus Palace – Destigo Hotels",
-      "de": "Hotel Altus Palace – Destigo Hotels",
-      "cs": "Hotel Altus Palace – Destigo Hotels"
+      "he": "מלון אלטוס פאלאס",
+      "en": "Hotel Altus Palace",
+      "pl": "Hotel Altus Palace",
+      "de": "Hotel Altus Palace",
+      "cs": "Hotel Altus Palace"
     },
     "description": {
-      "he": "אחד המלונות שמקבלים המלצות טובות באופן עקבי.",
-      "en": "One of the hotels that receives consistently good recommendations.",
-      "pl": "Jeden z hoteli regularnie otrzymujących dobre rekomendacje.",
-      "de": "Eines der Hotels mit regelmäßig guten Empfehlungen.",
-      "cs": "Jeden z hotelů, které pravidelně získávají dobrá doporučení."
+      "he": "מלון ברחוב ויירזבובה, ליד הפארק והחפיר העירוני. תמונות הביקור מציגות את חזית הארמון, הכניסה ופרטים בסביבת הגן.\nHotel Altus Palace\nWierzbowa 15, Wrocław",
+      "en": "Hotel on Wierzbowa Street, beside the park and city moat. Our visit photographs show the palace facade, entrance and details around its garden.\nWierzbowa 15, Wrocław",
+      "pl": "Hotel przy ulicy Wierzbowej, obok parku i fosy miejskiej. Zdjęcia z naszej wizyty pokazują pałacową fasadę, wejście i detale otoczenia ogrodu.\nWierzbowa 15, Wrocław",
+      "de": "Hotel an der Wierzbowa-Straße, neben Park und Stadtgraben. Unsere Besuchsfotos zeigen die Palastfassade, den Eingang und Details am Garten.\nWierzbowa 15, Wrocław",
+      "cs": "Hotel v ulici Wierzbowa u parku a městského příkopu. Fotografie z návštěvy zachycují palácové průčelí, vstup a detaily u zahrady.\nWierzbowa 15, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -628,6 +696,12 @@
       "coordinates": {
         "lat": 51.1049686,
         "lng": 17.0364123
+      },
+      "address": {
+        "street": "Wierzbowa 15",
+        "postalCode": "50-056",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -658,7 +732,10 @@
       "categories": [
         "sleep"
       ],
-      "tags": []
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -682,15 +759,121 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.hotelaltuspalace.pl/kontakt",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.hotelaltuspalace.pl/kontakt",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        }
+      ],
+      "coordinateVerification": {
+        "method": "Existing canonical coordinates preserved; exact official property address verified."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/hotels-extra-20261020/altus-extra-01.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/altus-extra-01.jpg",
+        "/assets/hotels-extra-20261020/altus-extra-02.jpg",
+        "/assets/hotels-extra-20261020/altus-extra-03.jpg",
+        "/assets/hotels-extra-20261020/altus-extra-04.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/altus-extra-01.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.26.40 (1).jpeg",
+          "sourceSHA256": "f90cdf772c92e709e2c98a518716033109b0d77f819c6883c27b256766c9407f",
+          "assetSHA256": "c3f78ba72dae8a6b4e7e2a7f33ee55da03968894af1eaca8b534fa5d6229af86",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHotel Altus Palace",
+            "en": "Visit photograph at Hotel Altus Palace",
+            "pl": "Zdjęcie z wizyty przy Hotel Altus Palace",
+            "de": "Besuchsfoto am Hotel Altus Palace",
+            "cs": "Fotografie z návštěvy u Hotel Altus Palace"
+          }
+        },
+        "/assets/hotels-extra-20261020/altus-extra-02.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.26.40 (2).jpeg",
+          "sourceSHA256": "2eb6e050eee968ac7b4d115023d7f6d545e79ad53aed27cdad5eb2f9d0a73263",
+          "assetSHA256": "39d2d925587fd3c26538384a9a0e9730f2b312163fb193c2cdd8c509acd275e6",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHotel Altus Palace",
+            "en": "Visit photograph at Hotel Altus Palace",
+            "pl": "Zdjęcie z wizyty przy Hotel Altus Palace",
+            "de": "Besuchsfoto am Hotel Altus Palace",
+            "cs": "Fotografie z návštěvy u Hotel Altus Palace"
+          }
+        },
+        "/assets/hotels-extra-20261020/altus-extra-03.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.26.40 (3).jpeg",
+          "sourceSHA256": "7d627efa233a4af1da9c996fc6ffe92cff66f21a135eeec44fa4de4c0d71eb62",
+          "assetSHA256": "f1d56cd09b1430198b1d7e485430e0d7068b795e3fde94e044cb4eca7666d66f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHotel Altus Palace",
+            "en": "Visit photograph at Hotel Altus Palace",
+            "pl": "Zdjęcie z wizyty przy Hotel Altus Palace",
+            "de": "Besuchsfoto am Hotel Altus Palace",
+            "cs": "Fotografie z návštěvy u Hotel Altus Palace"
+          }
+        },
+        "/assets/hotels-extra-20261020/altus-extra-04.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.26.40.jpeg",
+          "sourceSHA256": "3d4dac6ba8806d41dda797c253e3c13ab9a495d654ba130d50dcf5268d095748",
+          "assetSHA256": "a1d933774fbf7bb610ac16b785e8383107a0d2466bda62c38ab656bf56718be2",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHotel Altus Palace",
+            "en": "Visit photograph at Hotel Altus Palace",
+            "pl": "Zdjęcie z wizyty przy Hotel Altus Palace",
+            "de": "Besuchsfoto am Hotel Altus Palace",
+            "cs": "Fotografie z návštěvy u Hotel Altus Palace"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -721,19 +904,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "apartamenty-marina-topacz-wroclaw": {
@@ -1427,18 +1597,18 @@
     "id": "art-hotel",
     "localName": "Art Hotel",
     "name": {
-      "he": "Art Hotel",
+      "he": "ארט הוטל",
       "en": "Art Hotel",
       "pl": "Art Hotel",
       "de": "Art Hotel",
       "cs": "Art Hotel"
     },
     "description": {
-      "he": "אחד המלונות שמקבלים המלצות טובות באופן עקבי.",
-      "en": "One of the hotels that receives consistently good recommendations.",
-      "pl": "Jeden z hoteli regularnie otrzymujących dobre rekomendacje.",
-      "de": "Eines der Hotels mit regelmäßig guten Empfehlungen.",
-      "cs": "Jeden z hotelů, které pravidelně získávají dobrá doporučení."
+      "he": "מלון ברחוב קיילבאשניצ׳ה בעיר העתיקה, מצפון לכיכר השוק. תמונות הביקור מציגות את החזיתות המעוטרות, הגמלונים ושלט המלון.\nArt Hotel\nKiełbaśnicza 20, Wrocław",
+      "en": "Hotel on Kiełbaśnicza Street in the Old Town, north of Market Square. Our visit photographs show its decorative facades, gables and hotel sign.\nKiełbaśnicza 20, Wrocław",
+      "pl": "Hotel przy ulicy Kiełbaśniczej na Starym Mieście, na północ od Rynku. Zdjęcia z wizyty pokazują ozdobne fasady, szczyty i szyld hotelu.\nKiełbaśnicza 20, Wrocław",
+      "de": "Hotel an der Kiełbaśnicza-Straße in der Altstadt, nördlich des Rynek. Unsere Besuchsfotos zeigen die verzierten Fassaden, Giebel und das Hotelschild.\nKiełbaśnicza 20, Wrocław",
+      "cs": "Hotel v ulici Kiełbaśnicza ve Starém Městě severně od Rynku. Fotografie z návštěvy zachycují zdobená průčelí, štíty a hotelový nápis.\nKiełbaśnicza 20, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -1447,6 +1617,12 @@
       "coordinates": {
         "lat": 51.1121845,
         "lng": 17.0298225
+      },
+      "address": {
+        "street": "Kiełbaśnicza 20",
+        "postalCode": "50-110",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -1477,7 +1653,10 @@
       "categories": [
         "sleep"
       ],
-      "tags": []
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -1501,15 +1680,121 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.arthotel.pl/kontakt",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.arthotel.pl/kontakt",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        }
+      ],
+      "coordinateVerification": {
+        "method": "Existing canonical coordinates preserved; exact official property address verified."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/hotels-extra-20261020/art-hotel-extra-23.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/art-hotel-extra-23.jpg",
+        "/assets/hotels-extra-20261020/art-hotel-extra-24.jpg",
+        "/assets/hotels-extra-20261020/art-hotel-extra-25.jpg",
+        "/assets/hotels-extra-20261020/art-hotel-extra-26.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/art-hotel-extra-23.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.18 (1).jpeg",
+          "sourceSHA256": "cc3ce854f47c22c9bfbbde70f5366caff41aa56d6908a08345b25c781ffae94d",
+          "assetSHA256": "ae1e86dbba77a00f83e4fcfca761d1489bd08fbfccadb0ec653015d5e2916174",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nArt Hotel",
+            "en": "Visit photograph at Art Hotel",
+            "pl": "Zdjęcie z wizyty przy Art Hotel",
+            "de": "Besuchsfoto am Art Hotel",
+            "cs": "Fotografie z návštěvy u Art Hotel"
+          }
+        },
+        "/assets/hotels-extra-20261020/art-hotel-extra-24.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.18 (2).jpeg",
+          "sourceSHA256": "54873f47aaf3e6985a4435dcd43093bcb60b7e9bf67aa7ed38b154ba1bdef68f",
+          "assetSHA256": "18c6a10f64a8b09f69c281a5fc66fdab699a040a06f315ae75373b6f7e1d5f64",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nArt Hotel",
+            "en": "Visit photograph at Art Hotel",
+            "pl": "Zdjęcie z wizyty przy Art Hotel",
+            "de": "Besuchsfoto am Art Hotel",
+            "cs": "Fotografie z návštěvy u Art Hotel"
+          }
+        },
+        "/assets/hotels-extra-20261020/art-hotel-extra-25.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.18 (3).jpeg",
+          "sourceSHA256": "e7cfaa5e8d1d9fe26ce951ec8119243f821b0c50ac661a92107f56d1fb928a24",
+          "assetSHA256": "67da84efdb5f974890916d322f1ad0715f46e74f0788ccaeadcf4aa26c89e6e6",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nArt Hotel",
+            "en": "Visit photograph at Art Hotel",
+            "pl": "Zdjęcie z wizyty przy Art Hotel",
+            "de": "Besuchsfoto am Art Hotel",
+            "cs": "Fotografie z návštěvy u Art Hotel"
+          }
+        },
+        "/assets/hotels-extra-20261020/art-hotel-extra-26.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.18 (4).jpeg",
+          "sourceSHA256": "03de841dac6ea0f54e4be1bb8a3529c20a4ae6927218e982311aeebc8fca5321",
+          "assetSHA256": "17b8f1699124e69fb563a0bcfe7b408b7cfb944e6d8d4cb85c09033339e39ca3",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nArt Hotel",
+            "en": "Visit photograph at Art Hotel",
+            "pl": "Zdjęcie z wizyty przy Art Hotel",
+            "de": "Besuchsfoto am Art Hotel",
+            "cs": "Fotografie z návštěvy u Art Hotel"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -1546,19 +1831,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "ato-ramen": {
@@ -4379,20 +4651,20 @@
   },
   "boogie-aparthouse-garbary": {
     "id": "boogie-aparthouse-garbary",
-    "localName": "Boogie ApartHouse, Garbary",
+    "localName": "Boogie ApartHouse Garbary",
     "name": {
-      "he": "בוגי אפרטהאוס, גארבארי",
-      "en": "Boogie ApartHouse, Garbary",
-      "pl": "Boogie ApartHouse, Garbary",
-      "de": "Boogie ApartHouse, Garbary",
-      "cs": "Boogie ApartHouse, Garbary"
+      "he": "בוגי אפרטהאוס גרברי",
+      "en": "Boogie ApartHouse Garbary",
+      "pl": "Boogie ApartHouse Garbary",
+      "de": "Boogie ApartHouse Garbary",
+      "cs": "Boogie ApartHouse Garbary"
     },
     "description": {
-      "he": "מקום אירוח ברחוב גארבארי בעיר העתיקה. תמונת הביקור שלנו מציגה את החזית המוארת והשלט בלילה. זהו אפרטהאוס גארבארי, בנפרד מסניף בוגי דלוקס.\nBoogie ApartHouse\nGarbary 2, Wrocław",
-      "en": "Accommodation on Garbary Street in the Old Town. Our visit photograph shows the illuminated facade and sign at night. This is the Garbary ApartHouse, separate from the Boogie Deluxe branch.\nGarbary 2, Wrocław",
-      "pl": "Obiekt noclegowy przy ulicy Garbary na Starym Mieście. Zdjęcie z naszej wizyty pokazuje oświetloną fasadę i szyld nocą. To ApartHouse przy Garbary, odrębny od obiektu Boogie Deluxe.\nGarbary 2, Wrocław",
-      "de": "Unterkunft an der Garbary-Straße in der Altstadt. Unser Besuchsfoto zeigt die beleuchtete Fassade und das Schild bei Nacht. Dies ist das ApartHouse an der Garbary-Straße, getrennt von Boogie Deluxe.\nGarbary 2, Wrocław",
-      "cs": "Ubytování v ulici Garbary ve Starém Městě. Fotografie z návštěvy ukazuje osvětlené průčelí a označení v noci. Jde o ApartHouse v Garbary, oddělený od pobočky Boogie Deluxe.\nGarbary 2, Wrocław"
+      "he": "דירות אירוח ברחוב גרברי. לצד תמונת הלילה הקיימת נוספה תמונת ביקור באור יום, המציגה את החזית ואת השלט בכניסה.\nBoogie ApartHouse Garbary\nGarbary 2, Wrocław",
+      "en": "Aparthouse on Garbary Street. A new daytime visit photograph joins the existing night view, showing the facade and entrance sign.\nGarbary 2, Wrocław",
+      "pl": "Aparthouse przy ulicy Garbary. Do nocnego ujęcia dołącza zdjęcie z wizyty w dzień, pokazujące fasadę i szyld przy wejściu.\nGarbary 2, Wrocław",
+      "de": "Aparthouse an der Garbary-Straße. Ein neues Tagesfoto ergänzt die vorhandene Nachtaufnahme und zeigt Fassade und Eingangsschild.\nGarbary 2, Wrocław",
+      "cs": "Apartmánový dům v ulici Garbary. K nočnímu snímku přibyla denní fotografie z návštěvy s průčelím a označením vstupu.\nGarbary 2, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -4492,37 +4764,26 @@
         {
           "type": "official",
           "url": "https://boogieapart.pl/en/boogie-aparthouse-2/",
-          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
-          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
         }
       ],
       "coordinateVerification": {
-        "id": "boogie-aparthouse-garbary",
-        "url": "https://www.google.com/maps/place/Boogie+ApartHouse/@51.1129543,17.0309412,17z/data=!4m9!3m8!1s0x470fe9dfed293c5f:0x7d99e2aa8503d9ff!5m2!4m1!1i2!8m2!3d51.1129543!4d17.0309412!16s%2Fg%2F11cs4f60v8?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
-        "publicPlaceEvidence": [
-          "Browser tab: 31058303, Title: \"Boogie ApartHouse - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/Boogie+ApartHouse/@51.1129543,17.0309412,17z/data=!4m9!3m8!1s0x470fe9dfed293c5f:0x7d99e2aa8503d9ff!5m2!4m1!1i2!8m2!3d51.1129543!4d17.0309412!16s%2Fg%2F11cs4f60v8?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
-          "\t\t\t\t\t\t71 heading Boogie ApartHouse, Value: 1",
-          "\t\t\t\t\t\t\t\t135 button כתובת: Garbary 2, 48-300 Wrocław, פולין ",
-          "\t\t\t\t\t\t\t\t139 link Description: אתר: boogieapart.pl , Value: boogieapart.pl/"
-        ],
-        "note": "Official postal code50-134 retained instead of contradictory Google48-300; matching street/brand/website.",
-        "coordinates": {
-          "lat": 51.1129543,
-          "lng": 17.0309412
-        }
+        "method": "Existing canonical coordinates preserved; exact official property address verified."
       },
-      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
       "userIdentification": null,
       "fullSizeSignReview": null,
-      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
       "sourceOriginalsModified": false,
       "familyException": false
     },
-    "placeType": "accommodation",
+    "placeType": "hotel",
     "media": {
       "thumbnail": "/assets/hotels-20261020/boogie-aparthouse-garbary-12.jpg",
       "photos": [
-        "/assets/hotels-20261020/boogie-aparthouse-garbary-12.jpg"
+        "/assets/hotels-20261020/boogie-aparthouse-garbary-12.jpg",
+        "/assets/hotels-extra-20261020/boogie-aparthouse-garbary-extra-18.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -4542,6 +4803,22 @@
             "cs": "Průčelí Boogie ApartHouse v noci"
           },
           "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-extra-20261020/boogie-aparthouse-garbary-extra-18.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.29.15.jpeg",
+          "sourceSHA256": "fbaa8e242f456613fc27c70eb14de4f6882497fe4f5f5dcb649a51cbe61ee9b7",
+          "assetSHA256": "75f5dc8851b81a197bb7a7b319d10c87c87544f3b4bcc3c6e8a5fbd8ba023106",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nBoogie ApartHouse Garbary",
+            "en": "Visit photograph at Boogie ApartHouse Garbary",
+            "pl": "Zdjęcie z wizyty przy Boogie ApartHouse Garbary",
+            "de": "Besuchsfoto am Boogie ApartHouse Garbary",
+            "cs": "Fotografie z návštěvy u Boogie ApartHouse Garbary"
+          }
         }
       }
     },
@@ -11389,6 +11666,205 @@
       }
     ]
   },
+  "dwor-polski-hotel-wroclaw": {
+    "id": "dwor-polski-hotel-wroclaw",
+    "localName": "Hotel Dwór Polski",
+    "name": {
+      "he": "מלון דבור פולסקי",
+      "en": "Hotel Dwór Polski",
+      "pl": "Hotel Dwór Polski",
+      "de": "Hotel Dwór Polski",
+      "cs": "Hotel Dwór Polski"
+    },
+    "description": {
+      "he": "מלון בעיר העתיקה, ליד הפינה של כיכר השוק ורחוב קיילבאשניצ׳ה. תמונות הביקור מציגות את שער המלון, החזית ושלט בשם הקודם של המקום, דבור ואזוב. כתובת המלון נפרדת מכתובות המסעדה והביסטרו של המותג.\nHotel Dwór Polski\nKiełbaśnicza 2, Wrocław",
+      "en": "Old Town hotel near the corner of Market Square and Kiełbaśnicza Street. Our visit photographs show the hotel gate, facade and a sign bearing its former name, Dwór Wazów. The hotel address is distinct from the brand’s restaurant and bistro addresses.\nKiełbaśnicza 2, Wrocław",
+      "pl": "Hotel na Starym Mieście, przy narożniku Rynku i ulicy Kiełbaśniczej. Zdjęcia z wizyty pokazują bramę hotelu, fasadę i tablicę z dawną nazwą Dwór Wazów. Adres hotelu jest odrębny od adresów restauracji i bistro tej marki.\nKiełbaśnicza 2, Wrocław",
+      "de": "Altstadthotel nahe der Ecke von Rynek und Kiełbaśnicza-Straße. Unsere Besuchsfotos zeigen Hoteltor, Fassade und ein Schild mit dem früheren Namen Dwór Wazów. Die Hoteladresse unterscheidet sich von den Adressen des Restaurants und Bistros der Marke.\nKiełbaśnicza 2, Wrocław",
+      "cs": "Hotel ve Starém Městě u rohu Rynku a ulice Kiełbaśnicza. Fotografie z návštěvy ukazují hotelovou bránu, průčelí a tabuli s původním názvem Dwór Wazów. Adresa hotelu se liší od adres restaurace a bistra této značky.\nKiełbaśnicza 2, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1106054,
+        "lng": 17.0303179
+      },
+      "address": {
+        "street": "Kiełbaśnicza 2",
+        "postalCode": "50-108",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Dwor Wazow",
+      "Dwór Wazów",
+      "Hotel Dwor Polski",
+      "Hotel Dwór Polski",
+      "מלון דבור פולסקי"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "dwor-polski-hotel-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "dwor-polski-hotel-wroclaw",
+        "lat": 51.1106054,
+        "lng": 17.0303179
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://dworpolski.wroclaw.pl/kontakt/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://dworpolski.wroclaw.pl/kontakt/",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "dwor-polski-hotel-wroclaw",
+        "street": "Kiełbaśnicza 2",
+        "postalCode": "50-108",
+        "lat": 51.1106054,
+        "lng": 17.0303179,
+        "primary": "https://dworpolski.wroclaw.pl/kontakt/",
+        "coordinateEvidence": "Official virtual-tour link starts /maps/@51.1106054,17.0303179,3a with hotel panorama",
+        "method": "Hotel-specific official virtual-tour location; distinct from restaurant Rynek5 and bistroKielbasnicza6."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/hotels-extra-20261020/dwor-polski-hotel-wroclaw-extra-19.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/dwor-polski-hotel-wroclaw-extra-19.jpg",
+        "/assets/hotels-extra-20261020/dwor-polski-hotel-wroclaw-extra-20.jpg",
+        "/assets/hotels-extra-20261020/dwor-polski-hotel-wroclaw-extra-21.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/dwor-polski-hotel-wroclaw-extra-19.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.29.26.jpeg",
+          "sourceSHA256": "9b5c792416f255237072984232131cfc403401d4c6cccf61fcb31fe770bfa761",
+          "assetSHA256": "1a43cf8f427310d98666c524c8806d486b93236b91e965b711e4c65aa17c3706",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHotel Dwór Polski",
+            "en": "Visit photograph at Hotel Dwór Polski",
+            "pl": "Zdjęcie z wizyty przy Hotel Dwór Polski",
+            "de": "Besuchsfoto am Hotel Dwór Polski",
+            "cs": "Fotografie z návštěvy u Hotel Dwór Polski"
+          }
+        },
+        "/assets/hotels-extra-20261020/dwor-polski-hotel-wroclaw-extra-20.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.29.45 (1).jpeg",
+          "sourceSHA256": "c4cc1b27b5644c4953de1a0e0d1532d36e262423dc23fab312f82ba9ffc810d0",
+          "assetSHA256": "651a3f93dcacb1b46b47a2a7aa4cc2f01615444bd152b5c09b8725d9220d5f24",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHotel Dwór Polski",
+            "en": "Visit photograph at Hotel Dwór Polski",
+            "pl": "Zdjęcie z wizyty przy Hotel Dwór Polski",
+            "de": "Besuchsfoto am Hotel Dwór Polski",
+            "cs": "Fotografie z návštěvy u Hotel Dwór Polski"
+          }
+        },
+        "/assets/hotels-extra-20261020/dwor-polski-hotel-wroclaw-extra-21.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.29.45.jpeg",
+          "sourceSHA256": "49d16f0fcb82b8fadab1a52a5cdb1d6837fd410073199a2fd892e1302840618c",
+          "assetSHA256": "2d30fce0ceee481d9a95cb5a58e376dd4dd72dc9f5551792083427fd0b5b11a2",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHotel Dwór Polski",
+            "en": "Visit photograph at Hotel Dwór Polski",
+            "pl": "Zdjęcie z wizyty przy Hotel Dwór Polski",
+            "de": "Besuchsfoto am Hotel Dwór Polski",
+            "cs": "Fotografie z návštěvy u Hotel Dwór Polski"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "elizabeth": {
     "id": "elizabeth",
     "localName": "Bazylika św. Elżbiety",
@@ -11531,11 +12007,11 @@
       "cs": "Entre Hotel by Zdrojowa"
     },
     "description": {
-      "he": "מלון ברחוב קיילבאשניצ׳ה בעיר העתיקה. תמונת הביקור שלנו מראה את שלט המלון ואת הכניסה לצד חזית הבניין הצהובה.\nEntre Hotel by Zdrojowa\nKiełbaśnicza 16–19, Wrocław",
-      "en": "Hotel on Kiełbaśnicza Street in the Old Town. Our visit photograph shows the hotel sign and entrance beside the building’s yellow facade.\nKiełbaśnicza 16–19, Wrocław",
-      "pl": "Hotel przy ulicy Kiełbaśniczej na Starym Mieście. Zdjęcie z naszej wizyty pokazuje szyld i wejście przy żółtej fasadzie budynku.\nKiełbaśnicza 16–19, Wrocław",
-      "de": "Hotel an der Kiełbaśnicza-Straße in der Altstadt. Unser Besuchsfoto zeigt Hotelschild und Eingang neben der gelben Gebäudefassade.\nKiełbaśnicza 16–19, Wrocław",
-      "cs": "Hotel v ulici Kiełbaśnicza ve Starém Městě. Fotografie z návštěvy ukazuje hotelový štít a vchod vedle žlutého průčelí budovy.\nKiełbaśnicza 16–19, Wrocław"
+      "he": "מלון ברחוב קיילבאשניצ׳ה בעיר העתיקה. תמונות הביקור מציגות את החזית הצהובה הרחבה, הכניסות ואת שלט המלון מקרוב.\nEntre Hotel by Zdrojowa\nKiełbaśnicza 16–19, Wrocław",
+      "en": "Hotel on Kiełbaśnicza Street in the Old Town. Our visit photographs show the broad yellow facade, entrances and a closer view of the hotel sign.\nKiełbaśnicza 16–19, Wrocław",
+      "pl": "Hotel przy ulicy Kiełbaśniczej na Starym Mieście. Zdjęcia z wizyty pokazują szeroką żółtą fasadę, wejścia i zbliżenie szyldu.\nKiełbaśnicza 16–19, Wrocław",
+      "de": "Hotel an der Kiełbaśnicza-Straße in der Altstadt. Unsere Besuchsfotos zeigen die breite gelbe Fassade, Eingänge und das Hotelschild aus der Nähe.\nKiełbaśnicza 16–19, Wrocław",
+      "cs": "Hotel v ulici Kiełbaśnicza ve Starém Městě. Fotografie z návštěvy ukazují široké žluté průčelí, vstupy a detail hotelového štítu.\nKiełbaśnicza 16–19, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -11636,29 +12112,17 @@
         {
           "type": "official",
           "url": "https://entrehotel.pl/kontakt/",
-          "checkedAt": "2026-10-20T19:15:24.186206+00:00",
-          "note": "Exact property/branch and address; no price, rating, availability or accommodation experience claimed from facade photographs."
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
         }
       ],
       "coordinateVerification": {
-        "id": "entre-hotel-wroclaw",
-        "url": "https://www.google.com/maps/place/Entre+Hotel+by+Zdrojowa/@51.1127669,17.0301481,17z/data=!3m1!4b1!4m9!3m8!1s0x470fe9ae0150c10d:0xa07844139f82a1ab!5m2!4m1!1i2!8m2!3d51.1127669!4d17.0301481!16s%2Fg%2F11yjtwygh7?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
-        "publicPlaceEvidence": [
-          "Browser tab: 31058303, Title: \"Entre Hotel by Zdrojowa - מפות ‪Google‬‏\", URL: \"https://www.google.com/maps/place/Entre+Hotel+by+Zdrojowa/@51.1127669,17.0301481,17z/data=!3m1!4b1!4m9!3m8!1s0x470fe9ae0150c10d:0xa07844139f82a1ab!5m2!4m1!1i2!8m2!3d51.1127669!4d17.0301481!16s%2Fg%2F11yjtwygh7?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D\".",
-          "\t\t\t\t\t\t71 heading Entre Hotel by Zdrojowa, Value: 1",
-          "\t\t\t\t\t\t\t\t145 button כתובת: Kiełbaśnicza 16/19, 50-110 Wrocław, פולין ",
-          "\t\t\t\t\t\t\t\t149 link Description: אתר: wroclawhotel.pl , Value: wroclawhotel.pl/"
-        ],
-        "source": "Official entrehotel.pl contact map link",
-        "coordinates": {
-          "lat": 51.1127669,
-          "lng": 17.0301481
-        }
+        "method": "Existing canonical coordinates preserved; exact official property address verified."
       },
-      "sourceInventory": "HOTELS folder,19 JPEG files,16 unique original hashes",
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
       "userIdentification": null,
       "fullSizeSignReview": null,
-      "mapDecision": "Lifestyle sleep only; no addition to walking itineraries, excursions or cultural map merely because lodging was photographed.",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
       "sourceOriginalsModified": false,
       "familyException": false
     },
@@ -11666,7 +12130,10 @@
     "media": {
       "thumbnail": "/assets/hotels-20261020/entre-hotel-wroclaw-06.jpg",
       "photos": [
-        "/assets/hotels-20261020/entre-hotel-wroclaw-06.jpg"
+        "/assets/hotels-20261020/entre-hotel-wroclaw-06.jpg",
+        "/assets/hotels-extra-20261020/entre-hotel-wroclaw-extra-29.jpg",
+        "/assets/hotels-extra-20261020/entre-hotel-wroclaw-extra-30.jpg",
+        "/assets/hotels-extra-20261020/entre-hotel-wroclaw-extra-31.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -11686,6 +12153,54 @@
             "cs": "Označení Entre Hotelu u vchodu"
           },
           "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/hotels-extra-20261020/entre-hotel-wroclaw-extra-29.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.50 (2).jpeg",
+          "sourceSHA256": "abc854c28526f3f6daf1b206414b5ad3ad3271aac1527a4bd956b9098a7d1ad8",
+          "assetSHA256": "cebc1fc0fe61087310d6c5198e769ca04691c99732c36a5339cff77c5adccf54",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nEntre Hotel by Zdrojowa",
+            "en": "Visit photograph at Entre Hotel by Zdrojowa",
+            "pl": "Zdjęcie z wizyty przy Entre Hotel by Zdrojowa",
+            "de": "Besuchsfoto am Entre Hotel by Zdrojowa",
+            "cs": "Fotografie z návštěvy u Entre Hotel by Zdrojowa"
+          }
+        },
+        "/assets/hotels-extra-20261020/entre-hotel-wroclaw-extra-30.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.50 (3).jpeg",
+          "sourceSHA256": "4aa96a2c85e8b8caca5fb49d4e50a5b7c2acbbd2e468efb8b83196d275d56910",
+          "assetSHA256": "11f1680b5dbbbb8940d5de684fe638c4054d44574518cd3dcd86bdb753d293e3",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nEntre Hotel by Zdrojowa",
+            "en": "Visit photograph at Entre Hotel by Zdrojowa",
+            "pl": "Zdjęcie z wizyty przy Entre Hotel by Zdrojowa",
+            "de": "Besuchsfoto am Entre Hotel by Zdrojowa",
+            "cs": "Fotografie z návštěvy u Entre Hotel by Zdrojowa"
+          }
+        },
+        "/assets/hotels-extra-20261020/entre-hotel-wroclaw-extra-31.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.50 (4).jpeg",
+          "sourceSHA256": "237febc604ec02e3d24138baaf97975a69d2ef02d6de25f8744cab1dcbb3f068",
+          "assetSHA256": "0a98e4c16bf7d9f4d374f2fa13bdf585aeff9d6af683e342d8426cfab0464147",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nEntre Hotel by Zdrojowa",
+            "en": "Visit photograph at Entre Hotel by Zdrojowa",
+            "pl": "Zdjęcie z wizyty przy Entre Hotel by Zdrojowa",
+            "de": "Besuchsfoto am Entre Hotel by Zdrojowa",
+            "cs": "Fotografie z návštěvy u Entre Hotel by Zdrojowa"
+          }
         }
       }
     },
@@ -15045,20 +15560,20 @@
   },
   "herbal": {
     "id": "herbal",
-    "localName": "Herbal Hotel & SPA",
+    "localName": "Herbal Hotel",
     "name": {
-      "he": "Herbal Hotel & SPA",
-      "en": "Herbal Hotel & SPA",
-      "pl": "Herbal Hotel & SPA",
-      "de": "Herbal Hotel & SPA",
-      "cs": "Herbal Hotel & SPA"
+      "he": "מלון הרבל",
+      "en": "Herbal Hotel",
+      "pl": "Herbal Hotel",
+      "de": "Herbal Hotel",
+      "cs": "Herbal Hotel"
     },
     "description": {
-      "he": "אחד המלונות שמקבלים המלצות טובות באופן עקבי.",
-      "en": "One of the hotels that receives consistently good recommendations.",
-      "pl": "Jeden z hoteli regularnie otrzymujących dobre rekomendacje.",
-      "de": "Eines der Hotels mit regelmäßig guten Empfehlungen.",
-      "cs": "Jeden z hotelů, které pravidelně získávají dobrá doporučení."
+      "he": "מלון במתחם מנזר לשעבר ברחוב ולודקוביצה. תמונות הביקור מציגות את הבניין והגן, וגם לוח זיכרון למפגשי אונה סנקטה שנערכו במקום בשנות השלושים.\nHerbal Hotel\nPawła Włodkowica 15–17, Wrocław",
+      "en": "Hotel in a former monastery complex on Włodkowica Street. Our visit photographs show the building, garden and a plaque recalling Una Sancta meetings held here in the 1930s.\nPawła Włodkowica 15–17, Wrocław",
+      "pl": "Hotel w dawnym zespole klasztornym przy ulicy Włodkowica. Zdjęcia z wizyty pokazują budynek, ogród i tablicę upamiętniającą spotkania Una Sancta z lat trzydziestych XX wieku.\nPawła Włodkowica 15–17, Wrocław",
+      "de": "Hotel in einer ehemaligen Klosteranlage an der Włodkowica-Straße. Unsere Besuchsfotos zeigen Gebäude, Garten und eine Gedenktafel für die hier in den 1930er-Jahren abgehaltenen Una-Sancta-Treffen.\nPawła Włodkowica 15–17, Wrocław",
+      "cs": "Hotel v bývalém klášterním areálu v ulici Włodkowica. Fotografie z návštěvy zachycují budovu, zahradu a pamětní desku setkání Una Sancta ze třicátých let 20. století.\nPawła Włodkowica 15–17, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -15067,6 +15582,12 @@
       "coordinates": {
         "lat": 51.1087658,
         "lng": 17.0242642
+      },
+      "address": {
+        "street": "Pawła Włodkowica 15–17",
+        "postalCode": "50-072",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -15097,7 +15618,10 @@
       "categories": [
         "sleep"
       ],
-      "tags": []
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -15121,15 +15645,109 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.herbalhotel.pl/",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.herbalhotel.pl/",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        },
+        {
+          "type": "official",
+          "url": "https://www.herbalhotel.pl/en/hotel",
+          "note": "Former monastery and Una Sancta meetings; plaque and garden match the verified property."
+        }
+      ],
+      "coordinateVerification": {
+        "method": "Existing canonical coordinates preserved; exact official property address verified."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/hotels-extra-20261020/herbal-extra-08.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/herbal-extra-08.jpg",
+        "/assets/hotels-extra-20261020/herbal-extra-09.jpg",
+        "/assets/hotels-extra-20261020/herbal-extra-13.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/herbal-extra-08.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.28.06.jpeg",
+          "sourceSHA256": "589b2aa8e03830e3d95b5a592f685cde6f57d65822df91b9466323a6b1f8e795",
+          "assetSHA256": "297b6899d55c48d075ac9d525ca8aa32e74e351b0f5b0e8fcf1b1fbe44befc99",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHerbal Hotel",
+            "en": "Visit photograph at Herbal Hotel",
+            "pl": "Zdjęcie z wizyty przy Herbal Hotel",
+            "de": "Besuchsfoto am Herbal Hotel",
+            "cs": "Fotografie z návštěvy u Herbal Hotel"
+          }
+        },
+        "/assets/hotels-extra-20261020/herbal-extra-09.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.28.07 (1).jpeg",
+          "sourceSHA256": "c4b855fb0423c80a119f565bad8aa1c016e4d7cd3f5533a6d23fb5861109f22e",
+          "assetSHA256": "504ef50b69db04506463d8177574f2ee452934fe05b08561ddcbc0d8150ce891",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHerbal Hotel",
+            "en": "Visit photograph at Herbal Hotel",
+            "pl": "Zdjęcie z wizyty przy Herbal Hotel",
+            "de": "Besuchsfoto am Herbal Hotel",
+            "cs": "Fotografie z návštěvy u Herbal Hotel"
+          }
+        },
+        "/assets/hotels-extra-20261020/herbal-extra-13.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.28.07.jpeg",
+          "sourceSHA256": "8f2a2056856ffce99f48cf451a0fdb8748e03654268c288d6261ef1070e716aa",
+          "assetSHA256": "746afd26b73987b01aef0caca9cae3c6f97e6fce319c54c38fe0c0293b50de76",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nHerbal Hotel",
+            "en": "Visit photograph at Herbal Hotel",
+            "pl": "Zdjęcie z wizyty przy Herbal Hotel",
+            "de": "Besuchsfoto am Herbal Hotel",
+            "cs": "Fotografie z návštěvy u Herbal Hotel"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -15166,19 +15784,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "hotel-traffic-wroclaw": {
@@ -17752,6 +18357,185 @@
       "de",
       "cs"
     ]
+  },
+  "joyinn-aparthotel-wroclaw": {
+    "id": "joyinn-aparthotel-wroclaw",
+    "localName": "Joyinn Aparthotel",
+    "name": {
+      "he": "ג׳וין אפרטהוטל",
+      "en": "Joyinn Aparthotel",
+      "pl": "Joyinn Aparthotel",
+      "de": "Joyinn Aparthotel",
+      "cs": "Joyinn Aparthotel"
+    },
+    "description": {
+      "he": "אפרטהוטל ברחוב ולודקוביצה, ברובע ארבע הדתות. תמונות הביקור מציגות את הכניסה הכחולה והשלט, לצד מספר הבית 16.\nJoyinn Aparthotel\nPawła Włodkowica 16, Wrocław",
+      "en": "Aparthotel on Włodkowica Street in the Four Denominations District. Our visit photographs show the blue entrance and sign beside house number 16.\nPawła Włodkowica 16, Wrocław",
+      "pl": "Aparthotel przy ulicy Włodkowica w Dzielnicy Czterech Wyznań. Zdjęcia z wizyty pokazują niebieskie wejście i szyld przy numerze 16.\nPawła Włodkowica 16, Wrocław",
+      "de": "Aparthotel an der Włodkowica-Straße im Viertel der vier Konfessionen. Unsere Besuchsfotos zeigen den blauen Eingang und das Schild neben Hausnummer 16.\nPawła Włodkowica 16, Wrocław",
+      "cs": "Aparthotel v ulici Włodkowica ve čtvrti čtyř vyznání. Fotografie z návštěvy zachycují modrý vstup a nápis u čísla 16.\nPawła Włodkowica 16, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.108894,
+        "lng": 17.023126
+      },
+      "address": {
+        "street": "Pawła Włodkowica 16",
+        "postalCode": "50-072",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Joyinn Aparthotel",
+      "ג׳וין אפרטהוטל"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "joyinn-aparthotel-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "joyinn-aparthotel-wroclaw",
+        "lat": 51.108894,
+        "lng": 17.023126
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.joyinn.pl/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.joyinn.pl/",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "joyinn-aparthotel-wroclaw",
+        "street": "Pawła Włodkowica 16",
+        "postalCode": "50-072",
+        "lat": 51.108894,
+        "lng": 17.023126,
+        "primary": "https://www.joyinn.pl/",
+        "coordinateEvidence": "Official website footer map link https://maps.google.com/?q=51.108894%2C17.023126",
+        "method": "Coordinates published in official map link; not inferred from search viewport."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/hotels-extra-20261020/joyinn-aparthotel-wroclaw-extra-11.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/joyinn-aparthotel-wroclaw-extra-11.jpg",
+        "/assets/hotels-extra-20261020/joyinn-aparthotel-wroclaw-extra-12.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/joyinn-aparthotel-wroclaw-extra-11.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.28.07 (3).jpeg",
+          "sourceSHA256": "2d22c77926a4e7f67e9cddac3c68a880bbe4478ca2fd080f9abc46fd92a9c543",
+          "assetSHA256": "9f5f814aa1fde25fe96353836ff0578965b4e59d0d0baa6706cab9feb66c8064",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nJoyinn Aparthotel",
+            "en": "Visit photograph at Joyinn Aparthotel",
+            "pl": "Zdjęcie z wizyty przy Joyinn Aparthotel",
+            "de": "Besuchsfoto am Joyinn Aparthotel",
+            "cs": "Fotografie z návštěvy u Joyinn Aparthotel"
+          }
+        },
+        "/assets/hotels-extra-20261020/joyinn-aparthotel-wroclaw-extra-12.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.28.07 (4).jpeg",
+          "sourceSHA256": "f412dea3820ad23c60cfaa009361429d722173878084adc04afb27fb49e5e860",
+          "assetSHA256": "92bfb4b508d5f9573e54fd61febfc98e76a2b9d611e323e2eef1fd826157efde",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nJoyinn Aparthotel",
+            "en": "Visit photograph at Joyinn Aparthotel",
+            "pl": "Zdjęcie z wizyty przy Joyinn Aparthotel",
+            "de": "Besuchsfoto am Joyinn Aparthotel",
+            "cs": "Fotografie z návštěvy u Joyinn Aparthotel"
+          }
+        }
+      }
+    },
+    "socialPosts": []
   },
   "kaffe-bageri-stockholm": {
     "id": "kaffe-bageri-stockholm",
@@ -30708,18 +31492,18 @@
     "id": "puro",
     "localName": "PURO Wrocław Stare Miasto",
     "name": {
-      "he": "PURO Wrocław Stare Miasto",
+      "he": "מלון פורו ורוצלב",
       "en": "PURO Wrocław Stare Miasto",
       "pl": "PURO Wrocław Stare Miasto",
       "de": "PURO Wrocław Stare Miasto",
       "cs": "PURO Wrocław Stare Miasto"
     },
     "description": {
-      "he": "אחד המלונות שמקבלים המלצות טובות באופן עקבי.",
-      "en": "One of the hotels that receives consistently good recommendations.",
-      "pl": "Jeden z hoteli regularnie otrzymujących dobre rekomendacje.",
-      "de": "Eines der Hotels mit regelmäßig guten Empfehlungen.",
-      "cs": "Jeden z hotelů, které pravidelně získávají dobrá doporučení."
+      "he": "מלון ברובע ארבע הדתות, ברחוב ולודקוביצה. תמונות הביקור מציגות את חזית הזכוכית ואת הכניסה מכיוון הרחוב.\nPURO Wrocław Stare Miasto\nPawła Włodkowica 6, Wrocław",
+      "en": "Hotel on Włodkowica Street in the Four Denominations District. Our visit photographs show its glass facade and the entrance from the street.\nPawła Włodkowica 6, Wrocław",
+      "pl": "Hotel przy ulicy Włodkowica w Dzielnicy Czterech Wyznań. Zdjęcia z wizyty pokazują szklaną fasadę i wejście od ulicy.\nPawła Włodkowica 6, Wrocław",
+      "de": "Hotel an der Włodkowica-Straße im Viertel der vier Konfessionen. Unsere Besuchsfotos zeigen die Glasfassade und den Eingang von der Straße.\nPawła Włodkowica 6, Wrocław",
+      "cs": "Hotel v ulici Włodkowica ve čtvrti čtyř vyznání. Fotografie z návštěvy ukazují skleněné průčelí a vstup z ulice.\nPawła Włodkowica 6, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -30728,6 +31512,12 @@
       "coordinates": {
         "lat": 51.1079917,
         "lng": 17.0248927
+      },
+      "address": {
+        "street": "Pawła Włodkowica 6",
+        "postalCode": "50-072",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -30758,7 +31548,10 @@
       "categories": [
         "sleep"
       ],
-      "tags": []
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
     },
     "suitability": {
       "recommendedFor": [],
@@ -30782,15 +31575,87 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://purohotels.com/en/wroclaw/contact",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://purohotels.com/en/wroclaw/contact",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        }
+      ],
+      "coordinateVerification": {
+        "method": "Existing canonical coordinates preserved; exact official property address verified."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/hotels-extra-20261020/puro-extra-06.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/puro-extra-06.jpg",
+        "/assets/hotels-extra-20261020/puro-extra-07.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/puro-extra-06.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.27.31 (1).jpeg",
+          "sourceSHA256": "a5cad7894323556e5197326372285e666e043ca2e45e986c39e58b7a980d115f",
+          "assetSHA256": "0833321e3a9e0f6fea9e717850ce5a15160ce782513daf9eb07339849ea4844f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nPURO Wrocław Stare Miasto",
+            "en": "Visit photograph at PURO Wrocław Stare Miasto",
+            "pl": "Zdjęcie z wizyty przy PURO Wrocław Stare Miasto",
+            "de": "Besuchsfoto am PURO Wrocław Stare Miasto",
+            "cs": "Fotografie z návštěvy u PURO Wrocław Stare Miasto"
+          }
+        },
+        "/assets/hotels-extra-20261020/puro-extra-07.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.27.31.jpeg",
+          "sourceSHA256": "7e11eb81c45584d9231469c15c816c39de3062eb0c3c690495fd58490493a253",
+          "assetSHA256": "f77d44f63a5d17d8cedcf4b35de666556124996009c8d003dd7e2a548fccea45",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nPURO Wrocław Stare Miasto",
+            "en": "Visit photograph at PURO Wrocław Stare Miasto",
+            "pl": "Zdjęcie z wizyty przy PURO Wrocław Stare Miasto",
+            "de": "Besuchsfoto am PURO Wrocław Stare Miasto",
+            "cs": "Fotografie z návštěvy u PURO Wrocław Stare Miasto"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -30827,19 +31692,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "renoma": {
@@ -34352,6 +35204,171 @@
         "verifiedAt": "2026-10-19"
       }
     ]
+  },
+  "tulip-hotels-wroclaw-patio": {
+    "id": "tulip-hotels-wroclaw-patio",
+    "localName": "Tulip Hotels Wroclaw Patio",
+    "name": {
+      "he": "טוליפ הוטלס ורוצלב פטיו",
+      "en": "Tulip Hotels Wroclaw Patio",
+      "pl": "Tulip Hotels Wroclaw Patio",
+      "de": "Tulip Hotels Wroclaw Patio",
+      "cs": "Tulip Hotels Wroclaw Patio"
+    },
+    "description": {
+      "he": "מלון ברחוב קיילבאשניצ׳ה בעיר העתיקה. תמונת הביקור מציגה את החזית הבהירה והמעוטרת ואת שלט המלון, בצד מספר 24 של המתחם בבתים 24–25. הכתובת הרשמית של המלון היא מספר 25.\nTulip Hotels Wroclaw Patio\nKiełbaśnicza 25, Wrocław",
+      "en": "Hotel on Kiełbaśnicza Street in the Old Town. Our visit photograph shows the pale decorative facade and hotel sign on the number 24 side of the 24–25 property. The hotel’s official postal address is number 25.\nKiełbaśnicza 25, Wrocław",
+      "pl": "Hotel przy ulicy Kiełbaśniczej na Starym Mieście. Zdjęcie z wizyty pokazuje jasną ozdobną fasadę i szyld od strony numeru 24 w zespole kamienic 24–25. Oficjalny adres hotelu to numer 25.\nKiełbaśnicza 25, Wrocław",
+      "de": "Hotel an der Kiełbaśnicza-Straße in der Altstadt. Unser Besuchsfoto zeigt die helle verzierte Fassade und das Hotelschild an der Seite von Hausnummer 24 des Ensembles 24–25. Die offizielle Postadresse ist Nummer 25.\nKiełbaśnicza 25, Wrocław",
+      "cs": "Hotel v ulici Kiełbaśnicza ve Starém Městě. Fotografie z návštěvy zachycuje světlé zdobené průčelí a nápis na straně čísla 24 v souboru domů 24–25. Oficiální adresa hotelu je číslo 25.\nKiełbaśnicza 25, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1118582,
+        "lng": 17.0298244
+      },
+      "address": {
+        "street": "Kiełbaśnicza 25",
+        "postalCode": "50-110",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Hotel Patio Wrocław",
+      "Patio Hotel Kiełbaśnicza",
+      "Tulip Hotels Wroclaw Patio",
+      "טוליפ הוטלס ורוצלב פטיו"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "tulip-hotels-wroclaw-patio"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "tulip-hotels-wroclaw-patio",
+        "lat": 51.1118582,
+        "lng": 17.0298244
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://hotelpatio.pl/kontakt/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://hotelpatio.pl/kontakt/",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "tulip-hotels-wroclaw-patio",
+        "street": "Kiełbaśnicza 25",
+        "postalCode": "50-110",
+        "primary": "https://hotelpatio.pl/kontakt/",
+        "coordinatesPending": false,
+        "notes": "Photo shows street24 side of combined24/25 hotel; official postal25. Separate TulipCentreatSwietegoMikolaja47.",
+        "lat": 51.1118582,
+        "lng": 17.0298244,
+        "coordinateEvidence": "Google Maps exact hotel identity with official-linked website and matching address/telephone; exact3d/4d destination coordinates. See tulip-map-identity.txt."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/hotels-extra-20261020/tulip-hotels-wroclaw-patio-extra-27.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/tulip-hotels-wroclaw-patio-extra-27.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/tulip-hotels-wroclaw-patio-extra-27.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.18.jpeg",
+          "sourceSHA256": "a098626fb01fd50bc8dc6b10a7d5f48877d92d485a39bbbf99668f303a17b41e",
+          "assetSHA256": "c333fcb01e25aed474eea3ebca9115fe6a652b8a106c0deddff6fbd7aee6df49",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nTulip Hotels Wroclaw Patio",
+            "en": "Visit photograph at Tulip Hotels Wroclaw Patio",
+            "pl": "Zdjęcie z wizyty przy Tulip Hotels Wroclaw Patio",
+            "de": "Besuchsfoto am Tulip Hotels Wroclaw Patio",
+            "cs": "Fotografie z návštěvy u Tulip Hotels Wroclaw Patio"
+          }
+        }
+      }
+    },
+    "socialPosts": []
   },
   "university": {
     "id": "university",
@@ -41183,6 +42200,168 @@
       }
     ]
   },
+  "wyndham-wroclaw-old-town": {
+    "id": "wyndham-wroclaw-old-town",
+    "localName": "Wyndham Wrocław Old Town",
+    "name": {
+      "he": "מלון וינדהם בעיר העתיקה",
+      "en": "Wyndham Wrocław Old Town",
+      "pl": "Wyndham Wrocław Old Town",
+      "de": "Wyndham Wrocław Old Town",
+      "cs": "Wyndham Wrocław Old Town"
+    },
+    "description": {
+      "he": "מלון ברחוב שוויינטגו מיקולאיה בעיר העתיקה. בתמונת הביקור נראית פינת המבנה עם חזית הזכוכית ושלט המלון.\nWyndham Wrocław Old Town\nŚwiętego Mikołaja 67, Wrocław",
+      "en": "Hotel on Świętego Mikołaja Street in the Old Town. Our visit photograph shows the building corner with its glass facade and hotel sign.\nŚwiętego Mikołaja 67, Wrocław",
+      "pl": "Hotel przy ulicy Świętego Mikołaja na Starym Mieście. Zdjęcie z wizyty pokazuje narożnik budynku ze szklaną fasadą i szyldem hotelu.\nŚwiętego Mikołaja 67, Wrocław",
+      "de": "Hotel an der Świętego-Mikołaja-Straße in der Altstadt. Unser Besuchsfoto zeigt die Gebäudeecke mit Glasfassade und Hotelschild.\nŚwiętego Mikołaja 67, Wrocław",
+      "cs": "Hotel v ulici Świętego Mikołaja ve Starém Městě. Fotografie z návštěvy ukazuje nároží se skleněným průčelím a hotelovým nápisem.\nŚwiętego Mikołaja 67, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.111323,
+        "lng": 17.028617
+      },
+      "address": {
+        "street": "Świętego Mikołaja 67",
+        "postalCode": "50-127",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Wyndham Wrocław Old Town",
+      "מלון וינדהם בעיר העתיקה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "wyndham-wroclaw-old-town"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "wyndham-wroclaw-old-town",
+        "lat": 51.111323,
+        "lng": 17.028617
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": [
+        "accommodation",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wyndhamwroclawot.com/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "original-photography",
+      "accommodationStayClaimed": false,
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://www.wyndhamwroclawot.com/",
+          "checkedAt": "2026-10-20T20:03:57.058791+00:00",
+          "note": "Exact property and official postal address, photographs of exterior and grounds; no overnight-stay, availability, rating or price claim."
+        }
+      ],
+      "coordinateVerification": {
+        "id": "wyndham-wroclaw-old-town",
+        "street": "Świętego Mikołaja 67",
+        "postalCode": "50-127",
+        "lat": 51.111323,
+        "lng": 17.028617,
+        "primary": "https://www.wyndhamwroclawot.com/",
+        "coordinateEvidence": "Official website address map /maps/place/.../data=!3m1!4b1!4m5!3m4!1s0x470fc2754b3faf5b:0x5de34d93a3de55cf!8m2!3d51.111323!4d17.028617",
+        "method": "Exact official map destination coordinates3d/4d; ignores viewport longitude17.0264283."
+      },
+      "sourceInventory": "HOTELS additional photograph delta, separate from first16 published images",
+      "mapDecision": "Lifestyle sleep only; no additional walking routes, cultural stops or excursions.",
+      "sourceOriginalsModified": false,
+      "familyException": false
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/hotels-extra-20261020/wyndham-wroclaw-old-town-extra-22.jpg",
+      "photos": [
+        "/assets/hotels-extra-20261020/wyndham-wroclaw-old-town-extra-22.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/hotels-extra-20261020/wyndham-wroclaw-old-town-extra-22.jpg": {
+          "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.29.55.jpeg",
+          "sourceSHA256": "bc1d4e839d28b8b92d747f8173bd98422ea3123c07f4a0ea678671ba061a350b",
+          "assetSHA256": "93b41552f2d19b58c7bbd38c3c40cfd934adbd48d66047c6be596ecf35908e42",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "verifiedAt": "2026-10-20T20:03:57.058791+00:00",
+          "alt": {
+            "he": "תצלום ביקור במלון\nWyndham Wrocław Old Town",
+            "en": "Visit photograph at Wyndham Wrocław Old Town",
+            "pl": "Zdjęcie z wizyty przy Wyndham Wrocław Old Town",
+            "de": "Besuchsfoto am Wyndham Wrocław Old Town",
+            "cs": "Fotografie z návštěvy u Wyndham Wrocław Old Town"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "wyspa-piasek": {
     "id": "wyspa-piasek",
     "localName": "Wyspa Piasek",
@@ -42528,22 +43707,35 @@
   "Cyrus Hotel": "the-cyrus-hotel-wroclaw",
   "The Cyrus": "the-cyrus-hotel-wroclaw",
   "סיירוס הוטל": "the-cyrus-hotel-wroclaw",
-  "Entre Hotel": "entre-hotel-wroclaw",
-  "Entre Hotel Wrocław": "entre-hotel-wroclaw",
-  "אנטרה הוטל": "entre-hotel-wroclaw",
   "AbsyntApart Garbary": "absynt-aparthotel-garbary-wroclaw",
   "Apartamenty Garbary 3-4": "absynt-aparthotel-garbary-wroclaw",
   "Absynt Aparthotel Garbary 3–4": "absynt-aparthotel-garbary-wroclaw",
   "Apartamenty Topacz": "apartamenty-marina-topacz-wroclaw",
   "Marina Topacz Apartments": "apartamenty-marina-topacz-wroclaw",
   "דירות טופץ׳": "apartamenty-marina-topacz-wroclaw",
-  "Boogie ApartHouse": "boogie-aparthouse-garbary",
-  "Boogie Aparthouse Garbary 2": "boogie-aparthouse-garbary",
   "Traffic Hotel Wrocław": "hotel-traffic-wroclaw",
   "Hotel Traffic": "hotel-traffic-wroclaw",
   "מלון טראפיק": "hotel-traffic-wroclaw",
   "Korona Market Square Wroclaw": "korona-hotel",
   "קורונה הוטל": "korona-hotel",
+  "Boogie ApartHouse": "boogie-aparthouse-garbary",
+  "Boogie Aparthouse Garbary 2": "boogie-aparthouse-garbary",
+  "Entre Hotel": "entre-hotel-wroclaw",
+  "Entre Hotel Wrocław": "entre-hotel-wroclaw",
+  "אנטרה הוטל": "entre-hotel-wroclaw",
+  "Joyinn Aparthotel": "joyinn-aparthotel-wroclaw",
+  "ג׳וין אפרטהוטל": "joyinn-aparthotel-wroclaw",
+  "Hotel Dwór Polski": "dwor-polski-hotel-wroclaw",
+  "מלון דבור פולסקי": "dwor-polski-hotel-wroclaw",
+  "Dwór Wazów": "dwor-polski-hotel-wroclaw",
+  "Dwor Wazow": "dwor-polski-hotel-wroclaw",
+  "Hotel Dwor Polski": "dwor-polski-hotel-wroclaw",
+  "Wyndham Wrocław Old Town": "wyndham-wroclaw-old-town",
+  "מלון וינדהם בעיר העתיקה": "wyndham-wroclaw-old-town",
+  "Tulip Hotels Wroclaw Patio": "tulip-hotels-wroclaw-patio",
+  "טוליפ הוטלס ורוצלב פטיו": "tulip-hotels-wroclaw-patio",
+  "Hotel Patio Wrocław": "tulip-hotels-wroclaw-patio",
+  "Patio Hotel Kiełbaśnicza": "tulip-hotels-wroclaw-patio",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
