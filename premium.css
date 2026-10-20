@@ -493,3 +493,7 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 
 /* Keep the relocated dwarf centre Hebrew and Latin address on separate lines. */
 #stop-dwarf-info .stop-copy > p:not(.stop-tip),.premium-popup:has(img[src*="/dwarf-info/"]) > p{white-space:pre-line;}
+
+/* Botanical Garden: preserve complete scenery frames and Hebrew line breaks. */
+img[src*="/botanical-garden/"]{object-fit:contain;background:#f4f0e8;}
+.recommendation-card[data-canonical-place-id="wroclaw-botanical-garden"] p,.premium-popup:has(img[src*="/botanical-garden/"])>p{white-space:pre-line;}

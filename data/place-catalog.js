@@ -7545,11 +7545,11 @@
       "cs": "Chatka przy Jatkach"
     },
     "description": {
-      "he": "מסעדה למטבח פולני מסורתי בעיר העתיקה, סמוך לסמטת יאטקי ולכיכר השוק. בגלריית הביקור שלנו נראים פירוגי על מגש עץ, לביבות תפוחי אדמה ברוטב פטריות ואווירת הארוחה בפנים. התמונות מתעדות את הביקור שלנו, ולא תפריט או מחירים עדכניים. הכתובת ופרטי הביקור מופיעים באתר הרשמי. לפני ביקור בדקו שם את שעות הפתיחה והזמנת השולחן.",
-      "en": "A traditional Polish restaurant in the Old Town, close to the Jatki lane and Market Square. Our visit gallery shows pierogi on a wooden platter, potato pancakes with mushroom sauce and the indoor dining atmosphere. The photographs document our visit rather than a current menu or prices. The restaurant lists its entrance address as Odrzańska 6–7. Check the official website for current opening hours and table reservations.",
-      "pl": "Restauracja z tradycyjną kuchnią polską na Starym Mieście, blisko Jatek i Rynku. Galeria z naszej wizyty pokazuje pierogi na drewnianej desce, placki ziemniaczane z sosem grzybowym i atmosferę posiłku we wnętrzu. Zdjęcia dokumentują naszą wizytę, a nie aktualne menu czy ceny. Restauracja podaje adres wejść: Odrzańska 6–7. Przed wizytą sprawdź godziny otwarcia i rezerwacje na oficjalnej stronie.",
-      "de": "Ein Restaurant mit traditioneller polnischer Küche in der Altstadt, nahe der Gasse Jatki und dem Marktplatz. Unsere Besuchsgalerie zeigt Pierogi auf einer Holzplatte, Kartoffelpuffer mit Pilzsauce und die Atmosphäre beim Essen im Innenraum. Die Fotos dokumentieren unseren Besuch und sind keine aktuelle Speisekarte oder Preisliste. Das Restaurant nennt als Eingangsadresse Odrzańska 6–7. Aktuelle Öffnungszeiten und Tischreservierungen finden Sie auf der offiziellen Website.",
-      "cs": "Restaurace s tradiční polskou kuchyní ve Starém Městě, blízko uličky Jatki a hlavního náměstí. Galerie z naší návštěvy ukazuje pirohy na dřevěném tácu, bramboráky s houbovou omáčkou a atmosféru stolování uvnitř. Fotografie zachycují naši návštěvu, nikoli aktuální jídelní lístek či ceny. Restaurace uvádí adresu vstupů Odrzańska 6–7. Před návštěvou ověřte otevírací dobu a rezervace na oficiálním webu."
+      "he": "מסעדה למטבח פולני מסורתי בעיר העתיקה, סמוך לסמטת יאטקי ולכיכר השוק. בגלריית הביקור שלנו נראים פירוגי על מגש עץ, לביבות תפוחי אדמה ברוטב פטריות ואווירת הארוחה בפנים. התמונות מתעדות את הביקור שלנו, ולא תפריט או מחירים עדכניים. הכתובת ופרטי הביקור מופיעים באתר הרשמי. לפני ביקור בדקו שם את שעות הפתיחה והזמנת השולחן. התמונה הנוספת מציגה את חזית המסעדה ושלטה המואר בערב.",
+      "en": "A traditional Polish restaurant in the Old Town, close to the Jatki lane and Market Square. Our visit gallery shows pierogi on a wooden platter, potato pancakes with mushroom sauce and the indoor dining atmosphere. The photographs document our visit rather than a current menu or prices. The restaurant lists its entrance address as Odrzańska 6–7. Check the official website for current opening hours and table reservations. The additional photograph shows the restaurant facade and its illuminated sign in the evening.",
+      "pl": "Restauracja z tradycyjną kuchnią polską na Starym Mieście, blisko Jatek i Rynku. Galeria z naszej wizyty pokazuje pierogi na drewnianej desce, placki ziemniaczane z sosem grzybowym i atmosferę posiłku we wnętrzu. Zdjęcia dokumentują naszą wizytę, a nie aktualne menu czy ceny. Restauracja podaje adres wejść: Odrzańska 6–7. Przed wizytą sprawdź godziny otwarcia i rezerwacje na oficjalnej stronie. Dodatkowe zdjęcie pokazuje fasadę restauracji i oświetlony szyld wieczorem.",
+      "de": "Ein Restaurant mit traditioneller polnischer Küche in der Altstadt, nahe der Gasse Jatki und dem Marktplatz. Unsere Besuchsgalerie zeigt Pierogi auf einer Holzplatte, Kartoffelpuffer mit Pilzsauce und die Atmosphäre beim Essen im Innenraum. Die Fotos dokumentieren unseren Besuch und sind keine aktuelle Speisekarte oder Preisliste. Das Restaurant nennt als Eingangsadresse Odrzańska 6–7. Aktuelle Öffnungszeiten und Tischreservierungen finden Sie auf der offiziellen Website. Das zusätzliche Foto zeigt die Restaurantfassade und das beleuchtete Schild am Abend.",
+      "cs": "Restaurace s tradiční polskou kuchyní ve Starém Městě, blízko uličky Jatki a hlavního náměstí. Galerie z naší návštěvy ukazuje pirohy na dřevěném tácu, bramboráky s houbovou omáčkou a atmosféru stolování uvnitř. Fotografie zachycují naši návštěvu, nikoli aktuální jídelní lístek či ceny. Restaurace uvádí adresu vstupů Odrzańska 6–7. Před návštěvou ověřte otevírací dobu a rezervace na oficiálním webu. Další fotografie ukazuje průčelí restaurace a osvětlený nápis večer."
     },
     "location": {
       "countryCode": "PL",
@@ -7627,7 +7627,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1119289%2C17.0313524",
         "appleMaps": "https://maps.apple.com/?ll=51.1119289,17.0313524"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -7656,13 +7657,22 @@
           "verifiedAt": "2026-10-18",
           "scope": "municipal restaurant identity at Odrzańska 7; historical directory last modified 2013, not used for current phone or opening times"
         }
-      ]
+      ],
+      "refresh20261020": {
+        "newPhotos": 1,
+        "preservedExistingPhotos": 3,
+        "sourceOriginalsUnchanged": true,
+        "historicalPersonalPhotoException": "Chatka visit still photographs only; no permission for personal videos or other folders. User instruction2026-10-18 retained.",
+        "newAssetPersonalExceptionApplied": false,
+        "social": "Hebrew Facebook generic channel action hidden; nine existing localized place-post links preserved pending scoped review."
+      }
     },
     "media": {
       "photos": [
         "/assets/food-cafes/chatka-pierogi-01.jpg",
         "/assets/feels-familiar/chatka-placki.jpg",
-        "/assets/food-cafes/chatka-visit-02.jpg"
+        "/assets/food-cafes/chatka-visit-02.jpg",
+        "/assets/food-cafes/chatka-facade-refresh-20261020.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -7695,6 +7705,22 @@
           },
           "heroCandidate": false,
           "personalPhotoExceptionApplied": true
+        },
+        "/assets/food-cafes/chatka-facade-refresh-20261020.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatka/WhatsApp Image 2026-10-19 at 08.41.52 (11).jpeg",
+          "sourceSHA256": "542ddb7523279c4eecfa9bb0d39027d5e9d037e5547327e32cc66704ae32fe70",
+          "assetSHA256": "6a07380ceda4caa7a3b782a7f9ef5611916b6d86a886038bd324130f1bc74a7a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "personalPhotoExceptionApplied": false,
+          "privacy": "Public facade with incidental restaurant diners; no posed personal portrait.",
+          "alt": {
+            "he": "חזית המסעדה ושלטה המואר בערב",
+            "en": "Restaurant facade and illuminated sign in the evening",
+            "pl": "Fasada restauracji i oświetlony szyld wieczorem",
+            "de": "Restaurantfassade und beleuchtetes Schild am Abend",
+            "cs": "Průčelí restaurace a osvětlený nápis večer"
+          }
         }
       }
     },
@@ -32047,11 +32073,11 @@
       "cs": "Ostrov Słodowa"
     },
     "description": {
-      "he": "אי ירוק בלב זרועות האודר, עם מדשאות, עצים וגדות המשמשות להליכה ולמפגש. הגשרים להולכי רגל מחברים אותו לגדות ולאיים הסמוכים. תמונות הביקור שלנו מציגות את שלט האי, המים והעצים באור ערב, ואת גשר הולכי הרגל כחלק מהסביבה. תחנת מילוי המים והברים הסמוכים הם מקומות נפרדים. נוספו גם מבט על גדת האי ותיעוד סירת הבר המוארת בסביבה, כחלק מנוף הערב ולא כנקודת עסק נוספת.\nWyspa Słodowa",
-      "en": "A green island between branches of the Oder, with lawns, trees and banks for walking and meeting friends. Footbridges connect it to nearby banks and islands. Our evening visit photos show the island sign, water, trees and a footbridge in context. The water-refill point and nearby bars remain separate places. Additional views show the island bank and an illuminated floating bar nearby as evening surroundings, without creating a separate business point.",
-      "pl": "Zielona wyspa między odnogami Odry, z trawnikami, drzewami i brzegami sprzyjającymi spacerom oraz spotkaniom. Kładki łączą ją z pobliskimi nabrzeżami i wyspami. Nasze wieczorne zdjęcia pokazują tablicę wyspy, wodę, drzewa i kładkę w otoczeniu. Punkt poboru wody i pobliskie bary pozostają osobnymi miejscami. Dodatkowe ujęcia pokazują brzeg wyspy i oświetlony bar na barce w pobliżu jako element wieczornego otoczenia, bez tworzenia osobnego punktu lokalu.",
-      "de": "Eine grüne Insel zwischen Oderarmen, mit Rasenflächen, Bäumen und Ufern zum Spazierengehen und Treffen. Fußgängerbrücken verbinden sie mit den benachbarten Ufern und Inseln. Unsere abendlichen Besuchsfotos zeigen das Inselschild, Wasser, Bäume und eine Brücke im Umfeld. Trinkwasserstelle und nahe Bars bleiben eigenständige Orte. Weitere Aufnahmen zeigen das Inselufer und eine beleuchtete schwimmende Bar in der Nähe als abendliches Umfeld, ohne einen eigenen Geschäftspunkt anzulegen.",
-      "cs": "Zelený ostrov mezi rameny Odry s trávníky, stromy a břehy pro procházky a setkávání. Lávky jej propojují s okolními nábřežími a ostrovy. Naše večerní fotografie ukazují tabuli ostrova, vodu, stromy a lávku v okolní krajině. Pítko a blízké bary zůstávají samostatnými místy. Další snímky ukazují břeh ostrova a osvětlený plovoucí bar poblíž jako součást večerního okolí, bez vytváření samostatného bodu podniku."
+      "he": "אי ירוק בלב זרועות האודר, עם מדשאות, עצים וגדות המשמשות להליכה ולמפגש. הגשרים להולכי רגל מחברים אותו לגדות ולאיים הסמוכים. תמונות הביקור שלנו מציגות את שלט האי, המים והעצים באור ערב, ואת גשר הולכי הרגל כחלק מהסביבה. תחנת מילוי המים והברים הסמוכים הם מקומות נפרדים. בתמונות הנוספות נראים גדת האי וסירת הבר המוארת שבסביבה.\nWyspa Słodowa",
+      "en": "A green island between branches of the Oder, with lawns, trees and banks for walking and meeting friends. Footbridges connect it to nearby banks and islands. Our evening visit photos show the island sign, water, trees and a footbridge in context. The water-refill point and nearby bars remain separate places. Additional photographs show the island bank and an illuminated floating bar nearby.",
+      "pl": "Zielona wyspa między odnogami Odry, z trawnikami, drzewami i brzegami sprzyjającymi spacerom oraz spotkaniom. Kładki łączą ją z pobliskimi nabrzeżami i wyspami. Nasze wieczorne zdjęcia pokazują tablicę wyspy, wodę, drzewa i kładkę w otoczeniu. Punkt poboru wody i pobliskie bary pozostają osobnymi miejscami. Dodatkowe zdjęcia pokazują brzeg wyspy i oświetlony bar na barce w pobliżu.",
+      "de": "Eine grüne Insel zwischen Oderarmen, mit Rasenflächen, Bäumen und Ufern zum Spazierengehen und Treffen. Fußgängerbrücken verbinden sie mit den benachbarten Ufern und Inseln. Unsere abendlichen Besuchsfotos zeigen das Inselschild, Wasser, Bäume und eine Brücke im Umfeld. Trinkwasserstelle und nahe Bars bleiben eigenständige Orte. Weitere Aufnahmen zeigen das Inselufer und eine beleuchtete schwimmende Bar in der Nähe.",
+      "cs": "Zelený ostrov mezi rameny Odry s trávníky, stromy a břehy pro procházky a setkávání. Lávky jej propojují s okolními nábřežími a ostrovy. Naše večerní fotografie ukazují tabuli ostrova, vodu, stromy a lávku v okolní krajině. Pítko a blízké bary zůstávají samostatnými místy. Další fotografie ukazují břeh ostrova a osvětlený plovoucí bar poblíž."
     },
     "location": {
       "countryCode": "PL",
@@ -39340,11 +39366,11 @@
       "cs": "Botanická zahrada ve Vratislavi"
     },
     "description": {
-      "he": "הגן הבוטני של אוניברסיטת ורוצלב, ליד אוסטרוב טומסקי. בדקו את שעות הפעילות והאירועים העונתיים באתר הגן.",
-      "en": "The University of Wrocław Botanical Garden near Ostrów Tumski. Check the garden website for opening hours and seasonal events.",
-      "pl": "Ogród Botaniczny Uniwersytetu Wrocławskiego przy Ostrowie Tumskim. Sprawdź godziny otwarcia i wydarzenia sezonowe na stronie ogrodu.",
-      "de": "Botanischer Garten der Universität Breslau nahe der Dominsel. Öffnungszeiten und Saisonveranstaltungen auf der Gartenseite prüfen.",
-      "cs": "Botanická zahrada Vratislavské univerzity poblíž Ostrówa Tumského. Otevírací dobu a sezonní akce ověřte na webu zahrady."
+      "he": "הגן הבוטני של אוניברסיטת ורוצלב, ליד הקתדרלה באוסטרוב טומסקי. שבילים מחברים בין אוספי צמחים, עצים, ערוגות ובריכות עם צמחי מים. בתמונות הנוף מהביקורים שלנו נראים הגשר הקטן, המזרקה, פריחות עונתיות ושבילי הגן בעונות שונות. אפשר לבחור בו כהפסקה ירוקה ביום הביקור באזור הקתדרלה. שעות הביקור והאירועים משתנים לפי העונה ומופיעים באתר הרשמי.\nOgród Botaniczny Uniwersytetu Wrocławskiego\nHenryka Sienkiewicza 23, Wrocław",
+      "en": "The University of Wrocław Botanical Garden beside the cathedral district of Ostrów Tumski. Paths link plant collections, trees, flower beds and ponds with aquatic plants. Our scenery photographs from different visits show the small bridge, fountain, seasonal flowers and garden paths. Choose it for a green break while exploring the cathedral area. Seasonal visiting hours and events are listed on the official website.\nHenryka Sienkiewicza 23, Wrocław",
+      "pl": "Ogród Botaniczny Uniwersytetu Wrocławskiego obok Ostrowa Tumskiego. Ścieżki prowadzą między kolekcjami roślin, drzewami, rabatami i stawami z roślinami wodnymi. Zdjęcia krajobrazu z naszych wizyt pokazują mostek, fontannę, sezonowe kwiaty i alejki o różnych porach roku. To zielona przerwa podczas zwiedzania okolic katedry. Sezonowe godziny zwiedzania i wydarzenia podaje oficjalna strona.\nHenryka Sienkiewicza 23, Wrocław",
+      "de": "Der Botanische Garten der Universität Breslau liegt neben der Dominsel Ostrów Tumski. Wege verbinden Pflanzensammlungen, Bäume, Beete und Teiche mit Wasserpflanzen. Unsere Landschaftsaufnahmen aus verschiedenen Besuchen zeigen die kleine Brücke, den Springbrunnen, saisonale Blüten und Gartenwege zu unterschiedlichen Jahreszeiten. Eine grüne Pause beim Besuch des Domviertels. Saisonale Besuchszeiten und Veranstaltungen stehen auf der offiziellen Website.\nHenryka Sienkiewicza 23, Wrocław",
+      "cs": "Botanická zahrada Vratislavské univerzity leží vedle katedrálního ostrova Ostrów Tumski. Cesty propojují sbírky rostlin, stromy, záhony a jezírka s vodními rostlinami. Naše snímky z různých návštěv ukazují malý most, fontánu, sezonní květy a zahradní cesty v různých ročních obdobích. Zelená přestávka při prohlídce okolí katedrály. Sezonní otevírací dobu a akce uvádí oficiální web.\nHenryka Sienkiewicza 23, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -39362,6 +39388,7 @@
       }
     },
     "categories": [
+      "activity",
       "garden",
       "nature"
     ],
@@ -39370,12 +39397,26 @@
       "Botanical Garden Wroclaw",
       "Ogród Botaniczny Uniwersytetu Wrocławskiego"
     ],
-    "sourceRecords": [],
-    "coordinateCandidates": [],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "recommendation",
+        "sourceId": "wroclaw-botanical-garden"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "wroclaw-four-days",
+        "sourceId": "wroclaw-botanical-garden",
+        "lat": 51.1159,
+        "lng": 17.0478
+      }
+    ],
     "status": "published",
     "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
+        "activity",
         "garden",
         "nature"
       ],
@@ -39407,7 +39448,8 @@
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1159%2C17.0478",
         "appleMaps": "https://maps.apple.com/?ll=51.1159,17.0478"
-      }
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -39457,11 +39499,324 @@
         "sourceUrl": "https://www.ogrodbotaniczny.wroclaw.pl/kontakt.html",
         "method": "GPS coordinates published by the university garden; garden location, not a claimed entrance.",
         "checkedAt": "2026-10-12"
+      },
+      "refresh20261020": {
+        "sourceFileCount": 34,
+        "selectedPhotos": 11,
+        "personalPhotosExcluded": 12,
+        "personalVideoExcluded": 1,
+        "duplicateVideoExcluded": 1,
+        "sourceOriginalsUnchanged": true,
+        "familyException": false,
+        "mapDecision": "Optional green activity recommendation for day2 of four-day map near cathedral district; no change to timed stops, no automatic cultural/lifestyle/other route inclusion.",
+        "preparedPeopleRemovalFiles": 9,
+        "source": "User-prepared non-portrait scenery copies retained as supplied; no new AI editing performed."
       }
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/botanical-garden/botanical-garden-01.jpg",
+      "photos": [
+        "/assets/botanical-garden/botanical-garden-01.jpg",
+        "/assets/botanical-garden/botanical-garden-02.jpg",
+        "/assets/botanical-garden/botanical-garden-03.jpg",
+        "/assets/botanical-garden/botanical-garden-04.jpg",
+        "/assets/botanical-garden/botanical-garden-05.jpg",
+        "/assets/botanical-garden/botanical-garden-06.jpg",
+        "/assets/botanical-garden/botanical-garden-07.jpg",
+        "/assets/botanical-garden/botanical-garden-08.jpg",
+        "/assets/botanical-garden/botanical-garden-09.jpg",
+        "/assets/botanical-garden/botanical-garden-10.jpg",
+        "/assets/botanical-garden/botanical-garden-11.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/7IHNkTmYczU",
+        "https://youtube.com/shorts/VA_NAM3dDVw",
+        "https://youtube.com/shorts/6VH_8-wmIAw",
+        "https://youtube.com/shorts/kPvsw5LfP0A",
+        "https://youtube.com/shorts/gXmyRW2rRaY"
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/xkwNR0L_azo",
+        "en": "https://youtube.com/shorts/sV59N6brOoI"
+      },
+      "metadata": {
+        "/assets/botanical-garden/botanical-garden-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Image 2026-10-20 at 22.13.44.jpeg",
+          "sourceSHA256": "08d97411cd2d26f7e8f345fc5fbaeb7308f448a6bc26099fc065196d55db2731",
+          "assetSHA256": "dd2ebd12bd9526e9ab9473b4dc5ba02202f71e0331824aa6125104db7c4edfc4",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "שביל מוצל בגן הבוטני",
+            "en": "Shaded path in the Botanical Garden",
+            "pl": "Zacieniona ścieżka w ogrodzie botanicznym",
+            "de": "Schattiger Weg im Botanischen Garten",
+            "cs": "Stinná cesta v botanické zahradě"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 176477.png",
+          "sourceSHA256": "e6b795072cd9fe5f19a8ee6ff6be7f4b215c4a21dfbc57088836cca2d54c45b7",
+          "assetSHA256": "9398e3b2ee4f79d8143f58dcee7f9ab68b9b5e5f4cc1894739373f21808a4f17",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בריכת הגן והערבה",
+            "en": "Garden pond and willow",
+            "pl": "Staw i wierzba w ogrodzie",
+            "de": "Gartenteich und Weide",
+            "cs": "Zahradní jezírko a vrba"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 718793.png",
+          "sourceSHA256": "915dcb5e0e47803a397ac7c1555c614abe6b263800e82e7fd0e46b2137771328",
+          "assetSHA256": "a5f9f8853ad3b7d005bd4b94af7ab1b659e002e9e2b040cc2d84c8bbd360d8a0",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גשר עץ מעל הבריכה",
+            "en": "Wooden bridge over the pond",
+            "pl": "Drewniany mostek nad stawem",
+            "de": "Holzbrücke über dem Teich",
+            "cs": "Dřevěný most přes jezírko"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 829243.png",
+          "sourceSHA256": "7ba653491fd0d742679381e17816b4deb89ee45dc4819c43ba1b2a919ae980de",
+          "assetSHA256": "db80115dab1b5f5c8f1fa913c55d31862eca26826c5b864a7e8835bd03deb819",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מזרקה וצמחי מים",
+            "en": "Fountain and aquatic plants",
+            "pl": "Fontanna i rośliny wodne",
+            "de": "Springbrunnen und Wasserpflanzen",
+            "cs": "Fontána a vodní rostliny"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me wife from the picture 997007.png",
+          "sourceSHA256": "8df999b7adcb1e619b3500877d4182b001587884ca05af16f998ce8e871b2f6b",
+          "assetSHA256": "0f9cbf62b66b4d687c271ac7fe4067dcfaf4944e474138ef29ccbf29dc492023",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרחים לבנים בערוגה",
+            "en": "White flowers in a garden bed",
+            "pl": "Białe kwiaty na rabacie",
+            "de": "Weiße Blumen im Beet",
+            "cs": "Bílé květy na záhonu"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 555826.png",
+          "sourceSHA256": "6d76a3c3d372b85a6fe688430f58a29e4ba6d05476f16ec29d1f576c3b5e9e16",
+          "assetSHA256": "2d844750338e1bd59a41e4745d561efac90b16e42de0f201b38e502bdafc8f1b",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פסל אבן לצד השביל",
+            "en": "Stone sculpture beside the path",
+            "pl": "Kamienna rzeźba przy ścieżce",
+            "de": "Steinskulptur am Weg",
+            "cs": "Kamenná socha u cesty"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 663794.png",
+          "sourceSHA256": "99ef78946a30d020bc1a52289f7e589494c3c0beb9c724400070961ce576f717",
+          "assetSHA256": "bdaea624e477450225c8e47bf238ce0406ca215b22190c7d1fb7f248f7dfce8b",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בריכה ומגדלי הקתדרלה ברקע",
+            "en": "Pond with cathedral towers beyond",
+            "pl": "Staw i wieże katedry w tle",
+            "de": "Teich mit Domtürmen im Hintergrund",
+            "cs": "Jezírko a věže katedrály v pozadí"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 678472.png",
+          "sourceSHA256": "35e5b082c07f3f441e092570eb65203f04b9b0b8e3ed62b1fa110c48b455448e",
+          "assetSHA256": "fa50aeed85bfb3ca17eb810e72838d860baf403c6c85c01c044a72b84bd994ef",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "צמחייה ועצים בגן",
+            "en": "Plants and trees in the garden",
+            "pl": "Rośliny i drzewa w ogrodzie",
+            "de": "Pflanzen und Bäume im Garten",
+            "cs": "Rostliny a stromy v zahradě"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 821263.png",
+          "sourceSHA256": "2e83e37c4c975664409459fa446499095c210071445efe393f8504d87c66cb50",
+          "assetSHA256": "8382351960790901ece4b8d500aa3e495fbfdf360be2b33163a1027114ed9096",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "עץ מחטני בגן",
+            "en": "Conifer in the garden",
+            "pl": "Drzewo iglaste w ogrodzie",
+            "de": "Nadelbaum im Garten",
+            "cs": "Jehličnan v zahradě"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wifr from thje picture 476272.png",
+          "sourceSHA256": "5610b4d482ddef60fc628146011680d84e0411f80822f5ceadf43b2bf9a21b7a",
+          "assetSHA256": "b8ebdc06a3226076c6cbb2146d52f603092915b157c5e7e9d6403993d10040a9",
+          "original": false,
+          "userPreparedPeopleRemoval": true,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "הבריכה והמזרקה מעבר לצמחייה",
+            "en": "Pond and fountain beyond the planting",
+            "pl": "Staw i fontanna za roślinnością",
+            "de": "Teich und Springbrunnen hinter der Bepflanzung",
+            "cs": "Jezírko a fontána za zelení"
+          }
+        },
+        "/assets/botanical-garden/botanical-garden-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/WhatsApp Image 2026-07-14 at 12.13.32.jpeg",
+          "sourceSHA256": "99bc03e7fa28d9f28486305bfdcea54efed0512c559c5405eef93c827b415f54",
+          "assetSHA256": "6b7a6dfc06cda6c1eb5d8cdef7133c1a285c86ac983ec097d540a4211e9214b9",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "pictureFramePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מדרגות בין עצים ושיחים",
+            "en": "Steps between trees and shrubs",
+            "pl": "Schody między drzewami i krzewami",
+            "de": "Stufen zwischen Bäumen und Sträuchern",
+            "cs": "Schody mezi stromy a keři"
+          }
+        },
+        "https://youtube.com/shorts/7IHNkTmYczU": {
+          "title": {
+            "he": "בריכת הגן והמזרקה",
+            "en": "Garden pond and fountain",
+            "cs": "Zahradní jezírko a fontána",
+            "de": "Gartenteich und Springbrunnen",
+            "pl": "Staw i fontanna"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/WhatsApp Video 2026-07-14 at 12.13.32.mp4",
+          "sourceSHA256": "25545969995072a3e8be4c62515f15f31611e7f59fc1f064e9f58a1babf1c8ea",
+          "uploadSHA256": "a543942b1fd9cf198f1f70e3b093f0b9683af58f48410baf6fdbab113f7aca82",
+          "durationSeconds": 30.051667,
+          "originalPictureUnchanged": true,
+          "audioRemoved": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-20T19:44:54.908Z",
+          "personalMedia": false
+        },
+        "https://youtube.com/shorts/VA_NAM3dDVw": {
+          "title": {
+            "he": "שבילי הגן והפריחה",
+            "en": "Garden paths and flowers",
+            "cs": "Zahradní cesty a květy",
+            "de": "Gartenwege und Blüten",
+            "pl": "Ścieżki i kwiaty"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.45.mp4",
+          "sourceSHA256": "a27f74f2f7bfc6470f9bf577a8b692571f547f24ee5f8eabcec4ad74008023e4",
+          "uploadSHA256": "36b1307519ea8ede3d83a0364883093fd1ab0a26f74d7b94fec7b5651ba46732",
+          "durationSeconds": 4.9,
+          "originalPictureUnchanged": true,
+          "audioRemoved": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-20T19:45:09.694Z",
+          "personalMedia": false
+        },
+        "https://youtube.com/shorts/6VH_8-wmIAw": {
+          "title": {
+            "he": "עצים ושביל מוצל",
+            "en": "Trees and a shaded path",
+            "cs": "Stromy a stinná cesta",
+            "de": "Bäume und schattiger Weg",
+            "pl": "Drzewa i zacieniona ścieżka"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.51 (2).mp4",
+          "sourceSHA256": "c397837b428d02215ad8503a4f647f1df7620903264c959c22cc377503006e1a",
+          "uploadSHA256": "c9aedede7420d0811ccfeb8243eef668d866a1420f476648fd4fc5f5493f9ecc",
+          "durationSeconds": 5.3,
+          "originalPictureUnchanged": true,
+          "audioRemoved": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-20T19:45:12.247Z",
+          "personalMedia": false
+        },
+        "https://youtube.com/shorts/kPvsw5LfP0A": {
+          "title": {
+            "he": "ערוגות סתיו",
+            "en": "Autumn flower beds",
+            "cs": "Podzimní záhony",
+            "de": "Herbstliche Beete",
+            "pl": "Jesienne rabaty"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.51 (3).mp4",
+          "sourceSHA256": "96c9a33890be59cb4fb6838a453e60de479bb8cae883d7ac5a79d328c25d2653",
+          "uploadSHA256": "ccd4834c5b42cff11380b12e963ae9e89a44f54d3c633c43b46933f17b6e9125",
+          "durationSeconds": 3.4,
+          "originalPictureUnchanged": true,
+          "audioRemoved": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-20T19:45:14.793Z",
+          "personalMedia": false
+        },
+        "https://youtube.com/shorts/gXmyRW2rRaY": {
+          "title": {
+            "he": "ענפים וצמחיית הגן",
+            "en": "Branches and garden plants",
+            "cs": "Větve a zahradní rostliny",
+            "de": "Zweige und Gartenpflanzen",
+            "pl": "Gałęzie i rośliny ogrodowe"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.51 (4).mp4",
+          "sourceSHA256": "dc3056e442115838205eedc5a9f2e88e8717d74f9abc4eacaa6ae923bbf0b086",
+          "uploadSHA256": "3558445be86b4bd89f5237492c046adfd067e89ade476b0bfa2ad1405c0d0433",
+          "durationSeconds": 4.8,
+          "originalPictureUnchanged": true,
+          "audioRemoved": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-20T19:45:17.366Z",
+          "personalMedia": false
+        }
+      }
     },
     "socialPosts": []
   },

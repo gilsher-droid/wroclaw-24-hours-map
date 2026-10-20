@@ -451,6 +451,27 @@
       },
       "verifiedAt": "2026-10-20",
       "provenance": "data/klodzko-fortress-guide-caption-provenance.json"
+    },
+    {
+      "canonicalId": "wroclaw-botanical-garden",
+      "videos": {
+        "he": "xkwNR0L_azo",
+        "en": "sV59N6brOoI"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "status": "Published"
+      },
+      "verifiedAt": "2026-10-20",
+      "provenance": "data/botanical-garden-guide-caption-provenance.json",
+      "evidence": "outputs/botanical-garden-video-guides-2026-10-20",
+      "reopenedVerification": true
     }
   ]
 }

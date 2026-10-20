@@ -100,6 +100,7 @@
 
   const rec = (id, coordinates, category, bestDay, name, localName, description) => ({ id, coordinates, category, bestDay, name, localName, description });
   window.PREMIUM_RECOMMENDATIONS = [
+    { id:"wroclaw-botanical-garden", canonicalPlaceId:"wroclaw-botanical-garden", coordinates:[51.1159,17.0478], category:"activity", bestDay:2 },
     { id:"park-szczytnicki-wroclaw", canonicalPlaceId:"park-szczytnicki-wroclaw", coordinates:[51.1081,17.0820], category:"activity", bestDay:3 },
     rec("charlotte",[51.10862,17.03121],"cafe",1,l("Charlotte – ארוחת בוקר","Charlotte – breakfast","Charlotte – śniadanie"),"Charlotte",l("לחמים, מאפים וארוחת בוקר ליד הרינק.","Bread, pastries and breakfast near the Rynek.","Pieczywo, wypieki i śniadania przy Rynku.")),
     rec("gniazdo",[51.10579,17.03302],"cafe",4,l("Gniazdo – קפה ומאפה","Gniazdo – coffee and pastry","Gniazdo – kawa i wypiek"),"Gniazdo",l("קפה איכותי במיקום מרכזי בין Renoma לרינק.","Quality coffee between Renoma and the Rynek.","Dobra kawa między Renomą a Rynkiem.")),
