@@ -239,3 +239,6 @@ article[data-place="altus"] p,article[data-place="puro"] p,article[data-place="h
 .media-grid img[src*="/cafes-alley-refresh-20261020/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 
 article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,article[data-place="domek-nad-fosa-wroclaw"] p,.leaflet-popup-content:has(img[src*="/cafes-alley-refresh-20261020/"]) > span{white-space:pre-line;}
+
+/* Preserve all retained Czarna Magia visit photographs, including the original five. */
+.media-grid img[src*="/food-cafes/czarna-magia-"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
