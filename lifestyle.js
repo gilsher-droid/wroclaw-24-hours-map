@@ -245,7 +245,15 @@
     document.getElementById("media-title").textContent = placeName(place);
     const content = document.getElementById("media-content");
     if (type === "gallery") content.innerHTML = `<div class="media-grid">${(media.gallery || []).map((src) => `<img style="${["math-tower", "pan-tadeusz-museum", "pedet", "renoma", "wroclavia", "pasaz", "pergola", "rynek", "town-hall", "slodowa", "dominikan", "fashion-outlet", "fc-caffe-kuznicza", "stadion-olimpijski-wroclaw"].includes(place.id)?"object-fit:contain":""}" src="${escapeHtml(src)}" alt="${escapeHtml(local(place.canonicalPlace?.media?.metadata?.[src]?.alt) || placeName(place))}" loading="lazy">`).join("")}</div>`;
-    else content.innerHTML = `<div class="media-grid">${(media.videos || []).map((video) => window.WROC_YOUTUBE_VIDEO.html(typeof video === "string" ? video : video.src, "Video", language)).join("")}</div>`;
+    else {
+      const watchLabel = { he: "צפייה ביוטיוב", en: "Watch on YouTube", pl: "Obejrzyj w YouTube", de: "Auf YouTube ansehen", cs: "Přehrát na YouTube" }[language];
+      content.innerHTML = `<div class="media-grid">${(media.videos || []).map((video) => {
+        const source = typeof video === "string" ? video : video.src;
+        const id = window.WROC_YOUTUBE_VIDEO.idFor(window.WROC_YOUTUBE_VIDEO.resolve(source));
+        const player = window.WROC_YOUTUBE_VIDEO.html(source, "Video", language);
+        return `<div class="media-video-item">${player}${id ? `<p><a class="video-watch-link" href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener noreferrer">${watchLabel}</a></p>` : ""}</div>`;
+      }).join("")}</div>`;
+    }
     // The user explicitly opened this modal; do not defer its selected players.
     content.querySelectorAll("iframe").forEach((frame) => { frame.loading = "eager"; });
     modal.hidden = false;
