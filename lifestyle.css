@@ -202,3 +202,6 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 .media-grid img[src*="/food-cafes/cafe-berg-"],
 .media-grid img[src*="/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg"],
 .media-grid img[src*="/renoma-refresh-oct20-"] { height: auto; max-height: 65vh; object-fit: contain; background: #faf8f3; }
+
+/* BRÚ: retain the complete photographed façade and entrance. */
+.media-grid img[src*="/bru-coffee-bakehouse-"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }

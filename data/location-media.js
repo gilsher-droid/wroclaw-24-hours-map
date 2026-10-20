@@ -138,6 +138,7 @@
     "ato-ramen": canonicalResources("ato-ramen"),
     bastion: canonicalResources("bastion"),
     "cafe-berg-wroclaw": canonicalResources("cafe-berg-wroclaw"),
+    "bru-coffee-bakehouse-wroclaw": canonicalResources("bru-coffee-bakehouse-wroclaw"),
     "gustaw-restaurant-wroclaw": canonicalResources("gustaw-restaurant-wroclaw"),
     "lodziarnia-roma": canonicalResources("lodziarnia-roma"),
     "pizza-si": canonicalResources("pizza-si"),
