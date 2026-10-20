@@ -126,6 +126,15 @@
   };
 
   const resources = {
+    "movenpick-grand-hotel-wroclaw": canonicalResources("movenpick-grand-hotel-wroclaw"),
+    "the-cyrus-hotel-wroclaw": canonicalResources("the-cyrus-hotel-wroclaw"),
+    "entre-hotel-wroclaw": canonicalResources("entre-hotel-wroclaw"),
+    "absynt-aparthotel-garbary-wroclaw": canonicalResources("absynt-aparthotel-garbary-wroclaw"),
+    "apartamenty-marina-topacz-wroclaw": canonicalResources("apartamenty-marina-topacz-wroclaw"),
+    "boogie-aparthouse-garbary": canonicalResources("boogie-aparthouse-garbary"),
+    "hotel-traffic-wroclaw": canonicalResources("hotel-traffic-wroclaw"),
+    "korona-hotel": canonicalResources("korona-hotel"),
+
     "charlotte": canonicalResources("charlotte"),
     "fc-caffe-kuznicza": canonicalResources("fc-caffe-kuznicza"),
     "dominikan": canonicalResources("dominikan"),
