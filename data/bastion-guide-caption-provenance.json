@@ -1,0 +1,775 @@
+{
+  "canonicalId": "bastion",
+  "readyForIntegration": true,
+  "state": "youtube-complete-awaiting-single-writer-site-integration",
+  "completedAt": "2026-10-20T11:46:08.475565+00:00",
+  "editions": {
+    "en": {
+      "id": "xc9jiC3TfNA",
+      "url": "https://youtube.com/shorts/xc9jiC3TfNA",
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "originalPictureAudioUnchanged": true,
+      "durationSeconds": 104.766667,
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/המדריך שלנו/המדריך שלנו באנגלית - הבסטיון.mp4",
+      "sourceSHA256": "be5b207077471c0910f34e470cca4b23ee518b9393f3e43a3c41dee229cd0e73",
+      "uploadSHA256": "be5b207077471c0910f34e470cca4b23ee518b9393f3e43a3c41dee229cd0e73",
+      "checks": "Copyright and CommunityGuidelines completed: Noissuesfound beforePublish",
+      "evidence": [
+        "outputs/bastion-video-guides-2026-10-20/en-published.png",
+        "outputs/bastion-video-guides-2026-10-20/en-public-reopened.txt",
+        "outputs/bastion-video-guides-2026-10-20/en-public-reopened.png"
+      ]
+    },
+    "he": {
+      "id": "FLx49x9AtUM",
+      "url": "https://youtube.com/shorts/FLx49x9AtUM",
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "originalPictureAudioUnchanged": true,
+      "durationSeconds": 90.533333,
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/המדריך שלנו/המדריך שלנו בעברית - בסטיון.mp4",
+      "sourceSHA256": "114fbd394e7313d84336907b3f5f52e133c8d8feb6fe8bf02e216dd0e8260630",
+      "uploadSHA256": "114fbd394e7313d84336907b3f5f52e133c8d8feb6fe8bf02e216dd0e8260630",
+      "checks": "Copyright and CommunityGuidelines completed: Noissuesfound beforePublish",
+      "evidence": [
+        "outputs/bastion-video-guides-2026-10-20/he-published.png",
+        "outputs/bastion-video-guides-2026-10-20/he-public-reopened.txt",
+        "outputs/bastion-video-guides-2026-10-20/he-public-reopened.png"
+      ]
+    }
+  },
+  "tracks": {
+    "he": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "FLx49x9AtUM",
+      "sourceAudioLanguage": "he",
+      "language": "he",
+      "srtFile": "data/bastion-guide-captions/he.srt",
+      "localSrtFile": "outputs/bastion-video-guides-2026-10-20/captions/he.srt",
+      "srtSHA256": "a74ba0132db8a92acca327d7bff726a1fd943652f7c5542cf0dfe464d6d92f03",
+      "cueCount": 20,
+      "cues": [
+        {
+          "start": 1.39,
+          "end": 8.25,
+          "text": "Cześć!\nאנחנו נמצאים בבסטיון סאקבובי, בשעה"
+        },
+        {
+          "start": 8.25,
+          "end": 12.79,
+          "text": "של שקיעה, שעה מוזהבת, והמקום הזה מספר"
+        },
+        {
+          "start": 12.79,
+          "end": 15.71,
+          "text": "גם הוא את ההיסטוריה של ורוצלב."
+        },
+        {
+          "start": 15.71,
+          "end": 21.19,
+          "text": "בימי הביניים עמד כאן שער שנקרא ברמה סאקבובה."
+        },
+        {
+          "start": 21.19,
+          "end": 27.01,
+          "text": "השם סאקבובי בא לייצג את יצרני הארנקים"
+        },
+        {
+          "start": 27.01,
+          "end": 31.45,
+          "text": "והכיסים שפעלו כאן במאה ה־14, בימי הביניים."
+        },
+        {
+          "start": 31.45,
+          "end": 35.45,
+          "text": "במאה ה־16 המקום הזה הפך להיות מצודת"
+        },
+        {
+          "start": 35.45,
+          "end": 39.67,
+          "text": "הגנה על העיר, ולכן נקרא בסטיון סאקבובי."
+        },
+        {
+          "start": 39.67,
+          "end": 45.63,
+          "text": "החל מהמאה ה־19, כשהעיר נכבשה על ידי צבאות נפוליון, המקום הזה"
+        },
+        {
+          "start": 45.63,
+          "end": 51.45,
+          "text": "איבד את המשמעות שלו כמקום של ביצורים או הגנה על העיר."
+        },
+        {
+          "start": 51.45,
+          "end": 55.15,
+          "text": "ומאז הוא נבנה כמקום מאוד מאוד אלגנטי. ניתן"
+        },
+        {
+          "start": 55.15,
+          "end": 59.61,
+          "text": "לראות את הקולונדות שיש מאחוריי, את המזרקה היפה."
+        },
+        {
+          "start": 59.61,
+          "end": 65.73,
+          "text": "והמקום היום הוא באמת מקום מאוד אלגנטי, שמתאר"
+        },
+        {
+          "start": 65.73,
+          "end": 69.63,
+          "text": "קצת את ההיסטוריה של המקום הזה והעיר הזו."
+        },
+        {
+          "start": 69.63,
+          "end": 73.45,
+          "text": "אני מזמין אתכם לבקר במקום הנפלא הזה. יש"
+        },
+        {
+          "start": 73.45,
+          "end": 77.87,
+          "text": "כאן גם מסעדה נפלאה שנמצאת בקומת הקרקע, מסעדת גוסטאב."
+        },
+        {
+          "start": 77.87,
+          "end": 81.59,
+          "text": "ובכלל פשוט להסתובב כאן, בין אם זה בבוקר"
+        },
+        {
+          "start": 81.59,
+          "end": 86.61,
+          "text": "או אחרי הצהריים, והכי יפה בשעה המוזהבת, בשקיעה."
+        },
+        {
+          "start": 86.61,
+          "end": 88.83,
+          "text": "נתראה בווידאו הבא."
+        },
+        {
+          "start": 88.83,
+          "end": 90.3,
+          "text": "Do widzenia!"
+        }
+      ],
+      "verificationTime": "2026-10-20T11:46:08.475565+00:00",
+      "verification": "Everycuetext and start/endtiming found in reopenednativeeditorproof; framequantization tolerance0.06sec",
+      "evidence": [
+        "outputs/bastion-video-guides-2026-10-20/he-captions-reopened-start.txt",
+        "outputs/bastion-video-guides-2026-10-20/he-captions-reopened-end.txt",
+        "outputs/bastion-video-guides-2026-10-20/he-captions-reopened.png"
+      ]
+    },
+    "en": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "xc9jiC3TfNA",
+      "sourceAudioLanguage": "en",
+      "language": "en",
+      "srtFile": "data/bastion-guide-captions/en.srt",
+      "localSrtFile": "outputs/bastion-video-guides-2026-10-20/captions/en.srt",
+      "srtSHA256": "b64d616e758f7b2a4d28b76b8c803cc215f60ca6653974f445ac669403ceb521",
+      "cueCount": 25,
+      "cues": [
+        {
+          "start": 1.23,
+          "end": 8.51,
+          "text": "Cześć! I am in Bastion Sakwowy, the best time"
+        },
+        {
+          "start": 8.51,
+          "end": 10.73,
+          "text": "to be in the city, in the golden hour."
+        },
+        {
+          "start": 11.73,
+          "end": 15.45,
+          "text": "This place was, in the Middle Ages, a"
+        },
+        {
+          "start": 15.45,
+          "end": 19.05,
+          "text": "gate to the city. It was called Brama Sakwowa."
+        },
+        {
+          "start": 19.05,
+          "end": 23.67,
+          "text": "The name Sakwowy comes to represent the"
+        },
+        {
+          "start": 23.67,
+          "end": 28.61,
+          "text": "manufacturers of wallets and pockets that were"
+        },
+        {
+          "start": 28.61,
+          "end": 31.23,
+          "text": "active in those days around this place."
+        },
+        {
+          "start": 32.21,
+          "end": 36.71,
+          "text": "From the 16th century, the place changed to be"
+        },
+        {
+          "start": 36.71,
+          "end": 43.79,
+          "text": "a bastion, meaning a fortified kind of fortress that is"
+        },
+        {
+          "start": 43.79,
+          "end": 46.31,
+          "text": "part of the defence of the city of Wrocław."
+        },
+        {
+          "start": 47.09,
+          "end": 50.65,
+          "text": "In the 19th century, the city was conquered by Napoleon's"
+        },
+        {
+          "start": 50.65,
+          "end": 57.69,
+          "text": "armies, and since then the bastion stopped its role as"
+        },
+        {
+          "start": 57.69,
+          "end": 64.23,
+          "text": "a defensive fortress of the city of Wrocław. Since then"
+        },
+        {
+          "start": 64.23,
+          "end": 68.47,
+          "text": "it changed its role and became a very elegant place."
+        },
+        {
+          "start": 68.47,
+          "end": 70.95,
+          "text": "You can see the fountain behind me and"
+        },
+        {
+          "start": 70.95,
+          "end": 74.87,
+          "text": "the colonnades, and it looks like a very"
+        },
+        {
+          "start": 74.87,
+          "end": 78.79,
+          "text": "Italian, elegant place to wander around."
+        },
+        {
+          "start": 79.27,
+          "end": 82.15,
+          "text": "I also recommend the restaurant on the"
+        },
+        {
+          "start": 82.15,
+          "end": 84.99,
+          "text": "ground floor called Gustaw, which is highly"
+        },
+        {
+          "start": 84.99,
+          "end": 87.41,
+          "text": "recommended. So I invite you to come"
+        },
+        {
+          "start": 87.41,
+          "end": 93.0,
+          "text": "to Bastion Sakwowy at any time of the day, whether it is the morning, noon time,"
+        },
+        {
+          "start": 93.27,
+          "end": 96.79,
+          "text": "the afternoon, and the best is the golden"
+        },
+        {
+          "start": 96.79,
+          "end": 100.01,
+          "text": "hour, when the sun is just about to set."
+        },
+        {
+          "start": 100.41,
+          "end": 102.23,
+          "text": "See you in our next video."
+        },
+        {
+          "start": 102.75,
+          "end": 104.4,
+          "text": "Do widzenia!"
+        }
+      ],
+      "verificationTime": "2026-10-20T11:46:08.475565+00:00",
+      "verification": "Everycuetext and start/endtiming found in reopenednativeeditorproof; framequantization tolerance0.06sec",
+      "evidence": [
+        "outputs/bastion-video-guides-2026-10-20/en-captions-reopened-start.txt",
+        "outputs/bastion-video-guides-2026-10-20/en-captions-reopened-end.txt",
+        "outputs/bastion-video-guides-2026-10-20/en-captions-reopened.png"
+      ]
+    },
+    "pl": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "xc9jiC3TfNA",
+      "sourceAudioLanguage": "en",
+      "language": "pl",
+      "srtFile": "data/bastion-guide-captions/pl.srt",
+      "localSrtFile": "outputs/bastion-video-guides-2026-10-20/captions/pl.srt",
+      "srtSHA256": "5ec5db3bb5586152c2f4652bf2cbd6b91be257a06eb6c3243a48f3fb1bd38248",
+      "cueCount": 25,
+      "cues": [
+        {
+          "start": 1.23,
+          "end": 8.51,
+          "text": "Cześć! Jestem w Bastionie Sakwowym. To najlepsza"
+        },
+        {
+          "start": 8.51,
+          "end": 10.73,
+          "text": "pora na pobyt w mieście, złota godzina."
+        },
+        {
+          "start": 11.73,
+          "end": 15.45,
+          "text": "W średniowieczu znajdowała się tutaj brama"
+        },
+        {
+          "start": 15.45,
+          "end": 19.05,
+          "text": "miejska. Nazywała się Bramą Sakwową."
+        },
+        {
+          "start": 19.05,
+          "end": 23.67,
+          "text": "Nazwa Sakwowy odnosi się do wytwórców"
+        },
+        {
+          "start": 23.67,
+          "end": 28.61,
+          "text": "portfeli i sakiewek, którzy w"
+        },
+        {
+          "start": 28.61,
+          "end": 31.23,
+          "text": "tamtych czasach działali w tej okolicy."
+        },
+        {
+          "start": 32.21,
+          "end": 36.71,
+          "text": "Od XVI wieku miejsce przekształciło"
+        },
+        {
+          "start": 36.71,
+          "end": 43.79,
+          "text": "się w bastion, czyli ufortyfikowaną budowlę"
+        },
+        {
+          "start": 43.79,
+          "end": 46.31,
+          "text": "stanowiącą część systemu obronnego Wrocławia."
+        },
+        {
+          "start": 47.09,
+          "end": 50.65,
+          "text": "W XIX wieku miasto zdobyły wojska"
+        },
+        {
+          "start": 50.65,
+          "end": 57.69,
+          "text": "napoleońskie. Od tego czasu bastion przestał pełnić"
+        },
+        {
+          "start": 57.69,
+          "end": 64.23,
+          "text": "funkcję obronnej twierdzy Wrocławia. Zmienił swoją rolę"
+        },
+        {
+          "start": 64.23,
+          "end": 68.47,
+          "text": "i stał się bardzo eleganckim miejscem."
+        },
+        {
+          "start": 68.47,
+          "end": 70.95,
+          "text": "Za mną widać fontannę"
+        },
+        {
+          "start": 70.95,
+          "end": 74.87,
+          "text": "i kolumnady. Całość przypomina bardzo"
+        },
+        {
+          "start": 74.87,
+          "end": 78.79,
+          "text": "włoskie, eleganckie miejsce do"
+        },
+        {
+          "start": 79.27,
+          "end": 82.15,
+          "text": "spacerowania. Polecam też restaurację na"
+        },
+        {
+          "start": 82.15,
+          "end": 84.99,
+          "text": "parterze, która nazywa się Gustaw."
+        },
+        {
+          "start": 84.99,
+          "end": 87.41,
+          "text": "Jest godna polecenia. Zapraszam więc"
+        },
+        {
+          "start": 87.41,
+          "end": 93.0,
+          "text": "do Bastionu Sakwowego o każdej porze dnia, rano, w południe,"
+        },
+        {
+          "start": 93.27,
+          "end": 96.79,
+          "text": "po południu, a najlepiej o złotej"
+        },
+        {
+          "start": 96.79,
+          "end": 100.01,
+          "text": "godzinie, kiedy słońce ma już zachodzić."
+        },
+        {
+          "start": 100.41,
+          "end": 102.23,
+          "text": "Do zobaczenia w naszym kolejnym filmie."
+        },
+        {
+          "start": 102.75,
+          "end": 104.4,
+          "text": "Do widzenia!"
+        }
+      ],
+      "verificationTime": "2026-10-20T11:46:08.475565+00:00",
+      "verification": "Everycuetext and start/endtiming found in reopenednativeeditorproof; framequantization tolerance0.06sec",
+      "evidence": [
+        "outputs/bastion-video-guides-2026-10-20/pl-captions-reopened-start.txt",
+        "outputs/bastion-video-guides-2026-10-20/pl-captions-reopened-end.txt",
+        "outputs/bastion-video-guides-2026-10-20/pl-captions-reopened.png"
+      ]
+    },
+    "de": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "xc9jiC3TfNA",
+      "sourceAudioLanguage": "en",
+      "language": "de",
+      "srtFile": "data/bastion-guide-captions/de.srt",
+      "localSrtFile": "outputs/bastion-video-guides-2026-10-20/captions/de.srt",
+      "srtSHA256": "b09724366115cbe2a386e9b87c8d05546e6e55a1035e818881ca120e8ebd8117",
+      "cueCount": 25,
+      "cues": [
+        {
+          "start": 1.23,
+          "end": 8.51,
+          "text": "Cześć! Ich bin an der Bastion Sakwowy. Die"
+        },
+        {
+          "start": 8.51,
+          "end": 10.73,
+          "text": "beste Zeit für einen Stadtbesuch ist die goldene Stunde."
+        },
+        {
+          "start": 11.73,
+          "end": 15.45,
+          "text": "Im Mittelalter befand sich hier ein"
+        },
+        {
+          "start": 15.45,
+          "end": 19.05,
+          "text": "Stadttor. Es hieß Brama Sakwowa."
+        },
+        {
+          "start": 19.05,
+          "end": 23.67,
+          "text": "Der Name Sakwowy verweist auf Hersteller"
+        },
+        {
+          "start": 23.67,
+          "end": 28.61,
+          "text": "von Geldbörsen und Beuteln, die"
+        },
+        {
+          "start": 28.61,
+          "end": 31.23,
+          "text": "damals in dieser Gegend tätig waren."
+        },
+        {
+          "start": 32.21,
+          "end": 36.71,
+          "text": "Ab dem 16. Jahrhundert wurde der Ort"
+        },
+        {
+          "start": 36.71,
+          "end": 43.79,
+          "text": "zu einer Bastion, also einer befestigten Anlage"
+        },
+        {
+          "start": 43.79,
+          "end": 46.31,
+          "text": "als Teil der Verteidigung der Stadt Breslau."
+        },
+        {
+          "start": 47.09,
+          "end": 50.65,
+          "text": "Im 19. Jahrhundert wurde die Stadt von Napoleons"
+        },
+        {
+          "start": 50.65,
+          "end": 57.69,
+          "text": "Truppen erobert. Danach verlor die Bastion ihre Aufgabe"
+        },
+        {
+          "start": 57.69,
+          "end": 64.23,
+          "text": "als Verteidigungsanlage Breslaus. Ihre Rolle änderte sich"
+        },
+        {
+          "start": 64.23,
+          "end": 68.47,
+          "text": "und sie wurde zu einem sehr eleganten Ort."
+        },
+        {
+          "start": 68.47,
+          "end": 70.95,
+          "text": "Hinter mir sehen Sie den Brunnen und"
+        },
+        {
+          "start": 70.95,
+          "end": 74.87,
+          "text": "die Kolonnaden. Es wirkt wie ein sehr"
+        },
+        {
+          "start": 74.87,
+          "end": 78.79,
+          "text": "italienischer, eleganter Ort zum Spazieren. Ich"
+        },
+        {
+          "start": 79.27,
+          "end": 82.15,
+          "text": "empfehle auch das Restaurant im"
+        },
+        {
+          "start": 82.15,
+          "end": 84.99,
+          "text": "Erdgeschoss namens Gustaw. Es ist sehr"
+        },
+        {
+          "start": 84.99,
+          "end": 87.41,
+          "text": "empfehlenswert. Ich lade Sie also ein,"
+        },
+        {
+          "start": 87.41,
+          "end": 93.0,
+          "text": "die Bastion Sakwowy zu jeder Tageszeit zu besuchen, ob am Morgen, mittags,"
+        },
+        {
+          "start": 93.27,
+          "end": 96.79,
+          "text": "am Nachmittag und am besten zur"
+        },
+        {
+          "start": 96.79,
+          "end": 100.01,
+          "text": "goldenen Stunde, kurz bevor die Sonne untergeht."
+        },
+        {
+          "start": 100.41,
+          "end": 102.23,
+          "text": "Wir sehen uns in unserem nächsten Video."
+        },
+        {
+          "start": 102.75,
+          "end": 104.4,
+          "text": "Auf Wiedersehen!"
+        }
+      ],
+      "verificationTime": "2026-10-20T11:46:08.475565+00:00",
+      "verification": "Everycuetext and start/endtiming found in reopenednativeeditorproof; framequantization tolerance0.06sec",
+      "evidence": [
+        "outputs/bastion-video-guides-2026-10-20/de-captions-reopened-start.txt",
+        "outputs/bastion-video-guides-2026-10-20/de-captions-reopened-end.txt",
+        "outputs/bastion-video-guides-2026-10-20/de-captions-reopened.png"
+      ]
+    },
+    "cs": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "xc9jiC3TfNA",
+      "sourceAudioLanguage": "en",
+      "language": "cs",
+      "srtFile": "data/bastion-guide-captions/cs.srt",
+      "localSrtFile": "outputs/bastion-video-guides-2026-10-20/captions/cs.srt",
+      "srtSHA256": "a6899030b6ef059e910721f5338cbd27a788be25315295508ce8c99081ac2ad5",
+      "cueCount": 25,
+      "cues": [
+        {
+          "start": 1.23,
+          "end": 8.51,
+          "text": "Cześć! Jsem u bašty Sakwowy. Nejlepší"
+        },
+        {
+          "start": 8.51,
+          "end": 10.73,
+          "text": "dobou pro návštěvu města je zlatá hodinka."
+        },
+        {
+          "start": 11.73,
+          "end": 15.45,
+          "text": "Ve středověku zde byla městská"
+        },
+        {
+          "start": 15.45,
+          "end": 19.05,
+          "text": "brána. Jmenovala se Brama Sakwowa."
+        },
+        {
+          "start": 19.05,
+          "end": 23.67,
+          "text": "Název Sakwowy odkazuje na výrobce"
+        },
+        {
+          "start": 23.67,
+          "end": 28.61,
+          "text": "peněženek a měšců, kteří tehdy"
+        },
+        {
+          "start": 28.61,
+          "end": 31.23,
+          "text": "působili v okolí tohoto místa."
+        },
+        {
+          "start": 32.21,
+          "end": 36.71,
+          "text": "Od 16. století se místo"
+        },
+        {
+          "start": 36.71,
+          "end": 43.79,
+          "text": "proměnilo v bastion, tedy opevněnou"
+        },
+        {
+          "start": 43.79,
+          "end": 46.31,
+          "text": "stavbu tvořící součást obrany Vratislavi."
+        },
+        {
+          "start": 47.09,
+          "end": 50.65,
+          "text": "V 19. století město dobyla Napoleonova vojska."
+        },
+        {
+          "start": 50.65,
+          "end": 57.69,
+          "text": "Od té doby bašta přestala plnit úlohu"
+        },
+        {
+          "start": 57.69,
+          "end": 64.23,
+          "text": "obranné pevnosti Vratislavi. Její role se"
+        },
+        {
+          "start": 64.23,
+          "end": 68.47,
+          "text": "změnila a stala se velmi elegantním místem."
+        },
+        {
+          "start": 68.47,
+          "end": 70.95,
+          "text": "Za mnou vidíte kašnu a"
+        },
+        {
+          "start": 70.95,
+          "end": 74.87,
+          "text": "kolonády. Působí to jako velmi"
+        },
+        {
+          "start": 74.87,
+          "end": 78.79,
+          "text": "italské, elegantní místo k"
+        },
+        {
+          "start": 79.27,
+          "end": 82.15,
+          "text": "procházkám. Doporučuji také restauraci v"
+        },
+        {
+          "start": 82.15,
+          "end": 84.99,
+          "text": "přízemí jménem Gustaw. Velmi"
+        },
+        {
+          "start": 84.99,
+          "end": 87.41,
+          "text": "ji doporučuji. Zvu vás tedy"
+        },
+        {
+          "start": 87.41,
+          "end": 93.0,
+          "text": "k baště Sakwowy v kteroukoli denní dobu, ať už ráno, v poledne,"
+        },
+        {
+          "start": 93.27,
+          "end": 96.79,
+          "text": "odpoledne a nejlépe za zlaté hodinky,"
+        },
+        {
+          "start": 96.79,
+          "end": 100.01,
+          "text": "když se slunce právě chystá zapadnout."
+        },
+        {
+          "start": 100.41,
+          "end": 102.23,
+          "text": "Uvidíme se v našem dalším videu."
+        },
+        {
+          "start": 102.75,
+          "end": 104.4,
+          "text": "Na shledanou!"
+        }
+      ],
+      "verificationTime": "2026-10-20T11:46:08.475565+00:00",
+      "verification": "Everycuetext and start/endtiming found in reopenednativeeditorproof; framequantization tolerance0.06sec",
+      "evidence": [
+        "outputs/bastion-video-guides-2026-10-20/cs-captions-reopened-start.txt",
+        "outputs/bastion-video-guides-2026-10-20/cs-captions-reopened-end.txt",
+        "outputs/bastion-video-guides-2026-10-20/cs-captions-reopened.png"
+      ]
+    }
+  },
+  "mediaPatch": {
+    "guideVideos": {
+      "en": "https://youtube.com/shorts/xc9jiC3TfNA",
+      "he": "https://youtube.com/shorts/FLx49x9AtUM"
+    }
+  },
+  "preservation": "Samecanonicalbastion; retain representativeyellowarcadeshero,all8photos+6visits preparedby enrichmentowner,5language descriptions,sociallinks,coordinates. No newpoint/pin.",
+  "siteWriter": "/root/bastion_enrichment",
+  "nativeCaptionRouting": {
+    "he": "HEguide+he",
+    "en": "ENguide+en",
+    "pl": "ENguide+pl",
+    "de": "ENguide+de",
+    "cs": "ENguide+cs"
+  },
+  "sourcePictureAudioEdited": false,
+  "approvalReceipt": "outputs/bastion-refresh-2026-10-20/youtube-three-files-approval.json",
+  "historicalClarifications": "IncludedinbothYouTubedescriptions; fulloriginalsuncut. Seeupload-metadata.json andidentity-and-fact-check.json",
+  "siteIntegrationStillRequired": true,
+  "browserOwner": null,
+  "moneySpent": 0
+}

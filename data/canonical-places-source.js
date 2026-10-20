@@ -1380,7 +1380,11 @@
         }
       }
     },
-    "thumbnail": "/assets/bastion-sakwowy-representative.jpg"
+    "thumbnail": "/assets/bastion-sakwowy-representative.jpg",
+    "guideVideos": {
+      "en": "https://youtube.com/shorts/xc9jiC3TfNA",
+      "he": "https://youtube.com/shorts/FLx49x9AtUM"
+    }
   },
   "provenance": {
     "personalVisit": true,

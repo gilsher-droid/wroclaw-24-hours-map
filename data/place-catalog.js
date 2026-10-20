@@ -2215,6 +2215,10 @@
         "/assets/bastion-sakwowy-visit-05.mp4",
         "/assets/bastion-refresh-visit-20261020-06.mp4"
       ],
+      "guideVideos": {
+        "en": "https://youtube.com/shorts/xc9jiC3TfNA",
+        "he": "https://youtube.com/shorts/FLx49x9AtUM"
+      },
       "metadata": {
         "/assets/bastion-sakwowy-01.jpg": {
           "original": true,
@@ -2350,7 +2354,7 @@
           "sourceFile": "בסטיון/WhatsApp Video 2026-10-20 at 13.37.04.mp4",
           "sourceSHA256": "79be611f39e72337fce4e5c97da4862d03e5bbe53f7a82a9aabee6c8da47582a",
           "uploadSHA256": "31ad4e076d1d1f7947302dc7a01ca730125339362b9fea6165b0b37ee33b2e9b",
-          "caption": {
+          "title": {
             "he": "מבט רחב על המזרקה, החצר והעיר בשקיעה",
             "en": "Wide view of the fountain, courtyard and city at sunset",
             "pl": "Szeroki widok fontanny, dziedzińca i miasta o zachodzie słońca",

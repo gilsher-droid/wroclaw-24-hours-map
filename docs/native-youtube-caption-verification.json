@@ -351,6 +351,27 @@
       "provenance": "data/zyjnia-guide-caption-provenance.json",
       "evidence": "docs/zyjnia-guides",
       "reopenedVerification": true
+    },
+    {
+      "canonicalId": "bastion",
+      "videos": {
+        "en": "xc9jiC3TfNA",
+        "he": "FLx49x9AtUM"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "status": "Published"
+      },
+      "verifiedAt": "2026-10-20",
+      "provenance": "data/bastion-guide-caption-provenance.json",
+      "evidence": "docs/bastion-guides",
+      "reopenedVerification": true
     }
   ]
 }

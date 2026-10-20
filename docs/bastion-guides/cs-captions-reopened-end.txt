@@ -1,0 +1,332 @@
+Browser tab: 31058215, Title: "Languages - YouTube Studio", URL: "https://studio.youtube.com/video/xc9jiC3TfNA/translations".
+1 AXWebArea Languages - YouTube Studio, URL: studio.youtube.com/video/xc9jiC3TfNA/translations
+	2 container html-body
+		3 container
+			4 text Languages
+			5 container main-container
+				6 container
+					7 button Collapse menu
+					8 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					9 button Skip navigation
+						10 text Skip navigation
+					11 container search-layer
+						12 text field (settable) query-input
+					13 button Help
+					14 button Notifications
+					15 button Ask Studio
+						16 text Ask Studio
+					17 button Create
+						18 text Create
+					19 container Account
+						20 pop up button Description: Account, ID: avatar-btn
+				21 container
+					22 container left-nav
+						23 link Description: Channel content, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos, ID: back-button
+						24 container
+							25 image Description: Video thumbnail: WROC-LOVE | Bastion Sakwowy | Full original English guide, ID: img-with-fallback
+							26 text 1:45
+							27 container entity-label-container
+								28 text Your video
+								29 text WROC-LOVE | Bastion Sakwowy | Full original English guide
+						30 menu main-menu
+							228 text • 
+							32 Details, ID: menu-item-0
+								33 container menu-paper-icon-item-0
+									34 text Details
+							229 text • 
+							36 Analytics, ID: menu-item-1
+								37 container menu-paper-icon-item-1
+									38 text Analytics
+							230 text • 
+							40 Editor, ID: menu-item-2
+								41 container menu-paper-icon-item-2
+									42 text Editor
+							231 text • 
+							44 Comments, ID: menu-item-3
+								45 container menu-paper-icon-item-3
+									46 text Comments
+							232 text • 
+							48 Languages, ID: menu-item-4
+								49 container menu-paper-icon-item-4
+									50 text Languages
+							233 text • 
+							52 Claims, ID: menu-item-5
+								53 container menu-paper-icon-item-5
+									54 text Claims
+							234 text • 
+							56 Clips and Shorts, ID: menu-item-6
+								57 container menu-paper-icon-item-6
+									58 text Clips and Shorts
+						59 content list
+							60 button Settings, ID: settings-item
+								61 text Settings
+							62 button Send feedback, ID: send-feedback-item
+								63 text Send feedback
+					64 container main
+						72 heading Languages, Value: 1
+							73 text Languages
+						81 container Video language: English, ID: header-section
+							82 heading Video language: English, Value: 2, ID: default-language-title
+								83 text Video language: English
+							84 button Details
+							85 text English subtitles are the default source for auto-translation of subtitles and audio.
+							86 button Edit subtitles
+								87 text Edit subtitles
+							88 button Upload manual
+								89 text Upload manual
+						90 container Translations, ID: translations-section
+							91 heading Translations, Value: 2, ID: language-translations-header
+								92 text Translations
+							93 button Add language
+								94 text Add language
+							121 text 3 translations
+							95 container screen-size-container
+								96 table Description: Translations, ID: ytgn-video-translations-list-table, Help: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									97 text Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									98 row
+										99 cell
+											100 heading Description: Language, Value: 3, ID: language-header-name
+												101 text Language
+										102 cell
+											103 heading Description: Audio, Value: 3, ID: audio-header-name
+												104 text Audio
+										105 cell
+											106 heading Description: Subtitles, Value: 3, ID: captions-header-name
+												107 text Subtitles
+										108 cell
+											109 heading Description: Title and description, Value: 3, ID: metadata-header-name
+												110 text Title and description
+										111 cell
+											112 heading Description: Thumbnail, Value: 3, ID: thumbnail-header-name
+												113 text Thumbnail
+									129 container
+										130 row row-container
+											131 cell
+												132 button Czech
+											133 cell
+											134 cell
+												135 text 1 published
+											136 cell
+										137 row row-container
+											138 cell
+												139 button German
+											140 cell
+											141 cell
+												142 text 1 published
+											143 cell
+										151 row row-container
+											152 cell
+												153 button Polish
+											154 cell
+											155 cell
+												156 text 1 published
+											157 cell
+		158 container Description: Czech subtitles, ID: dialog
+			159 container Description: Czech subtitles, ID: dialog
+				160 container
+					235 container video-editor-captions-modal-header
+						236 text Czech
+					161 container Description: Dialogue controls, ID: secondary-header
+						162 heading Dialogue controls, Value: 2
+							163 text Dialogue controls
+						164 button Send feedback
+						165 button Save draft
+							166 text Save draft
+						167 text Save draft button enabled
+						168 container save-container
+							169 button Publish
+								170 text Publish
+							171 text Publish button enabled
+							172 button Description: Close, ID: close-button
+				174 container
+					175 container panels
+						176 container Edit timings
+							237 heading Edit timings, Value: 2, ID: edit-timings-header
+								238 text Edit timings
+							239 button Subtitle
+								240 text Subtitle
+							241 button (disabled) Edit as text
+								242 text Edit as text
+							243 button Description: Options, ID: more-actions-menu
+							244 container editing-container
+								245 content list Description: Timings, ID: items
+									246 container Text with timing
+										247 container row-container
+											248 text entry area (settable) Description: Subtitle, Value: Cześć! Jsem u bašty Sakwowy. Nejlepší
+											249 container Description:  0 minutes 1 second 6 frames, ID: container
+												250 text field (settable)  0 minutes 1 second 6 frames
+											251 container Description:  0 minutes 8 seconds 15 frames, ID: container
+												252 text field (settable)  0 minutes 8 seconds 15 frames
+									253 container Text with timing
+										254 container row-container
+											255 text entry area (settable) Description: Subtitle, Value: přízemí jménem Gustaw. Velmi
+											256 container Description:  1 minute 22 seconds 3 frames, ID: container
+												257 text field (settable)  1 minute 22 seconds 3 frames
+											258 container Description:  1 minute 24 seconds 28 frames, ID: container
+												259 text field (settable)  1 minute 24 seconds 28 frames
+									260 container Text with timing
+										261 container row-container
+											262 text entry area (settable) Description: Subtitle, Value: ji doporučuji. Zvu vás tedy
+											263 container Description:  1 minute 24 seconds 28 frames, ID: container
+												264 text field (settable)  1 minute 24 seconds 28 frames
+											265 container Description:  1 minute 27 seconds 12 frames, ID: container
+												266 text field (settable)  1 minute 27 seconds 12 frames
+									267 container Text with timing
+										268 container row-container
+											269 text entry area (settable) Description: Subtitle, Value: k baště Sakwowy v kteroukoli
+denní dobu, ať už ráno, v poledne,
+											270 container Description:  1 minute 27 seconds 12 frames, ID: container
+												271 text field (settable)  1 minute 27 seconds 12 frames
+											272 container Description:  1 minute 32 seconds 29 frames, ID: container
+												273 text field (settable)  1 minute 32 seconds 29 frames
+									274 container Text with timing
+										275 container row-container
+											276 text entry area (settable) Description: Subtitle, Value: odpoledne a nejlépe za zlaté hodinky,
+											277 container Description:  1 minute 33 seconds 7 frames, ID: container
+												278 text field (settable)  1 minute 33 seconds 7 frames
+											279 container Description:  1 minute 36 seconds 23 frames, ID: container
+												280 text field (settable)  1 minute 36 seconds 23 frames
+									281 container Text with timing
+										282 container row-container
+											283 text entry area (settable) Description: Subtitle, Value: když se slunce právě chystá zapadnout.
+											284 container Description:  1 minute 36 seconds 23 frames, ID: container
+												285 text field (settable)  1 minute 36 seconds 23 frames
+											286 container Description:  1 minute 39 seconds 29 frames, ID: container
+												287 text field (settable)  1 minute 39 seconds 29 frames
+									288 container Text with timing
+										289 container row-container
+											290 text entry area (settable) Description: Subtitle, Value: Uvidíme se v našem dalším videu.
+											291 container Description:  1 minute 40 seconds 11 frames, ID: container
+												292 text field (settable)  1 minute 40 seconds 11 frames
+											293 container Description:  1 minute 42 seconds 6 frames, ID: container
+												294 text field (settable)  1 minute 42 seconds 6 frames
+									295 container Text with timing
+										296 container row-container
+											297 text entry area (settable) Description: Subtitle, Value: Na shledanou!
+											364 button Description: Remove caption line, ID: delete-segment-button
+											298 container Description:  1 minute 42 seconds 22 frames, ID: container
+												299 text field (settable)  1 minute 42 seconds 22 frames
+											300 container Description:  1 minute 44 seconds 11 frames, ID: container
+												301 text field (settable)  1 minute 44 seconds 11 frames
+											365 button Description: Add caption line, ID: add-segment-after-button
+									302 container Text with timing
+										303 container row-container
+											304 text entry area (settable) Description: Subtitle, Value: změnila a stala se
+velmi elegantním místem.
+											305 container Description:  1 minute 4 seconds 6 frames, ID: container
+												306 text field (settable)  1 minute 4 seconds 6 frames
+											307 container Description:  1 minute 8 seconds 13 frames, ID: container
+												308 text field (settable)  1 minute 8 seconds 13 frames
+									309 container Text with timing
+										310 container row-container
+											311 text entry area (settable) Description: Subtitle, Value: Za mnou vidíte kašnu a
+											312 container Description:  1 minute 8 seconds 13 frames, ID: container
+												313 text field (settable)  1 minute 8 seconds 13 frames
+											314 container Description:  1 minute 10 seconds 27 frames, ID: container
+												315 text field (settable)  1 minute 10 seconds 27 frames
+									316 container Text with timing
+										317 container row-container
+											318 text entry area (settable) Description: Subtitle, Value: kolonády. Působí to jako velmi
+											319 container Description:  1 minute 10 seconds 27 frames, ID: container
+												320 text field (settable)  1 minute 10 seconds 27 frames
+											321 container Description:  1 minute 14 seconds 25 frames, ID: container
+												322 text field (settable)  1 minute 14 seconds 25 frames
+									323 container Text with timing
+										324 container row-container
+											325 text entry area (settable) Description: Subtitle, Value: italské, elegantní místo k
+											326 container Description:  1 minute 14 seconds 25 frames, ID: container
+												327 text field (settable)  1 minute 14 seconds 25 frames
+											328 container Description:  1 minute 18 seconds 22 frames, ID: container
+												329 text field (settable)  1 minute 18 seconds 22 frames
+									366 container Text with timing
+										367 container row-container
+											368 text entry area (settable) Description: Subtitle, Value: procházkám. Doporučuji také restauraci v
+											369 container Description:  1 minute 19 seconds 7 frames, ID: container
+												370 text field (settable)  1 minute 19 seconds 7 frames
+											371 container Description:  1 minute 22 seconds 3 frames, ID: container
+												372 text field (settable)  1 minute 22 seconds 3 frames
+						177 heading Subtitles preview, Value: 2, ID: preview-header
+							178 text Subtitles preview
+						179 container Description: Subtitles preview, ID: preview-panel
+							180 container Description: Video player, ID: video-container
+								181 container Description: WROC-LOVE | Bastion Sakwowy | Full original English guide, ID: video
+								182 container toolbar
+									183 container button-bar
+										184 button Description: Play, ID: play-button
+										185 button Description: Skip back 10 seconds, ID: skip-back-10
+										186 button Description: Skip forwards 10 seconds, ID: skip-forward-10
+										187 container
+											188 button Description: Mute, ID: volume-icon-button
+											189 slider Description: volume, Value: 100, ID: volume-slider
+										330 text 0:00 / 1:45
+										190 container
+											191 button Description: Settings, ID: settings-button
+							192 container preview-cta
+								193 container root-container
+									194 checkbox Description: Pause while typing, Value: 0, ID: checkbox
+									195 text Pause while typing
+								196 button View keyboard shortcuts
+									197 text View keyboard shortcuts
+					198 heading Subtitles timeline, Value: 2, ID: timeline-header
+						199 text Subtitles timeline
+					200 container Description: Subtitles timeline, ID: timeline-section
+						201 container
+							202 container left-controls
+								203 container Description:  0 minutes 0 seconds 0 frames, ID: container
+									204 text field (settable)  0 minutes 0 seconds 0 frames
+								205 button (disabled) Undo
+									206 text Undo
+								207 button (disabled) Redo
+									208 text Redo
+							209 container right-controls
+								210 button Description: Zoom out, ID: zoom-out
+								211 slider Description: Zoom slider, Value: 3, ID: zoom-slider
+								212 button Description: Zoom in, ID: zoom-in
+						213 container
+							214 container header-container
+								215 container
+									216 image Description: Timeline header, ID: canvas
+									217 button Description: Find playhead, ID: find-left-button
+									218 button Description: Find playhead, ID: find-right-button
+							219 container plugin-timeline-surface
+								331 container CAPTIONS
+									332 container decorations
+										333 container Cześć! Jsem u bašty Sakwowy. Nejlepší
+										334 text Cześć! Jsem u bašty Sakwowy. Nejlepší
+										335 container dobou pro návštěvu města je zlatá hodinka.
+										336 text dobou pro návštěvu města je zlatá hodinka.
+										337 container Ve středověku zde byla městská
+										338 text Ve středověku zde byla městská
+										339 container brána. Jmenovala se Brama Sakwowa.
+										340 text brána. Jmenovala se Brama Sakwowa.
+										341 text Název Sakwowy odkazuje na výrobce
+										342 text peněženek a měšců, kteří tehdy
+										343 text působili v okolí tohoto místa.
+										344 text Od 16. století se místo
+										345 text proměnilo v bastion, tedy opevněnou
+										346 text stavbu tvořící součást obrany Vratislavi.
+										347 text V 19. století město dobyla Napoleonova vojska.
+										348 text Od té doby bašta přestala plnit úlohu
+										349 text obranné pevnosti Vratislavi. Její role se
+										350 text změnila a stala se velmi elegantním místem.
+										351 text Za mnou vidíte kašnu a
+										352 text kolonády. Působí to jako velmi
+										353 text italské, elegantní místo k
+										354 text procházkám. Doporučuji také restauraci v
+										355 text přízemí jménem Gustaw. Velmi
+										356 text ji doporučuji. Zvu vás tedy
+										357 text k baště Sakwowy v kteroukoli denní dobu, ať už ráno, v poledne,
+										358 text odpoledne a nejlépe za zlaté hodinky,
+										359 text když se slunce právě chystá zapadnout.
+										360 text Uvidíme se v našem dalším videu.
+										361 text Na shledanou!
+								220 container AUDIO_WAVEFORM
+									362 container audio-timeline-content
+										363 image Description: Audio waveform, ID: audio-waveform
+							223 container Description: Start of timeline, ID: left-bookend
+							224 container Description: End of timeline, ID: right-bookend
+							225 slider Description: Playhead, Value: 0, ID: playhead
+							226 container hover-playhead
+								227 text 0:00:00
+
+The focused UI element is 159 container Description: Czech subtitles, ID: dialog
