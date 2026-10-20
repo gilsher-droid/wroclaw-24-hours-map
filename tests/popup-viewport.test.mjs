@@ -34,7 +34,7 @@ test('open/resize fitting caps tall content, pans once and settles without a fee
  const element={querySelector:()=>content,classList:{add(){}},getBoundingClientRect:()=>popupRect};
  const popup={options:{maxWidth:340,minWidth:50,autoPan:true,keepInView:true},getElement:()=>element,update(){updates++;popupRect.right=popupRect.left+this.options.maxWidth+30;popupRect.bottom=popupRect.top+this.options.maxHeight+26;}};
  const handlers={},listeners={};
- const container={querySelectorAll:()=>[{getBoundingClientRect:()=>({...rect(22,290,54,350),width:32,height:60})}],getBoundingClientRect:()=>mapRect,addEventListener(){},removeEventListener(){}};
+ const container={querySelectorAll:selector=>selector.includes('leaflet-top')?[{getBoundingClientRect:()=>({...rect(22,290,54,350),width:32,height:60})}]:[],getBoundingClientRect:()=>mapRect,addEventListener(){},removeEventListener(){}};
  const map={getContainer:()=>container,hasLayer:()=>true,on(names,fn){names.split(' ').forEach(n=>handlers[n]=fn);},panBy([x,y],options){assert.equal(options.animate,false);pans++;popupRect={left:popupRect.left-x,right:popupRect.right-x,top:popupRect.top-y,bottom:popupRect.bottom-y};handlers.moveend();}};
  const root={L:{Map:{addInitHook(fn){mapHook=fn;}},Popup:{addInitHook(fn){popupHook=fn;}}},innerWidth:390,innerHeight:844,addEventListener(n,fn){listeners[n]=fn;},removeEventListener(){},document:{querySelectorAll:()=>[]},requestAnimationFrame(fn){frames.push(fn);return frames.length;},cancelAnimationFrame(){},ResizeObserver:class{observe(){}disconnect(){}}};
  root.window=root;vm.runInNewContext(readFileSync('popup-viewport.js','utf8'),root);
