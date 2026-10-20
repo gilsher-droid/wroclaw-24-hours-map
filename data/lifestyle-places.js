@@ -83,7 +83,7 @@
     place("the-mexican", ["eat","drink"], [51.1110238,17.0309369], "The Mexican", food.mexican, foodPost, null, sourceFood),
     place("peruwiana", ["eat"], [51.1082145,17.0247652], "Peruwiana", food.peruvian, foodPost, null, sourceFood),
     place("sarah", ["eat"], [51.1081541,17.0252764], "Restauracja Sarah", food.mediterranean, foodPost, null, sourceFood),
-    place("charlotte", ["eat","drink"], [51.1084962,17.026063], "Charlotte", food.breakfast, foodPost, null, sourceFood),
+    { id:"charlotte", categories:["eat","drink"], coordinates:[51.1084962,17.026063], mediaKey:"charlotte" },
     place("central", ["eat","drink"], [51.1088722,17.0260475], "Central Cafe", food.cafe, foodPost, null, sourceFood),
     place("bulka", ["eat","drink"], [51.1081872,17.0242892], "Bułka z Masłem Włodkowica", food.brunch, foodPost, null, sourceFood),
     place("frytki", ["eat"], [51.1090086,17.0256092], "Frytki i Sos", food.fries, foodPost, null, sourceFood),
