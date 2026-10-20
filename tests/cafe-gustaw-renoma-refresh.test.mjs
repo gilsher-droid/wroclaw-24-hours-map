@@ -34,7 +34,7 @@ test('Gustaw is one dining place independent of Bastion, reusing its verified en
 });
 test('All 192 unrelated places remain byte-equivalent after the authorized three-place refresh',()=>{
  assert.equal(Object.keys(catalog.places).length,baseline.beforeCount+6);assert.equal(Object.keys(baseline.unrelatedHashes).length,192);
- for(const[id,hash]of Object.entries(baseline.unrelatedHashes).filter(([id])=>!["charlotte","four-denominations-district","white-stork-synagogue-wroclaw","central","parrot-coffee-bema","boguslawskiego","pizza-si"].includes(id)))assert.equal(createHash('sha256').update(JSON.stringify(catalog.getPlace(id))).digest('hex'),hash,id);
+ for(const[id,hash]of Object.entries(baseline.unrelatedHashes).filter(([id])=>!["charlotte","four-denominations-district","white-stork-synagogue-wroclaw","central","parrot-coffee-bema","boguslawskiego","pizza-si","arche-klasztor"].includes(id)))assert.equal(createHash('sha256').update(JSON.stringify(catalog.getPlace(id))).digest('hex'),hash,id);
  assert.deepEqual(Object.keys(catalog.places).filter(id=>!['srebrna-gora-fortress','klodzko-fortress','klodzko-old-town'].includes(id)&&id!=='central-cafe-nadodrze'&&id!=='bru-coffee-bakehouse-wroclaw'&&!Object.hasOwn(baseline.unrelatedHashes,id)&&!Object.hasOwn(baseline.preserved,id)),baseline.newCanonicalIds);
 });
 

@@ -207,7 +207,7 @@
 
   // Cafe-specific views only; the housing-estate gallery is independent.
   resources.wuwa = { videos: ["/assets/wuwa-cafe-visit-01.mp4"], guideVideos: { he:"https://youtube.com/shorts/tEbmB6OWe90", en:"https://youtube.com/shorts/4EnO5yNkQxc" }, gallery: ["/assets/wuwa-estate-18.jpg", "/assets/wuwa-estate-19.jpg", "/assets/wuwa-estate-20.jpg"] };
-  resources["arche-klasztor"] = { facebook: "https://facebook.com/permalink.php?story_fbid=pfbid026ARddCkCLMWtYCZW6LDMyYD2CQgotXgV2SMXdpSp4RjaZvFaRBaiNLJ4bfvaY7whl&id=61591964083308", instagram: "https://www.instagram.com/p/Dd8ty96FGmt/", gallery: ["/assets/arche-klasztor-01.jpg", "/assets/arche-klasztor-02.jpg", "/assets/arche-klasztor-03.jpg", "/assets/arche-klasztor-04.jpg", "/assets/arche-klasztor-05.jpg", "/assets/arche-klasztor-06.jpg", "/assets/arche-klasztor-07.jpg", "/assets/arche-klasztor-08.jpg", "/assets/arche-klasztor-09.jpg", "/assets/arche-klasztor-10.jpg", "/assets/arche-klasztor-11.jpg"] };
+  resources["arche-klasztor"] = canonicalResources("arche-klasztor");
   for (const [id, media] of Object.entries(resources)) {
     const place = window.WROC_CATALOG?.getPlace?.(id);
     if (!place) continue;
