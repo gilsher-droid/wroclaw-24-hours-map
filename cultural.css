@@ -213,3 +213,8 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 .media-grid img[src*="/dwarf-info/"],.media-grid img[src*="/gallery-gnomes-"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 
 article[data-place="dwarf-info"] p,.leaflet-popup-content:has(img[src*="/dwarf-info/"]) > span{white-space:pre-line;}
+
+.media-grid img[src*="/cafes-alley-refresh-20261020/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+.area-resources[data-area-resources="nadodrze"] p,article[data-place="jatki"] p,.leaflet-popup-content:has(img[src*="jatki-alley-refresh"]) > span{white-space:pre-line;}
+.media-grid img[src*="/nadodrze-walk/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}

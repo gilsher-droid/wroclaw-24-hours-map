@@ -375,6 +375,13 @@
   tramRide.metadata.nearDuplicateImages = ["IMG_4374.JPG", "IMG_4653.JPG"];
   tramRide.media.guideVideos = {};
   const streetAreas = experiences.find(e => e.id === "street-art-nadodrze-olbin");
+  const refreshedNadodrze=streetAreas.mapPoints.find(p=>p.id==="nadodrze");
+  const muralSource="/assets/experiences/nadodrze-walk/visit-15.jpg";
+  if(!refreshedNadodrze.media.photos.includes(muralSource))refreshedNadodrze.media.photos.push(muralSource);
+  refreshedNadodrze.media.metadata[muralSource]={"sourceFile": "Nadodje/WhatsApp Image 2026-10-19 at 08.41.54 (4).jpeg", "sourceSHA256": "f4c06bb82b4da6e8f9da66601cf1d1d63318b20335d671902d26342ead8ca671", "assetSHA256": "f88c88d18e82083942b0bad835ac169896043c05e20d581b7585a0fa7970b1d9", "reusedExistingAsset": true, "originalFullPicturePreserved": true, "familyForeground": false, "factualSource": "https://www.wroclaw.pl/dla-mieszkanca/murale-wroclaw-mapa", "verifiedAt": "2026-10-20T20:30:21.488031+00:00", "alt": {"he": "ציור קיר של הסופר מארק קרייבסקי בנדאודז׳ה", "en": "Marek Krajewski mural in Nadodrze", "pl": "Mural Marka Krajewskiego na Nadodrzu", "de": "Marek-Krajewski-Wandbild in Nadodrze", "cs": "Nástěnná malba Marka Krajewského na Nadodrzu"}};
+  const muralCopy={"he": "בגלריה גם ציור הקיר של הסופר מארק קרייבסקי.\nJedności Narodowej 42/44A", "en": "The gallery also includes the mural of writer Marek Krajewski at Jedności Narodowej 42/44A.", "pl": "W galerii jest też mural pisarza Marka Krajewskiego przy Jedności Narodowej 42/44A.", "de": "Die Galerie zeigt auch das Wandbild des Schriftstellers Marek Krajewski an der Jedności Narodowej 42/44A.", "cs": "Galerie obsahuje také nástěnnou malbu spisovatele Marka Krajewského na adrese Jedności Narodowej 42/44A."};
+  for(const lang of Object.keys(muralCopy))refreshedNadodrze.description[lang]+=" "+muralCopy[lang];
+
   streetAreas.metadata.childExperienceIds = ["nadodrze-neighbourhood-walk"];
   const n = streetAreas.mapPoints.find(p => p.id === "nadodrze");
   const o = streetAreas.mapPoints.find(p => p.id === "olbin");
