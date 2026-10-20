@@ -5948,18 +5948,18 @@
     "id": "central",
     "localName": "Central Cafe",
     "name": {
-      "he": "Central Cafe",
-      "en": "Central Cafe",
-      "pl": "Central Cafe",
-      "de": "Central Cafe",
-      "cs": "Central Cafe"
+      "he": "סנטרל קפה, סניף אנטונייגו",
+      "en": "Central Cafe, Antoniego",
+      "pl": "Central Cafe, Świętego Antoniego",
+      "de": "Central Cafe an der Świętego Antoniego",
+      "cs": "Central Cafe v ulici Świętego Antoniego"
     },
     "description": {
-      "he": "בית קפה מומלץ להפסקה נעימה במרכז.",
-      "en": "A recommended café for a pleasant break in the centre.",
-      "pl": "Polecana kawiarnia na przyjemną przerwę w centrum.",
-      "de": "Ein empfohlenes Café für eine angenehme Pause im Zentrum.",
-      "cs": "Doporučená kavárna pro příjemnou pauzu v centru."
+      "he": "בית קפה וביסטרו ברחוב אנטונייגו ברובע ארבע הדתות. המקום מציע קפה, עוגות ביתיות, ארוחות בוקר ובייגלים הנאפים במקום, לפי אתר בית הקפה. שתי תמונות הביקור שלנו מציגות את החזית, השילוט והישיבה ברחוב. זהו הסניף בעיר העתיקה, בנפרד מהסניף בנדאודזה.\nCentral Cafe\nŚwiętego Antoniego 10, Wrocław",
+      "en": "A café and deli on Świętego Antoniego in the Four Denominations District. The café lists coffee, homemade cakes, breakfast and bagels baked on site. Our two visit photographs show the frontage, signs and street-side seating. This is the Old Town branch, separate from the Nadodrze café.\nŚwiętego Antoniego 10, Wrocław",
+      "pl": "Kawiarnia i deli przy Świętego Antoniego w Dzielnicy Czterech Wyznań. Według strony lokalu w ofercie są kawa, domowe ciasta, śniadania i bajgle wypiekane na miejscu. Nasze dwa zdjęcia z wizyty pokazują fasadę, szyldy i stoliki na ulicy. To lokal na Starym Mieście, odrębny od kawiarni na Nadodrzu.\nŚwiętego Antoniego 10, Wrocław",
+      "de": "Café und Deli an der Świętego Antoniego im Viertel der vier Konfessionen. Die eigene Website nennt Kaffee, hausgemachte Kuchen, Frühstück und vor Ort gebackene Bagels. Unsere zwei Besuchsfotos zeigen die Fassade, Schilder und Straßentische. Dies ist die Altstadtfiliale, getrennt vom Café in Nadodrze.\nŚwiętego Antoniego 10, Wrocław",
+      "cs": "Kavárna a deli v ulici Świętego Antoniego ve čtvrti čtyř vyznání. Podle vlastního webu nabízí kávu, domácí moučníky, snídaně a bagely pečené na místě. Naše dvě fotografie zachycují průčelí, vývěsní štíty a venkovní posezení. Jde o pobočku ve Starém Městě, oddělenou od kavárny ve čtvrti Nadodrze.\nŚwiętego Antoniego 10, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -5968,6 +5968,11 @@
       "coordinates": {
         "lat": 51.1088722,
         "lng": 17.0260475
+      },
+      "address": {
+        "street": "Świętego Antoniego 10",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -6037,53 +6042,13 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://centralcafe.eatbu.com/?lang=pl",
       "navigation": {
-        "googleMaps": null,
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1088722%2C17.0260475",
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "language": "de",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0rgvRC2csUVPtvk3SbainQtGftzEfiN4yQ5tK5aUaUnY7JEime5NQre2tsMrSUKMsl&id=61595239823399",
-        "verifiedAt": "2026-10-07T15:31:50.457386+00:00"
-      },
-      {
-        "platform": "facebook",
-        "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HiDPr3enjr4EUa6gf8JN5sYy6TcQzNYSxJ5Hy91NkbSb9uNTAy6J9pfzRGmR3QH5l&id=61594716405964",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "en",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0pXmR4Y43iy8r5Gy4vmGS5u6YHQ7cxHx5sBhz74HBUjeER8RqMLtWDzwV9gHshPvpl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "pl",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02yurJAEtBGhCXdscvPQoBJwEgdb2U5n7DfGnkbDmE5ZT8o74n9EVCgTEi6sr1JyL8l&id=61595207664875",
-        "verifiedAt": "2026-10-08T04:42:08.958334+00:00"
-      },
-      {
-        "platform": "facebook",
-        "language": "he",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02QJERmSzdraj5dB7bCdimwmicLCVJpC6qrzoYg76mCnVRSDUaSbzq6bykPEYwxA8Gl&id=61591964083308",
-        "verifiedAt": "2026-10-09T10:41:10.082Z"
-      },
-      {
-        "platform": "facebook",
-        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
-        "routingExcluded": true
-      }
-    ],
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -6096,7 +6061,252 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-20",
+      "factualSources": [
+        "https://centralcafe.eatbu.com/?lang=pl"
+      ],
+      "coordinateMethod": "Existing canonical coordinates preserved"
+    },
+    "media": {
+      "thumbnail": "/assets/central-cafe/central-visit-01.jpg",
+      "photos": [
+        "/assets/central-cafe/central-visit-01.jpg",
+        "/assets/central-cafe/central-visit-02.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/central-cafe/central-visit-01.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 16.27.11 (1).jpeg",
+          "sourceSHA256": "92a2be05f87777c7937f4ccd5ff9f0d8283cec172efbf6601c004ff3dd1119a7",
+          "assetSHA256": "468de1c62f2b9da896c0c775a51e2c77e34d3a68871a68208b5784d06be04d76",
+          "alt": {
+            "he": "חזית סניף סנטרל קפה ברחוב אנטונייגו",
+            "en": "Frontage of Central Cafe on Świętego Antoniego",
+            "pl": "Fasada Central Cafe przy Świętego Antoniego",
+            "de": "Fassade des Central Cafe an der Świętego Antoniego",
+            "cs": "Průčelí Central Cafe v ulici Świętego Antoniego"
+          },
+          "familyForeground": false,
+          "privacyReview": "Place frontage/entrance is the main subject; no posed family image. Incidental passerby/reflection is not treated as a portrait."
+        },
+        "/assets/central-cafe/central-visit-02.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 16.27.11.jpeg",
+          "sourceSHA256": "e2167db1d6a11e2e47f3f03644ed42e5fb5f2a6f8139562c616ba564adb31ce9",
+          "assetSHA256": "16d2517142974e8dff1cfd80b1cdea7a6686dacd1d427431143e3c8fb235e0eb",
+          "alt": {
+            "he": "חזית סניף סנטרל קפה ברחוב אנטונייגו",
+            "en": "Frontage of Central Cafe on Świętego Antoniego",
+            "pl": "Fasada Central Cafe przy Świętego Antoniego",
+            "de": "Fassade des Central Cafe an der Świętego Antoniego",
+            "cs": "Průčelí Central Cafe v ulici Świętego Antoniego"
+          },
+          "familyForeground": false,
+          "privacyReview": "Place frontage/entrance is the main subject; no posed family image. Incidental passerby/reflection is not treated as a portrait."
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0rgvRC2csUVPtvk3SbainQtGftzEfiN4yQ5tK5aUaUnY7JEime5NQre2tsMrSUKMsl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:31:50.457386+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HiDPr3enjr4EUa6gf8JN5sYy6TcQzNYSxJ5Hy91NkbSb9uNTAy6J9pfzRGmR3QH5l&id=61594716405964",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0pXmR4Y43iy8r5Gy4vmGS5u6YHQ7cxHx5sBhz74HBUjeER8RqMLtWDzwV9gHshPvpl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02yurJAEtBGhCXdscvPQoBJwEgdb2U5n7DfGnkbDmE5ZT8o74n9EVCgTEi6sr1JyL8l&id=61595207664875",
+        "verifiedAt": "2026-10-08T04:42:08.958334+00:00",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02QJERmSzdraj5dB7bCdimwmicLCVJpC6qrzoYg76mCnVRSDUaSbzq6bykPEYwxA8Gl&id=61591964083308",
+        "verifiedAt": "2026-10-09T10:41:10.082Z"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
+      }
     ]
+  },
+  "central-cafe-nadodrze": {
+    "id": "central-cafe-nadodrze",
+    "localName": "Central Cafe 2.0",
+    "name": {
+      "he": "סנטרל קפה 2.0, נדאודזה",
+      "en": "Central Cafe 2.0, Nadodrze",
+      "pl": "Central Cafe 2.0, Nadodrze",
+      "de": "Central Cafe 2.0 in Nadodrze",
+      "cs": "Central Cafe 2.0 ve čtvrti Nadodrze"
+    },
+    "description": {
+      "he": "סניף נוסף של סנטרל קפה בשכונת נדאודזה, ברחוב ידנושצ׳י נרודוביי37. שתי תמונות הביקור שלנו מציגות את החזית עם הסוככים ושולחנות החוץ, ואת הכניסה המסומנת במספר37. זהו מקום נפרד מסניף אנטונייגו ברובע ארבע הדתות. אפשר לשלב כאן הפסקת קפה וארוחת בוקר במהלך שיטוט בשכונה.\nCentral Cafe 2.0\nJedności Narodowej 37, Wrocław",
+      "en": "A second Central Cafe branch in Nadodrze, at 37 Jedności Narodowej. Our two visit photographs show the frontage with awnings and outdoor tables, plus the entrance marked 37. It is separate from the Świętego Antoniego café in the Four Denominations District. A possible coffee and breakfast pause while exploring the neighbourhood.\nJedności Narodowej 37, Wrocław",
+      "pl": "Drugi lokal Central Cafe na Nadodrzu, przy Jedności Narodowej 37. Nasze dwa zdjęcia z wizyty pokazują fasadę z markizami i stolikami na zewnątrz oraz wejście oznaczone numerem 37. To odrębny lokal od kawiarni przy Świętego Antoniego w Dzielnicy Czterech Wyznań. Można połączyć tu kawę i śniadanie ze spacerem po osiedlu.\nJedności Narodowej 37, Wrocław",
+      "de": "Eine zweite Central-Cafe-Filiale in Nadodrze an der Jedności Narodowej 37. Unsere zwei Besuchsfotos zeigen die Fassade mit Markisen und Außentischen sowie den Eingang mit der Nummer 37. Das Café ist getrennt von der Filiale an der Świętego Antoniego im Viertel der vier Konfessionen. Eine mögliche Kaffee- und Frühstückspause beim Erkunden des Viertels.\nJedności Narodowej 37, Wrocław",
+      "cs": "Druhá pobočka Central Cafe ve čtvrti Nadodrze na adrese Jedności Narodowej 37. Naše dvě fotografie zachycují průčelí s markýzami a venkovními stolky a vchod označený číslem 37. Jde o jiné místo než kavárna v ulici Świętego Antoniego ve čtvrti čtyř vyznání. Možnost zastávky na kávu a snídani při procházce čtvrtí.\nJedności Narodowej 37, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1185679,
+        "lng": 17.038033
+      },
+      "address": {
+        "street": "Jedności Narodowej 37",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "cafe",
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "central-cafe-nadodrze"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "central-cafe-nadodrze",
+        "lat": 51.1185679,
+        "lng": 17.038033
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "cafe",
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1185679%2C17.038033",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-20",
+      "factualSources": [
+        "https://www.wroclaw.pl/dla-mieszkanca/gastronowosci-we-wroclawiu-nowe-restauracje-i-kawiarnie",
+        "https://www.apartamenty-wroc.pl/o-nas/poznaj-nas"
+      ],
+      "coordinateMethod": "Exact OSM address node6343796145 for confirmed street address; not a surveyed cafe door position."
+    },
+    "media": {
+      "thumbnail": "/assets/central-cafe/central-cafe-nadodrze-visit-01.jpg",
+      "photos": [
+        "/assets/central-cafe/central-cafe-nadodrze-visit-01.jpg",
+        "/assets/central-cafe/central-cafe-nadodrze-visit-02.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/central-cafe/central-cafe-nadodrze-visit-01.jpg": {
+          "original": true,
+          "sourceFile": "נדאודזה/WhatsApp Image 2026-10-20 at 17.30.29 (2).jpeg",
+          "sourceSHA256": "363d8f7b0ea2f40234c129912bb3ccd153a5b849cb24e45fe6bf4ddf4400e9a2",
+          "assetSHA256": "0e068978fc1b82aa7c4e1968ca7ce160ac91bfa0ee50ded2e1533b8df4175ba7",
+          "alt": {
+            "he": "חזית סניף סנטרל קפה בנדאודזה",
+            "en": "Frontage of Central Cafe in Nadodrze",
+            "pl": "Fasada Central Cafe na Nadodrzu",
+            "de": "Fassade des Central Cafe in Nadodrze",
+            "cs": "Průčelí Central Cafe ve čtvrti Nadodrze"
+          },
+          "familyForeground": false,
+          "privacyReview": "Place frontage/entrance is the main subject; no posed family image. Incidental passerby/reflection is not treated as a portrait."
+        },
+        "/assets/central-cafe/central-cafe-nadodrze-visit-02.jpg": {
+          "original": true,
+          "sourceFile": "נדאודזה/WhatsApp Image 2026-10-20 at 17.30.29.jpeg",
+          "sourceSHA256": "da45243e535fb8612aa491d6091686ffdf91056cd37e350f2ae86626b197cb11",
+          "assetSHA256": "e2155b12ba5a7f089ab788514bc95d89ac3d112b09051fbd86f0eeadf9436233",
+          "alt": {
+            "he": "חזית סניף סנטרל קפה בנדאודזה",
+            "en": "Frontage of Central Cafe in Nadodrze",
+            "pl": "Fasada Central Cafe na Nadodrzu",
+            "de": "Fassade des Central Cafe in Nadodrze",
+            "cs": "Průčelí Central Cafe ve čtvrti Nadodrze"
+          },
+          "familyForeground": false,
+          "privacyReview": "Place frontage/entrance is the main subject; no posed family image. Incidental passerby/reflection is not treated as a portrait."
+        }
+      }
+    },
+    "socialPosts": []
   },
   "charlotte": {
     "id": "charlotte",
