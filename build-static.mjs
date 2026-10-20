@@ -68,6 +68,17 @@ for (const file of [
   await cp(resolve(root, file), resolve(client, file));
 }
 
+// These root pages also consume generated experience data. Content-address the
+// scripts so a returning visitor does not keep an older experience list.
+const homeExperienceScripts = await Promise.all([
+  "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
+  "/data/canonical-experiences.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js",
+  "/experiences.js", "/guide-video.js", "/youtube-video.js",
+].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
+for (const file of ["index.html", "experiences.html"]) {
+  await writeFile(resolve(client, file), versionScriptUrls(await readFile(resolve(root, file), "utf8"), homeExperienceScripts));
+}
+
 // Phase 1: access.js, checkout.js, admin.html and admin.js are deliberately
 // retained in source control for reversibility, but are not shipped publicly.
 
