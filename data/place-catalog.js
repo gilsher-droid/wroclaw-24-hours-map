@@ -1713,6 +1713,274 @@
       "cs"
     ]
   },
+  "barbara-wroclaw": {
+    "id": "barbara-wroclaw",
+    "localName": "Barbara",
+    "name": {
+      "he": "ברברה, מרכז תרבות ובית קפה",
+      "en": "Barbara Cultural Centre and Café",
+      "pl": "Barbara, przestrzeń kultury i kawiarnia",
+      "de": "Barbara, Kulturzentrum und Café",
+      "cs": "Barbara, kulturní centrum a kavárna"
+    },
+    "description": {
+      "he": "מרכז התרבות ובית הקפה ברברה שוכנים ברחוב שווידניצקה, במבנה מודרניסטי עם חלונות רחבים ועמודי פסיפס בשחור ולבן. המקום משמש את מכון התרבות של ורוצלב ומציע מפגשים, הרצאות, סדנאות, מרחב קריאה ובית קפה. שמו משמר את זכרו של בר ברברה שפעל כאן משנות השישים עד שנות התשעים ונקשר גם לפעילות האלטרנטיבה הכתומה. תמונות הביקור שלנו מציגות את השלט, החזית, חללי התצוגה ופרטים מההיסטוריה המקומית. בדקו באתר הרשמי את לוח האירועים ואת פרטי הביקור.\nBarbara\nŚwidnicka 8B, Wrocław",
+      "en": "Barbara combines a cultural venue, reading space and café on Świdnicka Street. Its modernist interior features large windows and black-and-white mosaic columns. Run by the Wrocław Institute of Culture, it hosts meetings, talks and workshops. The name recalls the former Bar Barbara, active here from the 1960s to the 1990s and associated with the Orange Alternative. Our visit photographs show the sign, frontage, exhibition spaces and local-history details. Check the official programme and visitor information before coming.\nŚwidnicka 8B, Wrocław",
+      "pl": "Barbara przy ulicy Świdnickiej łączy przestrzeń kultury, czytelnię i kawiarnię. Modernistyczne wnętrze wyróżniają duże witryny i czarno-białe kolumny mozaikowe. Wrocławski Instytut Kultury organizuje tu spotkania, wykłady i warsztaty. Nazwa przypomina dawny bar Barbara, działający od lat 60. do 90. i związany również z Pomarańczową Alternatywą. Nasze zdjęcia pokazują neon, fasadę, przestrzeń wystawową i detale lokalnej historii. Przed wizytą sprawdź oficjalny program i informacje dla gości.\nŚwidnicka 8B, Wrocław",
+      "de": "Barbara verbindet einen Kulturort, einen Lesebereich und ein Café an der Świdnicka-Straße. Große Fenster und schwarz-weiße Mosaiksäulen prägen den modernistischen Innenraum. Das Breslauer Kulturinstitut veranstaltet hier Gespräche, Vorträge und Workshops. Der Name erinnert an die ehemalige Bar Barbara, die hier von den 1960er- bis in die 1990er-Jahre bestand und auch mit der Orangen Alternative verbunden war. Unsere Besuchsfotos zeigen das Schild, die Fassade, Ausstellungsräume und Details zur Ortsgeschichte. Aktuelles Programm und Besuchsinformationen stehen auf der offiziellen Website.\nŚwidnicka 8B, Wrocław",
+      "cs": "Barbara v ulici Świdnicka spojuje kulturní prostor, čítárnu a kavárnu. Modernistický interiér charakterizují velká okna a černobílé mozaikové sloupy. Vratislavský kulturní institut zde pořádá setkání, přednášky a dílny. Název připomíná někdejší bar Barbara, který zde fungoval od 60. do 90. let a byl spojen také s Oranžovou alternativou. Naše fotografie ukazují neon, průčelí, výstavní prostory a detaily místní historie. Před návštěvou ověřte oficiální program a informace pro návštěvníky.\nŚwidnicka 8B, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.10769750953518,
+        "lng": 17.032835136772945
+      },
+      "address": {
+        "street": "Świdnicka 8B",
+        "postalCode": "50-067",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "cafe",
+      "culture"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "bar-barbara",
+      "barbara",
+      "barbara-infopunkt",
+      "wroclawski-instytut-kultury"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "cafe",
+        "culture"
+      ],
+      "tags": [
+        "art-contemporary",
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://instytutkultury.pl/barbara/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10769750953518%2C17.032835136772945",
+        "appleMaps": "https://maps.apple.com/?ll=51.10769750953518,17.032835136772945&q=Barbara"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "official-place-and-original-visit-photo-audit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://instytutkultury.pl/barbara/",
+          "checkedAt": "2026-10-20"
+        },
+        {
+          "type": "official-city-map",
+          "url": "https://geoportal.wroclaw.pl/poi/poi/11427",
+          "checkedAt": "2026-10-20",
+          "coordinates": "EPSG2177 point6432270.460180425,5664075.808236006 converted toEPSG4326 withArcGIS GeometryServer"
+        }
+      ],
+      "mediaSource": "data/barbara-media-provenance.json",
+      "familyException": false
+    },
+    "media": {
+      "photos": [
+        "/assets/barbara-wroclaw-entrance.jpg",
+        "/assets/barbara-wroclaw-neon-detail.jpg",
+        "/assets/barbara-wroclaw-street-context.jpg",
+        "/assets/barbara-wroclaw-exhibition-poster.jpg",
+        "/assets/barbara-wroclaw-historic-menu-detail.jpg",
+        "/assets/barbara-wroclaw-exhibition-room.jpg",
+        "/assets/barbara-wroclaw-mosaic-column.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/barbara-wroclaw-neon-detail.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 12.15.47.jpeg",
+          "sourceSHA256": "eeadf818e2240e6ce4d81eda30ae21da969123e2c1a78d3a49c85b77e414f580",
+          "assetSHA256": "e0102950f115b3d7cf2bd39df664144e2129be9136aa459deb8d6caf2c975b61",
+          "familyForeground": false,
+          "heroCandidate": false,
+          "alt": {
+            "he": "תקריב של שלט הניאון של ברברה",
+            "en": "Close view of Barbara’s neon sign",
+            "pl": "Zbliżenie neonu Barbary",
+            "de": "Nahaufnahme des Barbara-Neonschilds",
+            "cs": "Detail neonového nápisu Barbara"
+          },
+          "tags": [
+            "barbara",
+            "neon-detail"
+          ]
+        },
+        "/assets/barbara-wroclaw-street-context.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.10 (1).jpeg",
+          "sourceSHA256": "ee9759e931d2a572dc852eb4779f3fd2fd7ed995e0c5c05daeee2118a015c8a4",
+          "assetSHA256": "2f0863fbbe9ad1cc6243f45603933e2b4f16dae8ab132c44bc7c4a7239862554",
+          "familyForeground": false,
+          "heroCandidate": false,
+          "alt": {
+            "he": "רחוב שווידניצקה והדגלים מול ברברה",
+            "en": "Świdnicka Street and flags outside Barbara",
+            "pl": "Ulica Świdnicka i flagi przed Barbarą",
+            "de": "Świdnicka-Straße und Fahnen vor Barbara",
+            "cs": "Ulice Świdnicka a vlajky před Barbarou"
+          },
+          "tags": [
+            "barbara",
+            "street-context"
+          ]
+        },
+        "/assets/barbara-wroclaw-entrance.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.10.jpeg",
+          "sourceSHA256": "c6dcdf3c84fe4689879bb79d9371f012f6e1156fc11200e91e8fc1eba9139829",
+          "assetSHA256": "70c29e239ae0e190777d75e327cd9524cee3f41c2e20e9e3a3a07de29ce5387c",
+          "familyForeground": false,
+          "heroCandidate": true,
+          "alt": {
+            "he": "החזית והשלט בכניסה למרכז התרבות ברברה",
+            "en": "Facade and sign at the Barbara cultural centre entrance",
+            "pl": "Fasada i szyld przy wejściu do Barbary",
+            "de": "Fassade und Schild am Eingang des Kulturzentrums Barbara",
+            "cs": "Průčelí a nápis u vstupu do kulturního centra Barbara"
+          },
+          "tags": [
+            "barbara",
+            "entrance"
+          ]
+        },
+        "/assets/barbara-wroclaw-exhibition-poster.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.11.jpeg",
+          "sourceSHA256": "ac1a8c9dfe8f78cb45d862c4e3b1fbce4b4418b7518d3f17010c8e541aa81035",
+          "assetSHA256": "3f681368af39a35ec11ebfa464d6029a8510a0435691674dacd9b33e1f5396ee",
+          "familyForeground": false,
+          "heroCandidate": false,
+          "alt": {
+            "he": "כרזת התערוכה בחלל הפנימי של ברברה",
+            "en": "Exhibition poster inside Barbara",
+            "pl": "Plakat wystawy we wnętrzu Barbary",
+            "de": "Ausstellungsplakat im Innenraum von Barbara",
+            "cs": "Plakát výstavy v interiéru Barbary"
+          },
+          "tags": [
+            "barbara",
+            "exhibition-poster"
+          ]
+        },
+        "/assets/barbara-wroclaw-historic-menu-detail.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.13.jpeg",
+          "sourceSHA256": "97399204c7417018906b6d0e662404314129532ff965a7f37b7861547a3e175a",
+          "assetSHA256": "959588c5652f19b884a82101124de0d378f9db3de0901e9d09396172ed24e3f7",
+          "familyForeground": false,
+          "heroCandidate": false,
+          "alt": {
+            "he": "פרט מתצוגת ההיסטוריה של בר ברברה",
+            "en": "Detail of the display about the former Bar Barbara",
+            "pl": "Fragment ekspozycji o dawnym barze Barbara",
+            "de": "Detail der Ausstellung über die ehemalige Bar Barbara",
+            "cs": "Detail expozice o někdejším baru Barbara"
+          },
+          "tags": [
+            "barbara",
+            "historic-menu-detail"
+          ]
+        },
+        "/assets/barbara-wroclaw-exhibition-room.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.14.jpeg",
+          "sourceSHA256": "888bfe42f62623b596b576027d8692294c6b39d24ae7a944c87ef4ce4f266be2",
+          "assetSHA256": "fca98a48d85910201940844e521d4d142e29c45dda14fae981132f28d37efb4a",
+          "familyForeground": false,
+          "heroCandidate": false,
+          "alt": {
+            "he": "חלל התערוכה והישיבה של ברברה",
+            "en": "Exhibition and seating space at Barbara",
+            "pl": "Przestrzeń wystawowa i miejsca do siedzenia w Barbarze",
+            "de": "Ausstellungsbereich und Sitzplätze in Barbara",
+            "cs": "Výstavní a odpočinkový prostor v Barbaře"
+          },
+          "tags": [
+            "barbara",
+            "exhibition-room"
+          ]
+        },
+        "/assets/barbara-wroclaw-mosaic-column.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.15.jpeg",
+          "sourceSHA256": "eec0d4b27d81e1ecf838b662e92a8d5aab7579ebf4ebb79d6bb5f12b4e1e40fa",
+          "assetSHA256": "f0eafc63f70c901b326119e5b76a72a2d36d45d047998ce90556d75e8d44f9f9",
+          "familyForeground": false,
+          "heroCandidate": false,
+          "alt": {
+            "he": "עמוד הפסיפס בשחור ולבן בתוך ברברה",
+            "en": "Black-and-white mosaic column inside Barbara",
+            "pl": "Czarno-biała kolumna mozaikowa w Barbarze",
+            "de": "Schwarz-weiße Mosaiksäule in Barbara",
+            "cs": "Černobílý mozaikový sloup v Barbaře"
+          },
+          "tags": [
+            "barbara",
+            "mosaic-column"
+          ]
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "bastion": {
     "id": "bastion",
     "localName": "Bastion Sakwowy",
@@ -37526,6 +37794,10 @@
   "FC Caffe": "fc-caffe-kuznicza",
   "קפה אף סי": "fc-caffe-kuznicza",
   "קפה אפ סי": "fc-caffe-kuznicza",
+  "barbara": "barbara-wroclaw",
+  "bar-barbara": "barbara-wroclaw",
+  "barbara-infopunkt": "barbara-wroclaw",
+  "wroclawski-instytut-kultury": "barbara-wroclaw",
   "four-religions": "four-denominations-district",
   "four-temples": "four-denominations-district",
   "district-of-mutual-respect": "four-denominations-district",

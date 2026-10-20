@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-20",
+  "canonicalId": "barbara-wroclaw",
+  "familyException": false,
+  "originalsUnmodified": true,
+  "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA",
+  "inventory": [
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.15.47.jpeg",
+      "sha256": "eeadf818e2240e6ce4d81eda30ae21da969123e2c1a78d3a49c85b77e414f580",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "role": "neon-detail",
+      "familyForeground": false,
+      "decision": "selected",
+      "reason": "Distinct identified visit view; no posed/family foreground",
+      "asset": "/assets/barbara-wroclaw-neon-detail.jpg",
+      "assetSHA256": "e0102950f115b3d7cf2bd39df664144e2129be9136aa459deb8d6caf2c975b61"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.28.10 (1).jpeg",
+      "sha256": "ee9759e931d2a572dc852eb4779f3fd2fd7ed995e0c5c05daeee2118a015c8a4",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "role": "street-context",
+      "familyForeground": false,
+      "decision": "selected",
+      "reason": "Distinct identified visit view; no posed/family foreground",
+      "asset": "/assets/barbara-wroclaw-street-context.jpg",
+      "assetSHA256": "2f0863fbbe9ad1cc6243f45603933e2b4f16dae8ab132c44bc7c4a7239862554"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.28.10.jpeg",
+      "sha256": "c6dcdf3c84fe4689879bb79d9371f012f6e1156fc11200e91e8fc1eba9139829",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "role": "entrance",
+      "familyForeground": false,
+      "decision": "selected",
+      "reason": "Distinct identified visit view; no posed/family foreground",
+      "asset": "/assets/barbara-wroclaw-entrance.jpg",
+      "assetSHA256": "70c29e239ae0e190777d75e327cd9524cee3f41c2e20e9e3a3a07de29ce5387c"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.28.11.jpeg",
+      "sha256": "ac1a8c9dfe8f78cb45d862c4e3b1fbce4b4418b7518d3f17010c8e541aa81035",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "role": "exhibition-poster",
+      "familyForeground": false,
+      "decision": "selected",
+      "reason": "Distinct identified visit view; no posed/family foreground",
+      "asset": "/assets/barbara-wroclaw-exhibition-poster.jpg",
+      "assetSHA256": "3f681368af39a35ec11ebfa464d6029a8510a0435691674dacd9b33e1f5396ee"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.28.13.jpeg",
+      "sha256": "97399204c7417018906b6d0e662404314129532ff965a7f37b7861547a3e175a",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "role": "historic-menu-detail",
+      "familyForeground": false,
+      "decision": "selected",
+      "reason": "Distinct identified visit view; no posed/family foreground",
+      "asset": "/assets/barbara-wroclaw-historic-menu-detail.jpg",
+      "assetSHA256": "959588c5652f19b884a82101124de0d378f9db3de0901e9d09396172ed24e3f7"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.28.14.jpeg",
+      "sha256": "888bfe42f62623b596b576027d8692294c6b39d24ae7a944c87ef4ce4f266be2",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "role": "exhibition-room",
+      "familyForeground": false,
+      "decision": "selected",
+      "reason": "Distinct identified visit view; no posed/family foreground",
+      "asset": "/assets/barbara-wroclaw-exhibition-room.jpg",
+      "assetSHA256": "fca98a48d85910201940844e521d4d142e29c45dda14fae981132f28d37efb4a"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.28.15.jpeg",
+      "sha256": "eec0d4b27d81e1ecf838b662e92a8d5aab7579ebf4ebb79d6bb5f12b4e1e40fa",
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "role": "mosaic-column",
+      "familyForeground": false,
+      "decision": "selected",
+      "reason": "Distinct identified visit view; no posed/family foreground",
+      "asset": "/assets/barbara-wroclaw-mosaic-column.jpg",
+      "assetSHA256": "f0eafc63f70c901b326119e5b76a72a2d36d45d047998ce90556d75e8d44f9f9"
+    },
+    {
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.28.16.jpeg",
+      "sha256": "9c3436084f436db2460dd3dd774300c452c969ecbbee7446e5d636009d0f9025",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "role": "document",
+      "familyForeground": false,
+      "decision": "excluded",
+      "reason": "Photographed document text is blurred and not sufficiently readable; original retained"
+    }
+  ],
+  "selectedPhotos": 7,
+  "visitVideos": 0,
+  "guides": 0,
+  "maps": {
+    "cultural": "Architecture/design and contemporary culture; exhibition and cultural programme",
+    "lifestyle": "No new Barbara hospitality pin: existing separate Figa w Barbarze café/water-programme identity is preserved. Barbara is the cultural venue.",
+    "timedRoutes": "No changes: optional venue does not require extending existing fixed routes",
+    "regionalAndChristmas": "Not appropriate"
+  },
+  "nearbyDistinctIdentities": {
+    "figa-w-barbarze": "Café operator within Barbara, official operator notice confirms relationship; existing identity preserved",
+    "papa": "Adjacent public artwork, not same venue"
+  }
+}
