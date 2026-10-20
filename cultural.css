@@ -211,3 +211,5 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 
 /* Preserve full dwarf-centre visit photographs and legacy city-hunt illustrations. */
 .media-grid img[src*="/dwarf-info/"],.media-grid img[src*="/gallery-gnomes-"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+article[data-place="dwarf-info"] p,.leaflet-popup-content:has(img[src*="/dwarf-info/"]) > span{white-space:pre-line;}
