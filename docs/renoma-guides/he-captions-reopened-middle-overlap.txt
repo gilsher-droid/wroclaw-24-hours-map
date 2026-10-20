@@ -1,0 +1,313 @@
+Browser tab: 31058224, Title: "Languages - YouTube Studio", URL: "https://studio.youtube.com/video/nrLBgAkEdt0/translations".
+1 AXWebArea Languages - YouTube Studio, URL: studio.youtube.com/video/nrLBgAkEdt0/translations
+	2 container html-body
+		3 container
+			4 text Languages
+			5 container main-container
+				6 container
+					7 button Collapse menu
+					8 link Description: YouTube Studio dashboard, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA, ID: home-button
+					9 button Skip navigation
+						10 text Skip navigation
+					11 container search-layer
+						12 text field (settable) query-input
+					13 button Help
+					14 button Notifications
+					15 button Ask Studio
+						16 text Ask Studio
+					17 button Create
+						18 text Create
+					19 container Account
+						20 pop up button Description: Account, ID: avatar-btn
+				21 container
+					22 container left-nav
+						23 link Description: Channel content, Value: studio.youtube.com/channel/UCecxn_f6i_i47s3HXYrUVkA/videos, ID: back-button
+						24 container
+							25 image Description: Video thumbnail: רנומה | המדריך שלנו בעברית, ID: img-with-fallback
+							26 text 1:36
+							27 container entity-label-container
+								28 text Your video
+								29 text רנומה | המדריך שלנו בעברית
+						30 menu main-menu
+							182 text • 
+							32 Details, ID: menu-item-0
+								33 container menu-paper-icon-item-0
+									34 text Details
+							183 text • 
+							36 Analytics, ID: menu-item-1
+								37 container menu-paper-icon-item-1
+									38 text Analytics
+							184 text • 
+							40 Editor, ID: menu-item-2
+								41 container menu-paper-icon-item-2
+									42 text Editor
+							185 text • 
+							44 Comments, ID: menu-item-3
+								45 container menu-paper-icon-item-3
+									46 text Comments
+							186 text • 
+							48 Languages, ID: menu-item-4
+								49 container menu-paper-icon-item-4
+									50 text Languages
+							187 text • 
+							52 Claims, ID: menu-item-5
+								53 container menu-paper-icon-item-5
+									54 text Claims
+							188 text • 
+							56 Clips and Shorts, ID: menu-item-6
+								57 container menu-paper-icon-item-6
+									58 text Clips and Shorts
+						59 content list
+							60 button Settings, ID: settings-item
+								61 text Settings
+							62 button Send feedback, ID: send-feedback-item
+								63 text Send feedback
+					64 container main
+						65 heading Languages, Value: 1
+							66 text Languages
+						67 container Video language: Hebrew, ID: header-section
+							68 heading Video language: Hebrew, Value: 2, ID: default-language-title
+								69 text Video language: Hebrew
+							70 button Details
+							71 text Hebrew subtitles are the default source for auto-translation of subtitles and audio.
+							72 button Edit subtitles
+								73 text Edit subtitles
+							74 button Upload manual
+								75 text Upload manual
+						76 container Translations, ID: translations-section
+							77 heading Translations, Value: 2, ID: language-translations-header
+								78 text Translations
+							79 button Add language
+								80 text Add language
+							81 container screen-size-container
+								82 table Description: Translations, ID: ytgn-video-translations-list-table, Help: Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									83 text Table that allows managing translations for audio, subtitles, title and description, and thumbnail for each language
+									84 row
+										85 cell
+											86 heading Description: Language, Value: 3, ID: language-header-name
+												87 text Language
+										88 cell
+											89 heading Description: Audio, Value: 3, ID: audio-header-name
+												90 text Audio
+										91 cell
+											92 heading Description: Subtitles, Value: 3, ID: captions-header-name
+												93 text Subtitles
+										94 cell
+											95 heading Description: Title and description, Value: 3, ID: metadata-header-name
+												96 text Title and description
+										97 cell
+											98 heading Description: Thumbnail, Value: 3, ID: thumbnail-header-name
+												99 text Thumbnail
+		100 container Description: Hebrew subtitles, ID: dialog
+			101 container Description: Hebrew subtitles, ID: dialog
+				102 container
+					189 container video-editor-captions-modal-header
+						190 text Hebrew
+					103 container Description: Dialogue controls, ID: secondary-header
+						104 heading Dialogue controls, Value: 2
+							105 text Dialogue controls
+						106 button Send feedback
+						107 button Save draft
+							108 text Save draft
+						109 text Save draft button enabled
+						110 container save-container
+							111 button Publish
+								112 text Publish
+							113 text Publish button enabled
+							114 button Description: Close, ID: close-button
+				116 container
+					117 container panels
+						118 container Edit timings
+							191 heading Edit timings, Value: 2, ID: edit-timings-header
+								192 text Edit timings
+							193 button Subtitle
+								194 text Subtitle
+							195 button (disabled) Edit as text
+								196 text Edit as text
+							197 button Description: Options, ID: more-actions-menu
+							198 container editing-container
+								199 content list Description: Timings, ID: items
+									200 container Text with timing
+										201 container row-container
+											203 text entry area (settable) Description: Subtitle, Value: Cześć!
+											205 container Description:  0 minutes 1 second 7 frames, ID: container
+												206 text field (settable)  0 minutes 1 second 7 frames
+											207 container Description:  0 minutes 1 second 29 frames, ID: container
+												208 text field (settable)  0 minutes 1 second 29 frames
+									210 container Text with timing
+										211 container row-container
+											212 text entry area (settable) Description: Subtitle, Value: עם עיטורי זהב
+											213 container Description:  0 minutes 46 seconds 7 frames, ID: container
+												214 text field (settable)  0 minutes 46 seconds 7 frames
+											215 container Description:  0 minutes 47 seconds 27 frames, ID: container
+												216 text field (settable)  0 minutes 47 seconds 27 frames
+									217 container Text with timing
+										218 container row-container
+											219 text entry area (settable) Description: Subtitle, Value: ולמעלה מארבעים דמויות פורטרט
+											334 button Description: Remove caption line, ID: delete-segment-button
+											220 container Description:  0 minutes 47 seconds 27 frames, ID: container
+												221 text field (settable)  0 minutes 47 seconds 27 frames
+											222 container Description:  0 minutes 51 seconds 0 frames, ID: container
+												223 text field (settable)  0 minutes 51 seconds 0 frames
+											335 button (disabled) Description: Add caption line, ID: add-segment-after-button
+									224 container Text with timing
+										225 container row-container
+											226 text entry area (settable) Description: Subtitle, Value: על החזית של הבניין.
+											227 container Description:  0 minutes 51 seconds 0 frames, ID: container
+												228 text field (settable)  0 minutes 51 seconds 0 frames
+											229 container Description:  0 minutes 52 seconds 20 frames, ID: container
+												230 text field (settable)  0 minutes 52 seconds 20 frames
+									231 container Text with timing
+										232 container row-container
+											233 text entry area (settable) Description: Subtitle, Value: מעבר להתרשמות מהבניין מבחוץ,
+											234 container Description:  0 minutes 53 seconds 8 frames, ID: container
+												235 text field (settable)  0 minutes 53 seconds 8 frames
+											236 container Description:  0 minutes 56 seconds 14 frames, ID: container
+												237 text field (settable)  0 minutes 56 seconds 14 frames
+									238 container Text with timing
+										239 container row-container
+											240 text entry area (settable) Description: Subtitle, Value: שווה גם להתרשם מבפנים.
+											241 container Description:  0 minutes 56 seconds 29 frames, ID: container
+												242 text field (settable)  0 minutes 56 seconds 29 frames
+											243 container Description:  0 minutes 58 seconds 23 frames, ID: container
+												244 text field (settable)  0 minutes 58 seconds 23 frames
+									245 container Text with timing
+										246 container row-container
+											247 text entry area (settable) Description: Subtitle, Value: היום זהו בית כלבו מאוד מרשים.
+											248 container Description:  0 minutes 58 seconds 23 frames, ID: container
+												249 text field (settable)  0 minutes 58 seconds 23 frames
+											250 container Description:  1 minute 1 second 13 frames, ID: container
+												251 text field (settable)  1 minute 1 second 13 frames
+									252 container Text with timing
+										253 container row-container
+											254 text entry area (settable) Description: Subtitle, Value: אפשר לראות שיש פה חנויות של מותגי על.
+											255 container Description:  1 minute 1 second 13 frames, ID: container
+												256 text field (settable)  1 minute 1 second 13 frames
+											257 container Description:  1 minute 6 seconds 9 frames, ID: container
+												258 text field (settable)  1 minute 6 seconds 9 frames
+									259 container Text with timing
+										260 container row-container
+											261 text entry area (settable) Description: Subtitle, Value: כמו כן, יש כאן מתחם של אוכל שנקרא פדט,
+											262 container Description:  1 minute 6 seconds 9 frames, ID: container
+												263 text field (settable)  1 minute 6 seconds 9 frames
+											264 container Description:  1 minute 11 seconds 10 frames, ID: container
+												265 text field (settable)  1 minute 11 seconds 10 frames
+									266 container Text with timing
+										267 container row-container
+											268 text entry area (settable) Description: Subtitle, Value: שאנחנו דיברנו עליו באחד הפוסטים שלנו,
+											269 container Description:  1 minute 11 seconds 10 frames, ID: container
+												270 text field (settable)  1 minute 11 seconds 10 frames
+											271 container Description:  1 minute 14 seconds 28 frames, ID: container
+												272 text field (settable)  1 minute 14 seconds 28 frames
+									273 container Text with timing
+										274 container row-container
+											275 text entry area (settable) Description: Subtitle, Value: מה שיפה בבית הכלבו הזה,
+											276 container Description:  0 minutes 36 seconds 8 frames, ID: container
+												277 text field (settable)  0 minutes 36 seconds 8 frames
+											278 container Description:  0 minutes 39 seconds 17 frames, ID: container
+												279 text field (settable)  0 minutes 39 seconds 17 frames
+									280 container Text with timing
+										281 container row-container
+											282 text entry area (settable) Description: Subtitle, Value: קודם כול, המראה החיצוני שלו.
+											283 container Description:  0 minutes 39 seconds 29 frames, ID: container
+												284 text field (settable)  0 minutes 39 seconds 29 frames
+											285 container Description:  0 minutes 43 seconds 26 frames, ID: container
+												286 text field (settable)  0 minutes 43 seconds 26 frames
+									327 container Text with timing
+										328 container row-container
+											329 text entry area (settable) Description: Subtitle, Value: ניתן לראות את האריחים הצבעוניים
+											330 container Description:  0 minutes 43 seconds 26 frames, ID: container
+												331 text field (settable)  0 minutes 43 seconds 26 frames
+											332 container Description:  0 minutes 46 seconds 7 frames, ID: container
+												333 text field (settable)  0 minutes 46 seconds 7 frames
+						119 heading Subtitles preview, Value: 2, ID: preview-header
+							120 text Subtitles preview
+						121 container Description: Subtitles preview, ID: preview-panel
+							164 container Description: Video player, ID: video-container
+								165 container Description: רנומה | המדריך שלנו בעברית, ID: video
+								166 container toolbar
+									167 container button-bar
+										168 button Description: Play, ID: play-button
+										169 button Description: Skip back 10 seconds, ID: skip-back-10
+										170 button Description: Skip forwards 10 seconds, ID: skip-forward-10
+										171 container
+											172 button Description: Mute, ID: volume-icon-button
+											173 slider Description: volume, Value: 100, ID: volume-slider
+										287 text 0:00 / 1:36
+										174 container
+											175 button Description: Settings, ID: settings-button
+							125 container preview-cta
+								126 container root-container
+									127 checkbox Description: Pause while typing, Value: 0, ID: checkbox
+									128 text Pause while typing
+								129 button View keyboard shortcuts
+									130 text View keyboard shortcuts
+					131 heading Subtitles timeline, Value: 2, ID: timeline-header
+						132 text Subtitles timeline
+					133 container Description: Subtitles timeline, ID: timeline-section
+						134 container
+							135 container left-controls
+								176 container Description:  0 minutes 0 seconds 0 frames, ID: container
+									177 text field (settable)  0 minutes 0 seconds 0 frames
+								136 button (disabled) Undo
+									137 text Undo
+								138 button (disabled) Redo
+									139 text Redo
+							140 container right-controls
+								141 button Description: Zoom out, ID: zoom-out
+								142 slider Description: Zoom slider, Value: 3, ID: zoom-slider
+								143 button Description: Zoom in, ID: zoom-in
+						144 container
+							145 container header-container
+								146 container
+									147 image Description: Timeline header, ID: canvas
+									148 button Description: Find playhead, ID: find-left-button
+									149 button Description: Find playhead, ID: find-right-button
+							150 container plugin-timeline-surface
+								288 container CAPTIONS
+									289 container decorations
+										290 container Cześć!
+										291 text Cześć!
+										292 container ורוצלב משלבת בין מסחר וארכיטקטורה,
+										293 text ורוצלב משלבת בין מסחר וארכיטקטורה,
+										294 container ואחד המקומות שאפשר לראות את השילוב הזה הוא
+										295 text ואחד המקומות שאפשר לראות את השילוב הזה הוא
+										296 container ברחוב שווידניצקה 40,
+										297 text ברחוב שווידניצקה 40,
+										298 text בבית הכלבו רנומה.
+										299 container בית הכלבו הזה נפתח בשניים לאפריל 1930.
+										300 text בית הכלבו הזה נפתח בשניים לאפריל 1930.
+										301 text אז הוא נקרא ורטהיים.
+										302 text כבר אז הוא היה בית כלבו מאוד מודרני ומרשים.
+										303 text בית הכלבו הזה נפגע במלחמה
+										304 text ובעצם נפתח מחדש ב־1977.
+										305 text מה שיפה בבית הכלבו הזה,
+										306 text קודם כול, המראה החיצוני שלו.
+										307 text ניתן לראות את האריחים הצבעוניים
+										308 text עם עיטורי זהב
+										309 text ולמעלה מארבעים דמויות פורטרט
+										310 text על החזית של הבניין.
+										311 text מעבר להתרשמות מהבניין מבחוץ,
+										312 text שווה גם להתרשם מבפנים.
+										313 text היום זהו בית כלבו מאוד מרשים.
+										314 text אפשר לראות שיש פה חנויות של מותגי על.
+										315 text כמו כן, יש כאן מתחם של אוכל שנקרא פדט,
+										316 text שאנחנו דיברנו עליו באחד הפוסטים שלנו,
+										317 text שמציע בעצם מטבחים שונים,
+										318 text כמו תאילנדי, הודי, איטלקי וכדומה,
+										319 text ובאמצע יש חלל עם בר,
+										320 text ויש בו הופעות
+										321 text והפעלות.
+										322 text ובאמת מאוד מאוד מומלץ לבוא ולבקר ברנומה.
+										323 text נתראה בווידאו הבא.
+										324 text Do widzenia!
+								151 container AUDIO_WAVEFORM
+									178 container audio-timeline-content
+										179 image Description: Audio waveform, ID: audio-waveform
+							154 container Description: Start of timeline, ID: left-bookend
+							155 container Description: End of timeline, ID: right-bookend
+							156 slider Description: Playhead, Value: 0, ID: playhead
+							180 container hover-playhead
+								181 text 0:00:00
+
+The focused UI element is 101 container Description: Hebrew subtitles, ID: dialog

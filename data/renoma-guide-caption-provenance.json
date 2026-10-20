@@ -1,0 +1,851 @@
+{
+  "canonicalId": "renoma",
+  "distinctFrom": "pedet",
+  "readyForIntegration": true,
+  "state": "youtube-complete-awaiting-single-writer-site-integration",
+  "editions": {
+    "en": {
+      "id": "0lgh4TXXbeo",
+      "url": "https://youtube.com/shorts/0lgh4TXXbeo",
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "originalPictureAudioUnchanged": true,
+      "durationSeconds": 114.4,
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/המדריך שלנו/המדריך שלנו רנומה באנגלית.mp4",
+      "sourceSHA256": "bc9651eb5d0c15486ca2d4296853ee26da80fc81780cd228d24ba04f74d11567",
+      "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/renoma-video-guides-2026-10-20/upload-originals/renoma-guide-en-full-original.mp4",
+      "uploadSHA256": "bc9651eb5d0c15486ca2d4296853ee26da80fc81780cd228d24ba04f74d11567",
+      "workingCopyByteIdentical": true,
+      "checks": {
+        "copyright": "complete-no-issues",
+        "communityGuidelines": "complete-no-issues",
+        "standardDefinition": "complete"
+      },
+      "evidence": [
+        "en-checks-complete.txt",
+        "en-published.txt",
+        "en-published.png",
+        "en-public-reopened.txt",
+        "en-public-reopened.png"
+      ]
+    },
+    "he": {
+      "id": "nrLBgAkEdt0",
+      "url": "https://youtube.com/shorts/nrLBgAkEdt0",
+      "visibility": "Public",
+      "savedVisibilityVerified": true,
+      "originalPictureAudioUnchanged": true,
+      "durationSeconds": 95.6,
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/המדריך שלנו/המדריך שלנו רנומה בעברית.mp4",
+      "sourceSHA256": "19d26bf3985ce92b00f70d3eb652a8cffbb224d99c0338df978e2af36b1ac5e0",
+      "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/renoma-video-guides-2026-10-20/upload-originals/renoma-guide-he-full-original.mp4",
+      "uploadSHA256": "19d26bf3985ce92b00f70d3eb652a8cffbb224d99c0338df978e2af36b1ac5e0",
+      "workingCopyByteIdentical": true,
+      "checks": {
+        "copyright": "complete-no-issues",
+        "communityGuidelines": "complete-no-issues",
+        "standardDefinition": "complete"
+      },
+      "evidence": [
+        "he-checks-complete.txt",
+        "he-published.txt",
+        "he-published.png",
+        "he-public-reopened.txt",
+        "he-public-reopened.png"
+      ]
+    }
+  },
+  "tracks": {
+    "he": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "nrLBgAkEdt0",
+      "sourceAudioLanguage": "he",
+      "language": "he",
+      "srtFile": "data/renoma-guide-captions/he.srt",
+      "localSrtFile": "outputs/renoma-video-guides-2026-10-20/captions/he.srt",
+      "srtSHA256": "7e063f3fc80a401e88d4df83f552315e34924c9dd1ab0335e9460d1fe6227224",
+      "cueCount": 30,
+      "cues": [
+        {
+          "start": 1.26,
+          "end": 2,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.1,
+          "end": 8.68,
+          "text": "ורוצלב משלבת בין מסחר וארכיטקטורה,"
+        },
+        {
+          "start": 9.04,
+          "end": 13.9,
+          "text": "ואחד המקומות שאפשר לראות את השילוב הזה הוא"
+        },
+        {
+          "start": 13.9,
+          "end": 15.84,
+          "text": "ברחוב שווידניצקה 40,"
+        },
+        {
+          "start": 16.36,
+          "end": 18.16,
+          "text": "בבית הכלבו רנומה."
+        },
+        {
+          "start": 18.16,
+          "end": 24.2,
+          "text": "בית הכלבו הזה נפתח בשניים לאפריל 1930."
+        },
+        {
+          "start": 24.2,
+          "end": 26.3,
+          "text": "אז הוא נקרא ורטהיים."
+        },
+        {
+          "start": 26.3,
+          "end": 30.1,
+          "text": "כבר אז הוא היה בית כלבו מאוד מודרני ומרשים."
+        },
+        {
+          "start": 30.1,
+          "end": 32.32,
+          "text": "בית הכלבו הזה נפגע במלחמה"
+        },
+        {
+          "start": 32.32,
+          "end": 35.66,
+          "text": "ובעצם נפתח מחדש ב־1977."
+        },
+        {
+          "start": 36.32,
+          "end": 39.6,
+          "text": "מה שיפה בבית הכלבו הזה,"
+        },
+        {
+          "start": 40,
+          "end": 43.9,
+          "text": "קודם כול, המראה החיצוני שלו."
+        },
+        {
+          "start": 43.9,
+          "end": 46.26,
+          "text": "ניתן לראות את האריחים הצבעוניים"
+        },
+        {
+          "start": 46.26,
+          "end": 47.92,
+          "text": "עם עיטורי זהב"
+        },
+        {
+          "start": 47.92,
+          "end": 51.04,
+          "text": "ולמעלה מארבעים דמויות פורטרט"
+        },
+        {
+          "start": 51.04,
+          "end": 52.7,
+          "text": "על החזית של הבניין."
+        },
+        {
+          "start": 53.3,
+          "end": 56.48,
+          "text": "מעבר להתרשמות מהבניין מבחוץ,"
+        },
+        {
+          "start": 57,
+          "end": 58.78,
+          "text": "שווה גם להתרשם מבפנים."
+        },
+        {
+          "start": 58.78,
+          "end": 61.48,
+          "text": "היום זהו בית כלבו מאוד מרשים."
+        },
+        {
+          "start": 61.48,
+          "end": 66.32,
+          "text": "אפשר לראות שיש פה חנויות של מותגי על."
+        },
+        {
+          "start": 66.32,
+          "end": 71.38,
+          "text": "כמו כן, יש כאן מתחם של אוכל שנקרא פדט,"
+        },
+        {
+          "start": 71.38,
+          "end": 74.98,
+          "text": "שאנחנו דיברנו עליו באחד הפוסטים שלנו,"
+        },
+        {
+          "start": 74.98,
+          "end": 78.52,
+          "text": "שמציע בעצם מטבחים שונים,"
+        },
+        {
+          "start": 78.52,
+          "end": 81.6,
+          "text": "כמו תאילנדי, הודי, איטלקי וכדומה,"
+        },
+        {
+          "start": 81.6,
+          "end": 83.88,
+          "text": "ובאמצע יש חלל עם בר,"
+        },
+        {
+          "start": 83.88,
+          "end": 85.28,
+          "text": "ויש בו הופעות"
+        },
+        {
+          "start": 85.78,
+          "end": 86.42,
+          "text": "והפעלות."
+        },
+        {
+          "start": 86.42,
+          "end": 91.7,
+          "text": "ובאמת מאוד מאוד מומלץ לבוא ולבקר ברנומה."
+        },
+        {
+          "start": 91.7,
+          "end": 93.2,
+          "text": "נתראה בווידאו הבא."
+        },
+        {
+          "start": 93.2,
+          "end": 95.1,
+          "text": "Do widzenia!"
+        }
+      ],
+      "verificationTime": "2026-10-20T12:32:02.003672+00:00",
+      "evidence": [
+        "he-captions-reopened-middle-overlap.txt",
+        "he-captions-reopened-middle-extra.txt",
+        "he-captions-reopened-middle.txt",
+        "he-captions-reopened-end.txt",
+        "he-captions-reopened-start.txt"
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.12
+    },
+    "en": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "0lgh4TXXbeo",
+      "sourceAudioLanguage": "en",
+      "language": "en",
+      "srtFile": "data/renoma-guide-captions/en.srt",
+      "localSrtFile": "outputs/renoma-video-guides-2026-10-20/captions/en.srt",
+      "srtSHA256": "f8b161c1980d30d5d886e4660ad5752f8363c20d203a91358c30224c9dcff887",
+      "cueCount": 25,
+      "cues": [
+        {
+          "start": 0.8,
+          "end": 2.1,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.76,
+          "end": 8.78,
+          "text": "Wrocław mixes between trade and architecture,"
+        },
+        {
+          "start": 9.16,
+          "end": 13.54,
+          "text": "and one of the places we\ncan be witnessing this"
+        },
+        {
+          "start": 13.54,
+          "end": 16.5,
+          "text": "mixture is in Świdnicka 40,"
+        },
+        {
+          "start": 16.5,
+          "end": 20.06,
+          "text": "the department store of Renoma."
+        },
+        {
+          "start": 20.82,
+          "end": 25.5,
+          "text": "This department store opened on 2 April 1930."
+        },
+        {
+          "start": 25.5,
+          "end": 29.32,
+          "text": "Back then it was called Wertheim."
+        },
+        {
+          "start": 29.32,
+          "end": 35.46,
+          "text": "Even back then, it was a very\nimpressive and modern department store."
+        },
+        {
+          "start": 36.06,
+          "end": 39.1,
+          "text": "It was ruined during the Second World War"
+        },
+        {
+          "start": 39.1,
+          "end": 42.7,
+          "text": "and reopened in 1977."
+        },
+        {
+          "start": 43.94,
+          "end": 49.5,
+          "text": "What's very impressive about this\nplace is the external façade,"
+        },
+        {
+          "start": 49.5,
+          "end": 54.64,
+          "text": "in which you can see the colorful tiles"
+        },
+        {
+          "start": 54.64,
+          "end": 59.3,
+          "text": "and the golden decorations around\nit, the gilded decorations,"
+        },
+        {
+          "start": 59.3,
+          "end": 64.0,
+          "text": "as well as 40 different portfolios."
+        },
+        {
+          "start": 64.04,
+          "end": 68.02,
+          "text": "Not only is it impressive\nfrom the outside, it's also"
+        },
+        {
+          "start": 68.02,
+          "end": 72.82,
+          "text": "very impressive from the inside. You\ncan see behind me that it's quite a"
+        },
+        {
+          "start": 72.82,
+          "end": 77.2,
+          "text": "luxurious department store\nwith high-end brands."
+        },
+        {
+          "start": 77.2,
+          "end": 81.02,
+          "text": "Moreover, it hosts the food court called PeDeT"
+        },
+        {
+          "start": 81.02,
+          "end": 85.5,
+          "text": "that we talked about in\none of our recent posts,"
+        },
+        {
+          "start": 85.5,
+          "end": 90.88,
+          "text": "that offers different styles of cuisine,"
+        },
+        {
+          "start": 91.4,
+          "end": 95.7,
+          "text": "as well as a big bar in the middle,"
+        },
+        {
+          "start": 95.7,
+          "end": 101.66,
+          "text": "and also hosts musical events\nand other kinds of entertainment."
+        },
+        {
+          "start": 101.66,
+          "end": 107.98,
+          "text": "So I really recommend coming and\nvisiting this amazing department store,"
+        },
+        {
+          "start": 107.98,
+          "end": 110.2,
+          "text": "Renoma in Wrocław."
+        },
+        {
+          "start": 110.2,
+          "end": 113.5,
+          "text": "See you in our next video. Do widzenia!"
+        }
+      ],
+      "verificationTime": "2026-10-20T12:32:02.003672+00:00",
+      "evidence": [
+        "en-captions-reopened-end.txt",
+        "en-captions-reopened-middle.txt",
+        "en-captions-reopened-start.txt",
+        "en-captions-reopened-middle-overlap.txt"
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.12
+    },
+    "pl": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "0lgh4TXXbeo",
+      "sourceAudioLanguage": "en",
+      "language": "pl",
+      "srtFile": "data/renoma-guide-captions/pl.srt",
+      "localSrtFile": "outputs/renoma-video-guides-2026-10-20/captions/pl.srt",
+      "srtSHA256": "6f253c1974438eca7c5b639b014790f8e108093e4aef40c1ae18e30044b33a23",
+      "cueCount": 25,
+      "cues": [
+        {
+          "start": 0.8,
+          "end": 2.1,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.76,
+          "end": 8.78,
+          "text": "Wrocław łączy handel i architekturę,"
+        },
+        {
+          "start": 9.16,
+          "end": 13.54,
+          "text": "a jednym z miejsc, w\nktórych możemy zobaczyć to"
+        },
+        {
+          "start": 13.54,
+          "end": 16.5,
+          "text": "połączenie, jest Świdnicka 40,"
+        },
+        {
+          "start": 16.5,
+          "end": 20.06,
+          "text": "dom handlowy Renoma."
+        },
+        {
+          "start": 20.82,
+          "end": 25.5,
+          "text": "Ten dom handlowy otwarto 2 kwietnia 1930 roku."
+        },
+        {
+          "start": 25.5,
+          "end": 29.32,
+          "text": "Wtedy nosił nazwę Wertheim."
+        },
+        {
+          "start": 29.32,
+          "end": 35.46,
+          "text": "Już wtedy był bardzo imponującym\ni nowoczesnym domem handlowym."
+        },
+        {
+          "start": 36.06,
+          "end": 39.1,
+          "text": "Został zniszczony podczas II wojny światowej"
+        },
+        {
+          "start": 39.1,
+          "end": 42.7,
+          "text": "i ponownie otwarty w 1977 roku."
+        },
+        {
+          "start": 43.94,
+          "end": 49.5,
+          "text": "Szczególnie imponująca\njest zewnętrzna elewacja,"
+        },
+        {
+          "start": 49.5,
+          "end": 54.64,
+          "text": "na której można zobaczyć kolorowe płytki"
+        },
+        {
+          "start": 54.64,
+          "end": 59.3,
+          "text": "i otaczające je złote, pozłacane dekoracje,"
+        },
+        {
+          "start": 59.3,
+          "end": 64.0,
+          "text": "a także 40 różnych portfolio."
+        },
+        {
+          "start": 64.04,
+          "end": 68.02,
+          "text": "Robi wrażenie nie tylko z zewnątrz, ale także"
+        },
+        {
+          "start": 68.02,
+          "end": 72.82,
+          "text": "wewnątrz. Jak widzicie za mną, to dość"
+        },
+        {
+          "start": 72.82,
+          "end": 77.2,
+          "text": "luksusowy dom handlowy z markami premium."
+        },
+        {
+          "start": 77.2,
+          "end": 81.02,
+          "text": "Mieści też strefę gastronomiczną PeDeT,"
+        },
+        {
+          "start": 81.02,
+          "end": 85.5,
+          "text": "o której mówiliśmy w jednym\nz naszych ostatnich postów,"
+        },
+        {
+          "start": 85.5,
+          "end": 90.88,
+          "text": "oferującą różne rodzaje kuchni,"
+        },
+        {
+          "start": 91.4,
+          "end": 95.7,
+          "text": "a także duży bar pośrodku."
+        },
+        {
+          "start": 95.7,
+          "end": 101.66,
+          "text": "Odbywają się tu też wydarzenia\nmuzyczne i inne atrakcje."
+        },
+        {
+          "start": 101.66,
+          "end": 107.98,
+          "text": "Bardzo więc polecam odwiedzenie\ntego wspaniałego domu handlowego,"
+        },
+        {
+          "start": 107.98,
+          "end": 110.2,
+          "text": "Renomy we Wrocławiu."
+        },
+        {
+          "start": 110.2,
+          "end": 113.5,
+          "text": "Do zobaczenia w następnym filmie. Do widzenia!"
+        }
+      ],
+      "verificationTime": "2026-10-20T12:32:02.003672+00:00",
+      "evidence": [
+        "pl-captions-reopened-middle.txt",
+        "pl-captions-reopened-start.txt",
+        "pl-captions-reopened-end.txt"
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.12
+    },
+    "de": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "0lgh4TXXbeo",
+      "sourceAudioLanguage": "en",
+      "language": "de",
+      "srtFile": "data/renoma-guide-captions/de.srt",
+      "localSrtFile": "outputs/renoma-video-guides-2026-10-20/captions/de.srt",
+      "srtSHA256": "dc9ade1fa0c92de0b23301c7fd1733ae080c5c4b8b18418f7f623826b0957e49",
+      "cueCount": 25,
+      "cues": [
+        {
+          "start": 0.8,
+          "end": 2.1,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.76,
+          "end": 8.78,
+          "text": "Wrocław verbindet Handel und Architektur,"
+        },
+        {
+          "start": 9.16,
+          "end": 13.54,
+          "text": "und einer der Orte, an denen wir diese"
+        },
+        {
+          "start": 13.54,
+          "end": 16.5,
+          "text": "Verbindung erleben können,\nliegt an der Świdnicka 40:"
+        },
+        {
+          "start": 16.5,
+          "end": 20.06,
+          "text": "das Kaufhaus Renoma."
+        },
+        {
+          "start": 20.82,
+          "end": 25.5,
+          "text": "Dieses Kaufhaus wurde am\n2. April 1930 eröffnet."
+        },
+        {
+          "start": 25.5,
+          "end": 29.32,
+          "text": "Damals hieß es Wertheim."
+        },
+        {
+          "start": 29.32,
+          "end": 35.46,
+          "text": "Schon damals war es ein sehr\nbeeindruckendes und modernes Kaufhaus."
+        },
+        {
+          "start": 36.06,
+          "end": 39.1,
+          "text": "Es wurde im Zweiten Weltkrieg zerstört"
+        },
+        {
+          "start": 39.1,
+          "end": 42.7,
+          "text": "und 1977 wiedereröffnet."
+        },
+        {
+          "start": 43.94,
+          "end": 49.5,
+          "text": "Besonders beeindruckend ist die Außenfassade,"
+        },
+        {
+          "start": 49.5,
+          "end": 54.64,
+          "text": "an der man die farbigen Fliesen sieht"
+        },
+        {
+          "start": 54.64,
+          "end": 59.3,
+          "text": "und die goldenen, vergoldeten\nVerzierungen darum herum,"
+        },
+        {
+          "start": 59.3,
+          "end": 64.0,
+          "text": "sowie 40 verschiedene Portfolios."
+        },
+        {
+          "start": 64.04,
+          "end": 68.02,
+          "text": "Es beeindruckt nicht nur\nvon außen, sondern auch"
+        },
+        {
+          "start": 68.02,
+          "end": 72.82,
+          "text": "von innen. Hinter mir seht\nihr, dass es ein ziemlich"
+        },
+        {
+          "start": 72.82,
+          "end": 77.2,
+          "text": "luxuriöses Kaufhaus mit gehobenen Marken ist."
+        },
+        {
+          "start": 77.2,
+          "end": 81.02,
+          "text": "Außerdem gibt es hier den Food-Court PeDeT,"
+        },
+        {
+          "start": 81.02,
+          "end": 85.5,
+          "text": "über den wir in einem unserer\nletzten Beiträge gesprochen haben."
+        },
+        {
+          "start": 85.5,
+          "end": 90.88,
+          "text": "Er bietet verschiedene Küchenrichtungen"
+        },
+        {
+          "start": 91.4,
+          "end": 95.7,
+          "text": "sowie eine große Bar in der Mitte."
+        },
+        {
+          "start": 95.7,
+          "end": 101.66,
+          "text": "Außerdem finden hier Musikveranstaltungen\nund andere Unterhaltungsangebote statt."
+        },
+        {
+          "start": 101.66,
+          "end": 107.98,
+          "text": "Ich empfehle also sehr, dieses\nbeeindruckende Kaufhaus zu besuchen,"
+        },
+        {
+          "start": 107.98,
+          "end": 110.2,
+          "text": "Renoma in Wrocław."
+        },
+        {
+          "start": 110.2,
+          "end": 113.5,
+          "text": "Wir sehen uns im nächsten Video. Do widzenia!"
+        }
+      ],
+      "verificationTime": "2026-10-20T12:32:02.003672+00:00",
+      "evidence": [
+        "de-captions-reopened-start.txt",
+        "de-captions-reopened-middle-gap.txt",
+        "de-captions-reopened-middle.txt",
+        "de-captions-reopened-end.txt"
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.12
+    },
+    "cs": {
+      "status": "Published",
+      "published": true,
+      "reopened": true,
+      "reopenedVerified": true,
+      "videoId": "0lgh4TXXbeo",
+      "sourceAudioLanguage": "en",
+      "language": "cs",
+      "srtFile": "data/renoma-guide-captions/cs.srt",
+      "localSrtFile": "outputs/renoma-video-guides-2026-10-20/captions/cs.srt",
+      "srtSHA256": "ba8954e44a7b768c3baf40ae5fc90c429d908545da7390f6c8a79a90b8be8179",
+      "cueCount": 25,
+      "cues": [
+        {
+          "start": 0.8,
+          "end": 2.1,
+          "text": "Cześć!"
+        },
+        {
+          "start": 3.76,
+          "end": 8.78,
+          "text": "Vratislav spojuje obchod a architekturu,"
+        },
+        {
+          "start": 9.16,
+          "end": 13.54,
+          "text": "a jedním z míst, kde můžeme toto"
+        },
+        {
+          "start": 13.54,
+          "end": 16.5,
+          "text": "spojení vidět, je Świdnicka 40,"
+        },
+        {
+          "start": 16.5,
+          "end": 20.06,
+          "text": "obchodní dům Renoma."
+        },
+        {
+          "start": 20.82,
+          "end": 25.5,
+          "text": "Tento obchodní dům byl otevřen 2. dubna 1930."
+        },
+        {
+          "start": 25.5,
+          "end": 29.32,
+          "text": "Tehdy se jmenoval Wertheim."
+        },
+        {
+          "start": 29.32,
+          "end": 35.46,
+          "text": "Už tehdy to byl velmi působivý\na moderní obchodní dům."
+        },
+        {
+          "start": 36.06,
+          "end": 39.1,
+          "text": "Za druhé světové války byl zničen"
+        },
+        {
+          "start": 39.1,
+          "end": 42.7,
+          "text": "a znovu otevřen v roce 1977."
+        },
+        {
+          "start": 43.94,
+          "end": 49.5,
+          "text": "Zvlášť působivá je vnější fasáda,"
+        },
+        {
+          "start": 49.5,
+          "end": 54.64,
+          "text": "na které můžete vidět barevné obklady"
+        },
+        {
+          "start": 54.64,
+          "end": 59.3,
+          "text": "a zlaté, pozlacené ozdoby kolem nich,"
+        },
+        {
+          "start": 59.3,
+          "end": 64.0,
+          "text": "stejně jako 40 různých portfolií."
+        },
+        {
+          "start": 64.04,
+          "end": 68.02,
+          "text": "Působivý je nejen zvenčí, ale také"
+        },
+        {
+          "start": 68.02,
+          "end": 72.82,
+          "text": "zevnitř. Za mnou vidíte, že jde o poměrně"
+        },
+        {
+          "start": 72.82,
+          "end": 77.2,
+          "text": "luxusní obchodní dům s prémiovými značkami."
+        },
+        {
+          "start": 77.2,
+          "end": 81.02,
+          "text": "Navíc tu najdete gastronomickou zónu PeDeT,"
+        },
+        {
+          "start": 81.02,
+          "end": 85.5,
+          "text": "o které jsme mluvili v jednom\nz našich nedávných příspěvků."
+        },
+        {
+          "start": 85.5,
+          "end": 90.88,
+          "text": "Nabízí různé druhy kuchyně"
+        },
+        {
+          "start": 91.4,
+          "end": 95.7,
+          "text": "a také velký bar uprostřed."
+        },
+        {
+          "start": 95.7,
+          "end": 101.66,
+          "text": "Konají se zde i hudební akce\na další zábavné programy."
+        },
+        {
+          "start": 101.66,
+          "end": 107.98,
+          "text": "Vřele tedy doporučuji navštívit\ntento úžasný obchodní dům,"
+        },
+        {
+          "start": 107.98,
+          "end": 110.2,
+          "text": "Renomu ve Vratislavi."
+        },
+        {
+          "start": 110.2,
+          "end": 113.5,
+          "text": "Uvidíme se v příštím videu. Do widzenia!"
+        }
+      ],
+      "verificationTime": "2026-10-20T12:32:02.003672+00:00",
+      "evidence": [
+        "cs-captions-reopened-middle.txt",
+        "cs-captions-reopened-middle-gap.txt",
+        "cs-captions-reopened-end.txt",
+        "cs-captions-reopened-start.txt"
+      ],
+      "allCueTextsAndTimesVerified": true,
+      "timingToleranceSeconds": 0.12
+    }
+  },
+  "mediaPatch": {
+    "guideVideos": {
+      "en": "https://youtube.com/shorts/0lgh4TXXbeo",
+      "he": "https://youtube.com/shorts/nrLBgAkEdt0"
+    }
+  },
+  "sourceReview": "Full original presenter guides HE95.6/EN114.4, full picture/audio; no cuts or voice changes.",
+  "factClarification": "Original speech says1977reopening; description explicitly corrects1948partialreopening and1977heritagelisting. Operator describes100+portraitsculptures; spokenEnglishwordportfolios retained in captions.",
+  "captionMechanism": "Native YouTube HE onHE; EN/PL/DE/CS onEN; cc_load_policy1/cc_lang_pref permaplanguage.",
+  "preserve": [
+    "canonicalIdrenoma, coordinates, existingdescriptions/sociallinks",
+    "Existing11photos+hero and3newnightphotos added by enrichmentwriter",
+    "ExistingvisitJ3-FVZvzMGA",
+    "Distinctpedetrecord; do notattachRenomaguides toPeDeT"
+  ],
+  "approvalReceipt": "../cafe-berg-refresh-2026-10-20/youtube-three-files-approval.json",
+  "siteWriter": "/root/cafe_berg_enrichment",
+  "siteIntegrationStillRequired": true,
+  "browserOwner": null,
+  "moneySpent": 0,
+  "updatedAt": "2026-10-20T12:32:02.003672+00:00"
+}

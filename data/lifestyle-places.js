@@ -45,6 +45,7 @@
   const sourceShopping = t("מופיע בשכבת מרכזי הקניות של מפת הקהילה.", "Included in the community map’s shopping-centre layer.", "Znajduje się w warstwie centrów handlowych mapy społeczności.", "In der Einkaufszentrum-Ebene der Community-Karte enthalten.", "Zahrnuto ve vrstvě nákupních center komunitní mapy.");
 
   window.WROC_LIFESTYLE_PLACES = [
+    { id: "gustaw-restaurant-wroclaw", categories: ["eat"], coordinates: [51.1049153, 17.0380912], mediaKey: "gustaw-restaurant-wroclaw" },
     { id: "fc-caffe-kuznicza", localName: "FC Caffe", name: {
   "he": "קפה אף סי",
   "en": "FC Caffe",

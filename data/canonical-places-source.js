@@ -13614,3 +13614,318 @@
     media: { ...record.media, videos: [...new Set([...record.media.videos, ...extraVideos])], metadata: { ...record.media.metadata, ...extraMetadata } }
   } : record);
 })();
+
+// Original visit photographs, identity-preserving refresh, 2026-10-20.
+(function () {
+  const october20CafeRenomaRefresh = {
+  "cafe-berg-wroclaw": {
+    "photos": [
+      "/assets/food-cafes/cafe-berg-04.jpg",
+      "/assets/food-cafes/cafe-berg-05.jpg",
+      "/assets/food-cafes/cafe-berg-06.jpg",
+      "/assets/food-cafes/cafe-berg-07.jpg",
+      "/assets/food-cafes/cafe-berg-08.jpg",
+      "/assets/food-cafes/cafe-berg-09.jpg"
+    ],
+    "metadata": {
+      "/assets/food-cafes/cafe-berg-04.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-05 at 18.26.39 (1).jpeg",
+        "sourceSHA256": "b90b5c4aa984be1413be7b0d06619787a7a9f0e317a77752286335bbea144adb",
+        "assetSHA256": "0463e05fdc5635d02f8e82c8dea47459f9b7ff688a7987624a4393e8138578d8",
+        "alt": {
+          "he": "משקה בכוס על שולחן לצד החפיר",
+          "en": "A drink on a café table beside the moat",
+          "pl": "Napój na stoliku kawiarni nad fosą",
+          "de": "Ein Getränk auf dem Cafétisch am Stadtgraben",
+          "cs": "Nápoj na kavárenském stolku u vodního příkopu"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/food-cafes/cafe-berg-05.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-05 at 18.26.39.jpeg",
+        "sourceSHA256": "8cd2134a6f6c69148dd3d3869e6e530c88946d0d895a8effa15a8296ae61579e",
+        "assetSHA256": "47f17fd417188570953aa084ebd534f39a510af76bcb1ac88078e1c7d3c4236a",
+        "alt": {
+          "he": "המרפסת והשולחנות של קפה ברג לצד המים",
+          "en": "Cafe Berg terrace and tables beside the water",
+          "pl": "Taras i stoliki Cafe Berg nad wodą",
+          "de": "Terrasse und Tische des Cafe Berg am Wasser",
+          "cs": "Terasa a stolky Cafe Berg u vody"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/food-cafes/cafe-berg-06.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-20 at 14.11.22 (1).jpeg",
+        "sourceSHA256": "ac6ef153d2b05417332deda4abf56f92bcecaf3fedece2a7527ad116953eb1cd",
+        "assetSHA256": "14036bc0b13a0147c93c22c301e49bb18b7a54c5677c5b2b194b14cd9e65f863",
+        "alt": {
+          "he": "מבט לאורך החפיר והעצים ליד בית הקפה",
+          "en": "View along the moat and trees beside the café",
+          "pl": "Widok wzdłuż fosy i drzew obok kawiarni",
+          "de": "Blick entlang des Stadtgrabens und der Bäume beim Café",
+          "cs": "Pohled podél příkopu a stromů u kavárny"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/food-cafes/cafe-berg-07.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-20 at 14.11.22 (2).jpeg",
+        "sourceSHA256": "8821b15828e583f46ada15c3026a7d55ed7556d4da568ebabb144ebb2b652634",
+        "assetSHA256": "047528e02e368345942adf4071038761a84d3853551feba11a9fd9e851279b4a",
+        "alt": {
+          "he": "חזית הקיוסק ההיסטורי שבו שוכן קפה ברג",
+          "en": "Frontage of the historic kiosk housing Cafe Berg",
+          "pl": "Fasada zabytkowego kiosku, siedziby Cafe Berg",
+          "de": "Front des historischen Kiosks mit dem Cafe Berg",
+          "cs": "Průčelí historického kiosku s kavárnou Cafe Berg"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/food-cafes/cafe-berg-08.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-20 at 14.11.22 (3).jpeg",
+        "sourceSHA256": "0a4783b636f28de0966258869694b97b00e08ff54405ce02f54da5b20748348c",
+        "assetSHA256": "266d21a7dbaeba42b8370713b81a47368d0f43324b654c662887f79ac5618b3a",
+        "alt": {
+          "he": "לוח מידע על האדריכל מקס ברג בבית הקפה",
+          "en": "Information panel about architect Max Berg at the café",
+          "pl": "Tablica o architekcie Maksie Bergu w kawiarni",
+          "de": "Informationstafel über Architekt Max Berg im Café",
+          "cs": "Informační tabule o architektu Maxi Bergovi v kavárně"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/food-cafes/cafe-berg-09.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-20 at 14.11.22 (7).jpeg",
+        "sourceSHA256": "4632fdb8e9efa3f90a7a0cf0dc159fc9770a576a61ee65f8e95eb6ea95be136f",
+        "assetSHA256": "43825e61c99417c1f9419dd287f4dc53bc0994ae3cb0df5daff95b0e81de5ec2",
+        "alt": {
+          "he": "הצד של הקיוסק והמרפסת היורדת אל המים",
+          "en": "Side of the kiosk and terrace descending to the water",
+          "pl": "Bok kiosku i taras schodzący nad wodę",
+          "de": "Kioskseite und die zum Wasser führende Terrasse",
+          "cs": "Boční strana kiosku a terasa sestupující k vodě"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "https://youtube.com/shorts/bEKAP8m_KoI": {
+        "original": true,
+        "title": {
+          "he": "בית הקפה והמרפסת לצד החפיר",
+          "en": "Café and terrace beside the moat",
+          "pl": "Kawiarnia i taras nad fosą",
+          "de": "Café und Terrasse am Stadtgraben",
+          "cs": "Kavárna a terasa u příkopu"
+        },
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Video 2026-10-05 at 18.26.44.mp4",
+        "sourceSHA256": "7b5a13a58f239465cda8a7156ef67e289850c9ebe15075bd45e6d895e15cf027",
+        "uploadSHA256": "4bfbad475ab99ab619fbf522bf6ba59171bc47e5d8e6c38e647e6ea5a01d7038",
+        "durationSeconds": 5.966667,
+        "transformation": "Original picture stream and full duration preserved; background audio omitted in working copy only.",
+        "visibility": "Public",
+        "checksComplete": true,
+        "verifiedAt": "2026-10-20"
+      }
+    },
+    "description": {
+      "he": "בית קפה בקיוסק היסטורי שתכנן מקס ברג, לצד חפיר העיר בצומת הרחובות פיוטרה סקארגי ופודוואלה. המרפסת משקיפה על המים ועל גבעת הפרטיזנים שממול. בגלריה תמונות העוגה והישיבה ליד המים מהביקור שלנו. אפשר לשלב הפסקת קפה עם הליכה לאורך החפיר וביקור בבסטיון הסמוך. בדקו שעות פתיחה ותפריט באתר הרשמי לפני ההגעה. הגלריה כוללת גם את חזית הקיוסק, שלט המידע על האדריכל, השתייה והמרפסת היורדת אל המים.",
+      "en": "A café in a historic kiosk designed by Max Berg, beside the city moat at Piotra Skargi and Podwale. The terrace looks over the water towards Wzgórze Partyzantów. Our gallery shows cake and waterside seating from our visit. Combine a coffee break with a moat walk and the nearby bastion. Check opening hours and the menu with the café before visiting. The gallery also shows the kiosk frontage, an information panel about the architect, a drink and the terrace descending to the water.",
+      "pl": "Kawiarnia w zabytkowym kiosku projektu Maxa Berga, nad fosą miejską u zbiegu ulic Piotra Skargi i Podwale. Taras wychodzi na wodę i Wzgórze Partyzantów. Nasza galeria pokazuje ciasto i stoliki nad wodą podczas wizyty. Przerwę na kawę można połączyć ze spacerem wzdłuż fosy i odwiedzinami pobliskiego bastionu. Przed przyjazdem sprawdź godziny otwarcia i menu u kawiarni. Galeria pokazuje również fasadę kiosku, tablicę o architekcie, napój oraz taras schodzący nad wodę.",
+      "de": "Café in einem historischen Kiosk von Max Berg am Stadtgraben, an der Kreuzung Piotra Skargi und Podwale. Die Terrasse blickt über das Wasser zum Wzgórze Partyzantów. Unsere Galerie zeigt Kuchen und Sitzplätze am Wasser bei unserem Besuch. Eine Kaffeepause lässt sich mit einem Spaziergang am Graben und zur nahen Bastion verbinden. Öffnungszeiten und Speisekarte vorab beim Café prüfen. Die Galerie zeigt außerdem die Kioskfront, eine Informationstafel über den Architekten, ein Getränk und die zum Wasser führende Terrasse.",
+      "cs": "Kavárna v historickém kiosku navrženém Maxem Bergem u městského příkopu, na křižovatce ulic Piotra Skargi a Podwale. Terasa nabízí výhled přes vodu na Wzgórze Partyzantów. Naše galerie ukazuje dort a posezení u vody během návštěvy. Kávu lze spojit s procházkou podél příkopu a návštěvou blízké bašty. Před cestou ověřte otevírací dobu a nabídku u kavárny. Galerie zachycuje také průčelí kiosku, tabuli o architektovi, nápoj a terasu sestupující k vodě."
+    },
+    "videos": [
+      "https://youtube.com/shorts/bEKAP8m_KoI"
+    ]
+  },
+  "renoma": {
+    "photos": [
+      "/assets/renoma-refresh-oct20-01.jpg",
+      "/assets/renoma-refresh-oct20-02.jpg",
+      "/assets/renoma-refresh-oct20-03.jpg"
+    ],
+    "metadata": {
+      "/assets/renoma-refresh-oct20-01.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 17.35.12 (1).jpeg",
+        "sourceSHA256": "17ed4c01b195720de00f81c4c5b18a6d0f6da8654b3d60ee4a93f8a4a910c72f",
+        "assetSHA256": "b1c0ad9502e5fba4901da22ee6082b46750ffbb8d6e7c161d63f1a2903e62c98",
+        "alt": {
+          "he": "פסל ראש ועיטורים על חזית רנומה באור לילה",
+          "en": "Sculpted portrait head and decoration on Renoma’s facade at night",
+          "pl": "Rzeźbiarska głowa i zdobienia fasady Renomy nocą",
+          "de": "Skulptierter Porträtkopf und Schmuck an der Renoma-Fassade bei Nacht",
+          "cs": "Sochařská hlava a ozdoby na nočním průčelí Renomy"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/renoma-refresh-oct20-02.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 17.35.12 (2).jpeg",
+        "sourceSHA256": "a614727bf3e3040e4d1c9af98feea8db7c1c54f8da5a6ae690b8aadebc911c6e",
+        "assetSHA256": "02710bed285567629273ccc10809500aefa62bf88d721c69bdcc838b88ab73d9",
+        "alt": {
+          "he": "פרט עיטור מוזהב בחזית רנומה",
+          "en": "Detail of a gilded ornament on Renoma’s facade",
+          "pl": "Detal złoconego ornamentu na fasadzie Renomy",
+          "de": "Detail eines vergoldeten Ornaments an der Renoma-Fassade",
+          "cs": "Detail zlaceného ornamentu na průčelí Renomy"
+        },
+        "verifiedAt": "2026-10-20"
+      },
+      "/assets/renoma-refresh-oct20-03.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 17.35.12 (3).jpeg",
+        "sourceSHA256": "195c1c01e0853179615e20ff2b7fece4bd6cccd4a076bbf97f75c16db0ffe869",
+        "assetSHA256": "343d33f7cf63b79c36bb17a98fd78992775871d10fbb5711a289140c5869c178",
+        "alt": {
+          "he": "הפינה המעוגלת של רנומה מוארת בלילה",
+          "en": "Renoma’s curved corner illuminated at night",
+          "pl": "Zaokrąglony narożnik Renomy oświetlony nocą",
+          "de": "Nachts beleuchtete geschwungene Ecke der Renoma",
+          "cs": "Osvětlené zaoblené nároží Renomy v noci"
+        },
+        "verifiedAt": "2026-10-20"
+      }
+    },
+    "description": {
+      "he": "בית הכלבו רנומה נפתח ב־1930 ומציע כיום קניות ואוכל במבנה מודרניסטי ייחודי. כדאי להביט בחזית המעוגלת, באריחים ובעיטורי ראשי האדם, וגם בחלל הפנימי ובנברשות. מתחם האוכל פדט נמצא בתוכו, אך הוא נקודה נפרדת במפה. שעות החנויות והמסעדות שונות, וביום ראשון יש לבדוק אם החנויות פתוחות.\nRenoma\nŚwidnicka 40, Wrocław",
+      "en": "Opened in 1930, Renoma combines shopping and dining with distinctive modernist architecture. Look at the curved façade, tiles and sculpted portrait heads, then the interior and chandeliers. PeDeT Food Hall is inside but has its own map point. Shops and restaurants have different hours; check Sunday retail opening before visiting. Address: Świdnicka 40, Wrocław.",
+      "pl": "Otwarta w 1930 roku Renoma łączy zakupy i gastronomię z charakterystyczną architekturą modernistyczną. Warto obejrzeć zaokrągloną elewację, płytki i rzeźbiarskie głowy, a także wnętrze i żyrandole. PeDeT znajduje się wewnątrz, ale ma osobny punkt na mapie. Sklepy i gastronomia mają różne godziny; sprawdź handel w niedzielę. Adres: Świdnicka 40, Wrocław.",
+      "de": "Die 1930 eröffnete Renoma verbindet Einkauf und Gastronomie mit markanter modernistischer Architektur. Sehenswert sind die geschwungene Fassade, Fliesen und Porträtköpfe sowie Innenraum und Kronleuchter. Die PeDeT Food Hall liegt im Gebäude, hat jedoch einen eigenen Kartenpunkt. Geschäfte und Gastronomie haben unterschiedliche Zeiten; die Sonntagsöffnung vorher prüfen. Adresse: Świdnicka 40, Wrocław.",
+      "cs": "Renoma, otevřená v roce 1930, spojuje nakupování a gastronomii s výraznou modernistickou architekturou. Prohlédněte si zaoblenou fasádu, obklady a sochařské hlavy, také interiér a lustry. PeDeT je uvnitř, ale má vlastní bod na mapě. Obchody a gastronomie mají odlišné hodiny; ověřte si nedělní otevření obchodů. Adresa: Świdnicka 40, Wrocław."
+    },
+    "guideVideos": {
+      "en": "https://youtube.com/shorts/0lgh4TXXbeo",
+      "he": "https://youtube.com/shorts/nrLBgAkEdt0"
+    }
+  }
+};
+  window.WROC_CANONICAL_PLACE_SOURCE = window.WROC_CANONICAL_PLACE_SOURCE.map(record => {
+    const refresh = october20CafeRenomaRefresh[record.id];
+    if (!refresh) return record;
+    return { ...record, description: refresh.description, media: { ...record.media, photos: [...new Set([...record.media.photos, ...refresh.photos])], videos: [...new Set([...(record.media.videos || []), ...(refresh.videos || [])])], ...(refresh.guideVideos ? { guideVideos: refresh.guideVideos } : {}), metadata: { ...record.media.metadata, ...refresh.metadata } } };
+  });
+  window.WROC_CANONICAL_PLACE_SOURCE.push({
+  "id": "gustaw-restaurant-wroclaw",
+  "aliases": [
+    "Gustaw",
+    "Gustav",
+    "Restauracja Gustaw",
+    "מסעדת גוסטב",
+    "גוסטב"
+  ],
+  "localName": "Restauracja Gustaw",
+  "name": {
+    "he": "מסעדת גוסטב",
+    "en": "Gustaw Restaurant",
+    "pl": "Restauracja Gustaw",
+    "de": "Restaurant Gustaw",
+    "cs": "Restaurace Gustaw"
+  },
+  "description": {
+    "he": "מסעדה במבנה הפריסטיל של הבסטיון, עם מטבח בהשראת המסורות הפולניות והברסלאיות לפי האתר הרשמי. בתמונת הביקור שלנו נראים הכניסה ושלט המסעדה. אפשר לשלב ארוחה עם הליכה סביב הבסטיון ולאורך חפיר העיר.\nRestauracja Gustaw\nul. Ks. Piotra Skargi 18, Wrocław",
+    "en": "A restaurant in the Bastion Sakwowy peristyle pavilion, with cooking inspired by Polish and Breslau traditions according to its official website. Our visit photograph shows the entrance and restaurant sign. Combine a meal with a walk around the bastion and along the city moat.\nul. Ks. Piotra Skargi 18, Wrocław",
+    "pl": "Restauracja w pawilonie perystylowym Bastionu Sakwowego, z kuchnią inspirowaną według oficjalnej strony tradycjami polskimi i breslauerskimi. Nasze zdjęcie z wizyty przedstawia wejście oraz szyld. Posiłek można połączyć ze spacerem wokół bastionu i wzdłuż fosy miejskiej.\nul. Ks. Piotra Skargi 18, Wrocław",
+    "de": "Ein Restaurant im Peristylpavillon des Bastion Sakwowy mit Küche nach polnischen und Breslauer Traditionen laut eigener Website. Unser Besuchsfoto zeigt Eingang und Namensschild. Ein Essen lässt sich mit einem Spaziergang um die Bastion und am Stadtgraben verbinden.\nul. Ks. Piotra Skargi 18, Wrocław",
+    "cs": "Restaurace v peristylovém pavilonu Bastionu Sakwowy s kuchyní inspirovanou podle oficiálního webu polskými a vratislavskými tradicemi. Naše fotografie z návštěvy ukazuje vstup a název restaurace. Jídlo lze spojit s procházkou kolem bašty a podél městského příkopu.\nul. Ks. Piotra Skargi 18, Wrocław"
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1049153,
+      "lng": 17.0380912
+    },
+    "address": {
+      "street": "Ks. Piotra Skargi 18",
+      "city": "Wrocław",
+      "postalCode": "50-082",
+      "countryCode": "PL"
+    }
+  },
+  "categories": [
+    "eat",
+    "restaurant"
+  ],
+  "taxonomy": {
+    "categories": [
+      "eat",
+      "restaurant"
+    ],
+    "tags": [
+      "polish-cuisine",
+      "breslau-cuisine",
+      "bastion",
+      "restaurant"
+    ]
+  },
+  "links": {
+    "website": "https://restauracjagustaw.pl/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1049153%2C17.0380912",
+      "appleMaps": "https://maps.apple.com/?ll=51.1049153,17.0380912"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "photos": [
+      "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg"
+    ],
+    "thumbnail": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg",
+    "videos": [],
+    "metadata": {
+      "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/gustav/WhatsApp Image 2026-10-20 at 14.11.22.jpeg",
+        "sourceSHA256": "9ddc6574f56940ad5f94f363aeba9dc3d717e2067a69077d12b877fd9b261c79",
+        "assetSHA256": "a70905cb5cb1dc3daaa1990644e222797950dd6ce1f5aa1d309665c216b95e90",
+        "alt": {
+          "he": "כניסת מסעדת גוסטב והשלט מעל הדלת",
+          "en": "Entrance to Gustaw restaurant and its sign above the door",
+          "pl": "Wejście do restauracji Gustaw i szyld nad drzwiami",
+          "de": "Eingang des Restaurants Gustaw mit Namensschild über der Tür",
+          "cs": "Vstup do restaurace Gustaw a název nad dveřmi"
+        },
+        "sharedWithCanonicalPlace": "bastion"
+      }
+    }
+  },
+  "provenance": {
+    "personalVisit": true,
+    "originalPhotography": true,
+    "verifiedAt": "2026-10-20",
+    "factualSources": [
+      {
+        "url": "https://restauracjagustaw.pl/kontakt/",
+        "scope": "Official name and address; opening hours omitted because official pages conflict",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "url": "https://restauracjagustaw.pl/en/welcome/",
+        "scope": "Peristyle restaurant and Polish/Breslau culinary inspiration",
+        "verifiedAt": "2026-10-20"
+      },
+      {
+        "url": "https://www.openstreetmap.org/node/12371885742",
+        "scope": "Restaurant coordinates; official website, phone and reservation email match restaurant contact page",
+        "verifiedAt": "2026-10-20"
+      }
+    ]
+  },
+  "socialPosts": [],
+  "status": "published",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ]
+});
+})();
