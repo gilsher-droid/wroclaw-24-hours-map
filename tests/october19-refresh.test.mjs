@@ -9,7 +9,7 @@ const window={};for(const file of ['data/place-catalog.js','data/canonical-exper
 const catalog=window.WROC_CATALOG, contract=json('data/october19-refresh-preservation-contract.json');
 test('October refresh preserves existing identities, pins, guide links and unrelated places',()=>{
  for(const id of contract.originalPlaceIds)assert.ok(catalog.getPlace(id),id);
- assert.deepEqual(Object.keys(catalog.places).filter(id=>!contract.originalPlaceIds.includes(id)),['fc-caffe-kuznicza','four-denominations-district','white-stork-synagogue-wroclaw']);
+ assert.deepEqual(Object.keys(catalog.places).filter(id=>!contract.originalPlaceIds.includes(id)),['barbara-wroclaw','fc-caffe-kuznicza','four-denominations-district','white-stork-synagogue-wroclaw']);
  for(const [id,pin] of Object.entries(contract.preservedCoordinates))assert.equal(JSON.stringify(catalog.getPlace(id).location.coordinates),JSON.stringify(pin),id);
  for(const [id,guides] of Object.entries(contract.preservedGuides))assert.equal(JSON.stringify(catalog.getPlace(id).media.guideVideos),JSON.stringify(guides),id);
  const authorizedPosts=new Set(json('data/october19-published-remaining-social-connections.json').map(row=>row.url));
