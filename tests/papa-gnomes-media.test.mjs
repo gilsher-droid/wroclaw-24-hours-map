@@ -19,7 +19,7 @@ test('Papa primary social destinations open the verified written galleries in ev
 function runtime(){const window={location:{origin:'https://wroc-love.com'}};const document={documentElement:{lang:'he'},addEventListener(){}};for(const f of ['data/place-catalog.js','data/youtube-video-hosting.js','youtube-video.js','guide-video.js','data/location-media.js'])runInNewContext(readFileSync(resolve(root,f),'utf8'),{window,document,console,URLSearchParams});return window;}
 test('Papa point holds the complete deduplicated dwarf picture collection and keeps the information centre independent',()=>{
  const w=runtime(),p=w.WROC_CATALOG.getPlace('papa');assert.equal(p.media.photos.length,20);assert.equal(new Set(p.media.photos).size,20);
- assert.equal(w.WROC_CATALOG.getPlace('dwarf-info').media.photos.length,5);
+ assert.equal(w.WROC_CATALOG.getPlace('dwarf-info').media.photos.length,20);
  assert.deepEqual(Array.from(w.WROC_LOCATION_MEDIA.papa.gallery),Array.from(p.media.photos));
  const provenance=JSON.parse(readFileSync(resolve(root,'data/papa-gnomes-media-provenance.json'),'utf8'));
  assert.equal(provenance.photos.length,20);assert.equal(Object.keys(provenance.photoDuplicatesOmitted).length,6);

@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "dwarf-info": ["museums-history"],
     "barbara-wroclaw": ["art-contemporary", "architecture-design"],
     "four-denominations-district": ["museums-history", "architecture-design"],
     "white-stork-synagogue-wroclaw": ["museums-history", "architecture-design"],
