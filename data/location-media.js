@@ -218,6 +218,7 @@
   resources.wuwa = { videos: ["/assets/wuwa-cafe-visit-01.mp4"], guideVideos: { he:"https://youtube.com/shorts/tEbmB6OWe90", en:"https://youtube.com/shorts/4EnO5yNkQxc" }, gallery: ["/assets/wuwa-estate-18.jpg", "/assets/wuwa-estate-19.jpg", "/assets/wuwa-estate-20.jpg"] };
   resources["arche-klasztor"] = canonicalResources("arche-klasztor");
   resources["wroclaw-botanical-garden"] = canonicalResources("wroclaw-botanical-garden");
+  for (const id of ["altus", "puro", "herbal", "ac-hotel", "boogie-aparthouse-garbary", "art-hotel", "entre-hotel-wroclaw", "joyinn-aparthotel-wroclaw", "dwor-polski-hotel-wroclaw", "wyndham-wroclaw-old-town", "tulip-hotels-wroclaw-patio"]) resources[id] = canonicalResources(id);
   for (const [id, media] of Object.entries(resources)) {
     const place = window.WROC_CATALOG?.getPlace?.(id);
     if (!place) continue;
