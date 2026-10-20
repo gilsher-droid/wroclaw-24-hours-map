@@ -15,6 +15,9 @@ test('Żyjnia keeps one cultural identity and traceable public media with publis
  const visits=JSON.parse(readFileSync('data/zyjnia-visit-publication-receipt.json','utf8'));
  assert.equal(new Set(visits.map(v=>v.youtube)).size,7);
  for(const v of visits){assert.equal(v.visibility,'Public');assert.equal(v.savedPublicVerified,true);assert.ok(p.media.videos.includes(v.youtube));}
+ for(const lang of ['he','en','pl','de','cs'])assert.equal(window.WROC_CATALOG.getSocialPost(p,'instagram',lang),null);
+ for(const lang of ['he','de'])assert.equal(window.WROC_CATALOG.getSocialPost(p,'facebook',lang),null);
+ for(const lang of ['en','pl','cs'])assert.ok(window.WROC_CATALOG.getSocialPost(p,'facebook',lang)?.url.includes('story_fbid='));
  const proof=JSON.parse(readFileSync('data/zyjnia-guide-caption-provenance.json','utf8'));
  for(const lang of ['he','en','pl','de','cs']){
   const edition=proof.editions[lang==='he'?'he':'en'],track=proof.tracks[lang];
