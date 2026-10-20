@@ -152,7 +152,7 @@ if (window.WROC_CATALOG?.registerProduct) {
 
 // Use refreshed canonical visitor information without changing itinerary choices.
 if (window.WROC_CATALOG) {
-  const refreshedIds = new Set(["math-tower","rynek","town-hall","renoma","wroclavia","pasaz","pergola","slodowa","dominikan","pedet","fashion-outlet","fc-caffe-kuznicza"]);
+  const refreshedIds = new Set(["math-tower","rynek","town-hall","renoma","wroclavia","pasaz","pergola","slodowa","dominikan","pedet","fashion-outlet","fc-caffe-kuznicza","boguslawskiego"]);
   [window.LOCATIONS, window.EVENING_LOCATIONS].forEach(items => (items || []).forEach(record => {
     const place = window.WROC_CATALOG.getPlace(record.canonicalPlaceId || record.id);
     if (!place || !refreshedIds.has(place.id)) return;

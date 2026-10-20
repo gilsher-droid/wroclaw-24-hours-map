@@ -216,3 +216,7 @@ article[data-place="central"] p,article[data-place="central-cafe-nadodrze"] p,ar
 /* Full original Parrot Bema photograph, without cropping. */
 .media-grid img[src*="/parrot-coffee-bema/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 article[data-place="parrot-coffee-bema"] p{white-space:pre-line;}
+
+/* Complete Boguslawskiego visit frames, including existing street views. */
+.media-grid img[src*="boguslawskiego"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="boguslawskiego"] p,[data-place-id="boguslawskiego"] p{white-space:pre-line;}

@@ -102,7 +102,7 @@
     place("karmello", ["drink"], [51.1104418,17.0337016], "Karmello Chocolatier", food.gelato, foodPost, "rynek", sourceFood),
     place("lodziarnia-roma", ["drink"], [51.117917,17.0343499], "Lodziarnia Roma", food.roma, foodPost, "lodziarnia-roma", sourceFood),
     place("la-maddalena", ["eat","drink"], [51.1143103,17.0314381], "Restauracja La Maddalena", food.fine, foodPost, null, sourceFood),
-    place("boguslawskiego", ["eat","drink"], [51.10289,17.02979], "ul. Wojciecha Bogusławskiego", food.street, foodPost, "boguslawskiego", sourceFood),
+    {id:"boguslawskiego",categories:["eat","drink"],coordinates:[51.10289,17.02979],mediaKey:"boguslawskiego"},
 
     place("wroclavia", ["buy","eat"], [51.0964311,17.0348417], "Westfield Wroclavia",
       t("מרכז גדול ומודרני ליד התחנה המרכזית, עם מותגים בינלאומיים ומתחם אוכל רחב.", "A large modern centre by the main station, with international brands and a broad food court.", "Duże nowoczesne centrum przy dworcu, z międzynarodowymi markami i rozbudowaną strefą gastronomiczną.", "Ein großes modernes Zentrum am Hauptbahnhof mit internationalen Marken und Food Court.", "Velké moderní centrum u hlavního nádraží s mezinárodními značkami a food courtem."), shoppingPost, "wroclavia", sourceShopping),

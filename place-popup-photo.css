@@ -82,3 +82,7 @@ article[data-place="charlotte"] p, article[data-canonical-place-id="charlotte"] 
 /* Two Central Cafe branches: preserve complete visit photo frames. */
 .media-grid img[src*="/central-cafe/"] {height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 article[data-place="central"] p,article[data-place="central-cafe-nadodrze"] p,article[data-canonical-place-id="central"] p {white-space:pre-line;}
+
+/* Complete Boguslawskiego visit frames, including existing street views. */
+.media-grid img[src*="boguslawskiego"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="boguslawskiego"] p,[data-place-id="boguslawskiego"] p{white-space:pre-line;}
