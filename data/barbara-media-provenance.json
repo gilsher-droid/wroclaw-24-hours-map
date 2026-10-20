@@ -121,8 +121,12 @@
   "guides": 0,
   "maps": {
     "cultural": "Architecture/design and contemporary culture; exhibition and cultural programme",
-    "lifestyle": "Café and reading stop confirmed by official operator",
+    "lifestyle": "No new Barbara hospitality pin: existing separate Figa w Barbarze café/water-programme identity is preserved. Barbara is the cultural venue.",
     "timedRoutes": "No changes: optional venue does not require extending existing fixed routes",
     "regionalAndChristmas": "Not appropriate"
+  },
+  "nearbyDistinctIdentities": {
+    "figa-w-barbarze": "Café operator within Barbara, official operator notice confirms relationship; existing identity preserved",
+    "papa": "Adjacent public artwork, not same venue"
   }
 }

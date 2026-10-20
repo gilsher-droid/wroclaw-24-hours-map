@@ -1748,9 +1748,7 @@
     "categories": [
       "architecture",
       "cafe",
-      "culture",
-      "drink",
-      "eat"
+      "culture"
     ],
     "sourceUrls": [],
     "aliases": [
@@ -1759,30 +1757,15 @@
       "barbara-infopunkt",
       "wroclawski-instytut-kultury"
     ],
-    "sourceRecords": [
-      {
-        "productId": "lifestyle-guide",
-        "kind": "catalog-place",
-        "sourceId": "barbara-wroclaw"
-      }
-    ],
-    "coordinateCandidates": [
-      {
-        "productId": "lifestyle-guide",
-        "sourceId": "barbara-wroclaw",
-        "lat": 51.10769750953518,
-        "lng": 17.032835136772945
-      }
-    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
     "status": "published",
     "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
         "architecture",
         "cafe",
-        "culture",
-        "drink",
-        "eat"
+        "culture"
       ],
       "tags": [
         "art-contemporary",
