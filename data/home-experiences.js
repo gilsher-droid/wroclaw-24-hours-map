@@ -42,16 +42,5 @@ window.WROC_HOME_EXPERIENCES = [
       "cs": "Procházka čtvrtí Nadodrze"
     },
     "photo": "/assets/experiences/nadodrze/nadodrze-library-facade.jpg"
-  },
-  {
-    "id": "olbin-mural-walk",
-    "name": {
-      "he": "מחפשים מיוראלים באולבין",
-      "en": "Discover murals in Ołbin",
-      "pl": "Odkryj murale na Ołbinie",
-      "de": "Wandbilder in Ołbin entdecken",
-      "cs": "Objevujte muraly v Ołbinu"
-    },
-    "photo": null
   }
 ];

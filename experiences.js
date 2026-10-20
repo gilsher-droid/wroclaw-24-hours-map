@@ -1,6 +1,6 @@
 (() => {
 'use strict';
-const featured=['beach-bars-and-waterside-summer','wroclaw-tram-ride','wroclaw-dwarf-hunt','nadodrze-neighbourhood-walk','olbin-mural-walk'];
+const featured=['beach-bars-and-waterside-summer','wroclaw-tram-ride','wroclaw-dwarf-hunt','nadodrze-neighbourhood-walk'];
 const locales={
 he:['לחוות את וורוצלב','בוחרים מה מתחשק לעשות, ומגלים את המקומות, התמונות והסיפורים שמרכיבים את החוויה.','המקומות שבחוויה','תמונות מהביקורים שלנו','המדריך שלנו','סרטונים מהביקורים','המקומות על המפה','סיכות מציינות מקום מזוהה או אזור המסומן בשמו. זו אינה מפת קווי טראם או מסלול חובה.','ניווט','תמונות','וידאו','פייסבוק','אינסטגרם','סגירה וחזרה לחוויה','חזרה לכל החוויות','מפה','עדיין אין תמונות מזוהות לאזור הזה. המפה מאפשרת להתחיל להתמצא באזור.','לחוויה עצמה אין נקודת מיקום יחידה. תוכלו ליהנות מהתיעוד ולהמשיך למפות העיר.','תיעוד מהחוויה','המפה העירונית'],
 en:['Experience Wrocław','Choose what you feel like doing and discover the places, photos and stories behind the experience.','Places in this experience','Our visit photographs','Our travel guide','Our visit videos','Places on the map','Pins show verified places or named areas. This is not a tram-line map or a compulsory route.','Navigate','Photos','Videos','Facebook','Instagram','Close and return to the experience','All experiences','Map','There are no identified photographs of this area yet. Explore its location on the map.','This experience has no single location pin. Enjoy the visit collection and explore our city maps.','Experience collection','City map'],

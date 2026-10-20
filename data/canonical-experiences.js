@@ -375,7 +375,7 @@
   tramRide.metadata.nearDuplicateImages = ["IMG_4374.JPG", "IMG_4653.JPG"];
   tramRide.media.guideVideos = {};
   const streetAreas = experiences.find(e => e.id === "street-art-nadodrze-olbin");
-  streetAreas.metadata.childExperienceIds = ["nadodrze-neighbourhood-walk", "olbin-mural-walk"];
+  streetAreas.metadata.childExperienceIds = ["nadodrze-neighbourhood-walk"];
   const n = streetAreas.mapPoints.find(p => p.id === "nadodrze");
   const o = streetAreas.mapPoints.find(p => p.id === "olbin");
   experiences.push(
@@ -394,12 +394,7 @@
       relatedCanonicalPlaceIds:["bru-coffee-bakehouse-wroclaw","lodziarnia-roma"],productRefs:["cultural-adventure","lifestyle-guide"],mapPoints:[n],social:[],
       media:{hero:{src:n.media.photos[0]},images:["/assets/experiences/nadodrze/nadodrze-library-facade.jpg", "/assets/experiences/nadodrze-walk/visit-01.jpg", "/assets/experiences/nadodrze-walk/visit-05.jpg", "/assets/experiences/nadodrze-walk/visit-10.jpg", "/assets/experiences/nadodrze-walk/visit-11.jpg", "/assets/experiences/nadodrze-walk/visit-12.jpg", "/assets/experiences/nadodrze-walk/visit-13.jpg", "/assets/experiences/nadodrze-walk/visit-15.jpg"],videos:[],guideVideos:{},inheritFromCanonicalPlaceIds:["bru-coffee-bakehouse-wroclaw","lodziarnia-roma"],inheritSocial:true},metadata:{sourceLibraryFolder:"Nadodje",parentExperienceId:streetAreas.id,scope:"Neighbourhood exploration, not only murals"}
     },
-    {
-      id:"olbin-mural-walk",type:"area-exploration",categories:["street-art","neighbourhood"],
-      name:t("מחפשים מיוראלים באולבין", "Discover murals in Ołbin", "Odkryj murale na Ołbinie", "Wandbilder in Ołbin entdecken", "Objevujte muraly v Ołbinu"),
-      description:t("חוויית שיטוט נפרדת באזור אולבין, בחיפוש אחר אמנות על קירות ופרטים ברחובות. הסיכה מייצגת את האזור ולא מיוראל מסוים.", "A separate neighbourhood exploration of Ołbin, looking for wall art and street details. The pin represents the area, not a specific mural.", "Osobny spacer po Ołbinie w poszukiwaniu sztuki na ścianach i ulicznych detali. Pinezka oznacza obszar, nie konkretny mural.", "Ein eigener Streifzug durch Ołbin auf der Suche nach Wandkunst und Straßendetails. Die Markierung bezeichnet das Gebiet, kein einzelnes Wandbild.", "Samostatná procházka Ołbinem za uměním na zdech a detaily ulic. Značka označuje oblast, nikoli konkrétní mural."),
-      relatedCanonicalPlaceIds:[],productRefs:["cultural-adventure"],mapPoints:[o],media:{images:[],videos:[],guideVideos:{}},social:[],metadata:{parentExperienceId:streetAreas.id,fieldProductionGaps:["identified-local-photos","identified-local-videos"]}
-    }
+
   );
 
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
