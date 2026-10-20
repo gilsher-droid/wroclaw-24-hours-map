@@ -2673,14 +2673,14 @@
       "en": "Bogusławskiego restaurant street",
       "pl": "Ulica Wojciecha Bogusławskiego",
       "de": "Restaurantstraße Bogusławskiego",
-      "cs": "Ulice Bogusławskiego – restaurace pod oblouky"
+      "cs": "Ulice Bogusławskiego, restaurace pod oblouky"
     },
     "description": {
-      "he": "מסעדות וברים מתחת לקשתות מסילת הרכבת — מקום נעים לסיים בו את היום.",
-      "en": "Restaurants and bars beneath the railway arches — an easy place to end the day.",
-      "pl": "Restauracje i bary pod arkadami kolejowymi — dobre miejsce na zakończenie dnia.",
-      "de": "Restaurants und Bars unter den Eisenbahnbögen – ein schöner Ort, um den Tag ausklingen zu lassen.",
-      "cs": "Restaurace a bary pod železničními oblouky – příjemné místo na zakončení dne."
+      "he": "רחוב אוכל ובילוי לאורך קשתות הלבנים של מסילת הרכבת המוגבהת, מדרום לעיר העתיקה. מסעדות, ברים ושולחנות חוץ פועלים מתחת לקשתות, ורכבות ממשיכות לעבור מעליהם. אפשר לשוטט בין המקומות ולבחור ארוחה או משקה. בגלריית הביקור שלנו מופיעים הרחוב באור יום, הקשתות ושלט הרחוב, וגם מראה הלילה. זו נקודה המייצגת את הרחוב, ולא מסעדה אחת.\nul. Wojciecha Bogusławskiego, Wrocław",
+      "en": "A food and nightlife street along the brick arches of the elevated railway, south of the Old Town. Restaurants, bars and outdoor tables sit beneath the arches while trains continue overhead. Walk along the frontage and choose a meal or a drink. Our visit gallery shows daytime street views, the arches and street sign, plus the street at night. This point represents the street, not a single restaurant.\nul. Wojciecha Bogusławskiego, Wrocław",
+      "pl": "Gastronomiczna ulica wzdłuż ceglanych arkad nasypu kolejowego, na południe od Starego Miasta. Pod łukami działają restauracje, bary i ogródki, a nad nimi nadal przejeżdżają pociągi. Można przejść wzdłuż lokali i wybrać posiłek lub napój. Nasza galeria pokazuje ulicę za dnia, arkady, tabliczkę z nazwą oraz widok nocny. Punkt oznacza całą ulicę, a nie jedną restaurację.\nul. Wojciecha Bogusławskiego, Wrocław",
+      "de": "Gastronomie- und Ausgehstraße entlang der Backsteinbögen des erhöhten Bahndamms südlich der Altstadt. Restaurants, Bars und Außentische liegen unter den Bögen, während darüber Züge fahren. Bei einem Spaziergang lässt sich ein Ort zum Essen oder Trinken auswählen. Unsere Besuchsgalerie zeigt Tagesansichten, Bögen, Straßenschild und die Straße bei Nacht. Dieser Punkt steht für die Straße, nicht für ein einzelnes Restaurant.\nul. Wojciecha Bogusławskiego, Wrocław",
+      "cs": "Ulice s restauracemi a bary podél cihlových oblouků zvýšené železnice jižně od Starého Města. Pod oblouky jsou podniky a venkovní stolky, zatímco nahoře stále projíždějí vlaky. Při procházce si lze vybrat místo na jídlo nebo pití. Naše galerie ukazuje ulici ve dne, oblouky, tabulku s názvem i noční pohled. Bod označuje ulici, nikoli jednu restauraci.\nul. Wojciecha Bogusławskiego, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -2689,6 +2689,11 @@
       "coordinates": {
         "lat": 51.10289,
         "lng": 17.02979
+      },
+      "address": {
+        "street": "Wojciecha Bogusławskiego",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
@@ -2769,22 +2774,208 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/gastroulice-boguslawskiego-we-wroclawiu",
       "navigation": {
-        "googleMaps": null,
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10289%2C17.02979",
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "verifiedAt": "2026-10-20",
+      "factualSources": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gastroulice-boguslawskiego-we-wroclawiu",
+          "scope": "Municipal2026GastroUlice report confirms restaurants/bars below the railwayembankment, not a single venue.",
+          "verifiedAt": "2026-10-20"
+        }
+      ]
     },
     "media": {
+      "thumbnail": "/assets/gallery-boguslawskiego-01.jpg",
       "photos": [
         "/assets/gallery-boguslawskiego-01.jpg",
         "/assets/gallery-boguslawskiego-02.jpg",
         "/assets/gallery-boguslawskiego-03.jpg",
         "/assets/gallery-boguslawskiego-04.jpg",
         "/assets/gallery-boguslawskiego-05.jpg",
-        "/assets/gallery-boguslawskiego-06.jpg"
+        "/assets/gallery-boguslawskiego-06.jpg",
+        "/assets/boguslawskiego-refresh/boguslawskiego-refresh-01.jpg",
+        "/assets/boguslawskiego-refresh/boguslawskiego-refresh-02.jpg",
+        "/assets/boguslawskiego-refresh/boguslawskiego-refresh-03.jpg"
       ],
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/watch?v=hY-IB_mxFGg"
+      ],
+      "metadata": {
+        "/assets/gallery-boguslawskiego-01.jpg": {
+          "legacyExistingPhoto": true,
+          "assetSHA256": "4bf3863bc6f32a8d7a8fefc70e95f2dd17bfe6ab782adfb5e9becc5e560f58c3",
+          "familyForeground": false,
+          "privacyReview": "Street scene with incidental public passersby, or food plate foreground; no posed family portrait.",
+          "sourceFile": "WhatsApp Image 2026-07-30 at 16.03.59 (1).jpeg",
+          "sourceSHA256": "a412fa57121fd5b723cb79bb0ca8caad7e11ff39ef7142874c2915c9f640e3c6",
+          "alt": {
+            "he": "מבט קיים על הרחוב והמסעדות מתחת לרכבת",
+            "en": "Existing street view of restaurants below the railway",
+            "pl": "Dotychczasowy widok restauracji pod nasypem",
+            "de": "Bestehende Ansicht der Restaurants unter der Bahn",
+            "cs": "Dosavadní pohled na restaurace pod železnicí"
+          }
+        },
+        "/assets/gallery-boguslawskiego-02.jpg": {
+          "legacyExistingPhoto": true,
+          "assetSHA256": "cf5e6baeb0ae7321525063268f6819246d6ea66cd5a41a011864dacff416b27c",
+          "familyForeground": false,
+          "privacyReview": "Street scene with incidental public passersby, or food plate foreground; no posed family portrait.",
+          "sourceFile": "WhatsApp Image 2026-07-30 at 16.03.59.jpeg",
+          "sourceSHA256": "f3a05beaa624e5cd45264eab4dd9c10d7a6b520f8988dc3808dfb295e0b09394",
+          "alt": {
+            "he": "מבט קיים על הרחוב והמסעדות מתחת לרכבת",
+            "en": "Existing street view of restaurants below the railway",
+            "pl": "Dotychczasowy widok restauracji pod nasypem",
+            "de": "Bestehende Ansicht der Restaurants unter der Bahn",
+            "cs": "Dosavadní pohled na restaurace pod železnicí"
+          }
+        },
+        "/assets/gallery-boguslawskiego-03.jpg": {
+          "legacyExistingPhoto": true,
+          "assetSHA256": "85d56d4eb513d01bd19216d430a6002eafd41c822563b2777b35cb052aea3e6b",
+          "familyForeground": false,
+          "privacyReview": "Street scene with incidental public passersby, or food plate foreground; no posed family portrait.",
+          "sourceProvenance": "Existing legacy food photograph retained without inventing a source-file identity.",
+          "alt": {
+            "he": "מנה מצולמת מגלריית הביקור הקיימת",
+            "en": "Food photograph retained from the existing visit gallery",
+            "pl": "Zdjęcie dania zachowane z dotychczasowej galerii",
+            "de": "Speisefoto aus der bestehenden Besuchsgalerie",
+            "cs": "Fotografie jídla zachovaná z dosavadní galerie"
+          }
+        },
+        "/assets/gallery-boguslawskiego-04.jpg": {
+          "legacyExistingPhoto": true,
+          "assetSHA256": "b396e0d25e1b3def7c615b1050b866d42498a55e2e373946a03166863d2c93a5",
+          "familyForeground": false,
+          "privacyReview": "Street scene with incidental public passersby, or food plate foreground; no posed family portrait.",
+          "sourceFile": "WhatsApp Image 2026-07-30 at 16.04.00.jpeg",
+          "sourceSHA256": "23ee3949fc00e9170e3c39e7c482b0805d174b831b4d0e95117c729d526fba84",
+          "alt": {
+            "he": "מבט קיים על הרחוב והמסעדות מתחת לרכבת",
+            "en": "Existing street view of restaurants below the railway",
+            "pl": "Dotychczasowy widok restauracji pod nasypem",
+            "de": "Bestehende Ansicht der Restaurants unter der Bahn",
+            "cs": "Dosavadní pohled na restaurace pod železnicí"
+          }
+        },
+        "/assets/gallery-boguslawskiego-05.jpg": {
+          "legacyExistingPhoto": true,
+          "assetSHA256": "b835e92ebe6793e09dcd021394ec526f909d7ccdca5ef5581f0c99222aacb71c",
+          "familyForeground": false,
+          "privacyReview": "Street scene with incidental public passersby, or food plate foreground; no posed family portrait.",
+          "sourceFile": "WhatsApp Image 2026-07-30 at 16.04.04 (1).jpeg",
+          "sourceSHA256": "af29c1f667b505819fa2678c4a664d1b31e0ff5cafce0f3d1a25e393e39987b6",
+          "alt": {
+            "he": "מבט קיים על הרחוב והמסעדות מתחת לרכבת",
+            "en": "Existing street view of restaurants below the railway",
+            "pl": "Dotychczasowy widok restauracji pod nasypem",
+            "de": "Bestehende Ansicht der Restaurants unter der Bahn",
+            "cs": "Dosavadní pohled na restaurace pod železnicí"
+          }
+        },
+        "/assets/gallery-boguslawskiego-06.jpg": {
+          "legacyExistingPhoto": true,
+          "assetSHA256": "7970ae40257e0c73217f3a302b1c91653ce45ea8b40ce12b0e7f7373f6903b85",
+          "familyForeground": false,
+          "privacyReview": "Street scene with incidental public passersby, or food plate foreground; no posed family portrait.",
+          "sourceFile": "WhatsApp Image 2026-07-30 at 16.04.04 (2).jpeg",
+          "sourceSHA256": "c0d2e0e43c0cfc8c6877d2537beb34554eea8d2fcf828a1ed1dbc4dfc43bbe19",
+          "alt": {
+            "he": "מבט קיים על הרחוב והמסעדות מתחת לרכבת",
+            "en": "Existing street view of restaurants below the railway",
+            "pl": "Dotychczasowy widok restauracji pod nasypem",
+            "de": "Bestehende Ansicht der Restaurants unter der Bahn",
+            "cs": "Dosavadní pohled na restaurace pod železnicí"
+          }
+        },
+        "/assets/boguslawskiego-refresh/boguslawskiego-refresh-01.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-30 at 16.04.07.jpeg",
+          "sourceSHA256": "09d0395c7564705cab8d5b493f7700a0cc6adc1f5208ba4f90e618568f71afe8",
+          "assetSHA256": "7432ac24d866c4cb41011795977a2ccdc391a13dedccf8a859cf62e747559de0",
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט לאורך הקשתות ושולחנות החוץ מהצד השני של הרחוב",
+            "en": "Reverse view along the railway arches and outdoor tables",
+            "pl": "Widok z drugiej strony ulicy na arkady i ogródki",
+            "de": "Gegenblick auf die Eisenbahnbögen und Außentische",
+            "cs": "Pohled z opačné strany na železniční oblouky a venkovní stolky"
+          }
+        },
+        "/assets/boguslawskiego-refresh/boguslawskiego-refresh-02.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-19 at 17.01.53 (1).jpeg",
+          "sourceSHA256": "dbdd94aa4c2820b58e2d8641eec397d893551c8fc2a8edba6dd5938dc1134c8f",
+          "assetSHA256": "39922ef1f8ff7bb8b19b11cf298d926e7e5d4f2836a4891921a3c71a49957be2",
+          "familyForeground": false,
+          "alt": {
+            "he": "שלט רחוב בוגוסלבסקייגו על קיר האבן",
+            "en": "Bogusławskiego street sign on the stone wall",
+            "pl": "Tabliczka ulicy Bogusławskiego na kamiennej ścianie",
+            "de": "Straßenschild Bogusławskiego an der Steinwand",
+            "cs": "Tabulka ulice Bogusławskiego na kamenné zdi"
+          }
+        },
+        "/assets/boguslawskiego-refresh/boguslawskiego-refresh-03.jpg": {
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-10-19 at 17.01.53.jpeg",
+          "sourceSHA256": "e4331d72b98a389d9ef0f0dd30b87545a64e6c0cad80de519b1c99366b77f580",
+          "assetSHA256": "53fb2467bb4492d06442bfac2e9b7f13dd14e1c25510b3f4ee1d8b04dc17a336",
+          "familyForeground": false,
+          "alt": {
+            "he": "רחוב המסעדות וקשתות הרכבת בלילה",
+            "en": "Restaurant street and railway arches at night",
+            "pl": "Ulica gastronomiczna i arkady kolejowe nocą",
+            "de": "Restaurantstraße und Eisenbahnbögen bei Nacht",
+            "cs": "Ulice restaurací a železniční oblouky v noci"
+          }
+        },
+        "https://www.youtube.com/watch?v=hY-IB_mxFGg": {
+          "kind": "youtube",
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-10-19 at 17.01.57.mp4",
+          "sourceSHA256": "e342456ff057309c93418ab8a8567b480e2be87da937e4d1b1f793f9b0243470",
+          "uploadSHA256": "ab7e548cbc807a878497f22cf3c0a6f6f4913d32604f4ec04c40ebc3b5d5b8bf",
+          "durationSeconds": 28.166667,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "title": {
+            "he": "רחוב המסעדות ורכבת חולפת בלילה",
+            "en": "Railway arches and passing train at night",
+            "pl": "Arkady kolejowe i przejeżdżający pociąg nocą",
+            "de": "Eisenbahnbögen und vorbeifahrender Zug bei Nacht",
+            "cs": "Železniční oblouky a projíždějící vlak v noci"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -2860,19 +3051,6 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "boleslawiec-ceramics-museum": {
