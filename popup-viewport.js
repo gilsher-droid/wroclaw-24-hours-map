@@ -77,12 +77,21 @@
     });
     map.on('popupclose',close);
     map.on('moveend resize',schedule);
+    function keydown(event) {
+      if(event.key==='Escape'&&active) {
+        map.closePopup(active);
+        container.focus({preventScroll:true});
+        event.preventDefault();
+        event.stopPropagation();
+      }
+    }
+    container.addEventListener('keydown',keydown);
     container.addEventListener('load',schedule,true);
     root.addEventListener('resize',schedule,{passive:true});
     root.addEventListener('orientationchange',schedule,{passive:true});
     root.addEventListener('scroll',schedule,{passive:true,capture:true});
     root.visualViewport?.addEventListener('resize',schedule,{passive:true});
     root.visualViewport?.addEventListener('scroll',schedule,{passive:true});
-    map.on('unload',()=>{close();container.removeEventListener('load',schedule,true);root.removeEventListener('resize',schedule);root.removeEventListener('orientationchange',schedule);root.removeEventListener('scroll',schedule,true);root.visualViewport?.removeEventListener('resize',schedule);root.visualViewport?.removeEventListener('scroll',schedule);});
+    map.on('unload',()=>{close();container.removeEventListener('keydown',keydown);container.removeEventListener('load',schedule,true);root.removeEventListener('resize',schedule);root.removeEventListener('orientationchange',schedule);root.removeEventListener('scroll',schedule,true);root.visualViewport?.removeEventListener('resize',schedule);root.visualViewport?.removeEventListener('scroll',schedule);});
   });
 })(typeof window!=='undefined'?window:globalThis);
