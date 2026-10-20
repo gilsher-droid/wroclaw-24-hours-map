@@ -18,7 +18,9 @@ test("free-water catalog records are additive, scoped and preserve identity", ()
   const hospitality = catalog.queryIndependentPlaces({ cityId: "wroclaw", amenity: "freeTapWater" });
   const refillPoints = catalog.queryIndependentPlaces({ cityId: "wroclaw", placeType: "waterRefillPoint" });
 
-  assert.equal(hospitality.length, 24);
+  assert.equal(hospitality.length, 23);
+  assert.equal(Object.values(catalog.places).filter(p=>p.amenities?.freeTapWater===true).length,24);
+  assert.equal(catalog.getPlace("parrot-coffee-bema").amenities.freeTapWater,true);
   assert.equal(refillPoints.length, 15);
   const waterPlaces = [...hospitality, ...refillPoints];
   assert.equal(new Set(waterPlaces.map((place) => place.id)).size, hospitality.length + refillPoints.length);
@@ -59,7 +61,10 @@ test("Free Water composes a scoped overlay without changing Lifestyle membership
     ...catalog.queryIndependentPlaces({ cityId: "wroclaw", amenity: "freeTapWater" }),
     ...catalog.queryIndependentPlaces({ cityId: "wroclaw", placeType: "waterRefillPoint" }),
   ];
-  assert.equal(overlay.length, 39);
+  assert.equal(overlay.length, 38);
+  const actualCombined=filters.filterPlaces({productPlaces:originalPlaces,overlayPlaces:overlay,freeWaterOnly:true});
+  assert.equal(new Set(actualCombined.map(p=>filters.canonicalId(p))).size,39);
+  assert.equal(actualCombined.filter(p=>filters.canonicalId(p)==="parrot-coffee-bema").length,1);
 
   const unchanged = filters.filterPlaces({ productPlaces: originalPlaces, overlayPlaces: overlay });
   assert.deepEqual(unchanged.map((place) => place.canonicalPlaceId), originalIds);
@@ -93,7 +98,7 @@ test("Free Water composes a scoped overlay without changing Lifestyle membership
   assert.equal(filtered.some((place) => filters.canonicalId(place) === ineligibleUndefined.canonicalPlaceId), false);
   assert.equal(filtered.filter((place) => (
     (place.canonicalPlace || place).amenities?.freeTapWater === true
-  )).length, 25);
+  )).length, 24);
   assert.equal(filtered.filter((place) => place.placeType === "waterRefillPoint").length, 15);
   assert.equal(filters.canonicalId(eligible), "eligible-lifestyle-place");
   assert.deepEqual(eligible.categories, ["eat"]);

@@ -212,3 +212,7 @@ img[src*="mathematical-tower-"], img[src*="pan-tadeusz-museum-"], img[src*="stad
 /* Two Central Cafe branches: preserve complete visit photo frames. */
 .media-grid img[src*="/central-cafe/"] {height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 article[data-place="central"] p,article[data-place="central-cafe-nadodrze"] p,article[data-canonical-place-id="central"] p {white-space:pre-line;}
+
+/* Full original Parrot Bema photograph, without cropping. */
+.media-grid img[src*="/parrot-coffee-bema/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="parrot-coffee-bema"] p{white-space:pre-line;}
