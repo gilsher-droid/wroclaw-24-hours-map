@@ -126,6 +126,9 @@
   };
 
   const resources = {
+    "hostel-krasnal-wroclaw": canonicalResources("hostel-krasnal-wroclaw"),
+    "marietta-focacceria-wroclaw": canonicalResources("marietta-focacceria-wroclaw"),
+    "olio-pizza-napoletana-wroclaw": canonicalResources("olio-pizza-napoletana-wroclaw"),
     "movenpick-grand-hotel-wroclaw": canonicalResources("movenpick-grand-hotel-wroclaw"),
     "the-cyrus-hotel-wroclaw": canonicalResources("the-cyrus-hotel-wroclaw"),
     "entre-hotel-wroclaw": canonicalResources("entre-hotel-wroclaw"),
