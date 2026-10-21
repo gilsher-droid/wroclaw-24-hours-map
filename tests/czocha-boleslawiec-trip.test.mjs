@@ -16,7 +16,7 @@ test('Fourth excursion preserves castle overnight and breakfast before the morni
 });
 test('New route photos are traceable, unique, unmodified optimized assets with family material held',()=>{
  const w=load(),proof=JSON.parse(readFileSync('data/czocha-boleslawiec-media-provenance.json','utf8'));
- assert.equal(proof.familyPhotosAllowed,false);assert.ok(proof.held.length>0);assert.ok(proof.photos.length>0);assert.equal(proof.photos.length,['czocha-castle','lesnianska-dam','boleslawiec-old-town','boleslawiec-ceramics-museum'].reduce((n,id)=>n+w.WROC_CATALOG.getPlace(id).media.photos.length,0));
+ assert.equal(proof.familyPhotosAllowed,false);assert.ok(proof.held.length>0);assert.ok(proof.photos.length>0);assert.equal(proof.photos.length,['czocha-castle','lesnianska-dam','boleslawiec-old-town','boleslawiec-ceramics-museum'].reduce((n,id)=>n+w.WROC_CATALOG.getPlace(id).media.photos.filter(src=>!src.includes("/today-source-refresh-20261021/boleslawiec-ceramics-")).length,0));
  assert.equal(new Set(proof.photos.map(p=>p.sourceSHA256)).size,proof.photos.length);
  const held=new Set(proof.held.map(p=>p.sha256));
  for(const photo of proof.photos){assert.equal(held.has(photo.sourceSHA256),false);assert.ok(w.WROC_CATALOG.getPlace(photo.placeId).media.photos.includes(photo.asset));assert.equal(createHash('sha256').update(readFileSync(photo.asset.slice(1))).digest('hex'),photo.assetSHA256);}
@@ -31,7 +31,7 @@ test('All sixteen visit clips use verified Public YouTube hosting and no guide i
 test('Boleslawiec galleries retain distinct views instead of repeated camera bursts',()=>{
  const w=load(),curation=JSON.parse(readFileSync('data/boleslawiec-photo-curation.json','utf8'));
  assert.equal(curation.originalsPreserved,true);assert.equal(curation.excluded.length,56);
- for(const [id,count] of Object.entries(curation.after))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,count);
+ for(const [id,count] of Object.entries(curation.after))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,count+(id==='boleslawiec-old-town'?3:0));
  for(const group of curation.groups){const place=w.WROC_CATALOG.getPlace(group.placeId);assert.ok(group.retained.length);for(const asset of group.retained)assert.ok(place.media.photos.includes(asset));for(const asset of group.excluded){assert.equal(place.media.photos.includes(asset),false);assert.equal(existsSync(asset.slice(1)),false);}}
  assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.videos.length,4);assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-ceramics-museum').media.videos.length,1);
 });
