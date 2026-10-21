@@ -472,6 +472,382 @@
       "provenance": "data/botanical-garden-guide-caption-provenance.json",
       "evidence": "outputs/botanical-garden-video-guides-2026-10-20",
       "reopenedVerification": true
+    },
+    {
+      "place": "cathedral",
+      "videos": {
+        "he": "rIIVnc_dzN4",
+        "en": "ULG-y1kQgWM"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual",
+        "published": true,
+        "reopened": true
+      },
+      "videosPublicReopened": true,
+      "originalFullPictureAndAudioPreserved": true,
+      "publicationReceipt": "outputs/cathedral-video-guides-2026-10-21/youtube-publication-receipt.json",
+      "nativeCaptionTracks": [
+        {
+          "language": "he",
+          "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-he.srt",
+          "cues": 23,
+          "sha256": "7fe72b16e0a5041fc335113ed05997040b1b66d9848aa6bafabaa1a767f303fd",
+          "videoId": "rIIVnc_dzN4",
+          "published": true,
+          "reopened": true,
+          "evidence": "he-captions-reopened.txt"
+        },
+        {
+          "language": "en",
+          "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-en.srt",
+          "cues": 22,
+          "sha256": "e6e3511b09fc05103e5c3c24a217c0733a90c85cbd7a17894ffda744b67fb775",
+          "videoId": "ULG-y1kQgWM",
+          "published": true,
+          "reopened": true,
+          "evidence": "en-captions-reopened.txt"
+        },
+        {
+          "language": "de",
+          "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-de.srt",
+          "cues": 22,
+          "sha256": "82f7cee9e44beaea42650d8ce96649a7ebae085a445d1f8b82792310d3076c24",
+          "videoId": "ULG-y1kQgWM",
+          "published": true,
+          "reopened": true,
+          "evidence": "de-captions-reopened.txt"
+        },
+        {
+          "language": "pl",
+          "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-pl.srt",
+          "cues": 22,
+          "sha256": "66779eeff16439e962d0f5c9a0c09b2cd49ae13f3df0fd55261a1d1b7bab8ec9",
+          "videoId": "ULG-y1kQgWM",
+          "published": true,
+          "reopened": true,
+          "evidence": "pl-captions-reopened.txt"
+        },
+        {
+          "language": "cs",
+          "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-cs.srt",
+          "cues": 22,
+          "sha256": "0452f4899d52fcb67c058ecb97582607f3bd357946e193b4c2e41c062e11292c",
+          "videoId": "ULG-y1kQgWM",
+          "published": true,
+          "reopened": true,
+          "evidence": "cs-captions-reopened.txt"
+        }
+      ],
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "place": "ostrow",
+      "videos": {
+        "he": "oBjOT3Ubaro",
+        "en": "C9Wyg2MB1nk"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual",
+        "published": true,
+        "reopened": true
+      },
+      "videosPublicReopened": true,
+      "originalFullPictureAndAudioPreserved": true,
+      "publicationReceipt": "outputs/ostrow-video-guides-2026-10-21/youtube-publication-receipt.json",
+      "nativeCaptionTracks": [
+        {
+          "language": "he",
+          "videoId": "oBjOT3Ubaro",
+          "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-he.srt",
+          "sha256": "e89731856cd591eb86ffcaae828c07da1577cab0a3ae34f91ddb39df3b4bd3c6",
+          "cues": 25,
+          "published": true,
+          "reopened": true,
+          "evidence": "he-captions-reopened.txt"
+        },
+        {
+          "language": "en",
+          "videoId": "C9Wyg2MB1nk",
+          "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-en.srt",
+          "sha256": "ebd716431d846b7aec188d61fcef4369028ade53cb00cd678fdf3dddbaf8562f",
+          "cues": 23,
+          "published": true,
+          "reopened": true,
+          "evidence": "en-captions-reopened.txt"
+        },
+        {
+          "language": "pl",
+          "videoId": "C9Wyg2MB1nk",
+          "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-pl.srt",
+          "sha256": "23146590f32c3c64b31c01c47c3f86a4bc98b4f2d86b975945463be53a6f017b",
+          "cues": 24,
+          "published": true,
+          "reopened": true,
+          "evidence": "pl-captions-reopened.txt"
+        },
+        {
+          "language": "de",
+          "videoId": "C9Wyg2MB1nk",
+          "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-de.srt",
+          "sha256": "50e7df758d0b622e8366941fe5b7753fd8f172c385261be71582e5324e94b95d",
+          "cues": 23,
+          "published": true,
+          "reopened": true,
+          "evidence": "de-captions-reopened.txt"
+        },
+        {
+          "language": "cs",
+          "videoId": "C9Wyg2MB1nk",
+          "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-cs.srt",
+          "sha256": "d10696a288c848d7caeae47828124820dd77c2882ca8011fdec07c94f77c247d",
+          "cues": 23,
+          "published": true,
+          "reopened": true,
+          "evidence": "cs-captions-reopened.txt"
+        }
+      ],
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "place": "nfm",
+      "videos": {
+        "he": "VyqYqyW2h8E",
+        "en": "aABow6nYRjs"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual",
+        "published": true,
+        "reopened": true
+      },
+      "videosPublicReopened": true,
+      "originalFullPictureAndAudioPreserved": true,
+      "publicationReceipt": "outputs/nfm-video-guides-2026-10-21/youtube-publication-receipt.json",
+      "nativeCaptionTracks": [
+        {
+          "language": "he",
+          "videoId": "VyqYqyW2h8E",
+          "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-he.srt",
+          "sha256": "4d0194b1eae6241c1a5804fc17af49e78bdef425da46bbb960054cf810ce4383",
+          "cues": 20,
+          "published": true,
+          "reopened": true,
+          "evidence": "he-captions-reopened.txt"
+        },
+        {
+          "language": "en",
+          "videoId": "aABow6nYRjs",
+          "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-en.srt",
+          "sha256": "e09444ad8d9167676c19ec8aa5dd8cce756c78eb8c9d8453099b0842bdcb08cf",
+          "cues": 23,
+          "published": true,
+          "reopened": true,
+          "evidence": "en-captions-reopened.txt"
+        },
+        {
+          "language": "pl",
+          "videoId": "aABow6nYRjs",
+          "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-pl.srt",
+          "sha256": "e9c809cc88a103886e549732fdca414382bd410690932a3cb1def1b806d657eb",
+          "cues": 23,
+          "published": true,
+          "reopened": true,
+          "evidence": "pl-captions-reopened.txt"
+        },
+        {
+          "language": "de",
+          "videoId": "aABow6nYRjs",
+          "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-de.srt",
+          "sha256": "97354822ff457e4f794843f0a293f2488b289db9ba3bbd01f776911e4e08c6bb",
+          "cues": 24,
+          "published": true,
+          "reopened": true,
+          "evidence": "de-captions-reopened.txt"
+        },
+        {
+          "language": "cs",
+          "videoId": "aABow6nYRjs",
+          "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-cs.srt",
+          "sha256": "2146760482eb4057a15ada7ae9a54d85869eb9c0365710d5aa630f33afccdd6c",
+          "cues": 21,
+          "published": true,
+          "reopened": true,
+          "evidence": "cs-captions-reopened.txt"
+        }
+      ],
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "place": "most-tumski",
+      "videos": {
+        "he": "8ZjWUCCHy8g",
+        "en": "B94yaegj-eU"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual",
+        "published": true,
+        "reopened": true
+      },
+      "videosPublicReopened": true,
+      "originalFullPictureAndAudioPreserved": true,
+      "publicationReceipt": "outputs/most-tumski-video-guides-2026-10-21/youtube-publication-receipt.json",
+      "nativeCaptionTracks": [
+        {
+          "language": "he",
+          "videoId": "8ZjWUCCHy8g",
+          "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-he.srt",
+          "sha256": "8caacfe62e8d5ae91b35141b2d648a112b3d90d5cbbf7657ae4fccd11df0fdd0",
+          "cues": 27,
+          "published": true,
+          "reopened": true,
+          "evidence": "he-captions-reopened.txt"
+        },
+        {
+          "language": "en",
+          "videoId": "B94yaegj-eU",
+          "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-en.srt",
+          "sha256": "0b0d28f90051efb234c59bdc63a4d743275c33a82e11574bf39683dc907f0c95",
+          "cues": 26,
+          "published": true,
+          "reopened": true,
+          "evidence": "en-captions-reopened.txt"
+        },
+        {
+          "language": "pl",
+          "videoId": "B94yaegj-eU",
+          "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-pl.srt",
+          "sha256": "f0a023272e4d58fa6d2b6592b45769d7ff1791c921a3e6db4736f3536476f3ba",
+          "cues": 26,
+          "published": true,
+          "reopened": true,
+          "evidence": "pl-captions-reopened.txt"
+        },
+        {
+          "language": "de",
+          "videoId": "B94yaegj-eU",
+          "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-de.srt",
+          "sha256": "bf573da9c5d0297883b01e2b3c83f9067062fde2ab6f3d2b5115e0386114367a",
+          "cues": 27,
+          "published": true,
+          "reopened": true,
+          "evidence": "de-captions-reopened.txt"
+        },
+        {
+          "language": "cs",
+          "videoId": "B94yaegj-eU",
+          "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-cs.srt",
+          "sha256": "9a576030828147d7a5e7f6cbe92f431d2c6f641b189f3b8689410edbf2b4099a",
+          "cues": 26,
+          "published": true,
+          "reopened": true,
+          "evidence": "cs-captions-reopened.txt"
+        }
+      ],
+      "verifiedAt": "2026-10-21"
+    },
+    {
+      "place": "wroclaw-puppet-theatre",
+      "videos": {
+        "he": "kYCAhQSVYEA",
+        "en": "mPJDEfSH7kY"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual",
+        "published": true,
+        "reopened": true
+      },
+      "videosPublicReopened": true,
+      "originalFullPictureAndAudioPreserved": true,
+      "publicationReceipt": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/youtube-publication-receipt.json",
+      "nativeCaptionTracks": [
+        {
+          "language": "he",
+          "videoId": "kYCAhQSVYEA",
+          "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-he.srt",
+          "sha256": "0627cd74e338110adddcf8e2a9b2222eda5a2ef4e9a2971bf79f31690c0bac5b",
+          "cues": 16,
+          "published": true,
+          "reopened": true,
+          "evidence": "he-captions-reopened.txt"
+        },
+        {
+          "language": "en",
+          "videoId": "mPJDEfSH7kY",
+          "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-en.srt",
+          "sha256": "1fb9ba2b4e891e55028cabb88f46d52bf31b33a5361af6c2bba5290baeb78cc3",
+          "cues": 12,
+          "published": true,
+          "reopened": true,
+          "evidence": "en-captions-reopened.txt"
+        },
+        {
+          "language": "pl",
+          "videoId": "mPJDEfSH7kY",
+          "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-pl.srt",
+          "sha256": "be74ddf8f84846eb5b80e451a610e4091df8ca52d2c9db1f76932c9f50425e19",
+          "cues": 12,
+          "published": true,
+          "reopened": true,
+          "evidence": "pl-captions-reopened.txt"
+        },
+        {
+          "language": "de",
+          "videoId": "mPJDEfSH7kY",
+          "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-de.srt",
+          "sha256": "b9b30b420d8a45b23ae2bebf1f027872354217e02676c794a5ab210238d5e898",
+          "cues": 12,
+          "published": true,
+          "reopened": true,
+          "evidence": "de-captions-reopened.txt"
+        },
+        {
+          "language": "cs",
+          "videoId": "mPJDEfSH7kY",
+          "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-cs.srt",
+          "sha256": "3d21f6dc575f2deb8625863bce24e32061aff805b77aaf593f20d180789b6c79",
+          "cues": 12,
+          "published": true,
+          "reopened": true,
+          "evidence": "cs-captions-reopened.txt"
+        }
+      ],
+      "verifiedAt": "2026-10-21"
     }
-  ]
+  ],
+  "lastAddedAt": "2026-10-21"
 }

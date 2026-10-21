@@ -1,0 +1,106 @@
+[
+  {
+    "canonicalOrExperienceId": "cathedral",
+    "url": "https://www.youtube.com/watch?v=6hP8rHe3MLE",
+    "youtubeId": "6hP8rHe3MLE",
+    "sourceSHA256": "cc07a60a1722252713212921423eb355e6f5f9ced14438c63f0fc034a45213a0",
+    "durationSeconds": 7.633333,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "cathedral",
+    "url": "https://www.youtube.com/watch?v=eegtceD9xiE",
+    "youtubeId": "eegtceD9xiE",
+    "sourceSHA256": "65c3a12256a6ce98cd677ca3cb181489e32f7ea9b1465c8967e0175b4be9e2d2",
+    "durationSeconds": 8.633333,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "ostrow",
+    "url": "https://www.youtube.com/watch?v=M9P8fPs5-8o",
+    "youtubeId": "M9P8fPs5-8o",
+    "sourceSHA256": "a98cd1d09cbff71d133461b3240f92c889297f02aadd6b40c235cfeb9d77e4f3",
+    "durationSeconds": 8.866667,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "ostrow",
+    "url": "https://www.youtube.com/watch?v=Lx6Lxbx0csk",
+    "youtubeId": "Lx6Lxbx0csk",
+    "sourceSHA256": "2c911d79370f81a0d67c7fd10f84780f7edb968d6bcbade94fe141fd3001ad80",
+    "durationSeconds": 5.266667,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "most-tumski",
+    "url": "https://www.youtube.com/watch?v=3Sxf4k4DkiM",
+    "youtubeId": "3Sxf4k4DkiM",
+    "sourceSHA256": "5808d118b66ffff7b05efcdc2321bb4495c3c5b8a1b718a864968f9c7092e0ff",
+    "durationSeconds": 10.633333,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "most-tumski",
+    "url": "https://www.youtube.com/watch?v=9nOC5KsNCqQ",
+    "youtubeId": "9nOC5KsNCqQ",
+    "sourceSHA256": "bd6b3ecde88ada94ca54d2c2b69ab2530817c847d5f982689ae1ee4ed457bbb5",
+    "durationSeconds": 4.5,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "fc-caffe-kuznicza",
+    "url": "https://www.youtube.com/watch?v=8jaImuM4Qrs",
+    "youtubeId": "8jaImuM4Qrs",
+    "sourceSHA256": "46bdf6373a35ec7a1f448ac8252e3d5ee6b5691a39e039b03572a7771dcd55b5",
+    "durationSeconds": 7.366667,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "wroclaw-puppet-theatre",
+    "url": "https://www.youtube.com/watch?v=SIftmDgclcE",
+    "youtubeId": "SIftmDgclcE",
+    "sourceSHA256": "4c662b046b2a57632ef4fb3d477514af4f8e20df4c4f4ff173a58819d1fafa3f",
+    "durationSeconds": 4.4,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "boleslawiec-old-town",
+    "url": "https://www.youtube.com/watch?v=l2XcfLeTE2A",
+    "youtubeId": "l2XcfLeTE2A",
+    "sourceSHA256": "3e10cc0522b86a01aeb80cee0430fe8c372dc4468e0f46535c7fd3034ea39e02",
+    "durationSeconds": 67.933333,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "opera",
+    "url": "https://www.youtube.com/watch?v=zmtTl9CcIyg",
+    "youtubeId": "zmtTl9CcIyg",
+    "sourceSHA256": "217a36ff1afcfdfd3c181059975aa36cfefb36e863d357190cb8f902aba93a07",
+    "durationSeconds": 5.233333,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "wroclaw-dwarf-hunt",
+    "url": "https://www.youtube.com/watch?v=MuMa_Y5tpZQ",
+    "youtubeId": "MuMa_Y5tpZQ",
+    "sourceSHA256": "745ab952931a987d359b95a81ac75759ef23c195507b0742328d8c963aacd9f2",
+    "durationSeconds": 5.233333,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "lwia-brama-restaurant-wroclaw",
+    "url": "https://www.youtube.com/watch?v=0t_8oeQrNwg",
+    "youtubeId": "0t_8oeQrNwg",
+    "sourceSHA256": "8c00eebcd8a21b4f880e295251b0b801a8405a18d0d16c44dc9d91dca6da557d",
+    "durationSeconds": 7.233333,
+    "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b"
+  },
+  {
+    "canonicalOrExperienceId": "vega-bar-weganski-wroclaw",
+    "url": "https://www.youtube.com/watch?v=V1hFXIlvORA",
+    "youtubeId": "V1hFXIlvORA",
+    "sourceSHA256": "73d3d82f43d474effa8716ee9facc278d40a928bfb671d8bea0aa03bf6feb955",
+    "durationSeconds": 4.1,
+    "approvalCall": "call_835e4e0904764db392752daa5eb966ac"
+  }
+]

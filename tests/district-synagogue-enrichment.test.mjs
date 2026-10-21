@@ -6,7 +6,7 @@ import {runInNewContext} from 'node:vm';
 const root=new URL('../',import.meta.url),window={};
 for(const file of ['data/place-catalog.js','data/canonical-experiences.js','data/cultural-places.js'])runInNewContext(readFileSync(new URL(file,root),'utf8'),{window,console});
 test('District and synagogue remain separate identities with one cultural pin each and audited original photos',()=>{
- for(const [id,lat,lng,count] of [['four-denominations-district',51.10968,17.023753,20],['white-stork-synagogue-wroclaw',51.108468291071,17.025364605411,8]]){
+ for(const [id,lat,lng,count] of [['four-denominations-district',51.10968,17.023753,21],['white-stork-synagogue-wroclaw',51.108468291071,17.025364605411,8]]){
   const place=window.WROC_CATALOG.getPlace(id);
   assert.equal(place.location.coordinates.lat,lat);assert.equal(place.location.coordinates.lng,lng);
   assert.equal(window.WROC_CULTURAL_PLACES.filter(p=>p.id===id).length,1);

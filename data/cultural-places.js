@@ -2,6 +2,9 @@
   "use strict";
 
   const memberships = {
+    "most-pomorski-poludniowy-wroclaw": ["museums-history", "architecture-design"],
+    "piastowska-pieczec-wroclaw": ["museums-history", "architecture-design"],
+    "st-martin-church-wroclaw": ["museums-history", "architecture-design"],
     "mostek-pokutnic-wroclaw": ["museums-history", "architecture-design"],
     "jatki": ["museums-history", "art-contemporary"],
     "dwarf-info": ["museums-history"],
