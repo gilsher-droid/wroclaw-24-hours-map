@@ -20,6 +20,8 @@ await mkdir(interactiveMaps, { recursive: true });
 
 for (const file of [
   "index.html",
+  "home-maps.js",
+  "home-maps.css",
   "experiences.html",
   "experiences.js",
   "experiences.css",
@@ -71,6 +73,7 @@ for (const file of [
 // These root pages also consume generated experience data. Content-address the
 // scripts so a returning visitor does not keep an older experience list.
 const homeExperienceScripts = await Promise.all([
+  "/home-maps.js",
   "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
   "/data/canonical-experiences.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js",
   "/experiences.js", "/guide-video.js", "/youtube-video.js",

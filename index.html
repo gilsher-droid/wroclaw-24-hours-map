@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles.css?v=20261020-cafes-alley" />
     <link rel="stylesheet" href="/home-excursions.css?v=20261020-1" />
     <link rel="stylesheet" href="/home-experiences.css" />
+    <link rel="stylesheet" href="/home-maps.css" />
     <link rel="stylesheet" href="/site-actions.css?v=20261017-personal-trip" />
     <link rel="stylesheet" href="/now-in-wroclaw.css?v=20260928-2" />
     <link rel="stylesheet" href="/consent.css?v=20260924-2" />
@@ -69,9 +70,11 @@
         </div>
       </section>
 
+      <section id="map-library" class="home-maps" aria-labelledby="home-maps-title"><div id="home-maps"></div></section>
+
       <section id="experiences" class="home-experiences"><div id="home-experiences"></div><noscript><a href="/experiences.html?lang=he">לחוות את וורוצלב</a></noscript></section>
 
-      <section class="free-section" id="products">
+      <section class="free-section" id="products" hidden data-home-map-legacy="true">
         <span class="anchor-alias" id="free" aria-hidden="true"></span>
         <div>
           <span class="section-number">01</span><span class="eyebrow">מסלול ליום אחד</span>
@@ -96,7 +99,7 @@
         </aside>
       </section>
 
-      <section class="premium-section" id="premium">
+      <section class="premium-section" id="premium" hidden data-home-map-legacy="true">
         <div class="section-heading">
           <div><span class="section-number">02</span><span class="eyebrow">המפה הראשונה של Wroc-love</span><h2>וורוצלב – המסלול המלא ל־4 ימים</h2></div>
           <p>ארבעה ימים מסודרים בקצב הגיוני, עם כל מה שצריך כדי ליהנות מהעיר בלי לקפוץ הלוך ושוב ובלי לבלות את החופשה בחיפושים.</p>
@@ -125,7 +128,7 @@
         </div>
       </section>
 
-      <section class="christmas-section" id="christmas">
+      <section class="christmas-section" id="christmas" hidden data-home-map-legacy="true">
         <div class="section-heading">
           <div><span class="section-number">03</span><span class="eyebrow">המפה השלישית של Wroc-love</span><h2>וורוצלב בכריסמס – מסלול רגוע ל־3 ימים</h2></div>
           <p>מסלול חורפי רגוע: שווקי כריסמס, העיר העתיקה, אוסטרוב טומסקי, קפה חם וזמן למנוחה בלי לרוץ בין התחנות.</p>
@@ -147,7 +150,7 @@
         </div>
       </section>
 
-      <section class="lifestyle-section" id="lifestyle">
+      <section class="lifestyle-section" id="lifestyle" hidden data-home-map-legacy="true">
         <div class="section-heading">
           <div><span class="section-number">04</span><span class="eyebrow">המפה הרביעית של Wroc-love</span><h2>לאכול, לשתות, לקנות ולישון בוורוצלב</h2></div>
           <p>41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.</p>
@@ -179,7 +182,7 @@
         <noscript><a class="button excursions-button" href="/products/interactive-maps/excursions.html?lang=he">פתחו את מפת הטיולים</a></noscript>
       </section>
 
-      <section class="lifestyle-section" id="cultural">
+      <section class="lifestyle-section" id="cultural" hidden data-home-map-legacy="true">
         <div class="section-heading">
           <div><span class="section-number">06</span><span class="eyebrow">המפה השישית של Wroc-love</span><h2>ההרפתקה התרבותית בוורוצלב</h2></div>
           <p>מוזיאונים, אמנות, תיאטרון, מוזיקה, קולנוע ואדריכלות במפה אינטראקטיבית אחת — בלי מסלול קשיח.</p>
@@ -230,6 +233,7 @@
     <script src="/home-excursions.js?v=20261020-1" defer></script>
     <script src="/data/home-experiences.js" defer></script>
     <script src="/home-experiences.js" defer></script>
+    <script src="/home-maps.js" defer></script>
     <script src="/data/now-in-wroclaw.js?v=20261019-1" defer></script>
     <script src="/now-in-wroclaw.js?v=20260928-2" defer></script>
     <script src="/analytics-config.js?v=20260924-2" defer></script>
