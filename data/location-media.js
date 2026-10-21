@@ -229,6 +229,7 @@
         get: () => window.WROC_CATALOG?.getSocialPost?.(place, platform)?.url || (place.links?.socialProfileFallback === false ? undefined : legacy) });
     }
   }
+  resources["mostek-pokutnic-wroclaw"] = canonicalResources("mostek-pokutnic-wroclaw");
   window.WROC_LOCATION_MEDIA = resources;
 })();
 
