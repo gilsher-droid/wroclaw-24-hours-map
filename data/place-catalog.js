@@ -4892,7 +4892,8 @@
         "https://youtube.com/shorts/YMyuRk3Fm7o",
         "https://youtube.com/shorts/ut4a1jalggk",
         "https://youtube.com/shorts/8omNiWR6tVI",
-        "https://youtube.com/shorts/lu3GKpKwjE4"
+        "https://youtube.com/shorts/lu3GKpKwjE4",
+        "https://www.youtube.com/watch?v=l2XcfLeTE2A"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/0OvV3ic5ukk",
@@ -5174,6 +5175,41 @@
           "userAssociation": "call_f6985b26065e4303a405705c3e71d5c6: תשים את זה בכלל בבולזלבייץ",
           "notBranchIdentification": true,
           "verifiedAt": "2026-10-21T18:30:42.579421+00:00"
+        },
+        "https://www.youtube.com/watch?v=l2XcfLeTE2A": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-10-21 at 21.34.58.mp4",
+          "sourceSHA256": "3e10cc0522b86a01aeb80cee0430fe8c372dc4468e0f46535c7fd3034ea39e02",
+          "uploadSHA256": "50c0e78daa2408d8c8c037a5005d299c1aa6ece95a18b056f1148d957c6eefc4",
+          "durationSeconds": 67.933333,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "תצוגת קרמיקה מבולסלבייץ",
+            "en": "Bolesławiec pottery display",
+            "pl": "Ekspozycja ceramiki bolesławieckiej",
+            "de": "Ausstellung von Bunzlauer Keramik",
+            "cs": "Vystavená boleslavská keramika"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-89-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:47:00.917Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -7774,7 +7810,10 @@
         "/assets/today-source-refresh-20261021/run4-106-cathedral.jpg",
         "/assets/today-source-refresh-20261021/run4-108-cathedral.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=6hP8rHe3MLE",
+        "https://www.youtube.com/watch?v=eegtceD9xiE"
+      ],
       "guideVideos": {
         "he": "https://www.youtube.com/watch?v=rIIVnc_dzN4",
         "en": "https://www.youtube.com/watch?v=ULG-y1kQgWM"
@@ -7815,6 +7854,76 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "https://www.youtube.com/watch?v=6hP8rHe3MLE": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 20.49.02 (14).mp4",
+          "sourceSHA256": "cc07a60a1722252713212921423eb355e6f5f9ced14438c63f0fc034a45213a0",
+          "uploadSHA256": "de0b5d2d9f42850300bd01075c1657af8d74605dacd572d4e470bb0b2e732867",
+          "durationSeconds": 7.633333,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "חזית קתדרלת יוחנן המטביל",
+            "en": "St John the Baptist Cathedral frontage",
+            "pl": "Fasada katedry św. Jana Chrzciciela",
+            "de": "Fassade der Kathedrale Johannes des Täufers",
+            "cs": "Průčelí katedrály svatého Jana Křtitele"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-101-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:46:33.371Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
+        },
+        "https://www.youtube.com/watch?v=eegtceD9xiE": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 21.34.50.mp4",
+          "sourceSHA256": "65c3a12256a6ce98cd677ca3cb181489e32f7ea9b1465c8967e0175b4be9e2d2",
+          "uploadSHA256": "8b14f23ea6c1aa37bc78a7aa907be04f23391bf04a481d96d8563d79121288ee",
+          "durationSeconds": 8.633333,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "שער הקתדרלה וסביבתו",
+            "en": "Cathedral portal and surroundings",
+            "pl": "Portal katedry i otoczenie",
+            "de": "Domportal und Umgebung",
+            "cs": "Portál katedrály a okolí"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-109-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:46:35.774Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -14107,7 +14216,8 @@
         "/assets/cafes-alley-refresh-20261020/fc-caffe-refresh-02.jpg"
       ],
       "videos": [
-        "https://youtube.com/shorts/HNowfJsSUvc"
+        "https://youtube.com/shorts/HNowfJsSUvc",
+        "https://www.youtube.com/watch?v=8jaImuM4Qrs"
       ],
       "metadata": {
         "/assets/food-cafes/fc-caffe-kuznicza-01.jpg": {
@@ -14150,6 +14260,41 @@
             "cs": "Návštěva kavárny"
           },
           "verifiedAt": "2026-10-20T20:28:10.361Z"
+        },
+        "https://www.youtube.com/watch?v=8jaImuM4Qrs": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/FC CAFFE/WhatsApp Video 2026-10-21 at 21.34.54 (2).mp4",
+          "sourceSHA256": "46bdf6373a35ec7a1f448ac8252e3d5ee6b5691a39e039b03572a7771dcd55b5",
+          "uploadSHA256": "b09adf7b7957f7c6d02f5414c5ea7a5f50dedd8d0687872560d9ca50403cf365",
+          "durationSeconds": 7.366667,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "חזית בית הקפה והשולחנות בחוץ",
+            "en": "Café frontage and outdoor tables",
+            "pl": "Fasada kawiarni i stoliki na zewnątrz",
+            "de": "Caféfassade und Tische im Freien",
+            "cs": "Průčelí kavárny a venkovní stolky"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-42-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:46:55.985Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -24572,14 +24717,6 @@
           "personalPhotoException": false,
           "personalPhotoExceptionAuthorizedAt": null
         },
-        "/assets/food-cafes/lodziarnia-roma-03.jpg": {
-          "original": true,
-          "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.33.jpeg",
-          "sourceSHA256": "040c1aaf753914c8b6d82d796eb283ea7bb266dd29171f8e1ba1240b13b549ae",
-          "heroCandidate": false,
-          "personalPhotoException": true,
-          "personalPhotoExceptionAuthorizedAt": "2026-10-18"
-        },
         "/assets/today-source-refresh-20261021/run4-006-lodziarnia-roma.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Image 2026-10-21 at 21.34.47 (5).jpeg",
           "sourceSHA256": "3dbf92d3da0acbd5ca87f05c84cd30ca225a0794863003b4631f9595c24cdcd1",
@@ -24646,7 +24783,7 @@
         "lng": 17.0440984
       },
       "address": {
-        "street": "ul. Katedralna9",
+        "street": "ul. Katedralna 9",
         "city": "Wrocław",
         "country": "Poland"
       }
@@ -24657,8 +24794,7 @@
     "sourceUrls": [],
     "aliases": [
       "Lwia Brama² Restaurant",
-      "Restauracja Lwia Brama²",
-      "lwia-brama-restaurant-wroclaw"
+      "Restauracja Lwia Brama²"
     ],
     "sourceRecords": [
       {
@@ -24785,7 +24921,9 @@
         "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg",
         "/assets/today-source-refresh-20261021/run4-023-lwia-brama-restaurant-wroclaw.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=0t_8oeQrNwg"
+      ],
       "metadata": {
         "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (36).jpeg",
@@ -24822,6 +24960,41 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
           "familyForeground": false
+        },
+        "https://www.youtube.com/watch?v=0t_8oeQrNwg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (6).mp4",
+          "sourceSHA256": "8c00eebcd8a21b4f880e295251b0b801a8405a18d0d16c44dc9d91dca6da557d",
+          "uploadSHA256": "312c327a24119f087782055f6605f0c20e9ce8899d1b16757f3bb33a2a9fd982",
+          "durationSeconds": 7.233333,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "חצר המסעדה והבתים סביבה",
+            "en": "Restaurant courtyard and surrounding houses",
+            "pl": "Dziedziniec restauracji i otaczające domy",
+            "de": "Restauranthof und umliegende Häuser",
+            "cs": "Dvůr restaurace a okolní domy"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-16-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:47:14.487Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -27365,7 +27538,7 @@
         "lng": 17.031233038062
       },
       "address": {
-        "street": "ul.Pomorska / Most Pomorski Południowy",
+        "street": "ul. Pomorska / Most Pomorski Południowy",
         "city": "Wrocław",
         "country": "Poland"
       }
@@ -27377,8 +27550,7 @@
     "sourceUrls": [],
     "aliases": [
       "Most Pomorski Południowy",
-      "Southern Pomorski Bridge",
-      "most-pomorski-poludniowy-wroclaw"
+      "Southern Pomorski Bridge"
     ],
     "sourceRecords": [],
     "coordinateCandidates": [],
@@ -27665,6 +27837,75 @@
       "de",
       "cs"
     ],
+    "provenance": {
+      "run4GuidePublication": {
+        "receipt": "outputs/most-tumski-video-guides-2026-10-21/youtube-publication-receipt.json",
+        "publicReopened": true,
+        "publicEvidence": [
+          "he-public-details.txt",
+          "en-public-details.txt"
+        ],
+        "checksNoIssues": true,
+        "checksEvidence": [
+          "he-checks-clean.txt",
+          "en-checks-clean.txt"
+        ],
+        "originalFullPictureAndAudioPreserved": true,
+        "nativeCaptions": [
+          {
+            "language": "he",
+            "videoId": "8ZjWUCCHy8g",
+            "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-he.srt",
+            "sha256": "8caacfe62e8d5ae91b35141b2d648a112b3d90d5cbbf7657ae4fccd11df0fdd0",
+            "cues": 27,
+            "published": true,
+            "reopened": true,
+            "evidence": "he-captions-reopened.txt"
+          },
+          {
+            "language": "en",
+            "videoId": "B94yaegj-eU",
+            "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-en.srt",
+            "sha256": "0b0d28f90051efb234c59bdc63a4d743275c33a82e11574bf39683dc907f0c95",
+            "cues": 26,
+            "published": true,
+            "reopened": true,
+            "evidence": "en-captions-reopened.txt"
+          },
+          {
+            "language": "pl",
+            "videoId": "B94yaegj-eU",
+            "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-pl.srt",
+            "sha256": "f0a023272e4d58fa6d2b6592b45769d7ff1791c921a3e6db4736f3536476f3ba",
+            "cues": 26,
+            "published": true,
+            "reopened": true,
+            "evidence": "pl-captions-reopened.txt"
+          },
+          {
+            "language": "de",
+            "videoId": "B94yaegj-eU",
+            "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-de.srt",
+            "sha256": "bf573da9c5d0297883b01e2b3c83f9067062fde2ab6f3d2b5115e0386114367a",
+            "cues": 27,
+            "published": true,
+            "reopened": true,
+            "evidence": "de-captions-reopened.txt"
+          },
+          {
+            "language": "cs",
+            "videoId": "B94yaegj-eU",
+            "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-cs.srt",
+            "sha256": "9a576030828147d7a5e7f6cbe92f431d2c6f641b189f3b8689410edbf2b4099a",
+            "cues": 26,
+            "published": true,
+            "reopened": true,
+            "evidence": "cs-captions-reopened.txt"
+          }
+        ],
+        "approvalCall": "call_b62ae12263a84eb891e28ab25704a6e0"
+      }
+    },
     "media": {
       "photos": [
         "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg",
@@ -27673,7 +27914,14 @@
         "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg",
         "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=3Sxf4k4DkiM",
+        "https://www.youtube.com/watch?v=9nOC5KsNCqQ"
+      ],
+      "guideVideos": {
+        "he": "https://www.youtube.com/watch?v=8ZjWUCCHy8g",
+        "en": "https://www.youtube.com/watch?v=B94yaegj-eU"
+      },
       "metadata": {
         "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (2).jpeg",
@@ -27764,6 +28012,76 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "https://www.youtube.com/watch?v=3Sxf4k4DkiM": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Video 2026-10-21 at 21.34.54 (1).mp4",
+          "sourceSHA256": "5808d118b66ffff7b05efcdc2321bb4495c3c5b8a1b718a864968f9c7092e0ff",
+          "uploadSHA256": "237d943f543fbbabbe1ba8a7a398a9a5894967f01e451fcd5ad23f44a07b8c91",
+          "durationSeconds": 10.633333,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "מעקה המנעולים בגשר טומסקי",
+            "en": "Lock-covered railing at Tumski Bridge",
+            "pl": "Balustrada z kłódkami przy Moście Tumskim",
+            "de": "Geländer mit Schlössern an der Dombrücke",
+            "cs": "Zábradlí se zámky u Tumského mostu"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-91-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:46:51.337Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
+        },
+        "https://www.youtube.com/watch?v=9nOC5KsNCqQ": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Video 2026-10-21 at 21.34.52 (2).mp4",
+          "sourceSHA256": "bd6b3ecde88ada94ca54d2c2b69ab2530817c847d5f982689ae1ee4ed457bbb5",
+          "uploadSHA256": "ed87c866abfbadf085b776a7539d2ea21b0175fb2465afdb1cf1cec57729f1f4",
+          "durationSeconds": 4.5,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "פסל גמד ליד גשר טומסקי",
+            "en": "Dwarf sculpture by Tumski Bridge",
+            "pl": "Krasnal przy Moście Tumskim",
+            "de": "Zwergenfigur an der Dombrücke",
+            "cs": "Trpaslík u Tumského mostu"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-95-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:46:53.673Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -29811,6 +30129,73 @@
         ],
         "action": "Added new full-picture visit photograph; preserved identity, prior media and validlinks",
         "checkedAt": "2026-10-21T11:30:11.255080+00:00"
+      },
+      "run4GuidePublication": {
+        "receipt": "outputs/nfm-video-guides-2026-10-21/youtube-publication-receipt.json",
+        "publicReopened": true,
+        "publicEvidence": [
+          "he-public-details.txt",
+          "en-public-details.txt"
+        ],
+        "checksNoIssues": true,
+        "checksEvidence": [
+          "he-checks-clean.txt",
+          "en-checks-clean.txt"
+        ],
+        "originalFullPictureAndAudioPreserved": true,
+        "nativeCaptions": [
+          {
+            "language": "he",
+            "videoId": "VyqYqyW2h8E",
+            "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-he.srt",
+            "sha256": "4d0194b1eae6241c1a5804fc17af49e78bdef425da46bbb960054cf810ce4383",
+            "cues": 20,
+            "published": true,
+            "reopened": true,
+            "evidence": "he-captions-reopened.txt"
+          },
+          {
+            "language": "en",
+            "videoId": "aABow6nYRjs",
+            "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-en.srt",
+            "sha256": "e09444ad8d9167676c19ec8aa5dd8cce756c78eb8c9d8453099b0842bdcb08cf",
+            "cues": 23,
+            "published": true,
+            "reopened": true,
+            "evidence": "en-captions-reopened.txt"
+          },
+          {
+            "language": "pl",
+            "videoId": "aABow6nYRjs",
+            "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-pl.srt",
+            "sha256": "e9c809cc88a103886e549732fdca414382bd410690932a3cb1def1b806d657eb",
+            "cues": 23,
+            "published": true,
+            "reopened": true,
+            "evidence": "pl-captions-reopened.txt"
+          },
+          {
+            "language": "de",
+            "videoId": "aABow6nYRjs",
+            "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-de.srt",
+            "sha256": "97354822ff457e4f794843f0a293f2488b289db9ba3bbd01f776911e4e08c6bb",
+            "cues": 24,
+            "published": true,
+            "reopened": true,
+            "evidence": "de-captions-reopened.txt"
+          },
+          {
+            "language": "cs",
+            "videoId": "aABow6nYRjs",
+            "path": "outputs/nfm-video-guides-2026-10-21/caption-package/nfm-cs.srt",
+            "sha256": "2146760482eb4057a15ada7ae9a54d85869eb9c0365710d5aa630f33afccdd6c",
+            "cues": 21,
+            "published": true,
+            "reopened": true,
+            "evidence": "cs-captions-reopened.txt"
+          }
+        ],
+        "approvalCall": "call_94b51d2e9e6b4090a0f3e5266c18bd43"
       }
     },
     "media": {
@@ -29825,6 +30210,10 @@
       "videos": [
         "https://www.youtube.com/watch?v=_Dez_yfkVVQ"
       ],
+      "guideVideos": {
+        "he": "https://www.youtube.com/watch?v=VyqYqyW2h8E",
+        "en": "https://www.youtube.com/watch?v=aABow6nYRjs"
+      },
       "metadata": {
         "/assets/today-source-refresh-20261021/nfm-01.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Image 2026-10-19 at 08.42.00.jpeg",
@@ -30477,7 +30866,9 @@
         "/assets/gallery-opera-06.jpg",
         "/assets/today-source-refresh-20261021/opera-01.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=zmtTl9CcIyg"
+      ],
       "metadata": {
         "/assets/today-source-refresh-20261021/opera-01.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Image 2026-10-19 at 08.42.06.jpeg",
@@ -30495,6 +30886,41 @@
           "verifiedAt": "2026-10-21T11:30:11.255080+00:00",
           "original": true,
           "familyForeground": false
+        },
+        "https://www.youtube.com/watch?v=zmtTl9CcIyg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Video 2026-10-21 at 21.12.23 (1).mp4",
+          "sourceSHA256": "217a36ff1afcfdfd3c181059975aa36cfefb36e863d357190cb8f902aba93a07",
+          "uploadSHA256": "7e49d4e62d023e4afc04d17bc8c78dcd937b56dc95b23e4b88460d86d3e09a37",
+          "durationSeconds": 5.233333,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "חזית האופרה של ורוצלב",
+            "en": "Wrocław Opera frontage",
+            "pl": "Fasada Opery Wrocławskiej",
+            "de": "Fassade der Breslauer Oper",
+            "cs": "Průčelí Vratislavské opery"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-160-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:47:09.818Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -30876,6 +31302,72 @@
       "de",
       "cs"
     ],
+    "provenance": {
+      "run4GuidePublication": {
+        "receipt": "outputs/ostrow-video-guides-2026-10-21/youtube-publication-receipt.json",
+        "publicVisibilityConfirmedByWorker": true,
+        "publicReopened": true,
+        "publicEvidence": [
+          "he-public-details.txt",
+          "en-public-details.txt"
+        ],
+        "checksNoIssues": true,
+        "originalFullPictureAndAudioPreserved": true,
+        "nativeCaptions": [
+          {
+            "language": "he",
+            "videoId": "oBjOT3Ubaro",
+            "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-he.srt",
+            "sha256": "e89731856cd591eb86ffcaae828c07da1577cab0a3ae34f91ddb39df3b4bd3c6",
+            "cues": 25,
+            "published": true,
+            "reopened": true,
+            "evidence": "he-captions-reopened.txt"
+          },
+          {
+            "language": "en",
+            "videoId": "C9Wyg2MB1nk",
+            "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-en.srt",
+            "sha256": "ebd716431d846b7aec188d61fcef4369028ade53cb00cd678fdf3dddbaf8562f",
+            "cues": 23,
+            "published": true,
+            "reopened": true,
+            "evidence": "en-captions-reopened.txt"
+          },
+          {
+            "language": "pl",
+            "videoId": "C9Wyg2MB1nk",
+            "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-pl.srt",
+            "sha256": "23146590f32c3c64b31c01c47c3f86a4bc98b4f2d86b975945463be53a6f017b",
+            "cues": 24,
+            "published": true,
+            "reopened": true,
+            "evidence": "pl-captions-reopened.txt"
+          },
+          {
+            "language": "de",
+            "videoId": "C9Wyg2MB1nk",
+            "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-de.srt",
+            "sha256": "50e7df758d0b622e8366941fe5b7753fd8f172c385261be71582e5324e94b95d",
+            "cues": 23,
+            "published": true,
+            "reopened": true,
+            "evidence": "de-captions-reopened.txt"
+          },
+          {
+            "language": "cs",
+            "videoId": "C9Wyg2MB1nk",
+            "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-cs.srt",
+            "sha256": "d10696a288c848d7caeae47828124820dd77c2882ca8011fdec07c94f77c247d",
+            "cues": 23,
+            "published": true,
+            "reopened": true,
+            "evidence": "cs-captions-reopened.txt"
+          }
+        ],
+        "approvalCall": "call_94b51d2e9e6b4090a0f3e5266c18bd43"
+      }
+    },
     "media": {
       "photos": [
         "/assets/gallery-cathedral-03.jpg",
@@ -30887,7 +31379,14 @@
         "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg",
         "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=M9P8fPs5-8o",
+        "https://www.youtube.com/watch?v=Lx6Lxbx0csk"
+      ],
+      "guideVideos": {
+        "he": "https://www.youtube.com/watch?v=oBjOT3Ubaro",
+        "en": "https://www.youtube.com/watch?v=C9Wyg2MB1nk"
+      },
       "metadata": {
         "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 21.34.41.jpeg",
@@ -30924,6 +31423,76 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "https://www.youtube.com/watch?v=M9P8fPs5-8o": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.51 (2).mp4",
+          "sourceSHA256": "a98cd1d09cbff71d133461b3240f92c889297f02aadd6b40c235cfeb9d77e4f3",
+          "uploadSHA256": "30c0249085c3e7bfc351e77028e7897acadc59f6dca836092730230fca50a673",
+          "durationSeconds": 8.866667,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "פנס גז ושביל באי הקתדרלות",
+            "en": "Gas lamp and lane on Cathedral Island",
+            "pl": "Latarnia gazowa i uliczka na Ostrowie Tumskim",
+            "de": "Gaslaterne und Gasse auf der Dominsel",
+            "cs": "Plynová lampa a ulička na Katedrálním ostrově"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-15-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:46:38.035Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
+        },
+        "https://www.youtube.com/watch?v=Lx6Lxbx0csk": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.51.mp4",
+          "sourceSHA256": "2c911d79370f81a0d67c7fd10f84780f7edb968d6bcbade94fe141fd3001ad80",
+          "uploadSHA256": "5f190ee3411ac2819bfd72a07eeb1988567cecfabb543058632c72a89db77579",
+          "durationSeconds": 5.266667,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "הכיכר והאנדרטה באי הקתדרלות",
+            "en": "Square and monument on Cathedral Island",
+            "pl": "Plac i pomnik na Ostrowie Tumskim",
+            "de": "Platz und Denkmal auf der Dominsel",
+            "cs": "Náměstí a pomník na Katedrálním ostrově"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-37-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:46:40.304Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -34123,7 +34692,7 @@
         "lng": 17.043502238527
       },
       "address": {
-        "street": "ul. św. Marcina12",
+        "street": "ul. św. Marcina 12",
         "city": "Wrocław",
         "country": "Poland"
       }
@@ -34135,8 +34704,7 @@
     "sourceUrls": [],
     "aliases": [
       "Piastowska Pieczęć: Piast Castle Remains",
-      "Piastowska Pieczęć: pozostałości zamku Piastów",
-      "piastowska-pieczec-wroclaw"
+      "Piastowska Pieczęć: pozostałości zamku Piastów"
     ],
     "sourceRecords": [],
     "coordinateCandidates": [],
@@ -37810,7 +38378,7 @@
         "lng": 17.04285394024
       },
       "address": {
-        "street": "ul. św. Marcina67–68",
+        "street": "ul. św. Marcina 67-68",
         "city": "Wrocław",
         "country": "Poland"
       }
@@ -37822,8 +38390,7 @@
     "sourceUrls": [],
     "aliases": [
       "Kościół św. Marcina",
-      "St Martin’s Church",
-      "st-martin-church-wroclaw"
+      "St Martin’s Church"
     ],
     "sourceRecords": [],
     "coordinateCandidates": [],
@@ -40286,7 +40853,9 @@
       "photos": [
         "/assets/experiences/milk-bars/visit-03.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=V1hFXIlvORA"
+      ],
       "metadata": {
         "/assets/experiences/milk-bars/visit-03.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-05 at 18.26.03 (1).jpeg",
@@ -40304,6 +40873,41 @@
           },
           "userIdentifiedAs": "Vega",
           "reusedExistingPublishedAsset": true
+        },
+        "https://www.youtube.com/watch?v=V1hFXIlvORA": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Video 2026-10-05 at 18.26.02.mp4",
+          "sourceSHA256": "73d3d82f43d474effa8716ee9facc278d40a928bfb671d8bea0aa03bf6feb955",
+          "uploadSHA256": "8e04420d2120ba57e1240723f16f5c40527b6140a1fd1f8a8b3388cb3cc1e6c8",
+          "durationSeconds": 4.1,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "פירוגי וחלל הבר הטבעוני וגה",
+            "en": "Pierogi and Vega vegan bar interior",
+            "pl": "Pierogi i wnętrze baru wegańskiego Vega",
+            "de": "Pierogi und Innenraum der veganen Bar Vega",
+            "cs": "Pirohy a interiér veganského baru Vega"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_835e4e0904764db392752daa5eb966ac",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-vega-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:47:16.948Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -46191,7 +46795,74 @@
           "url": "https://teatrlalek.wroclaw.pl/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "run4GuidePublication": {
+        "receipt": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/youtube-publication-receipt.json",
+        "publicReopened": true,
+        "publicEvidence": [
+          "he-public-details.txt",
+          "en-public-details.txt"
+        ],
+        "checksNoIssues": true,
+        "checksEvidence": [
+          "he-checks-clean.txt",
+          "en-checks-clean.txt"
+        ],
+        "originalFullPictureAndAudioPreserved": true,
+        "nativeCaptions": [
+          {
+            "language": "he",
+            "videoId": "kYCAhQSVYEA",
+            "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-he.srt",
+            "sha256": "0627cd74e338110adddcf8e2a9b2222eda5a2ef4e9a2971bf79f31690c0bac5b",
+            "cues": 16,
+            "published": true,
+            "reopened": true,
+            "evidence": "he-captions-reopened.txt"
+          },
+          {
+            "language": "en",
+            "videoId": "mPJDEfSH7kY",
+            "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-en.srt",
+            "sha256": "1fb9ba2b4e891e55028cabb88f46d52bf31b33a5361af6c2bba5290baeb78cc3",
+            "cues": 12,
+            "published": true,
+            "reopened": true,
+            "evidence": "en-captions-reopened.txt"
+          },
+          {
+            "language": "pl",
+            "videoId": "mPJDEfSH7kY",
+            "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-pl.srt",
+            "sha256": "be74ddf8f84846eb5b80e451a610e4091df8ca52d2c9db1f76932c9f50425e19",
+            "cues": 12,
+            "published": true,
+            "reopened": true,
+            "evidence": "pl-captions-reopened.txt"
+          },
+          {
+            "language": "de",
+            "videoId": "mPJDEfSH7kY",
+            "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-de.srt",
+            "sha256": "b9b30b420d8a45b23ae2bebf1f027872354217e02676c794a5ab210238d5e898",
+            "cues": 12,
+            "published": true,
+            "reopened": true,
+            "evidence": "de-captions-reopened.txt"
+          },
+          {
+            "language": "cs",
+            "videoId": "mPJDEfSH7kY",
+            "path": "outputs/wroclaw-puppet-theatre-video-guides-2026-10-21/captions/wroclaw-puppet-theatre-cs.srt",
+            "sha256": "3d21f6dc575f2deb8625863bce24e32061aff805b77aaf593f20d180789b6c79",
+            "cues": 12,
+            "published": true,
+            "reopened": true,
+            "evidence": "cs-captions-reopened.txt"
+          }
+        ],
+        "approvalCall": "call_b62ae12263a84eb891e28ab25704a6e0"
+      }
     },
     "media": {
       "photos": [
@@ -46200,7 +46871,13 @@
         "/assets/today-source-refresh-20261021/run4-084-wroclaw-puppet-theatre.jpg",
         "/assets/today-source-refresh-20261021/run4-088-wroclaw-puppet-theatre.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=SIftmDgclcE"
+      ],
+      "guideVideos": {
+        "he": "https://www.youtube.com/watch?v=kYCAhQSVYEA",
+        "en": "https://www.youtube.com/watch?v=mPJDEfSH7kY"
+      },
       "metadata": {
         "/assets/today-source-refresh-20261021/run4-081-wroclaw-puppet-theatre.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05 (4).jpeg",
@@ -46273,6 +46950,41 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "https://www.youtube.com/watch?v=SIftmDgclcE": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Video 2026-10-21 at 21.12.24.mp4",
+          "sourceSHA256": "4c662b046b2a57632ef4fb3d477514af4f8e20df4c4f4ff173a58819d1fafa3f",
+          "uploadSHA256": "8481c7567ac1c9ee1d463339a168734650abca45fe4c695960ddee6d69c87b69",
+          "durationSeconds": 4.4,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "רחבת תיאטרון הבובות והמזרקה",
+            "en": "Puppet Theatre forecourt and fountain",
+            "pl": "Plac przed Teatrem Lalek i fontanna",
+            "de": "Vorplatz des Puppentheaters und Brunnen",
+            "cs": "Prostranství před loutkovým divadlem a kašna"
+          },
+          "original": true,
+          "tags": [
+            "visit"
+          ],
+          "sourceRefreshRun": "2026-10-21-run4",
+          "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+          "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-85-public-reopened.txt",
+          "silent": true,
+          "audioRemoved": true,
+          "verifiedAt": "2026-10-21T20:46:58.460Z",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "originalFullPictureAndDurationPreserved": true
         }
       }
     },
@@ -48861,16 +49573,12 @@
   "Woosabi Lounge Wrocław": "woosabi-swidnicka-wroclaw",
   "St Martin’s Church": "st-martin-church-wroclaw",
   "Kościół św. Marcina": "st-martin-church-wroclaw",
-  "st-martin-church-wroclaw": "st-martin-church-wroclaw",
   "Piastowska Pieczęć: Piast Castle Remains": "piastowska-pieczec-wroclaw",
   "Piastowska Pieczęć: pozostałości zamku Piastów": "piastowska-pieczec-wroclaw",
-  "piastowska-pieczec-wroclaw": "piastowska-pieczec-wroclaw",
   "Lwia Brama² Restaurant": "lwia-brama-restaurant-wroclaw",
   "Restauracja Lwia Brama²": "lwia-brama-restaurant-wroclaw",
-  "lwia-brama-restaurant-wroclaw": "lwia-brama-restaurant-wroclaw",
   "Southern Pomorski Bridge": "most-pomorski-poludniowy-wroclaw",
   "Most Pomorski Południowy": "most-pomorski-poludniowy-wroclaw",
-  "most-pomorski-poludniowy-wroclaw": "most-pomorski-poludniowy-wroclaw",
   "Vega": "vega-bar-weganski-wroclaw",
   "Bar Vega": "vega-bar-weganski-wroclaw",
   "VEGA Bar Wegański": "vega-bar-weganski-wroclaw",

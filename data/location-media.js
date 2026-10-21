@@ -255,3 +255,6 @@
 
 // Vega reuses the correctly identified food photograph, without a duplicate asset.
 (function(){const p=window.WROC_CATALOG?.getPlace("vega-bar-weganski-wroclaw");if(p)window.WROC_LOCATION_MEDIA[p.id]={...(window.WROC_LOCATION_MEDIA[p.id]||{}),gallery:p.media.photos,videos:p.media.videos||[]};})();
+
+// All newly published visits, including video-only deltas, reach the actual map media adapters.
+(function(){for(const id of ["boleslawiec-old-town", "cathedral", "fc-caffe-kuznicza", "lwia-brama-restaurant-wroclaw", "most-tumski", "opera", "ostrow", "vega-bar-weganski-wroclaw", "wroclaw-puppet-theatre"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(p)window.WROC_LOCATION_MEDIA[id]={...(window.WROC_LOCATION_MEDIA[id]||{}),gallery:p.media.photos,videos:p.media.videos};}})();

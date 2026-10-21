@@ -33,11 +33,11 @@ test('Boleslawiec galleries retain distinct views instead of repeated camera bur
  assert.equal(curation.originalsPreserved,true);assert.equal(curation.excluded.length,56);
  for(const [id,count] of Object.entries(curation.after))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,count+(id==='boleslawiec-old-town'?3:0));
  for(const group of curation.groups){const place=w.WROC_CATALOG.getPlace(group.placeId);assert.ok(group.retained.length);for(const asset of group.retained)assert.ok(place.media.photos.includes(asset));for(const asset of group.excluded){assert.equal(place.media.photos.includes(asset),false);assert.equal(existsSync(asset.slice(1)),false);}}
- assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.videos.length,4);assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-ceramics-museum').media.videos.length,1);
+ assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.videos.length,5);assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-ceramics-museum').media.videos.length,1);
 });
 
 test('Repeated Boleslawiec visit clips remain preserved on YouTube but outside the curated gallery',()=>{
  const w=load(),c=JSON.parse(readFileSync('data/boleslawiec-video-curation.json','utf8')),gallery=w.WROC_CATALOG.getPlace(c.placeId).media.videos;
- assert.equal(c.youTubePublicUploadsPreserved,true);assert.equal(c.originalsPreserved,true);assert.equal(c.excluded.length,8);assert.equal(gallery.length,4);
+ assert.equal(c.youTubePublicUploadsPreserved,true);assert.equal(c.originalsPreserved,true);assert.equal(c.excluded.length,8);assert.equal(gallery.length,5);
  for(const r of c.retained)assert.ok(gallery.includes(r.youtube));for(const r of c.excluded)assert.equal(gallery.includes(r.youtube),false);
 });
