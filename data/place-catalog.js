@@ -7694,11 +7694,129 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "run4GuidePublication": {
+        "receipt": "outputs/cathedral-video-guides-2026-10-21/youtube-publication-receipt.json",
+        "publicReopened": true,
+        "checksNoIssues": true,
+        "originalFullPictureAndAudioPreserved": true,
+        "nativeCaptions": [
+          {
+            "language": "he",
+            "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-he.srt",
+            "cues": 23,
+            "sha256": "7fe72b16e0a5041fc335113ed05997040b1b66d9848aa6bafabaa1a767f303fd",
+            "videoId": "rIIVnc_dzN4",
+            "published": true,
+            "reopened": true,
+            "evidence": "he-captions-reopened.txt"
+          },
+          {
+            "language": "en",
+            "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-en.srt",
+            "cues": 22,
+            "sha256": "e6e3511b09fc05103e5c3c24a217c0733a90c85cbd7a17894ffda744b67fb775",
+            "videoId": "ULG-y1kQgWM",
+            "published": true,
+            "reopened": true,
+            "evidence": "en-captions-reopened.txt"
+          },
+          {
+            "language": "de",
+            "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-de.srt",
+            "cues": 22,
+            "sha256": "82f7cee9e44beaea42650d8ce96649a7ebae085a445d1f8b82792310d3076c24",
+            "videoId": "ULG-y1kQgWM",
+            "published": true,
+            "reopened": true,
+            "evidence": "de-captions-reopened.txt"
+          },
+          {
+            "language": "pl",
+            "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-pl.srt",
+            "cues": 22,
+            "sha256": "66779eeff16439e962d0f5c9a0c09b2cd49ae13f3df0fd55261a1d1b7bab8ec9",
+            "videoId": "ULG-y1kQgWM",
+            "published": true,
+            "reopened": true,
+            "evidence": "pl-captions-reopened.txt"
+          },
+          {
+            "language": "cs",
+            "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-cs.srt",
+            "cues": 22,
+            "sha256": "0452f4899d52fcb67c058ecb97582607f3bd357946e193b4c2e41c062e11292c",
+            "videoId": "ULG-y1kQgWM",
+            "published": true,
+            "reopened": true,
+            "evidence": "cs-captions-reopened.txt"
+          }
+        ],
+        "approvalCall": "call_94b51d2e9e6b4090a0f3e5266c18bd43"
+      }
+    },
     "media": {
       "photos": [
-        "/assets/gallery-cathedral-01.jpg"
+        "/assets/gallery-cathedral-01.jpg",
+        "/assets/today-source-refresh-20261021/run4-106-cathedral.jpg",
+        "/assets/today-source-refresh-20261021/run4-108-cathedral.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "guideVideos": {
+        "he": "https://www.youtube.com/watch?v=rIIVnc_dzN4",
+        "en": "https://www.youtube.com/watch?v=ULG-y1kQgWM"
+      },
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-106-cathedral.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Image 2026-10-21 at 21.34.41 (1).jpeg",
+          "sourceSHA256": "1a7a7ecbb2b97270ebd9af1118e2b04a7bbd94c71313af3f4a0be660624885dd",
+          "assetSHA256": "92856630c49139850f874bd523952f8d9719ad87b865f159a1c4dbfb213190a8",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "פרט פיסולי בחזית קתדרלת יוחנן המטביל",
+            "en": "Sculptural detail on St John the Baptist Cathedral",
+            "pl": "Detal rzeźbiarski archikatedry św. Jana Chrzciciela",
+            "de": "Skulpturendetail am Dom St. Johannes der Täufer",
+            "cs": "Sochařský detail katedrály svatého Jana Křtitele"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-108-cathedral.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Image 2026-10-21 at 21.34.45 (8).jpeg",
+          "sourceSHA256": "daaed391c6a016d138027cd25d1c53b538fd7c37760f05181d94ac8f4ea9d2ca",
+          "assetSHA256": "3ae9a60a3cd379dacba52f7f8876196a5aa6a723d405c3d51ed16943dad699d5",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "מגדלי קתדרלת יוחנן המטביל באור יום",
+            "en": "St John the Baptist Cathedral towers in daylight",
+            "pl": "Wieże archikatedry św. Jana Chrzciciela w świetle dziennym",
+            "de": "Türme des Doms St. Johannes der Täufer bei Tageslicht",
+            "cs": "Věže katedrály svatého Jana Křtitele za denního světla"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -7764,19 +7882,6 @@
         "url": "https://www.instagram.com/p/DbgE00LnOKH/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "central": {
@@ -9454,7 +9559,11 @@
         "/assets/food-cafes/czarna-magia-04.jpg",
         "/assets/food-cafes/czarna-magia-05.jpg",
         "/assets/cafes-alley-refresh-20261020/czarna-magia-refresh-08.jpg",
-        "/assets/cafes-alley-refresh-20261020/czarna-magia-refresh-16.jpg"
+        "/assets/cafes-alley-refresh-20261020/czarna-magia-refresh-16.jpg",
+        "/assets/today-source-refresh-20261021/run4-186-czarna-magia.jpg",
+        "/assets/today-source-refresh-20261021/run4-187-czarna-magia.jpg",
+        "/assets/today-source-refresh-20261021/run4-189-czarna-magia.jpg",
+        "/assets/today-source-refresh-20261021/run4-193-czarna-magia.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/OUCfd8uWYlA",
@@ -9609,6 +9718,78 @@
             "cs": "Návštěva kavárny"
           },
           "verifiedAt": "2026-10-20T20:28:20.873Z"
+        },
+        "/assets/today-source-refresh-20261021/run4-186-czarna-magia.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-21 at 21.34.45 (4).jpeg",
+          "sourceSHA256": "60478e3c37cd1c01ee6a852b7c80b8972f21270b12353a9df8946a2fa3cbd5d5",
+          "assetSHA256": "4adf626f016475dcf055f17203328b20d7c2ca994a9b447fa5ac4496d9d25304",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "הכניסה לקפה צארנה מגיה",
+            "en": "Entrance to Czarna Magia cafe",
+            "pl": "Wejście do kawiarni Czarna Magia",
+            "de": "Eingang zum Café Czarna Magia",
+            "cs": "Vstup do kavárny Czarna Magia"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-187-czarna-magia.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-21 at 21.34.45 (6).jpeg",
+          "sourceSHA256": "199db3a87f6022067da367e4c83e5a557a98f221b1acfd88b5562d9091efdb22",
+          "assetSHA256": "4b872cdc8a74db780a7ec95028c6f018362f4c557b3b44c0a1f92e406f889753",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "ויטרינת עוגות במועד הביקור",
+            "en": "Cake display at the time of our visit",
+            "pl": "Witryna z ciastami podczas naszej wizyty",
+            "de": "Kuchenvitrine zum Zeitpunkt unseres Besuchs",
+            "cs": "Vitrína s dorty v době naší návštěvy"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-189-czarna-magia.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-21 at 21.34.45 (7).jpeg",
+          "sourceSHA256": "bdda0d844f29c79a530275e4ac4c8232799f1269e9c464b2005a6b811179ea25",
+          "assetSHA256": "dbaa4a4ad3ce2c0a27730286afc005341d1634e6fb2969746e99ed9a84b86d7e",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "פנים בית הקפה צארנה מגיה",
+            "en": "Czarna Magia cafe interior",
+            "pl": "Wnętrze kawiarni Czarna Magia",
+            "de": "Innenraum des Cafés Czarna Magia",
+            "cs": "Interiér kavárny Czarna Magia"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-193-czarna-magia.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-21 at 21.34.45 (9).jpeg",
+          "sourceSHA256": "10d9d15410fcd612c884d7a853976cd409770cc744bb3c633114bf41e7e10644",
+          "assetSHA256": "7559aab9d5678ae38621a76030c12aece700d03f5e380642773a496ff6b4adca",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "מנה וקפה מהביקור שלנו",
+            "en": "Food and coffee from our visit",
+            "pl": "Danie i kawa z naszej wizyty",
+            "de": "Speise und Kaffee bei unserem Besuch",
+            "cs": "Jídlo a káva z naší návštěvy"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
         }
       }
     },
@@ -14606,7 +14787,8 @@
         "/assets/four-denominations-refresh/four-denominations-refresh-12.jpg",
         "/assets/four-denominations-refresh/four-denominations-refresh-13.jpg",
         "/assets/four-denominations-refresh/four-denominations-refresh-14.jpg",
-        "/assets/four-denominations-refresh/four-denominations-refresh-15.jpg"
+        "/assets/four-denominations-refresh/four-denominations-refresh-15.jpg",
+        "/assets/today-source-refresh-20261021/run4-046-four-denominations-district.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=Eu84SKoKNZA",
@@ -15102,6 +15284,24 @@
             "visit-6-public-reopened.png"
           ],
           "youtubeTitle": "Church façade"
+        },
+        "/assets/today-source-refresh-20261021/run4-046-four-denominations-district.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-21 at 21.12.01 (8).jpeg",
+          "sourceSHA256": "9d3013396a062c3979baa0cec03ae8c97f52c2773ef0d4eece40d46a296e3ec5",
+          "assetSHA256": "612b74f41fc62af30312b40360cce63af466d1644256e8ce65108021176ddfe0",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "חזית כנסייה ברובע ארבע הדתות",
+            "en": "Church facade in the Four Denominations District",
+            "pl": "Fasada kościoła w Dzielnicy Czterech Wyznań",
+            "de": "Kirchenfassade im Viertel der vier Konfessionen",
+            "cs": "Průčelí kostela ve čtvrti čtyř vyznání"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
         }
       }
     },
@@ -15957,9 +16157,44 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-231-gniazdo.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-231-gniazdo.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.12.06 (3).jpeg",
+          "sourceSHA256": "1eca077106311917b702e81e4a3c98e4398730bd27a2be5da06c3841ef09b405",
+          "assetSHA256": "de1d8102ae346a6b8e82097b3eca469edebebfcc231c704488b805bf38fce820",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "הכניסה לבית הקפה גניאזדו",
+            "en": "Gniazdo cafe entrance",
+            "pl": "Wejście do kawiarni Gniazdo",
+            "de": "Eingang zum Café Gniazdo",
+            "cs": "Vchod do kavárny Gniazdo"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -15986,19 +16221,6 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02rLPadB7HBxuTbmmmxqH59ZwPt1pzrbyFFDmh29966VgbJwfbRHJK4Y1ATGcat5WJl&id=61591964083308",
         "verifiedAt": "2026-10-09T13:36:48.778Z"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "gustaw-restaurant-wroclaw": {
@@ -17883,6 +18105,153 @@
         "verifiedAt": "2026-10-09"
       }
     ]
+  },
+  "india-concept-wroclaw": {
+    "id": "india-concept-wroclaw",
+    "localName": "India Concept",
+    "name": {
+      "he": "אינדיה קונספט",
+      "en": "India Concept",
+      "pl": "India Concept",
+      "de": "India Concept",
+      "cs": "India Concept"
+    },
+    "description": {
+      "he": "מסעדה הודית בעיר העתיקה. באתר המקום מופיע תפריט הכולל מנות קארי, טנדורי ואפשרויות צמחוניות. צילום הביקור מציג את דלת הכניסה והשלט על הזכוכית.\nIndia Concept\nKiełbaśnicza 7A, Wrocław",
+      "en": "An Indian restaurant in the Old Town. The venue’s menu includes curries, tandoor dishes and vegetarian options. Our visit photograph shows the entrance and lettering on the glass door.\nKiełbaśnicza 7A, Wrocław",
+      "pl": "Restauracja indyjska na Starym Mieście. Menu lokalu obejmuje curry, dania z pieca tandoor i propozycje wegetariańskie. Nasze zdjęcie pokazuje wejście i napis na szklanych drzwiach.\nKiełbaśnicza 7A, Wrocław",
+      "de": "Indisches Restaurant in der Altstadt. Die Speisekarte des Lokals umfasst Currys, Tandoor-Gerichte und vegetarische Optionen. Unser Besuchsfoto zeigt den Eingang und die Beschriftung der Glastür.\nKiełbaśnicza 7A, Wrocław",
+      "cs": "Indická restaurace ve Starém Městě. Nabídka podniku zahrnuje kari, pokrmy z pece tandoor a vegetariánské varianty. Naše fotografie zachycuje vchod a nápis na skleněných dveřích.\nKiełbaśnicza 7A, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.110728,
+        "lng": 17.029678
+      },
+      "address": {
+        "street": "Kiełbaśnicza 7A",
+        "postalCode": "50-108",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "India Concept Kiełbaśnicza",
+      "India Concept Wrocław"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "india-concept-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "india-concept-wroclaw",
+        "lat": 51.110728,
+        "lng": 17.029678
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://indiaconcept.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.110728%2C17.029678",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "officialSource": "https://indiaconcept.pl/",
+        "operatorLinkedBookingSource": "https://zjedz.my/india-concept",
+        "coordinateSource": "https://maps.google.com/?q=51.110728%2C17.029678",
+        "address": "Kiełbaśnicza 7A",
+        "photoNameVisible": true,
+        "catalogAliasesChecked": true
+      },
+      "photoApproval": "call_eeecf0e044b74ae2867bf5e8fe14c7eb: מאשר להשתמש בתמונה"
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-151-india-concept-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-151-india-concept-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-151-india-concept-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/india concept/WhatsApp Image 2026-10-21 at 21.34.45 (1).jpeg",
+          "sourceSHA256": "d448e9bbd7160ff048d239c02a337356959e84e5495a9ace20924693fcacd709",
+          "assetSHA256": "77f3f63f8e8a0bd95b9d65baeaac083126bc53e7d0b64b1da56bbef16ec9ac1d",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "SpecificdoorreflectionphotographapprovedbyGil;notgeneralpersonalmediaexception",
+          "alt": {
+            "he": "דלת הכניסה למסעדת אינדיה קונספט והשלט שעל הזכוכית",
+            "en": "India Concept restaurant entrance and lettering on the glass door",
+            "pl": "Wejście do restauracji India Concept i napis na szklanych drzwiach",
+            "de": "Eingang zum Restaurant India Concept und Beschriftung der Glastür",
+            "cs": "Vchod do restaurace India Concept a nápis na skleněných dveřích"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "userPhotoApproval": "call_eeecf0e044b74ae2867bf5e8fe14c7eb: מאשר להשתמש בתמונה",
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
   },
   "japanese": {
     "id": "japanese",
@@ -21096,7 +21465,13 @@
         "/assets/food-cafes/jadwigi-cafe-04.jpg",
         "/assets/food-cafes/jadwigi-cafe-05.jpg",
         "/assets/food-cafes/jadwigi-cafe-07.jpg",
-        "/assets/food-cafes/jadwigi-cafe-08.jpg"
+        "/assets/food-cafes/jadwigi-cafe-08.jpg",
+        "/assets/today-source-refresh-20261021/run4-137-kawiarenka-sw-jadwigi.jpg",
+        "/assets/today-source-refresh-20261021/run4-142-kawiarenka-sw-jadwigi.jpg",
+        "/assets/today-source-refresh-20261021/run4-143-kawiarenka-sw-jadwigi.jpg",
+        "/assets/today-source-refresh-20261021/run4-144-kawiarenka-sw-jadwigi.jpg",
+        "/assets/today-source-refresh-20261021/run4-020-kawiarenka-sw-jadwigi.jpg",
+        "/assets/today-source-refresh-20261021/run4-036-kawiarenka-sw-jadwigi.jpg"
       ],
       "videos": [
         "/assets/food-cafes/jadwigi-visit-01.mp4",
@@ -21348,6 +21723,114 @@
           "youtubeId": "HqoVMQUWySQ",
           "reviewedAt": "2026-10-18",
           "audio": "omitted-background-conversation"
+        },
+        "/assets/today-source-refresh-20261021/run4-137-kawiarenka-sw-jadwigi.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (2).jpeg",
+          "sourceSHA256": "37e4494368ee022b1fe331e055bd0f5c217babf9596f2a3837f1ff32e3ac0d9b",
+          "assetSHA256": "d6fda74d1b54425013f95276dcb52da2fcd1fc60139bcebea31c8ff7ef104c94",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "שלטי צמחים בגן בית הקפה",
+            "en": "Plant information in the cafe garden",
+            "pl": "Tablice o roślinach w ogrodzie kawiarni",
+            "de": "Pflanzentafeln im Garten des Cafés",
+            "cs": "Tabulky o rostlinách v zahradě kavárny"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-142-kawiarenka-sw-jadwigi.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (13).jpeg",
+          "sourceSHA256": "0e88ad1c3236d3619489e1fc082ca1b5b8ffd7c18e653e41f59e5b9c26789334",
+          "assetSHA256": "9dbee9d06e09b4e870bd061f886b96374c1e38b86d5cf2c566ab68ba345db2df",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "שער הכניסה לבית הקפה",
+            "en": "Cafe entrance portal",
+            "pl": "Portal wejściowy kawiarni",
+            "de": "Eingangsportal des Cafés",
+            "cs": "Vstupní portál kavárny"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-143-kawiarenka-sw-jadwigi.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (4).jpeg",
+          "sourceSHA256": "8c7771184cf84dd93009209a37af7bef734c3b11fb14f5d77ad0c363b0b6828a",
+          "assetSHA256": "6d31e3410fd79dfb13d88033605c11075c1245e422b0a07ebdf46daac5811f4d",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "חלל בית הקפה עם תקרת הקשתות",
+            "en": "Cafe room with vaulted ceiling",
+            "pl": "Sala kawiarni ze sklepieniem",
+            "de": "Caféraum mit Gewölbedecke",
+            "cs": "Místnost kavárny s klenutým stropem"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-144-kawiarenka-sw-jadwigi.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (8).jpeg",
+          "sourceSHA256": "0a8d486e7e84df929170787a17918be1f8a4b3c8b093297746167d17455f0911",
+          "assetSHA256": "3835cfb37123a1beeced76d5eda5b0753476590c5d0a5cad1f499ce045bf6dda",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "המעבר מבית הקפה לגן",
+            "en": "Passage from the cafe to the garden",
+            "pl": "Przejście z kawiarni do ogrodu",
+            "de": "Durchgang vom Café zum Garten",
+            "cs": "Průchod z kavárny do zahrady"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-020-kawiarenka-sw-jadwigi.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (33).jpeg",
+          "sourceSHA256": "18eeeddf6d218902424224cf269527e31cf783a4287d3969b805daff8891997c",
+          "assetSHA256": "e4f3632190a95431e5db4765166c3905e34b687d42c628099d9ef35e6ce70a29",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "פסל בגינת בית הקפה ליד בית נוטרדאם",
+            "en": "Statue in the cafe garden beside Dom Notre Dame",
+            "pl": "Rzeźba w ogrodzie kawiarni przy Domu Notre Dame",
+            "de": "Statue im Café-Garten am Dom Notre Dame",
+            "cs": "Socha v zahradě kavárny u Domu Notre Dame"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-036-kawiarenka-sw-jadwigi.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55.jpeg",
+          "sourceSHA256": "0283d97befd48a8621f156bad901bdf467c426fdf5846a4f74aff6addef081e2",
+          "assetSHA256": "7ac248fbdccf5dc61e6ec93091dc956724f3889f9f229c7e419d7aad214e8eed",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "מבט רחב על הגינה ובית נוטרדאם",
+            "en": "Wide view of the garden and Dom Notre Dame",
+            "pl": "Widok ogrodu i Domu Notre Dame",
+            "de": "Blick auf den Garten und Dom Notre Dame",
+            "cs": "Pohled na zahradu a Dom Notre Dame"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
         }
       }
     },
@@ -24053,13 +24536,18 @@
       "personalMediaException": {
         "authorizedAt": "2026-10-18",
         "scope": "User expressly permits personal media from Roma folder only"
+      },
+      "run4PrivacyCorrection": {
+        "excludedPublicPhoto": "/assets/food-cafes/lodziarnia-roma-03.jpg",
+        "reason": "Posedpersonalportrait;noRomaexception",
+        "sourceAndAssetPreserved": true
       }
     },
     "media": {
       "photos": [
         "/assets/food-cafes/lodziarnia-roma-01.jpg",
         "/assets/food-cafes/lodziarnia-roma-02.jpg",
-        "/assets/food-cafes/lodziarnia-roma-03.jpg"
+        "/assets/today-source-refresh-20261021/run4-006-lodziarnia-roma.jpg"
       ],
       "videos": [
         "/assets/lodziarnia-roma-visit-01.mp4",
@@ -24091,6 +24579,24 @@
           "heroCandidate": false,
           "personalPhotoException": true,
           "personalPhotoExceptionAuthorizedAt": "2026-10-18"
+        },
+        "/assets/today-source-refresh-20261021/run4-006-lodziarnia-roma.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Image 2026-10-21 at 21.34.47 (5).jpeg",
+          "sourceSHA256": "3dbf92d3da0acbd5ca87f05c84cd30ca225a0794863003b4631f9595c24cdcd1",
+          "assetSHA256": "b53782e203aea59c5d9d207e3d7b5304699b5a7fa8e9e7d2f88f8927b792045b",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "חזית גלידריית רומא",
+            "en": "Lody Roma entrance",
+            "pl": "Wejście do Lody Roma",
+            "de": "Eingang zu Lody Roma",
+            "cs": "Vstup do Lody Roma"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
         }
       }
     },
@@ -24113,6 +24619,213 @@
         "routingExcluded": true
       }
     ]
+  },
+  "lwia-brama-restaurant-wroclaw": {
+    "id": "lwia-brama-restaurant-wroclaw",
+    "localName": "Restauracja Lwia Brama²",
+    "name": {
+      "he": "מסעדת שער האריה\nLwia Brama²",
+      "en": "Lwia Brama² Restaurant",
+      "pl": "Restauracja Lwia Brama²",
+      "de": "Restaurant Lwia Brama²",
+      "cs": "Restaurace Lwia Brama²"
+    },
+    "description": {
+      "he": "מסעדה ברחוב קתדרלנה באי הקתדרלות. בתצלומי הביקור נראים החצר והמבנה בעל קורות העץ. פרטי תפריט והזמנות כדאי לבדוק אצל המסעדה.",
+      "en": "A restaurant on Katedralna Street on Cathedral Island. Our visit photos show its courtyard and timber-framed building. Check menus and reservations with the restaurant.",
+      "pl": "Restauracja przy ul.Katedralnej na Ostrowie Tumskim. Zdjęcia z wizyty pokazują dziedziniec i budynek szachulcowy. Menu i rezerwacje sprawdź bezpośrednio w restauracji.",
+      "de": "Restaurant an der Katedralna-Straße auf der Dominsel. Unsere Besuchsfotos zeigen den Innenhof und das Fachwerkgebäude. Menü und Reservierungen direkt beim Restaurant prüfen.",
+      "cs": "Restaurace v ulici Katedralna na Katedrálním ostrově. Fotografie z návštěvy zachycují dvůr a hrázděnou budovu. Nabídku a rezervace ověřte u restaurace."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.114186,
+        "lng": 17.0440984
+      },
+      "address": {
+        "street": "ul. Katedralna9",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Lwia Brama² Restaurant",
+      "Restauracja Lwia Brama²",
+      "lwia-brama-restaurant-wroclaw"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "lwia-brama-restaurant-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "lwia-brama-restaurant-wroclaw",
+        "lat": 51.114186,
+        "lng": 17.0440984
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://lwiabrama2.pl/rezerwacja/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.114186%2C17.0440984",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "canonicalId": "lwia-brama-restaurant-wroclaw",
+        "state": "verified-new-canonical-proposal",
+        "address": "ul. Katedralna9, Wrocław",
+        "coordinates": {
+          "lat": 51.114186,
+          "lng": 17.0440984
+        },
+        "coordinateEvidence": {
+          "primaryPage": "https://lwiabrama2.pl/rezerwacja/",
+          "ownerMapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10018.758594478837!2d17.0440984!3d51.114186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9d9e988efdd:0xd67dc4347bf56125!2sRestauracja+Lwia+Brama%C2%B2!5e0!3m2!1spl!2spl!4v1698761780374!5m2!1spl!2spl",
+          "method": "Exact longitude/latitude from restaurant-owned Google Maps embed, with restaurant place ID and name. Not unrelated courtyard geocoding."
+        },
+        "sources": [
+          "https://lwiabrama2.pl/rezerwacja/",
+          "https://geoportal.wroclaw.pl/poi/poi/2443"
+        ],
+        "name": {
+          "he": "מסעדת שער האריה\nLwia Brama²",
+          "en": "Lwia Brama² Restaurant",
+          "pl": "Restauracja Lwia Brama²",
+          "de": "Restaurant Lwia Brama²",
+          "cs": "Restaurace Lwia Brama²"
+        },
+        "description": {
+          "he": "מסעדה ברחוב קתדרלנה באי הקתדרלות. בתצלומי הביקור נראים החצר והמבנה בעל קורות העץ. פרטי תפריט והזמנות כדאי לבדוק אצל המסעדה.",
+          "en": "A restaurant on Katedralna Street on Cathedral Island. Our visit photos show its courtyard and timber-framed building. Check menus and reservations with the restaurant.",
+          "pl": "Restauracja przy ul.Katedralnej na Ostrowie Tumskim. Zdjęcia z wizyty pokazują dziedziniec i budynek szachulcowy. Menu i rezerwacje sprawdź bezpośrednio w restauracji.",
+          "de": "Restaurant an der Katedralna-Straße auf der Dominsel. Unsere Besuchsfotos zeigen den Innenhof und das Fachwerkgebäude. Menü und Reservierungen direkt beim Restaurant prüfen.",
+          "cs": "Restaurace v ulici Katedralna na Katedrálním ostrově. Fotografie z návštěvy zachycují dvůr a hrázděnou budovu. Nabídku a rezervace ověřte u restaurace."
+        },
+        "suggestedMaps": [
+          "lifestyle food"
+        ],
+        "notSameAs": [
+          "cathedral",
+          "ostrow",
+          "kawiarenka-sw-jadwigi"
+        ],
+        "selectedGlobalIndices": [
+          14,
+          23
+        ]
+      },
+      "catalogAliasesChecked": true,
+      "sourceRefreshRun": "2026-10-21-run4",
+      "notSameAs": [
+        "cathedral",
+        "ostrow",
+        "kawiarenka-sw-jadwigi"
+      ]
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/run4-023-lwia-brama-restaurant-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (36).jpeg",
+          "sourceSHA256": "9c9457e9d1550f0a2ab690b24c934629958cc6ceacc5b8b396c43d2f6a5f3678",
+          "assetSHA256": "89a688353e107dec83417a3c5d0014bd298cea0ed2170a043e358da16824ba15",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "חצר מסעדת שער האריה",
+            "en": "Lwia Brama² restaurant courtyard",
+            "pl": "Dziedziniec restauracji Lwia Brama²",
+            "de": "Innenhof des Restaurants Lwia Brama²",
+            "cs": "Dvůr restaurace Lwia Brama²"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-023-lwia-brama-restaurant-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (28).jpeg",
+          "sourceSHA256": "133a3f9f067d335b33ff21077a92f0c95fd2d90bc00981b4a33fd3d23589467f",
+          "assetSHA256": "00ea01e4ec2f9704fa54d6c799c3387cdc584b5fd43a8350ffd78a4d859bb469",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "חזית קורות העץ בחצר המסעדה",
+            "en": "Timber-framed facade in the restaurant courtyard",
+            "pl": "Szachulcowa elewacja na dziedzińcu restauracji",
+            "de": "Fachwerkfassade im Restaurantinnenhof",
+            "cs": "Hrázděné průčelí ve dvoře restaurace"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
   },
   "magnolia": {
     "id": "magnolia",
@@ -26626,6 +27339,224 @@
       "cs"
     ]
   },
+  "most-pomorski-poludniowy-wroclaw": {
+    "id": "most-pomorski-poludniowy-wroclaw",
+    "localName": "Most Pomorski Południowy",
+    "name": {
+      "he": "גשר פומורסקי הדרומי",
+      "en": "Southern Pomorski Bridge",
+      "pl": "Most Pomorski Południowy",
+      "de": "Südliche Pommernbrücke",
+      "cs": "Jižní Pomořanský most"
+    },
+    "description": {
+      "he": "הגשר הדרומי בקבוצת גשרי פומורסקי. בתצלומי הביקור נראים מבני האבן הקטנים שבקצה הגשר והמעבר העירוני סביבם.",
+      "en": "The southern bridge in the Pomorski group. Our visit photos show the small stone pavilions at its approach and the surrounding city crossing.",
+      "pl": "Południowy most w zespole mostów Pomorskich. Zdjęcia z wizyty pokazują kamienne pawilony przy wjeździe i otoczenie przeprawy.",
+      "de": "Die südliche Brücke der Pommernbrücken. Unsere Besuchsfotos zeigen die kleinen Steinpavillons an der Zufahrt und das Umfeld der Stadtbrücke.",
+      "cs": "Jižní most ze souboru Pomořanských mostů. Fotografie z návštěvy zachycují malé kamenné pavilony u jeho nájezdu a okolí přechodu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.113859681726,
+        "lng": 17.031233038062
+      },
+      "address": {
+        "street": "ul.Pomorska / Most Pomorski Południowy",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "bridge",
+      "historical-site"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Most Pomorski Południowy",
+      "Southern Pomorski Bridge",
+      "most-pomorski-poludniowy-wroclaw"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "bridge",
+        "historical-site"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zabytek.pl/pl/obiekty/g-269040",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.113859681726%2C17.031233038062",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "canonicalId": "most-pomorski-poludniowy-wroclaw",
+        "state": "verified-new-canonical-proposal",
+        "address": "ul.Pomorska / Most Pomorski Południowy, Wrocław",
+        "coordinates": {
+          "lat": 51.113859681726,
+          "lng": 17.031233038062
+        },
+        "coordinateEvidence": {
+          "primaryPage": "https://zabytek.pl/pl/obiekty/g-269040",
+          "directDestinationLink": "https://www.google.com/maps/dir/?api=1&destination=51.113859681726%2C17.031233038062",
+          "method": "Exact coordinate supplied in NID official direction link for SOUTHERN Pomorski Bridge, not northern/central sections."
+        },
+        "sources": [
+          "https://zabytek.pl/pl/obiekty/g-269040",
+          "https://www.wroclaw.pl/dla-mieszkanca/remontowany-most-pomorski-odkrywa-swoje-skarby"
+        ],
+        "name": {
+          "he": "גשר פומורסקי הדרומי",
+          "en": "Southern Pomorski Bridge",
+          "pl": "Most Pomorski Południowy",
+          "de": "Südliche Pommernbrücke",
+          "cs": "Jižní Pomořanský most"
+        },
+        "description": {
+          "he": "הגשר הדרומי בקבוצת גשרי פומורסקי. בתצלומי הביקור נראים מבני האבן הקטנים שבקצה הגשר והמעבר העירוני סביבם.",
+          "en": "The southern bridge in the Pomorski group. Our visit photos show the small stone pavilions at its approach and the surrounding city crossing.",
+          "pl": "Południowy most w zespole mostów Pomorskich. Zdjęcia z wizyty pokazują kamienne pawilony przy wjeździe i otoczenie przeprawy.",
+          "de": "Die südliche Brücke der Pommernbrücken. Unsere Besuchsfotos zeigen die kleinen Steinpavillons an der Zufahrt und das Umfeld der Stadtbrücke.",
+          "cs": "Jižní most ze souboru Pomořanských mostů. Fotografie z návštěvy zachycují malé kamenné pavilony u jeho nájezdu a okolí přechodu."
+        },
+        "suggestedMaps": [
+          "cultural architecture"
+        ],
+        "notSameAs": [
+          "most-tumski",
+          "most-piaskowy",
+          "middle or northern Pomorski bridges",
+          "WROsklep business as separate entity"
+        ],
+        "selectedGlobalIndices": [
+          201,
+          203,
+          213
+        ]
+      },
+      "catalogAliasesChecked": true,
+      "sourceRefreshRun": "2026-10-21-run4",
+      "notSameAs": [
+        "most-tumski",
+        "most-piaskowy",
+        "middle or northern Pomorski bridges",
+        "WROsklep business as separate entity"
+      ]
+    },
+    "placeType": "bridge",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-201-most-pomorski-poludniowy-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-201-most-pomorski-poludniowy-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/run4-203-most-pomorski-poludniowy-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/run4-213-most-pomorski-poludniowy-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-201-most-pomorski-poludniowy-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.46 (9).jpeg",
+          "sourceSHA256": "03663d3a5840ac8fe25dd2d03a186dd1f5c0ee1c3ad0b499fe3873c51e9a8989",
+          "assetSHA256": "26f00b1cffe82b20519b5f30454be65727e23324c0d686f809e64d8767aab690",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "מבנה אבן בקצה גשר פומורסקי הדרומי",
+            "en": "Stone pavilion at the Southern Pomorski Bridge approach",
+            "pl": "Kamienny pawilon przy Moście Pomorskim Południowym",
+            "de": "Steinpavillon am Zugang zur südlichen Pommernbrücke",
+            "cs": "Kamenný pavilon u Jižního Pomořanského mostu"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:28:30.919277+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-203-most-pomorski-poludniowy-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.47.jpeg",
+          "sourceSHA256": "49886c9d20dc8726e88694169b73d99596449bd497ef1e4cd0562f946cc3da43",
+          "assetSHA256": "03c8a54077a5c727a5a3ede5131375698bac47af759c4a74438a8790c9cd7d8f",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "פתח במבנה האבן שבקצה הגשר",
+            "en": "Entrance in the stone pavilion beside the bridge",
+            "pl": "Wejście w kamiennym pawilonie przy moście",
+            "de": "Eingang im Steinpavillon an der Brücke",
+            "cs": "Vstup do kamenného pavilonu u mostu"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:28:30.919277+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-213-most-pomorski-poludniowy-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.44 (5).jpeg",
+          "sourceSHA256": "84736e639f6b7d51b60c6bdae0cb12b7196372a24248cf2352085e22d6130f7c",
+          "assetSHA256": "70761b234867a53389d23bbfdab24ad8636d23cba5e7844ec7e6648633ee16f0",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "שני מבני האבן והכביש בקצה הגשר",
+            "en": "Two stone pavilions and road at the bridge approach",
+            "pl": "Dwa kamienne pawilony i jezdnia przy wjeździe na most",
+            "de": "Zwei Steinpavillons und die Straße an der Brückenzufahrt",
+            "cs": "Dva kamenné pavilony a vozovka u nájezdu na most"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:28:30.919277+00:00",
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "most-tumski": {
     "id": "most-tumski",
     "localName": "Most Tumski",
@@ -26721,9 +27652,120 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg",
+        "/assets/today-source-refresh-20261021/run4-092-most-tumski.jpg",
+        "/assets/today-source-refresh-20261021/run4-093-most-tumski.jpg",
+        "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg",
+        "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (2).jpeg",
+          "sourceSHA256": "421f66963ffc5d3201955959469eb8dea84f62a4997de4a2573d02a0ddf7ef36",
+          "assetSHA256": "f4f048dc01528a9ee89fa4d06ec6272390329abdca50a326c208bd52d31873e2",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "פרט המעקה והמנעולים ליד גשר טומסקי",
+            "en": "Railing and lock detail by Tumski Bridge",
+            "pl": "Detal poręczy i kłódek przy moście Tumskim",
+            "de": "Geländer und Liebesschlösser an der Dombrücke",
+            "cs": "Detail zábradlí a zámků u Tumského mostu"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-092-most-tumski.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (4).jpeg",
+          "sourceSHA256": "56a18c2ed59196b6b0fd3eb81ed2898fcb88dc770fc6bd00b3e1bcc16c9a9269",
+          "assetSHA256": "c667ca102c0d04105e2b7c892eccb4a8e5b3585d2b8e4fdc73bf1be9ecba9181",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "גשר טומסקי והנהר במבט מן הגדה",
+            "en": "Tumski Bridge and the river from the bank",
+            "pl": "Most Tumski i rzeka widziane z brzegu",
+            "de": "Dombrücke und Fluss vom Ufer aus",
+            "cs": "Tumský most a řeka z nábřeží"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-093-most-tumski.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (1).jpeg",
+          "sourceSHA256": "e8d3479a4b27ae606e8f975b27acbca70f8e314285262ff15e2d9524ef95f9d8",
+          "assetSHA256": "67648730a9ab01a7687f25f99a6b79cbd1e942d9ad3651c2c936b94599c02760",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "שלט על גמדים ואהבה ליד גשר טומסקי",
+            "en": "Sign about dwarfs and love by Tumski Bridge",
+            "pl": "Tablica o krasnalach i miłości przy moście Tumskim",
+            "de": "Tafel über Zwerge und Liebe an der Dombrücke",
+            "cs": "Tabule o trpaslících a lásce u Tumského mostu"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (3).jpeg",
+          "sourceSHA256": "babd669d0d2c991a0efcacbd9c783f3a9980723a1db732f5ee727ffe928776b4",
+          "assetSHA256": "3fdd78dabc734aff6ccdfb0775a26414e77caa0033bc0dc3f2af844e33770770",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "מנעולים לאורך המעקה שליד גשר טומסקי",
+            "en": "Locks along the railing by Tumski Bridge",
+            "pl": "Kłódki na poręczy przy moście Tumskim",
+            "de": "Schlösser am Geländer bei der Dombrücke",
+            "cs": "Zámky na zábradlí u Tumského mostu"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.46 (2).jpeg",
+          "sourceSHA256": "ffcf7f502f09e0150b027e96e6fe183bcec5cc0c980a8041b186f7d1ce1f1ff4",
+          "assetSHA256": "8c78ad73b6621de8a88996ee022c777dd5866f39e567529b8bafe326f27a2448",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "לוח מידע היסטורי על גשר טומסקי",
+            "en": "Historical information plaque for Tumski Bridge",
+            "pl": "Tablica historyczna mostu Tumskiego",
+            "de": "Historische Informationstafel zur Dombrücke",
+            "cs": "Historická informační tabule o Tumském mostě"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -26756,19 +27798,6 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02cYCzpEAb2Q6am2n5UsAjCuYjgu54yuZA9RkfgHh67WGwyyP1xXmGvVLCDuDoBoNQl&id=61591964083308",
         "verifiedAt": "2026-10-09T08:48:22.039Z"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "mostek-pokutnic-wroclaw": {
@@ -28790,7 +29819,8 @@
         "/assets/gallery-nfm-01.jpg",
         "/assets/gallery-nfm-02.jpg",
         "/assets/gallery-nfm-03.jpg",
-        "/assets/today-source-refresh-20261021/nfm-01.jpg"
+        "/assets/today-source-refresh-20261021/nfm-01.jpg",
+        "/assets/today-source-refresh-20261021/run4-169-nfm.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=_Dez_yfkVVQ"
@@ -28830,6 +29860,24 @@
           "reopenedPublicVerified": true,
           "checks": "Copyright and Community Guidelines complete: no issues found",
           "verifiedAt": "2026-10-21T11:56:03.747Z"
+        },
+        "/assets/today-source-refresh-20261021/run4-169-nfm.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Image 2026-10-21 at 21.12.04 (6).jpeg",
+          "sourceSHA256": "a6c03a08e60a59ccfa3ffed1ca7413f45e4f153e958e0b069657b17e32112715",
+          "assetSHA256": "d2c93cff94f0bfedddd725b2fcc28f066b95946187febbc50b73e71e8bf38a5a",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "כיכר ליד הפורום הלאומי למוזיקה",
+            "en": "Square beside the National Forum of Music",
+            "pl": "Plac przy Narodowym Forum Muzyki",
+            "de": "Platz am Nationalen Musikforum",
+            "cs": "Náměstí u Národního hudebního fóra"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
         }
       }
     },
@@ -29815,6 +30863,19 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
       "photos": [
         "/assets/gallery-cathedral-03.jpg",
@@ -29822,9 +30883,49 @@
         "/assets/gallery-cathedral-05.jpg",
         "/assets/gallery-cathedral-06.jpg",
         "/assets/gallery-cathedral-02.jpg",
-        "/assets/gallery-cathedral-01.jpg"
+        "/assets/gallery-cathedral-01.jpg",
+        "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg",
+        "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 21.34.41.jpeg",
+          "sourceSHA256": "346117afac72294c17782a4e742bc90e311ce74f40d3e9758dab1437781bdba7",
+          "assetSHA256": "8aa1310a899c4333303b3ff38298bae36f43a768f5dd6dbe1c7cae4807eeecea",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "חזית בית קפיטולת הקתדרלה באוסטרוב טומסקי",
+            "en": "Cathedral Chapter House facade on Ostrów Tumski",
+            "pl": "Fasada Domu Kapituły Katedralnej na Ostrowie Tumskim",
+            "de": "Fassade des Domkapitelhauses auf Ostrów Tumski",
+            "cs": "Průčelí domu katedrální kapituly na Tumském ostrově"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 21.34.44.jpeg",
+          "sourceSHA256": "d9185750a2ebe62985921d93381e56f0de7a36cb106e4a2c9ec55a37c7fea666",
+          "assetSHA256": "2e9396f72783fa64276bbe2bca232cc6a978b58b1ff05a777ebc36d5bafc40b9",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "כנסיית הצלב הקדוש והאנדרטה בכיכר באי הקתדרלות",
+            "en": "Holy Cross church and monument on Cathedral Island",
+            "pl": "Kolegiata Świętego Krzyża i pomnik na Ostrowie Tumskim",
+            "de": "Heilig-Kreuz-Kirche und Denkmal auf der Dominsel",
+            "cs": "Kostel svatého Kříže a pomník na Tumském ostrově"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -29892,19 +30993,6 @@
         "url": "https://www.instagram.com/p/DbgE00LnOKH/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "paczkarnia": {
@@ -33009,6 +34097,205 @@
       }
     ]
   },
+  "piastowska-pieczec-wroclaw": {
+    "id": "piastowska-pieczec-wroclaw",
+    "localName": "Piastowska Pieczęć: pozostałości zamku Piastów",
+    "name": {
+      "he": "מסלול שרידי טירת פיאסט\nPiastowska Pieczęć",
+      "en": "Piastowska Pieczęć: Piast Castle Remains",
+      "pl": "Piastowska Pieczęć: pozostałości zamku Piastów",
+      "de": "Piastowska Pieczęć: Überreste der Piastenburg",
+      "cs": "Piastowska Pieczęć: pozůstatky piastovského hradu"
+    },
+    "description": {
+      "he": "מסלול ביקור במרתפי בית נוטרדאם המציג שרידים של טירת פיאסט באי הקתדרלות. בדקו ישירות מול המפעיל את אפשרויות הביקור וההזמנה.",
+      "en": "A visitor route through the cellars of Dom Notre Dame presents remains of the Piast castle on Cathedral Island. Check visits and booking directly.",
+      "pl": "Trasa zwiedzania w podziemiach Domu Notre Dame prezentuje relikty zamku Piastów na Ostrowie Tumskim. Możliwości zwiedzania i rezerwacji sprawdź u organizatora.",
+      "de": "Ein Besucherweg durch die Keller des Dom Notre Dame zeigt Überreste der Piastenburg auf der Dominsel. Besichtigung und Anmeldung direkt erfragen.",
+      "cs": "Návštěvnická trasa ve sklepích Domu Notre Dame představuje pozůstatky piastovského hradu na Katedrálním ostrově. Prohlídky a rezervace ověřte u provozovatele."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.115979591458,
+        "lng": 17.043502238527
+      },
+      "address": {
+        "street": "ul. św. Marcina12",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-site",
+      "museum"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Piastowska Pieczęć: Piast Castle Remains",
+      "Piastowska Pieczęć: pozostałości zamku Piastów",
+      "piastowska-pieczec-wroclaw"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-site",
+        "museum"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.ndwroclaw.com/noclegi",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.115979591458%2C17.043502238527",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "canonicalId": "piastowska-pieczec-wroclaw",
+        "state": "verified-new-canonical-proposal",
+        "address": "ul. św. Marcina12, Wrocław",
+        "coordinates": {
+          "lat": 51.115979591458,
+          "lng": 17.043502238527
+        },
+        "coordinateEvidence": {
+          "primaryPage": "https://zabytek.pl/pl/obiekty/g-230759",
+          "directDestinationLink": "https://www.google.com/maps/dir/?api=1&destination=51.115979591458%2C17.043502238527",
+          "method": "Exact NID location for Gothic room / remains of Piast Castle at św.Marcina12. Same building campus as cafe but distinct castle-remains visitor route; not church coordinate."
+        },
+        "sources": [
+          "https://www.ndwroclaw.com/noclegi",
+          "https://zabytek.pl/pl/obiekty/g-230759",
+          "https://www.archidiecezja.wroc.pl/WD-komunikaty/20250411_8.pdf"
+        ],
+        "name": {
+          "he": "מסלול שרידי טירת פיאסט\nPiastowska Pieczęć",
+          "en": "Piastowska Pieczęć: Piast Castle Remains",
+          "pl": "Piastowska Pieczęć: pozostałości zamku Piastów",
+          "de": "Piastowska Pieczęć: Überreste der Piastenburg",
+          "cs": "Piastowska Pieczęć: pozůstatky piastovského hradu"
+        },
+        "description": {
+          "he": "מסלול ביקור במרתפי בית נוטרדאם המציג שרידים של טירת פיאסט באי הקתדרלות. בדקו ישירות מול המפעיל את אפשרויות הביקור וההזמנה.",
+          "en": "A visitor route through the cellars of Dom Notre Dame presents remains of the Piast castle on Cathedral Island. Check visits and booking directly.",
+          "pl": "Trasa zwiedzania w podziemiach Domu Notre Dame prezentuje relikty zamku Piastów na Ostrowie Tumskim. Możliwości zwiedzania i rezerwacji sprawdź u organizatora.",
+          "de": "Ein Besucherweg durch die Keller des Dom Notre Dame zeigt Überreste der Piastenburg auf der Dominsel. Besichtigung und Anmeldung direkt erfragen.",
+          "cs": "Návštěvnická trasa ve sklepích Domu Notre Dame představuje pozůstatky piastovského hradu na Katedrálním ostrově. Prohlídky a rezervace ověřte u provozovatele."
+        },
+        "suggestedMaps": [
+          "cultural history/archaeology"
+        ],
+        "notSameAs": [
+          "kawiarenka-sw-jadwigi",
+          "st-martin-church-wroclaw",
+          "jawor-piast-castle",
+          "brzeg-castle"
+        ],
+        "selectedGlobalIndices": [
+          176,
+          177
+        ]
+      },
+      "catalogAliasesChecked": true,
+      "sourceRefreshRun": "2026-10-21-run4",
+      "notSameAs": [
+        "kawiarenka-sw-jadwigi",
+        "st-martin-church-wroclaw",
+        "jawor-piast-castle",
+        "brzeg-castle"
+      ]
+    },
+    "placeType": "historic-site",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-176-piastowska-pieczec-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-176-piastowska-pieczec-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/run4-177-piastowska-pieczec-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-176-piastowska-pieczec-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (10).jpeg",
+          "sourceSHA256": "6d3367e66f5c15b8d9820639bc40afa53ad47909521239077296f1bab2a01f2e",
+          "assetSHA256": "e3cdb73c30a34a481d4c4496daf17c659982195776aed2654f70ec2dc8cfd65c",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "הכניסה למסלול שרידי טירת פיאסט",
+            "en": "Entrance to the Piast Castle remains route",
+            "pl": "Wejście na trasę reliktów zamku Piastów",
+            "de": "Eingang zum Besucherweg der Piastenburgreste",
+            "cs": "Vstup na trasu pozůstatků piastovského hradu"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-177-piastowska-pieczec-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (15).jpeg",
+          "sourceSHA256": "1085ea988e194f010c23fd2ec4b9112c6a777799d1b7ac84f2b3b2b01cde3e38",
+          "assetSHA256": "72d25e043263eebeb504b5237a85304fcb7c14906f95391e4150e8ce4f26f547",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "לוח מידע על שרידי טירת פיאסט",
+            "en": "Information board about the Piast Castle remains",
+            "pl": "Tablica o pozostałościach zamku Piastów",
+            "de": "Informationstafel über die Piastenburgreste",
+            "cs": "Informační tabule o pozůstatcích piastovského hradu"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "pijalni-wino-bistro": {
     "id": "pijalni-wino-bistro",
     "localName": "Pijalni wino & bistro",
@@ -34562,7 +35849,8 @@
         "/assets/renoma-refresh-oct19-09.jpg",
         "/assets/renoma-refresh-oct20-01.jpg",
         "/assets/renoma-refresh-oct20-02.jpg",
-        "/assets/renoma-refresh-oct20-03.jpg"
+        "/assets/renoma-refresh-oct20-03.jpg",
+        "/assets/today-source-refresh-20261021/run4-043-renoma.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/J3-FVZvzMGA"
@@ -34667,6 +35955,24 @@
             "cs": "Osvětlené zaoblené nároží Renomy v noci"
           },
           "verifiedAt": "2026-10-20"
+        },
+        "/assets/today-source-refresh-20261021/run4-043-renoma.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-21 at 21.34.48.jpeg",
+          "sourceSHA256": "c7b87ca0e5035b619dcc7746b594d2132b99622c0311a2d309db61d62ef68db2",
+          "assetSHA256": "7b73dcc1e5295a606889e2d1795e6d1dc9ef895d2e21fa5af92a5ebdc741affa",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "חזית הכלבו רנומה באור יום",
+            "en": "Renoma department store in daylight",
+            "pl": "Dom towarowy Renoma w świetle dziennym",
+            "de": "Kaufhaus Renoma bei Tageslicht",
+            "cs": "Obchodní dům Renoma za denního světla"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
         }
       }
     },
@@ -35010,7 +36316,9 @@
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/royal-palace-wroclaw-01.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/royal-palace-wroclaw-01.jpg"
+        "/assets/today-source-refresh-20261021/royal-palace-wroclaw-01.jpg",
+        "/assets/today-source-refresh-20261021/run4-120-royal-palace-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/run4-121-royal-palace-wroclaw.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -35029,6 +36337,42 @@
           },
           "verifiedAt": "2026-10-21T11:30:11.255080+00:00",
           "original": true,
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-120-royal-palace-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מוזיאון וורוצלב/WhatsApp Image 2026-10-21 at 21.12.01 (9).jpeg",
+          "sourceSHA256": "d50e8e46b8b85751dc39a388a06663501c641a0b74edc5c4990cafd70accf426",
+          "assetSHA256": "8128e45b3fff5fb31341bcd5aad0254e890226d7b1b50b02460e4755204d5e39",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "חזית הארמון המלכותי והשער",
+            "en": "Royal Palace facade and gate",
+            "pl": "Fasada Pałacu Królewskiego i brama",
+            "de": "Fassade und Tor des Königspalastes",
+            "cs": "Průčelí Královského paláce a brána"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-121-royal-palace-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מוזיאון וורוצלב/WhatsApp Image 2026-10-21 at 21.34.48 (2).jpeg",
+          "sourceSHA256": "4708d73c384136f3a75ccc67e3c33d55dbb404ee8eca3ef8317fb9d879ad9dc3",
+          "assetSHA256": "ed684ccfb15f9e5a772342dfdfefa322015dde85c7bf151625e82eb051a6c929",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "הארמון המלכותי מכיוון הגן",
+            "en": "Royal Palace seen from the garden",
+            "pl": "Pałac Królewski od strony ogrodu",
+            "de": "Königspalast vom Garten aus",
+            "cs": "Královský palác ze zahrady"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
         }
       }
@@ -36437,6 +37781,203 @@
         "/assets/srebrna-klodzko/srebrna-gora-fortress-13.jpg"
       ],
       "videos": []
+    },
+    "socialPosts": []
+  },
+  "st-martin-church-wroclaw": {
+    "id": "st-martin-church-wroclaw",
+    "localName": "Kościół św. Marcina",
+    "name": {
+      "he": "כנסיית מרטין הקדוש",
+      "en": "St Martin’s Church",
+      "pl": "Kościół św. Marcina",
+      "de": "Martinskirche",
+      "cs": "Kostel svatého Martina"
+    },
+    "description": {
+      "he": "כנסייה גותית מלבנים בקצה המערבי של אי הקתדרלות, שנבנתה כקפלת הטירה. אפשר להתרשם מהחוץ; הגישה לפנים מוגבלת.",
+      "en": "A brick Gothic church at the western end of Cathedral Island, originally a castle chapel. View the exterior; interior access is limited.",
+      "pl": "Ceglany gotycki kościół na zachodnim skraju Ostrowa Tumskiego, pierwotnie kaplica zamkowa. Można oglądać elewację; dostęp do wnętrza jest ograniczony.",
+      "de": "Gotische Backsteinkirche am westlichen Rand der Dominsel, ursprünglich eine Burgkapelle. Die Außenansicht ist zugänglich; der Zugang zum Inneren ist eingeschränkt.",
+      "cs": "Gotický cihlový kostel na západním okraji Katedrálního ostrova, původně hradní kaple. Prohlédnout lze exteriér; přístup dovnitř je omezený."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.115484674255,
+        "lng": 17.04285394024
+      },
+      "address": {
+        "street": "ul. św. Marcina67–68",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "church",
+      "historical-site"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Kościół św. Marcina",
+      "St Martin’s Church",
+      "st-martin-church-wroclaw"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "church",
+        "historical-site"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zabytek.pl/pl/obiekty/wroclaw-kaplica-ob-kosciol-rektorski-sw-marcina",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.115484674255%2C17.04285394024",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "canonicalId": "st-martin-church-wroclaw",
+        "state": "verified-new-canonical-proposal",
+        "address": "ul. św. Marcina67–68, Wrocław",
+        "coordinates": {
+          "lat": 51.115484674255,
+          "lng": 17.04285394024
+        },
+        "coordinateEvidence": {
+          "primaryPage": "https://zabytek.pl/pl/obiekty/wroclaw-kaplica-ob-kosciol-rektorski-sw-marcina",
+          "directDestinationLink": "https://www.google.com/maps/dir/?api=1&destination=51.115484674255%2C17.04285394024",
+          "method": "Exact latitude/longitude supplied by NID official direction link; not geocoded or inferred from neighboring church."
+        },
+        "sources": [
+          "https://zabytek.pl/pl/obiekty/wroclaw-kaplica-ob-kosciol-rektorski-sw-marcina",
+          "https://geoportal.wroclaw.pl/poi/poi/1734"
+        ],
+        "name": {
+          "he": "כנסיית מרטין הקדוש",
+          "en": "St Martin’s Church",
+          "pl": "Kościół św. Marcina",
+          "de": "Martinskirche",
+          "cs": "Kostel svatého Martina"
+        },
+        "description": {
+          "he": "כנסייה גותית מלבנים בקצה המערבי של אי הקתדרלות, שנבנתה כקפלת הטירה. אפשר להתרשם מהחוץ; הגישה לפנים מוגבלת.",
+          "en": "A brick Gothic church at the western end of Cathedral Island, originally a castle chapel. View the exterior; interior access is limited.",
+          "pl": "Ceglany gotycki kościół na zachodnim skraju Ostrowa Tumskiego, pierwotnie kaplica zamkowa. Można oglądać elewację; dostęp do wnętrza jest ograniczony.",
+          "de": "Gotische Backsteinkirche am westlichen Rand der Dominsel, ursprünglich eine Burgkapelle. Die Außenansicht ist zugänglich; der Zugang zum Inneren ist eingeschränkt.",
+          "cs": "Gotický cihlový kostel na západním okraji Katedrálního ostrova, původně hradní kaple. Prohlédnout lze exteriér; přístup dovnitř je omezený."
+        },
+        "suggestedMaps": [
+          "cultural history/architecture",
+          "existing Ostrów Tumski walk if appropriate without route rewrite"
+        ],
+        "notSameAs": [
+          "cathedral",
+          "st-giles-church",
+          "piastowska-pieczec-wroclaw"
+        ],
+        "selectedGlobalIndices": [
+          178,
+          183
+        ]
+      },
+      "catalogAliasesChecked": true,
+      "sourceRefreshRun": "2026-10-21-run4",
+      "notSameAs": [
+        "cathedral",
+        "st-giles-church",
+        "piastowska-pieczec-wroclaw"
+      ]
+    },
+    "placeType": "church",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/run4-183-st-martin-church-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (22).jpeg",
+          "sourceSHA256": "2cb363492f3c0f327fc0fb29cc65616f5c2991fb5dfcb8e39037db35f439f56a",
+          "assetSHA256": "0cabcc7a0829981eb11b69741f03af4ac885d71a22c56a9ebc8eb7414653b471",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "כנסיית מרטין הקדוש מבחוץ",
+            "en": "St Martin’s Church exterior",
+            "pl": "Kościół św.Marcina z zewnątrz",
+            "de": "Außenansicht der Martinskirche",
+            "cs": "Exteriér kostela svatého Martina"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-183-st-martin-church-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (23).jpeg",
+          "sourceSHA256": "0bfea64bd37b908aa73199cffc870b56194de85d36ad2442b97dc543fc02b207",
+          "assetSHA256": "5ea7ee098bed028a4a74c66718c408bef29ec23967a7fa85ea125f5491e45bd7",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "פרט המגדל המתומן של כנסיית מרטין הקדוש",
+            "en": "Octagonal tower of St Martin’s Church",
+            "pl": "Ośmioboczna wieża kościoła św.Marcina",
+            "de": "Achteckiger Turm der Martinskirche",
+            "cs": "Osmiboká věž kostela svatého Martina"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": []
   },
@@ -38615,6 +40156,158 @@
       "de",
       "cs"
     ]
+  },
+  "vega-bar-weganski-wroclaw": {
+    "id": "vega-bar-weganski-wroclaw",
+    "localName": "VEGA Bar Wegański",
+    "name": {
+      "he": "וגה, בר טבעוני",
+      "en": "Vega Vegan Bar",
+      "pl": "VEGA Bar Wegański",
+      "de": "Vega Vegane Bar",
+      "cs": "Vega veganský bar"
+    },
+    "description": {
+      "he": "בר טבעוני במרכז הרינק, שפועל מאז 1987 ולפי אתר המקום עבר לתפריט טבעוני מלא בשנת 2013. בקומת הקרקע מוגשים מאכלים בסגנון פולני ובקומה העליונה תפריט בינלאומי. צילום הביקור שלנו מציג פירוגי וסלטים. המקום נכלל בחוויית המילקברים שלנו כאפשרות טבעונית נפרדת.\nVEGA Bar Wegański\nSukiennice 1/2\nכניסה מכיוון:\nRynek 27a, Wrocław",
+      "en": "A vegan bar in the Market Square area, operating since 1987 and fully vegan since 2013 according to its website. The ground-floor bar serves Polish-style dishes, with an international menu upstairs. Our visit photograph shows pierogi and salads. Included in our milk-bar experience as a distinct vegan option.\nSukiennice 1/2, entrance from Rynek 27a, Wrocław",
+      "pl": "Wegański bar przy Rynku, działający od 1987 roku, a od 2013 roku w pełni roślinny według strony lokalu. Na parterze podaje dania w polskim stylu, na piętrze kuchnie świata. Nasze zdjęcie z wizyty przedstawia pierogi i surówki. W naszej przygodzie z barami mlecznymi występuje jako osobna wegańska propozycja.\nSukiennice 1/2, wejście od Rynek 27a, Wrocław",
+      "de": "Vegane Bar am Marktplatz, seit 1987 in Betrieb und laut eigener Website seit 2013 vollständig vegan. Im Erdgeschoss gibt es polnisch inspirierte Gerichte, im Obergeschoss internationale Küche. Unser Besuchsfoto zeigt Pierogi und Salate. In unserem Milchbar-Erlebnis als eigenständige vegane Option enthalten.\nSukiennice 1/2, Eingang vom Rynek 27a, Wrocław",
+      "cs": "Veganský bar u Rynku, otevřený od roku 1987 a podle vlastního webu od roku 2013 plně veganský. V přízemí nabízí jídla v polském stylu, v patře mezinárodní kuchyni. Naše fotografie z návštěvy zachycuje pirohy a saláty. Do našeho zážitku s mléčnými bary je zařazen jako samostatná veganská možnost.\nSukiennice 1/2, vstup z Rynek 27a, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.10989298784371,
+        "lng": 17.032397085533102
+      },
+      "address": {
+        "street": "Sukiennice 1/2, wejście od Rynek 27a",
+        "postalCode": "50-107",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Bar Vega",
+      "VEGA Bar Wegański",
+      "Vega",
+      "Vega Wrocław Rynek",
+      "וגה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "vega-bar-weganski-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "vega-bar-weganski-wroclaw",
+        "lat": 51.10989298784371,
+        "lng": 17.032397085533102
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "vegan"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://barvega.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10989298784371%2C17.032397085533102",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "userIdentifiedTwoSpecificSources": true,
+        "officialVenueSource": "https://barvega.pl/kontakt",
+        "officialMenuTypeSource": "https://barvega.pl/home1",
+        "municipalBusinessSource": "https://geoportal.wroclaw.pl/poi/poi/2619",
+        "coordinateEvidence": "outputs/vega-milk-bar-enrichment-2026-10-21/coordinate-verification.json",
+        "catalogAliasesCheckedNoExistingPhysicalRecord": true
+      },
+      "experienceMembership": "Explicit user instruction: add Vega to existing wroclaw-milk-bars, no new experience. Vegan option, not a claim that food contains dairy.",
+      "sourceOriginalsModified": false,
+      "photoReuse": "Existing generic milk-bar experience asset visit-03; no previous assignment to Miś, Mewa or Różowa Krowa."
+    },
+    "placeType": "vegan-bar",
+    "media": {
+      "thumbnail": "/assets/experiences/milk-bars/visit-03.jpg",
+      "photos": [
+        "/assets/experiences/milk-bars/visit-03.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/experiences/milk-bars/visit-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-05 at 18.26.03 (1).jpeg",
+          "sourceSHA256": "e35f4703a26f4fdf6608423ead410c4090ccd5d7f50aabc4381d11b5d9193075",
+          "assetSHA256": "864e6223690085abb19efdf98886b27f410733aa1652442c9f15dac3f4b32116",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "alt": {
+            "he": "פירוגי וסלטים בצילום הביקור בוגה",
+            "en": "Pierogi and salads photographed during our Vega visit",
+            "pl": "Pierogi i surówki na zdjęciu z naszej wizyty w Vedze",
+            "de": "Pierogi und Salate auf unserem Besuchsfoto aus Vega",
+            "cs": "Pirohy a saláty na fotografii z naší návštěvy Vegy"
+          },
+          "userIdentifiedAs": "Vega",
+          "reusedExistingPublishedAsset": true
+        }
+      }
+    },
+    "socialPosts": []
   },
   "vegan-af-ramen": {
     "id": "vegan-af-ramen",
@@ -43157,9 +44850,44 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-156-woosabi.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-156-woosabi.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WOOSABI/WhatsApp Image 2026-10-21 at 21.12.02 (9).jpeg",
+          "sourceSHA256": "2819a3d9327b70d540655094f358f314a1469b7726b1ad9f12b6fd443623f0d6",
+          "assetSHA256": "32d6080aa46b390bcc6f6c051d4b6ac897feef1dc4d946bc68c18e368c1ba234",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "שלט הכניסה למסעדת ווסאבי",
+            "en": "Woosabi restaurant entrance sign",
+            "pl": "Szyld przy wejściu do restauracji Woosabi",
+            "de": "Eingangsschild des Restaurants Woosabi",
+            "cs": "Vstupní označení restaurace Woosabi"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -43179,7 +44907,101 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
+    ]
+  },
+  "woosabi-swidnicka-wroclaw": {
+    "id": "woosabi-swidnicka-wroclaw",
+    "localName": "Woosabi Good Vibes Lounge",
+    "name": {
+      "he": "ווסאבי, סניף שווידניצקה",
+      "en": "Woosabi Good Vibes Lounge, Świdnicka",
+      "pl": "Woosabi Good Vibes Lounge, Świdnicka",
+      "de": "Woosabi Good Vibes Lounge, Świdnicka",
+      "cs": "Woosabi Good Vibes Lounge, Świdnicka"
+    },
+    "description": {
+      "he": "סניף המסעדה ברחוב שווידניצקה, בבניין שבו נמצא גם מלון טראפיק. האתר הרשמי מציג תפריט בהשראה אסייתית הכולל באו וקערות. צילום הביקור מראה את הכניסה והחלונות הקשתיים. זהו סניף נפרד מהמסעדה ברחוב ולודקוביצה.\nWoosabi Good Vibes Lounge\nŚwidnicka 28, Wrocław",
+      "en": "The Świdnicka branch, in the building also occupied by Traffic Hotel. Its official menu includes Asian-inspired bao buns and bowls. Our photograph shows the entrance and arched windows. This is separate from the Włodkowica branch.\nŚwidnicka 28, Wrocław",
+      "pl": "Lokal przy Świdnickiej, w budynku mieszczącym również Traffic Hotel. Oficjalne menu obejmuje inspirowane Azją bułeczki bao i bowle. Nasze zdjęcie pokazuje wejście i łukowe okna. To osobny lokal od restauracji przy Włodkowica.\nŚwidnicka 28, Wrocław",
+      "de": "Filiale an der Świdnicka im Gebäude des Traffic Hotels. Die offizielle Speisekarte enthält asiatisch inspirierte Bao-Brötchen und Bowls. Unser Foto zeigt den Eingang und die Rundbogenfenster. Dies ist eine andere Filiale als an der Włodkowica.\nŚwidnicka 28, Wrocław",
+      "cs": "Pobočka ve Świdnické v budově, kde sídlí také Traffic Hotel. Oficiální nabídka zahrnuje asijsky inspirované bochánky bao a misky. Naše fotografie ukazuje vchod a oblouková okna. Jde o jinou pobočku než ve Włodkowicově ulici.\nŚwidnicka 28, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.106280200268216,
+        "lng": 17.03186185493995
+      },
+      "address": {
+        "street": "Świdnicka 28",
+        "postalCode": "50-068",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
     ],
+    "sourceUrls": [],
+    "aliases": [
+      "Woosabi Good Vibes Lounge",
+      "Woosabi Lounge Wrocław",
+      "Woosabi Świdnicka"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "woosabi-swidnicka-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "woosabi-swidnicka-wroclaw",
+        "lat": 51.106280200268216,
+        "lng": 17.03186185493995
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://woosabi.pl/lounge/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Woosabi+Good+Vibes+Lounge+Swidnicka+28+Wroclaw",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -43192,7 +45014,61 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "provenance": {
+      "identityVerification": {
+        "officialSource": "https://woosabi.pl/lounge/",
+        "photoAddressVisible": "Świdnicka28 onTrafficHotel sign nexttoWoosabiGoodVibesLounge",
+        "distinctFromExisting": "woosabi canonicalatWłodkowica21",
+        "coordinateSource": "ExistingverifiedTrafficHotelatthesameaddressandbuilding;requiresfocusedmapconfirmationbeforemerge",
+        "officialMapLinkIssue": "OfficialloungepageŚwidnicka28linkincorrectlyredirectstoWłodkowica21;do notuseitscoordinates"
+      },
+      "pendingMapConfirmation": true,
+      "coordinateVerification": {
+        "primaryAddressSource": "https://geoportal.wroclaw.pl/poi/pt/40237/ul.%C5%9Awidnicka/28",
+        "officialVenueSource": "https://woosabi.pl/lounge/en/",
+        "municipalOriginalEPSG": 2177,
+        "municipalOriginalPoint": {
+          "x": 6432200.23,
+          "y": 5663919.045
+        },
+        "coordinates": {
+          "lat": 51.106280200268216,
+          "lng": 17.03186185493995
+        },
+        "transformEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/woosabi-swidnicka-coordinate-transform.json",
+        "pendingMapConfirmation": false,
+        "method": "Exact municipal address marker, converted using public ArcGIS GeometryServer; official operator matches address, photograph shows Traffic Hotel and Woosabi at same building. No shared browser used."
+      }
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-207-woosabi-swidnicka-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-207-woosabi-swidnicka-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-207-woosabi-swidnicka-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.12.06 (8).jpeg",
+          "sourceSHA256": "e240411f59d9b395aa84ed1c25f9217bbe41ed3344bcea9c298ca72ed6bbbaff",
+          "assetSHA256": "c57303f12c08bb6bb67884f227f5ce00d79631d886b011df6cbcc8329b7f62fd",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Businessfrontage;incidentalpublicpasserby",
+          "alt": {
+            "he": "חזית הסניף בשווידניצקה עם שלט ווסאבי וחלונות קשתיים",
+            "en": "Woosabi Świdnicka frontage with its sign and arched windows",
+            "pl": "Fasada Woosabi przy Świdnickiej z szyldem i łukowymi oknami",
+            "de": "Woosabi-Fassade an der Świdnicka mit Schriftzug und Rundbogenfenstern",
+            "cs": "Průčelí Woosabi ve Świdnické se štítem a obloukovými okny"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
   },
   "wroclavia": {
     "id": "wroclavia",
@@ -44318,8 +46194,87 @@
       ]
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-081-wroclaw-puppet-theatre.jpg",
+        "/assets/today-source-refresh-20261021/run4-083-wroclaw-puppet-theatre.jpg",
+        "/assets/today-source-refresh-20261021/run4-084-wroclaw-puppet-theatre.jpg",
+        "/assets/today-source-refresh-20261021/run4-088-wroclaw-puppet-theatre.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-081-wroclaw-puppet-theatre.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05 (4).jpeg",
+          "sourceSHA256": "21cb2279572d16c9a52853ff9ecde986e886f54d910dd2cb424a671177dac56b",
+          "assetSHA256": "635aec1e8e77b98712d5b5f1c06808f209dcb60c77c123b02841c74bfada805d",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "חזית צדדית של תיאטרון הבובות",
+            "en": "Side facade of the Puppet Theatre",
+            "pl": "Boczna elewacja Teatru Lalek",
+            "de": "Seitenfassade des Puppentheaters",
+            "cs": "Boční průčelí loutkového divadla"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-083-wroclaw-puppet-theatre.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05 (3).jpeg",
+          "sourceSHA256": "3e19841ddac8fbbf85e2a49ae3e99db604549356685445b428edd8b2607d63f2",
+          "assetSHA256": "cac39e761a9f48ea5e6ee8ca1a665bf88e25142731074c841a6197fc9cfa76f3",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "הכניסה לתיאטרון הבובות",
+            "en": "Entrance to the Puppet Theatre",
+            "pl": "Wejście do Teatru Lalek",
+            "de": "Eingang zum Puppentheater",
+            "cs": "Vstup do loutkového divadla"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-084-wroclaw-puppet-theatre.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.04 (7).jpeg",
+          "sourceSHA256": "b2c7126c7f199cabc96843f471f972c81b54158baef36c2b57b9be1fda8e7a21",
+          "assetSHA256": "6f40af69a666e4e4f26a2e8c1937992dc1ec164a8d4442e55e300e1d92a42538",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "פרט מעל חזית תיאטרון הבובות",
+            "en": "Detail above the Puppet Theatre facade",
+            "pl": "Detal nad fasadą Teatru Lalek",
+            "de": "Detail über der Fassade des Puppentheaters",
+            "cs": "Detail nad průčelím loutkového divadla"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-088-wroclaw-puppet-theatre.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.04 (8).jpeg",
+          "sourceSHA256": "43b9f2ddff3e096f3c9303bd9146d6d60796c4040156a78bb11808b905baeb6b",
+          "assetSHA256": "cd91a3c3a1729cd5cf517761d1751de46135790090e560602bca99df5e8ddcc8",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "מזרקת הגמדים ליד תיאטרון הבובות",
+            "en": "Dwarf fountain beside the Puppet Theatre",
+            "pl": "Fontanna krasnali przy Teatrze Lalek",
+            "de": "Zwergenbrunnen neben dem Puppentheater",
+            "cs": "Kašna s trpaslíky u loutkového divadla"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -46899,6 +48854,28 @@
   "Kościół św. Mikołaja w Brzegu": "brzeg-st-nicholas-church",
   "St. Nicholas Church Brzeg": "brzeg-st-nicholas-church",
   "Nikolaikirche Brzeg": "brzeg-st-nicholas-church",
+  "India Concept Wrocław": "india-concept-wroclaw",
+  "India Concept Kiełbaśnicza": "india-concept-wroclaw",
+  "Woosabi Świdnicka": "woosabi-swidnicka-wroclaw",
+  "Woosabi Good Vibes Lounge": "woosabi-swidnicka-wroclaw",
+  "Woosabi Lounge Wrocław": "woosabi-swidnicka-wroclaw",
+  "St Martin’s Church": "st-martin-church-wroclaw",
+  "Kościół św. Marcina": "st-martin-church-wroclaw",
+  "st-martin-church-wroclaw": "st-martin-church-wroclaw",
+  "Piastowska Pieczęć: Piast Castle Remains": "piastowska-pieczec-wroclaw",
+  "Piastowska Pieczęć: pozostałości zamku Piastów": "piastowska-pieczec-wroclaw",
+  "piastowska-pieczec-wroclaw": "piastowska-pieczec-wroclaw",
+  "Lwia Brama² Restaurant": "lwia-brama-restaurant-wroclaw",
+  "Restauracja Lwia Brama²": "lwia-brama-restaurant-wroclaw",
+  "lwia-brama-restaurant-wroclaw": "lwia-brama-restaurant-wroclaw",
+  "Southern Pomorski Bridge": "most-pomorski-poludniowy-wroclaw",
+  "Most Pomorski Południowy": "most-pomorski-poludniowy-wroclaw",
+  "most-pomorski-poludniowy-wroclaw": "most-pomorski-poludniowy-wroclaw",
+  "Vega": "vega-bar-weganski-wroclaw",
+  "Bar Vega": "vega-bar-weganski-wroclaw",
+  "VEGA Bar Wegański": "vega-bar-weganski-wroclaw",
+  "וגה": "vega-bar-weganski-wroclaw",
+  "Vega Wrocław Rynek": "vega-bar-weganski-wroclaw",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",

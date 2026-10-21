@@ -243,3 +243,15 @@
 (function(){const p=window.WROC_CATALOG?.getPlace("parrot-coffee-bema");if(p)window.WROC_LOCATION_MEDIA[p.id]={gallery:p.media.photos,videos:[],get facebook(){return window.WROC_CATALOG.getSocialPost(p,"facebook")?.url;},get instagram(){return window.WROC_CATALOG.getSocialPost(p,"instagram")?.url;}}})();
 
 (function(){const p=window.WROC_CATALOG?.getPlace("boguslawskiego");if(p)window.WROC_LOCATION_MEDIA[p.id]={gallery:p.media.photos,videos:p.media.videos,get facebook(){return window.WROC_CATALOG.getSocialPost(p,"facebook")?.url;},get instagram(){return window.WROC_CATALOG.getSocialPost(p,"instagram")?.url;}}})();
+
+// Refresh only canonical media arrays; retain existing social and guide resources.
+(()=>{for(const id of ["lodziarnia-roma", "renoma", "four-denominations-district", "wroclaw-puppet-theatre", "nfm", "czarna-magia", "kawiarenka-sw-jadwigi", "woosabi", "royal-palace-wroclaw", "ostrow", "most-tumski", "cathedral", "gniazdo", "india-concept-wroclaw"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;r.videos=p.media.videos||[];window.WROC_LOCATION_MEDIA[id]=r;}})();
+
+(()=>{const p=window.WROC_CATALOG?.getPlace?.("woosabi-swidnicka-wroclaw");if(p)window.WROC_LOCATION_MEDIA[p.id]={gallery:p.media.photos,videos:p.media.videos};})();
+
+(()=>{for(const id of ["st-martin-church-wroclaw", "piastowska-pieczec-wroclaw", "lwia-brama-restaurant-wroclaw"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(p)window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos,videos:p.media.videos};}})();
+
+(()=>{for(const id of ["most-pomorski-poludniowy-wroclaw"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(p)window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos,videos:p.media.videos};}})();
+
+// Vega reuses the correctly identified food photograph, without a duplicate asset.
+(function(){const p=window.WROC_CATALOG?.getPlace("vega-bar-weganski-wroclaw");if(p)window.WROC_LOCATION_MEDIA[p.id]={...(window.WROC_LOCATION_MEDIA[p.id]||{}),gallery:p.media.photos,videos:p.media.videos||[]};})();

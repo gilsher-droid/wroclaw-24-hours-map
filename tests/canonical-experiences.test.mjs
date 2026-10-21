@@ -62,7 +62,7 @@ test("Experience media resolves through existing Place media and Prague original
   const window = load(["data/place-catalog.js", "data/canonical-experiences.js"]);
   const registry = window.WROC_EXPERIENCE_CATALOG;
   const culturalEveningMedia = registry.resolveMedia("culture-evening");
-  assert.equal(culturalEveningMedia.images.length, 7);
+  assert.equal(culturalEveningMedia.images.length, 8);
   assert.equal(culturalEveningMedia.videos.length, 1);
   assert.ok(culturalEveningMedia.social.some(({ platform }) => platform === "facebook"));
   assert.ok(!culturalEveningMedia.social.some(({ platform }) => platform === "instagram"));
