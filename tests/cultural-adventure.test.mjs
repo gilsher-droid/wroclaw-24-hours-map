@@ -13,7 +13,7 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
   runInNewContext(readFileSync(resolve(root, "data/canonical-experiences.js"), "utf8"), context);
   runInNewContext(readFileSync(resolve(root, "data/cultural-places.js"), "utf8"), context);
 
-  assert.equal(window.WROC_CULTURAL_PLACES.length, 40);
+  assert.equal(window.WROC_CULTURAL_PLACES.length, 41);
   assert.equal(window.WROC_CULTURAL_EXPERIENCES.length, 1);
   assert.equal(window.WROC_CULTURAL_EXPERIENCES[0].id, "street-art-nadodrze-olbin");
   assert.equal(window.WROC_CULTURAL_EXPERIENCES[0].coordinates, undefined);

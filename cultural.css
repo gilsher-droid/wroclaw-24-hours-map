@@ -218,3 +218,6 @@ article[data-place="dwarf-info"] p,.leaflet-popup-content:has(img[src*="/dwarf-i
 
 .area-resources[data-area-resources="nadodrze"] p,article[data-place="jatki"] p,.leaflet-popup-content:has(img[src*="jatki-alley-refresh"]) > span{white-space:pre-line;}
 .media-grid img[src*="/nadodrze-walk/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+.media-grid img[src*="/witch-bridge/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="mostek-pokutnic-wroclaw"] p { white-space:pre-line; }

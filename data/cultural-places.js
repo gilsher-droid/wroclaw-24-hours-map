@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "mostek-pokutnic-wroclaw": ["museums-history", "architecture-design"],
     "jatki": ["museums-history", "art-contemporary"],
     "dwarf-info": ["museums-history"],
     "barbara-wroclaw": ["art-contemporary", "architecture-design"],

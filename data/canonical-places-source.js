@@ -20701,3 +20701,133 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
     }
   }
 ];const ids=new Set(records.map(p=>p.id));window.WROC_CANONICAL_PLACE_SOURCE=window.WROC_CANONICAL_PLACE_SOURCE.filter(p=>!ids.has(p.id));window.WROC_CANONICAL_PLACE_SOURCE.push(...records);})();
+
+(function(){window.WROC_CANONICAL_PLACE_SOURCE.push({
+  "id": "mostek-pokutnic-wroclaw",
+  "localName": "Mostek Pokutnic",
+  "name": {
+    "he": "גשר המכשפות",
+    "en": "Witches’ Bridge (Bridge of Penitents)",
+    "pl": "Mostek Pokutnic",
+    "de": "Büßerbrücke (Hexenbrücke)",
+    "cs": "Most kajícnic (Most čarodějnic)"
+  },
+  "description": {
+    "he": "הגשר הגבוה מחבר בין שני מגדלי קתדרלת מריה מגדלנה, קרוב לכיכר השוק. תצלומי הביקור שלנו מציגים אותו מן הרחוב, במבט רחב ובפרט של המעקה. אפשר לבקר בו כנקודת תצפית בפני עצמה או לשלבו בחיפוש הגמדים טקלה ומרטינקה. אגדה מקומית קושרת את שמו למכשפות. העלייה לתצפית כרוכה במדרגות וללא מעלית; יש לבדוק שעות כניסה וכרטיסים לפני הביקור.\nMostek Pokutnic\nSzewska 10, Wrocław",
+    "en": "A high walkway joins the two towers of St Mary Magdalene Cathedral near Market Square. Our visit photographs show it from street level, with a broad architectural view and a closer look at the balustrade. Visit it as a viewpoint in its own right or include it in a dwarf hunt for Tekla and Martynka. A local legend connects the bridge with witches. Reaching the viewpoint involves stairs without a lift; check admission and opening times before visiting.\nSzewska 10, Wrocław",
+    "pl": "Wysoko zawieszona kładka łączy dwie wieże katedry św. Marii Magdaleny w pobliżu Rynku. Nasze zdjęcia z wizyty pokazują mostek z poziomu ulicy: w szerszym ujęciu architektury oraz zbliżeniu balustrady. To samodzielny punkt widokowy i przystanek podczas poszukiwania krasnalek Tekli i Martynki. Z mostkiem wiąże się miejscowa legenda o czarownicach. Wejście prowadzi schodami, bez windy; przed wizytą sprawdź godziny i bilety.\nSzewska 10, Wrocław",
+    "de": "Der hoch gelegene Steg verbindet die beiden Türme der Maria-Magdalena-Kathedrale nahe dem Marktplatz. Unsere Besuchsfotos zeigen ihn von der Straße aus, als Architekturansicht und mit einem näheren Blick auf die Brüstung. Er ist ein eigenständiges Aussichtsziel und ein Halt bei der Suche nach den Zwerginnen Tekla und Martynka. Eine örtliche Sage verbindet ihn mit Hexen. Der Aufstieg erfolgt über Treppen ohne Aufzug; Öffnungszeiten und Eintritt vor dem Besuch prüfen.\nSzewska 10, Wrocław",
+    "cs": "Vysoko položená lávka spojuje dvě věže katedrály svaté Máří Magdalény poblíž Rynku. Naše fotografie z návštěvy ji ukazují z ulice: v širším pohledu na architekturu a v detailu zábradlí. Jde o samostatný vyhlídkový cíl i zastávku při hledání trpaslic Tekly a Martynky. S mostem se pojí místní pověst o čarodějnicích. Na vyhlídku vedou schody bez výtahu; před návštěvou ověřte otevírací dobu a vstupné.\nSzewska 10, Wrocław"
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.1096497,
+      "lng": 17.0346578
+    },
+    "address": {
+      "street": "Szewska 10",
+      "postalCode": "50-122",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "museums-history",
+    "architecture-design"
+  ],
+  "placeType": "viewpoint",
+  "aliases": [
+    "Mostek Pokutnic",
+    "Mostek Czarownic",
+    "Bridge of Penitents",
+    "Witches Bridge",
+    "Witch Bridge",
+    "WITCH BRIDGE",
+    "גשר המכשפות",
+    "Büßerbrücke",
+    "Most kajícnic"
+  ],
+  "media": {
+    "thumbnail": "/assets/witch-bridge/mostek-pokutnic-01.jpg",
+    "photos": [
+      "/assets/witch-bridge/mostek-pokutnic-01.jpg",
+      "/assets/witch-bridge/mostek-pokutnic-03.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/witch-bridge/mostek-pokutnic-01.jpg": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WITCH BRIDGE/WhatsApp Image 2026-10-19 at 08.42.09 (1).jpeg",
+        "sourceSHA256": "501197810b54fb0d2064ba16ec236ecec70420a3689cd4ae83991daac206d3a8",
+        "assetSHA256": "63fd1879d56d564a51ad438204449669c4ac7bf6cd1bcca745ee6d5b0a15be0d",
+        "originalFullPicturePreserved": true,
+        "familyExceptionApplied": false,
+        "incidentalPublicVisitors": true,
+        "alt": {
+          "he": "גשר המכשפות\nמבט מהרחוב",
+          "en": "Witches’ Bridge (Bridge of Penitents)\nStreet-level visit photograph",
+          "pl": "Mostek Pokutnic\nZdjęcie z wizyty wykonane z ulicy",
+          "de": "Büßerbrücke (Hexenbrücke)\nBesuchsfoto von der Straße",
+          "cs": "Most kajícnic (Most čarodějnic)\nFotografie z návštěvy pořízená z ulice"
+        }
+      },
+      "/assets/witch-bridge/mostek-pokutnic-03.jpg": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WITCH BRIDGE/WhatsApp Image 2026-10-19 at 08.42.09 (15).jpeg",
+        "sourceSHA256": "b4475741a5dbe799c176b0cb58e9a5af197ab3ebe2171d76089253f6c1dbdf4d",
+        "assetSHA256": "7237e790c4bd2765fbafced52f62e93d05cbe3fd25cfdfbfa9035d4a27e2a03a",
+        "originalFullPicturePreserved": true,
+        "familyExceptionApplied": false,
+        "incidentalPublicVisitors": true,
+        "alt": {
+          "he": "גשר המכשפות\nמבט מהרחוב",
+          "en": "Witches’ Bridge (Bridge of Penitents)\nStreet-level visit photograph",
+          "pl": "Mostek Pokutnic\nZdjęcie z wizyty wykonane z ulicy",
+          "de": "Büßerbrücke (Hexenbrücke)\nBesuchsfoto von der Straße",
+          "cs": "Most kajícnic (Most čarodějnic)\nFotografie z návštěvy pořízená z ulice"
+        }
+      }
+    }
+  },
+  "links": {
+    "website": "https://katedramm.pl/mostek-pokutnic/",
+    "socialProfileFallback": false
+  },
+  "socialPosts": [],
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "provenance": {
+    "factualSources": [
+      {
+        "url": "https://geoportal.wroclaw.pl/poi/poi/6013",
+        "fact": "Municipal identity, viewpoint and Szewska10 address."
+      },
+      {
+        "url": "https://www.wroclaw.pl/dla-mieszkanca/mostek-pokutnic-poznaj-wroclaw",
+        "fact": "Towers, local legend and access by stairs without lift. Hours/prices are not copied as current facts."
+      },
+      {
+        "url": "https://www.wroclaw.pl/beta2/files/dokumenty/45081/ARAW%20gazeta%20wroclaw_pl%20Nr25_45%202021.pdf",
+        "fact": "Municipal publication identifies Tekla and Martynka dwarf figures on bridge."
+      }
+    ],
+    "coordinateVerification": {
+      "lat": 51.1096497,
+      "lng": 17.0346578,
+      "evidence": "GoogleMaps exact BridgeofPenitents name, address and current cathedral website match; screenshot/AX saved."
+    },
+    "checkedAt": "2026-10-21T06:02:43.079817+00:00",
+    "sourceOriginalsModified": false,
+    "userClarifications": [
+      "הוא כמובן חלק מחוויה חיפוש הגמדים",
+      "וגם נקודת טיול בעיר בפני עצמה"
+    ],
+    "mapDecision": "One canonical identity, Cultural architecture/history standalone card plus existing dwarf-hunt related place and inherited media. No new experience or forced walking-route change."
+  }
+});})();
