@@ -4883,7 +4883,10 @@
         "/assets/czocha-boleslawiec/boleslawiec-old-town-134.jpg",
         "/assets/czocha-boleslawiec/boleslawiec-old-town-139.jpg",
         "/assets/czocha-boleslawiec/boleslawiec-old-town-140.jpg",
-        "/assets/czocha-boleslawiec/boleslawiec-old-town-141.jpg"
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-141.jpg",
+        "/assets/today-source-refresh-20261021/boleslawiec-ceramics-24.jpg",
+        "/assets/today-source-refresh-20261021/boleslawiec-ceramics-25.jpg",
+        "/assets/today-source-refresh-20261021/boleslawiec-ceramics-26.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/YMyuRk3Fm7o",
@@ -5117,6 +5120,60 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"
+        },
+        "/assets/today-source-refresh-20261021/boleslawiec-ceramics-24.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-10-21 at 20.38.53 (2).jpeg",
+          "sourceSHA256": "0d69446d21824ab27c11fdcfa73b47333ca576fdc09119629d754ad17366a34d",
+          "assetSHA256": "861918f505b0efde697b35f364c76830c4d9a3220c65000c8fcade67bbb0dfb1",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Ceramics display; incidental photographer reflection not a posed portrait",
+          "alt": {
+            "he": "ספלים וצלחות קרמיקה מעוטרת מתיעוד הביקור בבולסלבייץ",
+            "en": "Decorated pottery mugs and plates from our Bolesławiec visit",
+            "pl": "Zdobione kubki i talerze ceramiczne z wizyty w Bolesławcu",
+            "de": "Verzierte Keramiktassen und Teller von unserem Besuch in Bolesławiec",
+            "cs": "Zdobené keramické hrnky a talíře z návštěvy Bolesławce"
+          },
+          "userAssociation": "call_f6985b26065e4303a405705c3e71d5c6: תשים את זה בכלל בבולזלבייץ",
+          "notBranchIdentification": true,
+          "verifiedAt": "2026-10-21T18:30:42.579421+00:00"
+        },
+        "/assets/today-source-refresh-20261021/boleslawiec-ceramics-25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-10-21 at 20.38.53 (3).jpeg",
+          "sourceSHA256": "da37fd73556f971dc922ae6255ac3749b491aeb6a3ec8d11c51b5ba673338570",
+          "assetSHA256": "b6ddb062f11822c0c243cf4241f1cb4b2ed894d45d520ce8f332b2c98f381c2f",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Ceramics display; incidental photographer reflection not a posed portrait",
+          "alt": {
+            "he": "קערות וצלחות קרמיקה בדוגמאות כחולות בבולסלבייץ",
+            "en": "Bowls and plates with blue pottery patterns in Bolesławiec",
+            "pl": "Miski i talerze z niebieskimi wzorami ceramiki w Bolesławcu",
+            "de": "Schalen und Teller mit blauen Keramikmustern in Bolesławiec",
+            "cs": "Misky a talíře s modrými keramickými vzory v Bolesławci"
+          },
+          "userAssociation": "call_f6985b26065e4303a405705c3e71d5c6: תשים את זה בכלל בבולזלבייץ",
+          "notBranchIdentification": true,
+          "verifiedAt": "2026-10-21T18:30:42.579421+00:00"
+        },
+        "/assets/today-source-refresh-20261021/boleslawiec-ceramics-26.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-10-21 at 20.38.53 (1).jpeg",
+          "sourceSHA256": "05ba329d4f91cf75812b11e6f75225c80068db5908544161ab489cd9fe91f025",
+          "assetSHA256": "80b18f0a443710a0f2d1147893c855e7d4887176e1bccfad26f2560a996282ff",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Ceramics display; incidental photographer reflection not a posed portrait",
+          "alt": {
+            "he": "סמל יצרן קרמיקה על חלון תצוגה בבולסלבייץ",
+            "en": "Pottery maker’s logo on a display window in Bolesławiec",
+            "pl": "Logo producenta ceramiki na witrynie w Bolesławcu",
+            "de": "Logo eines Keramikherstellers an einem Schaufenster in Bolesławiec",
+            "cs": "Logo výrobce keramiky na výloze v Bolesławci"
+          },
+          "userAssociation": "call_f6985b26065e4303a405705c3e71d5c6: תשים את זה בכלל בבולזלבייץ",
+          "notBranchIdentification": true,
+          "verifiedAt": "2026-10-21T18:30:42.579421+00:00"
         }
       }
     },
