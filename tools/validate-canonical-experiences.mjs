@@ -89,8 +89,20 @@ for (const experience of registry.experiences) {
       throw new Error(`${experience.id}: Hero photoIndex does not resolve.`);
     }
   }
-  for (const mediaPath of [...(experience.media?.images || []), ...(experience.media?.videos || [])]) {
+  for (const mediaPath of experience.media?.images || []) {
     validateMediaPath(experience.id, mediaPath);
+  }
+  for (const video of experience.media?.videos || []) {
+    if (video.startsWith("/assets/")) {
+      validateMediaPath(experience.id, video);
+      continue;
+    }
+    const proof = experience.metadata?.sourceDeltaVisits20261021?.find(item => item.url === video);
+    if (!/^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}$/.test(video) ||
+        proof?.visibility !== "Public" || !proof.reopenedPublicVerified ||
+        proof.copyright !== "No issues found" || proof.communityGuidelines !== "No issues found") {
+      throw new Error(`${experience.id}: direct visit video lacks verified public YouTube hosting.`);
+    }
   }
   const ownGuides = experience.media?.guideVideos || {};
   for (const [edition, url] of Object.entries(ownGuides)) {
