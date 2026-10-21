@@ -230,6 +230,7 @@
     }
   }
   resources["mostek-pokutnic-wroclaw"] = canonicalResources("mostek-pokutnic-wroclaw");
+  for(const id of ["bar-mis","bar-mleczny-mewa-wroclaw","rozowa-krowa-milk-bar-wroclaw"])resources[id]=canonicalResources(id);
   window.WROC_LOCATION_MEDIA = resources;
 })();
 

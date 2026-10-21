@@ -45,6 +45,9 @@
   const sourceShopping = t("מופיע בשכבת מרכזי הקניות של מפת הקהילה.", "Included in the community map’s shopping-centre layer.", "Znajduje się w warstwie centrów handlowych mapy społeczności.", "In der Einkaufszentrum-Ebene der Community-Karte enthalten.", "Zahrnuto ve vrstvě nákupních center komunitní mapy.");
 
   window.WROC_LIFESTYLE_PLACES = [
+    {id:"bar-mis",categories:["eat"],coordinates:[51.1126723,17.0342938],mediaKey:"bar-mis"},
+    {id:"bar-mleczny-mewa-wroclaw",categories:["eat"],coordinates:[51.1164852,17.0331544],mediaKey:"bar-mleczny-mewa-wroclaw"},
+    {id:"rozowa-krowa-milk-bar-wroclaw",categories:["eat"],coordinates:[51.1052543,17.0314128],mediaKey:"rozowa-krowa-milk-bar-wroclaw"},
     {id:"parrot-coffee-bema",categories:["drink","eat"],coordinates:[51.1176655,17.0416121],mediaKey:"parrot-coffee-bema"},
     { id: "bru-coffee-bakehouse-wroclaw", categories: ["eat", "drink"], coordinates: [51.1162404, 17.0330587], mediaKey: "bru-coffee-bakehouse-wroclaw" },
     { id: "gustaw-restaurant-wroclaw", categories: ["eat"], coordinates: [51.1049153, 17.0380912], mediaKey: "gustaw-restaurant-wroclaw" },
