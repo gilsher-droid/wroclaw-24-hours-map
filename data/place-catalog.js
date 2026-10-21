@@ -25377,7 +25377,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://katedramm.pl/mostek-pokutnic/",
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/mostek-pokutnic-poznaj-wroclaw",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
@@ -25419,6 +25419,7 @@
       },
       "checkedAt": "2026-10-21T06:02:43.079817+00:00",
       "sourceOriginalsModified": false,
+      "websiteDecision": "Municipal official visitor information is linked because the cathedral domain displayed a certificate-name mismatch. Original cathedral URL https://katedramm.pl/mostek-pokutnic/ retained only in provenance; warning not bypassed.",
       "userClarifications": [
         "הוא כמובן חלק מחוויה חיפוש הגמדים",
         "וגם נקודת טיול בעיר בפני עצמה"
