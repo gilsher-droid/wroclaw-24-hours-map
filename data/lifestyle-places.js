@@ -90,7 +90,7 @@
     { id: "chatka", categories: ["eat"], coordinates: [51.1119289,17.0313524], mediaKey: "chatka", sourceUrl: familiarPost, note: sourceFood },
     { id: "mania-al-taglio-kuznicza", categories: ["eat"], coordinates: [51.1125673,17.0345083], mediaKey: "mania-al-taglio-kuznicza" },
     { id: "ato-ramen", categories: ["eat"], coordinates: [51.1117934,17.0312819], mediaKey: "ato-ramen", sourceUrl: foodPost, note: sourceFood },
-    place("woosabi", ["eat","drink"], [51.1089823,17.0234378], "Woosabi Włodkowica – Urban Oasis", food.asian, foodPost, null, sourceFood),
+    place("woosabi", ["eat","drink"], [51.1089823,17.0234378], "Woosabi Włodkowica – Urban Oasis", food.asian, foodPost, "woosabi", sourceFood),
     place("mandarin", ["eat"], [51.1124229,17.0313084], "Mandarin House Restauracja", food.chinese, foodPost, null, sourceFood),
     place("sushi-corner", ["eat"], [51.1085849,17.0234579], "Sushi Corner – Wrocław", food.sushi, foodPost, null, sourceFood),
     place("whiskey", ["eat","drink"], [51.1092096,17.0321278], "Whiskey in the Jar", food.meat, foodPost, "rynek", sourceFood),
