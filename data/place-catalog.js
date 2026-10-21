@@ -3520,6 +3520,164 @@
       }
     ]
   },
+  "bb-hotel-wroclaw-old-town": {
+    "id": "bb-hotel-wroclaw-old-town",
+    "localName": "B&B HOTEL Wrocław Old Town",
+    "name": {
+      "he": "מלון בי אנד בי בעיר העתיקה",
+      "en": "B&B HOTEL Wrocław Old Town",
+      "pl": "B&B HOTEL Wrocław Old Town",
+      "de": "B&B HOTEL Wrocław Old Town",
+      "cs": "B&B HOTEL Wrocław Old Town"
+    },
+    "description": {
+      "he": "מלון בכיכר השוק של ורוצלב, במבנה הבנק העירוני לשעבר. צילום הלילה שלנו מציג את הכניסה ואת שלט המלון. זהו סניף העיר העתיקה, בנפרד מסניף הרשת ברחוב פיוטר סקרגי.\nB&B HOTEL Wrocław Old Town\nRynek 9–11, Wrocław",
+      "en": "A hotel directly on Wrocław Market Square, in the former municipal savings-bank building. Our night photograph shows the entrance and hotel sign. This is the Old Town branch, separate from the chain’s hotel on Piotra Skargi.\nRynek 9–11, Wrocław",
+      "pl": "Hotel przy wrocławskim Rynku, w dawnym gmachu miejskiej kasy oszczędności. Nasze nocne zdjęcie pokazuje wejście i szyld. To obiekt Old Town, odrębny od hotelu sieci przy Piotra Skargi.\nRynek 9–11, Wrocław",
+      "de": "Hotel direkt am Breslauer Marktplatz im früheren Gebäude der städtischen Sparkasse. Unser Nachtfoto zeigt Eingang und Hotelschild. Dies ist der Standort Old Town, getrennt vom Hotel der Kette an der Piotra-Skargi-Straße.\nRynek 9–11, Wrocław",
+      "cs": "Hotel přímo na vratislavském Rynku v někdejší budově městské spořitelny. Naše noční fotografie ukazuje vchod a označení hotelu. Jde o pobočku Old Town, oddělenou od hotelu řetězce v ulici Piotra Skargi.\nRynek 9–11, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1097895,
+        "lng": 17.0301035
+      },
+      "address": {
+        "street": "Rynek 9–11",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "B&B HOTEL Wrocław Old Town",
+      "מלון בי אנד בי בעיר העתיקה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "bb-hotel-wroclaw-old-town"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "bb-hotel-wroclaw-old-town",
+        "lat": 51.1097895,
+        "lng": 17.0301035
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.hotel-bb.com/en/hotel/wroclaw-old-town",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1097895,17.0301035",
+        "appleMaps": "https://maps.apple.com/?ll=51.1097895,17.0301035"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+      "factualSources": [
+        {
+          "url": "https://www.hotel-bb.com/en/hotel/wroclaw-old-town",
+          "supports": "Official business identity and exact branchaddress; compared source signs and saved GoogleMaps address/coordinates."
+        }
+      ],
+      "coordinateVerification": {
+        "coordinates": [
+          51.1097895,
+          17.0301035
+        ],
+        "evidence": "outputs/today-refresh-lifestyle-2026-10-21/*-map.txt"
+      },
+      "familyExceptionApplied": false,
+      "sourceOriginalsModified": false,
+      "mapDecision": "Independent physical Lifestyle venue; preserve all other branches and area identities.",
+      "social": "No exact verified placepost connected; no general-account fallback or new publication.",
+      "sourceDelta20261021": {
+        "sourceOriginalsModified": false,
+        "newAssignedMedia": true,
+        "checkedAt": "2026-10-21T11:34:21.481565+00:00"
+      }
+    },
+    "placeType": "hotel",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/02-bb-hotel-wroclaw-old-town.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/02-bb-hotel-wroclaw-old-town.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/02-bb-hotel-wroclaw-old-town.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/HOTELS/WhatsApp Image 2026-10-21 at 13.42.22.jpeg",
+          "sourceSHA256": "0cef98922839ac65d4db5095090b6348c7869bce4faf77d82910b2b85d42fa5a",
+          "assetSHA256": "72e7a51ef8aee6b04901570444d8ab41e6ae39a62f226b3ae91eaebf722172b8",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "bernard-bistro-wino": {
     "id": "bernard-bistro-wino",
     "localName": "Bernard Bistro Wino",
@@ -11181,16 +11339,25 @@
       },
       "mapDecision": "Lifestyle eat/drink only; historical visit photo, not a claim that the venue is currently open.",
       "sourceOriginalsModified": false,
-      "wrongPlaceVideoExcluded": "Domek-folder video is a recoding of FC Caffe footage; no second upload."
+      "wrongPlaceVideoExcluded": "Domek-folder video is a recoding of FC Caffe footage; no second upload.",
+      "sourceDelta20261021": {
+        "sourceOriginalsModified": false,
+        "newAssignedMedia": true,
+        "checkedAt": "2026-10-21T11:34:21.481565+00:00"
+      }
     },
     "placeType": "restaurant",
     "media": {
       "thumbnail": "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg",
       "photos": [
         "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg",
-        "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-02.jpg"
+        "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-02.jpg",
+        "/assets/today-source-refresh-20261021/05-domek-nad-fosa-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/06-domek-nad-fosa-wroclaw.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=3z4LvIz8190"
+      ],
       "metadata": {
         "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg": {
           "sourceFile": "DOMEK NAD FOSA/WhatsApp Image 2026-10-05 at 18.25.37.jpeg",
@@ -11223,6 +11390,58 @@
             "cs": "Fotografie z naší návštěvy: Domek nad Fosą"
           },
           "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
+        },
+        "/assets/today-source-refresh-20261021/05-domek-nad-fosa-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/DOMEK NAD FOSA/WhatsApp Image 2026-10-21 at 13.42.39.jpeg",
+          "sourceSHA256": "c3b9487cf748a5d221fe4d965a697b4088cf876a5d18df5761c8cbccfd624d94",
+          "assetSHA256": "4e80d8b5e8ef54b7fee3616e70887c0e972183c64daf79212f59c02e2285c01b",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/06-domek-nad-fosa-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/DOMEK NAD FOSA/WhatsApp Image 2026-10-21 at 13.42.39 (1).jpeg",
+          "sourceSHA256": "6dca5b9af65a93b6705b57f2d1c655e3e9ecf4e5c552201461ab774ab0ab7080",
+          "assetSHA256": "0c9d8f802c1561ccfb03802a9502a7ec8fb8d2eb399c666c30d61b6ac99dfdbc",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
+        },
+        "https://www.youtube.com/watch?v=3z4LvIz8190": {
+          "title": {
+            "he": "Domek nad Fosa | Moat and waterside terrace | Visit | WROC-LOVE",
+            "en": "Domek nad Fosa | Moat and waterside terrace | Visit | WROC-LOVE",
+            "pl": "Domek nad Fosa | Moat and waterside terrace | Visit | WROC-LOVE",
+            "de": "Domek nad Fosa | Moat and waterside terrace | Visit | WROC-LOVE",
+            "cs": "Domek nad Fosa | Moat and waterside terrace | Visit | WROC-LOVE"
+          },
+          "sourceSHA256": "706f6fa7a4f54f55b6e0b41e90b9fc6c68e4bbc71e0343c8cbcd050d98a8df65",
+          "uploadSHA256": "0cf5ab380efb4bb3cb16e95ebb10a0432ce1d6f15ae17bdb9df060873477c039",
+          "originalFullPicturePreserved": true,
+          "audioStreams": 0,
+          "familyExceptionApplied": false,
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "checks": "Copyright and Community Guidelines complete: no issues found",
+          "verifiedAt": "2026-10-21T11:56:03.746Z"
         }
       }
     },
@@ -12495,6 +12714,164 @@
             "de": "Besuchsfoto am Hotel Dwór Polski",
             "cs": "Fotografie z návštěvy u Hotel Dwór Polski"
           }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "el-gato-odrzanska-wroclaw": {
+    "id": "el-gato-odrzanska-wroclaw",
+    "localName": "El Gato Specialty Coffee Roasters, Odrzańska",
+    "name": {
+      "he": "אל גאטו, אודז׳נסקה",
+      "en": "El Gato Specialty Coffee Roasters, Odrzańska",
+      "pl": "El Gato Specialty Coffee Roasters, Odrzańska",
+      "de": "El Gato Specialty Coffee Roasters, Odrzańska",
+      "cs": "El Gato Specialty Coffee Roasters, Odrzańska"
+    },
+    "description": {
+      "he": "בית קפה של אל גאטו ברחוב אודז׳נסקה בעיר העתיקה. האתר הרשמי מציג קפה ספיישלטי וקלייה של הרשת. צילום הביקור שלנו מתעד את חזית המקום והשלט העגול בלילה. נקודת עצירה לקפה ליד סמטת יאטקי וכיכר השוק.\nEl Gato Specialty Coffee Roasters\nOdrzańska 8/1, Wrocław",
+      "en": "El Gato’s café on Odrzańska in the Old Town. The official brand website presents speciality coffee and its roastery. Our visit photograph shows the frontage and round sign at night. A coffee stop near Jatki lane and Market Square.\nOdrzańska 8/1, Wrocław",
+      "pl": "Kawiarnia El Gato przy Odrzańskiej na Starym Mieście. Oficjalna strona marki przedstawia kawę speciality i własną palarnię. Nasze zdjęcie z wizyty pokazuje fasadę i okrągły szyld nocą. Przystanek na kawę w pobliżu Jatek i Rynku.\nOdrzańska 8/1, Wrocław",
+      "de": "El-Gato-Café an der Odrzańska in der Altstadt. Die offizielle Markenwebsite stellt Spezialitätenkaffee und die Rösterei vor. Unser Besuchsfoto zeigt die Fassade mit rundem Schild bei Nacht. Ein Kaffeestopp nahe Jatki und Marktplatz.\nOdrzańska 8/1, Wrocław",
+      "cs": "Kavárna El Gato v ulici Odrzańska na Starém Městě. Oficiální web značky představuje výběrovou kávu a vlastní pražírnu. Naše fotografie z návštěvy ukazuje průčelí s kulatým označením v noci. Zastávka na kávu poblíž uličky Jatki a Rynku.\nOdrzańska 8/1, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1122058,
+        "lng": 17.0313979
+      },
+      "address": {
+        "street": "Odrzańska 8/1",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "El Gato Specialty Coffee Roasters, Odrzańska",
+      "אל גאטו, אודז׳נסקה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "el-gato-odrzanska-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "el-gato-odrzanska-wroclaw",
+        "lat": 51.1122058,
+        "lng": 17.0313979
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://elgatocoffee.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1122058,17.0313979",
+        "appleMaps": "https://maps.apple.com/?ll=51.1122058,17.0313979"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+      "factualSources": [
+        {
+          "url": "https://elgatocoffee.pl/",
+          "supports": "Official business identity and exact branchaddress; compared source signs and saved GoogleMaps address/coordinates."
+        }
+      ],
+      "coordinateVerification": {
+        "coordinates": [
+          51.1122058,
+          17.0313979
+        ],
+        "evidence": "outputs/today-refresh-lifestyle-2026-10-21/*-map.txt"
+      },
+      "familyExceptionApplied": false,
+      "sourceOriginalsModified": false,
+      "mapDecision": "Independent physical Lifestyle venue; preserve all other branches and area identities.",
+      "social": "No exact verified placepost connected; no general-account fallback or new publication.",
+      "sourceDelta20261021": {
+        "sourceOriginalsModified": false,
+        "newAssignedMedia": true,
+        "checkedAt": "2026-10-21T11:34:21.481565+00:00"
+      }
+    },
+    "placeType": "cafe",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/01-el-gato-odrzanska-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/01-el-gato-odrzanska-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/01-el-gato-odrzanska-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אל גאטו/WhatsApp Image 2026-10-21 at 13.42.34 (2).jpeg",
+          "sourceSHA256": "b53012c102ea15a953a4114f6ad5ebf2d53131354b0647b09184d15a6fbed259",
+          "assetSHA256": "4f8f8cb36fd877c614be1ad0c72e96d7b04df180f2056c3312d2f4f6003ab5e7",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
         }
       }
     },
@@ -16204,11 +16581,47 @@
           "url": "https://muzeum.miejskie.wroclaw.pl/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "refresh20261021": {
+        "sources": [
+          {
+            "url": "https://www.wroclaw.pl/nasz-wroclaw/partner/muzeum-teatru-im-henryka-tomaszewskiego-wroclaw",
+            "supports": "Official city partner page institution identity, theatre history, Tomaszewski founder"
+          },
+          {
+            "url": "https://muzeum.miejskie.wroclaw.pl/wp-content/uploads/2020/01/oferta-Muzeum-Teatru.pdf",
+            "supports": "Museum primary brochure plac Wolności7a"
+          }
+        ],
+        "action": "Added new full-picture visit photograph; preserved identity, prior media and validlinks",
+        "checkedAt": "2026-10-21T11:30:11.255080+00:00"
+      }
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/today-source-refresh-20261021/henryk-tomaszewski-theatre-museum-01.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/henryk-tomaszewski-theatre-museum-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/henryk-tomaszewski-theatre-museum-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/THEATER MUSEUM/WhatsApp Image 2026-10-19 at 08.42.07 (3).jpeg",
+          "sourceSHA256": "a01974e1ac05e674d91d9b3c24767d60f2b4db213d2c12b66d1b74e3c5f09595",
+          "assetSHA256": "14b8101a4082b081da690f0e7198c2dde7456a1c595a266665cb101907a9ae47",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "חזית מוזיאון התיאטרון לצד כיכר וולנושצ׳י",
+            "en": "The Theatre Museum façade beside plac Wolności",
+            "pl": "Fasada Muzeum Teatru przy placu Wolności",
+            "de": "Fassade des Theatermuseums am plac Wolności",
+            "cs": "Průčelí Divadelního muzea u placu Wolności"
+          },
+          "verifiedAt": "2026-10-21T11:30:11.255080+00:00",
+          "original": true,
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -21861,9 +22274,51 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "sourceDelta20261021": {
+        "sourceOriginalsModified": false,
+        "newAssignedMedia": true,
+        "checkedAt": "2026-10-21T11:34:21.481565+00:00"
+      }
+    },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/today-source-refresh-20261021/17-la-maddalena.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/17-la-maddalena.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/17-la-maddalena.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 13.42.34 (4).jpeg",
+          "sourceSHA256": "3f4c0811ab68be90b86e7ae4d740b80f3a54b4bd32a187e0ac666afdbcba8ef6",
+          "assetSHA256": "88b813327aea4a3674999aec868c09967e3d24e7369ed611f7e825b7df9da7f5",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "חזית מסעדת לה מדלנה מעל הנהר בלילה",
+            "en": "La Maddalena restaurant façade above the river at night",
+            "pl": "Elewacja restauracji La Maddalena nad rzeką nocą",
+            "de": "Fassade des Restaurants La Maddalena am Fluss bei Nacht",
+            "cs": "Noční průčelí restaurace La Maddalena nad řekou"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -21889,19 +22344,6 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "lesnianska-dam": {
@@ -25747,14 +26189,19 @@
         "הוא כמובן חלק מחוויה חיפוש הגמדים",
         "וגם נקודת טיול בעיר בפני עצמה"
       ],
-      "mapDecision": "One canonical identity, Cultural architecture/history standalone card plus existing dwarf-hunt related place and inherited media. No new experience or forced walking-route change."
+      "mapDecision": "One canonical identity, Cultural architecture/history standalone card plus existing dwarf-hunt related place and inherited media. No new experience or forced walking-route change.",
+      "refresh20261021": {
+        "sourceDelta": "Newsource is reencoded existingrynekasset; reuseasset, no duplicatefile. Bridge visible above street.",
+        "verifiedAt": "2026-10-21T11:30:11.255080+00:00"
+      }
     },
     "placeType": "viewpoint",
     "media": {
       "thumbnail": "/assets/witch-bridge/mostek-pokutnic-01.jpg",
       "photos": [
         "/assets/witch-bridge/mostek-pokutnic-01.jpg",
-        "/assets/witch-bridge/mostek-pokutnic-03.jpg"
+        "/assets/witch-bridge/mostek-pokutnic-03.jpg",
+        "/assets/rynek-refresh-oct19-08.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -25786,6 +26233,22 @@
             "pl": "Mostek Pokutnic\nZdjęcie z wizyty wykonane z ulicy",
             "de": "Büßerbrücke (Hexenbrücke)\nBesuchsfoto von der Straße",
             "cs": "Most kajícnic (Most čarodějnic)\nFotografie z návštěvy pořízená z ulice"
+          }
+        },
+        "/assets/rynek-refresh-oct19-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-19 at 08.42.09 (10).jpeg",
+          "sourceSHA256": "8bedaab5fa58c4f7ad0dda6abebfee665149b55ca230177e78e023d6cf4e8f37",
+          "assetSHA256": "9579844537ebfebd95e2ea5adc16b7fa94940fd7ab561a52ba5bcb7eed9d2c18",
+          "reusedExistingAsset": true,
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "מבט מהרחוב אל גשר המכשפות בין המגדלים",
+            "en": "Street view of the Penitents’ Bridge between the towers",
+            "pl": "Widok z ulicy na Mostek Pokutnic między wieżami",
+            "de": "Straßenblick zur Büßerinnenbrücke zwischen den Türmen",
+            "cs": "Pohled z ulice na Můstek kajícnic mezi věžemi"
           }
         }
       }
@@ -27570,15 +28033,70 @@
           "url": "https://nfm.wroclaw.pl/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "refresh20261021": {
+        "sources": [
+          {
+            "url": "https://www.nfm.wroclaw.pl/kontakt",
+            "supports": "Official NFM name and plac Wolności1 address"
+          },
+          {
+            "url": "https://www.nfm.wroclaw.pl/o-nas/budynek",
+            "supports": "Official musical architectural inspiration and string-instrument envelope"
+          }
+        ],
+        "action": "Added new full-picture visit photograph; preserved identity, prior media and validlinks",
+        "checkedAt": "2026-10-21T11:30:11.255080+00:00"
+      }
     },
     "media": {
+      "thumbnail": "/assets/gallery-nfm-01.jpg",
       "photos": [
         "/assets/gallery-nfm-01.jpg",
         "/assets/gallery-nfm-02.jpg",
-        "/assets/gallery-nfm-03.jpg"
+        "/assets/gallery-nfm-03.jpg",
+        "/assets/today-source-refresh-20261021/nfm-01.jpg"
       ],
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/watch?v=_Dez_yfkVVQ"
+      ],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/nfm-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Image 2026-10-19 at 08.42.00.jpeg",
+          "sourceSHA256": "5e1278a9f7519917226f18dc334b407a542723aecf01bec6f608d2547e4edaa7",
+          "assetSHA256": "0115bcc12c63d38d56c2db36ecf281bc5684e7c3663e24b39667a29bb8433553",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "החזית האדומה־חומה של הפורום הלאומי למוזיקה",
+            "en": "Reddish-brown façade of the National Forum of Music",
+            "pl": "Czerwono-brązowa fasada Narodowego Forum Muzyki",
+            "de": "Rotbraune Fassade des Nationalen Musikforums",
+            "cs": "Červenohnědá fasáda Národního hudebního fóra"
+          },
+          "verifiedAt": "2026-10-21T11:30:11.255080+00:00",
+          "original": true,
+          "familyForeground": false
+        },
+        "https://www.youtube.com/watch?v=_Dez_yfkVVQ": {
+          "title": {
+            "he": "NFM Wroclaw | Exterior and tree-lined walkway | Visit | WROC-LOVE",
+            "en": "NFM Wroclaw | Exterior and tree-lined walkway | Visit | WROC-LOVE",
+            "pl": "NFM Wroclaw | Exterior and tree-lined walkway | Visit | WROC-LOVE",
+            "de": "NFM Wroclaw | Exterior and tree-lined walkway | Visit | WROC-LOVE",
+            "cs": "NFM Wroclaw | Exterior and tree-lined walkway | Visit | WROC-LOVE"
+          },
+          "sourceSHA256": "3406f6f11ab8a40e8a80fb581ef90739018ee2f738142c01d024067c2a612ea3",
+          "uploadSHA256": "ab3aa32d1a80612c887dd8436558659627668b76fb157e68c5b9f83d52ac9d40",
+          "originalFullPicturePreserved": true,
+          "audioStreams": 0,
+          "familyExceptionApplied": false,
+          "visibility": "Public",
+          "reopenedPublicVerified": true,
+          "checks": "Copyright and Community Guidelines complete: no issues found",
+          "verifiedAt": "2026-10-21T11:56:03.747Z"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -28009,14 +28527,45 @@
           "url": "https://opera.wroclaw.pl/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "refresh20261021": {
+        "sources": [
+          {
+            "url": "https://www.opera.wroclaw.pl/kontakt",
+            "supports": "Official institution identity and address Świdnicka35; no hours copied"
+          }
+        ],
+        "action": "Added new full-picture visit photograph; preserved identity, prior media and validlinks",
+        "checkedAt": "2026-10-21T11:30:11.255080+00:00"
+      }
     },
     "media": {
+      "thumbnail": "/assets/gallery-opera-05.jpg",
       "photos": [
         "/assets/gallery-opera-05.jpg",
-        "/assets/gallery-opera-06.jpg"
+        "/assets/gallery-opera-06.jpg",
+        "/assets/today-source-refresh-20261021/opera-01.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/opera-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Image 2026-10-19 at 08.42.06.jpeg",
+          "sourceSHA256": "cbe65aea7047663905d4af0fc75684371026197a1508f4776c01a7cd58d7b424",
+          "assetSHA256": "5f0d720318c53aee88e8cf0156d0d01841b91ea46f19ce3afe6816319dcdaca5",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "דגם מבנה האופרה ברחוב",
+            "en": "Model of the opera building in the street",
+            "pl": "Model budynku opery w przestrzeni ulicy",
+            "de": "Modell des Opernhauses im Straßenraum",
+            "cs": "Model operní budovy v ulici"
+          },
+          "verifiedAt": "2026-10-21T11:30:11.255080+00:00",
+          "original": true,
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -28830,6 +29379,164 @@
       "cs"
     ]
   },
+  "pan-precel-express-grunwaldzki": {
+    "id": "pan-precel-express-grunwaldzki",
+    "localName": "Pan Precel Express, Grunwaldzki",
+    "name": {
+      "he": "פן פרצל אקספרס, גרונבלדזקי",
+      "en": "Pan Precel Express, Grunwaldzki",
+      "pl": "Pan Precel Express, Grunwaldzki",
+      "de": "Pan Precel Express, Grunwaldzki",
+      "cs": "Pan Precel Express, Grunwaldzki"
+    },
+    "description": {
+      "he": "ביתן אקספרס של רשת פן פרצל בכיכר גרונבלדזקי. זהו סניף פיזי נפרד מהסניפים ברחובות שווידניצקה ואולבסקה. האתר הרשמי מציג פרצלים שנאפים במקום; צילום הביקור שלנו מציג את הביתן עם שלט האקספרס ודלפק השירות. מתאים לעצירת מאפה באזור הכיכר והקניון.\nPan Precel Express\nPlac Grunwaldzki 22, Wrocław",
+      "en": "Pan Precel’s Express kiosk at Grunwaldzki Square, a separate physical branch from Świdnicka and Oławska. The official website presents pretzels baked on site. Our visit photograph shows the Express sign and service counter. A pastry stop around the square and shopping centre.\nPlac Grunwaldzki 22, Wrocław",
+      "pl": "Punkt Pan Precel Express przy placu Grunwaldzkim, odrębny od lokali przy Świdnickiej i Oławskiej. Oficjalna strona opisuje precle wypiekane na miejscu. Nasze zdjęcie z wizyty pokazuje szyld Express i ladę. Przystanek na wypiek w okolicy placu i centrum handlowego.\nPlac Grunwaldzki 22, Wrocław",
+      "de": "Express-Kiosk von Pan Precel am Grunwaldzki-Platz, ein eigener Standort neben Świdnicka und Oławska. Laut offizieller Website werden die Brezeln vor Ort gebacken. Unser Besuchsfoto zeigt Express-Schild und Verkaufstheke. Ein Gebäckstopp am Platz und Einkaufszentrum.\nPlac Grunwaldzki 22, Wrocław",
+      "cs": "Kiosek Pan Precel Express na náměstí Grunwaldzki, samostatná pobočka vedle provozoven ve Świdnické a Oławské. Oficiální web představuje preclíky pečené na místě. Fotografie z naší návštěvy ukazuje označení Express a výdejní pult. Zastávka na pečivo u náměstí a nákupního centra.\nPlac Grunwaldzki 22, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1122394,
+        "lng": 17.0601603
+      },
+      "address": {
+        "street": "Plac Grunwaldzki 22",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Pan Precel Express, Grunwaldzki",
+      "פן פרצל אקספרס, גרונבלדזקי"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "pan-precel-express-grunwaldzki"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "pan-precel-express-grunwaldzki",
+        "lat": 51.1122394,
+        "lng": 17.0601603
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://panprecel.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1122394,17.0601603",
+        "appleMaps": "https://maps.apple.com/?ll=51.1122394,17.0601603"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+      "factualSources": [
+        {
+          "url": "https://panprecel.pl/",
+          "supports": "Official business identity and exact branchaddress; compared source signs and saved GoogleMaps address/coordinates."
+        }
+      ],
+      "coordinateVerification": {
+        "coordinates": [
+          51.1122394,
+          17.0601603
+        ],
+        "evidence": "outputs/today-refresh-lifestyle-2026-10-21/*-map.txt"
+      },
+      "familyExceptionApplied": false,
+      "sourceOriginalsModified": false,
+      "mapDecision": "Independent physical Lifestyle venue; preserve all other branches and area identities.",
+      "social": "No exact verified placepost connected; no general-account fallback or new publication.",
+      "sourceDelta20261021": {
+        "sourceOriginalsModified": false,
+        "newAssignedMedia": true,
+        "checkedAt": "2026-10-21T11:34:21.481565+00:00"
+      }
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/04-pan-precel-express-grunwaldzki.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/04-pan-precel-express-grunwaldzki.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/04-pan-precel-express-grunwaldzki.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/WhatsApp Image 2026-10-21 at 13.42.36 (4).jpeg",
+          "sourceSHA256": "1b7f1e0e911944450225d6706a6fb6f9775f24633ab8feb8e8173182b50f80b6",
+          "assetSHA256": "ed22791d4780430c538917b1e00286f9cb73bcfaed9339c26494cd8bce75daa1",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "pan-precel-olawska": {
     "id": "pan-precel-olawska",
     "localName": "Pan Precel – Oławska 22",
@@ -29477,7 +30184,43 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalMediaExcluded20261021": [
+        {
+          "asset": "/assets/papa-gnomes-05.jpg",
+          "assetSHA256": "490122c168f500f94a1ee645a7c6b5e51b13d849ead3309a2cabe50283013c6d",
+          "metadata": null,
+          "reason": "Clearly posed personal portrait; no family/personal exception. Desktop original not modified. Git history preserves prior derived asset."
+        },
+        {
+          "asset": "/assets/papa-gnomes-09.jpg",
+          "assetSHA256": "94a24e56bf5aabcd02b2944c18394a5d5d65bb9536cd518dcc37ca24dcf8a301",
+          "metadata": null,
+          "reason": "Clearly posed personal portrait; no family/personal exception. Desktop original not modified. Git history preserves prior derived asset."
+        },
+        {
+          "asset": "/assets/papa-gnomes-12.jpg",
+          "assetSHA256": "a0385b66ff96472ba15b55ab596ee13b159e109a90167bd7f2cceb38757709ea",
+          "metadata": null,
+          "reason": "Clearly posed personal portrait; no family/personal exception. Desktop original not modified. Git history preserves prior derived asset."
+        }
+      ]
+    },
     "media": {
+      "thumbnail": "/assets/gallery-gnomes-01.jpg",
       "photos": [
         "/assets/gallery-gnomes-01.jpg",
         "/assets/gallery-gnomes-02.jpg",
@@ -29488,21 +30231,29 @@
         "/assets/papa-gnomes-02.jpg",
         "/assets/papa-gnomes-03.jpg",
         "/assets/papa-gnomes-04.jpg",
-        "/assets/papa-gnomes-05.jpg",
         "/assets/papa-gnomes-06.jpg",
         "/assets/papa-gnomes-07.jpg",
         "/assets/papa-gnomes-08.jpg",
-        "/assets/papa-gnomes-09.jpg",
         "/assets/papa-gnomes-10.jpg",
         "/assets/papa-gnomes-11.jpg",
-        "/assets/papa-gnomes-12.jpg",
         "/assets/papa-gnomes-13.jpg",
         "/assets/papa-gnomes-14.jpg",
         "/assets/papa-gnomes-15.jpg"
       ],
       "videos": [
-        {
-          "src": "https://youtube.com/shorts/gQoBaOkFAd0",
+        "https://youtube.com/shorts/gQoBaOkFAd0",
+        "https://youtube.com/shorts/_m2XyzWQD7Q",
+        "https://youtube.com/shorts/Hl6Jbr2fRW4",
+        "https://youtube.com/shorts/ONT976zS3a8",
+        "https://youtube.com/shorts/X73FCz5ZhAw",
+        "https://youtube.com/shorts/MEdz8wAlpME"
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/Eyns7Gj66d0",
+        "en": "https://youtube.com/shorts/pIzp5Bmb9ck"
+      },
+      "metadata": {
+        "https://youtube.com/shorts/gQoBaOkFAd0": {
           "title": {
             "he": "פרט מההליכה בעקבות הגמדים",
             "en": "A moment from our dwarf walk",
@@ -29511,8 +30262,7 @@
             "cs": "Chvilka z procházky za trpaslíky"
           }
         },
-        {
-          "src": "https://youtube.com/shorts/_m2XyzWQD7Q",
+        "https://youtube.com/shorts/_m2XyzWQD7Q": {
           "title": {
             "he": "גמד מהסיור שלנו",
             "en": "Dwarf sculpture from our walk",
@@ -29521,8 +30271,7 @@
             "cs": "Trpaslík z naší procházky"
           }
         },
-        {
-          "src": "https://youtube.com/shorts/Hl6Jbr2fRW4",
+        "https://youtube.com/shorts/Hl6Jbr2fRW4": {
           "title": {
             "he": "גמד מנגן בכינור",
             "en": "Violinist dwarf",
@@ -29531,8 +30280,7 @@
             "cs": "Trpaslík houslista"
           }
         },
-        {
-          "src": "https://youtube.com/shorts/ONT976zS3a8",
+        "https://youtube.com/shorts/ONT976zS3a8": {
           "title": {
             "he": "גמד מנגן בסקסופון",
             "en": "Saxophonist dwarf",
@@ -29541,8 +30289,7 @@
             "cs": "Trpaslík saxofonista"
           }
         },
-        {
-          "src": "https://youtube.com/shorts/X73FCz5ZhAw",
+        "https://youtube.com/shorts/X73FCz5ZhAw": {
           "title": {
             "he": "גמד מנגן בנבל",
             "en": "Harpist dwarf",
@@ -29551,8 +30298,7 @@
             "cs": "Trpaslík harfista"
           }
         },
-        {
-          "src": "https://youtube.com/shorts/MEdz8wAlpME",
+        "https://youtube.com/shorts/MEdz8wAlpME": {
           "title": {
             "he": "גמד עם גלגל אופניים",
             "en": "Dwarf with a bicycle wheel",
@@ -29561,10 +30307,6 @@
             "cs": "Trpaslík s kolem jízdního kola"
           }
         }
-      ],
-      "guideVideos": {
-        "he": "https://youtube.com/shorts/Eyns7Gj66d0",
-        "en": "https://youtube.com/shorts/pIzp5Bmb9ck"
       }
     },
     "socialPosts": [
@@ -29749,19 +30491,6 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc4V7NnBl_/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "park-szczytnicki-wroclaw": {
@@ -32123,6 +32852,166 @@
       }
     ]
   },
+  "pomiedzy-cafe-bistro-wroclaw": {
+    "id": "pomiedzy-cafe-bistro-wroclaw",
+    "localName": "Pomiędzy cafe&bistro",
+    "name": {
+      "he": "פומיינדז׳ה, בית קפה וביסטרו",
+      "en": "Pomiędzy cafe&bistro",
+      "pl": "Pomiędzy cafe&bistro",
+      "de": "Pomiędzy cafe&bistro",
+      "cs": "Pomiędzy cafe&bistro"
+    },
+    "description": {
+      "he": "בית קפה וביסטרו ברובע נדאודז׳ה. התצלום שלנו מציג את חזית הפינה והשלט. באתר העסק מוצעים קפה, ארוחות בוקר ועוגות. בדקו את התפריט והשעות לפני ההגעה.\nPomiędzy cafe&bistro\nStanisława Dubois2, Wrocław",
+      "en": "A cafe and bistro in Nadodrze. Our photograph shows its corner façade and sign. The business website lists coffee, breakfast and cakes. Check the current menu and hours before visiting.\nStanisława Dubois2, Wrocław",
+      "pl": "Kawiarnia i bistro na Nadodrzu. Nasze zdjęcie pokazuje narożną elewację i szyld. Strona lokalu wymienia kawę, śniadania i ciasta. Przed wizytą sprawdź aktualne menu i godziny.\nStanisława Dubois2, Wrocław",
+      "de": "Café und Bistro in Nadodrze. Unser Foto zeigt die Eckfassade und das Schild. Auf der Website des Lokals werden Kaffee, Frühstück und Kuchen angeboten. Prüfen Sie vor dem Besuch die aktuelle Speisekarte und Öffnungszeiten.\nStanisława Dubois2, Wrocław",
+      "cs": "Kavárna a bistro ve čtvrti Nadodrze. Naše fotografie ukazuje nárožní průčelí a vývěsní štít. Web podniku uvádí kávu, snídaně a zákusky. Před návštěvou ověřte aktuální nabídku a otevírací dobu.\nStanisława Dubois2, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1168075,
+        "lng": 17.0332323
+      },
+      "address": {
+        "street": "Stanisława Dubois 2",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Pomiędzy cafe&bistro",
+      "פומיינדז׳ה, בית קפה וביסטרו"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "pomiedzy-cafe-bistro-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "pomiedzy-cafe-bistro-wroclaw",
+        "lat": 51.1168075,
+        "lng": 17.0332323
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://pomiedzy.eatbu.com/?lang=pl",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1168075,17.0332323",
+        "appleMaps": "https://maps.apple.com/?ll=51.1168075,17.0332323"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+      "factualSources": [
+        {
+          "url": "https://pomiedzy.eatbu.com/?lang=pl",
+          "supports": "Official business identity and exact branchaddress; compared source signs and saved GoogleMaps address/coordinates."
+        }
+      ],
+      "coordinateVerification": {
+        "coordinates": [
+          51.1168075,
+          17.0332323
+        ],
+        "evidence": "outputs/today-refresh-lifestyle-2026-10-21/*-map.txt"
+      },
+      "familyExceptionApplied": false,
+      "sourceOriginalsModified": false,
+      "mapDecision": "Independent physical Lifestyle venue; preserve all other branches and area identities.",
+      "social": "No exact verified placepost connected; no general-account fallback or new publication.",
+      "sourceDelta20261021": {
+        "sourceOriginalsModified": false,
+        "newAssignedMedia": true,
+        "checkedAt": "2026-10-21T11:34:21.481565+00:00"
+      }
+    },
+    "placeType": "cafe",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/16-pomiedzy-cafe-bistro-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/16-pomiedzy-cafe-bistro-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/16-pomiedzy-cafe-bistro-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 13.33.41 (5).jpeg",
+          "sourceSHA256": "9c1407955b824b0fd0b6533eeacb888e78f4e8e840340de1e6375a8604d2880a",
+          "assetSHA256": "9a6e259a368e14453c97a623beb985364485b323c7c3ee988aa6780dcdf31356",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "חזית בית הקפה פומיינדז׳ה ברחוב דובואה",
+            "en": "Pomiędzy cafe&bistro façade on Dubois Street",
+            "pl": "Elewacja Pomiędzy cafe&bistro przy ulicy Dubois",
+            "de": "Fassade des Pomiędzy cafe&bistro an der Dubois-Straße",
+            "cs": "Průčelí Pomiędzy cafe&bistro v ulici Dubois"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "prize-by-radisson-wroclaw-sky-tower": {
     "id": "prize-by-radisson-wroclaw-sky-tower",
     "localName": "Prize by Radisson, Wroclaw Sky Tower",
@@ -33219,11 +34108,47 @@
           "url": "https://muzeum.miejskie.wroclaw.pl/",
           "checkedAt": "2026-08-29"
         }
-      ]
+      ],
+      "refresh20261021": {
+        "sources": [
+          {
+            "url": "https://muzeum.miejskie.wroclaw.pl/museum/historyczne/",
+            "supports": "Official Historical Museum housed in Royal Palace, 1000yearsWroclaw exhibition"
+          },
+          {
+            "url": "https://muzeum.miejskie.wroclaw.pl/exhibition/skrocone-godziny-otwarcia/",
+            "supports": "Official institution-address pairing only; historical temporaryhours NOT reused"
+          }
+        ],
+        "action": "Added new full-picture visit photograph; preserved identity, prior media and validlinks",
+        "checkedAt": "2026-10-21T11:30:11.255080+00:00"
+      }
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/today-source-refresh-20261021/royal-palace-wroclaw-01.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/royal-palace-wroclaw-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/royal-palace-wroclaw-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מוזיאון וורוצלב/WhatsApp Image 2026-10-21 at 14.06.06.jpeg",
+          "sourceSHA256": "fb9286589577e9ed19bca8bdf94254bd9ed69f4ec683a77a16520397624323bc",
+          "assetSHA256": "dce7fbaa3009829bec76f0fc5e438ddc8ed87416fa3fdfa3525147a6d09b18f8",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "חזית הארמון המלכותי והגג האדום",
+            "en": "Royal Palace façade and red roof",
+            "pl": "Fasada Pałacu Królewskiego i czerwony dach",
+            "de": "Fassade des Königspalais und rotes Dach",
+            "cs": "Průčelí Královského paláce a červená střecha"
+          },
+          "verifiedAt": "2026-10-21T11:30:11.255080+00:00",
+          "original": true,
+          "familyForeground": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -35046,6 +35971,164 @@
         "verifiedAt": "2026-10-19"
       }
     ]
+  },
+  "stary-mlyn-rynek-wroclaw": {
+    "id": "stary-mlyn-rynek-wroclaw",
+    "localName": "Pierogarnia Stary Młyn, Rynek",
+    "name": {
+      "he": "סטארי מלין, רינק",
+      "en": "Pierogarnia Stary Młyn, Rynek",
+      "pl": "Pierogarnia Stary Młyn, Rynek",
+      "de": "Pierogarnia Stary Młyn, Rynek",
+      "cs": "Pierogarnia Stary Młyn, Rynek"
+    },
+    "description": {
+      "he": "מסעדת פירוגי בכיכר השוק. האתר הרשמי של הרשת מציג את סניף ורוצלב בכתובת רינק 29. צילום הביקור הרחב שלנו מציג את חזית המסעדה, הכניסה המעוטרת ושולחנות החוץ מול הכיכר. אפשר לשלב עצירת אוכל בטיול בעיר העתיקה.\nPierogarnia Stary Młyn\nRynek 29, Wrocław",
+      "en": "A pierogi restaurant on Market Square. The chain’s official website identifies its Wrocław branch at Rynek 29. Our wide visit photograph shows the façade, decorated entrance and outdoor tables facing the square. A food stop during an Old Town walk.\nRynek 29, Wrocław",
+      "pl": "Pierogarnia przy Rynku. Oficjalna strona sieci wskazuje wrocławski lokal pod adresem Rynek 29. Nasze szerokie zdjęcie z wizyty pokazuje fasadę, ozdobione wejście i stoliki przed lokalem. Przystanek na posiłek podczas spaceru po Starym Mieście.\nRynek 29, Wrocław",
+      "de": "Pierogi-Restaurant am Marktplatz. Die offizielle Website der Kette nennt den Breslauer Standort Rynek 29. Unser weites Besuchsfoto zeigt Fassade, geschmückten Eingang und Außentische am Platz. Ein Essensstopp beim Altstadtspaziergang.\nRynek 29, Wrocław",
+      "cs": "Restaurace s pirohy na Rynku. Oficiální web řetězce uvádí vratislavskou pobočku na adrese Rynek 29. Naše široká fotografie zachycuje průčelí, zdobený vstup a venkovní stolky u náměstí. Zastávka na jídlo při procházce Starým Městem.\nRynek 29, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1092085,
+        "lng": 17.0331316
+      },
+      "address": {
+        "street": "Rynek 29",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Pierogarnia Stary Młyn, Rynek",
+      "סטארי מלין, רינק"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "stary-mlyn-rynek-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "stary-mlyn-rynek-wroclaw",
+        "lat": 51.1092085,
+        "lng": 17.0331316
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.pierogarnie.com/restauracje/stary-mlyn-wroclaw/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1092085,17.0331316",
+        "appleMaps": "https://maps.apple.com/?ll=51.1092085,17.0331316"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+      "factualSources": [
+        {
+          "url": "https://www.pierogarnie.com/restauracje/stary-mlyn-wroclaw/",
+          "supports": "Official business identity and exact branchaddress; compared source signs and saved GoogleMaps address/coordinates."
+        }
+      ],
+      "coordinateVerification": {
+        "coordinates": [
+          51.1092085,
+          17.0331316
+        ],
+        "evidence": "outputs/today-refresh-lifestyle-2026-10-21/*-map.txt"
+      },
+      "familyExceptionApplied": false,
+      "sourceOriginalsModified": false,
+      "mapDecision": "Independent physical Lifestyle venue; preserve all other branches and area identities.",
+      "social": "No exact verified placepost connected; no general-account fallback or new publication.",
+      "sourceDelta20261021": {
+        "sourceOriginalsModified": false,
+        "newAssignedMedia": true,
+        "checkedAt": "2026-10-21T11:34:21.481565+00:00"
+      }
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/03-stary-mlyn-rynek-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/03-stary-mlyn-rynek-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/03-stary-mlyn-rynek-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/stary malin/WhatsApp Image 2026-10-21 at 14.01.46 (2).jpeg",
+          "sourceSHA256": "1c39bc76a306b683fca6101603691ea11565d82bada04d0af6adbfe43f2bd26b",
+          "assetSHA256": "76adc0f6daf382557a4d598932c77a5b737b920c9cd7265eb21b445095b77703",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו במקום",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
+        }
+      }
+    },
+    "socialPosts": []
   },
   "studio-bwa-wroclaw": {
     "id": "studio-bwa-wroclaw",
@@ -37347,13 +38430,22 @@
       "de",
       "cs"
     ],
+    "provenance": {
+      "sourceDelta20261021": {
+        "sourceOriginalsModified": false,
+        "newAssignedMedia": true,
+        "checkedAt": "2026-10-21T11:34:21.481565+00:00"
+      }
+    },
     "media": {
       "thumbnail": "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg",
       "photos": [
         "/assets/warsaw/warsaw-nozyk-synagogue-01.jpg",
         "/assets/warsaw/warsaw-nozyk-synagogue-02.jpg",
         "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg",
-        "/assets/warsaw/warsaw-nozyk-synagogue-04.jpg"
+        "/assets/warsaw/warsaw-nozyk-synagogue-04.jpg",
+        "/assets/today-source-refresh-20261021/07-warsaw-nozyk-synagogue.jpg",
+        "/assets/today-source-refresh-20261021/08-warsaw-nozyk-synagogue.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -37411,6 +38503,40 @@
             "de": "Nożyk-Synagoge in Warschau",
             "cs": "Nożykova synagoga ve Varšavě"
           },
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/07-warsaw-nozyk-synagogue.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ווארשה/WhatsApp Image 2026-10-21 at 13.27.57 (7).jpeg",
+          "sourceSHA256": "da3df3f4bc028c882faf538723022bd718756e3e2df3c3298c5dabb38d8029b9",
+          "assetSHA256": "d38d4d2a3428cd3eaa5e005492ab64e60e428fd006de3c32f602e79fc6177e9a",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "אולם התפילה בבית הכנסת נוז׳יק בוורשה",
+            "en": "Prayer hall of the Nożyk Synagogue in Warsaw",
+            "pl": "Sala modlitewna Synagogi Nożyków w Warszawie",
+            "de": "Gebetsraum der Nożyk-Synagoge in Warschau",
+            "cs": "Modlitební sál Nożykovy synagogy ve Varšavě"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/08-warsaw-nozyk-synagogue.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ווארשה/WhatsApp Image 2026-10-21 at 13.27.57 (4).jpeg",
+          "sourceSHA256": "8ae50f0bb5de01a53dceeb32260e35305b832491674630174c72396a89c24299",
+          "assetSHA256": "574122a51bbbbf6ff908de1b758eba64b5d6e892a852b4a10d662f20457aa089",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "מבט אל העזרה העליונה באולם בית הכנסת נוז׳יק",
+            "en": "View towards the upper gallery in the Nożyk Synagogue",
+            "pl": "Widok na górną galerię w Synagodze Nożyków",
+            "de": "Blick zur oberen Empore der Nożyk-Synagoge",
+            "cs": "Pohled k horní galerii Nożykovy synagogy"
+          },
+          "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
+          "original": true,
           "familyForeground": false
         }
       }
@@ -44796,18 +45922,6 @@
   "Jatki Alley": "jatki",
   "Stare Jatki": "jatki",
   "צ׳טקי אלי": "jatki",
-  "Domek nad Fosa": "domek-nad-fosa-wroclaw",
-  "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
-  "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
-  "Mostek Pokutnic": "mostek-pokutnic-wroclaw",
-  "Mostek Czarownic": "mostek-pokutnic-wroclaw",
-  "Bridge of Penitents": "mostek-pokutnic-wroclaw",
-  "Witches Bridge": "mostek-pokutnic-wroclaw",
-  "Witch Bridge": "mostek-pokutnic-wroclaw",
-  "WITCH BRIDGE": "mostek-pokutnic-wroclaw",
-  "גשר המכשפות": "mostek-pokutnic-wroclaw",
-  "Büßerbrücke": "mostek-pokutnic-wroclaw",
-  "Most kajícnic": "mostek-pokutnic-wroclaw",
   "Bar Miś": "bar-mis",
   "Bar Mis": "bar-mis",
   "בר מיש": "bar-mis",
@@ -44820,6 +45934,28 @@
   "galeria-dominikanska": "dominikan",
   "גלריה דומיניקנה": "dominikan",
   "גלריה דומיניקנסקה": "dominikan",
+  "Bridge of Penitents": "mostek-pokutnic-wroclaw",
+  "Büßerbrücke": "mostek-pokutnic-wroclaw",
+  "Most kajícnic": "mostek-pokutnic-wroclaw",
+  "Mostek Czarownic": "mostek-pokutnic-wroclaw",
+  "Mostek Pokutnic": "mostek-pokutnic-wroclaw",
+  "WITCH BRIDGE": "mostek-pokutnic-wroclaw",
+  "Witch Bridge": "mostek-pokutnic-wroclaw",
+  "Witches Bridge": "mostek-pokutnic-wroclaw",
+  "גשר המכשפות": "mostek-pokutnic-wroclaw",
+  "B&B HOTEL Wrocław Old Town": "bb-hotel-wroclaw-old-town",
+  "מלון בי אנד בי בעיר העתיקה": "bb-hotel-wroclaw-old-town",
+  "El Gato Specialty Coffee Roasters, Odrzańska": "el-gato-odrzanska-wroclaw",
+  "אל גאטו, אודז׳נסקה": "el-gato-odrzanska-wroclaw",
+  "Pierogarnia Stary Młyn, Rynek": "stary-mlyn-rynek-wroclaw",
+  "סטארי מלין, רינק": "stary-mlyn-rynek-wroclaw",
+  "Pan Precel Express, Grunwaldzki": "pan-precel-express-grunwaldzki",
+  "פן פרצל אקספרס, גרונבלדזקי": "pan-precel-express-grunwaldzki",
+  "Pomiędzy cafe&bistro": "pomiedzy-cafe-bistro-wroclaw",
+  "פומיינדז׳ה, בית קפה וביסטרו": "pomiedzy-cafe-bistro-wroclaw",
+  "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
+  "Domek nad Fosa": "domek-nad-fosa-wroclaw",
+  "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",

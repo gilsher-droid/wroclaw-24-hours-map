@@ -305,5 +305,26 @@
     "retained": "WhatsApp Video 2026-10-01 at 09.20.37.mp4",
     "proof": "Three normalized visual samples and matching walk sequence; compressed same footage"
   },
-  "pendingVisitCount": 0
+  "pendingVisitCount": 0,
+  "publicPhotoExclusions20261021": [
+    {
+      "asset": "/assets/papa-gnomes-05.jpg",
+      "assetSHA256": "490122c168f500f94a1ee645a7c6b5e51b13d849ead3309a2cabe50283013c6d",
+      "metadata": null,
+      "reason": "Clearly posed personal portrait; no family/personal exception. Desktop original not modified. Git history preserves prior derived asset."
+    },
+    {
+      "asset": "/assets/papa-gnomes-09.jpg",
+      "assetSHA256": "94a24e56bf5aabcd02b2944c18394a5d5d65bb9536cd518dcc37ca24dcf8a301",
+      "metadata": null,
+      "reason": "Clearly posed personal portrait; no family/personal exception. Desktop original not modified. Git history preserves prior derived asset."
+    },
+    {
+      "asset": "/assets/papa-gnomes-12.jpg",
+      "assetSHA256": "a0385b66ff96472ba15b55ab596ee13b159e109a90167bd7f2cceb38757709ea",
+      "metadata": null,
+      "reason": "Clearly posed personal portrait; no family/personal exception. Desktop original not modified. Git history preserves prior derived asset."
+    }
+  ],
+  "currentPublicPhotoCount": 17
 }

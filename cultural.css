@@ -221,3 +221,8 @@ article[data-place="dwarf-info"] p,.leaflet-popup-content:has(img[src*="/dwarf-i
 
 .media-grid img[src*="/witch-bridge/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 article[data-place="mostek-pokutnic-wroclaw"] p { white-space:pre-line; }
+
+/* Full original pictures for the21October source-delta refresh. */
+.media-grid img[src*="/today-source-refresh-20261021/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+.media-grid img[src$="/rynek-refresh-oct19-08.jpg"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}

@@ -231,6 +231,7 @@
   }
   resources["mostek-pokutnic-wroclaw"] = canonicalResources("mostek-pokutnic-wroclaw");
   for(const id of ["bar-mis","bar-mleczny-mewa-wroclaw","rozowa-krowa-milk-bar-wroclaw"])resources[id]=canonicalResources(id);
+  for(const id of ["papa","opera","nfm","la-maddalena","bb-hotel-wroclaw-old-town","el-gato-odrzanska-wroclaw","stary-mlyn-rynek-wroclaw","pan-precel-express-grunwaldzki","pomiedzy-cafe-bistro-wroclaw"])resources[id]=canonicalResources(id);
   window.WROC_LOCATION_MEDIA = resources;
 })();
 

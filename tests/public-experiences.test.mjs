@@ -15,6 +15,6 @@ test('Five public experiences reuse canonical places and retain separately scope
  assert.equal(registry.getExperience('olbin-mural-walk'),null, 'Olbin remains an idea until original media is identified');
 });
 test('Public experience media excludes personal tram photos and resolves videos through Public YouTube only',()=>{
- const tram=registry.resolveMedia('wroclaw-tram-ride');assert.equal(tram.images.length,8);assert.ok(tram.images.every(src=>!/IMG_(4409|4474|4728)\.jpg$/.test(src)));
+ const tram=registry.resolveMedia('wroclaw-tram-ride');assert.equal(tram.images.length,10);assert.ok(tram.images.every(src=>!/IMG_(4409|4474|4728)\.jpg$/.test(src)));
  for(const item of window.WROC_HOME_EXPERIENCES){const media=registry.resolveMedia(item.id);for(const src of media.images)assert.ok(existsSync(new URL('..'+src,import.meta.url)),src);for(const src of media.videos){const url=typeof src==='string'?src:src.src;assert.ok(/^https:\/\/(?:www\.)?youtube\.com\//.test(url)||window.WROC_YOUTUBE_VIDEO_HOSTING[url]?.status==='public',url);}}
 });

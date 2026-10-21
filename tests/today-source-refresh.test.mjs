@@ -1,0 +1,26 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+import {runInNewContext} from 'node:vm';
+import {createHash} from 'node:crypto';
+const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/lifestyle-places.js','data/location-media.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});
+const c=window.WROC_CATALOG,e=window.WROC_EXPERIENCE_CATALOG,b=JSON.parse(readFileSync('data/today-source-preservation.json','utf8'));
+test('Five verified businesses have distinct identities and one Lifestyle card each, without confusing other branches or general places',()=>{
+ assert.equal(Object.keys(c.places).length,b.beforeCount+5);
+ const expected=[['bb-hotel-wroclaw-old-town','Rynek 9–11',51.1097895,17.0301035,'sleep'],['el-gato-odrzanska-wroclaw','Odrzańska 8/1',51.1122058,17.0313979,'drink'],['stary-mlyn-rynek-wroclaw','Rynek 29',51.1092085,17.0331316,'eat'],['pan-precel-express-grunwaldzki','Plac Grunwaldzki 22',51.1122394,17.0601603,'eat'],['pomiedzy-cafe-bistro-wroclaw','Stanisława Dubois 2',51.1168075,17.0332323,'drink']];
+ for(const[id,address,lat,lng,category] of expected){const p=c.getPlace(id);assert.equal(p.location.address.street,address);assert.equal(p.location.coordinates.lat,lat);assert.equal(p.location.coordinates.lng,lng);assert.ok(p.categories.includes(category));assert.equal(window.WROC_LIFESTYLE_PLACES.filter(x=>x.id===id).length,1);assert.equal(p.media.photos.length,1);assert.equal(p.links.socialProfileFallback,false);assert.equal(p.socialPosts.length,0);for(const lang of ['he','en','pl','de','cs']){assert.ok(p.name[lang]);assert.ok(p.description[lang].length>100);}assert.ok(/^https:\/\//.test(p.links.website));}
+ assert.notEqual(c.getPlace('pan-precel').id,c.getPlace('pan-precel-express-grunwaldzki').id);assert.notEqual(c.getPlace('pasaz').id,c.getPlace('pan-precel-express-grunwaldzki').id);
+ assert.deepEqual(Object.keys(c.places).filter(id=>!Object.hasOwn(b.hashes,id)&&!b.changedExisting.includes(id)).sort(),b.newIds.slice().sort());
+});
+test('All206 untouched records, existing identities, valid links and prior media remain preserved',()=>{
+ assert.equal(Object.keys(b.hashes).length,206);for(const[id,hash]of Object.entries(b.hashes))assert.equal(createHash('sha256').update(JSON.stringify(c.getPlace(id))).digest('hex'),hash,id);
+ assert.equal(c.getPlace('domek-nad-fosa-wroclaw').media.photos.length,4);assert.equal(c.getPlace('mostek-pokutnic-wroclaw').media.photos.length,3);assert.equal(c.getPlace('warsaw-nozyk-synagogue').location.cityId,'warsaw');
+ const imageOwners=['opera','nfm','henryk-tomaszewski-theatre-museum','royal-palace-wroclaw','la-maddalena',...b.newIds];for(const id of imageOwners){const p=c.getPlace(id);for(const src of p.media.photos.filter(x=>x.includes('today-source-refresh-20261021'))){const m=p.media.metadata[src];assert.ok(existsSync(src.slice(1)));assert.equal(createHash('sha256').update(readFileSync(src.slice(1))).digest('hex'),m.assetSHA256);assert.equal(m.originalFullPicturePreserved,true);assert.equal(m.familyExceptionApplied,false);assert.equal(m.familyForeground,false);}}
+});
+test('Dwarf and tram additions belong to the existing experiences; posed personal portraits are absent from every public place gallery and asset tree',()=>{
+ assert.equal(e.experiences.length,13);const hunt=e.getExperience('wroclaw-dwarf-hunt');assert.deepEqual(Array.from(hunt.relatedCanonicalPlaceIds),['papa','dwarf-info','mostek-pokutnic-wroclaw']);assert.equal(hunt.mapPoints.length,0);assert.equal(hunt.media.images.filter(src=>src.includes('today-source-refresh-20261021')).length,5);assert.equal(e.getExperience('wroclaw-tram-ride').media.images.filter(src=>src.includes('today-source-refresh-20261021')).length,2);assert.equal(c.getPlace('papa').media.photos.length,17);
+ for(const n of ['05','09','12']){const src='/assets/papa-gnomes-'+n+'.jpg';assert.ok(!existsSync(src.slice(1)));for(const p of Object.values(c.places))assert.ok(!p.media.photos.includes(src));assert.ok(!e.resolveMedia(hunt).images.includes(src));}
+ for(const p of Object.values(c.places))assert.ok(!p.media.photos.some(src=>/\/today-source-refresh-20261021\/\d+-wroclaw-dwarf-hunt/.test(src)),'New city-wide dwarfs must not be geolocated at Papa');
+});
+
+test('Updated gallery styles use current cache versions and preserve complete new pictures',()=>{for(const map of ['lifestyle','cultural']){assert.match(readFileSync(map+'.html','utf8'),new RegExp(map+'\\.css\\?v=20261021-source-refresh'));assert.match(readFileSync(map+'.css','utf8'),/today-source-refresh-20261021.*height:auto;max-height:65vh;object-fit:contain/);}assert.match(readFileSync('cultural.css','utf8'),/rynek-refresh-oct19-08\.jpg.*object-fit:contain/);});
