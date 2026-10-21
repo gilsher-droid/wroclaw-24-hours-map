@@ -34527,7 +34527,14 @@
         }
       ],
       "personalMediaPermission": false,
-      "visitVideoPublicationReceipt": "data/renoma-rynek-townhall-visit-publication.json"
+      "visitVideoPublicationReceipt": "data/renoma-rynek-townhall-visit-publication.json",
+      "surroundingsPhotoAssignment20261021": {
+        "userWords": "תשים את זה על הנקודה של הרינק",
+        "scope": "Surroundings photo for existing Rynek gallery only. Not a business identity or change of coordinates/address/hero.",
+        "previousHold": "Unidentified yellow/red building, no guessed business pin",
+        "holdResolvedBy": "Explicit user assignment to existing Rynek",
+        "sourceSHA256": "06d4ece2a8ce5f8e7678e6fde7486268288a8cc25691f0109a94fc3b34ad434a"
+      }
     },
     "media": {
       "photos": [
@@ -34540,7 +34547,8 @@
         "/assets/rynek-refresh-oct19-05.jpg",
         "/assets/rynek-refresh-oct19-06.jpg",
         "/assets/rynek-refresh-oct19-07.jpg",
-        "/assets/rynek-refresh-oct19-08.jpg"
+        "/assets/rynek-refresh-oct19-08.jpg",
+        "/assets/rynek-surroundings-20261021.jpg"
       ],
       "videos": [
         "/assets/video-rynek-fountains.mp4",
@@ -34597,6 +34605,23 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-19 at 08.42.09 (10).jpeg",
           "sourceSHA256": "8bedaab5fa58c4f7ad0dda6abebfee665149b55ca230177e78e023d6cf4e8f37",
           "assetSHA256": "9579844537ebfebd95e2ea5adc16b7fa94940fd7ab561a52ba5bcb7eed9d2c18"
+        },
+        "/assets/rynek-surroundings-20261021.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 14.06.05 (3).jpeg",
+          "sourceSHA256": "06d4ece2a8ce5f8e7678e6fde7486268288a8cc25691f0109a94fc3b34ad434a",
+          "assetSHA256": "ea2462d0a9db81b475fdc9908912c6fda365202ca8335dec6117b509e03c2ce7",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Street photograph; incidental public passers-by, no posed portrait.",
+          "userAssignment": "תשים את זה על הנקודה של הרינק",
+          "alt": {
+            "he": "חזיתות צבעוניות ברחוב סמוך לרינק",
+            "en": "Colourful façades on a street near Wrocław Market Square",
+            "pl": "Kolorowe kamienice przy ulicy w pobliżu wrocławskiego Rynku",
+            "de": "Farbige Fassaden in einer Straße nahe dem Breslauer Marktplatz",
+            "cs": "Barevná průčelí v ulici poblíž vratislavského Rynku"
+          },
+          "verifiedAt": "2026-10-21T16:52:27.938914+00:00"
         }
       }
     },
