@@ -311,11 +311,18 @@
     const button = event.target.closest("button[data-lang]");
     if (button) setLanguage(button.dataset.lang);
   });
+  function openMediaFromAction(event) {
+    const action = event.target.closest("[data-gallery], [data-video]");
+    if (!action) return false;
+    event.preventDefault();
+    event.stopPropagation();
+    openMedia(action.dataset.gallery || action.dataset.video, action.hasAttribute("data-gallery") ? "gallery" : "video");
+    return true;
+  }
+  // Leaflet popup controls live inside the map, outside the place-results list.
+  document.getElementById("lifestyle-map").addEventListener("click", openMediaFromAction);
   document.getElementById("place-results").addEventListener("click", (event) => {
-    const galleryButton = event.target.closest("[data-gallery]");
-    const videoButton = event.target.closest("[data-video]");
-    if (galleryButton) return openMedia(galleryButton.dataset.gallery, "gallery");
-    if (videoButton) return openMedia(videoButton.dataset.video, "video");
+    if (openMediaFromAction(event)) return;
     if (event.target.closest("a,button")) return;
     const card = event.target.closest("[data-place]");
     if (card) selectPlace(card.dataset.place);
