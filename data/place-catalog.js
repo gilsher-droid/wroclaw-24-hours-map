@@ -2393,34 +2393,50 @@
     "id": "bar-mis",
     "localName": "Bar Miś",
     "name": {
-      "he": "Bar Miś – אוכל פולני פשוט",
-      "en": "Bar Miś – simple Polish food",
-      "pl": "Bar Miś – proste polskie jedzenie",
-      "de": "Bar Miś – einfaches polnisches Essen",
-      "cs": "Bar Miś – jednoduché polské jídlo"
+      "he": "בר מיש",
+      "en": "Bar Miś",
+      "pl": "Bar Miś",
+      "de": "Milchbar Miś",
+      "cs": "Mléčný bar Miś"
     },
     "description": {
-      "he": "Milk Bar ותיק וזול ליד האוניברסיטה; לעיתים יש תור.",
-      "en": "An inexpensive old-school milk bar by the university; queues are possible.",
-      "pl": "Niedrogi bar mleczny przy uniwersytecie; czasem tworzą się kolejki.",
-      "de": "Eine preiswerte Milchbar der alten Schule an der Universität; Warteschlangen sind möglich.",
-      "cs": "Levný mléčný bar ze staré školy u univerzity; fronty jsou možné."
+      "he": "מילק בר ליד האוניברסיטה, עם דלפק הגשה וחדר אוכל פשוט. צילומי הביקור שלנו מציגים את שלט הדוב, חלל הישיבה, התפריט שעל הקיר ודלת הכניסה. אפשר לשלב עצירת אוכל פולני בטיול במרכז. תפריטים ושעות המופיעים בצילומים מתעדים את יום הביקור.\nBar Miś\nKuźnicza 48, Wrocław",
+      "en": "A milk bar near the university, with counter service and a simple dining room. Our visit photographs show the bear sign, seating, wall menu and entrance door. Include a Polish-food stop while exploring the centre. Menus and hours visible in photographs document the visit date.\nKuźnicza 48, Wrocław",
+      "pl": "Bar mleczny w pobliżu uniwersytetu, z obsługą przy ladzie i prostą salą jadalną. Nasze zdjęcia z wizyty pokazują szyld z misiem, stoliki, menu na ścianie i drzwi wejściowe. Można tu zaplanować przystanek na polskie jedzenie podczas spaceru po centrum. Menu i godziny na zdjęciach dotyczą dnia wizyty.\nKuźnicza 48, Wrocław",
+      "de": "Eine Milchbar nahe der Universität mit Thekenbedienung und einfachem Speisesaal. Unsere Besuchsfotos zeigen das Bärenschild, Sitzplätze, die Wandkarte und die Eingangstür. Ein Halt für polnisches Essen beim Innenstadtspaziergang. Fotografierte Speisekarten und Zeiten geben den Besuchstag wieder.\nKuźnicza 48, Wrocław",
+      "cs": "Mléčný bar poblíž univerzity s výdejem u pultu a jednoduchou jídelnou. Naše fotografie z návštěvy ukazují štít s medvědem, posezení, jídelní lístek na stěně a vstupní dveře. Možná zastávka na polské jídlo při procházce centrem. Vyfocená menu a otevírací doby odpovídají dni návštěvy.\nKuźnicza 48, Wrocław"
     },
     "location": {
       "countryCode": "PL",
       "regionId": "lower-silesia",
       "cityId": "wroclaw",
       "coordinates": {
-        "lat": 51.11301,
-        "lng": 17.03491
+        "lat": 51.1126723,
+        "lng": 17.0342938
+      },
+      "address": {
+        "street": "Kuźnicza 48",
+        "postalCode": "50-138",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
+      "eat",
       "food"
     ],
     "sourceUrls": [],
-    "aliases": [],
+    "aliases": [
+      "Bar Mis",
+      "Bar Miś",
+      "בר מיש"
+    ],
     "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "bar-mis"
+      },
       {
         "productId": "wroclaw-four-days",
         "kind": "recommendation",
@@ -2429,16 +2445,23 @@
     ],
     "coordinateCandidates": [
       {
+        "productId": "lifestyle-guide",
+        "sourceId": "bar-mis",
+        "lat": 51.1126723,
+        "lng": 17.0342938
+      },
+      {
         "productId": "wroclaw-four-days",
         "sourceId": "bar-mis",
-        "lat": 51.11301,
-        "lng": 17.03491
+        "lat": 51.1126723,
+        "lng": 17.0342938
       }
     ],
     "status": "published",
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
+        "eat",
         "food"
       ],
       "tags": []
@@ -2465,15 +2488,119 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
+      },
+      "socialProfileFallback": false
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-21T10:51:05.811161+00:00",
+      "factualSources": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "fact": "Municipal guide identifies all three distinct milk bars and their exact street addresses. Historical prices/hours not copied as current facts."
+        }
+      ],
+      "coordinateVerification": {
+        "lat": 51.1126723,
+        "lng": 17.0342938,
+        "evidence": "Exact GoogleMaps venue/address matched official municipal address; saved per-place identity AX."
+      },
+      "sourceOriginalsModified": false,
+      "familyExceptionApplied": false,
+      "mapDecision": "Independent Lifestyle eat point and member of existing wroclaw-milk-bars experience. Preserve Mis four-day recommendation."
+    },
+    "placeType": "milk-bar",
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/experiences/milk-bars/visit-05.jpg",
+      "photos": [
+        "/assets/experiences/milk-bars/visit-05.jpg",
+        "/assets/experiences/milk-bars/visit-04.jpg",
+        "/assets/experiences/milk-bars/visit-07.jpg",
+        "/assets/milk-bars-refresh-20261021/bar-mis-09.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/experiences/milk-bars/visit-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-19 at 08.41.51 (10).jpeg",
+          "sourceSHA256": "cbd7594342a1d6344d34102c7350557271dba20639ac5c6be18e3b0bebd7b324",
+          "assetSHA256": "3a798a539dcd8650dbb9b879d07ad079ba554bceabecd825082695b97ce2ce33",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": true,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nBar Miś",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        },
+        "/assets/experiences/milk-bars/visit-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-19 at 08.41.51 (1).jpeg",
+          "sourceSHA256": "bd7724a8f6d8045384ca370393189c6f2c265c0d622cb4d1598ee7bf9df847bd",
+          "assetSHA256": "81ed331a3123afd15d45da779d2f457a904af2fcc74a2c68381ff999ab6f5570",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": true,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nBar Miś",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        },
+        "/assets/experiences/milk-bars/visit-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-19 at 08.41.51 (3).jpeg",
+          "sourceSHA256": "400e3dafd0fd4db8b66e6c14cad27e326be0eca2e44a8aeb7428e214d73a47c1",
+          "assetSHA256": "6173ae3d9725e52614d5a056d00eb4cfd28bdff42f0ca191b9108277a511ea14",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": true,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nBar Miś",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        },
+        "/assets/milk-bars-refresh-20261021/bar-mis-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-19 at 08.41.51 (6).jpeg",
+          "sourceSHA256": "844e96016bc974aff61e9f33b810259a0f38fc1e9b47c63edc628fb9432330e0",
+          "assetSHA256": "695b2d87a9c623e5addf3f9ebf08cd9b4aec519fa33ab03a311524703458561c",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nBar Miś",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -2506,7 +2633,100 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02xyMb1aYqh9iydLc6Fa1zNRbKGinCwxwUVqei6mwfGKNozLkofnMxn4SqVCVB9Nw5l&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
+    ]
+  },
+  "bar-mleczny-mewa-wroclaw": {
+    "id": "bar-mleczny-mewa-wroclaw",
+    "localName": "Bar Mleczny Mewa",
+    "name": {
+      "he": "בר מווה",
+      "en": "Bar Mleczny Mewa",
+      "pl": "Bar Mleczny Mewa",
+      "de": "Milchbar Mewa",
+      "cs": "Mléčný bar Mewa"
+    },
+    "description": {
+      "he": "מילק בר ברחוב דרובנרה, מצפון לנהר ולגשר האוניברסיטה. גלריית הביקור שלנו מציגה את השלט עם השחף, החזית ופינת הישיבה עם ציור החוף. זהו עסק נפרד מבר מיש ומרוזובה קרובה, ונקודת עצירה לאוכל פולני באזור נדאודזה. השעות המופיעות על השלט בצילום אינן הבטחה לשעות הפעילות כיום.\nBar Mleczny Mewa\nBolesława Drobnera 4, Wrocław",
+      "en": "A milk bar on Drobnera Street, north of the river and University Bridge. Our visit gallery shows the seagull sign, frontage and seating corner with a beach mural. This is a separate venue from Bar Miś and Różowa Krowa, suitable for a Polish-food stop around Nadodrze. Photographed opening-time notices reflect the visit date.\nBolesława Drobnera 4, Wrocław",
+      "pl": "Bar mleczny przy ulicy Drobnera, na północ od Odry i mostu Uniwersyteckiego. Nasza galeria z wizyty pokazuje szyld z mewą, fasadę i kącik ze stolikami oraz fototapetą plaży. To osobny lokal, nie Bar Miś ani Różowa Krowa, na przystanek z polskim jedzeniem w okolicy Nadodrza. Godziny na fotografowanym szyldzie dotyczą dnia wizyty.\nBolesława Drobnera 4, Wrocław",
+      "de": "Eine Milchbar an der Drobnera-Straße nördlich von Oder und Universitätsbrücke. Unsere Besuchsgalerie zeigt das Möwenschild, die Fassade und eine Sitzecke mit Strandbild. Ein eigener Betrieb neben Miś und Różowa Krowa, als Halt für polnisches Essen bei Nadodrze. Fotografierte Öffnungszeiten gelten für den Besuchstag.\nBolesława Drobnera 4, Wrocław",
+      "cs": "Mléčný bar v ulici Drobnera severně od Odry a Univerzitního mostu. Naše galerie z návštěvy ukazuje štít s rackem, průčelí a posezení s obrazem pláže. Jde o samostatný podnik odlišný od barů Miś a Różowa Krowa, vhodný pro zastávku na polské jídlo v okolí Nadodrza. Vyfocené otevírací doby odpovídají dni návštěvy.\nBolesława Drobnera 4, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1164852,
+        "lng": 17.0331544
+      },
+      "address": {
+        "street": "Bolesława Drobnera 4",
+        "postalCode": "50-257",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
     ],
+    "sourceUrls": [],
+    "aliases": [
+      "Bar Mleczny Mewa",
+      "בר מווה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "bar-mleczny-mewa-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "bar-mleczny-mewa-wroclaw",
+        "lat": 51.1164852,
+        "lng": 17.0331544
+      }
+    ],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -2519,7 +2739,102 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-21T10:51:05.811161+00:00",
+      "factualSources": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "fact": "Municipal guide identifies all three distinct milk bars and their exact street addresses. Historical prices/hours not copied as current facts."
+        }
+      ],
+      "coordinateVerification": {
+        "lat": 51.1164852,
+        "lng": 17.0331544,
+        "evidence": "Exact GoogleMaps venue/address matched official municipal address; saved per-place identity AX."
+      },
+      "sourceOriginalsModified": false,
+      "familyExceptionApplied": false,
+      "mapDecision": "Independent Lifestyle eat point and member of existing wroclaw-milk-bars experience. Preserve Mis four-day recommendation."
+    },
+    "placeType": "milk-bar",
+    "media": {
+      "thumbnail": "/assets/experiences/milk-bars/visit-02.jpg",
+      "photos": [
+        "/assets/experiences/milk-bars/visit-02.jpg",
+        "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-18.jpg",
+        "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-19.jpg",
+        "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-21.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/experiences/milk-bars/visit-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-01 at 09.20.35.jpeg",
+          "sourceSHA256": "490d06854a000f6345ea6f9c43b596807195be5011487550f9c38159d798fcd1",
+          "assetSHA256": "9c07b539b8b9b67fb3fdacd1f93f1fbd8e2a2eb180765748a451da869538c981",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": true,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nBar Mleczny Mewa",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        },
+        "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-21 at 13.33.41 (6).jpeg",
+          "sourceSHA256": "25c73641ded65733e9f45f7912a44631409fd4d342964c6af45f9c6bc46f909a",
+          "assetSHA256": "7594017f8dc8da2d4c02e12ef3e6b803d57179cfe5ea5e1b1286cd96bf1ee46a",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nBar Mleczny Mewa",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        },
+        "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-21 at 13.33.41 (7).jpeg",
+          "sourceSHA256": "393a4b16b03fa03f7a8b9e4180c80f3a10c61394ced833c1b2ea07474cb17d22",
+          "assetSHA256": "0f8e97f8d7c57fe3bc094b1a785f60ecd8b13c095b139114a52978317455e35a",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nBar Mleczny Mewa",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        },
+        "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-21 at 13.33.41 (9).jpeg",
+          "sourceSHA256": "3756ebf7c2354a6e603c25e85a09405035556affec58bb6c9440009c1b00970d",
+          "assetSHA256": "3bbae08b2fd1ad83f45eb7aae241cf697d57e218f8415f22d804ba5f67c56b89",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nBar Mleczny Mewa",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        }
+      }
+    },
+    "socialPosts": []
   },
   "barbara-wroclaw": {
     "id": "barbara-wroclaw",
@@ -10917,18 +11232,18 @@
     "id": "dominikan",
     "localName": "Galeria Dominikańska",
     "name": {
-      "he": "Galeria Dominikańska",
+      "he": "גלריה דומיניקנסקה",
       "en": "Galeria Dominikańska",
       "pl": "Galeria Dominikańska",
       "de": "Galeria Dominikańska",
       "cs": "Galeria Dominikańska"
     },
     "description": {
-      "he": "מרכז קניות בכיכר דומיניקנסקי, בקרבת העיר העתיקה, עם חנויות, סופרמרקט ואזור אוכל. תצלומי הביקור שלנו מציגים את החזית ואת האטריום המקורה עם הדרגנועים. מתאים לעצירת קניות או אוכל במהלך טיול במרכז. בדקו באתר הרשמי שעות פעילות וחנויות עדכניות, במיוחד בימי ראשון ובחגים.",
-      "en": "A shopping centre at Plac Dominikański near the Old Town, with shops, a supermarket and dining. Our visit photographs show the frontage and covered atrium with escalators. A practical shopping or food stop during a central walk. Check current stores and opening arrangements, especially Sundays and holidays.",
-      "pl": "Centrum handlowe przy placu Dominikańskim, blisko Starego Miasta, ze sklepami, supermarketem i gastronomią. Nasze zdjęcia pokazują fasadę i zadaszone atrium ze schodami ruchomymi. Przydatny przystanek na zakupy lub posiłek podczas spaceru po centrum. Aktualne sklepy i godziny, zwłaszcza w niedziele i święta, sprawdź na oficjalnej stronie.",
-      "de": "Einkaufszentrum am Plac Dominikański nahe der Altstadt mit Geschäften, Supermarkt und Gastronomie. Unsere Besuchsfotos zeigen die Fassade und das überdachte Atrium mit Rolltreppen. Ein praktischer Einkaufs- oder Essensstopp beim Innenstadtspaziergang. Aktuelle Geschäfte und Öffnungszeiten, besonders an Sonn- und Feiertagen, auf der offiziellen Website prüfen.",
-      "cs": "Nákupní centrum na náměstí Dominikański poblíž Starého Města s obchody, supermarketem a občerstvením. Naše snímky ukazují průčelí a zastřešené atrium s eskalátory. Praktická zastávka na nákupy či jídlo při procházce centrem. Aktuální obchody a otevírací dobu, zejména v neděli a o svátcích, ověřte na oficiálním webu."
+      "he": "מרכז קניות בכיכר דומיניקנסקי, בקרבת העיר העתיקה, עם חנויות, סופרמרקט ואזור אוכל. תצלומי הביקור שלנו מציגים את האטריום המקורה עם הדרגנועים. מתאים לעצירת קניות או אוכל במהלך טיול במרכז. בדקו באתר הרשמי שעות פעילות וחנויות עדכניות, במיוחד בימי ראשון ובחגים.",
+      "en": "A shopping centre at Plac Dominikański near the Old Town, with shops, a supermarket and dining. Our visit photographs show the covered atrium with escalators. A practical shopping or food stop during a central walk. Check current stores and opening arrangements, especially Sundays and holidays.",
+      "pl": "Centrum handlowe przy placu Dominikańskim, blisko Starego Miasta, ze sklepami, supermarketem i gastronomią. Nasze zdjęcia pokazują zadaszone atrium ze schodami ruchomymi. Przydatny przystanek na zakupy lub posiłek podczas spaceru po centrum. Aktualne sklepy i godziny, zwłaszcza w niedziele i święta, sprawdź na oficjalnej stronie.",
+      "de": "Einkaufszentrum am Plac Dominikański nahe der Altstadt mit Geschäften, Supermarkt und Gastronomie. Unsere Besuchsfotos zeigen das überdachte Atrium mit Rolltreppen. Ein praktischer Einkaufs- oder Essensstopp beim Innenstadtspaziergang. Aktuelle Geschäfte und Öffnungszeiten, besonders an Sonn- und Feiertagen, auf der offiziellen Website prüfen.",
+      "cs": "Nákupní centrum na náměstí Dominikański poblíž Starého Města s obchody, supermarketem a občerstvením. Naše snímky ukazují zastřešené atrium s eskalátory. Praktická zastávka na nákupy či jídlo při procházce centrem. Aktuální obchody a otevírací dobu, zejména v neděli a o svátcích, ověřte na oficiálním webu."
     },
     "location": {
       "countryCode": "PL",
@@ -11060,22 +11375,30 @@
           "checkedAt": "2026-10-19"
         }
       ],
-      "personalMediaPermission": false
+      "personalMediaPermission": false,
+      "refresh20261021": {
+        "sourceFiles": 4,
+        "newUsefulMedia": 0,
+        "excludedFromCurrentGallery": "/assets/galeria-dominikanska-01.jpg",
+        "reason": "Prominent personal-looking foreground; no personal exception. Original file and prior publication records preserved.",
+        "sameAtriumRetained": true,
+        "checkedAt": "2026-10-21T10:51:05.811161+00:00",
+        "excludedMediaMetadata": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23.jpeg",
+          "sourceSHA256": "919c88d4338d09c80da83b061d6afa6a5b34a3d090885d5567b902e53f6a0864",
+          "assetSHA256": "79d44cd85b4c413950fb5bebb997b7522c40508de305d602c8118dd650223851",
+          "publicationExcluded": true
+        }
+      }
     },
     "media": {
-      "thumbnail": "/assets/galeria-dominikanska-01.jpg",
+      "thumbnail": "/assets/galeria-dominikanska-02.jpg",
       "photos": [
-        "/assets/galeria-dominikanska-01.jpg",
         "/assets/galeria-dominikanska-02.jpg"
       ],
       "videos": [],
       "metadata": {
-        "/assets/galeria-dominikanska-01.jpg": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23.jpeg",
-          "sourceSHA256": "919c88d4338d09c80da83b061d6afa6a5b34a3d090885d5567b902e53f6a0864",
-          "assetSHA256": "79d44cd85b4c413950fb5bebb997b7522c40508de305d602c8118dd650223851"
-        },
         "/assets/galeria-dominikanska-02.jpg": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23 (1).jpeg",
@@ -32923,6 +33246,174 @@
       }
     ]
   },
+  "rozowa-krowa-milk-bar-wroclaw": {
+    "id": "rozowa-krowa-milk-bar-wroclaw",
+    "localName": "Różowa Krowa",
+    "name": {
+      "he": "רוזובה קרובה",
+      "en": "Różowa Krowa milk bar",
+      "pl": "Różowa Krowa Bar Mleczny",
+      "de": "Milchbar Różowa Krowa",
+      "cs": "Mléčný bar Różowa Krowa"
+    },
+    "description": {
+      "he": "מילק בר ברחוב שווידניצקה, מדרום לעיר העתיקה ובקרבת האופרה. המקור העירוני מתאר אותו כגרסה עכשווית של המילק בר הפולני. תצלום הביקור שלנו מציג את הכניסה ואת השלט השחור והוורוד עם שם המקום. זהו בית עסק נפרד מבר מיש ומבר מווה, שאפשר לשלבו בהליכה באזור האופרה.\nRóżowa Krowa\nŚwidnicka 36, Wrocław",
+      "en": "A milk bar on Świdnicka Street, south of the Old Town near the opera. The municipal guide describes it as a contemporary take on the Polish milk bar. Our visit photograph shows the entrance and black-and-pink venue sign. This is a separate business from Bar Miś and Mewa, which can be included in a walk around the opera area.\nŚwidnicka 36, Wrocław",
+      "pl": "Bar mleczny przy ulicy Świdnickiej, na południe od Starego Miasta, blisko opery. Miejski przewodnik opisuje go jako współczesną koncepcję polskiego baru mlecznego. Nasze zdjęcie z wizyty pokazuje wejście i czarno-różowy szyld z nazwą. To osobny lokal od Miś i Mewa, który można uwzględnić podczas spaceru w okolicy opery.\nŚwidnicka 36, Wrocław",
+      "de": "Eine Milchbar an der Świdnicka-Straße südlich der Altstadt nahe der Oper. Der städtische Führer beschreibt sie als zeitgemäße Variante der polnischen Milchbar. Unser Besuchsfoto zeigt den Eingang und das schwarz-rosa Namensschild. Ein eigener Betrieb neben Miś und Mewa, der sich mit einem Spaziergang im Opernviertel verbinden lässt.\nŚwidnicka 36, Wrocław",
+      "cs": "Mléčný bar v ulici Świdnicka jižně od Starého Města poblíž opery. Městský průvodce jej popisuje jako současnou podobu polského mléčného baru. Naše fotografie z návštěvy ukazuje vstup a černo-růžový štít s názvem. Jde o samostatný podnik odlišný od barů Miś a Mewa, který lze zařadit do procházky v okolí opery.\nŚwidnicka 36, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1052543,
+        "lng": 17.0314128
+      },
+      "address": {
+        "street": "Świdnicka 36",
+        "postalCode": "50-068",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Rozowa Krowa",
+      "Różowa Krowa",
+      "רוזובה קרובה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "rozowa-krowa-milk-bar-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "rozowa-krowa-milk-bar-wroclaw",
+        "lat": 51.1052543,
+        "lng": 17.0314128
+      }
+    ],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-21T10:51:05.811161+00:00",
+      "factualSources": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "fact": "Municipal guide identifies all three distinct milk bars and their exact street addresses. Historical prices/hours not copied as current facts."
+        }
+      ],
+      "coordinateVerification": {
+        "lat": 51.1052543,
+        "lng": 17.0314128,
+        "evidence": "Exact GoogleMaps venue/address matched official municipal address; saved per-place identity AX."
+      },
+      "sourceOriginalsModified": false,
+      "familyExceptionApplied": false,
+      "mapDecision": "Independent Lifestyle eat point and member of existing wroclaw-milk-bars experience. Preserve Mis four-day recommendation."
+    },
+    "placeType": "milk-bar",
+    "media": {
+      "thumbnail": "/assets/milk-bars-refresh-20261021/rozowa-krowa-milk-bar-wroclaw-16.jpg",
+      "photos": [
+        "/assets/milk-bars-refresh-20261021/rozowa-krowa-milk-bar-wroclaw-16.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=yk46CS8NGOM"
+      ],
+      "metadata": {
+        "/assets/milk-bars-refresh-20261021/rozowa-krowa-milk-bar-wroclaw-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-21 at 13.33.41 (3).jpeg",
+          "sourceSHA256": "63abb387b292692b6d23163dc34fe9df3766eeb76574c0e1371c2f6458ca71ac",
+          "assetSHA256": "8654ece99aa01bc489f83879104713918491a59ee6ebfb40aa1307d963285f44",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "reusedExistingAsset": false,
+          "alt": {
+            "he": "תצלום הביקור שלנו\nRóżowa Krowa",
+            "en": "Our visit photograph",
+            "pl": "Zdjęcie z naszej wizyty",
+            "de": "Unser Besuchsfoto",
+            "cs": "Fotografie z naší návštěvy"
+          }
+        },
+        "https://www.youtube.com/watch?v=yk46CS8NGOM": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Video 2026-10-05 at 18.26.31.mp4",
+          "sourceSHA256": "8098b62ce719422205ecdf4c4973e0a231d19fd56072c08db3a41359786f96c3",
+          "publicationSHA256": "2850193ac750365b6a71d934b56612d915924f4f3f1bbfe09754932cc145da36",
+          "durationSeconds": 13.648333,
+          "audio": "removed; original preserved",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "status": "public",
+          "verifiedAt": "2026-10-21T11:00:41.005314+00:00",
+          "sdProcessingComplete": true,
+          "checks": "Copyright and Community Guidelines: No issues found",
+          "evidence": "outputs/milk-bars-refresh-2026-10-21/youtube-public-reopened.txt"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "rynek": {
     "id": "rynek",
     "localName": "Rynek Wrocław",
@@ -44238,10 +44729,6 @@
   "mathematical-tower": "math-tower",
   "Wieża Matematyczna": "math-tower",
   "המגדל המתמטי": "math-tower",
-  "galeria-dominikanska": "dominikan",
-  "galeria-dominikana": "dominikan",
-  "גלריה דומיניקנסקה": "dominikan",
-  "גלריה דומיניקנה": "dominikan",
   "Gustaw": "gustaw-restaurant-wroclaw",
   "Gustav": "gustaw-restaurant-wroclaw",
   "Restauracja Gustaw": "gustaw-restaurant-wroclaw",
@@ -44321,6 +44808,18 @@
   "גשר המכשפות": "mostek-pokutnic-wroclaw",
   "Büßerbrücke": "mostek-pokutnic-wroclaw",
   "Most kajícnic": "mostek-pokutnic-wroclaw",
+  "Bar Miś": "bar-mis",
+  "Bar Mis": "bar-mis",
+  "בר מיש": "bar-mis",
+  "Bar Mleczny Mewa": "bar-mleczny-mewa-wroclaw",
+  "בר מווה": "bar-mleczny-mewa-wroclaw",
+  "Różowa Krowa": "rozowa-krowa-milk-bar-wroclaw",
+  "Rozowa Krowa": "rozowa-krowa-milk-bar-wroclaw",
+  "רוזובה קרובה": "rozowa-krowa-milk-bar-wroclaw",
+  "galeria-dominikana": "dominikan",
+  "galeria-dominikanska": "dominikan",
+  "גלריה דומיניקנה": "dominikan",
+  "גלריה דומיניקנסקה": "dominikan",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",

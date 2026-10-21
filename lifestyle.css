@@ -245,3 +245,7 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 
 .media-video-item { min-width:0; }
 .video-watch-link { display:inline-block; padding:10px 0; color:#163b64; font-weight:700; text-decoration:underline; text-underline-offset:3px; }
+
+.media-grid img[src*="/milk-bars/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+.media-grid img[src*="/milk-bars-refresh-20261021/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+.place-card[data-place="bar-mis"] p,.place-card[data-place="bar-mleczny-mewa-wroclaw"] p,.place-card[data-place="rozowa-krowa-milk-bar-wroclaw"] p { white-space:pre-line; }
