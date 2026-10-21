@@ -18021,11 +18021,11 @@
       "cs": "Alej Jatki"
     },
     "description": {
-      "he": "סמטת האטליזים ההיסטורית בין רחוב קיילבאשניצ׳ה לרחוב אודז׳נסקה בעיר העתיקה. כיום פועלות בה גלריות וסדנאות אמנות, ולצדן פסלי ברונזה לזכר בעלי החיים שנשחטו כאן. בתמונת הלילה שלנו נראים הפסלים, אבני הריצוף והמעבר המקורה. אפשר לשלב את הסמטה בהליכה בין כיכר השוק לאזור האוניברסיטה.\nStare Jatki\nJatki, Wrocław",
-      "en": "The historic former butchers’ alley between Kiełbaśnicza and Odrzańska in the Old Town. Galleries and artists’ studios now line the lane, beside bronze animal sculptures commemorating the animals slaughtered here. Our night photograph shows the sculptures, cobblestones and covered passage. Include the alley in a walk between Market Square and the university area.",
-      "pl": "Historyczna uliczka dawnych jatek między Kiełbaśniczą a Odrzańską na Starym Mieście. Dziś działają tu galerie i pracownie artystyczne, obok brązowych rzeźb upamiętniających zwierzęta rzeźne. Nasze nocne zdjęcie pokazuje pomnik, bruk i zadaszony pasaż. Uliczkę można połączyć ze spacerem między Rynkiem a uniwersytetem.",
-      "de": "Historische ehemalige Fleischergasse zwischen Kiełbaśnicza und Odrzańska in der Altstadt. Heute säumen Galerien und Künstlerateliers die Gasse, neben bronzenen Tierfiguren zum Gedenken an die hier geschlachteten Tiere. Unser Nachtfoto zeigt Skulpturen, Kopfsteinpflaster und den überdachten Durchgang. Die Gasse lässt sich in einen Spaziergang zwischen Rynek und Universität einbauen.",
-      "cs": "Historická bývalá řeznická ulička mezi Kiełbaśnicza a Odrzańska ve Starém Městě. Dnes ji lemují galerie a umělecké ateliéry vedle bronzových zvířat připomínajících zvířata zde porážená. Naše noční fotografie ukazuje sochy, dlažbu a krytý průchod. Uličku lze zařadit do procházky mezi Rynkem a univerzitou."
+      "he": "סמטת האטליזים ההיסטורית בין רחוב קיילבאשניצ׳ה לרחוב אודז׳נסקה בעיר העתיקה. כיום פועלות בה גלריות וסדנאות אמנות, ולצדן פסלי ברונזה לזכר בעלי החיים שנשחטו כאן. בתמונת הלילה שלנו נראים הפסלים, אבני הריצוף והמעבר המקורה. אפשר לשלב את הסמטה בהליכה בין כיכר השוק לאזור האוניברסיטה.\nStare Jatki\nJatki, Wrocław\nבתצלום היום הנוסף נראים קורות העץ, אבני הריצוף והצמחייה המטפסת בסמטה.",
+      "en": "The historic former butchers’ alley between Kiełbaśnicza and Odrzańska in the Old Town. Galleries and artists’ studios now line the lane, beside bronze animal sculptures commemorating the animals slaughtered here. Our night photograph shows the sculptures, cobblestones and covered passage. Include the alley in a walk between Market Square and the university area.\nThe additional daytime photograph shows the timber beams, cobblestones and climbing greenery along the alley.",
+      "pl": "Historyczna uliczka dawnych jatek między Kiełbaśniczą a Odrzańską na Starym Mieście. Dziś działają tu galerie i pracownie artystyczne, obok brązowych rzeźb upamiętniających zwierzęta rzeźne. Nasze nocne zdjęcie pokazuje pomnik, bruk i zadaszony pasaż. Uliczkę można połączyć ze spacerem między Rynkiem a uniwersytetem.\nDodatkowe zdjęcie dzienne pokazuje drewniane belki, bruk i pnącą zieleń w zaułku.",
+      "de": "Historische ehemalige Fleischergasse zwischen Kiełbaśnicza und Odrzańska in der Altstadt. Heute säumen Galerien und Künstlerateliers die Gasse, neben bronzenen Tierfiguren zum Gedenken an die hier geschlachteten Tiere. Unser Nachtfoto zeigt Skulpturen, Kopfsteinpflaster und den überdachten Durchgang. Die Gasse lässt sich in einen Spaziergang zwischen Rynek und Universität einbauen.\nDas zusätzliche Tagesfoto zeigt Holzbalken, Kopfsteinpflaster und Kletterpflanzen in der Gasse.",
+      "cs": "Historická bývalá řeznická ulička mezi Kiełbaśnicza a Odrzańska ve Starém Městě. Dnes ji lemují galerie a umělecké ateliéry vedle bronzových zvířat připomínajících zvířata zde porážená. Naše noční fotografie ukazuje sochy, dlažbu a krytý průchod. Uličku lze zařadit do procházky mezi Rynkem a univerzitou.\nDalší denní fotografie zachycuje dřevěné trámy, dlažbu a popínavou zeleň v uličce."
     },
     "location": {
       "countryCode": "PL",
@@ -18144,12 +18144,21 @@
           "fact": "Former butchers lane connectingKielbasniczaandOdrzanska."
         }
       ],
-      "mapDecision": "Preserve all three walking-route memberships; add Cultural history/art because the historic lane houses galleries and the animal memorial. No Lifestyle dining or excursions membership."
+      "mapDecision": "Preserve all three walking-route memberships; add Cultural history/art because the historic lane houses galleries and the animal memorial. No Lifestyle dining or excursions membership.",
+      "dayPhotoReclassification20261021": {
+        "previousDecision": "Held as uncertain personal context based on two central people; previous receipt retained.",
+        "currentDecision": "User confirmed these are passers-by and allowed use of this exact photograph.",
+        "userWords": "עוברי אורח, אפשר להשתמש",
+        "call": "call_1b4d022b061e48f2aedc10d12e0852ec",
+        "scope": "This exact photo only, not a family exception",
+        "reviewedAt": "2026-10-21T15:32:00.636840+00:00"
+      }
     },
     "media": {
       "thumbnail": "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg",
       "photos": [
-        "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg"
+        "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg",
+        "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-01.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -18168,6 +18177,25 @@
             "cs": "Fotografie z naší návštěvy: Stare Jatki"
           },
           "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
+        },
+        "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatki Alley/WhatsApp Image 2026-10-01 at 09.20.47 (3).jpeg",
+          "sourceSHA256": "022ff6623296d911dbeacd75c3b4e9e731b61f9ee5d8cc7f795b91a994d5aef3",
+          "assetSHA256": "69cd5ba8478e456658c4be97a9a45f610b9f0dcae566f83ab2318aac517f07d2",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place photograph with incidental public passers-by; directly clarified by Gil on2026-10-21. Not a general family-photo exception.",
+          "userClarification": "עוברי אורח, אפשר להשתמש",
+          "confirmationCall": "call_1b4d022b061e48f2aedc10d12e0852ec",
+          "alt": {
+            "he": "סמטת יאטקי ביום, מעבר מקורה בעץ וצמחייה מטפסת",
+            "en": "Jatki Alley by day, with timber-covered passage and climbing greenery",
+            "pl": "Stare Jatki za dnia, drewniane zadaszenie i pnąca zieleń",
+            "de": "Jatki-Gasse bei Tag mit Holzüberdachung und Kletterpflanzen",
+            "cs": "Ulička Jatki ve dne s dřevěným zastřešením a popínavou zelení"
+          },
+          "verifiedAt": "2026-10-21T15:32:00.636840+00:00"
         }
       }
     },
