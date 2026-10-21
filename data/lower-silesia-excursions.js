@@ -105,7 +105,7 @@
     ],
   };
 
-  const brzegMosznaPlaceIds = ["brzeg-castle", "brzeg-holy-cross-church", "brzeg-town-hall", "brzeg-oder-gate", "moszna-castle", "moszna-castle-park"];
+  const brzegMosznaPlaceIds = ["brzeg-st-nicholas-church", "brzeg-castle", "brzeg-holy-cross-church", "brzeg-town-hall", "brzeg-oder-gate", "moszna-castle", "moszna-castle-park"];
   // A–J follow the tourist trail photographed by the user. Coordinates for
   // route-only features are approximate placements derived from that map;
   // navigation links use the named destinations instead of these placements.
@@ -114,7 +114,7 @@
     { id: "B", kind: "place", canonicalPlaceId: "brzeg-holy-cross-church" },
     { id: "C", kind: "place", canonicalPlaceId: "brzeg-town-hall" },
     { id: "D", kind: "waypoint", label: t("האנדרטה ליד רחוב דלוגה", "Monument near Długa Street", "Pomnik przy ulicy Długiej", "Denkmal an der Długa-Straße", "Pomník u ulice Długa"), coordinates: { lat: 50.86021, lng: 17.47051 }, approximate: true },
-    { id: "E", kind: "waypoint", label: t("כנסיית ניקולאי הקדוש", "St. Nicholas Church", "Kościół św. Mikołaja", "Nikolaikirche", "Kostel sv. Mikuláše"), coordinates: { lat: 50.86011, lng: 17.47089 } },
+    { id: "E", kind: "place", canonicalPlaceId: "brzeg-st-nicholas-church" },
     { id: "F", kind: "waypoint", label: t("מסעדת Wozownia", "Wozownia restaurant", "Restauracja Wozownia", "Restaurant Wozownia", "Restaurace Wozownia"), coordinates: { lat: 50.85796, lng: 17.47223 }, approximate: true },
     { id: "G", kind: "waypoint", label: t("המזרקה בפארק המרכזי", "Central Park fountain", "Fontanna w Parku Centralnym", "Brunnen im Zentralpark", "Fontána v centrálním parku"), coordinates: { lat: 50.85878, lng: 17.47041 }, approximate: true },
     { id: "H", kind: "waypoint", label: t("האמפיתיאטרון", "Amphitheatre", "Amfiteatr", "Amphitheater", "Amfiteátr"), coordinates: { lat: 50.86271, lng: 17.46531 }, approximate: true },

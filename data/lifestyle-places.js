@@ -45,6 +45,10 @@
   const sourceShopping = t("מופיע בשכבת מרכזי הקניות של מפת הקהילה.", "Included in the community map’s shopping-centre layer.", "Znajduje się w warstwie centrów handlowych mapy społeczności.", "In der Einkaufszentrum-Ebene der Community-Karte enthalten.", "Zahrnuto ve vrstvě nákupních center komunitní mapy.");
 
   window.WROC_LIFESTYLE_PLACES = [
+{"id": "hostel-krasnal-wroclaw", "categories": ["sleep"], "coordinates": [51.1098127, 17.036029], "mediaKey": "hostel-krasnal-wroclaw"},
+{"id": "marietta-focacceria-wroclaw", "categories": ["eat"], "coordinates": [51.1096599, 17.0341752], "mediaKey": "marietta-focacceria-wroclaw"},
+{"id": "olio-pizza-napoletana-wroclaw", "categories": ["eat"], "coordinates": [51.1095741, 17.0367925], "mediaKey": "olio-pizza-napoletana-wroclaw"},
+
     {"id":"bb-hotel-wroclaw-old-town","categories":["sleep"],"coordinates":[51.1097895,17.0301035],"mediaKey":"bb-hotel-wroclaw-old-town"},
     {"id":"el-gato-odrzanska-wroclaw","categories":["drink"],"coordinates":[51.1122058,17.0313979],"mediaKey":"el-gato-odrzanska-wroclaw"},
     {"id":"stary-mlyn-rynek-wroclaw","categories":["eat"],"coordinates":[51.1092085,17.0331316],"mediaKey":"stary-mlyn-rynek-wroclaw"},

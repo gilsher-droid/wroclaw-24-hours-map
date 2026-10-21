@@ -6669,6 +6669,150 @@
       }
     ]
   },
+  "brzeg-st-nicholas-church": {
+    "id": "brzeg-st-nicholas-church",
+    "localName": "Kościół św. Mikołaja w Brzegu",
+    "name": {
+      "he": "כנסיית ניקולאי הקדוש בברז׳ג",
+      "en": "St Nicholas Church, Brzeg",
+      "pl": "Kościół św. Mikołaja w Brzegu",
+      "de": "Nikolaikirche in Brzeg",
+      "cs": "Kostel sv. Mikuláše v Brzegu"
+    },
+    "description": {
+      "he": "כנסייה גותית מלבנים במרכז ברז׳ג. צילום הביקור מציג את החזית ושני המגדלים המחוברים במעבר גבוה. זו תחנה במסלול ההליכה העירוני, נפרדת מכנסיית הצלב הקדוש הבארוקית.\nKościół św. Mikołaja\nPlac Kościelny 1, Brzeg",
+      "en": "A brick Gothic church in central Brzeg. Our visit photograph shows its façade and twin towers linked by a high gallery. This town-walk stop is separate from the Baroque Holy Cross Church.\nPlac Kościelny 1, Brzeg",
+      "pl": "Gotycki ceglany kościół w centrum Brzegu. Nasze zdjęcie pokazuje fasadę i dwie wieże połączone wysoko galerią. To punkt miejskiego spaceru, odrębny od barokowego kościoła Podwyższenia Krzyża Świętego.\nPlac Kościelny 1, Brzeg",
+      "de": "Gotische Backsteinkirche im Zentrum von Brzeg. Unser Besuchsfoto zeigt die Fassade und zwei Türme mit einer hoch gelegenen Verbindung. Dieser Halt des Stadtspaziergangs ist von der barocken Heilig-Kreuz-Kirche zu unterscheiden.\nPlac Kościelny 1, Brzeg",
+      "cs": "Gotický cihlový kostel v centru Brzegu. Naše fotografie ukazuje průčelí a dvě věže propojené vysoko položenou galerií. Tato zastávka městské procházky je oddělena od barokního kostela Povýšení svatého Kříže.\nPlac Kościelny 1, Brzeg"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "brzeg",
+      "coordinates": {
+        "lat": 50.860112197386,
+        "lng": 17.47088873283
+      },
+      "address": {
+        "street": "Plac Kościelny 1",
+        "city": "Brzeg",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "church",
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Kościół św. Mikołaja w Brzegu",
+      "Nikolaikirche Brzeg",
+      "St. Nicholas Church Brzeg"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "church",
+        "historical-landmark"
+      ],
+      "tags": [
+        "architecture",
+        "excursion",
+        "outside-wroclaw"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zabytek.pl/pl/obiekty/brzeg-kosciol-parafialny-pw-sw-mikolaja",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=50.860112197386%2C17.47088873283",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "factualSources": [
+          "https://zabytek.pl/pl/obiekty/brzeg-kosciol-parafialny-pw-sw-mikolaja",
+          "https://brzeg.pl/sport-i-turystyka/szlaki-turystyczne/"
+        ],
+        "address": "NID church address PlacKościelny1; parish office JanaPawłaII9 is separate.",
+        "coordinatesSource": "NID direct navigation link https://www.google.com/maps/dir/?api=1&destination=50.860112197386%2C17.47088873283",
+        "mapIdentityComparison": "Same church confirmed in GoogleMaps; map listing office address not copied.",
+        "verifiedAt": "2026-10-21T18:06:51.304154+00:00"
+      },
+      "membership": "Promotes existing walking-route E to canonical, same order and location, no additional duplicate pin."
+    },
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-10-21 at 20.21.30.jpeg",
+          "sourceSHA256": "225ba35463ff2fb5007619306ea61c100a3133e80ce7821ee202753dc7806627",
+          "assetSHA256": "6c7e13122dbc35fadb949004a472aeecf3d250a55b30f27b32aace21a2285278",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architectural place photograph; incidental public street users are not posed personal portraits.",
+          "alt": {
+            "he": "חזית כנסיית ניקולאי הקדוש בברז׳ג ושני מגדליה",
+            "en": "Façade and twin towers of St Nicholas Church in Brzeg",
+            "pl": "Fasada i dwie wieże kościoła św. Mikołaja w Brzegu",
+            "de": "Fassade und Doppeltürme der Nikolaikirche in Brzeg",
+            "cs": "Průčelí a dvě věže kostela sv. Mikuláše v Brzegu"
+          },
+          "verifiedAt": "2026-10-21T18:06:51.304154+00:00",
+          "factualSources": [
+            "https://zabytek.pl/pl/obiekty/brzeg-kosciol-parafialny-pw-sw-mikolaja",
+            "https://brzeg.pl/sport-i-turystyka/szlaki-turystyczne/"
+          ]
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "brzeg-town-hall": {
     "id": "brzeg-town-hall",
     "localName": "Ratusz w Brzegu",
@@ -15510,12 +15654,19 @@
           "checkedAt": "2026-08-15",
           "note": "Existing approved product coordinate preserved; official station page lists 51.098333, 17.037222."
         }
-      ]
+      ],
+      "sourceRefreshRun3": {
+        "checkedAt": "2026-10-21T17:55:35.224654+00:00",
+        "originalsUnchanged": true,
+        "existingIdentityLinksHeroPreserved": true
+      }
     },
     "media": {
       "photos": [
         "/assets/wroclaw-glowny-exterior-b870acd8.jpg",
-        "/assets/wroclaw-glowny-interior-922f25cf.jpg"
+        "/assets/wroclaw-glowny-interior-922f25cf.jpg",
+        "/assets/today-source-refresh-20261021/run3-19-glowny.jpg",
+        "/assets/today-source-refresh-20261021/run3-22-glowny.jpg"
       ],
       "videos": [
         "/assets/wroclaw-glowny-video-01.mp4",
@@ -15555,6 +15706,44 @@
             "video"
           ],
           "original": true
+        },
+        "/assets/today-source-refresh-20261021/run3-19-glowny.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-21 at 20.38.53 (17).jpeg",
+          "sourceSHA256": "fb36883c3a249d8a980ecf739040ac225b63f1f639af6329a55ce8ab8ed83b06",
+          "assetSHA256": "9a1ef6f15d77816432b4f2a77c3634c0190dcb3c530fc3156959714fa357ea41",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public passers-by are not posed personal portraits.",
+          "alt": {
+            "he": "אולם תחנת הרכבת הראשית בוורוצלב",
+            "en": "Main hall of Wrocław Główny railway station",
+            "pl": "Hala dworca Wrocław Główny",
+            "de": "Haupthalle des Bahnhofs Wrocław Główny",
+            "cs": "Hlavní hala nádraží Wrocław Główny"
+          },
+          "verifiedAt": "2026-10-21T17:55:35.224654+00:00",
+          "sourceRefreshRun": "2026-10-21-run3"
+        },
+        "/assets/today-source-refresh-20261021/run3-22-glowny.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-21 at 20.38.53 (18).jpeg",
+          "sourceSHA256": "3c9bc9166880e2cbc94f65923ce4634def37f26066050a3d1d17fc2afe311a76",
+          "assetSHA256": "7ff68d62f8a4af9e2665ab6cf7577b42ae4e4ba7738ba1733dcc9a29e45d9a58",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public passers-by are not posed personal portraits.",
+          "alt": {
+            "he": "דלפקי הכרטיסים באולם תחנת הרכבת הראשית",
+            "en": "Ticket counters inside Wrocław Główny railway station",
+            "pl": "Kasy biletowe w hali dworca Wrocław Główny",
+            "de": "Fahrkartenschalter in der Halle des Bahnhofs Wrocław Główny",
+            "cs": "Pokladny v hale nádraží Wrocław Główny"
+          },
+          "verifiedAt": "2026-10-21T17:55:35.224654+00:00",
+          "sourceRefreshRun": "2026-10-21-run3"
         }
       }
     },
@@ -16877,6 +17066,162 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
     ]
+  },
+  "hostel-krasnal-wroclaw": {
+    "id": "hostel-krasnal-wroclaw",
+    "localName": "Krasnal Hostel Wrocław",
+    "name": {
+      "he": "הוסטל קרסנל",
+      "en": "Krasnal Hostel Wrocław",
+      "pl": "Hostel Krasnal Wrocław",
+      "de": "Hostel Krasnal Wrocław",
+      "cs": "Hostel Krasnal Wrocław"
+    },
+    "description": {
+      "he": "אכסניה בעיר העתיקה, סמוך לרינק. צילום הביקור מציג את הכניסה ואת שלט הקבלה, ולא את חדרי האירוח. פרטי החדרים וההזמנה מופיעים באתר המפעיל.\nKrasnal Hostel Wrocław\nWita Stwosza 12, Wrocław",
+      "en": "A hostel in the Old Town, near Market Square. Our visit photograph shows the entrance and reception sign, rather than the guest rooms. See the operator’s website for room and booking information.\nWita Stwosza 12, Wrocław",
+      "pl": "Hostel na Starym Mieście, w pobliżu Rynku. Nasze zdjęcie z wizyty przedstawia wejście i oznaczenie recepcji, a nie pokoje gościnne. Informacje o pokojach i rezerwacji znajdują się na stronie operatora.\nWita Stwosza 12, Wrocław",
+      "de": "Hostel in der Altstadt nahe dem Marktplatz. Unser Besuchsfoto zeigt den Eingang und das Rezeptionsschild, nicht die Gästezimmer. Zimmer- und Buchungsinformationen stehen auf der Betreiberwebsite.\nWita Stwosza 12, Wrocław",
+      "cs": "Hostel ve Starém Městě poblíž Rynku. Naše fotografie z návštěvy ukazuje vchod a označení recepce, nikoli pokoje pro hosty. Informace o pokojích a rezervaci jsou na webu provozovatele.\nWita Stwosza 12, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1098127,
+        "lng": 17.036029
+      },
+      "address": {
+        "street": "Wita Stwosza 12",
+        "postalCode": "50-148",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sleep"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Hostel Krasnal",
+      "Hostel Krasnal Market Square Wroclaw",
+      "Krasnal Hostel Wrocław"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "hostel-krasnal-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "hostel-krasnal-wroclaw",
+        "lat": 51.1098127,
+        "lng": 17.036029
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sleep"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://krasnalhostel.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1098127%2C17.036029",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "officialSource": "https://krasnalhostel.pl/kontakt/",
+        "matchingAddress": "WitaStwosza12",
+        "photoReceptionPhoneMatchesOfficial": true,
+        "coordinates": {
+          "lat": 51.1098127,
+          "lng": 17.036029
+        },
+        "evidence": "hostel-krasnal-map.txt/png in run3 receipt directory",
+        "verifiedAt": "2026-10-21T17:55:35.224654+00:00"
+      },
+      "scope": "Entrance photograph only; no personal stay, quality recommendation or room condition inferred.",
+      "sourceRefreshRun3": {
+        "checkedAt": "2026-10-21T17:55:35.224654+00:00",
+        "originalsUnchanged": true,
+        "existingIdentityLinksHeroPreserved": false
+      }
+    },
+    "placeType": "hostel",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run3-14-hostel-krasnal-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run3-14-hostel-krasnal-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run3-14-hostel-krasnal-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/HOTELS/WhatsApp Image 2026-10-21 at 20.38.53 (11).jpeg",
+          "sourceSHA256": "cb46ebd647fae666b18941c483e4731389c98645f3354baa298a7485118aa354",
+          "assetSHA256": "9b9f36f619b8734ea91916dda1fe3034259ed7dbc8d08c49be1ed9413f71874f",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public passers-by are not posed personal portraits.",
+          "alt": {
+            "he": "הכניסה להוסטל קרסנל ושלט הקבלה",
+            "en": "Entrance to Krasnal Hostel with reception sign",
+            "pl": "Wejście do Hostelu Krasnal z oznaczeniem recepcji",
+            "de": "Eingang zum Hostel Krasnal mit Rezeptionsschild",
+            "cs": "Vchod do hostelu Krasnal s označením recepce"
+          },
+          "verifiedAt": "2026-10-21T17:55:35.224654+00:00",
+          "sourceRefreshRun": "2026-10-21-run3"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "hotel-traffic-wroclaw": {
     "id": "hotel-traffic-wroclaw",
@@ -21134,12 +21479,96 @@
         "/assets/srebrna-klodzko/klodzko-fortress-09.jpg",
         "/assets/srebrna-klodzko/klodzko-fortress-10.jpg",
         "/assets/srebrna-klodzko/klodzko-fortress-11.jpg",
-        "/assets/srebrna-klodzko/klodzko-fortress-12.jpg"
+        "/assets/srebrna-klodzko/klodzko-fortress-12.jpg",
+        "/assets/today-source-refresh-20261021/run3-32-klodzko-fortress.jpg",
+        "/assets/today-source-refresh-20261021/run3-41-klodzko-fortress.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=LktFR7CVlEY"
+      ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/zNAM3xG5ED4",
         "en": "https://youtube.com/shorts/Swz838oySqQ"
+      },
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run3-32-klodzko-fortress.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-21 at 20.38.53 (30).jpeg",
+          "sourceSHA256": "3ba9df254ddde5b07f8f0fb9ae72b63cd90411e73138cdf8833236c20582d43d",
+          "assetSHA256": "87eb15ab212362f59f05770bd6ef913e358fa29fe8249d2e848bd161c8c07fc7",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Venue/view photograph; any diners or passers-by are incidental public visitors, not posed personal portraits.",
+          "alt": {
+            "he": "נוף גגות קלודזקו מן המבצר",
+            "en": "View over the rooftops of Kłodzko from the fortress",
+            "pl": "Widok z twierdzy na dachy Kłodzka",
+            "de": "Blick von der Festung über die Dächer von Glatz",
+            "cs": "Pohled z pevnosti na střechy Kladska"
+          },
+          "verifiedAt": "2026-10-21T18:00:36.813655+00:00"
+        },
+        "/assets/today-source-refresh-20261021/run3-41-klodzko-fortress.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-21 at 20.38.53 (24).jpeg",
+          "sourceSHA256": "da6b53d48e1644c7b36460bcfe7525c2011e9a43873f5e384d32a47994473427",
+          "assetSHA256": "9cd5dcbf2e0e1af15426193ad51f2adaee409d4c78c33b77516d7e5c835404ab",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Venue/view photograph; any diners or passers-by are incidental public visitors, not posed personal portraits.",
+          "alt": {
+            "he": "מגדל בית העירייה וכיפות בעיר, בתצפית מן המבצר",
+            "en": "Town Hall tower and city domes seen from the fortress",
+            "pl": "Wieża ratusza i miejskie kopuły widziane z twierdzy",
+            "de": "Rathausturm und Stadtkuppeln vom Festungsblick",
+            "cs": "Věž radnice a městské báně při pohledu z pevnosti"
+          },
+          "verifiedAt": "2026-10-21T18:00:36.813655+00:00"
+        },
+        "https://www.youtube.com/watch?v=LktFR7CVlEY": {
+          "path": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Video 2026-10-21 at 20.38.53 (2).mp4",
+          "bytes": 1191902,
+          "mtimeNs": 1792604362697661700,
+          "ctimeNs": 1792604624206558700,
+          "birthtime": 1792604362.697277,
+          "change": "new-path",
+          "folder": "קלודזקו",
+          "relativePath": "קלודזקו/WhatsApp Video 2026-10-21 at 20.38.53 (2).mp4",
+          "extension": ".mp4",
+          "sha256": "cf1e8231f0774232d6faf821626add5640c3dc17198a48458333cb60bbaa1dc1",
+          "savedReferences": [],
+          "sameHashCandidateCount": 1,
+          "oldPathSameHash": [],
+          "previousSamePathHash": null,
+          "classification": "unrecorded-candidate-needs-visual-dedup",
+          "sameContentMetadataOldPaths": [],
+          "index": 31,
+          "duration": 5.366667,
+          "preview": "outputs/source-refresh-scan-2026-10-21-run3/video-31-0.jpg",
+          "state": "published-public-reopened",
+          "targetId": "klodzko-fortress",
+          "reason": "5.366667s scenic panorama from fortress, no personal focus. Local catalog has no fortress visits, but external writer/YouTube dedup required before upload.",
+          "originalModified": false,
+          "privacyException": false,
+          "uploadPath": "/Users/rachelfiler/Documents/Codex/2026-10-16/x20/outputs/source-refresh-enrichment-2026-10-21-run3/upload-visits/klodzko-panorama-silent.mp4",
+          "uploadSHA256": "7ffb941145ca84f7b39a653132754ede184e80314f10d8587b86d553f2624c64",
+          "audioRemoved": true,
+          "fullOriginalPictureAndDurationPreserved": true,
+          "title": "Kłodzko Fortress | Panorama over the Old Town | Visit | WROC-LOVE",
+          "description": "Original silent visit panorama filmed from Kłodzko Fortress. Full original picture and duration preserved. Explore our Srebrna Góra and Kłodzko day-trip map:\nhttps://wroc-love.com/products/interactive-maps/excursions.html?lang=en&trip=srebrna-gora-klodzko-day-trip",
+          "termsTab": "31058437",
+          "dedupEvidence": "Catalog has no visit videos. Studio title searchKłodzko andHebrew, only existing visit is interpretation-board g4cP6YgOZ5k; other matchingvideos are distinct guides.",
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "reopenedVerified": true,
+          "processing": "Standard Definition complete",
+          "copyright": "No issues found",
+          "communityGuidelines": "Checks complete. No issues found.",
+          "youtube": "https://www.youtube.com/watch?v=LktFR7CVlEY",
+          "publicationDate": "2026-10-21"
+        }
       }
     },
     "socialPosts": []
@@ -23297,9 +23726,57 @@
       "photos": [
         "/assets/lodz-arrival/lodz-piotrkowska-01.jpg",
         "/assets/lodz-arrival/lodz-piotrkowska-02.jpg",
-        "/assets/lodz-arrival/lodz-piotrkowska-03.jpg"
+        "/assets/lodz-arrival/lodz-piotrkowska-03.jpg",
+        "/assets/today-source-refresh-20261021/run3-04-lodz-piotrkowska.jpg",
+        "/assets/today-source-refresh-20261021/run3-05-lodz-piotrkowska.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run3-04-lodz-piotrkowska.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-10-21 at 20.18.29 (4).jpeg",
+          "sourceSHA256": "9b84a4f97e4674a5007a98b327c9103cd97bb1e0d401de3e9008a12576584847",
+          "assetSHA256": "2094ea1a25855eb8a2e942c6e043b9786008f5a9b404f57394b6e19f5f47af91",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architectural place photograph; incidental public street users are not posed personal portraits.",
+          "alt": {
+            "he": "החזית הנאו־גותית ברחוב פיוטרקובסקה99 בלודז׳",
+            "en": "Neo-Gothic façade at Piotrkowska99 in Łódź",
+            "pl": "Neogotycka fasada przy Piotrkowskiej99 w Łodzi",
+            "de": "Neugotische Fassade an der Piotrkowska99 in Łódź",
+            "cs": "Novogotické průčelí v ulici Piotrkowska99 v Lodži"
+          },
+          "verifiedAt": "2026-10-21T18:06:51.304154+00:00",
+          "factualSources": [
+            "https://architektmiasta.uml.lodz.pl/files/public/user_upload2/2025/12/Mapa_szlak_architektoniczny.pdf",
+            "https://lodz.pl/files/public/user_upload/Lodz.pl_129_661_low_res.pdf",
+            "https://www.szukajwarchiwach.gov.pl/de/jednostka/-/jednostka/2573072/obiekty/55589"
+          ]
+        },
+        "/assets/today-source-refresh-20261021/run3-05-lodz-piotrkowska.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-10-21 at 20.18.29 (2).jpeg",
+          "sourceSHA256": "3a672470c2ffaf7cdac8e897cf19b2f0e2a45a82f3619195761dbd62ffcbedaf",
+          "assetSHA256": "bc5f8fbb5609c52e74d14229c63c7df87800738de0c3fe59f1890912102ad5d0",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architectural place photograph; incidental public street users are not posed personal portraits.",
+          "alt": {
+            "he": "חזית הבית ההיסטורי ברחוב פיוטרקובסקה44 בלודז׳",
+            "en": "Historic façade at Piotrkowska44 in Łódź",
+            "pl": "Zabytkowa fasada przy Piotrkowskiej44 w Łodzi",
+            "de": "Historische Fassade an der Piotrkowska44 in Łódź",
+            "cs": "Historické průčelí v ulici Piotrkowska44 v Lodži"
+          },
+          "verifiedAt": "2026-10-21T18:06:51.304154+00:00",
+          "factualSources": [
+            "https://zabytek.pl/pl/obiekty/kamienica-lodz-2-3-4-5-6-7-8-9"
+          ]
+        }
+      }
     },
     "socialPosts": []
   },
@@ -24510,6 +24987,154 @@
         "verifiedAt": "2026-10-19T08:05:13.867Z"
       }
     ]
+  },
+  "marietta-focacceria-wroclaw": {
+    "id": "marietta-focacceria-wroclaw",
+    "localName": "Marietta Focacceria",
+    "name": {
+      "he": "מרייטה פוקצ׳ריה",
+      "en": "Marietta Focacceria",
+      "pl": "Marietta Focacceria",
+      "de": "Marietta Focacceria",
+      "cs": "Marietta Focacceria"
+    },
+    "description": {
+      "he": "פוקצ׳ריה ברחוב שבסקה בעיר העתיקה. צילום הביקור מציג את החזית המוארת והכניסה. תפריט הכריכים העדכני מופיע באתר המקום.\nMarietta Focacceria\nSzewska 74, Wrocław",
+      "en": "A focacceria on Szewska Street in the Old Town. Our visit photograph shows the illuminated frontage and entrance. The current sandwich menu is on the venue’s website.\nSzewska 74, Wrocław",
+      "pl": "Focacceria przy ulicy Szewskiej na Starym Mieście. Nasze zdjęcie pokazuje oświetloną witrynę i wejście. Aktualne menu kanapek znajduje się na stronie lokalu.\nSzewska 74, Wrocław",
+      "de": "Focacceria an der Szewska-Straße in der Altstadt. Unser Besuchsfoto zeigt die beleuchtete Fassade und den Eingang. Die aktuelle Sandwichkarte steht auf der Website des Lokals.\nSzewska 74, Wrocław",
+      "cs": "Focacceria v ulici Szewska ve Starém Městě. Naše fotografie zachycuje osvětlený výklad a vchod. Aktuální nabídka sendvičů je na webu podniku.\nSzewska 74, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1096599,
+        "lng": 17.0341752
+      },
+      "address": {
+        "street": "Szewska 74",
+        "postalCode": "50-139",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Marietta",
+      "Marietta Focacceria Wrocław"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "marietta-focacceria-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "marietta-focacceria-wroclaw",
+        "lat": 51.1096599,
+        "lng": 17.0341752
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.marietta.ooo/index.php/menu/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1096599%2C17.0341752",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "officialSource": "https://www.marietta.ooo/index.php/menu/",
+        "address": "Szewska 74",
+        "coordinates": [
+          51.1096599,
+          17.0341752
+        ],
+        "verifiedAt": "2026-10-21T18:00:36.813655+00:00",
+        "evidence": "run3 marietta-map.txt/png"
+      },
+      "scope": "Exterior photograph and factual business type only. No recommendation or personal meal inferred."
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run3-01-marietta-focacceria-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run3-01-marietta-focacceria-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run3-01-marietta-focacceria-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מרייטה/WhatsApp Image 2026-10-21 at 20.38.53 (9).jpeg",
+          "sourceSHA256": "31e961f9878b65dc59dee4f0d08e7d436a8c273b0988209a941b11fa3991c200",
+          "assetSHA256": "d918cfa0cbbe62f4175e80e0fea370496991a1d03f9ca69679be7cd370c0276a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Venue/view photograph; any diners or passers-by are incidental public visitors, not posed personal portraits.",
+          "alt": {
+            "he": "חזית מרייטה פוקצ׳ריה בלילה",
+            "en": "Marietta Focacceria frontage at night",
+            "pl": "Witryna Marietta Focacceria nocą",
+            "de": "Fassade der Marietta Focacceria bei Nacht",
+            "cs": "Noční výloha Marietta Focacceria"
+          },
+          "verifiedAt": "2026-10-21T18:00:36.813655+00:00"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "marina": {
     "id": "marina",
@@ -26221,6 +26846,11 @@
       "refresh20261021": {
         "sourceDelta": "Newsource is reencoded existingrynekasset; reuseasset, no duplicatefile. Bridge visible above street.",
         "verifiedAt": "2026-10-21T11:30:11.255080+00:00"
+      },
+      "sourceRefreshRun3": {
+        "checkedAt": "2026-10-21T17:55:35.224654+00:00",
+        "originalsUnchanged": true,
+        "existingIdentityLinksHeroPreserved": true
       }
     },
     "placeType": "viewpoint",
@@ -26229,7 +26859,8 @@
       "photos": [
         "/assets/witch-bridge/mostek-pokutnic-01.jpg",
         "/assets/witch-bridge/mostek-pokutnic-03.jpg",
-        "/assets/rynek-refresh-oct19-08.jpg"
+        "/assets/rynek-refresh-oct19-08.jpg",
+        "/assets/today-source-refresh-20261021/run3-30-mostek-pokutnic-wroclaw.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -26278,6 +26909,25 @@
             "de": "Straßenblick zur Büßerinnenbrücke zwischen den Türmen",
             "cs": "Pohled z ulice na Můstek kajícnic mezi věžemi"
           }
+        },
+        "/assets/today-source-refresh-20261021/run3-30-mostek-pokutnic-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WITCH BRIDGE/WhatsApp Image 2026-10-21 at 20.38.53 (7).jpeg",
+          "sourceSHA256": "83f822107513bbdc1943376d258ca7b763dbbc3790f00b60c908669622a56a5d",
+          "assetSHA256": "4b6fa5d092e442c428998dbb6a6aae57c3dd7e5f0b2941f54349722bf038df84",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public passers-by are not posed personal portraits.",
+          "alt": {
+            "he": "גשר המכשפות בין מגדלי הקתדרלה בלילה",
+            "en": "Witches’ Bridge between the cathedral towers at night",
+            "pl": "Mostek Pokutnic między wieżami katedry nocą",
+            "de": "Büßerbrücke zwischen den Kathedraltürmen bei Nacht",
+            "cs": "Most kajícnic mezi věžemi katedrály v noci"
+          },
+          "verifiedAt": "2026-10-21T17:55:35.224654+00:00",
+          "sourceRefreshRun": "2026-10-21-run3"
         }
       }
     },
@@ -28443,6 +29093,154 @@
         "verifiedAt": "2026-10-08T15:15:18.636Z"
       }
     ]
+  },
+  "olio-pizza-napoletana-wroclaw": {
+    "id": "olio-pizza-napoletana-wroclaw",
+    "localName": "OLIO Pizza Napoletana Wrocław",
+    "name": {
+      "he": "אוליו פיצה נפוליטנית",
+      "en": "OLIO Pizza Napoletana Wrocław",
+      "pl": "OLIO Pizza Napoletana Wrocław",
+      "de": "OLIO Pizza Napoletana Wrocław",
+      "cs": "OLIO Pizza Napoletana Wrocław"
+    },
+    "description": {
+      "he": "פיצרייה נפוליטנית בעיר העתיקה. צילום הביקור מציג את חלון המסעדה ושלט הניאון. תפריט הסניף מופיע באתר הרשמי.\nOLIO Pizza Napoletana Wrocław\nWita Stwosza 16, Wrocław",
+      "en": "A Neapolitan pizzeria in the Old Town. Our visit photograph shows the restaurant window and neon sign. The branch menu is on the official website.\nWita Stwosza 16, Wrocław",
+      "pl": "Pizzeria neapolitańska na Starym Mieście. Nasze zdjęcie pokazuje okno restauracji i neon. Menu wrocławskiego lokalu znajduje się na oficjalnej stronie.\nWita Stwosza 16, Wrocław",
+      "de": "Neapolitanische Pizzeria in der Altstadt. Unser Besuchsfoto zeigt das Restaurantfenster und die Leuchtschrift. Die Speisekarte des Standorts steht auf der offiziellen Website.\nWita Stwosza 16, Wrocław",
+      "cs": "Neapolská pizzerie ve Starém Městě. Naše fotografie ukazuje okno restaurace a neonový nápis. Nabídka této pobočky je na oficiálním webu.\nWita Stwosza 16, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1095741,
+        "lng": 17.0367925
+      },
+      "address": {
+        "street": "Wita Stwosza 16",
+        "postalCode": "50-148",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "OLIO Wrocław",
+      "Olio Pizza Napoletana"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "olio-pizza-napoletana-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "olio-pizza-napoletana-wroclaw",
+        "lat": 51.1095741,
+        "lng": 17.0367925
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://olio-pizzanapoletana.pl/wroclaw",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1095741%2C17.0367925",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "officialSource": "https://olio-pizzanapoletana.pl/wroclaw",
+        "address": "Wita Stwosza 16",
+        "coordinates": [
+          51.1095741,
+          17.0367925
+        ],
+        "verifiedAt": "2026-10-21T18:00:36.813655+00:00",
+        "evidence": "run3 olio-map.txt/png"
+      },
+      "scope": "Exterior photograph and factual business type only. No recommendation or personal meal inferred."
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run3-08-olio-pizza-napoletana-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run3-08-olio-pizza-napoletana-wroclaw.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run3-08-olio-pizza-napoletana-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אוליו/WhatsApp Image 2026-10-21 at 20.38.53 (12).jpeg",
+          "sourceSHA256": "f234a66e096eead0daacb2b0502a74cdfe71141313b624f6adf060f506754006",
+          "assetSHA256": "1462b3d4aef26c34502b29b57aaab2b43c6f723f9e9359551219f826289e0ded",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Venue/view photograph; any diners or passers-by are incidental public visitors, not posed personal portraits.",
+          "alt": {
+            "he": "חלון מסעדת אוליו ושלט הניאון",
+            "en": "OLIO restaurant window and neon sign",
+            "pl": "Okno restauracji OLIO i neon",
+            "de": "Restaurantfenster und Leuchtschrift von OLIO",
+            "cs": "Okno restaurace OLIO a neonový nápis"
+          },
+          "verifiedAt": "2026-10-21T18:00:36.813655+00:00"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "opera": {
     "id": "opera",
@@ -42519,7 +43317,12 @@
         "https://www.westfield.com/en/poland/wroclavia/parking",
         "https://www.westfield.com/pl/poland/wroclavia/aktualnosci/godziny-otwarcia-w-niedziele-niehandlowe/112423",
         "https://www.wroclaw.pl/przedsiebiorczy-wroclaw/wroclavia-nowa-nazwa-centrum-handlowe-westfield"
-      ]
+      ],
+      "sourceRefreshRun3": {
+        "checkedAt": "2026-10-21T17:55:35.224654+00:00",
+        "originalsUnchanged": true,
+        "existingIdentityLinksHeroPreserved": true
+      }
     },
     "media": {
       "thumbnail": "/assets/gallery-wroclavia-01.jpg",
@@ -42529,7 +43332,8 @@
         "/assets/gallery-wroclavia-03.jpg",
         "/assets/gallery-wroclavia-04.jpg",
         "/assets/gallery-wroclavia-05.jpg",
-        "/assets/wroclavia-refresh-oct19-01.jpg"
+        "/assets/wroclavia-refresh-oct19-01.jpg",
+        "/assets/today-source-refresh-20261021/run3-00-wroclavia.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/fTPTY-yic0o"
@@ -42540,6 +43344,25 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.06.jpeg",
           "sourceSHA256": "b980a5674d1bcdb9007c9c25fbf78494d57b4bffa65c87dd653dc6995329ee55",
           "assetSHA256": "2f0d2591e403d6aaf7a643b6cc9e72ba781f4d077a1887f679dc132f689eca00"
+        },
+        "/assets/today-source-refresh-20261021/run3-00-wroclavia.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WhatsApp Image 2026-10-21 at 20.38.53 (20).jpeg",
+          "sourceSHA256": "76940fb109a91b2eb120086e50635f81493d5d581c3978d8559b45a3bc9286f0",
+          "assetSHA256": "9b1eddfd68399224fe89c8d026351f31662c5f3889033a1872f3e1b63bc48e82",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public passers-by are not posed personal portraits.",
+          "alt": {
+            "he": "חזית ווסטפילד וורוצלביה בלילה",
+            "en": "Westfield Wroclavia entrance and illuminated sign at night",
+            "pl": "Wejście i podświetlony szyld Westfield Wroclavia nocą",
+            "de": "Eingang und beleuchteter Schriftzug von Westfield Wroclavia bei Nacht",
+            "cs": "Vstup a osvětlený nápis Westfield Wroclavia v noci"
+          },
+          "verifiedAt": "2026-10-21T17:55:35.224654+00:00",
+          "sourceRefreshRun": "2026-10-21-run3"
         }
       }
     },
@@ -45868,9 +46691,6 @@
   "PeDeT Renoma": "pedet",
   "Wieża ciśnień przy alei Wiśniowej": "wieza-cisnien-borek",
   "Wasserturm Kleinburg": "wieza-cisnien-borek",
-  "wroclaw-glowny": "glowny",
-  "dworzec-wroclaw-glowny": "glowny",
-  "wroclaw-main-railway-station": "glowny",
   "kapielisko-morskie-oko-wroclaw": "morskie-oko-wroclaw",
   "olympic-stadium-wroclaw": "stadion-olimpijski-wroclaw",
   "kosciol-pokoju-swidnica": "church-of-peace-swidnica",
@@ -45883,12 +46703,6 @@
   "kaplica-czaszek-kudowa-zdroj": "kaplica-czaszek-czermna",
   "multimedia-fountain": "fountain",
   "pergola-wroclawska": "pergola",
-  "Wroclavia": "wroclavia",
-  "westfield-wroclavia": "wroclavia",
-  "Westfield Wroclavia": "wroclavia",
-  "וסטפילד וורוצלביה": "wroclavia",
-  "וורוצלביה": "wroclavia",
-  "וורוצלביה ווסטפילדס": "wroclavia",
   "wroclaw-zoo": "zoo-wroclaw",
   "zoo-wrocław": "zoo-wroclaw",
   "zamek-piastow-slaskich-brzeg": "brzeg-castle",
@@ -45987,15 +46801,6 @@
   "galeria-dominikanska": "dominikan",
   "גלריה דומיניקנה": "dominikan",
   "גלריה דומיניקנסקה": "dominikan",
-  "Bridge of Penitents": "mostek-pokutnic-wroclaw",
-  "Büßerbrücke": "mostek-pokutnic-wroclaw",
-  "Most kajícnic": "mostek-pokutnic-wroclaw",
-  "Mostek Czarownic": "mostek-pokutnic-wroclaw",
-  "Mostek Pokutnic": "mostek-pokutnic-wroclaw",
-  "WITCH BRIDGE": "mostek-pokutnic-wroclaw",
-  "Witch Bridge": "mostek-pokutnic-wroclaw",
-  "Witches Bridge": "mostek-pokutnic-wroclaw",
-  "גשר המכשפות": "mostek-pokutnic-wroclaw",
   "B&B HOTEL Wrocław Old Town": "bb-hotel-wroclaw-old-town",
   "מלון בי אנד בי בעיר העתיקה": "bb-hotel-wroclaw-old-town",
   "El Gato Specialty Coffee Roasters, Odrzańska": "el-gato-odrzanska-wroclaw",
@@ -46009,6 +46814,34 @@
   "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
   "Domek nad Fosa": "domek-nad-fosa-wroclaw",
   "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
+  "Westfield Wroclavia": "wroclavia",
+  "Wroclavia": "wroclavia",
+  "westfield-wroclavia": "wroclavia",
+  "וורוצלביה": "wroclavia",
+  "וורוצלביה ווסטפילדס": "wroclavia",
+  "וסטפילד וורוצלביה": "wroclavia",
+  "Hostel Krasnal": "hostel-krasnal-wroclaw",
+  "Krasnal Hostel Wrocław": "hostel-krasnal-wroclaw",
+  "Hostel Krasnal Market Square Wroclaw": "hostel-krasnal-wroclaw",
+  "dworzec-wroclaw-glowny": "glowny",
+  "wroclaw-glowny": "glowny",
+  "wroclaw-main-railway-station": "glowny",
+  "Bridge of Penitents": "mostek-pokutnic-wroclaw",
+  "Büßerbrücke": "mostek-pokutnic-wroclaw",
+  "Most kajícnic": "mostek-pokutnic-wroclaw",
+  "Mostek Czarownic": "mostek-pokutnic-wroclaw",
+  "Mostek Pokutnic": "mostek-pokutnic-wroclaw",
+  "WITCH BRIDGE": "mostek-pokutnic-wroclaw",
+  "Witch Bridge": "mostek-pokutnic-wroclaw",
+  "Witches Bridge": "mostek-pokutnic-wroclaw",
+  "גשר המכשפות": "mostek-pokutnic-wroclaw",
+  "Marietta": "marietta-focacceria-wroclaw",
+  "Marietta Focacceria Wrocław": "marietta-focacceria-wroclaw",
+  "OLIO Wrocław": "olio-pizza-napoletana-wroclaw",
+  "Olio Pizza Napoletana": "olio-pizza-napoletana-wroclaw",
+  "Kościół św. Mikołaja w Brzegu": "brzeg-st-nicholas-church",
+  "St. Nicholas Church Brzeg": "brzeg-st-nicholas-church",
+  "Nikolaikirche Brzeg": "brzeg-st-nicholas-church",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
