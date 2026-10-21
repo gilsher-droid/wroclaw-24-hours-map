@@ -23,5 +23,10 @@
     if (url) frame.src = url;
     else { frame.removeAttribute("src"); frame.insertAdjacentHTML("afterend", html(src, "Video", lang)); }
   }
-  window.WROC_YOUTUBE_VIDEO = Object.freeze({ idFor, resolve, embed, html, setFrame });
+  function watchLink(src, lang = "en") {
+    const id = idFor(resolve(src));
+    const label = {he:"צפייה ביוטיוב",en:"Watch on YouTube",pl:"Obejrzyj w YouTube",de:"Auf YouTube ansehen",cs:"Přehrát na YouTube"};
+    return id ? `<p><a class="video-watch-link" href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener noreferrer">${label[lang] || label.en}</a></p>` : "";
+  }
+  window.WROC_YOUTUBE_VIDEO = Object.freeze({ idFor, resolve, embed, html, setFrame, watchLink });
 })();
