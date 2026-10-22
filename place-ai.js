@@ -10,7 +10,7 @@
  const esc=v=>String(v||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function button(record,lang='he',className=''){
   const ctx=model.context(record,lang,window.WROC_CATALOG);if(!ctx)return '';
-  return `<button type="button" class="place-ai-trigger ${esc(className)}" data-place-ai="${esc(JSON.stringify(ctx))}" aria-haspopup="dialog">${texts[ctx.language].button}</button>`;
+  return `<button type="button" class="place-ai-trigger ${esc(className)}" data-place-ai="${esc(JSON.stringify(ctx))}" aria-haspopup="dialog"><span aria-hidden="true" style="font-size:16px;margin-inline-end:6px">✨</span><span>${texts[ctx.language].button}</span></button>`;
  }
  let dialog,trigger,oldOverflow,active;
  function create(){
