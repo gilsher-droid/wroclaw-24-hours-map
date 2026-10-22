@@ -421,6 +421,83 @@
 
   // Vega source identity resolved by Gil; preserve the single existing milk-bar experience.
   {const e=experiences.find(x=>x.id==="wroclaw-milk-bars");const id="vega-bar-weganski-wroclaw";e.description={"he": "ארבעה מקומות, ארבע כתובות נפרדות: בר מיש ליד האוניברסיטה, בר מווה ברחוב דרובנרה, רוזובה קרובה ברחוב שווידניצקה, וגם וגה במרכז הרינק כאפשרות טבעונית. לכל מקום כרטיס משלו, ניווט ותמונות ביקור המשויכות אליו.", "en": "Four places at four separate addresses: Miś near the university, Mewa on Drobnera, Różowa Krowa on Świdnicka and Vega in the Market Square area as a vegan option. Each has its own place card, navigation and correctly assigned visit photographs.", "pl": "Cztery miejsca pod czterema różnymi adresami: Miś przy uniwersytecie, Mewa przy Drobnera, Różowa Krowa przy Świdnickiej oraz Vega przy Rynku jako wegańska propozycja. Każde ma osobną kartę, nawigację i odpowiednio przypisane zdjęcia z wizyty.", "de": "Vier Lokale an vier verschiedenen Adressen: Miś bei der Universität, Mewa an der Drobnera-Straße, Różowa Krowa an der Świdnicka-Straße und Vega am Marktplatz als vegane Option. Jeder Betrieb hat eine eigene Karte, Navigation und zugeordnete Besuchsfotos.", "cs": "Čtyři podniky na čtyřech různých adresách: Miś u univerzity, Mewa v ulici Drobnera, Różowa Krowa v ulici Świdnicka a Vega u Rynku jako veganská možnost. Každý má vlastní kartu, navigaci a správně přiřazené fotografie z návštěvy."};e.relatedCanonicalPlaceIds=[...new Set([...e.relatedCanonicalPlaceIds,id])];e.media.inheritFromCanonicalPlaceIds=[...new Set([...e.media.inheritFromCanonicalPlaceIds,id])];e.metadata={...e.metadata,pendingMedia:["Vega4.10secondvisitidentifiedbyGil;awaitingseparateYouTubededup/Terms/publication."],vegaIdentityResolution:{userIdentifiedTwoSpecificSources:true,reusedFoodPhoto:"/assets/experiences/milk-bars/visit-03.jpg",distinctVeganOption:true,existingOtherMembersPreserved:true}};}
+  // Coffee experience reuses canonical identities and their current media.
+  experiences.push({
+  "id": "coffee-lovers-wroclaw",
+  "type": "local-food-experience",
+  "categories": [
+    "coffee",
+    "local-life"
+  ],
+  "name": {
+    "he": "וורוצלב לאוהבי קפה",
+    "en": "Wrocław for coffee lovers",
+    "pl": "Wrocław dla miłośników kawy",
+    "de": "Breslau für Kaffeeliebhaber",
+    "cs": "Vratislav pro milovníky kávy"
+  },
+  "description": {
+    "he": "קפה הוא סיבה טובה לצאת לגלות עוד פינה בעיר. מחכה לכם מבחר בתי קפה שכבר ביקרנו בהם, מהעיר העתיקה ונדאודז׳ה ועד לאזור הפארקים ושכונת וו־ווה. בחרו עצירה לקפה ומאפה, חצר נעימה או מקום לשבת בו בין אתרים. זו מפת אפשרויות לבחירה, לא מסלול שחייבים להספיק ביום אחד. בכל מקום תמצאו את התמונות, הסרטונים והניווט שכבר משויכים אליו. שעות ותפריטים עשויים להשתנות, ולכן כדאי לבדוק לפני הביקור.",
+    "en": "Coffee is a good reason to discover another corner of the city. Explore cafés we have visited, from the Old Town and Nadodrze to the park area and the WuWA estate. Choose a coffee-and-pastry stop, a pleasant courtyard or somewhere to sit between sights. This is a collection to choose from, not a route to complete in one day. Each place brings together its own visit photos, videos and navigation. Opening hours and menus may change, so check before visiting.",
+    "pl": "Kawa to dobry pretekst, by odkryć kolejny zakątek miasta. Poznaj odwiedzone przez nas kawiarnie, od Starego Miasta i Nadodrza po okolice parków i osiedle WuWA. Wybierz kawę z wypiekiem, przyjemne podwórko lub przerwę między atrakcjami. To zbiór propozycji, a nie trasa do pokonania w jeden dzień. Każde miejsce ma własne zdjęcia, filmy i nawigację. Godziny otwarcia i menu mogą się zmieniać, więc sprawdź je przed wizytą.",
+    "de": "Kaffee ist ein guter Anlass, eine weitere Ecke der Stadt zu entdecken. Erkunden Sie Cafés, die wir besucht haben: von der Altstadt und Nadodrze bis zur Parklandschaft und zur WuWA-Siedlung. Wählen Sie Kaffee mit Gebäck, einen gemütlichen Innenhof oder eine Pause zwischen Sehenswürdigkeiten. Dies ist eine Auswahl, keine Route für einen einzigen Tag. Jeder Ort bietet seine eigenen Besuchsfotos, Videos und Navigation. Öffnungszeiten und Speisekarten können sich ändern; prüfen Sie sie vor dem Besuch.",
+    "cs": "Káva je dobrý důvod objevit další kout města. Prozkoumejte kavárny, které jsme navštívili, od Starého Města a Nadodrze až po okolí parků a sídliště WuWA. Vyberte si kávu s pečivem, příjemný dvůr nebo zastávku mezi památkami. Jde o nabídku možností, nikoli trasu na jediný den. Každé místo má vlastní fotografie, videa a navigaci. Otevírací doba i nabídka se mohou měnit, proto je před návštěvou ověřte."
+  },
+  "relatedCanonicalPlaceIds": [
+    "czarna-magia",
+    "el-gato-odrzanska-wroclaw",
+    "fc-caffe-kuznicza",
+    "central",
+    "charlotte",
+    "gniazdo",
+    "cafe-berg-wroclaw",
+    "barbara-wroclaw",
+    "bru-coffee-bakehouse-wroclaw",
+    "central-cafe-nadodrze",
+    "parrot-coffee-bema",
+    "pomiedzy-cafe-bistro-wroclaw",
+    "kawiarenka-sw-jadwigi",
+    "mala-czarna-paderewskiego",
+    "wuwa"
+  ],
+  "productRefs": [
+    "lifestyle-guide"
+  ],
+  "mapPoints": [],
+  "social": [],
+  "media": {
+    "hero": {
+      "canonicalPlaceId": "czarna-magia",
+      "photoIndex": 3,
+      "position": "50% 78%"
+    },
+    "inheritFromCanonicalPlaceIds": [
+      "czarna-magia",
+      "el-gato-odrzanska-wroclaw",
+      "fc-caffe-kuznicza",
+      "central",
+      "charlotte",
+      "gniazdo",
+      "cafe-berg-wroclaw",
+      "barbara-wroclaw",
+      "bru-coffee-bakehouse-wroclaw",
+      "central-cafe-nadodrze",
+      "parrot-coffee-bema",
+      "pomiedzy-cafe-bistro-wroclaw",
+      "kawiarenka-sw-jadwigi",
+      "mala-czarna-paderewskiego",
+      "wuwa"
+    ],
+    "inheritSocial": true
+  },
+  "metadata": {
+    "curatedAt": "2026-10-22",
+    "scope": "Existing Wrocław city cafes with assigned original visit media; flexible collection, no compulsory day route.",
+    "source": "Existing canonical place catalog and its media provenance. No new uploads or locations.",
+    "userApproval": "User requested activating the previously future coffee-lovers experience on 2026-10-22."
+  }
+});
+
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
   const getExperience = (id) => byId[id] || null;
   const forProduct = (productId) => experiences.filter((experience) => experience.productRefs.includes(productId));

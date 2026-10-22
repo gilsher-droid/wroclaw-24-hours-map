@@ -21,7 +21,7 @@ for (const file of ["data/place-catalog.js", "data/canonical-experiences.js"]) {
 const catalog = context.window.WROC_CATALOG;
 const registry = context.window.WROC_EXPERIENCE_CATALOG;
 if (!registry || registry.version !== 1) throw new Error("Canonical Experience Registry v1 is unavailable.");
-if (registry.experiences.length !== 13) throw new Error(`Expected exactly 13 canonical experiences, found ${registry.experiences.length}.`);
+if (registry.experiences.length !== 14) throw new Error(`Expected exactly 14 canonical experiences, found ${registry.experiences.length}.`);
 
 const ids = new Set();
 const validateMediaPath = (experienceId, mediaPath) => {
