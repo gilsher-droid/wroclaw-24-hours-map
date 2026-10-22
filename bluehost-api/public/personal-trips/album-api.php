@@ -27,7 +27,7 @@ function albumDispatch(string $private,string $key,?array $user,string $action,s
   if($action==='album-media'&&in_array($method,['GET','HEAD'],true)){
    $media=$repo->media((string)($_GET['id']??''),($_GET['poster']??'')==='1');$size=filesize($media['path']);
    try{[$start,$end,$partial]=albumRange($size,$_SERVER['HTTP_RANGE']??null);}catch(RuntimeException){header('Content-Range: bytes */'.$size);jsonReply(['error'=>'range'],416);}
-   header('Content-Type: '.$media['mime']);header('Accept-Ranges: bytes');header('Content-Length: '.($end-$start+1));header('Cross-Origin-Resource-Policy: same-origin');header('Content-Disposition: '.(isset($_GET['download'])?'attachment':'inline').'; filename="memory"');
+   header('Content-Type: '.$media['mime']);header('Accept-Ranges: bytes');header('Content-Length: '.($end-$start+1));header('Cross-Origin-Resource-Policy: same-origin');header('Content-Disposition: '.(isset($_GET['download'])?'attachment':'inline')."; filename=\"memory\"; filename*=UTF-8''".rawurlencode($media['filename']));
    if($partial){http_response_code(206);header("Content-Range: bytes $start-$end/$size");}session_write_close();if($method==='HEAD')exit;
    $f=fopen($media['path'],'rb');if(!$f)exit;fseek($f,$start);$left=$end-$start+1;while($left>0&&!feof($f)&&!connection_aborted()){$chunk=fread($f,min(1048576,$left));if($chunk===false)break;echo $chunk;$left-=strlen($chunk);flush();}fclose($f);exit;
   }
