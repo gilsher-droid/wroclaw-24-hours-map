@@ -7,7 +7,7 @@ const window={};for(const f of ['data/place-catalog.js','data/canonical-experien
 const plain=x=>JSON.parse(JSON.stringify(x));
 const catalog=window.WROC_CATALOG, baseline=JSON.parse(readFileSync('data/cafe-gustaw-renoma-preservation.json','utf8'));
 test('Cafe Berg and Renoma append reviewed images, preserve original media, hero, coordinates and verified social links',()=>{
- for(const [id,count] of [['cafe-berg-wroclaw',9],['renoma',15]]){
+ for(const [id,count] of [['cafe-berg-wroclaw',9],['renoma',28]]){
   const before=baseline.preserved[id],after=plain(catalog.getPlace(id));
   assert.equal(after.media.photos.length,count);assert.equal(new Set(after.media.photos).size,count);
   assert.deepEqual(after.media.photos.slice(0,before.media.photos.length),before.media.photos);

@@ -1,0 +1,895 @@
+{
+  "status": "prepared-not-deployed",
+  "count": 24,
+  "assets": [
+    {
+      "folder": "WROCLAWIA",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.01 (1).jpeg",
+      "sha256": "16b80ad13a7492a488e0bd8aa5cefb395153477c522e1eac33e0c9fc549ff83d",
+      "bytes": 328854,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 1,
+      "nearestAsset": "/assets/four-denominations-district-plaque.jpg",
+      "assetCanonicals": [
+        "four-denominations-district"
+      ],
+      "pixelMAE": 42.51215277777778,
+      "canonicalId": "wroclavia",
+      "asset": "/assets/round24h-20261022/wroclavia-01.jpg",
+      "assetSHA256": "232285ba030f66b71b53e87b0749e3973c8d34b0ddce7cf176e88c2b56ab063d",
+      "originalDimensions": [
+        1600,
+        1200
+      ],
+      "assetDimensions": [
+        1600,
+        1200
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "מבט נוסף על חזית וורוצלביה",
+        "en": "Another view of the Wroclavia façade",
+        "pl": "Kolejny widok elewacji Wroclavii",
+        "de": "Weitere Ansicht der Wroclavia-Fassade",
+        "cs": "Další pohled na průčelí Wroclavie"
+      }
+    },
+    {
+      "folder": "WROCLAWIA",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.03.jpeg",
+      "sha256": "9744fbb76a34a86ef1d1940fb407837fd9b2d50125ecceaf6148ff94017e0123",
+      "bytes": 247598,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 4,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-036.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 46.42433449074074,
+      "canonicalId": "wroclavia",
+      "asset": "/assets/round24h-20261022/wroclavia-04.jpg",
+      "assetSHA256": "2756508cfbc5c69ff9049e26e07d68b6d5f392965db6698263a50b07c483f92c",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "תרשים המרכז ממועד הביקור",
+        "en": "Shopping-centre directory photographed during the visit",
+        "pl": "Plan centrum sfotografowany podczas wizyty",
+        "de": "Verzeichnis des Einkaufszentrums, beim Besuch aufgenommen",
+        "cs": "Plán nákupního centra vyfotografovaný při návštěvě"
+      }
+    },
+    {
+      "folder": "WROCLAWIA",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.06 (1).jpeg",
+      "sha256": "3e9205f2734658d27e25c9ac8581b499f2f57d5ea2b97e2dfc095bbf80f7095f",
+      "bytes": 292403,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 7,
+      "nearestAsset": "/assets/pedet-12.jpg",
+      "assetCanonicals": [
+        "pedet"
+      ],
+      "pixelMAE": 37.97410300925926,
+      "canonicalId": "wroclavia",
+      "asset": "/assets/round24h-20261022/wroclavia-07.jpg",
+      "assetSHA256": "6e74a37ff427d1a2bab281a2597e297484447758e6cc46241e864b724dc5e878",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "מבט נוסף על האטריום בוורוצלביה",
+        "en": "Another view of the Wroclavia atrium",
+        "pl": "Kolejny widok atrium Wroclavii",
+        "de": "Weitere Ansicht des Atriums von Wroclavia",
+        "cs": "Další pohled na atrium Wroclavie"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-07-30 at 16.04.07 (1).jpeg",
+      "sha256": "414b611dc49ceedb25006c7bd14ab79050a91ba66002496729d754204250833e",
+      "bytes": 339734,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 2,
+      "nearestAsset": "/assets/gallery-renoma-01.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 26.01446759259259,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-02.jpg",
+      "assetSHA256": "791f1eb76a185ae1bba419776eb7339bf8565538fcd03cecf2c6eff2503db05d",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "פסל ליד חזית רנומה",
+        "en": "Sculpture beside the Renoma façade",
+        "pl": "Rzeźba przy elewacji Renomy",
+        "de": "Skulptur an der Renoma-Fassade",
+        "cs": "Socha u průčelí Renomy"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-07-30 at 16.04.08 (1).jpeg",
+      "sha256": "3065f6dfc06f006c046175b976038bf939337d4701df2804bd1fcd60af5ce58b",
+      "bytes": 263554,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 3,
+      "nearestAsset": "/assets/pedet-12.jpg",
+      "assetCanonicals": [
+        "pedet"
+      ],
+      "pixelMAE": 36.3984375,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-03.jpg",
+      "assetSHA256": "f6bcde4eae37bafa89702301d8d2018c8079dca34f32099d969bb798a3040344",
+      "originalDimensions": [
+        1600,
+        1200
+      ],
+      "assetDimensions": [
+        1600,
+        1200
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "רנומה נראית מאחורי מבנה בפינת רחוב סמוך",
+        "en": "Renoma seen behind a building on a nearby street corner",
+        "pl": "Renoma widoczna za budynkiem na pobliskim rogu ulicy",
+        "de": "Renoma hinter einem Gebäude an einer nahen Straßenecke",
+        "cs": "Renoma za budovou na nedalekém rohu ulice"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-01 at 09.28.23 (5).jpeg",
+      "sha256": "dc1222808c024746e8e136353dbde97776a9898a25af99286136444461eef91c",
+      "bytes": 671700,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 6,
+      "nearestAsset": "/assets/renoma-refresh-oct19-01.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 32.08203125,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-06.jpg",
+      "assetSHA256": "5b8b41ad4e46e5391f5a09f3a134f9bdde6c38c778132496e2a325f4929c010d",
+      "originalDimensions": [
+        1536,
+        2048
+      ],
+      "assetDimensions": [
+        1536,
+        2048
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "מבט נוסף על האטריום בתוך רנומה",
+        "en": "Another view of the atrium inside Renoma",
+        "pl": "Kolejny widok atrium wewnątrz Renomy",
+        "de": "Weitere Ansicht des Atriums in Renoma",
+        "cs": "Další pohled na atrium uvnitř Renomy"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-01 at 09.28.23.jpeg",
+      "sha256": "051fcf5a588339e0f7281a4c95068a8fc765371048fd2ed7379afbd49cc73013",
+      "bytes": 574111,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 7,
+      "nearestAsset": "/assets/renoma-refresh-oct19-02.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 27.576822916666668,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-07.jpg",
+      "assetSHA256": "11a46da2c7465ca598aebe7f0b021bb35bb66e6bf9104bf593f78c0578edc109",
+      "originalDimensions": [
+        1536,
+        2048
+      ],
+      "assetDimensions": [
+        1536,
+        2048
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "חלל הפנים של רנומה מזווית נוספת",
+        "en": "Renoma interior from another angle",
+        "pl": "Wnętrze Renomy z innej perspektywy",
+        "de": "Renoma-Innenraum aus einem anderen Blickwinkel",
+        "cs": "Interiér Renomy z dalšího úhlu"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-18 at 10.02.48 (2).jpeg",
+      "sha256": "2ae7e93d895d827a1c8c0d481dacf8d1ce954d5908f92a25e36bb14c8e28bc2a",
+      "bytes": 321751,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 10,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-222.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 47.28414351851852,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-10.jpg",
+      "assetSHA256": "9fc25c795b5bea91d592b2b4e2b10afa07599067c608327f834e00a483e97275",
+      "originalDimensions": [
+        2048,
+        1536
+      ],
+      "assetDimensions": [
+        2048,
+        1536
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "אזור קבלת המשרדים ברנומה",
+        "en": "Office reception area at Renoma",
+        "pl": "Recepcja biur w Renomie",
+        "de": "Empfangsbereich der Büros in Renoma",
+        "cs": "Recepce kanceláří v Renomě"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (1).jpeg",
+      "sha256": "240bbfc3c54de38367978532bfe6d0a01bbfc60323737f8ed9d469cbdca16746",
+      "bytes": 352224,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 11,
+      "nearestAsset": "/assets/renoma-refresh-oct19-05.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 45.328848379629626,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-11.jpg",
+      "assetSHA256": "d8bba13301c4cae9cfe1735664bc86362effb5ac73f3e044efd3f119b7cb1399",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "ראש מפוסל על חזית רנומה",
+        "en": "Sculpted head on the Renoma façade",
+        "pl": "Rzeźbiona głowa na elewacji Renomy",
+        "de": "Skulptierter Kopf an der Renoma-Fassade",
+        "cs": "Sochařsky ztvárněná hlava na průčelí Renomy"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (10).jpeg",
+      "sha256": "2029f62948bf96481bba51766098155c62fa3f683d525943a38894d66cfb48c8",
+      "bytes": 338703,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 12,
+      "nearestAsset": "/assets/renoma-refresh-oct19-07.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 28.835069444444443,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-12.jpg",
+      "assetSHA256": "b1c88f25202d5b7a6891037ae63ecb796984f6ce408cf8ad7d64f21537054c4c",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "חזית רנומה במבט מהרחוב",
+        "en": "Renoma façade seen from the street",
+        "pl": "Elewacja Renomy widziana z ulicy",
+        "de": "Renoma-Fassade von der Straße aus",
+        "cs": "Průčelí Renomy při pohledu z ulice"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (3).jpeg",
+      "sha256": "e79f9bf416903b2ccd9510dc8480d791d5ca9b581fe50e11f79c7d69b832b668",
+      "bytes": 357366,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 15,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-279.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 51.64453125,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-15.jpg",
+      "assetSHA256": "9e45141d63a7c6100d1736615b5abfb1f22a1539778c8f7e5a25ac260ae8b523",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "ראשי הפיסול לאורך חזית רנומה",
+        "en": "Sculpted heads along the Renoma façade",
+        "pl": "Rzeźbione głowy wzdłuż elewacji Renomy",
+        "de": "Skulptierte Köpfe entlang der Renoma-Fassade",
+        "cs": "Sochařské hlavy podél průčelí Renomy"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (4).jpeg",
+      "sha256": "3b062581cbe7cb33877a7a3cb75867d2ed4fb2ec969f88fc40720c180485e70d",
+      "bytes": 292150,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 16,
+      "nearestAsset": "/assets/renoma-refresh-oct19-08.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 48.041232638888886,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-16.jpg",
+      "assetSHA256": "284234012bccb84c2419736ade486b10aa4b3a4b6d263d85bf4fe478ebcb7eff",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "חזית רנומה והפינה המעוגלת",
+        "en": "Renoma façade and rounded corner",
+        "pl": "Elewacja Renomy i zaokrąglony narożnik",
+        "de": "Renoma-Fassade und abgerundete Ecke",
+        "cs": "Průčelí Renomy a zaoblený roh"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (5).jpeg",
+      "sha256": "e6be8907b3996c0b51bd3358c7cda041febcf7b01fcdff863dc6a8c55a55569e",
+      "bytes": 298195,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 17,
+      "nearestAsset": "/assets/renoma-refresh-oct19-08.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 47.2896412037037,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-17.jpg",
+      "assetSHA256": "034e59dde5db67602a53ee4866535219bb4062ad7fabb331c2c7c603addf66f9",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "מבט נוסף על הפינה המעוגלת של רנומה",
+        "en": "Another view of Renoma’s rounded corner",
+        "pl": "Kolejny widok zaokrąglonego narożnika Renomy",
+        "de": "Weitere Ansicht der abgerundeten Ecke von Renoma",
+        "cs": "Další pohled na zaoblený roh Renomy"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (7).jpeg",
+      "sha256": "093597954c3138a36217bf51c6b4dfd96f2b9881e542585fd382398841f4a1b2",
+      "bytes": 393275,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 19,
+      "nearestAsset": "/assets/renoma-refresh-oct19-07.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 30.18070023148148,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-19.jpg",
+      "assetSHA256": "ccc55b60aa86a1570b7de41ab6f95a7c214cc0c91d1fb3236befeab19395c1c3",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "חזית רנומה והמרחב שלפניה",
+        "en": "Renoma façade and the space in front",
+        "pl": "Elewacja Renomy i przestrzeń przed nią",
+        "de": "Renoma-Fassade und Vorplatz",
+        "cs": "Průčelí Renomy a prostor před ním"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (9).jpeg",
+      "sha256": "31fe4c7138235b754411ccb6748e74d97ae91dcbcc63c2df44d7fb43cb81ab8f",
+      "bytes": 364880,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 21,
+      "nearestAsset": "/assets/renoma-refresh-oct19-07.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 9.83347800925926,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-21.jpg",
+      "assetSHA256": "a44b2f979c08732fe63c2a1f5c8691fbe8e19e78222f146a41ab3d02df453143",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "הכניסה הראשית לרנומה ביום",
+        "en": "Main Renoma entrance in daylight",
+        "pl": "Główne wejście do Renomy za dnia",
+        "de": "Haupteingang von Renoma bei Tageslicht",
+        "cs": "Hlavní vstup do Renomy za denního světla"
+      }
+    },
+    {
+      "folder": "Renoma",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-21 at 20.38.53 (33).jpeg",
+      "sha256": "d840c5087751e927ef4bacf6e8a709de3b4aaa6de5937e565a95bf06e934ecde",
+      "bytes": 217486,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 28,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-265.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 42.00737847222222,
+      "canonicalId": "renoma",
+      "asset": "/assets/round24h-20261022/renoma-28.jpg",
+      "assetSHA256": "043c55a6cb4024a3ba32301fa5d75d436d2fc82c6e5e784bd707fc1c33a23465",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "ראש מפוסל בחזית רנומה המוארת בלילה",
+        "en": "Sculpted head on the illuminated Renoma façade at night",
+        "pl": "Rzeźbiona głowa na oświetlonej elewacji Renomy nocą",
+        "de": "Skulptierter Kopf an der nachts beleuchteten Renoma-Fassade",
+        "cs": "Sochařská hlava na nočně osvětleném průčelí Renomy"
+      }
+    },
+    {
+      "folder": "תיאטרון הבובות",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05 (1).jpeg",
+      "sha256": "7005b047ad8bbfd47b4fc24b74c0fdc46caa4485c94262b6dbd5346e7913eec4",
+      "bytes": 279031,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 3,
+      "nearestAsset": "/assets/excursion-three/jawor-church-of-peace-43.jpg",
+      "assetCanonicals": [
+        "jawor-church-of-peace"
+      ],
+      "pixelMAE": 36.984519675925924,
+      "canonicalId": "wroclaw-puppet-theatre",
+      "asset": "/assets/round24h-20261022/puppet-03.jpg",
+      "assetSHA256": "c81fd1b7206f8a23cc6f2e43020ee2c27ef63dc998b19df4b35aba852d2a7ec7",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "פרט מפוסל באזור תיאטרון הבובות",
+        "en": "Sculptural detail beside the Puppet Theatre",
+        "pl": "Detal rzeźbiarski obok Teatru Lalek",
+        "de": "Skulpturales Detail am Puppentheater",
+        "cs": "Sochařský detail u loutkového divadla"
+      }
+    },
+    {
+      "folder": "תיאטרון הבובות",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05 (2).jpeg",
+      "sha256": "2e8175c6331f3cc8334605508ac89f9436aaa5fe52ee0a3ea6f021d86bd0481a",
+      "bytes": 288704,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 4,
+      "nearestAsset": "/assets/hotels-extra-20261020/herbal-extra-08.jpg",
+      "assetCanonicals": [
+        "herbal"
+      ],
+      "pixelMAE": 43.244936342592595,
+      "canonicalId": "wroclaw-puppet-theatre",
+      "asset": "/assets/round24h-20261022/puppet-04.jpg",
+      "assetSHA256": "fc20a5dc5d243292000fa2f9b7dcfca06f9cea46f009bebba313cd3bff0a41ef",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "דמות מפוסלת ליד תיאטרון הבובות",
+        "en": "Sculpted figure beside the Puppet Theatre",
+        "pl": "Rzeźbiona postać obok Teatru Lalek",
+        "de": "Skulpturale Figur am Puppentheater",
+        "cs": "Sochařská postava u loutkového divadla"
+      }
+    },
+    {
+      "folder": "תיאטרון הבובות",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05.jpeg",
+      "sha256": "3379c9c885aac8c73dbcee183cd29f685f5a8d3681041760e2a1e6643956d3d7",
+      "bytes": 411733,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 7,
+      "nearestAsset": "/assets/ossolineum-dwarf.jpg",
+      "assetCanonicals": [
+        "ossolineum"
+      ],
+      "pixelMAE": 45.030526620370374,
+      "canonicalId": "wroclaw-puppet-theatre",
+      "asset": "/assets/round24h-20261022/puppet-07.jpg",
+      "assetSHA256": "1a4f08ee37c76b7fdfe1446defa8c75db8b97eadda23cf689cd8bc7af1a17ede",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "דמות נוספת בפיסול שליד תיאטרון הבובות",
+        "en": "Another sculpted figure beside the Puppet Theatre",
+        "pl": "Kolejna rzeźbiona postać obok Teatru Lalek",
+        "de": "Weitere skulpturale Figur am Puppentheater",
+        "cs": "Další sochařská postava u loutkového divadla"
+      }
+    },
+    {
+      "folder": "בסטיון",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (2).jpeg",
+      "sha256": "017019993b8ac62ecef0b285c5c8e0d25cc836d9e3f4552648ab146a13d15bca",
+      "bytes": 575748,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 1,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-226.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 50.97077546296296,
+      "canonicalId": "bastion",
+      "asset": "/assets/round24h-20261022/bastion-01.jpg",
+      "assetSHA256": "5819dd37e8ad44417d2f17f5725a8b94dc25f139f727aa63422a16c2804279d5",
+      "originalDimensions": [
+        2048,
+        1536
+      ],
+      "assetDimensions": [
+        2048,
+        1536
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": "call_4fd43e555b1f4b02965081a3dc4381b5",
+      "alt": {
+        "he": "סלפי בעת הביקור בבסטיון",
+        "en": "Self-portrait during the bastion visit",
+        "pl": "Autoportret podczas wizyty na bastionie",
+        "de": "Selbstporträt beim Besuch der Bastion",
+        "cs": "Autoportrét během návštěvy bašty"
+      }
+    },
+    {
+      "folder": "בסטיון",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (3).jpeg",
+      "sha256": "e484a84835e7b24473dc750a7cc96d79626532638274b84dce0a9d767034d8d6",
+      "bytes": 549191,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 2,
+      "nearestAsset": "/assets/bastion-sakwowy-02.jpg",
+      "assetCanonicals": [
+        "bastion"
+      ],
+      "pixelMAE": 18.397858796296298,
+      "canonicalId": "bastion",
+      "asset": "/assets/round24h-20261022/bastion-02.jpg",
+      "assetSHA256": "86883f50aa969bfaa1e0d666791dd20e102dda3780b63c309e1a01e15a0a8e79",
+      "originalDimensions": [
+        2048,
+        1536
+      ],
+      "assetDimensions": [
+        2048,
+        1536
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "נוף העיר מהבסטיון בשקיעה",
+        "en": "City view from the bastion at sunset",
+        "pl": "Widok na miasto z bastionu o zachodzie słońca",
+        "de": "Stadtblick von der Bastion bei Sonnenuntergang",
+        "cs": "Výhled na město z bašty při západu slunce"
+      }
+    },
+    {
+      "folder": "בסטיון",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.17.jpeg",
+      "sha256": "b6a19622699d0b6d9f3720770b34200298357015a6bb6845923a1906567e59c8",
+      "bytes": 222878,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 8,
+      "nearestAsset": "/assets/bastion-sakwowy-02.jpg",
+      "assetCanonicals": [
+        "bastion"
+      ],
+      "pixelMAE": 39.46397569444444,
+      "canonicalId": "bastion",
+      "asset": "/assets/round24h-20261022/bastion-08.jpg",
+      "assetSHA256": "950b799a35996758a0bac233810ab245bdcc443b2bdcee2897b0898938e81eb5",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "רחבת התצפית ומבקרים בבסטיון בשקיעה",
+        "en": "Viewing terrace and visitors at the bastion at sunset",
+        "pl": "Taras widokowy i zwiedzający na bastionie o zachodzie słońca",
+        "de": "Aussichtsterrasse und Besucher an der Bastion bei Sonnenuntergang",
+        "cs": "Vyhlídková terasa a návštěvníci na baště při západu slunce"
+      }
+    },
+    {
+      "folder": "בסטיון",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.19 (1).jpeg",
+      "sha256": "25a42dece2af1d5ebee33f2d7e9bf244bd578892e44338b59bfeeccf4e41304b",
+      "bytes": 236227,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 10,
+      "nearestAsset": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-05.jpg",
+      "assetCanonicals": [
+        "bastion"
+      ],
+      "pixelMAE": 6.908854166666667,
+      "canonicalId": "bastion",
+      "asset": "/assets/round24h-20261022/bastion-10.jpg",
+      "assetSHA256": "2ae7f70f08a98fc3a0b9c0c49e16d44bf890cee668698bd2e347e0dfa5a0bbb0",
+      "originalDimensions": [
+        1600,
+        1200
+      ],
+      "assetDimensions": [
+        1600,
+        1200
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": null,
+      "alt": {
+        "he": "בריכת המזרקה והעיר במבט מהקומה העליונה",
+        "en": "Fountain basin and city seen from the upper level",
+        "pl": "Basen fontanny i miasto widziane z górnego poziomu",
+        "de": "Brunnenbecken und Stadt von der oberen Ebene aus",
+        "cs": "Bazén fontány a město při pohledu z horní úrovně"
+      }
+    },
+    {
+      "folder": "בסטיון",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58.jpeg",
+      "sha256": "6422b43d199e6fc2d2bbfc9ab7172610365352d92d02367786b86d3199972709",
+      "bytes": 577758,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 4,
+      "nearestAsset": "/assets/pedet-13.jpg",
+      "assetCanonicals": [
+        "pedet"
+      ],
+      "pixelMAE": 42.008101851851855,
+      "canonicalId": "bastion",
+      "asset": "/assets/round24h-20261022/bastion-04.jpg",
+      "assetSHA256": "57318c3d7780087946cafa9ca4dd4dd6ed46968106511963b7fbb46cebcfc999",
+      "originalDimensions": [
+        1536,
+        2048
+      ],
+      "assetDimensions": [
+        1536,
+        2048
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+      "approvalCall": "call_ed45bc52f64e4d89afe767f77aa30ce4",
+      "alt": {
+        "he": "תמונת מבקרת בעת הביקור בבסטיון",
+        "en": "Visitor portrait during the bastion visit",
+        "pl": "Portret odwiedzającej podczas wizyty na bastionie",
+        "de": "Besucherporträt beim Besuch der Bastion",
+        "cs": "Portrét návštěvnice během návštěvy bašty"
+      }
+    }
+  ],
+  "pendingSpecificPhoto": null
+}

@@ -180,7 +180,7 @@ test("PeDeT media belongs to its existing Lifestyle place, separate from Renoma"
   assert.equal(place.media.guideVideos, undefined);
   assert.equal(window.WROC_LOCATION_MEDIA.pedet.gallery.length, 15);
   assert.equal(window.WROC_LOCATION_MEDIA.pedet.videos.length, 3);
-  assert.equal(window.WROC_LOCATION_MEDIA.renoma.gallery.length, 15);
+  assert.equal(window.WROC_LOCATION_MEDIA.renoma.gallery.length, 28);
 });
 
 test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonical identity", () => {
@@ -227,7 +227,7 @@ test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonica
       "wroclaw-christmas:wroclavia-station",
     ],
   );
-  assert.equal(shoppingCentre.media.photos.length, 7);
+  assert.equal(shoppingCentre.media.photos.length, 10);
   assert.ok(shoppingCentre.socialPosts.some((post) => post.platform === "facebook"));
   assert.equal(window.WROC_LIFESTYLE_PLACES.find((place) => place.id === "wroclavia")?.localName, "Westfield Wroclavia");
   assert.equal(premiumStop?.localName, "Westfield Wroclavia");

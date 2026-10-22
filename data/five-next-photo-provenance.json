@@ -1,0 +1,1109 @@
+{
+  "status": "prepared-not-deployed",
+  "count": 24,
+  "assets": [
+    {
+      "folder": "פארק שטניצקי",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/IMG_5744.JPG",
+      "sha256": "b1335919e00ec5447468bdc07ad44f593c2d32eab8663644f791d9644e04a343",
+      "bytes": 7605951,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 0,
+      "nearestAsset": "/assets/brzeg-enrichment/brzeg-castle-080.jpg",
+      "assetCanonicals": [
+        "brzeg-castle"
+      ],
+      "pixelMAE": 43.89351851851852,
+      "canonicalId": "park-szczytnicki-wroclaw",
+      "asset": "/assets/round24h-20261022/park-00.jpg",
+      "assetSHA256": "9aa6c09423a094c8570d51d309155c948fed3feeb273082e356c23b54c103501",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "עץ ושביל בפארק שטניצקי",
+        "en": "Tree and path in Szczytnicki Park",
+        "pl": "Drzewo i ścieżka w Parku Szczytnickim",
+        "de": "Baum und Weg im Szczytnicki-Park",
+        "cs": "Strom a cesta ve Szczytnickém parku"
+      },
+      "caption": {
+        "he": "עץ ושביל בפארק שטניצקי",
+        "en": "Tree and path in Szczytnicki Park",
+        "pl": "Drzewo i ścieżka w Parku Szczytnickim",
+        "de": "Baum und Weg im Szczytnicki-Park",
+        "cs": "Strom a cesta ve Szczytnickém parku"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "פארק שטניצקי",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/IMG_5794 2.JPG",
+      "sha256": "68e5aa77e1648e0bdf7356569852624a2409816293a38f523e63cd7b10871f14",
+      "bytes": 6456600,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 1,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-199.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 43.988136574074076,
+      "canonicalId": "park-szczytnicki-wroclaw",
+      "asset": "/assets/round24h-20261022/park-01.jpg",
+      "assetSHA256": "e7ed24654553ec09947c32e420839c87c0579842df833b6364b12ca219067ebe",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "מבט נוסף על העץ הנתמך בפארק",
+        "en": "Another view of the supported tree in the park",
+        "pl": "Kolejny widok podpartego drzewa w parku",
+        "de": "Weitere Ansicht des abgestützten Baums im Park",
+        "cs": "Další pohled na podepřený strom v parku"
+      },
+      "caption": {
+        "he": "מבט נוסף על העץ הנתמך בפארק",
+        "en": "Another view of the supported tree in the park",
+        "pl": "Kolejny widok podpartego drzewa w parku",
+        "de": "Weitere Ansicht des abgestützten Baums im Park",
+        "cs": "Další pohled na podepřený strom v parku"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "פארק שטניצקי",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Image 2026-09-24 at 17.33.46 (1).jpeg",
+      "sha256": "d0265e68c38e8d47c0f4239d3fd07438700cb5abe738b8dfbf7a166904f3259a",
+      "bytes": 1171609,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 5,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-199.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 44.487557870370374,
+      "canonicalId": "park-szczytnicki-wroclaw",
+      "asset": "/assets/round24h-20261022/park-05.jpg",
+      "assetSHA256": "fb451d93c24f4c7675a8c23449a8f7ebf206de0739884cf07279133f17e4d5a8",
+      "originalDimensions": [
+        1536,
+        2048
+      ],
+      "assetDimensions": [
+        1536,
+        2048
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "מבט נוסף על העץ הנתמך בפארק",
+        "en": "Another view of the supported tree in the park",
+        "pl": "Kolejny widok podpartego drzewa w parku",
+        "de": "Weitere Ansicht des abgestützten Baums im Park",
+        "cs": "Další pohled na podepřený strom v parku"
+      },
+      "caption": {
+        "he": "מבט נוסף על העץ הנתמך בפארק",
+        "en": "Another view of the supported tree in the park",
+        "pl": "Kolejny widok podpartego drzewa w parku",
+        "de": "Weitere Ansicht des abgestützten Baums im Park",
+        "cs": "Další pohled na podepřený strom v parku"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "פארק שטניצקי",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Image 2026-09-24 at 17.33.47.jpeg",
+      "sha256": "7d2ee5cbf8a90430c70cea4701da7b20c8d33e41185c81b5a4e960bbd18cdd84",
+      "bytes": 1256095,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 7,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-199.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 46.5775462962963,
+      "canonicalId": "park-szczytnicki-wroclaw",
+      "asset": "/assets/round24h-20261022/park-07.jpg",
+      "assetSHA256": "c3de748fe83692ed3dd6ce9dc8f5b1dfc831fd36fd1a46edaba15a5bf897758e",
+      "originalDimensions": [
+        1536,
+        2048
+      ],
+      "assetDimensions": [
+        1536,
+        2048
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "מבט נוסף על העץ הנתמך בפארק",
+        "en": "Another view of the supported tree in the park",
+        "pl": "Kolejny widok podpartego drzewa w parku",
+        "de": "Weitere Ansicht des abgestützten Baums im Park",
+        "cs": "Další pohled na podepřený strom v parku"
+      },
+      "caption": {
+        "he": "מבט נוסף על העץ הנתמך בפארק",
+        "en": "Another view of the supported tree in the park",
+        "pl": "Kolejny widok podpartego drzewa w parku",
+        "de": "Weitere Ansicht des abgestützten Baums im Park",
+        "cs": "Další pohled na podepřený strom v parku"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "פארק שטניצקי",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Image 2026-09-24 at 19.03.00 (23).jpeg",
+      "sha256": "e5dd38b7197b9cde76d422484cf0b3187aa53562733b6b7b0862188d5c2fd6ff",
+      "bytes": 372495,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 9,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-213.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 48.406394675925924,
+      "canonicalId": "park-szczytnicki-wroclaw",
+      "asset": "/assets/round24h-20261022/park-09.jpg",
+      "assetSHA256": "21e758a31117430bb4b33be7ecf6bef765a64dec120c8a53af53ff509c445b4a",
+      "originalDimensions": [
+        900,
+        1600
+      ],
+      "assetDimensions": [
+        900,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "השתקפות העצים בבריכת הפארק",
+        "en": "Trees reflected in the park pond",
+        "pl": "Odbicie drzew w parkowym stawie",
+        "de": "Spiegelung der Bäume im Parkteich",
+        "cs": "Odraz stromů v parkovém jezírku"
+      },
+      "caption": {
+        "he": "השתקפות העצים בבריכת הפארק",
+        "en": "Trees reflected in the park pond",
+        "pl": "Odbicie drzew w parkowym stawie",
+        "de": "Spiegelung der Bäume im Parkteich",
+        "cs": "Odraz stromů v parkovém jezírku"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "charlotte",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-07-13 at 19.48.01 (2).jpeg",
+      "sha256": "7de90df341f7502ba91934a448921d1585201f661282469ed8a7a6d70ff172c9",
+      "bytes": 427263,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 0,
+      "nearestAsset": "/assets/srebrna-klodzko/klodzko-fortress-11.jpg",
+      "assetCanonicals": [
+        "klodzko-fortress"
+      ],
+      "pixelMAE": 43.12803819444444,
+      "canonicalId": "charlotte",
+      "asset": "/assets/round24h-20261022/charlotte-00.jpg",
+      "assetSHA256": "063936498fe9b1affcab53e7bd26f0444443361396aac4c93230b1c727c7fd1c",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "חצר שרלוט מזווית נוספת",
+        "en": "Charlotte courtyard from another angle",
+        "pl": "Dziedziniec Charlotte z innej perspektywy",
+        "de": "Charlotte-Innenhof aus einem anderen Blickwinkel",
+        "cs": "Nádvoří Charlotte z dalšího úhlu"
+      },
+      "caption": {
+        "he": "חצר שרלוט מזווית נוספת",
+        "en": "Charlotte courtyard from another angle",
+        "pl": "Dziedziniec Charlotte z innej perspektywy",
+        "de": "Charlotte-Innenhof aus einem anderen Blickwinkel",
+        "cs": "Nádvoří Charlotte z dalšího úhlu"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "charlotte",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-05 at 18.27.31 (6).jpeg",
+      "sha256": "c7dd603fbb9275c5e3b95cfb8b151ea3b393b55a64d9e8c45918b9baa0494cae",
+      "bytes": 452814,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 2,
+      "nearestAsset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-07.jpg",
+      "assetCanonicals": [
+        "piastowska-pieczec-wroclaw"
+      ],
+      "pixelMAE": 43.52445023148148,
+      "canonicalId": "charlotte",
+      "asset": "/assets/round24h-20261022/charlotte-02.jpg",
+      "assetSHA256": "5ab9176729b3f064f73d90b49a3a213e338041ed9afd8384b97f9d2570fb9a5b",
+      "originalDimensions": [
+        1536,
+        2048
+      ],
+      "assetDimensions": [
+        1536,
+        2048
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "דלפק וחלל הפנים בשרלוט",
+        "en": "Counter and interior at Charlotte",
+        "pl": "Lada i wnętrze Charlotte",
+        "de": "Theke und Innenraum bei Charlotte",
+        "cs": "Pult a interiér Charlotte"
+      },
+      "caption": {
+        "he": "דלפק וחלל הפנים בשרלוט",
+        "en": "Counter and interior at Charlotte",
+        "pl": "Lada i wnętrze Charlotte",
+        "de": "Theke und Innenraum bei Charlotte",
+        "cs": "Pult a interiér Charlotte"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "charlotte",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-05 at 18.27.31.jpeg",
+      "sha256": "b1cd5d0f420b7e3c43c8d8b0344f3851dea5f66c641978960addcca2a9e71001",
+      "bytes": 517736,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 3,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-226.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 44.1021412037037,
+      "canonicalId": "charlotte",
+      "asset": "/assets/round24h-20261022/charlotte-03.jpg",
+      "assetSHA256": "d83d0ce76edde9183dda11cde9b243e6242712a1df80699f4520abf65dcbc0f5",
+      "originalDimensions": [
+        1536,
+        2048
+      ],
+      "assetDimensions": [
+        1536,
+        2048
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "תצוגת הלחמים והדלפק בשרלוט",
+        "en": "Bread display and counter at Charlotte",
+        "pl": "Ekspozycja pieczywa i lada w Charlotte",
+        "de": "Brotauslage und Theke bei Charlotte",
+        "cs": "Vystavené pečivo a pult v Charlotte"
+      },
+      "caption": {
+        "he": "תצוגת הלחמים והדלפק בשרלוט",
+        "en": "Bread display and counter at Charlotte",
+        "pl": "Ekspozycja pieczywa i lada w Charlotte",
+        "de": "Brotauslage und Theke bei Charlotte",
+        "cs": "Vystavené pečivo a pult v Charlotte"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "charlotte",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-21 at 21.12.00.jpeg",
+      "sha256": "2aa5264cb3f0c8459b3b9ee05c064d028c2ba5a047bf6fbb7466ffcadfbd32c9",
+      "bytes": 109773,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 6,
+      "nearestAsset": "/assets/pedet-12.jpg",
+      "assetCanonicals": [
+        "pedet"
+      ],
+      "pixelMAE": 43.57667824074074,
+      "canonicalId": "charlotte",
+      "asset": "/assets/round24h-20261022/charlotte-06.jpg",
+      "assetSHA256": "a784b112a59bb7594fd80b0d849fb85740c059f27a20188939899396e8934890",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "כריכת התפריט שצולמה בביקור בשרלוט",
+        "en": "Menu cover photographed during the Charlotte visit",
+        "pl": "Okładka menu sfotografowana podczas wizyty w Charlotte",
+        "de": "Beim Besuch fotografierter Menüumschlag von Charlotte",
+        "cs": "Obálka jídelního lístku vyfotografovaná při návštěvě Charlotte"
+      },
+      "caption": {
+        "he": "כריכת התפריט שצולמה בביקור בשרלוט",
+        "en": "Menu cover photographed during the Charlotte visit",
+        "pl": "Okładka menu sfotografowana podczas wizyty w Charlotte",
+        "de": "Beim Besuch fotografierter Menüumschlag von Charlotte",
+        "cs": "Obálka jídelního lístku vyfotografovaná při návštěvě Charlotte"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "charlotte",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-21 at 21.12.02 (2).jpeg",
+      "sha256": "9bbc3b66420999b7ad45d53061e770217eac966acfd04bc3e07e521f0a0f566e",
+      "bytes": 270931,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 7,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-114.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 44.25159143518518,
+      "canonicalId": "charlotte",
+      "asset": "/assets/round24h-20261022/charlotte-07.jpg",
+      "assetSHA256": "d8d12b354787543d91b7726a417b7b6c3389112d1a426643911a7e89358aa710",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "שלט שרלוט והחזית במבט כלפי מעלה",
+        "en": "Charlotte sign and façade viewed from below",
+        "pl": "Szyld Charlotte i elewacja widziane od dołu",
+        "de": "Charlotte-Schild und Fassade von unten gesehen",
+        "cs": "Nápis Charlotte a průčelí při pohledu zdola"
+      },
+      "caption": {
+        "he": "שלט שרלוט והחזית במבט כלפי מעלה",
+        "en": "Charlotte sign and façade viewed from below",
+        "pl": "Szyld Charlotte i elewacja widziane od dołu",
+        "de": "Charlotte-Schild und Fassade von unten gesehen",
+        "cs": "Nápis Charlotte a průčelí při pohledu zdola"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "GALERIA DOMINIKANA",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23 (2).jpeg",
+      "sha256": "17a70468faeb8087d286eb67f8a83de822669c1ab4a2fa48d5c96ac0f3724066",
+      "bytes": 305012,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 1,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-160.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 42.768229166666664,
+      "canonicalId": "dominikan",
+      "asset": "/assets/round24h-20261022/dominikan-01.jpg",
+      "assetSHA256": "080bbbe1202ecd1a16f5eef2904785b229a5ec8950238ed818839f4893de2ec4",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "מבט נוסף על האטריום בגלריה דומיניקנסקה",
+        "en": "Another view of the Galeria Dominikańska atrium",
+        "pl": "Kolejny widok atrium Galerii Dominikańskiej",
+        "de": "Weitere Ansicht des Atriums der Galeria Dominikańska",
+        "cs": "Další pohled na atrium Galerie Dominikańské"
+      },
+      "caption": {
+        "he": "מבט נוסף על האטריום בגלריה דומיניקנסקה",
+        "en": "Another view of the Galeria Dominikańska atrium",
+        "pl": "Kolejny widok atrium Galerii Dominikańskiej",
+        "de": "Weitere Ansicht des Atriums der Galeria Dominikańska",
+        "cs": "Další pohled na atrium Galerie Dominikańské"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "GALERIA DOMINIKANA",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23 (3).jpeg",
+      "sha256": "ef997bc6acdd9193e5135e2437ab089e9655d4a5f176cc59f87f94da66557419",
+      "bytes": 326035,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 2,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-225.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 46.703125,
+      "canonicalId": "dominikan",
+      "asset": "/assets/round24h-20261022/dominikan-02.jpg",
+      "assetSHA256": "eb0db0b581dd61acf4318cd5048eefcb35c9f0dc4063c3d07f131a5270739e84",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "דוכנים ומבקרים במעבר הקניון",
+        "en": "Stalls and shoppers in the shopping-centre passage",
+        "pl": "Stoiska i klienci w pasażu centrum handlowego",
+        "de": "Stände und Besucher in der Einkaufspassage",
+        "cs": "Stánky a návštěvníci v pasáži nákupního centra"
+      },
+      "caption": {
+        "he": "דוכנים ומבקרים במעבר הקניון",
+        "en": "Stalls and shoppers in the shopping-centre passage",
+        "pl": "Stoiska i klienci w pasażu centrum handlowego",
+        "de": "Stände und Besucher in der Einkaufspassage",
+        "cs": "Stánky a návštěvníci v pasáži nákupního centra"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "GALERIA DOMINIKANA",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23.jpeg",
+      "sha256": "919c88d4338d09c80da83b061d6afa6a5b34a3d090885d5567b902e53f6a0864",
+      "bytes": 361344,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 3,
+      "nearestAsset": "/assets/excursion-three/jawor-church-of-peace-43.jpg",
+      "assetCanonicals": [
+        "jawor-church-of-peace"
+      ],
+      "pixelMAE": 49.297598379629626,
+      "canonicalId": "dominikan",
+      "asset": "/assets/round24h-20261022/dominikan-03.jpg",
+      "assetSHA256": "fd51c97565adea1f45af6562d39fedbd259e103dab36203cc69917a336d27401",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "חזית גלריה דומיניקנסקה מהרחוב",
+        "en": "Galeria Dominikańska façade from the street",
+        "pl": "Elewacja Galerii Dominikańskiej od ulicy",
+        "de": "Fassade der Galeria Dominikańska von der Straße aus",
+        "cs": "Průčelí Galerie Dominikańské z ulice"
+      },
+      "caption": {
+        "he": "חזית גלריה דומיניקנסקה מהרחוב",
+        "en": "Galeria Dominikańska façade from the street",
+        "pl": "Elewacja Galerii Dominikańskiej od ulicy",
+        "de": "Fassade der Galeria Dominikańska von der Straße aus",
+        "cs": "Průčelí Galerie Dominikańské z ulice"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4603.JPG",
+      "sha256": "6c5b60d1f40ea51f8c67bf4d9e0d03eb5a4a26808968baf666e768491afbe904",
+      "bytes": 3088667,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 12,
+      "nearestAsset": "/assets/morskie-oko-refresh/morskie-oko-09.jpg",
+      "assetCanonicals": [
+        "morskie-oko-wroclaw"
+      ],
+      "pixelMAE": 43.139322916666664,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-12.jpg",
+      "assetSHA256": "89402495a76ef9e38c2d2504e7c7d2d70048dc3aebf68f531d45597917403d88",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "פעילות ספורט בחוף מורסקיה אוקו",
+        "en": "Beach sports at Morskie Oko",
+        "pl": "Sport na plaży Morskiego Oka",
+        "de": "Strandsport am Morskie Oko",
+        "cs": "Sport na pláži Morskie Oko"
+      },
+      "caption": {
+        "he": "פעילות ספורט בחוף מורסקיה אוקו",
+        "en": "Beach sports at Morskie Oko",
+        "pl": "Sport na plaży Morskiego Oka",
+        "de": "Strandsport am Morskie Oko",
+        "cs": "Sport na pláži Morskie Oko"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4613.JPG",
+      "sha256": "990fa3e1acf5c3f568f7d37efd8780634d42a7972a1aa3da56a8de79a9fcc132",
+      "bytes": 4647413,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 18,
+      "nearestAsset": "/assets/morskie-oko-refresh/morskie-oko-20.jpg",
+      "assetCanonicals": [
+        "morskie-oko-wroclaw"
+      ],
+      "pixelMAE": 38.735532407407405,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-18.jpg",
+      "assetSHA256": "57487ea9b357159f5f39f0a64c8b6f24bfc0b77682b7e1dc5a68f56851619c08",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+        "en": "Another view of the beach and visitors at Morskie Oko",
+        "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+        "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+        "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+      },
+      "caption": {
+        "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+        "en": "Another view of the beach and visitors at Morskie Oko",
+        "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+        "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+        "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4616.JPG",
+      "sha256": "20261c83c87baac43972b39aa1347f7c41e8df4435c623d963958c77d7a6484f",
+      "bytes": 4689865,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 20,
+      "nearestAsset": "/assets/pergola-wroclawska-04.jpg",
+      "assetCanonicals": [
+        "pergola"
+      ],
+      "pixelMAE": 44.693142361111114,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-20.jpg",
+      "assetSHA256": "7df98ac2ef0c8982a859a10ee4157e524e811d4422b5dbad5e99ce9ba17a3953",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+        "en": "Another view of the beach and visitors at Morskie Oko",
+        "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+        "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+        "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+      },
+      "caption": {
+        "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+        "en": "Another view of the beach and visitors at Morskie Oko",
+        "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+        "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+        "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4619.JPG",
+      "sha256": "6f8dd8497c6098fa56f336c2b4e3b621711dedff32ccb241f95b831b9bef7258",
+      "bytes": 5685617,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 23,
+      "nearestAsset": "/assets/multimedia-fountain-01.jpg",
+      "assetCanonicals": [
+        "fountain"
+      ],
+      "pixelMAE": 49.554398148148145,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-23.jpg",
+      "assetSHA256": "1fb678cce599524e3bd480a50b7d2b401386e81e211d3a84e06db56ae644e224",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+        "en": "Another view of the beach and visitors at Morskie Oko",
+        "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+        "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+        "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+      },
+      "caption": {
+        "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+        "en": "Another view of the beach and visitors at Morskie Oko",
+        "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+        "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+        "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4622.JPG",
+      "sha256": "ffd3f5dfa17a55cd98c1cce4978e4f13c204908cf5764cb7ce2f85fc15b37fa3",
+      "bytes": 5374294,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 26,
+      "nearestAsset": "/assets/morskie-oko-refresh/morskie-oko-26.jpg",
+      "assetCanonicals": [
+        "morskie-oko-wroclaw"
+      ],
+      "pixelMAE": 43.08246527777778,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-26.jpg",
+      "assetSHA256": "cee8f684ded96831e818d373459896ab67903cd17ba806cb055149d5deb267c6",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "כיסאות נוח בצל העצים ליד החוף",
+        "en": "Deckchairs in the shade beside the beach",
+        "pl": "Leżaki w cieniu drzew przy plaży",
+        "de": "Liegestühle im Schatten am Strand",
+        "cs": "Lehátka ve stínu stromů u pláže"
+      },
+      "caption": {
+        "he": "כיסאות נוח בצל העצים ליד החוף",
+        "en": "Deckchairs in the shade beside the beach",
+        "pl": "Leżaki w cieniu drzew przy plaży",
+        "de": "Liegestühle im Schatten am Strand",
+        "cs": "Lehátka ve stínu stromů u pláže"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4625.JPG",
+      "sha256": "4879be10364ef8786420619315b1ea64c9b2251dc4deac161266b5fcb1c66936",
+      "bytes": 3183338,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 29,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-036.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 46.837094907407405,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-29.jpg",
+      "assetSHA256": "3f0ae59ebf485931052b08ffd60c6f8dc11f26fac86bed771daefccb0d85ab02",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "דוכן גלידה בעת הביקור בחוף",
+        "en": "Ice-cream stand during the beach visit",
+        "pl": "Stoisko z lodami podczas wizyty na plaży",
+        "de": "Eisstand beim Strandbesuch",
+        "cs": "Stánek se zmrzlinou během návštěvy pláže"
+      },
+      "caption": {
+        "he": "דוכן גלידה בעת הביקור בחוף",
+        "en": "Ice-cream stand during the beach visit",
+        "pl": "Stoisko z lodami podczas wizyty na plaży",
+        "de": "Eisstand beim Strandbesuch",
+        "cs": "Stánek se zmrzlinou během návštěvy pláže"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4628.JPG",
+      "sha256": "124d58c938cae9e6fab106152554af92a569b64f80cf4d1aaa206cdfc1f9b4f7",
+      "bytes": 2181268,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 31,
+      "nearestAsset": "/assets/gallery-renoma-02.jpg",
+      "assetCanonicals": [
+        "renoma"
+      ],
+      "pixelMAE": 51.6294849537037,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-31.jpg",
+      "assetSHA256": "ebe7534795a0fdfb2e06bca5e4a716c9ddb96396bdded74f98fb3901b42e6837",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "צמיד הכניסה שצולם בזמן הביקור בחוף",
+        "en": "Admission wristband photographed during the beach visit",
+        "pl": "Opaska wstępu sfotografowana podczas wizyty na plaży",
+        "de": "Beim Strandbesuch fotografiertes Eintrittsarmband",
+        "cs": "Vstupní náramek vyfotografovaný během návštěvy pláže"
+      },
+      "caption": {
+        "he": "צמיד הכניסה שצולם בזמן הביקור בחוף",
+        "en": "Admission wristband photographed during the beach visit",
+        "pl": "Opaska wstępu sfotografowana podczas wizyty na plaży",
+        "de": "Beim Strandbesuch fotografiertes Eintrittsarmband",
+        "cs": "Vstupní náramek vyfotografovaný během návštěvy pláže"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4630.JPG",
+      "sha256": "cbfedd1de053728600bbab50e3a128feb46303cefec5b0c6dbf1954b28c6ff85",
+      "bytes": 2790761,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 33,
+      "nearestAsset": "/assets/full-enrichment-20261022/ossolineum-00.jpg",
+      "assetCanonicals": [
+        "ossolineum"
+      ],
+      "pixelMAE": 37.22902199074074,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-33.jpg",
+      "assetSHA256": "5833fc663f1bbb382867315b587d557a7677276076aa515651a7191784c60074",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "לוח מידע ומחירים ממועד הביקור; אינו מחירון עדכני",
+        "en": "Information and prices photographed during the visit; not current prices",
+        "pl": "Informacje i ceny sfotografowane podczas wizyty; nie jest to aktualny cennik",
+        "de": "Beim Besuch fotografierte Informationen und Preise; keine aktuellen Preise",
+        "cs": "Informace a ceny vyfotografované při návštěvě; nejde o aktuální ceník"
+      },
+      "caption": {
+        "he": "לוח מידע ומחירים ממועד הביקור; אינו מחירון עדכני",
+        "en": "Information and prices photographed during the visit; not current prices",
+        "pl": "Informacje i ceny sfotografowane podczas wizyty; nie jest to aktualny cennik",
+        "de": "Beim Besuch fotografierte Informationen und Preise; keine aktuellen Preise",
+        "cs": "Informace a ceny vyfotografované při návštěvě; nejde o aktuální ceník"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "Olympic Park",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 10.28.46 (5).jpeg",
+      "sha256": "478f6160c5fe7d05e4c189fd2aa9b2504d0850e3c5a254934b3012d808443871",
+      "bytes": 415235,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 19,
+      "nearestAsset": "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-01.jpg",
+      "assetCanonicals": [
+        "bastion"
+      ],
+      "pixelMAE": 46.27879050925926,
+      "canonicalId": "stadion-olimpijski-wroclaw",
+      "asset": "/assets/round24h-20261022/olympic-19.jpg",
+      "assetSHA256": "8df89163d9d3a78454d3eb0df01d0d0dee1036385e7379b3eae529204f53d45c",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "רחבת הזיכרון באצטדיון האולימפי מזווית נוספת",
+        "en": "Memorial forecourt at the Olympic Stadium from another angle",
+        "pl": "Plac pamięci przy Stadionie Olimpijskim z innej perspektywy",
+        "de": "Gedenkvorplatz am Olympiastadion aus einem anderen Blickwinkel",
+        "cs": "Pamětní prostranství u Olympijského stadionu z dalšího úhlu"
+      },
+      "caption": {
+        "he": "רחבת הזיכרון באצטדיון האולימפי מזווית נוספת",
+        "en": "Memorial forecourt at the Olympic Stadium from another angle",
+        "pl": "Plac pamięci przy Stadionie Olimpijskim z innej perspektywy",
+        "de": "Gedenkvorplatz am Olympiastadion aus einem anderen Blickwinkel",
+        "cs": "Pamětní prostranství u Olympijského stadionu z dalšího úhlu"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "Olympic Park",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 16.33.27 (1).jpeg",
+      "sha256": "3cb7ce89119634ca52bbefb2238cbddc507df5990136a39072877357140b822c",
+      "bytes": 307974,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 21,
+      "nearestAsset": "/assets/food-cafes/fashion-outlet-01.jpg",
+      "assetCanonicals": [
+        "fashion-outlet"
+      ],
+      "pixelMAE": 52.58506944444444,
+      "canonicalId": "stadion-olimpijski-wroclaw",
+      "asset": "/assets/round24h-20261022/olympic-21.jpg",
+      "assetSHA256": "5b73e566e426710151fe7c95e8e00d2a3c22b093517592d858620e0e373a1303",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "פרט שעון וסמל בשער האצטדיון האולימפי",
+        "en": "Clock and emblem detail at the Olympic Stadium gateway",
+        "pl": "Detal zegara i godła na bramie Stadionu Olimpijskiego",
+        "de": "Uhr und Wappen am Tor des Olympiastadions",
+        "cs": "Detail hodin a znaku na bráně Olympijského stadionu"
+      },
+      "caption": {
+        "he": "פרט שעון וסמל בשער האצטדיון האולימפי",
+        "en": "Clock and emblem detail at the Olympic Stadium gateway",
+        "pl": "Detal zegara i godła na bramie Stadionu Olimpijskiego",
+        "de": "Uhr und Wappen am Tor des Olympiastadions",
+        "cs": "Detail hodin a znaku na bráně Olympijského stadionu"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    },
+    {
+      "folder": "Olympic Park",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 16.33.27.jpeg",
+      "sha256": "a3206d14b936a025e4fcc639486de5271000e160915f507a803cb853470cf4dc",
+      "bytes": 323642,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 22,
+      "nearestAsset": "/assets/srebrna-klodzko/klodzko-fortress-06.jpg",
+      "assetCanonicals": [
+        "klodzko-fortress"
+      ],
+      "pixelMAE": 36.750723379629626,
+      "canonicalId": "stadion-olimpijski-wroclaw",
+      "asset": "/assets/round24h-20261022/olympic-22.jpg",
+      "assetSHA256": "5fbc0e4588ace8f3d414a6512da0c4ea1f67487bc573761485194acb988f1379",
+      "originalDimensions": [
+        1600,
+        1200
+      ],
+      "assetDimensions": [
+        1600,
+        1200
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "שער האצטדיון האולימפי במבט מהרחבה",
+        "en": "Olympic Stadium gateway from the forecourt",
+        "pl": "Brama Stadionu Olimpijskiego widziana z placu",
+        "de": "Tor des Olympiastadions vom Vorplatz aus",
+        "cs": "Brána Olympijského stadionu z předního prostranství"
+      },
+      "caption": {
+        "he": "שער האצטדיון האולימפי במבט מהרחבה",
+        "en": "Olympic Stadium gateway from the forecourt",
+        "pl": "Brama Stadionu Olimpijskiego widziana z placu",
+        "de": "Tor des Olympiastadions vom Vorplatz aus",
+        "cs": "Brána Olympijského stadionu z předního prostranství"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    }
+  ],
+  "removedAfterProvenanceReview": [
+    {
+      "folder": "מורסקי אוקו",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Image 2026-10-19 at 16.37.09.jpeg",
+      "sha256": "9ff9176f06273f5556f6d065171805d40377c2536bd748f9310bf026d3616236",
+      "bytes": 432612,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 35,
+      "nearestAsset": "/assets/church-of-peace-swidnica-07.jpg",
+      "assetCanonicals": [
+        "church-of-peace-swidnica"
+      ],
+      "pixelMAE": 44.60503472222222,
+      "canonicalId": "morskie-oko-wroclaw",
+      "asset": "/assets/round24h-20261022/morskie-35.jpg",
+      "assetSHA256": "b08b96f17475bd1a714ea3050680e23cfef9db6a594383463f5686ef97704797",
+      "originalDimensions": [
+        1200,
+        1600
+      ],
+      "assetDimensions": [
+        1200,
+        1600
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+      "alt": {
+        "he": "שילוט ומפת הסביבה ליד מורסקיה אוקו",
+        "en": "Signs and area map beside Morskie Oko",
+        "pl": "Drogowskazy i mapa okolicy przy Morskim Oku",
+        "de": "Wegweiser und Umgebungskarte am Morskie Oko",
+        "cs": "Směrovky a mapa okolí u Morskie Oko"
+      },
+      "caption": {
+        "he": "שילוט ומפת הסביבה ליד מורסקיה אוקו",
+        "en": "Signs and area map beside Morskie Oko",
+        "pl": "Drogowskazy i mapa okolicy przy Morskim Oku",
+        "de": "Wegweiser und Umgebungskarte am Morskie Oko",
+        "cs": "Směrovky a mapa okolí u Morskie Oko"
+      },
+      "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+    }
+  ],
+  "removalReason": "Prior full-source identity research identifies Kilimandżaro hill sign, a distinct nearby place, not Morskie Oko bathing site. Wrong-place material not assigned from folder alone."
+}

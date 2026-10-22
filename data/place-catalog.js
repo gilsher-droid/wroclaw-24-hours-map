@@ -3352,7 +3352,12 @@
         "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-03.jpg",
         "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-04.jpg",
         "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-05.jpg",
-        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg"
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg",
+        "/assets/round24h-20261022/bastion-01.jpg",
+        "/assets/round24h-20261022/bastion-02.jpg",
+        "/assets/round24h-20261022/bastion-08.jpg",
+        "/assets/round24h-20261022/bastion-10.jpg",
+        "/assets/round24h-20261022/bastion-04.jpg"
       ],
       "videos": [
         "/assets/bastion-sakwowy-visit-01.mp4",
@@ -3508,6 +3513,157 @@
             "de": "Weiter Blick auf Brunnen, Hof und Stadt im Abendlicht",
             "cs": "Široký pohled na kašnu, nádvoří a město při západu slunce"
           }
+        },
+        "/assets/round24h-20261022/bastion-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (2).jpeg",
+          "sourceSHA256": "017019993b8ac62ecef0b285c5c8e0d25cc836d9e3f4552648ab146a13d15bca",
+          "assetSHA256": "5819dd37e8ad44417d2f17f5725a8b94dc25f139f727aa63422a16c2804279d5",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "סלפי בעת הביקור בבסטיון",
+            "en": "Self-portrait during the bastion visit",
+            "pl": "Autoportret podczas wizyty na bastionie",
+            "de": "Selbstporträt beim Besuch der Bastion",
+            "cs": "Autoportrét během návštěvy bašty"
+          },
+          "caption": {
+            "he": "סלפי בעת הביקור בבסטיון",
+            "en": "Self-portrait during the bastion visit",
+            "pl": "Autoportret podczas wizyty na bastionie",
+            "de": "Selbstporträt beim Besuch der Bastion",
+            "cs": "Autoportrét během návštěvy bašty"
+          },
+          "approvalCall": "call_4fd43e555b1f4b02965081a3dc4381b5",
+          "privacyClassification": "Specific user-approved foreground self-portrait"
+        },
+        "/assets/round24h-20261022/bastion-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58 (3).jpeg",
+          "sourceSHA256": "e484a84835e7b24473dc750a7cc96d79626532638274b84dce0a9d767034d8d6",
+          "assetSHA256": "86883f50aa969bfaa1e0d666791dd20e102dda3780b63c309e1a01e15a0a8e79",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "נוף העיר מהבסטיון בשקיעה",
+            "en": "City view from the bastion at sunset",
+            "pl": "Widok na miasto z bastionu o zachodzie słońca",
+            "de": "Stadtblick von der Bastion bei Sonnenuntergang",
+            "cs": "Výhled na město z bašty při západu slunce"
+          },
+          "caption": {
+            "he": "נוף העיר מהבסטיון בשקיעה",
+            "en": "City view from the bastion at sunset",
+            "pl": "Widok na miasto z bastionu o zachodzie słońca",
+            "de": "Stadtblick von der Bastion bei Sonnenuntergang",
+            "cs": "Výhled na město z bašty při západu slunce"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/bastion-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.17.jpeg",
+          "sourceSHA256": "b6a19622699d0b6d9f3720770b34200298357015a6bb6845923a1906567e59c8",
+          "assetSHA256": "950b799a35996758a0bac233810ab245bdcc443b2bdcee2897b0898938e81eb5",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "רחבת התצפית ומבקרים בבסטיון בשקיעה",
+            "en": "Viewing terrace and visitors at the bastion at sunset",
+            "pl": "Taras widokowy i zwiedzający na bastionie o zachodzie słońca",
+            "de": "Aussichtsterrasse und Besucher an der Bastion bei Sonnenuntergang",
+            "cs": "Vyhlídková terasa a návštěvníci na baště při západu slunce"
+          },
+          "caption": {
+            "he": "רחבת התצפית ומבקרים בבסטיון בשקיעה",
+            "en": "Viewing terrace and visitors at the bastion at sunset",
+            "pl": "Taras widokowy i zwiedzający na bastionie o zachodzie słońca",
+            "de": "Aussichtsterrasse und Besucher an der Bastion bei Sonnenuntergang",
+            "cs": "Vyhlídková terasa a návštěvníci na baště při západu slunce"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/bastion-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-20 at 13.36.19 (1).jpeg",
+          "sourceSHA256": "25a42dece2af1d5ebee33f2d7e9bf244bd578892e44338b59bfeeccf4e41304b",
+          "assetSHA256": "2ae7f70f08a98fc3a0b9c0c49e16d44bf890cee668698bd2e347e0dfa5a0bbb0",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "בריכת המזרקה והעיר במבט מהקומה העליונה",
+            "en": "Fountain basin and city seen from the upper level",
+            "pl": "Basen fontanny i miasto widziane z górnego poziomu",
+            "de": "Brunnenbecken und Stadt von der oberen Ebene aus",
+            "cs": "Bazén fontány a město při pohledu z horní úrovně"
+          },
+          "caption": {
+            "he": "בריכת המזרקה והעיר במבט מהקומה העליונה",
+            "en": "Fountain basin and city seen from the upper level",
+            "pl": "Basen fontanny i miasto widziane z górnego poziomu",
+            "de": "Brunnenbecken und Stadt von der oberen Ebene aus",
+            "cs": "Bazén fontány a město při pohledu z horní úrovně"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/bastion-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Image 2026-10-05 at 18.26.58.jpeg",
+          "sourceSHA256": "6422b43d199e6fc2d2bbfc9ab7172610365352d92d02367786b86d3199972709",
+          "assetSHA256": "57318c3d7780087946cafa9ca4dd4dd6ed46968106511963b7fbb46cebcfc999",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "תמונת מבקרת בעת הביקור בבסטיון",
+            "en": "Visitor portrait during the bastion visit",
+            "pl": "Portret odwiedzającej podczas wizyty na bastionie",
+            "de": "Besucherporträt beim Besuch der Bastion",
+            "cs": "Portrét návštěvnice během návštěvy bašty"
+          },
+          "caption": {
+            "he": "תמונת מבקרת בעת הביקור בבסטיון",
+            "en": "Visitor portrait during the bastion visit",
+            "pl": "Portret odwiedzającej podczas wizyty na bastionie",
+            "de": "Besucherporträt beim Besuch der Bastion",
+            "cs": "Portrét návštěvnice během návštěvy bašty"
+          },
+          "approvalCall": "call_ed45bc52f64e4d89afe767f77aa30ce4",
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved"
         }
       }
     },
@@ -8731,7 +8887,12 @@
       "photos": [
         "/assets/charlotte/charlotte-visit-01.jpg",
         "/assets/charlotte/charlotte-visit-02.jpg",
-        "/assets/charlotte/charlotte-visit-03.jpg"
+        "/assets/charlotte/charlotte-visit-03.jpg",
+        "/assets/round24h-20261022/charlotte-00.jpg",
+        "/assets/round24h-20261022/charlotte-02.jpg",
+        "/assets/round24h-20261022/charlotte-03.jpg",
+        "/assets/round24h-20261022/charlotte-06.jpg",
+        "/assets/round24h-20261022/charlotte-07.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/3QY6HJLV84o",
@@ -8850,6 +9011,161 @@
             "de": "Pokoyhof-Innenhof und Charlotte",
             "cs": "Dvůr Pokoyhof a Charlotte"
           }
+        },
+        "/assets/round24h-20261022/charlotte-00.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-07-13 at 19.48.01 (2).jpeg",
+          "sourceSHA256": "7de90df341f7502ba91934a448921d1585201f661282469ed8a7a6d70ff172c9",
+          "assetSHA256": "063936498fe9b1affcab53e7bd26f0444443361396aac4c93230b1c727c7fd1c",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "חצר שרלוט מזווית נוספת",
+            "en": "Charlotte courtyard from another angle",
+            "pl": "Dziedziniec Charlotte z innej perspektywy",
+            "de": "Charlotte-Innenhof aus einem anderen Blickwinkel",
+            "cs": "Nádvoří Charlotte z dalšího úhlu"
+          },
+          "caption": {
+            "he": "חצר שרלוט מזווית נוספת",
+            "en": "Charlotte courtyard from another angle",
+            "pl": "Dziedziniec Charlotte z innej perspektywy",
+            "de": "Charlotte-Innenhof aus einem anderen Blickwinkel",
+            "cs": "Nádvoří Charlotte z dalšího úhlu"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/charlotte-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-05 at 18.27.31 (6).jpeg",
+          "sourceSHA256": "c7dd603fbb9275c5e3b95cfb8b151ea3b393b55a64d9e8c45918b9baa0494cae",
+          "assetSHA256": "5ab9176729b3f064f73d90b49a3a213e338041ed9afd8384b97f9d2570fb9a5b",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "דלפק וחלל הפנים בשרלוט",
+            "en": "Counter and interior at Charlotte",
+            "pl": "Lada i wnętrze Charlotte",
+            "de": "Theke und Innenraum bei Charlotte",
+            "cs": "Pult a interiér Charlotte"
+          },
+          "caption": {
+            "he": "דלפק וחלל הפנים בשרלוט",
+            "en": "Counter and interior at Charlotte",
+            "pl": "Lada i wnętrze Charlotte",
+            "de": "Theke und Innenraum bei Charlotte",
+            "cs": "Pult a interiér Charlotte"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/charlotte-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-05 at 18.27.31.jpeg",
+          "sourceSHA256": "b1cd5d0f420b7e3c43c8d8b0344f3851dea5f66c641978960addcca2a9e71001",
+          "assetSHA256": "d83d0ce76edde9183dda11cde9b243e6242712a1df80699f4520abf65dcbc0f5",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "תצוגת הלחמים והדלפק בשרלוט",
+            "en": "Bread display and counter at Charlotte",
+            "pl": "Ekspozycja pieczywa i lada w Charlotte",
+            "de": "Brotauslage und Theke bei Charlotte",
+            "cs": "Vystavené pečivo a pult v Charlotte"
+          },
+          "caption": {
+            "he": "תצוגת הלחמים והדלפק בשרלוט",
+            "en": "Bread display and counter at Charlotte",
+            "pl": "Ekspozycja pieczywa i lada w Charlotte",
+            "de": "Brotauslage und Theke bei Charlotte",
+            "cs": "Vystavené pečivo a pult v Charlotte"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/charlotte-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-21 at 21.12.00.jpeg",
+          "sourceSHA256": "2aa5264cb3f0c8459b3b9ee05c064d028c2ba5a047bf6fbb7466ffcadfbd32c9",
+          "assetSHA256": "a784b112a59bb7594fd80b0d849fb85740c059f27a20188939899396e8934890",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "כריכת התפריט שצולמה בביקור בשרלוט",
+            "en": "Menu cover photographed during the Charlotte visit",
+            "pl": "Okładka menu sfotografowana podczas wizyty w Charlotte",
+            "de": "Beim Besuch fotografierter Menüumschlag von Charlotte",
+            "cs": "Obálka jídelního lístku vyfotografovaná při návštěvě Charlotte"
+          },
+          "caption": {
+            "he": "כריכת התפריט שצולמה בביקור בשרלוט",
+            "en": "Menu cover photographed during the Charlotte visit",
+            "pl": "Okładka menu sfotografowana podczas wizyty w Charlotte",
+            "de": "Beim Besuch fotografierter Menüumschlag von Charlotte",
+            "cs": "Obálka jídelního lístku vyfotografovaná při návštěvě Charlotte"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/charlotte-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Image 2026-10-21 at 21.12.02 (2).jpeg",
+          "sourceSHA256": "9bbc3b66420999b7ad45d53061e770217eac966acfd04bc3e07e521f0a0f566e",
+          "assetSHA256": "d8d12b354787543d91b7726a417b7b6c3389112d1a426643911a7e89358aa710",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "שלט שרלוט והחזית במבט כלפי מעלה",
+            "en": "Charlotte sign and façade viewed from below",
+            "pl": "Szyld Charlotte i elewacja widziane od dołu",
+            "de": "Charlotte-Schild und Fassade von unten gesehen",
+            "cs": "Nápis Charlotte a průčelí při pohledu zdola"
+          },
+          "caption": {
+            "he": "שלט שרלוט והחזית במבט כלפי מעלה",
+            "en": "Charlotte sign and façade viewed from below",
+            "pl": "Szyld Charlotte i elewacja widziane od dołu",
+            "de": "Charlotte-Schild und Fassade von unten gesehen",
+            "cs": "Nápis Charlotte a průčelí při pohledu zdola"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
         }
       }
     },
@@ -12327,7 +12643,10 @@
     "media": {
       "thumbnail": "/assets/galeria-dominikanska-02.jpg",
       "photos": [
-        "/assets/galeria-dominikanska-02.jpg"
+        "/assets/galeria-dominikanska-02.jpg",
+        "/assets/round24h-20261022/dominikan-01.jpg",
+        "/assets/round24h-20261022/dominikan-02.jpg",
+        "/assets/round24h-20261022/dominikan-03.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -12336,6 +12655,99 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23 (1).jpeg",
           "sourceSHA256": "8eaeb63587f210982114e45a103d623ad40903849b1a5ab2d330df62901bc2b5",
           "assetSHA256": "a64e4a33909504777c8a12ffe7b359303a93110c95ff348025510eac319ba303"
+        },
+        "/assets/round24h-20261022/dominikan-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23 (2).jpeg",
+          "sourceSHA256": "17a70468faeb8087d286eb67f8a83de822669c1ab4a2fa48d5c96ac0f3724066",
+          "assetSHA256": "080bbbe1202ecd1a16f5eef2904785b229a5ec8950238ed818839f4893de2ec4",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "מבט נוסף על האטריום בגלריה דומיניקנסקה",
+            "en": "Another view of the Galeria Dominikańska atrium",
+            "pl": "Kolejny widok atrium Galerii Dominikańskiej",
+            "de": "Weitere Ansicht des Atriums der Galeria Dominikańska",
+            "cs": "Další pohled na atrium Galerie Dominikańské"
+          },
+          "caption": {
+            "he": "מבט נוסף על האטריום בגלריה דומיניקנסקה",
+            "en": "Another view of the Galeria Dominikańska atrium",
+            "pl": "Kolejny widok atrium Galerii Dominikańskiej",
+            "de": "Weitere Ansicht des Atriums der Galeria Dominikańska",
+            "cs": "Další pohled na atrium Galerie Dominikańské"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/dominikan-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23 (3).jpeg",
+          "sourceSHA256": "ef997bc6acdd9193e5135e2437ab089e9655d4a5f176cc59f87f94da66557419",
+          "assetSHA256": "eb0db0b581dd61acf4318cd5048eefcb35c9f0dc4063c3d07f131a5270739e84",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "דוכנים ומבקרים במעבר הקניון",
+            "en": "Stalls and shoppers in the shopping-centre passage",
+            "pl": "Stoiska i klienci w pasażu centrum handlowego",
+            "de": "Stände und Besucher in der Einkaufspassage",
+            "cs": "Stánky a návštěvníci v pasáži nákupního centra"
+          },
+          "caption": {
+            "he": "דוכנים ומבקרים במעבר הקניון",
+            "en": "Stalls and shoppers in the shopping-centre passage",
+            "pl": "Stoiska i klienci w pasażu centrum handlowego",
+            "de": "Stände und Besucher in der Einkaufspassage",
+            "cs": "Stánky a návštěvníci v pasáži nákupního centra"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/dominikan-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/GALERIA DOMINIKANA/WhatsApp Image 2026-07-30 at 16.05.23.jpeg",
+          "sourceSHA256": "919c88d4338d09c80da83b061d6afa6a5b34a3d090885d5567b902e53f6a0864",
+          "assetSHA256": "fd51c97565adea1f45af6562d39fedbd259e103dab36203cc69917a336d27401",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "חזית גלריה דומיניקנסקה מהרחוב",
+            "en": "Galeria Dominikańska façade from the street",
+            "pl": "Elewacja Galerii Dominikańskiej od ulicy",
+            "de": "Fassade der Galeria Dominikańska von der Straße aus",
+            "cs": "Průčelí Galerie Dominikańské z ulice"
+          },
+          "caption": {
+            "he": "חזית גלריה דומיניקנסקה מהרחוב",
+            "en": "Galeria Dominikańska façade from the street",
+            "pl": "Elewacja Galerii Dominikańskiej od ulicy",
+            "de": "Fassade der Galeria Dominikańska von der Straße aus",
+            "cs": "Průčelí Galerie Dominikańské z ulice"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
         }
       }
     },
@@ -29062,7 +29474,15 @@
         "/assets/morskie-oko-refresh/morskie-oko-29.jpg",
         "/assets/morskie-oko-refresh/morskie-oko-31.jpg",
         "/assets/morskie-oko-refresh/morskie-oko-33.jpg",
-        "/assets/morskie-oko-refresh/morskie-oko-35.jpg"
+        "/assets/morskie-oko-refresh/morskie-oko-35.jpg",
+        "/assets/round24h-20261022/morskie-12.jpg",
+        "/assets/round24h-20261022/morskie-18.jpg",
+        "/assets/round24h-20261022/morskie-20.jpg",
+        "/assets/round24h-20261022/morskie-23.jpg",
+        "/assets/round24h-20261022/morskie-26.jpg",
+        "/assets/round24h-20261022/morskie-29.jpg",
+        "/assets/round24h-20261022/morskie-31.jpg",
+        "/assets/round24h-20261022/morskie-33.jpg"
       ],
       "videos": [
         "/assets/morskie-oko-video-01.mp4",
@@ -29147,6 +29567,254 @@
             "neighborhood"
           ],
           "original": true
+        },
+        "/assets/round24h-20261022/morskie-12.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4603.JPG",
+          "sourceSHA256": "6c5b60d1f40ea51f8c67bf4d9e0d03eb5a4a26808968baf666e768491afbe904",
+          "assetSHA256": "89402495a76ef9e38c2d2504e7c7d2d70048dc3aebf68f531d45597917403d88",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "פעילות ספורט בחוף מורסקיה אוקו",
+            "en": "Beach sports at Morskie Oko",
+            "pl": "Sport na plaży Morskiego Oka",
+            "de": "Strandsport am Morskie Oko",
+            "cs": "Sport na pláži Morskie Oko"
+          },
+          "caption": {
+            "he": "פעילות ספורט בחוף מורסקיה אוקו",
+            "en": "Beach sports at Morskie Oko",
+            "pl": "Sport na plaży Morskiego Oka",
+            "de": "Strandsport am Morskie Oko",
+            "cs": "Sport na pláži Morskie Oko"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/morskie-18.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4613.JPG",
+          "sourceSHA256": "990fa3e1acf5c3f568f7d37efd8780634d42a7972a1aa3da56a8de79a9fcc132",
+          "assetSHA256": "57487ea9b357159f5f39f0a64c8b6f24bfc0b77682b7e1dc5a68f56851619c08",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+            "en": "Another view of the beach and visitors at Morskie Oko",
+            "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+            "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+            "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+          },
+          "caption": {
+            "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+            "en": "Another view of the beach and visitors at Morskie Oko",
+            "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+            "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+            "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/morskie-20.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4616.JPG",
+          "sourceSHA256": "20261c83c87baac43972b39aa1347f7c41e8df4435c623d963958c77d7a6484f",
+          "assetSHA256": "7df98ac2ef0c8982a859a10ee4157e524e811d4422b5dbad5e99ce9ba17a3953",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+            "en": "Another view of the beach and visitors at Morskie Oko",
+            "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+            "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+            "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+          },
+          "caption": {
+            "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+            "en": "Another view of the beach and visitors at Morskie Oko",
+            "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+            "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+            "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/morskie-23.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4619.JPG",
+          "sourceSHA256": "6f8dd8497c6098fa56f336c2b4e3b621711dedff32ccb241f95b831b9bef7258",
+          "assetSHA256": "1fb678cce599524e3bd480a50b7d2b401386e81e211d3a84e06db56ae644e224",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+            "en": "Another view of the beach and visitors at Morskie Oko",
+            "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+            "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+            "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+          },
+          "caption": {
+            "he": "מבט נוסף על החוף ומבקריו במורסקיה אוקו",
+            "en": "Another view of the beach and visitors at Morskie Oko",
+            "pl": "Kolejny widok plaży i odwiedzających Morskie Oko",
+            "de": "Weitere Ansicht des Strands und der Besucher am Morskie Oko",
+            "cs": "Další pohled na pláž a návštěvníky Morskie Oko"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/morskie-26.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4622.JPG",
+          "sourceSHA256": "ffd3f5dfa17a55cd98c1cce4978e4f13c204908cf5764cb7ce2f85fc15b37fa3",
+          "assetSHA256": "cee8f684ded96831e818d373459896ab67903cd17ba806cb055149d5deb267c6",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "כיסאות נוח בצל העצים ליד החוף",
+            "en": "Deckchairs in the shade beside the beach",
+            "pl": "Leżaki w cieniu drzew przy plaży",
+            "de": "Liegestühle im Schatten am Strand",
+            "cs": "Lehátka ve stínu stromů u pláže"
+          },
+          "caption": {
+            "he": "כיסאות נוח בצל העצים ליד החוף",
+            "en": "Deckchairs in the shade beside the beach",
+            "pl": "Leżaki w cieniu drzew przy plaży",
+            "de": "Liegestühle im Schatten am Strand",
+            "cs": "Lehátka ve stínu stromů u pláže"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/morskie-29.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4625.JPG",
+          "sourceSHA256": "4879be10364ef8786420619315b1ea64c9b2251dc4deac161266b5fcb1c66936",
+          "assetSHA256": "3f0ae59ebf485931052b08ffd60c6f8dc11f26fac86bed771daefccb0d85ab02",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "דוכן גלידה בעת הביקור בחוף",
+            "en": "Ice-cream stand during the beach visit",
+            "pl": "Stoisko z lodami podczas wizyty na plaży",
+            "de": "Eisstand beim Strandbesuch",
+            "cs": "Stánek se zmrzlinou během návštěvy pláže"
+          },
+          "caption": {
+            "he": "דוכן גלידה בעת הביקור בחוף",
+            "en": "Ice-cream stand during the beach visit",
+            "pl": "Stoisko z lodami podczas wizyty na plaży",
+            "de": "Eisstand beim Strandbesuch",
+            "cs": "Stánek se zmrzlinou během návštěvy pláže"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/morskie-31.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4628.JPG",
+          "sourceSHA256": "124d58c938cae9e6fab106152554af92a569b64f80cf4d1aaa206cdfc1f9b4f7",
+          "assetSHA256": "ebe7534795a0fdfb2e06bca5e4a716c9ddb96396bdded74f98fb3901b42e6837",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "צמיד הכניסה שצולם בזמן הביקור בחוף",
+            "en": "Admission wristband photographed during the beach visit",
+            "pl": "Opaska wstępu sfotografowana podczas wizyty na plaży",
+            "de": "Beim Strandbesuch fotografiertes Eintrittsarmband",
+            "cs": "Vstupní náramek vyfotografovaný během návštěvy pláže"
+          },
+          "caption": {
+            "he": "צמיד הכניסה שצולם בזמן הביקור בחוף",
+            "en": "Admission wristband photographed during the beach visit",
+            "pl": "Opaska wstępu sfotografowana podczas wizyty na plaży",
+            "de": "Beim Strandbesuch fotografiertes Eintrittsarmband",
+            "cs": "Vstupní náramek vyfotografovaný během návštěvy pláže"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/morskie-33.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/IMG_4630.JPG",
+          "sourceSHA256": "cbfedd1de053728600bbab50e3a128feb46303cefec5b0c6dbf1954b28c6ff85",
+          "assetSHA256": "5833fc663f1bbb382867315b587d557a7677276076aa515651a7191784c60074",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "לוח מידע ומחירים ממועד הביקור; אינו מחירון עדכני",
+            "en": "Information and prices photographed during the visit; not current prices",
+            "pl": "Informacje i ceny sfotografowane podczas wizyty; nie jest to aktualny cennik",
+            "de": "Beim Besuch fotografierte Informationen und Preise; keine aktuellen Preise",
+            "cs": "Informace a ceny vyfotografované při návštěvě; nejde o aktuální ceník"
+          },
+          "caption": {
+            "he": "לוח מידע ומחירים ממועד הביקור; אינו מחירון עדכני",
+            "en": "Information and prices photographed during the visit; not current prices",
+            "pl": "Informacje i ceny sfotografowane podczas wizyty; nie jest to aktualny cennik",
+            "de": "Beim Besuch fotografierte Informationen und Preise; keine aktuellen Preise",
+            "cs": "Informace a ceny vyfotografované při návštěvě; nejde o aktuální ceník"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
         }
       }
     },
@@ -36127,7 +36795,12 @@
         "/assets/szczytnicki-park/szczytnicki-park-01.jpg",
         "/assets/szczytnicki-park/szczytnicki-park-02.jpg",
         "/assets/szczytnicki-park/szczytnicki-park-03.jpg",
-        "/assets/szczytnicki-park/szczytnicki-park-04.jpg"
+        "/assets/szczytnicki-park/szczytnicki-park-04.jpg",
+        "/assets/round24h-20261022/park-00.jpg",
+        "/assets/round24h-20261022/park-01.jpg",
+        "/assets/round24h-20261022/park-05.jpg",
+        "/assets/round24h-20261022/park-07.jpg",
+        "/assets/round24h-20261022/park-09.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/QWyefecg6RQ",
@@ -36183,6 +36856,161 @@
           "audio": "Removed from publication copy; original preserved",
           "status": "public",
           "verifiedAt": "2026-10-18"
+        },
+        "/assets/round24h-20261022/park-00.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/IMG_5744.JPG",
+          "sourceSHA256": "b1335919e00ec5447468bdc07ad44f593c2d32eab8663644f791d9644e04a343",
+          "assetSHA256": "9aa6c09423a094c8570d51d309155c948fed3feeb273082e356c23b54c103501",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "עץ ושביל בפארק שטניצקי",
+            "en": "Tree and path in Szczytnicki Park",
+            "pl": "Drzewo i ścieżka w Parku Szczytnickim",
+            "de": "Baum und Weg im Szczytnicki-Park",
+            "cs": "Strom a cesta ve Szczytnickém parku"
+          },
+          "caption": {
+            "he": "עץ ושביל בפארק שטניצקי",
+            "en": "Tree and path in Szczytnicki Park",
+            "pl": "Drzewo i ścieżka w Parku Szczytnickim",
+            "de": "Baum und Weg im Szczytnicki-Park",
+            "cs": "Strom a cesta ve Szczytnickém parku"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/park-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/IMG_5794 2.JPG",
+          "sourceSHA256": "68e5aa77e1648e0bdf7356569852624a2409816293a38f523e63cd7b10871f14",
+          "assetSHA256": "e7ed24654553ec09947c32e420839c87c0579842df833b6364b12ca219067ebe",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "מבט נוסף על העץ הנתמך בפארק",
+            "en": "Another view of the supported tree in the park",
+            "pl": "Kolejny widok podpartego drzewa w parku",
+            "de": "Weitere Ansicht des abgestützten Baums im Park",
+            "cs": "Další pohled na podepřený strom v parku"
+          },
+          "caption": {
+            "he": "מבט נוסף על העץ הנתמך בפארק",
+            "en": "Another view of the supported tree in the park",
+            "pl": "Kolejny widok podpartego drzewa w parku",
+            "de": "Weitere Ansicht des abgestützten Baums im Park",
+            "cs": "Další pohled na podepřený strom v parku"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/park-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Image 2026-09-24 at 17.33.46 (1).jpeg",
+          "sourceSHA256": "d0265e68c38e8d47c0f4239d3fd07438700cb5abe738b8dfbf7a166904f3259a",
+          "assetSHA256": "fb451d93c24f4c7675a8c23449a8f7ebf206de0739884cf07279133f17e4d5a8",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "מבט נוסף על העץ הנתמך בפארק",
+            "en": "Another view of the supported tree in the park",
+            "pl": "Kolejny widok podpartego drzewa w parku",
+            "de": "Weitere Ansicht des abgestützten Baums im Park",
+            "cs": "Další pohled na podepřený strom v parku"
+          },
+          "caption": {
+            "he": "מבט נוסף על העץ הנתמך בפארק",
+            "en": "Another view of the supported tree in the park",
+            "pl": "Kolejny widok podpartego drzewa w parku",
+            "de": "Weitere Ansicht des abgestützten Baums im Park",
+            "cs": "Další pohled na podepřený strom v parku"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/park-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Image 2026-09-24 at 17.33.47.jpeg",
+          "sourceSHA256": "7d2ee5cbf8a90430c70cea4701da7b20c8d33e41185c81b5a4e960bbd18cdd84",
+          "assetSHA256": "c3de748fe83692ed3dd6ce9dc8f5b1dfc831fd36fd1a46edaba15a5bf897758e",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "מבט נוסף על העץ הנתמך בפארק",
+            "en": "Another view of the supported tree in the park",
+            "pl": "Kolejny widok podpartego drzewa w parku",
+            "de": "Weitere Ansicht des abgestützten Baums im Park",
+            "cs": "Další pohled na podepřený strom v parku"
+          },
+          "caption": {
+            "he": "מבט נוסף על העץ הנתמך בפארק",
+            "en": "Another view of the supported tree in the park",
+            "pl": "Kolejny widok podpartego drzewa w parku",
+            "de": "Weitere Ansicht des abgestützten Baums im Park",
+            "cs": "Další pohled na podepřený strom v parku"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/park-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Image 2026-09-24 at 19.03.00 (23).jpeg",
+          "sourceSHA256": "e5dd38b7197b9cde76d422484cf0b3187aa53562733b6b7b0862188d5c2fd6ff",
+          "assetSHA256": "21e758a31117430bb4b33be7ecf6bef765a64dec120c8a53af53ff509c445b4a",
+          "sourceDimensions": [
+            900,
+            1600
+          ],
+          "assetDimensions": [
+            900,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "השתקפות העצים בבריכת הפארק",
+            "en": "Trees reflected in the park pond",
+            "pl": "Odbicie drzew w parkowym stawie",
+            "de": "Spiegelung der Bäume im Parkteich",
+            "cs": "Odraz stromů v parkovém jezírku"
+          },
+          "caption": {
+            "he": "השתקפות העצים בבריכת הפארק",
+            "en": "Trees reflected in the park pond",
+            "pl": "Odbicie drzew w parkowym stawie",
+            "de": "Spiegelung der Bäume im Parkteich",
+            "cs": "Odraz stromů v parkovém jezírku"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
         }
       }
     },
@@ -39755,7 +40583,20 @@
         "/assets/renoma-refresh-oct20-01.jpg",
         "/assets/renoma-refresh-oct20-02.jpg",
         "/assets/renoma-refresh-oct20-03.jpg",
-        "/assets/today-source-refresh-20261021/run4-043-renoma.jpg"
+        "/assets/today-source-refresh-20261021/run4-043-renoma.jpg",
+        "/assets/round24h-20261022/renoma-02.jpg",
+        "/assets/round24h-20261022/renoma-03.jpg",
+        "/assets/round24h-20261022/renoma-06.jpg",
+        "/assets/round24h-20261022/renoma-07.jpg",
+        "/assets/round24h-20261022/renoma-10.jpg",
+        "/assets/round24h-20261022/renoma-11.jpg",
+        "/assets/round24h-20261022/renoma-12.jpg",
+        "/assets/round24h-20261022/renoma-15.jpg",
+        "/assets/round24h-20261022/renoma-16.jpg",
+        "/assets/round24h-20261022/renoma-17.jpg",
+        "/assets/round24h-20261022/renoma-19.jpg",
+        "/assets/round24h-20261022/renoma-21.jpg",
+        "/assets/round24h-20261022/renoma-28.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/J3-FVZvzMGA"
@@ -39878,6 +40719,422 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "/assets/round24h-20261022/renoma-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-07-30 at 16.04.07 (1).jpeg",
+          "sourceSHA256": "414b611dc49ceedb25006c7bd14ab79050a91ba66002496729d754204250833e",
+          "assetSHA256": "791f1eb76a185ae1bba419776eb7339bf8565538fcd03cecf2c6eff2503db05d",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "פסל ליד חזית רנומה",
+            "en": "Sculpture beside the Renoma façade",
+            "pl": "Rzeźba przy elewacji Renomy",
+            "de": "Skulptur an der Renoma-Fassade",
+            "cs": "Socha u průčelí Renomy"
+          },
+          "caption": {
+            "he": "פסל ליד חזית רנומה",
+            "en": "Sculpture beside the Renoma façade",
+            "pl": "Rzeźba przy elewacji Renomy",
+            "de": "Skulptur an der Renoma-Fassade",
+            "cs": "Socha u průčelí Renomy"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-07-30 at 16.04.08 (1).jpeg",
+          "sourceSHA256": "3065f6dfc06f006c046175b976038bf939337d4701df2804bd1fcd60af5ce58b",
+          "assetSHA256": "f6bcde4eae37bafa89702301d8d2018c8079dca34f32099d969bb798a3040344",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "רנומה נראית מאחורי מבנה בפינת רחוב סמוך",
+            "en": "Renoma seen behind a building on a nearby street corner",
+            "pl": "Renoma widoczna za budynkiem na pobliskim rogu ulicy",
+            "de": "Renoma hinter einem Gebäude an einer nahen Straßenecke",
+            "cs": "Renoma za budovou na nedalekém rohu ulice"
+          },
+          "caption": {
+            "he": "רנומה נראית מאחורי מבנה בפינת רחוב סמוך",
+            "en": "Renoma seen behind a building on a nearby street corner",
+            "pl": "Renoma widoczna za budynkiem na pobliskim rogu ulicy",
+            "de": "Renoma hinter einem Gebäude an einer nahen Straßenecke",
+            "cs": "Renoma za budovou na nedalekém rohu ulice"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-01 at 09.28.23 (5).jpeg",
+          "sourceSHA256": "dc1222808c024746e8e136353dbde97776a9898a25af99286136444461eef91c",
+          "assetSHA256": "5b8b41ad4e46e5391f5a09f3a134f9bdde6c38c778132496e2a325f4929c010d",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "מבט נוסף על האטריום בתוך רנומה",
+            "en": "Another view of the atrium inside Renoma",
+            "pl": "Kolejny widok atrium wewnątrz Renomy",
+            "de": "Weitere Ansicht des Atriums in Renoma",
+            "cs": "Další pohled na atrium uvnitř Renomy"
+          },
+          "caption": {
+            "he": "מבט נוסף על האטריום בתוך רנומה",
+            "en": "Another view of the atrium inside Renoma",
+            "pl": "Kolejny widok atrium wewnątrz Renomy",
+            "de": "Weitere Ansicht des Atriums in Renoma",
+            "cs": "Další pohled na atrium uvnitř Renomy"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-01 at 09.28.23.jpeg",
+          "sourceSHA256": "051fcf5a588339e0f7281a4c95068a8fc765371048fd2ed7379afbd49cc73013",
+          "assetSHA256": "11a46da2c7465ca598aebe7f0b021bb35bb66e6bf9104bf593f78c0578edc109",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "חלל הפנים של רנומה מזווית נוספת",
+            "en": "Renoma interior from another angle",
+            "pl": "Wnętrze Renomy z innej perspektywy",
+            "de": "Renoma-Innenraum aus einem anderen Blickwinkel",
+            "cs": "Interiér Renomy z dalšího úhlu"
+          },
+          "caption": {
+            "he": "חלל הפנים של רנומה מזווית נוספת",
+            "en": "Renoma interior from another angle",
+            "pl": "Wnętrze Renomy z innej perspektywy",
+            "de": "Renoma-Innenraum aus einem anderen Blickwinkel",
+            "cs": "Interiér Renomy z dalšího úhlu"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-18 at 10.02.48 (2).jpeg",
+          "sourceSHA256": "2ae7e93d895d827a1c8c0d481dacf8d1ce954d5908f92a25e36bb14c8e28bc2a",
+          "assetSHA256": "9fc25c795b5bea91d592b2b4e2b10afa07599067c608327f834e00a483e97275",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "אזור קבלת המשרדים ברנומה",
+            "en": "Office reception area at Renoma",
+            "pl": "Recepcja biur w Renomie",
+            "de": "Empfangsbereich der Büros in Renoma",
+            "cs": "Recepce kanceláří v Renomě"
+          },
+          "caption": {
+            "he": "אזור קבלת המשרדים ברנומה",
+            "en": "Office reception area at Renoma",
+            "pl": "Recepcja biur w Renomie",
+            "de": "Empfangsbereich der Büros in Renoma",
+            "cs": "Recepce kanceláří v Renomě"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-11.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (1).jpeg",
+          "sourceSHA256": "240bbfc3c54de38367978532bfe6d0a01bbfc60323737f8ed9d469cbdca16746",
+          "assetSHA256": "d8bba13301c4cae9cfe1735664bc86362effb5ac73f3e044efd3f119b7cb1399",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "ראש מפוסל על חזית רנומה",
+            "en": "Sculpted head on the Renoma façade",
+            "pl": "Rzeźbiona głowa na elewacji Renomy",
+            "de": "Skulptierter Kopf an der Renoma-Fassade",
+            "cs": "Sochařsky ztvárněná hlava na průčelí Renomy"
+          },
+          "caption": {
+            "he": "ראש מפוסל על חזית רנומה",
+            "en": "Sculpted head on the Renoma façade",
+            "pl": "Rzeźbiona głowa na elewacji Renomy",
+            "de": "Skulptierter Kopf an der Renoma-Fassade",
+            "cs": "Sochařsky ztvárněná hlava na průčelí Renomy"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-12.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (10).jpeg",
+          "sourceSHA256": "2029f62948bf96481bba51766098155c62fa3f683d525943a38894d66cfb48c8",
+          "assetSHA256": "b1c88f25202d5b7a6891037ae63ecb796984f6ce408cf8ad7d64f21537054c4c",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "חזית רנומה במבט מהרחוב",
+            "en": "Renoma façade seen from the street",
+            "pl": "Elewacja Renomy widziana z ulicy",
+            "de": "Renoma-Fassade von der Straße aus",
+            "cs": "Průčelí Renomy při pohledu z ulice"
+          },
+          "caption": {
+            "he": "חזית רנומה במבט מהרחוב",
+            "en": "Renoma façade seen from the street",
+            "pl": "Elewacja Renomy widziana z ulicy",
+            "de": "Renoma-Fassade von der Straße aus",
+            "cs": "Průčelí Renomy při pohledu z ulice"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-15.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (3).jpeg",
+          "sourceSHA256": "e79f9bf416903b2ccd9510dc8480d791d5ca9b581fe50e11f79c7d69b832b668",
+          "assetSHA256": "9e45141d63a7c6100d1736615b5abfb1f22a1539778c8f7e5a25ac260ae8b523",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "ראשי הפיסול לאורך חזית רנומה",
+            "en": "Sculpted heads along the Renoma façade",
+            "pl": "Rzeźbione głowy wzdłuż elewacji Renomy",
+            "de": "Skulptierte Köpfe entlang der Renoma-Fassade",
+            "cs": "Sochařské hlavy podél průčelí Renomy"
+          },
+          "caption": {
+            "he": "ראשי הפיסול לאורך חזית רנומה",
+            "en": "Sculpted heads along the Renoma façade",
+            "pl": "Rzeźbione głowy wzdłuż elewacji Renomy",
+            "de": "Skulptierte Köpfe entlang der Renoma-Fassade",
+            "cs": "Sochařské hlavy podél průčelí Renomy"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-16.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (4).jpeg",
+          "sourceSHA256": "3b062581cbe7cb33877a7a3cb75867d2ed4fb2ec969f88fc40720c180485e70d",
+          "assetSHA256": "284234012bccb84c2419736ade486b10aa4b3a4b6d263d85bf4fe478ebcb7eff",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "חזית רנומה והפינה המעוגלת",
+            "en": "Renoma façade and rounded corner",
+            "pl": "Elewacja Renomy i zaokrąglony narożnik",
+            "de": "Renoma-Fassade und abgerundete Ecke",
+            "cs": "Průčelí Renomy a zaoblený roh"
+          },
+          "caption": {
+            "he": "חזית רנומה והפינה המעוגלת",
+            "en": "Renoma façade and rounded corner",
+            "pl": "Elewacja Renomy i zaokrąglony narożnik",
+            "de": "Renoma-Fassade und abgerundete Ecke",
+            "cs": "Průčelí Renomy a zaoblený roh"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-17.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (5).jpeg",
+          "sourceSHA256": "e6be8907b3996c0b51bd3358c7cda041febcf7b01fcdff863dc6a8c55a55569e",
+          "assetSHA256": "034e59dde5db67602a53ee4866535219bb4062ad7fabb331c2c7c603addf66f9",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "מבט נוסף על הפינה המעוגלת של רנומה",
+            "en": "Another view of Renoma’s rounded corner",
+            "pl": "Kolejny widok zaokrąglonego narożnika Renomy",
+            "de": "Weitere Ansicht der abgerundeten Ecke von Renoma",
+            "cs": "Další pohled na zaoblený roh Renomy"
+          },
+          "caption": {
+            "he": "מבט נוסף על הפינה המעוגלת של רנומה",
+            "en": "Another view of Renoma’s rounded corner",
+            "pl": "Kolejny widok zaokrąglonego narożnika Renomy",
+            "de": "Weitere Ansicht der abgerundeten Ecke von Renoma",
+            "cs": "Další pohled na zaoblený roh Renomy"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-19.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (7).jpeg",
+          "sourceSHA256": "093597954c3138a36217bf51c6b4dfd96f2b9881e542585fd382398841f4a1b2",
+          "assetSHA256": "ccc55b60aa86a1570b7de41ab6f95a7c214cc0c91d1fb3236befeab19395c1c3",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "חזית רנומה והמרחב שלפניה",
+            "en": "Renoma façade and the space in front",
+            "pl": "Elewacja Renomy i przestrzeń przed nią",
+            "de": "Renoma-Fassade und Vorplatz",
+            "cs": "Průčelí Renomy a prostor před ním"
+          },
+          "caption": {
+            "he": "חזית רנומה והמרחב שלפניה",
+            "en": "Renoma façade and the space in front",
+            "pl": "Elewacja Renomy i przestrzeń przed nią",
+            "de": "Renoma-Fassade und Vorplatz",
+            "cs": "Průčelí Renomy a prostor před ním"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-21.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-19 at 10.15.24 (9).jpeg",
+          "sourceSHA256": "31fe4c7138235b754411ccb6748e74d97ae91dcbcc63c2df44d7fb43cb81ab8f",
+          "assetSHA256": "a44b2f979c08732fe63c2a1f5c8691fbe8e19e78222f146a41ab3d02df453143",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "הכניסה הראשית לרנומה ביום",
+            "en": "Main Renoma entrance in daylight",
+            "pl": "Główne wejście do Renomy za dnia",
+            "de": "Haupteingang von Renoma bei Tageslicht",
+            "cs": "Hlavní vstup do Renomy za denního světla"
+          },
+          "caption": {
+            "he": "הכניסה הראשית לרנומה ביום",
+            "en": "Main Renoma entrance in daylight",
+            "pl": "Główne wejście do Renomy za dnia",
+            "de": "Haupteingang von Renoma bei Tageslicht",
+            "cs": "Hlavní vstup do Renomy za denního světla"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/renoma-28.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Renoma/WhatsApp Image 2026-10-21 at 20.38.53 (33).jpeg",
+          "sourceSHA256": "d840c5087751e927ef4bacf6e8a709de3b4aaa6de5937e565a95bf06e934ecde",
+          "assetSHA256": "043c55a6cb4024a3ba32301fa5d75d436d2fc82c6e5e784bd707fc1c33a23465",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "ראש מפוסל בחזית רנומה המוארת בלילה",
+            "en": "Sculpted head on the illuminated Renoma façade at night",
+            "pl": "Rzeźbiona głowa na oświetlonej elewacji Renomy nocą",
+            "de": "Skulptierter Kopf an der nachts beleuchteten Renoma-Fassade",
+            "cs": "Sochařská hlava na nočně osvětleném průčelí Renomy"
+          },
+          "caption": {
+            "he": "ראש מפוסל בחזית רנומה המוארת בלילה",
+            "en": "Sculpted head on the illuminated Renoma façade at night",
+            "pl": "Rzeźbiona głowa na oświetlonej elewacji Renomy nocą",
+            "de": "Skulptierter Kopf an der nachts beleuchteten Renoma-Fassade",
+            "cs": "Sochařská hlava na nočně osvětleném průčelí Renomy"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
         }
       }
     },
@@ -42801,7 +44058,10 @@
         "/assets/stadion-olimpijski-14.jpg",
         "/assets/stadion-olimpijski-15.jpg",
         "/assets/stadion-olimpijski-16.jpg",
-        "/assets/stadion-olimpijski-17.jpg"
+        "/assets/stadion-olimpijski-17.jpg",
+        "/assets/round24h-20261022/olympic-19.jpg",
+        "/assets/round24h-20261022/olympic-21.jpg",
+        "/assets/round24h-20261022/olympic-22.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/P2yacrgX_eg",
@@ -42983,6 +44243,99 @@
           "uploadSHA256": "2bfe6f12d8c503a424283ee82b7ec5928b38cab2894ee53f2ee247d051fb1aed",
           "transformation": "Video stream copied without re-encoding, full original image sequence and duration; background audio omitted in upload work copy only.",
           "verifiedAt": "2026-10-19"
+        },
+        "/assets/round24h-20261022/olympic-19.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 10.28.46 (5).jpeg",
+          "sourceSHA256": "478f6160c5fe7d05e4c189fd2aa9b2504d0850e3c5a254934b3012d808443871",
+          "assetSHA256": "8df89163d9d3a78454d3eb0df01d0d0dee1036385e7379b3eae529204f53d45c",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "רחבת הזיכרון באצטדיון האולימפי מזווית נוספת",
+            "en": "Memorial forecourt at the Olympic Stadium from another angle",
+            "pl": "Plac pamięci przy Stadionie Olimpijskim z innej perspektywy",
+            "de": "Gedenkvorplatz am Olympiastadion aus einem anderen Blickwinkel",
+            "cs": "Pamětní prostranství u Olympijského stadionu z dalšího úhlu"
+          },
+          "caption": {
+            "he": "רחבת הזיכרון באצטדיון האולימפי מזווית נוספת",
+            "en": "Memorial forecourt at the Olympic Stadium from another angle",
+            "pl": "Plac pamięci przy Stadionie Olimpijskim z innej perspektywy",
+            "de": "Gedenkvorplatz am Olympiastadion aus einem anderen Blickwinkel",
+            "cs": "Pamětní prostranství u Olympijského stadionu z dalšího úhlu"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/olympic-21.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 16.33.27 (1).jpeg",
+          "sourceSHA256": "3cb7ce89119634ca52bbefb2238cbddc507df5990136a39072877357140b822c",
+          "assetSHA256": "5b73e566e426710151fe7c95e8e00d2a3c22b093517592d858620e0e373a1303",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "פרט שעון וסמל בשער האצטדיון האולימפי",
+            "en": "Clock and emblem detail at the Olympic Stadium gateway",
+            "pl": "Detal zegara i godła na bramie Stadionu Olimpijskiego",
+            "de": "Uhr und Wappen am Tor des Olympiastadions",
+            "cs": "Detail hodin a znaku na bráně Olympijského stadionu"
+          },
+          "caption": {
+            "he": "פרט שעון וסמל בשער האצטדיון האולימפי",
+            "en": "Clock and emblem detail at the Olympic Stadium gateway",
+            "pl": "Detal zegara i godła na bramie Stadionu Olimpijskiego",
+            "de": "Uhr und Wappen am Tor des Olympiastadions",
+            "cs": "Detail hodin a znaku na bráně Olympijského stadionu"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round24h-20261022/olympic-22.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Image 2026-10-19 at 16.33.27.jpeg",
+          "sourceSHA256": "a3206d14b936a025e4fcc639486de5271000e160915f507a803cb853470cf4dc",
+          "assetSHA256": "5fbc0e4588ace8f3d414a6512da0c4ea1f67487bc573761485194acb988f1379",
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; no crop; original retained",
+          "alt": {
+            "he": "שער האצטדיון האולימפי במבט מהרחבה",
+            "en": "Olympic Stadium gateway from the forecourt",
+            "pl": "Brama Stadionu Olimpijskiego widziana z placu",
+            "de": "Tor des Olympiastadions vom Vorplatz aus",
+            "cs": "Brána Olympijského stadionu z předního prostranství"
+          },
+          "caption": {
+            "he": "שער האצטדיון האולימפי במבט מהרחבה",
+            "en": "Olympic Stadium gateway from the forecourt",
+            "pl": "Brama Stadionu Olimpijskiego widziana z placu",
+            "de": "Tor des Olympiastadions vom Vorplatz aus",
+            "cs": "Brána Olympijského stadionu z předního prostranství"
+          },
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
         }
       }
     },
@@ -50075,7 +51428,10 @@
         "/assets/gallery-wroclavia-04.jpg",
         "/assets/gallery-wroclavia-05.jpg",
         "/assets/wroclavia-refresh-oct19-01.jpg",
-        "/assets/today-source-refresh-20261021/run3-00-wroclavia.jpg"
+        "/assets/today-source-refresh-20261021/run3-00-wroclavia.jpg",
+        "/assets/round24h-20261022/wroclavia-01.jpg",
+        "/assets/round24h-20261022/wroclavia-04.jpg",
+        "/assets/round24h-20261022/wroclavia-07.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/fTPTY-yic0o"
@@ -50105,6 +51461,102 @@
           },
           "verifiedAt": "2026-10-21T17:55:35.224654+00:00",
           "sourceRefreshRun": "2026-10-21-run3"
+        },
+        "/assets/round24h-20261022/wroclavia-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.01 (1).jpeg",
+          "sourceSHA256": "16b80ad13a7492a488e0bd8aa5cefb395153477c522e1eac33e0c9fc549ff83d",
+          "assetSHA256": "232285ba030f66b71b53e87b0749e3973c8d34b0ddce7cf176e88c2b56ab063d",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "מבט נוסף על חזית וורוצלביה",
+            "en": "Another view of the Wroclavia façade",
+            "pl": "Kolejny widok elewacji Wroclavii",
+            "de": "Weitere Ansicht der Wroclavia-Fassade",
+            "cs": "Další pohled na průčelí Wroclavie"
+          },
+          "caption": {
+            "he": "מבט נוסף על חזית וורוצלביה",
+            "en": "Another view of the Wroclavia façade",
+            "pl": "Kolejny widok elewacji Wroclavii",
+            "de": "Weitere Ansicht der Wroclavia-Fassade",
+            "cs": "Další pohled na průčelí Wroclavie"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/wroclavia-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.03.jpeg",
+          "sourceSHA256": "9744fbb76a34a86ef1d1940fb407837fd9b2d50125ecceaf6148ff94017e0123",
+          "assetSHA256": "2756508cfbc5c69ff9049e26e07d68b6d5f392965db6698263a50b07c483f92c",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "תרשים המרכז ממועד הביקור",
+            "en": "Shopping-centre directory photographed during the visit",
+            "pl": "Plan centrum sfotografowany podczas wizyty",
+            "de": "Verzeichnis des Einkaufszentrums, beim Besuch aufgenommen",
+            "cs": "Plán nákupního centra vyfotografovaný při návštěvě"
+          },
+          "caption": {
+            "he": "תרשים המרכז ממועד הביקור",
+            "en": "Shopping-centre directory photographed during the visit",
+            "pl": "Plan centrum sfotografowany podczas wizyty",
+            "de": "Verzeichnis des Einkaufszentrums, beim Besuch aufgenommen",
+            "cs": "Plán nákupního centra vyfotografovaný při návštěvě"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/wroclavia-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WROCLAWIA/WhatsApp Image 2026-07-30 at 16.04.06 (1).jpeg",
+          "sourceSHA256": "3e9205f2734658d27e25c9ac8581b499f2f57d5ea2b97e2dfc095bbf80f7095f",
+          "assetSHA256": "6e74a37ff427d1a2bab281a2597e297484447758e6cc46241e864b724dc5e878",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "מבט נוסף על האטריום בוורוצלביה",
+            "en": "Another view of the Wroclavia atrium",
+            "pl": "Kolejny widok atrium Wroclavii",
+            "de": "Weitere Ansicht des Atriums von Wroclavia",
+            "cs": "Další pohled na atrium Wroclavie"
+          },
+          "caption": {
+            "he": "מבט נוסף על האטריום בוורוצלביה",
+            "en": "Another view of the Wroclavia atrium",
+            "pl": "Kolejny widok atrium Wroclavii",
+            "de": "Weitere Ansicht des Atriums von Wroclavia",
+            "cs": "Další pohled na atrium Wroclavie"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
         }
       }
     },
@@ -51073,7 +52525,10 @@
         "/assets/today-source-refresh-20261021/run4-081-wroclaw-puppet-theatre.jpg",
         "/assets/today-source-refresh-20261021/run4-083-wroclaw-puppet-theatre.jpg",
         "/assets/today-source-refresh-20261021/run4-084-wroclaw-puppet-theatre.jpg",
-        "/assets/today-source-refresh-20261021/run4-088-wroclaw-puppet-theatre.jpg"
+        "/assets/today-source-refresh-20261021/run4-088-wroclaw-puppet-theatre.jpg",
+        "/assets/round24h-20261022/puppet-03.jpg",
+        "/assets/round24h-20261022/puppet-04.jpg",
+        "/assets/round24h-20261022/puppet-07.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=SIftmDgclcE"
@@ -51189,6 +52644,102 @@
           "savedPublicVerified": true,
           "reopenedVerified": true,
           "originalFullPictureAndDurationPreserved": true
+        },
+        "/assets/round24h-20261022/puppet-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05 (1).jpeg",
+          "sourceSHA256": "7005b047ad8bbfd47b4fc24b74c0fdc46caa4485c94262b6dbd5346e7913eec4",
+          "assetSHA256": "c81fd1b7206f8a23cc6f2e43020ee2c27ef63dc998b19df4b35aba852d2a7ec7",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "פרט מפוסל באזור תיאטרון הבובות",
+            "en": "Sculptural detail beside the Puppet Theatre",
+            "pl": "Detal rzeźbiarski obok Teatru Lalek",
+            "de": "Skulpturales Detail am Puppentheater",
+            "cs": "Sochařský detail u loutkového divadla"
+          },
+          "caption": {
+            "he": "פרט מפוסל באזור תיאטרון הבובות",
+            "en": "Sculptural detail beside the Puppet Theatre",
+            "pl": "Detal rzeźbiarski obok Teatru Lalek",
+            "de": "Skulpturales Detail am Puppentheater",
+            "cs": "Sochařský detail u loutkového divadla"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/puppet-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05 (2).jpeg",
+          "sourceSHA256": "2e8175c6331f3cc8334605508ac89f9436aaa5fe52ee0a3ea6f021d86bd0481a",
+          "assetSHA256": "fc20a5dc5d243292000fa2f9b7dcfca06f9cea46f009bebba313cd3bff0a41ef",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "דמות מפוסלת ליד תיאטרון הבובות",
+            "en": "Sculpted figure beside the Puppet Theatre",
+            "pl": "Rzeźbiona postać obok Teatru Lalek",
+            "de": "Skulpturale Figur am Puppentheater",
+            "cs": "Sochařská postava u loutkového divadla"
+          },
+          "caption": {
+            "he": "דמות מפוסלת ליד תיאטרון הבובות",
+            "en": "Sculpted figure beside the Puppet Theatre",
+            "pl": "Rzeźbiona postać obok Teatru Lalek",
+            "de": "Skulpturale Figur am Puppentheater",
+            "cs": "Sochařská postava u loutkového divadla"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
+        },
+        "/assets/round24h-20261022/puppet-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/תיאטרון הבובות/WhatsApp Image 2026-10-21 at 21.12.05.jpeg",
+          "sourceSHA256": "3379c9c885aac8c73dbcee183cd29f685f5a8d3681041760e2a1e6643956d3d7",
+          "assetSHA256": "1a4f08ee37c76b7fdfe1446defa8c75db8b97eadda23cf689cd8bc7af1a17ede",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved",
+          "alt": {
+            "he": "דמות נוספת בפיסול שליד תיאטרון הבובות",
+            "en": "Another sculpted figure beside the Puppet Theatre",
+            "pl": "Kolejna rzeźbiona postać obok Teatru Lalek",
+            "de": "Weitere skulpturale Figur am Puppentheater",
+            "cs": "Další sochařská postava u loutkového divadla"
+          },
+          "caption": {
+            "he": "דמות נוספת בפיסול שליד תיאטרון הבובות",
+            "en": "Another sculpted figure beside the Puppet Theatre",
+            "pl": "Kolejna rzeźbiona postać obok Teatru Lalek",
+            "de": "Weitere skulpturale Figur am Puppentheater",
+            "cs": "Další sochařská postava u loutkového divadla"
+          },
+          "approvalCall": null,
+          "privacyClassification": "Place/detail image, incidental public passers-by permitted"
         }
       }
     },
@@ -55351,8 +56902,8 @@
   "Mania Kuźnicza": "mania-al-taglio-kuznicza",
   "Mania Al Taglio": "mania-al-taglio-kuznicza",
   "Park Szczytnicki": "park-szczytnicki-wroclaw",
-  "Szczytnicki Park": "park-szczytnicki-wroclaw",
   "Scheitniger Park": "park-szczytnicki-wroclaw",
+  "Szczytnicki Park": "park-szczytnicki-wroclaw",
   "פארק שטניצקי": "park-szczytnicki-wroclaw",
   "פארק שצ׳יטניצקי": "park-szczytnicki-wroclaw",
   "מגנוליה פארק": "magnolia",
@@ -55362,13 +56913,13 @@
   "אטו ראמן": "ato-ramen",
   "Ato Ramen WRO": "ato-ramen",
   "ATO RAMEN Wrocław": "ato-ramen",
-  "הבסטיון": "bastion",
-  "בסטיון": "bastion",
-  "בסטיון סאקבובי": "bastion",
+  "Liebichshöhe": "bastion",
+  "Partisan Hill": "bastion",
   "Sakwowy Bastion": "bastion",
   "Wzgórze Partyzantów": "bastion",
-  "Partisan Hill": "bastion",
-  "Liebichshöhe": "bastion",
+  "בסטיון": "bastion",
+  "בסטיון סאקבובי": "bastion",
+  "הבסטיון": "bastion",
   "Cafe Berg": "cafe-berg-wroclaw",
   "Café Berg": "cafe-berg-wroclaw",
   "Kawiarnia Cafe Berg": "cafe-berg-wroclaw",
@@ -55430,9 +56981,9 @@
   "ברו": "bru-coffee-bakehouse-wroclaw",
   "קפה ברו": "bru-coffee-bakehouse-wroclaw",
   "Charlotte": "charlotte",
-  "שרלוט": "charlotte",
   "Charlotte Pasaż Pokoyhof": "charlotte",
   "Charlotte chleb i wino": "charlotte",
+  "שרלוט": "charlotte",
   "Dom Krasnali": "dwarf-info",
   "Dom Krasnali Wrocławskich": "dwarf-info",
   "Krasnal Info": "dwarf-info",
