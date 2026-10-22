@@ -15,15 +15,21 @@ test("Centennial Hall exposes its expanded canonical media everywhere", () => {
 
   const place = window.WROC_CATALOG.getPlace("hala");
   assert.ok(place);
-  assert.equal(place.media.photos.length, 12);
-  assert.equal(place.media.videos.length, 4);
+  assert.equal(place.media.photos.length, 17);
+  assert.equal(place.media.videos.length, 6);
   assert.equal(place.media.photos[0], "/assets/hala-stulecia-01.jpg");
   assert.equal(place.media.metadata[place.media.photos[0]].sourceFile, "IMG_5063.JPG");
   assert.equal(place.media.metadata[place.media.photos[0]].heroCandidate, true);
   assert.equal(place.media.videos[0], "/assets/hala-stulecia-visit.mp4");
   assert.equal(place.media.metadata[place.media.videos[0]].sourceFile, "IMG_5061.MOV");
   [...place.media.photos, ...place.media.videos].forEach((asset) => {
-    if (/\.(mp4|mov)$/i.test(asset)) {
+    if (/^https:\/\/(?:www\.)?youtube\.com\/watch\?v=/.test(asset)) {
+      const metadata = place.media.metadata[asset];
+      assert.equal(metadata.visibility, "Public");
+      assert.equal(metadata.publicReopened, true);
+      assert.equal(metadata.silent, true);
+      assert.ok(metadata.sourceSHA256);
+    } else if (/\.(mp4|mov)$/i.test(asset)) {
       const registry = JSON.parse(readFileSync(resolve(root, "data/youtube-media-migration.json"), "utf8"));
       assert.equal(registry[asset]?.status, "public");
       assert.match(registry[asset]?.youtube || "", /^https:\/\/youtube\.com\//);
