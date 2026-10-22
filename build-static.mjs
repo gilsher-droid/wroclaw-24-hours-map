@@ -34,6 +34,9 @@ for (const file of [
   "experiences.html",
   "experiences.js",
   "experiences.css",
+  "place-panel.js",
+  "place-panel.css",
+  "place-panel-copy.js",
   "styles.css",
   "home-excursions.css",
   "home-experiences.css",
@@ -85,6 +88,7 @@ const homeExperienceScripts = await Promise.all([
   "/site-actions.js", "/home-maps.js",
   "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
   "/data/canonical-experiences.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js",
+  "/place-panel.js", "/place-panel-copy.js", "/place-ai.js", "/place-ai-model.js",
   "/experiences.js", "/guide-video.js", "/youtube-video.js",
 ].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
 for (const file of ["index.html", "experiences.html"]) {
