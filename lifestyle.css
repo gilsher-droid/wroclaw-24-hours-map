@@ -260,3 +260,8 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 .media-grid img[src*="/full-enrichment-20261022-neighbourhood-piast/"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
 
 .media-grid img[src*="/full-enrichment-20261022-neighbourhood-piast/"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
+
+/* Full-picture assets from the authorized October22 source round. */
+.media-grid img[src*="/round24h-20261022/"],
+.media-grid img[src$="/feels-familiar/hala-chalka.jpg"],
+.media-grid img[src$="/feels-familiar/hala-bakery.jpg"] { height:auto; max-height:78vh; object-fit:contain; background:#f3f5f3; }
