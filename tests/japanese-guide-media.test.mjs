@@ -6,9 +6,9 @@ import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
 const root=resolve(import.meta.dirname,'..');
 function runtime(){const window={location:{origin:'https://wroc-love.com'}};const document={documentElement:{lang:'he'},addEventListener(){}};for(const file of ['data/place-catalog.js','data/youtube-video-hosting.js','youtube-video.js','guide-video.js'])runInNewContext(readFileSync(resolve(root,file),'utf8'),{window,document,console,URLSearchParams});return window;}
-test('Japanese Garden keeps existing gallery and adds only two unique photos and two public YouTube visit clips',()=>{
+test('Japanese Garden preserves its existing photos, two Public visits and newly approved full visit photograph',()=>{
  const w=runtime(),place=w.WROC_CATALOG.getPlace('japanese');
- assert.equal(place.media.photos.length,8);assert.equal(new Set(place.media.photos).size,8);
+ assert.equal(place.media.photos.length,9);assert.equal(new Set(place.media.photos).size,9);
  assert.deepEqual(Array.from(place.media.videos),['https://youtube.com/shorts/Ni0GwsP-uMg','https://youtube.com/shorts/OMuXVtwAkAA']);
  for(const url of place.media.videos){assert.equal(w.WROC_YOUTUBE_VIDEO.resolve(url),url);assert.equal(w.WROC_YOUTUBE_VIDEO_HOSTING[url].status,'public');assert.match(w.WROC_YOUTUBE_VIDEO.html(url),/youtube-nocookie\.com\/embed\//);}
  for(const asset of ['assets/japanese-visit-07.jpg','assets/japanese-visit-08.jpg'])assert.ok(existsSync(resolve(root,asset)));

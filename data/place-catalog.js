@@ -19589,6 +19589,19 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
       "photos": [
         "/assets/gallery-japanese-01.jpg",
@@ -19598,7 +19611,8 @@
         "/assets/gallery-japanese-05.jpg",
         "/assets/gallery-japanese-06.jpg",
         "/assets/japanese-visit-07.jpg",
-        "/assets/japanese-visit-08.jpg"
+        "/assets/japanese-visit-08.jpg",
+        "/assets/round24h-20261022/japanese-approved-05.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/Ni0GwsP-uMg",
@@ -19607,6 +19621,29 @@
       "guideVideos": {
         "he": "https://youtube.com/shorts/x39Gu8wchuA",
         "en": "https://youtube.com/shorts/anSJzrqzqqg"
+      },
+      "metadata": {
+        "/assets/round24h-20261022/japanese-approved-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5798.JPG",
+          "sourceSHA256": "a4feadee1ad041782e6a9ee3dd9f7a577b77bb16218f8424704b2ba2ebaef477",
+          "alt": {
+            "he": "צילום ביקור על הגשר מול בריכת הגן היפני",
+            "en": "Visit photograph on the bridge overlooking the Japanese Garden pond",
+            "pl": "Zdjęcie z wizyty na mostku nad stawem Ogrodu Japońskiego",
+            "de": "Besuchsfoto auf der Brücke am Teich des Japanischen Gartens",
+            "cs": "Fotografie z návštěvy na můstku nad jezírkem Japonské zahrady"
+          },
+          "caption": {
+            "he": "צילום ביקור על הגשר מול בריכת הגן היפני",
+            "en": "Visit photograph on the bridge overlooking the Japanese Garden pond",
+            "pl": "Zdjęcie z wizyty na mostku nad stawem Ogrodu Japońskiego",
+            "de": "Besuchsfoto auf der Brücke am Teich des Japanischen Gartens",
+            "cs": "Fotografie z návštěvy na můstku nad jezírkem Japonské zahrady"
+          },
+          "originalFullPicturePreserved": true,
+          "approvalCall": "call_64a7ea5779114d3daff52e641752d205",
+          "specificPhotoApproval": true
+        }
       }
     },
     "socialPosts": [
@@ -19836,19 +19873,6 @@
         "url": "https://www.instagram.com/p/DbgCVSbnL0Q/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "jas-malgosia": {
@@ -22779,7 +22803,30 @@
         "/assets/today-source-refresh-20261021/run4-143-kawiarenka-sw-jadwigi.jpg",
         "/assets/today-source-refresh-20261021/run4-144-kawiarenka-sw-jadwigi.jpg",
         "/assets/today-source-refresh-20261021/run4-020-kawiarenka-sw-jadwigi.jpg",
-        "/assets/today-source-refresh-20261021/run4-036-kawiarenka-sw-jadwigi.jpg"
+        "/assets/today-source-refresh-20261021/run4-036-kawiarenka-sw-jadwigi.jpg",
+        "/assets/round24h-20261022/jadwigi-00.jpg",
+        "/assets/round24h-20261022/jadwigi-05.jpg",
+        "/assets/round24h-20261022/jadwigi-15.jpg",
+        "/assets/round24h-20261022/jadwigi-16.jpg",
+        "/assets/round24h-20261022/jadwigi-17.jpg",
+        "/assets/round24h-20261022/jadwigi-18.jpg",
+        "/assets/round24h-20261022/jadwigi-19.jpg",
+        "/assets/round24h-20261022/jadwigi-20.jpg",
+        "/assets/round24h-20261022/jadwigi-21.jpg",
+        "/assets/round24h-20261022/jadwigi-22.jpg",
+        "/assets/round24h-20261022/jadwigi-23.jpg",
+        "/assets/round24h-20261022/jadwigi-24.jpg",
+        "/assets/round24h-20261022/jadwigi-25.jpg",
+        "/assets/round24h-20261022/jadwigi-26.jpg",
+        "/assets/round24h-20261022/jadwigi-28.jpg",
+        "/assets/round24h-20261022/jadwigi-29.jpg",
+        "/assets/round24h-20261022/jadwigi-30.jpg",
+        "/assets/round24h-20261022/jadwigi-31.jpg",
+        "/assets/round24h-20261022/jadwigi-33.jpg",
+        "/assets/round24h-20261022/jadwigi-35.jpg",
+        "/assets/round24h-20261022/jadwigi-36.jpg",
+        "/assets/round24h-20261022/jadwigi-37.jpg",
+        "/assets/round24h-20261022/jadwigi-39.jpg"
       ],
       "videos": [
         "/assets/food-cafes/jadwigi-visit-01.mp4",
@@ -22790,7 +22837,11 @@
         "/assets/food-cafes/jadwigi-visit-06.mp4",
         "/assets/food-cafes/jadwigi-visit-07.mp4",
         "/assets/food-cafes/jadwigi-visit-08.mp4",
-        "/assets/food-cafes/jadwigi-visit-09.mp4"
+        "/assets/food-cafes/jadwigi-visit-09.mp4",
+        "https://www.youtube.com/watch?v=TAx8BVgoE4o",
+        "https://www.youtube.com/watch?v=_P29hRybbWo",
+        "https://www.youtube.com/watch?v=XkUR5j41FuY",
+        "https://www.youtube.com/watch?v=ipIjtCTaA74"
       ],
       "metadata": {
         "/assets/food-cafes/jadwigi-cafe-01.jpg": {
@@ -23139,6 +23190,583 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "/assets/round24h-20261022/jadwigi-00.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.22.04 (3).jpeg",
+          "sourceSHA256": "4dc55eb8cc8e46f219d700b836e2633dcf9807e02ee35b08e9b5dfd6c9844315",
+          "alt": {
+            "he": "חצר בית הקפה והמבנים המקיפים אותה",
+            "en": "The café courtyard and surrounding buildings",
+            "pl": "Dziedziniec kawiarni i otaczające budynki",
+            "de": "Caféhof und umliegende Gebäude",
+            "cs": "Dvůr kavárny a okolní budovy"
+          },
+          "caption": {
+            "he": "חצר בית הקפה והמבנים המקיפים אותה",
+            "en": "The café courtyard and surrounding buildings",
+            "pl": "Dziedziniec kawiarni i otaczające budynki",
+            "de": "Caféhof und umliegende Gebäude",
+            "cs": "Dvůr kavárny a okolní budovy"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-05 at 18.28.34 (2).jpeg",
+          "sourceSHA256": "db054965bf431b4eb728fbb24ae2ddcd7d391fff5b71f3122aaa82eda92dd946",
+          "alt": {
+            "he": "צילום ביקור ליד שולחן בחצר בית הקפה",
+            "en": "A visit photograph at a table in the café courtyard",
+            "pl": "Zdjęcie z wizyty przy stoliku na dziedzińcu kawiarni",
+            "de": "Besuchsfoto an einem Tisch im Caféhof",
+            "cs": "Fotografie z návštěvy u stolku na dvoře kavárny"
+          },
+          "caption": {
+            "he": "צילום ביקור ליד שולחן בחצר בית הקפה",
+            "en": "A visit photograph at a table in the café courtyard",
+            "pl": "Zdjęcie z wizyty przy stoliku na dziedzińcu kawiarni",
+            "de": "Besuchsfoto an einem Tisch im Caféhof",
+            "cs": "Fotografie z návštěvy u stolku na dvoře kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Specific exact posed visit photo approved by user.",
+          "approvalCall": "call_1924ba7022b94bc6ba5dc388e7b96f9c",
+          "specificPhotoApproval": true
+        },
+        "/assets/round24h-20261022/jadwigi-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53 (1).jpeg",
+          "sourceSHA256": "d8b07c639e42a73f6d02233a21be2ebbec3cddb1685c34e1f52b4e4ccb5587bf",
+          "alt": {
+            "he": "מבט על ערוגות החצר באור השמש",
+            "en": "Courtyard planting beds in sunlight",
+            "pl": "Rabaty na dziedzińcu w słońcu",
+            "de": "Beete im sonnigen Innenhof",
+            "cs": "Záhony na slunném dvoře"
+          },
+          "caption": {
+            "he": "מבט על ערוגות החצר באור השמש",
+            "en": "Courtyard planting beds in sunlight",
+            "pl": "Rabaty na dziedzińcu w słońcu",
+            "de": "Beete im sonnigen Innenhof",
+            "cs": "Záhony na slunném dvoře"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53 (2).jpeg",
+          "sourceSHA256": "485772fc28243231345259c87efcc1d90b4413c17da312de5dc071ef61e9c37c",
+          "alt": {
+            "he": "שמשייה ושולחנות לצד מבנה החצר",
+            "en": "Parasol and tables beside the courtyard building",
+            "pl": "Parasol i stoliki przy budynku na dziedzińcu",
+            "de": "Sonnenschirm und Tische am Hofgebäude",
+            "cs": "Slunečník a stolky u budovy ve dvoře"
+          },
+          "caption": {
+            "he": "שמשייה ושולחנות לצד מבנה החצר",
+            "en": "Parasol and tables beside the courtyard building",
+            "pl": "Parasol i stoliki przy budynku na dziedzińcu",
+            "de": "Sonnenschirm und Tische am Hofgebäude",
+            "cs": "Slunečník a stolky u budovy ve dvoře"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53 (3).jpeg",
+          "sourceSHA256": "9a6c7534d4d8cb82f0d5b3792eadf0cb8fc2a8e402b939db393d01ab0089e4a9",
+          "alt": {
+            "he": "ספסל ושביל בגן בית הקפה",
+            "en": "A bench and path in the café garden",
+            "pl": "Ławka i ścieżka w ogrodzie kawiarni",
+            "de": "Bank und Weg im Cafégarten",
+            "cs": "Lavička a cesta v zahradě kavárny"
+          },
+          "caption": {
+            "he": "ספסל ושביל בגן בית הקפה",
+            "en": "A bench and path in the café garden",
+            "pl": "Ławka i ścieżka w ogrodzie kawiarni",
+            "de": "Bank und Weg im Cafégarten",
+            "cs": "Lavička a cesta v zahradě kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53 (4).jpeg",
+          "sourceSHA256": "1c4d974c43561ad3a11f027996a05278cde73a72a0c6d25fe76ebf167b516f08",
+          "alt": {
+            "he": "עצים ובניין בקצה גן בית הקפה",
+            "en": "Trees and a building at the edge of the café garden",
+            "pl": "Drzewa i budynek na skraju ogrodu kawiarni",
+            "de": "Bäume und Gebäude am Rand des Cafégartens",
+            "cs": "Stromy a budova na okraji zahrady kavárny"
+          },
+          "caption": {
+            "he": "עצים ובניין בקצה גן בית הקפה",
+            "en": "Trees and a building at the edge of the café garden",
+            "pl": "Drzewa i budynek na skraju ogrodu kawiarni",
+            "de": "Bäume und Gebäude am Rand des Cafégartens",
+            "cs": "Stromy a budova na okraji zahrady kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53 (5).jpeg",
+          "sourceSHA256": "c927970a2d35fc4296306a1f98988becdac8df336cd5b459dff276ef5b05bac8",
+          "alt": {
+            "he": "צלב בין עצי הגן שבמתחם",
+            "en": "A cross among the garden trees in the complex",
+            "pl": "Krzyż wśród drzew ogrodu w kompleksie",
+            "de": "Kreuz zwischen den Gartenbäumen der Anlage",
+            "cs": "Kříž mezi stromy v zahradě areálu"
+          },
+          "caption": {
+            "he": "צלב בין עצי הגן שבמתחם",
+            "en": "A cross among the garden trees in the complex",
+            "pl": "Krzyż wśród drzew ogrodu w kompleksie",
+            "de": "Kreuz zwischen den Gartenbäumen der Anlage",
+            "cs": "Kříž mezi stromy v zahradě areálu"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-20.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53 (6).jpeg",
+          "sourceSHA256": "899dd82987e28e8e8410e98ff8a362e8081c2eda33bd822bbbae39d18145c2af",
+          "alt": {
+            "he": "עץ ערבה גבוה בגן המתחם",
+            "en": "A tall willow in the garden of the complex",
+            "pl": "Wysoka wierzba w ogrodzie kompleksu",
+            "de": "Hohe Weide im Garten der Anlage",
+            "cs": "Vysoká vrba v zahradě areálu"
+          },
+          "caption": {
+            "he": "עץ ערבה גבוה בגן המתחם",
+            "en": "A tall willow in the garden of the complex",
+            "pl": "Wysoka wierzba w ogrodzie kompleksu",
+            "de": "Hohe Weide im Garten der Anlage",
+            "cs": "Vysoká vrba v zahradě areálu"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53 (7).jpeg",
+          "sourceSHA256": "46696a7f1c8f6cbb2d4a100499ac3758f41b8360fdb11991f441aeaab1fa3c28",
+          "alt": {
+            "he": "חזית המבנה מעל שמשיית בית הקפה",
+            "en": "Building façade above a café parasol",
+            "pl": "Fasada budynku nad parasolem kawiarni",
+            "de": "Gebäudefassade über einem Sonnenschirm des Cafés",
+            "cs": "Průčelí budovy nad slunečníkem kavárny"
+          },
+          "caption": {
+            "he": "חזית המבנה מעל שמשיית בית הקפה",
+            "en": "Building façade above a café parasol",
+            "pl": "Fasada budynku nad parasolem kawiarni",
+            "de": "Gebäudefassade über einem Sonnenschirm des Cafés",
+            "cs": "Průčelí budovy nad slunečníkem kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-22.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53 (8).jpeg",
+          "sourceSHA256": "9bab23205564a171d1fe7e20ebf5e0586f910dea6a725a5efaf6fb2c1589da22",
+          "alt": {
+            "he": "מדשאה וגדרות חיות בגן המתחם",
+            "en": "Lawn and hedges in the garden of the complex",
+            "pl": "Trawnik i żywopłoty w ogrodzie kompleksu",
+            "de": "Rasen und Hecken im Garten der Anlage",
+            "cs": "Trávník a živé ploty v zahradě areálu"
+          },
+          "caption": {
+            "he": "מדשאה וגדרות חיות בגן המתחם",
+            "en": "Lawn and hedges in the garden of the complex",
+            "pl": "Trawnik i żywopłoty w ogrodzie kompleksu",
+            "de": "Rasen und Hecken im Garten der Anlage",
+            "cs": "Trávník a živé ploty v zahradě areálu"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-23.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.53.jpeg",
+          "sourceSHA256": "7c282d9279a35f7eea9173858ce95ab2b8cb56a8dbc4d7a6f827c189e2374ef8",
+          "alt": {
+            "he": "פרט משלט שנצפה בדלפק בעת הביקור",
+            "en": "A counter display seen during our visit",
+            "pl": "Detal informacji przy ladzie podczas naszej wizyty",
+            "de": "Detail eines Aufstellers am Tresen bei unserem Besuch",
+            "cs": "Detail informace na pultu během naší návštěvy"
+          },
+          "caption": {
+            "he": "פרט משלט שנצפה בדלפק בעת הביקור",
+            "en": "A counter display seen during our visit",
+            "pl": "Detal informacji przy ladzie podczas naszej wizyty",
+            "de": "Detail eines Aufstellers am Tresen bei unserem Besuch",
+            "cs": "Detail informace na pultu během naší návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-24.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (1).jpeg",
+          "sourceSHA256": "3c8f086b31c908ccefea8316f0db54cbc553ba453985a9c063cad14e7ff8a45e",
+          "alt": {
+            "he": "מבט רחב על החצר ושולחנות בית הקפה",
+            "en": "Wide view of the courtyard and café tables",
+            "pl": "Szeroki widok dziedzińca i stolików kawiarni",
+            "de": "Weiter Blick auf Innenhof und Cafétische",
+            "cs": "Široký pohled na dvůr a stolky kavárny"
+          },
+          "caption": {
+            "he": "מבט רחב על החצר ושולחנות בית הקפה",
+            "en": "Wide view of the courtyard and café tables",
+            "pl": "Szeroki widok dziedzińca i stolików kawiarni",
+            "de": "Weiter Blick auf Innenhof und Cafétische",
+            "cs": "Široký pohled na dvůr a stolky kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (11).jpeg",
+          "sourceSHA256": "982294a633a9b102c7bf0236ce383b88aa36961aed52a3860118670cac2aea0a",
+          "alt": {
+            "he": "לוח מידע על הפורטל הגותי המאוחר במתחם",
+            "en": "Information panel about the late Gothic portal in the complex",
+            "pl": "Tablica o późnogotyckim portalu w kompleksie",
+            "de": "Informationstafel zum spätgotischen Portal der Anlage",
+            "cs": "Informační tabule o pozdně gotickém portálu v areálu"
+          },
+          "caption": {
+            "he": "לוח מידע על הפורטל הגותי המאוחר במתחם",
+            "en": "Information panel about the late Gothic portal in the complex",
+            "pl": "Tablica o późnogotyckim portalu w kompleksie",
+            "de": "Informationstafel zum spätgotischen Portal der Anlage",
+            "cs": "Informační tabule o pozdně gotickém portálu v areálu"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-26.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (12).jpeg",
+          "sourceSHA256": "752426efd9aa50ad5b5af816a1a0454884a736a40aa14a51506eb3b8f12b9f4e",
+          "alt": {
+            "he": "הפורטל והכניסה לבית הקפה במבט מהחצר",
+            "en": "The portal and café entrance viewed from the courtyard",
+            "pl": "Portal i wejście do kawiarni od strony dziedzińca",
+            "de": "Portal und Caféeingang vom Innenhof aus",
+            "cs": "Portál a vchod do kavárny z pohledu ze dvora"
+          },
+          "caption": {
+            "he": "הפורטל והכניסה לבית הקפה במבט מהחצר",
+            "en": "The portal and café entrance viewed from the courtyard",
+            "pl": "Portal i wejście do kawiarni od strony dziedzińca",
+            "de": "Portal und Caféeingang vom Innenhof aus",
+            "cs": "Portál a vchod do kavárny z pohledu ze dvora"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-28.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (16).jpeg",
+          "sourceSHA256": "3d85377687c3eea7e4df254069ae39a933b950d94f1441029726e0eb3af02f2b",
+          "alt": {
+            "he": "חלון צר בקיר הלבנים במתחם בית הקפה",
+            "en": "A narrow window in a brick wall of the café complex",
+            "pl": "Wąskie okno w ceglanej ścianie kompleksu kawiarni",
+            "de": "Schmales Fenster in einer Backsteinwand der Caféanlage",
+            "cs": "Úzké okno v cihlové zdi areálu kavárny"
+          },
+          "caption": {
+            "he": "חלון צר בקיר הלבנים במתחם בית הקפה",
+            "en": "A narrow window in a brick wall of the café complex",
+            "pl": "Wąskie okno w ceglanej ścianie kompleksu kawiarni",
+            "de": "Schmales Fenster in einer Backsteinwand der Caféanlage",
+            "cs": "Úzké okno v cihlové zdi areálu kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-29.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (17).jpeg",
+          "sourceSHA256": "6134ad6abdf7aaf9d399d3adeb2bf4c82ecf52752cbfb1f58f60b88eec4570ae",
+          "alt": {
+            "he": "לוח מידע על מתחם נוטרדאם שבו נמצא בית הקפה",
+            "en": "Information panel about the Notre Dame complex containing the café",
+            "pl": "Tablica o kompleksie Notre Dame, w którym działa kawiarnia",
+            "de": "Informationstafel zur Anlage Notre Dame mit dem Café",
+            "cs": "Informační tabule o areálu Notre Dame, kde se nachází kavárna"
+          },
+          "caption": {
+            "he": "לוח מידע על מתחם נוטרדאם שבו נמצא בית הקפה",
+            "en": "Information panel about the Notre Dame complex containing the café",
+            "pl": "Tablica o kompleksie Notre Dame, w którym działa kawiarnia",
+            "de": "Informationstafel zur Anlage Notre Dame mit dem Café",
+            "cs": "Informační tabule o areálu Notre Dame, kde se nachází kavárna"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-30.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (18).jpeg",
+          "sourceSHA256": "88998e1df46ac371ec2799c54ea47e9cc11823f72f430af5f55eb6baad2c4caa",
+          "alt": {
+            "he": "מודעות שנצפו בכניסה למתחם בעת הביקור",
+            "en": "Notices seen at the complex entrance during our visit",
+            "pl": "Ogłoszenia przy wejściu do kompleksu podczas wizyty",
+            "de": "Aushänge am Eingang der Anlage bei unserem Besuch",
+            "cs": "Oznámení u vstupu do areálu během naší návštěvy"
+          },
+          "caption": {
+            "he": "מודעות שנצפו בכניסה למתחם בעת הביקור",
+            "en": "Notices seen at the complex entrance during our visit",
+            "pl": "Ogłoszenia przy wejściu do kompleksu podczas wizyty",
+            "de": "Aushänge am Eingang der Anlage bei unserem Besuch",
+            "cs": "Oznámení u vstupu do areálu během naší návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-31.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (19).jpeg",
+          "sourceSHA256": "aecc003f952be8de9cd65356fb48a88f69bffca240f8e7ead216c19d1435777f",
+          "alt": {
+            "he": "כניסה מן הרחוב למתחם בית הקפה",
+            "en": "Street entrance to the café complex",
+            "pl": "Wejście z ulicy do kompleksu kawiarni",
+            "de": "Straßeneingang zur Caféanlage",
+            "cs": "Vstup z ulice do areálu kavárny"
+          },
+          "caption": {
+            "he": "כניסה מן הרחוב למתחם בית הקפה",
+            "en": "Street entrance to the café complex",
+            "pl": "Wejście z ulicy do kompleksu kawiarni",
+            "de": "Straßeneingang zur Caféanlage",
+            "cs": "Vstup z ulice do areálu kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-33.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (3).jpeg",
+          "sourceSHA256": "5ea0a264bfe16de9e8290233703b33e90c25884a685ba872d6ef42134b670910",
+          "alt": {
+            "he": "מעבר ירוק ושביל בין ערוגות הגן",
+            "en": "A leafy passage and path between garden beds",
+            "pl": "Zielone przejście i ścieżka między rabatami",
+            "de": "Begrünter Durchgang und Weg zwischen Gartenbeeten",
+            "cs": "Zelený průchod a cesta mezi záhony"
+          },
+          "caption": {
+            "he": "מעבר ירוק ושביל בין ערוגות הגן",
+            "en": "A leafy passage and path between garden beds",
+            "pl": "Zielone przejście i ścieżka między rabatami",
+            "de": "Begrünter Durchgang und Weg zwischen Gartenbeeten",
+            "cs": "Zelený průchod a cesta mezi záhony"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-35.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (5).jpeg",
+          "sourceSHA256": "bc2cc73529f43540214aeabd364e00c34aa53e2a51148bded6ed79a0eb407ba0",
+          "alt": {
+            "he": "מבט רחב על דלפק בית הקפה וחדר הישיבה",
+            "en": "Wide view of the café counter and seating room",
+            "pl": "Szeroki widok lady i sali kawiarni",
+            "de": "Weiter Blick auf Cafétresen und Sitzraum",
+            "cs": "Široký pohled na pult a místnost kavárny"
+          },
+          "caption": {
+            "he": "מבט רחב על דלפק בית הקפה וחדר הישיבה",
+            "en": "Wide view of the café counter and seating room",
+            "pl": "Szeroki widok lady i sali kawiarni",
+            "de": "Weiter Blick auf Cafétresen und Sitzraum",
+            "cs": "Široký pohled na pult a místnost kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-36.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (6).jpeg",
+          "sourceSHA256": "ba5561551a02cb12007d4cbaf1d73ba3544c61fbaecd0ea12f46e5009f74c918",
+          "alt": {
+            "he": "חדר הישיבה המקומר ובו שולחנות ותמונות",
+            "en": "The vaulted seating room with tables and pictures",
+            "pl": "Sklepiona sala ze stolikami i obrazami",
+            "de": "Gewölbter Sitzraum mit Tischen und Bildern",
+            "cs": "Klenutá místnost se stolky a obrazy"
+          },
+          "caption": {
+            "he": "חדר הישיבה המקומר ובו שולחנות ותמונות",
+            "en": "The vaulted seating room with tables and pictures",
+            "pl": "Sklepiona sala ze stolikami i obrazami",
+            "de": "Gewölbter Sitzraum mit Tischen und Bildern",
+            "cs": "Klenutá místnost se stolky a obrazy"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-37.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (7).jpeg",
+          "sourceSHA256": "0c79185762c68c7050c4566f6cd29b5814d669271cad4c100c5145d00426a19d",
+          "alt": {
+            "he": "מבט לאורך קמרון הלבנים בחדר בית הקפה",
+            "en": "View along the brick vault of the café room",
+            "pl": "Widok wzdłuż ceglanego sklepienia sali kawiarni",
+            "de": "Blick entlang des Backsteingewölbes im Caféraum",
+            "cs": "Pohled podél cihlové klenby místnosti kavárny"
+          },
+          "caption": {
+            "he": "מבט לאורך קמרון הלבנים בחדר בית הקפה",
+            "en": "View along the brick vault of the café room",
+            "pl": "Widok wzdłuż ceglanego sklepienia sali kawiarni",
+            "de": "Blick entlang des Backsteingewölbes im Caféraum",
+            "cs": "Pohled podél cihlové klenby místnosti kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "/assets/round24h-20261022/jadwigi-39.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (9).jpeg",
+          "sourceSHA256": "fdf3c4d7b8b87737a176c5a74054fd96811fab13dc11187bfccd3a5a8ea6a310",
+          "alt": {
+            "he": "גן בית הקפה לצד חזית המבנה",
+            "en": "The café garden beside the building façade",
+            "pl": "Ogród kawiarni przy fasadzie budynku",
+            "de": "Cafégarten an der Gebäudefassade",
+            "cs": "Zahrada kavárny u průčelí budovy"
+          },
+          "caption": {
+            "he": "גן בית הקפה לצד חזית המבנה",
+            "en": "The café garden beside the building façade",
+            "pl": "Ogród kawiarni przy fasadzie budynku",
+            "de": "Cafégarten an der Gebäudefassade",
+            "cs": "Zahrada kavárny u průčelí budovy"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewedAt": "2026-10-22T18:25:45.939504+00:00",
+          "privacyReview": "Place/context photograph; incidental visitors permitted."
+        },
+        "https://www.youtube.com/watch?v=TAx8BVgoE4o": {
+          "title": {
+            "he": "פרחים בגינת בית הקפה",
+            "en": "Flowers in the café garden",
+            "pl": "Kwiaty w ogrodzie kawiarni",
+            "de": "Blumen im Cafégarten",
+            "cs": "Květiny v zahradě kavárny"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Video 2026-10-01 at 09.20.57.mp4",
+          "sourceSHA256": "f017c59dde64900b7cd62bb763a219a0c26ae8dd0716b142383d850e0cf849af",
+          "uploadSHA256": "330d1644ac4514200dc2daeee75704af599cd2fad1741025d0b4befa0f971827",
+          "originalDurationSeconds": 3.566667,
+          "approvalCall": "call_a4f0fcdb0ba148e7969b655c4b7e99ce",
+          "youtubeId": "TAx8BVgoE4o",
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdProcessingComplete": true,
+          "noCurrentRestrictions": true,
+          "checksEvidence": "jadwigi-visit-06-ready-details.txt",
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "videoStreamCopiedWithoutReencoding": true
+        },
+        "https://www.youtube.com/watch?v=_P29hRybbWo": {
+          "title": {
+            "he": "שביל הגן אל בית הקפה",
+            "en": "Garden approach to the café",
+            "pl": "Ścieżka ogrodowa do kawiarni",
+            "de": "Gartenweg zum Café",
+            "cs": "Zahradní cesta ke kavárně"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Video 2026-10-01 at 09.22.05.mp4",
+          "sourceSHA256": "52e9fb2b942c627e34a50afb8100432bdae744f24cbdf810a6ee2dd8f29ce2f1",
+          "uploadSHA256": "2d761e637dc15a195db4edfefdaffd83128c6cb78859aaf9d95858a662fdedb5",
+          "originalDurationSeconds": 4.566667,
+          "approvalCall": "call_a4f0fcdb0ba148e7969b655c4b7e99ce",
+          "youtubeId": "_P29hRybbWo",
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdProcessingComplete": true,
+          "noCurrentRestrictions": true,
+          "checksEvidence": "jadwigi-visit-09-ready-details.txt",
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "videoStreamCopiedWithoutReencoding": true
+        },
+        "https://www.youtube.com/watch?v=XkUR5j41FuY": {
+          "title": {
+            "he": "מבט על הישיבה בחצר והגן",
+            "en": "Courtyard seating and garden view",
+            "pl": "Miejsca na dziedzińcu i widok ogrodu",
+            "de": "Sitzplätze im Innenhof und Gartenblick",
+            "cs": "Posezení na dvoře a pohled do zahrady"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Video 2026-10-01 at 09.22.08.mp4",
+          "sourceSHA256": "4997dec082a24cbd05126227340fa1de68a8556af8303d79eef6f1fcaa716c6c",
+          "uploadSHA256": "570a4d51f9c9eba0bbb66564b92b08abe5fa85b63104fe669c033d26216694f9",
+          "originalDurationSeconds": 3.533333,
+          "approvalCall": "call_a4f0fcdb0ba148e7969b655c4b7e99ce",
+          "youtubeId": "XkUR5j41FuY",
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdProcessingComplete": true,
+          "noCurrentRestrictions": true,
+          "checksEvidence": "jadwigi-visit-11-ready-details.txt",
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "videoStreamCopiedWithoutReencoding": true
+        },
+        "https://www.youtube.com/watch?v=ipIjtCTaA74": {
+          "title": {
+            "he": "מבט מהחצר אל שולחן הקפה",
+            "en": "Courtyard view towards the coffee table",
+            "pl": "Widok z dziedzińca na stolik z kawą",
+            "de": "Blick vom Innenhof zum Kaffeetisch",
+            "cs": "Pohled ze dvora ke stolku s kávou"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Video 2026-10-01 at 09.22.09.mp4",
+          "sourceSHA256": "3141bb372ea43aa56c6b0ac26af0a9c42bc45430aa57ebbdbe5891350d54b2e7",
+          "uploadSHA256": "b5d41dff5f2a408cdd0ec5e85c0b74d58fe42eac091ed0d06a320c5ebc4c9547",
+          "originalDurationSeconds": 4.666667,
+          "approvalCall": "call_a4f0fcdb0ba148e7969b655c4b7e99ce",
+          "youtubeId": "ipIjtCTaA74",
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdProcessingComplete": true,
+          "noCurrentRestrictions": true,
+          "checksEvidence": "jadwigi-visit-12-checks-clean.txt",
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "videoStreamCopiedWithoutReencoding": true
         }
       }
     },

@@ -267,3 +267,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Place actions never reuse a raw account/profile URL from a legacy media adapter.
 (function(){for(const[id,media]of Object.entries(window.WROC_LOCATION_MEDIA)){for(const platform of["facebook","instagram"])Object.defineProperty(media,platform,{enumerable:true,configurable:true,get:()=>{const place=window.WROC_CATALOG?.getPlace?.(id);return place?window.WROC_CATALOG.getSocialPost(place,platform)?.url:undefined;}});}})();
+
+// Preserve Japanese Garden guide/social actions while exposing the complete canonical gallery.
+(function(){const p=window.WROC_CATALOG?.getPlace?.("japanese");if(p)window.WROC_LOCATION_MEDIA.japanese={...(window.WROC_LOCATION_MEDIA.japanese||{}),gallery:p.media.photos,videos:p.media.videos};})();
