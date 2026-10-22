@@ -435,8 +435,9 @@
   }
 
   function openVideo(locationId, trigger) {
-    const location = allLocations().find((item) => item.id === locationId);
-    if (!location?.resources?.videos?.length) return;
+    const source = allLocations().find((item) => item.id === locationId);
+    if (!source?.resources?.videos?.length) return;
+    const location = { ...source, resources: { ...source.resources, videos: window.WROC_YOUTUBE_VIDEO.playlist(source.resources.videos, source.name) } };
     activeVideoLocation = location;
     activeVideoIndex = 0;
     videoTrigger = trigger || null;
