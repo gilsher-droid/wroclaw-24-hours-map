@@ -515,11 +515,18 @@
         "photos": [
           "/assets/gallery-cathedral-01.jpg",
           "/assets/today-source-refresh-20261021/run4-106-cathedral.jpg",
-          "/assets/today-source-refresh-20261021/run4-108-cathedral.jpg"
+          "/assets/today-source-refresh-20261021/run4-108-cathedral.jpg",
+          "/assets/gallery-cathedral-03.jpg"
         ],
         "videos": [
           "https://www.youtube.com/watch?v=6hP8rHe3MLE",
-          "https://www.youtube.com/watch?v=eegtceD9xiE"
+          "https://www.youtube.com/watch?v=eegtceD9xiE",
+          "https://www.youtube.com/watch?v=CsVnT-eHbXM",
+          "https://www.youtube.com/watch?v=yG2OQUywci4",
+          "https://www.youtube.com/watch?v=maCX3Aho4YU",
+          "https://www.youtube.com/watch?v=SaHVu04LvjU",
+          "https://www.youtube.com/watch?v=2a2e-5NvINo",
+          "https://www.youtube.com/watch?v=AQg_48xCBM8"
         ],
         "guideVideos": {
           "he": "https://www.youtube.com/watch?v=rIIVnc_dzN4",
@@ -631,6 +638,139 @@
             "savedPublicVerified": true,
             "reopenedVerified": true,
             "originalFullPictureAndDurationPreserved": true
+          },
+          "/assets/gallery-cathedral-03.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/735734951_10244880653016891_1257843364067729539_n.jpg",
+            "sourceSHA256": "4cbcd02e9f902b19d0e0389d67ad5873b22bd4d65333da92290e933ed0864425",
+            "reusedExistingAsset": true,
+            "originalFullPicturePreserved": true,
+            "alt": {
+              "he": "פרט מרזב מפוסל בקתדרלה",
+              "en": "Carved gargoyle detail at the cathedral",
+              "pl": "Detal rzeźbionego rzygacza katedry",
+              "de": "Geschnitztes Wasserspeierdetail am Dom",
+              "cs": "Detail chrliče na katedrále"
+            }
+          },
+          "https://www.youtube.com/watch?v=CsVnT-eHbXM": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 20.49.02 (10).mp4",
+            "sourceSHA256": "9a6495ae0d0da330bfc04f3a1e7ea8b2f049a5eb6aafff570ef5eec4f6f5b824",
+            "uploadSHA256": "c794eecb03b73dec9880ec62a1ace078d76f37252e454d50acecb2177ed2e8be",
+            "durationSeconds": 5.833333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "checksNoIssues": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור בקתדרלה 1",
+              "en": "Cathedral visit 1",
+              "pl": "Wizyta w katedrze 1",
+              "de": "Dombesuch 1",
+              "cs": "Návštěva katedrály 1"
+            }
+          },
+          "https://www.youtube.com/watch?v=yG2OQUywci4": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 20.49.02 (11).mp4",
+            "sourceSHA256": "a2b7cb60571549c13e4aeac9e857f934af7b1b77c516c023742315e7ca7e1d1a",
+            "uploadSHA256": "13fc0b3bc53211eec8b569e2fcff75695c34329dbcd09ec11f51df701807bd14",
+            "durationSeconds": 4.133333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "checksNoIssues": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור בקתדרלה 2",
+              "en": "Cathedral visit 2",
+              "pl": "Wizyta w katedrze 2",
+              "de": "Dombesuch 2",
+              "cs": "Návštěva katedrály 2"
+            }
+          },
+          "https://www.youtube.com/watch?v=maCX3Aho4YU": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 20.49.02 (12).mp4",
+            "sourceSHA256": "57dd0e944b6b2c9734ddc5311831d632c132d2f4670b9b0ff2a8e4a672bb9a48",
+            "uploadSHA256": "31e3c6f6b77875c140219288d210c63d98b11e6cafc8f44a502142acef0580db",
+            "durationSeconds": 3.9,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "checksNoIssues": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור בקתדרלה 3",
+              "en": "Cathedral visit 3",
+              "pl": "Wizyta w katedrze 3",
+              "de": "Dombesuch 3",
+              "cs": "Návštěva katedrály 3"
+            }
+          },
+          "https://www.youtube.com/watch?v=SaHVu04LvjU": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 21.34.48 (4).mp4",
+            "sourceSHA256": "8f4d7daad12f87237d70ae70b42506d19e3ed2c7bf6926d04e53aa491ce4afd2",
+            "uploadSHA256": "0f8ac24c0b8e76e96c99085cbe5eb3d77c9a7178359d80fa3454c2609f07c32c",
+            "durationSeconds": 3.333333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "checksNoIssues": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור בקתדרלה 4",
+              "en": "Cathedral visit 4",
+              "pl": "Wizyta w katedrze 4",
+              "de": "Dombesuch 4",
+              "cs": "Návštěva katedrály 4"
+            }
+          },
+          "https://www.youtube.com/watch?v=2a2e-5NvINo": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 21.34.50 (2).mp4",
+            "sourceSHA256": "1feb533f0fb8a46e0b66de55fdf24a62911fddb99f7cfbc8318d3a28d042852e",
+            "uploadSHA256": "5e377043dccbf444ffc69ba0f6af22d498267b80e36bd3a7aceab73172486adb",
+            "durationSeconds": 5.733333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "checksNoIssues": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור בקתדרלה 5",
+              "en": "Cathedral visit 5",
+              "pl": "Wizyta w katedrze 5",
+              "de": "Dombesuch 5",
+              "cs": "Návštěva katedrály 5"
+            }
+          },
+          "https://www.youtube.com/watch?v=AQg_48xCBM8": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.52 (3).mp4",
+            "sourceSHA256": "2c86d42b1464c514f6607f8cbb3057e103f053799c752046acd5a9d8f70ceaab",
+            "uploadSHA256": "7c91f26cb1fef6ace85eb13d9f567eb00f980b6a84ce67ded6883ed475f36be8",
+            "durationSeconds": 9.333333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "checksNoIssues": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור בקתדרלה 6",
+              "en": "Cathedral visit 6",
+              "pl": "Wizyta w katedrze 6",
+              "de": "Dombesuch 6",
+              "cs": "Návštěva katedrály 6"
+            }
           }
         }
       },
