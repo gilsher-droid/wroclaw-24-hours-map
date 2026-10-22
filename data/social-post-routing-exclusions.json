@@ -397,5 +397,26 @@
     "url": "https://facebook.com/permalink.php?story_fbid=pfbid02yurJAEtBGhCXdscvPQoBJwEgdb2U5n7DfGnkbDmE5ZT8o74n9EVCgTEi6sr1JyL8l&id=61595207664875",
     "reason": "Current post names Central Cafe but lacks branch address or branch-specific visual evidence; two physical branches now known. Preserved historically, hidden until exact branch can be verified.",
     "reviewedAt": "2026-10-20"
+  },
+  {
+    "placeId": "wyspa-piasek",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbTJoTBWFT4sTSCasVK8HQVfnecf7tXsUX8ZS3oeUj3av3Gj4k3SLgkAVrAJxQdwl&id=61594716405964",
+    "reason": "user-explicitly-hide-all-Sand-Island-social-actions-no-place-posts",
+    "reviewedAt": "2026-10-22T06:00:26.381980+00:00"
+  },
+  {
+    "placeId": "wyspa-piasek",
+    "platform": "facebook",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0DJSnncxmvv8CBRcLgv4FNAoe4s5aNY6nVSD1NBV4PFfTwLQckhujKqEDzM5iuC7jl&id=61595036942289",
+    "reason": "user-explicitly-hide-all-Sand-Island-social-actions-no-place-posts",
+    "reviewedAt": "2026-10-22T06:00:26.382241+00:00"
+  },
+  {
+    "placeId": "wyspa-piasek",
+    "platform": "facebook",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid029xAEk62emXraeZ4TbqwvYcU4ckXUgnmzoyHL1QLA1btabSU7weDF24yVCSuWCAZCl&id=61595207664875",
+    "reason": "user-explicitly-hide-all-Sand-Island-social-actions-no-place-posts",
+    "reviewedAt": "2026-10-22T06:00:26.382246+00:00"
   }
 ]

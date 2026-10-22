@@ -2219,7 +2219,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://muzeum.uni.wroc.pl/",
+      "website": "https://muzeum.uni.wroc.pl/plan-zwiedzania/aula-leopoldina/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.11371%2C17.03362",
         "appleMaps": "https://maps.apple.com/?ll=51.11371,17.03362&q=Aula%20Leopoldina"
@@ -2277,9 +2277,15 @@
         }
       ],
       "personalVisit": true,
-      "originalPhotography": true
+      "originalPhotography": true,
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      }
     },
     "media": {
+      "thumbnail": "/assets/aula-leopoldina-01.jpg",
       "photos": [
         "/assets/gallery-university-02.jpg",
         "/assets/gallery-university-04.jpg",
@@ -18931,9 +18937,51 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "approvedPostPhoto20261022": {
+        "postUrl": "https://www.instagram.com/p/DeUugFakQQd/",
+        "account": "wroclaw.lowersilesia.he",
+        "postId": "18125187578492708",
+        "asset": "/assets/rynek-refresh-oct19-05.jpg",
+        "samePhotographVisuallyVerified": true,
+        "verification": "Identical two houses, arch, pedestrians, lamp, tiled roof and foreground geometry on actual published Instagram post versus local original asset. TheMexican is only adjacent signage, not the subject or canonical identity.",
+        "sourceOriginalModified": false,
+        "newUpload": false,
+        "verifiedAt": "2026-10-22T06:18:30.254708+00:00"
+      }
+    },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/rynek-refresh-oct19-05.jpg",
+      "photos": [
+        "/assets/rynek-refresh-oct19-05.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/rynek-refresh-oct19-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4684.JPG",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "בתי הנזל וגרטל והקשת המחברת ביניהם ליד כנסיית אליזבת",
+            "en": "Hansel and Gretel Houses and their connecting arch beside St Elizabeth’s Church",
+            "pl": "Kamieniczki Jaś i Małgosia oraz łącząca je brama obok kościoła św. Elżbiety",
+            "de": "Die Häuser Hänsel und Gretel mit dem verbindenden Torbogen neben der Elisabethkirche",
+            "cs": "Domky Jeníček a Mařenka se spojovací branou u kostela svaté Alžběty"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -18996,19 +19044,6 @@
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUugFakQQd/",
         "verifiedAt": "2026-10-10T18:28:42.289Z"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "jatki": {
@@ -19153,29 +19188,35 @@
         "call": "call_1b4d022b061e48f2aedc10d12e0852ec",
         "scope": "This exact photo only, not a family exception",
         "reviewedAt": "2026-10-21T15:32:00.636840+00:00"
+      },
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
       }
     },
     "media": {
       "thumbnail": "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg",
       "photos": [
         "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg",
-        "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-01.jpg"
+        "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-01.jpg",
+        "/assets/full-enrichment-20261022/jatki-02.jpg"
       ],
       "videos": [],
       "metadata": {
         "/assets/cafes-alley-refresh-20261020/jatki-alley-refresh-02.jpg": {
-          "sourceFile": "Chatki Alley/WhatsApp Image 2026-10-19 at 08.41.53 (9).jpeg",
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatki Alley/WhatsApp Image 2026-10-19 at 08.41.53 (9).jpeg",
           "sourceSHA256": "b65beb93ee37ab5f2eaa6c5e8c5e7f3b0f519f86e2b029a7b0302de05e8097e7",
           "assetSHA256": "bc092cc14ea11369a27dee1aae57439f5c0134df5b8d699e4141be0308d29464",
           "originalFullPicturePreserved": true,
           "familyForeground": false,
           "familyExceptionApplied": false,
           "alt": {
-            "he": "תצלום הביקור שלנו במקום\nStare Jatki",
-            "en": "Our visit photograph at Stare Jatki",
-            "pl": "Zdjęcie z naszej wizyty: Stare Jatki",
-            "de": "Unser Besuchsfoto: Stare Jatki",
-            "cs": "Fotografie z naší návštěvy: Stare Jatki"
+            "he": "סמטת יאטקי ומבני העץ לאורך המעבר",
+            "en": "Jatki Alley and the timber structures along the passage",
+            "pl": "Zaułek Jatki i drewniane konstrukcje wzdłuż przejścia",
+            "de": "Die Jatki-Gasse und die Holzbauten entlang des Durchgangs",
+            "cs": "Ulička Jatki a dřevěné konstrukce podél průchodu"
           },
           "verifiedAt": "2026-10-20T20:30:21.488031+00:00"
         },
@@ -19190,13 +19231,27 @@
           "userClarification": "עוברי אורח, אפשר להשתמש",
           "confirmationCall": "call_1b4d022b061e48f2aedc10d12e0852ec",
           "alt": {
-            "he": "סמטת יאטקי ביום, מעבר מקורה בעץ וצמחייה מטפסת",
-            "en": "Jatki Alley by day, with timber-covered passage and climbing greenery",
-            "pl": "Stare Jatki za dnia, drewniane zadaszenie i pnąca zieleń",
-            "de": "Jatki-Gasse bei Tag mit Holzüberdachung und Kletterpflanzen",
-            "cs": "Ulička Jatki ve dne s dřevěným zastřešením a popínavou zelení"
+            "he": "סמטת יאטקי ומבני העץ לאורך המעבר",
+            "en": "Jatki Alley and the timber structures along the passage",
+            "pl": "Zaułek Jatki i drewniane konstrukcje wzdłuż przejścia",
+            "de": "Die Jatki-Gasse und die Holzbauten entlang des Durchgangs",
+            "cs": "Ulička Jatki a dřevěné konstrukce podél průchodu"
           },
           "verifiedAt": "2026-10-21T15:32:00.636840+00:00"
+        },
+        "/assets/full-enrichment-20261022/jatki-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatki Alley/WhatsApp Image 2026-10-21 at 21.34.44 (8).jpeg",
+          "sourceSHA256": "ad6718bf75d1a3eece0e64d7c70f6f7a36ced758d9090f2afb1ece0f960e672c",
+          "assetSHA256": "c5878385607d0f63d3039a2079060d77fba84a218fcfbc79ca162cdb3ab5dec0",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סמטת יאטקי ומבני העץ לאורך המעבר",
+            "en": "Jatki Alley and the timber structures along the passage",
+            "pl": "Zaułek Jatki i drewniane konstrukcje wzdłuż przejścia",
+            "de": "Die Jatki-Gasse und die Holzbauten entlang des Durchgangs",
+            "cs": "Ulička Jatki a dřevěné konstrukce podél průchodu"
+          }
         }
       }
     },
@@ -26132,13 +26187,19 @@
         "verifiedAt": "2026-10-21T18:00:36.813655+00:00",
         "evidence": "run3 marietta-map.txt/png"
       },
-      "scope": "Exterior photograph and factual business type only. No recommendation or personal meal inferred."
+      "scope": "Exterior photograph and factual business type only. No recommendation or personal meal inferred.",
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      }
     },
     "placeType": "restaurant",
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/run3-01-marietta-focacceria-wroclaw.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/run3-01-marietta-focacceria-wroclaw.jpg"
+        "/assets/today-source-refresh-20261021/run3-01-marietta-focacceria-wroclaw.jpg",
+        "/assets/full-enrichment-20261022/marietta-focacceria-wroclaw-00.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -26153,12 +26214,26 @@
           "privacyClassification": "Venue/view photograph; any diners or passers-by are incidental public visitors, not posed personal portraits.",
           "alt": {
             "he": "חזית מרייטה פוקצ׳ריה בלילה",
-            "en": "Marietta Focacceria frontage at night",
-            "pl": "Witryna Marietta Focacceria nocą",
+            "en": "Marietta Focacceria façade at night",
+            "pl": "Nocna fasada Marietta Focacceria",
             "de": "Fassade der Marietta Focacceria bei Nacht",
-            "cs": "Noční výloha Marietta Focacceria"
+            "cs": "Noční průčelí Marietta Focacceria"
           },
           "verifiedAt": "2026-10-21T18:00:36.813655+00:00"
+        },
+        "/assets/full-enrichment-20261022/marietta-focacceria-wroclaw-00.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מרייטה/WhatsApp Image 2026-10-21 at 20.38.53 (8).jpeg",
+          "sourceSHA256": "0d92f7604c94c6578790d3b762029c40ac2e4c8559205f6dbccc72a448959c5e",
+          "assetSHA256": "f40b58ed029e0622a9719118af0960a86beeab42a5676c9be73cab6245cb7555",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "לוח התפריט שצולם בעת הביקור; המחירים מתעדים את מועד הצילום",
+            "en": "Menu board photographed during our visit; prices document the photograph date",
+            "pl": "Tablica menu sfotografowana podczas naszej wizyty; ceny dokumentują datę zdjęcia",
+            "de": "Speisekarte bei unserem Besuch; Preise dokumentieren den Aufnahmezeitpunkt",
+            "cs": "Nabídková tabule z naší návštěvy; ceny zachycují dobu pořízení fotografie"
+          }
         }
       }
     },
@@ -26438,7 +26513,12 @@
           ]
         }
       ],
-      "personalMediaPermission": false
+      "personalMediaPermission": false,
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      }
     },
     "media": {
       "thumbnail": "/assets/mathematical-tower-night.jpg",
@@ -26447,31 +26527,40 @@
         "/assets/mathematical-tower-statue.jpg",
         "/assets/mathematical-tower-riverside.jpg",
         "/assets/gallery-university-01.jpg",
-        "/assets/gallery-university-03.jpg"
+        "/assets/gallery-university-03.jpg",
+        "/assets/full-enrichment-20261022/math-tower-03.jpg"
       ],
       "videos": [],
       "metadata": {
         "/assets/mathematical-tower-night.jpg": {
           "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.47 (1).jpeg",
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.47 (4).jpeg",
           "alt": {
-            "he": "המגדל המתמטי מואר בלילה במבט מהרחוב",
-            "en": "Mathematical Tower illuminated at night from the street",
-            "pl": "Wieża Matematyczna nocą widziana z ulicy",
-            "de": "Mathematischer Turm bei Nacht von der Straße",
-            "cs": "Matematická věž v noci z ulice"
-          }
+            "he": "המגדל המתמטי המואר בלילה ופרט מן הפסלים שסביבו",
+            "en": "The illuminated Mathematical Tower at night and a detail of its sculptures",
+            "pl": "Oświetlona nocą Wieża Matematyczna i detal otaczających ją rzeźb",
+            "de": "Der nachts beleuchtete Mathematische Turm und ein Detail seiner Skulpturen",
+            "cs": "Nočně osvětlená Matematická věž a detail okolních soch"
+          },
+          "sourceSHA256": "4d3b405e50317749870d92f1d684a47f42cf0396ecdede1fea04b8b831a57fd3",
+          "assetSHA256": "648a71a5bbdcf9c9e2f1beb80fdf02084c718a5d36cebfd885f05445782b5913",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false
         },
         "/assets/mathematical-tower-statue.jpg": {
           "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.46 (3).jpeg",
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.46.jpeg",
           "alt": {
-            "he": "פסל במרפסת המגדל המוארת",
-            "en": "Statue on the illuminated tower terrace",
-            "pl": "Rzeźba na oświetlonym tarasie wieży",
-            "de": "Figur auf der beleuchteten Turmterrasse",
-            "cs": "Socha na osvětlené terase věže"
-          }
+            "he": "המגדל המתמטי המואר בלילה ופרט מן הפסלים שסביבו",
+            "en": "The illuminated Mathematical Tower at night and a detail of its sculptures",
+            "pl": "Oświetlona nocą Wieża Matematyczna i detal otaczających ją rzeźb",
+            "de": "Der nachts beleuchtete Mathematische Turm und ein Detail seiner Skulpturen",
+            "cs": "Nočně osvětlená Matematická věž a detail okolních soch"
+          },
+          "sourceSHA256": "c5756ed0697768838f013f3b0b06d39fb58da98b5ea0332ba0f6d98e4b6d398a",
+          "assetSHA256": "46fb896bab22ffe1183ecc53618fb5b59aa12dba1427f31fa09b5abd8b3e477c",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false
         },
         "/assets/mathematical-tower-riverside.jpg": {
           "original": true,
@@ -26482,6 +26571,20 @@
             "pl": "Wieża i gmach uniwersytetu nad rzeką nocą",
             "de": "Turm und Universitätsgebäude über dem Fluss bei Nacht",
             "cs": "Věž a univerzitní budova nad řekou v noci"
+          }
+        },
+        "/assets/full-enrichment-20261022/math-tower-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/MATHEMATICAL TOWER/WhatsApp Image 2026-10-19 at 08.41.47 (5).jpeg",
+          "sourceSHA256": "67a8cf9d0d1abdd1e442ebea2d95f707c83683959305960071bcd37e3c6f96ec",
+          "assetSHA256": "d9f0ee3a65b856a334b7f3706ceec19858b5a465f348b00b1df4badd8c1bd456",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "המגדל המתמטי המואר בלילה ופרט מן הפסלים שסביבו",
+            "en": "The illuminated Mathematical Tower at night and a detail of its sculptures",
+            "pl": "Oświetlona nocą Wieża Matematyczna i detal otaczających ją rzeźb",
+            "de": "Der nachts beleuchtete Mathematische Turm und ein Detail seiner Skulpturen",
+            "cs": "Nočně osvětlená Matematická věž a detail okolních soch"
           }
         }
       }
@@ -27519,6 +27622,89 @@
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "sandBridgeFacebookRepair20261022": {
+        "oldPosts": [
+          {
+            "platform": "facebook",
+            "language": "en",
+            "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0YaKXB8Rrioiux6VzSu2aiwJwKqAy2zKV2JJdCQPhEWagGLnEqrsZC4C9Ho4eN2Zvl&id=61595036942289",
+            "verifiedAt": "2026-10-07"
+          },
+          {
+            "platform": "facebook",
+            "language": "cs",
+            "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FHzMo3UL9PAraowMZqES1GjrYWuuHFJXQB6VYaK52VHW4HAhHphdUH9Ax6JddFuUl&id=61594716405964",
+            "verifiedAt": "2026-10-07"
+          },
+          {
+            "platform": "instagram",
+            "language": "cs",
+            "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMtaw6FNEj/",
+            "verifiedAt": "2026-10-07"
+          },
+          {
+            "platform": "facebook",
+            "language": "de",
+            "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0faoQqvqDnqj1n4r7Rd8uGKa9W53gJxJmHSMNbqvUZd3G8CgnNcyZMwmPg3Wrqg5kl&id=61595239823399",
+            "verifiedAt": "2026-10-08T14:54:00.799834+00:00"
+          },
+          {
+            "platform": "facebook",
+            "language": "pl",
+            "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FeQuFQtPRrf8kYQMmkwLrg5Ft2AeqgtMHLWiZ3avLggk6RVM1gphqyYW7oRDzK9bl&id=61595207664875",
+            "verifiedAt": "2026-10-08T15:23:38.741Z"
+          },
+          {
+            "platform": "instagram",
+            "language": "en",
+            "url": "https://www.instagram.com/p/DeRUFoLje9C/",
+            "verifiedAt": "2026-10-09T10:40:30.236Z"
+          },
+          {
+            "platform": "instagram",
+            "language": "pl",
+            "url": "https://www.instagram.com/p/DeT0u0DDfS7/",
+            "verifiedAt": "2026-10-10T10:04:06.675Z"
+          },
+          {
+            "platform": "instagram",
+            "language": "de",
+            "url": "https://www.instagram.com/p/DeUNep6CQfA/",
+            "verifiedAt": "2026-10-10T13:40:24.682Z"
+          },
+          {
+            "platform": "instagram",
+            "language": "he",
+            "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvBasEVvu/",
+            "verifiedAt": "2026-10-10T18:33:14.693Z"
+          }
+        ],
+        "verifiedPostIds": {
+          "de": "122096998251507994",
+          "cs": "122110698513490546",
+          "en": "122100642099501231",
+          "pl": "122098242135506922"
+        },
+        "instagramPreserved": true,
+        "hebrewFacebook": "No exact Hebrew post identified in canonical or published-post registry; hide misleading general-profile fallback. No claim of exhaustive archive absence.",
+        "noNewPublication": true
       }
     },
     "media": {
@@ -27531,14 +27717,18 @@
       {
         "platform": "facebook",
         "language": "en",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0YaKXB8Rrioiux6VzSu2aiwJwKqAy2zKV2JJdCQPhEWagGLnEqrsZC4C9Ho4eN2Zvl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
+        "url": "https://www.facebook.com/61595036942289/posts/122100642099501231/",
+        "verifiedAt": "2026-10-22T06:21:00.054Z",
+        "accountId": "61595036942289",
+        "postId": "122100642099501231"
       },
       {
         "platform": "facebook",
         "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FHzMo3UL9PAraowMZqES1GjrYWuuHFJXQB6VYaK52VHW4HAhHphdUH9Ax6JddFuUl&id=61594716405964",
-        "verifiedAt": "2026-10-07"
+        "url": "https://www.facebook.com/61594716405964/posts/122110698513490546/",
+        "verifiedAt": "2026-10-22T06:20:55.562Z",
+        "accountId": "61594716405964",
+        "postId": "122110698513490546"
       },
       {
         "platform": "instagram",
@@ -27549,14 +27739,18 @@
       {
         "platform": "facebook",
         "language": "de",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0faoQqvqDnqj1n4r7Rd8uGKa9W53gJxJmHSMNbqvUZd3G8CgnNcyZMwmPg3Wrqg5kl&id=61595239823399",
-        "verifiedAt": "2026-10-08T14:54:00.799834+00:00"
+        "url": "https://www.facebook.com/61595239823399/posts/122096998251507994/",
+        "verifiedAt": "2026-10-22T06:20:51.213Z",
+        "accountId": "61595239823399",
+        "postId": "122096998251507994"
       },
       {
         "platform": "facebook",
         "language": "pl",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0FeQuFQtPRrf8kYQMmkwLrg5Ft2AeqgtMHLWiZ3avLggk6RVM1gphqyYW7oRDzK9bl&id=61595207664875",
-        "verifiedAt": "2026-10-08T15:23:38.741Z"
+        "url": "https://www.facebook.com/61595207664875/posts/122098242135506922/",
+        "verifiedAt": "2026-10-22T06:21:04.434Z",
+        "accountId": "61595207664875",
+        "postId": "122098242135506922"
       },
       {
         "platform": "instagram",
@@ -27582,19 +27776,6 @@
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvBasEVvu/",
         "verifiedAt": "2026-10-10T18:33:14.693Z"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "most-pomorski-poludniowy-wroclaw": {
@@ -31179,6 +31360,26 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      }
+    },
     "media": {
       "photos": [
         "/assets/ossolineum-cover.jpg",
@@ -31188,20 +31389,210 @@
         "/assets/ossolineum-angelus.jpg",
         "/assets/ossolineum-garden-framed.jpg",
         "/assets/ossolineum-gate.jpg",
-        "/assets/ossolineum-dwarf.jpg"
+        "/assets/ossolineum-dwarf.jpg",
+        "/assets/full-enrichment-20261022/ossolineum-00.jpg",
+        "/assets/full-enrichment-20261022/ossolineum-04.jpg",
+        "/assets/full-enrichment-20261022/ossolineum-08.jpg",
+        "/assets/full-enrichment-20261022/ossolineum-12.jpg",
+        "/assets/full-enrichment-20261022/ossolineum-13.jpg"
       ],
       "videos": [
-        {
-          "src": "/assets/video-ossolineum-garden.mp4",
+        "https://youtube.com/shorts/vNnkACMk0tI"
+      ],
+      "metadata": {
+        "/assets/full-enrichment-20261022/ossolineum-00.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_3992.JPG",
+          "sourceSHA256": "fc686690c3ecc9d17d27e31bcccdaebc3c9325bd48357c0237cb5c87683c2e3f",
+          "assetSHA256": "6682c20fe240f2d6d6188266f38e351e6dc71d3469904fd892c26db6d80c574e",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/ossolineum-angelus-building.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_3993.JPG",
+          "sourceSHA256": "96c4b08988f22d24e7e1edbd7fdf07ebfd510c5592968c5a5057d738fc9558bd",
+          "assetSHA256": "c4d21651ad6607c8fb41f62112f20e17e54caa457e5ecdf6755c24facdbf6084",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/ossolineum-cover.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_3994.JPG",
+          "sourceSHA256": "851fe117b486f9ac52366ff053ff5cfb01c32aa8ffe38115bc43bc677e44d6ee",
+          "assetSHA256": "4c36aef9bc5f220108f9b5dfcb780edb3b236a6af92ea9bec8e13909db681756",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/ossolineum-stained-glass.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_3995.JPG",
+          "sourceSHA256": "0c9abc06578cda6037af36b33f45d62f910823a9da3ee2a335d0a240aced5080",
+          "assetSHA256": "376001d8dfd9523753fa7f6a4cfff13cf5c39e00a32470e247de5fdd1cd62d30",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/full-enrichment-20261022/ossolineum-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_3997.JPG",
+          "sourceSHA256": "6972947fbbc5e48b526754811a6e1c0d0e3926ad05c77de4d6ac9ca78f06e0fd",
+          "assetSHA256": "20dd0baac2008033bdb854d8b4864b8553979a2625bd7ec2b8a54bdc6096d2ba",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/ossolineum-garden.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_4002.JPG",
+          "sourceSHA256": "251b8bcfe1b090057fe1c8a288960933319305027d1f4b361054cc924c8f974b",
+          "assetSHA256": "308fb7371528806d607bae72a223e4dc20d0600f454b36c0f5ea323d9a1dada6",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/ossolineum-angelus.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_4011.JPG",
+          "sourceSHA256": "3653d84152c8591e8754d957c8442b7b132dd7c1f79513bdcbfab02c980b3121",
+          "assetSHA256": "df9c31971535f81053eac1666ff69476ccf71aa09b9cd109806bb22edbbd57b0",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/full-enrichment-20261022/ossolineum-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_4012.JPG",
+          "sourceSHA256": "6ab1d62cb49b9541c824fd000217c3ac66c1e313a0d9c4511d66986301ccd460",
+          "assetSHA256": "0e1d0fd79bc27a0919b7f2e327b125c9c8838e7cdd8f67cd5a77b9ae0de57137",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/ossolineum-garden-framed.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/IMG_4013.JPG",
+          "sourceSHA256": "e12fc5a14fafc1eb1b7fa0e8cf3759aa3ac5b40391d93e3f48509f6cec820344",
+          "assetSHA256": "cd30740fdc0d5bd61435bea6e136c80cffd0a211907542c97b99b778248e5998",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/ossolineum-dwarf.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/WhatsApp Image 2026-06-20 at 17.56.54.jpeg",
+          "sourceSHA256": "6113df309874ad8c7b47062b48953e4a68c53b89c040a95f5468b61dd02e3042",
+          "assetSHA256": "ebd877d95ae545c6376104b57d64ad16b50d3fb4be76bf021403eb19e7cdd600",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/ossolineum-gate.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/WhatsApp Image 2026-06-20 at 17.57.18 (1).jpeg",
+          "sourceSHA256": "459081b3a21e804835db462fc179b3b041039036f1734eec6e48d016b31af8d4",
+          "assetSHA256": "7909900f38240b8f7001e80840b134e9f9ef9a449e2663680f320f84664e5cf8",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/full-enrichment-20261022/ossolineum-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/WhatsApp Image 2026-06-20 at 17.57.18 (2).jpeg",
+          "sourceSHA256": "cd769e3eddca59ba68f3fe5dfd62abe5272d2b7f0a281a571623fe111eccd19f",
+          "assetSHA256": "453593caa74414b1693ffcfa728920387ff67e64aa1955b390d76fa558aae3a0",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "/assets/full-enrichment-20261022/ossolineum-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/osilineum/WhatsApp Image 2026-06-20 at 17.57.18.jpeg",
+          "sourceSHA256": "dc42e7bbf27a508085128859a6d5951b51cde9768d8e4bbe5b28ac2d747d8c02",
+          "assetSHA256": "b17ad294fd90671a3cca52df882c3b1622f8ad57d89a8da0916757e3ca9d383b",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פרט מן הביקור באוסולינאום, במבנה ובגן",
+            "en": "A detail from our visit to the Ossolineum building and garden",
+            "pl": "Detal z naszej wizyty w gmachu i ogrodzie Ossolineum",
+            "de": "Ein Detail unseres Besuchs im Gebäude und Garten des Ossolineums",
+            "cs": "Detail z naší návštěvy budovy a zahrady Ossolinea"
+          }
+        },
+        "https://youtube.com/shorts/vNnkACMk0tI": {
           "title": {
             "he": "הגן והחצר של האוסולינאום",
             "en": "Ossolineum garden and courtyard",
             "pl": "Ogród i dziedziniec Ossolineum",
             "de": "Garten und Innenhof des Ossolineums",
             "cs": "Zahrada a nádvoří Ossolinea"
-          }
+          },
+          "reusedVerifiedYouTubeMigration": true
         }
-      ]
+      }
     },
     "socialPosts": [
       {
@@ -31262,19 +31653,6 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "ostrow": {
@@ -32756,11 +33134,11 @@
       "cs": "Papa Krasnal trpaslík"
     },
     "description": {
-      "he": "אחד הגמדים שמספרים את ראשית הסיפור הציבורי והמחאתי של דמויות העיר.",
-      "en": "One of the dwarfs connected with the public and protest roots of the city’s figures.",
-      "pl": "Jeden z krasnali związanych z historią Pomarańczowej Alternatywy.",
-      "de": "Einer der Zwerge, die mit den öffentlichen und protestierenden Wurzeln der Persönlichkeiten der Stadt verbunden sind.",
-      "cs": "Jeden z trpaslíků spojený s veřejnými a protestními kořeny postav města."
+      "he": "פסל הברונזה של פפה קרסנל, על כן בצורת אצבע, מנציח את תנועת המחאה ״האלטרנטיבה הכתומה״. הוא הוצב ב־2001 במדרחוב שווידניצקה, במקום שממנו יצאו הפגנות ואירועי מחאה. לצד צילום הפסל והמדריכים שלנו, הגלריה כוללת גם תצלומים מההליכה בעקבות גמדים אחרים בעיר.\nPapa Krasnal\nŚwidnicka, Wrocław",
+      "en": "Papa Krasnal stands on a finger-shaped pedestal on Świdnicka Street. Unveiled in 2001, the bronze monument commemorates the Orange Alternative protest movement at a place associated with its demonstrations. Alongside our photograph of Papa and our guides, the gallery also contains photographs from our walk among other city dwarfs.",
+      "pl": "Papa Krasnal stoi na cokole w kształcie palca przy ulicy Świdnickiej. Odsłonięty w 2001 roku pomnik z brązu upamiętnia Pomarańczową Alternatywę w miejscu związanym z jej demonstracjami. Obok naszego zdjęcia Papy i przewodników galeria zawiera także fotografie innych krasnali z naszego spaceru po mieście.",
+      "de": "Papa Krasnal steht auf einem fingerförmigen Sockel an der Świdnicka-Straße. Das 2001 enthüllte Bronzedenkmal erinnert an die Protestbewegung Orange Alternative an einem mit ihren Demonstrationen verbundenen Ort. Neben unserem Foto von Papa und unseren Führungen enthält die Galerie auch Aufnahmen anderer Stadtzwerge von unserem Spaziergang.",
+      "cs": "Papa Krasnal stojí na podstavci ve tvaru prstu v ulici Świdnicka. Bronzový pomník odhalený v roce 2001 připomíná protestní hnutí Oranžová alternativa na místě spojeném s jeho demonstracemi. Vedle naší fotografie Papy a průvodců obsahuje galerie také fotografie dalších městských trpaslíků z naší procházky."
     },
     "location": {
       "countryCode": "PL",
@@ -32860,11 +33238,27 @@
           "metadata": null,
           "reason": "Clearly posed personal portrait; no family/personal exception. Desktop original not modified. Git history preserves prior derived asset."
         }
-      ]
+      ],
+      "fullRefresh20261022": {
+        "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/פפה קרסנל",
+        "existingGnomesCollectionPreserved": true,
+        "newPapaPhoto": "/assets/papa-refresh-20261022-01.jpg",
+        "visitVideo": "local-source-selected-awaiting-Studio",
+        "identitySources": [
+          "https://artsandculture.google.com/asset/pomnik-pomara%C5%84czowej-alternatywy-papa-krasnal-krasnal-major-micha%C5%82-siarek/RAGXg4S-THN7xg?hl=pl",
+          "https://bip.um.wroc.pl/attachments/download/7518"
+        ]
+      },
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      }
     },
     "media": {
-      "thumbnail": "/assets/gallery-gnomes-01.jpg",
+      "thumbnail": "/assets/papa-refresh-20261022-01.jpg",
       "photos": [
+        "/assets/papa-refresh-20261022-01.jpg",
         "/assets/gallery-gnomes-01.jpg",
         "/assets/gallery-gnomes-02.jpg",
         "/assets/gallery-gnomes-03.jpg",
@@ -32889,7 +33283,8 @@
         "https://youtube.com/shorts/Hl6Jbr2fRW4",
         "https://youtube.com/shorts/ONT976zS3a8",
         "https://youtube.com/shorts/X73FCz5ZhAw",
-        "https://youtube.com/shorts/MEdz8wAlpME"
+        "https://youtube.com/shorts/MEdz8wAlpME",
+        "https://www.youtube.com/watch?v=ZKQ7dwEXaNY"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/Eyns7Gj66d0",
@@ -32949,6 +33344,35 @@
             "de": "Zwerg mit einem Fahrradreifen",
             "cs": "Trpaslík s kolem jízdního kola"
           }
+        },
+        "/assets/papa-refresh-20261022-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פפה קרסנל/WhatsApp Image 2026-10-20 at 22.10.59.jpeg",
+          "sourceSHA256": "c427da208de256d9e3a7b536ecda24e86a28822d3cad16a6cb381bcef4083499",
+          "assetSHA256": "c3f88e1b0b29622e20b877125acfc3e73c8f311b63149c0b64be16b86be7b4b1",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "פפה קרסנל על כן בצורת אצבע ברחוב שווידניצקה",
+            "en": "Papa Krasnal on the finger-shaped pedestal on Świdnicka Street",
+            "pl": "Papa Krasnal na cokole w kształcie palca przy ulicy Świdnickiej",
+            "de": "Papa Krasnal auf dem fingerförmigen Sockel an der Świdnicka-Straße",
+            "cs": "Papa Krasnal na podstavci ve tvaru prstu v ulici Świdnicka"
+          }
+        },
+        "https://www.youtube.com/watch?v=ZKQ7dwEXaNY": {
+          "title": {
+            "he": "ביקור שלנו במקום",
+            "en": "Complete exterior visit",
+            "pl": "Nasza wizyta w tym miejscu",
+            "de": "Unser Besuch vor Ort",
+            "cs": "Naše návštěva místa"
+          },
+          "sourceSHA256": "1c491a99a606364fcac17eef26a710330c64280cbcd8a75302646ece1b80c2b1",
+          "durationSeconds": 6.998333,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "youtubePublicReopened": true,
+          "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
         }
       }
     },
@@ -37404,6 +37828,19 @@
         "previousHold": "Unidentified yellow/red building, no guessed business pin",
         "holdResolvedBy": "Explicit user assignment to existing Rynek",
         "sourceSHA256": "06d4ece2a8ce5f8e7678e6fde7486268288a8cc25691f0109a94fc3b34ad434a"
+      },
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      },
+      "specificPasserbyApproval20261022": {
+        "callId": "call_637e1571d1624520949b5dc4a0d90272",
+        "userWords": "עוברת אורח, אפשר להשתמש",
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4672.JPG",
+        "sourceSHA256": "0fff6d5bc0c1b5e87dcdb949d4a56b249d355eb656f803704afcb3b0cb1678a0",
+        "scope": "This exact picture only; incidental public passer-by clarified by user, no general family exception.",
+        "receivedAt": "2026-10-22T06:22:47.310925+00:00"
       }
     },
     "media": {
@@ -37418,63 +37855,165 @@
         "/assets/rynek-refresh-oct19-06.jpg",
         "/assets/rynek-refresh-oct19-07.jpg",
         "/assets/rynek-refresh-oct19-08.jpg",
-        "/assets/rynek-surroundings-20261021.jpg"
+        "/assets/rynek-surroundings-20261021.jpg",
+        "/assets/full-enrichment-20261022/rynek-09.jpg",
+        "/assets/full-enrichment-20261022/rynek-10.jpg",
+        "/assets/full-enrichment-20261022/rynek-11.jpg",
+        "/assets/full-enrichment-20261022/rynek-12.jpg",
+        "/assets/full-enrichment-20261022/rynek-13.jpg",
+        "/assets/full-enrichment-20261022/rynek-14.jpg",
+        "/assets/full-enrichment-20261022/rynek-15.jpg",
+        "/assets/full-enrichment-20261022/rynek-16.jpg",
+        "/assets/full-enrichment-20261022/rynek-17.jpg",
+        "/assets/full-enrichment-20261022/rynek-18.jpg",
+        "/assets/full-enrichment-20261022/rynek-19.jpg",
+        "/assets/full-enrichment-20261022/rynek-20.jpg",
+        "/assets/full-enrichment-20261022/rynek-21.jpg",
+        "/assets/full-enrichment-20261022/rynek-22.jpg",
+        "/assets/full-enrichment-20261022/rynek-23.jpg",
+        "/assets/full-enrichment-20261022/rynek-24.jpg",
+        "/assets/full-enrichment-20261022/rynek-25.jpg",
+        "/assets/full-enrichment-20261022/rynek-26.jpg",
+        "/assets/full-enrichment-20261022/rynek-28.jpg",
+        "/assets/town-hall-refresh-oct19-01.jpg",
+        "/assets/full-enrichment-20261022/rynek-33.jpg",
+        "/assets/town-hall-refresh-oct19-02.jpg",
+        "/assets/full-enrichment-20261022/rynek-38.jpg",
+        "/assets/full-enrichment-20261022/rynek-01.jpg"
       ],
       "videos": [
-        "/assets/video-rynek-fountains.mp4",
-        "/assets/video-rynek-cinema.mp4",
+        "https://youtube.com/shorts/XGNYmjLwEz0",
+        "https://youtube.com/shorts/Rt054haRJJQ",
         "https://youtube.com/shorts/QujEX9RWHp4",
         "https://youtube.com/shorts/CX6bWPCGK8w",
-        "https://youtube.com/shorts/qJTW6gR0Dx8"
+        "https://youtube.com/shorts/qJTW6gR0Dx8",
+        "https://www.youtube.com/watch?v=mqK0ya8MsJA",
+        "https://www.youtube.com/watch?v=quDClgLH_kA",
+        "https://www.youtube.com/watch?v=8XjUv4Eh8TY",
+        "https://www.youtube.com/watch?v=bfk0vBDoutc",
+        "https://www.youtube.com/watch?v=azjGAh0J8yM",
+        "https://www.youtube.com/watch?v=28qNFqr_n6I"
       ],
       "metadata": {
         "/assets/rynek-refresh-oct19-01.jpg": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_1045.JPG",
           "sourceSHA256": "5b9de0505d5c1bbd4e19c983e0717df1286f1082925a03f7496a1adc873e37e5",
-          "assetSHA256": "7d5abf9bb10203d318f363fc34c51b5c550af936844bc1ad4d404b0f0d8e8c18"
+          "assetSHA256": "7d5abf9bb10203d318f363fc34c51b5c550af936844bc1ad4d404b0f0d8e8c18",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
         },
         "/assets/rynek-refresh-oct19-02.jpg": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4675.JPG",
           "sourceSHA256": "20bb9d1a6fe9565ff4960d09bf65d774f707f1a8af9f5fece11d7debbd89467b",
-          "assetSHA256": "ba2183cd178e07cb49f3437452a455e1395623d43ce504c1a1c3da5310cf8dfc"
+          "assetSHA256": "ba2183cd178e07cb49f3437452a455e1395623d43ce504c1a1c3da5310cf8dfc",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
         },
         "/assets/rynek-refresh-oct19-03.jpg": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4680.JPG",
           "sourceSHA256": "ed18865a793fcf4bf99b04cf565f02f38b360cfc7d4238d3d850ca01db65b598",
-          "assetSHA256": "dad8bcefd850935e0f06d65dbd05ad869cec84df83b9762dc5450d4aba8b76c7"
+          "assetSHA256": "dad8bcefd850935e0f06d65dbd05ad869cec84df83b9762dc5450d4aba8b76c7",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
         },
         "/assets/rynek-refresh-oct19-04.jpg": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4681.JPG",
           "sourceSHA256": "9d45452ea98a3cadb86bc19a1cfdeeebc15e82e43e1c5df10110344f798b7942",
-          "assetSHA256": "c496b3b1f096f0ef16a1bb3ace53c4620b12084013dec4b86c7b259b5d58c5af"
+          "assetSHA256": "c496b3b1f096f0ef16a1bb3ace53c4620b12084013dec4b86c7b259b5d58c5af",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
         },
         "/assets/rynek-refresh-oct19-05.jpg": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4684.JPG",
           "sourceSHA256": "9f1ddeb6fb3ccfd17377fbb945f8ddf817995b0346d7b1ff456ebcdf658e535a",
-          "assetSHA256": "0670e023bca2b8515def2d0908f7e228b5ca576a71dcbe877167abb2762f7c78"
+          "assetSHA256": "0670e023bca2b8515def2d0908f7e228b5ca576a71dcbe877167abb2762f7c78",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
         },
         "/assets/rynek-refresh-oct19-06.jpg": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4714.JPG",
           "sourceSHA256": "92f4faad39febffdea290b46f4e5b5532488fd1ec2fbb90c832c7ec394185cab",
-          "assetSHA256": "3d0e189cc1ca141376fdc5aa5033dce328a5216b5c33a7fdd4ad33ccbf7f559b"
+          "assetSHA256": "3d0e189cc1ca141376fdc5aa5033dce328a5216b5c33a7fdd4ad33ccbf7f559b",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
         },
         "/assets/rynek-refresh-oct19-07.jpg": {
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-05 at 18.31.33 (1).jpeg",
           "sourceSHA256": "cee5deb9c4bc0b6c8e14ea6fab20ecf05451c35e5b898b63cdb86a17735a0ca9",
-          "assetSHA256": "632153598fa4dfc1a6d9b15b11ddba731b72c8bb3c979c9522028d40aa7892b4"
+          "assetSHA256": "632153598fa4dfc1a6d9b15b11ddba731b72c8bb3c979c9522028d40aa7892b4",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בית העירייה העתיק והכיכר סביבו",
+            "en": "The Old Town Hall and its surrounding square",
+            "pl": "Stary Ratusz i otaczający go plac",
+            "de": "Das Alte Rathaus und der umgebende Platz",
+            "cs": "Stará radnice a okolní náměstí"
+          }
         },
         "/assets/rynek-refresh-oct19-08.jpg": {
           "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-19 at 08.42.09 (10).jpeg",
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-19 at 08.42.09 (2).jpeg",
           "sourceSHA256": "8bedaab5fa58c4f7ad0dda6abebfee665149b55ca230177e78e023d6cf4e8f37",
-          "assetSHA256": "9579844537ebfebd95e2ea5adc16b7fa94940fd7ab561a52ba5bcb7eed9d2c18"
+          "assetSHA256": "9579844537ebfebd95e2ea5adc16b7fa94940fd7ab561a52ba5bcb7eed9d2c18",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
         },
         "/assets/rynek-surroundings-20261021.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 14.06.05 (3).jpeg",
@@ -37492,6 +38031,453 @@
             "cs": "Barevná průčelí v ulici poblíž vratislavského Rynku"
           },
           "verifiedAt": "2026-10-21T16:52:27.938914+00:00"
+        },
+        "/assets/full-enrichment-20261022/rynek-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4688.JPG",
+          "sourceSHA256": "980d183b96b742d4246e8ec80ea3d5646840973a22426c3e27f2bf7f651f725e",
+          "assetSHA256": "ea1238abaf249fc01969f0518b4ee6280be6667c345099fd50f59e32d109d203",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4689.JPG",
+          "sourceSHA256": "aa3b7b1526c1fee172f899a001ecb09d4056f6563c08784f8ede37a32ffff6c1",
+          "assetSHA256": "4fc53828478d2c80bb80b189d7f6b738b110b5340e6c9b91f7a6e5000278bd34",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4690.JPG",
+          "sourceSHA256": "5ffd187c6ecd47b8b8b76e747301cde72c67d7c42596b9babc02b72c84291276",
+          "assetSHA256": "8e8d85dde1b7f03ba00d042f6379db9b6000e7d4422039f781f0d62fb911732c",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4691.JPG",
+          "sourceSHA256": "69554f7f31b72e8825400b394cf89511d823dcb5a4ed2147ccc3ef98e7f1a1e3",
+          "assetSHA256": "8ccb640728cd521fa78c4d3ba5babf3d28da8f3d813a35ac45abee210e1f4b0f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4693.JPG",
+          "sourceSHA256": "2aa49646d0e7fd19a86e06f4ed6a27575cedc5a3754040d3c9625017fce86375",
+          "assetSHA256": "ff9fe1a9729bd700ece594e8cc10cadafdb65b284d4233f0055cc1fbb01281cb",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4694.JPG",
+          "sourceSHA256": "8968a23b7c45f10bcef75ca3aa68b64c43262c21233d59cda059c56c954ce7f6",
+          "assetSHA256": "da5e296999899e75d8d168f8cb169ec3dbbd33e6272aaa3005d10fa4e76855e7",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4696.JPG",
+          "sourceSHA256": "ca6e1136e774403a442905b79b4308fcede74c2ac6d9ba9f2fbd280f7f05801b",
+          "assetSHA256": "7d642ad34a5d8853ecb2bf86b978a98bb93c7c222722aa3188f54c7fae4aa353",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4697.JPG",
+          "sourceSHA256": "53c7ac3661b3430791857f0da9d57ecb394dfa0f8c276d3cd8323370cfe886af",
+          "assetSHA256": "7db77b7fb194287e1979cbdc80724a81a14f16a49ae62936e86828e01ca0e5ae",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4701.JPG",
+          "sourceSHA256": "89f18b1c5f759a22b122af6da981dcc3dd9a65d83f5d1b0b467ebd6b80dae0e5",
+          "assetSHA256": "23a0e18e6f099825dcae35c0ea2ac9c68b97a9f9fb32c1de5fac79548cc3937d",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4702.JPG",
+          "sourceSHA256": "ef4abbe3b152896c29440e2941ba3bc665520a6044b8d974ef3a3bbc9a68f025",
+          "assetSHA256": "dbe302809046201daf18d86255af1f83969c92bfddbb50757f66f0b417451192",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4705.JPG",
+          "sourceSHA256": "e236ed990e327356d163106c03bc5cd0c4b7af02baa20fe224ea8b0a7dbb1d68",
+          "assetSHA256": "8b776827d87f1efe40a3459946bb543b71d314c11a8e8686042ea21d233af52b",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-20.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4706.JPG",
+          "sourceSHA256": "4dff9ab3400f9859663a332912cbecf8a97da83e0c725bac6708e66b6393f501",
+          "assetSHA256": "e3eb9b8a58b70a0596a5e9b4e4f41398fbbbc1e19c5e05b46900e14d4cdc583c",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4707.JPG",
+          "sourceSHA256": "30a9dec3c9333fecb2215275ab15e20deabf377b8e82c8073f5534650afeafa6",
+          "assetSHA256": "614a69eb01e8d27bcb9a594bb7bdfbb5cb8723e2f55faba5e5fe91be74e5a45e",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-22.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4708.JPG",
+          "sourceSHA256": "ca0a233a57c8e23a1df0a14ad7d4ef1abd728834073763c1394f6dd4d890fe89",
+          "assetSHA256": "1a759914ea07a093db80cf4b6a4c548775750f3af266682aca841e7a76f615bf",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-23.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4709.JPG",
+          "sourceSHA256": "858a0431baa2e5ca3c3c970ff1b5bceb86eec23ef5400aadfc2c1af805224118",
+          "assetSHA256": "ef745010d2f966711203423a48338ee53998307f12ca0778c6ebbedd640028ef",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-24.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4710.JPG",
+          "sourceSHA256": "6b3e347ec6afcedf662c6622818a1e111b4b34ed20d448164dcf623ba2612535",
+          "assetSHA256": "4d4135256bfb8a09f9ad3b736595d2352fa1bd355b32316e65eaf114e94d4e9f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4711.JPG",
+          "sourceSHA256": "9a33ff996c05dfbd136d225b720491c1c95415037ce4b3314ab45ee0d5caef8b",
+          "assetSHA256": "8caf17396e86c3446b2e7fc75aeca7a419ede077ac64fc84bb9aca465f4d332b",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-26.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4712.JPG",
+          "sourceSHA256": "e94b8c31dddb1c50249df0967e3b1a6fb9cf1669db505ac445b4aa9af9629961",
+          "assetSHA256": "f1b7a703ea2e93307db7368844549db491b427fbeefbdb1e11a606fba0ec7fda",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "דוכנים ואווירת אירוע בכיכר השוק במהלך הביקור",
+            "en": "Event stalls and atmosphere in Market Square during our visit",
+            "pl": "Stoiska i atmosfera wydarzenia na Rynku podczas naszej wizyty",
+            "de": "Veranstaltungsstände und Atmosphäre am Marktplatz während unseres Besuchs",
+            "cs": "Stánky a atmosféra akce na Rynku během naší návštěvy"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-28.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4716.JPG",
+          "sourceSHA256": "13c3decdeb27e7cf3c1f357102fbdab733e4790bfdc5e43a76d6810a38e57f12",
+          "assetSHA256": "98eca452b32ebece31d0edeb856555446b34a9ef5492c20f0f1713feefe75143",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
+        },
+        "/assets/town-hall-refresh-oct19-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4717.JPG",
+          "sourceSHA256": "dedc7b9e6589a3c470bb6096e3e799c062650e30f4c0bdb17513488e46c8d0ef",
+          "assetSHA256": "93e6fd517daee150ab8c6e50a7687b646c8b08ef4de20005a4592e1631ed00e8",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בית העירייה העתיק והכיכר סביבו",
+            "en": "The Old Town Hall and its surrounding square",
+            "pl": "Stary Ratusz i otaczający go plac",
+            "de": "Das Alte Rathaus und der umgebende Platz",
+            "cs": "Stará radnice a okolní náměstí"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-33.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-06-12 at 14.36.14.jpeg",
+          "sourceSHA256": "3ce26ec3fc662d72cdd378bb755522144b7aab787fd51613bbf897f64d1c99e0",
+          "assetSHA256": "23a68fcf303a6bef143c17d7160c476f50343dc37bfa18fda88feedbde0f9176",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
+        },
+        "/assets/rynek-market-square.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-06-20 at 15.42.48.jpeg",
+          "sourceSHA256": "2a8dea733c18dc2527445cb48d131c1e1e4b03d3098f7c2cfca321a04be7c21b",
+          "assetSHA256": "2a8dea733c18dc2527445cb48d131c1e1e4b03d3098f7c2cfca321a04be7c21b",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבט נוסף על כיכר השוק וסביבתה",
+            "en": "Another view of Market Square and its surroundings",
+            "pl": "Kolejny widok Rynku i jego otoczenia",
+            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
+            "cs": "Další pohled na Rynek a jeho okolí"
+          }
+        },
+        "/assets/town-hall-refresh-oct19-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-21 at 14.06.05 (2).jpeg",
+          "sourceSHA256": "dd2841f5ed76ca624c923c0d0964350cf56337637c4d2fa42589540ea24440bd",
+          "assetSHA256": "b26914a29954b2e0c43cbe2ff803a732cc55bd12d7fc4f8990e6a82ba2123978",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בית העירייה העתיק והכיכר סביבו",
+            "en": "The Old Town Hall and its surrounding square",
+            "pl": "Stary Ratusz i otaczający go plac",
+            "de": "Das Alte Rathaus und der umgebende Platz",
+            "cs": "Stará radnice a okolní náměstí"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-38.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-21 at 14.06.05 (1).jpeg",
+          "sourceSHA256": "cc5a8ede0961c5eb94af9f15e7c7eb5314300c39a1149cb309b8dd501d660bbc",
+          "assetSHA256": "fb51dcb08a3b8e021c023074ccf1185a22fdd9cb754b6124a93655d0c158b868",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בית העירייה העתיק והכיכר סביבו",
+            "en": "The Old Town Hall and its surrounding square",
+            "pl": "Stary Ratusz i otaczający go plac",
+            "de": "Das Alte Rathaus und der umgebende Platz",
+            "cs": "Stará radnice a okolní náměstí"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4672.JPG",
+          "sourceSHA256": "0fff6d5bc0c1b5e87dcdb949d4a56b249d355eb656f803704afcb3b0cb1678a0",
+          "assetSHA256": "dfc8a8bc3d13ba97a7081045ce4c2ee40ac78398f6e20168770eafae1b0b9785",
+          "originalFullPicturePreserved": true,
+          "userPasserbyClarification": {
+            "callId": "call_637e1571d1624520949b5dc4a0d90272",
+            "userWords": "עוברת אורח, אפשר להשתמש",
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4672.JPG",
+            "sourceSHA256": "0fff6d5bc0c1b5e87dcdb949d4a56b249d355eb656f803704afcb3b0cb1678a0",
+            "scope": "This exact picture only; incidental public passer-by clarified by user, no general family exception.",
+            "receivedAt": "2026-10-22T06:22:47.310925+00:00"
+          },
+          "alt": {
+            "he": "רגע מהביקור בכיכר השוק ליד פסל גמד",
+            "en": "A scene from our Market Square visit beside a dwarf sculpture",
+            "pl": "Scena z naszej wizyty na Rynku obok figurki krasnala",
+            "de": "Eine Szene von unserem Besuch auf dem Marktplatz neben einer Zwergenfigur",
+            "cs": "Okamžik z naší návštěvy Rynku u sošky trpaslíka"
+          }
+        },
+        "https://www.youtube.com/watch?v=mqK0ya8MsJA": {
+          "title": {
+            "he": "ביקור שלנו במקום",
+            "en": "Glass fountain and square 01",
+            "pl": "Nasza wizyta w tym miejscu",
+            "de": "Unser Besuch vor Ort",
+            "cs": "Naše návštěva místa"
+          },
+          "sourceSHA256": "348c13cad37bbe94654f4d00038383f953b95d7c2ea026dbea12c178777ca0df",
+          "durationSeconds": 5.691667,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "youtubePublicReopened": true,
+          "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
+        },
+        "https://www.youtube.com/watch?v=quDClgLH_kA": {
+          "title": {
+            "he": "ביקור שלנו במקום",
+            "en": "Glass fountain and square 02",
+            "pl": "Nasza wizyta w tym miejscu",
+            "de": "Unser Besuch vor Ort",
+            "cs": "Naše návštěva místa"
+          },
+          "sourceSHA256": "3739ba8d32d9546aa261f41389148843ff118956e6ed94ecb5c722de93c6c25c",
+          "durationSeconds": 7.6,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "youtubePublicReopened": true,
+          "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
+        },
+        "https://www.youtube.com/watch?v=8XjUv4Eh8TY": {
+          "title": {
+            "he": "ביקור שלנו במקום",
+            "en": "Square stalls and Hansel and Gretel houses",
+            "pl": "Nasza wizyta w tym miejscu",
+            "de": "Unser Besuch vor Ort",
+            "cs": "Naše návštěva místa"
+          },
+          "sourceSHA256": "13a7898c2ba8345045527881bfd9f1c5d19a4d06452384538e88fcc4976d28c3",
+          "durationSeconds": 20.838333,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "youtubePublicReopened": true,
+          "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
+        },
+        "https://www.youtube.com/watch?v=bfk0vBDoutc": {
+          "title": {
+            "he": "ביקור שלנו במקום",
+            "en": "Public piano performance and square 01",
+            "pl": "Nasza wizyta w tym miejscu",
+            "de": "Unser Besuch vor Ort",
+            "cs": "Naše návštěva místa"
+          },
+          "sourceSHA256": "8167f1c976a36fcf222f9bdff8cf24a2e17c2ecb4a613aecc703d47085040cbc",
+          "durationSeconds": 23.836667,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "youtubePublicReopened": true,
+          "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
+        },
+        "https://www.youtube.com/watch?v=azjGAh0J8yM": {
+          "title": {
+            "he": "ביקור שלנו במקום",
+            "en": "Public piano performance and square 02",
+            "pl": "Nasza wizyta w tym miejscu",
+            "de": "Unser Besuch vor Ort",
+            "cs": "Naše návštěva místa"
+          },
+          "sourceSHA256": "d5a721cd2889fc15111f76b1fc20e52f8cd747d2a61d6f852c6f5a2bb694f640",
+          "durationSeconds": 15.235,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "youtubePublicReopened": true,
+          "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
+        },
+        "https://www.youtube.com/watch?v=28qNFqr_n6I": {
+          "title": {
+            "he": "ביקור שלנו במקום",
+            "en": "Street drummer and square",
+            "pl": "Nasza wizyta w tym miejscu",
+            "de": "Unser Besuch vor Ort",
+            "cs": "Naše návštěva místa"
+          },
+          "sourceSHA256": "79de53e64bf599a38e88d25893e2f72506a9ee96bcb2d8540e8ecd3b2e005a0c",
+          "durationSeconds": 16.27,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "youtubePublicReopened": true,
+          "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
         }
       }
     },
@@ -40384,13 +41370,20 @@
       ],
       "verifiedAt": "2026-10-19",
       "personalMediaPermission": false,
-      "visitVideoPublicationReceipt": "data/renoma-rynek-townhall-visit-publication.json"
+      "visitVideoPublicationReceipt": "data/renoma-rynek-townhall-visit-publication.json",
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      }
     },
     "media": {
       "photos": [
         "/assets/old-town-hall-wroclaw.jpg",
         "/assets/town-hall-refresh-oct19-01.jpg",
-        "/assets/town-hall-refresh-oct19-02.jpg"
+        "/assets/town-hall-refresh-oct19-02.jpg",
+        "/assets/rynek-refresh-oct19-07.jpg",
+        "/assets/full-enrichment-20261022/rynek-38.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/a6Hx2tj5Dzg"
@@ -40400,13 +41393,59 @@
           "original": true,
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/IMG_4717.JPG",
           "sourceSHA256": "dedc7b9e6589a3c470bb6096e3e799c062650e30f4c0bdb17513488e46c8d0ef",
-          "assetSHA256": "93e6fd517daee150ab8c6e50a7687b646c8b08ef4de20005a4592e1631ed00e8"
+          "assetSHA256": "93e6fd517daee150ab8c6e50a7687b646c8b08ef4de20005a4592e1631ed00e8",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בית העירייה העתיק והכיכר סביבו",
+            "en": "The Old Town Hall and its surrounding square",
+            "pl": "Stary Ratusz i otaczający go plac",
+            "de": "Das Alte Rathaus und der umgebende Platz",
+            "cs": "Stará radnice a okolní náměstí"
+          }
         },
         "/assets/town-hall-refresh-oct19-02.jpg": {
           "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-19 at 08.42.09 (13).jpeg",
-          "sourceSHA256": "0d20823d01b95b570253d44025132179487c76de51e32728a6850ac1218072ac",
-          "assetSHA256": "b26914a29954b2e0c43cbe2ff803a732cc55bd12d7fc4f8990e6a82ba2123978"
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-21 at 14.06.05 (2).jpeg",
+          "sourceSHA256": "dd2841f5ed76ca624c923c0d0964350cf56337637c4d2fa42589540ea24440bd",
+          "assetSHA256": "b26914a29954b2e0c43cbe2ff803a732cc55bd12d7fc4f8990e6a82ba2123978",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בית העירייה העתיק והכיכר סביבו",
+            "en": "The Old Town Hall and its surrounding square",
+            "pl": "Stary Ratusz i otaczający go plac",
+            "de": "Das Alte Rathaus und der umgebende Platz",
+            "cs": "Stará radnice a okolní náměstí"
+          }
+        },
+        "/assets/rynek-refresh-oct19-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-05 at 18.31.33 (1).jpeg",
+          "sourceSHA256": "cee5deb9c4bc0b6c8e14ea6fab20ecf05451c35e5b898b63cdb86a17735a0ca9",
+          "assetSHA256": "632153598fa4dfc1a6d9b15b11ddba731b72c8bb3c979c9522028d40aa7892b4",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בית העירייה העתיק והכיכר סביבו",
+            "en": "The Old Town Hall and its surrounding square",
+            "pl": "Stary Ratusz i otaczający go plac",
+            "de": "Das Alte Rathaus und der umgebende Platz",
+            "cs": "Stará radnice a okolní náměstí"
+          }
+        },
+        "/assets/full-enrichment-20261022/rynek-38.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-10-21 at 14.06.05 (1).jpeg",
+          "sourceSHA256": "cc5a8ede0961c5eb94af9f15e7c7eb5314300c39a1149cb309b8dd501d660bbc",
+          "assetSHA256": "fb51dcb08a3b8e021c023074ccf1185a22fdd9cb754b6124a93655d0c158b868",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "בית העירייה העתיק והכיכר סביבו",
+            "en": "The Old Town Hall and its surrounding square",
+            "pl": "Stary Ratusz i otaczający go plac",
+            "de": "Das Alte Rathaus und der umgebende Platz",
+            "cs": "Stará radnice a okolní náměstí"
+          }
         }
       }
     },
@@ -40736,15 +41775,118 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "aulaPhotoReassignment20261022": {
+        "removedFromUniversityOnly": [
+          "/assets/gallery-university-02.jpg",
+          "/assets/gallery-university-04.jpg"
+        ],
+        "retainedAtCanonical": "aula",
+        "sourceFilesPreserved": true,
+        "verifiedBy": "Visual match of Leopold podium and Baroque lecture hall against official museum descriptions",
+        "officialSource": "https://muzeum.uni.wroc.pl/plan-zwiedzania/aula-leopoldina/"
+      },
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      }
+    },
     "media": {
+      "thumbnail": "/assets/gallery-university-01.jpg",
       "photos": [
         "/assets/gallery-university-01.jpg",
-        "/assets/gallery-university-02.jpg",
         "/assets/gallery-university-03.jpg",
-        "/assets/gallery-university-04.jpg",
-        "/assets/gallery-university-05.jpg"
+        "/assets/gallery-university-05.jpg",
+        "/assets/full-enrichment-20261022/university-06.jpg",
+        "/assets/mathematical-tower-riverside.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/gallery-university-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-07-05 at 20.44.54.jpeg",
+          "sourceSHA256": "8307bbbdd6612f13607ed4f69db5300bf315203e3a21d0779c6427c7651a4da2",
+          "assetSHA256": "87545f50ca58e84030f2b57200bed3a10f35d5383711f089b45f44c50871f9bf",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבנה אוניברסיטת ורוצלב וסביבתו",
+            "en": "The University of Wrocław building and its surroundings",
+            "pl": "Gmach Uniwersytetu Wrocławskiego i jego otoczenie",
+            "de": "Das Gebäude der Universität Breslau und seine Umgebung",
+            "cs": "Budova Vratislavské univerzity a její okolí"
+          }
+        },
+        "/assets/gallery-university-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/university/740486966_10244931965779678_2232032539844803280_n.jpg",
+          "sourceSHA256": "cdf63921c4f3d99523cdc7dba4a7030b3bd094f4fff3cbdd3f9a4ba569ae5422",
+          "assetSHA256": "b71b8dcc394afed663f148e1f40d0205adabfe0940998a16307d1b299f3aaab7",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבנה אוניברסיטת ורוצלב וסביבתו",
+            "en": "The University of Wrocław building and its surroundings",
+            "pl": "Gmach Uniwersytetu Wrocławskiego i jego otoczenie",
+            "de": "Das Gebäude der Universität Breslau und seine Umgebung",
+            "cs": "Budova Vratislavské univerzity a její okolí"
+          }
+        },
+        "/assets/gallery-university-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-06-20 at 17.58.18.jpeg",
+          "sourceSHA256": "663e3ebf191bdff1aad523d6f47dc4e6420e08f5b24b2aaf41b2d26144a86dd5",
+          "assetSHA256": "27d2350020e535933400f869b20a2cf31f5ca4e95611e2161432cf76c2afc114",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבנה אוניברסיטת ורוצלב וסביבתו",
+            "en": "The University of Wrocław building and its surroundings",
+            "pl": "Gmach Uniwersytetu Wrocławskiego i jego otoczenie",
+            "de": "Das Gebäude der Universität Breslau und seine Umgebung",
+            "cs": "Budova Vratislavské univerzity a její okolí"
+          }
+        },
+        "/assets/full-enrichment-20261022/university-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-07-05 at 20.44.54 (1).jpeg",
+          "sourceSHA256": "7639e24fab3bf3e7ba36c705afcbcf17c672295c9a60fe9699058ab91c1d6b5f",
+          "assetSHA256": "5121ab60e281b53c28f8d13649e369e54bff130c82dfb025b8dba6e03a47c7c2",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבנה אוניברסיטת ורוצלב וסביבתו",
+            "en": "The University of Wrocław building and its surroundings",
+            "pl": "Gmach Uniwersytetu Wrocławskiego i jego otoczenie",
+            "de": "Das Gebäude der Universität Breslau und seine Umgebung",
+            "cs": "Budova Vratislavské univerzity a její okolí"
+          }
+        },
+        "/assets/mathematical-tower-riverside.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/university/WhatsApp Image 2026-10-19 at 08.41.52 (8).jpeg",
+          "sourceSHA256": "b3c9a16d98cdc60a4a88f3a82c2ea593a01e613b15100ec45f80b9dbdf201adb",
+          "assetSHA256": "195a964f7077b9c8538501d4c7834da0f5d363939f823c2d7f141a209f8b5901",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מבנה אוניברסיטת ורוצלב וסביבתו",
+            "en": "The University of Wrocław building and its surroundings",
+            "pl": "Gmach Uniwersytetu Wrocławskiego i jego otoczenie",
+            "de": "Das Gebäude der Universität Breslau und seine Umgebung",
+            "cs": "Budova Vratislavské univerzity a její okolí"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -40812,19 +41954,6 @@
         "url": "https://www.instagram.com/p/DbgEDzmnDcY/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "vega-bar-weganski-wroclaw": {
@@ -48350,32 +49479,9 @@
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
-      }
-    },
-    "media": {
-      "photos": [],
-      "videos": []
-    },
-    "socialPosts": [
-      {
-        "platform": "facebook",
-        "language": "cs",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbTJoTBWFT4sTSCasVK8HQVfnecf7tXsUX8ZS3oeUj3av3Gj4k3SLgkAVrAJxQdwl&id=61594716405964",
-        "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
       },
-      {
-        "platform": "facebook",
-        "language": "en",
-        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0DJSnncxmvv8CBRcLgv4FNAoe4s5aNY6nVSD1NBV4PFfTwLQckhujKqEDzM5iuC7jl&id=61595036942289",
-        "verifiedAt": "2026-10-07"
-      },
-      {
-        "platform": "facebook",
-        "language": "pl",
-        "url": "https://facebook.com/permalink.php?story_fbid=pfbid029xAEk62emXraeZ4TbqwvYcU4ckXUgnmzoyHL1QLA1btabSU7weDF24yVCSuWCAZCl&id=61595207664875",
-        "verifiedAt": "2026-10-08T14:19:36.030Z"
-      }
-    ],
+      "socialProfileFallback": false
+    },
     "transport": {
       "carRequired": null,
       "publicTransportNotes": null,
@@ -48388,6 +49494,74 @@
       "pl",
       "de",
       "cs"
+    ],
+    "provenance": {
+      "socialHideUserInstruction20261022": {
+        "platforms": [
+          "facebook",
+          "instagram"
+        ],
+        "languages": [
+          "he",
+          "en",
+          "pl",
+          "de",
+          "cs"
+        ],
+        "reason": "User explicitly confirmed no posts should be shown for Sand Island. Preserve old URLs only as historical evidence.",
+        "oldPosts": [
+          {
+            "platform": "facebook",
+            "language": "cs",
+            "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbTJoTBWFT4sTSCasVK8HQVfnecf7tXsUX8ZS3oeUj3av3Gj4k3SLgkAVrAJxQdwl&id=61594716405964",
+            "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+          },
+          {
+            "platform": "facebook",
+            "language": "en",
+            "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0DJSnncxmvv8CBRcLgv4FNAoe4s5aNY6nVSD1NBV4PFfTwLQckhujKqEDzM5iuC7jl&id=61595036942289",
+            "verifiedAt": "2026-10-07"
+          },
+          {
+            "platform": "facebook",
+            "language": "pl",
+            "url": "https://facebook.com/permalink.php?story_fbid=pfbid029xAEk62emXraeZ4TbqwvYcU4ckXUgnmzoyHL1QLA1btabSU7weDF24yVCSuWCAZCl&id=61595207664875",
+            "verifiedAt": "2026-10-08T14:19:36.030Z"
+          }
+        ]
+      },
+      "fullPhotoRefresh20261022": {
+        "sourceOriginalsModified": false,
+        "noArbitraryPhotoLimit": true,
+        "localPreparationOnly": true
+      }
+    },
+    "media": {
+      "photos": [],
+      "videos": []
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbTJoTBWFT4sTSCasVK8HQVfnecf7tXsUX8ZS3oeUj3av3Gj4k3SLgkAVrAJxQdwl&id=61594716405964",
+        "verifiedAt": "2026-10-07T06:19:42.573071+00:00",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0DJSnncxmvv8CBRcLgv4FNAoe4s5aNY6nVSD1NBV4PFfTwLQckhujKqEDzM5iuC7jl&id=61595036942289",
+        "verifiedAt": "2026-10-07",
+        "routingExcluded": true
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid029xAEk62emXraeZ4TbqwvYcU4ckXUgnmzoyHL1QLA1btabSU7weDF24yVCSuWCAZCl&id=61595207664875",
+        "verifiedAt": "2026-10-08T14:19:36.030Z",
+        "routingExcluded": true
+      }
     ]
   },
   "zamek-topacz": {
@@ -49554,9 +50728,6 @@
   "kawiarenka-sw-jadwigi-wroclaw": "kawiarenka-sw-jadwigi",
   "st-hedwigs-cafe": "kawiarenka-sw-jadwigi",
   "בית קפה במנזר": "kawiarenka-sw-jadwigi",
-  "mathematical-tower": "math-tower",
-  "Wieża Matematyczna": "math-tower",
-  "המגדל המתמטי": "math-tower",
   "Gustaw": "gustaw-restaurant-wroclaw",
   "Gustav": "gustaw-restaurant-wroclaw",
   "Restauracja Gustaw": "gustaw-restaurant-wroclaw",
@@ -49620,10 +50791,6 @@
   "FC Caffe": "fc-caffe-kuznicza",
   "קפה אף סי": "fc-caffe-kuznicza",
   "קפה אפ סי": "fc-caffe-kuznicza",
-  "Chatki Alley": "jatki",
-  "Jatki Alley": "jatki",
-  "Stare Jatki": "jatki",
-  "צ׳טקי אלי": "jatki",
   "Bar Miś": "bar-mis",
   "Bar Mis": "bar-mis",
   "בר מיש": "bar-mis",
@@ -49670,8 +50837,6 @@
   "Witch Bridge": "mostek-pokutnic-wroclaw",
   "Witches Bridge": "mostek-pokutnic-wroclaw",
   "גשר המכשפות": "mostek-pokutnic-wroclaw",
-  "Marietta": "marietta-focacceria-wroclaw",
-  "Marietta Focacceria Wrocław": "marietta-focacceria-wroclaw",
   "OLIO Wrocław": "olio-pizza-napoletana-wroclaw",
   "Olio Pizza Napoletana": "olio-pizza-napoletana-wroclaw",
   "Kościół św. Mikołaja w Brzegu": "brzeg-st-nicholas-church",
@@ -49695,6 +50860,15 @@
   "VEGA Bar Wegański": "vega-bar-weganski-wroclaw",
   "וגה": "vega-bar-weganski-wroclaw",
   "Vega Wrocław Rynek": "vega-bar-weganski-wroclaw",
+  "Marietta": "marietta-focacceria-wroclaw",
+  "Marietta Focacceria Wrocław": "marietta-focacceria-wroclaw",
+  "Chatki Alley": "jatki",
+  "Jatki Alley": "jatki",
+  "Stare Jatki": "jatki",
+  "צ׳טקי אלי": "jatki",
+  "Wieża Matematyczna": "math-tower",
+  "mathematical-tower": "math-tower",
+  "המגדל המתמטי": "math-tower",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
