@@ -53,5 +53,17 @@ window.WROC_HOME_EXPERIENCES = [
       "cs": "Objevte vratislavské mléčné bary"
     },
     "photo": "/assets/experiences/milk-bars/visit-05.jpg"
+  },
+  {
+    "id": "coffee-lovers-wroclaw",
+    "name": {
+      "he": "וורוצלב לאוהבי קפה",
+      "en": "Wrocław for coffee lovers",
+      "pl": "Wrocław dla miłośników kawy",
+      "de": "Breslau für Kaffeeliebhaber",
+      "cs": "Vratislav pro milovníky kávy"
+    },
+    "photoPosition": "50% 78%",
+    "photo": "/assets/food-cafes/czarna-magia-04.jpg"
   }
 ];

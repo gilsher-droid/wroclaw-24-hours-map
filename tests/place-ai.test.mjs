@@ -15,7 +15,7 @@ test('All five languages have distinct preset questions and a truthful default c
  assert.match(m.prompt(m.context({name:'Place'},'he')),/אין להניח שאני נמצא/);
  assert.equal(m.context({name:'Place'},'xx').language,'he');
 });
-test('AI buttons escape untrusted place names and open only fixed external destinations',()=>{
+test('AI buttons escape untrusted place names and open only approved external destinations',()=>{
  const window={WROC_PLACE_AI_MODEL:runtime()},document={addEventListener(){}};
  vm.runInNewContext(readFileSync('place-ai.js','utf8'),{window,document});
  const html=window.WROC_PLACE_AI.button({id:'a',name:'<img src=x onerror="alert(1)">'},'en');assert.ok(!html.includes('<img'));assert.ok(html.includes('&lt;img'));assert.ok(html.includes('aria-haspopup="dialog"'));
@@ -26,4 +26,14 @@ test('All seven public map types load the shared service before rendering place 
   const html=readFileSync(page+'.html','utf8');assert.ok(html.indexOf('/place-ai-model.js')<html.indexOf('/place-ai.js'));assert.ok(html.indexOf('/place-ai.js')<html.indexOf('/'+renderer+'.js'));assert.ok(html.includes('/place-ai.css'));assert.ok(readFileSync(renderer+'.js','utf8').includes('WROC_PLACE_AI?.button('));
  }
  for(const f of ['place-ai-model.js','place-ai.js','place-ai.css'])assert.ok(existsSync('dist/client/'+f));
+});
+
+test('Direct ChatGPT opening encodes the edited question without sending automatically',()=>{
+ const window={WROC_PLACE_AI_MODEL:runtime()},document={addEventListener(){}};
+ vm.runInNewContext(readFileSync('place-ai.js','utf8'),{window,document});
+ const q='היכל המאה & Wrocław? # details';const url=new URL(window.WROC_PLACE_AI.chatgptUrl(q));
+ assert.equal(url.origin,'https://chatgpt.com');assert.equal(url.searchParams.get('q'),q);
+ assert.equal(url.searchParams.size,1);assert.equal(url.hash,'');
+ const ui=readFileSync('place-ai.js','utf8');assert.ok(ui.includes("get('gemini').addEventListener"));assert.ok(ui.includes('updateDestination()'));
+ assert.ok(!ui.includes('submit()'));assert.ok(!ui.includes('gemini.google.com/?'));
 });
