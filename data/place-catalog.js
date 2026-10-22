@@ -4122,10 +4122,13 @@
         "/assets/gallery-boguslawskiego-06.jpg",
         "/assets/boguslawskiego-refresh/boguslawskiego-refresh-01.jpg",
         "/assets/boguslawskiego-refresh/boguslawskiego-refresh-02.jpg",
-        "/assets/boguslawskiego-refresh/boguslawskiego-refresh-03.jpg"
+        "/assets/boguslawskiego-refresh/boguslawskiego-refresh-03.jpg",
+        "/assets/round24h-20261022/boguslawskiego-05.jpg",
+        "/assets/round24h-20261022/boguslawskiego-06.jpg"
       ],
       "videos": [
-        "https://www.youtube.com/watch?v=hY-IB_mxFGg"
+        "https://www.youtube.com/watch?v=hY-IB_mxFGg",
+        "https://www.youtube.com/watch?v=xiWZgBecCYM"
       ],
       "metadata": {
         "/assets/gallery-boguslawskiego-01.jpg": {
@@ -4279,6 +4282,53 @@
             "de": "Eisenbahnbögen und vorbeifahrender Zug bei Nacht",
             "cs": "Železniční oblouky a projíždějící vlak v noci"
           }
+        },
+        "/assets/round24h-20261022/boguslawskiego-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bogusławskiego Street/WhatsApp Image 2026-07-30 at 16.04.04.jpeg",
+          "sourceSHA256": "26352939f99699c7c7631932b526fe0c48bc6cb94d0d7010de4ff9b402b8f851",
+          "assetSHA256": "6b9c132486c903a66ec859e4df47f5111bc77fd78d3617ff4bfab3dfc86e3121",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "בתי האוכל וקשתות הרכבת ברחוב בוגוסלבסקייגו",
+            "en": "Food venues and railway arches on Bogusławskiego Street",
+            "pl": "Lokale gastronomiczne i arkady kolejowe przy ulicy Bogusławskiego",
+            "de": "Lokale und Eisenbahnbögen an der Bogusławskiego-Straße",
+            "cs": "Podniky a železniční oblouky v ulici Bogusławskiego"
+          }
+        },
+        "/assets/round24h-20261022/boguslawskiego-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bogusławskiego Street/WhatsApp Image 2026-07-30 at 16.04.05.jpeg",
+          "sourceSHA256": "caa55e677ee2a5b6a2955fd7828d0c4ee468fba28beec494e71589cdadfc1a68",
+          "assetSHA256": "a5b260d7893226b6a4c78e674e1ca9935de5b8c496aaf25a042b9e7afd7010e9",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "בתי האוכל וקשתות הרכבת ברחוב בוגוסלבסקייגו",
+            "en": "Food venues and railway arches on Bogusławskiego Street",
+            "pl": "Lokale gastronomiczne i arkady kolejowe przy ulicy Bogusławskiego",
+            "de": "Lokale und Eisenbahnbögen an der Bogusławskiego-Straße",
+            "cs": "Podniky a železniční oblouky v ulici Bogusławskiego"
+          }
+        },
+        "https://www.youtube.com/watch?v=xiWZgBecCYM": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bogusławskiego Street/WhatsApp Video 2026-10-19 at 17.01.57 (1).mp4",
+          "sourceSHA256": "3197a606d199bbec5407f4d7b3606ff5c7d81c205ba7426e3e2ff2e6bddf5588",
+          "uploadSHA256": "708a111b55c01227204d97b6d0dfbf885d0690c4964a51213f896ebd952d52ca",
+          "durationSeconds": 7.5,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_e0c8b2a2a7424ffc977a753d0248099b",
+          "title": {
+            "he": "ביקור ברחוב הקשתות בלילה 1",
+            "en": "Railway arches street at night 1",
+            "pl": "Ulica pod nasypem nocą 1",
+            "de": "Straße an den Bahnbögen bei Nacht 1",
+            "cs": "Ulice pod železničními oblouky v noci 1"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
         }
       }
     },
@@ -16233,6 +16283,34 @@
         "checkedAt": "2026-10-21T17:55:35.224654+00:00",
         "originalsUnchanged": true,
         "existingIdentityLinksHeroPreserved": true
+      },
+      "fullSourceRound20261022": {
+        "noQuantityCuration": true,
+        "sourceOriginalsUnchanged": true,
+        "addedPhotos": [
+          "/assets/round24h-20261022/glowny-00.jpg",
+          "/assets/round24h-20261022/glowny-03.jpg",
+          "/assets/round24h-20261022/glowny-05.jpg",
+          "/assets/round24h-20261022/glowny-06.jpg",
+          "/assets/round24h-20261022/glowny-07.jpg",
+          "/assets/round24h-20261022/glowny-08.jpg",
+          "/assets/round24h-20261022/glowny-09.jpg",
+          "/assets/round24h-20261022/glowny-10.jpg",
+          "/assets/round24h-20261022/glowny-11.jpg",
+          "/assets/round24h-20261022/glowny-12.jpg",
+          "/assets/round24h-20261022/glowny-13.jpg",
+          "/assets/round24h-20261022/glowny-15.jpg",
+          "/assets/round24h-20261022/glowny-16.jpg",
+          "/assets/round24h-20261022/glowny-17.jpg",
+          "/assets/round24h-20261022/glowny-18.jpg",
+          "/assets/round24h-20261022/glowny-19.jpg",
+          "/assets/round24h-20261022/glowny-20.jpg",
+          "/assets/round24h-20261022/glowny-23.jpg",
+          "/assets/round24h-20261022/glowny-24.jpg",
+          "/assets/round24h-20261022/glowny-25.jpg",
+          "/assets/round24h-20261022/glowny-32.jpg",
+          "/assets/round24h-20261022/glowny-34.jpg"
+        ]
       }
     },
     "media": {
@@ -16240,11 +16318,35 @@
         "/assets/wroclaw-glowny-exterior-b870acd8.jpg",
         "/assets/wroclaw-glowny-interior-922f25cf.jpg",
         "/assets/today-source-refresh-20261021/run3-19-glowny.jpg",
-        "/assets/today-source-refresh-20261021/run3-22-glowny.jpg"
+        "/assets/today-source-refresh-20261021/run3-22-glowny.jpg",
+        "/assets/round24h-20261022/glowny-00.jpg",
+        "/assets/round24h-20261022/glowny-03.jpg",
+        "/assets/round24h-20261022/glowny-05.jpg",
+        "/assets/round24h-20261022/glowny-06.jpg",
+        "/assets/round24h-20261022/glowny-07.jpg",
+        "/assets/round24h-20261022/glowny-08.jpg",
+        "/assets/round24h-20261022/glowny-09.jpg",
+        "/assets/round24h-20261022/glowny-10.jpg",
+        "/assets/round24h-20261022/glowny-11.jpg",
+        "/assets/round24h-20261022/glowny-12.jpg",
+        "/assets/round24h-20261022/glowny-13.jpg",
+        "/assets/round24h-20261022/glowny-15.jpg",
+        "/assets/round24h-20261022/glowny-16.jpg",
+        "/assets/round24h-20261022/glowny-17.jpg",
+        "/assets/round24h-20261022/glowny-18.jpg",
+        "/assets/round24h-20261022/glowny-19.jpg",
+        "/assets/round24h-20261022/glowny-20.jpg",
+        "/assets/round24h-20261022/glowny-23.jpg",
+        "/assets/round24h-20261022/glowny-24.jpg",
+        "/assets/round24h-20261022/glowny-25.jpg",
+        "/assets/round24h-20261022/glowny-32.jpg",
+        "/assets/round24h-20261022/glowny-34.jpg",
+        "/assets/round24h-20261022/glowny-approved-night.jpg"
       ],
       "videos": [
         "/assets/wroclaw-glowny-video-01.mp4",
-        "/assets/wroclaw-glowny-video-02.mp4"
+        "/assets/wroclaw-glowny-video-02.mp4",
+        "https://www.youtube.com/watch?v=9S91eei8U5o"
       ],
       "metadata": {
         "/assets/wroclaw-glowny-exterior-b870acd8.jpg": {
@@ -16318,6 +16420,327 @@
           },
           "verifiedAt": "2026-10-21T17:55:35.224654+00:00",
           "sourceRefreshRun": "2026-10-21-run3"
+        },
+        "/assets/round24h-20261022/glowny-00.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4858.JPG",
+          "sourceSHA256": "1cf986ca4b16f73ee82fcc330c1ce779ee393dfb846dffc957512a4d83c6bf47",
+          "assetSHA256": "1faaad8a710340b73c5793ce4530b12c4c9f430bf0261ca4030611f3e8b140fc",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית תחנת הרכבת המרכזית",
+            "en": "Wrocław main railway station facade",
+            "pl": "Fasada dworca Wrocław Główny",
+            "de": "Fassade des Breslauer Hauptbahnhofs",
+            "cs": "Průčelí hlavního nádraží ve Vratislavi"
+          }
+        },
+        "/assets/round24h-20261022/glowny-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4865.JPG",
+          "sourceSHA256": "3a273b83afe39bca950481ea4e84652ae3a208813c844a3cd718557b2dfdf88c",
+          "assetSHA256": "72a8b96082296bd12d904ac7dfddb5ea220416899520a74663be22dcc43656b9",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית תחנת הרכבת המרכזית",
+            "en": "Wrocław main railway station facade",
+            "pl": "Fasada dworca Wrocław Główny",
+            "de": "Fassade des Breslauer Hauptbahnhofs",
+            "cs": "Průčelí hlavního nádraží ve Vratislavi"
+          }
+        },
+        "/assets/round24h-20261022/glowny-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4867.JPG",
+          "sourceSHA256": "1acae97873e534dbb90db9bbedea33dfd4f49d0e14d37ea54116fbc8bb4b85ac",
+          "assetSHA256": "fc54436b8d342ee163d1b2786a922fd4c1a31869edd4f5efd37b779cb9f78455",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "תצוגת מידע בחזית תחנת הרכבת",
+            "en": "Information display outside the railway station",
+            "pl": "Tablica informacyjna przed dworcem",
+            "de": "Informationstafel vor dem Bahnhof",
+            "cs": "Informační panel před nádražím"
+          }
+        },
+        "/assets/round24h-20261022/glowny-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4868.JPG",
+          "sourceSHA256": "da6f4c1a1b213071509c22f07289edb8708d1ee76cedceee8bed7d55ab3957c7",
+          "assetSHA256": "75d3beabfdced45449eb72e6a35e2a70bf70b96926e1ab37de72d4292e1e9e72",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "תצוגת מידע בחזית תחנת הרכבת",
+            "en": "Information display outside the railway station",
+            "pl": "Tablica informacyjna przed dworcem",
+            "de": "Informationstafel vor dem Bahnhof",
+            "cs": "Informační panel před nádražím"
+          }
+        },
+        "/assets/round24h-20261022/glowny-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4870.JPG",
+          "sourceSHA256": "6250a094b246c7431d8c207eff28d86e78b08ef296f2220e538d5a626a2adae0",
+          "assetSHA256": "7d585459bd1715e705048f0bd0846b36983892c0b2b410f9a96bf3c156e3f118",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית תחנת הרכבת המרכזית",
+            "en": "Wrocław main railway station facade",
+            "pl": "Fasada dworca Wrocław Główny",
+            "de": "Fassade des Breslauer Hauptbahnhofs",
+            "cs": "Průčelí hlavního nádraží ve Vratislavi"
+          }
+        },
+        "/assets/round24h-20261022/glowny-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4873.JPG",
+          "sourceSHA256": "efd21575c8d209d56a2c9d478da07d14360a0403fba7406f7d53d6d39c920e13",
+          "assetSHA256": "2b2f51738c303db4eb191aaa345080e1601921e8f4cbac949a16904306736bbe",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרט הכניסה לתחנת הרכבת",
+            "en": "Railway station entrance detail",
+            "pl": "Detal wejścia na dworzec",
+            "de": "Detail des Bahnhofseingangs",
+            "cs": "Detail vstupu na nádraží"
+          }
+        },
+        "/assets/round24h-20261022/glowny-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4878.JPG",
+          "sourceSHA256": "361f920ff70397fffca27275ba9100fb89caa63df7e5608a52d2e9886801c95b",
+          "assetSHA256": "0d2e99533c4b323ba14b3560d359b0c746b60365389510fd77b49e8b392e1bac",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "עמוד מעוטר במעבר בתחנת הרכבת",
+            "en": "Decorated column in the railway station passage",
+            "pl": "Zdobiona kolumna w przejściu dworca",
+            "de": "Verzierte Säule im Bahnhofsdurchgang",
+            "cs": "Zdobený sloup v průchodu nádraží"
+          }
+        },
+        "/assets/round24h-20261022/glowny-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4882.JPG",
+          "sourceSHA256": "4b237e3c9b3b1fd78700e54a068674dbfd748cf48d1ebbbc999602976f614d2e",
+          "assetSHA256": "4056ded8b8cd874fc2c24c132a8aeefe8ab569dd44416d89d1f4e7133eea8b70",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דוכן אוכל בתחנת הרכבת בעת הביקור",
+            "en": "Food counter at the station during our visit",
+            "pl": "Stoisko z jedzeniem na dworcu podczas wizyty",
+            "de": "Imbissstand im Bahnhof beim Besuch",
+            "cs": "Stánek s občerstvením na nádraží při návštěvě"
+          }
+        },
+        "/assets/round24h-20261022/glowny-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4885.JPG",
+          "sourceSHA256": "02aa2707028500d07cca6aea57e69ad5f5e95364667513e19bbd0616541a0ca8",
+          "assetSHA256": "e46774c44c1955f492b10e7aeb00cbaf9056dd9ee0f8b697b0646e966a490c4d",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרטי אריחים ומעבר בתחנת הרכבת",
+            "en": "Tilework and passage details at the station",
+            "pl": "Detale płytek i przejścia na dworcu",
+            "de": "Fliesen und Durchgangsdetails im Bahnhof",
+            "cs": "Detaily obkladů a průchodu na nádraží"
+          }
+        },
+        "/assets/round24h-20261022/glowny-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4887.JPG",
+          "sourceSHA256": "8f8b373d50e8fa014d4be134755b0f35dda98ef795bb446ad33d2cf319b94009",
+          "assetSHA256": "5fbf17d338cc9e209ede357a578e7ecb237c16ef1aba22abf61a8588fde05a49",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרטי אריחים ומעבר בתחנת הרכבת",
+            "en": "Tilework and passage details at the station",
+            "pl": "Detale płytek i przejścia na dworcu",
+            "de": "Fliesen und Durchgangsdetails im Bahnhof",
+            "cs": "Detaily obkladů a průchodu na nádraží"
+          }
+        },
+        "/assets/round24h-20261022/glowny-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4888.JPG",
+          "sourceSHA256": "846ab9d1a9f356fd4e14a4b3a84af44e82b99a8d31243768302c6784535d37a2",
+          "assetSHA256": "da913c4fe4f5dfcad666779a4a9c9e61946631a87cde5a69c2f78c2327d54610",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "אולם תחנת הרכבת בעת הביקור",
+            "en": "Railway station hall during our visit",
+            "pl": "Hala dworca podczas wizyty",
+            "de": "Bahnhofshalle beim Besuch",
+            "cs": "Nádražní hala při návštěvě"
+          }
+        },
+        "/assets/round24h-20261022/glowny-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4891.JPG",
+          "sourceSHA256": "db68d3b7851bf8eeb5568325e3d474d9fcc495fad3d2835e25071cb7b5531169",
+          "assetSHA256": "c77facc329c94ec0fed372c4ef0950999d98216c8bcbbe00c0465dff56a1f793",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "אולם תחנת הרכבת בעת הביקור",
+            "en": "Railway station hall during our visit",
+            "pl": "Hala dworca podczas wizyty",
+            "de": "Bahnhofshalle beim Besuch",
+            "cs": "Nádražní hala při návštěvě"
+          }
+        },
+        "/assets/round24h-20261022/glowny-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4894.JPG",
+          "sourceSHA256": "d024010096373995c53e846cb2d94395058282d1e69c5acc635799b1f37d3ea7",
+          "assetSHA256": "a60498c602035381e5e28f173c5141ce77e0896ffad7c7f0cc990090c46e3f76",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "עמדת המידע באולם תחנת הרכבת",
+            "en": "Information desk in the station hall",
+            "pl": "Punkt informacji w hali dworca",
+            "de": "Informationsschalter in der Bahnhofshalle",
+            "cs": "Informační přepážka v nádražní hale"
+          }
+        },
+        "/assets/round24h-20261022/glowny-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4895.JPG",
+          "sourceSHA256": "6f9ca77fae7a1de9db332d2dcbfa93a22e85d8753b9a926d83a0379ea4858b39",
+          "assetSHA256": "f86b12b99ee03b8231defe81176dbf0549964acaa6c3930ab90d22f6f5d6f47b",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דוכן אוכל בתחנת הרכבת בעת הביקור",
+            "en": "Food counter at the station during our visit",
+            "pl": "Stoisko z jedzeniem na dworcu podczas wizyty",
+            "de": "Imbissstand im Bahnhof beim Besuch",
+            "cs": "Stánek s občerstvením na nádraží při návštěvě"
+          }
+        },
+        "/assets/round24h-20261022/glowny-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/IMG_4896.JPG",
+          "sourceSHA256": "8b00fb482a239e855d40ce7bfa34d3bc74040391d68aab408ecd3f51dab6d39b",
+          "assetSHA256": "551ca2b2e5a8f1713ff8e092855672436a6ac9c82ec410c4743dfabf731719fc",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דוכן אוכל בתחנת הרכבת בעת הביקור",
+            "en": "Food counter at the station during our visit",
+            "pl": "Stoisko z jedzeniem na dworcu podczas wizyty",
+            "de": "Imbissstand im Bahnhof beim Besuch",
+            "cs": "Stánek s občerstvením na nádraží při návštěvě"
+          }
+        },
+        "/assets/round24h-20261022/glowny-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-07-30 at 16.04.08 (2).jpeg",
+          "sourceSHA256": "de927658ca2e85b16029d4f3908a997f1585aba170e360b0ea097498f3924d35",
+          "assetSHA256": "6539a9eddb014d443aba8097264a03a624aff9c6a3213064dff3ce73a22975b0",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דוכן אוכל בתחנת הרכבת בעת הביקור",
+            "en": "Food counter at the station during our visit",
+            "pl": "Stoisko z jedzeniem na dworcu podczas wizyty",
+            "de": "Imbissstand im Bahnhof beim Besuch",
+            "cs": "Stánek s občerstvením na nádraží při návštěvě"
+          }
+        },
+        "/assets/round24h-20261022/glowny-20.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-01 at 09.23.55 (3).jpeg",
+          "sourceSHA256": "3a4010b13bd2c65106d4976748108a0142c197484567f67080f04927fbb42a56",
+          "assetSHA256": "1040695e3af01fc795da9d93bb55677045dbe48477c22b2cc72f6dda14e297c5",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "אולם תחנת הרכבת המואר בערב",
+            "en": "Illuminated railway station hall in the evening",
+            "pl": "Oświetlona hala dworca wieczorem",
+            "de": "Beleuchtete Bahnhofshalle am Abend",
+            "cs": "Osvětlená nádražní hala večer"
+          }
+        },
+        "/assets/round24h-20261022/glowny-23.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-01 at 09.23.57 (9).jpeg",
+          "sourceSHA256": "ecd31ef7cb06ba7b21525feb65db7fbe4628c8b47b47b77dc22ed151cd42a7ed",
+          "assetSHA256": "9c50c864fe2ce3d984fd03462067dee5ac9874862f078a61b6cfb7e484f4da27",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית תחנת הרכבת בלילה",
+            "en": "Railway station facade at night",
+            "pl": "Fasada dworca nocą",
+            "de": "Bahnhofsfassade bei Nacht",
+            "cs": "Průčelí nádraží v noci"
+          }
+        },
+        "/assets/round24h-20261022/glowny-24.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-01 at 09.23.57.jpeg",
+          "sourceSHA256": "e9c8062d892f07ade64701ad12c16f3bd6255eee4359107c90342c0e41fde538",
+          "assetSHA256": "456c61a46d686ae50ae00db64a8a824a737b13f3126bb8d8ccc833e35080ce0d",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "לוח זיכרון בתחנת הרכבת",
+            "en": "Memorial plaque at the railway station",
+            "pl": "Tablica pamiątkowa na dworcu",
+            "de": "Gedenktafel am Bahnhof",
+            "cs": "Pamětní deska na nádraží"
+          }
+        },
+        "/assets/round24h-20261022/glowny-25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-05 at 18.31.16 (2).jpeg",
+          "sourceSHA256": "efa3bbf3ae999d18c7e98e7167d9c5c727d87d6d02d6aab0f3ef025429fda9cc",
+          "assetSHA256": "ac5be304da5712ac4d21f593fc85df663d44ce9735ce3737a8310537b9f896ae",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מדרגות לרציף בתחנת הרכבת",
+            "en": "Stairs to a platform at the railway station",
+            "pl": "Schody na peron dworca",
+            "de": "Treppe zum Bahnsteig",
+            "cs": "Schody na nástupiště"
+          }
+        },
+        "/assets/round24h-20261022/glowny-32.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-19 at 17.03.13 (2).jpeg",
+          "sourceSHA256": "16d9fc7f14e9708a326f37282a14b79495c5ebe51edbba48cfb79309f6f31e82",
+          "assetSHA256": "d209e3b57813f93c29b55cd5f1255d6300b55bfd3e0b693eea67c7ea4099fadc",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "אולם תחנת הרכבת המואר בערב",
+            "en": "Illuminated railway station hall in the evening",
+            "pl": "Oświetlona hala dworca wieczorem",
+            "de": "Beleuchtete Bahnhofshalle am Abend",
+            "cs": "Osvětlená nádražní hala večer"
+          }
+        },
+        "/assets/round24h-20261022/glowny-34.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-19 at 17.03.13.jpeg",
+          "sourceSHA256": "699ea6711bb7972e2c07738b42723c9fcb41f652c11413eebab3b557eeeb3033",
+          "assetSHA256": "9b6aec1168faa4ed49bde32a7a1d2f86f90f7b3f8e19ff7372439673a31d7653",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "לוח יציאות הרכבות בעת הביקור",
+            "en": "Train departure board during our visit",
+            "pl": "Tablica odjazdów podczas wizyty",
+            "de": "Abfahrtstafel beim Besuch",
+            "cs": "Odjezdová tabule při návštěvě"
+          }
+        },
+        "/assets/round24h-20261022/glowny-approved-night.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Image 2026-10-01 at 09.23.57 (8).jpeg",
+          "sourceSHA256": "d14aefb2bf1a3ed388f8d737cd25b5a626adf391fadeafb87d09919a1c31d4ce",
+          "assetSHA256": "155f0f50bda3a5289d54fdb0dcb968b291a16dc0fedba00372bc7acec51af8b1",
+          "originalFullPicturePreserved": true,
+          "specificUserApproval": "call_287d7148f93e4481ba491f0bd0d6c30c",
+          "alt": {
+            "he": "תצלום הביקור שלנו ליד תחנת הרכבת בלילה",
+            "en": "Our visit photograph by the railway station at night",
+            "pl": "Nasze zdjęcie z wizyty przy dworcu nocą",
+            "de": "Unser Besuchsfoto am Bahnhof bei Nacht",
+            "cs": "Naše fotografie z návštěvy u nádraží v noci"
+          }
+        },
+        "https://www.youtube.com/watch?v=9S91eei8U5o": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Train station/WhatsApp Video 2026-10-01 at 09.23.54.mp4",
+          "sourceSHA256": "2f2ea238398cd8dee95a8ddd511418fa4533ada61a583b73781a76262a2f46f6",
+          "uploadSHA256": "8528881960174d9cb9da6e1d23469e3a76571279dc0c7db9fdb64bc3951d02d8",
+          "durationSeconds": 4.6,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור בתחנת הרכבת 1",
+            "en": "Main railway station visit 1",
+            "pl": "Wizyta na dworcu 1",
+            "de": "Besuch im Hauptbahnhof 1",
+            "cs": "Návštěva hlavního nádraží 1"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
         }
       }
     },
@@ -17170,18 +17593,302 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "fullSourceRound20261022": {
+        "originalsUnchanged": true,
+        "sourcePhotoCount": 18,
+        "allDistinctRelevantPhotosIncluded": true,
+        "quantityCuration": false,
+        "replacedCroppedReferences": [
+          "/assets/gallery-hala-01.jpg",
+          "/assets/gallery-hala-02.jpg",
+          "/assets/gallery-hala-03.jpg",
+          "/assets/gallery-hala-04.jpg",
+          "/assets/gallery-hala-05.jpg",
+          "/assets/gallery-hala-06.jpg"
+        ],
+        "retainedExistingBakeryPhotos": [
+          "/assets/feels-familiar/hala-chalka.jpg",
+          "/assets/feels-familiar/hala-bakery.jpg"
+        ],
+        "newFullAssets": 18,
+        "newDistinctSourceViews": 12,
+        "historicalAssetsNotDeleted": true
+      }
+    },
     "media": {
       "photos": [
-        "/assets/gallery-hala-01.jpg",
-        "/assets/gallery-hala-02.jpg",
-        "/assets/gallery-hala-03.jpg",
-        "/assets/gallery-hala-04.jpg",
-        "/assets/gallery-hala-05.jpg",
-        "/assets/gallery-hala-06.jpg",
+        "/assets/round24h-20261022/hala-targowa-01.jpg",
+        "/assets/round24h-20261022/hala-targowa-00.jpg",
+        "/assets/round24h-20261022/hala-targowa-02.jpg",
+        "/assets/round24h-20261022/hala-targowa-03.jpg",
+        "/assets/round24h-20261022/hala-targowa-04.jpg",
+        "/assets/round24h-20261022/hala-targowa-05.jpg",
+        "/assets/round24h-20261022/hala-targowa-06.jpg",
+        "/assets/round24h-20261022/hala-targowa-07.jpg",
+        "/assets/round24h-20261022/hala-targowa-08.jpg",
+        "/assets/round24h-20261022/hala-targowa-09.jpg",
+        "/assets/round24h-20261022/hala-targowa-10.jpg",
+        "/assets/round24h-20261022/hala-targowa-11.jpg",
+        "/assets/round24h-20261022/hala-targowa-12.jpg",
+        "/assets/round24h-20261022/hala-targowa-13.jpg",
+        "/assets/round24h-20261022/hala-targowa-14.jpg",
+        "/assets/round24h-20261022/hala-targowa-15.jpg",
+        "/assets/round24h-20261022/hala-targowa-16.jpg",
+        "/assets/round24h-20261022/hala-targowa-17.jpg",
         "/assets/feels-familiar/hala-chalka.jpg",
         "/assets/feels-familiar/hala-bakery.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/round24h-20261022/hala-targowa-00.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/56E70E68-B8E9-4D01-B2C6-7CE10DF79674.jpg",
+          "sourceSHA256": "90614f038871c4f0777955d7cb06a370f5a163400e6a7a534dca5ed0354fce92",
+          "assetSHA256": "1c4bf535a07090927133f904875134a9b1a68a72ae04d5686aca13e2c3f736d7",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כוס קפה מהביקור בשוק",
+            "en": "Coffee during the market visit",
+            "pl": "Kawa podczas wizyty w hali",
+            "de": "Kaffee beim Marktbesuch",
+            "cs": "Káva při návštěvě tržnice"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4020.JPG",
+          "sourceSHA256": "f17acfa3bf737ec7251d15761c9e42d6a093dce4838c82696bcfb577bc35d600",
+          "assetSHA256": "ad874b174cf5558829800ffa24fce748c28d8c5fc56c2b7c8bc8f606f748d912",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית השוק המקורה ומגדל השעון",
+            "en": "Market Hall facade and clock tower",
+            "pl": "Fasada hali i wieża zegarowa",
+            "de": "Markthallenfassade und Uhrturm",
+            "cs": "Průčelí tržnice a hodinová věž"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4025.JPG",
+          "sourceSHA256": "c8874084e0138c0537dd78eba6d5f90f93d5f28c793b69eecc1ee64b6ff7af58",
+          "assetSHA256": "d62a427589ce4d859c5bc5acf168b98c2eb76162c9eba637c494246a4550017c",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כניסת השוק המקורה",
+            "en": "Market Hall entrance",
+            "pl": "Wejście do hali",
+            "de": "Eingang zur Markthalle",
+            "cs": "Vchod do tržnice"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4027.JPG",
+          "sourceSHA256": "89e06ad42925300fd37096328cb5cd1693d3d3f4483967a18d2f53694e5e56c6",
+          "assetSHA256": "f0f0d65bf496dee7d6aecfd39e7bdffa95457df6a8db41456c973acbb03dcd90",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דוכני האוכל בתוך השוק",
+            "en": "Food stalls inside the market",
+            "pl": "Stoiska z jedzeniem w hali",
+            "de": "Essensstände in der Markthalle",
+            "cs": "Stánky s jídlem uvnitř tržnice"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4029.JPG",
+          "sourceSHA256": "9cb87f770e91147fcff74a0ebc8dd0cc74fd989019a73ef6fea0145f12196a00",
+          "assetSHA256": "c8029c740cb24500b1736eb166197304b24960f897721020e2ad2609f3d71f92",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פינת ישיבה ליד דוכן האוכל",
+            "en": "Seating beside a food stall",
+            "pl": "Miejsca siedzące przy stoisku",
+            "de": "Sitzplätze am Essensstand",
+            "cs": "Posezení vedle stánku"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4030.JPG",
+          "sourceSHA256": "b17881486e5e5aa5b9ac045c69cbcb24eeb962f947f91347ced356f40f99685c",
+          "assetSHA256": "30e86667337d5d6211a9cc142d9f7ca643c18630f61e9f504503642489d9fa62",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "לוח תפריט שצולם בביקור",
+            "en": "Menu board photographed during the visit",
+            "pl": "Tablica menu sfotografowana podczas wizyty",
+            "de": "Beim Besuch fotografierte Speisekarte",
+            "cs": "Tabule s nabídkou fotografovaná při návštěvě"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4031.JPG",
+          "sourceSHA256": "cd521dab25081a189455aee6c34bd628a5349e033e944475a0b93bc6e6cff4c6",
+          "assetSHA256": "c9cf7f62acb933488cde96e1c2d9979061b9aa6b6e845f4dbd2f9feb6cbc165c",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מעבר בין דוכני השוק",
+            "en": "Aisle between market stalls",
+            "pl": "Przejście między stoiskami",
+            "de": "Gang zwischen den Marktständen",
+            "cs": "Ulička mezi stánky"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4033.JPG",
+          "sourceSHA256": "34ab3d75971062ce3b1ae9adb72d451215af4d1e3deb402c96b1dda7cd1fb82b",
+          "assetSHA256": "e9ce15d079a7e2bf509e9c68f7a4bb54b0fef865bc0fba6cb0ec64c829bdcf2b",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דלפק ופינת ישיבה בשוק",
+            "en": "Counter and seating in the market",
+            "pl": "Lada i stoliki w hali",
+            "de": "Theke und Sitzbereich in der Halle",
+            "cs": "Pult a posezení v tržnici"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4034.JPG",
+          "sourceSHA256": "8bad4e2de7200c2c69c8ce031fe3aae2f0268ede2ce5698eaf2a84127185f8dd",
+          "assetSHA256": "c2c0c12c8c55a3bbd11076200a5dccea7421ab4826938601a6f3d45822ae1309",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דוכן פירות בשוק",
+            "en": "Fruit stall in the market",
+            "pl": "Stoisko z owocami",
+            "de": "Obststand in der Markthalle",
+            "cs": "Stánek s ovocem"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4035.JPG",
+          "sourceSHA256": "71aad645d048adfac6d5240a21b728fa778f2c22d6e068f54c7028d4e5fb2e95",
+          "assetSHA256": "f4f92f51f01647f855cb970d865557951a94262b739ba68cb6cdffb9954d268b",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "אוכמניות בדוכן הפירות",
+            "en": "Blueberries at a fruit stall",
+            "pl": "Borówki na stoisku",
+            "de": "Blaubeeren am Obststand",
+            "cs": "Borůvky ve stánku"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4036.JPG",
+          "sourceSHA256": "2578a971498ffa275fd020515a0033de7adec448d32849825feb0d4cd28d9fdc",
+          "assetSHA256": "26ab522c80d027e22cf0def6a0700141f9e52b60545904bd121e72c81c51484f",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "תותים בדוכן השוק",
+            "en": "Strawberries at a market stall",
+            "pl": "Truskawki na stoisku",
+            "de": "Erdbeeren am Marktstand",
+            "cs": "Jahody ve stánku"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4037.JPG",
+          "sourceSHA256": "e2519a298ed8a2ed367c68ec421069bc0871db6cd244f65303100abf16786be4",
+          "assetSHA256": "6cf40802540f974a7c98b06729c5068c8aeae9c9a966766a44a20e5ffd16fb1a",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דובדבנים בדוכן השוק",
+            "en": "Cherries at a market stall",
+            "pl": "Czereśnie na stoisku",
+            "de": "Kirschen am Marktstand",
+            "cs": "Třešně ve stánku"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4038.JPG",
+          "sourceSHA256": "df016eb8ce3c020f427c7a356aab94df08fa01341f6311b84d20158f666bcbd3",
+          "assetSHA256": "26366fe0f3e874df2a95088b0a58d9bc20577c5cebfaabcadea81893b66bb766",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבחר פירות בדוכן",
+            "en": "Fruit selection at a stall",
+            "pl": "Wybór owoców na stoisku",
+            "de": "Obstauswahl am Stand",
+            "cs": "Výběr ovoce ve stánku"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4040.JPG",
+          "sourceSHA256": "2220e826e74cfb3c3930f0493bab1ccade12e78f98154a910b034a07d10f6bf4",
+          "assetSHA256": "ac7bfe94f031e70611260484ab35cba4d621b556343937b20493ce3088a63279",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "בית קפה בתוך השוק",
+            "en": "Café inside the market",
+            "pl": "Kawiarnia w hali",
+            "de": "Café in der Markthalle",
+            "cs": "Kavárna uvnitř tržnice"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4042.JPG",
+          "sourceSHA256": "8b68923d51bf8eab698285ccbc38d1030dfdc60a2c4a28cfa42d712bd3342af9",
+          "assetSHA256": "18006b09fcfd94a08aa3038109a9e4363f5e663679f7da89163f09c7730348e5",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "שולחנות בית קפה בשוק",
+            "en": "Café tables in the market",
+            "pl": "Stoliki kawiarni w hali",
+            "de": "Cafétische in der Markthalle",
+            "cs": "Stolky kavárny v tržnici"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4043.JPG",
+          "sourceSHA256": "fe52921695195f52137a5e4a985a7b8cd612e07f4e365efcf98583d80c199570",
+          "assetSHA256": "24a2f6ad507b8ad6a1d606fc61defb913925fd471028f501534d6355ab35c5b7",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דוכן פרחים בשוק",
+            "en": "Flower stall in the market",
+            "pl": "Stoisko z kwiatami",
+            "de": "Blumenstand in der Markthalle",
+            "cs": "Květinový stánek v tržnici"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4044.JPG",
+          "sourceSHA256": "0587da386d91bef0415f9fea5ad271d51133bd66b8c63f8daabe4e58ebc56d61",
+          "assetSHA256": "c78629a66b25a113e7c54b6b903459984d55a6e216a9ace83be5b7db03d6d966",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מעבר השוק והקומה העליונה",
+            "en": "Market aisle and upper level",
+            "pl": "Przejście i piętro hali",
+            "de": "Marktgang und Obergeschoss",
+            "cs": "Ulička tržnice a horní patro"
+          }
+        },
+        "/assets/round24h-20261022/hala-targowa-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4046.JPG",
+          "sourceSHA256": "6f48a9008fc0aea0fb9c7603386636b0864ee275045b17c9a296f0b6d3f36c58",
+          "assetSHA256": "ac0a0f5a550009b7bd095a2ef4ec00c3f258c6de9365f10a16080486aeac7051",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית בית קפה בתוך השוק",
+            "en": "Café frontage inside the market",
+            "pl": "Witryna kawiarni w hali",
+            "de": "Caféfront in der Markthalle",
+            "cs": "Průčelí kavárny v tržnici"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
@@ -17250,19 +17957,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "henryk-tomaszewski-theatre-museum": {
@@ -28342,6 +29036,13 @@
           }
         ],
         "approvalCall": "call_b62ae12263a84eb891e28ab25704a6e0"
+      },
+      "fullSourceRound20261022": {
+        "noQuantityCuration": true,
+        "sourceOriginalsUnchanged": true,
+        "addedPhotos": [
+          "/assets/gallery-cathedral-06.jpg"
+        ]
       }
     },
     "media": {
@@ -28350,7 +29051,8 @@
         "/assets/today-source-refresh-20261021/run4-092-most-tumski.jpg",
         "/assets/today-source-refresh-20261021/run4-093-most-tumski.jpg",
         "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg",
-        "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg"
+        "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg",
+        "/assets/gallery-cathedral-06.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=3Sxf4k4DkiM",
@@ -28520,6 +29222,19 @@
           "savedPublicVerified": true,
           "reopenedVerified": true,
           "originalFullPictureAndDurationPreserved": true
+        },
+        "/assets/gallery-cathedral-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/736343153_10244880652856887_4048239209935401266_n.jpg",
+          "sourceSHA256": "db079de04baa559f1bf497be89f79a5adb4722c7573290442d778b1ea2b29a58",
+          "reusedExistingAsset": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרט גמד עם מנעול ליד גשר טומסקי",
+            "en": "Dwarf with a padlock beside Tumski Bridge",
+            "pl": "Krasnal z kłódką przy Moście Tumskim",
+            "de": "Zwerg mit Vorhängeschloss an der Tumski-Brücke",
+            "cs": "Trpaslík se zámkem u Tumského mostu"
+          }
         }
       }
     },
@@ -30634,6 +31349,16 @@
           }
         ],
         "approvalCall": "call_94b51d2e9e6b4090a0f3e5266c18bd43"
+      },
+      "fullSourceRound20261022": {
+        "noQuantityCuration": true,
+        "sourceOriginalsUnchanged": true,
+        "addedPhotos": [
+          "/assets/round24h-20261022/nfm-03.jpg",
+          "/assets/round24h-20261022/nfm-04.jpg",
+          "/assets/round24h-20261022/nfm-11.jpg",
+          "/assets/round24h-20261022/nfm-05.jpg"
+        ]
       }
     },
     "media": {
@@ -30643,10 +31368,18 @@
         "/assets/gallery-nfm-02.jpg",
         "/assets/gallery-nfm-03.jpg",
         "/assets/today-source-refresh-20261021/nfm-01.jpg",
-        "/assets/today-source-refresh-20261021/run4-169-nfm.jpg"
+        "/assets/today-source-refresh-20261021/run4-169-nfm.jpg",
+        "/assets/round24h-20261022/nfm-03.jpg",
+        "/assets/round24h-20261022/nfm-04.jpg",
+        "/assets/round24h-20261022/nfm-11.jpg",
+        "/assets/round24h-20261022/nfm-05.jpg"
       ],
       "videos": [
-        "https://www.youtube.com/watch?v=_Dez_yfkVVQ"
+        "https://www.youtube.com/watch?v=_Dez_yfkVVQ",
+        "https://www.youtube.com/watch?v=4b_wsFf3HVs",
+        "https://www.youtube.com/watch?v=-4uBHGzLYzY",
+        "https://www.youtube.com/watch?v=KEEYJ40vI3Y",
+        "https://www.youtube.com/watch?v=n4IB1Q3oeKA"
       ],
       "guideVideos": {
         "he": "https://www.youtube.com/watch?v=VyqYqyW2h8E",
@@ -30705,6 +31438,143 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "/assets/round24h-20261022/nfm-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Image 2026-10-05 at 18.27.03 (4).jpeg",
+          "sourceSHA256": "fa948352456ca9dcaf6e28216aba76a608a17b1e5c6af5b5eae0849b82660703",
+          "assetSHA256": "d6266f69b1f8903567186da1b4d2c17a08b3afebedef1f6a72ec8a31ac0891c2",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "הכיכר והפילהרמונית במבט מהרחוב",
+            "en": "Street view across the square toward NFM",
+            "pl": "Widok z ulicy przez plac w stronę NFM",
+            "de": "Straßenblick über den Platz zum NFM",
+            "cs": "Pohled z ulice přes náměstí k NFM"
+          }
+        },
+        "/assets/round24h-20261022/nfm-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Image 2026-10-05 at 18.27.31 (2).jpeg",
+          "sourceSHA256": "34119a390c39b259ca55cbceaf9721b31571d8811ac58d15e4253815072341d8",
+          "assetSHA256": "36f8bac845ac902ef35abcbc7923da3b2893a3169a93e4750779ffb951dc5709",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית הפילהרמונית והכיכר",
+            "en": "NFM facade and forecourt",
+            "pl": "Fasada NFM i plac przed wejściem",
+            "de": "NFM-Fassade und Vorplatz",
+            "cs": "Průčelí NFM a prostranství před ním"
+          }
+        },
+        "/assets/round24h-20261022/nfm-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Image 2026-10-21 at 21.34.48 (1).jpeg",
+          "sourceSHA256": "9c026aa0b6b61983b80954b92967d49db5cf2b27ed047ab22639de5a116bca2a",
+          "assetSHA256": "14d345a3e202d0725775feac60f779bd6cf57e8dbe4d3ce2dc71f58b0d4a9568",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "הכניסה לפילהרמונית מכיוון הרחוב",
+            "en": "NFM entrance viewed from the street",
+            "pl": "Wejście do NFM od strony ulicy",
+            "de": "NFM-Eingang von der Straße aus",
+            "cs": "Vstup do NFM z pohledu od ulice"
+          }
+        },
+        "/assets/round24h-20261022/nfm-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Image 2026-10-05 at 18.27.31 (4).jpeg",
+          "sourceSHA256": "11f64311d938d61fe9fbeebabecfaa50f4584fe5d6809c34c2283e658307e07a",
+          "assetSHA256": "ae4d3bb6daf0a2585df96bec317925bbc826022264430d242777c285c93a0252",
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Incidental public passersby, not posed personal/family portrait; parent visual review2026-10-22",
+          "alt": {
+            "he": "רחבת הפילהרמונית ועוברי אורח בעת הביקור",
+            "en": "NFM forecourt with passersby during our visit",
+            "pl": "Plac przed NFM z przechodniami podczas wizyty",
+            "de": "NFM-Vorplatz mit Passanten beim Besuch",
+            "cs": "Prostranství před NFM s kolemjdoucími při návštěvě"
+          }
+        },
+        "https://www.youtube.com/watch?v=4b_wsFf3HVs": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Video 2026-10-05 at 18.25.42.mp4",
+          "sourceSHA256": "8f45241fd6a798c912062d20da15f500b7b4ee9a6456c8de0de0682c5146b5b8",
+          "uploadSHA256": "60860d0c30600284d53522ad4cc0d4498a1504e1f1c46c523cee87f0bff78bac",
+          "durationSeconds": 10.988333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור בפילהרמונית 1",
+            "en": "National Forum of Music visit 1",
+            "pl": "Wizyta w NFM 1",
+            "de": "NFM-Besuch 1",
+            "cs": "Návštěva NFM 1"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=-4uBHGzLYzY": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Video 2026-10-05 at 18.25.43.mp4",
+          "sourceSHA256": "84594b51a663290decb1970b80b033f12256786b4f7c77c506ec369447528f5b",
+          "uploadSHA256": "18909a127d5c48ca1ad02654ae022ba851c059a65bd8829d5467a994401af9dc",
+          "durationSeconds": 3.5,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור בפילהרמונית 2",
+            "en": "National Forum of Music visit 2",
+            "pl": "Wizyta w NFM 2",
+            "de": "NFM-Besuch 2",
+            "cs": "Návštěva NFM 2"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=KEEYJ40vI3Y": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Video 2026-10-05 at 18.27.00.mp4",
+          "sourceSHA256": "0a99b45375caa6ce374c2663a098e7361a74795ea8af159e541e6140418d6f4e",
+          "uploadSHA256": "9e4a1c0faf1a429a1999094c638bfde106d48d8c316a995b5db04938c2657a0f",
+          "durationSeconds": 2.933333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור בפילהרמונית 3",
+            "en": "National Forum of Music visit 3",
+            "pl": "Wizyta w NFM 3",
+            "de": "NFM-Besuch 3",
+            "cs": "Návštěva NFM 3"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=n4IB1Q3oeKA": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/philarmonic/WhatsApp Video 2026-10-05 at 18.27.10.mp4",
+          "sourceSHA256": "1f27d7ac3f4bfa94a37cd214cc7278d475c5259937c67fe4c5dbb459b18929d1",
+          "uploadSHA256": "9c2c7143d300762e05dfd188a44f54bdb6e0bbbae946bbe62ab611b68b728161",
+          "durationSeconds": 4.133333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור בפילהרמונית 4",
+            "en": "National Forum of Music visit 4",
+            "pl": "Wizyta w NFM 4",
+            "de": "NFM-Besuch 4",
+            "cs": "Návštěva NFM 4"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
         }
       }
     },
@@ -31295,6 +32165,20 @@
         ],
         "action": "Added new full-picture visit photograph; preserved identity, prior media and validlinks",
         "checkedAt": "2026-10-21T11:30:11.255080+00:00"
+      },
+      "fullSourceRound20261022": {
+        "noQuantityCuration": true,
+        "sourceOriginalsUnchanged": true,
+        "addedPhotos": [
+          "/assets/round24h-20261022/opera-02.jpg",
+          "/assets/round24h-20261022/opera-03.jpg",
+          "/assets/round24h-20261022/opera-04.jpg",
+          "/assets/round24h-20261022/opera-05.jpg",
+          "/assets/round24h-20261022/opera-06.jpg",
+          "/assets/round24h-20261022/opera-09.jpg",
+          "/assets/round24h-20261022/opera-10.jpg",
+          "/assets/round24h-20261022/opera-27.jpg"
+        ]
       }
     },
     "media": {
@@ -31302,10 +32186,22 @@
       "photos": [
         "/assets/gallery-opera-05.jpg",
         "/assets/gallery-opera-06.jpg",
-        "/assets/today-source-refresh-20261021/opera-01.jpg"
+        "/assets/today-source-refresh-20261021/opera-01.jpg",
+        "/assets/round24h-20261022/opera-02.jpg",
+        "/assets/round24h-20261022/opera-03.jpg",
+        "/assets/round24h-20261022/opera-04.jpg",
+        "/assets/round24h-20261022/opera-05.jpg",
+        "/assets/round24h-20261022/opera-06.jpg",
+        "/assets/round24h-20261022/opera-09.jpg",
+        "/assets/round24h-20261022/opera-10.jpg",
+        "/assets/round24h-20261022/opera-27.jpg"
       ],
       "videos": [
-        "https://www.youtube.com/watch?v=zmtTl9CcIyg"
+        "https://www.youtube.com/watch?v=zmtTl9CcIyg",
+        "https://www.youtube.com/watch?v=0OsaQW4XOhI",
+        "https://www.youtube.com/watch?v=4A5AVlbk7xM",
+        "https://www.youtube.com/watch?v=I8_pnHoo9qs",
+        "https://www.youtube.com/watch?v=gAF7NpDlYPw"
       ],
       "metadata": {
         "/assets/today-source-refresh-20261021/opera-01.jpg": {
@@ -31359,6 +32255,194 @@
           "savedPublicVerified": true,
           "reopenedVerified": true,
           "originalFullPictureAndDurationPreserved": true
+        },
+        "/assets/round24h-20261022/opera-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/Firefly_Gemini Flash_remove my parents and my wifr from the picture 822849.png",
+          "sourceSHA256": "19f40d733d6df49d50a15b7424c6fa3f6b28331adcf0cc4ba6312438ec75521e",
+          "assetSHA256": "5e058373f40f5b680fa7c008a2bcb94d458d6fe999202969207aa844761927e2",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט ממרפסת האופרה לרחוב",
+            "en": "Street view from the opera terrace",
+            "pl": "Widok ulicy z tarasu opery",
+            "de": "Straßenblick von der Opernterrasse",
+            "cs": "Pohled na ulici z terasy opery"
+          }
+        },
+        "/assets/round24h-20261022/opera-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/Firefly_Gemini Flash_remove my parents from the picture 368452.png",
+          "sourceSHA256": "92b2a11443a4ed6bd2819bb5fc3a9469472c3a96a9f71e5d9d77a3695b87d56a",
+          "assetSHA256": "b1cfd64db1c30f9d36d50ee2547e83be3db9557749f94d2173f8534f42a813ba",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מקומות הישיבה באופרה בעת הביקור",
+            "en": "Opera seating during our visit",
+            "pl": "Widownia opery podczas wizyty",
+            "de": "Sitzplätze in der Oper beim Besuch",
+            "cs": "Hlediště opery během návštěvy"
+          }
+        },
+        "/assets/round24h-20261022/opera-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/IMG_0997.JPG",
+          "sourceSHA256": "e8c840eb4b7a147d9bbe84bc931c9cc9527332ff7721df3283837eebd34196bc",
+          "assetSHA256": "71dd593ee36ec18f56c8234744f4cefb1a142992471fd932ce0f2cdfe786feb9",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "הבמה והאולם באופרה",
+            "en": "Opera stage and auditorium",
+            "pl": "Scena i widownia opery",
+            "de": "Bühne und Zuschauerraum der Oper",
+            "cs": "Jeviště a hlediště opery"
+          }
+        },
+        "/assets/round24h-20261022/opera-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/IMG_1015.JPG",
+          "sourceSHA256": "bcb1bd3a4a89fa16cc19836dd7cc2199a740b9ef9e05c96d3924f7931333b051",
+          "assetSHA256": "a2b7d78481dfb65cc7b7b6847f0a6b6be898a4b025369144a6f3f5b3651172fb",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "המרפסת ועמודי חזית האופרה",
+            "en": "Opera terrace and facade columns",
+            "pl": "Taras opery i kolumny fasady",
+            "de": "Opernterrasse und Fassadensäulen",
+            "cs": "Terasa opery a sloupy průčelí"
+          }
+        },
+        "/assets/round24h-20261022/opera-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/IMG_1019.JPG",
+          "sourceSHA256": "66adb0b1114802afcb7d17a5fcf3fa80b2af3336f9d211c2d5512a0ac669b4ff",
+          "assetSHA256": "91ef464c2f3e7e7d053814b799883d19e8dd68ce3b09895c867b48f8c304b943",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "אמנים על הבמה בסיום מופע האופרה",
+            "en": "Performers taking a curtain call at the opera",
+            "pl": "Artyści podczas ukłonów na scenie opery",
+            "de": "Künstler beim Schlussapplaus in der Oper",
+            "cs": "Účinkující při děkovačce v opeře"
+          }
+        },
+        "/assets/round24h-20261022/opera-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Image 2026-10-05 at 18.25.44.jpeg",
+          "sourceSHA256": "510e74b06c93438f793d75304e748874696c40f3e8780c4748c20d5b5d4e98b4",
+          "assetSHA256": "6f8f1f804adf97f5bfe33dbff74fd7be8ca518b6a0871aec207d23c973d99caf",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דגם האופרה ברחוב, מבט מהצד",
+            "en": "Street-side opera model, side view",
+            "pl": "Uliczna makieta opery, widok z boku",
+            "de": "Opernmodell an der Straße, Seitenansicht",
+            "cs": "Pouliční model opery, pohled z boku"
+          }
+        },
+        "/assets/round24h-20261022/opera-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Image 2026-10-05 at 18.26.28.jpeg",
+          "sourceSHA256": "1844cf003fa67556a2e52087e90f78acf206518b166258afb65a65dab63e5d8c",
+          "assetSHA256": "f87503d0450cc32a8d7f2f8d17f4df6728bfe72f278b05e380e66b84aa5b3180",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט מהרחוב אל בניין האופרה",
+            "en": "Street view toward the opera building",
+            "pl": "Widok z ulicy na budynek opery",
+            "de": "Straßenblick auf das Operngebäude",
+            "cs": "Pohled z ulice na budovu opery"
+          }
+        },
+        "/assets/round24h-20261022/opera-27.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/opera4.JPG",
+          "sourceSHA256": "e0bd09990e4e712c5abd9a7bd32113098ff4aaf5fa471dd39b47c4ca59eb0063",
+          "assetSHA256": "2bfae8d5a3b934a907186f7399513f33e2e3933dc1d7e6fbd306806538cca1f0",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית האופרה מכיוון פינת הרחוב",
+            "en": "Opera facade from the street corner",
+            "pl": "Fasada opery od narożnika ulicy",
+            "de": "Opernfassade von der Straßenecke aus",
+            "cs": "Průčelí opery od nároží ulice"
+          }
+        },
+        "https://www.youtube.com/watch?v=0OsaQW4XOhI": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Video 2026-10-05 at 18.25.45.mp4",
+          "sourceSHA256": "319f51d0b581683ae5874ab391ecb69c7259e7935822678093640d16b1802b8b",
+          "uploadSHA256": "a2a67fbc17731753a2bd8e68f5a9408bd54c439e3dbd7479231c1c313f9c44ff",
+          "durationSeconds": 4.233333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באופרה 1",
+            "en": "Opera visit 1",
+            "pl": "Wizyta w operze 1",
+            "de": "Opernbesuch 1",
+            "cs": "Návštěva opery 1"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=4A5AVlbk7xM": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Video 2026-10-05 at 18.26.26.mp4",
+          "sourceSHA256": "b3071c202abcbeecb67d7aa0c9761b525521c9a530b1a6a1de9b45d8562c10ec",
+          "uploadSHA256": "1dac632804119f61d88df8004e7b2c2c96f5ac13cbee6d68f57777907af4d975",
+          "durationSeconds": 2.233333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באופרה 2",
+            "en": "Opera visit 2",
+            "pl": "Wizyta w operze 2",
+            "de": "Opernbesuch 2",
+            "cs": "Návštěva opery 2"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=I8_pnHoo9qs": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Video 2026-10-05 at 18.26.27.mp4",
+          "sourceSHA256": "fe1b22fa8863f8f96e631002a6b7c3dbaf5def80fa15f9fe0ac3479e50bbea3e",
+          "uploadSHA256": "83afc412d60f77487c7b9367e7cddd27e74940c798895e060fa34942fb0a3744",
+          "durationSeconds": 4.066667,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באופרה 3",
+            "en": "Opera visit 3",
+            "pl": "Wizyta w operze 3",
+            "de": "Opernbesuch 3",
+            "cs": "Návštěva opery 3"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=gAF7NpDlYPw": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Video 2026-10-21 at 21.12.23 (2).mp4",
+          "sourceSHA256": "f5c792ef8b94b4e47455d983d767383c340a69cdfb9f3018ec1542c0aa09d365",
+          "uploadSHA256": "1b974d7cd1130295a0e56e54fd19b18c9682a0e71017e7eb303e665fd63f580d",
+          "durationSeconds": 3.7,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באופרה 4",
+            "en": "Opera visit 4",
+            "pl": "Wizyta w operze 4",
+            "de": "Opernbesuch 4",
+            "cs": "Návštěva opery 4"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
         }
       }
     },
@@ -32024,6 +33108,17 @@
         "canonicalId": "ostrow",
         "identityMediaGuidesAndNamesPreserved": true,
         "otherCanonicalsUnchanged": true
+      },
+      "fullSourceRound20261022": {
+        "noQuantityCuration": true,
+        "sourceOriginalsUnchanged": true,
+        "addedPhotos": [
+          "/assets/round24h-20261022/ostrow-00.jpg",
+          "/assets/round24h-20261022/ostrow-04.jpg",
+          "/assets/round24h-20261022/ostrow-05.jpg",
+          "/assets/round24h-20261022/ostrow-06.jpg",
+          "/assets/round24h-20261022/ostrow-21.jpg"
+        ]
       }
     },
     "media": {
@@ -32035,11 +33130,29 @@
         "/assets/gallery-cathedral-02.jpg",
         "/assets/gallery-cathedral-01.jpg",
         "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg",
-        "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg"
+        "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg",
+        "/assets/round24h-20261022/ostrow-00.jpg",
+        "/assets/round24h-20261022/ostrow-04.jpg",
+        "/assets/round24h-20261022/ostrow-05.jpg",
+        "/assets/round24h-20261022/ostrow-06.jpg",
+        "/assets/round24h-20261022/ostrow-21.jpg",
+        "/assets/round24h-20261022/ostrow-approved-8.jpg",
+        "/assets/round24h-20261022/ostrow-approved-9.jpg",
+        "/assets/round24h-20261022/ostrow-approved-10.jpg",
+        "/assets/round24h-20261022/ostrow-approved-11.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=M9P8fPs5-8o",
-        "https://www.youtube.com/watch?v=Lx6Lxbx0csk"
+        "https://www.youtube.com/watch?v=Lx6Lxbx0csk",
+        "https://www.youtube.com/watch?v=10y6XsJQjWs",
+        "https://www.youtube.com/watch?v=QGnlD7BKXTk",
+        "https://www.youtube.com/watch?v=ZopHcFHD6Ug",
+        "https://www.youtube.com/watch?v=22YrI8qbLhU",
+        "https://www.youtube.com/watch?v=eDUQf5KQGCs",
+        "https://www.youtube.com/watch?v=XMiI78evNUc",
+        "https://www.youtube.com/watch?v=V2CUKN6AGMQ",
+        "https://www.youtube.com/watch?v=PgVoFNeGyFY",
+        "https://www.youtube.com/watch?v=fB5DD5zDojs"
       ],
       "guideVideos": {
         "he": "https://www.youtube.com/watch?v=oBjOT3Ubaro",
@@ -32151,6 +33264,316 @@
           "savedPublicVerified": true,
           "reopenedVerified": true,
           "originalFullPictureAndDurationPreserved": true
+        },
+        "/assets/round24h-20261022/ostrow-00.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/735597620_10244880653056892_4864739360747914863_n.jpg",
+          "sourceSHA256": "7e0f12b60987b355810d897272c7028d74101e7f3a92695dcea82f3314bd3299",
+          "assetSHA256": "19e7b540538c07d806d0be21316374f3f33c80b76bb41b9dec42f89e7c1dfa4c",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט על גגות ומעבר מקורה באי הקתדרלות",
+            "en": "Rooftops and a covered passage on Cathedral Island",
+            "pl": "Dachy i kryte przejście na Ostrowie Tumskim",
+            "de": "Dächer und überdachter Durchgang auf der Dominsel",
+            "cs": "Střechy a krytý průchod na Tumském ostrově"
+          }
+        },
+        "/assets/round24h-20261022/ostrow-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/736683201_10244880653616906_8309650843724603967_n.jpg",
+          "sourceSHA256": "c8fe2dae568aba7096f817e15d4a47988dcf713d83810b0b04bc7a2c356fe8ec",
+          "assetSHA256": "1aee07041de84c35fd4c3ed2d81778c645f3c61ffe6297ca73d944af916f6ed2",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית בית הקפיטולה באי הקתדרלות",
+            "en": "Chapter House facade on Cathedral Island",
+            "pl": "Fasada Domu Kapituły na Ostrowie Tumskim",
+            "de": "Fassade des Kapitelhauses auf der Dominsel",
+            "cs": "Průčelí kapitulního domu na Tumském ostrově"
+          }
+        },
+        "/assets/round24h-20261022/ostrow-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/IMG_0958.JPG",
+          "sourceSHA256": "7150ce91fed3a74a118f14ef0daa4fc67f89cd7fb45f253eb401d0accc023f87",
+          "assetSHA256": "6cb402ac2dd219234a84948983b1187a2068f496d58d981d0f131858da459abc",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט מחלון אל חצר באי הקתדרלות",
+            "en": "Window view of a courtyard on Cathedral Island",
+            "pl": "Widok z okna na dziedziniec na Ostrowie Tumskim",
+            "de": "Fensterblick auf einen Innenhof auf der Dominsel",
+            "cs": "Pohled z okna do nádvoří na Tumském ostrově"
+          }
+        },
+        "/assets/round24h-20261022/ostrow-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-07-02 at 10.02.49.jpeg",
+          "sourceSHA256": "677c9f64c7b203e08e77e9a9ec1a338eadbeda4545d953fa374ca9d5acabedce",
+          "assetSHA256": "dec7f8633d0706e6285846cfb8e07e743e4871fc1a7f3f818951164170ede573",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "שלט כנסיית ג׳יילס הקדוש ופרט פיסולי לידו",
+            "en": "St Giles Church information plaque and sculpture detail",
+            "pl": "Tablica kościoła św. Idziego i detal rzeźby",
+            "de": "Informationstafel der Ägidiuskirche und Skulpturdetail",
+            "cs": "Informační tabule kostela svatého Jiljí a detail sochy"
+          }
+        },
+        "/assets/round24h-20261022/ostrow-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 21.34.46 (1).jpeg",
+          "sourceSHA256": "6f7a090c8bfe8a26b595b0050c2ce973a58f775260e3f1f60fea87bb0ae1d664",
+          "assetSHA256": "730695416e06590931c9af4a35ec10ba7aba084d423f362c1c87bed74b2fd646",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פסל יוחנן מנפומוק וכנסיית הצלב הקדוש באי",
+            "en": "Nepomuk monument and Holy Cross Church on the island",
+            "pl": "Pomnik Nepomucena i kościół Świętego Krzyża na wyspie",
+            "de": "Nepomukdenkmal und Heiligkreuzkirche auf der Insel",
+            "cs": "Pomník Nepomuckého a kostel svatého Kříže na ostrově"
+          }
+        },
+        "/assets/round24h-20261022/ostrow-approved-8.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (29).jpeg",
+          "sourceSHA256": "c08f7cfdf3cb0ba1ab1a59cd7bc7f798a3cbc86a3e00f63e9e6875611e290df2",
+          "assetSHA256": "52623bb6f36e7ec3d50ac623ae13def864527bad42ec3ab97ecae46d3403e581",
+          "originalFullPicturePreserved": true,
+          "specificUserApproval": "call_10043fe5b1b64b8cb9e6e341ebd288b3",
+          "alt": {
+            "he": "תצלום ביקור שלנו באי הקתדרלות, ליד השער",
+            "en": "Our visit photograph by the gate on Cathedral Island",
+            "pl": "Nasze zdjęcie z wizyty przy bramie na Ostrowie Tumskim",
+            "de": "Unser Besuchsfoto am Tor auf der Dominsel",
+            "cs": "Naše fotografie z návštěvy u brány na Tumském ostrově"
+          }
+        },
+        "/assets/round24h-20261022/ostrow-approved-9.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (30).jpeg",
+          "sourceSHA256": "6d8d23376d2e50c050130a061ff494ffbbc4f12ed498d8206f20f9168920cdd6",
+          "assetSHA256": "f5051935d5d6dcf894d57c73abb49db6839c57b71787ebec87a97c2d52400798",
+          "originalFullPicturePreserved": true,
+          "specificUserApproval": "call_10043fe5b1b64b8cb9e6e341ebd288b3",
+          "alt": {
+            "he": "תצלום ביקור שלנו באי הקתדרלות, ליד השער",
+            "en": "Our visit photograph by the gate on Cathedral Island",
+            "pl": "Nasze zdjęcie z wizyty przy bramie na Ostrowie Tumskim",
+            "de": "Unser Besuchsfoto am Tor auf der Dominsel",
+            "cs": "Naše fotografie z návštěvy u brány na Tumském ostrově"
+          }
+        },
+        "/assets/round24h-20261022/ostrow-approved-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (31).jpeg",
+          "sourceSHA256": "422a7233b7291a28a969b155700c95dd26ee2f8d94b8fc9a6ea010e6f214a6b8",
+          "assetSHA256": "f29c8bdc2407657a99e7b0666213eca633e1eb424d4a69c3f4411e40e3ac9090",
+          "originalFullPicturePreserved": true,
+          "specificUserApproval": "call_10043fe5b1b64b8cb9e6e341ebd288b3",
+          "alt": {
+            "he": "תצלום ביקור שלנו באי הקתדרלות, ליד השער",
+            "en": "Our visit photograph by the gate on Cathedral Island",
+            "pl": "Nasze zdjęcie z wizyty przy bramie na Ostrowie Tumskim",
+            "de": "Unser Besuchsfoto am Tor auf der Dominsel",
+            "cs": "Naše fotografie z návštěvy u brány na Tumském ostrově"
+          }
+        },
+        "/assets/round24h-20261022/ostrow-approved-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (32).jpeg",
+          "sourceSHA256": "4e631e7116e62ee3fbae6b66d11e662f441d1ad94c820703fe6211a12126fbdd",
+          "assetSHA256": "c4462259373fbe26056b5a3e2f6b2b601474f44db8a59ec0e78de3ff909a4a29",
+          "originalFullPicturePreserved": true,
+          "specificUserApproval": "call_10043fe5b1b64b8cb9e6e341ebd288b3",
+          "alt": {
+            "he": "תצלום ביקור שלנו באי הקתדרלות, ליד השער",
+            "en": "Our visit photograph by the gate on Cathedral Island",
+            "pl": "Nasze zdjęcie z wizyty przy bramie na Ostrowie Tumskim",
+            "de": "Unser Besuchsfoto am Tor auf der Dominsel",
+            "cs": "Naše fotografie z návštěvy u brány na Tumském ostrově"
+          }
+        },
+        "https://www.youtube.com/watch?v=10y6XsJQjWs": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (1).mp4",
+          "sourceSHA256": "ae1beec122f9602fd4e0ddda2fdb1af95745e648890dd7cd0ff77b38482586a8",
+          "uploadSHA256": "1fb60569e2fa12dc3be62ca2f9e4afe1aada64c3af279c57687747b1d706c5ad",
+          "durationSeconds": 3.133333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 1",
+            "en": "Cathedral Island visit 1",
+            "pl": "Wizyta na Ostrowie Tumskim 1",
+            "de": "Besuch auf der Dominsel 1",
+            "cs": "Návštěva Tumského ostrova 1"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=QGnlD7BKXTk": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (3).mp4",
+          "sourceSHA256": "f472680dab006e54adda9c72367ad2882b11f283637956359e5beb24434cc6cf",
+          "uploadSHA256": "c4cee8ef84b031b89410ddf95531bc8baceec615de701ee693c52ecb7208636f",
+          "durationSeconds": 3.233333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 2",
+            "en": "Cathedral Island visit 2",
+            "pl": "Wizyta na Ostrowie Tumskim 2",
+            "de": "Besuch auf der Dominsel 2",
+            "cs": "Návštěva Tumského ostrova 2"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=ZopHcFHD6Ug": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (9).mp4",
+          "sourceSHA256": "c16f5edb4ba36041d073aee4bfcce67da282d2fd9e5b93fd72221dddca798b99",
+          "uploadSHA256": "416e0975088b977b63f8d362f144fe427ced84277135168188d82264a7a43dbd",
+          "durationSeconds": 2.9,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 3",
+            "en": "Cathedral Island visit 3",
+            "pl": "Wizyta na Ostrowie Tumskim 3",
+            "de": "Besuch auf der Dominsel 3",
+            "cs": "Návštěva Tumského ostrova 3"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=22YrI8qbLhU": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.12.07.mp4",
+          "sourceSHA256": "6fbad04746c5f2ee476e5552bd64898d2acbb6b28dc510e0a2a4aea5fd67dc67",
+          "uploadSHA256": "d76175355372dd748e27b6d52d329447a22004469f5d2819020503ef9c6e23fe",
+          "durationSeconds": 6.366667,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 4",
+            "en": "Cathedral Island visit 4",
+            "pl": "Wizyta na Ostrowie Tumskim 4",
+            "de": "Besuch auf der Dominsel 4",
+            "cs": "Návštěva Tumského ostrova 4"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=eDUQf5KQGCs": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.48.mp4",
+          "sourceSHA256": "bc61dd6bfd2ca6ed0de0cd605dbba4c22cffd0b4a4d617a02bb2d348a4876f18",
+          "uploadSHA256": "8541a802a1fa9a782d2bc0cb45c0c5adbc7cb6d115042fdda8f3d14690ff75aa",
+          "durationSeconds": 5.8,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 5",
+            "en": "Cathedral Island visit 5",
+            "pl": "Wizyta na Ostrowie Tumskim 5",
+            "de": "Besuch auf der Dominsel 5",
+            "cs": "Návštěva Tumského ostrova 5"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=XMiI78evNUc": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.50 (1).mp4",
+          "sourceSHA256": "70553f51d2b0bfe431f40141eab612cbef3530786f057eb872fe18bac4564f09",
+          "uploadSHA256": "990c70bd686763a85726181fcc860d1177cc6f8d2db596584fc93d4dc4a746b7",
+          "durationSeconds": 2.333333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 6",
+            "en": "Cathedral Island visit 6",
+            "pl": "Wizyta na Ostrowie Tumskim 6",
+            "de": "Besuch auf der Dominsel 6",
+            "cs": "Návštěva Tumského ostrova 6"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=V2CUKN6AGMQ": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.51 (1).mp4",
+          "sourceSHA256": "6ab1091d46de11417eef0be3314b4db80c2a4f8ed95a4bee4466a232c60ca423",
+          "uploadSHA256": "c78c4bf2bb44e22259de6488a7df6c63ee2128fa8194b897789c47856f18c022",
+          "durationSeconds": 5.266667,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 7",
+            "en": "Cathedral Island visit 7",
+            "pl": "Wizyta na Ostrowie Tumskim 7",
+            "de": "Besuch auf der Dominsel 7",
+            "cs": "Návštěva Tumského ostrova 7"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=PgVoFNeGyFY": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.52 (1).mp4",
+          "sourceSHA256": "cd5f5458325a96469ad96cf5e1b7d516ec57873988ffc47b814fca7b9a46a146",
+          "uploadSHA256": "86adb6f19f7113d30d74bf11558d9dc51931393a9b3f734031af820626dd92d5",
+          "durationSeconds": 3.333333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 8",
+            "en": "Cathedral Island visit 8",
+            "pl": "Wizyta na Ostrowie Tumskim 8",
+            "de": "Besuch auf der Dominsel 8",
+            "cs": "Návštěva Tumského ostrova 8"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=fB5DD5zDojs": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.52.mp4",
+          "sourceSHA256": "573632a9ab0d5b6c9453f7da1da584d91f4a18b060b1db160646de3232d831f9",
+          "uploadSHA256": "99a8083f06ff0d75627aa719c857024f17aecc93fb207a365ce77985abd68060",
+          "durationSeconds": 3.033333,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור באי הקתדרלות 9",
+            "en": "Cathedral Island visit 9",
+            "pl": "Wizyta na Ostrowie Tumskim 9",
+            "de": "Besuch auf der Dominsel 9",
+            "cs": "Návštěva Tumského ostrova 9"
+          },
+          "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+          "noCurrentRestrictions": true
         }
       }
     },
@@ -38329,7 +39752,8 @@
         "https://www.youtube.com/watch?v=8XjUv4Eh8TY",
         "https://www.youtube.com/watch?v=bfk0vBDoutc",
         "https://www.youtube.com/watch?v=azjGAh0J8yM",
-        "https://www.youtube.com/watch?v=28qNFqr_n6I"
+        "https://www.youtube.com/watch?v=28qNFqr_n6I",
+        "https://www.youtube.com/watch?v=fNVuCBSZGPU"
       ],
       "metadata": {
         "/assets/rynek-refresh-oct19-01.jpg": {
@@ -38915,6 +40339,27 @@
           "fullPicturePreserved": true,
           "youtubePublicReopened": true,
           "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
+        },
+        "https://www.youtube.com/watch?v=fNVuCBSZGPU": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Video 2026-10-05 at 18.26.06.mp4",
+          "sourceSHA256": "9a23c7c19e5721896a88b7ecd9b4c88b38f27bd150e54513e381ebe86220d2b5",
+          "uploadSHA256": "e39bc34bd3e6f5656438ffbb68f58608445c71f1e69c70a70ece1f8f4535e9cf",
+          "durationSeconds": 6.466667,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+          "title": {
+            "he": "ביקור בכיכר השוק 1",
+            "en": "Market Square visit 1",
+            "pl": "Wizyta na Rynku 1",
+            "de": "Besuch auf dem Marktplatz 1",
+            "cs": "Návštěva Rynku 1"
+          },
+          "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+          "noCurrentRestrictions": true
         }
       }
     },
