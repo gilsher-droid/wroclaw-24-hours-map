@@ -39,6 +39,9 @@ jobs:
       - name: Run regression tests
         run: node --test tests/*.test.mjs
 
+      - name: Test private album authentication and storage
+        run: python3 tests/personal-trip-album-server.test.py
+
       - name: Verify canonical catalog in Pages artifact
         run: node tools/verify-pages-artifact.mjs
 
