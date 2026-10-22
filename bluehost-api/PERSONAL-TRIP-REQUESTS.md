@@ -29,3 +29,20 @@ The public GET health check returns readiness and version only. Configuration
 and private queue records must remain unreachable over HTTP. Do not add the
 server directory to the GitHub Pages artifact. Recipient changes require a
 server-only configuration update and a new end-to-end notification check.
+
+## Customer delivery email language
+
+The separate private-map delivery workflow uses `tools/personal_trip_mail.py`.
+Build email from the original request `details.language` (he/en/de/cs/pl), never
+from the current operator/browser language. Missing or unsupported language
+blocks delivery rather than falling back to Hebrew. The helper returns localized
+subject, plain text, escaped HTML and a stable delivery key. It performs no network
+request or sending and must stay outside the public hosting artifact.
+
+Credentials enter through memory/stdin only; never log the generated envelope or
+commit real requests. Send using the existing authorized connector, check prior
+receipts by reference/customer before initial delivery, and save only redacted
+evidence. Old Hebrew emails are not resent by this change. This does not translate
+the private-map interface or the itinerary itself.
+
+Run: `python3 tests/personal-trip-mail.test.py`.
