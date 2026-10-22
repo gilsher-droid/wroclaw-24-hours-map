@@ -148,6 +148,7 @@
     if (media?.gallery?.length) actions.push(`<button type="button" data-gallery="${place.id}"><span class="brand-icon media">▣</span>${tr("photos")}</button>`);
     if (media?.videos?.length) actions.push(`<button type="button" data-video="${place.id}"><span class="brand-icon media">▶</span>${tr("videos")}</button>`);
     actions.push(window.WROC_GUIDE_VIDEO?.button(place.canonicalPlaceId || place.id, language) || "");
+    actions.push(window.WROC_PLACE_AI?.button(place,language)||"");
     return actions.join("");
   }
 
