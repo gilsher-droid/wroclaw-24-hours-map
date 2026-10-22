@@ -174,6 +174,7 @@
     }).addTo(map);
 
     window.WROC_GUIDE_VIDEO.legend(map, currentLanguage);
+    document.querySelector("[data-route-stop-count]").textContent = String(window.LOCATIONS.length);
     window.LOCATIONS.forEach((location) => addMarker(location, false));
     window.EVENING_LOCATIONS.forEach((location) => addMarker(location, true));
 
