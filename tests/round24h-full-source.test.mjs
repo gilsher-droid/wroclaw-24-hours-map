@@ -5,7 +5,7 @@ import { runInNewContext } from 'node:vm';
 import { createHash } from 'node:crypto';
 const fixture=JSON.parse(readFileSync('data/round24h-oct22-preservation.json','utf8'));
 const window={location:{origin:'https://wroc-love.com'}},document={documentElement:{lang:'he'},addEventListener(){}};
-for(const f of ['data/place-catalog.js','youtube-video.js','data/location-media.js','guide-video.js'])runInNewContext(readFileSync(f,'utf8'),{window,document,console,URLSearchParams});
+for(const f of ['data/place-catalog.js','youtube-video.js','data/location-media.js','data/lifestyle-places.js','guide-video.js'])runInNewContext(readFileSync(f,'utf8'),{window,document,console,URLSearchParams});
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(typeof x==='string'?x:JSON.stringify(x)).digest('hex');
 test('Full-source round preserves223 unrelated canonical records and all changed-point identity, routing, guides and social links',()=>{
  let untouched=0;
@@ -42,3 +42,5 @@ test('Every prepared source asset is present, byte-identical to the reviewed pub
 });
 
 test('All twenty remaining approved visits reach the actual map playlist with complete source provenance and preserved original guides',()=>{const rows=JSON.parse(readFileSync('data/round24h-public-visits-20261022.json'));assert.equal(rows.length,20);assert.equal(new Set(rows.map(r=>r.youtubeId)).size,20);for(const r of rows){const p=window.WROC_CATALOG.getPlace(r.canonicalId);assert.ok(p.media.videos.includes(r.url));assert.ok(window.WROC_LOCATION_MEDIA[r.canonicalId].videos.some(v=>(typeof v==='string'?v:v.src)===r.url));const m=p.media.metadata[r.url];assert.equal(m.sourceSHA256,r.sourceSHA256);assert.equal(m.publicReopened,true);assert.equal(m.visibility,'Public');assert.equal(m.silent,true);assert.equal(m.originalFullPicturePreserved,true);assert.ok(!/פספוסים|פספסוים|outtakes/i.test(m.sourceFile));for(const l of['he','en','pl','de','cs'])assert.ok(m.title[l]);}});
+
+test("Hala lifestyle photo action resolves the canonical20-image gallery instead of an absent legacy key",()=>{const p=window.WROC_LIFESTYLE_PLACES.find(x=>x.id==="hala-targowa");assert.equal(p.mediaKey,"hala-targowa");const r=window.WROC_LOCATION_MEDIA[p.mediaKey];assert.equal(r.gallery.length,20);assert.deepEqual(plain(r.gallery),plain(window.WROC_CATALOG.getPlace(p.id).media.photos));});
