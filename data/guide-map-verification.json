@@ -1,0 +1,419 @@
+{
+  "sourceCommit": "9211492d5f5afa3a5f01d44087af591e6ff9189d",
+  "source": "docs/native-youtube-caption-verification.json",
+  "method": "Reuse previously published, caption-verified project guides. No upload or new YouTube verification claimed.",
+  "videos": {
+    "Eyns7Gj66d0": {
+      "verificationPlace": "papa",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-15"
+    },
+    "pIzp5Bmb9ck": {
+      "verificationPlace": "papa",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-15"
+    },
+    "FLx49x9AtUM": {
+      "verificationPlace": "bastion",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "xc9jiC3TfNA": {
+      "verificationPlace": "bastion",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "rIIVnc_dzN4": {
+      "verificationPlace": "cathedral",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "ULG-y1kQgWM": {
+      "verificationPlace": "cathedral",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "O4te9Tsw3FU": {
+      "verificationPlace": "fountain",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-14"
+    },
+    "wYu3-sO5WkE": {
+      "verificationPlace": "fountain",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-14"
+    },
+    "rSn6kJy3gQE": {
+      "verificationPlace": "four-denominations-district",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "oqziuQx8hLQ": {
+      "verificationPlace": "four-denominations-district",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "cs7AmJhitLo": {
+      "verificationPlace": "four-domes-pavilion",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-04"
+    },
+    "Ud5KD21e5kE": {
+      "verificationPlace": "four-domes-pavilion",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-04"
+    },
+    "y74YI_tgRq0": {
+      "verificationPlace": "hala",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-18"
+    },
+    "EOBJMMmLY_I": {
+      "verificationPlace": "hala",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-18"
+    },
+    "p8SO_3lpuxM": {
+      "verificationPlace": "henryk-tomaszewski-theatre-museum",
+      "captionLanguages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": true,
+      "verifiedAt": "2026-10-22"
+    },
+    "x39Gu8wchuA": {
+      "verificationPlace": "japanese",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-12"
+    },
+    "anSJzrqzqqg": {
+      "verificationPlace": "japanese",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-12"
+    },
+    "R26FXh9Twh0": {
+      "verificationPlace": "morskie-oko-wroclaw",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-19"
+    },
+    "e0gGTjUPYoQ": {
+      "verificationPlace": "morskie-oko-wroclaw",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-19"
+    },
+    "8ZjWUCCHy8g": {
+      "verificationPlace": "most-tumski",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "B94yaegj-eU": {
+      "verificationPlace": "most-tumski",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "VyqYqyW2h8E": {
+      "verificationPlace": "nfm",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "aABow6nYRjs": {
+      "verificationPlace": "nfm",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "oBjOT3Ubaro": {
+      "verificationPlace": "ostrow",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "C9Wyg2MB1nk": {
+      "verificationPlace": "ostrow",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "78GzPBmtRo4": {
+      "verificationPlace": "pergola",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-19"
+    },
+    "yP9iXmP47RQ": {
+      "verificationPlace": "pergola",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-19"
+    },
+    "nrLBgAkEdt0": {
+      "verificationPlace": "renoma",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "0lgh4TXXbeo": {
+      "verificationPlace": "renoma",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "--MnGY29fng": {
+      "verificationPlace": "stadion-olimpijski-wroclaw",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-19"
+    },
+    "tiCdc_8vIYw": {
+      "verificationPlace": "stadion-olimpijski-wroclaw",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-19"
+    },
+    "xkwNR0L_azo": {
+      "verificationPlace": "wroclaw-botanical-garden",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "sV59N6brOoI": {
+      "verificationPlace": "wroclaw-botanical-garden",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "kYCAhQSVYEA": {
+      "verificationPlace": "wroclaw-puppet-theatre",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "mPJDEfSH7kY": {
+      "verificationPlace": "wroclaw-puppet-theatre",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-21"
+    },
+    "tEbmB6OWe90": {
+      "verificationPlace": "wuwa-estate",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-11"
+    },
+    "4EnO5yNkQxc": {
+      "verificationPlace": "wuwa-estate",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-11"
+    },
+    "ZO-A54BIZQk": {
+      "verificationPlace": "zyjnia-bwa-wroclaw",
+      "captionLanguages": [
+        "he"
+      ],
+      "audioLanguage": "he",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    },
+    "BAueoGqdcC4": {
+      "verificationPlace": "zyjnia-bwa-wroclaw",
+      "captionLanguages": [
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "audioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": false,
+      "verifiedAt": "2026-10-20"
+    }
+  }
+}

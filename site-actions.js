@@ -22,7 +22,9 @@
     de: ["24 Stunden in Wrocław", "Vier Tage in Wrocław", "Weihnachten in Wrocław", "Essen, Trinken, Einkaufen und Übernachten", "Ausflüge in Niederschlesien", "Das Kulturabenteuer in Wrocław"],
     cs: ["24 hodin ve Vratislavi", "Čtyři dny ve Vratislavi", "Vánoce ve Vratislavi", "Jídlo, pití, nákupy a ubytování", "Výlety po Dolním Slezsku", "Kulturní dobrodružství ve Vratislavi"]
   };
-  const productPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"];
+  const guideMapNames={"he": "ללכת עם המדריך שלנו", "en": "Walk with our guide", "pl": "Spacer z naszym przewodnikiem", "de": "Mit unserem Reiseführer durch Wrocław", "cs": "Procházka s naším průvodcem"};
+  for(const [lang,name] of Object.entries(guideMapNames))productLinks[lang].push(name);
+  const productPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html", "guides.html"];
   const personalCopy = {
     he: ["מפות בהתאמה אישית", "הטיול האישי שלכם", "מסלול שנבנה סביב מה שאתם אוהבים.", "מקומות, אוכל וקצב שמתאימים לכם. מספרים לנו מה מחפשים, ומקבלים הצעה למסלול ולמפה אישית.", "מתחילים לתכנן"],
     en: ["Personal maps", "Your personal trip", "An itinerary built around what you love.", "Places, food and a pace that suit you. Tell us what you enjoy and receive a proposal for your own itinerary and map.", "Start planning"],

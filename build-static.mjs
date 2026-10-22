@@ -1,3 +1,4 @@
+import { generateGuideMap } from "./tools/generate-guide-map.mjs";
 import { generateHomeExperiences } from "./tools/generate-home-experiences.mjs";
 import { generateHomeExcursions } from "./tools/generate-home-excursions.mjs";
 import { versionScriptUrls } from "./tools/version-script-urls.mjs";
@@ -5,6 +6,7 @@ import { cp, mkdir, rm, writeFile, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = process.cwd();
+await generateGuideMap(root);
 await generateHomeExcursions(root);
 await generateHomeExperiences(root);
 const client = resolve(root, "dist/client");
@@ -20,6 +22,10 @@ await mkdir(interactiveMaps, { recursive: true });
 
 for (const file of [
   "index.html",
+  "guides.html",
+  "guide-map.js",
+  "guide-map-model.js",
+  "guide-map.css",
   "home-maps.js",
   "home-maps.css",
   "experiences.html",
@@ -85,9 +91,9 @@ for (const file of ["index.html", "experiences.html"]) {
 // Phase 1: access.js, checkout.js, admin.html and admin.js are deliberately
 // retained in source control for reversibility, but are not shipped publicly.
 
-for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"]) {
+for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html", "guides.html"]) {
   const html = await readFile(resolve(root, file), "utf8");
-  const scripts = await Promise.all(["/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
+  const scripts = await Promise.all(["/guide-map.js", "/guide-map-model.js", "/data/guide-map-places.js", "/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
   await writeFile(resolve(interactiveMaps, file), versionScriptUrls(html, scripts));
 }
 
@@ -110,6 +116,7 @@ await writeFile(resolve(client, "moshe.html"), legacyRedirect("/products/interac
 await writeFile(resolve(client, "lifestyle.html"), legacyRedirect("/products/interactive-maps/lifestyle.html", "לאכול, לשתות, לקנות ולישון"));
 await writeFile(resolve(client, "excursions.html"), legacyRedirect("/products/interactive-maps/excursions.html", "טיולי יום מוורוצלב"));
 await writeFile(resolve(client, "cultural.html"), legacyRedirect("/products/interactive-maps/cultural.html", "ההרפתקה התרבותית"));
+await writeFile(resolve(client, "guides.html"), legacyRedirect("/products/interactive-maps/guides.html", "ללכת עם המדריך שלנו"));
 await cp(resolve(root, "data"), resolve(client, "data"), { recursive: true });
 // Exclude reviewed personal-focused Morskie Oko frames from public artifacts; preserve source backups.
 const morskiePersonalAssets = new Set(["morskie-oko-21.jpg", "morskie-oko-27.jpg", "morskie-oko-30.jpg", "morskie-oko-32.jpg", "arche-klasztor-11.jpg"]);

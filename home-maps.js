@@ -1,11 +1,11 @@
 (()=>{
  const host=document.getElementById('home-maps');if(!host)return;
- const paths=["map","premium","excursions","lifestyle","cultural","moshe"];
- const photos=['/assets/rynek-market-square.jpg','/assets/hala-stulecia-01.jpg','/assets/ksiaz-castle-01.jpg','/assets/food-cafes/cafe-berg-01.jpg','/assets/hala-stulecia-01.jpg','/assets/old-town-hall-wroclaw.jpg'];
+ const paths=["map", "premium", "excursions", "lifestyle", "cultural", "moshe", "guides"];
+ const photos=['/assets/rynek-market-square.jpg','/assets/hala-stulecia-01.jpg','/assets/ksiaz-castle-01.jpg','/assets/food-cafes/cafe-berg-01.jpg','/assets/hala-stulecia-01.jpg','/assets/old-town-hall-wroclaw.jpg','/assets/wuwa-estate-14.jpg'];
  const copy={
   "he": {
     "heading": "בוחרים מפה, ומתחילים לגלות",
-    "lead": "שישה סוגי מפות לפי הזמן והסגנון שלכם. בכל מפה מקומות, תמונות, סרטונים וקישורי ניווט.",
+    "lead": "שבע מפות לפי הזמן והסגנון שלכם. בכל מפה מקומות, תמונות, סרטונים וקישורי ניווט.",
     "left": "גלילה שמאלה",
     "right": "גלילה ימינה",
     "open": "פתחו את המפה",
@@ -15,7 +15,8 @@
       "יוצאים מהעיר, או בדרך אליה",
       "אוכל, קפה ומה שביניהם",
       "העיר דרך התרבות",
-      "וורוצלב בכריסמס"
+      "וורוצלב בכריסמס",
+      "ללכת עם המדריך שלנו"
     ],
     "descriptions": [
       "תחנות מסודרות ליום ראשון בעיר. אפשר לדלג ולעצור בדרך.",
@@ -23,12 +24,13 @@
       "טיולים מוכנים מחוץ לעיר וגם עצירה בלודז׳ בדרך אליה.",
       "מקומות לאכול, לשתות, לקנות ולישון. חיפוש חופשי במפה.",
       "מוזיאונים, אדריכלות ואמנות. בוחרים לפי העניין שלכם.",
-      "מסלול עונתי לכריסמס. בדקו את מועדי האירועים לפני הנסיעה."
+      "מסלול עונתי לכריסמס. בדקו את מועדי האירועים לפני הנסיעה.",
+      "כל המקומות בעיר עם הדרכות המדריך שלנו. בוחרים מקום, צופים ויוצאים לגלות."
     ]
   },
   "en": {
     "heading": "Choose your map. Discover your Wrocław.",
-    "lead": "Six maps for different interests and trip lengths. Explore places, photos, videos and navigation.",
+    "lead": "Seven maps for different interests and trip lengths. Explore places, photos, videos and navigation.",
     "left": "Scroll left",
     "right": "Scroll right",
     "open": "Open the map",
@@ -38,7 +40,8 @@
       "Beyond the city, or on your way",
       "Food, cafés and more",
       "The city through culture",
-      "Christmas in Wrocław"
+      "Christmas in Wrocław",
+      "Walk with our guide"
     ],
     "descriptions": [
       "An ordered first day in the city, with room to pause or skip stops.",
@@ -46,12 +49,13 @@
       "Ready-made excursions and a Łódź stop on the way to Wrocław.",
       "Find places to eat, drink, shop and stay freely on the map.",
       "Museums, architecture and art selected around your interests.",
-      "A seasonal Christmas route. Check event dates before travelling."
+      "A seasonal Christmas route. Check event dates before travelling.",
+      "Wrocław city places with our video guide. Choose a place, watch and explore."
     ]
   },
   "pl": {
     "heading": "Wybierz mapę i odkrywaj Wrocław",
-    "lead": "Sześć map dopasowanych do zainteresowań i długości pobytu. Miejsca, zdjęcia, filmy i nawigacja.",
+    "lead": "Siedem map według zainteresowań i długości pobytu. Miejsca, zdjęcia, filmy i nawigacja.",
     "left": "Przewiń w lewo",
     "right": "Przewiń w prawo",
     "open": "Otwórz mapę",
@@ -61,7 +65,8 @@
       "Poza miastem lub po drodze",
       "Jedzenie, kawa i więcej",
       "Miasto przez kulturę",
-      "Boże Narodzenie we Wrocławiu"
+      "Boże Narodzenie we Wrocławiu",
+      "Spacer z naszym przewodnikiem"
     ],
     "descriptions": [
       "Uporządkowany pierwszy dzień z czasem na przerwy.",
@@ -69,12 +74,13 @@
       "Gotowe wycieczki i przystanek w Łodzi w drodze do Wrocławia.",
       "Miejsca na jedzenie, kawę, zakupy i nocleg na mapie.",
       "Muzea, architektura i sztuka według zainteresowań.",
-      "Sezonowa trasa świąteczna. Sprawdź daty wydarzeń."
+      "Sezonowa trasa świąteczna. Sprawdź daty wydarzeń.",
+      "Miejsca we Wrocławiu z naszym przewodnikiem wideo. Wybierz miejsce, obejrzyj film i odkrywaj."
     ]
   },
   "de": {
     "heading": "Ihre Karte für Ihr Wrocław",
-    "lead": "Sechs Karten für unterschiedliche Interessen und Reisedauern. Mit Orten, Fotos, Videos und Navigation.",
+    "lead": "Sieben Karten für unterschiedliche Interessen und Reisedauern. Mit Orten, Fotos, Videos und Navigation.",
     "left": "Nach links scrollen",
     "right": "Nach rechts scrollen",
     "open": "Karte öffnen",
@@ -84,7 +90,8 @@
       "Ausflüge und Anreise",
       "Essen, Cafés und mehr",
       "Die Stadt durch Kultur",
-      "Weihnachten in Wrocław"
+      "Weihnachten in Wrocław",
+      "Mit unserem Reiseführer durch Wrocław"
     ],
     "descriptions": [
       "Ein geordneter erster Tag mit Raum für Pausen.",
@@ -92,12 +99,13 @@
       "Fertige Ausflüge und ein Halt in Łódź auf dem Weg nach Wrocław.",
       "Essen, Cafés, Einkauf und Unterkunft frei auf der Karte finden.",
       "Museen, Architektur und Kunst nach Ihren Interessen.",
-      "Saisonale Weihnachtsroute. Veranstaltungstermine prüfen."
+      "Saisonale Weihnachtsroute. Veranstaltungstermine prüfen.",
+      "Orte in Wrocław mit unserem Video-Reiseführer. Ort wählen, Film ansehen und entdecken."
     ]
   },
   "cs": {
     "heading": "Vyberte mapu a objevujte Vratislav",
-    "lead": "Šest map podle zájmů a délky pobytu. Místa, fotografie, videa a navigace.",
+    "lead": "Sedm map podle zájmů a délky pobytu. Místa, fotografie, videa a navigace.",
     "left": "Posunout doleva",
     "right": "Posunout doprava",
     "open": "Otevřít mapu",
@@ -107,7 +115,8 @@
       "Mimo město nebo cestou",
       "Jídlo, káva a více",
       "Město skrze kulturu",
-      "Vánoce ve Vratislavi"
+      "Vánoce ve Vratislavi",
+      "Procházka s naším průvodcem"
     ],
     "descriptions": [
       "První den s přehledným pořadím a časem na pauzy.",
@@ -115,7 +124,8 @@
       "Hotové výlety a zastávka v Lodži cestou do Vratislavi.",
       "Jídlo, kavárny, nákupy a ubytování volně na mapě.",
       "Muzea, architektura a umění podle zájmů.",
-      "Sezonní vánoční trasa. Ověřte termíny akcí."
+      "Sezonní vánoční trasa. Ověřte termíny akcí.",
+      "Místa ve Vratislavi s naším videoprůvodcem. Vyberte místo, sledujte a objevujte."
     ]
   }
 };
