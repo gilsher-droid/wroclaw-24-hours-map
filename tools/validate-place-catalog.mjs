@@ -86,9 +86,9 @@ for (const record of source) {
     const guideSources = Object.values(media.guideVideos);
     if (typeof media.guideVideos !== "object" || Array.isArray(media.guideVideos)
       || Object.keys(media.guideVideos).some((language) => !["he", "en"].includes(language))
-      || !media.guideVideos.he || !media.guideVideos.en
+      || !media.guideVideos.en
       || guideSources.some((url) => typeof url !== "string" || !(/^(?:https:\/\/(?:www\.)?youtube\.com\/(?:watch\?v=|shorts\/)[A-Za-z0-9_-]{11}|\/assets\/guide-[A-Za-z0-9._-]+\.mp4)$/.test(url)))) {
-      throw new Error(`${record.id}: media.guideVideos requires valid Hebrew and English YouTube URLs or local guide MP4 paths.`);
+      throw new Error(`${record.id}: media.guideVideos requires a valid English guide source and, when recorded, a valid Hebrew source.`);
     }
     for (const url of guideSources.filter((item) => item.startsWith("/assets/"))) {
       if (!(await stat(resolve(root, url.slice(1))).catch(() => null))?.isFile()) {

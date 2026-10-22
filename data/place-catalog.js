@@ -17104,11 +17104,11 @@
       "cs": "Divadelní muzeum Henryka Tomaszewského"
     },
     "description": {
-      "he": "מוזיאון לתולדות התיאטרון של ורוצלב וליצירת הנריק תומשבסקי.",
-      "en": "A museum of Wrocław theatre history and Henryk Tomaszewski's work.",
-      "pl": "Muzeum historii wrocławskiego teatru i twórczości Henryka Tomaszewskiego.",
-      "de": "Museum zur Breslauer Theatergeschichte und zu Henryk Tomaszewski.",
-      "cs": "Muzeum dějin vratislavského divadla a tvorby Henryka Tomaszewského."
+      "he": "מוזיאון לתולדות התיאטרון בוורוצלב, באגף הדרומי לשעבר של הארמון המלכותי. התצוגה עוסקת בבמת העיר ובמורשת הנריק תומשבסקי, מייסד תיאטרון הפנטומימה של ורוצלב. במוזיאון שוחזרה דירתו, ובה פריטים מאוסף הבובות שלו. צילום הביקור שלנו מציג את החזית והכניסה מכיכר וולנושצ׳י. זהו מוזיאון נפרד מתיאטרון הבובות.\nplac Wolności 7A, Wrocław",
+      "en": "A museum of Wrocław theatre history in the former southern wing of the Royal Palace. Explore the city’s stage heritage and Henryk Tomaszewski, founder of Wrocław Pantomime Theatre. His apartment is reconstructed with items from his doll collection. Our visit photograph shows the façade and entrance from plac Wolności. This is a separate museum from the Puppet Theatre.\nplac Wolności 7A, Wrocław",
+      "pl": "Muzeum historii wrocławskiego teatru w dawnym południowym skrzydle Pałacu Królewskiego. Przybliża dorobek miejskiej sceny oraz Henryka Tomaszewskiego, twórcy Wrocławskiego Teatru Pantomimy. Odtworzono tu jego mieszkanie z przedmiotami z kolekcji lalek. Nasza fotografia z wizyty przedstawia fasadę i wejście od placu Wolności. To odrębne muzeum, nie Teatr Lalek.\nplac Wolności 7A, Wrocław",
+      "de": "Ein Museum zur Breslauer Theatergeschichte im ehemaligen Südflügel des Königsschlosses. Es stellt die Bühnenkunst der Stadt und Henryk Tomaszewski, den Gründer des Breslauer Pantomimentheaters, vor. Seine Wohnung wurde mit Objekten seiner Puppensammlung nachgebildet. Unser Besuchsfoto zeigt Fassade und Eingang am plac Wolności. Das Museum ist vom Puppentheater getrennt.\nplac Wolności 7A, Wrocław",
+      "cs": "Muzeum dějin vratislavského divadla v někdejším jižním křídle Královského paláce. Představuje městskou divadelní scénu a Henryka Tomaszewského, zakladatele Vratislavského divadla pantomimy. Jeho byt byl rekonstruován s předměty ze sbírky panenek. Naše fotografie z návštěvy zachycuje průčelí a vstup z náměstí Wolności. Jde o jiné muzeum než loutkové divadlo.\nplac Wolności 7A, Wrocław"
     },
     "location": {
       "countryCode": "PL",
@@ -17167,7 +17167,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://muzeum.miejskie.wroclaw.pl/",
+      "website": "https://muzeum.miejskie.wroclaw.pl/museum/teatru/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1069642%2C17.0278621",
         "appleMaps": "https://maps.apple.com/?ll=51.1069642,17.0278621&q=Muzeum%20Teatru%20im.%20Henryka%20Tomaszewskiego"
@@ -17208,6 +17208,88 @@
         ],
         "action": "Added new full-picture visit photograph; preserved identity, prior media and validlinks",
         "checkedAt": "2026-10-21T11:30:11.255080+00:00"
+      },
+      "theatreMuseumRefresh20261022": {
+        "checkedAt": "2026-10-22T05:09:21.448054+00:00",
+        "sources": [
+          "https://muzeum.miejskie.wroclaw.pl/museum/teatru/",
+          "https://muzeum.miejskie.wroclaw.pl/en/museum/teatru/",
+          "https://www.wroclaw.pl/nasz-wroclaw/partner/muzeum-teatru-im-henryka-tomaszewskiego-wroclaw"
+        ],
+        "sourcePhotoDecision": "Two source photographs are the same full-frame picture in different encodings; existing asset retained, no duplicate added.",
+        "guideAuthorization": "English original only, five native captions including Hebrew. No Hebrew recording exists."
+      },
+      "theatreMuseumGuide20261022": {
+        "receipt": "outputs/theatre-museum-video-guide-2026-10-22/youtube-publication-receipt.json",
+        "videoId": "p8SO_3lpuxM",
+        "sourceSHA256": "5d5beff082f59ea120098aab5404fc9a9ca5bf40f955df6033ad92835c2493c1",
+        "uploadSHA256": "5d5beff082f59ea120098aab5404fc9a9ca5bf40f955df6033ad92835c2493c1",
+        "durationSeconds": 25.9,
+        "audioLanguage": "en",
+        "englishOnlyExplicitlyAuthorized": true,
+        "noHebrewAudioRecording": true,
+        "sourceEndingPartialAcceptedByUser": true,
+        "originalFullPictureAndAudioPreserved": true,
+        "publicReopened": true,
+        "checksNoIssues": true,
+        "nativeCaptions": [
+          {
+            "language": "en",
+            "videoId": "p8SO_3lpuxM",
+            "sourceAudioLanguage": "en",
+            "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-en.srt",
+            "sha256": "83fc31991fd8082684120b0f2ffe269ec3251d38d453403461bb5531d88db4ff",
+            "cues": 6,
+            "published": true,
+            "reopened": true,
+            "evidence": "outputs/theatre-museum-video-guide-2026-10-22/en-captions-reopened.txt"
+          },
+          {
+            "language": "he",
+            "videoId": "p8SO_3lpuxM",
+            "sourceAudioLanguage": "en",
+            "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-he.srt",
+            "sha256": "8f857358d017de81fab4f57cbe474fb59dcaf2a6c67d212d77f9a208149b33e5",
+            "cues": 6,
+            "published": true,
+            "reopened": true,
+            "evidence": "outputs/theatre-museum-video-guide-2026-10-22/he-captions-reopened.txt"
+          },
+          {
+            "language": "pl",
+            "videoId": "p8SO_3lpuxM",
+            "sourceAudioLanguage": "en",
+            "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-pl.srt",
+            "sha256": "91cff3e089b7c013b76c63d52a503f4ae17c874460ece5294834161cbb5e1071",
+            "cues": 6,
+            "published": true,
+            "reopened": true,
+            "evidence": "outputs/theatre-museum-video-guide-2026-10-22/pl-captions-reopened.txt"
+          },
+          {
+            "language": "de",
+            "videoId": "p8SO_3lpuxM",
+            "sourceAudioLanguage": "en",
+            "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-de.srt",
+            "sha256": "100ce893618ca8dee439fe277722478ccab1803002e7215832064e0994e8c26f",
+            "cues": 6,
+            "published": true,
+            "reopened": true,
+            "evidence": "outputs/theatre-museum-video-guide-2026-10-22/de-captions-reopened.txt"
+          },
+          {
+            "language": "cs",
+            "videoId": "p8SO_3lpuxM",
+            "sourceAudioLanguage": "en",
+            "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-cs.srt",
+            "sha256": "d0ae5a1fc50b6a55ca20a7d5833000f528ec77fc7fa83a3c136a2ab604cda9cc",
+            "cues": 6,
+            "published": true,
+            "reopened": true,
+            "evidence": "outputs/theatre-museum-video-guide-2026-10-22/cs-captions-reopened.txt"
+          }
+        ],
+        "approvalCall": "call_802c4623e5124f478c17a8c9dffbd0e9"
       }
     },
     "media": {
@@ -17216,6 +17298,9 @@
         "/assets/today-source-refresh-20261021/henryk-tomaszewski-theatre-museum-01.jpg"
       ],
       "videos": [],
+      "guideVideos": {
+        "en": "https://www.youtube.com/watch?v=p8SO_3lpuxM"
+      },
       "metadata": {
         "/assets/today-source-refresh-20261021/henryk-tomaszewski-theatre-museum-01.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/THEATER MUSEUM/WhatsApp Image 2026-10-19 at 08.42.07 (3).jpeg",
@@ -31214,8 +31299,8 @@
       "regionId": "lower-silesia",
       "cityId": "wroclaw",
       "coordinates": {
-        "lat": 51.1143,
-        "lng": 17.04507
+        "lat": 51.1146228,
+        "lng": 17.0437212
       }
     },
     "categories": [
@@ -31242,14 +31327,14 @@
       {
         "productId": "wroclaw-24-hours",
         "sourceId": "ostrow",
-        "lat": 51.1143,
-        "lng": 17.04507
+        "lat": 51.1146228,
+        "lng": 17.0437212
       },
       {
         "productId": "wroclaw-christmas",
         "sourceId": "ostrow-cathedral",
-        "lat": 51.11422,
-        "lng": 17.04663
+        "lat": 51.1146228,
+        "lng": 17.0437212
       }
     ],
     "status": "published",
@@ -31285,8 +31370,8 @@
     "links": {
       "website": null,
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1146228%2C17.0437212",
+        "appleMaps": "https://maps.apple.com/?ll=51.1146228,17.0437212&q=Ostr%C3%B3w%20Tumski"
       }
     },
     "transport": {
@@ -31366,6 +31451,24 @@
           }
         ],
         "approvalCall": "call_94b51d2e9e6b4090a0f3e5266c18bd43"
+      },
+      "pinRelocation20261022": {
+        "checkedAt": "2026-10-22T05:11:29.695419+00:00",
+        "userInstruction": "Place the existing Cathedral Island canonical pin by St John Nepomuk statue in plac Kościelny, in front of Holy Cross / St Bartholomew church.",
+        "osmNode": 321873613,
+        "osmCoordinates": {
+          "lat": 51.1146228,
+          "lng": 17.0437212
+        },
+        "source": "https://www.openstreetmap.org/api/0.6/map?bbox=17.0430,51.1142,17.0445,51.1153",
+        "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/ostrow-tumski-1",
+        "oldCoordinates": {
+          "lat": 51.1143,
+          "lng": 17.04507
+        },
+        "canonicalId": "ostrow",
+        "identityMediaGuidesAndNamesPreserved": true,
+        "otherCanonicalsUnchanged": true
       }
     },
     "media": {
@@ -46728,17 +46831,25 @@
       }
     },
     "categories": [
+      "culture",
       "family",
       "theatre"
     ],
     "sourceUrls": [],
     "aliases": [],
-    "sourceRecords": [],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "wroclaw-puppet-theatre"
+      }
+    ],
     "coordinateCandidates": [],
     "status": "published",
     "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
+        "culture",
         "family",
         "theatre"
       ],
@@ -49891,19 +50002,6 @@
     "candidate": {
       "lat": 51.10802,
       "lng": 17.04086
-    }
-  },
-  {
-    "canonicalId": "ostrow",
-    "productId": "wroclaw-christmas",
-    "sourceId": "ostrow-cathedral",
-    "selected": {
-      "lat": 51.1143,
-      "lng": 17.04507
-    },
-    "candidate": {
-      "lat": 51.11422,
-      "lng": 17.04663
     }
   },
   {

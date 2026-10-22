@@ -87,7 +87,7 @@ for (const file of ["index.html", "experiences.html"]) {
 
 for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"]) {
   const html = await readFile(resolve(root, file), "utf8");
-  const scripts = await Promise.all(["/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
+  const scripts = await Promise.all(["/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
   await writeFile(resolve(interactiveMaps, file), versionScriptUrls(html, scripts));
 }
 
