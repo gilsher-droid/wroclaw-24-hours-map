@@ -30,7 +30,7 @@ window.WROC_HOME_EXPERIENCES = [
       "de": "Auf der Suche nach Breslaus Zwergen",
       "cs": "Hledání vratislavských trpaslíků"
     },
-    "photo": "/assets/gallery-gnomes-01.jpg"
+    "photo": "/assets/papa-refresh-20261022-01.jpg"
   },
   {
     "id": "nadodrze-neighbourhood-walk",

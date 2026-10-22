@@ -226,3 +226,7 @@ article[data-place="mostek-pokutnic-wroclaw"] p { white-space:pre-line; }
 .media-grid img[src*="/today-source-refresh-20261021/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 
 .media-grid img[src$="/rynek-refresh-oct19-08.jpg"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+
+/* Preserve complete pictures in the user-requested full media refresh. */
+.media-grid img[src*="/full-enrichment-20261022/"],
+.media-grid img[src*="/papa-refresh-20261022-"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }

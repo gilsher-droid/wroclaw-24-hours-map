@@ -11,6 +11,7 @@
   let currentOpenId = null;
   let map;
   let routeLine;
+  let routeOverviewActive = true;
   const markers = new Map();
   let activeGallery = null;
   let activeGalleryIndex = 0;
@@ -176,16 +177,26 @@
     window.LOCATIONS.forEach((location) => addMarker(location, false));
     window.EVENING_LOCATIONS.forEach((location) => addMarker(location, true));
 
-    const routeCoordinates = window.LOCATIONS.filter((location) => !location.optional).map((location) => location.coordinates);
+    const routeCoordinates = window.LOCATIONS.filter((location) => !location.optional || (location.canonicalPlaceId || location.id) === "wroclaw-botanical-garden").map((location) => location.coordinates);
     routeLine = L.polyline(routeCoordinates, {
       color: "#2468A2", weight: 4, opacity: 0.8, dashArray: "8 10", lineCap: "round"
     }).addTo(map);
+    map.on("dragstart", () => { routeOverviewActive = false; });
+    map.on("resize", () => {
+      if (routeOverviewActive && activeCategory === "all") fitRoute();
+    });
+    mapElement.addEventListener("wheel", () => { routeOverviewActive = false; }, { passive: true });
+    mapElement.querySelector(".leaflet-control-zoom")?.addEventListener("click", () => { routeOverviewActive = false; });
     fitRoute();
   }
 
   function fitRoute() {
     if (!map || !routeLine) return;
-    map.fitBounds(routeLine.getBounds(), { padding: [32, 32] });
+    routeOverviewActive = true;
+    // The overview includes every displayed daytime stop, even optional stops.
+    // The dotted line remains a schematic itinerary, not turn-by-turn routing.
+    const bounds = L.latLngBounds(window.LOCATIONS.map((location) => location.coordinates));
+    map.fitBounds(bounds.extend(routeLine.getBounds()), { paddingTopLeft: [48, 48], paddingBottomRight: [48, 96], animate: false });
   }
 
   function fitFilteredMarkers(category) {
@@ -250,6 +261,7 @@
       renderFilters();
       applyFilter("all");
     }
+    routeOverviewActive = false;
     map.setView(marker.getLatLng(), 17, { animate: true });
     marker.openPopup();
     document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
