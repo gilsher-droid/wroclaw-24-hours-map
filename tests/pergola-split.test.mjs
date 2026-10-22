@@ -84,5 +84,5 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   assert.deepEqual(Array.from(fountainResources.gallery), Array.from(fountain.media.photos));
   assert.deepEqual(Array.from(fountainResources.videos, (video) => video.src), Array.from(fountain.media.videos));
   assert.equal(fountainResources.facebook, verifiedFountainHebrew.url);
-  assert.equal(fountainResources.instagram, "https://www.instagram.com/wroclaw.lowersilesia.he/");
+  assert.equal(fountainResources.instagram, undefined);
 });

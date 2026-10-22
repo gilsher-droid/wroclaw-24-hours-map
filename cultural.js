@@ -37,7 +37,7 @@
     return points.map(area => {
       const label = local(area.name) || area.label;
       const actions = [`<a href="https://www.google.com/maps/search/?api=1&query=${area.coordinates[0]}%2C${area.coordinates[1]}" target="_blank" rel="noopener"><span class="brand-icon media">↗</span>${tr("navigate")}</a>`];
-      for (const post of (area.social || []).filter(post => post.language === language && post.url && post.verifiedAt && !post.routingExcluded)) actions.push(`<a href="${esc(post.url)}" target="_blank" rel="noopener"><span class="brand-icon ${post.platform}">${post.platform === "facebook" ? "f" : "◎"}</span>${post.platform === "facebook" ? "Facebook" : "Instagram"}</a>`);
+      for (const post of ["facebook","instagram"].map(platform => window.WROC_CATALOG.getSocialPost({socialPosts:area.social||[]},platform,language)).filter(Boolean)) actions.push(`<a href="${esc(post.url)}" target="_blank" rel="noopener"><span class="brand-icon ${post.platform}">${post.platform === "facebook" ? "f" : "◎"}</span>${post.platform === "facebook" ? "Facebook" : "Instagram"}</a>`);
       if (area.media?.photos?.length) actions.push(`<button type="button" data-gallery="${esc(item.id)}" data-area="${esc(area.id)}"><span class="brand-icon media">▣</span>${tr("photos")}</button>`);
       if (area.media?.videos?.length) actions.push(`<button type="button" data-video="${esc(item.id)}" data-area="${esc(area.id)}"><span class="brand-icon media">▶</span>${tr("videos")}</button>`);
       return `<section class="area-resources" data-area-resources="${esc(area.id)}"><strong>${esc(label)}</strong>${area.description?`<p>${esc(local(area.description))}</p>`:""}<div class="place-actions">${actions.join("")}</div></section>`;

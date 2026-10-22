@@ -35204,11 +35204,11 @@
       "cs": "Piastowska Pieczęć: pozůstatky piastovského hradu"
     },
     "description": {
-      "he": "מסלול ביקור במרתפי בית נוטרדאם המציג שרידים של טירת פיאסט באי הקתדרלות. בדקו ישירות מול המפעיל את אפשרויות הביקור וההזמנה.",
-      "en": "A visitor route through the cellars of Dom Notre Dame presents remains of the Piast castle on Cathedral Island. Check visits and booking directly.",
-      "pl": "Trasa zwiedzania w podziemiach Domu Notre Dame prezentuje relikty zamku Piastów na Ostrowie Tumskim. Możliwości zwiedzania i rezerwacji sprawdź u organizatora.",
-      "de": "Ein Besucherweg durch die Keller des Dom Notre Dame zeigt Überreste der Piastenburg auf der Dominsel. Besichtigung und Anmeldung direkt erfragen.",
-      "cs": "Návštěvnická trasa ve sklepích Domu Notre Dame představuje pozůstatky piastovského hradu na Katedrálním ostrově. Prohlídky a rezervace ověřte u provozovatele."
+      "he": "שרידי ארמון נסיכי פיאסט שמורים מתחת למתחם נוטרדאם באי הקתדרלות, במסלול הביקור פיאסטובסקה פייצ׳ץ׳. גלריית הביקור כוללת את הכניסה ולוחות המידע, את כנסיית מרטין הקדוש שהייתה קפלת הטירה, ואת הגן והמבנים ההיסטוריים בסביבה. הכנסייה והקנוניה הסמוכה הן ישויות נפרדות; תמונותיהן כאן מתעדות את ההקשר של מתחם הטירה ולא חללי מרתף שטרם צילמנו. לתיאום ביקור, תנאי כניסה ושעות פנו לאתר הרשמי.",
+      "en": "The remains of the Piast dukes’ palace survive beneath the Notre Dame complex on Cathedral Island, on the Piastowska Pieczęć visitor route. Our gallery includes the entrance and information boards, St Martin’s Church, formerly the castle chapel, and the garden and historic surroundings. The church and neighbouring canonry are separate buildings: these photographs document the castle-site context, not unphotographed cellar interiors. Consult the official site for visits, admission and opening arrangements.",
+      "pl": "Relikty pałacu książąt piastowskich zachowały się pod kompleksem Notre Dame na Ostrowie Tumskim, na trasie Piastowska Pieczęć. Galeria obejmuje wejście i tablice, kościół św.Marcina, dawną kaplicę zamkową, oraz ogród i historyczne otoczenie. Kościół i sąsiednia kanonia są osobnymi budynkami; zdjęcia pokazują kontekst terenu zamku, a nie niefotografowane wnętrza piwnic. Informacje o zwiedzaniu, wstępie i godzinach sprawdź na stronie oficjalnej.",
+      "de": "Überreste des Palastes der Piastenherzöge sind unter dem Notre-Dame-Komplex auf der Dominsel erhalten und über den Besucherweg Piastowska Pieczęć zugänglich. Unsere Galerie zeigt Eingang, Informationstafeln, die Martinskirche als ehemalige Burgkapelle sowie Garten und historisches Umfeld. Kirche und benachbarte Kanonie sind eigenständige Gebäude; die Fotos zeigen den Zusammenhang des Burgareals, keine nicht fotografierten Kellerräume. Besichtigung, Eintritt und Öffnungszeiten auf der offiziellen Website prüfen.",
+      "cs": "Pozůstatky paláce piastovských knížat se dochovaly pod areálem Notre Dame na Katedrálním ostrově na návštěvnické trase Piastowska Pieczęć. Galerie zahrnuje vstup a tabule, kostel svatého Martina, bývalou hradní kapli, zahradu a historické okolí. Kostel a sousední kanonie jsou samostatné budovy; fotografie zachycují kontext hradního areálu, nikoli dosud nefotografované sklepní interiéry. Návštěvy, vstupné a otevírací podmínky ověřte na oficiálním webu."
     },
     "location": {
       "countryCode": "PL",
@@ -35266,7 +35266,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://www.ndwroclaw.com/noclegi",
+      "website": "https://zamekwroclaw.ssnd.pl/",
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.115979591458%2C17.043502238527",
         "appleMaps": null
@@ -35340,14 +35340,34 @@
         "st-martin-church-wroclaw",
         "jawor-piast-castle",
         "brzeg-castle"
-      ]
+      ],
+      "fullReview20261022": {
+        "sourceMediaCount": 11,
+        "photosAfter": 11,
+        "allDistinctRelevantSiteAndContextPhotosIncluded": true,
+        "StMartinIdentityNotMerged": true,
+        "officialSources": [
+          "https://zamekwroclaw.ssnd.pl/regulamin/",
+          "https://www.wroclaw.pl/dla-mieszkanca/ostrow-tumski-poznaj-wroclaw"
+        ],
+        "previousWebsite": "https://www.ndwroclaw.com/noclegi"
+      }
     },
     "placeType": "historic-site",
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/run4-176-piastowska-pieczec-wroclaw.jpg",
       "photos": [
         "/assets/today-source-refresh-20261021/run4-176-piastowska-pieczec-wroclaw.jpg",
-        "/assets/today-source-refresh-20261021/run4-177-piastowska-pieczec-wroclaw.jpg"
+        "/assets/today-source-refresh-20261021/run4-177-piastowska-pieczec-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg",
+        "/assets/today-source-refresh-20261021/run4-183-st-martin-church-wroclaw.jpg",
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-00.jpg",
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-04.jpg",
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-05.jpg",
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-06.jpg",
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-07.jpg",
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-09.jpg",
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-10.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -35386,6 +35406,238 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
           "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (22).jpeg",
+          "sourceSHA256": "2cb363492f3c0f327fc0fb29cc65616f5c2991fb5dfcb8e39037db35f439f56a",
+          "assetSHA256": "0cabcc7a0829981eb11b69741f03af4ac885d71a22c56a9ebc8eb7414653b471",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "כנסיית מרטין הקדוש מבחוץ",
+            "en": "St Martin’s Church exterior",
+            "pl": "Kościół św.Marcina z zewnątrz",
+            "de": "Außenansicht der Martinskirche",
+            "cs": "Exteriér kostela svatého Martina"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+          "familyForeground": false
+        },
+        "/assets/today-source-refresh-20261021/run4-183-st-martin-church-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (23).jpeg",
+          "sourceSHA256": "0bfea64bd37b908aa73199cffc870b56194de85d36ad2442b97dc543fc02b207",
+          "assetSHA256": "5ea7ee098bed028a4a74c66718c408bef29ec23967a7fa85ea125f5491e45bd7",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "פרט המגדל המתומן של כנסיית מרטין הקדוש",
+            "en": "Octagonal tower of St Martin’s Church",
+            "pl": "Ośmioboczna wieża kościoła św.Marcina",
+            "de": "Achteckiger Turm der Martinskirche",
+            "cs": "Osmiboká věž kostela svatého Martina"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+          "familyForeground": false
+        },
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-00.jpg": {
+          "index": 0,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (14).jpeg",
+          "sha256": "d683d97efa60758fd887bf9f9479ab50630e612e03ce65141922676b8358da17",
+          "bytes": 296010,
+          "sourceIndex": 0,
+          "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-00.jpg",
+          "assetSHA256": "74d6766d8756f9240fa59070e99b72bece7020daebed341e03f0bd6eb68b7557",
+          "originalDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (14).jpeg",
+          "sourceSHA256": "d683d97efa60758fd887bf9f9479ab50630e612e03ce65141922676b8358da17",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "לוח מידע היסטורי בביקור במתחם הטירה",
+            "en": "Historical information board during our castle-site visit",
+            "pl": "Tablica historyczna podczas wizyty na terenie zamku",
+            "de": "Historische Informationstafel beim Besuch des Burgareals",
+            "cs": "Historická informační tabule při návštěvě hradního areálu"
+          }
+        },
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-04.jpg": {
+          "index": 4,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (20).jpeg",
+          "sha256": "167a769b0101537d96b58aeb2c2864626360fa44b5c82399b1e5c1c04202b9bd",
+          "bytes": 351381,
+          "sourceIndex": 4,
+          "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-04.jpg",
+          "assetSHA256": "a107609a3327527c83c2991b131bbf6f1aac06502c129fbcf1f5dc2b91a85ed8",
+          "originalDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (20).jpeg",
+          "sourceSHA256": "167a769b0101537d96b58aeb2c2864626360fa44b5c82399b1e5c1c04202b9bd",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "הגישה לכנסיית מרטין הקדוש, קפלת הטירה שנותרה",
+            "en": "Approach to St Martin’s Church, the surviving castle chapel",
+            "pl": "Dojście do kościoła św.Marcina, zachowanej kaplicy zamkowej",
+            "de": "Zugang zur Martinskirche, der erhaltenen Burgkapelle",
+            "cs": "Přístup ke kostelu svatého Martina, dochované hradní kapli"
+          }
+        },
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-05.jpg": {
+          "index": 5,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (24).jpeg",
+          "sha256": "afe230d11be191dc978edfad4cf1bede12f6324c0e55a8956e23da12aa817e26",
+          "bytes": 412006,
+          "sourceIndex": 5,
+          "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-05.jpg",
+          "assetSHA256": "808e11a6e08d27172b6aa4e22bb2d647fb6959308a9cedd32c4640e83c55f242",
+          "originalDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (24).jpeg",
+          "sourceSHA256": "afe230d11be191dc978edfad4cf1bede12f6324c0e55a8956e23da12aa817e26",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "הגן והסביבה לצד אתר הטירה",
+            "en": "Garden and surroundings beside the castle site",
+            "pl": "Ogród i otoczenie przy terenie zamku",
+            "de": "Garten und Umgebung neben dem Burgareal",
+            "cs": "Zahrada a okolí u hradního areálu"
+          }
+        },
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-06.jpg": {
+          "index": 6,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (26).jpeg",
+          "sha256": "f4e7b9d228bf18428477b41f09d8de4f47f9757777a1ff07ab165baade5c0fb2",
+          "bytes": 393066,
+          "sourceIndex": 6,
+          "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-06.jpg",
+          "assetSHA256": "6254ba7a072c0a592b1a4f1bcd85029532bdd7527a6443f29f88b6b8bf7d17dc",
+          "originalDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (26).jpeg",
+          "sourceSHA256": "f4e7b9d228bf18428477b41f09d8de4f47f9757777a1ff07ab165baade5c0fb2",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "מבט לאורך קיר קפלת הטירה",
+            "en": "View along the castle chapel wall",
+            "pl": "Widok wzdłuż muru kaplicy zamkowej",
+            "de": "Blick entlang der Mauer der Burgkapelle",
+            "cs": "Pohled podél zdi hradní kaple"
+          }
+        },
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-07.jpg": {
+          "index": 7,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (21).jpeg",
+          "sha256": "e608f185f1541db569ca244912b4303bd0e3ed2327aeee7d2b0ccc124fcf2196",
+          "bytes": 237735,
+          "sourceIndex": 7,
+          "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-07.jpg",
+          "assetSHA256": "4152e077748cc9574a0bcccafdb3f05a74705ffddebcc1137769faab14eb137d",
+          "originalDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (21).jpeg",
+          "sourceSHA256": "e608f185f1541db569ca244912b4303bd0e3ed2327aeee7d2b0ccc124fcf2196",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "פרטי דלת הכנסייה בביקור במתחם",
+            "en": "Church-door details during our visit to the area",
+            "pl": "Detale drzwi kościoła podczas wizyty w okolicy",
+            "de": "Details der Kirchentür beim Besuch des Areals",
+            "cs": "Detaily kostelních dveří při návštěvě areálu"
+          }
+        },
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-09.jpg": {
+          "index": 9,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (27).jpeg",
+          "sha256": "6b0251bc0e6bf2bf03428b7a40a98d87cab312d914af5838f195efb32517739e",
+          "bytes": 307816,
+          "sourceIndex": 9,
+          "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-09.jpg",
+          "assetSHA256": "c491c2289bccbc917b51ba1e0fd898e0d37322d531c4b558892cbe0928da1511",
+          "originalDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (27).jpeg",
+          "sourceSHA256": "6b0251bc0e6bf2bf03428b7a40a98d87cab312d914af5838f195efb32517739e",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "לוח הפרשנות של קנוניית הצלב הקדוש הסמוכה",
+            "en": "Interpretation plaque for the neighbouring Holy Cross canonry",
+            "pl": "Tablica sąsiedniej kanonii świętokrzyskiej",
+            "de": "Informationstafel der benachbarten Heilig-Kreuz-Kanonie",
+            "cs": "Informační tabule sousední kanonie svatého Kříže"
+          }
+        },
+        "/assets/full-enrichment-20261022-neighbourhood-piast/piast-10.jpg": {
+          "index": 10,
+          "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (25).jpeg",
+          "sha256": "2d68d935f9f22a61e4332296304398ceb6bd2568e6bcf72885937d49dc2c3e5f",
+          "bytes": 215230,
+          "sourceIndex": 10,
+          "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-10.jpg",
+          "assetSHA256": "2c630e195cb27ed1a832bbee49f2f783dadc0025a0483c809c29f01aab103735",
+          "originalDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (25).jpeg",
+          "sourceSHA256": "2d68d935f9f22a61e4332296304398ceb6bd2568e6bcf72885937d49dc2c3e5f",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סביבת אתר הטירה והנהר",
+            "en": "The surroundings of the castle site and river",
+            "pl": "Otoczenie terenu zamku i rzeki",
+            "de": "Umgebung des Burgareals und des Flusses",
+            "cs": "Okolí hradního areálu a řeky"
+          }
         }
       }
     },
@@ -50897,15 +51149,42 @@
 
   const resolveId = (id) => aliases[id] || id;
   const getPlace = (id) => places[resolveId(id)] || null;
-  const socialChannels = {"he": {"facebook": "https://www.facebook.com/profile.php?id=61591964083308", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/"}, "en": {"facebook": "https://www.facebook.com/profile.php?id=61595036942289", "instagram": "https://www.instagram.com/wroclaw.lowersilesia/"}, "pl": {"facebook": "https://www.facebook.com/profile.php?id=61595207664875", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.pl/"}, "de": {"facebook": "https://www.facebook.com/profile.php?id=61595239823399", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/"}, "cs": {"facebook": "https://www.facebook.com/profile.php?id=61594716405964", "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/"}};
-  const getSocialPost = (place, platform, lang = window.document?.documentElement?.lang || "en") => {
-    const language = socialChannels[lang] ? lang : "en";
-    const posts = (place?.socialPosts || []).filter((post) => post.platform === platform && !post.routingExcluded && post.context !== "historical-cross-account" && !post.url.includes("/groups/") && !(language === "he" && platform === "instagram" && post.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")));
-    // Untagged historical editorial posts are Hebrew; never fall back to another language.
-    const post = posts.find((post) => post.language === language)
-      || (language === "he" ? posts.find((post) => !post.language) : null);
-    return post || (place?.links?.socialProfileFallback !== false && socialChannels[language][platform] ? { platform, language, url: socialChannels[language][platform], context: "language-channel" } : null);
+  // Post actions never fall back to an account page. Stored URLs remain evidence.
+  const socialPostKind = (url, platform) => {
+    const value = String(url || '').trim();
+    if (!value) return 'missing';
+    if (platform === 'instagram') {
+      if (!/^https:\/\/(?:www\.)?instagram\.com\//i.test(value)) return 'unsupported';
+      if (/\/(?:reel|reels|stories)\//i.test(value)) return 'reel-or-story';
+      return /^https:\/\/(?:www\.)?instagram\.com\/(?:[^/?#]+\/)?p\/[A-Za-z0-9_-]+(?:[/?#]|$)/i.test(value) ? 'post-candidate' : 'generic';
+    }
+    if (platform === 'facebook') {
+      if (!/^https:\/\/(?:(?:www|m|web)\.)?facebook\.com\//i.test(value)) return 'unsupported';
+      if (/\/(?:reel|reels|stories|watch|videos)(?:[/?#]|$)/i.test(value)) return 'reel-or-story';
+      return /\/share\/p\/[^/?#]+/i.test(value)
+        || /\/(?:[^/?#]+\/)?posts\/[^/?#]+/i.test(value)
+        || /\/groups\/[^/?#]+\/(?:posts|permalink)\/[^/?#]+/i.test(value)
+        || /\/(?:permalink|story)\.php\?[^#]*\bstory_fbid=[^&#]+/i.test(value)
+        || /\/photo(?:\.php|\/)?\?[^#]*\bfbid=[^&#]+/i.test(value)
+        ? 'post-candidate' : 'generic';
+    }
+    return 'unsupported';
   };
+  const getSocialPostState = (input, platform, lang = window.document?.documentElement?.lang || 'en') => {
+    const place = typeof input === 'string' ? getPlace(input) : input;
+    const language = ['he','en','pl','de','cs'].includes(lang) ? lang : 'en';
+    const rows = (place?.socialPosts || []).filter(post => post.platform === platform && (post.language || 'he') === language);
+    const eligible = rows.filter(post => !post.routingExcluded && post.context !== 'historical-cross-account'
+      && !String(post.url).includes('/groups/')
+      && !(language === 'he' && platform === 'instagram' && String(post.url).toLowerCase().startsWith('https://www.instagram.com/wroclaw.lowersilesia/')));
+    const post = eligible.find(post => socialPostKind(post.url, platform) === 'post-candidate');
+    if (post) return { state: 'valid-post-candidate', post };
+    if (!rows.length) return { state: 'canonical-missing', post: null };
+    if (!eligible.length) return { state: 'known-excluded', post: null };
+    return { state: eligible.some(post => socialPostKind(post.url, platform) === 'generic') ? 'generic' : 'non-post', post: null };
+  };
+  const getSocialPost = (place, platform, lang) => getSocialPostState(place, platform, lang).post;
+
   const queryIndependentPlaces = ({ cityId, placeType, amenity } = {}) => Object.values(places).filter((place) => {
     if (place.sourceRecords.length !== 0) return false;
     if (cityId && place.location.cityId !== cityId) return false;
@@ -51314,6 +51593,8 @@
     getPlace,
     getSocialPost,
     queryIndependentPlaces,
+    getSocialPostState,
+    socialPostKind,
     registerProduct,
   });
 })();

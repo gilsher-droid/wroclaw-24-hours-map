@@ -33,7 +33,7 @@ test("every canonical social item remains a direct Facebook or Instagram link", 
       const place = catalog.getPlace(id);
       assert.ok(place.socialPosts.some(item => item.platform === post.platform && item.url === post.url), `${id}: retain every verified historical post`);
       const active = posts.filter(item => !place.socialPosts.find(row => row.platform === item.platform && row.url === item.url)?.routingExcluded);
-      const preferred = active.find(item => item.platform === post.platform && item.language === post.language);
+      const preferred = active.find(item => item.platform === post.platform && item.language === post.language && catalog.socialPostKind(item.url,item.platform) === "post-candidate");
       if (preferred) assert.equal(catalog.getSocialPost(place, post.platform, post.language)?.url, preferred.url, `${id}: route to first currently verified matching-language post`);
       else assert.notEqual(catalog.getSocialPost(place, post.platform, post.language)?.url, post.url, `${id}: unverified historical post stays hidden`);
     }
@@ -70,24 +70,19 @@ test("all canonical places use only the selected language post or matching chann
   const pages = {he:"61591964083308",en:"61595036942289",pl:"61595207664875",de:"61595239823399",cs:"61594716405964"};
   for (const place of Object.values(catalog.places)) for (const lang of Object.keys(pages)) for (const platform of ["facebook","instagram"]) {
     const result = catalog.getSocialPost(place, platform, lang);
-    const exact = place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && p.language === lang && !p.url.includes('/groups/'));
-    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && !p.language && !p.url.includes('/groups/'));
+    const exact = place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && p.language === lang && catalog.socialPostKind(p.url,platform)==="post-candidate" && !p.url.includes('/groups/'));
+    const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && !p.language && catalog.socialPostKind(p.url,platform)==="post-candidate" && !p.url.includes('/groups/'));
     if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
-    else if (place.links?.socialProfileFallback === false) assert.equal(result, null);
-    else {
-      assert.equal(result.language, lang);
-      assert.equal(result.context, "language-channel");
-      assert.equal(result.url, platform === "facebook" ? `https://www.facebook.com/profile.php?id=${pages[lang]}` : `https://www.instagram.com/wroclaw.lowersilesia${lang === 'en' ? '' : '.'+lang}/`);
-    }
+    else assert.equal(result,null,"no account fallback: "+place.id);
   }
 });
 
 test("new language posts take priority without leaking to another map language", () => {
   const catalog = loadCatalog();
-  const place = { socialPosts: [{platform:"facebook",url:"https://www.facebook.com/old/"},{platform:"facebook",language:"pl",url:"https://www.facebook.com/polish/"}] };
-  assert.equal(catalog.getSocialPost(place, "facebook", "pl").url, "https://www.facebook.com/polish/");
-  assert.equal(catalog.getSocialPost(place, "facebook", "he").url, "https://www.facebook.com/old/");
-  assert.match(catalog.getSocialPost(place, "facebook", "de").url, /61595239823399/);
+  const place = { socialPosts: [{platform:"facebook",url:"https://www.facebook.com/posts/old/"},{platform:"facebook",language:"pl",url:"https://www.facebook.com/posts/polish/"}] };
+  assert.equal(catalog.getSocialPost(place, "facebook", "pl").url, "https://www.facebook.com/posts/polish/");
+  assert.equal(catalog.getSocialPost(place, "facebook", "he").url, "https://www.facebook.com/posts/old/");
+  assert.equal(catalog.getSocialPost(place, "facebook", "de"),null);
 });
 
 
@@ -98,7 +93,7 @@ test("Hebrew maps exclude verified historical posts from the English Instagram a
     assert.ok(place.socialPosts.some(p => p.context === "historical-cross-account"));
     const verified = JSON.parse(readFileSync(resolve(root, "data/localized-social-posts.json"), "utf8"))[id]?.find(p => p.platform === "instagram" && p.language === "he");
     const result = catalog.getSocialPost(place, "instagram", "he");
-    assert.equal(result?.url ?? null, verified?.url || (place.links?.socialProfileFallback === false ? null : "https://www.instagram.com/wroclaw.lowersilesia.he/"));
+    assert.equal(result?.url ?? null, verified?.url || null);
     assert.ok(!place.socialPosts.some(p => p.context === "historical-cross-account" && p.url === result?.url));
   }
 });
@@ -115,9 +110,9 @@ test("reviewed unrelated legacy posts are retained without being selected for ex
   }
   const place = {socialPosts: [
     {platform: "facebook", language: "he", url: "https://www.facebook.com/wrong/", routingExcluded: true},
-    {platform: "facebook", language: "he", url: "https://www.facebook.com/exact/"}
+    {platform: "facebook", language: "he", url: "https://www.facebook.com/posts/exact/"}
   ]};
-  assert.equal(catalog.getSocialPost(place, "facebook", "he").url, "https://www.facebook.com/exact/");
+  assert.equal(catalog.getSocialPost(place, "facebook", "he").url, "https://www.facebook.com/posts/exact/");
 });
 
 
@@ -128,7 +123,7 @@ test("explicit English Instagram account paths never route from Hebrew maps", ()
     const place = catalog.getPlace(id);
     assert.ok(place.socialPosts.some(p => p.platform === "instagram" && p.url.startsWith("https://www.instagram.com/wroclaw.lowersilesia/")), id);
     const selected = catalog.getSocialPost(place, "instagram", "he");
-    if (!selected) assert.equal(place.links?.socialProfileFallback, false, id);
+    if (!selected) assert.equal(catalog.getSocialPostState(place,"instagram","he").post,null,id);
     else assert.ok(!selected.url.startsWith("https://www.instagram.com/wroclaw.lowersilesia/"), id);
   }
   const generic = {socialPosts: [{platform:"instagram",url:"https://www.instagram.com/p/unknown-owner/"}]};

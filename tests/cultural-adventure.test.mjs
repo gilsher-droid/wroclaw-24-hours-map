@@ -53,7 +53,7 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
   ]) {
     assert.ok(wuwaEstate.socialPosts.some(post => post.platform === platform && post.url === url), `${url} remains preserved alongside verified language posts`);
   }
-  const verifiedWuwaHebrew = localizedPosts["wuwa-estate"].find(post => post.language === "he" && post.platform === "facebook");
+  const verifiedWuwaHebrew = localizedPosts["wuwa-estate"].find(post => post.language === "he" && post.platform === "facebook" && window.WROC_CATALOG.socialPostKind(post.url,"facebook")==="post-candidate");
   assert.ok(verifiedWuwaHebrew);
   assert.equal(window.WROC_CATALOG.getSocialPost(wuwaEstate, "facebook", "he").url, verifiedWuwaHebrew.url);
   wuwaEstate.media.photos.forEach((photo) => assert.ok(existsSync(resolve(root, photo.replace(/^\//, ""))), `missing ${photo}`));
@@ -71,7 +71,7 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
   ]) {
     assert.ok(opera.socialPosts.some(post => post.platform === platform && post.url === url), `${url} remains preserved alongside verified language posts`);
   }
-  const verifiedOperaHebrewFacebook = localizedPosts.opera.find(post => post.language === "he" && post.platform === "facebook");
+  const verifiedOperaHebrewFacebook = localizedPosts.opera.find(post => post.language === "he" && post.platform === "facebook" && window.WROC_CATALOG.socialPostKind(post.url,"facebook")==="post-candidate");
   assert.ok(verifiedOperaHebrewFacebook);
   assert.equal(window.WROC_CATALOG.getSocialPost(opera, "facebook", "he").url, verifiedOperaHebrewFacebook.url);
   const nfm = window.WROC_CATALOG.getPlace("nfm");
@@ -81,7 +81,7 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
   ]) {
     assert.ok(nfm.socialPosts.some(post => post.platform === platform && post.url === url), `${url} remains available alongside verified language posts`);
   }
-  const verifiedNfmHebrewFacebook = localizedPosts.nfm.find(post => post.language === "he" && post.platform === "facebook");
+  const verifiedNfmHebrewFacebook = localizedPosts.nfm.find(post => post.language === "he" && post.platform === "facebook" && window.WROC_CATALOG.socialPostKind(post.url,"facebook")==="post-candidate");
   assert.ok(verifiedNfmHebrewFacebook);
   assert.equal(window.WROC_CATALOG.getSocialPost(nfm, "facebook", "he").url, verifiedNfmHebrewFacebook.url);
   const fourDomes = window.WROC_CATALOG.getPlace("four-domes");

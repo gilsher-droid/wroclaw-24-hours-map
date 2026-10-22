@@ -110,11 +110,10 @@
   const canonicalResources = (placeId, videoTitles = []) => {
     const place = window.WROC_CATALOG?.getPlace?.(placeId);
     if (!place) return {};
-    const facebookPost = place.socialPosts?.find((post) => post.platform === "facebook")?.url;
-    const instagramPost = place.socialPosts?.find((post) => post.platform === "instagram")?.url;
+
     return {
-      ...(facebookPost ? { facebook: facebookPost } : {}),
-      ...(instagramPost ? { instagram: instagramPost } : {}),
+      get facebook() { return window.WROC_CATALOG.getSocialPost(place, "facebook")?.url; },
+      get instagram() { return window.WROC_CATALOG.getSocialPost(place, "instagram")?.url; },
       ...(place.media?.photos?.length ? { gallery: place.media.photos } : {}),
       ...(place.media?.videos?.length ? {
         videos: place.media.videos.map((src, index) => ({
@@ -233,7 +232,7 @@
     for (const platform of ["facebook", "instagram"]) {
       const legacy = media[platform];
       Object.defineProperty(media, platform, { enumerable: true, configurable: true,
-        get: () => window.WROC_CATALOG?.getSocialPost?.(place, platform)?.url || (place.links?.socialProfileFallback === false ? undefined : legacy) });
+        get: () => window.WROC_CATALOG?.getSocialPost?.(place, platform)?.url });
     }
   }
   resources["mostek-pokutnic-wroclaw"] = canonicalResources("mostek-pokutnic-wroclaw");
@@ -262,3 +261,9 @@
 
 // All newly published visits, including video-only deltas, reach the actual map media adapters.
 (function(){for(const id of ["boleslawiec-old-town", "cathedral", "fc-caffe-kuznicza", "lwia-brama-restaurant-wroclaw", "most-tumski", "opera", "ostrow", "vega-bar-weganski-wroclaw", "wroclaw-puppet-theatre"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(p)window.WROC_LOCATION_MEDIA[id]={...(window.WROC_LOCATION_MEDIA[id]||{}),gallery:p.media.photos,videos:p.media.videos};}})();
+
+// Preserve historical source URLs for catalog generation, separately from public actions.
+window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(window.WROC_LOCATION_MEDIA).map(([id,media]) => [id, {facebook:media.facebook,instagram:media.instagram}]));
+
+// Place actions never reuse a raw account/profile URL from a legacy media adapter.
+(function(){for(const[id,media]of Object.entries(window.WROC_LOCATION_MEDIA)){for(const platform of["facebook","instagram"])Object.defineProperty(media,platform,{enumerable:true,configurable:true,get:()=>{const place=window.WROC_CATALOG?.getPlace?.(id);return place?window.WROC_CATALOG.getSocialPost(place,platform)?.url:undefined;}});}})();

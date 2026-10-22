@@ -10,7 +10,7 @@ test('verified original visual editions route each canonical point to its matchi
   const visual=rows.filter(p=>p.context?.startsWith('original-visual-'));
   assert.equal(visual.length,2,`${id} ${lang} ${platform}: one verified reel and one gallery`);
   assert.ok(visual.some(p=>p.context==='original-visual-gallery'));
-  const expected=visual.find(p=>p.context==='original-visual-reel')||visual[0];
+  const expected=visual.find(p=>p.context==='original-visual-gallery');
   const place=window.WROC_CATALOG.getPlace(id);
   assert.equal(window.WROC_CATALOG.getSocialPost(place,platform,lang).url,expected.url);
   for(const post of visual)assert.ok(place.socialPosts.some(p=>p.url===post.url&&p.language===lang&&p.platform===platform));

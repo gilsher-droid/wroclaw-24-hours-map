@@ -1,0 +1,35 @@
+  // Post actions never fall back to an account page. Stored URLs remain evidence.
+  const socialPostKind = (url, platform) => {
+    const value = String(url || '').trim();
+    if (!value) return 'missing';
+    if (platform === 'instagram') {
+      if (!/^https:\/\/(?:www\.)?instagram\.com\//i.test(value)) return 'unsupported';
+      if (/\/(?:reel|reels|stories)\//i.test(value)) return 'reel-or-story';
+      return /^https:\/\/(?:www\.)?instagram\.com\/(?:[^/?#]+\/)?p\/[A-Za-z0-9_-]+(?:[/?#]|$)/i.test(value) ? 'post-candidate' : 'generic';
+    }
+    if (platform === 'facebook') {
+      if (!/^https:\/\/(?:(?:www|m|web)\.)?facebook\.com\//i.test(value)) return 'unsupported';
+      if (/\/(?:reel|reels|stories|watch|videos)(?:[/?#]|$)/i.test(value)) return 'reel-or-story';
+      return /\/share\/p\/[^/?#]+/i.test(value)
+        || /\/(?:[^/?#]+\/)?posts\/[^/?#]+/i.test(value)
+        || /\/groups\/[^/?#]+\/(?:posts|permalink)\/[^/?#]+/i.test(value)
+        || /\/(?:permalink|story)\.php\?[^#]*\bstory_fbid=[^&#]+/i.test(value)
+        || /\/photo(?:\.php|\/)?\?[^#]*\bfbid=[^&#]+/i.test(value)
+        ? 'post-candidate' : 'generic';
+    }
+    return 'unsupported';
+  };
+  const getSocialPostState = (input, platform, lang = window.document?.documentElement?.lang || 'en') => {
+    const place = typeof input === 'string' ? getPlace(input) : input;
+    const language = ['he','en','pl','de','cs'].includes(lang) ? lang : 'en';
+    const rows = (place?.socialPosts || []).filter(post => post.platform === platform && (post.language || 'he') === language);
+    const eligible = rows.filter(post => !post.routingExcluded && post.context !== 'historical-cross-account'
+      && !String(post.url).includes('/groups/')
+      && !(language === 'he' && platform === 'instagram' && String(post.url).toLowerCase().startsWith('https://www.instagram.com/wroclaw.lowersilesia/')));
+    const post = eligible.find(post => socialPostKind(post.url, platform) === 'post-candidate');
+    if (post) return { state: 'valid-post-candidate', post };
+    if (!rows.length) return { state: 'canonical-missing', post: null };
+    if (!eligible.length) return { state: 'known-excluded', post: null };
+    return { state: eligible.some(post => socialPostKind(post.url, platform) === 'generic') ? 'generic' : 'non-post', post: null };
+  };
+  const getSocialPost = (place, platform, lang) => getSocialPostState(place, platform, lang).post;

@@ -52,14 +52,15 @@ test("WuWA café Lifestyle video modal resolves the verified Public YouTube clip
  assert.match(build,/scripts = await Promise.all\(\[.*"\/data\/youtube-video-hosting\.js"/);
 });
 
-test("WuWA Hebrew estate opens the verified guide reel while the café keeps its exact café photo post",()=>{
+test("WuWA estate post action selects a written gallery and preserves its verified guide reel separately",()=>{
  const window={};
  runInNewContext(readFileSync(resolve(root,"data/place-catalog.js"),"utf8"),{window});
  const estate=window.WROC_CATALOG.getPlace("wuwa-estate");
  const cafe=window.WROC_CATALOG.getPlace("wuwa");
- assert.equal(window.WROC_CATALOG.getSocialPost(estate,"instagram","he").url,"https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeZ-BsVkxcZ/");
+ assert.equal(window.WROC_CATALOG.getSocialPost(estate,"instagram","he").url,"https://www.instagram.com/p/DeZ-k-mD5D8/");
+ assert.ok(estate.socialPosts.some(p=>p.url==="https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeZ-BsVkxcZ/"));
  assert.equal(window.WROC_CATALOG.getSocialPost(cafe,"instagram","he").url,"https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUv_EEkU6W/");
- assert.equal(window.WROC_CATALOG.getSocialPost(estate,"facebook","en").url,"https://facebook.com/reel/1576033160437711/");
+ assert.equal(window.WROC_CATALOG.socialPostKind(window.WROC_CATALOG.getSocialPost(estate,"facebook","en").url,"facebook"),"post-candidate");
  assert.ok(window.WROC_CATALOG.getSocialPost(cafe,"facebook","en").url.includes("pfbid02HdjiayM8Wsxbz17y6gU7ThBTokKsUrckz5QK8D5n9mUPxtKPgDZ64TWidZFb6s7bl"));
  assert.ok(estate.socialPosts.some(p=>p.platform==="instagram"&&p.language==="en"&&p.url==="https://www.instagram.com/p/DeMbjvQjkfH/"));
 });
@@ -70,6 +71,6 @@ test("WuWA estate routes to verified new guide posts in Hebrew, English and Germ
  runInNewContext(readFileSync(resolve(root,"data/place-catalog.js"),"utf8"),{window});
  const estate=window.WROC_CATALOG.getPlace("wuwa-estate");
  const expected={he:{facebook:"https://facebook.com/reel/1110181551937977/",instagram:"https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeZ-BsVkxcZ/"},en:{facebook:"https://facebook.com/reel/1576033160437711/",instagram:"https://www.instagram.com/reel/DeaDhkLkaqN/"},de:{facebook:"https://facebook.com/reel/1660329539074425/",instagram:"https://www.instagram.com/reel/DeaDcfvk_aM/"}};
- for(const [lang,platforms] of Object.entries(expected))for(const [platform,url] of Object.entries(platforms))assert.equal(window.WROC_CATALOG.getSocialPost(estate,platform,lang).url,url);
+ for(const [lang,platforms] of Object.entries(expected))for(const [platform,url] of Object.entries(platforms)){assert.ok(estate.socialPosts.some(p=>p.url===url),"historic guide reel retained");const active=window.WROC_CATALOG.getSocialPost(estate,platform,lang);assert.notEqual(active?.url,url,"reel is not a written post action");assert.equal(window.WROC_CATALOG.socialPostKind(active.url,platform),"post-candidate");}
  assert.ok(estate.socialPosts.some(p=>p.url==="https://www.instagram.com/p/DeMbjvQjkfH/"));
 });
