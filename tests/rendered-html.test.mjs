@@ -264,7 +264,7 @@ test("island crossings and galleries use the corrected route and media", () => {
   assert.match(locations, /id: "most-piaskowy"[\s\S]*coordinates: \[51\.113559, 17\.039816\]/);
   assert.match(locations, /id: "wyspa-piasek"[\s\S]*coordinates: \[51\.11453, 17\.040199\]/);
   assert.match(locations, /id: "most-tumski"[\s\S]*coordinates: \[51\.114714, 17\.042248\]/);
-  assert.match(premiumRoute, /stop\("tumski-bridge",2,5,\[51\.114714,17\.042248\]/);
+  assert.match(premiumRoute, /canonicalStop\("most-tumski",2,5,/);
   assert.match(mosheRoute, /stop\("wyspa-piasek",2,6,\[51\.11453,17\.040199\]/);
 });
 

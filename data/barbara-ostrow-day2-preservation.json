@@ -1,0 +1,3792 @@
+{
+  "baseSHA": "e368e83caff19d1858b73d45e01b6b034e6f0328",
+  "authorizedIds": [
+    "barbara-wroclaw",
+    "cathedral",
+    "kawiarenka-sw-jadwigi",
+    "lwia-brama-restaurant-wroclaw",
+    "most-tumski",
+    "ostrow",
+    "piastowska-pieczec-wroclaw",
+    "st-martin-church-wroclaw",
+    "the-bridge",
+    "wroclaw-botanical-garden"
+  ],
+  "places": {
+    "barbara-wroclaw": {
+      "id": "barbara-wroclaw",
+      "localName": "Barbara",
+      "name": {
+        "he": "ברברה, מרכז תרבות ובית קפה",
+        "en": "Barbara Cultural Centre and Café",
+        "pl": "Barbara, przestrzeń kultury i kawiarnia",
+        "de": "Barbara, Kulturzentrum und Café",
+        "cs": "Barbara, kulturní centrum a kavárna"
+      },
+      "description": {
+        "he": "מרכז התרבות ובית הקפה ברברה שוכנים ברחוב שווידניצקה, במבנה מודרניסטי עם חלונות רחבים ועמודי פסיפס בשחור ולבן. המקום משמש את מכון התרבות של ורוצלב ומציע מפגשים, הרצאות, סדנאות, מרחב קריאה ובית קפה. שמו משמר את זכרו של בר ברברה שפעל כאן משנות השישים עד שנות התשעים ונקשר גם לפעילות האלטרנטיבה הכתומה. תמונות הביקור שלנו מציגות את השלט, החזית, חללי התצוגה ופרטים מההיסטוריה המקומית. בדקו באתר הרשמי את לוח האירועים ואת פרטי הביקור.\nBarbara\nŚwidnicka 8B, Wrocław",
+        "en": "Barbara combines a cultural venue, reading space and café on Świdnicka Street. Its modernist interior features large windows and black-and-white mosaic columns. Run by the Wrocław Institute of Culture, it hosts meetings, talks and workshops. The name recalls the former Bar Barbara, active here from the 1960s to the 1990s and associated with the Orange Alternative. Our visit photographs show the sign, frontage, exhibition spaces and local-history details. Check the official programme and visitor information before coming.\nŚwidnicka 8B, Wrocław",
+        "pl": "Barbara przy ulicy Świdnickiej łączy przestrzeń kultury, czytelnię i kawiarnię. Modernistyczne wnętrze wyróżniają duże witryny i czarno-białe kolumny mozaikowe. Wrocławski Instytut Kultury organizuje tu spotkania, wykłady i warsztaty. Nazwa przypomina dawny bar Barbara, działający od lat 60. do 90. i związany również z Pomarańczową Alternatywą. Nasze zdjęcia pokazują neon, fasadę, przestrzeń wystawową i detale lokalnej historii. Przed wizytą sprawdź oficjalny program i informacje dla gości.\nŚwidnicka 8B, Wrocław",
+        "de": "Barbara verbindet einen Kulturort, einen Lesebereich und ein Café an der Świdnicka-Straße. Große Fenster und schwarz-weiße Mosaiksäulen prägen den modernistischen Innenraum. Das Breslauer Kulturinstitut veranstaltet hier Gespräche, Vorträge und Workshops. Der Name erinnert an die ehemalige Bar Barbara, die hier von den 1960er- bis in die 1990er-Jahre bestand und auch mit der Orangen Alternative verbunden war. Unsere Besuchsfotos zeigen das Schild, die Fassade, Ausstellungsräume und Details zur Ortsgeschichte. Aktuelles Programm und Besuchsinformationen stehen auf der offiziellen Website.\nŚwidnicka 8B, Wrocław",
+        "cs": "Barbara v ulici Świdnicka spojuje kulturní prostor, čítárnu a kavárnu. Modernistický interiér charakterizují velká okna a černobílé mozaikové sloupy. Vratislavský kulturní institut zde pořádá setkání, přednášky a dílny. Název připomíná někdejší bar Barbara, který zde fungoval od 60. do 90. let a byl spojen také s Oranžovou alternativou. Naše fotografie ukazují neon, průčelí, výstavní prostory a detaily místní historie. Před návštěvou ověřte oficiální program a informace pro návštěvníky.\nŚwidnicka 8B, Wrocław"
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.10769750953518,
+          "lng": 17.032835136772945
+        },
+        "address": {
+          "street": "Świdnicka 8B",
+          "postalCode": "50-067",
+          "city": "Wrocław",
+          "country": "Poland"
+        }
+      },
+      "categories": [
+        "architecture",
+        "cafe",
+        "culture"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "bar-barbara",
+        "barbara",
+        "barbara-infopunkt",
+        "wroclawski-instytut-kultury"
+      ],
+      "sourceRecords": [],
+      "coordinateCandidates": [],
+      "status": "published",
+      "editorialPriority": "normal",
+      "taxonomy": {
+        "categories": [
+          "architecture",
+          "cafe",
+          "culture"
+        ],
+        "tags": [
+          "art-contemporary",
+          "architecture-design"
+        ]
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://instytutkultury.pl/barbara/",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10769750953518%2C17.032835136772945",
+          "appleMaps": "https://maps.apple.com/?ll=51.10769750953518,17.032835136772945&q=Barbara"
+        },
+        "socialProfileFallback": false
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "contentType": "official-place-and-original-visit-photo-audit",
+        "factualSources": [
+          {
+            "type": "official",
+            "url": "https://instytutkultury.pl/barbara/",
+            "checkedAt": "2026-10-20"
+          },
+          {
+            "type": "official-city-map",
+            "url": "https://geoportal.wroclaw.pl/poi/poi/11427",
+            "checkedAt": "2026-10-20",
+            "coordinates": "EPSG2177 point6432270.460180425,5664075.808236006 converted toEPSG4326 withArcGIS GeometryServer"
+          }
+        ],
+        "mediaSource": "data/barbara-media-provenance.json",
+        "familyException": false,
+        "visitVideoPublication": "data/barbara-visit-publication-receipt.json"
+      },
+      "media": {
+        "thumbnail": "/assets/barbara-wroclaw-entrance.jpg",
+        "photos": [
+          "/assets/barbara-wroclaw-entrance.jpg",
+          "/assets/barbara-wroclaw-neon-detail.jpg",
+          "/assets/barbara-wroclaw-street-context.jpg",
+          "/assets/barbara-wroclaw-exhibition-poster.jpg",
+          "/assets/barbara-wroclaw-historic-menu-detail.jpg",
+          "/assets/barbara-wroclaw-exhibition-room.jpg",
+          "/assets/barbara-wroclaw-mosaic-column.jpg"
+        ],
+        "videos": [
+          "https://youtube.com/shorts/lX2mxhtVMi8",
+          "https://youtube.com/shorts/w_vNteiYq4o",
+          "https://youtube.com/shorts/QGne7T7L6og"
+        ],
+        "metadata": {
+          "/assets/barbara-wroclaw-neon-detail.jpg": {
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-10-20 at 12.15.47.jpeg",
+            "sourceSHA256": "eeadf818e2240e6ce4d81eda30ae21da969123e2c1a78d3a49c85b77e414f580",
+            "assetSHA256": "e0102950f115b3d7cf2bd39df664144e2129be9136aa459deb8d6caf2c975b61",
+            "familyForeground": false,
+            "heroCandidate": false,
+            "alt": {
+              "he": "תקריב של שלט הניאון של ברברה",
+              "en": "Close view of Barbara’s neon sign",
+              "pl": "Zbliżenie neonu Barbary",
+              "de": "Nahaufnahme des Barbara-Neonschilds",
+              "cs": "Detail neonového nápisu Barbara"
+            },
+            "tags": [
+              "barbara",
+              "neon-detail"
+            ]
+          },
+          "/assets/barbara-wroclaw-street-context.jpg": {
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.10 (1).jpeg",
+            "sourceSHA256": "ee9759e931d2a572dc852eb4779f3fd2fd7ed995e0c5c05daeee2118a015c8a4",
+            "assetSHA256": "2f0863fbbe9ad1cc6243f45603933e2b4f16dae8ab132c44bc7c4a7239862554",
+            "familyForeground": false,
+            "heroCandidate": false,
+            "alt": {
+              "he": "רחוב שווידניצקה והדגלים מול ברברה",
+              "en": "Świdnicka Street and flags outside Barbara",
+              "pl": "Ulica Świdnicka i flagi przed Barbarą",
+              "de": "Świdnicka-Straße und Fahnen vor Barbara",
+              "cs": "Ulice Świdnicka a vlajky před Barbarou"
+            },
+            "tags": [
+              "barbara",
+              "street-context"
+            ]
+          },
+          "/assets/barbara-wroclaw-entrance.jpg": {
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.10.jpeg",
+            "sourceSHA256": "c6dcdf3c84fe4689879bb79d9371f012f6e1156fc11200e91e8fc1eba9139829",
+            "assetSHA256": "70c29e239ae0e190777d75e327cd9524cee3f41c2e20e9e3a3a07de29ce5387c",
+            "familyForeground": false,
+            "heroCandidate": true,
+            "alt": {
+              "he": "החזית והשלט בכניסה למרכז התרבות ברברה",
+              "en": "Facade and sign at the Barbara cultural centre entrance",
+              "pl": "Fasada i szyld przy wejściu do Barbary",
+              "de": "Fassade und Schild am Eingang des Kulturzentrums Barbara",
+              "cs": "Průčelí a nápis u vstupu do kulturního centra Barbara"
+            },
+            "tags": [
+              "barbara",
+              "entrance"
+            ]
+          },
+          "/assets/barbara-wroclaw-exhibition-poster.jpg": {
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.11.jpeg",
+            "sourceSHA256": "ac1a8c9dfe8f78cb45d862c4e3b1fbce4b4418b7518d3f17010c8e541aa81035",
+            "assetSHA256": "3f681368af39a35ec11ebfa464d6029a8510a0435691674dacd9b33e1f5396ee",
+            "familyForeground": false,
+            "heroCandidate": false,
+            "alt": {
+              "he": "כרזת התערוכה בחלל הפנימי של ברברה",
+              "en": "Exhibition poster inside Barbara",
+              "pl": "Plakat wystawy we wnętrzu Barbary",
+              "de": "Ausstellungsplakat im Innenraum von Barbara",
+              "cs": "Plakát výstavy v interiéru Barbary"
+            },
+            "tags": [
+              "barbara",
+              "exhibition-poster"
+            ]
+          },
+          "/assets/barbara-wroclaw-historic-menu-detail.jpg": {
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.13.jpeg",
+            "sourceSHA256": "97399204c7417018906b6d0e662404314129532ff965a7f37b7861547a3e175a",
+            "assetSHA256": "959588c5652f19b884a82101124de0d378f9db3de0901e9d09396172ed24e3f7",
+            "familyForeground": false,
+            "heroCandidate": false,
+            "alt": {
+              "he": "פרט מתצוגת ההיסטוריה של בר ברברה",
+              "en": "Detail of the display about the former Bar Barbara",
+              "pl": "Fragment ekspozycji o dawnym barze Barbara",
+              "de": "Detail der Ausstellung über die ehemalige Bar Barbara",
+              "cs": "Detail expozice o někdejším baru Barbara"
+            },
+            "tags": [
+              "barbara",
+              "historic-menu-detail"
+            ]
+          },
+          "/assets/barbara-wroclaw-exhibition-room.jpg": {
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.14.jpeg",
+            "sourceSHA256": "888bfe42f62623b596b576027d8692294c6b39d24ae7a944c87ef4ce4f266be2",
+            "assetSHA256": "fca98a48d85910201940844e521d4d142e29c45dda14fae981132f28d37efb4a",
+            "familyForeground": false,
+            "heroCandidate": false,
+            "alt": {
+              "he": "חלל התערוכה והישיבה של ברברה",
+              "en": "Exhibition and seating space at Barbara",
+              "pl": "Przestrzeń wystawowa i miejsca do siedzenia w Barbarze",
+              "de": "Ausstellungsbereich und Sitzplätze in Barbara",
+              "cs": "Výstavní a odpočinkový prostor v Barbaře"
+            },
+            "tags": [
+              "barbara",
+              "exhibition-room"
+            ]
+          },
+          "/assets/barbara-wroclaw-mosaic-column.jpg": {
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-10-20 at 12.28.15.jpeg",
+            "sourceSHA256": "eec0d4b27d81e1ecf838b662e92a8d5aab7579ebf4ebb79d6bb5f12b4e1e40fa",
+            "assetSHA256": "f0eafc63f70c901b326119e5b76a72a2d36d45d047998ce90556d75e8d44f9f9",
+            "familyForeground": false,
+            "heroCandidate": false,
+            "alt": {
+              "he": "עמוד הפסיפס בשחור ולבן בתוך ברברה",
+              "en": "Black-and-white mosaic column inside Barbara",
+              "pl": "Czarno-biała kolumna mozaikowa w Barbarze",
+              "de": "Schwarz-weiße Mosaiksäule in Barbara",
+              "cs": "Černobílý mozaikový sloup v Barbaře"
+            },
+            "tags": [
+              "barbara",
+              "mosaic-column"
+            ]
+          },
+          "https://youtube.com/shorts/lX2mxhtVMi8": {
+            "original": true,
+            "sourceFile": "WhatsApp Video 2026-10-20 at 13.04.23.mp4",
+            "sourceSHA256": "2987abfd3fe1709bf7be75f32e0a4ea583b51e503ec1fec587b3755e5696f08b",
+            "uploadSHA256": "5ec439d49adecef0a2bd4e96ff3545b3cba01e8c446c845b635b19911e388032",
+            "durationSeconds": 15.4,
+            "audio": "removed in publication derivative",
+            "visibility": "Public",
+            "savedPublicVerified": true,
+            "checks": "No issues found",
+            "familyForeground": false,
+            "alt": {
+              "he": "סרטון ביקור בכניסה ובחלל התרבות של ברברה",
+              "en": "Visit clip of Barbara’s entrance and cultural space",
+              "pl": "Film z wejścia i przestrzeni kulturalnej Barbary",
+              "de": "Besuchsclip vom Eingang und Kulturraum von Barbara",
+              "cs": "Záběry vstupu a kulturního prostoru Barbary"
+            }
+          },
+          "https://youtube.com/shorts/w_vNteiYq4o": {
+            "original": true,
+            "sourceFile": "WhatsApp Video 2026-10-20 at 13.04.30.mp4",
+            "sourceSHA256": "b1a3dad39016d7c316948a0486d1fb8a5f5c311e7c68d5ce7fa4cb36f4e673b9",
+            "uploadSHA256": "bf8ee209bf584a2fdd2400c82a2ad5fae2dcbcbfc38fe9ab382aaa3c4a6afdf2",
+            "durationSeconds": 5.8,
+            "audio": "removed in publication derivative",
+            "visibility": "Public",
+            "savedPublicVerified": true,
+            "checks": "No issues found",
+            "familyForeground": false,
+            "alt": {
+              "he": "סרטון ביקור בלוח התרבות של ברברה",
+              "en": "Visit clip of Barbara’s cultural noticeboard",
+              "pl": "Film z tablicy wydarzeń kulturalnych w Barbarze",
+              "de": "Besuchsclip der Kulturankündigungen in Barbara",
+              "cs": "Záběry kulturní nástěnky v Barbaře"
+            }
+          },
+          "https://youtube.com/shorts/QGne7T7L6og": {
+            "original": true,
+            "sourceFile": "WhatsApp Video 2026-10-20 at 13.04.42.mp4",
+            "sourceSHA256": "66b114ac1dc5f8fb130c5751f70e7966b0a8e8f5d55a856e034222681cdf4383",
+            "uploadSHA256": "90970e1baad4b318946871333f019d85104b2e8a2af6d07d8fc1470e0ff127cb",
+            "durationSeconds": 9.066667,
+            "audio": "removed in publication derivative",
+            "visibility": "Public",
+            "savedPublicVerified": true,
+            "checks": "No issues found",
+            "familyForeground": false,
+            "alt": {
+              "he": "סרטון ביקור בלוח המודעות ובחלל הפנימי של ברברה",
+              "en": "Visit clip of Barbara’s noticeboard and interior",
+              "pl": "Film z tablicy ogłoszeń i wnętrza Barbary",
+              "de": "Besuchsclip von Aushängen und Innenraum in Barbara",
+              "cs": "Záběry nástěnky a interiéru Barbary"
+            }
+          }
+        }
+      },
+      "socialPosts": []
+    },
+    "cathedral": {
+      "id": "cathedral",
+      "localName": "Archikatedra św. Jana Chrzciciela",
+      "name": {
+        "he": "קתדרלת יוחנן המטביל",
+        "en": "Cathedral of St John the Baptist",
+        "pl": "Archikatedra św. Jana Chrzciciela",
+        "de": "Kathedrale St. Johannes der Täufer",
+        "cs": "Katedrála svatého Jana Křtitele"
+      },
+      "description": {
+        "he": "הקתדרלה המרכזית של אוסטרוב טומסקי ואחת התחנות המרשימות בעיר.",
+        "en": "The principal cathedral of Ostrów Tumski and one of the city’s most striking landmarks.",
+        "pl": "Główna katedra Ostrowa Tumskiego i jeden z najbardziej imponujących zabytków miasta.",
+        "de": "Die Hauptkathedrale von Ostrów Tumski und eines der markantesten Wahrzeichen der Stadt.",
+        "cs": "Hlavní katedrála Ostrów Tumski a jedna z nejpozoruhodnějších památek města."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.11422,
+          "lng": 17.04663
+        }
+      },
+      "categories": [
+        "architecture"
+      ],
+      "sourceUrls": [],
+      "aliases": [],
+      "sourceRecords": [
+        {
+          "productId": "wroclaw-24-hours",
+          "kind": "route-stop",
+          "sourceId": "cathedral"
+        },
+        {
+          "productId": "wroclaw-four-days",
+          "kind": "route-stop",
+          "sourceId": "cathedral"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "wroclaw-24-hours",
+          "sourceId": "cathedral",
+          "lat": 51.11422,
+          "lng": 17.04663
+        },
+        {
+          "productId": "wroclaw-four-days",
+          "sourceId": "cathedral",
+          "lat": 51.11415,
+          "lng": 17.04663
+        }
+      ],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "architecture"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": null,
+        "navigation": {
+          "googleMaps": null,
+          "appleMaps": null
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "run4GuidePublication": {
+          "receipt": "outputs/cathedral-video-guides-2026-10-21/youtube-publication-receipt.json",
+          "publicReopened": true,
+          "checksNoIssues": true,
+          "originalFullPictureAndAudioPreserved": true,
+          "nativeCaptions": [
+            {
+              "language": "he",
+              "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-he.srt",
+              "cues": 23,
+              "sha256": "7fe72b16e0a5041fc335113ed05997040b1b66d9848aa6bafabaa1a767f303fd",
+              "videoId": "rIIVnc_dzN4",
+              "published": true,
+              "reopened": true,
+              "evidence": "he-captions-reopened.txt"
+            },
+            {
+              "language": "en",
+              "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-en.srt",
+              "cues": 22,
+              "sha256": "e6e3511b09fc05103e5c3c24a217c0733a90c85cbd7a17894ffda744b67fb775",
+              "videoId": "ULG-y1kQgWM",
+              "published": true,
+              "reopened": true,
+              "evidence": "en-captions-reopened.txt"
+            },
+            {
+              "language": "de",
+              "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-de.srt",
+              "cues": 22,
+              "sha256": "82f7cee9e44beaea42650d8ce96649a7ebae085a445d1f8b82792310d3076c24",
+              "videoId": "ULG-y1kQgWM",
+              "published": true,
+              "reopened": true,
+              "evidence": "de-captions-reopened.txt"
+            },
+            {
+              "language": "pl",
+              "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-pl.srt",
+              "cues": 22,
+              "sha256": "66779eeff16439e962d0f5c9a0c09b2cd49ae13f3df0fd55261a1d1b7bab8ec9",
+              "videoId": "ULG-y1kQgWM",
+              "published": true,
+              "reopened": true,
+              "evidence": "pl-captions-reopened.txt"
+            },
+            {
+              "language": "cs",
+              "path": "outputs/cathedral-video-guides-2026-10-21/caption-package/cathedral-cs.srt",
+              "cues": 22,
+              "sha256": "0452f4899d52fcb67c058ecb97582607f3bd357946e193b4c2e41c062e11292c",
+              "videoId": "ULG-y1kQgWM",
+              "published": true,
+              "reopened": true,
+              "evidence": "cs-captions-reopened.txt"
+            }
+          ],
+          "approvalCall": "call_94b51d2e9e6b4090a0f3e5266c18bd43"
+        }
+      },
+      "media": {
+        "photos": [
+          "/assets/gallery-cathedral-01.jpg",
+          "/assets/today-source-refresh-20261021/run4-106-cathedral.jpg",
+          "/assets/today-source-refresh-20261021/run4-108-cathedral.jpg"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=6hP8rHe3MLE",
+          "https://www.youtube.com/watch?v=eegtceD9xiE"
+        ],
+        "guideVideos": {
+          "he": "https://www.youtube.com/watch?v=rIIVnc_dzN4",
+          "en": "https://www.youtube.com/watch?v=ULG-y1kQgWM"
+        },
+        "metadata": {
+          "/assets/today-source-refresh-20261021/run4-106-cathedral.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Image 2026-10-21 at 21.34.41 (1).jpeg",
+            "sourceSHA256": "1a7a7ecbb2b97270ebd9af1118e2b04a7bbd94c71313af3f4a0be660624885dd",
+            "assetSHA256": "92856630c49139850f874bd523952f8d9719ad87b865f159a1c4dbfb213190a8",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "פרט פיסולי בחזית קתדרלת יוחנן המטביל",
+              "en": "Sculptural detail on St John the Baptist Cathedral",
+              "pl": "Detal rzeźbiarski archikatedry św. Jana Chrzciciela",
+              "de": "Skulpturendetail am Dom St. Johannes der Täufer",
+              "cs": "Sochařský detail katedrály svatého Jana Křtitele"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-108-cathedral.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Image 2026-10-21 at 21.34.45 (8).jpeg",
+            "sourceSHA256": "daaed391c6a016d138027cd25d1c53b538fd7c37760f05181d94ac8f4ea9d2ca",
+            "assetSHA256": "3ae9a60a3cd379dacba52f7f8876196a5aa6a723d405c3d51ed16943dad699d5",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "מגדלי קתדרלת יוחנן המטביל באור יום",
+              "en": "St John the Baptist Cathedral towers in daylight",
+              "pl": "Wieże archikatedry św. Jana Chrzciciela w świetle dziennym",
+              "de": "Türme des Doms St. Johannes der Täufer bei Tageslicht",
+              "cs": "Věže katedrály svatého Jana Křtitele za denního světla"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "https://www.youtube.com/watch?v=6hP8rHe3MLE": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 20.49.02 (14).mp4",
+            "sourceSHA256": "cc07a60a1722252713212921423eb355e6f5f9ced14438c63f0fc034a45213a0",
+            "uploadSHA256": "de0b5d2d9f42850300bd01075c1657af8d74605dacd572d4e470bb0b2e732867",
+            "durationSeconds": 7.633333,
+            "originalFullPicturePreserved": true,
+            "familyForeground": false,
+            "familyExceptionApplied": false,
+            "status": "public",
+            "visibility": "Public",
+            "reopenedPublicVerified": true,
+            "sdProcessingComplete": true,
+            "copyright": "No issues found",
+            "communityGuidelines": "No issues found",
+            "title": {
+              "he": "חזית קתדרלת יוחנן המטביל",
+              "en": "St John the Baptist Cathedral frontage",
+              "pl": "Fasada katedry św. Jana Chrzciciela",
+              "de": "Fassade der Kathedrale Johannes des Täufers",
+              "cs": "Průčelí katedrály svatého Jana Křtitele"
+            },
+            "original": true,
+            "tags": [
+              "visit"
+            ],
+            "sourceRefreshRun": "2026-10-21-run4",
+            "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+            "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-101-public-reopened.txt",
+            "silent": true,
+            "audioRemoved": true,
+            "verifiedAt": "2026-10-21T20:46:33.371Z",
+            "savedPublicVerified": true,
+            "reopenedVerified": true,
+            "originalFullPictureAndDurationPreserved": true
+          },
+          "https://www.youtube.com/watch?v=eegtceD9xiE": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/כנסיית יוחנן המטביל באי הקצרדלות/WhatsApp Video 2026-10-21 at 21.34.50.mp4",
+            "sourceSHA256": "65c3a12256a6ce98cd677ca3cb181489e32f7ea9b1465c8967e0175b4be9e2d2",
+            "uploadSHA256": "8b14f23ea6c1aa37bc78a7aa907be04f23391bf04a481d96d8563d79121288ee",
+            "durationSeconds": 8.633333,
+            "originalFullPicturePreserved": true,
+            "familyForeground": false,
+            "familyExceptionApplied": false,
+            "status": "public",
+            "visibility": "Public",
+            "reopenedPublicVerified": true,
+            "sdProcessingComplete": true,
+            "copyright": "No issues found",
+            "communityGuidelines": "No issues found",
+            "title": {
+              "he": "שער הקתדרלה וסביבתו",
+              "en": "Cathedral portal and surroundings",
+              "pl": "Portal katedry i otoczenie",
+              "de": "Domportal und Umgebung",
+              "cs": "Portál katedrály a okolí"
+            },
+            "original": true,
+            "tags": [
+              "visit"
+            ],
+            "sourceRefreshRun": "2026-10-21-run4",
+            "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+            "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-109-public-reopened.txt",
+            "silent": true,
+            "audioRemoved": true,
+            "verifiedAt": "2026-10-21T20:46:35.774Z",
+            "savedPublicVerified": true,
+            "reopenedVerified": true,
+            "originalFullPictureAndDurationPreserved": true
+          }
+        }
+      },
+      "socialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0QfRGdX2siMR2Ze8iJx29UYY9bHhFBEjt8w8gboxqujFLij7KTqUsqp43ryQQKzLNl&id=61595207664875",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeKpNFBEW2p/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0r2hQLdBYsHvtsE7y9A18avz3p6vmQW8jSJEqXW8PMEsHFQ2gWNj75mMf8QNBnYzol&id=61595239823399",
+          "verifiedAt": "2026-10-06T23:05:07.778906+00:00"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeK64dsG1La/",
+          "verifiedAt": "2026-10-06T23:05:07.778906+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PZe5dvdPhrSH6ZceALziU4G35mQ2kQNtUkzf2PvQvHsPhXYnL6nDxtpUpS7bNtTyl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XyvAgq9b1ecuZ4JMJjHAzNHESaFc7gK6nYnL4ZNMCjHpLRUyHgT5iZC6EyaSaPUgl&id=61594716405964",
+          "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeLr3hFHJ_u/",
+          "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeMiaFcD4ML/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02GxkSMrYgvr6moDMfqPzfAMmpquJ1LK1CSzJrTxgYbgxsgHB2JH6nBEWJm4MLCPcKl&id=61591964083308",
+          "verifiedAt": "2026-10-09T08:45:24.685Z"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/61591964083308/posts/122109921771398802/"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/p/DbgE00LnOKH/",
+          "routingExcluded": true
+        }
+      ]
+    },
+    "kawiarenka-sw-jadwigi": {
+      "id": "kawiarenka-sw-jadwigi",
+      "localName": "Kawiarenka św. Jadwigi",
+      "name": {
+        "he": "בית הקפה הדוויגה הקדושה",
+        "en": "St Hedwig’s Café",
+        "pl": "Kawiarenka św. Jadwigi",
+        "de": "Café der heiligen Hedwig",
+        "cs": "Kavárna svaté Hedviky"
+      },
+      "description": {
+        "he": "בית קפה במתחם נוטרדאם שבאוסטרוב טומסקי, עם קפה ועוגות הנאפות במקום. בתמונות הביקור שלנו נראים חדרי לבנים מקומרים, ריהוט עץ וגן עם ערוגות ושולחנות תחת שמשיות. מתאים להפסקת קפה בין הסיורים באזור הקתדרלה. בית הקפה הוא יעד נפרד מהמנזר ומהאתר הארכאולוגי שבמתחם. בדקו ישירות שעות פתיחה וגישה לגן לפני ההגעה.\nKawiarenka św. Jadwigi\nDom Notre Dame\nul. św. Marcina 12, Wrocław",
+        "en": "A café at Dom Notre Dame on Ostrów Tumski, serving coffee and cakes baked on site. Our visit photographs show brick-vaulted rooms, wooden furniture and a garden with planted beds and tables under parasols. A useful coffee break while exploring the cathedral quarter. The café is a separate destination from the monastery and the archaeological site in the complex. Check opening hours and garden access directly before visiting. Address: ul. św. Marcina 12, Wrocław.",
+        "pl": "Kawiarenka w Domu Notre Dame na Ostrowie Tumskim, z kawą i ciastami wypiekanymi na miejscu. Nasze zdjęcia z wizyty pokazują ceglane sklepienia, drewniane meble oraz ogród z rabatami i stolikami pod parasolami. To propozycja przerwy na kawę podczas spaceru po okolicy katedry. Kawiarnia jest odrębnym celem od klasztoru i stanowiska archeologicznego w kompleksie. Przed przyjazdem sprawdź bezpośrednio godziny otwarcia i dostęp do ogrodu. Adres: ul. św. Marcina 12, Wrocław.",
+        "de": "Ein Café im Dom Notre Dame auf Ostrów Tumski mit Kaffee und vor Ort gebackenen Kuchen. Unsere Besuchsfotos zeigen Räume mit Backsteingewölben, Holzmöbel und einen Garten mit Beeten und Tischen unter Sonnenschirmen. Eine Kaffeepause beim Rundgang durch das Domviertel. Das Café ist ein eigenständiges Ziel neben dem Kloster und der archäologischen Stätte im Komplex. Öffnungszeiten und Gartenzugang vor dem Besuch direkt erfragen. Adresse: ul. św. Marcina 12, Wrocław.",
+        "cs": "Kavárna v Domě Notre Dame na Ostrově Tumski s kávou a moučníky pečenými přímo na místě. Naše fotografie z návštěvy zachycují místnosti s cihlovými klenbami, dřevěný nábytek a zahradu se záhony a stolky pod slunečníky. Tip na přestávku na kávu při procházce kolem katedrály. Kavárna je samostatným cílem vedle kláštera a archeologického areálu v komplexu. Před návštěvou si přímo ověřte otevírací dobu a přístup do zahrady. Adresa: ul. św. Marcina 12, Wrocław."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.1160449,
+          "lng": 17.0433953
+        },
+        "address": {
+          "street": "ul. św. Marcina 12",
+          "postalCode": "50-327",
+          "city": "Wrocław",
+          "country": "Poland"
+        }
+      },
+      "categories": [
+        "cafe",
+        "coffee",
+        "dessert",
+        "drink",
+        "eat"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "kawiarenka-jadwigi",
+        "kawiarenka-sw-jadwigi-wroclaw",
+        "st-hedwigs-cafe",
+        "בית קפה במנזר"
+      ],
+      "sourceRecords": [
+        {
+          "productId": "lifestyle-guide",
+          "kind": "catalog-place",
+          "sourceId": "kawiarenka-sw-jadwigi"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "lifestyle-guide",
+          "sourceId": "kawiarenka-sw-jadwigi",
+          "lat": 51.1160449,
+          "lng": 17.0433953
+        }
+      ],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "cafe",
+          "coffee",
+          "dessert",
+          "drink",
+          "eat"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://www.ndwroclaw.com/kawiarnia",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1160449%2C17.0433953",
+          "appleMaps": "https://maps.apple.com/?ll=51.1160449,17.0433953&q=Kawiarenka%20%C5%9Bw.%20Jadwigi"
+        },
+        "socialProfileFallback": false
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "factualSources": [
+          {
+            "type": "official",
+            "url": "https://www.ndwroclaw.com/kawiarnia",
+            "checkedAt": "2026-10-18",
+            "note": "Official café name, coffee, on-site baking and garden; visually compared official garden photographs with original visit media."
+          },
+          {
+            "type": "official",
+            "url": "https://www.ndwroclaw.com/kontakt",
+            "checkedAt": "2026-10-18",
+            "note": "Official address and reservation contacts."
+          }
+        ],
+        "coordinateVerification": {
+          "sourceUrl": "https://www.openstreetmap.org/node/13749056601",
+          "checkedAt": "2026-10-18",
+          "note": "OSM café POI matches exact name and official street address; separate from monastery and church."
+        },
+        "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר",
+        "personalMediaPermission": false
+      },
+      "media": {
+        "thumbnail": "/assets/food-cafes/jadwigi-cafe-thumbnail.jpg",
+        "photos": [
+          "/assets/food-cafes/jadwigi-cafe-01.jpg",
+          "/assets/food-cafes/jadwigi-cafe-02.jpg",
+          "/assets/food-cafes/jadwigi-cafe-03.jpg",
+          "/assets/food-cafes/jadwigi-cafe-04.jpg",
+          "/assets/food-cafes/jadwigi-cafe-05.jpg",
+          "/assets/food-cafes/jadwigi-cafe-07.jpg",
+          "/assets/food-cafes/jadwigi-cafe-08.jpg",
+          "/assets/today-source-refresh-20261021/run4-137-kawiarenka-sw-jadwigi.jpg",
+          "/assets/today-source-refresh-20261021/run4-142-kawiarenka-sw-jadwigi.jpg",
+          "/assets/today-source-refresh-20261021/run4-143-kawiarenka-sw-jadwigi.jpg",
+          "/assets/today-source-refresh-20261021/run4-144-kawiarenka-sw-jadwigi.jpg",
+          "/assets/today-source-refresh-20261021/run4-020-kawiarenka-sw-jadwigi.jpg",
+          "/assets/today-source-refresh-20261021/run4-036-kawiarenka-sw-jadwigi.jpg"
+        ],
+        "videos": [
+          "/assets/food-cafes/jadwigi-visit-01.mp4",
+          "/assets/food-cafes/jadwigi-visit-02.mp4",
+          "/assets/food-cafes/jadwigi-visit-03.mp4",
+          "/assets/food-cafes/jadwigi-visit-04.mp4",
+          "/assets/food-cafes/jadwigi-visit-05.mp4",
+          "/assets/food-cafes/jadwigi-visit-06.mp4",
+          "/assets/food-cafes/jadwigi-visit-07.mp4",
+          "/assets/food-cafes/jadwigi-visit-08.mp4",
+          "/assets/food-cafes/jadwigi-visit-09.mp4"
+        ],
+        "metadata": {
+          "/assets/food-cafes/jadwigi-cafe-01.jpg": {
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.20.59.jpeg",
+            "sourceSHA256": "4f2b3b92bbb91047a31f9b7a2171fe6d02db86c54ea57600ba3e6e859cecbc6f",
+            "reviewedAt": "2026-10-18",
+            "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+            "alt": {
+              "he": "גן בית הקפה והשמשיות לצד מבני המתחם",
+              "en": "Café garden and parasols beside the buildings",
+              "pl": "Ogród kawiarni i parasole przy budynkach",
+              "de": "Cafégarten und Sonnenschirme neben den Gebäuden",
+              "cs": "Zahrada kavárny a slunečníky u budov"
+            }
+          },
+          "/assets/food-cafes/jadwigi-cafe-02.jpg": {
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.22.10 (1).jpeg",
+            "sourceSHA256": "f9d4da85633309ad2b9fef4bcb7f39b33ddaa99999038a8687e3375027bc7031",
+            "reviewedAt": "2026-10-18",
+            "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+            "alt": {
+              "he": "חדר בית הקפה תחת קמרונות לבנים",
+              "en": "Café room beneath brick vaults",
+              "pl": "Sala kawiarni pod ceglanym sklepieniem",
+              "de": "Caféraum unter Backsteingewölben",
+              "cs": "Místnost kavárny pod cihlovými klenbami"
+            }
+          },
+          "/assets/food-cafes/jadwigi-cafe-03.jpg": {
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-05 at 18.28.41 (6).jpeg",
+            "sourceSHA256": "82b8d83edd878877f8abe24671a217255d39e4e8e36c5116ebef027cd021e691",
+            "reviewedAt": "2026-10-18",
+            "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+            "alt": {
+              "he": "שולחנות עץ ותמונות בחדר בית הקפה",
+              "en": "Wooden tables and pictures in the café room",
+              "pl": "Drewniane stoliki i obrazy w sali kawiarni",
+              "de": "Holztische und Bilder im Caféraum",
+              "cs": "Dřevěné stolky a obrazy v kavárně"
+            }
+          },
+          "/assets/food-cafes/jadwigi-cafe-04.jpg": {
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.20.53.jpeg",
+            "sourceSHA256": "b337de9a72bf16ead5c2949634af84441c36591b00bf6b76d2849b07ba4870ea",
+            "reviewedAt": "2026-10-18",
+            "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+            "alt": {
+              "he": "מעבר מוצל בצמחייה בגן בית הקפה",
+              "en": "A leafy passage in the café garden",
+              "pl": "Zielone przejście w ogrodzie kawiarni",
+              "de": "Begrünter Durchgang im Cafégarten",
+              "cs": "Zelený průchod v zahradě kavárny"
+            }
+          },
+          "/assets/food-cafes/jadwigi-cafe-05.jpg": {
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.22.06.jpeg",
+            "sourceSHA256": "0d686d6e587cc287eacb73e409bb3df8ee6f916667c3e6b1d287ef3f5b761ea9",
+            "reviewedAt": "2026-10-18",
+            "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+            "alt": {
+              "he": "דלפק הקפה וקיר הלבנים",
+              "en": "The café counter and brick wall",
+              "pl": "Lada kawiarni i ceglana ściana",
+              "de": "Cafétresen und Backsteinwand",
+              "cs": "Pult kavárny a cihlová zeď"
+            }
+          },
+          "/assets/food-cafes/jadwigi-cafe-07.jpg": {
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.22.05.jpeg",
+            "sourceSHA256": "964ec3aba8fe7dc8dc7f73e105288c374e613d94d362edc8fa144d655cc11480",
+            "reviewedAt": "2026-10-18",
+            "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+            "alt": {
+              "he": "ערוגות וגדרות חיות בגן בית הקפה",
+              "en": "Planted beds and hedges in the café garden",
+              "pl": "Rabaty i żywopłoty w ogrodzie kawiarni",
+              "de": "Beete und Hecken im Cafégarten",
+              "cs": "Záhony a živé ploty v zahradě kavárny"
+            }
+          },
+          "/assets/food-cafes/jadwigi-cafe-08.jpg": {
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.20.58.jpeg",
+            "sourceSHA256": "33a4f1016c66d81eae76d7d9b62411bd310bff3b5674ae98db1391c2c440ba5c",
+            "reviewedAt": "2026-10-18",
+            "review": "Visually matched to official café gallery: garden, café seating and vaulted interiors; posed personal portraits excluded.",
+            "alt": {
+              "he": "פרחים צהובים מעל שפת הלבנים בגן",
+              "en": "Yellow flowers above a brick garden border",
+              "pl": "Żółte kwiaty przy ceglanym obrzeżu",
+              "de": "Gelbe Blumen am Beetrand aus Backstein",
+              "cs": "Žluté květy u cihlového okraje záhonu"
+            }
+          },
+          "/assets/food-cafes/jadwigi-cafe-thumbnail.jpg": {
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-01 at 09.20.59.jpeg",
+            "sourceSHA256": "4f2b3b92bbb91047a31f9b7a2171fe6d02db86c54ea57600ba3e6e859cecbc6f",
+            "reviewedAt": "2026-10-18",
+            "review": "Representative landscape crop from original garden photograph; café umbrellas, garden and central building remain visible. Full original view retained in gallery.",
+            "alt": {
+              "he": "גן בית הקפה והשמשיות לצד מבני המתחם",
+              "en": "Café garden and parasols beside the buildings",
+              "pl": "Ogród kawiarni i parasole przy budynkach",
+              "de": "Cafégarten und Sonnenschirme neben den Gebäuden",
+              "cs": "Zahrada kavárny a slunečníky u budov"
+            }
+          },
+          "/assets/food-cafes/jadwigi-visit-01.mp4": {
+            "title": {
+              "he": "דלפק בית הקפה",
+              "en": "Café counter",
+              "pl": "Lada kawiarni",
+              "de": "Cafétresen",
+              "cs": "Pult kavárny"
+            },
+            "sourceSHA256": "91bef484195596e23e8a4800e574539d9dfc2542f2ae64d01315c1527d446aaf",
+            "uploadSHA256": "af4c42934e1165fc90b179cf75cc3563897ba1b502cc626fbb669cc0631b7445",
+            "originalDurationSeconds": 6.733333,
+            "youtubeId": "IVBHDnnD8D0",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/food-cafes/jadwigi-visit-02.mp4": {
+            "title": {
+              "he": "חדר תחת קמרונות לבנים",
+              "en": "Brick-vaulted room",
+              "pl": "Sala z ceglanym sklepieniem",
+              "de": "Raum mit Backsteingewölbe",
+              "cs": "Místnost s cihlovou klenbou"
+            },
+            "sourceSHA256": "93f50482c9be3b47ced5dccf4385acd8dcf08b6fd18ef67156c24811d00104a6",
+            "uploadSHA256": "628be5120c9edd7ded384422f47411d610c6876d1816089a86bdeb9db8aa5768",
+            "originalDurationSeconds": 2.866667,
+            "youtubeId": "PLp2IWBStZI",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/food-cafes/jadwigi-visit-03.mp4": {
+            "title": {
+              "he": "פסל הציפור בגן בית הקפה",
+              "en": "Bird sculpture in the café garden",
+              "pl": "Rzeźba ptaka w ogrodzie kawiarni",
+              "de": "Vogelskulptur im Cafégarten",
+              "cs": "Ptačí plastika v zahradě kavárny"
+            },
+            "sourceSHA256": "64d27ab7d50db2be6d8b2917c9d7087170de617dde44de49d39c198569f2d58e",
+            "uploadSHA256": "5c815d4ca623b8b0f50143ed2ab9315aae5a436b5f4dd03dcc55593861eb212b",
+            "originalDurationSeconds": 4.833333,
+            "youtubeId": "4ch3e2-8_GM",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/food-cafes/jadwigi-visit-04.mp4": {
+            "title": {
+              "he": "שבשבת צבעונית בגן",
+              "en": "Colourful garden pinwheel",
+              "pl": "Kolorowy wiatraczek w ogrodzie",
+              "de": "Buntes Windrad im Garten",
+              "cs": "Barevný větrník v zahradě"
+            },
+            "sourceSHA256": "9c671deb00daaad4a1553835390994acbccbbaeacb63e129b947cb4ee9d2469c",
+            "uploadSHA256": "a58941a0a480850607dbcf59314fbbd18dcfdec9fe850ea9d6114064bbdb9d9d",
+            "originalDurationSeconds": 3.266667,
+            "youtubeId": "81jhRnGNqDY",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/food-cafes/jadwigi-visit-05.mp4": {
+            "title": {
+              "he": "פרחי הגן",
+              "en": "Garden flowers",
+              "pl": "Kwiaty w ogrodzie",
+              "de": "Gartenblumen",
+              "cs": "Květiny v zahradě"
+            },
+            "sourceSHA256": "baab954b71a8cf04f6e01f2d1b92c6ae432e01c7be2a0a5e739df32276f49a30",
+            "uploadSHA256": "66b8f12d89b98e96fea28c27571214a507b1600078200d5074cce35ac8e52b9a",
+            "originalDurationSeconds": 6.066667,
+            "youtubeId": "70fTYo2LVjA",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/food-cafes/jadwigi-visit-06.mp4": {
+            "title": {
+              "he": "שביל וגדרות חיות בגן",
+              "en": "Garden path and hedges",
+              "pl": "Ścieżka i żywopłoty w ogrodzie",
+              "de": "Gartenweg und Hecken",
+              "cs": "Zahradní cesta a živé ploty"
+            },
+            "sourceSHA256": "aeacafcb0fca2c2227e718cac4d2024eeb4d93fec1589ad40f9b3ba4e8d1228f",
+            "uploadSHA256": "37db1c8a234ced4f6dc925b7aa6e4f24ac040d0ab9be29531a9e5aecfdc15bea",
+            "originalDurationSeconds": 4,
+            "youtubeId": "Ly0PIKBKHzQ",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/food-cafes/jadwigi-visit-07.mp4": {
+            "title": {
+              "he": "הגן ובנייני מתחם בית הקפה",
+              "en": "Garden and café complex buildings",
+              "pl": "Ogród i budynki kompleksu kawiarni",
+              "de": "Garten und Gebäude des Cafékomplexes",
+              "cs": "Zahrada a budovy areálu kavárny"
+            },
+            "sourceSHA256": "bfc0e7c7de9f1aff0d600ea2d95f7ecf998830f5c3267769f05d43055acc69ab",
+            "uploadSHA256": "1c52435583a6ac6270deb38c25d1b6ff310f63c452ab912916b2fb395b999be9",
+            "originalDurationSeconds": 7.125,
+            "youtubeId": "HvpsxHDp5sA",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/food-cafes/jadwigi-visit-08.mp4": {
+            "title": {
+              "he": "מבט מקרוב על צמחי הגן",
+              "en": "A closer look at garden plants",
+              "pl": "Rośliny w ogrodzie z bliska",
+              "de": "Gartenpflanzen aus der Nähe",
+              "cs": "Pohled zblízka na zahradní rostliny"
+            },
+            "sourceSHA256": "d91d874a1521fd9e71d6a72b021e2f25459715d927739563f760a70c555921ec",
+            "uploadSHA256": "e0650fb0f32a6c0dfa6da7f3350fd98084d3cf42c9b8f56aeb4c250026c9b69f",
+            "originalDurationSeconds": 3.566667,
+            "youtubeId": "cPsYNR_MhgQ",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/food-cafes/jadwigi-visit-09.mp4": {
+            "title": {
+              "he": "קפה ועוגה בביקור שלנו",
+              "en": "Coffee and cake during our visit",
+              "pl": "Kawa i ciasto podczas naszej wizyty",
+              "de": "Kaffee und Kuchen bei unserem Besuch",
+              "cs": "Káva a moučník během naší návštěvy"
+            },
+            "sourceSHA256": "3a2bf411df023b93e52961ffb4074a1834f6e4f705d4cbdffe9c2a2afa6dbce0",
+            "uploadSHA256": "4bc90868d82b38a2521340561f481ec33deacfd612203319c2383fda77929ab9",
+            "originalDurationSeconds": 3.933333,
+            "youtubeId": "HqoVMQUWySQ",
+            "reviewedAt": "2026-10-18",
+            "audio": "omitted-background-conversation"
+          },
+          "/assets/today-source-refresh-20261021/run4-137-kawiarenka-sw-jadwigi.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (2).jpeg",
+            "sourceSHA256": "37e4494368ee022b1fe331e055bd0f5c217babf9596f2a3837f1ff32e3ac0d9b",
+            "assetSHA256": "d6fda74d1b54425013f95276dcb52da2fcd1fc60139bcebea31c8ff7ef104c94",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "שלטי צמחים בגן בית הקפה",
+              "en": "Plant information in the cafe garden",
+              "pl": "Tablice o roślinach w ogrodzie kawiarni",
+              "de": "Pflanzentafeln im Garten des Cafés",
+              "cs": "Tabulky o rostlinách v zahradě kavárny"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-142-kawiarenka-sw-jadwigi.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (13).jpeg",
+            "sourceSHA256": "0e88ad1c3236d3619489e1fc082ca1b5b8ffd7c18e653e41f59e5b9c26789334",
+            "assetSHA256": "9dbee9d06e09b4e870bd061f886b96374c1e38b86d5cf2c566ab68ba345db2df",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "שער הכניסה לבית הקפה",
+              "en": "Cafe entrance portal",
+              "pl": "Portal wejściowy kawiarni",
+              "de": "Eingangsportal des Cafés",
+              "cs": "Vstupní portál kavárny"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-143-kawiarenka-sw-jadwigi.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (4).jpeg",
+            "sourceSHA256": "8c7771184cf84dd93009209a37af7bef734c3b11fb14f5d77ad0c363b0b6828a",
+            "assetSHA256": "6d31e3410fd79dfb13d88033605c11075c1245e422b0a07ebdf46daac5811f4d",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "חלל בית הקפה עם תקרת הקשתות",
+              "en": "Cafe room with vaulted ceiling",
+              "pl": "Sala kawiarni ze sklepieniem",
+              "de": "Caféraum mit Gewölbedecke",
+              "cs": "Místnost kavárny s klenutým stropem"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-144-kawiarenka-sw-jadwigi.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית קפה במנזר/WhatsApp Image 2026-10-21 at 20.48.55 (8).jpeg",
+            "sourceSHA256": "0a8d486e7e84df929170787a17918be1f8a4b3c8b093297746167d17455f0911",
+            "assetSHA256": "3835cfb37123a1beeced76d5eda5b0753476590c5d0a5cad1f499ce045bf6dda",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "המעבר מבית הקפה לגן",
+              "en": "Passage from the cafe to the garden",
+              "pl": "Przejście z kawiarni do ogrodu",
+              "de": "Durchgang vom Café zum Garten",
+              "cs": "Průchod z kavárny do zahrady"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-020-kawiarenka-sw-jadwigi.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (33).jpeg",
+            "sourceSHA256": "18eeeddf6d218902424224cf269527e31cf783a4287d3969b805daff8891997c",
+            "assetSHA256": "e4f3632190a95431e5db4765166c3905e34b687d42c628099d9ef35e6ce70a29",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "פסל בגינת בית הקפה ליד בית נוטרדאם",
+              "en": "Statue in the cafe garden beside Dom Notre Dame",
+              "pl": "Rzeźba w ogrodzie kawiarni przy Domu Notre Dame",
+              "de": "Statue im Café-Garten am Dom Notre Dame",
+              "cs": "Socha v zahradě kavárny u Domu Notre Dame"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-036-kawiarenka-sw-jadwigi.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55.jpeg",
+            "sourceSHA256": "0283d97befd48a8621f156bad901bdf467c426fdf5846a4f74aff6addef081e2",
+            "assetSHA256": "7ac248fbdccf5dc61e6ec93091dc956724f3889f9f229c7e419d7aad214e8eed",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "מבט רחב על הגינה ובית נוטרדאם",
+              "en": "Wide view of the garden and Dom Notre Dame",
+              "pl": "Widok ogrodu i Domu Notre Dame",
+              "de": "Blick auf den Garten und Dom Notre Dame",
+              "cs": "Pohled na zahradu a Dom Notre Dame"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          }
+        }
+      },
+      "socialPosts": [
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0cXziB6sWWuJJtZZuc9aWVa5ufB3tZ4orCy44Xad6eUeF8LPPnNrwEzY8WSCjcwPAl&id=61595036942289",
+          "verifiedAt": "2026-10-19T07:18:39.994Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Deqs4wkD-Kb/",
+          "verifiedAt": "2026-10-19T07:18:47.742Z"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02AHPReHTVkrDeQrEHhrNHk6vhTyZibTajaqPtjyK3yXJnNusa9JbFS7mbctG8faGdl&id=61591964083308",
+          "verifiedAt": "2026-10-19T07:51:18.253Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/p/DeqwucFDZSN/",
+          "verifiedAt": "2026-10-19T07:51:26.855Z"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02HptBAAveoenvhszEPfHbGN3iEfyBiKS3j1MdBS2QjfarLSYtNKDQpQY5YRJhMKFSl&id=61595207664875",
+          "verifiedAt": "2026-10-19T07:58:48.721Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/Deqxn5foBJ8/",
+          "verifiedAt": "2026-10-19T07:58:49.766Z"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0P2dbKNA7KXgJ35iCVY1hiECo8PHAAkNZNKKvk143SNeCqiu1pRuRiS8nikcriPzAl&id=61595239823399",
+          "verifiedAt": "2026-10-19T08:03:36.199Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeqyLogGNTs/",
+          "verifiedAt": "2026-10-19T08:03:37.387Z"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0o4opCd6ztQnNxmpRCyFFFEhcpFJmC6YcJMcP8Jbkxn3LqwVUnPZZ5MjmxizzsNKUl&id=61594716405964",
+          "verifiedAt": "2026-10-19T08:08:26.237Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DeqytQdDobT/",
+          "verifiedAt": "2026-10-19T08:08:27.769Z"
+        }
+      ]
+    },
+    "lwia-brama-restaurant-wroclaw": {
+      "id": "lwia-brama-restaurant-wroclaw",
+      "localName": "Restauracja Lwia Brama²",
+      "name": {
+        "he": "מסעדת שער האריה\nLwia Brama²",
+        "en": "Lwia Brama² Restaurant",
+        "pl": "Restauracja Lwia Brama²",
+        "de": "Restaurant Lwia Brama²",
+        "cs": "Restaurace Lwia Brama²"
+      },
+      "description": {
+        "he": "מסעדה ברחוב קתדרלנה באי הקתדרלות. בתצלומי הביקור נראים החצר והמבנה בעל קורות העץ. פרטי תפריט והזמנות כדאי לבדוק אצל המסעדה.",
+        "en": "A restaurant on Katedralna Street on Cathedral Island. Our visit photos show its courtyard and timber-framed building. Check menus and reservations with the restaurant.",
+        "pl": "Restauracja przy ul.Katedralnej na Ostrowie Tumskim. Zdjęcia z wizyty pokazują dziedziniec i budynek szachulcowy. Menu i rezerwacje sprawdź bezpośrednio w restauracji.",
+        "de": "Restaurant an der Katedralna-Straße auf der Dominsel. Unsere Besuchsfotos zeigen den Innenhof und das Fachwerkgebäude. Menü und Reservierungen direkt beim Restaurant prüfen.",
+        "cs": "Restaurace v ulici Katedralna na Katedrálním ostrově. Fotografie z návštěvy zachycují dvůr a hrázděnou budovu. Nabídku a rezervace ověřte u restaurace."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.114186,
+          "lng": 17.0440984
+        },
+        "address": {
+          "street": "ul. Katedralna 9",
+          "city": "Wrocław",
+          "country": "Poland"
+        }
+      },
+      "categories": [
+        "eat"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "Lwia Brama² Restaurant",
+        "Restauracja Lwia Brama²"
+      ],
+      "sourceRecords": [
+        {
+          "productId": "lifestyle-guide",
+          "kind": "catalog-place",
+          "sourceId": "lwia-brama-restaurant-wroclaw"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "lifestyle-guide",
+          "sourceId": "lwia-brama-restaurant-wroclaw",
+          "lat": 51.114186,
+          "lng": 17.0440984
+        }
+      ],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "eat"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://lwiabrama2.pl/rezerwacja/",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.114186%2C17.0440984",
+          "appleMaps": null
+        },
+        "socialProfileFallback": false
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "identityVerification": {
+          "canonicalId": "lwia-brama-restaurant-wroclaw",
+          "state": "verified-new-canonical-proposal",
+          "address": "ul. Katedralna9, Wrocław",
+          "coordinates": {
+            "lat": 51.114186,
+            "lng": 17.0440984
+          },
+          "coordinateEvidence": {
+            "primaryPage": "https://lwiabrama2.pl/rezerwacja/",
+            "ownerMapEmbed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10018.758594478837!2d17.0440984!3d51.114186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9d9e988efdd:0xd67dc4347bf56125!2sRestauracja+Lwia+Brama%C2%B2!5e0!3m2!1spl!2spl!4v1698761780374!5m2!1spl!2spl",
+            "method": "Exact longitude/latitude from restaurant-owned Google Maps embed, with restaurant place ID and name. Not unrelated courtyard geocoding."
+          },
+          "sources": [
+            "https://lwiabrama2.pl/rezerwacja/",
+            "https://geoportal.wroclaw.pl/poi/poi/2443"
+          ],
+          "name": {
+            "he": "מסעדת שער האריה\nLwia Brama²",
+            "en": "Lwia Brama² Restaurant",
+            "pl": "Restauracja Lwia Brama²",
+            "de": "Restaurant Lwia Brama²",
+            "cs": "Restaurace Lwia Brama²"
+          },
+          "description": {
+            "he": "מסעדה ברחוב קתדרלנה באי הקתדרלות. בתצלומי הביקור נראים החצר והמבנה בעל קורות העץ. פרטי תפריט והזמנות כדאי לבדוק אצל המסעדה.",
+            "en": "A restaurant on Katedralna Street on Cathedral Island. Our visit photos show its courtyard and timber-framed building. Check menus and reservations with the restaurant.",
+            "pl": "Restauracja przy ul.Katedralnej na Ostrowie Tumskim. Zdjęcia z wizyty pokazują dziedziniec i budynek szachulcowy. Menu i rezerwacje sprawdź bezpośrednio w restauracji.",
+            "de": "Restaurant an der Katedralna-Straße auf der Dominsel. Unsere Besuchsfotos zeigen den Innenhof und das Fachwerkgebäude. Menü und Reservierungen direkt beim Restaurant prüfen.",
+            "cs": "Restaurace v ulici Katedralna na Katedrálním ostrově. Fotografie z návštěvy zachycují dvůr a hrázděnou budovu. Nabídku a rezervace ověřte u restaurace."
+          },
+          "suggestedMaps": [
+            "lifestyle food"
+          ],
+          "notSameAs": [
+            "cathedral",
+            "ostrow",
+            "kawiarenka-sw-jadwigi"
+          ],
+          "selectedGlobalIndices": [
+            14,
+            23
+          ]
+        },
+        "catalogAliasesChecked": true,
+        "sourceRefreshRun": "2026-10-21-run4",
+        "notSameAs": [
+          "cathedral",
+          "ostrow",
+          "kawiarenka-sw-jadwigi"
+        ]
+      },
+      "placeType": "restaurant",
+      "media": {
+        "thumbnail": "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg",
+        "photos": [
+          "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg",
+          "/assets/today-source-refresh-20261021/run4-023-lwia-brama-restaurant-wroclaw.jpg"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=0t_8oeQrNwg"
+        ],
+        "metadata": {
+          "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (36).jpeg",
+            "sourceSHA256": "9c9457e9d1550f0a2ab690b24c934629958cc6ceacc5b8b396c43d2f6a5f3678",
+            "assetSHA256": "89a688353e107dec83417a3c5d0014bd298cea0ed2170a043e358da16824ba15",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+            "alt": {
+              "he": "חצר מסעדת שער האריה",
+              "en": "Lwia Brama² restaurant courtyard",
+              "pl": "Dziedziniec restauracji Lwia Brama²",
+              "de": "Innenhof des Restaurants Lwia Brama²",
+              "cs": "Dvůr restaurace Lwia Brama²"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-023-lwia-brama-restaurant-wroclaw.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (28).jpeg",
+            "sourceSHA256": "133a3f9f067d335b33ff21077a92f0c95fd2d90bc00981b4a33fd3d23589467f",
+            "assetSHA256": "00ea01e4ec2f9704fa54d6c799c3387cdc584b5fd43a8350ffd78a4d859bb469",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+            "alt": {
+              "he": "חזית קורות העץ בחצר המסעדה",
+              "en": "Timber-framed facade in the restaurant courtyard",
+              "pl": "Szachulcowa elewacja na dziedzińcu restauracji",
+              "de": "Fachwerkfassade im Restaurantinnenhof",
+              "cs": "Hrázděné průčelí ve dvoře restaurace"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+            "familyForeground": false
+          },
+          "https://www.youtube.com/watch?v=0t_8oeQrNwg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (6).mp4",
+            "sourceSHA256": "8c00eebcd8a21b4f880e295251b0b801a8405a18d0d16c44dc9d91dca6da557d",
+            "uploadSHA256": "312c327a24119f087782055f6605f0c20e9ce8899d1b16757f3bb33a2a9fd982",
+            "durationSeconds": 7.233333,
+            "originalFullPicturePreserved": true,
+            "familyForeground": false,
+            "familyExceptionApplied": false,
+            "status": "public",
+            "visibility": "Public",
+            "reopenedPublicVerified": true,
+            "sdProcessingComplete": true,
+            "copyright": "No issues found",
+            "communityGuidelines": "No issues found",
+            "title": {
+              "he": "חצר המסעדה והבתים סביבה",
+              "en": "Restaurant courtyard and surrounding houses",
+              "pl": "Dziedziniec restauracji i otaczające domy",
+              "de": "Restauranthof und umliegende Häuser",
+              "cs": "Dvůr restaurace a okolní domy"
+            },
+            "original": true,
+            "tags": [
+              "visit"
+            ],
+            "sourceRefreshRun": "2026-10-21-run4",
+            "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+            "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-16-public-reopened.txt",
+            "silent": true,
+            "audioRemoved": true,
+            "verifiedAt": "2026-10-21T20:47:14.487Z",
+            "savedPublicVerified": true,
+            "reopenedVerified": true,
+            "originalFullPictureAndDurationPreserved": true
+          }
+        }
+      },
+      "socialPosts": []
+    },
+    "most-tumski": {
+      "id": "most-tumski",
+      "localName": "Most Tumski",
+      "name": {
+        "he": "גשר טומסקי",
+        "en": "Tumski Bridge",
+        "pl": "Most Tumski",
+        "de": "Tumski-Brücke",
+        "cs": "Tumský most"
+      },
+      "description": {
+        "he": "הגשר שמוביל אל הלב ההיסטורי של אוסטרוב טומסקי.",
+        "en": "The bridge leading into the historic heart of Ostrów Tumski.",
+        "pl": "Most prowadzący do historycznego serca Ostrowa Tumskiego.",
+        "de": "Die Brücke führt in das historische Herz von Ostrów Tumski.",
+        "cs": "Most vedoucí do historického srdce Ostrów Tumski."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.114714,
+          "lng": 17.042248
+        }
+      },
+      "categories": [
+        "river"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "tumski-bridge"
+      ],
+      "sourceRecords": [
+        {
+          "productId": "wroclaw-24-hours",
+          "kind": "route-stop",
+          "sourceId": "most-tumski"
+        },
+        {
+          "productId": "wroclaw-four-days",
+          "kind": "route-stop",
+          "sourceId": "tumski-bridge"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "wroclaw-24-hours",
+          "sourceId": "most-tumski",
+          "lat": 51.114714,
+          "lng": 17.042248
+        },
+        {
+          "productId": "wroclaw-four-days",
+          "sourceId": "tumski-bridge",
+          "lat": 51.114714,
+          "lng": 17.042248
+        }
+      ],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "river"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": null,
+        "navigation": {
+          "googleMaps": null,
+          "appleMaps": null
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "run4GuidePublication": {
+          "receipt": "outputs/most-tumski-video-guides-2026-10-21/youtube-publication-receipt.json",
+          "publicReopened": true,
+          "publicEvidence": [
+            "he-public-details.txt",
+            "en-public-details.txt"
+          ],
+          "checksNoIssues": true,
+          "checksEvidence": [
+            "he-checks-clean.txt",
+            "en-checks-clean.txt"
+          ],
+          "originalFullPictureAndAudioPreserved": true,
+          "nativeCaptions": [
+            {
+              "language": "he",
+              "videoId": "8ZjWUCCHy8g",
+              "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-he.srt",
+              "sha256": "8caacfe62e8d5ae91b35141b2d648a112b3d90d5cbbf7657ae4fccd11df0fdd0",
+              "cues": 27,
+              "published": true,
+              "reopened": true,
+              "evidence": "he-captions-reopened.txt"
+            },
+            {
+              "language": "en",
+              "videoId": "B94yaegj-eU",
+              "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-en.srt",
+              "sha256": "0b0d28f90051efb234c59bdc63a4d743275c33a82e11574bf39683dc907f0c95",
+              "cues": 26,
+              "published": true,
+              "reopened": true,
+              "evidence": "en-captions-reopened.txt"
+            },
+            {
+              "language": "pl",
+              "videoId": "B94yaegj-eU",
+              "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-pl.srt",
+              "sha256": "f0a023272e4d58fa6d2b6592b45769d7ff1791c921a3e6db4736f3536476f3ba",
+              "cues": 26,
+              "published": true,
+              "reopened": true,
+              "evidence": "pl-captions-reopened.txt"
+            },
+            {
+              "language": "de",
+              "videoId": "B94yaegj-eU",
+              "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-de.srt",
+              "sha256": "bf573da9c5d0297883b01e2b3c83f9067062fde2ab6f3d2b5115e0386114367a",
+              "cues": 27,
+              "published": true,
+              "reopened": true,
+              "evidence": "de-captions-reopened.txt"
+            },
+            {
+              "language": "cs",
+              "videoId": "B94yaegj-eU",
+              "path": "outputs/most-tumski-video-guides-2026-10-21/captions/most-tumski-cs.srt",
+              "sha256": "9a576030828147d7a5e7f6cbe92f431d2c6f641b189f3b8689410edbf2b4099a",
+              "cues": 26,
+              "published": true,
+              "reopened": true,
+              "evidence": "cs-captions-reopened.txt"
+            }
+          ],
+          "approvalCall": "call_b62ae12263a84eb891e28ab25704a6e0"
+        }
+      },
+      "media": {
+        "photos": [
+          "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg",
+          "/assets/today-source-refresh-20261021/run4-092-most-tumski.jpg",
+          "/assets/today-source-refresh-20261021/run4-093-most-tumski.jpg",
+          "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg",
+          "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=3Sxf4k4DkiM",
+          "https://www.youtube.com/watch?v=9nOC5KsNCqQ"
+        ],
+        "guideVideos": {
+          "he": "https://www.youtube.com/watch?v=8ZjWUCCHy8g",
+          "en": "https://www.youtube.com/watch?v=B94yaegj-eU"
+        },
+        "metadata": {
+          "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (2).jpeg",
+            "sourceSHA256": "421f66963ffc5d3201955959469eb8dea84f62a4997de4a2573d02a0ddf7ef36",
+            "assetSHA256": "f4f048dc01528a9ee89fa4d06ec6272390329abdca50a326c208bd52d31873e2",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "פרט המעקה והמנעולים ליד גשר טומסקי",
+              "en": "Railing and lock detail by Tumski Bridge",
+              "pl": "Detal poręczy i kłódek przy moście Tumskim",
+              "de": "Geländer und Liebesschlösser an der Dombrücke",
+              "cs": "Detail zábradlí a zámků u Tumského mostu"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-092-most-tumski.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (4).jpeg",
+            "sourceSHA256": "56a18c2ed59196b6b0fd3eb81ed2898fcb88dc770fc6bd00b3e1bcc16c9a9269",
+            "assetSHA256": "c667ca102c0d04105e2b7c892eccb4a8e5b3585d2b8e4fdc73bf1be9ecba9181",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "גשר טומסקי והנהר במבט מן הגדה",
+              "en": "Tumski Bridge and the river from the bank",
+              "pl": "Most Tumski i rzeka widziane z brzegu",
+              "de": "Dombrücke und Fluss vom Ufer aus",
+              "cs": "Tumský most a řeka z nábřeží"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-093-most-tumski.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (1).jpeg",
+            "sourceSHA256": "e8d3479a4b27ae606e8f975b27acbca70f8e314285262ff15e2d9524ef95f9d8",
+            "assetSHA256": "67648730a9ab01a7687f25f99a6b79cbd1e942d9ad3651c2c936b94599c02760",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "שלט על גמדים ואהבה ליד גשר טומסקי",
+              "en": "Sign about dwarfs and love by Tumski Bridge",
+              "pl": "Tablica o krasnalach i miłości przy moście Tumskim",
+              "de": "Tafel über Zwerge und Liebe an der Dombrücke",
+              "cs": "Tabule o trpaslících a lásce u Tumského mostu"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.44 (3).jpeg",
+            "sourceSHA256": "babd669d0d2c991a0efcacbd9c783f3a9980723a1db732f5ee727ffe928776b4",
+            "assetSHA256": "3fdd78dabc734aff6ccdfb0775a26414e77caa0033bc0dc3f2af844e33770770",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "מנעולים לאורך המעקה שליד גשר טומסקי",
+              "en": "Locks along the railing by Tumski Bridge",
+              "pl": "Kłódki na poręczy przy moście Tumskim",
+              "de": "Schlösser am Geländer bei der Dombrücke",
+              "cs": "Zámky na zábradlí u Tumského mostu"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Image 2026-10-21 at 21.34.46 (2).jpeg",
+            "sourceSHA256": "ffcf7f502f09e0150b027e96e6fe183bcec5cc0c980a8041b186f7d1ce1f1ff4",
+            "assetSHA256": "8c78ad73b6621de8a88996ee022c777dd5866f39e567529b8bafe326f27a2448",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "לוח מידע היסטורי על גשר טומסקי",
+              "en": "Historical information plaque for Tumski Bridge",
+              "pl": "Tablica historyczna mostu Tumskiego",
+              "de": "Historische Informationstafel zur Dombrücke",
+              "cs": "Historická informační tabule o Tumském mostě"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "https://www.youtube.com/watch?v=3Sxf4k4DkiM": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Video 2026-10-21 at 21.34.54 (1).mp4",
+            "sourceSHA256": "5808d118b66ffff7b05efcdc2321bb4495c3c5b8a1b718a864968f9c7092e0ff",
+            "uploadSHA256": "237d943f543fbbabbe1ba8a7a398a9a5894967f01e451fcd5ad23f44a07b8c91",
+            "durationSeconds": 10.633333,
+            "originalFullPicturePreserved": true,
+            "familyForeground": false,
+            "familyExceptionApplied": false,
+            "status": "public",
+            "visibility": "Public",
+            "reopenedPublicVerified": true,
+            "sdProcessingComplete": true,
+            "copyright": "No issues found",
+            "communityGuidelines": "No issues found",
+            "title": {
+              "he": "מעקה המנעולים בגשר טומסקי",
+              "en": "Lock-covered railing at Tumski Bridge",
+              "pl": "Balustrada z kłódkami przy Moście Tumskim",
+              "de": "Geländer mit Schlössern an der Dombrücke",
+              "cs": "Zábradlí se zámky u Tumského mostu"
+            },
+            "original": true,
+            "tags": [
+              "visit"
+            ],
+            "sourceRefreshRun": "2026-10-21-run4",
+            "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+            "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-91-public-reopened.txt",
+            "silent": true,
+            "audioRemoved": true,
+            "verifiedAt": "2026-10-21T20:46:51.337Z",
+            "savedPublicVerified": true,
+            "reopenedVerified": true,
+            "originalFullPictureAndDurationPreserved": true
+          },
+          "https://www.youtube.com/watch?v=9nOC5KsNCqQ": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/WhatsApp Video 2026-10-21 at 21.34.52 (2).mp4",
+            "sourceSHA256": "bd6b3ecde88ada94ca54d2c2b69ab2530817c847d5f982689ae1ee4ed457bbb5",
+            "uploadSHA256": "ed87c866abfbadf085b776a7539d2ea21b0175fb2465afdb1cf1cec57729f1f4",
+            "durationSeconds": 4.5,
+            "originalFullPicturePreserved": true,
+            "familyForeground": false,
+            "familyExceptionApplied": false,
+            "status": "public",
+            "visibility": "Public",
+            "reopenedPublicVerified": true,
+            "sdProcessingComplete": true,
+            "copyright": "No issues found",
+            "communityGuidelines": "No issues found",
+            "title": {
+              "he": "פסל גמד ליד גשר טומסקי",
+              "en": "Dwarf sculpture by Tumski Bridge",
+              "pl": "Krasnal przy Moście Tumskim",
+              "de": "Zwergenfigur an der Dombrücke",
+              "cs": "Trpaslík u Tumského mostu"
+            },
+            "original": true,
+            "tags": [
+              "visit"
+            ],
+            "sourceRefreshRun": "2026-10-21-run4",
+            "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+            "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-95-public-reopened.txt",
+            "silent": true,
+            "audioRemoved": true,
+            "verifiedAt": "2026-10-21T20:46:53.673Z",
+            "savedPublicVerified": true,
+            "reopenedVerified": true,
+            "originalFullPictureAndDurationPreserved": true
+          }
+        }
+      },
+      "socialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0dqnEszRVNQ8n1EGvopvR32oUL27mbxSAo7BKxAAjPh87N8y9uWUkU4dnLPJ9xWApl&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:25:45.534091+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Awc48gHAgZw73RFZvkybjhaqZ2TUJKL9cK8WtvYcAdMb1UgLhUmUEoJmhNL4q2Xpl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qj7d9EJwEqz8HgNRpACtcn1maAuxbozPBVHLezCGupgeGghNkutu6Ks4BEFMbXrol&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02dMVehWgoL73Zryrr5U3DAXrmieCtB4Kn5ss7XwKJXfis3tb5DXwozaCLedtFUNUnl&id=61595239823399",
+          "verifiedAt": "2026-10-08T14:57:25.217154+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02cYCzpEAb2Q6am2n5UsAjCuYjgu54yuZA9RkfgHh67WGwyyP1xXmGvVLCDuDoBoNQl&id=61591964083308",
+          "verifiedAt": "2026-10-09T08:48:22.039Z"
+        }
+      ]
+    },
+    "ostrow": {
+      "id": "ostrow",
+      "localName": "Ostrów Tumski",
+      "name": {
+        "he": "אוסטרוב טומסקי",
+        "en": "Ostrów Tumski",
+        "pl": "Ostrów Tumski",
+        "de": "Ostrów Tumski",
+        "cs": "Ostrov Tumski"
+      },
+      "description": {
+        "he": "האזור העתיק והאווירי של ורוצלב, עם רחובות שקטים, כנסיות ופנסי גז היסטוריים.",
+        "en": "Wrocław’s atmospheric historic quarter, with quiet lanes, churches and traditional gas lamps.",
+        "pl": "Nastrojowa historyczna część Wrocławia z cichymi uliczkami, kościołami i tradycyjnymi latarniami gazowymi.",
+        "de": "Breslaus stimmungsvolle Altstadt mit ruhigen Gassen, Kirchen und traditionellen Gaslaternen.",
+        "cs": "Atmosférická historická čtvrť Vratislavi s tichými uličkami, kostely a tradičními plynovými lampami."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.1146228,
+          "lng": 17.0437212
+        }
+      },
+      "categories": [
+        "architecture",
+        "main"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "ostrow-cathedral"
+      ],
+      "sourceRecords": [
+        {
+          "productId": "wroclaw-24-hours",
+          "kind": "route-stop",
+          "sourceId": "ostrow"
+        },
+        {
+          "productId": "wroclaw-christmas",
+          "kind": "route-stop",
+          "sourceId": "ostrow-cathedral"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "wroclaw-24-hours",
+          "sourceId": "ostrow",
+          "lat": 51.1146228,
+          "lng": 17.0437212
+        },
+        {
+          "productId": "wroclaw-christmas",
+          "sourceId": "ostrow-cathedral",
+          "lat": 51.1146228,
+          "lng": 17.0437212
+        }
+      ],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "architecture",
+          "main"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": null,
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1146228%2C17.0437212",
+          "appleMaps": "https://maps.apple.com/?ll=51.1146228,17.0437212&q=Ostr%C3%B3w%20Tumski"
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "run4GuidePublication": {
+          "receipt": "outputs/ostrow-video-guides-2026-10-21/youtube-publication-receipt.json",
+          "publicVisibilityConfirmedByWorker": true,
+          "publicReopened": true,
+          "publicEvidence": [
+            "he-public-details.txt",
+            "en-public-details.txt"
+          ],
+          "checksNoIssues": true,
+          "originalFullPictureAndAudioPreserved": true,
+          "nativeCaptions": [
+            {
+              "language": "he",
+              "videoId": "oBjOT3Ubaro",
+              "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-he.srt",
+              "sha256": "e89731856cd591eb86ffcaae828c07da1577cab0a3ae34f91ddb39df3b4bd3c6",
+              "cues": 25,
+              "published": true,
+              "reopened": true,
+              "evidence": "he-captions-reopened.txt"
+            },
+            {
+              "language": "en",
+              "videoId": "C9Wyg2MB1nk",
+              "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-en.srt",
+              "sha256": "ebd716431d846b7aec188d61fcef4369028ade53cb00cd678fdf3dddbaf8562f",
+              "cues": 23,
+              "published": true,
+              "reopened": true,
+              "evidence": "en-captions-reopened.txt"
+            },
+            {
+              "language": "pl",
+              "videoId": "C9Wyg2MB1nk",
+              "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-pl.srt",
+              "sha256": "23146590f32c3c64b31c01c47c3f86a4bc98b4f2d86b975945463be53a6f017b",
+              "cues": 24,
+              "published": true,
+              "reopened": true,
+              "evidence": "pl-captions-reopened.txt"
+            },
+            {
+              "language": "de",
+              "videoId": "C9Wyg2MB1nk",
+              "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-de.srt",
+              "sha256": "50e7df758d0b622e8366941fe5b7753fd8f172c385261be71582e5324e94b95d",
+              "cues": 23,
+              "published": true,
+              "reopened": true,
+              "evidence": "de-captions-reopened.txt"
+            },
+            {
+              "language": "cs",
+              "videoId": "C9Wyg2MB1nk",
+              "path": "outputs/ostrow-video-guides-2026-10-21/caption-package/ostrow-cs.srt",
+              "sha256": "d10696a288c848d7caeae47828124820dd77c2882ca8011fdec07c94f77c247d",
+              "cues": 23,
+              "published": true,
+              "reopened": true,
+              "evidence": "cs-captions-reopened.txt"
+            }
+          ],
+          "approvalCall": "call_94b51d2e9e6b4090a0f3e5266c18bd43"
+        },
+        "pinRelocation20261022": {
+          "checkedAt": "2026-10-22T05:11:29.695419+00:00",
+          "userInstruction": "Place the existing Cathedral Island canonical pin by St John Nepomuk statue in plac Kościelny, in front of Holy Cross / St Bartholomew church.",
+          "osmNode": 321873613,
+          "osmCoordinates": {
+            "lat": 51.1146228,
+            "lng": 17.0437212
+          },
+          "source": "https://www.openstreetmap.org/api/0.6/map?bbox=17.0430,51.1142,17.0445,51.1153",
+          "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/ostrow-tumski-1",
+          "oldCoordinates": {
+            "lat": 51.1143,
+            "lng": 17.04507
+          },
+          "canonicalId": "ostrow",
+          "identityMediaGuidesAndNamesPreserved": true,
+          "otherCanonicalsUnchanged": true
+        }
+      },
+      "media": {
+        "photos": [
+          "/assets/gallery-cathedral-03.jpg",
+          "/assets/gallery-cathedral-04.jpg",
+          "/assets/gallery-cathedral-05.jpg",
+          "/assets/gallery-cathedral-06.jpg",
+          "/assets/gallery-cathedral-02.jpg",
+          "/assets/gallery-cathedral-01.jpg",
+          "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg",
+          "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=M9P8fPs5-8o",
+          "https://www.youtube.com/watch?v=Lx6Lxbx0csk"
+        ],
+        "guideVideos": {
+          "he": "https://www.youtube.com/watch?v=oBjOT3Ubaro",
+          "en": "https://www.youtube.com/watch?v=C9Wyg2MB1nk"
+        },
+        "metadata": {
+          "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 21.34.41.jpeg",
+            "sourceSHA256": "346117afac72294c17782a4e742bc90e311ce74f40d3e9758dab1437781bdba7",
+            "assetSHA256": "8aa1310a899c4333303b3ff38298bae36f43a768f5dd6dbe1c7cae4807eeecea",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "חזית בית קפיטולת הקתדרלה באוסטרוב טומסקי",
+              "en": "Cathedral Chapter House facade on Ostrów Tumski",
+              "pl": "Fasada Domu Kapituły Katedralnej na Ostrowie Tumskim",
+              "de": "Fassade des Domkapitelhauses auf Ostrów Tumski",
+              "cs": "Průčelí domu katedrální kapituly na Tumském ostrově"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 21.34.44.jpeg",
+            "sourceSHA256": "d9185750a2ebe62985921d93381e56f0de7a36cb106e4a2c9ec55a37c7fea666",
+            "assetSHA256": "2e9396f72783fa64276bbe2bca232cc6a978b58b1ff05a777ebc36d5bafc40b9",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+            "alt": {
+              "he": "כנסיית הצלב הקדוש והאנדרטה בכיכר באי הקתדרלות",
+              "en": "Holy Cross church and monument on Cathedral Island",
+              "pl": "Kolegiata Świętego Krzyża i pomnik na Ostrowie Tumskim",
+              "de": "Heilig-Kreuz-Kirche und Denkmal auf der Dominsel",
+              "cs": "Kostel svatého Kříže a pomník na Tumském ostrově"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+            "familyForeground": false
+          },
+          "https://www.youtube.com/watch?v=M9P8fPs5-8o": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.51 (2).mp4",
+            "sourceSHA256": "a98cd1d09cbff71d133461b3240f92c889297f02aadd6b40c235cfeb9d77e4f3",
+            "uploadSHA256": "30c0249085c3e7bfc351e77028e7897acadc59f6dca836092730230fca50a673",
+            "durationSeconds": 8.866667,
+            "originalFullPicturePreserved": true,
+            "familyForeground": false,
+            "familyExceptionApplied": false,
+            "status": "public",
+            "visibility": "Public",
+            "reopenedPublicVerified": true,
+            "sdProcessingComplete": true,
+            "copyright": "No issues found",
+            "communityGuidelines": "No issues found",
+            "title": {
+              "he": "פנס גז ושביל באי הקתדרלות",
+              "en": "Gas lamp and lane on Cathedral Island",
+              "pl": "Latarnia gazowa i uliczka na Ostrowie Tumskim",
+              "de": "Gaslaterne und Gasse auf der Dominsel",
+              "cs": "Plynová lampa a ulička na Katedrálním ostrově"
+            },
+            "original": true,
+            "tags": [
+              "visit"
+            ],
+            "sourceRefreshRun": "2026-10-21-run4",
+            "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+            "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-15-public-reopened.txt",
+            "silent": true,
+            "audioRemoved": true,
+            "verifiedAt": "2026-10-21T20:46:38.035Z",
+            "savedPublicVerified": true,
+            "reopenedVerified": true,
+            "originalFullPictureAndDurationPreserved": true
+          },
+          "https://www.youtube.com/watch?v=Lx6Lxbx0csk": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.51.mp4",
+            "sourceSHA256": "2c911d79370f81a0d67c7fd10f84780f7edb968d6bcbade94fe141fd3001ad80",
+            "uploadSHA256": "5f190ee3411ac2819bfd72a07eeb1988567cecfabb543058632c72a89db77579",
+            "durationSeconds": 5.266667,
+            "originalFullPicturePreserved": true,
+            "familyForeground": false,
+            "familyExceptionApplied": false,
+            "status": "public",
+            "visibility": "Public",
+            "reopenedPublicVerified": true,
+            "sdProcessingComplete": true,
+            "copyright": "No issues found",
+            "communityGuidelines": "No issues found",
+            "title": {
+              "he": "הכיכר והאנדרטה באי הקתדרלות",
+              "en": "Square and monument on Cathedral Island",
+              "pl": "Plac i pomnik na Ostrowie Tumskim",
+              "de": "Platz und Denkmal auf der Dominsel",
+              "cs": "Náměstí a pomník na Katedrálním ostrově"
+            },
+            "original": true,
+            "tags": [
+              "visit"
+            ],
+            "sourceRefreshRun": "2026-10-21-run4",
+            "approvalCall": "call_65a7df2f3175410ba11f553c66b0419b",
+            "publicEvidence": "outputs/source-refresh-enrichment-2026-10-21-run4/visit-37-public-reopened.txt",
+            "silent": true,
+            "audioRemoved": true,
+            "verifiedAt": "2026-10-21T20:46:40.304Z",
+            "savedPublicVerified": true,
+            "reopenedVerified": true,
+            "originalFullPictureAndDurationPreserved": true
+          }
+        }
+      },
+      "socialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0pRm31PYSfXLwZGJwGJpxwp8kPygsWPJZf6qLqon1hEL8EBTCMJ7MbuLpi5LRc3gcl&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:14:08.484895+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid028SuB1giXKg87at14e9wJHe8M4AD9ie5X8cyLCVCMnM2Co7KNq4av8oqtjmgi91mGl&id=61595239823399",
+          "verifiedAt": "2026-10-07T00:08:01.175847+00:00"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeLBxEina0b/",
+          "verifiedAt": "2026-10-07T00:08:57.316167+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid05QkEtUWQyNM7VgsL1dWiCF7DXZJ5gEh1Yw931xb3HiQRQsEytNkKJaZb7mktkDs3l&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02xsnUBY92pvWXGme2r7FGCoeXcYPmZb79NKZjuxzv63Q2PwSGjyiXBZpedbQhRB7zl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122109921771398802/",
+          "verifiedAt": "2026-10-09T00:27:46.977Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRcDQVndcx/",
+          "verifiedAt": "2026-10-09T11:49:32.089Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeTw-45kaEK/",
+          "verifiedAt": "2026-10-10T09:31:39.554Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DeUjADqnXzz/",
+          "verifiedAt": "2026-10-10T16:48:27.549Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvUmZEfUn/",
+          "verifiedAt": "2026-10-10T18:35:38.933Z"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/p/DbgE00LnOKH/",
+          "routingExcluded": true
+        }
+      ]
+    },
+    "piastowska-pieczec-wroclaw": {
+      "id": "piastowska-pieczec-wroclaw",
+      "localName": "Piastowska Pieczęć: pozostałości zamku Piastów",
+      "name": {
+        "he": "מסלול שרידי טירת פיאסט\nPiastowska Pieczęć",
+        "en": "Piastowska Pieczęć: Piast Castle Remains",
+        "pl": "Piastowska Pieczęć: pozostałości zamku Piastów",
+        "de": "Piastowska Pieczęć: Überreste der Piastenburg",
+        "cs": "Piastowska Pieczęć: pozůstatky piastovského hradu"
+      },
+      "description": {
+        "he": "שרידי ארמון נסיכי פיאסט שמורים מתחת למתחם נוטרדאם באי הקתדרלות, במסלול הביקור פיאסטובסקה פייצ׳ץ׳. גלריית הביקור כוללת את הכניסה ולוחות המידע, את כנסיית מרטין הקדוש שהייתה קפלת הטירה, ואת הגן והמבנים ההיסטוריים בסביבה. הכנסייה והקנוניה הסמוכה הן ישויות נפרדות; תמונותיהן כאן מתעדות את ההקשר של מתחם הטירה ולא חללי מרתף שטרם צילמנו. לתיאום ביקור, תנאי כניסה ושעות פנו לאתר הרשמי.",
+        "en": "The remains of the Piast dukes’ palace survive beneath the Notre Dame complex on Cathedral Island, on the Piastowska Pieczęć visitor route. Our gallery includes the entrance and information boards, St Martin’s Church, formerly the castle chapel, and the garden and historic surroundings. The church and neighbouring canonry are separate buildings: these photographs document the castle-site context, not unphotographed cellar interiors. Consult the official site for visits, admission and opening arrangements.",
+        "pl": "Relikty pałacu książąt piastowskich zachowały się pod kompleksem Notre Dame na Ostrowie Tumskim, na trasie Piastowska Pieczęć. Galeria obejmuje wejście i tablice, kościół św.Marcina, dawną kaplicę zamkową, oraz ogród i historyczne otoczenie. Kościół i sąsiednia kanonia są osobnymi budynkami; zdjęcia pokazują kontekst terenu zamku, a nie niefotografowane wnętrza piwnic. Informacje o zwiedzaniu, wstępie i godzinach sprawdź na stronie oficjalnej.",
+        "de": "Überreste des Palastes der Piastenherzöge sind unter dem Notre-Dame-Komplex auf der Dominsel erhalten und über den Besucherweg Piastowska Pieczęć zugänglich. Unsere Galerie zeigt Eingang, Informationstafeln, die Martinskirche als ehemalige Burgkapelle sowie Garten und historisches Umfeld. Kirche und benachbarte Kanonie sind eigenständige Gebäude; die Fotos zeigen den Zusammenhang des Burgareals, keine nicht fotografierten Kellerräume. Besichtigung, Eintritt und Öffnungszeiten auf der offiziellen Website prüfen.",
+        "cs": "Pozůstatky paláce piastovských knížat se dochovaly pod areálem Notre Dame na Katedrálním ostrově na návštěvnické trase Piastowska Pieczęć. Galerie zahrnuje vstup a tabule, kostel svatého Martina, bývalou hradní kapli, zahradu a historické okolí. Kostel a sousední kanonie jsou samostatné budovy; fotografie zachycují kontext hradního areálu, nikoli dosud nefotografované sklepní interiéry. Návštěvy, vstupné a otevírací podmínky ověřte na oficiálním webu."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.115979591458,
+          "lng": 17.043502238527
+        },
+        "address": {
+          "street": "ul. św. Marcina 12",
+          "city": "Wrocław",
+          "country": "Poland"
+        }
+      },
+      "categories": [
+        "historical-site",
+        "museum"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "Piastowska Pieczęć: Piast Castle Remains",
+        "Piastowska Pieczęć: pozostałości zamku Piastów"
+      ],
+      "sourceRecords": [],
+      "coordinateCandidates": [],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "historical-site",
+          "museum"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://zamekwroclaw.ssnd.pl/",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.115979591458%2C17.043502238527",
+          "appleMaps": null
+        },
+        "socialProfileFallback": false
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "identityVerification": {
+          "canonicalId": "piastowska-pieczec-wroclaw",
+          "state": "verified-new-canonical-proposal",
+          "address": "ul. św. Marcina12, Wrocław",
+          "coordinates": {
+            "lat": 51.115979591458,
+            "lng": 17.043502238527
+          },
+          "coordinateEvidence": {
+            "primaryPage": "https://zabytek.pl/pl/obiekty/g-230759",
+            "directDestinationLink": "https://www.google.com/maps/dir/?api=1&destination=51.115979591458%2C17.043502238527",
+            "method": "Exact NID location for Gothic room / remains of Piast Castle at św.Marcina12. Same building campus as cafe but distinct castle-remains visitor route; not church coordinate."
+          },
+          "sources": [
+            "https://www.ndwroclaw.com/noclegi",
+            "https://zabytek.pl/pl/obiekty/g-230759",
+            "https://www.archidiecezja.wroc.pl/WD-komunikaty/20250411_8.pdf"
+          ],
+          "name": {
+            "he": "מסלול שרידי טירת פיאסט\nPiastowska Pieczęć",
+            "en": "Piastowska Pieczęć: Piast Castle Remains",
+            "pl": "Piastowska Pieczęć: pozostałości zamku Piastów",
+            "de": "Piastowska Pieczęć: Überreste der Piastenburg",
+            "cs": "Piastowska Pieczęć: pozůstatky piastovského hradu"
+          },
+          "description": {
+            "he": "מסלול ביקור במרתפי בית נוטרדאם המציג שרידים של טירת פיאסט באי הקתדרלות. בדקו ישירות מול המפעיל את אפשרויות הביקור וההזמנה.",
+            "en": "A visitor route through the cellars of Dom Notre Dame presents remains of the Piast castle on Cathedral Island. Check visits and booking directly.",
+            "pl": "Trasa zwiedzania w podziemiach Domu Notre Dame prezentuje relikty zamku Piastów na Ostrowie Tumskim. Możliwości zwiedzania i rezerwacji sprawdź u organizatora.",
+            "de": "Ein Besucherweg durch die Keller des Dom Notre Dame zeigt Überreste der Piastenburg auf der Dominsel. Besichtigung und Anmeldung direkt erfragen.",
+            "cs": "Návštěvnická trasa ve sklepích Domu Notre Dame představuje pozůstatky piastovského hradu na Katedrálním ostrově. Prohlídky a rezervace ověřte u provozovatele."
+          },
+          "suggestedMaps": [
+            "cultural history/archaeology"
+          ],
+          "notSameAs": [
+            "kawiarenka-sw-jadwigi",
+            "st-martin-church-wroclaw",
+            "jawor-piast-castle",
+            "brzeg-castle"
+          ],
+          "selectedGlobalIndices": [
+            176,
+            177
+          ]
+        },
+        "catalogAliasesChecked": true,
+        "sourceRefreshRun": "2026-10-21-run4",
+        "notSameAs": [
+          "kawiarenka-sw-jadwigi",
+          "st-martin-church-wroclaw",
+          "jawor-piast-castle",
+          "brzeg-castle"
+        ],
+        "fullReview20261022": {
+          "sourceMediaCount": 11,
+          "photosAfter": 11,
+          "allDistinctRelevantSiteAndContextPhotosIncluded": true,
+          "StMartinIdentityNotMerged": true,
+          "officialSources": [
+            "https://zamekwroclaw.ssnd.pl/regulamin/",
+            "https://www.wroclaw.pl/dla-mieszkanca/ostrow-tumski-poznaj-wroclaw"
+          ],
+          "previousWebsite": "https://www.ndwroclaw.com/noclegi"
+        }
+      },
+      "placeType": "historic-site",
+      "media": {
+        "thumbnail": "/assets/today-source-refresh-20261021/run4-176-piastowska-pieczec-wroclaw.jpg",
+        "photos": [
+          "/assets/today-source-refresh-20261021/run4-176-piastowska-pieczec-wroclaw.jpg",
+          "/assets/today-source-refresh-20261021/run4-177-piastowska-pieczec-wroclaw.jpg",
+          "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg",
+          "/assets/today-source-refresh-20261021/run4-183-st-martin-church-wroclaw.jpg",
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-00.jpg",
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-04.jpg",
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-05.jpg",
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-06.jpg",
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-07.jpg",
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-09.jpg",
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-10.jpg"
+        ],
+        "videos": [],
+        "metadata": {
+          "/assets/today-source-refresh-20261021/run4-176-piastowska-pieczec-wroclaw.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (10).jpeg",
+            "sourceSHA256": "6d3367e66f5c15b8d9820639bc40afa53ad47909521239077296f1bab2a01f2e",
+            "assetSHA256": "e3cdb73c30a34a481d4c4496daf17c659982195776aed2654f70ec2dc8cfd65c",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+            "alt": {
+              "he": "הכניסה למסלול שרידי טירת פיאסט",
+              "en": "Entrance to the Piast Castle remains route",
+              "pl": "Wejście na trasę reliktów zamku Piastów",
+              "de": "Eingang zum Besucherweg der Piastenburgreste",
+              "cs": "Vstup na trasu pozůstatků piastovského hradu"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-177-piastowska-pieczec-wroclaw.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (15).jpeg",
+            "sourceSHA256": "1085ea988e194f010c23fd2ec4b9112c6a777799d1b7ac84f2b3b2b01cde3e38",
+            "assetSHA256": "72d25e043263eebeb504b5237a85304fcb7c14906f95391e4150e8ce4f26f547",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+            "alt": {
+              "he": "לוח מידע על שרידי טירת פיאסט",
+              "en": "Information board about the Piast Castle remains",
+              "pl": "Tablica o pozostałościach zamku Piastów",
+              "de": "Informationstafel über die Piastenburgreste",
+              "cs": "Informační tabule o pozůstatcích piastovského hradu"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (22).jpeg",
+            "sourceSHA256": "2cb363492f3c0f327fc0fb29cc65616f5c2991fb5dfcb8e39037db35f439f56a",
+            "assetSHA256": "0cabcc7a0829981eb11b69741f03af4ac885d71a22c56a9ebc8eb7414653b471",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+            "alt": {
+              "he": "כנסיית מרטין הקדוש מבחוץ",
+              "en": "St Martin’s Church exterior",
+              "pl": "Kościół św.Marcina z zewnątrz",
+              "de": "Außenansicht der Martinskirche",
+              "cs": "Exteriér kostela svatého Martina"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-183-st-martin-church-wroclaw.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (23).jpeg",
+            "sourceSHA256": "0bfea64bd37b908aa73199cffc870b56194de85d36ad2442b97dc543fc02b207",
+            "assetSHA256": "5ea7ee098bed028a4a74c66718c408bef29ec23967a7fa85ea125f5491e45bd7",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+            "alt": {
+              "he": "פרט המגדל המתומן של כנסיית מרטין הקדוש",
+              "en": "Octagonal tower of St Martin’s Church",
+              "pl": "Ośmioboczna wieża kościoła św.Marcina",
+              "de": "Achteckiger Turm der Martinskirche",
+              "cs": "Osmiboká věž kostela svatého Martina"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+            "familyForeground": false
+          },
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-00.jpg": {
+            "index": 0,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (14).jpeg",
+            "sha256": "d683d97efa60758fd887bf9f9479ab50630e612e03ce65141922676b8358da17",
+            "bytes": 296010,
+            "sourceIndex": 0,
+            "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-00.jpg",
+            "assetSHA256": "74d6766d8756f9240fa59070e99b72bece7020daebed341e03f0bd6eb68b7557",
+            "originalDimensions": [
+              1200,
+              1600
+            ],
+            "assetDimensions": [
+              1200,
+              1600
+            ],
+            "originalFullPicturePreserved": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (14).jpeg",
+            "sourceSHA256": "d683d97efa60758fd887bf9f9479ab50630e612e03ce65141922676b8358da17",
+            "familyExceptionApplied": false,
+            "alt": {
+              "he": "לוח מידע היסטורי בביקור במתחם הטירה",
+              "en": "Historical information board during our castle-site visit",
+              "pl": "Tablica historyczna podczas wizyty na terenie zamku",
+              "de": "Historische Informationstafel beim Besuch des Burgareals",
+              "cs": "Historická informační tabule při návštěvě hradního areálu"
+            }
+          },
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-04.jpg": {
+            "index": 4,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (20).jpeg",
+            "sha256": "167a769b0101537d96b58aeb2c2864626360fa44b5c82399b1e5c1c04202b9bd",
+            "bytes": 351381,
+            "sourceIndex": 4,
+            "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-04.jpg",
+            "assetSHA256": "a107609a3327527c83c2991b131bbf6f1aac06502c129fbcf1f5dc2b91a85ed8",
+            "originalDimensions": [
+              1600,
+              1200
+            ],
+            "assetDimensions": [
+              1600,
+              1200
+            ],
+            "originalFullPicturePreserved": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (20).jpeg",
+            "sourceSHA256": "167a769b0101537d96b58aeb2c2864626360fa44b5c82399b1e5c1c04202b9bd",
+            "familyExceptionApplied": false,
+            "alt": {
+              "he": "הגישה לכנסיית מרטין הקדוש, קפלת הטירה שנותרה",
+              "en": "Approach to St Martin’s Church, the surviving castle chapel",
+              "pl": "Dojście do kościoła św.Marcina, zachowanej kaplicy zamkowej",
+              "de": "Zugang zur Martinskirche, der erhaltenen Burgkapelle",
+              "cs": "Přístup ke kostelu svatého Martina, dochované hradní kapli"
+            }
+          },
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-05.jpg": {
+            "index": 5,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (24).jpeg",
+            "sha256": "afe230d11be191dc978edfad4cf1bede12f6324c0e55a8956e23da12aa817e26",
+            "bytes": 412006,
+            "sourceIndex": 5,
+            "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-05.jpg",
+            "assetSHA256": "808e11a6e08d27172b6aa4e22bb2d647fb6959308a9cedd32c4640e83c55f242",
+            "originalDimensions": [
+              1600,
+              1200
+            ],
+            "assetDimensions": [
+              1600,
+              1200
+            ],
+            "originalFullPicturePreserved": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (24).jpeg",
+            "sourceSHA256": "afe230d11be191dc978edfad4cf1bede12f6324c0e55a8956e23da12aa817e26",
+            "familyExceptionApplied": false,
+            "alt": {
+              "he": "הגן והסביבה לצד אתר הטירה",
+              "en": "Garden and surroundings beside the castle site",
+              "pl": "Ogród i otoczenie przy terenie zamku",
+              "de": "Garten und Umgebung neben dem Burgareal",
+              "cs": "Zahrada a okolí u hradního areálu"
+            }
+          },
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-06.jpg": {
+            "index": 6,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (26).jpeg",
+            "sha256": "f4e7b9d228bf18428477b41f09d8de4f47f9757777a1ff07ab165baade5c0fb2",
+            "bytes": 393066,
+            "sourceIndex": 6,
+            "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-06.jpg",
+            "assetSHA256": "6254ba7a072c0a592b1a4f1bcd85029532bdd7527a6443f29f88b6b8bf7d17dc",
+            "originalDimensions": [
+              1200,
+              1600
+            ],
+            "assetDimensions": [
+              1200,
+              1600
+            ],
+            "originalFullPicturePreserved": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (26).jpeg",
+            "sourceSHA256": "f4e7b9d228bf18428477b41f09d8de4f47f9757777a1ff07ab165baade5c0fb2",
+            "familyExceptionApplied": false,
+            "alt": {
+              "he": "מבט לאורך קיר קפלת הטירה",
+              "en": "View along the castle chapel wall",
+              "pl": "Widok wzdłuż muru kaplicy zamkowej",
+              "de": "Blick entlang der Mauer der Burgkapelle",
+              "cs": "Pohled podél zdi hradní kaple"
+            }
+          },
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-07.jpg": {
+            "index": 7,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (21).jpeg",
+            "sha256": "e608f185f1541db569ca244912b4303bd0e3ed2327aeee7d2b0ccc124fcf2196",
+            "bytes": 237735,
+            "sourceIndex": 7,
+            "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-07.jpg",
+            "assetSHA256": "4152e077748cc9574a0bcccafdb3f05a74705ffddebcc1137769faab14eb137d",
+            "originalDimensions": [
+              1200,
+              1600
+            ],
+            "assetDimensions": [
+              1200,
+              1600
+            ],
+            "originalFullPicturePreserved": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (21).jpeg",
+            "sourceSHA256": "e608f185f1541db569ca244912b4303bd0e3ed2327aeee7d2b0ccc124fcf2196",
+            "familyExceptionApplied": false,
+            "alt": {
+              "he": "פרטי דלת הכנסייה בביקור במתחם",
+              "en": "Church-door details during our visit to the area",
+              "pl": "Detale drzwi kościoła podczas wizyty w okolicy",
+              "de": "Details der Kirchentür beim Besuch des Areals",
+              "cs": "Detaily kostelních dveří při návštěvě areálu"
+            }
+          },
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-09.jpg": {
+            "index": 9,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (27).jpeg",
+            "sha256": "6b0251bc0e6bf2bf03428b7a40a98d87cab312d914af5838f195efb32517739e",
+            "bytes": 307816,
+            "sourceIndex": 9,
+            "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-09.jpg",
+            "assetSHA256": "c491c2289bccbc917b51ba1e0fd898e0d37322d531c4b558892cbe0928da1511",
+            "originalDimensions": [
+              1200,
+              1600
+            ],
+            "assetDimensions": [
+              1200,
+              1600
+            ],
+            "originalFullPicturePreserved": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (27).jpeg",
+            "sourceSHA256": "6b0251bc0e6bf2bf03428b7a40a98d87cab312d914af5838f195efb32517739e",
+            "familyExceptionApplied": false,
+            "alt": {
+              "he": "לוח הפרשנות של קנוניית הצלב הקדוש הסמוכה",
+              "en": "Interpretation plaque for the neighbouring Holy Cross canonry",
+              "pl": "Tablica sąsiedniej kanonii świętokrzyskiej",
+              "de": "Informationstafel der benachbarten Heilig-Kreuz-Kanonie",
+              "cs": "Informační tabule sousední kanonie svatého Kříže"
+            }
+          },
+          "/assets/full-enrichment-20261022-neighbourhood-piast/piast-10.jpg": {
+            "index": 10,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (25).jpeg",
+            "sha256": "2d68d935f9f22a61e4332296304398ceb6bd2568e6bcf72885937d49dc2c3e5f",
+            "bytes": 215230,
+            "sourceIndex": 10,
+            "asset": "/assets/full-enrichment-20261022-neighbourhood-piast/piast-10.jpg",
+            "assetSHA256": "2c630e195cb27ed1a832bbee49f2f783dadc0025a0483c809c29f01aab103735",
+            "originalDimensions": [
+              1600,
+              1200
+            ],
+            "assetDimensions": [
+              1600,
+              1200
+            ],
+            "originalFullPicturePreserved": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (25).jpeg",
+            "sourceSHA256": "2d68d935f9f22a61e4332296304398ceb6bd2568e6bcf72885937d49dc2c3e5f",
+            "familyExceptionApplied": false,
+            "alt": {
+              "he": "סביבת אתר הטירה והנהר",
+              "en": "The surroundings of the castle site and river",
+              "pl": "Otoczenie terenu zamku i rzeki",
+              "de": "Umgebung des Burgareals und des Flusses",
+              "cs": "Okolí hradního areálu a řeky"
+            }
+          }
+        }
+      },
+      "socialPosts": []
+    },
+    "st-martin-church-wroclaw": {
+      "id": "st-martin-church-wroclaw",
+      "localName": "Kościół św. Marcina",
+      "name": {
+        "he": "כנסיית מרטין הקדוש",
+        "en": "St Martin’s Church",
+        "pl": "Kościół św. Marcina",
+        "de": "Martinskirche",
+        "cs": "Kostel svatého Martina"
+      },
+      "description": {
+        "he": "כנסייה גותית מלבנים בקצה המערבי של אי הקתדרלות, שנבנתה כקפלת הטירה. אפשר להתרשם מהחוץ; הגישה לפנים מוגבלת.",
+        "en": "A brick Gothic church at the western end of Cathedral Island, originally a castle chapel. View the exterior; interior access is limited.",
+        "pl": "Ceglany gotycki kościół na zachodnim skraju Ostrowa Tumskiego, pierwotnie kaplica zamkowa. Można oglądać elewację; dostęp do wnętrza jest ograniczony.",
+        "de": "Gotische Backsteinkirche am westlichen Rand der Dominsel, ursprünglich eine Burgkapelle. Die Außenansicht ist zugänglich; der Zugang zum Inneren ist eingeschränkt.",
+        "cs": "Gotický cihlový kostel na západním okraji Katedrálního ostrova, původně hradní kaple. Prohlédnout lze exteriér; přístup dovnitř je omezený."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.115484674255,
+          "lng": 17.04285394024
+        },
+        "address": {
+          "street": "ul. św. Marcina 67-68",
+          "city": "Wrocław",
+          "country": "Poland"
+        }
+      },
+      "categories": [
+        "church",
+        "historical-site"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "Kościół św. Marcina",
+        "St Martin’s Church"
+      ],
+      "sourceRecords": [],
+      "coordinateCandidates": [],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "church",
+          "historical-site"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://zabytek.pl/pl/obiekty/wroclaw-kaplica-ob-kosciol-rektorski-sw-marcina",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.115484674255%2C17.04285394024",
+          "appleMaps": null
+        },
+        "socialProfileFallback": false
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "identityVerification": {
+          "canonicalId": "st-martin-church-wroclaw",
+          "state": "verified-new-canonical-proposal",
+          "address": "ul. św. Marcina67–68, Wrocław",
+          "coordinates": {
+            "lat": 51.115484674255,
+            "lng": 17.04285394024
+          },
+          "coordinateEvidence": {
+            "primaryPage": "https://zabytek.pl/pl/obiekty/wroclaw-kaplica-ob-kosciol-rektorski-sw-marcina",
+            "directDestinationLink": "https://www.google.com/maps/dir/?api=1&destination=51.115484674255%2C17.04285394024",
+            "method": "Exact latitude/longitude supplied by NID official direction link; not geocoded or inferred from neighboring church."
+          },
+          "sources": [
+            "https://zabytek.pl/pl/obiekty/wroclaw-kaplica-ob-kosciol-rektorski-sw-marcina",
+            "https://geoportal.wroclaw.pl/poi/poi/1734"
+          ],
+          "name": {
+            "he": "כנסיית מרטין הקדוש",
+            "en": "St Martin’s Church",
+            "pl": "Kościół św. Marcina",
+            "de": "Martinskirche",
+            "cs": "Kostel svatého Martina"
+          },
+          "description": {
+            "he": "כנסייה גותית מלבנים בקצה המערבי של אי הקתדרלות, שנבנתה כקפלת הטירה. אפשר להתרשם מהחוץ; הגישה לפנים מוגבלת.",
+            "en": "A brick Gothic church at the western end of Cathedral Island, originally a castle chapel. View the exterior; interior access is limited.",
+            "pl": "Ceglany gotycki kościół na zachodnim skraju Ostrowa Tumskiego, pierwotnie kaplica zamkowa. Można oglądać elewację; dostęp do wnętrza jest ograniczony.",
+            "de": "Gotische Backsteinkirche am westlichen Rand der Dominsel, ursprünglich eine Burgkapelle. Die Außenansicht ist zugänglich; der Zugang zum Inneren ist eingeschränkt.",
+            "cs": "Gotický cihlový kostel na západním okraji Katedrálního ostrova, původně hradní kaple. Prohlédnout lze exteriér; přístup dovnitř je omezený."
+          },
+          "suggestedMaps": [
+            "cultural history/architecture",
+            "existing Ostrów Tumski walk if appropriate without route rewrite"
+          ],
+          "notSameAs": [
+            "cathedral",
+            "st-giles-church",
+            "piastowska-pieczec-wroclaw"
+          ],
+          "selectedGlobalIndices": [
+            178,
+            183
+          ]
+        },
+        "catalogAliasesChecked": true,
+        "sourceRefreshRun": "2026-10-21-run4",
+        "notSameAs": [
+          "cathedral",
+          "st-giles-church",
+          "piastowska-pieczec-wroclaw"
+        ]
+      },
+      "placeType": "church",
+      "media": {
+        "thumbnail": "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg",
+        "photos": [
+          "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg",
+          "/assets/today-source-refresh-20261021/run4-183-st-martin-church-wroclaw.jpg"
+        ],
+        "videos": [],
+        "metadata": {
+          "/assets/today-source-refresh-20261021/run4-178-st-martin-church-wroclaw.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (22).jpeg",
+            "sourceSHA256": "2cb363492f3c0f327fc0fb29cc65616f5c2991fb5dfcb8e39037db35f439f56a",
+            "assetSHA256": "0cabcc7a0829981eb11b69741f03af4ac885d71a22c56a9ebc8eb7414653b471",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+            "alt": {
+              "he": "כנסיית מרטין הקדוש מבחוץ",
+              "en": "St Martin’s Church exterior",
+              "pl": "Kościół św.Marcina z zewnątrz",
+              "de": "Außenansicht der Martinskirche",
+              "cs": "Exteriér kostela svatého Martina"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+            "familyForeground": false
+          },
+          "/assets/today-source-refresh-20261021/run4-183-st-martin-church-wroclaw.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טרת פיסט באי הקתרדלות/WhatsApp Image 2026-10-21 at 20.48.55 (23).jpeg",
+            "sourceSHA256": "0bfea64bd37b908aa73199cffc870b56194de85d36ad2442b97dc543fc02b207",
+            "assetSHA256": "5ea7ee098bed028a4a74c66718c408bef29ec23967a7fa85ea125f5491e45bd7",
+            "originalFullPicturePreserved": true,
+            "familyExceptionApplied": false,
+            "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+            "alt": {
+              "he": "פרט המגדל המתומן של כנסיית מרטין הקדוש",
+              "en": "Octagonal tower of St Martin’s Church",
+              "pl": "Ośmioboczna wieża kościoła św.Marcina",
+              "de": "Achteckiger Turm der Martinskirche",
+              "cs": "Osmiboká věž kostela svatého Martina"
+            },
+            "sourceRefreshRun": "2026-10-21-run4",
+            "verifiedAt": "2026-10-21T19:26:11.907211+00:00",
+            "familyForeground": false
+          }
+        }
+      },
+      "socialPosts": []
+    },
+    "the-bridge": {
+      "id": "the-bridge",
+      "localName": "The Bridge Wrocław – MGallery",
+      "name": {
+        "he": "The Bridge Wrocław – MGallery",
+        "en": "The Bridge Wrocław – MGallery",
+        "pl": "The Bridge Wrocław – MGallery",
+        "de": "The Bridge Wrocław – MGallery",
+        "cs": "The Bridge Wrocław – MGallery"
+      },
+      "description": {
+        "he": "אחד המלונות שמקבלים המלצות טובות באופן עקבי.",
+        "en": "One of the hotels that receives consistently good recommendations.",
+        "pl": "Jeden z hoteli regularnie otrzymujących dobre rekomendacje.",
+        "de": "Eines der Hotels mit regelmäßig guten Empfehlungen.",
+        "cs": "Jeden z hotelů, které pravidelně získávají dobrá doporučení."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.113712,
+          "lng": 17.0479934
+        }
+      },
+      "categories": [
+        "sleep"
+      ],
+      "sourceUrls": [
+        "https://www.facebook.com/61591964083308/posts/122108682867398802/"
+      ],
+      "aliases": [],
+      "sourceRecords": [
+        {
+          "productId": "lifestyle-guide",
+          "kind": "catalog-place",
+          "sourceId": "the-bridge"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "lifestyle-guide",
+          "sourceId": "the-bridge",
+          "lat": 51.113712,
+          "lng": 17.0479934
+        }
+      ],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "sleep"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": null,
+        "navigation": {
+          "googleMaps": null,
+          "appleMaps": null
+        }
+      },
+      "media": {
+        "photos": [],
+        "videos": []
+      },
+      "socialPosts": [
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MbjYon5ZFf4ohmxbLXVHHwr86YeB6LBQGax39Ar2eb35zhFjQLzjFhygtDZvicN2l&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Yxi23vXhHPzGrn4DcMVrDAB5eGYDeTKDxgfBbWsRDBWpLuVHmzFkEbcQVrt53Wq4l&id=61595036942289",
+          "verifiedAt": "2026-10-08"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/61595239823399/posts/122097091089507994/",
+          "verifiedAt": "2026-10-08T17:45:06.878Z"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02NHGWnPg1a4v4ppSAzWvEneeTNVRKb5XgamgFvtnyTWm4DMpSybHRLyAkkZxZ4v4al&id=61595207664875",
+          "verifiedAt": "2026-10-08T18:23:12.690591+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02zzs9UR1EnAJ2fj3nnUJDFUJuvjfMEdw79GsQ1GbXcju9wWA8J4wTuRTQAT8T6HBdl&id=61591964083308",
+          "verifiedAt": "2026-10-09T11:26:22.912748+00:00"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
+        }
+      ],
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ]
+    },
+    "wroclaw-botanical-garden": {
+      "id": "wroclaw-botanical-garden",
+      "localName": "Ogród Botaniczny Uniwersytetu Wrocławskiego",
+      "name": {
+        "he": "הגן הבוטני בוורוצלב",
+        "en": "Wrocław Botanical Garden",
+        "pl": "Ogród Botaniczny we Wrocławiu",
+        "de": "Botanischer Garten Breslau",
+        "cs": "Botanická zahrada ve Vratislavi"
+      },
+      "description": {
+        "he": "הגן הבוטני של אוניברסיטת ורוצלב, ליד הקתדרלה באוסטרוב טומסקי. שבילים מחברים בין אוספי צמחים, עצים, ערוגות ובריכות עם צמחי מים. בתמונות הנוף מהביקורים שלנו נראים הגשר הקטן, המזרקה, פריחות עונתיות ושבילי הגן בעונות שונות. אפשר לבחור בו כהפסקה ירוקה ביום הביקור באזור הקתדרלה. שעות הביקור והאירועים משתנים לפי העונה ומופיעים באתר הרשמי.\nOgród Botaniczny Uniwersytetu Wrocławskiego\nHenryka Sienkiewicza 23, Wrocław",
+        "en": "The University of Wrocław Botanical Garden beside the cathedral district of Ostrów Tumski. Paths link plant collections, trees, flower beds and ponds with aquatic plants. Our scenery photographs from different visits show the small bridge, fountain, seasonal flowers and garden paths. Choose it for a green break while exploring the cathedral area. Seasonal visiting hours and events are listed on the official website.\nHenryka Sienkiewicza 23, Wrocław",
+        "pl": "Ogród Botaniczny Uniwersytetu Wrocławskiego obok Ostrowa Tumskiego. Ścieżki prowadzą między kolekcjami roślin, drzewami, rabatami i stawami z roślinami wodnymi. Zdjęcia krajobrazu z naszych wizyt pokazują mostek, fontannę, sezonowe kwiaty i alejki o różnych porach roku. To zielona przerwa podczas zwiedzania okolic katedry. Sezonowe godziny zwiedzania i wydarzenia podaje oficjalna strona.\nHenryka Sienkiewicza 23, Wrocław",
+        "de": "Der Botanische Garten der Universität Breslau liegt neben der Dominsel Ostrów Tumski. Wege verbinden Pflanzensammlungen, Bäume, Beete und Teiche mit Wasserpflanzen. Unsere Landschaftsaufnahmen aus verschiedenen Besuchen zeigen die kleine Brücke, den Springbrunnen, saisonale Blüten und Gartenwege zu unterschiedlichen Jahreszeiten. Eine grüne Pause beim Besuch des Domviertels. Saisonale Besuchszeiten und Veranstaltungen stehen auf der offiziellen Website.\nHenryka Sienkiewicza 23, Wrocław",
+        "cs": "Botanická zahrada Vratislavské univerzity leží vedle katedrálního ostrova Ostrów Tumski. Cesty propojují sbírky rostlin, stromy, záhony a jezírka s vodními rostlinami. Naše snímky z různých návštěv ukazují malý most, fontánu, sezonní květy a zahradní cesty v různých ročních obdobích. Zelená přestávka při prohlídce okolí katedrály. Sezonní otevírací dobu a akce uvádí oficiální web.\nHenryka Sienkiewicza 23, Wrocław"
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.1159,
+          "lng": 17.0478
+        },
+        "address": {
+          "street": "Henryka Sienkiewicza 23",
+          "postalCode": "50-335",
+          "city": "Wrocław",
+          "country": "Poland"
+        }
+      },
+      "categories": [
+        "activity",
+        "garden",
+        "nature"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "Botanical Garden Wroclaw",
+        "Ogród Botaniczny Uniwersytetu Wrocławskiego"
+      ],
+      "sourceRecords": [
+        {
+          "productId": "wroclaw-four-days",
+          "kind": "recommendation",
+          "sourceId": "wroclaw-botanical-garden"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "wroclaw-four-days",
+          "sourceId": "wroclaw-botanical-garden",
+          "lat": 51.1159,
+          "lng": 17.0478
+        }
+      ],
+      "status": "published",
+      "editorialPriority": "normal",
+      "taxonomy": {
+        "categories": [
+          "activity",
+          "garden",
+          "nature"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://www.ogrodbotaniczny.wroclaw.pl/",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1159%2C17.0478",
+          "appleMaps": "https://maps.apple.com/?ll=51.1159,17.0478"
+        },
+        "socialProfileFallback": false
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "experiences": [
+        {
+          "id": "pumpkin-illuminations-2026-10",
+          "type": "seasonal-event",
+          "name": {
+            "he": "דלעות מוארות בגן הבוטני: מתוכנן ל־13–18 באוקטובר",
+            "en": "Dyniowe Iluminacje: planned for 13–18 October at the Botanical Garden",
+            "pl": "Dyniowe Iluminacje: zaplanowane na 13–18 października w Ogrodzie Botanicznym",
+            "de": "Kürbisilluminationen im Botanischen Garten: für 13.–18. Oktober angekündigt",
+            "cs": "Dýňové iluminace v botanické zahradě: plánovány na 13.–18. října"
+          },
+          "startDate": "2026-10-13",
+          "endDate": "2026-10-18",
+          "status": "announced",
+          "sourceUrl": "https://www.ogrodbotaniczny.wroclaw.pl/wydarzenia.html",
+          "verifiedAt": "2026-10-12"
+        }
+      ],
+      "provenance": {
+        "factualSources": [
+          {
+            "type": "official",
+            "url": "https://www.ogrodbotaniczny.wroclaw.pl/kontakt.html",
+            "checkedAt": "2026-10-12"
+          },
+          {
+            "type": "official",
+            "url": "https://www.ogrodbotaniczny.wroclaw.pl/wydarzenia.html",
+            "checkedAt": "2026-10-12"
+          }
+        ],
+        "coordinateVerification": {
+          "sourceUrl": "https://www.ogrodbotaniczny.wroclaw.pl/kontakt.html",
+          "method": "GPS coordinates published by the university garden; garden location, not a claimed entrance.",
+          "checkedAt": "2026-10-12"
+        },
+        "refresh20261020": {
+          "sourceFileCount": 34,
+          "selectedPhotos": 11,
+          "personalPhotosExcluded": 12,
+          "personalVideoExcluded": 1,
+          "duplicateVideoExcluded": 1,
+          "sourceOriginalsUnchanged": true,
+          "familyException": false,
+          "mapDecision": "Optional green activity recommendation for day2 of four-day map near cathedral district; no change to timed stops, no automatic cultural/lifestyle/other route inclusion.",
+          "preparedPeopleRemovalFiles": 9,
+          "source": "User-prepared non-portrait scenery copies retained as supplied; no new AI editing performed."
+        }
+      },
+      "media": {
+        "thumbnail": "/assets/botanical-garden/botanical-garden-01.jpg",
+        "photos": [
+          "/assets/botanical-garden/botanical-garden-01.jpg",
+          "/assets/botanical-garden/botanical-garden-02.jpg",
+          "/assets/botanical-garden/botanical-garden-03.jpg",
+          "/assets/botanical-garden/botanical-garden-04.jpg",
+          "/assets/botanical-garden/botanical-garden-05.jpg",
+          "/assets/botanical-garden/botanical-garden-06.jpg",
+          "/assets/botanical-garden/botanical-garden-07.jpg",
+          "/assets/botanical-garden/botanical-garden-08.jpg",
+          "/assets/botanical-garden/botanical-garden-09.jpg",
+          "/assets/botanical-garden/botanical-garden-10.jpg",
+          "/assets/botanical-garden/botanical-garden-11.jpg"
+        ],
+        "videos": [
+          "https://youtube.com/shorts/7IHNkTmYczU",
+          "https://youtube.com/shorts/VA_NAM3dDVw",
+          "https://youtube.com/shorts/6VH_8-wmIAw",
+          "https://youtube.com/shorts/kPvsw5LfP0A",
+          "https://youtube.com/shorts/gXmyRW2rRaY"
+        ],
+        "guideVideos": {
+          "he": "https://youtube.com/shorts/xkwNR0L_azo",
+          "en": "https://youtube.com/shorts/sV59N6brOoI"
+        },
+        "metadata": {
+          "/assets/botanical-garden/botanical-garden-01.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Image 2026-10-20 at 22.13.44.jpeg",
+            "sourceSHA256": "08d97411cd2d26f7e8f345fc5fbaeb7308f448a6bc26099fc065196d55db2731",
+            "assetSHA256": "dd2ebd12bd9526e9ab9473b4dc5ba02202f71e0331824aa6125104db7c4edfc4",
+            "original": true,
+            "userPreparedPeopleRemoval": false,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "שביל מוצל בגן הבוטני",
+              "en": "Shaded path in the Botanical Garden",
+              "pl": "Zacieniona ścieżka w ogrodzie botanicznym",
+              "de": "Schattiger Weg im Botanischen Garten",
+              "cs": "Stinná cesta v botanické zahradě"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-02.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 176477.png",
+            "sourceSHA256": "e6b795072cd9fe5f19a8ee6ff6be7f4b215c4a21dfbc57088836cca2d54c45b7",
+            "assetSHA256": "9398e3b2ee4f79d8143f58dcee7f9ab68b9b5e5f4cc1894739373f21808a4f17",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "בריכת הגן והערבה",
+              "en": "Garden pond and willow",
+              "pl": "Staw i wierzba w ogrodzie",
+              "de": "Gartenteich und Weide",
+              "cs": "Zahradní jezírko a vrba"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-03.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 718793.png",
+            "sourceSHA256": "915dcb5e0e47803a397ac7c1555c614abe6b263800e82e7fd0e46b2137771328",
+            "assetSHA256": "a5f9f8853ad3b7d005bd4b94af7ab1b659e002e9e2b040cc2d84c8bbd360d8a0",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "גשר עץ מעל הבריכה",
+              "en": "Wooden bridge over the pond",
+              "pl": "Drewniany mostek nad stawem",
+              "de": "Holzbrücke über dem Teich",
+              "cs": "Dřevěný most přes jezírko"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-04.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 829243.png",
+            "sourceSHA256": "7ba653491fd0d742679381e17816b4deb89ee45dc4819c43ba1b2a919ae980de",
+            "assetSHA256": "db80115dab1b5f5c8f1fa913c55d31862eca26826c5b864a7e8835bd03deb819",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "מזרקה וצמחי מים",
+              "en": "Fountain and aquatic plants",
+              "pl": "Fontanna i rośliny wodne",
+              "de": "Springbrunnen und Wasserpflanzen",
+              "cs": "Fontána a vodní rostliny"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-05.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me wife from the picture 997007.png",
+            "sourceSHA256": "8df999b7adcb1e619b3500877d4182b001587884ca05af16f998ce8e871b2f6b",
+            "assetSHA256": "0f9cbf62b66b4d687c271ac7fe4067dcfaf4944e474138ef29ccbf29dc492023",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "פרחים לבנים בערוגה",
+              "en": "White flowers in a garden bed",
+              "pl": "Białe kwiaty na rabacie",
+              "de": "Weiße Blumen im Beet",
+              "cs": "Bílé květy na záhonu"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-06.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 555826.png",
+            "sourceSHA256": "6d76a3c3d372b85a6fe688430f58a29e4ba6d05476f16ec29d1f576c3b5e9e16",
+            "assetSHA256": "2d844750338e1bd59a41e4745d561efac90b16e42de0f201b38e502bdafc8f1b",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "פסל אבן לצד השביל",
+              "en": "Stone sculpture beside the path",
+              "pl": "Kamienna rzeźba przy ścieżce",
+              "de": "Steinskulptur am Weg",
+              "cs": "Kamenná socha u cesty"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-07.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 663794.png",
+            "sourceSHA256": "99ef78946a30d020bc1a52289f7e589494c3c0beb9c724400070961ce576f717",
+            "assetSHA256": "bdaea624e477450225c8e47bf238ce0406ca215b22190c7d1fb7f248f7dfce8b",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "בריכה ומגדלי הקתדרלה ברקע",
+              "en": "Pond with cathedral towers beyond",
+              "pl": "Staw i wieże katedry w tle",
+              "de": "Teich mit Domtürmen im Hintergrund",
+              "cs": "Jezírko a věže katedrály v pozadí"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-08.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 678472.png",
+            "sourceSHA256": "35e5b082c07f3f441e092570eb65203f04b9b0b8e3ed62b1fa110c48b455448e",
+            "assetSHA256": "fa50aeed85bfb3ca17eb810e72838d860baf403c6c85c01c044a72b84bd994ef",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "צמחייה ועצים בגן",
+              "en": "Plants and trees in the garden",
+              "pl": "Rośliny i drzewa w ogrodzie",
+              "de": "Pflanzen und Bäume im Garten",
+              "cs": "Rostliny a stromy v zahradě"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-09.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 821263.png",
+            "sourceSHA256": "2e83e37c4c975664409459fa446499095c210071445efe393f8504d87c66cb50",
+            "assetSHA256": "8382351960790901ece4b8d500aa3e495fbfdf360be2b33163a1027114ed9096",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "עץ מחטני בגן",
+              "en": "Conifer in the garden",
+              "pl": "Drzewo iglaste w ogrodzie",
+              "de": "Nadelbaum im Garten",
+              "cs": "Jehličnan v zahradě"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-10.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wifr from thje picture 476272.png",
+            "sourceSHA256": "5610b4d482ddef60fc628146011680d84e0411f80822f5ceadf43b2bf9a21b7a",
+            "assetSHA256": "b8ebdc06a3226076c6cbb2146d52f603092915b157c5e7e9d6403993d10040a9",
+            "original": false,
+            "userPreparedPeopleRemoval": true,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "הבריכה והמזרקה מעבר לצמחייה",
+              "en": "Pond and fountain beyond the planting",
+              "pl": "Staw i fontanna za roślinnością",
+              "de": "Teich und Springbrunnen hinter der Bepflanzung",
+              "cs": "Jezírko a fontána za zelení"
+            }
+          },
+          "/assets/botanical-garden/botanical-garden-11.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/WhatsApp Image 2026-07-14 at 12.13.32.jpeg",
+            "sourceSHA256": "99bc03e7fa28d9f28486305bfdcea54efed0512c559c5405eef93c827b415f54",
+            "assetSHA256": "6b7a6dfc06cda6c1eb5d8cdef7133c1a285c86ac983ec097d540a4211e9214b9",
+            "original": true,
+            "userPreparedPeopleRemoval": false,
+            "pictureFramePreserved": true,
+            "familyForeground": false,
+            "alt": {
+              "he": "מדרגות בין עצים ושיחים",
+              "en": "Steps between trees and shrubs",
+              "pl": "Schody między drzewami i krzewami",
+              "de": "Stufen zwischen Bäumen und Sträuchern",
+              "cs": "Schody mezi stromy a keři"
+            }
+          },
+          "https://youtube.com/shorts/7IHNkTmYczU": {
+            "title": {
+              "he": "בריכת הגן והמזרקה",
+              "en": "Garden pond and fountain",
+              "cs": "Zahradní jezírko a fontána",
+              "de": "Gartenteich und Springbrunnen",
+              "pl": "Staw i fontanna"
+            },
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/WhatsApp Video 2026-07-14 at 12.13.32.mp4",
+            "sourceSHA256": "25545969995072a3e8be4c62515f15f31611e7f59fc1f064e9f58a1babf1c8ea",
+            "uploadSHA256": "a543942b1fd9cf198f1f70e3b093f0b9683af58f48410baf6fdbab113f7aca82",
+            "durationSeconds": 30.051667,
+            "originalPictureUnchanged": true,
+            "audioRemoved": true,
+            "visibility": "Public",
+            "savedPublicVerified": true,
+            "checks": "complete-no-issues",
+            "reopenedAt": "2026-10-20T19:44:54.908Z",
+            "personalMedia": false
+          },
+          "https://youtube.com/shorts/VA_NAM3dDVw": {
+            "title": {
+              "he": "שבילי הגן והפריחה",
+              "en": "Garden paths and flowers",
+              "cs": "Zahradní cesty a květy",
+              "de": "Gartenwege und Blüten",
+              "pl": "Ścieżki i kwiaty"
+            },
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.45.mp4",
+            "sourceSHA256": "a27f74f2f7bfc6470f9bf577a8b692571f547f24ee5f8eabcec4ad74008023e4",
+            "uploadSHA256": "36b1307519ea8ede3d83a0364883093fd1ab0a26f74d7b94fec7b5651ba46732",
+            "durationSeconds": 4.9,
+            "originalPictureUnchanged": true,
+            "audioRemoved": true,
+            "visibility": "Public",
+            "savedPublicVerified": true,
+            "checks": "complete-no-issues",
+            "reopenedAt": "2026-10-20T19:45:09.694Z",
+            "personalMedia": false
+          },
+          "https://youtube.com/shorts/6VH_8-wmIAw": {
+            "title": {
+              "he": "עצים ושביל מוצל",
+              "en": "Trees and a shaded path",
+              "cs": "Stromy a stinná cesta",
+              "de": "Bäume und schattiger Weg",
+              "pl": "Drzewa i zacieniona ścieżka"
+            },
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.51 (2).mp4",
+            "sourceSHA256": "c397837b428d02215ad8503a4f647f1df7620903264c959c22cc377503006e1a",
+            "uploadSHA256": "c9aedede7420d0811ccfeb8243eef668d866a1420f476648fd4fc5f5493f9ecc",
+            "durationSeconds": 5.3,
+            "originalPictureUnchanged": true,
+            "audioRemoved": true,
+            "visibility": "Public",
+            "savedPublicVerified": true,
+            "checks": "complete-no-issues",
+            "reopenedAt": "2026-10-20T19:45:12.247Z",
+            "personalMedia": false
+          },
+          "https://youtube.com/shorts/kPvsw5LfP0A": {
+            "title": {
+              "he": "ערוגות סתיו",
+              "en": "Autumn flower beds",
+              "cs": "Podzimní záhony",
+              "de": "Herbstliche Beete",
+              "pl": "Jesienne rabaty"
+            },
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.51 (3).mp4",
+            "sourceSHA256": "96c9a33890be59cb4fb6838a453e60de479bb8cae883d7ac5a79d328c25d2653",
+            "uploadSHA256": "ccd4834c5b42cff11380b12e963ae9e89a44f54d3c633c43b46933f17b6e9125",
+            "durationSeconds": 3.4,
+            "originalPictureUnchanged": true,
+            "audioRemoved": true,
+            "visibility": "Public",
+            "savedPublicVerified": true,
+            "checks": "complete-no-issues",
+            "reopenedAt": "2026-10-20T19:45:14.793Z",
+            "personalMedia": false
+          },
+          "https://youtube.com/shorts/gXmyRW2rRaY": {
+            "title": {
+              "he": "ענפים וצמחיית הגן",
+              "en": "Branches and garden plants",
+              "cs": "Větve a zahradní rostliny",
+              "de": "Zweige und Gartenpflanzen",
+              "pl": "Gałęzie i rośliny ogrodowe"
+            },
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/המדריך שלנו/WhatsApp Video 2026-10-20 at 22.13.51 (4).mp4",
+            "sourceSHA256": "dc3056e442115838205eedc5a9f2e88e8717d74f9abc4eacaa6ae923bbf0b086",
+            "uploadSHA256": "3558445be86b4bd89f5237492c046adfd067e89ade476b0bfa2ad1405c0d0433",
+            "durationSeconds": 4.8,
+            "originalPictureUnchanged": true,
+            "audioRemoved": true,
+            "visibility": "Public",
+            "savedPublicVerified": true,
+            "checks": "complete-no-issues",
+            "reopenedAt": "2026-10-20T19:45:17.366Z",
+            "personalMedia": false
+          }
+        }
+      },
+      "socialPosts": []
+    }
+  },
+  "recordHashes": {
+    "absynt-aparthotel-garbary-wroclaw": "13bb0e551d6e33a3dd3cb53f163d62297bb00a0c3cfec9c1cdaf3af3af81f93d",
+    "ac-hotel": "7182f725812c1fe864afd0830cb53aaf35d4507aa23830b64126c00f1b9677fe",
+    "aleja-bielany": "c2077f3a1c4d8a64ebf1c50ce3143ed469e9679eca12ec8ac649f49b1f8b541b",
+    "altus": "80e8ff135740f977f2342dac05662391812f3ceec41481dc70bc8b836d88e727",
+    "apartamenty-marina-topacz-wroclaw": "b493952b4a208ec665a15cc8ab09150991571046087c184081d3278889a02bb6",
+    "arche-klasztor": "75995377f317522cadb525736143f3c5c85ea6ad7aa886e662c777cccb0701ec",
+    "art-hotel": "8092a007eaccf04e04d0c2da71f30b99a9f54582eb9d00965861cf00299f338d",
+    "ato-ramen": "ce681f78f48ecefad18da4dda465433244daa4c1b8e0bf619a695fe062e0e779",
+    "aula": "93c017656eb994a484f74010d2da444a6a8cfcddff7c445c36ad1e4f9b277f28",
+    "bar-mis": "aab9a7ad1c168a066d719f8d1791c1389faa17006c3c5ab6ccec1835597bb971",
+    "bar-mleczny-mewa-wroclaw": "a67a5f6145d18a913c74d6f08c47fd8f5c02ae4657512b917399c7c9713232cf",
+    "barbara-wroclaw": "ae5573b89390c559b47a1ea06d37abd842854b7026000db5b5acfcb47637a266",
+    "bastion": "49a30341bcfd23735852bbbd139ca4bba7d8d14ffeebd619843a016dee13a77d",
+    "bb-hotel-wroclaw-old-town": "1e3c90183e0be0ea956328f5b0b55e19e6a16620171ab25c835a83ec9fc56c6b",
+    "bernard-bistro-wino": "719a3746287c2a046f913809dbe1a7ee01d07ac28668356417359defb38d27d5",
+    "bistro-stu-mostow": "7fc710c6095e4aae8be27641455d16961fa00fe5e7f3e2e2ef778639c6ac241e",
+    "boguslawskiego": "3ac07871a75715c6461012fee014c911a5e28d1a07325cb08336d9cbc2465e73",
+    "boleslawiec-ceramics-museum": "5425ebdd43ba2ea052f6d7bf6b67ecf45e3eb24fcc529713eafd2b339a0b20fd",
+    "boleslawiec-old-town": "8aa80c7ca03568c80a9284b813eedeaad7a990b2614acdda28bc072cb815b5aa",
+    "boogie-aparthouse-garbary": "ce160a72de33d08b43461fbe0b070c8cbeba251a5fb6257daebd9133d7ca0b8b",
+    "borek": "e1431450ba8fda4c64613bf6cfd0ab57a33110a65dffa9a44b6a5643b95199bc",
+    "browar-stu-mostow": "0ff67d26d29ec946bdb7036fd061573891194b2c21838c5b8a9a719b4b537c74",
+    "bru-coffee-bakehouse-wroclaw": "d6dcd12e53d4d637a309ff4ce2f9af7834baf489920cfeace72244ba579230f8",
+    "brzeg-castle": "8b9a761245519a0e1cd74bd1f052a4036949d0f73448272144a8329a75ea9118",
+    "brzeg-holy-cross-church": "c2c2383a27d620f50726c253ce78efbf61b70c9d2f0cfc46a9fae3a017730ccc",
+    "brzeg-oder-gate": "ee7ffe2564b0a8781091e52c0549a62684d216013da66dbcf7f77a5de6c03338",
+    "brzeg-st-nicholas-church": "8409982d104f52f49d2fe7c481121290361ec1cc4656ad590c5bc1293c1ca5e8",
+    "brzeg-town-hall": "2013b6d4e0b4c2b3f95942d3d43fa9ef354085f5c10528d1902ee203442a4262",
+    "bulka": "b53fb7e75d9318c1edf66d3ba828b0eb1e05a64cda416cd20db3741dbc0f9a6f",
+    "cafe-berg-wroclaw": "e23038c4e87f7ce3c76ad521cfbd7c8072fbc2d7328a0ea14fd7e52b7c8853ed",
+    "cafe-targowa": "688a4c2b3dcf905f67ef83a715ebbbdd2448d29c5b1e013e1fe6a747121a9887",
+    "cathedral": "2153b03b515a993c0d1c6fd2733ed69b6aa36a31082e9600a2c3d190911e95a0",
+    "central": "b403bff271da9ef512863e89dd92f4e74d580dd329ef0b49c42d450ebd0e1de7",
+    "central-cafe-nadodrze": "0c595d8a4d608821f3bbc065c1891f85caa4356cd9b59cf0c690d30c5cae1258",
+    "charlotte": "e8226a564ef726197868a372a1f358253cd9e0f082d66d01d7e6b13a4974183a",
+    "chatka": "2a8fb78824506400ee841637f3700a83ed78af935e9a8ceb00b20b3ee421e4e1",
+    "church-of-peace-swidnica": "576e902ce4bad5be0df2ada89080f90ed3196d83758d57a121dbf283a640e688",
+    "concept-stu-mostow": "ea233398a739ab3a600107d30c8d0be8009d840a19a7bd5f94bc38517cda9702",
+    "concordia-taste": "cb022a607eaa7a92f03c45fe37b1bf2802dfd0bfae892be549a6252c3542128d",
+    "czarna-magia": "71f12a6db3ebb2519f89333f53e2bece182ae8a1d6eb81ecefeea2544ef5b026",
+    "czocha-castle": "083aa3d5bc38cf68dad811189e3dc0cb9bee8f68850f8ba77382309ec942af13",
+    "depot-history-centre": "18dfee99fdb84a8464531a9f38c9f13a6a6d9e1d6aad7a350c0602581bbb065a",
+    "dinette": "4d112a508ac39261c28379ef2165076eaf7fc978bad21e338bf26cb2b1be1a94",
+    "dobra-paczkarnia-kuznicza": "82ad59607e6c60c9992d1cc933cd83c6778280de1d9956e9982a30a540d035c8",
+    "domek-nad-fosa-wroclaw": "a953862ce58431521f9989ca2ec90f460080f53daf26f4d85331299a2e42a166",
+    "dominikan": "d5eb6f9620bad58db4e8179568b669b48c2fcffa7dcd5ad5673e378b49c2a037",
+    "doubletree": "1edfbf38cc81328d99f54953623e3ce92981d39f42b0d6437cd6d93c06caf190",
+    "dunikowski": "0f3d905f69b189ec4804343694379e1d1296e9c6d56f42c0d83df56c67af6964",
+    "dwarf-info": "1b2f82b1a113ceeac32b2478cd7aac8cfcecfa76b12bde62e3415addad645f84",
+    "dwor-polski-hotel-wroclaw": "b2ed91ead12593b209fd4cdb9df22d22218fac44c89773081fe1586e9f0a75ca",
+    "el-gato-odrzanska-wroclaw": "967b3ce1e9eda743b6308d7458a64f37f752bb068f3f966a5ffae99da97526a3",
+    "elizabeth": "9137f3b007f4bc24063a67b9b903371d9a96203938a37cef343b678c03b23840",
+    "entre-hotel-wroclaw": "1c5d8aa6334a764c8169b9294b74aaeb1ba064241128ce2e74ed1e3d4e4bfafe",
+    "fashion-outlet": "3cfd3c426564a6bcd9adfa30323735f998c5eeaa8b4245b69b865994eda6938d",
+    "fc-caffe-kuznicza": "5181a67f05f0ae446089c26961a67604aef98008a5d1aed8bb7f991d726c7379",
+    "figa-w-barbarze": "2f2d71418ea121cec8bb4ddf699e0dfeee48361bdd3588d3ae13f03764bb8c4b",
+    "fountain": "c093737aae35b16f1d8e149feca3bac71a1845ea6abceabcf98fa493ab6a4ad6",
+    "four-denominations-district": "7899631788ca64ba934579cd6c84d7af66c67b9868ed696950c307d0efbdaf03",
+    "four-domes": "897b5ffe902ce671cf4ec63f294ddd9e8deaf9a00fe9be6f92c1b06a8282026f",
+    "frytki": "c8844c5a06378f4b79bc946945ef88ff0b77a3d6a7eb28d479f6f1c61301e632",
+    "glowny": "2e0fca8edbf2adda168873867246be6fcfda2e7940b783b405b84747b49f5ee0",
+    "gniazdo": "c32c521854964b16b0627b12cf032755479861c9f98c8e1ec0a9fa4f15cb9c2a",
+    "gustaw-restaurant-wroclaw": "176a92c4c2404d3a60d2629093873dcf61183ea85ccc173ef5221eb32c0d3b97",
+    "hala": "4f5c33d3305c83a1de58abd2a35853d60397011de8016481783c952641eb71ab",
+    "hala-targowa": "1973d79a10761d4a05c4c1846b04688deb7f44cbe0f7d7f8d983847acf9daf52",
+    "henryk-tomaszewski-theatre-museum": "5552282480788f052c10354634f4a9f84830b8342342da1584834409396db4d2",
+    "herbal": "7169d201bba49ef2bed0ef61556a11aa6d7b3e5f24a63444227a20f87858299e",
+    "hostel-krasnal-wroclaw": "e60845893066901c799dbd01b7fe1774da84fb1e781f862f9b10c2a142488c1c",
+    "hotel-traffic-wroclaw": "ff10e90d2e925f7cfc2473995378988814884c5ade858b91f3a75f540ca80477",
+    "hydropolis": "d594f8c57e5e45f72a3aeca09cebdf4e41e0a7002e86cc91609aec3831a0ed12",
+    "ibis-styles-wroclaw-centrum": "a9c0ddf51e04afef2a24b9d5206549e54a8830d5d344eca4d18514fc12bf5650",
+    "ida-kuchnia-i-wino": "d12f40dc130127863e7393ffb4febf70447d9ec5e09931cf3d473a86838dd918",
+    "india-concept-wroclaw": "fb01aab62bd96c9ba805beb19f4902b6ac7fefdcd6afb17f82922d93fbe6a9bf",
+    "japanese": "4461bad37554dd8383b86b0f5933ab3682b7e28d8a7285879485b3e0737b8de7",
+    "jas-malgosia": "84bb43877b02da03b5964f6e3ee6cc2fb2d43c79ab5566cc34eb32961e80f2fc",
+    "jatki": "b1907fad9a5b9e34bae26acd3388d796d08ea27b841ee20fa7493aa5cc8e4e81",
+    "jawor-church-of-peace": "7bd20c86e014669b9e78a2f3219c46642b06792f547362c42c337104be23e0c4",
+    "jawor-market-square": "3e91d0b2203ae45903c5c888dc17ffcd4dc7e4bc9acb5e8f2552ff3b047ff8d7",
+    "jawor-piast-castle": "4fc75e8a1fe651d4c12e0e16830df1e861356fc2ad1ab79a137c408111fc51cb",
+    "jelenia-gora-market-square": "6db81304fb6eb9f07ee4d922bc73e65be2669bb1584b8aecd2e8b113e656f97d",
+    "jolie-kurzy-targ": "fe5343f167831570edaafe5dea1c8efaf62ebb51f3365b066cb4dfd0f16faad9",
+    "jolie-plac-solny": "86a07ba0ec3d7e52216227648c40ba2fb832e26e71fe10b9df29f17a02b598bf",
+    "joyinn-aparthotel-wroclaw": "9d8ad394977b1e91159eee32c44fb988556ff07f9028e67fd778a1710dc81859",
+    "kaffe-bageri-stockholm": "8ec62bab3b31fd4d6997bee55c2289128d43a121c7194187c12c834b2cc9b63c",
+    "kaplica-czaszek-czermna": "3a9e57737461b2fada03c64f5eba51736a2089b22c390b16b8434935a1c57253",
+    "karmello": "4914ec59bed72fc1df7aca8b8b696ee69e8f98c0f467051a6bf340230f120b0f",
+    "karpacz-centre": "f6278d510147240fd869b6224d010cbd84344ac0095ffcd4df174fec1ce4bc88",
+    "kawiarenka-sw-jadwigi": "e3d155658417a9ccb88ef7197d51ed7c5fc69a958f6b6bacef50d328d8f82085",
+    "klodzko-fortress": "6b4a872aeb5300570392f7291a4fd75faaf8bbba16b6a170ec662660f1de1754",
+    "klodzko-old-town": "d4f99329265afd975a5b76aa589a71dbcf1368b5b6ee2676a9d0ef4432a524e1",
+    "konspira": "6072d817357e6b26a10b4f4d9904a4574eed44ea1b9b8ed5460afc66263d0b4a",
+    "korona-hotel": "f128a47d9f9f038fd3cd6c519d686e0b6519e4d00c1b593bc44e3d1b4740daa5",
+    "korona-shopping": "7d5697fa343e675d33c889a655df9a542b1de674d57e312afe54a50261f7424a",
+    "ksiaz-castle": "915c99d8db0d86cc30b0e5a7126730bbe9bb6c19321132439db52af367318551",
+    "la-maddalena": "2793b9acc34fa78851c319335fa7fa016a8c84f36fcf06ddb0acaf3dda0979b3",
+    "lesnianska-dam": "45daddf7daf87be03d6f67591bee910652c0a56dff94e440fd60441e39f2a8e5",
+    "lodz-church-square": "4cb08d63f2139cd22ade18e2ffd79f0e8c7599d7d66f87dd5bfb833b9de777a1",
+    "lodz-freedom-square": "03c24590603d4e277479156dcc46c69b7d4ae1a1ebe40fe9aa4587a6124f8da8",
+    "lodz-ghetto-baluty": "b6fab65767a63c97ede65e045d7b8038ddd13b09cf1ea64bd2bfc051b146cd4c",
+    "lodz-gutenberg-house": "6d1feb0e49881b0073e136b394f035430592a50827928e43a8b7b3b1850f864f",
+    "lodz-manufaktura": "3d1afcf61b569c45fea2e04a8535d1b893ad250dc07972fbe61dce40369aa6f6",
+    "lodz-old-market": "8802e05ace44390dbf7c11e78add089b0aa9b36cdf2c1987c77620931e9380b7",
+    "lodz-piotrkowska": "dccfa015431bb49ab146162fa1622d12c3f2a4ddf643069c3e43f83cc579ad3f",
+    "lodz-rose-passage": "c9411d5acf942dcae86b3aa3ecdd66f9acfcf20b76f1c784b573fc4e09f068fb",
+    "lodziarnia-roma": "ceaa8a9bd517ab54a052f576ca131d517b2496a2ab90d8123d534c519b248e58",
+    "lwia-brama-restaurant-wroclaw": "dd6d5187b551ddcc82968442d00e4312fffa633a98a0ec62a7655a9e6c1b63db",
+    "magnolia": "457be4756ad08e38d1322ca27f9501123e52351c6088a4e4c7e272cd8281372a",
+    "mala-czarna-paderewskiego": "fdfa9b89edd5e3dee1767c5d39614e72b03125290633d6394ff4d3120f8aeb10",
+    "mandarin": "904a3fea67469dbbf9561eb48f2c6f52cc72e4bcff7180313fafe5ffbc408976",
+    "mania-al-taglio-kuznicza": "1ea8f63c10685758e3115dacc2796dbd7b9f813c585c2bbc20d4a18e524c8a34",
+    "marietta-focacceria-wroclaw": "29a2a3028305d01b8bcb8c270d6a821f848fce01ce216e7c9e09a5f7731d8358",
+    "marina": "8c00d4e3e7a7432c93796d7a38815396dc47511df9985fbbcc82a60cc7bc821d",
+    "math-tower": "c68b87cc2ac781e8859345d6c0f7e8afbced00944a27e65c6f2b71057bff27c5",
+    "meatologia-sikorskiego": "b04c7f4177ad627b087ae25b6f154369ae6ef88f56fadd67192b8a3a10474027",
+    "meatologia-wlodkowica": "82383214ebdf8625826ea5026c5f9871f79657a73e9f40c2c1f2e1da9d0ee608",
+    "meatologia-zwycieska": "c87ded62efc76d94be674df71a711f4913585abb140d28d737839fb1813f3698",
+    "monopol": "707039bcf5a1c0144726cbacba55638e847bf06ad9d757376a52a683dc5c8678",
+    "morskie-oko-wroclaw": "ecd3e301ea00fcb6aa3d3527411083c5fa0b7db2eb292605b4021bca54a37c03",
+    "most-piaskowy": "e99f6fef90dc172198a3da0b418f118440a0892367427638d88191e7f8c4a338",
+    "most-pomorski-poludniowy-wroclaw": "7a68f2048d1eda6c5a8bdd8a6bd8a371202ea6994d854d1f5441cf718fbf07ff",
+    "most-tumski": "7b81b5c85a5755df08c228682cf1c94e47ceb54165631a4a2f0a606996aae10d",
+    "mostek-pokutnic-wroclaw": "4e00cd78938c3179997c7318b59a42e5dcbee7cb5e2720ee0f3b3077926e7f0a",
+    "moszna-castle": "f7d13915200085da70bc5c2ab0b491644ec4e13b38cb08554a5eea32a2c93aea",
+    "moszna-castle-park": "b668cb81952754f7255eb98665c96a0ef781996f412c28e9b303e1c0362ec520",
+    "movenpick-grand-hotel-wroclaw": "924d3cb0f89eab5aa5ef19fc5b04166ace3b7d36dec47e06f70161ffdb3cffce",
+    "municipal-arsenal-wroclaw": "7325c8f08763e58f0c1d84f81181ffb7f1da9eab95d7c87cc1eb6b12dde6ab77",
+    "museum-of-architecture-wroclaw": "4caca8b276fb3adeb12a6df1ff3faf66475f57417ca7acb70e473f0cfd5e81cd",
+    "museum-of-pharmacy-wroclaw": "a41d34288569ef10c367ffc6688fc8bd85e50f77c84742cfe03dbed16c07c45c",
+    "nanan": "6f500085b4cd2ed85f7ebe42602dbc9b7dadab2dc33b7a5e4c422411272ade28",
+    "national-museum": "365f5de51b098a02ac00fb32597c1981dd2705899695868f8bc56c3c8c40e8c3",
+    "new-horizons-cinema": "d6f2ec090d464a78ec798ced2767f8ba698cf353227f696b9a21a892171fe1f6",
+    "nfm": "8a2f62add46a9da29a683a1383b9f8172fef0b93d0f7bdbaada669e75e71268b",
+    "odra-centrum": "6e69d7d2910c85ea037af80fdba88447d8906bd2532f2cdba7f91a2f6372a4f5",
+    "old-jewish-cemetery-wroclaw": "754168b54637b491c447ada8f9aa9a729a6ca949354b54d4c87b51c27dc3f00a",
+    "olio-pizza-napoletana-wroclaw": "58531aec46466cac04f34ca7c01a8e45a5e777817e71a68347c10807a5ac9cc0",
+    "opera": "b398150b76f13cb79e239e0a6b0bf9c5c5a8071c39eaeacb337158e5494ea0ba",
+    "ossolineum": "745d5559fcf372c49b77c733abba09a644631b0740ee197432af1bddb38b7387",
+    "ostrow": "0b68689fe2742856f8259f1e2397eed146b33e04de52ca0c7b89b9f29f5648dc",
+    "paczkarnia": "d2730fd2ddba56f6973b6c13194d6faafa335dde4680cc200d6b408f64a83d71",
+    "paloma-coffee": "b99ce82c6b5dbd4d517b40c969f3dfa65cfd70628f6f6f77d9b92d4273734a6c",
+    "pan-precel": "1f5c61841d2b7ebb7b360e966e6d136c0f137c504969abee29c2abeb1ba3d182",
+    "pan-precel-express-grunwaldzki": "89933580516a92201badb564785f268fac265c78a8992ef9f1d03e46dbfce0bb",
+    "pan-precel-olawska": "e4d717613a1a3f77d56cb8d81dd8f9b3d6d6f1d60ca069789be80961f59b05a7",
+    "pan-tadeusz-museum": "4179dae528f1abb7acaf4d8cdcd75e5f4aa62f0d0963c8d227e44c16a114f696",
+    "panorama": "11083b9cdfb8ee2cf5e9f7319c90f7150887653f3bc6f4d5988033f3b332c083",
+    "papa": "ad409f32908aaa868cc54efc4f74bfa444404ea3a34c011362f18d45053f3180",
+    "park-szczytnicki-wroclaw": "39f9a0c8fb8b83669db8dbeebbfb3de2b290f86f0b958123311e3a95dd2d6eea",
+    "parrot-coffee-bema": "3c61531fb2af2bfa677e3c9caf72e47446a1a5b0d88ad1fd905e62b5badcf995",
+    "pasaz": "2e7bb653954e3ea90152b5d228295873bd27f7ca899523ee3ff857961bf01953",
+    "pedet": "fc5efe5ed73c0fab7486c79b1f27402b8bdd240283a0125c2f50ad026cf4b171",
+    "pergola": "e5ea6be8352ac4c1f840b5324e4e81d86a901fca24d5f373b2e0d0884f470872",
+    "peruwiana": "b029b955cc02bc1fc723a9020e8fcbc3277441d81d5f3974e5394129834750ab",
+    "pestka-bistro-wine-bar": "46c383a6fc41801515b8e88c3ee45d45eede329df454694309a987fe93318414",
+    "piastowska-pieczec-wroclaw": "a8ea7cc755e96ebe55a4e3337652791510f0471d58822ec4f0e5e0d847163d53",
+    "pijalni-wino-bistro": "5f9148dfebe957eb65bde021b22090b991661776817a26d716a0ace715ca7702",
+    "pizza-si": "cb5c210f93c907699d79aa3324c8e57ca165c15875844433238a026d257d79a0",
+    "polinka": "4ad685335cfda66f0c4be323b0b16254cccf08364e926bcd22e49df5862f1296",
+    "polish-lody": "a0680003095ce826072c83373f047e6d2ba540e1d37f19b5ed375b45e6b132ca",
+    "polish-theatre-wroclaw": "6f8b2e82e53836c1adbde1a3234387b38fd3f7a10f0f64ad4007f03f15197955",
+    "pomiedzy-cafe-bistro-wroclaw": "a0e7e16166f36f79db9fdd7c22f784f4b50f8618d2f80c635bf2272272c00ec1",
+    "prize-by-radisson-wroclaw-sky-tower": "f3b77713d916a5722db174bc10262e434718556ccd0e671e651684602b244d1a",
+    "przystanek-kowary": "cda5f7aea6da63e0bfa1cb349dc5c96ce762745fd5f10179027ca6139e85d079",
+    "puro": "bf9387adba511f8758a6c97abfdc5e723417807d5da87cae144fa4347ca80ea0",
+    "renoma": "c87930694c54a4dbbbef767675204e29c8958d349ed692d26a3020c389824c3a",
+    "restauracja-tarasowa": "e785d55195f2dc252389e118290068e49c7d43f697f349a57e38fffcfdb35ad5",
+    "royal-palace-wroclaw": "336e68deeb34414e2d83c23298040bcaad216d259b18eff3cf31c209653fc502",
+    "rozowa-krowa-milk-bar-wroclaw": "02706f681ae3f2ff722558d71cdd76e7c2c3f2fff559d077e112d88179251fe0",
+    "rynek": "abbed2d6c242ac9f2e1b04e93e51fc7f79abcf737b02a140d12e614a24fa3329",
+    "sarah": "3672a3597199c509f39407157d0695f76dd564da2238542ce20e051f857a99aa",
+    "sic-gallery-bwa-wroclaw": "96799127adf2f67452fbcae101efb8977eec3a7b51ec7ba25e07c5453f64dade",
+    "slodowa": "3ce054273a319bcc6f6d9ee16793900a6bdd1c0a88df5946d7107c33386c62ad",
+    "solny": "e2034ffacc3fc16044e40ba88d553f697875af4d0a542ea215d57ef9da68e4f4",
+    "song-of-the-goat-theatre": "4225d01da2ae81a944e000ce8e77cdbfd90cd790ed0afcfd7133e84e997d94b3",
+    "srebrna-gora-fortress": "7b3fb1ea237a6bffaa3a979384bb9ffdace16fdc732af6628775b5b93cb68b43",
+    "st-martin-church-wroclaw": "e9402cd8b236d17d775839545e2028101b0575175c4c0453048f786a6aa53ceb",
+    "stadion-olimpijski-wroclaw": "5cba3f1b3957715dba1801265a6b138909b9eb19bda848a4b3c3fca870002545",
+    "stary-mlyn-rynek-wroclaw": "562b2abb600d97d9818d0283a818958b0a9920b72d7b9e0d02061b9c317e3734",
+    "studio-bwa-wroclaw": "900b30cb2ea95e9ce6aea191b32c4f3c8c8591c346910653f10f06fdbb8daa6b",
+    "sushi-corner": "736185eb4190aae7192efe47f819be0c76fe2c1950c8181919169662e71073d2",
+    "szkocka-cocktail-bar": "15bf79a08c50407e6d711078092055c90d1b73e8c44084e8c740d7cc6382ed2c",
+    "taproom-stu-mostow": "c91c3f65e1dbaf7a3c061c0682e98c088bd49c3461e5b7c2ae373213ab39b9dd",
+    "the-bridge": "f2dd8d1e5f4515f8a9cd5c625d78de83f59204003cb69911e1eb420a6e4b0075",
+    "the-cyrus-hotel-wroclaw": "231cc1aa8344e6da7edf94290f5bcd6c5f5dbb045e938a0bd20a96baa1d1a39f",
+    "the-mexican": "bc7e517747c996a72ae1438d8b117f5d58673300d86d3b94ef8372acf759e361",
+    "town-hall": "3e7f3da88c83b3ca999d2c0733d55ecc0bf772c9b2786ccc47d429bc00a20c36",
+    "tulip-hotels-wroclaw-patio": "82d1af1329f7aecce450b5027746aa7bb57038992ec76e879b0938e227c3c09d",
+    "university": "06a8182adc9e1308682994af4284fe449acff6c5179d3fbb1e9e35fddecec542",
+    "vega-bar-weganski-wroclaw": "59de1cf70b8bc9cb5f35ce95439c46317f5cc998400552f2898e53afbcf3a1f6",
+    "vegan-af-ramen": "7aa95709f05555149143b272fb0f54fc713f7e0d17c1a97ce1b3251a38a25a40",
+    "walbrzych-market-square": "d118c31ae67c3b3224d097887512620c5bbf9fdbdaf02440c42e60d6131bcf2b",
+    "wang-church": "54bfed63072e8309afbc1227022ffa09f1497cd00435fd579034b53eeeae16a2",
+    "warsaw-nozyk-synagogue": "f8af08e5d53ba24099e79f5265bfd3d034a10cd226a0d516d97f69b8104c9c05",
+    "warsaw-saxon-garden-fountain": "ba5c8907b70b878629a23f872b2db6b31500e529e557e004fff11808e8b41ebd",
+    "warsaw-unknown-soldier": "b95043d8a0b9558edc795a818f93c7a12496f2444284e00c249ce359b5509051",
+    "water-refill-hala-stulecia": "52247f0a774647245723b458b1683df4be302b1da09291745d4632b8cf308ad4",
+    "water-refill-hydropolis": "604755494952d65e4a9bea3b7dc2ae7c4d6c113a7abc6db98bc74a56fd761d7a",
+    "water-refill-nmp-piasek": "68f74e18b181c9c3118298df4e6443a995534ecb4bb88c7a3a33c0ac4543ab7f",
+    "water-refill-olawska-swidnicka": "1bd6ea965ad1f86b59a7b1b4bd97dd55241941871f320be1717ffa7152ea6c2a",
+    "water-refill-park-tolpy": "2ee3ae56de8006ca6bf26f4b25fae4c742e0145e033fa63e632934fbbd1cc375",
+    "water-refill-plac-dominikanski": "d1e0cd1633d3685f7e45e5d668779e44ffd7844a1f2c4f3d2ab4e2b20bf73ed5",
+    "water-refill-plac-nowy-targ": "86bf625dfe08fac589aec41880d76a00b6faa32fc18fd0495abd027f82d31748",
+    "water-refill-plac-solny": "cfed62ef693257f94fb357855bf22c0bbf72623824be01aec05376c6fd7c9e30",
+    "water-refill-plac-teatralny": "404d9e18c326525a486c9229c38206b9d753837f1656acadd8ec85e1d8360ba0",
+    "water-refill-plac-wolnosci": "8a8694ace2f91fd67be28ef63e496e20fb335f23d18ac17047f7b5498fbb576d",
+    "water-refill-rynek-psiego-pola": "87c749cc69babb71878cd5304bbea1d8940c6477ae0ba07e71ba0c5f82f013c2",
+    "water-refill-skwer-steinmetza": "bfa8a9389dac278f2cdeb180b107eac0f865b9c0e6dbdeb3fe03b9c8092193e9",
+    "water-refill-wroclaw-airport": "7121748bf8ba1fca34f61eccd8e5d24a9196687c6b81935e782347f0dac6dff1",
+    "water-refill-wyspa-slodowa": "199d41a252207742fa80abc8ab712fa1c45616a8f52ae245796d78db2f7ba4fd",
+    "water-refill-zoo-afrykarium": "640b0b7b769e5136ae1d6dc67db0f4c49d6b421e71beda014f810338fbf3e081",
+    "wedel": "4f365bc311d3569534f33c2270468254bd7fa319390cdde2cdf3936284a553cd",
+    "wedrowcy-kolejowa-63": "94388f9344d1955d11be8ca0f82d519ded846db5227ece3b6529941d7b0f8a14",
+    "whiskey": "90fdf03d641d654b29d82bd324d6fc1c28bec0894e1ce32edcbc3c14cd3ae26f",
+    "white-stork-synagogue-wroclaw": "7b8da95a3189e789142f25ee966e1343fcd5955011d6cb60172a0b9e0afc24ca",
+    "wierzbowa-15": "61e559adcc99042613a1b14910adb22f265d176e1b44c6ae6e3e02bf830e6fb2",
+    "wieza-cisnien-borek": "a70da71a23a9899d13251350c5910baa97de04f0f2c0d3db3f6d0150f6d86992",
+    "woda-cafe": "37d4db9d3140048ab69f198c8db0e7101d28103ff3ca52c90e620135b25734f0",
+    "woosabi": "9f6eb61c71c6cf86af42516f01e33bbae5e24f0dafc9258ecb6fc8170456428f",
+    "woosabi-swidnicka-wroclaw": "2c4d754162e8a2d043c8da617b5d7d38096682b74115d72ec3243efdf60a437c",
+    "wroclavia": "12083f399d3f1e422d9ce53e2b69d71e8dac33ed9997a8145fa2b496fe1a91bc",
+    "wroclaw-botanical-garden": "b5cbe8aa48acd49442e1b70c234b8246df5de7fe823623e08be8ecd87a03525f",
+    "wroclaw-contemporary-museum": "6093663db5130b590ead60a890765d9782f9392d5c5366ac4cc934ecdcb07b36",
+    "wroclaw-contemporary-theatre": "dc3bac4882c3ef2a982d34d77644286a03cf47b8cf751010181ad37f83f39a96",
+    "wroclaw-puppet-theatre": "0ec314b4be3a90c2a0daf62cdd14c36de8a890cdbdd0943dcc0674b2f0f5d1d0",
+    "wuwa": "086e40d6633ee4271bca3fd527d6b49ef0e45731be038801f1bdbff7ab5fdc75",
+    "wuwa-estate": "e8e529dba2593bc96991e0aae08f9ffc3f6109048a27862dcf0884b3cb5ba0a5",
+    "wyndham-wroclaw-old-town": "c7786cd30d5156ac41218f35ab850348528b96a451c5c33f37ec459bcd58509c",
+    "wyspa-piasek": "98df9bddb93c0bcd12277e4e5008e5acb876a70585a1d15b18233a0a2f29bf67",
+    "zamek-topacz": "69eca3dc99f98275b62a216ff22db26766372a977677e3937d7422b420107d93",
+    "zenka": "eed8a3a01e27d47e8aad0df6805abf2cd0e200fa94b1c73750bfb210d208077d",
+    "zoo-wroclaw": "b84a8fb51d1d380c79964e8891404caba7c9b81879f798071da66fbace207aea",
+    "zyjnia-bwa-wroclaw": "e95387f20a59a9cb195a8d4b623e8d328fdfefa51690550b01e02f3c7312d06a"
+  },
+  "unchangedDayHashes": {
+    "1": "76590561515357e7d9c904cea4bb4bebbcec477485c7b7812147fe5cac7da67e",
+    "3": "7f46ab37fc60a060840a3a1b56177bc30ab5b1488a8cd7f26deb5e4c2ae0ed9a",
+    "4": "c193442112582d37afdd0b92f5f487c3066fa18a7d28eecac48656df19aa0ffb"
+  }
+}

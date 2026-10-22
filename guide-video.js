@@ -47,8 +47,10 @@
     const url=sourceFor(id,lang);if(!youtubeId(url))return "";
     const englishOnly=lang==="he"&&!editionsFor(id)?.he;
     const suffix=englishOnly?"הדרכה באנגלית · כתוביות בעברית":subtitleLabels[lang]||subtitleLabels.en;
-    const title=`${labels[lang]||labels.en}${suffix?` · ${suffix}`:""}`;
-    return `<a class="guide-video-action${resourceClass?` ${escapeHtml(resourceClass)}`:""}" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-guide-video-src="${escapeHtml(url)}" data-guide-video-lang="${escapeHtml(lang)}" aria-label="${escapeHtml(title)}" title="${escapeHtml(title)}"><span class="brand-icon guide" aria-hidden="true"><img src="/assets/logo.png" alt=""></span><span class="guide-video-action-copy"><span class="guide-video-action-title">${escapeHtml(labels[lang]||labels.en)}</span><span class="guide-video-action-language">${escapeHtml(suffix)}</span></span></a>`;
+    const contextLabels=window.WROC_CATALOG?.getPlace(id)?.provenance?.guideContextLabel;
+    const label=contextLabels?.[lang] || labels[lang] || labels.en;
+    const title=`${label}${suffix?` · ${suffix}`:""}`;
+    return `<a class="guide-video-action${resourceClass?` ${escapeHtml(resourceClass)}`:""}" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-guide-video-src="${escapeHtml(url)}" data-guide-video-lang="${escapeHtml(lang)}" aria-label="${escapeHtml(title)}" title="${escapeHtml(title)}"><span class="brand-icon guide" aria-hidden="true"><img src="/assets/logo.png" alt=""></span><span class="guide-video-action-copy"><span class="guide-video-action-title">${escapeHtml(label)}</span><span class="guide-video-action-language">${escapeHtml(suffix)}</span></span></a>`;
   }
   document.addEventListener("click",event=>{
     const trigger=event.target.closest?.("[data-guide-video-src]");const url=trigger?.dataset.guideVideoSrc;if(!youtubeId(url))return;
