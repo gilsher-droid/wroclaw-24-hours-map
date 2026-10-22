@@ -15,7 +15,7 @@
  let dialog,trigger,oldOverflow,active;
  function create(){
   dialog=document.createElement('dialog');dialog.id='place-ai-dialog';dialog.className='place-ai-dialog';dialog.setAttribute('aria-labelledby','place-ai-title');
-  dialog.innerHTML='<div class="place-ai-heading"><h2 id="place-ai-title"></h2><button type="button" id="place-ai-close"></button></div><div id="place-ai-name"></div><p id="place-ai-help"></p><label for="place-ai-preset" id="place-ai-preset-label"></label><select id="place-ai-preset"></select><label for="place-ai-question" id="place-ai-question-label"></label><textarea id="place-ai-question" rows="10" maxlength="12000" spellcheck="true" aria-describedby="place-ai-help"></textarea><button type="button" id="place-ai-copy"></button><p id="place-ai-status" role="status" aria-live="polite"></p><nav id="place-ai-services"><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a></nav><p id="place-ai-privacy"></p><p id="place-ai-notice"></p>';
+  dialog.innerHTML='<div class="place-ai-heading"><h2 id="place-ai-title"></h2><button type="button" id="place-ai-close"></button></div><div id="place-ai-name"></div><p id="place-ai-help"></p><label for="place-ai-preset" id="place-ai-preset-label"></label><select id="place-ai-preset"></select><label for="place-ai-question" id="place-ai-question-label"></label><textarea id="place-ai-question" rows="8" maxlength="12000" spellcheck="true" aria-describedby="place-ai-help"></textarea><button type="button" id="place-ai-copy"></button><p id="place-ai-status" role="status" aria-live="polite"></p><nav id="place-ai-services"><a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPT</a><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Gemini</a></nav><p id="place-ai-privacy"></p><p id="place-ai-notice"></p>';
   document.body.append(dialog);
   const get=id=>dialog.querySelector('#place-ai-'+id);
   get('close').addEventListener('click',()=>dialog.close());
@@ -33,7 +33,7 @@
   get('name').replaceChildren(...[ctx.name,ctx.localName,ctx.city].filter((v,i,a)=>v&&a.indexOf(v)===i).map(v=>{const line=document.createElement('div');line.textContent=v;line.dir='auto';return line;}));
   get('help').textContent=t.help;get('preset-label').textContent=t.preset;get('preset').replaceChildren(...t.options.map((label,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=label;return o;}));
   get('question-label').textContent=t.question;get('question').value=model.prompt(ctx);get('question').dir=dialog.dir;get('copy').textContent=t.copy;get('copy').disabled=false;get('status').textContent='';get('services').setAttribute('aria-label',t.services);get('privacy').textContent=t.privacy;get('notice').textContent=t.notice;
-  oldOverflow=document.body.style.overflow;document.body.style.overflow='hidden';dialog.showModal();get('preset').focus();
+  oldOverflow=document.body.style.overflow;document.body.style.overflow='hidden';dialog.showModal();dialog.scrollTop=0;get('preset').focus({preventScroll:true});
  }
  document.addEventListener('click',e=>{const b=e.target.closest?.('[data-place-ai]');if(!b)return;e.preventDefault();e.stopPropagation();try{open(JSON.parse(b.dataset.placeAi),b);}catch{} });
  window.WROC_PLACE_AI=Object.freeze({button});
