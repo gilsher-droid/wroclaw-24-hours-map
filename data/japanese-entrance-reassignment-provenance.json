@@ -1,0 +1,58 @@
+{
+  "recordedAt": "2026-10-22T19:05:08.675Z",
+  "userCall": "call_32c2d237c98842c79f52f0c8b9e439c7",
+  "userWords": "כן, זו הכניסה לגן היפני",
+  "url": "https://www.youtube.com/watch?v=oeTVQpkK7kU",
+  "youtubeId": "oeTVQpkK7kU",
+  "from": "hala",
+  "to": "japanese",
+  "reason": "User identified the ticket-booth forecourt as Japanese Garden entrance. Correct the earlier surrounding-Hall association; preserve original Public ID and sources.",
+  "priorMetadata": {
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/WhatsApp Video 2026-09-24 at 17.32.26.mp4",
+    "sourceSHA256": "732ba3d93c1f0037a641e36f6d9fcf59bffc7fe6ea73089770481c147102375c",
+    "uploadSHA256": "21a34bbc2273f45ed01363fe0704e20b0cb3c11d96ef96e2227e3a3a829d2687",
+    "durationSeconds": 2.85,
+    "title": {
+      "he": "שביל גן ליד היכל המאה",
+      "en": "Garden path near Centennial Hall",
+      "pl": "Ścieżka ogrodowa przy Hali Stulecia",
+      "de": "Gartenweg an der Jahrhunderthalle",
+      "cs": "Zahradní cesta u Haly století"
+    },
+    "silent": true,
+    "originalFullPicturePreserved": true,
+    "visibility": "Public",
+    "publicReopened": true,
+    "sdComplete": true,
+    "approvalCall": "call_7ef0c1d7152d49928c1bb47d115f02e7",
+    "checksEvidence": "Wizard both Copyright+CommunityGuidelines complete NoIssues before ordinary Publish; reopened Public/SDcomplete"
+  },
+  "newMetadata": {
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/WhatsApp Video 2026-09-24 at 17.32.26.mp4",
+    "sourceSHA256": "732ba3d93c1f0037a641e36f6d9fcf59bffc7fe6ea73089770481c147102375c",
+    "uploadSHA256": "21a34bbc2273f45ed01363fe0704e20b0cb3c11d96ef96e2227e3a3a829d2687",
+    "durationSeconds": 2.85,
+    "title": {
+      "he": "הכניסה לגן היפני והרחבה לפניה",
+      "en": "Japanese Garden entrance and forecourt",
+      "pl": "Wejście do Ogrodu Japońskiego i plac przed nim",
+      "de": "Eingang des Japanischen Gartens und Vorplatz",
+      "cs": "Vstup do Japonské zahrady a prostranství před ním"
+    },
+    "silent": true,
+    "originalFullPicturePreserved": true,
+    "visibility": "Public",
+    "publicReopened": true,
+    "sdComplete": true,
+    "approvalCall": "call_7ef0c1d7152d49928c1bb47d115f02e7",
+    "checksEvidence": "Wizard both Copyright+CommunityGuidelines complete NoIssues before ordinary Publish; reopened Public/SDcomplete",
+    "identityClarificationCall": "call_32c2d237c98842c79f52f0c8b9e439c7",
+    "sameCaptureAlternateOriginal": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5827.MOV",
+      "sourceSHA256": "407f0d794f3e61295fd49b5cae1203ae15dac34725b47e77bfaa4d7e7e40ded6",
+      "duration": 2.833333
+    },
+    "previousCanonicalAssignment": "hala",
+    "sameVideoReusedNoUpload": true
+  }
+}

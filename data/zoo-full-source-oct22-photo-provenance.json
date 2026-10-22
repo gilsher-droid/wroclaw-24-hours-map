@@ -1,0 +1,1990 @@
+{
+  "sourceCount": 62,
+  "distinct": 54,
+  "newPhotos": 46,
+  "existingPhotos": 8,
+  "copies": 8,
+  "excludedPhotos": [],
+  "assets": [
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4969.JPG",
+      "sha256": "da959a5e1ce6d0cdf4e5c6b6cdef9e1ed4cf5da4da889081a4656d6d33b0550c",
+      "bytes": 5188787,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 0,
+      "nearestAsset": "/assets/lodz-arrival/lodz-ghetto-baluty-03.jpg",
+      "assetCanonicals": [
+        "lodz-ghetto-baluty"
+      ],
+      "pixelMAE": 38.624855324074076,
+      "asset": "/assets/round24h-20261022/zoo-00.jpg",
+      "assetSHA256": "f355ea699c8524a8c7ea5be280c518a15f258c7e6c93644b56286a5fdc04f220",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "מפת גן החיות למבקרים",
+        "en": "Zoo visitor map",
+        "pl": "Mapa zoo dla zwiedzających",
+        "de": "Besucherplan des Zoos",
+        "cs": "Návštěvnická mapa zoo"
+      },
+      "caption": {
+        "he": "מפת גן החיות למבקרים",
+        "en": "Zoo visitor map",
+        "pl": "Mapa zoo dla zwiedzających",
+        "de": "Besucherplan des Zoos",
+        "cs": "Návštěvnická mapa zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4971.PNG",
+      "sha256": "08593a03b7867ac75cc0511203ddbcb165ef00ac020ed99d8f6b799ad6204cd3",
+      "bytes": 2672322,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 1,
+      "nearestAsset": "/assets/full-enrichment-20261022/ossolineum-00.jpg",
+      "assetCanonicals": [
+        "ossolineum"
+      ],
+      "pixelMAE": 33.96050347222222,
+      "asset": "/assets/round24h-20261022/zoo-01.jpg",
+      "assetSHA256": "a8bdb3ccd7e897b0fdd0f5abdd79320fefd8027b54837739148c88dac20cec32",
+      "originalDimensions": [
+        1170,
+        2532
+      ],
+      "assetDimensions": [
+        1109,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "מפת גן החיות למבקרים",
+        "en": "Zoo visitor map",
+        "pl": "Mapa zoo dla zwiedzających",
+        "de": "Besucherplan des Zoos",
+        "cs": "Návštěvnická mapa zoo"
+      },
+      "caption": {
+        "he": "מפת גן החיות למבקרים",
+        "en": "Zoo visitor map",
+        "pl": "Mapa zoo dla zwiedzających",
+        "de": "Besucherplan des Zoos",
+        "cs": "Návštěvnická mapa zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4972.JPG",
+      "sha256": "b090ef71cf7c298eca73f56115ba2d3b7092798e7142fc84f75f17168e4d9664",
+      "bytes": 3909835,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 2,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-036.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 50.405960648148145,
+      "asset": "/assets/round24h-20261022/zoo-02.jpg",
+      "assetSHA256": "e128da94eed2e08bd2d41d29d42aa1eec2648743b22ca27c71c9610459772a15",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "מפת גן החיות למבקרים",
+        "en": "Zoo visitor map",
+        "pl": "Mapa zoo dla zwiedzających",
+        "de": "Besucherplan des Zoos",
+        "cs": "Návštěvnická mapa zoo"
+      },
+      "caption": {
+        "he": "מפת גן החיות למבקרים",
+        "en": "Zoo visitor map",
+        "pl": "Mapa zoo dla zwiedzających",
+        "de": "Besucherplan des Zoos",
+        "cs": "Návštěvnická mapa zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4973.JPG",
+      "sha256": "2f64674fc07bcf944c7bbd255a5ab7d659c8181a483891d1670e2275991a9023",
+      "bytes": 3986980,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 3,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-036.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 44.24131944444444,
+      "asset": "/assets/round24h-20261022/zoo-03.jpg",
+      "assetSHA256": "59f2fbff8eb061b7dc713046a50168a2e6f956498366c76e867e82e89630cfd6",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "מפת גן החיות למבקרים",
+        "en": "Zoo visitor map",
+        "pl": "Mapa zoo dla zwiedzających",
+        "de": "Besucherplan des Zoos",
+        "cs": "Návštěvnická mapa zoo"
+      },
+      "caption": {
+        "he": "מפת גן החיות למבקרים",
+        "en": "Zoo visitor map",
+        "pl": "Mapa zoo dla zwiedzających",
+        "de": "Besucherplan des Zoos",
+        "cs": "Návštěvnická mapa zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4974.JPG",
+      "sha256": "aea25abf0e46df1ca1f439a6dc010623c35654e3a7c9c6e2833dee187da0bba7",
+      "bytes": 4113136,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 4,
+      "nearestAsset": "/assets/morskie-oko-refresh/morskie-oko-12.jpg",
+      "assetCanonicals": [
+        "morskie-oko-wroclaw"
+      ],
+      "pixelMAE": 47.165798611111114,
+      "asset": "/assets/round24h-20261022/zoo-04.jpg",
+      "assetSHA256": "b0f17016549e07f7cd17765e0bc0dda729ee55e14a10a116b484261cfd17fad1",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "היפופוטמים במתחם החיצוני",
+        "en": "Hippos in an outdoor enclosure",
+        "pl": "Hipopotamy na wybiegu",
+        "de": "Flusspferde im Außengehege",
+        "cs": "Hroši ve venkovním výběhu"
+      },
+      "caption": {
+        "he": "היפופוטמים במתחם החיצוני",
+        "en": "Hippos in an outdoor enclosure",
+        "pl": "Hipopotamy na wybiegu",
+        "de": "Flusspferde im Außengehege",
+        "cs": "Hroši ve venkovním výběhu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4976.JPG",
+      "sha256": "25c2c23764d242ae5956767b444c5aa7864c19db98c8a9f6ce1fbdc3573b75fe",
+      "bytes": 4985799,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 6,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-160.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 46.36762152777778,
+      "asset": "/assets/round24h-20261022/zoo-06.jpg",
+      "assetSHA256": "327ea4f3d27925b0acf569ecc1edea35f0e87c399deae7eaad0ef510125ce52f",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "בעלי חיים במתחם החיצוני",
+        "en": "Animals in an outdoor enclosure",
+        "pl": "Zwierzęta na wybiegu",
+        "de": "Tiere im Außengehege",
+        "cs": "Zvířata ve venkovním výběhu"
+      },
+      "caption": {
+        "he": "בעלי חיים במתחם החיצוני",
+        "en": "Animals in an outdoor enclosure",
+        "pl": "Zwierzęta na wybiegu",
+        "de": "Tiere im Außengehege",
+        "cs": "Zvířata ve venkovním výběhu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4982.JPG",
+      "sha256": "85339400b713de0762328448d605695c078109ae711c70a9c7242b4871c1a740",
+      "bytes": 4460462,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 7,
+      "nearestAsset": "/assets/multimedia-fountain-06.jpg",
+      "assetCanonicals": [
+        "fountain"
+      ],
+      "pixelMAE": 47.761429398148145,
+      "asset": "/assets/round24h-20261022/zoo-07.jpg",
+      "assetSHA256": "454c4649fcb4893b52aefd28f54a5a8a2504091c2320373d9d86b983537cdb9d",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "ביתן וסביבתו הירוקה בגן החיות",
+        "en": "Pavilion and greenery at the zoo",
+        "pl": "Pawilon i zieleń w zoo",
+        "de": "Pavillon und Grünanlagen im Zoo",
+        "cs": "Pavilon a zeleň v zoo"
+      },
+      "caption": {
+        "he": "ביתן וסביבתו הירוקה בגן החיות",
+        "en": "Pavilion and greenery at the zoo",
+        "pl": "Pawilon i zieleń w zoo",
+        "de": "Pavillon und Grünanlagen im Zoo",
+        "cs": "Pavilon a zeleň v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4983.JPG",
+      "sha256": "94d5a7313a03babb4fac0fcbb297d89da27224da98a9ec7da56cd6eb36c5b4e3",
+      "bytes": 5282175,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 8,
+      "nearestAsset": "/assets/morskie-oko-refresh/morskie-oko-28.jpg",
+      "assetCanonicals": [
+        "morskie-oko-wroclaw"
+      ],
+      "pixelMAE": 41.295717592592595,
+      "asset": "/assets/round24h-20261022/zoo-08.jpg",
+      "assetSHA256": "b341d4c67c35c82dd4e1ad47fe765711dd0c1842885ea4c37ae1b832c296ceee",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "ביתן וסביבתו הירוקה בגן החיות",
+        "en": "Pavilion and greenery at the zoo",
+        "pl": "Pawilon i zieleń w zoo",
+        "de": "Pavillon und Grünanlagen im Zoo",
+        "cs": "Pavilon a zeleň v zoo"
+      },
+      "caption": {
+        "he": "ביתן וסביבתו הירוקה בגן החיות",
+        "en": "Pavilion and greenery at the zoo",
+        "pl": "Pawilon i zieleń w zoo",
+        "de": "Pavillon und Grünanlagen im Zoo",
+        "cs": "Pavilon a zeleň v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4988.JPG",
+      "sha256": "219a02d7a54b0cc8a494a1bcfb820116504e61c1f3fecc4f05f7d3a91acfc569",
+      "bytes": 4295672,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 9,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-137.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 46.692563657407405,
+      "asset": "/assets/round24h-20261022/zoo-09.jpg",
+      "assetSHA256": "f9928561320d7c099f33ad86c64cb7696941510e90491eb32241e727b0d211b3",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "בעלי חיים במתחם החיצוני",
+        "en": "Animals in an outdoor enclosure",
+        "pl": "Zwierzęta na wybiegu",
+        "de": "Tiere im Außengehege",
+        "cs": "Zvířata ve venkovním výběhu"
+      },
+      "caption": {
+        "he": "בעלי חיים במתחם החיצוני",
+        "en": "Animals in an outdoor enclosure",
+        "pl": "Zwierzęta na wybiegu",
+        "de": "Tiere im Außengehege",
+        "cs": "Zvířata ve venkovním výběhu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4991.JPG",
+      "sha256": "e8d8226f0de44ebe868d13bbfaffaf1172365ad7d62f4a7b03df364678e7eda5",
+      "bytes": 6297865,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 10,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-223.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 45.161892361111114,
+      "asset": "/assets/round24h-20261022/zoo-10.jpg",
+      "assetSHA256": "67259a459f4abfff179984ca382afbc3287745abc78b1aac007900be1223f6ed",
+      "originalDimensions": [
+        4032,
+        3024
+      ],
+      "assetDimensions": [
+        2400,
+        1800
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "שביל ומבקרים בגן החיות",
+        "en": "Path and visitors at the zoo",
+        "pl": "Alejka i zwiedzający w zoo",
+        "de": "Weg und Besucher im Zoo",
+        "cs": "Cesta a návštěvníci v zoo"
+      },
+      "caption": {
+        "he": "שביל ומבקרים בגן החיות",
+        "en": "Path and visitors at the zoo",
+        "pl": "Alejka i zwiedzający w zoo",
+        "de": "Weg und Besucher im Zoo",
+        "cs": "Cesta a návštěvníci v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4994.JPG",
+      "sha256": "0b11939a0400579e344bc3100665b97f24a9ff6a908b60b4c2d2fb55bf0f5e2c",
+      "bytes": 4420359,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 11,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-223.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 45.689670138888886,
+      "asset": "/assets/round24h-20261022/zoo-11.jpg",
+      "assetSHA256": "35c8bee263e60c2f5dd602c7dd25ff60e5a982cfe833139de717f0ea70f8c2d3",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "שביל ומבקרים בגן החיות",
+        "en": "Path and visitors at the zoo",
+        "pl": "Alejka i zwiedzający w zoo",
+        "de": "Weg und Besucher im Zoo",
+        "cs": "Cesta a návštěvníci v zoo"
+      },
+      "caption": {
+        "he": "שביל ומבקרים בגן החיות",
+        "en": "Path and visitors at the zoo",
+        "pl": "Alejka i zwiedzający w zoo",
+        "de": "Weg und Besucher im Zoo",
+        "cs": "Cesta a návštěvníci v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4996.JPG",
+      "sha256": "3925f4e4e96556e685ea92b8d6d446adebbb7c2c33363ab2a2c5da45421d186b",
+      "bytes": 3616048,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 13,
+      "nearestAsset": "/assets/old-town-hall-wroclaw.jpg",
+      "assetCanonicals": [
+        "rynek",
+        "town-hall"
+      ],
+      "pixelMAE": 47.8744212962963,
+      "asset": "/assets/round24h-20261022/zoo-13.jpg",
+      "assetSHA256": "a725e496ba0b49887179fbd9f688476111ac4e0dc01c41f92dae0e600dde5803",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      },
+      "caption": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4997.JPG",
+      "sha256": "d850a2f44f43f09e27c9783cf9418667b169b1bc87245a7cff432f2711f1f4f8",
+      "bytes": 3525393,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 14,
+      "nearestAsset": "/assets/old-town-hall-wroclaw.jpg",
+      "assetCanonicals": [
+        "rynek",
+        "town-hall"
+      ],
+      "pixelMAE": 46.76765046296296,
+      "asset": "/assets/round24h-20261022/zoo-14.jpg",
+      "assetSHA256": "e3fc3c12c66cb11762e2569d92e0b9714e7112e480a802b4c8f9699ff08a3e0d",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      },
+      "caption": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4999.JPG",
+      "sha256": "ab3eedebd959023421ca68da1b2720edefea91f45d832097cb7cd1b0b87818bd",
+      "bytes": 4170979,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 15,
+      "nearestAsset": "/assets/food-cafes/ato-ramen-drink-04.jpg",
+      "assetCanonicals": [
+        "ato-ramen"
+      ],
+      "pixelMAE": 44.935329861111114,
+      "asset": "/assets/round24h-20261022/zoo-15.jpg",
+      "assetSHA256": "5080716983864d7dd23dc2af85e9847085f3c270252de8fe40375dda679dcaf6",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "בריכת בעלי חיים ומפל באפריקריום",
+        "en": "Animal pool and waterfall in the Afrykarium",
+        "pl": "Basen dla zwierząt i wodospad w Afrykarium",
+        "de": "Tierbecken und Wasserfall im Afrykarium",
+        "cs": "Bazén pro zvířata a vodopád v Afrykariu"
+      },
+      "caption": {
+        "he": "בריכת בעלי חיים ומפל באפריקריום",
+        "en": "Animal pool and waterfall in the Afrykarium",
+        "pl": "Basen dla zwierząt i wodospad w Afrykarium",
+        "de": "Tierbecken und Wasserfall im Afrykarium",
+        "cs": "Bazén pro zvířata a vodopád v Afrykariu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5001.JPG",
+      "sha256": "e7752ae8d564569d4bbe64881bda06de975b951576c04a8a34d8b23cc872c915",
+      "bytes": 3229646,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 16,
+      "nearestAsset": "/assets/gallery-japanese-03.jpg",
+      "assetCanonicals": [
+        "japanese"
+      ],
+      "pixelMAE": 36.760416666666664,
+      "asset": "/assets/round24h-20261022/zoo-16.jpg",
+      "assetSHA256": "810fe87bbddca6d8b542d6f03397963053063283eff86c5bd727231ed560cd07",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      },
+      "caption": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5003.JPG",
+      "sha256": "25672598f1113916a5b4170e89c6287cdd6ed16772809259e4520fcf9a01f71a",
+      "bytes": 5817626,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 17,
+      "nearestAsset": "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-039.jpg",
+      "assetCanonicals": [
+        "boleslawiec-ceramics-museum"
+      ],
+      "pixelMAE": 44.017361111111114,
+      "asset": "/assets/round24h-20261022/zoo-17.jpg",
+      "assetSHA256": "94a374a347cfc22772fd175b9960eb53fd686c0565b215839afb50f80f414f42",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "זוחלים במתחם התצוגה",
+        "en": "Reptiles in an exhibit",
+        "pl": "Gady na ekspozycji",
+        "de": "Reptilien im Ausstellungsgehege",
+        "cs": "Plazi v expozici"
+      },
+      "caption": {
+        "he": "זוחלים במתחם התצוגה",
+        "en": "Reptiles in an exhibit",
+        "pl": "Gady na ekspozycji",
+        "de": "Reptilien im Ausstellungsgehege",
+        "cs": "Plazi v expozici"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5004.JPG",
+      "sha256": "951cd998b41efafef01ee9b0dc16f479c8822bc5a1475854df0bf227bb211ac0",
+      "bytes": 6640169,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 18,
+      "nearestAsset": "/assets/brzeg-enrichment/brzeg-castle-045.jpg",
+      "assetCanonicals": [
+        "brzeg-castle"
+      ],
+      "pixelMAE": 39.565248842592595,
+      "asset": "/assets/round24h-20261022/zoo-18.jpg",
+      "assetSHA256": "86d27f270f92cec2c26fa01a1e4a3d8519b1bf4d101effc40ea96b496b2b9680",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "בריכת בעלי חיים ומפל באפריקריום",
+        "en": "Animal pool and waterfall in the Afrykarium",
+        "pl": "Basen dla zwierząt i wodospad w Afrykarium",
+        "de": "Tierbecken und Wasserfall im Afrykarium",
+        "cs": "Bazén pro zvířata a vodopád v Afrykariu"
+      },
+      "caption": {
+        "he": "בריכת בעלי חיים ומפל באפריקריום",
+        "en": "Animal pool and waterfall in the Afrykarium",
+        "pl": "Basen dla zwierząt i wodospad w Afrykarium",
+        "de": "Tierbecken und Wasserfall im Afrykarium",
+        "cs": "Bazén pro zvířata a vodopád v Afrykariu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5007.JPG",
+      "sha256": "e1aefb7087607e5759557de18d85d621b770a96c01cf5ce691efa4fec7682116",
+      "bytes": 6496111,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 19,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-225.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 44.3359375,
+      "asset": "/assets/round24h-20261022/zoo-19.jpg",
+      "assetSHA256": "7bc0ca2266c179ae43159379ab5862111f4be7ec16913da12d4fdb3920de82bd",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "בריכת בעלי חיים ומפל באפריקריום",
+        "en": "Animal pool and waterfall in the Afrykarium",
+        "pl": "Basen dla zwierząt i wodospad w Afrykarium",
+        "de": "Tierbecken und Wasserfall im Afrykarium",
+        "cs": "Bazén pro zvířata a vodopád v Afrykariu"
+      },
+      "caption": {
+        "he": "בריכת בעלי חיים ומפל באפריקריום",
+        "en": "Animal pool and waterfall in the Afrykarium",
+        "pl": "Basen dla zwierząt i wodospad w Afrykarium",
+        "de": "Tierbecken und Wasserfall im Afrykarium",
+        "cs": "Bazén pro zvířata a vodopád v Afrykariu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5008.JPG",
+      "sha256": "0ebfcfe0c4dbe620822c609387ebd0573997dfd513c27403c47b88bb71a8b71f",
+      "bytes": 2938859,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 20,
+      "nearestAsset": "/assets/barbara-wroclaw-historic-menu-detail.jpg",
+      "assetCanonicals": [
+        "barbara-wroclaw"
+      ],
+      "pixelMAE": 49.531539351851855,
+      "asset": "/assets/round24h-20261022/zoo-20.jpg",
+      "assetSHA256": "3dae034df60da70a0196f5991c079d84473f2a18c0edb31367441f20f89321cb",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "טריגון במבט מתוך המתחם התת־מימי",
+        "en": "Ray seen from the underwater exhibit",
+        "pl": "Płaszczka widziana z podwodnej ekspozycji",
+        "de": "Rochen aus der Unterwasserausstellung betrachtet",
+        "cs": "Rejnok při pohledu z podvodní expozice"
+      },
+      "caption": {
+        "he": "טריגון במבט מתוך המתחם התת־מימי",
+        "en": "Ray seen from the underwater exhibit",
+        "pl": "Płaszczka widziana z podwodnej ekspozycji",
+        "de": "Rochen aus der Unterwasserausstellung betrachtet",
+        "cs": "Rejnok při pohledu z podvodní expozice"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5009.JPG",
+      "sha256": "311489074437cd7049b455aee55c63239bfc8425c358a27d17bf533aebf5c2df",
+      "bytes": 3324361,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 21,
+      "nearestAsset": "/assets/brzeg-enrichment/brzeg-castle-080.jpg",
+      "assetCanonicals": [
+        "brzeg-castle"
+      ],
+      "pixelMAE": 45.216145833333336,
+      "asset": "/assets/round24h-20261022/zoo-21.jpg",
+      "assetSHA256": "0bd6e43226ada6cfa61f5fba89f162acf301916b590c5d7e9e5b46a121ab1895",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "טריגון במבט מתוך המתחם התת־מימי",
+        "en": "Ray seen from the underwater exhibit",
+        "pl": "Płaszczka widziana z podwodnej ekspozycji",
+        "de": "Rochen aus der Unterwasserausstellung betrachtet",
+        "cs": "Rejnok při pohledu z podvodní expozice"
+      },
+      "caption": {
+        "he": "טריגון במבט מתוך המתחם התת־מימי",
+        "en": "Ray seen from the underwater exhibit",
+        "pl": "Płaszczka widziana z podwodnej ekspozycji",
+        "de": "Rochen aus der Unterwasserausstellung betrachtet",
+        "cs": "Rejnok při pohledu z podvodní expozice"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5012.JPG",
+      "sha256": "7b8c838d053fb1e9d0a8fb4e4532a873cb90dfd6e0490dd40795dff0132e8467",
+      "bytes": 2843609,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 22,
+      "nearestAsset": "/assets/lodz-arrival/lodz-rose-passage-01.jpg",
+      "assetCanonicals": [
+        "lodz-rose-passage"
+      ],
+      "pixelMAE": 43.62311921296296,
+      "asset": "/assets/round24h-20261022/zoo-22.jpg",
+      "assetSHA256": "de47099eabd4e517ace79a408e6ab2c6b712605bfd58a7a3367ee507ce697740",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "טריגון במבט מתוך המתחם התת־מימי",
+        "en": "Ray seen from the underwater exhibit",
+        "pl": "Płaszczka widziana z podwodnej ekspozycji",
+        "de": "Rochen aus der Unterwasserausstellung betrachtet",
+        "cs": "Rejnok při pohledu z podvodní expozice"
+      },
+      "caption": {
+        "he": "טריגון במבט מתוך המתחם התת־מימי",
+        "en": "Ray seen from the underwater exhibit",
+        "pl": "Płaszczka widziana z podwodnej ekspozycji",
+        "de": "Rochen aus der Unterwasserausstellung betrachtet",
+        "cs": "Rejnok při pohledu z podvodní expozice"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5014.JPG",
+      "sha256": "b87ab2231872092a314fab79409c57711509a5bfcc597fd48a8c6435846f13ff",
+      "bytes": 3392516,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 23,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-199.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 47.14597800925926,
+      "asset": "/assets/round24h-20261022/zoo-23.jpg",
+      "assetSHA256": "3bce50b277f525153aaf8be7d22dc767e54dfd4a54ce1a68a6bcb86bcc758b42",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "מבקרים ליד המנהרה התת־מימית",
+        "en": "Visitors beside the underwater tunnel",
+        "pl": "Zwiedzający przy podwodnym tunelu",
+        "de": "Besucher am Unterwassertunnel",
+        "cs": "Návštěvníci u podvodního tunelu"
+      },
+      "caption": {
+        "he": "מבקרים ליד המנהרה התת־מימית",
+        "en": "Visitors beside the underwater tunnel",
+        "pl": "Zwiedzający przy podwodnym tunelu",
+        "de": "Besucher am Unterwassertunnel",
+        "cs": "Návštěvníci u podvodního tunelu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5019.JPG",
+      "sha256": "e3cfb3df3443e735ff816e16dbc434d4b3bc1e614099f4c2c80b9e5facaa32b2",
+      "bytes": 1732738,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 25,
+      "nearestAsset": "/assets/gallery-japanese-03.jpg",
+      "assetCanonicals": [
+        "japanese"
+      ],
+      "pixelMAE": 56.051070601851855,
+      "asset": "/assets/round24h-20261022/zoo-25.jpg",
+      "assetSHA256": "bbdbf89f9dc82b7490758a61de8849c0fd4a1e6024ebc1a641e7f993b7177627",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "מבקרים ליד המנהרה התת־מימית",
+        "en": "Visitors beside the underwater tunnel",
+        "pl": "Zwiedzający przy podwodnym tunelu",
+        "de": "Besucher am Unterwassertunnel",
+        "cs": "Návštěvníci u podvodního tunelu"
+      },
+      "caption": {
+        "he": "מבקרים ליד המנהרה התת־מימית",
+        "en": "Visitors beside the underwater tunnel",
+        "pl": "Zwiedzający przy podwodnym tunelu",
+        "de": "Besucher am Unterwassertunnel",
+        "cs": "Návštěvníci u podvodního tunelu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5022.JPG",
+      "sha256": "cedcc3bc854bd7aefa3c76f7022e9976d3b4dae9ed2ca384deb06143d933a64b",
+      "bytes": 3965177,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 26,
+      "nearestAsset": "/assets/hydropolis-10.jpg",
+      "assetCanonicals": [
+        "hydropolis"
+      ],
+      "pixelMAE": 32.706741898148145,
+      "asset": "/assets/round24h-20261022/zoo-26.jpg",
+      "assetSHA256": "310e4e765d76c34171d15179006b91ed31ece887977969b34a521643f02d32fc",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "זוחלים במתחם התצוגה",
+        "en": "Reptiles in an exhibit",
+        "pl": "Gady na ekspozycji",
+        "de": "Reptilien im Ausstellungsgehege",
+        "cs": "Plazi v expozici"
+      },
+      "caption": {
+        "he": "זוחלים במתחם התצוגה",
+        "en": "Reptiles in an exhibit",
+        "pl": "Gady na ekspozycji",
+        "de": "Reptilien im Ausstellungsgehege",
+        "cs": "Plazi v expozici"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5023.JPG",
+      "sha256": "131267c0b8c96317ce7bb2779063340ec6f23d2272938de1c4ac946ed6064491",
+      "bytes": 3608807,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 27,
+      "nearestAsset": "/assets/hydropolis-10.jpg",
+      "assetCanonicals": [
+        "hydropolis"
+      ],
+      "pixelMAE": 35.317708333333336,
+      "asset": "/assets/round24h-20261022/zoo-27.jpg",
+      "assetSHA256": "1af2ca12daa428fa5a3c1d2423bfaf965bac0847b02addee32e4005c9c777dea",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "זוחלים במתחם התצוגה",
+        "en": "Reptiles in an exhibit",
+        "pl": "Gady na ekspozycji",
+        "de": "Reptilien im Ausstellungsgehege",
+        "cs": "Plazi v expozici"
+      },
+      "caption": {
+        "he": "זוחלים במתחם התצוגה",
+        "en": "Reptiles in an exhibit",
+        "pl": "Gady na ekspozycji",
+        "de": "Reptilien im Ausstellungsgehege",
+        "cs": "Plazi v expozici"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5026.JPG",
+      "sha256": "cd9cd88149b135fd80ff6a3ecf8759075ed999365f1e96bb2638cb68fd89517a",
+      "bytes": 3200481,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 28,
+      "nearestAsset": "/assets/four-denominations-district-plaque.jpg",
+      "assetCanonicals": [
+        "four-denominations-district"
+      ],
+      "pixelMAE": 40.65538194444444,
+      "asset": "/assets/round24h-20261022/zoo-28.jpg",
+      "assetSHA256": "a8b7705aa8a0dba6775c3080883c3643ea0050d15135ce4273e9fd825e5efaa4",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "זוחלים במתחם התצוגה",
+        "en": "Reptiles in an exhibit",
+        "pl": "Gady na ekspozycji",
+        "de": "Reptilien im Ausstellungsgehege",
+        "cs": "Plazi v expozici"
+      },
+      "caption": {
+        "he": "זוחלים במתחם התצוגה",
+        "en": "Reptiles in an exhibit",
+        "pl": "Gady na ekspozycji",
+        "de": "Reptilien im Ausstellungsgehege",
+        "cs": "Plazi v expozici"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5028.JPG",
+      "sha256": "447e37b495918a05824fe30c7e28e80ecda72c829854085d3f93494fdb04a068",
+      "bytes": 3788362,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 29,
+      "nearestAsset": "/assets/lodz-arrival/lodz-piotrkowska-02.jpg",
+      "assetCanonicals": [
+        "lodz-piotrkowska"
+      ],
+      "pixelMAE": 40.89453125,
+      "asset": "/assets/round24h-20261022/zoo-29.jpg",
+      "assetSHA256": "0726791d08195f78fda6ced27ac2821defb7922c8773f66e4aebcb3d03951629",
+      "originalDimensions": [
+        2944,
+        3926
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "בריכה וסביבתה בגן החיות",
+        "en": "Pond and surroundings at the zoo",
+        "pl": "Staw i jego otoczenie w zoo",
+        "de": "Teich und Umgebung im Zoo",
+        "cs": "Jezírko a okolí v zoo"
+      },
+      "caption": {
+        "he": "בריכה וסביבתה בגן החיות",
+        "en": "Pond and surroundings at the zoo",
+        "pl": "Staw i jego otoczenie w zoo",
+        "de": "Teich und Umgebung im Zoo",
+        "cs": "Jezírko a okolí v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5029.JPG",
+      "sha256": "4798d9ac263b8282efeb9f09c4953475f23233e022e5fbb5713c31efd25f5873",
+      "bytes": 7344822,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 30,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-223.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 34.144241898148145,
+      "asset": "/assets/round24h-20261022/zoo-30.jpg",
+      "assetSHA256": "5f1234de370345cc662b7b3c3038cd749c7eea154324cc7595dd0b4899e5ca9c",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "שביל ומבקרים בגן החיות",
+        "en": "Path and visitors at the zoo",
+        "pl": "Alejka i zwiedzający w zoo",
+        "de": "Weg und Besucher im Zoo",
+        "cs": "Cesta a návštěvníci v zoo"
+      },
+      "caption": {
+        "he": "שביל ומבקרים בגן החיות",
+        "en": "Path and visitors at the zoo",
+        "pl": "Alejka i zwiedzający w zoo",
+        "de": "Weg und Besucher im Zoo",
+        "cs": "Cesta a návštěvníci v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5031.JPG",
+      "sha256": "c597c6fada6ee61f88c6f39bcef8c571a3b8e820951c6f104bc858e4bd5d05b4",
+      "bytes": 4801361,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 31,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-223.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 43.771267361111114,
+      "asset": "/assets/round24h-20261022/zoo-31.jpg",
+      "assetSHA256": "9a1c87f1be2d039a913ab9436a86c4bab655a93baeb3ce483a4dedf0febf61b6",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "דלפק הכרטיסים של פארק החבלים בעת הביקור",
+        "en": "Rope-park ticket counter during the visit",
+        "pl": "Kasa parku linowego podczas wizyty",
+        "de": "Kasse des Seilparks während des Besuchs",
+        "cs": "Pokladna lanového parku během návštěvy"
+      },
+      "caption": {
+        "he": "דלפק הכרטיסים של פארק החבלים בעת הביקור",
+        "en": "Rope-park ticket counter during the visit",
+        "pl": "Kasa parku linowego podczas wizyty",
+        "de": "Kasse des Seilparks während des Besuchs",
+        "cs": "Pokladna lanového parku během návštěvy"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5032.JPG",
+      "sha256": "a9ae50886c096a702fecdbac56fc676363691f6aa35e98d59a71d4a450ddc678",
+      "bytes": 4602694,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 32,
+      "nearestAsset": "/assets/pedet-13.jpg",
+      "assetCanonicals": [
+        "pedet"
+      ],
+      "pixelMAE": 43.380208333333336,
+      "asset": "/assets/round24h-20261022/zoo-32.jpg",
+      "assetSHA256": "83943ce81ff0f5a06fe1fdac5e8a582a49a1527215d3e6a7291950cabadc2563",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "אוקפי במתחם החיצוני",
+        "en": "Okapi in an outdoor enclosure",
+        "pl": "Okapi na wybiegu",
+        "de": "Okapi im Außengehege",
+        "cs": "Okapi ve venkovním výběhu"
+      },
+      "caption": {
+        "he": "אוקפי במתחם החיצוני",
+        "en": "Okapi in an outdoor enclosure",
+        "pl": "Okapi na wybiegu",
+        "de": "Okapi im Außengehege",
+        "cs": "Okapi ve venkovním výběhu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5035.JPG",
+      "sha256": "c5ecdde89ba5484e4b76940c7bc79d30a64b05e3891b9bbfe1a9a51441466684",
+      "bytes": 2386152,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 34,
+      "nearestAsset": "/assets/pedet-13.jpg",
+      "assetCanonicals": [
+        "pedet"
+      ],
+      "pixelMAE": 35.27835648148148,
+      "asset": "/assets/round24h-20261022/zoo-34.jpg",
+      "assetSHA256": "a16a5b9e290292c13057dc2177aecb2e4edba2173c40f828841c14a0a6f1e9af",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "בריכת בעלי חיים ומפל באפריקריום",
+        "en": "Animal pool and waterfall in the Afrykarium",
+        "pl": "Basen dla zwierząt i wodospad w Afrykarium",
+        "de": "Tierbecken und Wasserfall im Afrykarium",
+        "cs": "Bazén pro zvířata a vodopád v Afrykariu"
+      },
+      "caption": {
+        "he": "בריכת בעלי חיים ומפל באפריקריום",
+        "en": "Animal pool and waterfall in the Afrykarium",
+        "pl": "Basen dla zwierząt i wodospad w Afrykarium",
+        "de": "Tierbecken und Wasserfall im Afrykarium",
+        "cs": "Bazén pro zvířata a vodopád v Afrykariu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5037.JPG",
+      "sha256": "dfb8ed1d62c90f24333c9ecc5d3923cf5e9a5750319a3e8e99267dbf0ea02005",
+      "bytes": 5628698,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 35,
+      "nearestAsset": "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg",
+      "assetCanonicals": [
+        "warsaw-nozyk-synagogue"
+      ],
+      "pixelMAE": 48.595920138888886,
+      "asset": "/assets/round24h-20261022/zoo-35.jpg",
+      "assetSHA256": "40c418d6f448bed63afa8162eac0f1ad99868ab5fb37ee2a158e7446c00b40ac",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "פעילות סירות לילדים בזמן הביקור",
+        "en": "Children’s boat activity during the visit",
+        "pl": "Atrakcja z łódkami dla dzieci podczas wizyty",
+        "de": "Kinderboot-Aktivität während des Besuchs",
+        "cs": "Dětská aktivita s loďkami během návštěvy"
+      },
+      "caption": {
+        "he": "פעילות סירות לילדים בזמן הביקור",
+        "en": "Children’s boat activity during the visit",
+        "pl": "Atrakcja z łódkami dla dzieci podczas wizyty",
+        "de": "Kinderboot-Aktivität während des Besuchs",
+        "cs": "Dětská aktivita s loďkami během návštěvy"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5039.JPG",
+      "sha256": "3effe83fc9b3c28df14fd81477bae23f41abd85f14e3e1d4c25f565434ecee71",
+      "bytes": 4549826,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 36,
+      "nearestAsset": "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg",
+      "assetCanonicals": [
+        "warsaw-nozyk-synagogue"
+      ],
+      "pixelMAE": 47.569010416666664,
+      "asset": "/assets/round24h-20261022/zoo-36.jpg",
+      "assetSHA256": "d268e5673b1c8fb1eeca29ed0f14adab52638a5f0f7c9dfe8fd196950e2c256a",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "פעילות סירות לילדים בזמן הביקור",
+        "en": "Children’s boat activity during the visit",
+        "pl": "Atrakcja z łódkami dla dzieci podczas wizyty",
+        "de": "Kinderboot-Aktivität während des Besuchs",
+        "cs": "Dětská aktivita s loďkami během návštěvy"
+      },
+      "caption": {
+        "he": "פעילות סירות לילדים בזמן הביקור",
+        "en": "Children’s boat activity during the visit",
+        "pl": "Atrakcja z łódkami dla dzieci podczas wizyty",
+        "de": "Kinderboot-Aktivität während des Besuchs",
+        "cs": "Dětská aktivita s loďkami během návštěvy"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5040.JPG",
+      "sha256": "03852a1e95976e8e9afae6f7e45592cf02c3781d8ea3f3f56b5550d7a097d756",
+      "bytes": 3454645,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 37,
+      "nearestAsset": "/assets/zoo-wroclaw-06.jpg",
+      "assetCanonicals": [
+        "zoo-wroclaw"
+      ],
+      "pixelMAE": 43.47265625,
+      "asset": "/assets/round24h-20261022/zoo-37.jpg",
+      "assetSHA256": "49a482182a6a800d63ae7d1d5ffaf819f28d18da7c66e4edf3e53865eecbd3e6",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      },
+      "caption": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5041.JPG",
+      "sha256": "767afd5b979cef271846a1375badc18cba9559b7a6d05e35675ad8be2afb1e45",
+      "bytes": 3327294,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 38,
+      "nearestAsset": "/assets/zoo-wroclaw-06.jpg",
+      "assetCanonicals": [
+        "zoo-wroclaw"
+      ],
+      "pixelMAE": 43.708767361111114,
+      "asset": "/assets/round24h-20261022/zoo-38.jpg",
+      "assetSHA256": "d96eedba37e4a396ea3911eca032476a8f8a0faadddea17dd696b26c9a89119c",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      },
+      "caption": {
+        "he": "דגים באקווריום",
+        "en": "Fish in the aquarium",
+        "pl": "Ryby w akwarium",
+        "de": "Fische im Aquarium",
+        "cs": "Ryby v akváriu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5043.JPG",
+      "sha256": "dec102189ecfca44b63152bcedbed9724c291ac8461079519154cf51dd72f435",
+      "bytes": 7972382,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 40,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-226.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 47.22265625,
+      "asset": "/assets/round24h-20261022/zoo-40.jpg",
+      "assetSHA256": "dae83d57f4d07a7749e8d1cc15fe751f29f87a392f292a2cbb3674041208c29c",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "שלט מידע בגן החיות",
+        "en": "Information board at the zoo",
+        "pl": "Tablica informacyjna w zoo",
+        "de": "Informationstafel im Zoo",
+        "cs": "Informační tabule v zoo"
+      },
+      "caption": {
+        "he": "שלט מידע בגן החיות",
+        "en": "Information board at the zoo",
+        "pl": "Tablica informacyjna w zoo",
+        "de": "Informationstafel im Zoo",
+        "cs": "Informační tabule v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5046.JPG",
+      "sha256": "f8816d7e53e15e9a709f117b8635f2037b02c20e902046f817f2b0302119563c",
+      "bytes": 5993182,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 42,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-225.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 40.03284143518518,
+      "asset": "/assets/round24h-20261022/zoo-42.jpg",
+      "assetSHA256": "be4bdd50d37daf5919d3d7ba6b08993499e448b8649eefb7c1ba61b03a210bf5",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "קוף אדם במתחם החיצוני",
+        "en": "Great ape in an outdoor enclosure",
+        "pl": "Małpa człekokształtna na wybiegu",
+        "de": "Menschenaffe im Außengehege",
+        "cs": "Lidoop ve venkovním výběhu"
+      },
+      "caption": {
+        "he": "קוף אדם במתחם החיצוני",
+        "en": "Great ape in an outdoor enclosure",
+        "pl": "Małpa człekokształtna na wybiegu",
+        "de": "Menschenaffe im Außengehege",
+        "cs": "Lidoop ve venkovním výběhu"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5051.JPG",
+      "sha256": "f13113f566e22549c9771b2d98ef1b73e8d478861acd2943b1374d2b3c1d69ed",
+      "bytes": 4855441,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 45,
+      "nearestAsset": "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-02.jpg",
+      "assetCanonicals": [
+        "domek-nad-fosa-wroclaw"
+      ],
+      "pixelMAE": 54.811197916666664,
+      "asset": "/assets/round24h-20261022/zoo-45.jpg",
+      "assetSHA256": "a8b57b461411fccdf8633c15f1b215bc99c9c741e1376d84d4600ff02dbd0b80",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "שלט מידע בגן החיות",
+        "en": "Information board at the zoo",
+        "pl": "Tablica informacyjna w zoo",
+        "de": "Informationstafel im Zoo",
+        "cs": "Informační tabule v zoo"
+      },
+      "caption": {
+        "he": "שלט מידע בגן החיות",
+        "en": "Information board at the zoo",
+        "pl": "Tablica informacyjna w zoo",
+        "de": "Informationstafel im Zoo",
+        "cs": "Informační tabule v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5052.JPG",
+      "sha256": "5c292f17e50f5042b97f72152b48876a385d269f21a0ac70d360bbd7871cd0c1",
+      "bytes": 7058302,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 46,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-225.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 40.27300347222222,
+      "asset": "/assets/round24h-20261022/zoo-46.jpg",
+      "assetSHA256": "9acdf861f3ed4c74a114c360de2c53c30b4d77f22c0c1a37589bf96297de0575",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "ביתן וסביבתו הירוקה בגן החיות",
+        "en": "Pavilion and greenery at the zoo",
+        "pl": "Pawilon i zieleń w zoo",
+        "de": "Pavillon und Grünanlagen im Zoo",
+        "cs": "Pavilon a zeleň v zoo"
+      },
+      "caption": {
+        "he": "ביתן וסביבתו הירוקה בגן החיות",
+        "en": "Pavilion and greenery at the zoo",
+        "pl": "Pawilon i zieleń w zoo",
+        "de": "Pavillon und Grünanlagen im Zoo",
+        "cs": "Pavilon a zeleň v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5053.JPG",
+      "sha256": "6b5ea703abf14f3dfd824c0908412ccd981737eb2980eac87c4649f6e3f688ad",
+      "bytes": 284193,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 47,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-226.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 44.640335648148145,
+      "asset": "/assets/round24h-20261022/zoo-47.jpg",
+      "assetSHA256": "ba336e0e385bee128eb1f1e208036d9cfd8009793252270135333e15922c22f6",
+      "originalDimensions": [
+        627,
+        836
+      ],
+      "assetDimensions": [
+        627,
+        836
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "שביל ומבקרים בגן החיות",
+        "en": "Path and visitors at the zoo",
+        "pl": "Alejka i zwiedzający w zoo",
+        "de": "Weg und Besucher im Zoo",
+        "cs": "Cesta a návštěvníci v zoo"
+      },
+      "caption": {
+        "he": "שביל ומבקרים בגן החיות",
+        "en": "Path and visitors at the zoo",
+        "pl": "Alejka i zwiedzający w zoo",
+        "de": "Weg und Besucher im Zoo",
+        "cs": "Cesta a návštěvníci v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5054.JPG",
+      "sha256": "16a07ed97155da029744380912ec8217b6ea5cdf4084b5439eef7e5a2d7c7906",
+      "bytes": 287725,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 48,
+      "nearestAsset": "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg",
+      "assetCanonicals": [
+        "warsaw-nozyk-synagogue"
+      ],
+      "pixelMAE": 49.502748842592595,
+      "asset": "/assets/round24h-20261022/zoo-48.jpg",
+      "assetSHA256": "024798a77a5d7c2d9ccc4bf677b6adc78514d6f01e1e72fdc035070f3f20c740",
+      "originalDimensions": [
+        627,
+        836
+      ],
+      "assetDimensions": [
+        627,
+        836
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "רכב שירות ליד שבילי גן החיות",
+        "en": "Service vehicle beside the zoo paths",
+        "pl": "Pojazd techniczny przy alejkach zoo",
+        "de": "Servicefahrzeug an den Zoowegen",
+        "cs": "Servisní vozidlo u cest v zoo"
+      },
+      "caption": {
+        "he": "רכב שירות ליד שבילי גן החיות",
+        "en": "Service vehicle beside the zoo paths",
+        "pl": "Pojazd techniczny przy alejkach zoo",
+        "de": "Servicefahrzeug an den Zoowegen",
+        "cs": "Servisní vozidlo u cest v zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5865 2.JPG",
+      "sha256": "e042612f81733043af5e4f0dffc10730fc2c8d8ea93cdaebea4684c881c154b4",
+      "bytes": 2698546,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 51,
+      "nearestAsset": "/assets/moszna-enrichment/moszna-castle-017.jpg",
+      "assetCanonicals": [
+        "moszna-castle"
+      ],
+      "pixelMAE": 50.02488425925926,
+      "asset": "/assets/round24h-20261022/zoo-51.jpg",
+      "assetSHA256": "8a359998e23fb092b0c54df6d1d6bd92202433ef90d9b4e326764e4f98776e9d",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "שלט דוכן אוכל ליד הכניסה, ממועד הביקור",
+        "en": "Food-stand sign near the entrance, photographed during the visit",
+        "pl": "Szyld stoiska z jedzeniem przy wejściu, z czasu wizyty",
+        "de": "Schild eines Imbissstands am Eingang, aufgenommen beim Besuch",
+        "cs": "Cedule stánku s jídlem u vstupu, vyfotografovaná při návštěvě"
+      },
+      "caption": {
+        "he": "שלט דוכן אוכל ליד הכניסה, ממועד הביקור",
+        "en": "Food-stand sign near the entrance, photographed during the visit",
+        "pl": "Szyld stoiska z jedzeniem przy wejściu, z czasu wizyty",
+        "de": "Schild eines Imbissstands am Eingang, aufgenommen beim Besuch",
+        "cs": "Cedule stánku s jídlem u vstupu, vyfotografovaná při návštěvě"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5869 2.JPG",
+      "sha256": "75d2f98a1bad965bc49db3c2f32ff8349b87c76456060989c7f87c7530982623",
+      "bytes": 4856821,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 53,
+      "nearestAsset": "/assets/pedet-13.jpg",
+      "assetCanonicals": [
+        "pedet"
+      ],
+      "pixelMAE": 47.31727430555556,
+      "asset": "/assets/round24h-20261022/zoo-53.jpg",
+      "assetSHA256": "f3fe41c231753b5b206aa4b83f266313bf9950e23b4502f23f4b2e7e22f4a5c0",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": "call_a68c7100035c402e8a8127c58746d7cd",
+      "alt": {
+        "he": "תמונה עם אופניים לצד עמודי הכניסה לגן החיות",
+        "en": "Photograph with a bicycle beside the zoo entrance columns",
+        "pl": "Zdjęcie z rowerem przy kolumnach wejścia do zoo",
+        "de": "Aufnahme mit Fahrrad an den Säulen des Zooeingangs",
+        "cs": "Fotografie s kolem u sloupů vstupu do zoo"
+      },
+      "caption": {
+        "he": "תמונה עם אופניים לצד עמודי הכניסה לגן החיות",
+        "en": "Photograph with a bicycle beside the zoo entrance columns",
+        "pl": "Zdjęcie z rowerem przy kolumnach wejścia do zoo",
+        "de": "Aufnahme mit Fahrrad an den Säulen des Zooeingangs",
+        "cs": "Fotografie s kolem u sloupů vstupu do zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5870 2.JPG",
+      "sha256": "6afe03eab6cf237c7b701cb54355dba40447a969d28c055bf3e9d1c5332be7c0",
+      "bytes": 4863159,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 55,
+      "nearestAsset": "/assets/pedet-13.jpg",
+      "assetCanonicals": [
+        "pedet"
+      ],
+      "pixelMAE": 48.514322916666664,
+      "asset": "/assets/round24h-20261022/zoo-55.jpg",
+      "assetSHA256": "eec2add7484d3a28ad5d2647ebfe3bb22cd15fb8b800fc7767a561e31ff5e909",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": "call_a68c7100035c402e8a8127c58746d7cd",
+      "alt": {
+        "he": "תמונה עם אופניים לצד עמודי הכניסה לגן החיות",
+        "en": "Photograph with a bicycle beside the zoo entrance columns",
+        "pl": "Zdjęcie z rowerem przy kolumnach wejścia do zoo",
+        "de": "Aufnahme mit Fahrrad an den Säulen des Zooeingangs",
+        "cs": "Fotografie s kolem u sloupů vstupu do zoo"
+      },
+      "caption": {
+        "he": "תמונה עם אופניים לצד עמודי הכניסה לגן החיות",
+        "en": "Photograph with a bicycle beside the zoo entrance columns",
+        "pl": "Zdjęcie z rowerem przy kolumnach wejścia do zoo",
+        "de": "Aufnahme mit Fahrrad an den Säulen des Zooeingangs",
+        "cs": "Fotografie s kolem u sloupů vstupu do zoo"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/WhatsApp Image 2026-09-24 at 17.19.21 (3).jpeg",
+      "sha256": "84b6d304b7c8abcfef487891634baf77a5956209c855c7ea8399b77ac7debf54",
+      "bytes": 349159,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 57,
+      "nearestAsset": "/assets/round24h-20261022/glowny-approved-night.jpg",
+      "assetCanonicals": [
+        "glowny"
+      ],
+      "pixelMAE": 37.01027199074074,
+      "asset": "/assets/round24h-20261022/zoo-57.jpg",
+      "assetSHA256": "e41cef6772ad28bcb94ee20585c5fe7a49f0013068ab25d97c00ccb8fba40dfe",
+      "originalDimensions": [
+        1536,
+        2048
+      ],
+      "assetDimensions": [
+        1536,
+        2048
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized and maximum2400px JPEG optimized; no crop; original unchanged",
+      "approvalCall": null,
+      "alt": {
+        "he": "שער הכניסה לגן החיות בלילה",
+        "en": "Zoo entrance gate at night",
+        "pl": "Brama wejściowa do zoo nocą",
+        "de": "Eingangstor des Zoos bei Nacht",
+        "cs": "Vstupní brána zoo v noci"
+      },
+      "caption": {
+        "he": "שער הכניסה לגן החיות בלילה",
+        "en": "Zoo entrance gate at night",
+        "pl": "Brama wejściowa do zoo nocą",
+        "de": "Eingangstor des Zoos bei Nacht",
+        "cs": "Vstupní brána zoo v noci"
+      }
+    },
+    {
+      "folder": "Zoo",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5854 2.JPG",
+      "sha256": "f7ce7581cbebc1b9a1068df66679b3485cab8d95e8eb3aae047463631bd0ffb6",
+      "bytes": 5969710,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 49,
+      "nearestAsset": "/assets/czocha-boleslawiec/boleslawiec-old-town-081.jpg",
+      "assetCanonicals": [
+        "boleslawiec-old-town"
+      ],
+      "pixelMAE": 52.66550925925926,
+      "asset": "/assets/round24h-20261022/zoo-49.jpg",
+      "assetSHA256": "c9f479463b983d682006b0261c65213c84204ec3857b689d36cc82667f5081c0",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "transformation": "Full frame; orientation normalized; max2400px JPEG; no crop; original unchanged",
+      "approvalCall": "call_75edc9bb3de243778c5d0c20b9d98242",
+      "alt": {
+        "he": "המגיש קורא דף ליד הכניסה לגן החיות",
+        "en": "Our presenter reading a page beside the zoo entrance",
+        "pl": "Nasz prowadzący czyta kartkę przy wejściu do zoo",
+        "de": "Unser Moderator liest ein Blatt am Zooeingang",
+        "cs": "Náš průvodce čte list u vstupu do zoo"
+      },
+      "caption": {
+        "he": "המגיש קורא דף ליד הכניסה לגן החיות",
+        "en": "Our presenter reading a page beside the zoo entrance",
+        "pl": "Nasz prowadzący czyta kartkę przy wejściu do zoo",
+        "de": "Unser Moderator liest ein Blatt am Zooeingang",
+        "cs": "Náš průvodce čte list u vstupu do zoo"
+      }
+    }
+  ]
+}

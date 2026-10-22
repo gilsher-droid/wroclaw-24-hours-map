@@ -16,7 +16,7 @@ test("Centennial Hall exposes its expanded canonical media everywhere", () => {
   const place = window.WROC_CATALOG.getPlace("hala");
   assert.ok(place);
   assert.equal(place.media.photos.length, 17);
-  assert.equal(place.media.videos.length, 6);
+  assert.equal(place.media.videos.length, 5);
   assert.equal(place.media.photos[0], "/assets/hala-stulecia-01.jpg");
   assert.equal(place.media.metadata[place.media.photos[0]].sourceFile, "IMG_5063.JPG");
   assert.equal(place.media.metadata[place.media.photos[0]].heroCandidate, true);

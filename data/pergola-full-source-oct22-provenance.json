@@ -1,0 +1,144 @@
+{
+  "sourcePhotos": 15,
+  "existingDistinct": 3,
+  "newDistinct": 4,
+  "copies": 8,
+  "assets": [
+    {
+      "folder": "Pergola",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5073.JPG",
+      "sha256": "5bd64893223e5669215c0932d6d0820ca8a1da3581cbe033be953a657019efb9",
+      "bytes": 252736,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 1,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-226.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 42.226273148148145,
+      "asset": "/assets/round24h-20261022/pergola-01.jpg",
+      "assetSHA256": "a71c9c04c3830347750bf416d76690d09e110e617d0f7658568504dd71cb0222",
+      "originalDimensions": [
+        627,
+        836
+      ],
+      "assetDimensions": [
+        627,
+        836
+      ],
+      "originalFullPicturePreserved": true,
+      "alt": {
+        "he": "המדרכה המוצלת והצמחייה המטפסת בפרגולה",
+        "en": "Shaded walkway and climbing greenery at the Pergola",
+        "pl": "Zacieniona alejka i pnącza w Pergoli",
+        "de": "Schattiger Weg und Kletterpflanzen an der Pergola",
+        "cs": "Stinná cesta a popínavé rostliny v Pergole"
+      }
+    },
+    {
+      "folder": "Pergola",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5074.JPG",
+      "sha256": "ac30880e97ca8dc9df10bab790ae9324f3b66c459f2c322aab809ded36c91a61",
+      "bytes": 1084939,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 2,
+      "nearestAsset": "/assets/czocha-boleslawiec/czocha-castle-226.jpg",
+      "assetCanonicals": [
+        "czocha-castle"
+      ],
+      "pixelMAE": 39.17288773148148,
+      "asset": "/assets/round24h-20261022/pergola-02.jpg",
+      "assetSHA256": "cecaed936d1d2bb1ff41a820e772a8f0bf0f39bed273204c756257ee022e5036",
+      "originalDimensions": [
+        1197,
+        1596
+      ],
+      "assetDimensions": [
+        1197,
+        1596
+      ],
+      "originalFullPicturePreserved": true,
+      "alt": {
+        "he": "מבקרים לאורך שדרת העמודים הירוקה",
+        "en": "Visitors along the green colonnade",
+        "pl": "Zwiedzający wzdłuż zielonej kolumnady",
+        "de": "Besucher entlang der begrünten Kolonnade",
+        "cs": "Návštěvníci podél zelené kolonády"
+      }
+    },
+    {
+      "folder": "Pergola",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5810 2.JPG",
+      "sha256": "35ec968971b1c5a7391f4c69cb593a8cbe661f01fc44a50276ff0c0509499806",
+      "bytes": 4871848,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 3,
+      "nearestAsset": "/assets/pergola-wroclawska-04.jpg",
+      "assetCanonicals": [
+        "pergola"
+      ],
+      "pixelMAE": 21.57769097222222,
+      "asset": "/assets/round24h-20261022/pergola-03.jpg",
+      "assetSHA256": "eac60dd5814b874dae79e675ddb7e8855b87865d7c7c2b132ceaf7a57cf81368",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "alt": {
+        "he": "גזע מטפס סביב עמוד בפרגולה",
+        "en": "Climbing trunk around a Pergola column",
+        "pl": "Pnący pień wokół kolumny Pergoli",
+        "de": "Rankender Stamm um eine Säule der Pergola",
+        "cs": "Popínavý kmen kolem sloupu Pergoly"
+      }
+    },
+    {
+      "folder": "Pergola",
+      "source": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5814 2.JPG",
+      "sha256": "7a58f3784ddfd0efd6224628885a57e43bc60d676240cdf83abe13428c160ef2",
+      "bytes": 5903684,
+      "mediaType": "photo",
+      "guideFolder": false,
+      "outtakesFolder": false,
+      "metadataMatches": [],
+      "reviewIndex": 9,
+      "nearestAsset": "/assets/pergola-wroclawska-05.jpg",
+      "assetCanonicals": [
+        "pergola"
+      ],
+      "pixelMAE": 47.12789351851852,
+      "asset": "/assets/round24h-20261022/pergola-09.jpg",
+      "assetSHA256": "ebd3ce5b7546814b1b344093caa806c71c5e18a7781ca58004fcbd22a711e3fe",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1800,
+        2400
+      ],
+      "originalFullPicturePreserved": true,
+      "alt": {
+        "he": "מבט לאורך עמודי הפרגולה והגג הירוק",
+        "en": "View along the Pergola columns and green canopy",
+        "pl": "Widok wzdłuż kolumn Pergoli i zielonego zadaszenia",
+        "de": "Blick entlang der Pergolasäulen und des grünen Dachs",
+        "cs": "Pohled podél sloupů Pergoly a zeleného zastřešení"
+      }
+    }
+  ]
+}

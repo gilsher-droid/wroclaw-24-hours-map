@@ -9,7 +9,7 @@ test('Centennial Hall guides enrich the same place in both relevant maps with ve
  const place=window.WROC_CATALOG.getPlace('hala');
  assert.equal(window.PREMIUM_STOPS.filter(x=>x.canonicalPlaceId==='hala').length,1);
  assert.equal(window.WROC_CULTURAL_PLACES.filter(x=>x.canonicalPlaceId==='hala').length,1);
- assert.equal(place.media.photos.length,17);assert.equal(place.media.videos.length,6);
+ assert.equal(place.media.photos.length,17);assert.equal(place.media.videos.length,5);
  const proof=JSON.parse(readFileSync('data/hala-guide-caption-provenance.json','utf8'));
  assert.deepEqual(proof.canonicalPlaceIds,['hala']);assert.equal(proof.bloopersExcluded,true);
  for(const lang of ['he','en','de','cs','pl']){

@@ -25,9 +25,13 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
     "/assets/pergola-wroclawska-01.jpg",
     "/assets/pergola-wroclawska-04.jpg",
     "/assets/pergola-wroclawska-05.jpg",
+    "/assets/round24h-20261022/pergola-01.jpg",
+    "/assets/round24h-20261022/pergola-02.jpg",
+    "/assets/round24h-20261022/pergola-03.jpg",
+    "/assets/round24h-20261022/pergola-09.jpg",
   ]);
   pergola.media.photos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
-  assert.equal(pergola.media.videos.length, 6);
+  assert.equal(pergola.media.videos.length, 8);
   assert.ok(pergola.socialPosts.some(post => post.platform === "facebook" && post.url === "https://www.facebook.com/share/p/1CHRnrqLwQ/"), "historical Pergola group post stays preserved");
   assert.equal(pergola.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url, "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1");
   assert.deepEqual(Array.from(fountain.media.photos), [
