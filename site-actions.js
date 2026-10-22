@@ -66,6 +66,9 @@
 
   function addPersonalServiceEntry() {
     const menu = document.querySelector('.products-menu-panel');
+    if (menu && !menu.querySelector('[data-guide-map-menu]')) {
+      const link = document.createElement('a'); link.dataset.guideMapMenu = ''; menu.append(link);
+    }
     if (menu && !menu.querySelector('[data-personal-menu]')) {
       const link = document.createElement('a'); link.dataset.personalMenu = ''; link.className = 'personal-menu-link'; menu.append(link);
     }
@@ -138,6 +141,7 @@
   function refreshLanguage() {
     const lang = language();
     const personal = personalCopy[lang];
+    document.querySelectorAll('[data-guide-map-menu]').forEach(el => { el.href = `/products/interactive-maps/guides.html?lang=${lang}`; el.textContent = guideMapNames[lang]; });
     document.querySelectorAll('[data-personal-copy]').forEach(el => { el.textContent = personal[Number(el.dataset.personalCopy)]; });
     document.querySelectorAll('[data-personal-link]').forEach(el => { el.href = `/personal-trip.html?lang=${lang}`; });
     document.querySelectorAll('[data-personal-menu]').forEach(el => { el.href = `/personal-trip.html?lang=${lang}`; el.textContent = `${personal[0]}: ${personal[1]}`; });
