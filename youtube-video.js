@@ -28,5 +28,15 @@
     const label = {he:"צפייה ביוטיוב",en:"Watch on YouTube",pl:"Obejrzyj w YouTube",de:"Auf YouTube ansehen",cs:"Přehrát na YouTube"};
     return id ? `<p><a class="video-watch-link" href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener noreferrer">${label[lang] || label.en}</a></p>` : "";
   }
-  window.WROC_YOUTUBE_VIDEO = Object.freeze({ idFor, resolve, embed, html, setFrame, watchLink });
+  // Route adapters may supply canonical URLs or legacy {src,title} entries.
+  // Normalize at the player boundary without changing canonical media arrays.
+  function playlist(videos = [], fallbackTitle = {}) {
+    return videos.map((video, index) => {
+      const src = typeof video === "string" ? video : video.src;
+      const title = typeof video === "string" ? fallbackTitle : (video.title || fallbackTitle);
+      const labels = typeof title === "string" ? Object.fromEntries(["he", "en", "pl", "de", "cs"].map(lang => [lang, title])) : title;
+      return { src, title: Object.fromEntries(["he", "en", "pl", "de", "cs"].map(lang => [lang, labels[lang] || labels.en || `Video ${index + 1}`])) };
+    });
+  }
+  window.WROC_YOUTUBE_VIDEO = Object.freeze({ idFor, resolve, embed, html, setFrame, watchLink, playlist });
 })();
