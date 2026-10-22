@@ -1,0 +1,21 @@
+{
+  "album-bootstrap.js": "91213eec0192480a8067e1457dc060b4395afaa93146be724600d5895c40ea1a",
+  "album-server-copy.js": "934f9610b82d619febcd08959533516f51278a9ea8ee723a213ff0715fc29d16",
+  "album-server-store.js": "07e908c707288136b2b0b6d780b7eb70b5b5ab931ec73a055fe92e3578f04bd7",
+  "app.css": "8c3656d4e3db015972dbe72457224b1835854e6ce7649ce0c0bcb92d7680d37c",
+  "app.js": "fdd2e7ab01ff051e69b85232e9339036f6cf0a05a90fa1ba12b39bca307b2f1d",
+  "guide-video.css": "509067d2d41b495f200f153caa2bf6aea0741c81ed8fbf9d790fa7e968b55267",
+  "guide-video.js": "7bc0d27f5ba5cf2af07fc0687b88972d6ae6af8a792dff9cda137872038c627e",
+  "place-ai-model.js": "608b99efbd621df45cafa1d53a6b49a9a248bd9f31af39b265d5fd5bf7820adb",
+  "place-ai.css": "a95e6e10fc7b98857ef27134d3dccd3d5065639b7c7d6474b0cb96b5dbe0483d",
+  "place-ai.js": "b2f2a9c7befdeebcb8f5d928d827937493a73dcf4b4c2337725fdd855668e5ef",
+  "place-panel.css": "bea85d73366dcaa4b54d41029ecd48d4b82f65296f374de3045e8450a18a54d3",
+  "place-panel.js": "e3ef15263d1ff019b8e45e8f8527c72d35748aac5a59a4960b6f6e3d5332fa97",
+  "public-catalog.js": "55bdf1d4edf044ee7215817c1a6789f29d42d82f29928a2c7a586a4eace6b563",
+  "trip-album-copy.js": "76b8ad865a63128b304057ef8add465a4fe9334734d16731694bc4a8f942839b",
+  "trip-album-model.js": "9d646bdaaa30a748f4a99a584331f5c1ae75cfef27bf689c23eb5b76069849c5",
+  "trip-album.css": "ad3886ee2447dff7da228c5c23ddab423ad7300f1a9ef139b8b4580f5406e23e",
+  "trip-album.js": "0d5de7ef6fa57ea163e1e4570121f2f5480b9c7a0644f1234810099ded5924f0",
+  "youtube-video-hosting.js": "f2ad2dd2a4601a51a0452b76c3046808e98b4e7084716223fa4121bda9df235d",
+  "youtube-video.js": "f5093a10884087ed0a100898d4d36f3c7ca1b1eacba35a832577370d63865c63"
+}
