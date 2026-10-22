@@ -234,3 +234,7 @@ article[data-place="mostek-pokutnic-wroclaw"] p { white-space:pre-line; }
 /* Aula interiors and associated University building context remain uncropped. */
 .media-grid img[src*="/gallery-university-"],
 .media-grid img[src*="/aula-leopoldina-"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
+
+.media-grid img[src*="/full-enrichment-20261022-neighbourhood-piast/"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }
+
+.media-grid img[src*="/full-enrichment-20261022-neighbourhood-piast/"] { height:auto; max-height:65vh; object-fit:contain; background:#faf8f3; }

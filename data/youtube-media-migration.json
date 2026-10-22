@@ -1454,5 +1454,27 @@
     "processingStatus": "complete",
     "verifiedAt": "2026-10-20",
     "virtualVideoPathOnly": true
+  },
+  "/assets/nadodrze-full-visit-8.mp4": {
+    "title": "Nadodrze Wroclaw | Decorated entrance and ceiling | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/watch?v=c09wVjknDmY",
+    "sourceSHA256": "0ecbed333af7448a0cfeecd56bfb661f7a3d678aa78fae222a39f59e6473f1b8",
+    "durationSeconds": 5.966667,
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "reopenedVerified": true,
+    "approval": "call_4531184b7798456fb4fe1e808ef9a361"
+  },
+  "/assets/nadodrze-full-visit-5.mp4": {
+    "title": "Nadodrze Wroclaw | Riverside approach by Pomorski bridges | WROC-LOVE",
+    "status": "public",
+    "youtube": "https://youtube.com/watch?v=2Kgw0UAiO50",
+    "sourceSHA256": "f0784eff189e569273507ad2a39150f8db74092dbf1ccfd07437c122171f67d1",
+    "durationSeconds": 8.833333,
+    "visibility": "Public",
+    "savedPublicVerified": true,
+    "reopenedVerified": true,
+    "approval": "call_4531184b7798456fb4fe1e808ef9a361"
   }
 }

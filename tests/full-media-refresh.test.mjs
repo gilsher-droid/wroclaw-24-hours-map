@@ -5,10 +5,10 @@ import {runInNewContext} from 'node:vm';
 const window={},plain=v=>JSON.parse(JSON.stringify(v));
 for(const f of ['data/place-catalog.js','data/location-media.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});
 const c=window.WROC_CATALOG,b=JSON.parse(readFileSync('data/full-media-refresh-baseline-20261022.json'));
-test('The full media refresh preserves all219 other canonical records and every existing identity and coordinate',()=>{
+test('The full media refresh preserves all218 other (Piast is separately authorized by the current full-folder refresh) canonical records and every existing identity and coordinate',()=>{
  assert.equal(Object.keys(c.places).length,231);assert.equal(b.authorizedIds.length,12);let unchanged=0;
- for(const[id,old]of Object.entries(b.places)){const p=plain(c.getPlace(id));if(!b.authorizedIds.includes(id)){assert.deepEqual(p,old,id);unchanged++;}else{assert.equal(p.id,old.id);assert.deepEqual(p.location,old.location,id+':location');}}
- assert.equal(unchanged,219);
+ for(const[id,old]of Object.entries(b.places)){const p=plain(c.getPlace(id));if(!b.authorizedIds.includes(id)&&id!=="piastowska-pieczec-wroclaw"){assert.deepEqual(p,old,id);unchanged++;}else{assert.equal(p.id,old.id);assert.deepEqual(p.location,old.location,id+':location');}}
+ assert.equal(unchanged,218);
 });
 test('All full-folder photographs and seven approved Public visits are exposed through actual route media adapters',()=>{
  const expected={papa:18,rynek:35,'town-hall':5,'marietta-focacceria-wroclaw':2,jatki:3,'math-tower':6,ossolineum:13,university:5,aula:8,'jas-malgosia':1};
@@ -26,4 +26,4 @@ test('Sand Island hides both social actions in all languages; Sand Bridge keeps 
  for(const lang of ['he','en','pl','de','cs']){assert.equal(c.getSocialPost(c.getPlace('wyspa-piasek'),'facebook',lang),null);assert.equal(c.getSocialPost(c.getPlace('wyspa-piasek'),'instagram',lang),null);const now=c.getSocialPost(c.getPlace('most-piaskowy'),'instagram',lang),old=b.places['most-piaskowy'].socialPosts.find(x=>x.platform==='instagram'&&x.language===lang);assert.ok(now);if(old)assert.equal(now.url,old.url);const fb=c.getSocialPost(c.getPlace('most-piaskowy'),'facebook',lang);if(lang==='he')assert.equal(fb,null);else assert.match(fb.url,/facebook\.com\/\d+\/posts\/\d+\//);}
 });
 
-test("Aula cultural photographs preserve the entire interiors and the main route summary counts its displayed optional garden",()=>{const css=readFileSync("cultural.css","utf8");assert.match(css,/gallery-university-[\s\S]*?aula-leopoldina-[\s\S]*?object-fit:contain/);assert.match(readFileSync("cultural.html","utf8"),/cultural\.css\?v=20261022-aula-full-frame/);assert.match(readFileSync("map.html","utf8"),/data-route-stop-count>15</);assert.match(readFileSync("app.js","utf8"),/data-route-stop-count[\s\S]*?String\(window.LOCATIONS.length\)/);});
+test("Aula cultural photographs preserve the entire interiors and the main route summary counts its displayed optional garden",()=>{const css=readFileSync("cultural.css","utf8");assert.match(css,/gallery-university-[\s\S]*?aula-leopoldina-[\s\S]*?object-fit:contain/);assert.match(readFileSync("cultural.html","utf8"),/cultural\.css\?v=20261022-neighbourhood-piast/);assert.match(readFileSync("map.html","utf8"),/data-route-stop-count>15</);assert.match(readFileSync("app.js","utf8"),/data-route-stop-count[\s\S]*?String\(window.LOCATIONS.length\)/);});
