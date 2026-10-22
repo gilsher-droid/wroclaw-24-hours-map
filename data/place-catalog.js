@@ -17260,13 +17260,20 @@
         "/assets/hala-refresh-oct18-02.jpg",
         "/assets/hala-refresh-oct18-03.jpg",
         "/assets/hala-refresh-oct18-04.jpg",
-        "/assets/hala-refresh-oct18-05.jpg"
+        "/assets/hala-refresh-oct18-05.jpg",
+        "/assets/round24h-20261022/hala-10.jpg",
+        "/assets/round24h-20261022/hala-13.jpg",
+        "/assets/round24h-20261022/hala-21.jpg",
+        "/assets/multimedia-fountain-04.jpg",
+        "/assets/multimedia-fountain-05.jpg"
       ],
       "videos": [
         "/assets/hala-stulecia-visit.mp4",
         "/assets/video-stulecia-fountain.mp4",
         "/assets/hala-pergola-view-oct18.mp4",
-        "/assets/hala-iglica-plaza-oct18.mp4"
+        "/assets/hala-iglica-plaza-oct18.mp4",
+        "https://www.youtube.com/watch?v=-nG5t4pZFxg",
+        "https://www.youtube.com/watch?v=oeTVQpkK7kU"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/y74YI_tgRq0",
@@ -17404,6 +17411,157 @@
             "centennial-hall",
             "visit-video"
           ]
+        },
+        "/assets/round24h-20261022/hala-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/IMG_5103.JPG",
+          "sourceSHA256": "5689bfdb575c1379bdddfef5953bf43164543e849362af1918d46efcdc77d722",
+          "alt": {
+            "he": "מבקרים ודוכני אוכל זמניים בסביבת היכל המאה בעת הביקור",
+            "en": "Visitors and temporary food stalls around Centennial Hall during our visit",
+            "pl": "Odwiedzający i tymczasowe stoiska gastronomiczne przy Hali Stulecia podczas naszej wizyty",
+            "de": "Besucher und vorübergehende Imbissstände an der Jahrhunderthalle bei unserem Besuch",
+            "cs": "Návštěvníci a dočasné stánky s občerstvením u Haly století během naší návštěvy"
+          },
+          "caption": {
+            "he": "מבקרים ודוכני אוכל זמניים בסביבת היכל המאה בעת הביקור",
+            "en": "Visitors and temporary food stalls around Centennial Hall during our visit",
+            "pl": "Odwiedzający i tymczasowe stoiska gastronomiczne przy Hali Stulecia podczas naszej wizyty",
+            "de": "Besucher und vorübergehende Imbissstände an der Jahrhunderthalle bei unserem Besuch",
+            "cs": "Návštěvníci a dočasné stánky s občerstvením u Haly století během naší návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Public visitors incidental in place photograph, no posed family portrait."
+        },
+        "/assets/round24h-20261022/hala-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/IMG_5829.JPG",
+          "sourceSHA256": "2649d64600a88b2969343f2e9c3ec9aca4d809852ad0827ade1fb904c75a79c4",
+          "alt": {
+            "he": "מבט אל היכל המאה מעבר לבריכה במסגרת של עלי עצים",
+            "en": "View of Centennial Hall across the pond framed by tree leaves",
+            "pl": "Widok na Halę Stulecia przez staw w obramowaniu liści drzew",
+            "de": "Blick über den Teich auf die Jahrhunderthalle, eingerahmt von Baumblättern",
+            "cs": "Pohled přes jezírko na Halu století v rámu listí stromů"
+          },
+          "caption": {
+            "he": "מבט אל היכל המאה מעבר לבריכה במסגרת של עלי עצים",
+            "en": "View of Centennial Hall across the pond framed by tree leaves",
+            "pl": "Widok na Halę Stulecia przez staw w obramowaniu liści drzew",
+            "de": "Blick über den Teich auf die Jahrhunderthalle, eingerahmt von Baumblättern",
+            "cs": "Pohled přes jezírko na Halu století v rámu listí stromů"
+          },
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Public visitors incidental in place photograph, no posed family portrait."
+        },
+        "/assets/round24h-20261022/hala-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/WhatsApp Image 2026-07-22 at 14.44.51 (1).jpeg",
+          "sourceSHA256": "7a07197bac6a60121443528495fdaf50a8eca899403c41d81362fd70cbe4bcb4",
+          "alt": {
+            "he": "מבקרת מול הבריכה והיכל המאה",
+            "en": "A visitor in front of the pond and Centennial Hall",
+            "pl": "Odwiedzająca przed stawem i Halą Stulecia",
+            "de": "Eine Besucherin vor dem Teich und der Jahrhunderthalle",
+            "cs": "Návštěvnice před jezírkem a Halou století"
+          },
+          "caption": {
+            "he": "מבקרת מול הבריכה והיכל המאה",
+            "en": "A visitor in front of the pond and Centennial Hall",
+            "pl": "Odwiedzająca przed stawem i Halą Stulecia",
+            "de": "Eine Besucherin vor dem Teich und der Jahrhunderthalle",
+            "cs": "Návštěvnice před jezírkem a Halou století"
+          },
+          "originalFullPicturePreserved": true,
+          "approvalCall": "call_3be7eb9c2fcc41c5b196b7ca8024e085",
+          "specificPhotoApproval": true
+        },
+        "/assets/multimedia-fountain-04.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "centennial-hall",
+            "wide-view"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-22 at 14.44.51.jpeg",
+          "sharedCanonicalPhotoReference": "fountain",
+          "sharedReason": "The hall is clearly visible across its adjacent pond; same existing asset reused, no file duplication.",
+          "alt": {
+            "he": "היכל המאה מעבר לבריכה ולמזרקה בסביבתו",
+            "en": "Centennial Hall across the adjacent pond and fountain",
+            "pl": "Hala Stulecia po drugiej stronie pobliskiego stawu i fontanny",
+            "de": "Die Jahrhunderthalle jenseits des benachbarten Teichs und Brunnens",
+            "cs": "Hala století za přilehlým jezírkem a fontánou"
+          },
+          "caption": {
+            "he": "היכל המאה מעבר לבריכה ולמזרקה בסביבתו",
+            "en": "Centennial Hall across the adjacent pond and fountain",
+            "pl": "Hala Stulecia po drugiej stronie pobliskiego stawu i fontanny",
+            "de": "Die Jahrhunderthalle jenseits des benachbarten Teichs und Brunnens",
+            "cs": "Hala století za přilehlým jezírkem a fontánou"
+          }
+        },
+        "/assets/multimedia-fountain-05.jpg": {
+          "tags": [
+            "multimedia-fountain",
+            "centennial-hall",
+            "water-show"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-22 at 14.44.51 (2).jpeg",
+          "sharedCanonicalPhotoReference": "fountain",
+          "sharedReason": "The hall is clearly visible across its adjacent pond; same existing asset reused, no file duplication.",
+          "alt": {
+            "he": "היכל המאה מעבר לבריכה ולמזרקה בסביבתו",
+            "en": "Centennial Hall across the adjacent pond and fountain",
+            "pl": "Hala Stulecia po drugiej stronie pobliskiego stawu i fontanny",
+            "de": "Die Jahrhunderthalle jenseits des benachbarten Teichs und Brunnens",
+            "cs": "Hala století za přilehlým jezírkem a fontánou"
+          },
+          "caption": {
+            "he": "היכל המאה מעבר לבריכה ולמזרקה בסביבתו",
+            "en": "Centennial Hall across the adjacent pond and fountain",
+            "pl": "Hala Stulecia po drugiej stronie pobliskiego stawu i fontanny",
+            "de": "Die Jahrhunderthalle jenseits des benachbarten Teichs und Brunnens",
+            "cs": "Hala století za přilehlým jezírkem a fontánou"
+          }
+        },
+        "https://www.youtube.com/watch?v=-nG5t4pZFxg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/IMG_5850.MOV",
+          "sourceSHA256": "5180eea3152213ed54d8fd1a3f53ee6cbc2cd562e6ed97bcefa2baaf9b938600",
+          "uploadSHA256": "d8ffd2c8541e36a36b1c90ebf612f514126230ed51408ee2aac18c20b0818bf5",
+          "durationSeconds": 4.966667,
+          "title": {
+            "he": "היכל המאה והצריח ברחבה",
+            "en": "Centennial Hall and the Iglica spire",
+            "pl": "Hala Stulecia i Iglica",
+            "de": "Jahrhunderthalle und Iglica",
+            "cs": "Hala století a věž Iglica"
+          },
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_7ef0c1d7152d49928c1bb47d115f02e7",
+          "checksEvidence": "CopyrightNoIssues initial wizard; current Content Notices dash, noChecking, ClaimsNoImpact, SDcomplete before ordinary DetailsSave; reopened Public"
+        },
+        "https://www.youtube.com/watch?v=oeTVQpkK7kU": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/WhatsApp Video 2026-09-24 at 17.32.26.mp4",
+          "sourceSHA256": "732ba3d93c1f0037a641e36f6d9fcf59bffc7fe6ea73089770481c147102375c",
+          "uploadSHA256": "21a34bbc2273f45ed01363fe0704e20b0cb3c11d96ef96e2227e3a3a829d2687",
+          "durationSeconds": 2.85,
+          "title": {
+            "he": "שביל גן ליד היכל המאה",
+            "en": "Garden path near Centennial Hall",
+            "pl": "Ścieżka ogrodowa przy Hali Stulecia",
+            "de": "Gartenweg an der Jahrhunderthalle",
+            "cs": "Zahradní cesta u Haly století"
+          },
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "visibility": "Public",
+          "publicReopened": true,
+          "sdComplete": true,
+          "approvalCall": "call_7ef0c1d7152d49928c1bb47d115f02e7",
+          "checksEvidence": "Wizard both Copyright+CommunityGuidelines complete NoIssues before ordinary Publish; reopened Public/SDcomplete"
         }
       }
     },
@@ -40826,7 +40984,13 @@
         "/assets/wyspa-slodowa/wyspa-slodowa-03.jpg",
         "/assets/wyspa-slodowa/wyspa-slodowa-04.jpg",
         "/assets/wyspa-slodowa/wyspa-slodowa-05.jpg",
-        "/assets/wyspa-slodowa/wyspa-slodowa-06.jpg"
+        "/assets/wyspa-slodowa/wyspa-slodowa-06.jpg",
+        "/assets/round24h-20261022/slodowa-04.jpg",
+        "/assets/round24h-20261022/slodowa-07.jpg",
+        "/assets/round24h-20261022/slodowa-08.jpg",
+        "/assets/round24h-20261022/slodowa-10.jpg",
+        "/assets/round24h-20261022/slodowa-11.jpg",
+        "/assets/round24h-20261022/slodowa-18.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -40883,6 +41047,126 @@
           },
           "originalFullPicturePreserved": true,
           "familyForeground": false
+        },
+        "/assets/round24h-20261022/slodowa-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.48 (2).jpeg",
+          "sourceSHA256": "06a69420656a0cee0fb0fae8017d60fa9f1735f9c667d82c254a9d2ad72d7aba",
+          "alt": {
+            "he": "מבט לילי על גדת הנהר ומקומות הישיבה ליד אי סלודובה",
+            "en": "Night view of the riverbank and outdoor seating by Słodowa Island",
+            "pl": "Nocny widok nadbrzeża i miejsc siedzących przy Wyspie Słodowej",
+            "de": "Nächtlicher Blick auf das Ufer und Sitzplätze an der Insel Słodowa",
+            "cs": "Noční pohled na nábřeží a venkovní posezení u ostrova Słodowa"
+          },
+          "caption": {
+            "he": "מבט לילי על גדת הנהר ומקומות הישיבה ליד אי סלודובה",
+            "en": "Night view of the riverbank and outdoor seating by Słodowa Island",
+            "pl": "Nocny widok nadbrzeża i miejsc siedzących przy Wyspie Słodowej",
+            "de": "Nächtlicher Blick auf das Ufer und Sitzplätze an der Insel Słodowa",
+            "cs": "Noční pohled na nábřeží a venkovní posezení u ostrova Słodowa"
+          },
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Place/river photograph; public visitors incidental. No posed family portrait."
+        },
+        "/assets/round24h-20261022/slodowa-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.49 (1).jpeg",
+          "sourceSHA256": "a858d9b66f98bf18ab5e01f6cbf0a9a714546a2b190cac85dcfc5514862b6718",
+          "alt": {
+            "he": "אורות לילה המשתקפים במים ליד אי סלודובה",
+            "en": "Night lights reflected in the water by Słodowa Island",
+            "pl": "Nocne światła odbijające się w wodzie przy Wyspie Słodowej",
+            "de": "Nächtliche Lichter spiegeln sich im Wasser an der Insel Słodowa",
+            "cs": "Noční světla odrážející se ve vodě u ostrova Słodowa"
+          },
+          "caption": {
+            "he": "אורות לילה המשתקפים במים ליד אי סלודובה",
+            "en": "Night lights reflected in the water by Słodowa Island",
+            "pl": "Nocne światła odbijające się w wodzie przy Wyspie Słodowej",
+            "de": "Nächtliche Lichter spiegeln sich im Wasser an der Insel Słodowa",
+            "cs": "Noční světla odrážející se ve vodě u ostrova Słodowa"
+          },
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Place/river photograph; public visitors incidental. No posed family portrait."
+        },
+        "/assets/round24h-20261022/slodowa-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.49 (5).jpeg",
+          "sourceSHA256": "2cad5d3a58261259e22fc13ad36a63f10426ed31631c7a51a1c1d747a20b3ed2",
+          "alt": {
+            "he": "מבט רחב בלילה אל המים והגשר בסביבת אי סלודובה",
+            "en": "Wide night view of the water and bridge around Słodowa Island",
+            "pl": "Szeroki nocny widok na wodę i most w okolicy Wyspy Słodowej",
+            "de": "Weiter Nachtblick auf Wasser und Brücke bei der Insel Słodowa",
+            "cs": "Široký noční pohled na vodu a most v okolí ostrova Słodowa"
+          },
+          "caption": {
+            "he": "מבט רחב בלילה אל המים והגשר בסביבת אי סלודובה",
+            "en": "Wide night view of the water and bridge around Słodowa Island",
+            "pl": "Szeroki nocny widok na wodę i most w okolicy Wyspy Słodowej",
+            "de": "Weiter Nachtblick auf Wasser und Brücke bei der Insel Słodowa",
+            "cs": "Široký noční pohled na vodu a most v okolí ostrova Słodowa"
+          },
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Place/river photograph; public visitors incidental. No posed family portrait."
+        },
+        "/assets/round24h-20261022/slodowa-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-19 at 08.41.50 (2).jpeg",
+          "sourceSHA256": "971a1df85998421c89f951104ec8779a9e05d728d2626fb199b384b1de0194cf",
+          "alt": {
+            "he": "עוברי אורח על הגשר לצד אי סלודובה בשעות הלילה",
+            "en": "Passersby on the bridge beside Słodowa Island at night",
+            "pl": "Przechodnie na moście obok Wyspy Słodowej nocą",
+            "de": "Passanten auf der Brücke neben der Insel Słodowa bei Nacht",
+            "cs": "Kolemjdoucí na mostě vedle ostrova Słodowa v noci"
+          },
+          "caption": {
+            "he": "עוברי אורח על הגשר לצד אי סלודובה בשעות הלילה",
+            "en": "Passersby on the bridge beside Słodowa Island at night",
+            "pl": "Przechodnie na moście obok Wyspy Słodowej nocą",
+            "de": "Passanten auf der Brücke neben der Insel Słodowa bei Nacht",
+            "cs": "Kolemjdoucí na mostě vedle ostrova Słodowa v noci"
+          },
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Place/river photograph; public visitors incidental. No posed family portrait."
+        },
+        "/assets/round24h-20261022/slodowa-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-20 at 21.20.54 (1).jpeg",
+          "sourceSHA256": "e6ecdac2e457c81a1227696530402376cd278beeae2d87bd4ba72ad479dd505a",
+          "alt": {
+            "he": "פנסים ומעקה לאורך שביל הלילה בסביבת אי סלודובה",
+            "en": "Lamps and a railing along the night path around Słodowa Island",
+            "pl": "Latarnie i balustrada wzdłuż nocnej ścieżki przy Wyspie Słodowej",
+            "de": "Laternen und Geländer am nächtlichen Weg bei der Insel Słodowa",
+            "cs": "Lampy a zábradlí podél noční cesty u ostrova Słodowa"
+          },
+          "caption": {
+            "he": "פנסים ומעקה לאורך שביל הלילה בסביבת אי סלודובה",
+            "en": "Lamps and a railing along the night path around Słodowa Island",
+            "pl": "Latarnie i balustrada wzdłuż nocnej ścieżki przy Wyspie Słodowej",
+            "de": "Laternen und Geländer am nächtlichen Weg bei der Insel Słodowa",
+            "cs": "Lampy a zábradlí podél noční cesty u ostrova Słodowa"
+          },
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Place/river photograph; public visitors incidental. No posed family portrait."
+        },
+        "/assets/round24h-20261022/slodowa-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/STUDENTS ISLAND - WYSPA SLODOWA/WhatsApp Image 2026-10-20 at 21.20.55 (6).jpeg",
+          "sourceSHA256": "02711af6c1d5a30c95bd2516e1df47ec04e8290c6f952d56d9f4f509d133a842",
+          "alt": {
+            "he": "מבקרים ועצים על הגדה המוארת באי סלודובה בלילה",
+            "en": "Visitors and trees on the illuminated bank of Słodowa Island at night",
+            "pl": "Odwiedzający i drzewa na oświetlonym brzegu Wyspy Słodowej nocą",
+            "de": "Besucher und Bäume am beleuchteten Ufer der Insel Słodowa bei Nacht",
+            "cs": "Návštěvníci a stromy na osvětleném břehu ostrova Słodowa v noci"
+          },
+          "caption": {
+            "he": "מבקרים ועצים על הגדה המוארת באי סלודובה בלילה",
+            "en": "Visitors and trees on the illuminated bank of Słodowa Island at night",
+            "pl": "Odwiedzający i drzewa na oświetlonym brzegu Wyspy Słodowej nocą",
+            "de": "Besucher und Bäume am beleuchteten Ufer der Insel Słodowa bei Nacht",
+            "cs": "Návštěvníci a stromy na osvětleném břehu ostrova Słodowa v noci"
+          },
+          "originalFullPicturePreserved": true,
+          "privacyReview": "Place/river photograph; public visitors incidental. No posed family portrait."
         }
       }
     },
