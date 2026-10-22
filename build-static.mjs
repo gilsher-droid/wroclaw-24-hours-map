@@ -79,7 +79,7 @@ for (const file of [
 // These root pages also consume generated experience data. Content-address the
 // scripts so a returning visitor does not keep an older experience list.
 const homeExperienceScripts = await Promise.all([
-  "/home-maps.js",
+  "/site-actions.js", "/home-maps.js",
   "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
   "/data/canonical-experiences.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js",
   "/experiences.js", "/guide-video.js", "/youtube-video.js",
@@ -93,7 +93,7 @@ for (const file of ["index.html", "experiences.html"]) {
 
 for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html", "guides.html"]) {
   const html = await readFile(resolve(root, file), "utf8");
-  const scripts = await Promise.all(["/guide-map.js", "/guide-map-model.js", "/data/guide-map-places.js", "/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
+  const scripts = await Promise.all(["/site-actions.js", "/guide-map.js", "/guide-map-model.js", "/data/guide-map-places.js", "/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
   await writeFile(resolve(interactiveMaps, file), versionScriptUrls(html, scripts));
 }
 
