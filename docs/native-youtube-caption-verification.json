@@ -847,7 +847,87 @@
         }
       ],
       "verifiedAt": "2026-10-21"
+    },
+    {
+      "place": "henryk-tomaszewski-theatre-museum",
+      "videos": {
+        "en": "p8SO_3lpuxM"
+      },
+      "sourceAudioLanguage": "en",
+      "englishOnlyExplicitlyAuthorized": true,
+      "englishPublishedManualTracks": [
+        "en",
+        "he",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "kind": "manual",
+        "videoId": "p8SO_3lpuxM",
+        "audioLanguage": "en"
+      },
+      "nativeCaptions": [
+        {
+          "language": "en",
+          "videoId": "p8SO_3lpuxM",
+          "sourceAudioLanguage": "en",
+          "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-en.srt",
+          "sha256": "83fc31991fd8082684120b0f2ffe269ec3251d38d453403461bb5531d88db4ff",
+          "cues": 6,
+          "published": true,
+          "reopened": true,
+          "evidence": "outputs/theatre-museum-video-guide-2026-10-22/en-captions-reopened.txt"
+        },
+        {
+          "language": "he",
+          "videoId": "p8SO_3lpuxM",
+          "sourceAudioLanguage": "en",
+          "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-he.srt",
+          "sha256": "8f857358d017de81fab4f57cbe474fb59dcaf2a6c67d212d77f9a208149b33e5",
+          "cues": 6,
+          "published": true,
+          "reopened": true,
+          "evidence": "outputs/theatre-museum-video-guide-2026-10-22/he-captions-reopened.txt"
+        },
+        {
+          "language": "pl",
+          "videoId": "p8SO_3lpuxM",
+          "sourceAudioLanguage": "en",
+          "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-pl.srt",
+          "sha256": "91cff3e089b7c013b76c63d52a503f4ae17c874460ece5294834161cbb5e1071",
+          "cues": 6,
+          "published": true,
+          "reopened": true,
+          "evidence": "outputs/theatre-museum-video-guide-2026-10-22/pl-captions-reopened.txt"
+        },
+        {
+          "language": "de",
+          "videoId": "p8SO_3lpuxM",
+          "sourceAudioLanguage": "en",
+          "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-de.srt",
+          "sha256": "100ce893618ca8dee439fe277722478ccab1803002e7215832064e0994e8c26f",
+          "cues": 6,
+          "published": true,
+          "reopened": true,
+          "evidence": "outputs/theatre-museum-video-guide-2026-10-22/de-captions-reopened.txt"
+        },
+        {
+          "language": "cs",
+          "videoId": "p8SO_3lpuxM",
+          "sourceAudioLanguage": "en",
+          "path": "outputs/theatre-museum-video-guide-2026-10-22/captions/theatre-museum-cs.srt",
+          "sha256": "d0ae5a1fc50b6a55ca20a7d5833000f528ec77fc7fa83a3c136a2ab604cda9cc",
+          "cues": 6,
+          "published": true,
+          "reopened": true,
+          "evidence": "outputs/theatre-museum-video-guide-2026-10-22/cs-captions-reopened.txt"
+        }
+      ],
+      "verificationReceipt": "outputs/theatre-museum-video-guide-2026-10-22/youtube-publication-receipt.json",
+      "verifiedAt": "2026-10-22"
     }
   ],
-  "lastAddedAt": "2026-10-21"
+  "lastAddedAt": "2026-10-22"
 }

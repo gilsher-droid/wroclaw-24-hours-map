@@ -7,7 +7,8 @@
   const youtubeId = (url) => /^https:\/\/(?:www\.)?youtube\.com\/(?:shorts\/|watch\?v=)([A-Za-z0-9_-]{11})$/.exec(url || "")?.[1] || null;
   const escapeHtml = (value) => String(value || "").replace(/[&<>'"]/g,(c)=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
   const language = () => document.documentElement.lang || "he";
-  const sourceFor = (id,lang=language()) => (window.WROC_CATALOG?.getPlace(id)?.media?.guideVideos || window.WROC_EXPERIENCE_CATALOG?.getExperience(id)?.media?.guideVideos)?.[lang==="he"?"he":"en"] || null;
+  const editionsFor = (id) => window.WROC_CATALOG?.getPlace(id)?.media?.guideVideos || window.WROC_EXPERIENCE_CATALOG?.getExperience(id)?.media?.guideVideos;
+  const sourceFor = (id,lang=language()) => { const editions=editionsFor(id); return (lang==="he" ? editions?.he || editions?.en : editions?.en) || null; };
   const cueAt = (cues,time) => cues.find(([start,end])=>time>=start&&time<end)?.[2] || ["","",""];
   const embedUrlFor = (url,lang) => {
     const id=youtubeId(url);if(!id)return null;
@@ -44,7 +45,8 @@
 
   function button(id,lang=language(),resourceClass=""){
     const url=sourceFor(id,lang);if(!youtubeId(url))return "";
-    const suffix=subtitleLabels[lang]||subtitleLabels.en;
+    const englishOnly=lang==="he"&&!editionsFor(id)?.he;
+    const suffix=englishOnly?"הדרכה באנגלית · כתוביות בעברית":subtitleLabels[lang]||subtitleLabels.en;
     const title=`${labels[lang]||labels.en}${suffix?` · ${suffix}`:""}`;
     return `<a class="guide-video-action${resourceClass?` ${escapeHtml(resourceClass)}`:""}" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-guide-video-src="${escapeHtml(url)}" data-guide-video-lang="${escapeHtml(lang)}" aria-label="${escapeHtml(title)}" title="${escapeHtml(title)}"><span class="brand-icon guide" aria-hidden="true"><img src="/assets/logo.png" alt=""></span><span class="guide-video-action-copy"><span class="guide-video-action-title">${escapeHtml(labels[lang]||labels.en)}</span><span class="guide-video-action-language">${escapeHtml(suffix)}</span></span></a>`;
   }

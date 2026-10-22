@@ -88,7 +88,7 @@ window.LOCATIONS = [
     time: { he: "10 דקות", en: "10 minutes", pl: "10 minut" }
   },
   {
-    id: "ostrow", order: 13, coordinates: [51.11430, 17.04507], category: "main", optional: false, localName: "Ostrów Tumski",
+    id: "ostrow", order: 13, coordinates: [51.1146228, 17.0437212], category: "main", optional: false, localName: "Ostrów Tumski",
     name: { he: "אוסטרוב טומסקי", en: "Ostrów Tumski", pl: "Ostrów Tumski" },
     description: { he: "האזור העתיק והאווירי של ורוצלב, עם רחובות שקטים, כנסיות ופנסי גז היסטוריים.", en: "Wrocław’s atmospheric historic quarter, with quiet lanes, churches and traditional gas lamps.", pl: "Nastrojowa historyczna część Wrocławia z cichymi uliczkami, kościołami i tradycyjnymi latarniami gazowymi." },
     recommendation: { he: "מומלץ להגיע לקראת הערב, כשהאור מתחיל להשתנות.", en: "Try to arrive toward evening as the light begins to change.", pl: "Najlepiej dotrzeć pod wieczór, gdy zaczyna zmieniać się światło." },
@@ -134,6 +134,20 @@ window.EVENING_LOCATIONS = [
     value.cs = window.EXTRA_ROUTE_TRANSLATIONS?.cs?.[value.en] || value.en;
   });
 }));
+
+// Optional cathedral-area extension, reusing the complete canonical media and guides.
+{
+  const garden = window.WROC_CATALOG?.getPlace("wroclaw-botanical-garden");
+  if (garden && !window.LOCATIONS.some((item) => item.id === garden.id)) {
+    const point = garden.location.coordinates;
+    window.LOCATIONS.push({
+      id: garden.id, order: 15, coordinates: [point.lat, point.lng], category: "culture", optional: true,
+      localName: garden.localName, name: garden.name, description: garden.description,
+      recommendation: {"he": "תחנת רשות של 45–60 דקות ליד הקתדרלה. אם בוחרים בגן, הגיעו לאזור מוקדם יותר וקצרו תחנה אופציונלית באוניברסיטה במקום להוסיף אותו ליום עמוס. בדקו מראש את שעות הפתיחה העונתיות והכרטיסים; אם הגן סגור, המשיכו בטיול באי.", "en": "An optional 45–60-minute stop beside the cathedral. If you choose the garden, reach this area earlier and shorten an optional university stop rather than adding it to an already full day. Check seasonal opening hours and tickets beforehand; if the garden is closed, continue your island walk.", "pl": "Opcjonalny przystanek na 45–60 minut obok katedry. Jeśli wybierzecie ogród, dotrzyjcie tu wcześniej i skróćcie jeden z opcjonalnych przystanków na uniwersytecie, zamiast dodawać go do już napiętego dnia. Sprawdźcie sezonowe godziny otwarcia i bilety; jeśli ogród jest zamknięty, kontynuujcie spacer po Ostrowie Tumskim.", "de": "Ein optionaler Stopp von 45–60 Minuten neben dem Dom. Wenn Sie den Garten besuchen möchten, kommen Sie früher in dieses Viertel und kürzen Sie einen optionalen Universitätsstopp, statt einen bereits vollen Tag zu verlängern. Prüfen Sie vorab saisonale Öffnungszeiten und Eintrittskarten; bei geschlossenem Garten setzen Sie den Spaziergang auf der Dominsel fort.", "cs": "Volitelná zastávka na 45–60 minut u katedrály. Pokud si vyberete zahradu, přijďte do této oblasti dříve a zkraťte jednu z volitelných univerzitních zastávek místo dalšího prodlužování nabitého dne. Předem ověřte sezonní otevírací dobu a vstupenky; je-li zahrada zavřená, pokračujte v procházce po katedrálním ostrově."},
+      time: {"he": "45–60 דקות", "en": "45–60 minutes", "pl": "45–60 minut", "de": "45–60 Minuten", "cs": "45–60 minut"}
+    });
+  }
+}
 
 if (window.WROC_CATALOG?.registerProduct) {
   const registered = window.WROC_CATALOG.registerProduct({
