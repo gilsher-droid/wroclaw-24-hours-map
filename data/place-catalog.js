@@ -2960,7 +2960,21 @@
       ],
       "mediaSource": "data/barbara-media-provenance.json",
       "familyException": false,
-      "visitVideoPublication": "data/barbara-visit-publication-receipt.json"
+      "visitVideoPublication": "data/barbara-visit-publication-receipt.json",
+      "sharedPapaGuides20261022": {
+        "userRequestedReuse": true,
+        "dedicatedBarbaraOnly": false,
+        "sourceCanonicalId": "papa",
+        "captionProvenance": "data/papa-guide-caption-provenance.json",
+        "noNewUpload": true
+      },
+      "guideContextLabel": {
+        "he": "מדריך הגמדים שלנו, כולל ברברה",
+        "en": "Our dwarf guide, including Barbara",
+        "pl": "Nasz przewodnik po krasnalach, także o Barbarze",
+        "de": "Unser Zwergenführer, auch über Barbara",
+        "cs": "Náš průvodce trpaslíky, také o Barbaře"
+      }
     },
     "media": {
       "thumbnail": "/assets/barbara-wroclaw-entrance.jpg",
@@ -2978,6 +2992,10 @@
         "https://youtube.com/shorts/w_vNteiYq4o",
         "https://youtube.com/shorts/QGne7T7L6og"
       ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/Eyns7Gj66d0",
+        "en": "https://youtube.com/shorts/pIzp5Bmb9ck"
+      },
       "metadata": {
         "/assets/barbara-wroclaw-neon-detail.jpg": {
           "original": true,
@@ -7691,12 +7709,6 @@
         "productId": "wroclaw-24-hours",
         "sourceId": "cathedral",
         "lat": 51.11422,
-        "lng": 17.04663
-      },
-      {
-        "productId": "wroclaw-four-days",
-        "sourceId": "cathedral",
-        "lat": 51.11415,
         "lng": 17.04663
       }
     ],
@@ -21654,6 +21666,11 @@
         "productId": "lifestyle-guide",
         "kind": "catalog-place",
         "sourceId": "kawiarenka-sw-jadwigi"
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "kawiarenka-sw-jadwigi"
       }
     ],
     "coordinateCandidates": [
@@ -24929,7 +24946,8 @@
       }
     },
     "categories": [
-      "eat"
+      "eat",
+      "food"
     ],
     "sourceUrls": [],
     "aliases": [
@@ -24940,6 +24958,11 @@
       {
         "productId": "lifestyle-guide",
         "kind": "catalog-place",
+        "sourceId": "lwia-brama-restaurant-wroclaw"
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
         "sourceId": "lwia-brama-restaurant-wroclaw"
       }
     ],
@@ -24955,7 +24978,8 @@
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
-        "eat"
+        "eat",
+        "food"
       ],
       "tags": []
     },
@@ -28037,19 +28061,13 @@
       {
         "productId": "wroclaw-four-days",
         "kind": "route-stop",
-        "sourceId": "tumski-bridge"
+        "sourceId": "most-tumski"
       }
     ],
     "coordinateCandidates": [
       {
         "productId": "wroclaw-24-hours",
         "sourceId": "most-tumski",
-        "lat": 51.114714,
-        "lng": 17.042248
-      },
-      {
-        "productId": "wroclaw-four-days",
-        "sourceId": "tumski-bridge",
         "lat": 51.114714,
         "lng": 17.042248
       }
@@ -31696,6 +31714,11 @@
         "sourceId": "ostrow"
       },
       {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "ostrow"
+      },
+      {
         "productId": "wroclaw-christmas",
         "kind": "route-stop",
         "sourceId": "ostrow-cathedral"
@@ -35225,6 +35248,7 @@
       }
     },
     "categories": [
+      "culture",
       "historical-site",
       "museum"
     ],
@@ -35233,12 +35257,19 @@
       "Piastowska Pieczęć: Piast Castle Remains",
       "Piastowska Pieczęć: pozostałości zamku Piastów"
     ],
-    "sourceRecords": [],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "piastowska-pieczec-wroclaw"
+      }
+    ],
     "coordinateCandidates": [],
     "status": "published",
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
+        "culture",
         "historical-site",
         "museum"
       ],
@@ -39725,6 +39756,7 @@
       }
     },
     "categories": [
+      "architecture",
       "church",
       "historical-site"
     ],
@@ -39733,12 +39765,19 @@
       "Kościół św. Marcina",
       "St Martin’s Church"
     ],
-    "sourceRecords": [],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "st-martin-church-wroclaw"
+      }
+    ],
     "coordinateCandidates": [],
     "status": "published",
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
+        "architecture",
         "church",
         "historical-site"
       ],
@@ -41004,6 +41043,7 @@
       }
     },
     "categories": [
+      "architecture",
       "sleep"
     ],
     "sourceUrls": [
@@ -41014,6 +41054,11 @@
       {
         "productId": "lifestyle-guide",
         "kind": "catalog-place",
+        "sourceId": "the-bridge"
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
         "sourceId": "the-bridge"
       }
     ],
@@ -41029,6 +41074,7 @@
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
+        "architecture",
         "sleep"
       ],
       "tags": []
@@ -47488,7 +47534,6 @@
       }
     },
     "categories": [
-      "activity",
       "garden",
       "nature"
     ],
@@ -47500,23 +47545,15 @@
     "sourceRecords": [
       {
         "productId": "wroclaw-four-days",
-        "kind": "recommendation",
+        "kind": "route-stop",
         "sourceId": "wroclaw-botanical-garden"
       }
     ],
-    "coordinateCandidates": [
-      {
-        "productId": "wroclaw-four-days",
-        "sourceId": "wroclaw-botanical-garden",
-        "lat": 51.1159,
-        "lng": 17.0478
-      }
-    ],
+    "coordinateCandidates": [],
     "status": "published",
     "editorialPriority": "normal",
     "taxonomy": {
       "categories": [
-        "activity",
         "garden",
         "nature"
       ],
@@ -51340,19 +51377,6 @@
     "candidate": {
       "lat": 51.11423,
       "lng": 17.03375
-    }
-  },
-  {
-    "canonicalId": "cathedral",
-    "productId": "wroclaw-four-days",
-    "sourceId": "cathedral",
-    "selected": {
-      "lat": 51.11422,
-      "lng": 17.04663
-    },
-    "candidate": {
-      "lat": 51.11415,
-      "lng": 17.04663
     }
   },
   {

@@ -156,7 +156,12 @@
         "kind": "manual"
       },
       "verifiedAt": "2026-10-15",
-      "method": "Native YouTube Studio Published tracks; exact manual SRT with source timing"
+      "method": "Native YouTube Studio Published tracks; exact manual SRT with source timing",
+      "sharedCanonicalPlaceIds": [
+        "papa",
+        "barbara-wroclaw"
+      ],
+      "reuseContext": "Dwarf guide mentioning Barbara, explicitly requested by Gil on2026-10-22. No reupload or new caption publication."
     },
     {
       "place": "jawor-church-of-peace",
