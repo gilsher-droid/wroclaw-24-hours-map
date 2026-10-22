@@ -32,6 +32,7 @@ test("every canonical social item remains a direct Facebook or Instagram link", 
     for (const post of posts) {
       const place = catalog.getPlace(id);
       assert.ok(place.socialPosts.some(item => item.platform === post.platform && item.url === post.url), `${id}: retain every verified historical post`);
+      if(id === "four-domes" && post.platform === "instagram" && post.language === "he"){assert.equal(catalog.getSocialPost(place,post.platform,post.language),null,"reviewed wrong-account Hebrew action stays hidden");continue;}
       const active = posts.filter(item => !place.socialPosts.find(row => row.platform === item.platform && row.url === item.url)?.routingExcluded);
       const preferred = active.find(item => item.platform === post.platform && item.language === post.language && catalog.socialPostKind(item.url,item.platform) === "post-candidate");
       if (preferred) assert.equal(catalog.getSocialPost(place, post.platform, post.language)?.url, preferred.url, `${id}: route to first currently verified matching-language post`);
@@ -72,7 +73,8 @@ test("all canonical places use only the selected language post or matching chann
     const result = catalog.getSocialPost(place, platform, lang);
     const exact = place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && p.language === lang && catalog.socialPostKind(p.url,platform)==="post-candidate" && !p.url.includes('/groups/'));
     const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && !p.language && catalog.socialPostKind(p.url,platform)==="post-candidate" && !p.url.includes('/groups/'));
-    if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
+    if(place.id === "four-domes" && platform === "instagram" && lang === "he") assert.equal(result,null,"reviewed wrong-account action");
+    else if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
     else assert.equal(result,null,"no account fallback: "+place.id);
   }
 });

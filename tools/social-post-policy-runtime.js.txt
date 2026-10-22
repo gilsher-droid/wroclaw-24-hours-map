@@ -19,9 +19,12 @@
     }
     return 'unsupported';
   };
+  const socialActionBlocks = __WROC_SOCIAL_ACTION_BLOCKS__;
   const getSocialPostState = (input, platform, lang = window.document?.documentElement?.lang || 'en') => {
     const place = typeof input === 'string' ? getPlace(input) : input;
     const language = ['he','en','pl','de','cs'].includes(lang) ? lang : 'en';
+    const block = socialActionBlocks.find(row => row.placeId === place?.id && row.platform === platform && row.language === language);
+    if (block) return { state: 'known-excluded', post: null, reason: block.reason };
     const rows = (place?.socialPosts || []).filter(post => post.platform === platform && (post.language || 'he') === language);
     const eligible = rows.filter(post => !post.routingExcluded && post.context !== 'historical-cross-account'
       && !String(post.url).includes('/groups/')

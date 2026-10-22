@@ -1,0 +1,13 @@
+[
+  {
+    "placeId": "four-domes",
+    "platform": "instagram",
+    "language": "he",
+    "historicalUrl": "https://www.instagram.com/p/DcqyG24DMHg/",
+    "reason": "Verified Hebrew-captioned Four Domes post was authored by the non-Hebrew wroclaw.lowersilesia account; Hebrew post actions require the Hebrew account. Hide this cell until a suitable post is verified.",
+    "actualAccount": "wroclaw.lowersilesia",
+    "requiredAccount": "wroclaw.lowersilesia.he",
+    "reviewedAt": "2026-10-22",
+    "evidence": "outputs/canonical-social-link-audit-2026-10-22/live-evidence/current-extra-000.txt"
+  }
+]

@@ -51170,9 +51170,24 @@
     }
     return 'unsupported';
   };
+  const socialActionBlocks = [
+  {
+    "placeId": "four-domes",
+    "platform": "instagram",
+    "language": "he",
+    "historicalUrl": "https://www.instagram.com/p/DcqyG24DMHg/",
+    "reason": "Verified Hebrew-captioned Four Domes post was authored by the non-Hebrew wroclaw.lowersilesia account; Hebrew post actions require the Hebrew account. Hide this cell until a suitable post is verified.",
+    "actualAccount": "wroclaw.lowersilesia",
+    "requiredAccount": "wroclaw.lowersilesia.he",
+    "reviewedAt": "2026-10-22",
+    "evidence": "outputs/canonical-social-link-audit-2026-10-22/live-evidence/current-extra-000.txt"
+  }
+];
   const getSocialPostState = (input, platform, lang = window.document?.documentElement?.lang || 'en') => {
     const place = typeof input === 'string' ? getPlace(input) : input;
     const language = ['he','en','pl','de','cs'].includes(lang) ? lang : 'en';
+    const block = socialActionBlocks.find(row => row.placeId === place?.id && row.platform === platform && row.language === language);
+    if (block) return { state: 'known-excluded', post: null, reason: block.reason };
     const rows = (place?.socialPosts || []).filter(post => post.platform === platform && (post.language || 'he') === language);
     const eligible = rows.filter(post => !post.routingExcluded && post.context !== 'historical-cross-account'
       && !String(post.url).includes('/groups/')
