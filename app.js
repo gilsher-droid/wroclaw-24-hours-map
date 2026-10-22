@@ -85,6 +85,7 @@
       actions.push(`<button type="button" class="resource-icon video-resource open-video" data-location="${escapeHtml(location.id)}" aria-label="${escapeHtml(t("videoGallery"))}" title="${escapeHtml(t("videoGallery"))}"><span class="brand-icon media" aria-hidden="true">▶</span><span>${escapeHtml(actionLabel("videos"))}</span></button>`);
     }
     actions.push(window.WROC_GUIDE_VIDEO?.button(location.canonicalPlaceId || location.id, currentLanguage, "resource-icon") || "");
+    actions.push(window.WROC_PLACE_AI?.button(location,currentLanguage,"resource-icon")||"");
     return `<div class="resource-actions" aria-label="${escapeHtml(location.name[currentLanguage])}">${actions.join("")}</div>`;
   }
 

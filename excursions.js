@@ -300,6 +300,7 @@
     links.push(window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "");
     if(selectedExcursion().walkingRoute?.city === "boleslawiec" && canonical.id === "boleslawiec-old-town") links.push(`<button type="button" data-walk-overview>${walkUi[language].walk}</button>`);
     if (includeMapFocus && (canonical.location?.coordinates || canonical.coordinates)) links.push(focusMapButton(`data-map-place="${canonical.id}"`));
+    links.push(window.WROC_PLACE_AI?.button(canonical,language)||"");
     return links.join("");
   }
 
