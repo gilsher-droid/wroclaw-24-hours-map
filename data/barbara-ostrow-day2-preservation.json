@@ -1845,7 +1845,8 @@
           "/assets/today-source-refresh-20261021/run4-092-most-tumski.jpg",
           "/assets/today-source-refresh-20261021/run4-093-most-tumski.jpg",
           "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg",
-          "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg"
+          "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg",
+          "/assets/gallery-cathedral-06.jpg"
         ],
         "videos": [
           "https://www.youtube.com/watch?v=3Sxf4k4DkiM",
@@ -2015,6 +2016,19 @@
             "savedPublicVerified": true,
             "reopenedVerified": true,
             "originalFullPictureAndDurationPreserved": true
+          },
+          "/assets/gallery-cathedral-06.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גשר מוסט/736343153_10244880652856887_4048239209935401266_n.jpg",
+            "sourceSHA256": "db079de04baa559f1bf497be89f79a5adb4722c7573290442d778b1ea2b29a58",
+            "reusedExistingAsset": true,
+            "originalFullPicturePreserved": true,
+            "alt": {
+              "he": "פרט גמד עם מנעול ליד גשר טומסקי",
+              "en": "Dwarf with a padlock beside Tumski Bridge",
+              "pl": "Krasnal z kłódką przy Moście Tumskim",
+              "de": "Zwerg mit Vorhängeschloss an der Tumski-Brücke",
+              "cs": "Trpaslík se zámkem u Tumského mostu"
+            }
           }
         }
       },
@@ -2254,11 +2268,29 @@
           "/assets/gallery-cathedral-02.jpg",
           "/assets/gallery-cathedral-01.jpg",
           "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg",
-          "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg"
+          "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg",
+          "/assets/round24h-20261022/ostrow-00.jpg",
+          "/assets/round24h-20261022/ostrow-04.jpg",
+          "/assets/round24h-20261022/ostrow-05.jpg",
+          "/assets/round24h-20261022/ostrow-06.jpg",
+          "/assets/round24h-20261022/ostrow-21.jpg",
+          "/assets/round24h-20261022/ostrow-approved-8.jpg",
+          "/assets/round24h-20261022/ostrow-approved-9.jpg",
+          "/assets/round24h-20261022/ostrow-approved-10.jpg",
+          "/assets/round24h-20261022/ostrow-approved-11.jpg"
         ],
         "videos": [
           "https://www.youtube.com/watch?v=M9P8fPs5-8o",
-          "https://www.youtube.com/watch?v=Lx6Lxbx0csk"
+          "https://www.youtube.com/watch?v=Lx6Lxbx0csk",
+          "https://www.youtube.com/watch?v=10y6XsJQjWs",
+          "https://www.youtube.com/watch?v=QGnlD7BKXTk",
+          "https://www.youtube.com/watch?v=ZopHcFHD6Ug",
+          "https://www.youtube.com/watch?v=22YrI8qbLhU",
+          "https://www.youtube.com/watch?v=eDUQf5KQGCs",
+          "https://www.youtube.com/watch?v=XMiI78evNUc",
+          "https://www.youtube.com/watch?v=V2CUKN6AGMQ",
+          "https://www.youtube.com/watch?v=PgVoFNeGyFY",
+          "https://www.youtube.com/watch?v=fB5DD5zDojs"
         ],
         "guideVideos": {
           "he": "https://www.youtube.com/watch?v=oBjOT3Ubaro",
@@ -2370,6 +2402,316 @@
             "savedPublicVerified": true,
             "reopenedVerified": true,
             "originalFullPictureAndDurationPreserved": true
+          },
+          "/assets/round24h-20261022/ostrow-00.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/735597620_10244880653056892_4864739360747914863_n.jpg",
+            "sourceSHA256": "7e0f12b60987b355810d897272c7028d74101e7f3a92695dcea82f3314bd3299",
+            "assetSHA256": "19e7b540538c07d806d0be21316374f3f33c80b76bb41b9dec42f89e7c1dfa4c",
+            "originalFullPicturePreserved": true,
+            "alt": {
+              "he": "מבט על גגות ומעבר מקורה באי הקתדרלות",
+              "en": "Rooftops and a covered passage on Cathedral Island",
+              "pl": "Dachy i kryte przejście na Ostrowie Tumskim",
+              "de": "Dächer und überdachter Durchgang auf der Dominsel",
+              "cs": "Střechy a krytý průchod na Tumském ostrově"
+            }
+          },
+          "/assets/round24h-20261022/ostrow-04.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/736683201_10244880653616906_8309650843724603967_n.jpg",
+            "sourceSHA256": "c8fe2dae568aba7096f817e15d4a47988dcf713d83810b0b04bc7a2c356fe8ec",
+            "assetSHA256": "1aee07041de84c35fd4c3ed2d81778c645f3c61ffe6297ca73d944af916f6ed2",
+            "originalFullPicturePreserved": true,
+            "alt": {
+              "he": "חזית בית הקפיטולה באי הקתדרלות",
+              "en": "Chapter House facade on Cathedral Island",
+              "pl": "Fasada Domu Kapituły na Ostrowie Tumskim",
+              "de": "Fassade des Kapitelhauses auf der Dominsel",
+              "cs": "Průčelí kapitulního domu na Tumském ostrově"
+            }
+          },
+          "/assets/round24h-20261022/ostrow-05.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/IMG_0958.JPG",
+            "sourceSHA256": "7150ce91fed3a74a118f14ef0daa4fc67f89cd7fb45f253eb401d0accc023f87",
+            "assetSHA256": "6cb402ac2dd219234a84948983b1187a2068f496d58d981d0f131858da459abc",
+            "originalFullPicturePreserved": true,
+            "alt": {
+              "he": "מבט מחלון אל חצר באי הקתדרלות",
+              "en": "Window view of a courtyard on Cathedral Island",
+              "pl": "Widok z okna na dziedziniec na Ostrowie Tumskim",
+              "de": "Fensterblick auf einen Innenhof auf der Dominsel",
+              "cs": "Pohled z okna do nádvoří na Tumském ostrově"
+            }
+          },
+          "/assets/round24h-20261022/ostrow-06.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-07-02 at 10.02.49.jpeg",
+            "sourceSHA256": "677c9f64c7b203e08e77e9a9ec1a338eadbeda4545d953fa374ca9d5acabedce",
+            "assetSHA256": "dec7f8633d0706e6285846cfb8e07e743e4871fc1a7f3f818951164170ede573",
+            "originalFullPicturePreserved": true,
+            "alt": {
+              "he": "שלט כנסיית ג׳יילס הקדוש ופרט פיסולי לידו",
+              "en": "St Giles Church information plaque and sculpture detail",
+              "pl": "Tablica kościoła św. Idziego i detal rzeźby",
+              "de": "Informationstafel der Ägidiuskirche und Skulpturdetail",
+              "cs": "Informační tabule kostela svatého Jiljí a detail sochy"
+            }
+          },
+          "/assets/round24h-20261022/ostrow-21.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 21.34.46 (1).jpeg",
+            "sourceSHA256": "6f7a090c8bfe8a26b595b0050c2ce973a58f775260e3f1f60fea87bb0ae1d664",
+            "assetSHA256": "730695416e06590931c9af4a35ec10ba7aba084d423f362c1c87bed74b2fd646",
+            "originalFullPicturePreserved": true,
+            "alt": {
+              "he": "פסל יוחנן מנפומוק וכנסיית הצלב הקדוש באי",
+              "en": "Nepomuk monument and Holy Cross Church on the island",
+              "pl": "Pomnik Nepomucena i kościół Świętego Krzyża na wyspie",
+              "de": "Nepomukdenkmal und Heiligkreuzkirche auf der Insel",
+              "cs": "Pomník Nepomuckého a kostel svatého Kříže na ostrově"
+            }
+          },
+          "/assets/round24h-20261022/ostrow-approved-8.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (29).jpeg",
+            "sourceSHA256": "c08f7cfdf3cb0ba1ab1a59cd7bc7f798a3cbc86a3e00f63e9e6875611e290df2",
+            "assetSHA256": "52623bb6f36e7ec3d50ac623ae13def864527bad42ec3ab97ecae46d3403e581",
+            "originalFullPicturePreserved": true,
+            "specificUserApproval": "call_10043fe5b1b64b8cb9e6e341ebd288b3",
+            "alt": {
+              "he": "תצלום ביקור שלנו באי הקתדרלות, ליד השער",
+              "en": "Our visit photograph by the gate on Cathedral Island",
+              "pl": "Nasze zdjęcie z wizyty przy bramie na Ostrowie Tumskim",
+              "de": "Unser Besuchsfoto am Tor auf der Dominsel",
+              "cs": "Naše fotografie z návštěvy u brány na Tumském ostrově"
+            }
+          },
+          "/assets/round24h-20261022/ostrow-approved-9.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (30).jpeg",
+            "sourceSHA256": "6d8d23376d2e50c050130a061ff494ffbbc4f12ed498d8206f20f9168920cdd6",
+            "assetSHA256": "f5051935d5d6dcf894d57c73abb49db6839c57b71787ebec87a97c2d52400798",
+            "originalFullPicturePreserved": true,
+            "specificUserApproval": "call_10043fe5b1b64b8cb9e6e341ebd288b3",
+            "alt": {
+              "he": "תצלום ביקור שלנו באי הקתדרלות, ליד השער",
+              "en": "Our visit photograph by the gate on Cathedral Island",
+              "pl": "Nasze zdjęcie z wizyty przy bramie na Ostrowie Tumskim",
+              "de": "Unser Besuchsfoto am Tor auf der Dominsel",
+              "cs": "Naše fotografie z návštěvy u brány na Tumském ostrově"
+            }
+          },
+          "/assets/round24h-20261022/ostrow-approved-10.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (31).jpeg",
+            "sourceSHA256": "422a7233b7291a28a969b155700c95dd26ee2f8d94b8fc9a6ea010e6f214a6b8",
+            "assetSHA256": "f29c8bdc2407657a99e7b0666213eca633e1eb424d4a69c3f4411e40e3ac9090",
+            "originalFullPicturePreserved": true,
+            "specificUserApproval": "call_10043fe5b1b64b8cb9e6e341ebd288b3",
+            "alt": {
+              "he": "תצלום ביקור שלנו באי הקתדרלות, ליד השער",
+              "en": "Our visit photograph by the gate on Cathedral Island",
+              "pl": "Nasze zdjęcie z wizyty przy bramie na Ostrowie Tumskim",
+              "de": "Unser Besuchsfoto am Tor auf der Dominsel",
+              "cs": "Naše fotografie z návštěvy u brány na Tumském ostrově"
+            }
+          },
+          "/assets/round24h-20261022/ostrow-approved-11.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 20.48.55 (32).jpeg",
+            "sourceSHA256": "4e631e7116e62ee3fbae6b66d11e662f441d1ad94c820703fe6211a12126fbdd",
+            "assetSHA256": "c4462259373fbe26056b5a3e2f6b2b601474f44db8a59ec0e78de3ff909a4a29",
+            "originalFullPicturePreserved": true,
+            "specificUserApproval": "call_10043fe5b1b64b8cb9e6e341ebd288b3",
+            "alt": {
+              "he": "תצלום ביקור שלנו באי הקתדרלות, ליד השער",
+              "en": "Our visit photograph by the gate on Cathedral Island",
+              "pl": "Nasze zdjęcie z wizyty przy bramie na Ostrowie Tumskim",
+              "de": "Unser Besuchsfoto am Tor auf der Dominsel",
+              "cs": "Naše fotografie z návštěvy u brány na Tumském ostrově"
+            }
+          },
+          "https://www.youtube.com/watch?v=10y6XsJQjWs": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (1).mp4",
+            "sourceSHA256": "ae1beec122f9602fd4e0ddda2fdb1af95745e648890dd7cd0ff77b38482586a8",
+            "uploadSHA256": "1fb60569e2fa12dc3be62ca2f9e4afe1aada64c3af279c57687747b1d706c5ad",
+            "durationSeconds": 3.133333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 1",
+              "en": "Cathedral Island visit 1",
+              "pl": "Wizyta na Ostrowie Tumskim 1",
+              "de": "Besuch auf der Dominsel 1",
+              "cs": "Návštěva Tumského ostrova 1"
+            },
+            "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+            "noCurrentRestrictions": true
+          },
+          "https://www.youtube.com/watch?v=QGnlD7BKXTk": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (3).mp4",
+            "sourceSHA256": "f472680dab006e54adda9c72367ad2882b11f283637956359e5beb24434cc6cf",
+            "uploadSHA256": "c4cee8ef84b031b89410ddf95531bc8baceec615de701ee693c52ecb7208636f",
+            "durationSeconds": 3.233333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 2",
+              "en": "Cathedral Island visit 2",
+              "pl": "Wizyta na Ostrowie Tumskim 2",
+              "de": "Besuch auf der Dominsel 2",
+              "cs": "Návštěva Tumského ostrova 2"
+            },
+            "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+            "noCurrentRestrictions": true
+          },
+          "https://www.youtube.com/watch?v=ZopHcFHD6Ug": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (9).mp4",
+            "sourceSHA256": "c16f5edb4ba36041d073aee4bfcce67da282d2fd9e5b93fd72221dddca798b99",
+            "uploadSHA256": "416e0975088b977b63f8d362f144fe427ced84277135168188d82264a7a43dbd",
+            "durationSeconds": 2.9,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 3",
+              "en": "Cathedral Island visit 3",
+              "pl": "Wizyta na Ostrowie Tumskim 3",
+              "de": "Besuch auf der Dominsel 3",
+              "cs": "Návštěva Tumského ostrova 3"
+            },
+            "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+            "noCurrentRestrictions": true
+          },
+          "https://www.youtube.com/watch?v=22YrI8qbLhU": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.12.07.mp4",
+            "sourceSHA256": "6fbad04746c5f2ee476e5552bd64898d2acbb6b28dc510e0a2a4aea5fd67dc67",
+            "uploadSHA256": "d76175355372dd748e27b6d52d329447a22004469f5d2819020503ef9c6e23fe",
+            "durationSeconds": 6.366667,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 4",
+              "en": "Cathedral Island visit 4",
+              "pl": "Wizyta na Ostrowie Tumskim 4",
+              "de": "Besuch auf der Dominsel 4",
+              "cs": "Návštěva Tumského ostrova 4"
+            },
+            "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+            "noCurrentRestrictions": true
+          },
+          "https://www.youtube.com/watch?v=eDUQf5KQGCs": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.48.mp4",
+            "sourceSHA256": "bc61dd6bfd2ca6ed0de0cd605dbba4c22cffd0b4a4d617a02bb2d348a4876f18",
+            "uploadSHA256": "8541a802a1fa9a782d2bc0cb45c0c5adbc7cb6d115042fdda8f3d14690ff75aa",
+            "durationSeconds": 5.8,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 5",
+              "en": "Cathedral Island visit 5",
+              "pl": "Wizyta na Ostrowie Tumskim 5",
+              "de": "Besuch auf der Dominsel 5",
+              "cs": "Návštěva Tumského ostrova 5"
+            },
+            "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+            "noCurrentRestrictions": true
+          },
+          "https://www.youtube.com/watch?v=XMiI78evNUc": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.50 (1).mp4",
+            "sourceSHA256": "70553f51d2b0bfe431f40141eab612cbef3530786f057eb872fe18bac4564f09",
+            "uploadSHA256": "990c70bd686763a85726181fcc860d1177cc6f8d2db596584fc93d4dc4a746b7",
+            "durationSeconds": 2.333333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 6",
+              "en": "Cathedral Island visit 6",
+              "pl": "Wizyta na Ostrowie Tumskim 6",
+              "de": "Besuch auf der Dominsel 6",
+              "cs": "Návštěva Tumského ostrova 6"
+            },
+            "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+            "noCurrentRestrictions": true
+          },
+          "https://www.youtube.com/watch?v=V2CUKN6AGMQ": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.51 (1).mp4",
+            "sourceSHA256": "6ab1091d46de11417eef0be3314b4db80c2a4f8ed95a4bee4466a232c60ca423",
+            "uploadSHA256": "c78c4bf2bb44e22259de6488a7df6c63ee2128fa8194b897789c47856f18c022",
+            "durationSeconds": 5.266667,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 7",
+              "en": "Cathedral Island visit 7",
+              "pl": "Wizyta na Ostrowie Tumskim 7",
+              "de": "Besuch auf der Dominsel 7",
+              "cs": "Návštěva Tumského ostrova 7"
+            },
+            "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+            "noCurrentRestrictions": true
+          },
+          "https://www.youtube.com/watch?v=PgVoFNeGyFY": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.52 (1).mp4",
+            "sourceSHA256": "cd5f5458325a96469ad96cf5e1b7d516ec57873988ffc47b814fca7b9a46a146",
+            "uploadSHA256": "86adb6f19f7113d30d74bf11558d9dc51931393a9b3f734031af820626dd92d5",
+            "durationSeconds": 3.333333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 8",
+              "en": "Cathedral Island visit 8",
+              "pl": "Wizyta na Ostrowie Tumskim 8",
+              "de": "Besuch auf der Dominsel 8",
+              "cs": "Návštěva Tumského ostrova 8"
+            },
+            "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
+            "noCurrentRestrictions": true
+          },
+          "https://www.youtube.com/watch?v=fB5DD5zDojs": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 21.34.52.mp4",
+            "sourceSHA256": "573632a9ab0d5b6c9453f7da1da584d91f4a18b060b1db160646de3232d831f9",
+            "uploadSHA256": "99a8083f06ff0d75627aa719c857024f17aecc93fb207a365ce77985abd68060",
+            "durationSeconds": 3.033333,
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_36fcb8731b5c4ec6bafd9fb64a45beb1",
+            "title": {
+              "he": "ביקור באי הקתדרלות 9",
+              "en": "Cathedral Island visit 9",
+              "pl": "Wizyta na Ostrowie Tumskim 9",
+              "de": "Besuch auf der Dominsel 9",
+              "cs": "Návštěva Tumského ostrova 9"
+            },
+            "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
+            "noCurrentRestrictions": true
           }
         }
       },
@@ -3708,7 +4050,7 @@
     "bb-hotel-wroclaw-old-town": "1e3c90183e0be0ea956328f5b0b55e19e6a16620171ab25c835a83ec9fc56c6b",
     "bernard-bistro-wino": "719a3746287c2a046f913809dbe1a7ee01d07ac28668356417359defb38d27d5",
     "bistro-stu-mostow": "7fc710c6095e4aae8be27641455d16961fa00fe5e7f3e2e2ef778639c6ac241e",
-    "boguslawskiego": "3ac07871a75715c6461012fee014c911a5e28d1a07325cb08336d9cbc2465e73",
+    "boguslawskiego": "a3cd93c6230282a71fb2c05a371f17587afc37bb78e9eb3358cc6eb320829906",
     "boleslawiec-ceramics-museum": "5425ebdd43ba2ea052f6d7bf6b67ecf45e3eb24fcc529713eafd2b339a0b20fd",
     "boleslawiec-old-town": "8aa80c7ca03568c80a9284b813eedeaad7a990b2614acdda28bc072cb815b5aa",
     "boogie-aparthouse-garbary": "ce160a72de33d08b43461fbe0b070c8cbeba251a5fb6257daebd9133d7ca0b8b",
@@ -3752,11 +4094,11 @@
     "four-denominations-district": "7899631788ca64ba934579cd6c84d7af66c67b9868ed696950c307d0efbdaf03",
     "four-domes": "897b5ffe902ce671cf4ec63f294ddd9e8deaf9a00fe9be6f92c1b06a8282026f",
     "frytki": "c8844c5a06378f4b79bc946945ef88ff0b77a3d6a7eb28d479f6f1c61301e632",
-    "glowny": "2e0fca8edbf2adda168873867246be6fcfda2e7940b783b405b84747b49f5ee0",
+    "glowny": "bc4ff5321ca2a9d7db1623d92d372dde7170b94d885d60bc4d9f1975b7f6dca0",
     "gniazdo": "c32c521854964b16b0627b12cf032755479861c9f98c8e1ec0a9fa4f15cb9c2a",
     "gustaw-restaurant-wroclaw": "176a92c4c2404d3a60d2629093873dcf61183ea85ccc173ef5221eb32c0d3b97",
     "hala": "4f5c33d3305c83a1de58abd2a35853d60397011de8016481783c952641eb71ab",
-    "hala-targowa": "1973d79a10761d4a05c4c1846b04688deb7f44cbe0f7d7f8d983847acf9daf52",
+    "hala-targowa": "18cc34dcda41b7c76a70ac4b38cc0a41a6dff9f9872370a47d708bbea1273acf",
     "henryk-tomaszewski-theatre-museum": "5552282480788f052c10354634f4a9f84830b8342342da1584834409396db4d2",
     "herbal": "7169d201bba49ef2bed0ef61556a11aa6d7b3e5f24a63444227a20f87858299e",
     "hostel-krasnal-wroclaw": "e60845893066901c799dbd01b7fe1774da84fb1e781f862f9b10c2a142488c1c",
@@ -3823,11 +4165,11 @@
     "nanan": "6f500085b4cd2ed85f7ebe42602dbc9b7dadab2dc33b7a5e4c422411272ade28",
     "national-museum": "365f5de51b098a02ac00fb32597c1981dd2705899695868f8bc56c3c8c40e8c3",
     "new-horizons-cinema": "d6f2ec090d464a78ec798ced2767f8ba698cf353227f696b9a21a892171fe1f6",
-    "nfm": "8a2f62add46a9da29a683a1383b9f8172fef0b93d0f7bdbaada669e75e71268b",
+    "nfm": "ad561034589a7300f35c527c7ea59586807540dc0844aa471a8c505a1406d356",
     "odra-centrum": "6e69d7d2910c85ea037af80fdba88447d8906bd2532f2cdba7f91a2f6372a4f5",
     "old-jewish-cemetery-wroclaw": "754168b54637b491c447ada8f9aa9a729a6ca949354b54d4c87b51c27dc3f00a",
     "olio-pizza-napoletana-wroclaw": "58531aec46466cac04f34ca7c01a8e45a5e777817e71a68347c10807a5ac9cc0",
-    "opera": "b398150b76f13cb79e239e0a6b0bf9c5c5a8071c39eaeacb337158e5494ea0ba",
+    "opera": "91c7748ac642dd3993759e1c38f2744fe797f251af581d8505fd00f654bb6876",
     "ossolineum": "745d5559fcf372c49b77c733abba09a644631b0740ee197432af1bddb38b7387",
     "ostrow": "0b68689fe2742856f8259f1e2397eed146b33e04de52ca0c7b89b9f29f5648dc",
     "paczkarnia": "d2730fd2ddba56f6973b6c13194d6faafa335dde4680cc200d6b408f64a83d71",
@@ -3859,7 +4201,7 @@
     "restauracja-tarasowa": "e785d55195f2dc252389e118290068e49c7d43f697f349a57e38fffcfdb35ad5",
     "royal-palace-wroclaw": "336e68deeb34414e2d83c23298040bcaad216d259b18eff3cf31c209653fc502",
     "rozowa-krowa-milk-bar-wroclaw": "02706f681ae3f2ff722558d71cdd76e7c2c3f2fff559d077e112d88179251fe0",
-    "rynek": "abbed2d6c242ac9f2e1b04e93e51fc7f79abcf737b02a140d12e614a24fa3329",
+    "rynek": "9b3471466592b9d07afb402bdf9334f4039a10d696ec71837c548ba45af11ad9",
     "sarah": "3672a3597199c509f39407157d0695f76dd564da2238542ce20e051f857a99aa",
     "sic-gallery-bwa-wroclaw": "96799127adf2f67452fbcae101efb8977eec3a7b51ec7ba25e07c5453f64dade",
     "slodowa": "3ce054273a319bcc6f6d9ee16793900a6bdd1c0a88df5946d7107c33386c62ad",
@@ -3925,8 +4267,8 @@
     "zyjnia-bwa-wroclaw": "e95387f20a59a9cb195a8d4b623e8d328fdfefa51690550b01e02f3c7312d06a"
   },
   "unchangedDayHashes": {
-    "1": "76590561515357e7d9c904cea4bb4bebbcec477485c7b7812147fe5cac7da67e",
+    "1": "3194f78359a9716cc132f996f4b5a0e6ed48f1b0ba7be59985489b9e45e4c7db",
     "3": "7f46ab37fc60a060840a3a1b56177bc30ab5b1488a8cd7f26deb5e4c2ae0ed9a",
-    "4": "c193442112582d37afdd0b92f5f487c3066fa18a7d28eecac48656df19aa0ffb"
+    "4": "4837e7ebca01ca4245f31c16df587a8545999c560b3f2f3346aea55dfd1387c6"
   }
 }
