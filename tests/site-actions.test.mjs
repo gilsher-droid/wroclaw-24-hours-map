@@ -32,12 +32,12 @@ test("the product dropdown is named Our interactive maps in every supported lang
   }
 });
 
-test("every map dropdown offers all six maps in the selected language", () => {
+test("every map dropdown offers all seven maps in the selected language", () => {
   const source = readFileSync(resolve(root, "site-actions.js"), "utf8");
   const context = { document: { readyState: "loading", addEventListener() {} } };
   runInNewContext(source.replace(/\}\)\(\);\s*$/, "globalThis.productMenuTest = { productPaths, productLinks, productMenuMarkup };\n})();"), context);
   const { productPaths, productLinks, productMenuMarkup } = context.productMenuTest;
-  const expectedPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html"];
+  const expectedPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html", "guides.html"];
   assert.deepEqual(Array.from(productPaths), expectedPaths);
 
   for (const lang of ["he", "en", "pl", "de", "cs"]) {

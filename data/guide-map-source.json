@@ -1,0 +1,2245 @@
+{
+  "sourceRepository": "gilsher-droid/wroclaw-24-hours-map",
+  "sourceCommit": "9211492d5f5afa3a5f01d44087af591e6ff9189d",
+  "preparedAt": "2026-10-22",
+  "verificationSource": "docs/native-youtube-caption-verification.json",
+  "places": [
+    {
+      "id": "barbara-wroclaw",
+      "canonicalPlaceId": "barbara-wroclaw",
+      "name": {
+        "he": "\u05d1\u05e8\u05d1\u05e8\u05d4, \u05de\u05e8\u05db\u05d6 \u05ea\u05e8\u05d1\u05d5\u05ea \u05d5\u05d1\u05d9\u05ea \u05e7\u05e4\u05d4",
+        "en": "Barbara Cultural Centre and Caf\u00e9",
+        "pl": "Barbara, przestrze\u0144 kultury i kawiarnia",
+        "de": "Barbara, Kulturzentrum und Caf\u00e9",
+        "cs": "Barbara, kulturn\u00ed centrum a kav\u00e1rna"
+      },
+      "localName": "Barbara",
+      "description": {
+        "he": "\u05de\u05e8\u05db\u05d6 \u05d4\u05ea\u05e8\u05d1\u05d5\u05ea \u05d5\u05d1\u05d9\u05ea \u05d4\u05e7\u05e4\u05d4 \u05d1\u05e8\u05d1\u05e8\u05d4 \u05e9\u05d5\u05db\u05e0\u05d9\u05dd \u05d1\u05e8\u05d7\u05d5\u05d1 \u05e9\u05d5\u05d5\u05d9\u05d3\u05e0\u05d9\u05e6\u05e7\u05d4, \u05d1\u05de\u05d1\u05e0\u05d4 \u05de\u05d5\u05d3\u05e8\u05e0\u05d9\u05e1\u05d8\u05d9 \u05e2\u05dd \u05d7\u05dc\u05d5\u05e0\u05d5\u05ea \u05e8\u05d7\u05d1\u05d9\u05dd \u05d5\u05e2\u05de\u05d5\u05d3\u05d9 \u05e4\u05e1\u05d9\u05e4\u05e1 \u05d1\u05e9\u05d7\u05d5\u05e8 \u05d5\u05dc\u05d1\u05df. \u05d4\u05de\u05e7\u05d5\u05dd \u05de\u05e9\u05de\u05e9 \u05d0\u05ea \u05de\u05db\u05d5\u05df \u05d4\u05ea\u05e8\u05d1\u05d5\u05ea \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1 \u05d5\u05de\u05e6\u05d9\u05e2 \u05de\u05e4\u05d2\u05e9\u05d9\u05dd, \u05d4\u05e8\u05e6\u05d0\u05d5\u05ea, \u05e1\u05d3\u05e0\u05d0\u05d5\u05ea, \u05de\u05e8\u05d7\u05d1 \u05e7\u05e8\u05d9\u05d0\u05d4 \u05d5\u05d1\u05d9\u05ea \u05e7\u05e4\u05d4. \u05e9\u05de\u05d5 \u05de\u05e9\u05de\u05e8 \u05d0\u05ea \u05d6\u05db\u05e8\u05d5 \u05e9\u05dc \u05d1\u05e8 \u05d1\u05e8\u05d1\u05e8\u05d4 \u05e9\u05e4\u05e2\u05dc \u05db\u05d0\u05df \u05de\u05e9\u05e0\u05d5\u05ea \u05d4\u05e9\u05d9\u05e9\u05d9\u05dd \u05e2\u05d3 \u05e9\u05e0\u05d5\u05ea \u05d4\u05ea\u05e9\u05e2\u05d9\u05dd \u05d5\u05e0\u05e7\u05e9\u05e8 \u05d2\u05dd \u05dc\u05e4\u05e2\u05d9\u05dc\u05d5\u05ea \u05d4\u05d0\u05dc\u05d8\u05e8\u05e0\u05d8\u05d9\u05d1\u05d4 \u05d4\u05db\u05ea\u05d5\u05de\u05d4. \u05ea\u05de\u05d5\u05e0\u05d5\u05ea \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8 \u05e9\u05dc\u05e0\u05d5 \u05de\u05e6\u05d9\u05d2\u05d5\u05ea \u05d0\u05ea \u05d4\u05e9\u05dc\u05d8, \u05d4\u05d7\u05d6\u05d9\u05ea, \u05d7\u05dc\u05dc\u05d9 \u05d4\u05ea\u05e6\u05d5\u05d2\u05d4 \u05d5\u05e4\u05e8\u05d8\u05d9\u05dd \u05de\u05d4\u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9\u05d4 \u05d4\u05de\u05e7\u05d5\u05de\u05d9\u05ea. \u05d1\u05d3\u05e7\u05d5 \u05d1\u05d0\u05ea\u05e8 \u05d4\u05e8\u05e9\u05de\u05d9 \u05d0\u05ea \u05dc\u05d5\u05d7 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d5\u05d0\u05ea \u05e4\u05e8\u05d8\u05d9 \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8.\nBarbara\n\u015awidnicka 8B, Wroc\u0142aw",
+        "en": "Barbara combines a cultural venue, reading space and caf\u00e9 on \u015awidnicka Street. Its modernist interior features large windows and black-and-white mosaic columns. Run by the Wroc\u0142aw Institute of Culture, it hosts meetings, talks and workshops. The name recalls the former Bar Barbara, active here from the 1960s to the 1990s and associated with the Orange Alternative. Our visit photographs show the sign, frontage, exhibition spaces and local-history details. Check the official programme and visitor information before coming.\n\u015awidnicka 8B, Wroc\u0142aw",
+        "pl": "Barbara przy ulicy \u015awidnickiej \u0142\u0105czy przestrze\u0144 kultury, czytelni\u0119 i kawiarni\u0119. Modernistyczne wn\u0119trze wyr\u00f3\u017cniaj\u0105 du\u017ce witryny i czarno-bia\u0142e kolumny mozaikowe. Wroc\u0142awski Instytut Kultury organizuje tu spotkania, wyk\u0142ady i warsztaty. Nazwa przypomina dawny bar Barbara, dzia\u0142aj\u0105cy od lat 60. do 90. i zwi\u0105zany r\u00f3wnie\u017c z Pomara\u0144czow\u0105 Alternatyw\u0105. Nasze zdj\u0119cia pokazuj\u0105 neon, fasad\u0119, przestrze\u0144 wystawow\u0105 i detale lokalnej historii. Przed wizyt\u0105 sprawd\u017a oficjalny program i informacje dla go\u015bci.\n\u015awidnicka 8B, Wroc\u0142aw",
+        "de": "Barbara verbindet einen Kulturort, einen Lesebereich und ein Caf\u00e9 an der \u015awidnicka-Stra\u00dfe. Gro\u00dfe Fenster und schwarz-wei\u00dfe Mosaiks\u00e4ulen pr\u00e4gen den modernistischen Innenraum. Das Breslauer Kulturinstitut veranstaltet hier Gespr\u00e4che, Vortr\u00e4ge und Workshops. Der Name erinnert an die ehemalige Bar Barbara, die hier von den 1960er- bis in die 1990er-Jahre bestand und auch mit der Orangen Alternative verbunden war. Unsere Besuchsfotos zeigen das Schild, die Fassade, Ausstellungsr\u00e4ume und Details zur Ortsgeschichte. Aktuelles Programm und Besuchsinformationen stehen auf der offiziellen Website.\n\u015awidnicka 8B, Wroc\u0142aw",
+        "cs": "Barbara v ulici \u015awidnicka spojuje kulturn\u00ed prostor, \u010d\u00edt\u00e1rnu a kav\u00e1rnu. Modernistick\u00fd interi\u00e9r charakterizuj\u00ed velk\u00e1 okna a \u010dernob\u00edl\u00e9 mozaikov\u00e9 sloupy. Vratislavsk\u00fd kulturn\u00ed institut zde po\u0159\u00e1d\u00e1 setk\u00e1n\u00ed, p\u0159edn\u00e1\u0161ky a d\u00edlny. N\u00e1zev p\u0159ipom\u00edn\u00e1 n\u011bkdej\u0161\u00ed bar Barbara, kter\u00fd zde fungoval od 60. do 90. let a byl spojen tak\u00e9 s Oran\u017eovou alternativou. Na\u0161e fotografie ukazuj\u00ed neon, pr\u016f\u010del\u00ed, v\u00fdstavn\u00ed prostory a detaily m\u00edstn\u00ed historie. P\u0159ed n\u00e1v\u0161t\u011bvou ov\u011b\u0159te ofici\u00e1ln\u00ed program a informace pro n\u00e1v\u0161t\u011bvn\u00edky.\n\u015awidnicka 8B, Wroc\u0142aw"
+      },
+      "coordinates": [
+        51.10769750953518,
+        17.032835136772945
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://instytutkultury.pl/barbara/",
+      "photos": [
+        "/assets/barbara-wroclaw-entrance.jpg",
+        "/assets/barbara-wroclaw-neon-detail.jpg",
+        "/assets/barbara-wroclaw-street-context.jpg",
+        "/assets/barbara-wroclaw-exhibition-poster.jpg",
+        "/assets/barbara-wroclaw-historic-menu-detail.jpg",
+        "/assets/barbara-wroclaw-exhibition-room.jpg",
+        "/assets/barbara-wroclaw-mosaic-column.jpg"
+      ],
+      "thumbnail": "/assets/barbara-wroclaw-entrance.jpg",
+      "videos": [
+        "https://youtube.com/shorts/lX2mxhtVMi8",
+        "https://youtube.com/shorts/w_vNteiYq4o",
+        "https://youtube.com/shorts/QGne7T7L6og"
+      ],
+      "social": {
+        "he": {},
+        "en": {},
+        "pl": {},
+        "de": {},
+        "cs": {}
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/Eyns7Gj66d0",
+          "videoId": "Eyns7Gj66d0",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "papa"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/pIzp5Bmb9ck",
+          "videoId": "pIzp5Bmb9ck",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "papa"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/pIzp5Bmb9ck",
+          "videoId": "pIzp5Bmb9ck",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "papa"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/pIzp5Bmb9ck",
+          "videoId": "pIzp5Bmb9ck",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "papa"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/pIzp5Bmb9ck",
+          "videoId": "pIzp5Bmb9ck",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "papa"
+        }
+      }
+    },
+    {
+      "id": "bastion",
+      "canonicalPlaceId": "bastion",
+      "name": {
+        "he": "\u05d1\u05e1\u05d8\u05d9\u05d5\u05df \u05e1\u05d0\u05e7\u05d1\u05d5\u05d1\u05d9",
+        "en": "Sakwowy Bastion",
+        "pl": "Bastion Sakwowy",
+        "de": "Bastion Sakwowy",
+        "cs": "Ba\u0161ta Sakwowy"
+      },
+      "localName": "Bastion Sakwowy",
+      "description": {
+        "he": "\u05de\u05ea\u05d7\u05dd \u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9 \u05e2\u05dc \u05d2\u05d1\u05e2\u05ea \u05d4\u05e4\u05e8\u05d8\u05d9\u05d6\u05e0\u05d9\u05dd \u05dc\u05e6\u05d3 \u05d7\u05e4\u05d9\u05e8 \u05d4\u05e2\u05d9\u05e8, \u05d4\u05de\u05e9\u05dc\u05d1 \u05e9\u05e8\u05d9\u05d3\u05d9 \u05d1\u05d9\u05e6\u05d5\u05e8\u05d9\u05dd \u05e2\u05dd \u05e7\u05d5\u05dc\u05d5\u05e0\u05d3\u05d4, \u05de\u05d6\u05e8\u05e7\u05d4 \u05d5\u05de\u05e8\u05e4\u05e1\u05d5\u05ea \u05ea\u05e6\u05e4\u05d9\u05ea. \u05d4\u05d5\u05d0 \u05e0\u05e4\u05ea\u05d7 \u05de\u05d7\u05d3\u05e9 \u05dc\u05d0\u05d7\u05e8 \u05e9\u05d9\u05e7\u05d5\u05dd \u05d1\u05d9\u05d5\u05e0\u05d9 2024. \u05d4\u05ea\u05de\u05d5\u05e0\u05d5\u05ea \u05d5\u05e1\u05e8\u05d8\u05d5\u05e0\u05d9 \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8 \u05e9\u05dc\u05e0\u05d5 \u05de\u05e6\u05d9\u05d2\u05d9\u05dd \u05d0\u05ea \u05d4\u05de\u05d6\u05e8\u05e7\u05d4, \u05d4\u05e7\u05e9\u05ea\u05d5\u05ea \u05d5\u05d4\u05e2\u05d9\u05e8 \u05d1\u05e9\u05e2\u05ea \u05e9\u05e7\u05d9\u05e2\u05d4. \u05de\u05ea\u05d0\u05d9\u05dd \u05dc\u05e2\u05e6\u05d9\u05e8\u05ea \u05d0\u05d3\u05e8\u05d9\u05db\u05dc\u05d5\u05ea \u05d5\u05dc\u05d4\u05dc\u05d9\u05db\u05d4 \u05e7\u05e6\u05e8\u05d4 \u05dc\u05e6\u05d3 \u05d4\u05d7\u05e4\u05d9\u05e8. \u05d1\u05db\u05e8\u05d9\u05e1\u05de\u05e1 \u05d3\u05dc\u05d2\u05d5 \u05d0\u05dd \u05d4\u05de\u05d3\u05e8\u05d2\u05d5\u05ea \u05d5\u05d4\u05e9\u05d1\u05d9\u05dc\u05d9\u05dd \u05de\u05db\u05d5\u05e1\u05d9\u05dd \u05e7\u05e8\u05d7.",
+        "en": "Historic complex on Partisan Hill beside the city moat, combining former fortifications with a colonnade, fountain and viewing terraces. It reopened after restoration in June 2024. Our visit photos and clips show the fountain, arches and city at sunset. A useful architecture stop and short moat walk. On the Christmas route, skip it when steps or paths are icy.",
+        "pl": "Historyczny kompleks na Wzg\u00f3rzu Partyzant\u00f3w przy fosie miejskiej, \u0142\u0105cz\u0105cy dawne fortyfikacje z kolumnad\u0105, fontann\u0105 i tarasami widokowymi. Po renowacji otwarto go ponownie w czerwcu 2024 roku. Nasze zdj\u0119cia i filmy z wizyty pokazuj\u0105 fontann\u0119, arkady i miasto o zachodzie s\u0142o\u0144ca. Dobry przystanek architektoniczny i kr\u00f3tki spacer nad fos\u0105. Na trasie bo\u017conarodzeniowej pomi\u0144 go, gdy schody lub alejki s\u0105 oblodzone.",
+        "de": "Historische Anlage auf dem Partisanenh\u00fcgel am Stadtgraben mit ehemaligen Befestigungen, Kolonnade, Brunnen und Aussichtsterrassen. Nach der Restaurierung wurde sie im Juni 2024 wiederer\u00f6ffnet. Unsere Besuchsfotos und Videos zeigen Brunnen, Arkaden und Stadt im Abendlicht. Geeignet f\u00fcr einen Architekturhalt und einen kurzen Spaziergang am Graben. Auf der Weihnachtsroute bei vereisten Stufen oder Wegen auslassen.",
+        "cs": "Historick\u00fd are\u00e1l na Partiz\u00e1nsk\u00e9m n\u00e1vr\u0161\u00ed u m\u011bstsk\u00e9ho p\u0159\u00edkopu spojuje n\u011bkdej\u0161\u00ed opevn\u011bn\u00ed s kolon\u00e1dou, ka\u0161nou a vyhl\u00eddkov\u00fdmi terasami. Po obnov\u011b byl znovu otev\u0159en v \u010dervnu 2024. Na\u0161e fotografie a videa z n\u00e1v\u0161t\u011bvy ukazuj\u00ed ka\u0161nu, ark\u00e1dy a m\u011bsto p\u0159i z\u00e1padu slunce. Hod\u00ed se jako architektonick\u00e1 zast\u00e1vka a kr\u00e1tk\u00e1 proch\u00e1zka pod\u00e9l p\u0159\u00edkopu. Na v\u00e1no\u010dn\u00ed trase jej vynechte, pokud jsou schody nebo cesty namrzl\u00e9."
+      },
+      "coordinates": [
+        51.10519,
+        17.03829
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://visitwroclaw.eu/en/atrakcje/sakwowy-bastion/",
+      "photos": [
+        "/assets/bastion-sakwowy-01.jpg",
+        "/assets/bastion-sakwowy-02.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-01.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-02.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-03.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-04.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-05.jpg",
+        "/assets/bastion-refresh/bastion-sakwowy-refresh-20261020-06.jpg"
+      ],
+      "thumbnail": "/assets/bastion-sakwowy-representative.jpg",
+      "videos": [
+        "https://youtube.com/shorts/tbHy-48b9fo",
+        "https://youtube.com/shorts/fhySn2JiZ38",
+        "https://youtube.com/shorts/8JwoMSxXzvc",
+        "https://youtube.com/shorts/HQIvi34MIUg",
+        "https://youtube.com/shorts/MjXLNkUw9zs",
+        "https://youtube.com/watch?v=TlV9gewmJVI"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FmwwEAKjec8N7DxfwgEmb98D32uuQy2PUuGkj1PaB9TbuY33tQHj2HkvMfCj1A8gl&id=61591964083308"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0371MV8f5sXXZX1BpC6HuDawK6CGG9cXb4CCh764caCageg5ngX7jgdn2bAm6g9xMkl&id=61595036942289"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0ZNdEvJ5QBwRsJiNq6N8J6swvXvNiMr1dUkUjz9F2L1ZQNtTGzAHma6txoWmJ7ju7l&id=61595207664875"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02s5kCjATc5ApB7Tu1DodgdTkhDWW9kqwMw5P3Ax1tAGcjJVKpRrLTai5JF3aqyV5Hl&id=61595239823399"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0WyboB4fCY6hTPmZ1axkzeBh61r5bZGgcpvAG3VquNsgZYFGW8zFRsBReZqxvNnj6l&id=61594716405964"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/FLx49x9AtUM",
+          "videoId": "FLx49x9AtUM",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "bastion"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/xc9jiC3TfNA",
+          "videoId": "xc9jiC3TfNA",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "bastion"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/xc9jiC3TfNA",
+          "videoId": "xc9jiC3TfNA",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "bastion"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/xc9jiC3TfNA",
+          "videoId": "xc9jiC3TfNA",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "bastion"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/xc9jiC3TfNA",
+          "videoId": "xc9jiC3TfNA",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "bastion"
+        }
+      }
+    },
+    {
+      "id": "cathedral",
+      "canonicalPlaceId": "cathedral",
+      "name": {
+        "he": "\u05e7\u05ea\u05d3\u05e8\u05dc\u05ea \u05d9\u05d5\u05d7\u05e0\u05df \u05d4\u05de\u05d8\u05d1\u05d9\u05dc",
+        "en": "Cathedral of St John the Baptist",
+        "pl": "Archikatedra \u015bw. Jana Chrzciciela",
+        "de": "Kathedrale St. Johannes der T\u00e4ufer",
+        "cs": "Katedr\u00e1la svat\u00e9ho Jana K\u0159titele"
+      },
+      "localName": "Archikatedra \u015bw. Jana Chrzciciela",
+      "description": {
+        "he": "\u05d4\u05e7\u05ea\u05d3\u05e8\u05dc\u05d4 \u05d4\u05de\u05e8\u05db\u05d6\u05d9\u05ea \u05e9\u05dc \u05d0\u05d5\u05e1\u05d8\u05e8\u05d5\u05d1 \u05d8\u05d5\u05de\u05e1\u05e7\u05d9 \u05d5\u05d0\u05d7\u05ea \u05d4\u05ea\u05d7\u05e0\u05d5\u05ea \u05d4\u05de\u05e8\u05e9\u05d9\u05de\u05d5\u05ea \u05d1\u05e2\u05d9\u05e8.",
+        "en": "The principal cathedral of Ostr\u00f3w Tumski and one of the city\u2019s most striking landmarks.",
+        "pl": "G\u0142\u00f3wna katedra Ostrowa Tumskiego i jeden z najbardziej imponuj\u0105cych zabytk\u00f3w miasta.",
+        "de": "Die Hauptkathedrale von Ostr\u00f3w Tumski und eines der markantesten Wahrzeichen der Stadt.",
+        "cs": "Hlavn\u00ed katedr\u00e1la Ostr\u00f3w Tumski a jedna z nejpozoruhodn\u011bj\u0161\u00edch pam\u00e1tek m\u011bsta."
+      },
+      "coordinates": [
+        51.11422,
+        17.04663
+      ],
+      "cityId": "wroclaw",
+      "city": "",
+      "website": null,
+      "photos": [
+        "/assets/gallery-cathedral-01.jpg",
+        "/assets/today-source-refresh-20261021/run4-106-cathedral.jpg",
+        "/assets/today-source-refresh-20261021/run4-108-cathedral.jpg"
+      ],
+      "thumbnail": "/assets/gallery-cathedral-01.jpg",
+      "videos": [
+        "https://www.youtube.com/watch?v=6hP8rHe3MLE",
+        "https://www.youtube.com/watch?v=eegtceD9xiE"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02GxkSMrYgvr6moDMfqPzfAMmpquJ1LK1CSzJrTxgYbgxsgHB2JH6nBEWJm4MLCPcKl&id=61591964083308"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PZe5dvdPhrSH6ZceALziU4G35mQ2kQNtUkzf2PvQvHsPhXYnL6nDxtpUpS7bNtTyl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeMiaFcD4ML/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0QfRGdX2siMR2Ze8iJx29UYY9bHhFBEjt8w8gboxqujFLij7KTqUsqp43ryQQKzLNl&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeKpNFBEW2p/"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0r2hQLdBYsHvtsE7y9A18avz3p6vmQW8jSJEqXW8PMEsHFQ2gWNj75mMf8QNBnYzol&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeK64dsG1La/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XyvAgq9b1ecuZ4JMJjHAzNHESaFc7gK6nYnL4ZNMCjHpLRUyHgT5iZC6EyaSaPUgl&id=61594716405964",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeLr3hFHJ_u/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://www.youtube.com/watch?v=rIIVnc_dzN4",
+          "videoId": "rIIVnc_dzN4",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "cathedral"
+        },
+        "en": {
+          "url": "https://www.youtube.com/watch?v=ULG-y1kQgWM",
+          "videoId": "ULG-y1kQgWM",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "cathedral"
+        },
+        "pl": {
+          "url": "https://www.youtube.com/watch?v=ULG-y1kQgWM",
+          "videoId": "ULG-y1kQgWM",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "cathedral"
+        },
+        "de": {
+          "url": "https://www.youtube.com/watch?v=ULG-y1kQgWM",
+          "videoId": "ULG-y1kQgWM",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "cathedral"
+        },
+        "cs": {
+          "url": "https://www.youtube.com/watch?v=ULG-y1kQgWM",
+          "videoId": "ULG-y1kQgWM",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "cathedral"
+        }
+      }
+    },
+    {
+      "id": "fountain",
+      "canonicalPlaceId": "fountain",
+      "name": {
+        "he": "\u05d4\u05de\u05d6\u05e8\u05e7\u05d4 \u05d4\u05de\u05d5\u05dc\u05d8\u05d9\u05de\u05d3\u05d9\u05d0\u05dc\u05d9\u05ea \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1",
+        "en": "Wroc\u0142aw Multimedia Fountain",
+        "pl": "Wroc\u0142awska Fontanna Multimedialna",
+        "de": "Multimedia-Brunnen Wroc\u0142aw",
+        "cs": "Vratislavsk\u00e1 multimedi\u00e1ln\u00ed font\u00e1na"
+      },
+      "localName": "Wroc\u0142awska Fontanna Multimedialna",
+      "description": {
+        "he": "\u05de\u05d6\u05e8\u05e7\u05d4 \u05e2\u05d5\u05e0\u05ea\u05d9\u05ea \u05d2\u05d3\u05d5\u05dc\u05d4 \u05dc\u05d9\u05d3 \u05d0\u05d5\u05dc\u05dd \u05d4\u05de\u05d0\u05d4, \u05e2\u05dd \u05de\u05d5\u05e4\u05e2\u05d9 \u05de\u05d9\u05dd, \u05de\u05d5\u05d6\u05d9\u05e7\u05d4 \u05d5\u05d0\u05d5\u05e8 \u05d1\u05e9\u05e2\u05d5\u05ea \u05d4\u05de\u05ea\u05e4\u05e8\u05e1\u05de\u05d5\u05ea \u05de\u05e8\u05d0\u05e9.",
+        "en": "A large seasonal fountain beside Centennial Hall, with scheduled water, music and light shows.",
+        "pl": "Du\u017ca sezonowa fontanna przy Hali Stulecia z zaplanowanymi pokazami wody, muzyki i \u015bwiat\u0142a.",
+        "de": "Ein gro\u00dfer saisonaler Brunnen an der Jahrhunderthalle mit angek\u00fcndigten Wasser-, Musik- und Lichtshows.",
+        "cs": "Velk\u00e1 sezonn\u00ed font\u00e1na u Haly stolet\u00ed s pl\u00e1novan\u00fdmi vodn\u00edmi, hudebn\u00edmi a sv\u011bteln\u00fdmi p\u0159edstaven\u00edmi."
+      },
+      "coordinates": [
+        51.10832,
+        17.07948
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": null,
+      "photos": [
+        "/assets/multimedia-fountain-01.jpg",
+        "/assets/multimedia-fountain-02.jpg",
+        "/assets/multimedia-fountain-03.jpg",
+        "/assets/multimedia-fountain-04.jpg",
+        "/assets/multimedia-fountain-05.jpg",
+        "/assets/multimedia-fountain-06.jpg",
+        "/assets/multimedia-fountain-07.jpg"
+      ],
+      "thumbnail": "/assets/multimedia-fountain-01.jpg",
+      "videos": [
+        "https://youtube.com/shorts/dUm3NDEX-y4",
+        "https://youtube.com/shorts/dI_FB67JBL4",
+        "https://youtube.com/shorts/94K1bIwjteg",
+        "https://youtube.com/shorts/oFpZE7jAuZE",
+        "https://youtube.com/shorts/KR_7B_LUe-w",
+        "https://youtube.com/shorts/F8dmjvigNcc",
+        "https://youtube.com/watch?v=j8HliEzlKG0",
+        "https://youtube.com/shorts/U7TyifQyg7k"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid07NxaywcjueF7pkdagBDd6tVm55WT89HVXHsmzmSXESREaevmdRDdiVBTagj8aYKal&id=61591964083308"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02tHXhUCTPd1MDqDHK2VHLZUpjb84rFbrB6Gjcvez3ciFUAYRk3Hu4YtoYnHxw68Nkl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeL0B4dDLj5/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid036ZucwSEPDShZLdQxnf2aLyE7yoJNqReXZ6ZkRnKWaYtZx84MjLCRpUghpopL5wgal&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeMbANnGNmL/"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0k5bQ7Rrq4N2WeLnvafKw6EqqHsufmomjNAzTXiv2n6GyJ7ek5MsodeP5BokLvR4dl&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMcDkvCd92/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid06Jqd3usoy3Zbf1Cj1SW2ueRXDEoVimdohhS6qGp8JKzGr1pqGAiPT1RLmsDsmZ6Zl&id=61594716405964",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMetHLj5Z8/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/O4te9Tsw3FU",
+          "videoId": "O4te9Tsw3FU",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "fountain"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/wYu3-sO5WkE",
+          "videoId": "wYu3-sO5WkE",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "fountain"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/wYu3-sO5WkE",
+          "videoId": "wYu3-sO5WkE",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "fountain"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/wYu3-sO5WkE",
+          "videoId": "wYu3-sO5WkE",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "fountain"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/wYu3-sO5WkE",
+          "videoId": "wYu3-sO5WkE",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "fountain"
+        }
+      }
+    },
+    {
+      "id": "four-denominations-district",
+      "canonicalPlaceId": "four-denominations-district",
+      "name": {
+        "he": "\u05e8\u05d5\u05d1\u05e2 \u05d0\u05e8\u05d1\u05e2 \u05d4\u05d3\u05ea\u05d5\u05ea",
+        "en": "Four Denominations District",
+        "pl": "Dzielnica Czterech Wyzna\u0144",
+        "de": "Viertel der vier Konfessionen",
+        "cs": "\u010ctvr\u0165 \u010dty\u0159 vyzn\u00e1n\u00ed"
+      },
+      "localName": "Dzielnica Czterech Wyzna\u0144",
+      "description": {
+        "he": "\u05d0\u05d6\u05d5\u05e8 \u05d4\u05dc\u05d9\u05db\u05d4 \u05e7\u05d8\u05df \u05d1\u05e2\u05d9\u05e8 \u05d4\u05e2\u05ea\u05d9\u05e7\u05d4, \u05e9\u05d1\u05d5 \u05e0\u05e4\u05d2\u05e9\u05d5\u05ea \u05d0\u05e8\u05d1\u05e2 \u05e7\u05d4\u05d9\u05dc\u05d5\u05ea \u05d3\u05ea\u05d9\u05d5\u05ea: \u05d9\u05d4\u05d5\u05d3\u05d9\u05ea, \u05e7\u05ea\u05d5\u05dc\u05d9\u05ea, \u05dc\u05d5\u05ea\u05e8\u05e0\u05d9\u05ea \u05d5\u05d0\u05d5\u05e8\u05ea\u05d5\u05d3\u05d5\u05e7\u05e1\u05d9\u05ea. \u05d1\u05d9\u05df \u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05d4\u05ea\u05e4\u05d9\u05dc\u05d4 \u05de\u05e9\u05ea\u05e8\u05e2\u05d9\u05dd \u05e8\u05d7\u05d5\u05d1\u05d5\u05ea, \u05d7\u05e6\u05e8\u05d5\u05ea \u05d5\u05d1\u05ea\u05d9 \u05e7\u05e4\u05d4, \u05dc\u05e6\u05d3 \u05e2\u05e7\u05d1\u05d5\u05ea \u05e9\u05dc \u05d7\u05d9\u05d9 \u05d4\u05ea\u05e8\u05d1\u05d5\u05ea \u05d5\u05d4\u05e7\u05d4\u05d9\u05dc\u05d4 \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1. \u05e4\u05e1\u05dc \u05db\u05d5\u05db\u05d1 \u05d4\u05dc\u05db\u05ea \u05de\u05d1\u05d3\u05d5\u05dc\u05d7 \u05de\u05e1\u05de\u05df \u05db\u05e0\u05d9\u05e1\u05d4 \u05e1\u05de\u05dc\u05d9\u05ea \u05dc\u05d0\u05d6\u05d5\u05e8. \u05de\u05d5\u05de\u05dc\u05e5 \u05dc\u05e9\u05dc\u05d1 \u05e9\u05d9\u05d8\u05d5\u05d8 \u05d1\u05e8\u05d7\u05d5\u05d1\u05d5\u05ea \u05e2\u05dd \u05d1\u05d9\u05e7\u05d5\u05e8 \u05e0\u05e4\u05e8\u05d3 \u05d1\u05d1\u05d9\u05ea \u05d4\u05db\u05e0\u05e1\u05ea \u05d4\u05d7\u05e1\u05d9\u05d3\u05d4 \u05d4\u05dc\u05d1\u05e0\u05d4; \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05d4\u05db\u05e0\u05d9\u05e1\u05d4 \u05dc\u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05d4\u05ea\u05e4\u05d9\u05dc\u05d4 \u05ea\u05dc\u05d5\u05d9\u05d4 \u05d1\u05db\u05dc \u05de\u05d5\u05e1\u05d3 \u05d5\u05d1\u05e4\u05e2\u05d9\u05dc\u05d5\u05ea\u05d5. \u05d6\u05d4\u05d5 \u05e8\u05d5\u05d1\u05e2 \u05ea\u05e8\u05d1\u05d5\u05ea\u05d9, \u05d5\u05dc\u05d0 \u05d9\u05d7\u05d9\u05d3\u05d4 \u05de\u05e0\u05d4\u05dc\u05d9\u05ea \u05e0\u05e4\u05e8\u05d3\u05ea.",
+        "en": "A compact walking area in the Old Town bringing together Jewish, Roman Catholic, Lutheran and Orthodox communities. Streets, courtyards and caf\u00e9s connect places of worship with traces of Wroc\u0142aw\u2019s cultural and community life. The Crystal Planet sculpture marks a symbolic entrance. Combine an unhurried walk with a separate visit to the White Stork Synagogue; entry to each place of worship depends on its own arrangements and activities. This is a cultural quarter, not a separate administrative district.",
+        "pl": "Niewielki obszar spacerowy na Starym Mie\u015bcie \u0142\u0105czy wsp\u00f3lnoty \u017cydowsk\u0105, rzymskokatolick\u0105, ewangelicko-augsbursk\u0105 i prawos\u0142awn\u0105. Ulice, podw\u00f3rza i kawiarnie prowadz\u0105 mi\u0119dzy \u015bwi\u0105tyniami oraz \u015bladami \u017cycia kulturalnego i spo\u0142ecznego Wroc\u0142awia. Symboliczne wej\u015bcie wyznacza rze\u017aba Kryszta\u0142owa Planeta. Spacer warto po\u0142\u0105czy\u0107 z osobn\u0105 wizyt\u0105 w Synagodze pod Bia\u0142ym Bocianem; dost\u0119p do poszczeg\u00f3lnych \u015bwi\u0105ty\u0144 zale\u017cy od ich w\u0142asnych zasad i odbywaj\u0105cych si\u0119 nabo\u017ce\u0144stw. Jest to dzielnica w znaczeniu kulturowym, nie odr\u0119bna jednostka administracyjna.",
+        "de": "Ein kleines Spaziergebiet in der Altstadt verbindet j\u00fcdische, r\u00f6misch-katholische, lutherische und orthodoxe Gemeinden. Stra\u00dfen, Innenh\u00f6fe und Caf\u00e9s f\u00fchren zwischen Gottesh\u00e4usern und Spuren des kulturellen und gemeinschaftlichen Lebens Breslaus hindurch. Die Skulptur Kristallplanet markiert einen symbolischen Eingang. Ein ruhiger Rundgang l\u00e4sst sich mit einem gesonderten Besuch der Synagoge zum Wei\u00dfen Storch verbinden; der Zutritt zu den Gottesh\u00e4usern richtet sich nach den jeweiligen Regeln und Veranstaltungen. Es handelt sich um ein Kulturviertel, nicht um einen eigenst\u00e4ndigen Verwaltungsbezirk.",
+        "cs": "Mal\u00e1 p\u011b\u0161\u00ed oblast ve Star\u00e9m M\u011bst\u011b propojuje \u017eidovskou, \u0159\u00edmskokatolickou, luterskou a pravoslavnou komunitu. Mezi svatyn\u011bmi vedou ulice, dvory a kav\u00e1rny se stopami kulturn\u00edho a spole\u010densk\u00e9ho \u017eivota Vratislavi. Symbolick\u00fd vstup ozna\u010duje socha K\u0159i\u0161\u0165\u00e1lov\u00e1 planeta. Klidnou proch\u00e1zku lze spojit se samostatnou n\u00e1v\u0161t\u011bvou synagogy U B\u00edl\u00e9ho \u010d\u00e1pa; vstup do jednotliv\u00fdch svatyn\u00ed z\u00e1vis\u00ed na jejich pravidlech a prob\u00edhaj\u00edc\u00edch ob\u0159adech. Jde o kulturn\u00ed \u010dtvr\u0165, nikoli samostatnou spr\u00e1vn\u00ed jednotku."
+      },
+      "coordinates": [
+        51.10968,
+        17.023753
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://www.fundacja4wyznan.pl/n/dzielnica/",
+      "photos": [
+        "/assets/four-denominations-district-crystal-planet.jpg",
+        "/assets/four-denominations-district-street.jpg",
+        "/assets/four-denominations-district-wlodkowica-entrance.jpg",
+        "/assets/four-denominations-district-plaque.jpg",
+        "/assets/four-denominations-district-rotbaum-plaque.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-01.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-02.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-03.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-04.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-05.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-06.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-07.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-08.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-09.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-10.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-11.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-12.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-13.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-14.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-15.jpg",
+        "/assets/today-source-refresh-20261021/run4-046-four-denominations-district.jpg"
+      ],
+      "thumbnail": "/assets/four-denominations-district-crystal-planet.jpg",
+      "videos": [
+        "https://www.youtube.com/watch?v=Eu84SKoKNZA",
+        "https://www.youtube.com/watch?v=o6qgx0B_sU0",
+        "https://www.youtube.com/watch?v=UOkQKcNFqBw",
+        "https://youtube.com/shorts/ExcXaGEwCz0",
+        "https://youtube.com/shorts/ZKCrh7ZNZFU",
+        "https://youtube.com/shorts/FgmfsnmETco",
+        "https://youtube.com/shorts/maNHvOKVA_s",
+        "https://youtube.com/shorts/sZjy6-Xfj8I",
+        "https://youtube.com/shorts/hp5UfkhbhUc"
+      ],
+      "social": {
+        "he": {},
+        "en": {},
+        "pl": {},
+        "de": {},
+        "cs": {}
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/rSn6kJy3gQE",
+          "videoId": "rSn6kJy3gQE",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "four-denominations-district"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/oqziuQx8hLQ",
+          "videoId": "oqziuQx8hLQ",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "four-denominations-district"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/oqziuQx8hLQ",
+          "videoId": "oqziuQx8hLQ",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "four-denominations-district"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/oqziuQx8hLQ",
+          "videoId": "oqziuQx8hLQ",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "four-denominations-district"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/oqziuQx8hLQ",
+          "videoId": "oqziuQx8hLQ",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "four-denominations-district"
+        }
+      }
+    },
+    {
+      "id": "four-domes",
+      "canonicalPlaceId": "four-domes",
+      "name": {
+        "he": "\u05d1\u05d9\u05ea\u05df \u05d0\u05e8\u05d1\u05e2 \u05d4\u05db\u05d9\u05e4\u05d5\u05ea",
+        "en": "Four Domes Pavilion",
+        "pl": "Pawilon Czterech Kopu\u0142",
+        "de": "Vier-Kuppel-Pavillon",
+        "cs": "Pavilon \u010dty\u0159 kopul\u00ed"
+      },
+      "localName": "Pawilon Czterech Kopu\u0142",
+      "description": {
+        "he": "\u05e9\u05dc\u05d5\u05d7\u05d4 \u05dc\u05d0\u05de\u05e0\u05d5\u05ea \u05e2\u05db\u05e9\u05d5\u05d5\u05d9\u05ea \u05e9\u05dc \u05d4\u05de\u05d5\u05d6\u05d9\u05d0\u05d5\u05df \u05d4\u05dc\u05d0\u05d5\u05de\u05d9 \u05d1\u05de\u05d1\u05e0\u05d4 \u05de\u05d5\u05d3\u05e8\u05e0\u05d9\u05e1\u05d8\u05d9.",
+        "en": "The National Museum's contemporary-art branch in a modernist building.",
+        "pl": "Oddzia\u0142 sztuki wsp\u00f3\u0142czesnej Muzeum Narodowego w modernistycznym budynku.",
+        "de": "Abteilung f\u00fcr Gegenwartskunst des Nationalmuseums in einem modernen Geb\u00e4ude.",
+        "cs": "Pobo\u010dka sou\u010dasn\u00e9ho um\u011bn\u00ed N\u00e1rodn\u00edho muzea v modernistick\u00e9 budov\u011b."
+      },
+      "coordinates": [
+        51.10805,
+        17.07527
+      ],
+      "cityId": "wroclaw",
+      "city": "",
+      "website": "https://mnwr.pl/oddzialy/pawilon-czterech-kopul/",
+      "photos": [
+        "/assets/four-domes-pavilion-02.jpg",
+        "/assets/four-domes-pavilion-01.jpg",
+        "/assets/four-domes-pavilion-03.jpg"
+      ],
+      "thumbnail": "/assets/four-domes-pavilion-02.jpg",
+      "videos": [
+        "https://youtube.com/shorts/pNJK5HYFumQ",
+        "https://youtube.com/shorts/1emk-8xwsXk"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://www.facebook.com/61591964083308/posts/122123169057398802/"
+        },
+        "en": {
+          "instagram": "https://www.instagram.com/p/DdtUydJDAc2/"
+        },
+        "pl": {},
+        "de": {},
+        "cs": {}
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/cs7AmJhitLo",
+          "videoId": "cs7AmJhitLo",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "four-domes-pavilion"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/Ud5KD21e5kE",
+          "videoId": "Ud5KD21e5kE",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "four-domes-pavilion"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/Ud5KD21e5kE",
+          "videoId": "Ud5KD21e5kE",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "four-domes-pavilion"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/Ud5KD21e5kE",
+          "videoId": "Ud5KD21e5kE",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "four-domes-pavilion"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/Ud5KD21e5kE",
+          "videoId": "Ud5KD21e5kE",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "four-domes-pavilion"
+        }
+      }
+    },
+    {
+      "id": "hala",
+      "canonicalPlaceId": "hala",
+      "name": {
+        "he": "\u05d4\u05d9\u05db\u05dc \u05d4\u05de\u05d0\u05d4",
+        "en": "Centennial Hall",
+        "pl": "Hala Stulecia",
+        "de": "Jahrhunderthalle",
+        "cs": "Hala stolet\u00ed"
+      },
+      "localName": "Hala Stulecia",
+      "description": {
+        "he": "\u05d4\u05d9\u05db\u05dc \u05d4\u05de\u05d0\u05d4 \u05d4\u05d5\u05d0 \u05de\u05d1\u05e0\u05d4 \u05de\u05e9\u05e0\u05ea 1913 \u05d1\u05ea\u05db\u05e0\u05d5\u05df \u05de\u05e7\u05e1 \u05d1\u05e8\u05d2, \u05d5\u05d0\u05ea\u05e8 \u05de\u05d5\u05e8\u05e9\u05ea \u05e2\u05d5\u05dc\u05de\u05d9\u05ea \u05e9\u05dc \u05d0\u05d5\u05e0\u05e1\u05e7\u05f4\u05d5. \u05d1\u05d2\u05dc\u05e8\u05d9\u05d4 \u05de\u05d1\u05d8\u05d9\u05dd \u05e2\u05dc \u05d4\u05d7\u05d6\u05d9\u05ea \u05d5\u05d4\u05db\u05d9\u05e4\u05d4, \u05e8\u05d7\u05d1\u05ea \u05d4\u05d0\u05d9\u05d2\u05dc\u05d9\u05e6\u05d4 \u05d5\u05d4\u05d4\u05d9\u05db\u05dc \u05de\u05e2\u05d1\u05e8 \u05dc\u05d1\u05e8\u05d9\u05db\u05ea \u05d4\u05de\u05d6\u05e8\u05e7\u05d4. \u05d0\u05e4\u05e9\u05e8 \u05dc\u05e9\u05dc\u05d1 \u05d1\u05d9\u05e7\u05d5\u05e8 \u05e2\u05dd \u05d4\u05e4\u05e8\u05d2\u05d5\u05dc\u05d4 \u05d5\u05d1\u05d9\u05ea\u05df \u05d0\u05e8\u05d1\u05e2 \u05d4\u05db\u05d9\u05e4\u05d5\u05ea \u05d4\u05e1\u05de\u05d5\u05db\u05d9\u05dd. \u05d4\u05db\u05e0\u05d9\u05e1\u05d4 \u05dc\u05e4\u05e0\u05d9\u05dd \u05d4\u05d4\u05d9\u05db\u05dc \u05ea\u05dc\u05d5\u05d9\u05d4 \u05d1\u05dc\u05d5\u05d7 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d5\u05d1\u05d6\u05de\u05d9\u05e0\u05d5\u05ea \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8\u05d9\u05dd; \u05d1\u05d3\u05e7\u05d5 \u05d1\u05d0\u05ea\u05e8 \u05d4\u05e8\u05e9\u05de\u05d9 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05d4\u05d2\u05e2\u05d4.",
+        "en": "Designed by Max Berg and opened in 1913, Centennial Hall is a UNESCO World Heritage site. Our gallery shows its fa\u00e7ade and dome, the Iglica plaza and views across the fountain basin. Combine it with the nearby Pergola and Four Domes Pavilion. Interior access depends on events and visitor availability; check the official site before arriving.",
+        "pl": "Hala Stulecia, zaprojektowana przez Maxa Berga i otwarta w 1913 roku, jest obiektem \u015bwiatowego dziedzictwa UNESCO. Galeria pokazuje elewacj\u0119 i kopu\u0142\u0119, plac z Iglic\u0105 oraz widoki zza niecki fontanny. Wizyt\u0119 mo\u017cna po\u0142\u0105czy\u0107 z poblisk\u0105 Pergol\u0105 i Pawilonem Czterech Kopu\u0142. Dost\u0119p do wn\u0119trza zale\u017cy od wydarze\u0144 i dost\u0119pno\u015bci zwiedzania; sprawd\u017a oficjaln\u0105 stron\u0119 przed przyjazdem.",
+        "de": "Die von Max Berg entworfene und 1913 er\u00f6ffnete Jahrhunderthalle geh\u00f6rt zum UNESCO-Welterbe. Unsere Galerie zeigt Fassade und Kuppel, den Platz mit der Iglica und Blicke \u00fcber das Wasserbecken. Ein Besuch l\u00e4sst sich mit der nahen Pergola und dem Vier-Kuppel-Pavillon verbinden. Der Innenzugang h\u00e4ngt von Veranstaltungen und Besichtigungsm\u00f6glichkeiten ab; pr\u00fcfen Sie vorher die offizielle Website.",
+        "cs": "Hala stolet\u00ed, navr\u017een\u00e1 Maxem Bergem a otev\u0159en\u00e1 v roce 1913, je pam\u00e1tkou sv\u011btov\u00e9ho d\u011bdictv\u00ed UNESCO. Galerie ukazuje pr\u016f\u010del\u00ed a kupoli, prostranstv\u00ed s Iglicou a pohledy p\u0159es n\u00e1dr\u017e font\u00e1ny. N\u00e1v\u0161t\u011bvu lze spojit s nedalekou Pergolou a Pavilonem \u010dty\u0159 kupol\u00ed. P\u0159\u00edstup dovnit\u0159 z\u00e1vis\u00ed na akc\u00edch a dostupnosti prohl\u00eddek; p\u0159ed cestou ov\u011b\u0159te ofici\u00e1ln\u00ed web."
+      },
+      "coordinates": [
+        51.10689,
+        17.07733
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://halastulecia.pl/en/for-visitors/",
+      "photos": [
+        "/assets/hala-stulecia-01.jpg",
+        "/assets/hala-stulecia-02.jpg",
+        "/assets/hala-stulecia-03.jpg",
+        "/assets/hala-stulecia-04.jpg",
+        "/assets/hala-stulecia-05.jpg",
+        "/assets/gallery-stulecia-02.jpg",
+        "/assets/gallery-stulecia-03.jpg",
+        "/assets/hala-refresh-oct18-01.jpg",
+        "/assets/hala-refresh-oct18-02.jpg",
+        "/assets/hala-refresh-oct18-03.jpg",
+        "/assets/hala-refresh-oct18-04.jpg",
+        "/assets/hala-refresh-oct18-05.jpg"
+      ],
+      "thumbnail": "/assets/hala-stulecia-01.jpg",
+      "videos": [
+        "https://youtube.com/shorts/Erjtrfj5rEc",
+        "https://youtube.com/shorts/oFpZE7jAuZE",
+        "https://youtube.com/shorts/_JpBjBHvP1s",
+        "https://youtube.com/shorts/WIxyGzuvVZw"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://www.facebook.com/61591964083308/posts/122115263553398802/"
+        },
+        "en": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0rgbNAx5M1iDs3ZDxsCHQ6kdUkTAEtP8jD5Uer6XLk9dBJw1jdHupUdG2QmV8Dcggl&id=61595036942289",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKwh5xFSBv/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid036UfaZi1CerpaxXdVCXp5M7UJQ3cewJQtkD7WjV32CQG9KcmRWW5cFL61auuwmZ3Al&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeKXHlADBhV/"
+        },
+        "de": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0QhAckm7GZrCJ2stSsrAjkTPrWYNLsuT7oEcZ9GjLi8Jw6LvcewWFegmhXzrbGRTkl&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKfVDmDYKm/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0G1bgeG2TrQ6jn85L6hwxCFLRGJnwmpKG7pMmVj7oEbaSmvySre75V1q1vJB9hq5Dl&id=61594716405964",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeKzkxmj-ta/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/y74YI_tgRq0",
+          "videoId": "y74YI_tgRq0",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "hala"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/EOBJMMmLY_I",
+          "videoId": "EOBJMMmLY_I",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "hala"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/EOBJMMmLY_I",
+          "videoId": "EOBJMMmLY_I",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "hala"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/EOBJMMmLY_I",
+          "videoId": "EOBJMMmLY_I",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "hala"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/EOBJMMmLY_I",
+          "videoId": "EOBJMMmLY_I",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "hala"
+        }
+      }
+    },
+    {
+      "id": "henryk-tomaszewski-theatre-museum",
+      "canonicalPlaceId": "henryk-tomaszewski-theatre-museum",
+      "name": {
+        "he": "\u05de\u05d5\u05d6\u05d9\u05d0\u05d5\u05df \u05d4\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05e2\u05f4\u05e9 \u05d4\u05e0\u05e8\u05d9\u05e7 \u05ea\u05d5\u05de\u05e9\u05d1\u05e1\u05e7\u05d9",
+        "en": "Henryk Tomaszewski Theatre Museum",
+        "pl": "Muzeum Teatru im. Henryka Tomaszewskiego",
+        "de": "Henryk-Tomaszewski-Theatermuseum",
+        "cs": "Divadeln\u00ed muzeum Henryka Tomaszewsk\u00e9ho"
+      },
+      "localName": "Muzeum Teatru im. Henryka Tomaszewskiego",
+      "description": {
+        "he": "\u05de\u05d5\u05d6\u05d9\u05d0\u05d5\u05df \u05dc\u05ea\u05d5\u05dc\u05d3\u05d5\u05ea \u05d4\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05d1\u05d5\u05d5\u05e8\u05d5\u05e6\u05dc\u05d1, \u05d1\u05d0\u05d2\u05e3 \u05d4\u05d3\u05e8\u05d5\u05de\u05d9 \u05dc\u05e9\u05e2\u05d1\u05e8 \u05e9\u05dc \u05d4\u05d0\u05e8\u05de\u05d5\u05df \u05d4\u05de\u05dc\u05db\u05d5\u05ea\u05d9. \u05d4\u05ea\u05e6\u05d5\u05d2\u05d4 \u05e2\u05d5\u05e1\u05e7\u05ea \u05d1\u05d1\u05de\u05ea \u05d4\u05e2\u05d9\u05e8 \u05d5\u05d1\u05de\u05d5\u05e8\u05e9\u05ea \u05d4\u05e0\u05e8\u05d9\u05e7 \u05ea\u05d5\u05de\u05e9\u05d1\u05e1\u05e7\u05d9, \u05de\u05d9\u05d9\u05e1\u05d3 \u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05d4\u05e4\u05e0\u05d8\u05d5\u05de\u05d9\u05de\u05d4 \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1. \u05d1\u05de\u05d5\u05d6\u05d9\u05d0\u05d5\u05df \u05e9\u05d5\u05d7\u05d6\u05e8\u05d4 \u05d3\u05d9\u05e8\u05ea\u05d5, \u05d5\u05d1\u05d4 \u05e4\u05e8\u05d9\u05d8\u05d9\u05dd \u05de\u05d0\u05d5\u05e1\u05e3 \u05d4\u05d1\u05d5\u05d1\u05d5\u05ea \u05e9\u05dc\u05d5. \u05e6\u05d9\u05dc\u05d5\u05dd \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8 \u05e9\u05dc\u05e0\u05d5 \u05de\u05e6\u05d9\u05d2 \u05d0\u05ea \u05d4\u05d7\u05d6\u05d9\u05ea \u05d5\u05d4\u05db\u05e0\u05d9\u05e1\u05d4 \u05de\u05db\u05d9\u05db\u05e8 \u05d5\u05d5\u05dc\u05e0\u05d5\u05e9\u05e6\u05f3\u05d9. \u05d6\u05d4\u05d5 \u05de\u05d5\u05d6\u05d9\u05d0\u05d5\u05df \u05e0\u05e4\u05e8\u05d3 \u05de\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05d4\u05d1\u05d5\u05d1\u05d5\u05ea.\nplac Wolno\u015bci 7A, Wroc\u0142aw",
+        "en": "A museum of Wroc\u0142aw theatre history in the former southern wing of the Royal Palace. Explore the city\u2019s stage heritage and Henryk Tomaszewski, founder of Wroc\u0142aw Pantomime Theatre. His apartment is reconstructed with items from his doll collection. Our visit photograph shows the fa\u00e7ade and entrance from plac Wolno\u015bci. This is a separate museum from the Puppet Theatre.\nplac Wolno\u015bci 7A, Wroc\u0142aw",
+        "pl": "Muzeum historii wroc\u0142awskiego teatru w dawnym po\u0142udniowym skrzydle Pa\u0142acu Kr\u00f3lewskiego. Przybli\u017ca dorobek miejskiej sceny oraz Henryka Tomaszewskiego, tw\u00f3rcy Wroc\u0142awskiego Teatru Pantomimy. Odtworzono tu jego mieszkanie z przedmiotami z kolekcji lalek. Nasza fotografia z wizyty przedstawia fasad\u0119 i wej\u015bcie od placu Wolno\u015bci. To odr\u0119bne muzeum, nie Teatr Lalek.\nplac Wolno\u015bci 7A, Wroc\u0142aw",
+        "de": "Ein Museum zur Breslauer Theatergeschichte im ehemaligen S\u00fcdfl\u00fcgel des K\u00f6nigsschlosses. Es stellt die B\u00fchnenkunst der Stadt und Henryk Tomaszewski, den Gr\u00fcnder des Breslauer Pantomimentheaters, vor. Seine Wohnung wurde mit Objekten seiner Puppensammlung nachgebildet. Unser Besuchsfoto zeigt Fassade und Eingang am plac Wolno\u015bci. Das Museum ist vom Puppentheater getrennt.\nplac Wolno\u015bci 7A, Wroc\u0142aw",
+        "cs": "Muzeum d\u011bjin vratislavsk\u00e9ho divadla v n\u011bkdej\u0161\u00edm ji\u017en\u00edm k\u0159\u00eddle Kr\u00e1lovsk\u00e9ho pal\u00e1ce. P\u0159edstavuje m\u011bstskou divadeln\u00ed sc\u00e9nu a Henryka Tomaszewsk\u00e9ho, zakladatele Vratislavsk\u00e9ho divadla pantomimy. Jeho byt byl rekonstruov\u00e1n s p\u0159edm\u011bty ze sb\u00edrky panenek. Na\u0161e fotografie z n\u00e1v\u0161t\u011bvy zachycuje pr\u016f\u010del\u00ed a vstup z n\u00e1m\u011bst\u00ed Wolno\u015bci. Jde o jin\u00e9 muzeum ne\u017e loutkov\u00e9 divadlo.\nplac Wolno\u015bci 7A, Wroc\u0142aw"
+      },
+      "coordinates": [
+        51.1069642,
+        17.0278621
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://muzeum.miejskie.wroclaw.pl/museum/teatru/",
+      "photos": [
+        "/assets/today-source-refresh-20261021/henryk-tomaszewski-theatre-museum-01.jpg"
+      ],
+      "thumbnail": "/assets/today-source-refresh-20261021/henryk-tomaszewski-theatre-museum-01.jpg",
+      "videos": [],
+      "social": {
+        "he": {},
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02qV2THs3r3nMSwba861JC8LEfMoDXq3mf1k7oxAEi2k16WJKX8zxsSnyUHKM82PfUl&id=61595036942289"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid091zYLnabjJGGcBeqdzWQhdBnE734Uj4MZhvJbJorFQPgvXekCy464vNYdQcJTJ7nl&id=61595207664875"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02cDCpmjChefEV95RbnEvGePwryBMCwQ3doGvrYdDZxE2j3iiS4bhogCBgX1oj53Kul&id=61595239823399"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0k8YRSuEk8A36w6mu5CKPxnwPi8pBswawrVTLSq5fxj73seJVq9v1ch5qxwr4j35Wl&id=61594716405964"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://www.youtube.com/watch?v=p8SO_3lpuxM",
+          "videoId": "p8SO_3lpuxM",
+          "audioLanguage": "en",
+          "captionLanguage": "he",
+          "verificationPlace": "henryk-tomaszewski-theatre-museum"
+        },
+        "en": {
+          "url": "https://www.youtube.com/watch?v=p8SO_3lpuxM",
+          "videoId": "p8SO_3lpuxM",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "henryk-tomaszewski-theatre-museum"
+        },
+        "pl": {
+          "url": "https://www.youtube.com/watch?v=p8SO_3lpuxM",
+          "videoId": "p8SO_3lpuxM",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "henryk-tomaszewski-theatre-museum"
+        },
+        "de": {
+          "url": "https://www.youtube.com/watch?v=p8SO_3lpuxM",
+          "videoId": "p8SO_3lpuxM",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "henryk-tomaszewski-theatre-museum"
+        },
+        "cs": {
+          "url": "https://www.youtube.com/watch?v=p8SO_3lpuxM",
+          "videoId": "p8SO_3lpuxM",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "henryk-tomaszewski-theatre-museum"
+        }
+      }
+    },
+    {
+      "id": "japanese",
+      "canonicalPlaceId": "japanese",
+      "name": {
+        "he": "\u05d4\u05d2\u05df \u05d4\u05d9\u05e4\u05e0\u05d9",
+        "en": "Japanese Garden",
+        "pl": "Ogr\u00f3d Japo\u0144ski",
+        "de": "Japanischer Garten",
+        "cs": "Japonsk\u00e1 zahrada"
+      },
+      "localName": "Ogr\u00f3d Japo\u0144ski",
+      "description": {
+        "he": "\u05d2\u05df \u05e8\u05d2\u05d5\u05e2 \u05d5\u05d9\u05e4\u05d4 \u05d1\u05de\u05e8\u05d7\u05e7 \u05d3\u05e7\u05d5\u05ea \u05d4\u05dc\u05d9\u05db\u05d4 \u05de\u05d4\u05de\u05d6\u05e8\u05e7\u05d4.",
+        "en": "A calm, beautiful garden a few minutes\u2019 walk from the fountain.",
+        "pl": "Spokojny, pi\u0119kny ogr\u00f3d kilka minut spacerem od fontanny.",
+        "de": "Ein ruhiger, wundersch\u00f6ner Garten, nur wenige Gehminuten vom Brunnen entfernt.",
+        "cs": "Klidn\u00e1, kr\u00e1sn\u00e1 zahrada p\u00e1r minut ch\u016fze od font\u00e1ny."
+      },
+      "coordinates": [
+        51.10977,
+        17.08094
+      ],
+      "cityId": "wroclaw",
+      "city": "",
+      "website": null,
+      "photos": [
+        "/assets/gallery-japanese-01.jpg",
+        "/assets/gallery-japanese-02.jpg",
+        "/assets/gallery-japanese-03.jpg",
+        "/assets/gallery-japanese-04.jpg",
+        "/assets/gallery-japanese-05.jpg",
+        "/assets/gallery-japanese-06.jpg",
+        "/assets/japanese-visit-07.jpg",
+        "/assets/japanese-visit-08.jpg"
+      ],
+      "thumbnail": "/assets/gallery-japanese-01.jpg",
+      "videos": [
+        "https://youtube.com/shorts/Ni0GwsP-uMg",
+        "https://youtube.com/shorts/OMuXVtwAkAA"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02jdAe3onuqby1sb1rcyUPZJBnm4ABvvLdMFP8e11BQNPDY8t6VMbTb4JyucadfFvMl&id=61591964083308",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeZ9Ifxn124/"
+        },
+        "en": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02fyC1TfVTiSJdsYa7WRSn3i2EDQgRv8xSuumKMCuASf5BQ4xn94BBEw9ZAvT276Xdl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeaDDBDnN4l/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid032eRi3AEe938CwdBpUuyKFsx2G12VYQ67vFqBEdLdUbbBsLtW3hW4FCymAMF92PLEl&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeaDX3zjL_Y/"
+        },
+        "de": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0yvHqmge3TB1ZvTYCVe9XLkx6kb6cMw7Yf67zNKFZuXRYn6CmcBaxPN6ychiprjkal&id=61595239823399",
+          "instagram": "https://www.instagram.com/p/DeaDI_pjbWB/"
+        },
+        "cs": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0pTHtQsazYEu1pNtHTUDtVjqsAVBjw1egorKCkGr9MdMJX6Cn8aYQqtG2E7ptwWLCl&id=61594716405964",
+          "instagram": "https://www.instagram.com/p/DeaDsagDDNe/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/x39Gu8wchuA",
+          "videoId": "x39Gu8wchuA",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "japanese"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/anSJzrqzqqg",
+          "videoId": "anSJzrqzqqg",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "japanese"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/anSJzrqzqqg",
+          "videoId": "anSJzrqzqqg",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "japanese"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/anSJzrqzqqg",
+          "videoId": "anSJzrqzqqg",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "japanese"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/anSJzrqzqqg",
+          "videoId": "anSJzrqzqqg",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "japanese"
+        }
+      }
+    },
+    {
+      "id": "morskie-oko-wroclaw",
+      "canonicalPlaceId": "morskie-oko-wroclaw",
+      "name": {
+        "he": "\u05de\u05d5\u05e8\u05e1\u05e7\u05d9 \u05d0\u05d5\u05e7\u05d5, \u05d0\u05ea\u05e8 \u05d4\u05e8\u05d7\u05e6\u05d4 \u05d1\u05d5\u05d5\u05e8\u05d5\u05e6\u05dc\u05d1",
+        "en": "Morskie Oko bathing lake, Wroc\u0142aw",
+        "pl": "K\u0105pielisko Morskie Oko",
+        "de": "Morskie Oko, Badesee in Breslau",
+        "cs": "Morskie Oko, koupali\u0161t\u011b ve Vratislavi"
+      },
+      "localName": "K\u0105pielisko Morskie Oko",
+      "description": {
+        "he": "\u05de\u05d5\u05e8\u05e1\u05e7\u05d9 \u05d0\u05d5\u05e7\u05d5 \u05d4\u05d5\u05d0 \u05d0\u05ea\u05e8 \u05e8\u05d7\u05e6\u05d4 \u05e2\u05d9\u05e8\u05d5\u05e0\u05d9 \u05d1\u05e6\u05e4\u05d5\u05df\u05be\u05de\u05d6\u05e8\u05d7 \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1, \u05e2\u05dd \u05d7\u05d5\u05e3 \u05d7\u05d5\u05dc\u05d9, \u05de\u05d3\u05e9\u05d0\u05d5\u05ea \u05d5\u05d0\u05d6\u05d5\u05e8\u05d9\u05dd \u05de\u05d5\u05e6\u05dc\u05d9\u05dd. \u05d0\u05e4\u05e9\u05e8 \u05dc\u05e9\u05dc\u05d1 \u05db\u05d0\u05df \u05de\u05e0\u05d5\u05d7\u05d4 \u05dc\u05d9\u05d3 \u05d4\u05de\u05d9\u05dd \u05d1\u05d9\u05d5\u05dd \u05e7\u05d9\u05e5 \u05d7\u05dd, \u05dc\u05e6\u05d3 \u05de\u05d2\u05e8\u05e9\u05d9 \u05e1\u05e4\u05d5\u05e8\u05d8, \u05de\u05ea\u05e7\u05e0\u05d9 \u05d4\u05d7\u05dc\u05e4\u05d4 \u05d5\u05de\u05e7\u05dc\u05d7\u05d5\u05ea \u05d1\u05e2\u05d5\u05e0\u05ea \u05d4\u05e4\u05e2\u05d9\u05dc\u05d5\u05ea. \u05d6\u05d4\u05d5 \u05d0\u05ea\u05e8 \u05d4\u05e8\u05d7\u05e6\u05d4 \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1, \u05d5\u05dc\u05d0 \u05d4\u05d0\u05d2\u05dd \u05d1\u05e2\u05dc \u05d0\u05d5\u05ea\u05d5 \u05e9\u05dd \u05d1\u05d4\u05e8\u05d9 \u05d4\u05d8\u05d8\u05e8\u05d4. \u05e2\u05d5\u05e0\u05ea \u05d4\u05e8\u05d7\u05e6\u05d4 \u05d4\u05e8\u05e9\u05de\u05d9\u05ea \u05e9\u05dc 2026 \u05d4\u05e1\u05ea\u05d9\u05d9\u05de\u05d4 \u05d1\u05be31 \u05d1\u05d0\u05d5\u05d2\u05d5\u05e1\u05d8; \u05dc\u05e4\u05e0\u05d9 \u05d1\u05d9\u05e7\u05d5\u05e8 \u05d9\u05e9 \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d0\u05e6\u05dc \u05d4\u05de\u05e4\u05e2\u05d9\u05dc \u05d0\u05ea \u05de\u05d5\u05e2\u05d3\u05d9 \u05d4\u05e2\u05d5\u05e0\u05d4 \u05d4\u05d1\u05d0\u05d4, \u05ea\u05e0\u05d0\u05d9 \u05d4\u05db\u05e0\u05d9\u05e1\u05d4 \u05d5\u05d4\u05e0\u05d2\u05d9\u05e9\u05d5\u05ea.",
+        "en": "Morskie Oko is an urban bathing lake in northeastern Wroc\u0142aw, with a sandy beach, lawns and shaded rest areas. In summer it offers a waterside break with beach sports, changing facilities and showers during the operating season. This is Wroc\u0142aw\u2019s bathing site, distinct from the lake with the same name in the Tatra Mountains. The official 2026 bathing season ended on 31 August; check the operator for the next season, entry arrangements and accessibility before visiting.",
+        "pl": "Morskie Oko to miejskie k\u0105pielisko w p\u00f3\u0142nocno-wschodniej cz\u0119\u015bci Wroc\u0142awia, z piaszczyst\u0105 pla\u017c\u0105, trawnikami i zacienionymi miejscami odpoczynku. Latem mo\u017cna tu po\u0142\u0105czy\u0107 relaks nad wod\u0105 ze sportami pla\u017cowymi; w sezonie dost\u0119pne s\u0105 przebieralnie i natryski. To wroc\u0142awskie k\u0105pielisko, a nie jezioro o tej samej nazwie w Tatrach. Oficjalny sezon k\u0105pielowy 2026 zako\u0144czy\u0142 si\u0119 31 sierpnia. Przed wizyt\u0105 sprawd\u017a u operatora terminy kolejnego sezonu, zasady wst\u0119pu i dost\u0119pno\u015b\u0107.",
+        "de": "Morskie Oko ist ein st\u00e4dtischer Badesee im Nordosten von Breslau mit Sandstrand, Liegewiesen und schattigen Ruhebereichen. Im Sommer l\u00e4sst sich eine Pause am Wasser mit Strandsport verbinden; Umkleiden und Duschen stehen w\u00e4hrend der Betriebssaison zur Verf\u00fcgung. Gemeint ist das Breslauer Freibad, nicht der gleichnamige See in der Tatra. Die offizielle Badesaison 2026 endete am 31. August. Vor dem Besuch die n\u00e4chste Saison, den Eintritt und die Zug\u00e4nglichkeit beim Betreiber pr\u00fcfen.",
+        "cs": "Morskie Oko je m\u011bstsk\u00e9 koupali\u0161t\u011b na severov\u00fdchod\u011b Vratislavi s p\u00edse\u010dnou pl\u00e1\u017e\u00ed, tr\u00e1vn\u00edky a zast\u00edn\u011bn\u00fdmi m\u00edsty k odpo\u010dinku. V l\u00e9t\u011b nab\u00edz\u00ed relaxaci u vody i pl\u00e1\u017eov\u00e9 sporty; v provozn\u00ed sezon\u011b jsou k dispozici p\u0159evl\u00e9k\u00e1rny a sprchy. Jde o vratislavsk\u00e9 koupali\u0161t\u011b, nikoli stejnojmenn\u00e9 jezero v Tatr\u00e1ch. Ofici\u00e1ln\u00ed koupac\u00ed sezona 2026 skon\u010dila 31. srpna. P\u0159ed n\u00e1v\u0161t\u011bvou si u provozovatele ov\u011b\u0159te term\u00edny dal\u0161\u00ed sezony, podm\u00ednky vstupu a p\u0159\u00edstupnost."
+      },
+      "coordinates": [
+        51.1232536,
+        17.0828961
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://mcs.wroc.pl/obiekty/obiekty/k%C4%85pielisko-morskie-oko",
+      "photos": [
+        "/assets/morskie-oko-refresh/morskie-oko-04.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-01.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-02.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-03.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-05.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-06.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-07.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-08.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-09.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-10.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-11.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-12.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-14.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-15.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-16.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-17.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-18.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-20.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-22.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-23.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-25.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-26.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-28.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-29.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-31.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-33.jpg",
+        "/assets/morskie-oko-refresh/morskie-oko-35.jpg"
+      ],
+      "thumbnail": "/assets/morskie-oko-refresh/morskie-oko-04.jpg",
+      "videos": [
+        "https://youtube.com/shorts/cfigvTx41kY",
+        "https://youtube.com/shorts/Bipflkjozmk",
+        "https://youtube.com/shorts/wk5U3Wq93TY",
+        "https://youtube.com/shorts/WgQpojqi9pk",
+        "https://youtube.com/shorts/gN14-XYU8dM",
+        "https://youtube.com/shorts/8cTLqypvJn4",
+        "https://youtube.com/shorts/hhhjCRE9aUc",
+        "https://youtube.com/shorts/ZQRrQni1Z5M"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0oSKKxVUHrufqTJfgM831se3MMVCv3MV9WPfugJ18BthRWhshstHwwe7oKwBUoULal&id=61591964083308",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DesDBfXn4Fe/"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hUzZDx5cqXC87oLhSfLBCurwZ9sCyr721acQ24PVyJuTCLaWrYnC1W7udx1YrKUFl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeRVMM3jQxZ/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid038Pd8vrTKieVn2uU5y3Qwqajz23bVfen4BNLrjWtx6UJReYNqSvv7NM2fAXfEp4DCl&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeT2xmfDKGj/"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0eydkiCXbBErmkorNRBXsAuwM9NFSxb7BiEzJ3KQ56WndqUJWDx62zyHXNrygNxLJl&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMhgrtAAHo/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid026tUVV7SEUJqBHJbpCS9qwzz27JpABWeFsj8rmEvahjyPdqN2kxvYihyPegPj9ta7l&id=61594716405964",
+          "instagram": "https://www.instagram.com/p/DePOrTjDwr8/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/R26FXh9Twh0",
+          "videoId": "R26FXh9Twh0",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "morskie-oko-wroclaw"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/e0gGTjUPYoQ",
+          "videoId": "e0gGTjUPYoQ",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "morskie-oko-wroclaw"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/e0gGTjUPYoQ",
+          "videoId": "e0gGTjUPYoQ",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "morskie-oko-wroclaw"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/e0gGTjUPYoQ",
+          "videoId": "e0gGTjUPYoQ",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "morskie-oko-wroclaw"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/e0gGTjUPYoQ",
+          "videoId": "e0gGTjUPYoQ",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "morskie-oko-wroclaw"
+        }
+      }
+    },
+    {
+      "id": "most-tumski",
+      "canonicalPlaceId": "most-tumski",
+      "name": {
+        "he": "\u05d2\u05e9\u05e8 \u05d8\u05d5\u05de\u05e1\u05e7\u05d9",
+        "en": "Tumski Bridge",
+        "pl": "Most Tumski",
+        "de": "Tumski-Br\u00fccke",
+        "cs": "Tumsk\u00fd most"
+      },
+      "localName": "Most Tumski",
+      "description": {
+        "he": "\u05d4\u05d2\u05e9\u05e8 \u05e9\u05de\u05d5\u05d1\u05d9\u05dc \u05d0\u05dc \u05d4\u05dc\u05d1 \u05d4\u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9 \u05e9\u05dc \u05d0\u05d5\u05e1\u05d8\u05e8\u05d5\u05d1 \u05d8\u05d5\u05de\u05e1\u05e7\u05d9.",
+        "en": "The bridge leading into the historic heart of Ostr\u00f3w Tumski.",
+        "pl": "Most prowadz\u0105cy do historycznego serca Ostrowa Tumskiego.",
+        "de": "Die Br\u00fccke f\u00fchrt in das historische Herz von Ostr\u00f3w Tumski.",
+        "cs": "Most vedouc\u00ed do historick\u00e9ho srdce Ostr\u00f3w Tumski."
+      },
+      "coordinates": [
+        51.114714,
+        17.042248
+      ],
+      "cityId": "wroclaw",
+      "city": "",
+      "website": null,
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg",
+        "/assets/today-source-refresh-20261021/run4-092-most-tumski.jpg",
+        "/assets/today-source-refresh-20261021/run4-093-most-tumski.jpg",
+        "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg",
+        "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg"
+      ],
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg",
+      "videos": [
+        "https://www.youtube.com/watch?v=3Sxf4k4DkiM",
+        "https://www.youtube.com/watch?v=9nOC5KsNCqQ"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02cYCzpEAb2Q6am2n5UsAjCuYjgu54yuZA9RkfgHh67WGwyyP1xXmGvVLCDuDoBoNQl&id=61591964083308"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Awc48gHAgZw73RFZvkybjhaqZ2TUJKL9cK8WtvYcAdMb1UgLhUmUEoJmhNL4q2Xpl&id=61595036942289"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0dqnEszRVNQ8n1EGvopvR32oUL27mbxSAo7BKxAAjPh87N8y9uWUkU4dnLPJ9xWApl&id=61595207664875"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02dMVehWgoL73Zryrr5U3DAXrmieCtB4Kn5ss7XwKJXfis3tb5DXwozaCLedtFUNUnl&id=61595239823399"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qj7d9EJwEqz8HgNRpACtcn1maAuxbozPBVHLezCGupgeGghNkutu6Ks4BEFMbXrol&id=61594716405964"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://www.youtube.com/watch?v=8ZjWUCCHy8g",
+          "videoId": "8ZjWUCCHy8g",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "most-tumski"
+        },
+        "en": {
+          "url": "https://www.youtube.com/watch?v=B94yaegj-eU",
+          "videoId": "B94yaegj-eU",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "most-tumski"
+        },
+        "pl": {
+          "url": "https://www.youtube.com/watch?v=B94yaegj-eU",
+          "videoId": "B94yaegj-eU",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "most-tumski"
+        },
+        "de": {
+          "url": "https://www.youtube.com/watch?v=B94yaegj-eU",
+          "videoId": "B94yaegj-eU",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "most-tumski"
+        },
+        "cs": {
+          "url": "https://www.youtube.com/watch?v=B94yaegj-eU",
+          "videoId": "B94yaegj-eU",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "most-tumski"
+        }
+      }
+    },
+    {
+      "id": "nfm",
+      "canonicalPlaceId": "nfm",
+      "name": {
+        "he": "\u05d4\u05e4\u05d5\u05e8\u05d5\u05dd \u05d4\u05dc\u05d0\u05d5\u05de\u05d9 \u05dc\u05de\u05d5\u05d6\u05d9\u05e7\u05d4",
+        "en": "National Forum of Music",
+        "pl": "Narodowe Forum Muzyki",
+        "de": "Nationales Musikforum",
+        "cs": "N\u00e1rodn\u00ed hudebn\u00ed f\u00f3rum"
+      },
+      "localName": "Narodowe Forum Muzyki",
+      "description": {
+        "he": "\u05d0\u05d5\u05dc\u05dd \u05d4\u05e7\u05d5\u05e0\u05e6\u05e8\u05d8\u05d9\u05dd \u05d4\u05de\u05e8\u05db\u05d6\u05d9 \u05d1\u05e2\u05d9\u05e8, \u05e2\u05dd \u05ea\u05d5\u05db\u05e0\u05d9\u05ea \u05e7\u05dc\u05d0\u05e1\u05d9\u05ea \u05d5\u05e2\u05db\u05e9\u05d5\u05d5\u05d9\u05ea.",
+        "en": "The city's main concert hall, with classical and contemporary programmes.",
+        "pl": "G\u0142\u00f3wna sala koncertowa miasta z repertuarem klasycznym i wsp\u00f3\u0142czesnym.",
+        "de": "Wichtigster Konzertsaal der Stadt mit klassischem und zeitgen\u00f6ssischem Programm.",
+        "cs": "Hlavn\u00ed koncertn\u00ed s\u00e1l m\u011bsta s klasick\u00fdm i sou\u010dasn\u00fdm programem."
+      },
+      "coordinates": [
+        51.10775,
+        17.02857
+      ],
+      "cityId": "wroclaw",
+      "city": "",
+      "website": "https://nfm.wroclaw.pl/",
+      "photos": [
+        "/assets/gallery-nfm-01.jpg",
+        "/assets/gallery-nfm-02.jpg",
+        "/assets/gallery-nfm-03.jpg",
+        "/assets/today-source-refresh-20261021/nfm-01.jpg",
+        "/assets/today-source-refresh-20261021/run4-169-nfm.jpg"
+      ],
+      "thumbnail": "/assets/gallery-nfm-01.jpg",
+      "videos": [
+        "https://www.youtube.com/watch?v=_Dez_yfkVVQ"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://www.facebook.com/61591964083308/posts/122117365257398802/"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02CNbxAFLcyLKi4DekY7QhVSVkoxvBoG5fMMCMb7vKZiFLSfMUP9sdpWStaz3oaJiPl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeMjER3lKpn/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02nnJty31FqZX2J3jmXKXYEsC3L6wdC14kk3SBMfyw1AkExKHzub9Ur78N2BdAJ6dol&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeT6y0OlcwE/"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02as1UNutmRETqDwaaLhFnASu3sSGkm6YXuwHEcm2frbFS1Dn6H6zfz1pTLQh7cjHKl&id=61595239823399",
+          "instagram": "https://www.instagram.com/p/DeMpEByFEH1/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0TBekCtd6oLi3gnT41ecz1taVw4Y97K4ZXr8x1VDFZdUsdbjbUzJhQDDfWeZpxxPYl&id=61594716405964",
+          "instagram": "https://www.instagram.com/p/DeM5aYvjcZA/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://www.youtube.com/watch?v=VyqYqyW2h8E",
+          "videoId": "VyqYqyW2h8E",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "nfm"
+        },
+        "en": {
+          "url": "https://www.youtube.com/watch?v=aABow6nYRjs",
+          "videoId": "aABow6nYRjs",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "nfm"
+        },
+        "pl": {
+          "url": "https://www.youtube.com/watch?v=aABow6nYRjs",
+          "videoId": "aABow6nYRjs",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "nfm"
+        },
+        "de": {
+          "url": "https://www.youtube.com/watch?v=aABow6nYRjs",
+          "videoId": "aABow6nYRjs",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "nfm"
+        },
+        "cs": {
+          "url": "https://www.youtube.com/watch?v=aABow6nYRjs",
+          "videoId": "aABow6nYRjs",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "nfm"
+        }
+      }
+    },
+    {
+      "id": "ostrow",
+      "canonicalPlaceId": "ostrow",
+      "name": {
+        "he": "\u05d0\u05d5\u05e1\u05d8\u05e8\u05d5\u05d1 \u05d8\u05d5\u05de\u05e1\u05e7\u05d9",
+        "en": "Ostr\u00f3w Tumski",
+        "pl": "Ostr\u00f3w Tumski",
+        "de": "Ostr\u00f3w Tumski",
+        "cs": "Ostrov Tumski"
+      },
+      "localName": "Ostr\u00f3w Tumski",
+      "description": {
+        "he": "\u05d4\u05d0\u05d6\u05d5\u05e8 \u05d4\u05e2\u05ea\u05d9\u05e7 \u05d5\u05d4\u05d0\u05d5\u05d5\u05d9\u05e8\u05d9 \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1, \u05e2\u05dd \u05e8\u05d7\u05d5\u05d1\u05d5\u05ea \u05e9\u05e7\u05d8\u05d9\u05dd, \u05db\u05e0\u05e1\u05d9\u05d5\u05ea \u05d5\u05e4\u05e0\u05e1\u05d9 \u05d2\u05d6 \u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9\u05d9\u05dd.",
+        "en": "Wroc\u0142aw\u2019s atmospheric historic quarter, with quiet lanes, churches and traditional gas lamps.",
+        "pl": "Nastrojowa historyczna cz\u0119\u015b\u0107 Wroc\u0142awia z cichymi uliczkami, ko\u015bcio\u0142ami i tradycyjnymi latarniami gazowymi.",
+        "de": "Breslaus stimmungsvolle Altstadt mit ruhigen Gassen, Kirchen und traditionellen Gaslaternen.",
+        "cs": "Atmosf\u00e9rick\u00e1 historick\u00e1 \u010dtvr\u0165 Vratislavi s tich\u00fdmi uli\u010dkami, kostely a tradi\u010dn\u00edmi plynov\u00fdmi lampami."
+      },
+      "coordinates": [
+        51.1146228,
+        17.0437212
+      ],
+      "cityId": "wroclaw",
+      "city": "",
+      "website": null,
+      "photos": [
+        "/assets/gallery-cathedral-03.jpg",
+        "/assets/gallery-cathedral-04.jpg",
+        "/assets/gallery-cathedral-05.jpg",
+        "/assets/gallery-cathedral-06.jpg",
+        "/assets/gallery-cathedral-02.jpg",
+        "/assets/gallery-cathedral-01.jpg",
+        "/assets/today-source-refresh-20261021/run4-012-ostrow.jpg",
+        "/assets/today-source-refresh-20261021/run4-028-ostrow.jpg"
+      ],
+      "thumbnail": "/assets/gallery-cathedral-03.jpg",
+      "videos": [
+        "https://www.youtube.com/watch?v=M9P8fPs5-8o",
+        "https://www.youtube.com/watch?v=Lx6Lxbx0csk"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://www.facebook.com/61591964083308/posts/122109921771398802/",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvUmZEfUn/"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02xsnUBY92pvWXGme2r7FGCoeXcYPmZb79NKZjuxzv63Q2PwSGjyiXBZpedbQhRB7zl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeRcDQVndcx/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0pRm31PYSfXLwZGJwGJpxwp8kPygsWPJZf6qLqon1hEL8EBTCMJ7MbuLpi5LRc3gcl&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeTw-45kaEK/"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid028SuB1giXKg87at14e9wJHe8M4AD9ie5X8cyLCVCMnM2Co7KNq4av8oqtjmgi91mGl&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeLBxEina0b/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid05QkEtUWQyNM7VgsL1dWiCF7DXZJ5gEh1Yw931xb3HiQRQsEytNkKJaZb7mktkDs3l&id=61594716405964",
+          "instagram": "https://www.instagram.com/p/DeUjADqnXzz/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://www.youtube.com/watch?v=oBjOT3Ubaro",
+          "videoId": "oBjOT3Ubaro",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "ostrow"
+        },
+        "en": {
+          "url": "https://www.youtube.com/watch?v=C9Wyg2MB1nk",
+          "videoId": "C9Wyg2MB1nk",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "ostrow"
+        },
+        "pl": {
+          "url": "https://www.youtube.com/watch?v=C9Wyg2MB1nk",
+          "videoId": "C9Wyg2MB1nk",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "ostrow"
+        },
+        "de": {
+          "url": "https://www.youtube.com/watch?v=C9Wyg2MB1nk",
+          "videoId": "C9Wyg2MB1nk",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "ostrow"
+        },
+        "cs": {
+          "url": "https://www.youtube.com/watch?v=C9Wyg2MB1nk",
+          "videoId": "C9Wyg2MB1nk",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "ostrow"
+        }
+      }
+    },
+    {
+      "id": "papa",
+      "canonicalPlaceId": "papa",
+      "name": {
+        "he": "\u05e4\u05d0\u05e4\u05d0 \u05e7\u05e8\u05e1\u05e0\u05dc",
+        "en": "Papa Krasnal dwarf",
+        "pl": "Krasnal Papa",
+        "de": "Papa Krasnal Zwerg",
+        "cs": "Papa Krasnal trpasl\u00edk"
+      },
+      "localName": "Papa Krasnal",
+      "description": {
+        "he": "\u05e4\u05e1\u05dc \u05d4\u05d1\u05e8\u05d5\u05e0\u05d6\u05d4 \u05e9\u05dc \u05e4\u05e4\u05d4 \u05e7\u05e8\u05e1\u05e0\u05dc, \u05e2\u05dc \u05db\u05df \u05d1\u05e6\u05d5\u05e8\u05ea \u05d0\u05e6\u05d1\u05e2, \u05de\u05e0\u05e6\u05d9\u05d7 \u05d0\u05ea \u05ea\u05e0\u05d5\u05e2\u05ea \u05d4\u05de\u05d7\u05d0\u05d4 \u05f4\u05d4\u05d0\u05dc\u05d8\u05e8\u05e0\u05d8\u05d9\u05d1\u05d4 \u05d4\u05db\u05ea\u05d5\u05de\u05d4\u05f4. \u05d4\u05d5\u05d0 \u05d4\u05d5\u05e6\u05d1 \u05d1\u05be2001 \u05d1\u05de\u05d3\u05e8\u05d7\u05d5\u05d1 \u05e9\u05d5\u05d5\u05d9\u05d3\u05e0\u05d9\u05e6\u05e7\u05d4, \u05d1\u05de\u05e7\u05d5\u05dd \u05e9\u05de\u05de\u05e0\u05d5 \u05d9\u05e6\u05d0\u05d5 \u05d4\u05e4\u05d2\u05e0\u05d5\u05ea \u05d5\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9 \u05de\u05d7\u05d0\u05d4. \u05dc\u05e6\u05d3 \u05e6\u05d9\u05dc\u05d5\u05dd \u05d4\u05e4\u05e1\u05dc \u05d5\u05d4\u05de\u05d3\u05e8\u05d9\u05db\u05d9\u05dd \u05e9\u05dc\u05e0\u05d5, \u05d4\u05d2\u05dc\u05e8\u05d9\u05d4 \u05db\u05d5\u05dc\u05dc\u05ea \u05d2\u05dd \u05ea\u05e6\u05dc\u05d5\u05de\u05d9\u05dd \u05de\u05d4\u05d4\u05dc\u05d9\u05db\u05d4 \u05d1\u05e2\u05e7\u05d1\u05d5\u05ea \u05d2\u05de\u05d3\u05d9\u05dd \u05d0\u05d7\u05e8\u05d9\u05dd \u05d1\u05e2\u05d9\u05e8.\nPapa Krasnal\n\u015awidnicka, Wroc\u0142aw",
+        "en": "Papa Krasnal stands on a finger-shaped pedestal on \u015awidnicka Street. Unveiled in 2001, the bronze monument commemorates the Orange Alternative protest movement at a place associated with its demonstrations. Alongside our photograph of Papa and our guides, the gallery also contains photographs from our walk among other city dwarfs.",
+        "pl": "Papa Krasnal stoi na cokole w kszta\u0142cie palca przy ulicy \u015awidnickiej. Ods\u0142oni\u0119ty w 2001 roku pomnik z br\u0105zu upami\u0119tnia Pomara\u0144czow\u0105 Alternatyw\u0119 w miejscu zwi\u0105zanym z jej demonstracjami. Obok naszego zdj\u0119cia Papy i przewodnik\u00f3w galeria zawiera tak\u017ce fotografie innych krasnali z naszego spaceru po mie\u015bcie.",
+        "de": "Papa Krasnal steht auf einem fingerf\u00f6rmigen Sockel an der \u015awidnicka-Stra\u00dfe. Das 2001 enth\u00fcllte Bronzedenkmal erinnert an die Protestbewegung Orange Alternative an einem mit ihren Demonstrationen verbundenen Ort. Neben unserem Foto von Papa und unseren F\u00fchrungen enth\u00e4lt die Galerie auch Aufnahmen anderer Stadtzwerge von unserem Spaziergang.",
+        "cs": "Papa Krasnal stoj\u00ed na podstavci ve tvaru prstu v ulici \u015awidnicka. Bronzov\u00fd pomn\u00edk odhalen\u00fd v roce 2001 p\u0159ipom\u00edn\u00e1 protestn\u00ed hnut\u00ed Oran\u017eov\u00e1 alternativa na m\u00edst\u011b spojen\u00e9m s jeho demonstracemi. Vedle na\u0161\u00ed fotografie Papy a pr\u016fvodc\u016f obsahuje galerie tak\u00e9 fotografie dal\u0161\u00edch m\u011bstsk\u00fdch trpasl\u00edk\u016f z na\u0161\u00ed proch\u00e1zky."
+      },
+      "coordinates": [
+        51.10753,
+        17.03237
+      ],
+      "cityId": "wroclaw",
+      "city": "",
+      "website": null,
+      "photos": [
+        "/assets/papa-refresh-20261022-01.jpg",
+        "/assets/gallery-gnomes-01.jpg",
+        "/assets/gallery-gnomes-02.jpg",
+        "/assets/gallery-gnomes-03.jpg",
+        "/assets/gallery-gnomes-04.jpg",
+        "/assets/gallery-gnomes-05.jpg",
+        "/assets/papa-gnomes-01.jpg",
+        "/assets/papa-gnomes-02.jpg",
+        "/assets/papa-gnomes-03.jpg",
+        "/assets/papa-gnomes-04.jpg",
+        "/assets/papa-gnomes-06.jpg",
+        "/assets/papa-gnomes-07.jpg",
+        "/assets/papa-gnomes-08.jpg",
+        "/assets/papa-gnomes-10.jpg",
+        "/assets/papa-gnomes-11.jpg",
+        "/assets/papa-gnomes-13.jpg",
+        "/assets/papa-gnomes-14.jpg",
+        "/assets/papa-gnomes-15.jpg"
+      ],
+      "thumbnail": "/assets/papa-refresh-20261022-01.jpg",
+      "videos": [
+        "https://youtube.com/shorts/gQoBaOkFAd0",
+        "https://youtube.com/shorts/_m2XyzWQD7Q",
+        "https://youtube.com/shorts/Hl6Jbr2fRW4",
+        "https://youtube.com/shorts/ONT976zS3a8",
+        "https://youtube.com/shorts/X73FCz5ZhAw",
+        "https://youtube.com/shorts/MEdz8wAlpME",
+        "https://www.youtube.com/watch?v=ZKQ7dwEXaNY"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02Jz9tMc1De8q4kv5Yp3ppUkCGDtZJwVCGJAyXfga8izwx3FRKFT8rWuJkTPXJxQjJl&id=61591964083308",
+          "instagram": "https://www.instagram.com/p/DehSWMMCbzH/"
+        },
+        "en": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02zNW5v3SCBpH1z1rV8hgqco61dwtUR4fvc8fAMW6DyToETe4F42tEz5yXTbfAiuVdl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DehR2CcjYQi/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02Yb63jgD8BiJpybiFKKUNeaK2UETp4EDjEomqKSoz6tXeLVouKTJxm2W5Mcpdrf9Yl&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DehTO0JDKrZ/"
+        },
+        "de": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0HFnrTowbk1NXyTgKbjEzb94ANN3brKuQiaWbRiUe6nYgeExY9Q7nccBkwasZh2FMl&id=61595239823399",
+          "instagram": "https://www.instagram.com/p/DehSvvaGNun/"
+        },
+        "cs": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02eEwJMKZezLbQip9Tt4hPd7ZgMT8iWD52CjDUemAyHepQg2HbL4Y4APWDt8ggBwBrl&id=61594716405964",
+          "instagram": "https://www.instagram.com/p/DehRceOGoka/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/Eyns7Gj66d0",
+          "videoId": "Eyns7Gj66d0",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "papa"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/pIzp5Bmb9ck",
+          "videoId": "pIzp5Bmb9ck",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "papa"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/pIzp5Bmb9ck",
+          "videoId": "pIzp5Bmb9ck",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "papa"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/pIzp5Bmb9ck",
+          "videoId": "pIzp5Bmb9ck",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "papa"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/pIzp5Bmb9ck",
+          "videoId": "pIzp5Bmb9ck",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "papa"
+        }
+      }
+    },
+    {
+      "id": "pergola",
+      "canonicalPlaceId": "pergola",
+      "name": {
+        "he": "\u05d4\u05e4\u05e8\u05d2\u05d5\u05dc\u05d4 \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1",
+        "en": "Wroc\u0142aw Pergola",
+        "pl": "Pergola Wroc\u0142awska",
+        "de": "Pergola Wroc\u0142aw",
+        "cs": "Vratislavsk\u00e1 pergola"
+      },
+      "localName": "Pergola Wroc\u0142awska",
+      "description": {
+        "he": "\u05d8\u05d9\u05d9\u05dc\u05ea \u05e2\u05de\u05d5\u05d3\u05d9\u05dd \u05de\u05e7\u05d5\u05e9\u05ea\u05ea \u05d1\u05ea\u05db\u05e0\u05d5\u05df \u05d4\u05e0\u05e1 \u05e4\u05b6\u05bc\u05dc\u05e6\u05d9\u05d2, \u05d1\u05e6\u05d3\u05d5 \u05d4\u05e6\u05e4\u05d5\u05df\u05be\u05de\u05d6\u05e8\u05d7\u05d9 \u05e9\u05dc \u05d4\u05d9\u05db\u05dc \u05d4\u05de\u05d0\u05d4. \u05d4\u05e6\u05de\u05d7\u05d9\u05d9\u05d4 \u05d4\u05de\u05d8\u05e4\u05e1\u05ea \u05d9\u05d5\u05e6\u05e8\u05ea \u05e6\u05dc \u05d5\u05de\u05e1\u05d2\u05e8\u05ea \u05dc\u05ea\u05e6\u05e4\u05d9\u05ea \u05d0\u05dc \u05d1\u05e8\u05d9\u05db\u05ea \u05d4\u05de\u05d6\u05e8\u05e7\u05d4. \u05de\u05e7\u05d5\u05dd \u05dc\u05d4\u05dc\u05d9\u05db\u05d4 \u05e8\u05d2\u05d5\u05e2\u05d4 \u05d1\u05d9\u05df \u05d0\u05ea\u05e8\u05d9 \u05d4\u05de\u05ea\u05d7\u05dd. \u05d4\u05d2\u05d9\u05e9\u05d4 \u05d7\u05d5\u05e4\u05e9\u05d9\u05ea \u05d1\u05db\u05e4\u05d5\u05e3 \u05dc\u05de\u05d2\u05d1\u05dc\u05d5\u05ea \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd; \u05d1\u05d3\u05e7\u05d5 \u05e2\u05d3\u05db\u05d5\u05e0\u05d9\u05dd \u05dc\u05e4\u05e0\u05d9 \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8.",
+        "en": "Hans Poelzig designed this curved colonnade northeast of Centennial Hall. Climbing greenery shades the promenade and frames views towards the fountain basin. It makes a relaxed walking stop between nearby sights. Public access is free, subject to event restrictions; check current notices.",
+        "pl": "\u0141ukowata kolumnada projektu Hansa Poelziga le\u017cy na p\u00f3\u0142nocny wsch\u00f3d od Hali Stulecia. Pn\u0105cza ocieniaj\u0105 promenad\u0119 i obramowuj\u0105 widok na nieck\u0119 fontanny. To spokojny przystanek mi\u0119dzy pobliskimi atrakcjami. Wst\u0119p jest bezp\u0142atny, z mo\u017cliwymi ograniczeniami podczas wydarze\u0144; sprawd\u017a aktualne komunikaty.",
+        "de": "Hans Poelzig entwarf diese geschwungene S\u00e4ulenpromenade nord\u00f6stlich der Jahrhunderthalle. Kletterpflanzen spenden Schatten und rahmen den Blick zum Brunnenbecken. Ein ruhiger Zwischenstopp beim Spaziergang durch das Gel\u00e4nde. Der \u00f6ffentliche Zugang ist kostenlos, kann bei Veranstaltungen aber eingeschr\u00e4nkt sein; aktuelle Hinweise beachten.",
+        "cs": "Zak\u0159ivenou sloupovou promen\u00e1du severov\u00fdchodn\u011b od Haly stolet\u00ed navrhl Hans Poelzig. Pop\u00ednav\u00e9 rostliny poskytuj\u00ed st\u00edn a r\u00e1muj\u00ed v\u00fdhled k n\u00e1dr\u017ei font\u00e1ny. Hod\u00ed se ke klidn\u00e9 zast\u00e1vce mezi okoln\u00edmi pam\u00e1tkami. Ve\u0159ejn\u00fd vstup je bezplatn\u00fd, p\u0159i akc\u00edch v\u0161ak m\u016f\u017ee b\u00fdt omezen; ov\u011b\u0159te aktu\u00e1ln\u00ed ozn\u00e1men\u00ed."
+      },
+      "coordinates": [
+        51.10882,
+        17.07762
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://halastulecia.pl/zwiedzanie/pergola/",
+      "photos": [
+        "/assets/pergola-wroclawska-01.jpg",
+        "/assets/pergola-wroclawska-04.jpg",
+        "/assets/pergola-wroclawska-05.jpg"
+      ],
+      "thumbnail": "/assets/pergola-wroclawska-01.jpg",
+      "videos": [
+        "https://youtube.com/shorts/rWgg4GMPnLM",
+        "https://youtube.com/shorts/zjWtn3ecZb8",
+        "https://youtube.com/shorts/LpABCG98A30",
+        "https://youtube.com/shorts/2JEVLuDY4cc",
+        "https://youtube.com/shorts/gSVC14ucEB4",
+        "https://youtube.com/shorts/WFQyRKD66YQ"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0dgwGcWr9XoWXfW5GRqkXRUEdQ1ZArZ8ykio6KKCQi8tRLzLNjFap26ed7TvSuUMKl&id=61591964083308"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PBubtq5LoHRZqauEt2AxHHKPjbGjNhXShCarFr5ogphMk9iHW8vfEF9TfE2F47mdl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeK81I8Dq1T/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02vNkfpPrKx9P9izcQjcpP1SNoaq9tXZEWDxnNCEz32yLTC7wAaDJ7V6bU836zHiDml&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeLBl7ajYMt/"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Na5vs8d6rwMAA36q35BkKgcUEwnh5RDVkMKgpGQ2xdT5z8SSiFig3gqkMSsG8i3Vl&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMa3xtDvbr/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Mzn17KRqi5sJhmoVc5hmDy7JAoKDERNTXrnmPReC7miwDF9D4WDY4YcZycdWgVdJl&id=61594716405964",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMqvYBj5jO/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/78GzPBmtRo4",
+          "videoId": "78GzPBmtRo4",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "pergola"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/yP9iXmP47RQ",
+          "videoId": "yP9iXmP47RQ",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "pergola"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/yP9iXmP47RQ",
+          "videoId": "yP9iXmP47RQ",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "pergola"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/yP9iXmP47RQ",
+          "videoId": "yP9iXmP47RQ",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "pergola"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/yP9iXmP47RQ",
+          "videoId": "yP9iXmP47RQ",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "pergola"
+        }
+      }
+    },
+    {
+      "id": "renoma",
+      "canonicalPlaceId": "renoma",
+      "name": {
+        "he": "\u05de\u05e8\u05db\u05d6 \u05d4\u05e7\u05e0\u05d9\u05d5\u05ea \u05e8\u05e0\u05d5\u05de\u05d4",
+        "en": "Renoma Department Store",
+        "pl": "Dom Handlowy Renoma",
+        "de": "Kaufhaus Renoma",
+        "cs": "Obchodn\u00ed d\u016fm Renoma"
+      },
+      "localName": "Renoma",
+      "description": {
+        "he": "\u05d1\u05d9\u05ea \u05d4\u05db\u05dc\u05d1\u05d5 \u05e8\u05e0\u05d5\u05de\u05d4 \u05e0\u05e4\u05ea\u05d7 \u05d1\u05be1930 \u05d5\u05de\u05e6\u05d9\u05e2 \u05db\u05d9\u05d5\u05dd \u05e7\u05e0\u05d9\u05d5\u05ea \u05d5\u05d0\u05d5\u05db\u05dc \u05d1\u05de\u05d1\u05e0\u05d4 \u05de\u05d5\u05d3\u05e8\u05e0\u05d9\u05e1\u05d8\u05d9 \u05d9\u05d9\u05d7\u05d5\u05d3\u05d9. \u05db\u05d3\u05d0\u05d9 \u05dc\u05d4\u05d1\u05d9\u05d8 \u05d1\u05d7\u05d6\u05d9\u05ea \u05d4\u05de\u05e2\u05d5\u05d2\u05dc\u05ea, \u05d1\u05d0\u05e8\u05d9\u05d7\u05d9\u05dd \u05d5\u05d1\u05e2\u05d9\u05d8\u05d5\u05e8\u05d9 \u05e8\u05d0\u05e9\u05d9 \u05d4\u05d0\u05d3\u05dd, \u05d5\u05d2\u05dd \u05d1\u05d7\u05dc\u05dc \u05d4\u05e4\u05e0\u05d9\u05de\u05d9 \u05d5\u05d1\u05e0\u05d1\u05e8\u05e9\u05d5\u05ea. \u05de\u05ea\u05d7\u05dd \u05d4\u05d0\u05d5\u05db\u05dc \u05e4\u05d3\u05d8 \u05e0\u05de\u05e6\u05d0 \u05d1\u05ea\u05d5\u05db\u05d5, \u05d0\u05da \u05d4\u05d5\u05d0 \u05e0\u05e7\u05d5\u05d3\u05d4 \u05e0\u05e4\u05e8\u05d3\u05ea \u05d1\u05de\u05e4\u05d4. \u05e9\u05e2\u05d5\u05ea \u05d4\u05d7\u05e0\u05d5\u05d9\u05d5\u05ea \u05d5\u05d4\u05de\u05e1\u05e2\u05d3\u05d5\u05ea \u05e9\u05d5\u05e0\u05d5\u05ea, \u05d5\u05d1\u05d9\u05d5\u05dd \u05e8\u05d0\u05e9\u05d5\u05df \u05d9\u05e9 \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d0\u05dd \u05d4\u05d7\u05e0\u05d5\u05d9\u05d5\u05ea \u05e4\u05ea\u05d5\u05d7\u05d5\u05ea.\nRenoma\n\u015awidnicka 40, Wroc\u0142aw",
+        "en": "Opened in 1930, Renoma combines shopping and dining with distinctive modernist architecture. Look at the curved fa\u00e7ade, tiles and sculpted portrait heads, then the interior and chandeliers. PeDeT Food Hall is inside but has its own map point. Shops and restaurants have different hours; check Sunday retail opening before visiting. Address: \u015awidnicka 40, Wroc\u0142aw.",
+        "pl": "Otwarta w 1930 roku Renoma \u0142\u0105czy zakupy i gastronomi\u0119 z charakterystyczn\u0105 architektur\u0105 modernistyczn\u0105. Warto obejrze\u0107 zaokr\u0105glon\u0105 elewacj\u0119, p\u0142ytki i rze\u017abiarskie g\u0142owy, a tak\u017ce wn\u0119trze i \u017cyrandole. PeDeT znajduje si\u0119 wewn\u0105trz, ale ma osobny punkt na mapie. Sklepy i gastronomia maj\u0105 r\u00f3\u017cne godziny; sprawd\u017a handel w niedziel\u0119. Adres: \u015awidnicka 40, Wroc\u0142aw.",
+        "de": "Die 1930 er\u00f6ffnete Renoma verbindet Einkauf und Gastronomie mit markanter modernistischer Architektur. Sehenswert sind die geschwungene Fassade, Fliesen und Portr\u00e4tk\u00f6pfe sowie Innenraum und Kronleuchter. Die PeDeT Food Hall liegt im Geb\u00e4ude, hat jedoch einen eigenen Kartenpunkt. Gesch\u00e4fte und Gastronomie haben unterschiedliche Zeiten; die Sonntags\u00f6ffnung vorher pr\u00fcfen. Adresse: \u015awidnicka 40, Wroc\u0142aw.",
+        "cs": "Renoma, otev\u0159en\u00e1 v roce 1930, spojuje nakupov\u00e1n\u00ed a gastronomii s v\u00fdraznou modernistickou architekturou. Prohl\u00e9dn\u011bte si zaoblenou fas\u00e1du, obklady a socha\u0159sk\u00e9 hlavy, tak\u00e9 interi\u00e9r a lustry. PeDeT je uvnit\u0159, ale m\u00e1 vlastn\u00ed bod na map\u011b. Obchody a gastronomie maj\u00ed odli\u0161n\u00e9 hodiny; ov\u011b\u0159te si ned\u011bln\u00ed otev\u0159en\u00ed obchod\u016f. Adresa: \u015awidnicka 40, Wroc\u0142aw."
+      },
+      "coordinates": [
+        51.1038569,
+        17.0319662
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://renoma-wroclaw.pl/",
+      "photos": [
+        "/assets/gallery-renoma-01.jpg",
+        "/assets/gallery-renoma-02.jpg",
+        "/assets/renoma-refresh-oct19-01.jpg",
+        "/assets/renoma-refresh-oct19-02.jpg",
+        "/assets/renoma-refresh-oct19-03.jpg",
+        "/assets/renoma-refresh-oct19-04.jpg",
+        "/assets/renoma-refresh-oct19-05.jpg",
+        "/assets/renoma-refresh-oct19-06.jpg",
+        "/assets/renoma-refresh-oct19-07.jpg",
+        "/assets/renoma-refresh-oct19-08.jpg",
+        "/assets/renoma-refresh-oct19-09.jpg",
+        "/assets/renoma-refresh-oct20-01.jpg",
+        "/assets/renoma-refresh-oct20-02.jpg",
+        "/assets/renoma-refresh-oct20-03.jpg",
+        "/assets/today-source-refresh-20261021/run4-043-renoma.jpg"
+      ],
+      "thumbnail": "/assets/renoma-refresh-oct19-07.jpg",
+      "videos": [
+        "https://youtube.com/shorts/J3-FVZvzMGA"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02xTYhbYTn19MHCZPoPgkKianeu4QJa2iC3pNeneAYJqeJGezdtNT8BP9GRS2iZ4P2l&id=61591964083308",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUu8FTkUSS/"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0a1KW7A2aHNKgpXgheWtWeHpCcDQD6injwUUCuDktDeZu7dFinCh7gKspQFGRBVNVl&id=61595036942289",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia/p/DeRG3F0FyOF/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0TRrAY16heWNSiP5iDDzcAwhSKLi7Hu6cUn2NT15wMBUzKL2Pu5FGAA8h3u5tjKpYl&id=61595207664875",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.pl/p/DePSGrFAKmY/"
+        },
+        "de": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02P8JcXrq2697rvposrx8KMvfzoVW3wuxk6cumAYsunoffRzsZrq7GBgixJFDfyJNLl&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUYdZtDATM/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02yE6dPEX7WGCb8Fou82HrK1fWqpagf1L1az57vRSFp6F5K23tZM7yiCYwXcHqX9Lpl&id=61594716405964",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMoMKgDmiX/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/nrLBgAkEdt0",
+          "videoId": "nrLBgAkEdt0",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "renoma"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/0lgh4TXXbeo",
+          "videoId": "0lgh4TXXbeo",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "renoma"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/0lgh4TXXbeo",
+          "videoId": "0lgh4TXXbeo",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "renoma"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/0lgh4TXXbeo",
+          "videoId": "0lgh4TXXbeo",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "renoma"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/0lgh4TXXbeo",
+          "videoId": "0lgh4TXXbeo",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "renoma"
+        }
+      }
+    },
+    {
+      "id": "stadion-olimpijski-wroclaw",
+      "canonicalPlaceId": "stadion-olimpijski-wroclaw",
+      "name": {
+        "he": "\u05d4\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05d4\u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9 \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1",
+        "en": "Wroc\u0142aw Olympic Stadium",
+        "pl": "Stadion Olimpijski we Wroc\u0142awiu",
+        "de": "Olympiastadion Breslau",
+        "cs": "Olympijsk\u00fd stadion ve Vratislavi"
+      },
+      "localName": "Stadion Olimpijski we Wroc\u0142awiu",
+      "description": {
+        "he": "\u05d4\u05d0\u05e6\u05d8\u05d3\u05d9\u05d5\u05df \u05d4\u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9 \u05d4\u05d5\u05d0 \u05dc\u05d1 \u05de\u05ea\u05d7\u05dd \u05e1\u05e4\u05d5\u05e8\u05d8 \u05d4\u05d9\u05e1\u05d8\u05d5\u05e8\u05d9 \u05d1\u05e9\u05db\u05d5\u05e0\u05ea \u05d6\u05dc\u05e9\u05d9\u05d4. \u05d4\u05d5\u05d0 \u05ea\u05d5\u05db\u05e0\u05df \u05d1\u05d9\u05d3\u05d9 \u05e8\u05d9\u05db\u05e8\u05d3 \u05e7\u05d5\u05e0\u05d5\u05d5\u05d9\u05e8\u05e5 \u05d5\u05e0\u05d1\u05e0\u05d4 \u05d1\u05e9\u05e0\u05d9\u05dd 1926 \u05e2\u05d3 1928. \u05d0\u05d3\u05e8\u05d9\u05db\u05dc\u05d5\u05ea \u05d4\u05dc\u05d1\u05e0\u05d9\u05dd, \u05e9\u05e2\u05e8 \u05d4\u05db\u05e0\u05d9\u05e1\u05d4, \u05d4\u05e8\u05d7\u05d1\u05d4 \u05d5\u05d4\u05e9\u05d1\u05d9\u05dc\u05d9\u05dd \u05d4\u05de\u05d5\u05e6\u05dc\u05d9\u05dd \u05de\u05e6\u05d9\u05e2\u05d9\u05dd \u05de\u05d1\u05d8 \u05d0\u05d7\u05e8 \u05e2\u05dc \u05d4\u05e2\u05d9\u05e8. \u05d4\u05de\u05e7\u05d5\u05dd \u05de\u05d6\u05d5\u05d4\u05d4 \u05e2\u05dd \u05de\u05e8\u05d5\u05e6\u05d9 \u05e1\u05e4\u05d9\u05d3\u05d5\u05d5\u05d9\u05d9 \u05d5\u05e4\u05d5\u05d8\u05d1\u05d5\u05dc \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9. \u05d2\u05dc\u05e8\u05d9\u05d9\u05ea \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8 \u05e9\u05dc\u05e0\u05d5 \u05de\u05e6\u05d9\u05d2\u05d4 \u05d0\u05ea \u05d4\u05db\u05e0\u05d9\u05e1\u05d4, \u05d4\u05e8\u05d7\u05d1\u05d4 \u05d5\u05d4\u05e9\u05d8\u05d7\u05d9\u05dd \u05d4\u05e1\u05de\u05d5\u05db\u05d9\u05dd \u05d1\u05e7\u05d9\u05e5 \u05d5\u05d1\u05e1\u05ea\u05d9\u05d5. \u05d0\u05e4\u05e9\u05e8 \u05dc\u05d4\u05ea\u05e8\u05e9\u05dd \u05de\u05d4\u05d7\u05d5\u05e5; \u05db\u05e0\u05d9\u05e1\u05d4 \u05dc\u05d9\u05e6\u05d9\u05e2\u05d9\u05dd \u05d5\u05dc\u05de\u05d2\u05e8\u05e9 \u05ea\u05dc\u05d5\u05d9\u05d4 \u05d1\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d5\u05d1\u05d4\u05e1\u05d3\u05e8\u05d9 \u05d4\u05d0\u05ea\u05e8, \u05d5\u05d9\u05e9 \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d6\u05d0\u05ea \u05dc\u05e4\u05e0\u05d9 \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8.",
+        "en": "At the heart of a historic sports complex in Zalesie, this stadium was designed by Richard Konwiarz and built in 1926 to 1928. Brick architecture, an entrance gateway, a broad courtyard and shaded paths reveal another side of Wroc\u0142aw. The venue is associated with speedway and American football. Our visit gallery shows the entrance, courtyard and adjoining grounds in summer and autumn. The exterior can be explored; access to the stands and field depends on events and venue arrangements, so check before visiting.",
+        "pl": "Stadion stanowi serce historycznego kompleksu sportowego na Zalesiu. Zaprojektowa\u0142 go Richard Konwiarz, a budowa trwa\u0142a od 1926 do 1928 roku. Ceglana architektura, brama wej\u015bciowa, rozleg\u0142y dziedziniec i zacienione alejki pokazuj\u0105 inne oblicze Wroc\u0142awia. Obiekt jest zwi\u0105zany z \u017cu\u017clem i futbolem ameryka\u0144skim. Galeria z naszej wizyty przedstawia wej\u015bcie, dziedziniec i s\u0105siednie tereny latem oraz jesieni\u0105. Mo\u017cna ogl\u0105da\u0107 obiekt z zewn\u0105trz; dost\u0119p do trybun i boiska zale\u017cy od wydarze\u0144 i zasad obiektu, dlatego warto sprawdzi\u0107 go przed wizyt\u0105.",
+        "de": "Das Stadion bildet das Herz einer historischen Sportanlage im Stadtteil Zalesie. Richard Konwiarz entwarf den Bau, der von 1926 bis 1928 entstand. Backsteinarchitektur, Eingangstor, weitl\u00e4ufiger Vorplatz und schattige Wege zeigen eine andere Seite Breslaus. Die Anlage ist mit Speedway und American Football verbunden. Unsere Besuchsgalerie zeigt Eingang, Vorplatz und angrenzendes Gel\u00e4nde im Sommer und Herbst. Die Au\u00dfenbereiche lassen sich besichtigen; der Zugang zu Trib\u00fcnen und Spielfeld h\u00e4ngt von Veranstaltungen und den Regelungen der Anlage ab und sollte vorab gepr\u00fcft werden.",
+        "cs": "Stadion tvo\u0159\u00ed srdce historick\u00e9ho sportovn\u00edho are\u00e1lu ve \u010dtvrti Zalesie. Navrhl jej Richard Konwiarz a vznikl v letech 1926 a\u017e 1928. Cihlov\u00e1 architektura, vstupn\u00ed br\u00e1na, rozlehl\u00e9 n\u00e1dvo\u0159\u00ed a stinn\u00e9 cesty ukazuj\u00ed jinou tv\u00e1\u0159 Vratislavi. Are\u00e1l je spojen s plochou dr\u00e1hou a americk\u00fdm fotbalem. Na\u0161e n\u00e1v\u0161t\u011bvn\u00ed galerie zachycuje vstup, n\u00e1dvo\u0159\u00ed a p\u0159ilehl\u00e9 prostory v l\u00e9t\u011b i na podzim. Exteri\u00e9r lze prohl\u00ed\u017eet; p\u0159\u00edstup na tribuny a h\u0159i\u0161t\u011b z\u00e1vis\u00ed na akc\u00edch a pravidlech are\u00e1lu, proto si jej p\u0159ed n\u00e1v\u0161t\u011bvou ov\u011b\u0159te."
+      },
+      "coordinates": [
+        51.1195926,
+        17.0966604
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://www.wroclaw.pl/sport/stadion-olimpijski",
+      "photos": [
+        "/assets/stadion-olimpijski-01.jpg",
+        "/assets/stadion-olimpijski-02.jpg",
+        "/assets/stadion-olimpijski-03.jpg",
+        "/assets/stadion-olimpijski-04.jpg",
+        "/assets/stadion-olimpijski-05.jpg",
+        "/assets/stadion-olimpijski-06.jpg",
+        "/assets/stadion-olimpijski-07.jpg",
+        "/assets/stadion-olimpijski-08.jpg",
+        "/assets/stadion-olimpijski-09.jpg",
+        "/assets/stadion-olimpijski-10.jpg",
+        "/assets/stadion-olimpijski-11.jpg",
+        "/assets/stadion-olimpijski-12.jpg",
+        "/assets/stadion-olimpijski-13.jpg",
+        "/assets/stadion-olimpijski-14.jpg",
+        "/assets/stadion-olimpijski-15.jpg",
+        "/assets/stadion-olimpijski-16.jpg",
+        "/assets/stadion-olimpijski-17.jpg"
+      ],
+      "thumbnail": "/assets/stadion-olimpijski-09.jpg",
+      "videos": [
+        "https://youtube.com/shorts/P2yacrgX_eg",
+        "https://youtube.com/shorts/mAtvLR3I5hA",
+        "https://youtube.com/shorts/WGMudkQ96D4",
+        "https://youtube.com/shorts/8dnp9MAaTig",
+        "https://youtube.com/shorts/YJGYqzLFYcQ",
+        "https://youtube.com/shorts/41IYcRT2G4c"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid032AMiv8iAC3GxxqwJLHbndc7M6PSbcb1WNLfxqBQbeNmrhowfsPtz8oVndX8rR6f9l&id=61591964083308"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0MBVMpnXbA9FS9MmSg4rfi5e1ESPU7WfYBJzXtPpvLJhaTwYKTY7DJJsAZgSDKMrCl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeRU3Srmthq/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0tZobr66B4YgMsgnRtnNBpcbPyaZq4vXRJV1ne2HfjUqB1CMQSNhSCS3f3WJxx6w8l&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeT10-PDU3n/"
+        },
+        "de": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02gbt6bsxvvkEwV9Z7qs5L9ZmUk9e9Pf46VMai4FZ4eFrtCRtoqTdVER1F7i4wjXEZl&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMgkuYFUU9/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0XPJKF3SHzXX8ttEr8XhyQvyospBmtPMjNvXH8iJHNQHyqJTERzx1LceU97K28ZMGl&id=61594716405964",
+          "instagram": "https://www.instagram.com/p/DePIeQuDb5p/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/--MnGY29fng",
+          "videoId": "--MnGY29fng",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "stadion-olimpijski-wroclaw"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/tiCdc_8vIYw",
+          "videoId": "tiCdc_8vIYw",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "stadion-olimpijski-wroclaw"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/tiCdc_8vIYw",
+          "videoId": "tiCdc_8vIYw",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "stadion-olimpijski-wroclaw"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/tiCdc_8vIYw",
+          "videoId": "tiCdc_8vIYw",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "stadion-olimpijski-wroclaw"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/tiCdc_8vIYw",
+          "videoId": "tiCdc_8vIYw",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "stadion-olimpijski-wroclaw"
+        }
+      }
+    },
+    {
+      "id": "wroclaw-botanical-garden",
+      "canonicalPlaceId": "wroclaw-botanical-garden",
+      "name": {
+        "he": "\u05d4\u05d2\u05df \u05d4\u05d1\u05d5\u05d8\u05e0\u05d9 \u05d1\u05d5\u05d5\u05e8\u05d5\u05e6\u05dc\u05d1",
+        "en": "Wroc\u0142aw Botanical Garden",
+        "pl": "Ogr\u00f3d Botaniczny we Wroc\u0142awiu",
+        "de": "Botanischer Garten Breslau",
+        "cs": "Botanick\u00e1 zahrada ve Vratislavi"
+      },
+      "localName": "Ogr\u00f3d Botaniczny Uniwersytetu Wroc\u0142awskiego",
+      "description": {
+        "he": "\u05d4\u05d2\u05df \u05d4\u05d1\u05d5\u05d8\u05e0\u05d9 \u05e9\u05dc \u05d0\u05d5\u05e0\u05d9\u05d1\u05e8\u05e1\u05d9\u05d8\u05ea \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1, \u05dc\u05d9\u05d3 \u05d4\u05e7\u05ea\u05d3\u05e8\u05dc\u05d4 \u05d1\u05d0\u05d5\u05e1\u05d8\u05e8\u05d5\u05d1 \u05d8\u05d5\u05de\u05e1\u05e7\u05d9. \u05e9\u05d1\u05d9\u05dc\u05d9\u05dd \u05de\u05d7\u05d1\u05e8\u05d9\u05dd \u05d1\u05d9\u05df \u05d0\u05d5\u05e1\u05e4\u05d9 \u05e6\u05de\u05d7\u05d9\u05dd, \u05e2\u05e6\u05d9\u05dd, \u05e2\u05e8\u05d5\u05d2\u05d5\u05ea \u05d5\u05d1\u05e8\u05d9\u05db\u05d5\u05ea \u05e2\u05dd \u05e6\u05de\u05d7\u05d9 \u05de\u05d9\u05dd. \u05d1\u05ea\u05de\u05d5\u05e0\u05d5\u05ea \u05d4\u05e0\u05d5\u05e3 \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e8\u05d9\u05dd \u05e9\u05dc\u05e0\u05d5 \u05e0\u05e8\u05d0\u05d9\u05dd \u05d4\u05d2\u05e9\u05e8 \u05d4\u05e7\u05d8\u05df, \u05d4\u05de\u05d6\u05e8\u05e7\u05d4, \u05e4\u05e8\u05d9\u05d7\u05d5\u05ea \u05e2\u05d5\u05e0\u05ea\u05d9\u05d5\u05ea \u05d5\u05e9\u05d1\u05d9\u05dc\u05d9 \u05d4\u05d2\u05df \u05d1\u05e2\u05d5\u05e0\u05d5\u05ea \u05e9\u05d5\u05e0\u05d5\u05ea. \u05d0\u05e4\u05e9\u05e8 \u05dc\u05d1\u05d7\u05d5\u05e8 \u05d1\u05d5 \u05db\u05d4\u05e4\u05e1\u05e7\u05d4 \u05d9\u05e8\u05d5\u05e7\u05d4 \u05d1\u05d9\u05d5\u05dd \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8 \u05d1\u05d0\u05d6\u05d5\u05e8 \u05d4\u05e7\u05ea\u05d3\u05e8\u05dc\u05d4. \u05e9\u05e2\u05d5\u05ea \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8 \u05d5\u05d4\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05de\u05e9\u05ea\u05e0\u05d9\u05dd \u05dc\u05e4\u05d9 \u05d4\u05e2\u05d5\u05e0\u05d4 \u05d5\u05de\u05d5\u05e4\u05d9\u05e2\u05d9\u05dd \u05d1\u05d0\u05ea\u05e8 \u05d4\u05e8\u05e9\u05de\u05d9.\nOgr\u00f3d Botaniczny Uniwersytetu Wroc\u0142awskiego\nHenryka Sienkiewicza 23, Wroc\u0142aw",
+        "en": "The University of Wroc\u0142aw Botanical Garden beside the cathedral district of Ostr\u00f3w Tumski. Paths link plant collections, trees, flower beds and ponds with aquatic plants. Our scenery photographs from different visits show the small bridge, fountain, seasonal flowers and garden paths. Choose it for a green break while exploring the cathedral area. Seasonal visiting hours and events are listed on the official website.\nHenryka Sienkiewicza 23, Wroc\u0142aw",
+        "pl": "Ogr\u00f3d Botaniczny Uniwersytetu Wroc\u0142awskiego obok Ostrowa Tumskiego. \u015acie\u017cki prowadz\u0105 mi\u0119dzy kolekcjami ro\u015blin, drzewami, rabatami i stawami z ro\u015blinami wodnymi. Zdj\u0119cia krajobrazu z naszych wizyt pokazuj\u0105 mostek, fontann\u0119, sezonowe kwiaty i alejki o r\u00f3\u017cnych porach roku. To zielona przerwa podczas zwiedzania okolic katedry. Sezonowe godziny zwiedzania i wydarzenia podaje oficjalna strona.\nHenryka Sienkiewicza 23, Wroc\u0142aw",
+        "de": "Der Botanische Garten der Universit\u00e4t Breslau liegt neben der Dominsel Ostr\u00f3w Tumski. Wege verbinden Pflanzensammlungen, B\u00e4ume, Beete und Teiche mit Wasserpflanzen. Unsere Landschaftsaufnahmen aus verschiedenen Besuchen zeigen die kleine Br\u00fccke, den Springbrunnen, saisonale Bl\u00fcten und Gartenwege zu unterschiedlichen Jahreszeiten. Eine gr\u00fcne Pause beim Besuch des Domviertels. Saisonale Besuchszeiten und Veranstaltungen stehen auf der offiziellen Website.\nHenryka Sienkiewicza 23, Wroc\u0142aw",
+        "cs": "Botanick\u00e1 zahrada Vratislavsk\u00e9 univerzity le\u017e\u00ed vedle katedr\u00e1ln\u00edho ostrova Ostr\u00f3w Tumski. Cesty propojuj\u00ed sb\u00edrky rostlin, stromy, z\u00e1hony a jez\u00edrka s vodn\u00edmi rostlinami. Na\u0161e sn\u00edmky z r\u016fzn\u00fdch n\u00e1v\u0161t\u011bv ukazuj\u00ed mal\u00fd most, font\u00e1nu, sezonn\u00ed kv\u011bty a zahradn\u00ed cesty v r\u016fzn\u00fdch ro\u010dn\u00edch obdob\u00edch. Zelen\u00e1 p\u0159est\u00e1vka p\u0159i prohl\u00eddce okol\u00ed katedr\u00e1ly. Sezonn\u00ed otev\u00edrac\u00ed dobu a akce uv\u00e1d\u00ed ofici\u00e1ln\u00ed web.\nHenryka Sienkiewicza 23, Wroc\u0142aw"
+      },
+      "coordinates": [
+        51.1159,
+        17.0478
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://www.ogrodbotaniczny.wroclaw.pl/",
+      "photos": [
+        "/assets/botanical-garden/botanical-garden-01.jpg",
+        "/assets/botanical-garden/botanical-garden-02.jpg",
+        "/assets/botanical-garden/botanical-garden-03.jpg",
+        "/assets/botanical-garden/botanical-garden-04.jpg",
+        "/assets/botanical-garden/botanical-garden-05.jpg",
+        "/assets/botanical-garden/botanical-garden-06.jpg",
+        "/assets/botanical-garden/botanical-garden-07.jpg",
+        "/assets/botanical-garden/botanical-garden-08.jpg",
+        "/assets/botanical-garden/botanical-garden-09.jpg",
+        "/assets/botanical-garden/botanical-garden-10.jpg",
+        "/assets/botanical-garden/botanical-garden-11.jpg"
+      ],
+      "thumbnail": "/assets/botanical-garden/botanical-garden-01.jpg",
+      "videos": [
+        "https://youtube.com/shorts/7IHNkTmYczU",
+        "https://youtube.com/shorts/VA_NAM3dDVw",
+        "https://youtube.com/shorts/6VH_8-wmIAw",
+        "https://youtube.com/shorts/kPvsw5LfP0A",
+        "https://youtube.com/shorts/gXmyRW2rRaY"
+      ],
+      "social": {
+        "he": {},
+        "en": {},
+        "pl": {},
+        "de": {},
+        "cs": {}
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/xkwNR0L_azo",
+          "videoId": "xkwNR0L_azo",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "wroclaw-botanical-garden"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/sV59N6brOoI",
+          "videoId": "sV59N6brOoI",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "wroclaw-botanical-garden"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/sV59N6brOoI",
+          "videoId": "sV59N6brOoI",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "wroclaw-botanical-garden"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/sV59N6brOoI",
+          "videoId": "sV59N6brOoI",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "wroclaw-botanical-garden"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/sV59N6brOoI",
+          "videoId": "sV59N6brOoI",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "wroclaw-botanical-garden"
+        }
+      }
+    },
+    {
+      "id": "wroclaw-puppet-theatre",
+      "canonicalPlaceId": "wroclaw-puppet-theatre",
+      "name": {
+        "he": "\u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05d4\u05d1\u05d5\u05d1\u05d5\u05ea \u05e9\u05dc \u05d5\u05e8\u05d5\u05e6\u05dc\u05d1",
+        "en": "Wroc\u0142aw Puppet Theatre",
+        "pl": "Wroc\u0142awski Teatr Lalek",
+        "de": "Breslauer Puppentheater",
+        "cs": "Vratislavsk\u00e9 loutkov\u00e9 divadlo"
+      },
+      "localName": "Wroc\u0142awski Teatr Lalek",
+      "description": {
+        "he": "\u05d1\u05de\u05ea \u05ea\u05d9\u05d0\u05d8\u05e8\u05d5\u05df \u05e4\u05e2\u05d9\u05dc\u05d4; \u05de\u05d5\u05de\u05dc\u05e5 \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d0\u05ea \u05d4\u05e8\u05e4\u05e8\u05d8\u05d5\u05d0\u05e8 \u05d4\u05e8\u05e9\u05de\u05d9 \u05de\u05e8\u05d0\u05e9.",
+        "en": "An active theatre venue; check the official programme in advance.",
+        "pl": "Czynna scena teatralna; warto wcze\u015bniej sprawdzi\u0107 oficjalny repertuar.",
+        "de": "Aktive Theaterb\u00fchne; das offizielle Programm vorab pr\u00fcfen.",
+        "cs": "Aktivn\u00ed divadeln\u00ed sc\u00e9na; program si ov\u011b\u0159te p\u0159edem."
+      },
+      "coordinates": [
+        51.105053,
+        17.033054
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://teatrlalek.wroclaw.pl/",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-081-wroclaw-puppet-theatre.jpg",
+        "/assets/today-source-refresh-20261021/run4-083-wroclaw-puppet-theatre.jpg",
+        "/assets/today-source-refresh-20261021/run4-084-wroclaw-puppet-theatre.jpg",
+        "/assets/today-source-refresh-20261021/run4-088-wroclaw-puppet-theatre.jpg"
+      ],
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-081-wroclaw-puppet-theatre.jpg",
+      "videos": [
+        "https://www.youtube.com/watch?v=SIftmDgclcE"
+      ],
+      "social": {
+        "he": {},
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GxK3xaFPY6TehYaJwFwAUA7PUPus3GRgZfyPo9TU75cRzszfXYRpp7VwPQEiNZHFl&id=61595036942289"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0AVBCvsGoresiHWxyM3gcpKAGdkTGxasEhicqmjdsieC1YZZyUZTfJrtZqUgWJUZrl&id=61595207664875"
+        },
+        "de": {},
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid057bkMRNhNuDJwMbemvanmJBLJyKmtL9Xe87Q283vPZ1dHFuJVqrP28cPy4TAeszol&id=61594716405964"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://www.youtube.com/watch?v=kYCAhQSVYEA",
+          "videoId": "kYCAhQSVYEA",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "wroclaw-puppet-theatre"
+        },
+        "en": {
+          "url": "https://www.youtube.com/watch?v=mPJDEfSH7kY",
+          "videoId": "mPJDEfSH7kY",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "wroclaw-puppet-theatre"
+        },
+        "pl": {
+          "url": "https://www.youtube.com/watch?v=mPJDEfSH7kY",
+          "videoId": "mPJDEfSH7kY",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "wroclaw-puppet-theatre"
+        },
+        "de": {
+          "url": "https://www.youtube.com/watch?v=mPJDEfSH7kY",
+          "videoId": "mPJDEfSH7kY",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "wroclaw-puppet-theatre"
+        },
+        "cs": {
+          "url": "https://www.youtube.com/watch?v=mPJDEfSH7kY",
+          "videoId": "mPJDEfSH7kY",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "wroclaw-puppet-theatre"
+        }
+      }
+    },
+    {
+      "id": "wuwa",
+      "canonicalPlaceId": "wuwa",
+      "name": {
+        "he": "\u05d1\u05d9\u05ea \u05d4\u05e7\u05e4\u05d4 \u05d1\u05e9\u05db\u05d5\u05e0\u05ea \u05d5\u05d5\u05be\u05d5\u05d5\u05d4",
+        "en": "WuWA Caf\u00e9",
+        "pl": "Kawiarnia WuWA",
+        "de": "WuWA Caf\u00e9",
+        "cs": "Kav\u00e1rna WuWA"
+      },
+      "localName": "WUWA Caf\u00e9",
+      "description": {
+        "he": "\u05e2\u05e6\u05d9\u05e8\u05d4 \u05dc\u05e7\u05e4\u05d4 \u05d5\u05e2\u05d5\u05d2\u05d4 \u05d1\u05e9\u05db\u05d5\u05e0\u05ea \u05d4\u05de\u05d2\u05d5\u05e8\u05d9\u05dd \u05d4\u05e0\u05d9\u05e1\u05d9\u05d5\u05e0\u05d9\u05ea, \u05e2\u05dd \u05de\u05e7\u05d5\u05dd \u05d9\u05e9\u05d9\u05d1\u05d4 \u05d1\u05d7\u05d5\u05e5.",
+        "en": "A coffee and cake stop at the experimental housing estate, with outdoor seating.",
+        "pl": "Przerwa na kaw\u0119 i ciasto na osiedlu eksperymentalnym, z miejscami na zewn\u0105trz.",
+        "de": "Eine Pause f\u00fcr Kaffee und Kuchen in der experimentellen Wohnsiedlung, mit Sitzpl\u00e4tzen im Freien.",
+        "cs": "Zast\u00e1vka na k\u00e1vu a dort na experiment\u00e1ln\u00edm s\u00eddli\u0161ti, s venkovn\u00edm posezen\u00edm."
+      },
+      "coordinates": [
+        51.10709,
+        17.0873
+      ],
+      "cityId": "wroclaw",
+      "city": "",
+      "website": null,
+      "photos": [
+        "/assets/wuwa-estate-18.jpg",
+        "/assets/wuwa-estate-19.jpg",
+        "/assets/wuwa-estate-20.jpg"
+      ],
+      "thumbnail": "/assets/wuwa-estate-18.jpg",
+      "videos": [
+        "https://youtube.com/shorts/EYv9g8XlrdA"
+      ],
+      "social": {
+        "he": {
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUv_EEkU6W/"
+        },
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HdjiayM8Wsxbz17y6gU7ThBTokKsUrckz5QK8D5n9mUPxtKPgDZ64TWidZFb6s7bl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeRn66OHJOa/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02ELBdTCTjgBX72bnjJfQwKYLYKeqYWp9M9DBiLmRwF1rgXS9Yz7s3yywssM21qdhdl&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeT4aJOHMdJ/"
+        },
+        "de": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02kVjHywKG9wWBWQafPGFXc7ozCCKJAwoSzGWzPnLLhifGkoGCfJugK6znAaEKkEdsl&id=61595239823399",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUOZLAH2Y3/"
+        },
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02L9RXFLAUxncCbNMozs8YsvAteATSeFwsfX2SE9QW6JfShPUZxFPqN4Mee1mkuAdLl&id=61594716405964",
+          "instagram": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeUjq81nYYb/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/tEbmB6OWe90",
+          "videoId": "tEbmB6OWe90",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "wuwa-estate"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/4EnO5yNkQxc",
+          "videoId": "4EnO5yNkQxc",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "wuwa-estate"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/4EnO5yNkQxc",
+          "videoId": "4EnO5yNkQxc",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "wuwa-estate"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/4EnO5yNkQxc",
+          "videoId": "4EnO5yNkQxc",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "wuwa-estate"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/4EnO5yNkQxc",
+          "videoId": "4EnO5yNkQxc",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "wuwa-estate"
+        }
+      }
+    },
+    {
+      "id": "wuwa-estate",
+      "canonicalPlaceId": "wuwa-estate",
+      "name": {
+        "he": "\u05e9\u05db\u05d5\u05e0\u05ea \u05d5\u05d5\u05be\u05d5\u05d5\u05d4",
+        "en": "WuWA Housing Estate",
+        "pl": "Osiedle WuWA",
+        "de": "WuWA-Siedlung",
+        "cs": "S\u00eddli\u0161t\u011b WuWA"
+      },
+      "localName": "Osiedle WuWA",
+      "description": {
+        "he": "\u05e9\u05db\u05d5\u05e0\u05ea \u05d4\u05de\u05d2\u05d5\u05e8\u05d9\u05dd \u05d4\u05e0\u05d9\u05e1\u05d9\u05d5\u05e0\u05d9\u05ea WuWA \u2014 \u05de\u05e1\u05dc\u05d5\u05dc \u05e4\u05ea\u05d5\u05d7 \u05e9\u05dc \u05d0\u05d3\u05e8\u05d9\u05db\u05dc\u05d5\u05ea \u05de\u05d5\u05d3\u05e8\u05e0\u05d9\u05e1\u05d8\u05d9\u05ea.",
+        "en": "The experimental WuWA housing estate \u2014 an open-air modernist architecture walk.",
+        "pl": "Eksperymentalne osiedle WuWA \u2014 plenerowy spacer po architekturze modernistycznej.",
+        "de": "Die Versuchssiedlung WuWA \u2013 ein Rundgang durch moderne Architektur im Freien.",
+        "cs": "Experiment\u00e1ln\u00ed s\u00eddli\u0161t\u011b WuWA \u2013 venkovn\u00ed proch\u00e1zka modernistickou architekturou."
+      },
+      "coordinates": [
+        51.1066175,
+        17.0855336
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://wuwa.eu/",
+      "photos": [
+        "/assets/wuwa-estate-14.jpg",
+        "/assets/wuwa-estate-21.jpg",
+        "/assets/wuwa-estate-11.jpg",
+        "/assets/wuwa-estate-12.jpg",
+        "/assets/wuwa-estate-13.jpg",
+        "/assets/wuwa-estate-15.jpg",
+        "/assets/wuwa-estate-22.jpg",
+        "/assets/wuwa-estate-16.jpg",
+        "/assets/wuwa-estate-17.jpg",
+        "/assets/wuwa-estate-18.jpg",
+        "/assets/wuwa-estate-19.jpg",
+        "/assets/wuwa-estate-20.jpg",
+        "/assets/wuwa-estate-02.jpg",
+        "/assets/wuwa-estate-05.jpg",
+        "/assets/wuwa-estate-06.jpg",
+        "/assets/wuwa-estate-07.jpg",
+        "/assets/wuwa-estate-08.jpg",
+        "/assets/wuwa-estate-09.jpg",
+        "/assets/wuwa-estate-10.jpg"
+      ],
+      "thumbnail": "/assets/wuwa-estate-14.jpg",
+      "videos": [
+        "https://youtube.com/shorts/EYv9g8XlrdA",
+        "https://youtube.com/shorts/wzZWtxP0ct0",
+        "https://youtube.com/shorts/KPtXyrazaLY",
+        "https://youtube.com/shorts/Ky1TMR0E7Js",
+        "https://youtube.com/shorts/oMzorjEobHs",
+        "https://youtube.com/shorts/7O6cQl0VE_o",
+        "https://youtube.com/shorts/dQoFpHbTKxg",
+        "https://youtube.com/shorts/YRr8QFMPTmc"
+      ],
+      "social": {
+        "he": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0CSeaGrHFUMCEytwZGE45n2BDkcn9gmg9pU1j8UHEEcvPrfUaxkXVv3oUxgBFztRvl&id=61591964083308",
+          "instagram": "https://www.instagram.com/p/DeZ-k-mD5D8/"
+        },
+        "en": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0VmVRTbbbQDqueUQCLmkrJMq7trCGdwqgMo2TTwcPTQQg5Ah9HZRkBoA3RJebjeZrl&id=61595036942289",
+          "instagram": "https://www.instagram.com/p/DeaDQ9VnfmE/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid02do3ztM8fcB2BGCgcGgQuTpgBsy1WCJtafby6tXQWApsrK2vCxfwdvZTpR8FS7Vzzl&id=61595207664875",
+          "instagram": "https://www.instagram.com/p/DeaDpOajwKl/"
+        },
+        "de": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid0pgiy4ZnAtWZ5BdEj6tMAyWDkwZ2UruEovQyBa9EQ71L7obMfbjMAAaSf6bPrUFAFl&id=61595239823399",
+          "instagram": "https://www.instagram.com/p/DeaDTiCEWLf/"
+        },
+        "cs": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid05VSkxboKvpG5rczCVad6LuLTsSSUkAvECqAxm58r5YmJudWGsYh8cvDuMieEzR5Vl&id=61594716405964",
+          "instagram": "https://www.instagram.com/p/DeaD1d6Fwzt/"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/tEbmB6OWe90",
+          "videoId": "tEbmB6OWe90",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "wuwa-estate"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/4EnO5yNkQxc",
+          "videoId": "4EnO5yNkQxc",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "wuwa-estate"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/4EnO5yNkQxc",
+          "videoId": "4EnO5yNkQxc",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "wuwa-estate"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/4EnO5yNkQxc",
+          "videoId": "4EnO5yNkQxc",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "wuwa-estate"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/4EnO5yNkQxc",
+          "videoId": "4EnO5yNkQxc",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "wuwa-estate"
+        }
+      }
+    },
+    {
+      "id": "zyjnia-bwa-wroclaw",
+      "canonicalPlaceId": "zyjnia-bwa-wroclaw",
+      "name": {
+        "he": "\u05d6\u05f3\u05d9\u05d9\u05e0\u05d9\u05d4, \u05d2\u05dc\u05e8\u05d9\u05d4 \u05dc\u05d0\u05de\u05e0\u05d5\u05ea \u05d5\u05e2\u05d9\u05e6\u05d5\u05d1",
+        "en": "\u017byjnia BWA Wroc\u0142aw",
+        "pl": "\u017byjnia BWA Wroc\u0142aw",
+        "de": "\u017byjnia BWA Wroc\u0142aw",
+        "cs": "\u017byjnia BWA Wroc\u0142aw"
+      },
+      "localName": "\u017byjnia BWA Wroc\u0142aw",
+      "description": {
+        "he": "\u05d2\u05dc\u05e8\u05d9\u05d4 \u05dc\u05d0\u05de\u05e0\u05d5\u05ea \u05d5\u05e2\u05d9\u05e6\u05d5\u05d1 \u05e2\u05db\u05e9\u05d5\u05d5\u05d9\u05d9\u05dd \u05d1\u05dc\u05d1 \u05d4\u05e2\u05d9\u05e8, \u05d4\u05de\u05d7\u05d1\u05e8\u05ea \u05d1\u05d9\u05df \u05ea\u05e2\u05e8\u05d5\u05db\u05d5\u05ea \u05dc\u05d1\u05d9\u05df \u05de\u05e8\u05d7\u05d1 \u05dc\u05de\u05e0\u05d5\u05d7\u05d4 \u05d5\u05d4\u05ea\u05d1\u05d5\u05e0\u05e0\u05d5\u05ea. \u05d4\u05de\u05e7\u05d5\u05dd \u05e4\u05d5\u05e2\u05dc \u05db\u05e1\u05dc\u05d5\u05df \u05e2\u05d9\u05e8\u05d5\u05e0\u05d9 \u05d1\u05d4\u05e9\u05e8\u05d0\u05ea \u05d1\u05ea\u05d9 \u05d4\u05de\u05e8\u05e4\u05d0 \u05e9\u05dc \u05e9\u05dc\u05d6\u05d9\u05d4 \u05d4\u05ea\u05d7\u05ea\u05d5\u05e0\u05d4, \u05d5\u05de\u05e2\u05d5\u05d3\u05d3 \u05de\u05e4\u05d2\u05e9 \u05e2\u05dd \u05d0\u05de\u05e0\u05d5\u05ea \u05d1\u05d0\u05de\u05e6\u05e2\u05d5\u05ea \u05d4\u05d3\u05de\u05d9\u05d5\u05df \u05d5\u05d4\u05d7\u05d5\u05e9\u05d9\u05dd. \u05d4\u05ea\u05e2\u05e8\u05d5\u05db\u05d5\u05ea \u05d5\u05d4\u05de\u05d9\u05e6\u05d1\u05d9\u05dd \u05de\u05e9\u05ea\u05e0\u05d9\u05dd; \u05d4\u05ea\u05de\u05d5\u05e0\u05d5\u05ea \u05d5\u05e1\u05e8\u05d8\u05d5\u05e0\u05d9 \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8 \u05de\u05ea\u05e2\u05d3\u05d9\u05dd \u05d0\u05ea \u05de\u05d4 \u05e9\u05e8\u05d0\u05d9\u05e0\u05d5 \u05d1\u05de\u05e7\u05d5\u05dd. \u05db\u05d3\u05d0\u05d9 \u05dc\u05d1\u05d3\u05d5\u05e7 \u05d1\u05d0\u05ea\u05e8 \u05d4\u05e8\u05e9\u05de\u05d9 \u05d0\u05ea \u05d4\u05ea\u05d5\u05db\u05e0\u05d9\u05ea \u05d5\u05e9\u05e2\u05d5\u05ea \u05d4\u05e4\u05ea\u05d9\u05d7\u05d4 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8.",
+        "en": "A contemporary art and design gallery in central Wroc\u0142aw combining exhibitions with a space for rest and reflection. Conceived as an urban living room inspired by Lower Silesian spa traditions, it invites visitors to experience art through imagination and the senses. Exhibitions and installations change; our photos and visit clips document the gallery as we experienced it. Check the official programme and opening hours before visiting.",
+        "pl": "Galeria sztuki wsp\u00f3\u0142czesnej i projektowania w centrum Wroc\u0142awia \u0142\u0105czy wystawy z przestrzeni\u0105 odpoczynku i refleksji. Rozwija ide\u0119 miejskiego salonu inspirowanego dolno\u015bl\u0105skimi uzdrowiskami i zaprasza do odbioru sztuki poprzez wyobra\u017ani\u0119 i zmys\u0142y. Wystawy i instalacje si\u0119 zmieniaj\u0105; nasze zdj\u0119cia i filmy pokazuj\u0105 galeri\u0119 podczas wizyty. Przed przyj\u015bciem sprawd\u017a aktualny program i godziny otwarcia na oficjalnej stronie.",
+        "de": "Eine Galerie f\u00fcr Gegenwartskunst und Design im Zentrum von Breslau, die Ausstellungen mit Raum f\u00fcr Ruhe und Betrachtung verbindet. Als st\u00e4dtischer Salon, inspiriert von den Kurtraditionen Niederschlesiens, l\u00e4dt sie dazu ein, Kunst mit Fantasie und Sinnen zu erleben. Ausstellungen und Installationen wechseln; unsere Fotos und Besuchsvideos dokumentieren den damaligen Besuch. Aktuelles Programm und \u00d6ffnungszeiten vorab auf der offiziellen Website pr\u00fcfen.",
+        "cs": "Galerie sou\u010dasn\u00e9ho um\u011bn\u00ed a designu v centru Vratislavi spojuje v\u00fdstavy s prostorem pro odpo\u010dinek a rozj\u00edm\u00e1n\u00ed. Rozv\u00edj\u00ed my\u0161lenku m\u011bstsk\u00e9ho salonu inspirovan\u00e9ho dolnoslezsk\u00fdmi l\u00e1zn\u011bmi a zve k vn\u00edm\u00e1n\u00ed um\u011bn\u00ed prost\u0159ednictv\u00edm p\u0159edstavivosti a smysl\u016f. V\u00fdstavy a instalace se m\u011bn\u00ed; na\u0161e fotografie a videa zachycuj\u00ed galerii p\u0159i n\u00e1v\u0161t\u011bv\u011b. P\u0159edem si ov\u011b\u0159te aktu\u00e1ln\u00ed program a otev\u00edrac\u00ed dobu na ofici\u00e1ln\u00edm webu."
+      },
+      "coordinates": [
+        51.1086376,
+        17.0331186
+      ],
+      "cityId": "wroclaw",
+      "city": "Wroc\u0142aw",
+      "website": "https://bwa.wroc.pl/galeria/zyjnia/",
+      "photos": [
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-01.jpg",
+        "/assets/zyjnia-bwa/zyjnia-01.jpg",
+        "/assets/zyjnia-bwa/zyjnia-02.jpg",
+        "/assets/zyjnia-bwa/zyjnia-03.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-02.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-03.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-04.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-05.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-06.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-07.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-08.jpg",
+        "/assets/zyjnia-bwa/zyjnia-refresh-oct20-09.jpg"
+      ],
+      "thumbnail": "/assets/zyjnia-bwa/zyjnia-refresh-oct20-01.jpg",
+      "videos": [
+        "https://youtube.com/shorts/umUSV_b5q6w",
+        "https://youtube.com/shorts/VWojyNlXCAI",
+        "https://youtube.com/shorts/8otgPq47xtw",
+        "https://youtube.com/shorts/CbgJvJMkd-k",
+        "https://youtube.com/shorts/1Y75V_JyTJg",
+        "https://youtube.com/shorts/C84x5KSdeqQ",
+        "https://youtube.com/shorts/8QNaMIMs-As"
+      ],
+      "social": {
+        "he": {},
+        "en": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02HQCFgc7yZKPPDd1BJipHvnaZqCjWL6xuvU4oY2uBez2d3WxmhxPn9DrjrgiLBSDTl&id=61595036942289"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/permalink.php?story_fbid=pfbid048vMYhwsEVEtg8c6cUPLyFPjYXF6rxXoKHu9AJNhWHn2Q4RNBdwJT9LYtLHzPqs8l&id=61595207664875"
+        },
+        "de": {},
+        "cs": {
+          "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ghZXye7Ndozg5UUqAW8PT2vth7R77VP81EQGsWu6BMavB4jpPJ2jKrg2UD36EmkQl&id=61594716405964"
+        }
+      },
+      "editions": {
+        "he": {
+          "url": "https://youtube.com/shorts/ZO-A54BIZQk",
+          "videoId": "ZO-A54BIZQk",
+          "audioLanguage": "he",
+          "captionLanguage": "he",
+          "verificationPlace": "zyjnia-bwa-wroclaw"
+        },
+        "en": {
+          "url": "https://youtube.com/shorts/BAueoGqdcC4",
+          "videoId": "BAueoGqdcC4",
+          "audioLanguage": "en",
+          "captionLanguage": "en",
+          "verificationPlace": "zyjnia-bwa-wroclaw"
+        },
+        "pl": {
+          "url": "https://youtube.com/shorts/BAueoGqdcC4",
+          "videoId": "BAueoGqdcC4",
+          "audioLanguage": "en",
+          "captionLanguage": "pl",
+          "verificationPlace": "zyjnia-bwa-wroclaw"
+        },
+        "de": {
+          "url": "https://youtube.com/shorts/BAueoGqdcC4",
+          "videoId": "BAueoGqdcC4",
+          "audioLanguage": "en",
+          "captionLanguage": "de",
+          "verificationPlace": "zyjnia-bwa-wroclaw"
+        },
+        "cs": {
+          "url": "https://youtube.com/shorts/BAueoGqdcC4",
+          "videoId": "BAueoGqdcC4",
+          "audioLanguage": "en",
+          "captionLanguage": "cs",
+          "verificationPlace": "zyjnia-bwa-wroclaw"
+        }
+      }
+    }
+  ],
+  "held": [],
+  "scope": {
+    "cityId": "wroclaw",
+    "cityOnly": true,
+    "instructionDate": "2026-10-22"
+  },
+  "excludedOutsideCity": [
+    {
+      "id": "boleslawiec-old-town",
+      "cityId": "boleslawiec"
+    },
+    {
+      "id": "brzeg-castle",
+      "cityId": "brzeg"
+    },
+    {
+      "id": "brzeg-oder-gate",
+      "cityId": "brzeg"
+    },
+    {
+      "id": "jawor-church-of-peace",
+      "cityId": "jawor"
+    },
+    {
+      "id": "jelenia-gora-market-square",
+      "cityId": "jelenia-gora"
+    },
+    {
+      "id": "karpacz-centre",
+      "cityId": "karpacz"
+    },
+    {
+      "id": "klodzko-fortress",
+      "cityId": "klodzko"
+    },
+    {
+      "id": "klodzko-old-town",
+      "cityId": "klodzko"
+    },
+    {
+      "id": "moszna-castle",
+      "cityId": "moszna"
+    },
+    {
+      "id": "wang-church",
+      "cityId": "karpacz"
+    }
+  ]
+}
