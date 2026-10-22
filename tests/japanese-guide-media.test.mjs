@@ -9,8 +9,8 @@ function runtime(){const window={location:{origin:'https://wroc-love.com'}};cons
 test('Japanese Garden preserves its existing photos, two Public visits and newly approved full visit photograph',()=>{
  const w=runtime(),place=w.WROC_CATALOG.getPlace('japanese');
  assert.equal(place.media.photos.length,9);assert.equal(new Set(place.media.photos).size,9);
- assert.deepEqual(Array.from(place.media.videos),['https://youtube.com/shorts/Ni0GwsP-uMg','https://youtube.com/shorts/OMuXVtwAkAA']);
- for(const url of place.media.videos){assert.equal(w.WROC_YOUTUBE_VIDEO.resolve(url),url);assert.equal(w.WROC_YOUTUBE_VIDEO_HOSTING[url].status,'public');assert.match(w.WROC_YOUTUBE_VIDEO.html(url),/youtube-nocookie\.com\/embed\//);}
+ assert.deepEqual(Array.from(place.media.videos),['https://youtube.com/shorts/Ni0GwsP-uMg','https://youtube.com/shorts/OMuXVtwAkAA','https://www.youtube.com/watch?v=oeTVQpkK7kU','https://www.youtube.com/watch?v=UKe3kP2sIG8']);
+ for(const url of place.media.videos){assert.equal(w.WROC_YOUTUBE_VIDEO.resolve(url),url);if(w.WROC_YOUTUBE_VIDEO_HOSTING[url])assert.equal(w.WROC_YOUTUBE_VIDEO_HOSTING[url].status,'public');else{assert.equal(place.media.metadata[url].visibility,'Public');assert.equal(place.media.metadata[url].publicReopened,true);}assert.match(w.WROC_YOUTUBE_VIDEO.html(url),/youtube-nocookie\.com\/embed\//);}
  for(const asset of ['assets/japanese-visit-07.jpg','assets/japanese-visit-08.jpg'])assert.ok(existsSync(resolve(root,asset)));
 });
 test('Japanese Garden guide badge and native captions follow all five map languages',()=>{

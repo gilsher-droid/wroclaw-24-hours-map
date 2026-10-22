@@ -241,7 +241,7 @@ test("Wędrowcy is an unassigned public artwork and Wroclavia keeps one canonica
   assert.equal(christmasStop?.name.cs, "Westfield Wroclavia");
 });
 
-test("ZOO Wrocław is one canonical place referenced by Four Days with curated media", () => {
+test("ZOO Wrocław remains one canonical place with full-source media in Four Days", () => {
   const window = { document: { documentElement: { lang: "he" } } };
   const context = { window, console };
   runInNewContext(readFileSync(resolve(root, "data/extra-languages.js"), "utf8"), context);
@@ -258,13 +258,13 @@ test("ZOO Wrocław is one canonical place referenced by Four Days with curated m
   assert.equal(place.visit.durationMinutes, 240);
   assert.deepEqual(Object.keys(place.name).sort(), ["cs", "de", "en", "he", "pl"]);
   assert.deepEqual(Object.keys(place.description).sort(), ["cs", "de", "en", "he", "pl"]);
-  assert.equal(place.media.photos.length, 8);
-  assert.equal(new Set(place.media.photos).size, 8);
-  assert.equal(place.media.videos.length, 2);
+  assert.equal(place.media.photos.length, 54);
+  assert.equal(new Set(place.media.photos).size, 54);
+  assert.equal(place.media.videos.length, 9);
   assert.equal(place.media.metadata["/assets/zoo-wroclaw-afrykarium.mp4"].sourceFile, "IMG_4998.MOV");
   assert.equal(place.media.metadata["/assets/zoo-wroclaw-aquatic-animal.mp4"].sourceFile, "IMG_5020.MOV");
   [...place.media.photos, ...place.media.videos].forEach((asset) => {
-    assert.ok(existsSync(resolve(root, asset.slice(1))), `missing Zoo asset ${asset}`);
+    if (/^https:\/\//.test(asset)) { assert.equal(place.media.metadata[asset].visibility, "Public"); assert.equal(place.media.metadata[asset].publicReopened, true); } else assert.ok(existsSync(resolve(root, asset.slice(1))), `missing Zoo asset ${asset}`);
   });
   assert.equal(place.socialPosts.filter((post) => post.platform === "facebook" && (!post.language || post.language === "he")).length, 2);
   assert.equal(

@@ -9,7 +9,7 @@ test('Pergola guides enrich the same place in both relevant maps with verified n
  const place=window.WROC_CATALOG.getPlace('pergola');
  assert.equal(window.PREMIUM_STOPS.filter(x=>x.canonicalPlaceId==='pergola').length,1);
  assert.equal(window.WROC_CULTURAL_PLACES.filter(x=>x.canonicalPlaceId==='pergola').length,1);
- assert.equal(place.media.photos.length,3);assert.equal(place.media.videos.length,6);
+ assert.equal(place.media.photos.length,7);assert.equal(place.media.videos.length,8);
  const proof=JSON.parse(readFileSync('data/pergola-guide-caption-provenance.json','utf8'));
  assert.deepEqual(proof.canonicalPlaceIds,['pergola']);assert.equal(proof.bloopersExcluded,true);
  for(const lang of ['he','en','de','cs','pl']){

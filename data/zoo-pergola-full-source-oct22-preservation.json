@@ -1,0 +1,2279 @@
+{
+  "base": "113150ebd8c22dbb77edff70a980e3d292fdf7b0",
+  "authorizedIds": [
+    "zoo-wroclaw",
+    "pergola",
+    "japanese",
+    "hala"
+  ],
+  "recordHashes": {
+    "absynt-aparthotel-garbary-wroclaw": "13bb0e551d6e33a3dd3cb53f163d62297bb00a0c3cfec9c1cdaf3af3af81f93d",
+    "ac-hotel": "7182f725812c1fe864afd0830cb53aaf35d4507aa23830b64126c00f1b9677fe",
+    "aleja-bielany": "c2077f3a1c4d8a64ebf1c50ce3143ed469e9679eca12ec8ac649f49b1f8b541b",
+    "altus": "80e8ff135740f977f2342dac05662391812f3ceec41481dc70bc8b836d88e727",
+    "apartamenty-marina-topacz-wroclaw": "b493952b4a208ec665a15cc8ab09150991571046087c184081d3278889a02bb6",
+    "arche-klasztor": "75995377f317522cadb525736143f3c5c85ea6ad7aa886e662c777cccb0701ec",
+    "art-hotel": "8092a007eaccf04e04d0c2da71f30b99a9f54582eb9d00965861cf00299f338d",
+    "ato-ramen": "ce681f78f48ecefad18da4dda465433244daa4c1b8e0bf619a695fe062e0e779",
+    "aula": "93c017656eb994a484f74010d2da444a6a8cfcddff7c445c36ad1e4f9b277f28",
+    "bar-mis": "aab9a7ad1c168a066d719f8d1791c1389faa17006c3c5ab6ccec1835597bb971",
+    "bar-mleczny-mewa-wroclaw": "a67a5f6145d18a913c74d6f08c47fd8f5c02ae4657512b917399c7c9713232cf",
+    "barbara-wroclaw": "156b5cd67f0b1e61176e585d724d44f6c598d5980f18ba3ac2ec4546835dcbc7",
+    "bastion": "49a30341bcfd23735852bbbd139ca4bba7d8d14ffeebd619843a016dee13a77d",
+    "bb-hotel-wroclaw-old-town": "1e3c90183e0be0ea956328f5b0b55e19e6a16620171ab25c835a83ec9fc56c6b",
+    "bernard-bistro-wino": "719a3746287c2a046f913809dbe1a7ee01d07ac28668356417359defb38d27d5",
+    "bistro-stu-mostow": "7fc710c6095e4aae8be27641455d16961fa00fe5e7f3e2e2ef778639c6ac241e",
+    "boguslawskiego": "a3cd93c6230282a71fb2c05a371f17587afc37bb78e9eb3358cc6eb320829906",
+    "boleslawiec-ceramics-museum": "5425ebdd43ba2ea052f6d7bf6b67ecf45e3eb24fcc529713eafd2b339a0b20fd",
+    "boleslawiec-old-town": "8aa80c7ca03568c80a9284b813eedeaad7a990b2614acdda28bc072cb815b5aa",
+    "boogie-aparthouse-garbary": "ce160a72de33d08b43461fbe0b070c8cbeba251a5fb6257daebd9133d7ca0b8b",
+    "borek": "e1431450ba8fda4c64613bf6cfd0ab57a33110a65dffa9a44b6a5643b95199bc",
+    "browar-stu-mostow": "0ff67d26d29ec946bdb7036fd061573891194b2c21838c5b8a9a719b4b537c74",
+    "bru-coffee-bakehouse-wroclaw": "d6dcd12e53d4d637a309ff4ce2f9af7834baf489920cfeace72244ba579230f8",
+    "brzeg-castle": "8b9a761245519a0e1cd74bd1f052a4036949d0f73448272144a8329a75ea9118",
+    "brzeg-holy-cross-church": "c2c2383a27d620f50726c253ce78efbf61b70c9d2f0cfc46a9fae3a017730ccc",
+    "brzeg-oder-gate": "ee7ffe2564b0a8781091e52c0549a62684d216013da66dbcf7f77a5de6c03338",
+    "brzeg-st-nicholas-church": "8409982d104f52f49d2fe7c481121290361ec1cc4656ad590c5bc1293c1ca5e8",
+    "brzeg-town-hall": "2013b6d4e0b4c2b3f95942d3d43fa9ef354085f5c10528d1902ee203442a4262",
+    "bulka": "b53fb7e75d9318c1edf66d3ba828b0eb1e05a64cda416cd20db3741dbc0f9a6f",
+    "cafe-berg-wroclaw": "e23038c4e87f7ce3c76ad521cfbd7c8072fbc2d7328a0ea14fd7e52b7c8853ed",
+    "cafe-targowa": "688a4c2b3dcf905f67ef83a715ebbbdd2448d29c5b1e013e1fe6a747121a9887",
+    "cathedral": "bde5f330deba0e2d64fc8396b13e3237194cc946b25c6f61ff3bbcfa47398919",
+    "central": "b403bff271da9ef512863e89dd92f4e74d580dd329ef0b49c42d450ebd0e1de7",
+    "central-cafe-nadodrze": "0c595d8a4d608821f3bbc065c1891f85caa4356cd9b59cf0c690d30c5cae1258",
+    "charlotte": "e8226a564ef726197868a372a1f358253cd9e0f082d66d01d7e6b13a4974183a",
+    "chatka": "2a8fb78824506400ee841637f3700a83ed78af935e9a8ceb00b20b3ee421e4e1",
+    "church-of-peace-swidnica": "576e902ce4bad5be0df2ada89080f90ed3196d83758d57a121dbf283a640e688",
+    "concept-stu-mostow": "ea233398a739ab3a600107d30c8d0be8009d840a19a7bd5f94bc38517cda9702",
+    "concordia-taste": "cb022a607eaa7a92f03c45fe37b1bf2802dfd0bfae892be549a6252c3542128d",
+    "czarna-magia": "71f12a6db3ebb2519f89333f53e2bece182ae8a1d6eb81ecefeea2544ef5b026",
+    "czocha-castle": "083aa3d5bc38cf68dad811189e3dc0cb9bee8f68850f8ba77382309ec942af13",
+    "depot-history-centre": "18dfee99fdb84a8464531a9f38c9f13a6a6d9e1d6aad7a350c0602581bbb065a",
+    "dinette": "4d112a508ac39261c28379ef2165076eaf7fc978bad21e338bf26cb2b1be1a94",
+    "dobra-paczkarnia-kuznicza": "82ad59607e6c60c9992d1cc933cd83c6778280de1d9956e9982a30a540d035c8",
+    "domek-nad-fosa-wroclaw": "a953862ce58431521f9989ca2ec90f460080f53daf26f4d85331299a2e42a166",
+    "dominikan": "d5eb6f9620bad58db4e8179568b669b48c2fcffa7dcd5ad5673e378b49c2a037",
+    "doubletree": "1edfbf38cc81328d99f54953623e3ce92981d39f42b0d6437cd6d93c06caf190",
+    "dunikowski": "0f3d905f69b189ec4804343694379e1d1296e9c6d56f42c0d83df56c67af6964",
+    "dwarf-info": "1b2f82b1a113ceeac32b2478cd7aac8cfcecfa76b12bde62e3415addad645f84",
+    "dwor-polski-hotel-wroclaw": "b2ed91ead12593b209fd4cdb9df22d22218fac44c89773081fe1586e9f0a75ca",
+    "el-gato-odrzanska-wroclaw": "967b3ce1e9eda743b6308d7458a64f37f752bb068f3f966a5ffae99da97526a3",
+    "elizabeth": "9137f3b007f4bc24063a67b9b903371d9a96203938a37cef343b678c03b23840",
+    "entre-hotel-wroclaw": "1c5d8aa6334a764c8169b9294b74aaeb1ba064241128ce2e74ed1e3d4e4bfafe",
+    "fashion-outlet": "3cfd3c426564a6bcd9adfa30323735f998c5eeaa8b4245b69b865994eda6938d",
+    "fc-caffe-kuznicza": "5181a67f05f0ae446089c26961a67604aef98008a5d1aed8bb7f991d726c7379",
+    "figa-w-barbarze": "2f2d71418ea121cec8bb4ddf699e0dfeee48361bdd3588d3ae13f03764bb8c4b",
+    "fountain": "c093737aae35b16f1d8e149feca3bac71a1845ea6abceabcf98fa493ab6a4ad6",
+    "four-denominations-district": "7899631788ca64ba934579cd6c84d7af66c67b9868ed696950c307d0efbdaf03",
+    "four-domes": "897b5ffe902ce671cf4ec63f294ddd9e8deaf9a00fe9be6f92c1b06a8282026f",
+    "frytki": "c8844c5a06378f4b79bc946945ef88ff0b77a3d6a7eb28d479f6f1c61301e632",
+    "glowny": "bc4ff5321ca2a9d7db1623d92d372dde7170b94d885d60bc4d9f1975b7f6dca0",
+    "gniazdo": "c32c521854964b16b0627b12cf032755479861c9f98c8e1ec0a9fa4f15cb9c2a",
+    "gustaw-restaurant-wroclaw": "176a92c4c2404d3a60d2629093873dcf61183ea85ccc173ef5221eb32c0d3b97",
+    "hala": "73cabdeb264d738e0a9027f6d91d30d34af1b0dad8bf6a1d6591d8102a999ed0",
+    "hala-targowa": "18cc34dcda41b7c76a70ac4b38cc0a41a6dff9f9872370a47d708bbea1273acf",
+    "henryk-tomaszewski-theatre-museum": "5552282480788f052c10354634f4a9f84830b8342342da1584834409396db4d2",
+    "herbal": "7169d201bba49ef2bed0ef61556a11aa6d7b3e5f24a63444227a20f87858299e",
+    "hostel-krasnal-wroclaw": "e60845893066901c799dbd01b7fe1774da84fb1e781f862f9b10c2a142488c1c",
+    "hotel-traffic-wroclaw": "ff10e90d2e925f7cfc2473995378988814884c5ade858b91f3a75f540ca80477",
+    "hydropolis": "d594f8c57e5e45f72a3aeca09cebdf4e41e0a7002e86cc91609aec3831a0ed12",
+    "ibis-styles-wroclaw-centrum": "a9c0ddf51e04afef2a24b9d5206549e54a8830d5d344eca4d18514fc12bf5650",
+    "ida-kuchnia-i-wino": "d12f40dc130127863e7393ffb4febf70447d9ec5e09931cf3d473a86838dd918",
+    "india-concept-wroclaw": "fb01aab62bd96c9ba805beb19f4902b6ac7fefdcd6afb17f82922d93fbe6a9bf",
+    "japanese": "34aa97ba0ad17b9ef01d216030449e586b5b409007d4a469d7c5c0d0a39c3a26",
+    "jas-malgosia": "84bb43877b02da03b5964f6e3ee6cc2fb2d43c79ab5566cc34eb32961e80f2fc",
+    "jatki": "b1907fad9a5b9e34bae26acd3388d796d08ea27b841ee20fa7493aa5cc8e4e81",
+    "jawor-church-of-peace": "7bd20c86e014669b9e78a2f3219c46642b06792f547362c42c337104be23e0c4",
+    "jawor-market-square": "3e91d0b2203ae45903c5c888dc17ffcd4dc7e4bc9acb5e8f2552ff3b047ff8d7",
+    "jawor-piast-castle": "4fc75e8a1fe651d4c12e0e16830df1e861356fc2ad1ab79a137c408111fc51cb",
+    "jelenia-gora-market-square": "6db81304fb6eb9f07ee4d922bc73e65be2669bb1584b8aecd2e8b113e656f97d",
+    "jolie-kurzy-targ": "fe5343f167831570edaafe5dea1c8efaf62ebb51f3365b066cb4dfd0f16faad9",
+    "jolie-plac-solny": "86a07ba0ec3d7e52216227648c40ba2fb832e26e71fe10b9df29f17a02b598bf",
+    "joyinn-aparthotel-wroclaw": "9d8ad394977b1e91159eee32c44fb988556ff07f9028e67fd778a1710dc81859",
+    "kaffe-bageri-stockholm": "8ec62bab3b31fd4d6997bee55c2289128d43a121c7194187c12c834b2cc9b63c",
+    "kaplica-czaszek-czermna": "3a9e57737461b2fada03c64f5eba51736a2089b22c390b16b8434935a1c57253",
+    "karmello": "4914ec59bed72fc1df7aca8b8b696ee69e8f98c0f467051a6bf340230f120b0f",
+    "karpacz-centre": "f6278d510147240fd869b6224d010cbd84344ac0095ffcd4df174fec1ce4bc88",
+    "kawiarenka-sw-jadwigi": "a560a18ebe762aa91e618b56e46334cdc7ddc655935dc9e1c6ad57a0ded4b721",
+    "klodzko-fortress": "6b4a872aeb5300570392f7291a4fd75faaf8bbba16b6a170ec662660f1de1754",
+    "klodzko-old-town": "d4f99329265afd975a5b76aa589a71dbcf1368b5b6ee2676a9d0ef4432a524e1",
+    "konspira": "6072d817357e6b26a10b4f4d9904a4574eed44ea1b9b8ed5460afc66263d0b4a",
+    "korona-hotel": "f128a47d9f9f038fd3cd6c519d686e0b6519e4d00c1b593bc44e3d1b4740daa5",
+    "korona-shopping": "7d5697fa343e675d33c889a655df9a542b1de674d57e312afe54a50261f7424a",
+    "ksiaz-castle": "915c99d8db0d86cc30b0e5a7126730bbe9bb6c19321132439db52af367318551",
+    "la-maddalena": "2793b9acc34fa78851c319335fa7fa016a8c84f36fcf06ddb0acaf3dda0979b3",
+    "lesnianska-dam": "45daddf7daf87be03d6f67591bee910652c0a56dff94e440fd60441e39f2a8e5",
+    "lodz-church-square": "4cb08d63f2139cd22ade18e2ffd79f0e8c7599d7d66f87dd5bfb833b9de777a1",
+    "lodz-freedom-square": "03c24590603d4e277479156dcc46c69b7d4ae1a1ebe40fe9aa4587a6124f8da8",
+    "lodz-ghetto-baluty": "b6fab65767a63c97ede65e045d7b8038ddd13b09cf1ea64bd2bfc051b146cd4c",
+    "lodz-gutenberg-house": "6d1feb0e49881b0073e136b394f035430592a50827928e43a8b7b3b1850f864f",
+    "lodz-manufaktura": "3d1afcf61b569c45fea2e04a8535d1b893ad250dc07972fbe61dce40369aa6f6",
+    "lodz-old-market": "8802e05ace44390dbf7c11e78add089b0aa9b36cdf2c1987c77620931e9380b7",
+    "lodz-piotrkowska": "dccfa015431bb49ab146162fa1622d12c3f2a4ddf643069c3e43f83cc579ad3f",
+    "lodz-rose-passage": "c9411d5acf942dcae86b3aa3ecdd66f9acfcf20b76f1c784b573fc4e09f068fb",
+    "lodziarnia-roma": "ceaa8a9bd517ab54a052f576ca131d517b2496a2ab90d8123d534c519b248e58",
+    "lwia-brama-restaurant-wroclaw": "374d57383cbde2fc78b16a8480532e1662484f9642f2e1aec24ae436b134e57b",
+    "magnolia": "457be4756ad08e38d1322ca27f9501123e52351c6088a4e4c7e272cd8281372a",
+    "mala-czarna-paderewskiego": "fdfa9b89edd5e3dee1767c5d39614e72b03125290633d6394ff4d3120f8aeb10",
+    "mandarin": "904a3fea67469dbbf9561eb48f2c6f52cc72e4bcff7180313fafe5ffbc408976",
+    "mania-al-taglio-kuznicza": "1ea8f63c10685758e3115dacc2796dbd7b9f813c585c2bbc20d4a18e524c8a34",
+    "marietta-focacceria-wroclaw": "29a2a3028305d01b8bcb8c270d6a821f848fce01ce216e7c9e09a5f7731d8358",
+    "marina": "8c00d4e3e7a7432c93796d7a38815396dc47511df9985fbbcc82a60cc7bc821d",
+    "math-tower": "c68b87cc2ac781e8859345d6c0f7e8afbced00944a27e65c6f2b71057bff27c5",
+    "meatologia-sikorskiego": "b04c7f4177ad627b087ae25b6f154369ae6ef88f56fadd67192b8a3a10474027",
+    "meatologia-wlodkowica": "82383214ebdf8625826ea5026c5f9871f79657a73e9f40c2c1f2e1da9d0ee608",
+    "meatologia-zwycieska": "c87ded62efc76d94be674df71a711f4913585abb140d28d737839fb1813f3698",
+    "monopol": "707039bcf5a1c0144726cbacba55638e847bf06ad9d757376a52a683dc5c8678",
+    "morskie-oko-wroclaw": "ecd3e301ea00fcb6aa3d3527411083c5fa0b7db2eb292605b4021bca54a37c03",
+    "most-piaskowy": "e99f6fef90dc172198a3da0b418f118440a0892367427638d88191e7f8c4a338",
+    "most-pomorski-poludniowy-wroclaw": "7a68f2048d1eda6c5a8bdd8a6bd8a371202ea6994d854d1f5441cf718fbf07ff",
+    "most-tumski": "bea71b418fbefea0bf9e8aed7bf066a23e0d223be411f4060d74fdfc0f8379e1",
+    "mostek-pokutnic-wroclaw": "4e00cd78938c3179997c7318b59a42e5dcbee7cb5e2720ee0f3b3077926e7f0a",
+    "moszna-castle": "f7d13915200085da70bc5c2ab0b491644ec4e13b38cb08554a5eea32a2c93aea",
+    "moszna-castle-park": "b668cb81952754f7255eb98665c96a0ef781996f412c28e9b303e1c0362ec520",
+    "movenpick-grand-hotel-wroclaw": "924d3cb0f89eab5aa5ef19fc5b04166ace3b7d36dec47e06f70161ffdb3cffce",
+    "municipal-arsenal-wroclaw": "7325c8f08763e58f0c1d84f81181ffb7f1da9eab95d7c87cc1eb6b12dde6ab77",
+    "museum-of-architecture-wroclaw": "4caca8b276fb3adeb12a6df1ff3faf66475f57417ca7acb70e473f0cfd5e81cd",
+    "museum-of-pharmacy-wroclaw": "a41d34288569ef10c367ffc6688fc8bd85e50f77c84742cfe03dbed16c07c45c",
+    "nanan": "6f500085b4cd2ed85f7ebe42602dbc9b7dadab2dc33b7a5e4c422411272ade28",
+    "national-museum": "365f5de51b098a02ac00fb32597c1981dd2705899695868f8bc56c3c8c40e8c3",
+    "new-horizons-cinema": "d6f2ec090d464a78ec798ced2767f8ba698cf353227f696b9a21a892171fe1f6",
+    "nfm": "ad561034589a7300f35c527c7ea59586807540dc0844aa471a8c505a1406d356",
+    "odra-centrum": "6e69d7d2910c85ea037af80fdba88447d8906bd2532f2cdba7f91a2f6372a4f5",
+    "old-jewish-cemetery-wroclaw": "754168b54637b491c447ada8f9aa9a729a6ca949354b54d4c87b51c27dc3f00a",
+    "olio-pizza-napoletana-wroclaw": "58531aec46466cac04f34ca7c01a8e45a5e777817e71a68347c10807a5ac9cc0",
+    "opera": "91c7748ac642dd3993759e1c38f2744fe797f251af581d8505fd00f654bb6876",
+    "ossolineum": "745d5559fcf372c49b77c733abba09a644631b0740ee197432af1bddb38b7387",
+    "ostrow": "59150b0b7e5311cd1dc458be8fad762092aa59fa450e9984d732d54fa94276e6",
+    "paczkarnia": "d2730fd2ddba56f6973b6c13194d6faafa335dde4680cc200d6b408f64a83d71",
+    "paloma-coffee": "b99ce82c6b5dbd4d517b40c969f3dfa65cfd70628f6f6f77d9b92d4273734a6c",
+    "pan-precel": "1f5c61841d2b7ebb7b360e966e6d136c0f137c504969abee29c2abeb1ba3d182",
+    "pan-precel-express-grunwaldzki": "89933580516a92201badb564785f268fac265c78a8992ef9f1d03e46dbfce0bb",
+    "pan-precel-olawska": "e4d717613a1a3f77d56cb8d81dd8f9b3d6d6f1d60ca069789be80961f59b05a7",
+    "pan-tadeusz-museum": "4179dae528f1abb7acaf4d8cdcd75e5f4aa62f0d0963c8d227e44c16a114f696",
+    "panorama": "11083b9cdfb8ee2cf5e9f7319c90f7150887653f3bc6f4d5988033f3b332c083",
+    "papa": "ad409f32908aaa868cc54efc4f74bfa444404ea3a34c011362f18d45053f3180",
+    "park-szczytnicki-wroclaw": "39f9a0c8fb8b83669db8dbeebbfb3de2b290f86f0b958123311e3a95dd2d6eea",
+    "parrot-coffee-bema": "3c61531fb2af2bfa677e3c9caf72e47446a1a5b0d88ad1fd905e62b5badcf995",
+    "pasaz": "2e7bb653954e3ea90152b5d228295873bd27f7ca899523ee3ff857961bf01953",
+    "pedet": "fc5efe5ed73c0fab7486c79b1f27402b8bdd240283a0125c2f50ad026cf4b171",
+    "pergola": "e5ea6be8352ac4c1f840b5324e4e81d86a901fca24d5f373b2e0d0884f470872",
+    "peruwiana": "b029b955cc02bc1fc723a9020e8fcbc3277441d81d5f3974e5394129834750ab",
+    "pestka-bistro-wine-bar": "46c383a6fc41801515b8e88c3ee45d45eede329df454694309a987fe93318414",
+    "piastowska-pieczec-wroclaw": "9cc56881cca5704e92702fe0ff8f9f5c4e7970704a3a833fda20f5a90fe7bc34",
+    "pijalni-wino-bistro": "5f9148dfebe957eb65bde021b22090b991661776817a26d716a0ace715ca7702",
+    "pizza-si": "cb5c210f93c907699d79aa3324c8e57ca165c15875844433238a026d257d79a0",
+    "polinka": "4ad685335cfda66f0c4be323b0b16254cccf08364e926bcd22e49df5862f1296",
+    "polish-lody": "a0680003095ce826072c83373f047e6d2ba540e1d37f19b5ed375b45e6b132ca",
+    "polish-theatre-wroclaw": "6f8b2e82e53836c1adbde1a3234387b38fd3f7a10f0f64ad4007f03f15197955",
+    "pomiedzy-cafe-bistro-wroclaw": "a0e7e16166f36f79db9fdd7c22f784f4b50f8618d2f80c635bf2272272c00ec1",
+    "prize-by-radisson-wroclaw-sky-tower": "f3b77713d916a5722db174bc10262e434718556ccd0e671e651684602b244d1a",
+    "przystanek-kowary": "cda5f7aea6da63e0bfa1cb349dc5c96ce762745fd5f10179027ca6139e85d079",
+    "puro": "bf9387adba511f8758a6c97abfdc5e723417807d5da87cae144fa4347ca80ea0",
+    "renoma": "c87930694c54a4dbbbef767675204e29c8958d349ed692d26a3020c389824c3a",
+    "restauracja-tarasowa": "e785d55195f2dc252389e118290068e49c7d43f697f349a57e38fffcfdb35ad5",
+    "royal-palace-wroclaw": "336e68deeb34414e2d83c23298040bcaad216d259b18eff3cf31c209653fc502",
+    "rozowa-krowa-milk-bar-wroclaw": "02706f681ae3f2ff722558d71cdd76e7c2c3f2fff559d077e112d88179251fe0",
+    "rynek": "9b3471466592b9d07afb402bdf9334f4039a10d696ec71837c548ba45af11ad9",
+    "sarah": "3672a3597199c509f39407157d0695f76dd564da2238542ce20e051f857a99aa",
+    "sic-gallery-bwa-wroclaw": "96799127adf2f67452fbcae101efb8977eec3a7b51ec7ba25e07c5453f64dade",
+    "slodowa": "7d00dcaec3d48e6f3f6cc1e47a213b918ce19707ee575705ace0f5ed9c70b524",
+    "solny": "e2034ffacc3fc16044e40ba88d553f697875af4d0a542ea215d57ef9da68e4f4",
+    "song-of-the-goat-theatre": "4225d01da2ae81a944e000ce8e77cdbfd90cd790ed0afcfd7133e84e997d94b3",
+    "srebrna-gora-fortress": "7b3fb1ea237a6bffaa3a979384bb9ffdace16fdc732af6628775b5b93cb68b43",
+    "st-martin-church-wroclaw": "19983ddd93358ce8e13ee081a8c5c3d426af26727c40c0341bebfab04826b9b7",
+    "stadion-olimpijski-wroclaw": "5cba3f1b3957715dba1801265a6b138909b9eb19bda848a4b3c3fca870002545",
+    "stary-mlyn-rynek-wroclaw": "562b2abb600d97d9818d0283a818958b0a9920b72d7b9e0d02061b9c317e3734",
+    "studio-bwa-wroclaw": "900b30cb2ea95e9ce6aea191b32c4f3c8c8591c346910653f10f06fdbb8daa6b",
+    "sushi-corner": "736185eb4190aae7192efe47f819be0c76fe2c1950c8181919169662e71073d2",
+    "szkocka-cocktail-bar": "15bf79a08c50407e6d711078092055c90d1b73e8c44084e8c740d7cc6382ed2c",
+    "taproom-stu-mostow": "c91c3f65e1dbaf7a3c061c0682e98c088bd49c3461e5b7c2ae373213ab39b9dd",
+    "the-bridge": "1ac53872c165df13bccaadc8cb35de19b79e73141dc2b2736e22f32ceceb4a12",
+    "the-cyrus-hotel-wroclaw": "231cc1aa8344e6da7edf94290f5bcd6c5f5dbb045e938a0bd20a96baa1d1a39f",
+    "the-mexican": "bc7e517747c996a72ae1438d8b117f5d58673300d86d3b94ef8372acf759e361",
+    "town-hall": "3e7f3da88c83b3ca999d2c0733d55ecc0bf772c9b2786ccc47d429bc00a20c36",
+    "tulip-hotels-wroclaw-patio": "82d1af1329f7aecce450b5027746aa7bb57038992ec76e879b0938e227c3c09d",
+    "university": "06a8182adc9e1308682994af4284fe449acff6c5179d3fbb1e9e35fddecec542",
+    "vega-bar-weganski-wroclaw": "59de1cf70b8bc9cb5f35ce95439c46317f5cc998400552f2898e53afbcf3a1f6",
+    "vegan-af-ramen": "7aa95709f05555149143b272fb0f54fc713f7e0d17c1a97ce1b3251a38a25a40",
+    "walbrzych-market-square": "d118c31ae67c3b3224d097887512620c5bbf9fdbdaf02440c42e60d6131bcf2b",
+    "wang-church": "54bfed63072e8309afbc1227022ffa09f1497cd00435fd579034b53eeeae16a2",
+    "warsaw-nozyk-synagogue": "f8af08e5d53ba24099e79f5265bfd3d034a10cd226a0d516d97f69b8104c9c05",
+    "warsaw-saxon-garden-fountain": "ba5c8907b70b878629a23f872b2db6b31500e529e557e004fff11808e8b41ebd",
+    "warsaw-unknown-soldier": "b95043d8a0b9558edc795a818f93c7a12496f2444284e00c249ce359b5509051",
+    "water-refill-hala-stulecia": "52247f0a774647245723b458b1683df4be302b1da09291745d4632b8cf308ad4",
+    "water-refill-hydropolis": "604755494952d65e4a9bea3b7dc2ae7c4d6c113a7abc6db98bc74a56fd761d7a",
+    "water-refill-nmp-piasek": "68f74e18b181c9c3118298df4e6443a995534ecb4bb88c7a3a33c0ac4543ab7f",
+    "water-refill-olawska-swidnicka": "1bd6ea965ad1f86b59a7b1b4bd97dd55241941871f320be1717ffa7152ea6c2a",
+    "water-refill-park-tolpy": "2ee3ae56de8006ca6bf26f4b25fae4c742e0145e033fa63e632934fbbd1cc375",
+    "water-refill-plac-dominikanski": "d1e0cd1633d3685f7e45e5d668779e44ffd7844a1f2c4f3d2ab4e2b20bf73ed5",
+    "water-refill-plac-nowy-targ": "86bf625dfe08fac589aec41880d76a00b6faa32fc18fd0495abd027f82d31748",
+    "water-refill-plac-solny": "cfed62ef693257f94fb357855bf22c0bbf72623824be01aec05376c6fd7c9e30",
+    "water-refill-plac-teatralny": "404d9e18c326525a486c9229c38206b9d753837f1656acadd8ec85e1d8360ba0",
+    "water-refill-plac-wolnosci": "8a8694ace2f91fd67be28ef63e496e20fb335f23d18ac17047f7b5498fbb576d",
+    "water-refill-rynek-psiego-pola": "87c749cc69babb71878cd5304bbea1d8940c6477ae0ba07e71ba0c5f82f013c2",
+    "water-refill-skwer-steinmetza": "bfa8a9389dac278f2cdeb180b107eac0f865b9c0e6dbdeb3fe03b9c8092193e9",
+    "water-refill-wroclaw-airport": "7121748bf8ba1fca34f61eccd8e5d24a9196687c6b81935e782347f0dac6dff1",
+    "water-refill-wyspa-slodowa": "199d41a252207742fa80abc8ab712fa1c45616a8f52ae245796d78db2f7ba4fd",
+    "water-refill-zoo-afrykarium": "640b0b7b769e5136ae1d6dc67db0f4c49d6b421e71beda014f810338fbf3e081",
+    "wedel": "4f365bc311d3569534f33c2270468254bd7fa319390cdde2cdf3936284a553cd",
+    "wedrowcy-kolejowa-63": "94388f9344d1955d11be8ca0f82d519ded846db5227ece3b6529941d7b0f8a14",
+    "whiskey": "90fdf03d641d654b29d82bd324d6fc1c28bec0894e1ce32edcbc3c14cd3ae26f",
+    "white-stork-synagogue-wroclaw": "7b8da95a3189e789142f25ee966e1343fcd5955011d6cb60172a0b9e0afc24ca",
+    "wierzbowa-15": "61e559adcc99042613a1b14910adb22f265d176e1b44c6ae6e3e02bf830e6fb2",
+    "wieza-cisnien-borek": "a70da71a23a9899d13251350c5910baa97de04f0f2c0d3db3f6d0150f6d86992",
+    "woda-cafe": "37d4db9d3140048ab69f198c8db0e7101d28103ff3ca52c90e620135b25734f0",
+    "woosabi": "9f6eb61c71c6cf86af42516f01e33bbae5e24f0dafc9258ecb6fc8170456428f",
+    "woosabi-swidnicka-wroclaw": "2c4d754162e8a2d043c8da617b5d7d38096682b74115d72ec3243efdf60a437c",
+    "wroclavia": "12083f399d3f1e422d9ce53e2b69d71e8dac33ed9997a8145fa2b496fe1a91bc",
+    "wroclaw-botanical-garden": "73f6335ac44fc154282cba838794e0fbce583a090ac434259aa4cf5e9c0e2e0c",
+    "wroclaw-contemporary-museum": "6093663db5130b590ead60a890765d9782f9392d5c5366ac4cc934ecdcb07b36",
+    "wroclaw-contemporary-theatre": "dc3bac4882c3ef2a982d34d77644286a03cf47b8cf751010181ad37f83f39a96",
+    "wroclaw-puppet-theatre": "0ec314b4be3a90c2a0daf62cdd14c36de8a890cdbdd0943dcc0674b2f0f5d1d0",
+    "wuwa": "086e40d6633ee4271bca3fd527d6b49ef0e45731be038801f1bdbff7ab5fdc75",
+    "wuwa-estate": "e8e529dba2593bc96991e0aae08f9ffc3f6109048a27862dcf0884b3cb5ba0a5",
+    "wyndham-wroclaw-old-town": "c7786cd30d5156ac41218f35ab850348528b96a451c5c33f37ec459bcd58509c",
+    "wyspa-piasek": "98df9bddb93c0bcd12277e4e5008e5acb876a70585a1d15b18233a0a2f29bf67",
+    "zamek-topacz": "69eca3dc99f98275b62a216ff22db26766372a977677e3937d7422b420107d93",
+    "zenka": "eed8a3a01e27d47e8aad0df6805abf2cd0e200fa94b1c73750bfb210d208077d",
+    "zoo-wroclaw": "b84a8fb51d1d380c79964e8891404caba7c9b81879f798071da66fbace207aea",
+    "zyjnia-bwa-wroclaw": "e95387f20a59a9cb195a8d4b623e8d328fdfefa51690550b01e02f3c7312d06a"
+  },
+  "places": {
+    "zoo-wroclaw": {
+      "id": "zoo-wroclaw",
+      "localName": "ZOO Wrocław",
+      "name": {
+        "he": "גן החיות של ורוצלב",
+        "en": "ZOO Wrocław",
+        "pl": "ZOO Wrocław",
+        "de": "Zoo Wrocław",
+        "cs": "Zoo Wrocław"
+      },
+      "description": {
+        "he": "גן החיות הוותיק ביותר בפולין הוא ביקור של כמה שעות, לא עצירה קצרה. לצד בעלי החיים והמרחבים הירוקים, Afrykarium מציג מערכות אקולוגיות מימיות של אפריקה ונכלל בכרטיס הכניסה הרגיל.",
+        "en": "Poland’s oldest zoo is a several-hour visit, not a quick stop. Alongside its animals and green grounds, the Afrykarium presents African aquatic ecosystems and is included with standard zoo admission.",
+        "pl": "Najstarszy ogród zoologiczny w Polsce to miejsce na kilka godzin, a nie krótki przystanek. Oprócz zwierząt i zielonych terenów warto zobaczyć Afrykarium poświęcone afrykańskim ekosystemom wodnym, dostępne w ramach zwykłego biletu do zoo.",
+        "de": "Der älteste Zoo Polens ist ein Besuch für mehrere Stunden, kein kurzer Zwischenstopp. Neben Tieren und grünen Anlagen zeigt das im normalen Eintritt enthaltene Afrykarium afrikanische Wasserökosysteme.",
+        "cs": "Nejstarší zoologická zahrada v Polsku je návštěva na několik hodin, ne krátká zastávka. Kromě zvířat a zeleného areálu nabízí Afrykarium africké vodní ekosystémy a je zahrnuto v běžné vstupence do zoo."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.10565,
+          "lng": 17.0762194
+        },
+        "address": {
+          "street": "Zygmunta Wróblewskiego 1-5",
+          "postalCode": "51-618",
+          "city": "Wrocław",
+          "country": "Poland"
+        }
+      },
+      "categories": [
+        "family-attraction",
+        "nature",
+        "zoo"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "wroclaw-zoo",
+        "zoo-wrocław"
+      ],
+      "sourceRecords": [
+        {
+          "productId": "wroclaw-four-days",
+          "kind": "route-stop",
+          "sourceId": "zoo-wroclaw"
+        }
+      ],
+      "coordinateCandidates": [],
+      "status": "published",
+      "editorialPriority": "high",
+      "taxonomy": {
+        "categories": [
+          "family-attraction",
+          "nature",
+          "zoo"
+        ],
+        "tags": [
+          "animals",
+          "afrykarium",
+          "aquarium",
+          "family",
+          "photography",
+          "nature",
+          "wroclaw",
+          "east-wroclaw"
+        ]
+      },
+      "suitability": {
+        "recommendedFor": [
+          "families",
+          "couples",
+          "solo",
+          "adults",
+          "children",
+          "animal-lovers",
+          "photographers"
+        ],
+        "walkingIntensity": "moderate",
+        "familyFriendly": true,
+        "couples": true,
+        "solo": true,
+        "romantic": false,
+        "indoorOutdoor": "both",
+        "rainFriendly": "partial",
+        "budgetLevel": null,
+        "accessibility": {
+          "level": "partial",
+          "notes": {
+            "he": "Afrykarium ומספר ביתנים מרכזיים מותאמים לכיסאות גלגלים; בביתנים היסטוריים מסוימים הנגישות חלקית.",
+            "en": "The Afrykarium and several major pavilions are wheelchair accessible; access remains partial in some historic buildings.",
+            "pl": "Afrykarium i kilka głównych pawilonów są dostępne dla osób na wózkach; w niektórych zabytkowych budynkach dostępność pozostaje częściowa.",
+            "de": "Das Afrykarium und mehrere große Pavillons sind rollstuhlgerecht; in einigen historischen Gebäuden ist der Zugang nur teilweise möglich.",
+            "cs": "Afrykarium a několik hlavních pavilonů jsou přístupné pro vozíčkáře; v některých historických budovách je přístupnost pouze částečná."
+          }
+        }
+      },
+      "visit": {
+        "durationMinutes": 240,
+        "bestTimeOfDay": [
+          "morning",
+          "afternoon"
+        ],
+        "seasonalSuitability": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter"
+        ],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://zoo.wroclaw.pl/en/",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10565%2C17.0762194",
+          "appleMaps": "https://maps.apple.com/?ll=51.10565,17.0762194&q=ZOO%20Wroc%C5%82aw"
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "experiences": [
+        {
+          "id": "afrykarium",
+          "tags": [
+            "aquarium",
+            "aquatic",
+            "immersive",
+            "family"
+          ]
+        },
+        {
+          "id": "zoo-grounds",
+          "tags": [
+            "animals",
+            "nature",
+            "walking",
+            "photography"
+          ]
+        }
+      ],
+      "provenance": {
+        "contentType": "personal-visit",
+        "personalVisit": true,
+        "originalContent": true,
+        "originalPhotography": true,
+        "originalVideo": true,
+        "factualSources": [
+          {
+            "type": "official",
+            "url": "https://zoo.wroclaw.pl/en/",
+            "checkedAt": "2026-08-21"
+          },
+          {
+            "type": "history",
+            "url": "https://zoo.wroclaw.pl/wystawa-160-lat-zoo-wroclaw-pod-dworcem-wroclaw-glowny/",
+            "checkedAt": "2026-08-21"
+          },
+          {
+            "type": "address-coordinates",
+            "url": "https://zoo.wroclaw.pl/en/arrival/",
+            "checkedAt": "2026-08-21",
+            "note": "Official GPS: 51°06′20.34″N 17°04′34.39″E"
+          },
+          {
+            "type": "accessibility",
+            "url": "https://zoo.wroclaw.pl/zwiedzanie/osoby-z-niepelnosprawnosciami/",
+            "checkedAt": "2026-08-21"
+          }
+        ]
+      },
+      "media": {
+        "photos": [
+          "/assets/zoo-wroclaw-01.jpg",
+          "/assets/zoo-wroclaw-02.jpg",
+          "/assets/zoo-wroclaw-03.jpg",
+          "/assets/zoo-wroclaw-04.jpg",
+          "/assets/zoo-wroclaw-05.jpg",
+          "/assets/zoo-wroclaw-06.jpg",
+          "/assets/zoo-wroclaw-07.jpg",
+          "/assets/zoo-wroclaw-08.jpg"
+        ],
+        "videos": [
+          "/assets/zoo-wroclaw-afrykarium.mp4",
+          "/assets/zoo-wroclaw-aquatic-animal.mp4"
+        ],
+        "metadata": {
+          "/assets/zoo-wroclaw-01.jpg": {
+            "tags": [
+              "elephant",
+              "large-animal",
+              "hero"
+            ],
+            "original": true,
+            "heroCandidate": true,
+            "sourceFile": "IMG_5048.JPG"
+          },
+          "/assets/zoo-wroclaw-02.jpg": {
+            "tags": [
+              "large-animal",
+              "outdoor-exhibit"
+            ],
+            "original": true,
+            "sourceFile": "IMG_4975.JPG"
+          },
+          "/assets/zoo-wroclaw-03.jpg": {
+            "tags": [
+              "zoo-environment",
+              "animal-exhibit"
+            ],
+            "original": true,
+            "sourceFile": "IMG_4995.JPG"
+          },
+          "/assets/zoo-wroclaw-04.jpg": {
+            "tags": [
+              "afrykarium",
+              "underwater-tunnel",
+              "visitor-experience"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5018.JPG"
+          },
+          "/assets/zoo-wroclaw-05.jpg": {
+            "tags": [
+              "okapi",
+              "animal"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5033.JPG"
+          },
+          "/assets/zoo-wroclaw-06.jpg": {
+            "tags": [
+              "afrykarium",
+              "aquarium",
+              "fish"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5042.JPG"
+          },
+          "/assets/zoo-wroclaw-07.jpg": {
+            "tags": [
+              "chimpanzee",
+              "primate"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5044.JPG"
+          },
+          "/assets/zoo-wroclaw-08.jpg": {
+            "tags": [
+              "zoo-environment",
+              "walking-route"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5049.JPG"
+          },
+          "/assets/zoo-wroclaw-afrykarium.mp4": {
+            "tags": [
+              "afrykarium",
+              "underwater",
+              "aquatic"
+            ],
+            "original": true,
+            "sourceFile": "IMG_4998.MOV"
+          },
+          "/assets/zoo-wroclaw-aquatic-animal.mp4": {
+            "tags": [
+              "aquatic-animal",
+              "movement",
+              "underwater"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5020.MOV"
+          }
+        }
+      },
+      "socialPosts": [
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeK4eLkiU9G/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid03gGjqYsZC9bxMD46cGZjknhS7ZuDZTroeA6F4ZBBCBso8LHLoHpqYqtTDN6gKkL3l&id=61595207664875",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02BAARgmB61pnmNFw2eeHsZCMzkjtoTLDjfBet7FQhN1Jy1wHDxfmYWJkaEfeks8Zul&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0i9DXCtEjmR6NCAfS5Awh9BftTrUiocELZPFNKFwTuPHBjeAmnTcNpckPBMU7gkc6l&id=61595239823399",
+          "verifiedAt": "2026-10-07T06:25:20.589593+00:00"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeMa91bmPJA/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMdxpsDqXQ/",
+          "verifiedAt": "2026-10-07T13:29:22.339724+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0n2JHAakF8wFmMjYdZ5iDcN3VNftQmB9x9aqjLhPgVtrdg6w7ieTmDn8V2T9nePqEl&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMgPV8F8e4/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122114783229398802/",
+          "verifiedAt": "2026-10-09T01:32:48.811Z"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/groups/2525899074519424/posts/2563503317425666/"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTZronDED-/"
+        }
+      ]
+    },
+    "pergola": {
+      "id": "pergola",
+      "localName": "Pergola Wrocławska",
+      "name": {
+        "he": "הפרגולה של ורוצלב",
+        "en": "Wrocław Pergola",
+        "pl": "Pergola Wrocławska",
+        "de": "Pergola Wrocław",
+        "cs": "Vratislavská pergola"
+      },
+      "description": {
+        "he": "טיילת עמודים מקושתת בתכנון הנס פֶּלציג, בצדו הצפון־מזרחי של היכל המאה. הצמחייה המטפסת יוצרת צל ומסגרת לתצפית אל בריכת המזרקה. מקום להליכה רגועה בין אתרי המתחם. הגישה חופשית בכפוף למגבלות אירועים; בדקו עדכונים לפני הביקור.",
+        "en": "Hans Poelzig designed this curved colonnade northeast of Centennial Hall. Climbing greenery shades the promenade and frames views towards the fountain basin. It makes a relaxed walking stop between nearby sights. Public access is free, subject to event restrictions; check current notices.",
+        "pl": "Łukowata kolumnada projektu Hansa Poelziga leży na północny wschód od Hali Stulecia. Pnącza ocieniają promenadę i obramowują widok na nieckę fontanny. To spokojny przystanek między pobliskimi atrakcjami. Wstęp jest bezpłatny, z możliwymi ograniczeniami podczas wydarzeń; sprawdź aktualne komunikaty.",
+        "de": "Hans Poelzig entwarf diese geschwungene Säulenpromenade nordöstlich der Jahrhunderthalle. Kletterpflanzen spenden Schatten und rahmen den Blick zum Brunnenbecken. Ein ruhiger Zwischenstopp beim Spaziergang durch das Gelände. Der öffentliche Zugang ist kostenlos, kann bei Veranstaltungen aber eingeschränkt sein; aktuelle Hinweise beachten.",
+        "cs": "Zakřivenou sloupovou promenádu severovýchodně od Haly století navrhl Hans Poelzig. Popínavé rostliny poskytují stín a rámují výhled k nádrži fontány. Hodí se ke klidné zastávce mezi okolními památkami. Veřejný vstup je bezplatný, při akcích však může být omezen; ověřte aktuální oznámení."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.10882,
+          "lng": 17.07762
+        },
+        "address": {
+          "street": "Wystawowa 1",
+          "city": "Wrocław",
+          "countryCode": "PL",
+          "postalCode": "51-618"
+        }
+      },
+      "categories": [
+        "architecture",
+        "nature"
+      ],
+      "sourceUrls": [],
+      "aliases": [
+        "pergola-wroclawska"
+      ],
+      "sourceRecords": [
+        {
+          "productId": "wroclaw-four-days",
+          "kind": "route-stop",
+          "sourceId": "pergola"
+        }
+      ],
+      "coordinateCandidates": [],
+      "status": "published",
+      "editorialPriority": "high",
+      "taxonomy": {
+        "categories": [
+          "architecture",
+          "nature"
+        ],
+        "tags": [
+          "architecture",
+          "walking",
+          "photography",
+          "outdoor",
+          "green-space"
+        ]
+      },
+      "suitability": {
+        "recommendedFor": [
+          "couples",
+          "families",
+          "architecture-lovers",
+          "photographers"
+        ],
+        "walkingIntensity": "easy",
+        "familyFriendly": true,
+        "couples": true,
+        "solo": true,
+        "romantic": true,
+        "indoorOutdoor": "outdoor",
+        "rainFriendly": "partial",
+        "budgetLevel": null,
+        "accessibility": {
+          "level": "good",
+          "notes": {
+            "he": "הטיילת ברובה מישורית, אך ייתכנו משטחים לא אחידים ועומס באירועים.",
+            "en": "The promenade is mostly level, though some surfaces may be uneven and events can make it busy.",
+            "pl": "Promenada jest w większości płaska, choć miejscami nawierzchnia może być nierówna, a podczas wydarzeń bywa tłoczno.",
+            "de": "Die Promenade ist überwiegend eben; einzelne Flächen können jedoch uneben sein, und bei Veranstaltungen kann es voll werden.",
+            "cs": "Promenáda je převážně rovná, místy však může být povrch nerovný a během akcí zde bývá rušno."
+          }
+        }
+      },
+      "visit": {
+        "durationMinutes": 30,
+        "bestTimeOfDay": [
+          "morning",
+          "afternoon",
+          "evening"
+        ],
+        "seasonalSuitability": [
+          "spring",
+          "summer",
+          "autumn"
+        ],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://halastulecia.pl/zwiedzanie/pergola/",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10882%2C17.07762",
+          "appleMaps": "https://maps.apple.com/?ll=51.10882,17.07762&q=Pergola%20Wroc%C5%82awska"
+        },
+        "socialProfileFallback": false
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "contentType": "personal-visit",
+        "personalVisit": true,
+        "originalContent": true,
+        "originalPhotography": true,
+        "verifiedAt": "2026-10-19",
+        "factualSources": [
+          {
+            "url": "https://halastulecia.pl/zwiedzanie/pergola/",
+            "checkedAt": "2026-10-19",
+            "supports": [
+              "Hans Poelzig",
+              "northeast of Hall",
+              "curved colonnade",
+              "climbing greenery"
+            ]
+          },
+          {
+            "url": "https://www.halastulecia.pl/wp-content/uploads/2020/12/HS_regulamin_pergoli_www.pdf",
+            "checkedAt": "2026-10-19",
+            "supports": [
+              "address",
+              "free public access",
+              "event restrictions"
+            ]
+          }
+        ],
+        "personalMediaPermission": false
+      },
+      "media": {
+        "photos": [
+          "/assets/pergola-wroclawska-01.jpg",
+          "/assets/pergola-wroclawska-04.jpg",
+          "/assets/pergola-wroclawska-05.jpg"
+        ],
+        "videos": [
+          "https://youtube.com/shorts/rWgg4GMPnLM",
+          "https://youtube.com/shorts/zjWtn3ecZb8",
+          "https://youtube.com/shorts/LpABCG98A30",
+          "https://youtube.com/shorts/2JEVLuDY4cc",
+          "https://youtube.com/shorts/gSVC14ucEB4",
+          "https://youtube.com/shorts/WFQyRKD66YQ"
+        ],
+        "guideVideos": {
+          "he": "https://youtube.com/shorts/78GzPBmtRo4",
+          "en": "https://youtube.com/shorts/yP9iXmP47RQ"
+        },
+        "metadata": {
+          "/assets/pergola-wroclawska-01.jpg": {
+            "tags": [
+              "pergola",
+              "architecture",
+              "greenery",
+              "hero"
+            ],
+            "original": true,
+            "heroCandidate": true,
+            "sourceFile": "IMG_5068.JPG"
+          },
+          "/assets/pergola-wroclawska-04.jpg": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5811.JPG",
+            "sourceSHA256": "f417d7567f216609609bdc7b8c522e1101bab9f7f5e35662f974a3d6cc3e206b",
+            "assetSHA256": "418ceaa0d04f859b41f8714cdc5a6a0b68603471b8d7995cfe650ee3ce95b522"
+          },
+          "/assets/pergola-wroclawska-05.jpg": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5813.JPG",
+            "sourceSHA256": "a0b3b27b810e68ba9bd91e0d5bc0cfca1fbb218d39457cdd5f65a539764818e7",
+            "assetSHA256": "35d4141c2fcfaea2cc24e44dcef80b25ab3ad1fced76486e477c690e1a8a5b91"
+          }
+        }
+      },
+      "socialPosts": [
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0PBubtq5LoHRZqauEt2AxHHKPjbGjNhXShCarFr5ogphMk9iHW8vfEF9TfE2F47mdl&id=61595036942289",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeK81I8Dq1T/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Na5vs8d6rwMAA36q35BkKgcUEwnh5RDVkMKgpGQ2xdT5z8SSiFig3gqkMSsG8i3Vl&id=61595239823399",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02vNkfpPrKx9P9izcQjcpP1SNoaq9tXZEWDxnNCEz32yLTC7wAaDJ7V6bU836zHiDml&id=61595207664875",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeLBl7ajYMt/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMa3xtDvbr/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Mzn17KRqi5sJhmoVc5hmDy7JAoKDERNTXrnmPReC7miwDF9D4WDY4YcZycdWgVdJl&id=61594716405964",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMqvYBj5jO/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0dgwGcWr9XoWXfW5GRqkXRUEdQ1ZArZ8ykio6KKCQi8tRLzLNjFap26ed7TvSuUMKl&id=61591964083308",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/share/p/1CHRnrqLwQ/",
+          "routingExcluded": true
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1",
+          "routingExcluded": true
+        }
+      ]
+    },
+    "japanese": {
+      "id": "japanese",
+      "localName": "Ogród Japoński",
+      "name": {
+        "he": "הגן היפני",
+        "en": "Japanese Garden",
+        "pl": "Ogród Japoński",
+        "de": "Japanischer Garten",
+        "cs": "Japonská zahrada"
+      },
+      "description": {
+        "he": "גן רגוע ויפה במרחק דקות הליכה מהמזרקה.",
+        "en": "A calm, beautiful garden a few minutes’ walk from the fountain.",
+        "pl": "Spokojny, piękny ogród kilka minut spacerem od fontanny.",
+        "de": "Ein ruhiger, wunderschöner Garten, nur wenige Gehminuten vom Brunnen entfernt.",
+        "cs": "Klidná, krásná zahrada pár minut chůze od fontány."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.10977,
+          "lng": 17.08094
+        }
+      },
+      "categories": [
+        "nature"
+      ],
+      "sourceUrls": [],
+      "aliases": [],
+      "sourceRecords": [
+        {
+          "productId": "wroclaw-four-days",
+          "kind": "route-stop",
+          "sourceId": "japanese"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "wroclaw-four-days",
+          "sourceId": "japanese",
+          "lat": 51.10977,
+          "lng": 17.08094
+        }
+      ],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "nature"
+        ],
+        "tags": []
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": null,
+        "navigation": {
+          "googleMaps": null,
+          "appleMaps": null
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "media": {
+        "photos": [
+          "/assets/gallery-japanese-01.jpg",
+          "/assets/gallery-japanese-02.jpg",
+          "/assets/gallery-japanese-03.jpg",
+          "/assets/gallery-japanese-04.jpg",
+          "/assets/gallery-japanese-05.jpg",
+          "/assets/gallery-japanese-06.jpg",
+          "/assets/japanese-visit-07.jpg",
+          "/assets/japanese-visit-08.jpg",
+          "/assets/round24h-20261022/japanese-approved-05.jpg"
+        ],
+        "videos": [
+          "https://youtube.com/shorts/Ni0GwsP-uMg",
+          "https://youtube.com/shorts/OMuXVtwAkAA"
+        ],
+        "guideVideos": {
+          "he": "https://youtube.com/shorts/x39Gu8wchuA",
+          "en": "https://youtube.com/shorts/anSJzrqzqqg"
+        },
+        "metadata": {
+          "/assets/round24h-20261022/japanese-approved-05.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5798.JPG",
+            "sourceSHA256": "a4feadee1ad041782e6a9ee3dd9f7a577b77bb16218f8424704b2ba2ebaef477",
+            "alt": {
+              "he": "צילום ביקור על הגשר מול בריכת הגן היפני",
+              "en": "Visit photograph on the bridge overlooking the Japanese Garden pond",
+              "pl": "Zdjęcie z wizyty na mostku nad stawem Ogrodu Japońskiego",
+              "de": "Besuchsfoto auf der Brücke am Teich des Japanischen Gartens",
+              "cs": "Fotografie z návštěvy na můstku nad jezírkem Japonské zahrady"
+            },
+            "caption": {
+              "he": "צילום ביקור על הגשר מול בריכת הגן היפני",
+              "en": "Visit photograph on the bridge overlooking the Japanese Garden pond",
+              "pl": "Zdjęcie z wizyty na mostku nad stawem Ogrodu Japońskiego",
+              "de": "Besuchsfoto auf der Brücke am Teich des Japanischen Gartens",
+              "cs": "Fotografie z návštěvy na můstku nad jezírkem Japonské zahrady"
+            },
+            "originalFullPicturePreserved": true,
+            "approvalCall": "call_64a7ea5779114d3daff52e641752d205",
+            "specificPhotoApproval": true
+          }
+        }
+      },
+      "socialPosts": [
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://facebook.com/reel/1066059226396383/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "61594716405964"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/reel/DeaD_BljXFN/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "wroclaw.lowersilesia.cs"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/reel/1521255613354985/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "61595239823399"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/reel/DeZ_3PvkiTd/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "wroclaw.lowersilesia.de"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://facebook.com/reel/1709289353953137/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "61595036942289"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/reel/DeZ-dl2HynX/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "wroclaw.lowersilesia"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/reel/1160361193220780/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "61591964083308"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeZ8LWnAcm4/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "wroclaw.lowersilesia.he"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/reel/1401749048606157/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "61595207664875"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/reel/DeaDXXWjoE3/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-reel",
+          "account": "wroclaw.lowersilesia.pl"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0pTHtQsazYEu1pNtHTUDtVjqsAVBjw1egorKCkGr9MdMJX6Cn8aYQqtG2E7ptwWLCl&id=61594716405964",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "61594716405964"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DeaDsagDDNe/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "wroclaw.lowersilesia.cs"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0yvHqmge3TB1ZvTYCVe9XLkx6kb6cMw7Yf67zNKFZuXRYn6CmcBaxPN6ychiprjkal&id=61595239823399",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "61595239823399"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeaDI_pjbWB/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "wroclaw.lowersilesia.de"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02fyC1TfVTiSJdsYa7WRSn3i2EDQgRv8xSuumKMCuASf5BQ4xn94BBEw9ZAvT276Xdl&id=61595036942289",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "61595036942289"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeaDDBDnN4l/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "wroclaw.lowersilesia"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02jdAe3onuqby1sb1rcyUPZJBnm4ABvvLdMFP8e11BQNPDY8t6VMbTb4JyucadfFvMl&id=61591964083308",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "61591964083308"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeZ9Ifxn124/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "wroclaw.lowersilesia.he"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid032eRi3AEe938CwdBpUuyKFsx2G12VYQ67vFqBEdLdUbbBsLtW3hW4FCymAMF92PLEl&id=61595207664875",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "61595207664875"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeaDX3zjL_Y/",
+          "verifiedAt": "2026-10-12",
+          "context": "original-visual-gallery",
+          "account": "wroclaw.lowersilesia.pl"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeKXQhuDPZd/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02kQA8HRdFcPoiikqBGM84n8KFwpjy6U6RbLwJXS2HGyKzmkcfSPNMsBcfrRN1Edual&id=61595207664875",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02XusoXLDvfNWUSZQPcEzsgLBdM8bfDGfTpVPXRnn1HoWxgi61unpn3XJ7kdJ5nAGAl&id=61595239823399",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKffvAD6hp/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02SwzutLP7KeJ4PgR75QtGqZRKyvLHUtQhY5WdzpLPy8obLBUKUaVbbQgdCsFcwf5Jl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKwqPWlJ3A/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeKzybyjBJI/",
+          "verifiedAt": "2026-10-06T22:10:26.054724+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid049aHYDZDHdwRf2QvDGPCL2UA7diG9vnyEoiZmfmDVFDVrgJcgcLc6LwLzGjunCbol&id=61594716405964",
+          "verifiedAt": "2026-10-06T22:27:16.195800+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122109906747398802/",
+          "verifiedAt": "2026-10-08T19:19:37.851Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeZ3S3gkbNr/",
+          "verifiedAt": "2026-10-12",
+          "owner": "wroclaw.lowersilesia.he"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/p/DbgCVSbnL0Q/",
+          "routingExcluded": true
+        }
+      ]
+    },
+    "hala": {
+      "id": "hala",
+      "localName": "Hala Stulecia",
+      "name": {
+        "he": "היכל המאה",
+        "en": "Centennial Hall",
+        "pl": "Hala Stulecia",
+        "de": "Jahrhunderthalle",
+        "cs": "Hala století"
+      },
+      "description": {
+        "he": "היכל המאה הוא מבנה משנת 1913 בתכנון מקס ברג, ואתר מורשת עולמית של אונסק״ו. בגלריה מבטים על החזית והכיפה, רחבת האיגליצה וההיכל מעבר לבריכת המזרקה. אפשר לשלב ביקור עם הפרגולה וביתן ארבע הכיפות הסמוכים. הכניסה לפנים ההיכל תלויה בלוח האירועים ובזמינות הביקורים; בדקו באתר הרשמי לפני ההגעה.",
+        "en": "Designed by Max Berg and opened in 1913, Centennial Hall is a UNESCO World Heritage site. Our gallery shows its façade and dome, the Iglica plaza and views across the fountain basin. Combine it with the nearby Pergola and Four Domes Pavilion. Interior access depends on events and visitor availability; check the official site before arriving.",
+        "pl": "Hala Stulecia, zaprojektowana przez Maxa Berga i otwarta w 1913 roku, jest obiektem światowego dziedzictwa UNESCO. Galeria pokazuje elewację i kopułę, plac z Iglicą oraz widoki zza niecki fontanny. Wizytę można połączyć z pobliską Pergolą i Pawilonem Czterech Kopuł. Dostęp do wnętrza zależy od wydarzeń i dostępności zwiedzania; sprawdź oficjalną stronę przed przyjazdem.",
+        "de": "Die von Max Berg entworfene und 1913 eröffnete Jahrhunderthalle gehört zum UNESCO-Welterbe. Unsere Galerie zeigt Fassade und Kuppel, den Platz mit der Iglica und Blicke über das Wasserbecken. Ein Besuch lässt sich mit der nahen Pergola und dem Vier-Kuppel-Pavillon verbinden. Der Innenzugang hängt von Veranstaltungen und Besichtigungsmöglichkeiten ab; prüfen Sie vorher die offizielle Website.",
+        "cs": "Hala století, navržená Maxem Bergem a otevřená v roce 1913, je památkou světového dědictví UNESCO. Galerie ukazuje průčelí a kupoli, prostranství s Iglicou a pohledy přes nádrž fontány. Návštěvu lze spojit s nedalekou Pergolou a Pavilonem čtyř kupolí. Přístup dovnitř závisí na akcích a dostupnosti prohlídek; před cestou ověřte oficiální web."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "wroclaw",
+        "coordinates": {
+          "lat": 51.10689,
+          "lng": 17.07733
+        },
+        "address": {
+          "street": "Wystawowa 1",
+          "postalCode": "51-618",
+          "city": "Wrocław",
+          "country": "Poland"
+        }
+      },
+      "categories": [
+        "architecture"
+      ],
+      "sourceUrls": [],
+      "aliases": [],
+      "sourceRecords": [
+        {
+          "productId": "wroclaw-four-days",
+          "kind": "route-stop",
+          "sourceId": "hala"
+        }
+      ],
+      "coordinateCandidates": [
+        {
+          "productId": "wroclaw-four-days",
+          "sourceId": "hala",
+          "lat": 51.10689,
+          "lng": 17.07733
+        }
+      ],
+      "status": "published",
+      "editorialPriority": "high",
+      "taxonomy": {
+        "categories": [
+          "architecture"
+        ],
+        "tags": [
+          "architecture",
+          "unesco",
+          "historical",
+          "photography"
+        ]
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://halastulecia.pl/en/for-visitors/",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.10689%2C17.07733",
+          "appleMaps": "https://maps.apple.com/?ll=51.10689,17.07733"
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "contentType": "personal-visit",
+        "personalVisit": true,
+        "originalPhotography": true,
+        "originalVideo": true,
+        "factualSources": [
+          {
+            "url": "https://whc.unesco.org/en/list/1165",
+            "verifiedAt": "2026-10-18"
+          },
+          {
+            "url": "https://halastulecia.pl/en/for-visitors/",
+            "verifiedAt": "2026-10-18"
+          }
+        ]
+      },
+      "media": {
+        "photos": [
+          "/assets/hala-stulecia-01.jpg",
+          "/assets/hala-stulecia-02.jpg",
+          "/assets/hala-stulecia-03.jpg",
+          "/assets/hala-stulecia-04.jpg",
+          "/assets/hala-stulecia-05.jpg",
+          "/assets/gallery-stulecia-02.jpg",
+          "/assets/gallery-stulecia-03.jpg",
+          "/assets/hala-refresh-oct18-01.jpg",
+          "/assets/hala-refresh-oct18-02.jpg",
+          "/assets/hala-refresh-oct18-03.jpg",
+          "/assets/hala-refresh-oct18-04.jpg",
+          "/assets/hala-refresh-oct18-05.jpg",
+          "/assets/round24h-20261022/hala-10.jpg",
+          "/assets/round24h-20261022/hala-13.jpg",
+          "/assets/round24h-20261022/hala-21.jpg",
+          "/assets/multimedia-fountain-04.jpg",
+          "/assets/multimedia-fountain-05.jpg"
+        ],
+        "videos": [
+          "/assets/hala-stulecia-visit.mp4",
+          "/assets/video-stulecia-fountain.mp4",
+          "/assets/hala-pergola-view-oct18.mp4",
+          "/assets/hala-iglica-plaza-oct18.mp4",
+          "https://www.youtube.com/watch?v=-nG5t4pZFxg",
+          "https://www.youtube.com/watch?v=oeTVQpkK7kU"
+        ],
+        "guideVideos": {
+          "he": "https://youtube.com/shorts/y74YI_tgRq0",
+          "en": "https://youtube.com/shorts/EOBJMMmLY_I"
+        },
+        "metadata": {
+          "/assets/hala-stulecia-01.jpg": {
+            "tags": [
+              "centennial-hall",
+              "exterior",
+              "architecture",
+              "hero"
+            ],
+            "original": true,
+            "heroCandidate": true,
+            "sourceFile": "IMG_5063.JPG"
+          },
+          "/assets/hala-stulecia-02.jpg": {
+            "tags": [
+              "centennial-hall",
+              "exterior",
+              "flowers"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5062.JPG"
+          },
+          "/assets/hala-stulecia-03.jpg": {
+            "tags": [
+              "centennial-hall",
+              "exterior",
+              "landscape"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5059.JPG"
+          },
+          "/assets/hala-stulecia-04.jpg": {
+            "tags": [
+              "centennial-hall",
+              "dwarf",
+              "visitor-detail"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5064.JPG"
+          },
+          "/assets/hala-stulecia-05.jpg": {
+            "tags": [
+              "centennial-hall",
+              "visitor-area",
+              "food-truck"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5104.JPG"
+          },
+          "/assets/hala-stulecia-visit.mp4": {
+            "tags": [
+              "centennial-hall",
+              "visitor-experience",
+              "video"
+            ],
+            "original": true,
+            "sourceFile": "IMG_5061.MOV"
+          },
+          "/assets/video-stulecia-fountain.mp4": {
+            "tags": [
+              "multimedia-fountain",
+              "centennial-hall-area",
+              "video"
+            ],
+            "original": true
+          },
+          "/assets/hala-refresh-oct18-01.jpg": {
+            "original": true,
+            "sourceFile": "IMG_0990.JPG",
+            "sourceSHA256": "51d2278a03c46c69638beaad16ffa17900d0f076a931c38722cc942c3158f86d",
+            "tags": [
+              "centennial-hall",
+              "exterior",
+              "architecture"
+            ]
+          },
+          "/assets/hala-refresh-oct18-02.jpg": {
+            "original": true,
+            "sourceFile": "IMG_5826.JPG",
+            "sourceSHA256": "0975afe74165ba6b256e7dac2880b8d61d6f5f293c93319e8ff25d7ca41b19fc",
+            "tags": [
+              "centennial-hall",
+              "exterior",
+              "architecture"
+            ]
+          },
+          "/assets/hala-refresh-oct18-03.jpg": {
+            "original": true,
+            "sourceFile": "IMG_5831.JPG",
+            "sourceSHA256": "57827cd9e6f3bda451aec3eaf0742d4efcb3619c01d925623296e39b1f13b34d",
+            "tags": [
+              "centennial-hall",
+              "exterior",
+              "architecture"
+            ]
+          },
+          "/assets/hala-refresh-oct18-04.jpg": {
+            "original": true,
+            "sourceFile": "IMG_5852.JPG",
+            "sourceSHA256": "3683a22a40ed230c92ca9cdd6cfb2513821a59e31434048eac61fe05ea06e5b8",
+            "tags": [
+              "centennial-hall",
+              "exterior",
+              "architecture"
+            ]
+          },
+          "/assets/hala-refresh-oct18-05.jpg": {
+            "original": true,
+            "sourceFile": "IMG_5853.JPG",
+            "sourceSHA256": "027690a89d788de97a032eda83d19de2af33c959e4610c3ffea96dd6f0f1ce51",
+            "tags": [
+              "centennial-hall",
+              "exterior",
+              "architecture"
+            ]
+          },
+          "/assets/hala-pergola-view-oct18.mp4": {
+            "original": true,
+            "sourceFile": "IMG_5828.MOV",
+            "sourceSHA256": "f1da2b16ec7fcadeca4d15906a362e1d80a34114a4748238585ffa3b937a5bdc",
+            "tags": [
+              "centennial-hall",
+              "visit-video"
+            ]
+          },
+          "/assets/hala-iglica-plaza-oct18.mp4": {
+            "original": true,
+            "sourceFile": "IMG_5851.MOV",
+            "sourceSHA256": "a5dddfb802740aff44863691d47e2337b0971b1f9aba39d777bce83a386c1a79",
+            "tags": [
+              "centennial-hall",
+              "visit-video"
+            ]
+          },
+          "/assets/round24h-20261022/hala-10.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/IMG_5103.JPG",
+            "sourceSHA256": "5689bfdb575c1379bdddfef5953bf43164543e849362af1918d46efcdc77d722",
+            "alt": {
+              "he": "מבקרים ודוכני אוכל זמניים בסביבת היכל המאה בעת הביקור",
+              "en": "Visitors and temporary food stalls around Centennial Hall during our visit",
+              "pl": "Odwiedzający i tymczasowe stoiska gastronomiczne przy Hali Stulecia podczas naszej wizyty",
+              "de": "Besucher und vorübergehende Imbissstände an der Jahrhunderthalle bei unserem Besuch",
+              "cs": "Návštěvníci a dočasné stánky s občerstvením u Haly století během naší návštěvy"
+            },
+            "caption": {
+              "he": "מבקרים ודוכני אוכל זמניים בסביבת היכל המאה בעת הביקור",
+              "en": "Visitors and temporary food stalls around Centennial Hall during our visit",
+              "pl": "Odwiedzający i tymczasowe stoiska gastronomiczne przy Hali Stulecia podczas naszej wizyty",
+              "de": "Besucher und vorübergehende Imbissstände an der Jahrhunderthalle bei unserem Besuch",
+              "cs": "Návštěvníci a dočasné stánky s občerstvením u Haly století během naší návštěvy"
+            },
+            "originalFullPicturePreserved": true,
+            "privacyReview": "Public visitors incidental in place photograph, no posed family portrait."
+          },
+          "/assets/round24h-20261022/hala-13.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/IMG_5829.JPG",
+            "sourceSHA256": "2649d64600a88b2969343f2e9c3ec9aca4d809852ad0827ade1fb904c75a79c4",
+            "alt": {
+              "he": "מבט אל היכל המאה מעבר לבריכה במסגרת של עלי עצים",
+              "en": "View of Centennial Hall across the pond framed by tree leaves",
+              "pl": "Widok na Halę Stulecia przez staw w obramowaniu liści drzew",
+              "de": "Blick über den Teich auf die Jahrhunderthalle, eingerahmt von Baumblättern",
+              "cs": "Pohled přes jezírko na Halu století v rámu listí stromů"
+            },
+            "caption": {
+              "he": "מבט אל היכל המאה מעבר לבריכה במסגרת של עלי עצים",
+              "en": "View of Centennial Hall across the pond framed by tree leaves",
+              "pl": "Widok na Halę Stulecia przez staw w obramowaniu liści drzew",
+              "de": "Blick über den Teich auf die Jahrhunderthalle, eingerahmt von Baumblättern",
+              "cs": "Pohled přes jezírko na Halu století v rámu listí stromů"
+            },
+            "originalFullPicturePreserved": true,
+            "privacyReview": "Public visitors incidental in place photograph, no posed family portrait."
+          },
+          "/assets/round24h-20261022/hala-21.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/WhatsApp Image 2026-07-22 at 14.44.51 (1).jpeg",
+            "sourceSHA256": "7a07197bac6a60121443528495fdaf50a8eca899403c41d81362fd70cbe4bcb4",
+            "alt": {
+              "he": "מבקרת מול הבריכה והיכל המאה",
+              "en": "A visitor in front of the pond and Centennial Hall",
+              "pl": "Odwiedzająca przed stawem i Halą Stulecia",
+              "de": "Eine Besucherin vor dem Teich und der Jahrhunderthalle",
+              "cs": "Návštěvnice před jezírkem a Halou století"
+            },
+            "caption": {
+              "he": "מבקרת מול הבריכה והיכל המאה",
+              "en": "A visitor in front of the pond and Centennial Hall",
+              "pl": "Odwiedzająca przed stawem i Halą Stulecia",
+              "de": "Eine Besucherin vor dem Teich und der Jahrhunderthalle",
+              "cs": "Návštěvnice před jezírkem a Halou století"
+            },
+            "originalFullPicturePreserved": true,
+            "approvalCall": "call_3be7eb9c2fcc41c5b196b7ca8024e085",
+            "specificPhotoApproval": true
+          },
+          "/assets/multimedia-fountain-04.jpg": {
+            "tags": [
+              "multimedia-fountain",
+              "centennial-hall",
+              "wide-view"
+            ],
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-07-22 at 14.44.51.jpeg",
+            "sharedCanonicalPhotoReference": "fountain",
+            "sharedReason": "The hall is clearly visible across its adjacent pond; same existing asset reused, no file duplication.",
+            "alt": {
+              "he": "היכל המאה מעבר לבריכה ולמזרקה בסביבתו",
+              "en": "Centennial Hall across the adjacent pond and fountain",
+              "pl": "Hala Stulecia po drugiej stronie pobliskiego stawu i fontanny",
+              "de": "Die Jahrhunderthalle jenseits des benachbarten Teichs und Brunnens",
+              "cs": "Hala století za přilehlým jezírkem a fontánou"
+            },
+            "caption": {
+              "he": "היכל המאה מעבר לבריכה ולמזרקה בסביבתו",
+              "en": "Centennial Hall across the adjacent pond and fountain",
+              "pl": "Hala Stulecia po drugiej stronie pobliskiego stawu i fontanny",
+              "de": "Die Jahrhunderthalle jenseits des benachbarten Teichs und Brunnens",
+              "cs": "Hala století za přilehlým jezírkem a fontánou"
+            }
+          },
+          "/assets/multimedia-fountain-05.jpg": {
+            "tags": [
+              "multimedia-fountain",
+              "centennial-hall",
+              "water-show"
+            ],
+            "original": true,
+            "sourceFile": "WhatsApp Image 2026-07-22 at 14.44.51 (2).jpeg",
+            "sharedCanonicalPhotoReference": "fountain",
+            "sharedReason": "The hall is clearly visible across its adjacent pond; same existing asset reused, no file duplication.",
+            "alt": {
+              "he": "היכל המאה מעבר לבריכה ולמזרקה בסביבתו",
+              "en": "Centennial Hall across the adjacent pond and fountain",
+              "pl": "Hala Stulecia po drugiej stronie pobliskiego stawu i fontanny",
+              "de": "Die Jahrhunderthalle jenseits des benachbarten Teichs und Brunnens",
+              "cs": "Hala století za přilehlým jezírkem a fontánou"
+            },
+            "caption": {
+              "he": "היכל המאה מעבר לבריכה ולמזרקה בסביבתו",
+              "en": "Centennial Hall across the adjacent pond and fountain",
+              "pl": "Hala Stulecia po drugiej stronie pobliskiego stawu i fontanny",
+              "de": "Die Jahrhunderthalle jenseits des benachbarten Teichs und Brunnens",
+              "cs": "Hala století za přilehlým jezírkem a fontánou"
+            }
+          },
+          "https://www.youtube.com/watch?v=-nG5t4pZFxg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/IMG_5850.MOV",
+            "sourceSHA256": "5180eea3152213ed54d8fd1a3f53ee6cbc2cd562e6ed97bcefa2baaf9b938600",
+            "uploadSHA256": "d8ffd2c8541e36a36b1c90ebf612f514126230ed51408ee2aac18c20b0818bf5",
+            "durationSeconds": 4.966667,
+            "title": {
+              "he": "היכל המאה והצריח ברחבה",
+              "en": "Centennial Hall and the Iglica spire",
+              "pl": "Hala Stulecia i Iglica",
+              "de": "Jahrhunderthalle und Iglica",
+              "cs": "Hala století a věž Iglica"
+            },
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_7ef0c1d7152d49928c1bb47d115f02e7",
+            "checksEvidence": "CopyrightNoIssues initial wizard; current Content Notices dash, noChecking, ClaimsNoImpact, SDcomplete before ordinary DetailsSave; reopened Public"
+          },
+          "https://www.youtube.com/watch?v=oeTVQpkK7kU": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Centenial Hall/WhatsApp Video 2026-09-24 at 17.32.26.mp4",
+            "sourceSHA256": "732ba3d93c1f0037a641e36f6d9fcf59bffc7fe6ea73089770481c147102375c",
+            "uploadSHA256": "21a34bbc2273f45ed01363fe0704e20b0cb3c11d96ef96e2227e3a3a829d2687",
+            "durationSeconds": 2.85,
+            "title": {
+              "he": "שביל גן ליד היכל המאה",
+              "en": "Garden path near Centennial Hall",
+              "pl": "Ścieżka ogrodowa przy Hali Stulecia",
+              "de": "Gartenweg an der Jahrhunderthalle",
+              "cs": "Zahradní cesta u Haly století"
+            },
+            "silent": true,
+            "originalFullPicturePreserved": true,
+            "visibility": "Public",
+            "publicReopened": true,
+            "sdComplete": true,
+            "approvalCall": "call_7ef0c1d7152d49928c1bb47d115f02e7",
+            "checksEvidence": "Wizard both Copyright+CommunityGuidelines complete NoIssues before ordinary Publish; reopened Public/SDcomplete"
+          }
+        }
+      },
+      "socialPosts": [
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeKXHlADBhV/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid036UfaZi1CerpaxXdVCXp5M7UJQ3cewJQtkD7WjV32CQG9KcmRWW5cFL61auuwmZ3Al&id=61595207664875",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0QhAckm7GZrCJ2stSsrAjkTPrWYNLsuT7oEcZ9GjLi8Jw6LvcewWFegmhXzrbGRTkl&id=61595239823399",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKfVDmDYKm/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0rgbNAx5M1iDs3ZDxsCHQ6kdUkTAEtP8jD5Uer6XLk9dBJw1jdHupUdG2QmV8Dcggl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKwh5xFSBv/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeKzkxmj-ta/",
+          "verifiedAt": "2026-10-06T22:00:58.646296+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0G1bgeG2TrQ6jn85L6hwxCFLRGJnwmpKG7pMmVj7oEbaSmvySre75V1q1vJB9hq5Dl&id=61594716405964",
+          "verifiedAt": "2026-10-06T22:27:16.195800+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122115263553398802/",
+          "verifiedAt": "2026-10-09T00:28:35.481Z"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/"
+        }
+      ]
+    }
+  },
+  "newPhotoAssets": [
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-00.jpg",
+      "assetSHA256": "f355ea699c8524a8c7ea5be280c518a15f258c7e6c93644b56286a5fdc04f220",
+      "sourceSHA256": "da959a5e1ce6d0cdf4e5c6b6cdef9e1ed4cf5da4da889081a4656d6d33b0550c"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-01.jpg",
+      "assetSHA256": "a8bdb3ccd7e897b0fdd0f5abdd79320fefd8027b54837739148c88dac20cec32",
+      "sourceSHA256": "08593a03b7867ac75cc0511203ddbcb165ef00ac020ed99d8f6b799ad6204cd3"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-02.jpg",
+      "assetSHA256": "e128da94eed2e08bd2d41d29d42aa1eec2648743b22ca27c71c9610459772a15",
+      "sourceSHA256": "b090ef71cf7c298eca73f56115ba2d3b7092798e7142fc84f75f17168e4d9664"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-03.jpg",
+      "assetSHA256": "59f2fbff8eb061b7dc713046a50168a2e6f956498366c76e867e82e89630cfd6",
+      "sourceSHA256": "2f64674fc07bcf944c7bbd255a5ab7d659c8181a483891d1670e2275991a9023"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-04.jpg",
+      "assetSHA256": "b0f17016549e07f7cd17765e0bc0dda729ee55e14a10a116b484261cfd17fad1",
+      "sourceSHA256": "aea25abf0e46df1ca1f439a6dc010623c35654e3a7c9c6e2833dee187da0bba7"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-06.jpg",
+      "assetSHA256": "327ea4f3d27925b0acf569ecc1edea35f0e87c399deae7eaad0ef510125ce52f",
+      "sourceSHA256": "25c2c23764d242ae5956767b444c5aa7864c19db98c8a9f6ce1fbdc3573b75fe"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-07.jpg",
+      "assetSHA256": "454c4649fcb4893b52aefd28f54a5a8a2504091c2320373d9d86b983537cdb9d",
+      "sourceSHA256": "85339400b713de0762328448d605695c078109ae711c70a9c7242b4871c1a740"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-08.jpg",
+      "assetSHA256": "b341d4c67c35c82dd4e1ad47fe765711dd0c1842885ea4c37ae1b832c296ceee",
+      "sourceSHA256": "94d5a7313a03babb4fac0fcbb297d89da27224da98a9ec7da56cd6eb36c5b4e3"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-09.jpg",
+      "assetSHA256": "f9928561320d7c099f33ad86c64cb7696941510e90491eb32241e727b0d211b3",
+      "sourceSHA256": "219a02d7a54b0cc8a494a1bcfb820116504e61c1f3fecc4f05f7d3a91acfc569"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-10.jpg",
+      "assetSHA256": "67259a459f4abfff179984ca382afbc3287745abc78b1aac007900be1223f6ed",
+      "sourceSHA256": "e8d8226f0de44ebe868d13bbfaffaf1172365ad7d62f4a7b03df364678e7eda5"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-11.jpg",
+      "assetSHA256": "35c8bee263e60c2f5dd602c7dd25ff60e5a982cfe833139de717f0ea70f8c2d3",
+      "sourceSHA256": "0b11939a0400579e344bc3100665b97f24a9ff6a908b60b4c2d2fb55bf0f5e2c"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-13.jpg",
+      "assetSHA256": "a725e496ba0b49887179fbd9f688476111ac4e0dc01c41f92dae0e600dde5803",
+      "sourceSHA256": "3925f4e4e96556e685ea92b8d6d446adebbb7c2c33363ab2a2c5da45421d186b"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-14.jpg",
+      "assetSHA256": "e3fc3c12c66cb11762e2569d92e0b9714e7112e480a802b4c8f9699ff08a3e0d",
+      "sourceSHA256": "d850a2f44f43f09e27c9783cf9418667b169b1bc87245a7cff432f2711f1f4f8"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-15.jpg",
+      "assetSHA256": "5080716983864d7dd23dc2af85e9847085f3c270252de8fe40375dda679dcaf6",
+      "sourceSHA256": "ab3eedebd959023421ca68da1b2720edefea91f45d832097cb7cd1b0b87818bd"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-16.jpg",
+      "assetSHA256": "810fe87bbddca6d8b542d6f03397963053063283eff86c5bd727231ed560cd07",
+      "sourceSHA256": "e7752ae8d564569d4bbe64881bda06de975b951576c04a8a34d8b23cc872c915"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-17.jpg",
+      "assetSHA256": "94a374a347cfc22772fd175b9960eb53fd686c0565b215839afb50f80f414f42",
+      "sourceSHA256": "25672598f1113916a5b4170e89c6287cdd6ed16772809259e4520fcf9a01f71a"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-18.jpg",
+      "assetSHA256": "86d27f270f92cec2c26fa01a1e4a3d8519b1bf4d101effc40ea96b496b2b9680",
+      "sourceSHA256": "951cd998b41efafef01ee9b0dc16f479c8822bc5a1475854df0bf227bb211ac0"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-19.jpg",
+      "assetSHA256": "7bc0ca2266c179ae43159379ab5862111f4be7ec16913da12d4fdb3920de82bd",
+      "sourceSHA256": "e1aefb7087607e5759557de18d85d621b770a96c01cf5ce691efa4fec7682116"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-20.jpg",
+      "assetSHA256": "3dae034df60da70a0196f5991c079d84473f2a18c0edb31367441f20f89321cb",
+      "sourceSHA256": "0ebfcfe0c4dbe620822c609387ebd0573997dfd513c27403c47b88bb71a8b71f"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-21.jpg",
+      "assetSHA256": "0bd6e43226ada6cfa61f5fba89f162acf301916b590c5d7e9e5b46a121ab1895",
+      "sourceSHA256": "311489074437cd7049b455aee55c63239bfc8425c358a27d17bf533aebf5c2df"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-22.jpg",
+      "assetSHA256": "de47099eabd4e517ace79a408e6ab2c6b712605bfd58a7a3367ee507ce697740",
+      "sourceSHA256": "7b8c838d053fb1e9d0a8fb4e4532a873cb90dfd6e0490dd40795dff0132e8467"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-23.jpg",
+      "assetSHA256": "3bce50b277f525153aaf8be7d22dc767e54dfd4a54ce1a68a6bcb86bcc758b42",
+      "sourceSHA256": "b87ab2231872092a314fab79409c57711509a5bfcc597fd48a8c6435846f13ff"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-25.jpg",
+      "assetSHA256": "bbdbf89f9dc82b7490758a61de8849c0fd4a1e6024ebc1a641e7f993b7177627",
+      "sourceSHA256": "e3cfb3df3443e735ff816e16dbc434d4b3bc1e614099f4c2c80b9e5facaa32b2"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-26.jpg",
+      "assetSHA256": "310e4e765d76c34171d15179006b91ed31ece887977969b34a521643f02d32fc",
+      "sourceSHA256": "cedcc3bc854bd7aefa3c76f7022e9976d3b4dae9ed2ca384deb06143d933a64b"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-27.jpg",
+      "assetSHA256": "1af2ca12daa428fa5a3c1d2423bfaf965bac0847b02addee32e4005c9c777dea",
+      "sourceSHA256": "131267c0b8c96317ce7bb2779063340ec6f23d2272938de1c4ac946ed6064491"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-28.jpg",
+      "assetSHA256": "a8b7705aa8a0dba6775c3080883c3643ea0050d15135ce4273e9fd825e5efaa4",
+      "sourceSHA256": "cd9cd88149b135fd80ff6a3ecf8759075ed999365f1e96bb2638cb68fd89517a"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-29.jpg",
+      "assetSHA256": "0726791d08195f78fda6ced27ac2821defb7922c8773f66e4aebcb3d03951629",
+      "sourceSHA256": "447e37b495918a05824fe30c7e28e80ecda72c829854085d3f93494fdb04a068"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-30.jpg",
+      "assetSHA256": "5f1234de370345cc662b7b3c3038cd749c7eea154324cc7595dd0b4899e5ca9c",
+      "sourceSHA256": "4798d9ac263b8282efeb9f09c4953475f23233e022e5fbb5713c31efd25f5873"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-31.jpg",
+      "assetSHA256": "9a1c87f1be2d039a913ab9436a86c4bab655a93baeb3ce483a4dedf0febf61b6",
+      "sourceSHA256": "c597c6fada6ee61f88c6f39bcef8c571a3b8e820951c6f104bc858e4bd5d05b4"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-32.jpg",
+      "assetSHA256": "83943ce81ff0f5a06fe1fdac5e8a582a49a1527215d3e6a7291950cabadc2563",
+      "sourceSHA256": "a9ae50886c096a702fecdbac56fc676363691f6aa35e98d59a71d4a450ddc678"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-34.jpg",
+      "assetSHA256": "a16a5b9e290292c13057dc2177aecb2e4edba2173c40f828841c14a0a6f1e9af",
+      "sourceSHA256": "c5ecdde89ba5484e4b76940c7bc79d30a64b05e3891b9bbfe1a9a51441466684"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-35.jpg",
+      "assetSHA256": "40c418d6f448bed63afa8162eac0f1ad99868ab5fb37ee2a158e7446c00b40ac",
+      "sourceSHA256": "dfb8ed1d62c90f24333c9ecc5d3923cf5e9a5750319a3e8e99267dbf0ea02005"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-36.jpg",
+      "assetSHA256": "d268e5673b1c8fb1eeca29ed0f14adab52638a5f0f7c9dfe8fd196950e2c256a",
+      "sourceSHA256": "3effe83fc9b3c28df14fd81477bae23f41abd85f14e3e1d4c25f565434ecee71"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-37.jpg",
+      "assetSHA256": "49a482182a6a800d63ae7d1d5ffaf819f28d18da7c66e4edf3e53865eecbd3e6",
+      "sourceSHA256": "03852a1e95976e8e9afae6f7e45592cf02c3781d8ea3f3f56b5550d7a097d756"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-38.jpg",
+      "assetSHA256": "d96eedba37e4a396ea3911eca032476a8f8a0faadddea17dd696b26c9a89119c",
+      "sourceSHA256": "767afd5b979cef271846a1375badc18cba9559b7a6d05e35675ad8be2afb1e45"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-40.jpg",
+      "assetSHA256": "dae83d57f4d07a7749e8d1cc15fe751f29f87a392f292a2cbb3674041208c29c",
+      "sourceSHA256": "dec102189ecfca44b63152bcedbed9724c291ac8461079519154cf51dd72f435"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-42.jpg",
+      "assetSHA256": "be4bdd50d37daf5919d3d7ba6b08993499e448b8649eefb7c1ba61b03a210bf5",
+      "sourceSHA256": "f8816d7e53e15e9a709f117b8635f2037b02c20e902046f817f2b0302119563c"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-45.jpg",
+      "assetSHA256": "a8b57b461411fccdf8633c15f1b215bc99c9c741e1376d84d4600ff02dbd0b80",
+      "sourceSHA256": "f13113f566e22549c9771b2d98ef1b73e8d478861acd2943b1374d2b3c1d69ed"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-46.jpg",
+      "assetSHA256": "9acdf861f3ed4c74a114c360de2c53c30b4d77f22c0c1a37589bf96297de0575",
+      "sourceSHA256": "5c292f17e50f5042b97f72152b48876a385d269f21a0ac70d360bbd7871cd0c1"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-47.jpg",
+      "assetSHA256": "ba336e0e385bee128eb1f1e208036d9cfd8009793252270135333e15922c22f6",
+      "sourceSHA256": "6b5ea703abf14f3dfd824c0908412ccd981737eb2980eac87c4649f6e3f688ad"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-48.jpg",
+      "assetSHA256": "024798a77a5d7c2d9ccc4bf677b6adc78514d6f01e1e72fdc035070f3f20c740",
+      "sourceSHA256": "16a07ed97155da029744380912ec8217b6ea5cdf4084b5439eef7e5a2d7c7906"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-51.jpg",
+      "assetSHA256": "8a359998e23fb092b0c54df6d1d6bd92202433ef90d9b4e326764e4f98776e9d",
+      "sourceSHA256": "e042612f81733043af5e4f0dffc10730fc2c8d8ea93cdaebea4684c881c154b4"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-53.jpg",
+      "assetSHA256": "f3fe41c231753b5b206aa4b83f266313bf9950e23b4502f23f4b2e7e22f4a5c0",
+      "sourceSHA256": "75d2f98a1bad965bc49db3c2f32ff8349b87c76456060989c7f87c7530982623"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-55.jpg",
+      "assetSHA256": "eec2add7484d3a28ad5d2647ebfe3bb22cd15fb8b800fc7767a561e31ff5e909",
+      "sourceSHA256": "6afe03eab6cf237c7b701cb54355dba40447a969d28c055bf3e9d1c5332be7c0"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-57.jpg",
+      "assetSHA256": "e41cef6772ad28bcb94ee20585c5fe7a49f0013068ab25d97c00ccb8fba40dfe",
+      "sourceSHA256": "84b6d304b7c8abcfef487891634baf77a5956209c855c7ea8399b77ac7debf54"
+    },
+    {
+      "canonicalId": "zoo-wroclaw",
+      "asset": "/assets/round24h-20261022/zoo-49.jpg",
+      "assetSHA256": "c9f479463b983d682006b0261c65213c84204ec3857b689d36cc82667f5081c0",
+      "sourceSHA256": "f7ce7581cbebc1b9a1068df66679b3485cab8d95e8eb3aae047463631bd0ffb6"
+    },
+    {
+      "canonicalId": "pergola",
+      "asset": "/assets/round24h-20261022/pergola-01.jpg",
+      "assetSHA256": "a71c9c04c3830347750bf416d76690d09e110e617d0f7658568504dd71cb0222",
+      "sourceSHA256": "5bd64893223e5669215c0932d6d0820ca8a1da3581cbe033be953a657019efb9"
+    },
+    {
+      "canonicalId": "pergola",
+      "asset": "/assets/round24h-20261022/pergola-02.jpg",
+      "assetSHA256": "cecaed936d1d2bb1ff41a820e772a8f0bf0f39bed273204c756257ee022e5036",
+      "sourceSHA256": "ac30880e97ca8dc9df10bab790ae9324f3b66c459f2c322aab809ded36c91a61"
+    },
+    {
+      "canonicalId": "pergola",
+      "asset": "/assets/round24h-20261022/pergola-03.jpg",
+      "assetSHA256": "eac60dd5814b874dae79e675ddb7e8855b87865d7c7c2b132ceaf7a57cf81368",
+      "sourceSHA256": "35ec968971b1c5a7391f4c69cb593a8cbe661f01fc44a50276ff0c0509499806"
+    },
+    {
+      "canonicalId": "pergola",
+      "asset": "/assets/round24h-20261022/pergola-09.jpg",
+      "assetSHA256": "ebd3ce5b7546814b1b344093caa806c71c5e18a7781ca58004fcbd22a711e3fe",
+      "sourceSHA256": "7a58f3784ddfd0efd6224628885a57e43bc60d676240cdf83abe13428c160ef2"
+    }
+  ],
+  "expectedPhotos": {
+    "zoo-wroclaw": 54,
+    "pergola": 7,
+    "japanese": 9,
+    "hala": 17
+  },
+  "removedMistakenHallVisit": "oeTVQpkK7kU",
+  "newVisits": [
+    {
+      "id": "zoo-wroclaw",
+      "url": "https://www.youtube.com/watch?v=fsCe2Lh4f-k",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4980.MOV",
+        "sourceSHA256": "b0e2eb1e149aa2baaa1f02a4ab94e7c83165e3a812145c961fdb0c05a2cfc494",
+        "uploadSHA256": "1d7db31efc091f2b1950f8636c34647ea5a012b6a13eee10f010330391388c5f",
+        "duration": 9.101667,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=b8f81c5ae21f00978e54171d064480d91cad95ea50503d6a9533821663aee95b",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "שבילי הגן וספסלים",
+          "en": "Garden paths and benches",
+          "pl": "Alejki i ławki",
+          "de": "Gartenwege und Bänke",
+          "cs": "Cesty a lavičky"
+        },
+        "verification": "Notices dash; no Checking; SD complete after private save"
+      }
+    },
+    {
+      "id": "zoo-wroclaw",
+      "url": "https://www.youtube.com/watch?v=5-LQ9RgRE-k",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4989.MOV",
+        "sourceSHA256": "30355165f0c8c58a36bcf110efedfa0c93b270affea81de02d657a3ecbac231c",
+        "uploadSHA256": "12923f8e497041017aa13a05ceeccb6fab274da8d729b66f6333c3eabeeba567",
+        "duration": 16.606667,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=fdcd33782ce61e3b8c086d3708e733b696cf21135a179e1fad74969cd7226aa2",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "מתחם בעלי חיים חיצוני",
+          "en": "Outdoor animal enclosure",
+          "pl": "Wybieg dla zwierząt",
+          "de": "Außengehege für Tiere",
+          "cs": "Venkovní výběh zvířat"
+        },
+        "verification": "Notices dash; no Checking; SD complete after private save"
+      }
+    },
+    {
+      "id": "zoo-wroclaw",
+      "url": "https://www.youtube.com/watch?v=FDZC50yJQyU",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_4992.MOV",
+        "sourceSHA256": "26e2daad069e8976b4e382b4ba1e9f98fb2ed893bc3389835ec1a227c6e27375",
+        "uploadSHA256": "7673bdf6027dccea1a3fc9470e239766ccc53331a9a2c38e90c330c7dcd61d73",
+        "duration": 9.401667,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=0f51576874786250a69ef943cff8741f823648bc3a3fede53063287c222f4394",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "שבילים וערוגות פרחים",
+          "en": "Paths and flower beds",
+          "pl": "Alejki i rabaty kwiatowe",
+          "de": "Wege und Blumenbeete",
+          "cs": "Cesty a květinové záhony"
+        },
+        "verification": "Notices dash; no Checking; SD complete"
+      }
+    },
+    {
+      "id": "zoo-wroclaw",
+      "url": "https://www.youtube.com/watch?v=GyqF4ZAbq1s",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5005.MOV",
+        "sourceSHA256": "8c6eb196f9341af03126f7dc9f6ccda9b64be1ac1af1225254db4822f6dd7202",
+        "uploadSHA256": "4a34b964450db2608184a00058fff4d19b4331f23ffd7b13a263ea736d55ca4d",
+        "duration": 3.333333,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=1bd4e6130bf4fca5fb9330900db6b74ac917cb43f2e07ea4cc8056efee7a6b8a",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "בריכה ומפל",
+          "en": "Pool and waterfall",
+          "pl": "Basen i wodospad",
+          "de": "Becken und Wasserfall",
+          "cs": "Bazén a vodopád"
+        },
+        "verification": "Notices dash; no Checking; SD complete"
+      }
+    },
+    {
+      "id": "zoo-wroclaw",
+      "url": "https://www.youtube.com/watch?v=5qlzSS3cQdQ",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5006.MOV",
+        "sourceSHA256": "ea9b45c9f83535228e0979269f16389910a708abfd92367ca756d7ccdf27ce60",
+        "uploadSHA256": "51535254ba05f55f2eefa23bfbcd94bab22d696172a9f59dad4e2c452e7263e7",
+        "duration": 4.533333,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=3bfb317b6fc9bf95a358b13b048bedcec62855fd23a12f8320f84d632e44fe1a",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "מבט אנכי על הבריכה והמפל",
+          "en": "Vertical view of the pool and waterfall",
+          "pl": "Pionowy widok basenu i wodospadu",
+          "de": "Hochformatansicht von Becken und Wasserfall",
+          "cs": "Svislý pohled na bazén a vodopád"
+        },
+        "verification": "Notices dash; no Checking; SD complete"
+      }
+    },
+    {
+      "id": "zoo-wroclaw",
+      "url": "https://www.youtube.com/watch?v=7Q2KTsKYNl0",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5025.MOV",
+        "sourceSHA256": "6244c0c6bf75a381fe64f1e7c0c583a2d1a8dc017bfcce27fd209837ae603898",
+        "uploadSHA256": "f9d483bd2cf1cdedde8093787921ecec00e4ddea33a6ae38dd231a05155ffcca",
+        "duration": 12.068333,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=d41760f70c65d15f4b0a964529d00edf5aa74eaaf61c4d80babd002b0ae7027c",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "מתחם הציפורים",
+          "en": "Bird aviary",
+          "pl": "Woliera z ptakami",
+          "de": "Vogelvoliere",
+          "cs": "Ptačí voliéra"
+        },
+        "verification": "Notices dash; no Checking; SD complete"
+      }
+    },
+    {
+      "id": "zoo-wroclaw",
+      "url": "https://www.youtube.com/watch?v=16AT4nUELtw",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zoo/IMG_5864 2.MOV",
+        "sourceSHA256": "ecf22768efeac593f0cb75085b239e5214e7ca5c0f7351680d43f96b2f1674c4",
+        "uploadSHA256": "3502fcac7adafeffd0943dfe18db07a4964a1f9368c28c7fc8660b38449d9bbc",
+        "duration": 3.133333,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=01a9c7f0d582f819970fa6560f19fae01ecac208672515a3c04974c4247274c8",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "דוכני אוכל ליד הכניסה לגן החיות",
+          "en": "Food stands near the zoo entrance",
+          "pl": "Stoiska z jedzeniem przy wejściu do zoo",
+          "de": "Imbissstände am Zooeingang",
+          "cs": "Stánky s jídlem u vstupu do zoo"
+        },
+        "verification": "Notices dash; no Checking; SD complete"
+      }
+    },
+    {
+      "id": "japanese",
+      "url": "https://www.youtube.com/watch?v=UKe3kP2sIG8",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Japanese Garden/IMG_5825 2.MOV",
+        "sourceSHA256": "fd32df9736503f180460f5079f23680bb9e54bca7940513c724decbc75b0b524",
+        "uploadSHA256": "747064f1c8f38dc4edf2d27b97301122d5635bfbba7142a0bb221eee5a3f9582",
+        "duration": 3.4,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=3f2aba7ad0edc4a75533d04b78ec5c248a6fb96fe15bb55b80e74635324be0ab",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "הכניסה לגן היפני והרחבה לפניה",
+          "en": "Japanese Garden entrance and forecourt",
+          "pl": "Wejście do Ogrodu Japońskiego i plac przed nim",
+          "de": "Eingang des Japanischen Gartens und Vorplatz",
+          "cs": "Vstup do Japonské zahrady a prostranství před ním"
+        },
+        "verification": "Notices dash; no Checking; SD complete"
+      }
+    },
+    {
+      "id": "pergola",
+      "url": "https://www.youtube.com/watch?v=fdPXZD5D4tE",
+      "metadata": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Pergola/IMG_5821 2.MOV",
+        "sourceSHA256": "aa1aec8e2b0e61bde5a43ddd5df3eca4432e283da0fc412c8fd40926f64805d6",
+        "uploadSHA256": "7092ba3316a896fae270f778332b6ead74e558dbb6928ed78dd59a19169431b5",
+        "duration": 3.933333,
+        "originalFullPicturePreserved": true,
+        "audio": "Removed from publication copy; original retained",
+        "pictureStreamSHA256": "SHA256=3b796691fe30eb44bc50a7551500d85893cc9ce4b0d399fac942addfb7bc622e",
+        "visibility": "Public",
+        "publicReopened": true,
+        "termsApprovalCall": "call_9f6e3c489c324bd9b8919083b9c52940",
+        "publishedAt": "2026-10-22T19:35:30.683Z",
+        "title": {
+          "he": "הליכה בשדרת העמודים באור השמש",
+          "en": "Sunlit colonnade walk",
+          "pl": "Spacer nasłonecznioną kolumnadą",
+          "de": "Spaziergang durch die sonnige Kolonnade",
+          "cs": "Procházka prosluněnou kolonádou"
+        },
+        "verification": "Wizard Copyright and Community Guidelines No issues; Public reopened; SD complete"
+      }
+    }
+  ],
+  "expectedVideos": {
+    "zoo-wroclaw": 9,
+    "japanese": 4,
+    "pergola": 8,
+    "hala": 5
+  }
+}
