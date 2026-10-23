@@ -10869,7 +10869,13 @@
         "/assets/today-source-refresh-20261021/run4-186-czarna-magia.jpg",
         "/assets/today-source-refresh-20261021/run4-187-czarna-magia.jpg",
         "/assets/today-source-refresh-20261021/run4-189-czarna-magia.jpg",
-        "/assets/today-source-refresh-20261021/run4-193-czarna-magia.jpg"
+        "/assets/today-source-refresh-20261021/run4-193-czarna-magia.jpg",
+        "/assets/food-round-oct23/czarna-magia-03.jpg",
+        "/assets/food-round-oct23/czarna-magia-05.jpg",
+        "/assets/food-round-oct23/czarna-magia-18.jpg",
+        "/assets/food-round-oct23/czarna-magia-21.jpg",
+        "/assets/food-round-oct23/czarna-magia-23.jpg",
+        "/assets/food-round-oct23/czarna-magia-27.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/OUCfd8uWYlA",
@@ -11096,6 +11102,144 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "/assets/food-round-oct23/czarna-magia-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.41 (1).jpeg",
+          "sourceSHA256": "46420ba806acbf791188cd82cc228a0fd5ff19c70686f59c8cc9cc6fdf9868f6",
+          "assetSHA256": "64dc40dffabe009df67fca2a2442101ce091ea5c652629ff86e4be9178d52f22",
+          "alt": {
+            "he": "קפה ועוגה ליד החלון בצארנה מגיה",
+            "en": "Coffee and cake by the window at Czarna Magia",
+            "pl": "Kawa i ciasto przy oknie w Czarnej Magii",
+            "de": "Kaffee und Kuchen am Fenster in Czarna Magia",
+            "cs": "Káva a dort u okna v Czarna Magia"
+          },
+          "title": {
+            "he": "קפה ועוגה ליד החלון בצארנה מגיה",
+            "en": "Coffee and cake by the window at Czarna Magia",
+            "pl": "Kawa i ciasto przy oknie w Czarnej Magii",
+            "de": "Kaffee und Kuchen am Fenster in Czarna Magia",
+            "cs": "Káva a dort u okna v Czarna Magia"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 3
+        },
+        "/assets/food-round-oct23/czarna-magia-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-01 at 09.20.41 (4).jpeg",
+          "sourceSHA256": "ff70cdbcb13c2b3c8937221cce261d8c77ea080432bdde4a037b1892dd4019e7",
+          "assetSHA256": "34439232eaf3d82c4e037b3c8c039b67928972564a6c53a9b75072eddadaced6",
+          "alt": {
+            "he": "חלל הישיבה המקומר בצארנה מגיה",
+            "en": "Vaulted seating area at Czarna Magia",
+            "pl": "Sklepione wnętrze Czarnej Magii",
+            "de": "Gewölbter Sitzbereich in Czarna Magia",
+            "cs": "Klenuté posezení v Czarna Magia"
+          },
+          "title": {
+            "he": "חלל הישיבה המקומר בצארנה מגיה",
+            "en": "Vaulted seating area at Czarna Magia",
+            "pl": "Sklepione wnętrze Czarnej Magii",
+            "de": "Gewölbter Sitzbereich in Czarna Magia",
+            "cs": "Klenuté posezení v Czarna Magia"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 5
+        },
+        "/assets/food-round-oct23/czarna-magia-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-18 at 09.58.02 (6).jpeg",
+          "sourceSHA256": "353c73439c489867b4e3b7a07752c865212dccd0dc61ec8979f56ffa5bd682d6",
+          "assetSHA256": "010101c233bf3f289ce1ea8ac5362db78970967ee8320edf85acfb7401df7842",
+          "alt": {
+            "he": "מוצרי היגיינה שהוצעו למבקרים בצארנה מגיה בזמן הביקור",
+            "en": "Sanitary products offered to visitors at Czarna Magia during the visit",
+            "pl": "Artykuły higieniczne dla gości Czarnej Magii podczas wizyty",
+            "de": "Hygieneartikel für Gäste von Czarna Magia während des Besuchs",
+            "cs": "Hygienické potřeby pro návštěvníky Czarna Magia během návštěvy"
+          },
+          "title": {
+            "he": "מוצרי היגיינה שהוצעו למבקרים בצארנה מגיה בזמן הביקור",
+            "en": "Sanitary products offered to visitors at Czarna Magia during the visit",
+            "pl": "Artykuły higieniczne dla gości Czarnej Magii podczas wizyty",
+            "de": "Hygieneartikel für Gäste von Czarna Magia während des Besuchs",
+            "cs": "Hygienické potřeby pro návštěvníky Czarna Magia během návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 18
+        },
+        "/assets/food-round-oct23/czarna-magia-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-21 at 21.34.45 (3).jpeg",
+          "sourceSHA256": "2f481f18af1fc744d0be77b0695488d1d10f1568ac4d61a256e77f2a3d663378",
+          "assetSHA256": "9f2850f89e17d60f2fc7c0605c81e5e863a0f7900ca4be05f6f831c2c3a6b687",
+          "alt": {
+            "he": "שולחנות הישיבה בסמטה של צארנה מגיה",
+            "en": "Czarna Magia outdoor tables in the passage",
+            "pl": "Stoliki Czarnej Magii w przejściu",
+            "de": "Außentische von Czarna Magia im Durchgang",
+            "cs": "Venkovní stolky Czarna Magia v průchodu"
+          },
+          "title": {
+            "he": "שולחנות הישיבה בסמטה של צארנה מגיה",
+            "en": "Czarna Magia outdoor tables in the passage",
+            "pl": "Stoliki Czarnej Magii w przejściu",
+            "de": "Außentische von Czarna Magia im Durchgang",
+            "cs": "Venkovní stolky Czarna Magia v průchodu"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 21
+        },
+        "/assets/food-round-oct23/czarna-magia-23.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-21 at 21.34.45 (5).jpeg",
+          "sourceSHA256": "b551f961f03b8690747b82ceb633e8b14143c6ec548673abe1c829eebbd0e6d2",
+          "assetSHA256": "0e5e57e9ac8322e420063e72faf2d15acd78926612e1513e603a17cc9f5f2cfb",
+          "alt": {
+            "he": "מבט נוסף אל פנים צארנה מגיה",
+            "en": "Another view of the Czarna Magia interior",
+            "pl": "Kolejny widok wnętrza Czarnej Magii",
+            "de": "Weitere Ansicht des Innenraums von Czarna Magia",
+            "cs": "Další pohled do interiéru Czarna Magia"
+          },
+          "title": {
+            "he": "מבט נוסף אל פנים צארנה מגיה",
+            "en": "Another view of the Czarna Magia interior",
+            "pl": "Kolejny widok wnętrza Czarnej Magii",
+            "de": "Weitere Ansicht des Innenraums von Czarna Magia",
+            "cs": "Další pohled do interiéru Czarna Magia"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 23
+        },
+        "/assets/food-round-oct23/czarna-magia-27.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/צארנה מגיה/WhatsApp Image 2026-10-21 at 21.34.46 (5).jpeg",
+          "sourceSHA256": "0b185d610e5cad3ea82b423e26182243a0b51316f922f57de1d8ce31a6a3cef1",
+          "assetSHA256": "209eca1b5c9c38c90c81590451aa69b48a552ccded65388720c4625e4f72930c",
+          "alt": {
+            "he": "הכניסה והשלט של צארנה מגיה",
+            "en": "Czarna Magia entrance and sign",
+            "pl": "Wejście i szyld Czarnej Magii",
+            "de": "Eingang und Schild von Czarna Magia",
+            "cs": "Vstup a cedule Czarna Magia"
+          },
+          "title": {
+            "he": "הכניסה והשלט של צארנה מגיה",
+            "en": "Czarna Magia entrance and sign",
+            "pl": "Wejście i szyld Czarnej Magii",
+            "de": "Eingang und Schild von Czarna Magia",
+            "cs": "Vstup a cedule Czarna Magia"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 27
         }
       }
     },
@@ -20614,7 +20758,10 @@
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/run4-151-india-concept-wroclaw.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/run4-151-india-concept-wroclaw.jpg"
+        "/assets/today-source-refresh-20261021/run4-151-india-concept-wroclaw.jpg",
+        "/assets/food-round-oct23/india-concept-wroclaw-40.jpg",
+        "/assets/food-round-oct23/india-concept-wroclaw-41.jpg",
+        "/assets/food-round-oct23/india-concept-wroclaw-44.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -20636,6 +20783,75 @@
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "userPhotoApproval": "call_eeecf0e044b74ae2867bf5e8fe14c7eb: מאשר להשתמש בתמונה",
           "familyForeground": false
+        },
+        "/assets/food-round-oct23/india-concept-wroclaw-40.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/india concept/WhatsApp Image 2026-10-19 at 16.50.51 (1).jpeg",
+          "sourceSHA256": "6368e035cd4db92577100ecba7c342946ac37dd4709c021fa7f753407eee07df",
+          "assetSHA256": "2e630fb3f692b41cd95eda4b8cf55088483478f3d314b9e657b57739cac38181",
+          "alt": {
+            "he": "חזית אינדיה קונספט בלילה",
+            "en": "India Concept frontage at night",
+            "pl": "Fasada India Concept nocą",
+            "de": "Fassade von India Concept bei Nacht",
+            "cs": "Průčelí India Concept v noci"
+          },
+          "title": {
+            "he": "חזית אינדיה קונספט בלילה",
+            "en": "India Concept frontage at night",
+            "pl": "Fasada India Concept nocą",
+            "de": "Fassade von India Concept bei Nacht",
+            "cs": "Průčelí India Concept v noci"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 40
+        },
+        "/assets/food-round-oct23/india-concept-wroclaw-41.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/india concept/WhatsApp Image 2026-10-19 at 16.50.51.jpeg",
+          "sourceSHA256": "90fdb2aafffc0a410abede8d4e1bc2279d7f037564bddf832bbe0fa89f326ad2",
+          "assetSHA256": "d5f41c6c5d488f7544057b29b9627dd67ef15a5ceb7671e8024ba07a2bbd2a3a",
+          "alt": {
+            "he": "שלט אינדיה קונספט באזור הכניסה",
+            "en": "India Concept sign in the entrance area",
+            "pl": "Szyld India Concept w strefie wejściowej",
+            "de": "Schild von India Concept im Eingangsbereich",
+            "cs": "Cedule India Concept ve vstupním prostoru"
+          },
+          "title": {
+            "he": "שלט אינדיה קונספט באזור הכניסה",
+            "en": "India Concept sign in the entrance area",
+            "pl": "Szyld India Concept w strefie wejściowej",
+            "de": "Schild von India Concept im Eingangsbereich",
+            "cs": "Cedule India Concept ve vstupním prostoru"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 41
+        },
+        "/assets/food-round-oct23/india-concept-wroclaw-44.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/india concept/WhatsApp Image 2026-10-21 at 21.34.45.jpeg",
+          "sourceSHA256": "4feda7cfede79d2885c18c3fa89086b78203ce9a35443259208665529776b03f",
+          "assetSHA256": "c4334fb318f7d78649e3cafb935d6b7a08ad9e2256d87149a1a3d37a3c2c51c5",
+          "alt": {
+            "he": "תפריט אינדיה קונספט שצולם בזמן הביקור; המחירים והשעות היסטוריים",
+            "en": "India Concept menu photographed during the visit; prices and times are historical",
+            "pl": "Menu India Concept sfotografowane podczas wizyty; ceny i godziny są historyczne",
+            "de": "Beim Besuch fotografierte Speisekarte von India Concept; Preise und Zeiten sind historisch",
+            "cs": "Menu India Concept vyfotografované během návštěvy; ceny a časy jsou historické"
+          },
+          "title": {
+            "he": "תפריט אינדיה קונספט שצולם בזמן הביקור; המחירים והשעות היסטוריים",
+            "en": "India Concept menu photographed during the visit; prices and times are historical",
+            "pl": "Menu India Concept sfotografowane podczas wizyty; ceny i godziny są historyczne",
+            "de": "Beim Besuch fotografierte Speisekarte von India Concept; Preise und Zeiten sind historisch",
+            "cs": "Menu India Concept vyfotografované během návštěvy; ceny a časy jsou historické"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 44
         }
       }
     },
@@ -28933,7 +29149,9 @@
     },
     "media": {
       "photos": [
-        "/assets/food-cafes/mania-al-taglio-kuznicza-01.jpg"
+        "/assets/food-cafes/mania-al-taglio-kuznicza-01.jpg",
+        "/assets/food-round-oct23/mania-al-taglio-kuznicza-46.jpg",
+        "/assets/food-round-oct23/mania-al-taglio-kuznicza-48.jpg"
       ],
       "videos": [
         "/assets/mania-al-taglio-kuznicza-visit-01.mp4"
@@ -28961,6 +29179,52 @@
           "visibility": "public",
           "checks": "complete-no-issues",
           "verifiedAt": "2026-10-18"
+        },
+        "/assets/food-round-oct23/mania-al-taglio-kuznicza-46.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/mania/WhatsApp Image 2026-10-05 at 18.25.00.jpeg",
+          "sourceSHA256": "18e67f9b7c2d32703ce4d95fbe8e5d33ff097626c150f8965ac1d3650239dd39",
+          "assetSHA256": "7c88dc9784ee1aecc89db70db0d8acd7fe0d267fcb8b1c5ab7a3be368374f9e9",
+          "alt": {
+            "he": "חזית מאניה אל טליו בערב",
+            "en": "Mania al Taglio frontage in the evening",
+            "pl": "Fasada Mania al Taglio wieczorem",
+            "de": "Fassade von Mania al Taglio am Abend",
+            "cs": "Průčelí Mania al Taglio večer"
+          },
+          "title": {
+            "he": "חזית מאניה אל טליו בערב",
+            "en": "Mania al Taglio frontage in the evening",
+            "pl": "Fasada Mania al Taglio wieczorem",
+            "de": "Fassade von Mania al Taglio am Abend",
+            "cs": "Průčelí Mania al Taglio večer"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 46
+        },
+        "/assets/food-round-oct23/mania-al-taglio-kuznicza-48.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/mania/WhatsApp Image 2026-10-19 at 08.41.51 (11).jpeg",
+          "sourceSHA256": "d35b601ad032347f00da65de6cf36f7b2be928123a973745954e23f1e976aa34",
+          "assetSHA256": "1602eadd892acdf853fa9bbe4c916a7eca57b95b6be2f3c8ded4ba6b201e9455",
+          "alt": {
+            "he": "דלפק הכניסה של מאניה אל טליו ומבקרים בתור",
+            "en": "Mania al Taglio entrance counter and visitors queuing",
+            "pl": "Lada przy wejściu do Mania al Taglio i kolejka gości",
+            "de": "Eingangstheke von Mania al Taglio und wartende Gäste",
+            "cs": "Vstupní pult Mania al Taglio a čekající návštěvníci"
+          },
+          "title": {
+            "he": "דלפק הכניסה של מאניה אל טליו ומבקרים בתור",
+            "en": "Mania al Taglio entrance counter and visitors queuing",
+            "pl": "Lada przy wejściu do Mania al Taglio i kolejka gości",
+            "de": "Eingangstheke von Mania al Taglio und wartende Gäste",
+            "cs": "Vstupní pult Mania al Taglio a čekající návštěvníci"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 48
         }
       }
     },
@@ -36391,9 +36655,49 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/food-round-oct23/pan-precel-58.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-round-oct23/pan-precel-58.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/WhatsApp Image 2026-10-21 at 21.12.07 (3).jpeg",
+          "sourceSHA256": "9f28dc00ac0997d0c3f80d949dba40e40b9da7806bdc20e5e7dd2b1e7c1eaaa2",
+          "assetSHA256": "6469cc555c8fd827510886e0edbaf038e3eecade066a537fd3a832ed2475ebad",
+          "alt": {
+            "he": "חזית פן פרצל ברחוב שווידניצקה",
+            "en": "Pan Precel frontage on Świdnicka Street",
+            "pl": "Fasada Pan Precel przy ulicy Świdnickiej",
+            "de": "Fassade von Pan Precel an der Świdnicka-Straße",
+            "cs": "Průčelí Pan Precel v ulici Świdnicka"
+          },
+          "title": {
+            "he": "חזית פן פרצל ברחוב שווידניצקה",
+            "en": "Pan Precel frontage on Świdnicka Street",
+            "pl": "Fasada Pan Precel przy ulicy Świdnickiej",
+            "de": "Fassade von Pan Precel an der Świdnicka-Straße",
+            "cs": "Průčelí Pan Precel v ulici Świdnicka"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 58
+        }
+      }
     },
     "socialPosts": [
       {
@@ -36417,19 +36721,6 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "pan-precel-express-grunwaldzki": {
@@ -45878,7 +46169,8 @@
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/03-stary-mlyn-rynek-wroclaw.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/03-stary-mlyn-rynek-wroclaw.jpg"
+        "/assets/today-source-refresh-20261021/03-stary-mlyn-rynek-wroclaw.jpg",
+        "/assets/food-round-oct23/stary-mlyn-rynek-wroclaw-52.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -45898,6 +46190,29 @@
           "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
           "original": true,
           "familyForeground": false
+        },
+        "/assets/food-round-oct23/stary-mlyn-rynek-wroclaw-52.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/stary malin/WhatsApp Image 2026-10-19 at 08.42.12.jpeg",
+          "sourceSHA256": "865c9a0ce7df77df2e1639e748600be188c465b241fcbdf2d2f8f0d6c224f5bb",
+          "assetSHA256": "59d59ff8ffc598f34d75a0c8d5a56ead6540dd451c367cf7ebb17d7ec6aa992c",
+          "alt": {
+            "he": "הכניסה המקושטת של סטארי מלין ומבקרים הממתינים בחוץ",
+            "en": "Stary Młyn decorated entrance and visitors waiting outside",
+            "pl": "Ozdobione wejście do Starego Młyna i goście czekający na zewnątrz",
+            "de": "Geschmückter Eingang von Stary Młyn und draußen wartende Gäste",
+            "cs": "Zdobený vstup Stary Młyn a návštěvníci čekající venku"
+          },
+          "title": {
+            "he": "הכניסה המקושטת של סטארי מלין ומבקרים הממתינים בחוץ",
+            "en": "Stary Młyn decorated entrance and visitors waiting outside",
+            "pl": "Ozdobione wejście do Starego Młyna i goście czekający na zewnątrz",
+            "de": "Geschmückter Eingang von Stary Młyn und draußen wartende Gäste",
+            "cs": "Zdobený vstup Stary Młyn a návštěvníci čekající venku"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-more-food-source-selection.json",
+          "reviewIndex": 52
         }
       }
     },

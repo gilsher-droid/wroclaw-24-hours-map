@@ -1,0 +1,18 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {runInNewContext} from 'node:vm';
+import {createHash} from 'node:crypto';
+const f=JSON.parse(readFileSync('data/five-cafes-thirteen-photos-oct23-preservation.json'));
+const window={};for(const file of ['data/place-catalog.js','data/canonical-experiences.js','data/lifestyle-places.js','data/location-media.js','data/cultural-places.js'])runInNewContext(readFileSync(file,'utf8'),{window,console});
+const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+test('Thirteen full cafe photographs preserve226 other records and all five identities, locations, heroes, guides, posts and visits',()=>{
+ let unchanged=0;for(const[id,h]of Object.entries(f.recordHashes)){const p=plain(window.WROC_CATALOG.getPlace(id));if(!f.authorizedIds.includes(id)){assert.equal(hash(p),h,id);unchanged++;continue;}const old=f.places[id];for(const k of Object.keys(old).filter(k=>k!=='media'))assert.deepEqual(p[k],old[k],id+'.'+k);for(const k of Object.keys(old.media).filter(k=>!['photos','metadata'].includes(k)))assert.deepEqual(p.media[k],old.media[k],id+'.media.'+k);assert.deepEqual(p.media.photos.slice(0,old.media.photos.length),old.media.photos);for(const[k,v]of Object.entries(old.media.metadata||{}))assert.deepEqual(p.media.metadata[k],v);}assert.equal(unchanged,226);
+});
+test('All thirteen exact source photos reach the five actual map galleries once with complete dimensions and five captions',()=>{
+ assert.equal(f.items.length,13);assert.equal(new Set(f.items.map(r=>r.asset)).size,13);
+ for(const[id,n]of Object.entries(f.expectedPhotoCounts)){const p=window.WROC_CATALOG.getPlace(id);assert.equal(p.media.photos.length,n,id);assert.deepEqual(plain(window.WROC_LOCATION_MEDIA[id].gallery),plain(p.media.photos),id+'adapter');assert.deepEqual(plain(window.WROC_LOCATION_MEDIA[id].videos),plain(p.media.videos));}
+ for(const r of f.items){const p=window.WROC_CATALOG.getPlace(r.canonicalId),m=p.media.metadata[r.asset];assert.equal(p.media.photos.filter(v=>v===r.asset).length,1);assert.equal(hashFile(r.asset),r.assetSHA256);assert.equal(m.sourceSHA256,r.sha256);assert.equal(m.originalFullPicturePreserved,true);assert.equal(m.familyExceptionApplied,false);assert.ok(Math.abs(r.sourceDimensions[0]/r.sourceDimensions[1]-r.assetDimensions[0]/r.assetDimensions[1])<0.001);for(const l of ['he','en','pl','de','cs'])assert.ok(m.alt[l]);}
+ assert.equal(f.items.find(r=>r.reviewIndex===58).canonicalId,'pan-precel');assert.equal(window.WROC_CATALOG.getPlace('pan-precel').location.coordinates.lat,51.1069625);
+});
+function hashFile(asset){return createHash('sha256').update(readFileSync('.'+asset)).digest('hex');}

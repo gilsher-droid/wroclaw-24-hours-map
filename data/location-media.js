@@ -280,3 +280,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Keep the complete canonical visit playlists on actual map/card actions, retaining existing resource descriptors.
 (function(){for(const id of ["pan-tadeusz-museum", "zyjnia-bwa-wroclaw", "rynek", "cafe-berg-wroclaw", "wuwa-estate"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;r.videos=p.media.videos;window.WROC_LOCATION_MEDIA[id]=r;}})();
+
+// Full new photo galleries on the existing cafe map cards; retain social/guide descriptors.
+(function(){for(const id of ["czarna-magia", "india-concept-wroclaw", "mania-al-taglio-kuznicza", "stary-mlyn-rynek-wroclaw", "pan-precel"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;r.videos=p.media.videos;window.WROC_LOCATION_MEDIA[id]=r;}})();
