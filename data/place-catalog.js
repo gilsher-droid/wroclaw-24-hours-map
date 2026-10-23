@@ -3060,7 +3060,8 @@
         "/assets/barbara-wroclaw-exhibition-poster.jpg",
         "/assets/barbara-wroclaw-historic-menu-detail.jpg",
         "/assets/barbara-wroclaw-exhibition-room.jpg",
-        "/assets/barbara-wroclaw-mosaic-column.jpg"
+        "/assets/barbara-wroclaw-mosaic-column.jpg",
+        "/assets/round-other-20261023/recovered-barbara-wroclaw-7.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/lX2mxhtVMi8",
@@ -3261,6 +3262,34 @@
             "de": "Besuchsclip von Aushängen und Innenraum in Barbara",
             "cs": "Záběry nástěnky a interiéru Barbary"
           }
+        },
+        "/assets/round-other-20261023/recovered-barbara-wroclaw-7.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BARBARA/WhatsApp Image 2026-10-20 at 12.28.16.jpeg",
+          "sourceSHA256": "9c3436084f436db2460dd3dd774300c452c969ecbbee7446e5d636009d0f9025",
+          "assetSHA256": "fb81fd0aa5acb9e7d9210cc8df11d84deb73db0e22927ae3febce3c6daf7c00f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "לוח הצהרת ורוצלב בברברה",
+            "en": "Wrocław Declaration plaque at Barbara",
+            "pl": "Tablica Deklaracji Wrocławskiej w Barbarze",
+            "de": "Tafel der Breslauer Erklärung in Barbara",
+            "cs": "Deska Vratislavské deklarace v Barbaře"
+          },
+          "title": {
+            "he": "לוח הצהרת ורוצלב בברברה",
+            "en": "Wrocław Declaration plaque at Barbara",
+            "pl": "Tablica Deklaracji Wrocławskiej w Barbarze",
+            "de": "Tafel der Breslauer Erklärung in Barbara",
+            "cs": "Deska Vratislavské deklarace v Barbaře"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "place-visit"
+          ]
         }
       }
     },
@@ -7675,7 +7704,10 @@
         "/assets/food-cafes/cafe-berg-06.jpg",
         "/assets/food-cafes/cafe-berg-07.jpg",
         "/assets/food-cafes/cafe-berg-08.jpg",
-        "/assets/food-cafes/cafe-berg-09.jpg"
+        "/assets/food-cafes/cafe-berg-09.jpg",
+        "/assets/round-other-20261023/recovered-cafe-berg-wroclaw-1.jpg",
+        "/assets/round-other-20261023/recovered-cafe-berg-wroclaw-2.jpg",
+        "/assets/round-other-20261023/recovered-cafe-berg-wroclaw-4.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/bEKAP8m_KoI"
@@ -7806,6 +7838,90 @@
           "visibility": "Public",
           "checksComplete": true,
           "verifiedAt": "2026-10-20"
+        },
+        "/assets/round-other-20261023/recovered-cafe-berg-wroclaw-1.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-05 at 18.26.39 (2).jpeg",
+          "sourceSHA256": "8b7fdc963ed824c5a29125b729bbeeadbc51e060e4631d7e1cd0e4bae11adf35",
+          "assetSHA256": "09d53a720922c94ba37719358a0a12712cf4e64e83b6e632ce02a299b77b894e",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "כוס קפה בביקור שלנו בבית הקפה",
+            "en": "Coffee during our cafe visit",
+            "pl": "Kawa podczas naszej wizyty w kawiarni",
+            "de": "Kaffee bei unserem Cafébesuch",
+            "cs": "Káva během naší návštěvy kavárny"
+          },
+          "title": {
+            "he": "כוס קפה בביקור שלנו בבית הקפה",
+            "en": "Coffee during our cafe visit",
+            "pl": "Kawa podczas naszej wizyty w kawiarni",
+            "de": "Kaffee bei unserem Cafébesuch",
+            "cs": "Káva během naší návštěvy kavárny"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "place-visit"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-cafe-berg-wroclaw-2.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-05 at 18.26.39 (3).jpeg",
+          "sourceSHA256": "8b5429342c1323b0e559a1bd763a4672c1a6f045b97b6b72a7d7a88adb84f525",
+          "assetSHA256": "8b0ced9576e8380a0e6e9cccc87564d2634fd2ca466aba623ba6299ae80bdc96",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "מבט נוסף על כוס הקפה בביקור שלנו",
+            "en": "Another view of our coffee during the visit",
+            "pl": "Inne ujęcie kawy podczas naszej wizyty",
+            "de": "Weitere Aufnahme des Kaffees bei unserem Besuch",
+            "cs": "Další pohled na kávu během naší návštěvy"
+          },
+          "title": {
+            "he": "מבט נוסף על כוס הקפה בביקור שלנו",
+            "en": "Another view of our coffee during the visit",
+            "pl": "Inne ujęcie kawy podczas naszej wizyty",
+            "de": "Weitere Aufnahme des Kaffees bei unserem Besuch",
+            "cs": "Další pohled na kávu během naší návštěvy"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "place-visit"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-cafe-berg-wroclaw-4.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Image 2026-10-05 at 18.26.43.jpeg",
+          "sourceSHA256": "a444a9a3183eddfc921cf73e627e605ababb1fefcbc9181aaf4beacdbdb091a8",
+          "assetSHA256": "c26c0d1e8ee51194857ff2fd0690ce543e8baf5a1cf46a2652a10333c4ca6afd",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "חזית בית הקפה והכניסה",
+            "en": "Cafe facade and entrance",
+            "pl": "Fasada i wejście do kawiarni",
+            "de": "Fassade und Eingang des Cafés",
+            "cs": "Průčelí a vstup do kavárny"
+          },
+          "title": {
+            "he": "חזית בית הקפה והכניסה",
+            "en": "Cafe facade and entrance",
+            "pl": "Fasada i wejście do kawiarni",
+            "de": "Fassade und Eingang des Cafés",
+            "cs": "Průčelí a vstup do kavárny"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "place-visit"
+          ]
         }
       }
     },
@@ -53501,11 +53617,30 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
       "photos": [
         "/assets/wuwa-estate-18.jpg",
         "/assets/wuwa-estate-19.jpg",
-        "/assets/wuwa-estate-20.jpg"
+        "/assets/wuwa-estate-20.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-32.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-34.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-52.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-62.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-63.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-65.jpg"
       ],
       "videos": [
         "/assets/wuwa-cafe-visit-01.mp4"
@@ -53513,6 +53648,176 @@
       "guideVideos": {
         "he": "https://youtube.com/shorts/tEbmB6OWe90",
         "en": "https://youtube.com/shorts/4EnO5yNkQxc"
+      },
+      "metadata": {
+        "/assets/round-other-20261023/recovered-wuwa-32.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 17.26.10 (1).jpeg",
+          "sourceSHA256": "9792c328deda76cef94a08a1fc74f2de2a359c16a17c4da653dac4272464e4b8",
+          "assetSHA256": "98403d06956ef674ce7a679de5bb2865c9c91314ed59e8fff98c2f9cbc6c1a26",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "עוגה ומשקה בשולחן החוץ של בית הקפה",
+            "en": "Cake and drink at an outdoor cafe table",
+            "pl": "Ciasto i napój na stoliku na zewnątrz kawiarni",
+            "de": "Kuchen und Getränk am Außentisch des Cafés",
+            "cs": "Dort a nápoj na venkovním stolku kavárny"
+          },
+          "title": {
+            "he": "עוגה ומשקה בשולחן החוץ של בית הקפה",
+            "en": "Cake and drink at an outdoor cafe table",
+            "pl": "Ciasto i napój na stoliku na zewnątrz kawiarni",
+            "de": "Kuchen und Getränk am Außentisch des Cafés",
+            "cs": "Dort a nápoj na venkovním stolku kavárny"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-cafe"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-34.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 17.26.11 (3).jpeg",
+          "sourceSHA256": "bae176cb62b566682e11a389a5c5f5727883d0605b3ea5b455ee8fe9c5ff05d2",
+          "assetSHA256": "0d042c12a3b2374159c38ba57fbab825692aa18e34b2fa21cf69376fd9592f33",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "מבט נוסף על העוגה והמשקה בביקור שלנו",
+            "en": "Another view of the cake and drink during our visit",
+            "pl": "Inne ujęcie ciasta i napoju podczas naszej wizyty",
+            "de": "Weitere Aufnahme von Kuchen und Getränk bei unserem Besuch",
+            "cs": "Další pohled na dort a nápoj během naší návštěvy"
+          },
+          "title": {
+            "he": "מבט נוסף על העוגה והמשקה בביקור שלנו",
+            "en": "Another view of the cake and drink during our visit",
+            "pl": "Inne ujęcie ciasta i napoju podczas naszej wizyty",
+            "de": "Weitere Aufnahme von Kuchen und Getränk bei unserem Besuch",
+            "cs": "Další pohled na dort a nápoj během naší návštěvy"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-cafe"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-52.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 19.02.58 (1).jpeg",
+          "sourceSHA256": "4fc29ec7b0549dd7918d8a393f4e34678a9047bc466c59f02643c34189f7b6c3",
+          "assetSHA256": "89bffc5abeadd3516abbb5e9083f01f9b008f77a41be2e71a5dbef557129ffa0",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "ישיבת חוץ בבית הקפה והרחוב שמעבר",
+            "en": "Outdoor cafe seating and the street beyond",
+            "pl": "Miejsca na zewnątrz kawiarni i ulica w tle",
+            "de": "Außensitzplätze des Cafés und die Straße dahinter",
+            "cs": "Venkovní posezení kavárny a ulice v pozadí"
+          },
+          "title": {
+            "he": "ישיבת חוץ בבית הקפה והרחוב שמעבר",
+            "en": "Outdoor cafe seating and the street beyond",
+            "pl": "Miejsca na zewnątrz kawiarni i ulica w tle",
+            "de": "Außensitzplätze des Cafés und die Straße dahinter",
+            "cs": "Venkovní posezení kavárny a ulice v pozadí"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-cafe"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-62.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-10-01 at 09.27.57 (10).jpeg",
+          "sourceSHA256": "6ddb57a830cad6017a20b8c1ef9120cfe3a41ee456162f8bd92fe1e94aa34487",
+          "assetSHA256": "0143677e462f22b51e1e6bae6c9aa1790a161f60b6aba354a231242c16ad3d85",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "קפה ועוגה ליד כיסאות הנוח של בית הקפה",
+            "en": "Coffee and cake beside the cafe deckchairs",
+            "pl": "Kawa i ciasto przy leżakach kawiarni",
+            "de": "Kaffee und Kuchen neben den Liegestühlen des Cafés",
+            "cs": "Káva a dort u lehátek kavárny"
+          },
+          "title": {
+            "he": "קפה ועוגה ליד כיסאות הנוח של בית הקפה",
+            "en": "Coffee and cake beside the cafe deckchairs",
+            "pl": "Kawa i ciasto przy leżakach kawiarni",
+            "de": "Kaffee und Kuchen neben den Liegestühlen des Cafés",
+            "cs": "Káva a dort u lehátek kavárny"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-cafe"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-63.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-10-01 at 09.27.57 (6).jpeg",
+          "sourceSHA256": "2ccccfd28a70ace943dd5825628787f840a24563e65eef8a6b5c2d1af54cf3d8",
+          "assetSHA256": "d3834837961e0a1b894a5c29551b8bb82dccd52f0be5cbc98bc6f94dc74f1d5a",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "מבט נוסף על שולחן הקפה והעוגה בחוץ",
+            "en": "Another view of the outdoor coffee and cake table",
+            "pl": "Inne ujęcie stolika z kawą i ciastem na zewnątrz",
+            "de": "Weitere Aufnahme des Außentisches mit Kaffee und Kuchen",
+            "cs": "Další pohled na venkovní stolek s kávou a dortem"
+          },
+          "title": {
+            "he": "מבט נוסף על שולחן הקפה והעוגה בחוץ",
+            "en": "Another view of the outdoor coffee and cake table",
+            "pl": "Inne ujęcie stolika z kawą i ciastem na zewnątrz",
+            "de": "Weitere Aufnahme des Außentisches mit Kaffee und Kuchen",
+            "cs": "Další pohled na venkovní stolek s kávou a dortem"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-cafe"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-65.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-10-05 at 18.33.53 (4).jpeg",
+          "sourceSHA256": "1a24aafc81fce47814d349af23790a8e9e2b15134fc2e95ce4a1335a7f08b720",
+          "assetSHA256": "61dba93d8c75a4b3afcfe37f507669755932b499d4ceb1b84853adfe6d497a2c",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שולחן קפה עם עוגה וספלים בבית הקפה",
+            "en": "Cafe table with cake and coffee cups",
+            "pl": "Stolik kawiarni z ciastem i filiżankami kawy",
+            "de": "Cafétisch mit Kuchen und Kaffeetassen",
+            "cs": "Stolek v kavárně s dortem a šálky kávy"
+          },
+          "title": {
+            "he": "שולחן קפה עם עוגה וספלים בבית הקפה",
+            "en": "Cafe table with cake and coffee cups",
+            "pl": "Stolik kawiarni z ciastem i filiżankami kawy",
+            "de": "Cafétisch mit Kuchen und Kaffeetassen",
+            "cs": "Stolek v kavárně s dortem a šálky kávy"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-cafe"
+          ]
+        }
       }
     },
     "socialPosts": [
@@ -53570,19 +53875,6 @@
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUv_EEkU6W/",
         "verifiedAt": "2026-10-10T18:41:21.031Z"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "wuwa-estate": {
@@ -53719,7 +54011,11 @@
         "/assets/round-other-20261023/wuwa-estate-22.jpg",
         "/assets/round-other-20261023/wuwa-estate-30.jpg",
         "/assets/round-other-20261023/wuwa-estate-92.jpg",
-        "/assets/round-other-20261023/wuwa-estate-93.jpg"
+        "/assets/round-other-20261023/wuwa-estate-93.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-estate-51.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-estate-58.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-estate-59.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg"
       ],
       "videos": [
         "/assets/wuwa-cafe-visit-01.mp4",
@@ -54359,6 +54655,118 @@
             "cs": "Průčelí Park Hotelu v souboru WuWA"
           },
           "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/recovered-wuwa-estate-51.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 17.34.30.jpeg",
+          "sourceSHA256": "3d66cd939633506184ebd9d84e094f6feff8e7fa6166e7fb7f6ed58bae1a195f",
+          "assetSHA256": "3e8b91490c1e8c96e4629884d97f94836a151c2f16d11cf2c36d316da118ad42",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "דלת אדומה, פרט אדריכלי בשכונת וו־ווה",
+            "en": "Red door, an architectural detail in the WuWA estate",
+            "pl": "Czerwone drzwi, detal architektoniczny osiedla WuWA",
+            "de": "Rote Tür, ein Architekturdetail der WuWA-Siedlung",
+            "cs": "Červené dveře, architektonický detail sídliště WuWA"
+          },
+          "title": {
+            "he": "דלת אדומה, פרט אדריכלי בשכונת וו־ווה",
+            "en": "Red door, an architectural detail in the WuWA estate",
+            "pl": "Czerwone drzwi, detal architektoniczny osiedla WuWA",
+            "de": "Rote Tür, ein Architekturdetail der WuWA-Siedlung",
+            "cs": "Červené dveře, architektonický detail sídliště WuWA"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-estate"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-estate-58.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 19.03.00 (24).jpeg",
+          "sourceSHA256": "d6dcfdfef1e5bc03139d343c68d04d8b0e7396571ec7b793c16950d0de574918",
+          "assetSHA256": "6f383343f3cee20be0ede8207983219fc7fd07afe14390644b62e6d9d3048657",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שלט וו־ווה ופינת הישיבה לצד שביל השכונה",
+            "en": "WuWA sign and seating beside an estate path",
+            "pl": "Napis WuWA i miejsca do siedzenia przy ścieżce osiedla",
+            "de": "WuWA-Schriftzug und Sitzplätze am Weg der Siedlung",
+            "cs": "Nápis WuWA a posezení u cesty v sídlišti"
+          },
+          "title": {
+            "he": "שלט וו־ווה ופינת הישיבה לצד שביל השכונה",
+            "en": "WuWA sign and seating beside an estate path",
+            "pl": "Napis WuWA i miejsca do siedzenia przy ścieżce osiedla",
+            "de": "WuWA-Schriftzug und Sitzplätze am Weg der Siedlung",
+            "cs": "Nápis WuWA a posezení u cesty v sídlišti"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-estate"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-estate-59.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 19.03.00 (25).jpeg",
+          "sourceSHA256": "b33666fb50175163eeb402930a834cffda55f9bf9b0a768eee17fe91c142d99d",
+          "assetSHA256": "ed2fbf772acc3d740f9b2c81a4a74e97e3d83c1d46a46f53c21165e9b2682d98",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שביל ועצים בסביבת שכונת וו־ווה",
+            "en": "Path and trees around the WuWA estate",
+            "pl": "Ścieżka i drzewa w otoczeniu osiedla WuWA",
+            "de": "Weg und Bäume im Umfeld der WuWA-Siedlung",
+            "cs": "Cesta a stromy v okolí sídliště WuWA"
+          },
+          "title": {
+            "he": "שביל ועצים בסביבת שכונת וו־ווה",
+            "en": "Path and trees around the WuWA estate",
+            "pl": "Ścieżka i drzewa w otoczeniu osiedla WuWA",
+            "de": "Weg und Bäume im Umfeld der WuWA-Siedlung",
+            "cs": "Cesta a stromy v okolí sídliště WuWA"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-estate"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.34.31 (1).jpeg",
+          "sourceSHA256": "3cf03d7ee5f7375190c4bd993f8ec14cf82f6e2bfc1fd9fe5076a813a91eb46b",
+          "assetSHA256": "6dca2bcca1ee5e823a3162b3a7939fc1c8b2b13c64d6115b6429ec3a557d04ee",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שלטי רחובות בסביבת שכונת וו־ווה",
+            "en": "Street signs around the WuWA estate",
+            "pl": "Tablice ulic w otoczeniu osiedla WuWA",
+            "de": "Straßenschilder im Umfeld der WuWA-Siedlung",
+            "cs": "Uliční tabule v okolí sídliště WuWA"
+          },
+          "title": {
+            "he": "שלטי רחובות בסביבת שכונת וו־ווה",
+            "en": "Street signs around the WuWA estate",
+            "pl": "Tablice ulic w otoczeniu osiedla WuWA",
+            "de": "Straßenschilder im Umfeld der WuWA-Siedlung",
+            "cs": "Uliční tabule v okolí sídliště WuWA"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-estate"
+          ]
         }
       }
     },
