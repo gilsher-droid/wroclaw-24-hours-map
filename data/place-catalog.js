@@ -1287,7 +1287,10 @@
         "/assets/arche-klasztor-12.jpg",
         "/assets/arche-klasztor-13.jpg",
         "/assets/arche-klasztor-14.jpg",
-        "/assets/arche-klasztor-15.jpg"
+        "/assets/arche-klasztor-15.jpg",
+        "/assets/food-round-oct23/arche-klasztor-086.jpg",
+        "/assets/food-round-oct23/arche-klasztor-090.jpg",
+        "/assets/food-round-oct23/arche-klasztor-093.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -1510,6 +1513,81 @@
             "cs": "Průčelí areálu a prostor před ním v noci"
           },
           "verifiedAt": "2026-10-20T18:42:08.948079+00:00"
+        },
+        "/assets/food-round-oct23/arche-klasztor-086.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.15 (1).jpeg",
+          "sourceSHA256": "7376bd66df7fa95be151d935a2d543b13eaafb25a7f6d250f27c59cee952c3f9",
+          "assetSHA256": "4c8f3c23573531e7a060eadb8bc3dbdab609408ac46f31199e564d3adbd32585",
+          "title": {
+            "he": "מנות על שולחן במסעדת ארכה קלשטור",
+            "en": "Dishes on a table at Arche Klasztor restaurant",
+            "pl": "Dania na stole w restauracji Arche Klasztor",
+            "de": "Gerichte auf einem Tisch im Restaurant Arche Klasztor",
+            "cs": "Jídla na stole v restauraci Arche Klasztor"
+          },
+          "alt": {
+            "he": "מנות על שולחן במסעדת ארכה קלשטור",
+            "en": "Dishes on a table at Arche Klasztor restaurant",
+            "pl": "Dania na stole w restauracji Arche Klasztor",
+            "de": "Gerichte auf einem Tisch im Restaurant Arche Klasztor",
+            "cs": "Jídla na stole v restauraci Arche Klasztor"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 86,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/arche-klasztor-090.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.16 (1).jpeg",
+          "sourceSHA256": "15cacbc74032e2ea9e8adc113f490406233832d7f72e35bfb55c48578ab364a2",
+          "assetSHA256": "4674b410d982a18533ecc4e025f6e197076d409c42c6a1ea39813759be252aaa",
+          "title": {
+            "he": "תפריט על השולחן בארכה קלשטור בזמן הביקור",
+            "en": "Menu on the table at Arche Klasztor during the visit",
+            "pl": "Menu na stole w Arche Klasztor podczas wizyty",
+            "de": "Speisekarte auf dem Tisch in Arche Klasztor beim Besuch",
+            "cs": "Jídelní lístek na stole v Arche Klasztor během návštěvy"
+          },
+          "alt": {
+            "he": "תפריט על השולחן בארכה קלשטור בזמן הביקור",
+            "en": "Menu on the table at Arche Klasztor during the visit",
+            "pl": "Menu na stole w Arche Klasztor podczas wizyty",
+            "de": "Speisekarte auf dem Tisch in Arche Klasztor beim Besuch",
+            "cs": "Jídelní lístek na stole v Arche Klasztor během návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 90,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/arche-klasztor-093.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Arche Klasztor Wroclaw/WhatsApp Image 2026-09-24 at 17.31.17 (2).jpeg",
+          "sourceSHA256": "33ed176f41a491ce3c5cd155ec9e26d81a3d2ed74c34829c23fd07904ec6879a",
+          "assetSHA256": "dddf4d21a1667d0340b9fc70d626aba56935793cb840625e326cf908274b8d5a",
+          "title": {
+            "he": "מבט נוסף על תנור האריחים בארכה קלשטור",
+            "en": "Another view of the tiled stove at Arche Klasztor",
+            "pl": "Kolejny widok pieca kaflowego w Arche Klasztor",
+            "de": "Weitere Ansicht des Kachelofens in Arche Klasztor",
+            "cs": "Další pohled na kachlová kamna v Arche Klasztor"
+          },
+          "alt": {
+            "he": "מבט נוסף על תנור האריחים בארכה קלשטור",
+            "en": "Another view of the tiled stove at Arche Klasztor",
+            "pl": "Kolejny widok pieca kaflowego w Arche Klasztor",
+            "de": "Weitere Ansicht des Kachelofens in Arche Klasztor",
+            "cs": "Další pohled na kachlová kamna v Arche Klasztor"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 93,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
         }
       }
     },
@@ -16485,7 +16563,18 @@
         "/assets/four-denominations-refresh/four-denominations-refresh-13.jpg",
         "/assets/four-denominations-refresh/four-denominations-refresh-14.jpg",
         "/assets/four-denominations-refresh/four-denominations-refresh-15.jpg",
-        "/assets/today-source-refresh-20261021/run4-046-four-denominations-district.jpg"
+        "/assets/today-source-refresh-20261021/run4-046-four-denominations-district.jpg",
+        "/assets/food-round-oct23/four-denominations-district-003.jpg",
+        "/assets/food-round-oct23/four-denominations-district-004.jpg",
+        "/assets/food-round-oct23/four-denominations-district-005.jpg",
+        "/assets/food-round-oct23/four-denominations-district-008.jpg",
+        "/assets/food-round-oct23/four-denominations-district-020.jpg",
+        "/assets/food-round-oct23/four-denominations-district-021.jpg",
+        "/assets/food-round-oct23/four-denominations-district-024.jpg",
+        "/assets/round-other-20261023/complete-white-stork-synagogue-wroclaw-24.jpg",
+        "/assets/white-stork/white-stork-refresh-02.jpg",
+        "/assets/food-round-oct23/four-denominations-district-038.jpg",
+        "/assets/food-round-oct23/four-denominations-district-045.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=Eu84SKoKNZA",
@@ -16999,6 +17088,289 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "/assets/food-round-oct23/four-denominations-district-003.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-07-13 at 19.42.40 (2).jpeg",
+          "sourceSHA256": "461a38c31d686dd1303593cd203279ce0d6b4934a0f756ff12fbb96cb0ff0aad",
+          "assetSHA256": "2e3db89946707e2d8ff004bd8271e2ef6a66870238c10831e1f090290dc32c32",
+          "title": {
+            "he": "מבט ערב לאורך הרחוב ברובע ארבע הדתות",
+            "en": "Evening view along a street in the Four Denominations District",
+            "pl": "Wieczorny widok ulicy w Dzielnicy Czterech Wyznań",
+            "de": "Abendlicher Straßenblick im Viertel der vier Konfessionen",
+            "cs": "Večerní pohled ulicí ve čtvrti čtyř vyznání"
+          },
+          "alt": {
+            "he": "מבט ערב לאורך הרחוב ברובע ארבע הדתות",
+            "en": "Evening view along a street in the Four Denominations District",
+            "pl": "Wieczorny widok ulicy w Dzielnicy Czterech Wyznań",
+            "de": "Abendlicher Straßenblick im Viertel der vier Konfessionen",
+            "cs": "Večerní pohled ulicí ve čtvrti čtyř vyznání"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 3,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/four-denominations-district-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-07-13 at 19.44.41 (2).jpeg",
+          "sourceSHA256": "50ada24aea5993204146319ef1fef8d025840e4deffd768ad28f64d0745a04ba",
+          "assetSHA256": "d39e5f85356ae0b35224961dd38bc229a5d85be70ef0a288ec7494754d8bc3fd",
+          "title": {
+            "he": "חזיתות וציור קיר בעברית בקצה הרחוב",
+            "en": "Frontages and a Hebrew mural at the end of the street",
+            "pl": "Fasady i hebrajski mural na końcu ulicy",
+            "de": "Fassaden und hebräisches Wandbild am Straßenende",
+            "cs": "Průčelí a hebrejská nástěnná malba na konci ulice"
+          },
+          "alt": {
+            "he": "חזיתות וציור קיר בעברית בקצה הרחוב",
+            "en": "Frontages and a Hebrew mural at the end of the street",
+            "pl": "Fasady i hebrajski mural na końcu ulicy",
+            "de": "Fassaden und hebräisches Wandbild am Straßenende",
+            "cs": "Průčelí a hebrejská nástěnná malba na konci ulice"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 4,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/four-denominations-district-005.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-07-13 at 19.48.00.jpeg",
+          "sourceSHA256": "d73425f7599665457a7c85be3f8e70064cffeb8af1e79fd6d0096b2401145b44",
+          "assetSHA256": "02ce0857f7c2ff0e41ba793c2db4f27ca3976148e40fe259e0b329a6637fcf8e",
+          "title": {
+            "he": "מבט רחב לאורך הרחוב אל ציור הקיר בעברית",
+            "en": "Wide street view towards the Hebrew mural",
+            "pl": "Szeroki widok ulicy w stronę hebrajskiego muralu",
+            "de": "Weiter Straßenblick zum hebräischen Wandbild",
+            "cs": "Široký pohled ulicí k hebrejské nástěnné malbě"
+          },
+          "alt": {
+            "he": "מבט רחב לאורך הרחוב אל ציור הקיר בעברית",
+            "en": "Wide street view towards the Hebrew mural",
+            "pl": "Szeroki widok ulicy w stronę hebrajskiego muralu",
+            "de": "Weiter Straßenblick zum hebräischen Wandbild",
+            "cs": "Široký pohled ulicí k hebrejské nástěnné malbě"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 5,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/four-denominations-district-008.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.26.56.jpeg",
+          "sourceSHA256": "5b92d7f66a81d971d85002957390e04f37ccbc7fff18b1c6108a990cced2f5b6",
+          "assetSHA256": "c773aeae4bcd5ec0561b353a3e9ccbffa1d432ed5fbdd361f6ca764b09850fc3",
+          "title": {
+            "he": "פרט בחזית לבנים ברובע ארבע הדתות",
+            "en": "Brick facade detail in the Four Denominations District",
+            "pl": "Detal ceglanej fasady w Dzielnicy Czterech Wyznań",
+            "de": "Detail einer Backsteinfassade im Viertel der vier Konfessionen",
+            "cs": "Detail cihlové fasády ve čtvrti čtyř vyznání"
+          },
+          "alt": {
+            "he": "פרט בחזית לבנים ברובע ארבע הדתות",
+            "en": "Brick facade detail in the Four Denominations District",
+            "pl": "Detal ceglanej fasady w Dzielnicy Czterech Wyznań",
+            "de": "Detail einer Backsteinfassade im Viertel der vier Konfessionen",
+            "cs": "Detail cihlové fasády ve čtvrti čtyř vyznání"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 8,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/four-denominations-district-020.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.20.jpeg",
+          "sourceSHA256": "c94f127c9cf163633d687214c877e375a12b00fdaa2f086f70221b8ef60e61dc",
+          "assetSHA256": "85b7ff85ed882daf0c097efe3103409d66bee87ace81d55f9c9a7070db7e2a1e",
+          "title": {
+            "he": "קיר צהוב עם כיתוב על מגדלנה אבקנוביץ׳",
+            "en": "Yellow wall with Magdalena Abakanowicz lettering",
+            "pl": "Żółta ściana z napisem o Magdalenie Abakanowicz",
+            "de": "Gelbe Wand mit Schriftzug zu Magdalena Abakanowicz",
+            "cs": "Žlutá zeď s nápisem o Magdaleně Abakanowicz"
+          },
+          "alt": {
+            "he": "קיר צהוב עם כיתוב על מגדלנה אבקנוביץ׳",
+            "en": "Yellow wall with Magdalena Abakanowicz lettering",
+            "pl": "Żółta ściana z napisem o Magdalenie Abakanowicz",
+            "de": "Gelbe Wand mit Schriftzug zu Magdalena Abakanowicz",
+            "cs": "Žlutá zeď s nápisem o Magdaleně Abakanowicz"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 20,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/four-denominations-district-021.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.21.jpeg",
+          "sourceSHA256": "3c9c7fe3cca2b384372f09db971d4d7f041a17c90d908cf95c8474af2761b0be",
+          "assetSHA256": "9384859fc584e609841553d6da9ca60f33b0e88c9a67736f8a409fed3caa9f10",
+          "title": {
+            "he": "לוח על תולדות רחוב אנטוני הקדוש",
+            "en": "Plaque about the history of Świętego Antoniego Street",
+            "pl": "Tablica o historii ulicy Świętego Antoniego",
+            "de": "Tafel zur Geschichte der Straße Świętego Antoniego",
+            "cs": "Tabule o historii ulice Świętego Antoniego"
+          },
+          "alt": {
+            "he": "לוח על תולדות רחוב אנטוני הקדוש",
+            "en": "Plaque about the history of Świętego Antoniego Street",
+            "pl": "Tablica o historii ulicy Świętego Antoniego",
+            "de": "Tafel zur Geschichte der Straße Świętego Antoniego",
+            "cs": "Tabule o historii ulice Świętego Antoniego"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 21,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/four-denominations-district-024.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.23.jpeg",
+          "sourceSHA256": "604ab07197b8fa7e6a5f00f99c1e81969eb0847cc431223002aa79865f5d9819",
+          "assetSHA256": "ef702ee610c140cf001403150666e6222bc4a4366e058f7b6a89c06536c305a5",
+          "title": {
+            "he": "מבט נוסף על לוח ההיסטוריה ברחוב אנטוני הקדוש",
+            "en": "Another view of the historical plaque on Świętego Antoniego",
+            "pl": "Kolejny widok tablicy historycznej przy Świętego Antoniego",
+            "de": "Weitere Ansicht der historischen Tafel an der Świętego Antoniego",
+            "cs": "Další pohled na historickou tabuli v ulici Świętego Antoniego"
+          },
+          "alt": {
+            "he": "מבט נוסף על לוח ההיסטוריה ברחוב אנטוני הקדוש",
+            "en": "Another view of the historical plaque on Świętego Antoniego",
+            "pl": "Kolejny widok tablicy historycznej przy Świętego Antoniego",
+            "de": "Weitere Ansicht der historischen Tafel an der Świętego Antoniego",
+            "cs": "Další pohled na historickou tabuli v ulici Świętego Antoniego"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 24,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/round-other-20261023/complete-white-stork-synagogue-wroclaw-24.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-21 at 21.12.01 (7).jpeg",
+          "sourceSHA256": "b7e6f262fb522bbd5cafcb98589ab68d522fff3b93a290ad8b10cf5ce80e8c8d",
+          "assetSHA256": "2668fcb31e6bd8ceb88f59a3fbf83458233936f5ab635eb8728e00a96a10394c",
+          "title": {
+            "he": "חצר בית הכנסת והמבנים הסובבים אותה",
+            "en": "Synagogue courtyard and surrounding buildings",
+            "pl": "Dziedziniec synagogi i otaczające go budynki",
+            "de": "Synagogenhof und umliegende Gebäude",
+            "cs": "Nádvoří synagogy a okolní budovy"
+          },
+          "alt": {
+            "he": "חצר בית הכנסת והמבנים הסובבים אותה",
+            "en": "Synagogue courtyard and surrounding buildings",
+            "pl": "Dziedziniec synagogi i otaczające go budynki",
+            "de": "Synagogenhof und umliegende Gebäude",
+            "cs": "Nádvoří synagogy a okolní budovy"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 32,
+          "reusedExistingAsset": true,
+          "alsoUsedByCanonicalIds": [
+            "white-stork-synagogue-wroclaw"
+          ],
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/white-stork/white-stork-refresh-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-21 at 21.12.02 (5).jpeg",
+          "sourceSHA256": "fbe1a1e9a0a8fd302ab088104ef5168477a6f79920d90cea03c4813e1f0e00dc",
+          "assetSHA256": "d570c23d0f66b33e736fa326cff5c0e595275190362e4422fe102262cfdb78b7",
+          "title": {
+            "he": "מבט על בית הכנסת מהחצר",
+            "en": "View of the synagogue from the courtyard",
+            "pl": "Widok synagogi z dziedzińca",
+            "de": "Blick vom Hof auf die Synagoge",
+            "cs": "Pohled na synagogu z nádvoří"
+          },
+          "alt": {
+            "he": "מבט על בית הכנסת מהחצר",
+            "en": "View of the synagogue from the courtyard",
+            "pl": "Widok synagogi z dziedzińca",
+            "de": "Blick vom Hof auf die Synagoge",
+            "cs": "Pohled na synagogu z nádvoří"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 35,
+          "reusedExistingAsset": true,
+          "alsoUsedByCanonicalIds": [
+            "white-stork-synagogue-wroclaw"
+          ],
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/four-denominations-district-038.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-21 at 21.12.02.jpeg",
+          "sourceSHA256": "6f02cc5c19a9d5595140eff8662c4db5db65fdbbeb8be5d4ff2f5263a8cb6b80",
+          "assetSHA256": "6261e645f449ad75745843ccdb2db548b85f21cc0c20a6d33e2c13cf60777134",
+          "title": {
+            "he": "פרטי המבנים ובית הקפה בחצר",
+            "en": "Building details and cafe in the courtyard",
+            "pl": "Detale budynków i kawiarnia na dziedzińcu",
+            "de": "Gebäudedetails und Café im Hof",
+            "cs": "Detaily budov a kavárna na nádvoří"
+          },
+          "alt": {
+            "he": "פרטי המבנים ובית הקפה בחצר",
+            "en": "Building details and cafe in the courtyard",
+            "pl": "Detale budynków i kawiarnia na dziedzińcu",
+            "de": "Gebäudedetails und Café im Hof",
+            "cs": "Detaily budov a kavárna na nádvoří"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 38,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/food-round-oct23/four-denominations-district-045.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-21 at 21.34.48 (4).jpeg",
+          "sourceSHA256": "b96bec97e13d3f0034cb9279c3da47c592f79099e2e5c0ea66db0b13acde8b8d",
+          "assetSHA256": "1fcac804d12a2f2bc5f85785b2bc31b6af2301c626115cac710d2ec2c031e4b1",
+          "title": {
+            "he": "חזית הכנסייה ברובע באור אחר הצהריים",
+            "en": "Church facade in the district in afternoon light",
+            "pl": "Fasada kościoła w dzielnicy w popołudniowym świetle",
+            "de": "Kirchenfassade im Viertel im Nachmittagslicht",
+            "cs": "Průčelí kostela ve čtvrti v odpoledním světle"
+          },
+          "alt": {
+            "he": "חזית הכנסייה ברובע באור אחר הצהריים",
+            "en": "Church facade in the district in afternoon light",
+            "pl": "Fasada kościoła w dzielnicy w popołudniowym świetle",
+            "de": "Kirchenfassade im Viertel im Nachmittagslicht",
+            "cs": "Průčelí kostela ve čtvrti v odpoledním světle"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "reviewIndex": 45,
+          "familyForeground": false,
+          "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
         }
       }
     },
