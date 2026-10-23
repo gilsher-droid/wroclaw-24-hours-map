@@ -250,3 +250,6 @@ article[data-place="mostek-pokutnic-wroclaw"] p { white-space:pre-line; }
 
 /* Full original pictures for the next authorized source-media round. */
 .media-grid img[src*="/round-other-20261023/"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
+
+/* Preserve the complete reused Panorama visit photograph. */
+.media-grid img[src$="/papa-gnomes-07.jpg"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
