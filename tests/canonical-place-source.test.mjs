@@ -156,11 +156,11 @@ test("Aleja Bielany is one canonical shopping place used by Lifestyle", () => {
   assert.ok(canonical.categories.includes("buy"));
   assert.deepEqual(Object.keys(canonical.name).sort(), ["cs", "de", "en", "he", "pl"]);
   assert.deepEqual(Object.keys(canonical.description).sort(), ["cs", "de", "en", "he", "pl"]);
-  assert.equal(canonical.media.photos.length, 6);
+  assert.equal(canonical.media.photos.length, 9);
   assert.equal(canonical.media.metadata[canonical.media.photos[0]].heroCandidate, true);
   assert.ok(canonical.socialPosts.some((post) => post.platform === "facebook"));
   assert.ok(canonical.socialPosts.some((post) => post.platform === "instagram"));
-  assert.equal(window.WROC_LOCATION_MEDIA["aleja-bielany"].gallery.length, 6);
+  assert.equal(window.WROC_LOCATION_MEDIA["aleja-bielany"].gallery.length, 9);
   assert.equal(window.WROC_LIFESTYLE_PLACES.filter((place) => place.categories.includes("buy")).length, 10);
 });
 
