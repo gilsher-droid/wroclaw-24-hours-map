@@ -104,7 +104,7 @@ test('premium recommendations retain editorial text, hydrate canonical-only plac
 
 test('Morskie Oko recommendation exposes reviewed canonical media and retains exact identity',()=>{
  const w=routeFixture('en');const p=w.WROC_CATALOG.getPlace('morskie-oko-wroclaw');const r=w.WROC_LOCATION_MEDIA['morskie-oko-wroclaw'];
- assert.equal(r.gallery.length,35);assert.equal(r.videos.length,8);
+ assert.equal(r.gallery.length,35);assert.equal(r.videos.length,10);
  for(const lang of ['he','en','pl','de','cs']){assert.ok(r.videos[6].title[lang]);assert.ok(r.videos[7].title[lang]);assert.notEqual(r.videos[6].title[lang],r.videos[7].title[lang]);}
  assert.equal(r.videos[6].src,'https://youtube.com/shorts/hhhjCRE9aUc');assert.equal(r.videos[7].src,'https://youtube.com/shorts/ZQRrQni1Z5M');
  assert.equal(r.videos[7].title.en,'Neighborhood surroundings near Morskie Oko');

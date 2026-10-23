@@ -3365,7 +3365,8 @@
         "/assets/bastion-sakwowy-visit-03.mp4",
         "/assets/bastion-sakwowy-visit-04.mp4",
         "/assets/bastion-sakwowy-visit-05.mp4",
-        "/assets/bastion-refresh-visit-20261020-06.mp4"
+        "/assets/bastion-refresh-visit-20261020-06.mp4",
+        "https://www.youtube.com/watch?v=Fk_NTMaNFrg"
       ],
       "guideVideos": {
         "en": "https://youtube.com/shorts/xc9jiC3TfNA",
@@ -3664,6 +3665,38 @@
           },
           "approvalCall": "call_ed45bc52f64e4d89afe767f77aa30ce4",
           "transformation": "Full-frame JPEG max2400px; orientation normalized; no crop; original preserved"
+        },
+        "https://www.youtube.com/watch?v=Fk_NTMaNFrg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בסטיון/WhatsApp Video 2026-10-05 at 18.26.51.mp4",
+          "sourceSHA256": "f04ec88ac3e332959bf9669776e39fa30d77e11bc38551322cced9eb27ffd800",
+          "uploadSHA256": "b4e0a6bd5e004ada5ec4d154b3405c381e96bc261f134bafd1c6297926337a0b",
+          "durationSeconds": 6.4,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "ביקור בחצר הבסטיון",
+            "en": "Bastion courtyard visit",
+            "pl": "Wizyta na dziedzińcu bastionu",
+            "de": "Besuch im Hof der Bastion",
+            "cs": "Návštěva nádvoří bašty"
+          },
+          "title": {
+            "he": "ביקור בחצר הבסטיון",
+            "en": "Bastion courtyard visit",
+            "pl": "Wizyta na dziedzińcu bastionu",
+            "de": "Besuch im Hof der Bastion",
+            "cs": "Návštěva nádvoří bašty"
+          },
+          "verifiedAt": "2026-10-23T06:24:00.299Z",
+          "publicationProof": "next14-01-public-reopened.txt"
         }
       }
     },
@@ -8896,7 +8929,8 @@
       ],
       "videos": [
         "https://youtube.com/shorts/3QY6HJLV84o",
-        "https://youtube.com/shorts/kfjJo2GNuMY"
+        "https://youtube.com/shorts/kfjJo2GNuMY",
+        "https://www.youtube.com/watch?v=NFrvNYggw7Y"
       ],
       "metadata": {
         "/assets/charlotte/charlotte-visit-01.jpg": {
@@ -9166,6 +9200,38 @@
             "cs": "Nápis Charlotte a průčelí při pohledu zdola"
           },
           "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "https://www.youtube.com/watch?v=NFrvNYggw7Y": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/charlotte/WhatsApp Video 2026-10-20 at 16.28.06.mp4",
+          "sourceSHA256": "f4ca627392c561d5487ed9b38694391452da43ba70b50e11b3594a6a507baabd",
+          "uploadSHA256": "da34e86808a2842ede7ce4a23a54e0ade50659e646436c3a214ad6e2e76f7f86",
+          "durationSeconds": 5.933333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "ביקור בחצר שרלוט",
+            "en": "Charlotte courtyard visit",
+            "pl": "Wizyta na dziedzińcu Charlotte",
+            "de": "Besuch im Charlotte-Innenhof",
+            "cs": "Návštěva nádvoří Charlotte"
+          },
+          "title": {
+            "he": "ביקור בחצר שרלוט",
+            "en": "Charlotte courtyard visit",
+            "pl": "Wizyta na dziedzińcu Charlotte",
+            "de": "Besuch im Charlotte-Innenhof",
+            "cs": "Návštěva nádvoří Charlotte"
+          },
+          "verifiedAt": "2026-10-23T06:24:12.442Z",
+          "publicationProof": "next14-06-public-reopened.txt"
         }
       }
     },
@@ -27163,7 +27229,8 @@
         "/assets/today-source-refresh-20261021/run4-023-lwia-brama-restaurant-wroclaw.jpg"
       ],
       "videos": [
-        "https://www.youtube.com/watch?v=0t_8oeQrNwg"
+        "https://www.youtube.com/watch?v=0t_8oeQrNwg",
+        "https://www.youtube.com/watch?v=_Hi0J5CfVwQ"
       ],
       "metadata": {
         "/assets/today-source-refresh-20261021/run4-014-lwia-brama-restaurant-wroclaw.jpg": {
@@ -27236,6 +27303,38 @@
           "savedPublicVerified": true,
           "reopenedVerified": true,
           "originalFullPictureAndDurationPreserved": true
+        },
+        "https://www.youtube.com/watch?v=_Hi0J5CfVwQ": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Video 2026-10-21 at 20.49.02 (5).mp4",
+          "sourceSHA256": "c639e315e01bf12017258415e4a4c4a388f8800caf0c5380561d50f6d4334fdd",
+          "uploadSHA256": "3ab62a14ca01a71789dfdf6f713784b0fdc021745b4591d29990726fc73e166d",
+          "durationSeconds": 3.3,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "דלת האריה ושלט המסעדה",
+            "en": "Lion doorway and restaurant sign",
+            "pl": "Drzwi z lwem i szyld restauracji",
+            "de": "Löwentür und Restaurantschild",
+            "cs": "Dveře se lvem a označení restaurace"
+          },
+          "title": {
+            "he": "דלת האריה ושלט המסעדה",
+            "en": "Lion doorway and restaurant sign",
+            "pl": "Drzwi z lwem i szyld restauracji",
+            "de": "Löwentür und Restaurantschild",
+            "cs": "Dveře se lvem a označení restaurace"
+          },
+          "verifiedAt": "2026-10-23T06:24:31.764Z",
+          "publicationProof": "next14-14-public-reopened.txt"
         }
       }
     },
@@ -29492,7 +29591,9 @@
         "https://youtube.com/shorts/gN14-XYU8dM",
         "https://youtube.com/shorts/8cTLqypvJn4",
         "https://youtube.com/shorts/hhhjCRE9aUc",
-        "https://youtube.com/shorts/ZQRrQni1Z5M"
+        "https://youtube.com/shorts/ZQRrQni1Z5M",
+        "https://www.youtube.com/watch?v=9BNV7DFg-tk",
+        "https://www.youtube.com/watch?v=zh9DGtUobu8"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/R26FXh9Twh0",
@@ -29815,6 +29916,70 @@
             "cs": "Informace a ceny vyfotografované při návštěvě; nejde o aktuální ceník"
           },
           "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "https://www.youtube.com/watch?v=9BNV7DFg-tk": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.45.mp4",
+          "sourceSHA256": "20b84484677e626e32c1e8cbedb57087a0dd5e90779f83094412da69d92e4e2f",
+          "uploadSHA256": "b489cac7d9b608a7c2d083a89b6028f830899f6a79e854709b3d75378b55f094",
+          "durationSeconds": 3.833333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "ברבורים על מי האגם",
+            "en": "Swans on the lake",
+            "pl": "Łabędzie na jeziorze",
+            "de": "Schwäne auf dem See",
+            "cs": "Labutě na jezeře"
+          },
+          "title": {
+            "he": "ברבורים על מי האגם",
+            "en": "Swans on the lake",
+            "pl": "Łabędzie na jeziorze",
+            "de": "Schwäne auf dem See",
+            "cs": "Labutě na jezeře"
+          },
+          "verifiedAt": "2026-10-23T06:24:14.836Z",
+          "publicationProof": "next14-07-public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=zh9DGtUobu8": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מורסקי אוקו/WhatsApp Video 2026-10-19 at 16.37.46 (1).mp4",
+          "sourceSHA256": "03b82e255457666b6fd3aedd4f977829abf9a97c9b6b9c2864d51238ff4c2e8d",
+          "uploadSHA256": "6965aaa34c9ff79ad7838ce1b9c596d1873912d1f125f4b7295b5e427c46c8d8",
+          "durationSeconds": 2.533333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "ברבורים במבט קרוב",
+            "en": "Swans close view",
+            "pl": "Łabędzie z bliska",
+            "de": "Schwäne aus der Nähe",
+            "cs": "Labutě zblízka"
+          },
+          "title": {
+            "he": "ברבורים במבט קרוב",
+            "en": "Swans close view",
+            "pl": "Łabędzie z bliska",
+            "de": "Schwäne aus der Nähe",
+            "cs": "Labutě zblízka"
+          },
+          "verifiedAt": "2026-10-23T06:24:17.344Z",
+          "publicationProof": "next14-08-public-reopened.txt"
         }
       }
     },
@@ -36804,7 +36969,11 @@
       ],
       "videos": [
         "https://youtube.com/shorts/QWyefecg6RQ",
-        "https://youtube.com/shorts/jgKVkItk8z0"
+        "https://youtube.com/shorts/jgKVkItk8z0",
+        "https://www.youtube.com/watch?v=rB4v5PQ0fe4",
+        "https://www.youtube.com/watch?v=qZ-jvP9dCMM",
+        "https://www.youtube.com/watch?v=Hf0C71igCUI",
+        "https://www.youtube.com/watch?v=bU8nOIPPt6o"
       ],
       "metadata": {
         "/assets/szczytnicki-park/szczytnicki-park-01.jpg": {
@@ -37011,6 +37180,134 @@
             "cs": "Odraz stromů v parkovém jezírku"
           },
           "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "https://www.youtube.com/watch?v=rB4v5PQ0fe4": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Video 2026-09-24 at 17.33.31.mp4",
+          "sourceSHA256": "ac7fa0cff389d6c6770e65472bd9cab20d27b8c1abc33fb7d359be5ed1a27528",
+          "uploadSHA256": "27a82283ded5a59dba73c29cdf6b56201502061b52ed721ad58ab4f63dd40d3b",
+          "durationSeconds": 10.233333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תעלת המים בפארק",
+            "en": "Watercourse in the park",
+            "pl": "Ciek wodny w parku",
+            "de": "Wasserlauf im Park",
+            "cs": "Vodní tok v parku"
+          },
+          "title": {
+            "he": "תעלת המים בפארק",
+            "en": "Watercourse in the park",
+            "pl": "Ciek wodny w parku",
+            "de": "Wasserlauf im Park",
+            "cs": "Vodní tok v parku"
+          },
+          "verifiedAt": "2026-10-23T06:24:02.845Z",
+          "publicationProof": "next14-02-public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=qZ-jvP9dCMM": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Video 2026-09-24 at 17.34.42.mp4",
+          "sourceSHA256": "859ec04b876f9306de91db17bb74a360c2492bf2985fcd2bde55f675ddccf7ba",
+          "uploadSHA256": "8f3c5234d6c1786decee9a5fc0c13f35d08c0226089bc84bae984189fd142082",
+          "durationSeconds": 5.366667,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "פרחים ושביל בפארק",
+            "en": "Flowers and garden path",
+            "pl": "Kwiaty i ścieżka w parku",
+            "de": "Blumen und Gartenweg",
+            "cs": "Květiny a zahradní cesta"
+          },
+          "title": {
+            "he": "פרחים ושביל בפארק",
+            "en": "Flowers and garden path",
+            "pl": "Kwiaty i ścieżka w parku",
+            "de": "Blumen und Gartenweg",
+            "cs": "Květiny a zahradní cesta"
+          },
+          "verifiedAt": "2026-10-23T06:24:05.260Z",
+          "publicationProof": "next14-03-public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=Hf0C71igCUI": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Video 2026-09-24 at 17.34.43.mp4",
+          "sourceSHA256": "2f52d6ee2f9ca4d9ab8dc3d6eb91f3ffd412c5678a948770a87f09e4e24aabb4",
+          "uploadSHA256": "35852608d16f4e26662d95946ffa2777d272aa09879784e2728dde6cc2577e83",
+          "durationSeconds": 6.033333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "ערוגות הפרחים",
+            "en": "Flower beds",
+            "pl": "Rabaty kwiatowe",
+            "de": "Blumenbeete",
+            "cs": "Květinové záhony"
+          },
+          "title": {
+            "he": "ערוגות הפרחים",
+            "en": "Flower beds",
+            "pl": "Rabaty kwiatowe",
+            "de": "Blumenbeete",
+            "cs": "Květinové záhony"
+          },
+          "verifiedAt": "2026-10-23T06:24:07.636Z",
+          "publicationProof": "next14-04-public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=bU8nOIPPt6o": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פארק שטניצקי/WhatsApp Video 2026-10-05 at 18.27.33.mp4",
+          "sourceSHA256": "4824863732bda49eaec98660f209551f51f645712f88b6284c24af322ae3b2e9",
+          "uploadSHA256": "2f106d160949a6af661ee991709efd23b999a1a7bc52953077a570cd56eb0584",
+          "durationSeconds": 4.3,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שדרת עצים בפארק",
+            "en": "Tree-lined park avenue",
+            "pl": "Aleja drzew w parku",
+            "de": "Baumallee im Park",
+            "cs": "Stromořadí v parku"
+          },
+          "title": {
+            "he": "שדרת עצים בפארק",
+            "en": "Tree-lined park avenue",
+            "pl": "Aleja drzew w parku",
+            "de": "Baumallee im Park",
+            "cs": "Stromořadí v parku"
+          },
+          "verifiedAt": "2026-10-23T06:24:09.964Z",
+          "publicationProof": "next14-05-public-reopened.txt"
         }
       }
     },
@@ -44069,7 +44366,12 @@
         "https://youtube.com/shorts/WGMudkQ96D4",
         "https://youtube.com/shorts/8dnp9MAaTig",
         "https://youtube.com/shorts/YJGYqzLFYcQ",
-        "https://youtube.com/shorts/41IYcRT2G4c"
+        "https://youtube.com/shorts/41IYcRT2G4c",
+        "https://www.youtube.com/watch?v=s3wpmXT8R-c",
+        "https://www.youtube.com/watch?v=XQpauxxtFiM",
+        "https://www.youtube.com/watch?v=rgL2VfhZtBY",
+        "https://www.youtube.com/watch?v=luCoRKEP7RY",
+        "https://www.youtube.com/watch?v=VtpeXmai4rc"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/--MnGY29fng",
@@ -44336,6 +44638,166 @@
             "cs": "Brána Olympijského stadionu z předního prostranství"
           },
           "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "https://www.youtube.com/watch?v=s3wpmXT8R-c": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (3).mp4",
+          "sourceSHA256": "0d0fcd3d6bd02611aa444571dc953bfb70f069fd8e271741d9f86aa3195812f9",
+          "uploadSHA256": "1b277a480364322eacd543bb52f4c53da42fe797cf3b15002e872c9442040ca3",
+          "durationSeconds": 2.733333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "הגישה לאצטדיון דרך החניה",
+            "en": "Stadium approach by the parking area",
+            "pl": "Dojście do stadionu przez parking",
+            "de": "Stadionzugang am Parkplatz",
+            "cs": "Přístup ke stadionu kolem parkoviště"
+          },
+          "title": {
+            "he": "הגישה לאצטדיון דרך החניה",
+            "en": "Stadium approach by the parking area",
+            "pl": "Dojście do stadionu przez parking",
+            "de": "Stadionzugang am Parkplatz",
+            "cs": "Přístup ke stadionu kolem parkoviště"
+          },
+          "verifiedAt": "2026-10-23T06:24:19.797Z",
+          "publicationProof": "next14-09-public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=XQpauxxtFiM": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (4).mp4",
+          "sourceSHA256": "b18c4c46e73de2a3d94f359b4c09ee4d3ac257de4883b1eccc4f2f6207855157",
+          "uploadSHA256": "edb7d65b2c3a32d696ec70e74750e1da79908ebb7904f3dd7b2df2feca9cf678",
+          "durationSeconds": 1.866667,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "מבט נוסף על החניה והגישה",
+            "en": "Another parking and approach view",
+            "pl": "Kolejny widok parkingu i dojścia",
+            "de": "Weiterer Blick auf Parkplatz und Zugang",
+            "cs": "Další pohled na parkoviště a přístup"
+          },
+          "title": {
+            "he": "מבט נוסף על החניה והגישה",
+            "en": "Another parking and approach view",
+            "pl": "Kolejny widok parkingu i dojścia",
+            "de": "Weiterer Blick auf Parkplatz und Zugang",
+            "cs": "Další pohled na parkoviště a přístup"
+          },
+          "verifiedAt": "2026-10-23T06:24:22.099Z",
+          "publicationProof": "next14-10-public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=rgL2VfhZtBY": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (5).mp4",
+          "sourceSHA256": "14d8e2178d27eadf314255a37a067b456fe7d5f06a7f7d068835ac107f73c426",
+          "uploadSHA256": "4df825021def6b4ed22f7cfb7ca2af95c06049b3a1b449fc79c09ed5b0b6464c",
+          "durationSeconds": 8.133333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "האנדרטה במתחם האצטדיון",
+            "en": "Memorial in the stadium grounds",
+            "pl": "Pomnik na terenie stadionu",
+            "de": "Denkmal auf dem Stadiongelände",
+            "cs": "Památník v areálu stadionu"
+          },
+          "title": {
+            "he": "האנדרטה במתחם האצטדיון",
+            "en": "Memorial in the stadium grounds",
+            "pl": "Pomnik na terenie stadionu",
+            "de": "Denkmal auf dem Stadiongelände",
+            "cs": "Památník v areálu stadionu"
+          },
+          "verifiedAt": "2026-10-23T06:24:24.648Z",
+          "publicationProof": "next14-11-public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=luCoRKEP7RY": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (6).mp4",
+          "sourceSHA256": "4b94c5cb6a26619b05c72fb63461e2fd70ac618ae7923a0a13987820f6bb4f0d",
+          "uploadSHA256": "62313feba7ff9632c825dbe772feab7ae0fb377662f12e3228af08c7a84b2b19",
+          "durationSeconds": 3.833333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שער הכניסה לאצטדיון",
+            "en": "Stadium entrance gate",
+            "pl": "Brama wejściowa stadionu",
+            "de": "Eingangstor des Stadions",
+            "cs": "Vstupní brána stadionu"
+          },
+          "title": {
+            "he": "שער הכניסה לאצטדיון",
+            "en": "Stadium entrance gate",
+            "pl": "Brama wejściowa stadionu",
+            "de": "Eingangstor des Stadions",
+            "cs": "Vstupní brána stadionu"
+          },
+          "verifiedAt": "2026-10-23T06:24:27.085Z",
+          "publicationProof": "next14-12-public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=VtpeXmai4rc": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Olympic Park/WhatsApp Video 2026-10-19 at 10.28.48 (7).mp4",
+          "sourceSHA256": "7f52a6a589df808ab1a86c2bf0fb6a7360871b59e67f522e8a9ed1f9f6b39165",
+          "uploadSHA256": "02263457c4c0c6dc0b9e271ef10d28c4e8a1c306a4ec1bb6292ef7d4cfaade9f",
+          "durationSeconds": 8.133333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "No current restrictions; SD complete; not Checking. Clean wizard checks where captured; initial2 savedPrivate until final checks.",
+          "approvalCall": "call_b02e96d621dd4f1b8b27b67321d73425",
+          "sourcePictureUnchanged": true,
+          "audio": "removed in publication derivative; complete original retained",
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "הגישה המוצלת למתחם",
+            "en": "Tree-lined approach to the grounds",
+            "pl": "Zadrzewione dojście do kompleksu",
+            "de": "Baumgesäumter Zugang zum Gelände",
+            "cs": "Přístup do areálu lemovaný stromy"
+          },
+          "title": {
+            "he": "הגישה המוצלת למתחם",
+            "en": "Tree-lined approach to the grounds",
+            "pl": "Zadrzewione dojście do kompleksu",
+            "de": "Baumgesäumter Zugang zum Gelände",
+            "cs": "Přístup do areálu lemovaný stromy"
+          },
+          "verifiedAt": "2026-10-23T06:24:29.332Z",
+          "publicationProof": "next14-13-public-reopened.txt"
         }
       }
     },
@@ -53070,7 +53532,16 @@
         "/assets/wuwa-estate-07.jpg",
         "/assets/wuwa-estate-08.jpg",
         "/assets/wuwa-estate-09.jpg",
-        "/assets/wuwa-estate-10.jpg"
+        "/assets/wuwa-estate-10.jpg",
+        "/assets/round-other-20261023/wuwa-estate-00.jpg",
+        "/assets/round-other-20261023/wuwa-estate-08.jpg",
+        "/assets/round-other-20261023/wuwa-estate-12.jpg",
+        "/assets/round-other-20261023/wuwa-estate-14.jpg",
+        "/assets/round-other-20261023/wuwa-estate-18.jpg",
+        "/assets/round-other-20261023/wuwa-estate-22.jpg",
+        "/assets/round-other-20261023/wuwa-estate-30.jpg",
+        "/assets/round-other-20261023/wuwa-estate-92.jpg",
+        "/assets/round-other-20261023/wuwa-estate-93.jpg"
       ],
       "videos": [
         "/assets/wuwa-cafe-visit-01.mp4",
@@ -53431,6 +53902,285 @@
             "de": "Detail eines gebogenen Gebäudes im Architekturmodell der Siedlung",
             "cs": "Detail zakřivené budovy v architektonickém modelu sídliště"
           }
+        },
+        "/assets/round-other-20261023/wuwa-estate-00.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5760 2.JPG",
+          "sourceSHA256": "62d34a95b7f7f1d60d7c4990e42740fe7dfcad5d8b3b02aa613ccba4c55550c0",
+          "assetSHA256": "bbbc7f3e2335a1cb40b2cbf4ee95eed6fd1b1540b96cd22c4281fce29fae922b",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דלת השירותים במתחם הביקור",
+            "en": "Visitor-facility door in the estate",
+            "pl": "Drzwi toalety na terenie zespołu",
+            "de": "Tür der Besuchertoilette im Gelände",
+            "cs": "Dveře návštěvnické toalety v areálu"
+          },
+          "caption": {
+            "he": "דלת השירותים במתחם הביקור",
+            "en": "Visitor-facility door in the estate",
+            "pl": "Drzwi toalety na terenie zespołu",
+            "de": "Tür der Besuchertoilette im Gelände",
+            "cs": "Dveře návštěvnické toalety v areálu"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5776 2.JPG",
+          "sourceSHA256": "c88fbe0158df7e5d60d6924525042d10fe1e3dc6469137a624d06f1589431d1c",
+          "assetSHA256": "6ab3345a53d91c9792e6c3b292638038e52393029305f9c91eb5930d456911d4",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "caption": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-12.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5778 2.JPG",
+          "sourceSHA256": "3d6b7c7ac8e6e6d5621a3e22f864bc4b21a9f9b3c2889e970454cf2a6bcd7b79",
+          "assetSHA256": "2eb98b96d757fcbde9fa3783aae8ce57d002dc0dacf7c5e26430c71ca0677384",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "caption": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-14.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5779 2.JPG",
+          "sourceSHA256": "a2dc2edbee6f2a4e44de5ba5b2b0c15bde2b8b2a2e0b2307588fdf623d3eef37",
+          "assetSHA256": "8a651042cbbdfc714228ad6fa07d3b93eb527a8955debf0e7350360f3d414093",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "caption": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-18.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5781 2.JPG",
+          "sourceSHA256": "2255a25eb14b411a266fd0f154fc569931ed74475cfaf56ed90b6f17247bcd72",
+          "assetSHA256": "e7c8a68830770fee31b8aaa65c65af1c38bb18a02f232750619c4ad04eba3283",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "פרט חזית מגורים בשכונת וו־ווה",
+            "en": "Residential façade detail in WuWA",
+            "pl": "Fragment elewacji mieszkalnej na osiedlu WuWA",
+            "de": "Detail einer Wohnhausfassade in WuWA",
+            "cs": "Detail obytné fasády ve WuWA"
+          },
+          "caption": {
+            "he": "פרט חזית מגורים בשכונת וו־ווה",
+            "en": "Residential façade detail in WuWA",
+            "pl": "Fragment elewacji mieszkalnej na osiedlu WuWA",
+            "de": "Detail einer Wohnhausfassade in WuWA",
+            "cs": "Detail obytné fasády ve WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-22.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5785 2.JPG",
+          "sourceSHA256": "8c0ac5b0b709667eda3b86824de832396326f5d5a8ef0b8d4f1555ef18e1dc96",
+          "assetSHA256": "9c19bae0060024133c35ead759e4569da0dead979730bd66a78b04c60324cadb",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "מבט לאורך הגישה למבנה בשכונה",
+            "en": "Approach to a building in the estate",
+            "pl": "Dojście do budynku na osiedlu",
+            "de": "Zugang zu einem Gebäude der Siedlung",
+            "cs": "Přístup k budově v sídlišti"
+          },
+          "caption": {
+            "he": "מבט לאורך הגישה למבנה בשכונה",
+            "en": "Approach to a building in the estate",
+            "pl": "Dojście do budynku na osiedlu",
+            "de": "Zugang zu einem Gebäude der Siedlung",
+            "cs": "Přístup k budově v sídlišti"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-30.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5791 2.JPG",
+          "sourceSHA256": "8b45b50a1c8adc47f1da4fcc8413f24df3406cf18ffeb5eba4942e6c7ca47606",
+          "assetSHA256": "8933d6b9b43b15d56aff57e75109a38bd2406c9477297e3475ca09344b17131a",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "חזית פארק הוטל בתוך מתחם וו־ווה",
+            "en": "Park Hotel frontage within the WuWA ensemble",
+            "pl": "Fasada Park Hotelu w zespole WuWA",
+            "de": "Fassade des Park Hotels im WuWA-Ensemble",
+            "cs": "Průčelí Park Hotelu v souboru WuWA"
+          },
+          "caption": {
+            "he": "חזית פארק הוטל בתוך מתחם וו־ווה",
+            "en": "Park Hotel frontage within the WuWA ensemble",
+            "pl": "Fasada Park Hotelu w zespole WuWA",
+            "de": "Fassade des Park Hotels im WuWA-Ensemble",
+            "cs": "Průčelí Park Hotelu v souboru WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-92.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/פוסט ישן/IMG_4587.JPG",
+          "sourceSHA256": "766d52a2be055c0fdb101fc5af2d3696546bca08ac723e21558270e4e728b768",
+          "assetSHA256": "4b2585c8cc417ca15801927f04a8da8c9cce367b388ce39e5deb60fb93d1dec3",
+          "sourceDimensions": [
+            1426,
+            1902
+          ],
+          "assetDimensions": [
+            1426,
+            1902
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "caption": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-93.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/פוסט ישן/IMG_4589.JPG",
+          "sourceSHA256": "d0688331e84f19adc8f250dc8a8875732496f8dfd9226faa4884377b3e06a2a1",
+          "assetSHA256": "2704d91cb5c5fa2ecc246e2e3ecb459a2f930c21ec0b15db9e69b371d936c39d",
+          "sourceDimensions": [
+            1426,
+            1902
+          ],
+          "assetDimensions": [
+            1426,
+            1902
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "חזית פארק הוטל בתוך מתחם וו־ווה",
+            "en": "Park Hotel frontage within the WuWA ensemble",
+            "pl": "Fasada Park Hotelu w zespole WuWA",
+            "de": "Fassade des Park Hotels im WuWA-Ensemble",
+            "cs": "Průčelí Park Hotelu v souboru WuWA"
+          },
+          "caption": {
+            "he": "חזית פארק הוטל בתוך מתחם וו־ווה",
+            "en": "Park Hotel frontage within the WuWA ensemble",
+            "pl": "Fasada Park Hotelu w zespole WuWA",
+            "de": "Fassade des Park Hotels im WuWA-Ensemble",
+            "cs": "Průčelí Park Hotelu v souboru WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
         }
       }
     },

@@ -42,7 +42,7 @@ test("Cultural Adventure reuses canonical Places and gives street art two area p
 
   assert.notEqual(window.WROC_CATALOG.resolveId("wuwa-estate"), window.WROC_CATALOG.resolveId("wuwa"));
   const wuwaEstate = window.WROC_CATALOG.getPlace("wuwa-estate");
-  assert.equal(wuwaEstate.media.photos.length, 19);
+  assert.equal(wuwaEstate.media.photos.length, 28);
   assert.deepEqual(Array.from(window.WROC_CATALOG.getPlace("wuwa").media.photos), ["/assets/wuwa-estate-18.jpg", "/assets/wuwa-estate-19.jpg", "/assets/wuwa-estate-20.jpg"], "cafe excludes housing architecture and model photos");
   assert.equal(wuwaEstate.media.videos.length, 8);
   assert.equal(new Set(wuwaEstate.media.videos).size, 8);
