@@ -11,8 +11,10 @@ test('Thirteen full cafe photographs preserve226 other records and all five iden
 });
 test('All thirteen exact source photos reach the five actual map galleries once with complete dimensions and five captions',()=>{
  assert.equal(f.items.length,13);assert.equal(new Set(f.items.map(r=>r.asset)).size,13);
- for(const[id,n]of Object.entries(f.expectedPhotoCounts)){const p=window.WROC_CATALOG.getPlace(id);assert.equal(p.media.photos.length,n,id);assert.deepEqual(plain(window.WROC_LOCATION_MEDIA[id].gallery),plain(p.media.photos),id+'adapter');assert.deepEqual(plain(window.WROC_LOCATION_MEDIA[id].videos),plain(p.media.videos));}
+ for(const[id,n]of Object.entries(f.expectedPhotoCounts)){const rows=window.WROC_LIFESTYLE_PLACES.filter(p=>p.id===id);assert.equal(rows.length,1,id+'onecard');assert.equal(rows[0].mediaKey,id,id+'gallery-action-key');const p=window.WROC_CATALOG.getPlace(id);assert.equal(p.media.photos.length,n,id);assert.deepEqual(plain(window.WROC_LOCATION_MEDIA[id].gallery),plain(p.media.photos),id+'adapter');assert.deepEqual(plain(window.WROC_LOCATION_MEDIA[id].videos),plain(p.media.videos));}
  for(const r of f.items){const p=window.WROC_CATALOG.getPlace(r.canonicalId),m=p.media.metadata[r.asset];assert.equal(p.media.photos.filter(v=>v===r.asset).length,1);assert.equal(hashFile(r.asset),r.assetSHA256);assert.equal(m.sourceSHA256,r.sha256);assert.equal(m.originalFullPicturePreserved,true);assert.equal(m.familyExceptionApplied,false);assert.ok(Math.abs(r.sourceDimensions[0]/r.sourceDimensions[1]-r.assetDimensions[0]/r.assetDimensions[1])<0.001);for(const l of ['he','en','pl','de','cs'])assert.ok(m.alt[l]);}
  assert.equal(f.items.find(r=>r.reviewIndex===58).canonicalId,'pan-precel');assert.equal(window.WROC_CATALOG.getPlace('pan-precel').location.coordinates.lat,51.1069625);
 });
 function hashFile(asset){return createHash('sha256').update(readFileSync('.'+asset)).digest('hex');}
+
+test("Both map styles preserve full cafe photographs and pages load the updated rule",()=>{for(const kind of["lifestyle","cultural"]){const css=readFileSync(kind+".css","utf8");assert.match(css,/\.media-grid img\[src\*="\/food-round-oct23\/"\]\{height:auto;max-height:78vh;object-fit:contain/);assert.match(readFileSync(kind+".html","utf8"),new RegExp(kind+"\\.css\\?v=20261023-food-round-full-picture"));}});

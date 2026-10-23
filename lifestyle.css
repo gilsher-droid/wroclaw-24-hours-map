@@ -268,3 +268,6 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 
 /* Full original pictures for the next authorized source-media round. */
 .media-grid img[src*="/round-other-20261023/"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
+
+/* Preserve full new cafe visit photographs in the media dialog. */
+.media-grid img[src*="/food-round-oct23/"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
