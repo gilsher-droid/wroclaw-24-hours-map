@@ -274,3 +274,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Full canonical Panorama gallery also reaches route cards and map popups.
 (function(){const p=window.WROC_CATALOG?.getPlace?.("panorama");if(p)window.WROC_LOCATION_MEDIA.panorama={...(window.WROC_LOCATION_MEDIA.panorama||{}),gallery:p.media.photos};})();
+
+// Expose every recovered original cafe photograph through the existing WuWA route/card adapter.
+(function(){const p=window.WROC_CATALOG?.getPlace?.("wuwa");if(p)window.WROC_LOCATION_MEDIA.wuwa={...(window.WROC_LOCATION_MEDIA.wuwa||{}),gallery:p.media.photos};})();

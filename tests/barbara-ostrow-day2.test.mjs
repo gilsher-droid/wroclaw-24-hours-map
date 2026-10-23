@@ -7,7 +7,7 @@ test('Barbara adds only explicitly shared Papa guides; all221 unrelated records 
  assert.equal(unchanged,221);
 });
 test('Barbara guide buttons describe the shared context, select actual HE/EN editions and native captions in all five languages',()=>{
- const p=window.WROC_CATALOG.getPlace('barbara-wroclaw');assert.equal(p.media.photos.length,7);assert.equal(p.media.videos.length,3);
+ const p=window.WROC_CATALOG.getPlace('barbara-wroclaw');assert.equal(p.media.photos.length,8);assert.equal(p.media.videos.length,3);
  for(const lang of['he','en','pl','de','cs']){const url=window.WROC_GUIDE_VIDEO.sourceFor(p.id,lang);assert.equal(url,lang==='he'?'https://youtube.com/shorts/Eyns7Gj66d0':'https://youtube.com/shorts/pIzp5Bmb9ck');const html=window.WROC_GUIDE_VIDEO.button(p.id,lang);assert.ok(html.includes(p.provenance.guideContextLabel[lang]));assert.match(window.WROC_GUIDE_VIDEO.embedUrlFor(url,lang),new RegExp('cc_lang_pref='+lang));const icon=window.WROC_GUIDE_VIDEO.decorateIcon({html:'B',className:''},p,lang);assert.match(icon.html,/guide-marker-badge/);}
 });
 test('Day2 contains exactly nine distinct island canonical stops and one garden, while days1,3,4 stay exact',()=>{

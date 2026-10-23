@@ -20,7 +20,7 @@ test("WuWA café is actually registered on Lifestyle with café-only media and s
  assert.ok(record.categories.includes("drink"));
  const cafe=record.canonicalPlace,estate=window.WROC_CATALOG.getPlace("wuwa-estate");
  assert.ok(cafe.media.photos.length>0);
- for(const photo of cafe.media.photos)assert.ok(estate.media.metadata[photo].tags.includes("wuwa-cafe"),`${photo}: residential/model photos do not belong in café gallery`);
+ for(const photo of cafe.media.photos)assert.ok((cafe.media.metadata?.[photo] || estate.media.metadata[photo]).tags.includes("wuwa-cafe"),`${photo}: residential/model photos do not belong in café gallery`);
  assert.deepEqual(Array.from(cafe.media.videos),["/assets/wuwa-cafe-visit-01.mp4"]);
  for(const lang of ["he","en","de","cs","pl"]){
   assert.ok(record.name[lang]);assert.ok(record.description[lang]);
