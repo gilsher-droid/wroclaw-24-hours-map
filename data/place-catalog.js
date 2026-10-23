@@ -1961,7 +1961,17 @@
         "/assets/food-cafes/ato-ramen-bowl-01.jpg",
         "/assets/food-cafes/ato-ramen-bowls-02.jpg",
         "/assets/food-cafes/ato-ramen-exterior-03.jpg",
-        "/assets/food-cafes/ato-ramen-drink-04.jpg"
+        "/assets/food-cafes/ato-ramen-drink-04.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-0.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-2.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-3.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-4.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-7.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-8.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-10.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-11.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-20.jpg",
+        "/assets/round-other-20261023/food-ato-ramen-21.jpg"
       ],
       "videos": [
         "/assets/ato-ramen-visit-01.mp4",
@@ -2041,6 +2051,256 @@
           "visibility": "public",
           "checks": "complete-no-issues",
           "verifiedAt": "2026-10-18"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-0.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59 (1).jpeg",
+          "sourceSHA256": "a6aa1d0f9aa92c07f8a221ec4b1e3234a573c0e510bcbd3262ffd03f14bdb84b",
+          "assetSHA256": "f7e1a21c851d595825e2d31843481b08d03a52bfdc8255283e888d86541601b0",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית אטו ראמן בערב",
+            "en": "Ato Ramen frontage in the evening",
+            "pl": "Wieczorna fasada Ato Ramen",
+            "de": "Fassade von Ato Ramen am Abend",
+            "cs": "Průčelí Ato Ramen večer"
+          },
+          "title": {
+            "he": "חזית אטו ראמן בערב",
+            "en": "Ato Ramen frontage in the evening",
+            "pl": "Wieczorna fasada Ato Ramen",
+            "de": "Fassade von Ato Ramen am Abend",
+            "cs": "Průčelí Ato Ramen večer"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-2.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59 (3).jpeg",
+          "sourceSHA256": "db96b89cc6a16ac7e24a9ee1240ea3aac618544ec82dad885c6677c5763cbb5f",
+          "assetSHA256": "7d51615eb1c00817a6dab1aba4d8831ed2cd48811f3ee04247d385fd8c6a9592",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית אטו ראמן בערב",
+            "en": "Ato Ramen frontage in the evening",
+            "pl": "Wieczorna fasada Ato Ramen",
+            "de": "Fassade von Ato Ramen am Abend",
+            "cs": "Průčelí Ato Ramen večer"
+          },
+          "title": {
+            "he": "חזית אטו ראמן בערב",
+            "en": "Ato Ramen frontage in the evening",
+            "pl": "Wieczorna fasada Ato Ramen",
+            "de": "Fassade von Ato Ramen am Abend",
+            "cs": "Průčelí Ato Ramen večer"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-3.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.23.59.jpeg",
+          "sourceSHA256": "2426d4ceef6972630a2315634a061ac4f895c305859e05121edbefe3ff2abf6a",
+          "assetSHA256": "3c998fb8d5b8186238dd2660a41d9b7d2c66c50ab1a82af3f1f888590a538389",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית אטו ראמן בערב",
+            "en": "Ato Ramen frontage in the evening",
+            "pl": "Wieczorna fasada Ato Ramen",
+            "de": "Fassade von Ato Ramen am Abend",
+            "cs": "Průčelí Ato Ramen večer"
+          },
+          "title": {
+            "he": "חזית אטו ראמן בערב",
+            "en": "Ato Ramen frontage in the evening",
+            "pl": "Wieczorna fasada Ato Ramen",
+            "de": "Fassade von Ato Ramen am Abend",
+            "cs": "Průčelí Ato Ramen večer"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-4.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.02 (1).jpeg",
+          "sourceSHA256": "a54eced83e0b60ca68750dfa0a43a8db5b4e5f1d1916aae4e091a1deaaa67f67",
+          "assetSHA256": "77a4cdfa1861e909db2fa0a6b0cf66f9774fc8cb80da174240a7b8f0afd3f95d",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מנת ראמן מביקור במסעדה",
+            "en": "Ramen bowl photographed during our visit",
+            "pl": "Miska ramenu ze zdjęcia z naszej wizyty",
+            "de": "Ramenschale bei unserem Besuch",
+            "cs": "Miska ramenu z naší návštěvy"
+          },
+          "title": {
+            "he": "מנת ראמן מביקור במסעדה",
+            "en": "Ramen bowl photographed during our visit",
+            "pl": "Miska ramenu ze zdjęcia z naszej wizyty",
+            "de": "Ramenschale bei unserem Besuch",
+            "cs": "Miska ramenu z naší návštěvy"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-7.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (1).jpeg",
+          "sourceSHA256": "e136e95b8e7e7b3c17c81b6d0c96e70b77b816394c94be9e812aaeb06246f734",
+          "assetSHA256": "d5ba49291940040d224c55c1b46c9dd91040a2bf1db6184dbb83214f47a1f1e9",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חלל אטו ראמן והשתקפויות חלון הרחוב",
+            "en": "Ato Ramen interior and reflections in the street window",
+            "pl": "Wnętrze Ato Ramen i odbicia w oknie od ulicy",
+            "de": "Innenraum von Ato Ramen und Spiegelungen im Straßenfenster",
+            "cs": "Interiér Ato Ramen a odrazy v okně do ulice"
+          },
+          "title": {
+            "he": "חלל אטו ראמן והשתקפויות חלון הרחוב",
+            "en": "Ato Ramen interior and reflections in the street window",
+            "pl": "Wnętrze Ato Ramen i odbicia w oknie od ulicy",
+            "de": "Innenraum von Ato Ramen und Spiegelungen im Straßenfenster",
+            "cs": "Interiér Ato Ramen a odrazy v okně do ulice"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-8.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (3).jpeg",
+          "sourceSHA256": "f42ade9cf3ccf481548e6c15a9e510c476d8ae50ba1d6dcdf1b26b6520c85102",
+          "assetSHA256": "25da9c5a9d12fb8e0ed40d52f7820f71821e89739e0a1630db39182a20f96a9e",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חלל הישיבה והדלפק באטו ראמן",
+            "en": "Seating and counter inside Ato Ramen",
+            "pl": "Miejsca siedzące i lada w Ato Ramen",
+            "de": "Sitzbereich und Theke in Ato Ramen",
+            "cs": "Posezení a pult v Ato Ramen"
+          },
+          "title": {
+            "he": "חלל הישיבה והדלפק באטו ראמן",
+            "en": "Seating and counter inside Ato Ramen",
+            "pl": "Miejsca siedzące i lada w Ato Ramen",
+            "de": "Sitzbereich und Theke in Ato Ramen",
+            "cs": "Posezení a pult v Ato Ramen"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03 (5).jpeg",
+          "sourceSHA256": "ec3b7cba97cdc353e56b5d613e10c73a336f8665abdecb330c86dcf9077e16c7",
+          "assetSHA256": "675bb67390e91bc1cc61461a639ca6a3d5db0c419b889b9152ffda46e76a225b",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "התפריט כפי שצולם בביקור, לא מחירים עדכניים",
+            "en": "Menu photographed during the visit; prices are historical",
+            "pl": "Menu sfotografowane podczas wizyty; ceny historyczne",
+            "de": "Speisekarte vom Besuch; historische Preise",
+            "cs": "Jídelní lístek z návštěvy; historické ceny"
+          },
+          "title": {
+            "he": "התפריט כפי שצולם בביקור, לא מחירים עדכניים",
+            "en": "Menu photographed during the visit; prices are historical",
+            "pl": "Menu sfotografowane podczas wizyty; ceny historyczne",
+            "de": "Speisekarte vom Besuch; historische Preise",
+            "cs": "Jídelní lístek z návštěvy; historické ceny"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-11.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-01 at 09.24.03.jpeg",
+          "sourceSHA256": "6da193b8085098509ab9a0e655590b1fe5082281268e1a9e8c4f8effd59f12e0",
+          "assetSHA256": "a123ff11c80abc64dc11194c0f9e6dc86d6560881d62db316f6e0692975c0c54",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חלל הישיבה והדלפק באטו ראמן",
+            "en": "Seating and counter inside Ato Ramen",
+            "pl": "Miejsca siedzące i lada w Ato Ramen",
+            "de": "Sitzbereich und Theke in Ato Ramen",
+            "cs": "Posezení a pult v Ato Ramen"
+          },
+          "title": {
+            "he": "חלל הישיבה והדלפק באטו ראמן",
+            "en": "Seating and counter inside Ato Ramen",
+            "pl": "Miejsca siedzące i lada w Ato Ramen",
+            "de": "Sitzbereich und Theke in Ato Ramen",
+            "cs": "Posezení a pult v Ato Ramen"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-20.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-05 at 18.31.40 (3).jpeg",
+          "sourceSHA256": "6c4a29e00e6b2461ce4f6e1779761e3c2e65564ff95b8d7d2add69263867646c",
+          "assetSHA256": "f98a4a2cdbf4c75fd149f9ce27e42788706e8969f9648f334559e1605b443137",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מנת ראמן מביקור במסעדה",
+            "en": "Ramen bowl photographed during our visit",
+            "pl": "Miska ramenu ze zdjęcia z naszej wizyty",
+            "de": "Ramenschale bei unserem Besuch",
+            "cs": "Miska ramenu z naší návštěvy"
+          },
+          "title": {
+            "he": "מנת ראמן מביקור במסעדה",
+            "en": "Ramen bowl photographed during our visit",
+            "pl": "Miska ramenu ze zdjęcia z naszej wizyty",
+            "de": "Ramenschale bei unserem Besuch",
+            "cs": "Miska ramenu z naší návštěvy"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-ato-ramen-21.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/אטו ראמן/WhatsApp Image 2026-10-05 at 18.31.40 (4).jpeg",
+          "sourceSHA256": "951719e7e36221cccd6684b5b2350cdc1d9eac4c6748cecf1063ab2cf581e017",
+          "assetSHA256": "cfad9016386e459dfac96aae75ad28d2d4a7d499678758ea424a1deedf2cbede",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מנת ראמן מביקור במסעדה",
+            "en": "Ramen bowl photographed during our visit",
+            "pl": "Miska ramenu ze zdjęcia z naszej wizyty",
+            "de": "Ramenschale bei unserem Besuch",
+            "cs": "Miska ramenu z naší návštěvy"
+          },
+          "title": {
+            "he": "מנת ראמן מביקור במסעדה",
+            "en": "Ramen bowl photographed during our visit",
+            "pl": "Miska ramenu ze zdjęcia z naszej wizyty",
+            "de": "Ramenschale bei unserem Besuch",
+            "cs": "Miska ramenu z naší návštěvy"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
         }
       }
     },
@@ -12741,7 +13001,8 @@
         "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg",
         "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-02.jpg",
         "/assets/today-source-refresh-20261021/05-domek-nad-fosa-wroclaw.jpg",
-        "/assets/today-source-refresh-20261021/06-domek-nad-fosa-wroclaw.jpg"
+        "/assets/today-source-refresh-20261021/06-domek-nad-fosa-wroclaw.jpg",
+        "/assets/round-other-20261023/food-domek-nad-fosa-wroclaw-49.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=3z4LvIz8190"
@@ -12830,6 +13091,31 @@
           "reopenedPublicVerified": true,
           "checks": "Copyright and Community Guidelines complete: no issues found",
           "verifiedAt": "2026-10-21T11:56:03.746Z"
+        },
+        "/assets/round-other-20261023/food-domek-nad-fosa-wroclaw-49.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/DOMEK NAD FOSA/WhatsApp Image 2026-10-21 at 13.42.38.jpeg",
+          "sourceSHA256": "fa8ea2807e0223ff350edd3f08413204893fe9add91499d37e838a44e15dda02",
+          "assetSHA256": "8cb50bf18a2e160289265936564c7a14ee375717ec2335df6ad19e00a585ed91",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט ערב על החפיר וסביבת דומק נד פוסה",
+            "en": "Evening view of the moat and the surroundings of Domek nad Fosą",
+            "pl": "Wieczorny widok fosy i otoczenia Domku nad Fosą",
+            "de": "Abendblick auf den Stadtgraben und die Umgebung von Domek nad Fosą",
+            "cs": "Večerní pohled na příkop a okolí Domku nad Fosą"
+          },
+          "title": {
+            "he": "מבט ערב על החפיר וסביבת דומק נד פוסה",
+            "en": "Evening view of the moat and the surroundings of Domek nad Fosą",
+            "pl": "Wieczorny widok fosy i otoczenia Domku nad Fosą",
+            "de": "Abendblick auf den Stadtgraben und die Umgebung von Domek nad Fosą",
+            "cs": "Večerní pohled na příkop a okolí Domku nad Fosą"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
         }
       }
     },
@@ -15206,7 +15492,8 @@
       "thumbnail": "/assets/food-cafes/fc-caffe-kuznicza-01.jpg",
       "photos": [
         "/assets/food-cafes/fc-caffe-kuznicza-01.jpg",
-        "/assets/cafes-alley-refresh-20261020/fc-caffe-refresh-02.jpg"
+        "/assets/cafes-alley-refresh-20261020/fc-caffe-refresh-02.jpg",
+        "/assets/round-other-20261023/food-fc-caffe-kuznicza-59.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/HNowfJsSUvc",
@@ -15288,6 +15575,31 @@
           "savedPublicVerified": true,
           "reopenedVerified": true,
           "originalFullPictureAndDurationPreserved": true
+        },
+        "/assets/round-other-20261023/food-fc-caffe-kuznicza-59.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/FC CAFFE/WhatsApp Image 2026-10-21 at 21.34.46 (3).jpeg",
+          "sourceSHA256": "bb695208ae749c8443dbf0add71d82613cadec2343359c506626f9d84253130d",
+          "assetSHA256": "9fcf150881cac9d4ee2d5796b9848beef35488e5590e77710d9cc31d069dac0b",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "שולחנות הרחוב והחזית של אף סי קפה",
+            "en": "Street tables and frontage of FC Caffe",
+            "pl": "Stoliki przy ulicy i fasada FC Caffe",
+            "de": "Straßentische und Fassade von FC Caffe",
+            "cs": "Venkovní stolky a průčelí FC Caffe"
+          },
+          "title": {
+            "he": "שולחנות הרחוב והחזית של אף סי קפה",
+            "en": "Street tables and frontage of FC Caffe",
+            "pl": "Stoliki przy ulicy i fasada FC Caffe",
+            "de": "Straßentische und Fassade von FC Caffe",
+            "cs": "Venkovní stolky a průčelí FC Caffe"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
         }
       }
     },
@@ -27313,7 +27625,9 @@
       "photos": [
         "/assets/food-cafes/lodziarnia-roma-01.jpg",
         "/assets/food-cafes/lodziarnia-roma-02.jpg",
-        "/assets/today-source-refresh-20261021/run4-006-lodziarnia-roma.jpg"
+        "/assets/today-source-refresh-20261021/run4-006-lodziarnia-roma.jpg",
+        "/assets/round-other-20261023/food-lodziarnia-roma-68.jpg",
+        "/assets/round-other-20261023/food-lodziarnia-roma-69.jpg"
       ],
       "videos": [
         "/assets/lodziarnia-roma-visit-01.mp4",
@@ -27355,6 +27669,56 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "/assets/round-other-20261023/food-lodziarnia-roma-68.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Image 2026-10-21 at 21.34.47 (6).jpeg",
+          "sourceSHA256": "fcbb26b557891d833dfc9feee2f4a2501134019b289466ca035f2c0075476ce5",
+          "assetSHA256": "5968b0b035789eec00e37d53dfbfdbd51c7c5cb8b60a8c623231d560389f1e46",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "התפריט כפי שצולם בביקור, לא מחירים עדכניים",
+            "en": "Menu photographed during the visit; prices are historical",
+            "pl": "Menu sfotografowane podczas wizyty; ceny historyczne",
+            "de": "Speisekarte vom Besuch; historische Preise",
+            "cs": "Jídelní lístek z návštěvy; historické ceny"
+          },
+          "title": {
+            "he": "התפריט כפי שצולם בביקור, לא מחירים עדכניים",
+            "en": "Menu photographed during the visit; prices are historical",
+            "pl": "Menu sfotografowane podczas wizyty; ceny historyczne",
+            "de": "Speisekarte vom Besuch; historische Preise",
+            "cs": "Jídelní lístek z návštěvy; historické ceny"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/round-other-20261023/food-lodziarnia-roma-69.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Image 2026-10-21 at 21.34.47 (7).jpeg",
+          "sourceSHA256": "96a7b25d87d4c5658a8a48b4fb4519fbd1c78f455e96943409f65791043098e6",
+          "assetSHA256": "308cb1979f8be2b2996a3120b572b0828c1c4e30c8f1bd161d3b180970cfd6aa",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית גלידריית רומא והרחוב הסמוך",
+            "en": "Roma ice cream shop frontage and the adjoining street",
+            "pl": "Fasada lodziarni Roma i sąsiednia ulica",
+            "de": "Fassade der Eisdiele Roma und die angrenzende Straße",
+            "cs": "Průčelí zmrzlinárny Roma a přilehlá ulice"
+          },
+          "title": {
+            "he": "חזית גלידריית רומא והרחוב הסמוך",
+            "en": "Roma ice cream shop frontage and the adjoining street",
+            "pl": "Fasada lodziarni Roma i sąsiednia ulica",
+            "de": "Fassade der Eisdiele Roma und die angrenzende Straße",
+            "cs": "Průčelí zmrzlinárny Roma a přilehlá ulice"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
         }
       }
     },
@@ -58350,9 +58714,6 @@
   "מגנוליה": "magnolia",
   "פאשן אאוטלט": "fashion-outlet",
   "פשיון אאוטלט": "fashion-outlet",
-  "אטו ראמן": "ato-ramen",
-  "Ato Ramen WRO": "ato-ramen",
-  "ATO RAMEN Wrocław": "ato-ramen",
   "Liebichshöhe": "bastion",
   "Partisan Hill": "bastion",
   "Sakwowy Bastion": "bastion",
@@ -58461,12 +58822,6 @@
   "טוליפ הוטלס ורוצלב פטיו": "tulip-hotels-wroclaw-patio",
   "Hotel Patio Wrocław": "tulip-hotels-wroclaw-patio",
   "Patio Hotel Kiełbaśnicza": "tulip-hotels-wroclaw-patio",
-  "CAFE FC": "fc-caffe-kuznicza",
-  "Cafe FC": "fc-caffe-kuznicza",
-  "FC CAFFE": "fc-caffe-kuznicza",
-  "FC Caffe": "fc-caffe-kuznicza",
-  "קפה אף סי": "fc-caffe-kuznicza",
-  "קפה אפ סי": "fc-caffe-kuznicza",
   "Bar Miś": "bar-mis",
   "Bar Mis": "bar-mis",
   "בר מיש": "bar-mis",
@@ -58489,9 +58844,6 @@
   "פן פרצל אקספרס, גרונבלדזקי": "pan-precel-express-grunwaldzki",
   "Pomiędzy cafe&bistro": "pomiedzy-cafe-bistro-wroclaw",
   "פומיינדז׳ה, בית קפה וביסטרו": "pomiedzy-cafe-bistro-wroclaw",
-  "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
-  "Domek nad Fosa": "domek-nad-fosa-wroclaw",
-  "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
   "Westfield Wroclavia": "wroclavia",
   "Wroclavia": "wroclavia",
   "westfield-wroclavia": "wroclavia",
@@ -58549,6 +58901,18 @@
   "Witch Bridge": "mostek-pokutnic-wroclaw",
   "Witches Bridge": "mostek-pokutnic-wroclaw",
   "גשר המכשפות": "mostek-pokutnic-wroclaw",
+  "ATO RAMEN Wrocław": "ato-ramen",
+  "Ato Ramen WRO": "ato-ramen",
+  "אטו ראמן": "ato-ramen",
+  "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
+  "Domek nad Fosa": "domek-nad-fosa-wroclaw",
+  "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
+  "CAFE FC": "fc-caffe-kuznicza",
+  "Cafe FC": "fc-caffe-kuznicza",
+  "FC CAFFE": "fc-caffe-kuznicza",
+  "FC Caffe": "fc-caffe-kuznicza",
+  "קפה אף סי": "fc-caffe-kuznicza",
+  "קפה אפ סי": "fc-caffe-kuznicza",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
