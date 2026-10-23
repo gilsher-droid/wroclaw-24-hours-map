@@ -7,7 +7,7 @@ const registry=window.WROC_EXPERIENCE_CATALOG;
 test('Six public experiences reuse canonical places and retain separately scoped area media',()=>{
  assert.equal(window.WROC_HOME_EXPERIENCES.length,6);
  for(const {id} of window.WROC_HOME_EXPERIENCES)assert.ok(registry.getExperience(id));
- const milk=registry.getExperience('wroclaw-milk-bars');assert.deepEqual(Array.from(milk.relatedCanonicalPlaceIds),['bar-mis','bar-mleczny-mewa-wroclaw','rozowa-krowa-milk-bar-wroclaw','vega-bar-weganski-wroclaw']);assert.equal(registry.resolveMedia(milk).images.length,10);assert.equal(milk.media.videos.length,0);
+ const milk=registry.getExperience('wroclaw-milk-bars');assert.deepEqual(Array.from(milk.relatedCanonicalPlaceIds),['bar-mis','bar-mleczny-mewa-wroclaw','rozowa-krowa-milk-bar-wroclaw','vega-bar-weganski-wroclaw']);assert.equal(registry.resolveMedia(milk).images.length,13);assert.equal(milk.media.videos.length,0);
  const dwarfs=registry.getExperience('wroclaw-dwarf-hunt');assert.deepEqual(Array.from(dwarfs.relatedCanonicalPlaceIds),['papa','dwarf-info','mostek-pokutnic-wroclaw']);
  const media=registry.resolveMedia(dwarfs);assert.equal(media.images.length,new Set(media.images).size);assert.ok(media.images.length>=30);assert.ok(media.guides.some(g=>g.canonicalPlaceId==='papa'));
  const beach=registry.resolveMedia('beach-bars-and-waterside-summer');assert.ok(beach.guides.some(g=>g.canonicalPlaceId==='morskie-oko-wroclaw'));

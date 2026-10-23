@@ -125,6 +125,7 @@
   };
 
   const resources = {
+    konspira: canonicalResources("konspira"),
     "hostel-krasnal-wroclaw": canonicalResources("hostel-krasnal-wroclaw"),
     "marietta-focacceria-wroclaw": canonicalResources("marietta-focacceria-wroclaw"),
     "olio-pizza-napoletana-wroclaw": canonicalResources("olio-pizza-napoletana-wroclaw"),
@@ -270,3 +271,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Preserve Japanese Garden guide/social actions while exposing the complete canonical gallery.
 (function(){const p=window.WROC_CATALOG?.getPlace?.("japanese");if(p)window.WROC_LOCATION_MEDIA.japanese={...(window.WROC_LOCATION_MEDIA.japanese||{}),gallery:p.media.photos,videos:p.media.videos};})();
+
+// Full canonical Panorama gallery also reaches route cards and map popups.
+(function(){const p=window.WROC_CATALOG?.getPlace?.("panorama");if(p)window.WROC_LOCATION_MEDIA.panorama={...(window.WROC_LOCATION_MEDIA.panorama||{}),gallery:p.media.photos};})();

@@ -2770,7 +2770,10 @@
         "/assets/experiences/milk-bars/visit-02.jpg",
         "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-18.jpg",
         "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-19.jpg",
-        "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-21.jpg"
+        "/assets/milk-bars-refresh-20261021/bar-mleczny-mewa-wroclaw-21.jpg",
+        "/assets/round-other-20261023/bar-mleczny-mewa-wroclaw-extra-0.jpg",
+        "/assets/round-other-20261023/bar-mleczny-mewa-wroclaw-extra-15.jpg",
+        "/assets/round-other-20261023/bar-mleczny-mewa-wroclaw-extra-18.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -2837,6 +2840,78 @@
             "de": "Unser Besuchsfoto",
             "cs": "Fotografie z naší návštěvy"
           }
+        },
+        "/assets/round-other-20261023/bar-mleczny-mewa-wroclaw-extra-0.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-01 at 09.20.35 (2).jpeg",
+          "sourceSHA256": "0e8529b6baab3e8da4e49c99c25c7c7eab66a3f2c9c28984a71333c725bcf362",
+          "originalFullPicturePreserved": true,
+          "sourceFolderReview": "full-source review, all distinct relevant place images retained; duplicates reused and personal images held separately",
+          "alt": {
+            "he": "חזית הבר והכניסה",
+            "en": "Milk bar facade and entrance",
+            "pl": "Fasada i wejście do baru mlecznego",
+            "de": "Fassade und Eingang der Milchbar",
+            "cs": "Průčelí a vstup do mléčného baru"
+          },
+          "title": {
+            "he": "חזית הבר והכניסה",
+            "en": "Milk bar facade and entrance",
+            "pl": "Fasada i wejście do baru mlecznego",
+            "de": "Fassade und Eingang der Milchbar",
+            "cs": "Průčelí a vstup do mléčného baru"
+          },
+          "assetSHA256": "4204c8657fe8549d005f213b34423e2283f49aa6255e7d869a16e3e731db1a1a",
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/round-other-20261023/bar-mleczny-mewa-wroclaw-extra-15.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-21 at 13.33.41 (4).jpeg",
+          "sourceSHA256": "0629e8d9ac210027320f9c7618cde6eb90b10816414f66ba4c446c6786699f80",
+          "originalFullPicturePreserved": true,
+          "sourceFolderReview": "full-source review, all distinct relevant place images retained; duplicates reused and personal images held separately",
+          "alt": {
+            "he": "לוח התפריט בביקור שלנו, המחירים היסטוריים",
+            "en": "Menu board during our visit; historical prices",
+            "pl": "Tablica menu podczas naszej wizyty; ceny historyczne",
+            "de": "Menütafel bei unserem Besuch; historische Preise",
+            "cs": "Tabule s menu během naší návštěvy; historické ceny"
+          },
+          "title": {
+            "he": "לוח התפריט בביקור שלנו, המחירים היסטוריים",
+            "en": "Menu board during our visit; historical prices",
+            "pl": "Tablica menu podczas naszej wizyty; ceny historyczne",
+            "de": "Menütafel bei unserem Besuch; historische Preise",
+            "cs": "Tabule s menu během naší návštěvy; historické ceny"
+          },
+          "assetSHA256": "1fa8e7c2eda79f054595e09a92aee12afb1d97b91cea2813e7f51212a663db62",
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/round-other-20261023/bar-mleczny-mewa-wroclaw-extra-18.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מילק באר/WhatsApp Image 2026-10-21 at 13.33.41 (8).jpeg",
+          "sourceSHA256": "3a17127971313752831e354f5d20c53cd5f5148e75da501c677f90d5b4dad2ab",
+          "originalFullPicturePreserved": true,
+          "sourceFolderReview": "full-source review, all distinct relevant place images retained; duplicates reused and personal images held separately",
+          "alt": {
+            "he": "החלונות והשלט בחזית הבר",
+            "en": "Front windows and milk bar sign",
+            "pl": "Okna i szyld baru mlecznego",
+            "de": "Vordere Fenster und Schild der Milchbar",
+            "cs": "Přední okna a označení mléčného baru"
+          },
+          "title": {
+            "he": "החלונות והשלט בחזית הבר",
+            "en": "Front windows and milk bar sign",
+            "pl": "Okna i szyld baru mlecznego",
+            "de": "Vordere Fenster und Schild der Milchbar",
+            "cs": "Přední okna a označení mléčného baru"
+          },
+          "assetSHA256": "4e8f729896474d6dc2033a35ddd982da9e95944b3fcf94d754071bd98d7bd11c",
+          "familyForeground": false,
+          "familyExceptionApplied": false
         }
       }
     },
@@ -8730,7 +8805,9 @@
       "thumbnail": "/assets/central-cafe/central-cafe-nadodrze-visit-01.jpg",
       "photos": [
         "/assets/central-cafe/central-cafe-nadodrze-visit-01.jpg",
-        "/assets/central-cafe/central-cafe-nadodrze-visit-02.jpg"
+        "/assets/central-cafe/central-cafe-nadodrze-visit-02.jpg",
+        "/assets/round-other-20261023/central-cafe-nadodrze-extra-0.jpg",
+        "/assets/round-other-20261023/central-cafe-nadodrze-extra-5.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -8763,6 +8840,54 @@
           },
           "familyForeground": false,
           "privacyReview": "Place frontage/entrance is the main subject; no posed family image. Incidental passerby/reflection is not treated as a portrait."
+        },
+        "/assets/round-other-20261023/central-cafe-nadodrze-extra-0.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/central cafe/WhatsApp Image 2026-07-13 at 19.42.40 (6).jpeg",
+          "sourceSHA256": "cf4772c06624346529da03982f600ada56c77b8d1219b44af4ed58e646f88bf8",
+          "originalFullPicturePreserved": true,
+          "sourceFolderReview": "full-source review, all distinct relevant place images retained; duplicates reused and personal images held separately",
+          "alt": {
+            "he": "מודעת פתיחת הסניף שנצפתה בביקור, שעות היסטוריות",
+            "en": "Branch opening notice seen during our visit; historical hours",
+            "pl": "Ogłoszenie otwarcia lokalu z naszej wizyty; historyczne godziny",
+            "de": "Eröffnungsankündigung bei unserem Besuch; historische Öffnungszeiten",
+            "cs": "Oznámení o otevření pobočky z naší návštěvy; historická otevírací doba"
+          },
+          "title": {
+            "he": "מודעת פתיחת הסניף שנצפתה בביקור, שעות היסטוריות",
+            "en": "Branch opening notice seen during our visit; historical hours",
+            "pl": "Ogłoszenie otwarcia lokalu z naszej wizyty; historyczne godziny",
+            "de": "Eröffnungsankündigung bei unserem Besuch; historische Öffnungszeiten",
+            "cs": "Oznámení o otevření pobočky z naší návštěvy; historická otevírací doba"
+          },
+          "assetSHA256": "e344991f0ba322a3a063ae1671e69d67576c574a542d8d05c756ef150116eb12",
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/round-other-20261023/central-cafe-nadodrze-extra-5.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/central cafe/נדאודזה/WhatsApp Image 2026-10-20 at 17.30.29 (1).jpeg",
+          "sourceSHA256": "e82421e37d27e50665cbc5a41341a11a731fde7da86dc80988e8d292ba7ba53e",
+          "originalFullPicturePreserved": true,
+          "sourceFolderReview": "full-source review, all distinct relevant place images retained; duplicates reused and personal images held separately",
+          "alt": {
+            "he": "דלת הכניסה והשלט של בית הקפה",
+            "en": "Cafe entrance door and sign",
+            "pl": "Drzwi wejściowe i szyld kawiarni",
+            "de": "Eingangstür und Schild des Cafés",
+            "cs": "Vstupní dveře a označení kavárny"
+          },
+          "title": {
+            "he": "דלת הכניסה והשלט של בית הקפה",
+            "en": "Cafe entrance door and sign",
+            "pl": "Drzwi wejściowe i szyld kawiarni",
+            "de": "Eingangstür und Schild des Cafés",
+            "cs": "Vstupní dveře a označení kavárny"
+          },
+          "assetSHA256": "ee3997bdf16e757178b0177fb10badc79762a404b20ac3be03780e7cfd2ab785",
+          "familyForeground": false,
+          "familyExceptionApplied": false
         }
       }
     },
@@ -24790,9 +24915,50 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/round-other-20261023/konspira-extra-3.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/round-other-20261023/konspira-extra-3.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Konspira/IMG_1138.JPG",
+          "sourceSHA256": "e5a2779e80fec787260aa5df08cac81aa014c5b96e0b87887c6d179a8f999cd6",
+          "originalFullPicturePreserved": true,
+          "sourceFolderReview": "full-source review, all distinct relevant place images retained; duplicates reused and personal images held separately",
+          "alt": {
+            "he": "מנה מהביקור שלנו במסעדה",
+            "en": "Dish photographed during our restaurant visit",
+            "pl": "Danie sfotografowane podczas naszej wizyty w restauracji",
+            "de": "Gericht von unserem Restaurantbesuch",
+            "cs": "Jídlo vyfotografované během naší návštěvy restaurace"
+          },
+          "title": {
+            "he": "מנה מהביקור שלנו במסעדה",
+            "en": "Dish photographed during our restaurant visit",
+            "pl": "Danie sfotografowane podczas naszej wizyty w restauracji",
+            "de": "Gericht von unserem Restaurantbesuch",
+            "cs": "Jídlo vyfotografované během naší návštěvy restaurace"
+          },
+          "assetSHA256": "dd92c5233288ce6c37ae464f7bbe341d4596bc56e11ec21ce857490331b26cf3",
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        }
+      }
     },
     "socialPosts": [
       {
@@ -24860,19 +25026,6 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "korona-hotel": {
@@ -36301,9 +36454,34 @@
         "/assets/gallery-panorama-01.jpg",
         "/assets/gallery-panorama-02.jpg",
         "/assets/gallery-panorama-03.jpg",
-        "/assets/gallery-panorama-04.jpg"
+        "/assets/gallery-panorama-04.jpg",
+        "/assets/papa-gnomes-07.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/papa-gnomes-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rotunda/WhatsApp Image 2026-07-14 at 12.07.52.jpeg",
+          "sourceSHA256": "face872a4142ef4b5f7ff1608e8d39e9582d16b9235fa4b943016c1f8a05d6ea",
+          "originalFullPicturePreserved": true,
+          "sourceFolderReview": "full-source review, all distinct relevant place images retained; duplicates reused and personal images held separately",
+          "alt": {
+            "he": "פסל הגמד על הסוס ליד הפנורמה",
+            "en": "Equestrian dwarf sculpture beside the Panorama",
+            "pl": "Figurka krasnala na koniu przy Panoramie",
+            "de": "Reitende Zwergenfigur neben dem Panorama",
+            "cs": "Soška trpaslíka na koni u Panoramy"
+          },
+          "title": {
+            "he": "פסל הגמד על הסוס ליד הפנורמה",
+            "en": "Equestrian dwarf sculpture beside the Panorama",
+            "pl": "Figurka krasnala na koniu przy Panoramie",
+            "de": "Reitende Zwergenfigur neben dem Panorama",
+            "cs": "Soška trpaslíka na koni u Panoramy"
+          },
+          "reuseExistingAsset": true
+        }
+      }
     },
     "socialPosts": [
       {
