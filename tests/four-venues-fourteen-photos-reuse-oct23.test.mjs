@@ -19,4 +19,4 @@ test('Fourteen new assets and one exact existing asset reach all four actual gal
 });
 function hashFile(asset){return createHash('sha256').update(readFileSync('.'+asset)).digest('hex');}
 
-test("Both map styles preserve full cafe photographs and pages load the updated rule",()=>{for(const kind of["lifestyle","cultural"]){const css=readFileSync(kind+".css","utf8");assert.match(css,/\.media-grid img\[src\*="\/food-round-oct23\/"\]\{height:auto;max-height:78vh;object-fit:contain/);assert.match(readFileSync(kind+".html","utf8"),new RegExp(kind+"\\.css\\?v="+(kind==="lifestyle"?"20261023-aleja-full-picture":"20261023-food-round-full-picture")));}});
+test("Both map styles preserve full cafe photographs and pages load the updated rule",()=>{for(const kind of["lifestyle","cultural"]){const css=readFileSync(kind+".css","utf8");assert.match(css,/\.media-grid img\[src\*="\/food-round-oct23\/"\]\{height:auto;max-height:78vh;object-fit:contain/);assert.match(readFileSync(kind+".html","utf8"),new RegExp(kind+"\\.css\\?v="+(kind==="lifestyle"?"20261023-small-galleries-full-picture":"20261023-food-round-full-picture")));}});

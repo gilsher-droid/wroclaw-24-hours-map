@@ -25,4 +25,4 @@ test('Dwarf and tram additions belong to the existing experiences; posed persona
 
 test('Updated gallery styles use current cache versions and preserve complete new pictures',()=>{for(const map of ['lifestyle','cultural']){assert.match(readFileSync(map+'.html','utf8'),new RegExp(map+'\\.css\\?v='+'[^"\\s]+'));assert.match(readFileSync(map+'.css','utf8'),/today-source-refresh-20261021.*height:auto;max-height:65vh;object-fit:contain/);}assert.match(readFileSync('cultural.css','utf8'),/rynek-refresh-oct19-08\.jpg.*object-fit:contain/);});
 
-test("La Maddalena exposes its refreshed canonical gallery in Lifestyle",()=>{const p=window.WROC_LIFESTYLE_PLACES.find(p=>p.id==="la-maddalena");assert.equal(p.mediaKey,p.id);assert.equal(window.WROC_LOCATION_MEDIA[p.mediaKey].gallery.length,1);assert.equal(p.description.en,c.getPlace(p.id).description.en);});
+test("La Maddalena exposes its refreshed canonical gallery in Lifestyle",()=>{const p=window.WROC_LIFESTYLE_PLACES.find(p=>p.id==="la-maddalena");assert.equal(p.mediaKey,p.id);assert.equal(window.WROC_LOCATION_MEDIA[p.mediaKey].gallery.length,2);assert.equal(p.description.en,c.getPlace(p.id).description.en);});

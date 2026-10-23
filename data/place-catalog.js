@@ -27769,7 +27769,8 @@
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/17-la-maddalena.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/17-la-maddalena.jpg"
+        "/assets/today-source-refresh-20261021/17-la-maddalena.jpg",
+        "/assets/food-round-oct23/la-maddalena-040.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -27789,6 +27790,30 @@
           "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
           "original": true,
           "familyForeground": false
+        },
+        "/assets/food-round-oct23/la-maddalena-040.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-19 at 08.41.53 (10).jpeg",
+          "sourceSHA256": "6eb4c0cace2d05820c7e7b8f64b228b3bd5d4e627ddf0f711ef2ef98168f45cf",
+          "assetSHA256": "6ae469c5d461a0da3fe87e9f487e19e65a13c735545b4a32a30338d1671b0208",
+          "title": {
+            "he": "חזית לה מדלנה וההשתקפות בנהר בלילה",
+            "en": "La Maddalena frontage and river reflections at night",
+            "pl": "Fasada La Maddalena i odbicia w rzece nocą",
+            "de": "Fassade von La Maddalena und nächtliche Spiegelungen im Fluss",
+            "cs": "Průčelí La Maddalena a noční odrazy v řece"
+          },
+          "alt": {
+            "he": "חזית לה מדלנה וההשתקפות בנהר בלילה",
+            "en": "La Maddalena frontage and river reflections at night",
+            "pl": "Fasada La Maddalena i odbicia w rzece nocą",
+            "de": "Fassade von La Maddalena und nächtliche Spiegelungen im Fluss",
+            "cs": "Průčelí La Maddalena a noční odrazy v řece"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-urban-shared-full-source-inventory.json",
+          "reviewIndex": 40
         }
       }
     },
@@ -29567,7 +29592,9 @@
         "/assets/food-cafes/magnolia-park-06.jpg",
         "/assets/food-cafes/magnolia-park-07.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=sLFwfhh-IFQ"
+      ],
       "metadata": {
         "/assets/food-cafes/magnolia-park-01.jpg": {
           "original": true,
@@ -29666,6 +29693,41 @@
             "cs": "Nákupní zóna a prostor pro dočasné prezentace"
           },
           "heroCandidate": false
+        },
+        "https://www.youtube.com/watch?v=sLFwfhh-IFQ": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Magnolia park/IMG_4904.MOV",
+          "sourceSHA256": "ce939eab5b1870093af4b425406effb67c1d9e684bd35b08794d082f5adfb256",
+          "uploadSHA256": "674e65c667608b26e8d04c0606fd2f9e19f0641482f8ff38879d0d42f55aeafe",
+          "title": {
+            "he": "המזרקות והרחבה בכניסה למרכז מגנוליה",
+            "en": "Fountains and forecourt at Magnolia Park",
+            "pl": "Fontanny i plac przed Magnolia Park",
+            "de": "Brunnen und Vorplatz am Magnolia Park",
+            "cs": "Fontány a prostranství před Magnolia Park"
+          },
+          "alt": {
+            "he": "המזרקות והרחבה בכניסה למרכז מגנוליה",
+            "en": "Fountains and forecourt at Magnolia Park",
+            "pl": "Fontanny i plac przed Magnolia Park",
+            "de": "Brunnen und Vorplatz am Magnolia Park",
+            "cs": "Fontány a prostranství před Magnolia Park"
+          },
+          "durationSeconds": 4.933333,
+          "youtubeId": "sLFwfhh-IFQ",
+          "visibility": "Public",
+          "public": true,
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_d56b7424664e46759425e23fda7d80b0",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-pomorski-magnolia-two-youtube-publication-manifest.json",
+          "reviewIndex": 45
         }
       }
     },
@@ -32752,9 +32814,16 @@
       "photos": [
         "/assets/today-source-refresh-20261021/run4-201-most-pomorski-poludniowy-wroclaw.jpg",
         "/assets/today-source-refresh-20261021/run4-203-most-pomorski-poludniowy-wroclaw.jpg",
-        "/assets/today-source-refresh-20261021/run4-213-most-pomorski-poludniowy-wroclaw.jpg"
+        "/assets/today-source-refresh-20261021/run4-213-most-pomorski-poludniowy-wroclaw.jpg",
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-088.jpg",
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-090.jpg",
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-091.jpg",
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-092.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://youtube.com/watch?v=2Kgw0UAiO50",
+        "https://www.youtube.com/watch?v=OgKOteEs5dc"
+      ],
       "metadata": {
         "/assets/today-source-refresh-20261021/run4-201-most-pomorski-poludniowy-wroclaw.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.46 (9).jpeg",
@@ -32809,6 +32878,169 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:28:30.919277+00:00",
           "familyForeground": false
+        },
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-088.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.46 (8).jpeg",
+          "sourceSHA256": "cd4d3b797c7811869de35b94725502d082d49970e38f3f58bf5915bd3cecf98d",
+          "assetSHA256": "02f43dfe30215aaf8bd80b397fb0944cb850ca310cdf865f64fd787c6486c5b8",
+          "title": {
+            "he": "חזית ביתן האבן בגשר פומורסקי הדרומי",
+            "en": "Stone pavilion facade at Southern Pomorski Bridge",
+            "pl": "Fasada kamiennego pawilonu przy Moście Pomorskim Południowym",
+            "de": "Fassade des Steinpavillons an der südlichen Pommernbrücke",
+            "cs": "Průčelí kamenného pavilonu u Jižního Pomořanského mostu"
+          },
+          "alt": {
+            "he": "חזית ביתן האבן בגשר פומורסקי הדרומי",
+            "en": "Stone pavilion facade at Southern Pomorski Bridge",
+            "pl": "Fasada kamiennego pawilonu przy Moście Pomorskim Południowym",
+            "de": "Fassade des Steinpavillons an der südlichen Pommernbrücke",
+            "cs": "Průčelí kamenného pavilonu u Jižního Pomořanského mostu"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-urban-shared-full-source-inventory.json",
+          "reviewIndex": 88
+        },
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-090.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.47 (1).jpeg",
+          "sourceSHA256": "b58e155c2bdcd240d0b1cc8260a698eb8d7edd49a0f5d6333f21817aac994790",
+          "assetSHA256": "af00a5162359e6af18024668b76280df48f7a41596972f73a0b9553b4697fb02",
+          "title": {
+            "he": "מבט נוסף על פתח הביתן והפנס ליד הגשר",
+            "en": "Another view of the pavilion doorway and lamp by the bridge",
+            "pl": "Kolejny widok wejścia do pawilonu i latarni przy moście",
+            "de": "Weitere Ansicht des Pavilloneingangs und der Brückenlaterne",
+            "cs": "Další pohled na vstup do pavilonu a lampu u mostu"
+          },
+          "alt": {
+            "he": "מבט נוסף על פתח הביתן והפנס ליד הגשר",
+            "en": "Another view of the pavilion doorway and lamp by the bridge",
+            "pl": "Kolejny widok wejścia do pawilonu i latarni przy moście",
+            "de": "Weitere Ansicht des Pavilloneingangs und der Brückenlaterne",
+            "cs": "Další pohled na vstup do pavilonu a lampu u mostu"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-urban-shared-full-source-inventory.json",
+          "reviewIndex": 90
+        },
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-091.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.47 (2).jpeg",
+          "sourceSHA256": "0f79675074ad17baf4092531026b65892f963a6935784618c76f9769a13f1d7a",
+          "assetSHA256": "e1443e66f108d405c46027d19a68c6ce0ce4a627be20a52d8d015af468841149",
+          "title": {
+            "he": "פתח הביתן והמעבר אל גשר פומורסקי הדרומי",
+            "en": "Pavilion doorway and passage onto Southern Pomorski Bridge",
+            "pl": "Wejście do pawilonu i przejście na Most Pomorski Południowy",
+            "de": "Pavilloneingang und Zugang zur südlichen Pommernbrücke",
+            "cs": "Vstup do pavilonu a přístup na Jižní Pomořanský most"
+          },
+          "alt": {
+            "he": "פתח הביתן והמעבר אל גשר פומורסקי הדרומי",
+            "en": "Pavilion doorway and passage onto Southern Pomorski Bridge",
+            "pl": "Wejście do pawilonu i przejście na Most Pomorski Południowy",
+            "de": "Pavilloneingang und Zugang zur südlichen Pommernbrücke",
+            "cs": "Vstup do pavilonu a přístup na Jižní Pomořanský most"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-urban-shared-full-source-inventory.json",
+          "reviewIndex": 91
+        },
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-092.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.47 (3).jpeg",
+          "sourceSHA256": "6754ba0f383bd6626286e515b9f4b83d2fce23ae64e642f24621e6a8e1d2918f",
+          "assetSHA256": "117c5f05ee9a2be42d5ccf1c922c27021ad704dfa3ca335ebbbefe40afb87e4f",
+          "title": {
+            "he": "חלון קמור בתוך ביתן הגשר, מול הביתן הנגדי",
+            "en": "Arched window inside the bridge pavilion facing the opposite pavilion",
+            "pl": "Łukowe okno wewnątrz pawilonu mostowego z widokiem na drugi pawilon",
+            "de": "Bogenfenster im Brückenpavillon mit Blick auf den gegenüberliegenden Pavillon",
+            "cs": "Obloukové okno uvnitř mostního pavilonu s výhledem na protější pavilon"
+          },
+          "alt": {
+            "he": "חלון קמור בתוך ביתן הגשר, מול הביתן הנגדי",
+            "en": "Arched window inside the bridge pavilion facing the opposite pavilion",
+            "pl": "Łukowe okno wewnątrz pawilonu mostowego z widokiem na drugi pawilon",
+            "de": "Bogenfenster im Brückenpavillon mit Blick auf den gegenüberliegenden Pavillon",
+            "cs": "Obloukové okno uvnitř mostního pavilonu s výhledem na protější pavilon"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-urban-shared-full-source-inventory.json",
+          "reviewIndex": 92
+        },
+        "https://youtube.com/watch?v=2Kgw0UAiO50": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Video 2026-10-05 at 18.27.56.mp4",
+          "sourceSHA256": "f0784eff189e569273507ad2a39150f8db74092dbf1ccfd07437c122171f67d1",
+          "title": {
+            "he": "מבט מהנהר והגישה לגשר פומורסקי",
+            "en": "River view and approach to Pomorski Bridge",
+            "pl": "Widok na rzekę i dojście do Mostu Pomorskiego",
+            "de": "Flussblick und Zugang zur Pommernbrücke",
+            "cs": "Pohled na řeku a přístup k Pomořanskému mostu"
+          },
+          "alt": {
+            "he": "מבט מהנהר והגישה לגשר פומורסקי",
+            "en": "River view and approach to Pomorski Bridge",
+            "pl": "Widok na rzekę i dojście do Mostu Pomorskiego",
+            "de": "Flussblick und Zugang zur Pommernbrücke",
+            "cs": "Pohled na řeku a přístup k Pomořanskému mostu"
+          },
+          "durationSeconds": 8.833333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "reusedExistingYouTubeId": "2Kgw0UAiO50",
+          "sourceExactSHAInExistingHostingRegistry": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "silent": true,
+          "priorPublicationApproval": "call_4531184b7798456fb4fe1e808ef9a361",
+          "publicationEvidence": "outputs/nadodrze-full-enrichment-2026-10-22/completion-receipt.json",
+          "contextReuseReason": "Continuous river panorama ends with identifiable Southern Pomorski Bridge pavilion;existing neighbourhood association retained;no new upload",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-urban18-video-review.json",
+          "reviewIndex": 107
+        },
+        "https://www.youtube.com/watch?v=OgKOteEs5dc": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Video 2026-10-01 at 09.20.39.mp4",
+          "sourceSHA256": "35622aaae197f6c070e6041daba5c9b3bce605d90796c4ba90b349dc336e7a29",
+          "uploadSHA256": "45b9f7065265757a71e915774479c5ae4bd30ebbd3630ce171ce39b804305bb4",
+          "title": {
+            "he": "ביתן הגשר והגישה במעבר החציה",
+            "en": "Bridge pavilion and pedestrian crossing approach",
+            "pl": "Pawilon mostowy i dojście przez przejście dla pieszych",
+            "de": "Brückenpavillon und Zugang über den Fußgängerüberweg",
+            "cs": "Mostní pavilon a přístup přes přechod pro chodce"
+          },
+          "alt": {
+            "he": "ביתן הגשר והגישה במעבר החציה",
+            "en": "Bridge pavilion and pedestrian crossing approach",
+            "pl": "Pawilon mostowy i dojście przez przejście dla pieszych",
+            "de": "Brückenpavillon und Zugang über den Fußgängerüberweg",
+            "cs": "Mostní pavilon a přístup přes přechod pro chodce"
+          },
+          "durationSeconds": 7.766667,
+          "youtubeId": "OgKOteEs5dc",
+          "visibility": "Public",
+          "public": true,
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_d56b7424664e46759425e23fda7d80b0",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-pomorski-magnolia-two-youtube-publication-manifest.json",
+          "reviewIndex": 98
         }
       }
     },
