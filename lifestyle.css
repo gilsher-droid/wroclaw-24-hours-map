@@ -271,3 +271,6 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 
 /* Preserve full new cafe visit photographs in the media dialog. */
 .media-grid img[src*="/food-round-oct23/"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
+
+/* Preserve all existing Aleja Bielany visit photographs in their original proportions. */
+.media-grid img[src*="/aleja-bielany-"]{height:auto;max-height:78vh;object-fit:contain}
