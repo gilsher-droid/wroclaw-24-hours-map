@@ -9682,7 +9682,9 @@
         "/assets/food-cafes/chatka-pierogi-01.jpg",
         "/assets/feels-familiar/chatka-placki.jpg",
         "/assets/food-cafes/chatka-visit-02.jpg",
-        "/assets/food-cafes/chatka-facade-refresh-20261020.jpg"
+        "/assets/food-cafes/chatka-facade-refresh-20261020.jpg",
+        "/assets/round-other-20261023/complete-chatka-31.jpg",
+        "/assets/round-other-20261023/complete-chatka-33.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -9731,6 +9733,56 @@
             "de": "Restaurantfassade und beleuchtetes Schild am Abend",
             "cs": "Průčelí restaurace a osvětlený nápis večer"
           }
+        },
+        "/assets/round-other-20261023/complete-chatka-31.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatka/IMG_0949.JPG",
+          "sourceSHA256": "713cf1255573a98c52dc7eb8ec581c6143b3f83abff97470a72b5db19a74a607",
+          "assetSHA256": "d9f6428f0c75fad5e9fe5b2549a0541c81baa00e0200ebc8b17a8eaba994eafe",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "ארוחת ביקור בצ׳טקה",
+            "en": "A visit meal at Chatka",
+            "pl": "Posiłek podczas wizyty w Chatce",
+            "de": "Essen bei einem Besuch in Chatka",
+            "cs": "Jídlo při návštěvě Chatky"
+          },
+          "title": {
+            "he": "ארוחת ביקור בצ׳טקה",
+            "en": "A visit meal at Chatka",
+            "pl": "Posiłek podczas wizyty w Chatce",
+            "de": "Essen bei einem Besuch in Chatka",
+            "cs": "Jídlo při návštěvě Chatky"
+          },
+          "familyExceptionApplied": true,
+          "familyForeground": true,
+          "authorizationReceipt": "outputs/chatka-enrichment/permission.json",
+          "selectionReason": "Distinct relevant capture retained under full-source rule30; no quantity or similar-view curation"
+        },
+        "/assets/round-other-20261023/complete-chatka-33.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatka/IMG_0951.JPG",
+          "sourceSHA256": "1692df621145836032def45eccebdf9e801c45f5991105ff034b5f38a25d8afe",
+          "assetSHA256": "08cd22738a0622e55c63b64bd6f87d063b11d75bc02f71860e3f7724069c92d4",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מפגש ליד שולחן בצ׳טקה",
+            "en": "At the table during a Chatka visit",
+            "pl": "Przy stole podczas wizyty w Chatce",
+            "de": "Am Tisch bei einem Besuch in Chatka",
+            "cs": "U stolu při návštěvě Chatky"
+          },
+          "title": {
+            "he": "מפגש ליד שולחן בצ׳טקה",
+            "en": "At the table during a Chatka visit",
+            "pl": "Przy stole podczas wizyty w Chatce",
+            "de": "Am Tisch bei einem Besuch in Chatka",
+            "cs": "U stolu při návštěvě Chatky"
+          },
+          "familyExceptionApplied": true,
+          "familyForeground": true,
+          "authorizationReceipt": "outputs/chatka-enrichment/permission.json",
+          "selectionReason": "Distinct relevant capture retained under full-source rule30; no quantity or similar-view curation"
         }
       }
     },
@@ -31336,7 +31388,8 @@
         "/assets/witch-bridge/mostek-pokutnic-01.jpg",
         "/assets/witch-bridge/mostek-pokutnic-03.jpg",
         "/assets/rynek-refresh-oct19-08.jpg",
-        "/assets/today-source-refresh-20261021/run3-30-mostek-pokutnic-wroclaw.jpg"
+        "/assets/today-source-refresh-20261021/run3-30-mostek-pokutnic-wroclaw.jpg",
+        "/assets/round-other-20261023/complete-mostek-pokutnic-wroclaw-1.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -31404,6 +31457,31 @@
           },
           "verifiedAt": "2026-10-21T17:55:35.224654+00:00",
           "sourceRefreshRun": "2026-10-21-run3"
+        },
+        "/assets/round-other-20261023/complete-mostek-pokutnic-wroclaw-1.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WITCH BRIDGE/WhatsApp Image 2026-10-19 at 08.42.09 (12).jpeg",
+          "sourceSHA256": "4a1c5690716a886edb552b6a7dac514fa57917b58d46f53a6f279a8f061c0f69",
+          "assetSHA256": "dcf1d6a7e613ba9bef272eab5cd57bb9cc672d293ab3e194bb7cf923dde8f893",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבקרים ופרטי המעקה בגשר המכשפות",
+            "en": "Visitors and balustrade details on the Bridge of Penitents",
+            "pl": "Zwiedzający i detale balustrady na Mostku Pokutnic",
+            "de": "Besucher und Details der Brüstung auf der Büßerbrücke",
+            "cs": "Návštěvníci a detaily zábradlí na Mostku kajícníků"
+          },
+          "title": {
+            "he": "מבקרים ופרטי המעקה בגשר המכשפות",
+            "en": "Visitors and balustrade details on the Bridge of Penitents",
+            "pl": "Zwiedzający i detale balustrady na Mostku Pokutnic",
+            "de": "Besucher und Details der Brüstung auf der Büßerbrücke",
+            "cs": "Návštěvníci a detaily zábradlí na Mostku kajícníků"
+          },
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "authorizationReceipt": null,
+          "selectionReason": "Distinct relevant capture retained under full-source rule30; no quantity or similar-view curation"
         }
       }
     },
@@ -50843,7 +50921,8 @@
         "/assets/white-stork/white-stork-refresh-02.jpg",
         "/assets/white-stork/white-stork-refresh-03.jpg",
         "/assets/white-stork/white-stork-refresh-04.jpg",
-        "/assets/white-stork/white-stork-refresh-05.jpg"
+        "/assets/white-stork/white-stork-refresh-05.jpg",
+        "/assets/round-other-20261023/complete-white-stork-synagogue-wroclaw-24.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -50963,6 +51042,31 @@
             "cs": "Davidova hvězda nad dveřmi synagogy"
           },
           "verifiedAt": "2026-10-20"
+        },
+        "/assets/round-other-20261023/complete-white-stork-synagogue-wroclaw-24.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/white storck aynagiague/WhatsApp Image 2026-10-20 at 16.27.18.jpeg",
+          "sourceSHA256": "b7e6f262fb522bbd5cafcb98589ab68d522fff3b93a290ad8b10cf5ce80e8c8d",
+          "assetSHA256": "2668fcb31e6bd8ceb88f59a3fbf83458233936f5ab635eb8728e00a96a10394c",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט רחב על חצר בית הכנסת החסידה הלבנה",
+            "en": "Wide view of the White Stork Synagogue courtyard",
+            "pl": "Szeroki widok dziedzińca Synagogi Pod Białym Bocianem",
+            "de": "Weiter Blick auf den Hof der Synagoge zum Weißen Storch",
+            "cs": "Široký pohled na nádvoří synagogy U Bílého čápa"
+          },
+          "title": {
+            "he": "מבט רחב על חצר בית הכנסת החסידה הלבנה",
+            "en": "Wide view of the White Stork Synagogue courtyard",
+            "pl": "Szeroki widok dziedzińca Synagogi Pod Białym Bocianem",
+            "de": "Weiter Blick auf den Hof der Synagoge zum Weißen Storch",
+            "cs": "Široký pohled na nádvoří synagogy U Bílého čápa"
+          },
+          "familyExceptionApplied": false,
+          "familyForeground": false,
+          "authorizationReceipt": null,
+          "selectionReason": "Distinct relevant capture retained under full-source rule30; no quantity or similar-view curation"
         }
       }
     },
@@ -58296,10 +58400,6 @@
   "Mala Czarna": "mala-czarna-paderewskiego",
   "מאלה צארנה": "mala-czarna-paderewskiego",
   "מלה צארנה": "mala-czarna-paderewskiego",
-  "Chatka przy Jatkach": "chatka",
-  "Chatka Przy Jatkach": "chatka",
-  "צ׳אטקה": "chatka",
-  "צאטקה": "chatka",
   "kawiarenka-jadwigi": "kawiarenka-sw-jadwigi",
   "kawiarenka-sw-jadwigi-wroclaw": "kawiarenka-sw-jadwigi",
   "st-hedwigs-cafe": "kawiarenka-sw-jadwigi",
@@ -58404,15 +58504,6 @@
   "dworzec-wroclaw-glowny": "glowny",
   "wroclaw-glowny": "glowny",
   "wroclaw-main-railway-station": "glowny",
-  "Bridge of Penitents": "mostek-pokutnic-wroclaw",
-  "Büßerbrücke": "mostek-pokutnic-wroclaw",
-  "Most kajícnic": "mostek-pokutnic-wroclaw",
-  "Mostek Czarownic": "mostek-pokutnic-wroclaw",
-  "Mostek Pokutnic": "mostek-pokutnic-wroclaw",
-  "WITCH BRIDGE": "mostek-pokutnic-wroclaw",
-  "Witch Bridge": "mostek-pokutnic-wroclaw",
-  "Witches Bridge": "mostek-pokutnic-wroclaw",
-  "גשר המכשפות": "mostek-pokutnic-wroclaw",
   "OLIO Wrocław": "olio-pizza-napoletana-wroclaw",
   "Olio Pizza Napoletana": "olio-pizza-napoletana-wroclaw",
   "Kościół św. Mikołaja w Brzegu": "brzeg-st-nicholas-church",
@@ -58445,6 +58536,19 @@
   "Wieża Matematyczna": "math-tower",
   "mathematical-tower": "math-tower",
   "המגדל המתמטי": "math-tower",
+  "Chatka Przy Jatkach": "chatka",
+  "Chatka przy Jatkach": "chatka",
+  "צאטקה": "chatka",
+  "צ׳אטקה": "chatka",
+  "Bridge of Penitents": "mostek-pokutnic-wroclaw",
+  "Büßerbrücke": "mostek-pokutnic-wroclaw",
+  "Most kajícnic": "mostek-pokutnic-wroclaw",
+  "Mostek Czarownic": "mostek-pokutnic-wroclaw",
+  "Mostek Pokutnic": "mostek-pokutnic-wroclaw",
+  "WITCH BRIDGE": "mostek-pokutnic-wroclaw",
+  "Witch Bridge": "mostek-pokutnic-wroclaw",
+  "Witches Bridge": "mostek-pokutnic-wroclaw",
+  "גשר המכשפות": "mostek-pokutnic-wroclaw",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
