@@ -531,7 +531,10 @@
         "/assets/aleja-bielany-03.jpg",
         "/assets/aleja-bielany-04.jpg",
         "/assets/aleja-bielany-05.jpg",
-        "/assets/aleja-bielany-06.jpg"
+        "/assets/aleja-bielany-06.jpg",
+        "/assets/food-round-oct23/aleja-bielany-024.jpg",
+        "/assets/food-round-oct23/aleja-bielany-029.jpg",
+        "/assets/food-round-oct23/aleja-bielany-030.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -601,6 +604,78 @@
             "de": "Einkaufsgebiet rund um Aleja Bielany mit IKEA in der Nähe",
             "cs": "Nákupní oblast kolem Aleja Bielany s nedalekým obchodem IKEA"
           }
+        },
+        "/assets/food-round-oct23/aleja-bielany-024.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Aleja Bielany/WhatsApp Image 2026-09-24 at 17.19.00 (4).jpeg",
+          "sourceSHA256": "e52fd405c33f8eea4437247ea06dfad6a48844e4b0a308ce45fba086ecaa3121",
+          "assetSHA256": "99dd4677944032dcd109ca0b1c12b32d7ea1b48b0cae9ec87b700d889a609dcd",
+          "title": {
+            "he": "שלט איקאה באזור מתחם אלייה ביילני בזמן הביקור",
+            "en": "IKEA sign in the Aleja Bielany complex area during the visit",
+            "pl": "Szyld IKEA w rejonie kompleksu Aleja Bielany podczas wizyty",
+            "de": "IKEA-Schild im Bereich des Komplexes Aleja Bielany beim Besuch",
+            "cs": "Označení IKEA v areálu Aleja Bielany během návštěvy"
+          },
+          "alt": {
+            "he": "שלט איקאה באזור מתחם אלייה ביילני בזמן הביקור",
+            "en": "IKEA sign in the Aleja Bielany complex area during the visit",
+            "pl": "Szyld IKEA w rejonie kompleksu Aleja Bielany podczas wizyty",
+            "de": "IKEA-Schild im Bereich des Komplexes Aleja Bielany beim Besuch",
+            "cs": "Označení IKEA v areálu Aleja Bielany během návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 24
+        },
+        "/assets/food-round-oct23/aleja-bielany-029.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Aleja Bielany/WhatsApp Image 2026-09-24 at 19.21.11 (24).jpeg",
+          "sourceSHA256": "d27b5bcc4a74d8faea92b7022750ee98497f80afb435b4fe2be66f572b489bdc",
+          "assetSHA256": "57457e28aa218b481ea548f51b1c536ee9968de7a3b9997f93cf779ab3bdb6cc",
+          "title": {
+            "he": "שלט סטארבקס דרייב ת׳רו במתחם הקניות בזמן הביקור",
+            "en": "Starbucks drive-through sign in the shopping complex during the visit",
+            "pl": "Szyld Starbucks drive-through na terenie kompleksu podczas wizyty",
+            "de": "Starbucks-Drive-through-Schild im Einkaufsareal beim Besuch",
+            "cs": "Označení Starbucks drive-through v nákupním areálu během návštěvy"
+          },
+          "alt": {
+            "he": "שלט סטארבקס דרייב ת׳רו במתחם הקניות בזמן הביקור",
+            "en": "Starbucks drive-through sign in the shopping complex during the visit",
+            "pl": "Szyld Starbucks drive-through na terenie kompleksu podczas wizyty",
+            "de": "Starbucks-Drive-through-Schild im Einkaufsareal beim Besuch",
+            "cs": "Označení Starbucks drive-through v nákupním areálu během návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 29
+        },
+        "/assets/food-round-oct23/aleja-bielany-030.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Aleja Bielany/WhatsApp Image 2026-09-24 at 19.21.11 (25).jpeg",
+          "sourceSHA256": "57397c443d7805b15958310b6dd65bcdd386d81ab6a73f8b579f458a5d80e15e",
+          "assetSHA256": "135ea914c2c966c12afb9a2eb38cb512a239e991ee66318b71778940b28730dc",
+          "title": {
+            "he": "חזית אובי במתחם אלייה ביילני בזמן הביקור",
+            "en": "OBI frontage in the Aleja Bielany complex during the visit",
+            "pl": "Fasada OBI w kompleksie Aleja Bielany podczas wizyty",
+            "de": "OBI-Fassade im Komplex Aleja Bielany beim Besuch",
+            "cs": "Průčelí OBI v areálu Aleja Bielany během návštěvy"
+          },
+          "alt": {
+            "he": "חזית אובי במתחם אלייה ביילני בזמן הביקור",
+            "en": "OBI frontage in the Aleja Bielany complex during the visit",
+            "pl": "Fasada OBI w kompleksie Aleja Bielany podczas wizyty",
+            "de": "OBI-Fassade im Komplex Aleja Bielany beim Besuch",
+            "cs": "Průčelí OBI v areálu Aleja Bielany během návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 30
         }
       }
     },
@@ -1806,7 +1881,9 @@
         "/assets/hotels-extra-20261020/art-hotel-extra-25.jpg",
         "/assets/hotels-extra-20261020/art-hotel-extra-26.jpg"
       ],
-      "videos": [],
+      "videos": [
+        "https://www.youtube.com/watch?v=h6RkTtJuwh4"
+      ],
       "metadata": {
         "/assets/hotels-extra-20261020/art-hotel-extra-23.jpg": {
           "sourceFile": "HOTELS/WhatsApp Image 2026-10-20 at 22.30.18 (1).jpeg",
@@ -1871,6 +1948,42 @@
             "de": "Besuchsfoto am Art Hotel",
             "cs": "Fotografie z návštěvy u Art Hotel"
           }
+        },
+        "https://www.youtube.com/watch?v=h6RkTtJuwh4": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/HOTELS/WhatsApp Video 2026-10-05 at 18.28.12.mp4",
+          "sourceSHA256": "487479dd1e66e88e72353f824b6a726a6ecfad401ad5b055170f5ceec330c39b",
+          "uploadSHA256": "ac542a035312494e245d19261fe46c8fbbd37dd8246bfbd16f7fe60165e8387e",
+          "title": {
+            "he": "חזית מלון ארט מהרחוב",
+            "en": "Art Hotel frontage from the street",
+            "pl": "Fasada Art Hotelu od strony ulicy",
+            "de": "Straßenansicht der Fassade des Art Hotels",
+            "cs": "Průčelí Art Hotelu z ulice"
+          },
+          "alt": {
+            "he": "חזית מלון ארט מהרחוב",
+            "en": "Art Hotel frontage from the street",
+            "pl": "Fasada Art Hotelu od strony ulicy",
+            "de": "Straßenansicht der Fassade des Art Hotels",
+            "cs": "Průčelí Art Hotelu z ulice"
+          },
+          "durationSeconds": 1.533333,
+          "youtubeId": "h6RkTtJuwh4",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 157
         }
       }
     },
@@ -15460,7 +15573,10 @@
         "/assets/food-cafes/fashion-outlet-05.jpg",
         "/assets/food-cafes/fashion-outlet-06.jpg",
         "/assets/food-cafes/fashion-outlet-07.jpg",
-        "/assets/food-cafes/fashion-outlet-08.jpg"
+        "/assets/food-cafes/fashion-outlet-08.jpg",
+        "/assets/food-round-oct23/fashion-outlet-031.jpg",
+        "/assets/food-round-oct23/fashion-outlet-035.jpg",
+        "/assets/food-round-oct23/fashion-outlet-043.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -15575,6 +15691,78 @@
             "cs": "Osvětlené označení centra v noci"
           },
           "heroCandidate": false
+        },
+        "/assets/food-round-oct23/fashion-outlet-031.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 17.31.10.jpeg",
+          "sourceSHA256": "d2ad7b5f806166056460fb310d2ae34dca9bd780f6544b1ef3dbf489f8ebd2b3",
+          "assetSHA256": "0197f158c2494d7b74549d767cec2f2198e7af48855798d87e49bd0d9f498513",
+          "title": {
+            "he": "כניסת ורוצלב פאשן אאוטלט וחזית הזכוכית",
+            "en": "Wrocław Fashion Outlet entrance and glass facade",
+            "pl": "Wejście i szklana fasada Wrocław Fashion Outlet",
+            "de": "Eingang und Glasfassade des Wrocław Fashion Outlet",
+            "cs": "Vstup a prosklené průčelí Wrocław Fashion Outlet"
+          },
+          "alt": {
+            "he": "כניסת ורוצלב פאשן אאוטלט וחזית הזכוכית",
+            "en": "Wrocław Fashion Outlet entrance and glass facade",
+            "pl": "Wejście i szklana fasada Wrocław Fashion Outlet",
+            "de": "Eingang und Glasfassade des Wrocław Fashion Outlet",
+            "cs": "Vstup a prosklené průčelí Wrocław Fashion Outlet"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 31
+        },
+        "/assets/food-round-oct23/fashion-outlet-035.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.03.00 (28).jpeg",
+          "sourceSHA256": "14e1f645f0cda26de6a0b1710bdf4bcd9f643975b89913defe40aa28ceb9749b",
+          "assetSHA256": "472c13f905a375d939abccff06e108f97fec608a11eaafb2cdd1c477413efc00",
+          "title": {
+            "he": "שלט הכניסה הגבוה של ורוצלב פאשן אאוטלט",
+            "en": "Tall entrance sign of Wrocław Fashion Outlet",
+            "pl": "Wysoki szyld wejściowy Wrocław Fashion Outlet",
+            "de": "Hohes Eingangsschild des Wrocław Fashion Outlet",
+            "cs": "Vysoké označení vstupu do Wrocław Fashion Outlet"
+          },
+          "alt": {
+            "he": "שלט הכניסה הגבוה של ורוצלב פאשן אאוטלט",
+            "en": "Tall entrance sign of Wrocław Fashion Outlet",
+            "pl": "Wysoki szyld wejściowy Wrocław Fashion Outlet",
+            "de": "Hohes Eingangsschild des Wrocław Fashion Outlet",
+            "cs": "Vysoké označení vstupu do Wrocław Fashion Outlet"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 35
+        },
+        "/assets/food-round-oct23/fashion-outlet-043.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/FashionOutlet/WhatsApp Image 2026-09-24 at 19.21.11 (16).jpeg",
+          "sourceSHA256": "4266ef93aa48c05da7635e1869891d62fa1710d91eb552205a2abfe51e2467db",
+          "assetSHA256": "58e4fba538238ba2f7a83123a62872cd6b52a12a386053bea9f9e31e01afa16f",
+          "title": {
+            "he": "מבט נוסף על שילוט ורוצלב פאשן אאוטלט",
+            "en": "Another view of Wrocław Fashion Outlet signage",
+            "pl": "Kolejny widok oznakowania Wrocław Fashion Outlet",
+            "de": "Weitere Ansicht der Beschilderung des Wrocław Fashion Outlet",
+            "cs": "Další pohled na označení Wrocław Fashion Outlet"
+          },
+          "alt": {
+            "he": "מבט נוסף על שילוט ורוצלב פאשן אאוטלט",
+            "en": "Another view of Wrocław Fashion Outlet signage",
+            "pl": "Kolejny widok oznakowania Wrocław Fashion Outlet",
+            "de": "Weitere Ansicht der Beschilderung des Wrocław Fashion Outlet",
+            "cs": "Další pohled na označení Wrocław Fashion Outlet"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 43
         }
       }
     },
@@ -16585,7 +16773,21 @@
         "https://youtube.com/shorts/FgmfsnmETco",
         "https://youtube.com/shorts/maNHvOKVA_s",
         "https://youtube.com/shorts/sZjy6-Xfj8I",
-        "https://youtube.com/shorts/hp5UfkhbhUc"
+        "https://youtube.com/shorts/hp5UfkhbhUc",
+        "https://www.youtube.com/watch?v=QRlWSPEUf_U",
+        "https://www.youtube.com/watch?v=WP13IT4zxGw",
+        "https://www.youtube.com/watch?v=fpmdO-0D6JQ",
+        "https://www.youtube.com/watch?v=i3Yot5XIT4M",
+        "https://www.youtube.com/watch?v=gLimhyl1hOA",
+        "https://www.youtube.com/watch?v=dS7HlFM_QP0",
+        "https://www.youtube.com/watch?v=Z6GRCreRI2I",
+        "https://www.youtube.com/watch?v=AA2U8GA9CjE",
+        "https://www.youtube.com/watch?v=5j4X6L5rSwg",
+        "https://www.youtube.com/watch?v=SOQGudUACrI",
+        "https://www.youtube.com/watch?v=rOzd7uTAhC0",
+        "https://www.youtube.com/watch?v=RQnXxYc9dWs",
+        "https://www.youtube.com/watch?v=iaW98UuQPkk",
+        "https://www.youtube.com/watch?v=C_ubu1aCKjI"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/rSn6kJy3gQE",
@@ -17371,6 +17573,510 @@
           "reviewIndex": 45,
           "familyForeground": false,
           "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "https://www.youtube.com/watch?v=QRlWSPEUf_U": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.14.mp4",
+          "sourceSHA256": "0f693f52b9160f310c64c73bd9b8bbed3eda9f1a67c4603a550e647d1068ccd8",
+          "uploadSHA256": "f12a0150e9ef9598d4d45d661dce0b21f5b82b301a776060678c1b7d3977708e",
+          "title": {
+            "he": "דגם מישושי של הרובע",
+            "en": "Tactile model of the district",
+            "pl": "Dotykowy model dzielnicy",
+            "de": "Tastmodell des Viertels",
+            "cs": "Hmatový model čtvrti"
+          },
+          "alt": {
+            "he": "דגם מישושי של הרובע",
+            "en": "Tactile model of the district",
+            "pl": "Dotykowy model dzielnicy",
+            "de": "Tastmodell des Viertels",
+            "cs": "Hmatový model čtvrti"
+          },
+          "durationSeconds": 3.366667,
+          "youtubeId": "QRlWSPEUf_U",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 48
+        },
+        "https://www.youtube.com/watch?v=WP13IT4zxGw": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.16.mp4",
+          "sourceSHA256": "21c594bb3207f82ce2122e6c7470b8cb83eaacd0bfa4837fab7beadf8d6de2bb",
+          "uploadSHA256": "12706dee4d40337429d7f17f3e5b8f085be24c81148c4c555a7332275c7e8a0c",
+          "title": {
+            "he": "מבט נוסף על דגם הרובע",
+            "en": "Another view of the district model",
+            "pl": "Kolejny widok modelu dzielnicy",
+            "de": "Weitere Ansicht des Viertelmodells",
+            "cs": "Další pohled na model čtvrti"
+          },
+          "alt": {
+            "he": "מבט נוסף על דגם הרובע",
+            "en": "Another view of the district model",
+            "pl": "Kolejny widok modelu dzielnicy",
+            "de": "Weitere Ansicht des Viertelmodells",
+            "cs": "Další pohled na model čtvrti"
+          },
+          "durationSeconds": 4.566667,
+          "youtubeId": "WP13IT4zxGw",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 49
+        },
+        "https://www.youtube.com/watch?v=fpmdO-0D6JQ": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.20.mp4",
+          "sourceSHA256": "45211c0ed6931ed2168ae0a0ef308b3b3f752fe36803c064e791259973bfa1ab",
+          "uploadSHA256": "7ee6daa16df9fe55730d3ab4944ca304c1c867f4b18428a4c645735c84248dd0",
+          "title": {
+            "he": "חזיתות ומדרכה ברחוב ולודקוביצה",
+            "en": "Frontages and pavement on Włodkowica",
+            "pl": "Fasady i chodnik przy Włodkowica",
+            "de": "Fassaden und Gehweg an der Włodkowica",
+            "cs": "Průčelí a chodník v ulici Włodkowica"
+          },
+          "alt": {
+            "he": "חזיתות ומדרכה ברחוב ולודקוביצה",
+            "en": "Frontages and pavement on Włodkowica",
+            "pl": "Fasady i chodnik przy Włodkowica",
+            "de": "Fassaden und Gehweg an der Włodkowica",
+            "cs": "Průčelí a chodník v ulici Włodkowica"
+          },
+          "durationSeconds": 7.733333,
+          "youtubeId": "fpmdO-0D6JQ",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 52
+        },
+        "https://www.youtube.com/watch?v=i3Yot5XIT4M": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.21.mp4",
+          "sourceSHA256": "c2f3a8bfee1d137857784a265895ee492b3b17f873a91d49318902815cb89965",
+          "uploadSHA256": "672c6d564c3b5505b613e0ee61f3c87464de202c01dfdf78ea7fc7d20e518acb",
+          "title": {
+            "he": "כיתוב היסטורי בכניסה לקהילה היהודית",
+            "en": "Historic Jewish community office inscription",
+            "pl": "Historyczny napis przy wejściu do gminy żydowskiej",
+            "de": "Historische Inschrift am Eingang der jüdischen Gemeinde",
+            "cs": "Historický nápis u vchodu do židovské obce"
+          },
+          "alt": {
+            "he": "כיתוב היסטורי בכניסה לקהילה היהודית",
+            "en": "Historic Jewish community office inscription",
+            "pl": "Historyczny napis przy wejściu do gminy żydowskiej",
+            "de": "Historische Inschrift am Eingang der jüdischen Gemeinde",
+            "cs": "Historický nápis u vchodu do židovské obce"
+          },
+          "durationSeconds": 3.266667,
+          "youtubeId": "i3Yot5XIT4M",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 53
+        },
+        "https://www.youtube.com/watch?v=gLimhyl1hOA": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.23.mp4",
+          "sourceSHA256": "fc8422ce3a9f84441241ed1a4a98ebee1b9ca7a7db74fd154ec78f3526fa5b3f",
+          "uploadSHA256": "d118af2d03aa1963173366b9a18a89cc08570aa378ee66fc16c8f45399fa3aef",
+          "title": {
+            "he": "מבט רחוב ברובע ארבע הדתות",
+            "en": "Street view in the Four Denominations District",
+            "pl": "Widok ulicy w Dzielnicy Czterech Wyznań",
+            "de": "Straßenansicht im Viertel der vier Konfessionen",
+            "cs": "Pohled do ulice ve čtvrti čtyř vyznání"
+          },
+          "alt": {
+            "he": "מבט רחוב ברובע ארבע הדתות",
+            "en": "Street view in the Four Denominations District",
+            "pl": "Widok ulicy w Dzielnicy Czterech Wyznań",
+            "de": "Straßenansicht im Viertel der vier Konfessionen",
+            "cs": "Pohled do ulice ve čtvrti čtyř vyznání"
+          },
+          "durationSeconds": 6.033333,
+          "youtubeId": "gLimhyl1hOA",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 55
+        },
+        "https://www.youtube.com/watch?v=dS7HlFM_QP0": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-05 at 18.27.28.mp4",
+          "sourceSHA256": "c31682bd92c97f60de4a3b1c73bdb6e1092917f49ce4ef2288779e111860559e",
+          "uploadSHA256": "74d277e5844ab18125a64ae734db0f1c13ce42b86284dd8fa4e357026a43edf4",
+          "title": {
+            "he": "מעבר בין חזיתות ברובע",
+            "en": "Passage between district frontages",
+            "pl": "Przejście między fasadami dzielnicy",
+            "de": "Durchgang zwischen den Fassaden des Viertels",
+            "cs": "Průchod mezi průčelími ve čtvrti"
+          },
+          "alt": {
+            "he": "מעבר בין חזיתות ברובע",
+            "en": "Passage between district frontages",
+            "pl": "Przejście między fasadami dzielnicy",
+            "de": "Durchgang zwischen den Fassaden des Viertels",
+            "cs": "Průchod mezi průčelími ve čtvrti"
+          },
+          "durationSeconds": 7.533333,
+          "youtubeId": "dS7HlFM_QP0",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 58
+        },
+        "https://www.youtube.com/watch?v=Z6GRCreRI2I": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.14.mp4",
+          "sourceSHA256": "68954ac258adaec72d165d136224e484aafa9ff6b24c1db6a14a8ef61bf26eae",
+          "uploadSHA256": "e35ffb41f047adb6e755fb0fc97709da671f2282615b775728c2e31687720b20",
+          "title": {
+            "he": "סמלי ארבע הדתות במדרכה",
+            "en": "Four faith symbols in the pavement",
+            "pl": "Symbole czterech wyznań w chodniku",
+            "de": "Vier Glaubenssymbole im Gehweg",
+            "cs": "Symboly čtyř vyznání v chodníku"
+          },
+          "alt": {
+            "he": "סמלי ארבע הדתות במדרכה",
+            "en": "Four faith symbols in the pavement",
+            "pl": "Symbole czterech wyznań w chodniku",
+            "de": "Vier Glaubenssymbole im Gehweg",
+            "cs": "Symboly čtyř vyznání v chodníku"
+          },
+          "durationSeconds": 5.533333,
+          "youtubeId": "Z6GRCreRI2I",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 60
+        },
+        "https://www.youtube.com/watch?v=AA2U8GA9CjE": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.19.mp4",
+          "sourceSHA256": "c2edd2401c611a97d5d04330a5537f9bb5bab59dafe79cef4730500b5a98f029",
+          "uploadSHA256": "addf032e8dd99cd86187a3a19982611b7a0102b6fde602a1fba8117472e6f625",
+          "title": {
+            "he": "מבט נוסף על פסל כוכב הקריסטל",
+            "en": "Another view of the Crystal Planet sculpture",
+            "pl": "Kolejny widok rzeźby Kryształowa Planeta",
+            "de": "Weitere Ansicht der Skulptur Kristallplanet",
+            "cs": "Další pohled na sochu Křišťálová planeta"
+          },
+          "alt": {
+            "he": "מבט נוסף על פסל כוכב הקריסטל",
+            "en": "Another view of the Crystal Planet sculpture",
+            "pl": "Kolejny widok rzeźby Kryształowa Planeta",
+            "de": "Weitere Ansicht der Skulptur Kristallplanet",
+            "cs": "Další pohled na sochu Křišťálová planeta"
+          },
+          "durationSeconds": 4,
+          "youtubeId": "AA2U8GA9CjE",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 62
+        },
+        "https://www.youtube.com/watch?v=5j4X6L5rSwg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.26.mp4",
+          "sourceSHA256": "cc45d25be7a2b89752176ad4f04ba8446575b1bfe35890ef6a68b9aba026015d",
+          "uploadSHA256": "605b02ca7a5444af56c3a38af1f9535b2751be0bf2cd2fec4fa8e99e00d28281",
+          "title": {
+            "he": "גישה לחצר בית הכנסת",
+            "en": "Approach to the synagogue courtyard",
+            "pl": "Dojście do dziedzińca synagogi",
+            "de": "Zugang zum Hof der Synagoge",
+            "cs": "Přístup na nádvoří synagogy"
+          },
+          "alt": {
+            "he": "גישה לחצר בית הכנסת",
+            "en": "Approach to the synagogue courtyard",
+            "pl": "Dojście do dziedzińca synagogi",
+            "de": "Zugang zum Hof der Synagoge",
+            "cs": "Přístup na nádvoří synagogy"
+          },
+          "durationSeconds": 7.933333,
+          "youtubeId": "5j4X6L5rSwg",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 65
+        },
+        "https://www.youtube.com/watch?v=SOQGudUACrI": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.33.mp4",
+          "sourceSHA256": "bdcce417198b92bc7a8cbb4032b5c2fa474602286cf5f3b2db25d7bf30ef8966",
+          "uploadSHA256": "192c98ae1258f513699179ebc544fe9fb2bc6efdf1e02fd3f2f0496d1477e665",
+          "title": {
+            "he": "פרטי חזית בית הכנסת והחצר",
+            "en": "Synagogue facade and courtyard details",
+            "pl": "Detale fasady synagogi i dziedzińca",
+            "de": "Details der Synagogenfassade und des Hofes",
+            "cs": "Detaily průčelí synagogy a nádvoří"
+          },
+          "alt": {
+            "he": "פרטי חזית בית הכנסת והחצר",
+            "en": "Synagogue facade and courtyard details",
+            "pl": "Detale fasady synagogi i dziedzińca",
+            "de": "Details der Synagogenfassade und des Hofes",
+            "cs": "Detaily průčelí synagogy a nádvoří"
+          },
+          "durationSeconds": 6.966667,
+          "youtubeId": "SOQGudUACrI",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 67
+        },
+        "https://www.youtube.com/watch?v=rOzd7uTAhC0": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.35.mp4",
+          "sourceSHA256": "75d72c6faa90d8c38517b7b582e622af06d2e5501b15e5a4f809b66520a48fff",
+          "uploadSHA256": "d660fd479691e521a248202fcf9c8e6a567bb2695d52ac318d4bedaf86e2f8b9",
+          "title": {
+            "he": "מבט רחב על חצר הרובע",
+            "en": "Wide view of the district courtyard",
+            "pl": "Szeroki widok dziedzińca dzielnicy",
+            "de": "Weite Ansicht des Hofes im Viertel",
+            "cs": "Široký pohled na nádvoří ve čtvrti"
+          },
+          "alt": {
+            "he": "מבט רחב על חצר הרובע",
+            "en": "Wide view of the district courtyard",
+            "pl": "Szeroki widok dziedzińca dzielnicy",
+            "de": "Weite Ansicht des Hofes im Viertel",
+            "cs": "Široký pohled na nádvoří ve čtvrti"
+          },
+          "durationSeconds": 4.8,
+          "youtubeId": "rOzd7uTAhC0",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 68
+        },
+        "https://www.youtube.com/watch?v=RQnXxYc9dWs": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-20 at 16.28.57.mp4",
+          "sourceSHA256": "de209b113ad5764ab874b9138b7f3bbca5e9fc23b49b060f7e3577677934c1f0",
+          "uploadSHA256": "4b02f7273d0ed72d3bf8a8b0c692d7344392dc6b34066b7818d24579026f5dfe",
+          "title": {
+            "he": "הליכה רציפה בין המעבר לחצרות הרובע",
+            "en": "Continuous walk through the district passage and courtyards",
+            "pl": "Ciągły spacer przez przejście i dziedzińce dzielnicy",
+            "de": "Durchgehender Spaziergang durch Durchgang und Höfe des Viertels",
+            "cs": "Souvislá procházka průchodem a nádvořími čtvrti"
+          },
+          "alt": {
+            "he": "הליכה רציפה בין המעבר לחצרות הרובע",
+            "en": "Continuous walk through the district passage and courtyards",
+            "pl": "Ciągły spacer przez przejście i dziedzińce dzielnicy",
+            "de": "Durchgehender Spaziergang durch Durchgang und Höfe des Viertels",
+            "cs": "Souvislá procházka průchodem a nádvořími čtvrti"
+          },
+          "durationSeconds": 60.831667,
+          "youtubeId": "RQnXxYc9dWs",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 70
+        },
+        "https://www.youtube.com/watch?v=iaW98UuQPkk": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-21 at 21.12.07 (1).mp4",
+          "sourceSHA256": "42a6849d7e443fcbd625a009f49e097cf5db8fb0f2c600c45d7e9e2f63435ead",
+          "uploadSHA256": "dfc38eb6f2f644bb6580d017591ccc880bdbfef4612e038afab3e3b6254acb21",
+          "title": {
+            "he": "מבט על חצר עם בתי קפה ברובע",
+            "en": "Courtyard and cafes in the district",
+            "pl": "Dziedziniec i kawiarnie w dzielnicy",
+            "de": "Hof und Cafés im Viertel",
+            "cs": "Nádvoří a kavárny ve čtvrti"
+          },
+          "alt": {
+            "he": "מבט על חצר עם בתי קפה ברובע",
+            "en": "Courtyard and cafes in the district",
+            "pl": "Dziedziniec i kawiarnie w dzielnicy",
+            "de": "Hof und Cafés im Viertel",
+            "cs": "Nádvoří a kavárny ve čtvrti"
+          },
+          "durationSeconds": 5.933333,
+          "youtubeId": "iaW98UuQPkk",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 71
+        },
+        "https://www.youtube.com/watch?v=C_ubu1aCKjI": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Video 2026-10-21 at 21.12.07 (2).mp4",
+          "sourceSHA256": "36d4e73ae14868e3e48d5718b0dc297473b15ab489f3d34fb8788aaf8865b865",
+          "uploadSHA256": "9749b6098ed81b5c0e18dcff501247dd3e655108febfae9a753a90c0c90b808e",
+          "title": {
+            "he": "חזיתות סביב חצר הרובע",
+            "en": "Facades around the district courtyard",
+            "pl": "Fasady wokół dziedzińca dzielnicy",
+            "de": "Fassaden rund um den Hof im Viertel",
+            "cs": "Průčelí kolem nádvoří ve čtvrti"
+          },
+          "alt": {
+            "he": "חזיתות סביב חצר הרובע",
+            "en": "Facades around the district courtyard",
+            "pl": "Fasady wokół dziedzińca dzielnicy",
+            "de": "Fassaden rund um den Hof im Viertel",
+            "cs": "Průčelí kolem nádvoří ve čtvrti"
+          },
+          "durationSeconds": 6.266667,
+          "youtubeId": "C_ubu1aCKjI",
+          "public": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Public architecture/place context; ordinary incidental visitors allowed; no guide or posed personal subject",
+          "termsApprovalCall": "call_b966de50310b4b8d8d92295b7773e6a3",
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
+          "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
+          "reviewIndex": 72
         }
       }
     },
@@ -52933,7 +53639,10 @@
         "/assets/wieza-cisnien-borek-13.jpg",
         "/assets/wieza-cisnien-borek-14.jpg",
         "/assets/wieza-cisnien-borek-15.jpg",
-        "/assets/wieza-cisnien-borek-16.jpg"
+        "/assets/wieza-cisnien-borek-16.jpg",
+        "/assets/food-round-oct23/wieza-cisnien-borek-010.jpg",
+        "/assets/food-round-oct23/wieza-cisnien-borek-016.jpg",
+        "/assets/food-round-oct23/wieza-cisnien-borek-017.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -53102,6 +53811,78 @@
             "de": "Weitere Ansicht des steinernen Tierreliefs am Turmbogen",
             "cs": "Další pohled na kamenný zvířecí reliéf na oblouku věže"
           }
+        },
+        "/assets/food-round-oct23/wieza-cisnien-borek-010.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Borek Water Tower/WhatsApp Image 2026-09-23 at 15.04.38 (4).jpeg",
+          "sourceSHA256": "76f6806db7c16b137646d8b2fcf20c1ddff3e2a4b24783e11bc76d2c371f1dbe",
+          "assetSHA256": "a84c75cee7cfc4a2fa987d6b9222ceba84baf68ec90d59cb427fab87fcfc6685",
+          "title": {
+            "he": "מבט על חזית מגדל המים של בורק והפסל בבסיסו",
+            "en": "Borek Water Tower facade and sculpture at its base",
+            "pl": "Fasada wieży ciśnień Borek i rzeźba u jej podstawy",
+            "de": "Fassade des Wasserturms Borek mit Skulptur am Sockel",
+            "cs": "Průčelí vodárenské věže Borek a socha u její paty"
+          },
+          "alt": {
+            "he": "מבט על חזית מגדל המים של בורק והפסל בבסיסו",
+            "en": "Borek Water Tower facade and sculpture at its base",
+            "pl": "Fasada wieży ciśnień Borek i rzeźba u jej podstawy",
+            "de": "Fassade des Wasserturms Borek mit Skulptur am Sockel",
+            "cs": "Průčelí vodárenské věže Borek a socha u její paty"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 10
+        },
+        "/assets/food-round-oct23/wieza-cisnien-borek-016.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Borek Water Tower/WhatsApp Image 2026-09-23 at 15.04.38.jpeg",
+          "sourceSHA256": "ab7081678071df6fbcb078468a7c56d6c700a2359ccf165bbfc5468caf61b2e4",
+          "assetSHA256": "c990488a7f686eb18f89b26878580594cc9ad5a949dc05cacb28127d27531e2d",
+          "title": {
+            "he": "פרט של תבליט במגדל המים של בורק",
+            "en": "Relief detail on Borek Water Tower",
+            "pl": "Detal płaskorzeźby na wieży ciśnień Borek",
+            "de": "Reliefdetail am Wasserturm Borek",
+            "cs": "Detail reliéfu na vodárenské věži Borek"
+          },
+          "alt": {
+            "he": "פרט של תבליט במגדל המים של בורק",
+            "en": "Relief detail on Borek Water Tower",
+            "pl": "Detal płaskorzeźby na wieży ciśnień Borek",
+            "de": "Reliefdetail am Wasserturm Borek",
+            "cs": "Detail reliéfu na vodárenské věži Borek"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 16
+        },
+        "/assets/food-round-oct23/wieza-cisnien-borek-017.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Borek Water Tower/WhatsApp Image 2026-09-23 at 15.04.39 (1).jpeg",
+          "sourceSHA256": "899ae966d7748ffb50eae9608ff75700ce45b6cae7cbf21a907d270df94fb0a5",
+          "assetSHA256": "3ca38e5df1b597ed34c96e629b13d19a44584b336d31dc2e70060738f34f730f",
+          "title": {
+            "he": "הגג והצריח במגדל המים של בורק",
+            "en": "Roof and turret of Borek Water Tower",
+            "pl": "Dach i wieżyczka wieży ciśnień Borek",
+            "de": "Dach und Türmchen des Wasserturms Borek",
+            "cs": "Střecha a věžička vodárenské věže Borek"
+          },
+          "alt": {
+            "he": "הגג והצריח במגדל המים של בורק",
+            "en": "Roof and turret of Borek Water Tower",
+            "pl": "Dach i wieżyczka wieży ciśnień Borek",
+            "de": "Dach und Türmchen des Wasserturms Borek",
+            "cs": "Střecha a věžička vodárenské věže Borek"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-shopping-cafes-full-source-selection.json",
+          "reviewIndex": 17
         }
       }
     },
