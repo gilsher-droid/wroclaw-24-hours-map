@@ -274,3 +274,8 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 
 /* Preserve all existing Aleja Bielany visit photographs in their original proportions. */
 .media-grid img[src*="/aleja-bielany-"]{height:auto;max-height:78vh;object-fit:contain}
+
+/* Preserve complete existing photographs in the three source-reviewed small-place galleries. */
+.media-grid img[src*="/feels-familiar/dobra-paczkarnia-"],
+.media-grid img[src*="/feels-familiar/jolie-"],
+.media-grid img[src*="/feels-familiar/pan-precel-"]{height:auto;max-height:78vh;object-fit:contain}
