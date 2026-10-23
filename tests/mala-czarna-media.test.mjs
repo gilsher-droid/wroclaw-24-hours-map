@@ -15,8 +15,8 @@ test('Mała Czarna has one exact cafe point and verified photo/video media in fi
   assert.equal(place.location.coordinates.lat,51.1174365);
   assert.equal(place.location.coordinates.lng,17.0905595);
   const media=window.WROC_LOCATION_MEDIA[place.id];
-  assert.equal(media.gallery.length,5);
-  assert.equal(new Set(media.gallery).size,5);
+  assert.equal(media.gallery.length,12);
+  assert.equal(new Set(media.gallery).size,12);
   assert.equal(place.links.socialProfileFallback,false);
   assert.ok(window.WROC_CATALOG.getSocialPost(place,"facebook",lang)?.url.includes("permalink.php"));
   assert.ok(window.WROC_CATALOG.getSocialPost(place,"instagram",lang)?.url.includes("/p/"));

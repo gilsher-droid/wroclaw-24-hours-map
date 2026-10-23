@@ -13190,7 +13190,8 @@
       ],
       "videos": [
         "https://www.youtube.com/watch?v=3z4LvIz8190",
-        "https://youtube.com/shorts/wdCORtqPNig"
+        "https://youtube.com/shorts/wdCORtqPNig",
+        "https://www.youtube.com/watch?v=Gu_JlECxCLk"
       ],
       "metadata": {
         "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg": {
@@ -13332,6 +13333,36 @@
           "associationCorrection": "Previously attached to Roma; original menu reads Domek nad Fosą. Same exact source SHA exists in both folders. Correct site association only; YouTube original/title/privacy left unchanged.",
           "originalFullPictureAndDurationPreserved": true,
           "reusedPublicVideoNoNewUpload": true
+        },
+        "https://www.youtube.com/watch?v=Gu_JlECxCLk": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/DOMEK NAD FOSA/WhatsApp Video 2026-10-05 at 18.25.40.mp4",
+          "sourceSHA256": "4edf894be01d4e6d63308b0f1e8649afc5aea6f7867ef041079cb74190d54037",
+          "uploadSHA256": "339a5cecbc4b5ef671757871aa359dca6251a1a585cd0e4e85d349f2cba66de4",
+          "durationSeconds": 7.505,
+          "alt": {
+            "he": "החפיר והשתקפות המבנים ליד דומק נד פוסה",
+            "en": "Moat reflections and waterside view near Domek nad Fosą",
+            "pl": "Odbicia w fosie i widok przy Domku nad Fosą",
+            "de": "Spiegelungen im Stadtgraben bei Domek nad Fosą",
+            "cs": "Odrazy v příkopu a pohled u Domku nad Fosą"
+          },
+          "title": {
+            "he": "החפיר והשתקפות המבנים ליד דומק נד פוסה",
+            "en": "Moat reflections and waterside view near Domek nad Fosą",
+            "pl": "Odbicia w fosie i widok przy Domku nad Fosą",
+            "de": "Spiegelungen im Stadtgraben bei Domek nad Fosą",
+            "cs": "Odrazy v příkopu a pohled u Domku nad Fosą"
+          },
+          "visibility": "Public",
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "Copyright and Community Guidelines complete: No issues found",
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_b5133f82d10848dc8c5d4b168faca06a",
+          "approvedManifestSHA256": "db32ed2a0eb3e147df25dc543977ad3f3e2e1256629e4d1ab3ba142294162194",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/domek-additional-youtube-publication-receipt.json"
         }
       }
     },
@@ -28766,7 +28797,14 @@
         "/assets/food-cafes/mala-czarna-02.jpg",
         "/assets/food-cafes/mala-czarna-03.jpg",
         "/assets/food-cafes/mala-czarna-04.jpg",
-        "/assets/food-cafes/mala-czarna-05.jpg"
+        "/assets/food-cafes/mala-czarna-05.jpg",
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-00.jpg",
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-01.jpg",
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-02.jpg",
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-05.jpg",
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-07.jpg",
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-08.jpg",
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-12.jpg"
       ],
       "videos": [
         "https://youtube.com/watch?v=xUGky_l826A"
@@ -28815,6 +28853,167 @@
           "sourceSHA256": "21bf8e8679c58884fe05f36339fc0e546f2ffdc77cf212239e88c68b6f338e60",
           "heroCandidate": false,
           "visitCategory": "food-and-cafe"
+        },
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-00.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מלה צארנה/WhatsApp Image 2026-09-24 at 17.26.00 (2).jpeg",
+          "sourceSHA256": "b56a1cb125a5f531271a7530584539a30ea2a03a488b4629b7ab49f14d0b50cc",
+          "assetSHA256": "72fa3b0742d0022fbd06009781d58441891582c90d03ef290c4b88d15767ed07",
+          "alt": {
+            "he": "קפה על השולחן ומבקרים מזמינים במלה צארנה",
+            "en": "Coffee on the table and visitors ordering at Mała Czarna",
+            "pl": "Kawa na stoliku i goście zamawiający w Małej Czarnej",
+            "de": "Kaffee auf dem Tisch und bestellende Gäste in Mała Czarna",
+            "cs": "Káva na stole a objednávající návštěvníci v Mała Czarna"
+          },
+          "title": {
+            "he": "קפה על השולחן ומבקרים מזמינים במלה צארנה",
+            "en": "Coffee on the table and visitors ordering at Mała Czarna",
+            "pl": "Kawa na stoliku i goście zamawiający w Małej Czarnej",
+            "de": "Kaffee auf dem Tisch und bestellende Gäste in Mała Czarna",
+            "cs": "Káva na stole a objednávající návštěvníci v Mała Czarna"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 0
+        },
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מלה צארנה/WhatsApp Image 2026-09-24 at 17.26.00 (4).jpeg",
+          "sourceSHA256": "d98683d331971efb94bb3f089d998174b9e977e4403573a2a601e82819eed213",
+          "assetSHA256": "d5b1173e8d8c81e8de42fea63aa22fb02b20c884f227e2cbd4eae99fc8342174",
+          "alt": {
+            "he": "אזור ההזמנה והישיבה במלה צארנה",
+            "en": "Ordering and seating area at Mała Czarna",
+            "pl": "Strefa zamówień i stolików w Małej Czarnej",
+            "de": "Bestell- und Sitzbereich in Mała Czarna",
+            "cs": "Prostor objednávek a posezení v Mała Czarna"
+          },
+          "title": {
+            "he": "אזור ההזמנה והישיבה במלה צארנה",
+            "en": "Ordering and seating area at Mała Czarna",
+            "pl": "Strefa zamówień i stolików w Małej Czarnej",
+            "de": "Bestell- und Sitzbereich in Mała Czarna",
+            "cs": "Prostor objednávek a posezení v Mała Czarna"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 1
+        },
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מלה צארנה/WhatsApp Image 2026-09-24 at 17.26.00 (5).jpeg",
+          "sourceSHA256": "c67fc360970edc3270bea55609e3799d3b149784a0573ef912e32bdfde31e3ee",
+          "assetSHA256": "bb096f664f7816501475bda74c22d400efa04dcef958c7df16b14ac0b05d5849",
+          "alt": {
+            "he": "דלפק הקפה והעוגות במלה צארנה",
+            "en": "Coffee and cake counter at Mała Czarna",
+            "pl": "Lada z kawą i ciastami w Małej Czarnej",
+            "de": "Kaffee- und Kuchentheke in Mała Czarna",
+            "cs": "Pult s kávou a dorty v Mała Czarna"
+          },
+          "title": {
+            "he": "דלפק הקפה והעוגות במלה צארנה",
+            "en": "Coffee and cake counter at Mała Czarna",
+            "pl": "Lada z kawą i ciastami w Małej Czarnej",
+            "de": "Kaffee- und Kuchentheke in Mała Czarna",
+            "cs": "Pult s kávou a dorty v Mała Czarna"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 2
+        },
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מלה צארנה/WhatsApp Image 2026-09-24 at 19.10.03 (10).jpeg",
+          "sourceSHA256": "013e5e279f85d0156c0537d1d048554edcf6b2885aed20073e38fe91ab5c0d55",
+          "assetSHA256": "591a375619fbba1028ef63b97584f640701abc3acaaad4fa7196e3b62629f550",
+          "alt": {
+            "he": "שולחנות הישיבה ליד החלונות במלה צארנה",
+            "en": "Tables by the windows at Mała Czarna",
+            "pl": "Stoliki przy oknach w Małej Czarnej",
+            "de": "Tische an den Fenstern in Mała Czarna",
+            "cs": "Stolky u oken v Mała Czarna"
+          },
+          "title": {
+            "he": "שולחנות הישיבה ליד החלונות במלה צארנה",
+            "en": "Tables by the windows at Mała Czarna",
+            "pl": "Stoliki przy oknach w Małej Czarnej",
+            "de": "Tische an den Fenstern in Mała Czarna",
+            "cs": "Stolky u oken v Mała Czarna"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 5
+        },
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מלה צארנה/WhatsApp Image 2026-10-01 at 09.24.09 (2).jpeg",
+          "sourceSHA256": "b89dbfbd838b4dbc8a4f70ba693f10b373aad1653003f0162b78ab27ec602c2b",
+          "assetSHA256": "3b3061f842ffcd29f053bb87e78eb47fcd75c15744e422306c6ac9352736e189",
+          "alt": {
+            "he": "תפריט הקפה ומדפי הפולים במלה צארנה בזמן הביקור",
+            "en": "Coffee menu and bean shelves at Mała Czarna during the visit",
+            "pl": "Menu kawowe i półki z ziarnami w Małej Czarnej podczas wizyty",
+            "de": "Kaffeekarte und Bohnenregale in Mała Czarna beim Besuch",
+            "cs": "Kávové menu a police se zrny v Mała Czarna během návštěvy"
+          },
+          "title": {
+            "he": "תפריט הקפה ומדפי הפולים במלה צארנה בזמן הביקור",
+            "en": "Coffee menu and bean shelves at Mała Czarna during the visit",
+            "pl": "Menu kawowe i półki z ziarnami w Małej Czarnej podczas wizyty",
+            "de": "Kaffeekarte und Bohnenregale in Mała Czarna beim Besuch",
+            "cs": "Kávové menu a police se zrny v Mała Czarna během návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 7
+        },
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מלה צארנה/WhatsApp Image 2026-10-18 at 09.59.45 (2).jpeg",
+          "sourceSHA256": "f3d1a531913babecde6916f7cb040257db82a2e6f6d1d2a0af1459333814282f",
+          "assetSHA256": "30096b963f1915f904139ba419d7d4adafbb76fb35b04cd3c0ea57c3dd110b21",
+          "alt": {
+            "he": "ויטרינת העוגות במלה צארנה",
+            "en": "Cake display at Mała Czarna",
+            "pl": "Witryna z ciastami w Małej Czarnej",
+            "de": "Kuchenvitrine in Mała Czarna",
+            "cs": "Vitrína s dorty v Mała Czarna"
+          },
+          "title": {
+            "he": "ויטרינת העוגות במלה צארנה",
+            "en": "Cake display at Mała Czarna",
+            "pl": "Witryna z ciastami w Małej Czarnej",
+            "de": "Kuchenvitrine in Mała Czarna",
+            "cs": "Vitrína s dorty v Mała Czarna"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 8
+        },
+        "/assets/food-round-oct23/mala-czarna-paderewskiego-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מלה צארנה/WhatsApp Image 2026-10-18 at 09.59.45 (8).jpeg",
+          "sourceSHA256": "cacd271145aaf331c7f811ca2819c06666cc250de651d4bbf8105747c0a5b342",
+          "assetSHA256": "919342f14b8cd9f2d20555ef5895b5beb5d0d24323302c03e1750199b9a997f3",
+          "alt": {
+            "he": "מבט רחב על הדלפק וצוות בית הקפה מלה צארנה",
+            "en": "Wide view of the counter and staff at Mała Czarna",
+            "pl": "Szeroki widok lady i obsługi Małej Czarnej",
+            "de": "Weiter Blick auf Theke und Personal in Mała Czarna",
+            "cs": "Širší pohled na pult a obsluhu v Mała Czarna"
+          },
+          "title": {
+            "he": "מבט רחב על הדלפק וצוות בית הקפה מלה צארנה",
+            "en": "Wide view of the counter and staff at Mała Czarna",
+            "pl": "Szeroki widok lady i obsługi Małej Czarnej",
+            "de": "Weiter Blick auf Theke und Personal in Mała Czarna",
+            "cs": "Širší pohled na pult a obsluhu v Mała Czarna"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 12
         }
       }
     },
@@ -38826,7 +39025,11 @@
         "/assets/pasaz-refresh-oct19-02.jpg",
         "/assets/pasaz-refresh-oct19-03.jpg",
         "/assets/pasaz-refresh-oct19-04.jpg",
-        "/assets/pasaz-refresh-oct19-05.jpg"
+        "/assets/pasaz-refresh-oct19-05.jpg",
+        "/assets/food-round-oct23/pasaz-20.jpg",
+        "/assets/food-round-oct23/pasaz-21.jpg",
+        "/assets/food-round-oct23/pasaz-24.jpg",
+        "/assets/food-round-oct23/pasaz-28.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -38859,6 +39062,98 @@
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-19 at 08.41.55 (7).jpeg",
           "sourceSHA256": "8c4a2fa55ca4085639974930686e02f7a60e5059d488d49a19413dc0d9f442e7",
           "assetSHA256": "995931c8028268b3c15472c320c907c753798ad051da44b877988df65272eec6"
+        },
+        "/assets/food-round-oct23/pasaz-20.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-05 at 18.26.31.jpeg",
+          "sourceSHA256": "b4c4a7688b795604faeb6e76764d35a77a9d27566e4f5b0d2cab1fcefc183708",
+          "assetSHA256": "20c3e14f3efe2296ec497d1a2980fb0d9128437f513c92cb2e7ee7c3fe430f83",
+          "alt": {
+            "he": "ביתן פעילות במרכז פסאז׳ גרונבלדזקי בזמן הביקור",
+            "en": "Activity booth inside Pasaż Grunwaldzki during the visit",
+            "pl": "Stoisko z atrakcjami w Pasażu Grunwaldzkim podczas wizyty",
+            "de": "Aktionsstand im Pasaż Grunwaldzki während des Besuchs",
+            "cs": "Stánek s aktivitami v Pasaż Grunwaldzki během návštěvy"
+          },
+          "title": {
+            "he": "ביתן פעילות במרכז פסאז׳ גרונבלדזקי בזמן הביקור",
+            "en": "Activity booth inside Pasaż Grunwaldzki during the visit",
+            "pl": "Stoisko z atrakcjami w Pasażu Grunwaldzkim podczas wizyty",
+            "de": "Aktionsstand im Pasaż Grunwaldzki während des Besuchs",
+            "cs": "Stánek s aktivitami v Pasaż Grunwaldzki během návštěvy"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 20
+        },
+        "/assets/food-round-oct23/pasaz-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-05 at 18.26.34 (1).jpeg",
+          "sourceSHA256": "3c91f67ae248fbb3cdd33f0f0f96f9ee7dbec0a1a9b247efbc6d96b72d0e8a13",
+          "assetSHA256": "006ac032705907b3cb4865641b3f73d566e1005646f3734a6ffa4e2270c46418",
+          "alt": {
+            "he": "משחקי לוח בביתן פעילות בפסאז׳ גרונבלדזקי",
+            "en": "Board games at an activity booth in Pasaż Grunwaldzki",
+            "pl": "Gry planszowe na stoisku w Pasażu Grunwaldzkim",
+            "de": "Brettspiele an einem Aktionsstand im Pasaż Grunwaldzki",
+            "cs": "Deskové hry na stánku v Pasaż Grunwaldzki"
+          },
+          "title": {
+            "he": "משחקי לוח בביתן פעילות בפסאז׳ גרונבלדזקי",
+            "en": "Board games at an activity booth in Pasaż Grunwaldzki",
+            "pl": "Gry planszowe na stoisku w Pasażu Grunwaldzkim",
+            "de": "Brettspiele an einem Aktionsstand im Pasaż Grunwaldzki",
+            "cs": "Deskové hry na stánku v Pasaż Grunwaldzki"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 21
+        },
+        "/assets/food-round-oct23/pasaz-24.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-05 at 18.26.34 (7).jpeg",
+          "sourceSHA256": "944b25cf70959ce0989ef0c16acee1e69e48a6b5f2c9e053c24845e267b96217",
+          "assetSHA256": "1502ba846bd5613070ed17b55e09c5c7aa7bc4abd495ff706d43838ccf412308",
+          "alt": {
+            "he": "מבקרים בביתן פעילות בפסאז׳ גרונבלדזקי",
+            "en": "Visitors at an activity booth in Pasaż Grunwaldzki",
+            "pl": "Odwiedzający stoisko z atrakcjami w Pasażu Grunwaldzkim",
+            "de": "Besucher an einem Aktionsstand im Pasaż Grunwaldzki",
+            "cs": "Návštěvníci stánku s aktivitami v Pasaż Grunwaldzki"
+          },
+          "title": {
+            "he": "מבקרים בביתן פעילות בפסאז׳ גרונבלדזקי",
+            "en": "Visitors at an activity booth in Pasaż Grunwaldzki",
+            "pl": "Odwiedzający stoisko z atrakcjami w Pasażu Grunwaldzkim",
+            "de": "Besucher an einem Aktionsstand im Pasaż Grunwaldzki",
+            "cs": "Návštěvníci stánku s aktivitami v Pasaż Grunwaldzki"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 24
+        },
+        "/assets/food-round-oct23/pasaz-28.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PASSAGE GRUNWALDI/WhatsApp Image 2026-10-19 at 08.41.55 (13).jpeg",
+          "sourceSHA256": "8f137fd66d2286ec17e53b0273a950fa3c781938f34f8c7610c7dcb7ee59bca7",
+          "assetSHA256": "b9715d004ae39d55335580943f69430cf5d95d4d7046f1b87d2396d72d087ddd",
+          "alt": {
+            "he": "הרחבה והכניסה לפסאז׳ גרונבלדזקי",
+            "en": "Forecourt and entrance of Pasaż Grunwaldzki",
+            "pl": "Plac i wejście do Pasażu Grunwaldzkiego",
+            "de": "Vorplatz und Eingang des Pasaż Grunwaldzki",
+            "cs": "Prostranství a vstup do Pasaż Grunwaldzki"
+          },
+          "title": {
+            "he": "הרחבה והכניסה לפסאז׳ גרונבלדזקי",
+            "en": "Forecourt and entrance of Pasaż Grunwaldzki",
+            "pl": "Plac i wejście do Pasażu Grunwaldzkiego",
+            "de": "Vorplatz und Eingang des Pasaż Grunwaldzki",
+            "cs": "Prostranství a vstup do Pasaż Grunwaldzki"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 28
         }
       }
     },
@@ -40716,7 +41011,10 @@
         "/assets/food-cafes/pizza-si-02.jpg",
         "/assets/food-cafes/pizza-si-03.jpg",
         "/assets/food-cafes/pizza-si-04.jpg",
-        "/assets/food-cafes/pizza-si-05.jpg"
+        "/assets/food-cafes/pizza-si-05.jpg",
+        "/assets/food-round-oct23/pizza-si-77.jpg",
+        "/assets/food-round-oct23/pizza-si-78.jpg",
+        "/assets/food-round-oct23/pizza-si-82.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -40802,6 +41100,75 @@
             "cs": "Noční průčelí restaurace se svítícím nápisem a venkovními stoly"
           },
           "verifiedAt": "2026-10-20T18:20:01.143208+00:00"
+        },
+        "/assets/food-round-oct23/pizza-si-77.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-10-01 at 09.23.56 (3).jpeg",
+          "sourceSHA256": "d031e216687e10101926934f1a77560280a17c6a8387c996906ed4283e859316",
+          "assetSHA256": "17352f80b3eed179cbf89d415043e4a444f86f8cd215744aca9e9d52d7e6c643",
+          "alt": {
+            "he": "פיצה וסלט בזמן ביקור בפיצה סי",
+            "en": "Pizza and salad during a Pizza Si visit",
+            "pl": "Pizza i sałatka podczas wizyty w Pizza Si",
+            "de": "Pizza und Salat bei einem Besuch in Pizza Si",
+            "cs": "Pizza a salát během návštěvy Pizza Si"
+          },
+          "title": {
+            "he": "פיצה וסלט בזמן ביקור בפיצה סי",
+            "en": "Pizza and salad during a Pizza Si visit",
+            "pl": "Pizza i sałatka podczas wizyty w Pizza Si",
+            "de": "Pizza und Salat bei einem Besuch in Pizza Si",
+            "cs": "Pizza a salát během návštěvy Pizza Si"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 77
+        },
+        "/assets/food-round-oct23/pizza-si-78.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-10-01 at 09.23.56 (4).jpeg",
+          "sourceSHA256": "ce1c4f398223a2bba519480083e2a401f10ec3b72c3a83939c84fed3745e101f",
+          "assetSHA256": "ce8adcf4b80c4ee4a28c633ca6c960dae11da8a03bc2d0711340487a56e3054f",
+          "alt": {
+            "he": "מבט נוסף על ארוחה בפיצה סי",
+            "en": "Another view of a meal at Pizza Si",
+            "pl": "Kolejny widok posiłku w Pizza Si",
+            "de": "Weitere Ansicht einer Mahlzeit in Pizza Si",
+            "cs": "Další pohled na jídlo v Pizza Si"
+          },
+          "title": {
+            "he": "מבט נוסף על ארוחה בפיצה סי",
+            "en": "Another view of a meal at Pizza Si",
+            "pl": "Kolejny widok posiłku w Pizza Si",
+            "de": "Weitere Ansicht einer Mahlzeit in Pizza Si",
+            "cs": "Další pohled na jídlo v Pizza Si"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 78
+        },
+        "/assets/food-round-oct23/pizza-si-82.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פיצה סי/WhatsApp Image 2026-10-19 at 16.55.18 (1).jpeg",
+          "sourceSHA256": "5e34908e61f1d913702c4b6aaa48ea03d5ee8cdb67d7378d5546db3aa22f88d5",
+          "assetSHA256": "4105b42a803c7c54aa8aacc171ec46cd21c5ea377917e096a773954a0d13403e",
+          "alt": {
+            "he": "פיצה, סלט ומשקאות על השולחן בפיצה סי",
+            "en": "Pizza, salad and drinks on the table at Pizza Si",
+            "pl": "Pizza, sałatka i napoje na stoliku w Pizza Si",
+            "de": "Pizza, Salat und Getränke auf dem Tisch in Pizza Si",
+            "cs": "Pizza, salát a nápoje na stole v Pizza Si"
+          },
+          "title": {
+            "he": "פיצה, סלט ומשקאות על השולחן בפיצה סי",
+            "en": "Pizza, salad and drinks on the table at Pizza Si",
+            "pl": "Pizza, sałatka i napoje na stoliku w Pizza Si",
+            "de": "Pizza, Salat und Getränke auf dem Tisch in Pizza Si",
+            "cs": "Pizza, salát a nápoje na stole v Pizza Si"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 82
         }
       }
     },
@@ -52897,7 +53264,8 @@
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/run4-207-woosabi-swidnicka-wroclaw.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/run4-207-woosabi-swidnicka-wroclaw.jpg"
+        "/assets/today-source-refresh-20261021/run4-207-woosabi-swidnicka-wroclaw.jpg",
+        "/assets/hotels-20261020/hotel-traffic-wroclaw-14.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -52917,6 +53285,34 @@
           },
           "sourceRefreshRun": "2026-10-21-run4",
           "familyForeground": false
+        },
+        "/assets/hotels-20261020/hotel-traffic-wroclaw-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WOOSABI/WhatsApp Image 2026-10-19 at 08.42.07 (4).jpeg",
+          "sourceSHA256": "1ceac9ef8b4f7b0b4a66124fc71986d20cd5d9fa30904413ed4fce44978b86c0",
+          "assetSHA256": "1909899e3a0d234c8f05d9fe213b82e5c3c109584d967e1e392681473f65b830",
+          "alt": {
+            "he": "חזית ווסאבי ושולחנות הרחוב מתחת למלון טראפיק",
+            "en": "Woosabi frontage and street tables below Hotel Traffic",
+            "pl": "Fasada Woosabi i stoliki pod Hotelem Traffic",
+            "de": "Fassade und Straßentische von Woosabi unter dem Hotel Traffic",
+            "cs": "Průčelí Woosabi a venkovní stolky pod hotelem Traffic"
+          },
+          "title": {
+            "he": "חזית ווסאבי ושולחנות הרחוב מתחת למלון טראפיק",
+            "en": "Woosabi frontage and street tables below Hotel Traffic",
+            "pl": "Fasada Woosabi i stoliki pod Hotelem Traffic",
+            "de": "Fassade und Straßentische von Woosabi unter dem Hotel Traffic",
+            "cs": "Průčelí Woosabi a venkovní stolky pod hotelem Traffic"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+          "reviewIndex": 86,
+          "reusedExistingAsset": true,
+          "alsoUsedByCanonicalIds": [
+            "hotel-traffic-wroclaw"
+          ],
+          "reuseReason": "Visible WOOSABIsign andrestaurantterrace on sameverifiedŚwidnicka28facade; hotel source binding retained"
         }
       }
     },

@@ -14,7 +14,7 @@ test('Pizza Si and Czarna Magia expose one localized Lifestyle point with curate
     for (const file of ['data/place-catalog.js', 'data/location-media.js', 'data/lifestyle-places.js']) {
       runInNewContext(readFileSync(resolve(root, file), 'utf8'), context);
     }
-    for (const [id, count] of [['pizza-si', 5], ['czarna-magia', 17]]) {
+    for (const [id, count] of [['pizza-si', 8], ['czarna-magia', 17]]) {
       const place = window.WROC_CATALOG.getPlace(id);
       const points = window.WROC_LIFESTYLE_PLACES.filter(p => p.canonicalPlaceId === id);
       assert.equal(points.length, 1, `${language}: ${id} must have one point`);
