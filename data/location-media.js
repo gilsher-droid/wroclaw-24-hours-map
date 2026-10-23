@@ -277,3 +277,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Expose every recovered original cafe photograph through the existing WuWA route/card adapter.
 (function(){const p=window.WROC_CATALOG?.getPlace?.("wuwa");if(p)window.WROC_LOCATION_MEDIA.wuwa={...(window.WROC_LOCATION_MEDIA.wuwa||{}),gallery:p.media.photos};})();
+
+// Keep the complete canonical visit playlists on actual map/card actions, retaining existing resource descriptors.
+(function(){for(const id of ["pan-tadeusz-museum", "zyjnia-bwa-wroclaw", "rynek", "cafe-berg-wroclaw", "wuwa-estate"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;r.videos=p.media.videos;window.WROC_LOCATION_MEDIA[id]=r;}})();

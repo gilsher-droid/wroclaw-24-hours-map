@@ -27,7 +27,7 @@
     "brzeg-oder-gate": "ee7ffe2564b0a8781091e52c0549a62684d216013da66dbcf7f77a5de6c03338",
     "brzeg-town-hall": "2013b6d4e0b4c2b3f95942d3d43fa9ef354085f5c10528d1902ee203442a4262",
     "bulka": "b53fb7e75d9318c1edf66d3ba828b0eb1e05a64cda416cd20db3741dbc0f9a6f",
-    "cafe-berg-wroclaw": "037900d6afc996c166191a040213dc3682496da8ed390f659c571b649a2584d8",
+    "cafe-berg-wroclaw": "c0e6d5d77d6765e63b7e0d4c0ed79febb53b641aaba9971d295945c4a9a1bb17",
     "cafe-targowa": "688a4c2b3dcf905f67ef83a715ebbbdd2448d29c5b1e013e1fe6a747121a9887",
     "cathedral": "9b75303d8fd454c3f57b07d95427ad5f46d76eaf834e7a7b864df795e8aab1e9",
     "central": "b403bff271da9ef512863e89dd92f4e74d580dd329ef0b49c42d450ebd0e1de7",
@@ -129,7 +129,7 @@
     "paloma-coffee": "b99ce82c6b5dbd4d517b40c969f3dfa65cfd70628f6f6f77d9b92d4273734a6c",
     "pan-precel": "1f5c61841d2b7ebb7b360e966e6d136c0f137c504969abee29c2abeb1ba3d182",
     "pan-precel-olawska": "e4d717613a1a3f77d56cb8d81dd8f9b3d6d6f1d60ca069789be80961f59b05a7",
-    "pan-tadeusz-museum": "4179dae528f1abb7acaf4d8cdcd75e5f4aa62f0d0963c8d227e44c16a114f696",
+    "pan-tadeusz-museum": "af429749437254e5d3b268eaf5dac8944d5309f0625fa01c4059abff367e77f7",
     "panorama": "0145d65f6615a85d6d4544b63473a5f66a54e40ca3bfda51c128f5d179b7c3d8",
     "papa": "00be273586048464dafdda98f73a516641de9c35a18b1b11db2c9492b4a0dbe4",
     "park-szczytnicki-wroclaw": "cdb5bf89492b0776ff4059ac3ce58dd78a0835b2ba39ed1a17fb185ca4f35db7",
@@ -201,11 +201,11 @@
     "wroclaw-contemporary-theatre": "dc3bac4882c3ef2a982d34d77644286a03cf47b8cf751010181ad37f83f39a96",
     "wroclaw-puppet-theatre": "c81dee0990d41d3f632a7b2eee50c0b022885312ded3669d09a1ad679f640e24",
     "wuwa": "9c0b80973e4a264d56ff0d7b44cd34adc817ba319e6ef785da71842f761c6184",
-    "wuwa-estate": "17429b730c9a5520eba1430c51f7b8d069116dd4c4f07ef1295385affd21b37c",
+    "wuwa-estate": "4d2895ec52eb775dd105a313fe83677890c88bf80fecfb49f002c23ca8f83d17",
     "wyspa-piasek": "bb7abc81782608a667e093bfad482c0fbcf68d7e48bbadf8ab7e125da2cda9ab",
     "zamek-topacz": "69eca3dc99f98275b62a216ff22db26766372a977677e3937d7422b420107d93",
     "zenka": "eed8a3a01e27d47e8aad0df6805abf2cd0e200fa94b1c73750bfb210d208077d",
     "zoo-wroclaw": "2be35a57fc9927b285e55432ea0ff18fd460b0dff822e3d7f1002a4bd1a63d42",
-    "zyjnia-bwa-wroclaw": "e95387f20a59a9cb195a8d4b623e8d328fdfefa51690550b01e02f3c7312d06a"
+    "zyjnia-bwa-wroclaw": "f4c65f2bde60b1262829d749cb7143f12cd4af4f341555b7096dc69b438360be"
   }
 }

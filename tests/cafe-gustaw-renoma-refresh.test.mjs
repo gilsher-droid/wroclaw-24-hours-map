@@ -22,7 +22,7 @@ test('Cafe Berg and Renoma append reviewed images, preserve original media, hero
    for(const lang of ['he','en','pl','de','cs'])assert.ok(meta.alt[lang]);
   }
  }
- const cafe=catalog.getPlace('cafe-berg-wroclaw');assert.deepEqual(plain(cafe.media.videos),['https://youtube.com/shorts/bEKAP8m_KoI']);assert.equal(cafe.media.metadata[cafe.media.videos[0]].checksComplete,true);
+ const cafe=catalog.getPlace('cafe-berg-wroclaw');assert.deepEqual(plain(cafe.media.videos),['https://youtube.com/shorts/bEKAP8m_KoI','https://www.youtube.com/watch?v=oB2UQUGy3w8']);assert.equal(cafe.media.metadata[cafe.media.videos[0]].checksComplete,true);
 });
 test('Gustaw is one dining place independent of Bastion, reusing its verified entrance image without a duplicate asset',()=>{
  const p=plain(catalog.getPlace('gustaw-restaurant-wroclaw')),bastion=catalog.getPlace('bastion');assert.ok(p);assert.notEqual(p.id,bastion.id);
@@ -39,7 +39,7 @@ test('All 192 unrelated places remain byte-equivalent after the authorized three
 });
 
 test('Explicitly excluded family and doubtful clips cannot enter canonical photo or video metadata',()=>{
- const proof=JSON.parse(readFileSync('data/cafe-gustaw-renoma-refresh-provenance.json','utf8'));assert.equal(proof.privacyExcludedSourceHashes.length,16);
+ const proof=JSON.parse(readFileSync('data/cafe-gustaw-renoma-refresh-provenance.json','utf8'));assert.equal(proof.privacyExcludedSourceHashes.length,15);assert.equal(proof.historicalPrivacyExcludedSourceHashes.length,16);assert.deepEqual(proof.resolvedIncidentalVisitSourceHashes,['bdb6d64d3bc9845c1ff11c9432f68761ed6229fe9bed88f6b98206169df02108']);
  for(const id of proof.canonicalIds)for(const metadata of Object.values(catalog.getPlace(id).media.metadata))assert.ok(!proof.privacyExcludedSourceHashes.includes(metadata.sourceSHA256),id);
 });
 

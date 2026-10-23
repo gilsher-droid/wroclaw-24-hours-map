@@ -7970,7 +7970,8 @@
         "/assets/round-other-20261023/recovered-cafe-berg-wroclaw-4.jpg"
       ],
       "videos": [
-        "https://youtube.com/shorts/bEKAP8m_KoI"
+        "https://youtube.com/shorts/bEKAP8m_KoI",
+        "https://www.youtube.com/watch?v=oB2UQUGy3w8"
       ],
       "metadata": {
         "/assets/food-cafes/cafe-berg-01.jpg": {
@@ -8182,6 +8183,45 @@
           "tags": [
             "place-visit"
           ]
+        },
+        "https://www.youtube.com/watch?v=oB2UQUGy3w8": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ברג/WhatsApp Video 2026-10-05 at 18.26.42.mp4",
+          "sourceSHA256": "bdb6d64d3bc9845c1ff11c9432f68761ed6229fe9bed88f6b98206169df02108",
+          "uploadSHA256": "be29c3ebe3a679f12b51b4a842067d9296b51c9d38f0d687f66dbb5e4b5a7e2c",
+          "sourceVideoPacketSHA256": "83b5e8a068de597c8db16d5578891432ebe6c335333a45339e2ec27d0d458a3d",
+          "uploadVideoPacketSHA256": "83b5e8a068de597c8db16d5578891432ebe6c335333a45339e2ec27d0d458a3d",
+          "title": {
+            "he": "הגישה למרפסת קפה ברג ולחפיר",
+            "en": "Cafe Berg terrace approach and moat",
+            "pl": "Dojście do tarasu Cafe Berg i fosa",
+            "de": "Zugang zur Terrasse des Cafe Berg und Stadtgraben",
+            "cs": "Přístup na terasu Cafe Berg a městský příkop"
+          },
+          "alt": {
+            "he": "הגישה למרפסת קפה ברג ולחפיר",
+            "en": "Cafe Berg terrace approach and moat",
+            "pl": "Dojście do tarasu Cafe Berg i fosa",
+            "de": "Zugang zur Terrasse des Cafe Berg und Stadtgraben",
+            "cs": "Přístup na terasu Cafe Berg a městský příkop"
+          },
+          "durationSeconds": 12.571667,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-05-publication-result.txt",
+          "publicReopenProof": "next-seven-05-Public-reopened.txt"
         }
       }
     },
@@ -36833,7 +36873,8 @@
         "/assets/pan-tadeusz-museum/pan-tadeusz-museum-05.jpg"
       ],
       "videos": [
-        "https://youtube.com/shorts/BTXtNDsF_8M"
+        "https://youtube.com/shorts/BTXtNDsF_8M",
+        "https://www.youtube.com/watch?v=Gj0g0We1nGw"
       ],
       "metadata": {
         "/assets/pan-tadeusz-museum/pan-tadeusz-museum-01.jpg": {
@@ -36900,6 +36941,45 @@
             "de": "Nachts beleuchtete Museumsfront am Rynek",
             "cs": "Noční osvětlené průčelí muzea na Rynku"
           }
+        },
+        "https://www.youtube.com/watch?v=Gj0g0We1nGw": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/PAN TADEUSCH/WhatsApp Video 2026-10-05 at 18.25.07.mp4",
+          "sourceSHA256": "2fd6c7ab12bcec3affca0d8f858654d8753d56f5ea31a894cb1bece7eb38a690",
+          "uploadSHA256": "55c14cb73f2bc5d1b303d274cf070bb60e7ccccad625b3d722d59e2b54f8d175",
+          "sourceVideoPacketSHA256": "4a54d060efdd98b4dcd5ab01fb9a0f04e0914efaeb7550eccea5d7fe5b0d6a74",
+          "uploadVideoPacketSHA256": "4a54d060efdd98b4dcd5ab01fb9a0f04e0914efaeb7550eccea5d7fe5b0d6a74",
+          "title": {
+            "he": "חזית מוזיאון פאן תדאוש מוארת בערב",
+            "en": "Pan Tadeusz Museum illuminated facade",
+            "pl": "Oświetlona fasada Muzeum Pana Tadeusza",
+            "de": "Beleuchtete Fassade des Pan-Tadeusz-Museums",
+            "cs": "Osvětlené průčelí Muzea Pana Tadeusze"
+          },
+          "alt": {
+            "he": "חזית מוזיאון פאן תדאוש מוארת בערב",
+            "en": "Pan Tadeusz Museum illuminated facade",
+            "pl": "Oświetlona fasada Muzeum Pana Tadeusza",
+            "de": "Beleuchtete Fassade des Pan-Tadeusz-Museums",
+            "cs": "Osvětlené průčelí Muzea Pana Tadeusze"
+          },
+          "durationSeconds": 18.966667,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-01-publication-result.txt",
+          "publicReopenProof": "next-seven-01-Public-reopened.txt"
         }
       }
     },
@@ -43024,7 +43104,8 @@
         "https://www.youtube.com/watch?v=bfk0vBDoutc",
         "https://www.youtube.com/watch?v=azjGAh0J8yM",
         "https://www.youtube.com/watch?v=28qNFqr_n6I",
-        "https://www.youtube.com/watch?v=fNVuCBSZGPU"
+        "https://www.youtube.com/watch?v=fNVuCBSZGPU",
+        "https://www.youtube.com/watch?v=wkaTOfyiPyM"
       ],
       "metadata": {
         "/assets/rynek-refresh-oct19-01.jpg": {
@@ -43631,6 +43712,45 @@
           },
           "checksEvidenceMode": "Both uploadwizardchecksNoissuesfound beforestandardpublish",
           "noCurrentRestrictions": true
+        },
+        "https://www.youtube.com/watch?v=wkaTOfyiPyM": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-20 at 13.11.18.mp4",
+          "sourceSHA256": "6934943eea04d3879c0eb8529710763f4ee67a3c8dd129227c2365610f6e40fa",
+          "uploadSHA256": "a2f8318784f2249b4da422d27da264a49df9f3f203865b0292d2795a0542189d",
+          "sourceVideoPacketSHA256": "43fbcd13c10c70bd469c79a986ef1ef6e84a00537da25365575b2de876f78d1d",
+          "uploadVideoPacketSHA256": "43fbcd13c10c70bd469c79a986ef1ef6e84a00537da25365575b2de876f78d1d",
+          "title": {
+            "he": "מבט פנורמי על כיכר השוק באור יום",
+            "en": "Market Square daytime panorama",
+            "pl": "Panorama Rynku za dnia",
+            "de": "Panorama des Marktplatzes bei Tageslicht",
+            "cs": "Denní panorama Rynku"
+          },
+          "alt": {
+            "he": "מבט פנורמי על כיכר השוק באור יום",
+            "en": "Market Square daytime panorama",
+            "pl": "Panorama Rynku za dnia",
+            "de": "Panorama des Marktplatzes bei Tageslicht",
+            "cs": "Denní panorama Rynku"
+          },
+          "durationSeconds": 4.933333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-04-publication-result.txt",
+          "publicReopenProof": "next-seven-04-Public-reopened.txt"
         }
       }
     },
@@ -54524,7 +54644,9 @@
         "/assets/wuwa-estate-visit-04.mp4",
         "/assets/wuwa-estate-visit-05.mp4",
         "/assets/wuwa-estate-visit-06.mp4",
-        "/assets/wuwa-estate-visit-07.mp4"
+        "/assets/wuwa-estate-visit-07.mp4",
+        "https://www.youtube.com/watch?v=cZOlImJBx5U",
+        "https://www.youtube.com/watch?v=VCg344f4pDg"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/tEbmB6OWe90",
@@ -55266,6 +55388,84 @@
           "tags": [
             "wuwa-estate"
           ]
+        },
+        "https://www.youtube.com/watch?v=cZOlImJBx5U": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5783 2.MOV",
+          "sourceSHA256": "01c3700c5438ebc19f6a73894f6c6fbdebf4472f745873ff4f4ae3c7e802cf39",
+          "uploadSHA256": "74bcfdce8eb1428bd7f6fd4e300d50cb0de0c5ed250a87d1fef00e9955b816dc",
+          "sourceVideoPacketSHA256": "33ee06ad9e02f16e2b4ad49d4bedf221cf628f8834aea836764df642e7bc9f3a",
+          "uploadVideoPacketSHA256": "33ee06ad9e02f16e2b4ad49d4bedf221cf628f8834aea836764df642e7bc9f3a",
+          "title": {
+            "he": "פרט אדריכלי בשכונת וובה",
+            "en": "WuWA estate architectural detail",
+            "pl": "Detal architektoniczny osiedla WuWA",
+            "de": "Architektonisches Detail der WuWA-Siedlung",
+            "cs": "Architektonický detail sídliště WuWA"
+          },
+          "alt": {
+            "he": "פרט אדריכלי בשכונת וובה",
+            "en": "WuWA estate architectural detail",
+            "pl": "Detal architektoniczny osiedla WuWA",
+            "de": "Architektonisches Detail der WuWA-Siedlung",
+            "cs": "Architektonický detail sídliště WuWA"
+          },
+          "durationSeconds": 3.735,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-06-publication-result.txt",
+          "publicReopenProof": "next-seven-06-Public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=VCg344f4pDg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5788 2.MOV",
+          "sourceSHA256": "6d79ac70b1447ae60117b67f915c81952f8ed0ae7676f7efa8437dac98925bbc",
+          "uploadSHA256": "b2d431429fb2219d2ff4a62715775a0ccaec2249ff6f7eff1352760cff80134d",
+          "sourceVideoPacketSHA256": "392183fb68412595bf7ba74378cd9b073fd1eb55e6d6ef3b575f677e9e88a2bb",
+          "uploadVideoPacketSHA256": "392183fb68412595bf7ba74378cd9b073fd1eb55e6d6ef3b575f677e9e88a2bb",
+          "title": {
+            "he": "מבט מביקור בשכונת וובה",
+            "en": "WuWA estate visit view",
+            "pl": "Widok z wizyty na osiedlu WuWA",
+            "de": "Ansicht beim Besuch der WuWA-Siedlung",
+            "cs": "Pohled z návštěvy sídliště WuWA"
+          },
+          "alt": {
+            "he": "מבט מביקור בשכונת וובה",
+            "en": "WuWA estate visit view",
+            "pl": "Widok z wizyty na osiedlu WuWA",
+            "de": "Ansicht beim Besuch der WuWA-Siedlung",
+            "cs": "Pohled z návštěvy sídliště WuWA"
+          },
+          "durationSeconds": 6.366667,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-07-publication-result.txt",
+          "publicReopenProof": "next-seven-07-Public-reopened.txt"
         }
       }
     },
@@ -58401,7 +58601,9 @@
         "https://youtube.com/shorts/CbgJvJMkd-k",
         "https://youtube.com/shorts/1Y75V_JyTJg",
         "https://youtube.com/shorts/C84x5KSdeqQ",
-        "https://youtube.com/shorts/8QNaMIMs-As"
+        "https://youtube.com/shorts/8QNaMIMs-As",
+        "https://www.youtube.com/watch?v=L8CWWAvCnag",
+        "https://www.youtube.com/watch?v=SAl6ioXHZVM"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/ZO-A54BIZQk",
@@ -58692,6 +58894,84 @@
           "familyForeground": false,
           "selectionReason": "Gallery exterior or exhibition detail; identity confirmed by façade signs, Żyjnia wayfinding and matching interior tiles; no personal posed subjects",
           "sourceDirectory": "BWA"
+        },
+        "https://www.youtube.com/watch?v=L8CWWAvCnag": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-05 at 18.26.11.mp4",
+          "sourceSHA256": "29dbd543acc8f39c7df9d15ab437c09ed0f8dead8da1cc10d817edc0f2234d82",
+          "uploadSHA256": "48bb3cc88173bce525e72574319040bef332be13275bfa92248301b331e3ca33",
+          "sourceVideoPacketSHA256": "eb9c50ade7fc38a64d2a7a9ba18707c17dc14e0b56694c7b772abba4d34aa62e",
+          "uploadVideoPacketSHA256": "eb9c50ade7fc38a64d2a7a9ba18707c17dc14e0b56694c7b772abba4d34aa62e",
+          "title": {
+            "he": "פרטי דלת הכניסה לגלריית ז׳יז׳ניה",
+            "en": "Żyjnia BWA entrance doorway",
+            "pl": "Drzwi wejściowe galerii Żyjnia BWA",
+            "de": "Eingangstür der Galerie Żyjnia BWA",
+            "cs": "Vstupní dveře galerie Żyjnia BWA"
+          },
+          "alt": {
+            "he": "פרטי דלת הכניסה לגלריית ז׳יז׳ניה",
+            "en": "Żyjnia BWA entrance doorway",
+            "pl": "Drzwi wejściowe galerii Żyjnia BWA",
+            "de": "Eingangstür der Galerie Żyjnia BWA",
+            "cs": "Vstupní dveře galerie Żyjnia BWA"
+          },
+          "durationSeconds": 5.1,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-02-publication-result.txt",
+          "publicReopenProof": "next-seven-02-Public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=SAl6ioXHZVM": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/BWA/WhatsApp Video 2026-10-05 at 18.26.17.mp4",
+          "sourceSHA256": "f749a12d24072e96f4f56229156a1c43441d1bde3ab32e31f209fa991e3641c9",
+          "uploadSHA256": "6da245e71745c2c481d21093a67b0ab6849152bd28fec1bab7040931baf7b488",
+          "sourceVideoPacketSHA256": "2a1573e4fc4a9388510eb52c95c71eca31acc8e8e69517b26f15746574287757",
+          "uploadVideoPacketSHA256": "2a1573e4fc4a9388510eb52c95c71eca31acc8e8e69517b26f15746574287757",
+          "title": {
+            "he": "מבואת התערוכה והחלל בגלריית ז׳יז׳ניה",
+            "en": "Żyjnia BWA exhibition foyer and interior",
+            "pl": "Hol wystawy i wnętrze galerii Żyjnia BWA",
+            "de": "Ausstellungsfoyer und Innenraum der Galerie Żyjnia BWA",
+            "cs": "Výstavní foyer a interiér galerie Żyjnia BWA"
+          },
+          "alt": {
+            "he": "מבואת התערוכה והחלל בגלריית ז׳יז׳ניה",
+            "en": "Żyjnia BWA exhibition foyer and interior",
+            "pl": "Hol wystawy i wnętrze galerii Żyjnia BWA",
+            "de": "Ausstellungsfoyer und Innenraum der Galerie Żyjnia BWA",
+            "cs": "Výstavní foyer a interiér galerie Żyjnia BWA"
+          },
+          "durationSeconds": 8.423333,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-03-publication-result.txt",
+          "publicReopenProof": "next-seven-03-Public-reopened.txt"
         }
       }
     },
