@@ -13190,7 +13190,8 @@
       ],
       "videos": [
         "https://www.youtube.com/watch?v=3z4LvIz8190",
-        "https://youtube.com/shorts/wdCORtqPNig"
+        "https://youtube.com/shorts/wdCORtqPNig",
+        "https://www.youtube.com/watch?v=Gu_JlECxCLk"
       ],
       "metadata": {
         "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg": {
@@ -13332,6 +13333,36 @@
           "associationCorrection": "Previously attached to Roma; original menu reads Domek nad Fosą. Same exact source SHA exists in both folders. Correct site association only; YouTube original/title/privacy left unchanged.",
           "originalFullPictureAndDurationPreserved": true,
           "reusedPublicVideoNoNewUpload": true
+        },
+        "https://www.youtube.com/watch?v=Gu_JlECxCLk": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/DOMEK NAD FOSA/WhatsApp Video 2026-10-05 at 18.25.40.mp4",
+          "sourceSHA256": "4edf894be01d4e6d63308b0f1e8649afc5aea6f7867ef041079cb74190d54037",
+          "uploadSHA256": "339a5cecbc4b5ef671757871aa359dca6251a1a585cd0e4e85d349f2cba66de4",
+          "durationSeconds": 7.505,
+          "alt": {
+            "he": "החפיר והשתקפות המבנים ליד דומק נד פוסה",
+            "en": "Moat reflections and waterside view near Domek nad Fosą",
+            "pl": "Odbicia w fosie i widok przy Domku nad Fosą",
+            "de": "Spiegelungen im Stadtgraben bei Domek nad Fosą",
+            "cs": "Odrazy v příkopu a pohled u Domku nad Fosą"
+          },
+          "title": {
+            "he": "החפיר והשתקפות המבנים ליד דומק נד פוסה",
+            "en": "Moat reflections and waterside view near Domek nad Fosą",
+            "pl": "Odbicia w fosie i widok przy Domku nad Fosą",
+            "de": "Spiegelungen im Stadtgraben bei Domek nad Fosą",
+            "cs": "Odrazy v příkopu a pohled u Domku nad Fosą"
+          },
+          "visibility": "Public",
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checks": "Copyright and Community Guidelines complete: No issues found",
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_b5133f82d10848dc8c5d4b168faca06a",
+          "approvedManifestSHA256": "db32ed2a0eb3e147df25dc543977ad3f3e2e1256629e4d1ab3ba142294162194",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/domek-additional-youtube-publication-receipt.json"
         }
       }
     },
