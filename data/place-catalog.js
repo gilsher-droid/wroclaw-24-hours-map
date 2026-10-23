@@ -5299,7 +5299,12 @@
         "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-148.jpg",
         "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-149.jpg",
         "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-150.jpg",
-        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-152.jpg"
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-152.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-040.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-059.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-120.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-146.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-151.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/AREkvigE0pI"
@@ -5559,6 +5564,121 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-040.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.50 (2).jpeg",
+          "sourceSHA256": "7b4f1ebe3f19a32694fd9d76fe834a54a20b8d5ba3ba2d8e86f414bdd18204a2",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור במוזיאון הקרמיקה בבולסלבייץ",
+            "en": "Another visit photograph: Ceramics Museum in Bolesławiec",
+            "pl": "Kolejne zdjęcie z wizyty: Muzeum Ceramiki w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Keramikmuseum in Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Muzeum keramiky v Bolesławci"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.002380+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-059.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.56 (3).jpeg",
+          "sourceSHA256": "4717d90af94bc00bb8052e8f003c094650367a16cbde109be5b504642f4c2300",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור במוזיאון הקרמיקה בבולסלבייץ",
+            "en": "Another visit photograph: Ceramics Museum in Bolesławiec",
+            "pl": "Kolejne zdjęcie z wizyty: Muzeum Ceramiki w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Keramikmuseum in Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Muzeum keramiky v Bolesławci"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.003937+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-120.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.30 (6).jpeg",
+          "sourceSHA256": "e401c3f2bd276824db086686b1e533eda7cf11a8ad749922e5f3db43ec6cdf05",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור במוזיאון הקרמיקה בבולסלבייץ",
+            "en": "Another visit photograph: Ceramics Museum in Bolesławiec",
+            "pl": "Kolejne zdjęcie z wizyty: Muzeum Ceramiki w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Keramikmuseum in Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Muzeum keramiky v Bolesławci"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.032827+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-146.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (5).jpeg",
+          "sourceSHA256": "565f11539e3b2b737341bc5482d1785cc2d39ceb5ed742182b3d3a8eb6352b3d",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור במוזיאון הקרמיקה בבולסלבייץ",
+            "en": "Another visit photograph: Ceramics Museum in Bolesławiec",
+            "pl": "Kolejne zdjęcie z wizyty: Muzeum Ceramiki w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Keramikmuseum in Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Muzeum keramiky v Bolesławci"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.043291+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-ceramics-museum-151.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31.jpeg",
+          "sourceSHA256": "b0ac8434d0bb385d973600dd52d2b95d6ce57659b391ad39f88027a05a207abf",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור במוזיאון הקרמיקה בבולסלבייץ",
+            "en": "Another visit photograph: Ceramics Museum in Bolesławiec",
+            "pl": "Kolejne zdjęcie z wizyty: Muzeum Ceramiki w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Keramikmuseum in Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Muzeum keramiky v Bolesławci"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.043964+00:00"
         }
       }
     },
@@ -5704,14 +5824,73 @@
         "/assets/czocha-boleslawiec/boleslawiec-old-town-141.jpg",
         "/assets/today-source-refresh-20261021/boleslawiec-ceramics-24.jpg",
         "/assets/today-source-refresh-20261021/boleslawiec-ceramics-25.jpg",
-        "/assets/today-source-refresh-20261021/boleslawiec-ceramics-26.jpg"
+        "/assets/today-source-refresh-20261021/boleslawiec-ceramics-26.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-003.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-004.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-005.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-006.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-007.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-010.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-011.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-012.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-013.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-014.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-016.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-017.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-018.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-019.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-020.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-021.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-022.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-025.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-026.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-028.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-029.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-030.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-033.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-062.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-068.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-070.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-071.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-072.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-073.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-076.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-077.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-078.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-079.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-085.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-086.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-088.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-096.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-107.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-128.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-129.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-130.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-131.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-132.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-133.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-135.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-137.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-138.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-142.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-105.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-109.jpg",
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-111.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/YMyuRk3Fm7o",
         "https://youtube.com/shorts/ut4a1jalggk",
         "https://youtube.com/shorts/8omNiWR6tVI",
         "https://youtube.com/shorts/lu3GKpKwjE4",
-        "https://www.youtube.com/watch?v=l2XcfLeTE2A"
+        "https://www.youtube.com/watch?v=l2XcfLeTE2A",
+        "https://youtube.com/shorts/maSKnck5q1g",
+        "https://youtube.com/shorts/Ur6aD6_oITk",
+        "https://youtube.com/shorts/lifCtbBFbE8",
+        "https://youtube.com/shorts/LVAZFxAHypM",
+        "https://youtube.com/shorts/KVL-jKq3jTc",
+        "https://youtube.com/watch?v=TTn0iQPIQTA",
+        "https://youtube.com/shorts/AYEFN90-7N0",
+        "https://youtube.com/shorts/ummWiuQrOds"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/0OvV3ic5ukk",
@@ -6028,6 +6207,1267 @@
           "savedPublicVerified": true,
           "reopenedVerified": true,
           "originalFullPictureAndDurationPreserved": true
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-003.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (2).jpeg",
+          "sourceSHA256": "480a00172e3e5bcdcb96537f79bcce406952b2a1604ab47e3f3a96f02a69df0b",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.967699+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (3).jpeg",
+          "sourceSHA256": "8116003859aad6d7be833a14f588f6b601bd5e207f062f572ac31ddb5eb57125",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.968836+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-005.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (4).jpeg",
+          "sourceSHA256": "82d60a810e9f7cdb43c512950190faf77409e11c7733be87301eb39886e94272",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.969783+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-006.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27 (5).jpeg",
+          "sourceSHA256": "33e8acc78ab8f2ae65851c319856fea6b8629d571f331ede21802fc58911bee0",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.970978+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-007.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.27.jpeg",
+          "sourceSHA256": "b469dea34283f957f673185ee73dbda5b224923a8d32a7a3becfbe7f88ff7f31",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.971974+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-010.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31 (2).jpeg",
+          "sourceSHA256": "0bc86dcf952ffcd11b220f1a1115a326e67e6fc91cf44295c069a72aaa52741b",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.973231+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-011.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31 (3).jpeg",
+          "sourceSHA256": "1ad47fa920fdefc346fa7cf846179a1b6e7a8210bb282f99a824e2e505bb740b",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.974532+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-012.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.31.jpeg",
+          "sourceSHA256": "1196c8e1cb6e210cd433881a9dfe62249b486b1f465129fbb193d1daf38cd53e",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.976433+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-013.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.36 (1).jpeg",
+          "sourceSHA256": "d8b02b18e4c2ab086ee09c3def411c4370311e9554d9c7bd6cbe4d6fb8514d37",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.977767+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-014.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.36.jpeg",
+          "sourceSHA256": "eef5cc364ea11d27f43140e54438b06cbc0266d935728e04523a95f0f511c427",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.980011+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-016.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40 (2).jpeg",
+          "sourceSHA256": "b3fd76549fd56ae861818d23d99af44b46c67f9fed107eb1ce8a858dfb03da2e",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.981096+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-017.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40 (3).jpeg",
+          "sourceSHA256": "d247e2d718901fb4e781638cf0161cca4bdea7200acfdd6f7565c88ada065139",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.982288+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-018.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.40.jpeg",
+          "sourceSHA256": "d9a5564956a606c4f275f3620077fe5fb58227a533d39e6e5dadc51f326b37a5",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.984092+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-019.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.41 (1).jpeg",
+          "sourceSHA256": "b8b3f7a3d7a8b797a947de055998367e56afec02a878bea83a2744eb78c769c2",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.985294+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-020.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.41.jpeg",
+          "sourceSHA256": "a7a6d4911fd9a84080bc38c1414ae59e923fc98aa667e26c1cf231dc229a7029",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.987022+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-021.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.44 (1).jpeg",
+          "sourceSHA256": "563b532a1fda5678bd904e67c237c5d7498d5d4188550da51cb37eadf0fd2365",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.988411+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-022.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.44.jpeg",
+          "sourceSHA256": "acd1d1a30a6bb9feefcb2936d674a77319da1be8ba25225dc95a4495417f92c6",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.989533+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-025.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.45.jpeg",
+          "sourceSHA256": "78cd3d21d9f123328287bd757837bfe77f6de2f3b38480d1c1c270242abcae28",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.990556+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-026.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46 (1).jpeg",
+          "sourceSHA256": "43c280139186b7f4fbe996858bfe404b05a5011677ff24cd1b7e95e012d75eeb",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.993396+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-028.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46 (3).jpeg",
+          "sourceSHA256": "4ce4220b9a9307a079ce8a35654f7fa028fc025959ecfe183e459ce7a8be0481",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.995028+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-029.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.46.jpeg",
+          "sourceSHA256": "459e0a752a6e3556c5e3ded25d4c0c6c9e3ebf1725eb6185eb16026d68584f1b",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.996143+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-030.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.47 (1).jpeg",
+          "sourceSHA256": "0bd29721433a3a46e55b991cf83cabdbd6e35757d6608a2546c1a6c7d034c8f5",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:08.998088+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-033.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.19.47.jpeg",
+          "sourceSHA256": "443c132eaa9090d37e784bf4a7f0ca1a2554a377858117fefd1b397ba8f98824",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.000016+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-062.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.11 (2).jpeg",
+          "sourceSHA256": "e239e32bd1d3bbfde22228316319fda779ddc0760365c5b7f34a0ffcafa834d7",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.006393+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-068.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.13.jpeg",
+          "sourceSHA256": "2baf6599a5fc3988663ca9f160dda6f6b6c0c6c72242d77f51d5fdb1b50caf7e",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.008174+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-070.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.16.jpeg",
+          "sourceSHA256": "db6d60444b4a4bcd377e42cb955b682e896b04d1537e57fda775aab392aba001",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.010524+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-071.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.17.jpeg",
+          "sourceSHA256": "03e98d4c7bd53f6ba19f55440607a16303492d0461014d59fed22e5ec8b28d89",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.012437+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-072.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.18.jpeg",
+          "sourceSHA256": "d7a37a1d35491954f72fd8deda2fc00087b1c7ed21749be6045a08cbff498a24",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.015716+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-073.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (1).jpeg",
+          "sourceSHA256": "1d0c883ba28a566b3914bb6da1d47ed4383a57d1d721e4789b557a678c37a5ff",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.017232+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-076.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19 (4).jpeg",
+          "sourceSHA256": "d7afcc579b6b75991dd38a92a301b6a5abd643b172d234f02cc6299cb61e8b84",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.019759+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-077.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.19.jpeg",
+          "sourceSHA256": "004df7a946b1eca7bd7bcd22e384081f1c08bf81be99077a067de25ca63dc3e3",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.021596+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-078.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.22.jpeg",
+          "sourceSHA256": "081c9a43cf5bb39f44f40b051fb7b71dade0059936e29aae73a187e0ba9f2f66",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.023566+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-079.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 17.21.23 (1).jpeg",
+          "sourceSHA256": "f5cdd807a4217bea38a367a6760d2b15f9c3789c90c6db05f985c72b4848ead0",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.026173+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-085.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (5).jpeg",
+          "sourceSHA256": "cd9e27b29a245cf285eafbf1f218b81db0c3d73cd09637ba8cef7dd15f2a04c0",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.027477+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-086.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (6).jpeg",
+          "sourceSHA256": "f766dba38d7ab10a4f8fc1b5d856b97593d3ba109436a526385e8438384fd07c",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.028379+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-088.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.26 (8).jpeg",
+          "sourceSHA256": "043ba44530c0df4dc6f0b64f71c69e17b6c5c0e24b4517c46da386fb686b0d8d",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.029263+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-096.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (15).jpeg",
+          "sourceSHA256": "f9cd856640147eb69f543c1f145698ce8297af56a4d0031c33ceabe5e69da562",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.030634+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-107.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.29 (5).jpeg",
+          "sourceSHA256": "0da16dfa703cdf014a39e19f46f63f9a13d54ed774a8733bdc68428374f0ac26",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.032036+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-128.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (12).jpeg",
+          "sourceSHA256": "feaa8a9de1d632b4a9f655dffe61f23dcd7cfdcc84155d21dd07353084edd0cf",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.033511+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-129.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (13).jpeg",
+          "sourceSHA256": "03165a241e12cd15d499779a4186256ae1059c0174389c0b4e6cef68675a7f65",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.034362+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-130.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (14).jpeg",
+          "sourceSHA256": "1ffbf85f24e582cfd46219ce0600628dc6e529b88a5f973d2adab83ea25e5e8d",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.035761+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-131.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (15).jpeg",
+          "sourceSHA256": "ccdb17603c509b526a773c118799ce3e356c35a39117a07c1e47db12c38460cc",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.036913+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-132.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (16).jpeg",
+          "sourceSHA256": "69454d0674b009cf91ce71e825df07bc4cd32a06539047c3f1dd89b902a89edf",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.037861+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-133.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (17).jpeg",
+          "sourceSHA256": "9beced8907830629176fe54dd3027850f76a5b58533f96917cbc0f39d6fead11",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.038520+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-135.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (19).jpeg",
+          "sourceSHA256": "6dc6a78f365a95114b99358447fe946042b5e34435d842cba612c2a8eb772d08",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.039209+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-137.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (20).jpeg",
+          "sourceSHA256": "3f464b65fe54fdc26f545b1b07bf291cb08e64116db07933eb1612a617f2785c",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.040367+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-138.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (21).jpeg",
+          "sourceSHA256": "ef323c69eed41c7dde8acf8585e1514757dfe11d77dc3b49b091191002693d94",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.041607+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-142.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Image 2026-09-24 at 19.20.31 (25).jpeg",
+          "sourceSHA256": "941ade0ae529c22b8a0b2d319b66c8672dd82f07424cdc20f37a3418f5b32574",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.042473+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-105.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/טיול בעיר/WhatsApp Image 2026-09-24 at 19.20.29 (3).jpeg",
+          "sourceSHA256": "7f329d0e1ec1cba078cd8def6700e20738e5d2c20bbc006b4959745b9d1385cd",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.044823+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-109.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/טיול בעיר/WhatsApp Image 2026-09-24 at 19.20.29 (7).jpeg",
+          "sourceSHA256": "e7c2b0ea5c578a06ff450c792079c419ce0d8e44027113be607aba3328c9a8da",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.046389+00:00"
+        },
+        "/assets/czocha-boleslawiec/boleslawiec-old-town-111.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/טיול בעיר/WhatsApp Image 2026-09-24 at 19.20.29 (9).jpeg",
+          "sourceSHA256": "c54d2eea6da5c10fd6905450935195603a8e571d5a7c10c086efb205c07a8c01",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בעיר העתיקה בבולסלבייץ",
+            "en": "Another visit photograph: Bolesławiec market square and old town",
+            "pl": "Kolejne zdjęcie z wizyty: Rynek i stare miasto w Bolesławcu",
+            "de": "Weiteres Foto vom Besuch: Marktplatz und Altstadt von Bolesławiec",
+            "cs": "Další fotografie z návštěvy: Náměstí a historické centrum Bolesławce"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.047511+00:00"
+        },
+        "https://youtube.com/shorts/maSKnck5q1g": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.25.mp4",
+          "sourceSHA256": "a4683f5cc539b5a6e584db63a583cdf92f5dfabd0fa6f471ffdd48c355ea4b67",
+          "durationSeconds": 3.8,
+          "status": "public",
+          "visibility": "Public",
+          "reusedExistingYouTube": true,
+          "noNewUpload": true,
+          "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
+          "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://youtube.com/shorts/Ur6aD6_oITk": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.33.mp4",
+          "sourceSHA256": "3ea33fbefc5bea8fd2b65e8c74d22eb93df97551b8332861855150d98e016214",
+          "durationSeconds": 5.166667,
+          "status": "public",
+          "visibility": "Public",
+          "reusedExistingYouTube": true,
+          "noNewUpload": true,
+          "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
+          "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://youtube.com/shorts/lifCtbBFbE8": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.34.mp4",
+          "sourceSHA256": "eb747535e8e6aa7634f2d3dd919407d945d7b7ef0ab1f87168409a0031f1307e",
+          "durationSeconds": 4.7,
+          "status": "public",
+          "visibility": "Public",
+          "reusedExistingYouTube": true,
+          "noNewUpload": true,
+          "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
+          "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://youtube.com/shorts/LVAZFxAHypM": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.37.mp4",
+          "sourceSHA256": "ea4b2bb5d754e7be2a791ac69f0fb55219de3bc36d81deac346885a2052f07df",
+          "durationSeconds": 4.3,
+          "status": "public",
+          "visibility": "Public",
+          "reusedExistingYouTube": true,
+          "noNewUpload": true,
+          "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
+          "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://youtube.com/shorts/KVL-jKq3jTc": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.39.mp4",
+          "sourceSHA256": "34b24664caf3da3e3823a022bce08502dbc16cf235838aa5a17094c0c86645a4",
+          "durationSeconds": 11.653333,
+          "status": "public",
+          "visibility": "Public",
+          "reusedExistingYouTube": true,
+          "noNewUpload": true,
+          "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
+          "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://youtube.com/watch?v=TTn0iQPIQTA": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.42.mp4",
+          "sourceSHA256": "7ff710930515d34d2ab0e2d00abdc315670f009ee8d9d524fb1e73b2c300ba6e",
+          "durationSeconds": 4.6,
+          "status": "public",
+          "visibility": "Public",
+          "reusedExistingYouTube": true,
+          "noNewUpload": true,
+          "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
+          "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://youtube.com/shorts/AYEFN90-7N0": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.43.mp4",
+          "sourceSHA256": "5d5ceab70adf3f2cef29c966a655a99d00704bbd5903e6df05fbc00b60f10514",
+          "durationSeconds": 4.7,
+          "status": "public",
+          "visibility": "Public",
+          "reusedExistingYouTube": true,
+          "noNewUpload": true,
+          "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
+          "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://youtube.com/shorts/ummWiuQrOds": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.21.20.mp4",
+          "sourceSHA256": "8b75215bde260a3029a89329aeaa876eb1e3ec6a910a2cc2c3974ce272418367",
+          "durationSeconds": 2.7,
+          "status": "public",
+          "visibility": "Public",
+          "reusedExistingYouTube": true,
+          "noNewUpload": true,
+          "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
+          "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
         }
       }
     },
@@ -6838,7 +8278,10 @@
         "/assets/brzeg-enrichment/brzeg-castle-105.jpg",
         "/assets/brzeg-enrichment/brzeg-castle-106.jpg",
         "/assets/brzeg-enrichment/brzeg-castle-107.jpg",
-        "/assets/brzeg-enrichment/brzeg-castle-109.jpg"
+        "/assets/brzeg-enrichment/brzeg-castle-109.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-059.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-060.jpg",
+        "/assets/brzeg-enrichment/brzeg-castle-144.jpg"
       ],
       "videos": [],
       "guideVideos": {
@@ -7138,6 +8581,75 @@
         "/assets/brzeg-castle-facade.jpeg": {
           "sourceFile": "Brzeg/FORCODEX/03-facade-details.jpeg",
           "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-059.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.43.jpeg",
+          "sourceSHA256": "2c3caeda0b3cc5ec4ed797ac026ddefcd055133b026051134529f55e56ffa5b7",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת ברז׳ג",
+            "en": "Another visit photograph: Brzeg Castle",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Piastów Śląskich w Brzegu",
+            "de": "Weiteres Foto vom Besuch: Piastenschloss Brieg",
+            "cs": "Další fotografie z návštěvy: Zámek slezských Piastovců v Brzegu"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.052630+00:00"
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-060.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.31.06.jpeg",
+          "sourceSHA256": "21ec1e4b9926e9237cdb7a2fc6e1abfb31add43ce1e7557dca6beec38519179a",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת ברז׳ג",
+            "en": "Another visit photograph: Brzeg Castle",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Piastów Śląskich w Brzegu",
+            "de": "Weiteres Foto vom Besuch: Piastenschloss Brieg",
+            "cs": "Další fotografie z návštěvy: Zámek slezských Piastovců v Brzegu"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.055771+00:00"
+        },
+        "/assets/brzeg-enrichment/brzeg-castle-144.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/WhatsApp Image 2026-09-24 at 17.30.38 (3).jpeg",
+          "sourceSHA256": "f168029674953a5c8d1cc86046f897ad4b8533c7def62ee92730e319fadb078c",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת ברז׳ג",
+            "en": "Another visit photograph: Brzeg Castle",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Piastów Śląskich w Brzegu",
+            "de": "Weiteres Foto vom Besuch: Piastenschloss Brieg",
+            "cs": "Další fotografie z návštěvy: Zámek slezských Piastovců v Brzegu"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.057027+00:00"
         }
       }
     },
@@ -7312,7 +8824,9 @@
         "/assets/brzeg-enrichment/brzeg-holy-cross-church-086.jpg",
         "/assets/brzeg-enrichment/brzeg-holy-cross-church-087.jpg",
         "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg",
-        "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg"
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-055.jpg",
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg"
       ],
       "videos": [
         "/assets/brzeg-holy-cross-interior.mp4"
@@ -7369,6 +8883,52 @@
         "/assets/brzeg-holy-cross-interior.mp4": {
           "sourceFile": "Brzeg/FORCODEX/VIDEO-church-interior.mp4",
           "original": true
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-055.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.42 (1).jpeg",
+          "sourceSHA256": "7d8a577f24f172e9f49bac5a457d39a02ab5c296ae0e17fa18de6b6b08b595e0",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בכנסיית הצלב הקדוש בברז׳ג",
+            "en": "Another visit photograph: Holy Cross Church, Brzeg",
+            "pl": "Kolejne zdjęcie z wizyty: Kościół Podwyższenia Krzyża Świętego w Brzegu",
+            "de": "Weiteres Foto vom Besuch: Kreuzerhöhungskirche in Brieg",
+            "cs": "Další fotografie z návštěvy: Kostel Povýšení svatého Kříže v Brzegu"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.048626+00:00"
+        },
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.42.jpeg",
+          "sourceSHA256": "7a7592a2b721c0633b33e52e6db18cdf0aa789c1ba300db1360c7ebab06d6ccb",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בכנסיית הצלב הקדוש בברז׳ג",
+            "en": "Another visit photograph: Holy Cross Church, Brzeg",
+            "pl": "Kolejne zdjęcie z wizyty: Kościół Podwyższenia Krzyża Świętego w Brzegu",
+            "de": "Weiteres Foto vom Besuch: Kreuzerhöhungskirche in Brieg",
+            "cs": "Další fotografie z návštěvy: Kostel Povýšení svatého Kříže v Brzegu"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.050568+00:00"
         }
       }
     },
@@ -11716,7 +13276,34 @@
         "/assets/czocha-boleslawiec/czocha-castle-299.jpg",
         "/assets/czocha-boleslawiec/czocha-castle-300.jpg",
         "/assets/czocha-boleslawiec/czocha-castle-302.jpg",
-        "/assets/czocha-boleslawiec/czocha-castle-303.jpg"
+        "/assets/czocha-boleslawiec/czocha-castle-303.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-021.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-025.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-027.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-049.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-051.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-053.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-054.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-057.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-066.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-071.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-077.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-084.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-117.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-123.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-202.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-207.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-211.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-217.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-218.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-244.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-248.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-261.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-264.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-268.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-282.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-285.jpg",
+        "/assets/czocha-boleslawiec/czocha-castle-294.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/L1Z0nIxGFsU",
@@ -12784,6 +14371,627 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-021.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.40 (1).jpeg",
+          "sourceSHA256": "8dfb2a1712d7b6291ef88ed6f9638ab5007ad747ceaeb15bb99ce18f72b148a0",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.058650+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-025.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.41 (1).jpeg",
+          "sourceSHA256": "72635bfe2b0a5167b32b75a400de4d6b98472b00fb60997b1014b9d4411c9b27",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.060528+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-027.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.41.jpeg",
+          "sourceSHA256": "61b79c721c22ccbfc83b4fa25c1fa97ededa0b3e5090e48704a95679e35e297b",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.062512+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-049.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50 (1).jpeg",
+          "sourceSHA256": "36f8de78b6237fceecf6bdf72c40fd5d9b4a9ac5ee49685541b8f456c6e7aa7e",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.064013+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-051.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.50 (3).jpeg",
+          "sourceSHA256": "3c84112b5a9342e462056ee8e661394144a5393b8cbb8b535f8c969ce41fa00d",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.066361+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-053.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (1).jpeg",
+          "sourceSHA256": "5d0b778f43d15ac2e5fe9853b08bd28bb4da36480efe0194ec13be2b052657b3",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.067692+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-054.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (2).jpeg",
+          "sourceSHA256": "63ae0a858073bc79341435d5cf270151de357008af48ca7f3311d8dad9630ae2",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.069951+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-057.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.21.51 (5).jpeg",
+          "sourceSHA256": "171abaa3b43be2fe2f6f397fb6f570eeb7452d8dd8be0a3d77489cc262672f35",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.071390+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-066.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.26 (1).jpeg",
+          "sourceSHA256": "4704fee2cefb5209dbd49f021c896c7f21633dc4eecffc8d0944439ce0dcd491",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.073394+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-071.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.27.jpeg",
+          "sourceSHA256": "c04580ad46387d2dd45bf844c4e5f9afe015a2cf60ec794540ef77827c186bc7",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.074789+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-077.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.31 (1).jpeg",
+          "sourceSHA256": "bbc5b994bb56866f09905d29f6b0c5b68f9b88d12b294b6f31db7e24a1036e5b",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.076747+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-084.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.33.jpeg",
+          "sourceSHA256": "098224bed54ec5226abb0a24c45fe79a7a0eafb0db9ccb240d80bb5421497eee",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.077987+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-117.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.17.jpeg",
+          "sourceSHA256": "3c2790ce427c1568b489ab9496802569e0318fcbd15abef06ec69f4a424d727d",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.080776+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-123.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (29).jpeg",
+          "sourceSHA256": "1634907bd2b600a14ed77da3c06a5d4766c590607c2db51d4ea5a831101cede7",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.083132+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-202.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.15.22 (4).jpeg",
+          "sourceSHA256": "141badfcfecc3dc02e9c931781a61c7dfb27e7a4ebc19607df3fa2cdec0312ba",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.084895+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-207.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.19.57 (1).jpeg",
+          "sourceSHA256": "31664ec7b6648cf45661a5bea93e7a5c63a5ae4e371f9c1fae1b85f0b397a842",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.085862+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-211.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.23.jpeg",
+          "sourceSHA256": "7d825861bcfd19fec178a04ddb9c74aaf1997d592b16ac45f31c5ffa5a10bc3f",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.086672+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-217.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (14).jpeg",
+          "sourceSHA256": "c448b5e78acd0371409956c17df0d263dba622b9ee140923c992af27bcd1752c",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            900,
+            1600
+          ],
+          "assetDimensions": [
+            900,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.087280+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-218.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.20.25 (15).jpeg",
+          "sourceSHA256": "0507bd53f46a5dc6b9be74757311155b2f418736c5bd815478f4a749f36f2a98",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            900,
+            1600
+          ],
+          "assetDimensions": [
+            900,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.087934+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-244.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.21 (1).jpeg",
+          "sourceSHA256": "fa4f009a09b7b24d1a072c888d065fa0acc3027211540bf1839f6668a912f49c",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.088766+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-248.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.22 (1).jpeg",
+          "sourceSHA256": "9b166b9bbc8d87062f8fb8d10a11869a7a1c8c4935fb000577f6058f071f1d1a",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.089592+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-261.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27 (2).jpeg",
+          "sourceSHA256": "7eca0e103cbbabd47b2db6280bfee2cb915aeb3f437e4eeceb9ac7b1b08468b5",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.090505+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-264.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.27.jpeg",
+          "sourceSHA256": "d3da50c4f76e46e8d86922a85d8c1d5f2d68edc1b097fea1d2e9021a61955326",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.091940+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-268.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.28 (4).jpeg",
+          "sourceSHA256": "a2ed17a470f10e71186c8cf0e1e0fc90a9eb482024d2bafec5023184d3c63e7f",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.092718+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-282.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.31 (4).jpeg",
+          "sourceSHA256": "d18e65af89928ee0d1e0b0b6109866451a799229d6d1307ae013b1b940ba60bc",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.093387+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-285.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.32 (2).jpeg",
+          "sourceSHA256": "7e6436d608f0a212c9a315246fcbaa1c880c5a414a500b76e82437a10771d1b2",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.094047+00:00"
+        },
+        "/assets/czocha-boleslawiec/czocha-castle-294.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.21.34 (1).jpeg",
+          "sourceSHA256": "6a04292abd20388c78076dd38f46d68e7195aa3f20a38addd83049cbe753d3d6",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בטירת צ׳וחה",
+            "en": "Another visit photograph: Czocha Castle and overnight stay",
+            "pl": "Kolejne zdjęcie z wizyty: Zamek Czocha i nocleg w zamku",
+            "de": "Weiteres Foto vom Besuch: Burg Czocha mit Übernachtung",
+            "cs": "Další fotografie z návštěvy: Hrad Czocha s přenocováním"
+          },
+          "sourceDimensions": [
+            1600,
+            1200
+          ],
+          "assetDimensions": [
+            1600,
+            1200
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.095050+00:00"
         }
       }
     },
@@ -27952,7 +30160,10 @@
       "photos": [
         "/assets/czocha-boleslawiec/lesnianska-dam-093.jpg",
         "/assets/czocha-boleslawiec/lesnianska-dam-096.jpg",
-        "/assets/czocha-boleslawiec/lesnianska-dam-126.jpg"
+        "/assets/czocha-boleslawiec/lesnianska-dam-126.jpg",
+        "/assets/czocha-boleslawiec/lesnianska-dam-095.jpg",
+        "/assets/czocha-boleslawiec/lesnianska-dam-125.jpg",
+        "/assets/czocha-boleslawiec/lesnianska-dam-127.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/uFeL9yIz0VM"
@@ -27984,6 +30195,75 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"
+        },
+        "/assets/czocha-boleslawiec/lesnianska-dam-095.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 17.23.36 (4).jpeg",
+          "sourceSHA256": "3518b3ca1f0b337eb346e89793a259cfeeea0b29dbab3996bdb63c50e9954876",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בסכר לשנייה",
+            "en": "Another visit photograph: Leśniańska Dam and reservoir",
+            "pl": "Kolejne zdjęcie z wizyty: Zapora Leśniańska i jezioro",
+            "de": "Weiteres Foto vom Besuch: Marklissa-Talsperre und Stausee",
+            "cs": "Další fotografie z návštěvy: Leśniańská přehrada a nádrž"
+          },
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.079091+00:00"
+        },
+        "/assets/czocha-boleslawiec/lesnianska-dam-125.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (2).jpeg",
+          "sourceSHA256": "b3731d964bb224d1e685d7b1fd3bc5ae1047e60d69c2977ba4498d992e1abe49",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בסכר לשנייה",
+            "en": "Another visit photograph: Leśniańska Dam and reservoir",
+            "pl": "Kolejne zdjęcie z wizyty: Zapora Leśniańska i jezioro",
+            "de": "Weiteres Foto vom Besuch: Marklissa-Talsperre und Stausee",
+            "cs": "Další fotografie z návštěvy: Leśniańská přehrada a nádrž"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.082277+00:00"
+        },
+        "/assets/czocha-boleslawiec/lesnianska-dam-127.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Image 2026-09-24 at 19.12.19 (4).jpeg",
+          "sourceSHA256": "58361d840c1b7f3d4bfb1a884929009804770ed0906f81e475229a96d7ff1559",
+          "originalFullPicturePreserved": true,
+          "original": true,
+          "alt": {
+            "he": "צילום נוסף מביקור בסכר לשנייה",
+            "en": "Another visit photograph: Leśniańska Dam and reservoir",
+            "pl": "Kolejne zdjęcie z wizyty: Zapora Leśniańska i jezioro",
+            "de": "Weiteres Foto vom Besuch: Marklissa-Talsperre und Stausee",
+            "cs": "Další fotografie z návštěvy: Leśniańská přehrada a nádrž"
+          },
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
+          "preparedAt": "2026-10-23T21:31:09.084011+00:00"
         }
       }
     },

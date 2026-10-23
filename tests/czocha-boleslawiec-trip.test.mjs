@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
+const restoration=JSON.parse(readFileSync('data/regional-full-source-restoration-oct24-preservation.json'));
 const load=()=>{const window={};for(const file of ['data/place-catalog.js','data/lower-silesia-excursions.js'])runInNewContext(readFileSync(file,'utf8'),{window,console});return window;};
 test('Fourth excursion preserves castle overnight and breakfast before the morning dam walk',()=>{
  const w=load(),trip=w.WROC_LOWER_SILESIA_EXCURSIONS.excursions[3];
@@ -16,7 +17,7 @@ test('Fourth excursion preserves castle overnight and breakfast before the morni
 });
 test('New route photos are traceable, unique, unmodified optimized assets with family material held',()=>{
  const w=load(),proof=JSON.parse(readFileSync('data/czocha-boleslawiec-media-provenance.json','utf8'));
- assert.equal(proof.familyPhotosAllowed,false);assert.ok(proof.held.length>0);assert.ok(proof.photos.length>0);assert.equal(proof.photos.length,['czocha-castle','lesnianska-dam','boleslawiec-old-town','boleslawiec-ceramics-museum'].reduce((n,id)=>n+w.WROC_CATALOG.getPlace(id).media.photos.filter(src=>!src.includes("/today-source-refresh-20261021/boleslawiec-ceramics-")).length,0));
+ assert.equal(proof.familyPhotosAllowed,false);assert.ok(proof.held.length>0);assert.ok(proof.photos.length>0);assert.equal(proof.photos.length+restoration.photos.filter(p=>['czocha-castle','lesnianska-dam','boleslawiec-old-town','boleslawiec-ceramics-museum'].includes(p.canonicalId)).length,['czocha-castle','lesnianska-dam','boleslawiec-old-town','boleslawiec-ceramics-museum'].reduce((n,id)=>n+w.WROC_CATALOG.getPlace(id).media.photos.filter(src=>!src.includes("/today-source-refresh-20261021/boleslawiec-ceramics-")).length,0));
  assert.equal(new Set(proof.photos.map(p=>p.sourceSHA256)).size,proof.photos.length);
  const held=new Set(proof.held.map(p=>p.sha256));
  for(const photo of proof.photos){assert.equal(held.has(photo.sourceSHA256),false);assert.ok(w.WROC_CATALOG.getPlace(photo.placeId).media.photos.includes(photo.asset));assert.equal(createHash('sha256').update(readFileSync(photo.asset.slice(1))).digest('hex'),photo.assetSHA256);}
@@ -25,19 +26,19 @@ test('New route photos are traceable, unique, unmodified optimized assets with f
 test('All sixteen visit clips use verified Public YouTube hosting and no guide is added in stage one',()=>{
  const w=load(),proof=JSON.parse(readFileSync('data/czocha-boleslawiec-visit-provenance.json','utf8')),registry=JSON.parse(readFileSync('data/youtube-media-migration.json','utf8'));
  assert.equal(proof.visits.length,16);assert.equal(new Set(proof.visits.map(v=>v.youtube)).size,16);assert.equal(proof.guidesDeferred,true);
- for(const v of proof.visits){assert.equal(v.visibility,'Public');assert.equal(registry[v.registryKey].status,'public');assert.equal(registry[v.registryKey].youtube,v.youtube);assert.equal(w.WROC_CATALOG.getPlace(v.place).media.videos.includes(v.youtube),v.websiteIncluded!==false);assert.match(v.youtube,/^https:\/\/(youtube\.com\/(?:shorts\/|watch\?v=)|youtu\.be\/)/);}
+ for(const v of proof.visits){assert.equal(v.visibility,'Public');assert.equal(registry[v.registryKey].status,'public');assert.equal(registry[v.registryKey].youtube,v.youtube);assert.equal(w.WROC_CATALOG.getPlace(v.place).media.videos.includes(v.youtube),v.websiteIncluded!==false||restoration.reusedVisits.some(r=>r.youtube===v.youtube));assert.match(v.youtube,/^https:\/\/(youtube\.com\/(?:shorts\/|watch\?v=)|youtu\.be\/)/);}
 });
 
-test('Boleslawiec galleries retain distinct views instead of repeated camera bursts',()=>{
+test('Boleslawiec historical curation stays documented while all authorized distinct views are restored',()=>{
  const w=load(),curation=JSON.parse(readFileSync('data/boleslawiec-photo-curation.json','utf8'));
  assert.equal(curation.originalsPreserved,true);assert.equal(curation.excluded.length,56);
- for(const [id,count] of Object.entries(curation.after))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,count+(id==='boleslawiec-old-town'?3:0));
- for(const group of curation.groups){const place=w.WROC_CATALOG.getPlace(group.placeId);assert.ok(group.retained.length);for(const asset of group.retained)assert.ok(place.media.photos.includes(asset));for(const asset of group.excluded){assert.equal(place.media.photos.includes(asset),false);assert.equal(existsSync(asset.slice(1)),false);}}
- assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.videos.length,5);assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-ceramics-museum').media.videos.length,1);
+ for(const [id,count] of Object.entries(curation.after))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,restoration.expectedPhotoCounts[id]);
+ for(const group of curation.groups){const place=w.WROC_CATALOG.getPlace(group.placeId);assert.ok(group.retained.length);for(const asset of group.retained)assert.ok(place.media.photos.includes(asset));for(const asset of group.excluded){assert.ok(restoration.photos.some(r=>r.asset===asset));assert.equal(place.media.photos.includes(asset),true);assert.equal(existsSync(asset.slice(1)),true);}}
+ assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.videos.length,13);assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-ceramics-museum').media.videos.length,1);
 });
 
-test('Repeated Boleslawiec visit clips remain preserved on YouTube but outside the curated gallery',()=>{
+test('All distinct previously Public Boleslawiec visits return to the same canonical gallery without reupload',()=>{
  const w=load(),c=JSON.parse(readFileSync('data/boleslawiec-video-curation.json','utf8')),gallery=w.WROC_CATALOG.getPlace(c.placeId).media.videos;
- assert.equal(c.youTubePublicUploadsPreserved,true);assert.equal(c.originalsPreserved,true);assert.equal(c.excluded.length,8);assert.equal(gallery.length,5);
- for(const r of c.retained)assert.ok(gallery.includes(r.youtube));for(const r of c.excluded)assert.equal(gallery.includes(r.youtube),false);
+ assert.equal(c.youTubePublicUploadsPreserved,true);assert.equal(c.originalsPreserved,true);assert.equal(c.excluded.length,8);assert.equal(gallery.length,13);
+ for(const r of c.retained)assert.ok(gallery.includes(r.youtube));for(const r of c.excluded){assert.ok(restoration.reusedVisits.some(v=>v.youtube===r.youtube));assert.equal(gallery.includes(r.youtube),true);}
 });
