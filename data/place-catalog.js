@@ -13005,7 +13005,8 @@
         "/assets/round-other-20261023/food-domek-nad-fosa-wroclaw-49.jpg"
       ],
       "videos": [
-        "https://www.youtube.com/watch?v=3z4LvIz8190"
+        "https://www.youtube.com/watch?v=3z4LvIz8190",
+        "https://youtube.com/shorts/wdCORtqPNig"
       ],
       "metadata": {
         "/assets/cafes-alley-refresh-20261020/domek-nad-fosa-refresh-01.jpg": {
@@ -13116,6 +13117,37 @@
           "familyExceptionApplied": false,
           "incidentalPublicVisitors": true,
           "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "https://youtube.com/shorts/wdCORtqPNig": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/DOMEK NAD FOSA/WhatsApp Video 2026-10-05 at 18.25.38.mp4",
+          "sourceSHA256": "6a0e4c74ae239aa5beef5301b5b8fcf9e02da4e8122cf29917f402d64d345b5b",
+          "reusedExistingYouTubeId": "wdCORtqPNig",
+          "durationSeconds": 2.366667,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "notices": "—",
+          "checkedAt": "2026-10-23T11:59:32.642470+00:00",
+          "verificationEvidence": "outputs/canonical-enrichment-round-2026-10-22/domek-menu-existing-Public-studio-details.txt",
+          "title": {
+            "he": "תפריט דומק נד פוסה כפי שתועד בביקור",
+            "en": "Domek nad Fosą menu recorded during our visit",
+            "pl": "Menu Domku nad Fosą zarejestrowane podczas wizyty",
+            "de": "Speisekarte von Domek nad Fosą beim Besuch",
+            "cs": "Jídelní lístek Domku nad Fosą z návštěvy"
+          },
+          "alt": {
+            "he": "תפריט דומק נד פוסה כפי שתועד בביקור",
+            "en": "Domek nad Fosą menu recorded during our visit",
+            "pl": "Menu Domku nad Fosą zarejestrowane podczas wizyty",
+            "de": "Speisekarte von Domek nad Fosą beim Besuch",
+            "cs": "Jídelní lístek Domku nad Fosą z návštěvy"
+          },
+          "historicalVisitMenuOnly": true,
+          "associationCorrection": "Previously attached to Roma; original menu reads Domek nad Fosą. Same exact source SHA exists in both folders. Correct site association only; YouTube original/title/privacy left unchanged.",
+          "originalFullPictureAndDurationPreserved": true,
+          "reusedPublicVideoNoNewUpload": true
         }
       }
     },
@@ -27631,7 +27663,6 @@
       ],
       "videos": [
         "/assets/lodziarnia-roma-visit-01.mp4",
-        "/assets/lodziarnia-roma-visit-02.mp4",
         "/assets/lodziarnia-roma-visit-03.mp4",
         "/assets/lodziarnia-roma-visit-04.mp4"
       ],
@@ -27677,23 +27708,23 @@
           "assetSHA256": "5968b0b035789eec00e37d53dfbfdbd51c7c5cb8b60a8c623231d560389f1e46",
           "originalFullPicturePreserved": true,
           "alt": {
-            "he": "התפריט כפי שצולם בביקור, לא מחירים עדכניים",
-            "en": "Menu photographed during the visit; prices are historical",
-            "pl": "Menu sfotografowane podczas wizyty; ceny historyczne",
-            "de": "Speisekarte vom Besuch; historische Preise",
-            "cs": "Jídelní lístek z návštěvy; historické ceny"
+            "he": "שלט המספר על תולדות גלידריית רומא",
+            "en": "Plaque describing the history of Lodziarnia Roma",
+            "pl": "Tablica opisująca historię lodziarni Roma",
+            "de": "Tafel zur Geschichte der Eisdiele Roma",
+            "cs": "Tabule o historii zmrzlinárny Roma"
           },
           "title": {
-            "he": "התפריט כפי שצולם בביקור, לא מחירים עדכניים",
-            "en": "Menu photographed during the visit; prices are historical",
-            "pl": "Menu sfotografowane podczas wizyty; ceny historyczne",
-            "de": "Speisekarte vom Besuch; historische Preise",
-            "cs": "Jídelní lístek z návštěvy; historické ceny"
+            "he": "שלט המספר על תולדות גלידריית רומא",
+            "en": "Plaque describing the history of Lodziarnia Roma",
+            "pl": "Tablica opisująca historię lodziarni Roma",
+            "de": "Tafel zur Geschichte der Eisdiele Roma",
+            "cs": "Tabule o historii zmrzlinárny Roma"
           },
           "familyForeground": false,
           "familyExceptionApplied": false,
           "incidentalPublicVisitors": true,
-          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+          "selectionReason": "Distinct original photograph of the venue-history plaque; source text identifies it as history, not a menu"
         },
         "/assets/round-other-20261023/food-lodziarnia-roma-69.jpg": {
           "original": true,
@@ -58904,15 +58935,15 @@
   "ATO RAMEN Wrocław": "ato-ramen",
   "Ato Ramen WRO": "ato-ramen",
   "אטו ראמן": "ato-ramen",
-  "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
-  "Domek nad Fosa": "domek-nad-fosa-wroclaw",
-  "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
   "CAFE FC": "fc-caffe-kuznicza",
   "Cafe FC": "fc-caffe-kuznicza",
   "FC CAFFE": "fc-caffe-kuznicza",
   "FC Caffe": "fc-caffe-kuznicza",
   "קפה אף סי": "fc-caffe-kuznicza",
   "קפה אפ סי": "fc-caffe-kuznicza",
+  "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
+  "Domek nad Fosa": "domek-nad-fosa-wroclaw",
+  "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
