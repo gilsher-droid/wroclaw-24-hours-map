@@ -166,11 +166,11 @@
   "id": "jawor-karpacz-jelenia-gora-day-trip",
   "slug": "jawor-karpacz-wang-jelenia-gora",
   "title": {
-    "he": "יום טיול 3: יאבור, קרפץ, וואנג וילניה גורה",
-    "en": "Day trip 3: Jawor, Karpacz, Wang and Jelenia Góra",
-    "pl": "Wycieczka 3: Jawor, Karpacz, Wang i Jelenia Góra",
-    "de": "Tagesausflug 3: Jawor, Karpacz, Wang und Jelenia Góra",
-    "cs": "Výlet 3: Jawor, Karpacz, Wang a Jelení Hora"
+    "he": "יאבור, קרפץ, וואנג וילניה גורה",
+    "en": "Jawor, Karpacz, Wang and Jelenia Góra",
+    "pl": "Jawor, Karpacz, Wang i Jelenia Góra",
+    "de": "Jawor, Karpacz, Wang und Jelenia Góra",
+    "cs": "Jawor, Karpacz, Wang a Jelení Hora"
   },
   "summary": {
     "he": "מוורוצלב לכנסיית השלום ולמרכז יאבור, ממשיכים לקרפץ, עוצרים בנפרד בכנסיית וואנג ומסיימים בילניה גורה לפני החזרה.",
