@@ -78,8 +78,7 @@
     "31d4b072eabbfdd52b314f3fcb9779edc981dc0cdbb943f1e4c95dbe5acccd82",
     "c0214836ac897c0238f575d78e75b5d26b6e0b71a82c7ab4b0bb3ea1cd18e610",
     "ec31ef35af5f12cb11db692097bca4463f7761760c36249a9c97320225618ced",
-    "bf6d4e3fa02d23533a041e8606c03d328f4f75cd0dd1496f1babfb8012266ff5",
-    "bdb6d64d3bc9845c1ff11c9432f68761ed6229fe9bed88f6b98206169df02108"
+    "bf6d4e3fa02d23533a041e8606c03d328f4f75cd0dd1496f1babfb8012266ff5"
   ],
   "visitClip": {
     "id": "bEKAP8m_KoI",
@@ -101,5 +100,34 @@
     ],
     "approval": "youtube-three-files-approval.json",
     "sourceManifest": "visit-upload-manifest.json"
+  },
+  "historicalPrivacyExcludedSourceHashes": [
+    "bb6281f8bb5aa1f5a44aeeaa05542c246941c96a90cb4d59ab0bf8d3ff0613d3",
+    "3525dff7fedf1bb5338b967ace5342b3e471b53009506f1c4c8faecb07f2e5fb",
+    "f8aa43071182aea39ac9f605bb0d7beec6c6f2528bc1f5a88055649acfc10b01",
+    "43938b8b506d00afa177bc4b50ea48b1086629f23b5f5594681cf827f1c66899",
+    "77389d266c3af2c34484a9bcaf8e1c0746ce7541d38e83eec5177fdea705ba39",
+    "5fb0cab48ed958646d7a335d6eb95ed9dad3456dde6fd2a7853ae87583700ffc",
+    "89f703dfca247ee09ee6d3a784fc0d15a59c76458b5f8aa88a168b98ab687186",
+    "4736cfd4f6bd04b813436eb368d7875a4ea8189b095dc435233d929f9536a824",
+    "1e491d56c262a8fcb0dc52881524141b1cd21f4aab889f92395e38458a29e027",
+    "06d135660a428172279c8c4529ca6c51f51280520226e357c0e11d2889d33d74",
+    "6cad8a26df39b741bdf47f77e58da94b1356c77ad60541d58025e9b45e18773b",
+    "31d4b072eabbfdd52b314f3fcb9779edc981dc0cdbb943f1e4c95dbe5acccd82",
+    "c0214836ac897c0238f575d78e75b5d26b6e0b71a82c7ab4b0bb3ea1cd18e610",
+    "ec31ef35af5f12cb11db692097bca4463f7761760c36249a9c97320225618ced",
+    "bf6d4e3fa02d23533a041e8606c03d328f4f75cd0dd1496f1babfb8012266ff5",
+    "bdb6d64d3bc9845c1ff11c9432f68761ed6229fe9bed88f6b98206169df02108"
+  ],
+  "resolvedIncidentalVisitSourceHashes": [
+    "bdb6d64d3bc9845c1ff11c9432f68761ed6229fe9bed88f6b98206169df02108"
+  ],
+  "classificationCorrection": {
+    "sourceSHA256": "bdb6d64d3bc9845c1ff11c9432f68761ed6229fe9bed88f6b98206169df02108",
+    "priorDecision": "Doubtful visit clip held under older default uncertainty policy",
+    "currentDecision": "Full source sampled: terrace approach with incidental public patrons, no posed personal/family portrait. Public visitors are permitted under later user policy; no family exception inferred.",
+    "visualEvidence": "outputs/canonical-enrichment-round-2026-10-22/cafe-berg-additional-visit-review.json",
+    "specificPublicationApproval": "call_94ff36694ba74b848e7d54b668aa136a",
+    "historicalExclusionListPreserved": true
   }
 }

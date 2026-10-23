@@ -39,7 +39,7 @@
     "brzeg-st-nicholas-church": "8409982d104f52f49d2fe7c481121290361ec1cc4656ad590c5bc1293c1ca5e8",
     "brzeg-town-hall": "2013b6d4e0b4c2b3f95942d3d43fa9ef354085f5c10528d1902ee203442a4262",
     "bulka": "b53fb7e75d9318c1edf66d3ba828b0eb1e05a64cda416cd20db3741dbc0f9a6f",
-    "cafe-berg-wroclaw": "037900d6afc996c166191a040213dc3682496da8ed390f659c571b649a2584d8",
+    "cafe-berg-wroclaw": "c0e6d5d77d6765e63b7e0d4c0ed79febb53b641aaba9971d295945c4a9a1bb17",
     "cafe-targowa": "688a4c2b3dcf905f67ef83a715ebbbdd2448d29c5b1e013e1fe6a747121a9887",
     "cathedral": "bde5f330deba0e2d64fc8396b13e3237194cc946b25c6f61ff3bbcfa47398919",
     "central": "b403bff271da9ef512863e89dd92f4e74d580dd329ef0b49c42d450ebd0e1de7",
@@ -153,7 +153,7 @@
     "pan-precel": "1f5c61841d2b7ebb7b360e966e6d136c0f137c504969abee29c2abeb1ba3d182",
     "pan-precel-express-grunwaldzki": "89933580516a92201badb564785f268fac265c78a8992ef9f1d03e46dbfce0bb",
     "pan-precel-olawska": "e4d717613a1a3f77d56cb8d81dd8f9b3d6d6f1d60ca069789be80961f59b05a7",
-    "pan-tadeusz-museum": "4179dae528f1abb7acaf4d8cdcd75e5f4aa62f0d0963c8d227e44c16a114f696",
+    "pan-tadeusz-museum": "af429749437254e5d3b268eaf5dac8944d5309f0625fa01c4059abff367e77f7",
     "panorama": "0145d65f6615a85d6d4544b63473a5f66a54e40ca3bfda51c128f5d179b7c3d8",
     "papa": "ad409f32908aaa868cc54efc4f74bfa444404ea3a34c011362f18d45053f3180",
     "park-szczytnicki-wroclaw": "b45e539a9bfa9d1960f72119ebfcc9132e3bd9e481278b6154c7236841d8e7a7",
@@ -177,7 +177,7 @@
     "restauracja-tarasowa": "e785d55195f2dc252389e118290068e49c7d43f697f349a57e38fffcfdb35ad5",
     "royal-palace-wroclaw": "336e68deeb34414e2d83c23298040bcaad216d259b18eff3cf31c209653fc502",
     "rozowa-krowa-milk-bar-wroclaw": "02706f681ae3f2ff722558d71cdd76e7c2c3f2fff559d077e112d88179251fe0",
-    "rynek": "9b3471466592b9d07afb402bdf9334f4039a10d696ec71837c548ba45af11ad9",
+    "rynek": "c28b25fd51f827ee95b47657a7e990c73c876f72d9078d874e0891f5f1952ca1",
     "sarah": "3672a3597199c509f39407157d0695f76dd564da2238542ce20e051f857a99aa",
     "sic-gallery-bwa-wroclaw": "96799127adf2f67452fbcae101efb8977eec3a7b51ec7ba25e07c5453f64dade",
     "slodowa": "7d00dcaec3d48e6f3f6cc1e47a213b918ce19707ee575705ace0f5ed9c70b524",
@@ -240,7 +240,7 @@
     "zamek-topacz": "69eca3dc99f98275b62a216ff22db26766372a977677e3937d7422b420107d93",
     "zenka": "eed8a3a01e27d47e8aad0df6805abf2cd0e200fa94b1c73750bfb210d208077d",
     "zoo-wroclaw": "2be35a57fc9927b285e55432ea0ff18fd460b0dff822e3d7f1002a4bd1a63d42",
-    "zyjnia-bwa-wroclaw": "e95387f20a59a9cb195a8d4b623e8d328fdfefa51690550b01e02f3c7312d06a"
+    "zyjnia-bwa-wroclaw": "f4c65f2bde60b1262829d749cb7143f12cd4af4f341555b7096dc69b438360be"
   },
   "places": {
     "wuwa-estate": {
@@ -378,7 +378,9 @@
           "/assets/wuwa-estate-visit-04.mp4",
           "/assets/wuwa-estate-visit-05.mp4",
           "/assets/wuwa-estate-visit-06.mp4",
-          "/assets/wuwa-estate-visit-07.mp4"
+          "/assets/wuwa-estate-visit-07.mp4",
+          "https://www.youtube.com/watch?v=cZOlImJBx5U",
+          "https://www.youtube.com/watch?v=VCg344f4pDg"
         ],
         "guideVideos": {
           "he": "https://youtube.com/shorts/tEbmB6OWe90",
