@@ -56,5 +56,16 @@
       "videos": 1
     },
     "socialAudit": "data/mala-czarna-social-audit.json"
+  },
+  "laterFullSourceRefresh": {
+    "date": "2026-10-23",
+    "selectedAdditionalPhotos": 7,
+    "totalPhotos": 12,
+    "sourceSelection": "outputs/canonical-enrichment-round-2026-10-22/next-five-venues-full-source-selection.json",
+    "supersedesReasons": [
+      "Near duplicate counter view",
+      "Patrons dominate other views"
+    ],
+    "reason": "User later permits people/passersby; full visual review shows ordinary ordering, staff and laptop use, no posed-family proof. Distinct framing retained under rule30. Earlier decisions retained as history."
   }
 }

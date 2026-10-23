@@ -283,3 +283,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Full new photo galleries on the existing cafe map cards; retain social/guide descriptors.
 (function(){for(const id of ["czarna-magia", "india-concept-wroclaw", "mania-al-taglio-kuznicza", "stary-mlyn-rynek-wroclaw", "pan-precel"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;r.videos=p.media.videos;window.WROC_LOCATION_MEDIA[id]=r;}})();
+
+// Expose complete cafe/mall galleries through existing card actions; retain resource descriptors.
+(function(){for(const id of ["mala-czarna-paderewskiego", "pasaz", "pizza-si", "woosabi-swidnicka-wroclaw"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;window.WROC_LOCATION_MEDIA[id]=r;}})();
