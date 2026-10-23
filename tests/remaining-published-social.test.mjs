@@ -42,10 +42,10 @@ test('Nine refreshed places have ten exact language/platform routes and preserve
   }
   const lake = catalog.getPlace('morskie-oko-wroclaw');
   assert.equal(lake.media.photos.length, 35);
-  assert.equal(lake.media.videos.length, 8);
+  assert.equal(lake.media.videos.length, 10);
   assert.equal(Object.keys(lake.media.guideVideos).length, 2);
   const stadium = catalog.getPlace('stadion-olimpijski-wroclaw');
   assert.equal(stadium.media.photos.length, 20);
-  assert.equal(stadium.media.videos.length, 6);
+  assert.equal(stadium.media.videos.length, 11);
   assert.equal(Object.keys(stadium.media.guideVideos).length, 2);
 });
