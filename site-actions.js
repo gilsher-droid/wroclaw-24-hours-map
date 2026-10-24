@@ -25,6 +25,7 @@
   const guideMapNames={"he": "ללכת עם המדריך שלנו", "en": "Walk with our guide", "pl": "Spacer z naszym przewodnikiem", "de": "Mit unserem Reiseführer durch Wrocław", "cs": "Procházka s naším průvodcem"};
   for(const [lang,name] of Object.entries(guideMapNames))productLinks[lang].push(name);
   const productPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html", "guides.html"];
+  const communityNames={"he": "להציע תוכן", "en": "Offer content", "pl": "Zaproponuj treść", "de": "Inhalte vorschlagen", "cs": "Navrhnout obsah"};
   const personalCopy = {
     he: ["מפות בהתאמה אישית", "הטיול האישי שלכם", "מסלול שנבנה סביב מה שאתם אוהבים.", "מקומות, אוכל וקצב שמתאימים לכם. מספרים לנו מה מחפשים, ומקבלים הצעה למסלול ולמפה אישית.", "מתחילים לתכנן"],
     en: ["Personal maps", "Your personal trip", "An itinerary built around what you love.", "Places, food and a pace that suit you. Tell us what you enjoy and receive a proposal for your own itinerary and map.", "Start planning"],
@@ -61,7 +62,7 @@
 
   function productMenuMarkup(lang) {
     const names = productLinks[lang];
-    return productPaths.map((path, index) => `<a href="/products/interactive-maps/${path}?lang=${lang}">${names[index]}</a>`).join("") + `<a class="personal-menu-link" href="/personal-trip.html?lang=${lang}"><small>${personalCopy[lang][0]}</small><strong>${personalCopy[lang][1]}</strong></a>`;
+    return `<a href="/community.html?lang=${lang}">${communityNames[lang]}</a>`+productPaths.map((path, index) => `<a href="/products/interactive-maps/${path}?lang=${lang}">${names[index]}</a>`).join("") + `<a class="personal-menu-link" href="/personal-trip.html?lang=${lang}"><small>${personalCopy[lang][0]}</small><strong>${personalCopy[lang][1]}</strong></a>`;
   }
 
   function addPersonalServiceEntry() {
@@ -72,6 +73,7 @@
     if (menu && !menu.querySelector('[data-personal-menu]')) {
       const link = document.createElement('a'); link.dataset.personalMenu = ''; link.className = 'personal-menu-link'; menu.append(link);
     }
+    if (menu && !menu.querySelector('[data-community-menu]')) {const link=document.createElement('a');link.dataset.communityMenu='';menu.append(link);}
     const hero = document.querySelector('main > .hero');
     if (hero && !document.querySelector('#personal-service')) {
       const section = document.createElement('section'); section.id = 'personal-service'; section.className = 'personal-service-banner';
@@ -141,6 +143,7 @@
   function refreshLanguage() {
     const lang = language();
     const personal = personalCopy[lang];
+    document.querySelectorAll("[data-community-menu]").forEach(el=>{el.href="/community.html?lang="+lang;el.textContent=communityNames[lang];});
     document.querySelectorAll('[data-guide-map-menu]').forEach(el => { el.href = `/products/interactive-maps/guides.html?lang=${lang}`; el.textContent = guideMapNames[lang]; });
     document.querySelectorAll('[data-personal-copy]').forEach(el => { el.textContent = personal[Number(el.dataset.personalCopy)]; });
     document.querySelectorAll('[data-personal-link]').forEach(el => { el.href = `/personal-trip.html?lang=${lang}`; });

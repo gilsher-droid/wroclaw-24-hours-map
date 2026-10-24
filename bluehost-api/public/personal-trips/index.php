@@ -4,7 +4,7 @@ declare(strict_types=1);
 header('Cache-Control: no-store, private, max-age=0');
 header('Pragma: no-cache');
 header('X-Content-Type-Options: nosniff');
-header('Referrer-Policy: strict-origin-when-cross-origin');
+header('Referrer-Policy: no-referrer');
 header('X-Frame-Options: DENY');
 header('X-Robots-Tag: noindex, nofollow, noarchive');
 header("Content-Security-Policy: default-src 'none'; script-src 'self' https://unpkg.com; style-src 'self' https://unpkg.com; media-src 'self' blob:; img-src 'self' blob: https://unpkg.com https://wroc-love.com https://*.tile.openstreetmap.org data:; connect-src 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com; form-action 'self'; base-uri 'none'; frame-ancestors 'none'");
@@ -40,6 +40,7 @@ if(preg_match('/^[a-f0-9]{64}$/',$key)){
 require_once __DIR__.'/owner-admin.php';
 $isAdmin=isOwnerAdmin($user);$managedOwner='';$managedUser=null;
 $action=(string)($_GET['action']??'');$method=$_SERVER['REQUEST_METHOD']??'GET';$error='';
+if($action==='community'||str_starts_with($action,'community-')){require_once __DIR__.'/community.php';communityDispatch($private,$key,$user,$action,$method);}
 if(isset($_GET['customer']) && ($action==='album'||str_starts_with($action,'album-')||$action==='route')){
  $requested=(string)$_GET['customer'];
  if(!$user && $method==='GET' && $action==='album' && preg_match('/^[a-f0-9]{64}$/D',$requested)){
