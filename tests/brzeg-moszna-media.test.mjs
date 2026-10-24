@@ -11,7 +11,8 @@ test("every new Brzeg and Moszna media asset has an approved source", () => {
   const provenance = JSON.parse(readFileSync(resolve(root, "data/brzeg-moszna-media-provenance.json"), "utf8"));
   const enrichment = JSON.parse(readFileSync(resolve(root, "data/brzeg-photo-enrichment-provenance.json"), "utf8"));
   const moszna = JSON.parse(readFileSync(resolve(root, "data/moszna-photo-enrichment-provenance.json"), "utf8"));
-  const restored = JSON.parse(readFileSync(resolve(root, "data/regional-full-source-restoration-oct24-preservation.json"))).photos.filter(p=>p.canonicalId.startsWith("brzeg-"));
+  const newFull = JSON.parse(readFileSync(resolve(root, "data/brzeg-moszna-distinct18-oct24-preservation.json"))).photoAdditions.map(p=>({...p,...p.metadata}));
+  const restored = JSON.parse(readFileSync(resolve(root, "data/regional-full-source-restoration-oct24-preservation.json"))).photos.filter(p=>p.canonicalId.startsWith("brzeg-")).concat(newFull);
   for(const p of restored)provenance[p.asset]=p.sourcePath;
   const restoredByAsset = new Map(restored.map(p=>[p.asset,p]));
   const optimized = new Map([...enrichment.assets, ...moszna.assets,...restored.map(p=>({...p,placeId:p.canonicalId}))].map(item => [item.asset, item]));

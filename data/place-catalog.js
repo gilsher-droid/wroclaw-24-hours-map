@@ -8341,7 +8341,11 @@
         "/assets/brzeg-enrichment/brzeg-castle-109.jpg",
         "/assets/brzeg-enrichment/brzeg-castle-059.jpg",
         "/assets/brzeg-enrichment/brzeg-castle-060.jpg",
-        "/assets/brzeg-enrichment/brzeg-castle-144.jpg"
+        "/assets/brzeg-enrichment/brzeg-castle-144.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-castle-32b7a9a0cc53.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-castle-e372f8b16828.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-castle-f4553287e177.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-castle-99f6b5753c25.jpg"
       ],
       "videos": [],
       "guideVideos": {
@@ -8710,6 +8714,74 @@
           ],
           "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
           "preparedAt": "2026-10-23T21:31:09.057027+00:00"
+        },
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-castle-32b7a9a0cc53.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.52 (5).jpeg",
+          "sourceSHA256": "32b7a9a0cc53be44a23ba23fe0cbe26d210ee40f06a90809bdb1fa0c347256fe",
+          "assetSHA256": "32b7a9a0cc53be44a23ba23fe0cbe26d210ee40f06a90809bdb1fa0c347256fe",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "תצוגה היסטורית במוזיאון שבטירת ברז׳ג",
+            "en": "Historical display in the museum at Brzeg Castle",
+            "pl": "Ekspozycja historyczna w muzeum na zamku w Brzegu",
+            "de": "Historische Ausstellung im Museum des Schlosses Brzeg",
+            "cs": "Historická expozice v muzeu na zámku v Brzegu"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-castle-e372f8b16828.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.53 (2).jpeg",
+          "sourceSHA256": "e372f8b1682821c64d71ab2a1061767043af60ff8eb5ca4d44d6fc8dfc2b86d2",
+          "assetSHA256": "e372f8b1682821c64d71ab2a1061767043af60ff8eb5ca4d44d6fc8dfc2b86d2",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "תצוגת מסילות וזיכרון היסטורי במוזיאון הטירה בברז׳ג",
+            "en": "Railway and historical remembrance display in Brzeg Castle museum",
+            "pl": "Ekspozycja kolei i pamięci historycznej w muzeum zamku w Brzegu",
+            "de": "Ausstellung zu Eisenbahn und historischer Erinnerung im Schlossmuseum Brzeg",
+            "cs": "Expozice železnice a historické paměti v zámeckém muzeu v Brzegu"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-castle-f4553287e177.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.58 (3).jpeg",
+          "sourceSHA256": "f4553287e177a9a598d1235fb4807e4673033c59076b14183b56d71051ce3b33",
+          "assetSHA256": "f4553287e177a9a598d1235fb4807e4673033c59076b14183b56d71051ce3b33",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרט ממסגרת ציור ותווית בתצוגת מוזיאון הטירה בברז׳ג",
+            "en": "Painting frame and exhibit label detail in Brzeg Castle museum",
+            "pl": "Detal ramy obrazu i etykiety w muzeum zamku w Brzegu",
+            "de": "Detail eines Bilderrahmens und Ausstellungsschilds im Schlossmuseum Brzeg",
+            "cs": "Detail rámu obrazu a popisku v zámeckém muzeu v Brzegu"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-castle-99f6b5753c25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.32 (2).jpeg",
+          "sourceSHA256": "99f6b5753c25720810dc9774e3402db9b2edf388bdd3d5b408571b57cd466888",
+          "assetSHA256": "99f6b5753c25720810dc9774e3402db9b2edf388bdd3d5b408571b57cd466888",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חדר תצוגה עם שטיחי קיר ונברשת במוזיאון הטירה בברז׳ג",
+            "en": "Museum room with tapestries and chandelier at Brzeg Castle",
+            "pl": "Sala z tkaninami i żyrandolem w muzeum zamku w Brzegu",
+            "de": "Museumsraum mit Wandteppichen und Kronleuchter im Schloss Brzeg",
+            "cs": "Muzejní sál s tapisériemi a lustrem na zámku v Brzegu"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
         }
       }
     },
@@ -8886,7 +8958,9 @@
         "/assets/brzeg-enrichment/brzeg-holy-cross-church-090.jpg",
         "/assets/brzeg-enrichment/brzeg-holy-cross-church-148.jpg",
         "/assets/brzeg-enrichment/brzeg-holy-cross-church-055.jpg",
-        "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg"
+        "/assets/brzeg-enrichment/brzeg-holy-cross-church-056.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-holy-cross-church-a2acc9f3f09e.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-holy-cross-church-716ae28de183.jpg"
       ],
       "videos": [
         "/assets/brzeg-holy-cross-interior.mp4"
@@ -8989,6 +9063,40 @@
           ],
           "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
           "preparedAt": "2026-10-23T21:31:09.050568+00:00"
+        },
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-holy-cross-church-a2acc9f3f09e.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.30.39 (1).jpeg",
+          "sourceSHA256": "a2acc9f3f09ed92bab12aa87630a9def66fa7990165189fbe6da2b9e6f42dbc4",
+          "assetSHA256": "a2acc9f3f09ed92bab12aa87630a9def66fa7990165189fbe6da2b9e6f42dbc4",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט אל המזבח ומקומות הישיבה בכנסיית הצלב הקדוש בברז׳ג",
+            "en": "Altar and seating in Holy Cross Church in Brzeg",
+            "pl": "Ołtarz i miejsca siedzące w kościele Podwyższenia Krzyża Świętego w Brzegu",
+            "de": "Altar und Sitzplätze in der Heilig-Kreuz-Kirche in Brzeg",
+            "cs": "Oltář a místa k sezení v kostele Povýšení svatého Kříže v Brzegu"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/brzeg-holy-cross-church-716ae28de183.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 19.05.35 (4).jpeg",
+          "sourceSHA256": "716ae28de18301bc2bb35dfd26538ac1841358fcac06d63e9c47509fee3c9dfc",
+          "assetSHA256": "716ae28de18301bc2bb35dfd26538ac1841358fcac06d63e9c47509fee3c9dfc",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כנסיית הצלב הקדוש בברז׳ג במבט מהרחוב הסמוך",
+            "en": "Holy Cross Church in Brzeg viewed from the adjoining street",
+            "pl": "Kościół Podwyższenia Krzyża Świętego w Brzegu widziany z sąsiedniej ulicy",
+            "de": "Heilig-Kreuz-Kirche in Brzeg von der angrenzenden Straße aus",
+            "cs": "Kostel Povýšení svatého Kříže v Brzegu z přilehlé ulice"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
         }
       }
     },
@@ -36915,7 +37023,18 @@
         "/assets/moszna-enrichment/moszna-castle-063.jpg",
         "/assets/moszna-enrichment/moszna-castle-064.jpg",
         "/assets/moszna-enrichment/moszna-castle-065.jpg",
-        "/assets/moszna-enrichment/moszna-castle-067.jpg"
+        "/assets/moszna-enrichment/moszna-castle-067.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-ec648c8eef8b.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-ccdd42473408.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-e8818340d3c4.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-df6ecb15e38f.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-a6ba0f5446a7.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-bd125902a0c5.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-44a570d48966.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-5a227fd4bcbf.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-8fe25ffa8ea0.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-17c32c24964d.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-ec212086d4ac.jpg"
       ],
       "videos": [
         "/assets/moszna-castle-video.mp4"
@@ -37105,6 +37224,193 @@
         "/assets/moszna-castle-video.mp4": {
           "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Video 2026-09-24 at 17.26.50.mp4",
           "original": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-ec648c8eef8b.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.27 (2).jpeg",
+          "sourceSHA256": "ec648c8eef8b3239ceaacb8dfdf933a5f48f90d068e897bf8b7a56fd94ed10fb",
+          "assetSHA256": "ec648c8eef8b3239ceaacb8dfdf933a5f48f90d068e897bf8b7a56fd94ed10fb",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "טירת מושנה והמזרקה ברחבה",
+            "en": "Moszna Castle and the fountain in front",
+            "pl": "Zamek w Mosznej i fontanna przed nim",
+            "de": "Schloss Moszna mit dem Springbrunnen davor",
+            "cs": "Zámek Moszna a kašna před ním"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-ccdd42473408.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.28 (1).jpeg",
+          "sourceSHA256": "ccdd424734085d27e157827ba467012134e8ec27caa17201ed5349dd680171c3",
+          "assetSHA256": "ccdd424734085d27e157827ba467012134e8ec27caa17201ed5349dd680171c3",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית טירת מושנה במבט מהמדשאה",
+            "en": "Moszna Castle facade viewed from the lawn",
+            "pl": "Fasada zamku w Mosznej od strony trawnika",
+            "de": "Fassade des Schlosses Moszna vom Rasen aus",
+            "cs": "Průčelí zámku Moszna z trávníku"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-e8818340d3c4.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.26.53 (2).jpeg",
+          "sourceSHA256": "e8818340d3c42bf1a90afd39548ae7fd626bacce6d050d98106c8ed4bcbc3890",
+          "assetSHA256": "e8818340d3c42bf1a90afd39548ae7fd626bacce6d050d98106c8ed4bcbc3890",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "סילוני המזרקה וחזית טירת מושנה",
+            "en": "Fountain jets and the facade of Moszna Castle",
+            "pl": "Strumienie fontanny i fasada zamku w Mosznej",
+            "de": "Fontänenstrahlen vor der Fassade des Schlosses Moszna",
+            "cs": "Proudy kašny a průčelí zámku Moszna"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-df6ecb15e38f.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.17 (3).jpeg",
+          "sourceSHA256": "df6ecb15e38f0893e7776adba23d77a60a0de0d91180bd2e5d96974214f5939a",
+          "assetSHA256": "df6ecb15e38f0893e7776adba23d77a60a0de0d91180bd2e5d96974214f5939a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "גגות וצריחים של טירת מושנה במבט מלמעלה",
+            "en": "Rooftops and turrets of Moszna Castle viewed from above",
+            "pl": "Dachy i wieżyczki zamku w Mosznej widziane z góry",
+            "de": "Dächer und Türmchen des Schlosses Moszna von oben",
+            "cs": "Střechy a věžičky zámku Moszna shora"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-a6ba0f5446a7.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.18 (1).jpeg",
+          "sourceSHA256": "a6ba0f5446a7d24f5876f9f4456bb5d81c0a5620320c0ddaf0c05d0bc45e9c34",
+          "assetSHA256": "a6ba0f5446a7d24f5876f9f4456bb5d81c0a5620320c0ddaf0c05d0bc45e9c34",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מדרגות לולייניות במהלך ביקור בטירת מושנה",
+            "en": "Spiral stairs during a visit to Moszna Castle",
+            "pl": "Kręte schody podczas zwiedzania zamku w Mosznej",
+            "de": "Wendeltreppe beim Besuch des Schlosses Moszna",
+            "cs": "Točité schody při návštěvě zámku Moszna"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-bd125902a0c5.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (1).jpeg",
+          "sourceSHA256": "bd125902a0c57212dce9cfeb2f666662ffb6c3bcc40602120c1abd4ca8f3fc1d",
+          "assetSHA256": "bd125902a0c57212dce9cfeb2f666662ffb6c3bcc40602120c1abd4ca8f3fc1d",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חדר תצוגה ומבקרים בסיור בטירת מושנה",
+            "en": "Exhibition room and visitors touring Moszna Castle",
+            "pl": "Sala wystawowa i zwiedzający w zamku w Mosznej",
+            "de": "Ausstellungsraum und Besucher im Schloss Moszna",
+            "cs": "Výstavní místnost a návštěvníci na zámku Moszna"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-44a570d48966.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.19 (3).jpeg",
+          "sourceSHA256": "44a570d4896654e82e364493bb23fca995f4066305eaa9ed8fad1c313e4bb3a2",
+          "assetSHA256": "44a570d4896654e82e364493bb23fca995f4066305eaa9ed8fad1c313e4bb3a2",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "ארובות וגגות טירת מושנה דרך חלון",
+            "en": "Chimneys and rooftops of Moszna Castle through a window",
+            "pl": "Kominy i dachy zamku w Mosznej widziane przez okno",
+            "de": "Schornsteine und Dächer des Schlosses Moszna durch ein Fenster",
+            "cs": "Komíny a střechy zámku Moszna oknem"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-5a227fd4bcbf.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.23 (1).jpeg",
+          "sourceSHA256": "5a227fd4bcbf749061167f34eb0668de226c57653b6184f1340eebb49cebc8e3",
+          "assetSHA256": "5a227fd4bcbf749061167f34eb0668de226c57653b6184f1340eebb49cebc8e3",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "צריח הטירה והפארק במושנה",
+            "en": "Castle turret and park in Moszna",
+            "pl": "Wieżyczka zamku i park w Mosznej",
+            "de": "Schlosstürmchen und Park in Moszna",
+            "cs": "Zámecká věžička a park v Moszné"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-8fe25ffa8ea0.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.24 (1).jpeg",
+          "sourceSHA256": "8fe25ffa8ea033e34407ca08e9f78f0c8d05d7b1880bfee6d729ad002a5ba25a",
+          "assetSHA256": "8fe25ffa8ea033e34407ca08e9f78f0c8d05d7b1880bfee6d729ad002a5ba25a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "אמבטיה היסטורית בתצוגת חדרי טירת מושנה",
+            "en": "Historic bathtub in the room displays at Moszna Castle",
+            "pl": "Historyczna wanna w ekspozycji komnat zamku w Mosznej",
+            "de": "Historische Badewanne in den Schauräumen des Schlosses Moszna",
+            "cs": "Historická vana v prohlídkových místnostech zámku Moszna"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-17c32c24964d.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (6).jpeg",
+          "sourceSHA256": "17c32c24964d95cae1abf7ba1d4c89654ca157bc0cc8ea56bfb35cae9d3bb2cc",
+          "assetSHA256": "17c32c24964d95cae1abf7ba1d4c89654ca157bc0cc8ea56bfb35cae9d3bb2cc",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "גגות טירת מושנה באור ערב",
+            "en": "Rooftops of Moszna Castle in evening light",
+            "pl": "Dachy zamku w Mosznej w wieczornym świetle",
+            "de": "Dächer des Schlosses Moszna im Abendlicht",
+            "cs": "Střechy zámku Moszna ve večerním světle"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-ec212086d4ac.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/WhatsApp Image 2026-09-24 at 17.28.26 (2).jpeg",
+          "sourceSHA256": "ec212086d4acaf53ce8da2329a204f1fb0182a563c3a62fe378b030f26956a21",
+          "assetSHA256": "ec212086d4acaf53ce8da2329a204f1fb0182a563c3a62fe378b030f26956a21",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "ריהוט ויצירות אמנות בחדר בטירת מושנה",
+            "en": "Furniture and artwork in a room at Moszna Castle",
+            "pl": "Meble i dzieła sztuki w sali zamku w Mosznej",
+            "de": "Möbel und Kunstwerke in einem Raum des Schlosses Moszna",
+            "cs": "Nábytek a umělecká díla v místnosti zámku Moszna"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
         }
       }
     },
@@ -37281,7 +37587,8 @@
         "/assets/moszna-enrichment/moszna-castle-park-027.jpg",
         "/assets/moszna-enrichment/moszna-castle-park-038.jpg",
         "/assets/moszna-enrichment/moszna-castle-park-041.jpg",
-        "/assets/moszna-enrichment/moszna-castle-park-068.jpg"
+        "/assets/moszna-enrichment/moszna-castle-park-068.jpg",
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-park-545bf8cf73f1.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -37316,6 +37623,23 @@
         "/assets/moszna-park-garden.jpeg": {
           "sourceFile": "Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 19.06.28 (2).jpeg",
           "original": true
+        },
+        "/assets/brzeg-moszna-distinct-oct24/moszna-castle-park-545bf8cf73f1.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Moszna Castle/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.22 (4).jpeg",
+          "sourceSHA256": "545bf8cf73f10f2ae7baee0e0d63fe1be7408b1dc5bafd68420f00b9769db1ae",
+          "assetSHA256": "545bf8cf73f10f2ae7baee0e0d63fe1be7408b1dc5bafd68420f00b9769db1ae",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פארק מושנה במבט מהטירה",
+            "en": "Moszna park viewed from the castle",
+            "pl": "Park w Mosznej widziany z zamku",
+            "de": "Blick vom Schloss auf den Park von Moszna",
+            "cs": "Park v Moszné ze zámku"
+          },
+          "preparedAt": "2026-10-24T16:15:46.863466+00:00",
+          "review": "Full original photo visually reviewed against existing gallery; distinct relevant capture. Incidental visitors allowed; specific posed and wedding photos held separately. No arbitrary cap.",
+          "noNewGuideOrSocialPublication": true
         }
       }
     },
