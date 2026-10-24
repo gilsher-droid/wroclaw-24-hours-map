@@ -1,0 +1,2275 @@
+{
+  "baselineSHA": "a7c08c1a6399f866894382baac49223d45a62126",
+  "authorizedIds": [
+    "jelenia-gora-market-square",
+    "karpacz-centre",
+    "wang-church"
+  ],
+  "recordHashes": {
+    "absynt-aparthotel-garbary-wroclaw": "13bb0e551d6e33a3dd3cb53f163d62297bb00a0c3cfec9c1cdaf3af3af81f93d",
+    "ac-hotel": "7182f725812c1fe864afd0830cb53aaf35d4507aa23830b64126c00f1b9677fe",
+    "aleja-bielany": "c5d032b2295b2fb4999e28879d7c2d8eaf9e1ce39a17491ed6b39b2cfa1d6871",
+    "altus": "80e8ff135740f977f2342dac05662391812f3ceec41481dc70bc8b836d88e727",
+    "apartamenty-marina-topacz-wroclaw": "b493952b4a208ec665a15cc8ab09150991571046087c184081d3278889a02bb6",
+    "arche-klasztor": "3a3197236ce3edbe2ad87a63741628ac4a3af0b21e520b74e58f90429f261ebe",
+    "art-hotel": "2b6b52e76b611cbd0a1e38d3b478c51f3edf85acaf5904a7b6fd345255490951",
+    "ato-ramen": "cc340b18d3377fa49629b947c7b575f5152711b3693cd5b30fed2b19f6bbb651",
+    "aula": "93c017656eb994a484f74010d2da444a6a8cfcddff7c445c36ad1e4f9b277f28",
+    "bar-mis": "aab9a7ad1c168a066d719f8d1791c1389faa17006c3c5ab6ccec1835597bb971",
+    "bar-mleczny-mewa-wroclaw": "911ca97c27d40ed2561a98c529bd8602fcd4ce44c85d0f729cc5f810fb966884",
+    "barbara-wroclaw": "65250b59be8b1965d6734c1b64dd0076acfbd2d8ba8c93355f98ef169682ed60",
+    "bastion": "55fbb5b2dd77b4ae93483c319c464c07aa0afceeef2a1fa5accfff64e9fed281",
+    "bb-hotel-wroclaw-old-town": "1e3c90183e0be0ea956328f5b0b55e19e6a16620171ab25c835a83ec9fc56c6b",
+    "bernard-bistro-wino": "719a3746287c2a046f913809dbe1a7ee01d07ac28668356417359defb38d27d5",
+    "bistro-stu-mostow": "7fc710c6095e4aae8be27641455d16961fa00fe5e7f3e2e2ef778639c6ac241e",
+    "boguslawskiego": "a3cd93c6230282a71fb2c05a371f17587afc37bb78e9eb3358cc6eb320829906",
+    "boleslawiec-ceramics-museum": "87db34733e497c457d9e48e8e941b828979ef6c307ff491db37de54b7fad1f99",
+    "boleslawiec-old-town": "4e0b9f2866f16f315d8218df2895ddd74162e6329ad17bd57966163c5aae52e5",
+    "boogie-aparthouse-garbary": "ce160a72de33d08b43461fbe0b070c8cbeba251a5fb6257daebd9133d7ca0b8b",
+    "borek": "e1431450ba8fda4c64613bf6cfd0ab57a33110a65dffa9a44b6a5643b95199bc",
+    "browar-stu-mostow": "0ff67d26d29ec946bdb7036fd061573891194b2c21838c5b8a9a719b4b537c74",
+    "bru-coffee-bakehouse-wroclaw": "d6dcd12e53d4d637a309ff4ce2f9af7834baf489920cfeace72244ba579230f8",
+    "brzeg-castle": "aafd7854ccaec9be25630fc0c8d4c513d44570781fdb1435305288a838f0cc95",
+    "brzeg-holy-cross-church": "742816f1a07b2c3120973cb90ef77b910f807232ad41a83e55ebd6282fcb57ae",
+    "brzeg-oder-gate": "ee7ffe2564b0a8781091e52c0549a62684d216013da66dbcf7f77a5de6c03338",
+    "brzeg-st-nicholas-church": "ccab73035d924200239862ff51273e9373741f0a7986681fc1d2272bff812951",
+    "brzeg-town-hall": "2013b6d4e0b4c2b3f95942d3d43fa9ef354085f5c10528d1902ee203442a4262",
+    "bulka": "b53fb7e75d9318c1edf66d3ba828b0eb1e05a64cda416cd20db3741dbc0f9a6f",
+    "cafe-berg-wroclaw": "c0e6d5d77d6765e63b7e0d4c0ed79febb53b641aaba9971d295945c4a9a1bb17",
+    "cafe-targowa": "688a4c2b3dcf905f67ef83a715ebbbdd2448d29c5b1e013e1fe6a747121a9887",
+    "cathedral": "bde5f330deba0e2d64fc8396b13e3237194cc946b25c6f61ff3bbcfa47398919",
+    "central": "b403bff271da9ef512863e89dd92f4e74d580dd329ef0b49c42d450ebd0e1de7",
+    "central-cafe-nadodrze": "33bbd9b994c4568e2322aa04b3e8f89f38747e073215395d8b0df6e472978d74",
+    "charlotte": "9f1817ceaf911d82bd999ec70d30aeb7af7fd1b68bb2000c1105d48acea0e83c",
+    "chatka": "8015105be7ebf2b58264eb0e2e7914a806587d09b1d2ef0af568b91312d98cce",
+    "church-of-peace-swidnica": "576e902ce4bad5be0df2ada89080f90ed3196d83758d57a121dbf283a640e688",
+    "concept-stu-mostow": "ea233398a739ab3a600107d30c8d0be8009d840a19a7bd5f94bc38517cda9702",
+    "concordia-taste": "cb022a607eaa7a92f03c45fe37b1bf2802dfd0bfae892be549a6252c3542128d",
+    "czarna-magia": "03f7dcaab723b1ded1fdeed863980630eb926be3dd300b3aa66577b474991bfd",
+    "czocha-castle": "0eb4bb81eece14be8f7db5c4df5839943dee1c37682964297c634b8bfc66bd88",
+    "depot-history-centre": "18dfee99fdb84a8464531a9f38c9f13a6a6d9e1d6aad7a350c0602581bbb065a",
+    "dinette": "4d112a508ac39261c28379ef2165076eaf7fc978bad21e338bf26cb2b1be1a94",
+    "dobra-paczkarnia-kuznicza": "82ad59607e6c60c9992d1cc933cd83c6778280de1d9956e9982a30a540d035c8",
+    "domek-nad-fosa-wroclaw": "d1b709f3324988295e584a64f3760acac00e7a408795bbcff159a9dceac5b30d",
+    "dominikan": "4fe135af64f65f7ff0f590cc3884d1b520f56bbe18744ddca9ec652427dd6f84",
+    "doubletree": "1edfbf38cc81328d99f54953623e3ce92981d39f42b0d6437cd6d93c06caf190",
+    "dunikowski": "0f3d905f69b189ec4804343694379e1d1296e9c6d56f42c0d83df56c67af6964",
+    "dwarf-info": "1b2f82b1a113ceeac32b2478cd7aac8cfcecfa76b12bde62e3415addad645f84",
+    "dwor-polski-hotel-wroclaw": "b2ed91ead12593b209fd4cdb9df22d22218fac44c89773081fe1586e9f0a75ca",
+    "el-gato-odrzanska-wroclaw": "967b3ce1e9eda743b6308d7458a64f37f752bb068f3f966a5ffae99da97526a3",
+    "elizabeth": "9137f3b007f4bc24063a67b9b903371d9a96203938a37cef343b678c03b23840",
+    "entre-hotel-wroclaw": "1c5d8aa6334a764c8169b9294b74aaeb1ba064241128ce2e74ed1e3d4e4bfafe",
+    "fashion-outlet": "3057b9c3ae7ce983988aaf7120e70a714651780fe1dd79fa7867741872e0b8b7",
+    "fc-caffe-kuznicza": "91f614328ebb467e4ce8a1df42bc897a307628fddc7aa72983f154ca6804b768",
+    "figa-w-barbarze": "2f2d71418ea121cec8bb4ddf699e0dfeee48361bdd3588d3ae13f03764bb8c4b",
+    "fountain": "c093737aae35b16f1d8e149feca3bac71a1845ea6abceabcf98fa493ab6a4ad6",
+    "four-denominations-district": "f65428e9d52582005c3a32c1dbb3ecff8dca448ed97f411822c558dde85a3db7",
+    "four-domes": "897b5ffe902ce671cf4ec63f294ddd9e8deaf9a00fe9be6f92c1b06a8282026f",
+    "frytki": "c8844c5a06378f4b79bc946945ef88ff0b77a3d6a7eb28d479f6f1c61301e632",
+    "glowny": "bc4ff5321ca2a9d7db1623d92d372dde7170b94d885d60bc4d9f1975b7f6dca0",
+    "gniazdo": "c32c521854964b16b0627b12cf032755479861c9f98c8e1ec0a9fa4f15cb9c2a",
+    "gustaw-restaurant-wroclaw": "176a92c4c2404d3a60d2629093873dcf61183ea85ccc173ef5221eb32c0d3b97",
+    "hala": "3c547b3fae286415b9f765ac8b3cf3c9ad364a3643e7338b77ae2c09c2c2d712",
+    "hala-targowa": "18cc34dcda41b7c76a70ac4b38cc0a41a6dff9f9872370a47d708bbea1273acf",
+    "henryk-tomaszewski-theatre-museum": "5552282480788f052c10354634f4a9f84830b8342342da1584834409396db4d2",
+    "herbal": "7169d201bba49ef2bed0ef61556a11aa6d7b3e5f24a63444227a20f87858299e",
+    "hostel-krasnal-wroclaw": "e60845893066901c799dbd01b7fe1774da84fb1e781f862f9b10c2a142488c1c",
+    "hotel-traffic-wroclaw": "ff10e90d2e925f7cfc2473995378988814884c5ade858b91f3a75f540ca80477",
+    "hydropolis": "d594f8c57e5e45f72a3aeca09cebdf4e41e0a7002e86cc91609aec3831a0ed12",
+    "ibis-styles-wroclaw-centrum": "a9c0ddf51e04afef2a24b9d5206549e54a8830d5d344eca4d18514fc12bf5650",
+    "ida-kuchnia-i-wino": "d12f40dc130127863e7393ffb4febf70447d9ec5e09931cf3d473a86838dd918",
+    "india-concept-wroclaw": "e3ddfaf370796840ba065f49b3c9d45d06fc6dc4dbf658de7c0c5ca0c66d87a9",
+    "japanese": "ccf54e35f7a7afd61c838c909e8b83fd4697b4ae5110b39132c4f482ad165aa8",
+    "jas-malgosia": "84bb43877b02da03b5964f6e3ee6cc2fb2d43c79ab5566cc34eb32961e80f2fc",
+    "jatki": "b1907fad9a5b9e34bae26acd3388d796d08ea27b841ee20fa7493aa5cc8e4e81",
+    "jawor-church-of-peace": "6cce08f483e6a09836f6bb35dadae900439405a1b98179965e2aa18fa9316e69",
+    "jawor-market-square": "3e91d0b2203ae45903c5c888dc17ffcd4dc7e4bc9acb5e8f2552ff3b047ff8d7",
+    "jawor-piast-castle": "0531009bdc94fefe6a6b21381b2d32192f787ef57b9f4c4e38fef35b436d04a6",
+    "jelenia-gora-market-square": "6db81304fb6eb9f07ee4d922bc73e65be2669bb1584b8aecd2e8b113e656f97d",
+    "jolie-kurzy-targ": "fe5343f167831570edaafe5dea1c8efaf62ebb51f3365b066cb4dfd0f16faad9",
+    "jolie-plac-solny": "86a07ba0ec3d7e52216227648c40ba2fb832e26e71fe10b9df29f17a02b598bf",
+    "joyinn-aparthotel-wroclaw": "9d8ad394977b1e91159eee32c44fb988556ff07f9028e67fd778a1710dc81859",
+    "kaffe-bageri-stockholm": "8ec62bab3b31fd4d6997bee55c2289128d43a121c7194187c12c834b2cc9b63c",
+    "kaplica-czaszek-czermna": "3a9e57737461b2fada03c64f5eba51736a2089b22c390b16b8434935a1c57253",
+    "karmello": "4914ec59bed72fc1df7aca8b8b696ee69e8f98c0f467051a6bf340230f120b0f",
+    "karpacz-centre": "f6278d510147240fd869b6224d010cbd84344ac0095ffcd4df174fec1ce4bc88",
+    "kawiarenka-sw-jadwigi": "a560a18ebe762aa91e618b56e46334cdc7ddc655935dc9e1c6ad57a0ded4b721",
+    "klodzko-fortress": "6b4a872aeb5300570392f7291a4fd75faaf8bbba16b6a170ec662660f1de1754",
+    "klodzko-old-town": "d4f99329265afd975a5b76aa589a71dbcf1368b5b6ee2676a9d0ef4432a524e1",
+    "konspira": "cadb9ce8280f9b13be299eedf3a46d0b200c808c746fb704b6e725165fe85768",
+    "korona-hotel": "f128a47d9f9f038fd3cd6c519d686e0b6519e4d00c1b593bc44e3d1b4740daa5",
+    "korona-shopping": "7d5697fa343e675d33c889a655df9a542b1de674d57e312afe54a50261f7424a",
+    "ksiaz-castle": "915c99d8db0d86cc30b0e5a7126730bbe9bb6c19321132439db52af367318551",
+    "la-maddalena": "331d93a9899919b5271ea12a3607f0827e20cc91e48b41ab20de0b13dd406d44",
+    "lesnianska-dam": "474b29af0a0a8149b2bfe70a5b1a820a74f4e20ee67d20bd527392b08cca5c19",
+    "lodz-church-square": "4cb08d63f2139cd22ade18e2ffd79f0e8c7599d7d66f87dd5bfb833b9de777a1",
+    "lodz-freedom-square": "03c24590603d4e277479156dcc46c69b7d4ae1a1ebe40fe9aa4587a6124f8da8",
+    "lodz-ghetto-baluty": "b6fab65767a63c97ede65e045d7b8038ddd13b09cf1ea64bd2bfc051b146cd4c",
+    "lodz-gutenberg-house": "6d1feb0e49881b0073e136b394f035430592a50827928e43a8b7b3b1850f864f",
+    "lodz-manufaktura": "3d1afcf61b569c45fea2e04a8535d1b893ad250dc07972fbe61dce40369aa6f6",
+    "lodz-old-market": "8802e05ace44390dbf7c11e78add089b0aa9b36cdf2c1987c77620931e9380b7",
+    "lodz-piotrkowska": "dccfa015431bb49ab146162fa1622d12c3f2a4ddf643069c3e43f83cc579ad3f",
+    "lodz-rose-passage": "c9411d5acf942dcae86b3aa3ecdd66f9acfcf20b76f1c784b573fc4e09f068fb",
+    "lodziarnia-roma": "239edb7dc05a4c1f5d40f9448aaa009c353befa631e32d2c0e35847d165ea950",
+    "lwia-brama-restaurant-wroclaw": "ccc18fe3f96fe3a430613a9ad2c062d2ecc6ae3e739ea32204bdbf36e0df89ab",
+    "magnolia": "674826975edf05b09a65fd25a13b241b9eb0abe23b58987183d488ff13b3c5b9",
+    "mala-czarna-paderewskiego": "10bfef86ffb31fe602e635a30c766217399afa7fe4e11cf0335cffb3a6b7ae58",
+    "mandarin": "904a3fea67469dbbf9561eb48f2c6f52cc72e4bcff7180313fafe5ffbc408976",
+    "mania-al-taglio-kuznicza": "f7b0fcc624e8273c259a49723650dac929e5695e26d506476ac723be05da6503",
+    "marietta-focacceria-wroclaw": "29a2a3028305d01b8bcb8c270d6a821f848fce01ce216e7c9e09a5f7731d8358",
+    "marina": "8c00d4e3e7a7432c93796d7a38815396dc47511df9985fbbcc82a60cc7bc821d",
+    "math-tower": "c68b87cc2ac781e8859345d6c0f7e8afbced00944a27e65c6f2b71057bff27c5",
+    "meatologia-sikorskiego": "b04c7f4177ad627b087ae25b6f154369ae6ef88f56fadd67192b8a3a10474027",
+    "meatologia-wlodkowica": "82383214ebdf8625826ea5026c5f9871f79657a73e9f40c2c1f2e1da9d0ee608",
+    "meatologia-zwycieska": "c87ded62efc76d94be674df71a711f4913585abb140d28d737839fb1813f3698",
+    "monopol": "707039bcf5a1c0144726cbacba55638e847bf06ad9d757376a52a683dc5c8678",
+    "morskie-oko-wroclaw": "a81fe1a35d61266fa67aa4c7f071ae2a20bc260b74882032dd891b8f148062cd",
+    "most-piaskowy": "e99f6fef90dc172198a3da0b418f118440a0892367427638d88191e7f8c4a338",
+    "most-pomorski-poludniowy-wroclaw": "2a6081297044be8d0c0bbed63ffecfa4a64722a96725cd35dc6b7041d636dc3f",
+    "most-tumski": "bea71b418fbefea0bf9e8aed7bf066a23e0d223be411f4060d74fdfc0f8379e1",
+    "mostek-pokutnic-wroclaw": "811ed82bba1ba2c9b53685c1f7fcb5dcdc8f2e7d52bc06bbd26ac1841659c3ed",
+    "moszna-castle": "f7d13915200085da70bc5c2ab0b491644ec4e13b38cb08554a5eea32a2c93aea",
+    "moszna-castle-park": "b668cb81952754f7255eb98665c96a0ef781996f412c28e9b303e1c0362ec520",
+    "movenpick-grand-hotel-wroclaw": "924d3cb0f89eab5aa5ef19fc5b04166ace3b7d36dec47e06f70161ffdb3cffce",
+    "municipal-arsenal-wroclaw": "7325c8f08763e58f0c1d84f81181ffb7f1da9eab95d7c87cc1eb6b12dde6ab77",
+    "museum-of-architecture-wroclaw": "4caca8b276fb3adeb12a6df1ff3faf66475f57417ca7acb70e473f0cfd5e81cd",
+    "museum-of-pharmacy-wroclaw": "a41d34288569ef10c367ffc6688fc8bd85e50f77c84742cfe03dbed16c07c45c",
+    "nanan": "6f500085b4cd2ed85f7ebe42602dbc9b7dadab2dc33b7a5e4c422411272ade28",
+    "national-museum": "365f5de51b098a02ac00fb32597c1981dd2705899695868f8bc56c3c8c40e8c3",
+    "new-horizons-cinema": "d6f2ec090d464a78ec798ced2767f8ba698cf353227f696b9a21a892171fe1f6",
+    "nfm": "ad561034589a7300f35c527c7ea59586807540dc0844aa471a8c505a1406d356",
+    "odra-centrum": "6e69d7d2910c85ea037af80fdba88447d8906bd2532f2cdba7f91a2f6372a4f5",
+    "old-jewish-cemetery-wroclaw": "754168b54637b491c447ada8f9aa9a729a6ca949354b54d4c87b51c27dc3f00a",
+    "olio-pizza-napoletana-wroclaw": "58531aec46466cac04f34ca7c01a8e45a5e777817e71a68347c10807a5ac9cc0",
+    "opera": "91c7748ac642dd3993759e1c38f2744fe797f251af581d8505fd00f654bb6876",
+    "ossolineum": "745d5559fcf372c49b77c733abba09a644631b0740ee197432af1bddb38b7387",
+    "ostrow": "59150b0b7e5311cd1dc458be8fad762092aa59fa450e9984d732d54fa94276e6",
+    "paczkarnia": "d2730fd2ddba56f6973b6c13194d6faafa335dde4680cc200d6b408f64a83d71",
+    "paloma-coffee": "b99ce82c6b5dbd4d517b40c969f3dfa65cfd70628f6f6f77d9b92d4273734a6c",
+    "pan-precel": "978865ddda0a2c858c351d5827000fa91c1c42a11962e3bfc35c6cedd054c221",
+    "pan-precel-express-grunwaldzki": "89933580516a92201badb564785f268fac265c78a8992ef9f1d03e46dbfce0bb",
+    "pan-precel-olawska": "e4d717613a1a3f77d56cb8d81dd8f9b3d6d6f1d60ca069789be80961f59b05a7",
+    "pan-tadeusz-museum": "af429749437254e5d3b268eaf5dac8944d5309f0625fa01c4059abff367e77f7",
+    "panorama": "0145d65f6615a85d6d4544b63473a5f66a54e40ca3bfda51c128f5d179b7c3d8",
+    "papa": "ad409f32908aaa868cc54efc4f74bfa444404ea3a34c011362f18d45053f3180",
+    "park-szczytnicki-wroclaw": "cdb5bf89492b0776ff4059ac3ce58dd78a0835b2ba39ed1a17fb185ca4f35db7",
+    "parrot-coffee-bema": "3c61531fb2af2bfa677e3c9caf72e47446a1a5b0d88ad1fd905e62b5badcf995",
+    "pasaz": "ea8fb5a08faa1d7dc9688f047421d90df062f0398f3435c564d4f6ee64f7f9da",
+    "pedet": "fc5efe5ed73c0fab7486c79b1f27402b8bdd240283a0125c2f50ad026cf4b171",
+    "pergola": "b25244bde16c151427046cd0540021cb606e7602fa0dbfa36229834e358d828a",
+    "peruwiana": "b029b955cc02bc1fc723a9020e8fcbc3277441d81d5f3974e5394129834750ab",
+    "pestka-bistro-wine-bar": "46c383a6fc41801515b8e88c3ee45d45eede329df454694309a987fe93318414",
+    "piastowska-pieczec-wroclaw": "9cc56881cca5704e92702fe0ff8f9f5c4e7970704a3a833fda20f5a90fe7bc34",
+    "pijalni-wino-bistro": "5f9148dfebe957eb65bde021b22090b991661776817a26d716a0ace715ca7702",
+    "pizza-si": "5ff72d3f0c5f66a0bed74a11ef5bcc6b97b981a483233568f7245f9bd6c6e58d",
+    "polinka": "4ad685335cfda66f0c4be323b0b16254cccf08364e926bcd22e49df5862f1296",
+    "polish-lody": "a0680003095ce826072c83373f047e6d2ba540e1d37f19b5ed375b45e6b132ca",
+    "polish-theatre-wroclaw": "6f8b2e82e53836c1adbde1a3234387b38fd3f7a10f0f64ad4007f03f15197955",
+    "pomiedzy-cafe-bistro-wroclaw": "a0e7e16166f36f79db9fdd7c22f784f4b50f8618d2f80c635bf2272272c00ec1",
+    "prize-by-radisson-wroclaw-sky-tower": "f3b77713d916a5722db174bc10262e434718556ccd0e671e651684602b244d1a",
+    "przystanek-kowary": "cda5f7aea6da63e0bfa1cb349dc5c96ce762745fd5f10179027ca6139e85d079",
+    "puro": "bf9387adba511f8758a6c97abfdc5e723417807d5da87cae144fa4347ca80ea0",
+    "renoma": "540e059dfefe9e789a87199f3a9594fa3bbad41753269e7767782f1eaef7c2e2",
+    "restauracja-tarasowa": "e785d55195f2dc252389e118290068e49c7d43f697f349a57e38fffcfdb35ad5",
+    "royal-palace-wroclaw": "336e68deeb34414e2d83c23298040bcaad216d259b18eff3cf31c209653fc502",
+    "rozowa-krowa-milk-bar-wroclaw": "02706f681ae3f2ff722558d71cdd76e7c2c3f2fff559d077e112d88179251fe0",
+    "rynek": "c28b25fd51f827ee95b47657a7e990c73c876f72d9078d874e0891f5f1952ca1",
+    "sarah": "3672a3597199c509f39407157d0695f76dd564da2238542ce20e051f857a99aa",
+    "sic-gallery-bwa-wroclaw": "96799127adf2f67452fbcae101efb8977eec3a7b51ec7ba25e07c5453f64dade",
+    "slodowa": "7d00dcaec3d48e6f3f6cc1e47a213b918ce19707ee575705ace0f5ed9c70b524",
+    "solny": "e2034ffacc3fc16044e40ba88d553f697875af4d0a542ea215d57ef9da68e4f4",
+    "song-of-the-goat-theatre": "4225d01da2ae81a944e000ce8e77cdbfd90cd790ed0afcfd7133e84e997d94b3",
+    "srebrna-gora-fortress": "7b3fb1ea237a6bffaa3a979384bb9ffdace16fdc732af6628775b5b93cb68b43",
+    "st-martin-church-wroclaw": "19983ddd93358ce8e13ee081a8c5c3d426af26727c40c0341bebfab04826b9b7",
+    "stadion-olimpijski-wroclaw": "b9cb3d94ca98876a9207c78c95caa1a0c5ca3b2cf5df94ca2c45d22345b9b747",
+    "stary-mlyn-rynek-wroclaw": "77598fa15858f6fe0d1fd72e1fe6cc97956f8594ddc6ef1b4747e0869447ca60",
+    "studio-bwa-wroclaw": "900b30cb2ea95e9ce6aea191b32c4f3c8c8591c346910653f10f06fdbb8daa6b",
+    "sushi-corner": "736185eb4190aae7192efe47f819be0c76fe2c1950c8181919169662e71073d2",
+    "szkocka-cocktail-bar": "15bf79a08c50407e6d711078092055c90d1b73e8c44084e8c740d7cc6382ed2c",
+    "taproom-stu-mostow": "c91c3f65e1dbaf7a3c061c0682e98c088bd49c3461e5b7c2ae373213ab39b9dd",
+    "the-bridge": "1ac53872c165df13bccaadc8cb35de19b79e73141dc2b2736e22f32ceceb4a12",
+    "the-cyrus-hotel-wroclaw": "231cc1aa8344e6da7edf94290f5bcd6c5f5dbb045e938a0bd20a96baa1d1a39f",
+    "the-mexican": "bc7e517747c996a72ae1438d8b117f5d58673300d86d3b94ef8372acf759e361",
+    "town-hall": "3e7f3da88c83b3ca999d2c0733d55ecc0bf772c9b2786ccc47d429bc00a20c36",
+    "tulip-hotels-wroclaw-patio": "82d1af1329f7aecce450b5027746aa7bb57038992ec76e879b0938e227c3c09d",
+    "university": "06a8182adc9e1308682994af4284fe449acff6c5179d3fbb1e9e35fddecec542",
+    "vega-bar-weganski-wroclaw": "59de1cf70b8bc9cb5f35ce95439c46317f5cc998400552f2898e53afbcf3a1f6",
+    "vegan-af-ramen": "7aa95709f05555149143b272fb0f54fc713f7e0d17c1a97ce1b3251a38a25a40",
+    "walbrzych-market-square": "d118c31ae67c3b3224d097887512620c5bbf9fdbdaf02440c42e60d6131bcf2b",
+    "wang-church": "54bfed63072e8309afbc1227022ffa09f1497cd00435fd579034b53eeeae16a2",
+    "warsaw-nozyk-synagogue": "f8af08e5d53ba24099e79f5265bfd3d034a10cd226a0d516d97f69b8104c9c05",
+    "warsaw-saxon-garden-fountain": "ba5c8907b70b878629a23f872b2db6b31500e529e557e004fff11808e8b41ebd",
+    "warsaw-unknown-soldier": "b95043d8a0b9558edc795a818f93c7a12496f2444284e00c249ce359b5509051",
+    "water-refill-hala-stulecia": "52247f0a774647245723b458b1683df4be302b1da09291745d4632b8cf308ad4",
+    "water-refill-hydropolis": "604755494952d65e4a9bea3b7dc2ae7c4d6c113a7abc6db98bc74a56fd761d7a",
+    "water-refill-nmp-piasek": "68f74e18b181c9c3118298df4e6443a995534ecb4bb88c7a3a33c0ac4543ab7f",
+    "water-refill-olawska-swidnicka": "1bd6ea965ad1f86b59a7b1b4bd97dd55241941871f320be1717ffa7152ea6c2a",
+    "water-refill-park-tolpy": "2ee3ae56de8006ca6bf26f4b25fae4c742e0145e033fa63e632934fbbd1cc375",
+    "water-refill-plac-dominikanski": "d1e0cd1633d3685f7e45e5d668779e44ffd7844a1f2c4f3d2ab4e2b20bf73ed5",
+    "water-refill-plac-nowy-targ": "86bf625dfe08fac589aec41880d76a00b6faa32fc18fd0495abd027f82d31748",
+    "water-refill-plac-solny": "cfed62ef693257f94fb357855bf22c0bbf72623824be01aec05376c6fd7c9e30",
+    "water-refill-plac-teatralny": "404d9e18c326525a486c9229c38206b9d753837f1656acadd8ec85e1d8360ba0",
+    "water-refill-plac-wolnosci": "8a8694ace2f91fd67be28ef63e496e20fb335f23d18ac17047f7b5498fbb576d",
+    "water-refill-rynek-psiego-pola": "87c749cc69babb71878cd5304bbea1d8940c6477ae0ba07e71ba0c5f82f013c2",
+    "water-refill-skwer-steinmetza": "bfa8a9389dac278f2cdeb180b107eac0f865b9c0e6dbdeb3fe03b9c8092193e9",
+    "water-refill-wroclaw-airport": "7121748bf8ba1fca34f61eccd8e5d24a9196687c6b81935e782347f0dac6dff1",
+    "water-refill-wyspa-slodowa": "199d41a252207742fa80abc8ab712fa1c45616a8f52ae245796d78db2f7ba4fd",
+    "water-refill-zoo-afrykarium": "640b0b7b769e5136ae1d6dc67db0f4c49d6b421e71beda014f810338fbf3e081",
+    "wedel": "4f365bc311d3569534f33c2270468254bd7fa319390cdde2cdf3936284a553cd",
+    "wedrowcy-kolejowa-63": "94388f9344d1955d11be8ca0f82d519ded846db5227ece3b6529941d7b0f8a14",
+    "whiskey": "90fdf03d641d654b29d82bd324d6fc1c28bec0894e1ce32edcbc3c14cd3ae26f",
+    "white-stork-synagogue-wroclaw": "e25c394f8f5eefad7a8936ce0fa99cdaa56cb8731a556db6100063707c0d541b",
+    "wierzbowa-15": "61e559adcc99042613a1b14910adb22f265d176e1b44c6ae6e3e02bf830e6fb2",
+    "wieza-cisnien-borek": "a8a1c5ab9ce443890186e56b2391ef78b61e339e2ab51a02fa063b26f782b2b0",
+    "woda-cafe": "37d4db9d3140048ab69f198c8db0e7101d28103ff3ca52c90e620135b25734f0",
+    "woosabi": "9f6eb61c71c6cf86af42516f01e33bbae5e24f0dafc9258ecb6fc8170456428f",
+    "woosabi-swidnicka-wroclaw": "6550ec576362f5e628b25fce4326c36ed027cd607812e5cb1a38e041b3749eaa",
+    "wroclavia": "9eff493115e07711d504ecc0098661f9314e817dcc8f23410c94a6c1d1c63fc0",
+    "wroclaw-botanical-garden": "73f6335ac44fc154282cba838794e0fbce583a090ac434259aa4cf5e9c0e2e0c",
+    "wroclaw-contemporary-museum": "6093663db5130b590ead60a890765d9782f9392d5c5366ac4cc934ecdcb07b36",
+    "wroclaw-contemporary-theatre": "dc3bac4882c3ef2a982d34d77644286a03cf47b8cf751010181ad37f83f39a96",
+    "wroclaw-puppet-theatre": "c81dee0990d41d3f632a7b2eee50c0b022885312ded3669d09a1ad679f640e24",
+    "wuwa": "9c0b80973e4a264d56ff0d7b44cd34adc817ba319e6ef785da71842f761c6184",
+    "wuwa-estate": "4d2895ec52eb775dd105a313fe83677890c88bf80fecfb49f002c23ca8f83d17",
+    "wyndham-wroclaw-old-town": "c7786cd30d5156ac41218f35ab850348528b96a451c5c33f37ec459bcd58509c",
+    "wyspa-piasek": "98df9bddb93c0bcd12277e4e5008e5acb876a70585a1d15b18233a0a2f29bf67",
+    "zamek-topacz": "69eca3dc99f98275b62a216ff22db26766372a977677e3937d7422b420107d93",
+    "zenka": "eed8a3a01e27d47e8aad0df6805abf2cd0e200fa94b1c73750bfb210d208077d",
+    "zoo-wroclaw": "2be35a57fc9927b285e55432ea0ff18fd460b0dff822e3d7f1002a4bd1a63d42",
+    "zyjnia-bwa-wroclaw": "f4c65f2bde60b1262829d749cb7143f12cd4af4f341555b7096dc69b438360be"
+  },
+  "places": {
+    "jelenia-gora-market-square": {
+      "id": "jelenia-gora-market-square",
+      "localName": "Rynek i stare miasto w Jeleniej Górze",
+      "name": {
+        "he": "ילניה גורה, הכיכר והעיר העתיקה",
+        "en": "Jelenia Góra market square and old town",
+        "pl": "Rynek i stare miasto w Jeleniej Górze",
+        "de": "Marktplatz und Altstadt von Jelenia Góra",
+        "cs": "Náměstí a historické centrum Jelení Hory"
+      },
+      "description": {
+        "he": "התחנה האחרונה לפני החזרה לוורוצלב: הליכה בכיכר ובסמטאות העיר העתיקה של ילניה גורה. בחומרי הביקור שלנו מופיעים בית העירייה, חזיתות צבעוניות, דוכנים ואווירת הרחוב. אירועים ודוכנים שתועדו אינם מובטחים בכל ביקור.",
+        "en": "The final stop before returning to Wrocław: a walk around Jelenia Góra market square and old-town streets. Our visit photographs show the town hall, colourful façades, stalls and street life. Recorded events and stalls are not guaranteed on every visit.",
+        "pl": "Ostatni przystanek przed powrotem do Wrocławia: spacer po rynku i uliczkach starego miasta Jeleniej Góry. Nasze zdjęcia pokazują ratusz, kolorowe kamienice, stoiska i życie uliczne. Uwiecznione wydarzenia i stoiska nie są stałą ofertą.",
+        "de": "Letzter Halt vor der Rückfahrt nach Wrocław: Spaziergang über den Marktplatz und durch die Altstadt von Jelenia Góra. Unsere Fotos zeigen Rathaus, bunte Fassaden, Stände und Straßenleben. Die dokumentierten Veranstaltungen und Stände finden nicht ständig statt.",
+        "cs": "Poslední zastávka před návratem do Vratislavi: procházka náměstím a uličkami historického centra Jelení Hory. Naše fotografie ukazují radnici, barevné domy, stánky a život v ulicích. Zachycené akce a stánky nejsou stálou nabídkou."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "jelenia-gora",
+        "coordinates": {
+          "lat": 50.9035044,
+          "lng": 15.7344539
+        }
+      },
+      "categories": [
+        "city-centre"
+      ],
+      "sourceUrls": [],
+      "aliases": [],
+      "sourceRecords": [],
+      "coordinateCandidates": [],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "city-centre"
+        ],
+        "tags": [
+          "excursion",
+          "outside-wroclaw",
+          "architecture",
+          "photography"
+        ]
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://turystyka.jeleniagora.pl/content/ratusz-miejski-i-siedem-dom%C3%B3w",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=Rynek%20i%20stare%20miasto%20w%20Jeleniej%20G%C3%B3rze",
+          "appleMaps": null
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "contentType": "personal-visit",
+        "originalPhotography": true,
+        "factualSources": [
+          {
+            "type": "official",
+            "url": "https://turystyka.jeleniagora.pl/content/ratusz-miejski-i-siedem-dom%C3%B3w",
+            "checkedAt": "2026-10-16"
+          }
+        ],
+        "coordinateVerification": {
+          "sourceUrl": "https://www.openstreetmap.org/",
+          "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+          "checkedAt": "2026-10-16"
+        }
+      },
+      "media": {
+        "photos": [
+          "/assets/excursion-three/jelenia-gora-market-square-01.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-02.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-03.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-04.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-05.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-06.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-07.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-09.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-11.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-12.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-13.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-14.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-15.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-16.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-17.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-18.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-19.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-20.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-22.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-23.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-24.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-27.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-28.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-29.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-31.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-32.jpg",
+          "/assets/excursion-three/jelenia-gora-market-square-33.jpg"
+        ],
+        "videos": [
+          "https://youtube.com/shorts/evb3VZTBi70",
+          "https://youtube.com/shorts/1aNhfN1NoaY",
+          "https://youtube.com/shorts/83HHNnaimbo",
+          "https://youtube.com/shorts/pRYkflDphOk",
+          "https://youtube.com/shorts/10pxz2NLcyU",
+          "https://youtube.com/shorts/GcAlPb9lUn4",
+          "https://youtube.com/shorts/XgCNgAVm92U"
+        ],
+        "guideVideos": {
+          "he": "https://youtube.com/shorts/kv047H3sRvA",
+          "en": "https://youtube.com/shorts/G8QVSsk1ABk"
+        },
+        "metadata": {
+          "/assets/excursion-three/jelenia-gora-market-square-01.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-02.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.09 (3).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-03.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.10.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-04.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-05.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-06.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (3).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-07.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11 (4).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-09.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-11.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (4).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-12.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.23 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-13.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.23 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-14.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.23.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-15.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.24.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-16.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.25 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-17.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.25.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-18.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.27 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-19.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.27 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-20.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.27.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-22.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-23.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.30.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-24.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.31 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-27.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.32 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-28.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.32.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-29.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-31.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.33.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-32.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.36 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/jelenia-gora-market-square-33.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.36.jpeg",
+            "original": true
+          },
+          "https://youtube.com/shorts/evb3VZTBi70": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Video 2026-10-01 at 09.24.10.mp4",
+            "sourceSHA256": "5e8d9d0b29481f6d83ae90bf9649218c3ffa25451e8e24c1a14d30031a252662",
+            "youtube": "https://youtube.com/shorts/evb3VZTBi70",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:14:25.083Z"
+          },
+          "https://youtube.com/shorts/1aNhfN1NoaY": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Video 2026-10-01 at 09.25.24.mp4",
+            "sourceSHA256": "a7d481ae05d91b0679edf48c2acbb8882bf1291f2fc12548147f020234fc14d4",
+            "youtube": "https://youtube.com/shorts/1aNhfN1NoaY",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:14:44.846Z"
+          },
+          "https://youtube.com/shorts/83HHNnaimbo": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Video 2026-10-01 at 09.25.26.mp4",
+            "sourceSHA256": "6e27e9e8c1591ea50aef8da3e3c6cfa4d3bea3c148a160486da61a8d169e01d7",
+            "youtube": "https://youtube.com/shorts/83HHNnaimbo",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:14:58.527Z"
+          },
+          "https://youtube.com/shorts/pRYkflDphOk": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Video 2026-10-01 at 09.25.29.mp4",
+            "sourceSHA256": "06c2f2f31cf99309f9ff151e019b921fec6436c221f1fa991ca1059a1cebd643",
+            "youtube": "https://youtube.com/shorts/pRYkflDphOk",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:15:24.633Z"
+          },
+          "https://youtube.com/shorts/10pxz2NLcyU": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Video 2026-10-01 at 09.25.32.mp4",
+            "sourceSHA256": "c8c91d66b4b5e8f089b0d9aa409c34727178e23bc942a6d54cd70f830a0c6a77",
+            "youtube": "https://youtube.com/shorts/10pxz2NLcyU",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:15:50.881Z"
+          },
+          "https://youtube.com/shorts/GcAlPb9lUn4": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Video 2026-10-01 at 09.25.34.mp4",
+            "sourceSHA256": "83339ab96703a3a06666532915a0832c7056b173e5028220a422b16f75bde588",
+            "youtube": "https://youtube.com/shorts/GcAlPb9lUn4",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:16:01.466Z"
+          },
+          "https://youtube.com/shorts/XgCNgAVm92U": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Video 2026-10-01 at 09.25.35.mp4",
+            "sourceSHA256": "2efeba2183594941568b32bbecb9ff612e2130ad7c987372915f86266154f5bd",
+            "youtube": "https://youtube.com/shorts/XgCNgAVm92U",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:16:27.749Z"
+          }
+        }
+      },
+      "socialPosts": []
+    },
+    "karpacz-centre": {
+      "id": "karpacz-centre",
+      "localName": "Centrum Karpacza",
+      "name": {
+        "he": "מרכז קרפץ",
+        "en": "Karpacz town centre",
+        "pl": "Centrum Karpacza",
+        "de": "Zentrum von Karpacz",
+        "cs": "Centrum Karpacze"
+      },
+      "description": {
+        "he": "אחרי יאבור נוסעים לקרפץ. כאן מטיילים במרכז העיירה ובמדרחוב, עם זמן להפסקה, אוכל ונוף הררי. הביקור בכנסיית וואנג מוצג בנפרד, כתחנה הבאה.",
+        "en": "After Jawor, drive to Karpacz for a walk through the centre and pedestrian street, with a break for food and mountain views. Wang Church is the next, separate stop.",
+        "pl": "Po Jaworze przejazd do Karpacza: spacer po centrum i deptaku, przerwa na jedzenie oraz górskie widoki. Świątynia Wang jest kolejnym, osobnym przystankiem.",
+        "de": "Nach Jawor geht es nach Karpacz: Spaziergang durch Zentrum und Fußgängerzone, Zeit für eine Pause, Essen und Bergblicke. Die Wang-Kirche folgt als eigener Halt.",
+        "cs": "Po Jaworu následuje Karpacz: procházka centrem a pěší zónou, přestávka na jídlo a horské výhledy. Kostel Wang je další samostatnou zastávkou."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "karpacz",
+        "coordinates": {
+          "lat": 50.7749665,
+          "lng": 15.7539066
+        }
+      },
+      "categories": [
+        "city-centre"
+      ],
+      "sourceUrls": [],
+      "aliases": [],
+      "sourceRecords": [],
+      "coordinateCandidates": [],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "city-centre"
+        ],
+        "tags": [
+          "excursion",
+          "outside-wroclaw",
+          "architecture",
+          "photography"
+        ]
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://www.karpacz.pl/deptak",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=Centrum%20Karpacza",
+          "appleMaps": null
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "contentType": "personal-visit",
+        "originalPhotography": true,
+        "factualSources": [
+          {
+            "type": "official",
+            "url": "https://www.karpacz.pl/deptak",
+            "checkedAt": "2026-10-16"
+          }
+        ],
+        "coordinateVerification": {
+          "sourceUrl": "https://www.openstreetmap.org/",
+          "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+          "checkedAt": "2026-10-16"
+        }
+      },
+      "media": {
+        "photos": [
+          "/assets/excursion-three/karpacz-centre-01.jpg",
+          "/assets/excursion-three/karpacz-centre-02.jpg",
+          "/assets/excursion-three/karpacz-centre-03.jpg",
+          "/assets/excursion-three/karpacz-centre-05.jpg",
+          "/assets/excursion-three/karpacz-centre-06.jpg",
+          "/assets/excursion-three/karpacz-centre-07.jpg",
+          "/assets/excursion-three/karpacz-centre-08.jpg",
+          "/assets/excursion-three/karpacz-centre-09.jpg",
+          "/assets/excursion-three/karpacz-centre-10.jpg",
+          "/assets/excursion-three/karpacz-centre-11.jpg",
+          "/assets/excursion-three/karpacz-centre-14.jpg",
+          "/assets/excursion-three/karpacz-centre-15.jpg",
+          "/assets/excursion-three/karpacz-centre-16.jpg",
+          "/assets/excursion-three/karpacz-centre-17.jpg",
+          "/assets/excursion-three/karpacz-centre-19.jpg",
+          "/assets/excursion-three/karpacz-centre-20.jpg"
+        ],
+        "videos": [
+          "https://youtube.com/shorts/j3ORWLifr1o",
+          "https://youtube.com/shorts/h4pIjvZ6BX4",
+          "https://youtube.com/shorts/4MA7MiQFBOQ",
+          "https://youtube.com/shorts/oM_7bgKXiQM",
+          "https://youtube.com/shorts/_MZ5mwPlMko",
+          "https://youtube.com/shorts/uubAo80A9oU",
+          "https://youtube.com/shorts/BXiPB2FmM9I",
+          "https://youtube.com/shorts/sckZg-I6mrw",
+          "https://youtube.com/shorts/qyrmAaZneoo",
+          "https://youtube.com/shorts/UiSnqPoyKbU",
+          "https://youtube.com/shorts/IX_mBF0YCAk",
+          "https://youtube.com/shorts/APA9JFyAhCo",
+          "https://youtube.com/shorts/POUbYhobU9o"
+        ],
+        "guideVideos": {
+          "he": "https://youtube.com/shorts/gQlJjc241gk",
+          "en": "https://youtube.com/shorts/4WgaQo6HmWg"
+        },
+        "metadata": {
+          "/assets/excursion-three/karpacz-centre-01.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.55.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-02.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.12.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-03.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-05.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.15.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-06.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.21.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-07.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.47 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-08.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.54 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-09.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.54 (3).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-10.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.54.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-11.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.27.56 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-14.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (3).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-15.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-16.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-17.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36 (3).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-19.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.41.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/karpacz-centre-20.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (1).jpeg",
+            "original": true
+          },
+          "https://youtube.com/shorts/j3ORWLifr1o": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.07.mp4",
+            "sourceSHA256": "23a1b4e8cd21b037e759af5294a9ee751cce1b1d937ad472ef057a71598682e3",
+            "youtube": "https://youtube.com/shorts/j3ORWLifr1o",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:51:31.762Z"
+          },
+          "https://youtube.com/shorts/h4pIjvZ6BX4": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.08.mp4",
+            "sourceSHA256": "f51a4f525d6e5071b9ffaf8ca3b606308c7b02d94a5a3395f897ebbd07ebab61",
+            "youtube": "https://youtube.com/shorts/h4pIjvZ6BX4",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:51:44.950Z"
+          },
+          "https://youtube.com/shorts/4MA7MiQFBOQ": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.11.mp4",
+            "sourceSHA256": "e30373e4bc65aef216380d0423f862ed9fe4e96b342af9034150feed846c3dad",
+            "youtube": "https://youtube.com/shorts/4MA7MiQFBOQ",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:52:44.488Z"
+          },
+          "https://youtube.com/shorts/oM_7bgKXiQM": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.14.mp4",
+            "sourceSHA256": "ae04afedbc1212b0741f3199dcc762b132078870b7aabe8aabe47ec366bc2b6a",
+            "youtube": "https://youtube.com/shorts/oM_7bgKXiQM",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:53:15.625Z"
+          },
+          "https://youtube.com/shorts/_MZ5mwPlMko": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.16.mp4",
+            "sourceSHA256": "b47b789364912a606885cc800009a39b1c8fb7786942b935e6ae811a2d726f73",
+            "youtube": "https://youtube.com/shorts/_MZ5mwPlMko",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:53:19.258Z"
+          },
+          "https://youtube.com/shorts/uubAo80A9oU": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.19 (1).mp4",
+            "sourceSHA256": "3c4985d768c6f166257f6a6d3979ed91ee845dbd2cd683ffbff5e63cc7ebe2b3",
+            "youtube": "https://youtube.com/shorts/uubAo80A9oU",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:53:44.384Z"
+          },
+          "https://youtube.com/shorts/BXiPB2FmM9I": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.19.mp4",
+            "sourceSHA256": "604aa9123ff7862f1d2d192b00c5e6dc4dfacd35935f32cd3214f2a73a7e1234",
+            "youtube": "https://youtube.com/shorts/BXiPB2FmM9I",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:56:01.438Z"
+          },
+          "https://youtube.com/shorts/sckZg-I6mrw": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.21.mp4",
+            "sourceSHA256": "12682abae7b56dc3d5b63839e20a33ae29a6db0b1b91e69656d3d74dfe997906",
+            "youtube": "https://youtube.com/shorts/sckZg-I6mrw",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:56:40.184Z"
+          },
+          "https://youtube.com/shorts/qyrmAaZneoo": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.26.23.mp4",
+            "sourceSHA256": "ea8f34a3678f1c4b72c0cb2a476c8dcc4d06b9244d0413f3bf222dd2303dd1df",
+            "youtube": "https://youtube.com/shorts/qyrmAaZneoo",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:57:20.299Z"
+          },
+          "https://youtube.com/shorts/UiSnqPoyKbU": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-01 at 09.27.48.mp4",
+            "sourceSHA256": "692e9708718bd9a3ce9803ef29514d7458893be09006b459b2a712ff941fa873",
+            "youtube": "https://youtube.com/shorts/UiSnqPoyKbU",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:57:47.794Z"
+          },
+          "https://youtube.com/shorts/IX_mBF0YCAk": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-05 at 18.33.32.mp4",
+            "sourceSHA256": "d6bc20a00ede80c1564af1bf7fef7510ef12516b159a9a67eb0ad7c4975a9f98",
+            "youtube": "https://youtube.com/shorts/IX_mBF0YCAk",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:58:18.897Z"
+          },
+          "https://youtube.com/shorts/APA9JFyAhCo": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-05 at 18.33.39.mp4",
+            "sourceSHA256": "cae0a6f0f7bbfe8592ee22403e02620ab3e8a4bc13f11baa3d86138b415b51dd",
+            "youtube": "https://youtube.com/shorts/APA9JFyAhCo",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:59:28.433Z"
+          },
+          "https://youtube.com/shorts/POUbYhobU9o": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Video 2026-10-05 at 18.33.41.mp4",
+            "sourceSHA256": "a9f6ed3fa696e53bc2c9bb0cdd7fbf36c9f8354b4a7af23e106d74228acf1aa7",
+            "youtube": "https://youtube.com/shorts/POUbYhobU9o",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T08:59:41.682Z"
+          }
+        }
+      },
+      "socialPosts": []
+    },
+    "wang-church": {
+      "id": "wang-church",
+      "localName": "Świątynia Wang",
+      "name": {
+        "he": "כנסיית וואנג",
+        "en": "Wang Church",
+        "pl": "Świątynia Wang",
+        "de": "Stabkirche Wang",
+        "cs": "Kostel Wang"
+      },
+      "description": {
+        "he": "תחנה נפרדת אחרי מרכז קרפץ: כנסיית העץ וואנג והסביבה שלה. התמונות מהביקור מציגות את המבנה, גילופי העץ והחצר. בדקו באתר הכנסייה את תנאי הביקור העדכניים.",
+        "en": "A separate stop after central Karpacz: Wang timber church and its surroundings. Visit photographs show the building, carved wood and grounds. Check current visiting arrangements on the church website.",
+        "pl": "Osobny przystanek po centrum Karpacza: drewniana świątynia Wang i jej otoczenie. Zdjęcia pokazują budowlę, rzeźbione drewno i teren wokół kościoła. Aktualne zasady zwiedzania sprawdź na stronie świątyni.",
+        "de": "Ein eigener Halt nach dem Zentrum von Karpacz: die hölzerne Wang-Kirche mit ihrem Gelände. Die Fotos zeigen Gebäude, Holzschnitzereien und Umgebung. Aktuelle Besuchsregeln auf der Kirchenseite prüfen.",
+        "cs": "Samostatná zastávka po centru Karpacze: dřevěný kostel Wang a jeho okolí. Fotografie ukazují stavbu, dřevořezby a areál. Aktuální podmínky návštěvy ověřte na webu kostela."
+      },
+      "location": {
+        "countryCode": "PL",
+        "regionId": "lower-silesia",
+        "cityId": "karpacz",
+        "coordinates": {
+          "lat": 50.7773866,
+          "lng": 15.7241515
+        }
+      },
+      "categories": [
+        "church"
+      ],
+      "sourceUrls": [],
+      "aliases": [],
+      "sourceRecords": [],
+      "coordinateCandidates": [],
+      "status": "published",
+      "editorialPriority": null,
+      "taxonomy": {
+        "categories": [
+          "church"
+        ],
+        "tags": [
+          "excursion",
+          "outside-wroclaw",
+          "architecture",
+          "photography"
+        ]
+      },
+      "suitability": {
+        "recommendedFor": [],
+        "walkingIntensity": null,
+        "familyFriendly": null,
+        "couples": null,
+        "solo": null,
+        "romantic": null,
+        "indoorOutdoor": null,
+        "rainFriendly": null,
+        "budgetLevel": null,
+        "accessibility": {
+          "level": null,
+          "notes": null
+        }
+      },
+      "visit": {
+        "durationMinutes": null,
+        "bestTimeOfDay": [],
+        "seasonalSuitability": [],
+        "openingHoursNotes": null
+      },
+      "links": {
+        "website": "https://wang.com.pl/",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/search/?api=1&query=%C5%9Awi%C4%85tynia%20Wang",
+          "appleMaps": null
+        }
+      },
+      "transport": {
+        "carRequired": null,
+        "publicTransportNotes": null,
+        "parkingNotes": null,
+        "drivingTimeFromWroclawMinutes": null
+      },
+      "languages": [
+        "he",
+        "en",
+        "pl",
+        "de",
+        "cs"
+      ],
+      "provenance": {
+        "contentType": "personal-visit",
+        "originalPhotography": true,
+        "factualSources": [
+          {
+            "type": "official",
+            "url": "https://wang.com.pl/",
+            "checkedAt": "2026-10-16"
+          }
+        ],
+        "coordinateVerification": {
+          "sourceUrl": "https://www.openstreetmap.org/",
+          "method": "Nominatim exact named-place result, cross-checked official address; central town point for walking stops",
+          "checkedAt": "2026-10-16"
+        }
+      },
+      "media": {
+        "photos": [
+          "/assets/excursion-three/wang-church-01.jpg",
+          "/assets/excursion-three/wang-church-02.jpg",
+          "/assets/excursion-three/wang-church-05.jpg",
+          "/assets/excursion-three/wang-church-06.jpg",
+          "/assets/excursion-three/wang-church-07.jpg",
+          "/assets/excursion-three/wang-church-08.jpg",
+          "/assets/excursion-three/wang-church-10.jpg",
+          "/assets/excursion-three/wang-church-11.jpg",
+          "/assets/excursion-three/wang-church-13.jpg",
+          "/assets/excursion-three/wang-church-14.jpg",
+          "/assets/excursion-three/wang-church-15.jpg",
+          "/assets/excursion-three/wang-church-17.jpg"
+        ],
+        "videos": [
+          "https://youtube.com/shorts/PBh_F_4H7SQ",
+          "https://youtube.com/shorts/i1UFkfYKFh0",
+          "https://youtube.com/shorts/so7pYtZsK3k",
+          "https://youtube.com/shorts/q_pxUoqEJp4",
+          "https://youtube.com/shorts/QI-4x24ay14",
+          "https://youtube.com/shorts/h6IkQaZWXfg",
+          "https://youtube.com/shorts/1ium43jP47c",
+          "https://youtube.com/shorts/Kz_UzOKr9zA",
+          "https://youtube.com/shorts/EAtJ1omLGGM",
+          "https://youtube.com/shorts/HEMwHjvesPY",
+          "https://youtube.com/shorts/QZgpH_l4Sjo",
+          "https://youtube.com/shorts/fSIh-ulFhqA",
+          "https://youtube.com/shorts/yG4yLJlOS9Q",
+          "https://youtube.com/shorts/MY2mECOq9_Q",
+          "https://youtube.com/shorts/eT4DJ_wCEX0",
+          "https://youtube.com/shorts/c0JQMmmXGpo",
+          "https://youtube.com/shorts/UUB2CQEg4AM"
+        ],
+        "guideVideos": {
+          "he": "https://youtube.com/shorts/MinjLfDR-nc",
+          "en": "https://youtube.com/shorts/I0yVmZFViio"
+        },
+        "metadata": {
+          "/assets/excursion-three/wang-church-01.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-02.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.47.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-05.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-06.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (3).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-07.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (4).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-08.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56 (5).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-10.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.56.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-11.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-13.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01 (1).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-14.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01 (2).jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-15.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.26.01.jpeg",
+            "original": true
+          },
+          "/assets/excursion-three/wang-church-17.jpg": {
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.33.02.jpeg",
+            "original": true
+          },
+          "https://youtube.com/shorts/PBh_F_4H7SQ": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.22.28.mp4",
+            "sourceSHA256": "c1bba87cbc0bea62b62d2566d1219be85059c5877537fcfc7f739e0784b3ec57",
+            "youtube": "https://youtube.com/shorts/PBh_F_4H7SQ",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:00:00.908Z"
+          },
+          "https://youtube.com/shorts/i1UFkfYKFh0": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.48 (1).mp4",
+            "sourceSHA256": "ec4dd09af01cac048694595253cefea384f325716c6ff2deeb44ffa816dfa297",
+            "youtube": "https://youtube.com/shorts/i1UFkfYKFh0",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:03:26.706Z"
+          },
+          "https://youtube.com/shorts/so7pYtZsK3k": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.48.mp4",
+            "sourceSHA256": "3a675ace7020343f574ab14637a6fb3c67bcc8955d14ae1bd008c58b0ae1b124",
+            "youtube": "https://youtube.com/shorts/so7pYtZsK3k",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:04:05.828Z"
+          },
+          "https://youtube.com/shorts/q_pxUoqEJp4": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.49.mp4",
+            "sourceSHA256": "0fd4f84d301a52994ba4f5b9021a62ad75b4887a66196c3c24463dbeb13f3529",
+            "youtube": "https://youtube.com/shorts/q_pxUoqEJp4",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:04:21.105Z"
+          },
+          "https://youtube.com/shorts/QI-4x24ay14": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.50.mp4",
+            "sourceSHA256": "1f77338267679129e7f1f89ed1d98773d3317b839a13d2c99c610bed465d2357",
+            "youtube": "https://youtube.com/shorts/QI-4x24ay14",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:04:33.522Z"
+          },
+          "https://youtube.com/shorts/h6IkQaZWXfg": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.51.mp4",
+            "sourceSHA256": "2768816bc4cf073c7e13d6fc0f16f40066cdef27708f73c04775ed97c571eed9",
+            "youtube": "https://youtube.com/shorts/h6IkQaZWXfg",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:04:47.729Z"
+          },
+          "https://youtube.com/shorts/1ium43jP47c": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.52.mp4",
+            "sourceSHA256": "3ef6e553a47eb68f2b0d8bbb72939a0ea8489a502fc360729f6c4972c886d482",
+            "youtube": "https://youtube.com/shorts/1ium43jP47c",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:05:04.436Z"
+          },
+          "https://youtube.com/shorts/Kz_UzOKr9zA": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.53.mp4",
+            "sourceSHA256": "b1b0d200932ca83b2b18597d625a18e10603d1a8d94e27ef426777f442480470",
+            "youtube": "https://youtube.com/shorts/Kz_UzOKr9zA",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:05:19.902Z"
+          },
+          "https://youtube.com/shorts/EAtJ1omLGGM": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.54.mp4",
+            "sourceSHA256": "8ef38b3db439d4eaec5e9a34d3020637dd04ef3b017578632e965053c27c6701",
+            "youtube": "https://youtube.com/shorts/EAtJ1omLGGM",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:05:32.200Z"
+          },
+          "https://youtube.com/shorts/HEMwHjvesPY": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.55.mp4",
+            "sourceSHA256": "82d063c17dcf805d51bf616221845bae7e3d9e849641b0dd82fc72a855150499",
+            "youtube": "https://youtube.com/shorts/HEMwHjvesPY",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:06:09.675Z"
+          },
+          "https://youtube.com/shorts/QZgpH_l4Sjo": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.57.mp4",
+            "sourceSHA256": "92f01bbc43b6ba121b9a9327adcb37ed031c546afb986e33039a09cc1ae04f69",
+            "youtube": "https://youtube.com/shorts/QZgpH_l4Sjo",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:06:27.317Z"
+          },
+          "https://youtube.com/shorts/fSIh-ulFhqA": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.25.59.mp4",
+            "sourceSHA256": "dece63bfee1b7b71bf11b8b81a3942aa814679c6567836c59bc80587fdcdadfc",
+            "youtube": "https://youtube.com/shorts/fSIh-ulFhqA",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:07:00.330Z"
+          },
+          "https://youtube.com/shorts/yG4yLJlOS9Q": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.26.00.mp4",
+            "sourceSHA256": "378bbd9d0de7d557cdb1b3dde27d0fb2bc80fb51cb926725670d090889813087",
+            "youtube": "https://youtube.com/shorts/yG4yLJlOS9Q",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:07:12.029Z"
+          },
+          "https://youtube.com/shorts/MY2mECOq9_Q": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.26.02.mp4",
+            "sourceSHA256": "bfc869400261ae4d69bfbb6d6a7255a57802000eb81a88244377fea7a714d596",
+            "youtube": "https://youtube.com/shorts/MY2mECOq9_Q",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:07:32.331Z"
+          },
+          "https://youtube.com/shorts/eT4DJ_wCEX0": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.26.03.mp4",
+            "sourceSHA256": "f3c51eea24f086e3cf9c11caa67f5ec6bd431b68b6f3d9d9c403f8a436691813",
+            "youtube": "https://youtube.com/shorts/eT4DJ_wCEX0",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:08:17.991Z"
+          },
+          "https://youtube.com/shorts/c0JQMmmXGpo": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-01 at 09.26.05.mp4",
+            "sourceSHA256": "0e357f7021ecf8e529c6238aadcb67e4b2d7d3723f19928c82e416d87b855260",
+            "youtube": "https://youtube.com/shorts/c0JQMmmXGpo",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:08:32.028Z"
+          },
+          "https://youtube.com/shorts/UUB2CQEg4AM": {
+            "original": true,
+            "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Video 2026-10-05 at 18.32.57.mp4",
+            "sourceSHA256": "119af6e24da07c22ab8306ea396f95b12c7483bb64a658e092f957d62b8a9615",
+            "youtube": "https://youtube.com/shorts/UUB2CQEg4AM",
+            "visibility": "Public",
+            "checks": "completed, no issues",
+            "verifiedAt": "2026-10-16T09:13:04.209Z"
+          }
+        }
+      },
+      "socialPosts": []
+    }
+  },
+  "expectedPhotoCounts": {
+    "jelenia-gora-market-square": 36,
+    "karpacz-centre": 22,
+    "wang-church": 24
+  },
+  "photoAdditions": [
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 3,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-03.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11.jpeg",
+        "sourceSHA256": "3adbd3e304f22376282b588daf57962940c8bbff3b8d06d8a9c7a17fd837905a",
+        "assetSHA256": "7438fa4612cd5f552fe57352a2f50a5b2ab408a5acf6196e18de75b41a9e1dfb",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מעבר מקורה במרכז ילניה גורה",
+          "en": "Covered passage in the centre of Jelenia Góra",
+          "pl": "Zadaszone przejście w centrum Jeleniej Góry",
+          "de": "Überdachter Durchgang im Zentrum von Jelenia Góra",
+          "cs": "Krytý průchod v centru Jelení Hory"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 3,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11.jpeg",
+            "SHA256": "3adbd3e304f22376282b588daf57962940c8bbff3b8d06d8a9c7a17fd837905a"
+          },
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 18,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.31.54 (3).jpeg",
+            "SHA256": "3adbd3e304f22376282b588daf57962940c8bbff3b8d06d8a9c7a17fd837905a"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 5,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-05.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (3).jpeg",
+        "sourceSHA256": "d2b910904df9ed91977a6d4101163baf7ed050ad9cf335bbfbf0ac1fd0dbf066",
+        "assetSHA256": "387ddfe358c330167d6ef0ac96f3779bc458b404abbe940f646907d3a0d28788",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "בית העירייה ודוכנים שצולמו בזמן הביקור בכיכר",
+          "en": "Town hall and stalls photographed during our square visit",
+          "pl": "Ratusz i stoiska sfotografowane podczas wizyty na rynku",
+          "de": "Rathaus und Stände während unseres Marktbesuchs",
+          "cs": "Radnice a stánky zachycené při návštěvě náměstí"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 5,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (3).jpeg",
+            "SHA256": "d2b910904df9ed91977a6d4101163baf7ed050ad9cf335bbfbf0ac1fd0dbf066"
+          },
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 26,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.31.55 (6).jpeg",
+            "SHA256": "d2b910904df9ed91977a6d4101163baf7ed050ad9cf335bbfbf0ac1fd0dbf066"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 36,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-36.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.05 (3).jpeg",
+        "sourceSHA256": "20ea3e31fb66a2ccc25c4092be11e360702077b6038cc0fb2d31c219deae1478",
+        "assetSHA256": "88303ff2743ec67915798b296a966d5b02dc60f77c5c8a45e8e1718e9117e42f",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "חזיתות ודוכנים בכיכר בזמן הביקור",
+          "en": "Square façades and stalls during the visit",
+          "pl": "Fasady i stoiska na rynku podczas wizyty",
+          "de": "Fassaden und Marktstände während des Besuchs",
+          "cs": "Průčelí a stánky na náměstí při návštěvě"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 36,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.05 (3).jpeg",
+            "SHA256": "20ea3e31fb66a2ccc25c4092be11e360702077b6038cc0fb2d31c219deae1478"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 52,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-52.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46 (2).jpeg",
+        "sourceSHA256": "ed1631ec983546c852f99a29510aa017f452df058a3d443bc06d2894a33e6da7",
+        "assetSHA256": "2b34ddb98e85be43c77a8543f9ac3ded8f1319bed653309dd43e6a76889faf41",
+        "sourceDimensions": [
+          1200,
+          1600
+        ],
+        "assetDimensions": [
+          1200,
+          1600
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "פרט מתכת על חזית במרכז ההיסטורי",
+          "en": "Metal detail on a façade in the historic centre",
+          "pl": "Metalowy detal na elewacji w historycznym centrum",
+          "de": "Metalldetail an einer Fassade im historischen Zentrum",
+          "cs": "Kovový detail na průčelí v historickém centru"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 52,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46 (2).jpeg",
+            "SHA256": "ed1631ec983546c852f99a29510aa017f452df058a3d443bc06d2894a33e6da7"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 53,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-53.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46 (5).jpeg",
+        "sourceSHA256": "5692158f2f6168da48f101494b874519be60051678fc5dabf2bf849305488c8e",
+        "assetSHA256": "d9a5c090f3ff9f908a799183a11380d3d03bb07994943f196dae3488dc995a7e",
+        "sourceDimensions": [
+          1200,
+          1600
+        ],
+        "assetDimensions": [
+          1200,
+          1600
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "פרט אדריכלי מעל מעבר במרכז ההיסטורי",
+          "en": "Architectural detail above a passage in the historic centre",
+          "pl": "Detal architektoniczny nad przejściem w historycznym centrum",
+          "de": "Architekturdetail über einem Durchgang im historischen Zentrum",
+          "cs": "Architektonický detail nad průchodem v historickém centru"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 53,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46 (5).jpeg",
+            "SHA256": "5692158f2f6168da48f101494b874519be60051678fc5dabf2bf849305488c8e"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 54,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-54.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46.jpeg",
+        "sourceSHA256": "04098c0ff1cc69bb38c8d32d1818b74129ced8c6b4e330f06c5cef8c6e284929",
+        "assetSHA256": "c897cb09cb9cf780c9fc728f7e43c71d20416f74fed13aab804287c5d33c7830",
+        "sourceDimensions": [
+          1200,
+          1600
+        ],
+        "assetDimensions": [
+          1200,
+          1600
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "חזיתות ופרטי מבנים במרכז ההיסטורי",
+          "en": "Façades and building details in the historic centre",
+          "pl": "Fasady i detale budynków w historycznym centrum",
+          "de": "Fassaden und Gebäudedetails im historischen Zentrum",
+          "cs": "Průčelí a detaily budov v historickém centru"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 54,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46.jpeg",
+            "SHA256": "04098c0ff1cc69bb38c8d32d1818b74129ced8c6b4e330f06c5cef8c6e284929"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 56,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-56.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17 (2).jpeg",
+        "sourceSHA256": "6dd5ed801ff3e6f871fb14d4ac539307e19d86488b6fa2fec3c8fb2bd8b8111c",
+        "assetSHA256": "35e428335daf2db7007e99872ff5f8fd287746d20316b880dd8fe8619e702bb2",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מגדל במרכז ההיסטורי של ילניה גורה",
+          "en": "Tower in the historic centre of Jelenia Góra",
+          "pl": "Wieża w historycznym centrum Jeleniej Góry",
+          "de": "Turm im historischen Zentrum von Jelenia Góra",
+          "cs": "Věž v historickém centru Jelení Hory"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 56,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17 (2).jpeg",
+            "SHA256": "6dd5ed801ff3e6f871fb14d4ac539307e19d86488b6fa2fec3c8fb2bd8b8111c"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 57,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-57.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17 (5).jpeg",
+        "sourceSHA256": "7445ba3a881d2326916d86af93d4894dcf9144f68b2b6e231d4a3c3beff20632",
+        "assetSHA256": "61120b20dd93e2ce384b3b5993d15e7a61ce16590171a3c280131a2c0e89830c",
+        "sourceDimensions": [
+          2048,
+          1536
+        ],
+        "assetDimensions": [
+          2048,
+          1536
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "רחוב ודוכנים במרכז ההיסטורי בזמן הביקור",
+          "en": "Historic-centre street and stalls during the visit",
+          "pl": "Ulica i stoiska w historycznym centrum podczas wizyty",
+          "de": "Straße und Stände im historischen Zentrum während des Besuchs",
+          "cs": "Ulice a stánky v historickém centru při návštěvě"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 57,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17 (5).jpeg",
+            "SHA256": "7445ba3a881d2326916d86af93d4894dcf9144f68b2b6e231d4a3c3beff20632"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "jelenia-gora-market-square",
+      "sourceIndex": 58,
+      "asset": "/assets/regional-three-full-oct24/jelenia-gora-market-square-58.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17.jpeg",
+        "sourceSHA256": "6151772df6be349d5cfeb5fcb008a87f455140bc01ab302cab73cf9ec04436af",
+        "assetSHA256": "4eabb9baccfd7aa36f4709ba96cd682718dd47dacf43d4af2d9ab9948a271994",
+        "sourceDimensions": [
+          2048,
+          1536
+        ],
+        "assetDimensions": [
+          2048,
+          1536
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מבט נוסף בכיכר בזמן הביקור",
+          "en": "Another view of the square during the visit",
+          "pl": "Kolejny widok rynku podczas wizyty",
+          "de": "Weiterer Blick auf den Marktplatz während des Besuchs",
+          "cs": "Další pohled na náměstí při návštěvě"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "jelenia-gora-market-square",
+            "index": 58,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17.jpeg",
+            "SHA256": "6151772df6be349d5cfeb5fcb008a87f455140bc01ab302cab73cf9ec04436af"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "karpacz-centre",
+      "sourceIndex": 2,
+      "asset": "/assets/regional-three-full-oct24/karpacz-centre-02.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
+        "sourceSHA256": "2b56207fe36a2b83cd508c973aad9dba1956084ce8d1a953229f52b1324e13fc",
+        "assetSHA256": "19462aaa549981b33e7aad32ecb2dae1b1da898b918fb8da838885a2f2497158",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "דרך ונוף הרים בסביבת קרפץ",
+          "en": "Road and mountain views around Karpacz",
+          "pl": "Droga i górski krajobraz w okolicy Karpacza",
+          "de": "Straße und Bergblick bei Karpacz",
+          "cs": "Cesta a horská krajina v okolí Karpacze"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "karpacz-centre",
+            "index": 2,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
+            "SHA256": "2b56207fe36a2b83cd508c973aad9dba1956084ce8d1a953229f52b1324e13fc"
+          },
+          {
+            "id": "karpacz-centre",
+            "index": 13,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.19 (1).jpeg",
+            "SHA256": "2b56207fe36a2b83cd508c973aad9dba1956084ce8d1a953229f52b1324e13fc"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "karpacz-centre",
+      "sourceIndex": 12,
+      "asset": "/assets/regional-three-full-oct24/karpacz-centre-12.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.16.jpeg",
+        "sourceSHA256": "58d5de2d3d988333c95571270da82d0991d05136829c8f6ff2096bb77e345846",
+        "assetSHA256": "3598294339552764c46eecda3ac53f3e826ac7c6691fa3327dc6393199d956a2",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "גגות ונוף הרים בסביבת קרפץ",
+          "en": "Roofs and mountain views around Karpacz",
+          "pl": "Dachy i widok na góry w okolicy Karpacza",
+          "de": "Dächer und Bergblick bei Karpacz",
+          "cs": "Střechy a výhled na hory v okolí Karpacze"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "karpacz-centre",
+            "index": 12,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.16.jpeg",
+            "SHA256": "58d5de2d3d988333c95571270da82d0991d05136829c8f6ff2096bb77e345846"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "karpacz-centre",
+      "sourceIndex": 21,
+      "asset": "/assets/regional-three-full-oct24/karpacz-centre-21.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
+        "sourceSHA256": "cc5c0d762c5e9e97d630e60cc556f276834fb0b9d40d43ca78c860fe8e723f76",
+        "assetSHA256": "d5e944ad6124ed562232e74a17814e8f66caa148864c47192a85f7881ee65309",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מתקן תיירותי והסביבה בזמן הביקור בקרפץ",
+          "en": "Visitor attraction and surroundings during our Karpacz visit",
+          "pl": "Atrakcja turystyczna i otoczenie podczas wizyty w Karpaczu",
+          "de": "Freizeitanlage und Umgebung bei unserem Karpacz-Besuch",
+          "cs": "Turistická atrakce a okolí při návštěvě Karpacze"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "karpacz-centre",
+            "index": 21,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
+            "SHA256": "cc5c0d762c5e9e97d630e60cc556f276834fb0b9d40d43ca78c860fe8e723f76"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "karpacz-centre",
+      "sourceIndex": 22,
+      "asset": "/assets/regional-three-full-oct24/karpacz-centre-22.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
+        "sourceSHA256": "7026b4cf4d91069ec380900a18a0862244fd9e933deda241146703eeb00d7006",
+        "assetSHA256": "0efd3b87314406c6370909dc6a9e353fa0e093f5ffba781c1f03dda857017ad9",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "פרט מקרון במתקן תיירותי בקרפץ",
+          "en": "Ride-car detail at a visitor attraction in Karpacz",
+          "pl": "Detal wagonika atrakcji turystycznej w Karpaczu",
+          "de": "Wagendetail einer Freizeitanlage in Karpacz",
+          "cs": "Detail vozíku turistické atrakce v Karpaczi"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "karpacz-centre",
+            "index": 22,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
+            "SHA256": "7026b4cf4d91069ec380900a18a0862244fd9e933deda241146703eeb00d7006"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "karpacz-centre",
+      "sourceIndex": 28,
+      "asset": "/assets/regional-three-full-oct24/karpacz-centre-28.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36.jpeg",
+        "sourceSHA256": "15373cf89580661b02d7030f41d5b1752e3b13f2301e89c8492f0f3fa7b76ed6",
+        "assetSHA256": "7c90af17ee62ede64fe468fc771e69735f834260a90999b5ebe161dbe82e9442",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מסילה וסביבה ירוקה של מתקן תיירותי",
+          "en": "Track and green surroundings at a visitor attraction",
+          "pl": "Tor i zielone otoczenie atrakcji turystycznej",
+          "de": "Fahrbahn und grüne Umgebung einer Freizeitanlage",
+          "cs": "Dráha a zelené okolí turistické atrakce"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "karpacz-centre",
+            "index": 28,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36.jpeg",
+            "SHA256": "15373cf89580661b02d7030f41d5b1752e3b13f2301e89c8492f0f3fa7b76ed6"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "karpacz-centre",
+      "sourceIndex": 36,
+      "asset": "/assets/regional-three-full-oct24/karpacz-centre-36.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
+        "sourceSHA256": "d0ea5d6f52e599cd2c380ef50efa34771c3a255cac8b7d434e81259d7d245be7",
+        "assetSHA256": "6dd4be4507141d2840c65c018a862080b4b4a5e0a117a744c98d72fdc032cffc",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "שלט הכניסה לקרפץ בזמן הביקור",
+          "en": "Karpacz entrance sign during the visit",
+          "pl": "Znak wjazdowy do Karpacza podczas wizyty",
+          "de": "Ortseingangsschild von Karpacz während des Besuchs",
+          "cs": "Vjezdová cedule Karpacze při návštěvě"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "karpacz-centre",
+            "index": 36,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
+            "SHA256": "d0ea5d6f52e599cd2c380ef50efa34771c3a255cac8b7d434e81259d7d245be7"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 1,
+      "asset": "/assets/regional-three-full-oct24/wang-church-01.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
+        "sourceSHA256": "be42a064d88f08d5150b215423bf1c12ca48f12ee74f6c86e6230bd4eea7cda8",
+        "assetSHA256": "fdc63a4190aae561774a4983093a7892fc5d749acf4a9490c2339b365e90533b",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מבקרים וציוד טיול בסביבת הביקור בוואנג",
+          "en": "Visitors and walking gear in the Wang visit surroundings",
+          "pl": "Odwiedzający i sprzęt turystyczny w otoczeniu kościoła Wang",
+          "de": "Besucher und Wanderausrüstung im Umfeld von Wang",
+          "cs": "Návštěvníci a turistické vybavení v okolí Wangu"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 1,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
+            "SHA256": "be42a064d88f08d5150b215423bf1c12ca48f12ee74f6c86e6230bd4eea7cda8"
+          },
+          {
+            "id": "wang-church",
+            "index": 16,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.36 (1).jpeg",
+            "SHA256": "be42a064d88f08d5150b215423bf1c12ca48f12ee74f6c86e6230bd4eea7cda8"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 10,
+      "asset": "/assets/regional-three-full-oct24/wang-church-10.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57.jpeg",
+        "sourceSHA256": "2a576a62131c2748652ae5235437f36444a0a33b7c0eb212f013d229c03f34db",
+        "assetSHA256": "457a0b03193e2a639690fd7a2997019fd768e84dc467c2b0348d1af111673430",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "כנסיית וואנג והמצבות בסביבתה",
+          "en": "Wang Church and the surrounding gravestones",
+          "pl": "Kościół Wang i otaczające go nagrobki",
+          "de": "Kirche Wang und die umliegenden Grabsteine",
+          "cs": "Kostel Wang a okolní náhrobky"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 10,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57.jpeg",
+            "SHA256": "2a576a62131c2748652ae5235437f36444a0a33b7c0eb212f013d229c03f34db"
+          },
+          {
+            "id": "wang-church",
+            "index": 20,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.50 (12).jpeg",
+            "SHA256": "2a576a62131c2748652ae5235437f36444a0a33b7c0eb212f013d229c03f34db"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 14,
+      "asset": "/assets/regional-three-full-oct24/wang-church-14.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.31 (2).jpeg",
+        "sourceSHA256": "45009ba6d6397ab7cb5cfa64b8d09e0827c3cea4eecdf160d1de6ef819a6375a",
+        "assetSHA256": "f3ccfac334a8c28e096c476f4bf5106d8381f3572373bb1e4a47c648214c8a19",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "פרט צמחייה בסביבת הביקור בוואנג",
+          "en": "Plant detail in the Wang visit surroundings",
+          "pl": "Detal roślinności w otoczeniu kościoła Wang",
+          "de": "Pflanzendetail im Umfeld von Wang",
+          "cs": "Detail rostlin v okolí Wangu"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 14,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.31 (2).jpeg",
+            "SHA256": "45009ba6d6397ab7cb5cfa64b8d09e0827c3cea4eecdf160d1de6ef819a6375a"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 31,
+      "asset": "/assets/regional-three-full-oct24/wang-church-31.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53 (1).jpeg",
+        "sourceSHA256": "3bd32254e07e169e80ef13ccd6991f1e07964f1f5d6a4e84e19d8fb8cf9ff63f",
+        "assetSHA256": "9b0c06466caa30c80b25653290ad8363bdbc48feb8e3c27b5bbc64c2795ee823",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "הכנסייה והמצבות במבט דרך העצים",
+          "en": "Church and gravestones seen through the trees",
+          "pl": "Kościół i nagrobki widziane przez drzewa",
+          "de": "Kirche und Grabsteine durch die Bäume gesehen",
+          "cs": "Kostel a náhrobky při pohledu mezi stromy"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 31,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53 (1).jpeg",
+            "SHA256": "3bd32254e07e169e80ef13ccd6991f1e07964f1f5d6a4e84e19d8fb8cf9ff63f"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 32,
+      "asset": "/assets/regional-three-full-oct24/wang-church-32.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53.jpeg",
+        "sourceSHA256": "f65e0f97029892da413717ec10c141f9158d0b3aad3eff8292be2b1707499b4c",
+        "assetSHA256": "fd769d404781e66c53949303612913979fd091a78896210019da73279755b87a",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מבט נוסף דרך העצים אל כנסיית וואנג",
+          "en": "Another view through the trees towards Wang Church",
+          "pl": "Kolejny widok przez drzewa na kościół Wang",
+          "de": "Weiterer Blick durch die Bäume zur Kirche Wang",
+          "cs": "Další pohled mezi stromy na kostel Wang"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 32,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53.jpeg",
+            "SHA256": "f65e0f97029892da413717ec10c141f9158d0b3aad3eff8292be2b1707499b4c"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 37,
+      "asset": "/assets/regional-three-full-oct24/wang-church-37.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.00.17 (4).jpeg",
+        "sourceSHA256": "fecbd653a1f7189c2de412e6918f8d455ab1f1d0a4c1905fc3d0160bf2b2ac3d",
+        "assetSHA256": "dcaf1ca6cecf8ab88b37d0af6a16042fdb33b0b07dbfe5fdd0dbd4b93a4bde0f",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "המבנה של כנסיית וואנג",
+          "en": "Wang Church building",
+          "pl": "Budynek kościoła Wang",
+          "de": "Gebäude der Kirche Wang",
+          "cs": "Budova kostela Wang"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 37,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.00.17 (4).jpeg",
+            "SHA256": "fecbd653a1f7189c2de412e6918f8d455ab1f1d0a4c1905fc3d0160bf2b2ac3d"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 38,
+      "asset": "/assets/regional-three-full-oct24/wang-church-38.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.00.17 (6).jpeg",
+        "sourceSHA256": "849b869fd728c44e6becbdb776945370d3f81da3cd60b915765a2ab3946b343d",
+        "assetSHA256": "ad802fd7b5d6c9a087be6987b71fd3653a6ba093249dded13de285c3e5630a2e",
+        "sourceDimensions": [
+          2048,
+          1536
+        ],
+        "assetDimensions": [
+          2048,
+          1536
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "כנסיית וואנג והגן שסביבה",
+          "en": "Wang Church and its surrounding garden",
+          "pl": "Kościół Wang i otaczający go ogród",
+          "de": "Kirche Wang und der umgebende Garten",
+          "cs": "Kostel Wang a okolní zahrada"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 38,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.00.17 (6).jpeg",
+            "SHA256": "849b869fd728c44e6becbdb776945370d3f81da3cd60b915765a2ab3946b343d"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 39,
+      "asset": "/assets/regional-three-full-oct24/wang-church-39.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46 (2).jpeg",
+        "sourceSHA256": "abb17a828fd0f572a8d187e821e98e262a7b844c238445052b5c59c9e484c093",
+        "assetSHA256": "c0932761504a7482f2d4c54787445ec9d7006dc7edcce7f15aa42bf6af3a1b0e",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "הכנסייה ודגלים בסביבת הביקור",
+          "en": "Church and flags in the visit grounds",
+          "pl": "Kościół i flagi na terenie zwiedzania",
+          "de": "Kirche und Flaggen auf dem Besuchsgelände",
+          "cs": "Kostel a vlajky v návštěvním areálu"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 39,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46 (2).jpeg",
+            "SHA256": "abb17a828fd0f572a8d187e821e98e262a7b844c238445052b5c59c9e484c093"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 40,
+      "asset": "/assets/regional-three-full-oct24/wang-church-40.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46 (3).jpeg",
+        "sourceSHA256": "32fec09ee9150e67728c20e663e20c736b54337683c232ef184b13172f8495d9",
+        "assetSHA256": "07f034f52ceae8c292da1fd1776c2edc2c36320023454a22f9ee2bce69985e06",
+        "sourceDimensions": [
+          2048,
+          1536
+        ],
+        "assetDimensions": [
+          2048,
+          1536
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מבט נוסף לכנסיית וואנג ולדגלים",
+          "en": "Another view of Wang Church and the flags",
+          "pl": "Kolejny widok kościoła Wang i flag",
+          "de": "Weiterer Blick auf die Kirche Wang und die Flaggen",
+          "cs": "Další pohled na kostel Wang a vlajky"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 40,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46 (3).jpeg",
+            "SHA256": "32fec09ee9150e67728c20e663e20c736b54337683c232ef184b13172f8495d9"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 41,
+      "asset": "/assets/regional-three-full-oct24/wang-church-41.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46.jpeg",
+        "sourceSHA256": "aeb517b876f498b06b314c304879f55c41a97d523e543c5fdc2db67f1634376e",
+        "assetSHA256": "906abc8dfd489d7fd75e13a4d8b0d941703889ed99d8298c7a099293471d9d7a",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "פרט בגג כנסיית וואנג",
+          "en": "Roof detail at Wang Church",
+          "pl": "Detal dachu kościoła Wang",
+          "de": "Dachdetail der Kirche Wang",
+          "cs": "Detail střechy kostela Wang"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 41,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46.jpeg",
+            "SHA256": "aeb517b876f498b06b314c304879f55c41a97d523e543c5fdc2db67f1634376e"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 42,
+      "asset": "/assets/regional-three-full-oct24/wang-church-42.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (2).jpeg",
+        "sourceSHA256": "51059b63377cac459e29db74d9d3098e61de0db8c38ae0c15d556a767523ac0b",
+        "assetSHA256": "8a74879f0fd2a1ed7c05741add3112d8d2c4f3bab4fab49f5971c673913fddec",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "מבט רחב לכנסייה ולמצבות בסביבתה",
+          "en": "Wide view of the church and surrounding gravestones",
+          "pl": "Szeroki widok kościoła i otaczających nagrobków",
+          "de": "Weiter Blick auf die Kirche und die umliegenden Grabsteine",
+          "cs": "Široký pohled na kostel a okolní náhrobky"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 42,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (2).jpeg",
+            "SHA256": "51059b63377cac459e29db74d9d3098e61de0db8c38ae0c15d556a767523ac0b"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    },
+    {
+      "canonicalId": "wang-church",
+      "sourceIndex": 44,
+      "asset": "/assets/regional-three-full-oct24/wang-church-44.jpg",
+      "metadata": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (5).jpeg",
+        "sourceSHA256": "5daf4ae1247814ec5d3b2e3359e989a9d2436ef419487a781a54dbd2661f540f",
+        "assetSHA256": "9f23bc9542589dc9a2a0cf9d42489962fa8677f9e37d4af229a24d3b669694d4",
+        "sourceDimensions": [
+          1536,
+          2048
+        ],
+        "assetDimensions": [
+          1536,
+          2048
+        ],
+        "original": true,
+        "originalFullPicturePreserved": true,
+        "alt": {
+          "he": "גילופי עץ ופרטי המבנה של כנסיית וואנג",
+          "en": "Wood carvings and building details at Wang Church",
+          "pl": "Rzeźbienia w drewnie i detale kościoła Wang",
+          "de": "Holzschnitzereien und Gebäudedetails der Kirche Wang",
+          "cs": "Dřevořezby a stavební detaily kostela Wang"
+        },
+        "sourceCaptureOccurrences": [
+          {
+            "id": "wang-church",
+            "index": 44,
+            "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (5).jpeg",
+            "SHA256": "5daf4ae1247814ec5d3b2e3359e989a9d2436ef419487a781a54dbd2661f540f"
+          }
+        ],
+        "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+        "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+      }
+    }
+  ]
+}
