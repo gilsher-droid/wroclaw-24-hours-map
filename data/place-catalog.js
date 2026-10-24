@@ -9254,7 +9254,8 @@
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg"
+        "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg",
+        "/assets/regional-full-source-oct24/brzeg-st-nicholas-full-oct24-01.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -9279,6 +9280,30 @@
             "https://zabytek.pl/pl/obiekty/brzeg-kosciol-parafialny-pw-sw-mikolaja",
             "https://brzeg.pl/sport-i-turystyka/szlaki-turystyczne/"
           ]
+        },
+        "/assets/regional-full-source-oct24/brzeg-st-nicholas-full-oct24-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.32 (8).jpeg",
+          "sourceSHA256": "2dd6004a194e733d14928ed1b34a290e2ae3ec6194ff13cb49b447429f71445c",
+          "assetSHA256": "7a5fe0ee5acdf205b8f39ee91303cc2f15a8b4936a02d7bdcc3456ffa9c35027",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "alt": {
+            "he": "שני מגדלי הלבנים והחזית של כנסיית ניקולאי הקדוש בברז׳ג במבט אלכסוני",
+            "en": "Three-quarter view of the brick twin towers and facade of St Nicholas Church in Brzeg",
+            "pl": "Ukośny widok ceglanych wież i fasady kościoła św. Mikołaja w Brzegu",
+            "de": "Schrägansicht der Backsteintürme und Fassade der Nikolaikirche in Brzeg",
+            "cs": "Šikmý pohled na cihlové věže a průčelí kostela sv. Mikuláše v Brzegu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
         }
       }
     },
@@ -25194,7 +25219,11 @@
         "/assets/excursion-three/jawor-church-of-peace-47.jpg",
         "/assets/excursion-three/jawor-church-of-peace-48.jpg",
         "/assets/excursion-three/jawor-church-of-peace-49.jpg",
-        "/assets/excursion-three/jawor-church-of-peace-50.jpg"
+        "/assets/excursion-three/jawor-church-of-peace-50.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-02.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-19.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-25.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-34.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/dUxZB14ZIIs"
@@ -25400,6 +25429,102 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/WhatsApp Image 2026-09-24 at 19.10.03 (13).jpeg",
+          "sourceSHA256": "82e207860d81d8ca51a6cde739ec9af402fd7c6dcb6532f80a95407f3740bbd9",
+          "assetSHA256": "fd8140d0d09c1060cd46c2eea608f50ffed8afc6aa9785c5f6954da7f4d482a7",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "alt": {
+            "he": "ספסלי העץ והגלריות המעוטרות בתוך כנסיית השלום ביאבור",
+            "en": "Wooden pews and decorated galleries inside the Church of Peace in Jawor",
+            "pl": "Drewniane ławki i zdobione empory w Kościele Pokoju w Jaworze",
+            "de": "Holzbänke und verzierte Emporen in der Friedenskirche in Jawor",
+            "cs": "Dřevěné lavice a zdobené galerie v kostele Míru v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.14.jpeg",
+          "sourceSHA256": "ca6105393bda2f2f5de15746f13b43f4a0626e8d4963ee5a0d8443a23bf9f2a6",
+          "assetSHA256": "8136ec8595e8ee96346125cce867bb597fe7e2337bcb9077f7656726d871ad6e",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "alt": {
+            "he": "מבט לעבר העוגב והגלריות בכנסיית השלום ביאבור",
+            "en": "View towards the organ and galleries in the Church of Peace in Jawor",
+            "pl": "Widok na organy i empory w Kościele Pokoju w Jaworze",
+            "de": "Blick zur Orgel und zu den Emporen in der Friedenskirche in Jawor",
+            "cs": "Pohled k varhanám a galeriím v kostele Míru v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15.jpeg",
+          "sourceSHA256": "261c5088a60991c33d77fed307f0638e3d9278e2097cec844c43a3e873806d7b",
+          "assetSHA256": "b882b5a151395ae1618581b380e93b8ee132ffc9711f8352af826b7ccd998284",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "alt": {
+            "he": "מבט צדדי אל העיטורים ואל שורות הספסלים בכנסיית השלום ביאבור",
+            "en": "Side view of the decorations and rows of pews in the Church of Peace in Jawor",
+            "pl": "Boczny widok dekoracji i rzędów ławek w Kościele Pokoju w Jaworze",
+            "de": "Seitlicher Blick auf Verzierungen und Bankreihen in der Friedenskirche in Jawor",
+            "cs": "Boční pohled na výzdobu a řady lavic v kostele Míru v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-34.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (4).jpeg",
+          "sourceSHA256": "09f6ef651973353b390ccfc6fec9519a9d2ea12eb0743bef19d70a3943a89d53",
+          "assetSHA256": "a2bd549bf32bce7b812eb46abc7bac0eafc9e8472364cb209ea2dfe339fb9d31",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "alt": {
+            "he": "מדרגות עץ ותקרה מצוירת בכנסיית השלום ביאבור",
+            "en": "Wooden stairs and a painted ceiling in the Church of Peace in Jawor",
+            "pl": "Drewniane schody i malowany strop w Kościele Pokoju w Jaworze",
+            "de": "Holztreppe und bemalte Decke in der Friedenskirche in Jawor",
+            "cs": "Dřevěné schody a malovaný strop v kostele Míru v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
         }
       }
     },
@@ -25663,7 +25788,8 @@
         "/assets/excursion-three/jawor-piast-castle-09.jpg",
         "/assets/excursion-three/jawor-piast-castle-10.jpg",
         "/assets/excursion-three/jawor-piast-castle-12.jpg",
-        "/assets/excursion-three/jawor-piast-castle-13.jpg"
+        "/assets/excursion-three/jawor-piast-castle-13.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-87.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -25714,6 +25840,30 @@
         "/assets/excursion-three/jawor-piast-castle-13.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (22).jpeg",
           "original": true
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-87.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (20).jpeg",
+          "sourceSHA256": "d9d71c7ba81dd2431ba28f965c9cd4af2301c6922527b3c387b80145f6f59a7a",
+          "assetSHA256": "5862b26d91116b5a7f776927e2582ed20a4bff5d34e2a87892b64ee130d50887",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "alt": {
+            "he": "שער הקשת והחזית של טירת פיאסט ביאבור",
+            "en": "Arched gateway and facade of the Piast Castle in Jawor",
+            "pl": "Łukowa brama i elewacja Zamku Piastowskiego w Jaworze",
+            "de": "Torbogen und Fassade des Piastenschlosses in Jawor",
+            "cs": "Oblouková brána a průčelí Piastovského hradu v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
         }
       }
     },
