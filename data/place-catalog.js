@@ -26120,7 +26120,16 @@
         "/assets/excursion-three/jelenia-gora-market-square-29.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-31.jpg",
         "/assets/excursion-three/jelenia-gora-market-square-32.jpg",
-        "/assets/excursion-three/jelenia-gora-market-square-33.jpg"
+        "/assets/excursion-three/jelenia-gora-market-square-33.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-03.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-05.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-36.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-52.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-53.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-54.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-56.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-57.jpg",
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-58.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/evb3VZTBi70",
@@ -26306,6 +26315,306 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16T09:16:27.749Z"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11.jpeg",
+          "sourceSHA256": "3adbd3e304f22376282b588daf57962940c8bbff3b8d06d8a9c7a17fd837905a",
+          "assetSHA256": "7438fa4612cd5f552fe57352a2f50a5b2ab408a5acf6196e18de75b41a9e1dfb",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מעבר מקורה במרכז ילניה גורה",
+            "en": "Covered passage in the centre of Jelenia Góra",
+            "pl": "Zadaszone przejście w centrum Jeleniej Góry",
+            "de": "Überdachter Durchgang im Zentrum von Jelenia Góra",
+            "cs": "Krytý průchod v centru Jelení Hory"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 3,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.24.11.jpeg",
+              "SHA256": "3adbd3e304f22376282b588daf57962940c8bbff3b8d06d8a9c7a17fd837905a"
+            },
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 18,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.31.54 (3).jpeg",
+              "SHA256": "3adbd3e304f22376282b588daf57962940c8bbff3b8d06d8a9c7a17fd837905a"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (3).jpeg",
+          "sourceSHA256": "d2b910904df9ed91977a6d4101163baf7ed050ad9cf335bbfbf0ac1fd0dbf066",
+          "assetSHA256": "387ddfe358c330167d6ef0ac96f3779bc458b404abbe940f646907d3a0d28788",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "בית העירייה ודוכנים שצולמו בזמן הביקור בכיכר",
+            "en": "Town hall and stalls photographed during our square visit",
+            "pl": "Ratusz i stoiska sfotografowane podczas wizyty na rynku",
+            "de": "Rathaus und Stände während unseres Marktbesuchs",
+            "cs": "Radnice a stánky zachycené při návštěvě náměstí"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 5,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-01 at 09.25.22 (3).jpeg",
+              "SHA256": "d2b910904df9ed91977a6d4101163baf7ed050ad9cf335bbfbf0ac1fd0dbf066"
+            },
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 26,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.31.55 (6).jpeg",
+              "SHA256": "d2b910904df9ed91977a6d4101163baf7ed050ad9cf335bbfbf0ac1fd0dbf066"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-36.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.05 (3).jpeg",
+          "sourceSHA256": "20ea3e31fb66a2ccc25c4092be11e360702077b6038cc0fb2d31c219deae1478",
+          "assetSHA256": "88303ff2743ec67915798b296a966d5b02dc60f77c5c8a45e8e1718e9117e42f",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזיתות ודוכנים בכיכר בזמן הביקור",
+            "en": "Square façades and stalls during the visit",
+            "pl": "Fasady i stoiska na rynku podczas wizyty",
+            "de": "Fassaden und Marktstände während des Besuchs",
+            "cs": "Průčelí a stánky na náměstí při návštěvě"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 36,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-05 at 18.32.05 (3).jpeg",
+              "SHA256": "20ea3e31fb66a2ccc25c4092be11e360702077b6038cc0fb2d31c219deae1478"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-52.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46 (2).jpeg",
+          "sourceSHA256": "ed1631ec983546c852f99a29510aa017f452df058a3d443bc06d2894a33e6da7",
+          "assetSHA256": "2b34ddb98e85be43c77a8543f9ac3ded8f1319bed653309dd43e6a76889faf41",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרט מתכת על חזית במרכז ההיסטורי",
+            "en": "Metal detail on a façade in the historic centre",
+            "pl": "Metalowy detal na elewacji w historycznym centrum",
+            "de": "Metalldetail an einer Fassade im historischen Zentrum",
+            "cs": "Kovový detail na průčelí v historickém centru"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 52,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46 (2).jpeg",
+              "SHA256": "ed1631ec983546c852f99a29510aa017f452df058a3d443bc06d2894a33e6da7"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-53.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46 (5).jpeg",
+          "sourceSHA256": "5692158f2f6168da48f101494b874519be60051678fc5dabf2bf849305488c8e",
+          "assetSHA256": "d9a5c090f3ff9f908a799183a11380d3d03bb07994943f196dae3488dc995a7e",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרט אדריכלי מעל מעבר במרכז ההיסטורי",
+            "en": "Architectural detail above a passage in the historic centre",
+            "pl": "Detal architektoniczny nad przejściem w historycznym centrum",
+            "de": "Architekturdetail über einem Durchgang im historischen Zentrum",
+            "cs": "Architektonický detail nad průchodem v historickém centru"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 53,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46 (5).jpeg",
+              "SHA256": "5692158f2f6168da48f101494b874519be60051678fc5dabf2bf849305488c8e"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-54.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46.jpeg",
+          "sourceSHA256": "04098c0ff1cc69bb38c8d32d1818b74129ced8c6b4e330f06c5cef8c6e284929",
+          "assetSHA256": "c897cb09cb9cf780c9fc728f7e43c71d20416f74fed13aab804287c5d33c7830",
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזיתות ופרטי מבנים במרכז ההיסטורי",
+            "en": "Façades and building details in the historic centre",
+            "pl": "Fasady i detale budynków w historycznym centrum",
+            "de": "Fassaden und Gebäudedetails im historischen Zentrum",
+            "cs": "Průčelí a detaily budov v historickém centru"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 54,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 09.59.46.jpeg",
+              "SHA256": "04098c0ff1cc69bb38c8d32d1818b74129ced8c6b4e330f06c5cef8c6e284929"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-56.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17 (2).jpeg",
+          "sourceSHA256": "6dd5ed801ff3e6f871fb14d4ac539307e19d86488b6fa2fec3c8fb2bd8b8111c",
+          "assetSHA256": "35e428335daf2db7007e99872ff5f8fd287746d20316b880dd8fe8619e702bb2",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מגדל במרכז ההיסטורי של ילניה גורה",
+            "en": "Tower in the historic centre of Jelenia Góra",
+            "pl": "Wieża w historycznym centrum Jeleniej Góry",
+            "de": "Turm im historischen Zentrum von Jelenia Góra",
+            "cs": "Věž v historickém centru Jelení Hory"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 56,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17 (2).jpeg",
+              "SHA256": "6dd5ed801ff3e6f871fb14d4ac539307e19d86488b6fa2fec3c8fb2bd8b8111c"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-57.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17 (5).jpeg",
+          "sourceSHA256": "7445ba3a881d2326916d86af93d4894dcf9144f68b2b6e231d4a3c3beff20632",
+          "assetSHA256": "61120b20dd93e2ce384b3b5993d15e7a61ce16590171a3c280131a2c0e89830c",
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "רחוב ודוכנים במרכז ההיסטורי בזמן הביקור",
+            "en": "Historic-centre street and stalls during the visit",
+            "pl": "Ulica i stoiska w historycznym centrum podczas wizyty",
+            "de": "Straße und Stände im historischen Zentrum während des Besuchs",
+            "cs": "Ulice a stánky v historickém centru při návštěvě"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 57,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17 (5).jpeg",
+              "SHA256": "7445ba3a881d2326916d86af93d4894dcf9144f68b2b6e231d4a3c3beff20632"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/jelenia-gora-market-square-58.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17.jpeg",
+          "sourceSHA256": "6151772df6be349d5cfeb5fcb008a87f455140bc01ab302cab73cf9ec04436af",
+          "assetSHA256": "4eabb9baccfd7aa36f4709ba96cd682718dd47dacf43d4af2d9ab9948a271994",
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט נוסף בכיכר בזמן הביקור",
+            "en": "Another view of the square during the visit",
+            "pl": "Kolejny widok rynku podczas wizyty",
+            "de": "Weiterer Blick auf den Marktplatz während des Besuchs",
+            "cs": "Další pohled na náměstí při návštěvě"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "jelenia-gora-market-square",
+              "index": 58,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/ילנה גורה/WhatsApp Image 2026-10-18 at 10.00.17.jpeg",
+              "SHA256": "6151772df6be349d5cfeb5fcb008a87f455140bc01ab302cab73cf9ec04436af"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
         }
       }
     },
@@ -27427,7 +27736,13 @@
         "/assets/excursion-three/karpacz-centre-16.jpg",
         "/assets/excursion-three/karpacz-centre-17.jpg",
         "/assets/excursion-three/karpacz-centre-19.jpg",
-        "/assets/excursion-three/karpacz-centre-20.jpg"
+        "/assets/excursion-three/karpacz-centre-20.jpg",
+        "/assets/regional-three-full-oct24/karpacz-centre-02.jpg",
+        "/assets/regional-three-full-oct24/karpacz-centre-12.jpg",
+        "/assets/regional-three-full-oct24/karpacz-centre-21.jpg",
+        "/assets/regional-three-full-oct24/karpacz-centre-22.jpg",
+        "/assets/regional-three-full-oct24/karpacz-centre-28.jpg",
+        "/assets/regional-three-full-oct24/karpacz-centre-36.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/j3ORWLifr1o",
@@ -27629,6 +27944,204 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16T08:59:41.682Z"
+        },
+        "/assets/regional-three-full-oct24/karpacz-centre-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
+          "sourceSHA256": "2b56207fe36a2b83cd508c973aad9dba1956084ce8d1a953229f52b1324e13fc",
+          "assetSHA256": "19462aaa549981b33e7aad32ecb2dae1b1da898b918fb8da838885a2f2497158",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דרך ונוף הרים בסביבת קרפץ",
+            "en": "Road and mountain views around Karpacz",
+            "pl": "Droga i górski krajobraz w okolicy Karpacza",
+            "de": "Straße und Bergblick bei Karpacz",
+            "cs": "Cesta a horská krajina v okolí Karpacze"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "karpacz-centre",
+              "index": 2,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-01 at 09.26.14.jpeg",
+              "SHA256": "2b56207fe36a2b83cd508c973aad9dba1956084ce8d1a953229f52b1324e13fc"
+            },
+            {
+              "id": "karpacz-centre",
+              "index": 13,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.19 (1).jpeg",
+              "SHA256": "2b56207fe36a2b83cd508c973aad9dba1956084ce8d1a953229f52b1324e13fc"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/karpacz-centre-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.16.jpeg",
+          "sourceSHA256": "58d5de2d3d988333c95571270da82d0991d05136829c8f6ff2096bb77e345846",
+          "assetSHA256": "3598294339552764c46eecda3ac53f3e826ac7c6691fa3327dc6393199d956a2",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "גגות ונוף הרים בסביבת קרפץ",
+            "en": "Roofs and mountain views around Karpacz",
+            "pl": "Dachy i widok na góry w okolicy Karpacza",
+            "de": "Dächer und Bergblick bei Karpacz",
+            "cs": "Střechy a výhled na hory v okolí Karpacze"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "karpacz-centre",
+              "index": 12,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.16.jpeg",
+              "SHA256": "58d5de2d3d988333c95571270da82d0991d05136829c8f6ff2096bb77e345846"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/karpacz-centre-21.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
+          "sourceSHA256": "cc5c0d762c5e9e97d630e60cc556f276834fb0b9d40d43ca78c860fe8e723f76",
+          "assetSHA256": "d5e944ad6124ed562232e74a17814e8f66caa148864c47192a85f7881ee65309",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מתקן תיירותי והסביבה בזמן הביקור בקרפץ",
+            "en": "Visitor attraction and surroundings during our Karpacz visit",
+            "pl": "Atrakcja turystyczna i otoczenie podczas wizyty w Karpaczu",
+            "de": "Freizeitanlage und Umgebung bei unserem Karpacz-Besuch",
+            "cs": "Turistická atrakce a okolí při návštěvě Karpacze"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "karpacz-centre",
+              "index": 21,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (1).jpeg",
+              "SHA256": "cc5c0d762c5e9e97d630e60cc556f276834fb0b9d40d43ca78c860fe8e723f76"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/karpacz-centre-22.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
+          "sourceSHA256": "7026b4cf4d91069ec380900a18a0862244fd9e933deda241146703eeb00d7006",
+          "assetSHA256": "0efd3b87314406c6370909dc6a9e353fa0e093f5ffba781c1f03dda857017ad9",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרט מקרון במתקן תיירותי בקרפץ",
+            "en": "Ride-car detail at a visitor attraction in Karpacz",
+            "pl": "Detal wagonika atrakcji turystycznej w Karpaczu",
+            "de": "Wagendetail einer Freizeitanlage in Karpacz",
+            "cs": "Detail vozíku turistické atrakce v Karpaczi"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "karpacz-centre",
+              "index": 22,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.28 (2).jpeg",
+              "SHA256": "7026b4cf4d91069ec380900a18a0862244fd9e933deda241146703eeb00d7006"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/karpacz-centre-28.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36.jpeg",
+          "sourceSHA256": "15373cf89580661b02d7030f41d5b1752e3b13f2301e89c8492f0f3fa7b76ed6",
+          "assetSHA256": "7c90af17ee62ede64fe468fc771e69735f834260a90999b5ebe161dbe82e9442",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מסילה וסביבה ירוקה של מתקן תיירותי",
+            "en": "Track and green surroundings at a visitor attraction",
+            "pl": "Tor i zielone otoczenie atrakcji turystycznej",
+            "de": "Fahrbahn und grüne Umgebung einer Freizeitanlage",
+            "cs": "Dráha a zelené okolí turistické atrakce"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "karpacz-centre",
+              "index": 28,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.36.jpeg",
+              "SHA256": "15373cf89580661b02d7030f41d5b1752e3b13f2301e89c8492f0f3fa7b76ed6"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/karpacz-centre-36.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
+          "sourceSHA256": "d0ea5d6f52e599cd2c380ef50efa34771c3a255cac8b7d434e81259d7d245be7",
+          "assetSHA256": "6dd4be4507141d2840c65c018a862080b4b4a5e0a117a744c98d72fdc032cffc",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "שלט הכניסה לקרפץ בזמן הביקור",
+            "en": "Karpacz entrance sign during the visit",
+            "pl": "Znak wjazdowy do Karpacza podczas wizyty",
+            "de": "Ortseingangsschild von Karpacz während des Besuchs",
+            "cs": "Vjezdová cedule Karpacze při návštěvě"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "karpacz-centre",
+              "index": 36,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/קרפץ/WhatsApp Image 2026-10-05 at 18.33.46 (4).jpeg",
+              "SHA256": "d0ea5d6f52e599cd2c380ef50efa34771c3a255cac8b7d434e81259d7d245be7"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
         }
       }
     },
@@ -52763,7 +53276,19 @@
         "/assets/excursion-three/wang-church-13.jpg",
         "/assets/excursion-three/wang-church-14.jpg",
         "/assets/excursion-three/wang-church-15.jpg",
-        "/assets/excursion-three/wang-church-17.jpg"
+        "/assets/excursion-three/wang-church-17.jpg",
+        "/assets/regional-three-full-oct24/wang-church-01.jpg",
+        "/assets/regional-three-full-oct24/wang-church-10.jpg",
+        "/assets/regional-three-full-oct24/wang-church-14.jpg",
+        "/assets/regional-three-full-oct24/wang-church-31.jpg",
+        "/assets/regional-three-full-oct24/wang-church-32.jpg",
+        "/assets/regional-three-full-oct24/wang-church-37.jpg",
+        "/assets/regional-three-full-oct24/wang-church-38.jpg",
+        "/assets/regional-three-full-oct24/wang-church-39.jpg",
+        "/assets/regional-three-full-oct24/wang-church-40.jpg",
+        "/assets/regional-three-full-oct24/wang-church-41.jpg",
+        "/assets/regional-three-full-oct24/wang-church-42.jpg",
+        "/assets/regional-three-full-oct24/wang-church-44.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/PBh_F_4H7SQ",
@@ -52989,6 +53514,402 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16T09:13:04.209Z"
+        },
+        "/assets/regional-three-full-oct24/wang-church-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
+          "sourceSHA256": "be42a064d88f08d5150b215423bf1c12ca48f12ee74f6c86e6230bd4eea7cda8",
+          "assetSHA256": "fdc63a4190aae561774a4983093a7892fc5d749acf4a9490c2339b365e90533b",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבקרים וציוד טיול בסביבת הביקור בוואנג",
+            "en": "Visitors and walking gear in the Wang visit surroundings",
+            "pl": "Odwiedzający i sprzęt turystyczny w otoczeniu kościoła Wang",
+            "de": "Besucher und Wanderausrüstung im Umfeld von Wang",
+            "cs": "Návštěvníci a turistické vybavení v okolí Wangu"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 1,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.50 (1).jpeg",
+              "SHA256": "be42a064d88f08d5150b215423bf1c12ca48f12ee74f6c86e6230bd4eea7cda8"
+            },
+            {
+              "id": "wang-church",
+              "index": 16,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.36 (1).jpeg",
+              "SHA256": "be42a064d88f08d5150b215423bf1c12ca48f12ee74f6c86e6230bd4eea7cda8"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57.jpeg",
+          "sourceSHA256": "2a576a62131c2748652ae5235437f36444a0a33b7c0eb212f013d229c03f34db",
+          "assetSHA256": "457a0b03193e2a639690fd7a2997019fd768e84dc467c2b0348d1af111673430",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כנסיית וואנג והמצבות בסביבתה",
+            "en": "Wang Church and the surrounding gravestones",
+            "pl": "Kościół Wang i otaczające go nagrobki",
+            "de": "Kirche Wang und die umliegenden Grabsteine",
+            "cs": "Kostel Wang a okolní náhrobky"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 10,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-01 at 09.25.57.jpeg",
+              "SHA256": "2a576a62131c2748652ae5235437f36444a0a33b7c0eb212f013d229c03f34db"
+            },
+            {
+              "id": "wang-church",
+              "index": 20,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.50 (12).jpeg",
+              "SHA256": "2a576a62131c2748652ae5235437f36444a0a33b7c0eb212f013d229c03f34db"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.31 (2).jpeg",
+          "sourceSHA256": "45009ba6d6397ab7cb5cfa64b8d09e0827c3cea4eecdf160d1de6ef819a6375a",
+          "assetSHA256": "f3ccfac334a8c28e096c476f4bf5106d8381f3572373bb1e4a47c648214c8a19",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרט צמחייה בסביבת הביקור בוואנג",
+            "en": "Plant detail in the Wang visit surroundings",
+            "pl": "Detal roślinności w otoczeniu kościoła Wang",
+            "de": "Pflanzendetail im Umfeld von Wang",
+            "cs": "Detail rostlin v okolí Wangu"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 14,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.31 (2).jpeg",
+              "SHA256": "45009ba6d6397ab7cb5cfa64b8d09e0827c3cea4eecdf160d1de6ef819a6375a"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-31.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53 (1).jpeg",
+          "sourceSHA256": "3bd32254e07e169e80ef13ccd6991f1e07964f1f5d6a4e84e19d8fb8cf9ff63f",
+          "assetSHA256": "9b0c06466caa30c80b25653290ad8363bdbc48feb8e3c27b5bbc64c2795ee823",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "הכנסייה והמצבות במבט דרך העצים",
+            "en": "Church and gravestones seen through the trees",
+            "pl": "Kościół i nagrobki widziane przez drzewa",
+            "de": "Kirche und Grabsteine durch die Bäume gesehen",
+            "cs": "Kostel a náhrobky při pohledu mezi stromy"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 31,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53 (1).jpeg",
+              "SHA256": "3bd32254e07e169e80ef13ccd6991f1e07964f1f5d6a4e84e19d8fb8cf9ff63f"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-32.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53.jpeg",
+          "sourceSHA256": "f65e0f97029892da413717ec10c141f9158d0b3aad3eff8292be2b1707499b4c",
+          "assetSHA256": "fd769d404781e66c53949303612913979fd091a78896210019da73279755b87a",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט נוסף דרך העצים אל כנסיית וואנג",
+            "en": "Another view through the trees towards Wang Church",
+            "pl": "Kolejny widok przez drzewa na kościół Wang",
+            "de": "Weiterer Blick durch die Bäume zur Kirche Wang",
+            "cs": "Další pohled mezi stromy na kostel Wang"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 32,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-05 at 18.32.53.jpeg",
+              "SHA256": "f65e0f97029892da413717ec10c141f9158d0b3aad3eff8292be2b1707499b4c"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-37.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.00.17 (4).jpeg",
+          "sourceSHA256": "fecbd653a1f7189c2de412e6918f8d455ab1f1d0a4c1905fc3d0160bf2b2ac3d",
+          "assetSHA256": "dcaf1ca6cecf8ab88b37d0af6a16042fdb33b0b07dbfe5fdd0dbd4b93a4bde0f",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "המבנה של כנסיית וואנג",
+            "en": "Wang Church building",
+            "pl": "Budynek kościoła Wang",
+            "de": "Gebäude der Kirche Wang",
+            "cs": "Budova kostela Wang"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 37,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.00.17 (4).jpeg",
+              "SHA256": "fecbd653a1f7189c2de412e6918f8d455ab1f1d0a4c1905fc3d0160bf2b2ac3d"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-38.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.00.17 (6).jpeg",
+          "sourceSHA256": "849b869fd728c44e6becbdb776945370d3f81da3cd60b915765a2ab3946b343d",
+          "assetSHA256": "ad802fd7b5d6c9a087be6987b71fd3653a6ba093249dded13de285c3e5630a2e",
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כנסיית וואנג והגן שסביבה",
+            "en": "Wang Church and its surrounding garden",
+            "pl": "Kościół Wang i otaczający go ogród",
+            "de": "Kirche Wang und der umgebende Garten",
+            "cs": "Kostel Wang a okolní zahrada"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 38,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.00.17 (6).jpeg",
+              "SHA256": "849b869fd728c44e6becbdb776945370d3f81da3cd60b915765a2ab3946b343d"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-39.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46 (2).jpeg",
+          "sourceSHA256": "abb17a828fd0f572a8d187e821e98e262a7b844c238445052b5c59c9e484c093",
+          "assetSHA256": "c0932761504a7482f2d4c54787445ec9d7006dc7edcce7f15aa42bf6af3a1b0e",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "הכנסייה ודגלים בסביבת הביקור",
+            "en": "Church and flags in the visit grounds",
+            "pl": "Kościół i flagi na terenie zwiedzania",
+            "de": "Kirche und Flaggen auf dem Besuchsgelände",
+            "cs": "Kostel a vlajky v návštěvním areálu"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 39,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46 (2).jpeg",
+              "SHA256": "abb17a828fd0f572a8d187e821e98e262a7b844c238445052b5c59c9e484c093"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-40.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46 (3).jpeg",
+          "sourceSHA256": "32fec09ee9150e67728c20e663e20c736b54337683c232ef184b13172f8495d9",
+          "assetSHA256": "07f034f52ceae8c292da1fd1776c2edc2c36320023454a22f9ee2bce69985e06",
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט נוסף לכנסיית וואנג ולדגלים",
+            "en": "Another view of Wang Church and the flags",
+            "pl": "Kolejny widok kościoła Wang i flag",
+            "de": "Weiterer Blick auf die Kirche Wang und die Flaggen",
+            "cs": "Další pohled na kostel Wang a vlajky"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 40,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46 (3).jpeg",
+              "SHA256": "32fec09ee9150e67728c20e663e20c736b54337683c232ef184b13172f8495d9"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-41.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46.jpeg",
+          "sourceSHA256": "aeb517b876f498b06b314c304879f55c41a97d523e543c5fdc2db67f1634376e",
+          "assetSHA256": "906abc8dfd489d7fd75e13a4d8b0d941703889ed99d8298c7a099293471d9d7a",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פרט בגג כנסיית וואנג",
+            "en": "Roof detail at Wang Church",
+            "pl": "Detal dachu kościoła Wang",
+            "de": "Dachdetail der Kirche Wang",
+            "cs": "Detail střechy kostela Wang"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 41,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.46.jpeg",
+              "SHA256": "aeb517b876f498b06b314c304879f55c41a97d523e543c5fdc2db67f1634376e"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-42.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (2).jpeg",
+          "sourceSHA256": "51059b63377cac459e29db74d9d3098e61de0db8c38ae0c15d556a767523ac0b",
+          "assetSHA256": "8a74879f0fd2a1ed7c05741add3112d8d2c4f3bab4fab49f5971c673913fddec",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט רחב לכנסייה ולמצבות בסביבתה",
+            "en": "Wide view of the church and surrounding gravestones",
+            "pl": "Szeroki widok kościoła i otaczających nagrobków",
+            "de": "Weiter Blick auf die Kirche und die umliegenden Grabsteine",
+            "cs": "Široký pohled na kostel a okolní náhrobky"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 42,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (2).jpeg",
+              "SHA256": "51059b63377cac459e29db74d9d3098e61de0db8c38ae0c15d556a767523ac0b"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
+        },
+        "/assets/regional-three-full-oct24/wang-church-44.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (5).jpeg",
+          "sourceSHA256": "5daf4ae1247814ec5d3b2e3359e989a9d2436ef419487a781a54dbd2661f540f",
+          "assetSHA256": "9f23bc9542589dc9a2a0cf9d42489962fa8677f9e37d4af229a24d3b669694d4",
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "גילופי עץ ופרטי המבנה של כנסיית וואנג",
+            "en": "Wood carvings and building details at Wang Church",
+            "pl": "Rzeźbienia w drewnie i detale kościoła Wang",
+            "de": "Holzschnitzereien und Gebäudedetails der Kirche Wang",
+            "cs": "Dřevořezby a stavební detaily kostela Wang"
+          },
+          "sourceCaptureOccurrences": [
+            {
+              "id": "wang-church",
+              "index": 44,
+              "source": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (5).jpeg",
+              "SHA256": "5daf4ae1247814ec5d3b2e3359e989a9d2436ef419487a781a54dbd2661f540f"
+            }
+          ],
+          "review": "Distinct relevant full photograph compared visually with current gallery. Incidental public visitors permitted; posed portraits held separately. No arbitrary media cap.",
+          "preparedAt": "2026-10-24T14:11:48.743827+00:00"
         }
       }
     },
