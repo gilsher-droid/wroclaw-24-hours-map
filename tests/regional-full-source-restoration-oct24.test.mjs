@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
+const newFull=JSON.parse(readFileSync('data/brzeg-moszna-distinct18-oct24-preservation.json'));
 const proof=JSON.parse(readFileSync('data/regional-full-source-restoration-oct24-preservation.json')),additional=JSON.parse(readFileSync('data/jawor-brzeg-source-photo-additions-oct24-preservation.json')),w={};
 for(const f of ['data/place-catalog.js','data/lower-silesia-excursions.js','data/youtube-video-hosting.js'])runInNewContext(readFileSync(f,'utf8'),{window:w,console});
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
@@ -21,7 +22,7 @@ test('Regional restoration preserves all225 unrelated canonicals and all existin
 });
 test('All91 distinct restored full photographs have exact provenance and remain accessible through the shared regional catalog',()=>{
  assert.equal(proof.photos.length,91);assert.equal(new Set(proof.photos.map(p=>p.pixelSHA256)).size,91);
- for(const[id,n]of Object.entries(proof.expectedPhotoCounts))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,n,id);
+ for(const[id,n]of Object.entries(proof.expectedPhotoCounts))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,newFull.expectedPhotoCounts[id]??n,id);
  for(const r of proof.photos){
   const p=w.WROC_CATALOG.getPlace(r.canonicalId),m=p.media.metadata[r.asset];assert.equal(p.media.photos.filter(a=>a===r.asset).length,1);
   assert.equal(createHash('sha256').update(readFileSync('.'+r.asset)).digest('hex'),r.assetSHA256);
