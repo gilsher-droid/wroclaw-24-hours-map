@@ -77,6 +77,7 @@ test('24-hour and four-day social actions use canonical identity across all lang
 
 test('premium recommendations retain editorial text, hydrate canonical-only places, and expose social/media actions',()=>{
  const window=routeFixture('en');
+ runInNewContext(readFileSync(new URL('../place-popup-photo.js',import.meta.url),'utf8'),{window,document:{addEventListener(){}}});
  const lake=window.PREMIUM_RECOMMENDATIONS.find(item=>item.id==='morskie-oko-wroclaw');
  const stadium=window.PREMIUM_RECOMMENDATIONS.find(item=>item.id==='stadion-olimpijski-wroclaw');
  for(const item of [lake,stadium]) {

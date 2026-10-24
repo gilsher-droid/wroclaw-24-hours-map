@@ -2,13 +2,19 @@
 .place-popup-photo-link[hidden] { display:none; }
 .place-popup-photo { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:6px; }
 .place-popup-photo-link:focus-visible { outline:3px solid #d6a657; outline-offset:3px; }
+.place-popup-photo-placeholder { display:block; width:80px; max-width:100%; margin:0 0 6px; padding:3px; box-sizing:border-box; border:1px solid #c99c50; border-radius:8px; background:#fff; }
+.place-photo-logo { object-fit:contain!important; object-position:center!important; aspect-ratio:1!important; background:#fff!important; }
+.place-card-logo { display:block; float:inline-end; width:72px; max-width:30%; margin-inline-start:10px; margin-bottom:6px; }
+.place-card-logo img { display:block; width:100%; height:auto; border-radius:8px; }
+.place-popup-photo-placeholder .place-photo-logo { width:100%; height:auto; }
 /* Compact shared popup layout: keep every action visible without an inner scroller. */
 .leaflet-popup-content {
   width:300px !important; min-width:0; max-width:calc(100vw - 70px);
   max-height:none; overflow:visible; margin:12px 14px;
   font-size:12px; line-height:1.4; text-align:start; display:flow-root;
 }
-.leaflet-popup-content .place-popup-photo-link {
+.leaflet-popup-content .place-popup-photo-link,
+.leaflet-popup-content .place-popup-photo-placeholder {
   float:inline-end; width:64px; margin:0 0 5px 0; margin-inline-start:10px;
 }
 .leaflet-popup-content .popup-title,

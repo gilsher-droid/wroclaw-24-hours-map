@@ -88,7 +88,7 @@ const homeExperienceScripts = await Promise.all([
   "/site-actions.js", "/home-maps.js",
   "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
   "/data/canonical-experiences.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js",
-  "/place-panel.js", "/place-panel-copy.js", "/place-ai.js", "/place-ai-model.js",
+  "/place-popup-photo.js", "/place-panel.js", "/place-panel-copy.js", "/place-ai.js", "/place-ai-model.js",
   "/experiences.js", "/guide-video.js", "/youtube-video.js",
 ].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
 for (const file of ["index.html", "experiences.html"]) {
@@ -100,7 +100,7 @@ for (const file of ["index.html", "experiences.html"]) {
 
 for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html", "guides.html"]) {
   const html = await readFile(resolve(root, file), "utf8");
-  const scripts = await Promise.all(["/place-ai-model.js", "/place-ai.js", "/site-actions.js", "/guide-map.js", "/guide-map-model.js", "/data/guide-map-places.js", "/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js", "/excursions.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
+  const scripts = await Promise.all(["/place-popup-photo.js", "/place-ai-model.js", "/place-ai.js", "/site-actions.js", "/guide-map.js", "/guide-map-model.js", "/data/guide-map-places.js", "/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js", "/excursions.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
   await writeFile(resolve(interactiveMaps, file), versionScriptUrls(html, scripts));
 }
 

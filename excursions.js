@@ -387,7 +387,7 @@
       const canonical=place(id);if(!canonical) return "";
       const photos=mediaItems(canonical,"photos"),videos=mediaItems(canonical,"videos");
       const openPhoto=(photo,index,cover=false)=>`<button type="button" class="${cover?"place-cover-button":"place-photo-button"}" data-place-gallery="${escapeHtml(id)}" data-media-kind="photos" data-media-index="${index}" aria-label="${escapeHtml(mediaLabels[language].open)}: ${escapeHtml(local(canonical.name))}, ${index+1} / ${photos.length}"><img ${cover?'class="place-cover"':'loading="lazy"'} src="${escapeHtml(photo)}" alt="${escapeHtml(local(canonical.name))}"></button>`;
-      const cover=photos[0]?openPhoto(photos[0],0,true):"";
+      const cover=photos[0]?openPhoto(photos[0],0,true):window.WROC_PLACE_POPUP_PHOTO.imageHtml(canonical,language,"place-cover");
       const strip=photos.slice(1,4).map((photo,index)=>openPhoto(photo,index+1)).join("");
       const video=videos[0]?window.WROC_YOUTUBE_VIDEO.html(videos[0],local(canonical.name),language):"";
       return `<article class="place-card" id="excursion-place-${id}" tabindex="-1" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical,language)}<p>${local(canonical.description)}</p><div class="photo-strip">${strip}</div><div class="place-actions excursion-gallery-actions">${mediaButtons(canonical)}</div>${video}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;

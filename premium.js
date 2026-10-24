@@ -377,6 +377,7 @@
       <article class="premium-stop-card ${item.optional ? "optional" : ""}" data-canonical-place-id="${item.canonicalPlaceId || item.id}" id="stop-${item.id}">
         <div class="stop-index" style="--marker-color:${categoryColors[item.category]}">${item.order}</div>
         <div class="stop-copy">
+          ${window.WROC_PLACE_POPUP_PHOTO.placeholderHtml(item,language)}
           <div class="stop-heading">
             <div><h3>${escapeHtml(text(item.name))}</h3><span>${escapeHtml(item.localName)}</span></div>
             <div class="stop-badges"><span>${escapeHtml(t(`categories.${item.category}`))}</span>${item.optional ? `<span class="optional-badge">${escapeHtml(t("optional"))}</span>` : ""}${placeAmenities.labelBadgeHtml(item, language)}</div>
@@ -468,6 +469,7 @@
     const recommendations = window.PREMIUM_RECOMMENDATIONS.filter((item) => recommendationFilter === "all" || item.category === recommendationFilter);
     document.getElementById("recommendation-grid").innerHTML = recommendations.map((item) => `
       <article class="recommendation-card" data-canonical-place-id="${escapeHtml(item.canonicalPlaceId || item.id)}">
+        ${window.WROC_PLACE_POPUP_PHOTO.placeholderHtml(item,language)}
         <span class="recommendation-type">${escapeHtml(t(item.category))}</span>
         <h3>${escapeHtml(text(item.name))}</h3>
         <small>${escapeHtml(item.localName)}</small>

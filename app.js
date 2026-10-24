@@ -288,6 +288,7 @@
         <article class="route-card" data-category="${location.category}" data-canonical-place-id="${location.canonicalPlaceId || location.id}" id="stop-${location.id}">
           <div class="stop-number" style="background:${categoryColors[location.category]}">${location.order}</div>
           <div>
+            ${window.WROC_PLACE_POPUP_PHOTO.placeholderHtml(location,currentLanguage)}
             <h3>${escapeHtml(location.name[currentLanguage])}</h3>
             <div class="local-name">${escapeHtml(location.localName)}</div>
             ${placeAmenities.labelBadgeHtml(location, currentLanguage)}
