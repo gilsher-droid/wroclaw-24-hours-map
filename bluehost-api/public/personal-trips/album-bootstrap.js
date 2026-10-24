@@ -2,7 +2,8 @@
  'use strict';
  let version='';const script=src=>new Promise((resolve,reject)=>{const el=document.createElement('script');el.src='./'+src+'?v='+encodeURIComponent(version);el.onload=resolve;el.onerror=reject;document.body.append(el);});
  try{
-  const r=await fetch('?action=album-context',{credentials:'same-origin',cache:'no-store'});if(!r.ok)throw Error('auth');const context=await r.json();window.WROC_ALBUM_CONTEXT=context;version=context.assetVersion||'';
+  const owner=new URLSearchParams(location.search).get('customer');const scope=owner?'&customer='+encodeURIComponent(owner):'';
+  const r=await fetch('?action=album-context'+scope,{credentials:'same-origin',cache:'no-store'});if(!r.ok)throw Error('auth');const context=await r.json();window.WROC_ALBUM_CONTEXT=context;version=context.assetVersion||'';
   const trip=context.route;window.WROC_ALBUM_ROUTE=trip.days.map(d=>[...new Set([...d.stops,...(d.food||[])].map(s=>s.placeId))]);
   if(!window.WROC_ALBUM_ROUTE.length||window.WROC_ALBUM_ROUTE.some(ids=>!ids.length))throw Error('route');
   await script('public-catalog.js');const publicCatalog=window.WROC_CATALOG;

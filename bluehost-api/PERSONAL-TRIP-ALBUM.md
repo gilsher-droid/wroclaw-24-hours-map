@@ -45,3 +45,30 @@ requests, cross-user denial, duplicate detection, restore, ZIP backup, a fresh
 session read and private recovery-file permissions. Test the native browser
 workflow and the actual deployed host as well. Never reset a real user's chosen
 password for verification.
+
+## Owner administration
+
+Owner accounts are separate protected user records with `role: "owner-admin"`.
+The role is not assignable through the customer UI or request payloads. Use an
+independently generated strong password for each authorized owner; never reuse
+or retain a customer's chosen password. Owner password changes require at least
+16 characters. Revoking the saved role, disabling the owner, or changing the
+session version takes effect on the next request.
+
+`/personal-trips/?action=admin` lists all valid customer maps automatically.
+Direct owner links use `?action=album&customer=<customer-user-key>` and require an
+owner login. The key is a routing identifier, not an access token. Every browser
+tab and API/media/export request carries its own customer scope, rather than
+changing a global selected customer. Customer requests with that parameter are
+denied. Owner access operates on the original customer album, not a duplicate.
+Opening an album or submitting a write records the actor and customer scope in
+`personal-trips-private/owner-access.jsonl` (0600), outside the document root.
+Owner map links survive sign-in and do not change the customer password.
+
+Deploy `owner-admin.php`, `index.php`, `album-api.php`, `album-page.php`,
+`album-bootstrap.js`, `album-server-store.js`, `app.css`, and `album-assets.json`
+together. Provision the two explicitly authorized owners as new protected user
+records, without replacing existing customer accounts or the server key. Private
+records and credentials must not enter Git or a public deployment bundle. Send
+each owner their own credentials privately and include a direct owner link in
+all future customer-delivery copies.
