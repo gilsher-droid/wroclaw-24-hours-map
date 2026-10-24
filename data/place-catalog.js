@@ -5890,7 +5890,9 @@
         "https://youtube.com/shorts/KVL-jKq3jTc",
         "https://youtube.com/watch?v=TTn0iQPIQTA",
         "https://youtube.com/shorts/AYEFN90-7N0",
-        "https://youtube.com/shorts/ummWiuQrOds"
+        "https://youtube.com/shorts/ummWiuQrOds",
+        "https://www.youtube.com/watch?v=EQHCbDOU-zk",
+        "https://www.youtube.com/watch?v=T879-KBxSQw"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/0OvV3ic5ukk",
@@ -7468,6 +7470,64 @@
           "noNewUpload": true,
           "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
           "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://www.youtube.com/watch?v=EQHCbDOU-zk": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.28.mp4",
+          "sourceSHA256": "3cda12a1f59b33770a3d2e699c10db82b183bb12462d16c0543a437a9fb6293d",
+          "uploadSHA256": "25a8cf092cc73a23abe0ba270bf098345e81226e2ef88144e541f27ea4b85881",
+          "durationSeconds": 1.366667,
+          "status": "public",
+          "visibility": "Public",
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "מבט נוסף לכיכר ולקשת בבולסלבייץ",
+            "en": "Boleslawiec square and rainbow, another visit view",
+            "pl": "Rynek i tęcza w Bolesławcu, kolejne ujęcie",
+            "de": "Marktplatz und Regenbogen in Bunzlau, weitere Aufnahme",
+            "cs": "Náměstí a duha v Boleslavci, další záběr"
+          },
+          "approvalCall": "call_20c8295d1722407fbbbddf1de48bbc48",
+          "publicEvidence": "regional-visit-01-public-reopened.txt",
+          "verifiedAt": "2026-10-24T09:35:36.691723+00:00",
+          "original": true,
+          "tags": [
+            "visit"
+          ]
+        },
+        "https://www.youtube.com/watch?v=T879-KBxSQw": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 19.22.05.mp4",
+          "sourceSHA256": "d50893c7303550386fb2cce0ec25a8a646579059969284abfb3a40852982eab5",
+          "uploadSHA256": "55e7aaa2e933d095f061c1abf1682eee20d6d933b4479d9a39fbe5e835c7217b",
+          "durationSeconds": 42.566667,
+          "status": "public",
+          "visibility": "Public",
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "הכנסייה והקשת בכיכר בבולסלבייץ",
+            "en": "Boleslawiec church and rainbow in the square",
+            "pl": "Kościół i tęcza na placu w Bolesławcu",
+            "de": "Kirche und Regenbogen am Platz in Bunzlau",
+            "cs": "Kostel a duha na náměstí v Boleslavci"
+          },
+          "approvalCall": "call_20c8295d1722407fbbbddf1de48bbc48",
+          "publicEvidence": "regional-visit-14-public-reopened.txt",
+          "verifiedAt": "2026-10-24T09:35:36.691723+00:00",
+          "original": true,
+          "tags": [
+            "visit"
+          ]
         }
       }
     },
@@ -13332,7 +13392,9 @@
       ],
       "videos": [
         "https://youtube.com/shorts/L1Z0nIxGFsU",
-        "https://youtube.com/shorts/LQZA0KUMTyM"
+        "https://youtube.com/shorts/LQZA0KUMTyM",
+        "https://www.youtube.com/watch?v=-O-wQlidsh4",
+        "https://www.youtube.com/watch?v=eIKZi0sH5dA"
       ],
       "metadata": {
         "/assets/czocha-boleslawiec/czocha-castle-001.jpg": {
@@ -15017,6 +15079,64 @@
           ],
           "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
           "preparedAt": "2026-10-23T21:31:09.095050+00:00"
+        },
+        "https://www.youtube.com/watch?v=-O-wQlidsh4": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Video 2026-09-24 at 17.21.44.mp4",
+          "sourceSHA256": "3ca6623667cd8b1cf707f9bb84b8350516baeaa8e8db65b368087b510a7926c8",
+          "uploadSHA256": "27ad433b844db9a4d2be7481bae6ec91fe5ffc28e6858fa4d25bd8ab55f65f8e",
+          "durationSeconds": 11.178333,
+          "status": "public",
+          "visibility": "Public",
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "חלון ופרטי המבנה בטירת צ׳וחה",
+            "en": "Czocha Castle window and architectural details",
+            "pl": "Okno i detale architektoniczne zamku Czocha",
+            "de": "Fenster und Baudetails der Burg Czocha",
+            "cs": "Okno a architektonické detaily hradu Czocha"
+          },
+          "approvalCall": "call_20c8295d1722407fbbbddf1de48bbc48",
+          "publicEvidence": "regional-visit-39-public-reopened.txt",
+          "verifiedAt": "2026-10-24T09:35:36.691723+00:00",
+          "original": true,
+          "tags": [
+            "visit"
+          ]
+        },
+        "https://www.youtube.com/watch?v=eIKZi0sH5dA": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Video 2026-09-24 at 17.23.38.mp4",
+          "sourceSHA256": "b70013bb391d5ef6cce64c6ad1e3b9906e380c7db754d7c6e11b5826d1bfcf97",
+          "uploadSHA256": "1c46cb19fb2114209453fcb8a6c50abee34335822be154a5bd0886f72603d73d",
+          "durationSeconds": 7.666667,
+          "status": "public",
+          "visibility": "Public",
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "פרחים במתחם הביקור בצ׳וחה",
+            "en": "Flowers in the Czocha visit grounds",
+            "pl": "Kwiaty na terenie odwiedzin w Czosze",
+            "de": "Blumen auf dem Besuchsgelände in Czocha",
+            "cs": "Květiny v navštíveném areálu Czocha"
+          },
+          "approvalCall": "call_20c8295d1722407fbbbddf1de48bbc48",
+          "publicEvidence": "regional-visit-41-public-reopened.txt",
+          "verifiedAt": "2026-10-24T09:35:36.691723+00:00",
+          "original": true,
+          "tags": [
+            "visit"
+          ]
         }
       }
     },

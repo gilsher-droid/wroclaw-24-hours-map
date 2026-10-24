@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
-const proof=JSON.parse(readFileSync('data/regional-full-source-restoration-oct24-preservation.json')),w={};
+const proof=JSON.parse(readFileSync('data/regional-full-source-restoration-oct24-preservation.json')),additional=JSON.parse(readFileSync('data/jawor-brzeg-source-photo-additions-oct24-preservation.json')),w={};
 for(const f of ['data/place-catalog.js','data/lower-silesia-excursions.js','data/youtube-video-hosting.js'])runInNewContext(readFileSync(f,'utf8'),{window:w,console});
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 test('Regional restoration preserves all225 unrelated canonicals and all existing identity, hero, social, guides and media',()=>{
@@ -35,7 +35,7 @@ test('All91 distinct restored full photographs have exact provenance and remain 
 });
 test('Eight previously Public Boleslawiec clips are reused without uploading again or disturbing existing guides',()=>{
  assert.equal(proof.reusedVisits.length,8);
- for(const[id,n]of Object.entries(proof.expectedVisitCounts))assert.equal(w.WROC_CATALOG.getPlace(id).media.videos.length,n,id);
+ for(const[id,n]of Object.entries(proof.expectedVisitCounts))assert.equal(w.WROC_CATALOG.getPlace(id).media.videos.length,additional.expectedVisitCounts[id]??n,id);
  for(const r of proof.reusedVisits){const p=w.WROC_CATALOG.getPlace(r.canonicalId);assert.equal(p.media.videos.filter(u=>u===r.youtube).length,1);assert.equal(p.media.metadata[r.youtube].noNewUpload,true);assert.ok(Object.values(w.WROC_YOUTUBE_VIDEO_HOSTING).some(v=>v.sourceSHA256===r.sourceSHA256&&v.youtube===r.youtube&&v.status==='public'));}
  assert.deepEqual(plain(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.guideVideos),proof.places['boleslawiec-old-town'].media.guideVideos);
 });

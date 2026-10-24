@@ -34,11 +34,11 @@ test('Boleslawiec historical curation stays documented while all authorized dist
  assert.equal(curation.originalsPreserved,true);assert.equal(curation.excluded.length,56);
  for(const [id,count] of Object.entries(curation.after))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,restoration.expectedPhotoCounts[id]);
  for(const group of curation.groups){const place=w.WROC_CATALOG.getPlace(group.placeId);assert.ok(group.retained.length);for(const asset of group.retained)assert.ok(place.media.photos.includes(asset));for(const asset of group.excluded){assert.ok(restoration.photos.some(r=>r.asset===asset));assert.equal(place.media.photos.includes(asset),true);assert.equal(existsSync(asset.slice(1)),true);}}
- assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.videos.length,13);assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-ceramics-museum').media.videos.length,1);
+ assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.videos.length,15);assert.equal(w.WROC_CATALOG.getPlace('boleslawiec-ceramics-museum').media.videos.length,1);
 });
 
 test('All distinct previously Public Boleslawiec visits return to the same canonical gallery without reupload',()=>{
  const w=load(),c=JSON.parse(readFileSync('data/boleslawiec-video-curation.json','utf8')),gallery=w.WROC_CATALOG.getPlace(c.placeId).media.videos;
- assert.equal(c.youTubePublicUploadsPreserved,true);assert.equal(c.originalsPreserved,true);assert.equal(c.excluded.length,8);assert.equal(gallery.length,13);
+ assert.equal(c.youTubePublicUploadsPreserved,true);assert.equal(c.originalsPreserved,true);assert.equal(c.excluded.length,8);assert.equal(gallery.length,15);
  for(const r of c.retained)assert.ok(gallery.includes(r.youtube));for(const r of c.excluded){assert.ok(restoration.reusedVisits.some(v=>v.youtube===r.youtube));assert.equal(gallery.includes(r.youtube),true);}
 });
