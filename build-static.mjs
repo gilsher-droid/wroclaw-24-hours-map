@@ -6,6 +6,7 @@ import { cp, mkdir, rm, writeFile, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const root = process.cwd();
+await (await import("./tools/generate-community-places.mjs")).generateCommunityPlaces(root);
 await generateGuideMap(root);
 await generateHomeExcursions(root);
 await generateHomeExperiences(root);
@@ -22,6 +23,10 @@ await mkdir(interactiveMaps, { recursive: true });
 
 for (const file of [
   "index.html",
+  "community.html",
+  "community-app.js",
+  "community-copy.js",
+  "community.css",
   "place-ai-model.js",
   "place-ai.js",
   "place-ai.css",
@@ -85,13 +90,14 @@ for (const file of [
 // These root pages also consume generated experience data. Content-address the
 // scripts so a returning visitor does not keep an older experience list.
 const homeExperienceScripts = await Promise.all([
+  "/community-app.js", "/community-copy.js",
   "/site-actions.js", "/home-maps.js",
   "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
   "/data/canonical-experiences.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js",
   "/place-panel.js", "/place-panel-copy.js", "/place-ai.js", "/place-ai-model.js",
   "/experiences.js", "/guide-video.js", "/youtube-video.js",
 ].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
-for (const file of ["index.html", "experiences.html"]) {
+for (const file of ["index.html", "experiences.html", "community.html"]) {
   await writeFile(resolve(client, file), versionScriptUrls(await readFile(resolve(root, file), "utf8"), homeExperienceScripts));
 }
 

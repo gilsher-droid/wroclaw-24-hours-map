@@ -1,0 +1,3152 @@
+{
+  "absynt-aparthotel-garbary-wroclaw": {
+    "id": "absynt-aparthotel-garbary-wroclaw",
+    "name": {
+      "he": "אבסינט אפרטהוטל, גארבארי",
+      "en": "Absynt ApartHotel, Garbary",
+      "pl": "Absynt ApartHotel, Garbary",
+      "de": "Absynt ApartHotel, Garbary",
+      "cs": "Absynt ApartHotel, Garbary"
+    },
+    "coordinates": {
+      "lat": 51.1129784,
+      "lng": 17.0310894
+    }
+  },
+  "ac-hotel": {
+    "id": "ac-hotel",
+    "name": {
+      "he": "מלון איי סי ורוצלב",
+      "en": "AC Hotel by Marriott Wrocław",
+      "pl": "AC Hotel by Marriott Wrocław",
+      "de": "AC Hotel by Marriott Wrocław",
+      "cs": "AC Hotel by Marriott Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1076041,
+      "lng": 17.0266219
+    }
+  },
+  "aleja-bielany": {
+    "id": "aleja-bielany",
+    "name": {
+      "he": "Aleja Bielany",
+      "en": "Aleja Bielany",
+      "pl": "Aleja Bielany",
+      "de": "Aleja Bielany",
+      "cs": "Aleja Bielany"
+    },
+    "coordinates": {
+      "lat": 51.0489,
+      "lng": 16.95959
+    }
+  },
+  "altus": {
+    "id": "altus",
+    "name": {
+      "he": "מלון אלטוס פאלאס",
+      "en": "Hotel Altus Palace",
+      "pl": "Hotel Altus Palace",
+      "de": "Hotel Altus Palace",
+      "cs": "Hotel Altus Palace"
+    },
+    "coordinates": {
+      "lat": 51.1049686,
+      "lng": 17.0364123
+    }
+  },
+  "apartamenty-marina-topacz-wroclaw": {
+    "id": "apartamenty-marina-topacz-wroclaw",
+    "name": {
+      "he": "דירות מרינה טופץ׳",
+      "en": "Apartamenty Marina Topacz",
+      "pl": "Apartamenty Marina Topacz",
+      "de": "Apartamenty Marina Topacz",
+      "cs": "Apartamenty Marina Topacz"
+    },
+    "coordinates": {
+      "lat": 51.1147264,
+      "lng": 17.0325428
+    }
+  },
+  "arche-klasztor": {
+    "id": "arche-klasztor",
+    "name": {
+      "he": "Arche Klasztor Wrocław",
+      "en": "Arche Klasztor Wrocław",
+      "pl": "Arche Klasztor Wrocław",
+      "de": "Arche Klasztor Wrocław",
+      "cs": "Arche Klasztor Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.138478,
+      "lng": 17.0509769
+    }
+  },
+  "art-hotel": {
+    "id": "art-hotel",
+    "name": {
+      "he": "ארט הוטל",
+      "en": "Art Hotel",
+      "pl": "Art Hotel",
+      "de": "Art Hotel",
+      "cs": "Art Hotel"
+    },
+    "coordinates": {
+      "lat": 51.1121845,
+      "lng": 17.0298225
+    }
+  },
+  "ato-ramen": {
+    "id": "ato-ramen",
+    "name": {
+      "he": "אטו ראמן",
+      "en": "Ato Ramen",
+      "pl": "Ato Ramen",
+      "de": "Ato Ramen",
+      "cs": "Ato Ramen"
+    },
+    "coordinates": {
+      "lat": 51.1117934,
+      "lng": 17.0312819
+    }
+  },
+  "aula": {
+    "id": "aula",
+    "name": {
+      "he": "אולה לאופולדינה",
+      "en": "Aula Leopoldina",
+      "pl": "Aula Leopoldina",
+      "de": "Aula Leopoldina",
+      "cs": "Aula Leopoldina"
+    },
+    "coordinates": {
+      "lat": 51.11371,
+      "lng": 17.03362
+    }
+  },
+  "bar-mis": {
+    "id": "bar-mis",
+    "name": {
+      "he": "בר מיש",
+      "en": "Bar Miś",
+      "pl": "Bar Miś",
+      "de": "Milchbar Miś",
+      "cs": "Mléčný bar Miś"
+    },
+    "coordinates": {
+      "lat": 51.1126723,
+      "lng": 17.0342938
+    }
+  },
+  "barbara-wroclaw": {
+    "id": "barbara-wroclaw",
+    "name": {
+      "he": "ברברה, מרכז תרבות ובית קפה",
+      "en": "Barbara Cultural Centre and Café",
+      "pl": "Barbara, przestrzeń kultury i kawiarnia",
+      "de": "Barbara, Kulturzentrum und Café",
+      "cs": "Barbara, kulturní centrum a kavárna"
+    },
+    "coordinates": {
+      "lat": 51.10769750953518,
+      "lng": 17.032835136772945
+    }
+  },
+  "bastion": {
+    "id": "bastion",
+    "name": {
+      "he": "בסטיון סאקבובי",
+      "en": "Sakwowy Bastion",
+      "pl": "Bastion Sakwowy",
+      "de": "Bastion Sakwowy",
+      "cs": "Bašta Sakwowy"
+    },
+    "coordinates": {
+      "lat": 51.10519,
+      "lng": 17.03829
+    }
+  },
+  "bb-hotel-wroclaw-old-town": {
+    "id": "bb-hotel-wroclaw-old-town",
+    "name": {
+      "he": "מלון בי אנד בי בעיר העתיקה",
+      "en": "B&B HOTEL Wrocław Old Town",
+      "pl": "B&B HOTEL Wrocław Old Town",
+      "de": "B&B HOTEL Wrocław Old Town",
+      "cs": "B&B HOTEL Wrocław Old Town"
+    },
+    "coordinates": {
+      "lat": 51.1097895,
+      "lng": 17.0301035
+    }
+  },
+  "bernard-bistro-wino": {
+    "id": "bernard-bistro-wino",
+    "name": {
+      "he": "Bernard Bistro Wino",
+      "en": "Bernard Bistro Wino",
+      "pl": "Bernard Bistro Wino",
+      "de": "Bernard Bistro Wino",
+      "cs": "Bernard Bistro Wino"
+    },
+    "coordinates": {
+      "lat": 51.1101033,
+      "lng": 17.0334619
+    }
+  },
+  "bistro-stu-mostow": {
+    "id": "bistro-stu-mostow",
+    "name": {
+      "he": "Bistro Stu Mostów",
+      "en": "Bistro Stu Mostów",
+      "pl": "Bistro Stu Mostów",
+      "de": "Bistro Stu Mostów",
+      "cs": "Bistro Stu Mostów"
+    },
+    "coordinates": {
+      "lat": 51.108564,
+      "lng": 17.0331246
+    }
+  },
+  "boguslawskiego": {
+    "id": "boguslawskiego",
+    "name": {
+      "he": "רחוב המסעדות בוגוסלבסקייגו",
+      "en": "Bogusławskiego restaurant street",
+      "pl": "Ulica Wojciecha Bogusławskiego",
+      "de": "Restaurantstraße Bogusławskiego",
+      "cs": "Ulice Bogusławskiego, restaurace pod oblouky"
+    },
+    "coordinates": {
+      "lat": 51.10289,
+      "lng": 17.02979
+    }
+  },
+  "boleslawiec-ceramics-museum": {
+    "id": "boleslawiec-ceramics-museum",
+    "name": {
+      "he": "מוזיאון הקרמיקה בבולסלבייץ",
+      "en": "Ceramics Museum in Bolesławiec",
+      "pl": "Muzeum Ceramiki w Bolesławcu",
+      "de": "Keramikmuseum in Bolesławiec",
+      "cs": "Muzeum keramiky v Bolesławci"
+    },
+    "coordinates": {
+      "lat": 51.265045,
+      "lng": 15.5556335
+    }
+  },
+  "boleslawiec-old-town": {
+    "id": "boleslawiec-old-town",
+    "name": {
+      "he": "בולסלבייץ, הכיכר והעיר העתיקה",
+      "en": "Bolesławiec market square and old town",
+      "pl": "Rynek i stare miasto w Bolesławcu",
+      "de": "Marktplatz und Altstadt von Bolesławiec",
+      "cs": "Náměstí a historické centrum Bolesławce"
+    },
+    "coordinates": {
+      "lat": 51.262998,
+      "lng": 15.564833
+    }
+  },
+  "boogie-aparthouse-garbary": {
+    "id": "boogie-aparthouse-garbary",
+    "name": {
+      "he": "בוגי אפרטהאוס גרברי",
+      "en": "Boogie ApartHouse Garbary",
+      "pl": "Boogie ApartHouse Garbary",
+      "de": "Boogie ApartHouse Garbary",
+      "cs": "Boogie ApartHouse Garbary"
+    },
+    "coordinates": {
+      "lat": 51.1129543,
+      "lng": 17.0309412
+    }
+  },
+  "borek": {
+    "id": "borek",
+    "name": {
+      "he": "Centrum Handlowe Borek",
+      "en": "Centrum Handlowe Borek",
+      "pl": "Centrum Handlowe Borek",
+      "de": "Centrum Handlowe Borek",
+      "cs": "Centrum Handlowe Borek"
+    },
+    "coordinates": {
+      "lat": 51.0881075,
+      "lng": 17.0005693
+    }
+  },
+  "browar-stu-mostow": {
+    "id": "browar-stu-mostow",
+    "name": {
+      "he": "Browar Stu Mostów",
+      "en": "Browar Stu Mostów",
+      "pl": "Browar Stu Mostów",
+      "de": "Browar Stu Mostów",
+      "cs": "Browar Stu Mostów"
+    },
+    "coordinates": {
+      "lat": 51.1318321,
+      "lng": 17.0590298
+    }
+  },
+  "bru-coffee-bakehouse-wroclaw": {
+    "id": "bru-coffee-bakehouse-wroclaw",
+    "name": {
+      "he": "קפה ברו",
+      "en": "BRÚ Coffee & Vegan Bakehouse",
+      "pl": "BRÚ Kawiarnia i wegańska piekarnia",
+      "de": "BRÚ Café und vegane Backstube",
+      "cs": "BRÚ Kavárna a veganská pekárna"
+    },
+    "coordinates": {
+      "lat": 51.1162404,
+      "lng": 17.0330587
+    }
+  },
+  "brzeg-castle": {
+    "id": "brzeg-castle",
+    "name": {
+      "he": "טירת פיאסט בברז׳ג",
+      "en": "Brzeg Castle",
+      "pl": "Zamek Piastów Śląskich w Brzegu",
+      "de": "Piastenschloss Brieg",
+      "cs": "Zámek slezských Piastovců v Brzegu"
+    },
+    "coordinates": {
+      "lat": 50.86387,
+      "lng": 17.46659
+    }
+  },
+  "brzeg-holy-cross-church": {
+    "id": "brzeg-holy-cross-church",
+    "name": {
+      "he": "כנסיית רוממות הצלב הקדוש בברז׳ג",
+      "en": "Holy Cross Church, Brzeg",
+      "pl": "Kościół Podwyższenia Krzyża Świętego w Brzegu",
+      "de": "Kreuzerhöhungskirche in Brieg",
+      "cs": "Kostel Povýšení svatého Kříže v Brzegu"
+    },
+    "coordinates": {
+      "lat": 50.8634,
+      "lng": 17.46746
+    }
+  },
+  "brzeg-oder-gate": {
+    "id": "brzeg-oder-gate",
+    "name": {
+      "he": "שער האודרה בברז׳ג",
+      "en": "Oder Gate, Brzeg",
+      "pl": "Brama Odrzańska w Brzegu",
+      "de": "Odertor in Brieg",
+      "cs": "Odřanská brána v Brzegu"
+    },
+    "coordinates": {
+      "lat": 50.86501,
+      "lng": 17.46659
+    }
+  },
+  "brzeg-st-nicholas-church": {
+    "id": "brzeg-st-nicholas-church",
+    "name": {
+      "he": "כנסיית ניקולאי הקדוש בברז׳ג",
+      "en": "St Nicholas Church, Brzeg",
+      "pl": "Kościół św. Mikołaja w Brzegu",
+      "de": "Nikolaikirche in Brzeg",
+      "cs": "Kostel sv. Mikuláše v Brzegu"
+    },
+    "coordinates": {
+      "lat": 50.860112197386,
+      "lng": 17.47088873283
+    }
+  },
+  "brzeg-town-hall": {
+    "id": "brzeg-town-hall",
+    "name": {
+      "he": "בית העירייה של ברז׳ג",
+      "en": "Brzeg Town Hall",
+      "pl": "Ratusz w Brzegu",
+      "de": "Rathaus Brieg",
+      "cs": "Radnice v Brzegu"
+    },
+    "coordinates": {
+      "lat": 50.8618,
+      "lng": 17.46958
+    }
+  },
+  "bulka": {
+    "id": "bulka",
+    "name": {
+      "he": "Bułka z Masłem Włodkowica",
+      "en": "Bułka z Masłem Włodkowica",
+      "pl": "Bułka z Masłem Włodkowica",
+      "de": "Bułka z Masłem Włodkowica",
+      "cs": "Bułka z Masłem Włodkowica"
+    },
+    "coordinates": {
+      "lat": 51.1081872,
+      "lng": 17.0242892
+    }
+  },
+  "cafe-berg-wroclaw": {
+    "id": "cafe-berg-wroclaw",
+    "name": {
+      "he": "קפה ברג",
+      "en": "Cafe Berg",
+      "pl": "Cafe Berg",
+      "de": "Café Berg",
+      "cs": "Kavárna Berg"
+    },
+    "coordinates": {
+      "lat": 51.103978840814904,
+      "lng": 17.03740582927844
+    }
+  },
+  "cafe-targowa": {
+    "id": "cafe-targowa",
+    "name": {
+      "he": "Cafe Targowa",
+      "en": "Cafe Targowa",
+      "pl": "Cafe Targowa",
+      "de": "Cafe Targowa",
+      "cs": "Cafe Targowa"
+    },
+    "coordinates": {
+      "lat": 51.1124915,
+      "lng": 17.0408014
+    }
+  },
+  "cathedral": {
+    "id": "cathedral",
+    "name": {
+      "he": "קתדרלת יוחנן המטביל",
+      "en": "Cathedral of St John the Baptist",
+      "pl": "Archikatedra św. Jana Chrzciciela",
+      "de": "Kathedrale St. Johannes der Täufer",
+      "cs": "Katedrála svatého Jana Křtitele"
+    },
+    "coordinates": {
+      "lat": 51.11422,
+      "lng": 17.04663
+    }
+  },
+  "central": {
+    "id": "central",
+    "name": {
+      "he": "סנטרל קפה, סניף אנטונייגו",
+      "en": "Central Cafe, Antoniego",
+      "pl": "Central Cafe, Świętego Antoniego",
+      "de": "Central Cafe an der Świętego Antoniego",
+      "cs": "Central Cafe v ulici Świętego Antoniego"
+    },
+    "coordinates": {
+      "lat": 51.1088722,
+      "lng": 17.0260475
+    }
+  },
+  "central-cafe-nadodrze": {
+    "id": "central-cafe-nadodrze",
+    "name": {
+      "he": "סנטרל קפה 2.0, נדאודזה",
+      "en": "Central Cafe 2.0, Nadodrze",
+      "pl": "Central Cafe 2.0, Nadodrze",
+      "de": "Central Cafe 2.0 in Nadodrze",
+      "cs": "Central Cafe 2.0 ve čtvrti Nadodrze"
+    },
+    "coordinates": {
+      "lat": 51.1185679,
+      "lng": 17.038033
+    }
+  },
+  "charlotte": {
+    "id": "charlotte",
+    "name": {
+      "he": "שרלוט",
+      "en": "Charlotte",
+      "pl": "Charlotte",
+      "de": "Charlotte",
+      "cs": "Charlotte"
+    },
+    "coordinates": {
+      "lat": 51.1084962,
+      "lng": 17.026063
+    }
+  },
+  "chatka": {
+    "id": "chatka",
+    "name": {
+      "he": "צ׳אטקה ליד יאטקי",
+      "en": "Chatka przy Jatkach",
+      "pl": "Chatka przy Jatkach",
+      "de": "Chatka przy Jatkach",
+      "cs": "Chatka przy Jatkach"
+    },
+    "coordinates": {
+      "lat": 51.1119289,
+      "lng": 17.0313524
+    }
+  },
+  "church-of-peace-swidnica": {
+    "id": "church-of-peace-swidnica",
+    "name": {
+      "he": "כנסיית השלום בשווידניצה",
+      "en": "Church of Peace in Świdnica",
+      "pl": "Kościół Pokoju w Świdnicy",
+      "de": "Friedenskirche in Świdnica",
+      "cs": "Kostel míru ve Svídnici"
+    },
+    "coordinates": {
+      "lat": 50.8465028,
+      "lng": 16.4918111
+    }
+  },
+  "concept-stu-mostow": {
+    "id": "concept-stu-mostow",
+    "name": {
+      "he": "Concept Stu Mostów",
+      "en": "Concept Stu Mostów",
+      "pl": "Concept Stu Mostów",
+      "de": "Concept Stu Mostów",
+      "cs": "Concept Stu Mostów"
+    },
+    "coordinates": {
+      "lat": 51.1316688,
+      "lng": 17.0590539
+    }
+  },
+  "concordia-taste": {
+    "id": "concordia-taste",
+    "name": {
+      "he": "Concordia Taste",
+      "en": "Concordia Taste",
+      "pl": "Concordia Taste",
+      "de": "Concordia Taste",
+      "cs": "Concordia Taste"
+    },
+    "coordinates": {
+      "lat": 51.1161217,
+      "lng": 17.038584
+    }
+  },
+  "czarna-magia": {
+    "id": "czarna-magia",
+    "name": {
+      "he": "צ׳ארנה מגיה",
+      "en": "Czarna Magia Café",
+      "pl": "Czarna Magia",
+      "de": "Café Czarna Magia",
+      "cs": "Kavárna Czarna Magia"
+    },
+    "coordinates": {
+      "lat": 51.1101717,
+      "lng": 17.02932
+    }
+  },
+  "czocha-castle": {
+    "id": "czocha-castle",
+    "name": {
+      "he": "טירת צ׳וחה ולינה בטירה",
+      "en": "Czocha Castle and overnight stay",
+      "pl": "Zamek Czocha i nocleg w zamku",
+      "de": "Burg Czocha mit Übernachtung",
+      "cs": "Hrad Czocha s přenocováním"
+    },
+    "coordinates": {
+      "lat": 51.0306821,
+      "lng": 15.3035811
+    }
+  },
+  "depot-history-centre": {
+    "id": "depot-history-centre",
+    "name": {
+      "he": "מרכז ההיסטוריה זאייזדניה",
+      "en": "Depot History Centre",
+      "pl": "Centrum Historii Zajezdnia",
+      "de": "Geschichtszentrum Zajezdnia",
+      "cs": "Historické centrum Zajezdnia"
+    },
+    "coordinates": {
+      "lat": 51.0965976,
+      "lng": 16.9912403
+    }
+  },
+  "dinette": {
+    "id": "dinette",
+    "name": {
+      "he": "Dinette Renoma",
+      "en": "Dinette Renoma",
+      "pl": "Dinette Renoma",
+      "de": "Dinette Renoma",
+      "cs": "Dinette Renoma"
+    },
+    "coordinates": {
+      "lat": 51.10391,
+      "lng": 17.03121
+    }
+  },
+  "dobra-paczkarnia-kuznicza": {
+    "id": "dobra-paczkarnia-kuznicza",
+    "name": {
+      "he": "Dobra Pączkarnia – Kuźnicza 25",
+      "en": "Dobra Pączkarnia – Kuźnicza 25",
+      "pl": "Dobra Pączkarnia – Kuźnicza 25",
+      "de": "Dobra Pączkarnia – Kuźnicza 25",
+      "cs": "Dobra Pączkarnia – Kuźnicza 25"
+    },
+    "coordinates": {
+      "lat": 51.10851,
+      "lng": 17.03589
+    }
+  },
+  "domek-nad-fosa-wroclaw": {
+    "id": "domek-nad-fosa-wroclaw",
+    "name": {
+      "he": "דומק נאד פוסה",
+      "en": "Domek nad Fosą",
+      "pl": "Domek nad Fosą",
+      "de": "Domek nad Fosą",
+      "cs": "Domek nad Fosą"
+    },
+    "coordinates": {
+      "lat": 51.1064824,
+      "lng": 17.0254809
+    }
+  },
+  "dominikan": {
+    "id": "dominikan",
+    "name": {
+      "he": "גלריה דומיניקנסקה",
+      "en": "Galeria Dominikańska",
+      "pl": "Galeria Dominikańska",
+      "de": "Galeria Dominikańska",
+      "cs": "Galeria Dominikańska"
+    },
+    "coordinates": {
+      "lat": 51.1081196,
+      "lng": 17.039349
+    }
+  },
+  "doubletree": {
+    "id": "doubletree",
+    "name": {
+      "he": "DoubleTree by Hilton Wrocław",
+      "en": "DoubleTree by Hilton Wrocław",
+      "pl": "DoubleTree by Hilton Wrocław",
+      "de": "DoubleTree by Hilton Wrocław",
+      "cs": "DoubleTree by Hilton Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1083289,
+      "lng": 17.0433879
+    }
+  },
+  "dunikowski": {
+    "id": "dunikowski",
+    "name": {
+      "he": "טיילת דוניקובסקי",
+      "en": "Dunikowski Boulevard",
+      "pl": "Bulwar Dunikowskiego",
+      "de": "Dunikowski-Boulevard",
+      "cs": "Dunikowski Boulevard"
+    },
+    "coordinates": {
+      "lat": 51.11188,
+      "lng": 17.04302
+    }
+  },
+  "dwarf-info": {
+    "id": "dwarf-info",
+    "name": {
+      "he": "מרכז המידע של הגמדים",
+      "en": "Dwarf Information Centre",
+      "pl": "Informacja o krasnalach",
+      "de": "Zwergen-Informationszentrum",
+      "cs": "Informační centrum trpaslíků"
+    },
+    "coordinates": {
+      "lat": 51.1101013,
+      "lng": 17.0334642
+    }
+  },
+  "dwor-polski-hotel-wroclaw": {
+    "id": "dwor-polski-hotel-wroclaw",
+    "name": {
+      "he": "מלון דבור פולסקי",
+      "en": "Hotel Dwór Polski",
+      "pl": "Hotel Dwór Polski",
+      "de": "Hotel Dwór Polski",
+      "cs": "Hotel Dwór Polski"
+    },
+    "coordinates": {
+      "lat": 51.1106054,
+      "lng": 17.0303179
+    }
+  },
+  "el-gato-odrzanska-wroclaw": {
+    "id": "el-gato-odrzanska-wroclaw",
+    "name": {
+      "he": "אל גאטו, אודז׳נסקה",
+      "en": "El Gato Specialty Coffee Roasters, Odrzańska",
+      "pl": "El Gato Specialty Coffee Roasters, Odrzańska",
+      "de": "El Gato Specialty Coffee Roasters, Odrzańska",
+      "cs": "El Gato Specialty Coffee Roasters, Odrzańska"
+    },
+    "coordinates": {
+      "lat": 51.1122058,
+      "lng": 17.0313979
+    }
+  },
+  "elizabeth": {
+    "id": "elizabeth",
+    "name": {
+      "he": "כנסיית אליזבת והתצפית",
+      "en": "St Elizabeth’s Church and viewpoint",
+      "pl": "Kościół św. Elżbiety i punkt widokowy",
+      "de": "St. Elisabeth-Kirche und Aussichtspunkt",
+      "cs": "Kostel svaté Alžběty a vyhlídka"
+    },
+    "coordinates": {
+      "lat": 51.11108,
+      "lng": 17.03016
+    }
+  },
+  "entre-hotel-wroclaw": {
+    "id": "entre-hotel-wroclaw",
+    "name": {
+      "he": "מלון אנטרה",
+      "en": "Entre Hotel by Zdrojowa",
+      "pl": "Entre Hotel by Zdrojowa",
+      "de": "Entre Hotel by Zdrojowa",
+      "cs": "Entre Hotel by Zdrojowa"
+    },
+    "coordinates": {
+      "lat": 51.1127669,
+      "lng": 17.0301481
+    }
+  },
+  "fashion-outlet": {
+    "id": "fashion-outlet",
+    "name": {
+      "he": "פאשן אאוטלט ורוצלב",
+      "en": "Wrocław Fashion Outlet",
+      "pl": "Wrocław Fashion Outlet",
+      "de": "Wrocław Fashion Outlet",
+      "cs": "Wrocław Fashion Outlet"
+    },
+    "coordinates": {
+      "lat": 51.1067753,
+      "lng": 16.9451904
+    }
+  },
+  "fc-caffe-kuznicza": {
+    "id": "fc-caffe-kuznicza",
+    "name": {
+      "he": "קפה אף סי",
+      "en": "FC Caffe",
+      "pl": "FC Caffe",
+      "de": "FC Caffe",
+      "cs": "FC Caffe"
+    },
+    "coordinates": {
+      "lat": 51.1132329,
+      "lng": 17.0346388
+    }
+  },
+  "figa-w-barbarze": {
+    "id": "figa-w-barbarze",
+    "name": {
+      "he": "Figa w Barbarze",
+      "en": "Figa w Barbarze",
+      "pl": "Figa w Barbarze",
+      "de": "Figa w Barbarze",
+      "cs": "Figa w Barbarze"
+    },
+    "coordinates": {
+      "lat": 51.1076305,
+      "lng": 17.0327024
+    }
+  },
+  "fountain": {
+    "id": "fountain",
+    "name": {
+      "he": "המזרקה המולטימדיאלית של ורוצלב",
+      "en": "Wrocław Multimedia Fountain",
+      "pl": "Wrocławska Fontanna Multimedialna",
+      "de": "Multimedia-Brunnen Wrocław",
+      "cs": "Vratislavská multimediální fontána"
+    },
+    "coordinates": {
+      "lat": 51.10832,
+      "lng": 17.07948
+    }
+  },
+  "four-denominations-district": {
+    "id": "four-denominations-district",
+    "name": {
+      "he": "רובע ארבע הדתות",
+      "en": "Four Denominations District",
+      "pl": "Dzielnica Czterech Wyznań",
+      "de": "Viertel der vier Konfessionen",
+      "cs": "Čtvrť čtyř vyznání"
+    },
+    "coordinates": {
+      "lat": 51.10968,
+      "lng": 17.023753
+    }
+  },
+  "four-domes": {
+    "id": "four-domes",
+    "name": {
+      "he": "ביתן ארבע הכיפות",
+      "en": "Four Domes Pavilion",
+      "pl": "Pawilon Czterech Kopuł",
+      "de": "Vier-Kuppel-Pavillon",
+      "cs": "Pavilon čtyř kopulí"
+    },
+    "coordinates": {
+      "lat": 51.10805,
+      "lng": 17.07527
+    }
+  },
+  "frytki": {
+    "id": "frytki",
+    "name": {
+      "he": "Frytki i Sos",
+      "en": "Frytki i Sos",
+      "pl": "Frytki i Sos",
+      "de": "Frytki i Sos",
+      "cs": "Frytki i Sos"
+    },
+    "coordinates": {
+      "lat": 51.1090086,
+      "lng": 17.0256092
+    }
+  },
+  "glowny": {
+    "id": "glowny",
+    "name": {
+      "he": "תחנת הרכבת המרכזית של ורוצלב",
+      "en": "Wrocław Main Railway Station",
+      "pl": "Wrocław Główny",
+      "de": "Hauptbahnhof Wrocław",
+      "cs": "Hlavní nádraží Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.09858,
+      "lng": 17.03675
+    }
+  },
+  "gniazdo": {
+    "id": "gniazdo",
+    "name": {
+      "he": "Gniazdo – קפה ומאפה",
+      "en": "Gniazdo – coffee and pastry",
+      "pl": "Gniazdo – kawa i wypiek",
+      "de": "Gniazdo – Kaffee und Gebäck",
+      "cs": "Gniazdo – káva a pečivo"
+    },
+    "coordinates": {
+      "lat": 51.10579,
+      "lng": 17.03302
+    }
+  },
+  "gustaw-restaurant-wroclaw": {
+    "id": "gustaw-restaurant-wroclaw",
+    "name": {
+      "he": "מסעדת גוסטב",
+      "en": "Gustaw Restaurant",
+      "pl": "Restauracja Gustaw",
+      "de": "Restaurant Gustaw",
+      "cs": "Restaurace Gustaw"
+    },
+    "coordinates": {
+      "lat": 51.1049153,
+      "lng": 17.0380912
+    }
+  },
+  "hala": {
+    "id": "hala",
+    "name": {
+      "he": "היכל המאה",
+      "en": "Centennial Hall",
+      "pl": "Hala Stulecia",
+      "de": "Jahrhunderthalle",
+      "cs": "Hala století"
+    },
+    "coordinates": {
+      "lat": 51.10689,
+      "lng": 17.07733
+    }
+  },
+  "hala-targowa": {
+    "id": "hala-targowa",
+    "name": {
+      "he": "השוק המקורה",
+      "en": "Wrocław Market Hall",
+      "pl": "Hala Targowa",
+      "de": "Breslauer Markthalle",
+      "cs": "Vratislavská tržnice"
+    },
+    "coordinates": {
+      "lat": 51.1125,
+      "lng": 17.04075
+    }
+  },
+  "henryk-tomaszewski-theatre-museum": {
+    "id": "henryk-tomaszewski-theatre-museum",
+    "name": {
+      "he": "מוזיאון התיאטרון ע״ש הנריק תומשבסקי",
+      "en": "Henryk Tomaszewski Theatre Museum",
+      "pl": "Muzeum Teatru im. Henryka Tomaszewskiego",
+      "de": "Henryk-Tomaszewski-Theatermuseum",
+      "cs": "Divadelní muzeum Henryka Tomaszewského"
+    },
+    "coordinates": {
+      "lat": 51.1069642,
+      "lng": 17.0278621
+    }
+  },
+  "herbal": {
+    "id": "herbal",
+    "name": {
+      "he": "מלון הרבל",
+      "en": "Herbal Hotel",
+      "pl": "Herbal Hotel",
+      "de": "Herbal Hotel",
+      "cs": "Herbal Hotel"
+    },
+    "coordinates": {
+      "lat": 51.1087658,
+      "lng": 17.0242642
+    }
+  },
+  "hostel-krasnal-wroclaw": {
+    "id": "hostel-krasnal-wroclaw",
+    "name": {
+      "he": "הוסטל קרסנל",
+      "en": "Krasnal Hostel Wrocław",
+      "pl": "Hostel Krasnal Wrocław",
+      "de": "Hostel Krasnal Wrocław",
+      "cs": "Hostel Krasnal Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1098127,
+      "lng": 17.036029
+    }
+  },
+  "hotel-traffic-wroclaw": {
+    "id": "hotel-traffic-wroclaw",
+    "name": {
+      "he": "מלון טראפיק ורוצלב",
+      "en": "Hotel Traffic Wrocław",
+      "pl": "Hotel Traffic Wrocław",
+      "de": "Hotel Traffic Wrocław",
+      "cs": "Hotel Traffic Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.106247,
+      "lng": 17.0318774
+    }
+  },
+  "hydropolis": {
+    "id": "hydropolis",
+    "name": {
+      "he": "Hydropolis",
+      "en": "Hydropolis",
+      "pl": "Hydropolis",
+      "de": "Hydropolis",
+      "cs": "Hydropolis"
+    },
+    "coordinates": {
+      "lat": 51.10471,
+      "lng": 17.05974
+    }
+  },
+  "ibis-styles-wroclaw-centrum": {
+    "id": "ibis-styles-wroclaw-centrum",
+    "name": {
+      "he": "ibis Styles Wrocław Centrum",
+      "en": "ibis Styles Wrocław Centrum",
+      "pl": "ibis Styles Wrocław Centrum",
+      "de": "ibis Styles Wrocław Centrum",
+      "cs": "ibis Styles Wrocław Centrum"
+    },
+    "coordinates": {
+      "lat": 51.099513,
+      "lng": 17.0400735
+    }
+  },
+  "ida-kuchnia-i-wino": {
+    "id": "ida-kuchnia-i-wino",
+    "name": {
+      "he": "IDA Kuchnia i Wino",
+      "en": "IDA Kuchnia i Wino",
+      "pl": "IDA Kuchnia i Wino",
+      "de": "IDA Kuchnia i Wino",
+      "cs": "IDA Kuchnia i Wino"
+    },
+    "coordinates": {
+      "lat": 51.1123705,
+      "lng": 17.0290663
+    }
+  },
+  "india-concept-wroclaw": {
+    "id": "india-concept-wroclaw",
+    "name": {
+      "he": "אינדיה קונספט",
+      "en": "India Concept",
+      "pl": "India Concept",
+      "de": "India Concept",
+      "cs": "India Concept"
+    },
+    "coordinates": {
+      "lat": 51.110728,
+      "lng": 17.029678
+    }
+  },
+  "japanese": {
+    "id": "japanese",
+    "name": {
+      "he": "הגן היפני",
+      "en": "Japanese Garden",
+      "pl": "Ogród Japoński",
+      "de": "Japanischer Garten",
+      "cs": "Japonská zahrada"
+    },
+    "coordinates": {
+      "lat": 51.10977,
+      "lng": 17.08094
+    }
+  },
+  "jas-malgosia": {
+    "id": "jas-malgosia",
+    "name": {
+      "he": "הנזל וגרטל",
+      "en": "Hansel and Gretel Houses",
+      "pl": "Kamieniczki Jaś i Małgosia",
+      "de": "Hänsel- und Gretel-Häuser",
+      "cs": "Domy Jeníčka a Mařenky"
+    },
+    "coordinates": {
+      "lat": 51.11091,
+      "lng": 17.03027
+    }
+  },
+  "jatki": {
+    "id": "jatki",
+    "name": {
+      "he": "סמטת יאטקי",
+      "en": "Jatki Alley",
+      "pl": "Stare Jatki",
+      "de": "Jatki-Gasse",
+      "cs": "Alej Jatki"
+    },
+    "coordinates": {
+      "lat": 51.11184,
+      "lng": 17.03024
+    }
+  },
+  "jawor-church-of-peace": {
+    "id": "jawor-church-of-peace",
+    "name": {
+      "he": "כנסיית השלום ביאבור",
+      "en": "Church of Peace in Jawor",
+      "pl": "Kościół Pokoju w Jaworze",
+      "de": "Friedenskirche in Jawor",
+      "cs": "Kostel míru v Jaworu"
+    },
+    "coordinates": {
+      "lat": 51.0539315,
+      "lng": 16.1891045
+    }
+  },
+  "jawor-market-square": {
+    "id": "jawor-market-square",
+    "name": {
+      "he": "כיכר העיר יאבור",
+      "en": "Jawor Market Square",
+      "pl": "Rynek w Jaworze",
+      "de": "Marktplatz in Jawor",
+      "cs": "Náměstí v Jaworu"
+    },
+    "coordinates": {
+      "lat": 51.0503785,
+      "lng": 16.1942221
+    }
+  },
+  "jawor-piast-castle": {
+    "id": "jawor-piast-castle",
+    "name": {
+      "he": "טירת הפיאסט ביאבור",
+      "en": "Piast Castle in Jawor",
+      "pl": "Zamek Piastowski w Jaworze",
+      "de": "Piastenschloss in Jawor",
+      "cs": "Piastovský zámek v Jaworu"
+    },
+    "coordinates": {
+      "lat": 51.0498699,
+      "lng": 16.1904138
+    }
+  },
+  "jelenia-gora-market-square": {
+    "id": "jelenia-gora-market-square",
+    "name": {
+      "he": "ילניה גורה, הכיכר והעיר העתיקה",
+      "en": "Jelenia Góra market square and old town",
+      "pl": "Rynek i stare miasto w Jeleniej Górze",
+      "de": "Marktplatz und Altstadt von Jelenia Góra",
+      "cs": "Náměstí a historické centrum Jelení Hory"
+    },
+    "coordinates": {
+      "lat": 50.9035044,
+      "lng": 15.7344539
+    }
+  },
+  "jolie-kurzy-targ": {
+    "id": "jolie-kurzy-targ",
+    "name": {
+      "he": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "en": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "pl": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "de": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "cs": "Jolie Brasserie Cafe – Kurzy Targ 2"
+    },
+    "coordinates": {
+      "lat": 51.1093944,
+      "lng": 17.0341861
+    }
+  },
+  "jolie-plac-solny": {
+    "id": "jolie-plac-solny",
+    "name": {
+      "he": "Jolie Brasserie Cafe – Plac Solny 6",
+      "en": "Jolie Brasserie Cafe – Plac Solny 6",
+      "pl": "Jolie Brasserie Cafe – Plac Solny 6",
+      "de": "Jolie Brasserie Cafe – Plac Solny 6",
+      "cs": "Jolie Brasserie Cafe – Plac Solny 6"
+    },
+    "coordinates": {
+      "lat": 51.10965,
+      "lng": 17.02904
+    }
+  },
+  "joyinn-aparthotel-wroclaw": {
+    "id": "joyinn-aparthotel-wroclaw",
+    "name": {
+      "he": "ג׳וין אפרטהוטל",
+      "en": "Joyinn Aparthotel",
+      "pl": "Joyinn Aparthotel",
+      "de": "Joyinn Aparthotel",
+      "cs": "Joyinn Aparthotel"
+    },
+    "coordinates": {
+      "lat": 51.108894,
+      "lng": 17.023126
+    }
+  },
+  "kaffe-bageri-stockholm": {
+    "id": "kaffe-bageri-stockholm",
+    "name": {
+      "he": "Kaffe Bageri Stockholm",
+      "en": "Kaffe Bageri Stockholm",
+      "pl": "Kaffe Bageri Stockholm",
+      "de": "Kaffe Bageri Stockholm",
+      "cs": "Kaffe Bageri Stockholm"
+    },
+    "coordinates": {
+      "lat": 51.1118211,
+      "lng": 17.0365372
+    }
+  },
+  "kaplica-czaszek-czermna": {
+    "id": "kaplica-czaszek-czermna",
+    "name": {
+      "he": "קפלת הגולגולות בצ׳רמנה",
+      "en": "Skull Chapel in Czermna",
+      "pl": "Kaplica Czaszek w Czermnej",
+      "de": "Schädelkapelle in Czermna",
+      "cs": "Kostnice v Čermné"
+    },
+    "coordinates": {
+      "lat": 50.45153,
+      "lng": 16.24193
+    }
+  },
+  "karmello": {
+    "id": "karmello",
+    "name": {
+      "he": "Karmello Chocolatier",
+      "en": "Karmello Chocolatier",
+      "pl": "Karmello Chocolatier",
+      "de": "Karmello Chocolatier",
+      "cs": "Karmello Chocolatier"
+    },
+    "coordinates": {
+      "lat": 51.1104418,
+      "lng": 17.0337016
+    }
+  },
+  "karpacz-centre": {
+    "id": "karpacz-centre",
+    "name": {
+      "he": "מרכז קרפץ",
+      "en": "Karpacz town centre",
+      "pl": "Centrum Karpacza",
+      "de": "Zentrum von Karpacz",
+      "cs": "Centrum Karpacze"
+    },
+    "coordinates": {
+      "lat": 50.7749665,
+      "lng": 15.7539066
+    }
+  },
+  "kawiarenka-sw-jadwigi": {
+    "id": "kawiarenka-sw-jadwigi",
+    "name": {
+      "he": "בית הקפה הדוויגה הקדושה",
+      "en": "St Hedwig’s Café",
+      "pl": "Kawiarenka św. Jadwigi",
+      "de": "Café der heiligen Hedwig",
+      "cs": "Kavárna svaté Hedviky"
+    },
+    "coordinates": {
+      "lat": 51.1160449,
+      "lng": 17.0433953
+    }
+  },
+  "klodzko-fortress": {
+    "id": "klodzko-fortress",
+    "name": {
+      "he": "מבצר קלודזקו",
+      "en": "Kłodzko Fortress",
+      "pl": "Twierdza Kłodzko",
+      "de": "Festung Glatz",
+      "cs": "Kladská pevnost"
+    },
+    "coordinates": {
+      "lat": 50.441154,
+      "lng": 16.653311
+    }
+  },
+  "klodzko-old-town": {
+    "id": "klodzko-old-town",
+    "name": {
+      "he": "מרכז קלודזקו והרינק",
+      "en": "Kłodzko Old Town and Market Square",
+      "pl": "Stare Miasto i Rynek w Kłodzku",
+      "de": "Altstadt und Marktplatz von Kłodzko",
+      "cs": "Staré město a náměstí v Kladsku"
+    },
+    "coordinates": {
+      "lat": 50.438758,
+      "lng": 16.654564
+    }
+  },
+  "konspira": {
+    "id": "konspira",
+    "name": {
+      "he": "Konspira",
+      "en": "Konspira",
+      "pl": "Konspira",
+      "de": "Konspira",
+      "cs": "Konspira"
+    },
+    "coordinates": {
+      "lat": 51.1091955,
+      "lng": 17.0283516
+    }
+  },
+  "korona-hotel": {
+    "id": "korona-hotel",
+    "name": {
+      "he": "מלון קורונה בכיכר השוק",
+      "en": "Korona Hotel Wrocław Market Square",
+      "pl": "Korona Hotel Wrocław Market Square",
+      "de": "Korona Hotel Wrocław Market Square",
+      "cs": "Korona Hotel Wrocław Market Square"
+    },
+    "coordinates": {
+      "lat": 51.1090144,
+      "lng": 17.0337412
+    }
+  },
+  "korona-shopping": {
+    "id": "korona-shopping",
+    "name": {
+      "he": "Centrum Handlowe Korona",
+      "en": "Centrum Handlowe Korona",
+      "pl": "Centrum Handlowe Korona",
+      "de": "Centrum Handlowe Korona",
+      "cs": "Centrum Handlowe Korona"
+    },
+    "coordinates": {
+      "lat": 51.1417421,
+      "lng": 17.0874182
+    }
+  },
+  "ksiaz-castle": {
+    "id": "ksiaz-castle",
+    "name": {
+      "he": "טירת קשונז׳",
+      "en": "Książ Castle",
+      "pl": "Zamek Książ w Wałbrzychu",
+      "de": "Schloss Fürstenstein (Książ)",
+      "cs": "Zámek Książ"
+    },
+    "coordinates": {
+      "lat": 50.8422222,
+      "lng": 16.2916667
+    }
+  },
+  "la-maddalena": {
+    "id": "la-maddalena",
+    "name": {
+      "he": "Restauracja La Maddalena",
+      "en": "Restauracja La Maddalena",
+      "pl": "Restauracja La Maddalena",
+      "de": "Restauracja La Maddalena",
+      "cs": "Restauracja La Maddalena"
+    },
+    "coordinates": {
+      "lat": 51.1143103,
+      "lng": 17.0314381
+    }
+  },
+  "lesnianska-dam": {
+    "id": "lesnianska-dam",
+    "name": {
+      "he": "סכר לשנה ואגם לשניאנסקיה",
+      "en": "Leśniańska Dam and reservoir",
+      "pl": "Zapora Leśniańska i jezioro",
+      "de": "Marklissa-Talsperre und Stausee",
+      "cs": "Leśniańská přehrada a nádrž"
+    },
+    "coordinates": {
+      "lat": 51.0306373,
+      "lng": 15.2907543
+    }
+  },
+  "lodz-church-square": {
+    "id": "lodz-church-square",
+    "name": {
+      "he": "כיכר הכנסייה באזור הגטו לשעבר",
+      "en": "Church Square in the former ghetto",
+      "pl": "Plac Kościelny na terenie dawnego getta",
+      "de": "Kirchplatz im ehemaligen Ghetto",
+      "cs": "Kostelní náměstí v bývalém ghettu"
+    },
+    "coordinates": {
+      "lat": 51.7831681,
+      "lng": 19.4538249
+    }
+  },
+  "lodz-freedom-square": {
+    "id": "lodz-freedom-square",
+    "name": {
+      "he": "כיכר החירות בלודז׳",
+      "en": "Freedom Square, Łódź",
+      "pl": "Plac Wolności w Łodzi",
+      "de": "Freiheitsplatz in Łódź",
+      "cs": "Náměstí Svobody v Lodži"
+    },
+    "coordinates": {
+      "lat": 51.7767836,
+      "lng": 19.4546995
+    }
+  },
+  "lodz-ghetto-baluty": {
+    "id": "lodz-ghetto-baluty",
+    "name": {
+      "he": "אזור גטו לודז׳ לשעבר, באלוטי",
+      "en": "Former Łódź Ghetto, Bałuty",
+      "pl": "Obszar dawnego getta łódzkiego, Bałuty",
+      "de": "Ehemaliges Ghetto Łódź, Bałuty",
+      "cs": "Bývalé lodžské ghetto, Bałuty"
+    },
+    "coordinates": {
+      "lat": 51.7869694,
+      "lng": 19.4518556
+    }
+  },
+  "lodz-gutenberg-house": {
+    "id": "lodz-gutenberg-house",
+    "name": {
+      "he": "בית גוטנברג",
+      "en": "Gutenberg House",
+      "pl": "Kamienica pod Gutenbergiem",
+      "de": "Gutenberg-Haus",
+      "cs": "Gutenbergův dům"
+    },
+    "coordinates": {
+      "lat": 51.7668862,
+      "lng": 19.4570933
+    }
+  },
+  "lodz-manufaktura": {
+    "id": "lodz-manufaktura",
+    "name": {
+      "he": "מנופקטורה",
+      "en": "Manufaktura",
+      "pl": "Manufaktura",
+      "de": "Manufaktura",
+      "cs": "Manufaktura"
+    },
+    "coordinates": {
+      "lat": 51.7794621,
+      "lng": 19.444461
+    }
+  },
+  "lodz-old-market": {
+    "id": "lodz-old-market",
+    "name": {
+      "he": "השוק הישן של לודז׳",
+      "en": "Łódź Old Market Square",
+      "pl": "Stary Rynek w Łodzi",
+      "de": "Alter Markt in Łódź",
+      "cs": "Staré tržiště v Lodži"
+    },
+    "coordinates": {
+      "lat": 51.7815222,
+      "lng": 19.4537361
+    }
+  },
+  "lodz-piotrkowska": {
+    "id": "lodz-piotrkowska",
+    "name": {
+      "he": "רחוב פיוטרקובסקה",
+      "en": "Piotrkowska Street",
+      "pl": "Ulica Piotrkowska",
+      "de": "Piotrkowska-Straße",
+      "cs": "Piotrkowská ulice"
+    },
+    "coordinates": {
+      "lat": 51.7654694,
+      "lng": 19.4573028
+    }
+  },
+  "lodz-rose-passage": {
+    "id": "lodz-rose-passage",
+    "name": {
+      "he": "חצר המראות",
+      "en": "Rose Passage",
+      "pl": "Pasaż Róży",
+      "de": "Rosenpassage",
+      "cs": "Růžová pasáž"
+    },
+    "coordinates": {
+      "lat": 51.7758847,
+      "lng": 19.4536534
+    }
+  },
+  "lodziarnia-roma": {
+    "id": "lodziarnia-roma",
+    "name": {
+      "he": "גלידריית רומא",
+      "en": "Lodziarnia Roma",
+      "pl": "Lodziarnia Roma",
+      "de": "Eisdiele Roma",
+      "cs": "Zmrzlinárna Roma"
+    },
+    "coordinates": {
+      "lat": 51.117917,
+      "lng": 17.0343499
+    }
+  },
+  "lwia-brama-restaurant-wroclaw": {
+    "id": "lwia-brama-restaurant-wroclaw",
+    "name": {
+      "he": "מסעדת שער האריה\nLwia Brama²",
+      "en": "Lwia Brama² Restaurant",
+      "pl": "Restauracja Lwia Brama²",
+      "de": "Restaurant Lwia Brama²",
+      "cs": "Restaurace Lwia Brama²"
+    },
+    "coordinates": {
+      "lat": 51.114186,
+      "lng": 17.0440984
+    }
+  },
+  "magnolia": {
+    "id": "magnolia",
+    "name": {
+      "he": "מגנוליה פארק",
+      "en": "Magnolia Park",
+      "pl": "Magnolia Park",
+      "de": "Magnolia Park",
+      "cs": "Magnolia Park"
+    },
+    "coordinates": {
+      "lat": 51.1187024,
+      "lng": 16.9896567
+    }
+  },
+  "mala-czarna-paderewskiego": {
+    "id": "mala-czarna-paderewskiego",
+    "name": {
+      "he": "מאלה צארנה",
+      "en": "Mała Czarna Café",
+      "pl": "Mała Czarna",
+      "de": "Café Mała Czarna",
+      "cs": "Kavárna Mała Czarna"
+    },
+    "coordinates": {
+      "lat": 51.1174365,
+      "lng": 17.0905595
+    }
+  },
+  "mandarin": {
+    "id": "mandarin",
+    "name": {
+      "he": "Mandarin House Restauracja",
+      "en": "Mandarin House Restauracja",
+      "pl": "Mandarin House Restauracja",
+      "de": "Mandarin House Restauracja",
+      "cs": "Mandarin House Restauracja"
+    },
+    "coordinates": {
+      "lat": 51.1124229,
+      "lng": 17.0313084
+    }
+  },
+  "mania-al-taglio-kuznicza": {
+    "id": "mania-al-taglio-kuznicza",
+    "name": {
+      "he": "מניה אל טאליו, קוז׳ניצ׳ה",
+      "en": "Mania Al Taglio • Kuźnicza",
+      "pl": "Mania Al Taglio • Kuźnicza",
+      "de": "Mania Al Taglio • Kuźnicza",
+      "cs": "Mania Al Taglio • Kuźnicza"
+    },
+    "coordinates": {
+      "lat": 51.1125673,
+      "lng": 17.0345083
+    }
+  },
+  "marietta-focacceria-wroclaw": {
+    "id": "marietta-focacceria-wroclaw",
+    "name": {
+      "he": "מרייטה פוקצ׳ריה",
+      "en": "Marietta Focacceria",
+      "pl": "Marietta Focacceria",
+      "de": "Marietta Focacceria",
+      "cs": "Marietta Focacceria"
+    },
+    "coordinates": {
+      "lat": 51.1096599,
+      "lng": 17.0341752
+    }
+  },
+  "marina": {
+    "id": "marina",
+    "name": {
+      "he": "Piaskowa Marina – יציאה לשיט",
+      "en": "Piaskowa Marina river cruise",
+      "pl": "Marina Piaskowa – rejs",
+      "de": "Flusskreuzfahrt in der Marina Piaskowa",
+      "cs": "Plavba po řece Piaskowa Marina"
+    },
+    "coordinates": {
+      "lat": 51.11291,
+      "lng": 17.04155
+    }
+  },
+  "math-tower": {
+    "id": "math-tower",
+    "name": {
+      "he": "המגדל המתמטי",
+      "en": "Mathematical Tower",
+      "pl": "Wieża Matematyczna",
+      "de": "Mathematischer Turm",
+      "cs": "Matematická věž"
+    },
+    "coordinates": {
+      "lat": 51.11391,
+      "lng": 17.03329
+    }
+  },
+  "meatologia-sikorskiego": {
+    "id": "meatologia-sikorskiego",
+    "name": {
+      "he": "Meatologia – Sikorskiego 7B",
+      "en": "Meatologia – Sikorskiego 7B",
+      "pl": "Meatologia – Sikorskiego 7B",
+      "de": "Meatologia – Sikorskiego 7B",
+      "cs": "Meatologia – Sikorskiego 7B"
+    },
+    "coordinates": {
+      "lat": 51.1143582,
+      "lng": 17.0215859
+    }
+  },
+  "meatologia-wlodkowica": {
+    "id": "meatologia-wlodkowica",
+    "name": {
+      "he": "Meatologia – Włodkowica 27",
+      "en": "Meatologia – Włodkowica 27",
+      "pl": "Meatologia – Włodkowica 27",
+      "de": "Meatologia – Włodkowica 27",
+      "cs": "Meatologia – Włodkowica 27"
+    },
+    "coordinates": {
+      "lat": 51.1094764,
+      "lng": 17.0232852
+    }
+  },
+  "meatologia-zwycieska": {
+    "id": "meatologia-zwycieska",
+    "name": {
+      "he": "Meatologia – Zwycięska 45",
+      "en": "Meatologia – Zwycięska 45",
+      "pl": "Meatologia – Zwycięska 45",
+      "de": "Meatologia – Zwycięska 45",
+      "cs": "Meatologia – Zwycięska 45"
+    },
+    "coordinates": {
+      "lat": 51.0592058,
+      "lng": 17.0132735
+    }
+  },
+  "monopol": {
+    "id": "monopol",
+    "name": {
+      "he": "Hotel Monopol",
+      "en": "Hotel Monopol",
+      "pl": "Hotel Monopol",
+      "de": "Hotel Monopol",
+      "cs": "Hotel Monopol"
+    },
+    "coordinates": {
+      "lat": 51.1060879,
+      "lng": 17.0310289
+    }
+  },
+  "morskie-oko-wroclaw": {
+    "id": "morskie-oko-wroclaw",
+    "name": {
+      "he": "מורסקי אוקו, אתר הרחצה בוורוצלב",
+      "en": "Morskie Oko bathing lake, Wrocław",
+      "pl": "Kąpielisko Morskie Oko",
+      "de": "Morskie Oko, Badesee in Breslau",
+      "cs": "Morskie Oko, koupaliště ve Vratislavi"
+    },
+    "coordinates": {
+      "lat": 51.1232536,
+      "lng": 17.0828961
+    }
+  },
+  "most-piaskowy": {
+    "id": "most-piaskowy",
+    "name": {
+      "he": "גשר החול",
+      "en": "Sand Bridge",
+      "pl": "Most Piaskowy",
+      "de": "Sandbrücke",
+      "cs": "Písečný most"
+    },
+    "coordinates": {
+      "lat": 51.113559,
+      "lng": 17.039816
+    }
+  },
+  "most-pomorski-poludniowy-wroclaw": {
+    "id": "most-pomorski-poludniowy-wroclaw",
+    "name": {
+      "he": "גשר פומורסקי הדרומי",
+      "en": "Southern Pomorski Bridge",
+      "pl": "Most Pomorski Południowy",
+      "de": "Südliche Pommernbrücke",
+      "cs": "Jižní Pomořanský most"
+    },
+    "coordinates": {
+      "lat": 51.113859681726,
+      "lng": 17.031233038062
+    }
+  },
+  "most-tumski": {
+    "id": "most-tumski",
+    "name": {
+      "he": "גשר טומסקי",
+      "en": "Tumski Bridge",
+      "pl": "Most Tumski",
+      "de": "Tumski-Brücke",
+      "cs": "Tumský most"
+    },
+    "coordinates": {
+      "lat": 51.114714,
+      "lng": 17.042248
+    }
+  },
+  "moszna-castle": {
+    "id": "moszna-castle",
+    "name": {
+      "he": "טירת מושנה",
+      "en": "Moszna Castle",
+      "pl": "Zamek Moszna",
+      "de": "Schloss Moschen",
+      "cs": "Zámek Moszna"
+    },
+    "coordinates": {
+      "lat": 50.44079,
+      "lng": 17.76793
+    }
+  },
+  "moszna-castle-park": {
+    "id": "moszna-castle-park",
+    "name": {
+      "he": "פארק טירת מושנה",
+      "en": "Moszna Castle Park",
+      "pl": "Park Zamkowy w Mosznej",
+      "de": "Schlosspark Moschen",
+      "cs": "Zámecký park v Moszně"
+    },
+    "coordinates": {
+      "lat": 50.44079,
+      "lng": 17.76793
+    }
+  },
+  "movenpick-grand-hotel-wroclaw": {
+    "id": "movenpick-grand-hotel-wroclaw",
+    "name": {
+      "he": "מלון מובנפיק גרנד ורוצלב",
+      "en": "Mövenpick Grand Hotel Wrocław",
+      "pl": "Mövenpick Grand Hotel Wrocław",
+      "de": "Mövenpick Grand Hotel Wrocław",
+      "cs": "Mövenpick Grand Hotel Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.100025,
+      "lng": 17.0361251
+    }
+  },
+  "municipal-arsenal-wroclaw": {
+    "id": "municipal-arsenal-wroclaw",
+    "name": {
+      "he": "הארסנל העירוני",
+      "en": "Municipal Arsenal",
+      "pl": "Arsenał Miejski",
+      "de": "Städtisches Arsenal",
+      "cs": "Městský arzenál"
+    },
+    "coordinates": {
+      "lat": 51.1127984,
+      "lng": 17.0268468
+    }
+  },
+  "museum-of-architecture-wroclaw": {
+    "id": "museum-of-architecture-wroclaw",
+    "name": {
+      "he": "המוזיאון לאדריכלות",
+      "en": "Museum of Architecture",
+      "pl": "Muzeum Architektury",
+      "de": "Architekturmuseum",
+      "cs": "Muzeum architektury"
+    },
+    "coordinates": {
+      "lat": 51.1094652,
+      "lng": 17.0420402
+    }
+  },
+  "museum-of-pharmacy-wroclaw": {
+    "id": "museum-of-pharmacy-wroclaw",
+    "name": {
+      "he": "מוזיאון הרוקחות",
+      "en": "Museum of Pharmacy",
+      "pl": "Muzeum Farmacji",
+      "de": "Pharmazie-Museum",
+      "cs": "Muzeum farmacie"
+    },
+    "coordinates": {
+      "lat": 51.1097389,
+      "lng": 17.0340548
+    }
+  },
+  "nanan": {
+    "id": "nanan",
+    "name": {
+      "he": "NANAN – קינוחים מעוצבים",
+      "en": "NANAN – modern desserts",
+      "pl": "NANAN – nowoczesne desery",
+      "de": "NANAN – moderne Desserts",
+      "cs": "NANAN – moderní dezerty"
+    },
+    "coordinates": {
+      "lat": 51.10761,
+      "lng": 17.02573
+    }
+  },
+  "national-museum": {
+    "id": "national-museum",
+    "name": {
+      "he": "המוזיאון הלאומי בוורוצלב",
+      "en": "National Museum in Wrocław",
+      "pl": "Muzeum Narodowe we Wrocławiu",
+      "de": "Nationalmuseum Breslau",
+      "cs": "Národní muzeum ve Vratislavi"
+    },
+    "coordinates": {
+      "lat": 51.11061,
+      "lng": 17.04725
+    }
+  },
+  "new-horizons-cinema": {
+    "id": "new-horizons-cinema",
+    "name": {
+      "he": "קולנוע ניו הורייזונס",
+      "en": "New Horizons Cinema",
+      "pl": "Kino Nowe Horyzonty",
+      "de": "Kino Nowe Horyzonty",
+      "cs": "Kino Nowe Horyzonty"
+    },
+    "coordinates": {
+      "lat": 51.109306,
+      "lng": 17.026094
+    }
+  },
+  "nfm": {
+    "id": "nfm",
+    "name": {
+      "he": "הפורום הלאומי למוזיקה",
+      "en": "National Forum of Music",
+      "pl": "Narodowe Forum Muzyki",
+      "de": "Nationales Musikforum",
+      "cs": "Národní hudební fórum"
+    },
+    "coordinates": {
+      "lat": 51.10775,
+      "lng": 17.02857
+    }
+  },
+  "odra-centrum": {
+    "id": "odra-centrum",
+    "name": {
+      "he": "Odra Centrum",
+      "en": "Odra Centrum",
+      "pl": "Odra Centrum",
+      "de": "Odra Centrum",
+      "cs": "Odra Centrum"
+    },
+    "coordinates": {
+      "lat": 51.1088208,
+      "lng": 17.0522865
+    }
+  },
+  "old-jewish-cemetery-wroclaw": {
+    "id": "old-jewish-cemetery-wroclaw",
+    "name": {
+      "he": "בית הקברות היהודי הישן",
+      "en": "Old Jewish Cemetery",
+      "pl": "Stary Cmentarz Żydowski",
+      "de": "Alter Jüdischer Friedhof",
+      "cs": "Starý židovský hřbitov"
+    },
+    "coordinates": {
+      "lat": 51.0876535,
+      "lng": 17.0269459
+    }
+  },
+  "olio-pizza-napoletana-wroclaw": {
+    "id": "olio-pizza-napoletana-wroclaw",
+    "name": {
+      "he": "אוליו פיצה נפוליטנית",
+      "en": "OLIO Pizza Napoletana Wrocław",
+      "pl": "OLIO Pizza Napoletana Wrocław",
+      "de": "OLIO Pizza Napoletana Wrocław",
+      "cs": "OLIO Pizza Napoletana Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1095741,
+      "lng": 17.0367925
+    }
+  },
+  "opera": {
+    "id": "opera",
+    "name": {
+      "he": "האופרה של ורוצלב",
+      "en": "Wrocław Opera",
+      "pl": "Opera Wrocławska",
+      "de": "Oper Breslau",
+      "cs": "Vratislavská opera"
+    },
+    "coordinates": {
+      "lat": 51.10672,
+      "lng": 17.03254
+    }
+  },
+  "ossolineum": {
+    "id": "ossolineum",
+    "name": {
+      "he": "אוסולינאום",
+      "en": "Ossolineum",
+      "pl": "Ossolineum",
+      "de": "Ossolineum",
+      "cs": "Ossolineum"
+    },
+    "coordinates": {
+      "lat": 51.11343,
+      "lng": 17.03657
+    }
+  },
+  "ostrow": {
+    "id": "ostrow",
+    "name": {
+      "he": "אוסטרוב טומסקי",
+      "en": "Ostrów Tumski",
+      "pl": "Ostrów Tumski",
+      "de": "Ostrów Tumski",
+      "cs": "Ostrov Tumski"
+    },
+    "coordinates": {
+      "lat": 51.1146228,
+      "lng": 17.0437212
+    }
+  },
+  "paczkarnia": {
+    "id": "paczkarnia",
+    "name": {
+      "he": "Dobra Pączkarnia – פונצ׳ק",
+      "en": "Dobra Pączkarnia – doughnuts",
+      "pl": "Dobra Pączkarnia – pączki",
+      "de": "Dobra Pączkarnia – Donuts",
+      "cs": "Dobrá Pączkarnia – koblihy"
+    },
+    "coordinates": {
+      "lat": 51.10664,
+      "lng": 17.03213
+    }
+  },
+  "paloma-coffee": {
+    "id": "paloma-coffee",
+    "name": {
+      "he": "Paloma Coffee",
+      "en": "Paloma Coffee",
+      "pl": "Paloma Coffee",
+      "de": "Paloma Coffee",
+      "cs": "Paloma Coffee"
+    },
+    "coordinates": {
+      "lat": 51.1095621,
+      "lng": 17.028772
+    }
+  },
+  "pan-precel": {
+    "id": "pan-precel",
+    "name": {
+      "he": "Pan Precel – Świdnicka",
+      "en": "Pan Precel – Świdnicka",
+      "pl": "Pan Precel – Świdnicka",
+      "de": "Pan Precel – Świdnicka",
+      "cs": "Pan Precel – Świdnicka"
+    },
+    "coordinates": {
+      "lat": 51.1069625,
+      "lng": 17.032226
+    }
+  },
+  "pan-precel-express-grunwaldzki": {
+    "id": "pan-precel-express-grunwaldzki",
+    "name": {
+      "he": "פן פרצל אקספרס, גרונבלדזקי",
+      "en": "Pan Precel Express, Grunwaldzki",
+      "pl": "Pan Precel Express, Grunwaldzki",
+      "de": "Pan Precel Express, Grunwaldzki",
+      "cs": "Pan Precel Express, Grunwaldzki"
+    },
+    "coordinates": {
+      "lat": 51.1122394,
+      "lng": 17.0601603
+    }
+  },
+  "pan-precel-olawska": {
+    "id": "pan-precel-olawska",
+    "name": {
+      "he": "Pan Precel – Oławska 22",
+      "en": "Pan Precel – Oławska 22",
+      "pl": "Pan Precel – Oławska 22",
+      "de": "Pan Precel – Oławska 22",
+      "cs": "Pan Precel – Oławska 22"
+    },
+    "coordinates": {
+      "lat": 51.10627,
+      "lng": 17.03802
+    }
+  },
+  "pan-tadeusz-museum": {
+    "id": "pan-tadeusz-museum",
+    "name": {
+      "he": "מוזיאון פאן טדאוש",
+      "en": "Pan Tadeusz Museum",
+      "pl": "Muzeum Pana Tadeusza",
+      "de": "Pan-Tadeusz-Museum",
+      "cs": "Muzeum Pana Tadeusze"
+    },
+    "coordinates": {
+      "lat": 51.1104299,
+      "lng": 17.0302752
+    }
+  },
+  "panorama": {
+    "id": "panorama",
+    "name": {
+      "he": "פנורמת רצלאביצה",
+      "en": "Racławice Panorama",
+      "pl": "Panorama Racławicka",
+      "de": "Panorama von Racławice",
+      "cs": "Racławické panorama"
+    },
+    "coordinates": {
+      "lat": 51.11027,
+      "lng": 17.04457
+    }
+  },
+  "papa": {
+    "id": "papa",
+    "name": {
+      "he": "הגמד Papa Krasnal",
+      "en": "Papa Krasnal dwarf",
+      "pl": "Krasnal Papa",
+      "de": "Papa Krasnal Zwerg",
+      "cs": "Papa Krasnal trpaslík"
+    },
+    "coordinates": {
+      "lat": 51.10753,
+      "lng": 17.03237
+    }
+  },
+  "park-szczytnicki-wroclaw": {
+    "id": "park-szczytnicki-wroclaw",
+    "name": {
+      "he": "פארק שטניצקי",
+      "en": "Szczytnicki Park",
+      "pl": "Park Szczytnicki",
+      "de": "Scheitniger Park",
+      "cs": "Park Szczytnicki"
+    },
+    "coordinates": {
+      "lat": 51.1081,
+      "lng": 17.082
+    }
+  },
+  "parrot-coffee-bema": {
+    "id": "parrot-coffee-bema",
+    "name": {
+      "he": "קפה פארוט, סניף במה",
+      "en": "Parrot Coffee, Bema",
+      "pl": "Parrot Coffee przy Bema",
+      "de": "Parrot Coffee an der Bema",
+      "cs": "Parrot Coffee v ulici Bema"
+    },
+    "coordinates": {
+      "lat": 51.1176655,
+      "lng": 17.0416121
+    }
+  },
+  "pasaz": {
+    "id": "pasaz",
+    "name": {
+      "he": "Pasaż Grunwaldzki",
+      "en": "Pasaż Grunwaldzki",
+      "pl": "Pasaż Grunwaldzki",
+      "de": "Pasaż Grunwaldzki",
+      "cs": "Pasaż Grunwaldzki"
+    },
+    "coordinates": {
+      "lat": 51.1121562,
+      "lng": 17.0597204
+    }
+  },
+  "pedet": {
+    "id": "pedet",
+    "name": {
+      "he": "מתחם האוכל פדט",
+      "en": "PeDeT Food Hall",
+      "pl": "PeDeT Food Hall",
+      "de": "PeDeT Food Hall",
+      "cs": "PeDeT Food Hall"
+    },
+    "coordinates": {
+      "lat": 51.1037104,
+      "lng": 17.0324564
+    }
+  },
+  "pergola": {
+    "id": "pergola",
+    "name": {
+      "he": "הפרגולה של ורוצלב",
+      "en": "Wrocław Pergola",
+      "pl": "Pergola Wrocławska",
+      "de": "Pergola Wrocław",
+      "cs": "Vratislavská pergola"
+    },
+    "coordinates": {
+      "lat": 51.10882,
+      "lng": 17.07762
+    }
+  },
+  "peruwiana": {
+    "id": "peruwiana",
+    "name": {
+      "he": "Peruwiana",
+      "en": "Peruwiana",
+      "pl": "Peruwiana",
+      "de": "Peruwiana",
+      "cs": "Peruwiana"
+    },
+    "coordinates": {
+      "lat": 51.1082145,
+      "lng": 17.0247652
+    }
+  },
+  "pestka-bistro-wine-bar": {
+    "id": "pestka-bistro-wine-bar",
+    "name": {
+      "he": "Pestka Bistro Wine Bar",
+      "en": "Pestka Bistro Wine Bar",
+      "pl": "Pestka Bistro Wine Bar",
+      "de": "Pestka Bistro Wine Bar",
+      "cs": "Pestka Bistro Wine Bar"
+    },
+    "coordinates": {
+      "lat": 51.1092597,
+      "lng": 17.0249216
+    }
+  },
+  "piastowska-pieczec-wroclaw": {
+    "id": "piastowska-pieczec-wroclaw",
+    "name": {
+      "he": "מסלול שרידי טירת פיאסט\nPiastowska Pieczęć",
+      "en": "Piastowska Pieczęć: Piast Castle Remains",
+      "pl": "Piastowska Pieczęć: pozostałości zamku Piastów",
+      "de": "Piastowska Pieczęć: Überreste der Piastenburg",
+      "cs": "Piastowska Pieczęć: pozůstatky piastovského hradu"
+    },
+    "coordinates": {
+      "lat": 51.115979591458,
+      "lng": 17.043502238527
+    }
+  },
+  "pijalni-wino-bistro": {
+    "id": "pijalni-wino-bistro",
+    "name": {
+      "he": "Pijalni wino & bistro",
+      "en": "Pijalni wino & bistro",
+      "pl": "Pijalni wino & bistro",
+      "de": "Pijalni wino & bistro",
+      "cs": "Pijalni wino & bistro"
+    },
+    "coordinates": {
+      "lat": 51.1116485,
+      "lng": 17.0560644
+    }
+  },
+  "pizza-si": {
+    "id": "pizza-si",
+    "name": {
+      "he": "פיצה סי",
+      "en": "Pizza Si",
+      "pl": "Pizza Si",
+      "de": "Pizza Si",
+      "cs": "Pizza Si"
+    },
+    "coordinates": {
+      "lat": 51.0999236,
+      "lng": 17.0299738
+    }
+  },
+  "polinka": {
+    "id": "polinka",
+    "name": {
+      "he": "Polinka – הרכבל מעל האודר",
+      "en": "Polinka cable car over the Oder",
+      "pl": "Polinka nad Odrą",
+      "de": "Polinka-Seilbahn über die Oder",
+      "cs": "Lanovka Polinka přes Odru"
+    },
+    "coordinates": {
+      "lat": 51.1075,
+      "lng": 17.05676
+    }
+  },
+  "polish-lody": {
+    "id": "polish-lody",
+    "name": {
+      "he": "Polish Lody – גלידה",
+      "en": "Polish Lody – ice cream",
+      "pl": "Polish Lody",
+      "de": "Polnisches Lody – Eis",
+      "cs": "Polish Lody – zmrzlina"
+    },
+    "coordinates": {
+      "lat": 51.11701,
+      "lng": 17.04147
+    }
+  },
+  "polish-theatre-wroclaw": {
+    "id": "polish-theatre-wroclaw",
+    "name": {
+      "he": "התיאטרון הפולני",
+      "en": "Polish Theatre in Wrocław",
+      "pl": "Teatr Polski we Wrocławiu",
+      "de": "Polnisches Theater Wrocław",
+      "cs": "Polské divadlo ve Vratislavi"
+    },
+    "coordinates": {
+      "lat": 51.101278,
+      "lng": 17.0260842
+    }
+  },
+  "pomiedzy-cafe-bistro-wroclaw": {
+    "id": "pomiedzy-cafe-bistro-wroclaw",
+    "name": {
+      "he": "פומיינדז׳ה, בית קפה וביסטרו",
+      "en": "Pomiędzy cafe&bistro",
+      "pl": "Pomiędzy cafe&bistro",
+      "de": "Pomiędzy cafe&bistro",
+      "cs": "Pomiędzy cafe&bistro"
+    },
+    "coordinates": {
+      "lat": 51.1168075,
+      "lng": 17.0332323
+    }
+  },
+  "prize-by-radisson-wroclaw-sky-tower": {
+    "id": "prize-by-radisson-wroclaw-sky-tower",
+    "name": {
+      "he": "Prize by Radisson, Wroclaw Sky Tower",
+      "en": "Prize by Radisson, Wroclaw Sky Tower",
+      "pl": "Prize by Radisson, Wroclaw Sky Tower",
+      "de": "Prize by Radisson, Wroclaw Sky Tower",
+      "cs": "Prize by Radisson, Wroclaw Sky Tower"
+    },
+    "coordinates": {
+      "lat": 51.094799,
+      "lng": 17.019579
+    }
+  },
+  "przystanek-kowary": {
+    "id": "przystanek-kowary",
+    "name": {
+      "he": "מוזיאון תחנת קובארי",
+      "en": "Przystanek Kowary Museum",
+      "pl": "Muzeum Przystanek Kowary",
+      "de": "Museum Przystanek Kowary",
+      "cs": "Muzeum Przystanek Kowary"
+    },
+    "coordinates": {
+      "lat": 50.79803,
+      "lng": 15.82576
+    }
+  },
+  "puro": {
+    "id": "puro",
+    "name": {
+      "he": "מלון פורו ורוצלב",
+      "en": "PURO Wrocław Stare Miasto",
+      "pl": "PURO Wrocław Stare Miasto",
+      "de": "PURO Wrocław Stare Miasto",
+      "cs": "PURO Wrocław Stare Miasto"
+    },
+    "coordinates": {
+      "lat": 51.1079917,
+      "lng": 17.0248927
+    }
+  },
+  "renoma": {
+    "id": "renoma",
+    "name": {
+      "he": "מרכז הקניות רנומה",
+      "en": "Renoma Department Store",
+      "pl": "Dom Handlowy Renoma",
+      "de": "Kaufhaus Renoma",
+      "cs": "Obchodní dům Renoma"
+    },
+    "coordinates": {
+      "lat": 51.1038569,
+      "lng": 17.0319662
+    }
+  },
+  "restauracja-tarasowa": {
+    "id": "restauracja-tarasowa",
+    "name": {
+      "he": "Restauracja Tarasowa",
+      "en": "Restauracja Tarasowa",
+      "pl": "Restauracja Tarasowa",
+      "de": "Restauracja Tarasowa",
+      "cs": "Restauracja Tarasowa"
+    },
+    "coordinates": {
+      "lat": 51.1079248,
+      "lng": 17.0779726
+    }
+  },
+  "royal-palace-wroclaw": {
+    "id": "royal-palace-wroclaw",
+    "name": {
+      "he": "הארמון המלכותי",
+      "en": "Royal Palace",
+      "pl": "Pałac Królewski",
+      "de": "Königspalais",
+      "cs": "Královský palác"
+    },
+    "coordinates": {
+      "lat": 51.1076223,
+      "lng": 17.0292728
+    }
+  },
+  "rynek": {
+    "id": "rynek",
+    "name": {
+      "he": "כיכר השוק של ורוצלב",
+      "en": "Wrocław Market Square",
+      "pl": "Rynek we Wrocławiu",
+      "de": "Breslauer Marktplatz",
+      "cs": "Vratislavské náměstí"
+    },
+    "coordinates": {
+      "lat": 51.10932,
+      "lng": 17.03167
+    }
+  },
+  "sarah": {
+    "id": "sarah",
+    "name": {
+      "he": "Restauracja Sarah",
+      "en": "Restauracja Sarah",
+      "pl": "Restauracja Sarah",
+      "de": "Restauracja Sarah",
+      "cs": "Restauracja Sarah"
+    },
+    "coordinates": {
+      "lat": 51.1081541,
+      "lng": 17.0252764
+    }
+  },
+  "sic-gallery-bwa-wroclaw": {
+    "id": "sic-gallery-bwa-wroclaw",
+    "name": {
+      "he": "גלריית SiC! BWA",
+      "en": "SiC! Gallery BWA Wrocław",
+      "pl": "Galeria SiC! BWA Wrocław",
+      "de": "Galerie SiC! BWA Wrocław",
+      "cs": "Galerie SiC! BWA Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1025544,
+      "lng": 17.0287526
+    }
+  },
+  "slodowa": {
+    "id": "slodowa",
+    "name": {
+      "he": "אי סלודובה",
+      "en": "Słodowa Island",
+      "pl": "Wyspa Słodowa",
+      "de": "Insel Słodowa",
+      "cs": "Ostrov Słodowa"
+    },
+    "coordinates": {
+      "lat": 51.1169,
+      "lng": 17.03737
+    }
+  },
+  "solny": {
+    "id": "solny",
+    "name": {
+      "he": "כיכר המלח",
+      "en": "Salt Square",
+      "pl": "Plac Solny",
+      "de": "Salzplatz",
+      "cs": "Solné náměstí"
+    },
+    "coordinates": {
+      "lat": 51.10885,
+      "lng": 17.03005
+    }
+  },
+  "song-of-the-goat-theatre": {
+    "id": "song-of-the-goat-theatre",
+    "name": {
+      "he": "תיאטרון שירת העז",
+      "en": "Song of the Goat Theatre",
+      "pl": "Teatr Pieśń Kozła",
+      "de": "Song of the Goat Theatre",
+      "cs": "Divadlo Pieśń Kozła"
+    },
+    "coordinates": {
+      "lat": 51.1103079,
+      "lng": 17.0397134
+    }
+  },
+  "srebrna-gora-fortress": {
+    "id": "srebrna-gora-fortress",
+    "name": {
+      "he": "מבצר סרברנה גורה",
+      "en": "Srebrna Góra Fortress",
+      "pl": "Twierdza Srebrna Góra",
+      "de": "Festung Silberberg",
+      "cs": "Pevnost Stříbrná Hora"
+    },
+    "coordinates": {
+      "lat": 50.574479,
+      "lng": 16.642978
+    }
+  },
+  "st-martin-church-wroclaw": {
+    "id": "st-martin-church-wroclaw",
+    "name": {
+      "he": "כנסיית מרטין הקדוש",
+      "en": "St Martin’s Church",
+      "pl": "Kościół św. Marcina",
+      "de": "Martinskirche",
+      "cs": "Kostel svatého Martina"
+    },
+    "coordinates": {
+      "lat": 51.115484674255,
+      "lng": 17.04285394024
+    }
+  },
+  "stadion-olimpijski-wroclaw": {
+    "id": "stadion-olimpijski-wroclaw",
+    "name": {
+      "he": "האצטדיון האולימפי של ורוצלב",
+      "en": "Wrocław Olympic Stadium",
+      "pl": "Stadion Olimpijski we Wrocławiu",
+      "de": "Olympiastadion Breslau",
+      "cs": "Olympijský stadion ve Vratislavi"
+    },
+    "coordinates": {
+      "lat": 51.1195926,
+      "lng": 17.0966604
+    }
+  },
+  "stary-mlyn-rynek-wroclaw": {
+    "id": "stary-mlyn-rynek-wroclaw",
+    "name": {
+      "he": "סטארי מלין, רינק",
+      "en": "Pierogarnia Stary Młyn, Rynek",
+      "pl": "Pierogarnia Stary Młyn, Rynek",
+      "de": "Pierogarnia Stary Młyn, Rynek",
+      "cs": "Pierogarnia Stary Młyn, Rynek"
+    },
+    "coordinates": {
+      "lat": 51.1092085,
+      "lng": 17.0331316
+    }
+  },
+  "studio-bwa-wroclaw": {
+    "id": "studio-bwa-wroclaw",
+    "name": {
+      "he": "סטודיו BWA ורוצלב",
+      "en": "Studio BWA Wrocław",
+      "pl": "Studio BWA Wrocław",
+      "de": "Studio BWA Wrocław",
+      "cs": "Studio BWA Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1102855,
+      "lng": 17.0245017
+    }
+  },
+  "sushi-corner": {
+    "id": "sushi-corner",
+    "name": {
+      "he": "Sushi Corner – Wrocław",
+      "en": "Sushi Corner – Wrocław",
+      "pl": "Sushi Corner – Wrocław",
+      "de": "Sushi Corner – Wrocław",
+      "cs": "Sushi Corner – Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1085849,
+      "lng": 17.0234579
+    }
+  },
+  "szkocka-cocktail-bar": {
+    "id": "szkocka-cocktail-bar",
+    "name": {
+      "he": "Szkocka Cocktail Bar",
+      "en": "Szkocka Cocktail Bar",
+      "pl": "Szkocka Cocktail Bar",
+      "de": "Szkocka Cocktail Bar",
+      "cs": "Szkocka Cocktail Bar"
+    },
+    "coordinates": {
+      "lat": 51.108113,
+      "lng": 17.0182427
+    }
+  },
+  "taproom-stu-mostow": {
+    "id": "taproom-stu-mostow",
+    "name": {
+      "he": "Taproom Stu Mostów",
+      "en": "Taproom Stu Mostów",
+      "pl": "Taproom Stu Mostów",
+      "de": "Taproom Stu Mostów",
+      "cs": "Taproom Stu Mostów"
+    },
+    "coordinates": {
+      "lat": 51.1318489,
+      "lng": 17.0592712
+    }
+  },
+  "the-bridge": {
+    "id": "the-bridge",
+    "name": {
+      "he": "The Bridge Wrocław – MGallery",
+      "en": "The Bridge Wrocław – MGallery",
+      "pl": "The Bridge Wrocław – MGallery",
+      "de": "The Bridge Wrocław – MGallery",
+      "cs": "The Bridge Wrocław – MGallery"
+    },
+    "coordinates": {
+      "lat": 51.113712,
+      "lng": 17.0479934
+    }
+  },
+  "the-cyrus-hotel-wroclaw": {
+    "id": "the-cyrus-hotel-wroclaw",
+    "name": {
+      "he": "מלון סיירוס",
+      "en": "The Cyrus Hotel",
+      "pl": "The Cyrus Hotel",
+      "de": "The Cyrus Hotel",
+      "cs": "The Cyrus Hotel"
+    },
+    "coordinates": {
+      "lat": 51.112265,
+      "lng": 17.0287276
+    }
+  },
+  "the-mexican": {
+    "id": "the-mexican",
+    "name": {
+      "he": "The Mexican",
+      "en": "The Mexican",
+      "pl": "The Mexican",
+      "de": "The Mexican",
+      "cs": "The Mexican"
+    },
+    "coordinates": {
+      "lat": 51.1110238,
+      "lng": 17.0309369
+    }
+  },
+  "town-hall": {
+    "id": "town-hall",
+    "name": {
+      "he": "בית העירייה העתיק",
+      "en": "Wrocław Old Town Hall",
+      "pl": "Ratusz we Wrocławiu",
+      "de": "Altes Rathaus Breslau",
+      "cs": "Stará radnice ve Vratislavi"
+    },
+    "coordinates": {
+      "lat": 51.10993,
+      "lng": 17.0317
+    }
+  },
+  "tulip-hotels-wroclaw-patio": {
+    "id": "tulip-hotels-wroclaw-patio",
+    "name": {
+      "he": "טוליפ הוטלס ורוצלב פטיו",
+      "en": "Tulip Hotels Wroclaw Patio",
+      "pl": "Tulip Hotels Wroclaw Patio",
+      "de": "Tulip Hotels Wroclaw Patio",
+      "cs": "Tulip Hotels Wroclaw Patio"
+    },
+    "coordinates": {
+      "lat": 51.1118582,
+      "lng": 17.0298244
+    }
+  },
+  "university": {
+    "id": "university",
+    "name": {
+      "he": "אוניברסיטת ורוצלב",
+      "en": "University of Wrocław",
+      "pl": "Uniwersytet Wrocławski",
+      "de": "Universität Breslau",
+      "cs": "Vratislavská univerzita"
+    },
+    "coordinates": {
+      "lat": 51.11399,
+      "lng": 17.03393
+    }
+  },
+  "vega-bar-weganski-wroclaw": {
+    "id": "vega-bar-weganski-wroclaw",
+    "name": {
+      "he": "וגה, בר טבעוני",
+      "en": "Vega Vegan Bar",
+      "pl": "VEGA Bar Wegański",
+      "de": "Vega Vegane Bar",
+      "cs": "Vega veganský bar"
+    },
+    "coordinates": {
+      "lat": 51.10989298784371,
+      "lng": 17.032397085533102
+    }
+  },
+  "vegan-af-ramen": {
+    "id": "vegan-af-ramen",
+    "name": {
+      "he": "Vegan AF Ramen",
+      "en": "Vegan AF Ramen",
+      "pl": "Vegan AF Ramen",
+      "de": "Vegan AF Ramen",
+      "cs": "Vegan AF Ramen"
+    },
+    "coordinates": {
+      "lat": 51.1085829,
+      "lng": 17.0354843
+    }
+  },
+  "walbrzych-market-square": {
+    "id": "walbrzych-market-square",
+    "name": {
+      "he": "כיכר השוק של Wałbrzych",
+      "en": "Wałbrzych Market Square",
+      "pl": "Rynek w Wałbrzychu",
+      "de": "Marktplatz von Wałbrzych",
+      "cs": "Tržní náměstí ve Valbřichu"
+    },
+    "coordinates": {
+      "lat": 50.7662241,
+      "lng": 16.2829578
+    }
+  },
+  "wang-church": {
+    "id": "wang-church",
+    "name": {
+      "he": "כנסיית וואנג",
+      "en": "Wang Church",
+      "pl": "Świątynia Wang",
+      "de": "Stabkirche Wang",
+      "cs": "Kostel Wang"
+    },
+    "coordinates": {
+      "lat": 50.7773866,
+      "lng": 15.7241515
+    }
+  },
+  "water-refill-hala-stulecia": {
+    "id": "water-refill-hala-stulecia",
+    "name": {
+      "he": "Zdrój uliczny – Hala Stulecia",
+      "en": "Zdrój uliczny – Hala Stulecia",
+      "pl": "Zdrój uliczny – Hala Stulecia",
+      "de": "Zdrój uliczny – Hala Stulecia",
+      "cs": "Zdrój uliczny – Hala Stulecia"
+    },
+    "coordinates": {
+      "lat": 51.106724,
+      "lng": 17.078534
+    }
+  },
+  "water-refill-hydropolis": {
+    "id": "water-refill-hydropolis",
+    "name": {
+      "he": "Zdrój uliczny – Hydropolis / Na Grobli",
+      "en": "Zdrój uliczny – Hydropolis / Na Grobli",
+      "pl": "Zdrój uliczny – Hydropolis / Na Grobli",
+      "de": "Zdrój uliczny – Hydropolis / Na Grobli",
+      "cs": "Zdrój uliczny – Hydropolis / Na Grobli"
+    },
+    "coordinates": {
+      "lat": 51.104383,
+      "lng": 17.056206
+    }
+  },
+  "water-refill-nmp-piasek": {
+    "id": "water-refill-nmp-piasek",
+    "name": {
+      "he": "Zdrój uliczny – NMP / Piasek",
+      "en": "Zdrój uliczny – NMP / Piasek",
+      "pl": "Zdrój uliczny – NMP / Piasek",
+      "de": "Zdrój uliczny – NMP / Piasek",
+      "cs": "Zdrój uliczny – NMP / Piasek"
+    },
+    "coordinates": {
+      "lat": 51.1150037,
+      "lng": 17.0411936
+    }
+  },
+  "water-refill-olawska-swidnicka": {
+    "id": "water-refill-olawska-swidnicka",
+    "name": {
+      "he": "Zdrój uliczny – Oławska / Świdnicka",
+      "en": "Zdrój uliczny – Oławska / Świdnicka",
+      "pl": "Zdrój uliczny – Oławska / Świdnicka",
+      "de": "Zdrój uliczny – Oławska / Świdnicka",
+      "cs": "Zdrój uliczny – Oławska / Świdnicka"
+    },
+    "coordinates": {
+      "lat": 51.109077,
+      "lng": 17.033129
+    }
+  },
+  "water-refill-park-tolpy": {
+    "id": "water-refill-park-tolpy",
+    "name": {
+      "he": "Zdrój uliczny – Park Stanisława Tołpy",
+      "en": "Zdrój uliczny – Park Stanisława Tołpy",
+      "pl": "Zdrój uliczny – Park Stanisława Tołpy",
+      "de": "Zdrój uliczny – Park Stanisława Tołpy",
+      "cs": "Zdrój uliczny – Park Stanisława Tołpy"
+    },
+    "coordinates": {
+      "lat": 51.119598,
+      "lng": 17.051823
+    }
+  },
+  "water-refill-plac-dominikanski": {
+    "id": "water-refill-plac-dominikanski",
+    "name": {
+      "he": "Zdrój uliczny – plac Dominikański",
+      "en": "Zdrój uliczny – plac Dominikański",
+      "pl": "Zdrój uliczny – plac Dominikański",
+      "de": "Zdrój uliczny – plac Dominikański",
+      "cs": "Zdrój uliczny – plac Dominikański"
+    },
+    "coordinates": {
+      "lat": 51.108268,
+      "lng": 17.039112
+    }
+  },
+  "water-refill-plac-nowy-targ": {
+    "id": "water-refill-plac-nowy-targ",
+    "name": {
+      "he": "Zdrój uliczny – plac Nowy Targ",
+      "en": "Zdrój uliczny – plac Nowy Targ",
+      "pl": "Zdrój uliczny – plac Nowy Targ",
+      "de": "Zdrój uliczny – plac Nowy Targ",
+      "cs": "Zdrój uliczny – plac Nowy Targ"
+    },
+    "coordinates": {
+      "lat": 51.111522,
+      "lng": 17.0378996
+    }
+  },
+  "water-refill-plac-solny": {
+    "id": "water-refill-plac-solny",
+    "name": {
+      "he": "Zdrój uliczny – plac Solny",
+      "en": "Zdrój uliczny – plac Solny",
+      "pl": "Zdrój uliczny – plac Solny",
+      "de": "Zdrój uliczny – plac Solny",
+      "cs": "Zdrój uliczny – plac Solny"
+    },
+    "coordinates": {
+      "lat": 51.109702,
+      "lng": 17.030002
+    }
+  },
+  "water-refill-plac-teatralny": {
+    "id": "water-refill-plac-teatralny",
+    "name": {
+      "he": "Zdrój uliczny – plac Teatralny",
+      "en": "Zdrój uliczny – plac Teatralny",
+      "pl": "Zdrój uliczny – plac Teatralny",
+      "de": "Zdrój uliczny – plac Teatralny",
+      "cs": "Zdrój uliczny – plac Teatralny"
+    },
+    "coordinates": {
+      "lat": 51.105322,
+      "lng": 17.033381
+    }
+  },
+  "water-refill-plac-wolnosci": {
+    "id": "water-refill-plac-wolnosci",
+    "name": {
+      "he": "Zdrój uliczny – plac Wolności",
+      "en": "Zdrój uliczny – plac Wolności",
+      "pl": "Zdrój uliczny – plac Wolności",
+      "de": "Zdrój uliczny – plac Wolności",
+      "cs": "Zdrój uliczny – plac Wolności"
+    },
+    "coordinates": {
+      "lat": 51.106814,
+      "lng": 17.0276229
+    }
+  },
+  "water-refill-rynek-psiego-pola": {
+    "id": "water-refill-rynek-psiego-pola",
+    "name": {
+      "he": "Zdrój uliczny – Rynek Psiego Pola",
+      "en": "Zdrój uliczny – Rynek Psiego Pola",
+      "pl": "Zdrój uliczny – Rynek Psiego Pola",
+      "de": "Zdrój uliczny – Rynek Psiego Pola",
+      "cs": "Zdrój uliczny – Rynek Psiego Pola"
+    },
+    "coordinates": {
+      "lat": 51.1462196,
+      "lng": 17.1128093
+    }
+  },
+  "water-refill-skwer-steinmetza": {
+    "id": "water-refill-skwer-steinmetza",
+    "name": {
+      "he": "Zdrój uliczny – Skwer Steinmetza",
+      "en": "Zdrój uliczny – Skwer Steinmetza",
+      "pl": "Zdrój uliczny – Skwer Steinmetza",
+      "de": "Zdrój uliczny – Skwer Steinmetza",
+      "cs": "Zdrój uliczny – Skwer Steinmetza"
+    },
+    "coordinates": {
+      "lat": 51.112172,
+      "lng": 17.085492
+    }
+  },
+  "water-refill-wroclaw-airport": {
+    "id": "water-refill-wroclaw-airport",
+    "name": {
+      "he": "Poidełka – Port Lotniczy Wrocław",
+      "en": "Poidełka – Port Lotniczy Wrocław",
+      "pl": "Poidełka – Port Lotniczy Wrocław",
+      "de": "Poidełka – Port Lotniczy Wrocław",
+      "cs": "Poidełka – Port Lotniczy Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1096937,
+      "lng": 16.880719
+    }
+  },
+  "water-refill-wyspa-slodowa": {
+    "id": "water-refill-wyspa-slodowa",
+    "name": {
+      "he": "Zdrój uliczny – Wyspa Słodowa",
+      "en": "Zdrój uliczny – Wyspa Słodowa",
+      "pl": "Zdrój uliczny – Wyspa Słodowa",
+      "de": "Zdrój uliczny – Wyspa Słodowa",
+      "cs": "Zdrój uliczny – Wyspa Słodowa"
+    },
+    "coordinates": {
+      "lat": 51.115927,
+      "lng": 17.038542
+    }
+  },
+  "water-refill-zoo-afrykarium": {
+    "id": "water-refill-zoo-afrykarium",
+    "name": {
+      "he": "Zdrój uliczny – ZOO / Afrykarium",
+      "en": "Zdrój uliczny – ZOO / Afrykarium",
+      "pl": "Zdrój uliczny – ZOO / Afrykarium",
+      "de": "Zdrój uliczny – ZOO / Afrykarium",
+      "cs": "Zdrój uliczny – ZOO / Afrykarium"
+    },
+    "coordinates": {
+      "lat": 51.1046684,
+      "lng": 17.0754744
+    }
+  },
+  "wedel": {
+    "id": "wedel",
+    "name": {
+      "he": "Chocolate Cafe E.Wedel",
+      "en": "Chocolate Cafe E.Wedel",
+      "pl": "Chocolate Cafe E.Wedel",
+      "de": "Chocolate Cafe E.Wedel",
+      "cs": "Chocolate Cafe E.Wedel"
+    },
+    "coordinates": {
+      "lat": 51.1110173,
+      "lng": 17.031212
+    }
+  },
+  "wedrowcy-kolejowa-63": {
+    "id": "wedrowcy-kolejowa-63",
+    "name": {
+      "he": "Wędrowcy – אמנות ציבורית ברחוב קולייובה 63",
+      "en": "Wędrowcy — public artwork at Kolejowa 63",
+      "pl": "Wędrowcy — instalacja przy Kolejowej 63",
+      "de": "Wędrowcy – Kunstwerk an der Kolejowa 63",
+      "cs": "Wędrowcy – umělecká instalace na Kolejowé 63"
+    },
+    "coordinates": {
+      "lat": 51.104343,
+      "lng": 17.015783
+    }
+  },
+  "whiskey": {
+    "id": "whiskey",
+    "name": {
+      "he": "Whiskey in the Jar",
+      "en": "Whiskey in the Jar",
+      "pl": "Whiskey in the Jar",
+      "de": "Whiskey in the Jar",
+      "cs": "Whiskey in the Jar"
+    },
+    "coordinates": {
+      "lat": 51.1092096,
+      "lng": 17.0321278
+    }
+  },
+  "white-stork-synagogue-wroclaw": {
+    "id": "white-stork-synagogue-wroclaw",
+    "name": {
+      "he": "בית הכנסת החסידה הלבנה",
+      "en": "White Stork Synagogue",
+      "pl": "Synagoga Pod Białym Bocianem",
+      "de": "Synagoge zum Weißen Storch",
+      "cs": "Synagoga U Bílého čápa"
+    },
+    "coordinates": {
+      "lat": 51.108468291071,
+      "lng": 17.025364605411
+    }
+  },
+  "wierzbowa-15": {
+    "id": "wierzbowa-15",
+    "name": {
+      "he": "Wierzbowa 15",
+      "en": "Wierzbowa 15",
+      "pl": "Wierzbowa 15",
+      "de": "Wierzbowa 15",
+      "cs": "Wierzbowa 15"
+    },
+    "coordinates": {
+      "lat": 51.1049625,
+      "lng": 17.0364118
+    }
+  },
+  "wieza-cisnien-borek": {
+    "id": "wieza-cisnien-borek",
+    "name": {
+      "he": "מגדל המים של בורק",
+      "en": "Borek Water Tower",
+      "pl": "Wieża Ciśnień Borek",
+      "de": "Wasserturm Borek",
+      "cs": "Vodárenská věž Borek"
+    },
+    "coordinates": {
+      "lat": 51.08533,
+      "lng": 17.01765
+    }
+  },
+  "woda-cafe": {
+    "id": "woda-cafe",
+    "name": {
+      "he": "Woda café",
+      "en": "Woda café",
+      "pl": "Woda café",
+      "de": "Woda café",
+      "cs": "Woda café"
+    },
+    "coordinates": {
+      "lat": 51.1034555,
+      "lng": 17.0572822
+    }
+  },
+  "woosabi": {
+    "id": "woosabi",
+    "name": {
+      "he": "Woosabi Włodkowica – Urban Oasis",
+      "en": "Woosabi Włodkowica – Urban Oasis",
+      "pl": "Woosabi Włodkowica – Urban Oasis",
+      "de": "Woosabi Włodkowica – Urban Oasis",
+      "cs": "Woosabi Włodkowica – Urban Oasis"
+    },
+    "coordinates": {
+      "lat": 51.1089823,
+      "lng": 17.0234378
+    }
+  },
+  "woosabi-swidnicka-wroclaw": {
+    "id": "woosabi-swidnicka-wroclaw",
+    "name": {
+      "he": "ווסאבי, סניף שווידניצקה",
+      "en": "Woosabi Good Vibes Lounge, Świdnicka",
+      "pl": "Woosabi Good Vibes Lounge, Świdnicka",
+      "de": "Woosabi Good Vibes Lounge, Świdnicka",
+      "cs": "Woosabi Good Vibes Lounge, Świdnicka"
+    },
+    "coordinates": {
+      "lat": 51.106280200268216,
+      "lng": 17.03186185493995
+    }
+  },
+  "wroclavia": {
+    "id": "wroclavia",
+    "name": {
+      "he": "וסטפילד וורוצלביה",
+      "en": "Westfield Wroclavia",
+      "pl": "Westfield Wroclavia",
+      "de": "Westfield Wroclavia",
+      "cs": "Westfield Wroclavia"
+    },
+    "coordinates": {
+      "lat": 51.0964311,
+      "lng": 17.0348417
+    }
+  },
+  "wroclaw-botanical-garden": {
+    "id": "wroclaw-botanical-garden",
+    "name": {
+      "he": "הגן הבוטני בוורוצלב",
+      "en": "Wrocław Botanical Garden",
+      "pl": "Ogród Botaniczny we Wrocławiu",
+      "de": "Botanischer Garten Breslau",
+      "cs": "Botanická zahrada ve Vratislavi"
+    },
+    "coordinates": {
+      "lat": 51.1159,
+      "lng": 17.0478
+    }
+  },
+  "wroclaw-contemporary-museum": {
+    "id": "wroclaw-contemporary-museum",
+    "name": {
+      "he": "המוזיאון לאמנות עכשווית",
+      "en": "Wrocław Contemporary Museum",
+      "pl": "Muzeum Współczesne Wrocław",
+      "de": "Museum für Gegenwartskunst Wrocław",
+      "cs": "Vratislavské muzeum současného umění"
+    },
+    "coordinates": {
+      "lat": 51.113059,
+      "lng": 17.0047051
+    }
+  },
+  "wroclaw-contemporary-theatre": {
+    "id": "wroclaw-contemporary-theatre",
+    "name": {
+      "he": "התיאטרון העכשווי של ורוצלב",
+      "en": "Wrocław Contemporary Theatre",
+      "pl": "Wrocławski Teatr Współczesny",
+      "de": "Zeitgenössisches Theater Wrocław",
+      "cs": "Vratislavské současné divadlo"
+    },
+    "coordinates": {
+      "lat": 51.1122412,
+      "lng": 17.0289254
+    }
+  },
+  "wroclaw-puppet-theatre": {
+    "id": "wroclaw-puppet-theatre",
+    "name": {
+      "he": "תיאטרון הבובות של ורוצלב",
+      "en": "Wrocław Puppet Theatre",
+      "pl": "Wrocławski Teatr Lalek",
+      "de": "Breslauer Puppentheater",
+      "cs": "Vratislavské loutkové divadlo"
+    },
+    "coordinates": {
+      "lat": 51.105053,
+      "lng": 17.033054
+    }
+  },
+  "wuwa": {
+    "id": "wuwa",
+    "name": {
+      "he": "בית הקפה בשכונת וו־ווה",
+      "en": "WuWA Café",
+      "pl": "Kawiarnia WuWA",
+      "de": "WuWA Café",
+      "cs": "Kavárna WuWA"
+    },
+    "coordinates": {
+      "lat": 51.10709,
+      "lng": 17.0873
+    }
+  },
+  "wuwa-estate": {
+    "id": "wuwa-estate",
+    "name": {
+      "he": "שכונת WuWA",
+      "en": "WuWA Housing Estate",
+      "pl": "Osiedle WuWA",
+      "de": "WuWA-Siedlung",
+      "cs": "Sídliště WuWA"
+    },
+    "coordinates": {
+      "lat": 51.1066175,
+      "lng": 17.0855336
+    }
+  },
+  "wyndham-wroclaw-old-town": {
+    "id": "wyndham-wroclaw-old-town",
+    "name": {
+      "he": "מלון וינדהם בעיר העתיקה",
+      "en": "Wyndham Wrocław Old Town",
+      "pl": "Wyndham Wrocław Old Town",
+      "de": "Wyndham Wrocław Old Town",
+      "cs": "Wyndham Wrocław Old Town"
+    },
+    "coordinates": {
+      "lat": 51.111323,
+      "lng": 17.028617
+    }
+  },
+  "wyspa-piasek": {
+    "id": "wyspa-piasek",
+    "name": {
+      "he": "אי החול",
+      "en": "Sand Island",
+      "pl": "Wyspa Piasek",
+      "de": "Sandinsel",
+      "cs": "Písečný ostrov"
+    },
+    "coordinates": {
+      "lat": 51.11453,
+      "lng": 17.040199
+    }
+  },
+  "zamek-topacz": {
+    "id": "zamek-topacz",
+    "name": {
+      "he": "טירת טופץ׳",
+      "en": "Zamek Topacz",
+      "pl": "Zamek Topacz",
+      "de": "Schloss Topacz",
+      "cs": "Zámek Topacz"
+    },
+    "coordinates": {
+      "lat": 51.0359459,
+      "lng": 16.9891338
+    }
+  },
+  "zenka": {
+    "id": "zenka",
+    "name": {
+      "he": "Zenka Cafe",
+      "en": "Zenka Cafe",
+      "pl": "Zenka Cafe",
+      "de": "Zenka Cafe",
+      "cs": "Zenka Cafe"
+    },
+    "coordinates": {
+      "lat": 51.1180815,
+      "lng": 17.0271292
+    }
+  },
+  "zoo-wroclaw": {
+    "id": "zoo-wroclaw",
+    "name": {
+      "he": "גן החיות של ורוצלב",
+      "en": "ZOO Wrocław",
+      "pl": "ZOO Wrocław",
+      "de": "Zoo Wrocław",
+      "cs": "Zoo Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.10565,
+      "lng": 17.0762194
+    }
+  },
+  "zyjnia-bwa-wroclaw": {
+    "id": "zyjnia-bwa-wroclaw",
+    "name": {
+      "he": "ז׳ייניה, גלריה לאמנות ועיצוב",
+      "en": "Żyjnia BWA Wrocław",
+      "pl": "Żyjnia BWA Wrocław",
+      "de": "Żyjnia BWA Wrocław",
+      "cs": "Żyjnia BWA Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1086376,
+      "lng": 17.0331186
+    }
+  }
+}

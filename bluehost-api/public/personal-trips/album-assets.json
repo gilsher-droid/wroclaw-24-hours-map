@@ -9,14 +9,14 @@
   "personal-place-panel.js": "37d87e43dfe94c09fe6bda69205b9270bf597c7bbf7a7fcafd433aa3a2da0068",
   "place-ai-model.js": "608b99efbd621df45cafa1d53a6b49a9a248bd9f31af39b265d5fd5bf7820adb",
   "place-ai.css": "8a99e285676fe69a9f3210bedb1cc88ffd876cbd8d2df22815a14fef23499e9f",
-  "place-ai.js": "49efe991e916af99f1668b59b35586e1816c97dfd17a687432accfaebd7bcdcd",
+  "place-ai.js": "9d8a9e21139878c15f1de9b30181138fb5bb03f90e08f32ff24f78535bba0f92",
   "place-panel.css": "bea85d73366dcaa4b54d41029ecd48d4b82f65296f374de3045e8450a18a54d3",
   "place-panel.js": "e3ef15263d1ff019b8e45e8f8527c72d35748aac5a59a4960b6f6e3d5332fa97",
   "public-catalog.js": "55bdf1d4edf044ee7215817c1a6789f29d42d82f29928a2c7a586a4eace6b563",
   "trip-album-copy.js": "76b8ad865a63128b304057ef8add465a4fe9334734d16731694bc4a8f942839b",
   "trip-album-model.js": "cc357c597c3a6781d06460f4d9c2eba459577a0a81ce6a39306c726c7278ef6b",
   "trip-album.css": "ad3886ee2447dff7da228c5c23ddab423ad7300f1a9ef139b8b4580f5406e23e",
-  "trip-album.js": "d0534796493c16be7b9e3e466d7029641621200fb82b1d02b871d92fadad6f28",
+  "trip-album.js": "37c1c146215672611b2a432f4311fc6f3e2f186efa85d7bf0a7580cd4222342b",
   "youtube-video-hosting.js": "f2ad2dd2a4601a51a0452b76c3046808e98b4e7084716223fa4121bda9df235d",
   "youtube-video.js": "f5093a10884087ed0a100898d4d36f3c7ca1b1eacba35a832577370d63865c63"
 }
