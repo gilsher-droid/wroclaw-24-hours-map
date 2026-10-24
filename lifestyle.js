@@ -155,6 +155,7 @@
   function cardHtml(place) {
     const tags = place.categories.map((category) => `<span class="place-tag ${category}">${tr(category)}</span>`).join("");
     return `<article class="place-card${selectedId === place.id ? " selected" : ""}" data-place="${place.id}" tabindex="0">
+      ${window.WROC_PLACE_POPUP_PHOTO.placeholderHtml(place,language)}
       <div class="place-topline"><h3>${escapeHtml(placeName(place))}</h3><div class="place-tags">${tags}</div></div>
       <p class="local-name">${escapeHtml(place.localName || placeName(place))}</p>
       ${placeAmenities.labelBadgeHtml(place, language)}

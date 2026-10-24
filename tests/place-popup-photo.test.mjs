@@ -13,10 +13,22 @@ test('Popup photos preserve exact canonical place and alias ownership in every l
  }
  assert.ok(photographed>0);
 });
-test('Places without media never receive another place photo or a generic placeholder',()=>{
- const w=runtime();assert.equal(w.WROC_PLACE_POPUP_PHOTO.html(null),'');assert.equal(w.WROC_PLACE_POPUP_PHOTO.html({id:'unknown-place',name:{en:'Unknown'}}),'');
+test('Places without media display the authorized site logo without inventing a gallery photo',()=>{
+ const w=runtime();assert.equal(w.WROC_PLACE_POPUP_PHOTO.html(null),'');
+ const place={id:'unknown-place',name:{en:'Unknown'},media:{photos:[]}},before=JSON.stringify(place);
+ for(const lang of ['he','en','pl','de','cs']){const html=w.WROC_PLACE_POPUP_PHOTO.html(place,lang);assert.ok(html.includes('src="/assets/logo.png"'));assert.ok(html.includes('data-place-photo-fallback="logo"'));assert.ok(html.includes('WROC-LOVE'));assert.ok(!html.includes('<a '));assert.ok(!html.includes('data-gallery'));}
+ assert.equal(JSON.stringify(place),before,'rendering does not add logo to media or change gallery counts');
+ assert.equal(w.WROC_PLACE_POPUP_PHOTO.sourceFor(place),'');
+ place.media.photos.push('/assets/new-real-photo.jpg');
+ const replacement=w.WROC_PLACE_POPUP_PHOTO.html(place,'en');assert.ok(replacement.includes('src="/assets/new-real-photo.jpg"'));assert.ok(!replacement.includes('data-place-photo-fallback'));
+ assert.equal(w.WROC_PLACE_POPUP_PHOTO.placeholderHtml(place,'en'),'','real photos automatically replace logo fallback');
  assert.equal(w.WROC_PLACE_POPUP_PHOTO.sourceFor({media:{photos:['javascript:alert(1)','data:text/html,invalid']}}),'');
  const html=w.WROC_PLACE_POPUP_PHOTO.html({name:{en:'A <place> & "name"'},media:{photos:['/assets/a.jpg']}},'en');assert.ok(html.includes('A &lt;place&gt; &amp; &quot;name&quot;'));assert.ok(!html.includes('alt="A <place>'));
+});
+test('Solny and every currently unphotographed canonical keep empty galleries with a localized logo',()=>{
+ const w=runtime();const solny=w.WROC_CATALOG.getPlace('solny');assert.equal(solny.media.photos.length,0);
+ for(const p of Object.values(w.WROC_CATALOG.places)){if(w.WROC_PLACE_POPUP_PHOTO.sourceFor(p))continue;for(const lang of ['he','en','pl','de','cs']){const html=w.WROC_PLACE_POPUP_PHOTO.imageHtml(p,lang);assert.ok(html.includes('place-photo-logo'));assert.ok(html.includes('alt="'));assert.ok(!html.includes('javascript:'));}}
+ const flatGuide={name:{en:'Guide-map place'},thumbnail:'/assets/a.jpg',photos:['/assets/a.jpg']};assert.equal(w.WROC_PLACE_POPUP_PHOTO.sourceFor(flatGuide),'/assets/a.jpg');
 });
 test('All six map pages and the published artifact load the shared popup photo renderer',()=>{
  for(const [page,renderer] of [['map','app'],['premium','premium'],['moshe','premium'],['lifestyle','lifestyle'],['cultural','cultural'],['excursions','excursions']]){
