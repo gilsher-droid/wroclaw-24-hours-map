@@ -44,3 +44,7 @@ User explicitly requires the map point to open a published post about the same p
 ## No family photographs on the public website (2026-10-16)
 
 The user explicitly prohibits family photos on the website. Exclude personal posed portraits and family images from place galleries, teasers and publication artifacts. Preserve all original personal files. Guide videos intentionally featuring our guide remain authorized. Record excluded originals and prevent their optimized copies from re-entering canonical media.
+
+## Personal-map owners and delivery copies (2026-10-24)
+
+Gil and Rachel are administrators and must have authenticated administrator access to all current and future personal maps, independently of customer passwords. Include a direct administrator map link in each private owner delivery email. Send Gil complete private copies of customer deliveries, including usernames and issued temporary passwords; Rachel's requested copy is in English. Obtain verified owner mailbox addresses from private delivery records rather than committing them here. Never retain readable customer-chosen passwords or put account records, credentials or customer route data in public Git or sandbox. Preserve customer isolation. Use existing WROC-LOVE branding for emails and record sent message IDs without credentials. Do not claim access is live until verified.

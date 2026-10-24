@@ -5,3 +5,5 @@
 .food-cover-button{width:100%;padding:0;border:0;background:none}.food-card>.action-link,.food-card>button:not(.food-cover-button){margin:8px 0 0 8px}.food-marker span{border-style:dashed;opacity:.9}
 
 .video-cover-link{display:block;position:relative}.play-symbol{position:absolute;inset:0;display:grid;place-items:center;color:white;font-size:35px;text-shadow:0 2px 12px #000;background:#083a6133;border-radius:8px}.video-cover-link:hover .play-symbol{background:#083a6166}
+
+.owner-map-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px}.owner-map-card{padding:24px;background:white;border:1px solid #dce3eb;border-top:4px solid #caa04b;border-radius:16px}.owner-map-card h2{font-size:1.3rem}.owner-map-card p[dir=ltr]{text-align:right;overflow-wrap:anywhere}
