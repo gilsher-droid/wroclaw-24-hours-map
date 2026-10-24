@@ -5890,7 +5890,9 @@
         "https://youtube.com/shorts/KVL-jKq3jTc",
         "https://youtube.com/watch?v=TTn0iQPIQTA",
         "https://youtube.com/shorts/AYEFN90-7N0",
-        "https://youtube.com/shorts/ummWiuQrOds"
+        "https://youtube.com/shorts/ummWiuQrOds",
+        "https://www.youtube.com/watch?v=EQHCbDOU-zk",
+        "https://www.youtube.com/watch?v=T879-KBxSQw"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/0OvV3ic5ukk",
@@ -7468,6 +7470,64 @@
           "noNewUpload": true,
           "publicationEvidence": "data/czocha-boleslawiec-visit-provenance.json;data/youtube-video-hosting.js",
           "restorationReason": "Existing Public source restored to place gallery; no new upload or edited YouTube publication"
+        },
+        "https://www.youtube.com/watch?v=EQHCbDOU-zk": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 17.19.28.mp4",
+          "sourceSHA256": "3cda12a1f59b33770a3d2e699c10db82b183bb12462d16c0543a437a9fb6293d",
+          "uploadSHA256": "25a8cf092cc73a23abe0ba270bf098345e81226e2ef88144e541f27ea4b85881",
+          "durationSeconds": 1.366667,
+          "status": "public",
+          "visibility": "Public",
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "מבט נוסף לכיכר ולקשת בבולסלבייץ",
+            "en": "Boleslawiec square and rainbow, another visit view",
+            "pl": "Rynek i tęcza w Bolesławcu, kolejne ujęcie",
+            "de": "Marktplatz und Regenbogen in Bunzlau, weitere Aufnahme",
+            "cs": "Náměstí a duha v Boleslavci, další záběr"
+          },
+          "approvalCall": "call_20c8295d1722407fbbbddf1de48bbc48",
+          "publicEvidence": "regional-visit-01-public-reopened.txt",
+          "verifiedAt": "2026-10-24T09:35:36.691723+00:00",
+          "original": true,
+          "tags": [
+            "visit"
+          ]
+        },
+        "https://www.youtube.com/watch?v=T879-KBxSQw": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Bolesławiec/WhatsApp Video 2026-09-24 at 19.22.05.mp4",
+          "sourceSHA256": "d50893c7303550386fb2cce0ec25a8a646579059969284abfb3a40852982eab5",
+          "uploadSHA256": "55e7aaa2e933d095f061c1abf1682eee20d6d933b4479d9a39fbe5e835c7217b",
+          "durationSeconds": 42.566667,
+          "status": "public",
+          "visibility": "Public",
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "הכנסייה והקשת בכיכר בבולסלבייץ",
+            "en": "Boleslawiec church and rainbow in the square",
+            "pl": "Kościół i tęcza na placu w Bolesławcu",
+            "de": "Kirche und Regenbogen am Platz in Bunzlau",
+            "cs": "Kostel a duha na náměstí v Boleslavci"
+          },
+          "approvalCall": "call_20c8295d1722407fbbbddf1de48bbc48",
+          "publicEvidence": "regional-visit-14-public-reopened.txt",
+          "verifiedAt": "2026-10-24T09:35:36.691723+00:00",
+          "original": true,
+          "tags": [
+            "visit"
+          ]
         }
       }
     },
@@ -9254,7 +9314,8 @@
     "media": {
       "thumbnail": "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg"
+        "/assets/today-source-refresh-20261021/run3-13-brzeg-st-nicholas-church.jpg",
+        "/assets/regional-full-source-oct24/brzeg-st-nicholas-full-oct24-01.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -9279,6 +9340,30 @@
             "https://zabytek.pl/pl/obiekty/brzeg-kosciol-parafialny-pw-sw-mikolaja",
             "https://brzeg.pl/sport-i-turystyka/szlaki-turystyczne/"
           ]
+        },
+        "/assets/regional-full-source-oct24/brzeg-st-nicholas-full-oct24-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Brzeg/FORCODEX/WhatsApp Image 2026-09-24 at 17.28.32 (8).jpeg",
+          "sourceSHA256": "2dd6004a194e733d14928ed1b34a290e2ae3ec6194ff13cb49b447429f71445c",
+          "assetSHA256": "7a5fe0ee5acdf205b8f39ee91303cc2f15a8b4936a02d7bdcc3456ffa9c35027",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "alt": {
+            "he": "שני מגדלי הלבנים והחזית של כנסיית ניקולאי הקדוש בברז׳ג במבט אלכסוני",
+            "en": "Three-quarter view of the brick twin towers and facade of St Nicholas Church in Brzeg",
+            "pl": "Ukośny widok ceglanych wież i fasady kościoła św. Mikołaja w Brzegu",
+            "de": "Schrägansicht der Backsteintürme und Fassade der Nikolaikirche in Brzeg",
+            "cs": "Šikmý pohled na cihlové věže a průčelí kostela sv. Mikuláše v Brzegu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
         }
       }
     },
@@ -13307,7 +13392,9 @@
       ],
       "videos": [
         "https://youtube.com/shorts/L1Z0nIxGFsU",
-        "https://youtube.com/shorts/LQZA0KUMTyM"
+        "https://youtube.com/shorts/LQZA0KUMTyM",
+        "https://www.youtube.com/watch?v=-O-wQlidsh4",
+        "https://www.youtube.com/watch?v=eIKZi0sH5dA"
       ],
       "metadata": {
         "/assets/czocha-boleslawiec/czocha-castle-001.jpg": {
@@ -14992,6 +15079,64 @@
           ],
           "restorationReason": "Distinct relevant capture restored under user all-materials policy; prior similarity curation preserved in historical records",
           "preparedAt": "2026-10-23T21:31:09.095050+00:00"
+        },
+        "https://www.youtube.com/watch?v=-O-wQlidsh4": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Video 2026-09-24 at 17.21.44.mp4",
+          "sourceSHA256": "3ca6623667cd8b1cf707f9bb84b8350516baeaa8e8db65b368087b510a7926c8",
+          "uploadSHA256": "27ad433b844db9a4d2be7481bae6ec91fe5ffc28e6858fa4d25bd8ab55f65f8e",
+          "durationSeconds": 11.178333,
+          "status": "public",
+          "visibility": "Public",
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "חלון ופרטי המבנה בטירת צ׳וחה",
+            "en": "Czocha Castle window and architectural details",
+            "pl": "Okno i detale architektoniczne zamku Czocha",
+            "de": "Fenster und Baudetails der Burg Czocha",
+            "cs": "Okno a architektonické detaily hradu Czocha"
+          },
+          "approvalCall": "call_20c8295d1722407fbbbddf1de48bbc48",
+          "publicEvidence": "regional-visit-39-public-reopened.txt",
+          "verifiedAt": "2026-10-24T09:35:36.691723+00:00",
+          "original": true,
+          "tags": [
+            "visit"
+          ]
+        },
+        "https://www.youtube.com/watch?v=eIKZi0sH5dA": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Czocha Castle/WhatsApp Video 2026-09-24 at 17.23.38.mp4",
+          "sourceSHA256": "b70013bb391d5ef6cce64c6ad1e3b9906e380c7db754d7c6e11b5826d1bfcf97",
+          "uploadSHA256": "1c46cb19fb2114209453fcb8a6c50abee34335822be154a5bd0886f72603d73d",
+          "durationSeconds": 7.666667,
+          "status": "public",
+          "visibility": "Public",
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "reopenedPublicVerified": true,
+          "sdProcessingComplete": true,
+          "copyright": "No issues found",
+          "communityGuidelines": "No issues found",
+          "title": {
+            "he": "פרחים במתחם הביקור בצ׳וחה",
+            "en": "Flowers in the Czocha visit grounds",
+            "pl": "Kwiaty na terenie odwiedzin w Czosze",
+            "de": "Blumen auf dem Besuchsgelände in Czocha",
+            "cs": "Květiny v navštíveném areálu Czocha"
+          },
+          "approvalCall": "call_20c8295d1722407fbbbddf1de48bbc48",
+          "publicEvidence": "regional-visit-41-public-reopened.txt",
+          "verifiedAt": "2026-10-24T09:35:36.691723+00:00",
+          "original": true,
+          "tags": [
+            "visit"
+          ]
         }
       }
     },
@@ -25194,7 +25339,11 @@
         "/assets/excursion-three/jawor-church-of-peace-47.jpg",
         "/assets/excursion-three/jawor-church-of-peace-48.jpg",
         "/assets/excursion-three/jawor-church-of-peace-49.jpg",
-        "/assets/excursion-three/jawor-church-of-peace-50.jpg"
+        "/assets/excursion-three/jawor-church-of-peace-50.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-02.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-19.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-25.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-34.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/dUxZB14ZIIs"
@@ -25400,6 +25549,102 @@
           "visibility": "Public",
           "checks": "completed, no issues",
           "verifiedAt": "2026-10-16"
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/WhatsApp Image 2026-09-24 at 19.10.03 (13).jpeg",
+          "sourceSHA256": "82e207860d81d8ca51a6cde739ec9af402fd7c6dcb6532f80a95407f3740bbd9",
+          "assetSHA256": "fd8140d0d09c1060cd46c2eea608f50ffed8afc6aa9785c5f6954da7f4d482a7",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "alt": {
+            "he": "ספסלי העץ והגלריות המעוטרות בתוך כנסיית השלום ביאבור",
+            "en": "Wooden pews and decorated galleries inside the Church of Peace in Jawor",
+            "pl": "Drewniane ławki i zdobione empory w Kościele Pokoju w Jaworze",
+            "de": "Holzbänke und verzierte Emporen in der Friedenskirche in Jawor",
+            "cs": "Dřevěné lavice a zdobené galerie v kostele Míru v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.14.jpeg",
+          "sourceSHA256": "ca6105393bda2f2f5de15746f13b43f4a0626e8d4963ee5a0d8443a23bf9f2a6",
+          "assetSHA256": "8136ec8595e8ee96346125cce867bb597fe7e2337bcb9077f7656726d871ad6e",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            2048,
+            1536
+          ],
+          "assetDimensions": [
+            2048,
+            1536
+          ],
+          "alt": {
+            "he": "מבט לעבר העוגב והגלריות בכנסיית השלום ביאבור",
+            "en": "View towards the organ and galleries in the Church of Peace in Jawor",
+            "pl": "Widok na organy i empory w Kościele Pokoju w Jaworze",
+            "de": "Blick zur Orgel und zu den Emporen in der Friedenskirche in Jawor",
+            "cs": "Pohled k varhanám a galeriím v kostele Míru v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-25.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.24.15.jpeg",
+          "sourceSHA256": "261c5088a60991c33d77fed307f0638e3d9278e2097cec844c43a3e873806d7b",
+          "assetSHA256": "b882b5a151395ae1618581b380e93b8ee132ffc9711f8352af826b7ccd998284",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "alt": {
+            "he": "מבט צדדי אל העיטורים ואל שורות הספסלים בכנסיית השלום ביאבור",
+            "en": "Side view of the decorations and rows of pews in the Church of Peace in Jawor",
+            "pl": "Boczny widok dekoracji i rzędów ławek w Kościele Pokoju w Jaworze",
+            "de": "Seitlicher Blick auf Verzierungen und Bankreihen in der Friedenskirche in Jawor",
+            "cs": "Boční pohled na výzdobu a řady lavic v kostele Míru v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-34.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/כנסיית השלום/WhatsApp Image 2026-09-24 at 17.25.51 (4).jpeg",
+          "sourceSHA256": "09f6ef651973353b390ccfc6fec9519a9d2ea12eb0743bef19d70a3943a89d53",
+          "assetSHA256": "a2bd549bf32bce7b812eb46abc7bac0eafc9e8472364cb209ea2dfe339fb9d31",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1536,
+            2048
+          ],
+          "assetDimensions": [
+            1536,
+            2048
+          ],
+          "alt": {
+            "he": "מדרגות עץ ותקרה מצוירת בכנסיית השלום ביאבור",
+            "en": "Wooden stairs and a painted ceiling in the Church of Peace in Jawor",
+            "pl": "Drewniane schody i malowany strop w Kościele Pokoju w Jaworze",
+            "de": "Holztreppe und bemalte Decke in der Friedenskirche in Jawor",
+            "cs": "Dřevěné schody a malovaný strop v kostele Míru v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
         }
       }
     },
@@ -25663,7 +25908,8 @@
         "/assets/excursion-three/jawor-piast-castle-09.jpg",
         "/assets/excursion-three/jawor-piast-castle-10.jpg",
         "/assets/excursion-three/jawor-piast-castle-12.jpg",
-        "/assets/excursion-three/jawor-piast-castle-13.jpg"
+        "/assets/excursion-three/jawor-piast-castle-13.jpg",
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-87.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -25714,6 +25960,30 @@
         "/assets/excursion-three/jawor-piast-castle-13.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (22).jpeg",
           "original": true
+        },
+        "/assets/regional-full-source-oct24/jawor-full-source-oct24-87.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Jawor/מבצר הפיאסט ההרוס/WhatsApp Image 2026-09-24 at 19.10.05 (20).jpeg",
+          "sourceSHA256": "d9d71c7ba81dd2431ba28f965c9cd4af2301c6922527b3c387b80145f6f59a7a",
+          "assetSHA256": "5862b26d91116b5a7f776927e2582ed20a4bff5d34e2a87892b64ee130d50887",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            1200,
+            1600
+          ],
+          "assetDimensions": [
+            1200,
+            1600
+          ],
+          "alt": {
+            "he": "שער הקשת והחזית של טירת פיאסט ביאבור",
+            "en": "Arched gateway and facade of the Piast Castle in Jawor",
+            "pl": "Łukowa brama i elewacja Zamku Piastowskiego w Jaworze",
+            "de": "Torbogen und Fassade des Piastenschlosses in Jawor",
+            "cs": "Oblouková brána a průčelí Piastovského hradu v Jaworu"
+          },
+          "review": "Distinct relevant full photograph verified against current gallery; no family/personal portrait focus; no arbitrary similar-angle reduction",
+          "preparedAt": "2026-10-24T08:41:53.306772+00:00"
         }
       }
     },
