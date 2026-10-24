@@ -5,6 +5,11 @@ function albumRoute(string $private,array $user):array {
  $reference=(string)($user['route']??'');if(!preg_match('/^WL-[A-Z0-9]{12}$/D',$reference))jsonReply(['error'=>'missing'],404);
  $route=readRecord($private.'/routes/'.$reference.'.json');if(!$route||!is_array($route['days']??null)||!is_array($route['places']??null))jsonReply(['error'=>'missing'],404);return $route;
 }
+function albumOwnerState(array $state):array {
+ $managed=$GLOBALS['managedOwner']??'';
+ if($managed!=='')foreach($state['entries'] as &$entry)foreach(['mediaUrl','posterUrl'] as $field)if(isset($entry[$field]))$entry[$field].='&customer='.$managed;
+ return $state;
+}
 function albumRange(int $size,?string $range):array {
  if($range===null)return [0,$size-1,false];
  if(!preg_match('/^bytes=(\d*)-(\d*)$/D',$range,$m)||($m[1]===''&&$m[2]===''))throw new RuntimeException('range');
@@ -19,11 +24,11 @@ function albumDispatch(string $private,string $key,?array $user,string $action,s
   if($method!=='GET')jsonReply(['error'=>'invalid'],405);header('Content-Type: text/html; charset=utf-8');require __DIR__.'/album-page.php';exit;
  }
  if($action==='album-context'){
-  if($method!=='GET')jsonReply(['error'=>'invalid'],405);jsonReply(['route'=>$route,'csrf'=>$_SESSION['csrf'],'language'=>$user['language']??'he','assetVersion'=>substr(hash_file('sha256',__DIR__.'/album-assets.json'),0,16)]);
+  if($method!=='GET')jsonReply(['error'=>'invalid'],405);jsonReply(['route'=>$route,'csrf'=>$_SESSION['csrf'],'language'=>$user['language']??'he','managedOwner'=>$GLOBALS['managedOwner']??'','assetVersion'=>substr(hash_file('sha256',__DIR__.'/album-assets.json'),0,16)]);
  }
  try{
   $repo=new AlbumRepository($private,$key,$route+['_albumReference'=>$user['route']]);
-  if($action==='album-list'&&$method==='GET'){if(!csrfValid())jsonReply(['error'=>'auth'],401);jsonReply($repo->read());}
+  if($action==='album-list'&&$method==='GET'){if(!csrfValid())jsonReply(['error'=>'auth'],401);jsonReply(albumOwnerState($repo->read()));}
   if($action==='album-media'&&in_array($method,['GET','HEAD'],true)){
    $media=$repo->media((string)($_GET['id']??''),($_GET['poster']??'')==='1');$size=filesize($media['path']);
    try{[$start,$end,$partial]=albumRange($size,$_SERVER['HTTP_RANGE']??null);}catch(RuntimeException){header('Content-Range: bytes */'.$size);jsonReply(['error'=>'range'],416);}
@@ -42,6 +47,6 @@ function albumDispatch(string $private,string $key,?array $user,string $action,s
   foreach(['file','poster'] as $field){if(!isset($_FILES[$field]))continue;$f=$_FILES[$field];if(!is_int($f['error'])||$f['error']!==UPLOAD_ERR_OK||!is_string($f['tmp_name'])||!is_uploaded_file($f['tmp_name']))jsonReply(['error'=>'tooLarge'],400);${$field}=['path'=>$f['tmp_name']];}
   $op=match($action){'album-add'=>'add','album-patch'=>'patch','album-meta'=>'meta','album-move'=>'move','album-restore'=>'restore',default=>'invalid'};
   if($file&&$op!=='add')jsonReply(['error'=>'invalid'],400);
-  jsonReply($repo->mutate($input['version'],$op,$input['data']??[],$file,$poster));
+  jsonReply(albumOwnerState($repo->mutate($input['version'],$op,$input['data']??[],$file,$poster)));
  }catch(Throwable $e){$code=$e->getMessage();$known=['conflict','quota','unsupported','tooLarge','emptyNote','missing','invalid'];if(!in_array($code,$known,true))$code='storage';jsonReply(['error'=>$code],$code==='conflict'?409:($code==='missing'?404:($code==='storage'?503:400)));}
 }
