@@ -12311,7 +12311,9 @@
         "/assets/church-of-peace-swidnica-04.jpg",
         "/assets/church-of-peace-swidnica-05.jpg",
         "/assets/church-of-peace-swidnica-06.jpg",
-        "/assets/church-of-peace-swidnica-07.jpg"
+        "/assets/church-of-peace-swidnica-07.jpg",
+        "/assets/swidnica-approved-oct25/church-of-peace-c8c674cdd251.jpeg",
+        "/assets/swidnica-approved-oct25/church-of-peace-80bd376bf0db.jpeg"
       ],
       "videos": [],
       "metadata": {
@@ -12372,6 +12374,44 @@
             "lower-silesia"
           ],
           "original": true
+        },
+        "/assets/swidnica-approved-oct25/church-of-peace-c8c674cdd251.jpeg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/church of peace/WhatsApp Image 2026-06-19 at 21.06.42 (7).jpeg",
+          "sourceSHA256": "c8c674cdd2513cd65306e838263b84fd85327217262cbbf5cf28b8230a220413",
+          "assetSHA256": "c8c674cdd2513cd65306e838263b84fd85327217262cbbf5cf28b8230a220413",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבקרת ליד המסגרת המוזהבת והעיטורים בכנסיית השלום בשווידניצה",
+            "en": "Visitor beside the gilded frame and ornamentation inside the Church of Peace in Świdnica",
+            "pl": "Zwiedzająca przy złoconej ramie i dekoracjach wewnątrz Kościoła Pokoju w Świdnicy",
+            "de": "Besucherin am vergoldeten Rahmen und den Verzierungen in der Friedenskirche in Świdnica",
+            "cs": "Návštěvnice u pozlaceného rámu a výzdoby uvnitř Kostela míru ve Svídnici"
+          },
+          "specificPersonalPhotoApproval": {
+            "call": "call_3ea6c74fe9c6409fb1f8292024aa8f27",
+            "userWords": "מאשר את שתי התמונות",
+            "scope": "Exact approved source photograph only"
+          }
+        },
+        "/assets/swidnica-approved-oct25/church-of-peace-80bd376bf0db.jpeg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/church of peace/WhatsApp Image 2026-06-19 at 21.06.42 (8).jpeg",
+          "sourceSHA256": "80bd376bf0db0f90006daf830a9fc8d95bfdf6beaadc6eb0f8f0719f067c6289",
+          "assetSHA256": "80bd376bf0db0f90006daf830a9fc8d95bfdf6beaadc6eb0f8f0719f067c6289",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבקרת בתוך המסגרת המוזהבת לצד עמוד מעוטר בכנסיית השלום בשווידניצה",
+            "en": "Visitor framed by gilded ornament beside a decorated column in the Church of Peace in Świdnica",
+            "pl": "Zwiedzająca w złoconej ramie przy zdobionej kolumnie Kościoła Pokoju w Świdnicy",
+            "de": "Besucherin im vergoldeten Rahmen neben einer verzierten Säule der Friedenskirche in Świdnica",
+            "cs": "Návštěvnice v pozlaceném rámu vedle zdobeného sloupu Kostela míru ve Svídnici"
+          },
+          "specificPersonalPhotoApproval": {
+            "call": "call_3ea6c74fe9c6409fb1f8292024aa8f27",
+            "userWords": "מאשר את שתי התמונות",
+            "scope": "Exact approved source photograph only"
+          }
         }
       }
     },
