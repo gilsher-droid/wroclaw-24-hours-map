@@ -54344,7 +54344,20 @@
         "/assets/warsaw/warsaw-nozyk-synagogue-03.jpg",
         "/assets/warsaw/warsaw-nozyk-synagogue-04.jpg",
         "/assets/today-source-refresh-20261021/07-warsaw-nozyk-synagogue.jpg",
-        "/assets/today-source-refresh-20261021/08-warsaw-nozyk-synagogue.jpg"
+        "/assets/today-source-refresh-20261021/08-warsaw-nozyk-synagogue.jpg",
+        "/assets/nozyk-full-oct25/nozyk-e06ed61402e4.jpg",
+        "/assets/nozyk-full-oct25/nozyk-30282ac9fcc8.jpg",
+        "/assets/nozyk-full-oct25/nozyk-ddbd02dc32c0.jpg",
+        "/assets/nozyk-full-oct25/nozyk-b610f71c3caa.jpg",
+        "/assets/nozyk-full-oct25/nozyk-92fc2815a793.jpg",
+        "/assets/nozyk-full-oct25/nozyk-6f851b8de320.jpg",
+        "/assets/nozyk-full-oct25/nozyk-84c8a05bf672.jpg",
+        "/assets/nozyk-full-oct25/nozyk-3057fe1fd33a.jpg",
+        "/assets/nozyk-full-oct25/nozyk-7573bb950780.jpg",
+        "/assets/nozyk-full-oct25/nozyk-715462d610ff.jpg",
+        "/assets/nozyk-full-oct25/nozyk-c63748cd6432.jpg",
+        "/assets/nozyk-full-oct25/nozyk-0e5e64d1453b.jpg",
+        "/assets/nozyk-full-oct25/nozyk-a30c7b7be9eb.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -54437,6 +54450,214 @@
           "verifiedAt": "2026-10-21T11:34:21.481565+00:00",
           "original": true,
           "familyForeground": false
+        },
+        "/assets/nozyk-full-oct25/nozyk-e06ed61402e4.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (1).jpeg",
+          "sourceSHA256": "e06ed61402e45984985e2466982ca0ab22a0176c69febe3a89e7fce6c66f5492",
+          "assetSHA256": "e06ed61402e45984985e2466982ca0ab22a0176c69febe3a89e7fce6c66f5492",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית בית הכנסת נוז׳יק וגרם מדרגות הכניסה",
+            "en": "Nożyk Synagogue facade and entrance steps",
+            "pl": "Fasada Synagogi Nożyków i schody wejściowe",
+            "de": "Fassade der Nożyk-Synagoge und Eingangstreppe",
+            "cs": "Průčelí synagogy Nożyků a vstupní schody"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-30282ac9fcc8.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (10).jpeg",
+          "sourceSHA256": "30282ac9fcc8e37d9acba2f32ec2aa5eb40b7c77d375167e449683ad9e1d3b4e",
+          "assetSHA256": "30282ac9fcc8e37d9acba2f32ec2aa5eb40b7c77d375167e449683ad9e1d3b4e",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חלון ויטראז׳ בבית הכנסת נוז׳יק",
+            "en": "Stained-glass window inside Nożyk Synagogue",
+            "pl": "Witraż we wnętrzu Synagogi Nożyków",
+            "de": "Buntglasfenster im Inneren der Nożyk-Synagoge",
+            "cs": "Vitráž v interiéru synagogy Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-ddbd02dc32c0.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (12).jpeg",
+          "sourceSHA256": "ddbd02dc32c03ef9e2e479e6b1e34b39c25142fbb2752fcc71ce6165c547eb19",
+          "assetSHA256": "ddbd02dc32c03ef9e2e479e6b1e34b39c25142fbb2752fcc71ce6165c547eb19",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט קדמי אל ארון הקודש בבית הכנסת נוז׳יק",
+            "en": "Front view towards the ark inside Nożyk Synagogue",
+            "pl": "Widok na aron ha-kodesz w Synagodze Nożyków",
+            "de": "Blick auf den Toraschrein in der Nożyk-Synagoge",
+            "cs": "Pohled k svatostánku v synagoze Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-b610f71c3caa.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (13).jpeg",
+          "sourceSHA256": "b610f71c3caa51be2b5c5520a9a0595d5422db36055bd12c7854777f46a2b95c",
+          "assetSHA256": "b610f71c3caa51be2b5c5520a9a0595d5422db36055bd12c7854777f46a2b95c",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כותרת עמוד ומעקה בבית הכנסת נוז׳יק",
+            "en": "Column capital and balustrade inside Nożyk Synagogue",
+            "pl": "Głowica kolumny i balustrada w Synagodze Nożyków",
+            "de": "Säulenkapitell und Balustrade in der Nożyk-Synagoge",
+            "cs": "Hlavice sloupu a zábradlí v synagoze Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-92fc2815a793.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (14).jpeg",
+          "sourceSHA256": "92fc2815a793363d6d0daa14544cfeedf12cd239ade440f5b7f90b3e20ae5d3f",
+          "assetSHA256": "92fc2815a793363d6d0daa14544cfeedf12cd239ade440f5b7f90b3e20ae5d3f",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית בית הכנסת נוז׳יק במבט נוסף מן החצר",
+            "en": "Another courtyard view of Nożyk Synagogue facade",
+            "pl": "Kolejny widok fasady Synagogi Nożyków z dziedzińca",
+            "de": "Weiterer Blick vom Hof auf die Fassade der Nożyk-Synagoge",
+            "cs": "Další pohled ze dvora na průčelí synagogy Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-6f851b8de320.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (15).jpeg",
+          "sourceSHA256": "6f851b8de320359bf2a1d7b0e2e6fba575343bed2e291a60e94de3f5271a68ff",
+          "assetSHA256": "6f851b8de320359bf2a1d7b0e2e6fba575343bed2e291a60e94de3f5271a68ff",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית צדדית ועצים ליד בית הכנסת נוז׳יק",
+            "en": "Side facade and trees beside Nożyk Synagogue",
+            "pl": "Boczna elewacja i drzewa przy Synagodze Nożyków",
+            "de": "Seitenfassade und Bäume neben der Nożyk-Synagoge",
+            "cs": "Boční průčelí a stromy u synagogy Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-84c8a05bf672.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (2).jpeg",
+          "sourceSHA256": "84c8a05bf6723b29de4c31eb143c9861dd6ae145d10f0b4e09b4ddd31be9b9e8",
+          "assetSHA256": "84c8a05bf6723b29de4c31eb143c9861dd6ae145d10f0b4e09b4ddd31be9b9e8",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "יצירת מגזרת יהודית המוצגת בבית הכנסת נוז׳יק",
+            "en": "Jewish papercut artwork displayed at Nożyk Synagogue",
+            "pl": "Żydowska wycinanka prezentowana w Synagodze Nożyków",
+            "de": "Jüdischer Scherenschnitt in der Nożyk-Synagoge",
+            "cs": "Židovská vystřihovánka vystavená v synagoze Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-3057fe1fd33a.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (3).jpeg",
+          "sourceSHA256": "3057fe1fd33aebd20d789186a7ca989f140a5bb5f2f09cf994ca3f8736b110ff",
+          "assetSHA256": "3057fe1fd33aebd20d789186a7ca989f140a5bb5f2f09cf994ca3f8736b110ff",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט רחב אל הצד והעצים בבית הכנסת נוז׳יק",
+            "en": "Wide view of the side and trees at Nożyk Synagogue",
+            "pl": "Szeroki widok bocznej elewacji i drzew przy Synagodze Nożyków",
+            "de": "Weiter Blick auf Seitenfassade und Bäume der Nożyk-Synagoge",
+            "cs": "Širší pohled na bok synagogy Nożyků a stromy"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-7573bb950780.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (4).jpeg",
+          "sourceSHA256": "7573bb950780db3bf3b409846a51bab05ded227bac9f57b93c0cae2f33ae7fb4",
+          "assetSHA256": "7573bb950780db3bf3b409846a51bab05ded227bac9f57b93c0cae2f33ae7fb4",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חלל התפילה והבימה בבית הכנסת נוז׳יק",
+            "en": "Prayer hall and bimah inside Nożyk Synagogue",
+            "pl": "Sala modlitwy i bima w Synagodze Nożyków",
+            "de": "Gebetsraum und Bima in der Nożyk-Synagoge",
+            "cs": "Modlitební sál a bima v synagoze Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-715462d610ff.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (5).jpeg",
+          "sourceSHA256": "715462d610ffac31c1b61abccdce70f32e69a389ecd0a2cb808684010f511ef5",
+          "assetSHA256": "715462d610ffac31c1b61abccdce70f32e69a389ecd0a2cb808684010f511ef5",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט קדמי אל מגזרת יהודית בבית הכנסת נוז׳יק",
+            "en": "Front view of a Jewish papercut at Nożyk Synagogue",
+            "pl": "Żydowska wycinanka w Synagodze Nożyków widziana z przodu",
+            "de": "Frontalansicht eines jüdischen Scherenschnitts in der Nożyk-Synagoge",
+            "cs": "Čelní pohled na židovskou vystřihovánku v synagoze Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-c63748cd6432.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (6).jpeg",
+          "sourceSHA256": "c63748cd6432ba554f83de5cb1c4e5a35cf411c6a6a21689b0487c69fb2a39c7",
+          "assetSHA256": "c63748cd6432ba554f83de5cb1c4e5a35cf411c6a6a21689b0487c69fb2a39c7",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט אלכסוני אל מגזרת יהודית בבית הכנסת נוז׳יק",
+            "en": "Angled view of a Jewish papercut at Nożyk Synagogue",
+            "pl": "Żydowska wycinanka w Synagodze Nożyków widziana pod kątem",
+            "de": "Schrägansicht eines jüdischen Scherenschnitts in der Nożyk-Synagoge",
+            "cs": "Šikmý pohled na židovskou vystřihovánku v synagoze Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-0e5e64d1453b.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (7).jpeg",
+          "sourceSHA256": "0e5e64d1453b9d58d8febb63f94178d4abc3066d29716e42bdb0660384042de0",
+          "assetSHA256": "0e5e64d1453b9d58d8febb63f94178d4abc3066d29716e42bdb0660384042de0",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "לוח מפת ורשה היהודית בבית הכנסת נוז׳יק",
+            "en": "Jewish Warsaw map board at Nożyk Synagogue",
+            "pl": "Tablica z mapą żydowskiej Warszawy przy Synagodze Nożyków",
+            "de": "Kartentafel des jüdischen Warschaus an der Nożyk-Synagoge",
+            "cs": "Tabule s mapou židovské Varšavy u synagogy Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
+        },
+        "/assets/nozyk-full-oct25/nozyk-a30c7b7be9eb.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Warsaw/WhatsApp Image 2026-10-05 at 18.24.29 (9).jpeg",
+          "sourceSHA256": "a30c7b7be9ebf07b5ba21ef83bb56f1982f7a0dace4033d43a1c10314ae74c01",
+          "assetSHA256": "a30c7b7be9ebf07b5ba21ef83bb56f1982f7a0dace4033d43a1c10314ae74c01",
+          "familyForeground": false,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט אלכסוני רחב אל חלל בית הכנסת נוז׳יק",
+            "en": "Wide angled view inside Nożyk Synagogue",
+            "pl": "Szeroki widok wnętrza Synagogi Nożyków pod kątem",
+            "de": "Weiter schräger Blick in den Innenraum der Nożyk-Synagoge",
+            "cs": "Široký šikmý pohled do interiéru synagogy Nożyků"
+          },
+          "review": "Distinct relevant capture reviewed against existing media. Similar subject/angle is not an exclusion. Incidental visitors allowed; no posed personal focal subject identified."
         }
       }
     },
