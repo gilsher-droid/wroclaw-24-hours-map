@@ -1,3 +1,4 @@
+import {beforeRegional42} from './regional42-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -11,7 +12,7 @@ test('18 distinct Brzeg and Moszna photos preserve all227 other canonicals and a
  for(const[id,expected]of Object.entries(proof.recordHashes)){
   const p=plain(w.WROC_CATALOG.getPlace(id));
   if(!proof.authorizedIds.includes(id)){assert.equal(hash(p),expected,id);unchanged++;continue;}
-  const old=proof.places[id];assert.equal(p.media.photos.length,proof.expectedPhotoCounts[id]);
+  Object.assign(p,beforeRegional42(p));const old=proof.places[id];assert.equal(p.media.photos.length,proof.expectedPhotoCounts[id]);
   assert.deepEqual(p.media.photos.slice(0,old.media.photos.length),old.media.photos);
   p.media.photos=old.media.photos;
   for(const a of proof.photoAdditions.filter(a=>a.canonicalId===id))delete p.media.metadata[a.asset];

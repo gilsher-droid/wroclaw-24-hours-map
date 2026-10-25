@@ -1,3 +1,4 @@
+import {beforeRegional42} from './regional42-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -33,7 +34,7 @@ test('All 44 published visit uploads and 38 curated clips resolve to verified Pu
  const w=load(),provenance=JSON.parse(readFileSync('data/excursion-three-visit-provenance.json'));const registry=JSON.parse(readFileSync('data/youtube-media-migration.json'));
  assert.equal(provenance.visits.length,44);assert.equal(new Set(provenance.visits.map(x=>x.youtube)).size,44);
  const expected={'jawor-church-of-peace':1,'karpacz-centre':13,'wang-church':17,'jelenia-gora-market-square':7};
- for(const [id,count]of Object.entries(expected))assert.equal(w.WROC_CATALOG.getPlace(id).media.videos.length,count);
+ for(const [id,count]of Object.entries(expected))assert.equal(beforeRegional42(w.WROC_CATALOG.getPlace(id)).media.videos.length,count);
  for(const row of provenance.visits){assert.equal(row.visibility,'Public');assert.equal(row.checks,'completed, no issues');assert.match(row.youtube,/^https:\/\/youtube.com\/shorts\/[A-Za-z0-9_-]{11}$/);assert.equal(w.WROC_CATALOG.getPlace(row.place).media.videos.includes(row.youtube),row.websiteIncluded!==false);assert.equal(registry[row.registryKey].status,'public');assert.equal(registry[row.registryKey].youtube,row.youtube);assert.equal(registry[row.registryKey].sourceSHA256,row.sourceSHA256);assert.ok(!existsSync(row.registryKey.slice(1)),'Registry alias must not create a raw website video');}
 });
 

@@ -1,3 +1,4 @@
+import {beforeRegional42} from './regional42-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -22,7 +23,7 @@ test('Regional restoration preserves all225 unrelated canonicals and all existin
 });
 test('All91 distinct restored full photographs have exact provenance and remain accessible through the shared regional catalog',()=>{
  assert.equal(proof.photos.length,91);assert.equal(new Set(proof.photos.map(p=>p.pixelSHA256)).size,91);
- for(const[id,n]of Object.entries(proof.expectedPhotoCounts))assert.equal(w.WROC_CATALOG.getPlace(id).media.photos.length,newFull.expectedPhotoCounts[id]??n,id);
+ for(const[id,n]of Object.entries(proof.expectedPhotoCounts))assert.equal(beforeRegional42(w.WROC_CATALOG.getPlace(id)).media.photos.length,newFull.expectedPhotoCounts[id]??n,id);
  for(const r of proof.photos){
   const p=w.WROC_CATALOG.getPlace(r.canonicalId),m=p.media.metadata[r.asset];assert.equal(p.media.photos.filter(a=>a===r.asset).length,1);
   assert.equal(createHash('sha256').update(readFileSync('.'+r.asset)).digest('hex'),r.assetSHA256);
@@ -36,7 +37,7 @@ test('All91 distinct restored full photographs have exact provenance and remain 
 });
 test('Eight previously Public Boleslawiec clips are reused without uploading again or disturbing existing guides',()=>{
  assert.equal(proof.reusedVisits.length,8);
- for(const[id,n]of Object.entries(proof.expectedVisitCounts))assert.equal(w.WROC_CATALOG.getPlace(id).media.videos.length,additional.expectedVisitCounts[id]??n,id);
+ for(const[id,n]of Object.entries(proof.expectedVisitCounts))assert.equal(beforeRegional42(w.WROC_CATALOG.getPlace(id)).media.videos.length,additional.expectedVisitCounts[id]??n,id);
  for(const r of proof.reusedVisits){const p=w.WROC_CATALOG.getPlace(r.canonicalId);assert.equal(p.media.videos.filter(u=>u===r.youtube).length,1);assert.equal(p.media.metadata[r.youtube].noNewUpload,true);assert.ok(Object.values(w.WROC_YOUTUBE_VIDEO_HOSTING).some(v=>v.sourceSHA256===r.sourceSHA256&&v.youtube===r.youtube&&v.status==='public'));}
  assert.deepEqual(plain(w.WROC_CATALOG.getPlace('boleslawiec-old-town').media.guideVideos),proof.places['boleslawiec-old-town'].media.guideVideos);
 });
