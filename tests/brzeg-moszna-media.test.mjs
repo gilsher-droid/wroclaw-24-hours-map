@@ -12,7 +12,8 @@ function sourceContext() {
   const enrichment = JSON.parse(readFileSync(resolve(root, "data/brzeg-photo-enrichment-provenance.json"), "utf8"));
   const moszna = JSON.parse(readFileSync(resolve(root, "data/moszna-photo-enrichment-provenance.json"), "utf8"));
   const newFull = JSON.parse(readFileSync(resolve(root, "data/brzeg-moszna-distinct18-oct24-preservation.json"))).photoAdditions.map(p=>({...p,...p.metadata}));
-  const restored = JSON.parse(readFileSync(resolve(root, "data/regional-full-source-restoration-oct24-preservation.json"))).photos.filter(p=>p.canonicalId.startsWith("brzeg-")).concat(newFull);
+  const regional42 = JSON.parse(readFileSync(resolve(root, "data/regional42-oct25-preservation.json"))).photos.map(p=>({...p,...p.metadata,sourcePath:p.metadata.sourceFile}));
+  const restored = JSON.parse(readFileSync(resolve(root, "data/regional-full-source-restoration-oct24-preservation.json"))).photos.filter(p=>p.canonicalId.startsWith("brzeg-")).concat(newFull,regional42);
   for(const p of restored)provenance[p.asset]=p.sourcePath;
   const restoredByAsset = new Map(restored.map(p=>[p.asset,p]));
   const optimized = new Map([...enrichment.assets, ...moszna.assets,...restored.map(p=>({...p,placeId:p.canonicalId}))].map(item => [item.asset, item]));
