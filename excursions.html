@@ -12,7 +12,7 @@
     <link rel="icon" href="/assets/logo.png" />
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="/excursions.css?v=20261020-srebrna-klodzko" />
+    <link rel="stylesheet" href="/excursions.css?v=20261025-selected-trip" />
     <link rel="stylesheet" href="/site-actions.css?v=20261017-personal-trip" />
     <link rel="stylesheet" href="/now-in-wroclaw.css?v=20260928-2" />
     <link rel="stylesheet" href="/place-amenities.css?v=20260824-1" />
@@ -35,6 +35,10 @@
     </header>
 
     <main>
+      <nav class="trip-browser" data-trip-browser hidden aria-label="בחירת טיול">
+        <a data-all-trips href="?lang=he">לכל הטיולים</a>
+        <details data-trip-switcher><summary data-trip-switch-label>החלפת טיול</summary><label><span data-trip-select-label>בחרו טיול אחר</span><select data-trip-select></select></label></details>
+      </nav>
       <section class="excursions-hero">
         <div class="hero-copy">
           <p class="eyebrow" data-i18n="eyebrow">המפה החמישית של Wroc-love</p>

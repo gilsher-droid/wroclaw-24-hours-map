@@ -157,11 +157,43 @@
     return excursions.find((item) => item.id === new URLSearchParams(location.search).get("trip")) || excursions[0];
   }
 
+  const tripBrowserCopy = {
+    he: ["לכל הטיולים", "החלפת טיול", "בחרו טיול אחר", "עוד טיולים שאפשר לגלות", "הטיול שבחרתם"],
+    en: ["All trips", "Change trip", "Choose another trip", "More trips to explore", "Your selected trip"],
+    pl: ["Wszystkie wycieczki", "Zmień wycieczkę", "Wybierz inną wycieczkę", "Więcej wycieczek do odkrycia", "Wybrana wycieczka"],
+    de: ["Alle Ausflüge", "Ausflug wechseln", "Anderen Ausflug auswählen", "Weitere Ausflüge entdecken", "Ihr gewählter Ausflug"],
+    cs: ["Všechny výlety", "Změnit výlet", "Vyberte jiný výlet", "Další výlety k objevování", "Váš vybraný výlet"]
+  };
+  function hasSelectedTrip() {
+    const id = new URLSearchParams(location.search).get("trip");
+    return window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.some(item => item.id === id);
+  }
+  function renderTripLayout(excursion) {
+    const selected = hasSelectedTrip(), copy = tripBrowserCopy[language];
+    document.body.classList.toggle("selected-trip", selected);
+    const browser = document.querySelector("[data-trip-browser]");
+    browser.hidden = !selected; browser.setAttribute("aria-label", copy[1]);
+    const all = document.querySelector("[data-all-trips]");all.textContent=copy[0];all.href=`?lang=${language}`;
+    document.querySelector("[data-trip-switch-label]").textContent=copy[1];
+    document.querySelector("[data-trip-select-label]").textContent=copy[2];
+    document.querySelector("[data-trip-select]").replaceChildren(...window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.map(item=>{
+      const option=document.createElement("option");option.value=item.id;option.textContent=local(item.title);option.selected=item.id===excursion.id;return option;
+    }));
+    const list=document.querySelector(".trip-list-section");
+    if(selected){
+      document.querySelector("main").append(list);
+      document.querySelector('.excursions-hero [data-i18n="title"]').textContent=local(excursion.title);
+      document.querySelector('.excursions-hero [data-i18n="lead"]').textContent=local(excursion.summary);
+      document.querySelector('.excursions-hero [data-i18n="eyebrow"]').textContent=copy[4];
+      document.title=`${local(excursion.title)} | Wroc-love`;
+    }else document.querySelector(".excursions-hero").after(list);
+    document.querySelector("[data-trip-list-title]").textContent=selected?copy[3]:tripUi[language].select;
+  }
   function renderTripList() {
     const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
     const selected = selectedExcursion();
     document.querySelector("[data-trip-list-title]").textContent = tripUi[language].select;
-    document.querySelector("[data-trip-list]").innerHTML = product.excursions.map((item) => {
+    document.querySelector("[data-trip-list]").innerHTML = product.excursions.filter(item => !hasSelectedTrip() || item.id !== selected.id).map((item) => {
       const photo = hero(item);
       const href = `?lang=${language}&trip=${encodeURIComponent(item.id)}`;
       return `<a class="trip-card ${item.id === selected.id ? "active" : ""}" href="${href}" ${item.id === selected.id ? 'aria-current="page"' : ""}><img src="${photo}" alt=""><span><strong>${local(item.title)}</strong><small>${local(item.summary)}</small></span></a>`;
@@ -422,10 +454,12 @@
     const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
     const excursion = selectedExcursion();
     if (!excursion) return;
+    if (hasSelectedTrip()) previewIndex = product.excursions.indexOf(excursion);
     if (!previewInitialized) { previewIndex = product.excursions.indexOf(excursion); previewInitialized = true; }
     document.querySelector("[data-map-overview]").textContent = mapFocusLabels[language].overview;
     document.querySelector("[data-walk-overview]").textContent = mapFocusLabels[language].walk;
     renderTripList(); renderHero(excursion); renderPreview(); renderMap(excursion); renderWalkingRoute(excursion); renderSteps(excursion); renderLogistics(excursion); renderPlaces(excursion); renderEditorial(excursion);
+    renderTripLayout(excursion);
     startPreview();
   }
 
@@ -463,5 +497,8 @@
   carousel.addEventListener("focusout", () => setTimeout(startPreview, 0));
   document.addEventListener("visibilitychange", startPreview);
   reducedMotion.addEventListener("change", startPreview);
+  document.querySelector("[data-trip-select]").addEventListener("change",event=>{
+    location.href=`?lang=${language}&trip=${encodeURIComponent(event.target.value)}`;
+  });
   applyLanguage();
 })();
