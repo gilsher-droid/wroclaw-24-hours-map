@@ -1,5 +1,31 @@
 window.WROC_HOME_EXPERIENCES = [
   {
+    "id": "walk-with-our-guide",
+    "kind": "experience",
+    "destinationPath": "/products/interactive-maps/guides.html",
+    "name": {
+      "he": "ללכת עם המדריך שלנו",
+      "en": "Walk with our guide",
+      "pl": "Spacer z naszym przewodnikiem",
+      "de": "Mit unserem Reiseführer durch Wrocław",
+      "cs": "Procházka s naším průvodcem"
+    },
+    "photo": "/assets/wuwa-estate-14.jpg"
+  },
+  {
+    "id": "food-coffee-and-more",
+    "kind": "experience",
+    "destinationPath": "/products/interactive-maps/lifestyle.html",
+    "name": {
+      "he": "אוכל, קפה ומה שביניהם",
+      "en": "Food, cafés and more",
+      "pl": "Jedzenie, kawa i więcej",
+      "de": "Essen, Cafés und mehr",
+      "cs": "Jídlo, káva a něco navíc"
+    },
+    "photo": "/assets/food-cafes/cafe-berg-01.jpg"
+  },
+  {
     "id": "beach-bars-and-waterside-summer",
     "name": {
       "he": "ביץ׳ ברים וקיץ ליד המים",

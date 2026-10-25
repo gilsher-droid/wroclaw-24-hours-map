@@ -264,7 +264,7 @@
     en: {
       "אוכל, קניות ולינה": "Food, shopping & stays",
       "המפה הרביעית של Wroc-love": "The fourth Wroc-love map",
-      "לאכול, לשתות, לקנות ולישון בוורוצלב": "Eat, drink, shop and sleep in Wrocław",
+      "אוכל, קפה ומה שביניהם": "Eat, drink, shop and sleep in Wrocław",
       "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restaurants, cafés, shopping centres and hotels from our original posts — in one interactive guide that shows exactly what you need now.",
       "קטגוריות במדריך": "Guide categories", "לאכול": "Eat", "מסעדות וטעמים": "Restaurants and flavours", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "From Polish cuisine to ramen, sushi, pizza and evening spots.",
       "לשתות": "Drink", "קפה, מתוקים וברים": "Coffee, sweets and bars", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Good stops for coffee, dessert, ice cream or a drink along the way.",
@@ -275,7 +275,7 @@
       ,"חינם עד 31 בדצמבר 2026": "Free until 31 December 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Currently free in Hebrew, English, Polish, German and Czech. From 1 January 2027, a purchase or access code will be required."
     },
     pl: {
-      "אוכל, קניות ולינה": "Jedzenie, zakupy i noclegi", "המפה הרביעית של Wroc-love": "Czwarta mapa Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jedz, pij, kupuj i śpij we Wrocławiu",
+      "אוכל, קניות ולינה": "Jedzenie, zakupy i noclegi", "המפה הרביעית של Wroc-love": "Czwarta mapa Wroc-love", "אוכל, קפה ומה שביניהם": "Jedz, pij, kupuj i śpij we Wrocławiu",
       "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restauracji, kawiarni, centrów handlowych i hoteli z naszych oryginalnych postów — w jednym interaktywnym przewodniku.",
       "קטגוריות במדריך": "Kategorie przewodnika", "לאכול": "Jedzenie", "מסעדות וטעמים": "Restauracje i smaki", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Od kuchni polskiej po ramen, sushi, pizzę i miejsca na wieczór.",
       "לשתות": "Napoje", "קפה, מתוקים וברים": "Kawa, słodkości i bary", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Dobre przystanki na kawę, deser, lody lub drinka.",
@@ -286,7 +286,7 @@
       ,"חינם עד 31 בדצמבר 2026": "Bezpłatnie do 31 grudnia 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Obecnie bezpłatny po hebrajsku, angielsku, polsku, niemiecku i czesku. Od 1 stycznia 2027 wymagany będzie zakup lub kod dostępu."
     },
     de: {
-      "אוכל, קניות ולינה": "Essen, Einkaufen & Übernachten", "המפה הרביעית של Wroc-love": "Die vierte Wroc-love-Karte", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Essen, trinken, einkaufen und übernachten in Wrocław",
+      "אוכל, קניות ולינה": "Essen, Einkaufen & Übernachten", "המפה הרביעית של Wroc-love": "Die vierte Wroc-love-Karte", "אוכל, קפה ומה שביניהם": "Essen, trinken, einkaufen und übernachten in Wrocław",
       "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 Restaurants, Cafés, Einkaufszentren und Hotels aus unseren Originalbeiträgen — in einem interaktiven Guide.",
       "קטגוריות במדריך": "Guide-Kategorien", "לאכול": "Essen", "מסעדות וטעמים": "Restaurants und Aromen", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Von polnischer Küche bis Ramen, Sushi, Pizza und Abendlocations.",
       "לשתות": "Trinken", "קפה, מתוקים וברים": "Kaffee, Süßes und Bars", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Gute Stopps für Kaffee, Dessert, Eis oder einen Drink.",
@@ -297,7 +297,7 @@
       ,"חינם עד 31 בדצמבר 2026": "Kostenlos bis 31. Dezember 2026", "זמין בחינם כרגע בעברית, אנגלית, פולנית, גרמנית וצ׳כית. החל מ־1 בינואר 2027 תידרש רכישה או כניסה עם קוד.": "Derzeit kostenlos auf Hebräisch, Englisch, Polnisch, Deutsch und Tschechisch. Ab 1. Januar 2027 ist ein Kauf oder Zugangscode erforderlich."
     },
     cs: {
-      "אוכל, קניות ולינה": "Jídlo, nákupy a ubytování", "המפה הרביעית של Wroc-love": "Čtvrtá mapa Wroc-love", "לאכול, לשתות, לקנות ולישון בוורוצלב": "Jíst, pít, nakupovat a spát ve Vratislavi",
+      "אוכל, קניות ולינה": "Jídlo, nákupy a ubytování", "המפה הרביעית של Wroc-love": "Čtvrtá mapa Wroc-love", "אוכל, קפה ומה שביניהם": "Jíst, pít, nakupovat a spát ve Vratislavi",
       "41 מסעדות, בתי קפה, מרכזי קניות ומלונות מתוך הפוסטים המקוריים שלנו — במדריך אינטראקטיבי אחד שמציג בדיוק את מה שאתם צריכים עכשיו.": "41 restaurací, kaváren, nákupních center a hotelů z našich původních příspěvků — v jednom interaktivním průvodci.",
       "קטגוריות במדריך": "Kategorie průvodce", "לאכול": "Jíst", "מסעדות וטעמים": "Restaurace a chutě", "מהמטבח הפולני ועד ראמן, סושי, פיצה ומקומות לערב.": "Od polské kuchyně po ramen, sushi, pizzu a večerní podniky.",
       "לשתות": "Pít", "קפה, מתוקים וברים": "Káva, sladkosti a bary", "עצירות טובות לקפה, קינוח, גלידה או משקה בדרך.": "Dobré zastávky na kávu, dezert, zmrzlinu nebo drink.",

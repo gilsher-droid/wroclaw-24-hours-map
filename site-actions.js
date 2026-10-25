@@ -23,8 +23,9 @@
     cs: ["24 hodin ve Vratislavi", "Čtyři dny ve Vratislavi", "Vánoce ve Vratislavi", "Jídlo, pití, nákupy a ubytování", "Výlety po Dolním Slezsku", "Kulturní dobrodružství ve Vratislavi"]
   };
   const guideMapNames={"he": "ללכת עם המדריך שלנו", "en": "Walk with our guide", "pl": "Spacer z naszym przewodnikiem", "de": "Mit unserem Reiseführer durch Wrocław", "cs": "Procházka s naším průvodcem"};
-  for(const [lang,name] of Object.entries(guideMapNames))productLinks[lang].push(name);
-  const productPaths = ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html", "guides.html"];
+  for(const lang of Object.keys(productLinks))productLinks[lang].splice(3,1);
+  const productPaths = ["map.html", "premium.html", "moshe.html", "excursions.html", "cultural.html"];
+  const experienceNames={"he": "חוויות בעיר", "en": "City experiences", "pl": "Doświadczenia w mieście", "de": "Stadterlebnisse", "cs": "Zážitky ve městě"};
   const communityNames={"he": "להציע תוכן", "en": "Offer content", "pl": "Zaproponuj treść", "de": "Inhalte vorschlagen", "cs": "Navrhnout obsah"};
   const personalCopy = {
     he: ["מפות בהתאמה אישית", "הטיול האישי שלכם", "מסלול שנבנה סביב מה שאתם אוהבים.", "מקומות, אוכל וקצב שמתאימים לכם. מספרים לנו מה מחפשים, ומקבלים הצעה למסלול ולמפה אישית.", "מתחילים לתכנן"],
@@ -67,9 +68,7 @@
 
   function addPersonalServiceEntry() {
     const menu = document.querySelector('.products-menu-panel');
-    if (menu && !menu.querySelector('[data-guide-map-menu]')) {
-      const link = document.createElement('a'); link.dataset.guideMapMenu = ''; menu.append(link);
-    }
+
     if (menu && !menu.querySelector('[data-personal-menu]')) {
       const link = document.createElement('a'); link.dataset.personalMenu = ''; link.className = 'personal-menu-link'; menu.append(link);
     }
@@ -92,6 +91,13 @@
     nav.innerHTML = `<details class="site-product-menu"><summary>${navigationLabels[lang].products}</summary><div class="site-product-menu-panel">${productMenuMarkup(lang)}</div></details>` +
       `<a class="site-how-link" href="/?lang=${lang}#how">${navigationLabels[lang].how}</a>`;
     actionHost(header).prepend(nav);
+  }
+
+  function addExperienceEntry(){
+    const host=document.querySelector('.site-product-navigation')||document.querySelector('.site-header > nav');
+    if(host&&!host.querySelector('[data-experiences-link]')){const a=document.createElement('a');a.className='site-how-link';a.dataset.experiencesLink='';host.append(a);}
+    const menu=document.querySelector('.products-menu-panel');
+    if(menu)for(const link of menu.querySelectorAll('a[href*="lifestyle.html"],a[href*="guides.html"]'))link.remove();
   }
 
   function enhanceExistingSocialLinks() {
@@ -144,7 +150,7 @@
     const lang = language();
     const personal = personalCopy[lang];
     document.querySelectorAll("[data-community-menu]").forEach(el=>{el.href="/community.html?lang="+lang;el.textContent=communityNames[lang];});
-    document.querySelectorAll('[data-guide-map-menu]').forEach(el => { el.href = `/products/interactive-maps/guides.html?lang=${lang}`; el.textContent = guideMapNames[lang]; });
+    document.querySelectorAll('[data-experiences-link]').forEach(el=>{el.href='/?lang='+lang+'#experiences';el.textContent=experienceNames[lang];});
     document.querySelectorAll('[data-personal-copy]').forEach(el => { el.textContent = personal[Number(el.dataset.personalCopy)]; });
     document.querySelectorAll('[data-personal-link]').forEach(el => { el.href = `/personal-trip.html?lang=${lang}`; });
     document.querySelectorAll('[data-personal-menu]').forEach(el => { el.href = `/personal-trip.html?lang=${lang}`; el.textContent = `${personal[0]}: ${personal[1]}`; });
@@ -182,6 +188,7 @@
   function init() {
     addPersonalServiceEntry();
     addProductNavigation();
+    addExperienceEntry();
     addHeaderSocials();
     enhanceExistingSocialLinks();
     replaceActionIcons();
