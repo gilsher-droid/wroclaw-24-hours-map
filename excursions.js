@@ -242,6 +242,9 @@
     section.hidden = !route;
     if (walkingMap) { walkingMap.remove(); walkingMap = null; }
     if (!route) return;
+    const detailLabels={he:["מעמיקים באחת מתחנות הטיול","בחזרה למפת הטיול הראשי"],en:["Explore one stop in more detail","Back to the main trip map"],pl:["Poznaj bliżej jeden z przystanków","Wróć do mapy głównej wycieczki"],de:["Eine Station genauer entdecken","Zurück zur Karte des gesamten Ausflugs"],cs:["Prozkoumejte jednu zastávku podrobněji","Zpět na mapu hlavního výletu"]}[language];
+    document.querySelector("[data-walk-context]").textContent=detailLabels[0];
+    document.querySelector("[data-return-main-trip]").textContent=detailLabels[1];
     const copy = walkUi[language];
     const title = local(route.title) || tripUi[language].walk;
     document.querySelector("[data-walk-title]").textContent = title;
@@ -330,7 +333,7 @@
     if (facebook) links.push(`<a href="${facebook}" target="_blank" rel="noopener">${tr("facebook")}</a>`);
     if (instagram) links.push(`<a href="${instagram}" target="_blank" rel="noopener">${tr("instagram")}</a>`);
     links.push(window.WROC_GUIDE_VIDEO?.button(canonical.id, language) || "");
-    if(selectedExcursion().walkingRoute?.city === "boleslawiec" && canonical.id === "boleslawiec-old-town") links.push(`<button type="button" data-walk-overview>${walkUi[language].walk}</button>`);
+    if(selectedExcursion().walkingRoute?.points.some(point => point.canonicalPlaceId === canonical.id)) links.push(`<button type="button" data-walk-overview>${walkUi[language].walk}</button>`);
     if (includeMapFocus && (canonical.location?.coordinates || canonical.coordinates)) links.push(focusMapButton(`data-map-place="${canonical.id}"`));
     links.push(window.WROC_PLACE_AI?.button(canonical,language)||"");
     return links.join("");
