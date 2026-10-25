@@ -4,9 +4,10 @@ import {readFileSync,existsSync} from 'node:fs';
 import vm from 'node:vm';
 const window={};for(const file of ['place-catalog','canonical-experiences','home-experiences','youtube-video-hosting'])vm.runInNewContext(readFileSync(new URL(`../data/${file}.js`,import.meta.url),'utf8'),{window});
 const registry=window.WROC_EXPERIENCE_CATALOG;
-test('Six public experiences reuse canonical places and retain separately scoped area media',()=>{
- assert.equal(window.WROC_HOME_EXPERIENCES.length,6);
- for(const {id} of window.WROC_HOME_EXPERIENCES)assert.ok(registry.getExperience(id));
+test('Eight public experiences reuse canonical places and retain separately scoped area media',()=>{
+ assert.equal(window.WROC_HOME_EXPERIENCES.length,8);
+ assert.deepEqual(Array.from(window.WROC_HOME_EXPERIENCES.slice(0,2),e=>e.id),['walk-with-our-guide','food-coffee-and-more']);
+ for(const item of window.WROC_HOME_EXPERIENCES){if(item.destinationPath){assert.ok(['/products/interactive-maps/guides.html','/products/interactive-maps/lifestyle.html'].includes(item.destinationPath));assert.ok(existsSync(new URL('..'+item.photo,import.meta.url)));}else assert.ok(registry.getExperience(item.id));}
  const milk=registry.getExperience('wroclaw-milk-bars');assert.deepEqual(Array.from(milk.relatedCanonicalPlaceIds),['bar-mis','bar-mleczny-mewa-wroclaw','rozowa-krowa-milk-bar-wroclaw','vega-bar-weganski-wroclaw']);assert.equal(registry.resolveMedia(milk).images.length,13);assert.equal(milk.media.videos.length,0);
  const dwarfs=registry.getExperience('wroclaw-dwarf-hunt');assert.deepEqual(Array.from(dwarfs.relatedCanonicalPlaceIds),['papa','dwarf-info','mostek-pokutnic-wroclaw']);
  const media=registry.resolveMedia(dwarfs);assert.equal(media.images.length,new Set(media.images).size);assert.ok(media.images.length>=30);assert.ok(media.guides.some(g=>g.canonicalPlaceId==='papa'));
@@ -16,7 +17,7 @@ test('Six public experiences reuse canonical places and retain separately scoped
 });
 test('Public experience media excludes personal tram photos and resolves videos through Public YouTube only',()=>{
  const tram=registry.resolveMedia('wroclaw-tram-ride');assert.equal(tram.images.length,10);assert.ok(tram.images.every(src=>!/IMG_(4409|4474|4728)\.jpg$/.test(src)));
- for(const item of window.WROC_HOME_EXPERIENCES){const media=registry.resolveMedia(item.id);for(const src of media.images)assert.ok(existsSync(new URL('..'+src,import.meta.url)),src);for(const src of media.videos){const url=typeof src==='string'?src:src.src;assert.ok(/^https:\/\/(?:www\.)?youtube\.com\//.test(url)||window.WROC_YOUTUBE_VIDEO_HOSTING[url]?.status==='public',url);}}
+ for(const item of window.WROC_HOME_EXPERIENCES.filter(e=>!e.destinationPath)){const media=registry.resolveMedia(item.id);for(const src of media.images)assert.ok(existsSync(new URL('..'+src,import.meta.url)),src);for(const src of media.videos){const url=typeof src==='string'?src:src.src;assert.ok(/^https:\/\/(?:www\.)?youtube\.com\//.test(url)||window.WROC_YOUTUBE_VIDEO_HOSTING[url]?.status==='public',url);}}
 });
 
 test('Coffee experience reuses fifteen distinct city cafes and their assigned galleries',()=>{
