@@ -346,6 +346,7 @@
     de:{photos:"Fotos",videos:"Besuchsvideos",previous:"Zurück",next:"Weiter",close:"Schließen",open:"Galerie öffnen"},
     cs:{photos:"Fotografie",videos:"Videa z návštěvy",previous:"Předchozí",next:"Další",close:"Zavřít",open:"Otevřít galerii"}
   };
+  const playLabels = {he:"הפעלת סרטון",en:"Play video",pl:"Odtwórz film",de:"Video abspielen",cs:"Přehrát video"};
   let mediaDialog, activeMedia, touchStart;
   function mediaItems(canonical,kind) {
     return [...new Set(canonical?.media?.[kind] || [])];
@@ -361,7 +362,7 @@
     mediaDialog=document.createElement("dialog");
     mediaDialog.className="excursion-media-dialog";
     mediaDialog.setAttribute("aria-labelledby","excursion-media-title");
-    mediaDialog.innerHTML=`<header><h2 id="excursion-media-title"></h2><button type="button" data-media-close></button></header><div class="excursion-media-tabs"></div><div class="excursion-media-stage"></div><nav class="excursion-media-controls" dir="ltr"><button type="button" data-media-step="-1"></button><span data-media-counter role="status" aria-live="polite" dir="ltr"></span><button type="button" data-media-step="1"></button></nav>`;
+    mediaDialog.innerHTML=`<header><h2 id="excursion-media-title"></h2><button type="button" data-media-close></button></header><div class="excursion-media-tabs"></div><div class="excursion-media-stage"></div><div class="excursion-media-fallback"></div><nav class="excursion-media-controls" dir="ltr"><button type="button" data-media-step="-1"></button><span data-media-counter role="status" aria-live="polite" dir="ltr"></span><button type="button" data-media-step="1"></button></nav>`;
     document.body.append(mediaDialog);
     mediaDialog.addEventListener("close",()=>{mediaDialog.querySelector(".excursion-media-stage").replaceChildren();activeMedia=null;document.body.classList.remove("excursion-media-open");});
     mediaDialog.addEventListener("click",event=>{
@@ -394,6 +395,7 @@
     if(!tabs.querySelector("[data-media-tab]")) tabs.innerHTML=["photos","videos"].filter(kind=>mediaItems(canonical,kind).length).map(kind=>`<button type="button" data-media-tab="${kind}">${labels[kind]}</button>`).join("");
     tabs.querySelectorAll("button").forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.mediaTab===activeMedia.kind)));
     mediaDialog.querySelector(".excursion-media-stage").innerHTML=activeMedia.kind==="photos" ? `<img src="${escapeHtml(items[activeMedia.index])}" alt="${escapeHtml(local(canonical.name))}" draggable="false">` : window.WROC_YOUTUBE_VIDEO.html(items[activeMedia.index],`${local(canonical.name)} ${activeMedia.index+1}`,language);
+    mediaDialog.querySelector(".excursion-media-fallback").innerHTML=activeMedia.kind==="videos" ? window.WROC_YOUTUBE_VIDEO.watchLink(items[activeMedia.index],language) : "";
     mediaDialog.querySelector("[data-media-counter]").textContent=`${activeMedia.index+1} / ${items.length}`;
     for(const step of [-1,1]) {const button=mediaDialog.querySelector(`[data-media-step="${step}"]`);button.textContent=step<0?`‹ ${labels.previous}`:`${labels.next} ›`;button.disabled=items.length<2;}
   }
@@ -424,7 +426,8 @@
       const openPhoto=(photo,index,cover=false)=>`<button type="button" class="${cover?"place-cover-button":"place-photo-button"}" data-place-gallery="${escapeHtml(id)}" data-media-kind="photos" data-media-index="${index}" aria-label="${escapeHtml(mediaLabels[language].open)}: ${escapeHtml(local(canonical.name))}, ${index+1} / ${photos.length}"><img ${cover?'class="place-cover"':'loading="lazy"'} src="${escapeHtml(photo)}" alt="${escapeHtml(local(canonical.name))}"></button>`;
       const cover=photos[0]?openPhoto(photos[0],0,true):window.WROC_PLACE_POPUP_PHOTO.imageHtml(canonical,language,"place-cover");
       const strip=photos.slice(1,4).map((photo,index)=>openPhoto(photo,index+1)).join("");
-      const video=videos[0]?window.WROC_YOUTUBE_VIDEO.html(videos[0],local(canonical.name),language):"";
+      const videoId=videos[0] && window.WROC_YOUTUBE_VIDEO.idFor(window.WROC_YOUTUBE_VIDEO.resolve(videos[0]));
+      const video=videoId ? `<button type="button" class="excursion-video-preview" data-place-gallery="${escapeHtml(id)}" data-media-kind="videos" aria-label="${escapeHtml(playLabels[language])}: ${escapeHtml(local(canonical.name))}"><img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" alt="" loading="lazy"><span class="excursion-video-play" aria-hidden="true">▶</span><span class="excursion-video-label">${playLabels[language]}</span></button>${window.WROC_YOUTUBE_VIDEO.watchLink(videos[0],language)}` : videos[0] ? window.WROC_YOUTUBE_VIDEO.html(videos[0],local(canonical.name),language) : "";
       return `<article class="place-card" id="excursion-place-${id}" tabindex="-1" data-canonical-place-id="${id}">${cover}<div class="place-copy"><h3>${local(canonical.name)}</h3>${placeAmenities.labelBadgeHtml(canonical,language)}<p>${local(canonical.description)}</p><div class="photo-strip">${strip}</div><div class="place-actions excursion-gallery-actions">${mediaButtons(canonical)}</div>${video}<div class="place-actions">${actionLinks(canonical)}</div></div></article>`;
     }).join("");
   }

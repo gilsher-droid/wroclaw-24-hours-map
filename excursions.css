@@ -191,3 +191,13 @@ button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
 .selected-trip .excursion-content { padding-top:24px; }
 .selected-trip .trip-list-section { margin-block:64px; }
 @media(max-width:640px){.selected-trip .excursions-hero{padding-block:26px;gap:22px}.selected-trip .excursion-preview img{height:170px}.trip-browser{gap:12px}.trip-browser details{max-width:65%}}
+
+/* Load a single visit player only after the visitor requests it. */
+.excursion-video-preview { position:relative; display:block; width:100%; aspect-ratio:16/9; overflow:hidden; padding:0; border:2px solid var(--gold); border-radius:14px; background:var(--navy); cursor:pointer; }
+.excursion-video-preview img { display:block; width:100%; height:100%; object-fit:cover; opacity:.85; }
+.excursion-video-play { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); display:grid; place-items:center; width:58px; height:58px; border-radius:50%; background:#062b5ce8; color:white; font-size:26px; border:2px solid #d6a657; }
+.excursion-video-label { position:absolute; bottom:12px; inset-inline:12px; padding:7px 12px; border-radius:8px; background:#062b5ce8; color:white; font:700 16px Arial,sans-serif; }
+.excursion-video-preview:focus-visible { outline:3px solid #2578bd; outline-offset:3px; }
+.excursion-media-fallback { text-align:center; }
+.excursion-media-fallback p { margin:10px 0; }
+.video-watch-link { display:inline-block; padding:8px; color:var(--navy,#062b5c); font-weight:700; text-underline-offset:3px; }
