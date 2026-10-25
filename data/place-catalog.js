@@ -56834,7 +56834,8 @@
         "/assets/regional-three-full-oct24/wang-church-40.jpg",
         "/assets/regional-three-full-oct24/wang-church-41.jpg",
         "/assets/regional-three-full-oct24/wang-church-42.jpg",
-        "/assets/regional-three-full-oct24/wang-church-44.jpg"
+        "/assets/regional-three-full-oct24/wang-church-44.jpg",
+        "/assets/wang-approved-oct25/wang-photo43-b48b1e01e1e2.jpeg"
       ],
       "videos": [
         "https://youtube.com/shorts/PBh_F_4H7SQ",
@@ -57564,6 +57565,25 @@
           "publicVisibilityReopenedAt": "2026-10-25T15:07:57.261Z",
           "publicationApprovalCall": "call_63b8adb2da4047b6b0a0645c174bf845",
           "decodedVideoSHA256": "77defcfcf3ce858b8530a6c07887a90e71927dae354f8e61374423dc2192b388"
+        },
+        "/assets/wang-approved-oct25/wang-photo43-b48b1e01e1e2.jpeg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (3).jpeg",
+          "sourceSHA256": "b48b1e01e1e2ec7e0dcd6e5596d529ed1862eb2dccb765682c0e02d8908d0540",
+          "assetSHA256": "b48b1e01e1e2ec7e0dcd6e5596d529ed1862eb2dccb765682c0e02d8908d0540",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבקרת ליד מצבת הזיכרון במתחם כנסיית וואנג",
+            "en": "Visitor beside the memorial in the grounds of Wang Church",
+            "pl": "Zwiedzająca przy pomniku na terenie Świątyni Wang",
+            "de": "Besucherin am Denkmal auf dem Gelände der Stabkirche Wang",
+            "cs": "Návštěvnice u památníku v areálu kostela Wang"
+          },
+          "specificPersonalPhotoApproval": {
+            "call": "call_42ab3547be4740298cdfe4bc0870562e",
+            "userWords": "מאשר לפרסם את תמונה 43",
+            "scope": "Exact source photo43only"
+          }
         }
       }
     },
