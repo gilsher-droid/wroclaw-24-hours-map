@@ -1,3 +1,4 @@
+import {beforeTwoSpecificApprovedPhotos} from './two-specific-approved-photos-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -15,7 +16,7 @@ test('Rose Passage architectural photograph preserves original bytes, thirteen p
   for (const [id, expected] of Object.entries(proof.recordHashes)) {
     assert.equal(hash(JSON.stringify(all[id])), expected, id);
   }
-  const place = JSON.parse(JSON.stringify(all[proof.canonicalId]));
+  const place = beforeTwoSpecificApprovedPhotos(all[proof.canonicalId]);
   assert.equal(place.media.photos.length, 14);
   assert.deepEqual(place.media.photos.slice(0, 13), proof.before.media.photos);
   for (const photo of proof.photos) {
