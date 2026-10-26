@@ -22000,3 +22000,61 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({
     ]
   }
 });
+
+// Two exact personal photographs individually approved after full-source review.
+(function () {
+  const additions = [
+  {
+    "canonicalId": "lodz-rose-passage",
+    "asset": "/assets/two-specific-approved-oct26/lodz-rose-passage-e4126ad4df51.jpeg",
+    "metadata": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 17.34.38 (2).jpeg",
+      "sourceSHA256": "e4126ad4df510e9a970becc004dca91849209b00ae02aa047348c28a5d096b03",
+      "assetSHA256": "e4126ad4df510e9a970becc004dca91849209b00ae02aa047348c28a5d096b03",
+      "original": true,
+      "originalFullPicturePreserved": true,
+      "alt": {
+        "he": "יד ושקית צבעונית מול פסיפס המראות בסמטת הוורדים בלודז׳",
+        "en": "Hand and colourful bag reflected in the mirror mosaic at Rose Passage in Łódź",
+        "pl": "Dłoń i kolorowa torebka odbite w lustrzanej mozaice Pasażu Róży w Łodzi",
+        "de": "Hand und bunte Tüte im Spiegelmosaik der Rosenpassage in Łódź",
+        "cs": "Ruka a barevný sáček odražené v zrcadlové mozaice Růžové pasáže v Lodži"
+      },
+      "specificPersonalPhotoApproval": {
+        "call": "call_42fbfdb56b6b46cc9c1d61846993884a",
+        "questionIndex": 0,
+        "userWords": "מאשר לפרסם",
+        "scope": "Exact source photo only, after full original shown; no extension to other photos, videos or social publication"
+      }
+    }
+  },
+  {
+    "canonicalId": "klodzko-fortress",
+    "asset": "/assets/two-specific-approved-oct26/klodzko-fortress-9308a8562c0e.jpeg",
+    "metadata": {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Image 2026-10-01 at 09.22.10 (2).jpeg",
+      "sourceSHA256": "9308a8562c0e0422efeb9b94a7f3840d9451eb6dfbe864516985e24b13ea0af4",
+      "assetSHA256": "9308a8562c0e0422efeb9b94a7f3840d9451eb6dfbe864516985e24b13ea0af4",
+      "original": true,
+      "originalFullPicturePreserved": true,
+      "alt": {
+        "he": "מבקר ליד הטנק וחומת הלבנים במבצר קלודזקו",
+        "en": "Visitor beside the tank and brick wall at Kłodzko Fortress",
+        "pl": "Zwiedzający przy czołgu i ceglanym murze Twierdzy Kłodzko",
+        "de": "Besucher neben dem Panzer und der Backsteinmauer in der Festung Kłodzko",
+        "cs": "Návštěvník u tanku a cihlové zdi v pevnosti Kladsko"
+      },
+      "specificPersonalPhotoApproval": {
+        "call": "call_42fbfdb56b6b46cc9c1d61846993884a",
+        "questionIndex": 1,
+        "userWords": "מאשר לפרסם",
+        "scope": "Exact source photo only, after full original shown; no extension to other photos, videos or social publication"
+      }
+    }
+  }
+];
+  window.WROC_CANONICAL_PLACE_SOURCE = window.WROC_CANONICAL_PLACE_SOURCE.map(place => {
+    const addition = additions.find(row => row.canonicalId === place.id);
+    return !addition ? place : { ...place, media: { ...place.media, photos: [...new Set([...place.media.photos, addition.asset])], metadata: { ...place.media.metadata, [addition.asset]: addition.metadata } } };
+  });
+})();
