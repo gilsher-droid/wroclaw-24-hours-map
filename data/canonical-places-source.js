@@ -1584,29 +1584,29 @@
     "navigation": {"googleMaps":"https://www.google.com/maps/search/?api=1&query=51.0359459%2C16.9891338","appleMaps":"https://maps.apple.com/?ll=51.0359459,16.9891338"}
   },
   "experiences": [
-    {
-      "id": "lumina-park-2026-10",
-      "type": "seasonal-event",
-      "name": {
-        "he": "עונת האורות בטירת טופץ׳ כבר פועלת",
-        "en": "Lumina Park at Zamek Topacz: the season is underway",
-        "pl": "Lumina Park w Zamku Topacz: sezon już trwa",
-        "de": "Lumina Park am Schloss Topacz: die Saison läuft",
-        "cs": "Lumina Park na zámku Topacz: sezona už probíhá"
-      },
-      "startDate": "2026-10-16",
-      "endDate": "2027-02-14",
-      "status": "confirmed",
-      "sourceUrl": "https://luminapark.pl/wroclaw/",
-      "verifiedAt": "2026-10-19",
-      "description": {
-        "he": "Lumina Park · Zamek Topacz\nעדכון לידיעה הקודמת: עונת 2026/27 החלה ב־16 באוקטובר ומתוכננת עד 14 בפברואר. עד 24 באוקטובר שעות הביקור הן 17:30 עד 21:00 בימי רביעי עד ראשון; כניסה אחרונה ב־20:00. סגור בשני ושלישי. רכב מגיע דרך רחוב טוליפנובה; הולכי רגל דרך השער הראשי ברחוב טמפלריושי 1. בדקו אצל המפעיל שינויים ושעות להמשך העונה.",
-        "en": "Update to last week's announcement: the 2026/27 season began on 16 October and is scheduled to run until 14 February. Until 24 October, visits are Wednesday to Sunday, 17:30 to 21:00, with last entry at 20:00. Closed Monday and Tuesday. Cars approach via Tulipanowa; pedestrians use the main gate at Templariuszy 1. Check the operator's changing seasonal hours before travelling.",
-        "pl": "Aktualizacja zeszłotygodniowej zapowiedzi: sezon 2026/27 rozpoczął się 16 października i potrwa planowo do 14 lutego. Do 24 października park działa od środy do niedzieli, 17:30 do 21:00, ostatnie wejście o 20:00. W poniedziałki i wtorki jest zamknięty. Samochody dojeżdżają od Tulipanowej, piesi przez główną bramę przy Templariuszy 1. Przed wyjazdem sprawdź zmienne godziny sezonowe u organizatora.",
-        "de": "Aktualisierung der Vorwoche: Die Saison 2026/27 begann am 16. Oktober und ist bis 14. Februar geplant. Bis 24. Oktober ist Mittwoch bis Sonntag von 17:30 bis 21:00 Uhr geöffnet, letzter Einlass um 20:00 Uhr. Montag und Dienstag geschlossen. Autos fahren über die Tulipanowa, Fußgänger durch das Haupttor an der Templariuszy 1. Prüfen Sie vor der Anreise die wechselnden Saisonzeiten beim Betreiber.",
-        "cs": "Aktualizace oznámení z minulého týdne: sezona 2026/27 začala 16. října a je plánována do 14. února. Do 24. října je otevřeno od středy do neděle, 17:30 až 21:00, poslední vstup ve 20:00. V pondělí a úterý je zavřeno. Auta přijíždějí přes Tulipanowou, pěší hlavní branou u Templariuszy 1. Před cestou ověřte měnící se sezonní hodiny u provozovatele."
-      }
-    }
+{
+  "id": "lumina-park-2026-10",
+  "type": "seasonal-event",
+  "name": {
+    "he": "Lumina Park 2026/27",
+    "en": "Lumina Park 2026/27",
+    "pl": "Lumina Park 2026/27",
+    "de": "Lumina Park 2026/27",
+    "cs": "Lumina Park 2026/27"
+  },
+  "startDate": "2026-10-16",
+  "endDate": "2027-02-14",
+  "status": "confirmed",
+  "sourceUrl": "https://luminapark.pl/wroclaw/",
+  "verifiedAt": "2026-10-26",
+  "description": {
+    "he": "Lumina Park · Zamek Topacz\nמ־25 באוקטובר עד 8 בנובמבר: רביעי עד ראשון, 16:30–21:00; כניסה אחרונה ב־20:00. סגור בשני ושלישי. בדקו את לוח המפעיל לתאריכים מאוחרים יותר. רכב דרך טוליפנובה, הולכי רגל דרך טמפלריושי 1.",
+    "en": "25 October–8 November: Wednesday–Sunday, 16:30–21:00; last entry 20:00. Closed Monday and Tuesday. Check the operator’s calendar for later dates. Cars via Tulipanowa; pedestrians via Templariuszy 1.",
+    "pl": "25 października–8 listopada: środa–niedziela,16:30–21:00; ostatnie wejście 20:00. Poniedziałki i wtorki zamknięte. Późniejsze godziny sprawdź u operatora. Samochody przez Tulipanową, piesi przez Templariuszy 1.",
+    "de": "25. Oktober–8. November: Mittwoch–Sonntag, 16:30–21:00 Uhr; letzter Einlass 20:00 Uhr. Montag und Dienstag geschlossen. Spätere Zeiten beim Betreiber prüfen. Autos über Tulipanowa, Fußgänger über Templariuszy 1.",
+    "cs": "25. října–8. listopadu: středa–neděle, 16:30–21:00; poslední vstup 20:00. Pondělí a úterý zavřeno. Pozdější hodiny ověřte u provozovatele. Auta přes Tulipanowou, pěší přes Templariuszy 1."
+  }
+}
   ],
   "provenance": {
     "factualSources": [
