@@ -21942,6 +21942,7 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({
   "status": "published",
   "links": {
     "website": "https://www.urbanforms.org/project/roa/",
+    "navigation": { "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7780469,19.4546196" },
     "socialProfileFallback": false
   },
   "socialPosts": [],

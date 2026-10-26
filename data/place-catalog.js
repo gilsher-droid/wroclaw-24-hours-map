@@ -33565,7 +33565,7 @@
     "links": {
       "website": "https://www.urbanforms.org/project/roa/",
       "navigation": {
-        "googleMaps": null,
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.7780469,19.4546196",
         "appleMaps": null
       },
       "socialProfileFallback": false
