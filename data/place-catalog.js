@@ -19295,7 +19295,8 @@
         "/assets/round-other-20261023/complete-white-stork-synagogue-wroclaw-24.jpg",
         "/assets/white-stork/white-stork-refresh-02.jpg",
         "/assets/food-round-oct23/four-denominations-district-038.jpg",
-        "/assets/food-round-oct23/four-denominations-district-045.jpg"
+        "/assets/food-round-oct23/four-denominations-district-045.jpg",
+        "/assets/pokoyhof-oct26/pokoyhof-courtyard-5de71e46b695.jpeg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=Eu84SKoKNZA",
@@ -20610,6 +20611,24 @@
           "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
           "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
           "reviewIndex": 72
+        },
+        "/assets/pokoyhof-oct26/pokoyhof-courtyard-5de71e46b695.jpeg": {
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/central cafe/WhatsApp Image 2026-10-21 at 21.12.00 (1).jpeg",
+          "sourceSHA256": "5de71e46b695bd6acf073a3c2073bb1403e4c4a9d79b248d418dc579a5c5a664",
+          "assetSHA256": "5de71e46b695bd6acf073a3c2073bb1403e4c4a9d79b248d418dc579a5c5a664",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "החצר המרכזית של פסאז׳ פוקויהוף ברובע ארבע הדתות",
+            "en": "Central courtyard of Pasaż Pokoyhof in the Four Denominations District",
+            "pl": "Główny dziedziniec Pasażu Pokoyhof w Dzielnicy Czterech Wyznań",
+            "de": "Zentraler Innenhof der Pokoyhof-Passage im Viertel der Vier Konfessionen",
+            "cs": "Hlavní nádvoří pasáže Pokoyhof ve čtvrti čtyř vyznání"
+          },
+          "identityReceipt": "outputs/canonical-enrichment-round-2026-10-22/open-source-decision-register-oct25/central-misfiled-pokoyhof-courtyard-identity.json",
+          "privacyClassification": "Small patrons at far lower-left incidental to wide architecture; no deliberate portrait/family focus. No new personal exception applied."
         }
       }
     },
