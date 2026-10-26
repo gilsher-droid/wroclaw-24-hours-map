@@ -19,6 +19,7 @@ test('ROA is one new canonical and one original; all231 existing records stay by
  const asset=p.media.photos[0],meta=p.media.metadata[asset];assert.equal(hash(readFileSync('.'+asset)),meta.sourceSHA256);
  assert.equal(meta.originalFullPicturePreserved,true);assert.equal(meta.familyExceptionApplied,false);
  assert.equal(meta.sameCaptureReencodeSources.length,1);
+ assert.equal(new URL(p.links.navigation.googleMaps).searchParams.get('query'),'51.7780469,19.4546196');
  assert.deepEqual(plain(p.socialPosts),[]);assert.equal(p.links.socialProfileFallback,false);
  for(const lang of ['he','en','pl','de','cs']){assert.ok(p.name[lang]);assert.ok(p.description[lang]);assert.ok(meta.alt[lang]);}
 });
