@@ -4,100 +4,122 @@
   {
     "id": "fountain-finale-2026-10",
     "title": {
-      "he": "סיום עונת המזרקה: ערב מופעים ב־24 באוקטובר",
-      "en": "Fountain season finale announced for 24 October",
-      "pl": "Finał sezonu fontanny zapowiedziany na 24 października",
-      "de": "Saisonfinale des Multimedia-Brunnens für 24. Oktober angekündigt",
-      "cs": "Finále sezony fontány ohlášeno na 24. října"
+      "he": "עונת מופעי המזרקה הסתיימה",
+      "en": "The fountain show season has ended",
+      "pl": "Sezon pokazów fontanny zakończony",
+      "de": "Die Saison der Brunnenshows ist beendet",
+      "cs": "Sezona představení fontány skončila"
     },
     "url": "https://www.wroclaw.pl/dla-mieszkanca/fontanna-multimedialna-wroclaw-noc-pokazow-zakonczenie-sezonu-harmonogram",
-    "startDate": "2026-10-19",
-    "endDate": "2026-10-24",
-    "category": "event",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-01",
+    "category": "practical",
     "priority": "important",
-    "articleUrl": "/news/2026-10-19.html#fountain-finale",
-    "status": "announced",
-    "verifiedAt": "2026-10-19",
+    "articleUrl": "/news/2026-10-26.html#fountain-season",
+    "status": "confirmed",
+    "verifiedAt": "2026-10-26",
     "eventStartDate": "2026-10-24",
     "eventEndDate": "2026-10-24",
     "relatedCanonicalPlaceId": "fountain",
     "relatedCanonicalExperienceId": "wroclaw-multimedia-fountain-show"
   },
   {
-    "id": "smocze-uroczysko-2026-10",
+    "id": "nadodrze-transport-2026-10-24",
     "title": {
-      "he": "שבילי העץ החדשים באזור הטבע מוכנים",
-      "en": "New boardwalks at Smocze Uroczysko are ready",
-      "pl": "Nowe pomosty w Smoczym Uroczysku gotowe",
-      "de": "Neue Holzstege im Smocze Uroczysko fertig",
-      "cs": "Nové dřevěné chodníky ve Smocze Uroczysko jsou hotové"
+      "he": "שינויי תחבורה בנדאודז׳ה מאז 24 באוקטובר",
+      "en": "Nadodrze transport changes since 24 October",
+      "pl": "Zmiany na Nadodrzu od 24 października",
+      "de": "Verkehrsänderungen in Nadodrze seit 24. Oktober",
+      "cs": "Změny dopravy v Nadodrze od 24. října"
     },
-    "url": "https://www.wroclaw.pl/zielony-wroclaw/smocze-uroczysko-na-swojczycach-gotowe-nowe-pomosty-do-ogladania-zwierzat-zdjecia",
-    "startDate": "2026-10-19",
-    "endDate": "2026-10-25",
-    "category": "attraction",
-    "priority": "normal",
-    "articleUrl": "/news/2026-10-19.html#smocze-uroczysko",
+    "url": "https://www.wroclaw.pl/komunikacja/rozpoczyna-sie-remont-torowiska-na-ul-lokietka-i-na-pl-sw-macieja",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-01",
+    "category": "transport",
+    "priority": "important",
+    "articleUrl": "/news/2026-10-26.html#nadodrze-transport",
     "status": "confirmed",
-    "verifiedAt": "2026-10-19"
+    "verifiedAt": "2026-10-26",
+    "eventStartDate": "2026-10-24"
   },
   {
-    "id": "lumina-park-2026-10",
+    "id": "all-saints-2026-11",
     "title": {
-      "he": "עונת האורות בטירת טופץ׳ כבר פועלת",
-      "en": "Lumina Park at Zamek Topacz: the season is underway",
-      "pl": "Lumina Park w Zamku Topacz: sezon już trwa",
-      "de": "Lumina Park am Schloss Topacz: die Saison läuft",
-      "cs": "Lumina Park na zámku Topacz: sezona už probíhá"
+      "he": "1 בנובמבר: תחבורה מיוחדת ליום כל הקדושים",
+      "en": "1 November: special All Saints’ Day services",
+      "pl": "1 listopada: specjalna komunikacja na Wszystkich Świętych",
+      "de": "1. November: Sonderverkehr zu Allerheiligen",
+      "cs": "1. listopadu: zvláštní doprava na svátek Všech svatých"
     },
-    "url": "https://luminapark.pl/wroclaw/",
-    "startDate": "2026-10-19",
-    "endDate": "2026-10-25",
+    "url": "https://www.wroclaw.pl/dla-mieszkanca/wszystkich-swietych-wroclaw-komunikacja-miejska-mpk-autobusy-tramwaje-1-listopada",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-01",
+    "category": "transport",
+    "priority": "important",
+    "articleUrl": "/news/2026-10-26.html#all-saints",
+    "status": "announced",
+    "verifiedAt": "2026-10-26",
+    "eventStartDate": "2026-10-31",
+    "eventEndDate": "2026-11-01"
+  },
+  {
+    "id": "lesnica-halloween-2026-10",
+    "title": {
+      "he": "שני ערבים שונים בטירת לשניצה",
+      "en": "Two different evenings at Leśnica Castle",
+      "pl": "Dwa różne wieczory w Zamku Leśnickim",
+      "de": "Zwei verschiedene Abende im Schloss Leśnica",
+      "cs": "Dva různé večery na zámku Leśnica"
+    },
+    "url": "https://www.zamek.wroclaw.pl/imprezy/zamkonocki-magiczne-czytanki-w-podziemiach-zamku-lesnickiego-2/",
+    "startDate": "2026-10-26",
+    "endDate": "2026-10-31",
     "category": "event",
     "priority": "important",
-    "articleUrl": "/news/2026-10-19.html#lumina-park",
-    "status": "confirmed",
-    "verifiedAt": "2026-10-19",
-    "eventStartDate": "2026-10-16",
-    "eventEndDate": "2027-02-14",
-    "relatedCanonicalPlaceId": "zamek-topacz"
+    "articleUrl": "/news/2026-10-26.html#lesnica-halloween",
+    "status": "announced",
+    "verifiedAt": "2026-10-26",
+    "eventStartDate": "2026-10-30",
+    "eventEndDate": "2026-10-31",
+    "events": [
+      {
+        "id": "lesnica-vampire-ball-2026-10-30",
+        "startDate": "2026-10-30",
+        "endDate": "2026-10-30",
+        "time": "18:00-21:30",
+        "status": "announced",
+        "sourceUrl": "https://www.zamek.wroclaw.pl/imprezy/zamkonocki-magiczne-czytanki-w-podziemiach-zamku-lesnickiego-2/"
+      },
+      {
+        "id": "lesnica-wild-ball-2026-10-31",
+        "startDate": "2026-10-31",
+        "endDate": "2026-11-01",
+        "time": "21:00",
+        "status": "announced",
+        "sourceUrl": "https://stage24.pl/wydarzenia/dj-duch-dyyune-scyntero-vvydra-osrodek-postaw-tworczych-zamek-zamek-w-lesnicy-7712"
+      }
+    ]
   },
   {
-    "id": "ruska-works-2026-10",
+    "id": "rmx-drawing-triennial-2026",
     "title": {
-      "he": "עבודות ברחוב רוסקה: מעבר רגלי מסומן",
-      "en": "Ruska works: use marked pedestrian passages",
-      "pl": "Przebudowa Ruskiej: piesi wyznaczonymi przejściami",
-      "de": "Bauarbeiten an der Ruska: markierte Fußwege nutzen",
-      "cs": "Práce v ulici Ruska: vyznačené průchody pro pěší"
+      "he": "תערוכת הטריאנלה במוזיאון לאדריכלות",
+      "en": "The Drawing Triennial at the Architecture Museum",
+      "pl": "Triennale Rysunku w Muzeum Architektury",
+      "de": "Zeichnungstriennale im Architekturmuseum",
+      "cs": "Trienále kresby v Muzeu architektury"
     },
-    "url": "https://www.wroclaw.pl/komunikacja/przebudowa-ulicy-ruskiej-zmiana-organizacji-ruchu-od-soboty-17-pazdziernika",
-    "startDate": "2026-10-19",
-    "endDate": "2026-10-25",
-    "category": "practical",
-    "priority": "important",
-    "articleUrl": "/news/2026-10-19.html#ruska-works",
-    "status": "confirmed",
-    "verifiedAt": "2026-10-19",
-    "eventStartDate": "2026-10-17"
-  },
-  {
-    "id": "bastion-ceglarski-2026-10",
-    "title": {
-      "he": "בסטיון צגלרסקי: הושלם השלב הראשון בשיקום",
-      "en": "Bastion Ceglarski: first restoration stage completed",
-      "pl": "Bastion Ceglarski: pierwszy etap renowacji zakończony",
-      "de": "Bastion Ceglarski: erste Sanierungsphase abgeschlossen",
-      "cs": "Bastion Ceglarski: první etapa obnovy dokončena"
-    },
-    "url": "https://www.wroclaw.pl/dla-mieszkanca/bastion-ceglarski-na-wzgorzu-polskim-jest-juz-po-renowacji",
-    "startDate": "2026-10-19",
-    "endDate": "2026-10-25",
+    "url": "https://ma.wroc.pl/pl/artykul/rmx-triennale-rysunku-wroclaw-2026/",
+    "startDate": "2026-10-26",
+    "endDate": "2026-11-01",
     "category": "culture",
     "priority": "normal",
-    "articleUrl": "/news/2026-10-19.html#bastion-ceglarski",
+    "articleUrl": "/news/2026-10-26.html#rmx",
     "status": "confirmed",
-    "verifiedAt": "2026-10-19"
+    "verifiedAt": "2026-10-26",
+    "eventStartDate": "2026-10-23",
+    "eventEndDate": "2026-12-15",
+    "relatedCanonicalPlaceId": "museum-of-architecture-wroclaw"
   }
 ].map((item) => Object.freeze({ ...item, title: Object.freeze(item.title) })));
 })();
