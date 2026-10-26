@@ -21811,3 +21811,60 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({"id":"wuwa","localName":"WUWA Café","n
 
 // One exact source43photograph specifically approved by Gil on2026-10-25.
 (function(){const asset="/assets/wang-approved-oct25/wang-photo43-b48b1e01e1e2.jpeg",metadata={"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/וואנג/WhatsApp Image 2026-10-18 at 10.01.47 (3).jpeg","sourceSHA256":"b48b1e01e1e2ec7e0dcd6e5596d529ed1862eb2dccb765682c0e02d8908d0540","assetSHA256":"b48b1e01e1e2ec7e0dcd6e5596d529ed1862eb2dccb765682c0e02d8908d0540","original":true,"originalFullPicturePreserved":true,"alt":{"he":"מבקרת ליד מצבת הזיכרון במתחם כנסיית וואנג","en":"Visitor beside the memorial in the grounds of Wang Church","pl":"Zwiedzająca przy pomniku na terenie Świątyni Wang","de":"Besucherin am Denkmal auf dem Gelände der Stabkirche Wang","cs":"Návštěvnice u památníku v areálu kostela Wang"},"specificPersonalPhotoApproval":{"call":"call_42ab3547be4740298cdfe4bc0870562e","userWords":"מאשר לפרסם את תמונה 43","scope":"Exact source photo43only"}};window.WROC_CANONICAL_PLACE_SOURCE=window.WROC_CANONICAL_PLACE_SOURCE.map(p=>p.id!=="wang-church"?p:{...p,media:{...p.media,photos:[...p.media.photos,asset],metadata:{...p.media.metadata,[asset]:metadata}}});})();
+
+// Two distinct full-original Piotrkowska street details, verified on 2026-10-26.
+(function () {
+  const id = "lodz-piotrkowska";
+  const photos = [
+  "/assets/piotrkowska-safe-details-oct26/lodz-piotrkowska-ffbe5016a1a8.jpeg",
+  "/assets/piotrkowska-safe-details-oct26/lodz-piotrkowska-a3dcec2bab3d.jpeg"
+];
+  const metadata = {
+  "/assets/piotrkowska-safe-details-oct26/lodz-piotrkowska-ffbe5016a1a8.jpeg": {
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.02 (10).jpeg",
+    "sourceSHA256": "ffbe5016a1a8420191854fba596f6d3f73d6f61f966f5508ea0e0ade4a405fc3",
+    "assetSHA256": "ffbe5016a1a8420191854fba596f6d3f73d6f61f966f5508ea0e0ade4a405fc3",
+    "original": true,
+    "originalFullPicturePreserved": true,
+    "familyForeground": false,
+    "privacyClassification": "Unposed public street scene subordinate to named facade",
+    "alt": {
+      "he": "חזית מסעדת סטארי מלין עם קישוטי ירקות ושולחנות ברחוב פיוטרקובסקה בלודז׳",
+      "en": "Stary Młyn restaurant facade with vegetable decorations and terrace tables on Piotrkowska Street in Łódź",
+      "pl": "Fasada restauracji Stary Młyn z dekoracjami warzywnymi i ogródkiem przy ulicy Piotrkowskiej w Łodzi",
+      "de": "Fassade des Restaurants Stary Młyn mit Gemüsedekorationen und Terrassentischen an der Piotrkowska in Łódź",
+      "cs": "Průčelí restaurace Stary Młyn se zeleninovou výzdobou a stolky na ulici Piotrkowska v Lodži"
+    },
+    "factualSources": [
+      "https://www.pierogarnie.com/restauracje/stary-mlyn-lodz/"
+    ]
+  },
+  "/assets/piotrkowska-safe-details-oct26/lodz-piotrkowska-a3dcec2bab3d.jpeg": {
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.02 (17).jpeg",
+    "sourceSHA256": "a3dcec2bab3dc3123adb77ba495e99fd9529a33a8607df9b5f7c580018c9482a",
+    "assetSHA256": "a3dcec2bab3dc3123adb77ba495e99fd9529a33a8607df9b5f7c580018c9482a",
+    "original": true,
+    "originalFullPicturePreserved": true,
+    "familyForeground": false,
+    "privacyClassification": "No people visible",
+    "alt": {
+      "he": "שלט בית המרקחת עם עיט לבן והמספר 46 ברחוב פיוטרקובסקה בלודז׳",
+      "en": "Historic white-eagle pharmacy sign and number 46 on Piotrkowska Street in Łódź",
+      "pl": "Historyczny szyld apteki Pod Białym Orłem i numer 46 przy ulicy Piotrkowskiej w Łodzi",
+      "de": "Historisches Apothekenschild mit weißem Adler und Hausnummer 46 an der Piotrkowska in Łódź",
+      "cs": "Historický vývěsní štít lékárny s bílým orlem a číslem 46 na ulici Piotrkowska v Lodži"
+    },
+    "factualSources": [
+      "https://apteka-pbo.com.pl/index.html"
+    ]
+  }
+};
+  window.WROC_CANONICAL_PLACE_SOURCE = window.WROC_CANONICAL_PLACE_SOURCE.map(place => place.id !== id ? place : {
+    ...place,
+    media: {
+      ...place.media,
+      photos: [...new Set([...place.media.photos, ...photos])],
+      metadata: { ...place.media.metadata, ...metadata }
+    }
+  });
+})();

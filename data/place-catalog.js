@@ -33252,7 +33252,9 @@
         "/assets/regional-full-oct25/lodz-piotrkowska-157ba7bff8f4.jpg",
         "/assets/regional-full-oct25/lodz-piotrkowska-54abca01237e.jpg",
         "/assets/regional-full-oct25/lodz-piotrkowska-0c84cc6d1683.jpg",
-        "/assets/regional-full-oct25/lodz-piotrkowska-cce8e670d4ad.jpg"
+        "/assets/regional-full-oct25/lodz-piotrkowska-cce8e670d4ad.jpg",
+        "/assets/piotrkowska-safe-details-oct26/lodz-piotrkowska-ffbe5016a1a8.jpeg",
+        "/assets/piotrkowska-safe-details-oct26/lodz-piotrkowska-a3dcec2bab3d.jpeg"
       ],
       "videos": [],
       "metadata": {
@@ -33443,6 +33445,44 @@
             "cs": "Socha lampáře vedle pouliční lampy v ulici Piotrkowska"
           },
           "review": "Full original reviewed; distinct relevant exposure retained without static/similarity/quantity curation. Incidental public visitors permitted; specific personal holds excluded from this batch."
+        },
+        "/assets/piotrkowska-safe-details-oct26/lodz-piotrkowska-ffbe5016a1a8.jpeg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.02 (10).jpeg",
+          "sourceSHA256": "ffbe5016a1a8420191854fba596f6d3f73d6f61f966f5508ea0e0ade4a405fc3",
+          "assetSHA256": "ffbe5016a1a8420191854fba596f6d3f73d6f61f966f5508ea0e0ade4a405fc3",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "privacyClassification": "Unposed public street scene subordinate to named facade",
+          "alt": {
+            "he": "חזית מסעדת סטארי מלין עם קישוטי ירקות ושולחנות ברחוב פיוטרקובסקה בלודז׳",
+            "en": "Stary Młyn restaurant facade with vegetable decorations and terrace tables on Piotrkowska Street in Łódź",
+            "pl": "Fasada restauracji Stary Młyn z dekoracjami warzywnymi i ogródkiem przy ulicy Piotrkowskiej w Łodzi",
+            "de": "Fassade des Restaurants Stary Młyn mit Gemüsedekorationen und Terrassentischen an der Piotrkowska in Łódź",
+            "cs": "Průčelí restaurace Stary Młyn se zeleninovou výzdobou a stolky na ulici Piotrkowska v Lodži"
+          },
+          "factualSources": [
+            "https://www.pierogarnie.com/restauracje/stary-mlyn-lodz/"
+          ]
+        },
+        "/assets/piotrkowska-safe-details-oct26/lodz-piotrkowska-a3dcec2bab3d.jpeg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 19.02.02 (17).jpeg",
+          "sourceSHA256": "a3dcec2bab3dc3123adb77ba495e99fd9529a33a8607df9b5f7c580018c9482a",
+          "assetSHA256": "a3dcec2bab3dc3123adb77ba495e99fd9529a33a8607df9b5f7c580018c9482a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "privacyClassification": "No people visible",
+          "alt": {
+            "he": "שלט בית המרקחת עם עיט לבן והמספר 46 ברחוב פיוטרקובסקה בלודז׳",
+            "en": "Historic white-eagle pharmacy sign and number 46 on Piotrkowska Street in Łódź",
+            "pl": "Historyczny szyld apteki Pod Białym Orłem i numer 46 przy ulicy Piotrkowskiej w Łodzi",
+            "de": "Historisches Apothekenschild mit weißem Adler und Hausnummer 46 an der Piotrkowska in Łódź",
+            "cs": "Historický vývěsní štít lékárny s bílým orlem a číslem 46 na ulici Piotrkowska v Lodži"
+          },
+          "factualSources": [
+            "https://apteka-pbo.com.pl/index.html"
+          ]
         }
       }
     },
