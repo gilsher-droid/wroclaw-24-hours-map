@@ -7,7 +7,7 @@ const proof=JSON.parse(readFileSync('data/nozyk-full-oct25-preservation.json')),
 runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window,console});
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 test('Nozyk13photo delta preserves230other identities and every existing Nozyk field',()=>{
- assert.equal(Object.keys(window.WROC_CATALOG.places).length,231);let unchanged=0;
+ assert.equal(Object.keys(window.WROC_CATALOG.places).length,(231)+1);let unchanged=0;
  for(const[id,h]of Object.entries(proof.recordHashes)){const p=plain(window.WROC_CATALOG.getPlace(id));if(id!==proof.canonicalId){assert.equal(hash(p),h,id);unchanged++;continue;}assert.equal(p.media.photos.length,19);assert.deepEqual(p.media.photos.slice(0,6),proof.before.media.photos);p.media.photos=proof.before.media.photos;for(const r of proof.photos)delete p.media.metadata[r.asset];assert.deepEqual(p,proof.before);}
  assert.equal(unchanged,230);
 });

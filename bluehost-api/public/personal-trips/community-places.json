@@ -1427,6 +1427,20 @@
       "lng": 19.4573028
     }
   },
+  "lodz-roa-weasels-mural": {
+    "id": "lodz-roa-weasels-mural",
+    "name": {
+      "he": "ציור הקיר הסמורים והביצים",
+      "en": "ROA weasels mural",
+      "pl": "Mural ROA Łasice kradną jajka",
+      "de": "ROA-Wandbild mit Wieseln und Eiern",
+      "cs": "Mural ROA s lasičkami a vejci"
+    },
+    "coordinates": {
+      "lat": 51.7780469,
+      "lng": 19.4546196
+    }
+  },
   "lodz-rose-passage": {
     "id": "lodz-rose-passage",
     "name": {

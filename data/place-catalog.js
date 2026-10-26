@@ -33488,6 +33488,156 @@
     },
     "socialPosts": []
   },
+  "lodz-roa-weasels-mural": {
+    "id": "lodz-roa-weasels-mural",
+    "localName": "Łasice kradną jajka",
+    "name": {
+      "he": "ציור הקיר הסמורים והביצים",
+      "en": "ROA weasels mural",
+      "pl": "Mural ROA Łasice kradną jajka",
+      "de": "ROA-Wandbild mit Wieseln und Eiern",
+      "cs": "Mural ROA s lasičkami a vejci"
+    },
+    "description": {
+      "he": "ציור קיר משנת 2013 המציג סמורים וביצים בשחור ולבן על קיר בניין בלודז׳. היצירה משלבת פרטים אדריכליים של הבניין. זו עצירה לצפייה מבחוץ.\nROA\nThe Weasels Are Stealing Eggs\nNowomiejska 5, Łódź",
+      "en": "ROA’s 2013 black-and-white mural depicts weasels and eggs on a building wall at Nowomiejska 5 in Łódź. The work incorporates architectural details of the building and can be viewed from the street.",
+      "pl": "Czarno-biały mural ROA z 2013 roku przedstawia łasice i jajka na ścianie kamienicy przy Nowomiejskiej 5 w Łodzi. Praca wykorzystuje detale architektoniczne budynku; ogląda się ją z ulicy.",
+      "de": "Das schwarz-weiße Wandbild von ROA aus dem Jahr 2013 zeigt Wiesel und Eier an einer Hauswand in der Nowomiejska 5 in Łódź. Es bezieht architektonische Details des Gebäudes ein und lässt sich von der Straße aus betrachten.",
+      "cs": "Černobílý mural ROA z roku 2013 zobrazuje lasičky a vejce na stěně domu v ulici Nowomiejska 5 v Lodži. Dílo využívá architektonické detaily budovy a lze je pozorovat z ulice."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lodzkie",
+      "cityId": "lodz",
+      "coordinates": {
+        "lat": 51.7780469,
+        "lng": 19.4546196
+      },
+      "address": {
+        "street": "Nowomiejska 5",
+        "city": "Łódź",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "public-art",
+      "street-art"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Mural ROA Nowomiejska 5",
+      "ROA Nowomiejska 5 Łódź",
+      "ROA The Weasels Are Stealing Eggs",
+      "Łasice kradną jajka"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "public-art",
+        "street-art"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.urbanforms.org/project/roa/",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identity": "Foundation project page confirms exact title, ROA,2013,Nowomiejska5.",
+      "coordinates": "Feature57DC1C0CE3DE1982 in GoogleMyMap directly linked by official city tourism portal",
+      "mapAuthorTypoNotCopied": "Map feature says BOA; foundation primary artist attribution ROA is authoritative.",
+      "locationEvidenceReceipt": "precise-map-location-proof.json",
+      "sourceReviewReceipt": "source1-source23-dedup-quality.json",
+      "factualSources": [
+        "https://www.urbanforms.org/project/roa/",
+        "https://lodz.travel/turystyka/co-zobaczyc/murale/",
+        "https://www.google.com/maps/d/viewer?mid=1SmKryCtYF8JSHAquJoFQc9jvxpauQCI&usp=sharing"
+      ]
+    },
+    "media": {
+      "thumbnail": "/assets/lodz-roa-mural-oct26/lodz-roa-mural-24be330487a5.jpg",
+      "photos": [
+        "/assets/lodz-roa-mural-oct26/lodz-roa-mural-24be330487a5.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/lodz-roa-mural-oct26/lodz-roa-mural-24be330487a5.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/IMG_5723.JPG",
+          "sourceSHA256": "24be330487a560301dec44a458d3c287f994a5df3b3423e4b93c2d856b7de893",
+          "assetSHA256": "24be330487a560301dec44a458d3c287f994a5df3b3423e4b93c2d856b7de893",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Street-art architecture is the focal subject; distant public pedestrians are incidental, no posed portrait or family relationship inferred.",
+          "alt": {
+            "he": "ציור קיר בשחור ולבן של סמורים וביצים מעל גדר ברחוב נובומייסקה בלודז׳",
+            "en": "Black-and-white weasels and eggs mural above a fence on Nowomiejska Street in Łódź",
+            "pl": "Czarno-biały mural z łasicami i jajkami nad ogrodzeniem przy Nowomiejskiej w Łodzi",
+            "de": "Schwarz-weißes Wandbild mit Wieseln und Eiern über einem Zaun an der Nowomiejska in Łódź",
+            "cs": "Černobílý mural s lasičkami a vejci nad plotem v ulici Nowomiejska v Lodži"
+          },
+          "sameCaptureReencodeSources": [
+            {
+              "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 17.34.35 (2).jpeg",
+              "sourceSHA256": "3c05ae7a2a7c12945c38034f1d712760c8b00bca46affa93404ac6526bb37220",
+              "reason": "Same exposure, lower resolution reencoding; original retained once."
+            }
+          ],
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "exifOrientedDimensions": [
+            3024,
+            4032
+          ]
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "lodz-rose-passage": {
     "id": "lodz-rose-passage",
     "localName": "Pasaż Róży",
@@ -68764,6 +68914,10 @@
   "DOMEK NAD FOSA": "domek-nad-fosa-wroclaw",
   "Domek nad Fosa": "domek-nad-fosa-wroclaw",
   "דומק נאד פוסה": "domek-nad-fosa-wroclaw",
+  "ROA The Weasels Are Stealing Eggs": "lodz-roa-weasels-mural",
+  "Łasice kradną jajka": "lodz-roa-weasels-mural",
+  "ROA Nowomiejska 5 Łódź": "lodz-roa-weasels-mural",
+  "Mural ROA Nowomiejska 5": "lodz-roa-weasels-mural",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",

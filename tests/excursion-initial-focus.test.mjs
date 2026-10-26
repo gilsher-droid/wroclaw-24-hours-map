@@ -16,7 +16,7 @@ test('Łódź opens on its local stops while keeping the complete journey and ov
   runInNewContext(fn+'\nthis.run=renderMap;',context);context.run(excursion);
   assert.equal(polyline.length,excursion.routePoints.map(coords).filter(Boolean).length);
   if(excursion.id==='warsaw-lodz-wroclaw'){
-   assert.equal(fitted.length,8);assert.ok(fitted.every(([lat,lng])=>lat>51.7&&lat<51.85&&lng>19.3&&lng<19.6));assert.ok(polyline.length>fitted.length);
+   assert.equal(fitted.length,9);assert.ok(fitted.every(([lat,lng])=>lat>51.7&&lat<51.85&&lng>19.3&&lng<19.6));assert.ok(polyline.length>fitted.length);
   }else if(excursion.id==='srebrna-gora-klodzko-day-trip'){assert.equal(fitted.length,3);assert.ok(fitted.every(([lat,lng])=>lat>50.4&&lat<50.6&&lng>16.6&&lng<16.7));assert.equal(polyline.length,5);}else assert.equal(fitted.length,polyline.length);
  }
  assert.ok(source.includes('points = walking ? excursion.walkingRoute?.points : excursion.routePoints'),'full-route overview retains departure and destination');
