@@ -21868,3 +21868,31 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({"id":"wuwa","localName":"WUWA Café","n
     }
   });
 })();
+
+// Full original Rose Passage architecture photo with incidental public visitors.
+(function () {
+  const id = "lodz-rose-passage";
+  const asset = "/assets/rose-passage-incidental-oct26/lodz-rose-passage-aa6df44775e2.jpeg";
+  const metadata = {
+  "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 17.35.11 (3).jpeg",
+  "sourceSHA256": "aa6df44775e2a40cf9978c26128a534f86f5a445526792575c77631991a80ee2",
+  "assetSHA256": "aa6df44775e2a40cf9978c26128a534f86f5a445526792575c77631991a80ee2",
+  "original": true,
+  "originalFullPicturePreserved": true,
+  "familyForeground": false,
+  "familyExceptionApplied": false,
+  "privacyClassification": "Architectural place photograph of the mirrored façade and public archway, with incidental visitors. No family relationship or identities inferred; parent reviewed full original and confirmed context under user public-passerby policy.",
+  "alt": {
+    "he": "חזית המראות והמעבר המקושת בסמטת הוורדים בלודז׳",
+    "en": "Mirror-covered façade and arched passage at Rose Passage in Łódź",
+    "pl": "Lustrzana elewacja i łukowe przejście w Pasażu Róży w Łodzi",
+    "de": "Spiegelfassade und Bogendurchgang in der Rosenpassage in Łódź",
+    "cs": "Zrcadlová fasáda a klenutý průchod v Růžové pasáži v Lodži"
+  },
+  "review": "Full original viewed and ordinary SHA read verified. All13 existing photos compared visually and by exact/decoded hashes; distinct exposure, no reencode match. No static/similarity/quantity exclusion. Existing personal holds54/65 unaffected."
+};
+  window.WROC_CANONICAL_PLACE_SOURCE = window.WROC_CANONICAL_PLACE_SOURCE.map(place => place.id !== id ? place : {
+    ...place,
+    media: { ...place.media, photos: [...new Set([...place.media.photos, asset])], metadata: { ...place.media.metadata, [asset]: metadata } }
+  });
+})();

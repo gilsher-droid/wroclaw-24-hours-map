@@ -33606,7 +33606,8 @@
         "/assets/regional-full-oct25/lodz-rose-passage-21deef7ab396.jpg",
         "/assets/regional-full-oct25/lodz-rose-passage-68d513349c8d.jpg",
         "/assets/regional-full-oct25/lodz-rose-passage-073a8f413e8b.jpg",
-        "/assets/regional-full-oct25/lodz-rose-passage-640396ec6ea2.jpg"
+        "/assets/regional-full-oct25/lodz-rose-passage-640396ec6ea2.jpg",
+        "/assets/rose-passage-incidental-oct26/lodz-rose-passage-aa6df44775e2.jpeg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=UmzG_V4fRpc"
@@ -33813,6 +33814,24 @@
           "publicVisibilityReopenedAt": "2026-10-25T15:08:11.625Z",
           "publicationApprovalCall": "call_63b8adb2da4047b6b0a0645c174bf845",
           "decodedVideoSHA256": "eb0f9962841f5ef8c4fef33af6514564bad4a520814365e08002487985bcb44f"
+        },
+        "/assets/rose-passage-incidental-oct26/lodz-rose-passage-aa6df44775e2.jpeg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/לודז/WhatsApp Image 2026-09-24 at 17.35.11 (3).jpeg",
+          "sourceSHA256": "aa6df44775e2a40cf9978c26128a534f86f5a445526792575c77631991a80ee2",
+          "assetSHA256": "aa6df44775e2a40cf9978c26128a534f86f5a445526792575c77631991a80ee2",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architectural place photograph of the mirrored façade and public archway, with incidental visitors. No family relationship or identities inferred; parent reviewed full original and confirmed context under user public-passerby policy.",
+          "alt": {
+            "he": "חזית המראות והמעבר המקושת בסמטת הוורדים בלודז׳",
+            "en": "Mirror-covered façade and arched passage at Rose Passage in Łódź",
+            "pl": "Lustrzana elewacja i łukowe przejście w Pasażu Róży w Łodzi",
+            "de": "Spiegelfassade und Bogendurchgang in der Rosenpassage in Łódź",
+            "cs": "Zrcadlová fasáda a klenutý průchod v Růžové pasáži v Lodži"
+          },
+          "review": "Full original viewed and ordinary SHA read verified. All13 existing photos compared visually and by exact/decoded hashes; distinct exposure, no reencode match. No static/similarity/quantity exclusion. Existing personal holds54/65 unaffected."
         }
       }
     },
