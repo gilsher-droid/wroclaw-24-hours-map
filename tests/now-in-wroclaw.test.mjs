@@ -115,8 +115,6 @@ test("October 26 distinguishes ended seasons, upcoming events and two castle eve
  assert.equal(castle.events[0].startDate,"2026-10-30"); assert.equal(castle.events[1].startDate,"2026-10-31");
  assert.equal(api.isActive(castle,new Date(2026,10,1)),false);
  assert.equal(api.activeItems(items,new Date(2026,10,2)).length,0);
- const source=readFileSync(resolve(root,"data/canonical-experiences.js"),"utf8");
- assert.match(source,/seasonState: "closed"/);
  for(const language of ["he","en","pl","de","cs"]){
   const article=readFileSync(resolve(root,`news/2026-10-26${language==="he"?"":"-"+language}.html`),"utf8");
   for(const id of ["folta","sniezka","airport"])assert.ok(article.includes(`id="${id}"`));

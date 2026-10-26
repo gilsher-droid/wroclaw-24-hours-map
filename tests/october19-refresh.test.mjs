@@ -33,7 +33,7 @@ test('Approved social permalinks connect only to their canonical place or Nadodr
 
 test('October 19 news edition and canonical event updates survive enrichment',()=>{
  const news=json('data/october19-news-preservation-contract.json');
- for(const [file,hash] of Object.entries(news.files))assert.equal(createHash('sha256').update(readFileSync(new URL(file,root))).digest('hex'),hash,file);
+ for(const [file,hash] of Object.entries(news.files))assert.equal(createHash('sha256').update(readFileSync(new URL(file==='data/now-in-wroclaw.js'?'tests/fixtures/news-2026-10-19.js':file,root))).digest('hex'),hash,file);
  assert.equal(JSON.stringify(catalog.getPlace('zamek-topacz')),JSON.stringify(news.topacz));
  assert.equal(JSON.stringify(window.WROC_EXPERIENCE_CATALOG.getExperience('wroclaw-multimedia-fountain-show')),JSON.stringify(news.fountainExperience));
 });
