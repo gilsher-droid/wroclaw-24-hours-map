@@ -1215,7 +1215,11 @@
   const warsawLodz = {
   "id": "warsaw-lodz-wroclaw",
   "initialMapFocus": "local-stops",
-  "departurePlaceIds": ["warsaw-nozyk-synagogue", "warsaw-unknown-soldier", "warsaw-saxon-garden-fountain"],
+  "departurePlaceIds": [
+    "warsaw-nozyk-synagogue",
+    "warsaw-unknown-soldier",
+    "warsaw-saxon-garden-fountain"
+  ],
   "showDestinationMarker": true,
   "slug": "warsaw-lodz-wroclaw",
   "title": {
@@ -1274,6 +1278,7 @@
     "lodz-old-market",
     "lodz-church-square",
     "lodz-ghetto-baluty",
+    "lodz-roa-weasels-mural",
     "lodz-freedom-square",
     "lodz-rose-passage",
     "lodz-gutenberg-house",
@@ -1314,6 +1319,11 @@
       "id": "lodz-ghetto-baluty",
       "kind": "place",
       "canonicalPlaceId": "lodz-ghetto-baluty"
+    },
+    {
+      "id": "lodz-roa-weasels-mural",
+      "kind": "place",
+      "canonicalPlaceId": "lodz-roa-weasels-mural"
     },
     {
       "id": "lodz-freedom-square",
@@ -1403,23 +1413,27 @@
       },
       {
         "id": "5",
-        "canonicalPlaceId": "lodz-freedom-square"
+        "canonicalPlaceId": "lodz-roa-weasels-mural"
       },
       {
         "id": "6",
-        "canonicalPlaceId": "lodz-rose-passage"
+        "canonicalPlaceId": "lodz-freedom-square"
       },
       {
         "id": "7",
-        "canonicalPlaceId": "lodz-gutenberg-house"
+        "canonicalPlaceId": "lodz-rose-passage"
       },
       {
         "id": "8",
+        "canonicalPlaceId": "lodz-gutenberg-house"
+      },
+      {
+        "id": "9",
         "canonicalPlaceId": "lodz-piotrkowska"
       }
     ],
     "navigation": {
-      "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=51.7794621%2C19.444461&destination=51.7794621%2C19.444461&travelmode=walking&waypoints=51.7815222%2C19.4537361%7C51.7831681%2C19.4538249%7C51.7869694%2C19.4518556%7C51.7767836%2C19.4546995%7C51.7758847%2C19.4536534%7C51.7668862%2C19.4570933%7C51.7654694%2C19.4573028",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=51.7794621%2C19.444461&destination=51.7794621%2C19.444461&travelmode=walking&waypoints=51.7815222%2C19.4537361%7C51.7831681%2C19.4538249%7C51.7869694%2C19.4518556%7C51.7780469%2C19.4546196%7C51.7767836%2C19.4546995%7C51.7758847%2C19.4536534%7C51.7668862%2C19.4570933%7C51.7654694%2C19.4573028",
       "segments": [
         {
           "from": "1",
@@ -1428,11 +1442,11 @@
         },
         {
           "from": "4",
-          "to": "6",
-          "url": "https://www.google.com/maps/dir/?api=1&origin=51.7869694%2C19.4518556&destination=51.7758847%2C19.4536534&waypoints=51.7767836%2C19.4546995&travelmode=walking"
+          "to": "7",
+          "url": "https://www.google.com/maps/dir/?api=1&origin=51.7869694%2C19.4518556&destination=51.7758847%2C19.4536534&waypoints=51.7780469%2C19.4546196%7C51.7767836%2C19.4546995&travelmode=walking"
         },
         {
-          "from": "6",
+          "from": "7",
           "to": "1",
           "url": "https://www.google.com/maps/dir/?api=1&origin=51.7758847%2C19.4536534&destination=51.7794621%2C19.444461&waypoints=51.7668862%2C19.4570933%7C51.7654694%2C19.4573028&travelmode=walking"
         }
@@ -1610,6 +1624,24 @@
         "pl": "15–20 min",
         "de": "15–20 Min.",
         "cs": "15–20 min"
+      }
+    },
+    {
+      "id": "roa-mural",
+      "canonicalPlaceId": "lodz-roa-weasels-mural",
+      "title": {
+        "he": "ציור הקיר הסמורים והביצים (לבחירה)",
+        "en": "ROA weasels mural (optional)",
+        "pl": "Mural ROA Łasice kradną jajka (opcjonalnie)",
+        "de": "ROA-Wandbild mit Wieseln und Eiern (optional)",
+        "cs": "Mural ROA s lasičkami a vejci (volitelně)"
+      },
+      "duration": {
+        "he": "עצירה קצרה לצפייה מבחוץ",
+        "en": "Brief outdoor viewing stop",
+        "pl": "Krótki przystanek na obejrzenie z zewnątrz",
+        "de": "Kurzer Halt zur Betrachtung von außen",
+        "cs": "Krátká zastávka na pohled zvenčí"
       }
     },
     {
