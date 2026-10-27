@@ -2435,6 +2435,20 @@
       "lng": 16.9714666
     }
   },
+  "poznan-little-prince-mural": {
+    "id": "poznan-little-prince-mural",
+    "name": {
+      "he": "ציור הקיר של הנסיך הקטן",
+      "en": "The Little Prince mural",
+      "pl": "Mural Mały Książę",
+      "de": "Wandbild Der kleine Prinz",
+      "cs": "Nástěnná malba Malý princ"
+    },
+    "coordinates": {
+      "lat": 52.4035141,
+      "lng": 16.9292588
+    }
+  },
   "poznan-new-synagogue": {
     "id": "poznan-new-synagogue",
     "name": {
