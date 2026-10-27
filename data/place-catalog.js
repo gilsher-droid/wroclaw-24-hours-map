@@ -52836,7 +52836,7 @@
       ],
       "coordinateProof": {
         "url": "https://www.openstreetmap.org/node/2511520382",
-        "precisionNote": "Destination POI from the owner or municipal tourism link; not the map camera centre or a surveyed entrance"
+        "precisionNote": "OpenStreetMap house-address node 2511520382 for Mieczysława Niedziałkowskiego 1, corroborated against the owner location map; not a camera centre or surveyed mural wall/entrance"
       },
       "noBorrowedMedia": true
     },
