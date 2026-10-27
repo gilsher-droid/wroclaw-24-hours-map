@@ -9,10 +9,10 @@ test('Łódź opens on its local stops while keeping the complete journey and ov
  for(const excursion of window.WROC_LOWER_SILESIA_EXCURSIONS.excursions){
   let fitted,polyline;
   const fakeMap={remove(){},fitBounds(points){fitted=points;}};
-  const L={map(){return fakeMap;},tileLayer(){return {addTo(){}};},polyline(points){polyline=points;return {addTo(){}};},divIcon(){},marker(){return {addTo(){return this;},bindPopup(){return this;},on(){return this;}};}};
+  const L={map(){return fakeMap;},tileLayer(){return {addTo(){}};},polyline(points){polyline=points;return {addTo(){}};},divIcon(){},layerGroup(){return {addTo(){return this;},addLayer(){}};},marker(){return {addTo(){return this;},bindPopup(){return this;},on(){return this;}};}};
   const place=id=>window.WROC_CATALOG.getPlace(id);
   const coords=point=>{const p=point.canonicalPlaceId?place(point.canonicalPlaceId):null;return p?.location?.coordinates||point.coordinates;};
-  const context={window:{L,WROC_GUIDE_VIDEO:{legend(){},decorateIcon(){}}},L,map:null,mapStops:new Map(),coords,place,local:v=>v?.en||v,language:'en',placeAmenities:{markerBadgeHtml(){return '';}},placePopup(){return '';},registerMapStop(){},trackPlaceOpen(){}};
+  const context={window:{L,WROC_MAP_TILES:{addTo(){}},WROC_GUIDE_VIDEO:{legend(){},decorateIcon(){}}},L,document:{querySelector(){return null;}},optionalLayer:null,optionalMarkers:[],optionalGroup(){return 'culture';},optionalSymbols:{culture:'▣'},map:null,mapStops:new Map(),coords,place,local:v=>v?.en||v,language:'en',placeAmenities:{markerBadgeHtml(){return '';}},placePopup(){return '';},registerMapStop(){},trackPlaceOpen(){}};
   runInNewContext(fn+'\nthis.run=renderMap;',context);context.run(excursion);
   assert.equal(polyline.length,excursion.routePoints.map(coords).filter(Boolean).length);
   if(excursion.id==='warsaw-lodz-wroclaw'){

@@ -415,10 +415,7 @@
     }
     if (!map) {
       map = L.map("premium-map", { scrollWheelZoom: false }).setView([51.111, 17.04], 13);
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
-      }).addTo(map);
+      window.WROC_MAP_TILES.addTo(map);
     }
     window.WROC_GUIDE_VIDEO.legend(map, language);
     clearMap();

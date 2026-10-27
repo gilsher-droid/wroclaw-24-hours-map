@@ -8,6 +8,35 @@
   let map;
   let walkingMap;
   const mapStops = new Map();
+  let optionalLayer;
+  let optionalMarkers = [];
+  const mapChoiceCopy = {
+    he: { route: "המסלול המומלץ", choices: "מקומות נוספים לבחירה", food: "אוכל וקפה", culture: "תרבות ומבנים", shopping: "קניות ושכונות", parks: "פארקים ועם ילדים", stay: "לינה", hint: "בחרו סוג מקומות כדי להוסיף אותו למפה. רשימת המקומות והגלריות זמינה גם למטה.", photos: "פתיחת התמונה המלאה" },
+    en: { route: "Recommended walk", choices: "More places to choose from", food: "Food and coffee", culture: "Culture and buildings", shopping: "Shopping and neighbourhoods", parks: "Parks and family outings", stay: "Stay", hint: "Choose a group to add it to the map. Place lists and galleries are also available below.", photos: "Open the full photograph" },
+    pl: { route: "Proponowany spacer", choices: "Dodatkowe miejsca do wyboru", food: "Jedzenie i kawa", culture: "Kultura i architektura", shopping: "Zakupy i dzielnice", parks: "Parki i wyjścia z dziećmi", stay: "Nocleg", hint: "Wybierz grupę, aby dodać ją do mapy. Listy miejsc i galerie są dostępne także poniżej.", photos: "Otwórz pełne zdjęcie" },
+    de: { route: "Empfohlener Spaziergang", choices: "Weitere Orte zur Auswahl", food: "Essen und Kaffee", culture: "Kultur und Architektur", shopping: "Einkaufen und Stadtviertel", parks: "Parks und Familienausflüge", stay: "Übernachten", hint: "Wählen Sie eine Gruppe für die Karte. Ortslisten und Galerien finden Sie auch weiter unten.", photos: "Vollständiges Foto öffnen" },
+    cs: { route: "Doporučená procházka", choices: "Další místa na výběr", food: "Jídlo a káva", culture: "Kultura a architektura", shopping: "Nákupy a čtvrti", parks: "Parky a výlety s dětmi", stay: "Ubytování", hint: "Vyberte skupinu, kterou přidáte do mapy. Seznamy míst a galerie jsou také níže.", photos: "Otevřít celou fotografii" }
+  };
+  function optionalGroup(canonical) {
+    if (canonical.categories?.includes("food")) return "food";
+    if (canonical.categories?.includes("hotel")) return "stay";
+    if (canonical.categories?.includes("shopping") || canonical.id === "poznan-jezyce-market") return "shopping";
+    if (canonical.taxonomy?.tags?.includes("family") || ["poznan-citadel-park", "poznan-lake-malta"].includes(canonical.id)) return "parks";
+    return "culture";
+  }
+  const optionalSymbols = { food: "◇", culture: "▣", shopping: "□", parks: "♧", stay: "⌂" };
+  function selectOptionalGroup(group, fit = false) {
+    if (!optionalLayer) return;
+    optionalLayer.clearLayers();
+    const selected = optionalMarkers.filter(item => item.group === group);
+    selected.forEach(item => optionalLayer.addLayer(item.marker));
+    document.querySelectorAll("[data-map-choice]").forEach(button => button.setAttribute("aria-pressed", String(button.dataset.mapChoice === group)));
+    if (fit) {
+      const route = selectedExcursion().routePoints.map(coords).filter(Boolean).map(p => [p.lat,p.lng]);
+      map.closePopup();
+      map.fitBounds([...route,...selected.map(item => [item.coordinate.lat,item.coordinate.lng])], {padding:[36,36],maxZoom:15,animate:false});
+    }
+  }
   let previewIndex = 0;
   let previewInitialized = false;
   let previewTimer;
@@ -69,6 +98,8 @@
       if (coordinate) stop = {targetMap:map,coordinate,canonical,label:local(canonical.name),containerId:"excursion-map"};
     }
     if (!stop) return;
+    const optional = optionalMarkers.find(item => item.marker === stop.marker);
+    if (optional) selectOptionalGroup(optional.group);
     bringMapIntoView(stop.targetMap,stop.containerId);
     stop.targetMap.setView([stop.coordinate.lat,stop.coordinate.lng],stop.containerId === "brzeg-walk-map" ? 17 : 15,{animate:false});
     if (stop.marker) stop.marker.openPopup();
@@ -78,6 +109,7 @@
     const excursion = selectedExcursion(), targetMap = walking ? walkingMap : map;
     const points = walking ? excursion.walkingRoute?.points : excursion.routePoints;
     if (!targetMap || !points) return;
+    if (!walking && excursion.id === "poznan-wroclaw-stopover") selectOptionalGroup("route");
     bringMapIntoView(targetMap,walking ? "brzeg-walk-map" : "excursion-map");
     targetMap.closePopup();
     targetMap.fitBounds(points.map(coords).filter(Boolean).map(p=>[p.lat,p.lng]),{padding:[30,30],animate:false});
@@ -204,9 +236,11 @@
     if (!window.L) return;
     if (map) map.remove();
     mapStops.clear();
+    optionalMarkers = [];
+    optionalLayer = null;
     map = L.map("excursion-map", { scrollWheelZoom: false });
     window.WROC_GUIDE_VIDEO.legend(map, language);
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+    window.WROC_MAP_TILES.addTo(map);
     const route = excursion.routePoints.map(coords).filter(Boolean).map(({ lat, lng }) => [lat, lng]);
     L.polyline(route, { color: "#2578bd", weight: 4, dashArray: "8 8" }).addTo(map);
     excursion.routePoints.filter((point, index) => !point.hideMarker && (index < excursion.routePoints.length - 1 || excursion.showDestinationMarker)).forEach((point, index) => {
@@ -223,10 +257,24 @@
       const marker=L.marker([coordinate.lat,coordinate.lng], {title:local(canonical.name),icon:L.divIcon({className:"route-marker departure-marker",html:`<span>W${index+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]})}).addTo(map).bindPopup(placePopup(canonical,local(canonical.name),coordinate),{maxWidth:320}).on("popupopen",()=>trackPlaceOpen(canonical));
       registerMapStop(`departure-${id}`,map,marker,coordinate,canonical,local(canonical.name),"excursion-map");
     });
+    const isPoznan = excursion.id === "poznan-wroclaw-stopover";
+    const optionsHost = document.querySelector("[data-map-options]");
+    if (optionsHost) {
+      optionsHost.hidden = !isPoznan;
+      const copy = mapChoiceCopy[language];
+      optionsHost.innerHTML = isPoznan ? `<div class="map-key"><span><i class="map-key-route" aria-hidden="true">1</i>${copy.route}</span><span><i class="map-key-choice" aria-hidden="true">◇</i>${copy.choices}</span></div><p>${copy.hint}</p><div class="map-choice-buttons" role="group" aria-label="${escapeHtml(copy.choices)}">${["route","food","culture","shopping","parks","stay"].map(group => `<button type="button" data-map-choice="${group}" aria-pressed="${group === "route"}">${copy[group]}</button>`).join("")}</div>` : "";
+    }
+    optionalLayer = L.layerGroup().addTo(map);
     (excursion.optionalPlaceIds || []).forEach((id,index) => {
       const canonical = place(id), coordinate = canonical?.location?.coordinates;
       if (!coordinate) return;
-      const marker = L.marker([coordinate.lat, coordinate.lng], { title: local(canonical.name), icon: L.divIcon({ className: "route-marker optional-marker", html: `<span>+${index+1}</span>`, iconSize: [42,50], iconAnchor: [21,48] }) }).addTo(map).bindPopup(placePopup(canonical, local(canonical.name), coordinate), { maxWidth:320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      const group = optionalGroup(canonical);
+      const icon = isPoznan
+        ? { className: "route-marker optional-marker poznan-choice-marker", html: `<span aria-hidden="true">${optionalSymbols[group]}</span>`, iconSize: [34,34], iconAnchor: [17,17] }
+        : { className: "route-marker optional-marker", html: `<span>+${index+1}</span>`, iconSize: [42,50], iconAnchor: [21,48] };
+      const marker = L.marker([coordinate.lat, coordinate.lng], { title: local(canonical.name), icon: L.divIcon(icon) }).bindPopup(placePopup(canonical, local(canonical.name), coordinate), { maxWidth:320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      if (isPoznan) optionalMarkers.push({marker, group, coordinate});
+      if (!isPoznan) optionalLayer.addLayer(marker);
       registerMapStop(`optional-${id}`, map, marker, coordinate, canonical, local(canonical.name), "excursion-map");
     });
     const localStops = excursion.initialMapFocus === "local-stops"
@@ -281,7 +329,7 @@
     if(route.closedLoop) line.push(line[0]);
     walkingMap = L.map("brzeg-walk-map", { scrollWheelZoom: false });
     window.WROC_GUIDE_VIDEO.legend(walkingMap, language);
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(walkingMap);
+    window.WROC_MAP_TILES.addTo(walkingMap);
     L.polyline(line, { color: "#c55b2f", weight: 4, dashArray: route.geometryAccuracy === "stop-order-only" ? "7 7" : undefined }).addTo(walkingMap);
     points.forEach((point) => {
       const coordinate = coords(point);
@@ -357,6 +405,9 @@
   function mediaItems(canonical,kind) {
     return [...new Set(canonical?.media?.[kind] || [])];
   }
+  function photoAlt(canonical, photo) {
+    return local(canonical?.media?.metadata?.[photo]?.alt) || local(canonical?.name);
+  }
   function mediaButtons(canonical) {
     return ["photos","videos"].map(kind=>{
       const count=mediaItems(canonical,kind).length;
@@ -400,7 +451,7 @@
     // Keep the selected tab focused when changing media types.
     if(!tabs.querySelector("[data-media-tab]")) tabs.innerHTML=["photos","videos"].filter(kind=>mediaItems(canonical,kind).length).map(kind=>`<button type="button" data-media-tab="${kind}">${labels[kind]}</button>`).join("");
     tabs.querySelectorAll("button").forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.mediaTab===activeMedia.kind)));
-    mediaDialog.querySelector(".excursion-media-stage").innerHTML=activeMedia.kind==="photos" ? `<img src="${escapeHtml(items[activeMedia.index])}" alt="${escapeHtml(local(canonical.name))}" draggable="false">` : window.WROC_YOUTUBE_VIDEO.html(items[activeMedia.index],`${local(canonical.name)} ${activeMedia.index+1}`,language);
+    mediaDialog.querySelector(".excursion-media-stage").innerHTML=activeMedia.kind==="photos" ? `<img src="${escapeHtml(items[activeMedia.index])}" alt="${escapeHtml(photoAlt(canonical,items[activeMedia.index]))}" draggable="false">` : window.WROC_YOUTUBE_VIDEO.html(items[activeMedia.index],`${local(canonical.name)} ${activeMedia.index+1}`,language);
     mediaDialog.querySelector(".excursion-media-fallback").innerHTML=activeMedia.kind==="videos" ? window.WROC_YOUTUBE_VIDEO.watchLink(items[activeMedia.index],language) : "";
     mediaDialog.querySelector("[data-media-counter]").textContent=`${activeMedia.index+1} / ${items.length}`;
     for(const step of [-1,1]) {const button=mediaDialog.querySelector(`[data-media-step="${step}"]`);button.textContent=step<0?`‹ ${labels.previous}`:`${labels.next} ›`;button.disabled=items.length<2;}
@@ -429,7 +480,7 @@
     return ids.map(id=>{
       const canonical=place(id);if(!canonical) return "";
       const photos=mediaItems(canonical,"photos"),videos=mediaItems(canonical,"videos");
-      const openPhoto=(photo,index,cover=false)=>`<button type="button" class="${cover?"place-cover-button":"place-photo-button"}" data-place-gallery="${escapeHtml(id)}" data-media-kind="photos" data-media-index="${index}" aria-label="${escapeHtml(mediaLabels[language].open)}: ${escapeHtml(local(canonical.name))}, ${index+1} / ${photos.length}"><img ${cover?'class="place-cover"':'loading="lazy"'} src="${escapeHtml(photo)}" alt="${escapeHtml(local(canonical.name))}"></button>`;
+      const openPhoto=(photo,index,cover=false)=>`<button type="button" class="${cover?"place-cover-button":"place-photo-button"}" data-place-gallery="${escapeHtml(id)}" data-media-kind="photos" data-media-index="${index}" aria-label="${escapeHtml(mediaLabels[language].open)}: ${escapeHtml(local(canonical.name))}, ${index+1} / ${photos.length}"><img ${cover?'class="place-cover"':'loading="lazy"'} src="${escapeHtml(photo)}" alt="${escapeHtml(photoAlt(canonical,photo))}">${cover && selectedExcursion().id === "poznan-wroclaw-stopover" ? `<span class="photo-open-label">${mapChoiceCopy[language].photos}</span>` : ""}</button>`;
       const cover=photos[0]?openPhoto(photos[0],0,true):window.WROC_PLACE_POPUP_PHOTO.imageHtml(canonical,language,"place-cover");
       const strip=photos.slice(1,4).map((photo,index)=>openPhoto(photo,index+1)).join("");
       const videoId=videos[0] && window.WROC_YOUTUBE_VIDEO.idFor(window.WROC_YOUTUBE_VIDEO.resolve(videos[0]));
@@ -457,7 +508,12 @@
       cs: ["Více z Poznaně podle času a zájmů", "Vyberte si čtvrti, parky, památky, jídlo, kávu, nákupy nebo nocleh. Tyto možnosti doplňují pěší trasu; nemusíte vše navštívit za jeden den. Obě zoo jsou alternativy. Pro Novou zoo si vyhraďte samostatnou návštěvu na několik hodin."]
     }[language];
     optionalSection.hidden = !optionalIds.length;
-    optionalSection.innerHTML = optionalIds.length ? `<h2>${optionalCopy[0]}</h2><p>${optionalCopy[1]}</p><div class="places-grid">${placeCards(optionalIds)}</div>` : "";
+    const grouped = excursion.id === "poznan-wroclaw-stopover";
+    const groups = ["food","culture","shopping","parks","stay"];
+    optionalSection.innerHTML = optionalIds.length ? `<h2>${grouped ? mapChoiceCopy[language].choices : optionalCopy[0]}</h2><p>${optionalCopy[1]}</p>${grouped ? groups.map(group => {
+      const ids = optionalIds.filter(id => optionalGroup(place(id)) === group);
+      return ids.length ? `<details class="optional-place-group" data-optional-group="${group}" ${group === "food" ? "open" : ""}><summary>${mapChoiceCopy[language][group]} <span>${ids.length}</span></summary><div class="places-grid">${placeCards(ids)}</div></details>` : "";
+    }).join("") : `<div class="places-grid">${placeCards(optionalIds)}</div>`}` : "";
     const section=document.querySelector("[data-departure-places]");
     const ids=excursion.departurePlaceIds || [],copy=departureCopy[language];
     section.hidden=!ids.length;
@@ -477,6 +533,7 @@
     const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
     const excursion = selectedExcursion();
     if (!excursion) return;
+    document.body.classList.toggle("poznan-trip", excursion.id === "poznan-wroclaw-stopover");
     if (hasSelectedTrip()) previewIndex = product.excursions.indexOf(excursion);
     if (!previewInitialized) { previewIndex = product.excursions.indexOf(excursion); previewInitialized = true; }
     document.querySelector("[data-map-overview]").textContent = mapFocusLabels[language].overview;
@@ -500,6 +557,16 @@
   }
 
   document.addEventListener("click",event=>{
+    const choice = event.target.closest("[data-map-choice]");
+    if (choice) { selectOptionalGroup(choice.dataset.mapChoice, true); return; }
+    const detailsLink = event.target.closest('a[href^="#excursion-place-"]');
+    if (detailsLink) {
+      const card = document.getElementById(detailsLink.getAttribute("href").slice(1));
+      const group = card?.closest("details");
+      if (group) group.open = true;
+      if (card) { event.preventDefault(); card.scrollIntoView({behavior:reducedMotion.matches ? "auto" : "smooth",block:"start"}); card.focus({preventScroll:true}); }
+      return;
+    }
     const button = event.target.closest("[data-map-place],[data-map-point],[data-map-overview],[data-map-walk-overview],[data-walk-overview],[data-departure-overview]");
     if (!button) return;
     if(button.hasAttribute("data-departure-overview")) {

@@ -51,7 +51,7 @@
     const container = document.querySelector('#demo-stops'); container.replaceChildren();
     if (window.L && !map) {
       map = L.map('demo-map', { scrollWheelZoom: false }).setView([51.109, 17.035], 14);
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+      window.WROC_MAP_TILES.addTo(map);
       layer = L.layerGroup().addTo(map);
     }
     layer?.clearLayers();

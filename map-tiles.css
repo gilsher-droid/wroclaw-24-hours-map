@@ -1,0 +1,8 @@
+.wroc-map-availability{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;padding:10px 4px;color:#334b61;font:14px/1.5 Arial,sans-serif;overflow-wrap:anywhere}
+.wroc-map-availability button,.wroc-map-availability a{font:inherit;color:#174f7b;text-decoration:underline;text-underline-offset:3px}
+.wroc-map-availability button{border:0;background:transparent;cursor:pointer;padding:7px 2px;min-height:38px;text-align:start}
+.wroc-map-availability button:focus-visible,.wroc-map-availability a:focus-visible{outline:3px solid #bb8735;outline-offset:3px}
+.wroc-map-availability[data-state=unavailable]{padding:12px 16px;margin-top:8px;border:1px solid #c6d2db;border-radius:12px;background:#f2f6f8}
+.wroc-map-availability [hidden]{display:none!important}
+.wroc-map-without-background{background:#e8edf0!important}
+@media print{.wroc-map-availability button,.wroc-map-availability a{display:none}}
