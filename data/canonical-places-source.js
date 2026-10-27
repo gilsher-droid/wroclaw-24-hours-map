@@ -22192,3 +22192,4354 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({
     ]
   }
 });
+
+// Poznań excursion: explicit geography, separate physical venues and reviewed own photographs.
+window.WROC_CANONICAL_PLACE_SOURCE.push(...[
+  {
+    "id": "poznan-old-market-square",
+    "localName": "Stary Rynek",
+    "name": {
+      "he": "כיכר השוק העתיקה בפוזנן",
+      "en": "Old Market Square, Poznań",
+      "pl": "Stary Rynek w Poznaniu",
+      "de": "Alter Markt in Poznań",
+      "cs": "Staré náměstí v Poznani"
+    },
+    "description": {
+      "he": "התחילו בכיכר השוק, בין חזיתות הבתים הצבעוניות ובית העירייה. זו נקודת הפתיחה להליכה בעיר העתיקה ולהמשך לכיוון אי הקתדרלות.",
+      "en": "Start in the Old Market Square, among colourful façades and the Town Hall. This is the starting point for the Old Town walk and the continuation towards Cathedral Island.",
+      "pl": "Zacznij na Starym Rynku, wśród kolorowych kamienic i przy ratuszu. Stąd rusza spacer po Starym Mieście i dalej w stronę Ostrowa Tumskiego.",
+      "de": "Beginnen Sie am Alten Markt zwischen bunten Fassaden und Rathaus. Hier startet der Altstadtrundgang mit Weiterweg zur Dominsel.",
+      "cs": "Začněte na Starém náměstí mezi barevnými fasádami a radnicí. Odtud vede procházka Starým Městem směrem na Tumský ostrov."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Stary Rynek",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4084694,
+        "lng": 16.9336247
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://visitpoznan.pl/en/old-market-square-and-billy-goats",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4084694%2C16.9336247"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-052.jpg",
+        "/assets/poznan/source-035.jpg",
+        "/assets/poznan/source-039.jpg",
+        "/assets/poznan/source-040.jpg",
+        "/assets/poznan/source-019.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=hKhY6kmJotc"
+      ],
+      "metadata": {
+        "/assets/poznan/source-052.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/כיכר בפוזנן בערב .JPG",
+          "sourceSHA256": "c3960d0184d00926a711197bbf72a1d3f54411b474082e0075c995fadcde6936",
+          "assetSHA256": "5bb497ec1b6528756e6e28572c867deb51b98065660dec0beb6e598e797358b8",
+          "alt": {
+            "he": "כיכר השוק העתיקה בפוזנן",
+            "en": "Old Market Square, Poznań",
+            "pl": "Stary Rynek w Poznaniu",
+            "de": "Alter Markt in Poznań",
+            "cs": "Staré náměstí v Poznani"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כיכר בפוזנן בערב .JPG"
+        },
+        "/assets/poznan/source-035.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/יכר העיר של פוזנן.JPG",
+          "sourceSHA256": "a0a23dd5131e0eb4c96f06a11bbdfe37246155b3a3ca29546e6688757138fd75",
+          "assetSHA256": "dba1007c792ed58f64091d90f388ca0ae30dc64beb55f12240d2d70f80cc1411",
+          "alt": {
+            "he": "כיכר השוק העתיקה בפוזנן",
+            "en": "Old Market Square, Poznań",
+            "pl": "Stary Rynek w Poznaniu",
+            "de": "Alter Markt in Poznań",
+            "cs": "Staré náměstí v Poznani"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יכר העיר של פוזנן.JPG"
+        },
+        "/assets/poznan/source-039.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/יכר פוזן 4.JPG",
+          "sourceSHA256": "0ebda1f2e1c016d6cd9a561cda0ca77d29f14cd76e84fc625563c9a3e66464af",
+          "assetSHA256": "ddd2a98503b4419f40ccd6e6e8001d264109df42cfe04571fc5d33ed61fe1623",
+          "alt": {
+            "he": "כיכר השוק העתיקה בפוזנן",
+            "en": "Old Market Square, Poznań",
+            "pl": "Stary Rynek w Poznaniu",
+            "de": "Alter Markt in Poznań",
+            "cs": "Staré náměstí v Poznani"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יכר פוזן 4.JPG"
+        },
+        "/assets/poznan/source-040.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/יכר פוזנן 7.JPG",
+          "sourceSHA256": "7c1e08fab1b454b2be8bc1cecf0ffa929985389a7bd2f25406ab9b2ceaeca12e",
+          "assetSHA256": "a67221f9268eb6050e0a9a1a51148420b1645e9d8c70a360ee19a48124da0670",
+          "alt": {
+            "he": "כיכר השוק העתיקה בפוזנן",
+            "en": "Old Market Square, Poznań",
+            "pl": "Stary Rynek w Poznaniu",
+            "de": "Alter Markt in Poznań",
+            "cs": "Staré náměstí v Poznani"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יכר פוזנן 7.JPG"
+        },
+        "/assets/poznan/source-019.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רייצל בכיכר המדהים של פוזנן.JPG",
+          "sourceSHA256": "aba421f580d18261998a5a0b648b497392f60f98739fdbf5f51629e182da854d",
+          "assetSHA256": "adb440130e78e552164bb5a12cafae5aebd5402555b93785bee3780edc39da6e",
+          "alt": {
+            "he": "תצלום ביקור בפינת רחובות בכיכר השוק, בית העירייה ברקע",
+            "en": "Visit photograph by the Old Market Square with the town hall behind",
+            "pl": "Zdjęcie z wizyty przy Starym Rynku z ratuszem w tle",
+            "de": "Besuchsfoto am Alten Markt mit dem Rathaus im Hintergrund",
+            "cs": "Fotografie z návštěvy u Starého náměstí s radnicí v pozadí"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "aba421f580d18261998a5a0b648b497392f60f98739fdbf5f51629e182da854d",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל בכיכר המדהים של פוזנן.JPG"
+        },
+        "https://www.youtube.com/watch?v=hKhY6kmJotc": {
+          "title": {
+            "he": "קרואסון סן מרטין בכיכר השוק",
+            "en": "St Martin croissant in the Old Market Square",
+            "pl": "Rogal świętomarciński na Starym Rynku",
+            "de": "Martinshörnchen auf dem Alten Markt",
+            "cs": "Svatomartinský rohlík na Starém náměstí"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/סרטון גיל עם קוראסון סן מרטין בפוזנן.MP4",
+          "sourceSHA256": "9244e48dd60c37cd10f4d0401238a6aaf62a29c2ca49865e05f2db435d9ed384",
+          "durationSeconds": 50.84,
+          "originalPictureUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-27T17:29:11.363321+00:00",
+          "personalMediaApproval": "Explicit all Poznan folder approval",
+          "reuseSourceIndices": [
+            4
+          ]
+        }
+      },
+      "thumbnail": "/assets/poznan/source-052.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://visitpoznan.pl/en/old-market-square-and-billy-goats",
+        "precisionNote": "Tourist-source-linked square POI, source index staged by media agent",
+        "checkedAt": "2026-10-27",
+        "linkedMap": "https://maps.app.goo.gl/5xxoQ5WsneThkoCv6"
+      },
+      "factualSources": [
+        {
+          "url": "https://visitpoznan.pl/en/the-town-hall-museum-of-poznan",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poznan-town-hall",
+    "localName": "Ratusz w Poznaniu",
+    "name": {
+      "he": "בית העירייה של פוזנן",
+      "en": "Poznań Town Hall",
+      "pl": "Ratusz w Poznaniu",
+      "de": "Rathaus von Poznań",
+      "cs": "Poznaňská radnice"
+    },
+    "description": {
+      "he": "עצירה מול בית העירייה שבכיכר השוק, לצילום החזית ומבט אל המגדל. המוזיאון סגור לשיפוץ; המסלול מציע ביקור מבחוץ.",
+      "en": "Stop in front of the Town Hall for its façade and tower. The museum is closed for renovation; this route visits the exterior.",
+      "pl": "Przystanek przed ratuszem, by obejrzeć fasadę i wieżę. Muzeum jest zamknięte z powodu remontu; trasa obejmuje oglądanie z zewnątrz.",
+      "de": "Halt vor dem Rathaus mit Blick auf Fassade und Turm. Das Museum ist wegen Renovierung geschlossen; die Route sieht eine Außenbesichtigung vor.",
+      "cs": "Zastávka před radnicí s pohledem na fasádu a věž. Muzeum je kvůli rekonstrukci zavřené; trasa zahrnuje prohlídku zvenku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Stary Rynek 1",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4085868,
+        "lng": 16.9340342
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://mnp.art.pl/galeria-malarstwa-i-rzezby/ratusz-muzeum-poznania-od-1-lipca-zamkniete-dla-zwiedzajacych",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4085868%2C16.9340342"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-036.jpg",
+        "/assets/poznan/source-053.jpg",
+        "/assets/poznan/source-097.jpg",
+        "/assets/poznan/source-098.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=5jfxMy_8UAU"
+      ],
+      "metadata": {
+        "/assets/poznan/source-036.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בית העירייה של פוזנן.JPG",
+          "sourceSHA256": "8b28b8f9772129bb7af087ec9e0ff9363c868b631d596ae36364e59c29082d8d",
+          "assetSHA256": "6cb9e2676a632e9ad5abb7104ba005bba5ff85357cc53fca15f93c95e99bf14f",
+          "alt": {
+            "he": "בית העירייה של פוזנן",
+            "en": "Poznań Town Hall",
+            "pl": "Ratusz w Poznaniu",
+            "de": "Rathaus von Poznań",
+            "cs": "Poznaňská radnice"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית העירייה של פוזנן.JPG"
+        },
+        "/assets/poznan/source-053.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בית העירייה של פוזנן בערב .JPG",
+          "sourceSHA256": "d504486441549e58388b8310d86fb309e29948b507684d1c596f3abf1f9be722",
+          "assetSHA256": "04a2c2dcfdcf4113d2e027402aac69d6a6e9162d92f5466b611f053a519050e3",
+          "alt": {
+            "he": "בית העירייה של פוזנן",
+            "en": "Poznań Town Hall",
+            "pl": "Ratusz w Poznaniu",
+            "de": "Rathaus von Poznań",
+            "cs": "Poznaňská radnice"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית העירייה של פוזנן בערב .JPG"
+        },
+        "/assets/poznan/source-097.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בית העירייה של פוזנן מהצד.JPG",
+          "sourceSHA256": "8b7bacc76c4be35ca4fe4e7abd2a46df9cbc5f47e9bd38763a5e7e801beb30e3",
+          "assetSHA256": "e86f46533a37b259566078614523b58e2a211018ac5eaca0af7fa43b2d95a84d",
+          "alt": {
+            "he": "בית העירייה של פוזנן",
+            "en": "Poznań Town Hall",
+            "pl": "Ratusz w Poznaniu",
+            "de": "Rathaus von Poznań",
+            "cs": "Poznaňská radnice"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית העירייה של פוזנן מהצד.JPG"
+        },
+        "/assets/poznan/source-098.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/ושוב בית העירייה .JPG",
+          "sourceSHA256": "75f6fa67b491824bb29355df8fcdabb7618381dd255e74a2378a0e3ff35f92fb",
+          "assetSHA256": "58433e9de2139eee9d4c21a05605ce2e409dc492f1ddb1fdc04129c2e9a39137",
+          "alt": {
+            "he": "בית העירייה של פוזנן",
+            "en": "Poznań Town Hall",
+            "pl": "Ratusz w Poznaniu",
+            "de": "Rathaus von Poznań",
+            "cs": "Poznaňská radnice"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ושוב בית העירייה .JPG"
+        },
+        "https://www.youtube.com/watch?v=5jfxMy_8UAU": {
+          "title": {
+            "he": "בית העירייה והעזים בשעון",
+            "en": "Town Hall and clock goats",
+            "pl": "Ratusz i koziołki zegarowe",
+            "de": "Rathaus und Uhrziegen",
+            "cs": "Radnice a hodinoví kozlíci"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/סרטון העזים בבית העירייה של פוזנן.MP4",
+          "sourceSHA256": "0d843b8df789d88e4c26555aa48823c147fcbd403f1907ee7254112cfaef65e4",
+          "durationSeconds": 172.081678,
+          "originalPictureUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-27T17:26:23.699886+00:00",
+          "personalMediaApproval": "Explicit all Poznan folder approval",
+          "reuseSourceIndices": [
+            1,
+            135
+          ]
+        }
+      },
+      "thumbnail": "/assets/poznan/source-036.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://visitpoznan.pl/en/the-town-hall-museum-of-poznan",
+        "precisionNote": "City tourism linked museum POI; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://mnp.art.pl/galeria-malarstwa-i-rzezby/ratusz-muzeum-poznania-od-1-lipca-zamkniete-dla-zwiedzajacych",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poznan-fara",
+    "localName": "Fara Poznańska",
+    "name": {
+      "he": "כנסיית פארה בפוזנן",
+      "en": "Fara Parish Church, Poznań",
+      "pl": "Fara Poznańska",
+      "de": "Fara-Pfarrkirche in Poznań",
+      "cs": "Farní kostel Fara v Poznani"
+    },
+    "description": {
+      "he": "כנסיית הבארוק ליד סמטאות העיר העתיקה והמבנים הוורודים של הקולגיום לשעבר. עצרו להתבונן בחזית; כניסה פנימה בהתאם לפתיחה ולתפילות.",
+      "en": "The Baroque parish church beside Old Town streets and the pink former-collegium buildings. Pause at the façade; entry depends on opening and services.",
+      "pl": "Barokowa fara przy uliczkach Starego Miasta i różowych zabudowaniach dawnego kolegium. Obejrzyj fasadę; wejście zależy od otwarcia i nabożeństw.",
+      "de": "Die barocke Pfarrkirche bei den Altstadtgassen und rosa Gebäuden des früheren Kollegiums. Die Fassade betrachten; Einlass je nach Öffnung und Gottesdiensten.",
+      "cs": "Barokní farní kostel u uliček Starého Města a růžových budov bývalé koleje. Zastavte se u fasády; vstup závisí na otevření a bohoslužbách."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Gołębia 1",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4064953,
+        "lng": 16.9340825
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://visitpoznan.pl/en/parish-church",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4064953%2C16.9340825"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-099.jpg",
+        "/assets/poznan/source-010.jpg",
+        "/assets/poznan/source-051.jpg",
+        "/assets/poznan/source-009.jpg",
+        "/assets/poznan/source-012.jpg",
+        "/assets/poznan/source-018.jpg",
+        "/assets/poznan/source-020.jpg",
+        "/assets/poznan/source-022.jpg",
+        "/assets/poznan/source-074.jpg",
+        "/assets/poznan/source-075.jpg",
+        "/assets/poznan/source-076.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=4SbW5aDYqkU"
+      ],
+      "metadata": {
+        "/assets/poznan/source-099.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הרחוב לבזיליקה.JPG",
+          "sourceSHA256": "3b78e1ee9f8167e01bae2500f65eb543c39408945510d6fd79ec636cd765d524",
+          "assetSHA256": "bb85c812980ceec98333955dd8996b9c184a190630446d559000335f79397d22",
+          "alt": {
+            "he": "כנסיית פארה בפוזנן",
+            "en": "Fara Parish Church, Poznań",
+            "pl": "Fara Poznańska",
+            "de": "Fara-Pfarrkirche in Poznań",
+            "cs": "Farní kostel Fara v Poznani"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הרחוב לבזיליקה.JPG"
+        },
+        "/assets/poznan/source-010.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/העיר העתיקה של פוזנן מול הבזיליקה.JPG",
+          "sourceSHA256": "080c0bf152c0df757f24ca8352f151b445750bb3b1bb9d165817b0739c0770ef",
+          "assetSHA256": "ebca46512a8736608449bcbc52979b773834b1df656440286c1c5025fe2fef73",
+          "alt": {
+            "he": "תצלום ביקור ברחוב המוביל לחזית הבזיליקה",
+            "en": "Visit photograph on the street approaching the basilica façade",
+            "pl": "Zdjęcie z wizyty na ulicy prowadzącej do fasady fary",
+            "de": "Besuchsfoto in der Straße zur Basilikafassade",
+            "cs": "Fotografie z návštěvy v ulici vedoucí k průčelí baziliky"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "080c0bf152c0df757f24ca8352f151b445750bb3b1bb9d165817b0739c0770ef",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/העיר העתיקה של פוזנן מול הבזיליקה.JPG"
+        },
+        "/assets/poznan/source-051.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/יל והעזים של פוזנן.JPG",
+          "sourceSHA256": "aa4aec304f191b6a6e6bd88b86b38854a24f08f1e407e109dccf4cc6369e3fbd",
+          "assetSHA256": "1f1d91c7426beec5558e5a0d4fab2ddd4705fff44734c92698073715d093a1e1",
+          "alt": {
+            "he": "צילום הביקור שלנו ליד פסל העזים בחצר הקולגיום שליד פארה",
+            "en": "Our visit beside the goat sculpture in the Collegium courtyard near Fara",
+            "pl": "Nasza wizyta przy rzeźbie koziołków na dziedzińcu kolegium obok fary",
+            "de": "Unser Besuch an der Ziegenskulptur im Kollegiumshof neben der Fara",
+            "cs": "Naše návštěva u sochy kozlíků na nádvoří kolegia vedle fary"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "aa4aec304f191b6a6e6bd88b86b38854a24f08f1e407e109dccf4cc6369e3fbd",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יל והעזים של פוזנן.JPG"
+        },
+        "/assets/poznan/source-009.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רייצל בפסל העזים בפוזנן.JPG",
+          "sourceSHA256": "dc3f6ea5b6bc0d3aff0f47b9f6b8fd80a556eb59efdbdcae4c4020a4e01c3c7a",
+          "assetSHA256": "24193867c2ad994d7c14a9a305f024beb57bb3e0c9a340d44fde3a39029c4b99",
+          "alt": {
+            "he": "צילום ביקור ליד המיצב המואר בחצר שליד פארה",
+            "en": "Visit photograph beside the illuminated installation in the courtyard near Fara",
+            "pl": "Zdjęcie z wizyty przy podświetlonej instalacji na dziedzińcu obok fary",
+            "de": "Besuchsfoto an der beleuchteten Installation im Hof neben der Fara",
+            "cs": "Fotografie z návštěvy u osvětlené instalace na nádvoří vedle fary"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "dc3f6ea5b6bc0d3aff0f47b9f6b8fd80a556eb59efdbdcae4c4020a4e01c3c7a",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל בפסל העזים בפוזנן.JPG"
+        },
+        "/assets/poznan/source-012.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רייצל שוב ליד פסל העזים.JPG",
+          "sourceSHA256": "bfc0349810ac5dce1eb9528bdd1cfb78d9a9f95db2d7815a56b593d356d3ab68",
+          "assetSHA256": "879cbc463b6c2c7736beff6c0f839ff8827ea1a0ee8e3895507c1c608d280cfa",
+          "alt": {
+            "he": "צילום ביקור ליד המיצב המואר בחצר שליד פארה",
+            "en": "Visit photograph beside the illuminated installation in the courtyard near Fara",
+            "pl": "Zdjęcie z wizyty przy podświetlonej instalacji na dziedzińcu obok fary",
+            "de": "Besuchsfoto an der beleuchteten Installation im Hof neben der Fara",
+            "cs": "Fotografie z návštěvy u osvětlené instalace na nádvoří vedle fary"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "bfc0349810ac5dce1eb9528bdd1cfb78d9a9f95db2d7815a56b593d356d3ab68",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל שוב ליד פסל העזים.JPG"
+        },
+        "/assets/poznan/source-018.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רייצל ליד העזים.JPG",
+          "sourceSHA256": "fc2fe566c3f56c079e201cb5c7b7e2ee9c236a55488d0a5f4569147b1a1172f7",
+          "assetSHA256": "ad95f81b8d854a081be867ccbb4a71267c90f36c06254e23565220459951a726",
+          "alt": {
+            "he": "צילום ביקור ליד המיצב המואר בחצר שליד פארה",
+            "en": "Visit photograph beside the illuminated installation in the courtyard near Fara",
+            "pl": "Zdjęcie z wizyty przy podświetlonej instalacji na dziedzińcu obok fary",
+            "de": "Besuchsfoto an der beleuchteten Installation im Hof neben der Fara",
+            "cs": "Fotografie z návštěvy u osvětlené instalace na nádvoří vedle fary"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "fc2fe566c3f56c079e201cb5c7b7e2ee9c236a55488d0a5f4569147b1a1172f7",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל ליד העזים.JPG"
+        },
+        "/assets/poznan/source-020.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/עזים ורייצל.JPG",
+          "sourceSHA256": "c1a65013add6309d09828531521396ec79b82efe1164e933674081152e5c6c4d",
+          "assetSHA256": "12bb24e1e8dc319d09ca2dc7d8811324e018ef0ff6d7b19d172dbe94585077e5",
+          "alt": {
+            "he": "צילום ביקור ליד המיצב המואר בחצר שליד פארה",
+            "en": "Visit photograph beside the illuminated installation in the courtyard near Fara",
+            "pl": "Zdjęcie z wizyty przy podświetlonej instalacji na dziedzińcu obok fary",
+            "de": "Besuchsfoto an der beleuchteten Installation im Hof neben der Fara",
+            "cs": "Fotografie z návštěvy u osvětlené instalace na nádvoří vedle fary"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "c1a65013add6309d09828531521396ec79b82efe1164e933674081152e5c6c4d",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/עזים ורייצל.JPG"
+        },
+        "/assets/poznan/source-022.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/ייצל והעזים 3 .JPG",
+          "sourceSHA256": "912f3256439cde92b82e52b2ea0e13dcf65b027bbbf8e3c02b490c980e5c2afe",
+          "assetSHA256": "92ac88b5215d5402286f77676c5e6844a70670d3f1ecb957ec4374c54ef6dc4e",
+          "alt": {
+            "he": "צילום ביקור ליד המיצב המואר בחצר שליד פארה",
+            "en": "Visit photograph beside the illuminated installation in the courtyard near Fara",
+            "pl": "Zdjęcie z wizyty przy podświetlonej instalacji na dziedzińcu obok fary",
+            "de": "Besuchsfoto an der beleuchteten Installation im Hof neben der Fara",
+            "cs": "Fotografie z návštěvy u osvětlené instalace na nádvoří vedle fary"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "912f3256439cde92b82e52b2ea0e13dcf65b027bbbf8e3c02b490c980e5c2afe",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ייצל והעזים 3 .JPG"
+        },
+        "/assets/poznan/source-074.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/פרחים בפוזנן ליד פסל העזים.JPG",
+          "sourceSHA256": "a800f9e2dbb079f9c695651f42baf34a96aa7684e066c2c8945741d55b79ce46",
+          "assetSHA256": "d57ec52edbc5b9f649e63650a7e02d1c37dfa05e557fc33b5faaa0c44d238f69",
+          "alt": {
+            "he": "הידרנגאות בגנים ליד פארה, מצילום הביקור שלנו",
+            "en": "Hydrangeas in the gardens near Fara, from our visit",
+            "pl": "Hortensje w ogrodach przy farze, z naszej wizyty",
+            "de": "Hortensien in den Gärten bei der Fara, von unserem Besuch",
+            "cs": "Hortenzie v zahradách u fary, z naší návštěvy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "a800f9e2dbb079f9c695651f42baf34a96aa7684e066c2c8945741d55b79ce46",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/פרחים בפוזנן ליד פסל העזים.JPG"
+        },
+        "/assets/poznan/source-075.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/פרחים בפוזנן ליד פסל העזים 2.JPG",
+          "sourceSHA256": "730f3c90012098d6cdc359182cd85230876aa95024d3fb161f2b76e2ca34afa5",
+          "assetSHA256": "da9ec12c0141423c21545a07e906a89543cd5b76b10a0a74bfe4f5d5211bd2d1",
+          "alt": {
+            "he": "הידרנגאות בגנים ליד פארה, מצילום הביקור שלנו",
+            "en": "Hydrangeas in the gardens near Fara, from our visit",
+            "pl": "Hortensje w ogrodach przy farze, z naszej wizyty",
+            "de": "Hortensien in den Gärten bei der Fara, von unserem Besuch",
+            "cs": "Hortenzie v zahradách u fary, z naší návštěvy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "730f3c90012098d6cdc359182cd85230876aa95024d3fb161f2b76e2ca34afa5",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/פרחים בפוזנן ליד פסל העזים 2.JPG"
+        },
+        "/assets/poznan/source-076.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/פרחים בפזונן ליד פסל העזים 3 .JPG",
+          "sourceSHA256": "6952a54ed0ec144ff1c80cc20773675edfe21ed253a0936873bf676432685570",
+          "assetSHA256": "bb4cf6ba9221c519d6297a5a99486e9b4bfbbf9bc3e96b3cc8e5fdb1ace1656f",
+          "alt": {
+            "he": "הידרנגאות בגנים ליד פארה, מצילום הביקור שלנו",
+            "en": "Hydrangeas in the gardens near Fara, from our visit",
+            "pl": "Hortensje w ogrodach przy farze, z naszej wizyty",
+            "de": "Hortensien in den Gärten bei der Fara, von unserem Besuch",
+            "cs": "Hortenzie v zahradách u fary, z naší návštěvy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "6952a54ed0ec144ff1c80cc20773675edfe21ed253a0936873bf676432685570",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/פרחים בפזונן ליד פסל העזים 3 .JPG"
+        },
+        "https://www.youtube.com/watch?v=4SbW5aDYqkU": {
+          "title": {
+            "he": "חצר הקולגיום ליד פארה",
+            "en": "Collegium courtyard near Fara",
+            "pl": "Dziedziniec kolegium przy farze",
+            "de": "Kollegiumshof bei der Fara",
+            "cs": "Nádvoří kolegia u fary"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ליד פסל העזים בפוזנן מנקים.MP4",
+          "sourceSHA256": "ebc9fddf2fe6ee730ba15f7d61f74b8cbe134efb905438961cc5ff8992f3f322",
+          "durationSeconds": 9.3,
+          "originalPictureUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-27T17:30:20.054466+00:00",
+          "personalMediaApproval": "Explicit all Poznan folder approval",
+          "reuseSourceIndices": [
+            2
+          ]
+        }
+      },
+      "thumbnail": "/assets/poznan/source-099.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://visitpoznan.pl/en/parish-church",
+        "precisionNote": "City tourism linked church POI",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://visitpoznan.pl/en/parish-church",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poznan-cathedral-island",
+    "localName": "Ostrów Tumski",
+    "name": {
+      "he": "אי הקתדרלות בפוזנן",
+      "en": "Cathedral Island, Poznań",
+      "pl": "Ostrów Tumski w Poznaniu",
+      "de": "Dominsel in Poznań",
+      "cs": "Tumský ostrov v Poznani"
+    },
+    "description": {
+      "he": "טיילו בסביבת הקתדרלה שבאי, חלקה ההיסטורי של פוזנן. מכאן ממשיכים אל גשר ירדן ושכונת שרודקה. כניסה למבנים נבדקת בנפרד.",
+      "en": "Walk around the cathedral on the island, a historic part of Poznań. Continue towards Bishop Jordan Bridge and Śródka. Building access is checked separately.",
+      "pl": "Spacer po otoczeniu katedry na historycznym Ostrowie Tumskim. Dalej przez most Biskupa Jordana na Śródkę. Wejście do budynków sprawdź osobno.",
+      "de": "Spaziergang im Umfeld des Doms auf der historischen Insel. Weiter zur Jordanbrücke und nach Śródka. Den Zugang zu Gebäuden separat prüfen.",
+      "cs": "Projděte okolí katedrály na historickém Tumském ostrově. Pokračujte k mostu biskupa Jordana a do Śródky. Vstup do budov ověřte zvlášť."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Ostrów Tumski 17",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4113733,
+        "lng": 16.9485346
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://visitpoznan.pl/en/poznan-cathedral",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4113733%2C16.9485346"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-079.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-079.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/אי הקתרדלות.JPG",
+          "sourceSHA256": "2fe448dd4b7ad8cd27f9abe9d010907a07a8989adf324b497619ee8eaba5d9e9",
+          "assetSHA256": "8d304d21fdc79d28900fb991331505c3ec865213a7a2ced4c883b3b90d25d1dc",
+          "alt": {
+            "he": "כנסיית מרים הקדושה באי הקתדרלות, צריחי הקתדרלה ברקע",
+            "en": "Church of the Blessed Virgin Mary in Summo on Cathedral Island, with cathedral towers behind",
+            "pl": "Kościół NMP in Summo na Ostrowie Tumskim, z wieżami katedry w tle",
+            "de": "Kirche der Heiligen Jungfrau Maria in Summo auf der Dominsel, dahinter die Domtürme",
+            "cs": "Kostel Panny Marie in Summo na Tumském ostrově, v pozadí věže katedrály"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/אי הקתרדלות.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-079.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://visitpoznan.pl/en/poznan-cathedral",
+        "precisionNote": "Cathedral landmark POI for the island walk; not boundary centroid",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://visitpoznan.pl/en/poznan-cathedral",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poznan-bishop-jordan-bridge",
+    "localName": "Most Biskupa Jordana",
+    "name": {
+      "he": "גשר הבישוף ירדן",
+      "en": "Bishop Jordan Bridge",
+      "pl": "Most Biskupa Jordana",
+      "de": "Bischof-Jordan-Brücke",
+      "cs": "Most biskupa Jordana"
+    },
+    "description": {
+      "he": "הגשר להולכי רגל מחבר את אי הקתדרלות עם שרודקה מעל נהר ציבינה. עצירה קצרה למבט אל המים והמשך רגלי אל ציור הקיר.",
+      "en": "This pedestrian bridge over the Cybina connects Cathedral Island with Śródka. Pause for river views before continuing to the mural.",
+      "pl": "Kładka nad Cybiną łączy Ostrów Tumski ze Śródką. Krótki przystanek z widokiem na rzekę przed dalszym spacerem do muralu.",
+      "de": "Die Fußgängerbrücke über die Cybina verbindet Dominsel und Śródka. Kurzer Halt mit Flussblick auf dem Weg zum Wandbild.",
+      "cs": "Pěší most přes Cybinu spojuje Tumský ostrov se Śródkou. Krátká zastávka s výhledem na řeku před pokračováním k malbě."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Most Biskupa Jordana",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4115762,
+        "lng": 16.9508761
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://wielkopolska.travel/en/srodka-and-malta/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4115762%2C16.9508761"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-073.jpg",
+        "/assets/poznan/source-005.jpg",
+        "/assets/poznan/source-014.jpg",
+        "/assets/poznan/source-025.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-073.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גשר ירדן המקסים.JPG",
+          "sourceSHA256": "13cc8087257c91860485bec7b326cba806c46f6b6f433dd5481da51b9f3fb461",
+          "assetSHA256": "6aabba36ba3da6f407829e1751abc864fc5f0623182ef75b747c9303e8a22ec9",
+          "alt": {
+            "he": "גשר הבישוף ירדן",
+            "en": "Bishop Jordan Bridge",
+            "pl": "Most Biskupa Jordana",
+            "de": "Bischof-Jordan-Brücke",
+            "cs": "Most biskupa Jordana"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גשר ירדן המקסים.JPG"
+        },
+        "/assets/poznan/source-005.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גשר ירדן פוזנן.JPG",
+          "sourceSHA256": "80c84f949cd0b8ac79bb0aadbdc7f60c70a907536264d080dbb6443a4e15bf8e",
+          "assetSHA256": "8446f0808638fbbd90446d6217b1d5757f9f98f2b422263ed2eda7727a3bae0f",
+          "alt": {
+            "he": "תצלום הביקור שלנו על גשר ירדן, עם צריחי הקתדרלה ברקע",
+            "en": "Our visit on Bishop Jordan Bridge with cathedral towers behind",
+            "pl": "Nasza wizyta na moście biskupa Jordana z wieżami katedry w tle",
+            "de": "Unser Besuch auf der Bischof-Jordan-Brücke mit Domtürmen im Hintergrund",
+            "cs": "Naše návštěva mostu biskupa Jordána s věžemi katedrály v pozadí"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "80c84f949cd0b8ac79bb0aadbdc7f60c70a907536264d080dbb6443a4e15bf8e",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גשר ירדן פוזנן.JPG"
+        },
+        "/assets/poznan/source-014.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הגשר לאי הקתרדלות.JPG",
+          "sourceSHA256": "482dd8a13b6b1b9e1f95544d244ec81c082dfeab695372c65e30b62a5c749e3a",
+          "assetSHA256": "3447c41ced619b1d9a4a2a4dd9f618d7eddc51eb9010223bf559e8ea93942797",
+          "alt": {
+            "he": "תצלום הביקור שלנו על גשר ירדן, עם צריחי הקתדרלה ברקע",
+            "en": "Our visit on Bishop Jordan Bridge with cathedral towers behind",
+            "pl": "Nasza wizyta na moście biskupa Jordana z wieżami katedry w tle",
+            "de": "Unser Besuch auf der Bischof-Jordan-Brücke mit Domtürmen im Hintergrund",
+            "cs": "Naše návštěva mostu biskupa Jordána s věžemi katedrály v pozadí"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "482dd8a13b6b1b9e1f95544d244ec81c082dfeab695372c65e30b62a5c749e3a",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הגשר לאי הקתרדלות.JPG"
+        },
+        "/assets/poznan/source-025.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גשר ירדן בפוטזנן.JPG",
+          "sourceSHA256": "59dd5bcd42d23befc997f270bff0848ee71769821f6c9b38bff79d81cc7c5b1f",
+          "assetSHA256": "31ef75e0aa95be7c63a120b309885ed34664762af8a3c14baad875752911f9de",
+          "alt": {
+            "he": "תצלום הביקור שלנו על גשר ירדן, עם צריחי הקתדרלה ברקע",
+            "en": "Our visit on Bishop Jordan Bridge with cathedral towers behind",
+            "pl": "Nasza wizyta na moście biskupa Jordana z wieżami katedry w tle",
+            "de": "Unser Besuch auf der Bischof-Jordan-Brücke mit Domtürmen im Hintergrund",
+            "cs": "Naše návštěva mostu biskupa Jordána s věžemi katedrály v pozadí"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "59dd5bcd42d23befc997f270bff0848ee71769821f6c9b38bff79d81cc7c5b1f",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גשר ירדן בפוטזנן.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-073.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/441767434",
+        "precisionNote": "Named bridge centre from OpenStreetMap, corroborated by official regional tourism",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://wielkopolska.travel/en/srodka-and-malta/",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poznan-srodka-mural",
+    "localName": "Mural na Śródce",
+    "name": {
+      "he": "ציור הקיר בשרודקה",
+      "en": "Śródka mural",
+      "pl": "Mural na Śródce",
+      "de": "Śródka-Wandbild",
+      "cs": "Nástěnná malba ve Śródce"
+    },
+    "description": {
+      "he": "ציור הקיר התלת־ממדי הוא נקודת סיום צבעונית להליכה בשרודקה. חפשו את הפרטים המצוירים בחזית והקדישו זמן גם לרחובות שסביבו.",
+      "en": "The three-dimensional mural makes a colourful ending to the Śródka walk. Look for the painted details and allow time for the surrounding streets.",
+      "pl": "Trójwymiarowy mural to barwne zakończenie spaceru po Śródce. Obejrzyj namalowane detale i zostaw czas na okoliczne uliczki.",
+      "de": "Das dreidimensionale Wandbild bildet einen farbenfrohen Abschluss in Śródka. Auf die gemalten Details achten und auch die umliegenden Straßen erkunden.",
+      "cs": "Trojrozměrná malba je barevným zakončením procházky Śródkou. Prohlédněte si malované detaily a ponechte čas i na okolní ulice."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Śródka 3",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4112909,
+        "lng": 16.9533278
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://wielkopolska.travel/en/srodka-and-malta/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4112909%2C16.9533278"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-011.jpg",
+        "/assets/poznan/source-071.jpg",
+        "/assets/poznan/source-007.jpg",
+        "/assets/poznan/source-070.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-011.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/המיוראל בשרוקה.JPG",
+          "sourceSHA256": "debb895f39bdc15cd66f911a6762f2e48a98efae7a5aa9e4a5c3ef79aa102148",
+          "assetSHA256": "fdc9c62d99767e8702eff87aa18a73d58e989b7bab0951886d79839c9be0172a",
+          "alt": {
+            "he": "ציור הקיר בשרודקה",
+            "en": "Śródka mural",
+            "pl": "Mural na Śródce",
+            "de": "Śródka-Wandbild",
+            "cs": "Nástěnná malba ve Śródce"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המיוראל בשרוקה.JPG"
+        },
+        "/assets/poznan/source-071.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/המיוראל בשרודקה 2.JPG",
+          "sourceSHA256": "a030dd2fef292d7e0128b94d8ddea9f8111247efa97491d2568c85c2234c15c9",
+          "assetSHA256": "5cc3fd39be80c3ae9bc95e6adc9267e76ce1075ea1e520ee0eda871359a488f4",
+          "alt": {
+            "he": "ציור הקיר בשרודקה",
+            "en": "Śródka mural",
+            "pl": "Mural na Śródce",
+            "de": "Śródka-Wandbild",
+            "cs": "Nástěnná malba ve Śródce"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המיוראל בשרודקה 2.JPG"
+        },
+        "/assets/poznan/source-007.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רייצל במיוראל בשרוקה.JPG",
+          "sourceSHA256": "320ab4ff87aa5bf5381bee5b6438ec46087c7ce29410a406edf12cb22e39df39",
+          "assetSHA256": "9f0960aed6ebbc05d7e41fb16834a68c7d5767e9d766c871ddc7a6e27686ec28",
+          "alt": {
+            "he": "תצלום הביקור שלנו מול ציור הקיר בשרודקה",
+            "en": "Our visit in front of the Śródka mural",
+            "pl": "Nasza wizyta przed muralem na Śródce",
+            "de": "Unser Besuch vor dem Wandbild in Śródka",
+            "cs": "Naše návštěva před nástěnnou malbou ve Śródce"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "320ab4ff87aa5bf5381bee5b6438ec46087c7ce29410a406edf12cb22e39df39",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל במיוראל בשרוקה.JPG"
+        },
+        "/assets/poznan/source-070.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/המיוראל בשרודקה.JPG",
+          "sourceSHA256": "73c954c472f66ff8720b000249e83c3f6ef3fa239c92e7e15d7e12b45098acdf",
+          "assetSHA256": "6ab36edc45e6ac09b4bb334b0c32dffd3bbe9d205d474c760643fa2369f06cf1",
+          "alt": {
+            "he": "תצלום הביקור שלנו מול ציור הקיר בשרודקה",
+            "en": "Our visit in front of the Śródka mural",
+            "pl": "Nasza wizyta przed muralem na Śródce",
+            "de": "Unser Besuch vor dem Wandbild in Śródka",
+            "cs": "Naše návštěva před nástěnnou malbou ve Śródce"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "73c954c472f66ff8720b000249e83c3f6ef3fa239c92e7e15d7e12b45098acdf",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המיוראל בשרודקה.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-011.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/238466003",
+        "precisionNote": "Building footprint centre at Srodka3; address verified in city tourism street-art map, not a measured mural entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://wielkopolska.travel/en/srodka-and-malta/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://visitpoznan.pl/storage/editor/mapa-z-bliska-z-daleka.pdf",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poznan-stary-browar",
+    "localName": "Stary Browar",
+    "name": {
+      "he": "סטארי ברובאר",
+      "en": "Stary Browar",
+      "pl": "Stary Browar",
+      "de": "Stary Browar",
+      "cs": "Stary Browar"
+    },
+    "description": {
+      "he": "מתחם המבשלה לשעבר מציע עצירה לאדריכלות, קניות ומנוחה. אפשר לשלבו לפי הזמן שנותר, בלי להפוך אותו לתחנת חובה בהליכה.",
+      "en": "The former brewery offers an architecture, shopping or rest stop. Add it if time allows; it is not a compulsory stop on the walk.",
+      "pl": "Dawny browar to miejsce na architekturę, zakupy lub odpoczynek. Dodaj go w miarę czasu; nie jest obowiązkowym punktem spaceru.",
+      "de": "Die frühere Brauerei bietet Architektur, Einkaufsmöglichkeiten und eine Pause. Je nach Zeit ergänzen; kein Pflichtstopp des Rundgangs.",
+      "cs": "Bývalý pivovar nabízí architekturu, nákupy i odpočinek. Přidejte jej podle času; není povinnou zastávkou procházky."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Półwiejska 42",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4011751,
+        "lng": 16.9280301
+      }
+    },
+    "categories": [
+      "shopping"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://visitpoznan.pl/en/poznan-old-brewery",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4011751%2C16.9280301"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-013.jpg",
+        "/assets/poznan/source-041.jpg",
+        "/assets/poznan/source-008.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-013.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/קניון ברובאר.jpg",
+          "sourceSHA256": "4df8ae1d454476b27de4c441c5930f092cabfec883833864f708258f165acf09",
+          "assetSHA256": "cbeeb3e5149a4f090733a626d509680472bbf3b17bc3b9c77d062ed527a56b95",
+          "alt": {
+            "he": "סטארי ברובאר",
+            "en": "Stary Browar",
+            "pl": "Stary Browar",
+            "de": "Stary Browar",
+            "cs": "Stary Browar"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קניון ברובאר.jpg"
+        },
+        "/assets/poznan/source-041.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/ניון ברובאר.JPG",
+          "sourceSHA256": "5e0d97b8e79d6cf66d09b64175038e7b56372b65eee13a4a380d8fd8ae923358",
+          "assetSHA256": "2fe52f30f309a16be0b63ac23878445af520e018b10143c5eec2f36079824d20",
+          "alt": {
+            "he": "סטארי ברובאר",
+            "en": "Stary Browar",
+            "pl": "Stary Browar",
+            "de": "Stary Browar",
+            "cs": "Stary Browar"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ניון ברובאר.JPG"
+        },
+        "/assets/poznan/source-008.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רייצל בקניון ברובאר.jpg",
+          "sourceSHA256": "8141b515600c7180482e670c2af4a9505a51c0afb7ed6043e0c5f66a3cb694f0",
+          "assetSHA256": "00f9568daa03570de702ca4621a6d3c0723062299c56697cd37a947a67da284e",
+          "alt": {
+            "he": "סלפי מביקור בחלל הקניון, לפי זיהוי המשתמש",
+            "en": "Visit selfie inside the shopping centre, identified by the user",
+            "pl": "Selfie z wizyty we wnętrzu centrum, wskazanego przez użytkownika",
+            "de": "Besuchs-Selfie im vom Nutzer benannten Einkaufszentrum",
+            "cs": "Selfie z návštěvy uvnitř obchodního centra určeného uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "8141b515600c7180482e670c2af4a9505a51c0afb7ed6043e0c5f66a3cb694f0",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל בקניון ברובאר.jpg"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-013.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://visitpoznan.pl/en/poznan-old-brewery",
+        "precisionNote": "City tourism linked StaryBrowar POI",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://visitpoznan.pl/en/poznan-old-brewery",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "charlotte-poznan-krysiewicza",
+    "localName": "Charlotte Poznań",
+    "name": {
+      "he": "שרלוט בפוזנן",
+      "en": "Charlotte, Poznań",
+      "pl": "Charlotte w Poznaniu",
+      "de": "Charlotte in Poznań",
+      "cs": "Charlotte v Poznani"
+    },
+    "description": {
+      "he": "אפשרות לקפה, מאפים או ארוחת בוקר בסניף פוזנן של שרלוט. בחרו בהפסקה שמתאימה ליום שלכם ובדקו את התפריט והפתיחה באתר הסניף.",
+      "en": "A coffee, pastry or breakfast option at Charlotte’s Poznań branch. Choose a break that suits your day and check the branch menu and opening.",
+      "pl": "Kawa, wypieki lub śniadanie w poznańskiej Charlotte. Wybierz przerwę pasującą do planu dnia i sprawdź menu oraz otwarcie lokalu.",
+      "de": "Kaffee, Gebäck oder Frühstück in der Poznańer Charlotte-Filiale. Eine passende Pause wählen und Speisekarte sowie Öffnung der Filiale prüfen.",
+      "cs": "Možnost kávy, pečiva nebo snídaně v poznaňské pobočce Charlotte. Vyberte přestávku podle svého dne a ověřte menu a otevření pobočky."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Krysiewicza 3a/27",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4039273,
+        "lng": 16.9294221
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://bistrocharlotte.com/pl/lokale/charlotte-krysiewicza-poznan/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4039273%2C16.9294221"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-044.jpg",
+        "/assets/poznan/source-045.jpg",
+        "/assets/poznan/source-046.jpg",
+        "/assets/poznan/source-024.jpg",
+        "/assets/poznan/source-027.jpg",
+        "/assets/poznan/source-028.jpg",
+        "/assets/poznan/source-136.jpg",
+        "/assets/poznan/source-023.jpg",
+        "/assets/poznan/source-109.jpg",
+        "/assets/poznan/source-110.jpg",
+        "/assets/poznan/source-111.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-044.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/קפה שרךוט 120.JPG",
+          "sourceSHA256": "30cbb9e1fc7a255493f519dc4a9c769e4e049797a7d03ae8ba9f012a8c0795c0",
+          "assetSHA256": "9d20ff3a78b2650f692b09e11bbdf71dfbb13036eba968722a07b8ee40407c92",
+          "alt": {
+            "he": "שרלוט בפוזנן",
+            "en": "Charlotte, Poznań",
+            "pl": "Charlotte w Poznaniu",
+            "de": "Charlotte in Poznań",
+            "cs": "Charlotte v Poznani"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרךוט 120.JPG"
+        },
+        "/assets/poznan/source-045.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/קפה שרלךוט 109.JPG",
+          "sourceSHA256": "1e41eb3d1afb464725eec23f2a8b51075bdcd8f78e6e6980a92a06b533e51579",
+          "assetSHA256": "7f9087480a7e90facccdb987bedd150c50ebe2b9214500e3534bbc5c98cd8f2b",
+          "alt": {
+            "he": "שרלוט בפוזנן",
+            "en": "Charlotte, Poznań",
+            "pl": "Charlotte w Poznaniu",
+            "de": "Charlotte in Poznań",
+            "cs": "Charlotte v Poznani"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרלךוט 109.JPG"
+        },
+        "/assets/poznan/source-046.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/קפה שרךלוט 56.JPG",
+          "sourceSHA256": "975fbcdd1c2cd46598550d2a160e807802a560452dc33894f0505682a509d267",
+          "assetSHA256": "5b24d2a1a367e49e11f03fe19291bd85718d639f4b5f74995b9b83f3af7546ae",
+          "alt": {
+            "he": "שרלוט בפוזנן",
+            "en": "Charlotte, Poznań",
+            "pl": "Charlotte w Poznaniu",
+            "de": "Charlotte in Poznań",
+            "cs": "Charlotte v Poznani"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרךלוט 56.JPG"
+        },
+        "/assets/poznan/source-024.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גיל ורייצל קפה שרלוט .JPG",
+          "sourceSHA256": "6ae30f681c329bc1791f3b532829813d93dad78612e8d1ba7adfea660dfbbe5c",
+          "assetSHA256": "989f6bc60e253a3f2de5fa6d3b4db9e2f1020b09cf2c9cfae2cb4418beda7bf3",
+          "alt": {
+            "he": "צילום הביקור והאוכל שלנו בבית הקפה, לפי זיהוי המשתמש",
+            "en": "Our café visit and food photograph, identified by the user",
+            "pl": "Nasze zdjęcie z wizyty i jedzenia w kawiarni wskazanej przez użytkownika",
+            "de": "Unser Besuchs- und Speisefoto im vom Nutzer benannten Café",
+            "cs": "Naše fotografie z návštěvy a jídla v kavárně určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "6ae30f681c329bc1791f3b532829813d93dad78612e8d1ba7adfea660dfbbe5c",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל ורייצל קפה שרלוט .JPG"
+        },
+        "/assets/poznan/source-027.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גיל ורייצל בשרלוט.JPG",
+          "sourceSHA256": "90a23b0e34919c0c8be8c8680ffe46c28f1b22620cf7aa7470d6128062dc977a",
+          "assetSHA256": "898cb0001a44949e38ff70f99b24b5aa42fc8474b62548b0612e69307488efaf",
+          "alt": {
+            "he": "צילום הביקור והאוכל שלנו בבית הקפה, לפי זיהוי המשתמש",
+            "en": "Our café visit and food photograph, identified by the user",
+            "pl": "Nasze zdjęcie z wizyty i jedzenia w kawiarni wskazanej przez użytkownika",
+            "de": "Unser Besuchs- und Speisefoto im vom Nutzer benannten Café",
+            "cs": "Naše fotografie z návštěvy a jídla v kavárně určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "90a23b0e34919c0c8be8c8680ffe46c28f1b22620cf7aa7470d6128062dc977a",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל ורייצל בשרלוט.JPG"
+        },
+        "/assets/poznan/source-028.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גיל ורייצל בקפה שרלוט 8.JPG",
+          "sourceSHA256": "7e77cdefa4fbb002f4e6d7a66deedf6f6bcff92eccc4ed10f1ff7c3bdb4cb742",
+          "assetSHA256": "acf38f94405fafd77b8b82f438b253d3c9ce066ee0336d1099391df7e683c9c9",
+          "alt": {
+            "he": "צילום הביקור והאוכל שלנו בבית הקפה, לפי זיהוי המשתמש",
+            "en": "Our café visit and food photograph, identified by the user",
+            "pl": "Nasze zdjęcie z wizyty i jedzenia w kawiarni wskazanej przez użytkownika",
+            "de": "Unser Besuchs- und Speisefoto im vom Nutzer benannten Café",
+            "cs": "Naše fotografie z návštěvy a jídla v kavárně určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "7e77cdefa4fbb002f4e6d7a66deedf6f6bcff92eccc4ed10f1ff7c3bdb4cb742",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל ורייצל בקפה שרלוט 8.JPG"
+        },
+        "/assets/poznan/source-136.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בית קפה בפוזנן שרלוט הפרטים .JPG",
+          "sourceSHA256": "daca095f78672f5db784c62df26810f7e73d4cafc41641154984f7405980ff4d",
+          "assetSHA256": "fe2688e745b5e3598917fcf5f0f1962922ec4f03cc1e51fd7ad084b1dc78d190",
+          "alt": {
+            "he": "צילום הביקור והאוכל שלנו בבית הקפה, לפי זיהוי המשתמש",
+            "en": "Our café visit and food photograph, identified by the user",
+            "pl": "Nasze zdjęcie z wizyty i jedzenia w kawiarni wskazanej przez użytkownika",
+            "de": "Unser Besuchs- und Speisefoto im vom Nutzer benannten Café",
+            "cs": "Naše fotografie z návštěvy a jídla v kavárně určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "daca095f78672f5db784c62df26810f7e73d4cafc41641154984f7405980ff4d",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית קפה בפוזנן שרלוט הפרטים .JPG"
+        },
+        "/assets/poznan/source-023.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רייצל בשרלוט פוזנן.JPG",
+          "sourceSHA256": "2af60865e71e9b4896c9def81e159f9303b7524aadd2c52906bfe249fbbc14e1",
+          "assetSHA256": "e30390f5cca5ebbebfaa53ca8ea0c95991084f39a65a96acb8a35e9c52097eb2",
+          "alt": {
+            "he": "צילום הביקור והאוכל שלנו בבית הקפה, לפי זיהוי המשתמש",
+            "en": "Our café visit and food photograph, identified by the user",
+            "pl": "Nasze zdjęcie z wizyty i jedzenia w kawiarni wskazanej przez użytkownika",
+            "de": "Unser Besuchs- und Speisefoto im vom Nutzer benannten Café",
+            "cs": "Naše fotografie z návštěvy a jídla v kavárně určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "2af60865e71e9b4896c9def81e159f9303b7524aadd2c52906bfe249fbbc14e1",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל בשרלוט פוזנן.JPG"
+        },
+        "/assets/poznan/source-109.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/שרלוט קפה פוזנן.JPG",
+          "sourceSHA256": "ba3f7a1dcd16400ae5a2e0171a6ffadd4ac3829f5a4d4d70f3197369e783d22c",
+          "assetSHA256": "840bb3054291ff68a654a8819fe1f30c9e03445488bc4f2f03eb594877417dc6",
+          "alt": {
+            "he": "צילום הביקור והאוכל שלנו בבית הקפה, לפי זיהוי המשתמש",
+            "en": "Our café visit and food photograph, identified by the user",
+            "pl": "Nasze zdjęcie z wizyty i jedzenia w kawiarni wskazanej przez użytkownika",
+            "de": "Unser Besuchs- und Speisefoto im vom Nutzer benannten Café",
+            "cs": "Naše fotografie z návštěvy a jídla v kavárně určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "ba3f7a1dcd16400ae5a2e0171a6ffadd4ac3829f5a4d4d70f3197369e783d22c",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/שרלוט קפה פוזנן.JPG"
+        },
+        "/assets/poznan/source-110.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/יל בקפה שרךוט בפזונן.JPG",
+          "sourceSHA256": "be77fd7d86f4f7741090ac78109f6984c4008ad70cc9a4fbf809d32b6ddc06c2",
+          "assetSHA256": "22a9a8cf71595b1b045460d21771ac16c010c361ea683355a4c8b864d22a0710",
+          "alt": {
+            "he": "צילום הביקור והאוכל שלנו בבית הקפה, לפי זיהוי המשתמש",
+            "en": "Our café visit and food photograph, identified by the user",
+            "pl": "Nasze zdjęcie z wizyty i jedzenia w kawiarni wskazanej przez użytkownika",
+            "de": "Unser Besuchs- und Speisefoto im vom Nutzer benannten Café",
+            "cs": "Naše fotografie z návštěvy a jídla v kavárně určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "be77fd7d86f4f7741090ac78109f6984c4008ad70cc9a4fbf809d32b6ddc06c2",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יל בקפה שרךוט בפזונן.JPG"
+        },
+        "/assets/poznan/source-111.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/קפה שרלוט בפוזנן.JPG",
+          "sourceSHA256": "53c4b82b5525a2d6cb2866cd6dfded2e9407f85394974b25601eb26b56364f57",
+          "assetSHA256": "f911026463f05dca8c5ae75413181392a8dee8c32a03beab12336be0648eccc9",
+          "alt": {
+            "he": "צילום הביקור והאוכל שלנו בבית הקפה, לפי זיהוי המשתמש",
+            "en": "Our café visit and food photograph, identified by the user",
+            "pl": "Nasze zdjęcie z wizyty i jedzenia w kawiarni wskazanej przez użytkownika",
+            "de": "Unser Besuchs- und Speisefoto im vom Nutzer benannten Café",
+            "cs": "Naše fotografie z návštěvy a jídla v kavárně určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "53c4b82b5525a2d6cb2866cd6dfded2e9407f85394974b25601eb26b56364f57",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרלוט בפוזנן.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-044.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://visitpoznan.pl/en/charlotte-en",
+        "precisionNote": "City tourism linked exact Charlotte branch POI, address corroborated by owner",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://bistrocharlotte.com/pl/lokale/charlotte-krysiewicza-poznan/",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pierozak-polwiejska-poznan",
+    "localName": "Pierożak Pierogarnia Półwiejska",
+    "name": {
+      "he": "פירוז׳אק ברחוב פולווייסקה",
+      "en": "Pierożak on Półwiejska",
+      "pl": "Pierożak przy Półwiejskiej",
+      "de": "Pierożak an der Półwiejska",
+      "cs": "Pierożak v ulici Półwiejska"
+    },
+    "description": {
+      "he": "עצירה לארוחת כיסונים ברחוב פולווייסקה. במהלך הביקור צילמנו כאן את הכנת הכיסונים. בדקו תפריט ופתיחה באתר הרשת.",
+      "en": "A pierogi stop on Półwiejska. We filmed dumplings being prepared here during our visit. Check the menu and opening on the chain’s website.",
+      "pl": "Przystanek na pierogi przy Półwiejskiej. Podczas wizyty nagraliśmy tu ich przygotowywanie. Menu i otwarcie sprawdź na stronie sieci.",
+      "de": "Eine Pierogi-Pause an der Półwiejska. Bei unserem Besuch filmten wir hier die Zubereitung. Speisekarte und Öffnung auf der Website der Kette prüfen.",
+      "cs": "Zastávka na pirohy v ulici Półwiejska. Při návštěvě jsme zde natáčeli jejich přípravu. Menu a otevření ověřte na webu řetězce."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Półwiejska 10",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4037688,
+        "lng": 16.9302234
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://pierozak.com/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4037688%2C16.9302234"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/pierozak-source021-frame-2s.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=yQAjgU1Ys0Q"
+      ],
+      "metadata": {
+        "/assets/poznan/pierozak-source021-frame-2s.jpg": {
+          "original": false,
+          "sourceFile": "פוזנן/מכיניםפ פירוגי בפוזנן.MP4",
+          "sourceSHA256": "2c68b9c1338c8cd3eaf05309ac5079abc89601f81e68535f28d2b79e21984a0e",
+          "assetSHA256": "937b26deececb1ea0f14d7620858d6d7d13ec5e6a1e6bc71d9f5e90806c7af35",
+          "alt": {
+            "he": "פירוז׳אק ברחוב פולווייסקה",
+            "en": "Pierożak on Półwiejska",
+            "pl": "Pierożak przy Półwiejskiej",
+            "de": "Pierożak an der Półwiejska",
+            "cs": "Pierożak v ulici Półwiejska"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "derivation": {
+            "type": "exact-video-frame",
+            "timeSeconds": 2,
+            "fullFrame": true,
+            "crop": false,
+            "AI": false
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מכיניםפ פירוגי בפוזנן.MP4"
+        },
+        "https://www.youtube.com/watch?v=yQAjgU1Ys0Q": {
+          "title": {
+            "he": "הכנת פירוגי בפירוז׳אק",
+            "en": "Preparing pierogi at Pierożak",
+            "pl": "Przygotowanie pierogów w Pierożaku",
+            "de": "Pierogi-Zubereitung bei Pierożak",
+            "cs": "Příprava pierogů v Pierożaku"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מכיניםפ פירוגי בפוזנן.MP4",
+          "sourceSHA256": "2c68b9c1338c8cd3eaf05309ac5079abc89601f81e68535f28d2b79e21984a0e",
+          "durationSeconds": 16.568345,
+          "originalPictureUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-27T17:28:02.196139+00:00",
+          "personalMediaApproval": "Explicit all Poznan folder approval",
+          "reuseSourceIndices": [
+            21
+          ]
+        }
+      },
+      "thumbnail": "/assets/poznan/pierozak-source021-frame-2s.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/5469806288",
+        "precisionNote": "Named restaurant POI at owner-verified Polwiejska10",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://pierozak.com/",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "pyraland-poznan",
+    "localName": "Pyraland",
+    "name": {
+      "he": "פיראלנד",
+      "en": "Pyraland",
+      "pl": "Pyraland",
+      "de": "Pyraland",
+      "cs": "Pyraland"
+    },
+    "description": {
+      "he": "אפשרות לארוחה עם מנות תפוחי אדמה, מתוך הביקור שלנו בפוזנן. בדקו את התפריט והפתיחה מול העסק לפני ההגעה.",
+      "en": "A potato-dish meal option from our Poznań visit. Check the menu and opening directly with the business before you go.",
+      "pl": "Opcja na dania ziemniaczane z naszej wizyty w Poznaniu. Przed przyjściem sprawdź menu i otwarcie bezpośrednio w lokalu.",
+      "de": "Eine Option für Kartoffelgerichte aus unserem Besuch in Poznań. Speisekarte und Öffnung vor dem Besuch direkt beim Lokal prüfen.",
+      "cs": "Možnost bramborových pokrmů z naší návštěvy Poznaně. Menu a otevření před návštěvou ověřte přímo u podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Półwiejska 39",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4013362,
+        "lng": 16.9287401
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://www.facebook.com/pyraland/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4013362%2C16.9287401"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-119.jpg",
+        "/assets/poznan/source-118.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-119.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/מסעדת פירה בפוזנן.JPG",
+          "sourceSHA256": "63407eb8e7eb23fe809ed84ec024b057e7243598834457f16d7f0035b083141f",
+          "assetSHA256": "32ac5e52b4af68a5ac18e16ba856aa8c9899d800f6ef8d0afa81532279ee99f1",
+          "alt": {
+            "he": "פיראלנד",
+            "en": "Pyraland",
+            "pl": "Pyraland",
+            "de": "Pyraland",
+            "cs": "Pyraland"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; original preserved; exact place grouping verified. Personal body context permitted only under recorded exact human approval.",
+          "exactImageHumanApproval": {
+            "questionId": "call_6cc8b5fc69114799b60bc68944e8606f",
+            "questionItemIndex": 0,
+            "scope": "Exact shown photograph approved by human for website publication; no broader approval",
+            "sourceSHA256": "63407eb8e7eb23fe809ed84ec024b057e7243598834457f16d7f0035b083141f",
+            "date": "2026-10-27"
+          },
+          "approvedPartialDinerBody": true,
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסעדת פירה בפוזנן.JPG"
+        },
+        "/assets/poznan/source-118.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/אוכלים בפזונן במסעדת פירה.JPG",
+          "sourceSHA256": "6af7901516d59ffe321c19d044766bc7c265c1c1ea80f9aa0c34fb592c70b94b",
+          "assetSHA256": "f4d5ed7f060f13375f78ea49a23e7033924047b17efab35ad5022ed8cd69147a",
+          "alt": {
+            "he": "פיראלנד",
+            "en": "Pyraland",
+            "pl": "Pyraland",
+            "de": "Pyraland",
+            "cs": "Pyraland"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/אוכלים בפזונן במסעדת פירה.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-119.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://www.google.com/maps/search/?api=1&query=Pyraland+Pozna%C5%84",
+        "precisionNote": "Exact user-provided Google place POI, not viewport centre",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://www.facebook.com/pyraland/",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "stary-mlyn-zamkowa-poznan",
+    "localName": "Pierogarnia Stary Młyn Poznań",
+    "name": {
+      "he": "סטארי מלין בפוזנן",
+      "en": "Stary Młyn, Poznań",
+      "pl": "Stary Młyn w Poznaniu",
+      "de": "Stary Młyn in Poznań",
+      "cs": "Stary Młyn v Poznani"
+    },
+    "description": {
+      "he": "אפשרות נוספת לארוחת כיסונים ליד העיר העתיקה. זו המלצה של גיל על הרשת; בסניף פוזנן טרם אכלנו. בדקו תפריט ופתיחה באתר הסניף.\nתמונת הרשת צולמה בסניף לודז׳, ולא בסניף פוזנן.",
+      "en": "Another pierogi option near the Old Town. Gil recommends the chain; we have not eaten at this Poznań branch. Check the menu and opening on the branch website.\nThe chain photograph was taken at its Łódź branch, not at its Poznań branch.",
+      "pl": "Kolejna opcja na pierogi przy Starym Mieście. Gil poleca sieć; w poznańskim lokalu jeszcze nie jedliśmy. Sprawdź menu i otwarcie na stronie lokalu.\nZdjęcie sieci wykonano w lokalu w Łodzi, nie w oddziale w Poznaniu.",
+      "de": "Eine weitere Pierogi-Option bei der Altstadt. Gil empfiehlt die Kette; in dieser Poznańer Filiale haben wir noch nicht gegessen. Speisekarte und Öffnung auf der Filialseite prüfen.\nDas Foto der Kette entstand in der Filiale Łódź, nicht in Poznań.",
+      "cs": "Další možnost pirohů u Starého Města. Gil doporučuje řetězec; v této poznaňské pobočce jsme ještě nejedli. Menu a otevření ověřte na webu pobočky.\nFotografie řetězce pochází z pobočky v Lodži, nikoli z pobočky v Poznani."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Zamkowa 7",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.408989,
+        "lng": 16.93214
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://www.pierogarnie.com/restauracje/stary-mlyn-poznan/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.408989%2C16.93214"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/stary-mlyn-lodz-source100.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/stary-mlyn-lodz-source100.jpg": {
+          "original": true,
+          "sourceFile": "לודז/WhatsApp Image 2026-09-24 at 19.02.02 (10).jpeg",
+          "sourceSHA256": "ffbe5016a1a8420191854fba596f6d3f73d6f61f966f5508ea0e0ade4a405fc3",
+          "assetSHA256": "2d04a66591bb0e6a0668505978ac0aa4a0a13825ca01193ac9868dcf2f95a617",
+          "alt": {
+            "he": "חזית ושולחנות הרשת בצילום מסניף לודז׳, לא מסניף פוזנן",
+            "en": "Chain storefront and terrace photographed at the Łódź branch, not the Poznań branch",
+            "pl": "Fasada i ogródek sieci na zdjęciu z Łodzi, nie z oddziału w Poznaniu",
+            "de": "Fassade und Terrasse der Kette in der Filiale Łódź, nicht in Poznań",
+            "cs": "Průčelí a zahrádka řetězce na snímku z pobočky v Lodži, nikoli v Poznani"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "Explicit user approval of exact Lodz100 including diner forPoznancard",
+            "call": "call_ccf28d42da6144a5b19df75579f0b9bd",
+            "scope": "This exactLodzphoto only",
+            "sourceSHA256": "ffbe5016a1a8420191854fba596f6d3f73d6f61f966f5508ea0e0ade4a405fc3",
+            "date": "2026-10-27"
+          }
+        }
+      },
+      "thumbnail": "/assets/poznan/stary-mlyn-lodz-source100.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://www.pierogarnie.com/restauracje/stary-mlyn-poznan/",
+        "precisionNote": "Owner marker data-lat/data-lng for Zamkowa7",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://www.pierogarnie.com/restauracje/stary-mlyn-poznan/",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "nifty-puro-poznan",
+    "localName": "Nifty, PURO Poznań",
+    "name": {
+      "he": "ניפטי, המסעדה במלון פורו",
+      "en": "Nifty at PURO Poznań",
+      "pl": "Nifty w PURO Poznań",
+      "de": "Nifty im PURO Poznań",
+      "cs": "Nifty v hotelu PURO Poznań"
+    },
+    "description": {
+      "he": "המסעדה שבתוך מלון פורו, שבה צולמו המנות והכלים המעוצבים מהביקור. אפשרות לארוחה גם בלי לינה במלון. בדקו תפריט והזמנת שולחן באתר המסעדה.",
+      "en": "The restaurant inside PURO, where the dishes and distinctive tableware from the visit were photographed. A meal option without an overnight stay. Check the menu and table booking on the restaurant website.",
+      "pl": "Restauracja w hotelu PURO, gdzie sfotografowano potrawy i charakterystyczną zastawę z wizyty. Opcja na posiłek bez noclegu. Menu i rezerwację stolika sprawdź na stronie restauracji.",
+      "de": "Das Restaurant im PURO, in dem die Gerichte und das markante Geschirr des Besuchs fotografiert wurden. Essensoption auch ohne Übernachtung. Speisekarte und Tischreservierung auf der Restaurantseite prüfen.",
+      "cs": "Restaurace uvnitř hotelu PURO, kde byly vyfotografovány pokrmy a výrazné nádobí z návštěvy. Možnost jídla i bez noclehu. Menu a rezervaci stolu ověřte na webu restaurace."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Stawna 12",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4107082,
+        "lng": 16.9345757
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://purohotels.com/pl/poznan/restauracja/nifty-no-20",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4107082%2C16.9345757"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-127.jpg",
+        "/assets/poznan/source-122.jpg",
+        "/assets/poznan/source-123.jpg",
+        "/assets/poznan/source-124.jpg",
+        "/assets/poznan/source-126.jpg",
+        "/assets/poznan/source-128.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-127.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/ניפטי במלון פורו אוכל .JPG",
+          "sourceSHA256": "aadb8ca53ebb281aad5b9db716e793720f935951e9326baa4b0df2977df95d52",
+          "assetSHA256": "3ede8aff22151c776dca700169a890a34c21455d484a358c19630c0790fa801c",
+          "alt": {
+            "he": "ניפטי, המסעדה במלון פורו",
+            "en": "Nifty at PURO Poznań",
+            "pl": "Nifty w PURO Poznań",
+            "de": "Nifty im PURO Poznań",
+            "cs": "Nifty v hotelu PURO Poznań"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ניפטי במלון פורו אוכל .JPG"
+        },
+        "/assets/poznan/source-122.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/סכום במלון ניפטי פורו פוזנן.JPG",
+          "sourceSHA256": "74091a2f337674cfab51020d53f268dcd1219c4afbb02a09b0c4cd353006e38d",
+          "assetSHA256": "2f8ca7f0b9a2157eb2f6b892cebae75ffbbd8402a735d4ef471eb58b415f9f1e",
+          "alt": {
+            "he": "ניפטי, המסעדה במלון פורו",
+            "en": "Nifty at PURO Poznań",
+            "pl": "Nifty w PURO Poznań",
+            "de": "Nifty im PURO Poznań",
+            "cs": "Nifty v hotelu PURO Poznań"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/סכום במלון ניפטי פורו פוזנן.JPG"
+        },
+        "/assets/poznan/source-123.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/כלים במסעדת ניפטי מלון פורו.JPG",
+          "sourceSHA256": "5e86c2849e7a5cbff28ecaace5d18e3c29e129436f95f33e2c32b07a3f3d16ff",
+          "assetSHA256": "1992feacdcfb10c6c3c99ab7b6e7291b97de32670d89df2430a4f25695ecaddf",
+          "alt": {
+            "he": "ניפטי, המסעדה במלון פורו",
+            "en": "Nifty at PURO Poznań",
+            "pl": "Nifty w PURO Poznań",
+            "de": "Nifty im PURO Poznań",
+            "cs": "Nifty v hotelu PURO Poznań"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כלים במסעדת ניפטי מלון פורו.JPG"
+        },
+        "/assets/poznan/source-124.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/מסעדת ניפטי מלון פורו כלים.JPG",
+          "sourceSHA256": "a4f0a600a09811c81b4fd906fe2536a2fd8852e720ee57fbe8d71e76b8e37075",
+          "assetSHA256": "ed66c77efc2afd300be312eeb96295ceb83c3e31280fbedbd6e4169fa51eee4c",
+          "alt": {
+            "he": "ניפטי, המסעדה במלון פורו",
+            "en": "Nifty at PURO Poznań",
+            "pl": "Nifty w PURO Poznań",
+            "de": "Nifty im PURO Poznań",
+            "cs": "Nifty v hotelu PURO Poznań"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסעדת ניפטי מלון פורו כלים.JPG"
+        },
+        "/assets/poznan/source-126.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/מסעדת ניפטי מלון פורו.JPG",
+          "sourceSHA256": "90883024f39f3f478b8d0822686a6dc5f6cfd3748deafae3022af9172527478f",
+          "assetSHA256": "5f4dc7d4c0a37557c83e86a3f2a7b7d6805fb5bb85a072aca7b92c8bef2f52d4",
+          "alt": {
+            "he": "ניפטי, המסעדה במלון פורו",
+            "en": "Nifty at PURO Poznań",
+            "pl": "Nifty w PURO Poznań",
+            "de": "Nifty im PURO Poznań",
+            "cs": "Nifty v hotelu PURO Poznań"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסעדת ניפטי מלון פורו.JPG"
+        },
+        "/assets/poznan/source-128.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/ניפטי במלון פורו.JPG",
+          "sourceSHA256": "5235baa0c0645c115b915dc50b94998ba4d0bb248aca01430eb72dbf3d8e774d",
+          "assetSHA256": "563db9ce34fbcbc23766c9a35f8e059671383b9bd7b5dc87eab0b3c8de82db8a",
+          "alt": {
+            "he": "ניפטי, המסעדה במלון פורו",
+            "en": "Nifty at PURO Poznań",
+            "pl": "Nifty w PURO Poznań",
+            "de": "Nifty im PURO Poznań",
+            "cs": "Nifty v hotelu PURO Poznań"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; original preserved; exact place grouping verified. Personal body context permitted only under recorded exact human approval.",
+          "exactImageHumanApproval": {
+            "questionId": "call_6cc8b5fc69114799b60bc68944e8606f",
+            "questionItemIndex": 1,
+            "scope": "Exact shown photograph approved by human for website publication; no broader approval",
+            "sourceSHA256": "5235baa0c0645c115b915dc50b94998ba4d0bb248aca01430eb72dbf3d8e774d",
+            "date": "2026-10-27"
+          },
+          "approvedPartialDinerBody": true,
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ניפטי במלון פורו.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-127.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://purohotels.com/pl/poznan/kontakt/",
+        "precisionNote": "Owner-linked hotel POI at Stawna12; restaurant separately identified inside hotel",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://purohotels.com/pl/poznan/restauracja/nifty-no-20",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "puro-poznan-stare-miasto",
+    "localName": "PURO Poznań Stare Miasto",
+    "name": {
+      "he": "מלון פורו פוזנן בעיר העתיקה",
+      "en": "PURO Poznań Stare Miasto",
+      "pl": "PURO Poznań Stare Miasto",
+      "de": "PURO Poznań Stare Miasto",
+      "cs": "PURO Poznań Stare Miasto"
+    },
+    "description": {
+      "he": "מלון מומלץ מאוד בפוזנן לפי הביקור של גיל. אפשרות למי שרוצה להישאר ללילה ליד העיר העתיקה. פרטי החדרים, הזמינות והמחיר נבדקים ישירות מול המלון.",
+      "en": "A hotel highly recommended by Gil following his visit. An option for staying overnight near the Old Town. Check room details, availability and rates directly with the hotel.",
+      "pl": "Hotel gorąco polecany przez Gila po jego pobycie. Opcja noclegu przy Starym Mieście. Szczegóły pokoi, dostępność i ceny sprawdź bezpośrednio w hotelu.",
+      "de": "Von Gil nach seinem Besuch sehr empfohlenes Hotel. Eine Übernachtungsoption bei der Altstadt. Zimmerdetails, Verfügbarkeit und Preise direkt beim Hotel prüfen.",
+      "cs": "Hotel vřele doporučený Gilem po návštěvě. Možnost noclehu u Starého Města. Podrobnosti pokojů, dostupnost a ceny ověřte přímo v hotelu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Stawna 12",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4107082,
+        "lng": 16.9345757
+      }
+    },
+    "categories": [
+      "hotel"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://purohotels.com/pl/poznan/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4107082%2C16.9345757"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-082.jpg",
+        "/assets/poznan/source-034.jpg",
+        "/assets/poznan/source-083.jpg",
+        "/assets/poznan/source-084.jpg",
+        "/assets/poznan/source-121.jpg",
+        "/assets/poznan/source-144.jpg",
+        "/assets/poznan/source-057.jpg",
+        "/assets/poznan/source-058.jpg",
+        "/assets/poznan/source-059.jpg",
+        "/assets/poznan/source-032.jpg",
+        "/assets/poznan/source-033.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-034.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/לובי בפורו פוזנן.JPG",
+          "sourceSHA256": "daf168da40b2444778a6c8b3b23f0968578925534a35bdcc5f26c1cb1b7e11bc",
+          "assetSHA256": "3d0b5770e472d95d69bfdf5e6686248f003322b61f2c5a14a74d8e69630ca0f9",
+          "alt": {
+            "he": "מלון פורו פוזנן בעיר העתיקה",
+            "en": "PURO Poznań Stare Miasto",
+            "pl": "PURO Poznań Stare Miasto",
+            "de": "PURO Poznań Stare Miasto",
+            "cs": "PURO Poznań Stare Miasto"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/לובי בפורו פוזנן.JPG"
+        },
+        "/assets/poznan/source-082.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/חזית מלון פורו.JPG",
+          "sourceSHA256": "ab09c9204a1c5dbaa6d3e820bf4f7d45b941fe279eadf2fd082598f5e465b379",
+          "assetSHA256": "d7ec0bf3f5124d3b82adc366da3e7e5c7b15c10b2b8c6b98bdf87b083d59e5d6",
+          "alt": {
+            "he": "מלון פורו פוזנן בעיר העתיקה",
+            "en": "PURO Poznań Stare Miasto",
+            "pl": "PURO Poznań Stare Miasto",
+            "de": "PURO Poznań Stare Miasto",
+            "cs": "PURO Poznań Stare Miasto"
+          },
+          "familyForeground": false,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/חזית מלון פורו.JPG"
+        },
+        "/assets/poznan/source-032.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גיל במלךון פורו פוזנן.JPG",
+          "sourceSHA256": "d3ffe9e73ee38f33e39e98168439a20a293edcfb6493aa081e4b3f227b45daa7",
+          "assetSHA256": "20d7b633ef1e0a13ba796458bc3dc0461c11b5b27a08e3f1ae46cb4e346ec587",
+          "alt": {
+            "he": "מלון פורו פוזנן בעיר העתיקה",
+            "en": "PURO Poznań Stare Miasto",
+            "pl": "PURO Poznań Stare Miasto",
+            "de": "PURO Poznań Stare Miasto",
+            "cs": "PURO Poznań Stare Miasto"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "מלון פורו יש תמונת חזית עם הרבה חלונות מלבניים ויש גם תמונות שלנו במסדרונות המלון עם המזוודות רשאי לפרסם",
+            "scope": "Exactly matched corridor photographs with luggage; no permission for other portraits",
+            "sourceSHA256": "d3ffe9e73ee38f33e39e98168439a20a293edcfb6493aa081e4b3f227b45daa7",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל במלךון פורו פוזנן.JPG"
+        },
+        "/assets/poznan/source-033.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גיל במלון פורו פוזנן 2.JPG",
+          "sourceSHA256": "f9dc812c82c8d7a60e6bef80ccb5e306f851a656ef0467cc77a07eb9538d520d",
+          "assetSHA256": "d4324c13627b5cf8de3d4fb010bf19ac65af84a7c786844ab5918c1ed418724d",
+          "alt": {
+            "he": "מלון פורו פוזנן בעיר העתיקה",
+            "en": "PURO Poznań Stare Miasto",
+            "pl": "PURO Poznań Stare Miasto",
+            "de": "PURO Poznań Stare Miasto",
+            "cs": "PURO Poznań Stare Miasto"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "מלון פורו יש תמונת חזית עם הרבה חלונות מלבניים ויש גם תמונות שלנו במסדרונות המלון עם המזוודות רשאי לפרסם",
+            "scope": "Exactly matched corridor photographs with luggage; no permission for other portraits",
+            "sourceSHA256": "f9dc812c82c8d7a60e6bef80ccb5e306f851a656ef0467cc77a07eb9538d520d",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל במלון פורו פוזנן 2.JPG"
+        },
+        "/assets/poznan/source-083.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/חזית מלון פורו 2.JPG",
+          "sourceSHA256": "13f068d52ae0eea882ef24dfb29a4ca74b76be4628e4790f054d83f766efd520",
+          "assetSHA256": "7509653a2069d4fbab209e7b717e525da0fb4cd5112bff08f85e2f5386b2af95",
+          "alt": {
+            "he": "צילום הביקור שלנו במלון פורו בפוזנן",
+            "en": "Our visit photograph at PURO Poznań hotel",
+            "pl": "Nasze zdjęcie z wizyty w hotelu PURO Poznań",
+            "de": "Unser Besuchsfoto im Hotel PURO Poznań",
+            "cs": "Naše fotografie z návštěvy hotelu PURO Poznań"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "13f068d52ae0eea882ef24dfb29a4ca74b76be4628e4790f054d83f766efd520",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/חזית מלון פורו 2.JPG"
+        },
+        "/assets/poznan/source-084.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/חזית מלון פורו 3.JPG",
+          "sourceSHA256": "6be454241c93b0519149356d730d2910eeb3e34494ef0bea20c529aef85e3f42",
+          "assetSHA256": "d0f9e0e661f28e83a547861e697bbbe1d48bd09d30cf1111947488e5a5e1cead",
+          "alt": {
+            "he": "צילום הביקור שלנו במלון פורו בפוזנן",
+            "en": "Our visit photograph at PURO Poznań hotel",
+            "pl": "Nasze zdjęcie z wizyty w hotelu PURO Poznań",
+            "de": "Unser Besuchsfoto im Hotel PURO Poznań",
+            "cs": "Naše fotografie z návštěvy hotelu PURO Poznań"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "6be454241c93b0519149356d730d2910eeb3e34494ef0bea20c529aef85e3f42",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/חזית מלון פורו 3.JPG"
+        },
+        "/assets/poznan/source-121.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/המעלית במלון פורו פוזנן.JPG",
+          "sourceSHA256": "ecff153ad34df4582c002575a9234597b5030ab2fc8fbb50e6f225ff366b0cb7",
+          "assetSHA256": "f801d4a7cdf45b188623dafc69b47984f09f6c6bb0803b7221076e26a7a18767",
+          "alt": {
+            "he": "צילום הביקור שלנו במלון פורו בפוזנן",
+            "en": "Our visit photograph at PURO Poznań hotel",
+            "pl": "Nasze zdjęcie z wizyty w hotelu PURO Poznań",
+            "de": "Unser Besuchsfoto im Hotel PURO Poznań",
+            "cs": "Naše fotografie z návštěvy hotelu PURO Poznań"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "ecff153ad34df4582c002575a9234597b5030ab2fc8fbb50e6f225ff366b0cb7",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המעלית במלון פורו פוזנן.JPG"
+        },
+        "/assets/poznan/source-144.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/מלון פורו פוזנן.HEIC",
+          "sourceSHA256": "0ea2f7da1bee1fb816f6d053adb0e02519b40640b56e429618de3a6639abb72e",
+          "assetSHA256": "92e89fe4ea221b9654553fa0005f42eef4f8188bd702fcbce53e0300d7cc9b76",
+          "alt": {
+            "he": "צילום הביקור שלנו במלון פורו בפוזנן",
+            "en": "Our visit photograph at PURO Poznań hotel",
+            "pl": "Nasze zdjęcie z wizyty w hotelu PURO Poznań",
+            "de": "Unser Besuchsfoto im Hotel PURO Poznań",
+            "cs": "Naše fotografie z návštěvy hotelu PURO Poznań"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "0ea2f7da1bee1fb816f6d053adb0e02519b40640b56e429618de3a6639abb72e",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מלון פורו פוזנן.HEIC"
+        },
+        "/assets/poznan/source-057.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הדלת של חדר מלון פורו פוזנן.JPG",
+          "sourceSHA256": "dc53b7639deec9f4a72769f56b05ea291dd49ac5c1fa39aef990017ac10dd61d",
+          "assetSHA256": "a777b6efc8942a8ed2064d966ba318193fac6f4945e91feb876dd158a0185d24",
+          "alt": {
+            "he": "צילום הביקור שלנו במלון פורו בפוזנן",
+            "en": "Our visit photograph at PURO Poznań hotel",
+            "pl": "Nasze zdjęcie z wizyty w hotelu PURO Poznań",
+            "de": "Unser Besuchsfoto im Hotel PURO Poznań",
+            "cs": "Naše fotografie z návštěvy hotelu PURO Poznań"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "dc53b7639deec9f4a72769f56b05ea291dd49ac5c1fa39aef990017ac10dd61d",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הדלת של חדר מלון פורו פוזנן.JPG"
+        },
+        "/assets/poznan/source-058.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/מסדרוןו במלךון םפורו פוזנן 2.JPG",
+          "sourceSHA256": "1a82d8df887240ae3cd85372f350d7797a5d9320e61d11187b5c0b083bb3ec16",
+          "assetSHA256": "007aafd6ed2e0118a8d009a2d99f9f8337a76983f0daca48d47e25e8ae1c0f9b",
+          "alt": {
+            "he": "צילום הביקור שלנו במלון פורו בפוזנן",
+            "en": "Our visit photograph at PURO Poznań hotel",
+            "pl": "Nasze zdjęcie z wizyty w hotelu PURO Poznań",
+            "de": "Unser Besuchsfoto im Hotel PURO Poznań",
+            "cs": "Naše fotografie z návštěvy hotelu PURO Poznań"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "1a82d8df887240ae3cd85372f350d7797a5d9320e61d11187b5c0b083bb3ec16",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסדרוןו במלךון םפורו פוזנן 2.JPG"
+        },
+        "/assets/poznan/source-059.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/מסדרון במלון פורו פוזנן.JPG",
+          "sourceSHA256": "5657047de20960a26032d624e6bf70c759532f052405e5178eb3a38a96d0055f",
+          "assetSHA256": "18b7ec3c9943ce87408cc92f8e1fc33cdc34f7a209ef67f0e10bc6543c31c9c2",
+          "alt": {
+            "he": "צילום הביקור שלנו במלון פורו בפוזנן",
+            "en": "Our visit photograph at PURO Poznań hotel",
+            "pl": "Nasze zdjęcie z wizyty w hotelu PURO Poznań",
+            "de": "Unser Besuchsfoto im Hotel PURO Poznań",
+            "cs": "Naše fotografie z návštěvy hotelu PURO Poznań"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "5657047de20960a26032d624e6bf70c759532f052405e5178eb3a38a96d0055f",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסדרון במלון פורו פוזנן.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-082.jpg"
+    },
+    "provenance": {
+      "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
+      "geographyVerifiedAt": "2026-10-27",
+      "personalImageApprovalRequired": true,
+      "coordinateProof": {
+        "url": "https://purohotels.com/pl/poznan/kontakt/",
+        "precisionNote": "Owner-linked hotel POI, not viewport centre",
+        "checkedAt": "2026-10-27"
+      },
+      "factualSources": [
+        {
+          "url": "https://purohotels.com/pl/poznan/",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    }
+  },
+  {
+    "id": "poznan-posnania",
+    "localName": "Posnania",
+    "name": {
+      "he": "קניון פוזנניה",
+      "en": "Posnania shopping centre",
+      "pl": "Centrum handlowe Posnania",
+      "de": "Einkaufszentrum Posnania",
+      "cs": "Nákupní centrum Posnania"
+    },
+    "description": {
+      "he": "מתחם קניות, אוכל ובילוי בצדה המזרחי של העיר, כאפשרות נפרדת למי שרוצה להקדיש זמן לקניות. אפשר לשלבו ביום באזור מלטה; הוא אינו תחנה מחייבת במסלול העיר העתיקה. בדקו את שעות המרכז והחנויות לפני ההגעה.",
+      "en": "A shopping, dining and leisure centre east of the city centre. Choose it when you want dedicated shopping time, perhaps alongside the Malta area. It is optional and separate from the Old Town walk. Check centre and shop hours before visiting.",
+      "pl": "Centrum zakupów, gastronomii i rozrywki na wschód od centrum. Opcja na osobny czas na zakupy, na przykład przy okazji pobytu w okolicy Malty. Nie jest obowiązkowym punktem spaceru po Starym Mieście. Sprawdź godziny centrum i sklepów.",
+      "de": "Einkaufen, Essen und Freizeit östlich des Zentrums. Eine Option für eigene Einkaufszeit, etwa bei einem Besuch der Malta-Gegend. Kein Pflichtstopp des Altstadtrundgangs. Öffnungszeiten des Zentrums und der Geschäfte vorher prüfen.",
+      "cs": "Nákupy, gastronomie a zábava východně od centra. Volitelný cíl pro samostatné nákupy, například při návštěvě oblasti Malty. Není povinnou zastávkou staroměstské procházky. Ověřte otevírání centra i obchodů."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.3965106,
+        "lng": 16.9561173
+      },
+      "address": {
+        "street": "Pleszewska 1",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "shopping"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://posnania.eu/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.3965106%2C16.9561173"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://posnania.eu/kontakt/dane-kontaktowe/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://visitpoznan.pl/centrum-handlowe-posnania",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/390832753",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-citadel-park",
+    "localName": "Park Cytadela",
+    "name": {
+      "he": "פארק סיטדל",
+      "en": "Citadel Park",
+      "pl": "Park Cytadela",
+      "de": "Zitadellenpark",
+      "cs": "Park Cytadela"
+    },
+    "description": {
+      "he": "פארק רחב מצפון לעיר העתיקה, בשטח המבצר לשעבר. בחרו בו להליכה בין עצים, מרחבים פתוחים, פסלים ואתרי זיכרון. זהו ביקור נוסף לפי הזמן והעניין, ואפשר להקדיש לו זמן נפרד מהמסלול המרכזי.",
+      "en": "A large park north of the Old Town on former fortress grounds. Choose a walk among trees, open spaces, sculpture and memorial sites. This is an optional visit to plan separately from the main city walk.",
+      "pl": "Rozległy park na północ od Starego Miasta, na terenie dawnej twierdzy. Spacer wśród drzew, otwartych przestrzeni, rzeźb i miejsc pamięci. To opcjonalny cel, na który warto zaplanować osobny czas.",
+      "de": "Großer Park nördlich der Altstadt auf ehemaligem Festungsgelände. Spazierwege zwischen Bäumen, Freiflächen, Skulpturen und Gedenkorten. Eine optionale Ergänzung, für die Sie eigene Zeit einplanen sollten.",
+      "cs": "Rozsáhlý park severně od Starého Města na místě bývalé pevnosti. Procházka mezi stromy, otevřenými plochami, sochami a pamětními místy. Volitelný cíl, na který je vhodné vyhradit samostatný čas."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4215136,
+        "lng": 16.9349022
+      },
+      "address": {
+        "street": "aleja Armii Poznań",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://visitpoznan.pl/en/citadel-park",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4215136%2C16.9349022"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visitpoznan.pl/en/citadel-park",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/23003645",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-lake-malta",
+    "localName": "Jezioro Maltańskie",
+    "name": {
+      "he": "אגם מלטה",
+      "en": "Lake Malta",
+      "pl": "Jezioro Maltańskie",
+      "de": "Maltasee",
+      "cs": "Jezero Malta"
+    },
+    "description": {
+      "he": "אזור לנופש ולהליכה ליד המים במזרח פוזנן. אפשר לבחור קטע מהטיילת או לשלבו ביום נפרד עם גן החיות החדש. רכבת מלטנקה היא שירות עונתי; אל תבנו עליה בלי לבדוק פעילות לתאריך הביקור.",
+      "en": "A waterside leisure and walking area in eastern Poznań. Choose a stretch of the promenade or combine the area with a separate New Zoo visit. The Maltanka railway is seasonal; check operation for your date before relying on it.",
+      "pl": "Miejsce wypoczynku i spacerów nad wodą we wschodnim Poznaniu. Wybierz fragment promenady albo połącz okolicę z osobną wizytą w Nowym Zoo. Kolejka Maltanka jest sezonowa; przed wyjazdem sprawdź jej kursowanie.",
+      "de": "Uferwege und Erholung im Osten von Poznań. Wählen Sie einen Promenadenabschnitt oder verbinden Sie die Gegend mit einem gesonderten Besuch des Neuen Zoos. Die Maltanka-Bahn fährt saisonal; Betrieb für Ihren Termin prüfen.",
+      "cs": "Oblast odpočinku a procházek u vody ve východní Poznani. Vyberte úsek promenády nebo spojte oblast se samostatnou návštěvou Nové zoo. Vláček Maltanka je sezonní; provoz pro svůj termín ověřte předem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4038691,
+        "lng": 16.9714666
+      },
+      "address": {
+        "street": "Jezioro Maltańskie",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://posir.poznan.pl/obiekty/malta",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4038691%2C16.9714666"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.mpk.poznan.pl/en/maltanka-park-railway/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://visitpoznan.info/en/poznan/poznan-attractions/lake-malta/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/relation/7550595",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-righteous-square",
+    "localName": "Skwer Sprawiedliwych Wśród Narodów Świata",
+    "name": {
+      "he": "כיכר חסידי אומות העולם",
+      "en": "Righteous Among the Nations Square",
+      "pl": "Skwer Sprawiedliwych Wśród Narodów Świata",
+      "de": "Platz der Gerechten unter den Völkern",
+      "cs": "Náměstí Spravedlivých mezi národy"
+    },
+    "description": {
+      "he": "עצירה שקטה מדרום למתחם סטארי ברובאר, בכיכר הנושאת את שמם של חסידי אומות העולם. אפשר לשלב אותה עם ביקור במתחם הקניות והאדריכלות הסמוך.",
+      "en": "A quiet stop south of Stary Browar, in the square named for the Righteous Among the Nations. Combine it with a visit to the nearby shopping and architecture complex.",
+      "pl": "Spokojny przystanek na południe od Starego Browaru, na skwerze nazwanym ku czci Sprawiedliwych Wśród Narodów Świata. Można go połączyć z wizytą w sąsiednim kompleksie handlu i architektury.",
+      "de": "Ein ruhiger Halt südlich des Stary Browar auf dem Platz der Gerechten unter den Völkern. Gut mit dem benachbarten Einkaufs- und Architekturkomplex kombinierbar.",
+      "cs": "Klidná zastávka jižně od Starého Browaru na náměstí pojmenovaném po Spravedlivých mezi národy. Lze ji spojit s návštěvou sousedního nákupního a architektonického komplexu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.3989454,
+        "lng": 16.9278866
+      },
+      "address": {
+        "street": "Skwer Sprawiedliwych Wśród Narodów Świata",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://www.poznan.pl/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.3989454%2C16.9278866"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-060.jpg",
+        "/assets/poznan/source-061.jpg",
+        "/assets/poznan/source-062.jpg",
+        "/assets/poznan/source-063.jpg",
+        "/assets/poznan/source-064.jpg",
+        "/assets/poznan/source-113.jpg",
+        "/assets/poznan/source-114.jpg",
+        "/assets/poznan/source-115.jpg",
+        "/assets/poznan/source-116.jpg",
+        "/assets/poznan/source-117.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-060.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/חסידי אומות העולם 55.JPG",
+          "sourceSHA256": "95d3e819d5b6234d502b6f91d63b01169b474050bba7f897561d6639b175f5de",
+          "assetSHA256": "fe900394ddd1020a10ddfb5f8f393b6780170061214efa1e5ecd57bef54065e2",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "95d3e819d5b6234d502b6f91d63b01169b474050bba7f897561d6639b175f5de",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/חסידי אומות העולם 55.JPG"
+        },
+        "/assets/poznan/source-061.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/כיכר חסידי אומות העולם 5.JPG",
+          "sourceSHA256": "10e22d0430a96df826c7c110ba2cb69ffbc180c5a7fab4564bf7983a4f558a51",
+          "assetSHA256": "908e3519279c9b2945d654d0cedd40bfdc95c0748c7c0e0d136c4d4df5b543d4",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "10e22d0430a96df826c7c110ba2cb69ffbc180c5a7fab4564bf7983a4f558a51",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כיכר חסידי אומות העולם 5.JPG"
+        },
+        "/assets/poznan/source-062.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/כיכר חסידי אומות העולם 7.JPG",
+          "sourceSHA256": "53a3ddb5b1e0b0cb08d69684ec0234d98d37a6cd2acb1eecce48385e13ad3de3",
+          "assetSHA256": "0cfce3e955e5a57d653aea73c014f3f66dd5c78617f6f9a7c16e17506008a858",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "53a3ddb5b1e0b0cb08d69684ec0234d98d37a6cd2acb1eecce48385e13ad3de3",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כיכר חסידי אומות העולם 7.JPG"
+        },
+        "/assets/poznan/source-063.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גיל בכיכר חסידי אומות עולם.JPG",
+          "sourceSHA256": "a9a0cf068e0f4901689573cc963185d39aad6c20bfd8b6b57298b783ded10ffd",
+          "assetSHA256": "d91daa4f6f9d9768f862bf063d719fb2e1673f36c66e34ae10a777dd038c40c0",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "a9a0cf068e0f4901689573cc963185d39aad6c20bfd8b6b57298b783ded10ffd",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל בכיכר חסידי אומות עולם.JPG"
+        },
+        "/assets/poznan/source-064.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/כיכר חסידי אומות עולםן.JPG",
+          "sourceSHA256": "67958e2b52b49967f9f1857106870b6f3bc4ca186b103322f786e820d72e8120",
+          "assetSHA256": "1efe77af35b05f7c2c07c9f6f9c4f8b9a2b2e22a79f2686eefb643e4f681b5e1",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "67958e2b52b49967f9f1857106870b6f3bc4ca186b103322f786e820d72e8120",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כיכר חסידי אומות עולםן.JPG"
+        },
+        "/assets/poznan/source-113.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הפארק ליד כיכר ליד חסידי אומות עולם.JPG",
+          "sourceSHA256": "c54b9aae1c07b336347b5adcbd4c736b9ad693886bde848bf6a64ad42dbc4093",
+          "assetSHA256": "89b64d19315cf047e7917857eab28bb51c204b6bfe398c7dc2af7369768b7918",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "c54b9aae1c07b336347b5adcbd4c736b9ad693886bde848bf6a64ad42dbc4093",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הפארק ליד כיכר ליד חסידי אומות עולם.JPG"
+        },
+        "/assets/poznan/source-114.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הפארק ליד כיכר חסידי אומות עולם בפוזנן 6.JPG",
+          "sourceSHA256": "bbc2ccb7d51946a579ea9c030b8ebb1acf390577d2dad97ad86f9889c5d46e17",
+          "assetSHA256": "3292c00f45d9c9d348b1c5a18af66fdb777259d59a927da90647aa09058b04bc",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "bbc2ccb7d51946a579ea9c030b8ebb1acf390577d2dad97ad86f9889c5d46e17",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הפארק ליד כיכר חסידי אומות עולם בפוזנן 6.JPG"
+        },
+        "/assets/poznan/source-115.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הגינה ליד כיכר חסידי אומות עולם 4.JPG",
+          "sourceSHA256": "9316c7c9a0fcc181e9d1140715a5e4e4cbbc0f5f63a8a98ac3b3b34110fe23a5",
+          "assetSHA256": "0f1891d2c7af3dc1571d3f244bd2a6182c891a68eda88cf08db80ffb46c2e729",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "9316c7c9a0fcc181e9d1140715a5e4e4cbbc0f5f63a8a98ac3b3b34110fe23a5",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הגינה ליד כיכר חסידי אומות עולם 4.JPG"
+        },
+        "/assets/poznan/source-116.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הפארק ליד כיכר חסידי אומות עולם 2.JPG",
+          "sourceSHA256": "5716ef7afa5c149cc5a85931b9679ceb396d41a8ad9cf5e9a244dd9ee1592ffd",
+          "assetSHA256": "1ebf29493fe8eb7cad387d6bf8efe926cb3c5d6089d6a695eaf8113c05508968",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "5716ef7afa5c149cc5a85931b9679ceb396d41a8ad9cf5e9a244dd9ee1592ffd",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הפארק ליד כיכר חסידי אומות עולם 2.JPG"
+        },
+        "/assets/poznan/source-117.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הפארק ליד כיכר חסידי אומות עולם.JPG",
+          "sourceSHA256": "dad78fb961831b898a5f12e562dffbb9ff6534fe32f8594bd34ef49160437db4",
+          "assetSHA256": "f4f1c1161b113b20f384d58c6e5fe031aac9e222f9b60d5ea551d58c3d9d45ca",
+          "alt": {
+            "he": "האנדרטה, שבילי הכיכר והגינה בכיכר חסידי אומות העולם",
+            "en": "The memorial, paths and garden of Righteous Among the Nations Square",
+            "pl": "Pomnik, alejki i zieleń skweru Sprawiedliwych Wśród Narodów Świata",
+            "de": "Denkmal, Wege und Grün des Platzes der Gerechten unter den Völkern",
+            "cs": "Památník, cesty a zeleň náměstí Spravedlivých mezi národy"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "dad78fb961831b898a5f12e562dffbb9ff6534fe32f8594bd34ef49160437db4",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הפארק ליד כיכר חסידי אומות עולם.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-060.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://bip.poznan.pl/public/bip/attachments.att?co=show&id=479325&instance=1097&lang=pl&parent=86214",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/246563320",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-new-synagogue",
+    "localName": "Nowa Synagoga",
+    "name": {
+      "he": "בית הכנסת החדש בפוזנן",
+      "en": "New Synagogue, Poznań",
+      "pl": "Nowa Synagoga w Poznaniu",
+      "de": "Neue Synagoge in Poznań",
+      "cs": "Nová synagoga v Poznani"
+    },
+    "description": {
+      "he": "מבנה בית הכנסת ההיסטורי ליד הרחובות סטאבנה וורונייצקה, סמוך לרובע היהודי. זו עצירת מורשת לצפייה מבחוץ; אין כאן הבטחה לכניסה פנימה או לבית כנסת פעיל. אפשר לשלב עם ההליכה ברחובות הרובע.",
+      "en": "The historic synagogue building near Stawna and Wroniecka, beside the former Jewish quarter. This is an exterior heritage stop; interior access or an active synagogue is not promised. Combine it with a walk through the historic quarter.",
+      "pl": "Historyczny budynek synagogi przy Stawnej i Wronieckiej, obok dawnej dzielnicy żydowskiej. Przystanek dotyczy oglądania z zewnątrz; nie zakłada wejścia do wnętrza ani czynnej synagogi. Można połączyć go ze spacerem po dawnym kwartale.",
+      "de": "Historisches Synagogengebäude bei Stawna und Wroniecka, neben dem früheren jüdischen Viertel. Ein Kulturstopp von außen; Innenzugang oder eine aktive Synagoge werden nicht vorausgesetzt. Mit einem Spaziergang durch das Viertel kombinierbar.",
+      "cs": "Historická budova synagogy u ulic Stawna a Wroniecka vedle někdejší židovské čtvrti. Zastávka zvenčí; vstup dovnitř ani fungující synagoga nejsou slíbeny. Lze spojit s procházkou po historické čtvrti."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4109605,
+        "lng": 16.935033
+      },
+      "address": {
+        "street": "Wroniecka 11a",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://poznan.jewish.org.pl/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4109605%2C16.935033"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-081.jpg",
+        "/assets/poznan/source-120.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=kxF2RcSdfqI"
+      ],
+      "metadata": {
+        "/assets/poznan/source-081.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/ית הכנסת הישן.JPG",
+          "sourceSHA256": "c83625ac14ce2a444c12aeef286abe4d7512f02e3c73f72985c32aa32ef5a375",
+          "assetSHA256": "54ef11a7c0dd6aae95d2acb363d0618faeb22b1ed1257e18d2d406bfce0224a4",
+          "alt": {
+            "he": "חזית מבנה בית הכנסת החדש שהוסב בעבר לבריכה",
+            "en": "Exterior of the New Synagogue building, formerly converted to a swimming pool",
+            "pl": "Elewacja budynku Nowej Synagogi, dawniej przekształconego w pływalnię",
+            "de": "Außenansicht der Neuen Synagoge, früher zum Schwimmbad umgebaut",
+            "cs": "Průčelí budovy Nové synagogy, dříve přestavěné na bazén"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "c83625ac14ce2a444c12aeef286abe4d7512f02e3c73f72985c32aa32ef5a375",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ית הכנסת הישן.JPG"
+        },
+        "/assets/poznan/source-120.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בית הכנסת הישן של פוזנן.JPG",
+          "sourceSHA256": "9afee6d1e3d41857c47c89d8ceaeb5af2aee1e52432c3ab32c655d9c94529996",
+          "assetSHA256": "644c02eba19798d15e76aaa9c2189b96af25f9e11f5b99cc256296cab32154c6",
+          "alt": {
+            "he": "חזית מבנה בית הכנסת החדש שהוסב בעבר לבריכה",
+            "en": "Exterior of the New Synagogue building, formerly converted to a swimming pool",
+            "pl": "Elewacja budynku Nowej Synagogi, dawniej przekształconego w pływalnię",
+            "de": "Außenansicht der Neuen Synagoge, früher zum Schwimmbad umgebaut",
+            "cs": "Průčelí budovy Nové synagogy, dříve přestavěné na bazén"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "9afee6d1e3d41857c47c89d8ceaeb5af2aee1e52432c3ab32c655d9c94529996",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית הכנסת הישן של פוזנן.JPG"
+        },
+        "https://www.youtube.com/watch?v=kxF2RcSdfqI": {
+          "title": {
+            "he": "מבט רחוב על בית הכנסת החדש לשעבר",
+            "en": "Street view of the former New Synagogue",
+            "pl": "Widok dawnej Nowej Synagogi z ulicy",
+            "de": "Straßenansicht der ehemaligen Neuen Synagoge",
+            "cs": "Pohled z ulice na bývalou Novou synagogu"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית הכנסת הישן של פוזנן.MP4",
+          "sourceSHA256": "1a2e69a537c10282a8c651151dfc902111263f89413c4424e498091ea928ddc3",
+          "durationSeconds": 37.462517,
+          "originalPictureUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "reopenedAt": "2026-10-27T17:25:06.691591+00:00",
+          "personalMediaApproval": "Explicit all Poznan folder approval",
+          "reuseSourceIndices": [
+            6,
+            134
+          ]
+        }
+      },
+      "thumbnail": "/assets/poznan/source-081.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://poznan.jewish.org.pl/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://spotkaniazzabytkami.pl/samotna-synagoga/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/118031186",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-royal-castle",
+    "localName": "Zamek Królewski",
+    "name": {
+      "he": "הטירה המלכותית בפוזנן",
+      "en": "Royal Castle, Poznań",
+      "pl": "Zamek Królewski w Poznaniu",
+      "de": "Königsschloss in Poznań",
+      "cs": "Královský hrad v Poznani"
+    },
+    "description": {
+      "he": "הטירה מעל העיר העתיקה, בסמוך לכיכר השוק. בחרו עצירה אדריכלית מבחוץ, ואם רוצים להיכנס למוזיאון או לתצפית בדקו כרטיסים ופתיחה מראש. זו הטירה המלכותית, בנפרד מהטירה הקיסרית.",
+      "en": "The castle above the Old Town, close to the market square. Stop for the exterior architecture, and check tickets and opening before planning the museum or viewpoint. This is the Royal Castle, distinct from the Imperial Castle.",
+      "pl": "Zamek ponad Starym Miastem, blisko rynku. Zatrzymaj się przy architekturze zewnętrznej, a przed wizytą w muzeum lub na tarasie sprawdź bilety i godziny. To Zamek Królewski, odrębny od Zamku Cesarskiego.",
+      "de": "Das Schloss über der Altstadt nahe dem Marktplatz. Betrachten Sie die Außenarchitektur; für Museum oder Aussicht vorher Tickets und Öffnung prüfen. Dies ist das Königsschloss, getrennt vom Kaiserschloss.",
+      "cs": "Hrad nad Starým Městem nedaleko náměstí. Zastavte se u vnější architektury; muzeum či vyhlídku plánujte po ověření vstupenek a otevírání. Jde o Královský hrad, odlišný od Císařského zámku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4091571,
+        "lng": 16.9310071
+      },
+      "address": {
+        "street": "Góra Przemysła 1",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://mnp.art.pl/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4091571%2C16.9310071"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-103.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-103.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הטירה של פוזנן שנהיאלא הזאמק לא המבצר .JPG",
+          "sourceSHA256": "8281856192409ab89a77663ee655f73ec45b74672a65119774c580828f984d99",
+          "assetSHA256": "8c7eb4448c4ff39cfd1200075f4e352f5b51f7ec024a5e4181aa7f6f63ac78ef",
+          "alt": {
+            "he": "מגדל הלבנים וגמלוני הטירה המלכותית בפוזנן",
+            "en": "Brick tower and gables of the Royal Castle in Poznań",
+            "pl": "Ceglana wieża i szczyty Zamku Królewskiego w Poznaniu",
+            "de": "Backsteinturm und Giebel des Königsschlosses in Poznań",
+            "cs": "Cihlová věž a štíty Královského hradu v Poznani"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "8281856192409ab89a77663ee655f73ec45b74672a65119774c580828f984d99",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הטירה של פוזנן שנהיאלא הזאמק לא המבצר .JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-103.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://mnp.art.pl/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://visitpoznan.pl/storage/editor/poznan-and-surroundings-for-kids-2025.pdf",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/363747422",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-imperial-castle",
+    "localName": "Zamek Cesarski",
+    "name": {
+      "he": "הטירה הקיסרית ומרכז התרבות זאמק",
+      "en": "Imperial Castle and Zamek Culture Centre",
+      "pl": "Zamek Cesarski i Centrum Kultury ZAMEK",
+      "de": "Kaiserschloss und Kulturzentrum Zamek",
+      "cs": "Císařský zámek a kulturní centrum Zamek"
+    },
+    "description": {
+      "he": "מבנה הטירה הקיסרית באזור שממערב לעיר העתיקה, המשמש כיום מרכז תרבות. בחרו עצירה לאדריכלות או בדקו תערוכה ואירוע באתר המרכז. המקום נפרד מהטירה המלכותית שליד כיכר השוק.",
+      "en": "The Imperial Castle west of the Old Town now houses a culture centre. Choose an architecture stop or check exhibitions and events on the centre website. This is separate from the Royal Castle near the market square.",
+      "pl": "Zamek Cesarski na zachód od Starego Miasta mieści dziś centrum kultury. Możesz obejrzeć architekturę albo sprawdzić wystawy i wydarzenia na stronie centrum. To inne miejsce niż Zamek Królewski przy rynku.",
+      "de": "Das Kaiserschloss westlich der Altstadt beherbergt heute ein Kulturzentrum. Wählen Sie einen Architekturhalt oder prüfen Sie Ausstellungen und Veranstaltungen auf der Website. Es ist vom Königsschloss beim Marktplatz zu unterscheiden.",
+      "cs": "Císařský zámek západně od Starého Města dnes slouží jako kulturní centrum. Zvolte architektonickou zastávku nebo ověřte výstavy a akce na webu centra. Je to jiné místo než Královský hrad u náměstí."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4080255,
+        "lng": 16.9187111
+      },
+      "address": {
+        "street": "Święty Marcin 80/82",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://ckzamek.pl/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4080255%2C16.9187111"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://ckzamek.pl/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://ckzamek.pl/media/files/Przedprzewodnik_3.pdf",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/relation/1483520",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "caffe-da-vinci-poznan",
+    "localName": "Caffe Da Vinci",
+    "name": {
+      "he": "קפה דה וינצ׳י בכיכר החופש",
+      "en": "Caffe Da Vinci on Freedom Square",
+      "pl": "Caffe Da Vinci przy placu Wolności",
+      "de": "Caffe Da Vinci am Freiheitsplatz",
+      "cs": "Caffe Da Vinci na náměstí Svobody"
+    },
+    "description": {
+      "he": "בית קפה בכיכר החופש, לעצירה לבחירה בזמן סיור במרכז העיר. אפשר לשלב עם הדרך לכיוון הטירה הקיסרית; בדקו תפריט ופתיחה באתר בית הקפה.",
+      "en": "A café on Freedom Square for an optional city-centre break. Combine it with a walk towards the Imperial Castle; check the café website for menu and opening.",
+      "pl": "Kawiarnia przy placu Wolności na opcjonalną przerwę w centrum. Można połączyć ją ze spacerem w stronę Zamku Cesarskiego; menu i godziny sprawdź na stronie kawiarni.",
+      "de": "Café am Freiheitsplatz für eine Pause im Zentrum. Gut mit dem Weg zum Kaiserschloss kombinierbar; Speisekarte und Öffnung auf der Café-Website prüfen.",
+      "cs": "Kavárna na náměstí Svobody pro volitelnou přestávku v centru. Lze ji spojit s cestou k Císařskému zámku; nabídku a otevírání ověřte na webu kavárny."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4077923,
+        "lng": 16.9255318
+      },
+      "address": {
+        "street": "Plac Wolności 10",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://caffedavinci.eatbu.com/?lang=pl",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4077923%2C16.9255318"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://caffedavinci.eatbu.com/?lang=pl",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/552815621",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "pod-lampionami-poznan",
+    "localName": "Pod Lampionami",
+    "name": {
+      "he": "בית התה פוד למפיונמי",
+      "en": "Pod Lampionami tearoom",
+      "pl": "Herbaciarnia Pod Lampionami",
+      "de": "Teehaus Pod Lampionami",
+      "cs": "Čajovna Pod Lampionami"
+    },
+    "description": {
+      "he": "בית תה ומסעדה ברחוב ווז׳נה, בקרבת העיר העתיקה. אפשרות להפסקת תה שקטה בין תחנות הסיור. בדקו את המבחר והפתיחה מול המקום.",
+      "en": "A tearoom and restaurant on Woźna, near the Old Town. An option for a quiet tea break between sightseeing stops. Check current choice and opening with the venue.",
+      "pl": "Herbaciarnia i restauracja przy Woźnej, blisko Starego Miasta. Opcja na spokojną przerwę na herbatę między zwiedzaniem. Aktualną ofertę i otwarcie sprawdź w lokalu.",
+      "de": "Teehaus und Restaurant an der Woźna nahe der Altstadt. Eine Möglichkeit für eine ruhige Teepause zwischen Besichtigungen. Aktuelles Angebot und Öffnung beim Haus prüfen.",
+      "cs": "Čajovna a restaurace v ulici Woźna poblíž Starého Města. Možnost klidné čajové přestávky mezi památkami. Aktuální nabídku a otevírání ověřte u podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4078882,
+        "lng": 16.9363663
+      },
+      "address": {
+        "street": "Woźna 19/20",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://podlampionami.pl/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4078882%2C16.9363663"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://podlampionami.pl/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/4386718305",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-jewish-quarter",
+    "localName": "Dawna dzielnica żydowska",
+    "name": {
+      "he": "הרובע היהודי ההיסטורי",
+      "en": "Historic Jewish quarter",
+      "pl": "Dawna dzielnica żydowska",
+      "de": "Historisches jüdisches Viertel",
+      "cs": "Historická židovská čtvrť"
+    },
+    "description": {
+      "he": "הליכה ברחובות ז׳ידובסקה, מוקרה וורונייצקה, באזור הרובע היהודי ההיסטורי. כאן מספרים את סיפורה של הקהילה ובתי הכנסת שהיו במקום. זהו רובע היסטורי; אין להציג את בתי הרחוב כשרידי גטו מתקופת מלחמת העולם השנייה ללא זיהוי ותיעוד נפרדים.",
+      "en": "Walk the Żydowska, Mokra and Wroniecka streets of the historic Jewish quarter, connected to the community and its former synagogues. This is a historic neighbourhood; the street buildings are not identified here as remains of a Second World War ghetto.",
+      "pl": "Spacer ulicami Żydowską, Mokrą i Wroniecką w dawnej dzielnicy żydowskiej, związanej z historią gminy i jej synagog. To historyczny kwartał; tutejsze kamienice nie są tu przedstawiane jako pozostałości getta z czasów II wojny światowej.",
+      "de": "Spaziergang durch Żydowska, Mokra und Wroniecka im historischen jüdischen Viertel mit seiner Gemeinde- und Synagogengeschichte. Die Straßenhäuser werden hier nicht als Überreste eines Ghettos aus dem Zweiten Weltkrieg ausgewiesen.",
+      "cs": "Procházka ulicemi Żydowska, Mokra a Wroniecka v historické židovské čtvrti spojené s dějinami obce a jejích synagog. Místní domy zde nejsou označeny jako pozůstatky ghetta z druhé světové války."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4099845,
+        "lng": 16.93467115
+      },
+      "address": {
+        "street": "Żydowska / Mokra / Wroniecka",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://poznan.jewish.org.pl/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4099845%2C16.93467115"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-016.jpg",
+        "/assets/poznan/source-017.jpg",
+        "/assets/poznan/source-085.jpg",
+        "/assets/poznan/source-086.jpg",
+        "/assets/poznan/source-087.jpg",
+        "/assets/poznan/source-088.jpg",
+        "/assets/poznan/source-089.jpg",
+        "/assets/poznan/source-090.jpg",
+        "/assets/poznan/source-091.jpg",
+        "/assets/poznan/source-092.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-016.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הבניינים ליד בית הכנסת רובע יהודי ישן.JPG",
+          "sourceSHA256": "6b81021919b07c2414cd224035f8376dbf458c5ef56f81c94dc3e631460097b4",
+          "assetSHA256": "e194255ff430954048750a22fe860570aed55133ecc061b7f08c35ced32f6f7c",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "6b81021919b07c2414cd224035f8376dbf458c5ef56f81c94dc3e631460097b4",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הבניינים ליד בית הכנסת רובע יהודי ישן.JPG"
+        },
+        "/assets/poznan/source-017.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בניינים רובע יהודי ישן.JPG",
+          "sourceSHA256": "f9166da1ed09ebb52110bd69f91b837ebd3cd38cb209f26dcf1fee6c05c24f7a",
+          "assetSHA256": "ba35dcf9513d7026f6b91f9f920e0f62fad8958a435e913bedb6bef29f08ee81",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "f9166da1ed09ebb52110bd69f91b837ebd3cd38cb209f26dcf1fee6c05c24f7a",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בניינים רובע יהודי ישן.JPG"
+        },
+        "/assets/poznan/source-085.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בניינים ברובע היהודי ליד הבית כנסת.JPG",
+          "sourceSHA256": "a0992ac9f7c9cb4279dc9ba261e6402315f919fdfab8676d960ed413b410ff6c",
+          "assetSHA256": "bc31a75ed132cea42409972c32d921124874d356b730a0c868a386fad539b5e8",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "a0992ac9f7c9cb4279dc9ba261e6402315f919fdfab8676d960ed413b410ff6c",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בניינים ברובע היהודי ליד הבית כנסת.JPG"
+        },
+        "/assets/poznan/source-086.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רחובות הרובע היהודי הישן.JPG",
+          "sourceSHA256": "f0d5802c7bcb955c23e9f81a53ce7a347f71d86d866035c50aff31bc0db4a3a0",
+          "assetSHA256": "470a1fe8c8d335bd65d14e4b4a96435a1e0dde8f24bc9c83061a55248d1df160",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "f0d5802c7bcb955c23e9f81a53ce7a347f71d86d866035c50aff31bc0db4a3a0",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רחובות הרובע היהודי הישן.JPG"
+        },
+        "/assets/poznan/source-087.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הרובע היהודי הישן 2.JPG",
+          "sourceSHA256": "d0ff524226694d78f111029bb78ee47d94fbcf866bdb9112c3673d08407e3b2b",
+          "assetSHA256": "1a3c5a4865f41c7a50785d37647eb2cc2f59432520c91a08789504e5a26aa27f",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "d0ff524226694d78f111029bb78ee47d94fbcf866bdb9112c3673d08407e3b2b",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הרובע היהודי הישן 2.JPG"
+        },
+        "/assets/poznan/source-088.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רובע יהודי ישן 3.JPG",
+          "sourceSHA256": "15027bcb118a6b5f31db345fefa294ba49d5bf32cd25e62ed77447f803cb1962",
+          "assetSHA256": "0564a1f8753ada02a35066b29aac7d1ac560d6b181b1cd41c71e016d9573f46e",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "15027bcb118a6b5f31db345fefa294ba49d5bf32cd25e62ed77447f803cb1962",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רובע יהודי ישן 3.JPG"
+        },
+        "/assets/poznan/source-089.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רובע יהודי ישן 4.JPG",
+          "sourceSHA256": "fc23797328ed4c9a2440484be46feed82e28a183eb3b098a324ddb71b84fe426",
+          "assetSHA256": "351885be3e5bcebc7dd579e717b0d53cbcaff3a30ce21c0845f39d2838b4b7b6",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "fc23797328ed4c9a2440484be46feed82e28a183eb3b098a324ddb71b84fe426",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רובע יהודי ישן 4.JPG"
+        },
+        "/assets/poznan/source-090.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רובע יהודי ישן 5.JPG",
+          "sourceSHA256": "550f23a2f0c3e7bbce825163810e80277b2a5032a50343ab5dd9c381d51fbbc1",
+          "assetSHA256": "b8ef3e66092ed628f1c88682dd97dc513847074553d91f5566ca3675e19c0f9f",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "550f23a2f0c3e7bbce825163810e80277b2a5032a50343ab5dd9c381d51fbbc1",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רובע יהודי ישן 5.JPG"
+        },
+        "/assets/poznan/source-091.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רובי יהודי ישן 2.JPG",
+          "sourceSHA256": "02fadea047ea8e668892e67f3d646a61d934205dc412780632bd20356ec177f4",
+          "assetSHA256": "365d878ce57c690540d83e6671367ab92a2028a4db4732e1e63295ce75c2a099",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "02fadea047ea8e668892e67f3d646a61d934205dc412780632bd20356ec177f4",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רובי יהודי ישן 2.JPG"
+        },
+        "/assets/poznan/source-092.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/ובע יהודי ישן 6.JPG",
+          "sourceSHA256": "0c750847bf6f11591c91240f6b6d04912d4affb8dc1dcfb97b7b615e062543cf",
+          "assetSHA256": "6833243f9b424df674fffd97f563ea04c0b5698fedfad8af1ab75f88a6657dc5",
+          "alt": {
+            "he": "חזיתות ופרטי רחוב ברובע היהודי ההיסטורי, לפי זיהוי המשתמש",
+            "en": "Façades and street details in the historic Jewish quarter, identified by the user",
+            "pl": "Fasady i detale uliczne dawnej dzielnicy żydowskiej wskazanej przez użytkownika",
+            "de": "Fassaden und Straßendetails im vom Nutzer benannten historischen jüdischen Viertel",
+            "cs": "Průčelí a uliční detaily historické židovské čtvrti určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "0c750847bf6f11591c91240f6b6d04912d4affb8dc1dcfb97b7b615e062543cf",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ובע יהודי ישן 6.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-016.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://poznan.jewish.org.pl/index.php/Synagogi-pozn.wielkop./Page-2.html",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/28904691",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "ryczka-polna-poznan",
+    "localName": "Śniadaniownia by Ryczka",
+    "name": {
+      "he": "קפה ריצ׳קה בייצ׳ה",
+      "en": "Ryczka café in Jeżyce",
+      "pl": "Śniadaniownia by Ryczka na Jeżycach",
+      "de": "Café Ryczka in Jeżyce",
+      "cs": "Kavárna Ryczka v Jeżycích"
+    },
+    "description": {
+      "he": "אפשרות לקפה או לארוחת בוקר בשכונת ייצ׳ה, ברחוב פולנה. זהו בית הקפה שביקש גיל להוסיף, המופיע כיום בשם שניאדניובניה ביי ריצ׳קה. הוא נקודה נפרדת מכיכר השוק השכונתית; בדקו תפריט ופתיחה באתר העסק.",
+      "en": "An optional coffee or breakfast stop on Polna in Jeżyce, currently listed as Śniadaniownia by Ryczka. This is the café Gil requested, separate from the neighbourhood market square. Check the venue website for menu and opening.",
+      "pl": "Opcjonalna kawa lub śniadanie przy Polnej na Jeżycach, obecnie pod nazwą Śniadaniownia by Ryczka. Kawiarnia wskazana przez Gila jest osobnym punktem od Rynku Jeżyckiego. Menu i godziny sprawdź na stronie lokalu.",
+      "de": "Optionale Kaffee- oder Frühstückspause an der Polna in Jeżyce, derzeit als Śniadaniownia by Ryczka geführt. Das von Gil gewünschte Café ist ein eigener Ort, getrennt vom Marktplatz. Angebot und Öffnung auf der Website prüfen.",
+      "cs": "Volitelná káva či snídaně v ulici Polna v Jeżycích, nyní pod názvem Śniadaniownia by Ryczka. Kavárna požadovaná Gilem je samostatný bod mimo místní tržiště. Nabídku a otevírání ověřte na webu podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.41090475,
+        "lng": 16.89597505
+      },
+      "address": {
+        "street": "Polna 27",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://sniadaniowniabyryczka.eatbu.com/?lang=pl",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.41090475%2C16.89597505"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://sniadaniowniabyryczka.eatbu.com/?lang=pl",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/relation/8296840",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "slodko-slona-cafe-poznan",
+    "localName": "Słodko Słona Cafe",
+    "name": {
+      "he": "סוודקו סוונה קפה",
+      "en": "Słodko Słona Cafe",
+      "pl": "Słodko Słona Cafe",
+      "de": "Słodko Słona Cafe",
+      "cs": "Słodko Słona Cafe"
+    },
+    "description": {
+      "he": "בית קפה ברחוב וודנה, במרחק הליכה קצר מכיכר השוק העתיקה. אפשרות נוספת לבחירה להפסקת קפה במהלך הסיור. בדקו מול העסק את התפריט ואת פתיחתו לפני ההגעה.",
+      "en": "A café on Wodna, a short walk from the Old Market Square. Another optional coffee break during the city walk. Check the current menu and opening with the business before visiting.",
+      "pl": "Kawiarnia przy Wodnej, krótki spacer od Starego Rynku. Kolejna opcja na przerwę kawową podczas zwiedzania. Aktualne menu i otwarcie sprawdź w lokalu przed wizytą.",
+      "de": "Ein Café an der Wodna, nur einen kurzen Spaziergang vom Alten Markt entfernt. Eine weitere optionale Kaffeepause im Stadtrundgang. Aktuelle Karte und Öffnung vor dem Besuch beim Haus prüfen.",
+      "cs": "Kavárna v ulici Wodna, krátkou procházkou od Starého náměstí. Další volitelná kávová přestávka při prohlídce města. Aktuální nabídku a otevírání předem ověřte u podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.407322750000006,
+        "lng": 16.93532085
+      },
+      "address": {
+        "street": "Wodna 24",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://www.facebook.com/slodkoslonacafe",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.407322750000006%2C16.93532085"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.smak-poznania.pl/kawiarnie/slodko-slona-cafe/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://www.menumiasta.pl/restauracje/slodko-slona-cafe",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/129373824",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true,
+      "officialProfileReadStatus": "Not accessible in read-only source fetch; address independently corroborated. No hours, menu or on-site-visit claims made."
+    }
+  },
+  {
+    "id": "ghiacci-cafe-poznan",
+    "localName": "Ghiacci Cafe",
+    "name": {
+      "he": "בית הקפה גיאצ׳י בשרודקה",
+      "en": "Ghiacci Cafe in Śródka",
+      "pl": "Ghiacci Cafe na Śródce",
+      "de": "Ghiacci Cafe in Śródka",
+      "cs": "Ghiacci Cafe ve Śródce"
+    },
+    "description": {
+      "he": "בית קפה ברחוב בידגוסקה 2 בשרודקה. צילום הביקור שלנו מציג חליטת תה עם פרוסות תפוז, ואפשר לשלב כאן עצירה במהלך הסיור בשכונה.\nGhiacci Cafe\nBydgoska 2",
+      "en": "A café at Bydgoska 2 in Śródka. Our visit photographs show a tea infusion with orange slices, an optional pause during a neighbourhood walk.",
+      "pl": "Kawiarnia przy Bydgoskiej 2 na Śródce. Nasze zdjęcia z wizyty pokazują napar herbaciany z plasterkami pomarańczy; opcja na przerwę podczas spaceru po dzielnicy.",
+      "de": "Ein Café an der Bydgoska 2 in Śródka. Unsere Besuchsfotos zeigen einen Teeaufguss mit Orangenscheiben, eine optionale Pause beim Spaziergang durch das Viertel.",
+      "cs": "Kavárna v ulici Bydgoska 2 ve Śródce. Naše fotografie z návštěvy zachycují čajový nálev s plátky pomeranče, volitelnou zastávku při procházce čtvrtí."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.411737,
+        "lng": 16.9548558
+      },
+      "address": {
+        "street": "Bydgoska 2",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion",
+        "cafe"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://ghiacci-cafe.eatbu.com/?lang=en",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.411737%2C16.9548558"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-065.jpg",
+        "/assets/poznan/source-066.jpg",
+        "/assets/poznan/source-067.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-065.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/תה בשרודקה.JPG",
+          "sourceSHA256": "8e2d175f7b79416dd1dc60e19b619b6d017bef753fabeb0f68c2f26fa4ca33bf",
+          "assetSHA256": "8e5cf381c55b23a1bc71eeed928a6b44cf03d23a48a3602d7f30d1f2ccc8967c",
+          "alt": {
+            "he": "חליטת תה עם פרוסות תפוז על שולחן בית הקפה בשרודקה",
+            "en": "Tea with orange slices at Ghiacci Cafe in Śródka",
+            "pl": "Herbata z pomarańczą w Ghiacci Cafe na Śródce",
+            "de": "Tee mit Orangenscheiben im Ghiacci Cafe in Śródka",
+            "cs": "Čaj s pomerančem v Ghiacci Cafe ve Śródce"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "8e2d175f7b79416dd1dc60e19b619b6d017bef753fabeb0f68c2f26fa4ca33bf",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/תה בשרודקה.JPG"
+        },
+        "/assets/poznan/source-066.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/תה בשרודקה 2.JPG",
+          "sourceSHA256": "38c6196e141b97a55d17827b3b8d62fb294fdc37b41c07818f17dcf9c0a5ff42",
+          "assetSHA256": "1c47b9f55a48a180648bef0133b1fe7e3e1a9690ce8ebe2e76c9e760a257ebb9",
+          "alt": {
+            "he": "חליטת תה עם פרוסות תפוז על שולחן בית הקפה בשרודקה",
+            "en": "Tea with orange slices at Ghiacci Cafe in Śródka",
+            "pl": "Herbata z pomarańczą w Ghiacci Cafe na Śródce",
+            "de": "Tee mit Orangenscheiben im Ghiacci Cafe in Śródka",
+            "cs": "Čaj s pomerančem v Ghiacci Cafe ve Śródce"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "38c6196e141b97a55d17827b3b8d62fb294fdc37b41c07818f17dcf9c0a5ff42",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/תה בשרודקה 2.JPG"
+        },
+        "/assets/poznan/source-067.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/תה בשרודקה 3.JPG",
+          "sourceSHA256": "72492a53c4f357b66065719e5a8a77ac9237617ebbe87dc54198451a21d84ffd",
+          "assetSHA256": "e07f8c92b6847005e4aec5aac76c6304dfd71e8b13166df277582923de55b6a4",
+          "alt": {
+            "he": "קינוח ג׳לי בתצוגה בבית הקפה בשרודקה, לפי זיהוי המשתמש",
+            "en": "Jelly dessert display at the Śródka café, identified by the user",
+            "pl": "Galaretka w witrynie kawiarni na Śródce wskazanej przez użytkownika",
+            "de": "Geleedessert in der Vitrine des vom Nutzer benannten Cafés in Śródka",
+            "cs": "Želé ve vitríně kavárny ve Śródce určené uživatelem"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "72492a53c4f357b66065719e5a8a77ac9237617ebbe87dc54198451a21d84ffd",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/תה בשרודקה 3.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-065.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://ghiacci-cafe.eatbu.com/?lang=en",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://ghiacci-cafe.eatbu.com/?lang=en",
+        "precisionNote": "Owner-page geo.position=52.411737;16.9548558 and exact address; not map camera center",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "raj-szycia-poznan",
+    "localName": "Raj Szycia",
+    "name": {
+      "he": "ראי שיצ׳יה, סטודיו וחנות תפירה",
+      "en": "Raj Szycia sewing studio and shop",
+      "pl": "Raj Szycia, showroom i pracownia",
+      "de": "Raj Szycia, Nähatelier und Geschäft",
+      "cs": "Raj Szycia, šicí ateliér a obchod"
+    },
+    "description": {
+      "he": "אפשרות לעצירה בחנות ובסטודיו לתפירה שביקש גיל להוסיף, ליד בית הקפה שרלוט. צילום הביקור מציג את שלט החנות ואת חלון הראווה. אתר הבעלים מאמת את הכתובת ואת הכניסה מרחוב אוגרודובה.\nRaj Szycia\nKrysiewicza 3A/28\nOgrodowa",
+      "en": "An optional sewing shop and studio requested by Gil, beside Charlotte. Our visit photographs show the shop sign and display window. The owner confirms Krysiewicza 3A/28, with entrance from Ogrodowa.",
+      "pl": "Opcjonalny sklep i pracownia szycia wskazane przez Gila, obok Charlotte. Nasze zdjęcia pokazują szyld i witrynę. Właściciel potwierdza adres Krysiewicza 3A/28 i wejście od Ogrodowej.",
+      "de": "Ein von Gil gewünschtes Nähgeschäft und Atelier neben Charlotte. Unsere Besuchsfotos zeigen das Schild und Schaufenster. Der Betreiber bestätigt Krysiewicza 3A/28 mit Eingang an der Ogrodowa.",
+      "cs": "Volitelný obchod a šicí ateliér požadovaný Gilem vedle Charlotte. Naše fotografie zachycují vývěsní štít a výlohu. Provozovatel potvrzuje adresu Krysiewicza 3A/28 a vstup z Ogrodowé."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Krysiewicza 3A/28",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4039273,
+        "lng": 16.9294221
+      }
+    },
+    "categories": [
+      "shopping"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion",
+        "sewing"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://rajszycia.pl/blog/50_otwarcie-raju-szycia-w-poznaniu",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Raj%20Szycia%20Krysiewicza%203A%2F28%20Pozna%C5%84"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/source-049.jpg",
+        "/assets/poznan/source-050.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/source-049.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/סטודיו תפירה בפוזנמן.JPG",
+          "sourceSHA256": "8acfd790027d3926391bb95e76eaccefc080474029466f091697bd8cb958ff3e",
+          "assetSHA256": "b37a34fca622e83c0cc1ca9f1d49b8bc64e3f58523e738b9368a7dd5cb8de020",
+          "alt": {
+            "he": "שלט החנות וחלון הראווה של סטודיו התפירה",
+            "en": "Shop sign and display window at Raj Szycia",
+            "pl": "Szyld i witryna Raj Szycia",
+            "de": "Ladenschild und Schaufenster von Raj Szycia",
+            "cs": "Vývěsní štít a výloha Raj Szycia"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "8acfd790027d3926391bb95e76eaccefc080474029466f091697bd8cb958ff3e",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/סטודיו תפירה בפוזנמן.JPG"
+        },
+        "/assets/poznan/source-050.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/סטודיו תפירה בפוזנן.JPG",
+          "sourceSHA256": "ed6b344ff94494f0b8ffbd9d9272b140077ebfc65b8d2c824e727aa6dd5ea007",
+          "assetSHA256": "194c09863b70c31f7f97dca24381cd4ff85a65683c5fbbadcacf091179a91e3c",
+          "alt": {
+            "he": "שלט החנות וחלון הראווה של סטודיו התפירה",
+            "en": "Shop sign and display window at Raj Szycia",
+            "pl": "Szyld i witryna Raj Szycia",
+            "de": "Ladenschild und Schaufenster von Raj Szycia",
+            "cs": "Vývěsní štít a výloha Raj Szycia"
+          },
+          "familyForeground": true,
+          "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+          "exactImageHumanApproval": {
+            "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+            "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+            "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+            "sourceSHA256": "ed6b344ff94494f0b8ffbd9d9272b140077ebfc65b8d2c824e727aa6dd5ea007",
+            "date": "2026-10-27"
+          },
+          "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/סטודיו תפירה בפוזנן.JPG"
+        }
+      },
+      "thumbnail": "/assets/poznan/source-049.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://rajszycia.pl/blog/50_otwarcie-raju-szycia-w-poznaniu",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://rajszycia.pl/blog/50_otwarcie-raju-szycia-w-poznaniu",
+        "precisionNote": "Owner locates shop in sameŻelazkobuilding atKrysiewicza3A asCharlotte3A/27; uses alreadyverifiedbuildingPOIcoordinates, not separatelymeasuredentrance"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-old-zoo",
+    "localName": "Stare Zoo",
+    "name": {
+      "he": "גן החיות הישן בייצ׳ה",
+      "en": "Old Zoo in Jeżyce",
+      "pl": "Stare Zoo na Jeżycach",
+      "de": "Alter Zoo in Jeżyce",
+      "cs": "Stará zoo v Jeżycích"
+    },
+    "description": {
+      "he": "בחירה למי שרוצה הפסקה קצרה וירוקה בתוך העיר, שאפשר לשלב עם שכונת ייצ׳ה. השבילים החיצוניים נגישים ללא תשלום; בדקו בנפרד כניסה לביתנים. בחרו בו או בגן החיות החדש לפי הזמן והעניין שלכם.",
+      "en": "Choose this compact urban zoo for a shorter green break alongside Jeżyce. Outdoor paths have free admission; check pavilion admission separately. Pick this or the New Zoo according to your time and interests.",
+      "pl": "Kameralna, zielona przerwa w mieście, którą można połączyć ze spacerem po Jeżycach. Wstęp na teren zewnętrzny jest bezpłatny; warunki wejścia do pawilonów sprawdź osobno. Wybierz ten ogród albo Nowe Zoo zależnie od czasu i zainteresowań.",
+      "de": "Eine kompakte grüne Pause in der Stadt, gut mit Jeżyce kombinierbar. Der Außenbereich ist kostenlos; den Zugang zu Pavillons gesondert prüfen. Wählen Sie diesen Zoo oder den Neuen Zoo nach Zeit und Interesse.",
+      "cs": "Menší zelená zastávka ve městě, kterou lze spojit s procházkou po Jeżycích. Venkovní areál má vstup zdarma; vstup do pavilonů ověřte zvlášť. Podle času a zájmu zvolte tuto nebo Novou zoo."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4081329,
+        "lng": 16.9048906
+      },
+      "address": {
+        "street": "Zwierzyniecka 19",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion",
+        "family",
+        "zoo-choice"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://zoo.poznan.pl/stare-zoo/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Stare%20Zoo%20Zwierzyniecka%2019%20Pozna%C5%84"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://zoo.poznan.pl/stare-zoo/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://kultura.poznan.pl/mim/kultura/en/news/the-poznan-zoo,162960.html",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/369544154",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-new-zoo",
+    "localName": "Nowe Zoo",
+    "name": {
+      "he": "גן החיות החדש ליד מלטה",
+      "en": "New Zoo near Lake Malta",
+      "pl": "Nowe Zoo przy Malcie",
+      "de": "Neuer Zoo bei Malta",
+      "cs": "Nová zoo u Malty"
+    },
+    "description": {
+      "he": "האפשרות המתאימה לביקור ממושך יותר בגן חיות רחב וירוק, באזור אגם מלטה. מומלץ לבחור בו כפעילות נפרדת ולהקצות לו כמה שעות, במקום לנסות להספיק את שני גני החיות באותו סיור. בדקו כרטיסים ושעות באתר הרשמי.",
+      "en": "Choose this extensive green zoo near Lake Malta for a longer animal-focused visit. Allow several hours as a separate activity rather than trying to fit both zoos into the city walk. Check current tickets and opening times on the official website.",
+      "pl": "Rozległy, zielony ogród przy Malcie na dłuższą wizytę poświęconą zwierzętom. Zaplanuj kilka godzin jako osobną aktywność, zamiast próbować odwiedzić oba ogrody podczas jednego spaceru. Aktualne bilety i godziny sprawdź na oficjalnej stronie.",
+      "de": "Der weitläufige grüne Zoo bei Malta eignet sich für einen längeren Tierparkbesuch. Planen Sie mehrere Stunden als eigene Aktivität, statt beide Zoos in den Stadtrundgang zu packen. Aktuelle Tickets und Zeiten stehen auf der offiziellen Website.",
+      "cs": "Rozlehlá zelená zoo u Malty je vhodná pro delší návštěvu zaměřenou na zvířata. Vyhraďte několik hodin jako samostatnou aktivitu místo návštěvy obou zoo během městské procházky. Aktuální vstupenky a otevírání ověřte na oficiálním webu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.3997523,
+        "lng": 17.0057931
+      },
+      "address": {
+        "street": "Krańcowa 81",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion",
+        "family",
+        "zoo-choice"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://zoo.poznan.pl/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Nowe%20Zoo%20Kra%C5%84cowa%2081%20Pozna%C5%84"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://zoo.poznan.pl/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://zoo.poznan.pl/2024/10/24/wyjatkowe-kamyki-na-piecdziesieciolecie-nowego-zoo/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/480832184",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-jezyce-market",
+    "localName": "Rynek Jeżycki",
+    "name": {
+      "he": "ייצ׳ה וכיכר השוק השכונתית",
+      "en": "Jeżyce and its market square",
+      "pl": "Jeżyce i Rynek Jeżycki",
+      "de": "Jeżyce und sein Marktplatz",
+      "cs": "Jeżyce a místní tržiště"
+    },
+    "description": {
+      "he": "השוק הוא נקודת התחלה להיכרות עם ייצ׳ה, שכונה של בתי קפה, חנויות וחיי יום יום. הרימו מבט אל בתי המגורים המעוטרים בסגנון אר נובו ואל המרפסות, הגמלונים והחזיתות המגוונות. אפשר לשלב עם גן החיות הישן ולבחור בית קפה בדרך.",
+      "en": "Start at the market to explore Jeżyce, a neighbourhood of cafés, local shops and everyday city life. Look up at the Art Nouveau apartment houses, balconies, gables and varied façades. Combine the walk with the Old Zoo and a café of your choice.",
+      "pl": "Rynek to punkt wyjścia do spaceru po Jeżycach, dzielnicy kawiarni, lokalnych sklepów i codziennego życia. Spójrz w górę na secesyjne kamienice, balkony, szczyty i różnorodne elewacje. Spacer można połączyć ze Starym Zoo i wybraną kawiarnią.",
+      "de": "Der Markt ist ein guter Ausgangspunkt für Jeżyce mit Cafés, kleinen Geschäften und lokalem Alltag. Schauen Sie auf die Jugendstilhäuser, Balkone, Giebel und vielfältigen Fassaden. Kombinierbar mit dem Alten Zoo und einer Kaffeepause.",
+      "cs": "Tržiště je výchozím bodem pro Jeżyce s kavárnami, místními obchody a každodenním životem. Všímejte si secesních činžovních domů, balkonů, štítů a rozmanitých fasád. Procházku lze spojit se Starou zoo a kavárnou."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4121736,
+        "lng": 16.9045487
+      },
+      "address": {
+        "street": "Rynek Jeżycki",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://www.targowiska.com.pl/lokalizacje/rynek-jezycki/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4121736%2C16.9045487"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.targowiska.com.pl/lokalizacje/rynek-jezycki/",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://visitpoznan.pl/storage/editor/poznanski-szlak-jezycjady-2025.pdf",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/472300173",
+        "precisionNote": "Named POI or mapped area center; not a measured entrance",
+        "checkedAt": "2026-10-27"
+      },
+      "noBorrowedMedia": true
+    }
+  }
+]);

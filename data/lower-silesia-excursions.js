@@ -2015,13 +2015,377 @@
   }
 };
 
+  const poznanStopover = {
+  "id": "poznan-wroclaw-stopover",
+  "slug": "poznan-wroclaw-stopover",
+  "title": {
+    "he": "בדרך לוורוצלב 2: עוצרים בפוזנן",
+    "en": "On the way to Wrocław 2: a stop in Poznań",
+    "pl": "W drodze do Wrocławia 2: przystanek Poznań",
+    "de": "Auf dem Weg nach Wrocław 2: Zwischenstopp in Poznań",
+    "cs": "Cestou do Vratislavi 2: zastávka v Poznani"
+  },
+  "summary": {
+    "he": "יום בפוזנן בין כיכר השוק ובית העירייה, סמטאות העיר העתיקה, אי הקתדרלות וציור הקיר בשרודקה, עם בחירה של עצירת אוכל או קפה בדרך.",
+    "en": "A day in Poznań linking the Old Market Square and Town Hall, Old Town streets, Cathedral Island and the Śródka mural, with a choice of food or coffee stops.",
+    "pl": "Dzień w Poznaniu: Stary Rynek i ratusz, uliczki Starego Miasta, Ostrów Tumski i mural na Śródce, z wybraną przerwą na jedzenie lub kawę.",
+    "de": "Ein Tag in Poznań mit Altem Markt und Rathaus, Altstadtgassen, Dominsel und Śródka-Wandbild sowie einer Pause zum Essen oder Kaffee.",
+    "cs": "Den v Poznani se Starým náměstím a radnicí, uličkami Starého Města, Tumským ostrovem a malbou ve Śródce, s vybranou zastávkou na jídlo či kávu."
+  },
+  "initialMapFocus": "local-stops",
+  "showDestinationMarker": true,
+  "meta": {
+    "duration": "full-day",
+    "startsAt": "poznan",
+    "region": "wielkopolska",
+    "tags": [
+      "city-walk",
+      "architecture",
+      "heritage",
+      "food",
+      "photography"
+    ]
+  },
+  "durationLabel": {
+    "he": "כ־5 עד 7 שעות בעיר, ועוד זמן לנסיעה",
+    "en": "About 5 to 7 hours in the city, plus travel",
+    "pl": "Około 5 do 7 godzin w mieście, plus podróż",
+    "de": "Etwa 5 bis 7 Stunden in der Stadt, zuzüglich Anreise",
+    "cs": "Asi 5 až 7 hodin ve městě a čas na cestu"
+  },
+  "startsLabel": {
+    "he": "ההליכה מתחילה בפוזנן",
+    "en": "The walk starts in Poznań",
+    "pl": "Spacer zaczyna się w Poznaniu",
+    "de": "Der Rundgang beginnt in Poznań",
+    "cs": "Procházka začíná v Poznani"
+  },
+  "regionLabel": {
+    "he": "פוזנן, פולין גדולה",
+    "en": "Poznań, Greater Poland",
+    "pl": "Poznań, Wielkopolska",
+    "de": "Poznań, Großpolen",
+    "cs": "Poznaň, Velkopolsko"
+  },
+  "heroMedia": {
+    "canonicalPlaceId": "poznan-old-market-square",
+    "photoIndex": 0
+  },
+  "canonicalPlaceIds": [
+    "poznan-old-market-square",
+    "poznan-town-hall",
+    "poznan-fara",
+    "poznan-cathedral-island",
+    "poznan-bishop-jordan-bridge",
+    "poznan-srodka-mural"
+  ],
+  "optionalPlaceIds": [
+    "poznan-stary-browar",
+    "charlotte-poznan-krysiewicza",
+    "pierozak-polwiejska-poznan",
+    "pyraland-poznan",
+    "stary-mlyn-zamkowa-poznan",
+    "nifty-puro-poznan",
+    "puro-poznan-stare-miasto",
+    "poznan-posnania",
+    "poznan-citadel-park",
+    "poznan-lake-malta",
+    "poznan-righteous-square",
+    "poznan-new-synagogue",
+    "poznan-royal-castle",
+    "poznan-imperial-castle",
+    "caffe-da-vinci-poznan",
+    "pod-lampionami-poznan",
+    "poznan-jewish-quarter",
+    "ryczka-polna-poznan",
+    "slodko-slona-cafe-poznan",
+    "ghiacci-cafe-poznan",
+    "raj-szycia-poznan",
+    "poznan-old-zoo",
+    "poznan-new-zoo",
+    "poznan-jezyce-market"
+  ],
+  "routePoints": [
+    {
+      "id": "poznan-stop-1",
+      "kind": "place",
+      "canonicalPlaceId": "poznan-old-market-square"
+    },
+    {
+      "id": "poznan-stop-2",
+      "kind": "place",
+      "canonicalPlaceId": "poznan-town-hall"
+    },
+    {
+      "id": "poznan-stop-3",
+      "kind": "place",
+      "canonicalPlaceId": "poznan-fara"
+    },
+    {
+      "id": "poznan-stop-4",
+      "kind": "place",
+      "canonicalPlaceId": "poznan-cathedral-island"
+    },
+    {
+      "id": "poznan-stop-5",
+      "kind": "place",
+      "canonicalPlaceId": "poznan-bishop-jordan-bridge"
+    },
+    {
+      "id": "poznan-stop-6",
+      "kind": "place",
+      "canonicalPlaceId": "poznan-srodka-mural"
+    }
+  ],
+  "walkingRoute": {
+    "city": "poznan",
+    "title": {
+      "he": "המסלול הרגלי בפוזנן",
+      "en": "The Poznań city walk",
+      "pl": "Spacer po Poznaniu",
+      "de": "Stadtrundgang durch Poznań",
+      "cs": "Procházka Poznaní"
+    },
+    "summary": {
+      "he": "מכיכר השוק ובית העירייה עוברים ליד כנסיית פארה, ממשיכים לאי הקתדרלות וחוצים את גשר ירדן אל ציור הקיר בשרודקה. עצירות האוכל והמלון מופיעות בנפרד לבחירה.",
+      "en": "Walk from the Old Market Square and Town Hall past the Fara church, continue to Cathedral Island and cross Bishop Jordan Bridge to the Śródka mural. Food and hotel options are listed separately.",
+      "pl": "Od Starego Rynku i ratusza przez okolice Fary na Ostrów Tumski, a następnie przez most Biskupa Jordana do muralu na Śródce. Jedzenie i hotel to osobne opcje.",
+      "de": "Vom Alten Markt und Rathaus an der Fara vorbei zur Dominsel, dann über die Jordanbrücke zum Śródka-Wandbild. Essen und Hotel stehen als eigene Optionen zur Auswahl.",
+      "cs": "Od Starého náměstí a radnice kolem Fary na Tumský ostrov, přes most biskupa Jordana k malbě ve Śródce. Jídlo a hotel jsou uvedeny jako samostatné možnosti."
+    },
+    "closedLoop": false,
+    "geometryAccuracy": "stop-order-only",
+    "points": [
+      {
+        "id": "1",
+        "canonicalPlaceId": "poznan-old-market-square"
+      },
+      {
+        "id": "2",
+        "canonicalPlaceId": "poznan-town-hall"
+      },
+      {
+        "id": "3",
+        "canonicalPlaceId": "poznan-fara"
+      },
+      {
+        "id": "4",
+        "canonicalPlaceId": "poznan-cathedral-island"
+      },
+      {
+        "id": "5",
+        "canonicalPlaceId": "poznan-bishop-jordan-bridge"
+      },
+      {
+        "id": "6",
+        "canonicalPlaceId": "poznan-srodka-mural"
+      }
+    ],
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Stary+Rynek+Pozna%C5%84&destination=Mural+%C5%9Ar%C3%B3dka+Pozna%C5%84&waypoints=Ratusz+Pozna%C5%84%7CFara+Pozna%C5%84%7CKatedra+Pozna%C5%84%7CMost+Biskupa+Jordana+Pozna%C5%84&travelmode=walking"
+    },
+    "note": {
+      "he": "הקו מציג את סדר התחנות. פתחו ניווט להולכי רגל לקבלת דרך ברחובות. תכננו בנפרד את הדרך מתחנת הרכבת ואת החזרה אליה.",
+      "en": "The line shows stop order. Open walking directions for street routing. Plan the journey from and back to the railway station separately.",
+      "pl": "Linia pokazuje kolejność punktów. Nawigacja piesza wyznaczy trasę ulicami. Osobno zaplanuj dojazd z dworca i powrót na dworzec.",
+      "de": "Die Linie zeigt die Reihenfolge. Die Fußgängernavigation liefert den Straßenweg. Den Weg vom und zum Bahnhof separat planen.",
+      "cs": "Čára ukazuje pořadí míst. Pěší navigace zobrazí cestu ulicemi. Cestu z nádraží a návrat na něj naplánujte zvlášť."
+    }
+  },
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Stary+Rynek+Pozna%C5%84&destination=Mural+%C5%9Ar%C3%B3dka+Pozna%C5%84&waypoints=Ratusz+Pozna%C5%84%7CFara+Pozna%C5%84%7CKatedra+Pozna%C5%84%7CMost+Biskupa+Jordana+Pozna%C5%84&travelmode=walking"
+  },
+  "editorial": {
+    "why": {
+      "he": "פוזנן מתאימה לעצירה עירונית עם כיכר שוק צבעונית, אדריכלות, היסטוריה ואוכל. המסלול מחבר את העיר העתיקה עם אי הקתדרלות ושרודקה, ומשאיר מקום לבחור הפסקת קפה או ארוחה.",
+      "en": "Poznań offers a colourful market square, architecture, history and food. This walk connects the Old Town with Cathedral Island and Śródka, with room to choose a coffee or meal stop.",
+      "pl": "Poznań łączy kolorowy rynek, architekturę, historię i jedzenie. Spacer prowadzi ze Starego Miasta na Ostrów Tumski i Śródkę, z miejscem na kawę lub posiłek.",
+      "de": "Poznań verbindet einen farbenfrohen Markt mit Architektur, Geschichte und Essen. Der Spaziergang führt von der Altstadt zur Dominsel und nach Śródka, mit Zeit für Kaffee oder eine Mahlzeit.",
+      "cs": "Poznaň nabízí barevné náměstí, architekturu, historii a jídlo. Procházka spojuje Staré Město s Tumským ostrovem a Śródkou a ponechává čas na kávu nebo jídlo."
+    },
+    "forWhom": {
+      "he": "למי שמגיע דרך פוזנן וממשיך לוורוצלב, או למי שמקדיש יום נפרד להלוך וחזור מוורוצלב. פוזנן נמצאת בפולין גדולה. היא אינה עצירה על הדרך הישירה מוורשה לוורוצלב.",
+      "en": "For travellers arriving via Poznań before continuing to Wrocław, or taking a separate return day trip from Wrocław. Poznań is in Greater Poland and is not a stop on the direct Warsaw to Wrocław route.",
+      "pl": "Dla przyjeżdżających przez Poznań w drodze do Wrocławia albo na osobną jednodniową wycieczkę z powrotem do Wrocławia. Poznań leży w Wielkopolsce, poza bezpośrednią trasą Warszawa / Wrocław.",
+      "de": "Für eine Anreise über Poznań nach Wrocław oder einen eigenen Tagesausflug mit Rückkehr nach Wrocław. Poznań liegt in Großpolen, abseits der direkten Route Warschau / Wrocław.",
+      "cs": "Pro příjezd přes Poznaň do Vratislavi nebo samostatný jednodenní výlet z Vratislavi s návratem. Poznaň leží ve Velkopolsku mimo přímou trasu Varšava / Vratislav."
+    },
+    "practical": {
+      "he": "הקדישו כחמש עד שבע שעות בעיר לפי קצב ההליכה וההפסקות. זהו אומדן לתכנון, ללא זמני נסיעה. בחרו עצירת אוכל אחת וקפה לפי הרצון. בדקו פתיחה, מזג אוויר ורכבות לתאריך הנסיעה. ביקור בבית העירייה במסלול הוא מבחוץ; המוזיאון סגור לשיפוץ.",
+      "en": "Allow around five to seven hours in the city depending on pace and breaks, excluding travel. Choose one meal stop and coffee if desired. Check opening, weather and date-specific trains. The Town Hall stop is outside; its museum is closed for renovation.",
+      "pl": "Zaplanuj około pięciu do siedmiu godzin w mieście, zależnie od tempa i przerw, bez podróży. Wybierz jeden posiłek i ewentualnie kawę. Sprawdź otwarcie, pogodę i pociągi na konkretny dzień. Ratusz oglądamy z zewnątrz; muzeum jest zamknięte z powodu remontu.",
+      "de": "Je nach Tempo und Pausen etwa fünf bis sieben Stunden in der Stadt einplanen, ohne Anreise. Eine Essenspause und bei Bedarf Kaffee wählen. Öffnung, Wetter und Züge für das Reisedatum prüfen. Das Rathaus wird außen besichtigt; sein Museum ist wegen Renovierung geschlossen.",
+      "cs": "Podle tempa a přestávek počítejte asi s pěti až sedmi hodinami ve městě bez cesty. Vyberte jednu zastávku na jídlo a případně kávu. Ověřte otevření, počasí a vlaky na konkrétní den. Radnici navštívíme zvenku; muzeum je kvůli rekonstrukci zavřené."
+    }
+  },
+  "travel": {
+    "recommendedMode": "train",
+    "segments": [],
+    "estimates": [],
+    "note": {
+      "he": "אפשר לעצור בפוזנן לפני המשך לוורוצלב, או לצאת מוורוצלב ולחזור אליה באותו יום. בנסיעת יום ברכבת בדקו מראש הלוך וחזור והשאירו זמן בעיר ובתחנות. אין כאן התחייבות לרכבת, למחיר או לשעת הגעה.",
+      "en": "Stop in Poznań before continuing to Wrocław, or travel from Wrocław and return the same day. For a train day trip, check outward and return services and allow time in the city and at stations. No specific train, fare or arrival time is promised.",
+      "pl": "Zatrzymaj się w Poznaniu przed dalszą podróżą do Wrocławia albo przyjedź z Wrocławia i wróć tego samego dnia. Sprawdź pociągi w obie strony i zostaw czas w mieście oraz na dworcach. Bez gwarancji konkretnego pociągu, ceny czy godziny przyjazdu.",
+      "de": "In Poznań vor der Weiterfahrt nach Wrocław halten oder von Wrocław anreisen und am selben Tag zurückkehren. Für einen Bahnausflug Hin- und Rückfahrt prüfen und Zeit in der Stadt und an Bahnhöfen einplanen. Kein bestimmter Zug, Preis oder Ankunftszeit wird zugesichert.",
+      "cs": "Zastavte se v Poznani před pokračováním do Vratislavi nebo přijeďte z Vratislavi a vraťte se tentýž den. Ověřte vlaky oběma směry a ponechte čas ve městě i na nádražích. Bez příslibu konkrétního vlaku, ceny nebo příjezdu."
+    },
+    "options": [
+      {
+        "mode": "train",
+        "title": {
+          "he": "רכבת והליכה בעיר",
+          "en": "Train and city walk",
+          "pl": "Pociąg i spacer",
+          "de": "Bahn und Stadtspaziergang",
+          "cs": "Vlak a pěší procházka"
+        },
+        "description": {
+          "he": "בדקו רכבות הלוך וחזור לתאריך שלכם. תחנת פוזנן גלובני נפרדת מתחילת ההליכה בעיר העתיקה; בחרו הליכה, תחבורה עירונית או מונית ביניהן.",
+          "en": "Check outward and return trains for your date. Poznań Główny station is separate from the Old Town walk; choose walking, local transport or a taxi between them.",
+          "pl": "Sprawdź pociągi w obie strony na swój termin. Poznań Główny jest poza początkiem spaceru po Starym Mieście; dojście, komunikację miejską lub taksówkę zaplanuj osobno.",
+          "de": "Hin- und Rückzüge für Ihr Datum prüfen. Poznań Główny liegt außerhalb des Altstadtrundgangs; Fußweg, Nahverkehr oder Taxi separat planen.",
+          "cs": "Ověřte vlaky oběma směry na svůj termín. Poznań Główny leží mimo začátek procházky Starým Městem; pěší cestu, MHD nebo taxi naplánujte zvlášť."
+        }
+      },
+      {
+        "mode": "car",
+        "title": {
+          "he": "עצירה ברכב והמשך לוורוצלב",
+          "en": "Drive, stop and continue to Wrocław",
+          "pl": "Postój autem i dalej do Wrocławia",
+          "de": "Autostopp und Weiterfahrt nach Wrocław",
+          "cs": "Zastávka autem a pokračování do Vratislavi"
+        },
+        "description": {
+          "he": "בדקו חניה מחוץ למדרחובים ומגבלות כניסה לעיר העתיקה. ניווט הנהיגה והניווט הרגלי הם שני מסלולים נפרדים.",
+          "en": "Check parking outside pedestrian streets and Old Town access rules. Driving and walking navigation are separate routes.",
+          "pl": "Sprawdź parking poza deptakami i zasady wjazdu na Stare Miasto. Nawigacja samochodowa i piesza to osobne trasy.",
+          "de": "Parkplätze außerhalb der Fußgängerzonen und Zufahrtsregeln prüfen. Auto- und Fußgängernavigation sind getrennte Routen.",
+          "cs": "Ověřte parkování mimo pěší zóny a pravidla vjezdu do Starého Města. Navigace autem a pěšky jsou samostatné trasy."
+        }
+      },
+      {
+        "mode": "overnight",
+        "title": {
+          "he": "אפשר גם להישאר ללילה",
+          "en": "An overnight stay is also possible",
+          "pl": "Można zostać na noc",
+          "de": "Auch mit Übernachtung möglich",
+          "cs": "Lze zůstat i přes noc"
+        },
+        "description": {
+          "he": "המלון המומלץ והמסעדה שלו מופיעים כאפשרויות לבחירה. בדקו זמינות ומחיר ישירות מול המלון; לינה אינה חלק מחייב של המסלול.",
+          "en": "The recommended hotel and its restaurant are optional. Check availability and rates directly with the hotel; an overnight stay is not required for this walk.",
+          "pl": "Polecany hotel i jego restauracja są opcjonalne. Dostępność i cenę sprawdź bezpośrednio w hotelu; nocleg nie jest wymagany.",
+          "de": "Das empfohlene Hotel und sein Restaurant sind optional. Verfügbarkeit und Preise direkt beim Hotel prüfen; eine Übernachtung ist nicht erforderlich.",
+          "cs": "Doporučený hotel a jeho restaurace jsou volitelné. Dostupnost a cenu ověřte přímo v hotelu; nocleh není nutnou součástí procházky."
+        }
+      }
+    ],
+    "accessibility": []
+  },
+  "steps": [
+    {
+      "id": "market",
+      "canonicalPlaceId": "poznan-old-market-square",
+      "title": {
+        "he": "כיכר השוק ובית העירייה",
+        "en": "Old Market Square and Town Hall",
+        "pl": "Stary Rynek i ratusz",
+        "de": "Alter Markt und Rathaus",
+        "cs": "Staré náměstí a radnice"
+      },
+      "duration": {
+        "he": "הליכה בין הבתים והכיכר, בקצב שלכם",
+        "en": "Explore the square at your own pace",
+        "pl": "Spacer po rynku we własnym tempie",
+        "de": "Den Platz im eigenen Tempo erkunden",
+        "cs": "Procházka náměstím vlastním tempem"
+      }
+    },
+    {
+      "id": "fara",
+      "canonicalPlaceId": "poznan-fara",
+      "title": {
+        "he": "פארה וסמטאות העיר העתיקה",
+        "en": "Fara and Old Town streets",
+        "pl": "Fara i uliczki Starego Miasta",
+        "de": "Fara und Altstadtgassen",
+        "cs": "Fara a uličky Starého Města"
+      },
+      "duration": {
+        "he": "עצירה אדריכלית; כניסה בהתאם לפתיחה ולתפילות",
+        "en": "Architecture stop; entry depends on opening and services",
+        "pl": "Architektura; wejście zależnie od otwarcia i nabożeństw",
+        "de": "Architektur; Einlass je nach Öffnung und Gottesdiensten",
+        "cs": "Architektura; vstup podle otevření a bohoslužeb"
+      }
+    },
+    {
+      "id": "cathedral",
+      "canonicalPlaceId": "poznan-cathedral-island",
+      "title": {
+        "he": "אי הקתדרלות",
+        "en": "Cathedral Island",
+        "pl": "Ostrów Tumski",
+        "de": "Dominsel",
+        "cs": "Tumský ostrov"
+      },
+      "duration": {
+        "he": "המשיכו אל האי והקדישו זמן לסביבת הקתדרלה",
+        "en": "Continue to the island and explore the cathedral surroundings",
+        "pl": "Przejdź na wyspę i obejrzyj otoczenie katedry",
+        "de": "Zur Insel gehen und das Umfeld des Doms erkunden",
+        "cs": "Pokračujte na ostrov a prohlédněte okolí katedrály"
+      }
+    },
+    {
+      "id": "jordan",
+      "canonicalPlaceId": "poznan-bishop-jordan-bridge",
+      "title": {
+        "he": "חוצים את גשר ירדן",
+        "en": "Cross Bishop Jordan Bridge",
+        "pl": "Przejście mostem Biskupa Jordana",
+        "de": "Über die Jordanbrücke",
+        "cs": "Přes most biskupa Jordana"
+      },
+      "duration": {
+        "he": "מבט אל הנהר והמשך לשרודקה",
+        "en": "River views on the way to Śródka",
+        "pl": "Widoki na rzekę w drodze na Śródkę",
+        "de": "Flussblick auf dem Weg nach Śródka",
+        "cs": "Výhledy na řeku cestou do Śródky"
+      }
+    },
+    {
+      "id": "srodka",
+      "canonicalPlaceId": "poznan-srodka-mural",
+      "title": {
+        "he": "שרודקה וציור הקיר",
+        "en": "Śródka and its mural",
+        "pl": "Śródka i mural",
+        "de": "Śródka und das Wandbild",
+        "cs": "Śródka a nástěnná malba"
+      },
+      "duration": {
+        "he": "סיום ההליכה; תכננו מכאן חזרה לתחנה או למלון",
+        "en": "End of the walk; plan your return to the station or hotel",
+        "pl": "Koniec spaceru; zaplanuj powrót na dworzec lub do hotelu",
+        "de": "Ende des Rundgangs; Rückweg zu Bahnhof oder Hotel planen",
+        "cs": "Konec procházky; naplánujte návrat na nádraží nebo do hotelu"
+      }
+    }
+  ],
+  "localOnlyMap": true
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
     title: t("טיולים מוורוצלב", "Excursions from Wrocław", "Wycieczki z Wrocławia", "Ausflüge ab Wrocław", "Výlety z Vratislavi"),
-    status: t("שישה טיולים מוכנים", "Six excursions ready", "Sześć wycieczek gotowych", "Sechs Ausflüge verfügbar", "Šest výletů připraveno"),
-    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds],
+    status: t("שבעה טיולים מוכנים", "Seven excursions ready", "Siedem wycieczek gotowych", "Sieben Ausflüge verfügbar", "Sedm výletů připraveno"),
+    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko, poznanStopover],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds, ...poznanStopover.canonicalPlaceIds, ...poznanStopover.optionalPlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {

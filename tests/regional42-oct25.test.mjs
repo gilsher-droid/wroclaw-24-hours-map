@@ -1,3 +1,4 @@
+import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import {beforeSource35Visit} from './source35-visit-historical-baseline.mjs';
 import {beforeRosePassagePhoto} from './rose-passage53-historical-baseline.mjs';
 import {beforeApprovedWangPhoto43} from './wang-photo43-historical-baseline.mjs';
@@ -10,7 +11,7 @@ const proof=JSON.parse(readFileSync('data/regional42-oct25-preservation.json')),
 runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window,console});
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(x).digest('hex');
 test('Regional42 visits and two Brzeg photos preserve all existing identities, links, media, and 224 other records',()=>{
- assert.deepEqual(Object.keys(window.WROC_CATALOG.places).filter(id=>id!=="lodz-roa-weasels-mural"&&id!=="forum-kulinarne-wroclaw").sort(),Object.keys(proof.recordHashes).sort());
+ assert.deepEqual(historicalPlaceIds(window.WROC_CATALOG.places).filter(id=>id!=="lodz-roa-weasels-mural"&&id!=="forum-kulinarne-wroclaw").sort(),Object.keys(proof.recordHashes).sort());
  let unchanged=0;
  for(const[id,baselineHash]of Object.entries(proof.recordHashes)){
   const current=plain(window.WROC_CATALOG.getPlace(id));const p=proof.changedIds.includes(id)?beforeRosePassagePhoto(beforeApprovedWangPhoto43(beforeSource35Visit(current))):current;

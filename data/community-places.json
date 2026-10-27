@@ -419,6 +419,20 @@
       "lng": 17.0408014
     }
   },
+  "caffe-da-vinci-poznan": {
+    "id": "caffe-da-vinci-poznan",
+    "name": {
+      "he": "קפה דה וינצ׳י בכיכר החופש",
+      "en": "Caffe Da Vinci on Freedom Square",
+      "pl": "Caffe Da Vinci przy placu Wolności",
+      "de": "Caffe Da Vinci am Freiheitsplatz",
+      "cs": "Caffe Da Vinci na náměstí Svobody"
+    },
+    "coordinates": {
+      "lat": 52.4077923,
+      "lng": 16.9255318
+    }
+  },
   "cathedral": {
     "id": "cathedral",
     "name": {
@@ -473,6 +487,20 @@
     "coordinates": {
       "lat": 51.1084962,
       "lng": 17.026063
+    }
+  },
+  "charlotte-poznan-krysiewicza": {
+    "id": "charlotte-poznan-krysiewicza",
+    "name": {
+      "he": "שרלוט בפוזנן",
+      "en": "Charlotte, Poznań",
+      "pl": "Charlotte w Poznaniu",
+      "de": "Charlotte in Poznań",
+      "cs": "Charlotte v Poznani"
+    },
+    "coordinates": {
+      "lat": 52.4039273,
+      "lng": 16.9294221
     }
   },
   "chatka": {
@@ -837,6 +865,20 @@
     "coordinates": {
       "lat": 51.1090086,
       "lng": 17.0256092
+    }
+  },
+  "ghiacci-cafe-poznan": {
+    "id": "ghiacci-cafe-poznan",
+    "name": {
+      "he": "בית הקפה גיאצ׳י בשרודקה",
+      "en": "Ghiacci Cafe in Śródka",
+      "pl": "Ghiacci Cafe na Śródce",
+      "de": "Ghiacci Cafe in Śródka",
+      "cs": "Ghiacci Cafe ve Śródce"
+    },
+    "coordinates": {
+      "lat": 52.411737,
+      "lng": 16.9548558
     }
   },
   "glowny": {
@@ -1847,6 +1889,20 @@
       "lng": 17.02857
     }
   },
+  "nifty-puro-poznan": {
+    "id": "nifty-puro-poznan",
+    "name": {
+      "he": "ניפטי, המסעדה במלון פורו",
+      "en": "Nifty at PURO Poznań",
+      "pl": "Nifty w PURO Poznań",
+      "de": "Nifty im PURO Poznań",
+      "cs": "Nifty v hotelu PURO Poznań"
+    },
+    "coordinates": {
+      "lat": 52.4107082,
+      "lng": 16.9345757
+    }
+  },
   "odra-centrum": {
     "id": "odra-centrum",
     "name": {
@@ -2155,6 +2211,20 @@
       "lng": 17.043502238527
     }
   },
+  "pierozak-polwiejska-poznan": {
+    "id": "pierozak-polwiejska-poznan",
+    "name": {
+      "he": "פירוז׳אק ברחוב פולווייסקה",
+      "en": "Pierożak on Półwiejska",
+      "pl": "Pierożak przy Półwiejskiej",
+      "de": "Pierożak an der Półwiejska",
+      "cs": "Pierożak v ulici Półwiejska"
+    },
+    "coordinates": {
+      "lat": 52.4037688,
+      "lng": 16.9302234
+    }
+  },
   "pijalni-wino-bistro": {
     "id": "pijalni-wino-bistro",
     "name": {
@@ -2181,6 +2251,20 @@
     "coordinates": {
       "lat": 51.0999236,
       "lng": 17.0299738
+    }
+  },
+  "pod-lampionami-poznan": {
+    "id": "pod-lampionami-poznan",
+    "name": {
+      "he": "בית התה פוד למפיונמי",
+      "en": "Pod Lampionami tearoom",
+      "pl": "Herbaciarnia Pod Lampionami",
+      "de": "Teehaus Pod Lampionami",
+      "cs": "Čajovna Pod Lampionami"
+    },
+    "coordinates": {
+      "lat": 52.4078882,
+      "lng": 16.9363663
     }
   },
   "polinka": {
@@ -2239,6 +2323,258 @@
       "lng": 17.0332323
     }
   },
+  "poznan-bishop-jordan-bridge": {
+    "id": "poznan-bishop-jordan-bridge",
+    "name": {
+      "he": "גשר הבישוף ירדן",
+      "en": "Bishop Jordan Bridge",
+      "pl": "Most Biskupa Jordana",
+      "de": "Bischof-Jordan-Brücke",
+      "cs": "Most biskupa Jordana"
+    },
+    "coordinates": {
+      "lat": 52.4115762,
+      "lng": 16.9508761
+    }
+  },
+  "poznan-cathedral-island": {
+    "id": "poznan-cathedral-island",
+    "name": {
+      "he": "אי הקתדרלות בפוזנן",
+      "en": "Cathedral Island, Poznań",
+      "pl": "Ostrów Tumski w Poznaniu",
+      "de": "Dominsel in Poznań",
+      "cs": "Tumský ostrov v Poznani"
+    },
+    "coordinates": {
+      "lat": 52.4113733,
+      "lng": 16.9485346
+    }
+  },
+  "poznan-citadel-park": {
+    "id": "poznan-citadel-park",
+    "name": {
+      "he": "פארק סיטדל",
+      "en": "Citadel Park",
+      "pl": "Park Cytadela",
+      "de": "Zitadellenpark",
+      "cs": "Park Cytadela"
+    },
+    "coordinates": {
+      "lat": 52.4215136,
+      "lng": 16.9349022
+    }
+  },
+  "poznan-fara": {
+    "id": "poznan-fara",
+    "name": {
+      "he": "כנסיית פארה בפוזנן",
+      "en": "Fara Parish Church, Poznań",
+      "pl": "Fara Poznańska",
+      "de": "Fara-Pfarrkirche in Poznań",
+      "cs": "Farní kostel Fara v Poznani"
+    },
+    "coordinates": {
+      "lat": 52.4064953,
+      "lng": 16.9340825
+    }
+  },
+  "poznan-imperial-castle": {
+    "id": "poznan-imperial-castle",
+    "name": {
+      "he": "הטירה הקיסרית ומרכז התרבות זאמק",
+      "en": "Imperial Castle and Zamek Culture Centre",
+      "pl": "Zamek Cesarski i Centrum Kultury ZAMEK",
+      "de": "Kaiserschloss und Kulturzentrum Zamek",
+      "cs": "Císařský zámek a kulturní centrum Zamek"
+    },
+    "coordinates": {
+      "lat": 52.4080255,
+      "lng": 16.9187111
+    }
+  },
+  "poznan-jewish-quarter": {
+    "id": "poznan-jewish-quarter",
+    "name": {
+      "he": "הרובע היהודי ההיסטורי",
+      "en": "Historic Jewish quarter",
+      "pl": "Dawna dzielnica żydowska",
+      "de": "Historisches jüdisches Viertel",
+      "cs": "Historická židovská čtvrť"
+    },
+    "coordinates": {
+      "lat": 52.4099845,
+      "lng": 16.93467115
+    }
+  },
+  "poznan-jezyce-market": {
+    "id": "poznan-jezyce-market",
+    "name": {
+      "he": "ייצ׳ה וכיכר השוק השכונתית",
+      "en": "Jeżyce and its market square",
+      "pl": "Jeżyce i Rynek Jeżycki",
+      "de": "Jeżyce und sein Marktplatz",
+      "cs": "Jeżyce a místní tržiště"
+    },
+    "coordinates": {
+      "lat": 52.4121736,
+      "lng": 16.9045487
+    }
+  },
+  "poznan-lake-malta": {
+    "id": "poznan-lake-malta",
+    "name": {
+      "he": "אגם מלטה",
+      "en": "Lake Malta",
+      "pl": "Jezioro Maltańskie",
+      "de": "Maltasee",
+      "cs": "Jezero Malta"
+    },
+    "coordinates": {
+      "lat": 52.4038691,
+      "lng": 16.9714666
+    }
+  },
+  "poznan-new-synagogue": {
+    "id": "poznan-new-synagogue",
+    "name": {
+      "he": "בית הכנסת החדש בפוזנן",
+      "en": "New Synagogue, Poznań",
+      "pl": "Nowa Synagoga w Poznaniu",
+      "de": "Neue Synagoge in Poznań",
+      "cs": "Nová synagoga v Poznani"
+    },
+    "coordinates": {
+      "lat": 52.4109605,
+      "lng": 16.935033
+    }
+  },
+  "poznan-new-zoo": {
+    "id": "poznan-new-zoo",
+    "name": {
+      "he": "גן החיות החדש ליד מלטה",
+      "en": "New Zoo near Lake Malta",
+      "pl": "Nowe Zoo przy Malcie",
+      "de": "Neuer Zoo bei Malta",
+      "cs": "Nová zoo u Malty"
+    },
+    "coordinates": {
+      "lat": 52.3997523,
+      "lng": 17.0057931
+    }
+  },
+  "poznan-old-market-square": {
+    "id": "poznan-old-market-square",
+    "name": {
+      "he": "כיכר השוק העתיקה בפוזנן",
+      "en": "Old Market Square, Poznań",
+      "pl": "Stary Rynek w Poznaniu",
+      "de": "Alter Markt in Poznań",
+      "cs": "Staré náměstí v Poznani"
+    },
+    "coordinates": {
+      "lat": 52.4084694,
+      "lng": 16.9336247
+    }
+  },
+  "poznan-old-zoo": {
+    "id": "poznan-old-zoo",
+    "name": {
+      "he": "גן החיות הישן בייצ׳ה",
+      "en": "Old Zoo in Jeżyce",
+      "pl": "Stare Zoo na Jeżycach",
+      "de": "Alter Zoo in Jeżyce",
+      "cs": "Stará zoo v Jeżycích"
+    },
+    "coordinates": {
+      "lat": 52.4081329,
+      "lng": 16.9048906
+    }
+  },
+  "poznan-posnania": {
+    "id": "poznan-posnania",
+    "name": {
+      "he": "קניון פוזנניה",
+      "en": "Posnania shopping centre",
+      "pl": "Centrum handlowe Posnania",
+      "de": "Einkaufszentrum Posnania",
+      "cs": "Nákupní centrum Posnania"
+    },
+    "coordinates": {
+      "lat": 52.3965106,
+      "lng": 16.9561173
+    }
+  },
+  "poznan-righteous-square": {
+    "id": "poznan-righteous-square",
+    "name": {
+      "he": "כיכר חסידי אומות העולם",
+      "en": "Righteous Among the Nations Square",
+      "pl": "Skwer Sprawiedliwych Wśród Narodów Świata",
+      "de": "Platz der Gerechten unter den Völkern",
+      "cs": "Náměstí Spravedlivých mezi národy"
+    },
+    "coordinates": {
+      "lat": 52.3989454,
+      "lng": 16.9278866
+    }
+  },
+  "poznan-royal-castle": {
+    "id": "poznan-royal-castle",
+    "name": {
+      "he": "הטירה המלכותית בפוזנן",
+      "en": "Royal Castle, Poznań",
+      "pl": "Zamek Królewski w Poznaniu",
+      "de": "Königsschloss in Poznań",
+      "cs": "Královský hrad v Poznani"
+    },
+    "coordinates": {
+      "lat": 52.4091571,
+      "lng": 16.9310071
+    }
+  },
+  "poznan-srodka-mural": {
+    "id": "poznan-srodka-mural",
+    "name": {
+      "he": "ציור הקיר בשרודקה",
+      "en": "Śródka mural",
+      "pl": "Mural na Śródce",
+      "de": "Śródka-Wandbild",
+      "cs": "Nástěnná malba ve Śródce"
+    },
+    "coordinates": {
+      "lat": 52.4112909,
+      "lng": 16.9533278
+    }
+  },
+  "poznan-stary-browar": {
+    "id": "poznan-stary-browar",
+    "name": {
+      "he": "סטארי ברובאר",
+      "en": "Stary Browar",
+      "pl": "Stary Browar",
+      "de": "Stary Browar",
+      "cs": "Stary Browar"
+    },
+    "coordinates": {
+      "lat": 52.4011751,
+      "lng": 16.9280301
+    }
+  },
+  "poznan-town-hall": {
+    "id": "poznan-town-hall",
+    "name": {
+      "he": "בית העירייה של פוזנן",
+      "en": "Poznań Town Hall",
+      "pl": "Ratusz w Poznaniu",
+      "de": "Rathaus von Poznań",
+      "cs": "Poznaňská radnice"
+    },
+    "coordinates": {
+      "lat": 52.4085868,
+      "lng": 16.9340342
+    }
+  },
   "prize-by-radisson-wroclaw-sky-tower": {
     "id": "prize-by-radisson-wroclaw-sky-tower",
     "name": {
@@ -2279,6 +2615,48 @@
     "coordinates": {
       "lat": 51.1079917,
       "lng": 17.0248927
+    }
+  },
+  "puro-poznan-stare-miasto": {
+    "id": "puro-poznan-stare-miasto",
+    "name": {
+      "he": "מלון פורו פוזנן בעיר העתיקה",
+      "en": "PURO Poznań Stare Miasto",
+      "pl": "PURO Poznań Stare Miasto",
+      "de": "PURO Poznań Stare Miasto",
+      "cs": "PURO Poznań Stare Miasto"
+    },
+    "coordinates": {
+      "lat": 52.4107082,
+      "lng": 16.9345757
+    }
+  },
+  "pyraland-poznan": {
+    "id": "pyraland-poznan",
+    "name": {
+      "he": "פיראלנד",
+      "en": "Pyraland",
+      "pl": "Pyraland",
+      "de": "Pyraland",
+      "cs": "Pyraland"
+    },
+    "coordinates": {
+      "lat": 52.4013362,
+      "lng": 16.9287401
+    }
+  },
+  "raj-szycia-poznan": {
+    "id": "raj-szycia-poznan",
+    "name": {
+      "he": "ראי שיצ׳יה, סטודיו וחנות תפירה",
+      "en": "Raj Szycia sewing studio and shop",
+      "pl": "Raj Szycia, showroom i pracownia",
+      "de": "Raj Szycia, Nähatelier und Geschäft",
+      "cs": "Raj Szycia, šicí ateliér a obchod"
+    },
+    "coordinates": {
+      "lat": 52.4039273,
+      "lng": 16.9294221
     }
   },
   "renoma": {
@@ -2323,6 +2701,20 @@
       "lng": 17.0292728
     }
   },
+  "ryczka-polna-poznan": {
+    "id": "ryczka-polna-poznan",
+    "name": {
+      "he": "קפה ריצ׳קה בייצ׳ה",
+      "en": "Ryczka café in Jeżyce",
+      "pl": "Śniadaniownia by Ryczka na Jeżycach",
+      "de": "Café Ryczka in Jeżyce",
+      "cs": "Kavárna Ryczka v Jeżycích"
+    },
+    "coordinates": {
+      "lat": 52.41090475,
+      "lng": 16.89597505
+    }
+  },
   "rynek": {
     "id": "rynek",
     "name": {
@@ -2363,6 +2755,20 @@
     "coordinates": {
       "lat": 51.1025544,
       "lng": 17.0287526
+    }
+  },
+  "slodko-slona-cafe-poznan": {
+    "id": "slodko-slona-cafe-poznan",
+    "name": {
+      "he": "סוודקו סוונה קפה",
+      "en": "Słodko Słona Cafe",
+      "pl": "Słodko Słona Cafe",
+      "de": "Słodko Słona Cafe",
+      "cs": "Słodko Słona Cafe"
+    },
+    "coordinates": {
+      "lat": 52.407322750000006,
+      "lng": 16.93532085
     }
   },
   "slodowa": {
@@ -2461,6 +2867,20 @@
     "coordinates": {
       "lat": 51.1092085,
       "lng": 17.0331316
+    }
+  },
+  "stary-mlyn-zamkowa-poznan": {
+    "id": "stary-mlyn-zamkowa-poznan",
+    "name": {
+      "he": "סטארי מלין בפוזנן",
+      "en": "Stary Młyn, Poznań",
+      "pl": "Stary Młyn w Poznaniu",
+      "de": "Stary Młyn in Poznań",
+      "cs": "Stary Młyn v Poznani"
+    },
+    "coordinates": {
+      "lat": 52.408989,
+      "lng": 16.93214
     }
   },
   "studio-bwa-wroclaw": {
