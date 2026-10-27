@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-27T20:50:05.684175+00:00",
+  "at": "2026-10-27T20:54:06.334170+00:00",
   "sourcePhotoFiles": 131,
   "sourceVideoFiles": 7,
   "publicationStage": "Additional verified media in local integration; deployment and live QA pending",
@@ -1705,9 +1705,36 @@
         "de": "Gedenktafel des Pfadfinderchors am Ostrówek 7 in Śródka",
         "cs": "Pamětní deska skautského sboru na Ostrówek 7 ve Śródce"
       }
+    },
+    {
+      "placeId": "poznan-reforma-doorway-mural",
+      "sourceIndex": 112,
+      "asset": "/assets/poznan/verified-source-112.jpg",
+      "original": true,
+      "sourceFile": "פוזנן/פוזנן תמונת רחוב .JPG",
+      "sourceSHA256": "b19aad89e39239d133eb9ec47747db89ede0b625fa71cafb04c548ef4cf8a098",
+      "assetSHA256": "7316d991dcd65bf68b5241535e85e2e13c2ec6d088d9f2d33097ce2468c69bda",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        1500,
+        2000
+      ],
+      "fullFramePreserved": true,
+      "alt": {
+        "he": "ציור קיר של דלתות ירוקות ודמות במעיל כתום על חזית הבניין",
+        "en": "Mural of green doors and a figure in an orange coat on the building façade",
+        "pl": "Mural z zielonymi drzwiami i postacią w pomarańczowym płaszczu na elewacji",
+        "de": "Wandbild mit grünen Türen und einer Figur im orangefarbenen Mantel an der Fassade",
+        "cs": "Malba zelených dveří a postavy v oranžovém kabátě na průčelí"
+      },
+      "identityEvidence": "Exact visual comparison with owner mural photograph and address node2511520382 matched by root to the owner location map",
+      "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
     }
   ],
-  "uniqueAssets": 106,
+  "uniqueAssets": 107,
   "heldPersonalPhotos": [],
   "pendingPhotoSourceIndices": [
     30,

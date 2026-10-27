@@ -2561,6 +2561,20 @@
       "lng": 16.9561173
     }
   },
+  "poznan-reforma-doorway-mural": {
+    "id": "poznan-reforma-doorway-mural",
+    "name": {
+      "he": "ציור קיר של דלת לעולם אחר",
+      "en": "Doorway mural at Niedziałkowskiego 1",
+      "pl": "Mural przy Niedziałkowskiego 1",
+      "de": "Tür-Wandbild an der Niedziałkowskiego 1",
+      "cs": "Malba dveří na Niedziałkowskiego 1"
+    },
+    "coordinates": {
+      "lat": 52.399479,
+      "lng": 16.9264273
+    }
+  },
   "poznan-righteous-square": {
     "id": "poznan-righteous-square",
     "name": {

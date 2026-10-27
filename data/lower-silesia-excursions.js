@@ -2108,7 +2108,8 @@
     "poznan-collegium-minus",
     "poznan-franciscan-church-st-anthony",
     "foodfort-poznan",
-    "rogal-stary-rynek-poznan"
+    "rogal-stary-rynek-poznan",
+    "poznan-reforma-doorway-mural"
   ],
   "routePoints": [
     {

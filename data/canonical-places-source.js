@@ -27288,5 +27288,101 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
       },
       "noBorrowedMedia": true
     }
+  },
+  {
+    "id": "poznan-reforma-doorway-mural",
+    "localName": "Mural przy Niedziałkowskiego 1",
+    "name": {
+      "he": "ציור קיר של דלת לעולם אחר",
+      "en": "Doorway mural at Niedziałkowskiego 1",
+      "pl": "Mural przy Niedziałkowskiego 1",
+      "de": "Tür-Wandbild an der Niedziałkowskiego 1",
+      "cs": "Malba dveří na Niedziałkowskiego 1"
+    },
+    "description": {
+      "he": "ציור קיר על חזית בניין ברחוב נדז׳יאלקובסקייגו 1. דלתות ירוקות ודמות במעיל כתום פותחות מבט מצויר אל מדרגות ובניינים. תמונת הביקור מציגה את היצירה במלואה, כעצירה קצרה לבחירה.",
+      "en": "A mural on the façade at Niedziałkowskiego 1. Green doors and a figure in an orange coat open onto painted stairs and buildings. Our visit photograph shows the complete artwork, an optional short stop.",
+      "pl": "Mural na elewacji przy Niedziałkowskiego 1. Zielone drzwi i postać w pomarańczowym płaszczu otwierają widok na namalowane schody i budynki. Zdjęcie z naszej wizyty pokazuje całe dzieło jako propozycję krótkiego przystanku.",
+      "de": "Ein Wandbild an der Fassade der Niedziałkowskiego 1. Grüne Türen und eine Figur im orangefarbenen Mantel geben den Blick auf gemalte Treppen und Häuser frei. Unser Besuchsfoto zeigt das gesamte Werk als Möglichkeit für einen kurzen Halt.",
+      "cs": "Nástěnná malba na průčelí domu Niedziałkowskiego 1. Zelené dveře a postava v oranžovém kabátě otevírají pohled na malované schody a domy. Fotografie z naší návštěvy ukazuje celé dílo jako možnost krátké zastávky."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Mieczysława Niedziałkowskiego 1",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.399479,
+        "lng": 16.9264273
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://reforma.nieruchomosci.pl/niedzialkowskiego-1/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.399479%2C16.9264273"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/verified-source-112.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/verified-source-112.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/פוזנן תמונת רחוב .JPG",
+          "sourceSHA256": "b19aad89e39239d133eb9ec47747db89ede0b625fa71cafb04c548ef4cf8a098",
+          "assetSHA256": "7316d991dcd65bf68b5241535e85e2e13c2ec6d088d9f2d33097ce2468c69bda",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "ציור קיר של דלתות ירוקות ודמות במעיל כתום על חזית הבניין",
+            "en": "Mural of green doors and a figure in an orange coat on the building façade",
+            "pl": "Mural z zielonymi drzwiami i postacią w pomarańczowym płaszczu na elewacji",
+            "de": "Wandbild mit grünen Türen und einer Figur im orangefarbenen Mantel an der Fassade",
+            "cs": "Malba zelených dveří a postavy v oranžovém kabátě na průčelí"
+          },
+          "identityEvidence": "Exact visual comparison with owner mural photograph and address node2511520382 matched by root to the owner location map",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        }
+      },
+      "thumbnail": "/assets/poznan/verified-source-112.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://reforma.nieruchomosci.pl/niedzialkowskiego-1/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/2511520382",
+        "precisionNote": "Destination POI from the owner or municipal tourism link; not the map camera centre or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    }
   }
 ]);
