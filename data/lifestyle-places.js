@@ -45,6 +45,7 @@
   const sourceShopping = t("מופיע בשכבת מרכזי הקניות של מפת הקהילה.", "Included in the community map’s shopping-centre layer.", "Znajduje się w warstwie centrów handlowych mapy społeczności.", "In der Einkaufszentrum-Ebene der Community-Karte enthalten.", "Zahrnuto ve vrstvě nákupních center komunitní mapy.");
 
   window.WROC_LIFESTYLE_PLACES = [
+    {id:"forum-kulinarne-wroclaw",categories:["eat"],coordinates:[51.106514,17.0297567],mediaKey:"forum-kulinarne-wroclaw"},
 {"id": "vega-bar-weganski-wroclaw", "categories": ["eat"], "coordinates": [51.10989298784371, 17.032397085533102], "mediaKey": "vega-bar-weganski-wroclaw"},
 {"id": "lwia-brama-restaurant-wroclaw", "categories": ["eat"], "coordinates": [51.114186, 17.0440984], "mediaKey": "lwia-brama-restaurant-wroclaw"},
 {"id": "woosabi-swidnicka-wroclaw", "categories": ["eat"], "coordinates": [51.106280200268216, 17.03186185493995], "mediaKey": "woosabi-swidnicka-wroclaw"},

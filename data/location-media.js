@@ -286,3 +286,9 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Expose complete cafe/mall galleries through existing card actions; retain resource descriptors.
 (function(){for(const id of ["mala-czarna-paderewskiego", "pasaz", "pizza-si", "woosabi-swidnicka-wroclaw"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;window.WROC_LOCATION_MEDIA[id]=r;}})();
+
+// The Lifestyle gallery reads the same original photo as the canonical record.
+(function () {
+  const place = window.WROC_CATALOG?.getPlace?.("forum-kulinarne-wroclaw");
+  if (place) window.WROC_LOCATION_MEDIA[place.id] = { gallery: place.media.photos, videos: place.media.videos };
+})();

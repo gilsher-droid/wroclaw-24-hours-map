@@ -22067,3 +22067,128 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({
   place.media.videos=Array.from(new Set([...(place.media.videos||[]),url]));
   place.media.metadata={...(place.media.metadata||{}),[url]:{"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Video 2026-10-05 at 18.30.46.mp4", "sourceSHA256": "5c9549601ca57e5893bc230cce7826ad5fc7c4bd773a0146194a2ed77eaca29c", "uploadSHA256": "c54c7926f34731b4866deec8541ee14261f359e635cc42a2ba61f06c7444ec00", "originalFullPicturePreserved": true, "audioRemoved": true, "durationSeconds": 7.853333, "title": {"he": "מצודת סברנה גורה: פרט מהביקור בחוץ", "en": "Srebrna Góra Fortress: outdoor visit detail", "pl": "Twierdza Srebrna Góra: detal z wizyty na zewnątrz", "de": "Festung Silberberg: Detail vom Besuch im Freien", "cs": "Pevnost Stříbrná Hora: detail z venkovní návštěvy"}, "alt": {"he": "מצודת סברנה גורה: פרט מהביקור בחוץ", "en": "Srebrna Góra Fortress: outdoor visit detail", "pl": "Twierdza Srebrna Góra: detal z wizyty na zewnątrz", "de": "Festung Silberberg: Detail vom Besuch im Freien", "cs": "Pevnost Stříbrná Hora: detail z venkovní návštěvy"}, "description": {"he": "עשב מול ביצורי האבן במצודת סברנה גורה, מתוך הביקור שלנו. סרטון ללא קול, עם התמונה המקורית המלאה.", "en": "Grass in front of the stone fortifications at Srebrna Góra Fortress during our visit. Silent video preserving the full original picture.", "pl": "Trawa na tle kamiennych umocnień Twierdzy Srebrna Góra podczas naszej wizyty. Film bez dźwięku, z zachowaniem pełnego oryginalnego obrazu.", "de": "Gras vor den steinernen Befestigungen der Festung Silberberg während unseres Besuchs. Stummes Video mit vollständig erhaltenem Originalbild.", "cs": "Tráva před kamenným opevněním pevnosti Stříbrná Hora během naší návštěvy. Video bez zvuku se zachovaným celým původním obrazem."}, "visibility": "Public", "publicVisibilityReopenedAt": "2026-10-27T06:24:02.794924+00:00", "publicationApprovalCall": "call_31c32023d98b4930bf40ba316af4803a", "decodedVideoSHA256": "4e523a1fd3588a796541fbabf31d41e79cc1d349ea37661d46d0d3ee7b47b400"}};
 })();
+
+// Source-reviewed Forum Kulinarne facade; one canonical for the Lifestyle food map.
+window.WROC_CANONICAL_PLACE_SOURCE.push({
+  "id": "forum-kulinarne-wroclaw",
+  "localName": "Forum Kulinarne",
+  "aliases": [
+    "Forum Kulinarne Wrocław",
+    "Restauracja Forum Kulinarne",
+    "Forum Kulinarne Plac Wolności 4"
+  ],
+  "name": {
+    "he": "פורום קולינרנה",
+    "en": "Forum Kulinarne",
+    "pl": "Forum Kulinarne",
+    "de": "Forum Kulinarne",
+    "cs": "Forum Kulinarne"
+  },
+  "description": {
+    "he": "צילום הביקור שלנו מציג את חזית העץ והכניסה למסעדה בכיכר וולנושצ׳י.\nForum Kulinarne\nPlac Wolności 4, Wrocław",
+    "en": "Our visit photograph shows the wooden facade and entrance of the restaurant on Plac Wolności.\nPlac Wolności 4, Wrocław",
+    "pl": "Nasze zdjęcie z wizyty pokazuje drewnianą fasadę i wejście do restauracji przy placu Wolności.\nPlac Wolności 4, Wrocław",
+    "de": "Unser Besuchsfoto zeigt die Holzfassade und den Eingang des Restaurants am Plac Wolności.\nPlac Wolności 4, Wrocław",
+    "cs": "Naše fotografie z návštěvy zachycuje dřevěné průčelí a vstup do restaurace na náměstí Plac Wolności.\nPlac Wolności 4, Wrocław"
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.106514,
+      "lng": 17.0297567
+    },
+    "address": {
+      "street": "Plac Wolności 4",
+      "postalCode": "50-071",
+      "city": "Wrocław",
+      "country": "Poland"
+    }
+  },
+  "categories": [
+    "eat"
+  ],
+  "status": "published",
+  "taxonomy": {
+    "categories": [
+      "eat"
+    ],
+    "tags": []
+  },
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "links": {
+    "website": "https://forumkulinarne.eu/",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.106514%2C17.0297567"
+    },
+    "socialProfileFallback": false
+  },
+  "socialPosts": [],
+  "media": {
+    "thumbnail": "/assets/food-cafes/forum-kulinarne-wroclaw-01.jpg",
+    "photos": [
+      "/assets/food-cafes/forum-kulinarne-wroclaw-01.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/food-cafes/forum-kulinarne-wroclaw-01.jpg": {
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.12.04 (5).jpeg",
+        "sourceSHA256": "8a970b9e91f3a10d3e999eeef0efcfa6884f13ec715b38ca8fb22feca608a196",
+        "assetSHA256": "8a970b9e91f3a10d3e999eeef0efcfa6884f13ec715b38ca8fb22feca608a196",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "incidentalPublicPedestrians": true,
+        "privacyDecisionReceipt": "urban63-full-original-context-review/bounded-context-and-venue-decision.json",
+        "alt": {
+          "he": "חזית העץ והכניסה של פורום קולינרנה בכיכר וולנושצ׳י",
+          "en": "Wooden facade and entrance of Forum Kulinarne on Plac Wolności",
+          "pl": "Drewniana fasada i wejście do Forum Kulinarne przy placu Wolności",
+          "de": "Holzfassade und Eingang von Forum Kulinarne am Plac Wolności",
+          "cs": "Dřevěné průčelí a vstup do Forum Kulinarne na náměstí Plac Wolności"
+        },
+        "verifiedAt": "2026-10-27T09:09:37.850193+00:00"
+      }
+    }
+  },
+  "provenance": {
+    "identityVerification": {
+      "officialSource": "https://forumkulinarne.eu/kontakt/",
+      "photoVisibleEvidence": [
+        "FORUM KULINARNE",
+        "number4",
+        "phone663017575"
+      ],
+      "coordinateProof": {
+        "source": "https://forumkulinarne.eu/kontakt/",
+        "publicEmbedSnapshot": "owner-map-embed-public.html",
+        "featureId": "0x470fc27385980207:0x6608ed9003aac6c7",
+        "placeId": "ChIJBwKYhXPCD0cRx8aqA5DtCGY",
+        "addressFeatureLabel": "plac Wolności 4, 50-071 Wrocław",
+        "addressFeatureCoordinates": {
+          "lat": 51.106514,
+          "lng": 17.0297567
+        },
+        "exactPublicFeatureExcerpt": "[[\"0x470fc27385980207:0x6608ed9003aac6c7\",\"plac Wolności 4, 50-071 Wrocław\",[51.106514,17.0297567]]",
+        "cameraCenterRejected": {
+          "lat": 51.106461979571264,
+          "lng": 17.02755041572214
+        },
+        "precisionNote": "Address feature selected and embedded by the venue owner, not a measured entrance or promise of interior access"
+      }
+    },
+    "factualSources": [
+      {
+        "type": "official",
+        "url": "https://forumkulinarne.eu/kontakt/",
+        "checkedAt": "2026-10-27"
+      }
+    ]
+  }
+});

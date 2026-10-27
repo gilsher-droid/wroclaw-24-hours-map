@@ -12,7 +12,7 @@ const hash=v=>createHash('sha256').update(v).digest('hex');
 test('ROA is one new canonical and one original; all231 existing records stay byte-equivalent',()=>{
  const all=window.WROC_CATALOG.places;
  assert.equal(Object.keys(proof.existingRecordHashes).length,231);
- assert.equal(Object.keys(all).length,232);
+ assert.equal(Object.keys(all).length,233);
  for(const[id,expected]of Object.entries(proof.existingRecordHashes))assert.equal(hash(JSON.stringify(all[id])),expected,id);
  const p=all[proof.canonicalId];assert.ok(p);assert.equal(p.media.photos.length,1);assert.equal(p.media.videos.length,0);
  assert.deepEqual(plain(p.location.coordinates),{lat:51.7780469,lng:19.4546196});
