@@ -797,6 +797,20 @@
       "lng": 17.0327024
     }
   },
+  "foodfort-poznan": {
+    "id": "foodfort-poznan",
+    "name": {
+      "he": "פודפורט באי הקתדרלות",
+      "en": "FoodFort on Cathedral Island",
+      "pl": "FoodFort na Ostrowie Tumskim",
+      "de": "FoodFort auf der Dominsel",
+      "cs": "FoodFort na Tumském ostrově"
+    },
+    "coordinates": {
+      "lat": 52.412225,
+      "lng": 16.9497143
+    }
+  },
   "forum-kulinarne-wroclaw": {
     "id": "forum-kulinarne-wroclaw",
     "name": {
@@ -2727,6 +2741,20 @@
     "coordinates": {
       "lat": 51.1079248,
       "lng": 17.0779726
+    }
+  },
+  "rogal-stary-rynek-poznan": {
+    "id": "rogal-stary-rynek-poznan",
+    "name": {
+      "he": "רוגאל בכיכר השוק",
+      "en": "ROGAL on the Old Market Square",
+      "pl": "ROGAL na Starym Rynku",
+      "de": "ROGAL am Alten Markt",
+      "cs": "ROGAL na Starém rynku"
+    },
+    "coordinates": {
+      "lat": 52.4080622,
+      "lng": 16.9340946
     }
   },
   "royal-palace-wroclaw": {
