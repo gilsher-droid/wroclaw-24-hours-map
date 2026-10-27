@@ -491,7 +491,9 @@
     if(!tabs.querySelector("[data-media-tab]")) tabs.innerHTML=["photos","videos"].filter(kind=>mediaItems(canonical,kind).length).map(kind=>`<button type="button" data-media-tab="${kind}">${labels[kind]}</button>`).join("");
     tabs.querySelectorAll("button").forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.mediaTab===activeMedia.kind)));
     mediaDialog.querySelector(".excursion-media-stage").innerHTML=activeMedia.kind==="photos" ? `<img src="${escapeHtml(items[activeMedia.index])}" alt="${escapeHtml(photoAlt(canonical,items[activeMedia.index]))}" draggable="false">` : window.WROC_YOUTUBE_VIDEO.html(items[activeMedia.index],`${local(canonical.name)} ${activeMedia.index+1}`,language);
-    mediaDialog.querySelector(".excursion-media-fallback").innerHTML=activeMedia.kind==="videos" ? window.WROC_YOUTUBE_VIDEO.watchLink(items[activeMedia.index],language) : "";
+    const caption = activeMedia.kind === "photos" && selectedExcursion().id === "poznan-wroclaw-stopover"
+      ? local(canonical.media?.metadata?.[items[activeMedia.index]]?.caption) : "";
+    mediaDialog.querySelector(".excursion-media-fallback").innerHTML=activeMedia.kind==="videos" ? window.WROC_YOUTUBE_VIDEO.watchLink(items[activeMedia.index],language) : caption ? `<p class="excursion-photo-caption">${escapeHtml(caption)}</p>` : "";
     mediaDialog.querySelector("[data-media-counter]").textContent=`${activeMedia.index+1} / ${items.length}`;
     for(const step of [-1,1]) {const button=mediaDialog.querySelector(`[data-media-step="${step}"]`);button.textContent=step<0?`‹ ${labels.previous}`:`${labels.next} ›`;button.disabled=items.length<2;}
   }

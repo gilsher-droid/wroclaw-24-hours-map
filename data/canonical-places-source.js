@@ -22250,7 +22250,9 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
         "/assets/poznan/source-035.jpg",
         "/assets/poznan/source-039.jpg",
         "/assets/poznan/source-040.jpg",
-        "/assets/poznan/source-019.jpg"
+        "/assets/poznan/source-019.jpg",
+        "/assets/poznan/verified-source-100.jpg",
+        "/assets/poznan/verified-source-096.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=hKhY6kmJotc"
@@ -22364,6 +22366,68 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
           "reuseSourceIndices": [
             4
           ]
+        },
+        "/assets/poznan/verified-source-100.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רחובות פוזנן.JPG",
+          "sourceSHA256": "1b6b73b793c7c9cbfd8d745bd693774d5cce36d01e38a19cdf7fbd1711871b72",
+          "assetSHA256": "a52cfb0bab3bd560c6455b4e3b207764963ef1c4dc36ec15794445bc7e5e77e0",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "מדרחוב ורוצלבסקה בעיר העתיקה בפוזנן",
+            "en": "Wrocławska pedestrian street in Poznań Old Town",
+            "pl": "Deptak Wrocławska na poznańskim Starym Mieście",
+            "de": "Fußgängerstraße Wrocławska in der Posener Altstadt",
+            "cs": "Pěší ulice Wrocławska ve starém městě Poznaně"
+          },
+          "identityEvidence": "FAME/FANCY signage, owner Booksy address and municipal street document",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder",
+          "caption": {
+            "he": "מדרחוב ורוצלבסקה בעיר העתיקה בפוזנן",
+            "en": "Wrocławska pedestrian street in Poznań Old Town",
+            "pl": "Deptak Wrocławska na poznańskim Starym Mieście",
+            "de": "Fußgängerstraße Wrocławska in der Posener Altstadt",
+            "cs": "Pěší ulice Wrocławska ve starém městě Poznaně"
+          }
+        },
+        "/assets/poznan/verified-source-096.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/רחבוות פוזנן.JPG",
+          "sourceSHA256": "e870168822af3fb5b249f7670512dad0f8ee5aa50656d71f5747910cb8b76435",
+          "assetSHA256": "aa85a5f8bad9692652ac820afc58d7768a971ea58c1c10ae6296317536853d77",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "חזיתות רחוב קרמרסקה, מול מספרים 26 ו־11 בעיר העתיקה",
+            "en": "Kramarska street façades opposite numbers 26 and 11 in the Old Town",
+            "pl": "Pierzeje Kramarskiej przy numerach 26 i 11 na Starym Mieście",
+            "de": "Fassaden an der Kramarska gegenüber den Nummern 26 und 11 in der Altstadt",
+            "cs": "Průčelí Kramarské proti číslům 26 a 11 ve starém městě"
+          },
+          "identityEvidence": "InFocus26 and QuizGame11 visible signs matched to both owners and NID building listing",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder",
+          "caption": {
+            "he": "חזיתות רחוב קרמרסקה, מול מספרים 26 ו־11 בעיר העתיקה",
+            "en": "Kramarska street façades opposite numbers 26 and 11 in the Old Town",
+            "pl": "Pierzeje Kramarskiej przy numerach 26 i 11 na Starym Mieście",
+            "de": "Fassaden an der Kramarska gegenüber den Nummern 26 und 11 in der Altstadt",
+            "cs": "Průčelí Kramarské proti číslům 26 a 11 ve starém městě"
+          }
         }
       },
       "thumbnail": "/assets/poznan/source-052.jpg"
@@ -23216,7 +23280,8 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
         "/assets/poznan/source-011.jpg",
         "/assets/poznan/source-071.jpg",
         "/assets/poznan/source-007.jpg",
-        "/assets/poznan/source-070.jpg"
+        "/assets/poznan/source-070.jpg",
+        "/assets/poznan/verified-source-072.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -23297,6 +23362,37 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
             "date": "2026-10-27"
           },
           "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המיוראל בשרודקה.JPG"
+        },
+        "/assets/poznan/verified-source-072.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הנצחה של דירה שקשורה לצופ]י פוזנן.JPG",
+          "sourceSHA256": "2fc653bea28d4a3eaafc24ca196ccb11f1512703d54799ec6f59a767a91f6841",
+          "assetSHA256": "9ec0fbac7bcf2b099f1430e7c8f40bc9003b697509603e173d7dad263cbbef56",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "לוח זיכרון למקהלת הצופים ברחוב אוסטרובק 7 בשרודקה",
+            "en": "Scout choir memorial plaque at Ostrówek 7 in Śródka",
+            "pl": "Tablica chóru harcerskiego przy Ostrówku 7 na Śródce",
+            "de": "Gedenktafel des Pfadfinderchors am Ostrówek 7 in Śródka",
+            "cs": "Pamětní deska skautského sboru na Ostrówek 7 ve Śródce"
+          },
+          "identityEvidence": "Primary 2015 tour participant account MY178 page6 explicitly matches choir2PDH plaque atOstrówek7; neighbourhood context, not mural",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder",
+          "caption": {
+            "he": "לוח זיכרון למקהלת הצופים ברחוב אוסטרובק 7 בשרודקה",
+            "en": "Scout choir memorial plaque at Ostrówek 7 in Śródka",
+            "pl": "Tablica chóru harcerskiego przy Ostrówku 7 na Śródce",
+            "de": "Gedenktafel des Pfadfinderchors am Ostrówek 7 in Śródka",
+            "cs": "Pamětní deska skautského sboru na Ostrówek 7 ve Śródce"
+          }
         }
       },
       "thumbnail": "/assets/poznan/source-011.jpg"
@@ -25339,7 +25435,8 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
     "sourceUrls": [],
     "media": {
       "photos": [
-        "/assets/poznan/source-103.jpg"
+        "/assets/poznan/source-103.jpg",
+        "/assets/poznan/verified-source-054.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -25365,6 +25462,37 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
             "date": "2026-10-27"
           },
           "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הטירה של פוזנן שנהיאלא הזאמק לא המבצר .JPG"
+        },
+        "/assets/poznan/verified-source-054.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בניין מעניין בפוזנן.JPG",
+          "sourceSHA256": "7db648aa21f1b44062822091b739b65a4a423fbcadb4aa8683c2981d868aed9b",
+          "assetSHA256": "9d5a06714c2a683f7d9ad76863ecd75401eeac8320807f08d45206caa00367d6",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "חזית בניין ברחוב זמקובה 1/2, בסביבת הטירה המלכותית",
+            "en": "Street façade at Zamkowa 1/2, near the Royal Castle",
+            "pl": "Fasada przy Zamkowej 1/2, w okolicy Zamku Królewskiego",
+            "de": "Straßenfassade an der Zamkowa 1/2 nahe dem Königsschloss",
+            "cs": "Průčelí na Zamkowa 1/2 v okolí Královského hradu"
+          },
+          "identityEvidence": "Visible Zamkowa1/2 address plate and municipal street document; context photograph, not castle building",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder",
+          "caption": {
+            "he": "חזית בניין ברחוב זמקובה 1/2, בסביבת הטירה המלכותית",
+            "en": "Street façade at Zamkowa 1/2, near the Royal Castle",
+            "pl": "Fasada przy Zamkowej 1/2, w okolicy Zamku Królewskiego",
+            "de": "Straßenfassade an der Zamkowa 1/2 nahe dem Königsschloss",
+            "cs": "Průčelí na Zamkowa 1/2 v okolí Královského hradu"
+          }
         }
       },
       "thumbnail": "/assets/poznan/source-103.jpg"
@@ -25659,7 +25787,8 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
         "/assets/poznan/source-089.jpg",
         "/assets/poznan/source-090.jpg",
         "/assets/poznan/source-091.jpg",
-        "/assets/poznan/source-092.jpg"
+        "/assets/poznan/source-092.jpg",
+        "/assets/poznan/verified-source-093.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -25892,6 +26021,37 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
             "date": "2026-10-27"
           },
           "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ובע יהודי ישן 6.JPG"
+        },
+        "/assets/poznan/verified-source-093.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/משלוח לחם בפוזנן.JPG",
+          "sourceSHA256": "51b42aa1a40d4828ed2fa1fb8337643bcbca05eaad5d3d5efae2beafc51cbb49",
+          "assetSHA256": "a34cafef6479340fb596cf48df5ce0c7a597cfe2045b386bf4ca16c384a8ab38",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "משלוח לחם ולוח זיכרון ברחוב ז׳ידובסקה 30",
+            "en": "Bread delivery and memorial plaque at Żydowska 30",
+            "pl": "Dostawa pieczywa i tablica pamiątkowa przy Żydowskiej 30",
+            "de": "Brotlieferung und Gedenktafel an der Żydowska 30",
+            "cs": "Rozvoz pečiva a pamětní deska na Żydowska 30"
+          },
+          "identityEvidence": "Full plaque reading CzesławJóźwiak and primary IPN memorial list exact address; street context, no business visit claim",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder",
+          "caption": {
+            "he": "משלוח לחם ולוח זיכרון ברחוב ז׳ידובסקה 30",
+            "en": "Bread delivery and memorial plaque at Żydowska 30",
+            "pl": "Dostawa pieczywa i tablica pamiątkowa przy Żydowskiej 30",
+            "de": "Brotlieferung und Gedenktafel an der Żydowska 30",
+            "cs": "Rozvoz pečiva a pamětní deska na Żydowska 30"
+          }
         }
       },
       "thumbnail": "/assets/poznan/source-016.jpg"
@@ -26883,6 +27043,344 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
         "source": "OSM exact named building matched to primary address",
         "url": "https://www.openstreetmap.org/way/104781037",
         "precisionNote": "Building centroid; not a surveyed public entrance"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "foodfort-poznan",
+    "localName": "FoodFort",
+    "name": {
+      "he": "פודפורט באי הקתדרלות",
+      "en": "FoodFort on Cathedral Island",
+      "pl": "FoodFort na Ostrowie Tumskim",
+      "de": "FoodFort auf der Dominsel",
+      "cs": "FoodFort na Tumském ostrově"
+    },
+    "description": {
+      "he": "אפשרות להפסקת קפה או ארוחה באי הקתדרלות. תמונות הביקור שלנו מציגות את ביתן הזכוכית ואת פינת הישיבה, בכתובת דז׳קנסקה 1.",
+      "en": "An optional coffee or meal stop on Cathedral Island. Our visit photographs show the glass pavilion and seating at Dziekańska 1.",
+      "pl": "Opcjonalny przystanek na kawę lub posiłek na Ostrowie Tumskim. Zdjęcia z naszej wizyty pokazują szklany pawilon i miejsca do siedzenia przy Dziekańskiej 1.",
+      "de": "Eine Möglichkeit für Kaffee oder eine Mahlzeit auf der Dominsel. Unsere Besuchsfotos zeigen den Glaspavillon und die Sitzplätze an der Dziekańska 1.",
+      "cs": "Volitelná zastávka na kávu či jídlo na Tumském ostrově. Fotografie z naší návštěvy ukazují prosklený pavilon a posezení na Dziekańské 1."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Dziekańska 1",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.412225,
+        "lng": 16.9497143
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://foodfort.pl/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.412225%2C16.9497143"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/verified-source-077.jpg",
+        "/assets/poznan/verified-source-078.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/verified-source-077.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גיל שותה קפה בבית קפה שהוא ליד הגשר על נהר ווארטה שמחבר בין אי הקתרדלות חזרה לעיר .JPG",
+          "sourceSHA256": "17de8cfe73c4507711b48a8c7a0c9628096e2b7dc7072d1decf9488260b34268",
+          "assetSHA256": "09d17ff09b479c6016dad18c3046f1bb3f982dc44c5df2a8ae83cf586b02f8aa",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "ביקור קפה בביתן הזכוכית של פודפורט",
+            "en": "Coffee visit inside the FoodFort glass pavilion",
+            "pl": "Wizyta na kawę w szklanym pawilonie FoodFort",
+            "de": "Kaffeebesuch im Glaspavillon von FoodFort",
+            "cs": "Návštěva na kávu v proskleném pavilonu FoodFort"
+          },
+          "identityEvidence": "Matching architect photographs: exposed duct, cassette AC, woven lights, chairs, glass pavilion; distinct capture from78",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        },
+        "/assets/poznan/verified-source-078.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/גיל בקפה בדרך מיא הקתרדלות חזרה לעיר ממש אחרי הגשר על נהר וורטה.JPG",
+          "sourceSHA256": "99a3991129f88229170dcf1715459a8d005b5ad95e437aebeb449ed18f9fa243",
+          "assetSHA256": "09904282086d951d9fd2d34d953ed6436e4cd8910ae87aa0ba1ad29b937603c2",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "פינת הישיבה וחלונות הביתן בפודפורט",
+            "en": "Seating and pavilion windows at FoodFort",
+            "pl": "Miejsca do siedzenia i okna pawilonu FoodFort",
+            "de": "Sitzplätze und Pavillonfenster bei FoodFort",
+            "cs": "Posezení a okna pavilonu FoodFort"
+          },
+          "identityEvidence": "Matching architect photographs; changed viewpoint and subject/background positions prove distinct capture from77",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        }
+      },
+      "thumbnail": "/assets/poznan/verified-source-077.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://foodfort.pl/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://foodfort.pl/",
+        "precisionNote": "Destination POI from the owner or municipal tourism link; not the map camera centre or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "rogal-stary-rynek-poznan",
+    "localName": "ROGAL Świętomarciński",
+    "name": {
+      "he": "רוגאל בכיכר השוק",
+      "en": "ROGAL on the Old Market Square",
+      "pl": "ROGAL na Starym Rynku",
+      "de": "ROGAL am Alten Markt",
+      "cs": "ROGAL na Starém rynku"
+    },
+    "description": {
+      "he": "בית קפה ומאפים בכיכר השוק, בכתובת סטארי רינק 11/17. תמונות הביקור מציגות את דלפק המאפים ואת חלל בית הקפה, כאפשרות להפסקה במהלך הטיול.",
+      "en": "A café and pastry shop at Stary Rynek 11/17. Our visit photographs show the pastry counter and café interior, an optional break during the walk.",
+      "pl": "Kawiarnia i cukiernia przy Starym Rynku 11/17. Zdjęcia z naszej wizyty pokazują ladę z wypiekami i wnętrze, jako propozycję przerwy podczas spaceru.",
+      "de": "Café und Konditorei am Stary Rynek 11/17. Unsere Besuchsfotos zeigen die Gebäcktheke und den Innenraum als Möglichkeit für eine Pause beim Spaziergang.",
+      "cs": "Kavárna a cukrárna na Stary Rynek 11/17. Fotografie z naší návštěvy ukazují pult s pečivem a interiér jako možnost přestávky při procházce."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Stary Rynek 11/17",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4080622,
+        "lng": 16.9340946
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://visitpoznan.pl/rogal-swietomarcinski-stary-rynek",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4080622%2C16.9340946"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/verified-source-037.jpg",
+        "/assets/poznan/verified-source-038.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/verified-source-037.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/קפה שרךלוט המאפים.JPG",
+          "sourceSHA256": "ffd438f6a8b4d47b599311404696ab6b9eeb989c12bebd2974090696d51b7f39",
+          "assetSHA256": "e0d04caa0b0515d647fd0c6571fbc935c83dab9766cecad33cbe38b662d1af51",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "מאפים ודלפק בבית הקפה רוגאל בכיכר השוק",
+            "en": "Pastries and counter at ROGAL on the Old Market Square",
+            "pl": "Wypieki i lada w ROGAL na Starym Rynku",
+            "de": "Gebäck und Theke bei ROGAL am Alten Markt",
+            "cs": "Pečivo a pult v ROGAL na Starém rynku"
+          },
+          "identityEvidence": "OYKA designer photographs match brass arch, salmon marble counter and curved display case",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        },
+        "/assets/poznan/verified-source-038.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/פה שרךוט פוזנן תפריט.JPG",
+          "sourceSHA256": "73a756466cedb9f525875ff5bbdbe37f5c8954969781f09144cc9ec5644c908b",
+          "assetSHA256": "5eb96feffa9d4d891bfb78f1a4aaab1de3a6429d45b864902fde0053c764e6ca",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "פנים בית הקפה רוגאל, לוח התפריט ודלפק הקפה",
+            "en": "ROGAL café interior, menu board and coffee counter",
+            "pl": "Wnętrze ROGAL, tablica menu i lada kawowa",
+            "de": "ROGAL-Innenraum, Menütafel und Kaffeetheke",
+            "cs": "Interiér ROGAL, tabule s nabídkou a kávový pult"
+          },
+          "identityEvidence": "ROGAL apron/logo plus matching designer reference; municipal tourism address",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        }
+      },
+      "thumbnail": "/assets/poznan/verified-source-037.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visitpoznan.pl/rogal-swietomarcinski-stary-rynek",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://maps.app.goo.gl/iGc7vvVZ53C5iNMo6",
+        "precisionNote": "Destination POI from the owner or municipal tourism link; not the map camera centre or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-reforma-doorway-mural",
+    "localName": "Mural przy Niedziałkowskiego 1",
+    "name": {
+      "he": "ציור קיר של דלת לעולם אחר",
+      "en": "Doorway mural at Niedziałkowskiego 1",
+      "pl": "Mural przy Niedziałkowskiego 1",
+      "de": "Tür-Wandbild an der Niedziałkowskiego 1",
+      "cs": "Malba dveří na Niedziałkowskiego 1"
+    },
+    "description": {
+      "he": "ציור קיר על חזית בניין ברחוב נדז׳יאלקובסקייגו 1. דלתות ירוקות ודמות במעיל כתום פותחות מבט מצויר אל מדרגות ובניינים. תמונת הביקור מציגה את היצירה במלואה, כעצירה קצרה לבחירה.",
+      "en": "A mural on the façade at Niedziałkowskiego 1. Green doors and a figure in an orange coat open onto painted stairs and buildings. Our visit photograph shows the complete artwork, an optional short stop.",
+      "pl": "Mural na elewacji przy Niedziałkowskiego 1. Zielone drzwi i postać w pomarańczowym płaszczu otwierają widok na namalowane schody i budynki. Zdjęcie z naszej wizyty pokazuje całe dzieło jako propozycję krótkiego przystanku.",
+      "de": "Ein Wandbild an der Fassade der Niedziałkowskiego 1. Grüne Türen und eine Figur im orangefarbenen Mantel geben den Blick auf gemalte Treppen und Häuser frei. Unser Besuchsfoto zeigt das gesamte Werk als Möglichkeit für einen kurzen Halt.",
+      "cs": "Nástěnná malba na průčelí domu Niedziałkowskiego 1. Zelené dveře a postava v oranžovém kabátě otevírají pohled na malované schody a domy. Fotografie z naší návštěvy ukazuje celé dílo jako možnost krátké zastávky."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Mieczysława Niedziałkowskiego 1",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.399479,
+        "lng": 16.9264273
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://reforma.nieruchomosci.pl/niedzialkowskiego-1/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.399479%2C16.9264273"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/verified-source-112.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/verified-source-112.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/פוזנן תמונת רחוב .JPG",
+          "sourceSHA256": "b19aad89e39239d133eb9ec47747db89ede0b625fa71cafb04c548ef4cf8a098",
+          "assetSHA256": "7316d991dcd65bf68b5241535e85e2e13c2ec6d088d9f2d33097ce2468c69bda",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "ציור קיר של דלתות ירוקות ודמות במעיל כתום על חזית הבניין",
+            "en": "Mural of green doors and a figure in an orange coat on the building façade",
+            "pl": "Mural z zielonymi drzwiami i postacią w pomarańczowym płaszczu na elewacji",
+            "de": "Wandbild mit grünen Türen und einer Figur im orangefarbenen Mantel an der Fassade",
+            "cs": "Malba zelených dveří a postavy v oranžovém kabátě na průčelí"
+          },
+          "identityEvidence": "Exact visual comparison with owner mural photograph and address node2511520382 matched by root to the owner location map",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        }
+      },
+      "thumbnail": "/assets/poznan/verified-source-112.jpg"
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://reforma.nieruchomosci.pl/niedzialkowskiego-1/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/2511520382",
+        "precisionNote": "OpenStreetMap house-address node 2511520382 for Mieczysława Niedziałkowskiego 1, corroborated against the owner location map; not a camera centre or surveyed mural wall/entrance"
       },
       "noBorrowedMedia": true
     }
