@@ -18845,7 +18845,7 @@
       "cs": "Forum Kulinarne"
     },
     "description": {
-      "he": "צילום הביקור שלנו מציג את חזית העץ והכניסה למסעדה בכיכר וולנושצ׳י.\nForum Kulinarne\nPlac Wolności 4, Wrocław",
+      "he": "צילום הביקור שלנו מציג את חזית העץ והכניסה למסעדה בכיכר וולנושצ׳י 4, בוורוצלב.",
       "en": "Our visit photograph shows the wooden facade and entrance of the restaurant on Plac Wolności.\nPlac Wolności 4, Wrocław",
       "pl": "Nasze zdjęcie z wizyty pokazuje drewnianą fasadę i wejście do restauracji przy placu Wolności.\nPlac Wolności 4, Wrocław",
       "de": "Unser Besuchsfoto zeigt die Holzfassade und den Eingang des Restaurants am Plac Wolności.\nPlac Wolności 4, Wrocław",

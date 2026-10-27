@@ -24,6 +24,8 @@ test('The verified Forum facade is one full original in one Lifestyle food point
  assert.deepEqual(plain(p.sourceRecords.map(r=>r.productId)),['lifestyle-guide']);
  const records=window.WROC_LIFESTYLE_PLACES.filter(r=>r.canonicalPlaceId===p.id||r.id===p.id);assert.equal(records.length,1);assert.deepEqual(plain(records[0].categories),['eat']);
  assert.deepEqual(plain(window.WROC_LOCATION_MEDIA[p.id].gallery),plain(media.photos));
+ // The existing Lifestyle renderer collapses description newlines; keep this Hebrew field free of Latin text.
+ assert.doesNotMatch(p.description.he,/[A-Za-z]/);
  assert.deepEqual(plain(p.socialPosts),[]);assert.equal(p.links.socialProfileFallback,false);
  assert.equal(new URL(p.links.navigation.googleMaps).searchParams.get('query'),'51.106514,17.0297567');
  for(const lang of ['he','en','pl','de','cs']){assert.ok(p.name[lang]);assert.ok(p.description[lang]);assert.ok(metadata.alt[lang]);assert.equal(window.WROC_CATALOG.getSocialPost(p,'facebook',lang),null);assert.equal(window.WROC_CATALOG.getSocialPost(p,'instagram',lang),null);}
