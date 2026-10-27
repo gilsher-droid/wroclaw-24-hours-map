@@ -18834,6 +18834,174 @@
       }
     ]
   },
+  "forum-kulinarne-wroclaw": {
+    "id": "forum-kulinarne-wroclaw",
+    "localName": "Forum Kulinarne",
+    "name": {
+      "he": "פורום קולינרנה",
+      "en": "Forum Kulinarne",
+      "pl": "Forum Kulinarne",
+      "de": "Forum Kulinarne",
+      "cs": "Forum Kulinarne"
+    },
+    "description": {
+      "he": "צילום הביקור שלנו מציג את חזית העץ והכניסה למסעדה בכיכר וולנושצ׳י.\nForum Kulinarne\nPlac Wolności 4, Wrocław",
+      "en": "Our visit photograph shows the wooden facade and entrance of the restaurant on Plac Wolności.\nPlac Wolności 4, Wrocław",
+      "pl": "Nasze zdjęcie z wizyty pokazuje drewnianą fasadę i wejście do restauracji przy placu Wolności.\nPlac Wolności 4, Wrocław",
+      "de": "Unser Besuchsfoto zeigt die Holzfassade und den Eingang des Restaurants am Plac Wolności.\nPlac Wolności 4, Wrocław",
+      "cs": "Naše fotografie z návštěvy zachycuje dřevěné průčelí a vstup do restaurace na náměstí Plac Wolności.\nPlac Wolności 4, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.106514,
+        "lng": 17.0297567
+      },
+      "address": {
+        "street": "Plac Wolności 4",
+        "postalCode": "50-071",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Forum Kulinarne Plac Wolności 4",
+      "Forum Kulinarne Wrocław",
+      "Restauracja Forum Kulinarne"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "forum-kulinarne-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "forum-kulinarne-wroclaw",
+        "lat": 51.106514,
+        "lng": 17.0297567
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://forumkulinarne.eu/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.106514%2C17.0297567",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "identityVerification": {
+        "officialSource": "https://forumkulinarne.eu/kontakt/",
+        "photoVisibleEvidence": [
+          "FORUM KULINARNE",
+          "number4",
+          "phone663017575"
+        ],
+        "coordinateProof": {
+          "source": "https://forumkulinarne.eu/kontakt/",
+          "publicEmbedSnapshot": "owner-map-embed-public.html",
+          "featureId": "0x470fc27385980207:0x6608ed9003aac6c7",
+          "placeId": "ChIJBwKYhXPCD0cRx8aqA5DtCGY",
+          "addressFeatureLabel": "plac Wolności 4, 50-071 Wrocław",
+          "addressFeatureCoordinates": {
+            "lat": 51.106514,
+            "lng": 17.0297567
+          },
+          "exactPublicFeatureExcerpt": "[[\"0x470fc27385980207:0x6608ed9003aac6c7\",\"plac Wolności 4, 50-071 Wrocław\",[51.106514,17.0297567]]",
+          "cameraCenterRejected": {
+            "lat": 51.106461979571264,
+            "lng": 17.02755041572214
+          },
+          "precisionNote": "Address feature selected and embedded by the venue owner, not a measured entrance or promise of interior access"
+        }
+      },
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://forumkulinarne.eu/kontakt/",
+          "checkedAt": "2026-10-27"
+        }
+      ]
+    },
+    "media": {
+      "thumbnail": "/assets/food-cafes/forum-kulinarne-wroclaw-01.jpg",
+      "photos": [
+        "/assets/food-cafes/forum-kulinarne-wroclaw-01.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-cafes/forum-kulinarne-wroclaw-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.12.04 (5).jpeg",
+          "sourceSHA256": "8a970b9e91f3a10d3e999eeef0efcfa6884f13ec715b38ca8fb22feca608a196",
+          "assetSHA256": "8a970b9e91f3a10d3e999eeef0efcfa6884f13ec715b38ca8fb22feca608a196",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "incidentalPublicPedestrians": true,
+          "privacyDecisionReceipt": "urban63-full-original-context-review/bounded-context-and-venue-decision.json",
+          "alt": {
+            "he": "חזית העץ והכניסה של פורום קולינרנה בכיכר וולנושצ׳י",
+            "en": "Wooden facade and entrance of Forum Kulinarne on Plac Wolności",
+            "pl": "Drewniana fasada i wejście do Forum Kulinarne przy placu Wolności",
+            "de": "Holzfassade und Eingang von Forum Kulinarne am Plac Wolności",
+            "cs": "Dřevěné průčelí a vstup do Forum Kulinarne na náměstí Plac Wolności"
+          },
+          "verifiedAt": "2026-10-27T09:09:37.850193+00:00"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "fountain": {
     "id": "fountain",
     "localName": "Wrocławska Fontanna Multimedialna",
@@ -68994,6 +69162,9 @@
   "Łasice kradną jajka": "lodz-roa-weasels-mural",
   "ROA Nowomiejska 5 Łódź": "lodz-roa-weasels-mural",
   "Mural ROA Nowomiejska 5": "lodz-roa-weasels-mural",
+  "Forum Kulinarne Wrocław": "forum-kulinarne-wroclaw",
+  "Restauracja Forum Kulinarne": "forum-kulinarne-wroclaw",
+  "Forum Kulinarne Plac Wolności 4": "forum-kulinarne-wroclaw",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",

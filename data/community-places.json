@@ -769,6 +769,20 @@
       "lng": 17.0327024
     }
   },
+  "forum-kulinarne-wroclaw": {
+    "id": "forum-kulinarne-wroclaw",
+    "name": {
+      "he": "פורום קולינרנה",
+      "en": "Forum Kulinarne",
+      "pl": "Forum Kulinarne",
+      "de": "Forum Kulinarne",
+      "cs": "Forum Kulinarne"
+    },
+    "coordinates": {
+      "lat": 51.106514,
+      "lng": 17.0297567
+    }
+  },
   "fountain": {
     "id": "fountain",
     "name": {
