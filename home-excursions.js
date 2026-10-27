@@ -8,8 +8,8 @@
     de: ['Wählen Sie Ihren nächsten Ausflug', 'Individuelle Ausflüge zu Schlössern und historischen Städten sowie ein Zwischenstopp auf dem Weg nach Wrocław. Mit Stationen, Fotos, Videos und Navigation.', 'Seitlich scrollen und Routen entdecken', 'Route und Karte entdecken', 'Alle Ausflüge', 'Tagesausflüge, eine Reise mit Übernachtung und ein Zwischenstopp auf dem Weg nach Wrocław.', 'Nach links scrollen', 'Nach rechts scrollen'],
     cs: ['Vyberte si další výlet', 'Samostatné výlety za zámky a historickými městy i zastávka cestou do Vratislavi. Každá trasa nabízí zastávky, fotografie, videa a navigaci.', 'Posunutím do strany objevíte trasy', 'Prohlédnout trasu a mapu', 'Všechny výlety', 'Jednodenní výlety, výlet s přenocováním i zastávka cestou do Vratislavi.', 'Posunout doleva', 'Posunout doprava']
   };
-  const hebrewTitles = ['קשונז׳ ושווידניצה', 'ברז׳ג וטירת מושנה', 'יאבור, קרפץ, וואנג וילניה גורה', 'צ׳וחה ובולסלבייץ, עם לינה בטירה', 'בדרך לוורוצלב עוצרים בלודז׳', 'סרברנה גורה וקלודזקו'];
-  const hebrewSummaries = ['טירה מרשימה, עצירה בעיר היסטורית וכנסיית השלום בשווידניצה.', 'מורשת, אדריכלות ואווירת אגדה בטירה עטורת צריחים.', 'כנסיית השלום, עיירת ההרים, כנסיית העץ וואנג ומרכז ילניה גורה.', 'יומיים של טירה, טיול בוקר לסכר ועיר הקרמיקה הצבעונית.', 'ורשה היא נקודת המוצא. עוצרים לגלות את לודז׳ וממשיכים לוורוצלב.', 'שני מבצרים מרשימים, תצפיות וטיול בעיר העתיקה של קלודזקו.'];
+  const hebrewTitles = ['קשונז׳ ושווידניצה', 'ברז׳ג וטירת מושנה', 'יאבור, קרפץ, וואנג וילניה גורה', 'צ׳וחה ובולסלבייץ, עם לינה בטירה', 'בדרך לוורוצלב עוצרים בלודז׳', 'סרברנה גורה וקלודזקו', 'בדרך לוורוצלב 2: עוצרים בפוזנן'];
+  const hebrewSummaries = ['טירה מרשימה, עצירה בעיר היסטורית וכנסיית השלום בשווידניצה.', 'מורשת, אדריכלות ואווירת אגדה בטירה עטורת צריחים.', 'כנסיית השלום, עיירת ההרים, כנסיית העץ וואנג ומרכז ילניה גורה.', 'יומיים של טירה, טיול בוקר לסכר ועיר הקרמיקה הצבעונית.', 'ורשה היא נקודת המוצא. עוצרים לגלות את לודז׳ וממשיכים לוורוצלב.', 'שני מבצרים מרשימים, תצפיות וטיול בעיר העתיקה של קלודזקו.', 'יום בעיר העתיקה ובאי הקתדרלות, עם אוכל, קפה ואפשרות ללינה.'];
   const heroCopy = {
     he: ['ככה מטיילים עם המפה שלנו', 'מתוך המפה האמיתית', 'פותחים את המפה ומתחילים לגלות', 'לוחצים על מקום ומגלים תמונות, סרטונים, ניווט ופוסטים מהמקום.', 'מפת מרכז וורוצלב עם כרטיס כיכר השוק פתוח'],
     en: ['See how your map works', 'Our actual map', 'Open the map and start exploring', 'Tap a place to discover photos, videos, navigation and local posts.', 'Wrocław city map with the Market Square place card open'],
@@ -17,7 +17,7 @@
     de: ['So funktioniert Ihre Karte', 'Unsere echte Karte', 'Karte öffnen und loslegen', 'Wählen Sie einen Ort für Fotos, Videos, Navigation und Beiträge.', 'Karte von Wrocław mit geöffneter Ortskarte des Marktplatzes'],
     cs: ['Podívejte se, jak mapa funguje', 'Naše skutečná mapa', 'Otevřít mapu a začít objevovat', 'Vyberte místo a objevte fotografie, videa, navigaci a příspěvky.', 'Mapa centra Vratislavi s otevřenou kartou náměstí Rynek']
   };
-  const knownIds = ['ksiaz-swidnica-day-trip', 'brzeg-moszna-day-trip', 'jawor-karpacz-jelenia-gora-day-trip', 'czocha-boleslawiec-two-day-trip', 'warsaw-lodz-wroclaw', 'srebrna-gora-klodzko-day-trip'];
+  const knownIds = ['ksiaz-swidnica-day-trip', 'brzeg-moszna-day-trip', 'jawor-karpacz-jelenia-gora-day-trip', 'czocha-boleslawiec-two-day-trip', 'warsaw-lodz-wroclaw', 'srebrna-gora-klodzko-day-trip', 'poznan-wroclaw-stopover'];
   function el(tag, className, text) {
     const node = document.createElement(tag);
     if (className) node.className = className;

@@ -1,3 +1,4 @@
+import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -10,9 +11,10 @@ const plain=v=>JSON.parse(JSON.stringify(v));
 const hash=v=>createHash('sha256').update(v).digest('hex');
 test('Forum Kulinarne preserves all232 earlier canonicals and existing routes exactly',()=>{
  assert.equal(Object.keys(proof.existingRecordHashes).length,232);
- assert.equal(Object.keys(window.WROC_CATALOG.places).length,233);
+ assert.equal(historicalPlaceIds(window.WROC_CATALOG.places).length,233);
  for(const[id,expected]of Object.entries(proof.existingRecordHashes))assert.equal(hash(JSON.stringify(window.WROC_CATALOG.places[id])),expected,id);
- for(const[file,expected]of Object.entries(proof.unchangedSourceFileHashes))assert.equal(hash(readFileSync(file)),expected,file);
+ // The later Poznan test hashes all six existing excursion objects separately.
+ for(const[file,expected]of Object.entries(proof.unchangedSourceFileHashes).filter(([file])=>file!=='data/lower-silesia-excursions.js'))assert.equal(hash(readFileSync(file)),expected,file);
 });
 test('The verified Forum facade is one full original in one Lifestyle food point with no generic social action',()=>{
  const p=window.WROC_CATALOG.getPlace(proof.canonicalId),media=p.media,src=media.photos[0],metadata=media.metadata[src];

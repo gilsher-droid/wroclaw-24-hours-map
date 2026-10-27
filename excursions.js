@@ -85,7 +85,7 @@
   function escapeHtml(value) { return String(value || "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
   function placePopup(canonical, label, coordinate) {
     const actions = canonical ? actionLinks(canonical, false) : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${coordinate.lat},${coordinate.lng}`)}" target="_blank" rel="noopener">${tr("navigate")}</a>`;
-    const details = canonical && [...selectedExcursion().canonicalPlaceIds, ...(selectedExcursion().departurePlaceIds || [])].includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
+    const details = canonical && [...selectedExcursion().canonicalPlaceIds, ...(selectedExcursion().optionalPlaceIds || []), ...(selectedExcursion().departurePlaceIds || [])].includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
     return `<div class="excursion-place-popup" dir="${language === "he" ? "rtl" : "ltr"}">${window.WROC_PLACE_POPUP_PHOTO.html(canonical,language).replace('class="place-popup-photo-link"', `class="place-popup-photo-link" data-place-gallery="${escapeHtml(canonical?.id)}" data-media-kind="photos"`)}<strong>${escapeHtml(label)}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}<div class="place-actions">${actions}${canonical ? mediaButtons(canonical) : ""}</div>${details}</div>`;
   }
 
@@ -222,6 +222,12 @@
       if(!coordinate) return;
       const marker=L.marker([coordinate.lat,coordinate.lng], {title:local(canonical.name),icon:L.divIcon({className:"route-marker departure-marker",html:`<span>W${index+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]})}).addTo(map).bindPopup(placePopup(canonical,local(canonical.name),coordinate),{maxWidth:320}).on("popupopen",()=>trackPlaceOpen(canonical));
       registerMapStop(`departure-${id}`,map,marker,coordinate,canonical,local(canonical.name),"excursion-map");
+    });
+    (excursion.optionalPlaceIds || []).forEach((id,index) => {
+      const canonical = place(id), coordinate = canonical?.location?.coordinates;
+      if (!coordinate) return;
+      const marker = L.marker([coordinate.lat, coordinate.lng], { title: local(canonical.name), icon: L.divIcon({ className: "route-marker optional-marker", html: `<span>+${index+1}</span>`, iconSize: [42,50], iconAnchor: [21,48] }) }).addTo(map).bindPopup(placePopup(canonical, local(canonical.name), coordinate), { maxWidth:320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      registerMapStop(`optional-${id}`, map, marker, coordinate, canonical, local(canonical.name), "excursion-map");
     });
     const localStops = excursion.initialMapFocus === "local-stops"
       ? excursion.routePoints.filter(point => excursion.canonicalPlaceIds.includes(point.canonicalPlaceId)).map(coords).filter(Boolean).map(({lat,lng})=>[lat,lng])
@@ -441,6 +447,17 @@
   };
   function renderPlaces(excursion) {
     document.querySelector("[data-places]").innerHTML=placeCards(excursion.canonicalPlaceIds);
+    const optionalSection = document.querySelector("[data-optional-places]");
+    const optionalIds = excursion.optionalPlaceIds || [];
+    const optionalCopy = {
+      he: ["עוד מקומות בפוזנן, לפי הזמן והעניין שלכם", "בחרו הרחבה שמתאימה לכם: שכונות, פארקים, אתרים, אוכל, קפה, קניות או לינה. אלו אפשרויות לצד מסלול ההליכה, ואין צורך לבקר בכולן ביום אחד. שני גני החיות הם חלופות לבחירה; לגן החדש הקצו ביקור נפרד של כמה שעות."],
+      en: ["More of Poznań, chosen to suit your time and interests", "Choose neighbourhoods, parks, sights, food, coffee, shopping or a stay. These options complement the walking route; you do not need to visit them all in one day. The two zoos are alternatives. Allow a separate visit of several hours for the New Zoo."],
+      pl: ["Więcej Poznania, według czasu i zainteresowań", "Wybierz dzielnice, parki, zabytki, jedzenie, kawę, zakupy lub nocleg. To uzupełnienia spaceru; nie trzeba odwiedzać wszystkich miejsc jednego dnia. Oba ogrody zoologiczne są alternatywami. Na Nowe Zoo przeznacz osobną, kilkugodzinną wizytę."],
+      de: ["Mehr von Poznań, nach Zeit und Interesse", "Wählen Sie Stadtviertel, Parks, Sehenswürdigkeiten, Essen, Kaffee, Einkaufen oder eine Übernachtung. Die Optionen ergänzen den Spaziergang; nicht alles muss an einem Tag besucht werden. Die beiden Zoos sind Alternativen. Für den Neuen Zoo mehrere Stunden gesondert einplanen."],
+      cs: ["Více z Poznaně podle času a zájmů", "Vyberte si čtvrti, parky, památky, jídlo, kávu, nákupy nebo nocleh. Tyto možnosti doplňují pěší trasu; nemusíte vše navštívit za jeden den. Obě zoo jsou alternativy. Pro Novou zoo si vyhraďte samostatnou návštěvu na několik hodin."]
+    }[language];
+    optionalSection.hidden = !optionalIds.length;
+    optionalSection.innerHTML = optionalIds.length ? `<h2>${optionalCopy[0]}</h2><p>${optionalCopy[1]}</p><div class="places-grid">${placeCards(optionalIds)}</div>` : "";
     const section=document.querySelector("[data-departure-places]");
     const ids=excursion.departurePlaceIds || [],copy=departureCopy[language];
     section.hidden=!ids.length;

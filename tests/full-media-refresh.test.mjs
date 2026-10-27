@@ -1,3 +1,4 @@
+import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import {beforeSource35Visit} from './source35-visit-historical-baseline.mjs';
 import {beforePiotrkowskaDetails} from './piotrkowska-details-historical-baseline.mjs';
 import test from 'node:test';
@@ -8,7 +9,7 @@ const window={},plain=v=>JSON.parse(JSON.stringify(v));
 for(const f of ['data/place-catalog.js','data/location-media.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});
 const c=window.WROC_CATALOG,b=JSON.parse(readFileSync('data/full-media-refresh-baseline-20261022.json'));
 test('The full media refresh preserves all218 other (Piast is separately authorized by the current full-folder refresh) canonical records and every existing identity and coordinate',()=>{
- assert.equal(Object.keys(c.places).length,((231)+1)+1);assert.equal(b.authorizedIds.length,12);let unchanged=0;
+ assert.equal(historicalPlaceIds(c.places).length,((231)+1)+1);assert.equal(b.authorizedIds.length,12);let unchanged=0;
  for(const[id,old]of Object.entries(b.places)){const p=beforePiotrkowskaDetails(beforeSource35Visit(plain(c.getPlace(id))));if(!b.authorizedIds.includes(id)&&id!=="piastowska-pieczec-wroclaw"){assert.deepEqual(p,old,id);unchanged++;}else{assert.equal(p.id,old.id);assert.deepEqual(p.location,old.location,id+':location');}}
  assert.equal(unchanged,218);
 });

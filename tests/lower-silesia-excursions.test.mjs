@@ -6,7 +6,7 @@ import { runInNewContext } from "node:vm";
 
 const root = process.cwd();
 
-test("day-trip product includes six routes and reuses canonical places in five languages", () => {
+test("day-trip product includes seven routes and reuses canonical places in five languages", () => {
   const window = {};
   const context = { window, console };
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
@@ -15,8 +15,8 @@ test("day-trip product includes six routes and reuses canonical places in five l
   const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
   assert.equal(product.id, "lower-silesia-excursions");
   assert.equal(product.type, "excursions");
-  assert.equal(product.excursions.length, 6);
-  const expectedPlaces = ["ksiaz-castle", "walbrzych-market-square", "church-of-peace-swidnica", "brzeg-st-nicholas-church", "brzeg-castle", "brzeg-holy-cross-church", "brzeg-town-hall", "brzeg-oder-gate", "moszna-castle", "moszna-castle-park", "jawor-church-of-peace", "jawor-market-square", "jawor-piast-castle", "karpacz-centre", "wang-church", "jelenia-gora-market-square", "czocha-castle", "lesnianska-dam", "boleslawiec-old-town", "boleslawiec-ceramics-museum", "lodz-manufaktura", "lodz-old-market", "lodz-church-square", "lodz-ghetto-baluty", "lodz-roa-weasels-mural", "lodz-freedom-square", "lodz-rose-passage", "lodz-gutenberg-house", "lodz-piotrkowska", "warsaw-nozyk-synagogue", "warsaw-unknown-soldier", "warsaw-saxon-garden-fountain", "srebrna-gora-fortress", "klodzko-fortress", "klodzko-old-town"];
+  assert.equal(product.excursions.length, 7);
+  const expectedPlaces = ["ksiaz-castle", "walbrzych-market-square", "church-of-peace-swidnica", "brzeg-st-nicholas-church", "brzeg-castle", "brzeg-holy-cross-church", "brzeg-town-hall", "brzeg-oder-gate", "moszna-castle", "moszna-castle-park", "jawor-church-of-peace", "jawor-market-square", "jawor-piast-castle", "karpacz-centre", "wang-church", "jelenia-gora-market-square", "czocha-castle", "lesnianska-dam", "boleslawiec-old-town", "boleslawiec-ceramics-museum", "lodz-manufaktura", "lodz-old-market", "lodz-church-square", "lodz-ghetto-baluty", "lodz-roa-weasels-mural", "lodz-freedom-square", "lodz-rose-passage", "lodz-gutenberg-house", "lodz-piotrkowska", "warsaw-nozyk-synagogue", "warsaw-unknown-soldier", "warsaw-saxon-garden-fountain", "srebrna-gora-fortress", "klodzko-fortress", "klodzko-old-town"] .concat(JSON.parse(readFileSync("data/poznan-excursion-place-ids.json", "utf8")));
   assert.deepEqual(Array.from(product.canonicalPlaceIds), expectedPlaces);
   assert.deepEqual(Object.keys(product.title), ["he", "en", "pl", "de", "cs"]);
   assert.deepEqual(Object.keys(product.excursions[0].title), ["he", "en", "pl", "de", "cs"]);

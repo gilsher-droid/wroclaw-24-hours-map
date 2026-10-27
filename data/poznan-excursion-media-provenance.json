@@ -1,0 +1,1632 @@
+{
+  "at": "2026-10-27T17:28:58.266379+00:00",
+  "sourcePhotoFiles": 131,
+  "sourceVideoFiles": 7,
+  "publicationStage": "Expanded local integration; merge, deployment and live verification pending",
+  "photos": [
+    {
+      "asset": "/assets/poznan/source-052.jpg",
+      "sourceSHA256": "c3960d0184d00926a711197bbf72a1d3f54411b474082e0075c995fadcde6936",
+      "assetSHA256": "5bb497ec1b6528756e6e28572c867deb51b98065660dec0beb6e598e797358b8",
+      "sourceIndex": 52,
+      "sourceFile": "פוזנן/IMG_4848.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-old-market-square",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כיכר בפוזנן בערב .JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-035.jpg",
+      "sourceSHA256": "a0a23dd5131e0eb4c96f06a11bbdfe37246155b3a3ca29546e6688757138fd75",
+      "assetSHA256": "dba1007c792ed58f64091d90f388ca0ae30dc64beb55f12240d2d70f80cc1411",
+      "sourceIndex": 35,
+      "sourceFile": "פוזנן/IMG_4822.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-old-market-square",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יכר העיר של פוזנן.JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-039.jpg",
+      "sourceSHA256": "0ebda1f2e1c016d6cd9a561cda0ca77d29f14cd76e84fc625563c9a3e66464af",
+      "assetSHA256": "ddd2a98503b4419f40ccd6e6e8001d264109df42cfe04571fc5d33ed61fe1623",
+      "sourceIndex": 39,
+      "sourceFile": "פוזנן/IMG_4826.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-old-market-square",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יכר פוזן 4.JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-040.jpg",
+      "sourceSHA256": "7c1e08fab1b454b2be8bc1cecf0ffa929985389a7bd2f25406ab9b2ceaeca12e",
+      "assetSHA256": "a67221f9268eb6050e0a9a1a51148420b1645e9d8c70a360ee19a48124da0670",
+      "sourceIndex": 40,
+      "sourceFile": "פוזנן/IMG_4827.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-old-market-square",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יכר פוזנן 7.JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-036.jpg",
+      "sourceSHA256": "8b28b8f9772129bb7af087ec9e0ff9363c868b631d596ae36364e59c29082d8d",
+      "assetSHA256": "6cb9e2676a632e9ad5abb7104ba005bba5ff85357cc53fca15f93c95e99bf14f",
+      "sourceIndex": 36,
+      "sourceFile": "פוזנן/IMG_4823.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-town-hall",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית העירייה של פוזנן.JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-053.jpg",
+      "sourceSHA256": "d504486441549e58388b8310d86fb309e29948b507684d1c596f3abf1f9be722",
+      "assetSHA256": "04a2c2dcfdcf4113d2e027402aac69d6a6e9162d92f5466b611f053a519050e3",
+      "sourceIndex": 53,
+      "sourceFile": "פוזנן/IMG_4849.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-town-hall",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית העירייה של פוזנן בערב .JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-097.jpg",
+      "sourceSHA256": "8b7bacc76c4be35ca4fe4e7abd2a46df9cbc5f47e9bd38763a5e7e801beb30e3",
+      "assetSHA256": "e86f46533a37b259566078614523b58e2a211018ac5eaca0af7fa43b2d95a84d",
+      "sourceIndex": 97,
+      "sourceFile": "פוזנן/IMG_4914.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-town-hall",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית העירייה של פוזנן מהצד.JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-098.jpg",
+      "sourceSHA256": "75f6fa67b491824bb29355df8fcdabb7618381dd255e74a2378a0e3ff35f92fb",
+      "assetSHA256": "58433e9de2139eee9d4c21a05605ce2e409dc492f1ddb1fdc04129c2e9a39137",
+      "sourceIndex": 98,
+      "sourceFile": "פוזנן/IMG_4915.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-town-hall",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ושוב בית העירייה .JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-099.jpg",
+      "sourceSHA256": "3b78e1ee9f8167e01bae2500f65eb543c39408945510d6fd79ec636cd765d524",
+      "assetSHA256": "bb85c812980ceec98333955dd8996b9c184a190630446d559000335f79397d22",
+      "sourceIndex": 99,
+      "sourceFile": "פוזנן/IMG_4916.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-fara",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הרחוב לבזיליקה.JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-073.jpg",
+      "sourceSHA256": "13cc8087257c91860485bec7b326cba806c46f6b6f433dd5481da51b9f3fb461",
+      "assetSHA256": "6aabba36ba3da6f407829e1751abc864fc5f0623182ef75b747c9303e8a22ec9",
+      "sourceIndex": 73,
+      "sourceFile": "פוזנן/IMG_4888.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-bishop-jordan-bridge",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גשר ירדן המקסים.JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-011.jpg",
+      "sourceSHA256": "debb895f39bdc15cd66f911a6762f2e48a98efae7a5aa9e4a5c3ef79aa102148",
+      "assetSHA256": "fdc9c62d99767e8702eff87aa18a73d58e989b7bab0951886d79839c9be0172a",
+      "sourceIndex": 11,
+      "sourceFile": "פוזנן/9787656F-FC34-40E3-96D7-E0A074878D5C.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-srodka-mural",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המיוראל בשרוקה.JPG"
+    },
+    {
+      "asset": "/assets/poznan/source-071.jpg",
+      "sourceSHA256": "a030dd2fef292d7e0128b94d8ddea9f8111247efa97491d2568c85c2234c15c9",
+      "assetSHA256": "5cc3fd39be80c3ae9bc95e6adc9267e76ce1075ea1e520ee0eda871359a488f4",
+      "sourceIndex": 71,
+      "sourceFile": "פוזנן/IMG_4886.JPG",
+      "review": "Full uncropped frame reviewed individually at1600px; place context and incidental visitors, no posed family portrait selected; original preserved",
+      "placeId": "poznan-srodka-mural",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המיוראל בשרודקה 2.JPG"
+    },
+    {
+      "placeId": "poznan-stary-browar",
+      "sourceIndex": 13,
+      "sourceFile": "פוזנן/C22402E5-933D-40B8-AAE8-BFBEA185FE99.jpg",
+      "sourceSHA256": "4df8ae1d454476b27de4c441c5930f092cabfec883833864f708258f165acf09",
+      "asset": "/assets/poznan/source-013.jpg",
+      "assetSHA256": "cbeeb3e5149a4f090733a626d509680472bbf3b17bc3b9c77d062ed527a56b95",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קניון ברובאר.jpg"
+    },
+    {
+      "placeId": "poznan-stary-browar",
+      "sourceIndex": 41,
+      "sourceFile": "פוזנן/IMG_4829.JPG",
+      "sourceSHA256": "5e0d97b8e79d6cf66d09b64175038e7b56372b65eee13a4a380d8fd8ae923358",
+      "asset": "/assets/poznan/source-041.jpg",
+      "assetSHA256": "2fe52f30f309a16be0b63ac23878445af520e018b10143c5eec2f36079824d20",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ניון ברובאר.JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 44,
+      "sourceFile": "פוזנן/IMG_4838.JPG",
+      "sourceSHA256": "30cbb9e1fc7a255493f519dc4a9c769e4e049797a7d03ae8ba9f012a8c0795c0",
+      "asset": "/assets/poznan/source-044.jpg",
+      "assetSHA256": "9d20ff3a78b2650f692b09e11bbdf71dfbb13036eba968722a07b8ee40407c92",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרךוט 120.JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 45,
+      "sourceFile": "פוזנן/IMG_4839.JPG",
+      "sourceSHA256": "1e41eb3d1afb464725eec23f2a8b51075bdcd8f78e6e6980a92a06b533e51579",
+      "asset": "/assets/poznan/source-045.jpg",
+      "assetSHA256": "7f9087480a7e90facccdb987bedd150c50ebe2b9214500e3534bbc5c98cd8f2b",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרלךוט 109.JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 46,
+      "sourceFile": "פוזנן/IMG_4840.JPG",
+      "sourceSHA256": "975fbcdd1c2cd46598550d2a160e807802a560452dc33894f0505682a509d267",
+      "asset": "/assets/poznan/source-046.jpg",
+      "assetSHA256": "5b24d2a1a367e49e11f03fe19291bd85718d639f4b5f74995b9b83f3af7546ae",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרךלוט 56.JPG"
+    },
+    {
+      "placeId": "pyraland-poznan",
+      "sourceIndex": 119,
+      "sourceFile": "פוזנן/IMG_4977.JPG",
+      "sourceSHA256": "63407eb8e7eb23fe809ed84ec024b057e7243598834457f16d7f0035b083141f",
+      "asset": "/assets/poznan/source-119.jpg",
+      "assetSHA256": "32ac5e52b4af68a5ac18e16ba856aa8c9899d800f6ef8d0afa81532279ee99f1",
+      "review": "Full uncropped frame reviewed individually at1600px; original preserved; exact place grouping verified. Personal body context permitted only under recorded exact human approval.",
+      "exactImageHumanApproval": {
+        "questionId": "call_6cc8b5fc69114799b60bc68944e8606f",
+        "questionItemIndex": 0,
+        "scope": "Exact shown photograph approved by human for website publication; no broader approval",
+        "sourceSHA256": "63407eb8e7eb23fe809ed84ec024b057e7243598834457f16d7f0035b083141f",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסעדת פירה בפוזנן.JPG"
+    },
+    {
+      "placeId": "pyraland-poznan",
+      "sourceIndex": 118,
+      "sourceFile": "פוזנן/IMG_4976.JPG",
+      "sourceSHA256": "6af7901516d59ffe321c19d044766bc7c265c1c1ea80f9aa0c34fb592c70b94b",
+      "asset": "/assets/poznan/source-118.jpg",
+      "assetSHA256": "f4d5ed7f060f13375f78ea49a23e7033924047b17efab35ad5022ed8cd69147a",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/אוכלים בפזונן במסעדת פירה.JPG"
+    },
+    {
+      "placeId": "nifty-puro-poznan",
+      "sourceIndex": 127,
+      "sourceFile": "פוזנן/IMG_4995.JPG",
+      "sourceSHA256": "aadb8ca53ebb281aad5b9db716e793720f935951e9326baa4b0df2977df95d52",
+      "asset": "/assets/poznan/source-127.jpg",
+      "assetSHA256": "3ede8aff22151c776dca700169a890a34c21455d484a358c19630c0790fa801c",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ניפטי במלון פורו אוכל .JPG"
+    },
+    {
+      "placeId": "nifty-puro-poznan",
+      "sourceIndex": 122,
+      "sourceFile": "פוזנן/IMG_4983.JPG",
+      "sourceSHA256": "74091a2f337674cfab51020d53f268dcd1219c4afbb02a09b0c4cd353006e38d",
+      "asset": "/assets/poznan/source-122.jpg",
+      "assetSHA256": "2f8ca7f0b9a2157eb2f6b892cebae75ffbbd8402a735d4ef471eb58b415f9f1e",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/סכום במלון ניפטי פורו פוזנן.JPG"
+    },
+    {
+      "placeId": "nifty-puro-poznan",
+      "sourceIndex": 123,
+      "sourceFile": "פוזנן/IMG_4984.JPG",
+      "sourceSHA256": "5e86c2849e7a5cbff28ecaace5d18e3c29e129436f95f33e2c32b07a3f3d16ff",
+      "asset": "/assets/poznan/source-123.jpg",
+      "assetSHA256": "1992feacdcfb10c6c3c99ab7b6e7291b97de32670d89df2430a4f25695ecaddf",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כלים במסעדת ניפטי מלון פורו.JPG"
+    },
+    {
+      "placeId": "nifty-puro-poznan",
+      "sourceIndex": 124,
+      "sourceFile": "פוזנן/IMG_4989.JPG",
+      "sourceSHA256": "a4f0a600a09811c81b4fd906fe2536a2fd8852e720ee57fbe8d71e76b8e37075",
+      "asset": "/assets/poznan/source-124.jpg",
+      "assetSHA256": "ed66c77efc2afd300be312eeb96295ceb83c3e31280fbedbd6e4169fa51eee4c",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסעדת ניפטי מלון פורו כלים.JPG"
+    },
+    {
+      "placeId": "nifty-puro-poznan",
+      "sourceIndex": 126,
+      "sourceFile": "פוזנן/IMG_4991.JPG",
+      "sourceSHA256": "90883024f39f3f478b8d0822686a6dc5f6cfd3748deafae3022af9172527478f",
+      "asset": "/assets/poznan/source-126.jpg",
+      "assetSHA256": "5f4dc7d4c0a37557c83e86a3f2a7b7d6805fb5bb85a072aca7b92c8bef2f52d4",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסעדת ניפטי מלון פורו.JPG"
+    },
+    {
+      "placeId": "nifty-puro-poznan",
+      "sourceIndex": 128,
+      "sourceFile": "פוזנן/IMG_4996.JPG",
+      "sourceSHA256": "5235baa0c0645c115b915dc50b94998ba4d0bb248aca01430eb72dbf3d8e774d",
+      "asset": "/assets/poznan/source-128.jpg",
+      "assetSHA256": "563db9ce34fbcbc23766c9a35f8e059671383b9bd7b5dc87eab0b3c8de82db8a",
+      "review": "Full uncropped frame reviewed individually at1600px; original preserved; exact place grouping verified. Personal body context permitted only under recorded exact human approval.",
+      "exactImageHumanApproval": {
+        "questionId": "call_6cc8b5fc69114799b60bc68944e8606f",
+        "questionItemIndex": 1,
+        "scope": "Exact shown photograph approved by human for website publication; no broader approval",
+        "sourceSHA256": "5235baa0c0645c115b915dc50b94998ba4d0bb248aca01430eb72dbf3d8e774d",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ניפטי במלון פורו.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 34,
+      "sourceFile": "פוזנן/IMG_4821.JPG",
+      "sourceSHA256": "daf168da40b2444778a6c8b3b23f0968578925534a35bdcc5f26c1cb1b7e11bc",
+      "asset": "/assets/poznan/source-034.jpg",
+      "assetSHA256": "3d0b5770e472d95d69bfdf5e6686248f003322b61f2c5a14a74d8e69630ca0f9",
+      "review": "Full uncropped frame reviewed individually at1600px; place or business activity context, no posed family portrait selected; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/לובי בפורו פוזנן.JPG"
+    },
+    {
+      "placeId": "ghiacci-cafe-poznan",
+      "sourceIndex": 65,
+      "sourceFile": "פוזנן/תה בשרודקה.JPG",
+      "sourceSHA256": "8e2d175f7b79416dd1dc60e19b619b6d017bef753fabeb0f68c2f26fa4ca33bf",
+      "asset": "/assets/poznan/source-065.jpg",
+      "assetSHA256": "8e5cf381c55b23a1bc71eeed928a6b44cf03d23a48a3602d7f30d1f2ccc8967c",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "8e2d175f7b79416dd1dc60e19b619b6d017bef753fabeb0f68c2f26fa4ca33bf",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/תה בשרודקה.JPG"
+    },
+    {
+      "placeId": "ghiacci-cafe-poznan",
+      "sourceIndex": 66,
+      "sourceFile": "פוזנן/תה בשרודקה 2.JPG",
+      "sourceSHA256": "38c6196e141b97a55d17827b3b8d62fb294fdc37b41c07818f17dcf9c0a5ff42",
+      "asset": "/assets/poznan/source-066.jpg",
+      "assetSHA256": "1c47b9f55a48a180648bef0133b1fe7e3e1a9690ce8ebe2e76c9e760a257ebb9",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "38c6196e141b97a55d17827b3b8d62fb294fdc37b41c07818f17dcf9c0a5ff42",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/תה בשרודקה 2.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 60,
+      "sourceFile": "פוזנן/חסידי אומות העולם 55.JPG",
+      "sourceSHA256": "95d3e819d5b6234d502b6f91d63b01169b474050bba7f897561d6639b175f5de",
+      "asset": "/assets/poznan/source-060.jpg",
+      "assetSHA256": "fe900394ddd1020a10ddfb5f8f393b6780170061214efa1e5ecd57bef54065e2",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "95d3e819d5b6234d502b6f91d63b01169b474050bba7f897561d6639b175f5de",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/חסידי אומות העולם 55.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 61,
+      "sourceFile": "פוזנן/כיכר חסידי אומות העולם 5.JPG",
+      "sourceSHA256": "10e22d0430a96df826c7c110ba2cb69ffbc180c5a7fab4564bf7983a4f558a51",
+      "asset": "/assets/poznan/source-061.jpg",
+      "assetSHA256": "908e3519279c9b2945d654d0cedd40bfdc95c0748c7c0e0d136c4d4df5b543d4",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "10e22d0430a96df826c7c110ba2cb69ffbc180c5a7fab4564bf7983a4f558a51",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כיכר חסידי אומות העולם 5.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 62,
+      "sourceFile": "פוזנן/כיכר חסידי אומות העולם 7.JPG",
+      "sourceSHA256": "53a3ddb5b1e0b0cb08d69684ec0234d98d37a6cd2acb1eecce48385e13ad3de3",
+      "asset": "/assets/poznan/source-062.jpg",
+      "assetSHA256": "0cfce3e955e5a57d653aea73c014f3f66dd5c78617f6f9a7c16e17506008a858",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "53a3ddb5b1e0b0cb08d69684ec0234d98d37a6cd2acb1eecce48385e13ad3de3",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כיכר חסידי אומות העולם 7.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 63,
+      "sourceFile": "פוזנן/גיל בכיכר חסידי אומות עולם.JPG",
+      "sourceSHA256": "a9a0cf068e0f4901689573cc963185d39aad6c20bfd8b6b57298b783ded10ffd",
+      "asset": "/assets/poznan/source-063.jpg",
+      "assetSHA256": "d91daa4f6f9d9768f862bf063d719fb2e1673f36c66e34ae10a777dd038c40c0",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "a9a0cf068e0f4901689573cc963185d39aad6c20bfd8b6b57298b783ded10ffd",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל בכיכר חסידי אומות עולם.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 64,
+      "sourceFile": "פוזנן/כיכר חסידי אומות עולםן.JPG",
+      "sourceSHA256": "67958e2b52b49967f9f1857106870b6f3bc4ca186b103322f786e820d72e8120",
+      "asset": "/assets/poznan/source-064.jpg",
+      "assetSHA256": "1efe77af35b05f7c2c07c9f6f9c4f8b9a2b2e22a79f2686eefb643e4f681b5e1",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "67958e2b52b49967f9f1857106870b6f3bc4ca186b103322f786e820d72e8120",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/כיכר חסידי אומות עולםן.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 113,
+      "sourceFile": "פוזנן/הפארק ליד כיכר ליד חסידי אומות עולם.JPG",
+      "sourceSHA256": "c54b9aae1c07b336347b5adcbd4c736b9ad693886bde848bf6a64ad42dbc4093",
+      "asset": "/assets/poznan/source-113.jpg",
+      "assetSHA256": "89b64d19315cf047e7917857eab28bb51c204b6bfe398c7dc2af7369768b7918",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "c54b9aae1c07b336347b5adcbd4c736b9ad693886bde848bf6a64ad42dbc4093",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הפארק ליד כיכר ליד חסידי אומות עולם.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 114,
+      "sourceFile": "פוזנן/הפארק ליד כיכר חסידי אומות עולם בפוזנן 6.JPG",
+      "sourceSHA256": "bbc2ccb7d51946a579ea9c030b8ebb1acf390577d2dad97ad86f9889c5d46e17",
+      "asset": "/assets/poznan/source-114.jpg",
+      "assetSHA256": "3292c00f45d9c9d348b1c5a18af66fdb777259d59a927da90647aa09058b04bc",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "bbc2ccb7d51946a579ea9c030b8ebb1acf390577d2dad97ad86f9889c5d46e17",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הפארק ליד כיכר חסידי אומות עולם בפוזנן 6.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 115,
+      "sourceFile": "פוזנן/הגינה ליד כיכר חסידי אומות עולם 4.JPG",
+      "sourceSHA256": "9316c7c9a0fcc181e9d1140715a5e4e4cbbc0f5f63a8a98ac3b3b34110fe23a5",
+      "asset": "/assets/poznan/source-115.jpg",
+      "assetSHA256": "0f1891d2c7af3dc1571d3f244bd2a6182c891a68eda88cf08db80ffb46c2e729",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "9316c7c9a0fcc181e9d1140715a5e4e4cbbc0f5f63a8a98ac3b3b34110fe23a5",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הגינה ליד כיכר חסידי אומות עולם 4.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 116,
+      "sourceFile": "פוזנן/הפארק ליד כיכר חסידי אומות עולם 2.JPG",
+      "sourceSHA256": "5716ef7afa5c149cc5a85931b9679ceb396d41a8ad9cf5e9a244dd9ee1592ffd",
+      "asset": "/assets/poznan/source-116.jpg",
+      "assetSHA256": "1ebf29493fe8eb7cad387d6bf8efe926cb3c5d6089d6a695eaf8113c05508968",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "5716ef7afa5c149cc5a85931b9679ceb396d41a8ad9cf5e9a244dd9ee1592ffd",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הפארק ליד כיכר חסידי אומות עולם 2.JPG"
+    },
+    {
+      "placeId": "poznan-righteous-square",
+      "sourceIndex": 117,
+      "sourceFile": "פוזנן/הפארק ליד כיכר חסידי אומות עולם.JPG",
+      "sourceSHA256": "dad78fb961831b898a5f12e562dffbb9ff6534fe32f8594bd34ef49160437db4",
+      "asset": "/assets/poznan/source-117.jpg",
+      "assetSHA256": "f4f1c1161b113b20f384d58c6e5fe031aac9e222f9b60d5ea551d58c3d9d45ca",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "dad78fb961831b898a5f12e562dffbb9ff6534fe32f8594bd34ef49160437db4",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הפארק ליד כיכר חסידי אומות עולם.JPG"
+    },
+    {
+      "placeId": "poznan-new-synagogue",
+      "sourceIndex": 81,
+      "sourceFile": "פוזנן/ית הכנסת הישן.JPG",
+      "sourceSHA256": "c83625ac14ce2a444c12aeef286abe4d7512f02e3c73f72985c32aa32ef5a375",
+      "asset": "/assets/poznan/source-081.jpg",
+      "assetSHA256": "54ef11a7c0dd6aae95d2acb363d0618faeb22b1ed1257e18d2d406bfce0224a4",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "c83625ac14ce2a444c12aeef286abe4d7512f02e3c73f72985c32aa32ef5a375",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ית הכנסת הישן.JPG"
+    },
+    {
+      "placeId": "poznan-new-synagogue",
+      "sourceIndex": 120,
+      "sourceFile": "פוזנן/בית הכנסת הישן של פוזנן.JPG",
+      "sourceSHA256": "9afee6d1e3d41857c47c89d8ceaeb5af2aee1e52432c3ab32c655d9c94529996",
+      "asset": "/assets/poznan/source-120.jpg",
+      "assetSHA256": "644c02eba19798d15e76aaa9c2189b96af25f9e11f5b99cc256296cab32154c6",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "9afee6d1e3d41857c47c89d8ceaeb5af2aee1e52432c3ab32c655d9c94529996",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית הכנסת הישן של פוזנן.JPG"
+    },
+    {
+      "placeId": "poznan-royal-castle",
+      "sourceIndex": 103,
+      "sourceFile": "פוזנן/הטירה של פוזנן שנהיאלא הזאמק לא המבצר .JPG",
+      "sourceSHA256": "8281856192409ab89a77663ee655f73ec45b74672a65119774c580828f984d99",
+      "asset": "/assets/poznan/source-103.jpg",
+      "assetSHA256": "8c7eb4448c4ff39cfd1200075f4e352f5b51f7ec024a5e4181aa7f6f63ac78ef",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only; exactsourceSHA recorded; no extensiontoLodz",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "8281856192409ab89a77663ee655f73ec45b74672a65119774c580828f984d99",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הטירה של פוזנן שנהיאלא הזאמק לא המבצר .JPG"
+    },
+    {
+      "placeId": "stary-mlyn-zamkowa-poznan",
+      "sourceIndex": 100,
+      "sourceFile": "לודז/WhatsApp Image 2026-09-24 at 19.02.02 (10).jpeg",
+      "sourceSHA256": "ffbe5016a1a8420191854fba596f6d3f73d6f61f966f5508ea0e0ade4a405fc3",
+      "asset": "/assets/poznan/stary-mlyn-lodz-source100.jpg",
+      "assetSHA256": "2d04a66591bb0e6a0668505978ac0aa4a0a13825ca01193ac9868dcf2f95a617",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "Explicit user approval of exact Lodz100 including diner forPoznancard",
+        "call": "call_ccf28d42da6144a5b19df75579f0b9bd",
+        "scope": "This exactLodzphoto only",
+        "sourceSHA256": "ffbe5016a1a8420191854fba596f6d3f73d6f61f966f5508ea0e0ade4a405fc3",
+        "date": "2026-10-27"
+      }
+    },
+    {
+      "placeId": "poznan-bishop-jordan-bridge",
+      "sourceIndex": 5,
+      "sourceFile": "פוזנן/גשר ירדן פוזנן.JPG",
+      "sourceSHA256": "80c84f949cd0b8ac79bb0aadbdc7f60c70a907536264d080dbb6443a4e15bf8e",
+      "asset": "/assets/poznan/source-005.jpg",
+      "assetSHA256": "8446f0808638fbbd90446d6217b1d5757f9f98f2b422263ed2eda7727a3bae0f",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "80c84f949cd0b8ac79bb0aadbdc7f60c70a907536264d080dbb6443a4e15bf8e",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גשר ירדן פוזנן.JPG"
+    },
+    {
+      "placeId": "poznan-bishop-jordan-bridge",
+      "sourceIndex": 14,
+      "sourceFile": "פוזנן/הגשר לאי הקתרדלות.JPG",
+      "sourceSHA256": "482dd8a13b6b1b9e1f95544d244ec81c082dfeab695372c65e30b62a5c749e3a",
+      "asset": "/assets/poznan/source-014.jpg",
+      "assetSHA256": "3447c41ced619b1d9a4a2a4dd9f618d7eddc51eb9010223bf559e8ea93942797",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "482dd8a13b6b1b9e1f95544d244ec81c082dfeab695372c65e30b62a5c749e3a",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הגשר לאי הקתרדלות.JPG"
+    },
+    {
+      "placeId": "poznan-bishop-jordan-bridge",
+      "sourceIndex": 25,
+      "sourceFile": "פוזנן/גשר ירדן בפוטזנן.JPG",
+      "sourceSHA256": "59dd5bcd42d23befc997f270bff0848ee71769821f6c9b38bff79d81cc7c5b1f",
+      "asset": "/assets/poznan/source-025.jpg",
+      "assetSHA256": "31ef75e0aa95be7c63a120b309885ed34664762af8a3c14baad875752911f9de",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "59dd5bcd42d23befc997f270bff0848ee71769821f6c9b38bff79d81cc7c5b1f",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גשר ירדן בפוטזנן.JPG"
+    },
+    {
+      "placeId": "poznan-srodka-mural",
+      "sourceIndex": 7,
+      "sourceFile": "פוזנן/רייצל במיוראל בשרוקה.JPG",
+      "sourceSHA256": "320ab4ff87aa5bf5381bee5b6438ec46087c7ce29410a406edf12cb22e39df39",
+      "asset": "/assets/poznan/source-007.jpg",
+      "assetSHA256": "9f0960aed6ebbc05d7e41fb16834a68c7d5767e9d766c871ddc7a6e27686ec28",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "320ab4ff87aa5bf5381bee5b6438ec46087c7ce29410a406edf12cb22e39df39",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל במיוראל בשרוקה.JPG"
+    },
+    {
+      "placeId": "poznan-srodka-mural",
+      "sourceIndex": 70,
+      "sourceFile": "פוזנן/המיוראל בשרודקה.JPG",
+      "sourceSHA256": "73c954c472f66ff8720b000249e83c3f6ef3fa239c92e7e15d7e12b45098acdf",
+      "asset": "/assets/poznan/source-070.jpg",
+      "assetSHA256": "6ab36edc45e6ac09b4bb334b0c32dffd3bbe9d205d474c760643fa2369f06cf1",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "73c954c472f66ff8720b000249e83c3f6ef3fa239c92e7e15d7e12b45098acdf",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המיוראל בשרודקה.JPG"
+    },
+    {
+      "placeId": "poznan-old-market-square",
+      "sourceIndex": 19,
+      "sourceFile": "פוזנן/רייצל בכיכר המדהים של פוזנן.JPG",
+      "sourceSHA256": "aba421f580d18261998a5a0b648b497392f60f98739fdbf5f51629e182da854d",
+      "asset": "/assets/poznan/source-019.jpg",
+      "assetSHA256": "adb440130e78e552164bb5a12cafae5aebd5402555b93785bee3780edc39da6e",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "aba421f580d18261998a5a0b648b497392f60f98739fdbf5f51629e182da854d",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל בכיכר המדהים של פוזנן.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 10,
+      "sourceFile": "פוזנן/העיר העתיקה של פוזנן מול הבזיליקה.JPG",
+      "sourceSHA256": "080c0bf152c0df757f24ca8352f151b445750bb3b1bb9d165817b0739c0770ef",
+      "asset": "/assets/poznan/source-010.jpg",
+      "assetSHA256": "ebca46512a8736608449bcbc52979b773834b1df656440286c1c5025fe2fef73",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "080c0bf152c0df757f24ca8352f151b445750bb3b1bb9d165817b0739c0770ef",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/העיר העתיקה של פוזנן מול הבזיליקה.JPG"
+    },
+    {
+      "placeId": "poznan-stary-browar",
+      "sourceIndex": 8,
+      "sourceFile": "פוזנן/רייצל בקניון ברובאר.jpg",
+      "sourceSHA256": "8141b515600c7180482e670c2af4a9505a51c0afb7ed6043e0c5f66a3cb694f0",
+      "asset": "/assets/poznan/source-008.jpg",
+      "assetSHA256": "00f9568daa03570de702ca4621a6d3c0723062299c56697cd37a947a67da284e",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "8141b515600c7180482e670c2af4a9505a51c0afb7ed6043e0c5f66a3cb694f0",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל בקניון ברובאר.jpg"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 24,
+      "sourceFile": "פוזנן/גיל ורייצל קפה שרלוט .JPG",
+      "sourceSHA256": "6ae30f681c329bc1791f3b532829813d93dad78612e8d1ba7adfea660dfbbe5c",
+      "asset": "/assets/poznan/source-024.jpg",
+      "assetSHA256": "989f6bc60e253a3f2de5fa6d3b4db9e2f1020b09cf2c9cfae2cb4418beda7bf3",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "6ae30f681c329bc1791f3b532829813d93dad78612e8d1ba7adfea660dfbbe5c",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל ורייצל קפה שרלוט .JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 27,
+      "sourceFile": "פוזנן/גיל ורייצל בשרלוט.JPG",
+      "sourceSHA256": "90a23b0e34919c0c8be8c8680ffe46c28f1b22620cf7aa7470d6128062dc977a",
+      "asset": "/assets/poznan/source-027.jpg",
+      "assetSHA256": "898cb0001a44949e38ff70f99b24b5aa42fc8474b62548b0612e69307488efaf",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "90a23b0e34919c0c8be8c8680ffe46c28f1b22620cf7aa7470d6128062dc977a",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל ורייצל בשרלוט.JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 28,
+      "sourceFile": "פוזנן/גיל ורייצל בקפה שרלוט 8.JPG",
+      "sourceSHA256": "7e77cdefa4fbb002f4e6d7a66deedf6f6bcff92eccc4ed10f1ff7c3bdb4cb742",
+      "asset": "/assets/poznan/source-028.jpg",
+      "assetSHA256": "acf38f94405fafd77b8b82f438b253d3c9ce066ee0336d1099391df7e683c9c9",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "7e77cdefa4fbb002f4e6d7a66deedf6f6bcff92eccc4ed10f1ff7c3bdb4cb742",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל ורייצל בקפה שרלוט 8.JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 136,
+      "sourceFile": "פוזנן/בית קפה בפוזנן שרלוט הפרטים .JPG",
+      "sourceSHA256": "daca095f78672f5db784c62df26810f7e73d4cafc41641154984f7405980ff4d",
+      "asset": "/assets/poznan/source-136.jpg",
+      "assetSHA256": "fe2688e745b5e3598917fcf5f0f1962922ec4f03cc1e51fd7ad084b1dc78d190",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "daca095f78672f5db784c62df26810f7e73d4cafc41641154984f7405980ff4d",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בית קפה בפוזנן שרלוט הפרטים .JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 23,
+      "sourceFile": "פוזנן/רייצל בשרלוט פוזנן.JPG",
+      "sourceSHA256": "2af60865e71e9b4896c9def81e159f9303b7524aadd2c52906bfe249fbbc14e1",
+      "asset": "/assets/poznan/source-023.jpg",
+      "assetSHA256": "e30390f5cca5ebbebfaa53ca8ea0c95991084f39a65a96acb8a35e9c52097eb2",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "2af60865e71e9b4896c9def81e159f9303b7524aadd2c52906bfe249fbbc14e1",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל בשרלוט פוזנן.JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 109,
+      "sourceFile": "פוזנן/שרלוט קפה פוזנן.JPG",
+      "sourceSHA256": "ba3f7a1dcd16400ae5a2e0171a6ffadd4ac3829f5a4d4d70f3197369e783d22c",
+      "asset": "/assets/poznan/source-109.jpg",
+      "assetSHA256": "840bb3054291ff68a654a8819fe1f30c9e03445488bc4f2f03eb594877417dc6",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "ba3f7a1dcd16400ae5a2e0171a6ffadd4ac3829f5a4d4d70f3197369e783d22c",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/שרלוט קפה פוזנן.JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 110,
+      "sourceFile": "פוזנן/יל בקפה שרךוט בפזונן.JPG",
+      "sourceSHA256": "be77fd7d86f4f7741090ac78109f6984c4008ad70cc9a4fbf809d32b6ddc06c2",
+      "asset": "/assets/poznan/source-110.jpg",
+      "assetSHA256": "22a9a8cf71595b1b045460d21771ac16c010c361ea683355a4c8b864d22a0710",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "be77fd7d86f4f7741090ac78109f6984c4008ad70cc9a4fbf809d32b6ddc06c2",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יל בקפה שרךוט בפזונן.JPG"
+    },
+    {
+      "placeId": "charlotte-poznan-krysiewicza",
+      "sourceIndex": 111,
+      "sourceFile": "פוזנן/קפה שרלוט בפוזנן.JPG",
+      "sourceSHA256": "53c4b82b5525a2d6cb2866cd6dfded2e9407f85394974b25601eb26b56364f57",
+      "asset": "/assets/poznan/source-111.jpg",
+      "assetSHA256": "f911026463f05dca8c5ae75413181392a8dee8c32a03beab12336be0648eccc9",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "53c4b82b5525a2d6cb2866cd6dfded2e9407f85394974b25601eb26b56364f57",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרלוט בפוזנן.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 83,
+      "sourceFile": "פוזנן/חזית מלון פורו 2.JPG",
+      "sourceSHA256": "13f068d52ae0eea882ef24dfb29a4ca74b76be4628e4790f054d83f766efd520",
+      "asset": "/assets/poznan/source-083.jpg",
+      "assetSHA256": "7509653a2069d4fbab209e7b717e525da0fb4cd5112bff08f85e2f5386b2af95",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "13f068d52ae0eea882ef24dfb29a4ca74b76be4628e4790f054d83f766efd520",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/חזית מלון פורו 2.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 84,
+      "sourceFile": "פוזנן/חזית מלון פורו 3.JPG",
+      "sourceSHA256": "6be454241c93b0519149356d730d2910eeb3e34494ef0bea20c529aef85e3f42",
+      "asset": "/assets/poznan/source-084.jpg",
+      "assetSHA256": "d0f9e0e661f28e83a547861e697bbbe1d48bd09d30cf1111947488e5a5e1cead",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "6be454241c93b0519149356d730d2910eeb3e34494ef0bea20c529aef85e3f42",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/חזית מלון פורו 3.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 121,
+      "sourceFile": "פוזנן/המעלית במלון פורו פוזנן.JPG",
+      "sourceSHA256": "ecff153ad34df4582c002575a9234597b5030ab2fc8fbb50e6f225ff366b0cb7",
+      "asset": "/assets/poznan/source-121.jpg",
+      "assetSHA256": "f801d4a7cdf45b188623dafc69b47984f09f6c6bb0803b7221076e26a7a18767",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "ecff153ad34df4582c002575a9234597b5030ab2fc8fbb50e6f225ff366b0cb7",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/המעלית במלון פורו פוזנן.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 144,
+      "sourceFile": "פוזנן/מלון פורו פוזנן.HEIC",
+      "sourceSHA256": "0ea2f7da1bee1fb816f6d053adb0e02519b40640b56e429618de3a6639abb72e",
+      "asset": "/assets/poznan/source-144.jpg",
+      "assetSHA256": "92e89fe4ea221b9654553fa0005f42eef4f8188bd702fcbce53e0300d7cc9b76",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "0ea2f7da1bee1fb816f6d053adb0e02519b40640b56e429618de3a6639abb72e",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מלון פורו פוזנן.HEIC"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 57,
+      "sourceFile": "פוזנן/הדלת של חדר מלון פורו פוזנן.JPG",
+      "sourceSHA256": "dc53b7639deec9f4a72769f56b05ea291dd49ac5c1fa39aef990017ac10dd61d",
+      "asset": "/assets/poznan/source-057.jpg",
+      "assetSHA256": "a777b6efc8942a8ed2064d966ba318193fac6f4945e91feb876dd158a0185d24",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "dc53b7639deec9f4a72769f56b05ea291dd49ac5c1fa39aef990017ac10dd61d",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הדלת של חדר מלון פורו פוזנן.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 58,
+      "sourceFile": "פוזנן/מסדרוןו במלךון םפורו פוזנן 2.JPG",
+      "sourceSHA256": "1a82d8df887240ae3cd85372f350d7797a5d9320e61d11187b5c0b083bb3ec16",
+      "asset": "/assets/poznan/source-058.jpg",
+      "assetSHA256": "007aafd6ed2e0118a8d009a2d99f9f8337a76983f0daca48d47e25e8ae1c0f9b",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "1a82d8df887240ae3cd85372f350d7797a5d9320e61d11187b5c0b083bb3ec16",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסדרוןו במלךון םפורו פוזנן 2.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 59,
+      "sourceFile": "פוזנן/מסדרון במלון פורו פוזנן.JPG",
+      "sourceSHA256": "5657047de20960a26032d624e6bf70c759532f052405e5178eb3a38a96d0055f",
+      "asset": "/assets/poznan/source-059.jpg",
+      "assetSHA256": "18b7ec3c9943ce87408cc92f8e1fc33cdc34f7a209ef67f0e10bc6543c31c9c2",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "5657047de20960a26032d624e6bf70c759532f052405e5178eb3a38a96d0055f",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מסדרון במלון פורו פוזנן.JPG"
+    },
+    {
+      "placeId": "ghiacci-cafe-poznan",
+      "sourceIndex": 67,
+      "sourceFile": "פוזנן/תה בשרודקה 3.JPG",
+      "sourceSHA256": "72492a53c4f357b66065719e5a8a77ac9237617ebbe87dc54198451a21d84ffd",
+      "asset": "/assets/poznan/source-067.jpg",
+      "assetSHA256": "e07f8c92b6847005e4aec5aac76c6304dfd71e8b13166df277582923de55b6a4",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "72492a53c4f357b66065719e5a8a77ac9237617ebbe87dc54198451a21d84ffd",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/תה בשרודקה 3.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 16,
+      "sourceFile": "פוזנן/הבניינים ליד בית הכנסת רובע יהודי ישן.JPG",
+      "sourceSHA256": "6b81021919b07c2414cd224035f8376dbf458c5ef56f81c94dc3e631460097b4",
+      "asset": "/assets/poznan/source-016.jpg",
+      "assetSHA256": "e194255ff430954048750a22fe860570aed55133ecc061b7f08c35ced32f6f7c",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "6b81021919b07c2414cd224035f8376dbf458c5ef56f81c94dc3e631460097b4",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הבניינים ליד בית הכנסת רובע יהודי ישן.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 17,
+      "sourceFile": "פוזנן/בניינים רובע יהודי ישן.JPG",
+      "sourceSHA256": "f9166da1ed09ebb52110bd69f91b837ebd3cd38cb209f26dcf1fee6c05c24f7a",
+      "asset": "/assets/poznan/source-017.jpg",
+      "assetSHA256": "ba35dcf9513d7026f6b91f9f920e0f62fad8958a435e913bedb6bef29f08ee81",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "f9166da1ed09ebb52110bd69f91b837ebd3cd38cb209f26dcf1fee6c05c24f7a",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בניינים רובע יהודי ישן.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 85,
+      "sourceFile": "פוזנן/בניינים ברובע היהודי ליד הבית כנסת.JPG",
+      "sourceSHA256": "a0992ac9f7c9cb4279dc9ba261e6402315f919fdfab8676d960ed413b410ff6c",
+      "asset": "/assets/poznan/source-085.jpg",
+      "assetSHA256": "bc31a75ed132cea42409972c32d921124874d356b730a0c868a386fad539b5e8",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "a0992ac9f7c9cb4279dc9ba261e6402315f919fdfab8676d960ed413b410ff6c",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/בניינים ברובע היהודי ליד הבית כנסת.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 86,
+      "sourceFile": "פוזנן/רחובות הרובע היהודי הישן.JPG",
+      "sourceSHA256": "f0d5802c7bcb955c23e9f81a53ce7a347f71d86d866035c50aff31bc0db4a3a0",
+      "asset": "/assets/poznan/source-086.jpg",
+      "assetSHA256": "470a1fe8c8d335bd65d14e4b4a96435a1e0dde8f24bc9c83061a55248d1df160",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "f0d5802c7bcb955c23e9f81a53ce7a347f71d86d866035c50aff31bc0db4a3a0",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רחובות הרובע היהודי הישן.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 87,
+      "sourceFile": "פוזנן/הרובע היהודי הישן 2.JPG",
+      "sourceSHA256": "d0ff524226694d78f111029bb78ee47d94fbcf866bdb9112c3673d08407e3b2b",
+      "asset": "/assets/poznan/source-087.jpg",
+      "assetSHA256": "1a3c5a4865f41c7a50785d37647eb2cc2f59432520c91a08789504e5a26aa27f",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "d0ff524226694d78f111029bb78ee47d94fbcf866bdb9112c3673d08407e3b2b",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/הרובע היהודי הישן 2.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 88,
+      "sourceFile": "פוזנן/רובע יהודי ישן 3.JPG",
+      "sourceSHA256": "15027bcb118a6b5f31db345fefa294ba49d5bf32cd25e62ed77447f803cb1962",
+      "asset": "/assets/poznan/source-088.jpg",
+      "assetSHA256": "0564a1f8753ada02a35066b29aac7d1ac560d6b181b1cd41c71e016d9573f46e",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "15027bcb118a6b5f31db345fefa294ba49d5bf32cd25e62ed77447f803cb1962",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רובע יהודי ישן 3.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 89,
+      "sourceFile": "פוזנן/רובע יהודי ישן 4.JPG",
+      "sourceSHA256": "fc23797328ed4c9a2440484be46feed82e28a183eb3b098a324ddb71b84fe426",
+      "asset": "/assets/poznan/source-089.jpg",
+      "assetSHA256": "351885be3e5bcebc7dd579e717b0d53cbcaff3a30ce21c0845f39d2838b4b7b6",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "fc23797328ed4c9a2440484be46feed82e28a183eb3b098a324ddb71b84fe426",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רובע יהודי ישן 4.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 90,
+      "sourceFile": "פוזנן/רובע יהודי ישן 5.JPG",
+      "sourceSHA256": "550f23a2f0c3e7bbce825163810e80277b2a5032a50343ab5dd9c381d51fbbc1",
+      "asset": "/assets/poznan/source-090.jpg",
+      "assetSHA256": "b8ef3e66092ed628f1c88682dd97dc513847074553d91f5566ca3675e19c0f9f",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "550f23a2f0c3e7bbce825163810e80277b2a5032a50343ab5dd9c381d51fbbc1",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רובע יהודי ישן 5.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 91,
+      "sourceFile": "פוזנן/רובי יהודי ישן 2.JPG",
+      "sourceSHA256": "02fadea047ea8e668892e67f3d646a61d934205dc412780632bd20356ec177f4",
+      "asset": "/assets/poznan/source-091.jpg",
+      "assetSHA256": "365d878ce57c690540d83e6671367ab92a2028a4db4732e1e63295ce75c2a099",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "02fadea047ea8e668892e67f3d646a61d934205dc412780632bd20356ec177f4",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רובי יהודי ישן 2.JPG"
+    },
+    {
+      "placeId": "poznan-jewish-quarter",
+      "sourceIndex": 92,
+      "sourceFile": "פוזנן/ובע יהודי ישן 6.JPG",
+      "sourceSHA256": "0c750847bf6f11591c91240f6b6d04912d4affb8dc1dcfb97b7b615e062543cf",
+      "asset": "/assets/poznan/source-092.jpg",
+      "assetSHA256": "6833243f9b424df674fffd97f563ea04c0b5698fedfad8af1ab75f88a6657dc5",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "0c750847bf6f11591c91240f6b6d04912d4affb8dc1dcfb97b7b615e062543cf",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ובע יהודי ישן 6.JPG"
+    },
+    {
+      "placeId": "raj-szycia-poznan",
+      "sourceIndex": 49,
+      "sourceFile": "פוזנן/סטודיו תפירה בפוזנמן.JPG",
+      "sourceSHA256": "8acfd790027d3926391bb95e76eaccefc080474029466f091697bd8cb958ff3e",
+      "asset": "/assets/poznan/source-049.jpg",
+      "assetSHA256": "b37a34fca622e83c0cc1ca9f1d49b8bc64e3f58523e738b9368a7dd5cb8de020",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "8acfd790027d3926391bb95e76eaccefc080474029466f091697bd8cb958ff3e",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/סטודיו תפירה בפוזנמן.JPG"
+    },
+    {
+      "placeId": "raj-szycia-poznan",
+      "sourceIndex": 50,
+      "sourceFile": "פוזנן/סטודיו תפירה בפוזנן.JPG",
+      "sourceSHA256": "ed6b344ff94494f0b8ffbd9d9272b140077ebfc65b8d2c824e727aa6dd5ea007",
+      "asset": "/assets/poznan/source-050.jpg",
+      "assetSHA256": "194c09863b70c31f7f97dca24381cd4ff85a65683c5fbbadcacf091179a91e3c",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "ExactPoznanfolder only; identifiedsourceSHA attached",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "ed6b344ff94494f0b8ffbd9d9272b140077ebfc65b8d2c824e727aa6dd5ea007",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/סטודיו תפירה בפוזנן.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 82,
+      "sourceFile": "פוזנן/חזית מלון פורו.JPG",
+      "sourceSHA256": "ab09c9204a1c5dbaa6d3e820bf4f7d45b941fe279eadf2fd082598f5e465b379",
+      "asset": "/assets/poznan/source-082.jpg",
+      "assetSHA256": "d7ec0bf3f5124d3b82adc366da3e7e5c7b15c10b2b8c6b98bdf87b083d59e5d6",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/חזית מלון פורו.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 32,
+      "sourceFile": "פוזנן/גיל במלךון פורו פוזנן.JPG",
+      "sourceSHA256": "d3ffe9e73ee38f33e39e98168439a20a293edcfb6493aa081e4b3f227b45daa7",
+      "asset": "/assets/poznan/source-032.jpg",
+      "assetSHA256": "20d7b633ef1e0a13ba796458bc3dc0461c11b5b27a08e3f1ae46cb4e346ec587",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "מלון פורו יש תמונת חזית עם הרבה חלונות מלבניים ויש גם תמונות שלנו במסדרונות המלון עם המזוודות רשאי לפרסם",
+        "scope": "Exactly matched corridor photographs with luggage; no permission for other portraits",
+        "sourceSHA256": "d3ffe9e73ee38f33e39e98168439a20a293edcfb6493aa081e4b3f227b45daa7",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל במלךון פורו פוזנן.JPG"
+    },
+    {
+      "placeId": "puro-poznan-stare-miasto",
+      "sourceIndex": 33,
+      "sourceFile": "פוזנן/גיל במלון פורו פוזנן 2.JPG",
+      "sourceSHA256": "f9dc812c82c8d7a60e6bef80ccb5e306f851a656ef0467cc77a07eb9538d520d",
+      "asset": "/assets/poznan/source-033.jpg",
+      "assetSHA256": "d4324c13627b5cf8de3d4fb010bf19ac65af84a7c786844ab5918c1ed418724d",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "מלון פורו יש תמונת חזית עם הרבה חלונות מלבניים ויש גם תמונות שלנו במסדרונות המלון עם המזוודות רשאי לפרסם",
+        "scope": "Exactly matched corridor photographs with luggage; no permission for other portraits",
+        "sourceSHA256": "f9dc812c82c8d7a60e6bef80ccb5e306f851a656ef0467cc77a07eb9538d520d",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/גיל במלון פורו פוזנן 2.JPG"
+    },
+    {
+      "placeId": "pierozak-polwiejska-poznan",
+      "sourceIndex": 21,
+      "sourceFile": "פוזנן/מכיניםפ פירוגי בפוזנן.MP4",
+      "sourceSHA256": "2c68b9c1338c8cd3eaf05309ac5079abc89601f81e68535f28d2b79e21984a0e",
+      "asset": "/assets/poznan/pierozak-source021-frame-2s.jpg",
+      "assetSHA256": "937b26deececb1ea0f14d7620858d6d7d13ec5e6a1e6bc71d9f5e90806c7af35",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "derivation": {
+        "type": "exact-video-frame",
+        "timeSeconds": 2,
+        "fullFrame": true,
+        "crop": false,
+        "AI": false
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/מכיניםפ פירוגי בפוזנן.MP4"
+    },
+    {
+      "placeId": "poznan-cathedral-island",
+      "sourceIndex": 79,
+      "sourceFile": "פוזנן/אי הקתרדלות.JPG",
+      "sourceSHA256": "2fe448dd4b7ad8cd27f9abe9d010907a07a8989adf324b497619ee8eaba5d9e9",
+      "asset": "/assets/poznan/source-079.jpg",
+      "assetSHA256": "8d304d21fdc79d28900fb991331505c3ec865213a7a2ced4c883b3b90d25d1dc",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/אי הקתרדלות.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 51,
+      "sourceFile": "פוזנן/יל והעזים של פוזנן.JPG",
+      "sourceSHA256": "aa4aec304f191b6a6e6bd88b86b38854a24f08f1e407e109dccf4cc6369e3fbd",
+      "asset": "/assets/poznan/source-051.jpg",
+      "assetSHA256": "1f1d91c7426beec5558e5a0d4fab2ddd4705fff44734c92698073715d093a1e1",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "aa4aec304f191b6a6e6bd88b86b38854a24f08f1e407e109dccf4cc6369e3fbd",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/יל והעזים של פוזנן.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 9,
+      "sourceFile": "פוזנן/רייצל בפסל העזים בפוזנן.JPG",
+      "sourceSHA256": "dc3f6ea5b6bc0d3aff0f47b9f6b8fd80a556eb59efdbdcae4c4020a4e01c3c7a",
+      "asset": "/assets/poznan/source-009.jpg",
+      "assetSHA256": "24193867c2ad994d7c14a9a305f024beb57bb3e0c9a340d44fde3a39029c4b99",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "dc3f6ea5b6bc0d3aff0f47b9f6b8fd80a556eb59efdbdcae4c4020a4e01c3c7a",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל בפסל העזים בפוזנן.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 12,
+      "sourceFile": "פוזנן/רייצל שוב ליד פסל העזים.JPG",
+      "sourceSHA256": "bfc0349810ac5dce1eb9528bdd1cfb78d9a9f95db2d7815a56b593d356d3ab68",
+      "asset": "/assets/poznan/source-012.jpg",
+      "assetSHA256": "879cbc463b6c2c7736beff6c0f839ff8827ea1a0ee8e3895507c1c608d280cfa",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "bfc0349810ac5dce1eb9528bdd1cfb78d9a9f95db2d7815a56b593d356d3ab68",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל שוב ליד פסל העזים.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 18,
+      "sourceFile": "פוזנן/רייצל ליד העזים.JPG",
+      "sourceSHA256": "fc2fe566c3f56c079e201cb5c7b7e2ee9c236a55488d0a5f4569147b1a1172f7",
+      "asset": "/assets/poznan/source-018.jpg",
+      "assetSHA256": "ad95f81b8d854a081be867ccbb4a71267c90f36c06254e23565220459951a726",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "fc2fe566c3f56c079e201cb5c7b7e2ee9c236a55488d0a5f4569147b1a1172f7",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/רייצל ליד העזים.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 20,
+      "sourceFile": "פוזנן/עזים ורייצל.JPG",
+      "sourceSHA256": "c1a65013add6309d09828531521396ec79b82efe1164e933674081152e5c6c4d",
+      "asset": "/assets/poznan/source-020.jpg",
+      "assetSHA256": "12bb24e1e8dc319d09ca2dc7d8811324e018ef0ff6d7b19d172dbe94585077e5",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "c1a65013add6309d09828531521396ec79b82efe1164e933674081152e5c6c4d",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/עזים ורייצל.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 22,
+      "sourceFile": "פוזנן/ייצל והעזים 3 .JPG",
+      "sourceSHA256": "912f3256439cde92b82e52b2ea0e13dcf65b027bbbf8e3c02b490c980e5c2afe",
+      "asset": "/assets/poznan/source-022.jpg",
+      "assetSHA256": "92ac88b5215d5402286f77676c5e6844a70670d3f1ecb957ec4374c54ef6dc4e",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "912f3256439cde92b82e52b2ea0e13dcf65b027bbbf8e3c02b490c980e5c2afe",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/ייצל והעזים 3 .JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 74,
+      "sourceFile": "פוזנן/פרחים בפוזנן ליד פסל העזים.JPG",
+      "sourceSHA256": "a800f9e2dbb079f9c695651f42baf34a96aa7684e066c2c8945741d55b79ce46",
+      "asset": "/assets/poznan/source-074.jpg",
+      "assetSHA256": "d57ec52edbc5b9f649e63650a7e02d1c37dfa05e557fc33b5faaa0c44d238f69",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "a800f9e2dbb079f9c695651f42baf34a96aa7684e066c2c8945741d55b79ce46",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/פרחים בפוזנן ליד פסל העזים.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 75,
+      "sourceFile": "פוזנן/פרחים בפוזנן ליד פסל העזים 2.JPG",
+      "sourceSHA256": "730f3c90012098d6cdc359182cd85230876aa95024d3fb161f2b76e2ca34afa5",
+      "asset": "/assets/poznan/source-075.jpg",
+      "assetSHA256": "da9ec12c0141423c21545a07e906a89543cd5b76b10a0a74bfe4f5d5211bd2d1",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "730f3c90012098d6cdc359182cd85230876aa95024d3fb161f2b76e2ca34afa5",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/פרחים בפוזנן ליד פסל העזים 2.JPG"
+    },
+    {
+      "placeId": "poznan-fara",
+      "sourceIndex": 76,
+      "sourceFile": "פוזנן/פרחים בפזונן ליד פסל העזים 3 .JPG",
+      "sourceSHA256": "6952a54ed0ec144ff1c80cc20773675edfe21ed253a0936873bf676432685570",
+      "asset": "/assets/poznan/source-076.jpg",
+      "assetSHA256": "bb4cf6ba9221c519d6297a5a99486e9b4bfbbf9bc3e96b3cc8e5fdb1ace1656f",
+      "review": "Full uncropped frame reviewed by root; exact place identity checked; original preserved",
+      "exactImageHumanApproval": {
+        "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+        "scope": "Poznan folder only",
+        "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json",
+        "sourceSHA256": "6952a54ed0ec144ff1c80cc20773675edfe21ed253a0936873bf676432685570",
+        "date": "2026-10-27"
+      },
+      "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/פרחים בפזונן ליד פסל העזים 3 .JPG"
+    }
+  ],
+  "uniqueAssets": 92,
+  "heldPersonalPhotos": [],
+  "pendingPhotoSourceIndices": [
+    30,
+    31,
+    79,
+    109,
+    111
+  ],
+  "personalApprovalRule": "Explicit allPoznanfolderpersonalmediaapproval;sourceidentitystillrequired",
+  "originalsPreserved": true,
+  "rawVideosInWebsite": false,
+  "localPreviewOnly": true,
+  "historicalSourcePhotoFiles": 150,
+  "folderPersonalMediaApproval": {
+    "humanWords": "כל התמונות והסירטונים האישיים של פוזנן מאושרים לפרסום",
+    "date": "2026-10-27",
+    "scope": "Poznanfolder only",
+    "receipt": "outputs/poznan-excursion-2026-10-27/folder-personal-media-approval-oct27.json"
+  },
+  "historicalHeldPersonalPhotos": [
+    {
+      "sourceIndex": 5,
+      "sourceSHA256": "80c84f949cd0b8ac79bb0aadbdc7f60c70a907536264d080dbb6443a4e15bf8e",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 7,
+      "sourceSHA256": "320ab4ff87aa5bf5381bee5b6438ec46087c7ce29410a406edf12cb22e39df39",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 8,
+      "sourceSHA256": "8141b515600c7180482e670c2af4a9505a51c0afb7ed6043e0c5f66a3cb694f0",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 9,
+      "sourceSHA256": "dc3f6ea5b6bc0d3aff0f47b9f6b8fd80a556eb59efdbdcae4c4020a4e01c3c7a",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 10,
+      "sourceSHA256": "080c0bf152c0df757f24ca8352f151b445750bb3b1bb9d165817b0739c0770ef",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 12,
+      "sourceSHA256": "bfc0349810ac5dce1eb9528bdd1cfb78d9a9f95db2d7815a56b593d356d3ab68",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 14,
+      "sourceSHA256": "482dd8a13b6b1b9e1f95544d244ec81c082dfeab695372c65e30b62a5c749e3a",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 18,
+      "sourceSHA256": "fc2fe566c3f56c079e201cb5c7b7e2ee9c236a55488d0a5f4569147b1a1172f7",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 19,
+      "sourceSHA256": "aba421f580d18261998a5a0b648b497392f60f98739fdbf5f51629e182da854d",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 20,
+      "sourceSHA256": "c1a65013add6309d09828531521396ec79b82efe1164e933674081152e5c6c4d",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 22,
+      "sourceSHA256": "912f3256439cde92b82e52b2ea0e13dcf65b027bbbf8e3c02b490c980e5c2afe",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 23,
+      "sourceSHA256": "2af60865e71e9b4896c9def81e159f9303b7524aadd2c52906bfe249fbbc14e1",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 24,
+      "sourceSHA256": "6ae30f681c329bc1791f3b532829813d93dad78612e8d1ba7adfea660dfbbe5c",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 25,
+      "sourceSHA256": "59dd5bcd42d23befc997f270bff0848ee71769821f6c9b38bff79d81cc7c5b1f",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 27,
+      "sourceSHA256": "90a23b0e34919c0c8be8c8680ffe46c28f1b22620cf7aa7470d6128062dc977a",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 28,
+      "sourceSHA256": "7e77cdefa4fbb002f4e6d7a66deedf6f6bcff92eccc4ed10f1ff7c3bdb4cb742",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 32,
+      "sourceSHA256": "d3ffe9e73ee38f33e39e98168439a20a293edcfb6493aa081e4b3f227b45daa7",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 33,
+      "sourceSHA256": "f9dc812c82c8d7a60e6bef80ccb5e306f851a656ef0467cc77a07eb9538d520d",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 51,
+      "sourceSHA256": "aa4aec304f191b6a6e6bd88b86b38854a24f08f1e407e109dccf4cc6369e3fbd",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 62,
+      "sourceSHA256": "53a3ddb5b1e0b0cb08d69684ec0234d98d37a6cd2acb1eecce48385e13ad3de3",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 63,
+      "sourceSHA256": "a9a0cf068e0f4901689573cc963185d39aad6c20bfd8b6b57298b783ded10ffd",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 65,
+      "sourceSHA256": "8e2d175f7b79416dd1dc60e19b619b6d017bef753fabeb0f68c2f26fa4ca33bf",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 70,
+      "sourceSHA256": "73c954c472f66ff8720b000249e83c3f6ef3fa239c92e7e15d7e12b45098acdf",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 77,
+      "sourceSHA256": "17de8cfe73c4507711b48a8c7a0c9628096e2b7dc7072d1decf9488260b34268",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 78,
+      "sourceSHA256": "99a3991129f88229170dcf1715459a8d005b5ad95e437aebeb449ed18f9fa243",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 110,
+      "sourceSHA256": "be77fd7d86f4f7741090ac78109f6984c4008ad70cc9a4fbf809d32b6ddc06c2",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 121,
+      "sourceSHA256": "ecff153ad34df4582c002575a9234597b5030ab2fc8fbb50e6f225ff366b0cb7",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 133,
+      "sourceSHA256": "d243f26150de3bff49998a976217881fbd3621beb982028da6587b0e8cce7f0d",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 136,
+      "sourceSHA256": "daca095f78672f5db784c62df26810f7e73d4cafc41641154984f7405980ff4d",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 139,
+      "sourceSHA256": "c982c436cf242d563d32e69ee9f10fec77745a0e466ffd9ddf661cebc66671fd",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 140,
+      "sourceSHA256": "7c6ad8398c1f7a583692a8fc415812d6324c3cb6686ed37070517b04dfbdc5e7",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 141,
+      "sourceSHA256": "b531a24b3dce37081caca41da5dc17a276961bbdd452f90c44858786bb70e344",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 143,
+      "sourceSHA256": "8a02f5393ffd0fba279cb25f8b61a93f3ee8dc63ec4222139499460e948472f4",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 144,
+      "sourceSHA256": "0ea2f7da1bee1fb816f6d053adb0e02519b40640b56e429618de3a6639abb72e",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 150,
+      "sourceSHA256": "5c83a6fda48e4d1436eef63995c3578a76827272f27f9b2498d0cabe4f9536c4",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 151,
+      "sourceSHA256": "dddd19d174f9445ff5e37bbf6a9d4f9589611c764e61f603ad5933a44074dc69",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 152,
+      "sourceSHA256": "e9c1fb613c10381a3602dcefa08ecf7e2b3c7a653359cab7b85abe41e5778046",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 153,
+      "sourceSHA256": "43681153713a3de9f8e86bfc1f3c2c093dd26ebd75ef432e5b8aff02a06066c7",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 154,
+      "sourceSHA256": "a97acea94713935a66177b2b2eba99422828213e4f309287bcf8372d865d8086",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 155,
+      "sourceSHA256": "6e9b6434bbe3a2d6c80dfa69a61f221a9e331c29b806db8a029cd41e3af1cbd2",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 156,
+      "sourceSHA256": "2af60865e71e9b4896c9def81e159f9303b7524aadd2c52906bfe249fbbc14e1",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 157,
+      "sourceSHA256": "118f5d2c47c1d1ce1952515440eea43544333b5f87ea24116c8099f520e15243",
+      "decision": "Held personal photo; exact image approval required before publication"
+    },
+    {
+      "sourceIndex": 119,
+      "sourceSHA256": "63407eb8e7eb23fe809ed84ec024b057e7243598834457f16d7f0035b083141f",
+      "decision": "Exact human approval received for partial diner body",
+      "exactImageHumanApproval": "call_6cc8b5fc69114799b60bc68944e8606f"
+    },
+    {
+      "sourceIndex": 128,
+      "sourceSHA256": "5235baa0c0645c115b915dc50b94998ba4d0bb248aca01430eb72dbf3d8e774d",
+      "decision": "Exact human approval received for partial diner body",
+      "exactImageHumanApproval": "call_6cc8b5fc69114799b60bc68944e8606f"
+    }
+  ],
+  "reviewedCurrentInventory": 138
+}

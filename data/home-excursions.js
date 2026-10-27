@@ -107,5 +107,23 @@ window.WROC_HOME_EXCURSIONS = [
       "cs": "Z Vratislavi k horské pevnosti Stříbrná Hora, dále do Kladské pevnosti a nakonec na náměstí a do starých ulic. Celodenní cesta autem s volitelným rozsahem prohlídek."
     },
     "photo": "/assets/srebrna-klodzko/srebrna-gora-fortress-01.jpg"
+  },
+  {
+    "id": "poznan-wroclaw-stopover",
+    "title": {
+      "he": "בדרך לוורוצלב 2: עוצרים בפוזנן",
+      "en": "On the way to Wrocław 2: a stop in Poznań",
+      "pl": "W drodze do Wrocławia 2: przystanek Poznań",
+      "de": "Auf dem Weg nach Wrocław 2: Zwischenstopp in Poznań",
+      "cs": "Cestou do Vratislavi 2: zastávka v Poznani"
+    },
+    "summary": {
+      "he": "יום בפוזנן בין כיכר השוק ובית העירייה, סמטאות העיר העתיקה, אי הקתדרלות וציור הקיר בשרודקה, עם בחירה של עצירת אוכל או קפה בדרך.",
+      "en": "A day in Poznań linking the Old Market Square and Town Hall, Old Town streets, Cathedral Island and the Śródka mural, with a choice of food or coffee stops.",
+      "pl": "Dzień w Poznaniu: Stary Rynek i ratusz, uliczki Starego Miasta, Ostrów Tumski i mural na Śródce, z wybraną przerwą na jedzenie lub kawę.",
+      "de": "Ein Tag in Poznań mit Altem Markt und Rathaus, Altstadtgassen, Dominsel und Śródka-Wandbild sowie einer Pause zum Essen oder Kaffee.",
+      "cs": "Den v Poznani se Starým náměstím a radnicí, uličkami Starého Města, Tumským ostrovem a malbou ve Śródce, s vybranou zastávkou na jídlo či kávu."
+    },
+    "photo": "/assets/poznan/source-052.jpg"
   }
 ];

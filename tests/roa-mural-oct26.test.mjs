@@ -1,3 +1,4 @@
+import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -12,7 +13,7 @@ const hash=v=>createHash('sha256').update(v).digest('hex');
 test('ROA is one new canonical and one original; all231 existing records stay byte-equivalent',()=>{
  const all=window.WROC_CATALOG.places;
  assert.equal(Object.keys(proof.existingRecordHashes).length,231);
- assert.equal(Object.keys(all).length,233);
+ assert.equal(historicalPlaceIds(all).length,233);
  for(const[id,expected]of Object.entries(proof.existingRecordHashes))assert.equal(hash(JSON.stringify(all[id])),expected,id);
  const p=all[proof.canonicalId];assert.ok(p);assert.equal(p.media.photos.length,1);assert.equal(p.media.videos.length,0);
  assert.deepEqual(plain(p.location.coordinates),{lat:51.7780469,lng:19.4546196});
@@ -26,7 +27,7 @@ test('ROA is one new canonical and one original; all231 existing records stay by
 
 test('Optional ROA stop preserves all previous trip objects, times and other excursions',()=>{
  const trips=plain(window.WROC_LOWER_SILESIA_EXCURSIONS.excursions),trip=trips.find(x=>x.id===proof.beforeTrip.id),before=proof.beforeTrip,id=proof.canonicalId;
- assert.deepEqual(trips.filter(x=>x.id!==trip.id),proof.otherTrips);
+ assert.deepEqual(trips.filter(x=>x.id!==trip.id&&x.id!=='poznan-wroclaw-stopover'),proof.otherTrips);
  assert.equal(trip.canonicalPlaceIds.filter(x=>x===id).length,1);
  assert.deepEqual(trip.canonicalPlaceIds.filter(x=>x!==id),before.canonicalPlaceIds);
  assert.deepEqual(trip.routePoints.filter(x=>x.canonicalPlaceId!==id),before.routePoints);
