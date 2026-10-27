@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-27T18:54:24.249229+00:00",
+  "at": "2026-10-27T19:27:12.348513+00:00",
   "sourcePhotoFiles": 131,
   "sourceVideoFiles": 7,
-  "publicationStage": "PR464 live; additional LittlePrince two-photo delta local pending deployment",
+  "publicationStage": "PR465 live; three additional verified photographs in local preparation",
   "photos": [
     {
       "asset": "/assets/poznan/source-052.jpg",
@@ -1400,9 +1400,36 @@
       "sourceFile": "פוזנן/שכונת ייצה בפוזנן 2.JPG",
       "placeId": "poznan-little-prince-mural",
       "review": "Full-frame enlarged source and exact SHA rechecked; mural identity and official address resolved; original frame retained"
+    },
+    {
+      "asset": "/assets/poznan/collegium-minus-source-106.jpg",
+      "sourceIndex": 106,
+      "sourceSHA256": "53d0563c1bb1e29dc82082d6b3cd23ee22e70e532d936c24173438574e5db776",
+      "assetSHA256": "b20caf040e3b4ecfde4af3abccc849e2384de2636f4cf578bc5428bec2e3096f",
+      "sourceFile": "פוזנן/הזאמק המבצר של פוזנן.JPG",
+      "placeId": "poznan-collegium-minus",
+      "review": "Full frame viewed, ordinary original read and SHA verified, primary owner/government visual identity compared; full frame retained"
+    },
+    {
+      "asset": "/assets/poznan/collegium-minus-source-107.jpg",
+      "sourceIndex": 107,
+      "sourceSHA256": "62f1edf787ff7803e0329cb724733e85f9bfe241a2f4a3d9c6cc4eb1982294ae",
+      "assetSHA256": "3c9c27128a7844ed9f8b4c528986fe1439f5d85e94fcab3ea9f1e6bd732f2e2c",
+      "sourceFile": "פוזנן/הזאמק הכיכר של פוזנן 2 .JPG",
+      "placeId": "poznan-collegium-minus",
+      "review": "Full frame viewed, ordinary original read and SHA verified, primary owner/government visual identity compared; full frame retained"
+    },
+    {
+      "asset": "/assets/poznan/franciscans-source-104.jpg",
+      "sourceIndex": 104,
+      "sourceSHA256": "7910ee993117589525e039bf358c5b554ce4e07952b79b7af694db1e91ae91c1",
+      "assetSHA256": "565c0f4b9b1ae0405be27a2eca6519ff8b730e58937c4d5cf1d1cdedf369b0bc",
+      "sourceFile": "פוזנן/הבזיליקה המדהימה של פוזנן.JPG",
+      "placeId": "poznan-franciscan-church-st-anthony",
+      "review": "Full frame viewed, ordinary original read and SHA verified, primary owner/government visual identity compared; full frame retained"
     }
   ],
-  "uniqueAssets": 94,
+  "uniqueAssets": 97,
   "heldPersonalPhotos": [],
   "pendingPhotoSourceIndices": [
     30,
