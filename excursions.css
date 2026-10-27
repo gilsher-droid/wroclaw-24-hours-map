@@ -80,6 +80,37 @@ h2 { margin:0; font:700 clamp(32px,4vw,50px)/1.15 Georgia,serif; }
 .place-copy h3 { margin:0 0 12px; font:700 30px/1.2 Georgia,serif; }
 .place-copy p { margin:0; color:var(--muted); line-height:1.7; white-space:pre-line; }
 .optional-marker span { background:#50795f; }
+.route-marker.poznan-choice-marker > span:first-child{width:34px;height:34px;background:transparent;color:white;font-size:21px;line-height:1}
+.route-marker.poznan-choice-marker > span:first-child::before{background:#39734e;border-radius:50%;transform:none;border-width:2px;box-shadow:0 2px 5px #062b5c44}
+.map-options{margin:0 0 16px;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:#f7faf8}
+.map-options[hidden]{display:none}
+.map-options p{margin:10px 0;color:#43576b;font-size:14px;line-height:1.6}
+.map-key{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:14px;font-weight:700}
+.map-key>span{display:flex;align-items:center;gap:8px}
+.map-key i{display:inline-grid;place-items:center;width:25px;height:25px;color:white;font-style:normal}
+.map-key-route{background:var(--navy);border-radius:50% 50% 50% 4px}
+.map-key-choice{background:#39734e;border-radius:50%}
+.map-choice-buttons{display:flex;flex-wrap:wrap;gap:8px}
+.map-choice-buttons button{min-height:42px;padding:9px 14px;border:1px solid #bdcbd2;border-radius:22px;background:white;color:var(--navy);font:700 14px/1.3 Arial,sans-serif;cursor:pointer}
+.map-choice-buttons button[aria-pressed=true]{background:var(--navy);color:white;border-color:var(--navy)}
+.map-choice-buttons button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.optional-place-group{margin:18px 0;border:1px solid var(--line);border-radius:18px;background:#fff;overflow:hidden}
+.optional-place-group>summary{display:flex;align-items:center;gap:12px;min-height:54px;padding:18px 22px;font-weight:700;cursor:pointer;list-style:none}
+.optional-place-group>summary::before{content:"+";font-size:23px;font-weight:400}
+.optional-place-group[open]>summary::before{content:"−"}
+.optional-place-group>summary span{padding:2px 9px;border-radius:12px;background:#edf2f5;font-size:13px;color:#43576b}
+.optional-place-group .places-grid{padding:0 18px 20px}
+.poznan-trip .place-card{align-self:start;border-radius:18px}
+.poznan-trip .place-cover{height:300px;object-fit:contain;background:#edf1f4}
+.poznan-trip .photo-strip img{object-fit:contain;background:#edf1f4}
+.photo-open-label{display:block;padding:9px 14px;background:#f3f6f8;color:#174f7b;font:700 13px/1.4 Arial,sans-serif;text-align:start}
+.poznan-trip .place-copy{padding:22px}
+.poznan-trip .place-copy h3{line-height:1.3;margin-top:0}
+.poznan-trip .place-copy>p{line-height:1.75}
+.poznan-trip .place-actions{gap:8px;flex-wrap:wrap}
+.poznan-trip .place-actions>*{max-width:100%;overflow-wrap:anywhere}
+.poznan-trip .excursion-preview img{object-fit:contain;background:#e8edf0}
+@media(max-width:640px){.map-options{padding:13px}.map-choice-buttons{display:grid;grid-template-columns:1fr 1fr}.map-choice-buttons button{border-radius:12px;padding:9px 7px;min-height:46px}.map-key{gap:10px;font-size:13px}.optional-place-group .places-grid{padding:0 12px 14px}.optional-place-group>summary{padding:15px}.poznan-trip .place-copy{padding:18px}.poznan-trip .place-cover{height:280px}.poznan-trip .photo-strip{gap:6px}.poznan-trip .section-title-row .map-toolbar{width:100%}.poznan-trip .route-link{max-width:100%;white-space:normal;line-height:1.4;text-align:center}}
 .photo-strip { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:22px; }
 .photo-strip img { width:100%; height:88px; border-radius:11px; object-fit:cover; }
 .visit-gallery { margin-top:20px; }
@@ -202,3 +233,15 @@ button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
 .excursion-media-fallback { text-align:center; }
 .excursion-media-fallback p { margin:10px 0; }
 .video-watch-link { display:inline-block; padding:8px; color:var(--navy,#062b5c); font-weight:700; text-underline-offset:3px; }
+
+/* Keep Poznań's portrait opening photograph complete in a compact frame. */
+.poznan-trip.selected-trip .excursion-preview{width:fit-content;max-width:100%;justify-self:center;background:transparent;border-radius:18px}
+.poznan-trip.selected-trip .excursion-preview img{width:auto;max-width:100%;height:250px;object-fit:contain;background:transparent}
+@media(max-width:900px){.poznan-trip.selected-trip .excursions-hero{gap:22px}.poznan-trip.selected-trip .excursion-preview img{height:220px}}
+@media(max-width:640px){.poznan-trip.selected-trip .excursion-preview img{height:200px}}
+
+.recommended-group-marker{background:transparent;border:0}
+.recommended-group-marker>span{display:grid;place-items:center;width:100%;height:38px;border:3px solid white;border-radius:20px;background:var(--navy);color:white;font:bold 14px Arial,sans-serif;box-shadow:0 3px 10px #001c3e55;white-space:nowrap;direction:ltr}
+.recommended-group-popup{display:grid;gap:8px;min-width:180px}
+.recommended-group-popup button{border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--navy);padding:10px;text-align:start;line-height:1.4;cursor:pointer}
+.recommended-group-popup button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}

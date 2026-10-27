@@ -21,7 +21,7 @@ function showMap(e){
  for(const area of e.mapPoints||[])points.push({id:area.id,label:local(area.name)||area.label,coords:{lat:area.coordinates[0],lng:area.coordinates[1]}});
  $('experience-map-section').hidden=!points.length;
  if(!points.length){markers.forEach(m=>m.remove());markers=[];return;}
- if(!map&&window.L){map=L.map('experience-map',{scrollWheelZoom:false});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',maxZoom:19}).addTo(map);}
+ if(!map&&window.L){map=L.map('experience-map',{scrollWheelZoom:false});window.WROC_MAP_TILES.addTo(map);}
  if(!map)return;markers.forEach(m=>m.remove());markers=[];
  for(const point of points){let content=`<strong>${esc(point.label)}</strong>`;if(point.p)content=window.WROC_PLACE_PANEL.popup(point.p,lang);const marker=L.marker([point.coords.lat,point.coords.lng],{title:point.label}).addTo(map).bindPopup(content,{maxWidth:330,minWidth:260});marker.canonicalId=point.id;markers.push(marker);}
  requestAnimationFrame(()=>{map.invalidateSize();if(points.length===1)map.setView([points[0].coords.lat,points[0].coords.lng],14);else map.fitBounds(L.latLngBounds(points.map(p=>[p.coords.lat,p.coords.lng])),{padding:[45,45],maxZoom:16});});

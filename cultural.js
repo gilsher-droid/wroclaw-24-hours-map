@@ -21,7 +21,7 @@
   const symbols = {"museums-history":"🏛","art-contemporary":"◐","theatre-performing-arts":"◭","music-opera":"♫",film:"▶","architecture-design":"◇","street-art":"✺"};
   const labels = {"museums-history":"museumsHistory","art-contemporary":"artContemporary","theatre-performing-arts":"theatre","music-opera":"musicOpera","architecture-design":"architectureDesign","street-art":"streetArt"};
   const map = L.map("lifestyle-map", { scrollWheelZoom:false, zoomControl:true }).setView([51.1088,17.0335], 13);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+  window.WROC_MAP_TILES.addTo(map);
   const markerLayer = L.layerGroup().addTo(map);
   const markers = new Map();
   const local = (value) => value && typeof value === "object" ? (value[language] || value.en || value.he || Object.values(value)[0]) : (value || "");

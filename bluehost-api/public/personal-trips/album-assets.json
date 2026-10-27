@@ -1,11 +1,13 @@
 {
-  "album-bootstrap.js": "0e0347079dd58f2101832f19677f45c12c97156f8daddd421d75bf8fd641074c",
+  "album-bootstrap.js": "3f9a8b708c4240c88824e7521139276fe1b073408603159514d333cc8b0bcf3b",
   "album-server-copy.js": "934f9610b82d619febcd08959533516f51278a9ea8ee723a213ff0715fc29d16",
   "album-server-store.js": "61cd7b07cbf37dcb7dbb0819b0f4b08d5c67136d280853c94e4f163e9ff08b52",
   "app.css": "dab0a274d8b18c8ab5050794161232be5abaf062619afb91503e7e63fead926e",
-  "app.js": "aaa8b9253345f889b2f9701f8fb61a4d115db0f7c2a7019e5284adc6fb35478a",
+  "app.js": "24a825df89d246a70d7c81dd9774d5809054901cc61680f7cbf96bfe9de226df",
   "guide-video.css": "509067d2d41b495f200f153caa2bf6aea0741c81ed8fbf9d790fa7e968b55267",
   "guide-video.js": "7bc0d27f5ba5cf2af07fc0687b88972d6ae6af8a792dff9cda137872038c627e",
+  "map-tiles.css": "5a8439f704608258b8cc613cdd9694c1a5db99e3153fd7e2e8be19bc42986cb8",
+  "map-tiles.js": "c662ad46603da99316875919dc4cb051106d442ada670cda4cfc57d45fe5a83b",
   "personal-place-panel.js": "37d87e43dfe94c09fe6bda69205b9270bf597c7bbf7a7fcafd433aa3a2da0068",
   "place-ai-model.js": "608b99efbd621df45cafa1d53a6b49a9a248bd9f31af39b265d5fd5bf7820adb",
   "place-ai.css": "8a99e285676fe69a9f3210bedb1cc88ffd876cbd8d2df22815a14fef23499e9f",
@@ -16,7 +18,7 @@
   "trip-album-copy.js": "76b8ad865a63128b304057ef8add465a4fe9334734d16731694bc4a8f942839b",
   "trip-album-model.js": "cc357c597c3a6781d06460f4d9c2eba459577a0a81ce6a39306c726c7278ef6b",
   "trip-album.css": "ad3886ee2447dff7da228c5c23ddab423ad7300f1a9ef139b8b4580f5406e23e",
-  "trip-album.js": "37c1c146215672611b2a432f4311fc6f3e2f186efa85d7bf0a7580cd4222342b",
+  "trip-album.js": "893bbf3604f6770518e773cf760ee29bcfdfd3dbced3f89131c1fb338521745d",
   "youtube-video-hosting.js": "f2ad2dd2a4601a51a0452b76c3046808e98b4e7084716223fa4121bda9df235d",
   "youtube-video.js": "f5093a10884087ed0a100898d4d36f3c7ca1b1eacba35a832577370d63865c63"
 }

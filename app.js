@@ -169,10 +169,7 @@
       return;
     }
     map = L.map("map", { scrollWheelZoom: false, zoomControl: true }).setView([51.1122, 17.0395], 14);
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
-    }).addTo(map);
+    window.WROC_MAP_TILES.addTo(map);
 
     window.WROC_GUIDE_VIDEO.legend(map, currentLanguage);
     document.querySelector("[data-route-stop-count]").textContent = String(window.LOCATIONS.length);

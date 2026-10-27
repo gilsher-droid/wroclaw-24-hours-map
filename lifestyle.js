@@ -96,7 +96,7 @@
   const markers = new Map();
   const markerLayer = L.layerGroup();
   const map = L.map("lifestyle-map", { scrollWheelZoom:false, zoomControl:true }).setView([51.1088,17.0335], 13);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+  window.WROC_MAP_TILES.addTo(map);
   markerLayer.addTo(map);
 
   const local = (value) => value && typeof value === "object" ? (value[language] || value.en || value.he || Object.values(value)[0]) : (value || "");
