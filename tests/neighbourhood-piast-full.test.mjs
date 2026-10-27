@@ -1,3 +1,4 @@
+import {beforeSource35Visit} from './source35-visit-historical-baseline.mjs';
 import {beforePiotrkowskaDetails} from './piotrkowska-details-historical-baseline.mjs';
 import test from'node:test';import assert from'node:assert/strict';import{readFileSync,existsSync}from'node:fs';import{runInNewContext}from'node:vm';
 const window={};for(const f of['data/place-catalog.js','data/canonical-experiences.js','data/location-media.js','data/cultural-places.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});const c=window.WROC_CATALOG,e=window.WROC_EXPERIENCE_CATALOG,b=JSON.parse(readFileSync('data/neighbourhood-piast-before-20261022.json')),plain=v=>JSON.parse(JSON.stringify(v));
@@ -9,5 +10,5 @@ test('Nadodrze keeps one existing area identity and all15 distinct relevant phot
 });
 test('Piast retains its location, entrance hero and two existing source pictures while including every11distinctsite/contextphoto and preserving230otherplaces',()=>{
  const id='piastowska-pieczec-wroclaw',p=c.getPlace(id),old=b.places[id];assert.equal(p.media.photos.length,11);assert.equal(new Set(p.media.photos).size,11);assert.equal(p.media.thumbnail,old.media.thumbnail);assert.deepEqual(plain(p.location),old.location);assert.deepEqual(plain(p.socialPosts),old.socialPosts);for(const src of old.media.photos)assert.ok(p.media.photos.includes(src));assert.ok(p.description.en.includes('separate buildings'));assert.equal(p.links.website,'https://zamekwroclaw.ssnd.pl/');
- for(const[other,prev]of Object.entries(b.places))if(other!==id)assert.deepEqual(beforePiotrkowskaDetails(plain(c.getPlace(other))),prev,other);assert.equal(Object.keys(c.places).length,(231)+1);assert.notEqual(p.id,c.getPlace('st-martin-church-wroclaw').id);for(const src of p.media.photos)assert.ok(existsSync(src.slice(1)));
+ for(const[other,prev]of Object.entries(b.places))if(other!==id)assert.deepEqual(beforePiotrkowskaDetails(beforeSource35Visit(plain(c.getPlace(other)))),prev,other);assert.equal(Object.keys(c.places).length,(231)+1);assert.notEqual(p.id,c.getPlace('st-martin-church-wroclaw').id);for(const src of p.media.photos)assert.ok(existsSync(src.slice(1)));
 });

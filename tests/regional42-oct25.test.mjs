@@ -1,3 +1,4 @@
+import {beforeSource35Visit} from './source35-visit-historical-baseline.mjs';
 import {beforeRosePassagePhoto} from './rose-passage53-historical-baseline.mjs';
 import {beforeApprovedWangPhoto43} from './wang-photo43-historical-baseline.mjs';
 import test from 'node:test';
@@ -12,7 +13,7 @@ test('Regional42 visits and two Brzeg photos preserve all existing identities, l
  assert.deepEqual(Object.keys(window.WROC_CATALOG.places).filter(id=>id!=="lodz-roa-weasels-mural").sort(),Object.keys(proof.recordHashes).sort());
  let unchanged=0;
  for(const[id,baselineHash]of Object.entries(proof.recordHashes)){
-  const current=plain(window.WROC_CATALOG.getPlace(id));const p=proof.changedIds.includes(id)?beforeRosePassagePhoto(beforeApprovedWangPhoto43(current)):current;
+  const current=plain(window.WROC_CATALOG.getPlace(id));const p=proof.changedIds.includes(id)?beforeRosePassagePhoto(beforeApprovedWangPhoto43(beforeSource35Visit(current))):current;
   if(!proof.changedIds.includes(id)){assert.equal(hash(JSON.stringify(p)),baselineHash,id);unchanged++;continue;}
   const old=proof.before[id],newPhotos=proof.photos.filter(r=>r.canonicalId===id),newVisits=proof.visits.filter(r=>r.canonicalId===id);
   assert.deepEqual(p.media.photos.slice(0,old.media.photos.length),old.media.photos,id);

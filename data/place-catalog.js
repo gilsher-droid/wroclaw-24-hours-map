@@ -52198,7 +52198,8 @@
         "https://www.youtube.com/watch?v=CHCnocrM4u4",
         "https://www.youtube.com/watch?v=dRiK8pBxELU",
         "https://www.youtube.com/watch?v=9UMd9Z8BUkM",
-        "https://www.youtube.com/watch?v=a0AVOfcCOF4"
+        "https://www.youtube.com/watch?v=a0AVOfcCOF4",
+        "https://www.youtube.com/watch?v=vJ574UvXcDQ"
       ],
       "metadata": {
         "/assets/srebrna-full-oct25/srebrna-6faba56edcbb.jpg": {
@@ -53682,6 +53683,39 @@
           "publicVisibilityReopenedAt": "2026-10-25T14:56:26.951Z",
           "publicationApprovalCall": "call_63b8adb2da4047b6b0a0645c174bf845",
           "decodedVideoSHA256": "454c810a43066020e95a515aee27491891ff7801e8c22fe0698b7a4e03f60327"
+        },
+        "https://www.youtube.com/watch?v=vJ574UvXcDQ": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קלודזקו/WhatsApp Video 2026-10-05 at 18.30.46.mp4",
+          "sourceSHA256": "5c9549601ca57e5893bc230cce7826ad5fc7c4bd773a0146194a2ed77eaca29c",
+          "uploadSHA256": "c54c7926f34731b4866deec8541ee14261f359e635cc42a2ba61f06c7444ec00",
+          "originalFullPicturePreserved": true,
+          "audioRemoved": true,
+          "durationSeconds": 7.853333,
+          "title": {
+            "he": "מצודת סברנה גורה: פרט מהביקור בחוץ",
+            "en": "Srebrna Góra Fortress: outdoor visit detail",
+            "pl": "Twierdza Srebrna Góra: detal z wizyty na zewnątrz",
+            "de": "Festung Silberberg: Detail vom Besuch im Freien",
+            "cs": "Pevnost Stříbrná Hora: detail z venkovní návštěvy"
+          },
+          "alt": {
+            "he": "מצודת סברנה גורה: פרט מהביקור בחוץ",
+            "en": "Srebrna Góra Fortress: outdoor visit detail",
+            "pl": "Twierdza Srebrna Góra: detal z wizyty na zewnątrz",
+            "de": "Festung Silberberg: Detail vom Besuch im Freien",
+            "cs": "Pevnost Stříbrná Hora: detail z venkovní návštěvy"
+          },
+          "description": {
+            "he": "עשב מול ביצורי האבן במצודת סברנה גורה, מתוך הביקור שלנו. סרטון ללא קול, עם התמונה המקורית המלאה.",
+            "en": "Grass in front of the stone fortifications at Srebrna Góra Fortress during our visit. Silent video preserving the full original picture.",
+            "pl": "Trawa na tle kamiennych umocnień Twierdzy Srebrna Góra podczas naszej wizyty. Film bez dźwięku, z zachowaniem pełnego oryginalnego obrazu.",
+            "de": "Gras vor den steinernen Befestigungen der Festung Silberberg während unseres Besuchs. Stummes Video mit vollständig erhaltenem Originalbild.",
+            "cs": "Tráva před kamenným opevněním pevnosti Stříbrná Hora během naší návštěvy. Video bez zvuku se zachovaným celým původním obrazem."
+          },
+          "visibility": "Public",
+          "publicVisibilityReopenedAt": "2026-10-27T06:24:02.794924+00:00",
+          "publicationApprovalCall": "call_31c32023d98b4930bf40ba316af4803a",
+          "decodedVideoSHA256": "4e523a1fd3588a796541fbabf31d41e79cc1d349ea37661d46d0d3ee7b47b400"
         }
       }
     },
