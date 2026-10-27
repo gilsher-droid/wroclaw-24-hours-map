@@ -51224,6 +51224,175 @@
     },
     "socialPosts": []
   },
+  "poznan-little-prince-mural": {
+    "id": "poznan-little-prince-mural",
+    "localName": "Mural Mały Książę",
+    "name": {
+      "he": "ציור הקיר של הנסיך הקטן",
+      "en": "The Little Prince mural",
+      "pl": "Mural Mały Książę",
+      "de": "Wandbild Der kleine Prinz",
+      "cs": "Nástěnná malba Malý princ"
+    },
+    "description": {
+      "he": "ציור הקיר של הנסיך הקטן מוסיף צבע לחזית ברחוב אוגרודובה 5. שתי תמונות הביקור מציגות את היצירה ואת בתי הרחוב שסביבה. זו עצירה קצרה לבחירה, לצד מסלול ההליכה בעיר.",
+      "en": "The Little Prince mural adds colour to the façade at Ogrodowa 5. Our two visit photographs show the artwork and surrounding street façades. An optional short stop alongside the city walk.",
+      "pl": "Mural Mały Książę zdobi fasadę przy ulicy Ogrodowej 5. Dwa zdjęcia z naszej wizyty pokazują dzieło i sąsiednie kamienice. To krótki, opcjonalny przystanek obok miejskiego spaceru.",
+      "de": "Das Wandbild des kleinen Prinzen schmückt die Fassade an der Ogrodowa 5. Unsere beiden Besuchsfotos zeigen das Werk und die benachbarten Häuser. Ein kurzer, optionaler Halt neben dem Stadtspaziergang.",
+      "cs": "Malba Malého prince zdobí průčelí na Ogrodowé 5. Dvě fotografie z naší návštěvy zachycují dílo a okolní domy. Krátká volitelná zastávka při procházce městem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "coordinates": {
+        "lat": 52.4035141,
+        "lng": 16.9292588
+      },
+      "address": {
+        "street": "Ogrodowa 5",
+        "city": "Poznań",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "culture"
+      ],
+      "tags": [
+        "poznan",
+        "poznan-excursion",
+        "street-art"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.poznan.pl/mim/wortals/lato/news%2C1202/mural-z-malym-ksieciem%2C137016.html",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4035141%2C16.9292588",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.poznan.pl/mim/wortals/lato/news%2C1202/mural-z-malym-ksieciem%2C137016.html",
+          "checkedAt": "2026-10-27"
+        },
+        {
+          "url": "https://visitpoznan.pl/murale",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "source": "OpenStreetMap exact address way129517961",
+        "url": "https://www.openstreetmap.org/way/129517961",
+        "precisionNote": "Exact building address point; not a surveyed wall or entrance coordinate. Official linked KML confirms name/address but contains no Point geometry."
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "photos": [
+        "/assets/poznan/little-prince-source-042.jpg",
+        "/assets/poznan/little-prince-source-043.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/little-prince-source-042.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/בניינים בשכונת ייצה בפוזנן.JPG",
+          "sourceSHA256": "01ca9ba33964a7c94427c37d1abe2cac2fb32d00b5154859f0d50381119532e4",
+          "assetSHA256": "f523c539343b885aa7300460a209dfcfe810ab0e458cbc708541e44955ade81f",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "ציור הנסיך הקטן לצד חזיתות הרחוב בפוזנן",
+            "en": "The Little Prince mural beside street façades in Poznań",
+            "pl": "Mural Mały Książę przy pierzejach ulicy w Poznaniu",
+            "de": "Wandbild des kleinen Prinzen neben den Straßenfassaden in Poznań",
+            "cs": "Nástěnná malba Malého prince u uličních průčelí v Poznani"
+          },
+          "identityEvidence": "Municipal announcement and official tourism mural map identify this distinct art at Ogrodowa5; not Jezyce market",
+          "humanFolderApproval": "All personal photos/videos in exact Poznanfolder approved; no people are central subjects in these two source images"
+        },
+        "/assets/poznan/little-prince-source-043.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/שכונת ייצה בפוזנן 2.JPG",
+          "sourceSHA256": "ac449f59e817002a6fae5fb492b64b814014971dd5f16c1733015b91f7e99fd6",
+          "assetSHA256": "c38ed92c3adc9b4750bee7dd82a0b3c5acf61ed82225068a9a286d55bbfa78f4",
+          "originalDimensions": [
+            4032,
+            3024
+          ],
+          "assetDimensions": [
+            2000,
+            1500
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "ציור הנסיך הקטן לצד חזיתות הרחוב בפוזנן",
+            "en": "The Little Prince mural beside street façades in Poznań",
+            "pl": "Mural Mały Książę przy pierzejach ulicy w Poznaniu",
+            "de": "Wandbild des kleinen Prinzen neben den Straßenfassaden in Poznań",
+            "cs": "Nástěnná malba Malého prince u uličních průčelí v Poznani"
+          },
+          "identityEvidence": "Municipal announcement and official tourism mural map identify this distinct art at Ogrodowa5; not Jezyce market",
+          "humanFolderApproval": "All personal photos/videos in exact Poznanfolder approved; no people are central subjects in these two source images"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "poznan-new-synagogue": {
     "id": "poznan-new-synagogue",
     "localName": "Nowa Synagoga",

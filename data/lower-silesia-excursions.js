@@ -2103,7 +2103,8 @@
     "raj-szycia-poznan",
     "poznan-old-zoo",
     "poznan-new-zoo",
-    "poznan-jezyce-market"
+    "poznan-jezyce-market",
+    "poznan-little-prince-mural"
   ],
   "routePoints": [
     {

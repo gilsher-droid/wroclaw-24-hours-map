@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-27T17:28:58.266379+00:00",
+  "at": "2026-10-27T18:54:24.249229+00:00",
   "sourcePhotoFiles": 131,
   "sourceVideoFiles": 7,
-  "publicationStage": "Expanded local integration; merge, deployment and live verification pending",
+  "publicationStage": "PR464 live; additional LittlePrince two-photo delta local pending deployment",
   "photos": [
     {
       "asset": "/assets/poznan/source-052.jpg",
@@ -1382,9 +1382,27 @@
         "date": "2026-10-27"
       },
       "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/פרחים בפזונן ליד פסל העזים 3 .JPG"
+    },
+    {
+      "asset": "/assets/poznan/little-prince-source-042.jpg",
+      "sourceIndex": 42,
+      "sourceSHA256": "01ca9ba33964a7c94427c37d1abe2cac2fb32d00b5154859f0d50381119532e4",
+      "assetSHA256": "f523c539343b885aa7300460a209dfcfe810ab0e458cbc708541e44955ade81f",
+      "sourceFile": "פוזנן/בניינים בשכונת ייצה בפוזנן.JPG",
+      "placeId": "poznan-little-prince-mural",
+      "review": "Full-frame enlarged source and exact SHA rechecked; mural identity and official address resolved; original frame retained"
+    },
+    {
+      "asset": "/assets/poznan/little-prince-source-043.jpg",
+      "sourceIndex": 43,
+      "sourceSHA256": "ac449f59e817002a6fae5fb492b64b814014971dd5f16c1733015b91f7e99fd6",
+      "assetSHA256": "c38ed92c3adc9b4750bee7dd82a0b3c5acf61ed82225068a9a286d55bbfa78f4",
+      "sourceFile": "פוזנן/שכונת ייצה בפוזנן 2.JPG",
+      "placeId": "poznan-little-prince-mural",
+      "review": "Full-frame enlarged source and exact SHA rechecked; mural identity and official address resolved; original frame retained"
     }
   ],
-  "uniqueAssets": 92,
+  "uniqueAssets": 94,
   "heldPersonalPhotos": [],
   "pendingPhotoSourceIndices": [
     30,
