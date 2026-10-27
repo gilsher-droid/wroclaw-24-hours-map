@@ -75,4 +75,17 @@ class Contributions(unittest.TestCase):
   proposal=self.proposal(text='Selected note',albumEntry=first['id']);item=self.call(self.c,'submit',proposal)[1]['item'];self.assertEqual(item['text'],'Selected note');self.assertNotIn('Unselected private note',json.dumps(item))
  def test_09_owner_has_no_access_via_community_email_only(self):
   self.email_login('owner@example.test');self.assertFalse(self.state['admin']);self.assertEqual(self.call(self.c,'review')[0],403)
+ def test_11_public_script_version_changes_with_deployment_and_has_safe_fallback(self):
+  asset=self.root/'public/personal-trips/community-app.js';original=asset.read_bytes()
+  def page_version():
+   status,page,headers=self.req(self.client(),'?action=community&view=public&lang=en')
+   self.assertEqual(status,200);self.assertEqual(headers['Referrer-Policy'],'no-referrer')
+   self.assertLess(page.index(b'map-tiles.js'),page.index(b'community-app.js'))
+   return re.search(rb'community-app\.js\?v=([^"<>]+)"',page)[1].decode()
+  try:
+   before=page_version()
+   asset.write_bytes(original+b'\n// Synthetic deployment in isolated test fixture\n')
+   after=page_version();self.assertNotEqual(before,after);self.assertRegex(after,r'^[a-f0-9]{12}$')
+   asset.unlink();self.assertEqual(page_version(),'20261027-map')
+  finally:asset.write_bytes(original)
 if __name__=='__main__':unittest.main(defaultTest='Contributions')
