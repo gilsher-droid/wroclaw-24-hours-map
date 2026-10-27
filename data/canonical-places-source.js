@@ -26667,5 +26667,224 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
       },
       "noBorrowedMedia": true
     }
+  },
+  {
+    "id": "poznan-collegium-minus",
+    "localName": "Collegium Minus",
+    "name": {
+      "he": "קולגיום מינוס ואולם האוניברסיטה",
+      "en": "Collegium Minus and university hall",
+      "pl": "Collegium Minus i Aula UAM",
+      "de": "Collegium Minus und Universitätsaula",
+      "cs": "Collegium Minus a univerzitní aula"
+    },
+    "description": {
+      "he": "שתי תמונות הביקור מציגות את חזית קולגיום מינוס, עם צמד המגדלים בעלי גגות הנחושת והגמלון המעוטר. זו אפשרות לעצירה אדריכלית ליד הצומת הרחב.\nCollegium Minus\nHenryka Wieniawskiego 1",
+      "en": "Our two visit photographs show the façade of Collegium Minus, its twin copper-roofed towers and ornate gable. An optional architectural stop at Henryka Wieniawskiego 1.",
+      "pl": "Dwa zdjęcia z naszej wizyty pokazują fasadę Collegium Minus, dwie wieże o miedzianych dachach i ozdobny szczyt. Opcjonalny przystanek architektoniczny przy ul. Henryka Wieniawskiego 1.",
+      "de": "Unsere beiden Besuchsfotos zeigen die Fassade des Collegium Minus mit zwei kupfergedeckten Türmen und einem verzierten Giebel. Ein optionaler Architekturhalt an der Henryka Wieniawskiego 1.",
+      "cs": "Dvě fotografie z naší návštěvy zachycují průčelí Collegium Minus, dvě věže s měděnými střechami a zdobený štít. Volitelná architektonická zastávka na adrese Henryka Wieniawskiego 1."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Henryka Wieniawskiego 1",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4081657,
+        "lng": 16.9156127
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion",
+        "architecture"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://poznanfilmcommission.pl/lokacja/collegium-minus/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4081657%2C16.9156127"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/collegium-minus-source-106.jpg",
+        "/assets/poznan/collegium-minus-source-107.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/collegium-minus-source-106.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הזאמק המבצר של פוזנן.JPG",
+          "sourceSHA256": "53d0563c1bb1e29dc82082d6b3cd23ee22e70e532d936c24173438574e5db776",
+          "assetSHA256": "b20caf040e3b4ecfde4af3abccc849e2384de2636f4cf578bc5428bec2e3096f",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "חזית קולגיום מינוס עם מגדלי נחושת וגמלון מעוטר",
+            "en": "Collegium Minus façade with copper towers and an ornate gable",
+            "pl": "Fasada Collegium Minus z miedzianymi wieżami i ozdobnym szczytem",
+            "de": "Fassade des Collegium Minus mit Kupfertürmen und verziertem Giebel",
+            "cs": "Průčelí Collegium Minus s měděnými věžemi a zdobeným štítem"
+          },
+          "identityEvidence": "Primary-source photograph actually viewed and compared; see preparation receipts",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        },
+        "/assets/poznan/collegium-minus-source-107.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הזאמק הכיכר של פוזנן 2 .JPG",
+          "sourceSHA256": "62f1edf787ff7803e0329cb724733e85f9bfe241a2f4a3d9c6cc4eb1982294ae",
+          "assetSHA256": "3c9c27128a7844ed9f8b4c528986fe1439f5d85e94fcab3ea9f1e6bd732f2e2c",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "חזית קולגיום מינוס עם מגדלי נחושת וגמלון מעוטר",
+            "en": "Collegium Minus façade with copper towers and an ornate gable",
+            "pl": "Fasada Collegium Minus z miedzianymi wieżami i ozdobnym szczytem",
+            "de": "Fassade des Collegium Minus mit Kupfertürmen und verziertem Giebel",
+            "cs": "Průčelí Collegium Minus s měděnými věžemi a zdobeným štítem"
+          },
+          "identityEvidence": "Primary-source photograph actually viewed and compared; see preparation receipts",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        }
+      }
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://poznanfilmcommission.pl/lokacja/collegium-minus/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "source": "OSM exact named building matched to primary address",
+        "url": "https://www.openstreetmap.org/way/129557623",
+        "precisionNote": "Building centroid; not a surveyed public entrance"
+      },
+      "noBorrowedMedia": true
+    }
+  },
+  {
+    "id": "poznan-franciscan-church-st-anthony",
+    "localName": "Kościół św. Antoniego Padewskiego",
+    "name": {
+      "he": "כנסיית הפרנציסקנים על שם אנטוניוס מפדובה",
+      "en": "Franciscan Church of St Anthony of Padua",
+      "pl": "Kościół Franciszkanów św. Antoniego Padewskiego",
+      "de": "Franziskanerkirche St. Antonius von Padua",
+      "cs": "Františkánský kostel sv. Antonína Paduánského"
+    },
+    "description": {
+      "he": "צילום הביקור מציג את המזבח המעוטר ואת מושבי העץ המגולפים בכנסיית הפרנציסקנים. תכננו כניסה בהתאם לפתיחה ולפעילות במקום.\nFranciszkańska 2",
+      "en": "Our visit photograph shows the ornate altar and carved wooden choir stalls in the Franciscan church at Franciszkańska 2. Check access and services before planning an interior visit.",
+      "pl": "Zdjęcie z naszej wizyty przedstawia ozdobny ołtarz i rzeźbione drewniane stalle w kościele Franciszkanów przy Franciszkańskiej 2. Przed wejściem sprawdźcie dostępność i nabożeństwa.",
+      "de": "Unser Besuchsfoto zeigt den reich verzierten Altar und das geschnitzte Chorgestühl der Franziskanerkirche an der Franciszkańska 2. Prüfen Sie Zugang und Gottesdienste vor einem Innenbesuch.",
+      "cs": "Fotografie z naší návštěvy ukazuje zdobený oltář a vyřezávané dřevěné chórové lavice františkánského kostela na Franciszkańské 2. Před návštěvou interiéru ověřte přístup a bohoslužby."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "wielkopolska",
+      "cityId": "poznan",
+      "address": {
+        "street": "Franciszkańska 2",
+        "city": "Poznań",
+        "country": "Poland"
+      },
+      "coordinates": {
+        "lat": 52.4082778,
+        "lng": 16.9311036
+      }
+    },
+    "categories": [
+      "culture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "poznan",
+        "poznan-excursion",
+        "architecture"
+      ]
+    },
+    "status": "published",
+    "links": {
+      "website": "https://poznan.franciszkanie.pl/kosciol-poz/wnetrze-poznan/nawa-glowna/oltarz-glowny/",
+      "socialProfileFallback": false,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=52.4082778%2C16.9311036"
+      }
+    },
+    "sourceUrls": [],
+    "media": {
+      "photos": [
+        "/assets/poznan/franciscans-source-104.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/poznan/franciscans-source-104.jpg": {
+          "original": true,
+          "sourceFile": "פוזנן/הבזיליקה המדהימה של פוזנן.JPG",
+          "sourceSHA256": "7910ee993117589525e039bf358c5b554ce4e07952b79b7af694db1e91ae91c1",
+          "assetSHA256": "565c0f4b9b1ae0405be27a2eca6519ff8b730e58937c4d5cf1d1cdedf369b0bc",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1500,
+            2000
+          ],
+          "fullFramePreserved": true,
+          "alt": {
+            "he": "המזבח ומושבי המקהלה בכנסיית הפרנציסקנים בפוזנן",
+            "en": "Altar and choir stalls in the Franciscan church in Poznań",
+            "pl": "Ołtarz i stalle w kościele Franciszkanów w Poznaniu",
+            "de": "Altar und Chorgestühl in der Franziskanerkirche in Poznań",
+            "cs": "Oltář a chórové lavice ve františkánském kostele v Poznani"
+          },
+          "identityEvidence": "Primary-source photograph actually viewed and compared; see preparation receipts",
+          "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+        }
+      }
+    },
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://poznan.franciszkanie.pl/kosciol-poz/wnetrze-poznan/nawa-glowna/oltarz-glowny/",
+          "checkedAt": "2026-10-27"
+        }
+      ],
+      "coordinateProof": {
+        "source": "OSM exact named building matched to primary address",
+        "url": "https://www.openstreetmap.org/way/104781037",
+        "precisionNote": "Building centroid; not a surveyed public entrance"
+      },
+      "noBorrowedMedia": true
+    }
   }
 ]);

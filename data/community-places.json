@@ -2365,6 +2365,20 @@
       "lng": 16.9349022
     }
   },
+  "poznan-collegium-minus": {
+    "id": "poznan-collegium-minus",
+    "name": {
+      "he": "קולגיום מינוס ואולם האוניברסיטה",
+      "en": "Collegium Minus and university hall",
+      "pl": "Collegium Minus i Aula UAM",
+      "de": "Collegium Minus und Universitätsaula",
+      "cs": "Collegium Minus a univerzitní aula"
+    },
+    "coordinates": {
+      "lat": 52.4081657,
+      "lng": 16.9156127
+    }
+  },
   "poznan-fara": {
     "id": "poznan-fara",
     "name": {
@@ -2377,6 +2391,20 @@
     "coordinates": {
       "lat": 52.4064953,
       "lng": 16.9340825
+    }
+  },
+  "poznan-franciscan-church-st-anthony": {
+    "id": "poznan-franciscan-church-st-anthony",
+    "name": {
+      "he": "כנסיית הפרנציסקנים על שם אנטוניוס מפדובה",
+      "en": "Franciscan Church of St Anthony of Padua",
+      "pl": "Kościół Franciszkanów św. Antoniego Padewskiego",
+      "de": "Franziskanerkirche St. Antonius von Padua",
+      "cs": "Františkánský kostel sv. Antonína Paduánského"
+    },
+    "coordinates": {
+      "lat": 52.4082778,
+      "lng": 16.9311036
     }
   },
   "poznan-imperial-castle": {

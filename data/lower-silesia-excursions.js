@@ -2104,7 +2104,9 @@
     "poznan-old-zoo",
     "poznan-new-zoo",
     "poznan-jezyce-market",
-    "poznan-little-prince-mural"
+    "poznan-little-prince-mural",
+    "poznan-collegium-minus",
+    "poznan-franciscan-church-st-anthony"
   ],
   "routePoints": [
     {
