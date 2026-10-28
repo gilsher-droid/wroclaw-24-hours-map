@@ -75086,23 +75086,68 @@
       "thumbnail": "/assets/botanical-garden/botanical-garden-01.jpg",
       "photos": [
         "/assets/botanical-garden/botanical-garden-01.jpg",
-        "/assets/botanical-garden/botanical-garden-02.jpg",
         "/assets/botanical-garden/botanical-garden-03.jpg",
-        "/assets/botanical-garden/botanical-garden-04.jpg",
         "/assets/botanical-garden/botanical-garden-05.jpg",
         "/assets/botanical-garden/botanical-garden-06.jpg",
         "/assets/botanical-garden/botanical-garden-07.jpg",
         "/assets/botanical-garden/botanical-garden-08.jpg",
         "/assets/botanical-garden/botanical-garden-09.jpg",
         "/assets/botanical-garden/botanical-garden-10.jpg",
-        "/assets/botanical-garden/botanical-garden-11.jpg"
+        "/assets/botanical-garden/botanical-garden-11.jpg",
+        "/assets/botanical-oct28/source-003.jpg",
+        "/assets/botanical-oct28/source-004.jpg",
+        "/assets/botanical-oct28/source-006.jpg",
+        "/assets/botanical-oct28/source-010.jpg",
+        "/assets/botanical-oct28/source-011.jpg",
+        "/assets/botanical-oct28/source-013.jpg",
+        "/assets/botanical-oct28/source-020.jpg",
+        "/assets/botanical-oct28/source-022.jpg",
+        "/assets/botanical-oct28/source-023.jpg",
+        "/assets/botanical-oct28/source-024.jpg",
+        "/assets/botanical-oct28/source-025.jpg",
+        "/assets/botanical-oct28/source-026.jpg",
+        "/assets/botanical-oct28/source-027.jpg",
+        "/assets/botanical-oct28/source-028.jpg",
+        "/assets/botanical-oct28/source-029.jpg",
+        "/assets/botanical-oct28/source-030.jpg",
+        "/assets/botanical-oct28/source-031.jpg",
+        "/assets/botanical-oct28/source-032.jpg",
+        "/assets/botanical-oct28/source-033.jpg",
+        "/assets/botanical-oct28/source-034.jpg",
+        "/assets/botanical-oct28/source-035.jpg",
+        "/assets/botanical-oct28/source-036.jpg",
+        "/assets/botanical-oct28/source-037.jpg",
+        "/assets/botanical-oct28/source-038.jpg",
+        "/assets/botanical-oct28/source-039.jpg",
+        "/assets/botanical-oct28/source-040.jpg",
+        "/assets/botanical-oct28/source-041.jpg",
+        "/assets/botanical-oct28/source-042.jpg",
+        "/assets/botanical-oct28/source-043.jpg",
+        "/assets/botanical-oct28/source-044.jpg",
+        "/assets/botanical-oct28/source-045.jpg",
+        "/assets/botanical-oct28/source-046.jpg",
+        "/assets/botanical-oct28/source-047.jpg",
+        "/assets/botanical-oct28/source-048.jpg",
+        "/assets/botanical-oct28/source-049.jpg",
+        "/assets/botanical-oct28/source-050.jpg",
+        "/assets/botanical-oct28/source-051.jpg",
+        "/assets/botanical-oct28/source-052.jpg",
+        "/assets/botanical-oct28/source-053.jpg",
+        "/assets/botanical-oct28/source-054.jpg",
+        "/assets/botanical-oct28/source-055.jpg",
+        "/assets/botanical-oct28/source-056.jpg",
+        "/assets/botanical-oct28/source-057.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/7IHNkTmYczU",
         "https://youtube.com/shorts/VA_NAM3dDVw",
         "https://youtube.com/shorts/6VH_8-wmIAw",
         "https://youtube.com/shorts/kPvsw5LfP0A",
-        "https://youtube.com/shorts/gXmyRW2rRaY"
+        "https://youtube.com/shorts/gXmyRW2rRaY",
+        "https://youtube.com/shorts/4to84Yc3xn0",
+        "https://youtube.com/shorts/cII0K2K7txY",
+        "https://youtube.com/shorts/JXZXIdkib5A",
+        "https://youtube.com/shorts/crVvtb_OrZw"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/xkwNR0L_azo",
@@ -75125,165 +75170,204 @@
             "cs": "Stinná cesta v botanické zahradě"
           }
         },
-        "/assets/botanical-garden/botanical-garden-02.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 176477.png",
-          "sourceSHA256": "e6b795072cd9fe5f19a8ee6ff6be7f4b215c4a21dfbc57088836cca2d54c45b7",
-          "assetSHA256": "9398e3b2ee4f79d8143f58dcee7f9ab68b9b5e5f4cc1894739373f21808a4f17",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "בריכת הגן והערבה",
-            "en": "Garden pond and willow",
-            "pl": "Staw i wierzba w ogrodzie",
-            "de": "Gartenteich und Weide",
-            "cs": "Zahradní jezírko a vrba"
-          }
-        },
         "/assets/botanical-garden/botanical-garden-03.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 718793.png",
-          "sourceSHA256": "915dcb5e0e47803a397ac7c1555c614abe6b263800e82e7fd0e46b2137771328",
-          "assetSHA256": "a5f9f8853ad3b7d005bd4b94af7ab1b659e002e9e2b040cc2d84c8bbd360d8a0",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "גשר עץ מעל הבריכה",
-            "en": "Wooden bridge over the pond",
-            "pl": "Drewniany mostek nad stawem",
-            "de": "Holzbrücke über dem Teich",
-            "cs": "Dřevěný most přes jezírko"
-          }
-        },
-        "/assets/botanical-garden/botanical-garden-04.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me and my wife from the picture 829243.png",
-          "sourceSHA256": "7ba653491fd0d742679381e17816b4deb89ee45dc4819c43ba1b2a919ae980de",
-          "assetSHA256": "db80115dab1b5f5c8f1fa913c55d31862eca26826c5b864a7e8835bd03deb819",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "מזרקה וצמחי מים",
-            "en": "Fountain and aquatic plants",
-            "pl": "Fontanna i rośliny wodne",
-            "de": "Springbrunnen und Wasserpflanzen",
-            "cs": "Fontána a vodní rostliny"
-          }
-        },
-        "/assets/botanical-garden/botanical-garden-05.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove me wife from the picture 997007.png",
-          "sourceSHA256": "8df999b7adcb1e619b3500877d4182b001587884ca05af16f998ce8e871b2f6b",
-          "assetSHA256": "0f9cbf62b66b4d687c271ac7fe4067dcfaf4944e474138ef29ccbf29dc492023",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "פרחים לבנים בערוגה",
-            "en": "White flowers in a garden bed",
-            "pl": "Białe kwiaty na rabacie",
-            "de": "Weiße Blumen im Beet",
-            "cs": "Bílé květy na záhonu"
-          }
-        },
-        "/assets/botanical-garden/botanical-garden-06.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 555826.png",
-          "sourceSHA256": "6d76a3c3d372b85a6fe688430f58a29e4ba6d05476f16ec29d1f576c3b5e9e16",
-          "assetSHA256": "2d844750338e1bd59a41e4745d561efac90b16e42de0f201b38e502bdafc8f1b",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "פסל אבן לצד השביל",
-            "en": "Stone sculpture beside the path",
-            "pl": "Kamienna rzeźba przy ścieżce",
-            "de": "Steinskulptur am Weg",
-            "cs": "Kamenná socha u cesty"
-          }
-        },
-        "/assets/botanical-garden/botanical-garden-07.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 663794.png",
-          "sourceSHA256": "99ef78946a30d020bc1a52289f7e589494c3c0beb9c724400070961ce576f717",
-          "assetSHA256": "bdaea624e477450225c8e47bf238ce0406ca215b22190c7d1fb7f248f7dfce8b",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "בריכה ומגדלי הקתדרלה ברקע",
-            "en": "Pond with cathedral towers beyond",
-            "pl": "Staw i wieże katedry w tle",
-            "de": "Teich mit Domtürmen im Hintergrund",
-            "cs": "Jezírko a věže katedrály v pozadí"
-          }
-        },
-        "/assets/botanical-garden/botanical-garden-08.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 678472.png",
-          "sourceSHA256": "35e5b082c07f3f441e092570eb65203f04b9b0b8e3ed62b1fa110c48b455448e",
-          "assetSHA256": "fa50aeed85bfb3ca17eb810e72838d860baf403c6c85c01c044a72b84bd994ef",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "צמחייה ועצים בגן",
-            "en": "Plants and trees in the garden",
-            "pl": "Rośliny i drzewa w ogrodzie",
-            "de": "Pflanzen und Bäume im Garten",
-            "cs": "Rostliny a stromy v zahradě"
-          }
-        },
-        "/assets/botanical-garden/botanical-garden-09.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wife from the picture 821263.png",
-          "sourceSHA256": "2e83e37c4c975664409459fa446499095c210071445efe393f8504d87c66cb50",
-          "assetSHA256": "8382351960790901ece4b8d500aa3e495fbfdf360be2b33163a1027114ed9096",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "עץ מחטני בגן",
-            "en": "Conifer in the garden",
-            "pl": "Drzewo iglaste w ogrodzie",
-            "de": "Nadelbaum im Garten",
-            "cs": "Jehličnan v zahradě"
-          }
-        },
-        "/assets/botanical-garden/botanical-garden-10.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/Firefly_Gemini Flash_please remove my wifr from thje picture 476272.png",
-          "sourceSHA256": "5610b4d482ddef60fc628146011680d84e0411f80822f5ceadf43b2bf9a21b7a",
-          "assetSHA256": "b8ebdc06a3226076c6cbb2146d52f603092915b157c5e7e9d6403993d10040a9",
-          "original": false,
-          "userPreparedPeopleRemoval": true,
-          "pictureFramePreserved": true,
-          "familyForeground": false,
-          "alt": {
-            "he": "הבריכה והמזרקה מעבר לצמחייה",
-            "en": "Pond and fountain beyond the planting",
-            "pl": "Staw i fontanna za roślinnością",
-            "de": "Teich und Springbrunnen hinter der Bepflanzung",
-            "cs": "Jezírko a fontána za zelení"
-          }
-        },
-        "/assets/botanical-garden/botanical-garden-11.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/botanical gardens/WhatsApp Image 2026-07-14 at 12.13.32.jpeg",
-          "sourceSHA256": "99bc03e7fa28d9f28486305bfdcea54efed0512c559c5405eef93c827b415f54",
-          "assetSHA256": "6b7a6dfc06cda6c1eb5d8cdef7133c1a285c86ac983ec097d540a4211e9214b9",
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/03D8BE60-A550-40D7-92F8-FF7C26021EC1.JPG",
+          "sourceSHA256": "60ad22c897bead937488f149a99023e704337549fe751a887b63dd3b526ca15a",
+          "assetSHA256": "60ad22c897bead937488f149a99023e704337549fe751a887b63dd3b526ca15a",
           "original": true,
           "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
           "pictureFramePreserved": true,
-          "familyForeground": false,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
           "alt": {
-            "he": "מדרגות בין עצים ושיחים",
-            "en": "Steps between trees and shrubs",
-            "pl": "Schody między drzewami i krzewami",
-            "de": "Stufen zwischen Bäumen und Sträuchern",
-            "cs": "Schody mezi stromy a keři"
-          }
+            "he": "מהביקור שלנו ליד גשר העץ בגן הבוטני",
+            "en": "Our visit beside the wooden bridge in the Botanical Garden",
+            "pl": "Nasza wizyta przy drewnianym mostku w ogrodzie botanicznym",
+            "de": "Unser Besuch an der Holzbrücke im Botanischen Garten",
+            "cs": "Naše návštěva u dřevěného mostku v botanické zahradě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json",
+          "previousAssetSHA256": "a5f9f8853ad3b7d005bd4b94af7ab1b659e002e9e2b040cc2d84c8bbd360d8a0",
+          "originalRestorationOrQualityUpgrade": "historical-edited-scene-replaced-with-approved-full-original",
+          "sameCaptureNotAsserted": true
+        },
+        "/assets/botanical-garden/botanical-garden-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/A5E4512B-30E7-4AA0-81C5-DEBD192531F0.JPG",
+          "sourceSHA256": "c02e721bc005766e6a2b5f434193d1441d78d9042a9856b05100295d8917e938",
+          "assetSHA256": "c02e721bc005766e6a2b5f434193d1441d78d9042a9856b05100295d8917e938",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד ערוגת הפרחים הלבנים",
+            "en": "Our visit beside a bed of white flowers",
+            "pl": "Nasza wizyta przy rabacie białych kwiatów",
+            "de": "Unser Besuch an einem Beet mit weißen Blüten",
+            "cs": "Naše návštěva u záhonu bílých květů"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json",
+          "previousAssetSHA256": "0f9cbf62b66b4d687c271ac7fe4067dcfaf4944e474138ef29ccbf29dc492023",
+          "originalRestorationOrQualityUpgrade": "historical-edited-scene-replaced-with-approved-full-original",
+          "sameCaptureNotAsserted": true
+        },
+        "/assets/botanical-garden/botanical-garden-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/4DB391DF-F32F-4B10-BBEB-3FAAEB4B2A52.JPG",
+          "sourceSHA256": "17fea60ba7738b8eb7bc47dac3b94af59a9aad7741d6d12667b45f2de8343597",
+          "assetSHA256": "17fea60ba7738b8eb7bc47dac3b94af59a9aad7741d6d12667b45f2de8343597",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד כיסא האבן וצמחי הגן",
+            "en": "Our visit beside the stone chair and garden plants",
+            "pl": "Nasza wizyta przy kamiennym krześle i roślinach ogrodu",
+            "de": "Unser Besuch am Steinstuhl zwischen Gartenpflanzen",
+            "cs": "Naše návštěva u kamenného křesla a zahradních rostlin"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json",
+          "previousAssetSHA256": "2d844750338e1bd59a41e4745d561efac90b16e42de0f201b38e502bdafc8f1b",
+          "originalRestorationOrQualityUpgrade": "historical-edited-scene-replaced-with-approved-full-original",
+          "sameCaptureNotAsserted": true
+        },
+        "/assets/botanical-garden/botanical-garden-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/924A7F05-3077-4FBA-97B9-99CA9050727F.JPG",
+          "sourceSHA256": "3843336d8c3de3102419ae354370589f917c4b520e7c8f325d6a0876d787863b",
+          "assetSHA256": "3843336d8c3de3102419ae354370589f917c4b520e7c8f325d6a0876d787863b",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד בריכת החבצלות ומבנה הכנסייה שברקע",
+            "en": "Our visit beside the water-lily pond with a church in the background",
+            "pl": "Nasza wizyta przy stawie z liliami wodnymi i kościołem w tle",
+            "de": "Unser Besuch am Seerosenteich mit einer Kirche im Hintergrund",
+            "cs": "Naše návštěva u leknínového jezírka s kostelem v pozadí"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json",
+          "previousAssetSHA256": "bdaea624e477450225c8e47bf238ce0406ca215b22190c7d1fb7f248f7dfce8b",
+          "originalRestorationOrQualityUpgrade": "historical-edited-scene-replaced-with-approved-full-original",
+          "sameCaptureNotAsserted": true
+        },
+        "/assets/botanical-garden/botanical-garden-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/980CFE9C-ADBD-44C9-8328-0FA2C299A738.JPG",
+          "sourceSHA256": "8f89a51806c721d9f5fea9ae28d055e1dbde2cf1766f342837fcac8dac6814ca",
+          "assetSHA256": "8f89a51806c721d9f5fea9ae28d055e1dbde2cf1766f342837fcac8dac6814ca",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו בין ערוגות הפרחים",
+            "en": "Our visit among the flower beds",
+            "pl": "Nasza wizyta wśród rabat kwiatowych",
+            "de": "Unser Besuch zwischen den Blumenbeeten",
+            "cs": "Naše návštěva mezi květinovými záhony"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json",
+          "previousAssetSHA256": "fa50aeed85bfb3ca17eb810e72838d860baf403c6c85c01c044a72b84bd994ef",
+          "originalRestorationOrQualityUpgrade": "historical-edited-scene-replaced-with-approved-full-original",
+          "sameCaptureNotAsserted": true
+        },
+        "/assets/botanical-garden/botanical-garden-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/2488B18D-C65E-4DEF-AC75-5EDA745412BF.JPG",
+          "sourceSHA256": "adb23af309d03d181b8356abd0a39b9e6cb2c189a8cdf00999fdadced0134d4e",
+          "assetSHA256": "adb23af309d03d181b8356abd0a39b9e6cb2c189a8cdf00999fdadced0134d4e",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו בין עצי המחט ליד החממה",
+            "en": "Our visit among conifers beside the greenhouse",
+            "pl": "Nasza wizyta wśród iglaków obok szklarni",
+            "de": "Unser Besuch zwischen Nadelbäumen am Gewächshaus",
+            "cs": "Naše návštěva mezi jehličnany u skleníku"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json",
+          "previousAssetSHA256": "8382351960790901ece4b8d500aa3e495fbfdf360be2b33163a1027114ed9096",
+          "originalRestorationOrQualityUpgrade": "historical-edited-scene-replaced-with-approved-full-original",
+          "sameCaptureNotAsserted": true
+        },
+        "/assets/botanical-garden/botanical-garden-10.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/AA64BA0F-EBA3-4F7A-B209-741E56C02C8A.JPG",
+          "sourceSHA256": "304ff86867a47cc61ea25f3acd1d012f99fe446aaf30912c3a08b9d0ff15904e",
+          "assetSHA256": "304ff86867a47cc61ea25f3acd1d012f99fe446aaf30912c3a08b9d0ff15904e",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה",
+            "en": "Our visit beside the pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną",
+            "de": "Unser Besuch am Teich mit Springbrunnen",
+            "cs": "Naše návštěva u jezírka s fontánou"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json",
+          "previousAssetSHA256": "b8ebdc06a3226076c6cbb2146d52f603092915b157c5e7e9d6403993d10040a9",
+          "originalRestorationOrQualityUpgrade": "historical-edited-scene-replaced-with-approved-full-original",
+          "sameCaptureNotAsserted": true
+        },
+        "/assets/botanical-garden/botanical-garden-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/83C99579-97B3-42AC-9D9D-13BD9FC786CC.JPG",
+          "sourceSHA256": "4fc00bbdfc4bbe1330468926d991297af68731d25547c81f3f141444c1394e70",
+          "assetSHA256": "4fc00bbdfc4bbe1330468926d991297af68731d25547c81f3f141444c1394e70",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "המדרגות והפסל בין צמחי הגן",
+            "en": "Steps and a statue among the garden plants",
+            "pl": "Schody i posąg wśród roślin ogrodu",
+            "de": "Stufen und eine Statue zwischen Gartenpflanzen",
+            "cs": "Schody a socha mezi zahradními rostlinami"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json",
+          "previousAssetSHA256": "6b7a6dfc06cda6c1eb5d8cdef7133c1a285c86ac983ec097d540a4211e9214b9",
+          "originalRestorationOrQualityUpgrade": "upgrade-existing-reencoded-original"
         },
         "https://youtube.com/shorts/7IHNkTmYczU": {
           "title": {
@@ -75383,6 +75467,1072 @@
           "savedPublicVerified": true,
           "checks": "complete-no-issues",
           "reopenedAt": "2026-10-20T19:45:17.366Z",
+          "personalMedia": false
+        },
+        "/assets/botanical-oct28/source-003.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/0CC8BFDC-F67B-484B-B606-F17FAD06D1D5.JPG",
+          "sourceSHA256": "0763ceb1ab2100a54bc4ec6f1486783401cd6675bdca55a9b4ad4fe38495e025",
+          "assetSHA256": "0763ceb1ab2100a54bc4ec6f1486783401cd6675bdca55a9b4ad4fe38495e025",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה בגן הבוטני",
+            "en": "Our visit beside the Botanical Garden pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną w ogrodzie botanicznym",
+            "de": "Unser Besuch am Teich mit Springbrunnen im Botanischen Garten",
+            "cs": "Naše návštěva u jezírka s fontánou v botanické zahradě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/0D333956-7FE4-4754-BEB8-2E144276A668.JPG",
+          "sourceSHA256": "9bc09f6a9e9772dd3ceb8cce50ab053fe32459505b7fd1ec244a095a6cadc828",
+          "assetSHA256": "9bc09f6a9e9772dd3ceb8cce50ab053fe32459505b7fd1ec244a095a6cadc828",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה בגן הבוטני",
+            "en": "Our visit beside the Botanical Garden pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną w ogrodzie botanicznym",
+            "de": "Unser Besuch am Teich mit Springbrunnen im Botanischen Garten",
+            "cs": "Naše návštěva u jezírka s fontánou v botanické zahradě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-006.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/20226090-577F-4804-9FF2-E909130235D8.JPG",
+          "sourceSHA256": "3c31ae144e0d840d3378e783f2b44cc468e9e1cc934586343fe1338809cb361e",
+          "assetSHA256": "3c31ae144e0d840d3378e783f2b44cc468e9e1cc934586343fe1338809cb361e",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה בגן הבוטני",
+            "en": "Our visit beside the Botanical Garden pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną w ogrodzie botanicznym",
+            "de": "Unser Besuch am Teich mit Springbrunnen im Botanischen Garten",
+            "cs": "Naše návštěva u jezírka s fontánou v botanické zahradě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-010.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/53C68D6A-FB86-457F-A2F8-BAB02903BB06.JPG",
+          "sourceSHA256": "4c8e0110292462ca92b33697f8c9a7d7a859db09f57e607c3ab40358a0b6326c",
+          "assetSHA256": "4c8e0110292462ca92b33697f8c9a7d7a859db09f57e607c3ab40358a0b6326c",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה בגן הבוטני",
+            "en": "Our visit beside the Botanical Garden pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną w ogrodzie botanicznym",
+            "de": "Unser Besuch am Teich mit Springbrunnen im Botanischen Garten",
+            "cs": "Naše návštěva u jezírka s fontánou v botanické zahradě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-011.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/5917B56E-EEDE-4414-841B-67CB88AD0146.JPG",
+          "sourceSHA256": "917f848fd6cea69645e96dbfbd9097b37cef507a900f468adf26c329caca54ea",
+          "assetSHA256": "917f848fd6cea69645e96dbfbd9097b37cef507a900f468adf26c329caca54ea",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה בגן הבוטני",
+            "en": "Our visit beside the Botanical Garden pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną w ogrodzie botanicznym",
+            "de": "Unser Besuch am Teich mit Springbrunnen im Botanischen Garten",
+            "cs": "Naše návštěva u jezírka s fontánou v botanické zahradě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-013.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/7B1FD2D7-D04E-4B7B-B5BB-C7E84F923BB3.JPG",
+          "sourceSHA256": "3b930a0539a0098f50bc60cd348c5fba52928ace53f01a93726598682b5e4f21",
+          "assetSHA256": "3b930a0539a0098f50bc60cd348c5fba52928ace53f01a93726598682b5e4f21",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה בגן הבוטני",
+            "en": "Our visit beside the Botanical Garden pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną w ogrodzie botanicznym",
+            "de": "Unser Besuch am Teich mit Springbrunnen im Botanischen Garten",
+            "cs": "Naše návštěva u jezírka s fontánou v botanické zahradě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-020.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/D54CA98C-2666-4842-9F0E-B48C5DE33D1C.JPG",
+          "sourceSHA256": "f48eb752c7ad57415d3c0d81e43a01b94671b9f3c053fb4bed4a8f120065e840",
+          "assetSHA256": "f48eb752c7ad57415d3c0d81e43a01b94671b9f3c053fb4bed4a8f120065e840",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה בגן הבוטני",
+            "en": "Our visit beside the Botanical Garden pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną w ogrodzie botanicznym",
+            "de": "Unser Besuch am Teich mit Springbrunnen im Botanischen Garten",
+            "cs": "Naše návštěva u jezírka s fontánou v botanické zahradě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-022.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2582.JPG",
+          "sourceSHA256": "7c712c863053363c919c6b90a71e796144eada4609829acfed87ae97815a4099",
+          "assetSHA256": "7c712c863053363c919c6b90a71e796144eada4609829acfed87ae97815a4099",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צמח יוקה פורח בתצוגת צמחי הגן",
+            "en": "Flowering yucca in the garden plant display",
+            "pl": "Kwitnąca juka w kolekcji roślin ogrodu",
+            "de": "Blühende Yucca in der Pflanzensammlung des Gartens",
+            "cs": "Kvetoucí juka v zahradní sbírce rostlin"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-023.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2584.JPG",
+          "sourceSHA256": "f90cdb831b2107b2bcb6f36be632a10fa2c11a5f34dfb08d53165539b4f89465",
+          "assetSHA256": "f90cdb831b2107b2bcb6f36be632a10fa2c11a5f34dfb08d53165539b4f89465",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "ערוגת ורדים לצד שביל החצץ",
+            "en": "Rose bed beside a gravel path",
+            "pl": "Rabata róż przy żwirowej alejce",
+            "de": "Rosenbeet an einem Kiesweg",
+            "cs": "Záhon růží u štěrkové cesty"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-024.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2585.JPG",
+          "sourceSHA256": "9197caff08c471feab898d607ba70214c68606d9eff5f22e2273c61a66ffd062",
+          "assetSHA256": "9197caff08c471feab898d607ba70214c68606d9eff5f22e2273c61a66ffd062",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "ערוגת ורדים לצד שביל החצץ",
+            "en": "Rose bed beside a gravel path",
+            "pl": "Rabata róż przy żwirowej alejce",
+            "de": "Rosenbeet an einem Kiesweg",
+            "cs": "Záhon růží u štěrkové cesty"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-025.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2586.JPG",
+          "sourceSHA256": "88c58c4e0aa40deccbd06f0053da463c64d33910a45fd720734e7ec1426c3200",
+          "assetSHA256": "88c58c4e0aa40deccbd06f0053da463c64d33910a45fd720734e7ec1426c3200",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "ערוגת ורדים לצד שביל החצץ",
+            "en": "Rose bed beside a gravel path",
+            "pl": "Rabata róż przy żwirowej alejce",
+            "de": "Rosenbeet an einem Kiesweg",
+            "cs": "Záhon růží u štěrkové cesty"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-026.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2587.JPG",
+          "sourceSHA256": "ae1d571b6833b5bcb93ce2754189d093516f8ea190918a28ff7deaa18672d1cd",
+          "assetSHA256": "ae1d571b6833b5bcb93ce2754189d093516f8ea190918a28ff7deaa18672d1cd",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "תקריב ראשי צמח לבנים ושעירים",
+            "en": "Close view of white fluffy plant heads",
+            "pl": "Zbliżenie białych puszystych główek roślin",
+            "de": "Nahaufnahme weißer flaumiger Pflanzenköpfe",
+            "cs": "Detail bílých chmýřitých hlaviček rostlin"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-027.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2588.JPG",
+          "sourceSHA256": "4bac40db2661f549ef46785d78c8c1520f9a780691fb5c4e5a6d3071f0dd0bef",
+          "assetSHA256": "4bac40db2661f549ef46785d78c8c1520f9a780691fb5c4e5a6d3071f0dd0bef",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פרח מים צהוב בין עלי הבריכה",
+            "en": "Yellow aquatic flower among pond leaves",
+            "pl": "Żółty kwiat wodny wśród liści na stawie",
+            "de": "Gelbe Wasserblüte zwischen Blättern auf dem Teich",
+            "cs": "Žlutý vodní květ mezi listy na jezírku"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-028.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2589.JPG",
+          "sourceSHA256": "09689c5471e0ba922384daaeec4272505483e97918f9b737df03681dfb08ed8f",
+          "assetSHA256": "09689c5471e0ba922384daaeec4272505483e97918f9b737df03681dfb08ed8f",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פרח מים צהוב בין עלי הבריכה",
+            "en": "Yellow aquatic flower among pond leaves",
+            "pl": "Żółty kwiat wodny wśród liści na stawie",
+            "de": "Gelbe Wasserblüte zwischen Blättern auf dem Teich",
+            "cs": "Žlutý vodní květ mezi listy na jezírku"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-029.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2590.JPG",
+          "sourceSHA256": "522235543f20fa13f98bd2176915acfa35dcede2fc7faa3ba2534337289476e9",
+          "assetSHA256": "522235543f20fa13f98bd2176915acfa35dcede2fc7faa3ba2534337289476e9",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "תקריב ורדים ורודים בהירים",
+            "en": "Close view of pale pink roses",
+            "pl": "Zbliżenie jasnoróżowych róż",
+            "de": "Nahaufnahme hellrosa Rosen",
+            "cs": "Detail světle růžových růží"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-030.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2591.JPG",
+          "sourceSHA256": "a1043ed545e55015d02c8867a1b9478eac58a683897e3ba24cca4364f7e3ca51",
+          "assetSHA256": "a1043ed545e55015d02c8867a1b9478eac58a683897e3ba24cca4364f7e3ca51",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "תקריב ורדים ורודים בהירים",
+            "en": "Close view of pale pink roses",
+            "pl": "Zbliżenie jasnoróżowych róż",
+            "de": "Nahaufnahme hellrosa Rosen",
+            "cs": "Detail světle růžových růží"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-031.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2592.JPG",
+          "sourceSHA256": "0d906a6ba201f73c90372043cc52723526d04205b09696b79c943c62a58f6965",
+          "assetSHA256": "0d906a6ba201f73c90372043cc52723526d04205b09696b79c943c62a58f6965",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "תקריב ורדים בגוני ורוד וצהוב",
+            "en": "Close view of pink and yellow roses",
+            "pl": "Zbliżenie róż w odcieniach różu i żółci",
+            "de": "Nahaufnahme von Rosen in Rosa und Gelb",
+            "cs": "Detail růží v růžových a žlutých odstínech"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-032.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2593.JPG",
+          "sourceSHA256": "b60adea4bc39c71b1402b7be7f8710be82a6da940390ac2a9fb645d04663bf95",
+          "assetSHA256": "b60adea4bc39c71b1402b7be7f8710be82a6da940390ac2a9fb645d04663bf95",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פסל הציפורים במדשאה מאחורי פרחים כתומים",
+            "en": "Bird sculpture on the lawn behind orange flowers",
+            "pl": "Rzeźba ptaków na trawniku za pomarańczowymi kwiatami",
+            "de": "Vogelskulptur auf dem Rasen hinter orangefarbenen Blüten",
+            "cs": "Socha ptáků na trávníku za oranžovými květy"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-033.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2594.JPG",
+          "sourceSHA256": "35edfe784291f031334174784b5ed373baf19fcfbc3632fee68275c11981a4b2",
+          "assetSHA256": "35edfe784291f031334174784b5ed373baf19fcfbc3632fee68275c11981a4b2",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פסל הציפורים במדשאה מאחורי פרחים כתומים",
+            "en": "Bird sculpture on the lawn behind orange flowers",
+            "pl": "Rzeźba ptaków na trawniku za pomarańczowymi kwiatami",
+            "de": "Vogelskulptur auf dem Rasen hinter orangefarbenen Blüten",
+            "cs": "Socha ptáků na trávníku za oranžovými květy"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-034.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2595.JPG",
+          "sourceSHA256": "6effe49491dbb8d115a5bf17ceda004fd440c1e419f70517636f87c7575088f1",
+          "assetSHA256": "6effe49491dbb8d115a5bf17ceda004fd440c1e419f70517636f87c7575088f1",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "עמודי פריחה צהובים ליד שביל הגן",
+            "en": "Tall yellow flower spikes beside a garden path",
+            "pl": "Wysokie żółte kwiatostany przy alejce ogrodu",
+            "de": "Hohe gelbe Blütenstände an einem Gartenweg",
+            "cs": "Vysoká žlutá květenství u zahradní cesty"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-035.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2597.JPG",
+          "sourceSHA256": "39e1ec2c5ea4799640655d8a418a2128d95a1170e4d96b8c4501a4e083aa2c75",
+          "assetSHA256": "39e1ec2c5ea4799640655d8a418a2128d95a1170e4d96b8c4501a4e083aa2c75",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "עלים מגוונים בגוני לבן וירוק",
+            "en": "Variegated white and green leaves",
+            "pl": "Pstre biało-zielone liście",
+            "de": "Weiß-grün gemusterte Blätter",
+            "cs": "Panašované bílozelené listy"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-036.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2598.JPG",
+          "sourceSHA256": "b1b08da663373ea95ca8d566fbc96d5f9b828d168a6d6eca315b1a9bbf908478",
+          "assetSHA256": "b1b08da663373ea95ca8d566fbc96d5f9b828d168a6d6eca315b1a9bbf908478",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "עלים מגוונים בגוני לבן וירוק",
+            "en": "Variegated white and green leaves",
+            "pl": "Pstre biało-zielone liście",
+            "de": "Weiß-grün gemusterte Blätter",
+            "cs": "Panašované bílozelené listy"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-037.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2599.JPG",
+          "sourceSHA256": "9b1809c1c8a3292692e0237ea69648640acdc8385db03b596213ccd68f43e475",
+          "assetSHA256": "9b1809c1c8a3292692e0237ea69648640acdc8385db03b596213ccd68f43e475",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "שבילי הגן וערוגות הצמחים המסומנות",
+            "en": "Garden paths and labeled plant beds",
+            "pl": "Ścieżki i rabaty z etykietami roślin",
+            "de": "Gartenwege und beschriftete Pflanzenbeete",
+            "cs": "Zahradní cesty a záhony s popiskami rostlin"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-038.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2600.JPG",
+          "sourceSHA256": "b8b4aee86297b446dccbab71dad6ac81ff1d82a29aeeb2c4e52b49bcc6aec810",
+          "assetSHA256": "b8b4aee86297b446dccbab71dad6ac81ff1d82a29aeeb2c4e52b49bcc6aec810",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פריחה צהובה בתקריב",
+            "en": "Close view of yellow blossoms",
+            "pl": "Zbliżenie żółtych kwiatów",
+            "de": "Nahaufnahme gelber Blüten",
+            "cs": "Detail žlutých květů"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-039.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2602.JPG",
+          "sourceSHA256": "fb1dcac81d094ca082a184b971aaa9ce209e2499806c9130522ac1527c0b9851",
+          "assetSHA256": "fb1dcac81d094ca082a184b971aaa9ce209e2499806c9130522ac1527c0b9851",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו בין עצי המחט ליד החממה",
+            "en": "Our visit among conifers beside the greenhouse",
+            "pl": "Nasza wizyta wśród iglaków obok szklarni",
+            "de": "Unser Besuch zwischen Nadelbäumen am Gewächshaus",
+            "cs": "Naše návštěva mezi jehličnany u skleníku"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-040.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2604.JPG",
+          "sourceSHA256": "e2857d959074898ff94af35c85f9c7b43014cd32dbebacc07ccc3ca75d3118d4",
+          "assetSHA256": "e2857d959074898ff94af35c85f9c7b43014cd32dbebacc07ccc3ca75d3118d4",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה",
+            "en": "Our visit beside the pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną",
+            "de": "Unser Besuch am Teich mit Springbrunnen",
+            "cs": "Naše návštěva u jezírka s fontánou"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-041.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2605.JPG",
+          "sourceSHA256": "fe8770439713dc61907ba4194c1752fa51a321a1eaddd672f95fe8d7cb309bb7",
+          "assetSHA256": "fe8770439713dc61907ba4194c1752fa51a321a1eaddd672f95fe8d7cb309bb7",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הבריכה והמזרקה",
+            "en": "Our visit beside the pond and fountain",
+            "pl": "Nasza wizyta nad stawem z fontanną",
+            "de": "Unser Besuch am Teich mit Springbrunnen",
+            "cs": "Naše návštěva u jezírka s fontánou"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-042.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2607.JPG",
+          "sourceSHA256": "c27d14eda618359802ffc79edceb6f3cef59f296c592b8a4758c94af9fad6f8a",
+          "assetSHA256": "c27d14eda618359802ffc79edceb6f3cef59f296c592b8a4758c94af9fad6f8a",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו על ספסל העץ בין ערוגות הגן",
+            "en": "Our visit on a wooden bench among the garden beds",
+            "pl": "Nasza wizyta na drewnianej ławce wśród rabat ogrodu",
+            "de": "Unser Besuch auf einer Holzbank zwischen Gartenbeeten",
+            "cs": "Naše návštěva na dřevěné lavičce mezi zahradními záhony"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-043.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2608.JPG",
+          "sourceSHA256": "b7d97f8ddd494d09d05daf4300ad2ba65be59ffb055ab2de5e6e9e753417fc4d",
+          "assetSHA256": "b7d97f8ddd494d09d05daf4300ad2ba65be59ffb055ab2de5e6e9e753417fc4d",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו על ספסל העץ בין ערוגות הגן",
+            "en": "Our visit on a wooden bench among the garden beds",
+            "pl": "Nasza wizyta na drewnianej ławce wśród rabat ogrodu",
+            "de": "Unser Besuch auf einer Holzbank zwischen Gartenbeeten",
+            "cs": "Naše návštěva na dřevěné lavičce mezi zahradními záhony"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-044.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2609.JPG",
+          "sourceSHA256": "cb627f917185fcc215b906973b2e33a9c319e767cfca97f5dda2f15efa4e9555",
+          "assetSHA256": "cb627f917185fcc215b906973b2e33a9c319e767cfca97f5dda2f15efa4e9555",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו על ספסל העץ בין ערוגות הגן",
+            "en": "Our visit on a wooden bench among the garden beds",
+            "pl": "Nasza wizyta na drewnianej ławce wśród rabat ogrodu",
+            "de": "Unser Besuch auf einer Holzbank zwischen Gartenbeeten",
+            "cs": "Naše návštěva na dřevěné lavičce mezi zahradními záhony"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-045.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2610.JPG",
+          "sourceSHA256": "698183ca3915ab5a47678de0b6866e26e0f3e91b4cbf99853dbb6b4b3549b997",
+          "assetSHA256": "698183ca3915ab5a47678de0b6866e26e0f3e91b4cbf99853dbb6b4b3549b997",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו על ספסל העץ בין ערוגות הגן",
+            "en": "Our visit on a wooden bench among the garden beds",
+            "pl": "Nasza wizyta na drewnianej ławce wśród rabat ogrodu",
+            "de": "Unser Besuch auf einer Holzbank zwischen Gartenbeeten",
+            "cs": "Naše návštěva na dřevěné lavičce mezi zahradními záhony"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-046.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2611.JPG",
+          "sourceSHA256": "031a39f29cf68e70bccd1fa0d55c4229b66cb539e35d6791d55e66bffd26837f",
+          "assetSHA256": "031a39f29cf68e70bccd1fa0d55c4229b66cb539e35d6791d55e66bffd26837f",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מהביקור שלנו על ספסל העץ בין ערוגות הגן",
+            "en": "Our visit on a wooden bench among the garden beds",
+            "pl": "Nasza wizyta na drewnianej ławce wśród rabat ogrodu",
+            "de": "Unser Besuch auf einer Holzbank zwischen Gartenbeeten",
+            "cs": "Naše návštěva na dřevěné lavičce mezi zahradními záhony"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-047.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2612.JPG",
+          "sourceSHA256": "d8267ca6c86e7a2ea3c6ae09caa3dfd09fcc6758758900532a0747bbc703b825",
+          "assetSHA256": "d8267ca6c86e7a2ea3c6ae09caa3dfd09fcc6758758900532a0747bbc703b825",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו על ספסל העץ בין ערוגות הגן",
+            "en": "Our visit on a wooden bench among the garden beds",
+            "pl": "Nasza wizyta na drewnianej ławce wśród rabat ogrodu",
+            "de": "Unser Besuch auf einer Holzbank zwischen Gartenbeeten",
+            "cs": "Naše návštěva na dřevěné lavičce mezi zahradními záhony"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-048.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2613.JPG",
+          "sourceSHA256": "93fc2e4f8e9ec9fc499bfbde288de9bfd0f50c90c26b4c438ad1df8dd1fc3bc2",
+          "assetSHA256": "93fc2e4f8e9ec9fc499bfbde288de9bfd0f50c90c26b4c438ad1df8dd1fc3bc2",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו על ספסל העץ בין ערוגות הגן",
+            "en": "Our visit on a wooden bench among the garden beds",
+            "pl": "Nasza wizyta na drewnianej ławce wśród rabat ogrodu",
+            "de": "Unser Besuch auf einer Holzbank zwischen Gartenbeeten",
+            "cs": "Naše návštěva na dřevěné lavičce mezi zahradními záhony"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-049.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2614.JPG",
+          "sourceSHA256": "1f7154304a011133ac4a52e1d0e28c94fe53d42b076b4843bbeb865190303c57",
+          "assetSHA256": "1f7154304a011133ac4a52e1d0e28c94fe53d42b076b4843bbeb865190303c57",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "בריכת החבצלות ומבנה הכנסייה שברקע",
+            "en": "Water-lily pond with a church in the background",
+            "pl": "Staw z liliami wodnymi i kościołem w tle",
+            "de": "Seerosenteich mit einer Kirche im Hintergrund",
+            "cs": "Leknínové jezírko s kostelem v pozadí"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-050.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2615.JPG",
+          "sourceSHA256": "743a76cb37562226674b5d0d42ad23f0baba3d8565ea6085ad8cb51eeeb6ccdf",
+          "assetSHA256": "743a76cb37562226674b5d0d42ad23f0baba3d8565ea6085ad8cb51eeeb6ccdf",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "בריכת החבצלות ומבנה הכנסייה שברקע",
+            "en": "Water-lily pond with a church in the background",
+            "pl": "Staw z liliami wodnymi i kościołem w tle",
+            "de": "Seerosenteich mit einer Kirche im Hintergrund",
+            "cs": "Leknínové jezírko s kostelem v pozadí"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-051.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2616.JPG",
+          "sourceSHA256": "604073dd68938e869e04c87568dc8aa667550a5323a39421952f6deea16f00e8",
+          "assetSHA256": "604073dd68938e869e04c87568dc8aa667550a5323a39421952f6deea16f00e8",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו בשבילי הגן הבוטני",
+            "en": "Our visit along the Botanical Garden paths",
+            "pl": "Nasza wizyta na ścieżkach ogrodu botanicznego",
+            "de": "Unser Besuch auf den Wegen des Botanischen Gartens",
+            "cs": "Naše návštěva na cestách botanické zahrady"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-052.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2617.JPG",
+          "sourceSHA256": "018779bc375349334e2132e1394fdd402af5bdc11dace5ba691b51b04d706829",
+          "assetSHA256": "018779bc375349334e2132e1394fdd402af5bdc11dace5ba691b51b04d706829",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו בשבילי הגן הבוטני",
+            "en": "Our visit along the Botanical Garden paths",
+            "pl": "Nasza wizyta na ścieżkach ogrodu botanicznego",
+            "de": "Unser Besuch auf den Wegen des Botanischen Gartens",
+            "cs": "Naše návštěva na cestách botanické zahrady"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-053.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2618.JPG",
+          "sourceSHA256": "907380f3f4f9fba800473afac35b8e6eea533487102c5acd5d523eb0bfd6cc9a",
+          "assetSHA256": "907380f3f4f9fba800473afac35b8e6eea533487102c5acd5d523eb0bfd6cc9a",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מדשאת הגן והערוגות עם מגדל הכנסייה שברקע",
+            "en": "Garden lawn and borders with a church tower in the background",
+            "pl": "Trawnik i rabaty ogrodu z wieżą kościoła w tle",
+            "de": "Gartenrasen und Beete mit einem Kirchturm im Hintergrund",
+            "cs": "Zahradní trávník a záhony s kostelní věží v pozadí"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-054.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2619.JPG",
+          "sourceSHA256": "47b6fff1d337e4d1dfcc67b4cc4c22a67e73cb407b448c6005558f8114ef5c3e",
+          "assetSHA256": "47b6fff1d337e4d1dfcc67b4cc4c22a67e73cb407b448c6005558f8114ef5c3e",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            2316,
+            3088
+          ],
+          "alt": {
+            "he": "מהביקור שלנו בשביל המוצל בגן",
+            "en": "Our visit on a shaded garden path",
+            "pl": "Nasza wizyta na zacienionej alejce ogrodu",
+            "de": "Unser Besuch auf einem schattigen Gartenweg",
+            "cs": "Naše návštěva na stinné zahradní cestě"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-055.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2620.JPG",
+          "sourceSHA256": "e25f846b73dc63c0841ed58a8b5833f21fa823f7d0c2698574410e3171f048a4",
+          "assetSHA256": "e25f846b73dc63c0841ed58a8b5833f21fa823f7d0c2698574410e3171f048a4",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו בשבילי הגן הבוטני",
+            "en": "Our visit along the Botanical Garden paths",
+            "pl": "Nasza wizyta na ścieżkach ogrodu botanicznego",
+            "de": "Unser Besuch auf den Wegen des Botanischen Gartens",
+            "cs": "Naše návštěva na cestách botanické zahrady"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-056.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2621.JPG",
+          "sourceSHA256": "d848c3c88480bbaf45d3629d998df0c023069b15e631b0afc17d10343af32348",
+          "assetSHA256": "d848c3c88480bbaf45d3629d998df0c023069b15e631b0afc17d10343af32348",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "אמנון ותמר בגוני סגול ולבן",
+            "en": "Purple and white pansies",
+            "pl": "Fioletowo-białe bratki",
+            "de": "Violett-weiße Stiefmütterchen",
+            "cs": "Fialové a bílé macešky"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "/assets/botanical-oct28/source-057.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2622.JPG",
+          "sourceSHA256": "b1fc17e0ab88ddff5ed6857eef6835b4ace354252b95261bf20fbe77ad6aa25b",
+          "assetSHA256": "b1fc17e0ab88ddff5ed6857eef6835b4ace354252b95261bf20fbe77ad6aa25b",
+          "original": true,
+          "userPreparedPeopleRemoval": false,
+          "originalFullPicturePreserved": true,
+          "pictureFramePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "אמנון ותמר בגוני סגול ולבן",
+            "en": "Purple and white pansies",
+            "pl": "Fioletowo-białe bratki",
+            "de": "Violett-weiße Stiefmütterchen",
+            "cs": "Fialové a bílé macešky"
+          },
+          "sourceReviewReceipt": "botanical-new-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "personalScopeApproval": "botanical-new-inbox-2026-10-28/scoped-personal-photo-approval-latest.json"
+        },
+        "https://youtube.com/shorts/4to84Yc3xn0": {
+          "title": {
+            "he": "הבריכה וגשר העץ בגן הבוטני בוורוצלב",
+            "en": "Pond and wooden bridge in Wrocław Botanical Garden",
+            "pl": "Staw i drewniany mostek w Ogrodzie Botanicznym we Wrocławiu",
+            "de": "Teich und Holzbrücke im Botanischen Garten Breslau",
+            "cs": "Jezírko a dřevěný mostek v botanické zahradě ve Vratislavi"
+          },
+          "description": {
+            "he": "מבט מהגשר על צמחי המים, הערבה והמזרקה במהלך הביקור שלנו בגן.",
+            "en": "A view from the bridge over aquatic plants, the willow and the fountain during our garden visit.",
+            "pl": "Widok z mostku na rośliny wodne, wierzbę i fontannę podczas naszej wizyty w ogrodzie.",
+            "de": "Blick von der Brücke auf Wasserpflanzen, Weide und Springbrunnen bei unserem Gartenbesuch.",
+            "cs": "Pohled z mostku na vodní rostliny, vrbu a fontánu během naší návštěvy zahrady."
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/1E7E2098-41F1-4968-AE86-EE3DDA8CC078.MP4",
+          "sourceSHA256": "d8b2e33b9c35048e3b1640091c40db1336e717927fcade51fd97bcd4f5e25a72",
+          "uploadSHA256": "d8b2e33b9c35048e3b1640091c40db1336e717927fcade51fd97bcd4f5e25a72",
+          "durationSeconds": 10.6,
+          "originalPictureUnchanged": true,
+          "originalAudioUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "actualPlaybackVerified": true,
+          "publicationReceipt": "botanical-new-inbox-2026-10-28/four-videos-public-completion-receipt.json",
+          "specificActionApproval": "botanical-new-inbox-2026-10-28/four-videos-actiontime-human-approval.json",
+          "personalMedia": false
+        },
+        "https://youtube.com/shorts/cII0K2K7txY": {
+          "title": {
+            "he": "הביקור שלנו בחממת הגן הבוטני בוורוצלב",
+            "en": "Our greenhouse visit in Wrocław Botanical Garden",
+            "pl": "Nasza wizyta w szklarni Ogrodu Botanicznego we Wrocławiu",
+            "de": "Unser Gewächshausbesuch im Botanischen Garten Breslau",
+            "cs": "Naše návštěva skleníku v botanické zahradě ve Vratislavi"
+          },
+          "description": {
+            "he": "מצמחי התצוגה אל שביל ההליכה בחממה, בצילום מהביקור שלנו.",
+            "en": "From the plant display to the greenhouse walkway, filmed during our visit.",
+            "pl": "Od ekspozycji roślin do alejki w szklarni, na nagraniu z naszej wizyty.",
+            "de": "Von der Pflanzenausstellung zum Gang im Gewächshaus, aufgenommen bei unserem Besuch.",
+            "cs": "Od expozice rostlin ke skleníkové cestičce na záběrech z naší návštěvy."
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/2CB96803-D109-4A9A-A0F0-83965A82AA0B.MP4",
+          "sourceSHA256": "8e4c52089cdf993de0ee6c837dddae6eb457d8a50c9bff9f98a0b333825378ca",
+          "uploadSHA256": "8e4c52089cdf993de0ee6c837dddae6eb457d8a50c9bff9f98a0b333825378ca",
+          "durationSeconds": 27.035011,
+          "originalPictureUnchanged": true,
+          "originalAudioUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "actualPlaybackVerified": true,
+          "publicationReceipt": "botanical-new-inbox-2026-10-28/four-videos-public-completion-receipt.json",
+          "specificActionApproval": "botanical-new-inbox-2026-10-28/four-videos-actiontime-human-approval.json",
+          "personalMedia": true
+        },
+        "https://youtube.com/shorts/JXZXIdkib5A": {
+          "title": {
+            "he": "מהביקור שלנו בין ערוגות הגן הבוטני בוורוצלב",
+            "en": "Our visit among the beds of Wrocław Botanical Garden",
+            "pl": "Nasza wizyta wśród rabat Ogrodu Botanicznego we Wrocławiu",
+            "de": "Unser Besuch zwischen den Beeten des Botanischen Gartens Breslau",
+            "cs": "Naše návštěva mezi záhony botanické zahrady ve Vratislavi"
+          },
+          "description": {
+            "he": "צילום ביקור בין צמחים גבוהים ופרחים סגולים.",
+            "en": "A visit view among tall plants and purple flowers.",
+            "pl": "Ujęcie z wizyty wśród wysokich roślin i fioletowych kwiatów.",
+            "de": "Besuchsaufnahme zwischen hohen Pflanzen und violetten Blüten.",
+            "cs": "Záběr z návštěvy mezi vysokými rostlinami a fialovými květy."
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/8BDCF818-1072-4A2A-8D5F-921B57FB9222.MP4",
+          "sourceSHA256": "3401bf4d51266e55160c59d26a1d05764fba22a456716b6dc68dbf6872fcd484",
+          "uploadSHA256": "3401bf4d51266e55160c59d26a1d05764fba22a456716b6dc68dbf6872fcd484",
+          "durationSeconds": 15.835011,
+          "originalPictureUnchanged": true,
+          "originalAudioUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "actualPlaybackVerified": true,
+          "publicationReceipt": "botanical-new-inbox-2026-10-28/four-videos-public-completion-receipt.json",
+          "specificActionApproval": "botanical-new-inbox-2026-10-28/four-videos-actiontime-human-approval.json",
+          "personalMedia": true
+        },
+        "https://youtube.com/shorts/crVvtb_OrZw": {
+          "title": {
+            "he": "שבילים וערוגות בגן הבוטני בוורוצלב",
+            "en": "Paths and flower beds in Wrocław Botanical Garden",
+            "pl": "Ścieżki i rabaty w Ogrodzie Botanicznym we Wrocławiu",
+            "de": "Wege und Blumenbeete im Botanischen Garten Breslau",
+            "cs": "Cesty a květinové záhony v botanické zahradě ve Vratislavi"
+          },
+          "description": {
+            "he": "צילום מהביקור שלנו ליד החממה, הפרחים ושבילי הגן.",
+            "en": "A visit view beside the greenhouse, flowers and garden paths.",
+            "pl": "Ujęcie z naszej wizyty obok szklarni, kwiatów i ogrodowych ścieżek.",
+            "de": "Aufnahmen unseres Besuchs am Gewächshaus, an Blumen und Gartenwegen.",
+            "cs": "Záběry z naší návštěvy u skleníku, květin a zahradních cest."
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/E3E98899-23CC-44C4-B022-8770CCFF5EF3.MP4",
+          "sourceSHA256": "3d10b59bb41c9e647a6e010f9b25fb267b161ad0685efe478dbd1bc32a2098fb",
+          "uploadSHA256": "3d10b59bb41c9e647a6e010f9b25fb267b161ad0685efe478dbd1bc32a2098fb",
+          "durationSeconds": 43.724036,
+          "originalPictureUnchanged": true,
+          "originalAudioUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "actualPlaybackVerified": true,
+          "publicationReceipt": "botanical-new-inbox-2026-10-28/four-videos-public-completion-receipt.json",
+          "specificActionApproval": "botanical-new-inbox-2026-10-28/four-videos-actiontime-human-approval.json",
           "personalMedia": false
         }
       }

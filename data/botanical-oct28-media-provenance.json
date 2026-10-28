@@ -1,0 +1,467 @@
+{
+  "canonical": "wroclaw-botanical-garden",
+  "personalPhotoApproval": "Current Botanical Garden task, scoped-personal-photo-approval-latest.json",
+  "sourceCount": 57,
+  "photoSourceCount": 51,
+  "galleryCount": 52,
+  "originalSourcesPreserved": true,
+  "historicalEditedGalleryEntriesRetired": [
+    "/assets/botanical-garden/botanical-garden-02.jpg",
+    "/assets/botanical-garden/botanical-garden-04.jpg"
+  ],
+  "historicalBytesAndMetadataPreserved": "botanical-new-inbox-2026-10-28/historical-gallery-before-enrichment/manifest.json",
+  "sameSceneReplacementIsNotReencode": true,
+  "assets": [
+    {
+      "sourceIndex": 1,
+      "sourceSHA256": "60ad22c897bead937488f149a99023e704337549fe751a887b63dd3b526ca15a",
+      "asset": "/assets/botanical-garden/botanical-garden-03.jpg",
+      "bytes": 10165377,
+      "action": "replace-historical-edit-with-approved-full-original-of-same-scene"
+    },
+    {
+      "sourceIndex": 3,
+      "sourceSHA256": "0763ceb1ab2100a54bc4ec6f1486783401cd6675bdca55a9b4ad4fe38495e025",
+      "asset": "/assets/botanical-oct28/source-003.jpg",
+      "bytes": 9174603,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 4,
+      "sourceSHA256": "9bc09f6a9e9772dd3ceb8cce50ab053fe32459505b7fd1ec244a095a6cadc828",
+      "asset": "/assets/botanical-oct28/source-004.jpg",
+      "bytes": 8059701,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 6,
+      "sourceSHA256": "3c31ae144e0d840d3378e783f2b44cc468e9e1cc934586343fe1338809cb361e",
+      "asset": "/assets/botanical-oct28/source-006.jpg",
+      "bytes": 9373776,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 7,
+      "sourceSHA256": "adb23af309d03d181b8356abd0a39b9e6cb2c189a8cdf00999fdadced0134d4e",
+      "asset": "/assets/botanical-garden/botanical-garden-09.jpg",
+      "bytes": 11569392,
+      "action": "replace-historical-edit-with-approved-full-original-of-same-scene"
+    },
+    {
+      "sourceIndex": 9,
+      "sourceSHA256": "17fea60ba7738b8eb7bc47dac3b94af59a9aad7741d6d12667b45f2de8343597",
+      "asset": "/assets/botanical-garden/botanical-garden-06.jpg",
+      "bytes": 11513008,
+      "action": "replace-historical-edit-with-approved-full-original-of-same-scene"
+    },
+    {
+      "sourceIndex": 10,
+      "sourceSHA256": "4c8e0110292462ca92b33697f8c9a7d7a859db09f57e607c3ab40358a0b6326c",
+      "asset": "/assets/botanical-oct28/source-010.jpg",
+      "bytes": 8601592,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 11,
+      "sourceSHA256": "917f848fd6cea69645e96dbfbd9097b37cef507a900f468adf26c329caca54ea",
+      "asset": "/assets/botanical-oct28/source-011.jpg",
+      "bytes": 8089261,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 13,
+      "sourceSHA256": "3b930a0539a0098f50bc60cd348c5fba52928ace53f01a93726598682b5e4f21",
+      "asset": "/assets/botanical-oct28/source-013.jpg",
+      "bytes": 8077954,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 14,
+      "sourceSHA256": "4fc00bbdfc4bbe1330468926d991297af68731d25547c81f3f141444c1394e70",
+      "asset": "/assets/botanical-garden/botanical-garden-11.jpg",
+      "bytes": 9715377,
+      "action": "upgrade-existing-reencoded-original"
+    },
+    {
+      "sourceIndex": 16,
+      "sourceSHA256": "3843336d8c3de3102419ae354370589f917c4b520e7c8f325d6a0876d787863b",
+      "asset": "/assets/botanical-garden/botanical-garden-07.jpg",
+      "bytes": 8452596,
+      "action": "replace-historical-edit-with-approved-full-original-of-same-scene"
+    },
+    {
+      "sourceIndex": 17,
+      "sourceSHA256": "8f89a51806c721d9f5fea9ae28d055e1dbde2cf1766f342837fcac8dac6814ca",
+      "asset": "/assets/botanical-garden/botanical-garden-08.jpg",
+      "bytes": 11904667,
+      "action": "replace-historical-edit-with-approved-full-original-of-same-scene"
+    },
+    {
+      "sourceIndex": 18,
+      "sourceSHA256": "c02e721bc005766e6a2b5f434193d1441d78d9042a9856b05100295d8917e938",
+      "asset": "/assets/botanical-garden/botanical-garden-05.jpg",
+      "bytes": 11073294,
+      "action": "replace-historical-edit-with-approved-full-original-of-same-scene"
+    },
+    {
+      "sourceIndex": 19,
+      "sourceSHA256": "304ff86867a47cc61ea25f3acd1d012f99fe446aaf30912c3a08b9d0ff15904e",
+      "asset": "/assets/botanical-garden/botanical-garden-10.jpg",
+      "bytes": 11662640,
+      "action": "replace-historical-edit-with-approved-full-original-of-same-scene"
+    },
+    {
+      "sourceIndex": 20,
+      "sourceSHA256": "f48eb752c7ad57415d3c0d81e43a01b94671b9f3c053fb4bed4a8f120065e840",
+      "asset": "/assets/botanical-oct28/source-020.jpg",
+      "bytes": 8171694,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 22,
+      "sourceSHA256": "7c712c863053363c919c6b90a71e796144eada4609829acfed87ae97815a4099",
+      "asset": "/assets/botanical-oct28/source-022.jpg",
+      "bytes": 4851927,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 23,
+      "sourceSHA256": "f90cdb831b2107b2bcb6f36be632a10fa2c11a5f34dfb08d53165539b4f89465",
+      "asset": "/assets/botanical-oct28/source-023.jpg",
+      "bytes": 5147279,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 24,
+      "sourceSHA256": "9197caff08c471feab898d607ba70214c68606d9eff5f22e2273c61a66ffd062",
+      "asset": "/assets/botanical-oct28/source-024.jpg",
+      "bytes": 4969212,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 25,
+      "sourceSHA256": "88c58c4e0aa40deccbd06f0053da463c64d33910a45fd720734e7ec1426c3200",
+      "asset": "/assets/botanical-oct28/source-025.jpg",
+      "bytes": 5070429,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 26,
+      "sourceSHA256": "ae1d571b6833b5bcb93ce2754189d093516f8ea190918a28ff7deaa18672d1cd",
+      "asset": "/assets/botanical-oct28/source-026.jpg",
+      "bytes": 3481100,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 27,
+      "sourceSHA256": "4bac40db2661f549ef46785d78c8c1520f9a780691fb5c4e5a6d3071f0dd0bef",
+      "asset": "/assets/botanical-oct28/source-027.jpg",
+      "bytes": 1219319,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 28,
+      "sourceSHA256": "09689c5471e0ba922384daaeec4272505483e97918f9b737df03681dfb08ed8f",
+      "asset": "/assets/botanical-oct28/source-028.jpg",
+      "bytes": 768521,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 29,
+      "sourceSHA256": "522235543f20fa13f98bd2176915acfa35dcede2fc7faa3ba2534337289476e9",
+      "asset": "/assets/botanical-oct28/source-029.jpg",
+      "bytes": 1561124,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 30,
+      "sourceSHA256": "a1043ed545e55015d02c8867a1b9478eac58a683897e3ba24cca4364f7e3ca51",
+      "asset": "/assets/botanical-oct28/source-030.jpg",
+      "bytes": 1423393,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 31,
+      "sourceSHA256": "0d906a6ba201f73c90372043cc52723526d04205b09696b79c943c62a58f6965",
+      "asset": "/assets/botanical-oct28/source-031.jpg",
+      "bytes": 1903379,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 32,
+      "sourceSHA256": "b60adea4bc39c71b1402b7be7f8710be82a6da940390ac2a9fb645d04663bf95",
+      "asset": "/assets/botanical-oct28/source-032.jpg",
+      "bytes": 4220763,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 33,
+      "sourceSHA256": "35edfe784291f031334174784b5ed373baf19fcfbc3632fee68275c11981a4b2",
+      "asset": "/assets/botanical-oct28/source-033.jpg",
+      "bytes": 4108105,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 34,
+      "sourceSHA256": "6effe49491dbb8d115a5bf17ceda004fd440c1e419f70517636f87c7575088f1",
+      "asset": "/assets/botanical-oct28/source-034.jpg",
+      "bytes": 3148352,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 35,
+      "sourceSHA256": "39e1ec2c5ea4799640655d8a418a2128d95a1170e4d96b8c4501a4e083aa2c75",
+      "asset": "/assets/botanical-oct28/source-035.jpg",
+      "bytes": 3104551,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 36,
+      "sourceSHA256": "b1b08da663373ea95ca8d566fbc96d5f9b828d168a6d6eca315b1a9bbf908478",
+      "asset": "/assets/botanical-oct28/source-036.jpg",
+      "bytes": 4940423,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 37,
+      "sourceSHA256": "9b1809c1c8a3292692e0237ea69648640acdc8385db03b596213ccd68f43e475",
+      "asset": "/assets/botanical-oct28/source-037.jpg",
+      "bytes": 4416031,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 38,
+      "sourceSHA256": "b8b4aee86297b446dccbab71dad6ac81ff1d82a29aeeb2c4e52b49bcc6aec810",
+      "asset": "/assets/botanical-oct28/source-038.jpg",
+      "bytes": 4455869,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 39,
+      "sourceSHA256": "fb1dcac81d094ca082a184b971aaa9ce209e2499806c9130522ac1527c0b9851",
+      "asset": "/assets/botanical-oct28/source-039.jpg",
+      "bytes": 3626678,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 40,
+      "sourceSHA256": "e2857d959074898ff94af35c85f9c7b43014cd32dbebacc07ccc3ca75d3118d4",
+      "asset": "/assets/botanical-oct28/source-040.jpg",
+      "bytes": 2774322,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 41,
+      "sourceSHA256": "fe8770439713dc61907ba4194c1752fa51a321a1eaddd672f95fe8d7cb309bb7",
+      "asset": "/assets/botanical-oct28/source-041.jpg",
+      "bytes": 2895902,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 42,
+      "sourceSHA256": "c27d14eda618359802ffc79edceb6f3cef59f296c592b8a4758c94af9fad6f8a",
+      "asset": "/assets/botanical-oct28/source-042.jpg",
+      "bytes": 5421933,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 43,
+      "sourceSHA256": "b7d97f8ddd494d09d05daf4300ad2ba65be59ffb055ab2de5e6e9e753417fc4d",
+      "asset": "/assets/botanical-oct28/source-043.jpg",
+      "bytes": 5620803,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 44,
+      "sourceSHA256": "cb627f917185fcc215b906973b2e33a9c319e767cfca97f5dda2f15efa4e9555",
+      "asset": "/assets/botanical-oct28/source-044.jpg",
+      "bytes": 4327669,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 45,
+      "sourceSHA256": "698183ca3915ab5a47678de0b6866e26e0f3e91b4cbf99853dbb6b4b3549b997",
+      "asset": "/assets/botanical-oct28/source-045.jpg",
+      "bytes": 4336086,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 46,
+      "sourceSHA256": "031a39f29cf68e70bccd1fa0d55c4229b66cb539e35d6791d55e66bffd26837f",
+      "asset": "/assets/botanical-oct28/source-046.jpg",
+      "bytes": 5003026,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 47,
+      "sourceSHA256": "d8267ca6c86e7a2ea3c6ae09caa3dfd09fcc6758758900532a0747bbc703b825",
+      "asset": "/assets/botanical-oct28/source-047.jpg",
+      "bytes": 5018486,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 48,
+      "sourceSHA256": "93fc2e4f8e9ec9fc499bfbde288de9bfd0f50c90c26b4c438ad1df8dd1fc3bc2",
+      "asset": "/assets/botanical-oct28/source-048.jpg",
+      "bytes": 2887147,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 49,
+      "sourceSHA256": "1f7154304a011133ac4a52e1d0e28c94fe53d42b076b4843bbeb865190303c57",
+      "asset": "/assets/botanical-oct28/source-049.jpg",
+      "bytes": 3806253,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 50,
+      "sourceSHA256": "743a76cb37562226674b5d0d42ad23f0baba3d8565ea6085ad8cb51eeeb6ccdf",
+      "asset": "/assets/botanical-oct28/source-050.jpg",
+      "bytes": 3799525,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 51,
+      "sourceSHA256": "604073dd68938e869e04c87568dc8aa667550a5323a39421952f6deea16f00e8",
+      "asset": "/assets/botanical-oct28/source-051.jpg",
+      "bytes": 4315916,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 52,
+      "sourceSHA256": "018779bc375349334e2132e1394fdd402af5bdc11dace5ba691b51b04d706829",
+      "asset": "/assets/botanical-oct28/source-052.jpg",
+      "bytes": 4357987,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 53,
+      "sourceSHA256": "907380f3f4f9fba800473afac35b8e6eea533487102c5acd5d523eb0bfd6cc9a",
+      "asset": "/assets/botanical-oct28/source-053.jpg",
+      "bytes": 4795474,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 54,
+      "sourceSHA256": "47b6fff1d337e4d1dfcc67b4cc4c22a67e73cb407b448c6005558f8114ef5c3e",
+      "asset": "/assets/botanical-oct28/source-054.jpg",
+      "bytes": 2444198,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 55,
+      "sourceSHA256": "e25f846b73dc63c0841ed58a8b5833f21fa823f7d0c2698574410e3171f048a4",
+      "asset": "/assets/botanical-oct28/source-055.jpg",
+      "bytes": 3016956,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 56,
+      "sourceSHA256": "d848c3c88480bbaf45d3629d998df0c023069b15e631b0afc17d10343af32348",
+      "asset": "/assets/botanical-oct28/source-056.jpg",
+      "bytes": 1905371,
+      "action": "append-distinct-original"
+    },
+    {
+      "sourceIndex": 57,
+      "sourceSHA256": "b1fc17e0ab88ddff5ed6857eef6835b4ace354252b95261bf20fbe77ad6aa25b",
+      "asset": "/assets/botanical-oct28/source-057.jpg",
+      "bytes": 2378904,
+      "action": "append-distinct-original"
+    }
+  ],
+  "canonicalID": "wroclaw-botanical-garden",
+  "approvedRecordSHA256": "36bcbc734df56ea62e9fed0f7cd92b6b00ecfc1961784b03cd5d3a677065a556",
+  "baselineSHA": "d62485ad849c55b3c9bb67537149b817310038cd",
+  "proposedPhotos": [
+    "/assets/botanical-garden/botanical-garden-01.jpg",
+    "/assets/botanical-garden/botanical-garden-03.jpg",
+    "/assets/botanical-garden/botanical-garden-05.jpg",
+    "/assets/botanical-garden/botanical-garden-06.jpg",
+    "/assets/botanical-garden/botanical-garden-07.jpg",
+    "/assets/botanical-garden/botanical-garden-08.jpg",
+    "/assets/botanical-garden/botanical-garden-09.jpg",
+    "/assets/botanical-garden/botanical-garden-10.jpg",
+    "/assets/botanical-garden/botanical-garden-11.jpg",
+    "/assets/botanical-oct28/source-003.jpg",
+    "/assets/botanical-oct28/source-004.jpg",
+    "/assets/botanical-oct28/source-006.jpg",
+    "/assets/botanical-oct28/source-010.jpg",
+    "/assets/botanical-oct28/source-011.jpg",
+    "/assets/botanical-oct28/source-013.jpg",
+    "/assets/botanical-oct28/source-020.jpg",
+    "/assets/botanical-oct28/source-022.jpg",
+    "/assets/botanical-oct28/source-023.jpg",
+    "/assets/botanical-oct28/source-024.jpg",
+    "/assets/botanical-oct28/source-025.jpg",
+    "/assets/botanical-oct28/source-026.jpg",
+    "/assets/botanical-oct28/source-027.jpg",
+    "/assets/botanical-oct28/source-028.jpg",
+    "/assets/botanical-oct28/source-029.jpg",
+    "/assets/botanical-oct28/source-030.jpg",
+    "/assets/botanical-oct28/source-031.jpg",
+    "/assets/botanical-oct28/source-032.jpg",
+    "/assets/botanical-oct28/source-033.jpg",
+    "/assets/botanical-oct28/source-034.jpg",
+    "/assets/botanical-oct28/source-035.jpg",
+    "/assets/botanical-oct28/source-036.jpg",
+    "/assets/botanical-oct28/source-037.jpg",
+    "/assets/botanical-oct28/source-038.jpg",
+    "/assets/botanical-oct28/source-039.jpg",
+    "/assets/botanical-oct28/source-040.jpg",
+    "/assets/botanical-oct28/source-041.jpg",
+    "/assets/botanical-oct28/source-042.jpg",
+    "/assets/botanical-oct28/source-043.jpg",
+    "/assets/botanical-oct28/source-044.jpg",
+    "/assets/botanical-oct28/source-045.jpg",
+    "/assets/botanical-oct28/source-046.jpg",
+    "/assets/botanical-oct28/source-047.jpg",
+    "/assets/botanical-oct28/source-048.jpg",
+    "/assets/botanical-oct28/source-049.jpg",
+    "/assets/botanical-oct28/source-050.jpg",
+    "/assets/botanical-oct28/source-051.jpg",
+    "/assets/botanical-oct28/source-052.jpg",
+    "/assets/botanical-oct28/source-053.jpg",
+    "/assets/botanical-oct28/source-054.jpg",
+    "/assets/botanical-oct28/source-055.jpg",
+    "/assets/botanical-oct28/source-056.jpg",
+    "/assets/botanical-oct28/source-057.jpg"
+  ],
+  "visitAdditions": [
+    {
+      "sourceIndex": 5,
+      "sourceSHA256": "d8b2e33b9c35048e3b1640091c40db1336e717927fcade51fd97bcd4f5e25a72",
+      "videoID": "4to84Yc3xn0",
+      "url": "https://youtube.com/shorts/4to84Yc3xn0"
+    },
+    {
+      "sourceIndex": 8,
+      "sourceSHA256": "8e4c52089cdf993de0ee6c837dddae6eb457d8a50c9bff9f98a0b333825378ca",
+      "videoID": "cII0K2K7txY",
+      "url": "https://youtube.com/shorts/cII0K2K7txY"
+    },
+    {
+      "sourceIndex": 15,
+      "sourceSHA256": "3401bf4d51266e55160c59d26a1d05764fba22a456716b6dc68dbf6872fcd484",
+      "videoID": "JXZXIdkib5A",
+      "url": "https://youtube.com/shorts/JXZXIdkib5A"
+    },
+    {
+      "sourceIndex": 21,
+      "sourceSHA256": "3d10b59bb41c9e647a6e010f9b25fb267b161ad0685efe478dbd1bc32a2098fb",
+      "videoID": "crVvtb_OrZw",
+      "url": "https://youtube.com/shorts/crVvtb_OrZw"
+    }
+  ],
+  "proposedVideos": [
+    "https://youtube.com/shorts/7IHNkTmYczU",
+    "https://youtube.com/shorts/VA_NAM3dDVw",
+    "https://youtube.com/shorts/6VH_8-wmIAw",
+    "https://youtube.com/shorts/kPvsw5LfP0A",
+    "https://youtube.com/shorts/gXmyRW2rRaY",
+    "https://youtube.com/shorts/4to84Yc3xn0",
+    "https://youtube.com/shorts/cII0K2K7txY",
+    "https://youtube.com/shorts/JXZXIdkib5A",
+    "https://youtube.com/shorts/crVvtb_OrZw"
+  ]
+}

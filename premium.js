@@ -239,6 +239,10 @@
     const image = document.getElementById("gallery-image");
     image.src = images[activeGalleryIndex];
     image.alt = `${text(activeGallery.name)} — ${t("galleryPhoto")} ${activeGalleryIndex + 1}`;
+    if ((activeGallery.canonicalPlaceId || activeGallery.id) === "wroclaw-botanical-garden") {
+      const metadata = window.WROC_CATALOG?.getPlace("wroclaw-botanical-garden")?.media?.metadata?.[images[activeGalleryIndex]];
+      image.alt = metadata?.alt?.[language] || image.alt;
+    }
     document.getElementById("gallery-counter").textContent = `${t("galleryPhoto")} ${activeGalleryIndex + 1} ${t("galleryOf")} ${images.length}`;
     document.querySelectorAll(".gallery-thumbnail").forEach((button, index) => {
       const active = index === activeGalleryIndex;
