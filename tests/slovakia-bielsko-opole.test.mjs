@@ -12,11 +12,11 @@ const trip=window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(v=>v.id==='slova
 const langs=['he','en','pl','de','cs'];
 test('new stopover preserves all269 canonical records, all old aliases and all7 excursion objects',()=>{
  assert.equal(Object.keys(proof.recordHashes).length,269);assert.equal(Object.keys(proof.tripHashes).length,7);
- assert.equal(Object.keys(window.WROC_CATALOG.places).length,269+ids.length);
+ assert.equal(Object.keys(window.WROC_CATALOG.places).filter(id=>!JSON.parse(readFileSync("data/torun-excursion-place-ids.json")).includes(id)).length,269+ids.length);
  for(const[id,expected]of Object.entries(proof.recordHashes))assert.equal(hash(window.WROC_CATALOG.places[id]),expected,id);
  for(const[id,expected]of Object.entries(proof.tripHashes))assert.equal(hash(window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(v=>v.id===id)),expected,id);
  for(const[key,value]of Object.entries(proof.aliases))assert.equal(window.WROC_CATALOG.aliases[key],value,key);
- assert.equal(window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length,8);
+ assert.equal(window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.filter(x=>x.id!=="wroclaw-torun-copernicus-day-trip").length,8);
 });
 test('two city chapters keep real coordinates and navigation within one city at a time',()=>{
  assert.equal(trip.cityChapters.length,2);assert.equal(trip.cityChapters[0].id,'bielsko-biala');assert.equal(trip.cityChapters[1].id,'opole');

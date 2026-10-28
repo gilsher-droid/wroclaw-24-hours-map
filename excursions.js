@@ -9,7 +9,7 @@
   let walkingMap;
   let selectedCity;
   const hasCityChapters = excursion => Boolean(excursion.cityChapters?.length);
-  const usesChoiceMap = excursion => excursion.id === "poznan-wroclaw-stopover" || hasCityChapters(excursion);
+  const usesChoiceMap = excursion => excursion.id === "poznan-wroclaw-stopover" || hasCityChapters(excursion) || excursion.choiceMap === true;
   const mapStops = new Map();
   const recommendedGroups = new WeakMap();
   let optionalLayer;
@@ -331,7 +331,7 @@
     if (optionsHost) {
       optionsHost.hidden = !isPoznan;
       const copy = mapChoiceCopy[language];
-      optionsHost.innerHTML = isPoznan ? `<div class="map-key"><span><i class="map-key-route" aria-hidden="true">1</i>${copy.route}</span><span>${copy.choices}</span></div><p>${copy.hint}</p><div class="map-choice-buttons" role="group" aria-label="${escapeHtml(copy.choices)}">${["route","food","culture","shopping","parks","stay"].filter(group => !hasCityChapters(excursion) || group === "route" || (excursion.optionalPlaceIds || []).some(id => optionalGroup(place(id)) === group)).map(group => `<button type="button" data-map-choice="${group}" ${group === "route" ? "" : `style="--choice-color:${optionalSymbols[group].color}"`} aria-pressed="${group === "route"}">${group === "route" ? '<span class="map-choice-route-symbol" aria-hidden="true">1</span>' : `<span class="map-choice-symbol" style="--choice-color:${optionalSymbols[group].color}">${optionalSymbol(group)}</span>`}<span>${copy[group]}</span></button>`).join("")}</div>` : "";
+      optionsHost.innerHTML = isPoznan ? `<div class="map-key"><span><i class="map-key-route" aria-hidden="true">1</i>${copy.route}</span><span>${copy.choices}</span></div><p>${copy.hint}</p><div class="map-choice-buttons" role="group" aria-label="${escapeHtml(copy.choices)}">${["route","food","culture","shopping","parks","stay"].filter(group => (!hasCityChapters(excursion) && excursion.choiceMap !== true) || group === "route" || (excursion.optionalPlaceIds || []).some(id => optionalGroup(place(id)) === group)).map(group => `<button type="button" data-map-choice="${group}" ${group === "route" ? "" : `style="--choice-color:${optionalSymbols[group].color}"`} aria-pressed="${group === "route"}">${group === "route" ? '<span class="map-choice-route-symbol" aria-hidden="true">1</span>' : `<span class="map-choice-symbol" style="--choice-color:${optionalSymbols[group].color}">${optionalSymbol(group)}</span>`}<span>${copy[group]}</span></button>`).join("")}</div>` : "";
     }
     optionalLayer = L.layerGroup().addTo(map);
     (excursion.optionalPlaceIds || []).forEach((id,index) => {
@@ -592,6 +592,7 @@
       cs:"Podle času a zájmů si vyberte další náměstí, ulici nebo zastávku na jídlo v tomto městě."
     }[language];
     optionalSection.hidden = !optionalIds.length;
+    if (excursion.optionalIntro) optionalCopy[1] = local(excursion.optionalIntro);
     const grouped = usesChoiceMap(excursion);
     const groups = ["food","culture","shopping","parks","stay"];
     optionalSection.innerHTML = optionalIds.length ? `<h2>${grouped ? mapChoiceCopy[language].choices : optionalCopy[0]}</h2><p>${optionalCopy[1]}</p>${grouped ? groups.map(group => {
@@ -622,11 +623,11 @@
   };
   function renderCityChapters(excursion) {
     const host = document.querySelector("[data-city-chapters]"), context = document.querySelector("[data-trip-context]");
-    host.hidden = context.hidden = !hasCityChapters(excursion);
-    if (!hasCityChapters(excursion)) {host.innerHTML="";context.innerHTML="";return;}
+    host.hidden = !hasCityChapters(excursion);
+    context.hidden = !excursion.contextGallery?.length;
     const copy = cityCopy[language];
-    host.innerHTML = `<h2>${copy[0]}</h2><p>${copy[1]}</p><div class="city-choice-buttons" role="group" aria-label="${copy[0]}">${excursion.cityChapters.map(city=>`<button type="button" data-city-choice="${city.id}" aria-pressed="${city.id === excursion.activeCity}">${escapeHtml(local(city.cityLabel))}</button>`).join("")}</div><h3>${escapeHtml(local(excursion.cityLabel))}</h3><p>${escapeHtml(local(excursion.cityChapters.find(city=>city.id===excursion.activeCity).summary))}</p>`;
-    context.innerHTML = `<h2>${copy[2]}</h2><div class="trip-context-grid">${excursion.contextGallery.map((photo,index)=>`<figure><button type="button" data-trip-context-photo="${index}" aria-label="${escapeHtml(mapChoiceCopy[language].photos)}: ${escapeHtml(local(photo.caption))}"><img src="${escapeHtml(photo.src)}" alt="${escapeHtml(local(photo.caption))}" loading="lazy"></button><figcaption>${escapeHtml(local(photo.caption))}</figcaption></figure>`).join("")}</div>`;
+    host.innerHTML = hasCityChapters(excursion) ? `<h2>${copy[0]}</h2><p>${copy[1]}</p><div class="city-choice-buttons" role="group" aria-label="${copy[0]}">${excursion.cityChapters.map(city=>`<button type="button" data-city-choice="${city.id}" aria-pressed="${city.id === excursion.activeCity}">${escapeHtml(local(city.cityLabel))}</button>`).join("")}</div><h3>${escapeHtml(local(excursion.cityLabel))}</h3><p>${escapeHtml(local(excursion.cityChapters.find(city=>city.id===excursion.activeCity).summary))}</p>` : "";
+    context.innerHTML = context.hidden ? "" : `<h2>${copy[2]}</h2><div class="trip-context-grid">${excursion.contextGallery.map((photo,index)=>`<figure><button type="button" data-trip-context-photo="${index}" aria-label="${escapeHtml(mapChoiceCopy[language].photos)}: ${escapeHtml(local(photo.caption))}"><img src="${escapeHtml(photo.src)}" alt="${escapeHtml(local(photo.caption))}" loading="lazy"></button><figcaption>${escapeHtml(local(photo.caption))}</figcaption></figure>`).join("")}</div>`;
   }
 
   function render() {

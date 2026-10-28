@@ -1,0 +1,231 @@
+{
+  "personalApprovals": [
+    {
+      "approvalId": "T01",
+      "sourceSHA256": "e85ef9997bf3ca446c44b694b894522bd0d1d67da14b0d6739c9ccffac8497b1",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_d2d92cd6fa884068a358a4d304656efa",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T04",
+      "sourceSHA256": "37b130855c4adca59be970e92541dc9f92c52663778b191d65e6208886b9a316",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_d2d92cd6fa884068a358a4d304656efa",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T06",
+      "sourceSHA256": "c5d66e8f8e6df7bc50f45c8ca7cd04e5883c0b5f94e9f8ef50837a64f3872b6f",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_d2d92cd6fa884068a358a4d304656efa",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T07",
+      "sourceSHA256": "741481ce3f0d4658979d789fef70314e140c8b8cf0dc3b8e735892acd4401cd7",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_4fa0ce2934884cf5814fe19182bd0b1a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T08",
+      "sourceSHA256": "8e31e606f35a8fded7c9439751b2e783696fbb16398d6fcf409a1cfd046f692f",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_4fa0ce2934884cf5814fe19182bd0b1a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T09",
+      "sourceSHA256": "fcabc06b0a3261583214c78ae8298ae92e663ec2067d860a7a4d4a804590cb5e",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_4fa0ce2934884cf5814fe19182bd0b1a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T10",
+      "sourceSHA256": "7170f7f733b8db7f3bb4a7b4012d649c4037a04da41e5ab45430809b7b51ad06",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_c00b852569324b1eab7afac97a97067a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T12",
+      "sourceSHA256": "ec2523c8b7d2122f433f777bcc9a1cdf1a834f7da623b56c1b0d9fb8ad4bfa22",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_c00b852569324b1eab7afac97a97067a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T13",
+      "sourceSHA256": "5f6d589ebf7103504598ded4f0134d3df1199bd6416a879674a5a427b541efd3",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_c00b852569324b1eab7afac97a97067a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T15",
+      "sourceSHA256": "81dab6be67b37e700aa5977471f6ced7da5e69809f3930813e53f77de028eaa8",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_1ef5b48c6ea541cab7fee3b205db74ce",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T16",
+      "sourceSHA256": "ab161751c8c98353608ba12b81fa78a798036a1e99431df120a751cdd9d6b4e2",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_1ef5b48c6ea541cab7fee3b205db74ce",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T17",
+      "sourceSHA256": "994acfd48d78069f91577510efb5da613ecba215f05b08441f2fbb5be23020d8",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_1ef5b48c6ea541cab7fee3b205db74ce",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T19",
+      "sourceSHA256": "f484112b590a8c12681ffc2b24d50fb3a13ec57a9048cca2b6507f23ca9d5753",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_1188b00bc9034116b0d360b2c0075639",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T20",
+      "sourceSHA256": "ce7e64f9de257600a167360ebc633fa76f6dfae21dae06404bbc5e8b95268b12",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_1188b00bc9034116b0d360b2c0075639",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T21",
+      "sourceSHA256": "389072b6486f338e4c0cdf13b5c2af817b7134be2a4be87c198b96fda8bb408b",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_1188b00bc9034116b0d360b2c0075639",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T22",
+      "sourceSHA256": "7aa1d7e016f13e243f7a9e97a40e20603ef4c7cf8767855d713f6ed475c92a7b",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_91197b35e3ea4300ba130a63e22114b6",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T23",
+      "sourceSHA256": "2a69c06ebc60e63124062f1f1a03722c1f7b9e7322b1aac72982ce307b824ac4",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_91197b35e3ea4300ba130a63e22114b6",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T24",
+      "sourceSHA256": "f4aab08b6ca88a1116504a95d05784dbb05a65b6d0be889d027b0d69d0c77398",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_91197b35e3ea4300ba130a63e22114b6",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T25",
+      "sourceSHA256": "2b2860bc87c30b4370ddb67d363252cb86fe263dedef9c060838a8feb88e28c8",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_3c59bc53bdb94bb1a3b8e9e846d46faf",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T27",
+      "sourceSHA256": "c5a775366aaec8044b8550919339e567caaa3424cb76fc589a99e58703cfdfbe",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_3c59bc53bdb94bb1a3b8e9e846d46faf",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T31",
+      "sourceSHA256": "c64e415be0e293037045a03cfee059aa95b5d81c588e5fdea31f6df1ac2256a2",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_3c59bc53bdb94bb1a3b8e9e846d46faf",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T32",
+      "sourceSHA256": "103d6eb9e1367692d79921058fd53c5fbce449eee5df11cfefa7e8e32cf19abd",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_b902b8dc9719413f9094562c5ee4cd8a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T33",
+      "sourceSHA256": "b58973a6f5af14605ca8600a232320e01e1742be3de786e0cbe057e71d9b12a0",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_b902b8dc9719413f9094562c5ee4cd8a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T34",
+      "sourceSHA256": "99c2e8c5f74fe5f494aa0d44292e1107b12f410b53b7cdbdc0d1695ac537a8ca",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_b902b8dc9719413f9094562c5ee4cd8a",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T36",
+      "sourceSHA256": "35211dda3c0f7ba3360bf909b7d03259dd20a3b5f675cc2ea9b0ee8a23dc880d",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_995743a79eae40d397404d4ff8849898",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T44",
+      "sourceSHA256": "5637f7eb08288ec44102081b4d0ed65cda53227d1b01104e0a1bb29a833d56b0",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_995743a79eae40d397404d4ff8849898",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T45",
+      "sourceSHA256": "c5ea398a236fc15873744d17a742bd9c22c9e0c25292944154608c2c8e895582",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_995743a79eae40d397404d4ff8849898",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T52",
+      "sourceSHA256": "690b30b45e1b8818fb9a8e21d2122c8704f71d6c6e0f9d152c551704505f37f9",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_b85616a5a4ce424c8bbc7f13faca8303",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T53",
+      "sourceSHA256": "bf1f574ee78d82c4c0f160560127fceafdc4463b2545651c03ad0c5c2bc34a67",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_b85616a5a4ce424c8bbc7f13faca8303",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T54",
+      "sourceSHA256": "d15a86f1d3a70f1ee4e4cb50eef67759e839e238919bd1227371a464eab90d2f",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_b85616a5a4ce424c8bbc7f13faca8303",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T60",
+      "sourceSHA256": "a1288a792e3258ec09bbc3ad88985661b15fc339f3a56808dc392f556bad9a1f",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_977ccba36d9d433e90667303ee6ae318",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    },
+    {
+      "approvalId": "T61",
+      "sourceSHA256": "91462f04accff24956c64b446340bdd78bf1adb8b11e78a041efb544cd4c588c",
+      "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+      "approvalCall": "call_977ccba36d9d433e90667303ee6ae318",
+      "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map"
+    }
+  ],
+  "folderWideApproval": false,
+  "originalsPreserved": true,
+  "sourceReceipt": "torun-excursion-2026-10-28/individual-personal-media-review.json"
+}

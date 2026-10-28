@@ -143,5 +143,23 @@ window.WROC_HOME_EXCURSIONS = [
       "cs": "Cestou do Vratislavi se zastavte v Bílsku-Bělé, v Opolí nebo v obou městech. Procházku centrem, jídlo či odpočinek u řeky zvolte podle trasy a času."
     },
     "photo": "/assets/slovakia-bielsko-opole/source-04.jpg"
+  },
+  {
+    "id": "wroclaw-torun-copernicus-day-trip",
+    "title": {
+      "he": "יום טיול מוורוצלב לטורון, עירו של קופרניקוס",
+      "en": "A day trip from Wrocław to Toruń, the city of Copernicus",
+      "pl": "Jednodniowa wycieczka z Wrocławia do Torunia, miasta Kopernika",
+      "de": "Tagesausflug von Wrocław nach Toruń, der Stadt des Kopernikus",
+      "cs": "Jednodenní výlet z Vratislavi do Toruně, města Koperníka"
+    },
+    "summary": {
+      "he": "יום ארוך של נסיעה וגילוי העיר העתיקה של טורון: כיכר השוק ובית העירייה, פסל קופרניקוס, הבית הנושא את שמו ושערי העיר שעל הוויסלה. התאימו את מספר ביקורי הפנים לזמן ההגעה ולחזרה לוורוצלב.",
+      "en": "Plan a long day of travel and discovery in Toruń’s Old Town: the market square and Town Hall, Copernicus monument, the house bearing his name and the city gates beside the Vistula. Choose indoor visits around your arrival and return to Wrocław.",
+      "pl": "Zaplanuj długi dzień podróży i zwiedzania toruńskiej starówki: Rynek i Ratusz, pomnik Kopernika, dom noszący jego imię oraz bramy nad Wisłą. Liczbę wejść do wnętrz dopasuj do przyjazdu i powrotu do Wrocławia.",
+      "de": "Ein langer Tag mit Anreise und Entdeckungen in der Altstadt von Toruń: Marktplatz und Rathaus, Kopernikusdenkmal, das nach ihm benannte Haus und die Stadttore an der Weichsel. Innenbesichtigungen nach Ankunft und Rückfahrt nach Wrocław auswählen.",
+      "cs": "Počítejte s dlouhým dnem cestování a objevování toruňského starého města: Rynek a radnice, Koperníkův pomník, dům nesoucí jeho jméno a městské brány u Visly. Prohlídky interiérů přizpůsobte příjezdu a návratu do Vratislavi."
+    },
+    "photo": "/assets/torun/source-38.jpg"
   }
 ];

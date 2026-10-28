@@ -64352,6 +64352,3276 @@
       "cs"
     ]
   },
+  "torun-artus-court": {
+    "id": "torun-artus-court",
+    "localName": "Dwór Artusa",
+    "name": {
+      "he": "חצר ארטוס",
+      "en": "Artus Court",
+      "pl": "Dwór Artusa",
+      "de": "Artushof",
+      "cs": "Artušův dvůr"
+    },
+    "description": {
+      "he": "מבנה אדום מרשים בצדה הדרומי של כיכר השוק. בצילומים נראים החזית המקושטת ובתי הקפה שסביבה; באחד מהם גם מזרקת החלילן בחזית.",
+      "en": "A prominent red building on the southern side of the market square. Our photographs show its decorated frontage and nearby cafés; one also includes the Rafter fountain in the foreground.",
+      "pl": "Okazały czerwony gmach po południowej stronie Rynku. Zdjęcia pokazują dekoracyjną fasadę i pobliskie kawiarnie, a jedno także fontannę Flisaka na pierwszym planie.",
+      "de": "Markanter roter Bau an der Südseite des Marktes. Die Fotos zeigen die verzierte Fassade und Cafés; eines zeigt auch den Flößerbrunnen im Vordergrund.",
+      "cs": "Výrazná červená budova na jižní straně Rynku. Fotografie ukazují zdobenou fasádu a kavárny, jedna také fontánu voraře v popředí."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.009925,
+        "lng": 18.604456
+      },
+      "address": {
+        "street": "Rynek Staromiejski 6",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Dwór Artusa"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/artus-court",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.009925,18.604456",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/artus-court",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-39.jpg",
+      "photos": [
+        "/assets/torun/source-39.jpg",
+        "/assets/torun/source-40.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-39.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5012.JPG",
+          "sourceSHA256": "58900c79e06ebf97d576f2c55304f3941cab6a3632bed5dd58bd833af240cfa9",
+          "assetSHA256": "58900c79e06ebf97d576f2c55304f3941cab6a3632bed5dd58bd833af240cfa9",
+          "alt": {
+            "he": "חצר ארטוס",
+            "en": "Artus Court",
+            "pl": "Dwór Artusa",
+            "de": "Artushof",
+            "cs": "Artušův dvůr"
+          },
+          "title": {
+            "he": "חצר ארטוס",
+            "en": "Artus Court",
+            "pl": "Dwór Artusa",
+            "de": "Artushof",
+            "cs": "Artušův dvůr"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-40.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5013.JPG",
+          "sourceSHA256": "4fdd4da54c9551a16000dc9a69acd22efbae0d9647fcccb851a873681c00a987",
+          "assetSHA256": "4fdd4da54c9551a16000dc9a69acd22efbae0d9647fcccb851a873681c00a987",
+          "alt": {
+            "he": "חצר ארטוס",
+            "en": "Artus Court",
+            "pl": "Dwór Artusa",
+            "de": "Artushof",
+            "cs": "Artušův dvůr"
+          },
+          "title": {
+            "he": "חצר ארטוס",
+            "en": "Artus Court",
+            "pl": "Dwór Artusa",
+            "de": "Artushof",
+            "cs": "Artušův dvůr"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-bridge-gate": {
+    "id": "torun-bridge-gate",
+    "localName": "Brama Mostowa",
+    "name": {
+      "he": "שער הגשר",
+      "en": "Bridge Gate",
+      "pl": "Brama Mostowa",
+      "de": "Brückentor",
+      "cs": "Mostní brána"
+    },
+    "description": {
+      "he": "שער מבוצר ברחוב היורד אל הוויסלה. שני צילומי הביקור מציגים את צדו הפנימי הבהיר, הפינות המעוגלות והשינות בראשו.",
+      "en": "A fortified gate on the street descending to the Vistula. Two visit photographs show its pale inner face, rounded corners and battlements.",
+      "pl": "Brama obronna przy ulicy schodzącej ku Wiśle. Dwa zdjęcia pokazują jasną stronę wewnętrzną, zaokrąglone naroża i blanki.",
+      "de": "Befestigtes Tor an der Straße zur Weichsel. Zwei Fotos zeigen die helle Innenseite, gerundete Ecken und Zinnen.",
+      "cs": "Opevněná brána v ulici klesající k Visle. Dva snímky ukazují světlou vnitřní stranu, zaoblené rohy a cimbuří."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.008546,
+        "lng": 18.608856
+      },
+      "address": {
+        "street": "Mostowa",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Brama Mostowa"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/bridge-gate",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.008546,18.608856",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/bridge-gate",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-29.jpg",
+      "photos": [
+        "/assets/torun/source-29.jpg",
+        "/assets/torun/source-31.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-29.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/CFC76F98-7C6A-4EAE-817F-8E8C48B938A8.JPG",
+          "sourceSHA256": "0d649de6b884c8f2b980aa077fe9e7cf9a46d932272fc6398fc71a7dee2d45fe",
+          "assetSHA256": "0d649de6b884c8f2b980aa077fe9e7cf9a46d932272fc6398fc71a7dee2d45fe",
+          "alt": {
+            "he": "שער הגשר",
+            "en": "Bridge Gate",
+            "pl": "Brama Mostowa",
+            "de": "Brückentor",
+            "cs": "Mostní brána"
+          },
+          "title": {
+            "he": "שער הגשר",
+            "en": "Bridge Gate",
+            "pl": "Brama Mostowa",
+            "de": "Brückentor",
+            "cs": "Mostní brána"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-31.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/DF902857-5E78-47BF-8684-A13223CAEF4B.JPG",
+          "sourceSHA256": "c64e415be0e293037045a03cfee059aa95b5d81c588e5fdea31f6df1ac2256a2",
+          "assetSHA256": "c64e415be0e293037045a03cfee059aa95b5d81c588e5fdea31f6df1ac2256a2",
+          "alt": {
+            "he": "שער הגשר",
+            "en": "Bridge Gate",
+            "pl": "Brama Mostowa",
+            "de": "Brückentor",
+            "cs": "Mostní brána"
+          },
+          "title": {
+            "he": "שער הגשר",
+            "en": "Bridge Gate",
+            "pl": "Brama Mostowa",
+            "de": "Brückentor",
+            "cs": "Mostní brána"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T31",
+            "sourceSHA256": "c64e415be0e293037045a03cfee059aa95b5d81c588e5fdea31f6df1ac2256a2",
+            "approvalCall": "call_3c59bc53bdb94bb1a3b8e9e846d46faf",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-burghers-manor": {
+    "id": "torun-burghers-manor",
+    "localName": "Dwór Mieszczański",
+    "name": {
+      "he": "בית אחוות האזרחים",
+      "en": "Burghers’ manor",
+      "pl": "Dwór Mieszczański",
+      "de": "Bürgerhof",
+      "cs": "Měšťanský dvůr"
+    },
+    "description": {
+      "he": "מבנה לבנים היסטורי עם מגדלון ושער מחודד ברחוב פודמורנה. שני הצילומים שלנו מציגים את החזית ואת הקיסוס האדום על המבנה הסמוך.",
+      "en": "A historic brick building with a turret and pointed doorway on Podmurna Street. Our two photographs show its frontage and red ivy on the neighbouring building.",
+      "pl": "Zabytkowy ceglany budynek z wieżyczką i ostrołukowym wejściem przy Podmurnej. Dwa zdjęcia pokazują fasadę i czerwony bluszcz na sąsiednim budynku.",
+      "de": "Historischer Backsteinbau mit Türmchen und Spitzbogentür an der Podmurna. Zwei Fotos zeigen die Fassade und roten Efeu am Nachbargebäude.",
+      "cs": "Historická cihlová budova s věžičkou a lomeným vchodem v ulici Podmurna. Dva snímky ukazují průčelí a červený břečťan na sousední budově."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.008901,
+        "lng": 18.60977
+      },
+      "address": {
+        "street": "Podmurna 4",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Dwór Mieszczański"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/burghers-manor",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.008901,18.60977",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/burghers-manor",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-28.jpg",
+      "photos": [
+        "/assets/torun/source-28.jpg",
+        "/assets/torun/source-62.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-28.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/C4451712-C585-472B-9DB4-883FC7978F32.JPG",
+          "sourceSHA256": "23f736dd8097d2f8f1894eb2e693863c4c6fa45b38ca333f16db5d195e88bf6e",
+          "assetSHA256": "23f736dd8097d2f8f1894eb2e693863c4c6fa45b38ca333f16db5d195e88bf6e",
+          "alt": {
+            "he": "בית אחוות האזרחים",
+            "en": "Burghers’ manor",
+            "pl": "Dwór Mieszczański",
+            "de": "Bürgerhof",
+            "cs": "Měšťanský dvůr"
+          },
+          "title": {
+            "he": "בית אחוות האזרחים",
+            "en": "Burghers’ manor",
+            "pl": "Dwór Mieszczański",
+            "de": "Bürgerhof",
+            "cs": "Měšťanský dvůr"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-62.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5035.JPG",
+          "sourceSHA256": "fee412c44520233b6245a643d955952994197012c18d258ddce601fe9460d78a",
+          "assetSHA256": "fee412c44520233b6245a643d955952994197012c18d258ddce601fe9460d78a",
+          "alt": {
+            "he": "בית אחוות האזרחים",
+            "en": "Burghers’ manor",
+            "pl": "Dwór Mieszczański",
+            "de": "Bürgerhof",
+            "cs": "Měšťanský dvůr"
+          },
+          "title": {
+            "he": "בית אחוות האזרחים",
+            "en": "Burghers’ manor",
+            "pl": "Dwór Mieszczański",
+            "de": "Bürgerhof",
+            "cs": "Měšťanský dvůr"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-copernicus-house": {
+    "id": "torun-copernicus-house",
+    "localName": "Dom Mikołaja Kopernika",
+    "name": {
+      "he": "בית ניקולאוס קופרניקוס",
+      "en": "House of Nicolaus Copernicus",
+      "pl": "Dom Mikołaja Kopernika",
+      "de": "Nikolaus-Kopernikus-Haus",
+      "cs": "Dům Mikuláše Koperníka"
+    },
+    "description": {
+      "he": "בתי הסוחרים הגותיים המשמשים מוזיאון לקופרניקוס נמצאים ברחוב הנושא את שמו. צילום הביקור מציג את חזית הלבנים המעוטרת ואת הכיתוב מעל הכניסה.",
+      "en": "The Gothic merchant houses that host the Copernicus museum stand on the street bearing his name. Our visit photograph shows the decorated brick facade and name above the entrance.",
+      "pl": "Gotyckie kamienice mieszczące muzeum Kopernika stoją przy ulicy jego imienia. Zdjęcie z wizyty pokazuje dekoracyjną ceglaną fasadę i napis nad wejściem.",
+      "de": "Die gotischen Kaufmannshäuser des Kopernikusmuseums stehen an der gleichnamigen Straße. Unser Foto zeigt die verzierte Backsteinfassade und den Namen über dem Eingang.",
+      "cs": "Gotické kupecké domy s Koperníkovým muzeem stojí v ulici jeho jména. Fotografie zachycuje zdobenou cihlovou fasádu a nápis nad vchodem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.00931,
+        "lng": 18.603962
+      },
+      "address": {
+        "street": "Kopernika 15/17",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Dom Mikołaja Kopernika"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://muzeum.torun.pl/dom-mikolaja-kopernika/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.00931,18.603962",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://muzeum.torun.pl/dom-mikolaja-kopernika/",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-17.jpg",
+      "photos": [
+        "/assets/torun/source-17.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/83715DF0-F8F9-4F6F-BB2F-E194A6D96369.JPG",
+          "sourceSHA256": "994acfd48d78069f91577510efb5da613ecba215f05b08441f2fbb5be23020d8",
+          "assetSHA256": "994acfd48d78069f91577510efb5da613ecba215f05b08441f2fbb5be23020d8",
+          "alt": {
+            "he": "בית ניקולאוס קופרניקוס",
+            "en": "House of Nicolaus Copernicus",
+            "pl": "Dom Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Haus",
+            "cs": "Dům Mikuláše Koperníka"
+          },
+          "title": {
+            "he": "בית ניקולאוס קופרניקוס",
+            "en": "House of Nicolaus Copernicus",
+            "pl": "Dom Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Haus",
+            "cs": "Dům Mikuláše Koperníka"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T17",
+            "sourceSHA256": "994acfd48d78069f91577510efb5da613ecba215f05b08441f2fbb5be23020d8",
+            "approvalCall": "call_1ef5b48c6ea541cab7fee3b205db74ce",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-copernicus-monument": {
+    "id": "torun-copernicus-monument",
+    "localName": "Pomnik Mikołaja Kopernika",
+    "name": {
+      "he": "פסל ניקולאוס קופרניקוס",
+      "en": "Nicolaus Copernicus monument",
+      "pl": "Pomnik Mikołaja Kopernika",
+      "de": "Nikolaus-Kopernikus-Denkmal",
+      "cs": "Pomník Mikuláše Koperníka"
+    },
+    "description": {
+      "he": "פסל האסטרונום ניצב לצד בית העירייה. זו עצירה מרכזית במסלול בעקבות קופרניקוס ובמראות כיכר השוק.",
+      "en": "The astronomer’s statue stands beside the town hall, a central stop on a walk through Copernicus’s city.",
+      "pl": "Pomnik astronoma stoi obok ratusza i jest ważnym punktem spaceru po mieście Kopernika.",
+      "de": "Das Denkmal des Astronomen steht neben dem Rathaus und gehört zum Spaziergang durch die Stadt des Kopernikus.",
+      "cs": "Pomník astronoma stojí vedle radnice a patří k hlavním zastávkám procházky Koperníkovým městem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.0103,
+        "lng": 18.604965
+      },
+      "address": {
+        "street": "Rynek Staromiejski",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Pomnik Mikołaja Kopernika"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/copernicus-monument",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.0103,18.604965",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/copernicus-monument",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-38.jpg",
+      "photos": [
+        "/assets/torun/source-38.jpg",
+        "/assets/torun/source-37.jpg",
+        "/assets/torun/source-08.jpg",
+        "/assets/torun/source-13.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-38.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5011.JPG",
+          "sourceSHA256": "7330db79f1f8b9d4459e363e6f1e2e707d1620c5b3f73502cf246492d8ad1ec0",
+          "assetSHA256": "7330db79f1f8b9d4459e363e6f1e2e707d1620c5b3f73502cf246492d8ad1ec0",
+          "alt": {
+            "he": "פסל ניקולאוס קופרניקוס",
+            "en": "Nicolaus Copernicus monument",
+            "pl": "Pomnik Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Denkmal",
+            "cs": "Pomník Mikuláše Koperníka"
+          },
+          "title": {
+            "he": "פסל ניקולאוס קופרניקוס",
+            "en": "Nicolaus Copernicus monument",
+            "pl": "Pomnik Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Denkmal",
+            "cs": "Pomník Mikuláše Koperníka"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-37.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5010.JPG",
+          "sourceSHA256": "9edab323ab9158a7a9831d490d4506072eff6591c5d1679392c841c8a6de2f17",
+          "assetSHA256": "9edab323ab9158a7a9831d490d4506072eff6591c5d1679392c841c8a6de2f17",
+          "alt": {
+            "he": "פסל ניקולאוס קופרניקוס",
+            "en": "Nicolaus Copernicus monument",
+            "pl": "Pomnik Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Denkmal",
+            "cs": "Pomník Mikuláše Koperníka"
+          },
+          "title": {
+            "he": "פסל ניקולאוס קופרניקוס",
+            "en": "Nicolaus Copernicus monument",
+            "pl": "Pomnik Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Denkmal",
+            "cs": "Pomník Mikuláše Koperníka"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/295BE927-9FE2-4F57-A6D8-9CA96887E170.JPG",
+          "sourceSHA256": "8e31e606f35a8fded7c9439751b2e783696fbb16398d6fcf409a1cfd046f692f",
+          "assetSHA256": "8e31e606f35a8fded7c9439751b2e783696fbb16398d6fcf409a1cfd046f692f",
+          "alt": {
+            "he": "פסל ניקולאוס קופרניקוס",
+            "en": "Nicolaus Copernicus monument",
+            "pl": "Pomnik Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Denkmal",
+            "cs": "Pomník Mikuláše Koperníka"
+          },
+          "title": {
+            "he": "פסל ניקולאוס קופרניקוס",
+            "en": "Nicolaus Copernicus monument",
+            "pl": "Pomnik Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Denkmal",
+            "cs": "Pomník Mikuláše Koperníka"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T08",
+            "sourceSHA256": "8e31e606f35a8fded7c9439751b2e783696fbb16398d6fcf409a1cfd046f692f",
+            "approvalCall": "call_4fa0ce2934884cf5814fe19182bd0b1a",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/4F29468B-C907-4C07-821F-B11D5233B661.JPG",
+          "sourceSHA256": "5f6d589ebf7103504598ded4f0134d3df1199bd6416a879674a5a427b541efd3",
+          "assetSHA256": "5f6d589ebf7103504598ded4f0134d3df1199bd6416a879674a5a427b541efd3",
+          "alt": {
+            "he": "פסל ניקולאוס קופרניקוס",
+            "en": "Nicolaus Copernicus monument",
+            "pl": "Pomnik Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Denkmal",
+            "cs": "Pomník Mikuláše Koperníka"
+          },
+          "title": {
+            "he": "פסל ניקולאוס קופרניקוס",
+            "en": "Nicolaus Copernicus monument",
+            "pl": "Pomnik Mikołaja Kopernika",
+            "de": "Nikolaus-Kopernikus-Denkmal",
+            "cs": "Pomník Mikuláše Koperníka"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T13",
+            "sourceSHA256": "5f6d589ebf7103504598ded4f0134d3df1199bd6416a879674a5a427b541efd3",
+            "approvalCall": "call_c00b852569324b1eab7afac97a97067a",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-dragon": {
+    "id": "torun-dragon",
+    "localName": "Smok toruński",
+    "name": {
+      "he": "הדרקון של טורון",
+      "en": "Toruń dragon",
+      "pl": "Smok toruński",
+      "de": "Drache von Toruń",
+      "cs": "Toruňský drak"
+    },
+    "description": {
+      "he": "פסל דרקון קטן לצד רחוב פשדזמצ׳ה. הצילום שלנו מתמקד בדמות המתכת הירקרקה ובפרטים שעל גבה.",
+      "en": "A small dragon sculpture beside Przedzamcze Street. Our photograph focuses on the greenish metal figure and details along its back.",
+      "pl": "Niewielka rzeźba smoka przy Przedzamczu. Zdjęcie skupia się na zielonkawej metalowej postaci i detalach jej grzbietu.",
+      "de": "Kleine Drachenskulptur an der Przedzamcze. Unser Foto zeigt die grünliche Metallfigur und Details auf ihrem Rücken.",
+      "cs": "Malá socha draka u ulice Przedzamcze. Fotografie se zaměřuje na nazelenalou kovovou postavu a detaily na hřbetě."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.010705,
+        "lng": 18.608813
+      },
+      "address": {
+        "street": "Przedzamcze",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Smok toruński"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/dragon-toru%C5%84",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.010705,18.608813",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/dragon-toru%C5%84",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-05.jpg",
+      "photos": [
+        "/assets/torun/source-05.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/24980ABD-F451-454E-AD7F-59446684B4DA.JPG",
+          "sourceSHA256": "c41e2e8a2ba07aa13db358433f67ac8e5e075cdb668739866e960b30c0c720d9",
+          "assetSHA256": "c41e2e8a2ba07aa13db358433f67ac8e5e075cdb668739866e960b30c0c720d9",
+          "alt": {
+            "he": "הדרקון של טורון",
+            "en": "Toruń dragon",
+            "pl": "Smok toruński",
+            "de": "Drache von Toruń",
+            "cs": "Toruňský drak"
+          },
+          "title": {
+            "he": "הדרקון של טורון",
+            "en": "Toruń dragon",
+            "pl": "Smok toruński",
+            "de": "Drache von Toruń",
+            "cs": "Toruňský drak"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-filus": {
+    "id": "torun-filus",
+    "localName": "Pies Filuś",
+    "name": {
+      "he": "הכלב פילוש",
+      "en": "Filuś the dog",
+      "pl": "Pies Filuś",
+      "de": "Hund Filuś",
+      "cs": "Pes Filuś"
+    },
+    "description": {
+      "he": "פסל הכלב מחזיק מגבעת ליד עמוד תאורה, ולצדו נשענת מטרייה. זו עצירה קטנה ומשעשעת לצד כיכר השוק.",
+      "en": "A dog sculpture holds a bowler hat beside a lamp post, with an umbrella leaning nearby. A playful small stop by the market square.",
+      "pl": "Pies trzyma melonik przy latarni, obok której stoi parasol. Niewielki, zabawny przystanek przy Rynku.",
+      "de": "Die Hundeskulptur hält einen Bowlerhut neben einer Laterne mit angelehntem Schirm. Kleiner, heiterer Halt am Markt.",
+      "cs": "Socha psa drží buřinku u lampy s opřeným deštníkem. Drobná hravá zastávka u Rynku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.0111016,
+        "lng": 18.6044575
+      },
+      "address": {
+        "street": "Rynek Staromiejski / Chełmińska",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Pies Filuś"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/figurine-filu%C5%9B",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.0111016,18.6044575",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/figurine-filu%C5%9B",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/5375270820",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-35.jpg",
+      "photos": [
+        "/assets/torun/source-35.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-35.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5008.JPG",
+          "sourceSHA256": "ae56ebcdc107dd0ff8973e65e59caaf66fe197f57b971f3749ba4e940a658826",
+          "assetSHA256": "ae56ebcdc107dd0ff8973e65e59caaf66fe197f57b971f3749ba4e940a658826",
+          "alt": {
+            "he": "הכלב פילוש",
+            "en": "Filuś the dog",
+            "pl": "Pies Filuś",
+            "de": "Hund Filuś",
+            "cs": "Pes Filuś"
+          },
+          "title": {
+            "he": "הכלב פילוש",
+            "en": "Filuś the dog",
+            "pl": "Pies Filuś",
+            "de": "Hund Filuś",
+            "cs": "Pes Filuś"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-gingerbread-baker-sculpture": {
+    "id": "torun-gingerbread-baker-sculpture",
+    "localName": "Toruńska Piernikarka",
+    "name": {
+      "he": "פסל אופת הפיירניק",
+      "en": "Gingerbread baker sculpture",
+      "pl": "Toruńska Piernikarka",
+      "de": "Skulptur der Pfefferkuchenbäckerin",
+      "cs": "Socha toruňské perníkářky"
+    },
+    "description": {
+      "he": "פסל ירקרק של אופה עם סל פיירניק וכלב קטן לצד שמלתה. הוא ניצב במפגש הרחובות מאלֶה גרבארי וקרולוביי ידוויגי.",
+      "en": "A green-patinated baker carries a basket of gingerbread, with a small dog at her skirt. The sculpture stands at the corner of Małe Garbary and Królowej Jadwigi.",
+      "pl": "Zielonkawa Piernikarka niesie kosz pierników, a przy jej sukni stoi piesek. Rzeźba znajduje się na rogu Małych Garbar i Królowej Jadwigi.",
+      "de": "Grün patinierte Bäckerin mit Pfefferkuchenkorb und kleinem Hund am Kleid. Die Skulptur steht an der Ecke Małe Garbary und Królowej Jadwigi.",
+      "cs": "Zeleně patinovaná perníkářka nese koš perníků a u sukně má malého psa. Socha stojí na rohu ulic Małe Garbary a Królowej Jadwigi."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.0112067,
+        "lng": 18.6095168
+      },
+      "address": {
+        "street": "Małe Garbary / Królowej Jadwigi",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Toruńska Piernikarka"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://polskie4poryroku.umk.pl/pliki/18.02.%20Konkurs%20Literacki%20Pomniki%20Mowia%20-%20regulamin.pdf",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.0112067,18.6095168",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://polskie4poryroku.umk.pl/pliki/18.02.%20Konkurs%20Literacki%20Pomniki%20Mowia%20-%20regulamin.pdf",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/5375252579",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-33.jpg",
+      "photos": [
+        "/assets/torun/source-33.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-33.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/F76BE3A5-D7BB-4734-8701-68C8A2E2FEEA.JPG",
+          "sourceSHA256": "b58973a6f5af14605ca8600a232320e01e1742be3de786e0cbe057e71d9b12a0",
+          "assetSHA256": "b58973a6f5af14605ca8600a232320e01e1742be3de786e0cbe057e71d9b12a0",
+          "alt": {
+            "he": "פסל אופת הפיירניק",
+            "en": "Gingerbread baker sculpture",
+            "pl": "Toruńska Piernikarka",
+            "de": "Skulptur der Pfefferkuchenbäckerin",
+            "cs": "Socha toruňské perníkářky"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T33",
+            "approvalCall": "call_b902b8dc9719413f9094562c5ee4cd8a",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+            "sourceSHA256": "b58973a6f5af14605ca8600a232320e01e1742be3de786e0cbe057e71d9b12a0",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository"
+          },
+          "title": {
+            "he": "פסל אופת הפיירניק",
+            "en": "Gingerbread baker sculpture",
+            "pl": "Toruńska Piernikarka",
+            "de": "Skulptur der Pfefferkuchenbäckerin",
+            "cs": "Socha toruňské perníkářky"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-holy-spirit-church": {
+    "id": "torun-holy-spirit-church",
+    "localName": "Kościół Ducha Świętego",
+    "name": {
+      "he": "כנסיית רוח הקודש",
+      "en": "Church of the Holy Spirit",
+      "pl": "Kościół Ducha Świętego",
+      "de": "Heilig-Geist-Kirche",
+      "cs": "Kostel svatého Ducha"
+    },
+    "description": {
+      "he": "החזית הבהירה והמגדל בעל הצריח הירוק סוגרים את הצד המערבי של כיכר השוק. הצילומים מציגים את הכנסייה לצד מבני הכיכר.",
+      "en": "The pale frontage and green-tipped tower frame the western side of the market square. Our photographs show the church among the square’s buildings.",
+      "pl": "Jasna fasada i wieża z zielonym hełmem zamykają zachodnią stronę Rynku. Zdjęcia pokazują kościół wśród zabudowy placu.",
+      "de": "Helle Fassade und grün bekrönter Turm prägen die Westseite des Marktes. Die Fotos zeigen die Kirche zwischen den Gebäuden des Platzes.",
+      "cs": "Světlá fasáda a věž se zelenou špicí uzavírají západní stranu Rynku. Fotografie ukazují kostel mezi budovami náměstí."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.010173,
+        "lng": 18.603183
+      },
+      "address": {
+        "street": "Rynek Staromiejski 14",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Kościół Ducha Świętego"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/church-holy-spirit",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.010173,18.603183",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/church-holy-spirit",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-41.jpg",
+      "photos": [
+        "/assets/torun/source-41.jpg",
+        "/assets/torun/source-44.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-41.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5014.JPG",
+          "sourceSHA256": "e9ec4aeac23ea8ce2693195ba904d0030e87d8fd9ec4db51ba46485f39971d23",
+          "assetSHA256": "e9ec4aeac23ea8ce2693195ba904d0030e87d8fd9ec4db51ba46485f39971d23",
+          "alt": {
+            "he": "כנסיית רוח הקודש",
+            "en": "Church of the Holy Spirit",
+            "pl": "Kościół Ducha Świętego",
+            "de": "Heilig-Geist-Kirche",
+            "cs": "Kostel svatého Ducha"
+          },
+          "title": {
+            "he": "כנסיית רוח הקודש",
+            "en": "Church of the Holy Spirit",
+            "pl": "Kościół Ducha Świętego",
+            "de": "Heilig-Geist-Kirche",
+            "cs": "Kostel svatého Ducha"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-44.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5017.JPG",
+          "sourceSHA256": "5637f7eb08288ec44102081b4d0ed65cda53227d1b01104e0a1bb29a833d56b0",
+          "assetSHA256": "5637f7eb08288ec44102081b4d0ed65cda53227d1b01104e0a1bb29a833d56b0",
+          "alt": {
+            "he": "כנסיית רוח הקודש",
+            "en": "Church of the Holy Spirit",
+            "pl": "Kościół Ducha Świętego",
+            "de": "Heilig-Geist-Kirche",
+            "cs": "Kostel svatého Ducha"
+          },
+          "title": {
+            "he": "כנסיית רוח הקודש",
+            "en": "Church of the Holy Spirit",
+            "pl": "Kościół Ducha Świętego",
+            "de": "Heilig-Geist-Kirche",
+            "cs": "Kostel svatého Ducha"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T44",
+            "sourceSHA256": "5637f7eb08288ec44102081b4d0ed65cda53227d1b01104e0a1bb29a833d56b0",
+            "approvalCall": "call_995743a79eae40d397404d4ff8849898",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-hotel-spichrz": {
+    "id": "torun-hotel-spichrz",
+    "localName": "Hotel Spichrz w zabytkowym spichlerzu",
+    "name": {
+      "he": "חזית מלון שפיחש׳ באסם ההיסטורי",
+      "en": "Hotel Spichrz in a historic granary",
+      "pl": "Hotel Spichrz w zabytkowym spichlerzu",
+      "de": "Hotel Spichrz im historischen Speicher",
+      "cs": "Hotel Spichrz v historické sýpce"
+    },
+    "description": {
+      "he": "חזית האסם המשוקם סמוך לשער הגשר. תמונות הביקור מציגות את דלתות העץ הירוקות, החלונות הקטנים ושלט המלון.",
+      "en": "A restored granary frontage near Bridge Gate. Our visit photographs show green wooden doors, small windows and the hotel sign.",
+      "pl": "Elewacja odnowionego spichlerza przy Bramie Mostowej. Zdjęcia pokazują zielone drewniane drzwi, niewielkie okna i szyld hotelu.",
+      "de": "Restaurierte Speicherfassade nahe dem Brückentor. Die Besuchsfotos zeigen grüne Holztüren, kleine Fenster und das Hotelschild.",
+      "cs": "Průčelí obnovené sýpky u Mostní brány. Fotografie ukazují zelené dřevěné dveře, malá okna a označení hotelu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.008731,
+        "lng": 18.608536
+      },
+      "address": {
+        "street": "Mostowa 1",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "hotel"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Hotel Spichrz w zabytkowym spichlerzu"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "hotel"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/hotel-spichrz",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.008731,18.608536",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/hotel-spichrz",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "sourcePOIName": "Hotel Spichrz ***",
+        "precisionNote": "Named Hotel Spichrz municipal tourism POI at Mostowa1; representative property point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-14.jpg",
+      "photos": [
+        "/assets/torun/source-14.jpg",
+        "/assets/torun/source-09.jpg",
+        "/assets/torun/source-20.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/550A5C13-E031-4365-ACB9-FC407AAF52EC.JPG",
+          "sourceSHA256": "2c467589ac818a31d01dc86bf3f4f8d7b5573956c2def60482601d355e1613c6",
+          "assetSHA256": "2c467589ac818a31d01dc86bf3f4f8d7b5573956c2def60482601d355e1613c6",
+          "alt": {
+            "he": "חזית מלון שפיחש׳ באסם ההיסטורי",
+            "en": "Hotel Spichrz in a historic granary",
+            "pl": "Hotel Spichrz w zabytkowym spichlerzu",
+            "de": "Hotel Spichrz im historischen Speicher",
+            "cs": "Hotel Spichrz v historické sýpce"
+          },
+          "title": {
+            "he": "חזית מלון שפיחש׳ באסם ההיסטורי",
+            "en": "Hotel Spichrz in a historic granary",
+            "pl": "Hotel Spichrz w zabytkowym spichlerzu",
+            "de": "Hotel Spichrz im historischen Speicher",
+            "cs": "Hotel Spichrz v historické sýpce"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/429F47B9-2A85-4FA6-A7DA-7C22596C113E.JPG",
+          "sourceSHA256": "fcabc06b0a3261583214c78ae8298ae92e663ec2067d860a7a4d4a804590cb5e",
+          "assetSHA256": "fcabc06b0a3261583214c78ae8298ae92e663ec2067d860a7a4d4a804590cb5e",
+          "alt": {
+            "he": "חזית מלון שפיחש׳ באסם ההיסטורי",
+            "en": "Hotel Spichrz in a historic granary",
+            "pl": "Hotel Spichrz w zabytkowym spichlerzu",
+            "de": "Hotel Spichrz im historischen Speicher",
+            "cs": "Hotel Spichrz v historické sýpce"
+          },
+          "title": {
+            "he": "חזית מלון שפיחש׳ באסם ההיסטורי",
+            "en": "Hotel Spichrz in a historic granary",
+            "pl": "Hotel Spichrz w zabytkowym spichlerzu",
+            "de": "Hotel Spichrz im historischen Speicher",
+            "cs": "Hotel Spichrz v historické sýpce"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T09",
+            "sourceSHA256": "fcabc06b0a3261583214c78ae8298ae92e663ec2067d860a7a4d4a804590cb5e",
+            "approvalCall": "call_4fa0ce2934884cf5814fe19182bd0b1a",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-20.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/8EA5E4F2-BD31-40CE-B331-22B4AC55F156.JPG",
+          "sourceSHA256": "ce7e64f9de257600a167360ebc633fa76f6dfae21dae06404bbc5e8b95268b12",
+          "assetSHA256": "ce7e64f9de257600a167360ebc633fa76f6dfae21dae06404bbc5e8b95268b12",
+          "alt": {
+            "he": "חזית מלון שפיחש׳ באסם ההיסטורי",
+            "en": "Hotel Spichrz in a historic granary",
+            "pl": "Hotel Spichrz w zabytkowym spichlerzu",
+            "de": "Hotel Spichrz im historischen Speicher",
+            "cs": "Hotel Spichrz v historické sýpce"
+          },
+          "title": {
+            "he": "חזית מלון שפיחש׳ באסם ההיסטורי",
+            "en": "Hotel Spichrz in a historic granary",
+            "pl": "Hotel Spichrz w zabytkowym spichlerzu",
+            "de": "Hotel Spichrz im historischen Speicher",
+            "cs": "Hotel Spichrz v historické sýpce"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T20",
+            "sourceSHA256": "ce7e64f9de257600a167360ebc633fa76f6dfae21dae06404bbc5e8b95268b12",
+            "approvalCall": "call_1188b00bc9034116b0d360b2c0075639",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-house-under-star": {
+    "id": "torun-house-under-star",
+    "localName": "Kamienica pod Gwiazdą",
+    "name": {
+      "he": "הבית תחת הכוכב",
+      "en": "House Under the Star",
+      "pl": "Kamienica pod Gwiazdą",
+      "de": "Haus zum Stern",
+      "cs": "Dům pod Hvězdou"
+    },
+    "description": {
+      "he": "חזית בארוקית מעוטרת בכיכר השוק, עם עיטורי צמחים סביב החלונות. הצילום שלנו מציג את הבית הצהוב ואת הסמטה שלצדו.",
+      "en": "An ornate Baroque frontage on the market square, with plant motifs around the windows. Our photograph shows the yellow house and neighbouring lane.",
+      "pl": "Barokowa kamienica przy Rynku z roślinnymi zdobieniami wokół okien. Nasze zdjęcie pokazuje żółtą fasadę i sąsiednią uliczkę.",
+      "de": "Verzierte Barockfassade am Markt mit Pflanzenmotiven an den Fenstern. Unser Foto zeigt das gelbe Haus und die benachbarte Gasse.",
+      "cs": "Zdobené barokní průčelí na Rynku s rostlinnými motivy kolem oken. Fotografie ukazuje žlutý dům a sousední uličku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.01067238,
+        "lng": 18.6051895
+      },
+      "address": {
+        "street": "Rynek Staromiejski 35",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Kamienica pod Gwiazdą"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/museum-asian-arts",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.01067238,18.6051895",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/museum-asian-arts",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/100118087",
+        "precisionNote": "Representative mean of the named OpenStreetMap building footprint vertices, cross-checked with the official destination address; not an entrance survey or photo GPS"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-36.jpg",
+      "photos": [
+        "/assets/torun/source-36.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-36.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5009.JPG",
+          "sourceSHA256": "35211dda3c0f7ba3360bf909b7d03259dd20a3b5f675cc2ea9b0ee8a23dc880d",
+          "assetSHA256": "35211dda3c0f7ba3360bf909b7d03259dd20a3b5f675cc2ea9b0ee8a23dc880d",
+          "alt": {
+            "he": "הבית תחת הכוכב",
+            "en": "House Under the Star",
+            "pl": "Kamienica pod Gwiazdą",
+            "de": "Haus zum Stern",
+            "cs": "Dům pod Hvězdou"
+          },
+          "title": {
+            "he": "הבית תחת הכוכב",
+            "en": "House Under the Star",
+            "pl": "Kamienica pod Gwiazdą",
+            "de": "Haus zum Stern",
+            "cs": "Dům pod Hvězdou"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T36",
+            "sourceSHA256": "35211dda3c0f7ba3360bf909b7d03259dd20a3b5f675cc2ea9b0ee8a23dc880d",
+            "approvalCall": "call_995743a79eae40d397404d4ff8849898",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-leaning-tower": {
+    "id": "torun-leaning-tower",
+    "localName": "Krzywa Wieża w Toruniu",
+    "name": {
+      "he": "המגדל הנטוי של טורון",
+      "en": "Toruń Leaning Tower",
+      "pl": "Krzywa Wieża w Toruniu",
+      "de": "Schiefer Turm von Toruń",
+      "cs": "Šikmá věž v Toruni"
+    },
+    "description": {
+      "he": "מגדל לבנים נטוי במערכת הביצורים של העיר העתיקה. שני הצילומים השונים מהביקור שלנו מציגים את חזיתו ואת גרם המדרגות החיצוני.",
+      "en": "A leaning brick tower in the Old Town’s fortifications. Two distinct photographs from our visit show its frontage and exterior staircase.",
+      "pl": "Pochylona ceglana wieża w dawnych fortyfikacjach miasta. Dwa różne zdjęcia z naszej wizyty pokazują elewację i zewnętrzne schody.",
+      "de": "Geneigter Backsteinturm der Altstadtbefestigung. Zwei verschiedene Besuchsfotos zeigen Fassade und Außentreppe.",
+      "cs": "Nakloněná cihlová věž v opevnění starého města. Dva různé snímky z naší návštěvy zachycují průčelí a venkovní schody."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.008413,
+        "lng": 18.60203
+      },
+      "address": {
+        "street": "Pod Krzywą Wieżą 1",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Krzywa Wieża w Toruniu"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/leaning-tower",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.008413,18.60203",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/leaning-tower",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-52.jpg",
+      "photos": [
+        "/assets/torun/source-52.jpg",
+        "/assets/torun/source-53.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-52.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5025.JPG",
+          "sourceSHA256": "690b30b45e1b8818fb9a8e21d2122c8704f71d6c6e0f9d152c551704505f37f9",
+          "assetSHA256": "690b30b45e1b8818fb9a8e21d2122c8704f71d6c6e0f9d152c551704505f37f9",
+          "alt": {
+            "he": "המגדל הנטוי של טורון",
+            "en": "Toruń Leaning Tower",
+            "pl": "Krzywa Wieża w Toruniu",
+            "de": "Schiefer Turm von Toruń",
+            "cs": "Šikmá věž v Toruni"
+          },
+          "title": {
+            "he": "המגדל הנטוי של טורון",
+            "en": "Toruń Leaning Tower",
+            "pl": "Krzywa Wieża w Toruniu",
+            "de": "Schiefer Turm von Toruń",
+            "cs": "Šikmá věž v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T52",
+            "sourceSHA256": "690b30b45e1b8818fb9a8e21d2122c8704f71d6c6e0f9d152c551704505f37f9",
+            "approvalCall": "call_b85616a5a4ce424c8bbc7f13faca8303",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-53.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5026.JPG",
+          "sourceSHA256": "bf1f574ee78d82c4c0f160560127fceafdc4463b2545651c03ad0c5c2bc34a67",
+          "assetSHA256": "bf1f574ee78d82c4c0f160560127fceafdc4463b2545651c03ad0c5c2bc34a67",
+          "alt": {
+            "he": "המגדל הנטוי של טורון",
+            "en": "Toruń Leaning Tower",
+            "pl": "Krzywa Wieża w Toruniu",
+            "de": "Schiefer Turm von Toruń",
+            "cs": "Šikmá věž v Toruni"
+          },
+          "title": {
+            "he": "המגדל הנטוי של טורון",
+            "en": "Toruń Leaning Tower",
+            "pl": "Krzywa Wieża w Toruniu",
+            "de": "Schiefer Turm von Toruń",
+            "cs": "Šikmá věž v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T53",
+            "sourceSHA256": "bf1f574ee78d82c4c0f160560127fceafdc4463b2545651c03ad0c5c2bc34a67",
+            "approvalCall": "call_b85616a5a4ce424c8bbc7f13faca8303",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-monastery-gate": {
+    "id": "torun-monastery-gate",
+    "localName": "Brama Klasztorna",
+    "name": {
+      "he": "שער המנזר",
+      "en": "Monastery Gate",
+      "pl": "Brama Klasztorna",
+      "de": "Klostertor",
+      "cs": "Klášterní brána"
+    },
+    "description": {
+      "he": "שער לבנים רחב המחבר בין רחוב רוח הקודש לאזור הנהר. בצילום נראים הקשת המחודדת ופס העיטורים הבהירים שבחזית.",
+      "en": "A broad brick gate between Holy Spirit Street and the riverside. Our photograph shows the pointed arch and pale decorative band across its frontage.",
+      "pl": "Szeroka ceglana brama między ulicą Ducha Świętego a nabrzeżem. Na zdjęciu widać ostrołuk i jasny pas dekoracyjny.",
+      "de": "Breites Backsteintor zwischen Heilig-Geist-Straße und Flussufer. Das Foto zeigt Spitzbogen und helles Zierband.",
+      "cs": "Široká cihlová brána mezi ulicí Ducha svatého a nábřežím. Na snímku je lomený oblouk a světlý ozdobný pás."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.008443,
+        "lng": 18.603454
+      },
+      "address": {
+        "street": "Ducha Świętego",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Brama Klasztorna"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/monastery-gate",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.008443,18.603454",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/monastery-gate",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-16.jpg",
+      "photos": [
+        "/assets/torun/source-16.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-16.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/7C092F39-EC46-40B3-B549-E3B9DB4CAE06.JPG",
+          "sourceSHA256": "ab161751c8c98353608ba12b81fa78a798036a1e99431df120a751cdd9d6b4e2",
+          "assetSHA256": "ab161751c8c98353608ba12b81fa78a798036a1e99431df120a751cdd9d6b4e2",
+          "alt": {
+            "he": "שער המנזר",
+            "en": "Monastery Gate",
+            "pl": "Brama Klasztorna",
+            "de": "Klostertor",
+            "cs": "Klášterní brána"
+          },
+          "title": {
+            "he": "שער המנזר",
+            "en": "Monastery Gate",
+            "pl": "Brama Klasztorna",
+            "de": "Klostertor",
+            "cs": "Klášterní brána"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T16",
+            "sourceSHA256": "ab161751c8c98353608ba12b81fa78a798036a1e99431df120a751cdd9d6b4e2",
+            "approvalCall": "call_1ef5b48c6ea541cab7fee3b205db74ce",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-old-town-hall": {
+    "id": "torun-old-town-hall",
+    "localName": "Ratusz Staromiejski w Toruniu",
+    "name": {
+      "he": "בית העירייה העתיק בטורון",
+      "en": "Toruń Old Town Hall",
+      "pl": "Ratusz Staromiejski w Toruniu",
+      "de": "Altstädtisches Rathaus in Toruń",
+      "cs": "Staroměstská radnice v Toruni"
+    },
+    "description": {
+      "he": "בית העירייה הגותי ניצב במרכז כיכר השוק העתיקה. גלריית הביקור שלנו מציגה את המגדל, החזיתות וחצר האבן הפנימית.",
+      "en": "The Gothic town hall stands in the middle of the Old Town Market Square. Our visit gallery shows its tower, brick frontages and paved courtyard.",
+      "pl": "Gotycki ratusz stoi pośrodku Rynku Staromiejskiego. Galeria z naszej wizyty pokazuje wieżę, ceglane elewacje i brukowany dziedziniec.",
+      "de": "Das gotische Rathaus steht mitten auf dem Altstadtmarkt. Unsere Besuchsgalerie zeigt Turm, Backsteinfassaden und gepflasterten Innenhof.",
+      "cs": "Gotická radnice stojí uprostřed Staroměstského rynku. Galerie z naší návštěvy zachycuje věž, cihlové fasády a dlážděné nádvoří."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.010532,
+        "lng": 18.60432
+      },
+      "address": {
+        "street": "Rynek Staromiejski 1",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Ratusz Staromiejski w Toruniu"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://muzeum.torun.pl/en/old-town-hall/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.010532,18.60432",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://muzeum.torun.pl/en/old-town-hall/",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-30.jpg",
+      "photos": [
+        "/assets/torun/source-30.jpg",
+        "/assets/torun/source-01.jpg",
+        "/assets/torun/source-03.jpg",
+        "/assets/torun/source-19.jpg",
+        "/assets/torun/source-23.jpg",
+        "/assets/torun/source-34.jpg",
+        "/assets/torun/source-42.jpg",
+        "/assets/torun/source-43.jpg",
+        "/assets/torun/source-63.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-30.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/CFE5A1BF-70F4-45F1-B6CE-51850789C96E.JPG",
+          "sourceSHA256": "1d8ec90bc1e6a27f8e448bcb11c7c2dc1093be07b434246d5bb4269170336abd",
+          "assetSHA256": "1d8ec90bc1e6a27f8e448bcb11c7c2dc1093be07b434246d5bb4269170336abd",
+          "alt": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/0F3FF9E8-6E9C-41DC-96DA-6015DCF8CCDD.JPG",
+          "sourceSHA256": "e85ef9997bf3ca446c44b694b894522bd0d1d67da14b0d6739c9ccffac8497b1",
+          "assetSHA256": "e85ef9997bf3ca446c44b694b894522bd0d1d67da14b0d6739c9ccffac8497b1",
+          "alt": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T01",
+            "sourceSHA256": "e85ef9997bf3ca446c44b694b894522bd0d1d67da14b0d6739c9ccffac8497b1",
+            "approvalCall": "call_d2d92cd6fa884068a358a4d304656efa",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/17F4FEF3-B2A9-4BF4-9876-3997CD7C27A2.JPG",
+          "sourceSHA256": "a3ff6b48a73790a583e0218c8335e4ddf3a7f6cc7398af7ba75fdae57e14bb0d",
+          "assetSHA256": "a3ff6b48a73790a583e0218c8335e4ddf3a7f6cc7398af7ba75fdae57e14bb0d",
+          "alt": {
+            "he": "בית העירייה בטורון ופסל החמור בחזית",
+            "en": "Toruń Town Hall with the donkey sculpture in the foreground",
+            "pl": "Toruński Ratusz z rzeźbą osiołka na pierwszym planie",
+            "de": "Rathaus von Toruń mit Eselskulptur im Vordergrund",
+            "cs": "Toruňská radnice se sochou oslíka v popředí"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/8AD4BA7D-2589-45E5-9BF3-0A7D3667E9B8.JPG",
+          "sourceSHA256": "f484112b590a8c12681ffc2b24d50fb3a13ec57a9048cca2b6507f23ca9d5753",
+          "assetSHA256": "f484112b590a8c12681ffc2b24d50fb3a13ec57a9048cca2b6507f23ca9d5753",
+          "alt": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T19",
+            "sourceSHA256": "f484112b590a8c12681ffc2b24d50fb3a13ec57a9048cca2b6507f23ca9d5753",
+            "approvalCall": "call_1188b00bc9034116b0d360b2c0075639",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-23.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/A2370573-58FB-4894-84AF-1DA28E3E0519.JPG",
+          "sourceSHA256": "2a69c06ebc60e63124062f1f1a03722c1f7b9e7322b1aac72982ce307b824ac4",
+          "assetSHA256": "2a69c06ebc60e63124062f1f1a03722c1f7b9e7322b1aac72982ce307b824ac4",
+          "alt": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T23",
+            "sourceSHA256": "2a69c06ebc60e63124062f1f1a03722c1f7b9e7322b1aac72982ce307b824ac4",
+            "approvalCall": "call_91197b35e3ea4300ba130a63e22114b6",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-34.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5007.JPG",
+          "sourceSHA256": "99c2e8c5f74fe5f494aa0d44292e1107b12f410b53b7cdbdc0d1695ac537a8ca",
+          "assetSHA256": "99c2e8c5f74fe5f494aa0d44292e1107b12f410b53b7cdbdc0d1695ac537a8ca",
+          "alt": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T34",
+            "sourceSHA256": "99c2e8c5f74fe5f494aa0d44292e1107b12f410b53b7cdbdc0d1695ac537a8ca",
+            "approvalCall": "call_b902b8dc9719413f9094562c5ee4cd8a",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-42.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5015.JPG",
+          "sourceSHA256": "043746a8962898bd3da1dcc0a09f62d083f634623901d749e61e5b34cf86f468",
+          "assetSHA256": "043746a8962898bd3da1dcc0a09f62d083f634623901d749e61e5b34cf86f468",
+          "alt": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-43.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5016.JPG",
+          "sourceSHA256": "10c4536be737c49df081935069069992d195fa5040fae3f220af8f11c44b9904",
+          "assetSHA256": "10c4536be737c49df081935069069992d195fa5040fae3f220af8f11c44b9904",
+          "alt": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-63.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5036.JPG",
+          "sourceSHA256": "4af4adbd3e2cfe9ce4ffccc8a083512f5eb05150e9d352667292b57c2e8cd0f6",
+          "assetSHA256": "4af4adbd3e2cfe9ce4ffccc8a083512f5eb05150e9d352667292b57c2e8cd0f6",
+          "alt": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "title": {
+            "he": "בית העירייה העתיק בטורון",
+            "en": "Toruń Old Town Hall",
+            "pl": "Ratusz Staromiejski w Toruniu",
+            "de": "Altstädtisches Rathaus in Toruń",
+            "cs": "Staroměstská radnice v Toruni"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-rafter-fountain": {
+    "id": "torun-rafter-fountain",
+    "localName": "Fontanna Flisaka",
+    "name": {
+      "he": "מזרקת הכנר והצפרדעים",
+      "en": "Rafter and frogs fountain",
+      "pl": "Fontanna Flisaka",
+      "de": "Flößerbrunnen mit Fröschen",
+      "cs": "Fontána voraře a žab"
+    },
+    "description": {
+      "he": "דמות כנר במזרקה בכיכר השוק, עם חצר ארטוס מאחוריו. הצילום מתעד את הפסל ואת הרחבה סביבו.",
+      "en": "A fiddler stands in the market-square fountain, with Artus Court behind him. Our photograph shows the sculpture and surrounding square.",
+      "pl": "Postać skrzypka stoi w fontannie na Rynku, z Dworem Artusa w tle. Zdjęcie pokazuje rzeźbę i otaczający plac.",
+      "de": "Geigerfigur im Brunnen am Markt mit dem Artushof dahinter. Das Foto zeigt Skulptur und Platz.",
+      "cs": "Postava houslisty stojí ve fontáně na Rynku s Artušovým dvorem v pozadí. Snímek zachycuje sochu a náměstí."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.010256,
+        "lng": 18.603958
+      },
+      "address": {
+        "street": "Rynek Staromiejski",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Fontanna Flisaka"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/rafter-and-frogs-0",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.010256,18.603958",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/rafter-and-frogs-0",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-12.jpg",
+      "photos": [
+        "/assets/torun/source-12.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/4EB29781-A98A-403D-B1CD-E9256550D2A6.JPG",
+          "sourceSHA256": "ec2523c8b7d2122f433f777bcc9a1cdf1a834f7da623b56c1b0d9fb8ad4bfa22",
+          "assetSHA256": "ec2523c8b7d2122f433f777bcc9a1cdf1a834f7da623b56c1b0d9fb8ad4bfa22",
+          "alt": {
+            "he": "מזרקת הכנר והצפרדעים",
+            "en": "Rafter and frogs fountain",
+            "pl": "Fontanna Flisaka",
+            "de": "Flößerbrunnen mit Fröschen",
+            "cs": "Fontána voraře a žab"
+          },
+          "title": {
+            "he": "מזרקת הכנר והצפרדעים",
+            "en": "Rafter and frogs fountain",
+            "pl": "Fontanna Flisaka",
+            "de": "Flößerbrunnen mit Fröschen",
+            "cs": "Fontána voraře a žab"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T12",
+            "sourceSHA256": "ec2523c8b7d2122f433f777bcc9a1cdf1a834f7da623b56c1b0d9fb8ad4bfa22",
+            "approvalCall": "call_c00b852569324b1eab7afac97a97067a",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-sailors-gate": {
+    "id": "torun-sailors-gate",
+    "localName": "Brama Żeglarska",
+    "name": {
+      "he": "שער המלחים",
+      "en": "Sailors’ Gate",
+      "pl": "Brama Żeglarska",
+      "de": "Seglertor",
+      "cs": "Námořnická brána"
+    },
+    "description": {
+      "he": "שער היסטורי בקצה רחוב ז׳גלרסקה לכיוון הוויסלה. שני הצילומים מציגים את מעבר הלבנים ואת המבט דרכו אל אזור הנהר.",
+      "en": "A historic gate at the Vistula end of Żeglarska Street. Two photographs show its brick passage and the view through to the riverside.",
+      "pl": "Historyczna brama na końcu ulicy Żeglarskiej nad Wisłą. Dwa zdjęcia pokazują ceglany przejazd i widok ku nabrzeżu.",
+      "de": "Historisches Tor am Weichselende der Żeglarska. Zwei Fotos zeigen die Backsteindurchfahrt und den Blick zum Ufer.",
+      "cs": "Historická brána na konci ulice Żeglarska u Visly. Dva snímky ukazují cihlový průjezd a pohled k nábřeží."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.008269725,
+        "lng": 18.606182861
+      },
+      "address": {
+        "street": "Żeglarska",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Brama Żeglarska"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/sailor%E2%80%99s-gate",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.008269725,18.606182861",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/sailor%E2%80%99s-gate",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/223325724",
+        "precisionNote": "Representative mean of the named OpenStreetMap building footprint vertices, cross-checked with the official destination address; not an entrance survey or photo GPS"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-60.jpg",
+      "photos": [
+        "/assets/torun/source-60.jpg",
+        "/assets/torun/source-61.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-60.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5033.JPG",
+          "sourceSHA256": "a1288a792e3258ec09bbc3ad88985661b15fc339f3a56808dc392f556bad9a1f",
+          "assetSHA256": "a1288a792e3258ec09bbc3ad88985661b15fc339f3a56808dc392f556bad9a1f",
+          "alt": {
+            "he": "שער המלחים",
+            "en": "Sailors’ Gate",
+            "pl": "Brama Żeglarska",
+            "de": "Seglertor",
+            "cs": "Námořnická brána"
+          },
+          "title": {
+            "he": "שער המלחים",
+            "en": "Sailors’ Gate",
+            "pl": "Brama Żeglarska",
+            "de": "Seglertor",
+            "cs": "Námořnická brána"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T60",
+            "sourceSHA256": "a1288a792e3258ec09bbc3ad88985661b15fc339f3a56808dc392f556bad9a1f",
+            "approvalCall": "call_977ccba36d9d433e90667303ee6ae318",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-61.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5034.JPG",
+          "sourceSHA256": "91462f04accff24956c64b446340bdd78bf1adb8b11e78a041efb544cd4c588c",
+          "assetSHA256": "91462f04accff24956c64b446340bdd78bf1adb8b11e78a041efb544cd4c588c",
+          "alt": {
+            "he": "שער המלחים",
+            "en": "Sailors’ Gate",
+            "pl": "Brama Żeglarska",
+            "de": "Seglertor",
+            "cs": "Námořnická brána"
+          },
+          "title": {
+            "he": "שער המלחים",
+            "en": "Sailors’ Gate",
+            "pl": "Brama Żeglarska",
+            "de": "Seglertor",
+            "cs": "Námořnická brána"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T61",
+            "sourceSHA256": "91462f04accff24956c64b446340bdd78bf1adb8b11e78a041efb544cd4c588c",
+            "approvalCall": "call_977ccba36d9d433e90667303ee6ae318",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-saints-johns-cathedral": {
+    "id": "torun-saints-johns-cathedral",
+    "localName": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+    "name": {
+      "he": "קתדרלת שני יוחנן הקדושים",
+      "en": "Cathedral of St John the Baptist and St John the Evangelist",
+      "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+      "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+      "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+    },
+    "description": {
+      "he": "קתדרלה גותית הקשורה לסיפורו של קופרניקוס. גלריית הביקור מציגה את חלל הכנסייה, המזבחות ופסל הפרוטומה שלו לצד לוח הזיכרון.",
+      "en": "A Gothic cathedral linked to the story of Copernicus. Our visit gallery shows its interior, altars and his bust beside the memorial plaque.",
+      "pl": "Gotycka katedra związana z historią Kopernika. Galeria z wizyty pokazuje wnętrze, ołtarze i popiersie astronoma obok tablicy pamiątkowej.",
+      "de": "Gotische Kathedrale mit Bezug zur Geschichte des Kopernikus. Unsere Galerie zeigt Innenraum, Altäre und seine Büste an der Gedenktafel.",
+      "cs": "Gotická katedrála spojená s Koperníkovým příběhem. Galerie ukazuje interiér, oltáře a jeho bustu u pamětní desky."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.009385,
+        "lng": 18.606259
+      },
+      "address": {
+        "street": "Żeglarska 16",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Katedra śś. Jana Chrzciciela i Jana Ewangelisty"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/saint-johns%E2%80%99-cathedral",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.009385,18.606259",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/saint-johns%E2%80%99-cathedral",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-57.jpg",
+      "photos": [
+        "/assets/torun/source-57.jpg",
+        "/assets/torun/source-11.jpg",
+        "/assets/torun/source-27.jpg",
+        "/assets/torun/source-54.jpg",
+        "/assets/torun/source-59.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-57.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5030.JPG",
+          "sourceSHA256": "891a44e37d9303cf4b6c2d1191fac70a010bcaa77f17ae8181b222fe67484184",
+          "assetSHA256": "891a44e37d9303cf4b6c2d1191fac70a010bcaa77f17ae8181b222fe67484184",
+          "alt": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "title": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-11.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/49B17AEB-2427-4F4A-BA5C-6C41EC0153E6.JPG",
+          "sourceSHA256": "f0f80536dc8ebc9149088cb94b6ca0d1fc57d51eefe239df2072de5d34cdabc5",
+          "assetSHA256": "f0f80536dc8ebc9149088cb94b6ca0d1fc57d51eefe239df2072de5d34cdabc5",
+          "alt": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "title": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-27.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/C04D8D08-2B78-425A-A748-1E4A2C5D42CA.JPG",
+          "sourceSHA256": "c5a775366aaec8044b8550919339e567caaa3424cb76fc589a99e58703cfdfbe",
+          "assetSHA256": "c5a775366aaec8044b8550919339e567caaa3424cb76fc589a99e58703cfdfbe",
+          "alt": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "title": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T27",
+            "sourceSHA256": "c5a775366aaec8044b8550919339e567caaa3424cb76fc589a99e58703cfdfbe",
+            "approvalCall": "call_3c59bc53bdb94bb1a3b8e9e846d46faf",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-54.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5027.JPG",
+          "sourceSHA256": "d15a86f1d3a70f1ee4e4cb50eef67759e839e238919bd1227371a464eab90d2f",
+          "assetSHA256": "d15a86f1d3a70f1ee4e4cb50eef67759e839e238919bd1227371a464eab90d2f",
+          "alt": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "title": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T54",
+            "sourceSHA256": "d15a86f1d3a70f1ee4e4cb50eef67759e839e238919bd1227371a464eab90d2f",
+            "approvalCall": "call_b85616a5a4ce424c8bbc7f13faca8303",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-59.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5032.JPG",
+          "sourceSHA256": "e87da98895cf1d84c1f16a351aa3cc915db079af1a0d5d860ffaa909caab86e0",
+          "assetSHA256": "e87da98895cf1d84c1f16a351aa3cc915db079af1a0d5d860ffaa909caab86e0",
+          "alt": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "title": {
+            "he": "קתדרלת שני יוחנן הקדושים",
+            "en": "Cathedral of St John the Baptist and St John the Evangelist",
+            "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+            "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+            "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-st-marys-church": {
+    "id": "torun-st-marys-church",
+    "localName": "Kościół Mariacki",
+    "name": {
+      "he": "כנסיית מריה הקדושה",
+      "en": "St Mary’s Church",
+      "pl": "Kościół Mariacki",
+      "de": "Marienkirche",
+      "cs": "Mariánský kostel"
+    },
+    "description": {
+      "he": "כנסייה גותית בעלת חזית לבנים גבוהה וקמרונות מצוירים. גלריית הביקור מציגה את קיר החוץ, המזבח ואת החלונות הצבעוניים.",
+      "en": "A Gothic church with tall brick walls and painted vaulting. Our visit gallery shows the exterior, altar and stained-glass windows.",
+      "pl": "Gotycki kościół z wysokimi ceglanymi ścianami i malowanymi sklepieniami. Galeria z wizyty pokazuje elewację, ołtarz i witraże.",
+      "de": "Gotische Kirche mit hohen Backsteinwänden und bemalten Gewölben. Unsere Galerie zeigt Außenwand, Altar und Glasfenster.",
+      "cs": "Gotický kostel s vysokými cihlovými zdmi a malovanými klenbami. Galerie ukazuje exteriér, oltář a vitrážová okna."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.011028,
+        "lng": 18.602442
+      },
+      "address": {
+        "street": "Panny Marii 2",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Kościół Mariacki"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/saint-mary%E2%80%99s-church",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.011028,18.602442",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/saint-mary%E2%80%99s-church",
+          "checkedAt": "2026-10-28"
+        },
+        {
+          "url": "https://torun.pl/pl/print/pdf/node/39594",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/torun/source-45.jpg",
+      "photos": [
+        "/assets/torun/source-45.jpg",
+        "/assets/torun/source-46.jpg",
+        "/assets/torun/source-47.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/torun/source-45.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5018.JPG",
+          "sourceSHA256": "c5ea398a236fc15873744d17a742bd9c22c9e0c25292944154608c2c8e895582",
+          "assetSHA256": "c5ea398a236fc15873744d17a742bd9c22c9e0c25292944154608c2c8e895582",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כנסיית מריה הקדושה",
+            "en": "St Mary’s Church",
+            "pl": "Kościół Mariacki",
+            "de": "Marienkirche",
+            "cs": "Mariánský kostel"
+          },
+          "title": {
+            "he": "כנסיית מריה הקדושה",
+            "en": "St Mary’s Church",
+            "pl": "Kościół Mariacki",
+            "de": "Marienkirche",
+            "cs": "Mariánský kostel"
+          },
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "specificPersonalApproval": {
+            "approvalId": "T45",
+            "approvalCall": "call_995743a79eae40d397404d4ff8849898",
+            "sourceSHA256": "c5ea398a236fc15873744d17a742bd9c22c9e0c25292944154608c2c8e895582",
+            "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+            "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+          }
+        },
+        "/assets/torun/source-46.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5019.JPG",
+          "sourceSHA256": "ad04fc5881cc0874e09931d6e62dffdaced567b3415ba24f3db227c62cba02cc",
+          "assetSHA256": "ad04fc5881cc0874e09931d6e62dffdaced567b3415ba24f3db227c62cba02cc",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כנסיית מריה הקדושה",
+            "en": "St Mary’s Church",
+            "pl": "Kościół Mariacki",
+            "de": "Marienkirche",
+            "cs": "Mariánský kostel"
+          },
+          "title": {
+            "he": "כנסיית מריה הקדושה",
+            "en": "St Mary’s Church",
+            "pl": "Kościół Mariacki",
+            "de": "Marienkirche",
+            "cs": "Mariánský kostel"
+          },
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        },
+        "/assets/torun/source-47.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5020.JPG",
+          "sourceSHA256": "35618896f3d0da74ee89a9fec7dc64e559d79c21dc85806091c7b0fe2e608a93",
+          "assetSHA256": "35618896f3d0da74ee89a9fec7dc64e559d79c21dc85806091c7b0fe2e608a93",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "כנסיית מריה הקדושה",
+            "en": "St Mary’s Church",
+            "pl": "Kościół Mariacki",
+            "de": "Marienkirche",
+            "cs": "Mariánský kostel"
+          },
+          "title": {
+            "he": "כנסיית מריה הקדושה",
+            "en": "St Mary’s Church",
+            "pl": "Kościół Mariacki",
+            "de": "Marienkirche",
+            "cs": "Mariánský kostel"
+          },
+          "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+          "personalApprovalNotRequired": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "torun-teutonic-castle": {
+    "id": "torun-teutonic-castle",
+    "localName": "Ruiny zamku krzyżackiego",
+    "name": {
+      "he": "שרידי הטירה הטבטונית",
+      "en": "Teutonic Castle ruins",
+      "pl": "Ruiny zamku krzyżackiego",
+      "de": "Ruine der Deutschordensburg",
+      "cs": "Zřícenina křižáckého hradu"
+    },
+    "description": {
+      "he": "שרידי טירה טבטונית במזרח העיר העתיקה. אפשר להוסיף ביקור במתחם לפי הזמן הפנוי והגישה העדכנית.",
+      "en": "Ruins of a Teutonic castle on the eastern side of the Old Town. Add a visit according to your available time and current access.",
+      "pl": "Ruiny zamku krzyżackiego we wschodniej części starówki. Dodaj wizytę zależnie od czasu i aktualnego dostępu.",
+      "de": "Ruine einer Deutschordensburg im Osten der Altstadt. Ein Besuch lässt sich nach Zeit und aktuellem Zugang ergänzen.",
+      "cs": "Zřícenina křižáckého hradu na východě starého města. Návštěvu přidejte podle času a aktuálního přístupu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "kuyavian-pomeranian",
+      "cityId": "torun",
+      "coordinates": {
+        "lat": 53.009408,
+        "lng": 18.610711
+      },
+      "address": {
+        "street": "Przedzamcze 3",
+        "city": "Toruń",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Ruiny zamku krzyżackiego"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visittorun.com/en/content/ruins-teutonic-order-castle",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=53.009408,18.610711",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://visittorun.com/en/content/ruins-teutonic-order-castle",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://visittorun.com/en/city-plan",
+        "precisionNote": "Named mapped landmark feature; representative point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "socialPosts": []
+  },
   "town-hall": {
     "id": "town-hall",
     "localName": "Ratusz we Wrocławiu",
@@ -77559,6 +80829,25 @@
   "Rynek w Opolu": "opole-market-square",
   "Ratusz w Opolu": "opole-town-hall",
   "Deptak przy ulicy Krakowskiej": "opole-krakowska-street",
+  "Ratusz Staromiejski w Toruniu": "torun-old-town-hall",
+  "Pomnik Mikołaja Kopernika": "torun-copernicus-monument",
+  "Kamienica pod Gwiazdą": "torun-house-under-star",
+  "Dwór Artusa": "torun-artus-court",
+  "Kościół Ducha Świętego": "torun-holy-spirit-church",
+  "Dom Mikołaja Kopernika": "torun-copernicus-house",
+  "Krzywa Wieża w Toruniu": "torun-leaning-tower",
+  "Katedra śś. Jana Chrzciciela i Jana Ewangelisty": "torun-saints-johns-cathedral",
+  "Brama Mostowa": "torun-bridge-gate",
+  "Brama Klasztorna": "torun-monastery-gate",
+  "Brama Żeglarska": "torun-sailors-gate",
+  "Ruiny zamku krzyżackiego": "torun-teutonic-castle",
+  "Smok toruński": "torun-dragon",
+  "Pies Filuś": "torun-filus",
+  "Hotel Spichrz w zabytkowym spichlerzu": "torun-hotel-spichrz",
+  "Fontanna Flisaka": "torun-rafter-fountain",
+  "Toruńska Piernikarka": "torun-gingerbread-baker-sculpture",
+  "Kościół Mariacki": "torun-st-marys-church",
+  "Dwór Mieszczański": "torun-burghers-manor",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
