@@ -5,7 +5,7 @@
  const copy={
   "he": {
     "heading": "בוחרים מפה, ומתחילים לגלות",
-    "lead": "חמש מפות לפי הזמן והסגנון שלכם. בכל מפה מקומות, תמונות, סרטונים וקישורי ניווט.",
+    "lead": "שש מפות לפי הזמן והסגנון שלכם. בכל מפה מקומות, תמונות, סרטונים וקישורי ניווט.",
     "left": "גלילה שמאלה",
     "right": "גלילה ימינה",
     "open": "פתחו את המפה",
@@ -30,7 +30,7 @@
   },
   "en": {
     "heading": "Choose your map. Discover your Wrocław.",
-    "lead": "Five maps for different interests and trip lengths. Explore places, photos, videos and navigation.",
+    "lead": "Six maps for different interests and trip lengths. Explore places, photos, videos and navigation.",
     "left": "Scroll left",
     "right": "Scroll right",
     "open": "Open the map",
@@ -55,7 +55,7 @@
   },
   "pl": {
     "heading": "Wybierz mapę i odkrywaj Wrocław",
-    "lead": "Pięć map według zainteresowań i długości pobytu. Miejsca, zdjęcia, filmy i nawigacja.",
+    "lead": "Sześć map według zainteresowań i długości pobytu. Miejsca, zdjęcia, filmy i nawigacja.",
     "left": "Przewiń w lewo",
     "right": "Przewiń w prawo",
     "open": "Otwórz mapę",
@@ -80,7 +80,7 @@
   },
   "de": {
     "heading": "Ihre Karte für Ihr Wrocław",
-    "lead": "Fünf Karten für unterschiedliche Interessen und Reisedauern. Mit Orten, Fotos, Videos und Navigation.",
+    "lead": "Sechs Karten für unterschiedliche Interessen und Reisedauern. Mit Orten, Fotos, Videos und Navigation.",
     "left": "Nach links scrollen",
     "right": "Nach rechts scrollen",
     "open": "Karte öffnen",
@@ -105,7 +105,7 @@
   },
   "cs": {
     "heading": "Vyberte mapu a objevujte Vratislav",
-    "lead": "Pět map podle zájmů a délky pobytu. Místa, fotografie, videa a navigace.",
+    "lead": "Šest map podle zájmů a délky pobytu. Místa, fotografie, videa a navigace.",
     "left": "Posunout doleva",
     "right": "Posunout doprava",
     "open": "Otevřít mapu",
@@ -131,6 +131,6 @@
 };
  const make=(tag,className,text)=>{const e=document.createElement(tag);if(className)e.className=className;if(text)e.textContent=text;return e;};
  function render(){const language=copy[document.documentElement.lang]?document.documentElement.lang:'he',c=copy[language];host.replaceChildren();const title=make('h2','',c.heading);title.id='home-maps-title';const lead=make('p','home-maps-lead',c.lead);const rail=make('div','home-maps-rail');rail.id='home-maps-rail';rail.setAttribute('aria-labelledby',title.id);
- paths.forEach((path,i)=>{if(['lifestyle','guides'].includes(path))return;const a=make('a','home-map-card');a.href='/products/interactive-maps/'+path+'.html?lang='+language;const img=make('img','');img.src=i===1?'/assets/home-map-preview/map-'+language+'.webp':photos[i];img.alt='';img.loading='lazy';img.width=540;img.height=320;const body=make('div','home-map-copy');const h=make('h3','',c.titles[i]);const p=make('p','',c.descriptions[i]);const cta=make('span','home-map-open',c.open);body.append(h,p,cta);a.append(img,body);rail.append(a);});host.append(title,lead,rail);const labels={he:["בחרו מפה לטיול שלכם","גלו את ימי הטיול"],en:["Choose your city map","Explore the excursions"],pl:["Wybierz mapę miasta","Odkryj wycieczki"],de:["Ihre Stadtkarte wählen","Ausflüge entdecken"],cs:["Vyberte mapu města","Objevte výlety"]}[language];document.querySelectorAll("[data-home-cta]").forEach(a=>{a.textContent=labels[a.dataset.homeCta==="maps"?0:1]});}
+ paths.forEach((path,i)=>{if(path==='guides')return;const a=make('a','home-map-card');a.href='/products/interactive-maps/'+path+'.html?lang='+language;const img=make('img','');img.src=i===1?'/assets/home-map-preview/map-'+language+'.webp':photos[i];img.alt='';img.loading='lazy';img.width=540;img.height=320;const body=make('div','home-map-copy');const h=make('h3','',c.titles[i]);const p=make('p','',c.descriptions[i]);const cta=make('span','home-map-open',c.open);body.append(h,p,cta);a.append(img,body);rail.append(a);});host.append(title,lead,rail);const labels={he:["בחרו מפה לטיול שלכם","לטייל מחוץ לעיר"],en:["Choose your city map","Explore beyond the city"],pl:["Wybierz mapę miasta","Wycieczki poza miasto"],de:["Ihre Stadtkarte wählen","Ausflüge außerhalb der Stadt"],cs:["Vyberte mapu města","Výlety za město"]}[language];document.querySelectorAll("[data-home-cta]").forEach(a=>{a.textContent=labels[a.dataset.homeCta==="maps"?0:1]});}
  document.addEventListener('wroc-language-change',render);render();
 })();
