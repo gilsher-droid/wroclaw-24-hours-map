@@ -25,7 +25,16 @@
     if (canonical.taxonomy?.tags?.includes("family") || ["poznan-citadel-park", "poznan-lake-malta"].includes(canonical.id)) return "parks";
     return "culture";
   }
-  const optionalSymbols = { food: "◇", culture: "▣", shopping: "□", parks: "♧", stay: "⌂" };
+  const optionalSymbols = {
+    food: {color:"#8a411b",path:'<path d="M4 7h12v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5Z"/><path d="M16 8h2a3 3 0 0 1 0 6h-2M3 22h15M8 2v2m5-2v2"/>'},
+    culture: {color:"#69458c",path:'<path d="m3 8 9-5 9 5ZM3 21h18M5 11v7m5-7v7m4-7v7m5-7v7"/>'},
+    shopping: {color:"#176b72",path:'<path d="M5 8h14l1 13H4ZM8 8V6a4 4 0 0 1 8 0v2"/>'},
+    parks: {color:"#3d6826",path:'<path d="m12 2-6 8h3l-5 7h7v5h2v-5h7l-5-7h3Z"/>'},
+    stay: {color:"#3b5285",path:'<path d="M3 20V5m18 15v-9H3m0 6h18M7 11V7h5v4m0-4h5a4 4 0 0 1 4 4"/>'}
+  };
+  function optionalSymbol(group) {
+    return `<svg class="map-choice-glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${optionalSymbols[group].path}</svg>`;
+  }
   function selectOptionalGroup(group, fit = false) {
     if (!optionalLayer) return;
     optionalLayer.clearLayers();
@@ -316,7 +325,7 @@
     if (optionsHost) {
       optionsHost.hidden = !isPoznan;
       const copy = mapChoiceCopy[language];
-      optionsHost.innerHTML = isPoznan ? `<div class="map-key"><span><i class="map-key-route" aria-hidden="true">1</i>${copy.route}</span><span><i class="map-key-choice" aria-hidden="true">◇</i>${copy.choices}</span></div><p>${copy.hint}</p><div class="map-choice-buttons" role="group" aria-label="${escapeHtml(copy.choices)}">${["route","food","culture","shopping","parks","stay"].map(group => `<button type="button" data-map-choice="${group}" aria-pressed="${group === "route"}">${copy[group]}</button>`).join("")}</div>` : "";
+      optionsHost.innerHTML = isPoznan ? `<div class="map-key"><span><i class="map-key-route" aria-hidden="true">1</i>${copy.route}</span><span>${copy.choices}</span></div><p>${copy.hint}</p><div class="map-choice-buttons" role="group" aria-label="${escapeHtml(copy.choices)}">${["route","food","culture","shopping","parks","stay"].map(group => `<button type="button" data-map-choice="${group}" ${group === "route" ? "" : `style="--choice-color:${optionalSymbols[group].color}"`} aria-pressed="${group === "route"}">${group === "route" ? '<span class="map-choice-route-symbol" aria-hidden="true">1</span>' : `<span class="map-choice-symbol" style="--choice-color:${optionalSymbols[group].color}">${optionalSymbol(group)}</span>`}<span>${copy[group]}</span></button>`).join("")}</div>` : "";
     }
     optionalLayer = L.layerGroup().addTo(map);
     (excursion.optionalPlaceIds || []).forEach((id,index) => {
@@ -324,7 +333,7 @@
       if (!coordinate) return;
       const group = optionalGroup(canonical);
       const icon = isPoznan
-        ? { className: "route-marker optional-marker poznan-choice-marker", html: `<span aria-hidden="true">${optionalSymbols[group]}</span>`, iconSize: [34,34], iconAnchor: [17,17] }
+        ? { className: "route-marker optional-marker poznan-choice-marker", html: `<span aria-hidden="true" style="--choice-color:${optionalSymbols[group].color}">${optionalSymbol(group)}</span>`, iconSize: [34,34], iconAnchor: [17,17] }
         : { className: "route-marker optional-marker", html: `<span>+${index+1}</span>`, iconSize: [42,50], iconAnchor: [21,48] };
       const marker = L.marker([coordinate.lat, coordinate.lng], { title: local(canonical.name), icon: L.divIcon(icon) }).bindPopup(placePopup(canonical, local(canonical.name), coordinate), { maxWidth:320 }).on("popupopen", () => trackPlaceOpen(canonical));
       if (isPoznan) optionalMarkers.push({marker, group, coordinate});
