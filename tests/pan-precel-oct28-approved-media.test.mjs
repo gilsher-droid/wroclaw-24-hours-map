@@ -1,3 +1,4 @@
+import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
@@ -5,15 +6,15 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 const w={};w.window=w;
 for(const file of ['data/place-catalog.js','data/location-media.js','data/lower-silesia-excursions.js'])vm.runInNewContext(readFileSync(file,'utf8'),w);
-const plain=v=>JSON.parse(JSON.stringify(v));
-const hash=v=>crypto.createHash('sha256').update(Buffer.isBuffer(v)?v:JSON.stringify(v)).digest('hex');
+const plain=v=>JSON.parse(JSON.stringify(beforeFourDenominationsMedia(v)));
+const hash=v=>crypto.createHash('sha256').update(Buffer.isBuffer(v)?v:JSON.stringify(beforeFourDenominationsMedia(v))).digest('hex');
 const baseline=JSON.parse(readFileSync('tests/fixtures/pan-precel-oct28-preintegration.json'));
 const manifest=JSON.parse(readFileSync('data/pan-precel-oct28-media-provenance.json'));
-const current=w.WROC_CATALOG.getPlace(manifest.canonicalID);
+const current=beforeFourDenominationsMedia(w.WROC_CATALOG.getPlace(manifest.canonicalID));
 test('Pan Precel enrichment preserves 298 other records, aliases, 9 trips and all target identity/link fields',()=>{
  assert.equal(Object.keys(baseline.recordHashes).length,299);
  assert.equal(Object.keys(w.WROC_CATALOG.places).length,299);
- for(const[id,expected]of Object.entries(baseline.recordHashes))if(id!==manifest.canonicalID)assert.equal(hash(w.WROC_CATALOG.getPlace(id)),expected,id);
+ for(const[id,expected]of Object.entries(baseline.recordHashes))if(id!==manifest.canonicalID)assert.equal(hash(beforeFourDenominationsMedia(w.WROC_CATALOG.getPlace(id))),expected,id);
  assert.deepEqual(plain(w.WROC_CATALOG.aliases),baseline.aliases);
  assert.equal(w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length,9);
  for(const[id,expected]of Object.entries(baseline.tripHashes))assert.equal(hash(w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(t=>t.id===id)),expected,id);
@@ -48,7 +49,7 @@ test('seven distinct approved captures use full source bytes without duplicate g
 test('historical projection rejects unapproved target changes and never projects other records',async()=>{
  const {beforePanPrecelMedia}=await import('./pan-precel-media-historical-baseline.mjs');
  assert.deepEqual(beforePanPrecelMedia(current),baseline.targetBefore);
- const other=w.WROC_CATALOG.getPlace('pan-precel');assert.equal(beforePanPrecelMedia(other),other);
+ const other=beforeFourDenominationsMedia(w.WROC_CATALOG.getPlace('pan-precel'));assert.equal(beforePanPrecelMedia(other),other);
  for(const change of [p=>p.name.he+=' changed',p=>p.location.coordinates.lat+=.001,p=>p.media.photos.reverse(),p=>p.links.website='https://example.com']){
   const modified=plain(current);change(modified);assert.throws(()=>beforePanPrecelMedia(modified));
  }

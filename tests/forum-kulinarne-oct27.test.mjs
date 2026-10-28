@@ -1,3 +1,4 @@
+import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import test from 'node:test';
@@ -8,17 +9,17 @@ import {runInNewContext} from 'node:vm';
 const proof=JSON.parse(readFileSync('data/forum-kulinarne-oct27-preservation.json'));
 const window={};
 for(const f of ['data/place-catalog.js','data/location-media.js','data/lifestyle-places.js'])runInNewContext(readFileSync(f,'utf8'),{window});
-const plain=v=>JSON.parse(JSON.stringify(beforePanPrecelMedia(v)));
+const plain=v=>JSON.parse(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(v))));
 const hash=v=>createHash('sha256').update(v).digest('hex');
 test('Forum Kulinarne preserves all232 earlier canonicals and existing routes exactly',()=>{
  assert.equal(Object.keys(proof.existingRecordHashes).length,232);
  assert.equal(historicalPlaceIds(window.WROC_CATALOG.places).length,233);
- for(const[id,expected]of Object.entries(proof.existingRecordHashes))assert.equal(hash(JSON.stringify(beforePanPrecelMedia(window.WROC_CATALOG.places[id]))),expected,id);
+ for(const[id,expected]of Object.entries(proof.existingRecordHashes))assert.equal(hash(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(window.WROC_CATALOG.places[id])))),expected,id);
  // The later Poznan test hashes all six existing excursion objects separately.
  for(const[file,expected]of Object.entries(proof.unchangedSourceFileHashes).filter(([file])=>file!=='data/lower-silesia-excursions.js'))assert.equal(hash(readFileSync(file)),expected,file);
 });
 test('The verified Forum facade is one full original in one Lifestyle food point with no generic social action',()=>{
- const p=window.WROC_CATALOG.getPlace(proof.canonicalId),media=p.media,src=media.photos[0],metadata=media.metadata[src];
+ const p=beforeFourDenominationsMedia(window.WROC_CATALOG.getPlace(proof.canonicalId)),media=p.media,src=media.photos[0],metadata=media.metadata[src];
  assert.deepEqual(plain(p.location.coordinates),{lat:51.106514,lng:17.0297567});
  assert.equal(p.location.address.street,'Plac Wolności 4');
  assert.deepEqual(plain(media.videos),[]);assert.equal(media.photos.length,1);

@@ -21252,7 +21252,15 @@
         "/assets/white-stork/white-stork-refresh-02.jpg",
         "/assets/food-round-oct23/four-denominations-district-038.jpg",
         "/assets/food-round-oct23/four-denominations-district-045.jpg",
-        "/assets/pokoyhof-oct26/pokoyhof-courtyard-5de71e46b695.jpeg"
+        "/assets/pokoyhof-oct26/pokoyhof-courtyard-5de71e46b695.jpeg",
+        "/assets/four-denominations-oct28/source-2646.jpg",
+        "/assets/four-denominations-oct28/source-2647.jpg",
+        "/assets/four-denominations-oct28/source-2648.jpg",
+        "/assets/four-denominations-oct28/source-2649.jpg",
+        "/assets/four-denominations-oct28/source-2650.jpg",
+        "/assets/four-denominations-oct28/source-2652.jpg",
+        "/assets/four-denominations-oct28/source-2653.jpg",
+        "/assets/four-denominations-oct28/source-2654.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=Eu84SKoKNZA",
@@ -22585,6 +22593,182 @@
           },
           "identityReceipt": "outputs/canonical-enrichment-round-2026-10-22/open-source-decision-register-oct25/central-misfiled-pokoyhof-courtyard-identity.json",
           "privacyClassification": "Small patrons at far lower-left incidental to wide architecture; no deliberate portrait/family focus. No new personal exception applied."
+        },
+        "/assets/four-denominations-oct28/source-2646.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_2646.JPG",
+          "originalInboxPath": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2646.JPG",
+          "sourceSHA256": "8589d2c1ac1d525026123e051898c92ac9ab6fc8c78e3a42ca5acc55e8055f35",
+          "assetSHA256": "8589d2c1ac1d525026123e051898c92ac9ab6fc8c78e3a42ca5acc55e8055f35",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ברחוב שוויינטגו אנטונייגו, ליד מספר 14",
+            "en": "Our visit on Świętego Antoniego Street beside number 14",
+            "pl": "Z naszej wizyty przy ulicy Świętego Antoniego obok numeru 14",
+            "de": "Unser Besuch an der Świętego-Antoniego-Straße neben Nummer 14",
+            "cs": "Z naší návštěvy ulice Świętego Antoniego u čísla 14"
+          },
+          "identityEvidence": "Visible street name and house number14 in the full source.",
+          "identityReviewReceipt": "four-religions-new-inbox-2026-10-28/agent-read-only-preparation-checkpoint.json",
+          "personalScopeApproval": "four-religions-new-inbox-2026-10-28/scoped-personal-media-approval-latest.json",
+          "publicationScope": "Existing Four Denominations District gallery; photograph of the named street/building, no new business recommendation or church attribution."
+        },
+        "/assets/four-denominations-oct28/source-2647.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_2647.JPG",
+          "originalInboxPath": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2647.JPG",
+          "sourceSHA256": "ff8233f646c005f57fed89a395c56e1cd0ca1493a6f49ca22fa9011b4684111d",
+          "assetSHA256": "ff8233f646c005f57fed89a395c56e1cd0ca1493a6f49ca22fa9011b4684111d",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ברחוב שוויינטגו אנטונייגו, ליד מספר 14",
+            "en": "Our visit on Świętego Antoniego Street beside number 14",
+            "pl": "Z naszej wizyty przy ulicy Świętego Antoniego obok numeru 14",
+            "de": "Unser Besuch an der Świętego-Antoniego-Straße neben Nummer 14",
+            "cs": "Z naší návštěvy ulice Świętego Antoniego u čísla 14"
+          },
+          "identityEvidence": "Visible street name and house number14 in the full source.",
+          "identityReviewReceipt": "four-religions-new-inbox-2026-10-28/agent-read-only-preparation-checkpoint.json",
+          "personalScopeApproval": "four-religions-new-inbox-2026-10-28/scoped-personal-media-approval-latest.json",
+          "publicationScope": "Existing Four Denominations District gallery; photograph of the named street/building, no new business recommendation or church attribution."
+        },
+        "/assets/four-denominations-oct28/source-2648.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_2648.JPG",
+          "originalInboxPath": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2648.JPG",
+          "sourceSHA256": "01cf58e66dcc875966fbff3b5e17a6e0de59189e69e6a30e8fa88807683eab0f",
+          "assetSHA256": "01cf58e66dcc875966fbff3b5e17a6e0de59189e69e6a30e8fa88807683eab0f",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ברחוב שוויינטגו אנטונייגו, ליד מספר 14",
+            "en": "Our visit on Świętego Antoniego Street beside number 14",
+            "pl": "Z naszej wizyty przy ulicy Świętego Antoniego obok numeru 14",
+            "de": "Unser Besuch an der Świętego-Antoniego-Straße neben Nummer 14",
+            "cs": "Z naší návštěvy ulice Świętego Antoniego u čísla 14"
+          },
+          "identityEvidence": "Visible street name and house number14 in the full source.",
+          "identityReviewReceipt": "four-religions-new-inbox-2026-10-28/agent-read-only-preparation-checkpoint.json",
+          "personalScopeApproval": "four-religions-new-inbox-2026-10-28/scoped-personal-media-approval-latest.json",
+          "publicationScope": "Existing Four Denominations District gallery; photograph of the named street/building, no new business recommendation or church attribution."
+        },
+        "/assets/four-denominations-oct28/source-2649.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_2649.JPG",
+          "originalInboxPath": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2649.JPG",
+          "sourceSHA256": "047117cb7456720e5836adba0147aa58d8aabd7d3990565c934828df56d0ca98",
+          "assetSHA256": "047117cb7456720e5836adba0147aa58d8aabd7d3990565c934828df56d0ca98",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ברחוב שוויינטגו אנטונייגו, ליד מספר 14",
+            "en": "Our visit on Świętego Antoniego Street beside number 14",
+            "pl": "Z naszej wizyty przy ulicy Świętego Antoniego obok numeru 14",
+            "de": "Unser Besuch an der Świętego-Antoniego-Straße neben Nummer 14",
+            "cs": "Z naší návštěvy ulice Świętego Antoniego u čísla 14"
+          },
+          "identityEvidence": "Visible street name and house number14 in the full source.",
+          "identityReviewReceipt": "four-religions-new-inbox-2026-10-28/agent-read-only-preparation-checkpoint.json",
+          "personalScopeApproval": "four-religions-new-inbox-2026-10-28/scoped-personal-media-approval-latest.json",
+          "publicationScope": "Existing Four Denominations District gallery; photograph of the named street/building, no new business recommendation or church attribution."
+        },
+        "/assets/four-denominations-oct28/source-2650.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_2650.JPG",
+          "originalInboxPath": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2650.JPG",
+          "sourceSHA256": "385388bcffe24c87bf8ebe96aea3aca0fead1f65c084a3f756a59664eacdbcc5",
+          "assetSHA256": "385388bcffe24c87bf8ebe96aea3aca0fead1f65c084a3f756a59664eacdbcc5",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חלון מסעדת בובה ברחוב שוויינטגו אנטונייגו",
+            "en": "Bube restaurant window on Świętego Antoniego Street",
+            "pl": "Okno restauracji Bube przy ulicy Świętego Antoniego",
+            "de": "Fenster des Restaurants Bube an der Świętego-Antoniego-Straße",
+            "cs": "Okno restaurace Bube v ulici Świętego Antoniego"
+          },
+          "identityEvidence": "https://bube.pl/",
+          "identityReviewReceipt": "four-religions-new-inbox-2026-10-28/agent-read-only-preparation-checkpoint.json",
+          "personalScopeApproval": "four-religions-new-inbox-2026-10-28/scoped-personal-media-approval-latest.json",
+          "publicationScope": "Existing Four Denominations District gallery; photograph of the named street/building, no new business recommendation or church attribution."
+        },
+        "/assets/four-denominations-oct28/source-2652.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_2652.JPG",
+          "originalInboxPath": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2652.JPG",
+          "sourceSHA256": "8be1f48301b74a03dc80331a4518920338e54f2327176a469885f6d1c185d0e3",
+          "assetSHA256": "8be1f48301b74a03dc80331a4518920338e54f2327176a469885f6d1c185d0e3",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזית הבניין ובית הקפה קוקופלי ברחוב ולודקוביצה",
+            "en": "Building frontage and Cocofli cafe on Włodkowica Street",
+            "pl": "Fasada kamienicy i kawiarnia Cocofli przy ulicy Włodkowica",
+            "de": "Gebäudefassade und Café Cocofli an der Włodkowica-Straße",
+            "cs": "Průčelí domu a kavárna Cocofli v ulici Włodkowica"
+          },
+          "identityEvidence": "https://www.wroclaw.pl/dla-mieszkanca/gastroulice-ul-wlodkowica-to-tu-jedza-wszyscy-wroclawianie-i-turysci",
+          "identityReviewReceipt": "four-religions-new-inbox-2026-10-28/agent-read-only-preparation-checkpoint.json",
+          "personalScopeApproval": "four-religions-new-inbox-2026-10-28/scoped-personal-media-approval-latest.json",
+          "publicationScope": "Existing Four Denominations District gallery; photograph of the named street/building, no new business recommendation or church attribution."
+        },
+        "/assets/four-denominations-oct28/source-2653.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_2653.JPG",
+          "originalInboxPath": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2653.JPG",
+          "sourceSHA256": "5886f549c0152c88f6bce3473e8a4a54b71c7ed4b9d64b42167bac5477308db6",
+          "assetSHA256": "5886f549c0152c88f6bce3473e8a4a54b71c7ed4b9d64b42167bac5477308db6",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הכניסה בוולודקוביצה 9",
+            "en": "Our visit beside the entrance at Włodkowica 9",
+            "pl": "Z naszej wizyty przy wejściu na Włodkowica 9",
+            "de": "Unser Besuch am Eingang Włodkowica 9",
+            "cs": "Z naší návštěvy u vchodu Włodkowica 9"
+          },
+          "identityEvidence": "https://www.wroclaw.pl/dla-mieszkanca/gastroulice-ul-wlodkowica-to-tu-jedza-wszyscy-wroclawianie-i-turysci",
+          "identityReviewReceipt": "four-religions-new-inbox-2026-10-28/agent-read-only-preparation-checkpoint.json",
+          "personalScopeApproval": "four-religions-new-inbox-2026-10-28/scoped-personal-media-approval-latest.json",
+          "publicationScope": "Existing Four Denominations District gallery; photograph of the named street/building, no new business recommendation or church attribution."
+        },
+        "/assets/four-denominations-oct28/source-2654.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/IMG_2654.JPG",
+          "originalInboxPath": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/IMG_2654.JPG",
+          "sourceSHA256": "2e21057d0898e83d0b2179cdcb0052a78c9043d4767aebbb1d1e5f2d5b607197",
+          "assetSHA256": "2e21057d0898e83d0b2179cdcb0052a78c9043d4767aebbb1d1e5f2d5b607197",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו ליד הכניסה בוולודקוביצה 9",
+            "en": "Our visit beside the entrance at Włodkowica 9",
+            "pl": "Z naszej wizyty przy wejściu na Włodkowica 9",
+            "de": "Unser Besuch am Eingang Włodkowica 9",
+            "cs": "Z naší návštěvy u vchodu Włodkowica 9"
+          },
+          "identityEvidence": "https://www.wroclaw.pl/dla-mieszkanca/gastroulice-ul-wlodkowica-to-tu-jedza-wszyscy-wroclawianie-i-turysci",
+          "identityReviewReceipt": "four-religions-new-inbox-2026-10-28/agent-read-only-preparation-checkpoint.json",
+          "personalScopeApproval": "four-religions-new-inbox-2026-10-28/scoped-personal-media-approval-latest.json",
+          "publicationScope": "Existing Four Denominations District gallery; photograph of the named street/building, no new business recommendation or church attribution."
         }
       }
     },
