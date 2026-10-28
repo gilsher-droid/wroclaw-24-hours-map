@@ -1,11 +1,12 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
 const window={};for(const file of ['data/place-catalog.js','data/lower-silesia-excursions.js','data/home-excursions.js'])runInNewContext(readFileSync(file,'utf8'),{window});
-const plain=v=>JSON.parse(JSON.stringify(v));
-const hash=v=>createHash('sha256').update(typeof v==='string'||Buffer.isBuffer(v)?v:JSON.stringify(v)).digest('hex');
+const plain=v=>JSON.parse(JSON.stringify(beforePanPrecelMedia(v)));
+const hash=v=>createHash('sha256').update(typeof v==='string'||Buffer.isBuffer(v)?v:JSON.stringify(beforePanPrecelMedia(v))).digest('hex');
 const proof=JSON.parse(readFileSync('tests/fixtures/slovakia-bielsko-opole-preintegration.json'));
 const ids=JSON.parse(readFileSync('data/slovakia-bielsko-opole-place-ids.json'));
 const trip=window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(v=>v.id==='slovakia-bielsko-opole-wroclaw');

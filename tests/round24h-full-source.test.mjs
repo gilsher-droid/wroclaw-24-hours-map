@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -6,7 +7,7 @@ import { createHash } from 'node:crypto';
 const fixture=JSON.parse(readFileSync('data/round24h-oct22-preservation.json','utf8'));
 const window={location:{origin:'https://wroc-love.com'}},document={documentElement:{lang:'he'},addEventListener(){}};
 for(const f of ['data/place-catalog.js','youtube-video.js','data/location-media.js','data/lifestyle-places.js','guide-video.js'])runInNewContext(readFileSync(f,'utf8'),{window,document,console,URLSearchParams});
-const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(typeof x==='string'?x:JSON.stringify(x)).digest('hex');
+const plain=x=>JSON.parse(JSON.stringify(beforePanPrecelMedia(x))),hash=x=>createHash('sha256').update(typeof x==='string'?x:JSON.stringify(beforePanPrecelMedia(x))).digest('hex');
 test('Full-source round preserves223 unrelated canonical records and all changed-point identity, routing, guides and social links',()=>{
  let untouched=0;
  for(const[id,h]of Object.entries(fixture.recordHashes)){

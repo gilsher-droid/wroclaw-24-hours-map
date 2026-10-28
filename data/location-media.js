@@ -292,3 +292,11 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
   const place = window.WROC_CATALOG?.getPlace?.("forum-kulinarne-wroclaw");
   if (place) window.WROC_LOCATION_MEDIA[place.id] = { gallery: place.media.photos, videos: place.media.videos };
 })();
+
+// Keep the approved Oławska gallery on existing actions without changing posts or guides.
+(function () {
+  const place = window.WROC_CATALOG?.getPlace?.("pan-precel-olawska");
+  if (place && window.WROC_LOCATION_MEDIA?.[place.id]) {
+    window.WROC_LOCATION_MEDIA[place.id].gallery = place.media.photos;
+  }
+})();

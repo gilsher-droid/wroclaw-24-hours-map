@@ -46621,12 +46621,184 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
       "photos": [
+        "/assets/pan-precel-oct28/source-2667.jpg",
         "/assets/feels-familiar/pan-precel-bag.jpg",
-        "/assets/feels-familiar/pan-precel-olawska.jpg"
+        "/assets/feels-familiar/pan-precel-olawska.jpg",
+        "/assets/pan-precel-oct28/source-2662.jpg",
+        "/assets/pan-precel-oct28/source-2663.jpg",
+        "/assets/pan-precel-oct28/source-2664.jpg",
+        "/assets/pan-precel-oct28/source-2665.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/pan-precel-oct28/source-2662.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/IMG_2662.JPG",
+          "sourceSHA256": "282d9793e1febeeef5458a38d9f7d9d279bbbd14103cf6e240a188c9e6aef037",
+          "assetSHA256": "282d9793e1febeeef5458a38d9f7d9d279bbbd14103cf6e240a188c9e6aef037",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פרצלים בחלון הראווה של פן פרצל באולבסקה",
+            "en": "Pretzels in the Pan Precel Oławska display",
+            "pl": "Precle na wystawie Pan Precel przy Oławskiej",
+            "de": "Brezeln im Schaufenster von Pan Precel an der Oławska",
+            "cs": "Preclíky ve výloze Pan Precel v ulici Oławska"
+          },
+          "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/galeria/pan-precel-otwiera-nowy-lokal-przy-olawskiej-wroclaw-19-lipca,p,2",
+          "sourceReviewReceipt": "pan-precel-enrichment-2026-10-28/identity-dedup-preparation-receipt.json",
+          "personalScopeApproval": "Pan Precel task:scoped-personal-media-approval-latest.json"
+        },
+        "/assets/pan-precel-oct28/source-2663.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/IMG_2663.JPG",
+          "sourceSHA256": "5f14cace3aae40fd0b853f3d692611ae9212d813c1fb050a90c3fe92352c292f",
+          "assetSHA256": "5f14cace3aae40fd0b853f3d692611ae9212d813c1fb050a90c3fe92352c292f",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מהביקור שלנו בדלפק פן פרצל באולבסקה",
+            "en": "Our visit to the Pan Precel Oławska service counter",
+            "pl": "Nasza wizyta przy ladzie Pan Precel na Oławskiej",
+            "de": "Unser Besuch an der Verkaufstheke von Pan Precel an der Oławska",
+            "cs": "Naše návštěva u pultu Pan Precel v ulici Oławska"
+          },
+          "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/galeria/pan-precel-otwiera-nowy-lokal-przy-olawskiej-wroclaw-19-lipca,p,2",
+          "sourceReviewReceipt": "pan-precel-enrichment-2026-10-28/identity-dedup-preparation-receipt.json",
+          "specificPersonalApproval": {
+            "approvalId": "call_f8a0a8e95a144cdf97169af1d0f2edb6",
+            "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map",
+            "sourceSHA256": "5f14cace3aae40fd0b853f3d692611ae9212d813c1fb050a90c3fe92352c292f"
+          }
+        },
+        "/assets/pan-precel-oct28/source-2664.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/IMG_2664.JPG",
+          "sourceSHA256": "f562b97498089f7c24f6ea314f66c6c8108ced358012fc27356636f680d473df",
+          "assetSHA256": "f562b97498089f7c24f6ea314f66c6c8108ced358012fc27356636f680d473df",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום נוסף מהביקור שלנו בכניסת פן פרצל באולבסקה",
+            "en": "Another photograph from our visit at the Pan Precel Oławska entrance",
+            "pl": "Kolejne zdjęcie z naszej wizyty przy wejściu Pan Precel na Oławskiej",
+            "de": "Weiteres Foto unseres Besuchs am Eingang von Pan Precel an der Oławska",
+            "cs": "Další fotografie z naší návštěvy u vstupu Pan Precel v ulici Oławska"
+          },
+          "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/galeria/pan-precel-otwiera-nowy-lokal-przy-olawskiej-wroclaw-19-lipca,p,2",
+          "sourceReviewReceipt": "pan-precel-enrichment-2026-10-28/identity-dedup-preparation-receipt.json",
+          "specificPersonalApproval": {
+            "approvalId": "call_f8a0a8e95a144cdf97169af1d0f2edb6",
+            "repository": "https://github.com/gilsher-droid/wroclaw-24-hours-map",
+            "sourceSHA256": "f562b97498089f7c24f6ea314f66c6c8108ced358012fc27356636f680d473df"
+          }
+        },
+        "/assets/pan-precel-oct28/source-2665.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/IMG_2665.JPG",
+          "sourceSHA256": "5a818328b8ec63d7e3d5d2505b00de7c78fe13f82cab41c6e8b08668368171fe",
+          "assetSHA256": "5a818328b8ec63d7e3d5d2505b00de7c78fe13f82cab41c6e8b08668368171fe",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "דלפק השירות והכנת המאפים בסניף פן פרצל באולבסקה",
+            "en": "Service counter and pastry preparation at Pan Precel Oławska",
+            "pl": "Lada i przygotowywanie wypieków w Pan Precel przy Oławskiej",
+            "de": "Verkaufstheke und Gebäckzubereitung bei Pan Precel an der Oławska",
+            "cs": "Obslužný pult a příprava pečiva v Pan Precel v ulici Oławska"
+          },
+          "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/galeria/pan-precel-otwiera-nowy-lokal-przy-olawskiej-wroclaw-19-lipca,p,2",
+          "sourceReviewReceipt": "pan-precel-enrichment-2026-10-28/identity-dedup-preparation-receipt.json",
+          "personalScopeApproval": "Pan Precel task:scoped-personal-media-approval-latest.json"
+        },
+        "/assets/feels-familiar/pan-precel-olawska.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/IMG_2666.JPG",
+          "sourceSHA256": "74261c3acf2adb2f168ba27b9da88887eba2da9a9c750bee20a80dcf569ddbe3",
+          "assetSHA256": "74261c3acf2adb2f168ba27b9da88887eba2da9a9c750bee20a80dcf569ddbe3",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חלון הראווה והשלט המואר של פן פרצל באולבסקה",
+            "en": "Pan Precel Oławska window display and illuminated sign",
+            "pl": "Witryna i neon Pan Precel przy Oławskiej",
+            "de": "Schaufenster und Leuchtschrift von Pan Precel an der Oławska",
+            "cs": "Výloha a světelný nápis Pan Precel v ulici Oławska"
+          },
+          "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/galeria/pan-precel-otwiera-nowy-lokal-przy-olawskiej-wroclaw-19-lipca,p,2",
+          "sourceReviewReceipt": "pan-precel-enrichment-2026-10-28/identity-dedup-preparation-receipt.json",
+          "sameCaptureQualityUpgrade": true,
+          "previousAssetSHA256": "a7d4148b167aa480418b00c6d04b700dd10d1ce6e3cf6f47a6b37c066fb6e8af",
+          "personalScopeApproval": "Pan Precel task:scoped-personal-media-approval-latest.json"
+        },
+        "/assets/pan-precel-oct28/source-2667.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/IMG_2667.JPG",
+          "sourceSHA256": "54a970edd4f62b81c3a5c79f503ca88f39e52e233b7597e8e8ba45076d6aafc2",
+          "assetSHA256": "54a970edd4f62b81c3a5c79f503ca88f39e52e233b7597e8e8ba45076d6aafc2",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזית סניף פן פרצל באולבסקה עם השלט והכניסה",
+            "en": "Pan Precel Oławska frontage with its sign and entrance",
+            "pl": "Fasada Pan Precel przy Oławskiej z szyldem i wejściem",
+            "de": "Fassade von Pan Precel an der Oławska mit Schild und Eingang",
+            "cs": "Průčelí Pan Precel v ulici Oławska s označením a vchodem"
+          },
+          "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/galeria/pan-precel-otwiera-nowy-lokal-przy-olawskiej-wroclaw-19-lipca,p,2",
+          "sourceReviewReceipt": "pan-precel-enrichment-2026-10-28/identity-dedup-preparation-receipt.json",
+          "personalScopeApproval": "Pan Precel task:scoped-personal-media-approval-latest.json"
+        },
+        "/assets/feels-familiar/pan-precel-bag.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/פן פרצל/IMG_2668.JPG",
+          "sourceSHA256": "ce7dbac7a00f845102610dc5081911ae6375072749709f12cc3bc91eb5a39471",
+          "assetSHA256": "ce7dbac7a00f845102610dc5081911ae6375072749709f12cc3bc91eb5a39471",
+          "originalFullPicturePreserved": true,
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "שקית פן פרצל מהביקור שלנו בוורוצלב",
+            "en": "Pan Precel bag from our visit to Wrocław",
+            "pl": "Torba Pan Precel z naszej wizyty we Wrocławiu",
+            "de": "Pan-Precel-Tüte von unserem Besuch in Wrocław",
+            "cs": "Taška Pan Precel z naší návštěvy Vratislavi"
+          },
+          "identitySource": "https://www.wroclaw.pl/dla-mieszkanca/galeria/pan-precel-otwiera-nowy-lokal-przy-olawskiej-wroclaw-19-lipca,p,2",
+          "sourceReviewReceipt": "pan-precel-enrichment-2026-10-28/identity-dedup-preparation-receipt.json",
+          "sameCaptureQualityUpgrade": true,
+          "previousAssetSHA256": "1758807601a7c1eb235a9f19ce0635e69fa7ea3c14dd5710fd8886ba02f84b06",
+          "personalScopeApproval": "Pan Precel task:scoped-personal-media-approval-latest.json"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -46686,19 +46858,6 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "pan-tadeusz-museum": {

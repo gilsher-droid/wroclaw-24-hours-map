@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import {beforeSource35Visit} from './source35-visit-historical-baseline.mjs';
 import {beforePiotrkowskaDetails} from './piotrkowska-details-historical-baseline.mjs';
@@ -5,7 +6,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
-const window={},plain=v=>JSON.parse(JSON.stringify(v));
+const window={},plain=v=>JSON.parse(JSON.stringify(beforePanPrecelMedia(v)));
 for(const f of ['data/place-catalog.js','data/location-media.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});
 const c=window.WROC_CATALOG,b=JSON.parse(readFileSync('data/full-media-refresh-baseline-20261022.json'));
 test('The full media refresh preserves all218 other (Piast is separately authorized by the current full-folder refresh) canonical records and every existing identity and coordinate',()=>{

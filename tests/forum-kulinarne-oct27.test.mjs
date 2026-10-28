@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -7,12 +8,12 @@ import {runInNewContext} from 'node:vm';
 const proof=JSON.parse(readFileSync('data/forum-kulinarne-oct27-preservation.json'));
 const window={};
 for(const f of ['data/place-catalog.js','data/location-media.js','data/lifestyle-places.js'])runInNewContext(readFileSync(f,'utf8'),{window});
-const plain=v=>JSON.parse(JSON.stringify(v));
+const plain=v=>JSON.parse(JSON.stringify(beforePanPrecelMedia(v)));
 const hash=v=>createHash('sha256').update(v).digest('hex');
 test('Forum Kulinarne preserves all232 earlier canonicals and existing routes exactly',()=>{
  assert.equal(Object.keys(proof.existingRecordHashes).length,232);
  assert.equal(historicalPlaceIds(window.WROC_CATALOG.places).length,233);
- for(const[id,expected]of Object.entries(proof.existingRecordHashes))assert.equal(hash(JSON.stringify(window.WROC_CATALOG.places[id])),expected,id);
+ for(const[id,expected]of Object.entries(proof.existingRecordHashes))assert.equal(hash(JSON.stringify(beforePanPrecelMedia(window.WROC_CATALOG.places[id]))),expected,id);
  // The later Poznan test hashes all six existing excursion objects separately.
  for(const[file,expected]of Object.entries(proof.unchangedSourceFileHashes).filter(([file])=>file!=='data/lower-silesia-excursions.js'))assert.equal(hash(readFileSync(file)),expected,file);
 });

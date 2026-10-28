@@ -1,7 +1,8 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from'node:test';import assert from'node:assert/strict';import{readFileSync}from'node:fs';import{runInNewContext}from'node:vm';import{createHash}from'node:crypto';
 const window={location:{origin:'https://wroc-love.com'}},document={documentElement:{lang:'he'},addEventListener(){}};
 for(const f of['data/place-catalog.js','data/extra-languages.js','data/premium-route.js','guide-video.js'])runInNewContext(readFileSync(f,'utf8'),{window,document,console,URLSearchParams});
-const b=JSON.parse(readFileSync('data/barbara-ostrow-day2-preservation.json')),plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+const b=JSON.parse(readFileSync('data/barbara-ostrow-day2-preservation.json')),plain=x=>JSON.parse(JSON.stringify(beforePanPrecelMedia(x))),hash=x=>createHash('sha256').update(JSON.stringify(beforePanPrecelMedia(x))).digest('hex');
 test('Barbara adds only explicitly shared Papa guides; all221 unrelated records and all route-point media/locations stay exact',()=>{
  let unchanged=0;for(const[id,h]of Object.entries(b.recordHashes)){const p=plain(window.WROC_CATALOG.getPlace(id));if(!b.authorizedIds.includes(id)){assert.equal(hash(p),h,id);unchanged++;}else{const old=b.places[id];assert.deepEqual(p.location,old.location,id);assert.deepEqual(p.links,old.links,id);assert.deepEqual(p.socialPosts,old.socialPosts,id);assert.deepEqual(p.name,old.name,id);assert.deepEqual(p.description,old.description,id);if(id==='barbara-wroclaw'){assert.deepEqual(p.media.photos,old.media.photos);assert.deepEqual(p.media.videos,old.media.videos);assert.equal(p.media.thumbnail,old.media.thumbnail);assert.deepEqual(p.media.metadata,old.media.metadata);}else assert.deepEqual(p.media,old.media,id);}}
  assert.equal(unchanged,221);
