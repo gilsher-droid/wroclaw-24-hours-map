@@ -21,7 +21,7 @@
     "descriptions": [
       "תחנות מסודרות ליום ראשון בעיר. אפשר לדלג ולעצור בדרך.",
       "מסלול לפי ימים ואזורים. בוחרים יום ומשנים לפי האנרגיה.",
-      "טיולים מוכנים מחוץ לעיר וגם עצירה בלודז׳ בדרך אליה.",
+      "טיולים עצמאיים ועצירות בערים בדרך לוורוצלב.",
       "מקומות לאכול, לשתות, לקנות ולישון. חיפוש חופשי במפה.",
       "מוזיאונים, אדריכלות ואמנות. בוחרים לפי העניין שלכם.",
       "מסלול עונתי לכריסמס. בדקו את מועדי האירועים לפני הנסיעה.",
@@ -46,7 +46,7 @@
     "descriptions": [
       "An ordered first day in the city, with room to pause or skip stops.",
       "Days organised by area. Choose a day and adapt it to your energy.",
-      "Ready-made excursions and a Łódź stop on the way to Wrocław.",
+      "Independent excursions and city stops on your way to Wrocław.",
       "Find places to eat, drink, shop and stay freely on the map.",
       "Museums, architecture and art selected around your interests.",
       "A seasonal Christmas route. Check event dates before travelling.",
@@ -71,7 +71,7 @@
     "descriptions": [
       "Uporządkowany pierwszy dzień z czasem na przerwy.",
       "Dni według okolic. Dopasuj plan do swojej energii.",
-      "Gotowe wycieczki i przystanek w Łodzi w drodze do Wrocławia.",
+      "Samodzielne wycieczki i przystanki w miastach w drodze do Wrocławia.",
       "Miejsca na jedzenie, kawę, zakupy i nocleg na mapie.",
       "Muzea, architektura i sztuka według zainteresowań.",
       "Sezonowa trasa świąteczna. Sprawdź daty wydarzeń.",
@@ -96,7 +96,7 @@
     "descriptions": [
       "Ein geordneter erster Tag mit Raum für Pausen.",
       "Tage nach Stadtbereichen. An Ihre Energie anpassbar.",
-      "Fertige Ausflüge und ein Halt in Łódź auf dem Weg nach Wrocław.",
+      "Individuelle Ausflüge und Stadtbesuche auf dem Weg nach Wrocław.",
       "Essen, Cafés, Einkauf und Unterkunft frei auf der Karte finden.",
       "Museen, Architektur und Kunst nach Ihren Interessen.",
       "Saisonale Weihnachtsroute. Veranstaltungstermine prüfen.",
@@ -121,7 +121,7 @@
     "descriptions": [
       "První den s přehledným pořadím a časem na pauzy.",
       "Dny podle oblastí. Upravte si je podle energie.",
-      "Hotové výlety a zastávka v Lodži cestou do Vratislavi.",
+      "Samostatné výlety a zastávky ve městech cestou do Vratislavi.",
       "Jídlo, kavárny, nákupy a ubytování volně na mapě.",
       "Muzea, architektura a umění podle zájmů.",
       "Sezonní vánoční trasa. Ověřte termíny akcí.",
@@ -130,8 +130,7 @@
   }
 };
  const make=(tag,className,text)=>{const e=document.createElement(tag);if(className)e.className=className;if(text)e.textContent=text;return e;};
- function render(){const language=copy[document.documentElement.lang]?document.documentElement.lang:'he',c=copy[language];host.replaceChildren();const title=make('h2','',c.heading);title.id='home-maps-title';const lead=make('p','home-maps-lead',c.lead);const controls=make('div','home-maps-controls');const rail=make('div','home-maps-rail');rail.id='home-maps-rail';rail.setAttribute('aria-labelledby',title.id);
- for(const [arrow,label,direction] of [['←',c.left,-1],['→',c.right,1]]){const b=make('button','',arrow);b.type='button';b.setAttribute('aria-label',label);b.setAttribute('aria-controls',rail.id);b.addEventListener('click',()=>rail.scrollBy({left:direction*310,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}));controls.append(b);}
- paths.forEach((path,i)=>{if(['lifestyle','guides'].includes(path))return;const a=make('a','home-map-card');a.href='/products/interactive-maps/'+path+'.html?lang='+language;const img=make('img','');img.src=i===1?'/assets/home-map-preview/map-'+language+'.webp':photos[i];img.alt='';img.loading='lazy';img.width=540;img.height=320;const body=make('div','home-map-copy');const h=make('h3','',c.titles[i]);const p=make('p','',c.descriptions[i]);const cta=make('span','home-map-open',c.open);body.append(h,p,cta);a.append(img,body);rail.append(a);});host.append(title,lead,controls,rail);}
+ function render(){const language=copy[document.documentElement.lang]?document.documentElement.lang:'he',c=copy[language];host.replaceChildren();const title=make('h2','',c.heading);title.id='home-maps-title';const lead=make('p','home-maps-lead',c.lead);const rail=make('div','home-maps-rail');rail.id='home-maps-rail';rail.setAttribute('aria-labelledby',title.id);
+ paths.forEach((path,i)=>{if(['lifestyle','guides'].includes(path))return;const a=make('a','home-map-card');a.href='/products/interactive-maps/'+path+'.html?lang='+language;const img=make('img','');img.src=i===1?'/assets/home-map-preview/map-'+language+'.webp':photos[i];img.alt='';img.loading='lazy';img.width=540;img.height=320;const body=make('div','home-map-copy');const h=make('h3','',c.titles[i]);const p=make('p','',c.descriptions[i]);const cta=make('span','home-map-open',c.open);body.append(h,p,cta);a.append(img,body);rail.append(a);});host.append(title,lead,rail);const labels={he:["בחרו מפה לטיול שלכם","גלו את ימי הטיול"],en:["Choose your city map","Explore the excursions"],pl:["Wybierz mapę miasta","Odkryj wycieczki"],de:["Ihre Stadtkarte wählen","Ausflüge entdecken"],cs:["Vyberte mapu města","Objevte výlety"]}[language];document.querySelectorAll("[data-home-cta]").forEach(a=>{a.textContent=labels[a.dataset.homeCta==="maps"?0:1]});}
  document.addEventListener('wroc-language-change',render);render();
 })();
