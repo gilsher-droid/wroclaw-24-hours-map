@@ -259,3 +259,12 @@ button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
 
 .leaflet-marker-icon.poznan-choice-marker{position:absolute;right:auto}
 .map-choice-buttons button:focus-visible{outline-color:var(--navy)}
+
+/* Local city chapters keep intercity travel separate from walking maps. */
+.city-chapters,.trip-context{margin-block:2rem;padding:clamp(1rem,3vw,1.8rem);background:#fff;border:1px solid #dce3e8;border-radius:20px}
+.city-choice-buttons{display:flex;flex-wrap:wrap;gap:.75rem;margin-block:1rem}
+.city-choice-buttons button{min-height:48px;padding:.7rem 1.2rem;border:2px solid #173b56;border-radius:12px;background:#fff;color:#173b56;font:inherit;font-weight:700;cursor:pointer}
+.city-choice-buttons button[aria-pressed="true"]{background:#173b56;color:#fff}
+.city-choice-buttons button:focus-visible,.trip-context button:focus-visible{outline:3px solid #173b56;outline-offset:4px}
+.trip-context-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1rem}
+.trip-context figure{margin:0;min-width:0}.trip-context button{display:block;width:100%;padding:.5rem;border:1px solid #dce3e8;border-radius:12px;background:#f3f5f6;cursor:pointer}.trip-context img{width:100%;height:260px;object-fit:contain}.trip-context figcaption{padding:.5rem;line-height:1.6}

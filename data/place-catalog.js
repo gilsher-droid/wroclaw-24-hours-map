@@ -4580,6 +4580,949 @@
       }
     ]
   },
+  "bielsko-barlickiego-street": {
+    "id": "bielsko-barlickiego-street",
+    "localName": "Ulica Barlickiego",
+    "name": {
+      "he": "רחוב ברליצקייגו",
+      "en": "Barlickiego Street",
+      "pl": "Ulica Barlickiego",
+      "de": "Barlickiego-Straße",
+      "cs": "Ulice Barlickiego"
+    },
+    "description": {
+      "he": "רחוב במרכז ביאלסקו עם חזיתות היסטוריות. התצלום שלנו מתמקד בדלת ובמספר 19, עם שלט הרחוב שנראה מעליו.",
+      "en": "A street in central Bielsko with historic frontages. Our photograph focuses on a doorway at number 19, with the street-name plaque above it.",
+      "pl": "Ulica w centrum Bielska z historyczną zabudową. Nasze zdjęcie skupia się na drzwiach pod numerem 19 i widocznej nad nimi tabliczce z nazwą ulicy.",
+      "de": "Straße im Zentrum von Bielsko mit historischen Fassaden. Unser Foto zeigt die Tür der Hausnummer 19 und das Straßenschild darüber.",
+      "cs": "Ulice v centru Bílska s historickými fasádami. Fotografie zachycuje dveře domu číslo 19 a tabulku s názvem ulice nad nimi."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "silesia",
+      "cityId": "bielsko-biala",
+      "coordinates": {
+        "lat": 49.8245252,
+        "lng": 19.0461937
+      },
+      "address": {
+        "street": "Norberta Barlickiego 19",
+        "city": "Bielsko-Biała",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Ulica Barlickiego"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=49.8245252,19.0461937",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/85766495",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-08.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-08.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-08.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/C5AEC0EB-9FD6-4AF4-B1F4-CF1F81B257E3.JPG",
+          "sourceSHA256": "b6523186fc4df030389a3e6f2a9bbbd6e60a4180db213d117498bd7f9420397f",
+          "assetSHA256": "b6523186fc4df030389a3e6f2a9bbbd6e60a4180db213d117498bd7f9420397f",
+          "alt": {
+            "he": "דלת ושלט רחוב ברליצקייגו מספר 19",
+            "en": "Doorway and street plaque at Barlickiego 19",
+            "pl": "Drzwi i tabliczka uliczna przy Barlickiego 19",
+            "de": "Tür und Straßenschild an der Barlickiego 19",
+            "cs": "Dveře a uliční tabulka na adrese Barlickiego 19"
+          },
+          "title": {
+            "he": "דלת ושלט רחוב ברליצקייגו מספר 19",
+            "en": "Doorway and street plaque at Barlickiego 19",
+            "pl": "Drzwi i tabliczka uliczna przy Barlickiego 19",
+            "de": "Tür und Straßenschild an der Barlickiego 19",
+            "cs": "Dveře a uliční tabulka na adrese Barlickiego 19"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/C5AEC0EB-9FD6-4AF4-B1F4-CF1F81B257E3.JPG"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "bielsko-biala-town-hall": {
+    "id": "bielsko-biala-town-hall",
+    "localName": "Ratusz w Bielsku-Białej",
+    "name": {
+      "he": "בית העירייה של ביאלסקו־ביאלה",
+      "en": "Bielsko-Biała Town Hall",
+      "pl": "Ratusz w Bielsku-Białej",
+      "de": "Rathaus Bielsko-Biała",
+      "cs": "Radnice v Bílsku-Bělé"
+    },
+    "description": {
+      "he": "בית העירייה בכיכר ראטושובי מציג חזית עשירה ומגדל שעון בולט. הצילום מהביקור שלנו מציג את המבנה והרחבה המרוצפת שמולו, ומתאים לעצירת אדריכלות קצרה במרכז ביאלה.",
+      "en": "The town hall on Plac Ratuszowy has an ornate frontage and prominent clock tower. Our visit photograph shows the building and paved forecourt, an architectural stop in central Biała.",
+      "pl": "Ratusz przy placu Ratuszowym wyróżnia się bogatą fasadą i wieżą zegarową. Zdjęcie z naszej wizyty pokazuje gmach i brukowany plac przed nim, dobry przystanek architektoniczny w centrum Białej.",
+      "de": "Das Rathaus am Plac Ratuszowy besitzt eine reich gestaltete Fassade und einen markanten Uhrturm. Unser Besuchsfoto zeigt das Gebäude mit seinem gepflasterten Vorplatz im Zentrum von Biała.",
+      "cs": "Radnice na náměstí Plac Ratuszowy má bohatě zdobené průčelí a výraznou hodinovou věž. Fotografie z naší návštěvy ukazuje budovu i dlážděný prostor před ní v centru Bělé."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "silesia",
+      "cityId": "bielsko-biala",
+      "coordinates": {
+        "lat": 49.821748458473,
+        "lng": 19.050618096793
+      },
+      "address": {
+        "street": "Plac Ratuszowy 1",
+        "city": "Bielsko-Biała",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Ratusz w Bielsku-Białej"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zabytek.pl/pl/obiekty/bielsko-biala-ratusz",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=49.821748458473,19.050618096793",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://zabytek.pl/pl/obiekty/bielsko-biala-ratusz",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://zabytek.pl/pl/obiekty/bielsko-biala-ratusz",
+        "precisionNote": "Exact destination coordinate published by the National Heritage Institute; representative object point, not a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-07.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-07.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/A0D00FE0-F3E1-4E7F-922F-CC7E9CDE4B05.JPG",
+          "sourceSHA256": "f6a0ba9e9171da8ec86f73118307607211b2410cd64c26588b357a26afdb72c5",
+          "assetSHA256": "f6a0ba9e9171da8ec86f73118307607211b2410cd64c26588b357a26afdb72c5",
+          "alt": {
+            "he": "בית העירייה ומגדל השעון מעל הרחבה המרוצפת",
+            "en": "Town hall and clock tower above the paved forecourt",
+            "pl": "Ratusz i wieża zegarowa nad brukowanym placem",
+            "de": "Rathaus und Uhrturm über dem gepflasterten Vorplatz",
+            "cs": "Radnice a hodinová věž nad dlážděným prostranstvím"
+          },
+          "title": {
+            "he": "בית העירייה ומגדל השעון מעל הרחבה המרוצפת",
+            "en": "Town hall and clock tower above the paved forecourt",
+            "pl": "Ratusz i wieża zegarowa nad brukowanym placem",
+            "de": "Rathaus und Uhrturm über dem gepflasterten Vorplatz",
+            "cs": "Radnice a hodinová věž nad dlážděným prostranstvím"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "specificPersonalApproval": {
+            "approvalId": "A3",
+            "receipt": "outputs/slovakia-bielsko-opole-excursion-2026-10-28/individual-personal-media-review.json",
+            "decision": "human-approved-publication-for-new-excursion"
+          },
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/A0D00FE0-F3E1-4E7F-922F-CC7E9CDE4B05.JPG"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "bielsko-burda-house": {
+    "id": "bielsko-burda-house",
+    "localName": "Kamienica Burdy",
+    "name": {
+      "he": "בית בורדה על הנהר",
+      "en": "Burda House by the river",
+      "pl": "Kamienica Burdy",
+      "de": "Burda-Haus am Fluss",
+      "cs": "Burdův dům u řeky"
+    },
+    "description": {
+      "he": "בית נאו־בארוקי בעל גג דמוי כיפה וארבעה עמודים בחזית הפונה לנהר. המבנה משנת 1893 ניצב ברחוב 11 בנובמבר 10, ובבסיסו נראה הפתח המקומר של נחל ניפר.",
+      "en": "A neo-Baroque house with a dome-like roof and four columns facing the river. Built in 1893 at 11 Listopada 10, it has the vaulted outlet of the Niper stream at its base.",
+      "pl": "Neobarokowa kamienica z kopulastym dachem i czterema kolumnami od strony rzeki. Powstała w 1893 roku przy ul. 11 Listopada 10; u jej podstawy widać sklepione ujście potoku Niper.",
+      "de": "Neobarockes Haus mit kuppelartigem Dach und vier Säulen zur Flussseite. Das Gebäude von 1893 steht an der 11 Listopada 10; am Sockel liegt der gewölbte Auslass des Niper-Bachs.",
+      "cs": "Novobarokní dům s kupolovitou střechou a čtyřmi sloupy obrácenými k řece. Byl postaven roku 1893 v ulici 11 Listopada 10; v jeho základu je klenuté ústí potoka Niper."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "silesia",
+      "cityId": "bielsko-biala",
+      "coordinates": {
+        "lat": 49.8231468,
+        "lng": 19.0475723
+      },
+      "address": {
+        "street": "11 Listopada 10",
+        "city": "Bielsko-Biała",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Kamienica Burdy"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=49.8231468,19.0475723",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/1484829417",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-04.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-04.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/43ABFAF0-0268-4619-83CD-705AEBB760C2.JPG",
+          "sourceSHA256": "303cfd982688950a051cfb1dc532973d764d1630fada88b049dd560b513eaa66",
+          "assetSHA256": "303cfd982688950a051cfb1dc532973d764d1630fada88b049dd560b513eaa66",
+          "alt": {
+            "he": "בית בורדה בעל הכיפה והעמודים מעל הנהר, במהלך הביקור",
+            "en": "Burda House with its dome and columns above the river during our visit",
+            "pl": "Kamienica Burdy z kopułą i kolumnami nad rzeką podczas naszej wizyty",
+            "de": "Burda-Haus mit Kuppel und Säulen über dem Fluss bei unserem Besuch",
+            "cs": "Burdův dům s kupolí a sloupy nad řekou při naší návštěvě"
+          },
+          "title": {
+            "he": "בית בורדה בעל הכיפה והעמודים מעל הנהר, במהלך הביקור",
+            "en": "Burda House with its dome and columns above the river during our visit",
+            "pl": "Kamienica Burdy z kopułą i kolumnami nad rzeką podczas naszej wizyty",
+            "de": "Burda-Haus mit Kuppel und Säulen über dem Fluss bei unserem Besuch",
+            "cs": "Burdův dům s kupolí a sloupy nad řekou při naší návštěvě"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "specificPersonalApproval": {
+            "approvalId": "A1",
+            "receipt": "outputs/slovakia-bielsko-opole-excursion-2026-10-28/individual-personal-media-review.json",
+            "decision": "human-approved-publication-for-new-excursion"
+          },
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/43ABFAF0-0268-4619-83CD-705AEBB760C2.JPG"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "bielsko-plac-wojska-polskiego": {
+    "id": "bielsko-plac-wojska-polskiego",
+    "localName": "Plac Wojska Polskiego w Białej",
+    "name": {
+      "he": "כיכר ווייסקה פולסקייגו בביאלה",
+      "en": "Plac Wojska Polskiego in Biała",
+      "pl": "Plac Wojska Polskiego w Białej",
+      "de": "Plac Wojska Polskiego in Biała",
+      "cs": "Plac Wojska Polskiego v Bělé"
+    },
+    "description": {
+      "he": "כיכר השוק ההיסטורית הישנה של ביאלה, שנקבעה לאחר קבלת זכויות העיר ב־1723. אפשר לשלב אותה בהליכה במרכז ביאלה.",
+      "en": "Biała’s historic Old Market Square, laid out after the town received its charter in 1723. An optional extension of the walk through central Biała.",
+      "pl": "Dawny Stary Rynek w Białej, wytyczony po nadaniu praw miejskich w 1723 roku. Opcjonalne przedłużenie spaceru po centrum Białej.",
+      "de": "Der historische Alte Markt von Biała, nach der Stadtrechtsverleihung 1723 angelegt. Eine mögliche Ergänzung des Spaziergangs durch Biała.",
+      "cs": "Historický Starý rynek v Bělé, vytyčený po udělení městských práv roku 1723. Volitelné prodloužení procházky centrem Bělé."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "silesia",
+      "cityId": "bielsko-biala",
+      "coordinates": {
+        "lat": 49.823427,
+        "lng": 19.0509756
+      },
+      "address": {
+        "street": "Plac Wojska Polskiego",
+        "city": "Bielsko-Biała",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Plac Wojska Polskiego w Białej"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=49.823427,19.0509756",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/1111850565",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "socialPosts": []
+  },
+  "bielsko-plac-wolnosci": {
+    "id": "bielsko-plac-wolnosci",
+    "localName": "Plac Wolności w Białej",
+    "name": {
+      "he": "כיכר וולנושצ׳י בביאלה",
+      "en": "Plac Wolności in Biała",
+      "pl": "Plac Wolności w Białej",
+      "de": "Plac Wolności in Biała",
+      "cs": "Plac Wolności v Bělé"
+    },
+    "description": {
+      "he": "הכיכר שנוסדה בסוף המאה ה־18 כשוק החדש של ביאלה. זהו מרחב עירוני נוסף לבחירה בהמשך רחוב 11 בנובמבר.",
+      "en": "The square laid out in the late eighteenth century as Biała’s New Market. An optional urban stop along the continuation of 11 Listopada.",
+      "pl": "Plac wytyczony pod koniec XVIII wieku jako Nowy Rynek w Białej. Dodatkowy przystanek miejski przy dalszym odcinku ulicy 11 Listopada.",
+      "de": "Der Ende des 18. Jahrhunderts angelegte Neue Markt von Biała. Ein weiterer Stadtplatz zur Auswahl entlang der 11 Listopada.",
+      "cs": "Náměstí vytyčené koncem 18. století jako Nový rynek v Bělé. Další volitelná městská zastávka podél ulice 11 Listopada."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "silesia",
+      "cityId": "bielsko-biala",
+      "coordinates": {
+        "lat": 49.8233658,
+        "lng": 19.053728
+      },
+      "address": {
+        "street": "Plac Wolności",
+        "city": "Bielsko-Biała",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Plac Wolności w Białej"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=49.8233658,19.053728",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/25646344",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "socialPosts": []
+  },
+  "bielsko-rynek": {
+    "id": "bielsko-rynek",
+    "localName": "Rynek w Bielsku",
+    "name": {
+      "he": "כיכר השוק בביאלסקו",
+      "en": "Bielsko Market Square",
+      "pl": "Rynek w Bielsku",
+      "de": "Marktplatz in Bielsko",
+      "cs": "Bílský Rynek"
+    },
+    "description": {
+      "he": "כיכר מרוצפת במרכז ההיסטורי של ביאלסקו, מוקפת חזיתות צבעוניות ובתי קפה. בגלריה שני מבטים מהביקור שלנו, עם המזרקה והבתים שסביב הכיכר.",
+      "en": "A paved square in historic Bielsko, framed by colourful frontages and cafés. Two photographs from our visit show the fountain and surrounding houses.",
+      "pl": "Brukowany plac w historycznym Bielsku, otoczony kolorowymi kamienicami i kawiarniami. Dwa zdjęcia z naszej wizyty pokazują fontannę i zabudowę rynku.",
+      "de": "Gepflasterter Platz im historischen Bielsko mit farbigen Fassaden und Cafés. Zwei Aufnahmen unseres Besuchs zeigen den Brunnen und die Häuser am Platz.",
+      "cs": "Dlážděné náměstí v historickém Bílsku s barevnými fasádami a kavárnami. Dvě fotografie z naší návštěvy zachycují kašnu a okolní domy."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "silesia",
+      "cityId": "bielsko-biala",
+      "coordinates": {
+        "lat": 49.8211627,
+        "lng": 19.0427069
+      },
+      "address": {
+        "street": "Rynek",
+        "city": "Bielsko-Biała",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Rynek w Bielsku"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=49.8211627,19.0427069",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/35042697",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-12.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-12.jpg",
+        "/assets/slovakia-bielsko-opole/source-13.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-12.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/IMG_2499.JPG",
+          "sourceSHA256": "53303fd0b21f131df66162f2e9ebef306e875b75eb97fabc095594dd944bb792",
+          "assetSHA256": "53303fd0b21f131df66162f2e9ebef306e875b75eb97fabc095594dd944bb792",
+          "alt": {
+            "he": "ביקור בכיכר השוק בביאלסקו והבתים סביב המזרקה",
+            "en": "Visit to Bielsko Market Square and houses around the fountain",
+            "pl": "Wizyta na bielskim Rynku i kamienice wokół fontanny",
+            "de": "Besuch auf dem Bielskoer Marktplatz und Häuser am Brunnen",
+            "cs": "Návštěva bílského Rynku a domy kolem kašny"
+          },
+          "title": {
+            "he": "ביקור בכיכר השוק בביאלסקו והבתים סביב המזרקה",
+            "en": "Visit to Bielsko Market Square and houses around the fountain",
+            "pl": "Wizyta na bielskim Rynku i kamienice wokół fontanny",
+            "de": "Besuch auf dem Bielskoer Marktplatz und Häuser am Brunnen",
+            "cs": "Návštěva bílského Rynku a domy kolem kašny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "specificPersonalApproval": {
+            "approvalId": "A6",
+            "receipt": "outputs/slovakia-bielsko-opole-excursion-2026-10-28/individual-personal-media-review.json",
+            "decision": "human-approved-publication-for-new-excursion"
+          },
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/IMG_2499.JPG"
+        },
+        "/assets/slovakia-bielsko-opole/source-13.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/IMG_2500.JPG",
+          "sourceSHA256": "6a581dd9930e2de5c748132d0211d5146ce49b1a591844d2a02ec515e86df2a4",
+          "assetSHA256": "6a581dd9930e2de5c748132d0211d5146ce49b1a591844d2a02ec515e86df2a4",
+          "alt": {
+            "he": "ביקור בכיכר השוק בביאלסקו והבתים סביב המזרקה",
+            "en": "Visit to Bielsko Market Square and houses around the fountain",
+            "pl": "Wizyta na bielskim Rynku i kamienice wokół fontanny",
+            "de": "Besuch auf dem Bielskoer Marktplatz und Häuser am Brunnen",
+            "cs": "Návštěva bílského Rynku a domy kolem kašny"
+          },
+          "title": {
+            "he": "ביקור בכיכר השוק בביאלסקו והבתים סביב המזרקה",
+            "en": "Visit to Bielsko Market Square and houses around the fountain",
+            "pl": "Wizyta na bielskim Rynku i kamienice wokół fontanny",
+            "de": "Besuch auf dem Bielskoer Marktplatz und Häuser am Brunnen",
+            "cs": "Návštěva bílského Rynku a domy kolem kašny"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "specificPersonalApproval": {
+            "approvalId": "A7",
+            "receipt": "outputs/slovakia-bielsko-opole-excursion-2026-10-28/individual-personal-media-review.json",
+            "decision": "human-approved-publication-for-new-excursion"
+          },
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/IMG_2500.JPG"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "bielsko-st-nicholas-cathedral": {
+    "id": "bielsko-st-nicholas-cathedral",
+    "localName": "Katedra św. Mikołaja",
+    "name": {
+      "he": "קתדרלת ניקולאוס הקדוש",
+      "en": "St Nicholas Cathedral",
+      "pl": "Katedra św. Mikołaja",
+      "de": "Nikolauskathedrale",
+      "cs": "Katedrála sv. Mikuláše"
+    },
+    "description": {
+      "he": "המגדל הגבוה של קתדרלת ניקולאוס הקדוש מתנשא מעל רחובות העיר העתיקה. הצילום שלנו מתעד את המבט אל המגדל מתוך סמטה צרה; אפשר לשלב עצירה בכיכר שמול הכנסייה.",
+      "en": "The tall tower of St Nicholas Cathedral rises above the old-town streets. Our photograph looks toward it along a narrow lane; include a pause in the square outside the church.",
+      "pl": "Wysoka wieża katedry św. Mikołaja góruje nad ulicami starego miasta. Nasze zdjęcie pokazuje ją z wąskiej uliczki; warto zatrzymać się na placu przed świątynią.",
+      "de": "Der hohe Turm der Nikolauskathedrale überragt die Altstadtgassen. Unser Foto zeigt den Blick aus einer schmalen Gasse; ein Halt auf dem Platz vor der Kirche passt zum Spaziergang.",
+      "cs": "Vysoká věž katedrály sv. Mikuláše se tyčí nad ulicemi starého města. Naše fotografie ji zachycuje z úzké uličky; zastavit se můžete na náměstí před kostelem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "silesia",
+      "cityId": "bielsko-biala",
+      "coordinates": {
+        "lat": 49.8202422,
+        "lng": 19.0429958
+      },
+      "address": {
+        "street": "Plac Świętego Mikołaja 16a",
+        "city": "Bielsko-Biała",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Katedra św. Mikołaja"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://bielsko-biala.pl/zabytek/katedra-pw-sw-mikolaja",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=49.8202422,19.0429958",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://bielsko-biala.pl/zabytek/katedra-pw-sw-mikolaja",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/77948254",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-14.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-14.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-14.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/IMG_2501.JPG",
+          "sourceSHA256": "129fe30d7e2e72f2be00bc969973a51c94c491b2e032c978bcc9382e049fc7b8",
+          "assetSHA256": "129fe30d7e2e72f2be00bc969973a51c94c491b2e032c978bcc9382e049fc7b8",
+          "alt": {
+            "he": "מבט מסמטה אל המגדל המדורג של הקתדרלה",
+            "en": "A narrow lane leading toward the cathedral’s tiered tower",
+            "pl": "Widok z wąskiej uliczki na wielokondygnacyjną wieżę katedry",
+            "de": "Blick aus einer Gasse auf den gestuften Turm der Kathedrale",
+            "cs": "Pohled z úzké uličky na patrovou věž katedrály"
+          },
+          "title": {
+            "he": "מבט מסמטה אל המגדל המדורג של הקתדרלה",
+            "en": "A narrow lane leading toward the cathedral’s tiered tower",
+            "pl": "Widok z wąskiej uliczki na wielokondygnacyjną wieżę katedry",
+            "de": "Blick aus einer Gasse auf den gestuften Turm der Kathedrale",
+            "cs": "Pohled z úzké uličky na patrovou věž katedrály"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/IMG_2501.JPG"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "bistro-stu-mostow": {
     "id": "bistro-stu-mostow",
     "localName": "Bistro Stu Mostów",
@@ -12599,6 +13542,215 @@
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
       }
     ]
+  },
+  "chinkalnia-bielsko-rynek": {
+    "id": "chinkalnia-bielsko-rynek",
+    "localName": "Chinkalnia przy Rynku",
+    "name": {
+      "he": "חינקלניה בכיכר השוק",
+      "en": "Chinkalnia on Rynek",
+      "pl": "Chinkalnia przy Rynku",
+      "de": "Chinkalnia am Rynek",
+      "cs": "Chinkalnia na Rynku"
+    },
+    "description": {
+      "he": "אפשרות לארוחה גאורגית בכיכר השוק של ביאלסקו, במספר 30. צילום הביקור שלנו מציג מנה על שולחן חיצוני לצד הלחם והמרק.",
+      "en": "An option for a Georgian meal at Rynek 30 in Bielsko. Our visit photograph shows a dish on an outdoor table with bread and soup.",
+      "pl": "Propozycja gruzińskiego posiłku przy Rynku 30 w Bielsku. Zdjęcie z naszej wizyty pokazuje danie na stoliku na zewnątrz, obok pieczywa i zupy.",
+      "de": "Eine Möglichkeit für ein georgisches Essen am Rynek 30 in Bielsko. Unser Besuchsfoto zeigt ein Gericht am Außentisch mit Brot und Suppe.",
+      "cs": "Možnost gruzínského jídla na adrese Rynek 30 v Bílsku. Fotografie z naší návštěvy ukazuje pokrm na venkovním stole s chlebem a polévkou."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "silesia",
+      "cityId": "bielsko-biala",
+      "coordinates": {
+        "lat": 49.8207903,
+        "lng": 19.0426433
+      },
+      "address": {
+        "street": "Rynek 30",
+        "city": "Bielsko-Biała",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "food"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Chinkalnia przy Rynku"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "food"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://khinkalnya.com/pl/restorany/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=49.8207903,19.0426433",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://khinkalnya.com/pl/restorany/",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/11037736122",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-15.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-15.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=jTapFukZWuU",
+        "https://www.youtube.com/watch?v=gVFFVJla2W8"
+      ],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/IMG_2502.JPG",
+          "sourceSHA256": "bfc2f25206d6a33cf848b5e0d856f53af114ff99485e6df4ca7896378498cc07",
+          "assetSHA256": "bfc2f25206d6a33cf848b5e0d856f53af114ff99485e6df4ca7896378498cc07",
+          "alt": {
+            "he": "מנה גאורגית עם גרגרי רימון, לחם ומרק על שולחן חיצוני",
+            "en": "Georgian dish with pomegranate seeds, bread and soup at an outdoor table",
+            "pl": "Gruzińskie danie z pestkami granatu, pieczywem i zupą na stoliku na zewnątrz",
+            "de": "Georgisches Gericht mit Granatapfelkernen, Brot und Suppe am Außentisch",
+            "cs": "Gruzínský pokrm se semínky granátového jablka, chlebem a polévkou na venkovním stole"
+          },
+          "title": {
+            "he": "מנה גאורגית עם גרגרי רימון, לחם ומרק על שולחן חיצוני",
+            "en": "Georgian dish with pomegranate seeds, bread and soup at an outdoor table",
+            "pl": "Gruzińskie danie z pestkami granatu, pieczywem i zupą na stoliku na zewnątrz",
+            "de": "Georgisches Gericht mit Granatapfelkernen, Brot und Suppe am Außentisch",
+            "cs": "Gruzínský pokrm se semínky granátového jablka, chlebem a polévkou na venkovním stole"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/IMG_2502.JPG"
+        },
+        "https://www.youtube.com/watch?v=jTapFukZWuU": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/40056B28-75C4-4C26-83A6-EE5EB1A57D93.MP4",
+          "sourceSHA256": "dbe46bad43b614735c9886f4e4d3d8d17cbbad73c7a57c64623b86da79f871a5",
+          "uploadSHA256": "dbe46bad43b614735c9886f4e4d3d8d17cbbad73c7a57c64623b86da79f871a5",
+          "durationSeconds": 33.171667,
+          "originalFullPicturePreserved": true,
+          "audioRemoved": false,
+          "title": {
+            "he": "ביקור בחינקלניה ובכיכר השוק בביאלסקו",
+            "en": "Chinkalnia, Bielsko-Biała | Terrace and Market Square | WROC-LOVE",
+            "pl": "Chinkalnia w Bielsku-Białej | Ogródek i Rynek | WROC-LOVE",
+            "de": "Chinkalnia in Bielsko-Biała | Terrasse und Marktplatz | WROC-LOVE",
+            "cs": "Chinkalnia v Bílsku-Bělé | Zahrádka a Rynek | WROC-LOVE"
+          },
+          "alt": {
+            "he": "ביקור בחינקלניה ובכיכר השוק בביאלסקו",
+            "en": "Chinkalnia, Bielsko-Biała | Terrace and Market Square | WROC-LOVE",
+            "pl": "Chinkalnia w Bielsku-Białej | Ogródek i Rynek | WROC-LOVE",
+            "de": "Chinkalnia in Bielsko-Biała | Terrasse und Marktplatz | WROC-LOVE",
+            "cs": "Chinkalnia v Bílsku-Bělé | Zahrádka a Rynek | WROC-LOVE"
+          },
+          "description": {
+            "he": "מהביקור שלנו במסעדת חינקלניה בכיכר השוק של ביאלסקו.",
+            "en": "From our visit to Chinkalnia at Rynek30 in Bielsko-Biała.",
+            "pl": "Z naszej wizyty w restauracji Chinkalnia przy Rynku30 w Bielsku-Białej.",
+            "de": "Von unserem Besuch in der Chinkalnia am Rynek30 in Bielsko-Biała.",
+            "cs": "Z naší návštěvy restaurace Chinkalnia na adrese Rynek30 v Bílsku-Bělé."
+          },
+          "visibility": "Public",
+          "publicVisibilityReopenedAt": "2026-10-28T10:57:13.161558+00:00",
+          "publicationApprovalCall": "call_fc00fca500e5417da7966180ed534a1a",
+          "specificPersonalApprovalId": "V1",
+          "checks": "Copyright andCommunity complete no issues",
+          "publicationReceipt": "video-review/two-videos-public-completion-receipt.json"
+        },
+        "https://www.youtube.com/watch?v=gVFFVJla2W8": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/506F2841-3064-4792-9419-7284D16B5638.MP4",
+          "sourceSHA256": "5e78ef72032a2bfd75469b7966c836c1df93b26cb0a5e37eb42a2b7b8943721e",
+          "uploadSHA256": "5e78ef72032a2bfd75469b7966c836c1df93b26cb0a5e37eb42a2b7b8943721e",
+          "durationSeconds": 10.366667,
+          "originalFullPicturePreserved": true,
+          "audioRemoved": false,
+          "title": {
+            "he": "ארוחה בחינקלניה בכיכר השוק בביאלסקו",
+            "en": "Chinkalnia, Bielsko-Biała | Our meal on Rynek | WROC-LOVE",
+            "pl": "Chinkalnia w Bielsku-Białej | Nasz posiłek na Rynku | WROC-LOVE",
+            "de": "Chinkalnia in Bielsko-Biała | Unser Essen am Rynek | WROC-LOVE",
+            "cs": "Chinkalnia v Bílsku-Bělé | Naše jídlo na Rynku | WROC-LOVE"
+          },
+          "alt": {
+            "he": "ארוחה בחינקלניה בכיכר השוק בביאלסקו",
+            "en": "Chinkalnia, Bielsko-Biała | Our meal on Rynek | WROC-LOVE",
+            "pl": "Chinkalnia w Bielsku-Białej | Nasz posiłek na Rynku | WROC-LOVE",
+            "de": "Chinkalnia in Bielsko-Biała | Unser Essen am Rynek | WROC-LOVE",
+            "cs": "Chinkalnia v Bílsku-Bělé | Naše jídlo na Rynku | WROC-LOVE"
+          },
+          "description": {
+            "he": "מהביקור שלנו במסעדת חינקלניה בכיכר השוק של ביאלסקו.",
+            "en": "From our visit to Chinkalnia at Rynek30 in Bielsko-Biała.",
+            "pl": "Z naszej wizyty w restauracji Chinkalnia przy Rynku30 w Bielsku-Białej.",
+            "de": "Von unserem Besuch in der Chinkalnia am Rynek30 in Bielsko-Biała.",
+            "cs": "Z naší návštěvy restaurace Chinkalnia na adrese Rynek30 v Bílsku-Bělé."
+          },
+          "visibility": "Public",
+          "publicVisibilityReopenedAt": "2026-10-28T10:57:13.161558+00:00",
+          "publicationApprovalCall": "call_fc00fca500e5417da7966180ed534a1a",
+          "specificPersonalApprovalId": "V2",
+          "checks": "Copyright andCommunity complete no issues",
+          "publicationReceipt": "video-review/two-videos-public-completion-receipt.json"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "church-of-peace-swidnica": {
     "id": "church-of-peace-swidnica",
@@ -43247,6 +44399,470 @@
         "url": "https://www.facebook.com/photo/?fbid=122108355723398802"
       }
     ]
+  },
+  "opole-krakowska-street": {
+    "id": "opole-krakowska-street",
+    "localName": "Deptak przy ulicy Krakowskiej",
+    "name": {
+      "he": "מדרחוב קרקובסקה",
+      "en": "Krakowska pedestrian street",
+      "pl": "Deptak przy ulicy Krakowskiej",
+      "de": "Fußgängerstraße Krakowska",
+      "cs": "Pěší ulice Krakowska"
+    },
+    "description": {
+      "he": "רחוב קניות והליכה במרכז אופולה. התמונות שלנו מציגות חזיתות חנויות ואת התנועה במדרחוב; אלה מבטי רחוב מהטיול, ללא המלצה פרטנית על החנויות המצולמות.",
+      "en": "A shopping and walking street in central Opole. Our photographs show storefronts and people along the pedestrian street, as views from the journey.",
+      "pl": "Ulica handlowa i spacerowa w centrum Opola. Nasze zdjęcia pokazują witryny i przechodniów na deptaku jako fragmenty podróży.",
+      "de": "Einkaufs- und Fußgängerstraße im Zentrum von Opole. Unsere Fotos zeigen Schaufenster und Passanten als Straßeneindrücke der Reise.",
+      "cs": "Nákupní a pěší ulice v centru Opolí. Fotografie zachycují výlohy a kolemjdoucí jako pouliční dojmy z cesty."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "opole",
+      "coordinates": {
+        "lat": 50.6649128,
+        "lng": 17.9251642
+      },
+      "address": {
+        "street": "Krakowska 45/47",
+        "city": "Opole",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "shopping"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Deptak przy ulicy Krakowskiej"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "shopping"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.superpharm.pl/sklepy/opole-krakowska-45-47",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.6649128,17.9251642",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.superpharm.pl/sklepy/opole-krakowska-45-47",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/node/2171233845",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-17.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-17.jpg",
+        "/assets/slovakia-bielsko-opole/source-18.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-17.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/IMG_2508.JPG",
+          "sourceSHA256": "4d91951b05f4c0ad49e6c73c7538878894716f130b97a0e13088b7fafac5b84d",
+          "assetSHA256": "4d91951b05f4c0ad49e6c73c7538878894716f130b97a0e13088b7fafac5b84d",
+          "alt": {
+            "he": "חזיתות חנויות והולכי רגל ברחוב קרקובסקה באופולה",
+            "en": "Storefronts and pedestrians on Krakowska Street in Opole",
+            "pl": "Witryny sklepów i piesi przy ulicy Krakowskiej w Opolu",
+            "de": "Schaufenster und Fußgänger auf der Krakowska in Opole",
+            "cs": "Výlohy a chodci v ulici Krakowska v Opolí"
+          },
+          "title": {
+            "he": "חזיתות חנויות והולכי רגל ברחוב קרקובסקה באופולה",
+            "en": "Storefronts and pedestrians on Krakowska Street in Opole",
+            "pl": "Witryny sklepów i piesi przy ulicy Krakowskiej w Opolu",
+            "de": "Schaufenster und Fußgänger auf der Krakowska in Opole",
+            "cs": "Výlohy a chodci v ulici Krakowska v Opolí"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "specificPersonalApproval": {
+            "approvalId": "A8",
+            "receipt": "outputs/slovakia-bielsko-opole-excursion-2026-10-28/individual-personal-media-review.json",
+            "decision": "human-approved-publication-for-new-excursion"
+          },
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/IMG_2508.JPG"
+        },
+        "/assets/slovakia-bielsko-opole/source-18.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/IMG_2509.JPG",
+          "sourceSHA256": "2e5f4012f7249f0ab6487b9cd541b7f1b72c9ee3e351d6f7c217197472f583a5",
+          "assetSHA256": "2e5f4012f7249f0ab6487b9cd541b7f1b72c9ee3e351d6f7c217197472f583a5",
+          "alt": {
+            "he": "חזיתות חנויות והולכי רגל ברחוב קרקובסקה באופולה",
+            "en": "Storefronts and pedestrians on Krakowska Street in Opole",
+            "pl": "Witryny sklepów i piesi przy ulicy Krakowskiej w Opolu",
+            "de": "Schaufenster und Fußgänger auf der Krakowska in Opole",
+            "cs": "Výlohy a chodci v ulici Krakowska v Opolí"
+          },
+          "title": {
+            "he": "חזיתות חנויות והולכי רגל ברחוב קרקובסקה באופולה",
+            "en": "Storefronts and pedestrians on Krakowska Street in Opole",
+            "pl": "Witryny sklepów i piesi przy ulicy Krakowskiej w Opolu",
+            "de": "Schaufenster und Fußgänger auf der Krakowska in Opole",
+            "cs": "Výlohy a chodci v ulici Krakowska v Opolí"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/IMG_2509.JPG"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "opole-market-square": {
+    "id": "opole-market-square",
+    "localName": "Rynek w Opolu",
+    "name": {
+      "he": "כיכר השוק באופולה",
+      "en": "Opole Market Square",
+      "pl": "Rynek w Opolu",
+      "de": "Marktplatz Opole",
+      "cs": "Rynek v Opolí"
+    },
+    "description": {
+      "he": "כיכר השוק של אופולה מוקפת בתי חזית צבעוניים ובתי קפה, ובמרכזה בית העירייה. הגלריה שלנו מתעדת את הרחובות המובילים לכיכר ואת הישיבה סביבה.",
+      "en": "Opole’s market square is framed by colourful frontages and cafés, with the town hall at its centre. Our photographs show an approach street and the scene around the square.",
+      "pl": "Rynek w Opolu otaczają kolorowe kamienice i kawiarnie, a w jego środku stoi ratusz. Nasze zdjęcia pokazują dojście do placu i jego otoczenie.",
+      "de": "Farbige Fassaden und Cafés umgeben den Marktplatz von Opole mit dem Rathaus in der Mitte. Unsere Aufnahmen zeigen eine zuführende Straße und das Leben am Platz.",
+      "cs": "Rynek v Opolí obklopují barevné domy a kavárny a uprostřed stojí radnice. Naše fotografie ukazují přístupovou ulici a okolí náměstí."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "opole",
+      "coordinates": {
+        "lat": 50.6684043,
+        "lng": 17.9218723
+      },
+      "address": {
+        "street": "Rynek",
+        "city": "Opole",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Rynek w Opolu"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.opole.pl/dla-turysty/atrakcja/rynek-ratusz",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.6684043,17.9218723",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.opole.pl/dla-turysty/atrakcja/rynek-ratusz",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://www.openstreetmap.org/way/229784388",
+        "precisionNote": "Matched OpenStreetMap feature/address with city and street verified against the official place source; representative feature point, not photo GPS or a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-01.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-01.jpg",
+        "/assets/slovakia-bielsko-opole/source-09.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-01.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/0C681194-18A0-47BB-A22F-212B8E781603.JPG",
+          "sourceSHA256": "738d308e2cc817a737f898a34dd1670e0ddc597e7608ca142db05ba0af690d1f",
+          "assetSHA256": "738d308e2cc817a737f898a34dd1670e0ddc597e7608ca142db05ba0af690d1f",
+          "alt": {
+            "he": "רחוב והחזיתות סביב כיכר השוק של אופולה",
+            "en": "Street and frontages around Opole Market Square",
+            "pl": "Ulica i kamienice wokół opolskiego Rynku",
+            "de": "Straße und Fassaden am Marktplatz von Opole",
+            "cs": "Ulice a průčelí kolem opolského Rynku"
+          },
+          "title": {
+            "he": "רחוב והחזיתות סביב כיכר השוק של אופולה",
+            "en": "Street and frontages around Opole Market Square",
+            "pl": "Ulica i kamienice wokół opolskiego Rynku",
+            "de": "Straße und Fassaden am Marktplatz von Opole",
+            "cs": "Ulice a průčelí kolem opolského Rynku"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/0C681194-18A0-47BB-A22F-212B8E781603.JPG"
+        },
+        "/assets/slovakia-bielsko-opole/source-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/E38172C8-4C04-4461-89E9-6DE4E46AEBAE.JPG",
+          "sourceSHA256": "53a05d30f83b5248f5f02148b08492acab31457dd9e5f597ed7675522a493998",
+          "assetSHA256": "53a05d30f83b5248f5f02148b08492acab31457dd9e5f597ed7675522a493998",
+          "alt": {
+            "he": "רחוב והחזיתות סביב כיכר השוק של אופולה",
+            "en": "Street and frontages around Opole Market Square",
+            "pl": "Ulica i kamienice wokół opolskiego Rynku",
+            "de": "Straße und Fassaden am Marktplatz von Opole",
+            "cs": "Ulice a průčelí kolem opolského Rynku"
+          },
+          "title": {
+            "he": "רחוב והחזיתות סביב כיכר השוק של אופולה",
+            "en": "Street and frontages around Opole Market Square",
+            "pl": "Ulica i kamienice wokół opolskiego Rynku",
+            "de": "Straße und Fassaden am Marktplatz von Opole",
+            "cs": "Ulice a průčelí kolem opolského Rynku"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "specificPersonalApproval": {
+            "approvalId": "A4",
+            "receipt": "outputs/slovakia-bielsko-opole-excursion-2026-10-28/individual-personal-media-review.json",
+            "decision": "not-personal-approval-case-incidental-public-street-subject"
+          },
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/E38172C8-4C04-4461-89E9-6DE4E46AEBAE.JPG"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "opole-town-hall": {
+    "id": "opole-town-hall",
+    "localName": "Ratusz w Opolu",
+    "name": {
+      "he": "בית העירייה של אופולה",
+      "en": "Opole Town Hall",
+      "pl": "Ratusz w Opolu",
+      "de": "Rathaus Opole",
+      "cs": "Radnice v Opolí"
+    },
+    "description": {
+      "he": "בית העירייה הצהוב ניצב בלב כיכר השוק. בצילום הביקור ההיסטורי שלנו נראים החזית הארוכה והמגדל כשהוא עטוף בפיגומים.",
+      "en": "The yellow town hall stands in the middle of Market Square. Our historic visit photograph shows its long frontage and the tower wrapped in scaffolding.",
+      "pl": "Żółty ratusz stoi pośrodku Rynku. Historyczne zdjęcie z naszej wizyty pokazuje długą fasadę i wieżę otoczoną rusztowaniem.",
+      "de": "Das gelbe Rathaus steht mitten auf dem Marktplatz. Unsere historische Besuchsaufnahme zeigt die lange Fassade und den damals eingerüsteten Turm.",
+      "cs": "Žlutá radnice stojí uprostřed Rynku. Historická fotografie z naší návštěvy ukazuje dlouhé průčelí a věž obklopenou lešením."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "opole",
+      "cityId": "opole",
+      "coordinates": {
+        "lat": 50.668554119867,
+        "lng": 17.922404742383
+      },
+      "address": {
+        "street": "Rynek 1A",
+        "city": "Opole",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "historical-landmark"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "Ratusz w Opolu"
+    ],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "historical-landmark"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zabytek.pl/pl/obiekty/ratusz-695266",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=50.668554119867,17.922404742383",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://zabytek.pl/pl/obiekty/ratusz-695266",
+          "checkedAt": "2026-10-28"
+        }
+      ],
+      "coordinateProof": {
+        "url": "https://zabytek.pl/pl/obiekty/ratusz-695266",
+        "precisionNote": "Exact destination coordinate published by the National Heritage Institute; representative object point, not a surveyed entrance"
+      },
+      "noBorrowedMedia": true
+    },
+    "media": {
+      "thumbnail": "/assets/slovakia-bielsko-opole/source-02.jpg",
+      "photos": [
+        "/assets/slovakia-bielsko-opole/source-02.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/slovakia-bielsko-opole/source-02.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/ביאלסקו ביאלה ואופלה/1EBDF76D-43D5-4210-AE88-B74FE8CC3D0C.JPG",
+          "sourceSHA256": "085015e88e4171648306e30c4f8bc129ec2fa483dab86f0e0cf7353554dee245",
+          "assetSHA256": "085015e88e4171648306e30c4f8bc129ec2fa483dab86f0e0cf7353554dee245",
+          "alt": {
+            "he": "חזית בית העירייה באופולה ומגדלו בפיגומים בעת הביקור",
+            "en": "Opole Town Hall frontage and its scaffolded tower during our visit",
+            "pl": "Fasada opolskiego ratusza i wieża w rusztowaniu podczas naszej wizyty",
+            "de": "Fassade des Rathauses von Opole und eingerüsteter Turm bei unserem Besuch",
+            "cs": "Průčelí opolské radnice a věž v lešení při naší návštěvě"
+          },
+          "title": {
+            "he": "חזית בית העירייה באופולה ומגדלו בפיגומים בעת הביקור",
+            "en": "Opole Town Hall frontage and its scaffolded tower during our visit",
+            "pl": "Fasada opolskiego ratusza i wieża w rusztowaniu podczas naszej wizyty",
+            "de": "Fassade des Rathauses von Opole und eingerüsteter Turm bei unserem Besuch",
+            "cs": "Průčelí opolské radnice a věž v lešení při naší návštěvě"
+          },
+          "originalFullPicturePreserved": true,
+          "reviewReceipt": "slovakia-bielsko-opole-excursion-2026-10-28/initial-media-identity-review.json",
+          "sourceFileAtInitialReview": "/Users/rachelfiler/Desktop/Wroclaw/untitled folder/ביאלסקו ביאלה ואופלה/1EBDF76D-43D5-4210-AE88-B74FE8CC3D0C.JPG"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "ossolineum": {
     "id": "ossolineum",
@@ -75932,6 +77548,17 @@
   "Forum Kulinarne Wrocław": "forum-kulinarne-wroclaw",
   "Restauracja Forum Kulinarne": "forum-kulinarne-wroclaw",
   "Forum Kulinarne Plac Wolności 4": "forum-kulinarne-wroclaw",
+  "Rynek w Bielsku": "bielsko-rynek",
+  "Katedra św. Mikołaja": "bielsko-st-nicholas-cathedral",
+  "Kamienica Burdy": "bielsko-burda-house",
+  "Ratusz w Bielsku-Białej": "bielsko-biala-town-hall",
+  "Plac Wojska Polskiego w Białej": "bielsko-plac-wojska-polskiego",
+  "Plac Wolności w Białej": "bielsko-plac-wolnosci",
+  "Ulica Barlickiego": "bielsko-barlickiego-street",
+  "Chinkalnia przy Rynku": "chinkalnia-bielsko-rynek",
+  "Rynek w Opolu": "opole-market-square",
+  "Ratusz w Opolu": "opole-town-hall",
+  "Deptak przy ulicy Krakowskiej": "opole-krakowska-street",
   "barbara": "barbara-wroclaw",
   "bar-barbara": "barbara-wroclaw",
   "barbara-infopunkt": "barbara-wroclaw",
