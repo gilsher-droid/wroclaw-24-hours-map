@@ -81,7 +81,7 @@ h2 { margin:0; font:700 clamp(32px,4vw,50px)/1.15 Georgia,serif; }
 .place-copy p { margin:0; color:var(--muted); line-height:1.7; white-space:pre-line; }
 .optional-marker span { background:#50795f; }
 .route-marker.poznan-choice-marker > span:first-child{width:34px;height:34px;background:transparent;color:white;font-size:21px;line-height:1}
-.route-marker.poznan-choice-marker > span:first-child::before{background:#39734e;border-radius:50%;transform:none;border-width:2px;box-shadow:0 2px 5px #062b5c44}
+.route-marker.poznan-choice-marker > span:first-child::before{background:var(--choice-color,#39734e);border-radius:50%;transform:none;border-width:2px;box-shadow:0 2px 5px #062b5c44}
 .map-options{margin:0 0 16px;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:#f7faf8}
 .map-options[hidden]{display:none}
 .map-options p{margin:10px 0;color:#43576b;font-size:14px;line-height:1.6}
@@ -92,7 +92,7 @@ h2 { margin:0; font:700 clamp(32px,4vw,50px)/1.15 Georgia,serif; }
 .map-key-choice{background:#39734e;border-radius:50%}
 .map-choice-buttons{display:flex;flex-wrap:wrap;gap:8px}
 .map-choice-buttons button{min-height:42px;padding:9px 14px;border:1px solid #bdcbd2;border-radius:22px;background:white;color:var(--navy);font:700 14px/1.3 Arial,sans-serif;cursor:pointer}
-.map-choice-buttons button[aria-pressed=true]{background:var(--navy);color:white;border-color:var(--navy)}
+.map-choice-buttons button[aria-pressed=true]{background:var(--choice-color,var(--navy));color:white;border-color:var(--choice-color,var(--navy))}
 .map-choice-buttons button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .optional-place-group{margin:18px 0;border:1px solid var(--line);border-radius:18px;background:#fff;overflow:hidden}
 .optional-place-group>summary{display:flex;align-items:center;gap:12px;min-height:54px;padding:18px 22px;font-weight:700;cursor:pointer;list-style:none}
@@ -250,3 +250,12 @@ button.route-link { border:0; font:inherit; font-weight:800; cursor:pointer; }
 
 /* Leaflet anchors use left margins; prevent RTL right constraints from masking offsets. */
 .leaflet-marker-icon.poznan-separated-marker{position:absolute;right:auto}
+
+/* A layer has the same shape and colour in its filter and map markers. */
+.map-choice-glyph{display:block;width:20px;height:20px;flex:none}
+.map-choice-symbol,.map-choice-route-symbol{display:inline-grid;place-items:center;width:26px;height:26px;flex:none;border:1px solid #fff;border-radius:50%;background:var(--choice-color,var(--navy));color:#fff}
+.map-choice-route-symbol{font-weight:900}
+.map-choice-buttons button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:7px 12px}
+
+.leaflet-marker-icon.poznan-choice-marker{position:absolute;right:auto}
+.map-choice-buttons button:focus-visible{outline-color:var(--navy)}
