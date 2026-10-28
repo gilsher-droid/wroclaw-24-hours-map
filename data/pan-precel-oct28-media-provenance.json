@@ -1,0 +1,87 @@
+{
+  "canonicalID": "pan-precel-olawska",
+  "originalGalleryPaths": [
+    "/assets/feels-familiar/pan-precel-bag.jpg",
+    "/assets/feels-familiar/pan-precel-olawska.jpg"
+  ],
+  "assets": [
+    {
+      "name": "IMG_2662.JPG",
+      "asset": "/assets/pan-precel-oct28/source-2662.jpg",
+      "sourceSHA256": "282d9793e1febeeef5458a38d9f7d9d279bbbd14103cf6e240a188c9e6aef037",
+      "assetSHA256": "282d9793e1febeeef5458a38d9f7d9d279bbbd14103cf6e240a188c9e6aef037",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "existingCapture": false
+    },
+    {
+      "name": "IMG_2663.JPG",
+      "asset": "/assets/pan-precel-oct28/source-2663.jpg",
+      "sourceSHA256": "5f14cace3aae40fd0b853f3d692611ae9212d813c1fb050a90c3fe92352c292f",
+      "assetSHA256": "5f14cace3aae40fd0b853f3d692611ae9212d813c1fb050a90c3fe92352c292f",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "existingCapture": false
+    },
+    {
+      "name": "IMG_2664.JPG",
+      "asset": "/assets/pan-precel-oct28/source-2664.jpg",
+      "sourceSHA256": "f562b97498089f7c24f6ea314f66c6c8108ced358012fc27356636f680d473df",
+      "assetSHA256": "f562b97498089f7c24f6ea314f66c6c8108ced358012fc27356636f680d473df",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "existingCapture": false
+    },
+    {
+      "name": "IMG_2665.JPG",
+      "asset": "/assets/pan-precel-oct28/source-2665.jpg",
+      "sourceSHA256": "5a818328b8ec63d7e3d5d2505b00de7c78fe13f82cab41c6e8b08668368171fe",
+      "assetSHA256": "5a818328b8ec63d7e3d5d2505b00de7c78fe13f82cab41c6e8b08668368171fe",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "existingCapture": false
+    },
+    {
+      "name": "IMG_2666.JPG",
+      "asset": "/assets/feels-familiar/pan-precel-olawska.jpg",
+      "sourceSHA256": "74261c3acf2adb2f168ba27b9da88887eba2da9a9c750bee20a80dcf569ddbe3",
+      "assetSHA256": "74261c3acf2adb2f168ba27b9da88887eba2da9a9c750bee20a80dcf569ddbe3",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "existingCapture": true
+    },
+    {
+      "name": "IMG_2667.JPG",
+      "asset": "/assets/pan-precel-oct28/source-2667.jpg",
+      "sourceSHA256": "54a970edd4f62b81c3a5c79f503ca88f39e52e233b7597e8e8ba45076d6aafc2",
+      "assetSHA256": "54a970edd4f62b81c3a5c79f503ca88f39e52e233b7597e8e8ba45076d6aafc2",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "existingCapture": false
+    },
+    {
+      "name": "IMG_2668.JPG",
+      "asset": "/assets/feels-familiar/pan-precel-bag.jpg",
+      "sourceSHA256": "ce7dbac7a00f845102610dc5081911ae6375072749709f12cc3bc91eb5a39471",
+      "assetSHA256": "ce7dbac7a00f845102610dc5081911ae6375072749709f12cc3bc91eb5a39471",
+      "dimensions": [
+        3024,
+        4032
+      ],
+      "existingCapture": true
+    }
+  ],
+  "approvedRecordSHA256": "51c6ed66bb3bc2c0d4488e1cba6b7ad62433dc0ab042069cd071085e1e2e9b25"
+}

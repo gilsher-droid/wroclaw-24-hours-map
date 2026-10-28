@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {beforeRegional42} from './regional42-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -7,7 +8,7 @@ import {runInNewContext} from 'node:vm';
 const newFull=JSON.parse(readFileSync('data/brzeg-moszna-distinct18-oct24-preservation.json'));
 const proof=JSON.parse(readFileSync('data/regional-full-source-restoration-oct24-preservation.json')),additional=JSON.parse(readFileSync('data/jawor-brzeg-source-photo-additions-oct24-preservation.json')),w={};
 for(const f of ['data/place-catalog.js','data/lower-silesia-excursions.js','data/youtube-video-hosting.js'])runInNewContext(readFileSync(f,'utf8'),{window:w,console});
-const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+const plain=x=>JSON.parse(JSON.stringify(beforePanPrecelMedia(x))),hash=x=>createHash('sha256').update(JSON.stringify(beforePanPrecelMedia(x))).digest('hex');
 test('Regional restoration preserves all225 unrelated canonicals and all existing identity, hero, social, guides and media',()=>{
  let unchanged=0;
  for(const[id,h]of Object.entries(proof.recordHashes)){

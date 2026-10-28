@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -6,7 +7,7 @@ import {createHash} from 'node:crypto';
 const f=JSON.parse(readFileSync('data/fourday-full-source-oct22-preservation.json'));
 const window={location:{origin:'https://wroc-love.com'}},document={documentElement:{lang:'he'},addEventListener(){}};
 for(const p of ['data/place-catalog.js','youtube-video.js','data/location-media.js','guide-video.js'])runInNewContext(readFileSync(p,'utf8'),{window,document,console,URLSearchParams});
-const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+const plain=x=>JSON.parse(JSON.stringify(beforePanPrecelMedia(x))),hash=x=>createHash('sha256').update(JSON.stringify(beforePanPrecelMedia(x))).digest('hex');
 test('Fourday source additions preserve229 unrelated canonical records and both place identities, heroes, guides, links and existing media',()=>{
  let n=0;for(const[id,h]of Object.entries(f.recordHashes)){const p=plain(window.WROC_CATALOG.getPlace(id));if(!f.authorizedIds.includes(id)){assert.equal(hash(p),h,id);n++;continue;}const old=f.places[id];for(const key of ['id','localName','name','description','location','links','socialPosts','sourceRecords','categories'])assert.deepEqual(p[key],old[key],id+':'+key);assert.equal(p.media.thumbnail,old.media.thumbnail);assert.deepEqual(p.media.guideVideos,old.media.guideVideos);for(const a of old.media.photos)assert.ok(p.media.photos.includes(a));for(const v of old.media.videos)assert.ok(p.media.videos.includes(v));}assert.equal(n,229);
 });

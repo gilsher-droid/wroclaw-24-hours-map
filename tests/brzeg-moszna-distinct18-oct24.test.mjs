@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {beforeRegional42} from './regional42-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -6,7 +7,7 @@ import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
 const proof=JSON.parse(readFileSync('data/brzeg-moszna-distinct18-oct24-preservation.json')),w={};
 for(const file of ['data/place-catalog.js','data/lower-silesia-excursions.js'])runInNewContext(readFileSync(file,'utf8'),{window:w,console});
-const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+const plain=x=>JSON.parse(JSON.stringify(beforePanPrecelMedia(x))),hash=x=>createHash('sha256').update(JSON.stringify(beforePanPrecelMedia(x))).digest('hex');
 test('18 distinct Brzeg and Moszna photos preserve all227 other canonicals and all existing identity, hero, links and media',()=>{
  let unchanged=0;
  for(const[id,expected]of Object.entries(proof.recordHashes)){

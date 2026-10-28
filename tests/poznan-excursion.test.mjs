@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync, existsSync} from 'node:fs';
@@ -92,7 +93,7 @@ test('The Poznan addition preserves every prior canonical record and every prior
   const w=load(), proof=JSON.parse(readFileSync('tests/fixtures/poznan-preintegration.json','utf8'));
   const ids=JSON.parse(readFileSync('data/poznan-excursion-place-ids.json','utf8'));
   const later=new Set([...JSON.parse(readFileSync('data/slovakia-bielsko-opole-place-ids.json','utf8')), ...JSON.parse(readFileSync('data/torun-excursion-place-ids.json','utf8'))]);
-  const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
+  const hash=value=>createHash('sha256').update(JSON.stringify(beforePanPrecelMedia(value))).digest('hex');
   assert.equal(Object.keys(proof.recordHashes).length,233);
   assert.equal(Object.keys(w.WROC_CATALOG.places).filter(id=>!later.has(id)).length,233+ids.length);
   assert.deepEqual(Object.keys(w.WROC_CATALOG.places).filter(id=>!later.has(id)&&!Object.hasOwn(proof.recordHashes,id)).sort(),ids.slice().sort());

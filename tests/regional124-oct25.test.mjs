@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import {beforePiotrkowskaDetails} from './piotrkowska-details-historical-baseline.mjs';
 import {beforeRegional42} from './regional42-historical-baseline.mjs';
@@ -8,7 +9,7 @@ import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
 const proof=JSON.parse(readFileSync('data/regional124-oct25-preservation.json')),window={};
 runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window,console});
-const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
+const plain=x=>JSON.parse(JSON.stringify(beforePanPrecelMedia(x))),hash=x=>createHash('sha256').update(JSON.stringify(beforePanPrecelMedia(x))).digest('hex');
 test('Regional124 photo additions preserve all other records and existing identity/media in nine changed places',()=>{
  assert.deepEqual(historicalPlaceIds(window.WROC_CATALOG.places).filter(id=>id!=="lodz-roa-weasels-mural"&&id!=="forum-kulinarne-wroclaw").sort(),Object.keys(proof.recordHashes).sort());let unchanged=0;
  for(const[id,h]of Object.entries(proof.recordHashes)){const p=beforePiotrkowskaDetails(plain(window.WROC_CATALOG.getPlace(id)));if(!proof.changedIds.includes(id)){assert.equal(hash(p),h,id);unchanged++;continue;}Object.assign(p,beforeRegional42(p));const old=proof.before[id],rows=proof.photos.filter(r=>r.canonicalId===id);assert.equal(p.media.photos.length,old.media.photos.length+rows.length,id);assert.deepEqual(p.media.photos.slice(0,old.media.photos.length),old.media.photos,id);p.media.photos=old.media.photos;for(const r of rows)delete p.media.metadata[r.asset];if(!Object.hasOwn(old.media,"metadata")){assert.deepEqual(p.media.metadata,{});delete p.media.metadata;}assert.deepEqual(p,old,id);}

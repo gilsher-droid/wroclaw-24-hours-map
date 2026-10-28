@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {beforeTwoSpecificApprovedPhotos} from './two-specific-approved-photos-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -14,7 +15,7 @@ test('Rose Passage architectural photograph preserves original bytes, thirteen p
   const all = window.WROC_CATALOG.places;
   assert.equal(Object.keys(proof.recordHashes).length, 230);
   for (const [id, expected] of Object.entries(proof.recordHashes)) {
-    assert.equal(hash(JSON.stringify(all[id])), expected, id);
+    assert.equal(hash(JSON.stringify(beforePanPrecelMedia(all[id]))), expected, id);
   }
   const place = beforeTwoSpecificApprovedPhotos(all[proof.canonicalId]);
   assert.equal(place.media.photos.length, 14);

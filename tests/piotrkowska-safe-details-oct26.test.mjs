@@ -1,3 +1,4 @@
+import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -13,9 +14,9 @@ test('Two named Piotrkowska street details preserve original bytes, fourteen pri
   const all = window.WROC_CATALOG.places;
   assert.equal(Object.keys(proof.recordHashes).length, 230);
   for (const [id, expected] of Object.entries(proof.recordHashes)) {
-    assert.equal(hash(JSON.stringify(all[id])), expected, id);
+    assert.equal(hash(JSON.stringify(beforePanPrecelMedia(all[id]))), expected, id);
   }
-  const place = JSON.parse(JSON.stringify(all[proof.canonicalId]));
+  const place = JSON.parse(JSON.stringify(beforePanPrecelMedia(all[proof.canonicalId])));
   assert.equal(place.media.photos.length, 16);
   assert.deepEqual(place.media.photos.slice(0, 14), proof.before.media.photos);
   for (const photo of proof.photos) {
