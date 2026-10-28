@@ -195,6 +195,104 @@
       "lng": 17.0334619
     }
   },
+  "bielsko-barlickiego-street": {
+    "id": "bielsko-barlickiego-street",
+    "name": {
+      "he": "רחוב ברליצקייגו",
+      "en": "Barlickiego Street",
+      "pl": "Ulica Barlickiego",
+      "de": "Barlickiego-Straße",
+      "cs": "Ulice Barlickiego"
+    },
+    "coordinates": {
+      "lat": 49.8245252,
+      "lng": 19.0461937
+    }
+  },
+  "bielsko-biala-town-hall": {
+    "id": "bielsko-biala-town-hall",
+    "name": {
+      "he": "בית העירייה של ביאלסקו־ביאלה",
+      "en": "Bielsko-Biała Town Hall",
+      "pl": "Ratusz w Bielsku-Białej",
+      "de": "Rathaus Bielsko-Biała",
+      "cs": "Radnice v Bílsku-Bělé"
+    },
+    "coordinates": {
+      "lat": 49.821748458473,
+      "lng": 19.050618096793
+    }
+  },
+  "bielsko-burda-house": {
+    "id": "bielsko-burda-house",
+    "name": {
+      "he": "בית בורדה על הנהר",
+      "en": "Burda House by the river",
+      "pl": "Kamienica Burdy",
+      "de": "Burda-Haus am Fluss",
+      "cs": "Burdův dům u řeky"
+    },
+    "coordinates": {
+      "lat": 49.8231468,
+      "lng": 19.0475723
+    }
+  },
+  "bielsko-plac-wojska-polskiego": {
+    "id": "bielsko-plac-wojska-polskiego",
+    "name": {
+      "he": "כיכר ווייסקה פולסקייגו בביאלה",
+      "en": "Plac Wojska Polskiego in Biała",
+      "pl": "Plac Wojska Polskiego w Białej",
+      "de": "Plac Wojska Polskiego in Biała",
+      "cs": "Plac Wojska Polskiego v Bělé"
+    },
+    "coordinates": {
+      "lat": 49.823427,
+      "lng": 19.0509756
+    }
+  },
+  "bielsko-plac-wolnosci": {
+    "id": "bielsko-plac-wolnosci",
+    "name": {
+      "he": "כיכר וולנושצ׳י בביאלה",
+      "en": "Plac Wolności in Biała",
+      "pl": "Plac Wolności w Białej",
+      "de": "Plac Wolności in Biała",
+      "cs": "Plac Wolności v Bělé"
+    },
+    "coordinates": {
+      "lat": 49.8233658,
+      "lng": 19.053728
+    }
+  },
+  "bielsko-rynek": {
+    "id": "bielsko-rynek",
+    "name": {
+      "he": "כיכר השוק בביאלסקו",
+      "en": "Bielsko Market Square",
+      "pl": "Rynek w Bielsku",
+      "de": "Marktplatz in Bielsko",
+      "cs": "Bílský Rynek"
+    },
+    "coordinates": {
+      "lat": 49.8211627,
+      "lng": 19.0427069
+    }
+  },
+  "bielsko-st-nicholas-cathedral": {
+    "id": "bielsko-st-nicholas-cathedral",
+    "name": {
+      "he": "קתדרלת ניקולאוס הקדוש",
+      "en": "St Nicholas Cathedral",
+      "pl": "Katedra św. Mikołaja",
+      "de": "Nikolauskathedrale",
+      "cs": "Katedrála sv. Mikuláše"
+    },
+    "coordinates": {
+      "lat": 49.8202422,
+      "lng": 19.0429958
+    }
+  },
   "bistro-stu-mostow": {
     "id": "bistro-stu-mostow",
     "name": {
@@ -515,6 +613,20 @@
     "coordinates": {
       "lat": 51.1119289,
       "lng": 17.0313524
+    }
+  },
+  "chinkalnia-bielsko-rynek": {
+    "id": "chinkalnia-bielsko-rynek",
+    "name": {
+      "he": "חינקלניה בכיכר השוק",
+      "en": "Chinkalnia on Rynek",
+      "pl": "Chinkalnia przy Rynku",
+      "de": "Chinkalnia am Rynek",
+      "cs": "Chinkalnia na Rynku"
+    },
+    "coordinates": {
+      "lat": 49.8207903,
+      "lng": 19.0426433
     }
   },
   "church-of-peace-swidnica": {
@@ -1971,6 +2083,48 @@
     "coordinates": {
       "lat": 51.10672,
       "lng": 17.03254
+    }
+  },
+  "opole-krakowska-street": {
+    "id": "opole-krakowska-street",
+    "name": {
+      "he": "מדרחוב קרקובסקה",
+      "en": "Krakowska pedestrian street",
+      "pl": "Deptak przy ulicy Krakowskiej",
+      "de": "Fußgängerstraße Krakowska",
+      "cs": "Pěší ulice Krakowska"
+    },
+    "coordinates": {
+      "lat": 50.6649128,
+      "lng": 17.9251642
+    }
+  },
+  "opole-market-square": {
+    "id": "opole-market-square",
+    "name": {
+      "he": "כיכר השוק באופולה",
+      "en": "Opole Market Square",
+      "pl": "Rynek w Opolu",
+      "de": "Marktplatz Opole",
+      "cs": "Rynek v Opolí"
+    },
+    "coordinates": {
+      "lat": 50.6684043,
+      "lng": 17.9218723
+    }
+  },
+  "opole-town-hall": {
+    "id": "opole-town-hall",
+    "name": {
+      "he": "בית העירייה של אופולה",
+      "en": "Opole Town Hall",
+      "pl": "Ratusz w Opolu",
+      "de": "Rathaus Opole",
+      "cs": "Radnice v Opolí"
+    },
+    "coordinates": {
+      "lat": 50.668554119867,
+      "lng": 17.922404742383
     }
   },
   "ossolineum": {

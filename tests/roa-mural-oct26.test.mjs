@@ -27,7 +27,7 @@ test('ROA is one new canonical and one original; all231 existing records stay by
 
 test('Optional ROA stop preserves all previous trip objects, times and other excursions',()=>{
  const trips=plain(window.WROC_LOWER_SILESIA_EXCURSIONS.excursions),trip=trips.find(x=>x.id===proof.beforeTrip.id),before=proof.beforeTrip,id=proof.canonicalId;
- assert.deepEqual(trips.filter(x=>x.id!==trip.id&&x.id!=='poznan-wroclaw-stopover'),proof.otherTrips);
+ assert.deepEqual(trips.filter(x=>x.id!==trip.id&&x.id!=='poznan-wroclaw-stopover'&&x.id!=='slovakia-bielsko-opole-wroclaw'),proof.otherTrips);
  assert.equal(trip.canonicalPlaceIds.filter(x=>x===id).length,1);
  assert.deepEqual(trip.canonicalPlaceIds.filter(x=>x!==id),before.canonicalPlaceIds);
  assert.deepEqual(trip.routePoints.filter(x=>x.canonicalPlaceId!==id),before.routePoints);

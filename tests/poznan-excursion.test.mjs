@@ -17,7 +17,7 @@ test('Poznan focuses on its city walk and optional places without an intercity m
   const w = load(), product = w.WROC_LOWER_SILESIA_EXCURSIONS;
   const trip = product.excursions.find(item => item.id === 'poznan-wroclaw-stopover');
   assert.ok(trip);
-  assert.equal(product.excursions.length, 7);
+  assert.equal(product.excursions.length, 8);
   assert.equal(trip.meta.region, 'wielkopolska');
   assert.equal(trip.initialMapFocus, 'local-stops');
   assert.deepEqual(Array.from(trip.walkingRoute.points, point => point.canonicalPlaceId), Array.from(trip.canonicalPlaceIds));
@@ -91,10 +91,11 @@ test('Poznan media records the current inventory and the scoped folder approval'
 test('The Poznan addition preserves every prior canonical record and every prior excursion byte for byte', () => {
   const w=load(), proof=JSON.parse(readFileSync('tests/fixtures/poznan-preintegration.json','utf8'));
   const ids=JSON.parse(readFileSync('data/poznan-excursion-place-ids.json','utf8'));
+  const later=new Set(JSON.parse(readFileSync('data/slovakia-bielsko-opole-place-ids.json','utf8')));
   const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
   assert.equal(Object.keys(proof.recordHashes).length,233);
-  assert.equal(Object.keys(w.WROC_CATALOG.places).length,233+ids.length);
-  assert.deepEqual(Object.keys(w.WROC_CATALOG.places).filter(id=>!Object.hasOwn(proof.recordHashes,id)).sort(),ids.slice().sort());
+  assert.equal(Object.keys(w.WROC_CATALOG.places).filter(id=>!later.has(id)).length,233+ids.length);
+  assert.deepEqual(Object.keys(w.WROC_CATALOG.places).filter(id=>!later.has(id)&&!Object.hasOwn(proof.recordHashes,id)).sort(),ids.slice().sort());
   const trip=w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(x=>x.id==='poznan-wroclaw-stopover');
   assert.deepEqual([...trip.canonicalPlaceIds,...trip.optionalPlaceIds].sort(),ids.slice().sort());
   for(const[id,expected]of Object.entries(proof.recordHashes))assert.equal(hash(w.WROC_CATALOG.places[id]),expected,id);

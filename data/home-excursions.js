@@ -125,5 +125,23 @@ window.WROC_HOME_EXCURSIONS = [
       "cs": "Den v Poznani se Starým náměstím a radnicí, uličkami Starého Města, Tumským ostrovem a malbou ve Śródce, s vybranou zastávkou na jídlo či kávu."
     },
     "photo": "/assets/poznan/source-052.jpg"
+  },
+  {
+    "id": "slovakia-bielsko-opole-wroclaw",
+    "title": {
+      "he": "נקודות עירוניות לעצירה בדרך מסלובקיה לוורוצלב",
+      "en": "Urban stops on the way from Slovakia to Wrocław",
+      "pl": "Miejskie przystanki w drodze ze Słowacji do Wrocławia",
+      "de": "Städtische Zwischenstopps auf dem Weg von der Slowakei nach Wrocław",
+      "cs": "Městské zastávky cestou ze Slovenska do Vratislavi"
+    },
+    "summary": {
+      "he": "בדרך לוורוצלב אפשר לשלב עצירה בביאלסקו־ביאלה, באופולה או בשתיהן. בחרו סיבוב במרכז העיר, ארוחה או הליכה ליד הנהר לפי מסלול ההגעה והזמן הפנוי.",
+      "en": "On the way to Wrocław, stop in Bielsko-Biała, Opole or both. Choose a city-centre walk, a meal or a riverside break to suit your route and available time.",
+      "pl": "W drodze do Wrocławia zatrzymajcie się w Bielsku-Białej, Opolu lub w obu miastach. Wybierzcie spacer po centrum, posiłek albo odpoczynek nad rzeką, zależnie od trasy i czasu.",
+      "de": "Auf dem Weg nach Wrocław bietet sich ein Halt in Bielsko-Biała, in Opole oder in beiden Städten an. Ein Stadtspaziergang, eine Mahlzeit oder eine Pause am Fluss lassen sich nach Route und verfügbarer Zeit auswählen.",
+      "cs": "Cestou do Vratislavi se zastavte v Bílsku-Bělé, v Opolí nebo v obou městech. Procházku centrem, jídlo či odpočinek u řeky zvolte podle trasy a času."
+    },
+    "photo": "/assets/slovakia-bielsko-opole/source-04.jpg"
   }
 ];

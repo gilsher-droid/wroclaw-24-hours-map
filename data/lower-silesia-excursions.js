@@ -2385,13 +2385,657 @@
   "localOnlyMap": true
 };
 
+  const slovakiaStopover = {
+  "id": "slovakia-bielsko-opole-wroclaw",
+  "slug": "slovakia-bielsko-opole-wroclaw",
+  "title": {
+    "he": "נקודות עירוניות לעצירה בדרך מסלובקיה לוורוצלב",
+    "en": "Urban stops on the way from Slovakia to Wrocław",
+    "pl": "Miejskie przystanki w drodze ze Słowacji do Wrocławia",
+    "de": "Städtische Zwischenstopps auf dem Weg von der Slowakei nach Wrocław",
+    "cs": "Městské zastávky cestou ze Slovenska do Vratislavi"
+  },
+  "summary": {
+    "he": "בדרך לוורוצלב אפשר לשלב עצירה בביאלסקו־ביאלה, באופולה או בשתיהן. בחרו סיבוב במרכז העיר, ארוחה או הליכה ליד הנהר לפי מסלול ההגעה והזמן הפנוי.",
+    "en": "On the way to Wrocław, stop in Bielsko-Biała, Opole or both. Choose a city-centre walk, a meal or a riverside break to suit your route and available time.",
+    "pl": "W drodze do Wrocławia zatrzymajcie się w Bielsku-Białej, Opolu lub w obu miastach. Wybierzcie spacer po centrum, posiłek albo odpoczynek nad rzeką, zależnie od trasy i czasu.",
+    "de": "Auf dem Weg nach Wrocław bietet sich ein Halt in Bielsko-Biała, in Opole oder in beiden Städten an. Ein Stadtspaziergang, eine Mahlzeit oder eine Pause am Fluss lassen sich nach Route und verfügbarer Zeit auswählen.",
+    "cs": "Cestou do Vratislavi se zastavte v Bílsku-Bělé, v Opolí nebo v obou městech. Procházku centrem, jídlo či odpočinek u řeky zvolte podle trasy a času."
+  },
+  "meta": {
+    "duration": "flexible",
+    "startsAt": "slovakia",
+    "region": "silesia-opole",
+    "tags": [
+      "cities",
+      "architecture",
+      "food",
+      "stopover"
+    ]
+  },
+  "durationLabel": {
+    "he": "עצירה גמישה לפי הזמן הפנוי",
+    "en": "Flexible stopover",
+    "pl": "Elastyczny postój",
+    "de": "Flexibler Zwischenstopp",
+    "cs": "Flexibilní zastávka"
+  },
+  "startsLabel": {
+    "he": "בדרך מסלובקיה לוורוצלב",
+    "en": "On the way from Slovakia to Wrocław",
+    "pl": "W drodze ze Słowacji do Wrocławia",
+    "de": "Auf dem Weg von der Slowakei nach Wrocław",
+    "cs": "Cestou ze Slovenska do Vratislavi"
+  },
+  "regionLabel": {
+    "he": "ביאלסקו־ביאלה ואופולה",
+    "en": "Bielsko-Biała and Opole",
+    "pl": "Bielsko-Biała i Opole",
+    "de": "Bielsko-Biała und Opole",
+    "cs": "Bílsko-Bělá a Opolí"
+  },
+  "heroMedia": {
+    "canonicalPlaceId": "bielsko-burda-house",
+    "photoIndex": 0
+  },
+  "canonicalPlaceIds": [
+    "bielsko-rynek",
+    "bielsko-st-nicholas-cathedral",
+    "bielsko-burda-house",
+    "bielsko-biala-town-hall",
+    "opole-market-square",
+    "opole-town-hall",
+    "opole-krakowska-street"
+  ],
+  "optionalPlaceIds": [
+    "chinkalnia-bielsko-rynek",
+    "bielsko-barlickiego-street",
+    "bielsko-plac-wojska-polskiego",
+    "bielsko-plac-wolnosci"
+  ],
+  "cityChapters": [
+    {
+      "id": "bielsko-biala",
+      "cityLabel": {
+        "he": "ביאלסקו־ביאלה",
+        "en": "Bielsko-Biała",
+        "pl": "Bielsko-Biała",
+        "de": "Bielsko-Biała",
+        "cs": "Bílsko-Bělá"
+      },
+      "summary": {
+        "he": "סיבוב בין כיכר השוק, מגדל הקתדרלה, בית בורדה ובית העירייה. בחרו תוספות או עצירת אוכל לפי הזמן הפנוי.",
+        "en": "Walk between Market Square, the cathedral tower, Burda House and the town hall. Choose additional stops or a meal to suit your available time.",
+        "pl": "Spacer między Rynkiem, wieżą katedry, kamienicą Burdy i ratuszem. Dobierz dodatkowe miejsca lub posiłek do dostępnego czasu.",
+        "de": "Spaziergang zwischen Marktplatz, Kathedralenturm, Burda-Haus und Rathaus. Zusätzliche Orte oder eine Mahlzeit nach verfügbarer Zeit auswählen.",
+        "cs": "Procházka mezi Rynkem, věží katedrály, Burdovým domem a radnicí. Další místa nebo jídlo zvolte podle času."
+      },
+      "canonicalPlaceIds": [
+        "bielsko-rynek",
+        "bielsko-st-nicholas-cathedral",
+        "bielsko-burda-house",
+        "bielsko-biala-town-hall"
+      ],
+      "optionalPlaceIds": [
+        "chinkalnia-bielsko-rynek",
+        "bielsko-barlickiego-street",
+        "bielsko-plac-wojska-polskiego",
+        "bielsko-plac-wolnosci"
+      ],
+      "routePoints": [
+        {
+          "id": "1",
+          "canonicalPlaceId": "bielsko-rynek"
+        },
+        {
+          "id": "2",
+          "canonicalPlaceId": "bielsko-st-nicholas-cathedral"
+        },
+        {
+          "id": "3",
+          "canonicalPlaceId": "bielsko-burda-house"
+        },
+        {
+          "id": "4",
+          "canonicalPlaceId": "bielsko-biala-town-hall"
+        }
+      ],
+      "showDestinationMarker": true,
+      "walkingRoute": {
+        "title": {
+          "he": "ביאלסקו־ביאלה",
+          "en": "Bielsko-Biała",
+          "pl": "Bielsko-Biała",
+          "de": "Bielsko-Biała",
+          "cs": "Bílsko-Bělá"
+        },
+        "summary": {
+          "he": "סיבוב בין כיכר השוק, מגדל הקתדרלה, בית בורדה ובית העירייה. בחרו תוספות או עצירת אוכל לפי הזמן הפנוי.",
+          "en": "Walk between Market Square, the cathedral tower, Burda House and the town hall. Choose additional stops or a meal to suit your available time.",
+          "pl": "Spacer między Rynkiem, wieżą katedry, kamienicą Burdy i ratuszem. Dobierz dodatkowe miejsca lub posiłek do dostępnego czasu.",
+          "de": "Spaziergang zwischen Marktplatz, Kathedralenturm, Burda-Haus und Rathaus. Zusätzliche Orte oder eine Mahlzeit nach verfügbarer Zeit auswählen.",
+          "cs": "Procházka mezi Rynkem, věží katedrály, Burdovým domem a radnicí. Další místa nebo jídlo zvolte podle času."
+        },
+        "points": [
+          {
+            "id": "1",
+            "canonicalPlaceId": "bielsko-rynek"
+          },
+          {
+            "id": "2",
+            "canonicalPlaceId": "bielsko-st-nicholas-cathedral"
+          },
+          {
+            "id": "3",
+            "canonicalPlaceId": "bielsko-burda-house"
+          },
+          {
+            "id": "4",
+            "canonicalPlaceId": "bielsko-biala-town-hall"
+          }
+        ],
+        "geometryAccuracy": "stop-order-only",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=49.8211627,19.0427069&destination=49.821748458473,19.050618096793&waypoints=49.8202422,19.0429958%7C49.8231468,19.0475723&travelmode=walking"
+        },
+        "note": {
+          "he": "הקו מציג את סדר התחנות. עקבו אחר הרחובות וקישורי הניווט.",
+          "en": "The line shows stop order. Follow streets and the navigation links.",
+          "pl": "Linia pokazuje kolejność przystanków. Korzystaj z ulic i odnośników nawigacji.",
+          "de": "Die Linie zeigt die Reihenfolge der Stationen. Straßen und Navigationslinks folgen.",
+          "cs": "Čára ukazuje pořadí zastávek. Sledujte ulice a navigační odkazy."
+        }
+      },
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=49.8211627,19.0427069&destination=49.821748458473,19.050618096793&waypoints=49.8202422,19.0429958%7C49.8231468,19.0475723&travelmode=walking"
+      },
+      "steps": [
+        {
+          "id": "1",
+          "canonicalPlaceId": "bielsko-rynek",
+          "title": {
+            "he": "כיכר השוק בביאלסקו",
+            "en": "Bielsko Market Square",
+            "pl": "Rynek w Bielsku",
+            "de": "Marktplatz in Bielsko",
+            "cs": "Bílský Rynek"
+          },
+          "duration": {
+            "he": "עצירה לבחירה במהלך ההליכה",
+            "en": "A stop during your walk",
+            "pl": "Przystanek podczas spaceru",
+            "de": "Halt während des Spaziergangs",
+            "cs": "Zastávka během procházky"
+          }
+        },
+        {
+          "id": "2",
+          "canonicalPlaceId": "bielsko-st-nicholas-cathedral",
+          "title": {
+            "he": "קתדרלת ניקולאוס הקדוש",
+            "en": "St Nicholas Cathedral",
+            "pl": "Katedra św. Mikołaja",
+            "de": "Nikolauskathedrale",
+            "cs": "Katedrála sv. Mikuláše"
+          },
+          "duration": {
+            "he": "עצירה לבחירה במהלך ההליכה",
+            "en": "A stop during your walk",
+            "pl": "Przystanek podczas spaceru",
+            "de": "Halt während des Spaziergangs",
+            "cs": "Zastávka během procházky"
+          }
+        },
+        {
+          "id": "3",
+          "canonicalPlaceId": "bielsko-burda-house",
+          "title": {
+            "he": "בית בורדה על הנהר",
+            "en": "Burda House by the river",
+            "pl": "Kamienica Burdy",
+            "de": "Burda-Haus am Fluss",
+            "cs": "Burdův dům u řeky"
+          },
+          "duration": {
+            "he": "עצירה לבחירה במהלך ההליכה",
+            "en": "A stop during your walk",
+            "pl": "Przystanek podczas spaceru",
+            "de": "Halt während des Spaziergangs",
+            "cs": "Zastávka během procházky"
+          }
+        },
+        {
+          "id": "4",
+          "canonicalPlaceId": "bielsko-biala-town-hall",
+          "title": {
+            "he": "בית העירייה של ביאלסקו־ביאלה",
+            "en": "Bielsko-Biała Town Hall",
+            "pl": "Ratusz w Bielsku-Białej",
+            "de": "Rathaus Bielsko-Biała",
+            "cs": "Radnice v Bílsku-Bělé"
+          },
+          "duration": {
+            "he": "עצירה לבחירה במהלך ההליכה",
+            "en": "A stop during your walk",
+            "pl": "Przystanek podczas spaceru",
+            "de": "Halt während des Spaziergangs",
+            "cs": "Zastávka během procházky"
+          }
+        }
+      ]
+    },
+    {
+      "id": "opole",
+      "cityLabel": {
+        "he": "אופולה",
+        "en": "Opole",
+        "pl": "Opole",
+        "de": "Opole",
+        "cs": "Opolí"
+      },
+      "summary": {
+        "he": "התחילו בכיכר השוק ובבית העירייה והמשיכו למדרחוב קרקובסקה. תמונות הנהר מתעדות את הביקור בעיר, ללא הבטחה למקטע הליכה מסוים.",
+        "en": "Start with Market Square and the town hall, then continue along Krakowska pedestrian street. Our riverside photographs document the city visit without specifying a walking section.",
+        "pl": "Zacznij od Rynku i ratusza, a potem przejdź deptakiem przy Krakowskiej. Zdjęcia znad rzeki dokumentują wizytę w mieście bez wskazywania konkretnego odcinka spaceru.",
+        "de": "Am Marktplatz und Rathaus beginnen, dann der Fußgängerstraße Krakowska folgen. Unsere Flussfotos dokumentieren den Stadtbesuch ohne einen bestimmten Uferabschnitt festzulegen.",
+        "cs": "Začněte na Rynku u radnice a pokračujte pěší ulicí Krakowska. Fotografie u řeky dokumentují návštěvu města bez určení konkrétního úseku procházky."
+      },
+      "canonicalPlaceIds": [
+        "opole-market-square",
+        "opole-town-hall",
+        "opole-krakowska-street"
+      ],
+      "optionalPlaceIds": [],
+      "routePoints": [
+        {
+          "id": "1",
+          "canonicalPlaceId": "opole-market-square"
+        },
+        {
+          "id": "2",
+          "canonicalPlaceId": "opole-town-hall"
+        },
+        {
+          "id": "3",
+          "canonicalPlaceId": "opole-krakowska-street"
+        }
+      ],
+      "showDestinationMarker": true,
+      "walkingRoute": {
+        "title": {
+          "he": "אופולה",
+          "en": "Opole",
+          "pl": "Opole",
+          "de": "Opole",
+          "cs": "Opolí"
+        },
+        "summary": {
+          "he": "התחילו בכיכר השוק ובבית העירייה והמשיכו למדרחוב קרקובסקה. תמונות הנהר מתעדות את הביקור בעיר, ללא הבטחה למקטע הליכה מסוים.",
+          "en": "Start with Market Square and the town hall, then continue along Krakowska pedestrian street. Our riverside photographs document the city visit without specifying a walking section.",
+          "pl": "Zacznij od Rynku i ratusza, a potem przejdź deptakiem przy Krakowskiej. Zdjęcia znad rzeki dokumentują wizytę w mieście bez wskazywania konkretnego odcinka spaceru.",
+          "de": "Am Marktplatz und Rathaus beginnen, dann der Fußgängerstraße Krakowska folgen. Unsere Flussfotos dokumentieren den Stadtbesuch ohne einen bestimmten Uferabschnitt festzulegen.",
+          "cs": "Začněte na Rynku u radnice a pokračujte pěší ulicí Krakowska. Fotografie u řeky dokumentují návštěvu města bez určení konkrétního úseku procházky."
+        },
+        "points": [
+          {
+            "id": "1",
+            "canonicalPlaceId": "opole-market-square"
+          },
+          {
+            "id": "2",
+            "canonicalPlaceId": "opole-town-hall"
+          },
+          {
+            "id": "3",
+            "canonicalPlaceId": "opole-krakowska-street"
+          }
+        ],
+        "geometryAccuracy": "stop-order-only",
+        "navigation": {
+          "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=50.6684043,17.9218723&destination=50.6649128,17.9251642&waypoints=50.668554119867,17.922404742383&travelmode=walking"
+        },
+        "note": {
+          "he": "הקו מציג את סדר התחנות. עקבו אחר הרחובות וקישורי הניווט.",
+          "en": "The line shows stop order. Follow streets and the navigation links.",
+          "pl": "Linia pokazuje kolejność przystanków. Korzystaj z ulic i odnośników nawigacji.",
+          "de": "Die Linie zeigt die Reihenfolge der Stationen. Straßen und Navigationslinks folgen.",
+          "cs": "Čára ukazuje pořadí zastávek. Sledujte ulice a navigační odkazy."
+        }
+      },
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=50.6684043,17.9218723&destination=50.6649128,17.9251642&waypoints=50.668554119867,17.922404742383&travelmode=walking"
+      },
+      "steps": [
+        {
+          "id": "1",
+          "canonicalPlaceId": "opole-market-square",
+          "title": {
+            "he": "כיכר השוק באופולה",
+            "en": "Opole Market Square",
+            "pl": "Rynek w Opolu",
+            "de": "Marktplatz Opole",
+            "cs": "Rynek v Opolí"
+          },
+          "duration": {
+            "he": "עצירה לבחירה במהלך ההליכה",
+            "en": "A stop during your walk",
+            "pl": "Przystanek podczas spaceru",
+            "de": "Halt während des Spaziergangs",
+            "cs": "Zastávka během procházky"
+          }
+        },
+        {
+          "id": "2",
+          "canonicalPlaceId": "opole-town-hall",
+          "title": {
+            "he": "בית העירייה של אופולה",
+            "en": "Opole Town Hall",
+            "pl": "Ratusz w Opolu",
+            "de": "Rathaus Opole",
+            "cs": "Radnice v Opolí"
+          },
+          "duration": {
+            "he": "עצירה לבחירה במהלך ההליכה",
+            "en": "A stop during your walk",
+            "pl": "Przystanek podczas spaceru",
+            "de": "Halt während des Spaziergangs",
+            "cs": "Zastávka během procházky"
+          }
+        },
+        {
+          "id": "3",
+          "canonicalPlaceId": "opole-krakowska-street",
+          "title": {
+            "he": "מדרחוב קרקובסקה",
+            "en": "Krakowska pedestrian street",
+            "pl": "Deptak przy ulicy Krakowskiej",
+            "de": "Fußgängerstraße Krakowska",
+            "cs": "Pěší ulice Krakowska"
+          },
+          "duration": {
+            "he": "עצירה לבחירה במהלך ההליכה",
+            "en": "A stop during your walk",
+            "pl": "Przystanek podczas spaceru",
+            "de": "Halt während des Spaziergangs",
+            "cs": "Zastávka během procházky"
+          }
+        }
+      ]
+    }
+  ],
+  "defaultCity": "bielsko-biala",
+  "routePoints": [
+    {
+      "id": "1",
+      "canonicalPlaceId": "bielsko-rynek"
+    },
+    {
+      "id": "2",
+      "canonicalPlaceId": "bielsko-st-nicholas-cathedral"
+    },
+    {
+      "id": "3",
+      "canonicalPlaceId": "bielsko-burda-house"
+    },
+    {
+      "id": "4",
+      "canonicalPlaceId": "bielsko-biala-town-hall"
+    }
+  ],
+  "showDestinationMarker": true,
+  "initialMapFocus": "local-stops",
+  "localOnlyMap": true,
+  "walkingRoute": {
+    "title": {
+      "he": "ביאלסקו־ביאלה",
+      "en": "Bielsko-Biała",
+      "pl": "Bielsko-Biała",
+      "de": "Bielsko-Biała",
+      "cs": "Bílsko-Bělá"
+    },
+    "summary": {
+      "he": "סיבוב בין כיכר השוק, מגדל הקתדרלה, בית בורדה ובית העירייה. בחרו תוספות או עצירת אוכל לפי הזמן הפנוי.",
+      "en": "Walk between Market Square, the cathedral tower, Burda House and the town hall. Choose additional stops or a meal to suit your available time.",
+      "pl": "Spacer między Rynkiem, wieżą katedry, kamienicą Burdy i ratuszem. Dobierz dodatkowe miejsca lub posiłek do dostępnego czasu.",
+      "de": "Spaziergang zwischen Marktplatz, Kathedralenturm, Burda-Haus und Rathaus. Zusätzliche Orte oder eine Mahlzeit nach verfügbarer Zeit auswählen.",
+      "cs": "Procházka mezi Rynkem, věží katedrály, Burdovým domem a radnicí. Další místa nebo jídlo zvolte podle času."
+    },
+    "points": [
+      {
+        "id": "1",
+        "canonicalPlaceId": "bielsko-rynek"
+      },
+      {
+        "id": "2",
+        "canonicalPlaceId": "bielsko-st-nicholas-cathedral"
+      },
+      {
+        "id": "3",
+        "canonicalPlaceId": "bielsko-burda-house"
+      },
+      {
+        "id": "4",
+        "canonicalPlaceId": "bielsko-biala-town-hall"
+      }
+    ],
+    "geometryAccuracy": "stop-order-only",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=49.8211627,19.0427069&destination=49.821748458473,19.050618096793&waypoints=49.8202422,19.0429958%7C49.8231468,19.0475723&travelmode=walking"
+    },
+    "note": {
+      "he": "הקו מציג את סדר התחנות. עקבו אחר הרחובות וקישורי הניווט.",
+      "en": "The line shows stop order. Follow streets and the navigation links.",
+      "pl": "Linia pokazuje kolejność przystanków. Korzystaj z ulic i odnośników nawigacji.",
+      "de": "Die Linie zeigt die Reihenfolge der Stationen. Straßen und Navigationslinks folgen.",
+      "cs": "Čára ukazuje pořadí zastávek. Sledujte ulice a navigační odkazy."
+    }
+  },
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=49.8211627,19.0427069&destination=49.821748458473,19.050618096793&waypoints=49.8202422,19.0429958%7C49.8231468,19.0475723&travelmode=walking"
+  },
+  "steps": [
+    {
+      "id": "1",
+      "canonicalPlaceId": "bielsko-rynek",
+      "title": {
+        "he": "כיכר השוק בביאלסקו",
+        "en": "Bielsko Market Square",
+        "pl": "Rynek w Bielsku",
+        "de": "Marktplatz in Bielsko",
+        "cs": "Bílský Rynek"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    },
+    {
+      "id": "2",
+      "canonicalPlaceId": "bielsko-st-nicholas-cathedral",
+      "title": {
+        "he": "קתדרלת ניקולאוס הקדוש",
+        "en": "St Nicholas Cathedral",
+        "pl": "Katedra św. Mikołaja",
+        "de": "Nikolauskathedrale",
+        "cs": "Katedrála sv. Mikuláše"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    },
+    {
+      "id": "3",
+      "canonicalPlaceId": "bielsko-burda-house",
+      "title": {
+        "he": "בית בורדה על הנהר",
+        "en": "Burda House by the river",
+        "pl": "Kamienica Burdy",
+        "de": "Burda-Haus am Fluss",
+        "cs": "Burdův dům u řeky"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    },
+    {
+      "id": "4",
+      "canonicalPlaceId": "bielsko-biala-town-hall",
+      "title": {
+        "he": "בית העירייה של ביאלסקו־ביאלה",
+        "en": "Bielsko-Biała Town Hall",
+        "pl": "Ratusz w Bielsku-Białej",
+        "de": "Rathaus Bielsko-Biała",
+        "cs": "Radnice v Bílsku-Bělé"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    }
+  ],
+  "travel": {
+    "note": {
+      "he": "בדרך לוורוצלב אפשר לשלב עצירה בביאלסקו־ביאלה, באופולה או בשתיהן. בחרו סיבוב במרכז העיר, ארוחה או הליכה ליד הנהר לפי מסלול ההגעה והזמן הפנוי.",
+      "en": "On the way to Wrocław, stop in Bielsko-Biała, Opole or both. Choose a city-centre walk, a meal or a riverside break to suit your route and available time.",
+      "pl": "W drodze do Wrocławia zatrzymajcie się w Bielsku-Białej, Opolu lub w obu miastach. Wybierzcie spacer po centrum, posiłek albo odpoczynek nad rzeką, zależnie od trasy i czasu.",
+      "de": "Auf dem Weg nach Wrocław bietet sich ein Halt in Bielsko-Biała, in Opole oder in beiden Städten an. Ein Stadtspaziergang, eine Mahlzeit oder eine Pause am Fluss lassen sich nach Route und verfügbarer Zeit auswählen.",
+      "cs": "Cestou do Vratislavi se zastavte v Bílsku-Bělé, v Opolí nebo v obou městech. Procházku centrem, jídlo či odpočinek u řeky zvolte podle trasy a času."
+    },
+    "options": [
+      {
+        "title": {
+          "he": "עיר אחת או שתיים",
+          "en": "One city or both",
+          "pl": "Jedno miasto lub oba",
+          "de": "Eine Stadt oder beide",
+          "cs": "Jedno město nebo obě"
+        },
+        "description": {
+          "he": "התאימו את העצירות לנקודת היציאה שלכם בסלובקיה, לדרך ההגעה ולזמן הפנוי. קישורי ההליכה מיועדים לכל עיר בנפרד.",
+          "en": "Choose stops according to your departure point in Slovakia, onward route and available time. Walking links apply separately within each city.",
+          "pl": "Dobierz przystanki do miejsca wyjazdu ze Słowacji, dalszej trasy i czasu. Trasy piesze dotyczą każdej miejscowości osobno.",
+          "de": "Stopps nach Ausgangspunkt in der Slowakei, Weiterfahrt und Zeit wählen. Fußgängerrouten gelten jeweils innerhalb einer Stadt.",
+          "cs": "Zastávky zvolte podle místa odjezdu ze Slovenska, další trasy a času. Pěší navigace platí pro každé město zvlášť."
+        }
+      }
+    ],
+    "accessibility": []
+  },
+  "contextGallery": [
+    {
+      "src": "/assets/slovakia-bielsko-opole/source-06.jpg",
+      "caption": {
+        "he": "רגע מהנסיעה בין ביאלסקו־ביאלה לאופולה",
+        "en": "A moment on the journey between Bielsko-Biała and Opole",
+        "pl": "Chwila z podróży między Bielskiem-Białą a Opolem",
+        "de": "Ein Moment auf der Fahrt zwischen Bielsko-Biała und Opole",
+        "cs": "Okamžik z cesty mezi Bílskem-Bělou a Opolím"
+      },
+      "sourceSHA256": "68dba4d6a33d32b6c713cbd82f5dd125949c32994c94f3571c6b424582c96594",
+      "specificApproval": "A2"
+    },
+    {
+      "src": "/assets/slovakia-bielsko-opole/source-10.jpg",
+      "caption": {
+        "he": "רגע מהנסיעה בין ביאלסקו־ביאלה לאופולה",
+        "en": "A moment on the journey between Bielsko-Biała and Opole",
+        "pl": "Chwila z podróży między Bielskiem-Białą a Opolem",
+        "de": "Ein Moment auf der Fahrt zwischen Bielsko-Biała und Opole",
+        "cs": "Okamžik z cesty mezi Bílskem-Bělou a Opolím"
+      },
+      "sourceSHA256": "1e5ebab1e9355cc41df7da0e72e9f954a3eb3171e9a089bda11bc1a63a0be91f",
+      "specificApproval": "A5"
+    },
+    {
+      "src": "/assets/slovakia-bielsko-opole/source-19.jpg",
+      "caption": {
+        "he": "מהביקור ליד הנהר באופולה",
+        "en": "From our riverside visit in Opole",
+        "pl": "Z naszej wizyty nad rzeką w Opolu",
+        "de": "Von unserem Besuch am Fluss in Opole",
+        "cs": "Z naší návštěvy u řeky v Opolí"
+      },
+      "sourceSHA256": "0fabea88e78d6bb3dd41d18c362b8711515453f9ef1a70977bcd40ead572af61",
+      "specificApproval": "A9"
+    },
+    {
+      "src": "/assets/slovakia-bielsko-opole/source-20.jpg",
+      "caption": {
+        "he": "מהביקור ליד הנהר באופולה",
+        "en": "From our riverside visit in Opole",
+        "pl": "Z naszej wizyty nad rzeką w Opolu",
+        "de": "Von unserem Besuch am Fluss in Opole",
+        "cs": "Z naší návštěvy u řeky v Opolí"
+      },
+      "sourceSHA256": "4fe270d444993badbe86f907a690c764459a7e01b236efac1899151b0df9d932",
+      "specificApproval": "A10"
+    },
+    {
+      "src": "/assets/slovakia-bielsko-opole/source-11.jpg",
+      "caption": {
+        "he": "לוח על בית התפילה היהודי לשעבר ברחוב סטויאלובסקייגו8, מהביקור בביאלסקו־ביאלה",
+        "en": "Panel about the former Polish house of prayer at Stojałowskiego8, from our Bielsko-Biała visit",
+        "pl": "Tablica o dawnej polskiej modlitewni przy Stojałowskiego8, z wizyty w Bielsku-Białej",
+        "de": "Tafel zum ehemaligen polnischen jüdischen Bethaus an der Stojałowskiego8, von unserem Besuch in Bielsko-Biała",
+        "cs": "Tabule o bývalé polské židovské modlitebně v ulici Stojałowskiego8 z naší návštěvy Bílska-Bělé"
+      },
+      "sourceSHA256": "fb9d9c13090aebb91c60adeb4c09d42f5b5cbb6fe2f81b171e70d240273990f7",
+      "personalApprovalNotRequired": "No people in the complete original frame",
+      "identityEvidence": {
+        "primary": "https://bielsko-biala.pl/sites/default/files/2025-06/msi-bielsko-pl-2018.pdf",
+        "page": 109,
+        "point": 135,
+        "visibleAddress": "8 on adjacent wall; plaque names Stojałowskiego",
+        "historicalBusinessSign": "EBISU captured2025; not a current branch recommendation or mapping"
+      }
+    }
+  ],
+  "editorial": {
+    "why": {
+      "he": "שתי ערים שונות מאפשרות לשבור את הנסיעה עם כיכר, אדריכלות או ארוחה. בחרו את העצירה שמתאימה לדרך שלכם.",
+      "en": "Two contrasting cities offer a break for a square, architecture or a meal. Choose the stop that fits your journey.",
+      "pl": "Dwa różne miasta pozwalają przerwać podróż spacerem po placu, architekturą lub posiłkiem. Wybierz postój odpowiedni do swojej trasy.",
+      "de": "Zwei unterschiedliche Städte bieten eine Pause mit Stadtplätzen, Architektur oder einer Mahlzeit. Den passenden Halt zur eigenen Route auswählen.",
+      "cs": "Dvě odlišná města nabízejí přestávku s náměstím, architekturou nebo jídlem. Vyberte zastávku vhodnou pro svou cestu."
+    },
+    "forWhom": {
+      "he": "למטיילים המגיעים מסלובקיה ורוצים להוסיף עצירה עירונית בדרך לוורוצלב.",
+      "en": "For travellers arriving from Slovakia who want a city stop on the way to Wrocław.",
+      "pl": "Dla podróżujących ze Słowacji, którzy chcą dodać miejski postój w drodze do Wrocławia.",
+      "de": "Für Reisende aus der Slowakei, die auf dem Weg nach Wrocław eine Stadtpause einlegen möchten.",
+      "cs": "Pro cestující ze Slovenska, kteří chtějí cestou do Vratislavi zastávku ve městě."
+    },
+    "practical": {
+      "he": "תכננו חניה וזמן חזרה לרכב בכל עיר. בדקו אפשרות כניסה עדכנית לפני ביקור פנים; תמונות הביקור אינן מציגות בהכרח את מצב העבודות כיום.",
+      "en": "Plan parking and time to return to your car in each city. Check current access before entering buildings; visit photographs may show historic works.",
+      "pl": "Zaplanuj parking i czas powrotu do samochodu w każdym mieście. Przed wejściem do budynków sprawdź aktualny dostęp; zdjęcia mogą pokazywać dawne prace.",
+      "de": "Parken und Rückweg zum Auto in jeder Stadt einplanen. Aktuellen Zugang vor Innenbesichtigungen prüfen; Besuchsfotos können frühere Bauarbeiten zeigen.",
+      "cs": "Naplánujte parkování a návrat k autu v každém městě. Před vstupem do budov ověřte aktuální přístup; fotografie mohou ukazovat dřívější stavební práce."
+    }
+  }
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
     title: t("טיולים מוורוצלב", "Excursions from Wrocław", "Wycieczki z Wrocławia", "Ausflüge ab Wrocław", "Výlety z Vratislavi"),
-    status: t("שבעה טיולים מוכנים", "Seven excursions ready", "Siedem wycieczek gotowych", "Sieben Ausflüge verfügbar", "Sedm výletů připraveno"),
-    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko, poznanStopover],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds, ...poznanStopover.canonicalPlaceIds, ...poznanStopover.optionalPlaceIds],
+    status: t("שמונה טיולים מוכנים", "Eight excursions ready", "Osiem wycieczek gotowych", "Acht Ausflüge verfügbar", "Osm výletů připraveno"),
+    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko, poznanStopover, slovakiaStopover],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds, ...poznanStopover.canonicalPlaceIds, ...poznanStopover.optionalPlaceIds, ...slovakiaStopover.canonicalPlaceIds, ...slovakiaStopover.optionalPlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {
