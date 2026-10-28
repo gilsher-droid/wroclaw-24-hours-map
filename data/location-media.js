@@ -300,3 +300,9 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
     window.WROC_LOCATION_MEDIA[place.id].gallery = place.media.photos;
   }
 })();
+
+// Keep complete named-inbox galleries on existing map and card actions.
+(function(){for(const id of ["university", "ato-ramen", "wyspa-piasek", "town-hall", "dominikan", "papa", "most-piaskowy", "ostrow", "hala-targowa", "cafe-targowa", "jas-malgosia", "rynek", "dunikowski", "solny", "wroclaw-botanical-garden", "art-hotel", "doubletree", "korona-hotel", "panorama"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;window.WROC_LOCATION_MEDIA[id]=r;}})();
+
+// Append only the three verified Public visits, retaining existing descriptors.
+(function(){for(const id of ["rynek","wroclaw-botanical-garden"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.videos=r.videos||[];for(const src of p.media.videos){if(!r.videos.some(v=>(typeof v==="string"?v:v.src)===src)){r.videos.push({src,title:p.media.metadata[src].title});}}window.WROC_LOCATION_MEDIA[id]=r;}})();

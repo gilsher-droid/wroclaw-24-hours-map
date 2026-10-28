@@ -1,6 +1,7 @@
+import {beforeNamedWroclawSnapshot} from './named-wroclaw-media-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';import vm from 'node:vm';import crypto from 'node:crypto';import assert from 'node:assert/strict';import test from 'node:test';
 import {beforeBotanicalMedia,beforeBotanicalGallery} from './botanical-media-historical-baseline.mjs';
-const w={};for(const f of ['data/place-catalog.js','data/location-media.js','data/lower-silesia-excursions.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window:w});
+const w={};for(const f of ['data/place-catalog.js','data/location-media.js','data/lower-silesia-excursions.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window:w});beforeNamedWroclawSnapshot(w);
 const plain=x=>JSON.parse(JSON.stringify(x));const hash=x=>crypto.createHash('sha256').update(Buffer.isBuffer(x)?x:JSON.stringify(x)).digest('hex');
 const baseline=JSON.parse(readFileSync('tests/fixtures/botanical-oct28-preintegration.json'));const manifest=JSON.parse(readFileSync('data/botanical-oct28-media-provenance.json'));const current=w.WROC_CATALOG.getPlace(manifest.canonicalID);
 test('Botanical media preserves all298 other places, aliases, nine trips, identity, visit videos and guides',()=>{

@@ -1,3 +1,4 @@
+import {beforeNamedWroclawSnapshot,historicalNamedWroclawAssetSHA} from './named-wroclaw-media-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -16,7 +17,7 @@ test('Papa primary social destinations open the verified written galleries in ev
  }
  assert.ok(p.socialPosts.some(post=>/\/reel\//.test(post.url)),'Historical reels stay available');
 });
-function runtime(){const window={location:{origin:'https://wroc-love.com'}};const document={documentElement:{lang:'he'},addEventListener(){}};for(const f of ['data/place-catalog.js','data/youtube-video-hosting.js','youtube-video.js','guide-video.js','data/location-media.js'])runInNewContext(readFileSync(resolve(root,f),'utf8'),{window,document,console,URLSearchParams});return window;}
+function runtime(){const window={location:{origin:'https://wroc-love.com'}};const document={documentElement:{lang:'he'},addEventListener(){}};for(const f of ['data/place-catalog.js','data/youtube-video-hosting.js','youtube-video.js','guide-video.js','data/location-media.js'])runInNewContext(readFileSync(resolve(root,f),'utf8'),{window,document,console,URLSearchParams});return beforeNamedWroclawSnapshot(window);}
 test('Papa point holds the complete deduplicated dwarf picture collection and keeps the information centre independent',()=>{
  const w=runtime(),p=w.WROC_CATALOG.getPlace('papa');assert.equal(p.media.photos.length,18);assert.equal(new Set(p.media.photos).size,18);
  assert.equal(w.WROC_CATALOG.getPlace('dwarf-info').media.photos.length,20);
@@ -24,7 +25,7 @@ test('Papa point holds the complete deduplicated dwarf picture collection and ke
  const provenance=JSON.parse(readFileSync(resolve(root,'data/papa-gnomes-media-provenance.json'),'utf8'));
  assert.equal(provenance.photos.length,20);assert.equal(Object.keys(provenance.photoDuplicatesOmitted).length,6);
  assert.equal(provenance.photos.filter(x=>x.original===false).length,2);
- const excluded=new Set(provenance.publicPhotoExclusions20261021.map(x=>x.asset));assert.equal(excluded.size,3);for(const photo of provenance.photos.filter(x=>!excluded.has(x.asset))){const f=resolve(root,photo.asset.slice(1));assert.ok(existsSync(f));assert.equal(createHash('sha256').update(readFileSync(f)).digest('hex'),photo.outputSHA256);assert.ok(p.media.photos.includes(photo.asset));}
+ const excluded=new Set(provenance.publicPhotoExclusions20261021.map(x=>x.asset));assert.equal(excluded.size,3);for(const photo of provenance.photos.filter(x=>!excluded.has(x.asset))){const f=resolve(root,photo.asset.slice(1));assert.ok(existsSync(f));assert.equal(historicalNamedWroclawAssetSHA(photo.asset),photo.outputSHA256);assert.ok(p.media.photos.includes(photo.asset));}
  for(const l of ['he','en','de','cs','pl']){const src=w.WROC_GUIDE_VIDEO.sourceFor('papa',l);assert.equal(src,'https://youtube.com/shorts/'+(l==='he'?'Eyns7Gj66d0':'pIzp5Bmb9ck'));assert.match(w.WROC_GUIDE_VIDEO.embedUrlFor(src,l),new RegExp('cc_lang_pref='+l));assert.match(w.WROC_GUIDE_VIDEO.decorateIcon({html:'papa',className:'place'},'papa',l).html,/guide-marker-badge/);}
 });
 test('Dwarf visit media uses six unique public YouTube clips with localized titles and no raw playback',()=>{

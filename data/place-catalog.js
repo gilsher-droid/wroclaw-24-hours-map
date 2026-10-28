@@ -1879,7 +1879,8 @@
         "/assets/hotels-extra-20261020/art-hotel-extra-23.jpg",
         "/assets/hotels-extra-20261020/art-hotel-extra-24.jpg",
         "/assets/hotels-extra-20261020/art-hotel-extra-25.jpg",
-        "/assets/hotels-extra-20261020/art-hotel-extra-26.jpg"
+        "/assets/hotels-extra-20261020/art-hotel-extra-26.jpg",
+        "/assets/named-wroclaw-oct28/source-048.jpg"
       ],
       "videos": [
         "https://www.youtube.com/watch?v=h6RkTtJuwh4"
@@ -1984,6 +1985,34 @@
           "sourceReviewReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-hotels-district-full-source-selection.json",
           "youtubePublicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-district-art-youtube-publication-manifest.json",
           "reviewIndex": 157
+        },
+        "/assets/named-wroclaw-oct28/source-048.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/מלון ארט.JPG",
+          "sourceSHA256": "7dec9c20d48f80115b17a5c8be9939c02cfc435a6a7d1593fabf4f376fd3eaed",
+          "assetSHA256": "7dec9c20d48f80115b17a5c8be9939c02cfc435a6a7d1593fabf4f376fd3eaed",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזית מלון ארט בעיר העתיקה",
+            "en": "Art Hotel facade in the Old Town",
+            "pl": "Fasada Art Hotelu na Starym Mieście",
+            "de": "Fassade des Art Hotels in der Altstadt",
+            "cs": "Průčelí hotelu Art ve starém městě"
+          },
+          "title": {
+            "he": "חזית מלון ארט בעיר העתיקה",
+            "en": "Art Hotel facade in the Old Town",
+            "pl": "Fasada Art Hotelu na Starym Mieście",
+            "de": "Fassade des Art Hotels in der Altstadt",
+            "cs": "Průčelí hotelu Art ve starém městě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -2162,7 +2191,10 @@
         "/assets/round-other-20261023/food-ato-ramen-10.jpg",
         "/assets/round-other-20261023/food-ato-ramen-11.jpg",
         "/assets/round-other-20261023/food-ato-ramen-20.jpg",
-        "/assets/round-other-20261023/food-ato-ramen-21.jpg"
+        "/assets/round-other-20261023/food-ato-ramen-21.jpg",
+        "/assets/named-wroclaw-oct28/source-006.jpg",
+        "/assets/named-wroclaw-oct28/source-007.jpg",
+        "/assets/named-wroclaw-oct28/source-008.jpg"
       ],
       "videos": [
         "/assets/ato-ramen-visit-01.mp4",
@@ -2492,6 +2524,90 @@
           "familyExceptionApplied": false,
           "incidentalPublicVisitors": true,
           "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/named-wroclaw-oct28/source-006.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אטו ראמן.JPG",
+          "sourceSHA256": "334b326bad61044c45a1b7b9cb9cbb4e202e7e5953557ad3834855a136f45f7a",
+          "assetSHA256": "334b326bad61044c45a1b7b9cb9cbb4e202e7e5953557ad3834855a136f45f7a",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו עם קערת ראמן באטו ראמן",
+            "en": "Our visit with a ramen bowl at ATO Ramen",
+            "pl": "Nasza wizyta z miską ramenu w ATO Ramen",
+            "de": "Unser Besuch mit einer Ramenschale bei ATO Ramen",
+            "cs": "Naše návštěva s miskou ramenu v ATO Ramen"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו עם קערת ראמן באטו ראמן",
+            "en": "Our visit with a ramen bowl at ATO Ramen",
+            "pl": "Nasza wizyta z miską ramenu w ATO Ramen",
+            "de": "Unser Besuch mit einer Ramenschale bei ATO Ramen",
+            "cs": "Naše návštěva s miskou ramenu v ATO Ramen"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-007.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אטוראמן7.JPG",
+          "sourceSHA256": "a56daaf4d3d89c882ec8f975b896e914ccc0c3b9f27f89aafd92db129cc89bce",
+          "assetSHA256": "a56daaf4d3d89c882ec8f975b896e914ccc0c3b9f27f89aafd92db129cc89bce",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "קערת ראמן ותוספות באטו ראמן, מצילום הביקור שלנו",
+            "en": "A ramen bowl and toppings from our visit to ATO Ramen",
+            "pl": "Miska ramenu i dodatki z naszej wizyty w ATO Ramen",
+            "de": "Eine Ramenschale mit Beilagen von unserem Besuch bei ATO Ramen",
+            "cs": "Miska ramenu s přílohami z naší návštěvy ATO Ramen"
+          },
+          "title": {
+            "he": "קערת ראמן ותוספות באטו ראמן, מצילום הביקור שלנו",
+            "en": "A ramen bowl and toppings from our visit to ATO Ramen",
+            "pl": "Miska ramenu i dodatki z naszej wizyty w ATO Ramen",
+            "de": "Eine Ramenschale mit Beilagen von unserem Besuch bei ATO Ramen",
+            "cs": "Miska ramenu s přílohami z naší návštěvy ATO Ramen"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-008.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אטוראמן8.JPG",
+          "sourceSHA256": "1e962ecbf6dcd139b07696062f4d08b02ba29f7ec5001163e7034acc44e0e5db",
+          "assetSHA256": "1e962ecbf6dcd139b07696062f4d08b02ba29f7ec5001163e7034acc44e0e5db",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "קערת ראמן ותוספות באטו ראמן, מצילום הביקור שלנו",
+            "en": "A ramen bowl and toppings from our visit to ATO Ramen",
+            "pl": "Miska ramenu i dodatki z naszej wizyty w ATO Ramen",
+            "de": "Eine Ramenschale mit Beilagen von unserem Besuch bei ATO Ramen",
+            "cs": "Miska ramenu s přílohami z naší návštěvy ATO Ramen"
+          },
+          "title": {
+            "he": "קערת ראמן ותוספות באטו ראמן, מצילום הביקור שלנו",
+            "en": "A ramen bowl and toppings from our visit to ATO Ramen",
+            "pl": "Miska ramenu i dodatki z naszej wizyty w ATO Ramen",
+            "de": "Eine Ramenschale mit Beilagen von unserem Besuch bei ATO Ramen",
+            "cs": "Miska ramenu s přílohami z naší návštěvy ATO Ramen"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -11250,8 +11366,70 @@
       "freeTapWater": true
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/named-wroclaw-oct28/source-027.jpg",
+      "photos": [
+        "/assets/named-wroclaw-oct28/source-027.jpg",
+        "/assets/named-wroclaw-oct28/source-063.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/named-wroclaw-oct28/source-027.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/האלהטארגובה קפה.JPG",
+          "sourceSHA256": "18d25cbaa9aa228ffa9fa2c36dea7538690b8f3cdb28374a1fdd8c814bfa365d",
+          "assetSHA256": "18d25cbaa9aa228ffa9fa2c36dea7538690b8f3cdb28374a1fdd8c814bfa365d",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו בקפה טרגובה שבשוק המקורה",
+            "en": "Our visit to Cafe Targowa inside the market hall",
+            "pl": "Nasza wizyta w Cafe Targowa w Hali Targowej",
+            "de": "Unser Besuch im Cafe Targowa in der Markthalle",
+            "cs": "Naše návštěva Cafe Targowa v tržnici"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו בקפה טרגובה שבשוק המקורה",
+            "en": "Our visit to Cafe Targowa inside the market hall",
+            "pl": "Nasza wizyta w Cafe Targowa w Hali Targowej",
+            "de": "Unser Besuch im Cafe Targowa in der Markthalle",
+            "cs": "Naše návštěva Cafe Targowa v tržnici"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-063.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/קפה בהאלה טרגובה.jpg",
+          "sourceSHA256": "d51b7903b6443e92a56beabc25b047ef1cd91d6101b2e07fcdeeacf4a2f1d9e4",
+          "assetSHA256": "d51b7903b6443e92a56beabc25b047ef1cd91d6101b2e07fcdeeacf4a2f1d9e4",
+          "sourceDimensions": [
+            2062,
+            3664
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו בקפה טרגובה שבשוק המקורה",
+            "en": "Our visit to Cafe Targowa inside the market hall",
+            "pl": "Nasza wizyta w Cafe Targowa w Hali Targowej",
+            "de": "Unser Besuch im Cafe Targowa in der Markthalle",
+            "cs": "Naše návštěva Cafe Targowa v tržnici"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו בקפה טרגובה שבשוק המקורה",
+            "en": "Our visit to Cafe Targowa inside the market hall",
+            "pl": "Nasza wizyta w Cafe Targowa w Hali Targowej",
+            "de": "Unser Besuch im Cafe Targowa in der Markthalle",
+            "cs": "Naše návštěva Cafe Targowa v tržnici"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -17886,7 +18064,8 @@
         "/assets/galeria-dominikanska-02.jpg",
         "/assets/round24h-20261022/dominikan-01.jpg",
         "/assets/round24h-20261022/dominikan-02.jpg",
-        "/assets/round24h-20261022/dominikan-03.jpg"
+        "/assets/round24h-20261022/dominikan-03.jpg",
+        "/assets/named-wroclaw-oct28/source-015.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -17988,6 +18167,34 @@
             "cs": "Průčelí Galerie Dominikańské z ulice"
           },
           "privacyClassification": "Place visit; unposed public passers-by and visitors permitted; no family context identified"
+        },
+        "/assets/named-wroclaw-oct28/source-015.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/גלריה דומניקנסקה.JPG",
+          "sourceSHA256": "fe7934d03d27af900db9e8cde9174170f6ac7843508c86cf0bf8dcd07e1d6d0c",
+          "assetSHA256": "fe7934d03d27af900db9e8cde9174170f6ac7843508c86cf0bf8dcd07e1d6d0c",
+          "sourceDimensions": [
+            2062,
+            3664
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו באטריום של גלריית דומיניקנסקה",
+            "en": "Our visit in the Galeria Dominikańska atrium",
+            "pl": "Nasza wizyta w atrium Galerii Dominikańskiej",
+            "de": "Unser Besuch im Atrium der Galeria Dominikańska",
+            "cs": "Naše návštěva v atriu Galeria Dominikańska"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו באטריום של גלריית דומיניקנסקה",
+            "en": "Our visit in the Galeria Dominikańska atrium",
+            "pl": "Nasza wizyta w atrium Galerii Dominikańskiej",
+            "de": "Unser Besuch im Atrium der Galeria Dominikańska",
+            "cs": "Naše návštěva v atriu Galeria Dominikańska"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -18143,9 +18350,55 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/named-wroclaw-oct28/source-049.jpg",
+      "photos": [
+        "/assets/named-wroclaw-oct28/source-049.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/named-wroclaw-oct28/source-049.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/מלון הילטון מרכז העיר.jpg",
+          "sourceSHA256": "85032026e5716510c943e04865b544d1b8337539ef613021f6865ae74d61a5de",
+          "assetSHA256": "85032026e5716510c943e04865b544d1b8337539ef613021f6865ae74d61a5de",
+          "sourceDimensions": [
+            3840,
+            2160
+          ],
+          "alt": {
+            "he": "המעטפת הלבנה המעוגלת של מתחם אובו ומלון דאבלטרי",
+            "en": "The curved white OVO facade and DoubleTree hotel",
+            "pl": "Biała zaokrąglona fasada OVO i hotel DoubleTree",
+            "de": "Die geschwungene weiße OVO-Fassade mit dem DoubleTree Hotel",
+            "cs": "Zaoblené bílé průčelí OVO a hotelu DoubleTree"
+          },
+          "title": {
+            "he": "המעטפת הלבנה המעוגלת של מתחם אובו ומלון דאבלטרי",
+            "en": "The curved white OVO facade and DoubleTree hotel",
+            "pl": "Biała zaokrąglona fasada OVO i hotel DoubleTree",
+            "de": "Die geschwungene weiße OVO-Fassade mit dem DoubleTree Hotel",
+            "cs": "Zaoblené bílé průčelí OVO a hotelu DoubleTree"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -18176,19 +18429,6 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "dunikowski": {
@@ -18286,9 +18526,84 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/named-wroclaw-oct28/source-038.jpg",
+      "photos": [
+        "/assets/named-wroclaw-oct28/source-038.jpg",
+        "/assets/named-wroclaw-oct28/source-039.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/named-wroclaw-oct28/source-038.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ונציה של הצךון 4.JPG",
+          "sourceSHA256": "b02e0c46224451b79746c9cf9f0ecf2fcb5c6830901d6e07208b00973601a2f9",
+          "assetSHA256": "b02e0c46224451b79746c9cf9f0ecf2fcb5c6830901d6e07208b00973601a2f9",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
+            "en": "A view along the Oder promenade towards Cathedral Island",
+            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
+            "de": "Blick von der Oderpromenade zur Dominsel",
+            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
+          },
+          "title": {
+            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
+            "en": "A view along the Oder promenade towards Cathedral Island",
+            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
+            "de": "Blick von der Oderpromenade zur Dominsel",
+            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-039.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ונציה של הצפון.JPG",
+          "sourceSHA256": "39f9ac8fd4d99fab546c234063e3bcf4e1b51226b356a063d5c59c1e85abb053",
+          "assetSHA256": "39f9ac8fd4d99fab546c234063e3bcf4e1b51226b356a063d5c59c1e85abb053",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
+            "en": "A view along the Oder promenade towards Cathedral Island",
+            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
+            "de": "Blick von der Oderpromenade zur Dominsel",
+            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
+          },
+          "title": {
+            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
+            "en": "A view along the Oder promenade towards Cathedral Island",
+            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
+            "de": "Blick von der Oderpromenade zur Dominsel",
+            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -18345,19 +18660,6 @@
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUttjQETXY/",
         "verifiedAt": "2026-10-10T18:21:47.027Z"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "dwarf-info": {
@@ -25075,7 +25377,11 @@
         "/assets/round24h-20261022/hala-targowa-16.jpg",
         "/assets/round24h-20261022/hala-targowa-17.jpg",
         "/assets/feels-familiar/hala-chalka.jpg",
-        "/assets/feels-familiar/hala-bakery.jpg"
+        "/assets/feels-familiar/hala-bakery.jpg",
+        "/assets/named-wroclaw-oct28/source-022.jpg",
+        "/assets/named-wroclaw-oct28/source-023.jpg",
+        "/assets/papa-gnomes-13.jpg",
+        "/assets/named-wroclaw-oct28/source-026.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -25312,6 +25618,146 @@
             "de": "Caféfront in der Markthalle",
             "cs": "Průčelí kavárny v tržnici"
           }
+        },
+        "/assets/named-wroclaw-oct28/source-022.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/האל הטרגובה 3.JPG",
+          "sourceSHA256": "f57c60ac2bd653350f49ca05cd4108a9f87f6414cc92316203f92eea1653beb3",
+          "assetSHA256": "f57c60ac2bd653350f49ca05cd4108a9f87f6414cc92316203f92eea1653beb3",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פטריות בדוכן השוק המקורה, מצילום הביקור שלנו",
+            "en": "Mushrooms at a stall inside Hala Targowa during our visit",
+            "pl": "Grzyby na stoisku w Hali Targowej podczas naszej wizyty",
+            "de": "Pilze an einem Stand in der Markthalle bei unserem Besuch",
+            "cs": "Houby ve stánku v tržnici Hala Targowa při naší návštěvě"
+          },
+          "title": {
+            "he": "פטריות בדוכן השוק המקורה, מצילום הביקור שלנו",
+            "en": "Mushrooms at a stall inside Hala Targowa during our visit",
+            "pl": "Grzyby na stoisku w Hali Targowej podczas naszej wizyty",
+            "de": "Pilze an einem Stand in der Markthalle bei unserem Besuch",
+            "cs": "Houby ve stánku v tržnici Hala Targowa při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-023.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/האלה טאראגובה 6.JPG",
+          "sourceSHA256": "ccd2ded84dfa43cf1e6fd0934cd1f90c7a4ad0a3ad34c30451f595e1d5c283e0",
+          "assetSHA256": "ccd2ded84dfa43cf1e6fd0934cd1f90c7a4ad0a3ad34c30451f595e1d5c283e0",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פטריות בדוכן השוק המקורה, מצילום הביקור שלנו",
+            "en": "Mushrooms at a stall inside Hala Targowa during our visit",
+            "pl": "Grzyby na stoisku w Hali Targowej podczas naszej wizyty",
+            "de": "Pilze an einem Stand in der Markthalle bei unserem Besuch",
+            "cs": "Houby ve stánku v tržnici Hala Targowa při naší návštěvě"
+          },
+          "title": {
+            "he": "פטריות בדוכן השוק המקורה, מצילום הביקור שלנו",
+            "en": "Mushrooms at a stall inside Hala Targowa during our visit",
+            "pl": "Grzyby na stoisku w Hali Targowej podczas naszej wizyty",
+            "de": "Pilze an einem Stand in der Markthalle bei unserem Besuch",
+            "cs": "Houby ve stánku v tržnici Hala Targowa při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/papa-gnomes-13.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/האלה טארגובה 4.JPG",
+          "sourceSHA256": "1c4e5ce692a148a72025409197aeb5c25760c78574654350464544f67f6093c2",
+          "assetSHA256": "1c4e5ce692a148a72025409197aeb5c25760c78574654350464544f67f6093c2",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פרט גמד עם ספרים ומכבש דפוס ליד השוק המקורה",
+            "en": "A dwarf with books and a printing press beside the market hall",
+            "pl": "Krasnal z książkami i prasą drukarską przy Hali Targowej",
+            "de": "Ein Zwerg mit Büchern und Druckerpresse bei der Markthalle",
+            "cs": "Trpaslík s knihami a tiskařským lisem u tržnice"
+          },
+          "title": {
+            "he": "פרט גמד עם ספרים ומכבש דפוס ליד השוק המקורה",
+            "en": "A dwarf with books and a printing press beside the market hall",
+            "pl": "Krasnal z książkami i prasą drukarską przy Hali Targowej",
+            "de": "Ein Zwerg mit Büchern und Druckerpresse bei der Markthalle",
+            "cs": "Trpaslík s knihami a tiskařským lisem u tržnice"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
+        },
+        "/assets/feels-familiar/hala-bakery.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/האלה טארגובה5.JPG",
+          "sourceSHA256": "d6bc4fc6a85679972ca219301f14bd51b0cf4422346651e5805d35be31697c12",
+          "assetSHA256": "d6bc4fc6a85679972ca219301f14bd51b0cf4422346651e5805d35be31697c12",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "דוכן לחמים בשוק המקורה, מצילום הביקור שלנו",
+            "en": "A bread stall inside Hala Targowa from our visit",
+            "pl": "Stoisko z pieczywem w Hali Targowej z naszej wizyty",
+            "de": "Ein Brotstand in der Markthalle bei unserem Besuch",
+            "cs": "Stánek s pečivem v tržnici Hala Targowa při naší návštěvě"
+          },
+          "title": {
+            "he": "דוכן לחמים בשוק המקורה, מצילום הביקור שלנו",
+            "en": "A bread stall inside Hala Targowa from our visit",
+            "pl": "Stoisko z pieczywem w Hali Targowej z naszej wizyty",
+            "de": "Ein Brotstand in der Markthalle bei unserem Besuch",
+            "cs": "Stánek s pečivem v tržnici Hala Targowa při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
+        },
+        "/assets/named-wroclaw-oct28/source-026.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/האלהאררגובה4.JPG",
+          "sourceSHA256": "9dea52e6f11f69e746e02b19c243b5d8b5d371833661dd6c639cd3046f828f56",
+          "assetSHA256": "9dea52e6f11f69e746e02b19c243b5d8b5d371833661dd6c639cd3046f828f56",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "דוכן לחמים בשוק המקורה, מצילום הביקור שלנו",
+            "en": "A bread stall inside Hala Targowa from our visit",
+            "pl": "Stoisko z pieczywem w Hali Targowej z naszej wizyty",
+            "de": "Ein Brotstand in der Markthalle bei unserem Besuch",
+            "cs": "Stánek s pečivem v tržnici Hala Targowa při naší návštěvě"
+          },
+          "title": {
+            "he": "דוכן לחמים בשוק המקורה, מצילום הביקור שלנו",
+            "en": "A bread stall inside Hala Targowa from our visit",
+            "pl": "Stoisko z pieczywem w Hali Targowej z naszej wizyty",
+            "de": "Ein Brotstand in der Markthalle bei unserem Besuch",
+            "cs": "Stánek s pečivem v tržnici Hala Targowa při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -27399,7 +27845,11 @@
     "media": {
       "thumbnail": "/assets/rynek-refresh-oct19-05.jpg",
       "photos": [
-        "/assets/rynek-refresh-oct19-05.jpg"
+        "/assets/rynek-refresh-oct19-05.jpg",
+        "/assets/named-wroclaw-oct28/source-029.jpg",
+        "/assets/named-wroclaw-oct28/source-030.jpg",
+        "/assets/named-wroclaw-oct28/source-031.jpg",
+        "/assets/named-wroclaw-oct28/source-032.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -27413,6 +27863,118 @@
             "de": "Die Häuser Hänsel und Gretel mit dem verbindenden Torbogen neben der Elisabethkirche",
             "cs": "Domky Jeníček a Mařenka se spojovací branou u kostela svaté Alžběty"
           }
+        },
+        "/assets/named-wroclaw-oct28/source-029.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/הנזל וגרטל 2.JPG",
+          "sourceSHA256": "5be4d953809e90c33d34dbfd0962df6bb10680cb5a47e8a57544102dbb99b644",
+          "assetSHA256": "5be4d953809e90c33d34dbfd0962df6bb10680cb5a47e8a57544102dbb99b644",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "בתי הנזל וגרטל והקשת המחברת ביניהם",
+            "en": "The Hansel and Gretel houses and their connecting arch",
+            "pl": "Kamieniczki Jaś i Małgosia oraz łączący je łuk",
+            "de": "Die Häuser Hänsel und Gretel mit ihrem Verbindungsbogen",
+            "cs": "Domy Jeníček a Mařenka s propojujícím obloukem"
+          },
+          "title": {
+            "he": "בתי הנזל וגרטל והקשת המחברת ביניהם",
+            "en": "The Hansel and Gretel houses and their connecting arch",
+            "pl": "Kamieniczki Jaś i Małgosia oraz łączący je łuk",
+            "de": "Die Häuser Hänsel und Gretel mit ihrem Verbindungsbogen",
+            "cs": "Domy Jeníček a Mařenka s propojujícím obloukem"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-030.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/הנזל וגרטל 3.JPG",
+          "sourceSHA256": "21b1bcef7ea6f1c1166a5edc5d97768045420cf90ac4baec05b4492a11db0ea9",
+          "assetSHA256": "21b1bcef7ea6f1c1166a5edc5d97768045420cf90ac4baec05b4492a11db0ea9",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "בתי הנזל וגרטל והקשת המחברת ביניהם",
+            "en": "The Hansel and Gretel houses and their connecting arch",
+            "pl": "Kamieniczki Jaś i Małgosia oraz łączący je łuk",
+            "de": "Die Häuser Hänsel und Gretel mit ihrem Verbindungsbogen",
+            "cs": "Domy Jeníček a Mařenka s propojujícím obloukem"
+          },
+          "title": {
+            "he": "בתי הנזל וגרטל והקשת המחברת ביניהם",
+            "en": "The Hansel and Gretel houses and their connecting arch",
+            "pl": "Kamieniczki Jaś i Małgosia oraz łączący je łuk",
+            "de": "Die Häuser Hänsel und Gretel mit ihrem Verbindungsbogen",
+            "cs": "Domy Jeníček a Mařenka s propojujícím obloukem"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-031.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/הנזל וגרטל1.JPG",
+          "sourceSHA256": "8e605c3ea95d2239ae227b52ebcf63db52b3b5d63bf3e35527e9541347614626",
+          "assetSHA256": "8e605c3ea95d2239ae227b52ebcf63db52b3b5d63bf3e35527e9541347614626",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו ליד בתי הנזל וגרטל",
+            "en": "Our visit beside the Hansel and Gretel houses",
+            "pl": "Nasza wizyta przy kamieniczkach Jaś i Małgosia",
+            "de": "Unser Besuch bei den Häusern Hänsel und Gretel",
+            "cs": "Naše návštěva u domů Jeníček a Mařenka"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו ליד בתי הנזל וגרטל",
+            "en": "Our visit beside the Hansel and Gretel houses",
+            "pl": "Nasza wizyta przy kamieniczkach Jaś i Małgosia",
+            "de": "Unser Besuch bei den Häusern Hänsel und Gretel",
+            "cs": "Naše návštěva u domů Jeníček a Mařenka"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-032.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/הנזלוגרטל6.JPG",
+          "sourceSHA256": "99a618c9936f589d705cbd0f57708f90c57636b990510c70603c4e2a8cb0ee0a",
+          "assetSHA256": "99a618c9936f589d705cbd0f57708f90c57636b990510c70603c4e2a8cb0ee0a",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו ליד בתי הנזל וגרטל",
+            "en": "Our visit beside the Hansel and Gretel houses",
+            "pl": "Nasza wizyta przy kamieniczkach Jaś i Małgosia",
+            "de": "Unser Besuch bei den Häusern Hänsel und Gretel",
+            "cs": "Naše návštěva u domů Jeníček a Mařenka"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו ליד בתי הנזל וגרטל",
+            "en": "Our visit beside the Hansel and Gretel houses",
+            "pl": "Nasza wizyta przy kamieniczkach Jaś i Małgosia",
+            "de": "Unser Besuch bei den Häusern Hänsel und Gretel",
+            "cs": "Naše návštěva u domů Jeníček a Mařenka"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -33632,7 +34194,8 @@
       "thumbnail": "/assets/hotels-20261020/korona-hotel-15.jpg",
       "photos": [
         "/assets/hotels-20261020/korona-hotel-15.jpg",
-        "/assets/hotels-20261020/korona-hotel-16.jpg"
+        "/assets/hotels-20261020/korona-hotel-16.jpg",
+        "/assets/named-wroclaw-oct28/source-050.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -33669,6 +34232,34 @@
             "cs": "Průčelí hotelu Korona v ulici Oławska"
           },
           "verifiedAt": "2026-10-20T19:15:24.186206+00:00"
+        },
+        "/assets/named-wroclaw-oct28/source-050.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/מלון קורונה.JPG",
+          "sourceSHA256": "8efb111aa8da805ac79b1001d7f9a7d43f2cd4b194461d7fcf79d96d4ed25b1f",
+          "assetSHA256": "8efb111aa8da805ac79b1001d7f9a7d43f2cd4b194461d7fcf79d96d4ed25b1f",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "השלט והכניסה למלון קורונה",
+            "en": "The sign and entrance of Korona Hotel",
+            "pl": "Szyld i wejście do hotelu Korona",
+            "de": "Schild und Eingang des Korona Hotels",
+            "cs": "Nápis a vstup do hotelu Korona"
+          },
+          "title": {
+            "he": "השלט והכניסה למלון קורונה",
+            "en": "The sign and entrance of Korona Hotel",
+            "pl": "Szyld i wejście do hotelu Korona",
+            "de": "Schild und Eingang des Korona Hotels",
+            "cs": "Nápis a vstup do hotelu Korona"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -40016,7 +40607,37 @@
       "photos": [
         "/assets/gallery-cathedral-02.jpg"
       ],
-      "videos": []
+      "videos": [],
+      "metadata": {
+        "/assets/gallery-cathedral-02.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/גשר טומסקי.JPG",
+          "sourceSHA256": "3b9e31de2f0c32d29124071c6da9888dd40fd7f7d93379d29a8c81170ef5e2a4",
+          "assetSHA256": "3b9e31de2f0c32d29124071c6da9888dd40fd7f7d93379d29a8c81170ef5e2a4",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "גשר פיאסקובי האדום מעל האודר",
+            "en": "The red Piaskowy Bridge over the Oder",
+            "pl": "Czerwony Most Piaskowy nad Odrą",
+            "de": "Die rote Sandbrücke über die Oder",
+            "cs": "Červený most Piaskowy přes Odru"
+          },
+          "title": {
+            "he": "גשר פיאסקובי האדום מעל האודר",
+            "en": "The red Piaskowy Bridge over the Oder",
+            "pl": "Czerwony Most Piaskowy nad Odrą",
+            "de": "Die rote Sandbrücke über die Oder",
+            "cs": "Červený most Piaskowy přes Odru"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -45841,17 +46462,32 @@
           }
         },
         "/assets/round24h-20261022/ostrow-06.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-07-02 at 10.02.49.jpeg",
-          "sourceSHA256": "677c9f64c7b203e08e77e9a9ec1a338eadbeda4545d953fa374ca9d5acabedce",
-          "assetSHA256": "dec7f8633d0706e6285846cfb8e07e743e4871fc1a7f3f818951164170ede573",
+          "original": true,
           "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/כנסיית סנט גיילס באי הקתרדלות.JPG",
+          "sourceSHA256": "0fee589d4b0d65a3b1743719c3fd04f16048e014b5b415dac7b76cccd242e765",
+          "assetSHA256": "0fee589d4b0d65a3b1743719c3fd04f16048e014b5b415dac7b76cccd242e765",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
           "alt": {
-            "he": "שלט כנסיית ג׳יילס הקדוש ופרט פיסולי לידו",
-            "en": "St Giles Church information plaque and sculpture detail",
-            "pl": "Tablica kościoła św. Idziego i detal rzeźby",
-            "de": "Informationstafel der Ägidiuskirche und Skulpturdetail",
-            "cs": "Informační tabule kostela svatého Jiljí a detail sochy"
-          }
+            "he": "לוח המידע של כנסיית סנט גיילס באי הקתדרלות",
+            "en": "The St Giles Church information plaque on Cathedral Island",
+            "pl": "Tablica informacyjna kościoła św. Idziego na Ostrowie Tumskim",
+            "de": "Informationstafel der Ägidiuskirche auf der Dominsel",
+            "cs": "Informační tabule kostela svatého Jiljí na Katedrálním ostrově"
+          },
+          "title": {
+            "he": "לוח המידע של כנסיית סנט גיילס באי הקתדרלות",
+            "en": "The St Giles Church information plaque on Cathedral Island",
+            "pl": "Tablica informacyjna kościoła św. Idziego na Ostrowie Tumskim",
+            "de": "Informationstafel der Ägidiuskirche auf der Dominsel",
+            "cs": "Informační tabule kostela svatého Jiljí na Katedrálním ostrově"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
         },
         "/assets/round24h-20261022/ostrow-21.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kathedral Island/WhatsApp Image 2026-10-21 at 21.34.46 (1).jpeg",
@@ -46110,6 +46746,34 @@
           },
           "checksEvidenceMode": "Content Notices dash +ClaimsNoImpact +SDcomplete; uploadwizardbadges unavailable afterPrivateSave",
           "noCurrentRestrictions": true
+        },
+        "/assets/gallery-cathedral-02.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/גשר טומסקי.JPG",
+          "sourceSHA256": "3b9e31de2f0c32d29124071c6da9888dd40fd7f7d93379d29a8c81170ef5e2a4",
+          "assetSHA256": "3b9e31de2f0c32d29124071c6da9888dd40fd7f7d93379d29a8c81170ef5e2a4",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "גשר פיאסקובי האדום מעל האודר",
+            "en": "The red Piaskowy Bridge over the Oder",
+            "pl": "Czerwony Most Piaskowy nad Odrą",
+            "de": "Die rote Sandbrücke über die Oder",
+            "cs": "Červený most Piaskowy přes Odru"
+          },
+          "title": {
+            "he": "גשר פיאסקובי האדום מעל האודר",
+            "en": "The red Piaskowy Bridge over the Oder",
+            "pl": "Czerwony Most Piaskowy nad Odrą",
+            "de": "Die rote Sandbrücke über die Oder",
+            "cs": "Červený most Piaskowy přes Odru"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
         }
       }
     },
@@ -47414,31 +48078,327 @@
         "/assets/gallery-panorama-02.jpg",
         "/assets/gallery-panorama-03.jpg",
         "/assets/gallery-panorama-04.jpg",
-        "/assets/papa-gnomes-07.jpg"
+        "/assets/papa-gnomes-07.jpg",
+        "/assets/named-wroclaw-oct28/source-051.jpg",
+        "/assets/named-wroclaw-oct28/source-052.jpg",
+        "/assets/named-wroclaw-oct28/source-053.jpg",
+        "/assets/named-wroclaw-oct28/source-054.jpg",
+        "/assets/named-wroclaw-oct28/source-055.jpg",
+        "/assets/named-wroclaw-oct28/source-057.jpg",
+        "/assets/named-wroclaw-oct28/source-058.jpg",
+        "/assets/named-wroclaw-oct28/source-059.jpg",
+        "/assets/named-wroclaw-oct28/source-060.jpg",
+        "/assets/named-wroclaw-oct28/source-061.jpg"
       ],
       "videos": [],
       "metadata": {
         "/assets/papa-gnomes-07.jpg": {
           "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rotunda/WhatsApp Image 2026-07-14 at 12.07.52.jpeg",
-          "sourceSHA256": "face872a4142ef4b5f7ff1608e8d39e9582d16b9235fa4b943016c1f8a05d6ea",
           "originalFullPicturePreserved": true,
-          "sourceFolderReview": "full-source review, all distinct relevant place images retained; duplicates reused and personal images held separately",
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה 5.JPG",
+          "sourceSHA256": "5a018034e9dd2fe9cdabe63fe09ac5c798f60d09f4b0db5175e053297e23aebe",
+          "assetSHA256": "5a018034e9dd2fe9cdabe63fe09ac5c798f60d09f4b0db5175e053297e23aebe",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
           "alt": {
-            "he": "פסל הגמד על הסוס ליד הפנורמה",
-            "en": "Equestrian dwarf sculpture beside the Panorama",
+            "he": "פסל גמד על סוס ליד הפנורמה",
+            "en": "A mounted dwarf sculpture beside the Panorama",
             "pl": "Figurka krasnala na koniu przy Panoramie",
-            "de": "Reitende Zwergenfigur neben dem Panorama",
+            "de": "Eine reitende Zwergenfigur bei der Panorama",
             "cs": "Soška trpaslíka na koni u Panoramy"
           },
           "title": {
-            "he": "פסל הגמד על הסוס ליד הפנורמה",
-            "en": "Equestrian dwarf sculpture beside the Panorama",
+            "he": "פסל גמד על סוס ליד הפנורמה",
+            "en": "A mounted dwarf sculpture beside the Panorama",
             "pl": "Figurka krasnala na koniu przy Panoramie",
-            "de": "Reitende Zwergenfigur neben dem Panorama",
+            "de": "Eine reitende Zwergenfigur bei der Panorama",
             "cs": "Soška trpaslíka na koni u Panoramy"
           },
-          "reuseExistingAsset": true
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
+        },
+        "/assets/named-wroclaw-oct28/source-051.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנוראמה 7.JPG",
+          "sourceSHA256": "c434730b97e4f56a8055fca7dd13bae84906842040011673006fd09d80833114",
+          "assetSHA256": "c434730b97e4f56a8055fca7dd13bae84906842040011673006fd09d80833114",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-052.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה 0.JPG",
+          "sourceSHA256": "de434def6f881bd56ac79d90a20411e7ff5a4c9b87007fdadcaf3244773ac332",
+          "assetSHA256": "de434def6f881bd56ac79d90a20411e7ff5a4c9b87007fdadcaf3244773ac332",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-053.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה 11.JPG",
+          "sourceSHA256": "23601f4c7c31dd71bcea05f7d11c2cdb0d6a5218c8b363fd7c49f538ec519d1c",
+          "assetSHA256": "23601f4c7c31dd71bcea05f7d11c2cdb0d6a5218c8b363fd7c49f538ec519d1c",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פרט מציור הפנורמה ותפאורת הקרקע שלפניו",
+            "en": "A detail of the Panorama painting and the physical foreground",
+            "pl": "Fragment obrazu Panoramy i scenografia przestrzenna przed nim",
+            "de": "Ein Detail des Panoramagemäldes mit seinem plastischen Vordergrund",
+            "cs": "Detail panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "פרט מציור הפנורמה ותפאורת הקרקע שלפניו",
+            "en": "A detail of the Panorama painting and the physical foreground",
+            "pl": "Fragment obrazu Panoramy i scenografia przestrzenna przed nim",
+            "de": "Ein Detail des Panoramagemäldes mit seinem plastischen Vordergrund",
+            "cs": "Detail panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-054.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה 12.JPG",
+          "sourceSHA256": "e79623e8d11697779376deb59be95c22acf3149117a34467172b6ad209baf479",
+          "assetSHA256": "e79623e8d11697779376deb59be95c22acf3149117a34467172b6ad209baf479",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-055.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה 13.JPG",
+          "sourceSHA256": "0d1d9f72e4d667a55c76e48fceb432d62d33f91a2b2307b99c026a975fa6be5f",
+          "assetSHA256": "0d1d9f72e4d667a55c76e48fceb432d62d33f91a2b2307b99c026a975fa6be5f",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-057.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה 9.JPG",
+          "sourceSHA256": "2af3e818464aaeab721ed002c88f8024791b654109ebf26f61d200ea6ad00cda",
+          "assetSHA256": "2af3e818464aaeab721ed002c88f8024791b654109ebf26f61d200ea6ad00cda",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-058.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה.JPG",
+          "sourceSHA256": "3eb77dd0f94fe118767f2c3308ae92a7e115fe97fc00753cc2f3ebee7e884d69",
+          "assetSHA256": "3eb77dd0f94fe118767f2c3308ae92a7e115fe97fc00753cc2f3ebee7e884d69",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-059.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה14.JPG",
+          "sourceSHA256": "3c1af16bcf3ce3d7ce65aab987fffdcb1892d3e90398c60088e6b965b57aa9cd",
+          "assetSHA256": "3c1af16bcf3ce3d7ce65aab987fffdcb1892d3e90398c60088e6b965b57aa9cd",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-060.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה2.JPG",
+          "sourceSHA256": "11a511d997cbd5e3f24331cbf2fdb6734f32a7c06c66b3ad09517f703e151a38",
+          "assetSHA256": "11a511d997cbd5e3f24331cbf2fdb6734f32a7c06c66b3ad09517f703e151a38",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-061.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנרומה 4.JPG",
+          "sourceSHA256": "060ab3a5f44b7747eadf2b2a8c7906adebbc66ba553085cd36970d033be17ad0",
+          "assetSHA256": "060ab3a5f44b7747eadf2b2a8c7906adebbc66ba553085cd36970d033be17ad0",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו מול ציור הפנורמה ותפאורת הקרקע",
+            "en": "Our visit beside the Panorama painting and its physical foreground",
+            "pl": "Nasza wizyta przy obrazie Panoramy i jego scenografii przestrzennej",
+            "de": "Unser Besuch am Panoramagemälde und seinem plastischen Vordergrund",
+            "cs": "Naše návštěva u panoramatického obrazu a jeho prostorového popředí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -47662,7 +48622,8 @@
         "/assets/papa-gnomes-11.jpg",
         "/assets/papa-gnomes-13.jpg",
         "/assets/papa-gnomes-14.jpg",
-        "/assets/papa-gnomes-15.jpg"
+        "/assets/papa-gnomes-15.jpg",
+        "/assets/named-wroclaw-oct28/source-016.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/gQoBaOkFAd0",
@@ -47760,6 +48721,90 @@
           "fullPicturePreserved": true,
           "youtubePublicReopened": true,
           "approvalCall": "call_5aec5b41d5674a51a1c862ff053934dd"
+        },
+        "/assets/named-wroclaw-oct28/source-016.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/גמד איפה שהיה בית הכלא בעיר העתיקה.JPG",
+          "sourceSHA256": "29a0fa6683cc6f41f9e48f4cc7729df4923eb2e30cf199cbfe393b29d8df592a",
+          "assetSHA256": "29a0fa6683cc6f41f9e48f4cc7729df4923eb2e30cf199cbfe393b29d8df592a",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "גמד אסיר מאחורי סורגים, פרט מההליכה בעיר העתיקה",
+            "en": "A prisoner dwarf behind bars, a detail from our Old Town walk",
+            "pl": "Krasnal więzień za kratami, detal z naszego spaceru po Starym Mieście",
+            "de": "Ein Gefangenen-Zwerg hinter Gittern bei unserem Altstadtspaziergang",
+            "cs": "Trpaslík vězeň za mřížemi při naší procházce starým městem"
+          },
+          "title": {
+            "he": "גמד אסיר מאחורי סורגים, פרט מההליכה בעיר העתיקה",
+            "en": "A prisoner dwarf behind bars, a detail from our Old Town walk",
+            "pl": "Krasnal więzień za kratami, detal z naszego spaceru po Starym Mieście",
+            "de": "Ein Gefangenen-Zwerg hinter Gittern bei unserem Altstadtspaziergang",
+            "cs": "Trpaslík vězeň za mřížemi při naší procházce starým městem"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/papa-gnomes-13.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/האלה טארגובה 4.JPG",
+          "sourceSHA256": "1c4e5ce692a148a72025409197aeb5c25760c78574654350464544f67f6093c2",
+          "assetSHA256": "1c4e5ce692a148a72025409197aeb5c25760c78574654350464544f67f6093c2",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פרט גמד עם ספרים ומכבש דפוס ליד השוק המקורה",
+            "en": "A dwarf with books and a printing press beside the market hall",
+            "pl": "Krasnal z książkami i prasą drukarską przy Hali Targowej",
+            "de": "Ein Zwerg mit Büchern und Druckerpresse bei der Markthalle",
+            "cs": "Trpaslík s knihami a tiskařským lisem u tržnice"
+          },
+          "title": {
+            "he": "פרט גמד עם ספרים ומכבש דפוס ליד השוק המקורה",
+            "en": "A dwarf with books and a printing press beside the market hall",
+            "pl": "Krasnal z książkami i prasą drukarską przy Hali Targowej",
+            "de": "Ein Zwerg mit Büchern und Druckerpresse bei der Markthalle",
+            "cs": "Trpaslík s knihami a tiskařským lisem u tržnice"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
+        },
+        "/assets/papa-gnomes-07.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/פנורמה 5.JPG",
+          "sourceSHA256": "5a018034e9dd2fe9cdabe63fe09ac5c798f60d09f4b0db5175e053297e23aebe",
+          "assetSHA256": "5a018034e9dd2fe9cdabe63fe09ac5c798f60d09f4b0db5175e053297e23aebe",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "פסל גמד על סוס ליד הפנורמה",
+            "en": "A mounted dwarf sculpture beside the Panorama",
+            "pl": "Figurka krasnala na koniu przy Panoramie",
+            "de": "Eine reitende Zwergenfigur bei der Panorama",
+            "cs": "Soška trpaslíka na koni u Panoramy"
+          },
+          "title": {
+            "he": "פסל גמד על סוס ליד הפנורמה",
+            "en": "A mounted dwarf sculpture beside the Panorama",
+            "pl": "Figurka krasnala na koniu przy Panoramie",
+            "de": "Eine reitende Zwergenfigur bei der Panorama",
+            "cs": "Soška trpaslíka na koni u Panoramy"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
         }
       }
     },
@@ -59007,7 +60052,13 @@
         "/assets/full-enrichment-20261022/rynek-33.jpg",
         "/assets/town-hall-refresh-oct19-02.jpg",
         "/assets/full-enrichment-20261022/rynek-38.jpg",
-        "/assets/full-enrichment-20261022/rynek-01.jpg"
+        "/assets/full-enrichment-20261022/rynek-01.jpg",
+        "/assets/named-wroclaw-oct28/source-033.jpg",
+        "/assets/named-wroclaw-oct28/source-034.jpg",
+        "/assets/named-wroclaw-oct28/source-066.jpg",
+        "/assets/named-wroclaw-oct28/source-067.jpg",
+        "/assets/named-wroclaw-oct28/source-068.jpg",
+        "/assets/named-wroclaw-oct28/source-069.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/XGNYmjLwEz0",
@@ -59022,7 +60073,9 @@
         "https://www.youtube.com/watch?v=azjGAh0J8yM",
         "https://www.youtube.com/watch?v=28qNFqr_n6I",
         "https://www.youtube.com/watch?v=fNVuCBSZGPU",
-        "https://www.youtube.com/watch?v=wkaTOfyiPyM"
+        "https://www.youtube.com/watch?v=wkaTOfyiPyM",
+        "https://www.youtube.com/watch?v=TzJ-mxTa-pc",
+        "https://www.youtube.com/watch?v=wl_HlDde4n8"
       ],
       "metadata": {
         "/assets/rynek-refresh-oct19-01.jpg": {
@@ -59443,18 +60496,32 @@
           }
         },
         "/assets/full-enrichment-20261022/rynek-33.jpg": {
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-06-12 at 14.36.14.jpeg",
-          "sourceSHA256": "3ce26ec3fc662d72cdd378bb755522144b7aab787fd51613bbf897f64d1c99e0",
-          "assetSHA256": "23a68fcf303a6bef143c17d7160c476f50343dc37bfa18fda88feedbde0f9176",
+          "original": true,
           "originalFullPicturePreserved": true,
-          "familyForeground": false,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/רינ90.JPG",
+          "sourceSHA256": "2aeca7aa53c4f62cb467a72720cd8d2a4e995b3c0767e955b4f2e52fc729cef1",
+          "assetSHA256": "2aeca7aa53c4f62cb467a72720cd8d2a4e995b3c0767e955b4f2e52fc729cef1",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
           "alt": {
-            "he": "מבט נוסף על כיכר השוק וסביבתה",
-            "en": "Another view of Market Square and its surroundings",
-            "pl": "Kolejny widok Rynku i jego otoczenia",
-            "de": "Ein weiterer Blick auf den Marktplatz und seine Umgebung",
-            "cs": "Další pohled na Rynek a jeho okolí"
-          }
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "title": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "upgrade-existing-capture-source"
         },
         "/assets/rynek-market-square.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Rynek/WhatsApp Image 2026-06-20 at 15.42.48.jpeg",
@@ -59668,6 +60735,234 @@
           "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
           "publicationProof": "next-seven-04-publication-result.txt",
           "publicReopenProof": "next-seven-04-Public-reopened.txt"
+        },
+        "/assets/named-wroclaw-oct28/source-033.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/הרינק 4.JPG",
+          "sourceSHA256": "58374bedeccffb39a2c5a13e5a027a4e215738234767a2f59a2f2a64f229f443",
+          "assetSHA256": "58374bedeccffb39a2c5a13e5a027a4e215738234767a2f59a2f2a64f229f443",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "title": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-034.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/הרינק של וורוצלב.JPG",
+          "sourceSHA256": "a0f67944ada958f1f05559f2b4210946522d8ffe62d5c6a89a69d1f3a83bf1aa",
+          "assetSHA256": "a0f67944ada958f1f05559f2b4210946522d8ffe62d5c6a89a69d1f3a83bf1aa",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "title": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-066.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/רינק15.JPG",
+          "sourceSHA256": "acd46162f1adf232683e50e56b63daf704f011e17cc95b2e031907fc70178b1d",
+          "assetSHA256": "acd46162f1adf232683e50e56b63daf704f011e17cc95b2e031907fc70178b1d",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "title": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-067.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/רינק34ֿ.JPG",
+          "sourceSHA256": "d2876b78176687d69be2e0319b2a5d3e89249be944da80e07c5f3147101f4889",
+          "assetSHA256": "d2876b78176687d69be2e0319b2a5d3e89249be944da80e07c5f3147101f4889",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "title": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-068.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/רינק80.JPG",
+          "sourceSHA256": "8ec8a29d093417cdfef773808780227d0aad48e9b9b4e1db6248d5498354d851",
+          "assetSHA256": "8ec8a29d093417cdfef773808780227d0aad48e9b9b4e1db6248d5498354d851",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מזרקת הזכוכית בכיכר השוק",
+            "en": "The glass fountain in Market Square",
+            "pl": "Szklana fontanna na Rynku",
+            "de": "Der Glasbrunnen auf dem Marktplatz",
+            "cs": "Skleněná fontána na náměstí Rynek"
+          },
+          "title": {
+            "he": "מזרקת הזכוכית בכיכר השוק",
+            "en": "The glass fountain in Market Square",
+            "pl": "Szklana fontanna na Rynku",
+            "de": "Der Glasbrunnen auf dem Marktplatz",
+            "cs": "Skleněná fontána na náměstí Rynek"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-069.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/רינק91.JPG",
+          "sourceSHA256": "c0f202f0e289955b09e2776948fa05f7719257d8ea0192dd21fae5bd30ae7b08",
+          "assetSHA256": "c0f202f0e289955b09e2776948fa05f7719257d8ea0192dd21fae5bd30ae7b08",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "title": {
+            "he": "חזיתות כיכר השוק ובית העירייה, מצילום הביקור שלנו",
+            "en": "Market Square facades and Town Hall from our visit",
+            "pl": "Pierzeje Rynku i Ratusz z naszej wizyty",
+            "de": "Fassaden am Marktplatz und Rathaus bei unserem Besuch",
+            "cs": "Průčelí náměstí Rynek a radnice při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "https://www.youtube.com/watch?v=TzJ-mxTa-pc": {
+          "title": {
+            "he": "מזרקת הזכוכית בכיכר השוק בוורוצלב",
+            "en": "Glass fountain on Wrocław Rynek",
+            "pl": "Szklana fontanna na wrocławskim Rynku",
+            "de": "Der Glasbrunnen am Breslauer Marktplatz",
+            "cs": "Skleněná fontána na vratislavském Rynku"
+          },
+          "description": {
+            "he": "מזרקת הזכוכית בכיכר השוק בוורוצלב. צילום הביקור כולל את לוחות הזכוכית, זרמי המים והחזיתות שמאחוריהם.",
+            "en": "The glass fountain on Wrocław Market Square. Visit footage showing the glass panels, water jets and surrounding facades.",
+            "pl": "Szklana fontanna na wrocławskim Rynku. Ujęcie z wizyty pokazuje szklane tafle, strumienie wody i otaczające fasady.",
+            "de": "Der Glasbrunnen am Breslauer Marktplatz. Die Besuchsaufnahme zeigt die Glasscheiben, Wasserstrahlen und umliegenden Fassaden.",
+            "cs": "Skleněná fontána na vratislavském Rynku. Záběr z návštěvy ukazuje skleněné desky, vodní proudy a okolní fasády."
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/המזרקה ברינק.MP4",
+          "sourceSHA256": "0ef301149fdf6ffcc013ffec3638ccc7f7e504df593156e1d84228044267cdd1",
+          "uploadSHA256": "0ef301149fdf6ffcc013ffec3638ccc7f7e504df593156e1d84228044267cdd1",
+          "durationSeconds": 16.98,
+          "originalPictureUnchanged": true,
+          "originalAudioUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "actualPlaybackVerified": true,
+          "publicationReceipt": "wroclaw-named-inbox-2026-10-28/three-videos-public-completion-receipt.json",
+          "specificActionApproval": "wroclaw-named-inbox-2026-10-28/three-videos-actiontime-human-approval.json",
+          "personalMedia": false
+        },
+        "https://www.youtube.com/watch?v=wl_HlDde4n8": {
+          "title": {
+            "he": "הביקור האישי שלנו ומראות כיכר השוק בוורוצלב",
+            "en": "Our personal visit and square views on Wrocław Rynek",
+            "pl": "Nasza osobista wizyta i widoki wrocławskiego Rynku",
+            "de": "Unser persönlicher Besuch und Ansichten des Breslauer Marktplatzes",
+            "cs": "Naše osobní návštěva a pohledy na vratislavský Rynek"
+          },
+          "description": {
+            "he": "צילום אישי מהביקור בכיכר השוק בוורוצלב, עם סיבוב מצלמה אל בית העירייה, חזיתות הבתים והכיכר.",
+            "en": "Personal footage from our visit to Wrocław Market Square, including a camera pan towards the Town Hall, the surrounding facades and the square.",
+            "pl": "Osobiste nagranie z naszej wizyty na wrocławskim Rynku, z panoramą ratusza, otaczających kamienic i placu.",
+            "de": "Persönliche Aufnahme unseres Besuchs am Breslauer Marktplatz, mit einem Kameraschwenk zum Rathaus, den umliegenden Fassaden und dem Platz.",
+            "cs": "Osobní záběry z naší návštěvy vratislavského Rynku, s otočením kamery k radnici, okolním fasádám a náměstí."
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/וידאו ברינק.MP4",
+          "sourceSHA256": "368c4dc857368137188001d8b11f69aaabea3914b82907a18eea6991b7e58719",
+          "uploadSHA256": "368c4dc857368137188001d8b11f69aaabea3914b82907a18eea6991b7e58719",
+          "durationSeconds": 35.371667,
+          "originalPictureUnchanged": true,
+          "originalAudioUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "actualPlaybackVerified": true,
+          "publicationReceipt": "wroclaw-named-inbox-2026-10-28/three-videos-public-completion-receipt.json",
+          "specificActionApproval": "wroclaw-named-inbox-2026-10-28/three-videos-actiontime-human-approval.json",
+          "personalMedia": true
         }
       }
     },
@@ -60582,9 +61877,113 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/named-wroclaw-oct28/source-040.jpg",
+      "photos": [
+        "/assets/named-wroclaw-oct28/source-040.jpg",
+        "/assets/named-wroclaw-oct28/source-041.jpg",
+        "/assets/named-wroclaw-oct28/source-042.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/named-wroclaw-oct28/source-040.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/כיכר המלח.JPG",
+          "sourceSHA256": "0b8e67eb326d1dc9dfce4d6aea1adb002a17208d90a09000096fd664f6848257",
+          "assetSHA256": "0b8e67eb326d1dc9dfce4d6aea1adb002a17208d90a09000096fd664f6848257",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "גמד על עמוד פנס בכיכר המלח",
+            "en": "A dwarf on a lamp-post in Salt Square",
+            "pl": "Krasnal na latarni na placu Solnym",
+            "de": "Ein Zwerg an einer Laterne auf dem Salzplatz",
+            "cs": "Trpaslík na lampě na Solném náměstí"
+          },
+          "title": {
+            "he": "גמד על עמוד פנס בכיכר המלח",
+            "en": "A dwarf on a lamp-post in Salt Square",
+            "pl": "Krasnal na latarni na placu Solnym",
+            "de": "Ein Zwerg an einer Laterne auf dem Salzplatz",
+            "cs": "Trpaslík na lampě na Solném náměstí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-041.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/כיכר המלח2.JPG",
+          "sourceSHA256": "d63f339d0dd33e90ce0ed9ffaa0ae8aca8a588256281a98435a3f16b3955f32d",
+          "assetSHA256": "d63f339d0dd33e90ce0ed9ffaa0ae8aca8a588256281a98435a3f16b3955f32d",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "גמד על עמוד פנס בכיכר המלח",
+            "en": "A dwarf on a lamp-post in Salt Square",
+            "pl": "Krasnal na latarni na placu Solnym",
+            "de": "Ein Zwerg an einer Laterne auf dem Salzplatz",
+            "cs": "Trpaslík na lampě na Solném náměstí"
+          },
+          "title": {
+            "he": "גמד על עמוד פנס בכיכר המלח",
+            "en": "A dwarf on a lamp-post in Salt Square",
+            "pl": "Krasnal na latarni na placu Solnym",
+            "de": "Ein Zwerg an einer Laterne auf dem Salzplatz",
+            "cs": "Trpaslík na lampě na Solném náměstí"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-042.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/כיכר המלח3.JPG",
+          "sourceSHA256": "96b6c1232980e382f7f9685cae254b9eb120def7ad473e5add56617df4575b55",
+          "assetSHA256": "96b6c1232980e382f7f9685cae254b9eb120def7ad473e5add56617df4575b55",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "שני גמדים מנסרים, בכיכר המלח או בסמטה הצמודה לה",
+            "en": "Two sawing dwarfs in Salt Square or its adjoining lane",
+            "pl": "Dwa krasnale z piłą na placu Solnym lub w przyległej uliczce",
+            "de": "Zwei sägende Zwerge am Salzplatz oder in der angrenzenden Gasse",
+            "cs": "Dva řezající trpaslíci na Solném náměstí nebo v přilehlé uličce"
+          },
+          "title": {
+            "he": "שני גמדים מנסרים, בכיכר המלח או בסמטה הצמודה לה",
+            "en": "Two sawing dwarfs in Salt Square or its adjoining lane",
+            "pl": "Dwa krasnale z piłą na placu Solnym lub w przyległej uliczce",
+            "de": "Zwei sägende Zwerge am Salzplatz oder in der angrenzenden Gasse",
+            "cs": "Dva řezající trpaslíci na Solném náměstí nebo v přilehlé uličce"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -60605,19 +62004,6 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid036F1q9cJUT4QRZXyv1m96nMKbB3Ja9vf9ZfzY8Av9LQFrmb6nMiMrAz9Xy4vjy8f1l&id=61595207664875",
         "verifiedAt": "2026-10-08T15:29:19.429Z"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "song-of-the-goat-theatre": {
@@ -68127,7 +69513,11 @@
         "/assets/town-hall-refresh-oct19-01.jpg",
         "/assets/town-hall-refresh-oct19-02.jpg",
         "/assets/rynek-refresh-oct19-07.jpg",
-        "/assets/full-enrichment-20261022/rynek-38.jpg"
+        "/assets/full-enrichment-20261022/rynek-38.jpg",
+        "/assets/named-wroclaw-oct28/source-011.jpg",
+        "/assets/named-wroclaw-oct28/source-012.jpg",
+        "/assets/named-wroclaw-oct28/source-013.jpg",
+        "/assets/named-wroclaw-oct28/source-014.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/a6Hx2tj5Dzg"
@@ -68190,6 +69580,118 @@
             "de": "Das Alte Rathaus und der umgebende Platz",
             "cs": "Stará radnice a okolní náměstí"
           }
+        },
+        "/assets/named-wroclaw-oct28/source-011.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/בית העירייה 2.JPG",
+          "sourceSHA256": "63c30449846788050eff7c50fe951faa9a4b730ea8bfc5a17ee50579684acb33",
+          "assetSHA256": "63c30449846788050eff7c50fe951faa9a4b730ea8bfc5a17ee50579684acb33",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "בית העירייה הישן וכיכר השוק, מצילום הביקור שלנו",
+            "en": "The Old Town Hall and Market Square from our visit",
+            "pl": "Stary Ratusz i Rynek z naszej wizyty",
+            "de": "Altes Rathaus und Marktplatz bei unserem Besuch",
+            "cs": "Stará radnice a náměstí Rynek při naší návštěvě"
+          },
+          "title": {
+            "he": "בית העירייה הישן וכיכר השוק, מצילום הביקור שלנו",
+            "en": "The Old Town Hall and Market Square from our visit",
+            "pl": "Stary Ratusz i Rynek z naszej wizyty",
+            "de": "Altes Rathaus und Marktplatz bei unserem Besuch",
+            "cs": "Stará radnice a náměstí Rynek při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-012.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/בית העירייה 8.JPG",
+          "sourceSHA256": "1a934ecce2e51872f0ad7edb810f084bbe9375613af83c058027ea5746e57671",
+          "assetSHA256": "1a934ecce2e51872f0ad7edb810f084bbe9375613af83c058027ea5746e57671",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "בית העירייה הישן וכיכר השוק, מצילום הביקור שלנו",
+            "en": "The Old Town Hall and Market Square from our visit",
+            "pl": "Stary Ratusz i Rynek z naszej wizyty",
+            "de": "Altes Rathaus und Marktplatz bei unserem Besuch",
+            "cs": "Stará radnice a náměstí Rynek při naší návštěvě"
+          },
+          "title": {
+            "he": "בית העירייה הישן וכיכר השוק, מצילום הביקור שלנו",
+            "en": "The Old Town Hall and Market Square from our visit",
+            "pl": "Stary Ratusz i Rynek z naszej wizyty",
+            "de": "Altes Rathaus und Marktplatz bei unserem Besuch",
+            "cs": "Stará radnice a náměstí Rynek při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-013.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/בית העירייה והרינק.JPG",
+          "sourceSHA256": "01f36dfb651685283d898884e857447a7225901606c007fbc2c4c8e7cb21e771",
+          "assetSHA256": "01f36dfb651685283d898884e857447a7225901606c007fbc2c4c8e7cb21e771",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "בית העירייה הישן וכיכר השוק, מצילום הביקור שלנו",
+            "en": "The Old Town Hall and Market Square from our visit",
+            "pl": "Stary Ratusz i Rynek z naszej wizyty",
+            "de": "Altes Rathaus und Marktplatz bei unserem Besuch",
+            "cs": "Stará radnice a náměstí Rynek při naší návštěvě"
+          },
+          "title": {
+            "he": "בית העירייה הישן וכיכר השוק, מצילום הביקור שלנו",
+            "en": "The Old Town Hall and Market Square from our visit",
+            "pl": "Stary Ratusz i Rynek z naszej wizyty",
+            "de": "Altes Rathaus und Marktplatz bei unserem Besuch",
+            "cs": "Stará radnice a náměstí Rynek při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-014.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/בית העירייה.JPG",
+          "sourceSHA256": "a8cb7a42be74486adee1e859127d39a7a103b4a5390ad928e1ef9630eea195e0",
+          "assetSHA256": "a8cb7a42be74486adee1e859127d39a7a103b4a5390ad928e1ef9630eea195e0",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "בית העירייה הישן וכיכר השוק, מצילום הביקור שלנו",
+            "en": "The Old Town Hall and Market Square from our visit",
+            "pl": "Stary Ratusz i Rynek z naszej wizyty",
+            "de": "Altes Rathaus und Marktplatz bei unserem Besuch",
+            "cs": "Stará radnice a náměstí Rynek při naší návštěvě"
+          },
+          "title": {
+            "he": "בית העירייה הישן וכיכר השוק, מצילום הביקור שלנו",
+            "en": "The Old Town Hall and Market Square from our visit",
+            "pl": "Stary Ratusz i Rynek z naszej wizyty",
+            "de": "Altes Rathaus und Marktplatz bei unserem Besuch",
+            "cs": "Stará radnice a náměstí Rynek při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -68556,7 +70058,13 @@
         "/assets/gallery-university-03.jpg",
         "/assets/gallery-university-05.jpg",
         "/assets/full-enrichment-20261022/university-06.jpg",
-        "/assets/mathematical-tower-riverside.jpg"
+        "/assets/mathematical-tower-riverside.jpg",
+        "/assets/named-wroclaw-oct28/source-001.jpg",
+        "/assets/named-wroclaw-oct28/source-002.jpg",
+        "/assets/named-wroclaw-oct28/source-003.jpg",
+        "/assets/named-wroclaw-oct28/source-004.jpg",
+        "/assets/named-wroclaw-oct28/source-005.jpg",
+        "/assets/named-wroclaw-oct28/source-035.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -68629,6 +70137,174 @@
             "de": "Das Gebäude der Universität Breslau und seine Umgebung",
             "cs": "Budova Vratislavské univerzity a její okolí"
           }
+        },
+        "/assets/named-wroclaw-oct28/source-001.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אוניברסיטה5.JPG",
+          "sourceSHA256": "828b9e730f01cf2ad010a59b46b5968c60297569f2f11aad50a4a69cd2fd5a55",
+          "assetSHA256": "828b9e730f01cf2ad010a59b46b5968c60297569f2f11aad50a4a69cd2fd5a55",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו ליד הכניסה המעוטרת לאוניברסיטה",
+            "en": "Our visit beside the decorated University entrance",
+            "pl": "Nasza wizyta przy ozdobnym wejściu do Uniwersytetu",
+            "de": "Unser Besuch am geschmückten Universitätseingang",
+            "cs": "Naše návštěva u zdobeného vstupu do univerzity"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו ליד הכניסה המעוטרת לאוניברסיטה",
+            "en": "Our visit beside the decorated University entrance",
+            "pl": "Nasza wizyta przy ozdobnym wejściu do Uniwersytetu",
+            "de": "Unser Besuch am geschmückten Universitätseingang",
+            "cs": "Naše návštěva u zdobeného vstupu do univerzity"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-002.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אוניברסיטה55.JPG",
+          "sourceSHA256": "723dcb35b9e1f06dbb7eaa7142b704ec306656f697b2038c7e680260c1d7241e",
+          "assetSHA256": "723dcb35b9e1f06dbb7eaa7142b704ec306656f697b2038c7e680260c1d7241e",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו ליד הכניסה המעוטרת לאוניברסיטה",
+            "en": "Our visit beside the decorated University entrance",
+            "pl": "Nasza wizyta przy ozdobnym wejściu do Uniwersytetu",
+            "de": "Unser Besuch am geschmückten Universitätseingang",
+            "cs": "Naše návštěva u zdobeného vstupu do univerzity"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו ליד הכניסה המעוטרת לאוניברסיטה",
+            "en": "Our visit beside the decorated University entrance",
+            "pl": "Nasza wizyta przy ozdobnym wejściu do Uniwersytetu",
+            "de": "Unser Besuch am geschmückten Universitätseingang",
+            "cs": "Naše návštěva u zdobeného vstupu do univerzity"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-003.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אוניברסיטה6.JPG",
+          "sourceSHA256": "e07feafe770db853a4a1a84c09f247b9d3b54cec2563bf9597d1dd6bce47b85c",
+          "assetSHA256": "e07feafe770db853a4a1a84c09f247b9d3b54cec2563bf9597d1dd6bce47b85c",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו ליד גמד בכניסה לאוניברסיטה",
+            "en": "Our visit beside a dwarf at the University entrance",
+            "pl": "Nasza wizyta przy krasnalu obok wejścia do Uniwersytetu",
+            "de": "Unser Besuch bei einem Zwerg am Universitätseingang",
+            "cs": "Naše návštěva u trpaslíka u vstupu do univerzity"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו ליד גמד בכניסה לאוניברסיטה",
+            "en": "Our visit beside a dwarf at the University entrance",
+            "pl": "Nasza wizyta przy krasnalu obok wejścia do Uniwersytetu",
+            "de": "Unser Besuch bei einem Zwerg am Universitätseingang",
+            "cs": "Naše návštěva u trpaslíka u vstupu do univerzity"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-004.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אוניברסיטה66.JPG",
+          "sourceSHA256": "8d64eb28c1e7aeb7b2dcd3248f9f73239fc597b3eb57c2a641acb5287c586521",
+          "assetSHA256": "8d64eb28c1e7aeb7b2dcd3248f9f73239fc597b3eb57c2a641acb5287c586521",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו ליד גמד בכניסה לאוניברסיטה",
+            "en": "Our visit beside a dwarf at the University entrance",
+            "pl": "Nasza wizyta przy krasnalu obok wejścia do Uniwersytetu",
+            "de": "Unser Besuch bei einem Zwerg am Universitätseingang",
+            "cs": "Naše návštěva u trpaslíka u vstupu do univerzity"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו ליד גמד בכניסה לאוניברסיטה",
+            "en": "Our visit beside a dwarf at the University entrance",
+            "pl": "Nasza wizyta przy krasnalu obok wejścia do Uniwersytetu",
+            "de": "Unser Besuch bei einem Zwerg am Universitätseingang",
+            "cs": "Naše návštěva u trpaslíka u vstupu do univerzity"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-005.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אוניברסיטה67.JPG",
+          "sourceSHA256": "04dcd5754376e753204b50c598564b932d1f60dc618aeff7cc0668c2ace4f1a2",
+          "assetSHA256": "04dcd5754376e753204b50c598564b932d1f60dc618aeff7cc0668c2ace4f1a2",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו ליד גמד בכניסה לאוניברסיטה",
+            "en": "Our visit beside a dwarf at the University entrance",
+            "pl": "Nasza wizyta przy krasnalu obok wejścia do Uniwersytetu",
+            "de": "Unser Besuch bei einem Zwerg am Universitätseingang",
+            "cs": "Naše návštěva u trpaslíka u vstupu do univerzity"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו ליד גמד בכניסה לאוניברסיטה",
+            "en": "Our visit beside a dwarf at the University entrance",
+            "pl": "Nasza wizyta przy krasnalu obok wejścia do Uniwersytetu",
+            "de": "Unser Besuch bei einem Zwerg am Universitätseingang",
+            "cs": "Naše návštěva u trpaslíka u vstupu do univerzity"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-035.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/וורצלב בערב.JPG",
+          "sourceSHA256": "230878845c123686d246e8121cbaea783b4e401a6ae5522c2f07f5fc03286679",
+          "assetSHA256": "230878845c123686d246e8121cbaea783b4e401a6ae5522c2f07f5fc03286679",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "בניין האוניברסיטה המואר והשתקפותו בנהר בלילה",
+            "en": "The illuminated University building reflected in the river at night",
+            "pl": "Oświetlony gmach Uniwersytetu i nocne odbicie w rzece",
+            "de": "Das beleuchtete Universitätsgebäude spiegelt sich nachts im Fluss",
+            "cs": "Osvětlená budova univerzity se v noci odráží v řece"
+          },
+          "title": {
+            "he": "בניין האוניברסיטה המואר והשתקפותו בנהר בלילה",
+            "en": "The illuminated University building reflected in the river at night",
+            "pl": "Oświetlony gmach Uniwersytetu i nocne odbicie w rzece",
+            "de": "Das beleuchtete Universitätsgebäude spiegelt sich nachts im Fluss",
+            "cs": "Osvětlená budova univerzity se v noci odráží v řece"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
         }
       }
     },
@@ -75136,7 +76812,10 @@
         "/assets/botanical-oct28/source-054.jpg",
         "/assets/botanical-oct28/source-055.jpg",
         "/assets/botanical-oct28/source-056.jpg",
-        "/assets/botanical-oct28/source-057.jpg"
+        "/assets/botanical-oct28/source-057.jpg",
+        "/assets/named-wroclaw-oct28/source-044.jpg",
+        "/assets/named-wroclaw-oct28/source-046.jpg",
+        "/assets/named-wroclaw-oct28/source-047.jpg"
       ],
       "videos": [
         "https://youtube.com/shorts/7IHNkTmYczU",
@@ -75147,7 +76826,8 @@
         "https://youtube.com/shorts/4to84Yc3xn0",
         "https://youtube.com/shorts/cII0K2K7txY",
         "https://youtube.com/shorts/JXZXIdkib5A",
-        "https://youtube.com/shorts/crVvtb_OrZw"
+        "https://youtube.com/shorts/crVvtb_OrZw",
+        "https://www.youtube.com/watch?v=8Zl2zIbcScY"
       ],
       "guideVideos": {
         "he": "https://youtube.com/shorts/xkwNR0L_azo",
@@ -76534,6 +78214,120 @@
           "publicationReceipt": "botanical-new-inbox-2026-10-28/four-videos-public-completion-receipt.json",
           "specificActionApproval": "botanical-new-inbox-2026-10-28/four-videos-actiontime-human-approval.json",
           "personalMedia": false
+        },
+        "/assets/named-wroclaw-oct28/source-044.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ליד הגנים הבוטניים 9.JPG",
+          "sourceSHA256": "708c726e56fb924c8ab5299d924dce324ada69e1f83d806fe2fb5132daebd8eb",
+          "assetSHA256": "708c726e56fb924c8ab5299d924dce324ada69e1f83d806fe2fb5132daebd8eb",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזית בניין ברחוב סיינקביצ׳ה, בדרך לגן הבוטני",
+            "en": "A building facade on Sienkiewicza Street on the way to the Botanical Garden",
+            "pl": "Fasada przy ulicy Sienkiewicza w drodze do Ogrodu Botanicznego",
+            "de": "Eine Fassade an der Sienkiewicza-Straße auf dem Weg zum Botanischen Garten",
+            "cs": "Průčelí v ulici Sienkiewicza cestou do botanické zahrady"
+          },
+          "title": {
+            "he": "חזית בניין ברחוב סיינקביצ׳ה, בדרך לגן הבוטני",
+            "en": "A building facade on Sienkiewicza Street on the way to the Botanical Garden",
+            "pl": "Fasada przy ulicy Sienkiewicza w drodze do Ogrodu Botanicznego",
+            "de": "Eine Fassade an der Sienkiewicza-Straße auf dem Weg zum Botanischen Garten",
+            "cs": "Průčelí v ulici Sienkiewicza cestou do botanické zahrady"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-046.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ליד הגנים הבוטניים5.JPG",
+          "sourceSHA256": "89854f6181dacc489fdb7cfaa8853e1594cd56b93c553b9cb0912e4caa49b248",
+          "assetSHA256": "89854f6181dacc489fdb7cfaa8853e1594cd56b93c553b9cb0912e4caa49b248",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזית הלבנים של בייסקמפ בסביבת הגן הבוטני",
+            "en": "The brick BaseCamp facade in the Botanical Garden surroundings",
+            "pl": "Ceglana fasada BaseCamp w otoczeniu Ogrodu Botanicznego",
+            "de": "Die Backsteinfassade von BaseCamp in der Umgebung des Botanischen Gartens",
+            "cs": "Cihlové průčelí BaseCamp v okolí botanické zahrady"
+          },
+          "title": {
+            "he": "חזית הלבנים של בייסקמפ בסביבת הגן הבוטני",
+            "en": "The brick BaseCamp facade in the Botanical Garden surroundings",
+            "pl": "Ceglana fasada BaseCamp w otoczeniu Ogrodu Botanicznego",
+            "de": "Die Backsteinfassade von BaseCamp in der Umgebung des Botanischen Gartens",
+            "cs": "Cihlové průčelí BaseCamp v okolí botanické zahrady"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-047.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ליד הגנים הבוטניים8.JPG",
+          "sourceSHA256": "ce11e685f14654278ebfc02d560e4f18027a59f3b8011dc51e919bd2a8521792",
+          "assetSHA256": "ce11e685f14654278ebfc02d560e4f18027a59f3b8011dc51e919bd2a8521792",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "חזית בניין ברחוב סיינקביצ׳ה, בדרך לגן הבוטני",
+            "en": "A building facade on Sienkiewicza Street on the way to the Botanical Garden",
+            "pl": "Fasada przy ulicy Sienkiewicza w drodze do Ogrodu Botanicznego",
+            "de": "Eine Fassade an der Sienkiewicza-Straße auf dem Weg zum Botanischen Garten",
+            "cs": "Průčelí v ulici Sienkiewicza cestou do botanické zahrady"
+          },
+          "title": {
+            "he": "חזית בניין ברחוב סיינקביצ׳ה, בדרך לגן הבוטני",
+            "en": "A building facade on Sienkiewicza Street on the way to the Botanical Garden",
+            "pl": "Fasada przy ulicy Sienkiewicza w drodze do Ogrodu Botanicznego",
+            "de": "Eine Fassade an der Sienkiewicza-Straße auf dem Weg zum Botanischen Garten",
+            "cs": "Průčelí v ulici Sienkiewicza cestou do botanické zahrady"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "https://www.youtube.com/watch?v=8Zl2zIbcScY": {
+          "title": {
+            "he": "הסביבה והדרך לגן הבוטני בוורוצלב",
+            "en": "The surroundings and approach to Wrocław Botanical Garden",
+            "pl": "Otoczenie i dojście do Ogrodu Botanicznego we Wrocławiu",
+            "de": "Die Umgebung und der Weg zum Botanischen Garten in Breslau",
+            "cs": "Okolí a cesta k botanické zahradě ve Vratislavi"
+          },
+          "description": {
+            "he": "תיעוד הסביבה והדרך לגן הבוטני בוורוצלב, עם הרחוב, החזיתות והגדר מבחוץ. אדם מופיע בסיום. זהו צילום מחוץ לגן.",
+            "en": "The surroundings and approach to Wrocław Botanical Garden, showing the street, building facades and garden fence from outside. A person appears at the end. This footage is outside the garden.",
+            "pl": "Otoczenie i dojście do Ogrodu Botanicznego we Wrocławiu: ulica, fasady budynków i ogrodzenie widziane z zewnątrz. Na końcu pojawia się osoba. Nagranie powstało poza ogrodem.",
+            "de": "Die Umgebung und der Weg zum Botanischen Garten in Breslau: Straße, Gebäudefassaden und Gartenzaun von außen. Am Ende erscheint eine Person. Die Aufnahme entstand außerhalb des Gartens.",
+            "cs": "Okolí a cesta k botanické zahradě ve Vratislavi: ulice, fasády budov a oplocení zvenčí. Na konci se objeví osoba. Záběry jsou pořízeny mimo zahradu."
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ליד הגנים הבוטניים.MP4",
+          "sourceSHA256": "561c92571240a2898c074168d9c5a9ec7210ae38841f6794f9118fcd23082290",
+          "uploadSHA256": "561c92571240a2898c074168d9c5a9ec7210ae38841f6794f9118fcd23082290",
+          "durationSeconds": 26.871678,
+          "originalPictureUnchanged": true,
+          "originalAudioUnchanged": true,
+          "audioRemoved": false,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "checks": "complete-no-issues",
+          "actualPlaybackVerified": true,
+          "publicationReceipt": "wroclaw-named-inbox-2026-10-28/three-videos-public-completion-receipt.json",
+          "specificActionApproval": "wroclaw-named-inbox-2026-10-28/three-videos-actiontime-human-approval.json",
+          "personalMedia": true
         }
       }
     },
@@ -79167,8 +80961,186 @@
       }
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/named-wroclaw-oct28/source-009.jpg",
+      "photos": [
+        "/assets/named-wroclaw-oct28/source-009.jpg",
+        "/assets/named-wroclaw-oct28/source-010.jpg",
+        "/assets/named-wroclaw-oct28/source-017.jpg",
+        "/assets/named-wroclaw-oct28/source-018.jpg",
+        "/assets/named-wroclaw-oct28/source-019.jpg",
+        "/assets/named-wroclaw-oct28/source-020.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/named-wroclaw-oct28/source-009.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אי החול.JPG",
+          "sourceSHA256": "6858c24d78a1c821990ffc63a988babf5052fb521bb77a115637704103e49397",
+          "assetSHA256": "6858c24d78a1c821990ffc63a988babf5052fb521bb77a115637704103e49397",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו על ספסל לצד גמד באי החול",
+            "en": "Our visit on a bench beside a dwarf on Sand Island",
+            "pl": "Nasza wizyta na ławce obok krasnala na Wyspie Piasek",
+            "de": "Unser Besuch auf einer Bank neben einem Zwerg auf der Sandinsel",
+            "cs": "Naše návštěva na lavičce vedle trpaslíka na Písečném ostrově"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו על ספסל לצד גמד באי החול",
+            "en": "Our visit on a bench beside a dwarf on Sand Island",
+            "pl": "Nasza wizyta na ławce obok krasnala na Wyspie Piasek",
+            "de": "Unser Besuch auf einer Bank neben einem Zwerg auf der Sandinsel",
+            "cs": "Naše návštěva na lavičce vedle trpaslíka na Písečném ostrově"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-010.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/אי החול2.JPG",
+          "sourceSHA256": "1d9181afb95a77046a75b20bf699412655f6b145cd939265dd1e91dd83950ba8",
+          "assetSHA256": "1d9181afb95a77046a75b20bf699412655f6b145cd939265dd1e91dd83950ba8",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "צילום הביקור שלנו על ספסל לצד גמד באי החול",
+            "en": "Our visit on a bench beside a dwarf on Sand Island",
+            "pl": "Nasza wizyta na ławce obok krasnala na Wyspie Piasek",
+            "de": "Unser Besuch auf einer Bank neben einem Zwerg auf der Sandinsel",
+            "cs": "Naše návštěva na lavičce vedle trpaslíka na Písečném ostrově"
+          },
+          "title": {
+            "he": "צילום הביקור שלנו על ספסל לצד גמד באי החול",
+            "en": "Our visit on a bench beside a dwarf on Sand Island",
+            "pl": "Nasza wizyta na ławce obok krasnala na Wyspie Piasek",
+            "de": "Unser Besuch auf einer Bank neben einem Zwerg auf der Sandinsel",
+            "cs": "Naše návštěva na lavičce vedle trpaslíka na Písečném ostrově"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-017.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/גשר טומסקי מנעולים.JPG",
+          "sourceSHA256": "1be97031ec377640169ca9fb8e6e03d880a47a6a0176eed50afe1008d0c1e996",
+          "assetSHA256": "1be97031ec377640169ca9fb8e6e03d880a47a6a0176eed50afe1008d0c1e996",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מנעולים על מעקה גדת אי החול, מצילום הביקור שלנו",
+            "en": "Locks on the Sand Island bank railing, photographed on our visit",
+            "pl": "Kłódki na balustradzie nadbrzeża Wyspy Piasek z naszej wizyty",
+            "de": "Schlösser am Ufergeländer der Sandinsel bei unserem Besuch",
+            "cs": "Zámky na zábradlí nábřeží Písečného ostrova při naší návštěvě"
+          },
+          "title": {
+            "he": "מנעולים על מעקה גדת אי החול, מצילום הביקור שלנו",
+            "en": "Locks on the Sand Island bank railing, photographed on our visit",
+            "pl": "Kłódki na balustradzie nadbrzeża Wyspy Piasek z naszej wizyty",
+            "de": "Schlösser am Ufergeländer der Sandinsel bei unserem Besuch",
+            "cs": "Zámky na zábradlí nábřeží Písečného ostrova při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-018.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/גשר טומסקי מנעולים3.JPG",
+          "sourceSHA256": "434455d90d89bee5e8205f637c216f6d2c007029e3de940992f10206cfdefdf1",
+          "assetSHA256": "434455d90d89bee5e8205f637c216f6d2c007029e3de940992f10206cfdefdf1",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מנעולים על מעקה גדת אי החול, מצילום הביקור שלנו",
+            "en": "Locks on the Sand Island bank railing, photographed on our visit",
+            "pl": "Kłódki na balustradzie nadbrzeża Wyspy Piasek z naszej wizyty",
+            "de": "Schlösser am Ufergeländer der Sandinsel bei unserem Besuch",
+            "cs": "Zámky na zábradlí nábřeží Písečného ostrova při naší návštěvě"
+          },
+          "title": {
+            "he": "מנעולים על מעקה גדת אי החול, מצילום הביקור שלנו",
+            "en": "Locks on the Sand Island bank railing, photographed on our visit",
+            "pl": "Kłódki na balustradzie nadbrzeża Wyspy Piasek z naszej wizyty",
+            "de": "Schlösser am Ufergeländer der Sandinsel bei unserem Besuch",
+            "cs": "Zámky na zábradlí nábřeží Písečného ostrova při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-019.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/גשר טומסקי מנעולים5.JPG",
+          "sourceSHA256": "52bb8279242eccc21287e513befc56951c2a16e1c89b125b0734eda6a65cfd62",
+          "assetSHA256": "52bb8279242eccc21287e513befc56951c2a16e1c89b125b0734eda6a65cfd62",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מנעולים על מעקה גדת אי החול, מצילום הביקור שלנו",
+            "en": "Locks on the Sand Island bank railing, photographed on our visit",
+            "pl": "Kłódki na balustradzie nadbrzeża Wyspy Piasek z naszej wizyty",
+            "de": "Schlösser am Ufergeländer der Sandinsel bei unserem Besuch",
+            "cs": "Zámky na zábradlí nábřeží Písečného ostrova při naší návštěvě"
+          },
+          "title": {
+            "he": "מנעולים על מעקה גדת אי החול, מצילום הביקור שלנו",
+            "en": "Locks on the Sand Island bank railing, photographed on our visit",
+            "pl": "Kłódki na balustradzie nadbrzeża Wyspy Piasek z naszej wizyty",
+            "de": "Schlösser am Ufergeländer der Sandinsel bei unserem Besuch",
+            "cs": "Zámky na zábradlí nábřeží Písečného ostrova při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-020.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/גשר טומסקי מנעולים9.JPG",
+          "sourceSHA256": "e79cef526cefd1c659442d20a16bee958db0f5b46f6dd7234d500df5a90387be",
+          "assetSHA256": "e79cef526cefd1c659442d20a16bee958db0f5b46f6dd7234d500df5a90387be",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מנעולים על מעקה גדת אי החול, מצילום הביקור שלנו",
+            "en": "Locks on the Sand Island bank railing, photographed on our visit",
+            "pl": "Kłódki na balustradzie nadbrzeża Wyspy Piasek z naszej wizyty",
+            "de": "Schlösser am Ufergeländer der Sandinsel bei unserem Besuch",
+            "cs": "Zámky na zábradlí nábřeží Písečného ostrova při naší návštěvě"
+          },
+          "title": {
+            "he": "מנעולים על מעקה גדת אי החול, מצילום הביקור שלנו",
+            "en": "Locks on the Sand Island bank railing, photographed on our visit",
+            "pl": "Kłódki na balustradzie nadbrzeża Wyspy Piasek z naszej wizyty",
+            "de": "Schlösser am Ufergeländer der Sandinsel bei unserem Besuch",
+            "cs": "Zámky na zábradlí nábřeží Písečného ostrova při naší návštěvě"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        }
+      }
     },
     "socialPosts": [
       {

@@ -187,3 +187,6 @@ if (window.WROC_CATALOG) {
 
 // Newly connected original visit photo uses the existing canonical Konspira card and pin.
 (function(){const p=window.WROC_LIFESTYLE_PLACES.find(p=>p.id==="konspira");if(p)p.mediaKey=p.id;})();
+
+// Original visit photograph uses the existing DoubleTree identity and map pin.
+(function(){const p=window.WROC_LIFESTYLE_PLACES.find(p=>p.id==="doubletree");if(p)p.mediaKey=p.id;})();
