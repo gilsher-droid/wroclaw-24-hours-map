@@ -38,8 +38,12 @@
       map.fitBounds([...route,...selected.map(item => [item.coordinate.lat,item.coordinate.lng])], {padding:[36,36],maxZoom:15,animate:false});
     }
   }
+  function fitPoznanRoute(targetMap, points) {
+    targetMap.fitBounds(points, {padding:[72,60],maxZoom:16.5,animate:false});
+  }
   function installRecommendedGroups(targetMap, stops) {
     const layer = L.layerGroup().addTo(targetMap);
+    const originalIcons = new Map(stops.map(stop => [stop,L.divIcon({...stop.marker.options.icon.options,className:`${stop.marker.options.icon.options.className} poznan-separated-marker`})]));
     function redraw() {
       layer.clearLayers();
       const groups = stops.map(stop => [stop]);
@@ -56,15 +60,28 @@
       }
       for (const group of groups) {
         group.sort((a,b) => Number(a.number)-Number(b.number));
-        if (group.length === 1) { layer.addLayer(group[0].marker); continue; }
-        const first = group[0], numbers = group.map(stop => stop.number).join(", ");
-        const title = group.map(stop => `${stop.number}. ${stop.label}`).join("; ");
-        const popup = `<div class="recommended-group-popup" dir="${language === "he" ? "rtl" : "ltr"}">${group.map(stop => `<button type="button" data-map-point="${escapeHtml(stop.key)}"><b>${stop.number}</b> ${escapeHtml(stop.label)}</button>`).join("")}</div>`;
-        L.marker([first.coordinate.lat,first.coordinate.lng], { title, icon:L.divIcon({className:"recommended-group-marker",html:`<span>${numbers}</span>`,iconSize:[Math.max(56,group.length*23),38],iconAnchor:[Math.max(56,group.length*23)/2,19]}) }).addTo(layer).bindPopup(popup,{maxWidth:320});
+        const positions = group.map(stop => targetMap.latLngToLayerPoint([stop.coordinate.lat,stop.coordinate.lng]));
+        const centre = positions.reduce((sum,p) => ({x:sum.x+p.x/group.length,y:sum.y+p.y/group.length}),{x:0,y:0});
+        group.forEach((stop,index) => {
+          const original = originalIcons.get(stop), point = positions[index];
+          // Only the label moves. The marker, popup and navigation retain the
+          // exact place coordinate; a leader joins the label to its true point.
+          const offset = group.length === 1 ? {x:0,y:0} : {
+            x:centre.x+(index-(group.length-1)/2)*48-point.x,
+            y:centre.y+(index%2 ? 10 : -10)-point.y
+          };
+          const anchor = original.options.iconAnchor || original.options.iconSize.map(size => size/2);
+          stop.marker.setIcon(group.length === 1 ? original : L.divIcon({...original.options,className:`${original.options.className} poznan-separated-marker`,iconAnchor:[anchor[0]-offset.x,anchor[1]-offset.y]}));
+          if (group.length > 1) {
+            const end = targetMap.layerPointToLatLng([point.x+offset.x,point.y+offset.y]);
+            L.polyline([[stop.coordinate.lat,stop.coordinate.lng],end],{color:"#42546a",weight:1.5,opacity:0.85,interactive:false}).addTo(layer);
+            L.circleMarker([stop.coordinate.lat,stop.coordinate.lng],{radius:3,color:"#fff",weight:1,fillColor:"#253b59",fillOpacity:1,interactive:false}).addTo(layer);
+          }
+          layer.addLayer(stop.marker);
+        });
       }
     }
-    // Group only visually overlapping recommendations. Coordinates and the
-    // route stay intact; an explicit choice opens the original stop at zoom19.
+    // Separate nearby labels without changing any place or route coordinate.
     stops.forEach(stop => targetMap.removeLayer(stop.marker));
     recommendedGroups.set(targetMap, new Set(stops.map(stop => stop.marker)));
     targetMap.on("zoomend", redraw);
@@ -145,7 +162,9 @@
     if (!walking && excursion.id === "poznan-wroclaw-stopover") selectOptionalGroup("route");
     bringMapIntoView(targetMap,walking ? "brzeg-walk-map" : "excursion-map");
     targetMap.closePopup();
-    targetMap.fitBounds(points.map(coords).filter(Boolean).map(p=>[p.lat,p.lng]),{padding:[30,30],animate:false});
+    const bounds = points.map(coords).filter(Boolean).map(p=>[p.lat,p.lng]);
+    if (excursion.id === "poznan-wroclaw-stopover") fitPoznanRoute(targetMap,bounds);
+    else targetMap.fitBounds(bounds,{padding:[30,30],animate:false});
   }
   function escapeHtml(value) { return String(value || "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
   function placePopup(canonical, label, coordinate) {
@@ -271,7 +290,7 @@
     mapStops.clear();
     optionalMarkers = [];
     optionalLayer = null;
-    map = L.map("excursion-map", { scrollWheelZoom: false });
+    map = L.map("excursion-map", { scrollWheelZoom: false, ...(excursion.id === "poznan-wroclaw-stopover" ? {zoomSnap:0.25} : {}) });
     window.WROC_GUIDE_VIDEO.legend(map, language);
     window.WROC_MAP_TILES.addTo(map);
     const route = excursion.routePoints.map(coords).filter(Boolean).map(({ lat, lng }) => [lat, lng]);
@@ -315,7 +334,8 @@
     const localStops = excursion.initialMapFocus === "local-stops"
       ? excursion.routePoints.filter(point => excursion.canonicalPlaceIds.includes(point.canonicalPlaceId)).map(coords).filter(Boolean).map(({lat,lng})=>[lat,lng])
       : [];
-    map.fitBounds(localStops.length ? localStops : route, { padding: [30, 30], maxZoom: 15 });
+    if (isPoznan) fitPoznanRoute(map,localStops.length ? localStops : route);
+    else map.fitBounds(localStops.length ? localStops : route, { padding: [30, 30], maxZoom: 15 });
     if (isPoznan) installRecommendedGroups(map,recommended);
   }
 
@@ -363,7 +383,7 @@
     const points = route.points;
     const line = points.map(coords).filter(Boolean).map(({ lat, lng }) => [lat, lng]);
     if(route.closedLoop) line.push(line[0]);
-    walkingMap = L.map("brzeg-walk-map", { scrollWheelZoom: false });
+    walkingMap = L.map("brzeg-walk-map", { scrollWheelZoom: false, ...(excursion.id === "poznan-wroclaw-stopover" ? {zoomSnap:0.25} : {}) });
     window.WROC_GUIDE_VIDEO.legend(walkingMap, language);
     window.WROC_MAP_TILES.addTo(walkingMap);
     L.polyline(line, { color: "#c55b2f", weight: 4, dashArray: route.geometryAccuracy === "stop-order-only" ? "7 7" : undefined }).addTo(walkingMap);
@@ -379,7 +399,8 @@
       registerMapStop(`walk:${point.id}`,walkingMap,marker,coordinate,canonical,label,"brzeg-walk-map");
       recommended.push({key:`walk:${point.id}`,number:point.id,marker,coordinate,label});
     });
-    walkingMap.fitBounds(line, { padding: [25, 25] });
+    if (excursion.id === "poznan-wroclaw-stopover") fitPoznanRoute(walkingMap,line);
+    else walkingMap.fitBounds(line, { padding: [25, 25] });
     if (excursion.id === "poznan-wroclaw-stopover") installRecommendedGroups(walkingMap,recommended);
   }
 

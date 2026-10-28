@@ -13,7 +13,7 @@ test('Łódź opens on its local stops while keeping the complete journey and ov
   const place=id=>window.WROC_CATALOG.getPlace(id);
   const coords=point=>{const p=point.canonicalPlaceId?place(point.canonicalPlaceId):null;return p?.location?.coordinates||point.coordinates;};
   const context={window:{L,WROC_MAP_TILES:{addTo(){}},WROC_GUIDE_VIDEO:{legend(){},decorateIcon(){}}},L,installRecommendedGroups(){},document:{querySelector(){return null;}},optionalLayer:null,optionalMarkers:[],optionalGroup(){return 'culture';},optionalSymbols:{culture:'▣'},map:null,mapStops:new Map(),coords,place,local:v=>v?.en||v,language:'en',placeAmenities:{markerBadgeHtml(){return '';}},placePopup(){return '';},registerMapStop(){},trackPlaceOpen(){}};
-  runInNewContext(fn+'\nthis.run=renderMap;',context);context.run(excursion);
+  runInNewContext(source.slice(source.indexOf('  function fitPoznanRoute('),source.indexOf('  function installRecommendedGroups('))+fn+'\nthis.run=renderMap;',context);context.run(excursion);
   assert.equal(polyline.length,excursion.routePoints.map(coords).filter(Boolean).length);
   if(excursion.id==='warsaw-lodz-wroclaw'){
    assert.equal(fitted.length,9);assert.ok(fitted.every(([lat,lng])=>lat>51.7&&lat<51.85&&lng>19.3&&lng<19.6));assert.ok(polyline.length>fitted.length);
