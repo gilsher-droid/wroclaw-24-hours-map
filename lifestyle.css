@@ -286,3 +286,6 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 
 /* Approved original collection: preserve the whole photograph in the gallery. */
 .media-grid img[src*="/named-wroclaw-oct28/"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
+
+/* This reused original is portrait; keep its full frame in the Hala gallery. */
+.media-grid img[src="/assets/papa-gnomes-13.jpg"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
