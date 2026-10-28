@@ -5,7 +5,7 @@ import { runInNewContext } from 'node:vm';
 const load=()=>{const window={};for(const f of ['data/place-catalog.js','data/lower-silesia-excursions.js'])runInNewContext(readFileSync(f,'utf8'),{window});return window;};
 test('sixth excursion preserves mountain stop first and separates city from fortress without duplicate pins',()=>{
  const w=load(),trip=w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(x=>x.id==='srebrna-gora-klodzko-day-trip');
- assert.equal(w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.filter(x=>x.id!=='poznan-wroclaw-stopover'&&x.id!=='slovakia-bielsko-opole-wroclaw').length,6);
+ assert.equal(w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.filter(x=>x.id!=='poznan-wroclaw-stopover'&&x.id!=='slovakia-bielsko-opole-wroclaw'&&x.id!=='wroclaw-torun-copernicus-day-trip').length,6);
  assert.equal(trip.routePoints[0].id,'wroclaw-start');assert.equal(trip.routePoints.at(-1).id,'wroclaw-return');
  assert.deepEqual(Array.from(trip.routePoints.filter(p=>p.canonicalPlaceId),p=>p.canonicalPlaceId),['srebrna-gora-fortress','klodzko-fortress','klodzko-old-town']);
  assert.equal(new Set(trip.canonicalPlaceIds).size,3);

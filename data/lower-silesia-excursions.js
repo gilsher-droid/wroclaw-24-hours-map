@@ -3029,13 +3029,715 @@
   }
 };
 
+  const torunDayTrip = {
+  "id": "wroclaw-torun-copernicus-day-trip",
+  "slug": "wroclaw-torun-copernicus-day-trip",
+  "title": {
+    "he": "יום טיול מוורוצלב לטורון, עירו של קופרניקוס",
+    "en": "A day trip from Wrocław to Toruń, the city of Copernicus",
+    "pl": "Jednodniowa wycieczka z Wrocławia do Torunia, miasta Kopernika",
+    "de": "Tagesausflug von Wrocław nach Toruń, der Stadt des Kopernikus",
+    "cs": "Jednodenní výlet z Vratislavi do Toruně, města Koperníka"
+  },
+  "summary": {
+    "he": "יום ארוך של נסיעה וגילוי העיר העתיקה של טורון: כיכר השוק ובית העירייה, פסל קופרניקוס, הבית הנושא את שמו ושערי העיר שעל הוויסלה. התאימו את מספר ביקורי הפנים לזמן ההגעה ולחזרה לוורוצלב.",
+    "en": "Plan a long day of travel and discovery in Toruń’s Old Town: the market square and Town Hall, Copernicus monument, the house bearing his name and the city gates beside the Vistula. Choose indoor visits around your arrival and return to Wrocław.",
+    "pl": "Zaplanuj długi dzień podróży i zwiedzania toruńskiej starówki: Rynek i Ratusz, pomnik Kopernika, dom noszący jego imię oraz bramy nad Wisłą. Liczbę wejść do wnętrz dopasuj do przyjazdu i powrotu do Wrocławia.",
+    "de": "Ein langer Tag mit Anreise und Entdeckungen in der Altstadt von Toruń: Marktplatz und Rathaus, Kopernikusdenkmal, das nach ihm benannte Haus und die Stadttore an der Weichsel. Innenbesichtigungen nach Ankunft und Rückfahrt nach Wrocław auswählen.",
+    "cs": "Počítejte s dlouhým dnem cestování a objevování toruňského starého města: Rynek a radnice, Koperníkův pomník, dům nesoucí jeho jméno a městské brány u Visly. Prohlídky interiérů přizpůsobte příjezdu a návratu do Vratislavi."
+  },
+  "meta": {
+    "duration": "long-day",
+    "startsAt": "wroclaw",
+    "region": "kuyavian-pomeranian",
+    "tags": [
+      "copernicus",
+      "old-town",
+      "architecture",
+      "walking"
+    ]
+  },
+  "durationLabel": {
+    "he": "יום טיול ארוך",
+    "en": "A long day trip",
+    "pl": "Długa wycieczka jednodniowa",
+    "de": "Langer Tagesausflug",
+    "cs": "Dlouhý jednodenní výlet"
+  },
+  "startsLabel": {
+    "he": "יציאה וחזרה לוורוצלב",
+    "en": "From Wrocław and back",
+    "pl": "Z Wrocławia i z powrotem",
+    "de": "Ab Wrocław und zurück",
+    "cs": "Z Vratislavi a zpět"
+  },
+  "regionLabel": {
+    "he": "טורון",
+    "en": "Toruń",
+    "pl": "Toruń",
+    "de": "Toruń",
+    "cs": "Toruň"
+  },
+  "heroMedia": {
+    "canonicalPlaceId": "torun-copernicus-monument",
+    "photoIndex": 0
+  },
+  "canonicalPlaceIds": [
+    "torun-old-town-hall",
+    "torun-copernicus-monument",
+    "torun-copernicus-house",
+    "torun-leaning-tower",
+    "torun-saints-johns-cathedral",
+    "torun-bridge-gate"
+  ],
+  "optionalPlaceIds": [
+    "torun-house-under-star",
+    "torun-artus-court",
+    "torun-holy-spirit-church",
+    "torun-monastery-gate",
+    "torun-sailors-gate",
+    "torun-teutonic-castle",
+    "torun-dragon",
+    "torun-filus",
+    "torun-hotel-spichrz",
+    "torun-rafter-fountain",
+    "torun-gingerbread-baker-sculpture",
+    "torun-st-marys-church",
+    "torun-burghers-manor"
+  ],
+  "routePoints": [
+    {
+      "id": "1",
+      "canonicalPlaceId": "torun-old-town-hall"
+    },
+    {
+      "id": "2",
+      "canonicalPlaceId": "torun-copernicus-monument"
+    },
+    {
+      "id": "3",
+      "canonicalPlaceId": "torun-copernicus-house"
+    },
+    {
+      "id": "4",
+      "canonicalPlaceId": "torun-leaning-tower"
+    },
+    {
+      "id": "5",
+      "canonicalPlaceId": "torun-saints-johns-cathedral"
+    },
+    {
+      "id": "6",
+      "canonicalPlaceId": "torun-bridge-gate"
+    }
+  ],
+  "showDestinationMarker": true,
+  "initialMapFocus": "local-stops",
+  "localOnlyMap": true,
+  "choiceMap": true,
+  "optionalIntro": {
+    "he": "בחרו עוד מבנה, שער או עצירה בכיכר לפי הזמן שנשאר לכם.",
+    "en": "Choose another building, gate or stop on the square to suit your remaining time.",
+    "pl": "Dobierz kolejny budynek, bramę lub przystanek na Rynku do czasu, który pozostał.",
+    "de": "Ein weiteres Gebäude, Tor oder einen Halt am Markt nach verfügbarer Zeit auswählen.",
+    "cs": "Podle zbývajícího času si vyberte další budovu, bránu nebo zastávku na Rynku."
+  },
+  "walkingRoute": {
+    "title": {
+      "he": "מסלול הליכה בעיר העתיקה של טורון",
+      "en": "Walk through Toruń Old Town",
+      "pl": "Spacer po toruńskiej starówce",
+      "de": "Spaziergang durch die Altstadt von Toruń",
+      "cs": "Procházka starým městem Toruně"
+    },
+    "summary": {
+      "he": "יום ארוך של נסיעה וגילוי העיר העתיקה של טורון: כיכר השוק ובית העירייה, פסל קופרניקוס, הבית הנושא את שמו ושערי העיר שעל הוויסלה. התאימו את מספר ביקורי הפנים לזמן ההגעה ולחזרה לוורוצלב.",
+      "en": "Plan a long day of travel and discovery in Toruń’s Old Town: the market square and Town Hall, Copernicus monument, the house bearing his name and the city gates beside the Vistula. Choose indoor visits around your arrival and return to Wrocław.",
+      "pl": "Zaplanuj długi dzień podróży i zwiedzania toruńskiej starówki: Rynek i Ratusz, pomnik Kopernika, dom noszący jego imię oraz bramy nad Wisłą. Liczbę wejść do wnętrz dopasuj do przyjazdu i powrotu do Wrocławia.",
+      "de": "Ein langer Tag mit Anreise und Entdeckungen in der Altstadt von Toruń: Marktplatz und Rathaus, Kopernikusdenkmal, das nach ihm benannte Haus und die Stadttore an der Weichsel. Innenbesichtigungen nach Ankunft und Rückfahrt nach Wrocław auswählen.",
+      "cs": "Počítejte s dlouhým dnem cestování a objevování toruňského starého města: Rynek a radnice, Koperníkův pomník, dům nesoucí jeho jméno a městské brány u Visly. Prohlídky interiérů přizpůsobte příjezdu a návratu do Vratislavi."
+    },
+    "points": [
+      {
+        "id": "1",
+        "canonicalPlaceId": "torun-old-town-hall"
+      },
+      {
+        "id": "2",
+        "canonicalPlaceId": "torun-copernicus-monument"
+      },
+      {
+        "id": "3",
+        "canonicalPlaceId": "torun-copernicus-house"
+      },
+      {
+        "id": "4",
+        "canonicalPlaceId": "torun-leaning-tower"
+      },
+      {
+        "id": "5",
+        "canonicalPlaceId": "torun-saints-johns-cathedral"
+      },
+      {
+        "id": "6",
+        "canonicalPlaceId": "torun-bridge-gate"
+      }
+    ],
+    "geometryAccuracy": "stop-order-only",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=53.010532,18.60432&destination=53.008546,18.608856&waypoints=53.0103,18.604965%7C53.00931,18.603962%7C53.008413,18.60203%7C53.009385,18.606259&travelmode=walking"
+    },
+    "note": {
+      "he": "הקו מציג את סדר התחנות. עקבו אחר הרחובות וקישורי הניווט.",
+      "en": "The line shows stop order. Follow streets and the navigation links.",
+      "pl": "Linia pokazuje kolejność przystanków. Korzystaj z ulic i odnośników nawigacji.",
+      "de": "Die Linie zeigt die Reihenfolge der Stationen. Straßen und Navigationslinks folgen.",
+      "cs": "Čára ukazuje pořadí zastávek. Sledujte ulice a navigační odkazy."
+    }
+  },
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=53.010532,18.60432&destination=53.008546,18.608856&waypoints=53.0103,18.604965%7C53.00931,18.603962%7C53.008413,18.60203%7C53.009385,18.606259&travelmode=walking"
+  },
+  "steps": [
+    {
+      "id": "1",
+      "canonicalPlaceId": "torun-old-town-hall",
+      "title": {
+        "he": "בית העירייה העתיק בטורון",
+        "en": "Toruń Old Town Hall",
+        "pl": "Ratusz Staromiejski w Toruniu",
+        "de": "Altstädtisches Rathaus in Toruń",
+        "cs": "Staroměstská radnice v Toruni"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    },
+    {
+      "id": "2",
+      "canonicalPlaceId": "torun-copernicus-monument",
+      "title": {
+        "he": "פסל ניקולאוס קופרניקוס",
+        "en": "Nicolaus Copernicus monument",
+        "pl": "Pomnik Mikołaja Kopernika",
+        "de": "Nikolaus-Kopernikus-Denkmal",
+        "cs": "Pomník Mikuláše Koperníka"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    },
+    {
+      "id": "3",
+      "canonicalPlaceId": "torun-copernicus-house",
+      "title": {
+        "he": "בית ניקולאוס קופרניקוס",
+        "en": "House of Nicolaus Copernicus",
+        "pl": "Dom Mikołaja Kopernika",
+        "de": "Nikolaus-Kopernikus-Haus",
+        "cs": "Dům Mikuláše Koperníka"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    },
+    {
+      "id": "4",
+      "canonicalPlaceId": "torun-leaning-tower",
+      "title": {
+        "he": "המגדל הנטוי של טורון",
+        "en": "Toruń Leaning Tower",
+        "pl": "Krzywa Wieża w Toruniu",
+        "de": "Schiefer Turm von Toruń",
+        "cs": "Šikmá věž v Toruni"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    },
+    {
+      "id": "5",
+      "canonicalPlaceId": "torun-saints-johns-cathedral",
+      "title": {
+        "he": "קתדרלת שני יוחנן הקדושים",
+        "en": "Cathedral of St John the Baptist and St John the Evangelist",
+        "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+        "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+        "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    },
+    {
+      "id": "6",
+      "canonicalPlaceId": "torun-bridge-gate",
+      "title": {
+        "he": "שער הגשר",
+        "en": "Bridge Gate",
+        "pl": "Brama Mostowa",
+        "de": "Brückentor",
+        "cs": "Mostní brána"
+      },
+      "duration": {
+        "he": "עצירה לבחירה במהלך ההליכה",
+        "en": "A stop during your walk",
+        "pl": "Przystanek podczas spaceru",
+        "de": "Halt während des Spaziergangs",
+        "cs": "Zastávka během procházky"
+      }
+    }
+  ],
+  "travel": {
+    "note": {
+      "he": "תכננו את הנסיעה הלוך וחזור לפני בחירת ביקורי הפנים. זמני הדרך תלויים בתאריך ובאמצעי התחבורה.",
+      "en": "Plan outward and return travel before choosing indoor visits. Journey times depend on date and transport.",
+      "pl": "Zaplanuj dojazd i powrót przed wyborem wejść do wnętrz. Czas podróży zależy od terminu i środka transportu.",
+      "de": "Hin- und Rückfahrt vor Innenbesichtigungen planen. Fahrzeiten hängen von Datum und Verkehrsmittel ab.",
+      "cs": "Příjezd a návrat naplánujte před výběrem prohlídek interiérů. Doba cesty závisí na datu a dopravě."
+    },
+    "options": [
+      {
+        "title": {
+          "he": "ברכבת",
+          "en": "By train",
+          "pl": "Pociągiem",
+          "de": "Mit der Bahn",
+          "cs": "Vlakem"
+        },
+        "description": {
+          "he": "בדקו לוח זמנים לתאריך הנסיעה ואת הרכבת חזרה. תחנת טורון מיאסטו סמוכה לעיר העתיקה; התחנה המרכזית נמצאת בגדה השנייה של הוויסלה ודורשת תכנון הגעה למרכז.",
+          "en": "Check date-specific timetables and your return train. Toruń Miasto is near the Old Town; Toruń Główny is across the Vistula, so plan the transfer to the centre.",
+          "pl": "Sprawdź rozkład na konkretny dzień oraz pociąg powrotny. Toruń Miasto leży blisko starówki, a Toruń Główny po drugiej stronie Wisły, więc zaplanuj dojazd do centrum.",
+          "de": "Fahrplan für den Reisetag und Rückzug prüfen. Toruń Miasto liegt nahe der Altstadt, Toruń Główny am anderen Weichselufer; den Weg ins Zentrum einplanen.",
+          "cs": "Ověřte jízdní řád na konkrétní den a zpáteční vlak. Toruń Miasto je poblíž starého města, Toruń Główny na druhém břehu Visly; naplánujte přesun do centra."
+        },
+        "url": "https://portalpasazera.pl/"
+      },
+      {
+        "title": {
+          "he": "ברכב",
+          "en": "By car",
+          "pl": "Samochodem",
+          "de": "Mit dem Auto",
+          "cs": "Autem"
+        },
+        "description": {
+          "he": "בחרו חניה לפני הכניסה למרכז העתיק והשאירו זמן לנסיעה חזרה. במפה מוצגת רק ההליכה בטורון.",
+          "en": "Choose parking before entering the historic centre and leave time for the return drive. The map shows only the walk within Toruń.",
+          "pl": "Wybierz parking przed wjazdem do historycznego centrum i zostaw czas na powrót. Mapa pokazuje wyłącznie spacer po Toruniu.",
+          "de": "Parkplatz vor der Einfahrt in die Altstadt wählen und Zeit für die Rückfahrt lassen. Die Karte zeigt nur den Spaziergang in Toruń.",
+          "cs": "Parkování vyberte před příjezdem do historického centra a ponechte čas na návrat. Mapa zobrazuje pouze procházku po Toruni."
+        }
+      }
+    ],
+    "accessibility": []
+  },
+  "editorial": {
+    "why": {
+      "he": "כיכר שוק גותית, עקבותיו של קופרניקוס ושערי הוויסלה משתלבים בסיבוב עירוני אחד.",
+      "en": "A Gothic market square, traces of Copernicus and Vistula gates come together in one city walk.",
+      "pl": "Gotycki Rynek, ślady Kopernika i bramy nad Wisłą łączą się w jeden miejski spacer.",
+      "de": "Gotischer Marktplatz, Spuren des Kopernikus und Weichseltore verbinden sich zu einem Stadtspaziergang.",
+      "cs": "Gotický Rynek, Koperníkovy stopy a brány u Visly se spojují v jednu městskou procházku."
+    },
+    "forWhom": {
+      "he": "למטיילים שמוכנים ליום ארוך מחוץ לוורוצלב ורוצים לבחור בין מבטי חוץ לביקורי פנים.",
+      "en": "For travellers prepared for a long day away from Wrocław who want a choice of outdoor sights and indoor visits.",
+      "pl": "Dla osób gotowych na długi dzień poza Wrocławiem i wybór między zwiedzaniem z zewnątrz a wejściami do wnętrz.",
+      "de": "Für Reisende, die einen langen Tag außerhalb Wrocławs einplanen und Außenansichten mit Innenbesichtigungen kombinieren möchten.",
+      "cs": "Pro cestovatele připravené na dlouhý den mimo Vratislav s výběrem venkovních památek a prohlídek interiérů."
+    },
+    "practical": {
+      "he": "בדקו גישה וכרטיסים באתרי המקומות לפני היציאה. צילומי הביקור מתעדים את הטיול שלנו ואינם הבטחה למצב העדכני של כל מבנה.",
+      "en": "Check access and tickets on the venues’ websites before setting off. Our photographs document our visit rather than guarantee each building’s current condition.",
+      "pl": "Przed wyjazdem sprawdź dostęp i bilety na stronach obiektów. Zdjęcia dokumentują naszą wizytę i nie gwarantują aktualnego stanu każdego budynku.",
+      "de": "Zugang und Eintritt auf den Websites der Orte vor der Fahrt prüfen. Die Fotos dokumentieren unseren Besuch und garantieren nicht den aktuellen Zustand jedes Gebäudes.",
+      "cs": "Před odjezdem ověřte přístup a vstupenky na stránkách míst. Fotografie dokumentují naši návštěvu a nezaručují současný stav každé budovy."
+    }
+  },
+  "contextGallery": [
+    {
+      "src": "/assets/torun/source-02.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/0FBDF848-0297-4419-871F-30A3F2AFC370.JPG",
+      "sourceSHA256": "008052d6461e5fe29405e5b2b52ee0cdfc8cb8172f10233f8327c9e8579e7916",
+      "assetSHA256": "008052d6461e5fe29405e5b2b52ee0cdfc8cb8172f10233f8327c9e8579e7916",
+      "caption": {
+        "he": "מבט לרחוב מחלון בית קפה בטורון",
+        "en": "Street view from a café window in Toruń",
+        "pl": "Widok ulicy z okna kawiarni w Toruniu",
+        "de": "Straßenblick aus einem Caféfenster in Toruń",
+        "cs": "Pohled na ulici z okna kavárny v Toruni"
+      },
+      "alt": {
+        "he": "מבט לרחוב מחלון בית קפה בטורון",
+        "en": "Street view from a café window in Toruń",
+        "pl": "Widok ulicy z okna kawiarni w Toruniu",
+        "de": "Straßenblick aus einem Caféfenster in Toruń",
+        "cs": "Pohled na ulici z okna kavárny v Toruni"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "personalApprovalNotRequired": true
+    },
+    {
+      "src": "/assets/torun/source-04.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/20E937F7-BD75-4CCA-B4C8-E7886BFE2B6E.JPG",
+      "sourceSHA256": "37b130855c4adca59be970e92541dc9f92c52663778b191d65e6208886b9a316",
+      "assetSHA256": "37b130855c4adca59be970e92541dc9f92c52663778b191d65e6208886b9a316",
+      "caption": {
+        "he": "רגע מהביקור ברחובות טורון",
+        "en": "A moment visiting Toruń’s streets",
+        "pl": "Chwila ze spaceru po Toruniu",
+        "de": "Ein Moment beim Stadtbummel in Toruń",
+        "cs": "Okamžik z procházky Toruní"
+      },
+      "alt": {
+        "he": "רגע מהביקור ברחובות טורון",
+        "en": "A moment visiting Toruń’s streets",
+        "pl": "Chwila ze spaceru po Toruniu",
+        "de": "Ein Moment beim Stadtbummel in Toruń",
+        "cs": "Okamžik z procházky Toruní"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "specificApproval": {
+        "approvalId": "T04",
+        "approvalCall": "call_d2d92cd6fa884068a358a4d304656efa",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+        "sourceSHA256": "37b130855c4adca59be970e92541dc9f92c52663778b191d65e6208886b9a316"
+      }
+    },
+    {
+      "src": "/assets/torun/source-21.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/96DCA47F-CF05-43D2-8F95-8F447FFC7717.JPG",
+      "sourceSHA256": "389072b6486f338e4c0cdf13b5c2af817b7134be2a4be87c198b96fda8bb408b",
+      "assetSHA256": "389072b6486f338e4c0cdf13b5c2af817b7134be2a4be87c198b96fda8bb408b",
+      "caption": {
+        "he": "מבט מהישיבה ליד החלון אל רחוב בטורון",
+        "en": "View from a window seat onto a Toruń street",
+        "pl": "Widok z miejsca przy oknie na ulicę Torunia",
+        "de": "Blick vom Fensterplatz auf eine Straße in Toruń",
+        "cs": "Výhled od místa u okna do toruňské ulice"
+      },
+      "alt": {
+        "he": "מבט מהישיבה ליד החלון אל רחוב בטורון",
+        "en": "View from a window seat onto a Toruń street",
+        "pl": "Widok z miejsca przy oknie na ulicę Torunia",
+        "de": "Blick vom Fensterplatz auf eine Straße in Toruń",
+        "cs": "Výhled od místa u okna do toruňské ulice"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "specificApproval": {
+        "approvalId": "T21",
+        "approvalCall": "call_1188b00bc9034116b0d360b2c0075639",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+        "sourceSHA256": "389072b6486f338e4c0cdf13b5c2af817b7134be2a4be87c198b96fda8bb408b"
+      }
+    },
+    {
+      "src": "/assets/torun/source-25.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/AC32DFD1-6419-4E01-A6C3-9A93483BA4DF.JPG",
+      "sourceSHA256": "2b2860bc87c30b4370ddb67d363252cb86fe263dedef9c060838a8feb88e28c8",
+      "assetSHA256": "2b2860bc87c30b4370ddb67d363252cb86fe263dedef9c060838a8feb88e28c8",
+      "caption": {
+        "he": "רגע מהביקור ברחובות טורון",
+        "en": "A moment visiting Toruń’s streets",
+        "pl": "Chwila ze spaceru po Toruniu",
+        "de": "Ein Moment beim Stadtbummel in Toruń",
+        "cs": "Okamžik z procházky Toruní"
+      },
+      "alt": {
+        "he": "רגע מהביקור ברחובות טורון",
+        "en": "A moment visiting Toruń’s streets",
+        "pl": "Chwila ze spaceru po Toruniu",
+        "de": "Ein Moment beim Stadtbummel in Toruń",
+        "cs": "Okamžik z procházky Toruní"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "specificApproval": {
+        "approvalId": "T25",
+        "approvalCall": "call_3c59bc53bdb94bb1a3b8e9e846d46faf",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+        "sourceSHA256": "2b2860bc87c30b4370ddb67d363252cb86fe263dedef9c060838a8feb88e28c8"
+      }
+    },
+    {
+      "src": "/assets/torun/source-15.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/7BE321F4-956E-42C3-AD94-650CCCDFC578.JPG",
+      "sourceSHA256": "81dab6be67b37e700aa5977471f6ced7da5e69809f3930813e53f77de028eaa8",
+      "assetSHA256": "81dab6be67b37e700aa5977471f6ced7da5e69809f3930813e53f77de028eaa8",
+      "caption": {
+        "he": "מהביקור שלנו בעיר העתיקה בטורון",
+        "en": "From our visit to Toruń Old Town",
+        "pl": "Z naszej wizyty na toruńskiej starówce",
+        "de": "Von unserem Besuch in der Altstadt von Toruń",
+        "cs": "Z naší návštěvy starého města Toruně"
+      },
+      "alt": {
+        "he": "מהביקור שלנו בעיר העתיקה בטורון",
+        "en": "From our visit to Toruń Old Town",
+        "pl": "Z naszej wizyty na toruńskiej starówce",
+        "de": "Von unserem Besuch in der Altstadt von Toruń",
+        "cs": "Z naší návštěvy starého města Toruně"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "specificApproval": {
+        "approvalId": "T15",
+        "approvalCall": "call_1ef5b48c6ea541cab7fee3b205db74ce",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+        "sourceSHA256": "81dab6be67b37e700aa5977471f6ced7da5e69809f3930813e53f77de028eaa8"
+      }
+    },
+    {
+      "src": "/assets/torun/source-24.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/A84B7BC6-6D8D-4CDA-B232-FBAC4CF9048C.JPG",
+      "sourceSHA256": "f4aab08b6ca88a1116504a95d05784dbb05a65b6d0be889d027b0d69d0c77398",
+      "assetSHA256": "f4aab08b6ca88a1116504a95d05784dbb05a65b6d0be889d027b0d69d0c77398",
+      "caption": {
+        "he": "מהביקור שלנו בעיר העתיקה בטורון",
+        "en": "From our visit to Toruń Old Town",
+        "pl": "Z naszej wizyty na toruńskiej starówce",
+        "de": "Von unserem Besuch in der Altstadt von Toruń",
+        "cs": "Z naší návštěvy starého města Toruně"
+      },
+      "alt": {
+        "he": "מהביקור שלנו בעיר העתיקה בטורון",
+        "en": "From our visit to Toruń Old Town",
+        "pl": "Z naszej wizyty na toruńskiej starówce",
+        "de": "Von unserem Besuch in der Altstadt von Toruń",
+        "cs": "Z naší návštěvy starého města Toruně"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "specificApproval": {
+        "approvalId": "T24",
+        "approvalCall": "call_91197b35e3ea4300ba130a63e22114b6",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+        "sourceSHA256": "f4aab08b6ca88a1116504a95d05784dbb05a65b6d0be889d027b0d69d0c77398"
+      }
+    },
+    {
+      "src": "/assets/torun/source-32.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/E182C530-3856-4964-9708-C072153C7821.JPG",
+      "sourceSHA256": "103d6eb9e1367692d79921058fd53c5fbce449eee5df11cfefa7e8e32cf19abd",
+      "assetSHA256": "103d6eb9e1367692d79921058fd53c5fbce449eee5df11cfefa7e8e32cf19abd",
+      "caption": {
+        "he": "מהביקור שלנו בעיר העתיקה בטורון",
+        "en": "From our visit to Toruń Old Town",
+        "pl": "Z naszej wizyty na toruńskiej starówce",
+        "de": "Von unserem Besuch in der Altstadt von Toruń",
+        "cs": "Z naší návštěvy starého města Toruně"
+      },
+      "alt": {
+        "he": "מהביקור שלנו בעיר העתיקה בטורון",
+        "en": "From our visit to Toruń Old Town",
+        "pl": "Z naszej wizyty na toruńskiej starówce",
+        "de": "Von unserem Besuch in der Altstadt von Toruń",
+        "cs": "Z naší návštěvy starého města Toruně"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "specificApproval": {
+        "approvalId": "T32",
+        "approvalCall": "call_b902b8dc9719413f9094562c5ee4cd8a",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+        "sourceSHA256": "103d6eb9e1367692d79921058fd53c5fbce449eee5df11cfefa7e8e32cf19abd"
+      }
+    },
+    {
+      "src": "/assets/torun/source-22.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/9ACFEAB5-BE55-40D9-AB8A-29A6FB76C89D.JPG",
+      "sourceSHA256": "7aa1d7e016f13e243f7a9e97a40e20603ef4c7cf8767855d713f6ed475c92a7b",
+      "assetSHA256": "7aa1d7e016f13e243f7a9e97a40e20603ef4c7cf8767855d713f6ed475c92a7b",
+      "caption": {
+        "he": "רגע מההגעה ברכב לטיול",
+        "en": "A moment arriving by car for the visit",
+        "pl": "Chwila z przyjazdu samochodem",
+        "de": "Ein Moment bei der Anreise mit dem Auto",
+        "cs": "Okamžik z příjezdu autem"
+      },
+      "alt": {
+        "he": "רגע מההגעה ברכב לטיול",
+        "en": "A moment arriving by car for the visit",
+        "pl": "Chwila z przyjazdu samochodem",
+        "de": "Ein Moment bei der Anreise mit dem Auto",
+        "cs": "Okamžik z příjezdu autem"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "specificApproval": {
+        "approvalId": "T22",
+        "approvalCall": "call_91197b35e3ea4300ba130a63e22114b6",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+        "sourceSHA256": "7aa1d7e016f13e243f7a9e97a40e20603ef4c7cf8767855d713f6ed475c92a7b"
+      }
+    },
+    {
+      "src": "/assets/torun/source-07.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/28AB6D2C-B471-4C9A-94BD-1EA783AD8732.JPG",
+      "sourceSHA256": "741481ce3f0d4658979d789fef70314e140c8b8cf0dc3b8e735892acd4401cd7",
+      "assetSHA256": "741481ce3f0d4658979d789fef70314e140c8b8cf0dc3b8e735892acd4401cd7",
+      "caption": {
+        "he": "רחוב מרוצף ובתים מהביקור בטורון",
+        "en": "Cobbled street and buildings from our Toruń visit",
+        "pl": "Brukowana ulica i zabudowa z wizyty w Toruniu",
+        "de": "Kopfsteinpflaster und Häuser bei unserem Besuch in Toruń",
+        "cs": "Dlážděná ulice a domy z naší návštěvy Toruně"
+      },
+      "alt": {
+        "he": "רחוב מרוצף ובתים מהביקור בטורון",
+        "en": "Cobbled street and buildings from our Toruń visit",
+        "pl": "Brukowana ulica i zabudowa z wizyty w Toruniu",
+        "de": "Kopfsteinpflaster und Häuser bei unserem Besuch in Toruń",
+        "cs": "Dlážděná ulice a domy z naší návštěvy Toruně"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "specificApproval": {
+        "approvalId": "T07",
+        "approvalCall": "call_4fa0ce2934884cf5814fe19182bd0b1a",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json",
+        "sourceSHA256": "741481ce3f0d4658979d789fef70314e140c8b8cf0dc3b8e735892acd4401cd7"
+      }
+    },
+    {
+      "src": "/assets/torun/source-51.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5024.JPG",
+      "sourceSHA256": "535656050a21f04860a5d0fba68000353d56c8d038a4314abd43c574bd811904",
+      "assetSHA256": "535656050a21f04860a5d0fba68000353d56c8d038a4314abd43c574bd811904",
+      "caption": {
+        "he": "רחוב מרוצף ובתים מהביקור בטורון",
+        "en": "Cobbled street and buildings from our Toruń visit",
+        "pl": "Brukowana ulica i zabudowa z wizyty w Toruniu",
+        "de": "Kopfsteinpflaster und Häuser bei unserem Besuch in Toruń",
+        "cs": "Dlážděná ulice a domy z naší návštěvy Toruně"
+      },
+      "alt": {
+        "he": "רחוב מרוצף ובתים מהביקור בטורון",
+        "en": "Cobbled street and buildings from our Toruń visit",
+        "pl": "Brukowana ulica i zabudowa z wizyty w Toruniu",
+        "de": "Kopfsteinpflaster und Häuser bei unserem Besuch in Toruń",
+        "cs": "Dlážděná ulice a domy z naší návštěvy Toruně"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "personalApprovalNotRequired": true
+    },
+    {
+      "src": "/assets/torun/source-50.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/IMG_5023.JPG",
+      "sourceSHA256": "b7da614ba29d219bfd9f1915b49954c8a70c13839e83ae2dcc721c84e8af19df",
+      "assetSHA256": "b7da614ba29d219bfd9f1915b49954c8a70c13839e83ae2dcc721c84e8af19df",
+      "caption": {
+        "he": "רחוב מרוצף ובתים מהביקור בטורון",
+        "en": "Cobbled street and buildings from our Toruń visit",
+        "pl": "Brukowana ulica i zabudowa z wizyty w Toruniu",
+        "de": "Kopfsteinpflaster und Häuser bei unserem Besuch in Toruń",
+        "cs": "Dlážděná ulice a domy z naší návštěvy Toruně"
+      },
+      "alt": {
+        "he": "רחוב מרוצף ובתים מהביקור בטורון",
+        "en": "Cobbled street and buildings from our Toruń visit",
+        "pl": "Brukowana ulica i zabudowa z wizyty w Toruniu",
+        "de": "Kopfsteinpflaster und Häuser bei unserem Besuch in Toruń",
+        "cs": "Dlážděná ulice a domy z naší návštěvy Toruně"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "personalApprovalNotRequired": true
+    },
+    {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/24E09175-D2C3-4246-9650-E9C6B2D036FF.JPG",
+      "sourceSHA256": "c5d66e8f8e6df7bc50f45c8ca7cd04e5883c0b5f94e9f8ef50837a64f3872b6f",
+      "assetSHA256": "c5d66e8f8e6df7bc50f45c8ca7cd04e5883c0b5f94e9f8ef50837a64f3872b6f",
+      "alt": {
+        "he": "מההליכה לצד החומות בטורון",
+        "en": "Walking beside the walls in Toruń",
+        "pl": "Spacer wzdłuż murów w Toruniu",
+        "de": "Spaziergang an den Mauern von Toruń",
+        "cs": "Procházka podél hradeb v Toruni"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "src": "/assets/torun/source-06.jpg",
+      "caption": {
+        "he": "מההליכה לצד החומות בטורון",
+        "en": "Walking beside the walls in Toruń",
+        "pl": "Spacer wzdłuż murów w Toruniu",
+        "de": "Spaziergang an den Mauern von Toruń",
+        "cs": "Procházka podél hradeb v Toruni"
+      },
+      "specificApproval": {
+        "approvalId": "T06",
+        "sourceSHA256": "c5d66e8f8e6df7bc50f45c8ca7cd04e5883c0b5f94e9f8ef50837a64f3872b6f",
+        "approvalCall": "call_d2d92cd6fa884068a358a4d304656efa",
+        "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+      }
+    },
+    {
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/טורון/44C5D690-0867-4FE4-8B54-2A414A71DB88.JPG",
+      "sourceSHA256": "7170f7f733b8db7f3bb4a7b4012d649c4037a04da41e5ab45430809b7b51ad06",
+      "assetSHA256": "7170f7f733b8db7f3bb4a7b4012d649c4037a04da41e5ab45430809b7b51ad06",
+      "alt": {
+        "he": "מההליכה לצד החומות בטורון",
+        "en": "Walking beside the walls in Toruń",
+        "pl": "Spacer wzdłuż murów w Toruniu",
+        "de": "Spaziergang an den Mauern von Toruń",
+        "cs": "Procházka podél hradeb v Toruni"
+      },
+      "originalFullPicturePreserved": true,
+      "reviewReceipt": "torun-excursion-2026-10-28/source-place-identity-proof.json",
+      "src": "/assets/torun/source-10.jpg",
+      "caption": {
+        "he": "מההליכה לצד החומות בטורון",
+        "en": "Walking beside the walls in Toruń",
+        "pl": "Spacer wzdłuż murów w Toruniu",
+        "de": "Spaziergang an den Mauern von Toruń",
+        "cs": "Procházka podél hradeb v Toruni"
+      },
+      "specificApproval": {
+        "approvalId": "T10",
+        "sourceSHA256": "7170f7f733b8db7f3bb4a7b4012d649c4037a04da41e5ab45430809b7b51ad06",
+        "approvalCall": "call_c00b852569324b1eab7afac97a97067a",
+        "decision": "human-approved-publication-for-Torun-site-and-specific-public-repository",
+        "receipt": "outputs/torun-excursion-2026-10-28/individual-personal-media-review.json"
+      }
+    }
+  ]
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
     title: t("טיולים מוורוצלב", "Excursions from Wrocław", "Wycieczki z Wrocławia", "Ausflüge ab Wrocław", "Výlety z Vratislavi"),
-    status: t("שמונה טיולים מוכנים", "Eight excursions ready", "Osiem wycieczek gotowych", "Acht Ausflüge verfügbar", "Osm výletů připraveno"),
-    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko, poznanStopover, slovakiaStopover],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds, ...poznanStopover.canonicalPlaceIds, ...poznanStopover.optionalPlaceIds, ...slovakiaStopover.canonicalPlaceIds, ...slovakiaStopover.optionalPlaceIds],
+    status: t("תשעה טיולים מוכנים", "Nine excursions ready", "Dziewięć wycieczek gotowych", "Neun Ausflüge verfügbar", "Devět výletů připraveno"),
+    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko, poznanStopover, slovakiaStopover, torunDayTrip],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds, ...poznanStopover.canonicalPlaceIds, ...poznanStopover.optionalPlaceIds, ...slovakiaStopover.canonicalPlaceIds, ...slovakiaStopover.optionalPlaceIds, ...torunDayTrip.canonicalPlaceIds, ...torunDayTrip.optionalPlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {

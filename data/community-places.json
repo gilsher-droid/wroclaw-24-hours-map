@@ -3219,6 +3219,272 @@
       "lng": 17.0309369
     }
   },
+  "torun-artus-court": {
+    "id": "torun-artus-court",
+    "name": {
+      "he": "חצר ארטוס",
+      "en": "Artus Court",
+      "pl": "Dwór Artusa",
+      "de": "Artushof",
+      "cs": "Artušův dvůr"
+    },
+    "coordinates": {
+      "lat": 53.009925,
+      "lng": 18.604456
+    }
+  },
+  "torun-bridge-gate": {
+    "id": "torun-bridge-gate",
+    "name": {
+      "he": "שער הגשר",
+      "en": "Bridge Gate",
+      "pl": "Brama Mostowa",
+      "de": "Brückentor",
+      "cs": "Mostní brána"
+    },
+    "coordinates": {
+      "lat": 53.008546,
+      "lng": 18.608856
+    }
+  },
+  "torun-burghers-manor": {
+    "id": "torun-burghers-manor",
+    "name": {
+      "he": "בית אחוות האזרחים",
+      "en": "Burghers’ manor",
+      "pl": "Dwór Mieszczański",
+      "de": "Bürgerhof",
+      "cs": "Měšťanský dvůr"
+    },
+    "coordinates": {
+      "lat": 53.008901,
+      "lng": 18.60977
+    }
+  },
+  "torun-copernicus-house": {
+    "id": "torun-copernicus-house",
+    "name": {
+      "he": "בית ניקולאוס קופרניקוס",
+      "en": "House of Nicolaus Copernicus",
+      "pl": "Dom Mikołaja Kopernika",
+      "de": "Nikolaus-Kopernikus-Haus",
+      "cs": "Dům Mikuláše Koperníka"
+    },
+    "coordinates": {
+      "lat": 53.00931,
+      "lng": 18.603962
+    }
+  },
+  "torun-copernicus-monument": {
+    "id": "torun-copernicus-monument",
+    "name": {
+      "he": "פסל ניקולאוס קופרניקוס",
+      "en": "Nicolaus Copernicus monument",
+      "pl": "Pomnik Mikołaja Kopernika",
+      "de": "Nikolaus-Kopernikus-Denkmal",
+      "cs": "Pomník Mikuláše Koperníka"
+    },
+    "coordinates": {
+      "lat": 53.0103,
+      "lng": 18.604965
+    }
+  },
+  "torun-dragon": {
+    "id": "torun-dragon",
+    "name": {
+      "he": "הדרקון של טורון",
+      "en": "Toruń dragon",
+      "pl": "Smok toruński",
+      "de": "Drache von Toruń",
+      "cs": "Toruňský drak"
+    },
+    "coordinates": {
+      "lat": 53.010705,
+      "lng": 18.608813
+    }
+  },
+  "torun-filus": {
+    "id": "torun-filus",
+    "name": {
+      "he": "הכלב פילוש",
+      "en": "Filuś the dog",
+      "pl": "Pies Filuś",
+      "de": "Hund Filuś",
+      "cs": "Pes Filuś"
+    },
+    "coordinates": {
+      "lat": 53.0111016,
+      "lng": 18.6044575
+    }
+  },
+  "torun-gingerbread-baker-sculpture": {
+    "id": "torun-gingerbread-baker-sculpture",
+    "name": {
+      "he": "פסל אופת הפיירניק",
+      "en": "Gingerbread baker sculpture",
+      "pl": "Toruńska Piernikarka",
+      "de": "Skulptur der Pfefferkuchenbäckerin",
+      "cs": "Socha toruňské perníkářky"
+    },
+    "coordinates": {
+      "lat": 53.0112067,
+      "lng": 18.6095168
+    }
+  },
+  "torun-holy-spirit-church": {
+    "id": "torun-holy-spirit-church",
+    "name": {
+      "he": "כנסיית רוח הקודש",
+      "en": "Church of the Holy Spirit",
+      "pl": "Kościół Ducha Świętego",
+      "de": "Heilig-Geist-Kirche",
+      "cs": "Kostel svatého Ducha"
+    },
+    "coordinates": {
+      "lat": 53.010173,
+      "lng": 18.603183
+    }
+  },
+  "torun-hotel-spichrz": {
+    "id": "torun-hotel-spichrz",
+    "name": {
+      "he": "חזית מלון שפיחש׳ באסם ההיסטורי",
+      "en": "Hotel Spichrz in a historic granary",
+      "pl": "Hotel Spichrz w zabytkowym spichlerzu",
+      "de": "Hotel Spichrz im historischen Speicher",
+      "cs": "Hotel Spichrz v historické sýpce"
+    },
+    "coordinates": {
+      "lat": 53.008731,
+      "lng": 18.608536
+    }
+  },
+  "torun-house-under-star": {
+    "id": "torun-house-under-star",
+    "name": {
+      "he": "הבית תחת הכוכב",
+      "en": "House Under the Star",
+      "pl": "Kamienica pod Gwiazdą",
+      "de": "Haus zum Stern",
+      "cs": "Dům pod Hvězdou"
+    },
+    "coordinates": {
+      "lat": 53.01067238,
+      "lng": 18.6051895
+    }
+  },
+  "torun-leaning-tower": {
+    "id": "torun-leaning-tower",
+    "name": {
+      "he": "המגדל הנטוי של טורון",
+      "en": "Toruń Leaning Tower",
+      "pl": "Krzywa Wieża w Toruniu",
+      "de": "Schiefer Turm von Toruń",
+      "cs": "Šikmá věž v Toruni"
+    },
+    "coordinates": {
+      "lat": 53.008413,
+      "lng": 18.60203
+    }
+  },
+  "torun-monastery-gate": {
+    "id": "torun-monastery-gate",
+    "name": {
+      "he": "שער המנזר",
+      "en": "Monastery Gate",
+      "pl": "Brama Klasztorna",
+      "de": "Klostertor",
+      "cs": "Klášterní brána"
+    },
+    "coordinates": {
+      "lat": 53.008443,
+      "lng": 18.603454
+    }
+  },
+  "torun-old-town-hall": {
+    "id": "torun-old-town-hall",
+    "name": {
+      "he": "בית העירייה העתיק בטורון",
+      "en": "Toruń Old Town Hall",
+      "pl": "Ratusz Staromiejski w Toruniu",
+      "de": "Altstädtisches Rathaus in Toruń",
+      "cs": "Staroměstská radnice v Toruni"
+    },
+    "coordinates": {
+      "lat": 53.010532,
+      "lng": 18.60432
+    }
+  },
+  "torun-rafter-fountain": {
+    "id": "torun-rafter-fountain",
+    "name": {
+      "he": "מזרקת הכנר והצפרדעים",
+      "en": "Rafter and frogs fountain",
+      "pl": "Fontanna Flisaka",
+      "de": "Flößerbrunnen mit Fröschen",
+      "cs": "Fontána voraře a žab"
+    },
+    "coordinates": {
+      "lat": 53.010256,
+      "lng": 18.603958
+    }
+  },
+  "torun-sailors-gate": {
+    "id": "torun-sailors-gate",
+    "name": {
+      "he": "שער המלחים",
+      "en": "Sailors’ Gate",
+      "pl": "Brama Żeglarska",
+      "de": "Seglertor",
+      "cs": "Námořnická brána"
+    },
+    "coordinates": {
+      "lat": 53.008269725,
+      "lng": 18.606182861
+    }
+  },
+  "torun-saints-johns-cathedral": {
+    "id": "torun-saints-johns-cathedral",
+    "name": {
+      "he": "קתדרלת שני יוחנן הקדושים",
+      "en": "Cathedral of St John the Baptist and St John the Evangelist",
+      "pl": "Katedra śś. Jana Chrzciciela i Jana Ewangelisty",
+      "de": "Kathedrale St. Johannes der Täufer und Johannes der Evangelist",
+      "cs": "Katedrála sv. Jana Křtitele a sv. Jana Evangelisty"
+    },
+    "coordinates": {
+      "lat": 53.009385,
+      "lng": 18.606259
+    }
+  },
+  "torun-st-marys-church": {
+    "id": "torun-st-marys-church",
+    "name": {
+      "he": "כנסיית מריה הקדושה",
+      "en": "St Mary’s Church",
+      "pl": "Kościół Mariacki",
+      "de": "Marienkirche",
+      "cs": "Mariánský kostel"
+    },
+    "coordinates": {
+      "lat": 53.011028,
+      "lng": 18.602442
+    }
+  },
+  "torun-teutonic-castle": {
+    "id": "torun-teutonic-castle",
+    "name": {
+      "he": "שרידי הטירה הטבטונית",
+      "en": "Teutonic Castle ruins",
+      "pl": "Ruiny zamku krzyżackiego",
+      "de": "Ruine der Deutschordensburg",
+      "cs": "Zřícenina křižáckého hradu"
+    },
+    "coordinates": {
+      "lat": 53.009408,
+      "lng": 18.610711
+    }
+  },
   "town-hall": {
     "id": "town-hall",
     "name": {
