@@ -1,3 +1,4 @@
+import {beforeBotanicalMedia} from './botanical-media-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
@@ -19,6 +20,7 @@ assert.deepEqual(restoredCurrent,baseline.targetBefore,'Non-media identity, link
 // canonical record may project to its preceding media state. All other 298
 // records pass through untouched and are checked independently by the new test.
 export function beforePanPrecelMedia(value){
+ value=beforeBotanicalMedia(value);
  if(!value||value.id!==approved.canonicalID||!value.location||!value.socialPosts)return value;
  const signature=hash(value);
  if(signature===baseline.recordHashes[approved.canonicalID])return value;
