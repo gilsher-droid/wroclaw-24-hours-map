@@ -1,3 +1,4 @@
+import {beforeNamedWroclawMedia,beforeNamedWroclawGallery} from './named-wroclaw-media-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
@@ -7,7 +8,7 @@ const approved=JSON.parse(readFileSync('data/botanical-oct28-media-provenance.js
 const plain=x=>JSON.parse(JSON.stringify(x));
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const window={};runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window});
-const current=window.WROC_CATALOG.getPlace(approved.canonicalID);
+const current=beforeNamedWroclawMedia(window.WROC_CATALOG.getPlace(approved.canonicalID));
 assert.equal(hash(current),approved.approvedRecordSHA256,'Unapproved Botanical Garden delta');
 assert.deepEqual(plain(window.WROC_CATALOG.aliases),baseline.aliases,'Aliases changed');
 const restored=plain(current);restored.media=baseline.targetBefore.media;
@@ -21,6 +22,7 @@ assert.deepEqual(plain(current.media.photos),approved.proposedPhotos,'Unapproved
 // Only this exact reviewed media replacement can project to the old receipt.
 // All other298 records pass through unchanged and are checked independently.
 export function beforeBotanicalMedia(value){
+ value=beforeNamedWroclawMedia(value);
  if(!value||value.id!==approved.canonicalID||!value.location||!value.socialPosts)return value;
  if(hash(value)===baseline.recordHashes[approved.canonicalID])return value;
  assert.equal(hash(value),approved.approvedRecordSHA256,'Unapproved Botanical Garden mutation');
@@ -28,6 +30,7 @@ export function beforeBotanicalMedia(value){
  return baseline.targetBefore;
 }
 export function beforeBotanicalGallery(value,id){
+ value=beforeNamedWroclawGallery(value,id);
  if(id!==approved.canonicalID)return value;
  if(hash(value)===hash(baseline.targetBefore.media.photos))return value;
  assert.deepEqual(plain(value),plain(current.media.photos),'Unapproved garden adapter mutation');

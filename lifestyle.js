@@ -85,7 +85,7 @@
     localName: place.localName,
     description: place.description,
     sourceUrl: place.links?.website || null,
-    mediaKey: null,
+    mediaKey: place.id === "cafe-targowa" ? place.id : null,
     note: place.availability?.notes || null,
   }));
   const accessState = await window.WROC_CAMPAIGN_ACCESS?.authorize(language);
@@ -240,7 +240,7 @@
   }
 
   function openMedia(placeId, type) {
-    const place = places.find((item) => item.id === placeId);
+    const place = places.find((item) => item.id === placeId) || freeWaterOverlayPlaces.find((item) => item.id === placeId);
     const media = place?.mediaKey ? resources[place.mediaKey] : null;
     if (!place || !media) return;
     const modal = document.getElementById("media-modal");

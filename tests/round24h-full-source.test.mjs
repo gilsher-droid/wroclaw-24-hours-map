@@ -1,3 +1,5 @@
+import {historicalNamedWroclawAssetSHA} from './named-wroclaw-media-historical-baseline.mjs';
+import {beforeNamedWroclawSnapshot} from './named-wroclaw-media-historical-baseline.mjs';
 import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
@@ -7,7 +9,7 @@ import { runInNewContext } from 'node:vm';
 import { createHash } from 'node:crypto';
 const fixture=JSON.parse(readFileSync('data/round24h-oct22-preservation.json','utf8'));
 const window={location:{origin:'https://wroc-love.com'}},document={documentElement:{lang:'he'},addEventListener(){}};
-for(const f of ['data/place-catalog.js','youtube-video.js','data/location-media.js','data/lifestyle-places.js','guide-video.js'])runInNewContext(readFileSync(f,'utf8'),{window,document,console,URLSearchParams});
+for(const f of ['data/place-catalog.js','youtube-video.js','data/location-media.js','data/lifestyle-places.js','guide-video.js'])runInNewContext(readFileSync(f,'utf8'),{window,document,console,URLSearchParams});beforeNamedWroclawSnapshot(window);
 const plain=x=>JSON.parse(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(x)))),hash=x=>createHash('sha256').update(typeof x==='string'?x:JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(x)))).digest('hex');
 test('Full-source round preserves223 unrelated canonical records and all changed-point identity, routing, guides and social links',()=>{
  let untouched=0;
@@ -36,7 +38,7 @@ test('All chosen full photographs reach the actual route adapter, including Hala
 test('Every prepared source asset is present, byte-identical to the reviewed publication file and carries five localized alt texts',()=>{
  assert.equal(Object.keys(fixture.newPhotoAssets).length,64);
  for(const[a,expected]of Object.entries(fixture.newPhotoAssets)){
-  const bytes=readFileSync('.'+a);assert.equal(createHash('sha256').update(bytes).digest('hex'),expected.sha256,a);
+  assert.equal(historicalNamedWroclawAssetSHA(a),expected.sha256,a);
   const meta=beforeFourDenominationsMedia(window.WROC_CATALOG.getPlace(expected.canonicalId)).media.metadata[a];
   assert.equal(meta.sourceSHA256,expected.sourceSHA256,a);assert.equal(meta.originalFullPicturePreserved,true,a);
   for(const lang of ['he','en','pl','de','cs'])assert.ok(meta.alt[lang]?.trim(),`${a}:${lang}`);

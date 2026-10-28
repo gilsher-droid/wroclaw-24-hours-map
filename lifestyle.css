@@ -283,3 +283,6 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 /* Full original Pan Precel visit frames in the existing gallery. */
 .media-grid img[src*="/pan-precel-oct28/"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3}
 .place-popup-photo[src*="/pan-precel-oct28/"]{object-fit:contain;background:#fffaf0}
+
+/* Approved original collection: preserve the whole photograph in the gallery. */
+.media-grid img[src*="/named-wroclaw-oct28/"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}

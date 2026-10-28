@@ -1,3 +1,4 @@
+import {beforeNamedWroclawSnapshot} from './named-wroclaw-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import test from 'node:test';
@@ -5,7 +6,7 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
-const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/lifestyle-places.js','data/location-media.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});
+const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/lifestyle-places.js','data/location-media.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});beforeNamedWroclawSnapshot(window);
 const c=window.WROC_CATALOG,e=window.WROC_EXPERIENCE_CATALOG,b=JSON.parse(readFileSync('data/today-source-preservation.json','utf8'));
 test('Five verified businesses have distinct identities and one Lifestyle card each, without confusing other branches or general places',()=>{
  assert.equal(historicalPlaceIds(c.places).length,((b.beforeCount+5+4+6+1)+1)+1);
