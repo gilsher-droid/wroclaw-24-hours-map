@@ -1732,9 +1732,36 @@
       },
       "identityEvidence": "Exact visual comparison with owner mural photograph and address node2511520382 matched by root to the owner location map",
       "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
+    },
+    {
+      "placeId": "poznan-jezyce-market",
+      "asset": "/assets/poznan/verified-source-129.jpg",
+      "sourceSHA256": "7fa3d7501ea0f519bb846ac575a582d05f2663af105ff9fccde4d1c798a3733e",
+      "assetSHA256": "7fa3d7501ea0f519bb846ac575a582d05f2663af105ff9fccde4d1c798a3733e",
+      "sourceIndex": 129,
+      "alt": {
+        "he": "דוכן ירקות בשוק ייז׳יצה עם תווית השוק ומספר 244",
+        "en": "Vegetable stall at Rynek Jeżycki with the market label and number 244",
+        "pl": "Stoisko warzywne na Rynku Jeżyckim z oznaczeniem targowiska i numerem 244",
+        "de": "Gemüsestand auf dem Rynek Jeżycki mit Marktbezeichnung und Nummer 244",
+        "cs": "Zeleninový stánek na Rynku Jeżyckém s označením tržiště a číslem 244"
+      },
+      "identityEvidence": "Full original label reads Targowisko R. Jeżycki under stall244; corroborated by municipal market operator https://www.targowiska.com.pl/lokalizacje/rynek-jezycki/",
+      "humanFolderApproval": "All personal media in Poznan folder explicitly approved; original full frame unchanged",
+      "original": true,
+      "sourceFile": "פוזנן/בדרך מוורצלב לפוזן.JPG",
+      "originalDimensions": [
+        3024,
+        4032
+      ],
+      "assetDimensions": [
+        3024,
+        4032
+      ],
+      "fullFramePreserved": true
     }
   ],
-  "uniqueAssets": 107,
+  "uniqueAssets": 108,
   "heldPersonalPhotos": [],
   "pendingPhotoSourceIndices": [
     30,

@@ -17,16 +17,25 @@ test('An explicit optional category fits its places with the route; card focus r
  assert.match(render,/if \(!isPoznan\) optionalLayer\.addLayer\(marker\)/);
  assert.match(render,/html: `<span>\+\$\{index\+1\}<\/span>`/);
 });
-test('Nearby recommended stops expose their exact numbers and names, and separate at a closer zoom without moving coordinates',()=>{
- let scale=1;const drawn=[],events={};
- const original=[{key:'a',number:1,label:'Market',coordinate:{lat:1,lng:1},marker:{id:1}},{key:'b',number:2,label:'Town hall',coordinate:{lat:1.1,lng:1.1},marker:{id:2}},{key:'c',number:3,label:'Fara',coordinate:{lat:5,lng:5},marker:{id:3}}];
- const before=JSON.stringify(original.map(s=>s.coordinate));
- const targetMap={removeLayer(){},latLngToLayerPoint([lat,lng]){return {x:lat*100*scale,y:lng*100*scale};},on(k,f){events[k]=f;}};
- const L={layerGroup(){return {addTo(){return this;},clearLayers(){drawn.length=0;},addLayer(m){drawn.push(m);}};},divIcon:o=>o,marker(coordinate,options){return {coordinate,options,addTo(layer){layer.addLayer(this);return this;},bindPopup(html){this.popup=html;return this;}};}};
- const context={L,language:'en',escapeHtml:s=>s,recommendedGroups:new WeakMap()};
+test('Nearby stops remain individually selectable at their real coordinates, with separate labels and leaders',()=>{
+ let scale=1;const drawn=[],events={},leaders=[];
+ const original=[{key:'a',number:1,label:'Market',coordinate:{lat:1,lng:1}},{key:'b',number:2,label:'Town hall',coordinate:{lat:1.1,lng:1.1}},{key:'c',number:3,label:'Fara',coordinate:{lat:5,lng:5}}];
+ original.forEach(s=>{s.marker={coordinate:[s.coordinate.lat,s.coordinate.lng],options:{icon:{options:{...(s.number===2 ? {iconSize:[30,30]} : {iconAnchor:[21,48],iconSize:[42,50]}),html:`<span>${s.number}</span>`}}},setIcon(icon){this.options.icon=icon;}};});
+ const baseIcons=original.map(s=>s.marker.options.icon),before=JSON.stringify(original.map(s=>s.coordinate));
+ const targetMap={removeLayer(){},latLngToLayerPoint([lat,lng]){return {x:lat*100*scale,y:lng*100*scale};},layerPointToLatLng(p){return {lat:p[0]/(100*scale),lng:p[1]/(100*scale)};},on(k,f){events[k]=f;}};
+ const L={layerGroup(){return {addTo(){return this;},clearLayers(){drawn.length=0;},addLayer(m){drawn.push(m);}};},divIcon:options=>({options}),polyline(points){leaders.push(points);return {addTo(){return this;}};},circleMarker(){return {addTo(){return this;}};}};
+ const context={L,recommendedGroups:new WeakMap()};
  const fn=source.slice(source.indexOf('  function installRecommendedGroups('),source.indexOf('  let previewIndex'));
  vm.runInNewContext(fn+'\nthis.install=installRecommendedGroups;',context);context.install(targetMap,original);
- assert.equal(drawn.length,2);assert.equal(drawn[0].options.icon.html,'<span>1, 2</span>');assert.match(drawn[0].popup,/data-map-point="a"/);assert.match(drawn[0].popup,/data-map-point="b"/);assert.match(drawn[0].options.title,/1. Market; 2. Town hall/);
+ assert.deepEqual(drawn,original.map(s=>s.marker));
+ assert.equal(leaders.length,2);
+ for(let i=0;i<2;i++){
+  assert.equal(JSON.stringify(leaders[i][0]),JSON.stringify(original[i].marker.coordinate));
+  assert.notDeepEqual(original[i].marker.options.icon.options.iconAnchor,baseIcons[i].options.iconAnchor);
+  assert.equal(original[i].marker.options.icon.options.html,`<span>${i+1}</span>`);
+ }
  assert.equal(JSON.stringify(original.map(s=>s.coordinate)),before);
- scale=20;events.zoomend();assert.deepEqual(drawn,original.map(s=>s.marker));
+ scale=20;events.zoomend();
+ original.forEach((s,i)=>assert.equal(JSON.stringify(s.marker.options.icon.options.iconAnchor),JSON.stringify(baseIcons[i].options.iconAnchor)));
+ assert.deepEqual(drawn,original.map(s=>s.marker));
 });

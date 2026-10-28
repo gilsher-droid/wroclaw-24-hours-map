@@ -23601,6 +23601,7 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
     "sourceUrls": [],
     "media": {
       "photos": [
+        "/assets/poznan/source-109.jpg",
         "/assets/poznan/source-044.jpg",
         "/assets/poznan/source-045.jpg",
         "/assets/poznan/source-046.jpg",
@@ -23609,7 +23610,6 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
         "/assets/poznan/source-028.jpg",
         "/assets/poznan/source-136.jpg",
         "/assets/poznan/source-023.jpg",
-        "/assets/poznan/source-109.jpg",
         "/assets/poznan/source-110.jpg",
         "/assets/poznan/source-111.jpg"
       ],
@@ -23848,7 +23848,7 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
           "currentSourcePath": "/Users/rachelfiler/Desktop/Wroclaw/פוזנן/קפה שרלוט בפוזנן.JPG"
         }
       },
-      "thumbnail": "/assets/poznan/source-044.jpg"
+      "thumbnail": "/assets/poznan/source-109.jpg"
     },
     "provenance": {
       "identityVerifiedFrom": "Official owner or city tourism source, with exact human media identifications where recorded",
@@ -26679,9 +26679,38 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
     },
     "sourceUrls": [],
     "media": {
-      "photos": [],
+      "photos": [
+        "/assets/poznan/verified-source-129.jpg"
+      ],
       "videos": [],
-      "metadata": {}
+      "metadata": {
+        "/assets/poznan/verified-source-129.jpg": {
+          "sourceSHA256": "7fa3d7501ea0f519bb846ac575a582d05f2663af105ff9fccde4d1c798a3733e",
+          "assetSHA256": "7fa3d7501ea0f519bb846ac575a582d05f2663af105ff9fccde4d1c798a3733e",
+          "sourceIndex": 129,
+          "alt": {
+            "he": "דוכן ירקות בשוק ייז׳יצה עם תווית השוק ומספר 244",
+            "en": "Vegetable stall at Rynek Jeżycki with the market label and number 244",
+            "pl": "Stoisko warzywne na Rynku Jeżyckim z oznaczeniem targowiska i numerem 244",
+            "de": "Gemüsestand auf dem Rynek Jeżycki mit Marktbezeichnung und Nummer 244",
+            "cs": "Zeleninový stánek na Rynku Jeżyckém s označením tržiště a číslem 244"
+          },
+          "identityEvidence": "Full original label reads Targowisko R. Jeżycki under stall244; corroborated by municipal market operator https://www.targowiska.com.pl/lokalizacje/rynek-jezycki/",
+          "humanFolderApproval": "All personal media in Poznan folder explicitly approved; original full frame unchanged",
+          "original": true,
+          "sourceFile": "פוזנן/בדרך מוורצלב לפוזן.JPG",
+          "originalDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            3024,
+            4032
+          ],
+          "fullFramePreserved": true
+        }
+      },
+      "thumbnail": "/assets/poznan/verified-source-129.jpg"
     },
     "provenance": {
       "factualSources": [
@@ -27219,8 +27248,8 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
     "sourceUrls": [],
     "media": {
       "photos": [
-        "/assets/poznan/verified-source-037.jpg",
-        "/assets/poznan/verified-source-038.jpg"
+        "/assets/poznan/verified-source-038.jpg",
+        "/assets/poznan/verified-source-037.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -27273,7 +27302,7 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
           "humanFolderApproval": "Explicit approval of all personal photographs and videos in the Poznan source folder"
         }
       },
-      "thumbnail": "/assets/poznan/verified-source-037.jpg"
+      "thumbnail": "/assets/poznan/verified-source-038.jpg"
     },
     "provenance": {
       "factualSources": [
