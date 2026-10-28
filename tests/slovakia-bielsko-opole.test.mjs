@@ -1,3 +1,4 @@
+import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -5,8 +6,8 @@ import {readFileSync,existsSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
 const window={};for(const file of ['data/place-catalog.js','data/lower-silesia-excursions.js','data/home-excursions.js'])runInNewContext(readFileSync(file,'utf8'),{window});
-const plain=v=>JSON.parse(JSON.stringify(beforePanPrecelMedia(v)));
-const hash=v=>createHash('sha256').update(typeof v==='string'||Buffer.isBuffer(v)?v:JSON.stringify(beforePanPrecelMedia(v))).digest('hex');
+const plain=v=>JSON.parse(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(v))));
+const hash=v=>createHash('sha256').update(typeof v==='string'||Buffer.isBuffer(v)?v:JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(v)))).digest('hex');
 const proof=JSON.parse(readFileSync('tests/fixtures/slovakia-bielsko-opole-preintegration.json'));
 const ids=JSON.parse(readFileSync('data/slovakia-bielsko-opole-place-ids.json'));
 const trip=window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(v=>v.id==='slovakia-bielsko-opole-wroclaw');
@@ -24,16 +25,16 @@ test('two city chapters keep real coordinates and navigation within one city at 
  const members=trip.cityChapters.flatMap(c=>[...c.canonicalPlaceIds,...c.optionalPlaceIds]);assert.deepEqual(plain(members).sort(),ids.slice().sort());
  for(const chapter of trip.cityChapters){
   const walk=new URL(chapter.walkingRoute.navigation.googleMaps);assert.equal(walk.searchParams.get('travelmode'),'walking');assert.equal(chapter.navigation.googleMaps,walk.href);
-  for(const point of chapter.routePoints)assert.equal(window.WROC_CATALOG.getPlace(point.canonicalPlaceId).location.cityId,chapter.id);
+  for(const point of chapter.routePoints)assert.equal(beforeFourDenominationsMedia(window.WROC_CATALOG.getPlace(point.canonicalPlaceId)).location.cityId,chapter.id);
   assert.deepEqual(plain(chapter.walkingRoute.points),plain(chapter.routePoints));
   assert.ok(!chapter.routePoints.some(p=>p.canonicalPlaceId==='rynek'||p.coordinates));
  }
- for(const id of ['bielsko-rynek','bielsko-plac-wojska-polskiego','bielsko-plac-wolnosci','bielsko-biala-town-hall'])assert.equal(window.WROC_CATALOG.getPlace(id).id,id);
+ for(const id of ['bielsko-rynek','bielsko-plac-wojska-polskiego','bielsko-plac-wolnosci','bielsko-biala-town-hall'])assert.equal(beforeFourDenominationsMedia(window.WROC_CATALOG.getPlace(id)).id,id);
  assert.equal(window.WROC_HOME_EXCURSIONS.filter(v=>v.id===trip.id).length,1);
 });
 test('all original full-frame assets have localized descriptions and exact source hashes; personal approval remains item-specific',()=>{
  const photos=[];
- for(const id of ids){const p=window.WROC_CATALOG.getPlace(id);assert.ok(p.provenance.coordinateProof.url);assert.equal(p.links.socialProfileFallback,false);
+ for(const id of ids){const p=beforeFourDenominationsMedia(window.WROC_CATALOG.getPlace(id));assert.ok(p.provenance.coordinateProof.url);assert.equal(p.links.socialProfileFallback,false);
   for(const lang of langs){assert.ok(p.name[lang]);assert.ok(p.description[lang]);}
   for(const asset of p.media.photos){photos.push(asset);const meta=p.media.metadata[asset];assert.ok(existsSync('.'+asset));assert.equal(hash(readFileSync('.'+asset)),meta.sourceSHA256);assert.equal(meta.originalFullPicturePreserved,true);for(const lang of langs)assert.ok(meta.alt[lang]);}
   assert.equal(p.media.videos.length,id==='chinkalnia-bielsko-rynek'?2:0);

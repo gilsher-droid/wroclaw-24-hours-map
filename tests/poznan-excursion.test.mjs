@@ -1,3 +1,4 @@
+import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -42,7 +43,7 @@ test('Poznan places retain explicit Greater Poland geography and complete locali
   const ids = [...trip.canonicalPlaceIds, ...trip.optionalPlaceIds];
   assert.equal(new Set(ids).size, ids.length);
   for (const id of ids) {
-    const place = w.WROC_CATALOG.getPlace(id);
+    const place = beforeFourDenominationsMedia(w.WROC_CATALOG.getPlace(id));
     assert.equal(place.location.cityId, 'poznan');
     assert.equal(place.location.regionId, 'wielkopolska');
     assert.equal(place.location.countryCode, 'PL');
@@ -58,8 +59,8 @@ test('Poznan places retain explicit Greater Poland geography and complete locali
       for (const line of text.split('\n')) assert.ok(!(/[א-ת]/.test(line) && /[A-Za-zĄąĆćĘęŁłŃńÓóŚśŹźŻż]/.test(line)), `${id}: mixed Hebrew and Latin line`);
     }
   }
-  assert.notEqual(w.WROC_CATALOG.getPlace('nifty-puro-poznan').id, w.WROC_CATALOG.getPlace('puro-poznan-stare-miasto').id);
-  assert.match(w.WROC_CATALOG.getPlace('stary-mlyn-zamkowa-poznan').description.en, /not eaten at this Poznań branch/i);
+  assert.notEqual(beforeFourDenominationsMedia(w.WROC_CATALOG.getPlace('nifty-puro-poznan')).id, beforeFourDenominationsMedia(w.WROC_CATALOG.getPlace('puro-poznan-stare-miasto')).id);
+  assert.match(beforeFourDenominationsMedia(w.WROC_CATALOG.getPlace('stary-mlyn-zamkowa-poznan')).description.en, /not eaten at this Poznań branch/i);
 });
 
 test('Poznan media records the current inventory and the scoped folder approval', () => {
@@ -76,7 +77,7 @@ test('Poznan media records the current inventory and the scoped folder approval'
     assert.match(photo.sourceSHA256, /^[a-f0-9]{64}$/);
     assert.match(photo.assetSHA256, /^[a-f0-9]{64}$/);
     if (held.has(photo.sourceSHA256)) assert.ok(photo.exactImageHumanApproval, `unapproved personal image ${photo.sourceIndex}`);
-    const place = w.WROC_CATALOG.getPlace(photo.placeId);
+    const place = beforeFourDenominationsMedia(w.WROC_CATALOG.getPlace(photo.placeId));
     assert.ok(place.media.photos.includes(photo.asset));
   }
   for (const photo of proof.heldPersonalPhotos) {
@@ -93,7 +94,7 @@ test('The Poznan addition preserves every prior canonical record and every prior
   const w=load(), proof=JSON.parse(readFileSync('tests/fixtures/poznan-preintegration.json','utf8'));
   const ids=JSON.parse(readFileSync('data/poznan-excursion-place-ids.json','utf8'));
   const later=new Set([...JSON.parse(readFileSync('data/slovakia-bielsko-opole-place-ids.json','utf8')), ...JSON.parse(readFileSync('data/torun-excursion-place-ids.json','utf8'))]);
-  const hash=value=>createHash('sha256').update(JSON.stringify(beforePanPrecelMedia(value))).digest('hex');
+  const hash=value=>createHash('sha256').update(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(value)))).digest('hex');
   assert.equal(Object.keys(proof.recordHashes).length,233);
   assert.equal(Object.keys(w.WROC_CATALOG.places).filter(id=>!later.has(id)).length,233+ids.length);
   assert.deepEqual(Object.keys(w.WROC_CATALOG.places).filter(id=>!later.has(id)&&!Object.hasOwn(proof.recordHashes,id)).sort(),ids.slice().sort());
