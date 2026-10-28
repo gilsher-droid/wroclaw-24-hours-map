@@ -35,18 +35,11 @@
     document.querySelector('.real-map-preview').setAttribute('aria-label', h[0]);
     const section = host.closest('section');
     section.querySelector('h2').textContent = c[0];
+    section.querySelector('.eyebrow').textContent = {he:'עוד מקומות לגלות',en:'Explore beyond the city',pl:'Odkrywaj poza miastem',de:'Über die Stadt hinaus',cs:'Objevujte okolí i další města'}[lang];
     section.querySelector('.section-heading > p').textContent = c[1];
     host.replaceChildren();
-    const toolbar = el('div', 'home-excursions-toolbar');
-    toolbar.append(el('p', '', c[2]));
-    const arrows = el('div', 'home-excursions-arrows');
-    const left = el('button', '', '←'), right = el('button', '', '→');
-    left.type = right.type = 'button';
-    left.setAttribute('aria-label', c[6]); right.setAttribute('aria-label', c[7]);
-    arrows.append(left, right); toolbar.append(arrows);
     const rail = el('div', 'home-excursions-rail');
     rail.setAttribute('role', 'region'); rail.setAttribute('aria-label', c[4]);
-    rail.tabIndex = 0;
     const trips = window.WROC_HOME_EXCURSIONS || [];
     for (const trip of trips) {
       const index = knownIds.indexOf(trip.id);
@@ -59,20 +52,8 @@
     }
     const footer = el('div', 'home-excursions-footer');
     const all = el('a', 'button excursions-button', c[4]); all.href = `/products/interactive-maps/excursions.html?lang=${lang}`;
-    footer.append(el('small', '', c[5]), all); host.append(toolbar, rail, footer);
-    const move = direction => rail.scrollBy({ left: direction * (rail.querySelector('a')?.offsetWidth + 20 || 310), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
-    left.onclick = () => move(-1); right.onclick = () => move(1);
-    const update = () => {
-      const bounds = rail.getBoundingClientRect();
-      const cards = [...rail.children].map(node => node.getBoundingClientRect());
-      left.disabled = !cards.some(rect => rect.left < bounds.left - 5);
-      right.disabled = !cards.some(rect => rect.right > bounds.right + 5);
-    };
-    rail.addEventListener('scroll', update, { passive: true });
-    if (window.ResizeObserver) { observer?.disconnect(); observer = new ResizeObserver(update); observer.observe(rail); }
-    requestAnimationFrame(update);
+    footer.append(el('small', '', c[5]), all); host.append(rail, footer);
   }
-  let observer;
   document.addEventListener('wroc-language-change', render);
   render();
 })();
