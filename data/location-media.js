@@ -320,3 +320,120 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // These galleries use the separate canonical business identities.
 (function(){for(const id of ["cocofli-wroclaw","entre-brasserie-wroclaw","gniazdo","peruwiana","wiking-axe-throwing-wroclaw","thai-thai-wroclaw","raito-sushi-wroclaw","haggis-pub-wroclaw","cafe-artzat-wroclaw","caffe-bohema-swidnicka-wroclaw","rumbar-pokoyhof-wroclaw"]){const p=window.WROC_CATALOG?.getPlace(id);if(p)window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos,videos:p.media.videos};}})();
+
+// Dialogue, riverside and cemetery places (29 October 2026).
+Object.assign(window.WROC_LOCATION_MEDIA,{
+  "przejscie-dialogu-wroclaw": {
+    "gallery": [
+      "/assets/dialogue-beach-cemetery-oct29/dialogue-001.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/dialogue-002.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/dialogue-003.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/dialogue-004.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/dialogue-005.jpg"
+    ],
+    "videos": []
+  },
+  "dobra-przystan-beach-bar-wroclaw": {
+    "gallery": [
+      "/assets/dialogue-beach-cemetery-oct29/beach-014.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-015.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-016.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-017.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-018.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-019.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-020.jpg"
+    ],
+    "videos": []
+  },
+  "prosto-z-mostu-beach-bar-wroclaw": {
+    "gallery": [
+      "/assets/dialogue-beach-cemetery-oct29/beach-001.jpg",
+      "/assets/experiences/beach-bars/visit-37.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-003.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-004.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-005.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-006.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-007.jpg",
+      "/assets/experiences/beach-bars/visit-43.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-009.jpg",
+      "/assets/experiences/beach-bars/visit-45.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-011.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/beach-012.jpg"
+    ],
+    "videos": []
+  },
+  "new-jewish-cemetery-wroclaw": {
+    "gallery": [
+      "/assets/dialogue-beach-cemetery-oct29/cemetery-001.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/cemetery-002.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/cemetery-003.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/cemetery-004.jpg"
+    ],
+    "videos": []
+  },
+  "kepa-mieszczanska-wroclaw": {
+    "gallery": [
+      "/assets/kepa-mieszczanska-oct29/source-001.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-002.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-003.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-004.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-005.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-006.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-007.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-008.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-009.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-010.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-011.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-012.jpg",
+      "/assets/kepa-mieszczanska-oct29/source-013.jpg"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=8LYxTYkEqDo"
+    ]
+  },
+  "most-zwierzyniecki-wroclaw": {
+    "gallery": [
+      "/assets/dialogue-beach-cemetery-oct29/bridge-001.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/bridge-002.jpg"
+    ],
+    "videos": []
+  }
+});
+
+// Photo enrichments for Zenka, Jolie and Roma (29 October 2026).
+Object.assign(window.WROC_LOCATION_MEDIA,{
+  "zenka": {
+    "gallery": [
+      "/assets/dialogue-beach-cemetery-oct29/zenka-001.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/zenka-002.jpg"
+    ],
+    "videos": []
+  },
+  "jolie-kurzy-targ": {
+    "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid02oMBVC3BRGxnbTXppKzBECSioEHeEWFWWpNnpSujAU63uMc9o6h4xKPmw2hM8p9wzl&id=61595036942289",
+    "instagram": "https://www.instagram.com/p/DeRL6V2j822/",
+    "gallery": [
+      "/assets/feels-familiar/jolie-hummus-pita.jpg",
+      "/assets/feels-familiar/jolie-kurzy-targ.jpg",
+      "/assets/feels-familiar/jolie-interior.jpg",
+      "/assets/dialogue-beach-cemetery-oct29/jolie-detail.jpg"
+    ],
+    "videos": []
+  },
+  "lodziarnia-roma": {
+    "facebook": "https://www.facebook.com/permalink.php?story_fbid=pfbid05cm2S1Aiw7fTkyZXr3hDEDqxgTPfZAnmeZao88VvddXi8hSFHDJAyWRePRcYEk89l&id=61595036942289",
+    "gallery": [
+      "/assets/food-cafes/lodziarnia-roma-01.jpg",
+      "/assets/food-cafes/lodziarnia-roma-02.jpg",
+      "/assets/today-source-refresh-20261021/run4-006-lodziarnia-roma.jpg",
+      "/assets/round-other-20261023/food-lodziarnia-roma-68.jpg",
+      "/assets/round-other-20261023/food-lodziarnia-roma-69.jpg",
+      "/assets/food-cafes/lodziarnia-roma-03.jpg"
+    ],
+    "videos": [
+      "/assets/lodziarnia-roma-visit-01.mp4",
+      "/assets/lodziarnia-roma-visit-03.mp4",
+      "/assets/lodziarnia-roma-visit-04.mp4"
+    ]
+  }
+});
