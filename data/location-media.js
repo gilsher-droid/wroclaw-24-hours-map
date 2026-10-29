@@ -309,3 +309,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Reflect the canonical photo reassignment in existing aliases, including an empty source gallery.
 (function(){for(const canonicalId of ["dunikowski","marina"]){const p=window.WROC_CATALOG?.getPlace(canonicalId);if(!p)continue;for(const id of [canonicalId,...Object.entries(window.WROC_CATALOG.aliases).filter(([,target])=>target===canonicalId).map(([alias])=>alias)]){const r=window.WROC_LOCATION_MEDIA[id];if(r)r.gallery=p.media.photos;else window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos};}}})();
+
+// Refresh both itinerary appearances from the canonical promenade gallery.
+(function(){const p=window.WROC_CATALOG?.getPlace("dunikowski");if(!p)return;for(const id of ["dunikowski","dunikowski-final"]){const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;window.WROC_LOCATION_MEDIA[id]=r;}})();

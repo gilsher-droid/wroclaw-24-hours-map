@@ -1,0 +1,191 @@
+{
+  "beforeRecord": {
+    "id": "dunikowski",
+    "localName": "Bulwar Xawerego Dunikowskiego",
+    "name": {
+      "he": "טיילת דוניקובסקי",
+      "en": "Dunikowski Boulevard",
+      "pl": "Bulwar Dunikowskiego",
+      "de": "Dunikowski-Boulevard",
+      "cs": "Dunikowski Boulevard"
+    },
+    "description": {
+      "he": "טיילת רחבה עם תצפית יפה על אוסטרוב טומסקי, מושלמת לסיום רגוע.",
+      "en": "A broad promenade with a fine view of Ostrów Tumski, perfect for a relaxed finish.",
+      "pl": "Szeroki bulwar z pięknym widokiem na Ostrów Tumski, idealny na spokojne zakończenie.",
+      "de": "Eine breite Promenade mit herrlichem Blick auf Ostrów Tumski, perfekt für einen entspannten Abschluss.",
+      "cs": "Široká promenáda s krásným výhledem na Ostrów Tumski, ideální pro pohodový závěr."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.11188,
+        "lng": 17.04302
+      }
+    },
+    "categories": [
+      "river"
+    ],
+    "sourceUrls": [],
+    "aliases": [
+      "dunikowski-final"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "dunikowski"
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "route-stop",
+        "sourceId": "dunikowski-final"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "wroclaw-four-days",
+        "sourceId": "dunikowski",
+        "lat": 51.11188,
+        "lng": 17.04302
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "sourceId": "dunikowski-final",
+        "lat": 51.11188,
+        "lng": 17.04302
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "river"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0292KS9hfZQPC8xFUtkw1yfpbythvWjnf8Xs6nRZn5QPPMwCS4u1ZFgwq3dep7t5nKl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02XidRxvmLisFjDxyEYbb8VqhoyhbChh8CnnSyqVazCfeYeqEXdVyb4wkFXtPnJSZhl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid023nw7bAHr53s7ELW35K8UKYYvw5YQmrDu5H5KziXs94cdjntv3o73gotj5WNW6P7cl&id=61595207664875",
+        "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JgTYrtcvXii9WVXEjQqes22qof7o6Djgp6v4Cy1UCkYwzYjz2WfyL4wXRaZnvFTxl&id=61595239823399",
+        "verifiedAt": "2026-10-08T14:50:58.766337+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeUHRV1CQNY/",
+        "verifiedAt": "2026-10-10T12:48:07.310Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUL5YjG2Vj/",
+        "verifiedAt": "2026-10-10T13:26:20.486Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeUjZi5iZo-/",
+        "verifiedAt": "2026-10-10T16:52:02.495Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeUm1UFGCln/",
+        "verifiedAt": "2026-10-10T17:22:26.178Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUttjQETXY/",
+        "verifiedAt": "2026-10-10T18:21:47.027Z"
+      }
+    ]
+  },
+  "approvedRecordSHA": "5401073b43eb1d2ac151db3e9a2b7e373a40c9a435e7affee8655bf98439d239",
+  "approvedPhotos": [
+    "/assets/dunikowski-oct29/IMG_0800.jpg",
+    "/assets/dunikowski-oct29/IMG_0801.jpg",
+    "/assets/dunikowski-oct29/IMG_0802.jpg",
+    "/assets/dunikowski-oct29/IMG_0803.jpg"
+  ],
+  "historicalRecordSHAs": [
+    "0f3d905f69b189ec4804343694379e1d1296e9c6d56f42c0d83df56c67af6964",
+    "d2162172cbefbf8b06ce48db05ae2050641c118b0972dae12c9386d85b65fa9d"
+  ],
+  "historicalPhotos": [
+    [],
+    [
+      "/assets/named-wroclaw-oct28/source-038.jpg",
+      "/assets/named-wroclaw-oct28/source-039.jpg"
+    ]
+  ],
+  "approval": "dunikowski-new-inbox-2026-10-29/four-personal-photos-human-approval.json"
+}
