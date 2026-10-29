@@ -161,5 +161,23 @@ window.WROC_HOME_EXCURSIONS = [
       "cs": "Počítejte s dlouhým dnem cestování a objevování toruňského starého města: Rynek a radnice, Koperníkův pomník, dům nesoucí jeho jméno a městské brány u Visly. Prohlídky interiérů přizpůsobte příjezdu a návratu do Vratislavi."
     },
     "photo": "/assets/torun/source-38.jpg"
+  },
+  {
+    "id": "gdansk-sopot-malbork-three-day-trip",
+    "title": {
+      "he": "שלושה ימים מוורוצלב: גדנסק, סופוט וטירת מלבורק, למרחיקי לכת",
+      "en": "Three days from Wrocław: Gdańsk, Sopot and Malbork Castle",
+      "pl": "Trzy dni z Wrocławia: Gdańsk, Sopot i zamek w Malborku",
+      "de": "Drei Tage ab Breslau: Danzig, Sopot und Marienburg",
+      "cs": "Tři dny z Vratislavi: Gdaňsk, Sopoty a hrad Malbork"
+    },
+    "summary": {
+      "he": "למרחיקי לכת: יוצאים מוורוצלב לשלושה ימים בצפון פולין. שני לילות במלון פורו בגדנסק, שיטוט בעיר ובסופוט, וביקור בטירת מלבורק לפני החזרה.",
+      "en": "For travellers going further: three days in northern Poland from Wrocław, two nights at PURO Gdańsk, city walks, Sopot’s seafront and Malbork Castle before returning.",
+      "pl": "Dla podróżujących dalej: trzy dni na północy Polski z Wrocławia, dwie noce w PURO Gdańsk, spacery po mieście, Sopot i zamek w Malborku przed powrotem.",
+      "de": "Für Reisende mit Fernweh: drei Tage in Nordpolen ab Breslau, zwei Nächte im PURO Danzig, Stadtspaziergänge, Sopot und Marienburg vor der Rückfahrt.",
+      "cs": "Pro cestovatele mířící dál: tři dny na severu Polska z Vratislavi, dvě noci v PURO Gdaňsk, městské procházky, Sopoty a hrad Malbork před návratem."
+    },
+    "photo": "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-02.jpg"
   }
 ];

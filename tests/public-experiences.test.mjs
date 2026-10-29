@@ -6,8 +6,8 @@ import vm from 'node:vm';
 const window={};for(const file of ['place-catalog','canonical-experiences','home-experiences','youtube-video-hosting'])vm.runInNewContext(readFileSync(new URL(`../data/${file}.js`,import.meta.url),'utf8'),{window});
 beforeLykSnapshot(window);
 const registry=window.WROC_EXPERIENCE_CATALOG;
-test('Eight public experiences reuse canonical places and retain separately scoped area media',()=>{
- assert.equal(window.WROC_HOME_EXPERIENCES.length,8);
+test('Nine public experiences reuse canonical places and retain separately scoped area media',()=>{
+ assert.equal(window.WROC_HOME_EXPERIENCES.length,9);
  assert.deepEqual(Array.from(window.WROC_HOME_EXPERIENCES.slice(0,2),e=>e.id),['walk-with-our-guide','food-coffee-and-more']);
  for(const item of window.WROC_HOME_EXPERIENCES){if(item.destinationPath){assert.ok(['/products/interactive-maps/guides.html','/products/interactive-maps/lifestyle.html'].includes(item.destinationPath));assert.ok(existsSync(new URL('..'+item.photo,import.meta.url)));}else assert.ok(registry.getExperience(item.id));}
  const milk=registry.getExperience('wroclaw-milk-bars');assert.deepEqual(Array.from(milk.relatedCanonicalPlaceIds),['bar-mis','bar-mleczny-mewa-wroclaw','rozowa-krowa-milk-bar-wroclaw','vega-bar-weganski-wroclaw']);assert.equal(registry.resolveMedia(milk).images.length,13);assert.equal(milk.media.videos.length,0);

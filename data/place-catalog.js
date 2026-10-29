@@ -25218,6 +25218,712 @@
       "cs"
     ]
   },
+  "gdansk-main-town": {
+    "id": "gdansk-main-town",
+    "localName": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+    "name": {
+      "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+      "en": "Gdańsk Main Town, Długa and the square",
+      "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+      "de": "Danziger Rechtstadt, Długa und Langer Markt",
+      "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+    },
+    "description": {
+      "he": "התחילו בהליכה בין הרחובות והחזיתות של מרכז גדנסק. תמונות הביקור שלנו מציגות את הכיכר, פרטי הבתים והעיר המוארת בערב.",
+      "en": "Explore the streets and decorated facades of central Gdańsk. Our visit photographs show the square, architectural details and the city after dark.",
+      "pl": "Spacer po ulicach i ozdobnych fasadach Głównego Miasta. Nasze zdjęcia pokazują plac, detale kamienic i miasto po zmroku.",
+      "de": "Entdecken Sie Straßen und verzierte Fassaden im Zentrum von Danzig. Unsere Fotos zeigen den Platz, Gebäudedetails und die Stadt am Abend.",
+      "cs": "Projděte ulice a zdobená průčelí centra Gdaňsku. Naše fotografie ukazují náměstí, detaily domů a město po setmění."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "pomeranian",
+      "cityId": "gdansk",
+      "coordinates": {
+        "lat": 54.348546,
+        "lng": 18.653228
+      },
+      "address": {
+        "city": "Gdansk",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sightseeing"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sightseeing"
+      ],
+      "tags": [
+        "gdansk-sopot-malbork-three-day-trip"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visitgdansk.com/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=54.348546,18.653228",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "thumbnail": "/assets/gdansk-sopot-malbork/gdansk-main-town-01.jpg",
+      "photos": [
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-01.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-02.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-03.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-04.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-05.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-06.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-07.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-08.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-09.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-10.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-11.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-12.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-13.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-14.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-15.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-16.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-17.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-18.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/069FBE61-B3DA-4DB1-9C73-0978CD7F086B.JPG",
+          "sourceSHA256": "957ae74280be57d13146deb0e92db90e353d5e8f2033f3656cd9313b0f55f334",
+          "assetSHA256": "f5a8ea56edec89693cc08880a04ebb6702574640e40aca3250652a2048a63ce7",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/2EF73B97-60B7-4CD5-B202-0882D14E0C8B.JPG",
+          "sourceSHA256": "6e0ca161d4156f4c1f61ae34ecc2e8226f4fc0c0e458aae8120ba70cd9b15025",
+          "assetSHA256": "689ec26c27a47cd112732b0654636a246f9673ae27f31a66cbb4235d3077642d",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/34BA7934-54A3-4908-8335-15F389474942.JPG",
+          "sourceSHA256": "a3648faac75ca05ee20b2e68b49bca5d5af1834b94354b5a302b7922ff7b693a",
+          "assetSHA256": "c06724adf1b4e4d4d2812f0fff0c41e1fa5fd86834afba1063195049a47fd0e2",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/578D14B0-C022-4444-9458-0C633F110343.JPG",
+          "sourceSHA256": "98bfc00af18b26a7c9edbae9ec06aee11f671234bc74184301df686384913b88",
+          "assetSHA256": "230a551aca957ec2f9e9a44068be578537d2dae0b23d5c35e0af157ba26b4e4e",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/C20E3BF2-233A-46AC-8257-4237AF2988AC.JPG",
+          "sourceSHA256": "cf0a95a7425bb19897100b3c8d55cfa1a2e4a38b04ca07db290aa3ae093cac09",
+          "assetSHA256": "66ae3b41e16ac2176a30e6e614eb0d5c8ef3717b47205dc540e077ee6c6ac24e",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/E0B77F8D-CC1F-4F8E-BBEE-42BBF1962908.JPG",
+          "sourceSHA256": "f11766ed5b8e17aef06b4118389ca0bec010f037de818caf4ce93287950031f3",
+          "assetSHA256": "3b1402a8aff2535efa1cfe42c3caa621f326fd668a2c2bd8c2e021cd094c4d6e",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5051.JPG",
+          "sourceSHA256": "9ab705cacdc9ecd6634cd17582c8c81ff856dbca62b38497d367be798d407e75",
+          "assetSHA256": "5cd7b4b5b2001d01cd3845ff8d8dc8b1347689bd84861c0014c7f8efec9eacc1",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5102.JPG",
+          "sourceSHA256": "629877b6f5477f858dd0cb4ec7161db9e1b86c046341cba480705dd4b7c882ca",
+          "assetSHA256": "5f78264c9e88a6ecdc1ecca82a599fecf823a6d5e13e7b078bed4ff56ae29a1f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5105.JPG",
+          "sourceSHA256": "e51b4e98e52f31a2a2e5a9dc250cf909952613c774a2e8ebaac7963a2b21e39b",
+          "assetSHA256": "97e82e5c24d7810f5f90754a130eb542d713af98f258efaac5e5b1ec94264454",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5108.JPG",
+          "sourceSHA256": "4181d072e055031e3ae314adb94e8472bcd83ca719cb052d77097f852761900f",
+          "assetSHA256": "9920505eac6db48e383b68707b843df2eccaa1082e3c4551622425b57ca8eb3c",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-11.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5114.JPG",
+          "sourceSHA256": "0f84b0dfe1df407a3542f49487be0858247532ee394aaf1e59a07486075a41ea",
+          "assetSHA256": "857398bf27c9ae69e7124de7be2649c89f2fee5446a539260a6146d1c1da8238",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-12.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5123.JPG",
+          "sourceSHA256": "99d215ca3bf7b4020a8e59f2fa466259abf34a4eefdeff91c61c83c157ce939d",
+          "assetSHA256": "6d6de023b5bdd356ceb9f8448a73d3bd1063b56b279d2cb182eab0cd83552e22",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-13.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5127.JPG",
+          "sourceSHA256": "3918ef2cc34b4c94151961dff6005812847e3477b5ac1cd33f7ffae4aff27806",
+          "assetSHA256": "7ff61718811f216b7bb1d16ea3c26f28c40a69dace33e4d0bc8df96172467b1e",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-14.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5131.JPG",
+          "sourceSHA256": "da018f66d1618d1d6ee6781befe030c0a4405ce41d55c9aaf0cc2d9b797e5cc7",
+          "assetSHA256": "9b01c8dd1d35bc71ae81f52fbc4e6d89c090395f80a47eb06682ce66614c2f55",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-15.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5135.JPG",
+          "sourceSHA256": "1903ffdf7c72d24b6c05b7a5480818149486153b07a46185abed62742f046be9",
+          "assetSHA256": "e17756ab5ecb40aea304572231b30582bc33b52d1cadbbb269a22dbf32128a61",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-16.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5138.JPG",
+          "sourceSHA256": "5352fd7b781bcc8740195926d2a9634864e0b7e2494df4734aef93bf3d5d30fe",
+          "assetSHA256": "0b4fad1a22bf1b01bb5a27ae1c97aea31d5c0433a5a43c6ba7b46a8a6b6a5c03",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-17.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5187.JPG",
+          "sourceSHA256": "54041aab91f938f7b370a023f7a57129101f74fb81847e25e7e043ed67cab8dd",
+          "assetSHA256": "819942e8e249f37564d63a8b57e1055db6c97c7d1c960e840263f8f901c241c6",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-main-town-18.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5188.JPG",
+          "sourceSHA256": "f6c9b7fda32fa4bf8ca7b6ac03db750b4cd3ad57d7740817ca7dc61e2dd4884e",
+          "assetSHA256": "928edb9f78488d3e6f73816238720aa093a1b4d5903e89ad941c716a08ec5ad0",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+            "en": "Gdańsk Main Town, Długa and the square",
+            "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+            "de": "Danziger Rechtstadt, Długa und Langer Markt",
+            "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+          },
+          "reviewedAt": "2026-10-29"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "gdansk-motlawa-riverfront": {
+    "id": "gdansk-motlawa-riverfront",
+    "localName": "Gdańsk nad Motławą",
+    "name": {
+      "he": "גדנסק לאורך המוטלאווה",
+      "en": "Gdańsk along the Motława",
+      "pl": "Gdańsk nad Motławą",
+      "de": "Danzig an der Mottlau",
+      "cs": "Gdaňsk podél Motławy"
+    },
+    "description": {
+      "he": "המשיכו מהמרכז אל גדות המוטלאווה. בגלריה מבטי יום ולילה על הנהר, הגשרים והבתים שמול המים. הסיכה מייצגת את אזור הטיילת, ולא את מקום הצילום המדויק של כל תמונה.",
+      "en": "Continue from the centre to the Motława riverfront. The gallery brings together daytime and evening views of the water, bridges and waterfront buildings. The pin represents the promenade area, not each exact photo position.",
+      "pl": "Z centrum przejdź nad Motławę. Galeria łączy widoki dzienne i wieczorne na wodę, mosty i nadbrzeżną zabudowę. Pinezka wskazuje obszar promenady, nie dokładne miejsce każdego zdjęcia.",
+      "de": "Vom Zentrum geht es an die Mottlau. Die Galerie zeigt Wasser, Brücken und Uferhäuser bei Tag und Abend. Der Kartenpunkt steht für den Uferbereich, nicht für jeden genauen Fotostandort.",
+      "cs": "Z centra pokračujte na nábřeží Motławy. Galerie spojuje denní i večerní pohledy na vodu, mosty a nábřežní domy. Značka představuje oblast promenády, nikoli přesnou polohu každé fotografie."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "pomeranian",
+      "cityId": "gdansk",
+      "coordinates": {
+        "lat": 54.3502,
+        "lng": 18.6571
+      },
+      "address": {
+        "city": "Gdansk",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sightseeing"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sightseeing"
+      ],
+      "tags": [
+        "gdansk-sopot-malbork-three-day-trip"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visitgdansk.com/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=54.3502,18.6571",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "thumbnail": "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-01.jpg",
+      "photos": [
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-01.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-02.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-03.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-04.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-05.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-06.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-07.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-08.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-09.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-10.jpg",
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-11.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/qrd_8Izf9q0"
+      ],
+      "metadata": {
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/542DEA1B-48FE-44D7-B234-C092C361B5F8.JPG",
+          "sourceSHA256": "4b28a7d4ab3b6de3ffb1605ca9e78dbf500ce51123d7bc6f1e1c6f972b3a8ded",
+          "assetSHA256": "05d2421357a8b958a3d18e17737c0fe1700ea99abc3c40a813f604f72c6a5ee8",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5039.JPG",
+          "sourceSHA256": "d6e96ac990d1c19428e791833bd80dc06a17e5b8757a1912bcd1ba54226d9be1",
+          "assetSHA256": "71f3a6dd9c09b80deca5c6fa8b9bdfc822f360448145b3a76ab6e57c0e44ed75",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5043.JPG",
+          "sourceSHA256": "e17837eb031e0394ada585f3e06b157b74aa769a50b201c8cf33a7b7f59176d5",
+          "assetSHA256": "8845e29f8e756331af7b01b1e2224b3d2242ac03a913bca18dd9bf2cdd3348e7",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5049.JPG",
+          "sourceSHA256": "4ec4c2946e9152e734dc9f5549eca1a47bf0f28596d81e17d840d2a6e3594d66",
+          "assetSHA256": "63843c2d030ab8ab90b7cd6b02b2efd7efb395fe143674bb68ba8961876afbe4",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5139.JPG",
+          "sourceSHA256": "92e608d090f80973b4cf0a4369d27448292545be8a96db6a51c3bf05b56b18fe",
+          "assetSHA256": "86b686a74ee13b29cff5bc9090e93d483cc51458302ea06ccfb9b81c2780195b",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5142.JPG",
+          "sourceSHA256": "128c4dafc8c1f012ba5038b09a7d92db1daac719c5343ca16e61122a01e2017e",
+          "assetSHA256": "079de2a9bd7c572f75f13d05da727605733843936add82f768ebeaca1eab6647",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5143.JPG",
+          "sourceSHA256": "db3ee5e850662efbffa2f24163c4650fba15194dd504f165ad975035fbe6573f",
+          "assetSHA256": "03d8d425b5218c917acb05af5bec6c9b8bf7ffc692b111be834cfe88eb0d4211",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5146.JPG",
+          "sourceSHA256": "62a5f70908f26a57a17c6e0b8c189098c4a70c3bb15c1d6d23cbe2631fd070bc",
+          "assetSHA256": "39d4eb627795a1ce2587cd36df5f6a89d8193471a1917c3188260f289b9bb74b",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5195.JPG",
+          "sourceSHA256": "1a1a1ff63222eb02844af5d2b12f8e6e932411c13da323869b40ff681a9b3352",
+          "assetSHA256": "6011b70c9b6090fbd57aa530313bc24746e283491dcb3f8e7c050013790f1491",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5196.JPG",
+          "sourceSHA256": "719ccdd0125b1d92b4c3dc9db407e06cda63cface4af8e70d47a8ac4246301b1",
+          "assetSHA256": "5c9a8ae6696102bc0107d76fc56258febe34a29d2e8d2f3296a4801bc5d7518a",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/gdansk-motlawa-riverfront-11.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5202.JPG",
+          "sourceSHA256": "7b51a436d02a978b574a72f0beb06aa8b0117033bd8dfaaf9ce3fcc08ce1c5ca",
+          "assetSHA256": "c2e53c06d26d0b93c032e3a57ab5d3e0177861338c531185c7500a5d7da9fa17",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "גדנסק לאורך המוטלאווה",
+            "en": "Gdańsk along the Motława",
+            "pl": "Gdańsk nad Motławą",
+            "de": "Danzig an der Mottlau",
+            "cs": "Gdaňsk podél Motławy"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "https://youtube.com/shorts/qrd_8Izf9q0": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/FDC23541-4952-42EE-B12C-10EB8A39D257.MP4",
+          "sourceSHA256": "03433f633141576b619621c9eebcdef2fb6403cf14951a4256d5d29846c980f7",
+          "uploadSHA256": "7420567380e261303d314476c19623d03e3e399d3718b1ab98eedf9c6a62c3a0",
+          "duration": 23.706667,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "reopenedPublicVerified": true,
+          "approvalCall": "call_6b0c6f5b5d9343b8b0289333f6ad9874"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "ghiacci-cafe-poznan": {
     "id": "ghiacci-cafe-poznan",
     "localName": "Ghiacci Cafe",
@@ -41212,6 +41918,309 @@
         "verifiedAt": "2026-10-19T19:58:55.918Z"
       }
     ]
+  },
+  "malbork-castle": {
+    "id": "malbork-castle",
+    "localName": "Zamek w Malborku",
+    "name": {
+      "he": "טירת מלבורק",
+      "en": "Malbork Castle",
+      "pl": "Zamek w Malborku",
+      "de": "Marienburg in Malbork",
+      "cs": "Hrad Malbork"
+    },
+    "description": {
+      "he": "ביום השלישי עוצרים בטירת הלבנים במלבורק לפני הדרך הארוכה חזרה לוורוצלב. תמונות הביקור שלנו מציגות שערים, חומות, חצרות וחללים פנימיים. בדקו כרטיסים, מסלולי ביקור ושעות פתיחה באתר הרשמי, ותכננו מרווח לנסיעה חזרה.",
+      "en": "On day three, stop at Malbork’s brick castle before the long return to Wrocław. Our visit photographs show gates, walls, courtyards and interiors. Check tickets, visitor routes and opening times on the official website and allow time for the journey back.",
+      "pl": "Trzeciego dnia zatrzymaj się w ceglanym zamku w Malborku przed długim powrotem do Wrocławia. Nasze zdjęcia pokazują bramy, mury, dziedzińce i wnętrza. Sprawdź bilety, trasy i godziny na oficjalnej stronie, zostawiając czas na powrót.",
+      "de": "Am dritten Tag besuchen Sie die Backsteinburg in Malbork vor der langen Rückfahrt nach Breslau. Unsere Fotos zeigen Tore, Mauern, Höfe und Innenräume. Tickets, Besuchsrouten und Öffnungszeiten auf der offiziellen Website prüfen und Zeit für die Rückfahrt lassen.",
+      "cs": "Třetí den navštivte cihlový hrad Malbork před dlouhou cestou zpět do Vratislavi. Naše snímky ukazují brány, hradby, nádvoří a interiéry. Vstupenky, prohlídkové trasy a otevírací dobu ověřte na oficiálním webu a ponechte čas na návrat."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "pomeranian",
+      "cityId": "malbork",
+      "coordinates": {
+        "lat": 54.03972,
+        "lng": 19.02778
+      },
+      "address": {
+        "city": "Malbork",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "castles"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "castles"
+      ],
+      "tags": [
+        "gdansk-sopot-malbork-three-day-trip"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://zamek.malbork.pl/en/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=54.03972,19.02778",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "thumbnail": "/assets/gdansk-sopot-malbork/malbork-castle-01.jpg",
+      "photos": [
+        "/assets/gdansk-sopot-malbork/malbork-castle-01.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-02.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-03.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-04.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-07.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-08.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-09.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-10.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-11.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-12.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-13.jpg",
+        "/assets/gdansk-sopot-malbork/malbork-castle-14.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/gdansk-sopot-malbork/malbork-castle-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/07594672-317A-4DDD-9274-59C9309C0A88.JPG",
+          "sourceSHA256": "99c5bab9364d4b0a8fdee421e40256ddc2f7ce6eb8445f193adfddf51b37fb26",
+          "assetSHA256": "abf49114ef561bf5ca2276f4b23defa23faae3dff4ffef5a5f7d51e9d23c89ab",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/428C95F2-65C3-497A-893B-155683D7C894.JPG",
+          "sourceSHA256": "3e8b00127de9bec7144d8ea377e8fc126535578a236c513ec72140987f25b97d",
+          "assetSHA256": "ea1a7e5245ff060e68fdce98a9c88defc68542761450efe247c118dad98268ab",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/449FAD20-963A-40C4-BFB9-B03BB658B72B.JPG",
+          "sourceSHA256": "7220d1091f4b1ad0aa4cb83787711d2a0116cf46cab2be70f3959870eaa3017a",
+          "assetSHA256": "8fac13266520dd9ab01791bbd87f5e762b3198ca948d9536372237776e763903",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/4E4B147B-C8C3-4C9C-BABB-C05D1435C77E.JPG",
+          "sourceSHA256": "a69569dfe6ef064554aa2be1a287de411c3968b87ff996d4345ef65bd05d612d",
+          "assetSHA256": "83a4d34655912a5e77d63239af363c6ca72d20246dcb02c70e19903f1eae6195",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/7DF7E512-78C2-41C3-AB7A-7A63CC88944D.JPG",
+          "sourceSHA256": "4d68bf0cfaf84fc751953380e246581f112fe64463952d8a5d3df143f5d54262",
+          "assetSHA256": "379b18e939628689090a5972d89acb98b32443cfa94b085e73700b9084ba25b6",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/D03171D4-2755-4E96-903E-82D4F384C050.JPG",
+          "sourceSHA256": "ab0047a97344daa3ac0a271b864f3ebe94473df0e1471e4a6b4f5a16c636daa3",
+          "assetSHA256": "4440eba6cb20ca2d8c9acd32d795b0594c54cc5e5ae816902f2012f101bc4223",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5055.JPG",
+          "sourceSHA256": "a402fc8585e856dc5ee0ef17977e2aca40c75c66c4ca49ad22e61e1a061717ac",
+          "assetSHA256": "2207a7b8a67a56a9e91385163c122bd75c4f05dfc2e725e259fc785bff80921a",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5056.JPG",
+          "sourceSHA256": "bd40a54007ce4f189b0c61ffe713e4ce769c979d4a5e43864866ae06322caa83",
+          "assetSHA256": "5ecc1244eb6b87ec2eb65a64e0095d5a60194236a760373c60d07fb7a07b3eac",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-11.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5068.JPG",
+          "sourceSHA256": "d880d112d3d6aab49656499c1e8fa09eb64cc37ed0b8cd9036483014fbb461db",
+          "assetSHA256": "6bfdb0c06d115e30cc272ac5ab31e570f1abfba9606eee18f55b84f5deec6277",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-12.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5069.JPG",
+          "sourceSHA256": "bac30df8e533071a1fa895d76fea160a85352ad25967319a576c233c23a4e1a1",
+          "assetSHA256": "4c31f2314f6d615ef30fa502d6dd5be81f8624abd52f59db6348e1d45d1ced02",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-13.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5074.JPG",
+          "sourceSHA256": "3e5d9f689059f4b66a484e235340f9894d4356367706e7a9cffd13155f58ae54",
+          "assetSHA256": "8ab7c0a5f7373a2d136af91ec811fe06cd653772b75b83974fa9a942bc77a8e5",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/malbork-castle-14.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5076.JPG",
+          "sourceSHA256": "17928bcf43237b9b2cb0282e800a337a8bca135b4648f3753136d25ddd53f153",
+          "assetSHA256": "0a143b5dcb44232aeae9dfb959c56f1a6cff1c1ea0ab5a5691cbdbd87b1bbd3f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "טירת מלבורק",
+            "en": "Malbork Castle",
+            "pl": "Zamek w Malborku",
+            "de": "Marienburg in Malbork",
+            "cs": "Hrad Malbork"
+          },
+          "reviewedAt": "2026-10-29"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "mandarin": {
     "id": "mandarin",
@@ -61960,6 +62969,102 @@
       }
     ]
   },
+  "puro-gdansk-stare-miasto": {
+    "id": "puro-gdansk-stare-miasto",
+    "localName": "PURO Gdańsk, nasza baza na dwie noce",
+    "name": {
+      "he": "מלון פורו גדנסק, בסיס לשני לילות",
+      "en": "PURO Gdańsk, our two-night base",
+      "pl": "PURO Gdańsk, nasza baza na dwie noce",
+      "de": "PURO Gdańsk, unsere Basis für zwei Nächte",
+      "cs": "PURO Gdaňsk, naše základna na dvě noci"
+    },
+    "description": {
+      "he": "כאן לנו שני לילות במהלך הטיול. המלון נמצא באי האסמים, סמוך למרכז ולנהר. הזמינו לינה בנפרד לפי התאריכים והצרכים שלכם.",
+      "en": "We stayed here for two nights on this trip. The hotel is on Granary Island, close to the centre and river. Arrange accommodation separately for your dates and needs.",
+      "pl": "Tutaj nocowaliśmy dwie noce. Hotel leży na Wyspie Spichrzów, blisko centrum i rzeki. Nocleg zarezerwuj osobno na wybrany termin.",
+      "de": "Hier haben wir zwei Nächte verbracht. Das Hotel liegt auf der Speicherinsel nahe Zentrum und Fluss. Unterkunft für Ihre Reisedaten separat buchen.",
+      "cs": "Zde jsme strávili dvě noci. Hotel stojí na ostrově sýpek blízko centra a řeky. Ubytování rezervujte samostatně podle svých termínů."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "pomeranian",
+      "cityId": "gdansk",
+      "coordinates": {
+        "lat": 54.347667,
+        "lng": 18.658691
+      },
+      "address": {
+        "city": "Gdansk",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "hotels"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "hotels"
+      ],
+      "tags": [
+        "gdansk-sopot-malbork-three-day-trip"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://purohotels.com/pl/gdansk/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=54.347667,18.658691",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "photos": [],
+      "videos": [],
+      "metadata": {}
+    },
+    "socialPosts": []
+  },
   "puro-poznan-stare-miasto": {
     "id": "puro-poznan-stare-miasto",
     "localName": "PURO Poznań Stare Miasto",
@@ -66908,6 +68013,256 @@
         "verifiedAt": "2026-10-08T15:20:41.532Z"
       }
     ]
+  },
+  "sopot-seafront": {
+    "id": "sopot-seafront",
+    "localName": "Sopot, plaża i promenada",
+    "name": {
+      "he": "סופוט, החוף והטיילת",
+      "en": "Sopot beach and seafront",
+      "pl": "Sopot, plaża i promenada",
+      "de": "Sopot, Strand und Promenade",
+      "cs": "Sopoty, pláž a promenáda"
+    },
+    "description": {
+      "he": "יום ליד הים מחוץ לגדנסק: הליכה על החוף ובטיילת של סופוט, עם המגדלור ואזור המזח ברקע. הגלריה מתעדת את החוף ואת אזור הטיילת; היא אינה מעידה שעלינו למגדלור או נכנסנו לכל אתר בסביבה.",
+      "en": "A day by the sea outside Gdańsk: walk along Sopot beach and the promenade, with the lighthouse and pier area nearby. Our gallery documents the beach and seafront, without claiming a lighthouse climb or entry to every nearby attraction.",
+      "pl": "Dzień nad morzem poza Gdańskiem: spacer plażą i promenadą Sopotu, w okolicy latarni i molo. Galeria dokumentuje plażę i nadbrzeże, bez deklarowania wejścia na latarnię lub do każdej pobliskiej atrakcji.",
+      "de": "Ein Tag am Meer außerhalb Danzigs: Spaziergang am Strand und auf der Promenade von Sopot, nahe Leuchtturm und Seebrücke. Unsere Galerie dokumentiert Strand und Uferbereich, ohne einen Turmaufstieg oder jeden Eintritt zu behaupten.",
+      "cs": "Den u moře mimo Gdaňsk: procházka po pláži a promenádě v Sopotech poblíž majáku a mola. Galerie dokumentuje pláž a nábřeží, nikoli výstup na maják či vstup do všech okolních atrakcí."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "pomeranian",
+      "cityId": "sopot",
+      "coordinates": {
+        "lat": 54.446,
+        "lng": 18.572
+      },
+      "address": {
+        "city": "Sopot",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "sightseeing"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "draft",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "sightseeing"
+      ],
+      "tags": [
+        "gdansk-sopot-malbork-three-day-trip"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://visit.sopot.pl/en/top-atrakcje",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=54.446,18.572",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "thumbnail": "/assets/gdansk-sopot-malbork/sopot-seafront-01.jpg",
+      "photos": [
+        "/assets/gdansk-sopot-malbork/sopot-seafront-01.jpg",
+        "/assets/gdansk-sopot-malbork/sopot-seafront-02.jpg",
+        "/assets/gdansk-sopot-malbork/sopot-seafront-03.jpg",
+        "/assets/gdansk-sopot-malbork/sopot-seafront-04.jpg",
+        "/assets/gdansk-sopot-malbork/sopot-seafront-05.jpg",
+        "/assets/gdansk-sopot-malbork/sopot-seafront-06.jpg",
+        "/assets/gdansk-sopot-malbork/sopot-seafront-07.jpg",
+        "/assets/gdansk-sopot-malbork/sopot-seafront-09.jpg"
+      ],
+      "videos": [
+        "https://youtube.com/shorts/r9_oPzt1DIc"
+      ],
+      "metadata": {
+        "/assets/gdansk-sopot-malbork/sopot-seafront-01.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/42718CCE-737A-4BBF-ABD8-3BBD0ECF9A4E.JPG",
+          "sourceSHA256": "e2ab96f2ed5bdc161e3ff3808a31e2812d45a4c88eec0bf89689ced7153f25b5",
+          "assetSHA256": "fd8c75ed11bd380e5b0c19353dda08a0991eb6a1c85a1b14c5032bd95ce2112c",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סופוט, החוף והטיילת",
+            "en": "Sopot beach and seafront",
+            "pl": "Sopot, plaża i promenada",
+            "de": "Sopot, Strand und Promenade",
+            "cs": "Sopoty, pláž a promenáda"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/sopot-seafront-02.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/64180E64-926B-4012-B547-D805ACFD1FF2.JPG",
+          "sourceSHA256": "9041136f570dc292e4e854a58785d24a5b3605e1f0c3a515aa7ee495bc08e73a",
+          "assetSHA256": "ee8fc8fee6e9562fa763061b445c579dbbc31ffed9b72bdab7617fcd94499a30",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סופוט, החוף והטיילת",
+            "en": "Sopot beach and seafront",
+            "pl": "Sopot, plaża i promenada",
+            "de": "Sopot, Strand und Promenade",
+            "cs": "Sopoty, pláž a promenáda"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/sopot-seafront-03.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/92B24D18-C6BA-4219-89A6-DE46949B2620.JPG",
+          "sourceSHA256": "89d7ceb7ee47c3276f86ec5c218547bec5cf86d43c2f5b01d86072afeb1cb5cc",
+          "assetSHA256": "af364ea3cbd0a52f2577eb8161201920717cb4ccdf0a646e447dc807e67a0d1a",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סופוט, החוף והטיילת",
+            "en": "Sopot beach and seafront",
+            "pl": "Sopot, plaża i promenada",
+            "de": "Sopot, Strand und Promenade",
+            "cs": "Sopoty, pláž a promenáda"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/sopot-seafront-04.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5077.JPG",
+          "sourceSHA256": "87f7fa7bf63d8c1d8da9e3c446e64c9f9883fa243d16168348b700c9e2f1e9f0",
+          "assetSHA256": "f9e50ab50955e6c87ea6c499f27c043280c8ca43542db97dfb4b66692ccc0932",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סופוט, החוף והטיילת",
+            "en": "Sopot beach and seafront",
+            "pl": "Sopot, plaża i promenada",
+            "de": "Sopot, Strand und Promenade",
+            "cs": "Sopoty, pláž a promenáda"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/sopot-seafront-05.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5078.JPG",
+          "sourceSHA256": "8fdee96d4a86e6a9d78692ef1683ff30712427738d805b2a031d528c09c29720",
+          "assetSHA256": "a8e28220fa759249c95900a65666a55fe01bc1881ab4deb869f004d8fa43e8ad",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סופוט, החוף והטיילת",
+            "en": "Sopot beach and seafront",
+            "pl": "Sopot, plaża i promenada",
+            "de": "Sopot, Strand und Promenade",
+            "cs": "Sopoty, pláž a promenáda"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/sopot-seafront-06.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5084.JPG",
+          "sourceSHA256": "81d86e501002611380a34b0104c8209d9063d1492b6674ef9843e1a2bfa0a99c",
+          "assetSHA256": "b74f81f6ef476cd64eb898cde0b53b4249542ce5e6fab753b7566a171ab1b4be",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סופוט, החוף והטיילת",
+            "en": "Sopot beach and seafront",
+            "pl": "Sopot, plaża i promenada",
+            "de": "Sopot, Strand und Promenade",
+            "cs": "Sopoty, pláž a promenáda"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/sopot-seafront-07.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5086.JPG",
+          "sourceSHA256": "93512bd15703c58501042379d12b3b02a970b924fa817b7d3175adb6baf99355",
+          "assetSHA256": "e22b399c1faddd1477eab41a955c6202b905d794ca3e7b09463bdc2959b3016f",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סופוט, החוף והטיילת",
+            "en": "Sopot beach and seafront",
+            "pl": "Sopot, plaża i promenada",
+            "de": "Sopot, Strand und Promenade",
+            "cs": "Sopoty, pláž a promenáda"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "/assets/gdansk-sopot-malbork/sopot-seafront-09.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/IMG_5090.JPG",
+          "sourceSHA256": "cdbb8cf021bc58c1cba2718c2a9ad28b4fc96e2f396f6f76730b538abfc10910",
+          "assetSHA256": "aa0a89cc14f662a6b7ddd29aa03da813e25f5b6b1a1be3a06a1313e454e94638",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "alt": {
+            "he": "סופוט, החוף והטיילת",
+            "en": "Sopot beach and seafront",
+            "pl": "Sopot, plaża i promenada",
+            "de": "Sopot, Strand und Promenade",
+            "cs": "Sopoty, pláž a promenáda"
+          },
+          "reviewedAt": "2026-10-29"
+        },
+        "https://youtube.com/shorts/r9_oPzt1DIc": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גדנסק ומלבורק/81D770C8-16B9-4422-A1AE-0AE919E95CB6.MP4",
+          "sourceSHA256": "d05d5f4176b1e160bac4d73b6a606ab0fe853d38f7f0fa2c3723b7efbb5e1923",
+          "uploadSHA256": "34cf2660f544667c18cca345e39044f77805310ab7a26364b1d879a43dfc6bcf",
+          "duration": 36.100023,
+          "silent": true,
+          "fullPicturePreserved": true,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "reopenedPublicVerified": true,
+          "approvalCall": "call_6b0c6f5b5d9343b8b0289333f6ad9874"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "srebrna-gora-fortress": {
     "id": "srebrna-gora-fortress",

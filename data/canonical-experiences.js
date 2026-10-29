@@ -504,6 +504,125 @@
   // Coffee venues independently identified from the original visit photographs.
   {const e=experiences.find(x=>x.id==="coffee-lovers-wroclaw");for(const id of ["cocofli-wroclaw","cafe-artzat-wroclaw","caffe-bohema-swidnicka-wroclaw","zenka","jolie-kurzy-targ"]){if(e.relatedCanonicalPlaceIds.includes(id))throw new Error("Duplicate coffee venue");e.relatedCanonicalPlaceIds.push(id);e.media.inheritFromCanonicalPlaceIds.push(id);}}
 
+  experiences.push({
+  "id": "bridges-and-islands-wroclaw",
+  "type": "riverside-exploration",
+  "categories": [
+    "bridges",
+    "islands",
+    "riverside",
+    "photography"
+  ],
+  "name": {
+    "he": "מסע של 102 גשרים מתחיל בגשר אחד",
+    "en": "A journey of 102 bridges begins with one",
+    "pl": "Podróż przez 102 mosty zaczyna się od jednego",
+    "de": "Eine Reise über 102 Brücken beginnt mit einer",
+    "cs": "Cesta přes 102 mostů začíná jediným"
+  },
+  "subtitle": {
+    "he": "גשרים ואיים בוורוצלב",
+    "en": "Bridges and islands in Wrocław",
+    "pl": "Mosty i wyspy Wrocławia",
+    "de": "Brücken und Inseln in Breslau",
+    "cs": "Mosty a ostrovy Vratislavi"
+  },
+  "description": {
+    "he": "ורוצלב מזווית המים: מתחילים בגשר אחד, עוברים בין אי סלודובה, אי החול ואוסטרוב טומסקי, ועוצרים בשביל הנוף. בגלריה מחכים גשרים באור יום ובלילה, השתקפויות, ערפל על הנהר, גדות ירוקות בביסקופין ועצירות בביץ׳ ברים. אפשר לבחור שיטוט קצר במרכז או להמשיך לבילוי ליד המים. זו חוויה גמישה המבוססת על הביקורים שלנו, ולא מסלול חובה של 102 תחנות. מקומות מזוהים מופיעים במפה; תמונות אווירה ללא זיהוי מדויק נשארות בגלריה.",
+    "en": "See Wrocław from the water: begin with one bridge, explore Słodowa Island, Sand Island and Ostrów Tumski, and pause for the view. Our gallery brings together bridges by day and night, reflections, mist over the river, green banks in Biskupin and beach-bar stops. Choose a short central walk or spend longer beside the water. This flexible experience draws on our visits; it is not a compulsory route of 102 stops. Identified places have map pins; atmosphere photographs without a verified exact location stay in the gallery.",
+    "pl": "Wrocław od strony wody: zacznij od jednego mostu, odkryj Wyspę Słodową, Wyspę Piasek i Ostrów Tumski, zatrzymując się dla widoków. Nasza galeria łączy mosty za dnia i nocą, odbicia, mgłę nad rzeką, zielone brzegi na Biskupinie i postoje w beach barach. Wybierz krótki spacer w centrum albo dłuższy odpoczynek nad wodą. To elastyczny pomysł oparty na naszych wizytach, nie obowiązkowa trasa ze 102 przystankami. Rozpoznane miejsca mają pinezki; zdjęcia klimatu bez pewnej lokalizacji pozostają w galerii.",
+    "de": "Breslau vom Wasser aus: Beginnen Sie an einer Brücke und entdecken Sie die Słodowa-Insel, die Sandinsel und Ostrów Tumski. Unsere Galerie zeigt Brücken bei Tag und Nacht, Spiegelungen, Flussnebel, grüne Ufer in Biskupin und Pausen an Beachbars. Wählen Sie einen kurzen Spaziergang im Zentrum oder mehr Zeit am Wasser. Das Erlebnis beruht auf unseren Besuchen und ist keine verpflichtende Route mit 102 Stationen. Identifizierte Orte erhalten Kartenpunkte; Stimmungsbilder ohne gesicherten genauen Standort bleiben in der Galerie.",
+    "cs": "Vratislav od vody: začněte u jednoho mostu, objevujte ostrov Słodowa, Písečný ostrov a Ostrów Tumski a zastavujte se kvůli výhledům. Galerie spojuje mosty ve dne i v noci, odrazy, mlhu nad řekou, zelené břehy v Biskupinu a zastávky v plážových barech. Vyberte si krátkou procházku centrem nebo delší pobyt u vody. Zážitek vychází z našich návštěv, nejde o povinnou trasu se 102 zastávkami. Ověřená místa mají značky na mapě; atmosférické fotografie bez přesné ověřené polohy zůstávají v galerii."
+  },
+  "relatedCanonicalPlaceIds": [
+    "most-pomorski-poludniowy-wroclaw",
+    "slodowa",
+    "most-piaskowy",
+    "wyspa-piasek",
+    "most-tumski",
+    "ostrow",
+    "dunikowski"
+  ],
+  "productRefs": [],
+  "mapPoints": [],
+  "social": [],
+  "media": {
+    "hero": {
+      "src": "/assets/experiences/bridges-islands/river-01.jpg"
+    },
+    "images": [
+      "/assets/experiences/bridges-islands/river-01.jpg",
+      "/assets/experiences/bridges-islands/river-02.jpg",
+      "/assets/experiences/bridges-islands/river-03.jpg",
+      "/assets/experiences/bridges-islands/river-04.jpg",
+      "/assets/experiences/bridges-islands/river-05.jpg",
+      "/assets/experiences/bridges-islands/river-06.jpg",
+      "/assets/experiences/bridges-islands/river-07.jpg",
+      "/assets/experiences/bridges-islands/river-08.jpg",
+      "/assets/experiences/bridges-islands/river-09.jpg",
+      "/assets/experiences/bridges-islands/river-10.jpg",
+      "/assets/experiences/bridges-islands/river-11.jpg",
+      "/assets/experiences/bridges-islands/river-12.jpg",
+      "/assets/experiences/bridges-islands/river-13.jpg",
+      "/assets/experiences/bridges-islands/river-14.jpg",
+      "/assets/experiences/bridges-islands/river-15.jpg",
+      "/assets/experiences/bridges-islands/river-16.jpg",
+      "/assets/experiences/bridges-islands/river-17.jpg",
+      "/assets/experiences/bridges-islands/river-18.jpg",
+      "/assets/experiences/bridges-islands/river-19.jpg",
+      "/assets/experiences/bridges-islands/river-20.jpg",
+      "/assets/experiences/bridges-islands/river-21.jpg",
+      "/assets/experiences/bridges-islands/river-22.jpg",
+      "/assets/experiences/bridges-islands/river-23.jpg",
+      "/assets/experiences/bridges-islands/river-24.jpg",
+      "/assets/experiences/bridges-islands/river-25.jpg",
+      "/assets/experiences/bridges-islands/river-26.jpg",
+      "/assets/experiences/bridges-islands/river-27.jpg",
+      "/assets/experiences/bridges-islands/river-28.jpg",
+      "/assets/experiences/bridges-islands/river-29.jpg",
+      "/assets/experiences/bridges-islands/river-30.jpg",
+      "/assets/experiences/bridges-islands/river-31.jpg",
+      "/assets/experiences/bridges-islands/river-32.jpg",
+      "/assets/experiences/bridges-islands/river-33.jpg",
+      "/assets/experiences/bridges-islands/river-34.jpg",
+      "/assets/experiences/bridges-islands/river-35.jpg",
+      "/assets/experiences/bridges-islands/river-36.jpg"
+    ],
+    "inheritPhotos": false,
+    "inheritFromCanonicalPlaceIds": [
+      "most-pomorski-poludniowy-wroclaw",
+      "slodowa",
+      "most-piaskowy",
+      "wyspa-piasek",
+      "most-tumski",
+      "ostrow",
+      "dunikowski"
+    ],
+    "inheritSocial": true
+  },
+  "metadata": {
+    "curatedAt": "2026-10-29",
+    "provenanceFile": "/data/bridges-islands-media-provenance.json",
+    "titleNumberIsEditorial": true,
+    "pinPolicy": "Reuse existing canonical places only. No invented beach-bar or Biskupin pins.",
+    "relatedExperienceIds": [
+      "beach-bars-and-waterside-summer"
+    ],
+    "sourceLibraryFolders": [
+      "Biskupin Summer",
+      "Kepa Mieszczanska",
+      "Venice of the North",
+      "Wille Biskupin",
+      "Wyspa Slodowa",
+      "Zwierzyniecki Bridge",
+      "אי החול",
+      "בדרכים",
+      "דוברה פשישטן ביץ׳ בר",
+      "מרחבים עירוניים"
+    ]
+  }
+});
+
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
   const getExperience = (id) => byId[id] || null;
   const forProduct = (productId) => experiences.filter((experience) => experience.productRefs.includes(productId));
@@ -516,7 +635,7 @@
     const social = [...(experience.social || [])];
     for (const placeId of experience.media?.inheritFromCanonicalPlaceIds || []) {
       const place = window.WROC_CATALOG?.getPlace?.(placeId);
-      images.push(...(place?.media?.photos || []));
+      if (experience.media?.inheritPhotos !== false) images.push(...(place?.media?.photos || []));
       videos.push(...(place?.media?.videos || []));
       if (experience.media?.inheritSocial) {
         social.push(...(place?.socialPosts || []).map((post) => ({ ...post, sourceCanonicalPlaceId: placeId })));
