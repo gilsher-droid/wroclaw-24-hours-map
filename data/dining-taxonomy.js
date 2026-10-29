@@ -41,7 +41,19 @@
   'vegan-options':t('מקום מעורב עם אפשרויות טבעוניות','Mixed venue with vegan options','Lokal mieszany z opcjami wegańskimi','Gemischtes Lokal mit veganen Optionen','Smíšený podnik s veganskými možnostmi'),
   'vegetarian-options':t('מקום מעורב עם אפשרויות צמחוניות','Mixed venue with vegetarian options','Lokal mieszany z opcjami wegetariańskimi','Gemischtes Lokal mit vegetarischen Optionen','Smíšený podnik s vegetariánskými možnostmi')
  };
- const quickCategories={all:t('הכול','All','Wszystko','Alle','Vše'),eat:t('אוכל','Food','Jedzenie','Essen','Jídlo'),coffee:t('קפה','Coffee','Kawa','Kaffee','Káva'),drink:t('שתייה','Drinks','Napoje','Getränke','Nápoje'),museums:t('מוזיאונים','Museums','Muzea','Museen','Muzea'),sights:t('מה לראות','Things to see','Co zobaczyć','Sehenswertes','Co vidět')};
+ const quickCategories={all:t('הכול','All','Wszystko','Alle','Vše'),eat:t('אוכל','Food','Jedzenie','Essen','Jídlo'),coffee:t('קפה','Coffee','Kawa','Kaffee','Káva'),drink:t('ברים ובילוי','Bars and nightlife','Bary i życie nocne','Bars und Nachtleben','Bary a noční život'),museums:t('מוזיאונים','Museums','Muzea','Museen','Muzea'),sights:t('מה לראות','Things to see','Co zobaczyć','Sehenswertes','Co vidět'),
+  parks:t('פארקים וטבע','Parks and nature','Parki i przyroda','Parks und Natur','Parky a příroda'),
+  waterside:t('ליד המים','By the water','Nad wodą','Am Wasser','U vody'),
+  dwarfs:t('גמדים','Dwarfs','Krasnale','Zwerge','Trpaslíci'),
+  shopping:t('קניות ושווקים','Shopping and markets','Zakupy i targi','Einkaufen und Märkte','Nákupy a trhy'),
+  heritage:t('תרבות והיסטוריה','Culture and history','Kultura i historia','Kultur und Geschichte','Kultura a historie')};
+ const primaryCategories=['all','eat','coffee','drink','museums','sights'];
+ const moreCategoriesLabel=t('קטגוריות נוספות','More categories','Więcej kategorii','Weitere Kategorien','Další kategorie');
+ // Exact existing canonical IDs, not a name/keyword guess (e.g. Krasnal Hostel is not a dwarf sight).
+ const radarLegend=t('הטבעות מציינות מרחק ממרכז החיפוש. הסמל מציין את סוג המקום והמספר תואם לרשימה.','Rings show distance from the search centre. Symbols show place types; numbers match the list.','Kręgi pokazują odległość od środka wyszukiwania. Symbole oznaczają typ miejsca, a numery odpowiadają liście.','Ringe zeigen die Entfernung vom Suchmittelpunkt. Symbole zeigen Ortsarten; Nummern entsprechen der Liste.','Kruhy ukazují vzdálenost od středu hledání. Symboly označují typ místa, čísla odpovídají seznamu.');
+ const dwarfPlaces=['papa','dwarf-info'];
+ const beachBars=['dobra-przystan-beach-bar-wroclaw','prosto-z-mostu-beach-bar-wroclaw'];
+ const barPlaces=[...beachBars,'haggis-pub-wroclaw','szkocka-cocktail-bar','browar-stu-mostow','bistro-stu-mostow','taproom-stu-mostow','concept-stu-mostow','pestka-bistro-wine-bar','pijalni-wino-bistro','bernard-bistro-wino'];
  function dietaryMatch(place,filter='all'){
   if(filter==='all')return true;
   const d=place.dining?.dietary||{},vegan=d.venue==='vegan',vegetarian=vegan||d.venue==='vegetarian';
@@ -53,7 +65,13 @@
   if(category==='all')return true;
   if(category==='eat')return has(['eat','food','dessert','restaurant'])||kind(['restaurant','bakery','patisserie','ice-cream','food-hall','market','milk-bar','takeaway']);
   if(category==='coffee')return has(['cafe','coffee'])||kind(['cafe','chocolate-cafe']);
-  if(category==='drink')return has(['drink'])||kind(['bar','wine-bar','pub','beach-bar','tea-room','cafe']);
+  if(category==='drink')return barPlaces.includes(p.id)||has(['bar','pub','wine-bar','nightlife','beach-bar'])||kind(['bar','wine-bar','pub','beach-bar']);
+  if(category==='parks')return has(['nature','park','parks','garden','urban-nature']);
+  // Drinking-water refill taps are amenities, not waterside leisure destinations.
+  if(category==='waterside')return beachBars.includes(p.id)||has(['river','bridge','island','lake','waterfront'])||kind(['beach-bar']);
+  if(category==='dwarfs')return dwarfPlaces.includes(p.id)||has(['dwarf','dwarfs','gnome','gnomes']);
+  if(category==='shopping')return has(['shopping','buy','market'])||kind(['market']);
+  if(category==='heritage')return has(['culture','history','heritage','architecture','architecture-design','historical-landmark','historical-site','church','religion','religious-heritage','remembrance','monument','castle','castles','museum','museums-history','art','gallery','public-art','street-art','theatre','music-opera','unesco-world-heritage','wooden-architecture','historic-square']);
   if(category==='museums')return has(['museum','museums','museums-history']);
   if(category==='sights')return has(['culture','art','architecture','architecture-design','historical-landmark','sightseeing','nature','park','parks','monument','landmark','viewpoint','religion','attraction','enjoy','history','heritage','city','bridge','island','square','waterfront','garden','castle','castles','church','city-center','city-centre','area','gallery','historic-square','historical-site','lake','public-art','religious-heritage','remembrance','river','scenic-viewpoint','street-art','unesco-world-heritage','urban-nature','walk','water','wooden-architecture','zoo']);
   return false;
@@ -62,5 +80,5 @@
   return categoryMatch(place,category)&&(venueType==='all'||place.dining?.venueTypes?.includes(venueType))&&(cuisine==='all'||place.dining?.cuisines?.includes(cuisine))&&dietaryMatch(place,preference);
  }
  const label=(dictionary,id,lang='en')=>dictionary[id]?.[lang]||dictionary[id]?.en||'';
- window.WROC_DINING=Object.freeze({version:1,venueTypes,cuisines,dietary,quickCategories,dietaryMatch,categoryMatch,matches,label});
+ window.WROC_DINING=Object.freeze({version:1,venueTypes,cuisines,dietary,quickCategories,primaryCategories,moreCategoriesLabel,radarLegend,dietaryMatch,categoryMatch,matches,label});
 })();
