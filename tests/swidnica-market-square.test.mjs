@@ -27,7 +27,7 @@ test("Świdnica Market Square is a complete canonical excursion place", () => {
   );
   assert.deepEqual(Object.keys(place.name).sort(), ["cs", "de", "en", "he", "pl"]);
   assert.deepEqual(Object.keys(place.description).sort(), ["cs", "de", "en", "he", "pl"]);
-  assert.equal(place.media.photos.length, 11);
+  assert.equal(place.media.photos.length, 12);
   assert.equal(place.media.videos.length, 0);
   assert.ok(place.links.navigation.googleMaps);
   assert.ok(place.links.navigation.appleMaps);
@@ -40,14 +40,14 @@ test("Świdnica Market Square is a complete canonical excursion place", () => {
     const sha256 = createHash("sha256").update(asset).digest("hex");
     assert.equal(metadata.assetSHA256, sha256, `${photo} must match its source hash`);
     assert.equal(metadata.originalFullPicturePreserved, true);
-    if(metadata.specificPersonalApproval)assert.equal(metadata.sourceSHA256,"36d446fdd7ec1bd81af960a10175f2871c1b7e229e398eb0d6d6a182e804658c");
+    if(metadata.specificPersonalApproval)assert.ok(["36d446fdd7ec1bd81af960a10175f2871c1b7e229e398eb0d6d6a182e804658c","6582b19791863f14c3d03781b6e94438dd1f64509982cf7117b1bc85907506dc"].includes(metadata.sourceSHA256));
     assert.ok(metadata.alt.he);
     assert.ok(metadata.alt.en);
   }
 
   const excluded = place.provenance.excludedSourceFiles.map((item) => item.file);
   assert.ok(!excluded.includes("0FEB3F35-5617-414B-8E30-89A96D53B2CF.JPG"));
-  assert.ok(excluded.includes("IMG_2796.JPG"));
+  assert.ok(!excluded.includes("IMG_2796.JPG"));
   assert.ok(excluded.includes("IMG_2798.JPG"));
   assert.ok(excluded.includes("IMG_2799.JPG"));
 });
