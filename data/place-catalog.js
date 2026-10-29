@@ -1744,7 +1744,38 @@
         "language": "he",
         "context": "community-group"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant",
+        "cafe",
+        "bar"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://archeklasztorwroclaw.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.cafe",
+            "venueTypes.bar"
+          ],
+          "claim": "The official hotel site explicitly lists an on-site restaurant, cafés and bar in this same complex. The canonical place remains the whole hotel complex, not three new businesses."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "art-hotel": {
     "id": "art-hotel",
@@ -2677,7 +2708,34 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://atoramen.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official restaurant website lists ramen and the Wrocław Odrzańska branch. Cuisine and dietary labels await explicit menu evidence."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only listed fields are verified. Remaining dietary attributes are unknown; check current choices directly with the venue."
+      }
+    }
   },
   "aula": {
     "id": "aula",
@@ -3206,7 +3264,34 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02xyMb1aYqh9iydLc6Fa1zNRbKGinCwxwUVqei6mwfGKNozLkofnMxn4SqVCVB9Nw5l&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "milk-bar"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "verifiedAt": "2026-10-29",
+          "kind": "municipal-original-reporting",
+          "fields": [
+            "venueTypes.milk-bar"
+          ],
+          "claim": "Municipal original reporting explicitly identifies this exact branch as a milk bar. Historical menus are not evidence of current dietary availability."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "bar-mleczny-mewa-wroclaw": {
     "id": "bar-mleczny-mewa-wroclaw",
@@ -3482,7 +3567,34 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "milk-bar"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "verifiedAt": "2026-10-29",
+          "kind": "municipal-original-reporting",
+          "fields": [
+            "venueTypes.milk-bar"
+          ],
+          "claim": "Municipal original reporting explicitly identifies this exact branch as a milk bar. Historical menus are not evidence of current dietary availability."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "barbara-wroclaw": {
     "id": "barbara-wroclaw",
@@ -3860,7 +3972,26 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Operator page describes the cultural institution but did not expose a current café menu or food operator in readable text. Do not assign the Figa partner to the whole institution without explicit evidence. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://instytutkultury.pl/barbara/"
+      }
+    }
   },
   "bastion": {
     "id": "bastion",
@@ -4694,7 +4825,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zvpqn8yjryjRq2xEo6ELWVTHa8iWEycp2sNWUq9SAUKDUDpbCGmhR7Zu9MycoSDNl&id=61595036942289",
         "verifiedAt": "2026-10-08"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "bielsko-barlickiego-street": {
     "id": "bielsko-barlickiego-street",
@@ -5771,7 +5919,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hon5wHB4CFnKYJBLB3y1KadmAJ7FF8FXFgq97YgRMiAVW5aviXqE892szGAu9Ns9l&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "boguslawskiego": {
     "id": "boguslawskiego",
@@ -6209,7 +6374,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as street, not a single food venue. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "boleslawiec-ceramics-museum": {
     "id": "boleslawiec-ceramics-museum",
@@ -8906,7 +9088,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as shopping complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "browar-stu-mostow": {
     "id": "browar-stu-mostow",
@@ -9038,7 +9237,24 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02RF4BwBsVtwczg1zz1enaqkMrpvWfW6ng6i4Yzb3oDShwshjLAHhU2YoJJR2S6P2Sl&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "bru-coffee-bakehouse-wroclaw": {
     "id": "bru-coffee-bakehouse-wroclaw",
@@ -9205,7 +9421,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "brzeg-castle": {
     "id": "brzeg-castle",
@@ -10849,7 +11082,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "cafe-artzat-wroclaw": {
     "id": "cafe-artzat-wroclaw",
@@ -11032,7 +11282,34 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://artzatcafe.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe"
+          ],
+          "claim": "Official café identifies Malarska 30 and coffee service. Dietary details are not verified."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "cafe-berg-wroclaw": {
     "id": "cafe-berg-wroclaw",
@@ -11443,7 +11720,34 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://cafe-berg.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe"
+          ],
+          "claim": "Official business describes a café at Piotra Skargi/Podwale serving coffee. Dietary details are not verified."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "cafe-lyk-wroclaw": {
     "id": "cafe-lyk-wroclaw",
@@ -11869,7 +12173,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "cafe-targowa": {
     "id": "cafe-targowa",
@@ -12095,7 +12416,24 @@
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtkTiEf4g/",
         "verifiedAt": "2026-10-10T18:20:18.968Z"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "caffe-bohema-swidnicka-wroclaw": {
     "id": "caffe-bohema-swidnicka-wroclaw",
@@ -12282,7 +12620,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "caffe-da-vinci-poznan": {
     "id": "caffe-da-vinci-poznan",
@@ -12394,7 +12749,36 @@
       "videos": [],
       "metadata": {}
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://caffedavinci.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "Owner-maintained Plac Wolności 10 Poznań page identifies a café and takeaway. The Italian business name does not establish cuisine."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "cathedral": {
     "id": "cathedral",
@@ -13105,7 +13489,36 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://centralcafe.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "The owner-maintained page identifies Café & Deli at Świętego Antoniego 10, serving breakfast, bagels and takeaway. No dietary or cuisine inference."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "central-cafe-nadodrze": {
     "id": "central-cafe-nadodrze",
@@ -13312,7 +13725,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "charlotte": {
     "id": "charlotte",
@@ -13847,7 +14277,45 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant",
+        "cafe",
+        "bakery",
+        "wine-bar"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "verified",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://bistrocharlotte.com/pl/lokale/charlotte-pasaz-pokoyhof-wroclaw/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.cafe",
+            "venueTypes.bakery",
+            "venueTypes.wine-bar",
+            "cuisines.french",
+            "dietary.venue",
+            "dietary.veganOptions"
+          ],
+          "claim": "Official branch page describes wine service, pastries and French dishes; the menu explicitly labels two vegan tartines alongside meat dishes."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "charlotte-poznan-krysiewicza": {
     "id": "charlotte-poznan-krysiewicza",
@@ -14207,7 +14675,45 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant",
+        "cafe",
+        "bakery",
+        "wine-bar"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "verified",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://bistrocharlotte.com/pl/lokale/charlotte-krysiewicza-poznan/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.cafe",
+            "venueTypes.bakery",
+            "venueTypes.wine-bar",
+            "cuisines.french",
+            "dietary.venue",
+            "dietary.veganOptions"
+          ],
+          "claim": "Exact Poznań branch page describes French bistro, fresh bread and wine; its current linked menu explicitly labels vegan tartines alongside meat dishes. This is branch-specific evidence, not copied Wrocław assumptions."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "chatka": {
     "id": "chatka",
@@ -14515,7 +15021,37 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "polish"
+      ],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://chatkaprzyjatkach.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.polish"
+          ],
+          "claim": "The owner identifies Chatka at Odrzańska 6-7 as a restaurant serving traditional Polish food. No dietary claims inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "chinkalnia-bielsko-rynek": {
     "id": "chinkalnia-bielsko-rynek",
@@ -14724,7 +15260,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "bielsko-biala"
+      }
+    }
   },
   "church-of-peace-swidnica": {
     "id": "church-of-peace-swidnica",
@@ -15245,7 +15798,26 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Official site returned a server error during this review. No new dietary or type assertion made from photographs. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://cocofli.pl/"
+      }
+    }
   },
   "concept-stu-mostow": {
     "id": "concept-stu-mostow",
@@ -15379,7 +15951,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid023M3xjbhTjCLzVAhZMwQXxqypHqanZWvjSA3uBHsgPEFvVoFxTBkA2TnPFmg8GLE2l&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "concordia-taste": {
     "id": "concordia-taste",
@@ -15507,7 +16096,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0BCTZ4iCicyFMentbHXFyC9HnzuGLc7DsfKsag4eK96ZieqL7FmuHrRSAFdCPQqCil&id=61595036942289",
         "verifiedAt": "2026-10-08"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "copernicus-park-wroclaw": {
     "id": "copernicus-park-wroclaw",
@@ -16200,7 +16806,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "czocha-castle": {
     "id": "czocha-castle",
@@ -18532,7 +19155,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "dobra-paczkarnia-kuznicza": {
     "id": "dobra-paczkarnia-kuznicza",
@@ -18696,7 +19336,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "dobra-przystan-beach-bar-wroclaw": {
     "id": "dobra-przystan-beach-bar-wroclaw",
@@ -19052,7 +19709,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "domek-nad-fosa-wroclaw": {
     "id": "domek-nad-fosa-wroclaw",
@@ -19387,7 +20061,26 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Readable owner page confirms location and links image menus, but did not provide sufficient explicit type or dietary text for new structured assertions. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://domeknadfosa.pl/"
+      }
+    }
   },
   "dominikan": {
     "id": "dominikan",
@@ -19759,7 +20452,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as shopping complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "doubletree": {
     "id": "doubletree",
@@ -21119,7 +21829,26 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Official site currently exposes the coffee roastery/shop, but the readable page did not verify café service at this exact Odrzańska branch. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://elgatocoffee.pl/"
+      }
+    }
   },
   "elizabeth": {
     "id": "elizabeth",
@@ -21411,7 +22140,38 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "french"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://entrehotel.pl/restauracja/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.french",
+            "dietary.venue"
+          ],
+          "claim": "Official Entre restaurant page describes French classics, meat, fish and seafood. The restaurant identity remains separate from the hotel identity."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "entre-hotel-wroclaw": {
     "id": "entre-hotel-wroclaw",
@@ -22053,7 +22813,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as shopping complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "fc-caffe-kuznicza": {
     "id": "fc-caffe-kuznicza",
@@ -22374,7 +23151,36 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02TYquxkNpuUYj6BiAGjwKWdK4mW6GKBYigGK6NSZET4W6yY3Y4viymUoqZNkWZip7l&id=61591964083308",
         "verifiedAt": "2026-10-19T19:57:50.623Z"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://fccaffe.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "Owner-maintained exact Kuźnicza 30 page identifies a café with breakfast, cakes and takeaway."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "figa-w-barbarze": {
     "id": "figa-w-barbarze",
@@ -22496,7 +23302,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02W9mQuYTxAB4VmZzvHYQT6HCXVXAYtGoXABEki1ymm8KQyZXPRkJ8rRmLBm1QUfSbl&id=61595036942289",
         "verifiedAt": "2026-10-08"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "foodfort-poznan": {
     "id": "foodfort-poznan",
@@ -22660,7 +23483,38 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "international"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://foodfort.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.international",
+            "dietary.venue"
+          ],
+          "claim": "Owner describes the Poznań restaurant with international inspirations and meat and fish dishes."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "forum-kulinarne-wroclaw": {
     "id": "forum-kulinarne-wroclaw",
@@ -22828,7 +23682,38 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "mediterranean"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://forumkulinarne.eu/en/home-page/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.mediterranean",
+            "dietary.venue"
+          ],
+          "claim": "The official restaurant homepage identifies its restaurant and embedded owner profile describes Mediterranean cuisine and meat dishes. No dietary certification is inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "fountain": {
     "id": "fountain",
@@ -25216,7 +26101,44 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "vegetarian",
+        "veganOptions": "verified",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.frytkiisos.com/faq",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.takeaway",
+            "dietary.venue"
+          ],
+          "claim": "Official FAQ states the entire concept is vegetarian and uses plant oils."
+        },
+        {
+          "url": "https://www.frytkiisos.com/sklep",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "dietary.veganOptions"
+          ],
+          "claim": "Official sauce shop explicitly offers vegan mayonnaise; FAQ confirms plant-oil fries. Confirm the current sauce selection on site."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only listed fields are verified. Remaining dietary attributes are unknown; check current choices directly with the venue."
+      }
+    }
   },
   "gdansk-main-town": {
     "id": "gdansk-main-town",
@@ -26110,7 +27032,36 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://ghiacci-cafe.eatbu.com/?lang=en",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "Owner-maintained Poznań page describes café, breakfast, lunch and takeaway. Serving ice cream alone does not change the entire venue into a dedicated ice-cream shop."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "glowny": {
     "id": "glowny",
@@ -27063,7 +28014,24 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02rLPadB7HBxuTbmmmxqH59ZwPt1pzrbyFFDmh29966VgbJwfbRHJK4Y1ATGcat5WJl&id=61591964083308",
         "verifiedAt": "2026-10-09T13:36:48.778Z"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "gustaw-restaurant-wroclaw": {
     "id": "gustaw-restaurant-wroclaw",
@@ -27225,7 +28193,26 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Official website timed out during this review. Old canonical prose is not new field-specific verification. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://restauracjagustaw.pl/"
+      }
+    }
   },
   "haggis-pub-wroclaw": {
     "id": "haggis-pub-wroclaw",
@@ -27384,7 +28371,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "hala": {
     "id": "hala",
@@ -28499,7 +29503,24 @@
         "platform": "facebook",
         "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "henryk-tomaszewski-theatre-museum": {
     "id": "henryk-tomaszewski-theatre-museum",
@@ -29620,7 +30641,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0386hN2g7MfHEqhLwd1s9fk1JudND2nkHLo5BK7AkV4h33H8oaHZrBcJJD583fbEXFl&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "ida-kuchnia-i-wino": {
     "id": "ida-kuchnia-i-wino",
@@ -29742,7 +30780,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbnMpXj2iU7LYbQRSS4hQG7jPBNuJ9WpCfiwmrostKWpM38Hr8WgjiuNJVZwfiaVl&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "india-concept-wroclaw": {
     "id": "india-concept-wroclaw",
@@ -29961,7 +31016,40 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "indian"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "verified",
+        "vegetarianOptions": "verified"
+      },
+      "evidence": [
+        {
+          "url": "https://indiaconcept.pl/wp-content/uploads/2026/10/MENU-IC-081025-4.pdf",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.indian",
+            "dietary.venue",
+            "dietary.veganOptions",
+            "dietary.vegetarianOptions"
+          ],
+          "claim": "Current linked official menu identifies Indian food, meat and vegetarian versions and a separate VEGAN section. No prices or hours imported."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "japanese": {
     "id": "japanese",
@@ -32660,7 +33748,24 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "jolie-plac-solny": {
     "id": "jolie-plac-solny",
@@ -32787,7 +33892,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "joyinn-aparthotel-wroclaw": {
     "id": "joyinn-aparthotel-wroclaw",
@@ -33088,7 +34210,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hT8u9jtYttmRQBPptwyFTsgoeF6wwhdjXngWDEUqvmM5owEnx7qMoZiecy5WeFNol&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "kaplica-czaszek-czermna": {
     "id": "kaplica-czaszek-czermna",
@@ -33489,7 +34628,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "karpacz-centre": {
     "id": "karpacz-centre",
@@ -35235,7 +36391,24 @@
         "url": "https://www.instagram.com/p/DeqytQdDobT/",
         "verifiedAt": "2026-10-19T08:08:27.769Z"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "kepa-mieszczanska-wroclaw": {
     "id": "kepa-mieszczanska-wroclaw",
@@ -37704,7 +38877,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "korona-hotel": {
     "id": "korona-hotel",
@@ -38081,7 +39271,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as shopping complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "ksiaz-castle": {
     "id": "ksiaz-castle",
@@ -38671,7 +39878,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "lesnianska-dam": {
     "id": "lesnianska-dam",
@@ -39592,7 +40816,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as urban shopping and leisure complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "lodz"
+      }
+    }
   },
   "lodz-old-market": {
     "id": "lodz-old-market",
@@ -40860,7 +42101,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "lwia-brama-restaurant-wroclaw": {
     "id": "lwia-brama-restaurant-wroclaw",
@@ -41143,7 +42401,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "magnolia": {
     "id": "magnolia",
@@ -41496,7 +42771,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as shopping complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "mala-czarna-paderewskiego": {
     "id": "mala-czarna-paderewskiego",
@@ -41917,7 +43209,26 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid08GXvwtRufwM6xWhzoXWYHCG7LXVLV23FCECCvWe6oZBmD6qhv9dHvK3j6uQrdcMYl&id=61591964083308",
         "verifiedAt": "2026-10-19T19:58:55.918Z"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Official site currently describes a Wrocław roastery and online shop. That does not by itself classify the exact Paderewskiego café. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://malaczarna.coffee/"
+      }
+    }
   },
   "malbork-castle": {
     "id": "malbork-castle",
@@ -42347,7 +43658,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "mania-al-taglio-kuznicza": {
     "id": "mania-al-taglio-kuznicza",
@@ -42630,7 +43958,40 @@
         "url": "https://www.instagram.com/p/DeqyXcQFTYZ/",
         "verifiedAt": "2026-10-19T08:05:13.867Z"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant",
+        "takeaway"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://mania.pizza/zamow/kuznicza/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.takeaway",
+            "cuisines.italian",
+            "dietary.venue"
+          ],
+          "claim": "Official Kuźnicza page describes Italian pizza by the slice, cured meats and cheeses."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only listed fields are verified. Remaining dietary attributes are unknown; check current choices directly with the venue."
+      }
+    }
   },
   "marietta-focacceria-wroclaw": {
     "id": "marietta-focacceria-wroclaw",
@@ -42798,7 +44159,48 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "takeaway",
+        "bakery"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.marietta.ooo/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.takeaway",
+            "venueTypes.bakery",
+            "cuisines.italian"
+          ],
+          "claim": "Official Wrocław branch describes fresh focaccia and Italian street food. No dietary category inferred from sandwich ingredients."
+        },
+        {
+          "url": "https://www.marietta.ooo/index.php/menu/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "dietary.venue"
+          ],
+          "claim": "Official menu for Szewska 74 includes several meat fillings. Vegetarian and vegan certification remains unverified."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "marina": {
     "id": "marina",
@@ -43396,7 +44798,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0uCpv42ascnUzWqKyXDaK7tDmJey9vhajFuTub9zN7Zndsqx9Hrd7AgnfG3TGXQdJl&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "meatologia-wlodkowica": {
     "id": "meatologia-wlodkowica",
@@ -43516,7 +44935,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0RXL3ScE5f6UtB37ESFWnKGJR99se59txNyVbsXbfaptwa11nwq5QupHLYLQTiiYel&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "meatologia-zwycieska": {
     "id": "meatologia-zwycieska",
@@ -43636,7 +45072,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0HQrNKWpzEydkQ1idYomGycwPU7yFFzwA8NRhgY1bLSsfYt2qqpqAfLCM5KqyN7Eql&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "monopol": {
     "id": "monopol",
@@ -47584,7 +49037,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "national-museum": {
     "id": "national-museum",
@@ -48898,7 +50368,41 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant",
+        "cafe",
+        "bar"
+      ],
+      "cuisines": [
+        "international"
+      ],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://purohotels.com/pl/poznan/restauracja/restauracja-nifty/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.cafe",
+            "venueTypes.bar",
+            "cuisines.international"
+          ],
+          "claim": "Official hotel page explicitly describes Nifty in Poznań as restaurant, café and bar with international cuisine."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "odra-centrum": {
     "id": "odra-centrum",
@@ -49020,7 +50524,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0rsjXXKyfDvocb9dQVjsWNU64tvowVJAowPGuNVBC6uSRNS6rtxZo3151tDpsAgdWl&id=61595036942289",
         "verifiedAt": "2026-10-08"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "old-jewish-cemetery-wroclaw": {
     "id": "old-jewish-cemetery-wroclaw",
@@ -49298,7 +50819,38 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://olio-pizzanapoletana.pl/wroclaw",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.italian",
+            "dietary.venue"
+          ],
+          "claim": "Official Wrocław branch describes certified Neapolitan pizza and Italian meats. No vegan or vegetarian inference from ingredients."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "opera": {
     "id": "opera",
@@ -51514,7 +53066,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "paloma-coffee": {
     "id": "paloma-coffee",
@@ -51636,7 +53205,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0yMdmhg8pqBgvjkouzQEGRmP64pKbC9uhFS4mCvDy9yM35Xj7W3nbLqqUjtpj4Pcql&id=61595036942289",
         "verifiedAt": "2026-10-08"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "pan-precel": {
     "id": "pan-precel",
@@ -51788,7 +53374,38 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "bakery",
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "verified"
+      },
+      "evidence": [
+        {
+          "url": "https://panprecel.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.bakery",
+            "venueTypes.takeaway",
+            "dietary.venue",
+            "dietary.vegetarianOptions"
+          ],
+          "claim": "Official brand describes on-site pretzel baking and explicitly labels two filled products vegetarian alongside meat products. Vegan dough alone is not treated as a verified finished vegan option. Branch assortment must be confirmed."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "pan-precel-express-grunwaldzki": {
     "id": "pan-precel-express-grunwaldzki",
@@ -51946,7 +53563,38 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "bakery",
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "verified"
+      },
+      "evidence": [
+        {
+          "url": "https://panprecel.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.bakery",
+            "venueTypes.takeaway",
+            "dietary.venue",
+            "dietary.vegetarianOptions"
+          ],
+          "claim": "Official brand describes on-site pretzel baking and explicitly labels two filled products vegetarian alongside meat products. Vegan dough alone is not treated as a verified finished vegan option. Branch assortment must be confirmed."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "pan-precel-olawska": {
     "id": "pan-precel-olawska",
@@ -52269,7 +53917,38 @@
         "platform": "instagram",
         "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "bakery",
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "verified"
+      },
+      "evidence": [
+        {
+          "url": "https://panprecel.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.bakery",
+            "venueTypes.takeaway",
+            "dietary.venue",
+            "dietary.vegetarianOptions"
+          ],
+          "claim": "Official brand describes on-site pretzel baking and explicitly labels two filled products vegetarian alongside meat products. Vegan dough alone is not treated as a verified finished vegan option. Branch assortment must be confirmed."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "pan-tadeusz-museum": {
     "id": "pan-tadeusz-museum",
@@ -54300,7 +55979,34 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0M1SfUcNXRkKAXtLF2Gsi53XoVMdEByv5GoroiZpeS4bLueVTghg5hMBAR55U4W43l&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.parrotcoffee.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe"
+          ],
+          "claim": "Official business describes its café, coffee and desserts. Dietary details and dessert classification are not extrapolated."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "pasaz": {
     "id": "pasaz",
@@ -54631,7 +56337,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as shopping complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "pedet": {
     "id": "pedet",
@@ -55067,7 +56790,34 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "food-hall"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://renoma-wroclaw.pl/pedet/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.food-hall"
+          ],
+          "claim": "Official Renoma page identifies PeDeT as a gastronomic concept with several named food operators. Hall-level dietary and cuisine claims are not inferred from individual tenants."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "pergola": {
     "id": "pergola",
@@ -55675,7 +57425,41 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant",
+        "bar"
+      ],
+      "cuisines": [
+        "peruvian"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "verified"
+      },
+      "evidence": [
+        {
+          "url": "https://zjedz.my/peruwiana/menu",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-menu-platform",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.bar",
+            "cuisines.peruvian",
+            "dietary.venue",
+            "dietary.vegetarianOptions"
+          ],
+          "claim": "Restaurant-managed menu explicitly lists Peruvian main dishes, meat, seafood and a vege tofu variant. Automated allergen labels are not used as dietary evidence."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only listed fields are verified. Remaining dietary attributes are unknown; check current choices directly with the venue."
+      }
+    }
   },
   "pestka-bistro-wine-bar": {
     "id": "pestka-bistro-wine-bar",
@@ -55797,7 +57581,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ya5osZGyEhUqupfGadQdxPU3WnV6LmaceiSGzfLWcBeduRQrLSRkJiHbVkRacctBl&id=61595036942289",
         "verifiedAt": "2026-10-08"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "piastowska-pieczec-wroclaw": {
     "id": "piastowska-pieczec-wroclaw",
@@ -56420,7 +58221,38 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "polish"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://pierozak.com/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.polish",
+            "dietary.venue"
+          ],
+          "claim": "Owner describes Polish home cuisine and explicitly lists the Półwiejska 10 branch and meat and dairy fillings. Vegetable fillings alone do not establish dietary classification."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "pijalni-wino-bistro": {
     "id": "pijalni-wino-bistro",
@@ -56542,7 +58374,24 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid028pJmnMCke6S7zm99khK9z6ZjiYpMTZLvdNPMWu9Z2dFTnqTpPSNtGPbKFirJUEnHl&id=61595036942289",
         "verifiedAt": "2026-10-09T11:28:34.910Z"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "pizza-si": {
     "id": "pizza-si",
@@ -56859,7 +58708,37 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "italian"
+      ],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://pizza-si.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.italian"
+          ],
+          "claim": "Official site identifies Italian pizza, salads and the Bogusławskiego branch."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only listed fields are verified. Remaining dietary attributes are unknown; check current choices directly with the venue."
+      }
+    }
   },
   "pod-lampionami-poznan": {
     "id": "pod-lampionami-poznan",
@@ -56971,7 +58850,36 @@
       "videos": [],
       "metadata": {}
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "tea-room",
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://podlampionami.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.tea-room",
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official business explicitly describes a tearoom, restaurant and tea shop. No Chinese cuisine inferred from its quoted philosopher."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "polinka": {
     "id": "polinka",
@@ -57205,7 +59113,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "polish-theatre-wroclaw": {
     "id": "polish-theatre-wroclaw",
@@ -57490,7 +59415,37 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe",
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://pomiedzy.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.restaurant",
+            "dietary.venue"
+          ],
+          "claim": "Owner-maintained Dubois 2 page explicitly identifies cafe & bistro with breakfast and lunch and lists meat-filled buns. Tempeh ingredients alone are not vegan certification."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "poznan-bishop-jordan-bridge": {
     "id": "poznan-bishop-jordan-bridge",
@@ -62361,7 +64316,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "przejscie-dialogu-wroclaw": {
     "id": "przejscie-dialogu-wroclaw",
@@ -63587,7 +65559,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "poznan"
+      }
+    }
   },
   "raito-sushi-wroclaw": {
     "id": "raito-sushi-wroclaw",
@@ -63744,7 +65733,38 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "japanese"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.raitosushi.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.japanese",
+            "dietary.venue"
+          ],
+          "claim": "Official restaurant introduces the taste of Japan and lists fish/meat dishes. Vegetable ingredients alone are not treated as dietary verification."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "raj-szycia-poznan": {
     "id": "raj-szycia-poznan",
@@ -64747,7 +66767,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as department store complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "restauracja-tarasowa": {
     "id": "restauracja-tarasowa",
@@ -64869,7 +66906,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qTHEwYnv9QYvFzy2JiBSiaKhBFNaLFfdtJJKuFNyJuD1eSqSSASAcmXB4kYntJfml&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "rogal-stary-rynek-poznan": {
     "id": "rogal-stary-rynek-poznan",
@@ -65033,7 +67087,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "poznan"
+      }
+    }
   },
   "royal-palace-wroclaw": {
     "id": "royal-palace-wroclaw",
@@ -65421,7 +67492,34 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "milk-bar"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "verifiedAt": "2026-10-29",
+          "kind": "municipal-original-reporting",
+          "fields": [
+            "venueTypes.milk-bar"
+          ],
+          "claim": "Municipal original reporting explicitly identifies this exact branch as a milk bar. Historical menus are not evidence of current dietary availability."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "rumbar-pokoyhof-wroclaw": {
     "id": "rumbar-pokoyhof-wroclaw",
@@ -65582,7 +67680,37 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant",
+        "bar"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://rumbar.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.bar",
+            "dietary.venue"
+          ],
+          "claim": "Owner-maintained Świętego Antoniego 2/4 page explicitly describes restaurant service, cocktail menu and seafood."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "ryczka-polna-poznan": {
     "id": "ryczka-polna-poznan",
@@ -65694,7 +67822,36 @@
       "videos": [],
       "metadata": {}
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://sniadaniowniabyryczka.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "Owner-maintained Poznań page explicitly describes a café, meals, takeaway and delivery. No dietary claim inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "rynek": {
     "id": "rynek",
@@ -67023,7 +69180,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "sic-gallery-bwa-wroclaw": {
     "id": "sic-gallery-bwa-wroclaw",
@@ -67270,7 +69444,24 @@
       "videos": [],
       "metadata": {}
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "poznan"
+      }
+    }
   },
   "slodowa": {
     "id": "slodowa",
@@ -71079,7 +73270,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "stary-mlyn-zamkowa-poznan": {
     "id": "stary-mlyn-zamkowa-poznan",
@@ -71219,7 +73427,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "poznan"
+      }
+    }
   },
   "studio-bwa-wroclaw": {
     "id": "studio-bwa-wroclaw",
@@ -71467,7 +73692,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "swidnica-market-square": {
     "id": "swidnica-market-square",
@@ -72009,7 +74251,24 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid028NRYd5h4nAzuCYDtSRrFVKzyiWamLiinAWU7NjGshwQ5FhY5KaHPCzExHghXT1KWl&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "taproom-stu-mostow": {
     "id": "taproom-stu-mostow",
@@ -72131,7 +74390,24 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid024i7utL8HsAXwwbHMZf33CBLWxTWFYVeBxo1aEaYN9EWiN5BZSV172MbuXHxofNg3l&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "thai-thai-wroclaw": {
     "id": "thai-thai-wroclaw",
@@ -72288,7 +74564,26 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Official site returned no readable branch content. Brand title alone does not verify exact Wrocław branch classification and dietary choices. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://www.thaithai.pl/"
+      }
+    }
   },
   "the-bridge": {
     "id": "the-bridge",
@@ -72791,7 +75086,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "torun-artus-court": {
     "id": "torun-artus-court",
@@ -77275,7 +79587,35 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "vegan",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wroclaw.pl/nasz-wroclaw/partner/vega-bar",
+          "verifiedAt": "2026-10-29",
+          "kind": "municipal-business-partner",
+          "fields": [
+            "venueTypes.restaurant",
+            "dietary.venue"
+          ],
+          "claim": "Business-provided municipal partner description states the kitchen has been entirely vegan since 2013."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only listed fields are verified. Remaining dietary attributes are unknown; check current choices directly with the venue."
+      }
+    }
   },
   "vegan-af-ramen": {
     "id": "vegan-af-ramen",
@@ -77395,7 +79735,38 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0bBFR5gkbQVfoRSaVsYsshwd5V8CEj1zfrxwnz8K6viFmfcjEXzfsWp1dAK8B7pnPl&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "japanese"
+      ],
+      "dietary": {
+        "venue": "vegan",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/wegetarianskie-i-weganskie-jedzenie-we-wroclawiu-gdzie-zjesz-smacznie-i-bez-miesa",
+          "verifiedAt": "2026-10-29",
+          "kind": "municipal-original-reporting",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.japanese",
+            "dietary.venue"
+          ],
+          "claim": "Municipal original reporting updated January 2026 identifies the Oławska venue as a vegan ramen restaurant; Japanese cuisine is explicitly discussed. Official current menu also lists plant-based ramen; no menu availability promise."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
   },
   "walbrzych-market-square": {
     "id": "walbrzych-market-square",
@@ -81231,7 +83602,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "wedrowcy-kolejowa-63": {
     "id": "wedrowcy-kolejowa-63",
@@ -81510,7 +83898,24 @@
       "pl",
       "de",
       "cs"
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "white-stork-synagogue-wroclaw": {
     "id": "white-stork-synagogue-wroclaw",
@@ -81921,7 +84326,24 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02i45occ9NP68SD4bcfWpgrbY8R4LFYSwTQV3h1XH9mRy9ceXX6wRHZtVBNJLu6yjjl&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "wieza-cisnien-borek": {
     "id": "wieza-cisnien-borek",
@@ -82627,7 +85049,24 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "woda-cafe": {
     "id": "woda-cafe",
@@ -82749,7 +85188,24 @@
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02aRnMFoU8V15BbbUhtiCCxjK6YkHGM7nnow156mLdjLq5RAtgBmAGH84Qw4qN94Zel&id=61595036942289",
         "verifiedAt": "2026-10-09"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "woosabi": {
     "id": "woosabi",
@@ -82894,7 +85350,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "woosabi-swidnicka-wroclaw": {
     "id": "woosabi-swidnicka-wroclaw",
@@ -83084,7 +85557,41 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant",
+        "bar"
+      ],
+      "cuisines": [
+        "asian"
+      ],
+      "dietary": {
+        "venue": "mixed",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "verified"
+      },
+      "evidence": [
+        {
+          "url": "https://woosabi.pl/lounge/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.bar",
+            "cuisines.asian",
+            "dietary.venue",
+            "dietary.vegetarianOptions"
+          ],
+          "claim": "Exact Świdnicka branch page explicitly describes Asian food, cocktails and bowls for fish, meat and vegetarian diners. Vegetarian is not interpreted as vegan."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
   },
   "wroclavia": {
     "id": "wroclavia",
@@ -83480,7 +85987,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as shopping complex. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": true,
+        "city": "wroclaw"
+      }
+    }
   },
   "wroclaw-botanical-garden": {
     "id": "wroclaw-botanical-garden",
@@ -86241,7 +88765,24 @@
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUv_EEkU6W/",
         "verifiedAt": "2026-10-10T18:41:21.031Z"
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Canonical identity reviewed as housing estate, not a food venue. Individual tenants cannot classify the whole canonical place. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "wuwa-estate": {
     "id": "wuwa-estate",
@@ -88381,7 +90922,24 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ]
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
   },
   "zoo-wroclaw": {
     "id": "zoo-wroclaw",

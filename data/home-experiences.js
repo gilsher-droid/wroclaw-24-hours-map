@@ -102,5 +102,27 @@ window.WROC_HOME_EXPERIENCES = [
       "cs": "Cesta přes 102 mostů začíná jediným"
     },
     "photo": "/assets/experiences/bridges-islands/river-01.jpg"
+  },
+  {
+    "id": "foodies-wroclaw",
+    "name": {
+      "he": "וורוצלב לפודיז",
+      "en": "Wrocław for food lovers",
+      "pl": "Wrocław dla smakoszy",
+      "de": "Wrocław für Feinschmecker",
+      "cs": "Vratislav pro gurmány"
+    },
+    "photo": "/assets/charlotte/charlotte-visit-01.jpg"
+  },
+  {
+    "id": "vegetarian-vegan-wroclaw",
+    "name": {
+      "he": "וורוצלב לצמחונים ולטבעונים",
+      "en": "Vegetarian and vegan Wrocław",
+      "pl": "Wrocław wegetariański i wegański",
+      "de": "Vegetarisch und vegan in Wrocław",
+      "cs": "Vegetariánská a veganská Vratislav"
+    },
+    "photo": "/assets/experiences/milk-bars/visit-03.jpg"
   }
 ];

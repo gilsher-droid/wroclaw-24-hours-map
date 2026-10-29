@@ -61,9 +61,11 @@
     return header;
   }
 
+  const nearbyNames={he:'מה סביבי?',en:'What is nearby?',pl:'Co jest w pobliżu?',de:'Was ist in der Nähe?',cs:'Co je v okolí?'};
+  const nearbyIntro={he:'בוחרים רדיוס ומגלים אוכל, קפה ומקומות לראות מתוך המפות שלנו.',en:'Choose a radius and discover food, coffee and sights from our maps.',pl:'Wybierz promień i odkrywaj jedzenie, kawę oraz miejsca z naszych map.',de:'Radius wählen und Essen, Kaffee und Orte unserer Karten entdecken.',cs:'Vyberte okruh a objevujte jídlo, kávu a místa z našich map.'};
   function productMenuMarkup(lang) {
     const names = productLinks[lang];
-    return `<a href="/community.html?lang=${lang}">${communityNames[lang]}</a>`+productPaths.map((path, index) => `<a href="/products/interactive-maps/${path}?lang=${lang}">${names[index]}</a>`).join("") + `<a class="personal-menu-link" href="/personal-trip.html?lang=${lang}"><small>${personalCopy[lang][0]}</small><strong>${personalCopy[lang][1]}</strong></a>`;
+    return `<a href="/nearby.html?lang=${lang}">${nearbyNames[lang]}</a><a href="/community.html?lang=${lang}">${communityNames[lang]}</a>`+productPaths.map((path, index) => `<a href="/products/interactive-maps/${path}?lang=${lang}">${names[index]}</a>`).join("") + `<a class="personal-menu-link" href="/personal-trip.html?lang=${lang}"><small>${personalCopy[lang][0]}</small><strong>${personalCopy[lang][1]}</strong></a>`;
   }
 
   function addPersonalServiceEntry() {
@@ -73,11 +75,13 @@
       const link = document.createElement('a'); link.dataset.personalMenu = ''; link.className = 'personal-menu-link'; menu.append(link);
     }
     if (menu && !menu.querySelector('[data-community-menu]')) {const link=document.createElement('a');link.dataset.communityMenu='';menu.append(link);}
+    if(menu&&!menu.querySelector('[data-nearby-menu]')){const link=document.createElement('a');link.dataset.nearbyMenu='';menu.prepend(link);}
     const hero = document.querySelector('main > .hero');
     if (hero && !document.querySelector('#personal-service')) {
       const section = document.createElement('section'); section.id = 'personal-service'; section.className = 'personal-service-banner';
       section.innerHTML = '<div><p data-personal-copy="0"></p><h2 data-personal-copy="2"></h2><p data-personal-copy="3"></p><a class="button" data-personal-copy="4" data-personal-link></a></div><img src="/assets/rynek-market-square.jpg" alt="" loading="lazy">';
       hero.after(section);
+      const nearby=document.createElement('section');nearby.id='nearby-discovery';nearby.className='nearby-home-banner';nearby.innerHTML='<div><h2 data-nearby-title></h2><p data-nearby-intro></p></div><a class="button" data-nearby-menu></a>';section.before(nearby);
     }
   }
 
@@ -149,6 +153,9 @@
   function refreshLanguage() {
     const lang = language();
     const personal = personalCopy[lang];
+    document.querySelectorAll('[data-nearby-menu]').forEach(el=>{el.href='/nearby.html?lang='+lang;el.textContent=nearbyNames[lang];});
+    document.querySelectorAll('[data-nearby-title]').forEach(el=>el.textContent=nearbyNames[lang]);
+    document.querySelectorAll('[data-nearby-intro]').forEach(el=>el.textContent=nearbyIntro[lang]);
     document.querySelectorAll("[data-community-menu]").forEach(el=>{el.href="/community.html?lang="+lang;el.textContent=communityNames[lang];});
     document.querySelectorAll('[data-experiences-link]').forEach(el=>{el.href='/?lang='+lang+'#experiences';el.textContent=experienceNames[lang];});
     document.querySelectorAll('[data-personal-copy]').forEach(el => { el.textContent = personal[Number(el.dataset.personalCopy)]; });

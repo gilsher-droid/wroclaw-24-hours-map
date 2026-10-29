@@ -47,8 +47,9 @@ test("every map dropdown offers the five maps separately from experiences in the
       assert.ok(markup.includes(`href="/products/interactive-maps/${path}?lang=${lang}"`));
       assert.ok(markup.includes(productLinks[lang][index]));
     }
-    assert.equal((markup.match(/<a /g) || []).length, expectedPaths.length + 2);
+    assert.equal((markup.match(/<a /g) || []).length, expectedPaths.length + 3);
     assert.ok(!markup.includes("lifestyle.html"));assert.ok(!markup.includes("guides.html"));
+    assert.ok(markup.includes(`/nearby.html?lang=${lang}`));
     assert.ok(markup.includes(`/community.html?lang=${lang}`));
     assert.ok(markup.includes(`href="/personal-trip.html?lang=${lang}"`));
     assert.ok(markup.includes('class="personal-menu-link"'));

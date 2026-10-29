@@ -23,6 +23,13 @@ await mkdir(interactiveMaps, { recursive: true });
 
 for (const file of [
   "index.html",
+  "nearby.html",
+  "nearby.js",
+  "nearby-model.js",
+  "nearby-chat-client.js",
+  "nearby-chat-config.js",
+  "nearby-copy.js",
+  "nearby.css",
   "community.html",
   "community-app.js",
   "map-tiles.js",

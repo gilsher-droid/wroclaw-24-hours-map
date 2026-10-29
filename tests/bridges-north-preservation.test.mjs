@@ -1,3 +1,4 @@
+import {beforeDiningSnapshot} from './dining-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -7,8 +8,8 @@ import {beforeBridgesNorthSnapshot,beforeBridgesNorthSource,assertReviewedBridge
 const proof=JSON.parse(readFileSync('data/bridges-north-approved-additions.json'));
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const clone=x=>JSON.parse(JSON.stringify(x));
-function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/lower-silesia-excursions.js','data/home-experiences.js'])runInNewContext(readFileSync(f,'utf8'),{window});return window;}
-test('Both additions preserve all 318 prior places, nine trips, fourteen experiences and existing aliases without projection',()=>{
+function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/lower-silesia-excursions.js','data/home-experiences.js'])runInNewContext(readFileSync(f,'utf8'),{window});return beforeDiningSnapshot(window);}
+test('Both additions preserve all 318 prior places, nine trips, fourteen experiences and existing aliases before the separately checked dining additions',()=>{
  const w=load(),c=w.WROC_CATALOG;
  assert.equal(Object.keys(proof.beforeRecordHashes).length,318);
  assert.equal(Object.keys(c.places).length,323);
