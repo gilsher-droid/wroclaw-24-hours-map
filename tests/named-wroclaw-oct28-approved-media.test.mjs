@@ -1,3 +1,4 @@
+import{beforeSwidnicaSnapshot}from'./swidnica-solny-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -5,6 +6,7 @@ import {createHash} from 'node:crypto';
 import vm from 'node:vm';
 import {beforeNamedWroclawMedia,beforeNamedWroclawGallery,historicalNamedWroclawAssetSHA} from './named-wroclaw-media-historical-baseline.mjs';
 const window={};for(const f of ['data/place-catalog.js','data/location-media.js','data/lower-silesia-excursions.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window});
+beforeSwidnicaSnapshot(window);
 const baseline=JSON.parse(readFileSync('tests/fixtures/named-wroclaw-oct28-preintegration.json'));
 const approved=JSON.parse(readFileSync('data/named-wroclaw-oct28-media-provenance.json'));
 const plain=x=>JSON.parse(JSON.stringify(x));

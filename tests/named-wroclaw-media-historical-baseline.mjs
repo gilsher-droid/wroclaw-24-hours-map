@@ -1,3 +1,4 @@
+import{beforeSwidnicaSolnyRecord,beforeSwidnicaSolnyGallery,beforeSwidnicaSnapshot}from'./swidnica-solny-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
@@ -10,7 +11,7 @@ const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const window={};runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window});
 assert.deepEqual(plain(window.WROC_CATALOG.aliases),baseline.aliases,'Named inbox aliases changed');
 for(const id of approved.canonicalIDs){
- const current=window.WROC_CATALOG.getPlace(id);
+ const current=beforeSwidnicaSolnyRecord(window.WROC_CATALOG.getPlace(id));
  assert.equal(hash(current),approved.approvedRecordSHAs[id],'Unapproved named-inbox record: '+id);
  const restored=plain(current);restored.media=baseline.targetsBefore[id].media;
  assert.deepEqual(restored,baseline.targetsBefore[id],'Named inbox changed nonmedia: '+id);
@@ -18,6 +19,7 @@ for(const id of approved.canonicalIDs){
 // Only the exact reviewed media delta projects to the historical receipt.
 // The independent new test compares all280 other records without projection.
 export function beforeNamedWroclawMedia(value){
+ value=beforeSwidnicaSolnyRecord(value);
  const before=value?.location&&value?.socialPosts&&baseline.targetsBefore[value.id];
  if(!before)return value;
  if(value.id==='wroclaw-botanical-garden'&&hash(value)===gardenHistorical.recordHashes[value.id])return value;
@@ -27,6 +29,7 @@ export function beforeNamedWroclawMedia(value){
  assert.deepEqual(restored,before);return before;
 }
 export function beforeNamedWroclawGallery(value,id){
+ value=beforeSwidnicaSolnyGallery(value,id);
  const before=baseline.targetsBefore[id]?.media.photos;
  if(!before||hash(value)===hash(before))return value;
  if(id==='wroclaw-botanical-garden'&&hash(value)===hash(gardenHistorical.targetBefore.media.photos))return value;
@@ -43,6 +46,7 @@ export function historicalNamedWroclawAssetSHA(asset){
 // Explicit test-only snapshot for receipts whose assertions predate this batch.
 // Each changed record and gallery must first match the exact reviewed delta.
 export function beforeNamedWroclawSnapshot(runtime){
+ beforeSwidnicaSnapshot(runtime);
  const catalog=runtime.WROC_CATALOG;
  const places=Object.fromEntries(Object.entries(catalog.places).map(([id,p])=>[id,beforeNamedWroclawMedia(p)]));
  runtime.WROC_CATALOG={...catalog,places,getPlace:id=>beforeNamedWroclawMedia(catalog.getPlace(id))};

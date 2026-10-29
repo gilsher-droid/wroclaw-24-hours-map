@@ -10,11 +10,11 @@ window.WROC_HOME_EXCURSIONS = [
       "cs": "Zámek Książ, Valbřich a Svídnice — den plný zámku, měst a dědictví"
     },
     "summary": {
-      "he": "טיול יום מלא שמשלב טירה מרשימה, עצירה עירונית ב־Wałbrzych, כנסיית עץ יוצאת דופן וזמן חופשי במרכז שווידניצה.",
-      "en": "A full-day trip combining an impressive castle, an urban stop in Wałbrzych, an exceptional timber church and free time in central Świdnica.",
-      "pl": "Całodniowa wycieczka łącząca imponujący zamek, miejski przystanek w Wałbrzychu, wyjątkowy drewniany kościół i czas wolny w centrum Świdnicy.",
-      "de": "Ein ganztägiger Ausflug mit einem eindrucksvollen Schloss, einem Stadtstopp in Wałbrzych, einer außergewöhnlichen Holzkirche und Freizeit im Zentrum von Świdnica.",
-      "cs": "Celodenní výlet spojující působivý zámek, městskou zastávku ve Valbřichu, výjimečný dřevěný kostel a volný čas v centru Svídnice."
+      "he": "טיול יום מלא שמשלב טירה מרשימה, עצירה עירונית בוולבז׳יך, כנסיית עץ יוצאת דופן וכיכר שוק היסטורית וצבעונית בשווידניצה.",
+      "en": "A full-day trip combining an impressive castle, an urban stop in Wałbrzych, an exceptional timber church and Świdnica’s colourful historic market square.",
+      "pl": "Całodniowa wycieczka łącząca imponujący zamek, miejski przystanek w Wałbrzychu, wyjątkowy drewniany kościół i barwny historyczny Rynek w Świdnicy.",
+      "de": "Ein ganztägiger Ausflug mit einem eindrucksvollen Schloss, einem Stadtstopp in Wałbrzych, einer außergewöhnlichen Holzkirche und dem farbenfrohen historischen Marktplatz von Świdnica.",
+      "cs": "Celodenní výlet spojující působivý zámek, městskou zastávku ve Valbřichu, výjimečný dřevěný kostel a barevné historické náměstí ve Svídnici."
     },
     "photo": "/assets/ksiaz-castle-01.jpg"
   },

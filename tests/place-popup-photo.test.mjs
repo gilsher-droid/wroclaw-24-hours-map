@@ -25,8 +25,8 @@ test('Places without media display the authorized site logo without inventing a 
  assert.equal(w.WROC_PLACE_POPUP_PHOTO.sourceFor({media:{photos:['javascript:alert(1)','data:text/html,invalid']}}),'');
  const html=w.WROC_PLACE_POPUP_PHOTO.html({name:{en:'A <place> & "name"'},media:{photos:['/assets/a.jpg']}},'en');assert.ok(html.includes('A &lt;place&gt; &amp; &quot;name&quot;'));assert.ok(!html.includes('alt="A <place>'));
 });
-test('Solny uses its three approved photographs while unphotographed canonicals keep a localized logo',()=>{
- const w=runtime();const solny=w.WROC_CATALOG.getPlace('solny');assert.equal(solny.media.photos.length,3);assert.ok(w.WROC_PLACE_POPUP_PHOTO.sourceFor(solny).includes('/named-wroclaw-oct28/'));
+test('Solny uses its four approved photographs while unphotographed canonicals keep a localized logo',()=>{
+ const w=runtime();const solny=w.WROC_CATALOG.getPlace('solny');assert.equal(solny.media.photos.length,4);assert.ok(w.WROC_PLACE_POPUP_PHOTO.sourceFor(solny).includes('/named-wroclaw-oct28/'));
  for(const p of Object.values(w.WROC_CATALOG.places)){if(w.WROC_PLACE_POPUP_PHOTO.sourceFor(p))continue;for(const lang of ['he','en','pl','de','cs']){const html=w.WROC_PLACE_POPUP_PHOTO.imageHtml(p,lang);assert.ok(html.includes('place-photo-logo'));assert.ok(html.includes('alt="'));assert.ok(!html.includes('javascript:'));}}
  const flatGuide={name:{en:'Guide-map place'},thumbnail:'/assets/a.jpg',photos:['/assets/a.jpg']};assert.equal(w.WROC_PLACE_POPUP_PHOTO.sourceFor(flatGuide),'/assets/a.jpg');
 });

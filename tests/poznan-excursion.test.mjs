@@ -1,3 +1,4 @@
+import{beforeSwidnicaSnapshot}from'./swidnica-solny-historical-baseline.mjs';
 import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
@@ -12,7 +13,7 @@ function load() {
   for (const file of ['data/place-catalog.js', 'data/lower-silesia-excursions.js', 'data/home-excursions.js']) {
     runInNewContext(readFileSync(file, 'utf8'), {window});
   }
-  return window;
+  return beforeSwidnicaSnapshot(window);
 }
 
 test('Poznan focuses on its city walk and optional places without an intercity map line', () => {

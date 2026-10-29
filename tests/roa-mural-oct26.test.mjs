@@ -1,3 +1,4 @@
+import{beforeSwidnicaSnapshot}from'./swidnica-solny-historical-baseline.mjs';
 import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
@@ -9,6 +10,7 @@ import { runInNewContext } from 'node:vm';
 const proof=JSON.parse(readFileSync('data/roa-mural-oct26-preservation.json'));
 const window={};
 for(const f of ['data/place-catalog.js','data/lower-silesia-excursions.js'])runInNewContext(readFileSync(f,'utf8'),{window});
+beforeSwidnicaSnapshot(window);
 const plain=v=>JSON.parse(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(v))));
 const hash=v=>createHash('sha256').update(v).digest('hex');
 

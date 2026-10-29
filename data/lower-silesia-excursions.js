@@ -2,9 +2,8 @@
   "use strict";
 
   const t = (he, en, pl, de, cs) => ({ he, en, pl, de, cs });
-  const canonicalPlaceIds = ["ksiaz-castle", "walbrzych-market-square", "church-of-peace-swidnica"];
+  const canonicalPlaceIds = ["ksiaz-castle", "walbrzych-market-square", "church-of-peace-swidnica", "swidnica-market-square"];
   const wroclaw = { lat: 51.1079, lng: 17.0385 };
-  const swidnicaCenter = { lat: 50.8422, lng: 16.4877 };
 
   const excursion = {
     id: "ksiaz-swidnica-day-trip",
@@ -17,11 +16,11 @@
       "Zámek Książ, Valbřich a Svídnice — den plný zámku, měst a dědictví"
     ),
     summary: t(
-      "טיול יום מלא שמשלב טירה מרשימה, עצירה עירונית ב־Wałbrzych, כנסיית עץ יוצאת דופן וזמן חופשי במרכז שווידניצה.",
-      "A full-day trip combining an impressive castle, an urban stop in Wałbrzych, an exceptional timber church and free time in central Świdnica.",
-      "Całodniowa wycieczka łącząca imponujący zamek, miejski przystanek w Wałbrzychu, wyjątkowy drewniany kościół i czas wolny w centrum Świdnicy.",
-      "Ein ganztägiger Ausflug mit einem eindrucksvollen Schloss, einem Stadtstopp in Wałbrzych, einer außergewöhnlichen Holzkirche und Freizeit im Zentrum von Świdnica.",
-      "Celodenní výlet spojující působivý zámek, městskou zastávku ve Valbřichu, výjimečný dřevěný kostel a volný čas v centru Svídnice."
+      "טיול יום מלא שמשלב טירה מרשימה, עצירה עירונית בוולבז׳יך, כנסיית עץ יוצאת דופן וכיכר שוק היסטורית וצבעונית בשווידניצה.",
+      "A full-day trip combining an impressive castle, an urban stop in Wałbrzych, an exceptional timber church and Świdnica’s colourful historic market square.",
+      "Całodniowa wycieczka łącząca imponujący zamek, miejski przystanek w Wałbrzychu, wyjątkowy drewniany kościół i barwny historyczny Rynek w Świdnicy.",
+      "Ein ganztägiger Ausflug mit einem eindrucksvollen Schloss, einem Stadtstopp in Wałbrzych, einer außergewöhnlichen Holzkirche und dem farbenfrohen historischen Marktplatz von Świdnica.",
+      "Celodenní výlet spojující působivý zámek, městskou zastávku ve Valbřichu, výjimečný dřevěný kostel a barevné historické náměstí ve Svídnici."
     ),
     meta: {
       duration: "full-day",
@@ -36,7 +35,7 @@
       { id: "ksiaz-stop", kind: "place", canonicalPlaceId: "ksiaz-castle" },
       { id: "walbrzych-stop", kind: "place", canonicalPlaceId: "walbrzych-market-square" },
       { id: "church-stop", kind: "place", canonicalPlaceId: "church-of-peace-swidnica" },
-      { id: "swidnica-center", kind: "editorial", label: t("מרכז שווידניצה", "Central Świdnica", "Centrum Świdnicy", "Zentrum von Świdnica", "Centrum Svídnice"), coordinates: swidnicaCenter },
+      { id: "swidnica-market-square-stop", kind: "place", canonicalPlaceId: "swidnica-market-square" },
       { id: "wroclaw-return", kind: "context", label: t("חזרה לוורוצלב", "Return to Wrocław", "Powrót do Wrocławia", "Rückfahrt nach Wrocław", "Návrat do Vratislavi"), coordinates: wroclaw },
     ],
     travel: {
@@ -45,8 +44,8 @@
         { from: "wroclaw-start", to: "ksiaz-stop", minutes: "65–80" },
         { from: "ksiaz-stop", to: "walbrzych-stop", minutes: "20–30" },
         { from: "walbrzych-stop", to: "church-stop", minutes: "35–45" },
-        { from: "church-stop", to: "swidnica-center", minutes: "5–10" },
-        { from: "swidnica-center", to: "wroclaw-return", minutes: "60–75" },
+        { from: "church-stop", to: "swidnica-market-square-stop", minutes: "5–10" },
+        { from: "swidnica-market-square-stop", to: "wroclaw-return", minutes: "60–75" },
       ],
       note: t(
         "רכב הוא הדרך המעשית ביותר לשלב את כל התחנות ביום אחד. זמני הנסיעה משוערים ותלויים בתנועה, בדרך ובאמצעי התחבורה. אפשר לבדוק חלופות תחבורה באופן עצמאי; WROC-LOVE אינו מספק שירותי הסעה.",
@@ -65,7 +64,7 @@
         { canonicalPlaceId: "ksiaz-castle", level: "partial" },
         { canonicalPlaceId: "walbrzych-market-square", level: "partial" },
         { canonicalPlaceId: "church-of-peace-swidnica", level: "partial" },
-        { label: t("מרכז שווידניצה", "Central Świdnica", "Centrum Świdnicy", "Zentrum von Świdnica", "Centrum Svídnice"), level: "partial" }
+        { canonicalPlaceId: "swidnica-market-square", level: "partial" }
       ],
     },
     navigation: {
@@ -87,20 +86,20 @@
         "Vhodné pro milovníky historie, architektury, kultury, památek a fotografování, kteří chtějí strávit celý den mimo Vratislav."
       ),
       practical: t(
-        "בדקו מראש שעות פתיחה וכרטיסים בשני האתרים. השאירו מרווח בין התחנות, נעלו נעליים נוחות והקדישו למרכז שווידניצה זמן גמיש לקפה, ארוחה או שיטוט.",
-        "Check opening hours and tickets for both sites in advance. Leave buffer time between stops, wear comfortable shoes and keep the central Świdnica segment flexible for coffee, a meal or a wander.",
-        "Sprawdź wcześniej godziny otwarcia i bilety do obu obiektów. Zostaw zapas czasu między punktami, załóż wygodne buty, a pobyt w centrum Świdnicy potraktuj elastycznie.",
-        "Öffnungszeiten und Tickets für beide Sehenswürdigkeiten vorab prüfen. Zeitpuffer einplanen, bequeme Schuhe tragen und den Aufenthalt im Zentrum von Świdnica flexibel für Kaffee, Essen oder einen Spaziergang halten.",
-        "Předem si ověřte otevírací dobu a vstupenky na obě místa. Nechte si časovou rezervu, vezměte si pohodlné boty a pobyt v centru Svídnice ponechte flexibilní."
+        "בדקו מראש שעות פתיחה וכרטיסים בשני האתרים. השאירו מרווח בין התחנות, נעלו נעליים נוחות והקדישו לרינק של שווידניצה זמן גמיש להקפת הכיכר, התבוננות במזרקות ובחזיתות, קפה או ארוחה.",
+        "Check opening hours and tickets for both sites in advance. Leave buffer time between stops, wear comfortable shoes and keep the Świdnica Market Square segment flexible for a circuit of the square, its fountains and façades, coffee or a meal.",
+        "Sprawdź wcześniej godziny otwarcia i bilety do obu obiektów. Zostaw zapas czasu między punktami, załóż wygodne buty, a pobyt na świdnickim Rynku przeznacz na spacer wokół placu, fontanny i fasady oraz kawę lub posiłek.",
+        "Öffnungszeiten und Tickets für beide Sehenswürdigkeiten vorab prüfen. Zeitpuffer einplanen, bequeme Schuhe tragen und auf dem Marktplatz von Świdnica Zeit für eine Runde um den Platz, Brunnen und Fassaden sowie Kaffee oder Essen lassen.",
+        "Předem si ověřte otevírací dobu a vstupenky na obě místa. Nechte si časovou rezervu, vezměte si pohodlné boty a na svídnickém náměstí si ponechte čas na okruh kolem kašen a fasád, kávu nebo jídlo."
       ),
     },
     steps: [
       { id: "depart", mapPointId: "wroclaw-start", title: t("יציאה מוורוצלב", "Depart Wrocław", "Wyjazd z Wrocławia", "Abfahrt aus Wrocław", "Odjezd z Vratislavi"), duration: t("כ־65–80 דקות", "About 65–80 min", "Około 65–80 min", "Etwa 65–80 Min.", "Přibližně 65–80 min") },
       { id: "ksiaz", canonicalPlaceId: "ksiaz-castle", title: t("טירת קשונז׳", "Książ Castle", "Zamek Książ", "Schloss Książ", "Zámek Książ"), duration: t("2.5–3.5 שעות", "2.5–3.5 hours", "2,5–3,5 godz.", "2,5–3,5 Std.", "2,5–3,5 hod.") },
       { id: "walbrzych", canonicalPlaceId: "walbrzych-market-square", title: t("ביקור ב־Wałbrzych", "Visit Wałbrzych", "Wizyta w Wałbrzychu", "Besuch in Wałbrzych", "Návštěva Valbřichu"), duration: t("45–60 דקות", "45–60 min", "45–60 min", "45–60 Min.", "45–60 min") },
-      { id: "transfer", mapPointId: "swidnica-center", title: t("נסיעה לשווידניצה", "Continue to Świdnica", "Przejazd do Świdnicy", "Weiterfahrt nach Świdnica", "Přejezd do Svídnice"), duration: t("כ־35–45 דקות", "About 35–45 min", "Około 35–45 min", "Etwa 35–45 Min.", "Přibližně 35–45 min") },
+      { id: "transfer", mapPointId: "church-stop", title: t("נסיעה לשווידניצה", "Continue to Świdnica", "Przejazd do Świdnicy", "Weiterfahrt nach Świdnica", "Přejezd do Svídnice"), duration: t("כ־35–45 דקות", "About 35–45 min", "Około 35–45 min", "Etwa 35–45 Min.", "Přibližně 35–45 min") },
       { id: "church", canonicalPlaceId: "church-of-peace-swidnica", title: t("כנסיית השלום", "Church of Peace", "Kościół Pokoju", "Friedenskirche", "Kostel míru"), duration: t("45–60 דקות", "45–60 min", "45–60 min", "45–60 Min.", "45–60 min") },
-      { id: "center", mapPointId: "swidnica-center", title: t("מרכז שווידניצה", "Central Świdnica", "Centrum Świdnicy", "Zentrum von Świdnica", "Centrum Svídnice"), duration: t("60–90 דקות", "60–90 min", "60–90 min", "60–90 Min.", "60–90 min") },
+      { id: "center", canonicalPlaceId: "swidnica-market-square", title: t("כיכר השוק של שווידניצה", "Świdnica Market Square", "Rynek w Świdnicy", "Marktplatz von Świdnica", "Tržní náměstí ve Svídnici"), duration: t("60–90 דקות", "60–90 min", "60–90 min", "60–90 Min.", "60–90 min") },
       { id: "return", mapPointId: "wroclaw-return", title: t("חזרה לוורוצלב", "Return to Wrocław", "Powrót do Wrocławia", "Rückfahrt nach Wrocław", "Návrat do Vratislavi"), duration: t("כ־60–75 דקות", "About 60–75 min", "Około 60–75 min", "Etwa 60–75 Min.", "Přibližně 60–75 min") },
     ],
   };
