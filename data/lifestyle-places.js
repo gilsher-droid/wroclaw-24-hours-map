@@ -160,6 +160,10 @@
 
   window.WROC_LIFESTYLE_PLACES.unshift({id:"cafe-lyk-wroclaw",categories:["drink"],coordinates:[51.113516,17.0312958],mediaKey:"cafe-lyk-wroclaw"});
 
+  // Separate business identities share their canonical data and original galleries.
+  window.WROC_LIFESTYLE_PLACES.unshift(...[{"id":"cocofli-wroclaw","categories":["drink"],"coordinates":[51.1082985,17.0245603],"mediaKey":"cocofli-wroclaw"},{"id":"entre-brasserie-wroclaw","categories":["eat"],"coordinates":[51.1127669,17.0301481],"mediaKey":"entre-brasserie-wroclaw"},{"id":"gniazdo","categories":["cafe","drink","eat"],"coordinates":[51.1053861,17.0315415],"mediaKey":"gniazdo"},{"id":"wiking-axe-throwing-wroclaw","categories":["enjoy","eat","drink"],"coordinates":[51.1069297,17.0322054],"mediaKey":"wiking-axe-throwing-wroclaw"},{"id":"thai-thai-wroclaw","categories":["eat"],"coordinates":[51.1059482,17.0316826],"mediaKey":"thai-thai-wroclaw"},{"id":"raito-sushi-wroclaw","categories":["eat"],"coordinates":[51.1071365,17.0278292],"mediaKey":"raito-sushi-wroclaw"},{"id":"haggis-pub-wroclaw","categories":["drink","enjoy"],"coordinates":[51.1037577,17.0302924],"mediaKey":"haggis-pub-wroclaw"},{"id":"cafe-artzat-wroclaw","categories":["drink"],"coordinates":[51.1124447,17.030327],"mediaKey":"cafe-artzat-wroclaw"},{"id":"caffe-bohema-swidnicka-wroclaw","categories":["drink"],"coordinates":[51.1066995,17.0320205],"mediaKey":"caffe-bohema-swidnicka-wroclaw"},{"id":"rumbar-pokoyhof-wroclaw","categories":["eat","drink","enjoy"],"coordinates":[51.1085229,17.0264321],"mediaKey":"rumbar-pokoyhof-wroclaw"}]);
+  if(window.WROC_CATALOG){const p=window.WROC_LIFESTYLE_PLACES.find(x=>x.id==="peruwiana"),c=window.WROC_CATALOG.getPlace("peruwiana");if(p&&c){p.name=c.name;p.localName=c.localName;p.description=c.description;p.mediaKey=p.id;}}
+
   if (window.WROC_CATALOG?.registerProduct) {
     const registered = window.WROC_CATALOG.registerProduct({
       id: "lifestyle-guide",

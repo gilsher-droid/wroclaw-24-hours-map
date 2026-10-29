@@ -317,3 +317,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 (function(){for(const id of ["klub-lacznik-wroclaw","copernicus-park-wroclaw"]){const p=window.WROC_CATALOG?.getPlace(id);if(p)window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos,videos:p.media.videos};}})();
 
 (function(){const p=window.WROC_CATALOG?.getPlace("cafe-lyk-wroclaw");if(p)window.WROC_LOCATION_MEDIA[p.id]={gallery:p.media.photos,videos:p.media.videos};})();
+
+// These galleries use the separate canonical business identities.
+(function(){for(const id of ["cocofli-wroclaw","entre-brasserie-wroclaw","gniazdo","peruwiana","wiking-axe-throwing-wroclaw","thai-thai-wroclaw","raito-sushi-wroclaw","haggis-pub-wroclaw","cafe-artzat-wroclaw","caffe-bohema-swidnicka-wroclaw","rumbar-pokoyhof-wroclaw"]){const p=window.WROC_CATALOG?.getPlace(id);if(p)window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos,videos:p.media.videos};}})();

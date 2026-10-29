@@ -269,3 +269,9 @@ article[data-place="klub-lacznik-wroclaw"] :is(h3,p),.leaflet-popup-content:has(
 
 article[data-place="cafe-lyk-wroclaw"] :is(h3,p){white-space:pre-line}
 .leaflet-popup-content:has([data-gallery="cafe-lyk-wroclaw"]) :is(strong,span,p){white-space:pre-line}
+
+/* Full original frames and readable business names for the named urban venues. */
+article[data-place="cocofli-wroclaw"] :is(h3,p),.leaflet-popup-content:has([data-gallery="cocofli-wroclaw"]) :is(strong,span,p){white-space:pre-line}
+.media-grid img[src^="/assets/urban-named-places-oct29/"],.media-grid img[src="/assets/four-denominations-refresh/four-denominations-refresh-08.jpg"],.media-grid img[src="/assets/four-denominations-refresh/four-denominations-refresh-10.jpg"],.media-grid img[src="/assets/four-denominations-refresh/four-denominations-refresh-11.jpg"]{height:auto;max-height:78vh;object-fit:contain}
+
+#media-modal:has(img[src^="/assets/urban-named-places-oct29/"]) #media-title,#media-modal:has(img[src*="/four-denominations-refresh/"]) #media-title,#media-modal:has(img[src$="run4-231-gniazdo.jpg"]) #media-title{white-space:pre-line}
