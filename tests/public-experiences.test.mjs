@@ -1,8 +1,10 @@
+import{beforeLykSnapshot}from'./cafe-lyk-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import vm from 'node:vm';
 const window={};for(const file of ['place-catalog','canonical-experiences','home-experiences','youtube-video-hosting'])vm.runInNewContext(readFileSync(new URL(`../data/${file}.js`,import.meta.url),'utf8'),{window});
+beforeLykSnapshot(window);
 const registry=window.WROC_EXPERIENCE_CATALOG;
 test('Eight public experiences reuse canonical places and retain separately scoped area media',()=>{
  assert.equal(window.WROC_HOME_EXPERIENCES.length,8);

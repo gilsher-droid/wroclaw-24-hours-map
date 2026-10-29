@@ -2,3 +2,6 @@
 
 /* The selected experience is the destination; other collections remain secondary. */
 .experience-intro{max-width:none;margin:35px 0 24px}.experience-intro h1{max-width:950px}.experience-intro p{font-size:15px;max-width:800px}.experience-eyebrow{text-decoration:none}#experience-other-options{border-top:1px solid #d8d0c1;border-bottom:1px solid #d8d0c1;margin:0 0 30px;padding:10px 0}#experience-other-title{font-size:13px;color:#697587;cursor:pointer;width:fit-content;min-height:36px;padding:7px 0}#experience-picker{margin:12px 0 5px}#experience-picker a{font-size:12px;background:transparent}.experience-detail{margin-top:0}.experience-detail h2{font-size:24px}#experience-map .leaflet-popup-content{max-width:310px;margin:18px}.experience-header{padding-bottom:10px}
+
+#experience-place-cafe-lyk-wroclaw h3{white-space:pre-line}
+.canonical-popup:has([data-place="cafe-lyk-wroclaw"]) h3{white-space:pre-line}

@@ -139,6 +139,9 @@
 // Add the garden on the existing walk between nearby cultural stops.
 (function(){const stops=window.PREMIUM_STOPS,anchor=stops.find(p=>p.day===4&&p.id==="wroclaw-puppet-theatre");if(!anchor||stops.some(p=>p.id==="copernicus-park-wroclaw"))throw new Error("Unexpected garden route baseline");const insertion=anchor.order+1;for(const p of stops)if(p.day===4&&p.order>=insertion)p.order+=1;stops.splice(stops.indexOf(anchor)+1,0,{...{"id":"copernicus-park-wroclaw","day":4,"coordinates":[51.1050088,17.0343214],"category":"nature","time":"13:00","duration":"10 min","optional":true,"tip":{"he":"עצירה קצרה בגן לצד התיאטרון. אם השערים סגורים, המשיכו בשבילי הטיילת הציבורית.","en":"A short garden stop beside the theatre. If the gates are closed, continue along the public promenade.","pl":"Krótki postój w ogrodzie obok teatru. Jeśli bramy są zamknięte, idź dalej publiczną promenadą.","de":"Kurzer Gartenhalt neben dem Theater. Bei geschlossenen Toren auf der öffentlichen Promenade weitergehen.","cs":"Krátká zastávka v zahradě u divadla. Jsou-li brány zavřené, pokračujte po veřejné promenádě."}},order:insertion});const adjusted=stops.find(p=>p.day===4&&p.id==="bastion");adjusted.time="13:20";})();
 
+  // Optional coffee break near the university and river, without changing the walking stops.
+  window.PREMIUM_RECOMMENDATIONS.push({id:"cafe-lyk-wroclaw",coordinates:[51.113516,17.0312958],category:"cafe",bestDay:2});
+
   if (window.WROC_CATALOG?.registerProduct) {
     const registered = window.WROC_CATALOG.registerProduct({
       id: "wroclaw-four-days",

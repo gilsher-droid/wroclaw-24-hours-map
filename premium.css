@@ -504,3 +504,5 @@ img[src*="/botanical-garden/"]{object-fit:contain;background:#f4f0e8;}
 
 /* Keep the garden name and address on separate lines. */
 #stop-copernicus-park-wroclaw :is(h3,p),.premium-popup:has(img[src*="/club-copernicus-oct29/"]) :is(strong,p){white-space:pre-line}
+
+article[data-canonical-place-id="cafe-lyk-wroclaw"] :is(h3,p){white-space:pre-line}

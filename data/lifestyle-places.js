@@ -158,6 +158,8 @@
     place("herbal", ["sleep"], [51.1087658,17.0242642], "Herbal Hotel & SPA", sourceHotel, hotelPost, null, t("ברובע ארבע הדתות, קרוב לאוכל ולחיי הערב.", "In the Four Denominations District, close to food and evening life.", "W Dzielnicy Czterech Wyznań, blisko restauracji i życia wieczornego.", "Im Viertel der vier Konfessionen, nahe Gastronomie und Abendleben.", "Ve čtvrti čtyř vyznání, blízko restaurací a večerního života."))
   ];
 
+  window.WROC_LIFESTYLE_PLACES.unshift({id:"cafe-lyk-wroclaw",categories:["drink"],coordinates:[51.113516,17.0312958],mediaKey:"cafe-lyk-wroclaw"});
+
   if (window.WROC_CATALOG?.registerProduct) {
     const registered = window.WROC_CATALOG.registerProduct({
       id: "lifestyle-guide",
