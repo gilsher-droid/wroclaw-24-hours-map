@@ -1,3 +1,4 @@
+import {beforeDiningSnapshot,withoutDining} from './dining-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -5,10 +6,11 @@ const p=JSON.parse(readFileSync('data/bridges-north-approved-additions.json'));
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const additions=new Set(p.newIds);
 export const bridgesNorthAdditionIds=p.newIds;
-export function assertReviewedBridgesNorth(places){for(const id of p.newIds)if(places[id])assert.equal(hash(places[id]),p.approvedRecordHashes[id],'Unreviewed northern place: '+id);}
+export function assertReviewedBridgesNorth(places){for(const id of p.newIds)if(places[id])assert.equal(hash(withoutDining(places[id])),p.approvedRecordHashes[id],'Unreviewed northern place: '+id);}
 // Project only this independently checked addition out of older receipts.
 // Existing records, unexpected IDs and existing getter results pass through.
 export function beforeBridgesNorthSnapshot(w){
+ beforeDiningSnapshot(w);
  const c=w.WROC_CATALOG;
  if(c){assertReviewedBridgesNorth(c.places);w.WROC_CATALOG={...c,places:Object.fromEntries(Object.entries(c.places).filter(([id])=>!additions.has(id))),products:Object.fromEntries(Object.entries(c.products).map(([id,product])=>[id,id==='lower-silesia-excursions'?{...product,places:product.places.filter(x=>!additions.has(x.placeId))}:product])),getPlace:id=>{const value=c.getPlace(id);if(value&&additions.has(c.resolveId(id))){assert.equal(hash(value),p.approvedRecordHashes[c.resolveId(id)]);return null;}return value;}};}
  const r=w.WROC_EXPERIENCE_CATALOG;

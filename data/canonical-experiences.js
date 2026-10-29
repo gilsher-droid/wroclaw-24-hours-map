@@ -623,6 +623,169 @@
   }
 });
 
+  // BEGIN GENERATED DINING EXPERIENCES
+  experiences.push(...[
+  {
+    "id": "foodies-wroclaw",
+    "type": "culinary-discovery",
+    "categories": [
+      "food"
+    ],
+    "name": {
+      "he": "וורוצלב לפודיז",
+      "en": "Wrocław for food lovers",
+      "pl": "Wrocław dla smakoszy",
+      "de": "Wrocław für Feinschmecker",
+      "cs": "Vratislav pro gurmány"
+    },
+    "description": {
+      "he": "מארוחה פולנית פשוטה ועד פוקאצ׳ה, מטבחים שונים ומתחם אוכל. זו בחירה מתוך המקומות המתועדים שלנו שסוגם אומת, לא מסלול חובה או דירוג מסעדות. בוחרים אזור, סוג מקום או מטבח ומשוטטים לפי החשק.",
+      "en": "From a simple Polish meal to focaccia, different cuisines and a food hall. Discover documented places with verified venue types, not a compulsory route or restaurant ranking. Choose an area, venue or cuisine and explore at your own pace.",
+      "pl": "Od prostego polskiego posiłku po focaccię, różne kuchnie i halę gastronomiczną. To wybór naszych udokumentowanych miejsc ze zweryfikowanym typem lokalu, nie obowiązkowa trasa ani ranking. Wybierz okolicę, typ miejsca lub kuchnię.",
+      "de": "Vom einfachen polnischen Essen bis zur Focaccia, verschiedenen Küchen und einer Foodhall. Unsere dokumentierten Orte mit bestätigter Einordnung, keine Pflichtstrecke oder Rangliste. Wählen Sie Viertel, Lokaltyp oder Küche.",
+      "cs": "Od jednoduchého polského jídla po focacciu, různé kuchyně a gastronomickou halu. Výběr našich zdokumentovaných míst s ověřeným typem podniku, nikoli povinná trasa nebo žebříček. Vyberte oblast, typ místa či kuchyni."
+    },
+    "subtitle": {
+      "he": "מארוחה פולנית פשוטה ועד פוקאצ׳ה, מטבחים שונים ומתחם אוכל. זו בחירה מתוך המקומות המתועדים שלנו שסוגם אומת, לא מסלול חובה או דירוג מסעדות. בוחרים אזור, סוג מקום או מטבח ומשוטטים לפי החשק.",
+      "en": "From a simple Polish meal to focaccia, different cuisines and a food hall. Discover documented places with verified venue types, not a compulsory route or restaurant ranking. Choose an area, venue or cuisine and explore at your own pace.",
+      "pl": "Od prostego polskiego posiłku po focaccię, różne kuchnie i halę gastronomiczną. To wybór naszych udokumentowanych miejsc ze zweryfikowanym typem lokalu, nie obowiązkowa trasa ani ranking. Wybierz okolicę, typ miejsca lub kuchnię.",
+      "de": "Vom einfachen polnischen Essen bis zur Focaccia, verschiedenen Küchen und einer Foodhall. Unsere dokumentierten Orte mit bestätigter Einordnung, keine Pflichtstrecke oder Rangliste. Wählen Sie Viertel, Lokaltyp oder Küche.",
+      "cs": "Od jednoduchého polského jídla po focacciu, různé kuchyně a gastronomickou halu. Výběr našich zdokumentovaných míst s ověřeným typem podniku, nikoli povinná trasa nebo žebříček. Vyberte oblast, typ místa či kuchyni."
+    },
+    "relatedCanonicalPlaceIds": [
+      "ato-ramen",
+      "bar-mis",
+      "bar-mleczny-mewa-wroclaw",
+      "charlotte",
+      "frytki",
+      "india-concept-wroclaw",
+      "mania-al-taglio-kuznicza",
+      "marietta-focacceria-wroclaw",
+      "olio-pizza-napoletana-wroclaw",
+      "pan-precel",
+      "pan-precel-express-grunwaldzki",
+      "pan-precel-olawska",
+      "pedet",
+      "peruwiana",
+      "pizza-si",
+      "raito-sushi-wroclaw",
+      "rozowa-krowa-milk-bar-wroclaw",
+      "vega-bar-weganski-wroclaw",
+      "vegan-af-ramen"
+    ],
+    "productRefs": [
+      "lifestyle-guide"
+    ],
+    "mapPoints": [],
+    "media": {
+      "hero": {
+        "canonicalPlaceId": "charlotte",
+        "photoIndex": 0
+      },
+      "inheritFromCanonicalPlaceIds": [
+        "ato-ramen",
+        "bar-mis",
+        "bar-mleczny-mewa-wroclaw",
+        "charlotte",
+        "frytki",
+        "india-concept-wroclaw",
+        "mania-al-taglio-kuznicza",
+        "marietta-focacceria-wroclaw",
+        "olio-pizza-napoletana-wroclaw",
+        "pan-precel",
+        "pan-precel-express-grunwaldzki",
+        "pan-precel-olawska",
+        "pedet",
+        "peruwiana",
+        "pizza-si",
+        "raito-sushi-wroclaw",
+        "rozowa-krowa-milk-bar-wroclaw",
+        "vega-bar-weganski-wroclaw",
+        "vegan-af-ramen"
+      ],
+      "inheritSocial": true
+    },
+    "diningFilters": {
+      "category": "eat"
+    },
+    "metadata": {
+      "source": "data/place-dining.json",
+      "selection": "Generated through shared structured classification; no place count quota; Wrocław only.",
+      "verifiedAt": "2026-10-29"
+    }
+  },
+  {
+    "id": "vegetarian-vegan-wroclaw",
+    "type": "culinary-discovery",
+    "categories": [
+      "food"
+    ],
+    "name": {
+      "he": "וורוצלב לצמחונים ולטבעונים",
+      "en": "Vegetarian and vegan Wrocław",
+      "pl": "Wrocław wegetariański i wegański",
+      "de": "Vegetarisch und vegan in Wrocław",
+      "cs": "Vegetariánská a veganská Vratislav"
+    },
+    "description": {
+      "he": "מקומות טבעוניים, מקומות צמחוניים ומקומות מעורבים עם אפשרויות מתאימות שאומתו במקור. הסיווג מוצג לכל מקום בנפרד, ואינו מבטיח זמינות של מנה מסוימת. בוחרים העדפה וממשיכים למפה או לחיפוש בסביבה.",
+      "en": "Entirely vegan and vegetarian venues, plus mixed venues with verified suitable options. Each place has its own evidence-based classification; this does not guarantee availability of a particular dish. Choose a preference and explore the map or nearby search.",
+      "pl": "Lokale całkowicie wegańskie i wegetariańskie oraz mieszane z potwierdzonymi odpowiednimi opcjami. Klasyfikacja dotyczy każdego miejsca osobno i nie gwarantuje dostępności dania. Wybierz preferencję i przeglądaj mapę lub okolicę.",
+      "de": "Rein vegane und vegetarische Lokale sowie gemischte Betriebe mit bestätigten passenden Optionen. Jeder Ort hat eine eigene belegte Einordnung, ohne Garantie für einzelne Gerichte. Wählen Sie Ihren Wunsch und erkunden Sie Karte oder Umgebung.",
+      "cs": "Zcela veganské a vegetariánské podniky i smíšené podniky s ověřenými vhodnými možnostmi. Každé místo má vlastní doložené zařazení, nikoli záruku dostupnosti konkrétního jídla. Vyberte preference a prozkoumejte mapu či okolí."
+    },
+    "subtitle": {
+      "he": "מקומות טבעוניים, מקומות צמחוניים ומקומות מעורבים עם אפשרויות מתאימות שאומתו במקור. הסיווג מוצג לכל מקום בנפרד, ואינו מבטיח זמינות של מנה מסוימת. בוחרים העדפה וממשיכים למפה או לחיפוש בסביבה.",
+      "en": "Entirely vegan and vegetarian venues, plus mixed venues with verified suitable options. Each place has its own evidence-based classification; this does not guarantee availability of a particular dish. Choose a preference and explore the map or nearby search.",
+      "pl": "Lokale całkowicie wegańskie i wegetariańskie oraz mieszane z potwierdzonymi odpowiednimi opcjami. Klasyfikacja dotyczy każdego miejsca osobno i nie gwarantuje dostępności dania. Wybierz preferencję i przeglądaj mapę lub okolicę.",
+      "de": "Rein vegane und vegetarische Lokale sowie gemischte Betriebe mit bestätigten passenden Optionen. Jeder Ort hat eine eigene belegte Einordnung, ohne Garantie für einzelne Gerichte. Wählen Sie Ihren Wunsch und erkunden Sie Karte oder Umgebung.",
+      "cs": "Zcela veganské a vegetariánské podniky i smíšené podniky s ověřenými vhodnými možnostmi. Každé místo má vlastní doložené zařazení, nikoli záruku dostupnosti konkrétního jídla. Vyberte preference a prozkoumejte mapu či okolí."
+    },
+    "relatedCanonicalPlaceIds": [
+      "charlotte",
+      "frytki",
+      "india-concept-wroclaw",
+      "pan-precel",
+      "pan-precel-express-grunwaldzki",
+      "pan-precel-olawska",
+      "peruwiana",
+      "vega-bar-weganski-wroclaw",
+      "vegan-af-ramen"
+    ],
+    "productRefs": [
+      "lifestyle-guide"
+    ],
+    "mapPoints": [],
+    "media": {
+      "hero": {
+        "canonicalPlaceId": "vega-bar-weganski-wroclaw",
+        "photoIndex": 0
+      },
+      "inheritFromCanonicalPlaceIds": [
+        "charlotte",
+        "frytki",
+        "india-concept-wroclaw",
+        "pan-precel",
+        "pan-precel-express-grunwaldzki",
+        "pan-precel-olawska",
+        "peruwiana",
+        "vega-bar-weganski-wroclaw",
+        "vegan-af-ramen"
+      ],
+      "inheritSocial": true
+    },
+    "diningFilters": {
+      "dietary": "vegetarian"
+    },
+    "metadata": {
+      "source": "data/place-dining.json",
+      "selection": "Generated through shared structured classification; no place count quota; Wrocław only.",
+      "verifiedAt": "2026-10-29"
+    }
+  }
+]);
+  // END GENERATED DINING EXPERIENCES
+
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
   const getExperience = (id) => byId[id] || null;
   const forProduct = (productId) => experiences.filter((experience) => experience.productRefs.includes(productId));

@@ -7,7 +7,7 @@ const root=resolve(import.meta.dirname,"..");
 test("Nadodrze media enriches its existing area without leaking to Olbin or duplicating places",()=>{
  const ctx={window:{},console}; for(const f of ["place-catalog","canonical-experiences","cultural-places"])runInNewContext(readFileSync(resolve(root,`data/${f}.js`),"utf8"),ctx);
  const w=ctx.window,e=w.WROC_EXPERIENCE_CATALOG.getExperience("street-art-nadodrze-olbin");
- assert.equal(w.WROC_EXPERIENCE_CATALOG.experiences.length,15);
+ assert.equal(w.WROC_EXPERIENCE_CATALOG.experiences.length,17);
  assert.equal(w.WROC_CULTURAL_EXPERIENCES.filter(x=>x.id===e.id).length,1);
  assert.equal(w.WROC_CATALOG.getPlace("nadodrze"),null);
  assert.deepEqual(Array.from(e.mapPoints,p=>p.id),["nadodrze","olbin"]);

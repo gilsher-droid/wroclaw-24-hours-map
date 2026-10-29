@@ -1,0 +1,74 @@
+WROC-LOVE nearby search: connection review, 29 October 2026
+
+Status
+The local map, radius search and two culinary experiences work without AI.
+The internal AI client, schema, validation and two provider adapters are implemented.
+No provider has been activated, no API key is present, and no paid test request was made.
+The visible chat is explicitly disabled. This is not a live AI completion claim.
+Production publication is not authorized for this development assignment.
+
+Connection layout
+Public configuration: nearby-chat-config.js (enabled:false, API endpoint only).
+Browser transport: nearby-chat-client.js.
+Existing-hosting endpoint to install after review:
+bluehost-api/public/nearby-chat/index.php and contract.php
+Private configuration example: bluehost-api/nearby-chat-config.example.php.
+On the existing API host, place the real configuration in nearby-chat-private/config.php
+outside the public document root. Never add that file or its key to Git.
+The deployed URL would be https://api.wroc-love.com/nearby-chat/.
+The prototype is currently local only. No server deployment was attempted.
+
+Provider choices for a small controlled comparison, not a purchase recommendation
+1. OpenAI GPT-5.4 mini: well-defined structured intent extraction, current documentation
+   lists structured outputs support. Published standard prices: $0.75 input and $4.50
+   output per million tokens.
+2. Gemini 3.1 Flash-Lite: documented for high-volume translation and simple processing,
+   with structured JSON output. Published standard prices: $0.25 input and $1.50 output
+   per million text tokens.
+No five-language quality or latency winner is asserted without actual comparative tests.
+Use the same Hebrew, English, Polish, German and Czech follow-up corpus before choosing.
+For illustration only, 1,000 calls averaging 2,000 input and 400 billed output tokens
+would be approximately $3.30 or $1.10 respectively at these prices. Actual input length,
+reasoning/output billing, model availability, taxes and prices may differ. This is not
+an account balance, a promise of free use, or a monetary spending cap.
+The existing company ChatGPT membership is not evidence of API entitlement or credit.
+
+Privacy and safeguards
+Distance and radius inclusion are calculated locally. Model input contains the current
+filters, at most 60 already displayed canonical IDs/names/rounded distances and the
+user's current message. It excludes automatic device coordinates, customer accounts,
+private maps, photographs and conversation logs. Users can still type sensitive data;
+the interface asks them not to. No server prompt/response logging is implemented.
+Provider retention and data-use terms require review for the actual account/tier.
+OpenAI requests set store:false; this does not by itself assert zero provider retention.
+No free-tier privacy or availability promise is made for Gemini.
+The endpoint validates input/output, refuses unknown fields and invented result IDs,
+restricts server-configured provider/model endpoints, has no redirect following,
+uses a timeout, per-client hourly pseudonymous rate counters and a global daily request
+limit. The counter charges every attempt, including failures, before the provider call.
+Defaults in the disabled example: 12 calls/client/hour, 100 calls/day, at most 500 output
+tokens per call. Rate limits are not a monetary cap; provider-side spending controls
+must also be reviewed. No automatic provider fallback, model upgrade or retry billing.
+The client invalidates stale results whenever the centre or filters change.
+Changing the search centre to a referenced result requires an explicit dialog.
+The server cannot attest device radius membership without device coordinates; the
+browser independently validates references and re-runs canonical local search.
+
+Activation checklist for the eventual approved step
+Confirm provider/account, exact model, billing source, retention policy and approved cap.
+Install endpoint and private configuration on existing hosting, keep enabled false.
+Check PHP/cURL, origin allowlist and private storage permissions.
+Configure provider-side spend limits. Enter key on server privately.
+With explicit paid testing approval, enable a small controlled test and run the full
+five-language follow-up cases, invalid output, timeout and usage-limit tests.
+Verify the exact saved configuration, then enable public routing only for approved
+origins. Review the concrete final prototype before any production merge or deployment.
+If an account already has a permitted API connection, verify that rather than buying
+anything. No balance or billing source is currently known.
+
+Official documentation checked
+https://developers.openai.com/api/docs/guides/function-calling
+https://developers.openai.com/api/docs/models/gpt-5.4-mini
+https://ai.google.dev/gemini-api/docs/function-calling
+https://ai.google.dev/gemini-api/docs/structured-output
+https://ai.google.dev/gemini-api/docs/pricing

@@ -1,3 +1,4 @@
+import {withoutDining} from './dining-historical-baseline.mjs';
 import {bridgesNorthAdditionIds,assertReviewedBridgesNorth} from './bridges-north-historical-baseline.mjs';
 import{dialogueBeachAdditionIds,assertReviewedDialogueBeach}from'./dialogue-beach-historical-baseline.mjs';
 import{urbanAdditionIds,assertReviewedUrban}from'./urban-named-historical-baseline.mjs';
@@ -12,4 +13,4 @@ import {readFileSync} from 'node:fs';
 // The separately authorized Bielsko/Opole addition has its own preservation
 // test against all269 prior records and all7 prior excursion objects.
 const additions = new Set([...bridgesNorthAdditionIds,...dialogueBeachAdditionIds,...urbanAdditionIds,lykAdditionId,...clubParkAdditionIds,"swidnica-market-square",...JSON.parse(readFileSync('data/poznan-excursion-place-ids.json', 'utf8')), ...JSON.parse(readFileSync('data/slovakia-bielsko-opole-place-ids.json', 'utf8')), ...JSON.parse(readFileSync('data/torun-excursion-place-ids.json', 'utf8'))]);
-export const historicalPlaceIds = places => {assertReviewedBridgesNorth(places);assertReviewedDialogueBeach(places);assertReviewedUrban(places);assertReviewedLyk(places);assertReviewedClubPark(places);return Object.keys(places).filter(id => !additions.has(id));};
+export const historicalPlaceIds = places => {places=Object.fromEntries(Object.entries(places).map(([id,p])=>[id,withoutDining(p)]));assertReviewedBridgesNorth(places);assertReviewedDialogueBeach(places);assertReviewedUrban(places);assertReviewedLyk(places);assertReviewedClubPark(places);return Object.keys(places).filter(id => !additions.has(id));};

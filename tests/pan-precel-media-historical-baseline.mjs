@@ -1,3 +1,4 @@
+import {withoutDining} from './dining-historical-baseline.mjs';
 import{beforeUrbanRecord}from'./urban-named-historical-baseline.mjs';
 import {beforeBotanicalMedia} from './botanical-media-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
@@ -9,7 +10,7 @@ const approved=JSON.parse(readFileSync('data/pan-precel-oct28-media-provenance.j
 const plain=value=>JSON.parse(JSON.stringify(value));
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const window={};runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window});
-const current=window.WROC_CATALOG.getPlace(approved.canonicalID);
+const current=withoutDining(window.WROC_CATALOG.getPlace(approved.canonicalID));
 // Always validate the real current catalog, even when a historical test passes
 // an already projected value through both its plain() and hash() wrappers.
 assert.equal(hash(current),approved.approvedRecordSHA256,'Unapproved current Pan Precel delta');
@@ -21,6 +22,7 @@ assert.deepEqual(restoredCurrent,baseline.targetBefore,'Non-media identity, link
 // canonical record may project to its preceding media state. All other 298
 // records pass through untouched and are checked independently by the new test.
 export function beforePanPrecelMedia(value){
+ value=withoutDining(value);
  value=beforeBotanicalMedia(beforeUrbanRecord(value));
  if(!value||value.id!==approved.canonicalID||!value.location||!value.socialPosts)return value;
  const signature=hash(value);
