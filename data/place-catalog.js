@@ -61895,7 +61895,8 @@
       "photos": [
         "/assets/named-wroclaw-oct28/source-040.jpg",
         "/assets/named-wroclaw-oct28/source-041.jpg",
-        "/assets/named-wroclaw-oct28/source-042.jpg"
+        "/assets/named-wroclaw-oct28/source-042.jpg",
+        "/assets/solny-oct28/source-2635.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -61982,6 +61983,26 @@
           "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
           "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
           "captureAction": "append-distinct-original"
+        },
+        "/assets/solny-oct28/source-2635.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/כיכר המלח/IMG_2635.JPG",
+          "sourceSHA256": "5e5d24db9ae79ab5bbac0b46e85f39a392f96d4803f462ce0362571a66829262",
+          "assetSHA256": "5e5d24db9ae79ab5bbac0b46e85f39a392f96d4803f462ce0362571a66829262",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פעילות ציבורית ברחבת כיכר המלח בוורוצלב",
+            "en": "Public activity on Salt Square in Wrocław",
+            "pl": "Życie placu Solnego we Wrocławiu",
+            "de": "Öffentliches Leben auf dem Salzmarkt in Wrocław",
+            "cs": "Veřejný ruch na Solném náměstí ve Vratislavi"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/expanded-human-scope-and-file-plan.json",
+          "captionScope": "Public scene observed in historical visit photograph; no current event or personal relationship claimed"
         }
       }
     },
@@ -65335,6 +65356,406 @@
       "de",
       "cs"
     ]
+  },
+  "swidnica-market-square": {
+    "id": "swidnica-market-square",
+    "localName": "Rynek w Świdnicy",
+    "name": {
+      "he": "כיכר השוק של שווידניצה",
+      "en": "Świdnica Market Square",
+      "pl": "Rynek w Świdnicy",
+      "de": "Marktplatz von Świdnica",
+      "cs": "Tržní náměstí ve Svídnici"
+    },
+    "description": {
+      "he": "הלב ההיסטורי והצבעוני של שווידניצה: כיכר בעלת מתווה מימי הביניים, חזיתות מתקופות שונות, מזרקות בארוקיות ובית העירייה עם מגדל התצפית. אחרי כנסיית השלום כדאי להקיף את הכיכר לאט, להתבונן בפרטים האדריכליים ולעצור לקפה או לארוחה.",
+      "en": "Świdnica’s colourful historic heart: a market square with a medieval layout, façades from different periods, Baroque fountains and the town hall with its viewing tower. After the Church of Peace, take an unhurried circuit of the square, notice the architectural details and pause for coffee or a meal.",
+      "pl": "Barwne historyczne serce Świdnicy: Rynek o średniowiecznym układzie, z kamienicami z różnych epok, barokowymi fontannami i ratuszem z wieżą widokową. Po Kościele Pokoju warto spokojnie obejść plac, przyjrzeć się detalom architektury i zatrzymać się na kawę lub posiłek.",
+      "de": "Das farbenfrohe historische Herz von Świdnica: ein Marktplatz mit mittelalterlichem Grundriss, Fassaden aus verschiedenen Epochen, barocken Brunnen und dem Rathaus mit Aussichtsturm. Nach der Friedenskirche lohnt sich eine ruhige Runde um den Platz mit Blick auf die architektonischen Details und einer Pause für Kaffee oder Essen.",
+      "cs": "Barevné historické srdce Svídnice: náměstí se středověkým půdorysem, fasádami z různých období, barokními kašnami a radnicí s vyhlídkovou věží. Po návštěvě Kostela míru si náměstí v klidu obejděte, všimněte si architektonických detailů a zastavte se na kávu nebo jídlo."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "swidnica",
+      "coordinates": {
+        "lat": 50.8422,
+        "lng": 16.4877
+      },
+      "address": {
+        "street": "Rynek",
+        "postalCode": "58-100",
+        "city": "Świdnica",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "historical-landmark",
+      "walk"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "high",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "historical-landmark",
+        "walk"
+      ],
+      "tags": [
+        "market-square",
+        "old-town",
+        "town-hall",
+        "baroque-fountains",
+        "original-photography"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [
+        "history",
+        "architecture",
+        "photography",
+        "coffee"
+      ],
+      "walkingIntensity": "light",
+      "familyFriendly": true,
+      "couples": true,
+      "solo": true,
+      "romantic": true,
+      "indoorOutdoor": "outdoor",
+      "rainFriendly": false,
+      "budgetLevel": "free",
+      "accessibility": {
+        "level": "partial",
+        "notes": "The open square is mostly level cobbles; individual attractions may have separate access conditions."
+      }
+    },
+    "visit": {
+      "durationMinutes": 60,
+      "bestTimeOfDay": [
+        "morning",
+        "late-afternoon"
+      ],
+      "seasonalSuitability": [
+        "spring",
+        "summer",
+        "autumn",
+        "winter"
+      ],
+      "openingHoursNotes": "The square is public; check the official tower site separately before planning a tower visit."
+    },
+    "links": {
+      "website": "https://www.wieza.swidnica.pl/pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=Rynek%2C%2058-100%20%C5%9Awidnica%2C%20Poland",
+        "appleMaps": "https://maps.apple.com/?q=Rynek%2C%20%C5%9Awidnica%2C%20Poland"
+      }
+    },
+    "transport": {
+      "carRequired": false,
+      "publicTransportNotes": "The market square is in central Świdnica and can be reached on foot from the city-centre stops and station area.",
+      "parkingNotes": "Use signed public parking outside the pedestrian core and verify current restrictions on arrival.",
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "personalVisit": true,
+      "originalContent": true,
+      "originalPhotography": true,
+      "sourceFolder": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק",
+      "sourceOriginalsModified": false,
+      "excludedSourceFiles": [
+        {
+          "file": "IMG_2796.JPG",
+          "reason": "Displayed personal-image approval pending; original preserved"
+        },
+        {
+          "file": "IMG_2798.JPG",
+          "reason": "Road and private in-car navigation view, not a photograph of the market square"
+        },
+        {
+          "file": "IMG_2799.JPG",
+          "reason": "Roadside street frame with no demonstrated market-square subject"
+        }
+      ],
+      "factualSources": [
+        {
+          "type": "municipal",
+          "url": "https://um.swidnica.pl/media/dokumenty/Rewitalizacja/LOKALNY_PROGRAM_REWITALIZACJI_SWIDNIC%20_21.08.09_-2.pdf",
+          "checkedAt": "2026-10-28",
+          "note": "Supports the medieval layout, historic building ensemble and market-square role."
+        },
+        {
+          "type": "official-attraction",
+          "url": "https://www.wieza.swidnica.pl/pl/",
+          "checkedAt": "2026-10-28",
+          "note": "Official visitor reference for the town-hall viewing tower. Text fetch returned502 on2026-10-28; indexed official material corroborates its visitor role. Check current conditions directly."
+        },
+        {
+          "type": "municipal-bulletin",
+          "url": "https://www.wroclaw.pl/extra/files/dokumenty/41328/buiuletyn-wroclawpl-37.pdf",
+          "checkedAt": "2026-10-28",
+          "note": "April2021 municipal bulletin supports the medieval market layout, sculpted fountains and rebuilt viewing tower; historical context, no current visitor conditions claimed"
+        }
+      ],
+      "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+    },
+    "media": {
+      "thumbnail": "/assets/swidnica-market-square-oct28/source-001.jpg",
+      "photos": [
+        "/assets/swidnica-market-square-oct28/source-001.jpg",
+        "/assets/swidnica-market-square-oct28/source-002.jpg",
+        "/assets/swidnica-market-square-oct28/source-003.jpg",
+        "/assets/swidnica-market-square-oct28/source-004.jpg",
+        "/assets/swidnica-market-square-oct28/source-005.jpg",
+        "/assets/swidnica-market-square-oct28/source-006.jpg",
+        "/assets/swidnica-market-square-oct28/source-007.jpg",
+        "/assets/swidnica-market-square-oct28/source-008.jpg",
+        "/assets/swidnica-market-square-oct28/source-009.jpg",
+        "/assets/swidnica-market-square-oct28/source-010.jpg",
+        "/assets/swidnica-market-square-oct28/source-012.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/swidnica-market-square-oct28/source-001.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/00DB2B66-7F55-4B64-87FB-F897E0FCF011.JPG",
+          "sourceSHA256": "51db64f664a547886214f0b23f3d20331e15711765900c2ad4609b6ef5f85441",
+          "assetSHA256": "51db64f664a547886214f0b23f3d20331e15711765900c2ad4609b6ef5f85441",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "sourceExifOrientation": 6,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מגדל השעון ובית העירייה בכיכר השוק של שווידניצה",
+            "en": "Town-hall clock tower and facade on Świdnica Market Square",
+            "pl": "Wieża zegarowa i ratusz na Rynku w Świdnicy",
+            "de": "Rathaus und Uhrturm am Marktplatz von Świdnica",
+            "cs": "Radnice a hodinová věž na náměstí ve Svídnici"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-002.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/0FEB3F35-5617-414B-8E30-89A96D53B2CF.JPG",
+          "sourceSHA256": "36d446fdd7ec1bd81af960a10175f2871c1b7e229e398eb0d6d6a182e804658c",
+          "assetSHA256": "36d446fdd7ec1bd81af960a10175f2871c1b7e229e398eb0d6d6a182e804658c",
+          "sourceDimensions": [
+            3664,
+            2062
+          ],
+          "sourceExifOrientation": 5,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מהביקור שלנו בכיכר השוק של שווידניצה",
+            "en": "Our visit to Świdnica Market Square",
+            "pl": "Nasza wizyta na Rynku w Świdnicy",
+            "de": "Unser Besuch am Marktplatz von Świdnica",
+            "cs": "Naše návštěva náměstí ve Svídnici"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json",
+          "specificPersonalApproval": {
+            "receipt": "swidnica-market-square-2026-10-28/source2-actiontime-human-photo-approval.json",
+            "sourceSHA256": "36d446fdd7ec1bd81af960a10175f2871c1b7e229e398eb0d6d6a182e804658c",
+            "scope": "Public WROC-LOVE website and public repository; exact displayed photograph"
+          }
+        },
+        "/assets/swidnica-market-square-oct28/source-003.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/AFC07EF7-7116-4293-9194-ED84427D83A8.JPG",
+          "sourceSHA256": "9f686a089ad255c5e919ca88bb2ec9807aa0b017bf18dce8143d52cfc78d80ea",
+          "assetSHA256": "9f686a089ad255c5e919ca88bb2ec9807aa0b017bf18dce8143d52cfc78d80ea",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "sourceExifOrientation": 1,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט רחב על כיכר השוק ובית העירייה בשווידניצה",
+            "en": "Wide view of the market square and town hall in Świdnica",
+            "pl": "Szeroki widok Rynku i ratusza w Świdnicy",
+            "de": "Weiter Blick auf Marktplatz und Rathaus in Świdnica",
+            "cs": "Široký pohled na náměstí a radnici ve Svídnici"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/DB426E85-6111-46F0-B076-DF3E0FFAD877.JPG",
+          "sourceSHA256": "f0b08b6261ea3a4d8efcd066c2e18f1fe2c0a2dfdb324ab0d9d6d3b3d4d50790",
+          "assetSHA256": "f0b08b6261ea3a4d8efcd066c2e18f1fe2c0a2dfdb324ab0d9d6d3b3d4d50790",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "sourceExifOrientation": 6,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזיתות צבעוניות ואגן המזרקה בכיכר השוק",
+            "en": "Colourful facades and fountain basin on the market square",
+            "pl": "Kolorowe fasady i basen fontanny na Rynku",
+            "de": "Farbige Fassaden und Brunnenbecken am Marktplatz",
+            "cs": "Barevné fasády a nádrž kašny na náměstí"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-005.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/E5EBF196-5ED2-4CAC-91F8-C9FC5F24B122.JPG",
+          "sourceSHA256": "0147301ebf94e88d3f28525bf18707aee4f82103138429e328bcc708391d399f",
+          "assetSHA256": "0147301ebf94e88d3f28525bf18707aee4f82103138429e328bcc708391d399f",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "sourceExifOrientation": 6,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזיתות, פרחים ועמוד בכיכר השוק של שווידניצה",
+            "en": "Facades, flowers and column on Świdnica Market Square",
+            "pl": "Fasady, kwiaty i kolumna na Rynku w Świdnicy",
+            "de": "Fassaden, Blumen und Säule am Marktplatz von Świdnica",
+            "cs": "Fasády, květiny a sloup na náměstí ve Svídnici"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-006.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/IMG_2791.JPG",
+          "sourceSHA256": "7e4e00ff264c129f3cf308cbee2a21f3affb734cd33da486bc11685c7af02be3",
+          "assetSHA256": "7e4e00ff264c129f3cf308cbee2a21f3affb734cd33da486bc11685c7af02be3",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "sourceExifOrientation": 1,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מבט מקרוב על הפתח המגולף בכיכר השוק",
+            "en": "Close view of a carved market-square doorway",
+            "pl": "Zbliżenie rzeźbionego portalu przy Rynku",
+            "de": "Nahansicht eines geschnitzten Portals am Marktplatz",
+            "cs": "Detail vyřezávaného portálu u náměstí"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-007.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/IMG_2792.JPG",
+          "sourceSHA256": "eb383fa716ec54c228c3f4206218a6ad7082c844f41c7576ed7d24d8c886e510",
+          "assetSHA256": "eb383fa716ec54c228c3f4206218a6ad7082c844f41c7576ed7d24d8c886e510",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "sourceExifOrientation": 1,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "זווית נוספת של הפתח המגולף בכיכר השוק",
+            "en": "Another angle of the carved market-square doorway",
+            "pl": "Inne ujęcie rzeźbionego portalu przy Rynku",
+            "de": "Weiterer Blickwinkel auf das geschnitzte Portal am Marktplatz",
+            "cs": "Další úhel pohledu na vyřezávaný portál u náměstí"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-008.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/IMG_2793.JPG",
+          "sourceSHA256": "7a4834684d57719c0385155512e02b674ef5fd91320a7f669c01391a9ca03253",
+          "assetSHA256": "7a4834684d57719c0385155512e02b674ef5fd91320a7f669c01391a9ca03253",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "sourceExifOrientation": 1,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "הפתח המגולף ומספר הבית בכיכר השוק",
+            "en": "Carved doorway and house number on the market square",
+            "pl": "Rzeźbiony portal i numer domu przy Rynku",
+            "de": "Geschnitztes Portal und Hausnummer am Marktplatz",
+            "cs": "Vyřezávaný portál a číslo domu na náměstí"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-009.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/IMG_2794.JPG",
+          "sourceSHA256": "89d97a847232dbbeab81bcc0ed7b510481a5a680ee0bc82b0b247da0c79724a5",
+          "assetSHA256": "89d97a847232dbbeab81bcc0ed7b510481a5a680ee0bc82b0b247da0c79724a5",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "sourceExifOrientation": 1,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "פתח מעוטר בסמל ספינה בחזית בכיכר השוק",
+            "en": "Ornate entrance with a ship emblem on a market-square facade",
+            "pl": "Ozdobne wejście z godłem statku na fasadzie przy Rynku",
+            "de": "Verzierter Eingang mit Schiffswappen an einer Marktplatzfassade",
+            "cs": "Zdobený vstup se znakem lodi na fasádě u náměstí"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-010.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/IMG_2795.JPG",
+          "sourceSHA256": "a2502f29bed35b44bad92582314c7c968f6f55741668f4184032353c27a19ed6",
+          "assetSHA256": "a2502f29bed35b44bad92582314c7c968f6f55741668f4184032353c27a19ed6",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "sourceExifOrientation": 1,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מזרקה, פנסי רחוב ופרחים בכיכר השוק",
+            "en": "Fountain, street lamps and flowers on the market square",
+            "pl": "Fontanna, latarnie i kwiaty na Rynku",
+            "de": "Brunnen, Straßenlaternen und Blumen auf dem Marktplatz",
+            "cs": "Kašna, lampy a květiny na náměstí"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-012.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/שויידניצה רינק/IMG_2797.JPG",
+          "sourceSHA256": "fec3d77b6b5c87fecee4c7d16876b6fc13de31bac9aee65be80cc65b90dffd72",
+          "assetSHA256": "fec3d77b6b5c87fecee4c7d16876b6fc13de31bac9aee65be80cc65b90dffd72",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "sourceExifOrientation": 1,
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "ציור הקיר של אנדז׳יי ויידה בהליכה במרכז שווידניצה",
+            "en": "Andrzej Wajda mural on the walk through central Świdnica",
+            "pl": "Mural Andrzeja Wajdy podczas spaceru po centrum Świdnicy",
+            "de": "Andrzej-Wajda-Wandbild beim Spaziergang durch das Zentrum von Świdnica",
+            "cs": "Nástěnná malba Andrzeje Wajdy při procházce centrem Svídnice"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "szkocka-cocktail-bar": {
     "id": "szkocka-cocktail-bar",

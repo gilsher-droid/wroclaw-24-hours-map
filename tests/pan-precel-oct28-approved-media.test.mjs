@@ -1,3 +1,4 @@
+import{beforeSwidnicaSnapshot}from'./swidnica-solny-historical-baseline.mjs';
 import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
@@ -6,6 +7,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 const w={};w.window=w;
 for(const file of ['data/place-catalog.js','data/location-media.js','data/lower-silesia-excursions.js'])vm.runInNewContext(readFileSync(file,'utf8'),w);
+beforeSwidnicaSnapshot(w);
 const plain=v=>JSON.parse(JSON.stringify(beforeFourDenominationsMedia(v)));
 const hash=v=>crypto.createHash('sha256').update(Buffer.isBuffer(v)?v:JSON.stringify(beforeFourDenominationsMedia(v))).digest('hex');
 const baseline=JSON.parse(readFileSync('tests/fixtures/pan-precel-oct28-preintegration.json'));

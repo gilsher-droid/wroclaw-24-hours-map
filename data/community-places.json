@@ -3149,6 +3149,20 @@
       "lng": 17.0234579
     }
   },
+  "swidnica-market-square": {
+    "id": "swidnica-market-square",
+    "name": {
+      "he": "כיכר השוק של שווידניצה",
+      "en": "Świdnica Market Square",
+      "pl": "Rynek w Świdnicy",
+      "de": "Marktplatz von Świdnica",
+      "cs": "Tržní náměstí ve Svídnici"
+    },
+    "coordinates": {
+      "lat": 50.8422,
+      "lng": 16.4877
+    }
+  },
   "szkocka-cocktail-bar": {
     "id": "szkocka-cocktail-bar",
     "name": {

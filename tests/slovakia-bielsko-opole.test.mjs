@@ -1,3 +1,4 @@
+import{beforeSwidnicaSnapshot}from'./swidnica-solny-historical-baseline.mjs';
 import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import test from 'node:test';
@@ -6,6 +7,7 @@ import {readFileSync,existsSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
 const window={};for(const file of ['data/place-catalog.js','data/lower-silesia-excursions.js','data/home-excursions.js'])runInNewContext(readFileSync(file,'utf8'),{window});
+beforeSwidnicaSnapshot(window);
 const plain=v=>JSON.parse(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(v))));
 const hash=v=>createHash('sha256').update(typeof v==='string'||Buffer.isBuffer(v)?v:JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(v)))).digest('hex');
 const proof=JSON.parse(readFileSync('tests/fixtures/slovakia-bielsko-opole-preintegration.json'));
