@@ -14574,7 +14574,11 @@
         "lat": 51.1050088,
         "lng": 17.0343214
       },
-      "address": "Teatralna, Wrocław"
+      "address": {
+        "street": "Teatralna",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
     },
     "categories": [
       "nature"
@@ -34130,7 +34134,11 @@
         "lat": 51.104869282656,
         "lng": 17.087388038635
       },
-      "address": "Tramwajowa 1-3, Wrocław"
+      "address": {
+        "street": "Tramwajowa 1-3",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
     },
     "categories": [
       "enjoy",
