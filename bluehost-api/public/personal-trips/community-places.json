@@ -811,6 +811,20 @@
       "lng": 17.03589
     }
   },
+  "dobra-przystan-beach-bar-wroclaw": {
+    "id": "dobra-przystan-beach-bar-wroclaw",
+    "name": {
+      "he": "דוברה פשישטן, בר חוף\nDobra Przystań Beach Bar",
+      "en": "Dobra Przystań Beach Bar",
+      "pl": "Dobra Przystań Beach Bar",
+      "de": "Dobra Przystań Beachbar",
+      "cs": "Dobra Przystań Beach Bar"
+    },
+    "coordinates": {
+      "lat": 51.1007628,
+      "lng": 17.1226202
+    }
+  },
   "domek-nad-fosa-wroclaw": {
     "id": "domek-nad-fosa-wroclaw",
     "name": {
@@ -1497,6 +1511,20 @@
       "lng": 17.0433953
     }
   },
+  "kepa-mieszczanska-wroclaw": {
+    "id": "kepa-mieszczanska-wroclaw",
+    "name": {
+      "he": "האי קמפה מיישצ׳נסקה",
+      "en": "Kępa Mieszczańska island",
+      "pl": "Kępa Mieszczańska",
+      "de": "Insel Kępa Mieszczańska",
+      "cs": "Ostrov Kępa Mieszczańska"
+    },
+    "coordinates": {
+      "lat": 51.1175001,
+      "lng": 17.02196
+    }
+  },
   "klodzko-fortress": {
     "id": "klodzko-fortress",
     "name": {
@@ -1987,6 +2015,20 @@
       "lng": 17.042248
     }
   },
+  "most-zwierzyniecki-wroclaw": {
+    "id": "most-zwierzyniecki-wroclaw",
+    "name": {
+      "he": "גשר זווייז׳ינייצקי",
+      "en": "Zwierzyniecki Bridge",
+      "pl": "Most Zwierzyniecki",
+      "de": "Zwierzyniecki-Brücke",
+      "cs": "Zwierzyniecký most"
+    },
+    "coordinates": {
+      "lat": 51.108205,
+      "lng": 17.069724
+    }
+  },
   "moszna-castle": {
     "id": "moszna-castle",
     "name": {
@@ -2111,6 +2153,20 @@
     "coordinates": {
       "lat": 51.109306,
       "lng": 17.026094
+    }
+  },
+  "new-jewish-cemetery-wroclaw": {
+    "id": "new-jewish-cemetery-wroclaw",
+    "name": {
+      "he": "בית הקברות היהודי החדש\nNowy Cmentarz Żydowski",
+      "en": "New Jewish Cemetery",
+      "pl": "Nowy Cmentarz Żydowski",
+      "de": "Neuer Jüdischer Friedhof",
+      "cs": "Nový židovský hřbitov"
+    },
+    "coordinates": {
+      "lat": 51.1316829,
+      "lng": 16.9655869
     }
   },
   "nfm": {
@@ -2923,6 +2979,34 @@
     "coordinates": {
       "lat": 51.094799,
       "lng": 17.019579
+    }
+  },
+  "prosto-z-mostu-beach-bar-wroclaw": {
+    "id": "prosto-z-mostu-beach-bar-wroclaw",
+    "name": {
+      "he": "פרוסטו ז מוסטו, בר חוף\nProsto z Mostu Beach Bar",
+      "en": "Prosto z Mostu Beach Bar",
+      "pl": "Prosto z Mostu Beach Bar",
+      "de": "Prosto z Mostu Beachbar",
+      "cs": "Prosto z Mostu Beach Bar"
+    },
+    "coordinates": {
+      "lat": 51.128813,
+      "lng": 17.0590429
+    }
+  },
+  "przejscie-dialogu-wroclaw": {
+    "id": "przejscie-dialogu-wroclaw",
+    "name": {
+      "he": "מעבר הדיאלוג\nPrzejście Dialogu",
+      "en": "Passage of Dialogue",
+      "pl": "Przejście Dialogu",
+      "de": "Passage des Dialogs",
+      "cs": "Průchod dialogu"
+    },
+    "coordinates": {
+      "lat": 51.107037,
+      "lng": 17.0318151
     }
   },
   "przystanek-kowary": {

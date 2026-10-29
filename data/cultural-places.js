@@ -2,6 +2,10 @@
   "use strict";
 
   const memberships = {
+    "most-zwierzyniecki-wroclaw": ["architecture-design"],
+    "przejscie-dialogu-wroclaw": ["community-culture"],
+    "new-jewish-cemetery-wroclaw": ["museums-history", "architecture-design"],
+    "kepa-mieszczanska-wroclaw": ["architecture-design"],
     "cocofli-wroclaw": ["art-contemporary"],
     "cafe-lyk-wroclaw": ["architecture-design"],
     "klub-lacznik-wroclaw": ["music-opera"],

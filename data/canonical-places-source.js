@@ -31778,3 +31778,2798 @@ if(!window.WROC_CANONICAL_PLACE_SOURCE.some(p=>p.id==="marina"))window.WROC_CANO
 
 // Individually identified businesses from the user-named urban photograph folder.
 (()=>{const reviewed=[{"id":"cocofli-wroclaw","localName":"Cocofli","name":{"he":"קוקופלי, קפה ובר יין\nCocofli","en":"Cocofli","pl":"Cocofli","de":"Cocofli","cs":"Cocofli"},"description":{"he":"בית קפה ובר יין עם ספרים ואמנות ברובע ארבע הדתות. תצלום הביקור מציג את השלט והחזית, עצירה לקפה ולקריאה בין סמטאות הרובע.\nCocofli\nPawła Włodkowica 9, Wrocław","en":"A café and wine bar with books and art in the Four Denominations District. Our photograph shows its sign and facade, a coffee and reading stop among the neighbourhood streets.","pl":"Kawiarnia i winiarnia z książkami i sztuką w Dzielnicy Czterech Wyznań. Nasze zdjęcie pokazuje szyld i fasadę, przystanek na kawę i lekturę podczas spaceru.","de":"Café und Weinbar mit Büchern und Kunst im Viertel der vier Konfessionen. Unser Foto zeigt Schild und Fassade, eine Pause für Kaffee und Lektüre beim Stadtbummel.","cs":"Kavárna a vinárna s knihami a uměním ve čtvrti čtyř vyznání. Naše fotografie ukazuje nápis a průčelí, zastávku na kávu a čtení při procházce."},"placeType":"cafe","categories":["drink"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1082985,"lng":17.0245603},"address":{"street":"Pawła Włodkowica 9","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":"https://cocofli.pl/","socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/Cocofli+-+books+art+cafe+wine+bar/@51.1082985,17.0245603,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20b5b73e52f:0x3bccfd99d699da40!8m2!3d51.1082985!4d17.0245603!16s%2Fg%2F12mkz_3x_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Cocofli&ll=51.1082985,17.0245603"}},"media":{"photos":["/assets/four-denominations-refresh/four-denominations-refresh-08.jpg"],"videos":[],"metadata":{"/assets/four-denominations-refresh/four-denominations-refresh-08.jpg":{"original":true,"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/בר יין קוקופי ברובע ארבע הדתות.jpeg","sourceSHA256":"5792ad91ef5f7520ec212c103383ff66c3d437a1a13d9ed2808952e8570bcc22","assetSHA256":"741eb15b1b6f667bdf51c35e69c9f92f8c55e9f10b8ea40acd4afc5ccb76edd2","familyForeground":false,"alt":{"he":"חזית בית הקפה ובר היין","en":"Café and wine bar facade","pl":"Fasada kawiarni i winiarni","de":"Fassade des Cafés und der Weinbar","cs":"Průčelí kavárny a vinárny"},"verifiedAt":"2026-10-20","historicalSourceFile":"/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.14 (2).jpeg","existingAssetReused":true,"title":{"he":"חזית בית הקפה ובר היין","en":"Café and wine bar facade","pl":"Fasada kawiarni i winiarni","de":"Fassade des Cafés und der Weinbar","cs":"Průčelí kavárny a vinárny"},"originalFullPicturePreserved":true,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/four-denominations-refresh/four-denominations-refresh-08.jpg"},"provenance":{"factualSources":[{"url":"https://cocofli.pl/?page_id=37","checkedAt":"2026-10-29"},{"url":"https://cocoflibooksartcafewinebar.eatbu.com/?lang=pl","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Cocofli+-+books+art+cafe+wine+bar/@51.1082985,17.0245603,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20b5b73e52f:0x3bccfd99d699da40!8m2!3d51.1082985!4d17.0245603!16s%2Fg%2F12mkz_3x_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1082985,17.0245603]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"entre-brasserie-wroclaw","localName":"Entre Brasserie","name":{"he":"אנטרה בראסרי\nEntre Brasserie","en":"Entre Brasserie","pl":"Entre Brasserie","de":"Entre Brasserie","cs":"Entre Brasserie"},"description":{"he":"בראסרי במלון אנטרה, עם מטבח אירופי בהשראה צרפתית לפי אתר המקום. תצלום הביקור מציג את השלט והכניסה. המסעדה מסומנת בנפרד מנקודת המלון.\nEntre Brasserie\nKiełbaśnicza 16/19, Wrocław","en":"A brasserie at Entre Hotel, with French-inspired European cooking according to its website. Our photograph shows the sign and entrance. The restaurant has a separate point from the hotel.","pl":"Brasserie w Entre Hotel z kuchnią europejską inspirowaną Francją, według strony lokalu. Nasze zdjęcie pokazuje szyld i wejście. Restauracja ma osobny punkt od hotelu.","de":"Brasserie im Entre Hotel mit französisch inspirierter europäischer Küche laut eigener Website. Unser Foto zeigt Schild und Eingang. Das Restaurant hat einen eigenen Punkt neben dem Hoteleintrag.","cs":"Brasserie v hotelu Entre s evropskou kuchyní inspirovanou Francií podle webu podniku. Naše fotografie ukazuje nápis a vstup. Restaurace má vlastní bod vedle hotelového záznamu."},"placeType":"restaurant","categories":["eat"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1127669,"lng":17.0301481},"address":{"street":"Kiełbaśnicza 16/19","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":"https://entrehotel.pl/restauracja/","socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/Entre+Brasserie+-+restauracja+Entre+Hotel/@51.1127669,17.0301481,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9d272c87acb:0x3c6d810af4dc47c8!8m2!3d51.1127669!4d17.0301481!16s%2Fg%2F11x_jyrrs3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Entre%20Brasserie&ll=51.1127669,17.0301481"}},"media":{"photos":["/assets/urban-named-places-oct29/source-002.jpg"],"videos":[],"metadata":{"/assets/urban-named-places-oct29/source-002.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/בראסרי אנטרה ליד מלון אנטרה.jpeg","sourceSHA256":"a24490203a93fe815d3d65d69a829936e55f9345f3ccc37a160755209d2ed3bc","assetSHA256":"a24490203a93fe815d3d65d69a829936e55f9345f3ccc37a160755209d2ed3bc","existingAssetReused":false,"title":{"he":"השלט והכניסה לבראסרי","en":"Brasserie sign and entrance","pl":"Szyld i wejście do brasserie","de":"Schild und Eingang der Brasserie","cs":"Nápis a vstup do brasserie"},"alt":{"he":"השלט והכניסה לבראסרי","en":"Brasserie sign and entrance","pl":"Szyld i wejście do brasserie","de":"Schild und Eingang der Brasserie","cs":"Nápis a vstup do brasserie"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/urban-named-places-oct29/source-002.jpg"},"provenance":{"factualSources":[{"url":"https://entrehotel.pl/restauracja/","checkedAt":"2026-10-29"},{"url":"https://entrehotel.pl/kontakt/","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Entre+Brasserie+-+restauracja+Entre+Hotel/@51.1127669,17.0301481,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9d272c87acb:0x3c6d810af4dc47c8!8m2!3d51.1127669!4d17.0301481!16s%2Fg%2F11x_jyrrs3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1127669,17.0301481]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"gniazdo","localName":"Gniazdo","name":{"he":"גניאזדו, קפה ומאפה\nGniazdo","en":"Gniazdo","pl":"Gniazdo","de":"Gniazdo","cs":"Gniazdo"},"description":{"he":"בית קפה ברחוב שווידניצקה, בין רנומה לכיכר השוק. בתמונות נראים הכניסה והשלט העגול. אפשר לשלב הפסקת קפה ומאפה בזמן השיטוט במרכז.\nGniazdo\nŚwidnicka 36, Wrocław","en":"A café on Świdnicka between Renoma and the Market Square. Our photographs show its entrance and round sign. A coffee and pastry stop while exploring the centre.","pl":"Kawiarnia przy Świdnickiej, między Renomą a Rynkiem. Nasze zdjęcia pokazują wejście i okrągły szyld. Przystanek na kawę i wypiek podczas spaceru po centrum.","de":"Café an der Świdnicka zwischen Renoma und Marktplatz. Unsere Fotos zeigen Eingang und rundes Schild. Eine Pause für Kaffee und Gebäck beim Rundgang durch die Innenstadt.","cs":"Kavárna ve Świdnické mezi Renomou a Rynkem. Naše fotografie ukazují vstup a kulatý nápis. Zastávka na kávu a pečivo při procházce centrem."},"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1053861,"lng":17.0315415},"address":{"street":"Świdnicka 36","city":"Wrocław","country":"Poland"}},"categories":["cafe","drink","eat"],"sourceUrls":[],"aliases":[],"sourceRecords":[{"productId":"wroclaw-four-days","kind":"recommendation","sourceId":"gniazdo"}],"coordinateCandidates":[{"productId":"wroclaw-four-days","sourceId":"gniazdo","lat":51.10579,"lng":17.03302}],"status":"published","editorialPriority":null,"taxonomy":{"categories":["cafe"],"tags":[]},"suitability":{"recommendedFor":[],"walkingIntensity":null,"familyFriendly":null,"couples":null,"solo":null,"romantic":null,"indoorOutdoor":null,"rainFriendly":null,"budgetLevel":null,"accessibility":{"level":null,"notes":null}},"visit":{"durationMinutes":null,"bestTimeOfDay":[],"seasonalSuitability":[],"openingHoursNotes":null},"links":{"website":null,"navigation":{"googleMaps":"https://www.google.com/maps/place/Gniazdo/@51.1053861,17.0315415,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc273e74048ab:0x4101ec3d04eec08!8m2!3d51.1053861!4d17.0315415!16s%2Fg%2F11bx5pptf0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Gniazdo&ll=51.1053861,17.0315415"},"socialProfileFallback":false},"media":{"photos":["/assets/today-source-refresh-20261021/run4-231-gniazdo.jpg","/assets/urban-named-places-oct29/source-004.jpg"],"videos":[],"metadata":{"/assets/today-source-refresh-20261021/run4-231-gniazdo.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.12.06 (3).jpeg","sourceSHA256":"1eca077106311917b702e81e4a3c98e4398730bd27a2be5da06c3841ef09b405","assetSHA256":"de1d8102ae346a6b8e82097b3eca469edebebfcc231c704488b805bf38fce820","originalFullPicturePreserved":true,"familyExceptionApplied":false,"privacyClassification":"Place/detail photograph; incidental public visitors are not posed personal portraits","alt":{"he":"הכניסה לבית הקפה גניאזדו","en":"Gniazdo cafe entrance","pl":"Wejście do kawiarni Gniazdo","de":"Eingang zum Café Gniazdo","cs":"Vchod do kavárny Gniazdo"},"sourceRefreshRun":"2026-10-21-run4","verifiedAt":"2026-10-21T19:16:56.109643+00:00","familyForeground":false},"/assets/urban-named-places-oct29/source-004.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/גניאזדו קפה בשוונידניצקה.jpeg","sourceSHA256":"81b9df54205a223efb88398e0f384bc9c5a6a34f4cb5f4911fe42474d4eeee20","assetSHA256":"81b9df54205a223efb88398e0f384bc9c5a6a34f4cb5f4911fe42474d4eeee20","existingAssetReused":false,"title":{"he":"חזית בית הקפה והשלט העגול","en":"Café facade and round sign","pl":"Fasada kawiarni i okrągły szyld","de":"Caféfassade und rundes Schild","cs":"Průčelí kavárny a kulatý nápis"},"alt":{"he":"חזית בית הקפה והשלט העגול","en":"Café facade and round sign","pl":"Fasada kawiarni i okrągły szyld","de":"Caféfassade und rundes Schild","cs":"Průčelí kavárny a kulatý nápis"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/today-source-refresh-20261021/run4-231-gniazdo.jpg"},"socialPosts":[{"platform":"facebook","language":"cs","url":"https://www.facebook.com/permalink.php?story_fbid=pfbid0yduYJdx9Kc8cUjeW1KXgY3RvRyTnV1aVEuP31SkjDS34u8S24gkc4xnJQZYYQoPRl&id=61594716405964","verifiedAt":"2026-10-07"},{"platform":"facebook","language":"pl","url":"https://facebook.com/permalink.php?story_fbid=pfbid0uE2bGFtPq95XAVLnH2iBAdvX2usMAAQeo3ySEK1TGA16kHcmF5QjTwrn1bz92Dxul&id=61595207664875","verifiedAt":"2026-10-08T13:45:12.153Z"},{"platform":"facebook","language":"en","url":"https://www.facebook.com/permalink.php?story_fbid=pfbid023H7uX4tUTvpjveVd43Uu4myL2eZEHbfM51piKBvtjSEoacnwoaxDk9CStGCDEfEel&id=61595036942289","verifiedAt":"2026-10-08"},{"platform":"facebook","language":"he","url":"https://facebook.com/permalink.php?story_fbid=pfbid02rLPadB7HBxuTbmmmxqH59ZwPt1pzrbyFFDmh29966VgbJwfbRHJK4Y1ATGcat5WJl&id=61591964083308","verifiedAt":"2026-10-09T13:36:48.778Z"}],"transport":{"carRequired":null,"publicTransportNotes":null,"parkingNotes":null,"drivingTimeFromWroclawMinutes":null},"languages":["he","en","pl","de","cs"],"placeType":"cafe","provenance":{"factualSources":[{"url":"https://www.wroclaw.pl/dla-mieszkanca/gastroulice-ul-swidnicka-wypij-kawe-w-historycznej-czesci-wroclawia","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Gniazdo/@51.1053861,17.0315415,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc273e74048ab:0x4101ec3d04eec08!8m2!3d51.1053861!4d17.0315415!16s%2Fg%2F11bx5pptf0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1053861,17.0315415]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"peruwiana","localName":"Peruwiana","name":{"he":"פרואיאנה, מסעדה פרואנית\nPeruwiana","en":"Peruwiana","pl":"Peruwiana","de":"Peruwiana","cs":"Peruwiana"},"description":{"he":"מסעדה פרואנית ברובע ארבע הדתות, סמוך לבית הכנסת החסידה הלבנה. תצלומי הביקור מציגים את החצר, הצמחייה והשילוט של בר הפיסקו. אלה חלקים של אותו מקום.\nPeruwiana\nPawła Włodkowica 9, Wrocław","en":"A Peruvian restaurant in the Four Denominations District near the White Stork Synagogue. Our visit photographs show the courtyard, greenery and Pisco Bar signage, parts of the same venue.","pl":"Restauracja peruwiańska w Dzielnicy Czterech Wyznań, blisko Synagogi Pod Białym Bocianem. Zdjęcia z wizyty pokazują dziedziniec, rośliny i szyld Pisco Baru, części tego samego lokalu.","de":"Peruanisches Restaurant im Viertel der vier Konfessionen nahe der Synagoge zum Weißen Storch. Unsere Besuchsfotos zeigen Hof, Pflanzen und Pisco-Bar-Schild als Teile desselben Lokals.","cs":"Peruánská restaurace ve čtvrti čtyř vyznání poblíž synagogy U Bílého čápa. Fotografie z návštěvy ukazují dvůr, zeleň a nápis Pisco Bar, části stejného podniku."},"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1082145,"lng":17.0247652},"address":{"street":"Pawła Włodkowica 9","city":"Wrocław","country":"Poland"}},"categories":["eat","drink"],"sourceUrls":["https://www.facebook.com/61591964083308/posts/122108686497398802/"],"aliases":[],"sourceRecords":[{"productId":"lifestyle-guide","kind":"catalog-place","sourceId":"peruwiana"}],"coordinateCandidates":[{"productId":"lifestyle-guide","sourceId":"peruwiana","lat":51.1082145,"lng":17.0247652}],"status":"published","editorialPriority":null,"taxonomy":{"categories":["eat"],"tags":[]},"suitability":{"recommendedFor":[],"walkingIntensity":null,"familyFriendly":null,"couples":null,"solo":null,"romantic":null,"indoorOutdoor":null,"rainFriendly":null,"budgetLevel":null,"accessibility":{"level":null,"notes":null}},"visit":{"durationMinutes":null,"bestTimeOfDay":[],"seasonalSuitability":[],"openingHoursNotes":null},"links":{"website":null,"navigation":{"googleMaps":"https://www.google.com/maps/place/Peruwiana/@51.1082145,17.0247652,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc3c34798ad0b:0xc922c618e45b96a0!8m2!3d51.1082145!4d17.0247652!16s%2Fg%2F11h8ktzf6n?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Peruwiana&ll=51.1082145,17.0247652"},"socialProfileFallback":false},"media":{"photos":["/assets/four-denominations-refresh/four-denominations-refresh-10.jpg","/assets/four-denominations-refresh/four-denominations-refresh-11.jpg"],"videos":[],"metadata":{"/assets/four-denominations-refresh/four-denominations-refresh-10.jpg":{"original":true,"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/המסעדה הפרואנית ברובע ארבע הדתות ליד בית הכנסת.jpeg","sourceSHA256":"72082f7f41b52d9dbd4dcb4732e2c50a0d00c810562a0d982f32c2a08c8dbb3c","assetSHA256":"de82bed4b933d5fec1a4a0c444135fd5865aeac409b3dab9b11ac58156b17ea3","familyForeground":false,"alt":{"he":"החצר ופינת הישיבה של המסעדה","en":"Restaurant courtyard and seating","pl":"Dziedziniec i stoliki restauracji","de":"Innenhof und Sitzplätze des Restaurants","cs":"Nádvoří a posezení restaurace"},"verifiedAt":"2026-10-20","historicalSourceFile":"/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.15 (1).jpeg","existingAssetReused":true,"title":{"he":"החצר ופינת הישיבה של המסעדה","en":"Restaurant courtyard and seating","pl":"Dziedziniec i stoliki restauracji","de":"Innenhof und Sitzplätze des Restaurants","cs":"Nádvoří a posezení restaurace"},"originalFullPicturePreserved":true,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"},"/assets/four-denominations-refresh/four-denominations-refresh-11.jpg":{"original":true,"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/פיסקו בר המסעדה הפרואנית ברובע ארבע הדתות.jpeg","sourceSHA256":"c3c69939534bbfc1651e680a34045cf6a96ac2acf0ac570dd697c47ca7bb30bf","assetSHA256":"d614c87fe4e76d5fb55ac6437aa3eef17acd727fd640e045e1b6410a7af9802c","familyForeground":false,"alt":{"he":"חזית המסעדה ובר הפיסקו","en":"Restaurant and pisco bar facade","pl":"Fasada restauracji i baru pisco","de":"Fassade des Restaurants und der Pisco-Bar","cs":"Průčelí restaurace a pisco baru"},"verifiedAt":"2026-10-20","historicalSourceFile":"/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.15.jpeg","existingAssetReused":true,"title":{"he":"חזית המסעדה ובר הפיסקו","en":"Restaurant and pisco bar facade","pl":"Fasada restauracji i baru pisco","de":"Fassade des Restaurants und der Pisco-Bar","cs":"Průčelí restaurace a pisco baru"},"originalFullPicturePreserved":true,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/four-denominations-refresh/four-denominations-refresh-10.jpg"},"socialPosts":[{"platform":"facebook","language":"cs","url":"https://www.facebook.com/permalink.php?story_fbid=pfbid0JTa8HjBUjawmX98WT3QKP7KZK3ZPcMpZFAwPkrBynXaJbnDRUewZFfmTCtqjSXNcl&id=61594716405964","verifiedAt":"2026-10-07"},{"platform":"facebook","language":"en","url":"https://www.facebook.com/permalink.php?story_fbid=pfbid021nJCkiEYaHvbZm88KpYqpXfGSqhsLKi5BSfQn1w7YqQekVvQef2mnxMhaG2BUJgil&id=61595036942289","verifiedAt":"2026-10-08"},{"platform":"facebook","url":"https://www.facebook.com/61591964083308/posts/122108686497398802/","routingExcluded":true}],"transport":{"carRequired":null,"publicTransportNotes":null,"parkingNotes":null,"drivingTimeFromWroclawMinutes":null},"languages":["he","en","pl","de","cs"],"placeType":"restaurant","provenance":{"factualSources":[{"url":"https://zjedz.my/peruwiana/menu","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Peruwiana/@51.1082145,17.0247652,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc3c34798ad0b:0xc922c618e45b96a0!8m2!3d51.1082145!4d17.0247652!16s%2Fg%2F11h8ktzf6n?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1082145,17.0247652]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"wiking-axe-throwing-wroclaw","localName":"Wiking Axe Throwing Club","name":{"he":"ויקינג, מועדון זריקת גרזנים\nWiking Axe Throwing Club","en":"Wiking Axe Throwing Club","pl":"Wiking Axe Throwing Club","de":"Wiking Axe Throwing Club","cs":"Wiking Axe Throwing Club"},"description":{"he":"מועדון זריקת גרזנים ופונדק באווירה ויקינגית ברחוב שווידניצקה. תצלום הביקור מציג את הכניסה והשלטים. בדקו הזמנה, זמינות ותנאי השתתפות מול המקום.\nWiking Axe Throwing Club\nŚwidnicka 12/16, Wrocław","en":"An axe-throwing club and Viking-themed tavern on Świdnicka. Our photograph shows the entrance and signs. Check booking, availability and participation conditions with the venue.","pl":"Klub rzucania toporami i karczma w klimacie wikingów przy Świdnickiej. Nasze zdjęcie pokazuje wejście i szyldy. Rezerwację, dostępność i warunki uczestnictwa sprawdź w lokalu.","de":"Axtwurfclub und Taverne im Wikingerstil an der Świdnicka. Unser Foto zeigt Eingang und Schilder. Buchung, Verfügbarkeit und Teilnahmebedingungen beim Veranstalter prüfen.","cs":"Klub házení sekerami a taverna ve vikinském stylu ve Świdnické. Naše fotografie ukazuje vstup a nápisy. Rezervaci, dostupnost a podmínky účasti ověřte u podniku."},"placeType":"leisure","categories":["enjoy","eat","drink"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1069297,"lng":17.0322054},"address":{"street":"Świdnicka 12/16","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":"https://www.wikingclub.pl/","socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/Wiking+Club+Axe+Throwing+Wroc%C5%82aw/@51.1069297,17.0322054,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc35d9d626cd5:0x668fac1822547966!8m2!3d51.1069297!4d17.0322054!16s%2Fg%2F11sdvhfwz_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Wiking%20Axe%20Throwing%20Club&ll=51.1069297,17.0322054"}},"media":{"photos":["/assets/urban-named-places-oct29/source-006.jpg"],"videos":[],"metadata":{"/assets/urban-named-places-oct29/source-006.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/חווית זריקת גרזנים.jpeg","sourceSHA256":"00b76146444c3e051291a515b3f053c3eb6fb9934c400e7d92ef184bbfcb25f0","assetSHA256":"00b76146444c3e051291a515b3f053c3eb6fb9934c400e7d92ef184bbfcb25f0","existingAssetReused":false,"title":{"he":"הכניסה למועדון זריקת הגרזנים","en":"Axe throwing club entrance","pl":"Wejście do klubu rzucania siekierami","de":"Eingang zum Axtwurfclub","cs":"Vstup do klubu házení sekerami"},"alt":{"he":"הכניסה למועדון זריקת הגרזנים","en":"Axe throwing club entrance","pl":"Wejście do klubu rzucania siekierami","de":"Eingang zum Axtwurfclub","cs":"Vstup do klubu házení sekerami"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/urban-named-places-oct29/source-006.jpg"},"provenance":{"factualSources":[{"url":"https://www.wikingclub.pl/","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Wiking+Club+Axe+Throwing+Wroc%C5%82aw/@51.1069297,17.0322054,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc35d9d626cd5:0x668fac1822547966!8m2!3d51.1069297!4d17.0322054!16s%2Fg%2F11sdvhfwz_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1069297,17.0322054]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"thai-thai-wroclaw","localName":"Thai Thai Wrocław","name":{"he":"טאי טאי\nThai Thai Wrocław","en":"Thai Thai Wrocław","pl":"Thai Thai Wrocław","de":"Thai Thai Wrocław","cs":"Thai Thai Wrocław"},"description":{"he":"מסעדה תאילנדית בכיכר התיאטרון, ליד רחוב שווידניצקה ותיאטרון הבובות. תצלום הביקור מציג את השלט והכניסה. בדקו תפריט ושעות עדכניים מול המקום.\nThai Thai Wrocław\nPlac Teatralny 8, Wrocław","en":"A Thai restaurant on Plac Teatralny, near Świdnicka and the Puppet Theatre. Our photograph shows the sign and entrance. Check the current menu and hours with the restaurant.","pl":"Restauracja tajska przy placu Teatralnym, blisko Świdnickiej i Teatru Lalek. Nasze zdjęcie pokazuje szyld i wejście. Aktualne menu i godziny sprawdź w restauracji.","de":"Thailändisches Restaurant am Plac Teatralny nahe Świdnicka und Puppentheater. Unser Foto zeigt Schild und Eingang. Aktuelle Speisekarte und Öffnungszeiten beim Restaurant prüfen.","cs":"Thajská restaurace na náměstí Plac Teatralny poblíž Świdnické a loutkového divadla. Naše fotografie ukazuje nápis a vstup. Aktuální nabídku a otevírací dobu ověřte u restaurace."},"placeType":"restaurant","categories":["eat"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1059482,"lng":17.0316826},"address":{"street":"Plac Teatralny 8","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":"https://www.thaithai.pl/","socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/Thai+Thai+Wroc%C5%82aw/@51.1059482,17.0316826,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc30b15f2a2ad:0x3fdea06310dfae78!8m2!3d51.1059482!4d17.0316826!16s%2Fg%2F11w2k4m9n3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Thai%20Thai%20Wroc%C5%82aw&ll=51.1059482,17.0316826"}},"media":{"photos":["/assets/urban-named-places-oct29/source-007.jpg"],"videos":[],"metadata":{"/assets/urban-named-places-oct29/source-007.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/טאי טאי בשוונדיצקה.jpeg","sourceSHA256":"b4a7381ff4ae67685004a66b46f5f5500e01bbfd854d48db27bbc5c51912d225","assetSHA256":"b4a7381ff4ae67685004a66b46f5f5500e01bbfd854d48db27bbc5c51912d225","existingAssetReused":false,"title":{"he":"הכניסה למסעדה התאילנדית","en":"Thai restaurant entrance","pl":"Wejście do tajskiej restauracji","de":"Eingang zum thailändischen Restaurant","cs":"Vstup do thajské restaurace"},"alt":{"he":"הכניסה למסעדה התאילנדית","en":"Thai restaurant entrance","pl":"Wejście do tajskiej restauracji","de":"Eingang zum thailändischen Restaurant","cs":"Vstup do thajské restaurace"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/urban-named-places-oct29/source-007.jpg"},"provenance":{"factualSources":[{"url":"https://www.thaithai.pl/","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Thai+Thai+Wroc%C5%82aw/@51.1059482,17.0316826,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc30b15f2a2ad:0x3fdea06310dfae78!8m2!3d51.1059482!4d17.0316826!16s%2Fg%2F11w2k4m9n3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1059482,17.0316826]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"raito-sushi-wroclaw","localName":"Raito Sushi","name":{"he":"ראיטו סושי\nRaito Sushi","en":"Raito Sushi","pl":"Raito Sushi","de":"Raito Sushi","cs":"Raito Sushi"},"description":{"he":"מסעדת סושי בכיכר וולנושצ׳י, סמוך לפורום המוזיקה הלאומי. תצלום הביקור מציג את השלט המואר והכניסה. בדקו את התפריט ושעות הפעילות מול המקום.\nRaito Sushi\nPlac Wolności 7, Wrocław","en":"A sushi restaurant on Plac Wolności near the National Forum of Music. Our photograph shows the illuminated sign and entrance. Check the current menu and hours with the venue.","pl":"Restauracja sushi przy placu Wolności, blisko Narodowego Forum Muzyki. Nasze zdjęcie pokazuje podświetlany szyld i wejście. Menu i aktualne godziny sprawdź w lokalu.","de":"Sushirestaurant am Plac Wolności nahe dem Nationalen Forum für Musik. Unser Foto zeigt das beleuchtete Schild und den Eingang. Speisekarte und aktuelle Zeiten beim Lokal prüfen.","cs":"Sushi restaurace na náměstí Plac Wolności poblíž Národního hudebního fóra. Naše fotografie ukazuje osvětlený nápis a vstup. Nabídku a aktuální otevírací dobu ověřte u podniku."},"placeType":"restaurant","categories":["eat"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1071365,"lng":17.0278292},"address":{"street":"Plac Wolności 7","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":"https://www.raitosushi.pl/","socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/RAITO+SUSHI/@51.1071365,17.0278292,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc317928c6b8d:0x43e8d49b0d6903fb!8m2!3d51.1071365!4d17.0278292!16s%2Fg%2F11w4ynx49n?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Raito%20Sushi&ll=51.1071365,17.0278292"}},"media":{"photos":["/assets/urban-named-places-oct29/source-009.jpg"],"videos":[],"metadata":{"/assets/urban-named-places-oct29/source-009.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/סושי ראיטו.jpeg","sourceSHA256":"cc0c1452b8c18040c263b84b8c29853159d8734cd86adf7d82001d24faa80ca2","assetSHA256":"cc0c1452b8c18040c263b84b8c29853159d8734cd86adf7d82001d24faa80ca2","existingAssetReused":false,"title":{"he":"שלט מסעדת הסושי והכניסה","en":"Sushi restaurant sign and entrance","pl":"Szyld i wejście do restauracji sushi","de":"Schild und Eingang des Sushi-Restaurants","cs":"Nápis a vstup do sushi restaurace"},"alt":{"he":"שלט מסעדת הסושי והכניסה","en":"Sushi restaurant sign and entrance","pl":"Szyld i wejście do restauracji sushi","de":"Schild und Eingang des Sushi-Restaurants","cs":"Nápis a vstup do sushi restaurace"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/urban-named-places-oct29/source-009.jpg"},"provenance":{"factualSources":[{"url":"https://www.raitosushi.pl/","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/RAITO+SUSHI/@51.1071365,17.0278292,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc317928c6b8d:0x43e8d49b0d6903fb!8m2!3d51.1071365!4d17.0278292!16s%2Fg%2F11w4ynx49n?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1071365,17.0278292]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"haggis-pub-wroclaw","localName":"Haggis Pub","name":{"he":"האגיס, פאב סקוטי\nHaggis Pub","en":"Haggis Pub","pl":"Haggis Pub","de":"Haggis Pub","cs":"Haggis Pub"},"description":{"he":"פאב סקוטי ברחוב שווידניצקה, ליד רנומה. תצלום הביקור מתעד את השלט עם נגן חמת החלילים. בדקו שעות והיצע עדכניים מול המקום.\nHaggis Pub\nŚwidnicka 39, Wrocław","en":"A Scottish pub on Świdnicka near Renoma. Our visit photograph records the sign with a bagpiper. Check current hours and availability with the pub.","pl":"Pub szkocki przy Świdnickiej, blisko Renomy. Nasze zdjęcie z wizyty pokazuje szyld z kobziarzem. Aktualne godziny i ofertę sprawdź w pubie.","de":"Schottischer Pub an der Świdnicka nahe Renoma. Unser Besuchsfoto zeigt das Schild mit einem Dudelsackspieler. Aktuelle Zeiten und Angebot beim Pub prüfen.","cs":"Skotská hospoda ve Świdnické poblíž Renomy. Naše fotografie z návštěvy zachycuje nápis s dudákem. Aktuální otevírací dobu a nabídku ověřte u podniku."},"placeType":"bar","categories":["drink","enjoy"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1037577,"lng":17.0302924},"address":{"street":"Świdnicka 39","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":null,"socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/Pub+Haggis+2.0./@51.1037577,17.0302924,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2722e8451ff:0x7a4abfdbdbe0e2c0!8m2!3d51.1037577!4d17.0302924!16s%2Fg%2F11h12rg_h?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Haggis%20Pub&ll=51.1037577,17.0302924"}},"media":{"photos":["/assets/urban-named-places-oct29/source-010.jpg"],"videos":[],"metadata":{"/assets/urban-named-places-oct29/source-010.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/פאב סקוטי האגיס ליד רנומה.jpeg","sourceSHA256":"5d8d5033a91129ec3deeddff7a71503647e988f47917188683d66b6fcb9cabfe","assetSHA256":"5d8d5033a91129ec3deeddff7a71503647e988f47917188683d66b6fcb9cabfe","existingAssetReused":false,"title":{"he":"השלט של הפאב הסקוטי","en":"Scottish pub sign","pl":"Szyld szkockiego pubu","de":"Schild des schottischen Pubs","cs":"Nápis skotské hospody"},"alt":{"he":"השלט של הפאב הסקוטי","en":"Scottish pub sign","pl":"Szyld szkockiego pubu","de":"Schild des schottischen Pubs","cs":"Nápis skotské hospody"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/urban-named-places-oct29/source-010.jpg"},"provenance":{"factualSources":[{"url":"https://pik.wroclaw.pl/miejsca/haggis-pub-wroclaw/","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Pub+Haggis+2.0./@51.1037577,17.0302924,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2722e8451ff:0x7a4abfdbdbe0e2c0!8m2!3d51.1037577!4d17.0302924!16s%2Fg%2F11h12rg_h?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1037577,17.0302924]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"cafe-artzat-wroclaw","localName":"Artzat Cafe","name":{"he":"קפה ארטצט\nArtzat Cafe","en":"Artzat Cafe","pl":"Artzat Cafe","de":"Artzat Cafe","cs":"Artzat Cafe"},"description":{"he":"בית קפה ובר ברחוב מלרסקה, סמוך לכיכר השוק. בתצלומי הביקור נראים השלט, מקומות הישיבה בחוץ והחזית המעוטרת. עצירה לקפה במהלך השיטוט בעיר העתיקה.\nArtzat Cafe\nMalarska 30, Wrocław","en":"A café and bar on Malarska near the Market Square. Our photographs show the sign, outdoor seating and decorated facade, a coffee stop while exploring the Old Town.","pl":"Kawiarnia i bar przy Malarskiej, blisko Rynku. Nasze zdjęcia pokazują szyld, stoliki na zewnątrz i ozdobną fasadę. Przystanek na kawę podczas spaceru po Starym Mieście.","de":"Café und Bar an der Malarska nahe dem Marktplatz. Unsere Fotos zeigen Schild, Außensitzplätze und verzierte Fassade. Eine Kaffeepause beim Rundgang durch die Altstadt.","cs":"Kavárna a bar v Malarské poblíž Rynku. Naše fotografie ukazují nápis, venkovní posezení a zdobené průčelí. Zastávka na kávu při procházce Starým Městem."},"placeType":"cafe","categories":["drink"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1124447,"lng":17.030327},"address":{"street":"Malarska 30","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":"https://artzatcafe.pl/","socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/Artzat+Cafe/@51.1124447,17.030327,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9dff494f21f:0xa80d17302c1236c9!8m2!3d51.1124447!4d17.030327!16s%2Fg%2F1tdvt0wb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Artzat%20Cafe&ll=51.1124447,17.030327"}},"media":{"photos":["/assets/urban-named-places-oct29/source-012.jpg","/assets/urban-named-places-oct29/source-013.jpg"],"videos":[],"metadata":{"/assets/urban-named-places-oct29/source-012.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/קפה ארטזט.jpeg","sourceSHA256":"3b494db1c0191a657116e1a99fd42bac96d857b8c9240120dbc53ef6238a2b9e","assetSHA256":"3b494db1c0191a657116e1a99fd42bac96d857b8c9240120dbc53ef6238a2b9e","existingAssetReused":false,"title":{"he":"הבניין שבו נמצא בית הקפה","en":"Building housing the café","pl":"Budynek kawiarni","de":"Gebäude mit dem Café","cs":"Budova kavárny"},"alt":{"he":"הבניין שבו נמצא בית הקפה","en":"Building housing the café","pl":"Budynek kawiarni","de":"Gebäude mit dem Café","cs":"Budova kavárny"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"},"/assets/urban-named-places-oct29/source-013.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/קפה ארטצט.jpeg","sourceSHA256":"3f7cc263e901636b95ea2f9d1de1539439eba9e218112e5c0d8b15bdc6f2d5cb","assetSHA256":"3f7cc263e901636b95ea2f9d1de1539439eba9e218112e5c0d8b15bdc6f2d5cb","existingAssetReused":false,"title":{"he":"בית הקפה וסביבת הרחוב","en":"Café and surrounding street","pl":"Kawiarnia i otaczająca ulica","de":"Café und umliegende Straße","cs":"Kavárna a okolní ulice"},"alt":{"he":"בית הקפה וסביבת הרחוב","en":"Café and surrounding street","pl":"Kawiarnia i otaczająca ulica","de":"Café und umliegende Straße","cs":"Kavárna a okolní ulice"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/urban-named-places-oct29/source-012.jpg"},"provenance":{"factualSources":[{"url":"https://artzatcafe.pl/","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Artzat+Cafe/@51.1124447,17.030327,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9dff494f21f:0xa80d17302c1236c9!8m2!3d51.1124447!4d17.030327!16s%2Fg%2F1tdvt0wb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1124447,17.030327]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"caffe-bohema-swidnicka-wroclaw","localName":"Bohema Caffe","name":{"he":"קפה בוהמה\nBohema Caffe","en":"Bohema Caffe","pl":"Bohema Caffe","de":"Bohema Caffe","cs":"Bohema Caffe"},"description":{"he":"בית קפה ברחוב שווידניצקה, ליד אזור התיאטראות. תצלומי הביקור מציגים את השלט המאויר, החזית ומקומות הישיבה בחוץ. בדקו שעות ותפריט עדכניים מול המקום.\nBohema Caffe\nŚwidnicka 22, Wrocław","en":"A café on Świdnicka near the theatre area. Our photographs show the illustrated sign, facade and outdoor seating. Check the current hours and menu with the café.","pl":"Kawiarnia przy Świdnickiej, niedaleko teatrów. Nasze zdjęcia pokazują ilustrowany szyld, fasadę i stoliki na zewnątrz. Aktualne godziny i menu sprawdź w kawiarni.","de":"Café an der Świdnicka nahe dem Theaterbereich. Unsere Fotos zeigen das illustrierte Schild, die Fassade und Außensitzplätze. Aktuelle Zeiten und Speisekarte beim Café prüfen.","cs":"Kavárna ve Świdnické poblíž divadel. Naše fotografie ukazují ilustrovaný nápis, průčelí a venkovní posezení. Aktuální otevírací dobu a nabídku ověřte u kavárny."},"placeType":"cafe","categories":["drink"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1066995,"lng":17.0320205},"address":{"street":"Świdnicka 22","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":null,"socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/Bohema+Caffe+Wroc%C5%82aw/@51.1066995,17.0320205,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2740793951d:0xbe0ca1613e98877b!8m2!3d51.1066995!4d17.0320205!16s%2Fg%2F11c2ltww64?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Bohema%20Caffe&ll=51.1066995,17.0320205"}},"media":{"photos":["/assets/urban-named-places-oct29/source-014.jpg","/assets/urban-named-places-oct29/source-015.jpg"],"videos":[],"metadata":{"/assets/urban-named-places-oct29/source-014.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/קפה בוהמה בשווידניצקה 2.jpeg","sourceSHA256":"e49bdbbcddadc30d5f530567c6f174e9b775e0204c0be948399c6b2c8e92b356","assetSHA256":"e49bdbbcddadc30d5f530567c6f174e9b775e0204c0be948399c6b2c8e92b356","existingAssetReused":false,"title":{"he":"השלט הבולט מעל הרחוב","en":"Projecting sign over the street","pl":"Szyld wystający nad ulicą","de":"Auskragendes Schild über der Straße","cs":"Vývěsní štít nad ulicí"},"alt":{"he":"השלט הבולט מעל הרחוב","en":"Projecting sign over the street","pl":"Szyld wystający nad ulicą","de":"Auskragendes Schild über der Straße","cs":"Vývěsní štít nad ulicí"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"},"/assets/urban-named-places-oct29/source-015.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/קפה בוהמה בשווידניצקה.jpeg","sourceSHA256":"17b27c1dd0afa0f97496c2d86fdb775d0751eb8f090aa56ae5aba19717adbd65","assetSHA256":"17b27c1dd0afa0f97496c2d86fdb775d0751eb8f090aa56ae5aba19717adbd65","existingAssetReused":false,"title":{"he":"חזית בית הקפה ומקומות הישיבה","en":"Café frontage and seating","pl":"Fasada kawiarni i miejsca siedzące","de":"Caféfront und Sitzplätze","cs":"Průčelí kavárny a posezení"},"alt":{"he":"חזית בית הקפה ומקומות הישיבה","en":"Café frontage and seating","pl":"Fasada kawiarni i miejsca siedzące","de":"Caféfront und Sitzplätze","cs":"Průčelí kavárny a posezení"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/urban-named-places-oct29/source-014.jpg"},"provenance":{"factualSources":[{"url":"https://restauracja-bohema.pl/wp-content/uploads/2026/02/restauracja.pdf","checkedAt":"2026-10-29"},{"url":"https://www.wroclaw.pl/dla-mieszkanca/gastroulice-ul-swidnicka-wypij-kawe-w-historycznej-czesci-wroclawia","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Bohema+Caffe+Wroc%C5%82aw/@51.1066995,17.0320205,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2740793951d:0xbe0ca1613e98877b!8m2!3d51.1066995!4d17.0320205!16s%2Fg%2F11c2ltww64?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1066995,17.0320205]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}},{"id":"rumbar-pokoyhof-wroclaw","localName":"Rumbar.Pokoyhof","name":{"he":"רומבר בפוקויהוף\nRumbar.Pokoyhof","en":"Rumbar.Pokoyhof","pl":"Rumbar.Pokoyhof","de":"Rumbar.Pokoyhof","cs":"Rumbar.Pokoyhof"},"description":{"he":"בר רום ומסעדה בחצר פוקויהוף ברובע ארבע הדתות. תצלום הביקור מציג את החזית והשלט של המקום. בדקו תפריט ושעות פעילות עדכניים מול המקום.\nRumbar.Pokoyhof\nŚwiętego Antoniego 2/4, Wrocław","en":"A rum bar and restaurant in the Pokoyhof courtyard in the Four Denominations District. Our photograph shows the facade and sign. Check the current menu and hours with the venue.","pl":"Bar rumowy i restauracja na dziedzińcu Pokoyhof w Dzielnicy Czterech Wyznań. Nasze zdjęcie pokazuje fasadę i szyld lokalu. Aktualne menu i godziny sprawdź na miejscu.","de":"Rumbar und Restaurant im Pokoyhof-Hof im Viertel der vier Konfessionen. Unser Foto zeigt Fassade und Schild. Aktuelle Speisekarte und Öffnungszeiten beim Lokal prüfen.","cs":"Rumový bar a restaurace na dvoře Pokoyhof ve čtvrti čtyř vyznání. Naše fotografie ukazuje průčelí a nápis podniku. Aktuální nabídku a otevírací dobu ověřte u podniku."},"placeType":"bar","categories":["eat","drink","enjoy"],"status":"published","languages":["he","en","pl","de","cs"],"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1085229,"lng":17.0264321},"address":{"street":"Świętego Antoniego 2/4","city":"Wrocław","country":"Poland"}},"aliases":[],"sourceUrls":[],"socialPosts":[],"links":{"website":"https://rumbar.eatbu.com/?lang=pl","socialProfileFallback":false,"navigation":{"googleMaps":"https://www.google.com/maps/place/Rumbar.Pokoyhof/@51.1085229,17.0264321,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20b4cc9e6f9:0x81e755ec7c17b025!8m2!3d51.1085229!4d17.0264321!16s%2Fg%2F11g8xkhgvj?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","appleMaps":"https://maps.apple.com/?q=Rumbar.Pokoyhof&ll=51.1085229,17.0264321"}},"media":{"photos":["/assets/urban-named-places-oct29/source-016.jpg"],"videos":[],"metadata":{"/assets/urban-named-places-oct29/source-016.jpg":{"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/רומבור בפוקויהוף רובע ארבע הדתות.jpeg","sourceSHA256":"43a7d8aa3dfa738ec8af4d85ab74c219756b9ce29525a61a23161b6ef9e60fc4","assetSHA256":"43a7d8aa3dfa738ec8af4d85ab74c219756b9ce29525a61a23161b6ef9e60fc4","existingAssetReused":false,"title":{"he":"חזית בר הרום והמסעדה","en":"Rum bar and restaurant facade","pl":"Fasada rum baru i restauracji","de":"Fassade der Rumbar und des Restaurants","cs":"Průčelí rum baru a restaurace"},"alt":{"he":"חזית בר הרום והמסעדה","en":"Rum bar and restaurant facade","pl":"Fasada rum baru i restauracji","de":"Fassade der Rumbar und des Restaurants","cs":"Průčelí rum baru a restaurace"},"originalFullPicturePreserved":true,"familyForeground":false,"familyExceptionApplied":false,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json","privacyClassification":"Place photograph; incidental public visitors and reflections are not posed personal portraits"}},"thumbnail":"/assets/urban-named-places-oct29/source-016.jpg"},"provenance":{"factualSources":[{"url":"https://rumbar.eatbu.com/?lang=pl","checkedAt":"2026-10-29"},{"url":"https://www.google.com/maps/place/Rumbar.Pokoyhof/@51.1085229,17.0264321,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20b4cc9e6f9:0x81e755ec7c17b025!8m2!3d51.1085229!4d17.0264321!16s%2Fg%2F11g8xkhgvj?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D","checkedAt":"2026-10-29","coordinates":[51.1085229,17.0264321]}],"currentHoursNotAssumed":true,"originalsPreserved":true,"sourceReviewReceipt":"urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"}}];for(const p of reviewed){const i=window.WROC_CANONICAL_PLACE_SOURCE.findIndex(x=>x.id===p.id);if(i<0)window.WROC_CANONICAL_PLACE_SOURCE.push(p);else window.WROC_CANONICAL_PLACE_SOURCE[i]=p;}})();
+
+// Dialogue, riverside and cemetery places (29 October 2026).
+window.WROC_CANONICAL_PLACE_SOURCE.push(...[
+  {
+    "id": "przejscie-dialogu-wroclaw",
+    "aliases": [],
+    "localName": "Przejście Dialogu",
+    "name": {
+      "he": "מעבר הדיאלוג\nPrzejście Dialogu",
+      "en": "Passage of Dialogue",
+      "pl": "Przejście Dialogu",
+      "de": "Passage des Dialogs",
+      "cs": "Průchod dialogu"
+    },
+    "description": {
+      "he": "מרחב עירוני למפגש, תרבות, חינוך והיכרות בין תושבים, במעבר התת־קרקעי של רחוב שווידניצקה. במקום מתקיימות פעילויות קהילתיות ופועלת נקודת מידע לתושבים חדשים. תמונות הביקור מציגות את הכניסה, הכיתוב המזמין לשיחה והגמדים ליד הקיר. בדקו באתר הרשמי את הפעילות ואת פרטי הגישה לפני ביקור.\nPrzejście Dialogu\nŚwidnicka 19, Wrocław",
+      "en": "A municipal meeting, cultural and educational space in the Świdnicka underpass, with community activities and an information point for newcomers. Our visit photos show the entrance, the invitation to talk and the dwarfs beside the wall. Check the official programme and access information before visiting.",
+      "pl": "Miejska przestrzeń spotkań, kultury i edukacji w przejściu podziemnym przy Świdnickiej, z działaniami społecznymi i punktem informacji dla nowych mieszkańców. Nasze zdjęcia pokazują wejście, zaproszenie do rozmowy i krasnale przy ścianie. Przed wizytą sprawdź oficjalny program i informacje o dostępie.",
+      "de": "Ein städtischer Ort für Begegnung, Kultur und Bildung in der Świdnicka-Unterführung, mit Gemeinschaftsaktivitäten und einer Informationsstelle für neu Zugezogene. Unsere Besuchsfotos zeigen Eingang, Gesprächseinladung und Zwerge an der Wand. Aktuelles Programm und Zugang vor dem Besuch prüfen.",
+      "cs": "Městský prostor pro setkávání, kulturu a vzdělávání v podchodu ulice Świdnicka, s komunitními aktivitami a informačním místem pro nové obyvatele. Naše fotografie zachycují vstup, pozvání k rozhovoru a trpaslíky u stěny. Před návštěvou ověřte oficiální program a přístup."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.107037,
+        "lng": 17.0318151
+      },
+      "address": {
+        "street": "Świdnicka 19",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "culture",
+      "community"
+    ],
+    "taxonomy": {
+      "tags": [
+        "community-culture"
+      ]
+    },
+    "placeType": "community-centre",
+    "links": {
+      "website": "https://przejsciedialogu.wcrs.wroclaw.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Przejscie+Dialogu/@51.107037,17.0318151,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc3e20c8fa0d9:0xcac8bbbb1f39d939!8m2!3d51.107037!4d17.0318151!16s%2Fg%2F11q3s178fx?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?ll=51.107037,17.0318151&q=Przejście Dialogu"
+      },
+      "socialProfileFallback": false
+    },
+    "socialPosts": [],
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "status": "published",
+    "provenance": {
+      "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+      "factualSources": [
+        {
+          "url": "https://www.google.com/maps/place/Przejscie+Dialogu/@51.107037,17.0318151,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc3e20c8fa0d9:0xcac8bbbb1f39d939!8m2!3d51.107037!4d17.0318151!16s%2Fg%2F11q3s178fx?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.107037,
+            17.0318151
+          ]
+        },
+        {
+          "url": "https://przejsciedialogu.wcrs.wroclaw.pl/",
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "currentHoursAndPricesNotAssumed": true,
+      "originalsPreserved": true,
+      "mapMembershipDecision": [
+        "cultural-adventure"
+      ]
+    },
+    "media": {
+      "thumbnail": "/assets/dialogue-beach-cemetery-oct29/dialogue-001.jpg",
+      "photos": [
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-001.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-002.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-003.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-004.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-005.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-001.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/tolerance dialouge center/WhatsApp Image 2026-10-19 at 08.42.07 (2).jpeg",
+          "sourceSHA256": "0665226123a1dc69eed7d6bbcf1d9fe1d4c8b72d54fff8449ea394fa3e2ea7cd",
+          "assetSHA256": "0665226123a1dc69eed7d6bbcf1d9fe1d4c8b72d54fff8449ea394fa3e2ea7cd",
+          "sourceDisplayDimensions": [
+            1536,
+            2048
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "הכניסה ומרחב הדיאלוג במעבר התת־קרקעי",
+            "en": "Entrance and dialogue space in the underpass",
+            "pl": "Wejście i przestrzeń dialogu w przejściu podziemnym",
+            "de": "Eingang und Dialograum in der Unterführung",
+            "cs": "Vstup a prostor dialogu v podchodu"
+          },
+          "alt": {
+            "he": "הכניסה ומרחב הדיאלוג במעבר התת־קרקעי",
+            "en": "Entrance and dialogue space in the underpass",
+            "pl": "Wejście i przestrzeń dialogu w przejściu podziemnym",
+            "de": "Eingang und Dialograum in der Unterführung",
+            "cs": "Vstup a prostor dialogu v podchodu"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-002.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/tolerance dialouge center/WhatsApp Image 2026-10-19 at 08.42.08 (3).jpeg",
+          "sourceSHA256": "5aade61e7511b335a4b16d6bac3d2b775387a3507396706fe1f30cfeced3a255",
+          "assetSHA256": "5aade61e7511b335a4b16d6bac3d2b775387a3507396706fe1f30cfeced3a255",
+          "sourceDisplayDimensions": [
+            1536,
+            2048
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "הגמדים עם הלב ליד הקיר",
+            "en": "Dwarfs with a heart beside the wall",
+            "pl": "Krasnale z sercem przy ścianie",
+            "de": "Zwerge mit einem Herz an der Wand",
+            "cs": "Trpaslíci se srdcem u stěny"
+          },
+          "alt": {
+            "he": "הגמדים עם הלב ליד הקיר",
+            "en": "Dwarfs with a heart beside the wall",
+            "pl": "Krasnale z sercem przy ścianie",
+            "de": "Zwerge mit einem Herz an der Wand",
+            "cs": "Trpaslíci se srdcem u stěny"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-003.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/tolerance dialouge center/WhatsApp Image 2026-10-20 at 12.19.56 (1).jpeg",
+          "sourceSHA256": "1807f15d77f5b8647ac7137bf00a73f446676ff8ebf1c70c333ff8fc539dd8c1",
+          "assetSHA256": "1807f15d77f5b8647ac7137bf00a73f446676ff8ebf1c70c333ff8fc539dd8c1",
+          "sourceDisplayDimensions": [
+            1200,
+            1600
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "הזמנה לשיחה על קיר המרכז",
+            "en": "An invitation to talk on the centre wall",
+            "pl": "Zaproszenie do rozmowy na ścianie centrum",
+            "de": "Gesprächseinladung an der Wand des Zentrums",
+            "cs": "Pozvání k rozhovoru na stěně centra"
+          },
+          "alt": {
+            "he": "הזמנה לשיחה על קיר המרכז",
+            "en": "An invitation to talk on the centre wall",
+            "pl": "Zaproszenie do rozmowy na ścianie centrum",
+            "de": "Gesprächseinladung an der Wand des Zentrums",
+            "cs": "Pozvání k rozhovoru na stěně centra"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/tolerance dialouge center/WhatsApp Image 2026-10-20 at 12.19.56.jpeg",
+          "sourceSHA256": "a11234113a7bcbbcf85ce621dedd85aa4f7b40d38eb393e5ade32c2351697b94",
+          "assetSHA256": "a11234113a7bcbbcf85ce621dedd85aa4f7b40d38eb393e5ade32c2351697b94",
+          "sourceDisplayDimensions": [
+            1200,
+            1600
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מבט נוסף על הגמדים והלב",
+            "en": "Another view of the dwarfs and heart",
+            "pl": "Inne ujęcie krasnali i serca",
+            "de": "Weitere Ansicht der Zwerge und des Herzens",
+            "cs": "Další pohled na trpaslíky a srdce"
+          },
+          "alt": {
+            "he": "מבט נוסף על הגמדים והלב",
+            "en": "Another view of the dwarfs and heart",
+            "pl": "Inne ujęcie krasnali i serca",
+            "de": "Weitere Ansicht der Zwerge und des Herzens",
+            "cs": "Další pohled na trpaslíky a srdce"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/dialogue-005.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/tolerance dialouge center/WhatsApp Image 2026-10-20 at 12.19.57.jpeg",
+          "sourceSHA256": "35ba0732c1dc80715cd26b66f257b8947da508d42cc77cbaf6a0c834ba62e364",
+          "assetSHA256": "35ba0732c1dc80715cd26b66f257b8947da508d42cc77cbaf6a0c834ba62e364",
+          "sourceDisplayDimensions": [
+            1200,
+            1600
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מבט נוסף על הכניסה והכיתוב",
+            "en": "Another view of the entrance and lettering",
+            "pl": "Inne ujęcie wejścia i napisów",
+            "de": "Weitere Ansicht von Eingang und Beschriftung",
+            "cs": "Další pohled na vstup a nápisy"
+          },
+          "alt": {
+            "he": "מבט נוסף על הכניסה והכיתוב",
+            "en": "Another view of the entrance and lettering",
+            "pl": "Inne ujęcie wejścia i napisów",
+            "de": "Weitere Ansicht von Eingang und Beschriftung",
+            "cs": "Další pohled na vstup a nápisy"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        }
+      }
+    }
+  },
+  {
+    "id": "dobra-przystan-beach-bar-wroclaw",
+    "aliases": [],
+    "localName": "Dobra Przystań Beach Bar",
+    "name": {
+      "he": "דוברה פשישטן, בר חוף\nDobra Przystań Beach Bar",
+      "en": "Dobra Przystań Beach Bar",
+      "pl": "Dobra Przystań Beach Bar",
+      "de": "Dobra Przystań Beachbar",
+      "cs": "Dobra Przystań Beach Bar"
+    },
+    "description": {
+      "he": "בר חוף עונתי ליד האודר והסכר, לצד מתחם הקמפינג. תמונות הביקור שאושרו למקום מציגות ישיבה ליד המים, דוכן, תפריט וסביבת אופניים. פרטי התפריט המצולמים מתעדים את מועד הביקור ואינם מחירון עדכני. בדקו את עונת הפעילות לפני ההגעה.\nDobra Przystań Beach Bar\nBraci Gierymskich 149B, Wrocław",
+      "en": "A seasonal beach bar beside the Oder and the weir, near Odra Camp. Our photographs show waterside seating, a kiosk, a menu and the cycling surroundings. Photographed menu details reflect the visit and are not current prices. Check seasonal operation before coming.",
+      "pl": "Sezonowy beach bar nad Odrą przy jazie, obok Odra Camp. Nasze zdjęcia pokazują miejsca do siedzenia nad wodą, kiosk, menu i rowerowe otoczenie. Sfotografowane menu dokumentuje czas wizyty, nie aktualne ceny. Przed przyjazdem sprawdź sezon działania.",
+      "de": "Eine saisonale Beachbar an der Oder beim Wehr, neben Odra Camp. Unsere Fotos zeigen Sitzplätze am Wasser, einen Kiosk, eine Speisekarte und das von Radfahrern genutzte Umfeld. Das fotografierte Menü dokumentiert den Besuch und keine aktuellen Preise. Saisonbetrieb vorher prüfen.",
+      "cs": "Sezonní plážový bar u Odry a jezu vedle Odra Camp. Naše fotografie zachycují posezení u vody, stánek, jídelní lístek a cyklistické okolí. Vyfotografované menu dokumentuje dobu návštěvy, nikoli aktuální ceny. Před cestou ověřte sezonní provoz."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1007628,
+        "lng": 17.1226202
+      },
+      "address": {
+        "street": "Braci Gierymskich 149B",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat",
+      "drink",
+      "enjoy"
+    ],
+    "taxonomy": {
+      "tags": [
+        "beach-bar",
+        "river",
+        "seasonal"
+      ]
+    },
+    "placeType": "beach-bar",
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Dobra+Przysta%C5%84+Beach+Bar/@51.1007628,17.1226202,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe7874ba3e7eb:0x334a6a7727f22f27!8m2!3d51.1007628!4d17.1226202!16s%2Fg%2F11x76lnzgl?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?ll=51.1007628,17.1226202&q=Dobra Przystań Beach Bar"
+      },
+      "socialProfileFallback": false
+    },
+    "socialPosts": [],
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "status": "published",
+    "provenance": {
+      "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+      "factualSources": [
+        {
+          "url": "https://www.google.com/maps/place/Dobra+Przysta%C5%84+Beach+Bar/@51.1007628,17.1226202,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe7874ba3e7eb:0x334a6a7727f22f27!8m2!3d51.1007628!4d17.1226202!16s%2Fg%2F11x76lnzgl?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1007628,
+            17.1226202
+          ]
+        }
+      ],
+      "currentHoursAndPricesNotAssumed": true,
+      "originalsPreserved": true,
+      "mapMembershipDecision": [
+        "lifestyle-guide",
+        "beach-bars-and-waterside-summer"
+      ]
+    },
+    "media": {
+      "thumbnail": "/assets/dialogue-beach-cemetery-oct29/beach-014.jpg",
+      "photos": [
+        "/assets/dialogue-beach-cemetery-oct29/beach-014.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-015.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-016.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-017.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-018.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-019.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-020.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/dialogue-beach-cemetery-oct29/beach-014.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/WhatsApp Image 2026-08-03 at 11.20.32.jpeg",
+          "sourceSHA256": "1f9abe244989b153b51f111e64407edbd7015999f442662bb7305fc66dad2df1",
+          "assetSHA256": "1f9abe244989b153b51f111e64407edbd7015999f442662bb7305fc66dad2df1",
+          "sourceDisplayDimensions": [
+            627,
+            836
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-015.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/WhatsApp Image 2026-08-03 at 11.20.33 (1).jpeg",
+          "sourceSHA256": "45f96b35ce55c998e484a81d4effb5dfd63785629fe7460bf8b11f3dbfb894f1",
+          "assetSHA256": "45f96b35ce55c998e484a81d4effb5dfd63785629fe7460bf8b11f3dbfb894f1",
+          "sourceDisplayDimensions": [
+            627,
+            836
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-016.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/WhatsApp Image 2026-08-03 at 11.20.33.jpeg",
+          "sourceSHA256": "29624cf09022c0228e071545c736c480caad8cda69441fe850eca9a543c492ae",
+          "assetSHA256": "29624cf09022c0228e071545c736c480caad8cda69441fe850eca9a543c492ae",
+          "sourceDisplayDimensions": [
+            627,
+            836
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-017.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/WhatsApp Image 2026-08-03 at 11.20.35 (1).jpeg",
+          "sourceSHA256": "576f4db0c3107a1bcce6fbfe4c4e53dbf3fd77586845f97c3d71cc2764f36a9b",
+          "assetSHA256": "576f4db0c3107a1bcce6fbfe4c4e53dbf3fd77586845f97c3d71cc2764f36a9b",
+          "sourceDisplayDimensions": [
+            627,
+            836
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-018.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/WhatsApp Image 2026-08-03 at 11.20.37.jpeg",
+          "sourceSHA256": "1ef8083f6f975e68d52fe086fbb19041ec0969da0404d3b0810d8bdee1e047a0",
+          "assetSHA256": "1ef8083f6f975e68d52fe086fbb19041ec0969da0404d3b0810d8bdee1e047a0",
+          "sourceDisplayDimensions": [
+            1600,
+            1200
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-019.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/WhatsApp Image 2026-08-03 at 11.20.38 (1).jpeg",
+          "sourceSHA256": "b3b15b2d225e7f0c5b972babdedd942d38eb1ebae0008e2dbcd127f5c62facb4",
+          "assetSHA256": "b3b15b2d225e7f0c5b972babdedd942d38eb1ebae0008e2dbcd127f5c62facb4",
+          "sourceDisplayDimensions": [
+            1200,
+            1600
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תפריט שצולם בביקור, אינו מחירון עדכני",
+            "en": "Menu photographed during the visit, not current prices",
+            "pl": "Menu z czasu wizyty, nie aktualny cennik",
+            "de": "Beim Besuch fotografierte Speisekarte, keine aktuellen Preise",
+            "cs": "Menu z doby návštěvy, nikoli aktuální ceny"
+          },
+          "alt": {
+            "he": "תפריט שצולם בביקור, אינו מחירון עדכני",
+            "en": "Menu photographed during the visit, not current prices",
+            "pl": "Menu z czasu wizyty, nie aktualny cennik",
+            "de": "Beim Besuch fotografierte Speisekarte, keine aktuellen Preise",
+            "cs": "Menu z doby návštěvy, nikoli aktuální ceny"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-020.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/WhatsApp Image 2026-08-03 at 11.20.38.jpeg",
+          "sourceSHA256": "ac1a788e04e564e558860246ec2fee9793374d21d089866fe8f96ab73b2a83fa",
+          "assetSHA256": "ac1a788e04e564e558860246ec2fee9793374d21d089866fe8f96ab73b2a83fa",
+          "sourceDisplayDimensions": [
+            1200,
+            1600
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        }
+      }
+    }
+  },
+  {
+    "id": "prosto-z-mostu-beach-bar-wroclaw",
+    "aliases": [],
+    "localName": "Prosto z Mostu Beach Bar",
+    "name": {
+      "he": "פרוסטו ז מוסטו, בר חוף\nProsto z Mostu Beach Bar",
+      "en": "Prosto z Mostu Beach Bar",
+      "pl": "Prosto z Mostu Beach Bar",
+      "de": "Prosto z Mostu Beachbar",
+      "cs": "Prosto z Mostu Beach Bar"
+    },
+    "description": {
+      "he": "בר חוף עונתי על גדת האודר ליד גשרי ורשה. תמונות הביקור מציגות חול, כיסאות נוח, פינות ישיבה מוצלות, נהר ואוכל. זהו מקום נפרד מדוברה פשישטן שליד הסכר. בדקו מול המקום את עונת הפעילות, התפריט ושעות הפתיחה.\nProsto z Mostu Beach Bar\nPasterska 1, Wrocław",
+      "en": "A seasonal beach bar on the Oder near Mosty Warszawskie. Our visit photographs show sand, deckchairs, shaded seating, the river and food. This is separate from Dobra Przystań beside the weir. Check the season, menu and opening hours with the venue.",
+      "pl": "Sezonowy beach bar nad Odrą przy Mostach Warszawskich. Nasze zdjęcia pokazują piasek, leżaki, zacienione miejsca do siedzenia, rzekę i jedzenie. To osobne miejsce niż Dobra Przystań przy jazie. Sezon, menu i godziny sprawdź u gospodarzy.",
+      "de": "Eine saisonale Beachbar an der Oder bei den Warschauer Brücken. Unsere Besuchsfotos zeigen Sand, Liegestühle, schattige Sitzbereiche, Fluss und Essen. Sie ist von Dobra Przystań am Wehr zu unterscheiden. Saison, Speisekarte und Öffnungszeiten beim Betreiber prüfen.",
+      "cs": "Sezonní plážový bar u Odry poblíž Varšavských mostů. Naše fotografie zachycují písek, lehátka, stinné posezení, řeku a jídlo. Jde o jiné místo než Dobra Przystań u jezu. Sezonu, nabídku a otevírací dobu ověřte u podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.128813,
+        "lng": 17.0590429
+      },
+      "address": {
+        "street": "Pasterska 1",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat",
+      "drink",
+      "enjoy"
+    ],
+    "taxonomy": {
+      "tags": [
+        "beach-bar",
+        "river",
+        "seasonal"
+      ]
+    },
+    "placeType": "beach-bar",
+    "links": {
+      "website": "https://www.facebook.com/ProstoZMostuBeachBar/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Prosto+z+Mostu/@51.128813,17.0590429,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9c873fd7727:0x13cc3496ba9a3a0f!8m2!3d51.128813!4d17.0590429!16s%2Fg%2F11g0dt2483?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?ll=51.128813,17.0590429&q=Prosto z Mostu Beach Bar"
+      },
+      "socialProfileFallback": false
+    },
+    "socialPosts": [],
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "status": "published",
+    "provenance": {
+      "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+      "factualSources": [
+        {
+          "url": "https://www.google.com/maps/place/Prosto+z+Mostu/@51.128813,17.0590429,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9c873fd7727:0x13cc3496ba9a3a0f!8m2!3d51.128813!4d17.0590429!16s%2Fg%2F11g0dt2483?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.128813,
+            17.0590429
+          ]
+        },
+        {
+          "url": "https://www.facebook.com/ProstoZMostuBeachBar/",
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "currentHoursAndPricesNotAssumed": true,
+      "originalsPreserved": true,
+      "mapMembershipDecision": [
+        "lifestyle-guide",
+        "beach-bars-and-waterside-summer"
+      ]
+    },
+    "media": {
+      "thumbnail": "/assets/dialogue-beach-cemetery-oct29/beach-001.jpg",
+      "photos": [
+        "/assets/dialogue-beach-cemetery-oct29/beach-001.jpg",
+        "/assets/experiences/beach-bars/visit-37.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-003.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-004.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-005.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-006.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-007.jpg",
+        "/assets/experiences/beach-bars/visit-43.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-009.jpg",
+        "/assets/experiences/beach-bars/visit-45.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-011.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/beach-012.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/dialogue-beach-cemetery-oct29/beach-001.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/FCACF17E-CD5C-4272-ABB1-A4619CFA0E5C.jpg",
+          "sourceSHA256": "fe0a6b9ac34a748f395ed52ea9bf0cb6ee78d0eddf2b524b5271f78f7f5a1fc4",
+          "assetSHA256": "fe0a6b9ac34a748f395ed52ea9bf0cb6ee78d0eddf2b524b5271f78f7f5a1fc4",
+          "sourceDisplayDimensions": [
+            2160,
+            3840
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/experiences/beach-bars/visit-37.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4634.JPG",
+          "sourceSHA256": "7fc8cfad214dcb6bf0fbf025e7ba02d7452d88dabe0acc6793cd8e233c716f0a",
+          "assetSHA256": "7fc8cfad214dcb6bf0fbf025e7ba02d7452d88dabe0acc6793cd8e233c716f0a",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-003.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4635.JPG",
+          "sourceSHA256": "8e7487789f7d17249f72bc7ea48334886b1065417ed69bc4f68b7e31a46916a9",
+          "assetSHA256": "8e7487789f7d17249f72bc7ea48334886b1065417ed69bc4f68b7e31a46916a9",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4636.JPG",
+          "sourceSHA256": "110c19fb5e27733a38e5e4f592bc1d63ec78693f810aafbf3ae7593825489b60",
+          "assetSHA256": "110c19fb5e27733a38e5e4f592bc1d63ec78693f810aafbf3ae7593825489b60",
+          "sourceDisplayDimensions": [
+            4032,
+            3024
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-005.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4637.JPG",
+          "sourceSHA256": "664252319beff338ae546f6c836587a7aa9c7b3d203551e2cfb4df73b19aa934",
+          "assetSHA256": "664252319beff338ae546f6c836587a7aa9c7b3d203551e2cfb4df73b19aa934",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-006.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4638.JPG",
+          "sourceSHA256": "2c007c210ef25a76fe265531d9709b506ff3438e1e0696cc0381e615a4bc2532",
+          "assetSHA256": "2c007c210ef25a76fe265531d9709b506ff3438e1e0696cc0381e615a4bc2532",
+          "sourceDisplayDimensions": [
+            4032,
+            3024
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-007.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4639.JPG",
+          "sourceSHA256": "a359ecf9a1f8761ad220f4e962c65e0d3c4afec7a57d8b21bb64ad0986f7f550",
+          "assetSHA256": "a359ecf9a1f8761ad220f4e962c65e0d3c4afec7a57d8b21bb64ad0986f7f550",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/experiences/beach-bars/visit-43.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4640.JPG",
+          "sourceSHA256": "a1984a7c39c5a27490c1b2b89edd8fbe12b1cc189e950d0f6a615f0640694a06",
+          "assetSHA256": "a1984a7c39c5a27490c1b2b89edd8fbe12b1cc189e950d0f6a615f0640694a06",
+          "sourceDisplayDimensions": [
+            4032,
+            3024
+          ],
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-009.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4641.JPG",
+          "sourceSHA256": "bbe99bcecfb19235429b3f348023e93ae2c2b2c379a7743fd0ce40688db56461",
+          "assetSHA256": "bbe99bcecfb19235429b3f348023e93ae2c2b2c379a7743fd0ce40688db56461",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/experiences/beach-bars/visit-45.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4647.JPG",
+          "sourceSHA256": "8d79e59196a7dbbf054e236ed4f1322507a30526e7e7f4d8571e10e96e57143a",
+          "assetSHA256": "8d79e59196a7dbbf054e236ed4f1322507a30526e7e7f4d8571e10e96e57143a",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-011.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4648.JPG",
+          "sourceSHA256": "2c0064620ccdcd8ff4fd84a8b4ac9e8069472869fb937e084fa797aa6a5f66d9",
+          "assetSHA256": "2c0064620ccdcd8ff4fd84a8b4ac9e8069472869fb937e084fa797aa6a5f66d9",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/beach-012.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/דוברה פשישטן ביץ׳ בר/IMG_4652.JPG",
+          "sourceSHA256": "3c91484f90a4606acdc6202fa9fdf9f115bcab175eb6486503745127e18da73b",
+          "assetSHA256": "3c91484f90a4606acdc6202fa9fdf9f115bcab175eb6486503745127e18da73b",
+          "sourceDisplayDimensions": [
+            2093,
+            2791
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "alt": {
+            "he": "תיעוד מהביקור בבר החוף וסביבת הנהר",
+            "en": "Visit photograph of the beach bar and riverside setting",
+            "pl": "Zdjęcie z wizyty w beach barze i nadrzecznym otoczeniu",
+            "de": "Besuchsfoto der Beachbar und ihrer Flussumgebung",
+            "cs": "Fotografie z návštěvy plážového baru a říčního okolí"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        }
+      }
+    }
+  },
+  {
+    "id": "new-jewish-cemetery-wroclaw",
+    "aliases": [],
+    "localName": "Nowy Cmentarz Żydowski",
+    "name": {
+      "he": "בית הקברות היהודי החדש\nNowy Cmentarz Żydowski",
+      "en": "New Jewish Cemetery",
+      "pl": "Nowy Cmentarz Żydowski",
+      "de": "Neuer Jüdischer Friedhof",
+      "cs": "Nový židovský hřbitov"
+    },
+    "description": {
+      "he": "בית קברות יהודי פעיל שנפתח ב־1902 ונמצא באחריות הקהילה היהודית. תמונות הביקור מציגות את שער הלבנים, המצבות והשבילים בין העצים. זהו מקום נפרד מבית הקברות היהודי הישן ברחוב שלנז׳נה. לפני ביקור תיירותי יש לברר עם הקהילה על תיאום או סיור מודרך; ההודעה המצולמת מתעדת את תנאי הביקור בעת הצילום.\nNowy Cmentarz Żydowski\nLotnicza 51, Wrocław",
+      "en": "An active Jewish cemetery opened in 1902 and managed by the Jewish community. Our visit photographs show its brick gateway, gravestones and paths beneath the trees. It is separate from the Old Jewish Cemetery on Ślężna Street. Check arrangements or guided visits with the community before a tourist visit; the photographed notice records conditions at the time of the visit.\nLotnicza 51, Wrocław",
+      "pl": "Czynny cmentarz żydowski, otwarty w 1902 roku i zarządzany przez gminę żydowską. Nasze zdjęcia pokazują ceglaną bramę, nagrobki i ścieżki wśród drzew. To inne miejsce niż Stary Cmentarz Żydowski przy Ślężnej. Przed wizytą turystyczną należy uzgodnić zasady odwiedzin lub oprowadzanie z gminą; sfotografowane ogłoszenie dokumentuje warunki z czasu wizyty.\nLotnicza 51, Wrocław",
+      "de": "Ein 1902 eröffneter, weiterhin genutzter jüdischer Friedhof unter Verwaltung der jüdischen Gemeinde. Unsere Besuchsfotos zeigen das Backsteintor, Grabsteine und Wege unter Bäumen. Er ist vom Alten Jüdischen Friedhof an der Ślężna-Straße zu unterscheiden. Für einen touristischen Besuch vorher mit der Gemeinde einen Termin oder eine Führung klären; der fotografierte Aushang dokumentiert die damaligen Besuchsregeln.\nLotnicza 51, Wrocław",
+      "cs": "Stále využívaný židovský hřbitov, otevřený v roce 1902 a spravovaný židovskou obcí. Naše fotografie zachycují cihlovou bránu, náhrobky a cesty mezi stromy. Jde o jiné místo než Starý židovský hřbitov v ulici Ślężna. Před turistickou návštěvou si s obcí domluvte podmínky vstupu nebo komentovanou prohlídku; vyfotografované oznámení zachycuje tehdejší pravidla.\nLotnicza 51, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1316829,
+        "lng": 16.9655869
+      },
+      "address": {
+        "street": "Lotnicza 51",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "heritage",
+      "history"
+    ],
+    "taxonomy": {
+      "tags": [
+        "museums-history",
+        "architecture-design"
+      ]
+    },
+    "placeType": "cemetery",
+    "links": {
+      "website": "https://wroclaw.jewish.org.pl/nowy-cmentarz-zydowski/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/%D7%91%D7%99%D7%AA+%D7%94%D7%A7%D7%91%D7%A8%D7%95%D7%AA+%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99+%D7%A9%D7%9C+%D7%95%D7%95%D7%A8%D7%95%D7%A6%D7%9C%D7%91%E2%80%AD/@51.1316829,16.9655869,17z/data=!3m1!4b1!4m6!3m5!1s0x470fea6fddc71e5d:0xfc32797a867e407c!8m2!3d51.1316829!4d16.9655869!16s%2Fg%2F120pnp_h?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?ll=51.1316829,16.9655869&q=Nowy Cmentarz Żydowski"
+      },
+      "socialProfileFallback": false
+    },
+    "socialPosts": [],
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "status": "published",
+    "provenance": {
+      "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+      "factualSources": [
+        {
+          "url": "https://wroclaw.jewish.org.pl/nowy-cmentarz-zydowski/",
+          "type": "cemetery-owner-primary",
+          "access": "indexed official page text read; direct web fetch timed out twice",
+          "supports": [
+            "Name and Lotnicza51address",
+            "Separate from Stary Cmentarz Żydowski at Ślężna",
+            "Active cemetery operated by the Jewish community",
+            "Historical opening1902"
+          ],
+          "notUsedFor": [
+            "Current opening hours",
+            "Prices",
+            "Current general tourist access"
+          ]
+        },
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/tu-wejdziecie-tylko-z-przewodnikiem-zobacz-jesienne-zdjecia-z-nowego-cmentarza-zydowskiego-przy-ul-lotniczej",
+          "type": "municipal-primary",
+          "publishedAt": "2024-10-31",
+          "access": "full article read",
+          "supports": [
+            "Distinct New Cemetery at Lotnicza",
+            "Community management",
+            "Guided/arranged visiting instead of open daily museum access"
+          ],
+          "notUsedFor": [
+            "Fixed current tour day or hour"
+          ]
+        },
+        {
+          "url": "https://www.wroclaw.pl/sport/kozanow-pejzaz-niejednoznaczny-cz-i",
+          "type": "municipal-primary",
+          "publishedAt": "2014-03-16",
+          "access": "full text and gate image caption read; original gate image fetch returned cache miss",
+          "supports": [
+            "Historic cemetery gate at Lotnicza captioned as dating to1902",
+            "Exact gate reference imageURL https://www.wroclaw.pl/sport/files/news/117078/main3.JPG"
+          ],
+          "notClaimed": "No successful full-reference-image visual comparison through web tool"
+        },
+        {
+          "url": "https://www.google.com/maps/place/%D7%91%D7%99%D7%AA+%D7%94%D7%A7%D7%91%D7%A8%D7%95%D7%AA+%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99+%D7%A9%D7%9C+%D7%95%D7%95%D7%A8%D7%95%D7%A6%D7%9C%D7%91%E2%80%AD/@51.1316829,16.9655869,17z/data=!3m1!4b1!4m6!3m5!1s0x470fea6fddc71e5d:0xfc32797a867e407c!8m2!3d51.1316829!4d16.9655869!16s%2Fg%2F120pnp_h?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1316829,
+            16.9655869
+          ]
+        },
+        {
+          "url": "https://wroclaw.jewish.org.pl/nowy-cmentarz-zydowski/",
+          "checkedAt": "2026-10-29"
+        }
+      ],
+      "currentHoursAndPricesNotAssumed": true,
+      "originalsPreserved": true,
+      "mapMembershipDecision": [
+        "cultural-adventure"
+      ],
+      "addressDiscrepancy": {
+        "officialCommunity": "Lotnicza 51",
+        "mapsListing": "Lotnicza 19",
+        "decision": "Use community-owner postal address with independently verified Maps place pin; do not claim exact entrance geocode."
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/dialogue-beach-cemetery-oct29/cemetery-001.jpg",
+      "photos": [
+        "/assets/dialogue-beach-cemetery-oct29/cemetery-001.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/cemetery-002.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/cemetery-003.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/cemetery-004.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/dialogue-beach-cemetery-oct29/cemetery-001.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית הקברות היהודי/IMG_4682.JPG",
+          "sourceSHA256": "6940ba35f4aec6174f675cda1637cb8e239c63145eea1390bc6dc978e3476ff0",
+          "assetSHA256": "6940ba35f4aec6174f675cda1637cb8e239c63145eea1390bc6dc978e3476ff0",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מצבות ושביל הכניסה בין העצים",
+            "en": "Graves and entrance path beneath the trees",
+            "pl": "Nagrobki i ścieżka wejściowa pod drzewami",
+            "de": "Grabsteine und Eingangsweg unter Bäumen",
+            "cs": "Náhrobky a vstupní cesta pod stromy"
+          },
+          "alt": {
+            "he": "מצבות ושביל הכניסה בין העצים",
+            "en": "Graves and entrance path beneath the trees",
+            "pl": "Nagrobki i ścieżka wejściowa pod drzewami",
+            "de": "Grabsteine und Eingangsweg unter Bäumen",
+            "cs": "Náhrobky a vstupní cesta pod stromy"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/cemetery-002.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית הקברות היהודי/IMG_4683.JPG",
+          "sourceSHA256": "4491e486c3e4eaacea65ddf318b04765471df737eaf3281af31045c73226e420",
+          "assetSHA256": "4491e486c3e4eaacea65ddf318b04765471df737eaf3281af31045c73226e420",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "השביל המרכזי ושורות העצים בבית הקברות",
+            "en": "Central path and rows of cemetery trees",
+            "pl": "Główna ścieżka i szpalery drzew na cmentarzu",
+            "de": "Hauptweg und Baumreihen auf dem Friedhof",
+            "cs": "Hlavní cesta a řady stromů na hřbitově"
+          },
+          "alt": {
+            "he": "השביל המרכזי ושורות העצים בבית הקברות",
+            "en": "Central path and rows of cemetery trees",
+            "pl": "Główna ścieżka i szpalery drzew na cmentarzu",
+            "de": "Hauptweg und Baumreihen auf dem Friedhof",
+            "cs": "Hlavní cesta a řady stromů na hřbitově"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/cemetery-003.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית הקברות היהודי/IMG_4684.JPG",
+          "sourceSHA256": "5cb497c41b6e504eed42320b3af9ad04a14941a79166c1a10f02b88584ebc304",
+          "assetSHA256": "5cb497c41b6e504eed42320b3af9ad04a14941a79166c1a10f02b88584ebc304",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "הודעת הקהילה על תנאי הביקור בעת הצילום",
+            "en": "Community notice about visiting arrangements at the time of the photograph",
+            "pl": "Informacja gminy o zasadach odwiedzin w dniu wykonania zdjęcia",
+            "de": "Gemeindehinweis zu den Besuchsregeln zum Zeitpunkt der Aufnahme",
+            "cs": "Oznámení obce o podmínkách návštěvy v době pořízení fotografie"
+          },
+          "alt": {
+            "he": "הודעת הקהילה על תנאי הביקור בעת הצילום",
+            "en": "Community notice about visiting arrangements at the time of the photograph",
+            "pl": "Informacja gminy o zasadach odwiedzin w dniu wykonania zdjęcia",
+            "de": "Gemeindehinweis zu den Besuchsregeln zum Zeitpunkt der Aufnahme",
+            "cs": "Oznámení obce o podmínkách návštěvy v době pořízení fotografie"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/cemetery-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/בית הקברות היהודי/IMG_4685.JPG",
+          "sourceSHA256": "9f59a2a0157cf4e5b58e554d105d921911863f5b9d5cf01d46a20a8803bb83a1",
+          "assetSHA256": "9f59a2a0157cf4e5b58e554d105d921911863f5b9d5cf01d46a20a8803bb83a1",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "שער הכניסה הקשתי מלבנים ומאבן",
+            "en": "Arched entrance gateway in brick and stone",
+            "pl": "Łukowa brama wejściowa z cegły i kamienia",
+            "de": "Rundbogiges Eingangstor aus Backstein und Stein",
+            "cs": "Oblouková vstupní brána z cihel a kamene"
+          },
+          "alt": {
+            "he": "שער הכניסה הקשתי מלבנים ומאבן",
+            "en": "Arched entrance gateway in brick and stone",
+            "pl": "Łukowa brama wejściowa z cegły i kamienia",
+            "de": "Rundbogiges Eingangstor aus Backstein und Stein",
+            "cs": "Oblouková vstupní brána z cihel a kamene"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json"
+        }
+      }
+    }
+  },
+  {
+    "id": "kepa-mieszczanska-wroclaw",
+    "aliases": [],
+    "localName": "Kępa Mieszczańska",
+    "name": {
+      "he": "האי קמפה מיישצ׳נסקה",
+      "en": "Kępa Mieszczańska island",
+      "pl": "Kępa Mieszczańska",
+      "de": "Insel Kępa Mieszczańska",
+      "cs": "Ostrov Kępa Mieszczańska"
+    },
+    "description": {
+      "he": "אי באודר סמוך לעיר העתיקה, בין הזרוע הצפונית והדרומית של הנהר. רציפים ומבני תעשייה מן העבר פינו מקום גם למגורים, מעברים להולכי רגל וטיילות. תמונות הביקור מתעדות את הבנייה העכשווית, השילוט, המרינה ומתקני המים; שתי תמונות מציגות את מתחם הטיילת בגדה שמול האי, כהקשר לדרך אליו.\nKępa Mieszczańska",
+      "en": "An Oder island beside the Old Town, between the river’s northern and southern branches. Former quays and industrial areas now sit alongside housing, pedestrian passages and riverside walks. Our visit photographs show contemporary buildings, wayfinding, the marina and water structures. Two photographs document Bulwar Staromiejski on the opposite mainland bank as context for the approach.",
+      "pl": "Wyspa na Odrze przy Starym Mieście, między północnym i południowym ramieniem rzeki. Dawne nabrzeża i tereny przemysłowe sąsiadują dziś z zabudową mieszkaniową, pasażami i trasami spacerowymi. Zdjęcia z wizyty pokazują współczesną architekturę, oznakowanie, marinę i budowle wodne. Dwie fotografie dokumentują Bulwar Staromiejski na przeciwległym brzegu jako kontekst dojścia.",
+      "de": "Eine Oderinsel neben der Altstadt, zwischen dem nördlichen und südlichen Flussarm. Ehemalige Kais und Industrieflächen liegen heute neben Wohngebäuden, Fußgängerpassagen und Uferwegen. Unsere Besuchsfotos zeigen moderne Architektur, Wegweiser, die Marina und Wasserbauwerke. Zwei Aufnahmen dokumentieren den Bulwar Staromiejski auf dem gegenüberliegenden Festlandufer als Kontext des Zugangs.",
+      "cs": "Ostrov na Odře u Starého Města, mezi severním a jižním ramenem řeky. Bývalá nábřeží a průmyslové plochy dnes sousedí s obytnými budovami, pěšími pasážemi a nábřežními cestami. Fotografie z návštěvy ukazují moderní architekturu, rozcestníky, marinu a vodní stavby. Dva snímky zachycují Bulwar Staromiejski na protějším břehu jako kontext přístupu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1175001,
+        "lng": 17.02196
+      },
+      "address": {
+        "area": "Kępa Mieszczańska",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "enjoy",
+      "architecture",
+      "river",
+      "island"
+    ],
+    "taxonomy": {
+      "tags": [
+        "architecture-design",
+        "riverside-walk"
+      ]
+    },
+    "placeType": "island-area",
+    "links": {
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/wroclawskie-bulwary-na-kepie-mieszczanskiej-warto-sie-tam-wybrac-na-spacer-nawet-w-styczniu",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/K%C4%99pa+Mieszcza%C5%84ska/@51.1182679,17.0260486,16z/data=!3m1!4b1!4m6!3m5!1s0x470fe9e3e41f1a7d:0x5516e7060c0d4357!8m2!3d51.1175001!4d17.02196!16s%2Fg%2F120n83_m?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?ll=51.1175001,17.02196&q=Kępa%20Mieszczańska"
+      },
+      "socialProfileFallback": false
+    },
+    "socialPosts": [],
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "status": "published",
+    "provenance": {
+      "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/kepa-mieszczanska-review/source-review.json",
+      "factualSources": [
+        {
+          "url": "https://www.wroclaw.pl/przedsiebiorczy-wroclaw/kepa-mieszczanska-plan-zagospodarowania",
+          "type": "municipal-primary",
+          "publicationDate": "2017-08-09",
+          "claimsUsed": [
+            "The island is surrounded by the southern and northern branches of the Oder and links to the city by multiple bridge groups.",
+            "Its history includes loading quays, storage, mills and later military use."
+          ],
+          "temporalLimit": "2017 development forecasts were not treated as proof of completed present facilities."
+        },
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/wroclawskie-bulwary-na-kepie-mieszczanskiej-warto-sie-tam-wybrac-na-spacer-nawet-w-styczniu",
+          "type": "municipal-primary",
+          "publicationDate": "2023-01-25",
+          "claimsUsed": [
+            "Riverside walks operate on both banks; the former Babiński hospital/mainland Bulwar Staromiejski complex is separate from crossing Sikorski bridge onto the island.",
+            "Industrial history is visible around the island and a small mill-remains display exists between Pomorski bridges."
+          ],
+          "temporalLimit": "No present opening hours, universal continuous bank access or business availability claimed."
+        },
+        {
+          "url": "https://bpi-realestate.pl/pl/realizacje/bulwary-ksiazece/",
+          "type": "owner-developer-primary",
+          "claimsUsed": [
+            "Bulwary Książęce is an apartment and pedestrian-passage development at Księcia Witolda11, completed2018–2020."
+          ],
+          "temporalLimit": "Facts identify the signed complex in IMG_4667. They do not identify the different Dom Development Księcia Witolda32 courtyard as the same development."
+        },
+        {
+          "url": "https://www.wroclaw.pl/przedsiebiorczy-wroclaw/zabytki-techniki-srodmiejskiego-wezla-wodnego",
+          "type": "municipal-primary",
+          "publicationDate": "2015",
+          "claimsUsed": [
+            "Mieszczańska lock belongs to the historic city water system; island stone and brick embankments are part of its industrial river heritage."
+          ],
+          "temporalLimit": "Specific lock/photo assignment uses visible geography as corroboration; a generic primary history page alone is not final capture identification."
+        },
+        {
+          "url": "https://www.gov.pl/web/drogiwodne/wroclaw-trasa-mieszczanska",
+          "type": "waterway-authority-primary",
+          "claimsUsed": [
+            "The route follows the southern Oder along Kępa Mieszczańska, passes Sikorski bridge and reaches Mieszczańska lock."
+          ],
+          "temporalLimit": "Do not reuse boating restrictions or navigation hours as visitor advice without current action-time verification."
+        },
+        {
+          "url": "https://www.google.com/maps/place/K%C4%99pa+Mieszcza%C5%84ska/@51.1182679,17.0260486,16z/data=!3m1!4b1!4m6!3m5!1s0x470fe9e3e41f1a7d:0x5516e7060c0d4357!8m2!3d51.1175001!4d17.02196!16s%2Fg%2F120n83_m?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1175001,
+            17.02196
+          ],
+          "scope": "Island area point, not exact business entrance"
+        }
+      ],
+      "currentHoursAndPricesNotAssumed": true,
+      "originalsPreserved": true,
+      "mapMembershipDecision": [
+        "lifestyle-guide",
+        "cultural-adventure"
+      ],
+      "oppositeBankPhotosExplicitlyContext": [
+        "IMG_4659.JPG",
+        "IMG_4660.JPG"
+      ],
+      "historicalAdvertisementOnly": "IMG_4662.JPG"
+    },
+    "media": {
+      "thumbnail": "/assets/kepa-mieszczanska-oct29/source-001.jpg",
+      "photos": [
+        "/assets/kepa-mieszczanska-oct29/source-001.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-002.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-003.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-004.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-005.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-006.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-007.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-008.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-009.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-010.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-011.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-012.jpg",
+        "/assets/kepa-mieszczanska-oct29/source-013.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=8LYxTYkEqDo"
+      ],
+      "metadata": {
+        "/assets/kepa-mieszczanska-oct29/source-001.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4659.JPG",
+          "sourceSHA256": "e79007322a75e41c5243da6ffe9eaf044b6a886bc3856d82e2ab05c6b2782a51",
+          "assetSHA256": "e79007322a75e41c5243da6ffe9eaf044b6a886bc3856d82e2ab05c6b2782a51",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "שלט הכוונה בטיילת בגדה שמול האי\nBulwar Staromiejski",
+            "en": "Bulwar Staromiejski wayfinding on the mainland bank opposite the island",
+            "pl": "Drogowskaz Bulwaru Staromiejskiego na brzegu naprzeciw wyspy",
+            "de": "Wegweiser am Bulwar Staromiejski auf dem Festlandufer gegenüber der Insel",
+            "cs": "Rozcestník Bulwaru Staromiejského na protějším břehu vůči ostrovu"
+          },
+          "alt": {
+            "he": "שלט הכוונה בטיילת בגדה שמול האי\nBulwar Staromiejski",
+            "en": "Bulwar Staromiejski wayfinding on the mainland bank opposite the island",
+            "pl": "Drogowskaz Bulwaru Staromiejskiego na brzegu naprzeciw wyspy",
+            "de": "Wegweiser am Bulwar Staromiejski auf dem Festlandufer gegenüber der Insel",
+            "cs": "Rozcestník Bulwaru Staromiejského na protějším břehu vůči ostrovu"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "mainland-approach-and-opposite-bank-context"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-002.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4660.JPG",
+          "sourceSHA256": "6d6937d87e5a832f22fbc3915895cb07bb268b648726774bd04fa1939be97ef8",
+          "assetSHA256": "6d6937d87e5a832f22fbc3915895cb07bb268b648726774bd04fa1939be97ef8",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מבני מגורים ושביל במתחם הטיילת בגדה שמול האי\nBulwar Staromiejski",
+            "en": "Residential buildings and a path at Bulwar Staromiejski on the bank opposite the island",
+            "pl": "Zabudowa mieszkaniowa i ścieżka na Bulwarze Staromiejskim, naprzeciw wyspy",
+            "de": "Wohngebäude und Weg am Bulwar Staromiejski am Ufer gegenüber der Insel",
+            "cs": "Obytné budovy a cesta na Bulwaru Staromiejském na protějším břehu ostrova"
+          },
+          "alt": {
+            "he": "מבני מגורים ושביל במתחם הטיילת בגדה שמול האי\nBulwar Staromiejski",
+            "en": "Residential buildings and a path at Bulwar Staromiejski on the bank opposite the island",
+            "pl": "Zabudowa mieszkaniowa i ścieżka na Bulwarze Staromiejskim, naprzeciw wyspy",
+            "de": "Wohngebäude und Weg am Bulwar Staromiejski am Ufer gegenüber der Insel",
+            "cs": "Obytné budovy a cesta na Bulwaru Staromiejském na protějším břehu ostrova"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "mainland-approach-and-opposite-bank-context"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-003.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4661.JPG",
+          "sourceSHA256": "cafa330fc17ead5d27861522dd4859ee432ce9a556a1e35b52e4713c00a7600d",
+          "assetSHA256": "cafa330fc17ead5d27861522dd4859ee432ce9a556a1e35b52e4713c00a7600d",
+          "sourceDisplayDimensions": [
+            4032,
+            3024
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מבט מעבר לנהר על בנייני האי וארובות תחנת הכוח ברקע",
+            "en": "View across the river toward the island’s buildings and the power-station chimneys",
+            "pl": "Widok przez rzekę na zabudowę wyspy i kominy elektrociepłowni",
+            "de": "Blick über den Fluss auf die Inselbebauung und die Schornsteine des Heizkraftwerks",
+            "cs": "Pohled přes řeku na zástavbu ostrova a komíny teplárny"
+          },
+          "alt": {
+            "he": "מבט מעבר לנהר על בנייני האי וארובות תחנת הכוח ברקע",
+            "en": "View across the river toward the island’s buildings and the power-station chimneys",
+            "pl": "Widok przez rzekę na zabudowę wyspy i kominy elektrociepłowni",
+            "de": "Blick über den Fluss auf die Inselbebauung und die Schornsteine des Heizkraftwerks",
+            "cs": "Pohled přes řeku na zástavbu ostrova a komíny teplárny"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4662.JPG",
+          "sourceSHA256": "3af1ad2cf2b4a409eca9200965141c67d3c1292c87ad69d1e02eb75a1d275553",
+          "assetSHA256": "3af1ad2cf2b4a409eca9200965141c67d3c1292c87ad69d1e02eb75a1d275553",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "שלט פרסומת לדירות ברחוב מיישצ׳נסקה, כתיעוד הביקור בלבד\nMieszczańska",
+            "en": "Apartment advertisement for Mieszczańska Street, documented as seen during the visit",
+            "pl": "Reklama mieszkań przy ulicy Mieszczańskiej, jako dokumentacja zastanego widoku",
+            "de": "Bei dem Besuch fotografierte Wohnungswerbung an der Mieszczańska-Straße",
+            "cs": "Reklama na byty v ulici Mieszczańska zachycená při návštěvě"
+          },
+          "alt": {
+            "he": "שלט פרסומת לדירות ברחוב מיישצ׳נסקה, כתיעוד הביקור בלבד\nMieszczańska",
+            "en": "Apartment advertisement for Mieszczańska Street, documented as seen during the visit",
+            "pl": "Reklama mieszkań przy ulicy Mieszczańskiej, jako dokumentacja zastanego widoku",
+            "de": "Bei dem Besuch fotografierte Wohnungswerbung an der Mieszczańska-Straße",
+            "cs": "Reklama na byty v ulici Mieszczańska zachycená při návštěvě"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-street-context-advertisement"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-005.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4663.JPG",
+          "sourceSHA256": "d08c2135775b540a72eca3a4fc545ceb1581ab2f56d11c6fcdf0cbac06a25359",
+          "assetSHA256": "d08c2135775b540a72eca3a4fc545ceb1581ab2f56d11c6fcdf0cbac06a25359",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "בנייני מגורים, תנועת רחוב ומסילות חשמלית בכניסה לאי",
+            "en": "Residential buildings, street traffic and tram tracks at the island approach",
+            "pl": "Zabudowa mieszkaniowa, ruch uliczny i tory tramwajowe przy wjeździe na wyspę",
+            "de": "Wohngebäude, Straßenverkehr und Straßenbahngleise am Inselzugang",
+            "cs": "Obytné budovy, uliční provoz a tramvajové koleje u přístupu na ostrov"
+          },
+          "alt": {
+            "he": "בנייני מגורים, תנועת רחוב ומסילות חשמלית בכניסה לאי",
+            "en": "Residential buildings, street traffic and tram tracks at the island approach",
+            "pl": "Zabudowa mieszkaniowa, ruch uliczny i tory tramwajowe przy wjeździe na wyspę",
+            "de": "Wohngebäude, Straßenverkehr und Straßenbahngleise am Inselzugang",
+            "cs": "Obytné budovy, uliční provoz a tramvajové koleje u přístupu na ostrov"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-006.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4665.JPG",
+          "sourceSHA256": "84de8ae76916cd713fbb917378fd8a8c68f838c89e38398418c0fe0be992f833",
+          "assetSHA256": "84de8ae76916cd713fbb917378fd8a8c68f838c89e38398418c0fe0be992f833",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מעבר הולכי רגל בין בנייני המגורים והמסעדות ברחוב קשיֶנציה ויטולדה",
+            "en": "Pedestrian passage between apartment buildings and restaurants on Księcia Witolda Street",
+            "pl": "Przejście piesze między budynkami mieszkalnymi i restauracjami przy ulicy Księcia Witolda",
+            "de": "Fußweg zwischen Wohnhäusern und Restaurants an der Księcia-Witolda-Straße",
+            "cs": "Pěší průchod mezi obytnými budovami a restauracemi v ulici Księcia Witolda"
+          },
+          "alt": {
+            "he": "מעבר הולכי רגל בין בנייני המגורים והמסעדות ברחוב קשיֶנציה ויטולדה",
+            "en": "Pedestrian passage between apartment buildings and restaurants on Księcia Witolda Street",
+            "pl": "Przejście piesze między budynkami mieszkalnymi i restauracjami przy ulicy Księcia Witolda",
+            "de": "Fußweg zwischen Wohnhäusern und Restaurants an der Księcia-Witolda-Straße",
+            "cs": "Pěší průchod mezi obytnými budovami a restauracemi v ulici Księcia Witolda"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-007.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4666.JPG",
+          "sourceSHA256": "be810262005116c71981bf3cf9af778aabb51dc923faad460af43396841f5af7",
+          "assetSHA256": "be810262005116c71981bf3cf9af778aabb51dc923faad460af43396841f5af7",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "שלטי העסקים והכתובות לצד המעבר ברחוב קשיֶנציה ויטולדה",
+            "en": "Business directory and addresses beside the passage on Księcia Witolda Street",
+            "pl": "Tablica lokali i adresów przy przejściu na ulicy Księcia Witolda",
+            "de": "Geschäftsschilder und Adressen am Durchgang an der Księcia-Witolda-Straße",
+            "cs": "Označení podniků a adres u průchodu v ulici Księcia Witolda"
+          },
+          "alt": {
+            "he": "שלטי העסקים והכתובות לצד המעבר ברחוב קשיֶנציה ויטולדה",
+            "en": "Business directory and addresses beside the passage on Księcia Witolda Street",
+            "pl": "Tablica lokali i adresów przy przejściu na ulicy Księcia Witolda",
+            "de": "Geschäftsschilder und Adressen am Durchgang an der Księcia-Witolda-Straße",
+            "cs": "Označení podniků a adres u průchodu v ulici Księcia Witolda"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-008.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4667.JPG",
+          "sourceSHA256": "5a914fd66565e49bf3500907fb9515fa364ba51a9d38fae61d2d9e10d1f3e4e0",
+          "assetSHA256": "5a914fd66565e49bf3500907fb9515fa364ba51a9d38fae61d2d9e10d1f3e4e0",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "כניסת מתחם המגורים והמעבר להולכי רגל\nBulwary Książęce",
+            "en": "Bulwary Książęce entrance and pedestrian passage",
+            "pl": "Wejście i pasaż pieszy w Bulwarach Książęcych",
+            "de": "Eingang und Fußgängerpassage der Bulwary Książęce",
+            "cs": "Vstup a pěší pasáž v areálu Bulwary Książęce"
+          },
+          "alt": {
+            "he": "כניסת מתחם המגורים והמעבר להולכי רגל\nBulwary Książęce",
+            "en": "Bulwary Książęce entrance and pedestrian passage",
+            "pl": "Wejście i pasaż pieszy w Bulwarach Książęcych",
+            "de": "Eingang und Fußgängerpassage der Bulwary Książęce",
+            "cs": "Vstup a pěší pasáž v areálu Bulwary Książęce"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-009.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4668.JPG",
+          "sourceSHA256": "54f98d3505ec94d043db1bb6735fbd423e291bdf4f2f9d479942eb419ea9e18e",
+          "assetSHA256": "54f98d3505ec94d043db1bb6735fbd423e291bdf4f2f9d479942eb419ea9e18e",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "תא שער השיט לצד המבנים העכשוויים בקצה האי",
+            "en": "Lock chamber beside the contemporary buildings at the island’s end",
+            "pl": "Komora śluzy przy współczesnej zabudowie na krańcu wyspy",
+            "de": "Schleusenkammer neben den modernen Gebäuden am Inselende",
+            "cs": "Plavební komora vedle moderních budov na okraji ostrova"
+          },
+          "alt": {
+            "he": "תא שער השיט לצד המבנים העכשוויים בקצה האי",
+            "en": "Lock chamber beside the contemporary buildings at the island’s end",
+            "pl": "Komora śluzy przy współczesnej zabudowie na krańcu wyspy",
+            "de": "Schleusenkammer neben den modernen Gebäuden am Inselende",
+            "cs": "Plavební komora vedle moderních budov na okraji ostrova"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-010.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4669.JPG",
+          "sourceSHA256": "d878f9fa28740a9e4b1b9041bf3de3f8fb6e0b5363f0324fa15f3cf4f2aa4429",
+          "assetSHA256": "d878f9fa28740a9e4b1b9041bf3de3f8fb6e0b5363f0324fa15f3cf4f2aa4429",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מבט נוסף על תא שער השיט ובניין האוניברסיטה מעבר לנהר",
+            "en": "Another view of the lock chamber with the university building across the river",
+            "pl": "Kolejny widok komory śluzy i gmachu uniwersytetu po drugiej stronie rzeki",
+            "de": "Weitere Ansicht der Schleusenkammer und des Universitätsgebäudes am anderen Ufer",
+            "cs": "Další pohled na plavební komoru a univerzitní budovu na protějším břehu"
+          },
+          "alt": {
+            "he": "מבט נוסף על תא שער השיט ובניין האוניברסיטה מעבר לנהר",
+            "en": "Another view of the lock chamber with the university building across the river",
+            "pl": "Kolejny widok komory śluzy i gmachu uniwersytetu po drugiej stronie rzeki",
+            "de": "Weitere Ansicht der Schleusenkammer und des Universitätsgebäudes am anderen Ufer",
+            "cs": "Další pohled na plavební komoru a univerzitní budovu na protějším břehu"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-011.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4670.JPG",
+          "sourceSHA256": "8eeaa0ed4d546c3ad791f0654013902c37051826074624021e73e56535a9602e",
+          "assetSHA256": "8eeaa0ed4d546c3ad791f0654013902c37051826074624021e73e56535a9602e",
+          "sourceDisplayDimensions": [
+            4032,
+            3024
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מתקן הוויסות על הנהר, הסירות והגשר בקצה האי",
+            "en": "River-control structure, boats and bridge at the island’s end",
+            "pl": "Budowla piętrząca, łodzie i most na krańcu wyspy",
+            "de": "Flusswehr, Boote und Brücke am Inselende",
+            "cs": "Říční jez, lodě a most na okraji ostrova"
+          },
+          "alt": {
+            "he": "מתקן הוויסות על הנהר, הסירות והגשר בקצה האי",
+            "en": "River-control structure, boats and bridge at the island’s end",
+            "pl": "Budowla piętrząca, łodzie i most na krańcu wyspy",
+            "de": "Flusswehr, Boote und Brücke am Inselende",
+            "cs": "Říční jez, lodě a most na okraji ostrova"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-012.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4671.JPG",
+          "sourceSHA256": "89d22144847b718add781cefeb7408809f64aab72992abf2993eaef5591235bf",
+          "assetSHA256": "89d22144847b718add781cefeb7408809f64aab72992abf2993eaef5591235bf",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מבט לאורך המרינה לעבר הבניינים והגשר",
+            "en": "View along the marina toward the buildings and bridge",
+            "pl": "Widok wzdłuż mariny na zabudowę i most",
+            "de": "Blick entlang der Marina auf die Gebäude und die Brücke",
+            "cs": "Pohled podél mariny na budovy a most"
+          },
+          "alt": {
+            "he": "מבט לאורך המרינה לעבר הבניינים והגשר",
+            "en": "View along the marina toward the buildings and bridge",
+            "pl": "Widok wzdłuż mariny na zabudowę i most",
+            "de": "Blick entlang der Marina auf die Gebäude und die Brücke",
+            "cs": "Pohled podél mariny na budovy a most"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "/assets/kepa-mieszczanska-oct29/source-013.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/IMG_4672.JPG",
+          "sourceSHA256": "12dee3c14dadc08bb5cffb1e19e9a98d694892b6c85851737648164f2cc52f3a",
+          "assetSHA256": "12dee3c14dadc08bb5cffb1e19e9a98d694892b6c85851737648164f2cc52f3a",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מבט קרוב יותר לאורך המרינה לעבר מבנה הלבנים והגשר",
+            "en": "Closer view along the marina toward the brick building and bridge",
+            "pl": "Bliższy widok wzdłuż mariny na ceglany budynek i most",
+            "de": "Nähere Ansicht entlang der Marina auf das Backsteingebäude und die Brücke",
+            "cs": "Bližší pohled podél mariny na cihlovou budovu a most"
+          },
+          "alt": {
+            "he": "מבט קרוב יותר לאורך המרינה לעבר מבנה הלבנים והגשר",
+            "en": "Closer view along the marina toward the brick building and bridge",
+            "pl": "Bliższy widok wzdłuż mariny na ceglany budynek i most",
+            "de": "Nähere Ansicht entlang der Marina auf das Backsteingebäude und die Brücke",
+            "cs": "Bližší pohled podél mariny na cihlovou budovu a most"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place scene; incidental public visitors are not inferred to be family or posed personal portraits",
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/source-review-and-place-plan.json",
+          "geographicRole": "island-and-river-edge-documentation"
+        },
+        "https://www.youtube.com/watch?v=8LYxTYkEqDo": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Kepa Mieszczanska/4B771665-9900-429E-AD27-94E5F589DF94.MP4",
+          "sourceSHA256": "eb827898f76a78b2a4e562917c8775ac1ff3eeb28109a0c49c9a3db2e56e499d",
+          "durationSeconds": 14.401667,
+          "original": true,
+          "originalImageAndAudioPreserved": true,
+          "visibility": "Public",
+          "savedPublicReopened": true,
+          "copyrightChecks": "complete-no-issues",
+          "communityGuidelineChecks": "complete-no-issues",
+          "publicPlaybackEnded": true,
+          "publicPlaybackMuted": false,
+          "approvalCall": "call_d31304c6107c47cd9a2cfd80b94e5808",
+          "completionReceipt": "dialogue-beach-cemetery-2026-10-29/kepa-mieszczanska-review/youtube-public-completion-receipt.json",
+          "title": {
+            "he": "מבני האי והטיילת לצד הנהר",
+            "en": "Island buildings and the riverside promenade",
+            "pl": "Zabudowa wyspy i nadrzeczny bulwar",
+            "de": "Inselbebauung und Uferpromenade",
+            "cs": "Zástavba ostrova a nábřežní promenáda"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "most-zwierzyniecki-wroclaw",
+    "aliases": [],
+    "localName": "Most Zwierzyniecki",
+    "name": {
+      "he": "גשר זווייז׳ינייצקי",
+      "en": "Zwierzyniecki Bridge",
+      "pl": "Most Zwierzyniecki",
+      "de": "Zwierzyniecki-Brücke",
+      "cs": "Zwierzyniecký most"
+    },
+    "description": {
+      "he": "גשר היסטורי מעל זרוע האודר הישנה, בדרך ממרכז העיר לאזור גן החיות והיכל המאה. הגשר הנוכחי נפתח ב־1897 וניכר בקשתות הפלדה הירוקות ובעמודי האבן האדומים המעוטרים. שתי תמונות הביקור שלנו מציגות אותו מגדת הנהר, עם העצים וההשתקפות במים.\nMost Zwierzyniecki",
+      "en": "A historic bridge across the Stara Odra, on the way from central Wrocław toward the Zoo and Centennial Hall area. Opened in 1897, it is recognisable by its green steel arches and ornamental red stone pylons. Our two visit photographs show it from the riverbank, with trees and reflections in the water.",
+      "pl": "Zabytkowy most nad Starą Odrą, na drodze z centrum Wrocławia w stronę zoo i Hali Stulecia. Otwarty w 1897 roku, wyróżnia się zielonymi stalowymi łukami i ozdobnymi pylonami z czerwonego kamienia. Dwa zdjęcia z naszej wizyty pokazują go z nadrzecznego brzegu, z drzewami i odbiciem w wodzie.",
+      "de": "Historische Brücke über die Stara Odra auf dem Weg vom Zentrum Wrocławs in Richtung Zoo und Jahrhunderthalle. Die 1897 eröffnete Brücke ist an ihren grünen Stahlbögen und verzierten roten Steinpylonen zu erkennen. Unsere beiden Besuchsfotos zeigen sie vom Ufer aus mit Bäumen und Spiegelungen im Wasser.",
+      "cs": "Historický most přes Starou Odru na cestě z centra Vratislavi směrem k zoo a Hale století. Byl otevřen v roce 1897 a vyznačuje se zelenými ocelovými oblouky a ozdobnými pylony z červeného kamene. Dvě fotografie z naší návštěvy jej ukazují od břehu řeky, se stromy a odrazem ve vodě."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.108205,
+        "lng": 17.069724
+      },
+      "address": {
+        "street": "most Zwierzyniecki",
+        "postalCode": "51-620",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "heritage",
+      "architecture"
+    ],
+    "taxonomy": {
+      "tags": [
+        "architecture-design"
+      ]
+    },
+    "placeType": "bridge",
+    "links": {
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/przeprawy-z-mostami-zwierzyniecki-do-remontu",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Zwierzyniecki+Bridge/@51.108205,17.069724,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe8284da81d35:0x5feba22128d9e72c!8m2!3d51.108205!4d17.069724!16s%2Fm%2F0gjdn8k?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?ll=51.108205,17.069724&q=Most%20Zwierzyniecki"
+      },
+      "socialProfileFallback": false
+    },
+    "socialPosts": [],
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "status": "published",
+    "provenance": {
+      "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/bridge-zwierzyniecki-review/source-review.json",
+      "factualSources": [
+        {
+          "type": "municipal-current",
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/przeprawy-z-mostami-zwierzyniecki-do-remontu",
+          "published": "2026-08-27",
+          "read": "Full relevant article text read",
+          "facts": [
+            "Opened1897; current historic bridge built1895–1897.",
+            "Connects Plac Grunwaldzki with Wielka Wyspa and is on the way to Zoo, Centennial Hall and Szczytnicki/Japanese Garden area.",
+            "Green steel and restored stone elements/pylons match original visit photo content."
+          ],
+          "timeBoundNote": "Article says a further deck renewal is planned for2028, not that the bridge is presently closed. No current closure or timetable is invented."
+        },
+        {
+          "type": "municipal",
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/zestawienie-inwestycji-we-wroclawiu-mosty",
+          "published": "2025-12-30",
+          "read": "Relevant bridge section via search text and full page read",
+          "facts": [
+            "Bridge restored2021–2024; green truss colour, red sandstone ornament and granite pedestrian pavements."
+          ],
+          "timeBoundNote": "Used for physical identity; no promise that access conditions remain unchanged."
+        },
+        {
+          "type": "owner-road-authority",
+          "url": "https://www.zdium.wroc.pl/wp-content/uploads/2016/02/mosty.pdf",
+          "read": "Search-indexed owner text read; direct PDF fetch returned502, no full PDF read claimed",
+          "facts": [
+            "Entry97 identifies Most Zwierzyniecki on Marii Curie-Skłodowskiej over Stara Odra, year1897, road/tram bridge with single arch-truss span."
+          ],
+          "timeBoundNote": "No dimensions or road-class values need be added to visitor copy."
+        },
+        {
+          "type": "national-heritage-record",
+          "url": "https://zabytek.pl/pl/obiekty/g-269028",
+          "read": "Search-indexed national record read; direct fetch timeout",
+          "facts": [
+            "Heritage record identifies Most Zwierzyniecki, metal bridge,1897, protected in monument register/record."
+          ],
+          "timeBoundNote": "No full page/map coordinate retrieval claimed."
+        },
+        {
+          "url": "https://www.google.com/maps/place/Zwierzyniecki+Bridge/@51.108205,17.069724,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe8284da81d35:0x5feba22128d9e72c!8m2!3d51.108205!4d17.069724!16s%2Fm%2F0gjdn8k?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.108205,
+            17.069724
+          ]
+        }
+      ],
+      "originalsPreserved": true,
+      "currentOpeningOrClosureNotAssumed": true,
+      "mapMembershipDecision": [
+        "cultural-adventure"
+      ],
+      "routeDecision": "Existing routes unchanged; this is a Cultural architecture point on the approach to Zoo/Centennial Hall"
+    },
+    "media": {
+      "thumbnail": "/assets/dialogue-beach-cemetery-oct29/bridge-001.jpg",
+      "photos": [
+        "/assets/dialogue-beach-cemetery-oct29/bridge-001.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/bridge-002.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/dialogue-beach-cemetery-oct29/bridge-001.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zwierzyniecki Bridge/WhatsApp Image 2026-09-24 at 17.19.04.jpeg",
+          "sourceSHA256": "a92156de3aa74615aa5fd161dedee31725cf09bf2231c8e7a724bf899b8b07d7",
+          "assetSHA256": "a92156de3aa74615aa5fd161dedee31725cf09bf2231c8e7a724bf899b8b07d7",
+          "sourceDisplayDimensions": [
+            1536,
+            2048
+          ],
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "קשת הפלדה הירוקה ועמודי האבן האדומים של הגשר משתקפים במים",
+            "en": "The bridge’s green steel arch and red stone pylons reflected in the water",
+            "pl": "Zielony stalowy łuk i czerwone kamienne pylony mostu odbijające się w wodzie",
+            "de": "Grüner Stahlbogen und rote Steinpylone der Brücke spiegeln sich im Wasser",
+            "cs": "Zelený ocelový oblouk a červené kamenné pylony mostu odrážející se ve vodě"
+          },
+          "alt": {
+            "he": "קשת הפלדה הירוקה ועמודי האבן האדומים של הגשר משתקפים במים",
+            "en": "The bridge’s green steel arch and red stone pylons reflected in the water",
+            "pl": "Zielony stalowy łuk i czerwone kamienne pylony mostu odbijające się w wodzie",
+            "de": "Grüner Stahlbogen und rote Steinpylone der Brücke spiegeln sich im Wasser",
+            "cs": "Zelený ocelový oblouk a červené kamenné pylony mostu odrážející se ve vodě"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/bridge-zwierzyniecki-review/source-review.json"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/bridge-002.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zwierzyniecki Bridge/WhatsApp Image 2026-09-24 at 17.19.05.jpeg",
+          "sourceSHA256": "9dafd691b4efb246f7572de46e2e0acfdd661a4f18a838e420855953522c6359",
+          "assetSHA256": "9dafd691b4efb246f7572de46e2e0acfdd661a4f18a838e420855953522c6359",
+          "sourceDisplayDimensions": [
+            1536,
+            2048
+          ],
+          "originalFullPicturePreserved": true,
+          "title": {
+            "he": "מבט נוסף על קשת הגשר, עמודי האבן וגדת הנהר הירוקה",
+            "en": "Another view of the bridge arch, stone pylons and tree-lined riverbank",
+            "pl": "Kolejny widok łuku mostu, kamiennych pylonów i zadrzewionego brzegu",
+            "de": "Weitere Ansicht des Brückenbogens, der Steinpylone und des baumbestandenen Ufers",
+            "cs": "Další pohled na oblouk mostu, kamenné pylony a břeh lemovaný stromy"
+          },
+          "alt": {
+            "he": "מבט נוסף על קשת הגשר, עמודי האבן וגדת הנהר הירוקה",
+            "en": "Another view of the bridge arch, stone pylons and tree-lined riverbank",
+            "pl": "Kolejny widok łuku mostu, kamiennych pylonów i zadrzewionego brzegu",
+            "de": "Weitere Ansicht des Brückenbogens, der Steinpylone und des baumbestandenen Ufers",
+            "cs": "Další pohled na oblouk mostu, kamenné pylony a břeh lemovaný stromy"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "dialogue-beach-cemetery-2026-10-29/bridge-zwierzyniecki-review/source-review.json"
+        }
+      }
+    }
+  }
+]);
+
+// Photo enrichments for Zenka, Jolie and Roma (29 October 2026).
+(function(){const reviewed=[
+  {
+    "id": "zenka",
+    "localName": "Zenka Cafe",
+    "name": {
+      "he": "Zenka Cafe",
+      "en": "Zenka Cafe",
+      "pl": "Zenka Cafe",
+      "de": "Zenka Cafe",
+      "cs": "Zenka Cafe"
+    },
+    "description": {
+      "he": "אחת ההמלצות הטובות לבראנץ׳ בשכונת Nadodrze.",
+      "en": "One of the best brunch recommendations in the Nadodrze neighbourhood.",
+      "pl": "Jedna z najlepszych propozycji na brunch na Nadodrzu.",
+      "de": "Eine der besten Brunch-Empfehlungen im Viertel Nadodrze.",
+      "cs": "Jedno z nejlepších doporučení na brunch ve čtvrti Nadodrze."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1180815,
+        "lng": 17.0271292
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [
+      "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+    ],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "zenka"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "zenka",
+        "lat": 51.1180815,
+        "lng": 17.0271292
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/dialogue-beach-cemetery-oct29/zenka-001.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/zenka-002.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/dialogue-beach-cemetery-oct29/zenka-001.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zenka Cafe/17C1C431-6AE3-4308-9939-9BFECA2761B2.JPG",
+          "sourceSHA256": "3dd3040a300159b0f2e6e6d9f1530914fa48b1e4d3cba47763f6eac60b5c4fd6",
+          "assetSHA256": "3dd3040a300159b0f2e6e6d9f1530914fa48b1e4d3cba47763f6eac60b5c4fd6",
+          "sourceDisplayDimensions": [
+            4032,
+            3024
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "alt": {
+            "he": "ישיבה ליד החלון, עם קפה וצמחים תלויים בבית הקפה",
+            "en": "Window-side seating with coffee and hanging plants at the cafe",
+            "pl": "Miejsce przy oknie, kawa i wiszące rośliny w kawiarni",
+            "de": "Fensterplatz mit Kaffee und Hängepflanzen im Café",
+            "cs": "Posezení u okna s kávou a zavěšenými rostlinami v kavárně"
+          },
+          "title": {
+            "he": "ישיבה ליד החלון, עם קפה וצמחים תלויים בבית הקפה",
+            "en": "Window-side seating with coffee and hanging plants at the cafe",
+            "pl": "Miejsce przy oknie, kawa i wiszące rośliny w kawiarni",
+            "de": "Fensterplatz mit Kaffee und Hängepflanzen im Café",
+            "cs": "Posezení u okna s kávou a zavěšenými rostlinami v kavárně"
+          },
+          "familyForeground": true,
+          "familyExceptionApplied": true,
+          "personalApprovalReceipt": "dialogue-beach-cemetery-2026-10-29/zenka-cafe-review/scoped-personal-photo-approval.json",
+          "approvalScope": "These two source filenames and SHA only; explicit human wife approval29Oct"
+        },
+        "/assets/dialogue-beach-cemetery-oct29/zenka-002.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Zenka Cafe/F7D58F1B-A263-4E45-B19C-131952C5ACF1.JPG",
+          "sourceSHA256": "f265a4ff61581838a7e8cf0d9bf01186cda66aa6f7d079d88e7fa9f704a920e9",
+          "assetSHA256": "f265a4ff61581838a7e8cf0d9bf01186cda66aa6f7d079d88e7fa9f704a920e9",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "alt": {
+            "he": "משקאות על השולחן וישיבה בין הצמחים ליד החלון",
+            "en": "Drinks on the table and seating among plants by the window",
+            "pl": "Napoje na stole i miejsce wśród roślin przy oknie",
+            "de": "Getränke auf dem Tisch und ein Sitzplatz zwischen Pflanzen am Fenster",
+            "cs": "Nápoje na stole a posezení mezi rostlinami u okna"
+          },
+          "title": {
+            "he": "משקאות על השולחן וישיבה בין הצמחים ליד החלון",
+            "en": "Drinks on the table and seating among plants by the window",
+            "pl": "Napoje na stole i miejsce wśród roślin przy oknie",
+            "de": "Getränke auf dem Tisch und ein Sitzplatz zwischen Pflanzen am Fenster",
+            "cs": "Nápoje na stole a posezení mezi rostlinami u okna"
+          },
+          "familyForeground": true,
+          "familyExceptionApplied": true,
+          "personalApprovalReceipt": "dialogue-beach-cemetery-2026-10-29/zenka-cafe-review/scoped-personal-photo-approval.json",
+          "approvalScope": "These two source filenames and SHA only; explicit human wife approval29Oct"
+        }
+      },
+      "thumbnail": "/assets/dialogue-beach-cemetery-oct29/zenka-001.jpg"
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0eu3idgq4BkNR3P7xr4yabdQL9p3fuCwWoFL7qQrCw9ZMqVvv8cQLybUMZ8WVqVVrl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02oju3gfSk4C4Vt7z3dw4d8RwRpS2VLgeKx8ycwSTsAzZ2ruoZuSvXKLC2oMvQzDQEl&id=61595207664875",
+        "verifiedAt": "2026-10-08T14:23:42.768Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Pc3StsFaDVzCdWuhEBbKb35qce5CVbZuvow5v76qU6eXgjL4iV8o84ZzJaevBwUfl&id=61595036942289",
+        "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
+      }
+    ],
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ]
+  },
+  {
+    "id": "jolie-kurzy-targ",
+    "localName": "Jolie Brasserie Cafe – Kurzy Targ 2",
+    "name": {
+      "he": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "en": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "pl": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "de": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "cs": "Jolie Brasserie Cafe – Kurzy Targ 2"
+    },
+    "description": {
+      "he": "מקום לארוחת בוקר לאורך כל היום, עם טעמים מכל העולם והנחמה המוכרת של חומוס ושקשוקה.",
+      "en": "A destination for all-day breakfast, with flavours from across the globe and the familiar comfort of hummus and shakshuka.",
+      "pl": "Miejsce na śniadanie przez cały dzień, ze smakami z całego świata oraz znajomym, kojącym smakiem hummusu i szakszuki.",
+      "de": "Ein Ort für ganztägiges Frühstück mit Aromen aus aller Welt und dem vertrauten Genuss von Hummus und Schakschuka.",
+      "cs": "Místo na celodenní snídani s chutěmi z celého světa a důvěrně známým potěšením z hummusu a šakšuky."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1093944,
+        "lng": 17.0341861
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [
+      "https://www.facebook.com/61591964083308/posts/122111800983398802/"
+    ],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "jolie-kurzy-targ"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "jolie-kurzy-targ",
+        "lat": 51.1093944,
+        "lng": 17.0341861
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/feels-familiar/jolie-hummus-pita.jpg",
+        "/assets/feels-familiar/jolie-kurzy-targ.jpg",
+        "/assets/feels-familiar/jolie-interior.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/jolie-detail.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/feels-familiar/jolie-kurzy-targ.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גולי/IMG_4304.JPG",
+          "sourceSHA256": "1fd062bcba941894a17918ab49cd56d72633542c21a18db309e8b1265ad1302f",
+          "assetSHA256": "1fd062bcba941894a17918ab49cd56d72633542c21a18db309e8b1265ad1302f",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "alt": {
+            "he": "חזית ז׳ולי בפינת הרחוב, עם קומת קרקע ירוקה ופרטי לבנים מעליה",
+            "en": "Jolie on the street corner, with its green ground-floor facade and brick details above",
+            "pl": "Jolie na rogu ulicy, z zieloną fasadą parteru i ceglanymi detalami powyżej",
+            "de": "Jolie an der Straßenecke mit grüner Erdgeschossfassade und Backsteindetails darüber",
+            "cs": "Jolie na nároží se zeleným průčelím přízemí a cihlovými detaily nad ním"
+          },
+          "title": {
+            "he": "חזית ז׳ולי בפינת הרחוב, עם קומת קרקע ירוקה ופרטי לבנים מעליה",
+            "en": "Jolie on the street corner, with its green ground-floor facade and brick details above",
+            "pl": "Jolie na rogu ulicy, z zieloną fasadą parteru i ceglanymi detalami powyżej",
+            "de": "Jolie an der Straßenecke mit grüner Erdgeschossfassade und Backsteindetails darüber",
+            "cs": "Jolie na nároží se zeleným průčelím přízemí a cihlovými detaily nad ním"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/dialogue-beach-cemetery-oct29/jolie-detail.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גולי/IMG_4301.JPG",
+          "sourceSHA256": "76409e5568d63be86416c63dfbc5c519b5f5f41028686e8ad33b7e7c999518bf",
+          "assetSHA256": "76409e5568d63be86416c63dfbc5c519b5f5f41028686e8ad33b7e7c999518bf",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "alt": {
+            "he": "תקריב של מנת חומוס עם תוספת אדומה ועשבי תיבול, מתיעוד הביקור בז׳ולי",
+            "en": "A close view of hummus with a red topping and herbs during our Jolie visit",
+            "pl": "Zbliżenie hummusu z czerwonym dodatkiem i ziołami podczas naszej wizyty w Jolie",
+            "de": "Nahaufnahme von Hummus mit rotem Belag und Kräutern bei unserem Besuch im Jolie",
+            "cs": "Detail hummusu s červenou přílohou a bylinkami z naší návštěvy Jolie"
+          },
+          "title": {
+            "he": "תקריב של מנת חומוס עם תוספת אדומה ועשבי תיבול, מתיעוד הביקור בז׳ולי",
+            "en": "A close view of hummus with a red topping and herbs during our Jolie visit",
+            "pl": "Zbliżenie hummusu z czerwonym dodatkiem i ziołami podczas naszej wizyty w Jolie",
+            "de": "Nahaufnahme von Hummus mit rotem Belag und Kräutern bei unserem Besuch im Jolie",
+            "cs": "Detail hummusu s červenou přílohou a bylinkami z naší návštěvy Jolie"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/feels-familiar/jolie-hummus-pita.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גולי/IMG_4302.JPG",
+          "sourceSHA256": "abcec410404d10eca68269a4834d1a56cf243147d8c47e590b900167bd1aa6c5",
+          "assetSHA256": "abcec410404d10eca68269a4834d1a56cf243147d8c47e590b900167bd1aa6c5",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "alt": {
+            "he": "מנת חומוס ועשבי תיבול לצד פיתה, עם אגרטל מעוטר על השולחן בז׳ולי",
+            "en": "Hummus and herbs beside pita, with a decorated vase on the Jolie table",
+            "pl": "Hummus z ziołami obok pity i zdobiony wazon na stoliku w Jolie",
+            "de": "Hummus mit Kräutern neben Pita und einer verzierten Vase auf dem Tisch im Jolie",
+            "cs": "Hummus s bylinkami vedle pity a zdobená váza na stole v Jolie"
+          },
+          "title": {
+            "he": "מנת חומוס ועשבי תיבול לצד פיתה, עם אגרטל מעוטר על השולחן בז׳ולי",
+            "en": "Hummus and herbs beside pita, with a decorated vase on the Jolie table",
+            "pl": "Hummus z ziołami obok pity i zdobiony wazon na stoliku w Jolie",
+            "de": "Hummus mit Kräutern neben Pita und einer verzierten Vase auf dem Tisch im Jolie",
+            "cs": "Hummus s bylinkami vedle pity a zdobená váza na stole v Jolie"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/feels-familiar/jolie-interior.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גולי/6E0D64E1-00AF-43A9-81E4-9F00B286254A.jpg",
+          "sourceSHA256": "14e5cea24cd34aaccb4a91dd08136422734447e6d224683c1277df5a2e47bda6",
+          "assetSHA256": "14e5cea24cd34aaccb4a91dd08136422734447e6d224683c1277df5a2e47bda6",
+          "sourceDisplayDimensions": [
+            2160,
+            3840
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "alt": {
+            "he": "חלל הישיבה בז׳ולי, עם טפט כחול בדוגמת פרחים ותפריט על השולחן",
+            "en": "The Jolie seating area with blue floral wallpaper and a menu on the table",
+            "pl": "Sala Jolie z niebieską tapetą w kwiaty i menu na stoliku",
+            "de": "Sitzbereich im Jolie mit blauer Blumentapete und einer Speisekarte auf dem Tisch",
+            "cs": "Posezení v Jolie s modrou květovanou tapetou a jídelním lístkem na stole"
+          },
+          "title": {
+            "he": "חלל הישיבה בז׳ולי, עם טפט כחול בדוגמת פרחים ותפריט על השולחן",
+            "en": "The Jolie seating area with blue floral wallpaper and a menu on the table",
+            "pl": "Sala Jolie z niebieską tapetą w kwiaty i menu na stoliku",
+            "de": "Sitzbereich im Jolie mit blauer Blumentapete und einer Speisekarte auf dem Tisch",
+            "cs": "Posezení v Jolie s modrou květovanou tapetou a jídelním lístkem na stole"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02oMBVC3BRGxnbTXppKzBECSioEHeEWFWWpNnpSujAU63uMc9o6h4xKPmw2hM8p9wzl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0366c6g1BpxsssyAsRqzKQH2on36EoYfdEeopRFTVViW1N25CNK5oSu4u3t6A5krSLl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DePgvsbjuJP/",
+        "verifiedAt": "2026-10-08T17:54:31.277890+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRL6V2j822/",
+        "verifiedAt": "2026-10-09T09:32:51.995387+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeT2TiPibjL/",
+        "verifiedAt": "2026-10-10T10:18:06.453Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid03P236UBZsKNxcX4MwBg6zm2Dgu9DTknbKLsByLn9A3hryPwWMfz9SuUyyoYuu1Wml&id=61595207664875",
+        "verifiedAt": "2026-10-10T10:20:01.980Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0fah9mRzkPBM48odvf5aYqGXgTWtzRv9WYV3duaQRy1fYZ1F64Y5YCtkebY8xswNUl&id=61595239823399",
+        "verifiedAt": "2026-10-10T14:00:20.778Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUQKp7mkoF/",
+        "verifiedAt": "2026-10-10T14:03:54.875Z"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
+      }
+    ],
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ]
+  },
+  {
+    "id": "lodziarnia-roma",
+    "localName": "Lodziarnia Roma",
+    "name": {
+      "he": "גלידריית רומא",
+      "en": "Lodziarnia Roma",
+      "pl": "Lodziarnia Roma",
+      "de": "Eisdiele Roma",
+      "cs": "Zmrzlinárna Roma"
+    },
+    "description": {
+      "he": "גלידרייה בשכונת נדאודז׳ה. בגלריה תמונות וסרטונים מהביקור שלנו, עם ויטרינת הגלידות, חזית המקום ושלט המספר על תולדותיו. הטעמים והמחירים המופיעים בצילומים משקפים את מועד הביקור.",
+      "en": "An ice-cream shop in Nadodrze. Our visit gallery shows the ice-cream counter, the exterior and a plaque about the shop’s history. Flavours and prices shown reflect the visit date.",
+      "pl": "Lodziarnia na Nadodrzu. Galeria z naszej wizyty pokazuje ladę z lodami, elewację lokalu i tablicę o jego historii. Smaki i ceny na zdjęciach dotyczą dnia wizyty.",
+      "de": "Eine Eisdiele in Nadodrze. Unsere Besuchsgalerie zeigt die Eistheke, die Außenansicht und eine Tafel zur Geschichte des Betriebs. Abgebildete Sorten und Preise beziehen sich auf den Besuchszeitpunkt.",
+      "cs": "Zmrzlinárna ve čtvrti Nadodrze. Galerie z naší návštěvy ukazuje pult se zmrzlinou, průčelí podniku a tabuli o jeho historii. Vyobrazené příchutě a ceny odpovídají době návštěvy."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.117917,
+        "lng": 17.0343499
+      }
+    },
+    "categories": [
+      "drink"
+    ],
+    "sourceUrls": [
+      "https://www.facebook.com/61591964083308/posts/122108686497398802/"
+    ],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "lodziarnia-roma"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "lodziarnia-roma",
+        "lat": 51.117917,
+        "lng": 17.0343499
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "personalMediaException": {
+        "authorizedAt": "2026-10-18",
+        "scope": "User expressly permits personal media from Roma folder only"
+      },
+      "run4PrivacyCorrection": {
+        "excludedPublicPhoto": "/assets/food-cafes/lodziarnia-roma-03.jpg",
+        "reason": "Posedpersonalportrait;noRomaexception",
+        "sourceAndAssetPreserved": true
+      },
+      "romaApprovedPortraitRestoration20261029": {
+        "at": "2026-10-29T18:14:48.524083+00:00",
+        "supersedesReason": "Posedpersonalportrait;noRomaexception",
+        "reason": "Oct18 exact Roma approval is preserved in historical selection/progress/HANDOFF, source SHA and current personalMediaException. Later noRomaexception assertion was erroneous; no reapproval required within that original scope.",
+        "restoredAsset": "/assets/food-cafes/lodziarnia-roma-03.jpg",
+        "evidence": "dialogue-beach-cemetery-2026-10-29/roma-audit-review/existing-Roma-specific-approval-evidence.json"
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/food-cafes/lodziarnia-roma-01.jpg",
+        "/assets/food-cafes/lodziarnia-roma-02.jpg",
+        "/assets/today-source-refresh-20261021/run4-006-lodziarnia-roma.jpg",
+        "/assets/round-other-20261023/food-lodziarnia-roma-68.jpg",
+        "/assets/round-other-20261023/food-lodziarnia-roma-69.jpg",
+        "/assets/food-cafes/lodziarnia-roma-03.jpg"
+      ],
+      "videos": [
+        "/assets/lodziarnia-roma-visit-01.mp4",
+        "/assets/lodziarnia-roma-visit-03.mp4",
+        "/assets/lodziarnia-roma-visit-04.mp4"
+      ],
+      "metadata": {
+        "/assets/food-cafes/lodziarnia-roma-01.jpg": {
+          "original": true,
+          "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.35 (1).jpeg",
+          "sourceSHA256": "fe2e19aaa9e575e85fc34d27d16611dd5fc8d3d7195fe02e7ef951754b9af347",
+          "heroCandidate": true,
+          "personalPhotoException": false,
+          "personalPhotoExceptionAuthorizedAt": null
+        },
+        "/assets/food-cafes/lodziarnia-roma-02.jpg": {
+          "original": true,
+          "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.35 (3).jpeg",
+          "sourceSHA256": "943bb5391ec1a94b21a0efe7879a59d2c72217ec3ed95bc5607879d8164cdcd1",
+          "heroCandidate": false,
+          "personalPhotoException": false,
+          "personalPhotoExceptionAuthorizedAt": null
+        },
+        "/assets/today-source-refresh-20261021/run4-006-lodziarnia-roma.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Image 2026-10-21 at 21.34.47 (5).jpeg",
+          "sourceSHA256": "3dbf92d3da0acbd5ca87f05c84cd30ca225a0794863003b4631f9595c24cdcd1",
+          "assetSHA256": "b53782e203aea59c5d9d207e3d7b5304699b5a7fa8e9e7d2f88f8927b792045b",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Place/detail photograph; incidental public visitors are not posed personal portraits",
+          "alt": {
+            "he": "חזית גלידריית רומא",
+            "en": "Lody Roma entrance",
+            "pl": "Wejście do Lody Roma",
+            "de": "Eingang zu Lody Roma",
+            "cs": "Vstup do Lody Roma"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
+          "familyForeground": false
+        },
+        "/assets/round-other-20261023/food-lodziarnia-roma-68.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Image 2026-10-21 at 21.34.47 (6).jpeg",
+          "sourceSHA256": "fcbb26b557891d833dfc9feee2f4a2501134019b289466ca035f2c0075476ce5",
+          "assetSHA256": "5968b0b035789eec00e37d53dfbfdbd51c7c5cb8b60a8c623231d560389f1e46",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "שלט המספר על תולדות גלידריית רומא",
+            "en": "Plaque describing the history of Lodziarnia Roma",
+            "pl": "Tablica opisująca historię lodziarni Roma",
+            "de": "Tafel zur Geschichte der Eisdiele Roma",
+            "cs": "Tabule o historii zmrzlinárny Roma"
+          },
+          "title": {
+            "he": "שלט המספר על תולדות גלידריית רומא",
+            "en": "Plaque describing the history of Lodziarnia Roma",
+            "pl": "Tablica opisująca historię lodziarni Roma",
+            "de": "Tafel zur Geschichte der Eisdiele Roma",
+            "cs": "Tabule o historii zmrzlinárny Roma"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct original photograph of the venue-history plaque; source text identifies it as history, not a menu"
+        },
+        "/assets/round-other-20261023/food-lodziarnia-roma-69.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גלידריה רומא/WhatsApp Image 2026-10-21 at 21.34.47 (7).jpeg",
+          "sourceSHA256": "96a7b25d87d4c5658a8a48b4fb4519fbd1c78f455e96943409f65791043098e6",
+          "assetSHA256": "308cb1979f8be2b2996a3120b572b0828c1c4e30c8f1bd161d3b180970cfd6aa",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית גלידריית רומא והרחוב הסמוך",
+            "en": "Roma ice cream shop frontage and the adjoining street",
+            "pl": "Fasada lodziarni Roma i sąsiednia ulica",
+            "de": "Fassade der Eisdiele Roma und die angrenzende Straße",
+            "cs": "Průčelí zmrzlinárny Roma a přilehlá ulice"
+          },
+          "title": {
+            "he": "חזית גלידריית רומא והרחוב הסמוך",
+            "en": "Roma ice cream shop frontage and the adjoining street",
+            "pl": "Fasada lodziarni Roma i sąsiednia ulica",
+            "de": "Fassade der Eisdiele Roma und die angrenzende Straße",
+            "cs": "Průčelí zmrzlinárny Roma a přilehlá ulice"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "incidentalPublicVisitors": true,
+          "selectionReason": "Distinct relevant place or food capture retained by complete-source rule30; similar views are not discarded; menu describes historical visit only"
+        },
+        "/assets/food-cafes/lodziarnia-roma-03.jpg": {
+          "original": true,
+          "sourceFile": "גלידריה רומא/WhatsApp Image 2026-10-01 at 09.20.33.jpeg",
+          "sourceSHA256": "040c1aaf753914c8b6d82d796eb283ea7bb266dd29171f8e1ba1240b13b549ae",
+          "assetSHA256": "429c9f80af11c9665f78323ecf2e9b3c6c13b8569066c295588364bb8c62860d",
+          "originalFullPicturePreserved": true,
+          "personalPhotoException": true,
+          "personalPhotoExceptionAuthorizedAt": "2026-10-18",
+          "personalMediaApprovalEvidence": "/Users/rachelfiler/.codex/visualizations/2026/10/16/01a143c2-2695-7771-9c98-09d1350e571c/dialogue-beach-cemetery-2026-10-29/roma-audit-review/existing-Roma-specific-approval-evidence.json",
+          "heroCandidate": false,
+          "alt": {
+            "he": "הפסקת גלידה מחוץ לגלידריית רומא",
+            "en": "An ice-cream stop outside Roma",
+            "pl": "Przerwa na lody przed lodziarnią Roma",
+            "de": "Eispause vor der Eisdiele Roma",
+            "cs": "Zastávka na zmrzlinu před zmrzlinárnou Roma"
+          },
+          "title": {
+            "he": "הפסקת גלידה מחוץ לגלידריית רומא",
+            "en": "An ice-cream stop outside Roma",
+            "pl": "Przerwa na lody przed lodziarnią Roma",
+            "de": "Eispause vor der Eisdiele Roma",
+            "cs": "Zastávka na zmrzlinu před zmrzlinárnou Roma"
+          },
+          "selectionReason": "Distinct relevant Roma visit portrait; exact previously approved source SHA; full-frame original derivative byte-reproduced; restore gallery reference once, reuse byte-identical second filename",
+          "familyForeground": true,
+          "familyExceptionApplied": true
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02amf84DYumbZnyB16etD2m3i5LQZ91X3sZPFbkJoyj1FGJAUdu4Cq1gQfL6UZ7PoNl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid05cm2S1Aiw7fTkyZXr3hDEDqxgTPfZAnmeZao88VvddXi8hSFHDJAyWRePRcYEk89l&id=61595036942289",
+        "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+        "routingExcluded": true
+      }
+    ]
+  }
+];for(const r of reviewed){const i=window.WROC_CANONICAL_PLACE_SOURCE.findIndex(x=>x.id===r.id);if(i>=0)window.WROC_CANONICAL_PLACE_SOURCE[i]=r;else window.WROC_CANONICAL_PLACE_SOURCE.push(r);}})();
