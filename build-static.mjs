@@ -1,3 +1,4 @@
+import {versionNearbyAssets} from './tools/version-nearby-assets.mjs';
 import { generateGuideMap } from "./tools/generate-guide-map.mjs";
 import { generateHomeExperiences } from "./tools/generate-home-experiences.mjs";
 import { generateHomeExcursions } from "./tools/generate-home-excursions.mjs";
@@ -109,6 +110,8 @@ const homeExperienceScripts = await Promise.all([
 for (const file of ["index.html", "experiences.html", "community.html"]) {
   await writeFile(resolve(client, file), versionScriptUrls(await readFile(resolve(root, file), "utf8"), homeExperienceScripts));
 }
+
+await versionNearbyAssets(root,client);
 
 // Phase 1: access.js, checkout.js, admin.html and admin.js are deliberately
 // retained in source control for reversibility, but are not shipped publicly.

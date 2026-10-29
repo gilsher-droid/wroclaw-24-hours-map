@@ -1,11 +1,11 @@
 (function(){
  'use strict';
- const MIN_RADIUS=50,MAX_RADIUS=5000,DEFAULT_RADIUS=500,EARTH_RADIUS=6371008.8;
+ const MIN_RADIUS=100,MAX_RADIUS=5000,DEFAULT_RADIUS=500,EARTH_RADIUS=6371008.8;
  const categories=Object.keys(window.WROC_DINING.quickCategories);
  const actions=['search','nearest','photos','videos','explore','clarify'];
  const finite=x=>typeof x==='number'&&Number.isFinite(x);
  function centre(value){if(!value||!finite(value.lat)||!finite(value.lng)||value.lat< -90||value.lat>90||value.lng< -180||value.lng>180)throw new TypeError('invalid_centre');return{lat:value.lat,lng:value.lng};}
- function radius(value){if(!finite(value)||value<MIN_RADIUS||value>MAX_RADIUS)throw new RangeError('invalid_radius');return value;}
+ function radius(value){if(!finite(value)||value<MIN_RADIUS||value>MAX_RADIUS||value%100!==0)throw new RangeError('invalid_radius');return value;}
  function distance(a,b){a=centre(a);b=centre(b);const rad=x=>x*Math.PI/180,dLat=rad(b.lat-a.lat),dLng=rad(b.lng-a.lng),v=Math.sin(dLat/2)**2+Math.cos(rad(a.lat))*Math.cos(rad(b.lat))*Math.sin(dLng/2)**2;return 2*EARTH_RADIUS*Math.atan2(Math.sqrt(Math.min(1,v)),Math.sqrt(Math.max(0,1-v)));}
  function choice(value,allowed,fallback){if(value===undefined)return fallback;if(!allowed.includes(value))throw new TypeError('invalid_filter');return value;}
  function query(value={}){const t=window.WROC_DINING;return{radius:radius(value.radius??DEFAULT_RADIUS),category:choice(value.category,categories,'all'),venueType:choice(value.venueType,['all',...Object.keys(t.venueTypes)],'all'),cuisine:choice(value.cuisine,['all',...Object.keys(t.cuisines)],'all'),dietary:choice(value.dietary,['all',...Object.keys(t.dietary)],'all'),sort:choice(value.sort,['distance','name'],'distance')};}
