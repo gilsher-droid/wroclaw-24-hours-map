@@ -18540,70 +18540,9 @@
       "cs"
     ],
     "media": {
-      "thumbnail": "/assets/named-wroclaw-oct28/source-038.jpg",
-      "photos": [
-        "/assets/named-wroclaw-oct28/source-038.jpg",
-        "/assets/named-wroclaw-oct28/source-039.jpg"
-      ],
+      "photos": [],
       "videos": [],
-      "metadata": {
-        "/assets/named-wroclaw-oct28/source-038.jpg": {
-          "original": true,
-          "originalFullPicturePreserved": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ונציה של הצךון 4.JPG",
-          "sourceSHA256": "b02e0c46224451b79746c9cf9f0ecf2fcb5c6830901d6e07208b00973601a2f9",
-          "assetSHA256": "b02e0c46224451b79746c9cf9f0ecf2fcb5c6830901d6e07208b00973601a2f9",
-          "sourceDimensions": [
-            3024,
-            4032
-          ],
-          "alt": {
-            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
-            "en": "A view along the Oder promenade towards Cathedral Island",
-            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
-            "de": "Blick von der Oderpromenade zur Dominsel",
-            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
-          },
-          "title": {
-            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
-            "en": "A view along the Oder promenade towards Cathedral Island",
-            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
-            "de": "Blick von der Oderpromenade zur Dominsel",
-            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
-          },
-          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
-          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
-          "captureAction": "append-distinct-original"
-        },
-        "/assets/named-wroclaw-oct28/source-039.jpg": {
-          "original": true,
-          "originalFullPicturePreserved": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ונציה של הצפון.JPG",
-          "sourceSHA256": "39f9ac8fd4d99fab546c234063e3bcf4e1b51226b356a063d5c59c1e85abb053",
-          "assetSHA256": "39f9ac8fd4d99fab546c234063e3bcf4e1b51226b356a063d5c59c1e85abb053",
-          "sourceDimensions": [
-            4032,
-            3024
-          ],
-          "alt": {
-            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
-            "en": "A view along the Oder promenade towards Cathedral Island",
-            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
-            "de": "Blick von der Oderpromenade zur Dominsel",
-            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
-          },
-          "title": {
-            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
-            "en": "A view along the Oder promenade towards Cathedral Island",
-            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
-            "de": "Blick von der Oderpromenade zur Dominsel",
-            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
-          },
-          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
-          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
-          "captureAction": "append-distinct-original"
-        }
-      }
+      "metadata": {}
     },
     "socialPosts": [
       {
@@ -38895,9 +38834,83 @@
         "appleMaps": null
       }
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/named-wroclaw-oct28/source-038.jpg",
+        "/assets/named-wroclaw-oct28/source-039.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/named-wroclaw-oct28/source-038.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ונציה של הצךון 4.JPG",
+          "sourceSHA256": "b02e0c46224451b79746c9cf9f0ecf2fcb5c6830901d6e07208b00973601a2f9",
+          "assetSHA256": "b02e0c46224451b79746c9cf9f0ecf2fcb5c6830901d6e07208b00973601a2f9",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "alt": {
+            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
+            "en": "A view along the Oder promenade towards Cathedral Island",
+            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
+            "de": "Blick von der Oderpromenade zur Dominsel",
+            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
+          },
+          "title": {
+            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
+            "en": "A view along the Oder promenade towards Cathedral Island",
+            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
+            "de": "Blick von der Oderpromenade zur Dominsel",
+            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        },
+        "/assets/named-wroclaw-oct28/source-039.jpg": {
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/ונציה של הצפון.JPG",
+          "sourceSHA256": "39f9ac8fd4d99fab546c234063e3bcf4e1b51226b356a063d5c59c1e85abb053",
+          "assetSHA256": "39f9ac8fd4d99fab546c234063e3bcf4e1b51226b356a063d5c59c1e85abb053",
+          "sourceDimensions": [
+            4032,
+            3024
+          ],
+          "alt": {
+            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
+            "en": "A view along the Oder promenade towards Cathedral Island",
+            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
+            "de": "Blick von der Oderpromenade zur Dominsel",
+            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
+          },
+          "title": {
+            "he": "מבט מהטיילת לאורך האודר אל אי הקתדרלות",
+            "en": "A view along the Oder promenade towards Cathedral Island",
+            "pl": "Widok z promenady nad Odrą w stronę Ostrowa Tumskiego",
+            "de": "Blick von der Oderpromenade zur Dominsel",
+            "cs": "Pohled z promenády podél Odry na Katedrální ostrov"
+          },
+          "sourceReviewReceipt": "wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json",
+          "publicationApprovalReceipt": "wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json",
+          "captureAction": "append-distinct-original"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -38918,19 +38931,6 @@
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid08T1cjaefMzvmgn6LgYECr3d8TZ7BaJQzuF1pWy7TMhfSN1myTKAdb62o3vdu4xM3l&id=61595207664875",
         "verifiedAt": "2026-10-08T16:19:19.199Z"
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "math-tower": {
