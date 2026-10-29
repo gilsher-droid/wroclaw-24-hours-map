@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "cafe-lyk-wroclaw": ["architecture-design"],
     "klub-lacznik-wroclaw": ["music-opera"],
     "most-pomorski-poludniowy-wroclaw": ["museums-history", "architecture-design"],
     "piastowska-pieczec-wroclaw": ["museums-history", "architecture-design"],

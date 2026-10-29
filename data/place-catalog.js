@@ -11262,6 +11262,432 @@
     },
     "socialPosts": []
   },
+  "cafe-lyk-wroclaw": {
+    "id": "cafe-lyk-wroclaw",
+    "localName": "ŁYK",
+    "name": {
+      "he": "קפה ליק\nŁYK",
+      "en": "ŁYK café",
+      "pl": "Kawiarnia ŁYK",
+      "de": "Café ŁYK",
+      "cs": "Kavárna ŁYK"
+    },
+    "description": {
+      "he": "בית קפה קטן באחד מביתני האבן ההיסטוריים שבקצה גשר פומורסקי הדרומי. עצירה לקפה ולמבט מקרוב על הביתן משנת 1904. תיעוד הביקור מציג את הכניסה ואת חלל הישיבה, לצד הגישה לגשר והביתן שממול. בדקו שעות ותפריט עדכניים מול המקום.\nŁYK\nNowy Świat 48, Wrocław",
+      "en": "A small café in one of the historic stone pavilions at the Southern Pomorski Bridge approach. Stop for coffee and a closer look at the 1904 pavilion. Our visit media show the entrance and seating, with the bridge approach and opposite pavilion for context. Check current hours and menu with the café.",
+      "pl": "Niewielka kawiarnia w jednym z zabytkowych kamiennych pawilonów przy Moście Pomorskim Południowym. Przerwa na kawę i bliższe spojrzenie na pawilon z 1904 roku. Nasze zdjęcia i film pokazują wejście i miejsca siedzące, a także dojście do mostu i pawilon naprzeciwko. Aktualne godziny i menu sprawdź w kawiarni.",
+      "de": "Kleines Café in einem der historischen Steinpavillons an der südlichen Pommernbrücke. Eine Kaffeepause mit Blick auf den Pavillon von 1904. Unsere Aufnahmen zeigen Eingang und Sitzbereich sowie den Brückenzugang und den gegenüberliegenden Pavillon als Umgebung. Aktuelle Öffnungszeiten und Speisekarte beim Café prüfen.",
+      "cs": "Malá kavárna v jednom z historických kamenných pavilonů u Jižního Pomořanského mostu. Zastávka na kávu a bližší pohled na pavilon z roku 1904. Naše záběry zachycují vstup a posezení, přístup k mostu i protější pavilon jako okolí. Aktuální otevírací dobu a nabídku ověřte u kavárny."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.113516,
+        "lng": 17.0312958
+      },
+      "address": {
+        "street": "Nowy Świat 48",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture-design",
+      "cafe",
+      "drink"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "cafe-lyk-wroclaw"
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "kind": "recommendation",
+        "sourceId": "cafe-lyk-wroclaw"
+      },
+      {
+        "productId": "wroclaw-christmas",
+        "kind": "recommendation",
+        "sourceId": "cafe-lyk-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "cafe-lyk-wroclaw",
+        "lat": 51.113516,
+        "lng": 17.0312958
+      },
+      {
+        "productId": "wroclaw-four-days",
+        "sourceId": "cafe-lyk-wroclaw",
+        "lat": 51.113516,
+        "lng": 17.0312958
+      },
+      {
+        "productId": "wroclaw-christmas",
+        "sourceId": "cafe-lyk-wroclaw",
+        "lat": 51.113516,
+        "lng": 17.0312958
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "architecture-design",
+        "cafe",
+        "drink"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.113516%2C17.0312958",
+        "appleMaps": "https://maps.apple.com/?ll=51.113516,17.0312958&q=%C5%81YK"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "user-identified-cafe-with-existing-published-media",
+      "factualSources": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/nowa-kawiarnia-we-wroclawiu-lyk-w-baszcie-na-moscie-pomorskim",
+          "checkedAt": "2026-10-29",
+          "publishedAt": "2025-02-24"
+        },
+        {
+          "url": "https://www.google.com/maps?cid=984741309816180658",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.113516,
+            17.0312958
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "bridgeCanonicalAndMediaPreserved": true,
+      "mapDecision": "Lifestyle, coffee experience, Cultural architecture, optional café recommendations for river/university day in both multi-day maps; no forced additional stop in the timed24h walk"
+    },
+    "placeType": "cafe",
+    "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-203-most-pomorski-poludniowy-wroclaw.jpg",
+      "photos": [
+        "/assets/today-source-refresh-20261021/run4-213-most-pomorski-poludniowy-wroclaw.jpg",
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-088.jpg",
+        "/assets/today-source-refresh-20261021/run4-201-most-pomorski-poludniowy-wroclaw.jpg",
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-090.jpg",
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-091.jpg",
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-092.jpg",
+        "/assets/today-source-refresh-20261021/run4-203-most-pomorski-poludniowy-wroclaw.jpg"
+      ],
+      "videos": [
+        "https://www.youtube.com/watch?v=OgKOteEs5dc",
+        "https://youtube.com/shorts/gQoBaOkFAd0"
+      ],
+      "metadata": {
+        "/assets/today-source-refresh-20261021/run4-213-most-pomorski-poludniowy-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Image 2026-10-21 at 21.34.44 (5).jpeg",
+          "sourceSHA256": "84736e639f6b7d51b60c6bdae0cb12b7196372a24248cf2352085e22d6130f7c",
+          "assetSHA256": "70761b234867a53389d23bbfdab24ad8636d23cba5e7844ec7e6648633ee16f0",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "גישה לבית הקפה ולשני ביתני האבן בקצה הגשר",
+            "en": "Approach to the café and the two stone bridge pavilions",
+            "pl": "Dojście do kawiarni i dwa kamienne pawilony mostowe",
+            "de": "Zugang zum Café und den beiden Steinpavillons der Brücke",
+            "cs": "Přístup ke kavárně a dvěma kamenným mostním pavilonům"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:28:30.919277+00:00",
+          "familyForeground": false,
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.44 (5).jpeg",
+          "title": {
+            "he": "גישה לבית הקפה ולשני ביתני האבן בקצה הגשר",
+            "en": "Approach to the café and the two stone bridge pavilions",
+            "pl": "Dojście do kawiarni i dwa kamienne pawilony mostowe",
+            "de": "Zugang zum Café und den beiden Steinpavillons der Brücke",
+            "cs": "Přístup ke kavárně a dvěma kamenným mostním pavilonům"
+          },
+          "existingAssetReused": true,
+          "sourceReviewReceipt": "cafe-lyk-2026-10-29/source-review-and-decisions.json"
+        },
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-088.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Image 2026-10-21 at 21.34.46 (8).jpeg",
+          "sourceSHA256": "cd4d3b797c7811869de35b94725502d082d49970e38f3f58bf5915bd3cecf98d",
+          "assetSHA256": "02f43dfe30215aaf8bd80b397fb0944cb850ca310cdf865f64fd787c6486c5b8",
+          "title": {
+            "he": "הביתן שמול בית הקפה ובו חנות מזכרות",
+            "en": "The pavilion opposite the café, housing a souvenir shop",
+            "pl": "Pawilon naprzeciwko kawiarni, mieszczący sklep z pamiątkami",
+            "de": "Der Pavillon gegenüber dem Café mit einem Souvenirladen",
+            "cs": "Pavilon naproti kavárně s obchodem se suvenýry"
+          },
+          "alt": {
+            "he": "הביתן שמול בית הקפה ובו חנות מזכרות",
+            "en": "The pavilion opposite the café, housing a souvenir shop",
+            "pl": "Pawilon naprzeciwko kawiarni, mieszczący sklep z pamiątkami",
+            "de": "Der Pavillon gegenüber dem Café mit einem Souvenirladen",
+            "cs": "Pavilon naproti kavárně s obchodem se suvenýry"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "cafe-lyk-2026-10-29/source-review-and-decisions.json",
+          "reviewIndex": 88,
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.46 (8).jpeg",
+          "existingAssetReused": true
+        },
+        "/assets/today-source-refresh-20261021/run4-201-most-pomorski-poludniowy-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Image 2026-10-21 at 21.34.46 (9).jpeg",
+          "sourceSHA256": "03663d3a5840ac8fe25dd2d03a186dd1f5c0ee1c3ad0b499fe3873c51e9a8989",
+          "assetSHA256": "26f00b1cffe82b20519b5f30454be65727e23324c0d686f809e64d8767aab690",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "חזית בית הקפה ליד מעבר החציה",
+            "en": "Café facade beside the pedestrian crossing",
+            "pl": "Fasada kawiarni przy przejściu dla pieszych",
+            "de": "Caféfassade am Fußgängerüberweg",
+            "cs": "Průčelí kavárny u přechodu pro chodce"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:28:30.919277+00:00",
+          "familyForeground": false,
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.46 (9).jpeg",
+          "title": {
+            "he": "חזית בית הקפה ליד מעבר החציה",
+            "en": "Café facade beside the pedestrian crossing",
+            "pl": "Fasada kawiarni przy przejściu dla pieszych",
+            "de": "Caféfassade am Fußgängerüberweg",
+            "cs": "Průčelí kavárny u přechodu pro chodce"
+          },
+          "existingAssetReused": true,
+          "sourceReviewReceipt": "cafe-lyk-2026-10-29/source-review-and-decisions.json"
+        },
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-090.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Image 2026-10-21 at 21.34.47 (1).jpeg",
+          "sourceSHA256": "b58e155c2bdcd240d0b1cc8260a698eb8d7edd49a0f5d6333f21817aac994790",
+          "assetSHA256": "af00a5162359e6af18024668b76280df48f7a41596972f73a0b9553b4697fb02",
+          "title": {
+            "he": "מבט נוסף על הכניסה לבית הקפה",
+            "en": "Another view of the café entrance",
+            "pl": "Kolejny widok wejścia do kawiarni",
+            "de": "Weitere Ansicht des Caféeingangs",
+            "cs": "Další pohled na vstup do kavárny"
+          },
+          "alt": {
+            "he": "מבט נוסף על הכניסה לבית הקפה",
+            "en": "Another view of the café entrance",
+            "pl": "Kolejny widok wejścia do kawiarni",
+            "de": "Weitere Ansicht des Caféeingangs",
+            "cs": "Další pohled na vstup do kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "cafe-lyk-2026-10-29/source-review-and-decisions.json",
+          "reviewIndex": 90,
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.47 (1).jpeg",
+          "existingAssetReused": true
+        },
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-091.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Image 2026-10-21 at 21.34.47 (2).jpeg",
+          "sourceSHA256": "0f79675074ad17baf4092531026b65892f963a6935784618c76f9769a13f1d7a",
+          "assetSHA256": "e1443e66f108d405c46027d19a68c6ce0ce4a627be20a52d8d015af468841149",
+          "title": {
+            "he": "הכניסה לבית הקפה והשביל לצד הגשר",
+            "en": "Café entrance and passage beside the bridge",
+            "pl": "Wejście do kawiarni i przejście przy moście",
+            "de": "Caféeingang und Weg neben der Brücke",
+            "cs": "Vstup do kavárny a průchod u mostu"
+          },
+          "alt": {
+            "he": "הכניסה לבית הקפה והשביל לצד הגשר",
+            "en": "Café entrance and passage beside the bridge",
+            "pl": "Wejście do kawiarni i przejście przy moście",
+            "de": "Caféeingang und Weg neben der Brücke",
+            "cs": "Vstup do kavárny a průchod u mostu"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "cafe-lyk-2026-10-29/source-review-and-decisions.json",
+          "reviewIndex": 91,
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.47 (2).jpeg",
+          "existingAssetReused": true
+        },
+        "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-092.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Image 2026-10-21 at 21.34.47 (3).jpeg",
+          "sourceSHA256": "6754ba0f383bd6626286e515b9f4b83d2fce23ae64e642f24621e6a8e1d2918f",
+          "assetSHA256": "117c5f05ee9a2be42d5ccf1c922c27021ad704dfa3ca335ebbbefe40afb87e4f",
+          "title": {
+            "he": "חלל הישיבה והשלט של בית הקפה מול הביתן הנגדי",
+            "en": "Café seating and sign facing the opposite pavilion",
+            "pl": "Miejsca siedzące i szyld kawiarni z widokiem na drugi pawilon",
+            "de": "Sitzbereich und Schild des Cafés mit Blick zum gegenüberliegenden Pavillon",
+            "cs": "Posezení a nápis kavárny s výhledem na protější pavilon"
+          },
+          "alt": {
+            "he": "חלל הישיבה והשלט של בית הקפה מול הביתן הנגדי",
+            "en": "Café seating and sign facing the opposite pavilion",
+            "pl": "Miejsca siedzące i szyld kawiarni z widokiem na drugi pawilon",
+            "de": "Sitzbereich und Schild des Cafés mit Blick zum gegenüberliegenden Pavillon",
+            "cs": "Posezení a nápis kavárny s výhledem na protější pavilon"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "cafe-lyk-2026-10-29/source-review-and-decisions.json",
+          "reviewIndex": 92,
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.47 (3).jpeg",
+          "existingAssetReused": true
+        },
+        "/assets/today-source-refresh-20261021/run4-203-most-pomorski-poludniowy-wroclaw.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Image 2026-10-21 at 21.34.47.jpeg",
+          "sourceSHA256": "49886c9d20dc8726e88694169b73d99596449bd497ef1e4cd0562f946cc3da43",
+          "assetSHA256": "03c8a54077a5c727a5a3ede5131375698bac47af759c4a74438a8790c9cd7d8f",
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "privacyClassification": "Architecture/place;incidentalpublicvisitorsnotposedportraits",
+          "alt": {
+            "he": "פתח בית הקפה ובו שלטי הקפה והיין",
+            "en": "Café doorway with coffee and wine signs",
+            "pl": "Wejście do kawiarni z tabliczkami kawy i wina",
+            "de": "Caféeingang mit Kaffee- und Weinschildern",
+            "cs": "Vstup do kavárny s cedulkami kávy a vína"
+          },
+          "sourceRefreshRun": "2026-10-21-run4",
+          "verifiedAt": "2026-10-21T19:28:30.919277+00:00",
+          "familyForeground": false,
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Image 2026-10-21 at 21.34.47.jpeg",
+          "title": {
+            "he": "פתח בית הקפה ובו שלטי הקפה והיין",
+            "en": "Café doorway with coffee and wine signs",
+            "pl": "Wejście do kawiarni z tabliczkami kawy i wina",
+            "de": "Caféeingang mit Kaffee- und Weinschildern",
+            "cs": "Vstup do kavárny s cedulkami kávy a vína"
+          },
+          "existingAssetReused": true,
+          "sourceReviewReceipt": "cafe-lyk-2026-10-29/source-review-and-decisions.json"
+        },
+        "https://www.youtube.com/watch?v=OgKOteEs5dc": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Video 2026-10-01 at 09.20.39.mp4",
+          "sourceSHA256": "35622aaae197f6c070e6041daba5c9b3bce605d90796c4ba90b349dc336e7a29",
+          "uploadSHA256": "45b9f7065265757a71e915774479c5ae4bd30ebbd3630ce171ce39b804305bb4",
+          "title": {
+            "he": "ביתן הגשר והגישה במעבר החציה",
+            "en": "Bridge pavilion and pedestrian crossing approach",
+            "pl": "Pawilon mostowy i dojście przez przejście dla pieszych",
+            "de": "Brückenpavillon und Zugang über den Fußgängerüberweg",
+            "cs": "Mostní pavilon a přístup přes přechod pro chodce"
+          },
+          "alt": {
+            "he": "ביתן הגשר והגישה במעבר החציה",
+            "en": "Bridge pavilion and pedestrian crossing approach",
+            "pl": "Pawilon mostowy i dojście przez przejście dla pieszych",
+            "de": "Brückenpavillon und Zugang über den Fußgängerüberweg",
+            "cs": "Mostní pavilon a přístup přes přechod pro chodce"
+          },
+          "durationSeconds": 7.766667,
+          "youtubeId": "OgKOteEs5dc",
+          "visibility": "Public",
+          "public": true,
+          "savedPublicVerified": true,
+          "checksComplete": true,
+          "publicReopenedVerified": true,
+          "sdProcessingComplete": true,
+          "silent": true,
+          "audioRemoved": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_d56b7424664e46759425e23fda7d80b0",
+          "sourceReviewReceipt": "cafe-lyk-2026-10-29/video-capture-review-and-reuse.json",
+          "reviewIndex": 98,
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/WhatsApp Video 2026-10-01 at 09.20.39.mp4",
+          "publishedEditionReused": true,
+          "currentPublicPlaybackReceipt": "cafe-lyk-2026-10-29/existing-public-video-readback.json"
+        },
+        "https://youtube.com/shorts/gQoBaOkFAd0": {
+          "title": {
+            "he": "הגמד שליד בית הקפה",
+            "en": "Dwarf beside the café",
+            "pl": "Krasnal przy kawiarni",
+            "de": "Zwerg neben dem Café",
+            "cs": "Trpaslík u kavárny"
+          },
+          "alt": {
+            "he": "הגמד שליד בית הקפה",
+            "en": "Dwarf beside the café",
+            "pl": "Krasnal przy kawiarni",
+            "de": "Zwerg neben dem Café",
+            "cs": "Trpaslík u kavárny"
+          },
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/קפה ליק/WhatsApp Video 2026-10-05 at 18.27.59.mp4",
+          "sourceSHA256": "189f66cf6531d7df144768c3ba839cc27772fe044552aa3b5ecfba64c4019134",
+          "historicalPublicSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Gnomes/WhatsApp Video 2026-10-01 at 09.20.37.mp4",
+          "historicalPublicSourceSHA256": "859131e3d46a83d86ee9315d493e015e89863f6b506e4a718d1988497ddf3bd9",
+          "durationSeconds": 1.133333,
+          "youtubeId": "gQoBaOkFAd0",
+          "publishedEditionReused": true,
+          "fullCaptureReused": true,
+          "public": true,
+          "historicalPublicVerifiedAt": "2026-10-15",
+          "currentPublicPlaybackReceipt": "cafe-lyk-2026-10-29/dwarf-existing-public-readback.json",
+          "captureComparisonReceipt": "cafe-lyk-2026-10-29/dwarf-existing-public-capture-comparison.json",
+          "humanLocationClarification": "cafe-lyk-2026-10-29/human-dwarf-clip-clarification.json",
+          "originalSourcePreserved": true
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "cafe-targowa": {
     "id": "cafe-targowa",
     "localName": "Cafe Targowa",

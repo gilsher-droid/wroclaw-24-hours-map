@@ -315,3 +315,5 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Shared photographs for the newly requested music venue and city garden.
 (function(){for(const id of ["klub-lacznik-wroclaw","copernicus-park-wroclaw"]){const p=window.WROC_CATALOG?.getPlace(id);if(p)window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos,videos:p.media.videos};}})();
+
+(function(){const p=window.WROC_CATALOG?.getPlace("cafe-lyk-wroclaw");if(p)window.WROC_LOCATION_MEDIA[p.id]={gallery:p.media.photos,videos:p.media.videos};})();

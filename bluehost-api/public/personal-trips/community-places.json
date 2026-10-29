@@ -503,6 +503,20 @@
       "lng": 17.03740582927844
     }
   },
+  "cafe-lyk-wroclaw": {
+    "id": "cafe-lyk-wroclaw",
+    "name": {
+      "he": "קפה ליק\nŁYK",
+      "en": "ŁYK café",
+      "pl": "Kawiarnia ŁYK",
+      "de": "Café ŁYK",
+      "cs": "Kavárna ŁYK"
+    },
+    "coordinates": {
+      "lat": 51.113516,
+      "lng": 17.0312958
+    }
+  },
   "cafe-targowa": {
     "id": "cafe-targowa",
     "name": {

@@ -297,3 +297,6 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 
 /* Keep the new venue text and visit photographs complete. */
 article[data-place="klub-lacznik-wroclaw"] :is(h3,p),.leaflet-popup-content:has(img[src*="/club-copernicus-oct29/"]) :is(strong,span,p){white-space:pre-line}
+
+article[data-place="cafe-lyk-wroclaw"] :is(h3,p){white-space:pre-line}
+.leaflet-popup-content:has([data-gallery="cafe-lyk-wroclaw"]) :is(strong,span,p){white-space:pre-line}
