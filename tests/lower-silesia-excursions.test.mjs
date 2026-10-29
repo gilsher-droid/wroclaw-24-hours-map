@@ -6,7 +6,7 @@ import { runInNewContext } from "node:vm";
 
 const root = process.cwd();
 
-test("day-trip product includes nine routes and reuses canonical places in five languages", () => {
+test("day-trip product includes ten routes and reuses canonical places in five languages", () => {
   const window = {};
   const context = { window, console };
   runInNewContext(readFileSync(resolve(root, "data/place-catalog.js"), "utf8"), context);
@@ -15,11 +15,12 @@ test("day-trip product includes nine routes and reuses canonical places in five 
   const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
   assert.equal(product.id, "lower-silesia-excursions");
   assert.equal(product.type, "excursions");
-  assert.equal(product.excursions.length, 9);
+  assert.equal(product.excursions.length, 10);
   const expectedPlaces = ["ksiaz-castle", "walbrzych-market-square", "church-of-peace-swidnica", "brzeg-st-nicholas-church", "brzeg-castle", "brzeg-holy-cross-church", "brzeg-town-hall", "brzeg-oder-gate", "moszna-castle", "moszna-castle-park", "jawor-church-of-peace", "jawor-market-square", "jawor-piast-castle", "karpacz-centre", "wang-church", "jelenia-gora-market-square", "czocha-castle", "lesnianska-dam", "boleslawiec-old-town", "boleslawiec-ceramics-museum", "lodz-manufaktura", "lodz-old-market", "lodz-church-square", "lodz-ghetto-baluty", "lodz-roa-weasels-mural", "lodz-freedom-square", "lodz-rose-passage", "lodz-gutenberg-house", "lodz-piotrkowska", "warsaw-nozyk-synagogue", "warsaw-unknown-soldier", "warsaw-saxon-garden-fountain", "srebrna-gora-fortress", "klodzko-fortress", "klodzko-old-town"] .concat(JSON.parse(readFileSync("data/poznan-excursion-place-ids.json", "utf8")));
   expectedPlaces.splice(3,0,"swidnica-market-square");
   expectedPlaces.push("bielsko-rynek", "bielsko-st-nicholas-cathedral", "bielsko-burda-house", "bielsko-biala-town-hall", "opole-market-square", "opole-town-hall", "opole-krakowska-street", "chinkalnia-bielsko-rynek", "bielsko-barlickiego-street", "bielsko-plac-wojska-polskiego", "bielsko-plac-wolnosci");
   expectedPlaces.push("torun-old-town-hall", "torun-copernicus-monument", "torun-copernicus-house", "torun-leaning-tower", "torun-saints-johns-cathedral", "torun-bridge-gate", "torun-house-under-star", "torun-artus-court", "torun-holy-spirit-church", "torun-monastery-gate", "torun-sailors-gate", "torun-teutonic-castle", "torun-dragon", "torun-filus", "torun-hotel-spichrz", "torun-rafter-fountain", "torun-gingerbread-baker-sculpture", "torun-st-marys-church", "torun-burghers-manor");
+  expectedPlaces.push("gdansk-main-town", "gdansk-motlawa-riverfront", "puro-gdansk-stare-miasto", "sopot-seafront", "malbork-castle");
   assert.deepEqual(Array.from(product.canonicalPlaceIds), expectedPlaces);
   assert.deepEqual(Object.keys(product.title), ["he", "en", "pl", "de", "cs"]);
   assert.deepEqual(Object.keys(product.excursions[0].title), ["he", "en", "pl", "de", "cs"]);
