@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
-import {beforeBridgesNorthSnapshot,assertReviewedBridgesNorth} from './bridges-north-historical-baseline.mjs';
+import {beforeBridgesNorthSnapshot,beforeBridgesNorthSource,assertReviewedBridgesNorth} from './bridges-north-historical-baseline.mjs';
 const proof=JSON.parse(readFileSync('data/bridges-north-approved-additions.json'));
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const clone=x=>JSON.parse(JSON.stringify(x));
@@ -34,3 +34,5 @@ test('Historical scope removes only verified new content and rejects altered nor
  assert.equal(w.WROC_EXPERIENCE_CATALOG.experiences.length,14);
  assert.equal(w.WROC_HOME_EXPERIENCES.length,8);
 });
+
+test("Historical source projection accepts only the exact approved excursion source",()=>{const source=readFileSync("data/lower-silesia-excursions.js");assert.equal(createHash("sha256").update(beforeBridgesNorthSource("data/lower-silesia-excursions.js",source)).digest("hex"),proof.beforeExcursionSourceSHA256);assert.throws(()=>beforeBridgesNorthSource("data/lower-silesia-excursions.js",Buffer.concat([source,Buffer.from("unreviewed")])));});
