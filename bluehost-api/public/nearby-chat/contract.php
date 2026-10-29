@@ -3,7 +3,7 @@ declare(strict_types=1);
 function nearby_schema(): array {
  $enums=['action'=>['search','nearest','photos','videos','explore','clarify'],'category'=>['all','eat','coffee','drink','museums','sights','parks','waterside','dwarfs','shopping','heritage'],'venueType'=>['all','restaurant','cafe','bakery','patisserie','ice-cream','bar','wine-bar','pub','food-hall','market','beach-bar','milk-bar','takeaway','tea-room','chocolate-cafe'],'cuisine'=>['all','italian','polish','japanese','thai','peruvian','mediterranean','indian','georgian','chinese','mexican','french','asian','international'],'dietary'=>['all','vegan','vegetarian','vegan-only','vegetarian-only','vegan-options','vegetarian-options'],'sort'=>['distance','name'],'centreChange'=>['keep','place']];
  $properties=[];foreach($enums as $k=>$values)$properties[$k]=['type'=>in_array($k,['action','centreChange'],true)?'string':['string','null'],'enum'=>in_array($k,['action','centreChange'],true)?$values:[...$values,null]];
- $properties['radius']=['type'=>['number','null'],'minimum'=>50,'maximum'=>5000];
+ $properties['radius']=['type'=>['number','null'],'minimum'=>100,'multipleOf'=>100,'maximum'=>5000];
  $properties['reference']=['type'=>'object','properties'=>['kind'=>['type'=>'string','enum'=>['none','selected','index','id']],'index'=>['type'=>['integer','null'],'minimum'=>1,'maximum'=>60],'id'=>['type'=>['string','null']]],'required'=>['kind','index','id'],'additionalProperties'=>false];
  $properties['unsupported']=['type'=>'array','items'=>['type'=>'string','enum'=>['quiet','cheap','open-now','walking-time','unknown']],'maxItems'=>5];
  return ['type'=>'object','properties'=>$properties,'required'=>array_keys($properties),'additionalProperties'=>false];
@@ -11,7 +11,7 @@ function nearby_schema(): array {
 function nearby_validate_intent(array $v,array $context): array {
  $schema=nearby_schema();$keys=array_keys($v);sort($keys);$required=$schema['required'];sort($required);if($keys!==$required)throw new InvalidArgumentException('schema');
  foreach($schema['properties'] as $k=>$p){$x=$v[$k];if(isset($p['enum'])&&!in_array($x,$p['enum'],true))throw new InvalidArgumentException('enum');}
- if($v['radius']!==null&&(!is_numeric($v['radius'])||!is_int($v['radius'])&&!is_float($v['radius'])||$v['radius']<50||$v['radius']>5000))throw new InvalidArgumentException('radius');
+ if($v['radius']!==null&&(!is_numeric($v['radius'])||!is_int($v['radius'])&&!is_float($v['radius'])||$v['radius']<100||fmod($v['radius'],100)!==0.0||$v['radius']>5000))throw new InvalidArgumentException('radius');
  $r=$v['reference'];if(!is_array($r)||count($r)!==3||array_diff(array_keys($r),['kind','index','id'])||!in_array($r['kind']??'', ['none','selected','index','id'],true))throw new InvalidArgumentException('reference');
  if(($r['kind']!=='id'&&$r['id']!==null)||($r['kind']!=='index'&&$r['index']!==null))throw new InvalidArgumentException('reference');
  $ids=array_column($context['results'],'id');$id=null;
@@ -27,7 +27,7 @@ function nearby_input(array $v): array {
  if(!is_array($v['filters']??null)||!is_array($v['results']??null)||count($v['results'])>60)throw new InvalidArgumentException('input');
  $schema=nearby_schema();$f=$v['filters'];if(count($f)!==6||array_diff(array_keys($f),['radius','category','venueType','cuisine','dietary','sort']))throw new InvalidArgumentException('filters');
  foreach(['category','venueType','cuisine','dietary','sort'] as $k)if(!is_string($f[$k])||!in_array($f[$k],$schema['properties'][$k]['enum'],true))throw new InvalidArgumentException('filters');
- if((!is_int($f['radius'])&&!is_float($f['radius']))||$f['radius']<50||$f['radius']>5000)throw new InvalidArgumentException('radius');
+ if((!is_int($f['radius'])&&!is_float($f['radius']))||$f['radius']<100||fmod($f['radius'],100)!==0.0||$f['radius']>5000)throw new InvalidArgumentException('radius');
  $ids=[];foreach($v['results'] as $r){if(!is_array($r)||count($r)!==3||array_diff(array_keys($r),['id','name','metres'])||!is_string($r['id']??null)||!preg_match('/^[a-z0-9-]{1,100}$/',$r['id'])||!is_string($r['name']??null)||strlen($r['name'])>640||!is_int($r['metres']??null)||$r['metres']<0||$r['metres']>5000||in_array($r['id'],$ids,true))throw new InvalidArgumentException('results');$ids[]=$r['id'];}
  if(($v['selected']??null)!==null&&!in_array($v['selected'],$ids,true))throw new InvalidArgumentException('selected');return $v;
 }

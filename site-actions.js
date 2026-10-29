@@ -81,7 +81,7 @@
       const section = document.createElement('section'); section.id = 'personal-service'; section.className = 'personal-service-banner';
       section.innerHTML = '<div><p data-personal-copy="0"></p><h2 data-personal-copy="2"></h2><p data-personal-copy="3"></p><a class="button" data-personal-copy="4" data-personal-link></a></div><img src="/assets/rynek-market-square.jpg" alt="" loading="lazy">';
       hero.after(section);
-      const nearby=document.createElement('section');nearby.id='nearby-discovery';nearby.className='nearby-home-banner';nearby.innerHTML='<div><h2 data-nearby-title></h2><p data-nearby-intro></p></div><a class="button" data-nearby-menu></a>';section.before(nearby);
+      const nearby=document.createElement('section');nearby.id='nearby-discovery';nearby.className='nearby-home-banner';nearby.innerHTML=`<div class="nearby-home-copy"><h2 data-nearby-title></h2><p data-nearby-intro></p><a class="button" data-nearby-menu></a></div><a class="nearby-home-preview" data-nearby-preview><img src="${window.WROC_SANDBOX?'/assets/sandbox/nearby/nearby-radar-preview.jpg':'/assets/nearby-radar-preview.jpg'}" width="867" height="540" loading="lazy" data-nearby-preview-image alt=""></a>`;section.before(nearby);
     }
   }
 
@@ -154,6 +154,8 @@
     const lang = language();
     const personal = personalCopy[lang];
     document.querySelectorAll('[data-nearby-menu]').forEach(el=>{el.href='/nearby.html?lang='+lang;el.textContent=nearbyNames[lang];});
+    document.querySelectorAll('[data-nearby-preview]').forEach(el=>{el.href='/nearby.html?lang='+lang;el.setAttribute('aria-label',nearbyNames[lang]);});
+    document.querySelectorAll('[data-nearby-preview-image]').forEach(el=>{el.alt=nearbyNames[lang]+'. '+nearbyIntro[lang];});
     document.querySelectorAll('[data-nearby-title]').forEach(el=>el.textContent=nearbyNames[lang]);
     document.querySelectorAll('[data-nearby-intro]').forEach(el=>el.textContent=nearbyIntro[lang]);
     document.querySelectorAll("[data-community-menu]").forEach(el=>{el.href="/community.html?lang="+lang;el.textContent=communityNames[lang];});
