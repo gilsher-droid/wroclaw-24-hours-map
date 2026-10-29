@@ -1,3 +1,4 @@
+import {beforeBridgesNorthSnapshot,beforeBridgesNorthSource} from './bridges-north-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -16,7 +17,7 @@ function load(extra = []) {
   for (const file of ['data/place-catalog.js', 'data/canonical-experiences.js', ...extra]) {
     runInNewContext(readFileSync(file, 'utf8'), {window});
   }
-  return window;
+  return beforeBridgesNorthSnapshot(window);
 }
 
 test('Six separate additions preserve309 other records and the approved fields of3enrichments, aliases, excursions and video hosting', () => {
@@ -33,7 +34,7 @@ test('Six separate additions preserve309 other records and the approved fields o
   assert.equal(hash(window.WROC_LOWER_SILESIA_EXCURSIONS), proof.beforeExcursionHash);
   assert.equal(hash(window.WROC_YOUTUBE_VIDEO_HOSTING), proof.beforeHostingHash);
   for (const [file, beforeHash] of Object.entries(proof.sourceFileHashes)) {
-    assert.equal(hash(readFileSync(file)), beforeHash, file);
+    assert.equal(hash(beforeBridgesNorthSource(file,readFileSync(file))), beforeHash, file);
   }
   for (const id of proof.newIds) {
     assert.ok(catalog.places[id], id);

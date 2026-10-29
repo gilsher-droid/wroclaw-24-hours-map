@@ -1,8 +1,9 @@
+import {beforeBridgesNorthSnapshot} from './bridges-north-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { runInNewContext } from 'node:vm';
-const load=()=>{const window={};for(const f of ['data/place-catalog.js','data/lower-silesia-excursions.js'])runInNewContext(readFileSync(f,'utf8'),{window});return window;};
+const load=()=>{const window={};for(const f of ['data/place-catalog.js','data/lower-silesia-excursions.js'])runInNewContext(readFileSync(f,'utf8'),{window});return beforeBridgesNorthSnapshot(window);};
 test('sixth excursion preserves mountain stop first and separates city from fortress without duplicate pins',()=>{
  const w=load(),trip=w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(x=>x.id==='srebrna-gora-klodzko-day-trip');
  assert.equal(w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.filter(x=>x.id!=='poznan-wroclaw-stopover'&&x.id!=='slovakia-bielsko-opole-wroclaw'&&x.id!=='wroclaw-torun-copernicus-day-trip').length,6);

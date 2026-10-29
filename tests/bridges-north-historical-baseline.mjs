@@ -18,3 +18,5 @@ export function beforeBridgesNorthSnapshot(w){
  if(w.WROC_HOME_EXPERIENCES)w.WROC_HOME_EXPERIENCES=w.WROC_HOME_EXPERIENCES.filter(x=>x.id!==p.experienceId);
  return w;
 }
+
+export function beforeBridgesNorthSource(file,value){if(file!=="data/lower-silesia-excursions.js")return value;const sha=createHash("sha256").update(value).digest("hex");if(sha===p.beforeExcursionSourceSHA256)return value;assert.equal(sha,p.approvedExcursionSourceSHA256,"Unreviewed excursion source");const restored=Buffer.from(p.beforeExcursionSource);assert.equal(createHash("sha256").update(restored).digest("hex"),p.beforeExcursionSourceSHA256);return restored;}
