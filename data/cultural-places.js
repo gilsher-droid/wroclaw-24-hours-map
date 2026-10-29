@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "cocofli-wroclaw": ["art-contemporary"],
     "cafe-lyk-wroclaw": ["architecture-design"],
     "klub-lacznik-wroclaw": ["music-opera"],
     "most-pomorski-poludniowy-wroclaw": ["museums-history", "architecture-design"],

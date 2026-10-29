@@ -1,3 +1,4 @@
+import{beforeUrbanSnapshot}from'./urban-named-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
 import test from 'node:test';
@@ -7,6 +8,7 @@ import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
 const window={};
 for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/location-media.js','data/lifestyle-places.js','data/cultural-places.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});
+beforeUrbanSnapshot(window);
 const c=window.WROC_CATALOG,b=JSON.parse(readFileSync('data/source-refresh-run4-preservation.json','utf8')),plain=x=>JSON.parse(JSON.stringify(beforePanPrecelMedia(x)));
 test('Run4 adds44 reviewed full-picture photographs, keeps208 unrelated records exact and preserves changed identities, links and old media except the documented Roma portrait',()=>{
  assert.equal(historicalPlaceIds(c.places).length,((231)+1)+1);assert.equal(b.selectedPhotos.length,44);assert.equal(new Set(b.selectedPhotos.map(x=>x.sourceSHA256)).size,44);assert.equal(Object.keys(b.hashes).length,208);

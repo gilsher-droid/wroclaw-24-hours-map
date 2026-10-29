@@ -5,3 +5,5 @@
 
 #experience-place-cafe-lyk-wroclaw h3{white-space:pre-line}
 .canonical-popup:has([data-place="cafe-lyk-wroclaw"]) h3{white-space:pre-line}
+
+#experience-place-cocofli-wroclaw h3,.canonical-popup:has([data-place="cocofli-wroclaw"]) h3,#experience-place-gniazdo h3,.canonical-popup:has([data-place="gniazdo"]) h3,#experience-place-cafe-artzat-wroclaw h3,.canonical-popup:has([data-place="cafe-artzat-wroclaw"]) h3,#experience-place-caffe-bohema-swidnicka-wroclaw h3,.canonical-popup:has([data-place="caffe-bohema-swidnicka-wroclaw"]) h3{white-space:pre-line}

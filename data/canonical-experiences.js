@@ -501,6 +501,9 @@
   // Include the user-identified café while inheriting its shared canonical media.
   {const e=experiences.find(x=>x.id==="coffee-lovers-wroclaw");if(e.relatedCanonicalPlaceIds.includes("cafe-lyk-wroclaw"))throw new Error("Duplicate cafe membership");e.relatedCanonicalPlaceIds.push("cafe-lyk-wroclaw");e.media.inheritFromCanonicalPlaceIds.push("cafe-lyk-wroclaw");}
 
+  // Coffee venues independently identified from the original visit photographs.
+  {const e=experiences.find(x=>x.id==="coffee-lovers-wroclaw");for(const id of ["cocofli-wroclaw","cafe-artzat-wroclaw","caffe-bohema-swidnicka-wroclaw"]){if(e.relatedCanonicalPlaceIds.includes(id))throw new Error("Duplicate coffee venue");e.relatedCanonicalPlaceIds.push(id);e.media.inheritFromCanonicalPlaceIds.push(id);}}
+
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
   const getExperience = (id) => byId[id] || null;
   const forProduct = (productId) => experiences.filter((experience) => experience.productRefs.includes(productId));

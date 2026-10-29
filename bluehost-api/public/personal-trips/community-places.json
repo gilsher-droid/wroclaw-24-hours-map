@@ -489,6 +489,20 @@
       "lng": 17.0242892
     }
   },
+  "cafe-artzat-wroclaw": {
+    "id": "cafe-artzat-wroclaw",
+    "name": {
+      "he": "קפה ארטצט\nArtzat Cafe",
+      "en": "Artzat Cafe",
+      "pl": "Artzat Cafe",
+      "de": "Artzat Cafe",
+      "cs": "Artzat Cafe"
+    },
+    "coordinates": {
+      "lat": 51.1124447,
+      "lng": 17.030327
+    }
+  },
   "cafe-berg-wroclaw": {
     "id": "cafe-berg-wroclaw",
     "name": {
@@ -529,6 +543,20 @@
     "coordinates": {
       "lat": 51.1124915,
       "lng": 17.0408014
+    }
+  },
+  "caffe-bohema-swidnicka-wroclaw": {
+    "id": "caffe-bohema-swidnicka-wroclaw",
+    "name": {
+      "he": "קפה בוהמה\nBohema Caffe",
+      "en": "Bohema Caffe",
+      "pl": "Bohema Caffe",
+      "de": "Bohema Caffe",
+      "cs": "Bohema Caffe"
+    },
+    "coordinates": {
+      "lat": 51.1066995,
+      "lng": 17.0320205
     }
   },
   "caffe-da-vinci-poznan": {
@@ -655,6 +683,20 @@
     "coordinates": {
       "lat": 50.8465028,
       "lng": 16.4918111
+    }
+  },
+  "cocofli-wroclaw": {
+    "id": "cocofli-wroclaw",
+    "name": {
+      "he": "קוקופלי, קפה ובר יין\nCocofli",
+      "en": "Cocofli",
+      "pl": "Cocofli",
+      "de": "Cocofli",
+      "cs": "Cocofli"
+    },
+    "coordinates": {
+      "lat": 51.1082985,
+      "lng": 17.0245603
     }
   },
   "concept-stu-mostow": {
@@ -881,6 +923,20 @@
       "lng": 17.03016
     }
   },
+  "entre-brasserie-wroclaw": {
+    "id": "entre-brasserie-wroclaw",
+    "name": {
+      "he": "אנטרה בראסרי\nEntre Brasserie",
+      "en": "Entre Brasserie",
+      "pl": "Entre Brasserie",
+      "de": "Entre Brasserie",
+      "cs": "Entre Brasserie"
+    },
+    "coordinates": {
+      "lat": 51.1127669,
+      "lng": 17.0301481
+    }
+  },
   "entre-hotel-wroclaw": {
     "id": "entre-hotel-wroclaw",
     "name": {
@@ -1052,15 +1108,15 @@
   "gniazdo": {
     "id": "gniazdo",
     "name": {
-      "he": "Gniazdo – קפה ומאפה",
-      "en": "Gniazdo – coffee and pastry",
-      "pl": "Gniazdo – kawa i wypiek",
-      "de": "Gniazdo – Kaffee und Gebäck",
-      "cs": "Gniazdo – káva a pečivo"
+      "he": "גניאזדו, קפה ומאפה\nGniazdo",
+      "en": "Gniazdo",
+      "pl": "Gniazdo",
+      "de": "Gniazdo",
+      "cs": "Gniazdo"
     },
     "coordinates": {
-      "lat": 51.10579,
-      "lng": 17.03302
+      "lat": 51.1053861,
+      "lng": 17.0315415
     }
   },
   "gustaw-restaurant-wroclaw": {
@@ -1075,6 +1131,20 @@
     "coordinates": {
       "lat": 51.1049153,
       "lng": 17.0380912
+    }
+  },
+  "haggis-pub-wroclaw": {
+    "id": "haggis-pub-wroclaw",
+    "name": {
+      "he": "האגיס, פאב סקוטי\nHaggis Pub",
+      "en": "Haggis Pub",
+      "pl": "Haggis Pub",
+      "de": "Haggis Pub",
+      "cs": "Haggis Pub"
+    },
+    "coordinates": {
+      "lat": 51.1037577,
+      "lng": 17.0302924
     }
   },
   "hala": {
@@ -2382,7 +2452,7 @@
   "peruwiana": {
     "id": "peruwiana",
     "name": {
-      "he": "Peruwiana",
+      "he": "פרואיאנה, מסעדה פרואנית\nPeruwiana",
       "en": "Peruwiana",
       "pl": "Peruwiana",
       "de": "Peruwiana",
@@ -2911,6 +2981,20 @@
       "lng": 16.9287401
     }
   },
+  "raito-sushi-wroclaw": {
+    "id": "raito-sushi-wroclaw",
+    "name": {
+      "he": "ראיטו סושי\nRaito Sushi",
+      "en": "Raito Sushi",
+      "pl": "Raito Sushi",
+      "de": "Raito Sushi",
+      "cs": "Raito Sushi"
+    },
+    "coordinates": {
+      "lat": 51.1071365,
+      "lng": 17.0278292
+    }
+  },
   "raj-szycia-poznan": {
     "id": "raj-szycia-poznan",
     "name": {
@@ -2979,6 +3063,20 @@
     "coordinates": {
       "lat": 51.1076223,
       "lng": 17.0292728
+    }
+  },
+  "rumbar-pokoyhof-wroclaw": {
+    "id": "rumbar-pokoyhof-wroclaw",
+    "name": {
+      "he": "רומבר בפוקויהוף\nRumbar.Pokoyhof",
+      "en": "Rumbar.Pokoyhof",
+      "pl": "Rumbar.Pokoyhof",
+      "de": "Rumbar.Pokoyhof",
+      "cs": "Rumbar.Pokoyhof"
+    },
+    "coordinates": {
+      "lat": 51.1085229,
+      "lng": 17.0264321
     }
   },
   "ryczka-polna-poznan": {
@@ -3231,6 +3329,20 @@
     "coordinates": {
       "lat": 51.1318489,
       "lng": 17.0592712
+    }
+  },
+  "thai-thai-wroclaw": {
+    "id": "thai-thai-wroclaw",
+    "name": {
+      "he": "טאי טאי\nThai Thai Wrocław",
+      "en": "Thai Thai Wrocław",
+      "pl": "Thai Thai Wrocław",
+      "de": "Thai Thai Wrocław",
+      "cs": "Thai Thai Wrocław"
+    },
+    "coordinates": {
+      "lat": 51.1059482,
+      "lng": 17.0316826
     }
   },
   "the-bridge": {
@@ -3931,6 +4043,20 @@
     "coordinates": {
       "lat": 51.08533,
       "lng": 17.01765
+    }
+  },
+  "wiking-axe-throwing-wroclaw": {
+    "id": "wiking-axe-throwing-wroclaw",
+    "name": {
+      "he": "ויקינג, מועדון זריקת גרזנים\nWiking Axe Throwing Club",
+      "en": "Wiking Axe Throwing Club",
+      "pl": "Wiking Axe Throwing Club",
+      "de": "Wiking Axe Throwing Club",
+      "cs": "Wiking Axe Throwing Club"
+    },
+    "coordinates": {
+      "lat": 51.1069297,
+      "lng": 17.0322054
     }
   },
   "woda-cafe": {

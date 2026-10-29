@@ -10851,6 +10851,189 @@
       "cs"
     ]
   },
+  "cafe-artzat-wroclaw": {
+    "id": "cafe-artzat-wroclaw",
+    "localName": "Artzat Cafe",
+    "name": {
+      "he": "קפה ארטצט\nArtzat Cafe",
+      "en": "Artzat Cafe",
+      "pl": "Artzat Cafe",
+      "de": "Artzat Cafe",
+      "cs": "Artzat Cafe"
+    },
+    "description": {
+      "he": "בית קפה ובר ברחוב מלרסקה, סמוך לכיכר השוק. בתצלומי הביקור נראים השלט, מקומות הישיבה בחוץ והחזית המעוטרת. עצירה לקפה במהלך השיטוט בעיר העתיקה.\nArtzat Cafe\nMalarska 30, Wrocław",
+      "en": "A café and bar on Malarska near the Market Square. Our photographs show the sign, outdoor seating and decorated facade, a coffee stop while exploring the Old Town.",
+      "pl": "Kawiarnia i bar przy Malarskiej, blisko Rynku. Nasze zdjęcia pokazują szyld, stoliki na zewnątrz i ozdobną fasadę. Przystanek na kawę podczas spaceru po Starym Mieście.",
+      "de": "Café und Bar an der Malarska nahe dem Marktplatz. Unsere Fotos zeigen Schild, Außensitzplätze und verzierte Fassade. Eine Kaffeepause beim Rundgang durch die Altstadt.",
+      "cs": "Kavárna a bar v Malarské poblíž Rynku. Naše fotografie ukazují nápis, venkovní posezení a zdobené průčelí. Zastávka na kávu při procházce Starým Městem."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1124447,
+        "lng": 17.030327
+      },
+      "address": {
+        "street": "Malarska 30",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "cafe-artzat-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "cafe-artzat-wroclaw",
+        "lat": 51.1124447,
+        "lng": 17.030327
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://artzatcafe.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Artzat+Cafe/@51.1124447,17.030327,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9dff494f21f:0xa80d17302c1236c9!8m2!3d51.1124447!4d17.030327!16s%2Fg%2F1tdvt0wb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Artzat%20Cafe&ll=51.1124447,17.030327"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://artzatcafe.pl/",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Artzat+Cafe/@51.1124447,17.030327,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9dff494f21f:0xa80d17302c1236c9!8m2!3d51.1124447!4d17.030327!16s%2Fg%2F1tdvt0wb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1124447,
+            17.030327
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "cafe",
+    "media": {
+      "thumbnail": "/assets/urban-named-places-oct29/source-012.jpg",
+      "photos": [
+        "/assets/urban-named-places-oct29/source-012.jpg",
+        "/assets/urban-named-places-oct29/source-013.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/urban-named-places-oct29/source-012.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/קפה ארטזט.jpeg",
+          "sourceSHA256": "3b494db1c0191a657116e1a99fd42bac96d857b8c9240120dbc53ef6238a2b9e",
+          "assetSHA256": "3b494db1c0191a657116e1a99fd42bac96d857b8c9240120dbc53ef6238a2b9e",
+          "existingAssetReused": false,
+          "title": {
+            "he": "הבניין שבו נמצא בית הקפה",
+            "en": "Building housing the café",
+            "pl": "Budynek kawiarni",
+            "de": "Gebäude mit dem Café",
+            "cs": "Budova kavárny"
+          },
+          "alt": {
+            "he": "הבניין שבו נמצא בית הקפה",
+            "en": "Building housing the café",
+            "pl": "Budynek kawiarni",
+            "de": "Gebäude mit dem Café",
+            "cs": "Budova kavárny"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        },
+        "/assets/urban-named-places-oct29/source-013.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/קפה ארטצט.jpeg",
+          "sourceSHA256": "3f7cc263e901636b95ea2f9d1de1539439eba9e218112e5c0d8b15bdc6f2d5cb",
+          "assetSHA256": "3f7cc263e901636b95ea2f9d1de1539439eba9e218112e5c0d8b15bdc6f2d5cb",
+          "existingAssetReused": false,
+          "title": {
+            "he": "בית הקפה וסביבת הרחוב",
+            "en": "Café and surrounding street",
+            "pl": "Kawiarnia i otaczająca ulica",
+            "de": "Café und umliegende Straße",
+            "cs": "Kavárna a okolní ulice"
+          },
+          "alt": {
+            "he": "בית הקפה וסביבת הרחוב",
+            "en": "Café and surrounding street",
+            "pl": "Kawiarnia i otaczająca ulica",
+            "de": "Café und umliegende Straße",
+            "cs": "Kavárna a okolní ulice"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "cafe-berg-wroclaw": {
     "id": "cafe-berg-wroclaw",
     "localName": "Cafe Berg",
@@ -11913,6 +12096,193 @@
         "verifiedAt": "2026-10-10T18:20:18.968Z"
       }
     ]
+  },
+  "caffe-bohema-swidnicka-wroclaw": {
+    "id": "caffe-bohema-swidnicka-wroclaw",
+    "localName": "Bohema Caffe",
+    "name": {
+      "he": "קפה בוהמה\nBohema Caffe",
+      "en": "Bohema Caffe",
+      "pl": "Bohema Caffe",
+      "de": "Bohema Caffe",
+      "cs": "Bohema Caffe"
+    },
+    "description": {
+      "he": "בית קפה ברחוב שווידניצקה, ליד אזור התיאטראות. תצלומי הביקור מציגים את השלט המאויר, החזית ומקומות הישיבה בחוץ. בדקו שעות ותפריט עדכניים מול המקום.\nBohema Caffe\nŚwidnicka 22, Wrocław",
+      "en": "A café on Świdnicka near the theatre area. Our photographs show the illustrated sign, facade and outdoor seating. Check the current hours and menu with the café.",
+      "pl": "Kawiarnia przy Świdnickiej, niedaleko teatrów. Nasze zdjęcia pokazują ilustrowany szyld, fasadę i stoliki na zewnątrz. Aktualne godziny i menu sprawdź w kawiarni.",
+      "de": "Café an der Świdnicka nahe dem Theaterbereich. Unsere Fotos zeigen das illustrierte Schild, die Fassade und Außensitzplätze. Aktuelle Zeiten und Speisekarte beim Café prüfen.",
+      "cs": "Kavárna ve Świdnické poblíž divadel. Naše fotografie ukazují ilustrovaný nápis, průčelí a venkovní posezení. Aktuální otevírací dobu a nabídku ověřte u kavárny."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1066995,
+        "lng": 17.0320205
+      },
+      "address": {
+        "street": "Świdnicka 22",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "caffe-bohema-swidnicka-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "caffe-bohema-swidnicka-wroclaw",
+        "lat": 51.1066995,
+        "lng": 17.0320205
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Bohema+Caffe+Wroc%C5%82aw/@51.1066995,17.0320205,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2740793951d:0xbe0ca1613e98877b!8m2!3d51.1066995!4d17.0320205!16s%2Fg%2F11c2ltww64?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Bohema%20Caffe&ll=51.1066995,17.0320205"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://restauracja-bohema.pl/wp-content/uploads/2026/02/restauracja.pdf",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gastroulice-ul-swidnicka-wypij-kawe-w-historycznej-czesci-wroclawia",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Bohema+Caffe+Wroc%C5%82aw/@51.1066995,17.0320205,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2740793951d:0xbe0ca1613e98877b!8m2!3d51.1066995!4d17.0320205!16s%2Fg%2F11c2ltww64?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1066995,
+            17.0320205
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "cafe",
+    "media": {
+      "thumbnail": "/assets/urban-named-places-oct29/source-014.jpg",
+      "photos": [
+        "/assets/urban-named-places-oct29/source-014.jpg",
+        "/assets/urban-named-places-oct29/source-015.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/urban-named-places-oct29/source-014.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/קפה בוהמה בשווידניצקה 2.jpeg",
+          "sourceSHA256": "e49bdbbcddadc30d5f530567c6f174e9b775e0204c0be948399c6b2c8e92b356",
+          "assetSHA256": "e49bdbbcddadc30d5f530567c6f174e9b775e0204c0be948399c6b2c8e92b356",
+          "existingAssetReused": false,
+          "title": {
+            "he": "השלט הבולט מעל הרחוב",
+            "en": "Projecting sign over the street",
+            "pl": "Szyld wystający nad ulicą",
+            "de": "Auskragendes Schild über der Straße",
+            "cs": "Vývěsní štít nad ulicí"
+          },
+          "alt": {
+            "he": "השלט הבולט מעל הרחוב",
+            "en": "Projecting sign over the street",
+            "pl": "Szyld wystający nad ulicą",
+            "de": "Auskragendes Schild über der Straße",
+            "cs": "Vývěsní štít nad ulicí"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        },
+        "/assets/urban-named-places-oct29/source-015.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/קפה בוהמה בשווידניצקה.jpeg",
+          "sourceSHA256": "17b27c1dd0afa0f97496c2d86fdb775d0751eb8f090aa56ae5aba19717adbd65",
+          "assetSHA256": "17b27c1dd0afa0f97496c2d86fdb775d0751eb8f090aa56ae5aba19717adbd65",
+          "existingAssetReused": false,
+          "title": {
+            "he": "חזית בית הקפה ומקומות הישיבה",
+            "en": "Café frontage and seating",
+            "pl": "Fasada kawiarni i miejsca siedzące",
+            "de": "Caféfront und Sitzplätze",
+            "cs": "Průčelí kavárny a posezení"
+          },
+          "alt": {
+            "he": "חזית בית הקפה ומקומות הישיבה",
+            "en": "Café frontage and seating",
+            "pl": "Fasada kawiarni i miejsca siedzące",
+            "de": "Caféfront und Sitzplätze",
+            "cs": "Průčelí kavárny a posezení"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "caffe-da-vinci-poznan": {
     "id": "caffe-da-vinci-poznan",
@@ -14712,6 +15082,170 @@
         "routingExcluded": true
       }
     ]
+  },
+  "cocofli-wroclaw": {
+    "id": "cocofli-wroclaw",
+    "localName": "Cocofli",
+    "name": {
+      "he": "קוקופלי, קפה ובר יין\nCocofli",
+      "en": "Cocofli",
+      "pl": "Cocofli",
+      "de": "Cocofli",
+      "cs": "Cocofli"
+    },
+    "description": {
+      "he": "בית קפה ובר יין עם ספרים ואמנות ברובע ארבע הדתות. תצלום הביקור מציג את השלט והחזית, עצירה לקפה ולקריאה בין סמטאות הרובע.\nCocofli\nPawła Włodkowica 9, Wrocław",
+      "en": "A café and wine bar with books and art in the Four Denominations District. Our photograph shows its sign and facade, a coffee and reading stop among the neighbourhood streets.",
+      "pl": "Kawiarnia i winiarnia z książkami i sztuką w Dzielnicy Czterech Wyznań. Nasze zdjęcie pokazuje szyld i fasadę, przystanek na kawę i lekturę podczas spaceru.",
+      "de": "Café und Weinbar mit Büchern und Kunst im Viertel der vier Konfessionen. Unser Foto zeigt Schild und Fassade, eine Pause für Kaffee und Lektüre beim Stadtbummel.",
+      "cs": "Kavárna a vinárna s knihami a uměním ve čtvrti čtyř vyznání. Naše fotografie ukazuje nápis a průčelí, zastávku na kávu a čtení při procházce."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1082985,
+        "lng": 17.0245603
+      },
+      "address": {
+        "street": "Pawła Włodkowica 9",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "cocofli-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "cocofli-wroclaw",
+        "lat": 51.1082985,
+        "lng": 17.0245603
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://cocofli.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Cocofli+-+books+art+cafe+wine+bar/@51.1082985,17.0245603,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20b5b73e52f:0x3bccfd99d699da40!8m2!3d51.1082985!4d17.0245603!16s%2Fg%2F12mkz_3x_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Cocofli&ll=51.1082985,17.0245603"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://cocofli.pl/?page_id=37",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://cocoflibooksartcafewinebar.eatbu.com/?lang=pl",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Cocofli+-+books+art+cafe+wine+bar/@51.1082985,17.0245603,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20b5b73e52f:0x3bccfd99d699da40!8m2!3d51.1082985!4d17.0245603!16s%2Fg%2F12mkz_3x_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1082985,
+            17.0245603
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "cafe",
+    "media": {
+      "thumbnail": "/assets/four-denominations-refresh/four-denominations-refresh-08.jpg",
+      "photos": [
+        "/assets/four-denominations-refresh/four-denominations-refresh-08.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/four-denominations-refresh/four-denominations-refresh-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/בר יין קוקופי ברובע ארבע הדתות.jpeg",
+          "sourceSHA256": "5792ad91ef5f7520ec212c103383ff66c3d437a1a13d9ed2808952e8570bcc22",
+          "assetSHA256": "741eb15b1b6f667bdf51c35e69c9f92f8c55e9f10b8ea40acd4afc5ccb76edd2",
+          "familyForeground": false,
+          "alt": {
+            "he": "חזית בית הקפה ובר היין",
+            "en": "Café and wine bar facade",
+            "pl": "Fasada kawiarni i winiarni",
+            "de": "Fassade des Cafés und der Weinbar",
+            "cs": "Průčelí kavárny a vinárny"
+          },
+          "verifiedAt": "2026-10-20",
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.14 (2).jpeg",
+          "existingAssetReused": true,
+          "title": {
+            "he": "חזית בית הקפה ובר היין",
+            "en": "Café and wine bar facade",
+            "pl": "Fasada kawiarni i winiarni",
+            "de": "Fassade des Cafés und der Weinbar",
+            "cs": "Průčelí kavárny a vinárny"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "concept-stu-mostow": {
     "id": "concept-stu-mostow",
@@ -20362,6 +20896,167 @@
       "cs"
     ]
   },
+  "entre-brasserie-wroclaw": {
+    "id": "entre-brasserie-wroclaw",
+    "localName": "Entre Brasserie",
+    "name": {
+      "he": "אנטרה בראסרי\nEntre Brasserie",
+      "en": "Entre Brasserie",
+      "pl": "Entre Brasserie",
+      "de": "Entre Brasserie",
+      "cs": "Entre Brasserie"
+    },
+    "description": {
+      "he": "בראסרי במלון אנטרה, עם מטבח אירופי בהשראה צרפתית לפי אתר המקום. תצלום הביקור מציג את השלט והכניסה. המסעדה מסומנת בנפרד מנקודת המלון.\nEntre Brasserie\nKiełbaśnicza 16/19, Wrocław",
+      "en": "A brasserie at Entre Hotel, with French-inspired European cooking according to its website. Our photograph shows the sign and entrance. The restaurant has a separate point from the hotel.",
+      "pl": "Brasserie w Entre Hotel z kuchnią europejską inspirowaną Francją, według strony lokalu. Nasze zdjęcie pokazuje szyld i wejście. Restauracja ma osobny punkt od hotelu.",
+      "de": "Brasserie im Entre Hotel mit französisch inspirierter europäischer Küche laut eigener Website. Unser Foto zeigt Schild und Eingang. Das Restaurant hat einen eigenen Punkt neben dem Hoteleintrag.",
+      "cs": "Brasserie v hotelu Entre s evropskou kuchyní inspirovanou Francií podle webu podniku. Naše fotografie ukazuje nápis a vstup. Restaurace má vlastní bod vedle hotelového záznamu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1127669,
+        "lng": 17.0301481
+      },
+      "address": {
+        "street": "Kiełbaśnicza 16/19",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "entre-brasserie-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "entre-brasserie-wroclaw",
+        "lat": 51.1127669,
+        "lng": 17.0301481
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://entrehotel.pl/restauracja/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Entre+Brasserie+-+restauracja+Entre+Hotel/@51.1127669,17.0301481,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9d272c87acb:0x3c6d810af4dc47c8!8m2!3d51.1127669!4d17.0301481!16s%2Fg%2F11x_jyrrs3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Entre%20Brasserie&ll=51.1127669,17.0301481"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://entrehotel.pl/restauracja/",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://entrehotel.pl/kontakt/",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Entre+Brasserie+-+restauracja+Entre+Hotel/@51.1127669,17.0301481,17z/data=!3m1!4b1!4m6!3m5!1s0x470fe9d272c87acb:0x3c6d810af4dc47c8!8m2!3d51.1127669!4d17.0301481!16s%2Fg%2F11x_jyrrs3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1127669,
+            17.0301481
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/urban-named-places-oct29/source-002.jpg",
+      "photos": [
+        "/assets/urban-named-places-oct29/source-002.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/urban-named-places-oct29/source-002.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/בראסרי אנטרה ליד מלון אנטרה.jpeg",
+          "sourceSHA256": "a24490203a93fe815d3d65d69a829936e55f9345f3ccc37a160755209d2ed3bc",
+          "assetSHA256": "a24490203a93fe815d3d65d69a829936e55f9345f3ccc37a160755209d2ed3bc",
+          "existingAssetReused": false,
+          "title": {
+            "he": "השלט והכניסה לבראסרי",
+            "en": "Brasserie sign and entrance",
+            "pl": "Szyld i wejście do brasserie",
+            "de": "Schild und Eingang der Brasserie",
+            "cs": "Nápis a vstup do brasserie"
+          },
+          "alt": {
+            "he": "השלט והכניסה לבראסרי",
+            "en": "Brasserie sign and entrance",
+            "pl": "Szyld i wejście do brasserie",
+            "de": "Schild und Eingang der Brasserie",
+            "cs": "Nápis a vstup do brasserie"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "entre-hotel-wroclaw": {
     "id": "entre-hotel-wroclaw",
     "localName": "Entre Hotel by Zdrojowa",
@@ -25096,34 +25791,46 @@
     "id": "gniazdo",
     "localName": "Gniazdo",
     "name": {
-      "he": "Gniazdo – קפה ומאפה",
-      "en": "Gniazdo – coffee and pastry",
-      "pl": "Gniazdo – kawa i wypiek",
-      "de": "Gniazdo – Kaffee und Gebäck",
-      "cs": "Gniazdo – káva a pečivo"
+      "he": "גניאזדו, קפה ומאפה\nGniazdo",
+      "en": "Gniazdo",
+      "pl": "Gniazdo",
+      "de": "Gniazdo",
+      "cs": "Gniazdo"
     },
     "description": {
-      "he": "קפה איכותי במיקום מרכזי בין Renoma לרינק.",
-      "en": "Quality coffee between Renoma and the Rynek.",
-      "pl": "Dobra kawa między Renomą a Rynkiem.",
-      "de": "Qualitätskaffee zwischen Renoma und Rynek.",
-      "cs": "Kvalitní káva mezi Renoma a Rynek."
+      "he": "בית קפה ברחוב שווידניצקה, בין רנומה לכיכר השוק. בתמונות נראים הכניסה והשלט העגול. אפשר לשלב הפסקת קפה ומאפה בזמן השיטוט במרכז.\nGniazdo\nŚwidnicka 36, Wrocław",
+      "en": "A café on Świdnicka between Renoma and the Market Square. Our photographs show its entrance and round sign. A coffee and pastry stop while exploring the centre.",
+      "pl": "Kawiarnia przy Świdnickiej, między Renomą a Rynkiem. Nasze zdjęcia pokazują wejście i okrągły szyld. Przystanek na kawę i wypiek podczas spaceru po centrum.",
+      "de": "Café an der Świdnicka zwischen Renoma und Marktplatz. Unsere Fotos zeigen Eingang und rundes Schild. Eine Pause für Kaffee und Gebäck beim Rundgang durch die Innenstadt.",
+      "cs": "Kavárna ve Świdnické mezi Renomou a Rynkem. Naše fotografie ukazují vstup a kulatý nápis. Zastávka na kávu a pečivo při procházce centrem."
     },
     "location": {
       "countryCode": "PL",
       "regionId": "lower-silesia",
       "cityId": "wroclaw",
       "coordinates": {
-        "lat": 51.10579,
-        "lng": 17.03302
+        "lat": 51.1053861,
+        "lng": 17.0315415
+      },
+      "address": {
+        "street": "Świdnicka 36",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
-      "cafe"
+      "cafe",
+      "drink",
+      "eat"
     ],
     "sourceUrls": [],
     "aliases": [],
     "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "gniazdo"
+      },
       {
         "productId": "wroclaw-four-days",
         "kind": "recommendation",
@@ -25132,17 +25839,25 @@
     ],
     "coordinateCandidates": [
       {
+        "productId": "lifestyle-guide",
+        "sourceId": "gniazdo",
+        "lat": 51.1053861,
+        "lng": 17.0315415
+      },
+      {
         "productId": "wroclaw-four-days",
         "sourceId": "gniazdo",
-        "lat": 51.10579,
-        "lng": 17.03302
+        "lat": 51.1053861,
+        "lng": 17.0315415
       }
     ],
     "status": "published",
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
-        "cafe"
+        "cafe",
+        "drink",
+        "eat"
       ],
       "tags": []
     },
@@ -25170,9 +25885,10 @@
     "links": {
       "website": null,
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/place/Gniazdo/@51.1053861,17.0315415,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc273e74048ab:0x4101ec3d04eec08!8m2!3d51.1053861!4d17.0315415!16s%2Fg%2F11bx5pptf0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Gniazdo&ll=51.1053861,17.0315415"
+      },
+      "socialProfileFallback": false
     },
     "transport": {
       "carRequired": null,
@@ -25187,9 +25903,31 @@
       "de",
       "cs"
     ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gastroulice-ul-swidnicka-wypij-kawe-w-historycznej-czesci-wroclawia",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Gniazdo/@51.1053861,17.0315415,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc273e74048ab:0x4101ec3d04eec08!8m2!3d51.1053861!4d17.0315415!16s%2Fg%2F11bx5pptf0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1053861,
+            17.0315415
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "cafe",
     "media": {
+      "thumbnail": "/assets/today-source-refresh-20261021/run4-231-gniazdo.jpg",
       "photos": [
-        "/assets/today-source-refresh-20261021/run4-231-gniazdo.jpg"
+        "/assets/today-source-refresh-20261021/run4-231-gniazdo.jpg",
+        "/assets/urban-named-places-oct29/source-004.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -25210,6 +25948,31 @@
           "sourceRefreshRun": "2026-10-21-run4",
           "verifiedAt": "2026-10-21T19:16:56.109643+00:00",
           "familyForeground": false
+        },
+        "/assets/urban-named-places-oct29/source-004.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/גניאזדו קפה בשוונידניצקה.jpeg",
+          "sourceSHA256": "81b9df54205a223efb88398e0f384bc9c5a6a34f4cb5f4911fe42474d4eeee20",
+          "assetSHA256": "81b9df54205a223efb88398e0f384bc9c5a6a34f4cb5f4911fe42474d4eeee20",
+          "existingAssetReused": false,
+          "title": {
+            "he": "חזית בית הקפה והשלט העגול",
+            "en": "Café facade and round sign",
+            "pl": "Fasada kawiarni i okrągły szyld",
+            "de": "Caféfassade und rundes Schild",
+            "cs": "Průčelí kavárny a kulatý nápis"
+          },
+          "alt": {
+            "he": "חזית בית הקפה והשלט העגול",
+            "en": "Café facade and round sign",
+            "pl": "Fasada kawiarni i okrągły szyld",
+            "de": "Caféfassade und rundes Schild",
+            "cs": "Průčelí kavárny a kulatý nápis"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
         }
       }
     },
@@ -25397,6 +26160,165 @@
             "cs": "Vstup do restaurace Gustaw a název nad dveřmi"
           },
           "sharedWithCanonicalPlace": "bastion"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "haggis-pub-wroclaw": {
+    "id": "haggis-pub-wroclaw",
+    "localName": "Haggis Pub",
+    "name": {
+      "he": "האגיס, פאב סקוטי\nHaggis Pub",
+      "en": "Haggis Pub",
+      "pl": "Haggis Pub",
+      "de": "Haggis Pub",
+      "cs": "Haggis Pub"
+    },
+    "description": {
+      "he": "פאב סקוטי ברחוב שווידניצקה, ליד רנומה. תצלום הביקור מתעד את השלט עם נגן חמת החלילים. בדקו שעות והיצע עדכניים מול המקום.\nHaggis Pub\nŚwidnicka 39, Wrocław",
+      "en": "A Scottish pub on Świdnicka near Renoma. Our visit photograph records the sign with a bagpiper. Check current hours and availability with the pub.",
+      "pl": "Pub szkocki przy Świdnickiej, blisko Renomy. Nasze zdjęcie z wizyty pokazuje szyld z kobziarzem. Aktualne godziny i ofertę sprawdź w pubie.",
+      "de": "Schottischer Pub an der Świdnicka nahe Renoma. Unser Besuchsfoto zeigt das Schild mit einem Dudelsackspieler. Aktuelle Zeiten und Angebot beim Pub prüfen.",
+      "cs": "Skotská hospoda ve Świdnické poblíž Renomy. Naše fotografie z návštěvy zachycuje nápis s dudákem. Aktuální otevírací dobu a nabídku ověřte u podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1037577,
+        "lng": 17.0302924
+      },
+      "address": {
+        "street": "Świdnicka 39",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink",
+      "enjoy"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "haggis-pub-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "haggis-pub-wroclaw",
+        "lat": 51.1037577,
+        "lng": 17.0302924
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "enjoy"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Pub+Haggis+2.0./@51.1037577,17.0302924,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2722e8451ff:0x7a4abfdbdbe0e2c0!8m2!3d51.1037577!4d17.0302924!16s%2Fg%2F11h12rg_h?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Haggis%20Pub&ll=51.1037577,17.0302924"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://pik.wroclaw.pl/miejsca/haggis-pub-wroclaw/",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Pub+Haggis+2.0./@51.1037577,17.0302924,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc2722e8451ff:0x7a4abfdbdbe0e2c0!8m2!3d51.1037577!4d17.0302924!16s%2Fg%2F11h12rg_h?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1037577,
+            17.0302924
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "bar",
+    "media": {
+      "thumbnail": "/assets/urban-named-places-oct29/source-010.jpg",
+      "photos": [
+        "/assets/urban-named-places-oct29/source-010.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/urban-named-places-oct29/source-010.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/פאב סקוטי האגיס ליד רנומה.jpeg",
+          "sourceSHA256": "5d8d5033a91129ec3deeddff7a71503647e988f47917188683d66b6fcb9cabfe",
+          "assetSHA256": "5d8d5033a91129ec3deeddff7a71503647e988f47917188683d66b6fcb9cabfe",
+          "existingAssetReused": false,
+          "title": {
+            "he": "השלט של הפאב הסקוטי",
+            "en": "Scottish pub sign",
+            "pl": "Szyld szkockiego pubu",
+            "de": "Schild des schottischen Pubs",
+            "cs": "Nápis skotské hospody"
+          },
+          "alt": {
+            "he": "השלט של הפאב הסקוטי",
+            "en": "Scottish pub sign",
+            "pl": "Szyld szkockiego pubu",
+            "de": "Schild des schottischen Pubs",
+            "cs": "Nápis skotské hospody"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
         }
       }
     },
@@ -51886,18 +52808,18 @@
     "id": "peruwiana",
     "localName": "Peruwiana",
     "name": {
-      "he": "Peruwiana",
+      "he": "פרואיאנה, מסעדה פרואנית\nPeruwiana",
       "en": "Peruwiana",
       "pl": "Peruwiana",
       "de": "Peruwiana",
       "cs": "Peruwiana"
     },
     "description": {
-      "he": "מטבח פרואני איכותי למי שמחפש משהו קצת אחר.",
-      "en": "Quality Peruvian cooking for anyone seeking something different.",
-      "pl": "Dobra kuchnia peruwiańska dla osób szukających czegoś innego.",
-      "de": "Gute peruanische Küche für alle, die etwas anderes suchen.",
-      "cs": "Kvalitní peruánská kuchyně pro ty, kdo hledají něco jiného."
+      "he": "מסעדה פרואנית ברובע ארבע הדתות, סמוך לבית הכנסת החסידה הלבנה. תצלומי הביקור מציגים את החצר, הצמחייה והשילוט של בר הפיסקו. אלה חלקים של אותו מקום.\nPeruwiana\nPawła Włodkowica 9, Wrocław",
+      "en": "A Peruvian restaurant in the Four Denominations District near the White Stork Synagogue. Our visit photographs show the courtyard, greenery and Pisco Bar signage, parts of the same venue.",
+      "pl": "Restauracja peruwiańska w Dzielnicy Czterech Wyznań, blisko Synagogi Pod Białym Bocianem. Zdjęcia z wizyty pokazują dziedziniec, rośliny i szyld Pisco Baru, części tego samego lokalu.",
+      "de": "Peruanisches Restaurant im Viertel der vier Konfessionen nahe der Synagoge zum Weißen Storch. Unsere Besuchsfotos zeigen Hof, Pflanzen und Pisco-Bar-Schild als Teile desselben Lokals.",
+      "cs": "Peruánská restaurace ve čtvrti čtyř vyznání poblíž synagogy U Bílého čápa. Fotografie z návštěvy ukazují dvůr, zeleň a nápis Pisco Bar, části stejného podniku."
     },
     "location": {
       "countryCode": "PL",
@@ -51906,9 +52828,15 @@
       "coordinates": {
         "lat": 51.1082145,
         "lng": 17.0247652
+      },
+      "address": {
+        "street": "Pawła Włodkowica 9",
+        "city": "Wrocław",
+        "country": "Poland"
       }
     },
     "categories": [
+      "drink",
       "eat"
     ],
     "sourceUrls": [
@@ -51934,6 +52862,7 @@
     "editorialPriority": null,
     "taxonomy": {
       "categories": [
+        "drink",
         "eat"
       ],
       "tags": []
@@ -51962,13 +52891,109 @@
     "links": {
       "website": null,
       "navigation": {
-        "googleMaps": null,
-        "appleMaps": null
-      }
+        "googleMaps": "https://www.google.com/maps/place/Peruwiana/@51.1082145,17.0247652,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc3c34798ad0b:0xc922c618e45b96a0!8m2!3d51.1082145!4d17.0247652!16s%2Fg%2F11h8ktzf6n?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Peruwiana&ll=51.1082145,17.0247652"
+      },
+      "socialProfileFallback": false
     },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://zjedz.my/peruwiana/menu",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Peruwiana/@51.1082145,17.0247652,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc3c34798ad0b:0xc922c618e45b96a0!8m2!3d51.1082145!4d17.0247652!16s%2Fg%2F11h8ktzf6n?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1082145,
+            17.0247652
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "restaurant",
     "media": {
-      "photos": [],
-      "videos": []
+      "thumbnail": "/assets/four-denominations-refresh/four-denominations-refresh-10.jpg",
+      "photos": [
+        "/assets/four-denominations-refresh/four-denominations-refresh-10.jpg",
+        "/assets/four-denominations-refresh/four-denominations-refresh-11.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/four-denominations-refresh/four-denominations-refresh-10.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/המסעדה הפרואנית ברובע ארבע הדתות ליד בית הכנסת.jpeg",
+          "sourceSHA256": "72082f7f41b52d9dbd4dcb4732e2c50a0d00c810562a0d982f32c2a08c8dbb3c",
+          "assetSHA256": "de82bed4b933d5fec1a4a0c444135fd5865aeac409b3dab9b11ac58156b17ea3",
+          "familyForeground": false,
+          "alt": {
+            "he": "החצר ופינת הישיבה של המסעדה",
+            "en": "Restaurant courtyard and seating",
+            "pl": "Dziedziniec i stoliki restauracji",
+            "de": "Innenhof und Sitzplätze des Restaurants",
+            "cs": "Nádvoří a posezení restaurace"
+          },
+          "verifiedAt": "2026-10-20",
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.15 (1).jpeg",
+          "existingAssetReused": true,
+          "title": {
+            "he": "החצר ופינת הישיבה של המסעדה",
+            "en": "Restaurant courtyard and seating",
+            "pl": "Dziedziniec i stoliki restauracji",
+            "de": "Innenhof und Sitzplätze des Restaurants",
+            "cs": "Nádvoří a posezení restaurace"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        },
+        "/assets/four-denominations-refresh/four-denominations-refresh-11.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/פיסקו בר המסעדה הפרואנית ברובע ארבע הדתות.jpeg",
+          "sourceSHA256": "c3c69939534bbfc1651e680a34045cf6a96ac2acf0ac570dd697c47ca7bb30bf",
+          "assetSHA256": "d614c87fe4e76d5fb55ac6437aa3eef17acd727fd640e045e1b6410a7af9802c",
+          "familyForeground": false,
+          "alt": {
+            "he": "חזית המסעדה ובר הפיסקו",
+            "en": "Restaurant and pisco bar facade",
+            "pl": "Fasada restauracji i baru pisco",
+            "de": "Fassade des Restaurants und der Pisco-Bar",
+            "cs": "Průčelí restaurace a pisco baru"
+          },
+          "verifiedAt": "2026-10-20",
+          "historicalSourceFile": "/Users/rachelfiler/Desktop/Wroclaw/4 religions/WhatsApp Image 2026-10-20 at 16.27.15.jpeg",
+          "existingAssetReused": true,
+          "title": {
+            "he": "חזית המסעדה ובר הפיסקו",
+            "en": "Restaurant and pisco bar facade",
+            "pl": "Fasada restauracji i baru pisco",
+            "de": "Fassade des Restaurants und der Pisco-Bar",
+            "cs": "Průčelí restaurace a pisco baru"
+          },
+          "originalFullPicturePreserved": true,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        }
+      }
     },
     "socialPosts": [
       {
@@ -51988,19 +53013,6 @@
         "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
         "routingExcluded": true
       }
-    ],
-    "transport": {
-      "carRequired": null,
-      "publicTransportNotes": null,
-      "parkingNotes": null,
-      "drivingTimeFromWroclawMinutes": null
-    },
-    "languages": [
-      "he",
-      "en",
-      "pl",
-      "de",
-      "cs"
     ]
   },
   "pestka-bistro-wine-bar": {
@@ -59024,6 +60036,163 @@
     },
     "socialPosts": []
   },
+  "raito-sushi-wroclaw": {
+    "id": "raito-sushi-wroclaw",
+    "localName": "Raito Sushi",
+    "name": {
+      "he": "ראיטו סושי\nRaito Sushi",
+      "en": "Raito Sushi",
+      "pl": "Raito Sushi",
+      "de": "Raito Sushi",
+      "cs": "Raito Sushi"
+    },
+    "description": {
+      "he": "מסעדת סושי בכיכר וולנושצ׳י, סמוך לפורום המוזיקה הלאומי. תצלום הביקור מציג את השלט המואר והכניסה. בדקו את התפריט ושעות הפעילות מול המקום.\nRaito Sushi\nPlac Wolności 7, Wrocław",
+      "en": "A sushi restaurant on Plac Wolności near the National Forum of Music. Our photograph shows the illuminated sign and entrance. Check the current menu and hours with the venue.",
+      "pl": "Restauracja sushi przy placu Wolności, blisko Narodowego Forum Muzyki. Nasze zdjęcie pokazuje podświetlany szyld i wejście. Menu i aktualne godziny sprawdź w lokalu.",
+      "de": "Sushirestaurant am Plac Wolności nahe dem Nationalen Forum für Musik. Unser Foto zeigt das beleuchtete Schild und den Eingang. Speisekarte und aktuelle Zeiten beim Lokal prüfen.",
+      "cs": "Sushi restaurace na náměstí Plac Wolności poblíž Národního hudebního fóra. Naše fotografie ukazuje osvětlený nápis a vstup. Nabídku a aktuální otevírací dobu ověřte u podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1071365,
+        "lng": 17.0278292
+      },
+      "address": {
+        "street": "Plac Wolności 7",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "raito-sushi-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "raito-sushi-wroclaw",
+        "lat": 51.1071365,
+        "lng": 17.0278292
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.raitosushi.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/RAITO+SUSHI/@51.1071365,17.0278292,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc317928c6b8d:0x43e8d49b0d6903fb!8m2!3d51.1071365!4d17.0278292!16s%2Fg%2F11w4ynx49n?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Raito%20Sushi&ll=51.1071365,17.0278292"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.raitosushi.pl/",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/RAITO+SUSHI/@51.1071365,17.0278292,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc317928c6b8d:0x43e8d49b0d6903fb!8m2!3d51.1071365!4d17.0278292!16s%2Fg%2F11w4ynx49n?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1071365,
+            17.0278292
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/urban-named-places-oct29/source-009.jpg",
+      "photos": [
+        "/assets/urban-named-places-oct29/source-009.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/urban-named-places-oct29/source-009.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/סושי ראיטו.jpeg",
+          "sourceSHA256": "cc0c1452b8c18040c263b84b8c29853159d8734cd86adf7d82001d24faa80ca2",
+          "assetSHA256": "cc0c1452b8c18040c263b84b8c29853159d8734cd86adf7d82001d24faa80ca2",
+          "existingAssetReused": false,
+          "title": {
+            "he": "שלט מסעדת הסושי והכניסה",
+            "en": "Sushi restaurant sign and entrance",
+            "pl": "Szyld i wejście do restauracji sushi",
+            "de": "Schild und Eingang des Sushi-Restaurants",
+            "cs": "Nápis a vstup do sushi restaurace"
+          },
+          "alt": {
+            "he": "שלט מסעדת הסושי והכניסה",
+            "en": "Sushi restaurant sign and entrance",
+            "pl": "Szyld i wejście do restauracji sushi",
+            "de": "Schild und Eingang des Sushi-Restaurants",
+            "cs": "Nápis a vstup do sushi restaurace"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "raj-szycia-poznan": {
     "id": "raj-szycia-poznan",
     "localName": "Raj Szycia",
@@ -60696,6 +61865,167 @@
           "sdProcessingComplete": true,
           "checks": "Copyright and Community Guidelines: No issues found",
           "evidence": "outputs/milk-bars-refresh-2026-10-21/youtube-public-reopened.txt"
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "rumbar-pokoyhof-wroclaw": {
+    "id": "rumbar-pokoyhof-wroclaw",
+    "localName": "Rumbar.Pokoyhof",
+    "name": {
+      "he": "רומבר בפוקויהוף\nRumbar.Pokoyhof",
+      "en": "Rumbar.Pokoyhof",
+      "pl": "Rumbar.Pokoyhof",
+      "de": "Rumbar.Pokoyhof",
+      "cs": "Rumbar.Pokoyhof"
+    },
+    "description": {
+      "he": "בר רום ומסעדה בחצר פוקויהוף ברובע ארבע הדתות. תצלום הביקור מציג את החזית והשלט של המקום. בדקו תפריט ושעות פעילות עדכניים מול המקום.\nRumbar.Pokoyhof\nŚwiętego Antoniego 2/4, Wrocław",
+      "en": "A rum bar and restaurant in the Pokoyhof courtyard in the Four Denominations District. Our photograph shows the facade and sign. Check the current menu and hours with the venue.",
+      "pl": "Bar rumowy i restauracja na dziedzińcu Pokoyhof w Dzielnicy Czterech Wyznań. Nasze zdjęcie pokazuje fasadę i szyld lokalu. Aktualne menu i godziny sprawdź na miejscu.",
+      "de": "Rumbar und Restaurant im Pokoyhof-Hof im Viertel der vier Konfessionen. Unser Foto zeigt Fassade und Schild. Aktuelle Speisekarte und Öffnungszeiten beim Lokal prüfen.",
+      "cs": "Rumový bar a restaurace na dvoře Pokoyhof ve čtvrti čtyř vyznání. Naše fotografie ukazuje průčelí a nápis podniku. Aktuální nabídku a otevírací dobu ověřte u podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1085229,
+        "lng": 17.0264321
+      },
+      "address": {
+        "street": "Świętego Antoniego 2/4",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink",
+      "eat",
+      "enjoy"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "rumbar-pokoyhof-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "rumbar-pokoyhof-wroclaw",
+        "lat": 51.1085229,
+        "lng": 17.0264321
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat",
+        "enjoy"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://rumbar.eatbu.com/?lang=pl",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Rumbar.Pokoyhof/@51.1085229,17.0264321,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20b4cc9e6f9:0x81e755ec7c17b025!8m2!3d51.1085229!4d17.0264321!16s%2Fg%2F11g8xkhgvj?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Rumbar.Pokoyhof&ll=51.1085229,17.0264321"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://rumbar.eatbu.com/?lang=pl",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Rumbar.Pokoyhof/@51.1085229,17.0264321,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc20b4cc9e6f9:0x81e755ec7c17b025!8m2!3d51.1085229!4d17.0264321!16s%2Fg%2F11g8xkhgvj?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1085229,
+            17.0264321
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "bar",
+    "media": {
+      "thumbnail": "/assets/urban-named-places-oct29/source-016.jpg",
+      "photos": [
+        "/assets/urban-named-places-oct29/source-016.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/urban-named-places-oct29/source-016.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/רומבור בפוקויהוף רובע ארבע הדתות.jpeg",
+          "sourceSHA256": "43a7d8aa3dfa738ec8af4d85ab74c219756b9ce29525a61a23161b6ef9e60fc4",
+          "assetSHA256": "43a7d8aa3dfa738ec8af4d85ab74c219756b9ce29525a61a23161b6ef9e60fc4",
+          "existingAssetReused": false,
+          "title": {
+            "he": "חזית בר הרום והמסעדה",
+            "en": "Rum bar and restaurant facade",
+            "pl": "Fasada rum baru i restauracji",
+            "de": "Fassade der Rumbar und des Restaurants",
+            "cs": "Průčelí rum baru a restaurace"
+          },
+          "alt": {
+            "he": "חזית בר הרום והמסעדה",
+            "en": "Rum bar and restaurant facade",
+            "pl": "Fasada rum baru i restauracji",
+            "de": "Fassade der Rumbar und des Restaurants",
+            "cs": "Průčelí rum baru a restaurace"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
         }
       }
     },
@@ -66999,6 +68329,163 @@
         "verifiedAt": "2026-10-09"
       }
     ]
+  },
+  "thai-thai-wroclaw": {
+    "id": "thai-thai-wroclaw",
+    "localName": "Thai Thai Wrocław",
+    "name": {
+      "he": "טאי טאי\nThai Thai Wrocław",
+      "en": "Thai Thai Wrocław",
+      "pl": "Thai Thai Wrocław",
+      "de": "Thai Thai Wrocław",
+      "cs": "Thai Thai Wrocław"
+    },
+    "description": {
+      "he": "מסעדה תאילנדית בכיכר התיאטרון, ליד רחוב שווידניצקה ותיאטרון הבובות. תצלום הביקור מציג את השלט והכניסה. בדקו תפריט ושעות עדכניים מול המקום.\nThai Thai Wrocław\nPlac Teatralny 8, Wrocław",
+      "en": "A Thai restaurant on Plac Teatralny, near Świdnicka and the Puppet Theatre. Our photograph shows the sign and entrance. Check the current menu and hours with the restaurant.",
+      "pl": "Restauracja tajska przy placu Teatralnym, blisko Świdnickiej i Teatru Lalek. Nasze zdjęcie pokazuje szyld i wejście. Aktualne menu i godziny sprawdź w restauracji.",
+      "de": "Thailändisches Restaurant am Plac Teatralny nahe Świdnicka und Puppentheater. Unser Foto zeigt Schild und Eingang. Aktuelle Speisekarte und Öffnungszeiten beim Restaurant prüfen.",
+      "cs": "Thajská restaurace na náměstí Plac Teatralny poblíž Świdnické a loutkového divadla. Naše fotografie ukazuje nápis a vstup. Aktuální nabídku a otevírací dobu ověřte u restaurace."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1059482,
+        "lng": 17.0316826
+      },
+      "address": {
+        "street": "Plac Teatralny 8",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "thai-thai-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "thai-thai-wroclaw",
+        "lat": 51.1059482,
+        "lng": 17.0316826
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.thaithai.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Thai+Thai+Wroc%C5%82aw/@51.1059482,17.0316826,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc30b15f2a2ad:0x3fdea06310dfae78!8m2!3d51.1059482!4d17.0316826!16s%2Fg%2F11w2k4m9n3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Thai%20Thai%20Wroc%C5%82aw&ll=51.1059482,17.0316826"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.thaithai.pl/",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Thai+Thai+Wroc%C5%82aw/@51.1059482,17.0316826,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc30b15f2a2ad:0x3fdea06310dfae78!8m2!3d51.1059482!4d17.0316826!16s%2Fg%2F11w2k4m9n3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1059482,
+            17.0316826
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "restaurant",
+    "media": {
+      "thumbnail": "/assets/urban-named-places-oct29/source-007.jpg",
+      "photos": [
+        "/assets/urban-named-places-oct29/source-007.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/urban-named-places-oct29/source-007.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/טאי טאי בשוונדיצקה.jpeg",
+          "sourceSHA256": "b4a7381ff4ae67685004a66b46f5f5500e01bbfd854d48db27bbc5c51912d225",
+          "assetSHA256": "b4a7381ff4ae67685004a66b46f5f5500e01bbfd854d48db27bbc5c51912d225",
+          "existingAssetReused": false,
+          "title": {
+            "he": "הכניסה למסעדה התאילנדית",
+            "en": "Thai restaurant entrance",
+            "pl": "Wejście do tajskiej restauracji",
+            "de": "Eingang zum thailändischen Restaurant",
+            "cs": "Vstup do thajské restaurace"
+          },
+          "alt": {
+            "he": "הכניסה למסעדה התאילנדית",
+            "en": "Thai restaurant entrance",
+            "pl": "Wejście do tajskiej restauracji",
+            "de": "Eingang zum thailändischen Restaurant",
+            "cs": "Vstup do thajské restaurace"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "the-bridge": {
     "id": "the-bridge",
@@ -77177,6 +78664,167 @@
         "context": "historical-cross-account"
       }
     ]
+  },
+  "wiking-axe-throwing-wroclaw": {
+    "id": "wiking-axe-throwing-wroclaw",
+    "localName": "Wiking Axe Throwing Club",
+    "name": {
+      "he": "ויקינג, מועדון זריקת גרזנים\nWiking Axe Throwing Club",
+      "en": "Wiking Axe Throwing Club",
+      "pl": "Wiking Axe Throwing Club",
+      "de": "Wiking Axe Throwing Club",
+      "cs": "Wiking Axe Throwing Club"
+    },
+    "description": {
+      "he": "מועדון זריקת גרזנים ופונדק באווירה ויקינגית ברחוב שווידניצקה. תצלום הביקור מציג את הכניסה והשלטים. בדקו הזמנה, זמינות ותנאי השתתפות מול המקום.\nWiking Axe Throwing Club\nŚwidnicka 12/16, Wrocław",
+      "en": "An axe-throwing club and Viking-themed tavern on Świdnicka. Our photograph shows the entrance and signs. Check booking, availability and participation conditions with the venue.",
+      "pl": "Klub rzucania toporami i karczma w klimacie wikingów przy Świdnickiej. Nasze zdjęcie pokazuje wejście i szyldy. Rezerwację, dostępność i warunki uczestnictwa sprawdź w lokalu.",
+      "de": "Axtwurfclub und Taverne im Wikingerstil an der Świdnicka. Unser Foto zeigt Eingang und Schilder. Buchung, Verfügbarkeit und Teilnahmebedingungen beim Veranstalter prüfen.",
+      "cs": "Klub házení sekerami a taverna ve vikinském stylu ve Świdnické. Naše fotografie ukazuje vstup a nápisy. Rezervaci, dostupnost a podmínky účasti ověřte u podniku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1069297,
+        "lng": 17.0322054
+      },
+      "address": {
+        "street": "Świdnicka 12/16",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink",
+      "eat",
+      "enjoy"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "wiking-axe-throwing-wroclaw"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "wiking-axe-throwing-wroclaw",
+        "lat": 51.1069297,
+        "lng": 17.0322054
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat",
+        "enjoy"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wikingclub.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/place/Wiking+Club+Axe+Throwing+Wroc%C5%82aw/@51.1069297,17.0322054,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc35d9d626cd5:0x668fac1822547966!8m2!3d51.1069297!4d17.0322054!16s%2Fg%2F11sdvhfwz_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+        "appleMaps": "https://maps.apple.com/?q=Wiking%20Axe%20Throwing%20Club&ll=51.1069297,17.0322054"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "factualSources": [
+        {
+          "url": "https://www.wikingclub.pl/",
+          "checkedAt": "2026-10-29"
+        },
+        {
+          "url": "https://www.google.com/maps/place/Wiking+Club+Axe+Throwing+Wroc%C5%82aw/@51.1069297,17.0322054,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc35d9d626cd5:0x668fac1822547966!8m2!3d51.1069297!4d17.0322054!16s%2Fg%2F11sdvhfwz_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+          "checkedAt": "2026-10-29",
+          "coordinates": [
+            51.1069297,
+            17.0322054
+          ]
+        }
+      ],
+      "currentHoursNotAssumed": true,
+      "originalsPreserved": true,
+      "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json"
+    },
+    "placeType": "leisure",
+    "media": {
+      "thumbnail": "/assets/urban-named-places-oct29/source-006.jpg",
+      "photos": [
+        "/assets/urban-named-places-oct29/source-006.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/urban-named-places-oct29/source-006.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/03 כיכרות ומרחבים עירוניים/חווית זריקת גרזנים.jpeg",
+          "sourceSHA256": "00b76146444c3e051291a515b3f053c3eb6fb9934c400e7d92ef184bbfcb25f0",
+          "assetSHA256": "00b76146444c3e051291a515b3f053c3eb6fb9934c400e7d92ef184bbfcb25f0",
+          "existingAssetReused": false,
+          "title": {
+            "he": "הכניסה למועדון זריקת הגרזנים",
+            "en": "Axe throwing club entrance",
+            "pl": "Wejście do klubu rzucania siekierami",
+            "de": "Eingang zum Axtwurfclub",
+            "cs": "Vstup do klubu házení sekerami"
+          },
+          "alt": {
+            "he": "הכניסה למועדון זריקת הגרזנים",
+            "en": "Axe throwing club entrance",
+            "pl": "Wejście do klubu rzucania siekierami",
+            "de": "Eingang zum Axtwurfclub",
+            "cs": "Vstup do klubu házení sekerami"
+          },
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "sourceReviewReceipt": "urban-named-cafes-restaurants-2026-10-29/source-review-and-place-plan.json",
+          "privacyClassification": "Place photograph; incidental public visitors and reflections are not posed personal portraits"
+        }
+      }
+    },
+    "socialPosts": []
   },
   "woda-cafe": {
     "id": "woda-cafe",
