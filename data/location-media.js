@@ -306,3 +306,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Append only the three verified Public visits, retaining existing descriptors.
 (function(){for(const id of ["rynek","wroclaw-botanical-garden"]){const p=window.WROC_CATALOG?.getPlace?.(id);if(!p)continue;const r=window.WROC_LOCATION_MEDIA[id]||{};r.videos=r.videos||[];for(const src of p.media.videos){if(!r.videos.some(v=>(typeof v==="string"?v:v.src)===src)){r.videos.push({src,title:p.media.metadata[src].title});}}window.WROC_LOCATION_MEDIA[id]=r;}})();
+
+// Reflect the canonical photo reassignment in existing aliases, including an empty source gallery.
+(function(){for(const canonicalId of ["dunikowski","marina"]){const p=window.WROC_CATALOG?.getPlace(canonicalId);if(!p)continue;for(const id of [canonicalId,...Object.entries(window.WROC_CATALOG.aliases).filter(([,target])=>target===canonicalId).map(([alias])=>alias)]){const r=window.WROC_LOCATION_MEDIA[id];if(r)r.gallery=p.media.photos;else window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos};}}})();

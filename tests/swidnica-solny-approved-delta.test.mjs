@@ -1,3 +1,4 @@
+import{beforeIslandTransferSnapshot}from'./island-transfer-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import{readFileSync}from'node:fs';
@@ -7,6 +8,7 @@ import{beforeSwidnicaSolnyRecord,beforeSwidnicaSolnyGallery,beforeSwidnicaTrip,b
 const baseline=JSON.parse(readFileSync('tests/fixtures/swidnica-solny-oct28-preintegration.json'));
 const approved=JSON.parse(readFileSync('data/swidnica-solny-oct28-approved-delta.json'));
 const w={};for(const f of['data/place-catalog.js','data/lower-silesia-excursions.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window:w});
+beforeIslandTransferSnapshot(w);
 const plain=x=>JSON.parse(JSON.stringify(x));const hash=x=>createHash('sha256').update(Buffer.isBuffer(x)?x:JSON.stringify(x)).digest('hex');
 test('New square and exact Salt Square photo preserve298 other records, aliases, old galleries and eight other excursions',()=>{
  assert.equal(Object.keys(w.WROC_CATALOG.places).length,300);let untouched=0;
