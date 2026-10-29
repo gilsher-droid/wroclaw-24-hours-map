@@ -31,7 +31,7 @@ test("Świdnica Market Square is a complete canonical excursion place", () => {
   assert.equal(place.media.videos.length, 0);
   assert.ok(place.links.navigation.googleMaps);
   assert.ok(place.links.navigation.appleMaps);
-  assert.equal(place.links.website, "https://www.wieza.swidnica.pl/pl/");
+  assert.equal(place.links.website, null);
   assert.ok(place.provenance.factualSources.some((source) => source.url.includes("um.swidnica.pl")));
 
   for (const photo of place.media.photos) {

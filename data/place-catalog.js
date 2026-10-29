@@ -65449,7 +65449,7 @@
       "openingHoursNotes": "The square is public; check the official tower site separately before planning a tower visit."
     },
     "links": {
-      "website": "https://www.wieza.swidnica.pl/pl/",
+      "website": null,
       "navigation": {
         "googleMaps": "https://www.google.com/maps/search/?api=1&query=Rynek%2C%2058-100%20%C5%9Awidnica%2C%20Poland",
         "appleMaps": "https://maps.apple.com/?q=Rynek%2C%20%C5%9Awidnica%2C%20Poland"
@@ -65500,7 +65500,7 @@
           "type": "official-attraction",
           "url": "https://www.wieza.swidnica.pl/pl/",
           "checkedAt": "2026-10-28",
-          "note": "Official visitor reference for the town-hall viewing tower. Text fetch returned502 on2026-10-28; indexed official material corroborates its visitor role. Check current conditions directly."
+          "note": "Official visitor reference for the town-hall viewing tower. Direct verification found a certificate-domain mismatch on2026-10-29. No browser warning was bypassed. The website action is withheld; indexed official material corroborates the historical visitor role, not current access."
         },
         {
           "type": "municipal-bulletin",
