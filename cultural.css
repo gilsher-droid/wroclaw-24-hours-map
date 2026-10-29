@@ -262,3 +262,7 @@ article[data-place="mostek-pokutnic-wroclaw"] p { white-space:pre-line; }
 
 /* Approved original collection: preserve the whole photograph in the gallery. */
 .media-grid img[src*="/named-wroclaw-oct28/"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
+
+/* Keep the new venue text and visit photographs complete. */
+article[data-place="klub-lacznik-wroclaw"] :is(h3,p),.leaflet-popup-content:has(img[src*="/club-copernicus-oct29/"]) :is(strong,span,p){white-space:pre-line}
+.media-grid img[src^="/assets/club-copernicus-oct29/"]{height:auto;max-height:78vh;object-fit:contain}

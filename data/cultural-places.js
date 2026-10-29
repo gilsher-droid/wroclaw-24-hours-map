@@ -2,6 +2,7 @@
   "use strict";
 
   const memberships = {
+    "klub-lacznik-wroclaw": ["music-opera"],
     "most-pomorski-poludniowy-wroclaw": ["museums-history", "architecture-design"],
     "piastowska-pieczec-wroclaw": ["museums-history", "architecture-design"],
     "st-martin-church-wroclaw": ["museums-history", "architecture-design"],

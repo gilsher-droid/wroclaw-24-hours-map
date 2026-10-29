@@ -671,6 +671,20 @@
       "lng": 17.038584
     }
   },
+  "copernicus-park-wroclaw": {
+    "id": "copernicus-park-wroclaw",
+    "name": {
+      "he": "פארק ניקולאוס קופרניקוס\nהגן העירוני הישן",
+      "en": "Nicolaus Copernicus Park / Old Town Garden",
+      "pl": "Park Mikołaja Kopernika / Ogród Staromiejski",
+      "de": "Nikolaus-Kopernikus-Park / Altstadtgarten",
+      "cs": "Park Mikuláše Koperníka / Staroměstská zahrada"
+    },
+    "coordinates": {
+      "lat": 51.1050088,
+      "lng": 17.0343214
+    }
+  },
   "czarna-magia": {
     "id": "czarna-magia",
     "name": {
@@ -1425,6 +1439,20 @@
     "coordinates": {
       "lat": 50.438758,
       "lng": 16.654564
+    }
+  },
+  "klub-lacznik-wroclaw": {
+    "id": "klub-lacznik-wroclaw",
+    "name": {
+      "he": "מועדון לאנצניק\nKlub Łącznik",
+      "en": "Klub Łącznik music club",
+      "pl": "Klub Łącznik",
+      "de": "Musikclub Łącznik",
+      "cs": "Hudební klub Łącznik"
+    },
+    "coordinates": {
+      "lat": 51.104869282656,
+      "lng": 17.087388038635
     }
   },
   "konspira": {

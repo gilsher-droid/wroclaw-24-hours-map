@@ -15,7 +15,7 @@
       brandLine:"מגלים את העיר דרך המקומות הנכונים", eyebrow:"חוויות בעיר", title:"אוכל, קפה ומה שביניהם",
       lead:"בתי קפה, מסעדות ופינות שעושות את היום. בחרו מה מתחשק לכם עכשיו, וגלו את המקומות, התמונות והסיפורים שלנו.",
       places:"מקומות", fiveLanguages:"חמש שפות", directNavigation:"ניווט ישיר", questionLabel:"שאלה אחת לפני שיוצאים", question:"מה בא לכם עכשיו?", questionHint:"בחרו צורך, והמפה תציג ותקרב אל המקומות המתאימים.",
-      explore:"לגלות לפי מצב הרוח", mapTitle:"המקומות על המפה", searchLabel:"חיפוש מקום", searchPlaceholder:"חפשו שם או אזור…", all:"הכול", eat:"לאכול", drink:"לשתות", buy:"לקנות", sleep:"לישון",
+      explore:"לגלות לפי מצב הרוח", mapTitle:"המקומות על המפה", searchLabel:"חיפוש מקום", searchPlaceholder:"חפשו שם או אזור…", all:"הכול", eat:"לאכול", drink:"לשתות", buy:"לקנות", sleep:"לישון", enjoy:"לבלות",
       mapNote:"המפה מתקרבת אוטומטית לתוצאות. לבדיקת מסלול בזמן אמת השתמשו בכפתור הניווט.", allPlaces:"כל המקומות", emptyTitle:"לא מצאנו מקום מתאים", emptyText:"נסו מילת חיפוש אחרת או חזרו להצגת הכול.", showAll:"הציגו הכול",
       livingGuide:"מדריך שחי ומתעדכן", editorialTitle:"לא רשימה אינסופית. רק מקומות שיש להם סיבה להיות כאן.", editorialText:"החוויה מבוססת על פוסטי האוכל, הקניות והלינה שכבר פורסמו בדף העסקי ובקהילה. כל מקום מקושר אל הפוסט המקורי ואל ניווט ישיר.",
       homeReturn:"חזרה לכל החוויות", freeUntil:"כרגע ללא תשלום", communityLine:"מבית קהילת Wrocław & Lower Silesia", facebookGroup:"קבוצת הפייסבוק", facebookPage:"הדף העסקי", instagram:"אינסטגרם", navigate:"ניווט", readPost:"הפוסט", photos:"תמונות", videos:"וידאו", close:"סגירה", resultOne:"מקום", resultMany:"מקומות", source:"מקור", water:"מים לשתייה"
@@ -24,7 +24,7 @@
       brandLine:"Discover the city through the right places", eyebrow:"City experiences", title:"Food, cafés and more",
       lead:"Cafés, restaurants and places that make a day in the city. Choose what you feel like and explore our places, photographs and stories.",
       places:"places", fiveLanguages:"Five languages", directNavigation:"Direct navigation", questionLabel:"One question before you go", question:"What do you feel like now?", questionHint:"Choose a need and the map will show and zoom to the right places.",
-      explore:"Explore by mood", mapTitle:"Places on the map", searchLabel:"Search places", searchPlaceholder:"Search by name or area…", all:"All", eat:"Eat", drink:"Drink", buy:"Shop", sleep:"Sleep",
+      explore:"Explore by mood", mapTitle:"Places on the map", searchLabel:"Search places", searchPlaceholder:"Search by name or area…", all:"All", eat:"Eat", drink:"Drink", buy:"Shop", sleep:"Sleep", enjoy:"Go out",
       mapNote:"The map zooms to match your results. Use the navigation button for live directions.", allPlaces:"All places", emptyTitle:"No matching place found", emptyText:"Try another search or return to all places.", showAll:"Show all",
       livingGuide:"A living, evolving guide", editorialTitle:"Not an endless list. Only places with a reason to be here.", editorialText:"This map is built from the food, shopping and accommodation posts already published on our business page and in the community. Every place links back to its source post and direct navigation.",
       homeReturn:"All city experiences", freeUntil:"Currently free", communityLine:"By the Wrocław & Lower Silesia community", facebookGroup:"Facebook group", facebookPage:"Business page", instagram:"Instagram", navigate:"Navigate", readPost:"Post", photos:"Photos", videos:"Video", close:"Close", resultOne:"place", resultMany:"places", source:"Source", water:"Drinking water"
@@ -33,7 +33,7 @@
       brandLine:"Odkrywaj miasto przez właściwe miejsca", eyebrow:"Doświadczenia w mieście", title:"Jedzenie, kawa i więcej",
       lead:"Kawiarnie, restauracje i miejsca, które tworzą udany dzień w mieście. Wybierz, na co masz ochotę, i odkryj nasze miejsca, zdjęcia i historie.",
       places:"miejsca", fiveLanguages:"Pięć języków", directNavigation:"Bezpośrednia nawigacja", questionLabel:"Jedno pytanie przed wyjściem", question:"Na co masz teraz ochotę?", questionHint:"Wybierz potrzebę, a mapa pokaże i przybliży odpowiednie miejsca.",
-      explore:"Odkrywaj według nastroju", mapTitle:"Miejsca na mapie", searchLabel:"Szukaj miejsca", searchPlaceholder:"Szukaj nazwy lub okolicy…", all:"Wszystko", eat:"Jedzenie", drink:"Napoje", buy:"Zakupy", sleep:"Nocleg",
+      explore:"Odkrywaj według nastroju", mapTitle:"Miejsca na mapie", searchLabel:"Szukaj miejsca", searchPlaceholder:"Szukaj nazwy lub okolicy…", all:"Wszystko", eat:"Jedzenie", drink:"Napoje", buy:"Zakupy", sleep:"Nocleg", enjoy:"Wyjść",
       mapNote:"Mapa automatycznie dopasowuje widok do wyników. Użyj przycisku nawigacji, aby sprawdzić trasę na żywo.", allPlaces:"Wszystkie miejsca", emptyTitle:"Nie znaleziono miejsca", emptyText:"Spróbuj innego wyszukiwania lub pokaż wszystko.", showAll:"Pokaż wszystko",
       livingGuide:"Przewodnik, który stale się rozwija", editorialTitle:"Nie nieskończona lista. Tylko miejsca, które mają powód, by tu być.", editorialText:"Mapa powstała z postów o jedzeniu, zakupach i noclegach opublikowanych na stronie firmowej i w społeczności. Każde miejsce prowadzi do źródłowego postu i nawigacji.",
       homeReturn:"Wróć do strony głównej", freeUntil:"Obecnie bezpłatnie", communityLine:"Od społeczności Wrocław & Dolny Śląsk", facebookGroup:"Grupa na Facebooku", facebookPage:"Strona firmowa", instagram:"Instagram", navigate:"Nawigacja", readPost:"Post", photos:"Zdjęcia", videos:"Wideo", close:"Zamknij", resultOne:"miejsce", resultMany:"miejsc", source:"Źródło", water:"Woda pitna"
@@ -42,7 +42,7 @@
       brandLine:"Die Stadt über die richtigen Orte entdecken", eyebrow:"Stadterlebnisse", title:"Essen, Cafés und mehr",
       lead:"Cafés, Restaurants und Orte für einen schönen Tag in der Stadt. Wählen Sie nach Lust und Laune und entdecken Sie unsere Orte, Fotos und Geschichten.",
       places:"Orte", fiveLanguages:"Fünf Sprachen", directNavigation:"Direkte Navigation", questionLabel:"Eine Frage vor dem Start", question:"Worauf haben Sie jetzt Lust?", questionHint:"Wählen Sie ein Bedürfnis; die Karte zeigt und vergrößert die passenden Orte.",
-      explore:"Nach Stimmung entdecken", mapTitle:"Orte auf der Karte", searchLabel:"Orte suchen", searchPlaceholder:"Name oder Gegend suchen…", all:"Alle", eat:"Essen", drink:"Trinken", buy:"Einkaufen", sleep:"Schlafen",
+      explore:"Nach Stimmung entdecken", mapTitle:"Orte auf der Karte", searchLabel:"Orte suchen", searchPlaceholder:"Name oder Gegend suchen…", all:"Alle", eat:"Essen", drink:"Trinken", buy:"Einkaufen", sleep:"Schlafen", enjoy:"Ausgehen",
       mapNote:"Die Karte zoomt automatisch zu den Ergebnissen. Nutzen Sie die Navigation für aktuelle Routen.", allPlaces:"Alle Orte", emptyTitle:"Kein passender Ort gefunden", emptyText:"Versuchen Sie eine andere Suche oder zeigen Sie alle Orte.", showAll:"Alle anzeigen",
       livingGuide:"Ein lebendiger, wachsender Guide", editorialTitle:"Keine endlose Liste. Nur Orte, die einen Grund haben, hier zu sein.", editorialText:"Diese Karte basiert auf den bereits auf unserer Unternehmensseite und in der Community veröffentlichten Beiträgen zu Essen, Einkaufen und Übernachten. Jeder Ort führt zum Originalbeitrag und zur Navigation.",
       homeReturn:"Alle Stadterlebnisse", freeUntil:"Derzeit kostenlos", communityLine:"Von der Wrocław & Lower Silesia Community", facebookGroup:"Facebook-Gruppe", facebookPage:"Unternehmensseite", instagram:"Instagram", navigate:"Navigieren", readPost:"Beitrag", photos:"Fotos", videos:"Video", close:"Schließen", resultOne:"Ort", resultMany:"Orte", source:"Quelle", water:"Trinkwasser"
@@ -51,7 +51,7 @@
       brandLine:"Objevujte město prostřednictvím správných míst", eyebrow:"Zážitky ve městě", title:"Jídlo, káva a něco navíc",
       lead:"Kavárny, restaurace a místa pro příjemný den ve městě. Vyberte si podle nálady a objevte naše místa, fotografie a příběhy.",
       places:"míst", fiveLanguages:"Pět jazyků", directNavigation:"Přímá navigace", questionLabel:"Jedna otázka před cestou", question:"Na co máte právě chuť?", questionHint:"Vyberte potřebu a mapa zobrazí a přiblíží vhodná místa.",
-      explore:"Objevujte podle nálady", mapTitle:"Místa na mapě", searchLabel:"Hledat místo", searchPlaceholder:"Hledejte název nebo oblast…", all:"Vše", eat:"Jíst", drink:"Pít", buy:"Nakupovat", sleep:"Spát",
+      explore:"Objevujte podle nálady", mapTitle:"Místa na mapě", searchLabel:"Hledat místo", searchPlaceholder:"Hledejte název nebo oblast…", all:"Vše", eat:"Jíst", drink:"Pít", buy:"Nakupovat", sleep:"Spát", enjoy:"Vyrazit ven",
       mapNote:"Mapa se automaticky přiblíží k výsledkům. Pro aktuální trasu použijte tlačítko navigace.", allPlaces:"Všechna místa", emptyTitle:"Nenašli jsme odpovídající místo", emptyText:"Zkuste jiné hledání nebo zobrazte všechna místa.", showAll:"Zobrazit vše",
       livingGuide:"Živý, průběžně rozšiřovaný průvodce", editorialTitle:"Ne nekonečný seznam. Jen místa, která mají důvod zde být.", editorialText:"Mapa vychází z příspěvků o jídle, nakupování a ubytování, které již vyšly na firemní stránce a v komunitě. Každé místo odkazuje na původní příspěvek a navigaci.",
       homeReturn:"Zpět na hlavní stránku", freeUntil:"Nyní zdarma", communityLine:"Od komunity Wrocław & Dolní Slezsko", facebookGroup:"Skupina na Facebooku", facebookPage:"Firemní stránka", instagram:"Instagram", navigate:"Navigovat", readPost:"Příspěvek", photos:"Fotografie", videos:"Video", close:"Zavřít", resultOne:"místo", resultMany:"míst", source:"Zdroj", water:"Pitná voda"
@@ -91,8 +91,8 @@
   const accessState = await window.WROC_CAMPAIGN_ACCESS?.authorize(language);
   if (accessState && !accessState.allowed) return;
   const resources = window.WROC_LOCATION_MEDIA || {};
-  const categorySymbols = { eat:"🍽", drink:"☕", buy:"◫", sleep:"☾", water:"💧" };
-  const categoryOrder = ["eat","drink","buy","sleep"];
+  const categorySymbols = { eat:"🍽", drink:"☕", buy:"◫", sleep:"☾", enjoy:"♫", water:"💧" };
+  const categoryOrder = ["eat","drink","buy","sleep","enjoy"];
   const markers = new Map();
   const markerLayer = L.layerGroup();
   const map = L.map("lifestyle-map", { scrollWheelZoom:false, zoomControl:true }).setView([51.1088,17.0335], 13);

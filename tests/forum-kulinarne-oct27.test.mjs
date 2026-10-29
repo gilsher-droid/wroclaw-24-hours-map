@@ -1,3 +1,4 @@
+import{beforeClubParkSource}from'./club-copernicus-historical-baseline.mjs';
 import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
@@ -16,7 +17,7 @@ test('Forum Kulinarne preserves all232 earlier canonicals and existing routes ex
  assert.equal(historicalPlaceIds(window.WROC_CATALOG.places).length,233);
  for(const[id,expected]of Object.entries(proof.existingRecordHashes))assert.equal(hash(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(window.WROC_CATALOG.places[id])))),expected,id);
  // The later Poznan test hashes all six existing excursion objects separately.
- for(const[file,expected]of Object.entries(proof.unchangedSourceFileHashes).filter(([file])=>file!=='data/lower-silesia-excursions.js'))assert.equal(hash(readFileSync(file)),expected,file);
+ for(const[file,expected]of Object.entries(proof.unchangedSourceFileHashes).filter(([file])=>file!=='data/lower-silesia-excursions.js'))assert.equal(hash(beforeClubParkSource(file,readFileSync(file))),expected,file);
 });
 test('The verified Forum facade is one full original in one Lifestyle food point with no generic social action',()=>{
  const p=beforeFourDenominationsMedia(window.WROC_CATALOG.getPlace(proof.canonicalId)),media=p.media,src=media.photos[0],metadata=media.metadata[src];

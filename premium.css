@@ -501,3 +501,6 @@ img[src*="/botanical-garden/"]{object-fit:contain;background:#f4f0e8;}
 #gallery-image[src*="/cafes-alley-refresh-20261020/"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
 
 #stop-jatki .stop-copy>p{white-space:pre-line;}
+
+/* Keep the garden name and address on separate lines. */
+#stop-copernicus-park-wroclaw :is(h3,p),.premium-popup:has(img[src*="/club-copernicus-oct29/"]) :is(strong,p){white-space:pre-line}
