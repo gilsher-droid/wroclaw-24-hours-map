@@ -65477,10 +65477,6 @@
       "sourceOriginalsModified": false,
       "excludedSourceFiles": [
         {
-          "file": "IMG_2796.JPG",
-          "reason": "Displayed personal-image approval pending; original preserved"
-        },
-        {
           "file": "IMG_2798.JPG",
           "reason": "Road and private in-car navigation view, not a photograph of the market square"
         },
@@ -65524,7 +65520,8 @@
         "/assets/swidnica-market-square-oct28/source-008.jpg",
         "/assets/swidnica-market-square-oct28/source-009.jpg",
         "/assets/swidnica-market-square-oct28/source-010.jpg",
-        "/assets/swidnica-market-square-oct28/source-012.jpg"
+        "/assets/swidnica-market-square-oct28/source-012.jpg",
+        "/assets/swidnica-market-square-oct28/source-011.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -65750,6 +65747,31 @@
             "pl": "Mural Andrzeja Wajdy podczas spaceru po centrum Świdnicy",
             "de": "Andrzej-Wajda-Wandbild beim Spaziergang durch das Zentrum von Świdnica",
             "cs": "Nástěnná malba Andrzeje Wajdy při procházce centrem Svídnice"
+          },
+          "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
+        },
+        "/assets/swidnica-market-square-oct28/source-011.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/שויידניצה רינק/IMG_2796.JPG",
+          "sourceSHA256": "6582b19791863f14c3d03781b6e94438dd1f64509982cf7117b1bc85907506dc",
+          "assetSHA256": "6582b19791863f14c3d03781b6e94438dd1f64509982cf7117b1bc85907506dc",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "חזית ורודה ומעוטרת עם מרפסת ודלת מגולפת בכיכר השוק של שווידניצה",
+            "en": "Decorated pink facade with balcony and carved doorway on Świdnica Market Square",
+            "pl": "Zdobiona różowa kamienica z balkonem i rzeźbionymi drzwiami na Rynku w Świdnicy",
+            "de": "Verzierte rosa Fassade mit Balkon und geschnitztem Tor am Marktplatz von Świdnica",
+            "cs": "Zdobené růžové průčelí s balkonem a vyřezávanými dveřmi na náměstí ve Svídnici"
+          },
+          "specificPersonalApproval": {
+            "receipt": "swidnica-market-square-2026-10-28/source11-actiontime-human-photo-approval.json",
+            "sourceSHA256": "6582b19791863f14c3d03781b6e94438dd1f64509982cf7117b1bc85907506dc",
+            "questionId": "call_deddf5cb21dd4f6b91cb1f1b711c16ee",
+            "scope": "Public WROC-LOVE website and public repository; exact displayed photograph including woman at doorway"
           },
           "sourceReviewReceipt": "swidnica-market-square-2026-10-28/source-review-ledger.json"
         }

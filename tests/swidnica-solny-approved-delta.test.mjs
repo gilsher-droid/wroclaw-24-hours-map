@@ -15,11 +15,11 @@ test('New square and exact Salt Square photo preserve298 other records, aliases,
  const old=baseline.solnyBefore.media,now=w.WROC_CATALOG.places.solny.media;assert.deepEqual(plain(now.photos.slice(0,old.photos.length)),old.photos);assert.equal(now.photos.length,old.photos.length+1);for(const[src,m]of Object.entries(old.metadata))assert.deepEqual(plain(now.metadata[src]),m);assert.deepEqual(plain(now.videos),old.videos);
  assert.equal(w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.length,9);for(const[id,digest]of Object.entries(baseline.tripHashes)){const t=w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(t=>t.id===id);assert.equal(hash(beforeSwidnicaTrip(t)),digest,id);}
 });
-test('All twelve newly published assets preserve exact original bytes; only exact selfie consent is used',()=>{
- const square=w.WROC_CATALOG.places['swidnica-market-square'];assert.equal(hash(square),approved.approvedNewPlaceSHA);assert.equal(square.media.photos.length,11);assert.equal(square.media.videos.length,0);
- const salt=w.WROC_CATALOG.places.solny;const entries=[...square.media.photos.map(src=>[square,src]),[salt,salt.media.photos.at(-1)]];let selfie=0;const shas=new Set();
- for(const[p,src]of entries){const m=p.media.metadata[src];assert.equal(hash(readFileSync(src.slice(1))),m.sourceSHA256);assert.equal(m.assetSHA256,m.sourceSHA256);assert.equal(m.originalFullPicturePreserved,true);assert.notEqual(m.sourceSHA256,approved.pendingSource11SHA);for(const lang of['he','en','pl','de','cs'])assert.ok(m.alt[lang]);if(m.specificPersonalApproval){assert.equal(m.sourceSHA256,approved.source2ApprovedSHA);selfie++;}shas.add(m.sourceSHA256);}
- assert.equal(selfie,1);assert.equal(shas.size,12);
+test('All thirteen newly published assets preserve exact original bytes and both exact personal consents',()=>{
+ const square=w.WROC_CATALOG.places['swidnica-market-square'];assert.equal(hash(square),approved.approvedNewPlaceSHA);assert.equal(square.media.photos.length,12);assert.equal(square.media.videos.length,0);
+ const salt=w.WROC_CATALOG.places.solny;const entries=[...square.media.photos.map(src=>[square,src]),[salt,salt.media.photos.at(-1)]];let personalCount=0;const shas=new Set();
+ for(const[p,src]of entries){const m=p.media.metadata[src];assert.equal(hash(readFileSync(src.slice(1))),m.sourceSHA256);assert.equal(m.assetSHA256,m.sourceSHA256);assert.equal(m.originalFullPicturePreserved,true);for(const lang of['he','en','pl','de','cs'])assert.ok(m.alt[lang]);if(m.specificPersonalApproval){assert.ok([approved.source2ApprovedSHA,approved.source11ApprovedSHA].includes(m.sourceSHA256));assert.equal(m.specificPersonalApproval.sourceSHA256,m.sourceSHA256);personalCount++;}shas.add(m.sourceSHA256);}
+ assert.equal(personalCount,2);assert.equal(shas.size,13);
 });
 test('Historical projection rejects changed identity, old media, approval metadata and itinerary content',()=>{
  const salt=w.WROC_CATALOG.places.solny;

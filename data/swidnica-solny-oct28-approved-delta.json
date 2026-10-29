@@ -1,6 +1,6 @@
 {
   "canonicalID": "swidnica-market-square",
-  "approvedNewPlaceSHA": "764b117bd0b352dc4a8d76fb829f81bfe25f1a7b965c1f2d1745a5ab32248cf8",
+  "approvedNewPlaceSHA": "66b28317161572010c5e4af6a554d84e359ee649599033f51e0abcf87715c8f1",
   "approvedSolnySHA": "96bcecc9d845619a53aff7b15fde7d2a733349b241a14ebf2a5d703d59fd14a6",
   "approvedSolnyPhotos": [
     "/assets/named-wroclaw-oct28/source-040.jpg",
@@ -10,5 +10,6 @@
   ],
   "approvedTripSHA": "7422555c7149a0b4a2fe65b9accf9c969f371e9a73b47b83b0e503ca12b36c05",
   "source2ApprovedSHA": "36d446fdd7ec1bd81af960a10175f2871c1b7e229e398eb0d6d6a182e804658c",
-  "pendingSource11SHA": "6582b19791863f14c3d03781b6e94438dd1f64509982cf7117b1bc85907506dc"
+  "source11ApprovedSHA": "6582b19791863f14c3d03781b6e94438dd1f64509982cf7117b1bc85907506dc",
+  "source11ApprovalReceipt": "swidnica-market-square-2026-10-28/source11-actiontime-human-photo-approval.json"
 }
