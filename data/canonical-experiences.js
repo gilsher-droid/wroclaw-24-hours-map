@@ -653,10 +653,16 @@
       "cs": "Od jednoduchého polského jídla po focacciu, různé kuchyně a gastronomickou halu. Výběr našich zdokumentovaných míst s ověřeným typem podniku, nikoli povinná trasa nebo žebříček. Vyberte oblast, typ místa či kuchyni."
     },
     "relatedCanonicalPlaceIds": [
+      "arche-klasztor",
       "ato-ramen",
       "bar-mis",
       "bar-mleczny-mewa-wroclaw",
+      "central",
       "charlotte",
+      "chatka",
+      "entre-brasserie-wroclaw",
+      "fc-caffe-kuznicza",
+      "forum-kulinarne-wroclaw",
       "frytki",
       "india-concept-wroclaw",
       "mania-al-taglio-kuznicza",
@@ -668,10 +674,13 @@
       "pedet",
       "peruwiana",
       "pizza-si",
+      "pomiedzy-cafe-bistro-wroclaw",
       "raito-sushi-wroclaw",
       "rozowa-krowa-milk-bar-wroclaw",
+      "rumbar-pokoyhof-wroclaw",
       "vega-bar-weganski-wroclaw",
-      "vegan-af-ramen"
+      "vegan-af-ramen",
+      "woosabi-swidnicka-wroclaw"
     ],
     "productRefs": [
       "lifestyle-guide"
@@ -683,10 +692,16 @@
         "photoIndex": 0
       },
       "inheritFromCanonicalPlaceIds": [
+        "arche-klasztor",
         "ato-ramen",
         "bar-mis",
         "bar-mleczny-mewa-wroclaw",
+        "central",
         "charlotte",
+        "chatka",
+        "entre-brasserie-wroclaw",
+        "fc-caffe-kuznicza",
+        "forum-kulinarne-wroclaw",
         "frytki",
         "india-concept-wroclaw",
         "mania-al-taglio-kuznicza",
@@ -698,10 +713,13 @@
         "pedet",
         "peruwiana",
         "pizza-si",
+        "pomiedzy-cafe-bistro-wroclaw",
         "raito-sushi-wroclaw",
         "rozowa-krowa-milk-bar-wroclaw",
+        "rumbar-pokoyhof-wroclaw",
         "vega-bar-weganski-wroclaw",
-        "vegan-af-ramen"
+        "vegan-af-ramen",
+        "woosabi-swidnicka-wroclaw"
       ],
       "inheritSocial": true
     },
@@ -750,7 +768,8 @@
       "pan-precel-olawska",
       "peruwiana",
       "vega-bar-weganski-wroclaw",
-      "vegan-af-ramen"
+      "vegan-af-ramen",
+      "woosabi-swidnicka-wroclaw"
     ],
     "productRefs": [
       "lifestyle-guide"
@@ -770,7 +789,8 @@
         "pan-precel-olawska",
         "peruwiana",
         "vega-bar-weganski-wroclaw",
-        "vegan-af-ramen"
+        "vegan-af-ramen",
+        "woosabi-swidnicka-wroclaw"
       ],
       "inheritSocial": true
     },

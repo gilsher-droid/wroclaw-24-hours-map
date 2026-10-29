@@ -1747,19 +1747,33 @@
     ],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "restaurant",
+        "cafe",
+        "bar"
+      ],
       "cuisines": [],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://archeklasztorwroclaw.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.cafe",
+            "venueTypes.bar"
+          ],
+          "claim": "The official hotel site explicitly lists an on-site restaurant, cafés and bar in this same complex. The canonical place remains the whole hotel complex, not three new businesses."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -3971,9 +3985,11 @@
       "evidence": [],
       "review": {
         "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "reason": "Operator page describes the cultural institution but did not expose a current café menu or food operator in readable text. Do not assign the Figa partner to the whole institution without explicit evidence. Unknown is not unsuitable.",
         "sourceAvailable": true,
-        "city": "wroclaw"
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://instytutkultury.pl/barbara/"
       }
     }
   },
@@ -12736,19 +12752,31 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
       "cuisines": [],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://caffedavinci.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "Owner-maintained Plac Wolności 10 Poznań page identifies a café and takeaway. The Italian business name does not establish cuisine."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "poznan"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -13464,19 +13492,31 @@
     ],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
       "cuisines": [],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://centralcafe.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "The owner-maintained page identifies Café & Deli at Świętego Antoniego 10, serving breakfast, bagels and takeaway. No dietary or cuisine inference."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -14638,19 +14678,40 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
-      "cuisines": [],
+      "venueTypes": [
+        "restaurant",
+        "cafe",
+        "bakery",
+        "wine-bar"
+      ],
+      "cuisines": [
+        "french"
+      ],
       "dietary": {
-        "venue": "unknown",
-        "veganOptions": "unknown",
+        "venue": "mixed",
+        "veganOptions": "verified",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://bistrocharlotte.com/pl/lokale/charlotte-krysiewicza-poznan/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.cafe",
+            "venueTypes.bakery",
+            "venueTypes.wine-bar",
+            "cuisines.french",
+            "dietary.venue",
+            "dietary.veganOptions"
+          ],
+          "claim": "Exact Poznań branch page describes French bistro, fresh bread and wine; its current linked menu explicitly labels vegan tartines alongside meat dishes. This is branch-specific evidence, not copied Wrocław assumptions."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "poznan"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -14963,19 +15024,32 @@
     ],
     "dining": {
       "version": 1,
-      "venueTypes": [],
-      "cuisines": [],
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "polish"
+      ],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://chatkaprzyjatkach.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.polish"
+          ],
+          "claim": "The owner identifies Chatka at Odrzańska 6-7 as a restaurant serving traditional Polish food. No dietary claims inferred."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -15737,9 +15811,11 @@
       "evidence": [],
       "review": {
         "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "reason": "Official site returned a server error during this review. No new dietary or type assertion made from photographs. Unknown is not unsuitable.",
         "sourceAvailable": true,
-        "city": "wroclaw"
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://cocofli.pl/"
       }
     }
   },
@@ -19998,9 +20074,11 @@
       "evidence": [],
       "review": {
         "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "reason": "Readable owner page confirms location and links image menus, but did not provide sufficient explicit type or dietary text for new structured assertions. Unknown is not unsuitable.",
         "sourceAvailable": true,
-        "city": "wroclaw"
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://domeknadfosa.pl/"
       }
     }
   },
@@ -21764,9 +21842,11 @@
       "evidence": [],
       "review": {
         "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "reason": "Official site currently exposes the coffee roastery/shop, but the readable page did not verify café service at this exact Odrzańska branch. Unknown is not unsuitable.",
         "sourceAvailable": true,
-        "city": "wroclaw"
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://elgatocoffee.pl/"
       }
     }
   },
@@ -22063,19 +22143,33 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
-      "cuisines": [],
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "french"
+      ],
       "dietary": {
-        "venue": "unknown",
+        "venue": "mixed",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://entrehotel.pl/restauracja/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.french",
+            "dietary.venue"
+          ],
+          "claim": "Official Entre restaurant page describes French classics, meat, fish and seafood. The restaurant identity remains separate from the hotel identity."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -23060,19 +23154,31 @@
     ],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
       "cuisines": [],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://fccaffe.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "Owner-maintained exact Kuźnicza 30 page identifies a café with breakfast, cakes and takeaway."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -23380,19 +23486,33 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
-      "cuisines": [],
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "international"
+      ],
       "dietary": {
-        "venue": "unknown",
+        "venue": "mixed",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://foodfort.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.international",
+            "dietary.venue"
+          ],
+          "claim": "Owner describes the Poznań restaurant with international inspirations and meat and fish dishes."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "poznan"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -23565,19 +23685,33 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
-      "cuisines": [],
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "mediterranean"
+      ],
       "dietary": {
-        "venue": "unknown",
+        "venue": "mixed",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://forumkulinarne.eu/en/home-page/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.mediterranean",
+            "dietary.venue"
+          ],
+          "claim": "The official restaurant homepage identifies its restaurant and embedded owner profile describes Mediterranean cuisine and meat dishes. No dietary certification is inferred."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -26901,19 +27035,31 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
       "cuisines": [],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://ghiacci-cafe.eatbu.com/?lang=en",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "Owner-maintained Poznań page describes café, breakfast, lunch and takeaway. Serving ice cream alone does not change the entire venue into a dedicated ice-cream shop."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "poznan"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -28060,9 +28206,11 @@
       "evidence": [],
       "review": {
         "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "reason": "Official website timed out during this review. Old canonical prose is not new field-specific verification. Unknown is not unsuitable.",
         "sourceAvailable": true,
-        "city": "wroclaw"
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://restauracjagustaw.pl/"
       }
     }
   },
@@ -43074,9 +43222,11 @@
       "evidence": [],
       "review": {
         "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "reason": "Official site currently describes a Wrocław roastery and online shop. That does not by itself classify the exact Paderewskiego café. Unknown is not unsuitable.",
         "sourceAvailable": true,
-        "city": "wroclaw"
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://malaczarna.coffee/"
       }
     }
   },
@@ -50221,19 +50371,36 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
-      "cuisines": [],
+      "venueTypes": [
+        "restaurant",
+        "cafe",
+        "bar"
+      ],
+      "cuisines": [
+        "international"
+      ],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://purohotels.com/pl/poznan/restauracja/restauracja-nifty/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.cafe",
+            "venueTypes.bar",
+            "cuisines.international"
+          ],
+          "claim": "Official hotel page explicitly describes Nifty in Poznań as restaurant, café and bar with international cuisine."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "poznan"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -58057,19 +58224,33 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
-      "cuisines": [],
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "polish"
+      ],
       "dietary": {
-        "venue": "unknown",
+        "venue": "mixed",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://pierozak.com/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.polish",
+            "dietary.venue"
+          ],
+          "claim": "Owner describes Polish home cuisine and explicitly lists the Półwiejska 10 branch and meat and dairy fillings. Vegetable fillings alone do not establish dietary classification."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "poznan"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -58672,19 +58853,31 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "tea-room",
+        "restaurant"
+      ],
       "cuisines": [],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://podlampionami.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.tea-room",
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official business explicitly describes a tearoom, restaurant and tea shop. No Chinese cuisine inferred from its quoted philosopher."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "poznan"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -59225,19 +59418,32 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "cafe",
+        "restaurant"
+      ],
       "cuisines": [],
       "dietary": {
-        "venue": "unknown",
+        "venue": "mixed",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://pomiedzy.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.restaurant",
+            "dietary.venue"
+          ],
+          "claim": "Owner-maintained Dubois 2 page explicitly identifies cafe & bistro with breakfast and lunch and lists meat-filled buns. Tempeh ingredients alone are not vegan certification."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -67477,19 +67683,32 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "restaurant",
+        "bar"
+      ],
       "cuisines": [],
       "dietary": {
-        "venue": "unknown",
+        "venue": "mixed",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://rumbar.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.bar",
+            "dietary.venue"
+          ],
+          "claim": "Owner-maintained Świętego Antoniego 2/4 page explicitly describes restaurant service, cocktail menu and seafood."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -67606,19 +67825,31 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "cafe",
+        "takeaway"
+      ],
       "cuisines": [],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://sniadaniowniabyryczka.eatbu.com/?lang=pl",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.cafe",
+            "venueTypes.takeaway"
+          ],
+          "claim": "Owner-maintained Poznań page explicitly describes a café, meals, takeaway and delivery. No dietary claim inferred."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "poznan"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
@@ -74346,9 +74577,11 @@
       "evidence": [],
       "review": {
         "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
+        "reason": "Official site returned no readable branch content. Brand title alone does not verify exact Wrocław branch classification and dietary choices. Unknown is not unsuitable.",
         "sourceAvailable": true,
-        "city": "wroclaw"
+        "city": "wroclaw",
+        "attemptedAt": "2026-10-29",
+        "attemptedSource": "https://www.thaithai.pl/"
       }
     }
   },
@@ -85327,19 +85560,36 @@
     "socialPosts": [],
     "dining": {
       "version": 1,
-      "venueTypes": [],
-      "cuisines": [],
+      "venueTypes": [
+        "restaurant",
+        "bar"
+      ],
+      "cuisines": [
+        "asian"
+      ],
       "dietary": {
-        "venue": "unknown",
+        "venue": "mixed",
         "veganOptions": "unknown",
-        "vegetarianOptions": "unknown"
+        "vegetarianOptions": "verified"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://woosabi.pl/lounge/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "venueTypes.bar",
+            "cuisines.asian",
+            "dietary.venue",
+            "dietary.vegetarianOptions"
+          ],
+          "claim": "Exact Świdnicka branch page explicitly describes Asian food, cocktails and bowls for fish, meat and vegetarian diners. Vegetarian is not interpreted as vegan."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
       }
     }
   },
