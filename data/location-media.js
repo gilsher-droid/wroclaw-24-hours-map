@@ -312,3 +312,6 @@ window.WROC_LOCATION_MEDIA_SOURCE_SOCIAL = Object.fromEntries(Object.entries(win
 
 // Refresh both itinerary appearances from the canonical promenade gallery.
 (function(){const p=window.WROC_CATALOG?.getPlace("dunikowski");if(!p)return;for(const id of ["dunikowski","dunikowski-final"]){const r=window.WROC_LOCATION_MEDIA[id]||{};r.gallery=p.media.photos;window.WROC_LOCATION_MEDIA[id]=r;}})();
+
+// Shared photographs for the newly requested music venue and city garden.
+(function(){for(const id of ["klub-lacznik-wroclaw","copernicus-park-wroclaw"]){const p=window.WROC_CATALOG?.getPlace(id);if(p)window.WROC_LOCATION_MEDIA[id]={gallery:p.media.photos,videos:p.media.videos};}})();

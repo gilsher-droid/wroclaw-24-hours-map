@@ -63,7 +63,7 @@ h1 { margin-bottom: 24px; font-size: clamp(54px, 7vw, 96px); line-height: .98; }
 .search-box:focus-within { border-color: var(--blue); box-shadow: 0 0 0 4px rgba(36,119,189,.1); }
 .search-icon { color: var(--blue); font-size: 25px; line-height: 1; }
 .search-box input { width: 100%; border: 0; outline: 0; background: transparent; color: var(--ink); }
-.category-filters { margin-bottom: 24px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.category-filters { margin-bottom: 24px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; }
 .amenity-filters { margin: -12px 0 24px; display: flex; }
 .amenity-button { min-height: 48px; padding: 9px 16px; display: inline-flex; align-items: center; gap: 9px; border: 1px solid #abd8ed; border-radius: 999px; background: #edfaff; color: #075477; font-weight: 800; cursor: pointer; }
 .amenity-button:hover { border-color: var(--blue); }
@@ -289,3 +289,11 @@ article[data-place="fc-caffe-kuznicza"] p,article[data-place="czarna-magia"] p,a
 
 /* This reused original is portrait; keep its full frame in the Hala gallery. */
 .media-grid img[src="/assets/papa-gnomes-13.jpg"]{height:auto;max-height:78vh;object-fit:contain;background:#f3f5f3;}
+
+/* Music venues use the existing navy brand colour and full visit photographs. */
+.category-button.enjoy.active,.place-tag.enjoy,.lifestyle-marker.enjoy{background:var(--navy)}
+.media-grid img[src^="/assets/club-copernicus-oct29/"]{height:auto;max-height:78vh;object-fit:contain}
+@media(max-width:760px){.category-button.enjoy{grid-column:1 / -1}}
+
+/* Keep the new venue text and visit photographs complete. */
+article[data-place="klub-lacznik-wroclaw"] :is(h3,p),.leaflet-popup-content:has(img[src*="/club-copernicus-oct29/"]) :is(strong,span,p){white-space:pre-line}
