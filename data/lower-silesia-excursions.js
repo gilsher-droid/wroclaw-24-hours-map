@@ -3730,13 +3730,377 @@
   ]
 };
 
+  const gdanskSopotMalbork = {
+  "id": "gdansk-sopot-malbork-three-day-trip",
+  "slug": "gdansk-sopot-malbork-three-days",
+  "title": {
+    "he": "שלושה ימים מוורוצלב: גדנסק, סופוט וטירת מלבורק, למרחיקי לכת",
+    "en": "Three days from Wrocław: Gdańsk, Sopot and Malbork Castle",
+    "pl": "Trzy dni z Wrocławia: Gdańsk, Sopot i zamek w Malborku",
+    "de": "Drei Tage ab Breslau: Danzig, Sopot und Marienburg",
+    "cs": "Tři dny z Vratislavi: Gdaňsk, Sopoty a hrad Malbork"
+  },
+  "summary": {
+    "he": "למרחיקי לכת: יוצאים מוורוצלב לשלושה ימים בצפון פולין. שני לילות במלון פורו בגדנסק, שיטוט בעיר ובסופוט, וביקור בטירת מלבורק לפני החזרה.",
+    "en": "For travellers going further: three days in northern Poland from Wrocław, two nights at PURO Gdańsk, city walks, Sopot’s seafront and Malbork Castle before returning.",
+    "pl": "Dla podróżujących dalej: trzy dni na północy Polski z Wrocławia, dwie noce w PURO Gdańsk, spacery po mieście, Sopot i zamek w Malborku przed powrotem.",
+    "de": "Für Reisende mit Fernweh: drei Tage in Nordpolen ab Breslau, zwei Nächte im PURO Danzig, Stadtspaziergänge, Sopot und Marienburg vor der Rückfahrt.",
+    "cs": "Pro cestovatele mířící dál: tři dny na severu Polska z Vratislavi, dvě noci v PURO Gdaňsk, městské procházky, Sopoty a hrad Malbork před návratem."
+  },
+  "meta": {
+    "duration": "three-days",
+    "days": 3,
+    "nights": 2,
+    "startsAt": "wroclaw",
+    "region": "pomeranian",
+    "tags": [
+      "city",
+      "sea",
+      "castles",
+      "overnight",
+      "long-distance"
+    ]
+  },
+  "durationLabel": {
+    "he": "שלושה ימים ושני לילות",
+    "en": "Three days, two nights",
+    "pl": "Trzy dni, dwie noce",
+    "de": "Drei Tage, zwei Nächte",
+    "cs": "Tři dny, dvě noci"
+  },
+  "regionLabel": {
+    "he": "צפון פולין",
+    "en": "Northern Poland",
+    "pl": "Północna Polska",
+    "de": "Nordpolen",
+    "cs": "Severní Polsko"
+  },
+  "heroMedia": {
+    "canonicalPlaceId": "gdansk-motlawa-riverfront",
+    "photoIndex": 1
+  },
+  "canonicalPlaceIds": [
+    "gdansk-main-town",
+    "gdansk-motlawa-riverfront",
+    "puro-gdansk-stare-miasto",
+    "sopot-seafront",
+    "malbork-castle"
+  ],
+  "optionalPlaceIds": [],
+  "initialMapFocus": "local-stops",
+  "routePoints": [
+    {
+      "id": "wroclaw-start",
+      "kind": "context",
+      "label": {
+        "he": "יציאה מוורוצלב",
+        "en": "Depart Wrocław",
+        "pl": "Wyjazd z Wrocławia",
+        "de": "Abfahrt Breslau",
+        "cs": "Odjezd z Vratislavi"
+      },
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      }
+    },
+    {
+      "id": "gdansk-main-town",
+      "kind": "place",
+      "canonicalPlaceId": "gdansk-main-town"
+    },
+    {
+      "id": "gdansk-motlawa-riverfront",
+      "kind": "place",
+      "canonicalPlaceId": "gdansk-motlawa-riverfront"
+    },
+    {
+      "id": "puro-gdansk-stare-miasto",
+      "kind": "place",
+      "canonicalPlaceId": "puro-gdansk-stare-miasto"
+    },
+    {
+      "id": "sopot-seafront",
+      "kind": "place",
+      "canonicalPlaceId": "sopot-seafront"
+    },
+    {
+      "id": "malbork-castle",
+      "kind": "place",
+      "canonicalPlaceId": "malbork-castle"
+    },
+    {
+      "id": "wroclaw-return",
+      "kind": "context",
+      "label": {
+        "he": "חזרה לוורוצלב",
+        "en": "Return to Wrocław",
+        "pl": "Powrót do Wrocławia",
+        "de": "Rückfahrt nach Breslau",
+        "cs": "Návrat do Vratislavi"
+      },
+      "coordinates": {
+        "lat": 51.1079,
+        "lng": 17.0385
+      }
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": {
+        "he": "יום ראשון: גדנסק ליד הנהר",
+        "en": "Day 1: Gdańsk by the river",
+        "pl": "Dzień 1: Gdańsk nad rzeką",
+        "de": "Tag 1: Danzig am Fluss",
+        "cs": "Den 1: Gdaňsk u řeky"
+      }
+    },
+    {
+      "day": 2,
+      "title": {
+        "he": "יום שני: סופוט והים",
+        "en": "Day 2: Sopot and the sea",
+        "pl": "Dzień 2: Sopot i morze",
+        "de": "Tag 2: Sopot und das Meer",
+        "cs": "Den 2: Sopoty a moře"
+      }
+    },
+    {
+      "day": 3,
+      "title": {
+        "he": "יום שלישי: מלבורק וחזרה לוורוצלב",
+        "en": "Day 3: Malbork and return to Wrocław",
+        "pl": "Dzień 3: Malbork i powrót do Wrocławia",
+        "de": "Tag 3: Marienburg und Rückfahrt nach Breslau",
+        "cs": "Den 3: Malbork a návrat do Vratislavi"
+      }
+    }
+  ],
+  "travel": {
+    "recommendedMode": "car",
+    "estimates": [],
+    "note": {
+      "he": "צאו מוקדם ביום הראשון והשאירו מרווח גדול לחזרה ביום השלישי. הזמינו שני לילות לינה ובדקו מראש כרטיסים ושעות ביקור במלבורק. בסופוט התאימו את ההליכה למזג האוויר. בדקו זמני נסיעה לתאריכים שלכם.",
+      "en": "Leave early on day one and reserve ample time for the return on day three. Book two hotel nights and check Malbork tickets and visiting hours in advance. Adapt the Sopot walk to the weather and check travel times for your dates.",
+      "pl": "Wyjedź wcześnie pierwszego dnia i zostaw dużo czasu na powrót trzeciego dnia. Zarezerwuj dwie noce i sprawdź bilety oraz godziny w Malborku. Spacer w Sopocie dostosuj do pogody i sprawdź czasy przejazdów.",
+      "de": "Am ersten Tag früh starten und am dritten viel Zeit für die Rückfahrt einplanen. Zwei Nächte buchen und Tickets sowie Besuchszeiten in Malbork vorher prüfen. Den Spaziergang in Sopot dem Wetter anpassen und Fahrzeiten prüfen.",
+      "cs": "První den vyjeďte brzy a třetí den ponechte dost času na návrat. Rezervujte dvě noci a předem ověřte vstupenky a návštěvní hodiny v Malborku. Procházku v Sopotech přizpůsobte počasí a ověřte časy cest."
+    },
+    "options": [
+      {
+        "mode": "car",
+        "title": {
+          "he": "רכב והליכה",
+          "en": "Car and walking",
+          "pl": "Samochód i spacery",
+          "de": "Auto und Spaziergänge",
+          "cs": "Auto a procházky"
+        },
+        "description": {
+          "he": "צאו מוקדם ביום הראשון והשאירו מרווח גדול לחזרה ביום השלישי. הזמינו שני לילות לינה ובדקו מראש כרטיסים ושעות ביקור במלבורק. בסופוט התאימו את ההליכה למזג האוויר. בדקו זמני נסיעה לתאריכים שלכם.",
+          "en": "Leave early on day one and reserve ample time for the return on day three. Book two hotel nights and check Malbork tickets and visiting hours in advance. Adapt the Sopot walk to the weather and check travel times for your dates.",
+          "pl": "Wyjedź wcześnie pierwszego dnia i zostaw dużo czasu na powrót trzeciego dnia. Zarezerwuj dwie noce i sprawdź bilety oraz godziny w Malborku. Spacer w Sopocie dostosuj do pogody i sprawdź czasy przejazdów.",
+          "de": "Am ersten Tag früh starten und am dritten viel Zeit für die Rückfahrt einplanen. Zwei Nächte buchen und Tickets sowie Besuchszeiten in Malbork vorher prüfen. Den Spaziergang in Sopot dem Wetter anpassen und Fahrzeiten prüfen.",
+          "cs": "První den vyjeďte brzy a třetí den ponechte dost času na návrat. Rezervujte dvě noci a předem ověřte vstupenky a návštěvní hodiny v Malborku. Procházku v Sopotech přizpůsobte počasí a ověřte časy cest."
+        }
+      }
+    ]
+  },
+  "navigation": {
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Wroclaw%2CPoland&destination=Wroclaw%2CPoland&waypoints=Gdansk%2CPoland%7CSopot%2CPoland%7CMalbork+Castle&travelmode=driving"
+  },
+  "editorial": {
+    "why": {
+      "he": "גדנסק נותנת את העיר והערבים על הנהר, סופוט מוסיפה ים וטיילת, ומלבורק מסיימת את הטיול בטירה. שני לילות באותו מלון מאפשרים לצאת לסופוט בלי להחליף מקום לינה בכל ערב.",
+      "en": "Gdańsk brings city walks and evenings by the river, Sopot adds the sea and promenade, and Malbork rounds off the trip with a castle. Two nights in one hotel give you a base for Sopot without changing accommodation each evening.",
+      "pl": "Gdańsk to spacery i wieczory nad rzeką, Sopot dodaje morze i promenadę, a Malbork zamyka podróż zamkiem. Dwie noce w jednym hotelu pozwalają odwiedzić Sopot bez codziennej zmiany noclegu.",
+      "de": "Danzig bietet Stadtspaziergänge und Flussabende, Sopot Meer und Promenade, Malbork die Burg zum Abschluss. Zwei Nächte im selben Hotel ermöglichen einen Ausflug nach Sopot ohne täglichen Unterkunftswechsel.",
+      "cs": "Gdaňsk nabídne procházky a večery u řeky, Sopoty moře a promenádu, Malbork hrad na závěr. Dvě noci ve stejném hotelu umožní výlet do Sopot bez každodenní změny ubytování."
+    },
+    "forWhom": {
+      "he": "למי שמוכנים להקדיש שלושה ימים לנסיעה ארוכה שמשלבת עיר, חוף וטירה.",
+      "en": "For travellers willing to devote three days to a longer city, coast and castle journey.",
+      "pl": "Dla osób gotowych przeznaczyć trzy dni na dłuższą podróż: miasto, wybrzeże i zamek.",
+      "de": "Für Reisende, die drei Tage für Stadt, Küste und Burg einplanen.",
+      "cs": "Pro cestovatele ochotné věnovat tři dny delší cestě za městem, pobřežím a hradem."
+    },
+    "practical": {
+      "he": "צאו מוקדם ביום הראשון והשאירו מרווח גדול לחזרה ביום השלישי. הזמינו שני לילות לינה ובדקו מראש כרטיסים ושעות ביקור במלבורק. בסופוט התאימו את ההליכה למזג האוויר. בדקו זמני נסיעה לתאריכים שלכם.",
+      "en": "Leave early on day one and reserve ample time for the return on day three. Book two hotel nights and check Malbork tickets and visiting hours in advance. Adapt the Sopot walk to the weather and check travel times for your dates.",
+      "pl": "Wyjedź wcześnie pierwszego dnia i zostaw dużo czasu na powrót trzeciego dnia. Zarezerwuj dwie noce i sprawdź bilety oraz godziny w Malborku. Spacer w Sopocie dostosuj do pogody i sprawdź czasy przejazdów.",
+      "de": "Am ersten Tag früh starten und am dritten viel Zeit für die Rückfahrt einplanen. Zwei Nächte buchen und Tickets sowie Besuchszeiten in Malbork vorher prüfen. Den Spaziergang in Sopot dem Wetter anpassen und Fahrzeiten prüfen.",
+      "cs": "První den vyjeďte brzy a třetí den ponechte dost času na návrat. Rezervujte dvě noci a předem ověřte vstupenky a návštěvní hodiny v Malborku. Procházku v Sopotech přizpůsobte počasí a ověřte časy cest."
+    }
+  },
+  "steps": [
+    {
+      "id": "1-wroclaw-start",
+      "day": 1,
+      "mapPointId": "wroclaw-start",
+      "title": {
+        "he": "יציאה מוורוצלב",
+        "en": "Depart Wrocław",
+        "pl": "Wyjazd z Wrocławia",
+        "de": "Abfahrt Breslau",
+        "cs": "Odjezd z Vratislavi"
+      },
+      "duration": {
+        "he": "לפי הקצב שלכם והניווט העדכני",
+        "en": "At your pace; check current navigation",
+        "pl": "We własnym tempie; sprawdź nawigację",
+        "de": "In Ihrem Tempo; aktuelle Navigation prüfen",
+        "cs": "Vlastním tempem; ověřte aktuální navigaci"
+      }
+    },
+    {
+      "id": "1-gdansk-main-town",
+      "day": 1,
+      "mapPointId": "gdansk-main-town",
+      "title": {
+        "he": "מרכז גדנסק, רחוב דלוגה והכיכר",
+        "en": "Gdańsk Main Town, Długa and the square",
+        "pl": "Główne Miasto w Gdańsku, Długa i Długi Targ",
+        "de": "Danziger Rechtstadt, Długa und Langer Markt",
+        "cs": "Hlavní Město v Gdaňsku, Długa a Długi Targ"
+      },
+      "duration": {
+        "he": "לפי הקצב שלכם והניווט העדכני",
+        "en": "At your pace; check current navigation",
+        "pl": "We własnym tempie; sprawdź nawigację",
+        "de": "In Ihrem Tempo; aktuelle Navigation prüfen",
+        "cs": "Vlastním tempem; ověřte aktuální navigaci"
+      }
+    },
+    {
+      "id": "1-gdansk-motlawa-riverfront",
+      "day": 1,
+      "mapPointId": "gdansk-motlawa-riverfront",
+      "title": {
+        "he": "גדנסק לאורך המוטלאווה",
+        "en": "Gdańsk along the Motława",
+        "pl": "Gdańsk nad Motławą",
+        "de": "Danzig an der Mottlau",
+        "cs": "Gdaňsk podél Motławy"
+      },
+      "duration": {
+        "he": "לפי הקצב שלכם והניווט העדכני",
+        "en": "At your pace; check current navigation",
+        "pl": "We własnym tempie; sprawdź nawigację",
+        "de": "In Ihrem Tempo; aktuelle Navigation prüfen",
+        "cs": "Vlastním tempem; ověřte aktuální navigaci"
+      }
+    },
+    {
+      "id": "1-puro-gdansk-stare-miasto",
+      "day": 1,
+      "mapPointId": "puro-gdansk-stare-miasto",
+      "title": {
+        "he": "מלון פורו גדנסק, בסיס לשני לילות",
+        "en": "PURO Gdańsk, our two-night base",
+        "pl": "PURO Gdańsk, nasza baza na dwie noce",
+        "de": "PURO Gdańsk, unsere Basis für zwei Nächte",
+        "cs": "PURO Gdaňsk, naše základna na dvě noci"
+      },
+      "duration": {
+        "he": "לפי הקצב שלכם והניווט העדכני",
+        "en": "At your pace; check current navigation",
+        "pl": "We własnym tempie; sprawdź nawigację",
+        "de": "In Ihrem Tempo; aktuelle Navigation prüfen",
+        "cs": "Vlastním tempem; ověřte aktuální navigaci"
+      }
+    },
+    {
+      "id": "2-sopot-seafront",
+      "day": 2,
+      "mapPointId": "sopot-seafront",
+      "title": {
+        "he": "סופוט, החוף והטיילת",
+        "en": "Sopot beach and seafront",
+        "pl": "Sopot, plaża i promenada",
+        "de": "Sopot, Strand und Promenade",
+        "cs": "Sopoty, pláž a promenáda"
+      },
+      "duration": {
+        "he": "לפי הקצב שלכם והניווט העדכני",
+        "en": "At your pace; check current navigation",
+        "pl": "We własnym tempie; sprawdź nawigację",
+        "de": "In Ihrem Tempo; aktuelle Navigation prüfen",
+        "cs": "Vlastním tempem; ověřte aktuální navigaci"
+      }
+    },
+    {
+      "id": "2-puro-gdansk-stare-miasto",
+      "day": 2,
+      "mapPointId": "puro-gdansk-stare-miasto",
+      "title": {
+        "he": "מלון פורו גדנסק, בסיס לשני לילות",
+        "en": "PURO Gdańsk, our two-night base",
+        "pl": "PURO Gdańsk, nasza baza na dwie noce",
+        "de": "PURO Gdańsk, unsere Basis für zwei Nächte",
+        "cs": "PURO Gdaňsk, naše základna na dvě noci"
+      },
+      "duration": {
+        "he": "לפי הקצב שלכם והניווט העדכני",
+        "en": "At your pace; check current navigation",
+        "pl": "We własnym tempie; sprawdź nawigację",
+        "de": "In Ihrem Tempo; aktuelle Navigation prüfen",
+        "cs": "Vlastním tempem; ověřte aktuální navigaci"
+      }
+    },
+    {
+      "id": "3-malbork-castle",
+      "day": 3,
+      "mapPointId": "malbork-castle",
+      "title": {
+        "he": "טירת מלבורק",
+        "en": "Malbork Castle",
+        "pl": "Zamek w Malborku",
+        "de": "Marienburg in Malbork",
+        "cs": "Hrad Malbork"
+      },
+      "duration": {
+        "he": "לפי הקצב שלכם והניווט העדכני",
+        "en": "At your pace; check current navigation",
+        "pl": "We własnym tempie; sprawdź nawigację",
+        "de": "In Ihrem Tempo; aktuelle Navigation prüfen",
+        "cs": "Vlastním tempem; ověřte aktuální navigaci"
+      }
+    },
+    {
+      "id": "3-wroclaw-return",
+      "day": 3,
+      "mapPointId": "wroclaw-return",
+      "title": {
+        "he": "חזרה לוורוצלב",
+        "en": "Return to Wrocław",
+        "pl": "Powrót do Wrocławia",
+        "de": "Rückfahrt nach Breslau",
+        "cs": "Návrat do Vratislavi"
+      },
+      "duration": {
+        "he": "לפי הקצב שלכם והניווט העדכני",
+        "en": "At your pace; check current navigation",
+        "pl": "We własnym tempie; sprawdź nawigację",
+        "de": "In Ihrem Tempo; aktuelle Navigation prüfen",
+        "cs": "Vlastním tempem; ověřte aktuální navigaci"
+      }
+    }
+  ],
+  "metadata": {
+    "userTitleOrigin": "בדרך לוורצלב 3",
+    "supersededStopoverFraming": "User clarified three-day round trip from Wroclaw",
+    "provenanceFile": "/data/gdansk-sopot-malbork-provenance.json"
+  }
+};
+
   const product = {
     id: "lower-silesia-excursions",
     type: "excursions",
     title: t("טיולים מוורוצלב", "Excursions from Wrocław", "Wycieczki z Wrocławia", "Ausflüge ab Wrocław", "Výlety z Vratislavi"),
-    status: t("תשעה טיולים מוכנים", "Nine excursions ready", "Dziewięć wycieczek gotowych", "Neun Ausflüge verfügbar", "Devět výletů připraveno"),
-    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko, poznanStopover, slovakiaStopover, torunDayTrip],
-    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds, ...poznanStopover.canonicalPlaceIds, ...poznanStopover.optionalPlaceIds, ...slovakiaStopover.canonicalPlaceIds, ...slovakiaStopover.optionalPlaceIds, ...torunDayTrip.canonicalPlaceIds, ...torunDayTrip.optionalPlaceIds],
+    status: t("עשרה טיולים מוכנים", "Ten excursions ready", "Dziesięć wycieczek gotowych", "Zehn Ausflüge verfügbar", "Deset výletů připraveno"),
+    excursions: [excursion, brzegMoszna, jaworKarpacz, czochaBoleslawiec, warsawLodz, srebrnaKlodzko, poznanStopover, slovakiaStopover, torunDayTrip, gdanskSopotMalbork],
+    canonicalPlaceIds: [...canonicalPlaceIds, ...brzegMosznaPlaceIds, ...jaworKarpacz.canonicalPlaceIds, ...czochaBoleslawiec.canonicalPlaceIds, ...warsawLodz.canonicalPlaceIds, ...warsawLodz.departurePlaceIds, ...srebrnaKlodzko.canonicalPlaceIds, ...poznanStopover.canonicalPlaceIds, ...poznanStopover.optionalPlaceIds, ...slovakiaStopover.canonicalPlaceIds, ...slovakiaStopover.optionalPlaceIds, ...torunDayTrip.canonicalPlaceIds, ...torunDayTrip.optionalPlaceIds, ...gdanskSopotMalbork.canonicalPlaceIds],
   };
 
   if (window.WROC_CATALOG?.registerProduct) {

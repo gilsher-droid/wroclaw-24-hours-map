@@ -91,5 +91,16 @@ window.WROC_HOME_EXPERIENCES = [
       "cs": "Objevte vratislavské mléčné bary"
     },
     "photo": "/assets/experiences/milk-bars/visit-05.jpg"
+  },
+  {
+    "id": "bridges-and-islands-wroclaw",
+    "name": {
+      "he": "מסע של 102 גשרים מתחיל בגשר אחד",
+      "en": "A journey of 102 bridges begins with one",
+      "pl": "Podróż przez 102 mosty zaczyna się od jednego",
+      "de": "Eine Reise über 102 Brücken beginnt mit einer",
+      "cs": "Cesta přes 102 mostů začíná jediným"
+    },
+    "photo": "/assets/experiences/bridges-islands/river-01.jpg"
   }
 ];
