@@ -1,3 +1,4 @@
+import {beforeBridgesNorthSnapshot} from './bridges-north-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -72,6 +73,7 @@ export function beforeDialogueBeachGallery(value, id) {
 }
 
 export function beforeDialogueBeachOnlySnapshot(window) {
+  beforeBridgesNorthSnapshot(window);
   const catalog = window.WROC_CATALOG;
   if (catalog) {
     assertReviewedDialogueBeach(catalog.places);
