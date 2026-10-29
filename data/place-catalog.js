@@ -18540,9 +18540,152 @@
       "cs"
     ],
     "media": {
-      "photos": [],
+      "thumbnail": "/assets/dunikowski-oct29/IMG_0800.jpg",
+      "photos": [
+        "/assets/dunikowski-oct29/IMG_0800.jpg",
+        "/assets/dunikowski-oct29/IMG_0801.jpg",
+        "/assets/dunikowski-oct29/IMG_0802.jpg",
+        "/assets/dunikowski-oct29/IMG_0803.jpg"
+      ],
       "videos": [],
-      "metadata": {}
+      "metadata": {
+        "/assets/dunikowski-oct29/IMG_0800.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/טיילת דוניקובסקי/IMG_0800.HEIC",
+          "sourceSHA256": "3afdf42e8ce815d066fb13da20cb233654075229f2aecc980802c91b35a7f9f2",
+          "assetSHA256": "4214a1ee2e03d44f1ad86d334d868e5572c64da1c23f05b9e1315edc7793d1cf",
+          "sourceFormat": "HEIC",
+          "assetFormat": "JPEG",
+          "sourceDimensions": [
+            5712,
+            4284
+          ],
+          "originalFullPicturePreserved": true,
+          "noCropOrResize": true,
+          "conversion": "libheif 1.23.2 JPEG quality95; full primary image with container orientation applied",
+          "alt": {
+            "he": "צילום מהביקור בטיילת דוניקובסקי, ברקע האודר ומגדלי הקתדרלה",
+            "en": "A photograph from our Dunikowski Boulevard visit, with the Oder and cathedral towers behind",
+            "pl": "Zdjęcie z naszej wizyty na bulwarze Dunikowskiego, z Odrą i wieżami katedry w tle",
+            "de": "Ein Foto von unserem Besuch am Dunikowski-Boulevard, mit Oder und Domtürmen im Hintergrund",
+            "cs": "Fotografie z naší návštěvy Dunikowského nábřeží, s Odrou a věžemi katedrály v pozadí"
+          },
+          "title": {
+            "he": "צילום מהביקור בטיילת דוניקובסקי, ברקע האודר ומגדלי הקתדרלה",
+            "en": "A photograph from our Dunikowski Boulevard visit, with the Oder and cathedral towers behind",
+            "pl": "Zdjęcie z naszej wizyty na bulwarze Dunikowskiego, z Odrą i wieżami katedry w tle",
+            "de": "Ein Foto von unserem Besuch am Dunikowski-Boulevard, mit Oder und Domtürmen im Hintergrund",
+            "cs": "Fotografie z naší návštěvy Dunikowského nábřeží, s Odrou a věžemi katedrály v pozadí"
+          },
+          "specificPersonalApproval": {
+            "receipt": "dunikowski-new-inbox-2026-10-29/four-personal-photos-human-approval.json",
+            "questionId": "call_50534852bb94478096d14800fa3bcf0b",
+            "sourceSHA256": "3afdf42e8ce815d066fb13da20cb233654075229f2aecc980802c91b35a7f9f2",
+            "scope": "Four exact displayed personal photographs including woman and couple; public WROC-LOVE website, maps, and public site repository"
+          }
+        },
+        "/assets/dunikowski-oct29/IMG_0801.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/טיילת דוניקובסקי/IMG_0801.HEIC",
+          "sourceSHA256": "63e645bab0e5ac3f3fd699319b45b75e3cd13d15abd346d0fd229429f70c7997",
+          "assetSHA256": "555350672443f7b40ed96aa02f67d413d15c92165bcfb4f694cebc6f2e85c6cc",
+          "sourceFormat": "HEIC",
+          "assetFormat": "JPEG",
+          "sourceDimensions": [
+            4896,
+            3672
+          ],
+          "originalFullPicturePreserved": true,
+          "noCropOrResize": true,
+          "conversion": "libheif 1.23.2 JPEG quality95; full primary image with container orientation applied",
+          "alt": {
+            "he": "צילום מהביקור בטיילת דוניקובסקי, ברקע האודר ומגדלי הקתדרלה",
+            "en": "A photograph from our Dunikowski Boulevard visit, with the Oder and cathedral towers behind",
+            "pl": "Zdjęcie z naszej wizyty na bulwarze Dunikowskiego, z Odrą i wieżami katedry w tle",
+            "de": "Ein Foto von unserem Besuch am Dunikowski-Boulevard, mit Oder und Domtürmen im Hintergrund",
+            "cs": "Fotografie z naší návštěvy Dunikowského nábřeží, s Odrou a věžemi katedrály v pozadí"
+          },
+          "title": {
+            "he": "צילום מהביקור בטיילת דוניקובסקי, ברקע האודר ומגדלי הקתדרלה",
+            "en": "A photograph from our Dunikowski Boulevard visit, with the Oder and cathedral towers behind",
+            "pl": "Zdjęcie z naszej wizyty na bulwarze Dunikowskiego, z Odrą i wieżami katedry w tle",
+            "de": "Ein Foto von unserem Besuch am Dunikowski-Boulevard, mit Oder und Domtürmen im Hintergrund",
+            "cs": "Fotografie z naší návštěvy Dunikowského nábřeží, s Odrou a věžemi katedrály v pozadí"
+          },
+          "specificPersonalApproval": {
+            "receipt": "dunikowski-new-inbox-2026-10-29/four-personal-photos-human-approval.json",
+            "questionId": "call_50534852bb94478096d14800fa3bcf0b",
+            "sourceSHA256": "63e645bab0e5ac3f3fd699319b45b75e3cd13d15abd346d0fd229429f70c7997",
+            "scope": "Four exact displayed personal photographs including woman and couple; public WROC-LOVE website, maps, and public site repository"
+          }
+        },
+        "/assets/dunikowski-oct29/IMG_0802.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/טיילת דוניקובסקי/IMG_0802.HEIC",
+          "sourceSHA256": "e7a3f4b58b7467639ef8c15066d8259b71ba4c8e7cb2d8a28ad2b2a25ca897cc",
+          "assetSHA256": "c792c4020f7337a503651f179fe7dce33427fa1829001a3d462aacfce304626d",
+          "sourceFormat": "HEIC",
+          "assetFormat": "JPEG",
+          "sourceDimensions": [
+            4896,
+            3672
+          ],
+          "originalFullPicturePreserved": true,
+          "noCropOrResize": true,
+          "conversion": "libheif 1.23.2 JPEG quality95; full primary image with container orientation applied",
+          "alt": {
+            "he": "צילום מהביקור בטיילת דוניקובסקי, ברקע האודר ומגדלי הקתדרלה",
+            "en": "A photograph from our Dunikowski Boulevard visit, with the Oder and cathedral towers behind",
+            "pl": "Zdjęcie z naszej wizyty na bulwarze Dunikowskiego, z Odrą i wieżami katedry w tle",
+            "de": "Ein Foto von unserem Besuch am Dunikowski-Boulevard, mit Oder und Domtürmen im Hintergrund",
+            "cs": "Fotografie z naší návštěvy Dunikowského nábřeží, s Odrou a věžemi katedrály v pozadí"
+          },
+          "title": {
+            "he": "צילום מהביקור בטיילת דוניקובסקי, ברקע האודר ומגדלי הקתדרלה",
+            "en": "A photograph from our Dunikowski Boulevard visit, with the Oder and cathedral towers behind",
+            "pl": "Zdjęcie z naszej wizyty na bulwarze Dunikowskiego, z Odrą i wieżami katedry w tle",
+            "de": "Ein Foto von unserem Besuch am Dunikowski-Boulevard, mit Oder und Domtürmen im Hintergrund",
+            "cs": "Fotografie z naší návštěvy Dunikowského nábřeží, s Odrou a věžemi katedrály v pozadí"
+          },
+          "specificPersonalApproval": {
+            "receipt": "dunikowski-new-inbox-2026-10-29/four-personal-photos-human-approval.json",
+            "questionId": "call_50534852bb94478096d14800fa3bcf0b",
+            "sourceSHA256": "e7a3f4b58b7467639ef8c15066d8259b71ba4c8e7cb2d8a28ad2b2a25ca897cc",
+            "scope": "Four exact displayed personal photographs including woman and couple; public WROC-LOVE website, maps, and public site repository"
+          }
+        },
+        "/assets/dunikowski-oct29/IMG_0803.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/מחסנית/טיילת דוניקובסקי/IMG_0803.HEIC",
+          "sourceSHA256": "798b060f5a60272b82e01cdfb3a1643138746b8d97d7d31dc516908302b0bc55",
+          "assetSHA256": "96395cc7b7cea18cc6cd051137464bf0d2a97d0e79292f214e00cecda5c5fdf6",
+          "sourceFormat": "HEIC",
+          "assetFormat": "JPEG",
+          "sourceDimensions": [
+            4896,
+            3672
+          ],
+          "originalFullPicturePreserved": true,
+          "noCropOrResize": true,
+          "conversion": "libheif 1.23.2 JPEG quality95; full primary image with container orientation applied",
+          "alt": {
+            "he": "צילום מהביקור בטיילת דוניקובסקי, ברקע האודר ומגדלי הקתדרלה",
+            "en": "A photograph from our Dunikowski Boulevard visit, with the Oder and cathedral towers behind",
+            "pl": "Zdjęcie z naszej wizyty na bulwarze Dunikowskiego, z Odrą i wieżami katedry w tle",
+            "de": "Ein Foto von unserem Besuch am Dunikowski-Boulevard, mit Oder und Domtürmen im Hintergrund",
+            "cs": "Fotografie z naší návštěvy Dunikowského nábřeží, s Odrou a věžemi katedrály v pozadí"
+          },
+          "title": {
+            "he": "צילום מהביקור בטיילת דוניקובסקי, ברקע האודר ומגדלי הקתדרלה",
+            "en": "A photograph from our Dunikowski Boulevard visit, with the Oder and cathedral towers behind",
+            "pl": "Zdjęcie z naszej wizyty na bulwarze Dunikowskiego, z Odrą i wieżami katedry w tle",
+            "de": "Ein Foto von unserem Besuch am Dunikowski-Boulevard, mit Oder und Domtürmen im Hintergrund",
+            "cs": "Fotografie z naší návštěvy Dunikowského nábřeží, s Odrou a věžemi katedrály v pozadí"
+          },
+          "specificPersonalApproval": {
+            "receipt": "dunikowski-new-inbox-2026-10-29/four-personal-photos-human-approval.json",
+            "questionId": "call_50534852bb94478096d14800fa3bcf0b",
+            "sourceSHA256": "798b060f5a60272b82e01cdfb3a1643138746b8d97d7d31dc516908302b0bc55",
+            "scope": "Four exact displayed personal photographs including woman and couple; public WROC-LOVE website, maps, and public site repository"
+          }
+        }
+      }
     },
     "socialPosts": [
       {
