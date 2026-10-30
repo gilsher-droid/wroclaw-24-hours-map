@@ -42,6 +42,7 @@ const historicalMediaSocial = evaluatedMedia.WROC_LOCATION_MEDIA_SOURCE_SOCIAL |
 const canonicalSourceFile = process.env.WROC_CANONICAL_PLACE_SOURCE_FILE || "data/canonical-places-source.js";
 const freeWaterSourceFile = process.env.WROC_FREE_WATER_PLACE_SOURCE_FILE || "data/free-water-places.js";
 const canonicalSource = [
+  ...((await evaluate(["data/northern-city-places.js"])).WROC_NORTHERN_CITY_PLACES || []),
   ...((await evaluate([canonicalSourceFile])).WROC_CANONICAL_PLACE_SOURCE || []),
   ...((await evaluate(["data/cultural-canonical-places.js"])).WROC_CULTURAL_CANONICAL_PLACE_SOURCE || []),
   ...((await evaluate([freeWaterSourceFile])).WROC_FREE_WATER_PLACE_SOURCE || []),

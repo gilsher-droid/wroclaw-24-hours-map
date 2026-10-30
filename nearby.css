@@ -11,3 +11,5 @@
 .nearby-more-categories summary{background:#fff6df;border:1px solid #d8b35c;border-radius:10px;padding:11px 14px;margin:8px 0}.nearby-radius-stepper{display:flex;align-items:center;gap:4px;direction:ltr}.nearby-radius-stepper button{padding:10px 8px;min-width:48px}#nearby-radius{width:100px;min-width:0;text-align:center}@media(max-width:700px){#nearby-filters label:has(#nearby-radius){flex-basis:100%}.nearby-radius-stepper{justify-content:flex-start}}
 
 #nearby-radius-slider{direction:ltr;flex:1 1 180px;min-width:140px;max-width:240px;height:44px;padding:8px 0;accent-color:#1475a9;cursor:pointer}@media(max-width:700px){#nearby-radius-slider{flex-basis:100%;max-width:none;width:100%}}
+
+.nearby-radius-handle{display:grid!important;place-items:center;border:3px solid white;border-radius:50%;box-shadow:0 0 0 2px #bd8b3d,0 3px 12px #0006;background:#bd8b3d;color:#082c59;font-size:24px;cursor:ew-resize!important;touch-action:none}.nearby-centre-dot{cursor:grab;touch-action:none}

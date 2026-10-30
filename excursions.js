@@ -169,7 +169,7 @@
   }
   function showMapOverview(walking = false) {
     const excursion = selectedExcursion(), targetMap = walking ? walkingMap : map;
-    const points = walking ? excursion.walkingRoute?.points : excursion.routePoints;
+    const points = walking ? excursion.walkingRoute?.points : journeyMode ? excursion.routePoints : excursion.routePoints.filter(p=>excursion.canonicalPlaceIds.includes(p.canonicalPlaceId));
     if (!targetMap || !points) return;
     if (!walking && usesChoiceMap(excursion)) selectOptionalGroup("route");
     bringMapIntoView(targetMap,walking ? "brzeg-walk-map" : "excursion-map");
@@ -181,7 +181,7 @@
   function escapeHtml(value) { return String(value || "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char])); }
   function placePopup(canonical, label, coordinate) {
     const actions = canonical ? actionLinks(canonical, false) : `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${coordinate.lat},${coordinate.lng}`)}" target="_blank" rel="noopener">${tr("navigate")}</a>`;
-    const details = canonical && [...selectedExcursion().canonicalPlaceIds, ...(selectedExcursion().optionalPlaceIds || []), ...(selectedExcursion().departurePlaceIds || [])].includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
+    const details = canonical && [...(window.WROC_CITY_WALKS?.[selectedExcursion().id]||[]).flatMap(w=>w.canonicalPlaceIds),...selectedExcursion().canonicalPlaceIds, ...(selectedExcursion().optionalPlaceIds || []), ...(selectedExcursion().departurePlaceIds || [])].includes(canonical.id) ? `<a class="excursion-place-details" href="#excursion-place-${escapeHtml(canonical.id)}">${placeDetailsLabels[language]}</a>` : "";
     return `<div class="excursion-place-popup" dir="${language === "he" ? "rtl" : "ltr"}">${window.WROC_PLACE_POPUP_PHOTO.html(canonical,language).replace('class="place-popup-photo-link"', `class="place-popup-photo-link" data-place-gallery="${escapeHtml(canonical?.id)}" data-media-kind="photos"`)}<strong>${escapeHtml(label)}</strong>${placeAmenities.labelBadgeHtml(canonical, language)}<div class="place-actions">${actions}${canonical ? mediaButtons(canonical) : ""}</div>${details}</div>`;
   }
 
@@ -299,6 +299,8 @@
     }).join("");
   }
 
+  let journeyMode=false,journeyTrip='';
+  const journeyCopy={he:['הדרך הכוללת','חזרה לאזור הטיול','ניווט לנסיעה'],en:['Whole journey','Back to the visit area','Driving directions'],pl:['Cała podróż','Wróć do obszaru zwiedzania','Trasa samochodem'],de:['Gesamte Anreise','Zurück zum Besuchsgebiet','Fahrtroute'],cs:['Celá cesta','Zpět do oblasti výletu','Navigace autem']};
   function renderMap(excursion) {
     if (!window.L) return;
     if (map) map.remove();
@@ -308,10 +310,20 @@
     map = L.map("excursion-map", { scrollWheelZoom: false, ...(usesChoiceMap(excursion) ? {zoomSnap:0.25} : {}) });
     window.WROC_GUIDE_VIDEO.legend(map, language);
     window.WROC_MAP_TILES.addTo(map);
-    const route = excursion.routePoints.map(coords).filter(Boolean).map(({ lat, lng }) => [lat, lng]);
+    if(journeyTrip!==excursion.id){journeyTrip=excursion.id;journeyMode=false;}
+    const base=window.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(x=>x.id===excursion.id);
+    const travel=base.routePoints.map(coords).filter(Boolean);
+    const visits=excursion.routePoints.filter(p=>excursion.canonicalPlaceIds.includes(p.canonicalPlaceId));
+    const displayedPoints=journeyMode?base.routePoints:(visits.length?visits:excursion.routePoints);
+    const route=displayedPoints.map(coords).filter(Boolean).map(({lat,lng})=>[lat,lng]);
+    let journeyTools=document.querySelector('#excursion-journey-tools');
+    if(!journeyTools){journeyTools=document.createElement('nav');journeyTools.id='excursion-journey-tools';document.getElementById('excursion-map').before(journeyTools);}
+    const j=journeyCopy[language],first=travel[0],last=travel.at(-1);
+    journeyTools.innerHTML=`<button type="button" data-journey-mode aria-pressed="${journeyMode}">${journeyMode?j[1]:j[0]}</button><a href="https://www.google.com/maps/dir/?api=1&origin=${first.lat},${first.lng}&destination=${last.lat},${last.lng}&waypoints=${encodeURIComponent(travel.slice(1,-1).map(c=>c.lat+','+c.lng).join('|'))}&travelmode=driving" target="_blank" rel="noopener">${j[2]}</a>`;
+    journeyTools.querySelector('button').onclick=()=>{journeyMode=!journeyMode;render();};
     L.polyline(route, { color: "#2578bd", weight: 4, dashArray: "8 8" }).addTo(map);
     const recommended = [];
-    excursion.routePoints.filter((point, index) => !point.hideMarker && (index < excursion.routePoints.length - 1 || excursion.showDestinationMarker)).forEach((point, index) => {
+    displayedPoints.filter((point, index) => !point.hideMarker && (index < displayedPoints.length - 1 || !journeyMode || excursion.showDestinationMarker)).forEach((point, index) => {
       const coordinate = coords(point);
       if (!coordinate) return;
       const canonical = point.canonicalPlaceId ? place(point.canonicalPlaceId) : null;
@@ -320,7 +332,7 @@
       registerMapStop(point.id,map,marker,coordinate,canonical,label,"excursion-map");
       recommended.push({key:point.id,number:index+1,marker,coordinate,label});
     });
-    (excursion.departurePlaceIds || []).forEach((id,index)=>{
+    (journeyMode ? excursion.departurePlaceIds || [] : []).forEach((id,index)=>{
       const canonical=place(id), coordinate=canonical?.location?.coordinates;
       if(!coordinate) return;
       const marker=L.marker([coordinate.lat,coordinate.lng], {title:local(canonical.name),icon:L.divIcon({className:"route-marker departure-marker",html:`<span>W${index+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]})}).addTo(map).bindPopup(placePopup(canonical,local(canonical.name),coordinate),{maxWidth:320}).on("popupopen",()=>trackPlaceOpen(canonical));
@@ -346,7 +358,7 @@
       if (!isPoznan) optionalLayer.addLayer(marker);
       registerMapStop(`optional-${id}`, map, marker, coordinate, canonical, local(canonical.name), "excursion-map");
     });
-    const localStops = excursion.initialMapFocus === "local-stops"
+    const localStops = !journeyMode
       ? excursion.routePoints.filter(point => excursion.canonicalPlaceIds.includes(point.canonicalPlaceId)).map(coords).filter(Boolean).map(({lat,lng})=>[lat,lng])
       : [];
     if (isPoznan) fitPoznanRoute(map,localStops.length ? localStops : route);
@@ -614,6 +626,18 @@
     section.innerHTML=resource ? `<h2>${escapeHtml(local(resource.title))}</h2><div class="regional-inspiration-content"><button type="button" data-regional-photo aria-label="${escapeHtml(mediaLabels[language].open)}: ${escapeHtml(local(resource.title))}"><img src="${escapeHtml(resource.photo)}" alt="${escapeHtml(local(resource.title))}" loading="lazy"></button><div><p>${escapeHtml(local(resource.description))}</p><p class="map-note">${escapeHtml(local(resource.note))}</p><p><bdi>naWypad.pl</bdi></p></div></div>` : "";
   }
 
+  const additionalCityMaps=[];
+  function renderAdditionalCityWalks(excursion){
+    additionalCityMaps.splice(0).forEach(m=>m.remove());let host=document.querySelector('#excursion-city-walks');
+    if(!host){host=document.createElement('section');host.id='excursion-city-walks';document.querySelector('[data-walking-route]').after(host);}
+    const walks=window.WROC_CITY_WALKS?.[excursion.id]||[];host.hidden=!walks.length;host.replaceChildren();
+    for(const walk of walks){const section=document.createElement('section');section.className='excursion-city-walk';const mapId='city-walk-'+walk.id,items=walk.canonicalPlaceIds.map(place).filter(Boolean),points=items.map(p=>p.location.coordinates),nav=`https://www.google.com/maps/dir/?api=1&origin=${points[0].lat},${points[0].lng}&destination=${points.at(-1).lat},${points.at(-1).lng}&waypoints=${encodeURIComponent(points.slice(1,-1).map(c=>c.lat+','+c.lng).join('|'))}&travelmode=walking`;
+    section.innerHTML=`<h2>${escapeHtml(local(walk.title))}</h2><p>${escapeHtml(local(walk.summary))}</p><div class="city-walk-map" id="${mapId}"></div><p>${escapeHtml(local(walk.note))}</p><a class="button" href="${nav}" target="_blank" rel="noopener">${tripUi[language].walkingDirections}</a><ol class="city-walk-order">${items.map((p,i)=>`<li>${focusMapButton(`data-map-point="city-${walk.id}-${i}"`)} <strong>${escapeHtml(local(p.name))}</strong></li>`).join('')}</ol><div class="places-grid">${placeCards(walk.canonicalPlaceIds.filter(id=>!excursion.canonicalPlaceIds.includes(id)))}</div>`;host.append(section);
+    const m=L.map(mapId,{scrollWheelZoom:false});additionalCityMaps.push(m);window.WROC_MAP_TILES.addTo(m);L.polyline(points,{color:'#ad742b',weight:3,dashArray:'6 6'}).addTo(m);
+    items.forEach((p,i)=>{const c=p.location.coordinates,marker=L.marker(c,{title:local(p.name),icon:L.divIcon({className:'route-marker',html:`<span>${i+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]})}).addTo(m).bindPopup(placePopup(p,local(p.name),c),{maxWidth:330});registerMapStop(`city-${walk.id}-${i}`,m,marker,c,p,local(p.name),mapId);});m.fitBounds(points,{padding:[35,35],maxZoom:16});
+    }
+  }
+
   const cityCopy = {
     he:["בחרו עיר לעצירה", "בכל עיר מוצגת מפה מקומית וסדר הליכה משלה. אפשר לבחור עיר אחת או לשלב את שתיהן.", "רגעים מהדרך ומההיסטוריה המקומית"],
     en:["Choose a city stop", "Each city has its own local map and walking order. Choose one city or combine both.", "Journey moments and local history"],
@@ -630,6 +654,7 @@
     context.innerHTML = context.hidden ? "" : `<h2>${copy[2]}</h2><div class="trip-context-grid">${excursion.contextGallery.map((photo,index)=>`<figure><button type="button" data-trip-context-photo="${index}" aria-label="${escapeHtml(mapChoiceCopy[language].photos)}: ${escapeHtml(local(photo.caption))}"><img src="${escapeHtml(photo.src)}" alt="${escapeHtml(local(photo.caption))}" loading="lazy"></button><figcaption>${escapeHtml(local(photo.caption))}</figcaption></figure>`).join("")}</div>`;
   }
 
+
   function render() {
     const product = window.WROC_LOWER_SILESIA_EXCURSIONS;
     const excursion = selectedExcursion();
@@ -639,7 +664,7 @@
     if (!previewInitialized) { previewIndex = product.excursions.findIndex(item=>item.id===excursion.id); previewInitialized = true; }
     document.querySelector("[data-map-overview]").textContent = mapFocusLabels[language].overview;
     document.querySelector("[data-walk-overview]").textContent = mapFocusLabels[language].walk;
-    renderCityChapters(excursion); renderTripList(); renderHero(excursion); renderPreview(); renderMap(excursion); renderWalkingRoute(excursion); renderSteps(excursion); renderLogistics(excursion); renderPlaces(excursion); renderEditorial(excursion);
+    renderCityChapters(excursion); renderTripList(); renderHero(excursion); renderPreview(); renderMap(excursion); renderWalkingRoute(excursion); renderAdditionalCityWalks(excursion); renderSteps(excursion); renderLogistics(excursion); renderPlaces(excursion); renderEditorial(excursion);
     renderTripLayout(excursion);
     startPreview();
   }

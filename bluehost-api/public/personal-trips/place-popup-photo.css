@@ -1,0 +1,98 @@
+.place-popup-photo-link { display:block; width:80px; max-width:100%; margin:0 0 6px; box-sizing:border-box; padding:2px; border:1px solid #c99c50; border-radius:8px; background:#fffaf0; box-shadow:0 0 0 1px rgba(6,43,92,.14),0 2px 5px rgba(6,43,92,.1); overflow:hidden; }
+.place-popup-photo-link[hidden] { display:none; }
+.place-popup-photo { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:6px; }
+.place-popup-photo-link:focus-visible { outline:3px solid #d6a657; outline-offset:3px; }
+.place-popup-photo-placeholder { display:block; width:80px; max-width:100%; margin:0 0 6px; padding:3px; box-sizing:border-box; border:1px solid #c99c50; border-radius:8px; background:#fff; }
+.place-photo-logo { object-fit:contain!important; object-position:center!important; aspect-ratio:1!important; background:#fff!important; }
+.place-card-logo { display:block; float:inline-end; width:72px; max-width:30%; margin-inline-start:10px; margin-bottom:6px; }
+.place-card-logo img { display:block; width:100%; height:auto; border-radius:8px; }
+.place-popup-photo-placeholder .place-photo-logo { width:100%; height:auto; }
+/* Compact shared popup layout: keep every action visible without an inner scroller. */
+.leaflet-popup-content {
+  width:300px !important; min-width:0; max-width:calc(100vw - 70px);
+  max-height:none; overflow:visible; margin:12px 14px;
+  font-size:12px; line-height:1.4; text-align:start; display:flow-root;
+}
+.leaflet-popup-content .place-popup-photo-link,
+.leaflet-popup-content .place-popup-photo-placeholder {
+  float:inline-end; width:64px; margin:0 0 5px 0; margin-inline-start:10px;
+}
+.leaflet-popup-content .popup-title,
+.leaflet-popup-content .premium-popup > strong,
+.leaflet-popup-content .excursion-place-popup > strong { font-size:15px; line-height:1.3; }
+.leaflet-popup-content .popup-local { font-size:11px; margin-bottom:5px; }
+.leaflet-popup-content .premium-popup { display:block; min-width:0; }
+.leaflet-popup-content .premium-popup > span { display:block; margin:3px 0; }
+.leaflet-popup-content p { margin:5px 0; line-height:1.4; }
+.leaflet-popup-content .popup-meta { clear:both; gap:4px; margin:6px 0; }
+.leaflet-popup-content .popup-chip { font-size:10px; padding:3px 6px; }
+.leaflet-popup-content .resource-actions,
+.leaflet-popup-content .place-actions {
+  clear:both; display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-start;
+  gap:5px; margin-top:7px;
+}
+.leaflet-popup-content .resource-icon,
+.leaflet-popup-content .place-actions > a,
+.leaflet-popup-content .place-actions > button {
+  box-sizing:border-box; width:auto; min-height:36px; padding:4px 7px; gap:5px;
+  border-radius:8px; font-size:11px; line-height:1.25;
+}
+.leaflet-popup-content .resource-icon .brand-icon,
+.leaflet-popup-content .guide-video-action .brand-icon.guide {
+  width:22px; height:22px; flex:0 0 22px; border-radius:6px; font-size:12px;
+}
+.leaflet-popup-content .guide-video-action .brand-icon.guide img { width:20px; height:20px; }
+.leaflet-popup-content .resource-actions > .guide-video-action,
+.leaflet-popup-content .place-actions > .guide-video-action {
+  flex-basis:100%; width:100%; min-height:38px; padding:4px 7px;
+}
+.leaflet-popup-content .guide-video-action-copy { gap:1px; }
+.leaflet-popup-content .guide-video-action-title { font-size:12px; }
+.leaflet-popup-content .guide-video-action-language { font-size:10px; }
+.leaflet-popup-content .popup-actions { clear:both; margin-top:6px; }
+.leaflet-popup-content .popup-actions a { padding:5px 7px; font-size:11px; }
+.leaflet-popup-content .excursion-place-details { margin-top:7px; }
+
+/* The broad Bastion facade remains recognizable in its representative thumbnail. */
+.leaflet-popup-content .place-popup-photo-link[href="/assets/bastion-sakwowy-representative.jpg"] { width:112px; max-width:40%; }
+
+/* Keep the wooden church and its roof visible in the park thumbnail. */
+.place-popup-photo[src*="/szczytnicki-park/"] { object-fit:contain; background:#fffaf0; }
+
+.place-popup-photo[src*="/nadodrze/"] { object-fit:contain; background:#fffaf0; }
+
+/* Preserve the full mall facade in its compact representative photograph. */
+.place-popup-photo[src="/assets/gallery-wroclavia-01.jpg"] { object-fit:contain; background:#fffaf0; }
+.leaflet-popup-content .place-popup-photo-link[href="/assets/gallery-wroclavia-01.jpg"] { width:112px; max-width:40%; }
+
+/* Keep the refreshed Hebrew text separate from its Latin names and address. */
+.place-card[data-place="wroclavia"] p,
+.premium-stop-card[data-canonical-place-id="wroclavia"] p,
+.recommendation-card[data-canonical-place-id="wroclavia"] p { white-space:pre-line; }
+
+/* Show the complete gallery façade in the canonical popup. */
+.place-popup-photo[src*="/zyjnia-bwa/"] { object-fit:contain; background:#f4f0e8; }
+
+/* Preserve full district and synagogue photographs. */
+.place-popup-photo[src*="four-denominations-district-"], .place-popup-photo[src*="/white-stork/"] { object-fit: contain; background: #f4f0e8; }
+
+/* Barbara representative facade keeps the full original framing. */
+.place-popup-photo[src*="/barbara-wroclaw-"] { object-fit:contain; background:#f4f0e8; }
+
+.place-popup-photo[src*="/bru-coffee-bakehouse-"] { object-fit:contain; background:#faf8f3; }
+
+/* Charlotte and district full photo framing20261020 */
+.place-popup-photo[src*="/charlotte/"], .place-popup-photo[src*="/four-denominations-refresh/"] { object-fit:contain; background:#faf8f3; }
+article[data-place="charlotte"] p, article[data-canonical-place-id="charlotte"] p, .leaflet-popup-content:has(img[src*="/charlotte/"]) > span, .premium-popup:has(img[src*="/charlotte/"]) p { white-space:pre-line; }
+
+/* Two Central Cafe branches: preserve complete visit photo frames. */
+.media-grid img[src*="/central-cafe/"] {height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="central"] p,article[data-place="central-cafe-nadodrze"] p,article[data-canonical-place-id="central"] p {white-space:pre-line;}
+
+/* Complete Boguslawskiego visit frames, including existing street views. */
+.media-grid img[src*="boguslawskiego"]{height:auto;max-height:65vh;object-fit:contain;background:#faf8f3;}
+article[data-place="boguslawskiego"] p,article[data-canonical-place-id="boguslawskiego"] p{white-space:pre-line;}
+
+.leaflet-popup-content:has(img[src*="boguslawskiego"]) > span,.premium-popup:has(img[src*="boguslawskiego"]) p{white-space:pre-line;}
+
+.evening-item:has([data-location="boguslawskiego"]) p { white-space:pre-line; }
