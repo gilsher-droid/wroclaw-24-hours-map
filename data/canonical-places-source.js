@@ -35861,3 +35861,6 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({
     ]
   }
 });
+
+// Move the island marker onto the verified island polygon. The bridge remains separate.
+(()=>{const p=window.WROC_CANONICAL_PLACE_SOURCE.find(p=>p.id==='slodowa');if(!p)throw Error('Missing Slodowa');p.location.coordinates={"lat":51.116142,"lng":17.037637};p.links.navigation.googleMaps='https://www.google.com/maps/search/?api=1&query=51.116142,17.037637';p.links.navigation.appleMaps='https://maps.apple.com/?ll=51.116142,17.037637&q=Wyspa%20S%C5%82odowa';})();

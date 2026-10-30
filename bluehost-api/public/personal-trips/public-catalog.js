@@ -70493,8 +70493,8 @@
       "regionId": "lower-silesia",
       "cityId": "wroclaw",
       "coordinates": {
-        "lat": 51.1169,
-        "lng": 17.03737
+        "lat": 51.116142,
+        "lng": 17.037637
       }
     },
     "categories": [
@@ -70513,8 +70513,8 @@
       {
         "productId": "wroclaw-four-days",
         "sourceId": "slodowa",
-        "lat": 51.1169,
-        "lng": 17.03737
+        "lat": 51.116142,
+        "lng": 17.037637
       }
     ],
     "status": "published",
@@ -70549,8 +70549,8 @@
     "links": {
       "website": "https://zzm.wroc.pl/obiektyzzmcp/wyspa-slodowa/",
       "navigation": {
-        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1169%2C17.03737",
-        "appleMaps": "https://maps.apple.com/?ll=51.1169,17.03737&q=Wyspa%20S%C5%82odowa"
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.116142,17.037637",
+        "appleMaps": "https://maps.apple.com/?ll=51.116142,17.037637&q=Wyspa%20S%C5%82odowa"
       },
       "socialProfileFallback": false
     },

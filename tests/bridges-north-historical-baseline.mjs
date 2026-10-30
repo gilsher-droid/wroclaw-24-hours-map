@@ -1,3 +1,4 @@
+import{beforeSlodowaPremiumSource}from'./slodowa-position-baseline.mjs';
 import {beforeDiningSnapshot,withoutDining} from './dining-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -21,4 +22,4 @@ export function beforeBridgesNorthSnapshot(w){
  return w;
 }
 
-export function beforeBridgesNorthSource(file,value){if(file!=="data/lower-silesia-excursions.js")return value;const sha=createHash("sha256").update(value).digest("hex");if(sha===p.beforeExcursionSourceSHA256)return value;assert.equal(sha,p.approvedExcursionSourceSHA256,"Unreviewed excursion source");const restored=Buffer.from(p.beforeExcursionSource);assert.equal(createHash("sha256").update(restored).digest("hex"),p.beforeExcursionSourceSHA256);return restored;}
+export function beforeBridgesNorthSource(file,value){value=beforeSlodowaPremiumSource(file,value);if(file!=="data/lower-silesia-excursions.js")return value;const sha=createHash("sha256").update(value).digest("hex");if(sha===p.beforeExcursionSourceSHA256)return value;assert.equal(sha,p.approvedExcursionSourceSHA256,"Unreviewed excursion source");const restored=Buffer.from(p.beforeExcursionSource);assert.equal(createHash("sha256").update(restored).digest("hex"),p.beforeExcursionSourceSHA256);return restored;}

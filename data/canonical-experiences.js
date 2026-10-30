@@ -867,3 +867,6 @@
 
 // A distinct, verified bridge pin immediately before the existing island pin.
 (()=>{const e=window.WROC_EXPERIENCE_CATALOG.getExperience("bridges-and-islands-wroclaw");for(const ids of [e.relatedCanonicalPlaceIds,e.media.inheritFromCanonicalPlaceIds])if(!ids.includes("kladka-slodowa"))ids.splice(ids.indexOf("slodowa"),0,"kladka-slodowa");})();
+
+// Reuse the existing Kepa Mieszczanska place, with its existing media and language editions.
+(()=>{const e=window.WROC_EXPERIENCE_CATALOG.getExperience('bridges-and-islands-wroclaw');for(const ids of[e.relatedCanonicalPlaceIds,e.media.inheritFromCanonicalPlaceIds])if(!ids.includes('kepa-mieszczanska-wroclaw'))ids.unshift('kepa-mieszczanska-wroclaw');})();
