@@ -35734,3 +35734,130 @@ window.WROC_CANONICAL_PLACE_SOURCE.push(...[
     }
   }
 ]);
+
+// Verified yellow-arched crossing to Slodowa Island. Reuses approved original photo assets.
+window.WROC_CANONICAL_PLACE_SOURCE.push({
+  "id": "kladka-slodowa",
+  "status": "published",
+  "localName": "Kładka Słodowa",
+  "name": {
+    "he": "גשר הולכי הרגל לאי סלודובה",
+    "en": "Słodowa Footbridge",
+    "pl": "Kładka Słodowa",
+    "de": "Słodowa-Fußgängerbrücke",
+    "cs": "Lávka Słodowa"
+  },
+  "description": {
+    "he": "גשר הולכי הרגל בעל הקשת הצהובה מחבר את אזור רחוב דְרוֹבְּנֶרָה לאי סלודובה. בתמונות הלילה שלנו נראים הקשת המוארת, ההשתקפויות בנהר וסביבת הגשר. אפשר לחצות אל האי ולהמשיך לשיטוט על גדותיו. נקודת האי מופיעה בנפרד באותה חוויה.",
+    "en": "The yellow-arched footbridge connects the Drobnera Street area with Słodowa Island. Our night photographs show the illuminated arch, river reflections and the bridge surroundings. Cross to the island and continue along its banks. The island has its own separate place in this experience.",
+    "pl": "Kładka o żółtym łuku łączy okolicę ulicy Drobnera z Wyspą Słodową. Nasze nocne zdjęcia pokazują oświetlony łuk, odbicia w rzece i otoczenie przeprawy. Przejdź na wyspę i kontynuuj spacer wzdłuż jej brzegów. Wyspa ma osobny punkt w tym doświadczeniu.",
+    "de": "Die Fußgängerbrücke mit dem gelben Bogen verbindet die Umgebung der Drobnera-Straße mit der Słodowa-Insel. Unsere Nachtfotos zeigen den beleuchteten Bogen, Spiegelungen im Fluss und die Umgebung der Brücke. Überqueren Sie die Brücke und spazieren Sie am Inselufer weiter. Die Insel hat einen eigenen Ort in diesem Erlebnis.",
+    "cs": "Lávka se žlutým obloukem spojuje okolí ulice Drobnera s ostrovem Słodowa. Naše noční fotografie zachycují osvětlený oblouk, odrazy v řece a okolí lávky. Přejděte na ostrov a pokračujte podél jeho břehů. Ostrov má v tomto zážitku vlastní samostatný bod."
+  },
+  "location": {
+    "countryCode": "PL",
+    "regionId": "lower-silesia",
+    "cityId": "wroclaw",
+    "coordinates": {
+      "lat": 51.116312,
+      "lng": 17.034969
+    }
+  },
+  "categories": [
+    "river"
+  ],
+  "taxonomy": {
+    "tags": [
+      "bridge",
+      "footbridge",
+      "island",
+      "river-reflections"
+    ]
+  },
+  "links": {
+    "website": "https://www.wroclaw.pl/dla-mieszkanca/kladka-slodowa-juz-otwarta",
+    "navigation": {
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.116312,17.034969"
+    },
+    "socialProfileFallback": false
+  },
+  "media": {
+    "thumbnail": "/assets/experiences/bridges-islands/river-24.jpg",
+    "photos": [
+      "/assets/experiences/bridges-islands/river-24.jpg",
+      "/assets/experiences/bridges-islands/river-26.jpg",
+      "/assets/round24h-20261022/slodowa-10.jpg"
+    ],
+    "videos": [],
+    "metadata": {
+      "/assets/experiences/bridges-islands/river-24.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad2.jpeg",
+        "sourceSHA256": "f7b424151314541c0cd95ee80f4a3ee07c6d0f82a72422a948e91f93432cadca",
+        "assetSHA256": "a89bc5421512b1d8a14504dfa8c889eadf5ed69bea73ff92eb2b8bb1d4984b42",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "privacyReview": "Bridge and river photographs. Public passersby incidental, no posed family portrait.",
+        "alt": {
+          "he": "גשר הולכי הרגל לאי סלודובה",
+          "en": "Słodowa Footbridge",
+          "pl": "Kładka Słodowa",
+          "de": "Słodowa-Fußgängerbrücke",
+          "cs": "Lávka Słodowa"
+        },
+        "reviewedAt": "2026-10-30",
+        "reusedExistingAsset": true
+      },
+      "/assets/experiences/bridges-islands/river-26.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad3.jpeg",
+        "sourceSHA256": "2cad5d3a58261259e22fc13ad36a63f10426ed31631c7a51a1c1d747a20b3ed2",
+        "assetSHA256": "59009c3810e7f9307ec3fe22e052242603b2d019b92a338ef836606d2da11605",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "privacyReview": "Bridge and river photographs. Public passersby incidental, no posed family portrait.",
+        "alt": {
+          "he": "גשר הולכי הרגל לאי סלודובה",
+          "en": "Słodowa Footbridge",
+          "pl": "Kładka Słodowa",
+          "de": "Słodowa-Fußgängerbrücke",
+          "cs": "Lávka Słodowa"
+        },
+        "reviewedAt": "2026-10-30",
+        "reusedExistingAsset": true
+      },
+      "/assets/round24h-20261022/slodowa-10.jpg": {
+        "original": true,
+        "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad5jpeg.jpeg",
+        "sourceSHA256": "971a1df85998421c89f951104ec8779a9e05d728d2626fb199b384b1de0194cf",
+        "assetSHA256": "971a1df85998421c89f951104ec8779a9e05d728d2626fb199b384b1de0194cf",
+        "originalFullPicturePreserved": true,
+        "familyForeground": false,
+        "privacyReview": "Bridge and river photographs. Public passersby incidental, no posed family portrait.",
+        "alt": {
+          "he": "גשר הולכי הרגל לאי סלודובה",
+          "en": "Słodowa Footbridge",
+          "pl": "Kładka Słodowa",
+          "de": "Słodowa-Fußgängerbrücke",
+          "cs": "Lávka Słodowa"
+        },
+        "reviewedAt": "2026-10-30",
+        "reusedExistingAsset": true
+      }
+    }
+  },
+  "provenance": {
+    "verifiedAt": "2026-10-30",
+    "identification": "User-labelled original photographs and yellow-arched bridge matched to municipal description and OSM bridge polygon371390291.",
+    "coordinateMethod": "Centre of verified OSM bridge polygon bounds, not island centre.",
+    "relatedCanonicalPlaceIds": [
+      "slodowa"
+    ],
+    "provenanceFile": "/data/slodowa-footbridge-provenance.json",
+    "sourceUrls": [
+      "https://www.wroclaw.pl/dla-mieszkanca/kladka-slodowa-juz-otwarta",
+      "https://zzm.wroc.pl/obiektyzzmcp/wyspa-slodowa/",
+      "https://www.openstreetmap.org/way/371390291"
+    ]
+  }
+});
