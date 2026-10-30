@@ -1,0 +1,35 @@
+/* Shared homepage frame. All rules stay inside .homepage. */
+body.homepage{--home-max:1260px;--home-gutter:40px}
+.homepage main>.site-header,.homepage main>.hero,.homepage main>#nearby-discovery,.homepage main>#personal-service,.homepage main>#map-library,.homepage main>#experiences,.homepage main>#excursions,.homepage main>.how-section,.homepage main>.closing{width:min(var(--home-max),calc(100% - var(--home-gutter)));max-width:none;margin-inline:auto;box-sizing:border-box}
+.homepage main>.site-header{display:grid;grid-template-columns:minmax(250px,1fr) auto;grid-template-areas:'brand languages' 'navigation navigation';gap:20px 32px;min-height:0;margin-block:24px 0;padding:24px 28px 20px;border:1px solid #d8e1e9;border-top:3px solid #caa354;border-radius:22px;background:#fffdf9;box-shadow:0 8px 28px #062b5c08;position:relative;z-index:20}
+.homepage .site-header>.brand{justify-self:start;gap:14px;min-width:0}
+.homepage .site-header .brand img{width:64px;height:64px;flex:none;box-shadow:0 0 0 5px #f5f0e4}
+.homepage .site-header .brand strong{font-size:29px;letter-spacing:-.03em;line-height:1.15}
+.homepage .site-header .brand small{display:block;max-width:280px;font-size:12px;line-height:1.5;margin-top:4px}
+.homepage .site-header>.site-language-switcher--header{position:static;justify-self:end;max-width:100%;padding:5px;gap:3px;border:1px solid #e0e6ec;background:#f1f5f8;border-radius:14px;box-shadow:none;overflow:visible}
+.homepage .site-header .site-language-button{min-height:40px;padding:9px 13px;border-radius:10px;font-size:12px;color:#405772}
+.homepage .site-header .site-language-button.active{background:#062b5c;color:#fff;box-shadow:0 2px 5px #062b5c22}
+.homepage .site-header>nav{justify-self:stretch;width:100%;display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:12px;padding-top:18px;border-top:1px solid #e4e9ee;font-size:14px}
+.homepage .site-header>nav>.products-menu{width:auto;flex:none}
+.homepage .site-header .products-menu>summary{padding:13px 18px;line-height:1.35;border:1px solid #062b5c;border-radius:12px;color:white;background:#062b5c;white-space:nowrap;box-shadow:0 3px 8px #062b5c12}
+.homepage .site-header>nav>a{display:inline-flex;min-height:46px;align-items:center;justify-content:center;padding:10px 16px;border:1px solid #dce5ed;border-radius:12px;background:#f6f8fa;line-height:1.35;text-align:center}
+.homepage .site-header>nav>.site-social-follow{display:flex;align-items:center;gap:10px;width:auto;order:0;margin:0;margin-inline-start:auto;justify-content:flex-end;padding-inline-start:18px;border-inline-start:1px solid #e4e9ee}
+.homepage .site-header .site-social-label{display:inline;font-size:12px;color:#607086}
+.homepage .site-header .site-social-icon{width:34px;height:34px;flex-basis:34px;box-shadow:none}
+.homepage .site-header a:focus-visible,.homepage .site-header button:focus-visible,.homepage .site-header summary:focus-visible{outline:3px solid #2279ac;outline-offset:4px}
+.homepage main>.hero{min-height:0;padding-block:48px 56px;gap:48px}
+.homepage .hero h1{font-size:clamp(42px,4.6vw,68px);line-height:1.1}
+.homepage .hero .eyebrow{display:inline-block;padding:7px 12px;border:1px solid #ddcda9;border-radius:8px;background:#fff9eb;color:#8c6829;letter-spacing:.035em}
+.homepage main>#nearby-discovery,.homepage main>#personal-service{margin-block:24px 40px;border-radius:22px;padding:28px}
+.homepage main>#personal-service{grid-template-columns:1.2fr 1fr;gap:32px}
+.homepage main>#map-library{padding:32px 0 0;margin-block:40px 64px}
+.homepage main>#experiences{padding-inline:0;margin-block:56px}
+.homepage main>#excursions{padding:32px;border:1px solid #dce4eb;border-radius:22px;background:#fffdf8;margin-block:48px}
+.homepage main>.how-section{padding:40px 28px;margin-block:48px;border-radius:22px}
+.homepage main>.closing{padding:40px 28px;margin-block:48px 32px;border-radius:22px}
+.homepage .wroc-now__inner{width:min(var(--home-max),calc(100% - var(--home-gutter)));min-height:46px;gap:14px;padding-block:7px}
+.homepage .wroc-now__title{font-size:12px}.homepage .wroc-now__item{font-size:13px}.homepage .wroc-now__controls{gap:8px}
+@media(max-width:900px){.homepage .site-header>nav{gap:8px}.homepage .site-header>nav>a{padding-inline:12px}.homepage .site-header>nav>.site-social-follow{padding-inline-start:12px}.homepage .site-header .site-social-label{display:none}.homepage main>.hero{grid-template-columns:1fr;gap:36px;padding-block:40px}}
+@media(max-width:640px){body.homepage{--home-gutter:28px}.homepage main>.site-header{grid-template-columns:minmax(0,1fr);grid-template-areas:'brand' 'languages' 'navigation';padding:18px 14px 14px;gap:18px;margin-block:16px 0;border-radius:18px}.homepage .site-header>.brand{justify-self:center;gap:12px}.homepage .site-header .brand img{width:52px;height:52px}.homepage .site-header .brand strong{font-size:26px}.homepage .site-header .brand small{font-size:11px;max-width:220px}.homepage .site-header>.site-language-switcher--header{justify-self:stretch;width:100%;display:flex;gap:2px;padding:4px}.homepage .site-header .site-language-button{flex:1 1 0;min-width:0;min-height:40px;padding:8px 4px;font-size:10.5px}.homepage .site-header>nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding-top:14px}.homepage .site-header>nav>.products-menu{width:100%;grid-column:1/-1}.homepage .site-header .products-menu>summary{width:100%;max-width:none;margin:0;text-align:center;padding:13px 10px;white-space:normal}.homepage .site-header>nav>a{display:flex;padding:10px 7px;font-size:13px}.homepage .site-header>nav>.site-social-follow{grid-column:1/-1;justify-content:center;width:100%;padding:10px 0 0;margin:0;border-inline-start:0;border-top:1px solid #e4e9ee}.homepage .site-header .site-social-label{display:inline}.homepage main>.hero{padding-block:36px 42px;gap:30px}.homepage .hero h1{font-size:clamp(38px,10vw,48px)}.homepage main>#nearby-discovery,.homepage main>#personal-service{padding:18px;margin-block:20px 28px;border-radius:18px}.homepage main>#personal-service{grid-template-columns:1fr;gap:20px}.homepage main>#map-library{padding-top:28px;margin-block:32px 44px}.homepage main>#experiences{margin-block:40px}.homepage main>#excursions{padding:20px 14px;margin-block:36px;border-radius:18px}.homepage main>.how-section,.homepage main>.closing{padding:28px 18px;margin-block:32px;border-radius:18px}.homepage .wroc-now__inner{min-height:54px;gap:8px}.homepage .wroc-now__title{font-size:11px}.homepage .wroc-now__item{font-size:12px}}
+
+@media(max-width:640px){.homepage .site-header .products-menu-panel{width:100%;max-width:none;inset-inline:0;left:0;right:0;margin:0;box-sizing:border-box}}

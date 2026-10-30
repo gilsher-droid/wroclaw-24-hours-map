@@ -31,6 +31,7 @@ for (const file of [
   "nearby-chat-config.js",
   "nearby-copy.js",
   "nearby.css",
+  "home-shell.css",
   "community.html",
   "community-app.js",
   "map-tiles.js",
