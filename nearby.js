@@ -2,12 +2,12 @@
  'use strict';
  const params=new URLSearchParams(location.search),lang=['he','en','pl','de','cs'].includes(params.get('lang'))?params.get('lang'):'he',copy=window.WROC_NEARBY_COPY[lang],model=window.WROC_NEARBY_MODEL,taxonomy=window.WROC_DINING,catalog=window.WROC_CATALOG;
  const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),local=x=>typeof x==='string'?x:x?.[lang]||x?.en||'';
- let centre={lat:51.1097,lng:17.0310},mode='manual',accuracy=null,choose=false,results=[],selected=null,markers=new Map(),pendingCentre=null,requestAbort,geoVersion=0;
+ let centre={lat:51.1097,lng:17.0310},mode='manual',accuracy=null,choose=false,results=[],selected=null,markers=new Map(),pendingCentre=null,requestAbort,geoVersion=0,explicitCentre=false;
  const version=model.coordinator();let filters=model.query();
  for(const key of ['category','venueType','cuisine','dietary'])if(params.has(key)){try{filters=model.query({...filters,[key]:params.get(key)});}catch{}}
  if(params.has('radius'))try{filters=model.query({...filters,radius:Number(params.get('radius'))});}catch{}
  // An explicit canonical place link may select a manual centre. Never treat URL coordinates as GPS.
- if(params.has('place')){const p=catalog.getPlace(params.get('place'));if(p&&model.publicPlace(p))centre=model.centre(p.location.coordinates);}
+ if(params.has('place')){const p=catalog.getPlace(params.get('place'));if(p&&model.publicPlace(p)){centre=model.centre(p.location.coordinates);explicitCentre=true;}}
  document.documentElement.lang=lang;document.documentElement.dir=lang==='he'?'rtl':'ltr';document.title=copy.title+' | Wroc-love';$('nearby-home').href='/?lang='+lang;
  document.querySelectorAll('[data-copy]').forEach(el=>el.textContent=copy[el.dataset.copy]);
  for(const [key,dict] of [['category',taxonomy.quickCategories],['venueType',taxonomy.venueTypes],['cuisine',taxonomy.cuisines],['dietary',taxonomy.dietary]]){const el=$('nearby-'+key);el.innerHTML=(key==='category'?'':`<option value="all">${esc(copy.all)}</option>`)+Object.entries(dict).map(([id,label])=>`<option value="${id}">${esc(label[lang])}</option>`).join('');el.value=filters[key];}
@@ -71,7 +71,7 @@
  function chooseManual(point){if(!choose)return;geoVersion++;centre=model.centre(point);mode='manual';accuracy=null;choose=false;render();}
  map?.on('click',event=>chooseManual(event.latlng));
  if(map)$('nearby-map').addEventListener('keydown',event=>{if(choose&&event.key==='Enter'){event.preventDefault();chooseManual(map.getCenter());}else if(choose&&event.key==='Escape'){choose=false;note();}});
- $('nearby-locate').onclick=()=>{const attempt=++geoVersion;$('nearby-locate').disabled=true;const done=()=>{$('nearby-locate').disabled=false;};if(!navigator.geolocation){$('nearby-error').textContent=copy.locationError;done();return;}navigator.geolocation.getCurrentPosition(position=>{done();if(attempt!==geoVersion)return;centre=model.centre({lat:position.coords.latitude,lng:position.coords.longitude});accuracy=Number.isFinite(position.coords.accuracy)?position.coords.accuracy:null;mode='device';choose=false;$('nearby-error').textContent='';render();circle&&map.fitBounds(circle.getBounds(),{padding:[25,25],maxZoom:17});},()=>{done();if(attempt===geoVersion)$('nearby-error').textContent=copy.locationError;},{enableHighAccuracy:true,timeout:12000,maximumAge:30000});};
+ $('nearby-locate').onclick=()=>{const attempt=++geoVersion;$('nearby-locate').disabled=true;$('nearby-error').textContent='';$('nearby-centre-note').textContent=copy.locating;const done=()=>{$('nearby-locate').disabled=false;};if(!navigator.geolocation){$('nearby-error').textContent=copy.locationError;note();done();return;}navigator.geolocation.getCurrentPosition(position=>{done();if(attempt!==geoVersion)return;centre=model.centre({lat:position.coords.latitude,lng:position.coords.longitude});accuracy=Number.isFinite(position.coords.accuracy)?position.coords.accuracy:null;mode='device';choose=false;$('nearby-error').textContent='';render();circle&&map.fitBounds(circle.getBounds(),{padding:[25,25],maxZoom:17});},()=>{done();if(attempt===geoVersion){$('nearby-error').textContent=copy.locationError;note();}},{enableHighAccuracy:true,timeout:12000,maximumAge:30000});};
  document.addEventListener('click',e=>{const b=e.target.closest('[data-select]');if(b)select(b.dataset.select,true);});
  $('nearby-confirm-no').onclick=()=>{$('nearby-confirm').close();pendingCentre=null;};$('nearby-confirm-yes').onclick=()=>{if(pendingCentre&&results.some(r=>r.id===pendingCentre.id)){centre=model.centre(catalog.getPlace(pendingCentre.id).location.coordinates);filters=pendingCentre.filters;for(const k of ['radius','category','venueType','cuisine','dietary'])$('nearby-'+k).value=filters[k];mode='manual';accuracy=null;render();map?.setView([centre.lat,centre.lng],15);}$('nearby-confirm').close();pendingCentre=null;};
  function say(text){const li=document.createElement('li');li.textContent=text;$('nearby-conversation').append(li);}
@@ -80,4 +80,6 @@
  // No provider is activated by default. Readiness only, never submits a sample paid request.
  if(config.enabled===true)fetch(endpoint,{credentials:'omit',referrerPolicy:'no-referrer'}).then(r=>r.ok?r.json():null).then(state=>{if(state?.ready===true&&state.version===1){$('nearby-chat-state').textContent=copy.chat;$('nearby-chat-form').hidden=false;$('nearby-message').disabled=false;$('nearby-send').disabled=false;}}).catch(()=>{});
  render();
+ // Entry from a specific public place keeps that centre. Normal entry requests GPS once.
+ if(!explicitCentre)$('nearby-locate').onclick();
 })();
