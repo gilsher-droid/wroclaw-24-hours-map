@@ -13,3 +13,6 @@
 #nearby-radius-slider{direction:ltr;flex:1 1 180px;min-width:140px;max-width:240px;height:44px;padding:8px 0;accent-color:#1475a9;cursor:pointer}@media(max-width:700px){#nearby-radius-slider{flex-basis:100%;max-width:none;width:100%}}
 
 .nearby-radius-handle{display:grid!important;place-items:center;border:3px solid white;border-radius:50%;box-shadow:0 0 0 2px #bd8b3d,0 3px 12px #0006;background:#bd8b3d;color:#082c59;font-size:24px;cursor:ew-resize!important;touch-action:none}.nearby-centre-dot{cursor:grab;touch-action:none}
+
+/* The touch target belongs to the draggable Leaflet element, not only its picture. */
+.nearby-centre-handle{display:grid!important;place-items:center;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;cursor:grab}.nearby-centre-handle>*{pointer-events:none}.nearby-centre-handle:active{cursor:grabbing}
