@@ -33669,6 +33669,394 @@
     },
     "socialPosts": []
   },
+  "jaz-bartoszowice-wroclaw": {
+    "id": "jaz-bartoszowice-wroclaw",
+    "localName": "Jaz Bartoszowice",
+    "name": {
+      "he": "סכר ברטושוביצה",
+      "en": "Bartoszowice Weir",
+      "pl": "Jaz Bartoszowice",
+      "de": "Wehr Bartoszowice",
+      "cs": "Jez Bartoszowice"
+    },
+    "description": {
+      "he": "מעבר מעל המים וסביבת הסכר בקצה המזרחי של האי הגדול. בתמונות שלנו נראים המבנה הירוק, הנהר והגדות. פעלו לפי השילוט והמעברים הפתוחים במקום.",
+      "en": "The waterside crossing and weir at the eastern end of the Great Island. Our photographs show the green structure, river and banks. Follow local signs and open crossings.",
+      "pl": "Przeprawa i jaz na wschodnim krańcu Wielkiej Wyspy. Nasze zdjęcia pokazują zieloną konstrukcję, rzekę i brzegi. Korzystaj z otwartych przejść zgodnie z oznakowaniem.",
+      "de": "Übergang und Wehr am östlichen Ende der Großen Insel. Unsere Fotos zeigen das grüne Bauwerk, den Fluss und seine Ufer. Beachten Sie Beschilderung und offene Übergänge.",
+      "cs": "Přechod a jez na východním konci Velkého ostrova. Naše fotografie ukazují zelenou konstrukci, řeku a břehy. Respektujte značení a otevřené přechody."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.102222,
+        "lng": 17.122778
+      }
+    },
+    "categories": [
+      "river"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "river"
+      ],
+      "tags": [
+        "river",
+        "water-engineering"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wroclaw.pl/budzet-obywatelski-wroclaw/files/attachments_2023/300/31c2defe39a090bc5832bc34b2294ab2.pdf",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.102222,17.122778",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-30",
+      "sourceUrls": [
+        "https://www.wroclaw.pl/budzet-obywatelski-wroclaw/files/attachments_2023/300/31c2defe39a090bc5832bc34b2294ab2.pdf"
+      ],
+      "coordinateMethod": "Published geographic reference, cross-checked against the user-labelled original photographs",
+      "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"
+    },
+    "media": {
+      "thumbnail": "/assets/water-lamplighter-oct30/water-22d7475b216f.jpg",
+      "photos": [
+        "/assets/water-lamplighter-oct30/water-22d7475b216f.jpg",
+        "/assets/water-lamplighter-oct30/water-923084b38729.jpg",
+        "/assets/water-lamplighter-oct30/water-191d782489f1.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/water-lamplighter-oct30/water-22d7475b216f.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Bartoszowice Weir/261423C3-225F-4BA2-B915-EEC92BF4981E.JPG",
+          "sourceSHA256": "22d7475b216ffecccfc345ca380ea7bec4c33a95ab4bd0e4bffefcee49637ca7",
+          "assetSHA256": "72d6eea1da0d3dd2ff24a0ea3a86f679f78e9776ca79a0e90a51ace4ea9e782c",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר ברטושוביצה",
+            "en": "Bartoszowice Weir",
+            "pl": "Jaz Bartoszowice",
+            "de": "Wehr Bartoszowice",
+            "cs": "Jez Bartoszowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/water-lamplighter-oct30/water-923084b38729.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Bartoszowice Weir/IMG_4574.JPG",
+          "sourceSHA256": "923084b387294358a7ea2028bd6b373790d82c7012b864330859d5e8e5dde7ed",
+          "assetSHA256": "c66aed881b1ce8d9fdb284bd46d3f8df8e99b054e4ac955e5327cac980df10df",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר ברטושוביצה",
+            "en": "Bartoszowice Weir",
+            "pl": "Jaz Bartoszowice",
+            "de": "Wehr Bartoszowice",
+            "cs": "Jez Bartoszowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/water-lamplighter-oct30/water-191d782489f1.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Bartoszowice Weir/WhatsApp Image 2026-06-21 at 08.50.01 (4).jpeg",
+          "sourceSHA256": "191d782489f14bd1df009e9d323ea8905ecb81ae80f294535f22eb02f59b43dc",
+          "assetSHA256": "45bafb91f2c256de6c547003b0b8d35112a148e33623927ba7919ab040cab58a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר ברטושוביצה",
+            "en": "Bartoszowice Weir",
+            "pl": "Jaz Bartoszowice",
+            "de": "Wehr Bartoszowice",
+            "cs": "Jez Bartoszowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "jaz-opatowice-wroclaw": {
+    "id": "jaz-opatowice-wroclaw",
+    "localName": "Jaz Opatowice",
+    "name": {
+      "he": "סכר אופטוביצה",
+      "en": "Opatowice Weir",
+      "pl": "Jaz Opatowice",
+      "de": "Wehr Opatowice",
+      "cs": "Jez Opatowice"
+    },
+    "description": {
+      "he": "מפגש של מים, גדות ירוקות ומעבר אל האי אופטוביצקה. הגלריה מתעדת את הנוף מסביב לסכר באור יום ובערפל. זהו מקום אחר מסכר ברטושוביצה הסמוך.",
+      "en": "Water, green banks and a crossing towards Opatowicka Island. Our gallery records the landscape around the weir in daylight and mist. This is distinct from nearby Bartoszowice Weir.",
+      "pl": "Woda, zielone brzegi i przeprawa ku Wyspie Opatowickiej. Galeria pokazuje okolice jazu w dzień i we mgle. To inny obiekt niż pobliski jaz Bartoszowice.",
+      "de": "Wasser, grüne Ufer und ein Übergang zur Opatowicka-Insel. Unsere Galerie zeigt die Landschaft am Wehr bei Tageslicht und im Nebel. Vom nahen Wehr Bartoszowice zu unterscheiden.",
+      "cs": "Voda, zelené břehy a přechod směrem na Opatovický ostrov. Galerie ukazuje krajinu kolem jezu ve dne i v mlze. Jde o jiné místo než nedaleký jez Bartoszowice."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.099975,
+        "lng": 17.121345
+      }
+    },
+    "categories": [
+      "river"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "river"
+      ],
+      "tags": [
+        "river",
+        "water-engineering"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://dolnoslaskie.szlaki.pttk.pl/1146-dolnoslaskie-wroclaw-biskupin-jaz-opatowice",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.099975,17.121345",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-30",
+      "sourceUrls": [
+        "https://dolnoslaskie.szlaki.pttk.pl/1146-dolnoslaskie-wroclaw-biskupin-jaz-opatowice"
+      ],
+      "coordinateMethod": "Published geographic reference, cross-checked against the user-labelled original photographs",
+      "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"
+    },
+    "media": {
+      "thumbnail": "/assets/water-lamplighter-oct30/water-037db0d5434b.jpg",
+      "photos": [
+        "/assets/water-lamplighter-oct30/water-037db0d5434b.jpg",
+        "/assets/experiences/bridges-islands/river-04.jpg",
+        "/assets/experiences/bridges-islands/river-05.jpg",
+        "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg",
+        "/assets/experiences/bridges-islands/river-03.jpg",
+        "/assets/experiences/bridges-islands/river-06.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/water-lamplighter-oct30/water-037db0d5434b.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4497.JPG",
+          "sourceSHA256": "037db0d5434b43bf8d4561892580a200af27e6563d62e5d44a9b8b53a1d94127",
+          "assetSHA256": "4a76529da8a201427a250f95deb4f244ba4d34edbec40c6d7ab35bdd02e38c4f",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר אופטוביצה",
+            "en": "Opatowice Weir",
+            "pl": "Jaz Opatowice",
+            "de": "Wehr Opatowice",
+            "cs": "Jez Opatowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/experiences/bridges-islands/river-04.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4499.JPG",
+          "sourceSHA256": "a9f5388c77fe31ec8846acaa1de58f97200f252787d40d2b99ab2bc8f906505b",
+          "assetSHA256": "b3ced5ae7e06adeae2ac7a251004184cb427bd208c42ff9ca3b84cf4ed34868b",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר אופטוביצה",
+            "en": "Opatowice Weir",
+            "pl": "Jaz Opatowice",
+            "de": "Wehr Opatowice",
+            "cs": "Jez Opatowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": true,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/experiences/bridges-islands/river-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4501.JPG",
+          "sourceSHA256": "316b05fa1c49f738b50c6498b14ceac0ccc0066d5701f534e3268d512863a088",
+          "assetSHA256": "6397d1f72fa728e57f7c872d758a7e46234453d23da60697bc107c47dd87ebe9",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר אופטוביצה",
+            "en": "Opatowice Weir",
+            "pl": "Jaz Opatowice",
+            "de": "Wehr Opatowice",
+            "cs": "Jez Opatowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": true,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4549.JPG",
+          "sourceSHA256": "9d141e5950ff8fc84a77209e38271836c536bff1a843272421f96ac42d2a400f",
+          "assetSHA256": "badb320f909bccb7708264c9db1e29cf5f7e8fd39cb35fc5b79132b3c69bd487",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר אופטוביצה",
+            "en": "Opatowice Weir",
+            "pl": "Jaz Opatowice",
+            "de": "Wehr Opatowice",
+            "cs": "Jez Opatowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/experiences/bridges-islands/river-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4554.JPG",
+          "sourceSHA256": "5834f0cfad1dccd78f6bf4e241273744759f3490d5204e99557b3d7c8fa3d7b5",
+          "assetSHA256": "883df239c8c80fbc284c30b3820b431c371905ff27613de2dc527a631d4fb34a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר אופטוביצה",
+            "en": "Opatowice Weir",
+            "pl": "Jaz Opatowice",
+            "de": "Wehr Opatowice",
+            "cs": "Jez Opatowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": true,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/experiences/bridges-islands/river-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4564.JPG",
+          "sourceSHA256": "da23bc8e1d26cc69f7328891933e2014f5c48355d24d16634e7f2a90fafa9e1d",
+          "assetSHA256": "3f4180ff7eb2c7efbe87792a768bf593da975caf28a2c8a7da2924623e239f19",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "סכר אופטוביצה",
+            "en": "Opatowice Weir",
+            "pl": "Jaz Opatowice",
+            "de": "Wehr Opatowice",
+            "cs": "Jez Opatowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": true,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "jelenia-gora-market-square": {
     "id": "jelenia-gora-market-square",
     "localName": "Rynek i stare miasto w Jeleniej Górze",
@@ -70849,6 +71237,170 @@
       }
     ]
   },
+  "sluza-bartoszowice-wroclaw": {
+    "id": "sluza-bartoszowice-wroclaw",
+    "localName": "Śluza Bartoszowice",
+    "name": {
+      "he": "תא השיט ברטושוביצה",
+      "en": "Bartoszowice Lock",
+      "pl": "Śluza Bartoszowice",
+      "de": "Schleuse Bartoszowice",
+      "cs": "Plavební komora Bartoszowice"
+    },
+    "description": {
+      "he": "תא השיט והטיילת לצדו הם עצירה נוספת באזור המים במזרח העיר. בתצלומים שלנו נראים שערי התא ותעלת המים. אין לבלבל בין תא השיט לבין הסכר הסמוך.",
+      "en": "The lock and its waterside path offer another stop in the east of the city. Our photographs show the lock gates and channel. The lock is distinct from the nearby weir.",
+      "pl": "Śluza i ścieżka nad wodą to kolejny przystanek we wschodniej części miasta. Na naszych zdjęciach widać wrota i kanał. Śluza jest odrębna od pobliskiego jazu.",
+      "de": "Schleuse und Uferweg bilden einen weiteren Halt im Osten der Stadt. Unsere Fotos zeigen Schleusentore und Kanal. Die Schleuse ist vom nahen Wehr zu unterscheiden.",
+      "cs": "Plavební komora a cesta podél vody nabízejí další zastávku na východě města. Fotografie ukazují vrata a kanál. Komora je odlišná od blízkého jezu."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1035,
+        "lng": 17.1256
+      }
+    },
+    "categories": [
+      "river"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "river"
+      ],
+      "tags": [
+        "river",
+        "water-engineering"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wroclaw.pl/komunikacja/budowle-hydrotechniczne-wroclawskiego-wezla-wodnego",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1035,17.1256",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-30",
+      "sourceUrls": [
+        "https://www.wroclaw.pl/komunikacja/budowle-hydrotechniczne-wroclawskiego-wezla-wodnego"
+      ],
+      "coordinateMethod": "Published geographic reference, cross-checked against the user-labelled original photographs",
+      "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"
+    },
+    "media": {
+      "thumbnail": "/assets/water-lamplighter-oct30/water-82d098a7dd92.jpg",
+      "photos": [
+        "/assets/water-lamplighter-oct30/water-82d098a7dd92.jpg",
+        "/assets/experiences/bridges-islands/river-07.jpg",
+        "/assets/experiences/bridges-islands/river-09.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/water-lamplighter-oct30/water-82d098a7dd92.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Sluza Bartoszowice/IMG_4575.JPG",
+          "sourceSHA256": "82d098a7dd9223b631ac7898ed799d82eb426cc415dbb751d85b369d4bb210bc",
+          "assetSHA256": "9672c220dd14aaead719bb7006810b38068c4d11f6ee780aa45fdbd8b59a00f6",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תא השיט ברטושוביצה",
+            "en": "Bartoszowice Lock",
+            "pl": "Śluza Bartoszowice",
+            "de": "Schleuse Bartoszowice",
+            "cs": "Plavební komora Bartoszowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/experiences/bridges-islands/river-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Sluza Bartoszowice/IMG_4763.JPG",
+          "sourceSHA256": "4ce4733d02d717c8dc51e20df513fdd83b33dd021fd94f9c8a96eea3dad65442",
+          "assetSHA256": "d2fbc6f4a8a303636f6e804e61534b8e0348b35bf53457bfef720a27650fdc7a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תא השיט ברטושוביצה",
+            "en": "Bartoszowice Lock",
+            "pl": "Śluza Bartoszowice",
+            "de": "Schleuse Bartoszowice",
+            "cs": "Plavební komora Bartoszowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": true,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/experiences/bridges-islands/river-09.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Sluza Bartoszowice/IMG_4768.JPG",
+          "sourceSHA256": "19a6d6fc7bed7dcaf6703720f99cc9ca5c355f81d63b3af2d183b110d0079817",
+          "assetSHA256": "550074a48d2427f96f311e658b46478ca633f724eb7af0e0e68fdeefa19c2f1c",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "תא השיט ברטושוביצה",
+            "en": "Bartoszowice Lock",
+            "pl": "Śluza Bartoszowice",
+            "de": "Schleuse Bartoszowice",
+            "cs": "Plavební komora Bartoszowice"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": true,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "solny": {
     "id": "solny",
     "localName": "Plac Solny",
@@ -85428,6 +85980,150 @@
     },
     "socialPosts": []
   },
+  "wielka-wyspa-wroclaw": {
+    "id": "wielka-wyspa-wroclaw",
+    "localName": "Wielka Wyspa",
+    "name": {
+      "he": "האי הגדול",
+      "en": "Great Island",
+      "pl": "Wielka Wyspa",
+      "de": "Große Insel",
+      "cs": "Velký ostrov"
+    },
+    "description": {
+      "he": "סיכה מייצגת במרכז האי הגדול, הכולל את ביסקופין, ספולנו, דאמביה וברטושוביצה. מכאן אפשר לבחור בין פארקים, היכל המאה, גן החיות, השכונות וגדות הנהר. הסיכה מסמנת אזור, ולא כניסה לאתר מסוים.",
+      "en": "A representative pin in the centre of the Great Island, encompassing Biskupin, Sępolno, Dąbie and Bartoszowice. Choose between parks, Centennial Hall, the zoo, neighbourhoods and riverbanks. This pin represents an area, not a specific attraction entrance.",
+      "pl": "Reprezentacyjna pinezka w centrum Wielkiej Wyspy, obejmującej Biskupin, Sępolno, Dąbie i Bartoszowice. Wybierz parki, Halę Stulecia, zoo, osiedla lub brzegi rzeki. To oznaczenie obszaru, nie wejścia do konkretnej atrakcji.",
+      "de": "Ein repräsentativer Punkt im Zentrum der Großen Insel mit Biskupin, Sępolno, Dąbie und Bartoszowice. Wählen Sie Parks, Jahrhunderthalle, Zoo, Viertel oder Flussufer. Der Punkt bezeichnet ein Gebiet, keinen bestimmten Eingang.",
+      "cs": "Reprezentativní bod uprostřed Velkého ostrova s čtvrtěmi Biskupin, Sępolno, Dąbie a Bartoszowice. Vyberte si parky, Halu století, zoo, čtvrti či říční břehy. Bod označuje oblast, nikoli vstup do konkrétní atrakce."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.11,
+        "lng": 17.095
+      }
+    },
+    "categories": [
+      "river"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "river"
+      ],
+      "tags": [
+        "river",
+        "island"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wroclaw.pl/files/Turystyka/Wroclaw_Szlak_Odry.pdf",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.11,17.095",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-30",
+      "sourceUrls": [
+        "https://www.wroclaw.pl/files/Turystyka/Wroclaw_Szlak_Odry.pdf"
+      ],
+      "coordinateMethod": "Representative central area point, not a venue entrance",
+      "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"
+    },
+    "media": {
+      "thumbnail": "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg",
+      "photos": [
+        "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg",
+        "/assets/experiences/bridges-islands/river-03.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4549.JPG",
+          "sourceSHA256": "9d141e5950ff8fc84a77209e38271836c536bff1a843272421f96ac42d2a400f",
+          "assetSHA256": "badb320f909bccb7708264c9db1e29cf5f7e8fd39cb35fc5b79132b3c69bd487",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "האי הגדול",
+            "en": "Great Island",
+            "pl": "Wielka Wyspa",
+            "de": "Große Insel",
+            "cs": "Velký ostrov"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/experiences/bridges-islands/river-03.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4554.JPG",
+          "sourceSHA256": "5834f0cfad1dccd78f6bf4e241273744759f3490d5204e99557b3d7c8fa3d7b5",
+          "assetSHA256": "883df239c8c80fbc284c30b3820b431c371905ff27613de2dc527a631d4fb34a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "האי הגדול",
+            "en": "Great Island",
+            "pl": "Wielka Wyspa",
+            "de": "Große Insel",
+            "cs": "Velký ostrov"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": true,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        }
+      }
+    },
+    "socialPosts": []
+  },
   "wierzbowa-15": {
     "id": "wierzbowa-15",
     "localName": "Wierzbowa 15",
@@ -91443,6 +92139,190 @@
             "de": "Besuchsfoto am Wyndham Wrocław Old Town",
             "cs": "Fotografie z návštěvy u Wyndham Wrocław Old Town"
           }
+        }
+      }
+    },
+    "socialPosts": []
+  },
+  "wyspa-opatowicka-wroclaw": {
+    "id": "wyspa-opatowicka-wroclaw",
+    "localName": "Wyspa Opatowicka",
+    "name": {
+      "he": "האי אופטוביצקה",
+      "en": "Opatowicka Island",
+      "pl": "Wyspa Opatowicka",
+      "de": "Opatowicka-Insel",
+      "cs": "Opatovický ostrov"
+    },
+    "description": {
+      "he": "אי ירוק לשיטוט רגוע בין עצים, שבילים וגדות הנהר. התמונות צולמו במהלך ההליכה שלנו באי. בדקו במקום אילו מעברים פתוחים לפני חציית הסכרים ותאי השיט.",
+      "en": "A green island for an unhurried walk among trees, paths and riverbanks. These photographs come from our island walk. Check locally which crossings are open before crossing weirs and locks.",
+      "pl": "Zielona wyspa na spokojny spacer wśród drzew, ścieżek i brzegów rzeki. Zdjęcia pochodzą z naszego spaceru. Przed przejściem przez jazy i śluzy sprawdź na miejscu dostępność przejść.",
+      "de": "Eine grüne Insel für einen ruhigen Spaziergang zwischen Bäumen, Wegen und Flussufern. Die Fotos stammen von unserem Inselspaziergang. Prüfen Sie vor Ort, welche Übergänge an Wehren und Schleusen offen sind.",
+      "cs": "Zelený ostrov pro klidnou procházku mezi stromy, cestami a říčními břehy. Snímky pocházejí z naší procházky po ostrově. Před přechodem přes jezy a komory ověřte otevření přechodů."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.09725,
+        "lng": 17.12383
+      }
+    },
+    "categories": [
+      "river"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "river"
+      ],
+      "tags": [
+        "river",
+        "island"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/wyspa-opatowicka-bedzie-ponownie-dostepna-przez-sluze",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.09725,17.12383",
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "verifiedAt": "2026-10-30",
+      "sourceUrls": [
+        "https://www.wroclaw.pl/dla-mieszkanca/wyspa-opatowicka-bedzie-ponownie-dostepna-przez-sluze"
+      ],
+      "coordinateMethod": "Published geographic reference, cross-checked against the user-labelled original photographs",
+      "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"
+    },
+    "media": {
+      "thumbnail": "/assets/water-lamplighter-oct30/water-856203aa8e15.jpg",
+      "photos": [
+        "/assets/water-lamplighter-oct30/water-856203aa8e15.jpg",
+        "/assets/experiences/bridges-islands/river-19.jpg",
+        "/assets/water-lamplighter-oct30/water-a05dfc67ec42.jpg",
+        "/assets/water-lamplighter-oct30/water-477e5c5eb736.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/water-lamplighter-oct30/water-477e5c5eb736.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Wyspw Opatowicka/IMG_4765.JPG",
+          "sourceSHA256": "477e5c5eb736688b3c974f15d5b8b284ff9b4f635f9df67b226e9bdeb5da3190",
+          "assetSHA256": "42b86b3c629b47e518f9bc0e04cbbebe885c4566912a00aa8ac26a3452f3a57d",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "האי אופטוביצקה",
+            "en": "Opatowicka Island",
+            "pl": "Wyspa Opatowicka",
+            "de": "Opatowicka-Insel",
+            "cs": "Opatovický ostrov"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/water-lamplighter-oct30/water-856203aa8e15.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Wyspw Opatowicka/IMG_4770.JPG",
+          "sourceSHA256": "856203aa8e1599b5ab74ff7e52df22b6e2d2cae30ef52c89c0cf55d60bd669b8",
+          "assetSHA256": "3e839954e12aa7a22c4afeec363dadebc95d5e0b5ee30fde8f4e81ed0b34e27e",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "האי אופטוביצקה",
+            "en": "Opatowicka Island",
+            "pl": "Wyspa Opatowicka",
+            "de": "Opatowicka-Insel",
+            "cs": "Opatovický ostrov"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/water-lamplighter-oct30/water-a05dfc67ec42.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Wyspw Opatowicka/IMG_4773.JPG",
+          "sourceSHA256": "a05dfc67ec42ae50a6dcc2a8dc5e928e35aac2df184f5c844372d84c006e8483",
+          "assetSHA256": "f1135321eea8d2286c61aa1a6a1b0ba79e112eb074044829f140828c330fbb23",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "האי אופטוביצקה",
+            "en": "Opatowicka Island",
+            "pl": "Wyspa Opatowicka",
+            "de": "Opatowicka-Insel",
+            "cs": "Opatovický ostrov"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": false,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
+        },
+        "/assets/experiences/bridges-islands/river-19.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Wyspw Opatowicka/IMG_4774.JPG",
+          "sourceSHA256": "0176c58f8e4db237586c52bc796965ed4391766af040224318e9aeb026937632",
+          "assetSHA256": "8c381d24e05e1419408ad2488dabbe9bf355f3200b3b8177bb98dda7bb261e3d",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "familyForeground": true,
+          "familyExceptionApplied": true,
+          "alt": {
+            "he": "האי אופטוביצקה",
+            "en": "Opatowicka Island",
+            "pl": "Wyspa Opatowicka",
+            "de": "Opatowicka-Insel",
+            "cs": "Opatovický ostrov"
+          },
+          "reviewedAt": "2026-10-30",
+          "reusedExistingAsset": true,
+          "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."
         }
       }
     },
