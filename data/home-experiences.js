@@ -124,5 +124,17 @@ window.WROC_HOME_EXPERIENCES = [
       "cs": "Vegetariánská a veganská Vratislav"
     },
     "photo": "/assets/experiences/milk-bars/visit-03.jpg"
+  },
+  {
+    "id": "ostrow-tumski-lamplighter",
+    "name": {
+      "he": "מדליק המנורות של אי הקתדרלות",
+      "en": "The lamplighter of Cathedral Island",
+      "pl": "Latarnik na Ostrowie Tumskim",
+      "de": "Der Laternenanzünder auf der Dominsel",
+      "cs": "Lampář na Tumském ostrově"
+    },
+    "photoPosition": "center 45%",
+    "photo": "/assets/water-lamplighter-oct30/lamplighter-visit-frame.jpg"
   }
 ];

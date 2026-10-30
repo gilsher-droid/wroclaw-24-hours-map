@@ -1483,6 +1483,34 @@
       "lng": 16.1904138
     }
   },
+  "jaz-bartoszowice-wroclaw": {
+    "id": "jaz-bartoszowice-wroclaw",
+    "name": {
+      "he": "סכר ברטושוביצה",
+      "en": "Bartoszowice Weir",
+      "pl": "Jaz Bartoszowice",
+      "de": "Wehr Bartoszowice",
+      "cs": "Jez Bartoszowice"
+    },
+    "coordinates": {
+      "lat": 51.102222,
+      "lng": 17.122778
+    }
+  },
+  "jaz-opatowice-wroclaw": {
+    "id": "jaz-opatowice-wroclaw",
+    "name": {
+      "he": "סכר אופטוביצה",
+      "en": "Opatowice Weir",
+      "pl": "Jaz Opatowice",
+      "de": "Wehr Opatowice",
+      "cs": "Jez Opatowice"
+    },
+    "coordinates": {
+      "lat": 51.099975,
+      "lng": 17.121345
+    }
+  },
   "jelenia-gora-market-square": {
     "id": "jelenia-gora-market-square",
     "name": {
@@ -3359,6 +3387,20 @@
       "lng": 17.037637
     }
   },
+  "sluza-bartoszowice-wroclaw": {
+    "id": "sluza-bartoszowice-wroclaw",
+    "name": {
+      "he": "תא השיט ברטושוביצה",
+      "en": "Bartoszowice Lock",
+      "pl": "Śluza Bartoszowice",
+      "de": "Schleuse Bartoszowice",
+      "cs": "Plavební komora Bartoszowice"
+    },
+    "coordinates": {
+      "lat": 51.1035,
+      "lng": 17.1256
+    }
+  },
   "solny": {
     "id": "solny",
     "name": {
@@ -4241,6 +4283,20 @@
       "lng": 17.025364605411
     }
   },
+  "wielka-wyspa-wroclaw": {
+    "id": "wielka-wyspa-wroclaw",
+    "name": {
+      "he": "האי הגדול",
+      "en": "Great Island",
+      "pl": "Wielka Wyspa",
+      "de": "Große Insel",
+      "cs": "Velký ostrov"
+    },
+    "coordinates": {
+      "lat": 51.11,
+      "lng": 17.095
+    }
+  },
   "wierzbowa-15": {
     "id": "wierzbowa-15",
     "name": {
@@ -4435,6 +4491,20 @@
     "coordinates": {
       "lat": 51.111323,
       "lng": 17.028617
+    }
+  },
+  "wyspa-opatowicka-wroclaw": {
+    "id": "wyspa-opatowicka-wroclaw",
+    "name": {
+      "he": "האי אופטוביצקה",
+      "en": "Opatowicka Island",
+      "pl": "Wyspa Opatowicka",
+      "de": "Opatowicka-Insel",
+      "cs": "Opatovický ostrov"
+    },
+    "coordinates": {
+      "lat": 51.09725,
+      "lng": 17.12383
     }
   },
   "wyspa-piasek": {

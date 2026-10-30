@@ -13,18 +13,18 @@
 
 .wroc-now__inner {
   width: calc(100% - 32px);
-  min-height: 68px;
+  min-height: 88px;
   margin-inline: auto;
   display: grid;
   grid-template-columns: max-content minmax(0, 1fr) max-content;
   align-items: center;
   gap: 16px;
-  padding-block: 8px;
+  padding-block: 14px;
 }
 
 .wroc-now__title {
   color: #ffd77f;
-  font-size: 0.82rem;
+  font-size: 1rem;
   letter-spacing: 0.025em;
   white-space: nowrap;
 }
@@ -34,8 +34,8 @@
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 0.88rem;
-  line-height: 1.35;
+  font-size: 1.05rem;
+  line-height: 1.55;
 }
 
 .wroc-now__category {
@@ -61,7 +61,7 @@
 .wroc-now__link {
   flex: 0 0 auto;
   color: #fff;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   font-weight: 700;
   text-underline-offset: 3px;
 }
@@ -76,8 +76,8 @@
 }
 
 .wroc-now__button {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border: 1px solid rgb(255 255 255 / 38%);
   border-radius: 999px;
   background: transparent;
@@ -100,15 +100,15 @@
 @media (max-width: 720px) {
   .wroc-now__inner {
     width: calc(100% - 24px);
-    min-height: 88px;
+    min-height: 108px;
     grid-template-columns: minmax(0, 1fr) max-content;
     gap: 4px 10px;
-    padding-block: 8px;
+    padding-block: 12px;
   }
 
-  .wroc-now__title { grid-column: 1; font-size: 0.75rem; }
+  .wroc-now__title { grid-column: 1; font-size: 0.9rem; }
   .wroc-now__controls { grid-column: 2; grid-row: 1 / span 2; }
-  .wroc-now__item { grid-column: 1; flex-wrap: wrap; font-size: 0.82rem; }
+  .wroc-now__item { grid-column: 1; flex-wrap: wrap; font-size: 1rem; }
   .wroc-now__text { flex-basis: calc(100% - 17px); }
   .wroc-now__link { white-space: nowrap; }
 }
