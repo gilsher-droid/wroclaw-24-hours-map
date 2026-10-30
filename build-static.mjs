@@ -32,6 +32,8 @@ for (const file of [
   "nearby-copy.js",
   "nearby.css",
   "home-shell.css",
+  "home-discovery.css",
+  "home-discovery.js",
   "community.html",
   "community-app.js",
   "map-tiles.js",
