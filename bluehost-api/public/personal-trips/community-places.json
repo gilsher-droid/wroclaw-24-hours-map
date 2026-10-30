@@ -1091,6 +1091,104 @@
       "lng": 17.0256092
     }
   },
+  "gdansk-baltic-philharmonic": {
+    "id": "gdansk-baltic-philharmonic",
+    "name": {
+      "he": "הפילהרמונית הבלטית באולוביאנקה",
+      "en": "Baltic Philharmonic on Ołowianka",
+      "pl": "Polska Filharmonia Bałtycka",
+      "de": "Baltische Philharmonie auf Ołowianka",
+      "cs": "Baltská filharmonie na Ołowiance"
+    },
+    "coordinates": {
+      "lat": 54.3524759,
+      "lng": 18.6597088
+    }
+  },
+  "gdansk-golden-house": {
+    "id": "gdansk-golden-house",
+    "name": {
+      "he": "בית הזהב בגדנסק",
+      "en": "Golden House in Gdańsk",
+      "pl": "Złota Kamienica",
+      "de": "Goldenes Haus in Danzig",
+      "cs": "Zlatý dům v Gdaňsku"
+    },
+    "coordinates": {
+      "lat": 54.3486676,
+      "lng": 18.6538079
+    }
+  },
+  "gdansk-main-town-hall": {
+    "id": "gdansk-main-town-hall",
+    "name": {
+      "he": "בית העירייה של גדנסק",
+      "en": "Gdańsk Main Town Hall",
+      "pl": "Ratusz Głównego Miasta",
+      "de": "Rechtstädtisches Rathaus",
+      "cs": "Radnice Hlavního Města v Gdaňsku"
+    },
+    "coordinates": {
+      "lat": 54.3488986,
+      "lng": 18.6526886
+    }
+  },
+  "gdansk-neptune-fountain": {
+    "id": "gdansk-neptune-fountain",
+    "name": {
+      "he": "מזרקת נפטון בגדנסק",
+      "en": "Neptune Fountain in Gdańsk",
+      "pl": "Fontanna Neptuna",
+      "de": "Neptunbrunnen in Danzig",
+      "cs": "Neptunova fontána v Gdaňsku"
+    },
+    "coordinates": {
+      "lat": 54.3485469,
+      "lng": 18.6532286
+    }
+  },
+  "gdansk-olowianka-footbridge": {
+    "id": "gdansk-olowianka-footbridge",
+    "name": {
+      "he": "הגשר המתרומם לאי אולוביאנקה",
+      "en": "Ołowianka lifting footbridge",
+      "pl": "Kładka zwodzona na Ołowiankę",
+      "de": "Klappbrücke zur Insel Ołowianka",
+      "cs": "Zvedací lávka na ostrov Ołowianka"
+    },
+    "coordinates": {
+      "lat": 54.3535914,
+      "lng": 18.6604757
+    }
+  },
+  "gdansk-st-marys-basilica": {
+    "id": "gdansk-st-marys-basilica",
+    "name": {
+      "he": "בזיליקת מריה הקדושה והשעון האסטרונומי",
+      "en": "St Mary’s Basilica and astronomical clock",
+      "pl": "Bazylika Mariacka i zegar astronomiczny",
+      "de": "Marienkirche und astronomische Uhr",
+      "cs": "Mariánská bazilika a orloj"
+    },
+    "coordinates": {
+      "lat": 54.349807,
+      "lng": 18.6530127
+    }
+  },
+  "gdansk-upland-gate": {
+    "id": "gdansk-upland-gate",
+    "name": {
+      "he": "השער העליון בגדנסק",
+      "en": "Gdańsk Upland Gate",
+      "pl": "Brama Wyżynna",
+      "de": "Hohes Tor in Danzig",
+      "cs": "Horní brána v Gdaňsku"
+    },
+    "coordinates": {
+      "lat": 54.3499297,
+      "lng": 18.6465252
+    }
+  },
   "ghiacci-cafe-poznan": {
     "id": "ghiacci-cafe-poznan",
     "name": {
@@ -3273,6 +3371,34 @@
     "coordinates": {
       "lat": 51.1103079,
       "lng": 17.0397134
+    }
+  },
+  "sopot-lighthouse": {
+    "id": "sopot-lighthouse",
+    "name": {
+      "he": "מגדלור סופוט מבחוץ",
+      "en": "Sopot lighthouse exterior",
+      "pl": "Latarnia morska w Sopocie z zewnątrz",
+      "de": "Leuchtturm Sopot von außen",
+      "cs": "Maják v Sopotech zvenku"
+    },
+    "coordinates": {
+      "lat": 54.4453908,
+      "lng": 18.5704646
+    }
+  },
+  "sopot-wojtek-bear": {
+    "id": "sopot-wojtek-bear",
+    "name": {
+      "he": "פסל הדוב ווייטק בסופוט",
+      "en": "Wojtek the Bear in Sopot",
+      "pl": "Pomnik Misia Wojtka w Sopocie",
+      "de": "Denkmal für Bär Wojtek in Sopot",
+      "cs": "Památník medvěda Wojtka v Sopotech"
+    },
+    "coordinates": {
+      "lat": 54.4432989,
+      "lng": 18.5642565
     }
   },
   "srebrna-gora-fortress": {

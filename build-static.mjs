@@ -1,3 +1,4 @@
+import {syncMapNearbyPrivate} from './tools/sync-map-nearby-private.mjs';
 import {versionNearbyAssets} from './tools/version-nearby-assets.mjs';
 import { generateGuideMap } from "./tools/generate-guide-map.mjs";
 import { generateHomeExperiences } from "./tools/generate-home-experiences.mjs";
@@ -8,6 +9,7 @@ import { resolve } from "node:path";
 
 const root = process.cwd();
 await (await import("./tools/generate-community-places.mjs")).generateCommunityPlaces(root);
+await syncMapNearbyPrivate(root);
 await generateGuideMap(root);
 await generateHomeExcursions(root);
 await generateHomeExperiences(root);
@@ -37,6 +39,8 @@ for (const file of [
   "community.html",
   "community-app.js",
   "map-tiles.js",
+  "map-nearby.js",
+  "map-nearby.css",
   "map-tiles.css",
   "community-copy.js",
   "community.css",
@@ -105,7 +109,7 @@ for (const file of [
 const homeExperienceScripts = await Promise.all([
   "/map-tiles.js", "/community-app.js", "/community-copy.js",
   "/site-actions.js", "/home-maps.js",
-  "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
+  "/data/excursion-city-walks.js", "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
   "/data/canonical-experiences.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js",
   "/place-popup-photo.js", "/place-panel.js", "/place-panel-copy.js", "/place-ai.js", "/place-ai-model.js",
   "/experiences.js", "/guide-video.js", "/youtube-video.js",

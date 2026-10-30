@@ -1,0 +1,72 @@
+window.WROC_PLACE_PANEL_COPY = {
+  "he": {
+    "navigate": "ניווט",
+    "facebook": "פייסבוק",
+    "instagram": "אינסטגרם",
+    "photos": "תמונות",
+    "clips": "סרטוני ביקור",
+    "about": "על המקום",
+    "closeMap": "סגירה וחזרה למפה",
+    "website": "אתר רשמי",
+    "noMedia": "אין כאן מדיה זמינה כרגע.",
+    "previous": "העמוד הקודם",
+    "next": "העמוד הבא",
+    "addMemory": "הוספת זיכרון"
+  },
+  "en": {
+    "navigate": "Navigate",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "photos": "Photos",
+    "clips": "Visit clips",
+    "about": "About this place",
+    "closeMap": "Close and return to the map",
+    "website": "Official website",
+    "noMedia": "No media is currently available.",
+    "previous": "Previous page",
+    "next": "Next page",
+    "addMemory": "Add a memory"
+  },
+  "pl": {
+    "navigate": "Nawiguj",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "photos": "Zdjęcia",
+    "clips": "Filmy z wizyty",
+    "about": "O tym miejscu",
+    "closeMap": "Zamknij i wróć do mapy",
+    "website": "Oficjalna strona",
+    "noMedia": "Brak dostępnych materiałów.",
+    "previous": "Poprzednia strona",
+    "next": "Następna strona",
+    "addMemory": "Dodaj wspomnienie"
+  },
+  "de": {
+    "navigate": "Navigation",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "photos": "Fotos",
+    "clips": "Besuchsfilme",
+    "about": "Über den Ort",
+    "closeMap": "Schließen und zur Karte zurückkehren",
+    "website": "Offizielle Website",
+    "noMedia": "Derzeit keine Medien verfügbar.",
+    "previous": "Vorherige Seite",
+    "next": "Nächste Seite",
+    "addMemory": "Erinnerung hinzufügen"
+  },
+  "cs": {
+    "navigate": "Navigace",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "photos": "Fotografie",
+    "clips": "Videa z návštěvy",
+    "about": "O místě",
+    "closeMap": "Zavřít a vrátit se na mapu",
+    "website": "Oficiální web",
+    "noMedia": "Nyní nejsou dostupná média.",
+    "previous": "Předchozí stránka",
+    "next": "Další stránka",
+    "addMemory": "Přidat vzpomínku"
+  }
+};

@@ -3,7 +3,7 @@ declare(strict_types=1);
 require_once __DIR__.'/album-repository.php';
 function albumRoute(string $private,array $user):array {
  $reference=(string)($user['route']??'');if(!preg_match('/^WL-[A-Z0-9]{12}$/D',$reference))jsonReply(['error'=>'missing'],404);
- $route=readRecord($private.'/routes/'.$reference.'.json');if(!$route||!is_array($route['days']??null)||!is_array($route['places']??null))jsonReply(['error'=>'missing'],404);return $route;
+ $route=readRecord($private.'/routes/'.$reference.'.json');if(!$route||!is_array($route['days']??null)||!is_array($route['places']??null))jsonReply(['error'=>'missing'],404);return nearbyMerge($private,$GLOBALS['managedOwner']?:$GLOBALS['key'],$route,$user['language']??'he');
 }
 function albumOwnerState(array $state):array {
  $managed=$GLOBALS['managedOwner']??'';

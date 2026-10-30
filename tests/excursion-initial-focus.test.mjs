@@ -1,23 +1,7 @@
-import test from 'node:test';
-import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
-import {runInNewContext} from 'node:vm';
-test('Łódź opens on its local stops while keeping the complete journey and overview',()=>{
- const window={};for(const file of ['data/place-catalog.js','data/lower-silesia-excursions.js'])runInNewContext(readFileSync(file,'utf8'),{window});
- const source=readFileSync('excursions.js','utf8');
- const fn=source.slice(source.indexOf('  function renderMap(excursion) {'),source.indexOf('  function extensionActions'));
- for(const excursion of window.WROC_LOWER_SILESIA_EXCURSIONS.excursions){
-  let fitted,polyline;
-  const fakeMap={remove(){},fitBounds(points){fitted=points;}};
-  const L={map(){return fakeMap;},tileLayer(){return {addTo(){}};},polyline(points){polyline=points;return {addTo(){}};},divIcon(){},layerGroup(){return {addTo(){return this;},addLayer(){}};},marker(){return {addTo(){return this;},bindPopup(){return this;},on(){return this;}};}};
-  const place=id=>window.WROC_CATALOG.getPlace(id);
-  const coords=point=>{const p=point.canonicalPlaceId?place(point.canonicalPlaceId):null;return p?.location?.coordinates||point.coordinates;};
-  const context={window:{L,WROC_MAP_TILES:{addTo(){}},WROC_GUIDE_VIDEO:{legend(){},decorateIcon(){}}},L,installRecommendedGroups(){},document:{querySelector(){return null;}},usesChoiceMap:excursion=>excursion.id==="poznan-wroclaw-stopover"||Boolean(excursion.cityChapters?.length),optionalLayer:null,optionalMarkers:[],optionalGroup(){return 'culture';},optionalSymbols:{culture:{color:'#69458c'}},optionalSymbol(){return '<svg></svg>';},map:null,mapStops:new Map(),coords,place,local:v=>v?.en||v,language:'en',placeAmenities:{markerBadgeHtml(){return '';}},placePopup(){return '';},registerMapStop(){},trackPlaceOpen(){}};
-  runInNewContext(source.slice(source.indexOf('  function fitPoznanRoute('),source.indexOf('  function installRecommendedGroups('))+fn+'\nthis.run=renderMap;',context);context.run(excursion);
-  assert.equal(polyline.length,excursion.routePoints.map(coords).filter(Boolean).length);
-  if(excursion.id==='warsaw-lodz-wroclaw'){
-   assert.equal(fitted.length,9);assert.ok(fitted.every(([lat,lng])=>lat>51.7&&lat<51.85&&lng>19.3&&lng<19.6));assert.ok(polyline.length>fitted.length);
-  }else if(excursion.id==='gdansk-sopot-malbork-three-day-trip'){assert.equal(fitted.length,5);assert.ok(fitted.every(([lat,lng])=>lat>54&&lat<54.5&&lng>18&&lng<19.1));assert.equal(polyline.length,7);}else if(excursion.id==='srebrna-gora-klodzko-day-trip'){assert.equal(fitted.length,3);assert.ok(fitted.every(([lat,lng])=>lat>50.4&&lat<50.6&&lng>16.6&&lng<16.7));assert.equal(polyline.length,5);}else assert.equal(fitted.length,polyline.length);
+import test from 'node:test';import assert from 'node:assert/strict';import{readFileSync}from'node:fs';import{runInNewContext}from'node:vm';
+test('Every excursion starts on visiting stops; the explicit journey view retains departure and return',()=>{
+ const window={};for(const f of ['data/place-catalog.js','data/lower-silesia-excursions.js'])runInNewContext(readFileSync(f,'utf8'),{window});const source=readFileSync('excursions.js','utf8'),fn=source.slice(source.indexOf('  let journeyMode='),source.indexOf('  function extensionActions'));
+ for(const excursion of window.WROC_LOWER_SILESIA_EXCURSIONS.excursions){let fitted,line;const map={remove(){},fitBounds(p){fitted=p;}},tools={querySelector(){return {};}};const L={map:()=>map,polyline:p=>{line=p;return{addTo(){}};},divIcon(){},layerGroup:()=>({addTo(){return this;},addLayer(){}}),marker:()=>({addTo(){return this;},bindPopup(){return this;},on(){return this;}})};const place=id=>window.WROC_CATALOG.getPlace(id),coords=p=>place(p.canonicalPlaceId)?.location.coordinates||p.coordinates;const context={window:{...window,L,WROC_MAP_TILES:{addTo(){}},WROC_GUIDE_VIDEO:{legend(){},decorateIcon(){}}},L,map:null,mapStops:new Map(),optionalLayer:null,optionalMarkers:[],document:{querySelector:s=>s==='#excursion-journey-tools'?tools:null},usesChoiceMap:()=>false,installRecommendedGroups(){},fitPoznanRoute(){},coords,place,local:v=>v?.en||v,language:'en',placeAmenities:{markerBadgeHtml(){return '';}},placePopup(){return '';},registerMapStop(){},trackPlaceOpen(){},optionalGroup:()=> 'culture',optionalSymbols:{culture:{color:'#000'}},optionalSymbol(){},selectedExcursion:()=>excursion,render(){}};
+ runInNewContext(fn+'\nthis.run=renderMap;this.travel=x=>{journeyMode=true;renderMap(x)};',context);context.run(excursion);const visiting=excursion.routePoints.filter(p=>excursion.canonicalPlaceIds.includes(p.canonicalPlaceId)).map(coords).filter(Boolean);assert.equal(line.length,visiting.length||excursion.routePoints.length,excursion.id);assert.equal(fitted.length,line.length);if(excursion.id==='warsaw-lodz-wroclaw')assert.ok(fitted.every(([lat,lng])=>lat>51.7&&lat<51.85&&lng>19.3&&lng<19.6));context.travel(excursion);assert.equal(line.length,excursion.routePoints.map(coords).filter(Boolean).length);assert.equal(fitted.length,line.length);assert.match(tools.innerHTML,/travelmode=driving/);
  }
- assert.ok(source.includes('points = walking ? excursion.walkingRoute?.points : excursion.routePoints'),'full-route overview retains departure and destination');
 });

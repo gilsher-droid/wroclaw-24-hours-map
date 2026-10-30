@@ -1,7 +1,8 @@
+import {beforeNorthernCityWalks} from './northern-city-walks-baseline.mjs';
 import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {createHash} from 'node:crypto';import vm from 'node:vm';import {beforeDiningSnapshot,withoutDining} from './dining-historical-baseline.mjs';
 const proof=JSON.parse(readFileSync('data/dining-development-preservation.json','utf8')),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const clone=x=>JSON.parse(JSON.stringify(x));
-function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/lower-silesia-excursions.js','data/home-experiences.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window});return window;}
+function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/lower-silesia-excursions.js','data/home-experiences.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window});return beforeNorthernCityWalks(window);}
 test('Dining is additive: all 323 original record bodies, aliases, 10 excursions and 15 experiences remain exact',()=>{
  const w=load(),c=w.WROC_CATALOG;assert.equal(Object.keys(c.places).length,323);assert.equal(Object.keys(proof.beforeRecordHashes).length,323);
  for(const [id,p]of Object.entries(c.places)){const body=clone(p);delete body.dining;assert.equal(hash(body),proof.beforeRecordHashes[id],id);if(p.dining)assert.equal(hash(p.dining),proof.diningHashes[id]);}
