@@ -1,0 +1,81 @@
+{
+  "verifiedAt": "2026-10-30",
+  "canonicalPlaceId": "kladka-slodowa",
+  "sourceInventory": [
+    {
+      "file": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad.jpeg",
+      "sha256": "3c2e311d0edc76ccfe58a3f40ede54467a9200941f84c1ba244c1e6b4ec3f9c0",
+      "size": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "file": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad2.jpeg",
+      "sha256": "f7b424151314541c0cd95ee80f4a3ee07c6d0f82a72422a948e91f93432cadca",
+      "size": [
+        1200,
+        1600
+      ]
+    },
+    {
+      "file": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad3.jpeg",
+      "sha256": "2cad5d3a58261259e22fc13ad36a63f10426ed31631c7a51a1c1d747a20b3ed2",
+      "size": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "file": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad4.jpeg",
+      "sha256": "5b28427315c7dc51f2478e3e3f05e1f675f97a4c405e7710f882d63a903909e5",
+      "size": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "file": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad5jpeg.jpeg",
+      "sha256": "971a1df85998421c89f951104ec8779a9e05d728d2626fb199b384b1de0194cf",
+      "size": [
+        1600,
+        1200
+      ]
+    }
+  ],
+  "used": [
+    {
+      "asset": "/assets/experiences/bridges-islands/river-24.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad2.jpeg",
+      "sourceSHA256": "f7b424151314541c0cd95ee80f4a3ee07c6d0f82a72422a948e91f93432cadca"
+    },
+    {
+      "asset": "/assets/experiences/bridges-islands/river-26.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad3.jpeg",
+      "sourceSHA256": "2cad5d3a58261259e22fc13ad36a63f10426ed31631c7a51a1c1d747a20b3ed2"
+    },
+    {
+      "asset": "/assets/round24h-20261022/slodowa-10.jpg",
+      "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad5jpeg.jpeg",
+      "sourceSHA256": "971a1df85998421c89f951104ec8779a9e05d728d2626fb199b384b1de0194cf"
+    }
+  ],
+  "notAdded": [
+    {
+      "file": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad.jpeg",
+      "reason": "Near-repeated wide view; representative wide frame already published."
+    },
+    {
+      "file": "/Users/rachelfiler/Desktop/Wroclaw/Wyspa Slodowa/thebridgetoslodowailsnad4.jpeg",
+      "reason": "Similar wider view; use one representative wide photograph."
+    }
+  ],
+  "newImageFiles": 0,
+  "existingExperienceGalleryPreserved": true,
+  "geometrySource": "https://api.openstreetmap.org/api/0.6/way/371390291/full.json",
+  "identitySources": [
+    "https://www.wroclaw.pl/dla-mieszkanca/kladka-slodowa-juz-otwarta",
+    "https://zzm.wroc.pl/obiektyzzmcp/wyspa-slodowa/",
+    "https://www.openstreetmap.org/way/371390291"
+  ]
+}

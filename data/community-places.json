@@ -1623,6 +1623,20 @@
       "lng": 17.02196
     }
   },
+  "kladka-slodowa": {
+    "id": "kladka-slodowa",
+    "name": {
+      "he": "גשר הולכי הרגל לאי סלודובה",
+      "en": "Słodowa Footbridge",
+      "pl": "Kładka Słodowa",
+      "de": "Słodowa-Fußgängerbrücke",
+      "cs": "Lávka Słodowa"
+    },
+    "coordinates": {
+      "lat": 51.116312,
+      "lng": 17.034969
+    }
+  },
   "klodzko-fortress": {
     "id": "klodzko-fortress",
     "name": {
