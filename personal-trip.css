@@ -2,3 +2,6 @@
 h1{white-space:pre-line}
 
 .leaflet-popup-content img{padding:2px;border:1px solid #c99c50;border-radius:8px;background:#fffaf0;box-shadow:0 0 0 1px rgba(6,43,92,.14),0 2px 5px rgba(6,43,92,.1);}
+
+/* Keep the map background notice with its map, outside the stops grid cell. */
+.example-map,.example-layout>.demo-stops{min-width:0}
