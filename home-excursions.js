@@ -11,11 +11,11 @@
   const hebrewTitles = ['קשונז׳ ושווידניצה', 'ברז׳ג וטירת מושנה', 'יאבור, קרפץ, וואנג וילניה גורה', 'צ׳וחה ובולסלבייץ, עם לינה בטירה', 'בדרך לוורוצלב עוצרים בלודז׳', 'סרברנה גורה וקלודזקו', 'בדרך לוורוצלב 2: עוצרים בפוזנן'];
   const hebrewSummaries = ['טירה מרשימה, עצירה בעיר היסטורית וכנסיית השלום בשווידניצה.', 'מורשת, אדריכלות ואווירת אגדה בטירה עטורת צריחים.', 'כנסיית השלום, עיירת ההרים, כנסיית העץ וואנג ומרכז ילניה גורה.', 'יומיים של טירה, טיול בוקר לסכר ועיר הקרמיקה הצבעונית.', 'ורשה היא נקודת המוצא. עוצרים לגלות את לודז׳ וממשיכים לוורוצלב.', 'שני מבצרים מרשימים, תצפיות וטיול בעיר העתיקה של קלודזקו.', 'יום בעיר העתיקה ובאי הקתדרלות, עם אוכל, קפה ואפשרות ללינה.'];
   const heroCopy = {
-    he: ['ככה מטיילים עם המפה שלנו', 'מתוך המפה האמיתית', 'פותחים את המפה ומתחילים לגלות', 'לוחצים על מקום ומגלים תמונות, סרטונים, ניווט ופוסטים מהמקום.', 'מפת מרכז וורוצלב עם כרטיס כיכר השוק פתוח'],
-    en: ['See how your map works', 'Our actual map', 'Open the map and start exploring', 'Tap a place to discover photos, videos, navigation and local posts.', 'Wrocław city map with the Market Square place card open'],
-    pl: ['Zobacz, jak działa nasza mapa', 'Nasza prawdziwa mapa', 'Otwórz mapę i zacznij odkrywać', 'Wybierz miejsce, aby zobaczyć zdjęcia, filmy, nawigację i wpisy o nim.', 'Mapa centrum Wrocławia z otwartą kartą Rynku'],
-    de: ['So funktioniert Ihre Karte', 'Unsere echte Karte', 'Karte öffnen und loslegen', 'Wählen Sie einen Ort für Fotos, Videos, Navigation und Beiträge.', 'Karte von Wrocław mit geöffneter Ortskarte des Marktplatzes'],
-    cs: ['Podívejte se, jak mapa funguje', 'Naše skutečná mapa', 'Otevřít mapu a začít objevovat', 'Vyberte místo a objevte fotografie, videa, navigaci a příspěvky.', 'Mapa centra Vratislavi s otevřenou kartou náměstí Rynek']
+    he: ['כך נראית המפה מבפנים', 'צילום מתוך מפת 24 השעות', 'נסו את מפת 24 השעות בוורוצלב', 'לוחצים על מקום ומגלים תמונות, סרטונים, ניווט ופוסטים מהמקום.', 'מפת מרכז וורוצלב עם כרטיס כיכר השוק פתוח'],
+    en: ['See inside the map', 'Screenshot from the 24-hour map', 'Try the 24 Hours in Wrocław map', 'Tap a place to discover photos, videos, navigation and local posts.', 'Wrocław city map with the Market Square place card open'],
+    pl: ['Zajrzyj do środka mapy', 'Zrzut ekranu mapy 24-godzinnej', 'Wypróbuj mapę 24 godziny we Wrocławiu', 'Wybierz miejsce, aby zobaczyć zdjęcia, filmy, nawigację i wpisy o nim.', 'Mapa centrum Wrocławia z otwartą kartą Rynku'],
+    de: ['Ein Blick in die Karte', 'Screenshot der 24-Stunden-Karte', 'Die Karte 24 Stunden in Wrocław ausprobieren', 'Wählen Sie einen Ort für Fotos, Videos, Navigation und Beiträge.', 'Karte von Wrocław mit geöffneter Ortskarte des Marktplatzes'],
+    cs: ['Nahlédněte do mapy', 'Snímek obrazovky 24hodinové mapy', 'Vyzkoušejte mapu 24 hodin ve Vratislavi', 'Vyberte místo a objevte fotografie, videa, navigaci a příspěvky.', 'Mapa centra Vratislavi s otevřenou kartou náměstí Rynek']
   };
   const knownIds = ['ksiaz-swidnica-day-trip', 'brzeg-moszna-day-trip', 'jawor-karpacz-jelenia-gora-day-trip', 'czocha-boleslawiec-two-day-trip', 'warsaw-lodz-wroclaw', 'srebrna-gora-klodzko-day-trip', 'poznan-wroclaw-stopover'];
   function el(tag, className, text) {
