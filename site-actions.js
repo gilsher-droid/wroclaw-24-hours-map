@@ -80,7 +80,7 @@
     if (hero && !document.querySelector('#personal-service')) {
       const section = document.createElement('section'); section.id = 'personal-service'; section.className = 'personal-service-banner';
       section.innerHTML = '<div><p data-personal-copy="0"></p><h2 data-personal-copy="2"></h2><p data-personal-copy="3"></p><a class="button" data-personal-copy="4" data-personal-link></a></div><img src="/assets/rynek-market-square.jpg" alt="" loading="lazy">';
-      hero.after(section);
+      const library=document.querySelector('#map-library');if(library)library.after(section);else hero.after(section);
       const nearby=document.createElement('section');nearby.id='nearby-discovery';nearby.className='nearby-home-banner';nearby.innerHTML=`<div class="nearby-home-copy"><h2 data-nearby-title></h2><p data-nearby-intro></p><a class="button" data-nearby-menu></a></div><a class="nearby-home-preview" data-nearby-preview><img src="${window.WROC_SANDBOX?'/assets/sandbox/nearby/nearby-radar-preview.jpg':'/assets/nearby-radar-preview.jpg'}" width="867" height="540" loading="lazy" data-nearby-preview-image alt=""></a>`;const how=document.querySelector('main > #how');if(how)how.before(nearby);else section.before(nearby);
     }
   }
