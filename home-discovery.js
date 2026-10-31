@@ -17,25 +17,19 @@
  const guideEditions={he:'https://youtube.com/shorts/tEbmB6OWe90',en:'https://youtube.com/shorts/4EnO5yNkQxc'};
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const lang=()=>choices[document.documentElement.lang]?document.documentElement.lang:'en';
- const recommend=({time=0,interest=0}={})=>time===2?2:interest===1?3:interest===2?4:interest===3?5:time===1?1:0;
- window.WROC_HOME_DISCOVERY={recommend,guideEditions};
+ window.WROC_HOME_DISCOVERY={guideEditions};
  if(typeof document==='undefined')return;
  if(!document.body?.classList.contains('homepage'))return;
- let selection={time:0,interest:0,pace:0};
- function result(){const l=lang(),c=choices[l],i=recommend(selection),host=document.querySelector('#home-route-result');
- host.innerHTML=`<div><span>${c.result}</span><h3>${mapTitles[l][i]}</h3><p>${i===2?excursionCopy[l]:c.why[i]}</p><p class="home-pace-note">${paceNotes[l][selection.pace]}</p></div><a class="hd-primary" href="/products/interactive-maps/${paths[i]}.html?lang=${l}">${c.open}</a>`;}
  function render(){const l=lang(),c=choices[l],hero=document.querySelector('main > .hero');
- hero.querySelector('.hero-copy').innerHTML=`<span class="eyebrow">${c.eyebrow}</span><h1>${l==='he'?'פחות זמן לתכנן.<br>יותר זמן להתאהב בעיר.':{en:'Less time planning.<br>More time falling in love with the city.',pl:'Mniej planowania.<br>Więcej czasu, by pokochać miasto.',de:'Weniger planen.<br>Mehr Zeit, die Stadt zu lieben.',cs:'Méně plánování.<br>Více času zamilovat si město.'}[l]}</h1><p>${c.lead}</p><div class="hero-actions"><a class="hd-primary" href="#home-route-finder">${c.start}</a><a class="hd-secondary" href="#map-library">${c.browse}</a></div>`;
+ hero.querySelector('.hero-copy').innerHTML=`<span class="eyebrow">${c.eyebrow}</span><h1>${l==='he'?'פחות זמן לתכנן.<br>יותר זמן להתאהב בעיר.':{en:'Less time planning.<br>More time falling in love with the city.',pl:'Mniej planowania.<br>Więcej czasu, by pokochać miasto.',de:'Weniger planen.<br>Mehr Zeit, die Stadt zu lieben.',cs:'Méně plánování.<br>Více času zamilovat si město.'}[l]}</h1><p>${c.lead}</p><div class="hero-actions"><a class="hd-primary" href="#map-library">${c.browse}</a></div>`;
  const guide=hero.querySelector('.home-guide-intro');const source=guideEditions[l==='he'?'he':'en'];
  guide.innerHTML=`<img src="/assets/wuwa-estate-14.jpg" width="96" height="108" alt="" loading="lazy"><div><strong>${c.guide}</strong><small>${c.guideNote}</small><a class="home-guide-open" href="${source}" target="_blank" rel="noopener" data-guide-video-src="${source}" data-guide-video-lang="${l}" title="${c.guide}"><img src="/assets/logo.png" width="28" height="28" alt="">${c.openGuide||{he:'צפו בהדרכה לדוגמה',en:'Watch a sample guide',pl:'Obejrzyj fragment przewodnika',de:'Beispiel-Guide ansehen',cs:'Podívat se na ukázku průvodce'}[l]}</a></div>`;
- document.querySelector('#home-route-finder').innerHTML=`<h2 id="home-route-heading">${c.finder}</h2><div class="home-route-questions">${[['time',c.time,c.times],['interest',c.interest,c.interests],['pace',c.pace,c.paces]].map(([key,title,options])=>`<fieldset><legend>${title}</legend><div>${options.map((label,i)=>`<button type="button" data-home-choice="${key}" data-choice="${i}" aria-pressed="${selection[key]===i}">${label}</button>`).join('')}</div></fieldset>`).join('')}</div><div id="home-route-result" aria-live="polite" aria-atomic="true"></div>`;result();
  const personal=document.querySelector('#personal-service');if(personal){personal.className='personal-service-banner home-personal-detail';personal.innerHTML=`<div><h2>${c.personal}</h2><p>${c.personalText}</p><ol>${c.personalSteps.map(x=>`<li>${x}</li>`).join('')}</ol><a class="hd-primary" href="/personal-trip.html?lang=${l}">${c.personalCta}</a><a class="home-album-demo" href="/trip-album.html?lang=${l}">${albumLabels[l]}</a></div><div class="home-personal-demo"><strong>${c.demo}</strong><ol>${c.demoStops.map(x=>`<li>${x}</li>`).join('')}</ol></div>`;}}
  function init(){const hero=document.querySelector('main > .hero');if(!hero)return;
  hero.classList.add('home-photo-hero');const image=document.createElement('img');image.className='home-photo-background';image.src='/assets/rynek-market-square.jpg';image.alt='';image.width=1600;image.height=1067;image.fetchPriority='high';hero.prepend(image);
  const proof=document.createElement('section');proof.id='home-map-proof';proof.className='home-map-proof';proof.append(hero.querySelector('.real-map-preview'));hero.after(proof);proof.querySelector('img').loading='lazy';proof.querySelector('img').removeAttribute('fetchpriority');
  const guide=document.createElement('aside');guide.className='home-guide-intro';hero.append(guide);
- const finder=document.createElement('section');finder.id='home-route-finder';finder.setAttribute('aria-labelledby','home-route-heading');proof.after(finder);
- render();document.addEventListener('click',e=>{const b=e.target.closest('[data-home-choice]');if(!b)return;selection[b.dataset.homeChoice]=Number(b.dataset.choice);b.closest('fieldset').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));result();});
+ render();
  new MutationObserver(()=>queueMicrotask(render)).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();
