@@ -1,3 +1,4 @@
+import { generateSitemap } from "./tools/generate-sitemap.mjs";
 import {syncMapNearbyPrivate} from './tools/sync-map-nearby-private.mjs';
 import {versionNearbyAssets} from './tools/version-nearby-assets.mjs';
 import { generateGuideMap } from "./tools/generate-guide-map.mjs";
@@ -25,6 +26,7 @@ await mkdir(resolve(client, "assets"), { recursive: true });
 await mkdir(interactiveMaps, { recursive: true });
 
 for (const file of [
+  "google1a600331b0bedb9c.html",
   "index.html",
   "nearby.html",
   "nearby.js",
@@ -195,5 +197,8 @@ for (const [lang, copy] of Object.entries(shareCopy)) {
 }
 await cp(resolve(root, "worker/site-worker.js"), resolve(server, "index.js"));
 
+await generateSitemap(client);
+
 console.log("Static site built in dist/");
+
 
