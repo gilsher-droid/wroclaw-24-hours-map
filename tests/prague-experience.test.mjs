@@ -11,7 +11,9 @@ test('Prague has one discoverable five-language experience, distinct from canoni
  assert.equal(e.media.hero.src,'/assets/experiences/prague/IMG_5425.JPG');
  assert.equal(new Set(e.media.images).size,12);
  assert.equal(window.WROC_CATALOG.getPlace('prague'),null);
- assert.equal(e.mapPoints.length,2);
+ assert.equal(e.mapPoints.length,1);
+ assert.equal(e.mapPoints[0].id,'prague-arrival');
+ for(const lang of ['he','en','pl','de','cs']){assert.ok(e.mapTitle[lang]);assert.ok(e.mapNote[lang]);}
  for(const p of e.mapPoints){assert.ok(p.coordinates[0]>50.08&&p.coordinates[0]<50.10);assert.ok(p.coordinates[1]>14.42&&p.coordinates[1]<14.44);assert.ok(e.media.images.includes(p.photo));}
 });
 test('Prague videos resolve to eight distinct verified Public YouTube entries',()=>{
