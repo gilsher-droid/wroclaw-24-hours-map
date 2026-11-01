@@ -12,7 +12,16 @@ test('Prague has one discoverable five-language experience, distinct from canoni
  assert.equal(new Set(e.media.images).size,12);
  assert.equal(window.WROC_CATALOG.getPlace('prague'),null);
  assert.equal(e.mapPoints.length,2);
- for(const p of e.mapPoints){assert.ok(p.coordinates[0]>50.08&&p.coordinates[0]<50.10);assert.ok(p.coordinates[1]>14.42&&p.coordinates[1]<14.44);assert.ok(e.media.images.includes(p.photo));}
+ assert.equal(e.mapPoints[0].id,'wroclavia-bus-departure');
+ assert.equal(e.mapPoints[1].id,'prague-arrival');
+ assert.equal(e.mapRoute.kind,'schematic');
+ assert.equal(e.mapRoute.provenance.fullTrackAvailable,false);
+ assert.deepEqual(Array.from(e.mapRoute.coordinates[0]),Array.from(e.mapPoints[0].coordinates));
+ assert.deepEqual(Array.from(e.mapRoute.coordinates.at(-1)),Array.from(e.mapPoints[1].coordinates));
+ for(const lang of ['he','en','pl','de','cs']){assert.ok(e.mapTitle[lang]);assert.ok(e.mapNote[lang]);}
+ for(const p of e.mapPoints){assert.ok(e.media.images.includes(p.photo));}
+ assert.ok(e.mapPoints[0].coordinates[0]>51.09&&e.mapPoints[0].coordinates[0]<51.10);
+ assert.ok(e.mapPoints[1].coordinates[0]>50.08&&e.mapPoints[1].coordinates[0]<50.10);
 });
 test('Prague videos resolve to eight distinct verified Public YouTube entries',()=>{
  const videos=window.WROC_EXPERIENCE_CATALOG.getExperience('wroclaw-prague-public-transport').media.videos;
@@ -29,4 +38,19 @@ test('Historical Prague projection accepts the reviewed update and rejects unexp
  const snapshot=beforePragueSnapshot({...window});
  assert.equal(snapshot.WROC_HOME_EXPERIENCES.some(x=>x.id===e.id),false);
  assert.equal(window.WROC_HOME_EXPERIENCES.some(x=>x.id===e.id),true);
+});
+test('Prague planning identifies the documented bus departure and separates the optional road-trip extension',()=>{
+ const e=window.WROC_EXPERIENCE_CATALOG.getExperience('wroclaw-prague-public-transport');
+ const planning=e.journeyPlanning;
+ assert.deepEqual(Array.from(planning.options,x=>x.id),['flixbus','train','car','flight','scenic-extension']);
+ for(const lang of ['he','en','pl','de','cs']){
+  assert.ok(planning.title[lang]&&planning.intro[lang]&&planning.note[lang]);
+  for(const option of planning.options){assert.ok(option.title[lang]&&option.body[lang]);for(const link of option.links)assert.ok(link.label[lang]);}
+ }
+ assert.match(planning.options[0].body.en,/Wroclavia/);
+ assert.match(planning.options[0].body.en,/Wrocław Główny/);
+ assert.match(planning.options[0].body.en,/level -2/);
+ assert.match(planning.options.at(-1).body.en,/plan the onward leg to Prague separately/);
+ assert.ok(planning.options.at(-1).links[0].url.includes('trip=jawor-karpacz-jelenia-gora-day-trip'));
+ assert.ok(planning.options.at(-1).links[0].url.includes('lang={lang}'));
 });
