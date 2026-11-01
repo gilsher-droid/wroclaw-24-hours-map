@@ -83,7 +83,7 @@ test("Experience media resolves through existing Place media and Prague original
   assert.equal(prague.metadata.reviewedAssetCount, 31);
   assert.equal(prague.media.images.length, 12);
   assert.equal(prague.media.videos.length, 8);
-  assert.equal(prague.media.hero.src, "/assets/experiences/prague/IMG_5399.JPG");
+  assert.equal(prague.media.hero.src, "/assets/experiences/prague/IMG_5425.JPG");
   for (const mediaPath of [...prague.media.images, ...prague.media.videos]) {
     assert.ok(existsSync(resolve(root, mediaPath.slice(1))), `missing ${mediaPath}`);
   }

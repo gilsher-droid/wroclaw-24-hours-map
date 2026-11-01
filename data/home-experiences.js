@@ -136,5 +136,17 @@ window.WROC_HOME_EXPERIENCES = [
     },
     "photoPosition": "center 45%",
     "photo": "/assets/water-lamplighter-oct30/lamplighter-visit-frame.jpg"
+  },
+  {
+    "id": "wroclaw-prague-public-transport",
+    "name": {
+      "he": "שיר שחלמתי על פראג",
+      "en": "A Song I Dreamed About Prague",
+      "pl": "Piosenka, w której śniłem o Pradze",
+      "de": "Ein Lied, in dem ich von Prag träumte",
+      "cs": "Píseň, ve které se mi zdálo o Praze"
+    },
+    "photoPosition": "50% 40%",
+    "photo": "/assets/experiences/prague/IMG_5425.JPG"
   }
 ];
