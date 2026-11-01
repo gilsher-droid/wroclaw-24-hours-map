@@ -1,3 +1,4 @@
+import{beforePragueExperience}from'./prague-historical-baseline.mjs';
 import {beforeBridgesNorthSnapshot} from './bridges-north-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -43,6 +44,7 @@ export function beforeDialogueBeachRecord(value) {
 }
 
 export function beforeDialogueBeachExperience(value) {
+  value = beforePragueExperience(value);
   const before = value && beforeExperiences[value.id];
   if (!before) return value;
   assert.ok(

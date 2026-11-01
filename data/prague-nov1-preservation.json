@@ -1,0 +1,76 @@
+{
+  "id": "wroclaw-prague-public-transport",
+  "before": {
+    "id": "wroclaw-prague-public-transport",
+    "type": "cross-border-public-transport-journey",
+    "categories": [
+      "public-transport",
+      "cross-border",
+      "personal-story"
+    ],
+    "name": {
+      "he": "שיר שחלמתי על פראג",
+      "en": "A Song I Dreamed About Prague",
+      "pl": "Piosenka, w której śniłem o Pradze",
+      "de": "Ein Lied, in dem ich von Prag träumte",
+      "cs": "Píseň, ve které se mi zdálo o Praze"
+    },
+    "description": {
+      "he": "אחד הדברים שאני אוהב בוורוצלב הוא שלא תמיד צריך להישאר בוורוצלב. בבוקר יוצאים מהעיר, חוצים את הגבול לצ׳כיה, ממשיכים בתחבורה ציבורית — וכעבור כמה שעות מוצאים את עצמנו בפראג. לא נסענו הפעם כדי להכין מדריך לפראג. יש מספיק כאלה. עניין אותי דווקא המסע עצמו: כמה פשוט לקחת יום אחד בוורוצלב ולהפוך אותו ליום במדינה אחרת. המעבר מפולין לצ׳כיה כמעט בלתי מורגש. בדרך רואים את הגבול, מחליפים אמצעי תחבורה, קונים כרטיס ב־50 קרונות, ופתאום מגיעים לעיר אחרת לגמרי. שתינו קפה, הסתובבנו קצת במרכז פראג, וחזרנו. מבחינתי זאת עוד דרך להבין את ורוצלב: לא רק לפי מה שיש בתוכה, אלא גם לפי כל המקומות שאפשר להגיע אליהם ממנה. שיר שחלמתי על פראג. ויצאתי אליו מוורוצלב.",
+      "en": "One of the things I love about Wrocław is that you do not always have to stay in Wrocław. We left the city in the morning, crossed into Czechia and continued by public transport; a few hours later, we found ourselves in Prague. We did not go to make another Prague guide. There are enough of those. What interested me was the journey itself: how easily one day in Wrocław can become a day in another country. The move from Poland to Czechia was almost imperceptible. We saw the border, changed transport, bought a 50-koruna ticket and suddenly arrived in a completely different city. We drank coffee, wandered through central Prague for a while and returned. For me, this is another way to understand Wrocław: not only through what lies inside it, but through all the places it lets you reach. A song I dreamed about Prague—and I set out toward it from Wrocław.",
+      "pl": "Jedną z rzeczy, które kocham we Wrocławiu, jest to, że nie zawsze trzeba w nim zostać. Rano wyjechaliśmy z miasta, przekroczyliśmy granicę z Czechami i ruszyliśmy dalej transportem publicznym; kilka godzin później znaleźliśmy się w Pradze. Nie pojechaliśmy tam, by tworzyć kolejny przewodnik po Pradze. Takich jest już dość. Interesowała mnie sama podróż: jak łatwo jeden dzień we Wrocławiu może stać się dniem w innym kraju. Przejście z Polski do Czech było prawie niezauważalne. Zobaczyliśmy granicę, zmieniliśmy środek transportu, kupiliśmy bilet za 50 koron i nagle znaleźliśmy się w zupełnie innym mieście. Wypiliśmy kawę, pospacerowaliśmy po centrum Pragi i wróciliśmy. Dla mnie to kolejny sposób rozumienia Wrocławia: nie tylko przez to, co jest w nim, ale też przez wszystkie miejsca, do których można z niego dotrzeć. Piosenka, w której śniłem o Pradze. I wyruszyłem do niej z Wrocławia.",
+      "de": "Was ich an Wrocław liebe: Man muss nicht immer in Wrocław bleiben. Morgens verließen wir die Stadt, überquerten die Grenze nach Tschechien und fuhren mit öffentlichen Verkehrsmitteln weiter; einige Stunden später waren wir in Prag. Wir fuhren nicht hin, um noch einen Prag-Reiseführer zu schreiben. Davon gibt es genug. Mich interessierte die Reise selbst: wie leicht aus einem Tag in Wrocław ein Tag in einem anderen Land werden kann. Der Übergang von Polen nach Tschechien war beinahe unmerklich. Wir sahen die Grenze, stiegen um, kauften eine Fahrkarte für 50 Kronen und befanden uns plötzlich in einer völlig anderen Stadt. Wir tranken Kaffee, schlenderten ein wenig durch das Prager Zentrum und kehrten zurück. Für mich ist das eine weitere Art, Wrocław zu verstehen: nicht nur durch das, was in der Stadt liegt, sondern auch durch all die Orte, die man von hier erreichen kann. Ein Lied, in dem ich von Prag träumte. Und von Wrocław aus brach ich dorthin auf.",
+      "cs": "Na Vratislavi mám rád i to, že v ní člověk nemusí vždy zůstat. Ráno jsme vyjeli z města, překročili hranici do Česka a pokračovali veřejnou dopravou; o několik hodin později jsme se ocitli v Praze. Nejeli jsme tam vytvářet dalšího průvodce po Praze. Těch je dost. Zajímala mě samotná cesta: jak snadno lze jeden den ve Vratislavi proměnit v den v jiné zemi. Přechod z Polska do Česka byl téměř neznatelný. Viděli jsme hranici, přestoupili, koupili jízdenku za 50 korun a najednou dorazili do úplně jiného města. Dali jsme si kávu, chvíli se procházeli centrem Prahy a vrátili se. Pro mě je to další způsob, jak Vratislavi porozumět: nejen podle toho, co je uvnitř, ale i podle všech míst, kam se z ní dá dostat. Píseň, ve které se mi zdálo o Praze. A vydal jsem se za ní z Vratislavi."
+    },
+    "relatedCanonicalPlaceIds": [],
+    "productRefs": [],
+    "mapPoints": [],
+    "origin": {
+      "city": "Wrocław",
+      "countryCode": "PL"
+    },
+    "destination": {
+      "city": "Prague",
+      "localName": "Praha",
+      "countryCode": "CZ"
+    },
+    "media": {
+      "hero": {
+        "src": "/assets/experiences/prague/IMG_5399.JPG"
+      },
+      "images": [
+        "/assets/experiences/prague/IMG_5394.JPG",
+        "/assets/experiences/prague/IMG_5399.JPG",
+        "/assets/experiences/prague/IMG_5404.JPG",
+        "/assets/experiences/prague/IMG_5412.PNG",
+        "/assets/experiences/prague/IMG_5414.JPG",
+        "/assets/experiences/prague/IMG_5423.JPG",
+        "/assets/experiences/prague/IMG_5425.JPG",
+        "/assets/experiences/prague/IMG_5428.JPG",
+        "/assets/experiences/prague/IMG_5430.JPG",
+        "/assets/experiences/prague/IMG_5431.JPG",
+        "/assets/experiences/prague/IMG_5436.JPG",
+        "/assets/experiences/prague/IMG_5441.JPG"
+      ],
+      "videos": [
+        "/assets/experiences/prague/IMG_5406.mp4",
+        "/assets/experiences/prague/IMG_5407.mp4",
+        "/assets/experiences/prague/IMG_5409.mp4",
+        "/assets/experiences/prague/IMG_5410.mp4",
+        "/assets/experiences/prague/IMG_5411.mp4",
+        "/assets/experiences/prague/IMG_5415.mp4",
+        "/assets/experiences/prague/IMG_5416.mp4",
+        "/assets/experiences/prague/IMG_5418.mp4"
+      ]
+    },
+    "social": [],
+    "metadata": {
+      "source": "Travel to Prague",
+      "voice": "first-person",
+      "reviewedAssetCount": 31,
+      "selectedImageCount": 12,
+      "selectedVideoCount": 8
+    }
+  },
+  "approvedHash": "89a2287ada619fce4cd003752c027594adfa9be66041f995650f3047f86f582d"
+}
