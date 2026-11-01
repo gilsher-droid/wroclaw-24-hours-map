@@ -311,7 +311,227 @@
       ],
       mapTitle: t("נקודת היעד: פראג", "Our destination: Prague", "Cel podróży: Praga", "Unser Reiseziel: Prag", "Cíl cesty: Praha"),
       mapNote: t("החוויה מתמקדת בדרך מוורוצלב לפראג בתחבורה ציבורית. הסיכה מציינת מקום שבו צילמנו לאחר ההגעה, ולא מסלול טיול בפראג.", "This experience follows the public-transport journey from Wrocław to Prague. The pin marks where we took photographs after arriving, rather than a sightseeing route in Prague.", "Ten opis skupia się na podróży transportem publicznym z Wrocławia do Pragi. Pinezka wskazuje miejsce zdjęć po przyjeździe, a nie trasę zwiedzania Pragi.", "Im Mittelpunkt steht die Fahrt mit öffentlichen Verkehrsmitteln von Wrocław nach Prag. Die Markierung zeigt unseren Fotoort nach der Ankunft, keine Besichtigungsroute durch Prag.", "Tento zážitek se soustředí na cestu veřejnou dopravou z Vratislavi do Prahy. Značka ukazuje místo fotografování po příjezdu, nikoli prohlídkovou trasu Prahou."),
-      subtitle: t("איך הגענו מוורוצלב לפראג בתחבורה ציבורית: הדרך, מעבר הגבול וההגעה ליעד.", "How we travelled from Wrocław to Prague by public transport: the journey, border crossing and arrival.", "Jak dotarliśmy z Wrocławia do Pragi transportem publicznym: podróż, przekroczenie granicy i przyjazd.", "So fuhren wir mit öffentlichen Verkehrsmitteln von Wrocław nach Prag: die Fahrt, der Grenzübertritt und die Ankunft.", "Jak jsme se dostali veřejnou dopravou z Vratislavi do Prahy: cesta, překročení hranice a příjezd."),
+      subtitle: t("הנסיעה שלנו מוורוצלב לפראג בפליקסבוס: הדרך, מעבר הגבול וההגעה ליעד.", "Our FlixBus journey from Wrocław to Prague: the road, border crossing and arrival.", "Nasza podróż FlixBusem z Wrocławia do Pragi: droga, przekroczenie granicy i przyjazd.", "Unsere FlixBus-Fahrt von Wrocław nach Prag: der Weg, der Grenzübertritt und die Ankunft.", "Naše cesta FlixBusem z Vratislavi do Prahy: cesta, překročení hranice a příjezd."),
+      journeyPlanning: {
+  "title": {
+    "he": "מוורוצלב לפראג: איך מגיעים?",
+    "en": "Wrocław to Prague: how to get there",
+    "pl": "Z Wrocławia do Pragi: jak dojechać?",
+    "de": "Von Wrocław nach Prag: so kommen Sie hin",
+    "cs": "Z Vratislavi do Prahy: jak se tam dostat"
+  },
+  "intro": {
+    "he": "הנסיעה המתועדת כאן הייתה בפליקסבוס. התמונות והסרטונים מספרים את הדרך ואת ההגעה. החלופות הבאות נועדו לתכנון נסיעה משלכם.",
+    "en": "Our documented journey was with FlixBus. The photographs and clips follow the journey and arrival. The alternatives below help you plan your own trip.",
+    "pl": "Nasza udokumentowana podróż odbyła się autobusem FlixBus. Zdjęcia i filmy pokazują drogę i przyjazd. Poniższe alternatywy pomogą zaplanować własną podróż.",
+    "de": "Unsere dokumentierte Fahrt war mit FlixBus. Fotos und Videos zeigen den Weg und die Ankunft. Die folgenden Alternativen helfen bei der eigenen Reiseplanung.",
+    "cs": "Naše zdokumentovaná cesta byla autobusem FlixBus. Fotografie a videa zachycují cestu a příjezd. Následující možnosti pomohou naplánovat vlastní cestu."
+  },
+  "note": {
+    "he": "מידע לתכנון נבדק ב־1 בנובמבר 2026. בדקו מחדש תאריך, תחנות, זמינות, מחיר וזמן נסיעה בהזמנה. מחיר הכרטיס שבתמונות שייך לביקור באוגוסט.",
+    "en": "Planning sources checked on 1 November 2026. Recheck dates, stops, availability, fares and journey times when booking. The photographed ticket price belongs to our August visit.",
+    "pl": "Źródła sprawdzono 1 listopada 2026 r. Przy rezerwacji sprawdź daty, przystanki, dostępność, ceny i czas podróży. Cena na zdjęciu biletu pochodzi z naszej sierpniowej wizyty.",
+    "de": "Planungsquellen geprüft am 1. November 2026. Prüfen Sie bei der Buchung Datum, Haltestellen, Verfügbarkeit, Preis und Fahrzeit erneut. Der fotografierte Fahrpreis stammt von unserem Augustbesuch.",
+    "cs": "Zdroje ověřeny 1. listopadu 2026. Při rezervaci znovu ověřte datum, zastávky, dostupnost, cenu a dobu cesty. Cena na vyfotografované jízdence je ze srpnové návštěvy."
+  },
+  "options": [
+    {
+      "id": "flixbus",
+      "title": {
+        "he": "באוטובוס: הנסיעה שלנו",
+        "en": "By bus: our FlixBus journey",
+        "pl": "Autobusem: nasza podróż FlixBusem",
+        "de": "Mit dem Bus: unsere FlixBus-Fahrt",
+        "cs": "Autobusem: naše cesta s FlixBusem"
+      },
+      "body": {
+        "he": "היציאה שלנו הייתה מתחנת האוטובוסים שבקניון ורוצלביה, ממש לצד תחנת הרכבת המרכזית. בהגעה מתחנת הרכבת פנו לצד הדרומי, לכיוון רחוב סוחה וורוצלביה, ועקבו אחר השילוט לתחנת האוטובוסים התת־קרקעית. רציפי האוטובוסים נמצאים בקומה מינוס שתיים. בדקו בכרטיס ובמסכי התחנה את התחנה והרציף של הנסיעה שבחרתם.\n\nWrocław Główny\nWestfield Wroclavia\nul. Sucha 1, Wrocław\n\nכך נסענו אנחנו: הזמנו נסיעה מוורוצלב לפראג בפליקסבוס. בחרו נסיעה לתאריך שלכם ובדקו בכרטיס את תחנת העלייה ואת תחנת ההגעה המדויקות. שמרו את הכרטיס בהישג יד. הקטעים מתוך התחבורה העירונית בפראג מתעדים את המשך ההגעה, ולא החלפה הכרחית בכל נסיעת אוטובוס.",
+        "en": "We departed from the bus terminal at Wroclavia, right beside Wrocław Główny railway station. From the railway station, head to the south side towards Sucha Street and Wroclavia, then follow signs for the underground bus terminal. The bus platforms are on level -2. Check your ticket and the station displays for the stop and platform of your selected service.\n\nThis is how we travelled: a FlixBus journey from Wrocław to Prague. Choose your date and check the exact departure and arrival stops on your ticket. Keep the ticket handy. Our Prague city-transport photographs document the onward arrival, not a compulsory transfer on every bus service.",
+        "pl": "Wyjechaliśmy z dworca autobusowego we Wroclavii, tuż obok stacji Wrocław Główny. Ze stacji kolejowej kieruj się na południową stronę, w stronę ul. Suchej i Wroclavii, a następnie według oznaczeń podziemnego dworca autobusowego. Stanowiska autobusowe znajdują się na poziomie -2. Sprawdź na bilecie i tablicach dworcowych przystanek oraz stanowisko swojego kursu.\n\nTak podróżowaliśmy: FlixBusem z Wrocławia do Pragi. Wybierz datę i sprawdź na bilecie dokładny przystanek odjazdu i przyjazdu. Miej bilet pod ręką. Zdjęcia komunikacji miejskiej w Pradze pokazują dalszy dojazd, a nie obowiązkową przesiadkę każdego kursu autobusowego.",
+        "de": "Wir starteten am Busbahnhof in der Wroclavia, direkt neben dem Bahnhof Wrocław Główny. Gehen Sie vom Bahnhof zur Südseite in Richtung Sucha-Straße und Wroclavia und folgen Sie den Schildern zum unterirdischen Busbahnhof. Die Bussteige liegen auf Ebene -2. Prüfen Sie Haltestelle und Bussteig Ihrer Verbindung auf dem Ticket und den Anzeigetafeln.\n\nSo waren wir unterwegs: mit FlixBus von Wrocław nach Prag. Wählen Sie Ihr Datum und prüfen Sie die genauen Abfahrts- und Ankunftshaltestellen auf dem Ticket. Halten Sie es griffbereit. Unsere Prager Nahverkehrsfotos zeigen die Weiterfahrt nach der Ankunft, keinen vorgeschriebenen Umstieg jeder Busverbindung.",
+        "cs": "Odjížděli jsme z autobusového nádraží ve Wroclavii, hned vedle železniční stanice Wrocław Główny. Z vlakového nádraží zamiřte na jižní stranu k ulici Sucha a Wroclavii a sledujte značení podzemního autobusového nádraží. Autobusová stanoviště jsou v podlaží -2. Zastávku a stanoviště svého spoje ověřte na jízdence a nádražních tabulích.\n\nTak jsme jeli my: FlixBusem z Vratislavi do Prahy. Vyberte datum a na jízdence zkontrolujte přesnou odjezdovou i příjezdovou zastávku. Mějte jízdenku po ruce. Snímky pražské městské dopravy dokumentují pokračování po příjezdu, nikoli povinný přestup každého autobusového spoje."
+      },
+      "links": [
+        {
+          "url": "https://global.flixbus.com/bus-routes/bus-wroclaw-prague",
+          "label": {
+            "he": "FlixBus",
+            "en": "FlixBus: connections and tickets",
+            "pl": "FlixBus: połączenia i bilety",
+            "de": "FlixBus: Verbindungen und Tickets",
+            "cs": "FlixBus: spoje a jízdenky"
+          }
+        },
+        {
+          "url": "https://dworzecwroclaw.pl/",
+          "label": {
+            "he": "תחנת האוטובוסים הרשמית",
+            "en": "Official bus terminal",
+            "pl": "Oficjalna strona dworca autobusowego",
+            "de": "Offizieller Busbahnhof",
+            "cs": "Oficiální autobusové nádraží"
+          }
+        },
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Dworzec+Autobusowy+Wroclaw+Sucha+1",
+          "label": {
+            "he": "ניווט לתחנת היציאה",
+            "en": "Navigate to the departure terminal",
+            "pl": "Nawiguj do dworca odjazdu",
+            "de": "Navigation zum Abfahrtsbahnhof",
+            "cs": "Navigace k odjezdovému nádraží"
+          }
+        }
+      ]
+    },
+    {
+      "id": "train",
+      "title": {
+        "he": "ברכבת",
+        "en": "By train",
+        "pl": "Pociągiem",
+        "de": "Mit dem Zug",
+        "cs": "Vlakem"
+      },
+      "body": {
+        "he": "חלופה היא רכבת ישירה בין התחנה המרכזית בוורוצלב לתחנה המרכזית בפראג, בשירות בלטיק אקספרס. חפשו את יום הנסיעה במנוע הרשמי ובדקו אם הנסיעה שבחרתם ישירה, מה זמן ההגעה והאם יש שינויים או עבודות בדרך.",
+        "en": "A direct rail alternative links Wrocław Główny and Praha hlavní nádraží on Baltic Express services. Search your travel date in the official planner and check whether your selected service is direct, its arrival time and any engineering changes.",
+        "pl": "Alternatywą jest bezpośredni Baltic Express między Wrocławiem Głównym a Praha hlavní nádraží. W oficjalnej wyszukiwarce sprawdź swój termin, bezpośredniość wybranego połączenia, godzinę przyjazdu i ewentualne zmiany związane z pracami torowymi.",
+        "de": "Eine direkte Bahnalternative ist der Baltic Express zwischen Wrocław Główny und Praha hlavní nádraží. Prüfen Sie im offiziellen Reiseplaner Ihr Datum, die Direktverbindung, die Ankunftszeit und mögliche baubedingte Änderungen.",
+        "cs": "Přímou železniční alternativou je Baltic Express mezi Wrocław Główny a Praha hlavní nádraží. V oficiálním vyhledávači ověřte datum, přímé spojení, příjezd a případné výlukové změny."
+      },
+      "links": [
+        {
+          "url": "https://www.cd.cz/en/spojeni-a-jizdenka/",
+          "label": {
+            "he": "České dráhy",
+            "en": "České dráhy: connections and tickets",
+            "pl": "České dráhy: połączenia i bilety",
+            "de": "České dráhy: Verbindungen und Tickets",
+            "cs": "České dráhy: spojení a jízdenka"
+          }
+        }
+      ]
+    },
+    {
+      "id": "car",
+      "title": {
+        "he": "ברכב",
+        "en": "By car",
+        "pl": "Samochodem",
+        "de": "Mit dem Auto",
+        "cs": "Autem"
+      },
+      "body": {
+        "he": "רכב מאפשר לבחור מתי לצאת ואיפה לעצור בדרך. פתחו ניווט מוורוצלב לפראג לפי יום הנסיעה, ובדקו עומסים, תנאי דרך וחניה ביעד. אם המסלול עובר בכבישי אגרה בצ׳כיה, בדקו את דרישות המדבקה האלקטרונית באתר הרשמי. ברכב שכור בדקו מראש את תנאי המעבר בין המדינות.",
+        "en": "A car lets you choose departure time and stops. Plan Wrocław to Prague for your travel date and check traffic, road conditions and parking at your destination. If using Czech toll motorways, check the official electronic-vignette requirements. For a rental car, check the cross-border terms in advance.",
+        "pl": "Samochód daje swobodę wyboru wyjazdu i postojów. Zaplanuj trasę Wrocław–Praga na swój termin, sprawdź ruch, warunki drogowe i parking w miejscu docelowym. Przy przejeździe czeskimi płatnymi autostradami sprawdź oficjalne zasady e-winiety. Dla auta z wypożyczalni sprawdź warunki wyjazdu za granicę.",
+        "de": "Mit dem Auto bestimmen Sie Abfahrt und Zwischenstopps. Planen Sie die Strecke Wrocław–Prag für Ihren Reisetag und prüfen Sie Verkehr, Straßenverhältnisse und Parkmöglichkeiten am Ziel. Für tschechische Mautautobahnen prüfen Sie die offiziellen E-Vignettenregeln. Klären Sie bei Mietwagen die Bedingungen für Grenzübertritte.",
+        "cs": "Autem si zvolíte odjezd i zastávky. Naplánujte trasu Vratislav–Praha pro svůj termín a ověřte provoz, stav silnic a parkování v cíli. Při využití zpoplatněných českých dálnic ověřte oficiální podmínky elektronické známky. U půjčeného auta předem zkontrolujte podmínky přejezdu hranic."
+      },
+      "links": [
+        {
+          "url": "https://www.google.com/maps/dir/?api=1&origin=Wroclaw&destination=Prague&travelmode=driving",
+          "label": {
+            "he": "ניווט ברכב",
+            "en": "Driving directions",
+            "pl": "Trasa samochodem",
+            "de": "Autonavigation",
+            "cs": "Trasa autem"
+          }
+        },
+        {
+          "url": "https://edalnice.gov.cz/en",
+          "label": {
+            "he": "אתר האגרה הרשמי בצ׳כיה",
+            "en": "Official Czech vignette site",
+            "pl": "Oficjalna czeska e-winieta",
+            "de": "Offizielle tschechische E-Vignette",
+            "cs": "Oficiální elektronická dálniční známka"
+          }
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "title": {
+        "he": "בטיסה",
+        "en": "By air",
+        "pl": "Samolotem",
+        "de": "Mit dem Flugzeug",
+        "cs": "Letadlem"
+      },
+      "body": {
+        "he": "אפשר לבדוק גם הצעות טיסה מוורוצלב לפראג לתאריך שלכם. לפני הבחירה בדקו אם ההצעה כוללת החלפה, ומה משך הנסיעה הכולל: הגעה לשדה, בידוק, טיסה, המתנה והגעה למרכז פראג. אין כאן הבטחה לטיסה ישירה או להגעה מהירה יותר מהיבשה.",
+        "en": "You can also compare flight offers from Wrocław to Prague for your dates. Check whether the itinerary includes a connection and compare the full journey: airport transfers, check-in, flying, waiting and arrival in central Prague. A direct flight or a faster overall journey is not assumed here.",
+        "pl": "Można też sprawdzić oferty lotów z Wrocławia do Pragi w swoim terminie. Sprawdź przesiadki i porównaj całą podróż: dojazd na lotnisko, odprawę, lot, oczekiwanie i dojazd do centrum Pragi. Nie zakładamy tu lotu bezpośredniego ani krótszego czasu niż drogą lądową.",
+        "de": "Vergleichen Sie auch Flugangebote von Wrocław nach Prag für Ihre Reisedaten. Prüfen Sie Umstiege und die gesamte Reisezeit einschließlich Flughafentransfers, Check-in, Flug und Wartezeiten. Ein Direktflug oder eine insgesamt schnellere Reise wird hier nicht vorausgesetzt.",
+        "cs": "Můžete porovnat také nabídky letů z Vratislavi do Prahy pro svůj termín. Ověřte přestupy a celkovou dobu včetně dopravy na letiště, odbavení, letu, čekání a cesty do centra Prahy. Nepředpokládáme přímý let ani rychlejší celkovou cestu než po zemi."
+      },
+      "links": [
+        {
+          "url": "https://www.lot.com/il/en",
+          "label": {
+            "he": "LOT",
+            "en": "LOT: flight search",
+            "pl": "LOT: wyszukiwanie lotów",
+            "de": "LOT: Flugsuche",
+            "cs": "LOT: vyhledávání letů"
+          }
+        },
+        {
+          "url": "https://www.prg.aero/en/destinations",
+          "label": {
+            "he": "נמל התעופה בפראג",
+            "en": "Prague Airport: destinations",
+            "pl": "Lotnisko w Pradze: kierunki",
+            "de": "Flughafen Prag: Flugziele",
+            "cs": "Letiště Praha: destinace"
+          }
+        }
+      ]
+    },
+    {
+      "id": "scenic-extension",
+      "title": {
+        "he": "דרך ילניה גורה וקרפץ",
+        "en": "Via Jelenia Góra and Karpacz",
+        "pl": "Przez Jelenią Górę i Karpacz",
+        "de": "Über Jelenia Góra und Karpacz",
+        "cs": "Přes Jelení Horu a Karpacz"
+      },
+      "body": {
+        "he": "אם רוצים להפוך את הדרך לחלק מטיול ברכב, אפשר לשלב עצירות מהמסלול שלנו ביאבור, קרפץ, כנסיית וואנג וילניה גורה, ואחר כך להמשיך לפראג במקום לחזור לוורוצלב. זה רעיון להרחבת הטיול, נפרד מנסיעת פליקסבוס שתיעדנו. המסלול הקיים חוזר לוורוצלב, לכן תכננו בנפרד את ההמשך לפראג. בחרו רק את העצירות שמתאימות לכם ושקלו לינה בדרך; זו אינה בהכרח הדרך הקצרה.",
+        "en": "To make the road journey part of a longer trip, choose stops from our Jawor, Karpacz, Wang Church and Jelenia Góra map, then continue to Prague instead of returning to Wrocław. This is a trip-extension idea, separate from our documented FlixBus journey. The existing map returns to Wrocław, so plan the onward leg to Prague separately. Choose suitable stops and consider an overnight stay; this is not necessarily the shortest route.",
+        "pl": "Jeśli droga ma być częścią dłuższego wyjazdu autem, wybierz postoje z naszej mapy Jawora, Karpacza, świątyni Wang i Jeleniej Góry, a potem jedź do Pragi zamiast wracać do Wrocławia. To pomysł na rozszerzenie wyjazdu, odrębny od naszej podróży FlixBusem. Istniejąca mapa wraca do Wrocławia, więc dalszy odcinek do Pragi zaplanuj osobno. Wybierz pasujące postoje i rozważ nocleg; nie musi to być najkrótsza trasa.",
+        "de": "Wenn die Autofahrt Teil einer längeren Reise sein soll, wählen Sie Stopps aus unserer Karte für Jawor, Karpacz, die Wang-Kirche und Jelenia Góra und fahren anschließend nach Prag statt zurück nach Wrocław. Diese Reiseidee ist von unserer dokumentierten FlixBus-Fahrt getrennt. Die bestehende Karte führt zurück nach Wrocław; planen Sie die Weiterfahrt nach Prag separat. Wählen Sie passende Stopps und erwägen Sie eine Übernachtung. Dies ist nicht unbedingt die kürzeste Strecke.",
+        "cs": "Chcete-li cestu autem spojit s delším výletem, vyberte zastávky z naší mapy Jaworu, Karpacze, kostela Wang a Jelení Hory a pokračujte do Prahy místo návratu do Vratislavi. Jde o návrh rozšíření výletu, oddělený od naší cesty FlixBusem. Stávající mapa se vrací do Vratislavi, proto návaznou cestu do Prahy naplánujte zvlášť. Vyberte vhodné zastávky a zvažte nocleh; nemusí jít o nejkratší trasu."
+      },
+      "links": [
+        {
+          "url": "/products/interactive-maps/excursions.html?lang={lang}&trip=jawor-karpacz-jelenia-gora-day-trip",
+          "label": {
+            "he": "המפה שלנו: יאבור, קרפץ וילניה גורה",
+            "en": "Our Jawor, Karpacz and Jelenia Góra map",
+            "pl": "Nasza mapa Jawora, Karpacza i Jeleniej Góry",
+            "de": "Unsere Karte für Jawor, Karpacz und Jelenia Góra",
+            "cs": "Naše mapa Jaworu, Karpacze a Jelení Hory"
+          }
+        },
+        {
+          "url": "https://www.krkonose.eu/en/how-get-krkonose",
+          "label": {
+            "he": "מידע הגעה רשמי לאזור ההרים",
+            "en": "Official mountain-region travel information",
+            "pl": "Oficjalny dojazd w Karkonosze",
+            "de": "Offizielle Anreiseinfos für das Riesengebirge",
+            "cs": "Oficiální doprava do Krkonoš"
+          }
+        }
+      ]
+    }
+  ]
+},
       origin: { city: "Wrocław", countryCode: "PL" },
       destination: { city: "Prague", localName: "Praha", countryCode: "CZ" },
       media: {

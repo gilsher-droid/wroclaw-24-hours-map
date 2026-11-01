@@ -32,3 +32,18 @@ test('Historical Prague projection accepts the reviewed update and rejects unexp
  assert.equal(snapshot.WROC_HOME_EXPERIENCES.some(x=>x.id===e.id),false);
  assert.equal(window.WROC_HOME_EXPERIENCES.some(x=>x.id===e.id),true);
 });
+test('Prague planning identifies the documented bus departure and separates the optional road-trip extension',()=>{
+ const e=window.WROC_EXPERIENCE_CATALOG.getExperience('wroclaw-prague-public-transport');
+ const planning=e.journeyPlanning;
+ assert.deepEqual(Array.from(planning.options,x=>x.id),['flixbus','train','car','flight','scenic-extension']);
+ for(const lang of ['he','en','pl','de','cs']){
+  assert.ok(planning.title[lang]&&planning.intro[lang]&&planning.note[lang]);
+  for(const option of planning.options){assert.ok(option.title[lang]&&option.body[lang]);for(const link of option.links)assert.ok(link.label[lang]);}
+ }
+ assert.match(planning.options[0].body.en,/Wroclavia/);
+ assert.match(planning.options[0].body.en,/Wrocław Główny/);
+ assert.match(planning.options[0].body.en,/level -2/);
+ assert.match(planning.options.at(-1).body.en,/plan the onward leg to Prague separately/);
+ assert.ok(planning.options.at(-1).links[0].url.includes('trip=jawor-karpacz-jelenia-gora-day-trip'));
+ assert.ok(planning.options.at(-1).links[0].url.includes('lang={lang}'));
+});
