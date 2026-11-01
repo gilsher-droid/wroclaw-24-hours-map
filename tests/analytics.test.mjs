@@ -120,3 +120,31 @@ test("link events use product IDs, ticker IDs, and domains without query strings
   assert.equal(events[2][2].destination_domain, "example.com");
   assert.equal(JSON.stringify(events).includes("secret=omit"), false);
 });
+
+
+test("guided map deep links measure the selected canonical place only after consent", () => {
+  const storage = new Map();
+  const state = page("https://wroc-love.com/products/interactive-maps/guides.html?lang=he&place=pergola&utm_source=meta&utm_medium=paid_social&utm_campaign=pergola_he_israel_oct31_2026&utm_content=reel_story", { ga4MeasurementId: "G-ABC123" }, storage);
+  state.document.getElementById = (id) => id === "guided-place-pergola" ? { dataset: { canonicalPlaceId: "pergola" } } : null;
+  assert.equal(state.calls().length, 0);
+  assert.equal(storage.size, 0);
+  state.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  state.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  const events = state.calls().filter(c => c[0] === "event");
+  assert.deepEqual(events.map(c => c[1]), ["page_view", "map_open", "place_open"]);
+  assert.equal(events[2][2].canonical_place_id, "pergola");
+  assert.equal(events[2][2].product_id, "guided-city-map");
+  assert.equal(events[2][2].utm_content, "reel_story");
+  assert.equal(events[2][2].utm_campaign, "pergola_he_israel_oct31_2026");
+  const next = page("https://wroc-love.com/products/interactive-maps/cultural.html?lang=he", { ga4MeasurementId: "G-ABC123" }, storage);
+  next.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  assert.equal(next.calls().find(c => c[1] === "map_open")[2].utm_campaign, "pergola_he_israel_oct31_2026");
+  assert.equal(next.calls().find(c => c[1] === "map_open")[2].canonical_place_id, undefined);
+});
+
+test("unknown guide place IDs do not create place_open events", () => {
+  const state = page("https://wroc-love.com/products/interactive-maps/guides.html?lang=de&place=unknown", { ga4MeasurementId: "G-ABC123" });
+  state.document.getElementById = () => null;
+  state.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  assert.deepEqual(state.calls().filter(c => c[0] === "event").map(c => c[1]), ["page_view", "map_open"]);
+});
