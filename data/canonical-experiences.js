@@ -307,10 +307,23 @@
       relatedCanonicalPlaceIds: [],
       productRefs: [],
       mapPoints: [
-        { id: "prague-arrival", name: t("פראג: תמונות מנקודת היעד", "Prague: photographs at our destination", "Praga: zdjęcia u celu podróży", "Prag: Fotos am Reiseziel", "Praha: fotografie v cíli cesty"), coordinates: [50.087667, 14.421636], photo: "/assets/experiences/prague/IMG_5425.JPG" }
+        { id: "wroclavia-bus-departure", name: t("מוצא: תחנת האוטובוסים בוורוצלביה", "Departure: Wroclavia bus terminal", "Wyjazd: dworzec autobusowy Wroclavia", "Start: Busbahnhof Wroclavia", "Odjezd: autobusové nádraží Wroclavia"), coordinates: [51.097114, 17.035719], photo: "/assets/experiences/prague/IMG_5399.JPG" },
+        { id: "prague-arrival", name: t("יעד: פראג, תמונות מההגעה", "Destination: Prague, arrival photographs", "Cel: Praga, zdjęcia po przyjeździe", "Ziel: Prag, Fotos nach der Ankunft", "Cíl: Praha, fotografie po příjezdu"), coordinates: [50.087667, 14.421636], photo: "/assets/experiences/prague/IMG_5425.JPG" }
       ],
-      mapTitle: t("נקודת היעד: פראג", "Our destination: Prague", "Cel podróży: Praga", "Unser Reiseziel: Prag", "Cíl cesty: Praha"),
-      mapNote: t("החוויה מתמקדת בדרך מוורוצלב לפראג בתחבורה ציבורית. הסיכה מציינת מקום שבו צילמנו לאחר ההגעה, ולא מסלול טיול בפראג.", "This experience follows the public-transport journey from Wrocław to Prague. The pin marks where we took photographs after arriving, rather than a sightseeing route in Prague.", "Ten opis skupia się na podróży transportem publicznym z Wrocławia do Pragi. Pinezka wskazuje miejsce zdjęć po przyjeździe, a nie trasę zwiedzania Pragi.", "Im Mittelpunkt steht die Fahrt mit öffentlichen Verkehrsmitteln von Wrocław nach Prag. Die Markierung zeigt unseren Fotoort nach der Ankunft, keine Besichtigungsroute durch Prag.", "Tento zážitek se soustředí na cestu veřejnou dopravou z Vratislavi do Prahy. Značka ukazuje místo fotografování po příjezdu, nikoli prohlídkovou trasu Prahou."),
+      mapTitle: t("הדרך מוורוצלב לפראג", "The journey from Wrocław to Prague", "Droga z Wrocławia do Pragi", "Der Weg von Wrocław nach Prag", "Cesta z Vratislavi do Prahy"),
+      mapNote: t("מוצא: תחנת האוטובוסים בוורוצלביה. יעד: פראג. הקו המקווקו ממחיש את הדרך דרך אזור הגבול המתועד בתמונות; הוא אינו נתיב כביש מדויק או הקלטת נסיעת פליקסבוס. הנקודה בפראג היא מקום צילום אחרי ההגעה, ולא תחנת האוטובוס. בדקו בכרטיס את תחנת ההגעה שלכם.", "Departure: Wroclavia bus terminal. Destination: Prague. The dashed line illustrates the journey via the border area documented in our photographs; it is not an exact road route or a FlixBus tracking record. The Prague pin is our photo location after arrival, not the bus terminal. Check your ticket for your arrival stop.", "Wyjazd: dworzec autobusowy Wroclavia. Cel: Praga. Linia przerywana ilustruje podróż przez obszar graniczny udokumentowany na zdjęciach; nie jest dokładną trasą drogową ani zapisem przejazdu FlixBusa. Pinezka w Pradze wskazuje miejsce zdjęć po przyjeździe, nie dworzec autobusowy. Przystanek docelowy sprawdź na bilecie.", "Start: Busbahnhof Wroclavia. Ziel: Prag. Die gestrichelte Linie veranschaulicht die Fahrt über das fotografisch dokumentierte Grenzgebiet; sie ist keine genaue Straßenroute oder FlixBus-Aufzeichnung. Die Prager Markierung zeigt unseren Fotoort nach der Ankunft, nicht den Busbahnhof. Prüfen Sie Ihre Ankunftshaltestelle auf dem Ticket.", "Odjezd: autobusové nádraží Wroclavia. Cíl: Praha. Přerušovaná čára znázorňuje cestu přes pohraničí zachycené na fotografiích; nejde o přesnou silniční trasu ani záznam jízdy FlixBusu. Pražská značka ukazuje místo fotografování po příjezdu, nikoli autobusové nádraží. Příjezdovou zastávku ověřte na jízdence."),
+      mapRoute: {
+        kind: "schematic",
+        coordinates: [[51.097114, 17.035719], [50.678122, 15.974656], [50.087667, 14.421636]],
+        provenance: { departurePhoto: "IMG_5399.JPG", borderPhoto: "IMG_5414.JPG", borderScreenshot: "IMG_5412.PNG", destinationPhoto: "IMG_5425.JPG", fullTrackAvailable: false },
+        labels: {
+          departure: t("מוצא: ורוצלביה", "Departure: Wroclavia", "Wyjazd: Wroclavia", "Start: Wroclavia", "Odjezd: Wroclavia"),
+          destination: t("יעד: פראג", "Destination: Prague", "Cel: Praga", "Ziel: Prag", "Cíl: Praha"),
+          overview: t("הדרך כולה", "Whole journey", "Cała podróż", "Gesamte Fahrt", "Celá cesta"),
+          planner: t("תכנון נסיעה עדכני", "Plan your journey", "Zaplanuj podróż", "Reise planen", "Naplánovat cestu")
+        },
+        plannerUrl: "https://www.google.com/maps/dir/?api=1&origin=Dworzec+Autobusowy+Wroclaw+Sucha+1&destination=Prague&travelmode=transit"
+      },
       subtitle: t("הנסיעה שלנו מוורוצלב לפראג בפליקסבוס: הדרך, מעבר הגבול וההגעה ליעד.", "Our FlixBus journey from Wrocław to Prague: the road, border crossing and arrival.", "Nasza podróż FlixBusem z Wrocławia do Pragi: droga, przekroczenie granicy i przyjazd.", "Unsere FlixBus-Fahrt von Wrocław nach Prag: der Weg, der Grenzübertritt und die Ankunft.", "Naše cesta FlixBusem z Vratislavi do Prahy: cesta, překročení hranice a příjezd."),
       journeyPlanning: {
   "title": {
