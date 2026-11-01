@@ -31,7 +31,7 @@ test('open/resize fitting caps tall content, pans once and settles without a fee
  let mapHook,popupHook,frames=[],pans=0,updates=0;
  let mapRect=rect(12,280,363,719), popupRect={...rect(-82,171,248,800)};
  const content={style:{setProperty(k,v){this[k]=v;}},hasAttribute:()=>false,setAttribute(){},getBoundingClientRect:()=>({width:300})};
- const element={querySelector:()=>content,classList:{add(){}},getBoundingClientRect:()=>popupRect};
+ const element={querySelector:()=>content,classList:{add(){},contains(){return false;}},getBoundingClientRect:()=>popupRect};
  const popup={options:{maxWidth:340,minWidth:50,autoPan:true,keepInView:true},getElement:()=>element,update(){updates++;popupRect.right=popupRect.left+this.options.maxWidth+30;popupRect.bottom=popupRect.top+this.options.maxHeight+26;}};
  const handlers={},listeners={},containerListeners={};let focusRestored=false,closed=false;
  const container={querySelectorAll:selector=>selector.includes('leaflet-top')?[{getBoundingClientRect:()=>({...rect(22,290,54,350),width:32,height:60})}]:[],getBoundingClientRect:()=>mapRect,addEventListener(n,fn){containerListeners[n]=fn;},removeEventListener(){},focus(){focusRestored=true;}};

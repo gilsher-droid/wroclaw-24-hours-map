@@ -27,7 +27,7 @@
       frame=0;
       if(!active||!map.hasLayer(active)) return;
       const element=active.getElement();
-      if(!element) return;
+      if(!element||element.classList.contains('canonical-sheet-source')) return;
       const visual=root.visualViewport;
       const viewport={left:visual?.offsetLeft||0,top:visual?.offsetTop||0,right:(visual?.offsetLeft||0)+(visual?.width||root.innerWidth),bottom:(visual?.offsetTop||0)+(visual?.height||root.innerHeight)};
       // Respect fixed/sticky page chrome, but never treat map controls as a header.
