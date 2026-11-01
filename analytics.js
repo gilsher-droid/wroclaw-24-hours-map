@@ -13,6 +13,7 @@
     "lifestyle.html": "lifestyle-guide",
     "excursions.html": "lower-silesia-excursions",
     "cultural.html": "cultural-adventure",
+    "guides.html": "guided-city-map",
   });
   const utmKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
   const allowedEvents = new Set([
@@ -20,7 +21,7 @@
     "news_ticker_click", "outbound_link_click",
   ]);
   const consent = { analytics: false, marketing: false };
-  const sent = { gaPage: false, gaMap: false, pixelPage: false, pixelMap: false };
+  const sent = { gaPage: false, gaMap: false, gaPlace: false, pixelPage: false, pixelMap: false };
   const debug = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) && new URLSearchParams(location.search).get("analytics_debug") === "1";
   let gaLoaded = false;
   let pixelLoaded = false;
@@ -62,8 +63,14 @@
     } catch (_) { return {}; }
   }
 
+  function selectedGuidePlace() {
+    if (productId() !== "guided-city-map") return null;
+    const id = new URLSearchParams(location.search).get("place");
+    return id && /^[a-z0-9-]{1,100}$/.test(id) && document.getElementById?.("guided-place-" + id)?.dataset.canonicalPlaceId === id ? id : null;
+  }
+
   function context() {
-    return { language: language(), site_language: language(), ...(productId() ? { product_id: productId() } : {}), ...attribution() };
+    return { ...(selectedGuidePlace() ? { canonical_place_id: selectedGuidePlace() } : {}), language: language(), site_language: language(), ...(productId() ? { product_id: productId() } : {}), ...attribution() };
   }
 
   function safePageLocation() {
@@ -121,6 +128,10 @@
       if (base.product_id && !sent.gaMap) {
         window.gtag("event", "map_open", { ...base, send_to: gaId });
         sent.gaMap = true;
+      }
+      if (selectedGuidePlace() && !sent.gaPlace) {
+        window.gtag("event", "place_open", { ...base, canonical_place_id: selectedGuidePlace(), source_surface: "guided_map_deeplink", send_to: gaId });
+        sent.gaPlace = true;
       }
     }
     if (consent.marketing && pixelId) {
