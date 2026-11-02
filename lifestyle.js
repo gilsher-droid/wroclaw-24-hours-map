@@ -159,7 +159,7 @@
       <div class="place-topline"><h3>${escapeHtml(placeName(place))}</h3><div class="place-tags">${tags}</div></div>
       <p class="local-name">${escapeHtml(place.localName || placeName(place))}</p>
       ${placeAmenities.labelBadgeHtml(place, language)}
-      <p>${escapeHtml(local(place.description))}</p>
+      ${window.WROC_PLACE_VISITS?.html(place.canonicalPlaceId||place.id,language)||''}<p>${escapeHtml(local(place.description))}</p>
       ${place.note ? `<p class="place-note">${escapeHtml(local(place.note))}</p>` : ""}
       <div class="place-actions">${actionHtml(place)}</div>
     </article>`;
@@ -167,7 +167,7 @@
 
   function popupHtml(place) {
     const popupDescription = place.canonicalPlaceId === "wroclavia" || place.id === "wroclavia" ? local(place.description).split(/[.!?]/)[0] + "." : local(place.description);
-    return `${window.WROC_PLACE_POPUP_PHOTO.html(place,language)}<strong>${escapeHtml(placeName(place))}</strong><br>${placeAmenities.labelBadgeHtml(place, language)}<span>${escapeHtml(popupDescription)}</span><div class="place-actions">${actionHtml(place)}</div>`;
+    return `${window.WROC_PLACE_POPUP_PHOTO.html(place,language)}<strong>${escapeHtml(placeName(place))}</strong>${window.WROC_PLACE_VISITS?.html(place.canonicalPlaceId||place.id,language)||''}<br>${placeAmenities.labelBadgeHtml(place, language)}<span>${escapeHtml(popupDescription)}</span><div class="place-actions">${actionHtml(place)}</div>`;
   }
 
   function fitResults(results) {

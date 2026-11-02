@@ -128,7 +128,7 @@
       <div class="popup-title">${escapeHtml(location.name[currentLanguage])}</div>
       <div class="popup-local">${escapeHtml(location.localName)}</div>
       ${placeAmenities.labelBadgeHtml(location, currentLanguage)}
-      <div>${escapeHtml(location.description[currentLanguage])}</div>
+      ${window.WROC_PLACE_VISITS?.html(location.canonicalPlaceId||location.id,currentLanguage)||''}<div>${escapeHtml(location.description[currentLanguage])}</div>
       <div class="popup-meta"><span class="popup-chip">${escapeHtml(category)}</span>${time}${optional}</div>
       ${resourceActionsHtml(location)}
       <div class="popup-actions">
@@ -289,7 +289,7 @@
             <h3>${escapeHtml(location.name[currentLanguage])}</h3>
             <div class="local-name">${escapeHtml(location.localName)}</div>
             ${placeAmenities.labelBadgeHtml(location, currentLanguage)}
-            <p>${escapeHtml(location.description[currentLanguage])}</p>
+            ${window.WROC_PLACE_VISITS?.html(location.canonicalPlaceId||location.id,currentLanguage)||''}<p>${escapeHtml(location.description[currentLanguage])}</p>
             ${recommendation}
             <div class="card-actions">
               <button type="button" class="card-button show-location" data-location="${location.id}">${escapeHtml(t("showOnRoute"))}</button>
@@ -324,7 +324,7 @@
         <h3>${escapeHtml(location.name[currentLanguage])}</h3>
         <div class="local-name">${escapeHtml(location.localName)}</div>
         ${placeAmenities.labelBadgeHtml(location, currentLanguage)}
-        <p>${escapeHtml(location.description[currentLanguage])}</p>
+        ${window.WROC_PLACE_VISITS?.html(location.canonicalPlaceId||location.id,currentLanguage)||''}<p>${escapeHtml(location.description[currentLanguage])}</p>
         <div class="card-actions">
           <button type="button" class="card-button show-location" data-location="${location.id}">${escapeHtml(t("showOnRoute"))}</button>
         </div>
