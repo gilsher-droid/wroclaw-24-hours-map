@@ -386,7 +386,7 @@
             <div><h3>${escapeHtml(text(item.name))}</h3><span>${escapeHtml(item.localName)}</span></div>
             <div class="stop-badges"><span>${escapeHtml(t(`categories.${item.category}`))}</span>${item.optional ? `<span class="optional-badge">${escapeHtml(t("optional"))}</span>` : ""}${placeAmenities.labelBadgeHtml(item, language)}</div>
           </div>
-          <p>${escapeHtml(text(item.description))}</p>
+          ${window.WROC_PLACE_VISITS?.html(item.canonicalPlaceId||item.id,language)||''}<p>${escapeHtml(text(item.description))}</p>
           <p class="stop-tip"><strong>${escapeHtml(t("recommended"))}:</strong> ${escapeHtml(text(item.tip))}</p>
           <div class="stop-actions">
             <button type="button" data-show-stop="${item.id}">${escapeHtml(t("showMap"))}</button>
@@ -408,7 +408,7 @@
 
   function popupHtml(item) {
     const popupDescription = item.canonicalPlaceId === "wroclavia" || item.id === "wroclavia" ? text(item.description).split(/[.!?]/)[0] + "." : text(item.description);
-    return `<div class="premium-popup">${window.WROC_PLACE_POPUP_PHOTO.html(item,language)}<strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span>${placeAmenities.labelBadgeHtml(item, language)}<p>${escapeHtml(popupDescription)}</p>${resourceActionsHtml(item)}</div>`;
+    return `<div class="premium-popup">${window.WROC_PLACE_POPUP_PHOTO.html(item,language)}<strong>${escapeHtml(text(item.name))}</strong><span>${escapeHtml(item.localName)}</span>${placeAmenities.labelBadgeHtml(item, language)}${window.WROC_PLACE_VISITS?.html(item.canonicalPlaceId||item.id,language)||''}<p>${escapeHtml(popupDescription)}</p>${resourceActionsHtml(item)}</div>`;
   }
 
   function renderMap(stops) {
@@ -475,7 +475,7 @@
         <h3>${escapeHtml(text(item.name))}</h3>
         <small>${escapeHtml(item.localName)}</small>
         ${placeAmenities.labelBadgeHtml(item, language)}
-        <p>${escapeHtml(text(item.description))}</p>
+        ${window.WROC_PLACE_VISITS?.html(item.canonicalPlaceId||item.id,language)||''}<p>${escapeHtml(text(item.description))}</p>
         <div><span>${escapeHtml(t("bestFor"))} ${item.bestDay}</span></div>
         ${resourceActionsHtml(item)}
       </article>`).join("");

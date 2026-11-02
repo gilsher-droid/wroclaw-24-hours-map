@@ -2,124 +2,108 @@
  "use strict";
  window.WROC_NOW_IN_WROCLAW_ITEMS = Object.freeze([
   {
-    "id": "fountain-finale-2026-10",
+    "id": "wroclaw-christmas-market-2026-27",
     "title": {
-      "he": "עונת מופעי המזרקה הסתיימה",
-      "en": "The fountain show season has ended",
-      "pl": "Sezon pokazów fontanny zakończony",
-      "de": "Die Saison der Brunnenshows ist beendet",
-      "cs": "Sezona představení fontány skončila"
+      "he": "שוק חג המולד המרכזי: התאריכים פורסמו",
+      "en": "Main Christmas market: dates announced",
+      "pl": "Główny jarmark: ogłoszono terminy",
+      "de": "Großer Weihnachtsmarkt: Termine angekündigt",
+      "cs": "Hlavní vánoční trh: oznámené termíny"
     },
-    "url": "https://www.wroclaw.pl/dla-mieszkanca/fontanna-multimedialna-wroclaw-noc-pokazow-zakonczenie-sezonu-harmonogram",
-    "startDate": "2026-10-26",
-    "endDate": "2026-11-01",
-    "category": "practical",
-    "priority": "important",
-    "articleUrl": "/news/2026-10-26.html#fountain-season",
-    "status": "confirmed",
-    "verifiedAt": "2026-10-26",
-    "eventStartDate": "2026-10-24",
-    "eventEndDate": "2026-10-24",
-    "relatedCanonicalPlaceId": "fountain",
-    "relatedCanonicalExperienceId": "wroclaw-multimedia-fountain-show"
-  },
-  {
-    "id": "nadodrze-transport-2026-10-24",
-    "title": {
-      "he": "שינויי תחבורה בנדאודז׳ה מאז 24 באוקטובר",
-      "en": "Nadodrze transport changes since 24 October",
-      "pl": "Zmiany na Nadodrzu od 24 października",
-      "de": "Verkehrsänderungen in Nadodrze seit 24. Oktober",
-      "cs": "Změny dopravy v Nadodrze od 24. října"
-    },
-    "url": "https://www.wroclaw.pl/komunikacja/rozpoczyna-sie-remont-torowiska-na-ul-lokietka-i-na-pl-sw-macieja",
-    "startDate": "2026-10-26",
-    "endDate": "2026-11-01",
-    "category": "transport",
-    "priority": "important",
-    "articleUrl": "/news/2026-10-26.html#nadodrze-transport",
-    "status": "confirmed",
-    "verifiedAt": "2026-10-26",
-    "eventStartDate": "2026-10-24"
-  },
-  {
-    "id": "all-saints-2026-11",
-    "title": {
-      "he": "1 בנובמבר: תחבורה מיוחדת ליום כל הקדושים",
-      "en": "1 November: special All Saints’ Day services",
-      "pl": "1 listopada: specjalna komunikacja na Wszystkich Świętych",
-      "de": "1. November: Sonderverkehr zu Allerheiligen",
-      "cs": "1. listopadu: zvláštní doprava na svátek Všech svatých"
-    },
-    "url": "https://www.wroclaw.pl/dla-mieszkanca/wszystkich-swietych-wroclaw-komunikacja-miejska-mpk-autobusy-tramwaje-1-listopada",
-    "startDate": "2026-10-26",
-    "endDate": "2026-11-01",
-    "category": "transport",
-    "priority": "important",
-    "articleUrl": "/news/2026-10-26.html#all-saints",
-    "status": "announced",
-    "verifiedAt": "2026-10-26",
-    "eventStartDate": "2026-10-31",
-    "eventEndDate": "2026-11-01"
-  },
-  {
-    "id": "lesnica-halloween-2026-10",
-    "title": {
-      "he": "שני ערבים שונים בטירת לשניצה",
-      "en": "Two different evenings at Leśnica Castle",
-      "pl": "Dwa różne wieczory w Zamku Leśnickim",
-      "de": "Zwei verschiedene Abende im Schloss Leśnica",
-      "cs": "Dva různé večery na zámku Leśnica"
-    },
-    "url": "https://www.zamek.wroclaw.pl/imprezy/zamkonocki-magiczne-czytanki-w-podziemiach-zamku-lesnickiego-2/",
-    "startDate": "2026-10-26",
-    "endDate": "2026-10-31",
+    "url": "https://www.wroclaw.pl/dla-mieszkanca/jarmark-bozonarodzeniowy-2026-2027-we-wroclawiu-terminy-godziny",
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-08",
     "category": "event",
     "priority": "important",
-    "articleUrl": "/news/2026-10-26.html#lesnica-halloween",
+    "articleUrl": "/news/2026-11-02.html#main-market",
     "status": "announced",
-    "verifiedAt": "2026-10-26",
-    "eventStartDate": "2026-10-30",
-    "eventEndDate": "2026-10-31",
-    "events": [
-      {
-        "id": "lesnica-vampire-ball-2026-10-30",
-        "startDate": "2026-10-30",
-        "endDate": "2026-10-30",
-        "time": "18:00-21:30",
-        "status": "announced",
-        "sourceUrl": "https://www.zamek.wroclaw.pl/imprezy/zamkonocki-magiczne-czytanki-w-podziemiach-zamku-lesnickiego-2/"
-      },
-      {
-        "id": "lesnica-wild-ball-2026-10-31",
-        "startDate": "2026-10-31",
-        "endDate": "2026-11-01",
-        "time": "21:00",
-        "status": "announced",
-        "sourceUrl": "https://stage24.pl/wydarzenia/dj-duch-dyyune-scyntero-vvydra-osrodek-postaw-tworczych-zamek-zamek-w-lesnicy-7712"
-      }
-    ]
+    "verifiedAt": "2026-11-02",
+    "eventStartDate": "2026-11-20",
+    "eventEndDate": "2027-01-07",
+    "relatedCanonicalPlaceId": "rynek"
   },
   {
-    "id": "rmx-drawing-triennial-2026",
+    "id": "nowy-swiateczny-targ-2026",
     "title": {
-      "he": "תערוכת הטריאנלה במוזיאון לאדריכלות",
-      "en": "The Drawing Triennial at the Architecture Museum",
-      "pl": "Triennale Rysunku w Muzeum Architektury",
-      "de": "Zeichnungstriennale im Architekturmuseum",
-      "cs": "Trienále kresby v Muzeu architektury"
+      "he": "שוק חג מולד נוסף, בכיכר אחרת",
+      "en": "A separate Christmas market at Nowy Targ",
+      "pl": "Osobny jarmark na Nowym Targu",
+      "de": "Ein eigener Weihnachtsmarkt am Nowy Targ",
+      "cs": "Samostatný vánoční trh na Nowy Targ"
     },
-    "url": "https://ma.wroc.pl/pl/artykul/rmx-triennale-rysunku-wroclaw-2026/",
-    "startDate": "2026-10-26",
-    "endDate": "2026-11-01",
+    "url": "https://jarmarkwroclaw.pl/",
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-08",
+    "category": "event",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-02.html#nowy-targ",
+    "status": "announced",
+    "verifiedAt": "2026-11-02",
+    "eventStartDate": "2026-11-20",
+    "eventEndDate": "2026-12-20",
+    "locationName": "plac Nowy Targ",
+    "mapPlacement": "pending-verified-entrance-coordinates"
+  },
+  {
+    "id": "gardens-winter-break-2026-27",
+    "title": {
+      "he": "הגן היפני והגן הבוטני: שגרת חורף",
+      "en": "Japanese and Botanical Gardens: winter visiting",
+      "pl": "Ogród Japoński i Botaniczny: przerwa zimowa",
+      "de": "Japanischer und Botanischer Garten: Winterbesuche",
+      "cs": "Japonská a botanická zahrada: zimní návštěvy"
+    },
+    "url": "https://zzm.wroc.pl/obiektyzzmcp/ogrod-japonski-we-wroclawiu/",
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-08",
+    "category": "practical",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-02.html#gardens",
+    "status": "confirmed",
+    "verifiedAt": "2026-11-02",
+    "eventStartDate": "2026-11-01",
+    "relatedCanonicalPlaceId": "japanese"
+  },
+  {
+    "id": "czocha-closure-2026-11-05",
+    "title": {
+      "he": "טירת צ׳וחה: סגירה ב־5–7 בנובמבר",
+      "en": "Czocha Castle: closed 5–7 November",
+      "pl": "Zamek Czocha: zamknięty 5–7 listopada",
+      "de": "Burg Czocha: geschlossen am 5.–7. November",
+      "cs": "Hrad Czocha: uzavřen 5.–7. listopadu"
+    },
+    "url": "https://zamekczocha.com/",
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-08",
+    "category": "practical",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-02.html#czocha",
+    "status": "announced",
+    "verifiedAt": "2026-11-02",
+    "eventStartDate": "2026-11-05",
+    "eventEndDate": "2026-11-07",
+    "relatedCanonicalPlaceId": "czocha-castle"
+  },
+  {
+    "id": "ksiaz-travelist-poll-2026",
+    "title": {
+      "he": "קשונז׳ מובילה בהצבעת הקוראים",
+      "en": "Książ leads a readers’ poll",
+      "pl": "Książ na czele głosowania czytelników",
+      "de": "Książ führt eine Leserabstimmung an",
+      "cs": "Książ vede čtenářské hlasování"
+    },
+    "url": "https://travelist.pl/magazyn/zamki-w-polsce",
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-08",
     "category": "culture",
     "priority": "normal",
-    "articleUrl": "/news/2026-10-26.html#rmx",
+    "articleUrl": "/news/2026-11-02.html#ksiaz",
     "status": "confirmed",
-    "verifiedAt": "2026-10-26",
-    "eventStartDate": "2026-10-23",
-    "eventEndDate": "2026-12-15",
-    "relatedCanonicalPlaceId": "museum-of-architecture-wroclaw"
+    "verifiedAt": "2026-11-02",
+    "eventStartDate": "2026-10-28",
+    "relatedCanonicalPlaceId": "ksiaz-castle"
   }
-].map((item) => Object.freeze({ ...item, title: Object.freeze(item.title) })));
+].map(item => Object.freeze({ ...item, title: Object.freeze(item.title) })));
 })();
