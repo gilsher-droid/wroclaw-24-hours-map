@@ -50,14 +50,28 @@
     const contextLabels=window.WROC_CATALOG?.getPlace(id)?.provenance?.guideContextLabel;
     const label=contextLabels?.[lang] || labels[lang] || labels.en;
     const title=`${label}${suffix?` · ${suffix}`:""}`;
-    return `<a class="guide-video-action${resourceClass?` ${escapeHtml(resourceClass)}`:""}" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-guide-video-src="${escapeHtml(url)}" data-guide-video-lang="${escapeHtml(lang)}" aria-label="${escapeHtml(title)}" title="${escapeHtml(title)}"><span class="brand-icon guide" aria-hidden="true"><img src="/assets/logo.png" alt=""></span><span class="guide-video-action-copy"><span class="guide-video-action-title">${escapeHtml(label)}</span><span class="guide-video-action-language">${escapeHtml(suffix)}</span></span></a>`;
+    return `<a class="guide-video-action${resourceClass?` ${escapeHtml(resourceClass)}`:""}" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" data-guide-video-src="${escapeHtml(url)}" data-guide-video-lang="${escapeHtml(lang)}" aria-label="${escapeHtml(title)}" title="${escapeHtml(title)}"><span class="brand-icon guide" aria-hidden="true"><img src="https://wroc-love.com/assets/logo.png" alt=""></span><span class="guide-video-action-copy"><span class="guide-video-action-title">${escapeHtml(label)}</span><span class="guide-video-action-language">${escapeHtml(suffix)}</span></span></a>`;
   }
   document.addEventListener("click",event=>{
     const trigger=event.target.closest?.("[data-guide-video-src]");const url=trigger?.dataset.guideVideoSrc;if(!youtubeId(url))return;
     event.preventDefault();openYouTubeVideo(url,trigger.getAttribute("title")||labels.en,trigger.dataset.guideVideoLang||language());
   });
   const markerLabels={he:"כאן יש הדרכת וידאו שלנו",en:"Our video guide available",pl:"Dostępny nasz przewodnik wideo",de:"Unser Video-Reiseführer verfügbar",cs:"Náš videoprůvodce je k dispozici"};
+ const pinLabels={he:['מסעדה','בית קפה','מוזיאון','מלון','אתר לביקור','בר'],en:['Restaurant','Café','Museum','Hotel','Sight','Bar'],de:['Restaurant','Café','Museum','Hotel','Sehenswürdigkeit','Bar'],cs:['Restaurace','Kavárna','Muzeum','Hotel','Památka','Bar'],pl:['Restauracja','Kawiarnia','Muzeum','Hotel','Atrakcja','Bar']};
+ const pinPaths=['M5 3v6m3-6v6M3 3v4q0 4 5 4v10M18 3v18m0-18q-5 4-5 10h5','M3 6h13v7a5 5 0 0 1-10 0V6m13 1h2a3 3 0 0 1 0 6h-2M3 21h16M7 2v1m5-1v1','M3 8l9-5 9 5H3m2 3v7m5-7v7m5-7v7m5-7v7M3 21h18','M3 21V4h12v17M7 8h1m3 0h1m-5 4h1m3 0h1m-5 9v-5h5v5m3-11h6v11m-3-7h1m-1 3h1','M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12m10-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6','M4 3h16l-8 9L4 3m8 9v9m-5 0h10'];
+ function pinType(p){const c=new Set(p.categories||[]);const has=(...keys)=>keys.some(k=>c.has(k));return has('sleep','hotel','hotels')?3:has('cafe','coffee')?1:has('museum','museums-history')?2:has('eat','food','restaurant')?0:has('drink')?5:4;}
+ function pinSymbol(type){return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${pinPaths[type]}"/></svg>`;}
+ function typedIcon(options,place,lang=language()){
+  if(!place||String(options.className||'').includes('wroc-typed-icon'))return options;
+  const id=typeof place==='string'?place:place.canonicalPlaceId||place.id;
+  const canonical=window.WROC_CATALOG?.getPlace?.(id)||place;
+  const categories=canonical.categories||[canonical.category].filter(Boolean),type=pinType({...canonical,categories}),label=(pinLabels[lang]||pinLabels.en)[type];
+  if(/class="nearby-pin/.test(options.html||'')){const color=['#9a431f','#73502f','#674891','#245d91','#286650','#873d67'][type],html=options.html.replace(/(<span[^>]*class="nearby-pin[^"]*"[^>]*>)<svg[\s\S]*?<\/svg>/,`$1${pinSymbol(type)}`).replace(/(<span[^>]*class="nearby-pin[^"]*"[^>]*)(>)/,`$1 style="--wroc-type-color:${color}"$2`);return {...options,className:((options.className||'')+' wroc-typed-icon').trim(),html};}
+  if(/lifestyle-marker/.test(options.html||'')){const color=['#9a431f','#73502f','#674891','#245d91','#286650','#873d67'][type],html=options.html.replace(/(<span class="lifestyle-marker[^>]*>\s*)<span>[^<]*<\/span>/,`$1<span class="wroc-type-main" role="img" aria-label="${escapeHtml(label)}">${pinSymbol(type)}</span>`).replace(/(<span class="lifestyle-marker[^"]*")>/,`$1 style="background:${color}">`);return {...options,className:((options.className||'')+' wroc-typed-icon').trim(),html};}
+  return {...options,className:((options.className||'')+' wroc-typed-icon').trim(),html:(options.html||'')+`<span class="wroc-type-badge wroc-type-${type}" role="img" aria-label="${escapeHtml(label)}" title="${escapeHtml(label)}">${pinSymbol(type)}</span>`};
+ }
   function decorateIcon(options,place,lang=language()){
+    options=typedIcon(options,place,lang);
     const id=typeof place==="string"?place:place?.canonicalPlaceId||place?.id;
     if(!youtubeId(sourceFor(id,lang)))return options;
     const label=escapeHtml(markerLabels[lang]||markerLabels.en);
@@ -72,5 +86,5 @@
     }
     map._wrocGuideLegend.getContainer().innerHTML=`<span aria-hidden="true">▶</span> ${escapeHtml(markerLabels[lang]||markerLabels.en)}`;
   }
-  window.WROC_GUIDE_VIDEO=Object.freeze({button,sourceFor,embedUrlFor,cueAt,decorateIcon,legend});
+  window.WROC_GUIDE_VIDEO=Object.freeze({button,sourceFor,embedUrlFor,cueAt,decorateIcon,typedIcon,legend});
 })();
