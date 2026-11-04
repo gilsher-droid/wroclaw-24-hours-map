@@ -3,7 +3,7 @@
   const registry = () => window.WROC_YOUTUBE_VIDEO_HOSTING || {};
   const idFor = (url) => /^https:\/\/(?:www\.)?(?:youtube\.com\/(?:shorts\/|watch\?v=)|youtu\.be\/)([A-Za-z0-9_-]{11})(?:[?&].*)?$/.exec(url || "")?.[1] || null;
   const resolve = (src) => idFor(src) ? src : registry()[src]?.status === "public" ? registry()[src].youtube : null;
-  const embed = (src) => { const id = idFor(resolve(src)); return id ? `https://www.youtube-nocookie.com/embed/${id}?playsinline=1&rel=0` : null; };
+  const embed = (src) => { const id = idFor(resolve(src)); return id ? `https://www.youtube-nocookie.com/embed/${id}?playsinline=1&rel=0&enablejsapi=1` : null; };
   const pending = {
     he: "הסרטון מועבר ליוטיוב ויהיה זמין כאן לאחר הפרסום.",
     en: "This video is being transferred to YouTube and will be available here after publication.",

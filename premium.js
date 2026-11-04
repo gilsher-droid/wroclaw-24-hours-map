@@ -187,7 +187,7 @@
     }
     actions.push(window.WROC_GUIDE_VIDEO?.button(item.canonicalPlaceId || item.id, language, "resource-icon") || "");
     actions.push(window.WROC_PLACE_AI?.button(item,language,"resource-icon")||"");
-    return `<div class="resource-actions" aria-label="${escapeHtml(text(item.name))}">${actions.join("")}</div>`;
+    return `<div class="resource-actions" data-canonical-place-id="${escapeHtml(place?.id||item.id)}" aria-label="${escapeHtml(text(item.name))}">${actions.join("")}</div>`;
   }
 
   function ensureResourceModals() {

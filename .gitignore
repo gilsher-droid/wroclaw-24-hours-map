@@ -41,3 +41,6 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Private aggregate measurements are server state, never source.
+bluehost-api/place-analytics-state/

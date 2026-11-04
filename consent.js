@@ -9,11 +9,12 @@
     de: { title: "Datenschutzauswahl", intro: "Wir nutzen Google Analytics für die Website-Nutzung und Meta Pixel für die Messung von Anzeigen nur mit Ihrer Einwilligung. Die Website funktioniert auch ohne Tracking.", analyticsOnly: "Wir nutzen Google Analytics zur Messung der Website-Nutzung nur mit Ihrer Einwilligung. Die Website funktioniert auch ohne Messung.", analytics: "Nutzungsanalyse (Google Analytics)", marketing: "Werbemessung (Meta Pixel)", accept: "Alle akzeptieren", reject: "Alle ablehnen", customize: "Anpassen", save: "Auswahl speichern", settings: "Datenschutzeinstellungen", policy: "Datenschutzhinweis", close: "Schließen" },
     cs: { title: "Volby soukromí", intro: "Google Analytics používáme k měření používání webu a Meta Pixel k měření návštěv z reklam pouze s vaším souhlasem. Web funguje i bez sledování.", analyticsOnly: "Google Analytics používáme k měření používání webu pouze s vaším souhlasem. Web funguje i bez měření.", analytics: "Analýza návštěvnosti (Google Analytics)", marketing: "Měření reklam (Meta Pixel)", accept: "Přijmout vše", reject: "Odmítnout vše", customize: "Přizpůsobit", save: "Uložit volbu", settings: "Nastavení soukromí", policy: "Ochrana soukromí", close: "Zavřít" },
   };
+  for(const [lang,text] of Object.entries({"he": " בנוסף נשמור בשרת שלנו ספירות שימוש מצטברות לפי מקום ושפה, באותה בחירת הסכמה.", "en": " The same choice also controls aggregate place and language usage counters on our server.", "pl": " Ten sam wybór obejmuje zbiorcze statystyki miejsc i języków na naszym serwerze.", "de": " Dieselbe Auswahl gilt auch für aggregierte Orts- und Sprachzähler auf unserem Server.", "cs": " Stejná volba platí i pro souhrnné počty podle míst a jazyků na našem serveru."})){copy[lang].intro+=text;copy[lang].analyticsOnly+=text;}
   const analytics = window.WROC_ANALYTICS;
   if (!analytics) return;
   const pixelConfigured = analytics.status().pixelConfigured;
   // A future Pixel activation uses a new consent key, so earlier GA-only choices cannot opt visitors into Meta.
-  const key = pixelConfigured ? "wroc-love-consent-v2" : "wroc-love-consent-v1";
+  const key = pixelConfigured ? "wroc-love-consent-v3" : "wroc-love-consent-v3-no-meta";
 
   function language() {
     const lang = document.documentElement.lang?.toLowerCase();

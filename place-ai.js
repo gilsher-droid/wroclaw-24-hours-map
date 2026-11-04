@@ -30,15 +30,15 @@
   get('question').addEventListener('input',()=>{get('status').textContent='';get('copy').disabled=!get('question').value.trim();updateDestination();});
   const copyQuestion=async(service)=>{const ctx=active,question=get('question');try{if(!navigator.clipboard?.writeText)throw new Error('clipboard unavailable');await navigator.clipboard.writeText(question.value);if(dialog.open&&active===ctx)get('status').textContent=texts[ctx.language][service==='gemini'?'geminiCopied':'copied'];}catch{if(dialog.open&&active===ctx){get('editor').open=true;question.focus();question.select();get('status').textContent=texts[ctx.language].manual;}}};
   get('copy').addEventListener('click',()=>copyQuestion());
-  get('gemini').addEventListener('click',e=>{if(!get('question').value.trim()){e.preventDefault();return;}copyQuestion('gemini');});
-  get('chatgpt').addEventListener('click',e=>{if(!get('question').value.trim())e.preventDefault();});
+  get('gemini').addEventListener('click',e=>{if(!get('question').value.trim()){e.preventDefault();return;}window.WROC_ANALYTICS?.track('ai_service_click',{canonical_place_id:active.id,provider:'gemini',category:'question-'+get('preset').value});copyQuestion('gemini');});
+  get('chatgpt').addEventListener('click',e=>{if(!get('question').value.trim())e.preventDefault();else window.WROC_ANALYTICS?.track('ai_service_click',{canonical_place_id:active.id,provider:'chatgpt',category:'question-'+get('preset').value});});
   dialog.addEventListener('close',()=>{document.body.style.overflow=oldOverflow;trigger?.focus({preventScroll:true});});
   dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();});
  }
  function open(ctx,source){
   if(!ctx||!texts[ctx.language]||typeof ctx.name!=='string')return;
   if(!dialog)create();if(dialog.open)return;
-  active=ctx;trigger=source;const t=texts[ctx.language],get=id=>dialog.querySelector('#place-ai-'+id);
+  window.WROC_ANALYTICS?.track('ai_open',{canonical_place_id:ctx.id});active=ctx;trigger=source;const t=texts[ctx.language],get=id=>dialog.querySelector('#place-ai-'+id);
   dialog.lang=ctx.language;dialog.dir=ctx.language==='he'?'rtl':'ltr';get('title').textContent=t.title;get('close').textContent=t.close;
   get('name').replaceChildren(...[ctx.name,ctx.localName,ctx.city].filter(Boolean).flatMap(v=>/[\u0590-\u05ff]/.test(v)&&/[A-Za-z]/.test(v)?v.replace(/([\u0590-\u05ff][^A-Za-z]*)([A-Za-z])/,'$1\n$2').split('\n').map(x=>x.trim()):[v]).filter((v,i,a)=>v&&a.indexOf(v)===i).map(v=>{const line=document.createElement('div');line.textContent=v;line.dir='auto';return line;}));
   get('chatgpt').textContent=t.chatgptLabel;get('chatgpt-help').textContent=t.chatgptHelp;get('gemini').textContent=t.geminiLabel;get('gemini-help').textContent=t.geminiHelp;get('help').textContent=t.help;get('preset-label').textContent=t.preset;get('preset').replaceChildren(...t.options.map((label,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=label;return o;}));

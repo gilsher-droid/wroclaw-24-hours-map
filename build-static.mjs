@@ -1,3 +1,4 @@
+import {generatePlaceAnalyticsCatalog} from './tools/generate-place-analytics-catalog.mjs';
 import { generateSitemap } from "./tools/generate-sitemap.mjs";
 import {syncMapNearbyPrivate} from './tools/sync-map-nearby-private.mjs';
 import {versionNearbyAssets} from './tools/version-nearby-assets.mjs';
@@ -11,6 +12,7 @@ import { resolve } from "node:path";
 const root = process.cwd();
 await (await import("./tools/generate-community-places.mjs")).generateCommunityPlaces(root);
 await syncMapNearbyPrivate(root);
+await generatePlaceAnalyticsCatalog(root);
 await generateGuideMap(root);
 await generateHomeExcursions(root);
 await generateHomeExperiences(root);
@@ -76,6 +78,7 @@ for (const file of [
   "personal-trip.js",
   "analytics-config.js",
   "analytics.js",
+  "place-telemetry.js",
   "consent.css",
   "consent.js",
   "privacy.html",
@@ -114,7 +117,7 @@ const homeExperienceScripts = await Promise.all([
   "/site-actions.js", "/home-maps.js",
   "/data/excursion-city-walks.js", "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
   "/data/canonical-experiences.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js",
-  "/place-popup-photo.js", "/data/place-visit-updates.js", "/place-visit-updates.js", "/place-panel.js", "/place-panel-copy.js", "/place-ai.js", "/place-ai-model.js",
+  "/place-popup-photo.js", "/data/place-visit-updates.js", "/place-visit-updates.js", "/place-panel.js", "/place-panel-copy.js", "/place-ai.js", "/place-ai-model.js", "/analytics.js", "/analytics-config.js", "/place-telemetry.js", "/consent.js",
   "/experiences.js", "/guide-video.js", "/youtube-video.js",
 ].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
 for (const file of ["index.html", "experiences.html", "community.html"]) {
@@ -128,7 +131,7 @@ await versionNearbyAssets(root,client);
 
 for (const file of ["map.html", "premium.html", "moshe.html", "lifestyle.html", "excursions.html", "cultural.html", "guides.html"]) {
   const html = await readFile(resolve(root, file), "utf8");
-  const scripts = await Promise.all(["/data/place-visit-updates.js", "/place-visit-updates.js", "/place-panel.js", "/place-panel-copy.js", "/map-tiles.js", "/place-popup-photo.js", "/place-ai-model.js", "/place-ai.js", "/site-actions.js", "/guide-map.js", "/guide-map-model.js", "/data/guide-map-places.js", "/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js", "/excursions.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
+  const scripts = await Promise.all(["/analytics.js", "/analytics-config.js", "/place-telemetry.js", "/consent.js", "/data/place-visit-updates.js", "/place-visit-updates.js", "/place-panel.js", "/place-panel-copy.js", "/map-tiles.js", "/place-popup-photo.js", "/place-ai-model.js", "/place-ai.js", "/site-actions.js", "/guide-map.js", "/guide-map-model.js", "/data/guide-map-places.js", "/popup-viewport.js", "/data/locations.js", "/data/moshe-route.js", "/data/lifestyle-places.js", "/data/cultural-places.js", "/data/canonical-experiences.js", "/cultural.js", "/data/place-catalog.js", "/data/youtube-video-hosting.js", "/youtube-video.js", "/guide-video.js", "/data/location-media.js", "/data/premium-route.js", "/app.js", "/premium.js", "/lifestyle.js", "/excursions.js"].map(async (url) => [url, await readFile(resolve(root, url.slice(1)))]));
   await writeFile(resolve(interactiveMaps, file), versionScriptUrls(html, scripts));
 }
 
