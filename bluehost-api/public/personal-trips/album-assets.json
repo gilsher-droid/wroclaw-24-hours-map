@@ -1,5 +1,5 @@
 {
-  "album-bootstrap.js": "37ad67a784ff84a7e7540e5873ebb44097db6e070c2f4f6e9e35cfa98dad6fe0",
+  "album-bootstrap.js": "09c03fe883f7cc15316182ad643868c523683a603b313a22b1dc40487ebb6d7c",
   "album-server-copy.js": "934f9610b82d619febcd08959533516f51278a9ea8ee723a213ff0715fc29d16",
   "album-server-store.js": "61cd7b07cbf37dcb7dbb0819b0f4b08d5c67136d280853c94e4f163e9ff08b52",
   "app.css": "dab0a274d8b18c8ab5050794161232be5abaf062619afb91503e7e63fead926e",
@@ -27,8 +27,8 @@
   "public-catalog.js": "dc4ec41c0e0a64cb8cdc4433f12434b43b3e71ab0ff96032a47d74662fcec371",
   "trip-album-copy.js": "76b8ad865a63128b304057ef8add465a4fe9334734d16731694bc4a8f942839b",
   "trip-album-model.js": "cc357c597c3a6781d06460f4d9c2eba459577a0a81ce6a39306c726c7278ef6b",
-  "trip-album.css": "0621be4dde11acc4f2c9cd38603f7747c57f7d9e50b1e6a3df2223f63838df8f",
-  "trip-album.js": "85f5f1eee780306bede36051fb19c0632af921a2a9429e18a253a0a3fa01ca0e",
+  "trip-album.css": "d272e90beb56dd7411971d8a031869a5814576ae5396c90afeefb0875b1f3e68",
+  "trip-album.js": "9a0c3c517f2683891483d47d5de056ce3dc0351ed1b9f4c3c625f4b50acbf242",
   "youtube-video-hosting.js": "f2ad2dd2a4601a51a0452b76c3046808e98b4e7084716223fa4121bda9df235d",
   "youtube-video.js": "f5093a10884087ed0a100898d4d36f3c7ca1b1eacba35a832577370d63865c63"
 }

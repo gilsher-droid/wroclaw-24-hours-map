@@ -35,7 +35,8 @@ final class AlbumRepository {
  private function membership(string $place,int $day):bool {if(!isset($this->route['places'][$place],$this->route['days'][$day]))return false;foreach(array_merge($this->route['days'][$day]['stops']??[],$this->route['days'][$day]['food']??[]) as $s)if(($s['placeId']??'')===$place)return true;return false;}
  private function fields(array $e):array {
   $date=$this->text($e['date']??'',10);if($date!==''&&(!preg_match('/^\d{4}-\d{2}-\d{2}$/D',$date)||date('Y-m-d',strtotime($date))!==$date))throw new RuntimeException('invalid');
-  return ['caption'=>$this->text($e['caption']??'',500),'text'=>$this->text($e['text']??'',5000),'date'=>$date];
+  $time=$this->text($e['time']??'',5);if($time!==''&&!preg_match('/^(?:[01][0-9]|2[0-3]):[0-5][0-9]$/D',$time))throw new RuntimeException('invalid');
+  return ['time'=>$time,'caption'=>$this->text($e['caption']??'',500),'text'=>$this->text($e['text']??'',5000),'date'=>$date];
  }
  private function inspect(array $upload,bool $poster=false):array {
   $path=$upload['path'];$size=filesize($path);$mime=(new finfo(FILEINFO_MIME_TYPE))->file($path);
@@ -61,10 +62,18 @@ final class AlbumRepository {
     if($file){$filename=$this->text($input['filename']??'memory',255);$e['blob']=$this->keep($file);$e['file']=['size'=>$file['size'],'type'=>$file['mime']];$e['filename']=$filename;$e['fingerprint']=$file['digest'];if($thumb){$e['posterBlob']=$this->keep($thumb);$e['poster']=['size'=>$thumb['size'],'type'=>$thumb['mime']];}}
     $entries[]=$e;$result=['added'=>$id];
    }elseif($op==='patch'){
-    $found=false;foreach($entries as &$e){if($e['id']!==($input['id']??''))continue;$found=true;$values=$input['values']??[];if(!is_array($values))throw new RuntimeException('invalid');$fields=$this->fields(array_merge($e,array_intersect_key($values,array_flip(['caption','text','date']))));$e=array_merge($e,$fields);if(isset($values['included'])){if(!is_bool($values['included']))throw new RuntimeException('invalid');$e['included']=$values['included'];}if(isset($values['deletedAt']))$e['deletedAt']=(int)round(microtime(true)*1000);break;}unset($e);if(!$found)throw new RuntimeException('missing');
+    $found=false;foreach($entries as &$e){if($e['id']!==($input['id']??''))continue;$found=true;$values=$input['values']??[];if(!is_array($values))throw new RuntimeException('invalid');$fields=$this->fields(array_merge($e,array_intersect_key($values,array_flip(['caption','text','date','time']))));$e=array_merge($e,$fields);if(isset($values['included'])){if(!is_bool($values['included']))throw new RuntimeException('invalid');$e['included']=$values['included'];}if(isset($values['deletedAt']))$e['deletedAt']=(int)round(microtime(true)*1000);break;}unset($e);if(!$found)throw new RuntimeException('missing');
    }elseif($op==='meta'){
     if(array_key_exists('title',$input))$s['meta']['title']=$this->text($input['title'],100);
     if(array_key_exists('coverId',$input)){$valid=$input['coverId']===null;foreach($entries as $e)if($e['id']===$input['coverId']&&$e['type']==='image'&&!isset($e['deletedAt']))$valid=true;if(!$valid)throw new RuntimeException('invalid');$s['meta']['coverId']=$input['coverId'];}
+    if(array_key_exists('visits',$input)){
+     $visits=$input['visits'];if(!is_array($visits)||!array_is_list($visits)||count($visits)>500)throw new RuntimeException('invalid');$clean=[];$seen=[];
+     foreach($visits as $v){if(!is_array($v))throw new RuntimeException('invalid');$id=$this->text($v['id']??'',36);$day=$v['day']??null;$place=$this->text($v['placeId']??'',160);$status=$v['status']??'';
+      if(!preg_match('/^[a-f0-9-]{36}$/D',$id)||isset($seen[$id])||!is_int($day)||!isset($this->route['days'][$day])||!in_array($status,['visited','skipped'],true)||($place!==''&&!isset($this->route['places'][$place])))throw new RuntimeException('invalid');$seen[$id]=true;
+      $fields=$this->fields(['date'=>$v['date']??'','time'=>$v['time']??'','text'=>$v['text']??'']);$label=$this->text($v['label']??'',200);if($label==='')throw new RuntimeException('invalid');
+      $clean[]=['id'=>$id,'day'=>$day,'placeId'=>$place,'status'=>$status,'label'=>$label,'planKey'=>$this->text($v['planKey']??'',220),'date'=>$fields['date'],'time'=>$fields['time'],'text'=>$fields['text']];
+     }$s['meta']['visits']=$clean;
+    }
    }elseif($op==='move'){
     $id=$input['id']??'';$delta=$input['delta']??0;if(!in_array($delta,[-1,1],true))throw new RuntimeException('invalid');$current=null;foreach($entries as $e)if($e['id']===$id&&!isset($e['deletedAt']))$current=$e;if(!$current)throw new RuntimeException('missing');$group=array_values(array_filter($entries,fn($e)=>$e['day']===$current['day']&&!isset($e['deletedAt'])));usort($group,fn($a,$b)=>$a['order']<=>$b['order']?:$a['createdAt']<=>$b['createdAt']?:strcmp($a['id'],$b['id']));$i=array_search($id,array_column($group,'id'));if(isset($group[$i+$delta])){[$group[$i],$group[$i+$delta]]=[$group[$i+$delta],$group[$i]];$orders=array_flip(array_column($group,'id'));foreach($entries as &$e)if(isset($orders[$e['id']]))$e['order']=$orders[$e['id']];unset($e);}
    }elseif($op==='restore'){$idx=null;foreach($entries as $i=>$e)if(isset($e['deletedAt'])&&($idx===null||$e['deletedAt']>$entries[$idx]['deletedAt']))$idx=$i;if($idx!==null){if(count(array_filter($entries,fn($e)=>!isset($e['deletedAt'])))>=self::COUNT)throw new RuntimeException('quota');unset($entries[$idx]['deletedAt']);}}
