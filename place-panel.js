@@ -58,6 +58,7 @@
    for(const action of [...secondary.children]){if(action.matches('a[href*="google.com/maps/dir"]'))primary.append(action);else if(action.matches('[data-place-panel-action="photos"],[data-place-panel-action="videos"],.guide-video-action'))media.append(action);}
    if(personal){primary.insertAdjacentHTML('beforeend',`<button type="button" data-record-visit="${esc(p.id)}">${esc(visitLabels[l])}</button><button type="button" class="canonical-personal-action" data-add-memory="${esc(p.id)}">${icon('camera')}<span>${esc(t.addMemory)}</span></button>`);}
    const nearby=source.querySelector('[data-nearby-here]');if(nearby){const action=nearby.cloneNode(true);action.addEventListener('click',()=>nearby.click());secondary.append(action);}
+   for(const photoAction of [...media.querySelectorAll('[data-place-panel-action=photos]')])primary.append(photoAction);
    if(!media.children.length)media.hidden=true;
    document.body.classList.add('canonical-sheet-open');scrim.hidden=false;scrim.setAttribute('aria-label',sheetCopy[l][2]);
 
