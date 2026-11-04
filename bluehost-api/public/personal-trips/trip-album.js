@@ -72,7 +72,7 @@
   if(target===pageIndex||(direction>0&&pageIndex+pageSize()>=bookPages().length))return;
   const right=(direction>0)===(lang!=='he');
   const sheets=$('spread').children;
-  const source=sheets[pageSize()===1?0:(right?sheets.length-1:0)];
+  const source=sheets[pageSize()===1?0:(direction>0?sheets.length-1:0)];
   const rect=source.getBoundingClientRect(),frame=bookFrame.getBoundingClientRect();
   const leaf=source.cloneNode(true);leaf.classList.add('album-turning-leaf');leaf.setAttribute('aria-hidden','true');leaf.inert=true;
   Object.assign(leaf.style,{left:(rect.left-frame.left)+'px',top:(rect.top-frame.top)+'px',width:rect.width+'px',height:rect.height+'px',transformOrigin:right?'left center':'right center'});
