@@ -23,4 +23,4 @@
 
 .album-pin{width:48px;height:48px}.album-pin>span{display:flex;align-items:center;gap:3px}.album-pin svg{width:22px;height:22px}.album-pin b{font-size:11px}.album-pin-type-0{background:#9a431f}.album-pin-type-1{background:#73502f}.album-pin-type-2{background:#674891}.album-pin-type-3{background:#245d91}.album-pin-type-4{background:#286650}.album-pin-type-5{background:#873d67}
 
-dialog .album-dialog-close{position:absolute;right:12px;top:12px;z-index:2;display:grid;place-items:center;width:44px;height:44px;padding:0;font-size:28px!important;line-height:1;border:0;background:transparent;text-decoration:none}#album-editor header,#album-memory-viewer header,#album-settings>h2{padding-right:44px;min-height:44px} .album-book-frame{overflow:hidden}
+dialog .album-dialog-close{position:absolute;inset-inline-end:12px;top:12px;z-index:2;display:grid;place-items:center;width:44px;height:44px;padding:0;font-size:28px!important;line-height:1;border:0;background:transparent;text-decoration:none}#album-editor header,#album-memory-viewer header,#album-settings>h2{padding-inline-end:44px;min-height:44px} .album-book-frame{overflow:hidden}

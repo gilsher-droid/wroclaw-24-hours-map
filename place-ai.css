@@ -6,5 +6,5 @@
 /* Main actions precede the optional prompt editor on every screen. */
 #place-ai-editor{border-top:1px solid #ddd7cb;margin-top:16px;padding-top:12px}#place-ai-editor summary{cursor:pointer;font-weight:700;min-height:44px;padding:10px 0}#place-ai-name{margin-bottom:8px}.place-ai-dialog #place-ai-services{margin-top:8px}.place-ai-heading{z-index:2}@media(max-width:700px){.place-ai-dialog{width:100%;max-width:none;max-height:92dvh;margin:auto 0 0;border-radius:22px 22px 0 0;padding:16px;padding-bottom:max(16px,env(safe-area-inset-bottom))}.place-ai-heading{top:-16px}.place-ai-dialog #place-ai-services{grid-template-columns:1fr}.place-ai-dialog #place-ai-name{font-size:14px}.place-ai-dialog #place-ai-name div:nth-child(n+3){display:none}.place-ai-dialog #place-ai-services a{min-height:48px}}
 
-/* Consistent close control at the physical top right. */
-.place-ai-heading{position:relative;padding-right:54px;min-height:44px}#place-ai-close{position:absolute;right:0;top:0;width:44px;height:44px;padding:0;font-size:28px}
+/* Close controls follow the interface reading direction. */
+.place-ai-heading{position:relative;padding-inline-end:54px;min-height:44px}#place-ai-close{position:absolute;inset-inline-end:0;top:0;width:44px;height:44px;padding:0;font-size:28px}

@@ -94,5 +94,5 @@
 .guide-video-panel { position: relative; }
 .guide-video-close { float: none; position: absolute; top: 16px; inset-inline-end: 16px; margin: 0; }
 
-/* Consistent close control at the physical top right. */
-.guide-video-close,.guide-video-responsive .guide-video-close{inset-inline-end:auto;left:auto;right:14px;width:44px;height:44px;padding:0;font-size:28px}.guide-video-panel>h2{padding-right:54px}
+/* Close controls follow the interface reading direction. */
+.guide-video-close,.guide-video-responsive .guide-video-close{left:auto;right:auto;inset-inline-end:14px;width:44px;height:44px;padding:0;font-size:28px}.guide-video-panel>h2{padding-inline-end:54px}
