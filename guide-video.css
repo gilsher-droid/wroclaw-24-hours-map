@@ -95,4 +95,4 @@
 .guide-video-close { float: none; position: absolute; top: 16px; inset-inline-end: 16px; margin: 0; }
 
 /* Consistent close control at the physical top right. */
-.guide-video-close,.guide-video-responsive .guide-video-close{right:14px;left:auto;inset-inline-end:auto;width:44px;height:44px;padding:0;font-size:28px}.guide-video-panel>h2{padding-right:54px}
+.guide-video-close,.guide-video-responsive .guide-video-close{inset-inline-end:auto;left:auto;right:14px;width:44px;height:44px;padding:0;font-size:28px}.guide-video-panel>h2{padding-right:54px}
