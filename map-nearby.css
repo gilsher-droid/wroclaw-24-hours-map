@@ -5,5 +5,5 @@
 
 .map-nearby-results [data-selected="true"]{background:#fff6df;border:2px solid #bd9553;border-radius:10px}
 
-/* Consistent close control at the physical top right. */
-.map-nearby-panel>header{position:relative;padding-right:54px;min-height:44px}[data-nb-close]{position:absolute;right:8px;top:8px;min-width:44px;min-height:44px;font-size:28px!important;padding:0!important}
+/* Close controls follow the interface reading direction. */
+.map-nearby-panel>header{position:relative;padding-inline-end:54px;min-height:44px}[data-nb-close]{position:absolute;inset-inline-end:8px;top:8px;min-width:44px;min-height:44px;font-size:28px!important;padding:0!important}
