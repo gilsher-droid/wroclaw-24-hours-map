@@ -42,7 +42,7 @@
   'vegetarian-options':t('מקום מעורב עם אפשרויות צמחוניות','Mixed venue with vegetarian options','Lokal mieszany z opcjami wegetariańskimi','Gemischtes Lokal mit vegetarischen Optionen','Smíšený podnik s vegetariánskými možnostmi')
  };
  const quickCategories={all:t('הכול','All','Wszystko','Alle','Vše'),eat:t('אוכל','Food','Jedzenie','Essen','Jídlo'),coffee:t('קפה','Coffee','Kawa','Kaffee','Káva'),drink:t('ברים ובילוי','Bars and nightlife','Bary i życie nocne','Bars und Nachtleben','Bary a noční život'),museums:t('מוזיאונים','Museums','Muzea','Museen','Muzea'),sights:t('מה לראות','Things to see','Co zobaczyć','Sehenswertes','Co vidět'),
-  parks:t('פארקים וטבע','Parks and nature','Parki i przyroda','Parks und Natur','Parky a příroda'),
+  sleep:t('לינה','Stay','Noclegi','Übernachten','Ubytování'),parks:t('פארקים וטבע','Parks and nature','Parki i przyroda','Parks und Natur','Parky a příroda'),
   waterside:t('ליד המים','By the water','Nad wodą','Am Wasser','U vody'),
   dwarfs:t('גמדים','Dwarfs','Krasnale','Zwerge','Trpaslíci'),
   shopping:t('קניות ושווקים','Shopping and markets','Zakupy i targi','Einkaufen und Märkte','Nákupy a trhy'),
@@ -63,6 +63,7 @@
  function categoryMatch(p,category='all'){
   const c=p.categories||[],types=p.dining?.venueTypes||[],has=values=>values.some(x=>c.includes(x)),kind=values=>values.some(x=>types.includes(x));
   if(category==='all')return true;
+  if(category==='sleep')return has(['sleep','hotel','hotels','hostel','accommodation']);
   if(category==='eat')return has(['eat','food','dessert','restaurant'])||kind(['restaurant','bakery','patisserie','ice-cream','food-hall','market','milk-bar','takeaway']);
   if(category==='coffee')return has(['cafe','coffee'])||kind(['cafe','chocolate-cafe']);
   if(category==='drink')return barPlaces.includes(p.id)||has(['bar','pub','wine-bar','nightlife','beach-bar'])||kind(['bar','wine-bar','pub','beach-bar']);
