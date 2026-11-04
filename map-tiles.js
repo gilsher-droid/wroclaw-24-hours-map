@@ -15,7 +15,7 @@
     window.WROC_MAP_INSTANCES.add(map);
     map.on('unload',()=>window.WROC_MAP_INSTANCES.delete(map));
     if(window.WROC_MAP_NEARBY)window.WROC_MAP_NEARBY.attach(map);
-    else if(scriptBase&&document.head&&!document.querySelector('[data-nearby-map-loader]')){const s=document.createElement('script');s.dataset.nearbyMapLoader='';s.src=new URL('map-nearby.js?v=20261030-explorer',scriptBase).href;document.head.append(s);}
+    else if(scriptBase&&document.head&&!document.querySelector('[data-nearby-map-loader]')){const s=document.createElement('script');s.dataset.nearbyMapLoader='';s.src=new URL('map-nearby.js?v=20261104-nearby-sheet2',scriptBase).href;document.head.append(s);}
     const container = map.getContainer();
     const notice = document.createElement("div");
     notice.className = "wroc-map-availability";
