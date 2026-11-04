@@ -12,7 +12,7 @@
   const cueAt = (cues,time) => cues.find(([start,end])=>time>=start&&time<end)?.[2] || ["","",""];
   const embedUrlFor = (url,lang) => {
     const id=youtubeId(url);if(!id)return null;
-    const params=new URLSearchParams({autoplay:"1",hl:lang,playsinline:"1",rel:"0",cc_load_policy:"1",cc_lang_pref:lang});
+    const params=new URLSearchParams({autoplay:"1",enablejsapi:"1",hl:lang,playsinline:"1",rel:"0",cc_load_policy:"1",cc_lang_pref:lang});
     if(window.location?.origin)params.set("origin",window.location.origin);
     return `https://www.youtube-nocookie.com/embed/${id}?${params}`;
   };

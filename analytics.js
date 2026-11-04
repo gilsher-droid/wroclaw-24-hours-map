@@ -4,8 +4,9 @@
   if (window.WROC_ANALYTICS) return;
 
   const config = window.WROC_ANALYTICS_CONFIG || {};
-  const gaId = /^G-[A-Z0-9]+$/.test(config.ga4MeasurementId || "") ? config.ga4MeasurementId : null;
-  const pixelId = /^\d+$/.test(config.metaPixelId || "") ? config.metaPixelId : null;
+  const testing = new URLSearchParams(location.search).get("analytics_test") === "1";
+  const gaId = !testing && /^G-[A-Z0-9]+$/.test(config.ga4MeasurementId || "") ? config.ga4MeasurementId : null;
+  const pixelId = !testing && /^\d+$/.test(config.metaPixelId || "") ? config.metaPixelId : null;
   const productByPage = Object.freeze({
     "map.html": "wroclaw-24-hours",
     "premium.html": "wroclaw-four-days",
@@ -19,7 +20,40 @@
   const allowedEvents = new Set([
     "interactive_maps_click", "map_open", "place_open", "experience_open",
     "news_ticker_click", "outbound_link_click",
+    "page_view", "place_impression", "photo_open", "photo_view", "video_open", "guide_open",
+    "video_start", "video_progress", "video_complete", "ai_open", "ai_service_click",
+    "nearby_open", "nearby_search", "navigation_click", "social_click", "booking_click",
+    "personal_map_request", "community_submit", "place_save",
   ]);
+  const collector = config.firstPartyEndpoint === "https://api.wroc-love.com/place-events/" ? config.firstPartyEndpoint : null;
+  const publicHost = /^(www\.)?wroc-love\.com$/.test(location.hostname);
+  const query = new URLSearchParams(location.search);
+  let excluded = false;
+  try {
+    if (query.get("analytics_exclude") === "1") sessionStorage.setItem("wroc-analytics-exclude", "1");
+    if (query.get("analytics_exclude") === "0") sessionStorage.removeItem("wroc-analytics-exclude");
+    excluded = sessionStorage.getItem("wroc-analytics-exclude") === "1";
+  } catch (_) { excluded = query.get("analytics_exclude") === "1"; }
+  const queue = [];
+  let flushTimer;
+  function flush() {
+    if (!consent.analytics || excluded) { queue.length = 0; return; }
+    if (!collector || !publicHost || !queue.length || typeof window.fetch !== "function") return;
+    const batch = queue.splice(0, 20);
+    window.fetch(collector, { method: "POST", mode: "cors", credentials: "omit", keepalive: true,
+      headers: { "Content-Type": "text/plain;charset=UTF-8" },
+      body: JSON.stringify({ version: 1, consent: true, test: query.get("analytics_test") === "1", events: batch }),
+    }).catch(() => {});
+  }
+  function collect(event, parameters) {
+    if (!collector || !publicHost || !consent.analytics || excluded) return;
+    const fields = ["canonical_place_id", "canonical_experience_id", "product_id", "site_language", "source_surface", "link_type", "provider", "media_kind", "video_percent", "category", "radius_band", "traffic_source"];
+    const row = { event };
+    for (const key of fields) if (parameters[key] !== undefined) row[key] = parameters[key];
+    queue.push(row);
+    if (queue.length >= 20) flush();
+    else if (!flushTimer && typeof window.setTimeout === "function") flushTimer = window.setTimeout(() => { flushTimer = null; flush(); }, 1000);
+  }
   const consent = { analytics: false, marketing: false };
   const sent = { gaPage: false, gaMap: false, gaPlace: false, pixelPage: false, pixelMap: false };
   const debug = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) && new URLSearchParams(location.search).get("analytics_debug") === "1";
@@ -70,7 +104,10 @@
   }
 
   function context() {
-    return { ...(selectedGuidePlace() ? { canonical_place_id: selectedGuidePlace() } : {}), language: language(), site_language: language(), ...(productId() ? { product_id: productId() } : {}), ...attribution() };
+    const path = location.pathname.split("/").pop();
+    const surface = path === "nearby.html" ? "nearby" : path === "experiences.html" ? "experiences" : path === "personal-trip.html" ? "personal_trip" : productId() ? "map" : "website";
+    const traffic = attribution().utm_source?.toLowerCase();
+    return { ...(selectedGuidePlace() ? { canonical_place_id: selectedGuidePlace() } : {}), language: language(), site_language: language(), source_surface: surface, traffic_source: ["facebook", "instagram", "google", "bing", "youtube"].includes(traffic) ? traffic : traffic ? "other" : "direct", ...(productId() ? { product_id: productId() } : {}), ...attribution() };
   }
 
   function safePageLocation() {
@@ -118,19 +155,20 @@
   }
 
   function emitInitialEvents() {
+    if (excluded) return;
     const base = context();
-    if (consent.analytics && gaId) {
-      loadGa();
+    if (consent.analytics && (gaId || collector)) {
+      if (gaId) loadGa();
       if (!sent.gaPage) {
-        window.gtag("event", "page_view", { ...base, page_location: safePageLocation(), send_to: gaId });
+        track("page_view", { page_location: safePageLocation() });
         sent.gaPage = true;
       }
-      if (base.product_id && !sent.gaMap) {
-        window.gtag("event", "map_open", { ...base, send_to: gaId });
+      if ((base.product_id || ["nearby", "experiences"].includes(base.source_surface)) && !sent.gaMap) {
+        track("map_open");
         sent.gaMap = true;
       }
       if (selectedGuidePlace() && !sent.gaPlace) {
-        window.gtag("event", "place_open", { ...base, canonical_place_id: selectedGuidePlace(), source_surface: "guided_map_deeplink", send_to: gaId });
+        track("place_open", { canonical_place_id: selectedGuidePlace(), source_surface: "guided_map_deeplink" });
         sent.gaPlace = true;
       }
     }
@@ -149,6 +187,7 @@
     const previous = { ...consent };
     consent.analytics = next.analytics === true;
     consent.marketing = next.marketing === true;
+    if (!consent.analytics) queue.length = 0;
     if (gaLoaded) window.gtag("consent", "update", { analytics_storage: consent.analytics ? "granted" : "denied" });
     if (pixelLoaded) window.fbq("consent", consent.marketing ? "grant" : "revoke");
     if ((previous.analytics && !consent.analytics) || (previous.marketing && !consent.marketing)) {
@@ -168,14 +207,16 @@
       }
     }
     emitInitialEvents();
+    if (typeof window.dispatchEvent === "function" && typeof CustomEvent === "function") window.dispatchEvent(new CustomEvent("wroc:analytics-consent"));
   }
 
   function track(eventName, parameters = {}) {
-    if (!allowedEvents.has(eventName)) return false;
+    if (excluded || !allowedEvents.has(eventName)) return false;
     const safe = {};
     for (const [key, value] of Object.entries(parameters)) {
-      if (/^[a-z][a-z0-9_]*$/.test(key) && (typeof value === "string" || typeof value === "number")) safe[key] = String(value).slice(0, 100);
+      if (/^(canonical_place_id|canonical_experience_id|product_id|target_product|source_surface|destination_domain|link_type|news_id|category|related_canonical_place_id|related_canonical_experience_id|provider|media_kind|video_percent|radius_band|page_location)$/.test(key) && (typeof value === "string" || typeof value === "number")) safe[key] = String(value).slice(0, key === "page_location" ? 2000 : 100);
     }
+    collect(eventName, { ...context(), ...safe });
     if (consent.analytics && gaId) {
       loadGa();
       window.gtag("event", eventName, { ...context(), ...safe, send_to: gaId });
@@ -210,8 +251,11 @@
     track("outbound_link_click", {
       destination_domain: domain,
       link_type: social ? "social" : /(^|\.)(google\.com|maps\.app\.goo\.gl)$/.test(domain) ? "navigation" : "official_site",
-      canonical_place_id: link.closest("[data-canonical-place-id]")?.dataset.canonicalPlaceId || link.closest("[data-place]")?.dataset.place || "",
+      canonical_place_id: window.WROC_TELEMETRY?.placeFor(link) || link.closest("[data-canonical-place-id]")?.dataset.canonicalPlaceId || link.closest("[data-place]")?.dataset.place || "",
     });
+    const canonical = window.WROC_TELEMETRY?.placeFor(link);
+    const kind = social ? "social_click" : /(^|\.)(google\.com|maps\.app\.goo\.gl|maps\.apple\.com)$/.test(domain) ? "navigation_click" : /(^|\.)(booking\.com|getyourguide\.com|tiqets\.com|ticketmaster\.[a-z.]+)$/.test(domain) ? "booking_click" : null;
+    if (kind) track(kind, { canonical_place_id: canonical || "", provider: social ? domain.includes("instagram") ? "instagram" : "facebook" : "", link_type: kind.replace("_click", "") });
   }
 
   document.addEventListener("click", (event) => {
@@ -219,7 +263,8 @@
     if (link) trackLink(link);
   }, true);
 
-  window.WROC_ANALYTICS = Object.freeze({ setConsent, track, context, status: () => ({ ...consent, gaConfigured: Boolean(gaId), pixelConfigured: Boolean(pixelId) }) });
+  window.addEventListener?.("pagehide", flush);
+  window.WROC_ANALYTICS = Object.freeze({ setConsent, track, context, flush, status: () => ({ ...consent, excluded, gaConfigured: Boolean(gaId), pixelConfigured: Boolean(pixelId) }) });
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", emitInitialEvents, { once: true });
   else emitInitialEvents();
 })();

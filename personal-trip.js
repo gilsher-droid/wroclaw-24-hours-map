@@ -117,6 +117,7 @@
       const response = await fetch('https://api.wroc-love.com/trip-requests/index.php', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload), credentials: 'omit', signal: AbortSignal.timeout(20000) });
       let result; try { result = await response.json(); } catch { throw new Error('error'); }
       if (!response.ok || result.accepted !== true || !/^WL-[A-F0-9]{12}$/.test(result.reference || '')) throw new Error(response.status === 429 ? 'rateLimit' : response.status === 503 ? 'serverUnavailable' : 'error');
+      window.WROC_ANALYTICS?.track('personal_map_request',{source_surface:'personal_trip'});
       form.hidden = true; const success = document.querySelector('#success'); success.hidden = false;
       document.querySelector('#request-reference').textContent = result.reference; success.focus();
     } catch (error) { status.textContent = text(copies[language][error.message] ? error.message : 'error'); }

@@ -86,7 +86,7 @@
     }
     actions.push(window.WROC_GUIDE_VIDEO?.button(location.canonicalPlaceId || location.id, currentLanguage, "resource-icon") || "");
     actions.push(window.WROC_PLACE_AI?.button(location,currentLanguage,"resource-icon")||"");
-    return `<div class="resource-actions" aria-label="${escapeHtml(location.name[currentLanguage])}">${actions.join("")}</div>`;
+    return `<div class="resource-actions" data-canonical-place-id="${escapeHtml(place?.id||location.id)}" aria-label="${escapeHtml(location.name[currentLanguage])}">${actions.join("")}</div>`;
   }
 
   function updateDocumentLanguage() {
