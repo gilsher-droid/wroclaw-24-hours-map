@@ -39,7 +39,7 @@
   if(!ctx||!texts[ctx.language]||typeof ctx.name!=='string')return;
   if(!dialog)create();if(dialog.open)return;
   active=ctx;trigger=source;const t=texts[ctx.language],get=id=>dialog.querySelector('#place-ai-'+id);
-  dialog.lang=ctx.language;dialog.dir=ctx.language==='he'?'rtl':'ltr';get('title').textContent=t.title;get('close').textContent=t.close;
+  dialog.lang=ctx.language;dialog.dir=ctx.language==='he'?'rtl':'ltr';get('title').textContent=t.title;get('close').textContent='×';get('close').setAttribute('aria-label',t.close);
   get('name').replaceChildren(...[ctx.name,ctx.localName,ctx.city].filter((v,i,a)=>v&&a.indexOf(v)===i).map(v=>{const line=document.createElement('div');line.textContent=v;line.dir='auto';return line;}));
   get('chatgpt').textContent=t.chatgptLabel;get('chatgpt-help').textContent=t.chatgptHelp;get('gemini').textContent=t.geminiLabel;get('gemini-help').textContent=t.geminiHelp;get('help').textContent=t.help;get('preset-label').textContent=t.preset;get('preset').replaceChildren(...t.options.map((label,i)=>{const o=document.createElement('option');o.value=String(i);o.textContent=label;return o;}));
   get('question-label').textContent=t.question;get('question').value=model.prompt(ctx);get('question').dir=dialog.dir;get('copy').textContent=t.copy;get('copy').disabled=false;get('status').textContent='';get('services').setAttribute('aria-label',t.services);get('privacy').textContent=t.privacy;get('notice').textContent=t.notice;updateDestination();

@@ -2,3 +2,6 @@
 
 /* Keep the two external actions equally prominent and explain each step. */
 .place-ai-dialog #place-ai-services{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;direction:inherit;margin-top:18px}.place-ai-service{min-width:0;border:1px solid #d9d4c8;border-radius:14px;padding:12px;background:#fff}.place-ai-dialog #place-ai-services a{display:flex;align-items:center;justify-content:center;min-height:48px;box-sizing:border-box;background:#082c59;border-color:#082c59;color:#fff;text-align:center;font-weight:700;line-height:1.45}.place-ai-dialog .place-ai-service p{margin:9px 0 0;font-size:13px;color:#52647a;line-height:1.5}.place-ai-dialog #place-ai-copy{background:transparent;color:#082c59;border-color:transparent;text-decoration:underline;font-size:13px;padding:6px 2px;min-height:44px}.place-ai-heading{position:sticky;top:-24px;background:#fffdf8;z-index:1;padding:8px 0}.place-ai-dialog #place-ai-services a[aria-disabled="true"]{opacity:.5;cursor:default}@media(max-width:520px){.place-ai-dialog #place-ai-services{grid-template-columns:1fr;gap:10px}.place-ai-service{padding:10px}.place-ai-heading{top:-18px}}
+
+/* Consistent close control at the physical top right. */
+.place-ai-heading{position:relative;padding-right:54px;min-height:44px}#place-ai-close{position:absolute;right:0;top:0;width:44px;height:44px;padding:0;font-size:28px}

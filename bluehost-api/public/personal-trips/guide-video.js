@@ -30,7 +30,7 @@
     }
     dialog.classList.remove("guide-video-responsive","guide-video-expanded");
     dialog.querySelector("h2").textContent=title;
-    dialog.querySelector(".guide-video-close").textContent=closeLabels[lang]||closeLabels.en;
+    dialog.querySelector(".guide-video-close").textContent="×";dialog.querySelector(".guide-video-close").setAttribute("aria-label",closeLabels[lang]||closeLabels.en);
     return dialog;
   }
   function openYouTubeVideo(url,title,lang){
