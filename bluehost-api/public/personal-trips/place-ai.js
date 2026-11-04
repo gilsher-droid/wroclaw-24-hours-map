@@ -13,8 +13,8 @@
   const contributionLabels={"he": ["להציע תוכן", "תוכן המטיילים"], "en": ["Offer content", "Traveller contributions"], "pl": ["Zaproponuj treść", "Treści podróżnych"], "de": ["Inhalte vorschlagen", "Beiträge von Reisenden"], "cs": ["Navrhnout obsah", "Příspěvky cestovatelů"]};
   const communityBase=typeof location!=='undefined'&&location.hostname==='api.wroc-love.com'?'?action=community&':'/community.html?';
   const communityQuery='place='+encodeURIComponent(ctx.id)+'&lang='+ctx.language;
-  const communityLinks=contributionLabels[ctx.language].map((label,i)=>`<a class="community-place-link" href="${communityBase+communityQuery+(i?'&view=public':'')}" target="_blank" rel="noopener noreferrer">${label}</a>`).join('');
-  return `<button type="button" class="place-ai-trigger ${esc(className)}" data-place-ai="${esc(JSON.stringify(ctx))}" aria-haspopup="dialog"><span aria-hidden="true" style="font-size:16px;margin-inline-end:6px">✨</span><span>${texts[ctx.language].button}</span></button>`+communityLinks;
+  window.WROC_COMMUNITY_AVAILABILITY?.load();const communityLinks=contributionLabels[ctx.language].map((label,i)=>`<a class="community-place-link" ${i?`data-community-place="${esc(ctx.id)}" ${window.WROC_COMMUNITY_AVAILABILITY?.has(ctx.id)?'':'hidden style="display:none"'}`:''} href="${communityBase+communityQuery+(i?'&view=public':'')}" target="_blank" rel="noopener noreferrer">${label}</a>`).join('');
+  return `<button type="button" class="place-ai-trigger ${esc(className)}" data-place-ai="${esc(JSON.stringify(ctx))}" aria-haspopup="dialog"><span>${texts[ctx.language].button}</span></button>`+communityLinks;
  }
  function chatgptUrl(question){return 'https://chatgpt.com/?q='+encodeURIComponent(String(question).trim());}
  let dialog,trigger,oldOverflow,active;

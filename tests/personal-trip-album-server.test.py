@@ -72,7 +72,7 @@ class PrivateAlbum(unittest.TestCase):
   status,raw,h=self.req(self.client,'?action=album-export');self.assertEqual(status,200)
   with zipfile.ZipFile(io.BytesIO(raw)) as z:self.assertIn(e['id'],z.read('album.json').decode());self.assertIn('README.txt',z.namelist())
  def test_06_persist_new_session_and_no_direct_private_files(self):
-  self.call('meta',{'title':'Cross device title'});fresh=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));fresh_csrf=self.login(fresh,'alice');self.assertEqual(self.call('list',client=fresh,csrf=fresh_csrf)[1]['meta']['title'],'Cross device title')
+  self.call('meta',{'title':'Cross device title','displayLanguage':'en'});fresh=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));fresh_csrf=self.login(fresh,'alice');self.assertEqual(self.call('list',client=fresh,csrf=fresh_csrf)[1]['meta']['title'],'Cross device title');self.assertEqual(self.call('list',client=fresh,csrf=fresh_csrf)[1]['meta']['displayLanguage'],'en');self.assertEqual(self.call('meta',{'displayLanguage':'not-supported'})[0],400)
   self.assertEqual(self.req(fresh,'../personal-trips-private/server-key')[0],404)
  def test_07_validation_and_readonly_methods(self):
   self.assertEqual(self.call('add',self.entry(text='x'*5001))[0],400)

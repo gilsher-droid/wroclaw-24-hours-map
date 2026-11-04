@@ -335,7 +335,7 @@
     (journeyMode ? excursion.departurePlaceIds || [] : []).forEach((id,index)=>{
       const canonical=place(id), coordinate=canonical?.location?.coordinates;
       if(!coordinate) return;
-      const marker=L.marker([coordinate.lat,coordinate.lng], {title:local(canonical.name),icon:L.divIcon({className:"route-marker departure-marker",html:`<span>W${index+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]})}).addTo(map).bindPopup(placePopup(canonical,local(canonical.name),coordinate),{maxWidth:320}).on("popupopen",()=>trackPlaceOpen(canonical));
+      const marker=L.marker([coordinate.lat,coordinate.lng], {title:local(canonical.name),icon:L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({className:"route-marker departure-marker",html:`<span>W${index+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]},canonical,language))}).addTo(map).bindPopup(placePopup(canonical,local(canonical.name),coordinate),{maxWidth:320}).on("popupopen",()=>trackPlaceOpen(canonical));
       registerMapStop(`departure-${id}`,map,marker,coordinate,canonical,local(canonical.name),"excursion-map");
     });
     const isPoznan = usesChoiceMap(excursion);
@@ -353,7 +353,7 @@
       const icon = isPoznan
         ? { className: "route-marker optional-marker poznan-choice-marker", html: `<span aria-hidden="true" style="--choice-color:${optionalSymbols[group].color}">${optionalSymbol(group)}</span>`, iconSize: [34,34], iconAnchor: [17,17] }
         : { className: "route-marker optional-marker", html: `<span>+${index+1}</span>`, iconSize: [42,50], iconAnchor: [21,48] };
-      const marker = L.marker([coordinate.lat, coordinate.lng], { title: local(canonical.name), icon: L.divIcon(icon) }).bindPopup(placePopup(canonical, local(canonical.name), coordinate), { maxWidth:320 }).on("popupopen", () => trackPlaceOpen(canonical));
+      const marker = L.marker([coordinate.lat, coordinate.lng], { title: local(canonical.name), icon: L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon(icon,canonical,language)) }).bindPopup(placePopup(canonical, local(canonical.name), coordinate), { maxWidth:320 }).on("popupopen", () => trackPlaceOpen(canonical));
       if (isPoznan) optionalMarkers.push({marker, group, coordinate});
       if (!isPoznan) optionalLayer.addLayer(marker);
       registerMapStop(`optional-${id}`, map, marker, coordinate, canonical, local(canonical.name), "excursion-map");
@@ -634,7 +634,7 @@
     for(const walk of walks){const section=document.createElement('section');section.className='excursion-city-walk';const mapId='city-walk-'+walk.id,items=walk.canonicalPlaceIds.map(place).filter(Boolean),points=items.map(p=>p.location.coordinates),nav=`https://www.google.com/maps/dir/?api=1&origin=${points[0].lat},${points[0].lng}&destination=${points.at(-1).lat},${points.at(-1).lng}&waypoints=${encodeURIComponent(points.slice(1,-1).map(c=>c.lat+','+c.lng).join('|'))}&travelmode=walking`;
     section.innerHTML=`<h2>${escapeHtml(local(walk.title))}</h2><p>${escapeHtml(local(walk.summary))}</p><div class="city-walk-map" id="${mapId}"></div><p>${escapeHtml(local(walk.note))}</p><a class="button" href="${nav}" target="_blank" rel="noopener">${tripUi[language].walkingDirections}</a><ol class="city-walk-order">${items.map((p,i)=>`<li>${focusMapButton(`data-map-point="city-${walk.id}-${i}"`)} <strong>${escapeHtml(local(p.name))}</strong></li>`).join('')}</ol><div class="places-grid">${placeCards(walk.canonicalPlaceIds.filter(id=>!excursion.canonicalPlaceIds.includes(id)))}</div>`;host.append(section);
     const m=L.map(mapId,{scrollWheelZoom:false});additionalCityMaps.push(m);window.WROC_MAP_TILES.addTo(m);L.polyline(points,{color:'#ad742b',weight:3,dashArray:'6 6'}).addTo(m);
-    items.forEach((p,i)=>{const c=p.location.coordinates,marker=L.marker(c,{title:local(p.name),icon:L.divIcon({className:'route-marker',html:`<span>${i+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]})}).addTo(m).bindPopup(placePopup(p,local(p.name),c),{maxWidth:330});registerMapStop(`city-${walk.id}-${i}`,m,marker,c,p,local(p.name),mapId);});m.fitBounds(points,{padding:[35,35],maxZoom:16});
+    items.forEach((p,i)=>{const c=p.location.coordinates,marker=L.marker(c,{title:local(p.name),icon:L.divIcon(window.WROC_GUIDE_VIDEO.decorateIcon({className:'route-marker',html:`<span>${i+1}</span>`,iconSize:[42,50],iconAnchor:[21,48]},p,language))}).addTo(m).bindPopup(placePopup(p,local(p.name),c),{maxWidth:330});registerMapStop(`city-${walk.id}-${i}`,m,marker,c,p,local(p.name),mapId);});m.fitBounds(points,{padding:[35,35],maxZoom:16});
     }
   }
 

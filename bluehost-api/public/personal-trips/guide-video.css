@@ -96,3 +96,9 @@
 
 /* Close controls follow the interface reading direction. */
 .guide-video-close,.guide-video-responsive .guide-video-close{left:auto;right:auto;inset-inline-end:14px;width:44px;height:44px;padding:0;font-size:28px}.guide-video-panel>h2{padding-inline-end:54px}
+
+.wroc-typed-icon{position:relative}.wroc-type-badge{position:absolute;right:-9px;top:-8px;display:grid;place-items:center;width:23px;height:23px;border:2px solid white;border-radius:50%;color:white;box-shadow:0 2px 5px #082c5945;z-index:2}.wroc-type-badge svg{width:16px;height:16px}.wroc-type-0{background:#9a431f}.wroc-type-1{background:#73502f}.wroc-type-2{background:#674891}.wroc-type-3{background:#245d91}.wroc-type-4{background:#286650}.wroc-type-5{background:#873d67}.wroc-basic-pin{display:grid;place-items:center;width:34px;height:34px;border:2px solid white;border-radius:50%;background:#082c59;color:white;font-weight:bold;box-shadow:0 2px 6px #082c5945}
+
+.wroc-type-main{display:grid;place-items:center;color:white}.wroc-type-main svg{width:22px;height:22px}
+
+.nearby-pin:not(.selected){background:var(--wroc-type-color,#082c59)}
