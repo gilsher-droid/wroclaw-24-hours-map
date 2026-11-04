@@ -86,7 +86,8 @@ class PrivateAlbum(unittest.TestCase):
   self.assertEqual(self.call('add',self.entry(time='09:99'))[0],400)
   self.assertEqual(self.call('patch',{'id':e['id'],'values':{'time':''}})[0],200)
   visit={'id':str(uuid.uuid4()),'day':0,'placeId':'','label':'Unplanned breakfast','status':'visited','date':'2026-10-22','time':'11:00','text':'Changed our plan','planKey':''}
-  self.assertEqual(self.call('meta',{'visits':[visit]})[0],200)
+  old=self.v;self.assertEqual(self.call('meta',{'visits':[visit]})[0],200)
+  self.assertEqual(self.call('meta',{'visits':[]},version=old)[0],409)
   _,state,_=self.call('list');self.assertEqual(state['meta']['visits'][0]['label'],'Unplanned breakfast');self.assertEqual(state['meta']['visits'][0]['time'],'11:00')
   for invalid in [dict(visit,time='25:00'),dict(visit,day=999),dict(visit,placeId='not-assigned'),dict(visit,status='unknown'),dict(visit,date='2026-02-31')]:self.assertEqual(self.call('meta',{'visits':[invalid]})[0],400)
   self.assertEqual(self.call('meta',{'visits':[dict(visit,status='skipped',placeId='rynek',planKey='0:0:rynek')]})[0],200)
