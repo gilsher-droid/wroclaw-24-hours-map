@@ -92,9 +92,17 @@
     actionHost(header).prepend(nav);
   }
 
+  const radarNames={he:'מה סביבי?',en:'What is nearby?',pl:'Co jest w pobliżu?',de:'Was ist in der Nähe?',cs:'Co je v okolí?'};
+  function addRadarEntry(host){
+    if(!host||host.querySelector('[data-nearby-radar]'))return;
+    const link=document.createElement('a');link.className='site-nearby-radar';link.dataset.nearbyRadar='';
+    link.innerHTML='<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="13"/><circle cx="16" cy="16" r="8"/><circle cx="16" cy="16" r="3"/><g class="radar-sweep"><path d="M16 16V3M16 16L25 7"/><path class="radar-sector" d="M16 16V3A13 13 0 0 1 25.2 6.8Z"/></g><circle class="radar-dot" cx="10" cy="10" r="1.6"/></svg><span data-radar-label></span>';
+    const experiences=host.querySelector('[data-experiences-link]');if(experiences)experiences.before(link);else host.append(link);
+  }
   function addExperienceEntry(){
     const host=document.querySelector('.site-product-navigation')||document.querySelector('.site-header > nav');
     if(host&&!host.querySelector('[data-experiences-link]')){const a=document.createElement('a');a.className='site-how-link';a.dataset.experiencesLink='';host.append(a);}
+    addRadarEntry(host);
     const menu=document.querySelector('.products-menu-panel');
     if(menu)for(const link of menu.querySelectorAll('a[href*="lifestyle.html"],a[href*="guides.html"]'))link.remove();
   }
@@ -148,6 +156,7 @@
   function refreshLanguage() {
     const lang = language();
     const personal = personalCopy[lang];
+    document.querySelectorAll('[data-nearby-radar]').forEach(el=>{el.href='/nearby.html?lang='+lang;el.querySelector('[data-radar-label]').textContent=radarNames[lang];});
     document.querySelectorAll("[data-community-menu]").forEach(el=>{el.href="/community.html?lang="+lang;el.textContent=communityNames[lang];});
     document.querySelectorAll('[data-experiences-link]').forEach(el=>{el.href='/?lang='+lang+'#experiences';el.textContent=experienceNames[lang];});
     document.querySelectorAll('[data-personal-copy]').forEach(el => { el.textContent = personal[Number(el.dataset.personalCopy)]; });
