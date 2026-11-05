@@ -25,7 +25,9 @@ class PrivateAlbum(unittest.TestCase):
    except Exception:time.sleep(.1)
  @classmethod
  def tearDownClass(cls):cls.server.terminate();cls.server.wait();cls.log.close();cls.tmp.cleanup()
- def setUp(self):self.client=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));self.csrf=self.login(self.client,'alice');self.state=self.call('list')[1];self.v=self.state['version']
+ def setUp(self):
+  for rate in (self.private/'rate').glob('*.json'):rate.unlink()
+  self.client=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));self.csrf=self.login(self.client,'alice');self.state=self.call('list')[1];self.v=self.state['version']
  def req(self,client,url,body=None,headers=None,method=None):
   request=urllib.request.Request(self.base+url,data=body,headers=headers or {},method=method)
   try:r=client.open(request)
@@ -37,6 +39,16 @@ class PrivateAlbum(unittest.TestCase):
   status,page,_=self.req(c,'?action=login',urlencode({'csrf':token,'username':name,'password':'synthetic-only'}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})
   assert status==200
   return re.search(b'name="csrf-token" content="([^"]+)"',page)[1].decode()
+ def test_legacy_delivery_opens_unified_workspace(self):
+  response=self.client.open(self.base+'?lang=he')
+  self.assertIn('action=album',response.geturl())
+  self.assertIn('view=map',response.geturl())
+  self.assertIn('lang=he',response.geturl())
+  page=response.read().decode()
+  self.assertIn('album-map-tab',page)
+  self.assertIn('album-journal-tab',page)
+  self.assertIn('album-book-tab',page)
+  self.assertNotIn('class="album-entry"',page)
  def call(self,action,data=None,file=None,csrf=None,version=None,client=None):
   body=None;headers={'X-CSRF-Token':csrf if csrf is not None else self.csrf}
   if data is not None:
