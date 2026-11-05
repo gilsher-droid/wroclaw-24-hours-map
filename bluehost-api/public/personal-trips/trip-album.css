@@ -40,3 +40,67 @@ dialog .album-dialog-close{position:absolute;inset-inline-end:12px;top:12px;z-in
 .album-print-video-placeholder{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-height:120px;background:#f1ede4;border:1px solid #d6c49f;padding:18px;text-align:center}.album-print-video-placeholder svg{width:40px;height:40px}.album-print-video-hint{display:block;font-size:10px}.album-print-video-link{display:inline-block;font-size:11px;margin:5px 0}.album-print-video-label{font-weight:bold}.album-print-story h3{font-size:14pt;margin-bottom:3mm}@media print{@page{size:A4 portrait;margin:12mm}#album-print .album-event-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8mm}#album-print .album-event-grid img{height:70mm;max-height:70mm;width:100%;object-fit:contain;margin:0}#album-print .album-event-grid figcaption{font-size:11pt;line-height:1.5;white-space:pre-wrap}#album-print .album-event-grid figure{break-inside:avoid}#album-print h2,#album-print h3{break-after:avoid}#album-print p{orphans:3;widows:3}#album-print .album-print-story{break-inside:auto;margin-top:7mm}#album-print .album-print-video-placeholder{min-height:50mm}#album-print .album-print-video-link::after{content:none!important}#album-print video,#album-print iframe{display:none!important}#album-print .album-sheet-back-cover{display:flex;min-height:235mm;background:white;color:#14233c;border:1pt solid #bd965a;padding:15mm;text-align:center;justify-content:center;align-items:center}#album-print .album-sheet-back-cover .album-kicker,#album-print .album-sheet-back-cover .album-ending-mark{color:#8b682d}}
 
 #album-display-language{width:100%;min-height:44px;border:1px solid #bfccd7;border-radius:10px;background:white;padding:10px;color:var(--album-navy)}
+
+/* Compact, illustrated personal-trip workspace. Keep map helper UI inside its canvas. */
+.album-header,#album-main{max-width:1440px;padding:16px 24px}
+.album-header{gap:12px;padding-block:12px}
+.album-privacy-note{margin:0 0 12px;padding:9px 14px;border:1px solid #e1d4b9;border-radius:12px;background:#f4eddc;font-size:12px}
+.album-privacy-note summary{cursor:pointer;font-weight:bold;color:#725525}
+.album-privacy-note p{margin:10px 0 2px;max-width:1000px}
+.album-toolbar{padding-bottom:10px;gap:12px}
+.album-tabs{background:#e8edf0;gap:5px;border:1px solid #d6dfe5}
+.album-tabs button{padding:9px 18px;border-radius:11px;transition:background .15s,box-shadow .15s}
+.album-tabs button[data-view=map]{background:#e0edf6;color:#123e64}
+.album-tabs button[data-view=journal]{background:#dceee5;color:#215c49}
+.album-tabs button[data-view=book]{background:#ede3f2;color:#68447b}
+.album-tabs button[aria-selected=true]{background:var(--album-navy);color:white;box-shadow:0 3px 8px #082c5925}
+.album-tabs button[data-view=journal][aria-selected=true]{background:#286650}
+.album-tabs button[data-view=book][aria-selected=true]{background:#674891}
+.album-export-actions{gap:8px}.album-export-actions button,.album-export-actions a{font-size:12px;padding:7px 12px;min-height:40px}
+.album-save-line{min-height:0;padding:6px 0;font-size:12px}
+.album-save-line:has(#album-status[data-key=localStatus]):not(:has(#album-undo:not([hidden]))),.album-save-line:has(#album-status:empty):not(:has(#album-undo:not([hidden]))){display:none}
+.album-save-line:has([data-error=true]){padding:10px;border-radius:10px;background:#fff0eb}
+body[data-album-view=map] .album-intro{grid-template-columns:minmax(0,1fr) 170px;gap:24px;padding:8px 0 18px}
+body[data-album-view=map] .album-intro h1{font-size:clamp(24px,2.5vw,34px);line-height:1.18;margin-bottom:8px}
+body[data-album-view=map] .album-kicker{margin-bottom:5px;font-size:11px}
+body[data-album-view=map] .album-lead{font-size:15px;margin:6px 0}
+body[data-album-view=map] .album-intro-photo img{height:104px;transform:none;border-radius:14px;background:#eee5d4}
+body[data-album-view=map] .album-intro-photo span{display:none}
+.album-map-heading{justify-content:flex-start;gap:16px;margin:12px 0;align-items:center;flex-wrap:wrap}
+.album-map-heading p{font-size:12px;margin:0;max-width:580px}
+.album-map-heading .album-day-buttons{margin:0;gap:7px;width:auto}
+.album-day-buttons button{border:1px solid #b8ccc9;background:#e6f0e9;color:#234f42;min-width:78px;box-shadow:0 2px 5px #082c5908}
+.album-day-buttons button:nth-child(3n+2){background:#f7eacf;border-color:#dbc69c;color:#715424}
+.album-day-buttons button:nth-child(3n){background:#ece5f3;border-color:#d1c0df;color:#654879}
+.album-day-buttons button[aria-pressed=true]{background:var(--album-navy);color:white;border-color:var(--album-navy);box-shadow:0 3px 9px #082c5928}
+.album-map-layout{grid-template-columns:minmax(0,1fr) minmax(290px,360px);gap:18px;align-items:start}
+.album-map-canvas{position:sticky;top:14px;min-width:0}
+#album-map{height:clamp(460px,68dvh,660px);border-color:#bd965a;border-radius:18px;box-shadow:0 8px 24px #082c5912}
+.album-map-canvas .wroc-map-availability:not([data-state=unavailable]){position:absolute;inset-inline-end:12px;bottom:12px;z-index:500;padding:0;border-radius:50%;background:#fffffff0;box-shadow:0 2px 8px #082c5920}
+.album-map-canvas .wroc-map-availability:not([data-state=unavailable]) button{width:34px;min-height:34px;padding:0;text-align:center;font-size:0;text-decoration:none}
+.album-map-canvas .wroc-map-availability:not([data-state=unavailable]) button:before{content:'?';font-size:17px;font-weight:bold}
+.album-route-panel{min-width:0;background:#fffdf9;border:1px solid #d9caaa;border-radius:18px;padding:16px;box-shadow:0 6px 18px #082c5908;max-height:clamp(460px,68dvh,660px);overflow:auto;scrollbar-width:thin;scrollbar-color:#bd965a #f4efe4}
+.album-route-panel>h2{font-size:17px;margin:0 0 10px;color:#725525}
+.album-route-intro h3{font-size:19px;line-height:1.35;margin:0 0 6px}
+.album-route-intro p{font-size:12px;line-height:1.65;color:var(--album-muted);margin:0 0 12px}
+.album-route-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.album-route-stop{--stop-color:#286650;--stop-wash:#e9f3ee;border:1px solid #dce6df;border-inline-start:4px solid var(--stop-color);border-radius:12px;background:white;overflow:hidden;transition:border-color .15s,box-shadow .15s}
+.album-route-stop[data-kind='0']{--stop-color:#9a431f;--stop-wash:#fff0e7}.album-route-stop[data-kind='1']{--stop-color:#73502f;--stop-wash:#f6eddf}.album-route-stop[data-kind='2']{--stop-color:#674891;--stop-wash:#f0eaf7}.album-route-stop[data-kind='3']{--stop-color:#245d91;--stop-wash:#e8f1fa}.album-route-stop[data-kind='5']{--stop-color:#873d67;--stop-wash:#f7e9f0}
+.album-route-place{display:flex;align-items:center;gap:10px;width:100%;text-align:start;border:0;border-radius:0;padding:10px;background:var(--stop-wash)}
+.album-route-place img{width:60px;height:60px;object-fit:cover;flex-shrink:0;border-radius:9px;border:2px solid white;box-shadow:0 1px 5px #082c5920}
+.album-route-label{display:block;min-width:0;flex:1}.album-route-label strong{display:block;font-size:14px;line-height:1.35}.album-route-label small{display:block;color:var(--stop-color);font-size:11px;margin-top:4px}
+.album-route-number{display:grid;place-items:center;flex-shrink:0;width:23px;height:23px;border-radius:50%;background:var(--stop-color);color:white;font-size:11px;font-weight:bold}
+.album-route-note{font-size:12px;line-height:1.65;margin:0;padding:9px 11px;color:#4e6073;white-space:pre-line}
+.album-route-notes{margin-top:14px;border-top:1px solid #e6dccb;padding-top:6px;font-size:12px;color:var(--album-muted)}
+.album-route-stop.is-selected{border-color:#bd965a;box-shadow:0 0 0 2px #bd965a55}.album-route-place:hover{filter:brightness(.97)}
+.album-pin{position:relative;display:block;width:56px;height:60px;transform:none;border-radius:14px 14px 18px 18px;border:3px solid white;box-shadow:0 3px 9px #082c5960;overflow:visible}
+.album-pin:after{content:'';position:absolute;z-index:-1;width:12px;height:12px;background:inherit;bottom:-6px;left:19px;transform:rotate(45deg)}
+.album-pin>img{display:block;width:100%;height:100%;object-fit:cover;border-radius:10px 10px 14px 14px}
+.album-pin .album-pin-badge{position:absolute;bottom:1px;left:1px;width:23px;height:23px;border-radius:50%;background:inherit;transform:none;display:grid;place-items:center;background:#082c59e8}
+.album-pin-badge svg{width:16px;height:16px}.album-pin .album-pin-number{position:absolute;bottom:1px;right:1px;background:#fff;color:#082c59;width:21px;height:21px;border-radius:50%;display:grid;place-items:center;font-size:11px}
+.album-marker.is-selected .album-pin{outline:3px solid #e8b54b;outline-offset:2px;box-shadow:0 4px 15px #082c5980}
+@media(max-width:1000px) and (min-width:761px){.album-map-layout{grid-template-columns:minmax(0,1fr) 300px}.album-header,#album-main{padding-inline:18px}}
+@media(max-width:760px){.album-header,#album-main{padding-inline:14px}.album-header{padding-block:10px}.album-header button{font-size:12px;min-height:40px;padding:7px 10px}body[data-album-view=map] .album-intro{grid-template-columns:minmax(0,1fr) 78px;gap:12px;padding:4px 0 12px}body[data-album-view=map] .album-intro h1{font-size:23px}body[data-album-view=map] .album-intro-photo img{height:85px}body[data-album-view=map] .album-lead{font-size:13px}.album-summary{font-size:11px;gap:6px}.album-summary button{font-size:11px;padding:3px 0;min-height:30px}.album-privacy-note{font-size:11px;margin-bottom:10px;padding:7px 10px}.album-toolbar{gap:0;padding-bottom:9px}.album-export-actions{justify-content:flex-start;gap:6px}.album-export-actions button,.album-export-actions a{min-height:36px;font-size:11px;padding:6px 9px}.album-map-heading{gap:8px;align-items:start;margin:10px 0}.album-map-heading .album-day-buttons{width:100%;gap:6px}.album-day-buttons button{min-width:64px;min-height:40px;padding:7px 13px}.album-map-heading p{font-size:11px;line-height:1.5}.album-map-layout{grid-template-columns:minmax(0,1fr);gap:12px}.album-map-canvas{position:relative;top:auto}#album-map{height:clamp(320px,52dvh,480px);border-radius:14px}.album-route-panel{max-height:none;padding:12px;overflow:visible}.album-route-intro h3{font-size:18px}.album-route-place img{width:66px;height:66px}.album-route-label strong{font-size:15px}.album-route-note{font-size:13px}.album-route-intro p,.album-route-notes{font-size:12px}.album-mobile-navigation button[data-mobile-view=journal][aria-pressed=true]{background:#286650}.album-mobile-navigation button[data-mobile-view=book][aria-pressed=true]{background:#674891}}
+@media(prefers-reduced-motion:reduce){.album-tabs button,.album-route-stop{transition:none}}
+
+@media(max-width:700px){body[data-album-view=map] .album-toolbar{display:none}.album-map-heading p{display:none}.album-map-heading{margin:10px 0 12px}}
