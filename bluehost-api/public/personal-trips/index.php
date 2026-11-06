@@ -17,7 +17,14 @@ ini_set('session.gc_maxlifetime', '28800');
 // Never trust proxy headers supplied by a visitor. Production must terminate HTTPS here.
 $localTest = PHP_SAPI === 'cli-server' && in_array($_SERVER['REMOTE_ADDR'] ?? '', ['127.0.0.1','::1'], true);
 if (!$localTest && (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === 'off')) { http_response_code(400); exit('HTTPS required.'); }
+require_once __DIR__.'/dashboard-owner.php';
+$dashboardIdentity = dashboardOwnerIdentity();
 session_name('wroc_personal_session');
+// PHP already inspected the dashboard session; explicitly select the separate
+// personal session cookie. Strict mode still rejects unknown session ids.
+$personalSessionId = $_COOKIE['wroc_personal_session'] ?? '';
+if (is_string($personalSessionId) && preg_match('/^[A-Za-z0-9,-]{16,128}$/D', $personalSessionId)) session_id($personalSessionId);
+
 session_set_cookie_params(['lifetime'=>0,'path'=>'/personal-trips/','secure'=>!$localTest,'httponly'=>true,'samesite'=>'Strict']);
 session_save_path($private . '/sessions');
 if (!session_start()) { http_response_code(503); exit('לא ניתן לפתוח כניסה מאובטחת כרגע.'); }
@@ -32,15 +39,42 @@ function rateLimit(string $private,string $scope,int $limit): bool {
  $key=(string)file_get_contents($private.'/server-key'); $identity=hash_hmac('sha256',$scope.'|'.($_SERVER['REMOTE_ADDR']??'unknown'),$key);
  $path=$private.'/rate/'.$identity.'.json'; $file=fopen($path,'c+');if(!$file)return false;chmod($path,0600);flock($file,LOCK_EX);$state=json_decode(stream_get_contents($file),true);$now=time();if(!is_array($state)||($state['start']??0)<$now-900)$state=['start'=>$now,'count'=>0];$state['count']++;rewind($file);ftruncate($file,0);fwrite($file,json_encode($state));fflush($file);flock($file,LOCK_UN);fclose($file);return $state['count']<=$limit;
 }
+require_once __DIR__.'/owner-access.php';
 $user=null;$key=(string)($_SESSION['user']??'');
 if(preg_match('/^[a-f0-9]{64}$/',$key)){
  $candidate=readRecord($private.'/users/'.$key.'.json');
- if($candidate && !($candidate['disabled']??false) && (int)($candidate['sessionVersion']??0)===(int)($_SESSION['version']??-1) && (int)($_SESSION['issued']??0)>time()-28800) $user=$candidate;
+ if($candidate && accessCredentialValid($candidate) && !($candidate['disabled']??false) && (int)($candidate['sessionVersion']??0)===(int)($_SESSION['version']??-1) && (int)($_SESSION['issued']??0)>time()-28800) $user=$candidate;
 }
 require_once __DIR__.'/owner-admin.php';
 require_once __DIR__.'/nearby-route.php';
 $isAdmin=isOwnerAdmin($user);$managedOwner='';$managedUser=null;
 $action=(string)($_GET['action']??'');$method=$_SERVER['REQUEST_METHOD']??'GET';$error='';
+
+// Bridge sessions remain dependent on the live dashboard login and saved role.
+if (isset($_SESSION['dashboardOwner'])) {
+ $bound = is_string($_SESSION['dashboardOwner']) && $dashboardIdentity === $_SESSION['dashboardOwner']
+  && hash_equals((string)($_SESSION['dashboardSession']??''), hash('sha256',(string)($_COOKIE['__Secure-wroc_owner']??'')));
+ $owner = $bound ? dashboardOwnerRecord($private,$dashboardIdentity) : null;
+ if (!$owner || !$user || !isOwnerAdmin($user) || $key !== $owner['key']) {
+  $_SESSION=[];session_regenerate_id(true);$_SESSION['csrf']=bin2hex(random_bytes(32));
+  $user=null;$key='';$isAdmin=false;
+ }
+}
+if ($action==='owner-entry') {
+ if ($method!=='GET') jsonReply(['error'=>'Method not allowed'],405);
+ if ($dashboardIdentity===null) {header('Location: /owner-dashboard/',true,303);exit;}
+ $owner=dashboardOwnerRecord($private,$dashboardIdentity);
+ if (!$owner) jsonReply(['error'=>'Existing owner access is required'],403);
+ session_regenerate_id(true);
+ $_SESSION=['csrf'=>bin2hex(random_bytes(32)),'user'=>$owner['key'],
+  'version'=>(int)$owner['record']['sessionVersion'],'issued'=>time(),
+  'dashboardOwner'=>$dashboardIdentity,'dashboardSession'=>hash('sha256',(string)$_COOKIE['__Secure-wroc_owner'])];
+ ownerAudit($private,$owner['key'],'','dashboard-owner-entry');
+ $target=($_GET['target']??'')==='contributions'?'?action=community&view=review':'?action=admin';
+ header('Location: '.$target,true,303);exit;
+}
+
+if(str_starts_with($action,'owner-access'))accessDispatch($private,$key,$user,$action,$method);
 if($action==='community'||str_starts_with($action,'community-')){require_once __DIR__.'/community.php';communityDispatch($private,$key,$user,$action,$method);}
 if(isset($_GET['customer']) && ($action==='album'||str_starts_with($action,'album-')||$action==='route'||str_starts_with($action,'nearby-'))){
  $requested=(string)$_GET['customer'];
@@ -86,7 +120,7 @@ if($method==='POST'){
    // An equal-cost dummy prevents unknown-user timing disclosure.
    $dummy='$2y$12$abcdefghijklmnopqrstuu71ZWEb9if6Eph11XL7ITDUM4RSxhyJ9S';
    $valid=strlen($password)<=256 && password_verify($password,(string)($record['passwordHash']??$dummy));
-   if($valid && $record && !($record['disabled']??false)){
+   if($valid && $record && accessCredentialValid($record) && !($record['disabled']??false)){
     $albumReturn=$_SESSION['albumReturn']??null;$ownerReturn=$_SESSION['ownerReturn']??null;session_regenerate_id(true);$_SESSION=['csrf'=>bin2hex(random_bytes(32)),'user'=>$uk,'version'=>(int)$record['sessionVersion'],'issued'=>time()];if(is_array($albumReturn))$_SESSION['albumReturn']=$albumReturn;if(isOwnerAdmin($record)&&is_string($ownerReturn))$_SESSION['ownerReturn']=$ownerReturn;header('Location: ./',true,303);exit;
    }
    $error='פרטי הכניסה אינם תקינים.';http_response_code(401);
@@ -101,7 +135,16 @@ if($method==='POST'){
   if($isAdmin&&(strlen($new)<16||strlen($new)>128))jsonReply(['error'=>'סיסמת מנהל צריכה להכיל לפחות 16 תווים.'],400);
   if(!$isAdmin&&!preg_match('/^[0-9]{4}$/D',$new))jsonReply(['error'=>'בחרו קוד אישי המורכב מארבע ספרות בדיוק.'],400);
   if(!hash_equals($new,(string)($_POST['confirm']??'')))jsonReply(['error'=>'שני הקודים החדשים אינם זהים. הזינו אותם שוב.'],400);
-  $user['passwordHash']=password_hash($new,PASSWORD_DEFAULT);$user['mustChangePassword']=false;$user['sessionVersion']++;saveRecord($private.'/users/'.$key.'.json',$user);session_regenerate_id(true);$_SESSION['version']=$user['sessionVersion'];$_SESSION['csrf']=bin2hex(random_bytes(32));jsonReply(['ok'=>true,'csrf'=>$_SESSION['csrf']]);
+  if(($user['mustChangePassword']??false)&&hash_equals($old,$new))jsonReply(['error'=>'בחרו קוד אישי שונה מהקוד הזמני.'],400);
+  try {
+   $user=accessLocked($private,$key,function()use($private,$key,$user,$new){
+    $current=readRecord($private.'/users/'.$key.'.json');
+    if(!$current||($current['disabled']??false)||!accessCredentialValid($current)||(int)$current['sessionVersion']!==(int)$user['sessionVersion'])throw new RuntimeException('Access changed');
+    $current['passwordHash']=password_hash($new,PASSWORD_DEFAULT);$current['mustChangePassword']=false;$current['sessionVersion']++;
+    unset($current['temporaryCodeExpiresAt'],$current['accessResetId']);saveRecord($private.'/users/'.$key.'.json',$current);return $current;
+   });
+  }catch(Throwable $e){jsonReply(['error'=>'פרטי הכניסה השתנו. התחברו מחדש.'],409);}
+  session_regenerate_id(true);$_SESSION['version']=$user['sessionVersion'];$_SESSION['csrf']=bin2hex(random_bytes(32));jsonReply(['ok'=>true,'csrf'=>$_SESSION['csrf']]);
  }else jsonReply(['error'=>'פעולה לא נתמכת.'],404);
 }elseif($method!=='GET'){header('Allow: GET, POST');jsonReply(['error'=>'Method not allowed'],405);}
 if($action==='route'){

@@ -1,12 +1,15 @@
 """Verify owner access with real PHP sessions and isolated synthetic accounts."""
-import hashlib, importlib.util, json, pathlib, unittest, urllib.request, http.cookiejar
+import hashlib, importlib.util, json, pathlib, unittest, urllib.request, http.cookiejar, re, html, copy, time
 from urllib.parse import urlencode
 spec=importlib.util.spec_from_file_location('album_tests',pathlib.Path(__file__).with_name('personal-trip-album-server.test.py'))
 module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
 Base=module.PrivateAlbum
 
 class OwnerAccess(unittest.TestCase):
- setUpClass=classmethod(Base.setUpClass.__func__)
+ @classmethod
+ def setUpClass(cls):
+  Base.setUpClass.__func__(cls)
+  cls.original_user=json.loads((cls.private/'users'/f'{hashlib.sha256(b"alice").hexdigest()}.json').read_text())
  tearDownClass=classmethod(Base.tearDownClass.__func__)
  req=Base.req
  login=Base.login
@@ -15,6 +18,7 @@ class OwnerAccess(unittest.TestCase):
   for p in (self.private/'rate').glob('*.json'):p.unlink()
   self.owner=self.key('owner');self.alice=self.key('alice');self.bob=self.key('bob')
   for name in ['alice','bob']:
+   (self.private/'users'/f'{self.key(name)}.json').write_text(json.dumps(self.original_user))
    path=self.private/'users'/f'{self.key(name)}.json';d=json.loads(path.read_text());d.pop('role',None);d['mustChangePassword']=False;path.write_text(json.dumps(d))
   record=json.loads((self.private/'users'/f'{self.alice}.json').read_text())
   record.update(role='owner-admin',route=None)
@@ -75,5 +79,98 @@ class OwnerAccess(unittest.TestCase):
   csrf=self.login(self.client,'owner')
   data=urlencode({'csrf':csrf,'current':'synthetic-only','new':'1234','confirm':'1234'}).encode()
   self.assertEqual(self.req(self.client,'?action=password',data,{'Content-Type':'application/x-www-form-urlencoded'})[0],400)
+
+ def reset_form(self):
+  status,page,_=self.get('?action=owner-access&customer='+self.alice)
+  self.assertEqual(status,200)
+  return re.search(b'name="intent" value="([^"]+)"',page)[1].decode()
+ def post_reset(self,form_intent,**values):
+  data={'csrf':self.csrf,'intent':form_intent,'username':'alice','email':'alice@example.test','messenger':'https://www.facebook.com/messages/t/123','publicThread':'https://www.facebook.com/groups/example/posts/123/?comment_id=456','identityConfirmed':'1',**values}
+  return self.req(self.client,'?action=owner-access-reset&customer='+self.alice,urlencode(data).encode(),{'Content-Type':'application/x-www-form-urlencoded'})
+ def newest_event(self):
+  record=json.loads((self.private/'users'/f'{self.alice}.json').read_text())
+  return json.loads((self.private/'access-resets'/f'{record["accessResetId"]}.json').read_text())
+ def temporary_code(self,page):
+  text=html.unescape(page.decode())
+  return re.search(r'Temporary code:\n(\d{4})',text)[1]
+ def test_reset_authorization_csrf_methods_and_identity(self):
+  self.assertEqual(self.get('?action=owner-access&customer='+self.alice)[0],403)
+  self.csrf=self.login(self.client,'alice')
+  self.assertEqual(self.get('?action=owner-access&customer='+self.bob)[0],403)
+  self.csrf=self.login(self.client,'owner');intent=self.reset_form();before=(self.private/'users'/f'{self.alice}.json').read_bytes()
+  self.assertEqual(self.get('?action=owner-access-reset&customer='+self.alice)[0],405)
+  for fields,expected in [({'csrf':'wrong'},403),({'username':'bob'},400),({'identityConfirmed':''},400),({'email':'bad\r\nBcc: intruder@example.test'},400),({'messenger':'https://facebook.com.evil.test/123'},400),({'publicThread':'javascript:alert(1)'},400),({'intent':'0'*64},400)]:
+   self.assertEqual(self.post_reset(intent,**fields)[0],expected)
+   self.assertEqual((self.private/'users'/f'{self.alice}.json').read_bytes(),before)
+  self.assertEqual(self.req(self.client,'?action=owner-access-reset&customer='+self.owner,urlencode({'csrf':self.csrf}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],404)
+ def test_reset_revokes_old_sessions_preserves_customer_data_and_is_idempotent(self):
+  old_client=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));self.login(old_client,'alice')
+  self.csrf=self.login(self.client,'owner');intent=self.reset_form()
+  before=json.loads((self.private/'users'/f'{self.alice}.json').read_text());other=(self.private/'users'/f'{self.bob}.json').read_bytes()
+  routes={p.name:p.read_bytes() for p in (self.private/'routes').glob('*')}
+  status,page,_=self.post_reset(intent);self.assertEqual(status,200);code=self.temporary_code(page);event=self.newest_event()
+  self.assertEqual(self.req(old_client,'?action=album-context')[0],401)
+  changed=json.loads((self.private/'users'/f'{self.alice}.json').read_text())
+  for field in set(before)-{'passwordHash','mustChangePassword','sessionVersion'}:self.assertEqual(changed[field],before[field])
+  self.assertTrue(changed['mustChangePassword']);self.assertEqual(changed['sessionVersion'],before['sessionVersion']+1)
+  self.assertEqual(other,(self.private/'users'/f'{self.bob}.json').read_bytes());self.assertEqual(routes,{p.name:p.read_bytes() for p in (self.private/'routes').glob('*')})
+  self.assertEqual(self.post_reset(intent)[0],200);self.assertEqual(self.newest_event(),event)
+  for p in (self.private/'access-resets').glob('*'):self.assertEqual(p.stat().st_mode&0o777,0o600)
+  self.assertNotIn('code',event['sealed']);self.assertNotIn(code,(self.private/'access-resets'/f'{event["id"]}.json').read_text())
+  self.assertNotIn(code,(self.private/'owner-access.jsonl').read_text())
+ def test_temporary_signin_forces_new_code_and_expires(self):
+  self.csrf=self.login(self.client,'owner');status,page,_=self.post_reset(self.reset_form());code=self.temporary_code(page);event=self.newest_event()
+  customer=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+  raw=self.req(customer,'')[1];csrf=re.search(b'name="csrf-token" content="([^"]+)"',raw)[1].decode()
+  status,page,_=self.req(customer,'?action=login',urlencode({'csrf':csrf,'username':'alice','password':code}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})
+  self.assertEqual(status,200);self.assertIn('בחרו סיסמה אישית'.encode(),page)
+  token=re.search(b'name="csrf-token" content="([^"]+)"',page)[1].decode()
+  self.assertEqual(self.req(customer,'?action=album-context')[0],403)
+  path=self.private/'users'/f'{self.alice}.json';d=json.loads(path.read_text());d['temporaryCodeExpiresAt']=int(time.time())-1;path.write_text(json.dumps(d))
+  self.assertEqual(self.req(customer,'?action=password',urlencode({'csrf':token,'current':code,'new':'7842','confirm':'7842'}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],401)
+  # Expired codes cannot be used by a fresh client, either.
+  fresh=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));raw=self.req(fresh,'')[1];csrf=re.search(b'name="csrf-token" content="([^"]+)"',raw)[1].decode()
+  self.assertEqual(self.req(fresh,'?action=login',urlencode({'csrf':csrf,'username':'alice','password':code}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],401)
+  self.assertNotIn(code.encode(),self.get('?action=owner-access&customer='+self.alice+'&event='+event['id'])[1])
+ def test_customer_changes_temporary_code_and_old_code_is_not_reusable(self):
+  self.csrf=self.login(self.client,'owner');_,page,_=self.post_reset(self.reset_form());code=self.temporary_code(page);event=self.newest_event()
+  c=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));_,raw,_=self.req(c,'');csrf=re.search(b'name="csrf-token" content="([^"]+)"',raw)[1].decode()
+  _,page,_=self.req(c,'?action=login',urlencode({'csrf':csrf,'username':'alice','password':code}).encode(),{'Content-Type':'application/x-www-form-urlencoded'});csrf=re.search(b'name="csrf-token" content="([^"]+)"',page)[1].decode()
+  self.assertEqual(self.req(c,'?action=password',urlencode({'csrf':csrf,'current':code,'new':code,'confirm':code}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],400)
+  new='7842' if code!='7842' else '9264'
+  self.assertEqual(self.req(c,'?action=password',urlencode({'csrf':csrf,'current':code,'new':new,'confirm':new}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],200)
+  record=json.loads((self.private/'users'/f'{self.alice}.json').read_text());self.assertFalse(record['mustChangePassword']);self.assertNotIn('accessResetId',record);self.assertNotIn('temporaryCodeExpiresAt',record)
+  self.assertEqual(self.req(c,'?action=album-context')[0],200)
+  page=self.get('?action=owner-access&customer='+self.alice+'&event='+event['id'])[1];self.assertNotIn(code.encode(),page)
+ def test_delivery_state_is_truthful_and_public_update_has_no_credentials(self):
+  self.csrf=self.login(self.client,'owner');_,page,_=self.post_reset(self.reset_form());code=self.temporary_code(page);event=self.newest_event()
+  self.assertIn(b'Automatic email is not connected',page);self.assertNotIn(b'id="copy-publicThread"',page)
+  def confirm(channel,receipt):return self.req(self.client,'?action=owner-access-confirm&customer='+self.alice,urlencode({'csrf':self.csrf,'event':event['id'],'channel':channel,'receipt':receipt}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})
+  self.assertEqual(confirm('publicThread','comment-123')[0],400)
+  status,page,_=confirm('email','sent-message-123');self.assertEqual(status,200)
+  self.assertEqual(self.newest_event()['channels']['email']['state'],'owner-confirmed')
+  public=html.unescape(re.search(rb'id="copy-publicThread"[^>]*>(.*?)</textarea>',page,re.S)[1].decode())
+  for secret in [code,self.alice,'alice@example.test','customer=','Username']:self.assertNotIn(secret,public)
+  self.assertEqual(confirm('publicThread','comment-123')[0],200)
+ def test_reset_event_recovers_a_prepared_write_and_limits_repeated_resets(self):
+  self.csrf=self.login(self.client,'owner');intent=self.reset_form();before=(self.private/'users'/f'{self.alice}.json').read_bytes()
+  _,page,_=self.post_reset(intent);code=self.temporary_code(page);event=self.newest_event()
+  # Simulate interruption after writing the encrypted event, before user commit.
+  path=self.private/'access-resets'/f'{event["id"]}.json';event['state']='prepared';path.write_text(json.dumps(event));(self.private/'users'/f'{self.alice}.json').write_bytes(before)
+  status,page,_=self.post_reset(intent);self.assertEqual(status,200);self.assertEqual(self.temporary_code(page),code);self.assertEqual(self.newest_event()['state'],'ready')
+  for _ in range(2):self.assertEqual(self.post_reset(self.reset_form())[0],200)
+  current=(self.private/'users'/f'{self.alice}.json').read_bytes();self.assertEqual(self.post_reset(self.reset_form())[0],400);self.assertEqual(current,(self.private/'users'/f'{self.alice}.json').read_bytes())
+ def test_all_five_languages_have_private_and_credential_free_public_copy(self):
+  self.csrf=self.login(self.client,'owner');path=self.private/'users'/f'{self.alice}.json'
+  for lang,subject in [('he','המפה האישית'),('en','Your personal map'),('pl','Twoja osobista mapa'),('de','Deine persönliche Karte'),('cs','Vaše osobní mapa')]:
+   for rate in (self.private/'rate').glob('*.json'):rate.unlink()
+   record=json.loads(path.read_text());record['language']=lang;path.write_text(json.dumps(record))
+   status,page,_=self.post_reset(self.reset_form());self.assertEqual(status,200);self.assertIn(subject.encode(),page)
+   self.assertIn(('view=map&amp;lang='+lang).encode(),page)
+ def test_missing_language_disabled_targets_and_revoked_owner_fail_closed(self):
+  self.csrf=self.login(self.client,'owner');intent=self.reset_form();path=self.private/'users'/f'{self.alice}.json';record=json.loads(path.read_text());record.pop('language');path.write_text(json.dumps(record))
+  self.assertEqual(self.post_reset(intent)[0],400)
+  record['language']='en';record['disabled']=True;path.write_text(json.dumps(record));self.assertEqual(self.post_reset(intent)[0],400)
+  record['disabled']=False;path.write_text(json.dumps(record));owner=self.private/'users'/f'{self.owner}.json';d=json.loads(owner.read_text());d['role']='customer';owner.write_text(json.dumps(d));self.assertEqual(self.post_reset(intent)[0],403)
 
 if __name__=='__main__':unittest.main(defaultTest='OwnerAccess')
