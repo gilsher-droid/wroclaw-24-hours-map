@@ -30,9 +30,24 @@ function accessOpen(string $private,array $sealed): array {
  if($raw===false)throw new RuntimeException('Saved delivery is unavailable');
  return json_decode($raw,true,512,JSON_THROW_ON_ERROR);
 }
-function accessFacebookUrl(string $url): bool {
- $p=parse_url($url);
- return $url===''||($p&&($p['scheme']??'')==='https'&&in_array(strtolower($p['host']??''),['www.facebook.com','facebook.com','business.facebook.com','www.messenger.com','messenger.com'],true)&&!isset($p['user'])&&!isset($p['pass'])&&!isset($p['port']));
+function accessFacebookDestinations(array $input): array {
+ if(($input['contactFormat']??'')!=='facebook-ids-v1'||isset($input['messenger'])||isset($input['publicThread']))throw new InvalidArgumentException('Refresh this form before resetting access.');
+ $id=static function(string $name,bool $required=false,bool $post=false)use($input):string{
+  $v=$input[$name]??'';if(!is_string($v)||($v===''&&$required)||($v!==''&&!preg_match($post?'/^(?:[0-9]{1,40}|pfbid[A-Za-z0-9]{5,200})$/D':'/^[0-9]{1,40}$/D',$v)))throw new InvalidArgumentException('Invalid Facebook destination identifier.');return $v;
+ };
+ $messenger='';$public='';$fb=$input['fbKind']??'none';$thread=$input['threadKind']??'none';
+ if($fb==='direct')$messenger='https://www.facebook.com/messages/t/'.$id('fbRecipient',true);
+ elseif($fb==='business'){
+  $query=['asset_id'=>$id('fbAsset',true),'selected_item_id'=>$id('fbRecipient',true)];
+  foreach(['fbBusiness'=>'business_id','fbMailbox'=>'mailbox_id'] as $key=>$name){$v=$id($key);if($v!=='')$query[$name]=$v;}
+  $messenger='https://business.facebook.com/latest/inbox/messenger?'.http_build_query($query);
+ }elseif($fb!=='none')throw new InvalidArgumentException('Invalid private destination type.');
+ if($thread==='group')$public='https://www.facebook.com/groups/'.$id('threadGroup',true).'/posts/'.$id('threadPost',true,true).'/';
+ elseif($thread==='page')$public='https://www.facebook.com/'.$id('threadPage',true).'/posts/'.$id('threadPost',true,true).'/';
+ elseif($thread==='reel')$public='https://www.facebook.com/reel/'.$id('threadPost',true).'/';
+ elseif($thread!=='none')throw new InvalidArgumentException('Invalid public destination type.');
+ if($public!==''){$q=[];foreach(['threadComment'=>'comment_id','threadReply'=>'reply_comment_id'] as $key=>$name){$v=$id($key);if($v!=='')$q[$name]=$v;}if($q)$public.='?'.http_build_query($q);}
+ return ['messenger'=>$messenger,'publicThread'=>$public];
 }
 function accessContact(array $input,string $customer,array $record): array {
  $username=strtolower(trim((string)($input['username']??'')));
@@ -42,16 +57,18 @@ function accessContact(array $input,string $customer,array $record): array {
  $email=trim((string)($input['email']??''));
  if($email!==''&&(!filter_var($email,FILTER_VALIDATE_EMAIL)||preg_match('/[\r\n]/',$email)))throw new InvalidArgumentException('Enter a valid customer email.');
  $contact=['username'=>$username,'email'=>$email,'language'=>$lang];
- foreach(['messenger','publicThread'] as $field){$url=trim((string)($input[$field]??''));if(strlen($url)>2000||!accessFacebookUrl($url))throw new InvalidArgumentException('Use a verified Facebook conversation or comment link.');$contact[$field]=$url;}
- return $contact;
+ return array_merge($contact,accessFacebookDestinations($input));
 }
 function accessCurrent(array $event,?array $record): bool {
  return $record!==null&&($event['state']??'')==='ready'&&($record['accessResetId']??'')===$event['id']&&($record['mustChangePassword']??false)&&!($record['disabled']??false)&&accessCredentialValid($record)&&(int)$record['sessionVersion']===(int)$event['version'];
 }
-function accessReset(string $private,string $actor,string $customer,array $input): array {
+function accessValidateIntent(string $customer,array $input): void {
  $intent=(string)($input['intent']??'');
  if(!preg_match('/^[a-f0-9]{64}$/D',$intent)||($_SESSION['accessIntent'][$intent]['customer']??'')!==$customer||(int)($_SESSION['accessIntent'][$intent]['at']??0)<time()-3600)throw new InvalidArgumentException('This form expired. Open the customer again.');
  if(($input['identityConfirmed']??'')!=='1')throw new InvalidArgumentException('Confirm the customer identity and private delivery details.');
+}
+function accessReset(string $private,string $actor,string $customer,array $input): array {
+ accessValidateIntent($customer,$input);$intent=(string)$input['intent'];
  return accessLocked($private,$customer,function()use($private,$actor,$customer,$input,$intent){
   $entry=ownerCustomer($private,$customer);if(!$entry||($entry['record']['disabled']??false))throw new InvalidArgumentException('This customer is unavailable.');
   $record=$entry['record'];$contact=accessContact($input,$customer,$record);
@@ -101,6 +118,13 @@ function accessDispatch(string $private,string $actor,?array $user,string $actio
   if($action==='owner-access-reset'){
    if($method!=='POST')jsonReply(['error'=>'POST required'],405);
    if(!csrfValid())jsonReply(['error'=>'Refresh the page and try again'],403);
+   if(isset($_POST['checkOnly'])){
+    if($_POST['checkOnly']!=='1')throw new InvalidArgumentException('Invalid delivery check.');
+    accessValidateIntent($customer,$_POST);
+    if($entry['record']['disabled']??false)throw new InvalidArgumentException('This customer is unavailable.');
+    $contact=accessContact($_POST,$customer,$entry['record']);
+    accessPage($private,$customer,$entry,'','Delivery details verified. No access code was changed.',$contact);
+   }
    $event=accessReset($private,$actor,$customer,$_POST);header('Location: ?'.http_build_query(['action'=>'owner-access','customer'=>$customer,'event'=>$event['id']]),true,303);exit;
   }
   if($action==='owner-access-confirm'){
@@ -110,7 +134,7 @@ function accessDispatch(string $private,string $actor,?array $user,string $actio
    accessLocked($private,$customer,function()use($private,$customer,$actor,$id){
     $path=accessDir($private).'/'.$id.'.json';$event=readRecord($path);if(!$event||$event['customer']!==$customer)throw new InvalidArgumentException('Delivery not found');
     $channel=(string)($_POST['channel']??'');$receipt=trim((string)($_POST['receipt']??''));
-    if(!in_array($channel,['email','messenger','publicThread'],true)||strlen($receipt)<3||strlen($receipt)>500||preg_match('/[\r\n]/',$receipt))throw new InvalidArgumentException('Enter the sent-message ID or permalink, without credentials.');
+    if(!in_array($channel,['email','messenger','publicThread'],true)||!preg_match('/^[A-Za-z0-9._:@+\-]{6,200}$/D',$receipt))throw new InvalidArgumentException('Enter the sent-message ID only, without a URL or credentials.');
     if($event['channels'][$channel]['state']==='not-provided')throw new InvalidArgumentException('No destination was provided.');
     if($channel==='publicThread'&&!accessPrivateDelivered($event))throw new InvalidArgumentException('Confirm private delivery before posting the public update.');
     if($channel!=='publicThread'&&!accessCurrent($event,readRecord($private.'/users/'.$customer.'.json')))throw new InvalidArgumentException('This code was replaced, used or expired. Do not send it.');
@@ -125,17 +149,18 @@ function accessDispatch(string $private,string $actor,?array $user,string $actio
  }catch(InvalidArgumentException $e){http_response_code(400);accessPage($private,$customer,$entry,$e->getMessage());}
  catch(Throwable $e){jsonReply(['error'=>'The access update could not be completed. Open this customer again before retrying.'],503);}
 }
-function accessPage(string $private,string $customer,array $entry,string $error=''): never {
+function accessPage(string $private,string $customer,array $entry,string $error='',string $notice='',array $prefill=[]): never {
  $id=(string)($_GET['event']??$entry['record']['accessResetId']??'');$event=preg_match('/^[a-f0-9]{64}$/D',$id)?readRecord(accessDir($private).'/'.$id.'.json'):null;
  if($event&&$event['customer']!==$customer)$event=null;
  $active=$event&&accessCurrent($event,readRecord($private.'/users/'.$customer.'.json'));
  $messages=$active?accessMessages($event,accessOpen($private,$event['sealed'])['code']):null;
- $saved=$event['contact']??($entry['record']['deliveryContact']??[]);
+ $saved=$prefill?:($event['contact']??($entry['record']['deliveryContact']??[]));
  $_SESSION['accessIntent']=array_filter($_SESSION['accessIntent']??[],static fn($i)=>(int)$i['at']>time()-3600);
  $intent=bin2hex(random_bytes(32));$_SESSION['accessIntent'][$intent]=['customer'=>$customer,'at'=>time()];
  header('Content-Type: text/html; charset=utf-8');
- ?><!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="csrf-token" content="<?=h($_SESSION['csrf'])?>"><title>Customer access | WROC-LOVE</title><link rel="stylesheet" href="./owner-access.css?v=<?=substr(hash_file('sha256',__DIR__.'/owner-access.css'),0,12)?>"><script src="./owner-access.js?v=<?=substr(hash_file('sha256',__DIR__.'/owner-access.js'),0,12)?>" defer></script></head><body><header><a href="/owner-dashboard/">Owner dashboard</a><a href="?action=admin">All personal maps</a></header><main><p class="eyebrow">WROC-LOVE · Customer access</p><h1 dir="auto"><?=h((string)$entry['route']['title'])?></h1><p><?=h((string)$entry['record']['route'])?></p><a href="?action=album&amp;customer=<?=h($customer)?>">Open map and album as owner</a>
+ ?><!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="csrf-token" content="<?=h($_SESSION['csrf'])?>"><title>Customer access | WROC-LOVE</title><link rel="stylesheet" href="./owner-access.css?v=<?=substr(hash_file('sha256',__DIR__.'/owner-access.css'),0,12)?>"><script type="module" src="./owner-access.js?v=<?=substr(hash_file('sha256',__DIR__.'/owner-access.js'),0,12)?>" defer></script></head><body><header><a href="/owner-dashboard/">Owner dashboard</a><a href="?action=admin">All personal maps</a></header><main><p class="eyebrow">WROC-LOVE · Customer access</p><h1 dir="auto"><?=h((string)$entry['route']['title'])?></h1><p><?=h((string)$entry['record']['route'])?></p><a href="?action=album&amp;customer=<?=h($customer)?>">Open map and album as owner</a>
  <?php if($error!==''):?><p class="notice error" role="alert"><?=h($error)?></p><?php endif;?>
+ <?php if($notice!==''):?><p class="notice" role="status"><?=h($notice)?></p><?php endif;?>
  <?php if($event):?><section><h2>Access reset and delivery</h2><p class="notice"><?= $active?'Access was reset. Previous sessions were signed out. The temporary code expires in 24 hours and must be changed at first sign-in.':'This temporary code has been used, replaced or expired. It is no longer available to send.'?></p><p>Created <?=h($event['createdAt'])?> · Code expires <?=h(gmdate('c',$event['expiresAt']))?></p>
  <?php foreach(['email'=>'Customer email','messenger'=>'Private Messenger','publicThread'=>'Public conversation'] as $channel=>$label):$state=$event['channels'][$channel];?>
  <article class="delivery"><h3><?=h($label)?> <span class="badge"><?=h($state['state']==='owner-confirmed'?'Sent, confirmed by owner':ucfirst(str_replace('-',' ',$state['state'])))?></span></h3><p dir="auto"><?=h((string)$event['contact'][$channel])?></p>
@@ -146,6 +171,6 @@ function accessPage(string $private,string $customer,array $entry,string $error=
  <?php endif;?>
  <?php if($channel!=='email'&&$event['contact'][$channel]!==''):?><a target="_blank" rel="noopener noreferrer" href="<?=h($event['contact'][$channel])?>">Open conversation</a><?php endif;?>
  <?php if($state['state']==='owner-confirmed'):?><p>Receipt: <?=h($state['receipt'])?><br><?=h($state['at'])?></p><?php elseif(($active||$channel==='publicThread')&&$state['state']!=='not-provided'&&($channel!=='publicThread'||accessPrivateDelivered($event))):?>
- <form method="post" action="?action=owner-access-confirm&amp;customer=<?=h($customer)?>"><input type="hidden" name="csrf" value="<?=h($_SESSION['csrf'])?>"><input type="hidden" name="event" value="<?=h($id)?>"><input type="hidden" name="channel" value="<?=h($channel)?>"><label>Sent-message ID or permalink<input name="receipt" required minlength="3" maxlength="500" autocomplete="off"></label><button>Confirm sent</button></form><?php endif;?></article><?php endforeach;?></section><?php endif;?>
- <section><h2><?= $event?'Create another temporary code':'Reset customer access'?></h2><p>The map, album and memories stay intact. Resetting signs out this customer on all devices. A different temporary four-digit code is generated for each reset.</p><form method="post" action="?action=owner-access-reset&amp;customer=<?=h($customer)?>"><input type="hidden" name="csrf" value="<?=h($_SESSION['csrf'])?>"><input type="hidden" name="intent" value="<?=h($intent)?>"><label>Verified customer username<input name="username" required maxlength="254" autocomplete="off" value="<?=h((string)($saved['username']??''))?>"></label><label>Customer email<input type="email" name="email" maxlength="254" value="<?=h((string)($saved['email']??''))?>"></label><label>Verified private Messenger conversation URL<input type="url" name="messenger" maxlength="2000" value="<?=h((string)($saved['messenger']??''))?>"></label><label>Existing public comment or conversation URL<input type="url" name="publicThread" maxlength="2000" value="<?=h((string)($saved['publicThread']??''))?>"></label><p>Customer language: <?=h((string)($entry['record']['language']??'Missing'))?></p><label class="check"><input type="checkbox" name="identityConfirmed" value="1" required>I verified that the username and private delivery destinations belong to this customer.</label><button class="reset">Reset access and prepare delivery</button></form></section><p id="copy-status" role="status"></p></main></body></html><?php exit;
+ <form method="post" action="?action=owner-access-confirm&amp;customer=<?=h($customer)?>"><input type="hidden" name="csrf" value="<?=h($_SESSION['csrf'])?>"><input type="hidden" name="event" value="<?=h($id)?>"><input type="hidden" name="channel" value="<?=h($channel)?>"><label>Sent-message ID<input name="receipt" required minlength="6" maxlength="200" pattern="[A-Za-z0-9._:@+\-]{6,200}" autocomplete="off"></label><button>Confirm sent</button></form><?php endif;?></article><?php endforeach;?></section><?php endif;?>
+ <section><h2><?= $event?'Create another temporary code':'Reset customer access'?></h2><p>The map, album and memories stay intact. Resetting signs out this customer on all devices. A different temporary four-digit code is generated for each reset.</p><form data-access-reset method="post" action="?action=owner-access-reset&amp;customer=<?=h($customer)?>"><input type="hidden" name="csrf" value="<?=h($_SESSION['csrf'])?>"><input type="hidden" name="intent" value="<?=h($intent)?>"><label>Verified customer username<input name="username" required maxlength="254" autocomplete="off" value="<?=h((string)($saved['username']??''))?>"></label><label>Customer email<input type="email" name="email" maxlength="254" value="<?=h((string)($saved['email']??''))?>"></label><label>Verified private Messenger conversation URL<input type="url" data-messenger-url maxlength="2000" value="<?=h((string)($saved['messenger']??''))?>"></label><label>Existing public comment or conversation URL<input type="url" data-thread-url maxlength="2000" value="<?=h((string)($saved['publicThread']??''))?>"></label><p>Customer language: <?=h((string)($entry['record']['language']??'Missing'))?></p><label class="check"><input type="checkbox" name="identityConfirmed" value="1" required>I verified that the username and private delivery destinations belong to this customer.</label><div hidden data-facebook-fields></div><p role="alert" tabindex="-1"></p><noscript>Enable JavaScript to validate the delivery destinations before resetting access.</noscript><button type="submit" data-needs-destinations disabled name="checkOnly" value="1">Check delivery details</button><button class="reset" data-needs-destinations disabled>Reset access and prepare delivery</button></form></section><p id="copy-status" role="status"></p></main></body></html><?php exit;
 }

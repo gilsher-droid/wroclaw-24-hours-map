@@ -85,7 +85,7 @@ class OwnerAccess(unittest.TestCase):
   self.assertEqual(status,200)
   return re.search(b'name="intent" value="([^"]+)"',page)[1].decode()
  def post_reset(self,form_intent,**values):
-  data={'csrf':self.csrf,'intent':form_intent,'username':'alice','email':'alice@example.test','messenger':'https://www.facebook.com/messages/t/123','publicThread':'https://www.facebook.com/groups/example/posts/123/?comment_id=456','identityConfirmed':'1',**values}
+  data={'csrf':self.csrf,'intent':form_intent,'username':'alice','email':'alice@example.test','contactFormat':'facebook-ids-v1','fbKind':'direct','fbRecipient':'123','threadKind':'group','threadGroup':'789','threadPost':'123','threadComment':'456','identityConfirmed':'1',**values}
   return self.req(self.client,'?action=owner-access-reset&customer='+self.alice,urlencode(data).encode(),{'Content-Type':'application/x-www-form-urlencoded'})
  def newest_event(self):
   record=json.loads((self.private/'users'/f'{self.alice}.json').read_text())
@@ -99,7 +99,7 @@ class OwnerAccess(unittest.TestCase):
   self.assertEqual(self.get('?action=owner-access&customer='+self.bob)[0],403)
   self.csrf=self.login(self.client,'owner');intent=self.reset_form();before=(self.private/'users'/f'{self.alice}.json').read_bytes()
   self.assertEqual(self.get('?action=owner-access-reset&customer='+self.alice)[0],405)
-  for fields,expected in [({'csrf':'wrong'},403),({'username':'bob'},400),({'identityConfirmed':''},400),({'email':'bad\r\nBcc: intruder@example.test'},400),({'messenger':'https://facebook.com.evil.test/123'},400),({'publicThread':'javascript:alert(1)'},400),({'intent':'0'*64},400)]:
+  for fields,expected in [({'csrf':'wrong'},403),({'username':'bob'},400),({'identityConfirmed':''},400),({'email':'bad\r\nBcc: intruder@example.test'},400),({'messenger':'https://facebook.com.evil.test/123'},400),({'publicThread':'javascript:alert(1)'},400),({'intent':'0'*64},400),({'contactFormat':''},400),({'threadKind':'external'},400),({'threadGroup':'https://evil.test'},400),({'threadPost':'../server-key'},400),({'fbKind':'direct','fbRecipient':'123/456'},400),({'fbKind':'business','fbAsset':'abc'},400)]:
    self.assertEqual(self.post_reset(intent,**fields)[0],expected)
    self.assertEqual((self.private/'users'/f'{self.alice}.json').read_bytes(),before)
   self.assertEqual(self.req(self.client,'?action=owner-access-reset&customer='+self.owner,urlencode({'csrf':self.csrf}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],404)
@@ -152,6 +152,15 @@ class OwnerAccess(unittest.TestCase):
   public=html.unescape(re.search(rb'id="copy-publicThread"[^>]*>(.*?)</textarea>',page,re.S)[1].decode())
   for secret in [code,self.alice,'alice@example.test','customer=','Username']:self.assertNotIn(secret,public)
   self.assertEqual(confirm('publicThread','comment-123')[0],200)
+ def test_delivery_check_validates_same_payload_without_resetting_any_account(self):
+  self.csrf=self.login(self.client,'owner');before={p.name:p.read_bytes() for p in (self.private/'users').glob('*.json')}
+  data={'csrf':self.csrf,'intent':self.reset_form(),'identityConfirmed':'1','checkOnly':'1','contactFormat':'facebook-ids-v1','username':'alice','email':'alice@example.test','fbKind':'business','fbAsset':'123','fbRecipient':'456','fbBusiness':'789','fbMailbox':'123','threadKind':'group','threadGroup':'123','threadPost':'456','threadComment':'789'}
+  status,page,_=self.req(self.client,'?action=owner-access-reset&customer='+self.alice,urlencode(data).encode(),{'Content-Type':'application/x-www-form-urlencoded'})
+  self.assertEqual(status,200);self.assertIn(b'Delivery details verified. No access code was changed.',page)
+  self.assertIn(b'https://business.facebook.com/latest/inbox/messenger?asset_id=123&amp;selected_item_id=456&amp;business_id=789&amp;mailbox_id=123',page)
+  self.assertIn(b'https://www.facebook.com/groups/123/posts/456/?comment_id=789',page)
+  self.assertEqual(before,{p.name:p.read_bytes() for p in (self.private/'users').glob('*.json')})
+  data['csrf']='wrong';self.assertEqual(self.req(self.client,'?action=owner-access-reset&customer='+self.alice,urlencode(data).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],403)
  def test_reset_event_recovers_a_prepared_write_and_limits_repeated_resets(self):
   self.csrf=self.login(self.client,'owner');intent=self.reset_form();before=(self.private/'users'/f'{self.alice}.json').read_bytes()
   _,page,_=self.post_reset(intent);code=self.temporary_code(page);event=self.newest_event()
