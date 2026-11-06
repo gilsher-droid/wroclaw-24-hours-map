@@ -21,3 +21,11 @@ A future automatic transport must verify the sending identity, store credentials
 `python3 tests/personal-trip-owner-admin.test.py` covers owner-only authorization, target and username binding, CSRF and method restrictions, customer isolation, session revocation, forced code change, expiry, idempotency, interrupted-write recovery, rate limits, delivery states, public credential exclusion and all five message languages. Run the existing album, community and nearby Python suites as well.
 
 For deployment, back up the live PHP source first. Install only `index.php`, `owner-admin.php`, `dashboard-owner.php`, `owner-access.php`, `owner-access.css` and `owner-access.js`. Preserve all private users, routes, sessions, album storage, server keys, dashboard role mappings and existing frontend assets. Do not reset a real customer's access during installation or QA.
+
+## Hosting compatibility correction
+
+The hosting firewall rejected the first live reset POST before the application ran. The form originally submitted complete Facebook links. It now parses supported conversation, post and comment links into typed identifiers; PHP independently validates those identifiers and reconstructs canonical Facebook destinations. Raw URL parameters and the old form format are rejected. No encoding disguise, firewall exclusion, rule change or security reduction is used. The hosting log viewer did not expose the matched rule ID, so the exact rule is not claimed.
+
+JavaScript must finish validating the form before the reset button is enabled. Delivery receipt fields accept message IDs, not URLs or message bodies. Server authorization, CSRF, customer binding, locking, code expiry and idempotency remain unchanged. Live customer credential mutation still requires the owner to submit the action.
+
+The **Check delivery details** action runs the same authorization and destination validation without changing an account or issuing a code. It can be exercised against the production hosting firewall before the owner performs an actual reset.
