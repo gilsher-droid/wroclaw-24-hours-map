@@ -542,7 +542,9 @@
       "venueTypes": [
         "restaurant"
       ],
-      "cuisines": [],
+      "cuisines": [
+        "international"
+      ],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
@@ -554,9 +556,10 @@
           "verifiedAt": "2026-11-07",
           "kind": "official-business",
           "fields": [
-            "venueTypes.restaurant"
+            "venueTypes.restaurant",
+            "cuisines.international"
           ],
-          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+          "claim": "Official venue confirms the restaurant identity, address and the stated cuisine. Dietary suitability is not inferred from photographs."
         }
       ],
       "review": {
@@ -16619,7 +16622,9 @@
       "venueTypes": [
         "restaurant"
       ],
-      "cuisines": [],
+      "cuisines": [
+        "polish"
+      ],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
@@ -16631,9 +16636,10 @@
           "verifiedAt": "2026-11-07",
           "kind": "official-business",
           "fields": [
-            "venueTypes.restaurant"
+            "venueTypes.restaurant",
+            "cuisines.polish"
           ],
-          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+          "claim": "Official venue confirms the restaurant identity, address and the stated cuisine. Dietary suitability is not inferred from photographs."
         }
       ],
       "review": {
@@ -41671,7 +41677,10 @@
       "venueTypes": [
         "restaurant"
       ],
-      "cuisines": [],
+      "cuisines": [
+        "italian",
+        "mediterranean"
+      ],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
@@ -41683,9 +41692,11 @@
           "verifiedAt": "2026-11-07",
           "kind": "official-business",
           "fields": [
-            "venueTypes.restaurant"
+            "venueTypes.restaurant",
+            "cuisines.mediterranean",
+            "cuisines.italian"
           ],
-          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+          "claim": "Official venue confirms the restaurant identity, address and the stated cuisine. Dietary suitability is not inferred from photographs."
         }
       ],
       "review": {
@@ -45697,7 +45708,9 @@
       "venueTypes": [
         "restaurant"
       ],
-      "cuisines": [],
+      "cuisines": [
+        "japanese"
+      ],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
@@ -45709,9 +45722,10 @@
           "verifiedAt": "2026-11-07",
           "kind": "official-business",
           "fields": [
-            "venueTypes.restaurant"
+            "venueTypes.restaurant",
+            "cuisines.japanese"
           ],
-          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+          "claim": "Official venue confirms the restaurant identity, address and the stated cuisine. Dietary suitability is not inferred from photographs."
         }
       ],
       "review": {
@@ -69634,7 +69648,9 @@
       "venueTypes": [
         "restaurant"
       ],
-      "cuisines": [],
+      "cuisines": [
+        "polish"
+      ],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
@@ -69646,9 +69662,10 @@
           "verifiedAt": "2026-11-07",
           "kind": "official-business",
           "fields": [
-            "venueTypes.restaurant"
+            "venueTypes.restaurant",
+            "cuisines.polish"
           ],
-          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+          "claim": "Official venue confirms the restaurant identity, address and the stated cuisine. Dietary suitability is not inferred from photographs."
         }
       ],
       "review": {
@@ -87826,7 +87843,10 @@
       "venueTypes": [
         "restaurant"
       ],
-      "cuisines": [],
+      "cuisines": [
+        "international",
+        "polish"
+      ],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
@@ -87838,9 +87858,11 @@
           "verifiedAt": "2026-11-07",
           "kind": "official-business",
           "fields": [
-            "venueTypes.restaurant"
+            "venueTypes.restaurant",
+            "cuisines.polish",
+            "cuisines.international"
           ],
-          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+          "claim": "Official venue confirms the restaurant identity, address and the stated cuisine. Dietary suitability is not inferred from photographs."
         }
       ],
       "review": {

@@ -1,13 +1,13 @@
 {
   "base": "d51047ca1a231429d39374d7945fb4b4f42506eb",
   "added": {
-    "acquario-wroclaw": "496a10ca7250c5b2adb247cf9366b7d2f15b71c799b5fc39b80dd802a4c48dfe",
-    "craft-wroclaw": "534e680fc7eddd7a5a897d95b253db6e0c9c66fadf1de677f36256dd7a00daea",
-    "la-colonna-wroclaw": "77c8d70ac524891565a6d6f96dd2bb00302bb41260cd4a4f48f38c4dc8b45b10",
-    "manami-sushi-wroclaw": "41b66cf3b933880f8fd4041908f3a41ed271049472ba44bb173d236b133d3ef4",
+    "acquario-wroclaw": "062fe4065859faaad18bc5000cad061e3bc7a051623e65d28fbdeb22950a4a4f",
+    "craft-wroclaw": "633ee68a3c1030c0ae9f69e3a978417cd0d3e103724ad7250c8570ff7a50ba43",
+    "la-colonna-wroclaw": "097f75ad0c432b4ca73a6fdcfd82224a9153b6f4572e3318ff2beb0d256664cb",
+    "manami-sushi-wroclaw": "8713c89f7b820676802cdf67825682abb1934c5d0118a583c12008fc79248b36",
     "old-havana-wroclaw": "4ca9134c92cf01afe996ae98c45b2dd18d5af10028899113b250975d2e04b4b7",
     "przystan-marina-wroclaw": "1ed781f65424edf483b76e7091b91548d96c5b67406ae946c8b14281191c8677",
-    "restauracja-wroclawska": "44fb9071e925d3893a161cf3b95029cfa7218e2ec8c34f21cb0d63fe0afb2b6b",
+    "restauracja-wroclawska": "a9ef5379bc46b3f8a65a65fed7810d275a729ade36929d380d588136f0799743",
     "warsztat-food-garden-wroclaw": "290c21838b4740318a8f916cab56fff858d87b2e786a97f552f29ac71e8bc4de"
   },
   "changed": {
@@ -353,7 +353,7 @@
           }
         }
       },
-      "afterHash": "a40cdce987cef4017ba45cdffb8f2eb632339a86aa2fcae345a0cb56460ea9eb"
+      "afterHash": "5e7e6fe7ffe8dd6af6e36e1d6cf15508367ac1235d217e8e8643bdae8dd472b6"
     }
   },
   "experiences": {
