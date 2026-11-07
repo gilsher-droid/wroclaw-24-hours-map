@@ -1,3 +1,4 @@
+import{beforeFineDiningStageA,beforeFineDiningRecord}from'./fine-dining-stage-a-baseline.mjs';
 import{beforeClubParkSource}from'./club-copernicus-historical-baseline.mjs';
 import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
@@ -10,6 +11,8 @@ import {runInNewContext} from 'node:vm';
 const proof=JSON.parse(readFileSync('data/forum-kulinarne-oct27-preservation.json'));
 const window={};
 for(const f of ['data/place-catalog.js','data/location-media.js','data/lifestyle-places.js'])runInNewContext(readFileSync(f,'utf8'),{window});
+beforeFineDiningStageA(window);
+window.WROC_LOCATION_MEDIA['forum-kulinarne-wroclaw'].gallery=window.WROC_CATALOG.getPlace('forum-kulinarne-wroclaw').media.photos;
 const plain=v=>JSON.parse(JSON.stringify(beforeFourDenominationsMedia(beforePanPrecelMedia(v))));
 const hash=v=>createHash('sha256').update(v).digest('hex');
 test('Forum Kulinarne preserves all232 earlier canonicals and existing routes exactly',()=>{
