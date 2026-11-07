@@ -1065,6 +1065,117 @@
   experiences.push({"id": "ostrow-tumski-lamplighter", "type": "evening-tradition", "categories": ["local-life", "evening", "heritage"], "name": {"he": "מדליק המנורות של אי הקתדרלות", "en": "The lamplighter of Cathedral Island", "pl": "Latarnik na Ostrowie Tumskim", "de": "Der Laternenanzünder auf der Dominsel", "cs": "Lampář na Tumském ostrově"}, "description": {"he": "לקראת השקיעה יוצאים לשיטוט באי הקתדרלות בעקבות מדליק מנורות הגז, עם הגלימה והכובע המסורתיים. בסרטונים המקוריים שלנו אפשר לראות אותו הולך בסמטה ואת הפנסים מקרוב. התחילו באזור גשר טומסקי והמשיכו לכיוון הקתדרלה, הביטו בפנסי הרחוב ותנו מקום לעבודתו. זמן ההדלקה משתנה עם העונה והשקיעה; זו המלצה לשיטוט ולא מפגש מוזמן בשעה קבועה.", "en": "As sunset approaches, explore Cathedral Island in search of the gas-lamp lighter in his traditional cape and hat. Our original clips show him walking along a lane and the lanterns up close. Begin around Tumski Bridge and continue towards the cathedral, watching the street lamps and giving him room to work. Lighting time changes with the season and sunset; this is a walk suggestion, not a booked meeting at a fixed time.", "pl": "Przed zachodem słońca wybierz się na Ostrów Tumski śladem latarnika w tradycyjnej pelerynie i kapeluszu. Nasze nagrania pokazują jego spacer i zbliżenia latarni. Zacznij w okolicy mostu Tumskiego i kieruj się ku katedrze, obserwując lampy i nie przeszkadzając w pracy. Pora zapalania zmienia się wraz z sezonem i zachodem słońca; to propozycja spaceru, nie umówione spotkanie o stałej godzinie.", "de": "Erkunden Sie kurz vor Sonnenuntergang die Dominsel auf den Spuren des Gaslaternenanzünders in Umhang und Hut. Unsere eigenen Aufnahmen zeigen ihn in einer Gasse und die Laternen aus der Nähe. Beginnen Sie an der Tumski-Brücke und gehen Sie zur Kathedrale. Lassen Sie ihm Raum für seine Arbeit. Die Zeit hängt von Jahreszeit und Sonnenuntergang ab; dies ist ein Spaziergangstipp, kein fest vereinbarter Termin.", "cs": "Před západem slunce se vydejte na Tumský ostrov po stopách lampáře v tradičním plášti a klobouku. Naše záběry ukazují jeho chůzi uličkou a detaily lamp. Začněte u Tumského mostu a pokračujte ke katedrále. Dopřejte mu prostor k práci. Čas rozsvěcení se mění s roční dobou a západem slunce; jde o tip na procházku, ne o domluvené setkání v pevný čas."}, "relatedCanonicalPlaceIds": ["most-tumski", "ostrow", "cathedral"], "productRefs": [], "mapPoints": [], "social": [], "media": {"hero": {"src": "/assets/water-lamplighter-oct30/lamplighter-visit-frame.jpg", "position": "center 45%"}, "images": ["/assets/water-lamplighter-oct30/lamplighter-visit-frame.jpg"], "videos": [], "inheritPhotos": false, "inheritFromCanonicalPlaceIds": [], "inheritSocial": true}, "metadata": {"sourceLibraryFolder": "lamplighter", "sources": ["https://visitwroclaw.eu/en/for-families/", "https://visitwroclaw.eu/trasy/rodzinna-przygoda/"], "heroIsOriginalVideoFrame": true, "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"}});
   {const e=experiences.find(e=>e.id==="bridges-and-islands-wroclaw");const ids=["jaz-bartoszowice-wroclaw", "jaz-opatowice-wroclaw", "sluza-bartoszowice-wroclaw", "wyspa-opatowicka-wroclaw", "wielka-wyspa-wroclaw", "most-zwierzyniecki-wroclaw"];e.relatedCanonicalPlaceIds=[...new Set([...e.relatedCanonicalPlaceIds,...ids])];e.media.inheritFromCanonicalPlaceIds=[...new Set([...e.media.inheritFromCanonicalPlaceIds,...ids])];e.media.images=[...new Set([...e.media.images,...["/assets/water-lamplighter-oct30/water-22d7475b216f.jpg", "/assets/water-lamplighter-oct30/water-923084b38729.jpg", "/assets/water-lamplighter-oct30/water-191d782489f1.jpg", "/assets/water-lamplighter-oct30/water-037db0d5434b.jpg", "/assets/experiences/bridges-islands/river-04.jpg", "/assets/experiences/bridges-islands/river-05.jpg", "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg", "/assets/experiences/bridges-islands/river-03.jpg", "/assets/experiences/bridges-islands/river-06.jpg", "/assets/water-lamplighter-oct30/water-82d098a7dd92.jpg", "/assets/experiences/bridges-islands/river-07.jpg", "/assets/experiences/bridges-islands/river-09.jpg", "/assets/water-lamplighter-oct30/water-477e5c5eb736.jpg", "/assets/water-lamplighter-oct30/water-856203aa8e15.jpg", "/assets/water-lamplighter-oct30/water-a05dfc67ec42.jpg", "/assets/experiences/bridges-islands/river-19.jpg", "/assets/experiences/bridges-islands/river-01.jpg", "/assets/dialogue-beach-cemetery-oct29/bridge-002.jpg", "/assets/named-wroclaw-oct28/source-035.jpg", "/assets/experiences/bridges-islands/river-10.jpg", "/assets/experiences/bridges-islands/river-02.jpg", "/assets/water-lamplighter-oct30/water-791698768013.jpg", "/assets/today-source-refresh-20261021/run4-213-most-pomorski-poludniowy-wroclaw.jpg", "/assets/food-round-oct23/most-pomorski-poludniowy-wroclaw-088.jpg", "/assets/today-source-refresh-20261021/run4-201-most-pomorski-poludniowy-wroclaw.jpg", "/assets/gallery-cathedral-06.jpg", "/assets/today-source-refresh-20261021/run4-093-most-tumski.jpg", "/assets/today-source-refresh-20261021/run4-090-most-tumski.jpg", "/assets/today-source-refresh-20261021/run4-094-most-tumski.jpg", "/assets/today-source-refresh-20261021/run4-092-most-tumski.jpg", "/assets/today-source-refresh-20261021/run4-096-most-tumski.jpg", "/assets/experiences/bridges-islands/river-24.jpg", "/assets/experiences/bridges-islands/river-26.jpg", "/assets/wyspa-slodowa/wyspa-slodowa-04.jpg", "/assets/round24h-20261022/slodowa-10.jpg"]])];e.metadata.sourceLibraryFolders.push("near the water");e.metadata.pinPolicy="Reuse canonical identities; distinct weir, lock and island identities have verified locations. Great Island is a representative area point.";}
   {const e=experiences.find(e=>e.id==="ostrow-tumski-lamplighter");e.metadata.sourceDeltaVisits20261021=[{"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/lamplighter/2F415B79-4E58-4D18-B3D3-C27B0B8C27B7.MP4", "sourceSHA256": "1c64432875dec039cb4a7e369481b6af560d3b2d99296aa30f8a76f86b9363e0", "url": "https://www.youtube.com/watch?v=ckI1ZrIcISk", "youtubeId": "ckI1ZrIcISk", "durationSeconds": 35.761383, "visibility": "Public", "status": "public", "reopenedPublicVerified": true, "sdProcessingComplete": true, "copyright": "No issues found", "communityGuidelines": "No issues found", "originalFullPicturePreserved": true, "familyForeground": false, "approvedAt": "2026-10-30", "verifiedAt": "2026-10-30"}, {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/lamplighter/WhatsApp Video 2026-10-21 at 21.34.51 (2).mp4", "sourceSHA256": "a98cd1d09cbff71d133461b3240f92c889297f02aadd6b40c235cfeb9d77e4f3", "url": "https://www.youtube.com/watch?v=Tk2KFmsD8WY", "youtubeId": "Tk2KFmsD8WY", "durationSeconds": 8.866667, "visibility": "Public", "status": "public", "reopenedPublicVerified": true, "sdProcessingComplete": true, "copyright": "No issues found", "communityGuidelines": "No issues found", "originalFullPicturePreserved": true, "familyForeground": false, "approvedAt": "2026-10-30", "verifiedAt": "2026-10-30"}, {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/lamplighter/WhatsApp Video 2026-10-21 at 21.34.52.mp4", "sourceSHA256": "573632a9ab0d5b6c9453f7da1da584d91f4a18b060b1db160646de3232d831f9", "url": "https://www.youtube.com/watch?v=2daUNqYLcL4", "youtubeId": "2daUNqYLcL4", "durationSeconds": 3.033333, "visibility": "Public", "status": "public", "reopenedPublicVerified": true, "sdProcessingComplete": true, "copyright": "No issues found", "communityGuidelines": "No issues found", "originalFullPicturePreserved": true, "familyForeground": false, "approvedAt": "2026-10-30", "verifiedAt": "2026-10-30"}];e.media.videos=e.metadata.sourceDeltaVisits20261021.map(v=>v.url);}
+  // Fine Dining stage B: reuse the reviewed canonical restaurant identities.
+  experiences.push({
+  "id": "fine-dining-wroclaw",
+  "type": "culinary-discovery",
+  "categories": [
+    "food"
+  ],
+  "name": {
+    "he": "פיין דיינינג בוורוצלב",
+    "en": "Fine Dining in Wrocław",
+    "pl": "Fine dining we Wrocławiu",
+    "de": "Fine Dining in Breslau",
+    "cs": "Fine dining ve Vratislavi"
+  },
+  "subtitle": {
+    "he": "מסעדות שף, מטבח עונתי וארוחות מיוחדות",
+    "en": "Chef-led restaurants, seasonal cooking and special meals",
+    "pl": "Restauracje szefów kuchni, sezonowe smaki i wyjątkowe posiłki",
+    "de": "Küchenchefs, saisonale Küche und besondere Mahlzeiten",
+    "cs": "Šéfkuchařské restaurace, sezonní kuchyně a výjimečná jídla"
+  },
+  "description": {
+    "he": "בחרו מסעדה לארוחה מיוחדת: מגג המשקיף על העיר וקמרונות היסטוריים, דרך סושי וסשימי ועד שולחן לצד הנהר או בגינה. האוסף כולל סגנונות אירוח שונים, מארוחת טעימות ועד ביסטרו עונתי. בחרו מטבח, עיינו בתמונות ובתפריט העדכני והזמינו שולחן ישירות מול המסעדה.",
+    "en": "Choose somewhere for a special meal: a rooftop overlooking the city, historic vaults, sushi and sashimi, or a table beside the river or in a garden. The collection spans different styles of hospitality, from tasting menus to seasonal bistros. Choose a cuisine, explore the photographs and current menu, and book directly with the restaurant.",
+    "pl": "Wybierz miejsce na wyjątkowy posiłek: dach z widokiem na miasto, historyczne sklepienia, sushi i sashimi albo stolik nad rzeką czy w ogrodzie. Zbiór obejmuje różne style, od menu degustacyjnych po sezonowe bistro. Wybierz kuchnię, obejrzyj zdjęcia i aktualne menu, a stolik zarezerwuj bezpośrednio w restauracji.",
+    "de": "Wählen Sie einen Ort für ein besonderes Essen: eine Dachterrasse mit Stadtblick, historische Gewölbe, Sushi und Sashimi oder einen Tisch am Fluss oder im Garten. Die Auswahl reicht von Degustationsmenüs bis zu saisonalen Bistros. Wählen Sie eine Küche, entdecken Sie Fotos und aktuelle Speisekarten und reservieren Sie direkt beim Restaurant.",
+    "cs": "Vyberte si místo pro výjimečné jídlo: střechu s výhledem na město, historické klenby, sushi a sashimi nebo stůl u řeky či v zahradě. Výběr zahrnuje různé styly od degustačních menu po sezonní bistra. Zvolte kuchyni, prohlédněte si fotografie a aktuální menu a rezervujte přímo u restaurace."
+  },
+  "visitNote": {
+    "he": "הגלריה כוללת תמונות שעובדו ושוחזרו מחומר מודפס שסופק. המנות והתפריטים משתנים; בדקו זמינות ופרטי הזמנה באתר המסעדה.",
+    "en": "The gallery includes images edited and restored from supplied printed material. Dishes and menus change; check availability and booking details on the restaurant website.",
+    "pl": "Galeria zawiera obrazy opracowane i odtworzone z dostarczonych materiałów drukowanych. Dania i menu się zmieniają; dostępność i rezerwacje sprawdź na stronie restauracji.",
+    "de": "Die Galerie enthält aus bereitgestelltem Druckmaterial bearbeitete und restaurierte Bilder. Gerichte und Speisekarten ändern sich; Verfügbarkeit und Reservierung bitte auf der Restaurantseite prüfen.",
+    "cs": "Galerie obsahuje snímky upravené a obnovené z dodaných tištěných materiálů. Jídla a menu se mění; dostupnost a rezervace ověřte na webu restaurace."
+  },
+  "mapTitle": {
+    "he": "המסעדות על המפה",
+    "en": "Restaurants on the map",
+    "pl": "Restauracje na mapie",
+    "de": "Restaurants auf der Karte",
+    "cs": "Restaurace na mapě"
+  },
+  "mapNote": {
+    "he": "כל סיכה מציינת מסעדה. בחרו מקום כדי לראות פרטים, תמונות ואפשרויות ניווט.",
+    "en": "Each pin represents a restaurant. Select a place for details, photographs and navigation.",
+    "pl": "Każda pinezka oznacza restaurację. Wybierz miejsce, aby zobaczyć szczegóły, zdjęcia i nawigację.",
+    "de": "Jede Markierung steht für ein Restaurant. Wählen Sie einen Ort für Details, Fotos und Navigation.",
+    "cs": "Každá značka představuje restauraci. Vyberte místo pro podrobnosti, fotografie a navigaci."
+  },
+  "galleryTitle": {
+    "he": "תמונות המסעדות והמנות",
+    "en": "Restaurants and dishes",
+    "pl": "Restauracje i dania",
+    "de": "Restaurants und Gerichte",
+    "cs": "Restaurace a pokrmy"
+  },
+  "placeWebsiteLabel": {
+    "he": "אתר ותפריט",
+    "en": "Website and menu",
+    "pl": "Strona i menu",
+    "de": "Website und Speisekarte",
+    "cs": "Web a menu"
+  },
+  "relatedCanonicalPlaceIds": [
+    "acquario-wroclaw",
+    "wierzbowa-15",
+    "craft-wroclaw",
+    "manami-sushi-wroclaw",
+    "przystan-marina-wroclaw",
+    "forum-kulinarne-wroclaw",
+    "la-colonna-wroclaw",
+    "warsztat-food-garden-wroclaw",
+    "restauracja-wroclawska"
+  ],
+  "productRefs": [
+    "lifestyle-guide"
+  ],
+  "mapPoints": [],
+  "media": {
+    "hero": {
+      "canonicalPlaceId": "acquario-wroclaw",
+      "photoIndex": 0
+    },
+    "inheritFromCanonicalPlaceIds": [
+      "acquario-wroclaw",
+      "wierzbowa-15",
+      "craft-wroclaw",
+      "manami-sushi-wroclaw",
+      "przystan-marina-wroclaw",
+      "forum-kulinarne-wroclaw",
+      "la-colonna-wroclaw",
+      "warsztat-food-garden-wroclaw",
+      "restauracja-wroclawska"
+    ],
+    "inheritSocial": true
+  },
+  "diningFilters": {
+    "category": "eat"
+  },
+  "diningFilterKeys": [
+    "cuisine"
+  ],
+  "nearbyDiscovery": false,
+  "showDiningEvidence": false,
+  "metadata": {
+    "source": "data/fine-dining-nov7-provenance.json",
+    "selection": "Nine restaurant identities reviewed in stage A; Old Havana is a bar/lounge and is excluded. Editorial collection spanning tasting menus, sushi, regional restaurants and seasonal bistros; no stars or ranking asserted.",
+    "verifiedAt": "2026-11-07"
+  }
+});
+
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
   const getExperience = (id) => byId[id] || null;
   const forProduct = (productId) => experiences.filter((experience) => experience.productRefs.includes(productId));

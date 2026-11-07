@@ -115,6 +115,17 @@ window.WROC_HOME_EXPERIENCES = [
     "photo": "/assets/charlotte/charlotte-visit-01.jpg"
   },
   {
+    "id": "fine-dining-wroclaw",
+    "name": {
+      "he": "פיין דיינינג בוורוצלב",
+      "en": "Fine Dining in Wrocław",
+      "pl": "Fine dining we Wrocławiu",
+      "de": "Fine Dining in Breslau",
+      "cs": "Fine dining ve Vratislavi"
+    },
+    "photo": "/assets/fine-dining-nov7/acquario-restored.jpg"
+  },
+  {
     "id": "vegetarian-vegan-wroclaw",
     "name": {
       "he": "וורוצלב לצמחונים ולטבעונים",

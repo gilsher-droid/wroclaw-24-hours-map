@@ -15,3 +15,7 @@
 .experience-journey{margin:36px 0 48px}.experience-journey[hidden]{display:none}.experience-journey>p,.experience-journey-options p{line-height:1.8;color:var(--muted)}.experience-journey-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.experience-journey-options article{padding:24px;background:white;border:1px solid #d6dfeb;border-radius:20px;min-width:0}.experience-journey-options article:first-child{grid-column:1/-1;border-color:var(--gold)}.experience-journey-options h3{margin-top:0}.experience-journey-options p{white-space:pre-line}.experience-journey-options a{overflow-wrap:anywhere}@media(max-width:700px){.experience-journey-options{grid-template-columns:1fr}.experience-journey-options article{padding:20px}}
 
 #experience-map-actions{margin:16px 0}#experience-map-actions[hidden]{display:none}
+
+.experience-place-card .experience-place-local-name{font-size:13px;margin:0 0 12px;color:var(--muted)}
+.experience-restaurant-website{background:var(--navy)!important;color:white;border-color:var(--navy)!important}
+#experience-lightbox-close{width:44px;height:44px;padding:0;font-size:26px;line-height:1}

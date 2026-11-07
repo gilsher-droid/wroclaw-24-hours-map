@@ -1,3 +1,4 @@
+import{beforeFineDiningStageB}from'./fine-dining-stage-b-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -7,7 +8,7 @@ import {beforeFineDiningStageA} from './fine-dining-stage-a-baseline.mjs';
 const proof=JSON.parse(readFileSync('data/fine-dining-stage-a-preservation.json'));
 const media=JSON.parse(readFileSync('data/fine-dining-nov7-provenance.json'));
 const hash=p=>createHash('sha256').update(JSON.stringify(p)).digest('hex');
-function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window});return window;}
+function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window});return beforeFineDiningStageB(window);}
 test('Stage A enriches two canonical identities, adds eight and preserves every unrelated place and alias',()=>{
  const w=load(),c=w.WROC_CATALOG;assert.equal(Object.keys(proof.added).length,8);assert.deepEqual(Object.keys(proof.changed).sort(),['forum-kulinarne-wroclaw','wierzbowa-15']);
  for(const[id,h]of Object.entries(proof.unaffectedHashes))assert.equal(hash(c.getPlace(id)),h,id);

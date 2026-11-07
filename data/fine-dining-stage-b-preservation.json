@@ -1,0 +1,179 @@
+{
+  "base": "72daaee94fbb3af23cf612f8e7883d25c576cd5d",
+  "id": "fine-dining-wroclaw",
+  "experienceHash": "831403f40fdd34a9865ae48f4ad7402e639975976257d4a6b05b8406b8e5419d",
+  "homeHash": "3994798e561e5e5b0862b66cc0596f0af5077fa7e9acd00b096f9a19a31a860c",
+  "beforePlaceHash": "f3b42cd235a3ea12076ad78442347da074a2a22139bdd906e6a10157583425c9",
+  "beforeExperienceHashes": {
+    "street-art-nadodrze-olbin": "571b90a45b068a062e3281ba900f5880612ffb41fc2d64be9b8f13de903e5450",
+    "culture-evening": "5838745b47e5fb3e8eb8596e915b42a26f66b5a056fd5de45edf0f4b4d81062b",
+    "polinka-cable-car-ride": "8ccc299f547472666fdaa28b08ba0cc07cc69f8a45909aaa760d60f3bffc838c",
+    "oder-river-cruise": "6db143b3beff2aaa4a04c7adb3adda1340b5c3e285dbbae56e3b2c052b9ef5d2",
+    "wroclaw-multimedia-fountain-show": "01f3ea32857306f5f97817433f6276ee39f773434712354ea6d37e9f731fddfa",
+    "wroclaw-dwarf-hunt": "867854bc94cb543b53d8078f9fca580739c58ea9e1dd9591032417a4d237453b",
+    "summer-bathing-and-relaxation": "959f3c2ec3ba621c59c731194ec332339ae7edacdd368b587ec8f1cd8b6928f9",
+    "underground-wwii-tunnels": "c9c922317b6cc1c19523c05e6dce6fff0781a5be549f5fbcaf86af4d9c845b88",
+    "wroclaw-prague-public-transport": "495b5f65145ca8a4b5dd40c4431a7ecd6173d0e8ee57fd53679b85d2beb0832b",
+    "wroclaw-tram-ride": "d897e188e36e2585cd6194d740f584be9d673d361cd9e058466aa9bc80902d03",
+    "beach-bars-and-waterside-summer": "516bac97f5ab37bc51ad5dbc262de87abbfe9850bb0a244347e89b0dc01acb13",
+    "nadodrze-neighbourhood-walk": "42359c38f57ade885145c85dd9ad6e0b7b6321dce0942d8d0572f8dfc36d24c4",
+    "wroclaw-milk-bars": "23b1671b6cceb7155c302dae80e0bbb94505f30820c256741e046a5e07e28278",
+    "coffee-lovers-wroclaw": "20d8995231db69cdc179e393a2a7d2c56a5bbe378ae7a06c2c21381ca48baa93",
+    "bridges-and-islands-wroclaw": "8a189a79572cd0ff95bc272659606e941fe9246e1ee2a3dd1edb19ed892866ed",
+    "foodies-wroclaw": "4c99f3322ddc470f1a46baa0fdfdfcf2650fa3e7f224d8ad5ad0ba27bc164474",
+    "vegetarian-vegan-wroclaw": "1f7597734fcdafe20afb688cd844049415be7883708e224295e27527d681a08a",
+    "ostrow-tumski-lamplighter": "40ef7dc318c08e3240fd21060a6deeeb909baabadcbd46c5846a4dd38ca9fdf7"
+  },
+  "beforeHome": [
+    {
+      "id": "walk-with-our-guide",
+      "kind": "experience",
+      "destinationPath": "/products/interactive-maps/guides.html",
+      "name": {
+        "he": "ללכת עם המדריך שלנו",
+        "en": "Walk with our guide",
+        "pl": "Spacer z naszym przewodnikiem",
+        "de": "Mit unserem Reiseführer durch Wrocław",
+        "cs": "Procházka s naším průvodcem"
+      },
+      "photo": "/assets/wuwa-estate-14.jpg"
+    },
+    {
+      "id": "food-coffee-and-more",
+      "kind": "experience",
+      "destinationPath": "/products/interactive-maps/lifestyle.html",
+      "name": {
+        "he": "אוכל, קפה ומה שביניהם",
+        "en": "Food, cafés and more",
+        "pl": "Jedzenie, kawa i więcej",
+        "de": "Essen, Cafés und mehr",
+        "cs": "Jídlo, káva a něco navíc"
+      },
+      "photo": "/assets/food-cafes/cafe-berg-01.jpg"
+    },
+    {
+      "id": "coffee-lovers-wroclaw",
+      "name": {
+        "he": "וורוצלב לאוהבי קפה",
+        "en": "Wrocław for coffee lovers",
+        "pl": "Wrocław dla miłośników kawy",
+        "de": "Breslau für Kaffeeliebhaber",
+        "cs": "Vratislav pro milovníky kávy"
+      },
+      "photoPosition": "50% 78%",
+      "photo": "/assets/food-cafes/czarna-magia-04.jpg"
+    },
+    {
+      "id": "beach-bars-and-waterside-summer",
+      "name": {
+        "he": "ביץ׳ ברים וקיץ ליד המים",
+        "en": "Beach bars and summer by the water",
+        "pl": "Beach bary i lato nad wodą",
+        "de": "Beachbars und Sommer am Wasser",
+        "cs": "Plážové bary a léto u vody"
+      },
+      "photo": "/assets/experiences/beach-bars/visit-43.jpg"
+    },
+    {
+      "id": "wroclaw-tram-ride",
+      "name": {
+        "he": "נסיעה בטראם בוורוצלב",
+        "en": "Ride a tram in Wrocław",
+        "pl": "Przejażdżka tramwajem po Wrocławiu",
+        "de": "Straßenbahnfahrt durch Wrocław",
+        "cs": "Jízda tramvají po Vratislavi"
+      },
+      "photo": "/assets/experiences/tram/IMG_4629.jpg"
+    },
+    {
+      "id": "wroclaw-dwarf-hunt",
+      "name": {
+        "he": "מחפשים את הגמדים של ורוצלב",
+        "en": "Hunt for Wrocław's dwarfs",
+        "pl": "Poszukiwanie wrocławskich krasnali",
+        "de": "Auf der Suche nach Breslaus Zwergen",
+        "cs": "Hledání vratislavských trpaslíků"
+      },
+      "photo": "/assets/papa-refresh-20261022-01.jpg"
+    },
+    {
+      "id": "nadodrze-neighbourhood-walk",
+      "name": {
+        "he": "שיטוט ברובע נדאודז׳ה",
+        "en": "Explore the Nadodrze neighbourhood",
+        "pl": "Spacer po Nadodrzu",
+        "de": "Streifzug durch Nadodrze",
+        "cs": "Procházka čtvrtí Nadodrze"
+      },
+      "photo": "/assets/experiences/nadodrze/nadodrze-library-facade.jpg"
+    },
+    {
+      "id": "wroclaw-milk-bars",
+      "name": {
+        "he": "אוכלים במילק בארים",
+        "en": "Discover Wrocław milk bars",
+        "pl": "Odkryj wrocławskie bary mleczne",
+        "de": "Breslaus Milchbars entdecken",
+        "cs": "Objevte vratislavské mléčné bary"
+      },
+      "photo": "/assets/experiences/milk-bars/visit-05.jpg"
+    },
+    {
+      "id": "bridges-and-islands-wroclaw",
+      "name": {
+        "he": "מסע של 102 גשרים מתחיל בגשר אחד",
+        "en": "A journey of 102 bridges begins with one",
+        "pl": "Podróż przez 102 mosty zaczyna się od jednego",
+        "de": "Eine Reise über 102 Brücken beginnt mit einer",
+        "cs": "Cesta přes 102 mostů začíná jediným"
+      },
+      "photo": "/assets/experiences/bridges-islands/river-01.jpg"
+    },
+    {
+      "id": "foodies-wroclaw",
+      "name": {
+        "he": "וורוצלב לפודיז",
+        "en": "Wrocław for food lovers",
+        "pl": "Wrocław dla smakoszy",
+        "de": "Wrocław für Feinschmecker",
+        "cs": "Vratislav pro gurmány"
+      },
+      "photo": "/assets/charlotte/charlotte-visit-01.jpg"
+    },
+    {
+      "id": "vegetarian-vegan-wroclaw",
+      "name": {
+        "he": "וורוצלב לצמחונים ולטבעונים",
+        "en": "Vegetarian and vegan Wrocław",
+        "pl": "Wrocław wegetariański i wegański",
+        "de": "Vegetarisch und vegan in Wrocław",
+        "cs": "Vegetariánská a veganská Vratislav"
+      },
+      "photo": "/assets/experiences/milk-bars/visit-03.jpg"
+    },
+    {
+      "id": "ostrow-tumski-lamplighter",
+      "name": {
+        "he": "מדליק המנורות של אי הקתדרלות",
+        "en": "The lamplighter of Cathedral Island",
+        "pl": "Latarnik na Ostrowie Tumskim",
+        "de": "Der Laternenanzünder auf der Dominsel",
+        "cs": "Lampář na Tumském ostrově"
+      },
+      "photoPosition": "center 45%",
+      "photo": "/assets/water-lamplighter-oct30/lamplighter-visit-frame.jpg"
+    },
+    {
+      "id": "wroclaw-prague-public-transport",
+      "name": {
+        "he": "שיר שחלמתי על פראג",
+        "en": "A Song I Dreamed About Prague",
+        "pl": "Piosenka, w której śniłem o Pradze",
+        "de": "Ein Lied, in dem ich von Prag träumte",
+        "cs": "Píseň, ve které se mi zdálo o Praze"
+      },
+      "photoPosition": "50% 40%",
+      "photo": "/assets/experiences/prague/IMG_5425.JPG"
+    }
+  ]
+}
