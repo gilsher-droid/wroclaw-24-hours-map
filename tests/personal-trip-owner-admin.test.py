@@ -84,6 +84,26 @@ class OwnerAccess(unittest.TestCase):
   status,page,_=self.get('?action=owner-access&customer='+self.alice)
   self.assertEqual(status,200)
   return re.search(b'name="intent" value="([^"]+)"',page)[1].decode()
+ def test_reopening_dashboard_bridge_preserves_pending_form_and_revocation(self):
+  dashboard=self.root/'public/owner-dashboard';dashboard.mkdir(exist_ok=True)
+  (dashboard/'owner-auth.php').write_text('<?php function owner_expired($state,$now){return ($state["last_activity"]??0)<$now-1800;}')
+  state=self.root/'owner-dashboard-state';state.mkdir(exist_ok=True)
+  (state/'map-owners.json').write_text(json.dumps({'synthetic-owner':'owner'}))
+  # Test-only login fixture; no production endpoint or real account involved.
+  (self.root/'public/seed-dashboard.php').write_text('<?php session_name("__Secure-wroc_owner"); session_start(); $_SESSION=["owner"=>"synthetic-owner","last_activity"=>time()];')
+  self.req(self.client,'../seed-dashboard.php')
+  status,page,_=self.get('?action=owner-entry');self.assertEqual(status,200)
+  self.csrf=re.search(b'name="csrf-token" content="([^"]+)"',page)[1].decode()
+  intent=self.reset_form()
+  status,page,_=self.get('?action=owner-entry');self.assertEqual(status,200)
+  self.assertEqual(re.search(b'name="csrf-token" content="([^"]+)"',page)[1].decode(),self.csrf)
+  before=(self.private/'users'/f'{self.alice}.json').read_bytes()
+  status,page,_=self.post_reset(intent,checkOnly='1');self.assertEqual(status,200)
+  self.assertIn(b'Delivery details verified',page)
+  self.assertEqual(before,(self.private/'users'/f'{self.alice}.json').read_bytes())
+  path=self.private/'users'/f'{self.owner}.json';record=json.loads(path.read_text());record.pop('role');path.write_text(json.dumps(record))
+  self.assertEqual(self.get('?action=owner-entry')[0],403)
+  self.assertEqual(self.post_reset(intent,checkOnly='1')[0],403)
  def post_reset(self,form_intent,**values):
   data={'csrf':self.csrf,'intent':form_intent,'username':'alice','email':'alice@example.test','contactFormat':'facebook-ids-v1','fbKind':'direct','fbRecipient':'123','threadKind':'group','threadGroup':'789','threadPost':'123','threadComment':'456','identityConfirmed':'1',**values}
   return self.req(self.client,'?action=owner-access-reset&customer='+self.alice,urlencode(data).encode(),{'Content-Type':'application/x-www-form-urlencoded'})

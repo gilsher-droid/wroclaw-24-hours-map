@@ -65,10 +65,18 @@ if ($action==='owner-entry') {
  if ($dashboardIdentity===null) {header('Location: /owner-dashboard/',true,303);exit;}
  $owner=dashboardOwnerRecord($private,$dashboardIdentity);
  if (!$owner) jsonReply(['error'=>'Existing owner access is required'],403);
- session_regenerate_id(true);
- $_SESSION=['csrf'=>bin2hex(random_bytes(32)),'user'=>$owner['key'],
-  'version'=>(int)$owner['record']['sessionVersion'],'issued'=>time(),
-  'dashboardOwner'=>$dashboardIdentity,'dashboardSession'=>hash('sha256',(string)$_COOKIE['__Secure-wroc_owner'])];
+ // Reopening maps in another tab must not invalidate pending owner forms.
+ // Rotate only when establishing a new authenticated bridge, after validating
+ // the live dashboard identity and saved owner role above.
+ $sameOwnerBridge=$isAdmin && $key===$owner['key']
+  && ($_SESSION['dashboardOwner']??null)===$dashboardIdentity
+  && hash_equals((string)($_SESSION['dashboardSession']??''),hash('sha256',(string)$_COOKIE['__Secure-wroc_owner']));
+ if(!$sameOwnerBridge){
+  session_regenerate_id(true);
+  $_SESSION=['csrf'=>bin2hex(random_bytes(32)),'user'=>$owner['key'],
+   'version'=>(int)$owner['record']['sessionVersion'],'issued'=>time(),
+   'dashboardOwner'=>$dashboardIdentity,'dashboardSession'=>hash('sha256',(string)$_COOKIE['__Secure-wroc_owner'])];
+ }
  ownerAudit($private,$owner['key'],'','dashboard-owner-entry');
  $target=($_GET['target']??'')==='contributions'?'?action=community&view=review':'?action=admin';
  header('Location: '.$target,true,303);exit;
