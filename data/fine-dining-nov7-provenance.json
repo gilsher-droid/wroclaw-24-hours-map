@@ -1,0 +1,471 @@
+{
+  "stage": "A",
+  "reviewedAt": "2026-11-07",
+  "sourceDirectory": "fine dining",
+  "sourceCount": 18,
+  "created": 8,
+  "enriched": 2,
+  "restoredImages": 17,
+  "mode": "builtin image_gen edits, followed by JPEG encoding only",
+  "restorationBrief": "Extract the selected source photograph faithfully; flatten page perspective and curvature; remove booklet edges, editorial text, QR codes, selection badges and print glare. Preserve the venue/dish rather than redesign it. Outputs are AI-assisted reconstructions, not untouched documentary photographs.",
+  "limitations": [
+    "No new Fine Dining experience, itinerary, pricing, stars or personal-visit claims.",
+    "Old Havana is a bar/lounge, excluded from restaurant classification.",
+    "IMG_4012 is a duplicate/context page; its source is recorded without publishing a duplicate image.",
+    "Staff/owner portraits in the booklet were not selected."
+  ],
+  "places": [
+    {
+      "id": "acquario-wroclaw",
+      "action": "created",
+      "localName": "Acquario",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4004.JPG",
+          "sha256": "90cfbcb041b2eea889208df954452d0c76a25cbde91da5ed23beedef7e8b38b4"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/acquario-restored.jpg"
+      ],
+      "website": "https://monopolwroclaw.hotel.com.pl/hotel-monopol-wroclaw/restauracje/ristorante-acquario/",
+      "coordinates": {
+        "lat": 51.1061957,
+        "lng": 17.0307616
+      }
+    },
+    {
+      "id": "wierzbowa-15",
+      "action": "enriched",
+      "localName": "Wierzbowa 15 by Juanlu Fernández",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4005.JPG",
+          "sha256": "8f658f74866375fbf8d5b7f47102e404582a4cb121d7364de9545e05b54d6999"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/wierzbowa-restored.jpg"
+      ],
+      "website": "https://www.wierzbowa15.pl/en",
+      "coordinates": {
+        "lat": 51.1049625,
+        "lng": 17.0364118
+      }
+    },
+    {
+      "id": "craft-wroclaw",
+      "action": "created",
+      "localName": "Craft",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4006.JPG",
+          "sha256": "c6de2d901295d51ee243a060ec2c685150009882a2c69d62225593f5c4eb3005"
+        },
+        {
+          "file": "fine dining/IMG_4007.JPG",
+          "sha256": "6ff695ebf80f291be0a5261ff544973607e85ff24f5f01391b86037c09eee611"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/craft-restored.jpg",
+        "/assets/fine-dining-nov7/craft-food-restored.jpg"
+      ],
+      "website": "https://craftrestauracja.pl/",
+      "coordinates": {
+        "lat": 51.1135818,
+        "lng": 17.0454026
+      }
+    },
+    {
+      "id": "manami-sushi-wroclaw",
+      "action": "created",
+      "localName": "Manami Sushi",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4008.JPG",
+          "sha256": "0fb1b6d86f35dc4205335007a3dd78dd1190435f79de23be0493994b0d4df979"
+        },
+        {
+          "file": "fine dining/IMG_4009.JPG",
+          "sha256": "e34359642e68a1fe651bbdac17514be01a4e899bcc44d1d1212b4301d80f761e"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/manami-restored.jpg",
+        "/assets/fine-dining-nov7/manami-food-restored.jpg"
+      ],
+      "website": "https://manami-sushi.pl/",
+      "coordinates": {
+        "lat": 51.1147163,
+        "lng": 17.0269857
+      }
+    },
+    {
+      "id": "przystan-marina-wroclaw",
+      "action": "created",
+      "localName": "Przystań & Marina",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4010.JPG",
+          "sha256": "eab7b6559cbbf982d5c510865513acf671f65a3de581f3b4908db1409a37668c"
+        },
+        {
+          "file": "fine dining/IMG_4011.JPG",
+          "sha256": "babb94b89192bfe471748e2613e9e53b0304d59a16270fbea4b09d4fde58f17f"
+        },
+        {
+          "file": "fine dining/IMG_4012.JPG",
+          "sha256": "d83ad857c731dc91ffcfe44143c7de1f0145acbca2679b8439869cba464c2cd6"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/przystan-restored.jpg",
+        "/assets/fine-dining-nov7/przystan-food-restored.jpg"
+      ],
+      "website": "https://www.przystan.wroc.pl/",
+      "coordinates": {
+        "lat": 51.1148322,
+        "lng": 17.0329298
+      }
+    },
+    {
+      "id": "forum-kulinarne-wroclaw",
+      "action": "enriched",
+      "localName": "Forum Kulinarne",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4013.JPG",
+          "sha256": "e2f7e3b0ea4fc90a8b6e49d36ddde891d4a2ab2cc11cf10902388b78d6966823"
+        },
+        {
+          "file": "fine dining/IMG_4014.JPG",
+          "sha256": "60f0b74f8a057d8ef4feb931d96399759c846888e4229a905f8ecb0c5c648e7b"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/forum-restored.jpg",
+        "/assets/fine-dining-nov7/forum-food-restored.jpg"
+      ],
+      "website": "https://forumkulinarne.eu/",
+      "coordinates": {
+        "lat": 51.106514,
+        "lng": 17.0297567
+      }
+    },
+    {
+      "id": "la-colonna-wroclaw",
+      "action": "created",
+      "localName": "La Colonna",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4015.JPG",
+          "sha256": "f2975896edcc779d0d7867a69fcd1390f895ff570368eef489bebd40f80332da"
+        },
+        {
+          "file": "fine dining/IMG_4016.JPG",
+          "sha256": "99805e17160936a429d81b9d15d4de4aff8ac6e51795bf6d2a6bf0cdf5f0e280"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/colonna-restored.jpg",
+        "/assets/fine-dining-nov7/colonna-food-restored.jpg"
+      ],
+      "website": "https://la-colonna.pl/",
+      "coordinates": {
+        "lat": 51.1118922,
+        "lng": 17.0285424
+      }
+    },
+    {
+      "id": "warsztat-food-garden-wroclaw",
+      "action": "created",
+      "localName": "Warsztat – Food & Garden",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4017.JPG",
+          "sha256": "5921ae9773c53fc5929770ee7afac1b2d4bcc146711b3eefc1b2467eed50fb07"
+        },
+        {
+          "file": "fine dining/IMG_4018.JPG",
+          "sha256": "06b93a22ec79e51bad0914a3e7b7b4bb5847cf7f2aa4bde4a64607178c6523ca"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/warsztat-restored.jpg",
+        "/assets/fine-dining-nov7/warsztat-food-restored.jpg"
+      ],
+      "website": "https://warsztatfoodandgarden.com/",
+      "coordinates": {
+        "lat": 51.1216068,
+        "lng": 16.9948475
+      }
+    },
+    {
+      "id": "restauracja-wroclawska",
+      "action": "created",
+      "localName": "Restauracja Wrocławska",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4019.JPG",
+          "sha256": "b342a3e7b5966d230ff45c29b1523b0941c4f89c7f915ef691d1b27685634b48"
+        },
+        {
+          "file": "fine dining/IMG_4020.JPG",
+          "sha256": "bb9dc4b336eda9be821be9d006566cc3e34888255ee40f7729ca8ebc82862a44"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/wroclawska-restored.jpg",
+        "/assets/fine-dining-nov7/wroclawska-food-restored.jpg"
+      ],
+      "website": "https://wroclawska.com.pl/",
+      "coordinates": {
+        "lat": 51.1111604,
+        "lng": 17.0349659
+      }
+    },
+    {
+      "id": "old-havana-wroclaw",
+      "action": "created",
+      "localName": "Old Havana",
+      "sourceFiles": [
+        {
+          "file": "fine dining/IMG_4021.JPG",
+          "sha256": "e2bd60b880b3b6c58e5c355b9321309212911cfc2bed4c939713a3e34a2d5012"
+        }
+      ],
+      "photos": [
+        "/assets/fine-dining-nov7/old-havana-restored.jpg"
+      ],
+      "website": "https://wroclaw.oldhavana.pl/kontakt/",
+      "coordinates": {
+        "lat": 51.1118297,
+        "lng": 17.0297793
+      }
+    }
+  ],
+  "media": {
+    "acquario": {
+      "asset": "/assets/fine-dining-nov7/acquario-restored.jpg",
+      "assetSHA256": "86214ab3ec67b6598826205f26ecf7e8fca0865062be720753e32f963a99abb2",
+      "sourceFile": "fine dining/IMG_4004.JPG",
+      "sourceSHA256": "90cfbcb041b2eea889208df954452d0c76a25cbde91da5ed23beedef7e8b38b4",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "wierzbowa": {
+      "asset": "/assets/fine-dining-nov7/wierzbowa-restored.jpg",
+      "assetSHA256": "1eb9ec2769c4442075f32ab92537500e644c38ff4ca834fdc3c89d5c659c77d9",
+      "sourceFile": "fine dining/IMG_4005.JPG",
+      "sourceSHA256": "8f658f74866375fbf8d5b7f47102e404582a4cb121d7364de9545e05b54d6999",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "craft": {
+      "asset": "/assets/fine-dining-nov7/craft-restored.jpg",
+      "assetSHA256": "a67fa14ea28388eddef7cb45da3086f7c8e7bc9f5983778a9ad195761236fe6d",
+      "sourceFile": "fine dining/IMG_4007.JPG",
+      "sourceSHA256": "6ff695ebf80f291be0a5261ff544973607e85ff24f5f01391b86037c09eee611",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "manami": {
+      "asset": "/assets/fine-dining-nov7/manami-restored.jpg",
+      "assetSHA256": "4c94b60cbb4fe3633d7ff23d63329eaa2c49373858f88a0fd790d9469cc500bb",
+      "sourceFile": "fine dining/IMG_4008.JPG",
+      "sourceSHA256": "0fb1b6d86f35dc4205335007a3dd78dd1190435f79de23be0493994b0d4df979",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "przystan": {
+      "asset": "/assets/fine-dining-nov7/przystan-restored.jpg",
+      "assetSHA256": "5a18b4f879774402031ae1cad188d39da13c90a3d4da3b665e1704206c51e1b4",
+      "sourceFile": "fine dining/IMG_4011.JPG",
+      "sourceSHA256": "babb94b89192bfe471748e2613e9e53b0304d59a16270fbea4b09d4fde58f17f",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "forum": {
+      "asset": "/assets/fine-dining-nov7/forum-restored.jpg",
+      "assetSHA256": "522d04172f04ee9a436ba28d9ab1d9c3a55c22c74507416d8edf0a03ecb39e09",
+      "sourceFile": "fine dining/IMG_4014.JPG",
+      "sourceSHA256": "60f0b74f8a057d8ef4feb931d96399759c846888e4229a905f8ecb0c5c648e7b",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "colonna": {
+      "asset": "/assets/fine-dining-nov7/colonna-restored.jpg",
+      "assetSHA256": "454b4236a2aff1a825961c00883b8c40d0c1e0ca40d46143a5e773e7bf640cce",
+      "sourceFile": "fine dining/IMG_4016.JPG",
+      "sourceSHA256": "99805e17160936a429d81b9d15d4de4aff8ac6e51795bf6d2a6bf0cdf5f0e280",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "warsztat": {
+      "asset": "/assets/fine-dining-nov7/warsztat-restored.jpg",
+      "assetSHA256": "fc4676b701b8d4a61750d664f8f50a4b1b2d84cdacc392a4c70e8438e86498b1",
+      "sourceFile": "fine dining/IMG_4017.JPG",
+      "sourceSHA256": "5921ae9773c53fc5929770ee7afac1b2d4bcc146711b3eefc1b2467eed50fb07",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "wroclawska": {
+      "asset": "/assets/fine-dining-nov7/wroclawska-restored.jpg",
+      "assetSHA256": "d04ec750f7fb3b177c5df5a3d6692640d3c75e72d2e0a93f206d5af633874601",
+      "sourceFile": "fine dining/IMG_4020.JPG",
+      "sourceSHA256": "bb9dc4b336eda9be821be9d006566cc3e34888255ee40f7729ca8ebc82862a44",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "old-havana": {
+      "asset": "/assets/fine-dining-nov7/old-havana-restored.jpg",
+      "assetSHA256": "f4dc20ee7538d3a997e8e1474d32ff81b6f7a5a63c80bb97b2951686ef29d2ef",
+      "sourceFile": "fine dining/IMG_4021.JPG",
+      "sourceSHA256": "e2bd60b880b3b6c58e5c355b9321309212911cfc2bed4c939713a3e34a2d5012",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "craft-food": {
+      "asset": "/assets/fine-dining-nov7/craft-food-restored.jpg",
+      "assetSHA256": "14bc4db5da96b0064e62b9ebeaf2831ca415ea3cdb5cdf1c02a05d4607d934c3",
+      "sourceFile": "fine dining/IMG_4006.JPG",
+      "sourceSHA256": "c6de2d901295d51ee243a060ec2c685150009882a2c69d62225593f5c4eb3005",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "manami-food": {
+      "asset": "/assets/fine-dining-nov7/manami-food-restored.jpg",
+      "assetSHA256": "043926c8701d8d113d52d321620c1747eb0e4a3e71bc4fd3e9c59644669bc4a6",
+      "sourceFile": "fine dining/IMG_4009.JPG",
+      "sourceSHA256": "e34359642e68a1fe651bbdac17514be01a4e899bcc44d1d1212b4301d80f761e",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "przystan-food": {
+      "asset": "/assets/fine-dining-nov7/przystan-food-restored.jpg",
+      "assetSHA256": "5504668c421b805b3c5f7dcd88a707f140a1be82aa7c7d74c011afb91de0b11e",
+      "sourceFile": "fine dining/IMG_4010.JPG",
+      "sourceSHA256": "eab7b6559cbbf982d5c510865513acf671f65a3de581f3b4908db1409a37668c",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "forum-food": {
+      "asset": "/assets/fine-dining-nov7/forum-food-restored.jpg",
+      "assetSHA256": "c11db926b0c43171a48a1a9a74d3778239c13ad4fd9a7aae2fd9a45fcddb95df",
+      "sourceFile": "fine dining/IMG_4013.JPG",
+      "sourceSHA256": "e2f7e3b0ea4fc90a8b6e49d36ddde891d4a2ab2cc11cf10902388b78d6966823",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "colonna-food": {
+      "asset": "/assets/fine-dining-nov7/colonna-food-restored.jpg",
+      "assetSHA256": "ca34908ea7943e644d682d33b45aa2a4720c65f8caaf2155837769fe7721f8f5",
+      "sourceFile": "fine dining/IMG_4015.JPG",
+      "sourceSHA256": "f2975896edcc779d0d7867a69fcd1390f895ff570368eef489bebd40f80332da",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "warsztat-food": {
+      "asset": "/assets/fine-dining-nov7/warsztat-food-restored.jpg",
+      "assetSHA256": "fc1f372375b999634737a9cff3605c18a064db0c09f5be17487cbaf7ad92658e",
+      "sourceFile": "fine dining/IMG_4018.JPG",
+      "sourceSHA256": "06b93a22ec79e51bad0914a3e7b7b4bb5847cf7f2aa4bde4a64607178c6523ca",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    },
+    "wroclawska-food": {
+      "asset": "/assets/fine-dining-nov7/wroclawska-food-restored.jpg",
+      "assetSHA256": "f78b345be810bf0a80020b153469c45133a54cc731bab9c2f714be3c84a2286e",
+      "sourceFile": "fine dining/IMG_4019.JPG",
+      "sourceSHA256": "b342a3e7b5966d230ff45c29b1523b0941c4f89c7f915ef691d1b27685634b48",
+      "original": false,
+      "aiEdited": true,
+      "editMethod": "image_gen",
+      "originalFullPicturePreserved": false,
+      "familyForeground": false,
+      "reviewedAt": "2026-11-07",
+      "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit."
+    }
+  }
+}

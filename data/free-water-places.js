@@ -350,3 +350,128 @@
 
 // Named Wroclaw inbox: approved original media, existing canonical identities.
 (()=>{const reviewed={"cafe-targowa":{"id":"cafe-targowa","localName":"Cafe Targowa","name":{"he":"Cafe Targowa","en":"Cafe Targowa","pl":"Cafe Targowa","de":"Cafe Targowa","cs":"Cafe Targowa"},"description":{"he":"בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.","en":"A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.","pl":"Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.","de":"Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.","cs":"Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma."},"location":{"countryCode":"PL","regionId":"lower-silesia","cityId":"wroclaw","coordinates":{"lat":51.1124915,"lng":17.0408014}},"categories":["drink","eat"],"sourceUrls":[],"aliases":[],"sourceRecords":[],"coordinateCandidates":[],"status":"published","editorialPriority":"normal","taxonomy":{"categories":["drink","eat"],"tags":[]},"suitability":{"recommendedFor":[],"walkingIntensity":null,"familyFriendly":null,"couples":null,"solo":null,"romantic":null,"indoorOutdoor":null,"rainFriendly":null,"budgetLevel":null,"accessibility":{"level":null,"notes":null}},"visit":{"durationMinutes":null,"bestTimeOfDay":[],"seasonalSuitability":[],"openingHoursNotes":null},"links":{"website":"https://pijkranowke.pl/pijkranowke-we-wroclawiu/","navigation":{"googleMaps":null,"appleMaps":null}},"transport":{"carRequired":null,"publicTransportNotes":null,"parkingNotes":null,"drivingTimeFromWroclawMinutes":null},"languages":["he","en","pl","de","cs"],"provenance":{"contentType":"official-programme","factualSources":[{"type":"official","url":"https://pijkranowke.pl/pijkranowke-we-wroclawiu/","checkedAt":"2026-08-24"},{"type":"coordinates","url":"https://www.google.com/maps/d/u/0/viewer?mid=1GNf1xy7QrVeSWXMfm5_ey8eGdmtjyKQ","checkedAt":"2026-08-24"}]},"placeType":"hospitality","amenities":{"freeTapWater":true},"media":{"photos":["/assets/named-wroclaw-oct28/source-027.jpg","/assets/named-wroclaw-oct28/source-063.jpg"],"videos":[],"thumbnail":"/assets/named-wroclaw-oct28/source-027.jpg","metadata":{"/assets/named-wroclaw-oct28/source-027.jpg":{"original":true,"originalFullPicturePreserved":true,"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/מחסנית/האלהטארגובה קפה.JPG","sourceSHA256":"18d25cbaa9aa228ffa9fa2c36dea7538690b8f3cdb28374a1fdd8c814bfa365d","assetSHA256":"18d25cbaa9aa228ffa9fa2c36dea7538690b8f3cdb28374a1fdd8c814bfa365d","sourceDimensions":[4032,3024],"alt":{"he":"צילום הביקור שלנו בקפה טרגובה שבשוק המקורה","en":"Our visit to Cafe Targowa inside the market hall","pl":"Nasza wizyta w Cafe Targowa w Hali Targowej","de":"Unser Besuch im Cafe Targowa in der Markthalle","cs":"Naše návštěva Cafe Targowa v tržnici"},"title":{"he":"צילום הביקור שלנו בקפה טרגובה שבשוק המקורה","en":"Our visit to Cafe Targowa inside the market hall","pl":"Nasza wizyta w Cafe Targowa w Hali Targowej","de":"Unser Besuch im Cafe Targowa in der Markthalle","cs":"Naše návštěva Cafe Targowa v tržnici"},"sourceReviewReceipt":"wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json","publicationApprovalReceipt":"wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json","captureAction":"append-distinct-original"},"/assets/named-wroclaw-oct28/source-063.jpg":{"original":true,"originalFullPicturePreserved":true,"sourceFile":"/Users/rachelfiler/Desktop/Wroclaw/מחסנית/קפה בהאלה טרגובה.jpg","sourceSHA256":"d51b7903b6443e92a56beabc25b047ef1cd91d6101b2e07fcdeeacf4a2f1d9e4","assetSHA256":"d51b7903b6443e92a56beabc25b047ef1cd91d6101b2e07fcdeeacf4a2f1d9e4","sourceDimensions":[2062,3664],"alt":{"he":"צילום הביקור שלנו בקפה טרגובה שבשוק המקורה","en":"Our visit to Cafe Targowa inside the market hall","pl":"Nasza wizyta w Cafe Targowa w Hali Targowej","de":"Unser Besuch im Cafe Targowa in der Markthalle","cs":"Naše návštěva Cafe Targowa v tržnici"},"title":{"he":"צילום הביקור שלנו בקפה טרגובה שבשוק המקורה","en":"Our visit to Cafe Targowa inside the market hall","pl":"Nasza wizyta w Cafe Targowa w Hali Targowej","de":"Unser Besuch im Cafe Targowa in der Markthalle","cs":"Naše návštěva Cafe Targowa v tržnici"},"sourceReviewReceipt":"wroclaw-named-inbox-2026-10-28/agent-full-original-photo-review-progress.json","publicationApprovalReceipt":"wroclaw-named-inbox-2026-10-28/scoped-personal-photo-approval.json","captureAction":"append-distinct-original"}}},"socialPosts":[{"platform":"facebook","language":"cs","url":"https://www.facebook.com/permalink.php?story_fbid=pfbid0217xsxLgYsjwnafJVD7RdQW9rXWEN9gbjoDTGgQqH5o412MvwYD4P7YjJiomqWeN2l&id=61594716405964","verifiedAt":"2026-10-07"},{"platform":"facebook","language":"de","url":"https://www.facebook.com/permalink.php?story_fbid=pfbid02BAP7tQKjiA4mzMD3tUvz2G8xH3FuXYa8jgqHD6wXvA3yq4NTjYuJRYnGvpjYVvpUl&id=61595239823399","verifiedAt":"2026-10-08T14:42:53.429137+00:00"},{"platform":"facebook","language":"en","url":"https://www.facebook.com/permalink.php?story_fbid=pfbid02NDt9v7GznzDvzJE5ZB3tcSukryvU33RayiiDWrzAwX2AyEJmWvzmPF2nwV5ZvU6ul&id=61595036942289","verifiedAt":"2026-10-08"},{"platform":"facebook","language":"pl","url":"https://facebook.com/permalink.php?story_fbid=pfbid0vPXAhybKEvV4rgVtKwgVRatgdLyjCzqSuk2gZaTL3h6roD6XgAAyBcEQAiErySHml&id=61595207664875","verifiedAt":"2026-10-10T12:48:29.064Z"},{"platform":"instagram","language":"pl","url":"https://www.instagram.com/wroclaw.lowersilesia.pl/p/DeUIiJKnWCf/","verifiedAt":"2026-10-10T12:57:04.997Z"},{"platform":"instagram","language":"de","url":"https://www.instagram.com/p/DeULehgCRqT/","verifiedAt":"2026-10-10T13:22:54.059Z"},{"platform":"instagram","language":"cs","url":"https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeUiEDXgHkx/","verifiedAt":"2026-10-10T16:41:38.210Z"},{"platform":"instagram","language":"en","url":"https://www.instagram.com/p/DeUmhj9EVDI/","verifiedAt":"2026-10-10T17:18:55.202Z"},{"platform":"instagram","language":"he","url":"https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUtkTiEf4g/","verifiedAt":"2026-10-10T18:20:18.968Z"}]}};for(const [id,record] of Object.entries(reviewed)){const existing=window.WROC_FREE_WATER_PLACE_SOURCE.find(p=>p.id===id);if(existing)existing.media=record.media;else window.WROC_FREE_WATER_PLACE_SOURCE.push(record);}})();
+
+// Fine Dining stage A: canonical enrichment only; no new experience or itinerary.
+(()=>{
+function enrich(existing, addition) {
+  return {...existing, localName:addition.localName, name:addition.name, description:addition.description,
+    location:{...existing.location,address:addition.location.address},
+    categories:[...new Set([...(existing.categories||[]),...addition.categories])],
+    taxonomy:{...existing.taxonomy,tags:[...new Set([...(existing.taxonomy?.tags||[]),...addition.taxonomy.tags])]},
+    links:{...existing.links,...addition.links,navigation:{...existing.links?.navigation,...addition.links.navigation}},
+    media:{...existing.media,photos:[...new Set([...(existing.media?.photos||[]),...addition.media.photos])],
+      thumbnail:existing.media?.thumbnail||addition.media.thumbnail,metadata:{...existing.media?.metadata,...addition.media.metadata}},
+    provenance:{...existing.provenance,...addition.provenance,factualSources:[...(existing.provenance?.factualSources||[]),...addition.provenance.factualSources]}};
+}
+const additions=[];
+const updates={
+  "wierzbowa-15": {
+    "id": "wierzbowa-15",
+    "localName": "Wierzbowa 15 by Juanlu Fernández",
+    "name": {
+      "he": "וייז׳בובה 15",
+      "en": "Wierzbowa 15 by Juanlu Fernández",
+      "pl": "Wierzbowa 15 by Juanlu Fernández",
+      "de": "Wierzbowa 15 by Juanlu Fernández",
+      "cs": "Wierzbowa 15 by Juanlu Fernández"
+    },
+    "description": {
+      "he": "מסעדה במלון אלטוס פאלאס, בחללים היסטוריים עם קמרונות לבנים. המטבח משלב מסורות פולניות ואירופיות בגישה עכשווית, עם תפריט עונתי ואפשרויות טעימה. בדקו זמינות ותפריט בעת הזמנת שולחן.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nWierzbowa 15, Wrocław",
+      "en": "A restaurant in Hotel Altus Palace, set in historic rooms with brick vaults. The kitchen combines Polish and European traditions with a contemporary approach, seasonal menus and tasting options. Check the current menu and availability when booking.\nIncludes images restored from supplied printed material.\nWierzbowa 15, Wrocław",
+      "pl": "Restauracja w Hotelu Altus Palace, w historycznych wnętrzach z ceglanymi sklepieniami. Łączy polskie i europejskie tradycje ze współczesnym podejściem, sezonowym menu i propozycjami degustacyjnymi. Przy rezerwacji sprawdź aktualne menu i dostępność.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nWierzbowa 15, Wrocław",
+      "de": "Ein Restaurant im Hotel Altus Palace in historischen Räumen mit Backsteingewölben. Die Küche verbindet polnische und europäische Traditionen mit einem modernen Ansatz, saisonalen Karten und Verkostungsangeboten. Aktuelles Menü und Verfügbarkeit bei der Buchung prüfen.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nWierzbowa 15, Wrocław",
+      "cs": "Restaurace v hotelu Altus Palace v historických prostorách s cihlovými klenbami. Spojuje polské a evropské tradice s moderním přístupem, sezonním menu a degustačními nabídkami. Při rezervaci ověřte aktuální menu a dostupnost.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nWierzbowa 15, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1049625,
+        "lng": 17.0364118
+      },
+      "address": {
+        "street": "Wierzbowa 15",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://www.wierzbowa15.pl/en",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1049625,17.0364118",
+        "appleMaps": "https://maps.apple.com/?ll=51.1049625,17.0364118&q=Wierzbowa%2015%20by%20Juanlu%20Fern%C3%A1ndez"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/wierzbowa-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/wierzbowa-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/wierzbowa-restored.jpg": {
+          "assetSHA256": "1eb9ec2769c4442075f32ab92537500e644c38ff4ca834fdc3c89d5c659c77d9",
+          "sourceFile": "fine dining/IMG_4005.JPG",
+          "sourceSHA256": "8f658f74866375fbf8d5b7f47102e404582a4cb121d7364de9545e05b54d6999",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "וייז׳בובה 15 — תמונה מעובדת מחומר מודפס",
+            "en": "Wierzbowa 15 by Juanlu Fernández — restored from printed material",
+            "pl": "Wierzbowa 15 by Juanlu Fernández — obraz odtworzony z druku",
+            "de": "Wierzbowa 15 by Juanlu Fernández — aus Druckmaterial restauriertes Bild",
+            "cs": "Wierzbowa 15 by Juanlu Fernández — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://www.wierzbowa15.pl/en",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        }
+      ],
+      "coordinateMethod": "Existing canonical coordinates preserved"
+    }
+  }
+};
+for(const item of additions){if(window.WROC_FREE_WATER_PLACE_SOURCE.some(p=>p.id===item.id))throw Error("Duplicate dining place "+item.id);window.WROC_FREE_WATER_PLACE_SOURCE.push(item);}
+for(const [id,item] of Object.entries(updates)){const index=window.WROC_FREE_WATER_PLACE_SOURCE.findIndex(p=>p.id===id);if(index<0)throw Error("Missing existing dining place "+id);window.WROC_FREE_WATER_PLACE_SOURCE[index]=enrich(window.WROC_FREE_WATER_PLACE_SOURCE[index],item);}
+})();

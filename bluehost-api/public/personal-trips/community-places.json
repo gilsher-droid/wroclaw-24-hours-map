@@ -27,6 +27,20 @@
       "lng": 17.0266219
     }
   },
+  "acquario-wroclaw": {
+    "id": "acquario-wroclaw",
+    "name": {
+      "he": "אקוואריו",
+      "en": "Acquario",
+      "pl": "Acquario",
+      "de": "Acquario",
+      "cs": "Acquario"
+    },
+    "coordinates": {
+      "lat": 51.1061957,
+      "lng": 17.0307616
+    }
+  },
   "aleja-bielany": {
     "id": "aleja-bielany",
     "name": {
@@ -739,6 +753,20 @@
     "coordinates": {
       "lat": 51.1050088,
       "lng": 17.0343214
+    }
+  },
+  "craft-wroclaw": {
+    "id": "craft-wroclaw",
+    "name": {
+      "he": "קראפט",
+      "en": "Craft",
+      "pl": "Craft",
+      "de": "Craft",
+      "cs": "Craft"
+    },
+    "coordinates": {
+      "lat": 51.1135818,
+      "lng": 17.0454026
     }
   },
   "czarna-magia": {
@@ -1763,6 +1791,20 @@
       "lng": 16.2916667
     }
   },
+  "la-colonna-wroclaw": {
+    "id": "la-colonna-wroclaw",
+    "name": {
+      "he": "לה קולונה",
+      "en": "La Colonna",
+      "pl": "La Colonna",
+      "de": "La Colonna",
+      "cs": "La Colonna"
+    },
+    "coordinates": {
+      "lat": 51.1118922,
+      "lng": 17.0285424
+    }
+  },
   "la-maddalena": {
     "id": "la-maddalena",
     "name": {
@@ -1971,6 +2013,20 @@
     "coordinates": {
       "lat": 51.1174365,
       "lng": 17.0905595
+    }
+  },
+  "manami-sushi-wroclaw": {
+    "id": "manami-sushi-wroclaw",
+    "name": {
+      "he": "מנאמי סושי",
+      "en": "Manami Sushi",
+      "pl": "Manami Sushi",
+      "de": "Manami Sushi",
+      "cs": "Manami Sushi"
+    },
+    "coordinates": {
+      "lat": 51.1147163,
+      "lng": 17.0269857
     }
   },
   "mandarin": {
@@ -2349,6 +2405,20 @@
     "coordinates": {
       "lat": 51.1088208,
       "lng": 17.0522865
+    }
+  },
+  "old-havana-wroclaw": {
+    "id": "old-havana-wroclaw",
+    "name": {
+      "he": "אולד הוואנה",
+      "en": "Old Havana",
+      "pl": "Old Havana",
+      "de": "Old Havana",
+      "cs": "Old Havana"
+    },
+    "coordinates": {
+      "lat": 51.1118297,
+      "lng": 17.0297793
     }
   },
   "old-jewish-cemetery-wroclaw": {
@@ -3149,6 +3219,20 @@
       "lng": 17.0318151
     }
   },
+  "przystan-marina-wroclaw": {
+    "id": "przystan-marina-wroclaw",
+    "name": {
+      "he": "פשיסטאן ומרינה",
+      "en": "Przystań & Marina",
+      "pl": "Przystań & Marina",
+      "de": "Przystań & Marina",
+      "cs": "Przystań & Marina"
+    },
+    "coordinates": {
+      "lat": 51.1148322,
+      "lng": 17.0329298
+    }
+  },
   "przystanek-kowary": {
     "id": "przystanek-kowary",
     "name": {
@@ -3259,6 +3343,20 @@
     "coordinates": {
       "lat": 51.1079248,
       "lng": 17.0779726
+    }
+  },
+  "restauracja-wroclawska": {
+    "id": "restauracja-wroclawska",
+    "name": {
+      "he": "מסעדת ורוצלבסקה",
+      "en": "Restauracja Wrocławska",
+      "pl": "Restauracja Wrocławska",
+      "de": "Restauracja Wrocławska",
+      "cs": "Restauracja Wrocławska"
+    },
+    "coordinates": {
+      "lat": 51.1111604,
+      "lng": 17.0349659
     }
   },
   "rogal-stary-rynek-poznan": {
@@ -4017,6 +4115,20 @@
       "lng": 15.7241515
     }
   },
+  "warsztat-food-garden-wroclaw": {
+    "id": "warsztat-food-garden-wroclaw",
+    "name": {
+      "he": "ורשטאט — אוכל וגן",
+      "en": "Warsztat – Food & Garden",
+      "pl": "Warsztat – Food & Garden",
+      "de": "Warsztat – Food & Garden",
+      "cs": "Warsztat – Food & Garden"
+    },
+    "coordinates": {
+      "lat": 51.1216068,
+      "lng": 16.9948475
+    }
+  },
   "water-refill-hala-stulecia": {
     "id": "water-refill-hala-stulecia",
     "name": {
@@ -4300,11 +4412,11 @@
   "wierzbowa-15": {
     "id": "wierzbowa-15",
     "name": {
-      "he": "Wierzbowa 15",
-      "en": "Wierzbowa 15",
-      "pl": "Wierzbowa 15",
-      "de": "Wierzbowa 15",
-      "cs": "Wierzbowa 15"
+      "he": "וייז׳בובה 15",
+      "en": "Wierzbowa 15 by Juanlu Fernández",
+      "pl": "Wierzbowa 15 by Juanlu Fernández",
+      "de": "Wierzbowa 15 by Juanlu Fernández",
+      "cs": "Wierzbowa 15 by Juanlu Fernández"
     },
     "coordinates": {
       "lat": 51.1049625,

@@ -881,11 +881,20 @@
             "dietary.venue"
           ],
           "claim": "The official restaurant homepage identifies its restaurant and embedded owner profile describes Mediterranean cuisine and meat dishes. No dietary certification is inferred."
+        },
+        {
+          "url": "https://forumkulinarne.eu/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
         }
       ],
       "review": {
         "status": "partial",
-        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
       }
     },
     "frytki": {
@@ -2410,19 +2419,29 @@
     },
     "wierzbowa-15": {
       "version": 1,
-      "venueTypes": [],
+      "venueTypes": [
+        "restaurant"
+      ],
       "cuisines": [],
       "dietary": {
         "venue": "unknown",
         "veganOptions": "unknown",
         "vegetarianOptions": "unknown"
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wierzbowa15.pl/en",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+        }
+      ],
       "review": {
-        "status": "unknown",
-        "reason": "Existing canonical categories, tags and source references reviewed. A source URL is recorded, but no new field-specific primary evidence has been verified for this record in this review. Unknown is not unsuitable.",
-        "sourceAvailable": true,
-        "city": "wroclaw"
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
       }
     },
     "wiking-axe-throwing-wroclaw": {
@@ -2559,6 +2578,222 @@
         "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
         "sourceAvailable": false,
         "city": "wroclaw"
+      }
+    },
+    "acquario-wroclaw": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://monopolwroclaw.hotel.com.pl/hotel-monopol-wroclaw/restauracje/ristorante-acquario/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
+      }
+    },
+    "craft-wroclaw": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://craftrestauracja.pl/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
+      }
+    },
+    "manami-sushi-wroclaw": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://manami-sushi.pl/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
+      }
+    },
+    "przystan-marina-wroclaw": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.przystan.wroc.pl/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
+      }
+    },
+    "la-colonna-wroclaw": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://la-colonna.pl/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
+      }
+    },
+    "warsztat-food-garden-wroclaw": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://warsztatfoodandgarden.com/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
+      }
+    },
+    "restauracja-wroclawska": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://wroclawska.com.pl/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant"
+          ],
+          "claim": "Official venue confirms restaurant identity and address. Descriptive cuisine information is in the canonical text; no unsupported dietary labels are inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
+      }
+    },
+    "old-havana-wroclaw": {
+      "version": 1,
+      "venueTypes": [
+        "bar"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://wroclaw.oldhavana.pl/kontakt/",
+          "verifiedAt": "2026-11-07",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.bar"
+          ],
+          "claim": "Official venue confirms adult-oriented bar and cigar lounge; not a restaurant."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
       }
     }
   }

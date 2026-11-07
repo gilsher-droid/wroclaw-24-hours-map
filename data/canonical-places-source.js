@@ -35868,3 +35868,1151 @@ window.WROC_CANONICAL_PLACE_SOURCE.push({
 
 // Verified water-library enrichment, 2026-10-30.
 (()=>{const rows=[{"id": "jaz-bartoszowice-wroclaw", "status": "published", "localName": "Jaz Bartoszowice", "name": {"he": "סכר ברטושוביצה", "en": "Bartoszowice Weir", "pl": "Jaz Bartoszowice", "de": "Wehr Bartoszowice", "cs": "Jez Bartoszowice"}, "description": {"he": "מעבר מעל המים וסביבת הסכר בקצה המזרחי של האי הגדול. בתמונות שלנו נראים המבנה הירוק, הנהר והגדות. פעלו לפי השילוט והמעברים הפתוחים במקום.", "en": "The waterside crossing and weir at the eastern end of the Great Island. Our photographs show the green structure, river and banks. Follow local signs and open crossings.", "pl": "Przeprawa i jaz na wschodnim krańcu Wielkiej Wyspy. Nasze zdjęcia pokazują zieloną konstrukcję, rzekę i brzegi. Korzystaj z otwartych przejść zgodnie z oznakowaniem.", "de": "Übergang und Wehr am östlichen Ende der Großen Insel. Unsere Fotos zeigen das grüne Bauwerk, den Fluss und seine Ufer. Beachten Sie Beschilderung und offene Übergänge.", "cs": "Přechod a jez na východním konci Velkého ostrova. Naše fotografie ukazují zelenou konstrukci, řeku a břehy. Respektujte značení a otevřené přechody."}, "location": {"countryCode": "PL", "regionId": "lower-silesia", "cityId": "wroclaw", "coordinates": {"lat": 51.102222, "lng": 17.122778}}, "categories": ["river"], "taxonomy": {"tags": ["river", "water-engineering"]}, "links": {"website": "https://www.wroclaw.pl/budzet-obywatelski-wroclaw/files/attachments_2023/300/31c2defe39a090bc5832bc34b2294ab2.pdf", "navigation": {"googleMaps": "https://www.google.com/maps/search/?api=1&query=51.102222,17.122778"}, "socialProfileFallback": false}, "media": {"thumbnail": "/assets/water-lamplighter-oct30/water-22d7475b216f.jpg", "photos": ["/assets/water-lamplighter-oct30/water-22d7475b216f.jpg", "/assets/water-lamplighter-oct30/water-923084b38729.jpg", "/assets/water-lamplighter-oct30/water-191d782489f1.jpg"], "videos": [], "metadata": {"/assets/water-lamplighter-oct30/water-22d7475b216f.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Bartoszowice Weir/261423C3-225F-4BA2-B915-EEC92BF4981E.JPG", "sourceSHA256": "22d7475b216ffecccfc345ca380ea7bec4c33a95ab4bd0e4bffefcee49637ca7", "assetSHA256": "72d6eea1da0d3dd2ff24a0ea3a86f679f78e9776ca79a0e90a51ace4ea9e782c", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר ברטושוביצה", "en": "Bartoszowice Weir", "pl": "Jaz Bartoszowice", "de": "Wehr Bartoszowice", "cs": "Jez Bartoszowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/water-lamplighter-oct30/water-923084b38729.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Bartoszowice Weir/IMG_4574.JPG", "sourceSHA256": "923084b387294358a7ea2028bd6b373790d82c7012b864330859d5e8e5dde7ed", "assetSHA256": "c66aed881b1ce8d9fdb284bd46d3f8df8e99b054e4ac955e5327cac980df10df", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר ברטושוביצה", "en": "Bartoszowice Weir", "pl": "Jaz Bartoszowice", "de": "Wehr Bartoszowice", "cs": "Jez Bartoszowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/water-lamplighter-oct30/water-191d782489f1.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Bartoszowice Weir/WhatsApp Image 2026-06-21 at 08.50.01 (4).jpeg", "sourceSHA256": "191d782489f14bd1df009e9d323ea8905ecb81ae80f294535f22eb02f59b43dc", "assetSHA256": "45bafb91f2c256de6c547003b0b8d35112a148e33623927ba7919ab040cab58a", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר ברטושוביצה", "en": "Bartoszowice Weir", "pl": "Jaz Bartoszowice", "de": "Wehr Bartoszowice", "cs": "Jez Bartoszowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}}}, "provenance": {"verifiedAt": "2026-10-30", "sourceUrls": ["https://www.wroclaw.pl/budzet-obywatelski-wroclaw/files/attachments_2023/300/31c2defe39a090bc5832bc34b2294ab2.pdf"], "coordinateMethod": "Published geographic reference, cross-checked against the user-labelled original photographs", "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"}}, {"id": "jaz-opatowice-wroclaw", "status": "published", "localName": "Jaz Opatowice", "name": {"he": "סכר אופטוביצה", "en": "Opatowice Weir", "pl": "Jaz Opatowice", "de": "Wehr Opatowice", "cs": "Jez Opatowice"}, "description": {"he": "מפגש של מים, גדות ירוקות ומעבר אל האי אופטוביצקה. הגלריה מתעדת את הנוף מסביב לסכר באור יום ובערפל. זהו מקום אחר מסכר ברטושוביצה הסמוך.", "en": "Water, green banks and a crossing towards Opatowicka Island. Our gallery records the landscape around the weir in daylight and mist. This is distinct from nearby Bartoszowice Weir.", "pl": "Woda, zielone brzegi i przeprawa ku Wyspie Opatowickiej. Galeria pokazuje okolice jazu w dzień i we mgle. To inny obiekt niż pobliski jaz Bartoszowice.", "de": "Wasser, grüne Ufer und ein Übergang zur Opatowicka-Insel. Unsere Galerie zeigt die Landschaft am Wehr bei Tageslicht und im Nebel. Vom nahen Wehr Bartoszowice zu unterscheiden.", "cs": "Voda, zelené břehy a přechod směrem na Opatovický ostrov. Galerie ukazuje krajinu kolem jezu ve dne i v mlze. Jde o jiné místo než nedaleký jez Bartoszowice."}, "location": {"countryCode": "PL", "regionId": "lower-silesia", "cityId": "wroclaw", "coordinates": {"lat": 51.099975, "lng": 17.121345}}, "categories": ["river"], "taxonomy": {"tags": ["river", "water-engineering"]}, "links": {"website": "https://dolnoslaskie.szlaki.pttk.pl/1146-dolnoslaskie-wroclaw-biskupin-jaz-opatowice", "navigation": {"googleMaps": "https://www.google.com/maps/search/?api=1&query=51.099975,17.121345"}, "socialProfileFallback": false}, "media": {"thumbnail": "/assets/water-lamplighter-oct30/water-037db0d5434b.jpg", "photos": ["/assets/water-lamplighter-oct30/water-037db0d5434b.jpg", "/assets/experiences/bridges-islands/river-04.jpg", "/assets/experiences/bridges-islands/river-05.jpg", "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg", "/assets/experiences/bridges-islands/river-03.jpg", "/assets/experiences/bridges-islands/river-06.jpg"], "videos": [], "metadata": {"/assets/water-lamplighter-oct30/water-037db0d5434b.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4497.JPG", "sourceSHA256": "037db0d5434b43bf8d4561892580a200af27e6563d62e5d44a9b8b53a1d94127", "assetSHA256": "4a76529da8a201427a250f95deb4f244ba4d34edbec40c6d7ab35bdd02e38c4f", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר אופטוביצה", "en": "Opatowice Weir", "pl": "Jaz Opatowice", "de": "Wehr Opatowice", "cs": "Jez Opatowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/experiences/bridges-islands/river-04.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4499.JPG", "sourceSHA256": "a9f5388c77fe31ec8846acaa1de58f97200f252787d40d2b99ab2bc8f906505b", "assetSHA256": "b3ced5ae7e06adeae2ac7a251004184cb427bd208c42ff9ca3b84cf4ed34868b", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר אופטוביצה", "en": "Opatowice Weir", "pl": "Jaz Opatowice", "de": "Wehr Opatowice", "cs": "Jez Opatowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": true, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/experiences/bridges-islands/river-05.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4501.JPG", "sourceSHA256": "316b05fa1c49f738b50c6498b14ceac0ccc0066d5701f534e3268d512863a088", "assetSHA256": "6397d1f72fa728e57f7c872d758a7e46234453d23da60697bc107c47dd87ebe9", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר אופטוביצה", "en": "Opatowice Weir", "pl": "Jaz Opatowice", "de": "Wehr Opatowice", "cs": "Jez Opatowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": true, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4549.JPG", "sourceSHA256": "9d141e5950ff8fc84a77209e38271836c536bff1a843272421f96ac42d2a400f", "assetSHA256": "badb320f909bccb7708264c9db1e29cf5f7e8fd39cb35fc5b79132b3c69bd487", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר אופטוביצה", "en": "Opatowice Weir", "pl": "Jaz Opatowice", "de": "Wehr Opatowice", "cs": "Jez Opatowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/experiences/bridges-islands/river-03.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4554.JPG", "sourceSHA256": "5834f0cfad1dccd78f6bf4e241273744759f3490d5204e99557b3d7c8fa3d7b5", "assetSHA256": "883df239c8c80fbc284c30b3820b431c371905ff27613de2dc527a631d4fb34a", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר אופטוביצה", "en": "Opatowice Weir", "pl": "Jaz Opatowice", "de": "Wehr Opatowice", "cs": "Jez Opatowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": true, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/experiences/bridges-islands/river-06.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4564.JPG", "sourceSHA256": "da23bc8e1d26cc69f7328891933e2014f5c48355d24d16634e7f2a90fafa9e1d", "assetSHA256": "3f4180ff7eb2c7efbe87792a768bf593da975caf28a2c8a7da2924623e239f19", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "סכר אופטוביצה", "en": "Opatowice Weir", "pl": "Jaz Opatowice", "de": "Wehr Opatowice", "cs": "Jez Opatowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": true, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}}}, "provenance": {"verifiedAt": "2026-10-30", "sourceUrls": ["https://dolnoslaskie.szlaki.pttk.pl/1146-dolnoslaskie-wroclaw-biskupin-jaz-opatowice"], "coordinateMethod": "Published geographic reference, cross-checked against the user-labelled original photographs", "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"}}, {"id": "sluza-bartoszowice-wroclaw", "status": "published", "localName": "Śluza Bartoszowice", "name": {"he": "תא השיט ברטושוביצה", "en": "Bartoszowice Lock", "pl": "Śluza Bartoszowice", "de": "Schleuse Bartoszowice", "cs": "Plavební komora Bartoszowice"}, "description": {"he": "תא השיט והטיילת לצדו הם עצירה נוספת באזור המים במזרח העיר. בתצלומים שלנו נראים שערי התא ותעלת המים. אין לבלבל בין תא השיט לבין הסכר הסמוך.", "en": "The lock and its waterside path offer another stop in the east of the city. Our photographs show the lock gates and channel. The lock is distinct from the nearby weir.", "pl": "Śluza i ścieżka nad wodą to kolejny przystanek we wschodniej części miasta. Na naszych zdjęciach widać wrota i kanał. Śluza jest odrębna od pobliskiego jazu.", "de": "Schleuse und Uferweg bilden einen weiteren Halt im Osten der Stadt. Unsere Fotos zeigen Schleusentore und Kanal. Die Schleuse ist vom nahen Wehr zu unterscheiden.", "cs": "Plavební komora a cesta podél vody nabízejí další zastávku na východě města. Fotografie ukazují vrata a kanál. Komora je odlišná od blízkého jezu."}, "location": {"countryCode": "PL", "regionId": "lower-silesia", "cityId": "wroclaw", "coordinates": {"lat": 51.1035, "lng": 17.1256}}, "categories": ["river"], "taxonomy": {"tags": ["river", "water-engineering"]}, "links": {"website": "https://www.wroclaw.pl/komunikacja/budowle-hydrotechniczne-wroclawskiego-wezla-wodnego", "navigation": {"googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1035,17.1256"}, "socialProfileFallback": false}, "media": {"thumbnail": "/assets/water-lamplighter-oct30/water-82d098a7dd92.jpg", "photos": ["/assets/water-lamplighter-oct30/water-82d098a7dd92.jpg", "/assets/experiences/bridges-islands/river-07.jpg", "/assets/experiences/bridges-islands/river-09.jpg"], "videos": [], "metadata": {"/assets/water-lamplighter-oct30/water-82d098a7dd92.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Sluza Bartoszowice/IMG_4575.JPG", "sourceSHA256": "82d098a7dd9223b631ac7898ed799d82eb426cc415dbb751d85b369d4bb210bc", "assetSHA256": "9672c220dd14aaead719bb7006810b38068c4d11f6ee780aa45fdbd8b59a00f6", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "תא השיט ברטושוביצה", "en": "Bartoszowice Lock", "pl": "Śluza Bartoszowice", "de": "Schleuse Bartoszowice", "cs": "Plavební komora Bartoszowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/experiences/bridges-islands/river-07.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Sluza Bartoszowice/IMG_4763.JPG", "sourceSHA256": "4ce4733d02d717c8dc51e20df513fdd83b33dd021fd94f9c8a96eea3dad65442", "assetSHA256": "d2fbc6f4a8a303636f6e804e61534b8e0348b35bf53457bfef720a27650fdc7a", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "תא השיט ברטושוביצה", "en": "Bartoszowice Lock", "pl": "Śluza Bartoszowice", "de": "Schleuse Bartoszowice", "cs": "Plavební komora Bartoszowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": true, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/experiences/bridges-islands/river-09.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Sluza Bartoszowice/IMG_4768.JPG", "sourceSHA256": "19a6d6fc7bed7dcaf6703720f99cc9ca5c355f81d63b3af2d183b110d0079817", "assetSHA256": "550074a48d2427f96f311e658b46478ca633f724eb7af0e0e68fdeefa19c2f1c", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "תא השיט ברטושוביצה", "en": "Bartoszowice Lock", "pl": "Śluza Bartoszowice", "de": "Schleuse Bartoszowice", "cs": "Plavební komora Bartoszowice"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": true, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}}}, "provenance": {"verifiedAt": "2026-10-30", "sourceUrls": ["https://www.wroclaw.pl/komunikacja/budowle-hydrotechniczne-wroclawskiego-wezla-wodnego"], "coordinateMethod": "Published geographic reference, cross-checked against the user-labelled original photographs", "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"}}, {"id": "wyspa-opatowicka-wroclaw", "status": "published", "localName": "Wyspa Opatowicka", "name": {"he": "האי אופטוביצקה", "en": "Opatowicka Island", "pl": "Wyspa Opatowicka", "de": "Opatowicka-Insel", "cs": "Opatovický ostrov"}, "description": {"he": "אי ירוק לשיטוט רגוע בין עצים, שבילים וגדות הנהר. התמונות צולמו במהלך ההליכה שלנו באי. בדקו במקום אילו מעברים פתוחים לפני חציית הסכרים ותאי השיט.", "en": "A green island for an unhurried walk among trees, paths and riverbanks. These photographs come from our island walk. Check locally which crossings are open before crossing weirs and locks.", "pl": "Zielona wyspa na spokojny spacer wśród drzew, ścieżek i brzegów rzeki. Zdjęcia pochodzą z naszego spaceru. Przed przejściem przez jazy i śluzy sprawdź na miejscu dostępność przejść.", "de": "Eine grüne Insel für einen ruhigen Spaziergang zwischen Bäumen, Wegen und Flussufern. Die Fotos stammen von unserem Inselspaziergang. Prüfen Sie vor Ort, welche Übergänge an Wehren und Schleusen offen sind.", "cs": "Zelený ostrov pro klidnou procházku mezi stromy, cestami a říčními břehy. Snímky pocházejí z naší procházky po ostrově. Před přechodem přes jezy a komory ověřte otevření přechodů."}, "location": {"countryCode": "PL", "regionId": "lower-silesia", "cityId": "wroclaw", "coordinates": {"lat": 51.09725, "lng": 17.12383}}, "categories": ["river"], "taxonomy": {"tags": ["river", "island"]}, "links": {"website": "https://www.wroclaw.pl/dla-mieszkanca/wyspa-opatowicka-bedzie-ponownie-dostepna-przez-sluze", "navigation": {"googleMaps": "https://www.google.com/maps/search/?api=1&query=51.09725,17.12383"}, "socialProfileFallback": false}, "media": {"thumbnail": "/assets/water-lamplighter-oct30/water-856203aa8e15.jpg", "photos": ["/assets/water-lamplighter-oct30/water-856203aa8e15.jpg", "/assets/experiences/bridges-islands/river-19.jpg", "/assets/water-lamplighter-oct30/water-a05dfc67ec42.jpg", "/assets/water-lamplighter-oct30/water-477e5c5eb736.jpg"], "videos": [], "metadata": {"/assets/water-lamplighter-oct30/water-477e5c5eb736.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Wyspw Opatowicka/IMG_4765.JPG", "sourceSHA256": "477e5c5eb736688b3c974f15d5b8b284ff9b4f635f9df67b226e9bdeb5da3190", "assetSHA256": "42b86b3c629b47e518f9bc0e04cbbebe885c4566912a00aa8ac26a3452f3a57d", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "האי אופטוביצקה", "en": "Opatowicka Island", "pl": "Wyspa Opatowicka", "de": "Opatowicka-Insel", "cs": "Opatovický ostrov"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/water-lamplighter-oct30/water-856203aa8e15.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Wyspw Opatowicka/IMG_4770.JPG", "sourceSHA256": "856203aa8e1599b5ab74ff7e52df22b6e2d2cae30ef52c89c0cf55d60bd669b8", "assetSHA256": "3e839954e12aa7a22c4afeec363dadebc95d5e0b5ee30fde8f4e81ed0b34e27e", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "האי אופטוביצקה", "en": "Opatowicka Island", "pl": "Wyspa Opatowicka", "de": "Opatowicka-Insel", "cs": "Opatovický ostrov"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/water-lamplighter-oct30/water-a05dfc67ec42.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Wyspw Opatowicka/IMG_4773.JPG", "sourceSHA256": "a05dfc67ec42ae50a6dcc2a8dc5e928e35aac2df184f5c844372d84c006e8483", "assetSHA256": "f1135321eea8d2286c61aa1a6a1b0ba79e112eb074044829f140828c330fbb23", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "האי אופטוביצקה", "en": "Opatowicka Island", "pl": "Wyspa Opatowicka", "de": "Opatowicka-Insel", "cs": "Opatovický ostrov"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/experiences/bridges-islands/river-19.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Wyspw Opatowicka/IMG_4774.JPG", "sourceSHA256": "0176c58f8e4db237586c52bc796965ed4391766af040224318e9aeb026937632", "assetSHA256": "8c381d24e05e1419408ad2488dabbe9bf355f3200b3b8177bb98dda7bb261e3d", "original": true, "originalFullPicturePreserved": true, "familyForeground": true, "familyExceptionApplied": true, "alt": {"he": "האי אופטוביצקה", "en": "Opatowicka Island", "pl": "Wyspa Opatowicka", "de": "Opatowicka-Insel", "cs": "Opatovický ostrov"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": true, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}}}, "provenance": {"verifiedAt": "2026-10-30", "sourceUrls": ["https://www.wroclaw.pl/dla-mieszkanca/wyspa-opatowicka-bedzie-ponownie-dostepna-przez-sluze"], "coordinateMethod": "Published geographic reference, cross-checked against the user-labelled original photographs", "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"}}, {"id": "wielka-wyspa-wroclaw", "status": "published", "localName": "Wielka Wyspa", "name": {"he": "האי הגדול", "en": "Great Island", "pl": "Wielka Wyspa", "de": "Große Insel", "cs": "Velký ostrov"}, "description": {"he": "סיכה מייצגת במרכז האי הגדול, הכולל את ביסקופין, ספולנו, דאמביה וברטושוביצה. מכאן אפשר לבחור בין פארקים, היכל המאה, גן החיות, השכונות וגדות הנהר. הסיכה מסמנת אזור, ולא כניסה לאתר מסוים.", "en": "A representative pin in the centre of the Great Island, encompassing Biskupin, Sępolno, Dąbie and Bartoszowice. Choose between parks, Centennial Hall, the zoo, neighbourhoods and riverbanks. This pin represents an area, not a specific attraction entrance.", "pl": "Reprezentacyjna pinezka w centrum Wielkiej Wyspy, obejmującej Biskupin, Sępolno, Dąbie i Bartoszowice. Wybierz parki, Halę Stulecia, zoo, osiedla lub brzegi rzeki. To oznaczenie obszaru, nie wejścia do konkretnej atrakcji.", "de": "Ein repräsentativer Punkt im Zentrum der Großen Insel mit Biskupin, Sępolno, Dąbie und Bartoszowice. Wählen Sie Parks, Jahrhunderthalle, Zoo, Viertel oder Flussufer. Der Punkt bezeichnet ein Gebiet, keinen bestimmten Eingang.", "cs": "Reprezentativní bod uprostřed Velkého ostrova s čtvrtěmi Biskupin, Sępolno, Dąbie a Bartoszowice. Vyberte si parky, Halu století, zoo, čtvrti či říční břehy. Bod označuje oblast, nikoli vstup do konkrétní atrakce."}, "location": {"countryCode": "PL", "regionId": "lower-silesia", "cityId": "wroclaw", "coordinates": {"lat": 51.11, "lng": 17.095}}, "categories": ["river"], "taxonomy": {"tags": ["river", "island"]}, "links": {"website": "https://www.wroclaw.pl/files/Turystyka/Wroclaw_Szlak_Odry.pdf", "navigation": {"googleMaps": "https://www.google.com/maps/search/?api=1&query=51.11,17.095"}, "socialProfileFallback": false}, "media": {"thumbnail": "/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg", "photos": ["/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg", "/assets/experiences/bridges-islands/river-03.jpg"], "videos": [], "metadata": {"/assets/water-lamplighter-oct30/water-9d141e5950ff.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4549.JPG", "sourceSHA256": "9d141e5950ff8fc84a77209e38271836c536bff1a843272421f96ac42d2a400f", "assetSHA256": "badb320f909bccb7708264c9db1e29cf5f7e8fd39cb35fc5b79132b3c69bd487", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "האי הגדול", "en": "Great Island", "pl": "Wielka Wyspa", "de": "Große Insel", "cs": "Velký ostrov"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": false, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}, "/assets/experiences/bridges-islands/river-03.jpg": {"sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/near the water/Jaz Opatowicki/IMG_4554.JPG", "sourceSHA256": "5834f0cfad1dccd78f6bf4e241273744759f3490d5204e99557b3d7c8fa3d7b5", "assetSHA256": "883df239c8c80fbc284c30b3820b431c371905ff27613de2dc527a631d4fb34a", "original": true, "originalFullPicturePreserved": true, "familyForeground": false, "familyExceptionApplied": false, "alt": {"he": "האי הגדול", "en": "Great Island", "pl": "Wielka Wyspa", "de": "Große Insel", "cs": "Velký ostrov"}, "reviewedAt": "2026-10-30", "reusedExistingAsset": true, "review": "Full-picture source reviewed. Exact file reuse preferred; alternative near-identical views omitted."}}}, "provenance": {"verifiedAt": "2026-10-30", "sourceUrls": ["https://www.wroclaw.pl/files/Turystyka/Wroclaw_Szlak_Odry.pdf"], "coordinateMethod": "Representative central area point, not a venue entrance", "provenanceFile": "/data/water-lamplighter-oct30-provenance.json"}}];for(const p of rows){if(window.WROC_CANONICAL_PLACE_SOURCE.some(x=>x.id===p.id))throw Error("Duplicate water place "+p.id);window.WROC_CANONICAL_PLACE_SOURCE.push(p)}const additions={};window.WROC_CANONICAL_PLACE_SOURCE=window.WROC_CANONICAL_PLACE_SOURCE.map(p=>!additions[p.id]?p:{...p,media:{...p.media,photos:[...new Set([...(p.media.photos||[]),...additions[p.id].map(x=>x.asset)])],metadata:{...p.media.metadata,...Object.fromEntries(additions[p.id].map(x=>[x.asset,x.metadata]))}}});})();
+
+// Fine Dining stage A: canonical enrichment only; no new experience or itinerary.
+(()=>{
+function enrich(existing, addition) {
+  return {...existing, localName:addition.localName, name:addition.name, description:addition.description,
+    location:{...existing.location,address:addition.location.address},
+    categories:[...new Set([...(existing.categories||[]),...addition.categories])],
+    taxonomy:{...existing.taxonomy,tags:[...new Set([...(existing.taxonomy?.tags||[]),...addition.taxonomy.tags])]},
+    links:{...existing.links,...addition.links,navigation:{...existing.links?.navigation,...addition.links.navigation}},
+    media:{...existing.media,photos:[...new Set([...(existing.media?.photos||[]),...addition.media.photos])],
+      thumbnail:existing.media?.thumbnail||addition.media.thumbnail,metadata:{...existing.media?.metadata,...addition.media.metadata}},
+    provenance:{...existing.provenance,...addition.provenance,factualSources:[...(existing.provenance?.factualSources||[]),...addition.provenance.factualSources]}};
+}
+const additions=[
+  {
+    "id": "acquario-wroclaw",
+    "localName": "Acquario",
+    "name": {
+      "he": "אקוואריו",
+      "en": "Acquario",
+      "pl": "Acquario",
+      "de": "Acquario",
+      "cs": "Acquario"
+    },
+    "description": {
+      "he": "מסעדת הגג בקומה השישית של מלון מונופול, עם מטבח פתוח ומרפסת המשקיפה על העיר. המטבח האירופי העכשווי נשען על חומרי גלם עונתיים. בדקו את התפריט והזמנת השולחן באתר המסעדה.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nHeleny Modrzejewskiej 2, Wrocław",
+      "en": "The rooftop restaurant on the sixth floor of Hotel Monopol, with an open kitchen and a terrace overlooking the city. Contemporary European cooking follows seasonal ingredients. Check the restaurant website for current menus and reservations.\nIncludes images restored from supplied printed material.\nHeleny Modrzejewskiej 2, Wrocław",
+      "pl": "Restauracja na szóstym piętrze Hotelu Monopol, z otwartą kuchnią i tarasem z widokiem na miasto. Współczesna kuchnia europejska opiera się na sezonowych składnikach. Aktualne menu i rezerwacje dostępne są na stronie restauracji.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nHeleny Modrzejewskiej 2, Wrocław",
+      "de": "Das Dachrestaurant im sechsten Stock des Hotels Monopol mit offener Küche und Terrasse mit Stadtblick. Die moderne europäische Küche orientiert sich an saisonalen Zutaten. Aktuelle Speisekarten und Reservierungen finden Sie auf der Restaurantseite.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nHeleny Modrzejewskiej 2, Wrocław",
+      "cs": "Střešní restaurace v šestém patře hotelu Monopol s otevřenou kuchyní a terasou s výhledem na město. Moderní evropská kuchyně pracuje se sezonními surovinami. Aktuální menu a rezervace najdete na webu restaurace.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nHeleny Modrzejewskiej 2, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1061957,
+        "lng": 17.0307616
+      },
+      "address": {
+        "street": "Heleny Modrzejewskiej 2",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://monopolwroclaw.hotel.com.pl/hotel-monopol-wroclaw/restauracje/ristorante-acquario/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1061957,17.0307616",
+        "appleMaps": "https://maps.apple.com/?ll=51.1061957,17.0307616&q=Acquario"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/acquario-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/acquario-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/acquario-restored.jpg": {
+          "assetSHA256": "86214ab3ec67b6598826205f26ecf7e8fca0865062be720753e32f963a99abb2",
+          "sourceFile": "fine dining/IMG_4004.JPG",
+          "sourceSHA256": "90cfbcb041b2eea889208df954452d0c76a25cbde91da5ed23beedef7e8b38b4",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "אקוואריו — תמונה מעובדת מחומר מודפס",
+            "en": "Acquario — restored from printed material",
+            "pl": "Acquario — obraz odtworzony z druku",
+            "de": "Acquario — aus Druckmaterial restauriertes Bild",
+            "cs": "Acquario — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://monopolwroclaw.hotel.com.pl/hotel-monopol-wroclaw/restauracje/ristorante-acquario/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        }
+      ],
+      "coordinateMethod": "Official venue map"
+    }
+  },
+  {
+    "id": "craft-wroclaw",
+    "localName": "Craft",
+    "name": {
+      "he": "קראפט",
+      "en": "Craft",
+      "pl": "Craft",
+      "de": "Craft",
+      "cs": "Craft"
+    },
+    "description": {
+      "he": "מסעדת מלון דה ברידג׳ באוסטרוב טומסקי, ליד הקתדרלה. מטבח פולני עכשווי עם דגש על חומרי גלם מקומיים ועונתיים ומטבח פתוח. החלל משלב עץ, מתכת ועור; להזמנה ולתפריט העדכני פנו לאתר המסעדה.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nPlac Katedralny 8, Wrocław",
+      "en": "The restaurant at The Bridge hotel on Ostrów Tumski, beside the cathedral. Contemporary Polish cooking focuses on local, seasonal ingredients and an open kitchen. The interior combines wood, metal and leather; consult the restaurant website for reservations and current menus.\nIncludes images restored from supplied printed material.\nPlac Katedralny 8, Wrocław",
+      "pl": "Restauracja hotelu The Bridge na Ostrowie Tumskim, obok katedry. Współczesna kuchnia polska stawia na lokalne, sezonowe składniki i otwartą kuchnię. Wnętrze łączy drewno, metal i skórę; rezerwacje i aktualne menu na stronie restauracji.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nPlac Katedralny 8, Wrocław",
+      "de": "Das Restaurant des Hotels The Bridge auf der Dominsel neben der Kathedrale. Moderne polnische Küche mit lokalen, saisonalen Zutaten und offener Küche. Im Raum treffen Holz, Metall und Leder aufeinander; Reservierungen und aktuelle Karten auf der Restaurantseite.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nPlac Katedralny 8, Wrocław",
+      "cs": "Restaurace hotelu The Bridge na Tumském ostrově vedle katedrály. Moderní polská kuchyně staví na místních sezonních surovinách a otevřené kuchyni. Interiér kombinuje dřevo, kov a kůži; rezervace a aktuální menu na webu restaurace.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nPlac Katedralny 8, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1135818,
+        "lng": 17.0454026
+      },
+      "address": {
+        "street": "Plac Katedralny 8",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://craftrestauracja.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1135818,17.0454026",
+        "appleMaps": "https://maps.apple.com/?ll=51.1135818,17.0454026&q=Craft"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/craft-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/craft-restored.jpg",
+        "/assets/fine-dining-nov7/craft-food-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/craft-restored.jpg": {
+          "assetSHA256": "a67fa14ea28388eddef7cb45da3086f7c8e7bc9f5983778a9ad195761236fe6d",
+          "sourceFile": "fine dining/IMG_4007.JPG",
+          "sourceSHA256": "6ff695ebf80f291be0a5261ff544973607e85ff24f5f01391b86037c09eee611",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "קראפט — תמונה מעובדת מחומר מודפס",
+            "en": "Craft — restored from printed material",
+            "pl": "Craft — obraz odtworzony z druku",
+            "de": "Craft — aus Druckmaterial restauriertes Bild",
+            "cs": "Craft — snímek obnovený z tisku"
+          }
+        },
+        "/assets/fine-dining-nov7/craft-food-restored.jpg": {
+          "assetSHA256": "14bc4db5da96b0064e62b9ebeaf2831ca415ea3cdb5cdf1c02a05d4607d934c3",
+          "sourceFile": "fine dining/IMG_4006.JPG",
+          "sourceSHA256": "c6de2d901295d51ee243a060ec2c685150009882a2c69d62225593f5c4eb3005",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "קראפט — תמונה מעובדת מחומר מודפס",
+            "en": "Craft — restored from printed material",
+            "pl": "Craft — obraz odtworzony z druku",
+            "de": "Craft — aus Druckmaterial restauriertes Bild",
+            "cs": "Craft — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://craftrestauracja.pl/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        }
+      ],
+      "coordinateMethod": "Official venue map"
+    }
+  },
+  {
+    "id": "manami-sushi-wroclaw",
+    "localName": "Manami Sushi",
+    "name": {
+      "he": "מנאמי סושי",
+      "en": "Manami Sushi",
+      "pl": "Manami Sushi",
+      "de": "Manami Sushi",
+      "cs": "Manami Sushi"
+    },
+    "description": {
+      "he": "מסעדה יפנית המתמקדת בסושי ובסשימי, עם דלפק עץ וכיסאות אדומים. הדגש הוא על בחירת הדגים, חיתוך והגשה מוקפדים. בדקו מול המסעדה את המבחר העדכני ואת אפשרויות ההזמנה.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nKsięcia Witolda 32a, Wrocław",
+      "en": "A Japanese restaurant focused on sushi and sashimi, with a wooden counter and red chairs. Fish selection, precise cutting and presentation are central to its approach. Check the current selection and booking options directly with the restaurant.\nIncludes images restored from supplied printed material.\nKsięcia Witolda 32a, Wrocław",
+      "pl": "Japońska restauracja skupiona na sushi i sashimi, z drewnianą ladą i czerwonymi krzesłami. Ważne są dobór ryb, precyzyjne krojenie i sposób podania. Aktualny wybór i możliwości rezerwacji sprawdź bezpośrednio w restauracji.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nKsięcia Witolda 32a, Wrocław",
+      "de": "Ein japanisches Restaurant mit Schwerpunkt Sushi und Sashimi, mit Holztheke und roten Stühlen. Fischauswahl, präziser Schnitt und Präsentation stehen im Mittelpunkt. Aktuelle Auswahl und Reservierungsmöglichkeiten direkt beim Restaurant prüfen.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nKsięcia Witolda 32a, Wrocław",
+      "cs": "Japonská restaurace zaměřená na sushi a sashimi s dřevěným pultem a červenými židlemi. Důraz klade na výběr ryb, přesné krájení a servírování. Aktuální nabídku a rezervace ověřte přímo u restaurace.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nKsięcia Witolda 32a, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1147163,
+        "lng": 17.0269857
+      },
+      "address": {
+        "street": "Księcia Witolda 32a",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://manami-sushi.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1147163,17.0269857",
+        "appleMaps": "https://maps.apple.com/?ll=51.1147163,17.0269857&q=Manami%20Sushi"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/manami-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/manami-restored.jpg",
+        "/assets/fine-dining-nov7/manami-food-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/manami-restored.jpg": {
+          "assetSHA256": "4c94b60cbb4fe3633d7ff23d63329eaa2c49373858f88a0fd790d9469cc500bb",
+          "sourceFile": "fine dining/IMG_4008.JPG",
+          "sourceSHA256": "0fb1b6d86f35dc4205335007a3dd78dd1190435f79de23be0493994b0d4df979",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "מנאמי סושי — תמונה מעובדת מחומר מודפס",
+            "en": "Manami Sushi — restored from printed material",
+            "pl": "Manami Sushi — obraz odtworzony z druku",
+            "de": "Manami Sushi — aus Druckmaterial restauriertes Bild",
+            "cs": "Manami Sushi — snímek obnovený z tisku"
+          }
+        },
+        "/assets/fine-dining-nov7/manami-food-restored.jpg": {
+          "assetSHA256": "043926c8701d8d113d52d321620c1747eb0e4a3e71bc4fd3e9c59644669bc4a6",
+          "sourceFile": "fine dining/IMG_4009.JPG",
+          "sourceSHA256": "e34359642e68a1fe651bbdac17514be01a4e899bcc44d1d1212b4301d80f761e",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "מנאמי סושי — תמונה מעובדת מחומר מודפס",
+            "en": "Manami Sushi — restored from printed material",
+            "pl": "Manami Sushi — obraz odtworzony z druku",
+            "de": "Manami Sushi — aus Druckmaterial restauriertes Bild",
+            "cs": "Manami Sushi — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://manami-sushi.pl/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        },
+        {
+          "type": "coordinates",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ksi%C4%99cia%20Witolda%2032a%20Wroc%C5%82aw",
+          "checkedAt": "2026-11-07",
+          "attribution": "© OpenStreetMap contributors, ODbL"
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap geocoding: venue node"
+    }
+  },
+  {
+    "id": "przystan-marina-wroclaw",
+    "localName": "Przystań & Marina",
+    "name": {
+      "he": "פשיסטאן ומרינה",
+      "en": "Przystań & Marina",
+      "pl": "Przystań & Marina",
+      "de": "Przystań & Marina",
+      "cs": "Przystań & Marina"
+    },
+    "description": {
+      "he": "מסעדה על גדת האודר בקמפה מיישצ׳נסקה, מול בניין האוניברסיטה. מטבח עונתי עכשווי באווירה רגועה, עם חלונות גדולים ומרפסת לצד המים. מומלץ לברר מראש זמינות שולחן ואת התפריט העדכני.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nKsięcia Witolda 2, Wrocław",
+      "en": "A restaurant beside the Oder on Kępa Mieszczańska, opposite the university building. Contemporary seasonal cooking is served in a relaxed setting with large windows and a waterside terrace. Check table availability and the current menu before visiting.\nIncludes images restored from supplied printed material.\nKsięcia Witolda 2, Wrocław",
+      "pl": "Restauracja nad Odrą na Kępie Mieszczańskiej, naprzeciw gmachu uniwersytetu. Współczesna kuchnia sezonowa w spokojnej atmosferze, z dużymi oknami i tarasem nad wodą. Przed wizytą sprawdź dostępność stolików i aktualne menu.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nKsięcia Witolda 2, Wrocław",
+      "de": "Ein Restaurant an der Oder auf der Kępa Mieszczańska gegenüber dem Universitätsgebäude. Moderne saisonale Küche in ruhiger Atmosphäre mit großen Fenstern und Terrasse am Wasser. Tischverfügbarkeit und aktuelle Karte vor dem Besuch prüfen.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nKsięcia Witolda 2, Wrocław",
+      "cs": "Restaurace u Odry na ostrově Kępa Mieszczańska naproti univerzitní budově. Moderní sezonní kuchyně v klidném prostředí s velkými okny a terasou u vody. Před návštěvou ověřte volné stoly a aktuální menu.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nKsięcia Witolda 2, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1148322,
+        "lng": 17.0329298
+      },
+      "address": {
+        "street": "Księcia Witolda 2",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://www.przystan.wroc.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1148322,17.0329298",
+        "appleMaps": "https://maps.apple.com/?ll=51.1148322,17.0329298&q=Przysta%C5%84%20%26%20Marina"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/przystan-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/przystan-restored.jpg",
+        "/assets/fine-dining-nov7/przystan-food-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/przystan-restored.jpg": {
+          "assetSHA256": "5a18b4f879774402031ae1cad188d39da13c90a3d4da3b665e1704206c51e1b4",
+          "sourceFile": "fine dining/IMG_4011.JPG",
+          "sourceSHA256": "babb94b89192bfe471748e2613e9e53b0304d59a16270fbea4b09d4fde58f17f",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "פשיסטאן ומרינה — תמונה מעובדת מחומר מודפס",
+            "en": "Przystań & Marina — restored from printed material",
+            "pl": "Przystań & Marina — obraz odtworzony z druku",
+            "de": "Przystań & Marina — aus Druckmaterial restauriertes Bild",
+            "cs": "Przystań & Marina — snímek obnovený z tisku"
+          }
+        },
+        "/assets/fine-dining-nov7/przystan-food-restored.jpg": {
+          "assetSHA256": "5504668c421b805b3c5f7dcd88a707f140a1be82aa7c7d74c011afb91de0b11e",
+          "sourceFile": "fine dining/IMG_4010.JPG",
+          "sourceSHA256": "eab7b6559cbbf982d5c510865513acf671f65a3de581f3b4908db1409a37668c",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "פשיסטאן ומרינה — תמונה מעובדת מחומר מודפס",
+            "en": "Przystań & Marina — restored from printed material",
+            "pl": "Przystań & Marina — obraz odtworzony z druku",
+            "de": "Przystań & Marina — aus Druckmaterial restauriertes Bild",
+            "cs": "Przystań & Marina — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://www.przystan.wroc.pl/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        }
+      ],
+      "coordinateMethod": "Official venue map"
+    }
+  },
+  {
+    "id": "la-colonna-wroclaw",
+    "localName": "La Colonna",
+    "name": {
+      "he": "לה קולונה",
+      "en": "La Colonna",
+      "pl": "La Colonna",
+      "de": "La Colonna",
+      "cs": "La Colonna"
+    },
+    "description": {
+      "he": "מסעדה ים־תיכונית בעיר העתיקה, עם השפעות איטלקיות וספרדיות. חדר האוכל משלב קמרונות לבנים, עץ, מפות לבנות ותאורה חמה. בדקו באתר את התפריט העדכני ואת האפשרות להזמין שולחן.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nRzeźnicza 24–25, Wrocław",
+      "en": "A Mediterranean restaurant in the Old Town with Italian and Spanish influences. The dining room combines brick vaults, wood, white tablecloths and warm lighting. Consult the website for the current menu and table reservations.\nIncludes images restored from supplied printed material.\nRzeźnicza 24–25, Wrocław",
+      "pl": "Śródziemnomorska restauracja na Starym Mieście z wpływami włoskimi i hiszpańskimi. Sala łączy ceglane sklepienia, drewno, białe obrusy i ciepłe oświetlenie. Aktualne menu i rezerwacje stolików dostępne są na stronie.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nRzeźnicza 24–25, Wrocław",
+      "de": "Ein mediterranes Restaurant in der Altstadt mit italienischen und spanischen Einflüssen. Der Gastraum verbindet Backsteingewölbe, Holz, weiße Tischdecken und warmes Licht. Aktuelle Speisekarte und Tischreservierungen auf der Website.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nRzeźnicza 24–25, Wrocław",
+      "cs": "Středomořská restaurace ve Starém Městě s italskými a španělskými vlivy. Jídelna kombinuje cihlové klenby, dřevo, bílé ubrusy a teplé osvětlení. Aktuální menu a rezervace stolů najdete na webu.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nRzeźnicza 24–25, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1118922,
+        "lng": 17.0285424
+      },
+      "address": {
+        "street": "Rzeźnicza 24–25",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://la-colonna.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1118922,17.0285424",
+        "appleMaps": "https://maps.apple.com/?ll=51.1118922,17.0285424&q=La%20Colonna"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/colonna-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/colonna-restored.jpg",
+        "/assets/fine-dining-nov7/colonna-food-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/colonna-restored.jpg": {
+          "assetSHA256": "454b4236a2aff1a825961c00883b8c40d0c1e0ca40d46143a5e773e7bf640cce",
+          "sourceFile": "fine dining/IMG_4016.JPG",
+          "sourceSHA256": "99805e17160936a429d81b9d15d4de4aff8ac6e51795bf6d2a6bf0cdf5f0e280",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "לה קולונה — תמונה מעובדת מחומר מודפס",
+            "en": "La Colonna — restored from printed material",
+            "pl": "La Colonna — obraz odtworzony z druku",
+            "de": "La Colonna — aus Druckmaterial restauriertes Bild",
+            "cs": "La Colonna — snímek obnovený z tisku"
+          }
+        },
+        "/assets/fine-dining-nov7/colonna-food-restored.jpg": {
+          "assetSHA256": "ca34908ea7943e644d682d33b45aa2a4720c65f8caaf2155837769fe7721f8f5",
+          "sourceFile": "fine dining/IMG_4015.JPG",
+          "sourceSHA256": "f2975896edcc779d0d7867a69fcd1390f895ff570368eef489bebd40f80332da",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "לה קולונה — תמונה מעובדת מחומר מודפס",
+            "en": "La Colonna — restored from printed material",
+            "pl": "La Colonna — obraz odtworzony z druku",
+            "de": "La Colonna — aus Druckmaterial restauriertes Bild",
+            "cs": "La Colonna — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://la-colonna.pl/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        },
+        {
+          "type": "coordinates",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Rze%C5%BAnicza%2024%E2%80%9325%20Wroc%C5%82aw",
+          "checkedAt": "2026-11-07",
+          "attribution": "© OpenStreetMap contributors, ODbL"
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap geocoding: venue node"
+    }
+  },
+  {
+    "id": "warsztat-food-garden-wroclaw",
+    "localName": "Warsztat – Food & Garden",
+    "name": {
+      "he": "ורשטאט — אוכל וגן",
+      "en": "Warsztat – Food & Garden",
+      "pl": "Warsztat – Food & Garden",
+      "de": "Warsztat – Food & Garden",
+      "cs": "Warsztat – Food & Garden"
+    },
+    "description": {
+      "he": "ביסטרו עם גינה במבנה ששימש בעבר סדנה ושטיפת מכוניות. התפריט העונתי נשען על מסורת אזורית וחומרי גלם מקומיים, ולצדו מאפייה. זהו מקום באווירה נינוחה מחוץ ללב העיר העתיקה; בדקו תפריט וזמינות באתר.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nNiedźwiedzia 5, Wrocław",
+      "en": "A bistro with a garden in a former workshop and car wash. Its seasonal menu draws on regional traditions and local ingredients, with a bakery alongside. The setting is relaxed and outside the Old Town core; check the website for menus and availability.\nIncludes images restored from supplied printed material.\nNiedźwiedzia 5, Wrocław",
+      "pl": "Bistro z ogrodem w dawnym warsztacie i myjni samochodowej. Sezonowe menu czerpie z tradycji regionalnych i lokalnych składników; obok działa piekarnia. To swobodny lokal poza ścisłym Starym Miastem; menu i dostępność sprawdź na stronie.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nNiedźwiedzia 5, Wrocław",
+      "de": "Ein Bistro mit Garten in einer ehemaligen Werkstatt und Autowäsche. Die saisonale Küche greift regionale Traditionen und lokale Zutaten auf; eine Bäckerei liegt daneben. Entspannte Atmosphäre außerhalb des Altstadtkerns; Karte und Verfügbarkeit auf der Website prüfen.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nNiedźwiedzia 5, Wrocław",
+      "cs": "Bistro se zahradou v bývalé dílně a myčce aut. Sezonní menu vychází z regionálních tradic a místních surovin; vedle funguje pekárna. Uvolněné prostředí mimo jádro Starého Města; menu a dostupnost ověřte na webu.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nNiedźwiedzia 5, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1216068,
+        "lng": 16.9948475
+      },
+      "address": {
+        "street": "Niedźwiedzia 5",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://warsztatfoodandgarden.com/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1216068,16.9948475",
+        "appleMaps": "https://maps.apple.com/?ll=51.1216068,16.9948475&q=Warsztat%20%E2%80%93%20Food%20%26%20Garden"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/warsztat-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/warsztat-restored.jpg",
+        "/assets/fine-dining-nov7/warsztat-food-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/warsztat-restored.jpg": {
+          "assetSHA256": "fc4676b701b8d4a61750d664f8f50a4b1b2d84cdacc392a4c70e8438e86498b1",
+          "sourceFile": "fine dining/IMG_4017.JPG",
+          "sourceSHA256": "5921ae9773c53fc5929770ee7afac1b2d4bcc146711b3eefc1b2467eed50fb07",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "ורשטאט — אוכל וגן — תמונה מעובדת מחומר מודפס",
+            "en": "Warsztat – Food & Garden — restored from printed material",
+            "pl": "Warsztat – Food & Garden — obraz odtworzony z druku",
+            "de": "Warsztat – Food & Garden — aus Druckmaterial restauriertes Bild",
+            "cs": "Warsztat – Food & Garden — snímek obnovený z tisku"
+          }
+        },
+        "/assets/fine-dining-nov7/warsztat-food-restored.jpg": {
+          "assetSHA256": "fc1f372375b999634737a9cff3605c18a064db0c09f5be17487cbaf7ad92658e",
+          "sourceFile": "fine dining/IMG_4018.JPG",
+          "sourceSHA256": "06b93a22ec79e51bad0914a3e7b7b4bb5847cf7f2aa4bde4a64607178c6523ca",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "ורשטאט — אוכל וגן — תמונה מעובדת מחומר מודפס",
+            "en": "Warsztat – Food & Garden — restored from printed material",
+            "pl": "Warsztat – Food & Garden — obraz odtworzony z druku",
+            "de": "Warsztat – Food & Garden — aus Druckmaterial restauriertes Bild",
+            "cs": "Warsztat – Food & Garden — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://warsztatfoodandgarden.com/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        },
+        {
+          "type": "coordinates",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Nied%C5%BAwiedzia%205%20Wroc%C5%82aw",
+          "checkedAt": "2026-11-07",
+          "attribution": "© OpenStreetMap contributors, ODbL"
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap geocoding: venue node"
+    }
+  },
+  {
+    "id": "restauracja-wroclawska",
+    "localName": "Restauracja Wrocławska",
+    "name": {
+      "he": "מסעדת ורוצלבסקה",
+      "en": "Restauracja Wrocławska",
+      "pl": "Restauracja Wrocławska",
+      "de": "Restauracja Wrocławska",
+      "cs": "Restauracja Wrocławska"
+    },
+    "description": {
+      "he": "מסעדה המתמקדת במסורות הקולינריות של ורוצלב ושלזיה התחתית. המטבח מציע מאכלים פולניים ואזוריים בגישה עונתית, בחלל עם בר עץ ותאורה חמה. בדקו את התפריט הנוכחי באתר; מנות מצולמות אינן מעידות בהכרח על זמינותן כעת.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nSzewska 59/60, Wrocław",
+      "en": "A restaurant devoted to the culinary traditions of Wrocław and Lower Silesia. Polish and regional dishes follow a seasonal approach in an interior with a wooden bar and warm lighting. Check the current menu online; photographed dishes may not be available now.\nIncludes images restored from supplied printed material.\nSzewska 59/60, Wrocław",
+      "pl": "Restauracja poświęcona tradycjom kulinarnym Wrocławia i Dolnego Śląska. Dania polskie i regionalne mają sezonowy charakter, a wnętrze wyróżnia drewniany bar i ciepłe światło. Sprawdź aktualne menu; dania ze zdjęć nie muszą być obecnie dostępne.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nSzewska 59/60, Wrocław",
+      "de": "Ein Restaurant mit Schwerpunkt auf den kulinarischen Traditionen Breslaus und Niederschlesiens. Polnische und regionale Gerichte werden saisonal angeboten, in einem Raum mit Holzbar und warmem Licht. Aktuelle Karte online prüfen; fotografierte Gerichte sind möglicherweise derzeit nicht erhältlich.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nSzewska 59/60, Wrocław",
+      "cs": "Restaurace věnovaná kulinářským tradicím Vratislavi a Dolního Slezska. Polská a regionální jídla mají sezonní charakter, interiér doplňuje dřevěný bar a teplé světlo. Ověřte aktuální menu; vyfotografovaná jídla nyní nemusejí být dostupná.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nSzewska 59/60, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1111604,
+        "lng": 17.0349659
+      },
+      "address": {
+        "street": "Szewska 59/60",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://wroclawska.com.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1111604,17.0349659",
+        "appleMaps": "https://maps.apple.com/?ll=51.1111604,17.0349659&q=Restauracja%20Wroc%C5%82awska"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/wroclawska-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/wroclawska-restored.jpg",
+        "/assets/fine-dining-nov7/wroclawska-food-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/wroclawska-restored.jpg": {
+          "assetSHA256": "d04ec750f7fb3b177c5df5a3d6692640d3c75e72d2e0a93f206d5af633874601",
+          "sourceFile": "fine dining/IMG_4020.JPG",
+          "sourceSHA256": "bb9dc4b336eda9be821be9d006566cc3e34888255ee40f7729ca8ebc82862a44",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "מסעדת ורוצלבסקה — תמונה מעובדת מחומר מודפס",
+            "en": "Restauracja Wrocławska — restored from printed material",
+            "pl": "Restauracja Wrocławska — obraz odtworzony z druku",
+            "de": "Restauracja Wrocławska — aus Druckmaterial restauriertes Bild",
+            "cs": "Restauracja Wrocławska — snímek obnovený z tisku"
+          }
+        },
+        "/assets/fine-dining-nov7/wroclawska-food-restored.jpg": {
+          "assetSHA256": "f78b345be810bf0a80020b153469c45133a54cc731bab9c2f714be3c84a2286e",
+          "sourceFile": "fine dining/IMG_4019.JPG",
+          "sourceSHA256": "b342a3e7b5966d230ff45c29b1523b0941c4f89c7f915ef691d1b27685634b48",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "מסעדת ורוצלבסקה — תמונה מעובדת מחומר מודפס",
+            "en": "Restauracja Wrocławska — restored from printed material",
+            "pl": "Restauracja Wrocławska — obraz odtworzony z druku",
+            "de": "Restauracja Wrocławska — aus Druckmaterial restauriertes Bild",
+            "cs": "Restauracja Wrocławska — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://wroclawska.com.pl/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        },
+        {
+          "type": "coordinates",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Szewska%2059/60%20Wroc%C5%82aw",
+          "checkedAt": "2026-11-07",
+          "attribution": "© OpenStreetMap contributors, ODbL"
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap geocoding: venue node"
+    }
+  },
+  {
+    "id": "old-havana-wroclaw",
+    "localName": "Old Havana",
+    "name": {
+      "he": "אולד הוואנה",
+      "en": "Old Havana",
+      "pl": "Old Havana",
+      "de": "Old Havana",
+      "cs": "Old Havana"
+    },
+    "description": {
+      "he": "טרקלין ערב ובר בעיר העתיקה, עם חיפויי עץ וכורסאות מרופדות. זהו גם טרקלין סיגרים, ולכן המקום מתאים למבוגרים ואינו מסווג כאן כמסעדה או כבחירת אוכל משובח. פרטי ביקור עדכניים באתר המקום.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nKiełbaśnicza 24, Wrocław",
+      "en": "An evening lounge and bar in the Old Town, with wood panelling and upholstered seating. It is also a cigar lounge, so this is an adult-oriented venue, classified here as a bar rather than a restaurant or a fine-dining selection. Current visiting information is on the venue website.\nIncludes images restored from supplied printed material.\nKiełbaśnicza 24, Wrocław",
+      "pl": "Wieczorny lounge i bar na Starym Mieście z drewnianymi okładzinami i tapicerowanymi fotelami. To także salon cygar, więc jest to lokal dla dorosłych, sklasyfikowany jako bar, nie restauracja ani wybór fine dining. Aktualne informacje na stronie lokalu.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nKiełbaśnicza 24, Wrocław",
+      "de": "Eine Abendlounge und Bar in der Altstadt mit Holzvertäfelung und gepolsterten Sesseln. Da sie auch eine Zigarrenlounge ist, richtet sie sich an Erwachsene und wird hier als Bar geführt, nicht als Restaurant oder Fine-Dining-Auswahl. Aktuelle Besuchsinformationen auf der Website.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nKiełbaśnicza 24, Wrocław",
+      "cs": "Večerní lounge a bar ve Starém Městě s dřevěným obložením a čalouněnými křesly. Je také doutníkovým salonkem, proto je určen dospělým a veden jako bar, nikoli restaurace či výběr fine dining. Aktuální informace najdete na webu podniku.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nKiełbaśnicza 24, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1118297,
+        "lng": 17.0297793
+      },
+      "address": {
+        "street": "Kiełbaśnicza 24",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "drink"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "drink"
+      ],
+      "tags": [
+        "bar",
+        "lounge"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://wroclaw.oldhavana.pl/kontakt/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1118297,17.0297793",
+        "appleMaps": "https://maps.apple.com/?ll=51.1118297,17.0297793&q=Old%20Havana"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/old-havana-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/old-havana-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/old-havana-restored.jpg": {
+          "assetSHA256": "f4dc20ee7538d3a997e8e1474d32ff81b6f7a5a63c80bb97b2951686ef29d2ef",
+          "sourceFile": "fine dining/IMG_4021.JPG",
+          "sourceSHA256": "e2bd60b880b3b6c58e5c355b9321309212911cfc2bed4c939713a3e34a2d5012",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "אולד הוואנה — תמונה מעובדת מחומר מודפס",
+            "en": "Old Havana — restored from printed material",
+            "pl": "Old Havana — obraz odtworzony z druku",
+            "de": "Old Havana — aus Druckmaterial restauriertes Bild",
+            "cs": "Old Havana — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://wroclaw.oldhavana.pl/kontakt/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        },
+        {
+          "type": "coordinates",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Kie%C5%82ba%C5%9Bnicza%2024%20Wroc%C5%82aw",
+          "checkedAt": "2026-11-07",
+          "attribution": "© OpenStreetMap contributors, ODbL"
+        }
+      ],
+      "coordinateMethod": "OpenStreetMap address-level geocode; not an entrance survey"
+    },
+    "suitability": {
+      "familyFriendly": false
+    }
+  }
+];
+const updates={
+  "forum-kulinarne-wroclaw": {
+    "id": "forum-kulinarne-wroclaw",
+    "localName": "Forum Kulinarne",
+    "name": {
+      "he": "פורום קולינרנה",
+      "en": "Forum Kulinarne",
+      "pl": "Forum Kulinarne",
+      "de": "Forum Kulinarne",
+      "cs": "Forum Kulinarne"
+    },
+    "description": {
+      "he": "מסעדה ליד האופרה והפורום הלאומי למוזיקה. המטבח העונתי משלב השראה ים־תיכונית ובינלאומית עם מרכיבים מקומיים; בפנים בר כהה, כיסאות עץ ותאורה חמה. אפשר לשלב ארוחה עם מופע באזור, בתיאום שעות והזמנה מראש.\nנוספו תמונות שעובדו מחומר מודפס שסופק.\nPlac Wolności 4, Wrocław",
+      "en": "A restaurant near the opera house and National Forum of Music. Seasonal cooking combines Mediterranean and international influences with local ingredients; inside are a dark bar, wooden chairs and warm lighting. Pair a meal with a nearby performance after checking service times and reservations.\nIncludes images restored from supplied printed material.\nPlac Wolności 4, Wrocław",
+      "pl": "Restauracja przy operze i Narodowym Forum Muzyki. Sezonowa kuchnia łączy inspiracje śródziemnomorskie i międzynarodowe z lokalnymi składnikami; wnętrze ma ciemny bar, drewniane krzesła i ciepłe oświetlenie. Posiłek można połączyć z pobliskim spektaklem, po sprawdzeniu godzin i rezerwacji.\nDodano obrazy odtworzone z dostarczonych materiałów drukowanych.\nPlac Wolności 4, Wrocław",
+      "de": "Ein Restaurant nahe Oper und Nationalem Musikforum. Saisonale Küche verbindet mediterrane und internationale Einflüsse mit lokalen Zutaten; innen erwarten Sie eine dunkle Bar, Holzstühle und warmes Licht. Ein Essen lässt sich nach Prüfung der Zeiten und Reservierung mit einer Aufführung verbinden.\nEnthält aus bereitgestelltem Druckmaterial restaurierte Bilder.\nPlac Wolności 4, Wrocław",
+      "cs": "Restaurace u opery a Národního hudebního fóra. Sezonní kuchyně spojuje středomořské a mezinárodní vlivy s místními surovinami; uvnitř je tmavý bar, dřevěné židle a teplé osvětlení. Jídlo lze po ověření časů a rezervaci spojit s představením v okolí.\nObsahuje snímky obnovené z dodaných tištěných materiálů.\nPlac Wolności 4, Wrocław"
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.106514,
+        "lng": 17.0297567
+      },
+      "address": {
+        "street": "Plac Wolności 4",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "status": "published",
+    "placeType": "hospitality",
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": [
+        "restaurant"
+      ]
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "links": {
+      "website": "https://forumkulinarne.eu/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.106514,17.0297567",
+        "appleMaps": "https://maps.apple.com/?ll=51.106514,17.0297567&q=Forum%20Kulinarne"
+      }
+    },
+    "media": {
+      "thumbnail": "/assets/fine-dining-nov7/forum-restored.jpg",
+      "photos": [
+        "/assets/fine-dining-nov7/forum-restored.jpg",
+        "/assets/fine-dining-nov7/forum-food-restored.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/fine-dining-nov7/forum-restored.jpg": {
+          "assetSHA256": "522d04172f04ee9a436ba28d9ab1d9c3a55c22c74507416d8edf0a03ecb39e09",
+          "sourceFile": "fine dining/IMG_4014.JPG",
+          "sourceSHA256": "60f0b74f8a057d8ef4feb931d96399759c846888e4229a905f8ecb0c5c648e7b",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "פורום קולינרנה — תמונה מעובדת מחומר מודפס",
+            "en": "Forum Kulinarne — restored from printed material",
+            "pl": "Forum Kulinarne — obraz odtworzony z druku",
+            "de": "Forum Kulinarne — aus Druckmaterial restauriertes Bild",
+            "cs": "Forum Kulinarne — snímek obnovený z tisku"
+          }
+        },
+        "/assets/fine-dining-nov7/forum-food-restored.jpg": {
+          "assetSHA256": "c11db926b0c43171a48a1a9a74d3778239c13ad4fd9a7aae2fd9a45fcddb95df",
+          "sourceFile": "fine dining/IMG_4013.JPG",
+          "sourceSHA256": "e2f7e3b0ea4fc90a8b6e49d36ddde891d4a2ab2cc11cf10902388b78d6966823",
+          "original": false,
+          "aiEdited": true,
+          "editMethod": "image_gen",
+          "originalFullPicturePreserved": false,
+          "familyForeground": false,
+          "reviewedAt": "2026-11-07",
+          "review": "Selected photograph isolated from a photographed guidebook page. AI-assisted perspective, paper-curvature, glare and print-artifact restoration; editorial text, badges, QR codes, page edges and adjacent photographs removed. Edited reconstruction, not an untouched original or a claimed personal visit.",
+          "alt": {
+            "he": "פורום קולינרנה — תמונה מעובדת מחומר מודפס",
+            "en": "Forum Kulinarne — restored from printed material",
+            "pl": "Forum Kulinarne — obraz odtworzony z druku",
+            "de": "Forum Kulinarne — aus Druckmaterial restauriertes Bild",
+            "cs": "Forum Kulinarne — snímek obnovený z tisku"
+          }
+        }
+      }
+    },
+    "provenance": {
+      "verifiedAt": "2026-11-07",
+      "contentType": "supplied-printed-material-and-official-venue",
+      "personalVisit": false,
+      "sourceOriginalsModified": false,
+      "fineDiningExperienceCreated": false,
+      "provenanceFile": "/data/fine-dining-nov7-provenance.json",
+      "factualSources": [
+        {
+          "type": "official-venue",
+          "url": "https://forumkulinarne.eu/",
+          "checkedAt": "2026-11-07",
+          "scope": "Venue identity, address, cuisine and setting. No current prices, opening hours, stars or menu availability inferred from booklet."
+        }
+      ],
+      "coordinateMethod": "Existing canonical coordinates preserved"
+    }
+  }
+};
+for(const item of additions){if(window.WROC_CANONICAL_PLACE_SOURCE.some(p=>p.id===item.id))throw Error("Duplicate dining place "+item.id);window.WROC_CANONICAL_PLACE_SOURCE.push(item);}
+for(const [id,item] of Object.entries(updates)){const index=window.WROC_CANONICAL_PLACE_SOURCE.findIndex(p=>p.id===id);if(index<0)throw Error("Missing existing dining place "+id);window.WROC_CANONICAL_PLACE_SOURCE[index]=enrich(window.WROC_CANONICAL_PLACE_SOURCE[index],item);}
+})();
