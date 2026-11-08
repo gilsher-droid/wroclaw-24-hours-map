@@ -46,6 +46,7 @@ jobs:
           python3 tests/community-contributions.test.py
           python3 tests/personal-trip-nearby.test.py
           python3 tests/place-analytics-server.test.py
+          python3 tests/business-analytics.test.py
 
       - name: Verify canonical catalog in Pages artifact
         run: node tools/verify-pages-artifact.mjs
