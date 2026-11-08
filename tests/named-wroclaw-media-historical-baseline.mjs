@@ -1,4 +1,5 @@
 import{beforeIslandTransferRecord,beforeIslandTransferGallery}from'./island-transfer-historical-baseline.mjs';
+import{beforeJoliePhotoAttribution}from'./jolie-photo-attribution-historical-baseline.mjs';
 import{beforeSwidnicaSolnyRecord,beforeSwidnicaSolnyGallery,beforeSwidnicaSnapshot}from'./swidnica-solny-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -20,6 +21,7 @@ for(const id of approved.canonicalIDs){
 // Only the exact reviewed media delta projects to the historical receipt.
 // The independent new test compares all280 other records without projection.
 export function beforeNamedWroclawMedia(value){
+ value=beforeJoliePhotoAttribution(value);
  value=beforeIslandTransferRecord(value);
  value=beforeSwidnicaSolnyRecord(value);
  const before=value?.location&&value?.socialPosts&&baseline.targetsBefore[value.id];
