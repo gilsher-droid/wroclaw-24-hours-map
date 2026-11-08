@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {beforeJoliePhotoSnapshot} from './jolie-photo-attribution-historical-baseline.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -6,7 +7,7 @@ import vm from 'node:vm';
 import {beforeFineDiningStageB} from './fine-dining-stage-b-baseline.mjs';
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const proof=JSON.parse(readFileSync('data/fine-dining-stage-b-preservation.json'));
-function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/home-experiences.js','data/dining-taxonomy.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window});return window;}
+function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/home-experiences.js','data/dining-taxonomy.js'])vm.runInNewContext(readFileSync(f,'utf8'),{window});return beforeJoliePhotoSnapshot(window);}
 test('Fine Dining reuses nine reviewed restaurants, all their images and five-language editorial copy',()=>{
  const w=load(),r=w.WROC_EXPERIENCE_CATALOG,e=r.getExperience(proof.id);assert.equal(e.relatedCanonicalPlaceIds.length,9);assert.equal(new Set(e.relatedCanonicalPlaceIds).size,9);assert.ok(!e.relatedCanonicalPlaceIds.includes('old-havana-wroclaw'));
  for(const id of e.relatedCanonicalPlaceIds){const p=w.WROC_CATALOG.getPlace(id);assert.ok(p.dining.venueTypes.includes('restaurant'));assert.ok(/^https:\/\//.test(p.links.website));}

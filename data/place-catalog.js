@@ -14893,11 +14893,11 @@
       "cs": "Chatka przy Jatkach"
     },
     "description": {
-      "he": "מסעדה למטבח פולני מסורתי בעיר העתיקה, סמוך לסמטת יאטקי ולכיכר השוק. בגלריית הביקור שלנו נראים פירוגי על מגש עץ, לביבות תפוחי אדמה ברוטב פטריות ואווירת הארוחה בפנים. התמונות מתעדות את הביקור שלנו, ולא תפריט או מחירים עדכניים. הכתובת ופרטי הביקור מופיעים באתר הרשמי. לפני ביקור בדקו שם את שעות הפתיחה והזמנת השולחן. התמונה הנוספת מציגה את חזית המסעדה ושלטה המואר בערב.",
-      "en": "A traditional Polish restaurant in the Old Town, close to the Jatki lane and Market Square. Our visit gallery shows pierogi on a wooden platter, potato pancakes with mushroom sauce and the indoor dining atmosphere. The photographs document our visit rather than a current menu or prices. The restaurant lists its entrance address as Odrzańska 6–7. Check the official website for current opening hours and table reservations. The additional photograph shows the restaurant facade and its illuminated sign in the evening.",
-      "pl": "Restauracja z tradycyjną kuchnią polską na Starym Mieście, blisko Jatek i Rynku. Galeria z naszej wizyty pokazuje pierogi na drewnianej desce, placki ziemniaczane z sosem grzybowym i atmosferę posiłku we wnętrzu. Zdjęcia dokumentują naszą wizytę, a nie aktualne menu czy ceny. Restauracja podaje adres wejść: Odrzańska 6–7. Przed wizytą sprawdź godziny otwarcia i rezerwacje na oficjalnej stronie. Dodatkowe zdjęcie pokazuje fasadę restauracji i oświetlony szyld wieczorem.",
-      "de": "Ein Restaurant mit traditioneller polnischer Küche in der Altstadt, nahe der Gasse Jatki und dem Marktplatz. Unsere Besuchsgalerie zeigt Pierogi auf einer Holzplatte, Kartoffelpuffer mit Pilzsauce und die Atmosphäre beim Essen im Innenraum. Die Fotos dokumentieren unseren Besuch und sind keine aktuelle Speisekarte oder Preisliste. Das Restaurant nennt als Eingangsadresse Odrzańska 6–7. Aktuelle Öffnungszeiten und Tischreservierungen finden Sie auf der offiziellen Website. Das zusätzliche Foto zeigt die Restaurantfassade und das beleuchtete Schild am Abend.",
-      "cs": "Restaurace s tradiční polskou kuchyní ve Starém Městě, blízko uličky Jatki a hlavního náměstí. Galerie z naší návštěvy ukazuje pirohy na dřevěném tácu, bramboráky s houbovou omáčkou a atmosféru stolování uvnitř. Fotografie zachycují naši návštěvu, nikoli aktuální jídelní lístek či ceny. Restaurace uvádí adresu vstupů Odrzańska 6–7. Před návštěvou ověřte otevírací dobu a rezervace na oficiálním webu. Další fotografie ukazuje průčelí restaurace a osvětlený nápis večer."
+      "he": "מסעדה למטבח פולני מסורתי בעיר העתיקה, סמוך לסמטת יאטקי ולכיכר השוק. בגלריית הביקור שלנו נראים פירוגי על מגש עץ ואווירת הארוחה בפנים. במסעדה מוגשות גם לביבות תפוחי אדמה. התמונות מתעדות את הביקור שלנו, ולא תפריט או מחירים עדכניים. הכתובת ופרטי הביקור מופיעים באתר הרשמי. לפני ביקור בדקו שם את שעות הפתיחה והזמנת השולחן. התמונה הנוספת מציגה את חזית המסעדה ושלטה המואר בערב.",
+      "en": "A traditional Polish restaurant in the Old Town, close to the Jatki lane and Market Square. Our visit gallery shows pierogi on a wooden platter and the indoor dining atmosphere. The restaurant also serves potato pancakes. The photographs document our visit rather than a current menu or prices. The restaurant lists its entrance address as Odrzańska 6–7. Check the official website for current opening hours and table reservations. The additional photograph shows the restaurant facade and its illuminated sign in the evening.",
+      "pl": "Restauracja z tradycyjną kuchnią polską na Starym Mieście, blisko Jatek i Rynku. Galeria z naszej wizyty pokazuje pierogi na drewnianej desce i atmosferę posiłku we wnętrzu. Restauracja serwuje również placki ziemniaczane. Zdjęcia dokumentują naszą wizytę, a nie aktualne menu czy ceny. Restauracja podaje adres wejść: Odrzańska 6–7. Przed wizytą sprawdź godziny otwarcia i rezerwacje na oficjalnej stronie. Dodatkowe zdjęcie pokazuje fasadę restauracji i oświetlony szyld wieczorem.",
+      "de": "Ein Restaurant mit traditioneller polnischer Küche in der Altstadt, nahe der Gasse Jatki und dem Marktplatz. Unsere Besuchsgalerie zeigt Pierogi auf einer Holzplatte und die Atmosphäre beim Essen im Innenraum. Das Restaurant serviert auch Kartoffelpuffer. Die Fotos dokumentieren unseren Besuch und sind keine aktuelle Speisekarte oder Preisliste. Das Restaurant nennt als Eingangsadresse Odrzańska 6–7. Aktuelle Öffnungszeiten und Tischreservierungen finden Sie auf der offiziellen Website. Das zusätzliche Foto zeigt die Restaurantfassade und das beleuchtete Schild am Abend.",
+      "cs": "Restaurace s tradiční polskou kuchyní ve Starém Městě, blízko uličky Jatki a hlavního náměstí. Galerie z naší návštěvy ukazuje pirohy na dřevěném tácu a atmosféru stolování uvnitř. Restaurace podává také bramboráky. Fotografie zachycují naši návštěvu, nikoli aktuální jídelní lístek či ceny. Restaurace uvádí adresu vstupů Odrzańska 6–7. Před návštěvou ověřte otevírací dobu a rezervace na oficiálním webu. Další fotografie ukazuje průčelí restaurace a osvětlený nápis večer."
     },
     "location": {
       "countryCode": "PL",
@@ -15018,7 +15018,6 @@
     "media": {
       "photos": [
         "/assets/food-cafes/chatka-pierogi-01.jpg",
-        "/assets/feels-familiar/chatka-placki.jpg",
         "/assets/food-cafes/chatka-visit-02.jpg",
         "/assets/food-cafes/chatka-facade-refresh-20261020.jpg",
         "/assets/round-other-20261023/complete-chatka-31.jpg",
@@ -35216,7 +35215,8 @@
         "/assets/feels-familiar/jolie-hummus-pita.jpg",
         "/assets/feels-familiar/jolie-kurzy-targ.jpg",
         "/assets/feels-familiar/jolie-interior.jpg",
-        "/assets/dialogue-beach-cemetery-oct29/jolie-detail.jpg"
+        "/assets/dialogue-beach-cemetery-oct29/jolie-detail.jpg",
+        "/assets/feels-familiar/chatka-placki.jpg"
       ],
       "videos": [],
       "metadata": {
@@ -35331,6 +35331,32 @@
           },
           "familyForeground": false,
           "familyExceptionApplied": false
+        },
+        "/assets/feels-familiar/chatka-placki.jpg": {
+          "original": true,
+          "canonicalPlaceId": "jolie-kurzy-targ",
+          "assetSHA256": "a8c5b2658353ac7e97b339ae6e245d83acbf627b0b2d75f553dfaf494eea2b08",
+          "alt": {
+            "he": "לביבות תפוחי אדמה ורוטב פטריות בג׳ולי, קורזי טארג 2",
+            "en": "Potato pancakes and mushroom sauce at Jolie, Kurzy Targ 2",
+            "pl": "Placki ziemniaczane z sosem grzybowym w Jolie, Kurzy Targ 2",
+            "de": "Kartoffelpuffer mit Pilzsauce bei Jolie, Kurzy Targ 2",
+            "cs": "Bramboráky s houbovou omáčkou v Jolie, Kurzy Targ 2"
+          },
+          "title": {
+            "he": "לביבות תפוחי אדמה ורוטב פטריות בג׳ולי, קורזי טארג 2",
+            "en": "Potato pancakes and mushroom sauce at Jolie, Kurzy Targ 2",
+            "pl": "Placki ziemniaczane z sosem grzybowym w Jolie, Kurzy Targ 2",
+            "de": "Kartoffelpuffer mit Pilzsauce bei Jolie, Kurzy Targ 2",
+            "cs": "Bramboráky s houbovou omáčkou v Jolie, Kurzy Targ 2"
+          },
+          "attributionCorrection": {
+            "confirmedBy": "owner",
+            "confirmedOn": "2026-11-08",
+            "previousCanonicalPlaceId": "chatka",
+            "originalAssetPathPreserved": true,
+            "receipt": "/data/photo-attribution-corrections-nov8.json"
+          }
         }
       }
     },

@@ -17,10 +17,10 @@
       "/assets/gallery-university-05.jpg"
     ],
     marketHall: [...gallery("hala", 6), "/assets/feels-familiar/hala-chalka.jpg", "/assets/feels-familiar/hala-bakery.jpg"],
-    chatka: ["/assets/feels-familiar/chatka-placki.jpg"],
+    chatka: [], // This legacy filename belongs to Jolie; canonical Chatka photographs are inherited below.
     "pan-precel-olawska": ["/assets/feels-familiar/pan-precel-bag.jpg", "/assets/feels-familiar/pan-precel-olawska.jpg"],
     "dobra-paczkarnia-kuznicza": ["/assets/feels-familiar/dobra-paczkarnia-kuznicza.jpg", "/assets/feels-familiar/dobra-paczkarnia-display.jpg"],
-    "jolie-kurzy-targ": ["/assets/feels-familiar/jolie-hummus-pita.jpg", "/assets/feels-familiar/jolie-kurzy-targ.jpg", "/assets/feels-familiar/jolie-interior.jpg"],
+    "jolie-kurzy-targ": ["/assets/feels-familiar/chatka-placki.jpg", "/assets/feels-familiar/jolie-hummus-pita.jpg", "/assets/feels-familiar/jolie-kurzy-targ.jpg", "/assets/feels-familiar/jolie-interior.jpg"],
     cathedral: ["/assets/gallery-cathedral-01.jpg"],
     ostrow: [
       "/assets/gallery-cathedral-03.jpg",
@@ -437,3 +437,12 @@ Object.assign(window.WROC_LOCATION_MEDIA,{
     ]
   }
 });
+
+// Owner photograph correction, 8 November 2026, after all historical enrichments.
+(function(){
+ const asset='/assets/feels-familiar/chatka-placki.jpg';
+ const chatka=window.WROC_LOCATION_MEDIA.chatka;
+ if(chatka?.gallery)chatka.gallery=chatka.gallery.filter(src=>src!==asset);
+ const jolie=window.WROC_LOCATION_MEDIA['jolie-kurzy-targ'];
+ if(jolie?.gallery&&!jolie.gallery.includes(asset))jolie.gallery.push(asset);
+})();

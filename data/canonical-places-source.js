@@ -37016,3 +37016,21 @@ const updates={
 for(const item of additions){if(window.WROC_CANONICAL_PLACE_SOURCE.some(p=>p.id===item.id))throw Error("Duplicate dining place "+item.id);window.WROC_CANONICAL_PLACE_SOURCE.push(item);}
 for(const [id,item] of Object.entries(updates)){const index=window.WROC_CANONICAL_PLACE_SOURCE.findIndex(p=>p.id===id);if(index<0)throw Error("Missing existing dining place "+id);window.WROC_CANONICAL_PLACE_SOURCE[index]=enrich(window.WROC_CANONICAL_PLACE_SOURCE[index],item);}
 })();
+
+// Owner correction, 8 November 2026: this photograph belongs to Jolie, not Chatka.
+// Preserve the original asset URL for compatibility; its historical filename is not a place identity.
+(function(){
+ const asset="/assets/feels-familiar/chatka-placki.jpg";
+ const chatka=window.WROC_CANONICAL_PLACE_SOURCE.find(p=>p.id==="chatka");
+ const jolie=window.WROC_CANONICAL_PLACE_SOURCE.find(p=>p.id==="jolie-kurzy-targ");
+ if(!chatka||!jolie)throw new Error("Photo attribution correction targets missing");
+ const descriptionCorrections={"he":["בגלריית הביקור שלנו נראים פירוגי על מגש עץ, לביבות תפוחי אדמה ברוטב פטריות ואווירת הארוחה בפנים.","בגלריית הביקור שלנו נראים פירוגי על מגש עץ ואווירת הארוחה בפנים. במסעדה מוגשות גם לביבות תפוחי אדמה."],"en":["Our visit gallery shows pierogi on a wooden platter, potato pancakes with mushroom sauce and the indoor dining atmosphere.","Our visit gallery shows pierogi on a wooden platter and the indoor dining atmosphere. The restaurant also serves potato pancakes."],"pl":["Galeria z naszej wizyty pokazuje pierogi na drewnianej desce, placki ziemniaczane z sosem grzybowym i atmosferę posiłku we wnętrzu.","Galeria z naszej wizyty pokazuje pierogi na drewnianej desce i atmosferę posiłku we wnętrzu. Restauracja serwuje również placki ziemniaczane."],"de":["Unsere Besuchsgalerie zeigt Pierogi auf einer Holzplatte, Kartoffelpuffer mit Pilzsauce und die Atmosphäre beim Essen im Innenraum.","Unsere Besuchsgalerie zeigt Pierogi auf einer Holzplatte und die Atmosphäre beim Essen im Innenraum. Das Restaurant serviert auch Kartoffelpuffer."],"cs":["Galerie z naší návštěvy ukazuje pirohy na dřevěném tácu, bramboráky s houbovou omáčkou a atmosféru stolování uvnitř.","Galerie z naší návštěvy ukazuje pirohy na dřevěném tácu a atmosféru stolování uvnitř. Restaurace podává také bramboráky."]};
+ for(const [lang,[previous,corrected]] of Object.entries(descriptionCorrections)){if(!chatka.description[lang].includes(previous))throw new Error("Photo description correction anchor missing: "+lang);chatka.description[lang]=chatka.description[lang].replace(previous,corrected);}
+ chatka.media.photos=chatka.media.photos.filter(src=>src!==asset);
+ if(chatka.media.thumbnail===asset)delete chatka.media.thumbnail;
+ if(chatka.media.metadata)delete chatka.media.metadata[asset];
+ if(!jolie.media.photos.includes(asset))jolie.media.photos.push(asset);
+ jolie.media.metadata=jolie.media.metadata||{};
+ const captions={he:"לביבות תפוחי אדמה ורוטב פטריות בג׳ולי, קורזי טארג 2",en:"Potato pancakes and mushroom sauce at Jolie, Kurzy Targ 2",pl:"Placki ziemniaczane z sosem grzybowym w Jolie, Kurzy Targ 2",de:"Kartoffelpuffer mit Pilzsauce bei Jolie, Kurzy Targ 2",cs:"Bramboráky s houbovou omáčkou v Jolie, Kurzy Targ 2"};
+ jolie.media.metadata[asset]={original:true,canonicalPlaceId:"jolie-kurzy-targ",assetSHA256:"a8c5b2658353ac7e97b339ae6e245d83acbf627b0b2d75f553dfaf494eea2b08",alt:captions,title:captions,attributionCorrection:{confirmedBy:"owner",confirmedOn:"2026-11-08",previousCanonicalPlaceId:"chatka",originalAssetPathPreserved:true,receipt:"/data/photo-attribution-corrections-nov8.json"}};
+})();

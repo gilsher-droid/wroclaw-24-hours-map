@@ -1,0 +1,639 @@
+{
+  "chatka": {
+    "id": "chatka",
+    "localName": "Chatka przy Jatkach",
+    "name": {
+      "he": "צ׳אטקה ליד יאטקי",
+      "en": "Chatka przy Jatkach",
+      "pl": "Chatka przy Jatkach",
+      "de": "Chatka przy Jatkach",
+      "cs": "Chatka przy Jatkach"
+    },
+    "description": {
+      "he": "מסעדה למטבח פולני מסורתי בעיר העתיקה, סמוך לסמטת יאטקי ולכיכר השוק. בגלריית הביקור שלנו נראים פירוגי על מגש עץ, לביבות תפוחי אדמה ברוטב פטריות ואווירת הארוחה בפנים. התמונות מתעדות את הביקור שלנו, ולא תפריט או מחירים עדכניים. הכתובת ופרטי הביקור מופיעים באתר הרשמי. לפני ביקור בדקו שם את שעות הפתיחה והזמנת השולחן. התמונה הנוספת מציגה את חזית המסעדה ושלטה המואר בערב.",
+      "en": "A traditional Polish restaurant in the Old Town, close to the Jatki lane and Market Square. Our visit gallery shows pierogi on a wooden platter, potato pancakes with mushroom sauce and the indoor dining atmosphere. The photographs document our visit rather than a current menu or prices. The restaurant lists its entrance address as Odrzańska 6–7. Check the official website for current opening hours and table reservations. The additional photograph shows the restaurant facade and its illuminated sign in the evening.",
+      "pl": "Restauracja z tradycyjną kuchnią polską na Starym Mieście, blisko Jatek i Rynku. Galeria z naszej wizyty pokazuje pierogi na drewnianej desce, placki ziemniaczane z sosem grzybowym i atmosferę posiłku we wnętrzu. Zdjęcia dokumentują naszą wizytę, a nie aktualne menu czy ceny. Restauracja podaje adres wejść: Odrzańska 6–7. Przed wizytą sprawdź godziny otwarcia i rezerwacje na oficjalnej stronie. Dodatkowe zdjęcie pokazuje fasadę restauracji i oświetlony szyld wieczorem.",
+      "de": "Ein Restaurant mit traditioneller polnischer Küche in der Altstadt, nahe der Gasse Jatki und dem Marktplatz. Unsere Besuchsgalerie zeigt Pierogi auf einer Holzplatte, Kartoffelpuffer mit Pilzsauce und die Atmosphäre beim Essen im Innenraum. Die Fotos dokumentieren unseren Besuch und sind keine aktuelle Speisekarte oder Preisliste. Das Restaurant nennt als Eingangsadresse Odrzańska 6–7. Aktuelle Öffnungszeiten und Tischreservierungen finden Sie auf der offiziellen Website. Das zusätzliche Foto zeigt die Restaurantfassade und das beleuchtete Schild am Abend.",
+      "cs": "Restaurace s tradiční polskou kuchyní ve Starém Městě, blízko uličky Jatki a hlavního náměstí. Galerie z naší návštěvy ukazuje pirohy na dřevěném tácu, bramboráky s houbovou omáčkou a atmosféru stolování uvnitř. Fotografie zachycují naši návštěvu, nikoli aktuální jídelní lístek či ceny. Restaurace uvádí adresu vstupů Odrzańska 6–7. Před návštěvou ověřte otevírací dobu a rezervace na oficiálním webu. Další fotografie ukazuje průčelí restaurace a osvětlený nápis večer."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1119289,
+        "lng": 17.0313524
+      },
+      "address": {
+        "street": "Odrzańska 6–7",
+        "postalCode": "50-113",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [
+      "https://www.facebook.com/61591964083308/posts/122111800983398802/"
+    ],
+    "aliases": [
+      "Chatka Przy Jatkach",
+      "Chatka przy Jatkach",
+      "צאטקה",
+      "צ׳אטקה"
+    ],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "chatka"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "chatka",
+        "lat": 51.1119289,
+        "lng": 17.0313524
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://chatkaprzyjatkach.pl/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1119289%2C17.0313524",
+        "appleMaps": "https://maps.apple.com/?ll=51.1119289,17.0313524"
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "personalVisit": true,
+      "originalPhotography": true,
+      "factualSources": [
+        {
+          "url": "https://chatkaprzyjatkach.pl/",
+          "verifiedAt": "2026-10-18",
+          "scope": "official restaurant identity, traditional Polish cuisine, address Odrzańska 6–7; no fixed hours or prices copied"
+        },
+        {
+          "url": "https://geoportal.wroclaw.pl/poi/poi/2306",
+          "verifiedAt": "2026-10-18",
+          "scope": "municipal restaurant identity at Odrzańska 7; historical directory last modified 2013, not used for current phone or opening times"
+        }
+      ],
+      "refresh20261020": {
+        "newPhotos": 1,
+        "preservedExistingPhotos": 3,
+        "sourceOriginalsUnchanged": true,
+        "historicalPersonalPhotoException": "Chatka visit still photographs only; no permission for personal videos or other folders. User instruction2026-10-18 retained.",
+        "newAssetPersonalExceptionApplied": false,
+        "social": "Hebrew Facebook generic channel action hidden; nine existing localized place-post links preserved pending scoped review."
+      }
+    },
+    "media": {
+      "photos": [
+        "/assets/food-cafes/chatka-pierogi-01.jpg",
+        "/assets/feels-familiar/chatka-placki.jpg",
+        "/assets/food-cafes/chatka-visit-02.jpg",
+        "/assets/food-cafes/chatka-facade-refresh-20261020.jpg",
+        "/assets/round-other-20261023/complete-chatka-31.jpg",
+        "/assets/round-other-20261023/complete-chatka-33.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/food-cafes/chatka-pierogi-01.jpg": {
+          "original": true,
+          "sourceFile": "Chatka/IMG_0948.JPG",
+          "sourceSHA256": "638422334bd660b0a5c3b649f7e1ea1e2d515e8617f7962422e6527025e120dc",
+          "publicationSHA256": "5a74c6cbd42827de56890d1cee6a146bda06c52549523038b33a7dd9585f575b",
+          "alt": {
+            "he": "מגש פירוגי מעוטר בשמיר וברוטב, מהביקור שלנו במסעדה",
+            "en": "Pierogi platter with dill and sauce during our restaurant visit",
+            "pl": "Półmisek pierogów z koperkiem i sosem podczas naszej wizyty",
+            "de": "Pierogi-Platte mit Dill und Sauce bei unserem Restaurantbesuch",
+            "cs": "Tác pirohů s koprem a omáčkou při naší návštěvě restaurace"
+          },
+          "heroCandidate": true,
+          "personalPhotoExceptionApplied": false
+        },
+        "/assets/food-cafes/chatka-visit-02.jpg": {
+          "original": true,
+          "sourceFile": "Chatka/IMG_0950.JPG",
+          "sourceSHA256": "5d4a46bec422a713dfad94fcb12ba8c32f98062f4c193450bba99893fc8a3641",
+          "publicationSHA256": "3396409ff0ac00a62d7aab27223e94d6f952f2755334caf0b79f92073ec5cd07",
+          "alt": {
+            "he": "סועדת ומגש פירוגי בחלל המסעדה, מהביקור שלנו",
+            "en": "Diner and pierogi platter inside the restaurant during our visit",
+            "pl": "Osoba przy stole i półmisek pierogów we wnętrzu restauracji podczas naszej wizyty",
+            "de": "Gast am Tisch mit Pierogi-Platte im Restaurant bei unserem Besuch",
+            "cs": "Host u stolu s tácem pirohů v interiéru restaurace při naší návštěvě"
+          },
+          "heroCandidate": false,
+          "personalPhotoExceptionApplied": true
+        },
+        "/assets/food-cafes/chatka-facade-refresh-20261020.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatka/WhatsApp Image 2026-10-19 at 08.41.52 (11).jpeg",
+          "sourceSHA256": "542ddb7523279c4eecfa9bb0d39027d5e9d037e5547327e32cc66704ae32fe70",
+          "assetSHA256": "6a07380ceda4caa7a3b782a7f9ef5611916b6d86a886038bd324130f1bc74a7a",
+          "original": true,
+          "originalFullPicturePreserved": true,
+          "personalPhotoExceptionApplied": false,
+          "privacy": "Public facade with incidental restaurant diners; no posed personal portrait.",
+          "alt": {
+            "he": "חזית המסעדה ושלטה המואר בערב",
+            "en": "Restaurant facade and illuminated sign in the evening",
+            "pl": "Fasada restauracji i oświetlony szyld wieczorem",
+            "de": "Restaurantfassade und beleuchtetes Schild am Abend",
+            "cs": "Průčelí restaurace a osvětlený nápis večer"
+          }
+        },
+        "/assets/round-other-20261023/complete-chatka-31.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatka/IMG_0949.JPG",
+          "sourceSHA256": "713cf1255573a98c52dc7eb8ec581c6143b3f83abff97470a72b5db19a74a607",
+          "assetSHA256": "d9f6428f0c75fad5e9fe5b2549a0541c81baa00e0200ebc8b17a8eaba994eafe",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "ארוחת ביקור בצ׳טקה",
+            "en": "A visit meal at Chatka",
+            "pl": "Posiłek podczas wizyty w Chatce",
+            "de": "Essen bei einem Besuch in Chatka",
+            "cs": "Jídlo při návštěvě Chatky"
+          },
+          "title": {
+            "he": "ארוחת ביקור בצ׳טקה",
+            "en": "A visit meal at Chatka",
+            "pl": "Posiłek podczas wizyty w Chatce",
+            "de": "Essen bei einem Besuch in Chatka",
+            "cs": "Jídlo při návštěvě Chatky"
+          },
+          "familyExceptionApplied": true,
+          "familyForeground": true,
+          "authorizationReceipt": "outputs/chatka-enrichment/permission.json",
+          "selectionReason": "Distinct relevant capture retained under full-source rule30; no quantity or similar-view curation"
+        },
+        "/assets/round-other-20261023/complete-chatka-33.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Chatka/IMG_0951.JPG",
+          "sourceSHA256": "1692df621145836032def45eccebdf9e801c45f5991105ff034b5f38a25d8afe",
+          "assetSHA256": "08cd22738a0622e55c63b64bd6f87d063b11d75bc02f71860e3f7724069c92d4",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מפגש ליד שולחן בצ׳טקה",
+            "en": "At the table during a Chatka visit",
+            "pl": "Przy stole podczas wizyty w Chatce",
+            "de": "Am Tisch bei einem Besuch in Chatka",
+            "cs": "U stolu při návštěvě Chatky"
+          },
+          "title": {
+            "he": "מפגש ליד שולחן בצ׳טקה",
+            "en": "At the table during a Chatka visit",
+            "pl": "Przy stole podczas wizyty w Chatce",
+            "de": "Am Tisch bei einem Besuch in Chatka",
+            "cs": "U stolu při návštěvě Chatky"
+          },
+          "familyExceptionApplied": true,
+          "familyForeground": true,
+          "authorizationReceipt": "outputs/chatka-enrichment/permission.json",
+          "selectionReason": "Distinct relevant capture retained under full-source rule30; no quantity or similar-view curation"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02DQfoaBisFjW5FTHoBWW6yKVGHL82QbsC28Cv42fNj35ZsyU3zvWmRQjjnUMQC53Kl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0evMjE7tMKqvQRu1kRo3iWkbcVS7cnuHnugyqmwHnyzyBQgmzQurLsRBKQFBPMHJLl&id=61595239823399",
+        "verifiedAt": "2026-10-07T15:38:56.860801+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Zj3i4xa9xSbZMzchprW2m4RA4xBhx9GnUX1PWB5V7Vibk6g8i3WsBRfBRZyEYLaNl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0RFVZVz9fCiBGw8uwZhf6Dcbr4SWx2hnAN7BHenPFz62iYP9wvrB573pQSa6gb6fml&id=61595207664875",
+        "verifiedAt": "2026-10-08T04:39:51.145405+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DePBtSmFyRI/",
+        "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DePbuvEHT_m/",
+        "verifiedAt": "2026-10-08T17:31:56.789947+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRLkyUj9kD/",
+        "verifiedAt": "2026-10-09T09:27:04.380437+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeUat5vDnCe/",
+        "verifiedAt": "2026-10-10T15:37:31.464Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUurgzkeMm/",
+        "verifiedAt": "2026-10-10T18:30:01.440Z"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
+      }
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "restaurant"
+      ],
+      "cuisines": [
+        "polish"
+      ],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://chatkaprzyjatkach.pl/",
+          "verifiedAt": "2026-10-29",
+          "kind": "official-business",
+          "fields": [
+            "venueTypes.restaurant",
+            "cuisines.polish"
+          ],
+          "claim": "The owner identifies Chatka at Odrzańska 6-7 as a restaurant serving traditional Polish food. No dietary claims inferred."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only the listed fields are proven by primary evidence. Unspecified cuisine and dietary attributes remain unknown; confirm current dishes with the venue."
+      }
+    }
+  },
+  "jolie-kurzy-targ": {
+    "id": "jolie-kurzy-targ",
+    "localName": "Jolie Brasserie Cafe – Kurzy Targ 2",
+    "name": {
+      "he": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "en": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "pl": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "de": "Jolie Brasserie Cafe – Kurzy Targ 2",
+      "cs": "Jolie Brasserie Cafe – Kurzy Targ 2"
+    },
+    "description": {
+      "he": "מקום לארוחת בוקר לאורך כל היום, עם טעמים מכל העולם והנחמה המוכרת של חומוס ושקשוקה.",
+      "en": "A destination for all-day breakfast, with flavours from across the globe and the familiar comfort of hummus and shakshuka.",
+      "pl": "Miejsce na śniadanie przez cały dzień, ze smakami z całego świata oraz znajomym, kojącym smakiem hummusu i szakszuki.",
+      "de": "Ein Ort für ganztägiges Frühstück mit Aromen aus aller Welt und dem vertrauten Genuss von Hummus und Schakschuka.",
+      "cs": "Místo na celodenní snídani s chutěmi z celého světa a důvěrně známým potěšením z hummusu a šakšuky."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1093944,
+        "lng": 17.0341861
+      }
+    },
+    "categories": [
+      "drink",
+      "eat"
+    ],
+    "sourceUrls": [
+      "https://www.facebook.com/61591964083308/posts/122111800983398802/"
+    ],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "jolie-kurzy-targ"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "jolie-kurzy-targ",
+        "lat": 51.1093944,
+        "lng": 17.0341861
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "drink",
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": null,
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "media": {
+      "photos": [
+        "/assets/feels-familiar/jolie-hummus-pita.jpg",
+        "/assets/feels-familiar/jolie-kurzy-targ.jpg",
+        "/assets/feels-familiar/jolie-interior.jpg",
+        "/assets/dialogue-beach-cemetery-oct29/jolie-detail.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/feels-familiar/jolie-kurzy-targ.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גולי/IMG_4304.JPG",
+          "sourceSHA256": "1fd062bcba941894a17918ab49cd56d72633542c21a18db309e8b1265ad1302f",
+          "assetSHA256": "1fd062bcba941894a17918ab49cd56d72633542c21a18db309e8b1265ad1302f",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "alt": {
+            "he": "חזית ז׳ולי בפינת הרחוב, עם קומת קרקע ירוקה ופרטי לבנים מעליה",
+            "en": "Jolie on the street corner, with its green ground-floor facade and brick details above",
+            "pl": "Jolie na rogu ulicy, z zieloną fasadą parteru i ceglanymi detalami powyżej",
+            "de": "Jolie an der Straßenecke mit grüner Erdgeschossfassade und Backsteindetails darüber",
+            "cs": "Jolie na nároží se zeleným průčelím přízemí a cihlovými detaily nad ním"
+          },
+          "title": {
+            "he": "חזית ז׳ולי בפינת הרחוב, עם קומת קרקע ירוקה ופרטי לבנים מעליה",
+            "en": "Jolie on the street corner, with its green ground-floor facade and brick details above",
+            "pl": "Jolie na rogu ulicy, z zieloną fasadą parteru i ceglanymi detalami powyżej",
+            "de": "Jolie an der Straßenecke mit grüner Erdgeschossfassade und Backsteindetails darüber",
+            "cs": "Jolie na nároží se zeleným průčelím přízemí a cihlovými detaily nad ním"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/dialogue-beach-cemetery-oct29/jolie-detail.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גולי/IMG_4301.JPG",
+          "sourceSHA256": "76409e5568d63be86416c63dfbc5c519b5f5f41028686e8ad33b7e7c999518bf",
+          "assetSHA256": "76409e5568d63be86416c63dfbc5c519b5f5f41028686e8ad33b7e7c999518bf",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": false,
+          "samePathSourceUpgrade": false,
+          "alt": {
+            "he": "תקריב של מנת חומוס עם תוספת אדומה ועשבי תיבול, מתיעוד הביקור בז׳ולי",
+            "en": "A close view of hummus with a red topping and herbs during our Jolie visit",
+            "pl": "Zbliżenie hummusu z czerwonym dodatkiem i ziołami podczas naszej wizyty w Jolie",
+            "de": "Nahaufnahme von Hummus mit rotem Belag und Kräutern bei unserem Besuch im Jolie",
+            "cs": "Detail hummusu s červenou přílohou a bylinkami z naší návštěvy Jolie"
+          },
+          "title": {
+            "he": "תקריב של מנת חומוס עם תוספת אדומה ועשבי תיבול, מתיעוד הביקור בז׳ולי",
+            "en": "A close view of hummus with a red topping and herbs during our Jolie visit",
+            "pl": "Zbliżenie hummusu z czerwonym dodatkiem i ziołami podczas naszej wizyty w Jolie",
+            "de": "Nahaufnahme von Hummus mit rotem Belag und Kräutern bei unserem Besuch im Jolie",
+            "cs": "Detail hummusu s červenou přílohou a bylinkami z naší návštěvy Jolie"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/feels-familiar/jolie-hummus-pita.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גולי/IMG_4302.JPG",
+          "sourceSHA256": "abcec410404d10eca68269a4834d1a56cf243147d8c47e590b900167bd1aa6c5",
+          "assetSHA256": "abcec410404d10eca68269a4834d1a56cf243147d8c47e590b900167bd1aa6c5",
+          "sourceDisplayDimensions": [
+            3024,
+            4032
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "alt": {
+            "he": "מנת חומוס ועשבי תיבול לצד פיתה, עם אגרטל מעוטר על השולחן בז׳ולי",
+            "en": "Hummus and herbs beside pita, with a decorated vase on the Jolie table",
+            "pl": "Hummus z ziołami obok pity i zdobiony wazon na stoliku w Jolie",
+            "de": "Hummus mit Kräutern neben Pita und einer verzierten Vase auf dem Tisch im Jolie",
+            "cs": "Hummus s bylinkami vedle pity a zdobená váza na stole v Jolie"
+          },
+          "title": {
+            "he": "מנת חומוס ועשבי תיבול לצד פיתה, עם אגרטל מעוטר על השולחן בז׳ולי",
+            "en": "Hummus and herbs beside pita, with a decorated vase on the Jolie table",
+            "pl": "Hummus z ziołami obok pity i zdobiony wazon na stoliku w Jolie",
+            "de": "Hummus mit Kräutern neben Pita und einer verzierten Vase auf dem Tisch im Jolie",
+            "cs": "Hummus s bylinkami vedle pity a zdobená váza na stole v Jolie"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        },
+        "/assets/feels-familiar/jolie-interior.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/גולי/6E0D64E1-00AF-43A9-81E4-9F00B286254A.jpg",
+          "sourceSHA256": "14e5cea24cd34aaccb4a91dd08136422734447e6d224683c1277df5a2e47bda6",
+          "assetSHA256": "14e5cea24cd34aaccb4a91dd08136422734447e6d224683c1277df5a2e47bda6",
+          "sourceDisplayDimensions": [
+            2160,
+            3840
+          ],
+          "originalFullPicturePreserved": true,
+          "existingAssetReused": true,
+          "samePathSourceUpgrade": true,
+          "alt": {
+            "he": "חלל הישיבה בז׳ולי, עם טפט כחול בדוגמת פרחים ותפריט על השולחן",
+            "en": "The Jolie seating area with blue floral wallpaper and a menu on the table",
+            "pl": "Sala Jolie z niebieską tapetą w kwiaty i menu na stoliku",
+            "de": "Sitzbereich im Jolie mit blauer Blumentapete und einer Speisekarte auf dem Tisch",
+            "cs": "Posezení v Jolie s modrou květovanou tapetou a jídelním lístkem na stole"
+          },
+          "title": {
+            "he": "חלל הישיבה בז׳ולי, עם טפט כחול בדוגמת פרחים ותפריט על השולחן",
+            "en": "The Jolie seating area with blue floral wallpaper and a menu on the table",
+            "pl": "Sala Jolie z niebieską tapetą w kwiaty i menu na stoliku",
+            "de": "Sitzbereich im Jolie mit blauer Blumentapete und einer Speisekarte auf dem Tisch",
+            "cs": "Posezení v Jolie s modrou květovanou tapetou a jídelním lístkem na stole"
+          },
+          "familyForeground": false,
+          "familyExceptionApplied": false
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02oMBVC3BRGxnbTXppKzBECSioEHeEWFWWpNnpSujAU63uMc9o6h4xKPmw2hM8p9wzl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0366c6g1BpxsssyAsRqzKQH2on36EoYfdEeopRFTVViW1N25CNK5oSu4u3t6A5krSLl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DePgvsbjuJP/",
+        "verifiedAt": "2026-10-08T17:54:31.277890+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeRL6V2j822/",
+        "verifiedAt": "2026-10-09T09:32:51.995387+00:00"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeT2TiPibjL/",
+        "verifiedAt": "2026-10-10T10:18:06.453Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid03P236UBZsKNxcX4MwBg6zm2Dgu9DTknbKLsByLn9A3hryPwWMfz9SuUyyoYuu1Wml&id=61595207664875",
+        "verifiedAt": "2026-10-10T10:20:01.980Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0fah9mRzkPBM48odvf5aYqGXgTWtzRv9WYV3duaQRy1fYZ1F64Y5YCtkebY8xswNUl&id=61595239823399",
+        "verifiedAt": "2026-10-10T14:00:20.778Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeUQKp7mkoF/",
+        "verifiedAt": "2026-10-10T14:03:54.875Z"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/61591964083308/posts/122111800983398802/",
+        "routingExcluded": true
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxYEOqjBXH/"
+      }
+    ],
+    "dining": {
+      "version": 1,
+      "venueTypes": [],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [],
+      "review": {
+        "status": "unknown",
+        "reason": "Existing canonical categories, tags and source references reviewed. No usable official website is recorded in the candidate inventory; existing prose and photographs are insufficient for new classification. Unknown is not unsuitable.",
+        "sourceAvailable": false,
+        "city": "wroclaw"
+      }
+    }
+  }
+}

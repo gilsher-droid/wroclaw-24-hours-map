@@ -1,10 +1,12 @@
 import{beforeFineDiningStageB}from'./fine-dining-stage-b-baseline.mjs';
+import{beforeJoliePhotoAttribution}from'./jolie-photo-attribution-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 const proof=JSON.parse(readFileSync('data/fine-dining-stage-a-preservation.json','utf8'));
 const hash=p=>createHash('sha256').update(JSON.stringify(p)).digest('hex');
 export function beforeFineDiningRecord(p){
+ p=beforeJoliePhotoAttribution(p);
  if(!p)return p;
  if(proof.added[p.id]){assert.equal(hash(p),proof.added[p.id],'Unreviewed fine dining addition '+p.id);return null;}
  const r=proof.changed[p.id];if(!r)return p;

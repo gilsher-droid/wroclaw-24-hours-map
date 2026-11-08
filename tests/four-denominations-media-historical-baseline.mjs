@@ -1,4 +1,5 @@
 import {beforeBotanicalMedia,beforeBotanicalGallery} from './botanical-media-historical-baseline.mjs';
+import {beforeJoliePhotoAttribution} from './jolie-photo-attribution-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
@@ -24,6 +25,7 @@ for(const[k,v]of Object.entries(baseline.targetBefore.media.metadata))assert.dee
 // canonical record may project to its preceding media state. All other 298
 // records pass through untouched and are checked independently by the new test.
 export function beforeFourDenominationsMedia(value){
+ value=beforeJoliePhotoAttribution(value);
  value=beforeBotanicalMedia(value);
  if(!value||value.id!==approved.canonicalID||!value.location||!value.socialPosts)return value;
  const signature=hash(value);
