@@ -2,6 +2,7 @@
  'use strict';
  const root=document.getElementById('partner-presentation'),type=root?.querySelector('#pp-business'),period=root?.querySelector('#pp-period');
  if(!root||!type||!period||root.dataset.businessInsights)return;root.dataset.businessInsights='1';
+ const snapshotDate=document.getElementById('snapshot-date');if(snapshotDate)snapshotDate.textContent='5 languages · Facebook & Instagram · Source dates shown per section';
  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const fmt=v=>v==null?'No data available':Number(v).toLocaleString('en-US');
  type.innerHTML='<option value="all" selected>All businesses</option><option value="hotel">Hotel</option><option value="restaurant">Restaurant</option><option value="museum">Museum</option><option value="cafe">Café</option><option value="ice-cream">Ice cream shop</option>';type.value='all';
