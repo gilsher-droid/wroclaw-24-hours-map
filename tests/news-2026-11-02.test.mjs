@@ -6,7 +6,7 @@ const window={};
 for(const file of ['data/place-catalog.js','data/now-in-wroclaw.js','data/place-visit-updates.js','place-visit-updates.js'])runInNewContext(readFileSync(file,'utf8'),{window,console});
 const api=window.WROC_PLACE_VISITS;
 test('November 2 bulletin preserves future announcements and expires weekly news separately from events',()=>{
- const items=window.WROC_NOW_IN_WROCLAW_ITEMS;assert.equal(items.length,5);
+ const items=window.WROC_NOW_IN_WROCLAW_ITEMS.filter(item=>item.startDate==='2026-11-02');assert.equal(items.length,5);
  for(const item of items){assert.equal(item.startDate,'2026-11-02');assert.equal(item.endDate,'2026-11-08');for(const lang of ['he','en','pl','de','cs'])assert.ok(item.title[lang]);if(item.eventStartDate>'2026-11-02')assert.equal(item.status,'announced');}
  assert.equal(items.find(x=>x.id==='wroclaw-christmas-market-2026-27').eventEndDate,'2027-01-07');
  const nowy=items.find(x=>x.id==='nowy-swiateczny-targ-2026');assert.equal(nowy.eventEndDate,'2026-12-20');assert.equal(nowy.relatedCanonicalPlaceId,undefined);assert.equal(nowy.coordinates,undefined);

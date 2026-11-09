@@ -14,10 +14,10 @@ function loadTicker(historical = false) {
   return { window, context };
 }
 
-test("weekly news includes five localized and dated items", () => {
+test("current weekly news includes six localized and dated items", () => {
   const { window } = loadTicker();
-  const items = window.WROC_NOW_IN_WROCLAW_ITEMS;
-  assert.equal(items.length, 5);
+  const items = window.WROC_NOW_IN_WROCLAW_ITEMS.filter(item => item.startDate === "2026-11-09");
+  assert.equal(items.length, 6);
   assert.equal(new Set(items.map((item) => item.id)).size, items.length);
   for (const item of items) {
     assert.deepEqual(Object.keys(item.title).sort(), ["cs", "de", "en", "he", "pl"]);
@@ -25,13 +25,13 @@ test("weekly news includes five localized and dated items", () => {
     assert.match(item.startDate, /^2026-/);
     assert.match(item.endDate, /^2026-/);
   }
-  assert.equal(items.every((item) => item.startDate === "2026-11-02"), true);
+  assert.equal(items.every((item) => item.startDate === "2026-11-09"), true);
   for (const language of ["he", "en", "pl", "de", "cs"]) {
     const suffix = language === "he" ? "" : `-${language}`;
-    const article = readFileSync(resolve(root, `news/2026-11-02${suffix}.html`), "utf8");
+    const article = readFileSync(resolve(root, `news/2026-11-09${suffix}.html`), "utf8");
     assert.match(article, new RegExp(`<html lang="${language}"`));
     for (const item of items) {
-      assert.match(item.articleUrl, /^\/news\/2026-11-02\.html#/);
+      assert.match(item.articleUrl, /^\/news\/2026-11-09\.html#/);
       assert.ok(article.includes(`id="${item.articleUrl.split("#")[1]}"`));
     }
   }
