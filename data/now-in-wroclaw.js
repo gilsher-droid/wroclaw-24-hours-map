@@ -104,6 +104,123 @@
     "verifiedAt": "2026-11-02",
     "eventStartDate": "2026-10-28",
     "relatedCanonicalPlaceId": "ksiaz-castle"
+  },
+  {
+    "id": "weekly-2026-11-09-holiday",
+    "title": {
+      "en": "11 November: allow for diversions",
+      "pl": "11 listopada: możliwe objazdy",
+      "de": "11. November: Umleitungen einplanen",
+      "cs": "11. listopadu počítejte s objížďkami",
+      "he": "11 בנובמבר: היערכו לשינויי תנועה"
+    },
+    "url": "https://www.wroclaw.pl/komunikacja/utrudnienia-w-ruchu-11-listopada-przez-wroclaw-przejda-dwa-marsze",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-11",
+    "category": "transport",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-09.html#holiday",
+    "status": "announced",
+    "verifiedAt": "2026-11-09",
+    "eventStartDate": "2026-11-11",
+    "eventEndDate": "2026-11-11"
+  },
+  {
+    "id": "weekly-2026-11-09-balloon",
+    "title": {
+      "en": "Balloon art, 13-15 November",
+      "pl": "Sztuka z balonów, 13-15 listopada",
+      "de": "Ballonkunst vom 13.-15. November",
+      "cs": "Balonové umění, 13.-15. listopadu",
+      "he": "אמנות מבלונים, 13-15 בנובמבר"
+    },
+    "url": "https://tarczynskiarenawroclaw.pl/events/world-balloon-festival/",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15",
+    "category": "event",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-09.html#balloon",
+    "status": "announced",
+    "verifiedAt": "2026-11-09",
+    "eventStartDate": "2026-11-13",
+    "eventEndDate": "2026-11-15"
+  },
+  {
+    "id": "weekly-2026-11-09-ice",
+    "title": {
+      "en": "Skating season has started",
+      "pl": "Rozpoczął się sezon łyżwiarski",
+      "de": "Die Eislaufsaison hat begonnen",
+      "cs": "Bruslařská sezona začala",
+      "he": "עונת ההחלקה החלה"
+    },
+    "url": "https://spartan.wroc.pl/spiska/lodowisko",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15",
+    "category": "practical",
+    "priority": "normal",
+    "articleUrl": "/news/2026-11-09.html#ice",
+    "status": "confirmed",
+    "verifiedAt": "2026-11-09",
+    "eventStartDate": "2026-11-06"
+  },
+  {
+    "id": "weekly-2026-11-09-newyear",
+    "title": {
+      "en": "New Year concert announced",
+      "pl": "Zapowiedziano koncert sylwestrowy",
+      "de": "Silvesterkonzert angekündigt",
+      "cs": "Oznámen silvestrovský koncert",
+      "he": "הוכרז מופע סילבסטר"
+    },
+    "url": "https://www.wroclaw.pl/dla-mieszkanca/sylwester-2026-we-wroclawiu-wielki-koncert-z-gwiazdami-na-placu-wolnosci",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15",
+    "category": "event",
+    "priority": "normal",
+    "articleUrl": "/news/2026-11-09.html#newyear",
+    "status": "announced",
+    "verifiedAt": "2026-11-09",
+    "eventStartDate": "2026-12-31",
+    "eventEndDate": "2026-12-31"
+  },
+  {
+    "id": "weekly-2026-11-09-food",
+    "title": {
+      "en": "October food openings, reported this week",
+      "pl": "Październikowe otwarcia gastronomiczne",
+      "de": "Gastronomie-Neueröffnungen im Oktober",
+      "cs": "Říjnové novinky v gastronomii",
+      "he": "פתיחות בענף האוכל באוקטובר"
+    },
+    "url": "https://wroclawskiejedzenie.pl/2026/11/03/nowe-restauracje-we-wroclawiu-pazdziernik-26-zamkniecia/",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15",
+    "category": "city-update",
+    "priority": "normal",
+    "articleUrl": "/news/2026-11-09.html#food",
+    "status": "confirmed",
+    "verifiedAt": "2026-11-09",
+    "eventStartDate": "2026-11-03"
+  },
+  {
+    "id": "weekly-2026-11-09-security",
+    "title": {
+      "en": "Preventive security measures",
+      "pl": "Prewencyjne środki bezpieczeństwa",
+      "de": "Vorbeugende Sicherheitsmaßnahmen",
+      "cs": "Preventivní bezpečnostní opatření",
+      "he": "צעדי אבטחה מונעים"
+    },
+    "url": "https://www.wroclaw.pl/dla-mieszkanca/bezpieczenstwo-we-wroclawiu-po-wydarzeniach-w-krakowie-co-sie-zmieni",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-15",
+    "category": "practical",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-09.html#security",
+    "status": "confirmed",
+    "verifiedAt": "2026-11-09",
+    "eventStartDate": "2026-11-08"
   }
 ].map(item => Object.freeze({ ...item, title: Object.freeze(item.title) })));
 })();
