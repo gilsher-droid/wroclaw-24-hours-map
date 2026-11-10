@@ -1,3 +1,4 @@
+import {beforePolishRichPosts} from './polish-rich-posts-historical-baseline.mjs';
 import {beforeSource35Visit} from './source35-visit-historical-baseline.mjs';
 import {beforeApprovedWangPhoto43} from './wang-photo43-historical-baseline.mjs';
 // Historical receipts retain their original scope; the separate regional42 test
@@ -6,6 +7,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const delta=JSON.parse(readFileSync('data/regional42-oct25-preservation.json'));
 export function beforeRegional42(record){
+ record=beforePolishRichPosts(record);
  const p=beforeApprovedWangPhoto43(beforeSource35Visit(record));if(!delta.changedIds.includes(p.id))return p;
  for(const r of delta.visits.filter(x=>x.canonicalId===p.id)){
   assert.equal(p.media.videos.filter(x=>x===r.url).length,1);

@@ -1,3 +1,4 @@
+import {expectedPolishSocialUrl} from './polish-rich-posts-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
@@ -15,7 +16,7 @@ test('Olympic Stadium keeps its canonical identity and 17 photo hashes, adding s
 });
 test('Olympic Stadium routes nine verified exact-language posts and leaves Hebrew Instagram unavailable',()=>{
  const w=load(),p=w.WROC_CATALOG.getPlace('stadion-olimpijski-wroclaw'),audit=json('data/olympic-stadium-enrichment-provenance.json').social;
- for(const r of audit.filter(r=>r.status==='verified-written-place-post')){const post=w.WROC_CATALOG.getSocialPost(p,r.platform,r.language);assert.equal(post.url,r.url);assert.equal(post.verifiedAt,'2026-10-19');assert.ok(!post.routingExcluded);}
+ for(const r of audit.filter(r=>r.status==='verified-written-place-post')){const post=w.WROC_CATALOG.getSocialPost(p,r.platform,r.language);assert.equal(post.url,expectedPolishSocialUrl(p.id,r.platform,r.language,r.url));assert.equal(post.verifiedAt,r.language==='pl'&&r.platform==='facebook'?'2026-11-07T18:38:32.074378+00:00':'2026-10-19');assert.ok(!post.routingExcluded);}
  assert.equal(w.WROC_CATALOG.getSocialPost(p,'instagram','he'),null);assert.equal(p.links.socialProfileFallback,false);
  const c=load('data/cultural-places.js');assert.equal(c.WROC_CULTURAL_PLACES.filter(r=>r.canonicalPlaceId===p.id).length,1);
  const r=load('data/premium-route.js');assert.equal(r.PREMIUM_RECOMMENDATIONS.filter(r=>r.canonicalPlaceId===p.id).length,1);

@@ -1,9 +1,15 @@
 import test from'node:test';import assert from'node:assert/strict';import{readFileSync}from'node:fs';import{runInNewContext}from'node:vm';
 const window={};runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window,console});const c=window.WROC_CATALOG;
-test('Every generic account action disappears without changing any of the848 existing place-post candidates pending audit',()=>{
+test('Generic account actions disappear; reviewed rich Polish posts replace historical targets while evidence survives',()=>{
  const rows=JSON.parse(readFileSync('data/social-post-policy-existing-candidates-20261022.json'));let kept=0,hidden=0;
- for(const row of rows){const got=c.getSocialPost(c.getPlace(row.canonicalId),row.platform,row.language);if(row.kind==='post-candidate'){assert.equal(got?.url,row.url,JSON.stringify(row));kept++;}if(row.kind==='profile'){assert.ok(!got||c.socialPostKind(got.url,row.platform)==='post-candidate');hidden++;}}
+ const rich=new Map(JSON.parse(readFileSync('tests/fixtures/polish-rich-posts-20261110.json')).map(row=>[row.canonicalId,row.url]));
+ for(const row of rows){const place=c.getPlace(row.canonicalId),got=c.getSocialPost(place,row.platform,row.language);if(row.kind==='post-candidate'){if(row.canonicalId==='chatka'&&row.platform==='instagram'&&row.language==='pl'){assert.equal(got,null);assert.ok(place.socialPosts.some(p=>p.url===row.url));}else{const updated=row.platform==='facebook'&&row.language==='pl'?rich.get(row.canonicalId):null;assert.equal(got?.url,updated||row.url,JSON.stringify(row));if(updated)assert.ok(place.socialPosts.some(p=>p.url===row.url),'Historical URL remains evidence');}kept++;}if(row.kind==='profile'){assert.ok(!got||c.socialPostKind(got.url,row.platform)==='post-candidate');hidden++;}}
  assert.equal(kept,848);assert.equal(hidden,781);
+});
+test('All75 accepted Polish galleries are primary written-post actions, with the removed Instagram post held',()=>{
+ const rows=JSON.parse(readFileSync('tests/fixtures/polish-rich-posts-20261110.json'));assert.equal(rows.length,75);
+ for(const row of rows){const post=c.getSocialPost(row.canonicalId,'facebook','pl');assert.equal(post?.url,row.url);assert.equal(post.account,'61595207664875');assert.equal(c.socialPostKind(post.url,'facebook'),'post-candidate');}
+ assert.equal(c.getSocialPostState('chatka','instagram','pl').state,'known-excluded');
 });
 test('The shared resolver distinguishes missing, generic, excluded and matching-language specific posts without assuming pending means wrong',()=>{
  for(const lang of['he','en','pl','de','cs'])for(const platform of['facebook','instagram']){

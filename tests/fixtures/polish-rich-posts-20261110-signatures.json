@@ -1,0 +1,377 @@
+{
+  "ato-ramen": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116402953506922/",
+    "before": "f976b3cfd9bf12c77ea38cd600cec3b11139be1f2c5bb9d1bfa6a6a4cf4f82e9",
+    "after": "080efd86f5cf2b109241c9640eb8eddc0a52de49aefd8488702f0e14fad43f83"
+  },
+  "art-hotel": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116407405506922/",
+    "before": "d45d87137f0631bc36bde1bce11d70d82d31a52c284e0f3a63ee3134489a6a55",
+    "after": "64c5d0be96bb7e3edfe4cdb1cc9aceba0353630b666c51b67d13b406270c42b1"
+  },
+  "aula": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116409217506922/",
+    "before": "be7c38ba218874f97e8d915987d639050c04d8c57d64d065ea1923d465d7b660",
+    "after": "5d671dff7f5e1bb4c27c43dc3be0a1e0ceaac0f695603a6fa3b5b9f5cbbb5c0a"
+  },
+  "bar-mis": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116425501506922/",
+    "before": "c7e7b56f17977a7eba8381fc48aba3b9fe93120a1175052ca9050e3afb18c6e3",
+    "after": "3ccd7c336e3a8af8834775a5d580b2db4048f38c7d436241f66c602f3e97f598"
+  },
+  "bastion": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116429935506922/",
+    "before": "d909070b5f18f3ffbfebdfd8388e32112e281df5259945ed278178c441169c70",
+    "after": "0f6c28ac91d55aba21decda4b297a017fc1c6ee8c26d4154795a82a3ae0da07d"
+  },
+  "charlotte": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116431315506922/",
+    "before": "c66c89924ee797a059d07e694ad70fbeb7de424a0f0c5ad38a85ef580f6c5f55",
+    "after": "ec440e5136814039447de741d762912fea85b95fe2f148310049e3db6481355b"
+  },
+  "most-tumski": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116432383506922/",
+    "before": "c1f9b5c1d224ae82283dc96bff4449a72eb5b807ae9ed5cd2a4412b8fbb0bfa3",
+    "after": "fd65c7d8ca6796911a52799ca3541a91faec20bc924c4206ed9c19c3f4d49a27"
+  },
+  "cathedral": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116433337506922/",
+    "before": "9e4a16f4af819e0c07990b708b846f6e78a2bd9c15780bf986234c307db90038",
+    "after": "b9bba8ef52db97372c597ad3c2d031a52da0f73522a4ae5053cede04883d3606"
+  },
+  "ac-hotel": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116433973506922/",
+    "before": "024f6b1244a5908590ab09c2cd46eaac91f284ca3b7057a52147bd8f798e24c7",
+    "after": "071f446cef28376e20c19ad8b3e9c648b05d7f429a72c60948d7dc7dcaf15b8c"
+  },
+  "central": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116435245506922/",
+    "before": "8f8664c4f6c55ece4ce627a96a6aa62f660a0bfdcc85419ec1a4d211cd49b20a",
+    "after": "268a4868d617987299d81d26d59f08e24404af490915c6671c8096a4caa0c27a"
+  },
+  "gniazdo": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116435863506922/",
+    "before": "ceffe0dc05b84499a4119dc5b033f8917b284119e1c7b65d6a4cf8c7baf51e45",
+    "after": "eb9b4e0ccc2ed4ddba68c686707b2e6b2546e8d684db4956c964e5246b57c15f"
+  },
+  "herbal": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116436517506922/",
+    "before": "1ac2809a9f855a13dac66c2af295e891806351451bd31e595a5b2e3b3f5cfee5",
+    "after": "21b388a2ee6c64477a230a653905554e6718fc724501fdf8a00a7b78a7284e04"
+  },
+  "korona-hotel": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116437303506922/",
+    "before": "d4fffa56bdf23b4431f39f1abc0a6dc4c6064642bfa873f6be6cf41852ef1c92",
+    "after": "786b41c53effc943131e560da23b13626475a976ff6c3739f4b53331aec61fbf"
+  },
+  "hydropolis": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116450719506922/",
+    "before": "5a7e20ee2145bad6d9b14dd88c58cd44f2925c65c576d7b87f7aa9673b25f370",
+    "after": "d0afdf4ffdcb6c6d847a1e05aec0998ce11c9c9da4f1fcd5998e3548e83a16f1"
+  },
+  "konspira": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116451427506922/",
+    "before": "e2ff3cbc9e3ec8902230f9681db3f886f4847029004a0e184801db5ca0b1a082",
+    "after": "8af1e9668b4d821c54911a3e3f7a13a6c31a9182709891b1ea0968fbc0d99408"
+  },
+  "puro": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116452081506922/",
+    "before": "24f93ce4043d62d6c564d09c8d33ed2104d501732d35bee15d8ebfcf9af7d830",
+    "after": "831ddc004e208a989eb0073ef112fc80872d26a4d64b86461b25436a51ed6eed"
+  },
+  "dominikan": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116452873506922/",
+    "before": "91d3848f6ef134a47d30d5131a2b62749a8d6bd70b3fd6269347eaea2b41b870",
+    "after": "d8d683e30f5c7cc7dc574fb0e43b811f345fa61978aab0dee7d868a351928110"
+  },
+  "jas-malgosia": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116453695506922/",
+    "before": "7376852e203d0183c68de57588a479263561b9f1e16a8a0a232a2e2ca43b36ec",
+    "after": "70daa8701b6e10725ed58b5c35525526feccb4b874fdc98d171e5dbcbf124cee"
+  },
+  "pasaz": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116454955506922/",
+    "before": "e4e1d2ea2bc5e59b9cabe45ffcb5adb477a0d532e2f8adc692e4bc7d6235dbb3",
+    "after": "fafacf90c0830703c9594a4a1a794ee7a127bf4445e043a307fcb3fdc007b2fb"
+  },
+  "slodowa": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116456473506922/",
+    "before": "99c17d3104ed4622eda3cbcbe4f1e8049c037bac3d931e838d3a1a16c9b785d7",
+    "after": "348f9fa136fa01682b0840e5015dd3a55891f40b23600ebdf17b4a5b2cd445ef"
+  },
+  "fashion-outlet": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116458375506922/",
+    "before": "2aa1de7397e5aeddf92a3f31b2b1466549148c65f16dad7e12d0cdebbb1fd4fd",
+    "after": "b8235a3a9f4d91042a2c57983966f6ef871692d8af42a833c3fe962f57211dc8"
+  },
+  "wroclavia": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116459563506922/",
+    "before": "0f22e5a8e115a0dcdf2e4edaab32d8304c1612e9068866cd6693d5648b890948",
+    "after": "40bae31f23103af5102283b959c0c8846e0eb7dc46c6346a9fc8d43f712cd026"
+  },
+  "mala-czarna-paderewskiego": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116461375506922/",
+    "before": "dc31ec10b00f3d18b0bdd2b96c481a75ae630400befb66a182c0948164d292e8",
+    "after": "2d20378a502005cc8e27c523bde1d114fcf9990bb2b4f94c997af7b2c6b31562"
+  },
+  "fc-caffe-kuznicza": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116462701506922/",
+    "before": "d0112838f11521d69b87e20f3bdf1414d99fea96efb79b1ec02258a05a80e10b",
+    "after": "1549be296c63c2b0284b444cd158374cdc4df02d785629aae64d92cedbf34280"
+  },
+  "park-szczytnicki-wroclaw": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116577889506922/",
+    "before": "b64e538d004f31c8556e5044e28e71fdc79e5cbdba5867fc25119fd1a5aa4661",
+    "after": "f5a654660be408f368e83dc0150e67f867ff7bac0acf2ef1f0c59550417b7d48"
+  },
+  "renoma": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116582743506922/",
+    "before": "9dbe3bc58a5dbe0acfbc30960470d1b9229b9e056944ee3141f3f77a88a4a032",
+    "after": "8414c2e3816acf416f6df46e42434e84fefa0df3069701653f20fd90f6133ef2"
+  },
+  "moszna-castle-park": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116592121506922/",
+    "before": "e72eb45a6120952092f49f494911eed0b9fcbd1db5f292c142405581951930d6",
+    "after": "6e592ca213ca2a3efae7271cac8900cc6754014343574ff14686a90958765075"
+  },
+  "brzeg-holy-cross-church": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116594449506922/",
+    "before": "6fb39ac9ab88f3d934977f171edf3a431f14f080c36d2ae4754c3d70bfca3c4a",
+    "after": "91d2d4a38a2014e98de6ee29afaf609e30f36d53a6a81c2ff1c046dc3a8b2878"
+  },
+  "magnolia": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116596327506922/",
+    "before": "169108a2023e1c7ceefe206409c536d3b1d0be4b7ed8fcae26803e108f9403db",
+    "after": "011d035cd9f3c4f04e64d59a380ef5d02ebafb34704d75166fc3843ef4bed50d"
+  },
+  "moszna-castle": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116589553506922/",
+    "before": "b49853d4fe3d81b1041b3893d59ce4ed05ab6a08f4b08374cf23da070339cbaf",
+    "after": "d14d681bc2b60bd7c5f08beb1fff0f63d9b07d69eafcedf06a83b184642cde52"
+  },
+  "monopol": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116607073506922/",
+    "before": "4257c0ea7420e9f64a824a3723c268969c92c53303a47442565297b8637a3c98",
+    "after": "2a86a2aa0f888818ef26541721bccf8edb57f2bce775f021028e932e6cbc6263"
+  },
+  "aleja-bielany": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116609191506922/",
+    "before": "70d46c3b691e560a74a69f168edb3665fad208a514297b2cab33d638f6a490b1",
+    "after": "14de6c562844500f0037189fe0198d304bf698dc9a190f1b725a6a357f303412"
+  },
+  "boguslawskiego": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116611387506922/",
+    "before": "33c71fef0de1d196e2828fbbb9f9bbd07536cbdf534d3d47e0a2690be2f522b8",
+    "after": "5c94096ba5f3f5b178e5c3be2f39c698322b72b0c59edd6e52c36fafd3fe1f60"
+  },
+  "hala": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116613679506922/",
+    "before": "55249a03d12b8cc4bc4d082f3d8053c7877b9a9ac1a37a199cf145454217ffec",
+    "after": "08ea0275e0fb5328dc71b6b5ace79da28a8d75d0f5aacd0b8a0ac816e3563165"
+  },
+  "hala-targowa": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116617081506922/",
+    "before": "4d9ef092d29e59a31b91a1903978d01f7a740e5792fa7e0d319d5968a735d292",
+    "after": "89680fdfe249ee4ac18710db5c645bbc770e08525c7b1f34f1005c56d04feff1"
+  },
+  "arche-klasztor": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116620105506922/",
+    "before": "94d3c8c9a586a7f31f4906f20faf8ab04770b516201a7a4155465fb3d8ce9a73",
+    "after": "dcd2689f8554ca9e310d4883f4fda7274b6347ba070e8fbf49f1a079ac88bb87"
+  },
+  "brzeg-castle": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116629435506922/",
+    "before": "7391745bc1b7a86f8f39835e8cab22696926ac770e4d889c7ccea4cb0eab79ed",
+    "after": "732a19b562dac297719bcd782ea616f79968a64cc2aa167082ebb9f9cb12998f"
+  },
+  "church-of-peace-swidnica": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116637715506922/",
+    "before": "b4d392601ce6388dc5102e49c870c73c88310ead35ecfcad2ef1191ca37b4ed3",
+    "after": "9caaa46e1cf2d42771e0cb4838cdd87431e735d26cdfe34b27bcdbba2501913e"
+  },
+  "dobra-paczkarnia-kuznicza": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116639575506922/",
+    "before": "04d92ed8827f028e61f4ceb9dc6ec23bbf9350001a0ee7182ddfd3b6bf194e69",
+    "after": "c160f0d551720b56e8387cce583b9460f70f897015b1a2791dc1e69d299e7d81"
+  },
+  "fountain": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116641375506922/",
+    "before": "503b3a6257fae5778a7ad60a6c2abc78902230e09addabb14a1ac836b220abb4",
+    "after": "1dafa67d23f171088f7a82de01f003467470d76b51186f7de3ef3c90b5cc6a16"
+  },
+  "four-domes": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116642863506922/",
+    "before": "a6f13687d269af892af71a499ef0fe6ed6a98406ad1f46df7e47d285cd91c681",
+    "after": "af73e2f716833e3544cff31e78baffada45d84f181fd1baee92b3b060aa94c02"
+  },
+  "glowny": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116646277506922/",
+    "before": "d5ad6ca1fdb62a4c27291f38374b8d8c2d1c9b23ff15e47da0c49d86e53503ab",
+    "after": "7ec92b55de4f63c6a601b8d1eff41cea5bdbd61c6e27d15efc9f57254f328dd7"
+  },
+  "henryk-tomaszewski-theatre-museum": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116647915506922/",
+    "before": "139605ada612b67b52c7cb68b72058ef2c2706ce8a16a0a626af8f40000d3b49",
+    "after": "c1d521e6f17b96b1b5f3e751564b8e5a6e8ea80fe6136938e32612047aac293f"
+  },
+  "jolie-kurzy-targ": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116710231506922/",
+    "before": "5e4feec8189a5f50d536c3fee7d86f6c257c59261975ee01decae042eb2997fb",
+    "after": "06b24459aaf7395ff9301a9c2fbe6101ac5c1588c9fd3d3b3f41696ef8c5f31c"
+  },
+  "jatki": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116718259506922/",
+    "before": "a3ebfc5340dd4ce7bb3c9ffadc956ccaa2deba9be7d716f3baf9de6aec958bf3",
+    "after": "8bbd5284182ce69f5c867be2d20c9c982ec76beb127d2c364409d82f045f8881"
+  },
+  "la-maddalena": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116751673506922/",
+    "before": "49ec2dbf61a24463ac1dff232ca5852a289292a2c380ffeb2309182cdb198e44",
+    "after": "a3aace1e913b48b9650c19cfb0f6164da8e4c1829e9b362547d28a6e27e77ffb"
+  },
+  "royal-palace-wroclaw": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116752333506922/",
+    "before": "da361aaa864796412658bd903a591af3680069133c59adebc5db6afd801302cc",
+    "after": "482a0189f90a562d918ee4060371e37e35b92718fa45aceb8ed00b7a6a281f4e"
+  },
+  "pan-precel-olawska": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116753797506922/",
+    "before": "ec27b948033110735ca9fa2470e718858f33faa45021294113d7451018268318",
+    "after": "b1c0a771e2452dd323eeb2ff1a9e37fed9cb3de319f6a280a849bb91d3e0feea"
+  },
+  "solny": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116755933506922/",
+    "before": "c2b769c8e0981b19ac8383855b629603ba4d207cbef9639549ca7096d039ed8d",
+    "after": "d70c49a61c25a0e1a0d5eb8e082c0152cdf843077248c1c503609b3372cbb083"
+  },
+  "pan-tadeusz-museum": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116759113506922/",
+    "before": "2b4542b7dc9b5bc16484796184f9a89d0b8c85ce9d8582258873f98acd8e3c99",
+    "after": "b85b0c67c7043a7468d0a314ba726c16d7bfe36694473dcdb967be7653c60ae8"
+  },
+  "math-tower": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116763985506922/",
+    "before": "70d27aef51f2b28e075795b0462213e748fc5fabfe3b2b51305890d8159a3203",
+    "after": "30ecd28a77df8ff28da47bd0dd98651dc984d4d6079af6f2d7b3d5d6d7e3938f"
+  },
+  "town-hall": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116773879506922/",
+    "before": "4332d9e1fc361cd4133c325b3405786770009403446d91bd71f74c91d8e59051",
+    "after": "48ea7037f31007a5c138b143ff3fe824544284fdf4d9a4136fc23478f98bd31e"
+  },
+  "panorama": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116775703506922/",
+    "before": "0d2a01920c313830121be40282dea2d02a123bf21a2428d9964e193757fb3bb4",
+    "after": "dc2d21caf54393132067940566640a61881dccb13df34181c202f91db4942d3b"
+  },
+  "ossolineum": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116778043506922/",
+    "before": "095fd7c10aeb1c9dbf4504a04d9cc78e8381addb14bd259ad6a4079a9e1059b9",
+    "after": "1469ed99f9d6b4e31b007adaa1ed06ae12b1e020febd2b9d34a3f1ec7da201bb"
+  },
+  "ksiaz-castle": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116779963506922/",
+    "before": "0930be392d978ca30348d0d7b564cf022513e39cb41dc64be6500f480e8e69dd",
+    "after": "4bde86260bf933f88cef52ef5f36f8cd1fac4c5fadd0946c173728779c36f310"
+  },
+  "most-piaskowy": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116780977506922/",
+    "before": "9c4bce18ccf67dc7254e30168e0ce7d80b968214aa92ad7153f294a82b9d2ccf",
+    "after": "fbb15758927449dc800094252aa112b5dae8711a68b2198801a94a56a0448ab9"
+  },
+  "opera": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116782675506922/",
+    "before": "a97ae1ffc7dadb2b6a28f18ec2153bff94ba16c41bf9e5d6f4fc6ba11c1047f0",
+    "after": "430e257a72c31cebe03fcec4a5c39b979e11048e915103232080b056310d3973"
+  },
+  "wieza-cisnien-borek": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116786713506922/",
+    "before": "49d0457f0cd6c66a9a6842624bc2874df867d7d98975afd8d9fee0ed5a22949d",
+    "after": "d67381893257e4dc745b0366380ca5651ef4df01eea17fe3e52b8c9fdc7d63ed"
+  },
+  "morskie-oko-wroclaw": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116791735506922/",
+    "before": "0d3df90bcdda5d413bd2156916dccacadd0fdb640b9b7cb443fb063cd926064d",
+    "after": "60ddd4b46e816ad43bf09162a47d81adca86bac6fb8cdc07db2796c967c3b734"
+  },
+  "pedet": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116795161506922/",
+    "before": "98265b308c0f51a13f2ed0d01f21002f0ff1c742f9446d46a9e99d17fc0c6743",
+    "after": "f4f866d52725e26a564e9e2c95986cb623de372b246fdbf44e8639051efd28de"
+  },
+  "wroclaw-puppet-theatre": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116796475506922/",
+    "before": "3d0172a4b46d3f1e18408c7e4401281111b51b1462ad877da2755075b998b830",
+    "after": "ebdc340aa8bb6c94dded88daa61b12006c1b6d733952de9b8e9a578962977246"
+  },
+  "zyjnia-bwa-wroclaw": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116798371506922/",
+    "before": "d3a6b02d18cb78df1418d9e7fb8084ad1c93158aba787378ccf93a1dc250a69b",
+    "after": "459dc4ed23ac3e4fbfb1aff644dd3266636d00c36cb6f853f0b7903cb59bb09b"
+  },
+  "wyspa-piasek": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116800345506922/",
+    "before": "de41b55562dc41691706eac1c7c47dcc6b56a92a82f2a1ff5946b6c112ff791b",
+    "after": "42020f29c9f6be3f6ac55e827c5bcc8d6cb63505c806b55628caddb9095a8927"
+  },
+  "nfm": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116820319506922/",
+    "before": "b52f534f181d32d8f6b6b3eaa98f65cac1a1ee69f7e4a5e2c4dbc39d79e6c558",
+    "after": "501a1dd5bc23205bd8c4877e9787cc79068f25f6d6e7a03eaa71f07c0896a0cb"
+  },
+  "stadion-olimpijski-wroclaw": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116823187506922/",
+    "before": "ba50236d8725e0ebe13cf85f9b3ea212625af64015280843f3cb65ef35eedf72",
+    "after": "459405bfaf0590b081f24c205d7b417d18b4ddd22baec7466effa85d121f6c50"
+  },
+  "pergola": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116841877506922/",
+    "before": "69c0e2af15380eb016a8cd988e5e1bb7069d71f36c480ddf6f4eecf9f1d33a46",
+    "after": "bac67f0c18ee55d29e2cb9f3261e5785723c664ab871f8d9f1169feca24254d2"
+  },
+  "university": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116844223506922/",
+    "before": "f9deba65996693e3539a85dd84ba4a4dff522c0d57bc2754f86020cc249005c8",
+    "after": "089c7abdb6a9171c913623aa5335a95b6f1eb6bce3f7df78437ebde8b20db195"
+  },
+  "rynek": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116847769506922/",
+    "before": "9934ecda48279defdf57eda239a1e9677375d6b061ca60ca11a9553f8f136a43",
+    "after": "ab2bafb87a76b16b6871935cd0a6756fbeae51d428ededdca549666ae20195a3"
+  },
+  "ostrow": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116850859506922/",
+    "before": "5e2704d04c12ad0aece5bfacaa529abcbbc2c8c92403528d3837c7d50f5184ff",
+    "after": "75b6f047f435d667680ff73bd735a42f7246ec7212648646b88cfff98fd51812"
+  },
+  "zoo-wroclaw": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116857105506922/",
+    "before": "0f8e402d70b78543c3c1cbb23f3d008b4d0fad2cb7fa355660e2ee3f378f5a08",
+    "after": "3e5b150785de4e48d197d181a8c3f84a63437286acb77f4c5da4765670e12629"
+  },
+  "kawiarenka-sw-jadwigi": {
+    "url": "https://www.facebook.com/61595207664875/posts/122116983231506922/",
+    "before": "10a5ca3f6a970bcbce305e958dd5644f99692f818c46b141efbdb2c446172f32",
+    "after": "b874dd784581d8b22499549b24deb59b6beda0fe768b521cdd2b416f1c2bd934"
+  },
+  "wuwa": {
+    "url": "https://www.facebook.com/61595207664875/posts/122117001669506922/",
+    "before": "23bad2d5bdb3910b8096b027f0fd2c6224cc6d0389d5e3dbba52cdae9d0b6867",
+    "after": "8b55097ae5096d5c49738f206f7e5ff7eb456682cc5791c59ab653b7ed2c8f16"
+  },
+  "chatka": {
+    "url": "https://www.facebook.com/61595207664875/posts/122117024469506922/",
+    "before": "7c54b3a53a32b15422d794d8e8310d67615fc91c9a665aa8ae5af3407200047c",
+    "after": "21ca7b9a3d84b7e8e5574855439c63b43a189a0a0c1c0ca497c8b60d2bb2ef3e"
+  },
+  "zenka": {
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JyjPcnjYUQQUP6izqM4395534QciKhQAKCt44tBAAW41YmNnPf9B3tyqvYKheCxKl&id=61595207664875",
+    "before": "765157ef7ae186a47c1250ca2949c374f6f18c51ad3f1ee9ed9ff8b4713fd788",
+    "after": "af8273768bb3d8d81250a264579788262250001183ab725405a20379b7427c63"
+  },
+  "marina": {
+    "url": "https://www.facebook.com/61595207664875/posts/122117578725506922/",
+    "before": "2fcafe4b533802af793502bf587711f7014a5537c99cfb0b5b1add1c96940f23",
+    "after": "ba99743cf01f7ae39084b5058e30d9a323169b8e9fa2ade729142c2bb8bccd60"
+  }
+}

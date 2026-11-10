@@ -9,5 +9,14 @@
     "requiredAccount": "wroclaw.lowersilesia.he",
     "reviewedAt": "2026-10-22",
     "evidence": "outputs/canonical-social-link-audit-2026-10-22/live-evidence/current-extra-000.txt"
+  },
+  {
+    "placeId": "chatka",
+    "platform": "instagram",
+    "language": "pl",
+    "historicalUrl": "https://www.instagram.com/p/DePBtSmFyRI/",
+    "reason": "owner-removed-post-no-verified-replacement",
+    "verifiedAt": "2026-11-08",
+    "context": "Verified specific post removal; original URL retained as evidence. Upload restriction does not authorize a replacement attempt."
   }
 ]

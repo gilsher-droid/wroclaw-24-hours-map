@@ -1,3 +1,4 @@
+import {beforePolishRichPosts} from './polish-rich-posts-historical-baseline.mjs';
 // Project only the exact owner-approved photo correction for older receipts.
 // Historical fixtures remain unchanged; the new regression checks the real state.
 import {readFileSync} from 'node:fs';
@@ -6,6 +7,7 @@ const before=JSON.parse(readFileSync('tests/fixtures/jolie-photo-attribution-nov
 const signatures=JSON.parse(readFileSync('tests/fixtures/jolie-photo-attribution-nov8-signatures.json'));
 const hash=v=>createHash('sha256').update(JSON.stringify(v)).digest('hex');
 export function beforeJoliePhotoAttribution(value){
+ value=beforePolishRichPosts(value);
  const signature=signatures[value?.id];
  return signature&&hash(value)===signature.after?before[value.id]:value;
 }
