@@ -340,7 +340,30 @@
   });
   document.addEventListener("keydown", (event) => { if (event.key === "Escape" && !document.getElementById("media-modal").hidden) closeMedia(); });
 
+  function openLinkedPlace() {
+    let requestedId = new URLSearchParams(location.search).get("place");
+    if (!requestedId && location.hash) {
+      try { requestedId = decodeURIComponent(location.hash.slice(1)); }
+      catch { return; }
+    }
+    if (!requestedId) return;
+    const canonicalId = window.WROC_CATALOG.getPlace(requestedId)?.id;
+    const place = places.find((entry) => entry.id === requestedId || (canonicalId && entry.canonicalPlaceId === canonicalId));
+    if (!place) return;
+    activeCategory = "all";
+    freeWaterOnly = false;
+    searchTerm = "";
+    document.getElementById("place-search").value = "";
+    document.querySelectorAll("button[data-category]").forEach((button) => button.classList.toggle("active", button.dataset.category === "all"));
+    document.getElementById("free-water-filter").classList.remove("active");
+    document.getElementById("free-water-filter").setAttribute("aria-pressed", "false");
+    render({fit:false});
+    map.setView(place.coordinates, 16, {animate:false});
+    selectPlace(place.id);
+  }
+  window.addEventListener("hashchange", openLinkedPlace);
   applyLanguage();
   render();
+  openLinkedPlace();
   setTimeout(() => map.invalidateSize(), 50);
 })();

@@ -80,5 +80,25 @@
   document.getElementById("reset-search").addEventListener("click",()=>{searchTerm="";activeCategory="all";document.getElementById("place-search").value="";document.querySelectorAll("button[data-category]").forEach((b)=>b.classList.toggle("active",b.dataset.category==="all"));render();});
   document.querySelectorAll("[data-lang]").forEach((button)=>button.addEventListener("click",()=>{if(supported.includes(button.dataset.lang)){language=button.dataset.lang;applyLanguage();}}));
   document.querySelector("[data-close-media]").addEventListener("click",closeMedia);document.getElementById("media-modal").addEventListener("click",(event)=>{if(event.target.id==="media-modal")closeMedia();});document.addEventListener("keydown",(event)=>{if(event.key==="Escape")closeMedia();});
-  applyLanguage();render();setTimeout(()=>map.invalidateSize(),120);
+  function openLinkedPlace() {
+    let requestedId = new URLSearchParams(location.search).get("place");
+    if (!requestedId && location.hash) {
+      try { requestedId = decodeURIComponent(location.hash.slice(1)); }
+      catch { return; }
+    }
+    if (!requestedId) return;
+    const canonicalId = window.WROC_CATALOG.getPlace(requestedId)?.id;
+    const item = [...places, ...experiences].find((entry) => entry.id === requestedId || (canonicalId && entry.canonicalPlaceId === canonicalId));
+    if (!item) return;
+    activeCategory = "all";
+    searchTerm = "";
+    document.getElementById("place-search").value = "";
+    document.querySelectorAll("button[data-category]").forEach((button) => button.classList.toggle("active", button.dataset.category === "all"));
+    render({fitMap:false});
+    const point = mapPointsFor(item)[0];
+    if (point) map.setView(point.coordinates, 16, {animate:false});
+    select(item.id);
+  }
+  window.addEventListener("hashchange", openLinkedPlace);
+  applyLanguage();render();openLinkedPlace();setTimeout(()=>map.invalidateSize(),120);
 })();
