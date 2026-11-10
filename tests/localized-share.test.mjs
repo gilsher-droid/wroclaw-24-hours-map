@@ -5,7 +5,7 @@ import {resolve} from 'node:path';
 const root=resolve(import.meta.dirname,'..');
 test('social crawlers receive native-language previews before JavaScript runs',()=>{
  const expected={he:'he_IL',en:'en_GB',pl:'pl_PL',de:'de_DE',cs:'cs_CZ'};
- for(const [lang,locale] of Object.entries(expected)) for(const map of ['home','map','premium','moshe','lifestyle','excursions','cultural']){
+ for(const [lang,locale] of Object.entries(expected)) for(const map of ['home','map','premium','moshe','lifestyle','excursions','cultural','nearby']){
   const html=readFileSync(resolve(root,`dist/client/share/${lang}/${map}.html`),'utf8');
   assert.ok(html.includes(`<html lang="${lang}"`));
   assert.ok(html.includes(`og:locale" content="${locale}"`));

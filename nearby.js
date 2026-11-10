@@ -7,7 +7,8 @@
  for(const key of ['category','venueType','cuisine','dietary'])if(params.has(key)){try{filters=model.query({...filters,[key]:params.get(key)});}catch{}}
  if(params.has('radius'))try{filters=model.query({...filters,radius:Number(params.get('radius'))});}catch{}
  // An explicit canonical place link may select a manual centre. Never treat URL coordinates as GPS.
- if(params.has('place')){const p=catalog.getPlace(params.get('place'));if(p&&model.publicPlace(p)){centre=model.centre(p.location.coordinates);explicitCentre=true;}}
+ let linkedPlaceId=null;
+ if(params.has('place')){const p=catalog.getPlace(params.get('place'));if(p&&model.publicPlace(p)){centre=model.centre(p.location.coordinates);explicitCentre=true;linkedPlaceId=p.id;}}
  document.documentElement.lang=lang;document.documentElement.dir=lang==='he'?'rtl':'ltr';document.title=copy.title+' | Wroc-love';$('nearby-home').href='/?lang='+lang;
  document.querySelectorAll('[data-copy]').forEach(el=>el.textContent=copy[el.dataset.copy]);
  for(const [key,dict] of [['category',taxonomy.quickCategories],['venueType',taxonomy.venueTypes],['cuisine',taxonomy.cuisines],['dietary',taxonomy.dietary]]){const el=$('nearby-'+key);el.innerHTML=(key==='category'?'':`<option value="all">${esc(copy.all)}</option>`)+Object.entries(dict).map(([id,label])=>`<option value="${id}">${esc(label[lang])}</option>`).join('');el.value=filters[key];}
@@ -85,6 +86,7 @@
  // No provider is activated by default. Readiness only, never submits a sample paid request.
  if(config.enabled===true)fetch(endpoint,{credentials:'omit',referrerPolicy:'no-referrer'}).then(r=>r.ok?r.json():null).then(state=>{if(state?.ready===true&&state.version===1){$('nearby-chat-state').textContent=copy.chat;$('nearby-chat-form').hidden=false;$('nearby-message').disabled=false;$('nearby-send').disabled=false;}}).catch(()=>{});
  render();
+ if(linkedPlaceId)select(linkedPlaceId,true);
  // Entry from a specific public place keeps that centre. Normal entry requests GPS once.
  if(!explicitCentre)$('nearby-locate').onclick();
 })();

@@ -1,3 +1,4 @@
+import {beforePolishRichPosts} from './polish-rich-posts-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -13,7 +14,7 @@ test('owner correction moves only the exact photograph to Jolie and preserves it
  assert.deepEqual(plain(c.places['jolie-kurzy-targ'].media.photos),[...before['jolie-kurzy-targ'].media.photos,asset]);
  for(const id of ['chatka','jolie-kurzy-targ']){
   assert.deepEqual(plain(w.WROC_LOCATION_MEDIA[id].gallery),plain(c.places[id].media.photos));
-  for(const key of ['id','location','name','socialPosts','links'])assert.deepEqual(plain(c.places[id][key]),before[id][key]);
+  for(const key of ['id','location','name','socialPosts','links'])assert.deepEqual(plain(beforePolishRichPosts(c.places[id])[key]),before[id][key]);
  }
  assert.ok(!c.places.chatka.media.metadata?.[asset]);
  const m=c.places['jolie-kurzy-targ'].media.metadata[asset];

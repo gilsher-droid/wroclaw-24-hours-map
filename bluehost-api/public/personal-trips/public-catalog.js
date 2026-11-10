@@ -367,6 +367,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116433973506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T20:06:35.082Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0YyN2wtgJc8SUQrNCkAafzobXDwc5AhbbXBVbAHgm17dH91agqNqzVGKLho3gxWcnl&id=61595239823399",
         "verifiedAt": "2026-10-07T14:21:32.785286+00:00"
@@ -847,6 +855,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116609191506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T08:51:30.273959+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -1835,6 +1851,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116620105506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:08:03.379784+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeKYYTdABQZ/",
@@ -2215,6 +2239,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116407405506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T18:13:28.245Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "de",
@@ -2812,6 +2844,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116402953506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T17:55:39.244Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "de",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0GYWFyccgakx1UTbrn8KArvvihy98z5RULbvkhteYoWVH6M5yodjw7U3GXcdsPQoFl&id=61595239823399",
         "verifiedAt": "2026-10-07T14:40:19.570255+00:00"
@@ -3125,6 +3165,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116409217506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T18:18:10.911Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02XFsXk3DTRyen3r7181WETGsvYd2UrCqnUEZnphBbY3KBfT4uw3r7pYHM38Sy6h25l&id=61595207664875",
         "verifiedAt": "2026-10-06"
       },
@@ -3401,6 +3449,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116425501506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T19:45:53.581Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -4670,6 +4726,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116429935506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T19:53:08.358Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -6468,6 +6532,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116611387506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T08:59:08.453603+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -10280,6 +10352,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116629435506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:21:34.127449+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://www.facebook.com/reel/1408574808145716",
         "verifiedAt": "2026-10-06"
       },
@@ -10592,6 +10672,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116594449506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T08:01:10.320344+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -13389,6 +13477,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116433337506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T20:03:41.154Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0QfRGdX2siMR2Ze8iJx29UYY9bHhFBEjt8w8gboxqujFLij7KTqUsqp43ryQQKzLNl&id=61595207664875",
         "verifiedAt": "2026-10-06"
       },
@@ -13619,6 +13715,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116435245506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T20:12:03.493Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "de",
@@ -14381,6 +14485,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116431315506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T19:56:50.685Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04BDKiVWw3z3Jzh3YSjigDrtxmn11KPJeaHTb3nx3tPKr9qn52xbwpUZk8tN1ZAisl&id=61594716405964",
         "verifiedAt": "2026-10-07"
@@ -15126,6 +15238,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122117024469506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-08T07:58:17.785573+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02DQfoaBisFjW5FTHoBWW6yKVGHL82QbsC28Cv42fNj35ZsyU3zvWmRQjjnUMQC53Kl&id=61594716405964",
         "verifiedAt": "2026-10-07"
@@ -15733,6 +15853,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116637715506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:26:49.604532+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -19621,6 +19749,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116639575506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:31:28.458388+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0GBRm6VxBQakUyL1Q1aHfgoxQkt6DjptWSE6WbmFhvvcnaha8XFy8K5jb5Ueq1XT9l&id=61595036942289",
         "verifiedAt": "2026-10-07"
@@ -20740,6 +20876,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116452873506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:45:25.682Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "instagram",
         "language": "cs",
@@ -23079,6 +23223,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116458375506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:56:07.693Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0S2Vck1hKHZqpX3Y8TSJGNe7GYbUE6QKFKAyyfCu5oKnuzuE1YfoWFuz4Kf6CwK5El&id=61591964083308",
         "verifiedAt": "2026-10-19T19:56:53.114Z"
@@ -23444,6 +23596,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116462701506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T22:04:21.759Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "instagram",
         "language": "cs",
@@ -24375,6 +24535,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116641375506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:37:57.823126+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -26317,6 +26485,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116642863506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:42:55.436941+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -28988,6 +29164,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116646277506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:48:00.951698+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02QGp1V7GGGSnnw9qAaSyuGRgmEULhc5SzaCJteSiogdEDWdnGfzzJAzCknDLEMEYGl&id=61595207664875",
         "verifiedAt": "2026-10-07"
       },
@@ -29245,6 +29429,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116435863506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T20:14:57.075Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -30066,6 +30258,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116613679506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:01:51.754784+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeKXHlADBhV/",
@@ -30693,6 +30893,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116617081506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:05:18.845487+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeKZLYoj4R2/",
@@ -31008,6 +31216,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116647915506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T09:55:10.906816+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0k8YRSuEk8A36w6mu5CKPxnwPi8pBswawrVTLSq5fxj73seJVq9v1ch5qxwr4j35Wl&id=61594716405964",
         "verifiedAt": "2026-10-07T06:27:53.385594+00:00"
@@ -31224,6 +31440,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116436517506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T20:17:28.596Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -31684,6 +31908,14 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116450719506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:37:12.382Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "instagram",
         "language": "pl",
@@ -32995,6 +33227,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116453695506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:47:45.198Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02PtXrpzwLifvY15DGfac3nRa86RdVvt7DQ7c62xWcyv3XbaBaLnxWopZXTyqH72vwl&id=61594716405964",
         "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
@@ -33265,6 +33505,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116718259506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T14:08:03.184549+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -35361,6 +35609,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116710231506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T13:37:27.713811+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "en",
@@ -38001,6 +38257,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116983231506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-08T05:43:34.182007+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "en",
@@ -40653,6 +40917,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116451427506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:39:45.234Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid027kbtC8rnbSqeTvvXetDxowFXaoXgKcP8hGWUSkHZsAc7TP9xszBbfk5XBzKos76gl&id=61595036942289",
         "verifiedAt": "2026-10-07"
@@ -40941,6 +41213,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116437303506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T20:36:04.131Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -41466,6 +41746,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116779963506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:34:03.634710+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeKYLGCCel9/",
@@ -41889,6 +42177,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116751673506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T15:54:41.670544+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -44742,6 +45038,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116596327506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T08:04:25.061342+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JBqwhKbmcnwZbpgRvhzPayWvgDGuE25zaHgivDtZJBH2JL3gohqd4AwoFm1QoQMjl&id=61594716405964",
         "verifiedAt": "2026-10-07"
@@ -45183,6 +45487,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116461375506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T22:01:20.137Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "instagram",
         "language": "cs",
@@ -46592,6 +46904,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122117578725506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-09T18:49:18.871744+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02yKtN7DAGYgASN5DXYRQgsacBR4pY6DkQDcwKFQgYirnvFMBhaMjPwTKcQRE2BgsHl&id=61594716405964",
         "verifiedAt": "2026-10-07"
@@ -46841,6 +47161,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116763985506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:10:40.514349+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -47407,6 +47735,14 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116607073506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T08:46:57.346737+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -48087,6 +48423,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116791735506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:51:58.138139+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "he",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DesDBfXn4Fe/",
@@ -48368,6 +48712,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116780977506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:36:42.648326+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "en",
@@ -49191,6 +49543,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116432383506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T20:00:07.102Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -50239,6 +50599,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116589553506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T08:10:20.272241+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://www.facebook.com/reel/1540497554763531",
         "verifiedAt": "2026-10-06"
       },
@@ -50465,6 +50833,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116592121506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T07:58:33.651228+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "de",
@@ -52308,6 +52684,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116820319506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T18:34:22.578691+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02nnJty31FqZX2J3jmXKXYEsC3L6wdC14kk3SBMfyw1AkExKHzub9Ur78N2BdAJ6dol&id=61595207664875",
         "verifiedAt": "2026-10-06T23:17:27.632328+00:00"
       },
@@ -53656,6 +54040,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116782675506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:39:38.339929+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Z8kgxs3fBBWm21rF1HhaxvyXqs4cv1W1KhPQmxcND991g7VVKxJMDXYVPCFR4vTxl&id=61595207664875",
         "verifiedAt": "2026-10-06T23:18:30.335855+00:00"
       },
@@ -54522,6 +54914,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116778043506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:30:46.547631+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeKX3G-DtBB/",
@@ -55291,6 +55691,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116850859506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T20:16:32.316541+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -56260,6 +56668,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116753797506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:00:44.737111+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0pMW2WikLJDiqN9Vr2h6d6K2YnHdEMPtuUmwpVcTrYaZqYRPvFdCruc2bDg3KigYQl&id=61595036942289",
         "verifiedAt": "2026-10-07"
@@ -56578,6 +56994,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116759113506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:05:34.018466+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -57043,6 +57467,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116775703506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:26:31.387651+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -58136,6 +58568,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116577889506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T07:44:02.422065+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "en",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02CZe8DiSa1ecS3daFvVrvCTmE6SPMvf8vahfKtLKbhFrKVkszfJXdrGwoGxHvey6bl&id=61595036942289",
         "verifiedAt": "2026-10-19T07:15:24.508Z"
@@ -58671,6 +59111,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116454955506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:50:40.512Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "cs",
         "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/Der79ikl2-D/",
@@ -59105,6 +59553,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116795161506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:55:35.073520+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "instagram",
         "language": "he",
@@ -59548,6 +60004,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116841877506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T20:00:21.250738+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "en",
@@ -67489,6 +67953,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116452081506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:42:29.808Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02mLSEyPNLrFENRLdVNH7BEZJPuyYrLZRXpimyy66ZQK6rKZa7a3D3RtRp7iEiaaitl&id=61594716405964",
         "verifiedAt": "2026-10-07"
@@ -69274,6 +69746,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116582743506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T07:49:28.073667+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02xTYhbYTn19MHCZPoPgkKianeu4QJa2iC3pNeneAYJqeJGezdtNT8BP9GRS2iZ4P2l&id=61591964083308",
         "verifiedAt": "2026-10-19T19:52:07.793Z"
@@ -70081,6 +70561,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116752333506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T15:57:18.287128+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -71762,6 +72250,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116847769506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T20:13:11.942272+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeKYP2JFY-c/",
@@ -72562,6 +73058,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116456473506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:53:16.643Z",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "cs",
         "url": "https://instagram.com/wroclaw.lowersilesia.cs/p/Der8JeDFdyn/",
@@ -72999,6 +73503,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116755933506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:02:57.364787+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -76194,6 +76706,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116823187506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T18:38:32.074378+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "de",
@@ -81883,6 +82403,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116773879506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:23:13.978785+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02LEfYBpkZggr1eW6Xi6S8V5zU6q4ZYS5Hp2HUcT4RhLYih7jqVZMfGn3HVkatao66l&id=61595207664875",
         "verifiedAt": "2026-10-19"
       },
@@ -82493,6 +83021,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116844223506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T20:07:27.306611+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "instagram",
         "language": "en",
@@ -88317,6 +88853,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116786713506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:46:02.712979+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z52QMFYJqykBthKe3S1s9m6ussFVVqRfq2Fi3cjS9eZTy1ZCRW5n6Ji668LExb9Nl&id=61595036942289",
         "verifiedAt": "2026-10-18T19:08:46Z",
@@ -89474,6 +90018,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116459563506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-06T21:58:46.454Z",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -91944,6 +92496,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116796475506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T16:58:43.967837+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid057bkMRNhNuDJwMbemvanmJBLJyKmtL9Xe87Q283vPZ1dHFuJVqrP28cPy4TAeszol&id=61594716405964",
         "verifiedAt": "2026-10-07"
@@ -92263,6 +92823,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122117001669506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-08T06:48:40.156731+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -94295,6 +94863,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116800345506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T18:29:26.829980+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbTJoTBWFT4sTSCasVK8HQVfnecf7tXsUX8ZS3oeUj3av3Gj4k3SLgkAVrAJxQdwl&id=61594716405964",
         "verifiedAt": "2026-10-07T06:19:42.573071+00:00",
@@ -94635,6 +95211,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JyjPcnjYUQQUP6izqM4395534QciKhQAKCt44tBAAW41YmNnPf9B3tyqvYKheCxKl&id=61595207664875",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-09T17:25:11.196017+00:00",
+        "context": "verified-rich-place-gallery"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -96690,6 +97274,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116857105506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T20:22:36.934106+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DeK4eLkiU9G/",
@@ -97263,6 +97855,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116798371506922/",
+        "account": "61595207664875",
+        "verifiedAt": "2026-11-07T17:03:12.147988+00:00",
+        "context": "verified-rich-place-gallery"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ghZXye7Ndozg5UUqAW8PT2vth7R77VP81EQGsWu6BMavB4jpPJ2jKrg2UD36EmkQl&id=61594716405964",
         "verifiedAt": "2026-10-20",
@@ -97606,8 +98206,18 @@
     "requiredAccount": "wroclaw.lowersilesia.he",
     "reviewedAt": "2026-10-22",
     "evidence": "outputs/canonical-social-link-audit-2026-10-22/live-evidence/current-extra-000.txt"
+  },
+  {
+    "placeId": "chatka",
+    "platform": "instagram",
+    "language": "pl",
+    "historicalUrl": "https://www.instagram.com/p/DePBtSmFyRI/",
+    "reason": "owner-removed-post-no-verified-replacement",
+    "verifiedAt": "2026-11-08",
+    "context": "Verified specific post removal; original URL retained as evidence. Upload restriction does not authorize a replacement attempt."
   }
-];
+]
+;
   const getSocialPostState = (input, platform, lang = window.document?.documentElement?.lang || 'en') => {
     const place = typeof input === 'string' ? getPlace(input) : input;
     const language = ['he','en','pl','de','cs'].includes(lang) ? lang : 'en';

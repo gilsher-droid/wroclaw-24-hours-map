@@ -9,7 +9,7 @@ function runtime(withMap=false,search='?lang=en',geoAvailable=true){
  const layers=[],frames=[],views=[];
  if(withMap){
   const map={setView(point){views.push(point);return this;},fitBounds(bounds){views.push(bounds);return this;},getPane:()=>({style:{}}),on(){return this;},getBounds:()=>({pad(){return this;},getSouth:()=>-85,getNorth:()=>85,getWest:()=>-180,getEast:()=>180})};
-  const layer=(point,options={})=>{const handlers={};const result={point,options,handlers,icons:0,addTo(){return this;},on(type,fn){handlers[type]=fn;return this;},setLatLng(p){this.point=p;return this;},setLatLngs(){return this;},setRadius(){return this;},setIcon(){this.icons++;return this;},getLatLng(){return this.point;},getBounds(){return this.point;},remove(){},bindPopup(){return this;}};layers.push(result);return result;};
+  const layer=(point,options={})=>{const handlers={};const result={point,options,handlers,icons:0,addTo(){return this;},on(type,fn){handlers[type]=fn;return this;},setLatLng(p){this.point=p;return this;},setLatLngs(){return this;},setRadius(){return this;},setIcon(){this.icons++;return this;},getLatLng(){return this.point;},getBounds(){return this.point;},remove(){},bindPopup(){return this;},openPopup(){this.opens=(this.opens||0)+1;return this;}};layers.push(result);return result;};
   context.L=window.L={map:()=>map,circle:layer,polygon:layer,marker:layer,divIcon:x=>x};
   window.WROC_MAP_TILES={addTo(){}};context.requestAnimationFrame=fn=>{frames.push(fn);return frames.length;};
  }
@@ -47,4 +47,11 @@ test('A continuous centre drag keeps its handler and updates results on release;
  assert.equal(marker.point.lat,0);marker.handlers.dragend();
  assert.match(r.get('nearby-count').textContent,/1 /);assert.match(r.get('nearby-centre-note').textContent,/Manual/);
  assert.equal(marker.icons,icons+1);assert.equal(r.fetches(),0);
+});
+
+// Social backlinks must select the requested place, not merely centre a general map.
+test('A public place backlink opens its exact marker without requesting device location',()=>{
+ const r=runtime(true,'?lang=pl&place=one');assert.equal(r.calls(),0);assert.equal(r.fetches(),0);
+ assert.equal(r.layers.filter(layer=>layer.opens===1).length,1);
+ assert.deepEqual(Array.from(r.views.at(-1)),[0,0]);
 });

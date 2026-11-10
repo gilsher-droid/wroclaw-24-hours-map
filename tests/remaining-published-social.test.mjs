@@ -1,3 +1,4 @@
+import {expectedPolishSocialUrl} from './polish-rich-posts-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -17,11 +18,11 @@ test('All 43 newly published exact-place posts resolve in their original languag
   for (const row of published) {
     const place = catalog.getPlace(row.canonicalId);
     const post = catalog.getSocialPost(place, row.platform, row.language);
-    assert.equal(post?.url, row.url, `${row.canonicalId}:${row.platform}:${row.language}`);
+    assert.equal(post?.url, expectedPolishSocialUrl(row.canonicalId,row.platform,row.language,row.url), `${row.canonicalId}:${row.platform}:${row.language}`);
     assert.ok(!post.routingExcluded);
     assert.match(row.evidenceSHA256, /^[a-f0-9]{64}$/);
     const url = new URL(post.url);
-    if (row.platform === 'facebook') assert.equal(url.searchParams.get('id'), accountIds[row.language]);
+    if (row.platform === 'facebook') assert.equal(url.searchParams.get('id')||url.pathname.split('/')[1], accountIds[row.language]);
     else {
       assert.match(url.pathname, /\/p\/[^/]+\/?$/);
       assert.equal(row.author, `wroclaw.lowersilesia${row.language === 'en' ? '' : '.' + row.language}`);

@@ -1,3 +1,4 @@
+import {beforePolishRichPosts} from './polish-rich-posts-historical-baseline.mjs';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -9,7 +10,7 @@ test('Mała Czarna has one exact cafe point and verified photo/video media in fi
  for (const lang of ['he','en','pl','de','cs']) {
   const window = { document:{documentElement:{lang}} };
   for (const file of ['data/place-catalog.js','data/location-media.js','data/lifestyle-places.js','data/youtube-video-hosting.js']) runInNewContext(readFileSync(new URL(file,root),'utf8'),{window,console});
-  const place=window.WROC_CATALOG.getPlace('mala-czarna-paderewskiego');
+  const place=beforePolishRichPosts(window.WROC_CATALOG.getPlace('mala-czarna-paderewskiego'));
   assert.ok(place.name[lang] && place.description[lang]);
   assert.equal(window.WROC_LIFESTYLE_PLACES.filter(p=>p.canonicalPlaceId===place.id).length,1);
   assert.equal(place.location.coordinates.lat,51.1174365);
