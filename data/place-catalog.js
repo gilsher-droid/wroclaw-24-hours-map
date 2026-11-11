@@ -51942,10 +51942,52 @@
       ]
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/user-supplied-nov11/new-horizons-cinema-ai.jpeg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/user-supplied-nov11/new-horizons-cinema-ai.jpeg": {
+          "original": false,
+          "userSupplied": true,
+          "aiGenerated": true,
+          "contentType": "AI-generated or restored illustration, not an original visit photograph",
+          "sourceFile": "Gemini_Generated_Image_vhfzllvhfzllvhfz.jpeg",
+          "sourceSHA256": "701f372aba475d6644f9948cbcb496819d0337a13c756844e4377affb6b6d53e",
+          "assetSHA256": "701f372aba475d6644f9948cbcb496819d0337a13c756844e4377affb6b6d53e",
+          "originalFullPicturePreserved": true,
+          "addedGraphicOverlay": false,
+          "humanApprovedOn": "2026-11-11",
+          "alt": {
+            "he": "המחשה של חזית קולנוע ניו הורייזונס שנוצרה או שוחזרה בעזרת בינה מלאכותית",
+            "en": "AI-generated or restored illustration of the New Horizons Cinema facade",
+            "pl": "Ilustracja fasady Kina Nowe Horyzonty wygenerowana lub odtworzona z pomocą AI",
+            "de": "Mit KI erzeugte oder rekonstruierte Darstellung der Fassade des Kinos Nowe Horyzonty",
+            "cs": "Ilustrace průčelí Kina Nowe Horyzonty vytvořená nebo rekonstruovaná pomocí AI"
+          },
+          "printedSourceCredit": "Marcin Biodrowski"
+        }
+      }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122118142161506922/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-rich-place-photo-gallery",
+        "mediaType": "user-supplied-AI-illustration",
+        "styleQualification": "Published copy verified; formatting correction tracked separately."
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122132825481398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-rich-place-photo-gallery",
+        "mediaType": "user-supplied-AI-illustration",
+        "styleQualification": "Published copy verified; formatting correction tracked separately."
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -78366,10 +78408,51 @@
       }
     },
     "media": {
-      "photos": [],
-      "videos": []
+      "photos": [
+        "/assets/user-supplied-nov11/the-bridge-ai.jpeg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/user-supplied-nov11/the-bridge-ai.jpeg": {
+          "original": false,
+          "userSupplied": true,
+          "aiGenerated": true,
+          "contentType": "AI-generated or restored illustration, not an original visit photograph",
+          "sourceFile": "Gemini_Generated_Image_6tmtoi6tmtoi6tmt.jpeg",
+          "sourceSHA256": "eb8739b913cf0cbb4a6607233d2d385f77dd9f99568de5e6bb4641875c16eea4",
+          "assetSHA256": "eb8739b913cf0cbb4a6607233d2d385f77dd9f99568de5e6bb4641875c16eea4",
+          "originalFullPicturePreserved": true,
+          "addedGraphicOverlay": false,
+          "humanApprovedOn": "2026-11-11",
+          "alt": {
+            "he": "המחשה של חזית מלון דה ברידג׳ שנוצרה או שוחזרה בעזרת בינה מלאכותית",
+            "en": "AI-generated or restored illustration of The Bridge hotel exterior",
+            "pl": "Ilustracja elewacji hotelu The Bridge wygenerowana lub odtworzona z pomocą AI",
+            "de": "Mit KI erzeugte oder rekonstruierte Darstellung der Außenansicht des Hotels The Bridge",
+            "cs": "Ilustrace exteriéru hotelu The Bridge vytvořená nebo rekonstruovaná pomocí AI"
+          }
+        }
+      }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122118142605506922/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-rich-place-photo-gallery",
+        "mediaType": "user-supplied-AI-illustration",
+        "styleQualification": "Published copy verified; formatting correction tracked separately."
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122132825883398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-rich-place-photo-gallery",
+        "mediaType": "user-supplied-AI-illustration",
+        "styleQualification": "Published copy verified; formatting correction tracked separately."
+      },
       {
         "platform": "facebook",
         "language": "cs",

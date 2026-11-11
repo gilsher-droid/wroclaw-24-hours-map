@@ -1,0 +1,22 @@
+{
+  "new-horizons-cinema": {
+    "url": "https://www.facebook.com/61595207664875/posts/122118142161506922/",
+    "urls": {
+      "facebook:pl": "https://www.facebook.com/61595207664875/posts/122118142161506922/",
+      "facebook:he": "https://www.facebook.com/61591964083308/posts/122132825481398802/"
+    },
+    "addedCount": 2,
+    "before": "5eb277979e1b628c296cd7dd32d4c25dcdd6484e5a7e0339c5b8711983519214",
+    "after": "c7b2151d5ceaffe95a6bf4b99f1a6f97faec46537ed36b490659ad6c6495ba23"
+  },
+  "the-bridge": {
+    "url": "https://www.facebook.com/61595207664875/posts/122118142605506922/",
+    "urls": {
+      "facebook:pl": "https://www.facebook.com/61595207664875/posts/122118142605506922/",
+      "facebook:he": "https://www.facebook.com/61591964083308/posts/122132825883398802/"
+    },
+    "addedCount": 2,
+    "before": "79f898a630e503571b5e6f7756a7b54d9f727362f73c62e4582067c18f8137f7",
+    "after": "458babe07195d6e40a8712b307a11332d9a0031c990cfc739cb73d0c6533b294"
+  }
+}

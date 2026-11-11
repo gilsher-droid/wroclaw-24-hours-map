@@ -4437,6 +4437,24 @@
   "new-horizons-cinema": [
     {
       "platform": "facebook",
+      "language": "pl",
+      "url": "https://www.facebook.com/61595207664875/posts/122118142161506922/",
+      "verifiedAt": "2026-11-11",
+      "context": "verified-rich-place-photo-gallery",
+      "mediaType": "user-supplied-AI-illustration",
+      "styleQualification": "Published copy verified; formatting correction tracked separately."
+    },
+    {
+      "platform": "facebook",
+      "language": "he",
+      "url": "https://www.facebook.com/61591964083308/posts/122132825481398802/",
+      "verifiedAt": "2026-11-11",
+      "context": "verified-rich-place-photo-gallery",
+      "mediaType": "user-supplied-AI-illustration",
+      "styleQualification": "Published copy verified; formatting correction tracked separately."
+    },
+    {
+      "platform": "facebook",
       "language": "cs",
       "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KWWbtpKimDyQ7wDmNHr9T53waaWn9T6LkzH1c5P6RsRpHznhphaqvqNTCbmJXy1Kl&id=61594716405964",
       "verifiedAt": "2026-10-07"
@@ -5889,6 +5907,24 @@
     }
   ],
   "the-bridge": [
+    {
+      "platform": "facebook",
+      "language": "pl",
+      "url": "https://www.facebook.com/61595207664875/posts/122118142605506922/",
+      "verifiedAt": "2026-11-11",
+      "context": "verified-rich-place-photo-gallery",
+      "mediaType": "user-supplied-AI-illustration",
+      "styleQualification": "Published copy verified; formatting correction tracked separately."
+    },
+    {
+      "platform": "facebook",
+      "language": "he",
+      "url": "https://www.facebook.com/61591964083308/posts/122132825883398802/",
+      "verifiedAt": "2026-11-11",
+      "context": "verified-rich-place-photo-gallery",
+      "mediaType": "user-supplied-AI-illustration",
+      "styleQualification": "Published copy verified; formatting correction tracked separately."
+    },
     {
       "platform": "facebook",
       "language": "cs",
