@@ -125,6 +125,8 @@
   };
 
   const resources = {
+    "new-horizons-cinema": canonicalResources("new-horizons-cinema"),
+    "the-bridge": canonicalResources("the-bridge"),
     konspira: canonicalResources("konspira"),
     "hostel-krasnal-wroclaw": canonicalResources("hostel-krasnal-wroclaw"),
     "marietta-focacceria-wroclaw": canonicalResources("marietta-focacceria-wroclaw"),

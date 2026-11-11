@@ -48,6 +48,7 @@ const canonicalSource = [
   ...((await evaluate([freeWaterSourceFile])).WROC_FREE_WATER_PLACE_SOURCE || []),
 ];
 const localizedSocialPosts = JSON.parse(await readFile(resolve(root, "data/localized-social-posts.json"), "utf8"));
+const userSuppliedPlaceMedia = JSON.parse(await readFile(resolve(root, "data/user-supplied-place-media.json"), "utf8"));
 const socialRoutingExclusions = JSON.parse(await readFile(resolve(root, "data/social-post-routing-exclusions.json"), "utf8"));
 const outputFile = process.env.WROC_PLACE_CATALOG_OUTPUT_FILE || "data/place-catalog.js";
 
@@ -270,6 +271,11 @@ for (const place of places.values()) {
     ...((canonicalMedia.guideVideos || resources.guideVideos) ? { guideVideos: canonicalMedia.guideVideos || resources.guideVideos } : {}),
     ...(canonicalMedia.metadata ? { metadata: canonicalMedia.metadata } : {}),
   };
+  const suppliedMedia = userSuppliedPlaceMedia[place.id];
+  if (suppliedMedia) {
+    place.media.photos = [...new Set([...place.media.photos, ...suppliedMedia.photos])];
+    place.media.metadata = { ...place.media.metadata, ...suppliedMedia.metadata };
+  }
   place.socialPosts = [
     ...(localizedSocialPosts[place.id] || []),
     ...(place._canonicalSocialPosts || []),
