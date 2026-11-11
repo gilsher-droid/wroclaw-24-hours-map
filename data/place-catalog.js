@@ -21920,6 +21920,14 @@
       {
         "platform": "facebook",
         "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122116997091506922/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-rich-place-photo-gallery",
+        "mediaCoverageQualification": "Entrance and interior photos verified; five native IDs of fifteen prepared photos. Remaining ten and separate crosspoint frames held."
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0asfY9MKaRH7cd4MqHv4ejghUuowUhs7ffvXTy2XQuYfYd3NtzBYDZDvtdiXoTk7Ml&id=61595207664875",
         "verifiedAt": "2026-10-06"
       },

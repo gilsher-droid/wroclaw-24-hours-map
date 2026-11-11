@@ -11,7 +11,7 @@ test('Two user-approved illustrations preserve every prior identity and all 344 
  assert.deepEqual(Object.keys(w.WROC_CATALOG.places).sort(),Object.keys(fixture.beforeRecordHashes).sort());
  for(const [id,beforeHash] of Object.entries(fixture.beforeRecordHashes)){
   const p=w.WROC_CATALOG.places[id];
-  assert.equal(hash(fixture.beforeMedia[id]?beforePolishRichPosts(p):p),beforeHash,id);
+  assert.equal(hash((fixture.beforeMedia[id]||id==='dwarf-info')?beforePolishRichPosts(p):p),beforeHash,id);
  }
  for(const id of Object.keys(fixture.beforeMedia)){
   const p=w.WROC_CATALOG.getPlace(id),src=p.media.photos.at(-1),m=p.media.metadata[src];

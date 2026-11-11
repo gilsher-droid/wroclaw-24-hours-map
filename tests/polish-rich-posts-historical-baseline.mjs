@@ -8,6 +8,7 @@ const signatures={
  ...JSON.parse(readFileSync('tests/fixtures/polish-rich-posts-20261110-signatures.json')),
  ...JSON.parse(readFileSync('tests/fixtures/new-cemetery-pl-post-20261111-signatures.json')),
  ...JSON.parse(readFileSync('tests/fixtures/new-horizons-bridge-social-20261111-signatures.json')),
+ ...JSON.parse(readFileSync('tests/fixtures/dwarf-info-pl-post-20261111-signatures.json')),
 };
 const acceptedContexts=new Set(['verified-rich-place-gallery','verified-rich-place-photo-gallery']);
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
