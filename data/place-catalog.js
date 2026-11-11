@@ -2241,6 +2241,22 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122131941921398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZZZYjjyqM/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116407405506922/",
         "account": "61595207664875",
@@ -3164,6 +3180,22 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122131942641398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZZ4NAjoZe/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116409217506922/",
         "account": "61595207664875",
@@ -3449,6 +3481,22 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122131943487398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZaVwMDptt/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -4726,6 +4774,22 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122131939455398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZX0ecjYs-/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -14485,6 +14549,22 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122131949847398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZqawHkV1-/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116431315506922/",
         "account": "61595207664875",
@@ -21103,6 +21183,22 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122131950207398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZd5YsG7h2/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -31448,6 +31544,22 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122131951893398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZe25jj-V8/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -45044,6 +45156,22 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/61591964083308/posts/122131958439398802/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZpXQbkeYQ/",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-written-place-photo-post",
+        "mediaCoverageQualification": "Place, Hebrew caption and first visible place photo verified; no carousel-wide audit."
+      },
       {
         "platform": "facebook",
         "language": "pl",

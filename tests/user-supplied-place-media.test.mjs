@@ -1,3 +1,4 @@
+import {beforeHeWrittenPhotoPosts} from './he-written-photo-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -10,7 +11,7 @@ const w={}; for(const file of ['data/place-catalog.js','data/lifestyle-places.js
 test('Two user-approved illustrations preserve every prior identity and all 344 unrelated records',()=>{
  assert.deepEqual(Object.keys(w.WROC_CATALOG.places).sort(),Object.keys(fixture.beforeRecordHashes).sort());
  for(const [id,beforeHash] of Object.entries(fixture.beforeRecordHashes)){
-  const p=w.WROC_CATALOG.places[id];
+  const p=beforeHeWrittenPhotoPosts(w.WROC_CATALOG.places[id]);
   assert.equal(hash((fixture.beforeMedia[id]||id==='dwarf-info')?beforePolishRichPosts(p):p),beforeHash,id);
  }
  for(const id of Object.keys(fixture.beforeMedia)){
