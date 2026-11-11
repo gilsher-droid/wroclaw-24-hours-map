@@ -426,5 +426,19 @@
     "reason": "verified-photo-and-corrected-caption-belong-to-jolie-kurzy-targ-not-chatka",
     "correctCanonicalPlaceId": "jolie-kurzy-targ",
     "reviewedAt": "2026-11-11"
+  },
+  {
+    "placeId": "papa",
+    "platform": "facebook",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Jz9tMc1De8q4kv5Yp3ppUkCGDtZJwVCGJAyXfga8izwx3FRKFT8rWuJkTPXJxQjJl&id=61591964083308",
+    "reason": "written_dwarf_collection_exact_papa_photo_not_verified_profile_return_unverified",
+    "reviewedAt": "2026-11-11"
+  },
+  {
+    "placeId": "papa",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/p/DehSWMMCbzH/",
+    "reason": "written_dwarf_collection_return_exact_Papa_photo_not_verified",
+    "reviewedAt": "2026-11-11"
   }
 ]
