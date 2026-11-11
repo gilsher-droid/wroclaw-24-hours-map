@@ -418,5 +418,13 @@
     "url": "https://facebook.com/permalink.php?story_fbid=pfbid029xAEk62emXraeZ4TbqwvYcU4ckXUgnmzoyHL1QLA1btabSU7weDF24yVCSuWCAZCl&id=61595207664875",
     "reason": "user-explicitly-hide-all-Sand-Island-social-actions-no-place-posts",
     "reviewedAt": "2026-10-22T06:00:26.382246+00:00"
+  },
+  {
+    "placeId": "chatka",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUurgzkeMm/",
+    "reason": "verified-photo-and-corrected-caption-belong-to-jolie-kurzy-targ-not-chatka",
+    "correctCanonicalPlaceId": "jolie-kurzy-targ",
+    "reviewedAt": "2026-11-11"
   }
 ]
