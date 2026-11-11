@@ -22080,6 +22080,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02sGaQCoxpm9VkQJ881Fmk2imEfq1si5NNsekqCYYryX188WcRcy5NdW4eS3BPa26Kl&id=61591964083308",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-he-written-photo-routing-20261111",
+        "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116997091506922/",
         "verifiedAt": "2026-11-11",
@@ -42436,6 +42444,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02YNYXp55mV9TXtiVVg7wGmNk415chwJx3i49rgeV6iDXA2BNvWwfvxerjD9UswXTql&id=61591964083308",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-he-written-photo-routing-20261111",
+        "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116751673506922/",
         "account": "61595207664875",
@@ -44671,6 +44687,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid035ap1BVZz99AewvzaAvJKd62NMBcZCv5VqT2PGB6r86VcMeZqZB9Qs55aNbud3bd1l&id=61591964083308",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-he-written-photo-routing-20261111",
+        "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -47452,6 +47476,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02PgkvwAVQvAG386THfG5nB6nsMD6K5JTz4fNAt8VYNjja7mQtCxuSwNgXyNgYp1WHl&id=61591964083308",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-he-written-photo-routing-20261111",
+        "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116763985506922/",
         "account": "61595207664875",
@@ -49009,6 +49041,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid093Rzu1BCaVt579Aw5z9YUuFYURFJcfKBivBDRNVxrBs9o2U6PgquStw7Jku7UcWbl&id=61591964083308",
+        "verifiedAt": "2026-11-11",
+        "context": "verified-he-written-photo-routing-20261111",
+        "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+      },
       {
         "platform": "facebook",
         "language": "pl",

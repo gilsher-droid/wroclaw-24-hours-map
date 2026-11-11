@@ -1,7 +1,7 @@
 {
   "baseSHA": "f5851d7f49cead1896af8a88b6f1ba24a0c27b84",
-  "candidateCount": 81,
-  "promotions": 29,
+  "candidateCount": 88,
+  "promotions": 34,
   "candidates": [
     {
       "id": "ac-hotel",
@@ -569,6 +569,55 @@
       "url": "https://facebook.com/permalink.php?story_fbid=pfbid02BYgRzZiPiZx6fBUBFddzJPXGe35mhdesJQDHP7ofF722yEJ5DUbsumfvkdSxvhDTl&id=61591964083308",
       "changeRequired": true,
       "returnStillPending": true
+    },
+    {
+      "id": "dwarf-info",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02sGaQCoxpm9VkQJ881Fmk2imEfq1si5NNsekqCYYryX188WcRcy5NdW4eS3BPa26Kl&id=61591964083308",
+      "changeRequired": true,
+      "returnStillPending": true
+    },
+    {
+      "id": "la-maddalena",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02YNYXp55mV9TXtiVVg7wGmNk415chwJx3i49rgeV6iDXA2BNvWwfvxerjD9UswXTql&id=61591964083308",
+      "changeRequired": true,
+      "returnStillPending": true
+    },
+    {
+      "id": "lodziarnia-roma",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid035ap1BVZz99AewvzaAvJKd62NMBcZCv5VqT2PGB6r86VcMeZqZB9Qs55aNbud3bd1l&id=61591964083308",
+      "changeRequired": true,
+      "returnStillPending": true
+    },
+    {
+      "id": "most-piaskowy",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid093Rzu1BCaVt579Aw5z9YUuFYURFJcfKBivBDRNVxrBs9o2U6PgquStw7Jku7UcWbl&id=61591964083308",
+      "changeRequired": true,
+      "returnStillPending": true
+    },
+    {
+      "id": "math-tower",
+      "platform": "facebook",
+      "url": "https://facebook.com/permalink.php?story_fbid=pfbid02PgkvwAVQvAG386THfG5nB6nsMD6K5JTz4fNAt8VYNjja7mQtCxuSwNgXyNgYp1WHl&id=61591964083308",
+      "changeRequired": true,
+      "returnStillPending": true
+    },
+    {
+      "id": "fashion-outlet",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvLXGEXoN/",
+      "changeRequired": false,
+      "returnStillPending": true
+    },
+    {
+      "id": "fc-caffe-kuznicza",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DesCy0xnzBM/",
+      "changeRequired": false,
+      "returnStillPending": true
     }
   ],
   "changed": {
@@ -1082,6 +1131,72 @@
           "platform": "facebook",
           "url": "https://www.facebook.com/61591964083308/posts/122110542891398802/",
           "routingExcluded": true
+        }
+      ]
+    },
+    "dwarf-info": {
+      "before": "498876e1da083a862847a391acb06e52021d6319aa324cdc53639dfab65523e2",
+      "after": "4645e469cd891e5d30cc56b00effb036dccf969a0c9853cae810bb96327610f6",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116997091506922/",
+          "verifiedAt": "2026-11-11",
+          "context": "verified-rich-place-photo-gallery",
+          "mediaCoverageQualification": "Entrance and interior photos verified; five native IDs of fifteen prepared photos. Remaining ten and separate crosspoint frames held."
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0asfY9MKaRH7cd4MqHv4ejghUuowUhs7ffvXTy2XQuYfYd3NtzBYDZDvtdiXoTk7Ml&id=61595207664875",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeJ79_lDo-Z/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Jv7JsjwcVL4ZcBzfixdw7fNAG9SzakbFSvWg6YqhZazPoNw3CEZk4xB1ZK3eXYHVl&id=61594716405964"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DeKRr14Dzgw/"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0YqAyEh5CyockKtVhW6EL5qDbZmuigEZrDoEU8PjGNgC5N4xksi9soh8pEugtoubSl&id=61595239823399"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeKSWYlldHe/"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02RKRUwb9BWnpVVsg2p5GaWT2YxdwteyXiiJ1wAPsE9ETo3ricDAcAcURiL2gRRQKxl&id=61595036942289"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeKVQ45jpWq/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/61591964083308/posts/122107696491398802/",
+          "routingExcluded": true
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/Dbc4V7NnBl_/"
         }
       ]
     },
@@ -1649,6 +1764,66 @@
         }
       ]
     },
+    "la-maddalena": {
+      "before": "a3aace1e913b48b9650c19cfb0f6164da8e4c1829e9b362547d28a6e27e77ffb",
+      "after": "b8793a95e2e6a68819f20123a22121453d7fc142a8795637d77053c8f354f6dd",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116751673506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T15:54:41.670544+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid08X3xTqwDsVvkzV5aPGq8mgK2rsny6HuAxT4QPvRo2uV4DU7PTAq27RcPt86zKeb4l&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0Hn3B9bcAW8b5eVM7oiTfoUYTGQuGHwNyMiq2wYn2gXC3n8ZWiZmcjbHSWQYMLPGHl&id=61595207664875",
+          "verifiedAt": "2026-10-08T14:39:20.427Z"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Un9psnXJy7nAAXkVfjySuv8FYb6voNscyDwVMNSpBr5nmmUMn7Av31AsZkyHyKDXl&id=61595036942289",
+          "verifiedAt": "2026-10-08"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+          "routingExcluded": true
+        }
+      ]
+    },
+    "lodziarnia-roma": {
+      "before": "8f108eaf25cdfeaff31b09b6b7279c86bb86a66cfb585c321f8bdd3f82b6deae",
+      "after": "612998c5e093558b4e7f2402e435ac936bd9bf468dac3813ede6cc6bd3880f8d",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02amf84DYumbZnyB16etD2m3i5LQZ91X3sZPFbkJoyj1FGJAUdu4Cq1gQfL6UZ7PoNl&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid05cm2S1Aiw7fTkyZXr3hDEDqxgTPfZAnmeZao88VvddXi8hSFHDJAyWRePRcYEk89l&id=61595036942289",
+          "verifiedAt": "2026-10-08"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/61591964083308/posts/122108686497398802/",
+          "routingExcluded": true
+        }
+      ]
+    },
     "mala-czarna-paderewskiego": {
       "before": "2d20378a502005cc8e27c523bde1d114fcf9990bb2b4f94c997af7b2c6b31562",
       "after": "b45c81fc822e2b9b5192b336af398c324aad07461127b93a2db94728cf673fa2",
@@ -1789,6 +1964,84 @@
         }
       ]
     },
+    "math-tower": {
+      "before": "30ecd28a77df8ff28da47bd0dd98651dc984d4d6079af6f2d7b3d5d6d7e3938f",
+      "after": "7c7a9f30420bdf1bcaacddcd90b2ec0b75e981a01ddb774c029d3b57ac50fa3c",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116763985506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:10:40.514349+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02SNoJ5VJXFxGtxXJXhVKopJPu7TMFHLNKcPUhc3r6xxK3tWFN3ucv1xGuU1JH4Trvl&id=61595207664875",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid06EFayQBGyQq4jBuJ1ZHiCxojVfjMjfkaJhUZeZUej3ZUCKKJryMZNqqJnpothuu9l&id=61595239823399",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02mLDaCyrnzfbp1wcRwAdkEpKEbdp6aBV51JPv2NZcReqH1hMpjyVSUpkFuB4LQNgrl&id=61594716405964",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid04Gthd2mDKvk36ypdxfpb6wU3yAKvycJAfaHC7qyjaBJRPC18bPjFGoBoweiaVf2vl&id=61595036942289",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRB61XGlu3/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeToGayjS0m/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeUTxH0jZ5u/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DeUh7z_DvU_/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUuXjPEd_R/",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/61591964083308/posts/122109914649398802/",
+          "routingExcluded": true
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/p/DbgEDzmnDcY/",
+          "routingExcluded": true
+        }
+      ]
+    },
     "monopol": {
       "before": "2a86a2aa0f888818ef26541721bccf8edb57f2bce775f021028e932e6cbc6263",
       "after": "354edad4ff4fe728813ff958165b7acfca55844d80608371e86eff84ba31bfa9",
@@ -1834,6 +2087,82 @@
         {
           "platform": "facebook",
           "url": "https://www.facebook.com/61591964083308/posts/122108682867398802/"
+        }
+      ]
+    },
+    "most-piaskowy": {
+      "before": "fbb15758927449dc800094252aa112b5dae8711a68b2198801a94a56a0448ab9",
+      "after": "c12e71397ad851a52ab28bb8e857dea1495e0a6b444c6c306e883876c6a0e8fe",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116780977506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:36:42.648326+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/61595036942289/posts/122100642099501231/",
+          "verifiedAt": "2026-10-22T06:21:00.054Z",
+          "accountId": "61595036942289",
+          "postId": "122100642099501231"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/61594716405964/posts/122110698513490546/",
+          "verifiedAt": "2026-10-22T06:20:55.562Z",
+          "accountId": "61594716405964",
+          "postId": "122110698513490546"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMtaw6FNEj/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/61595239823399/posts/122096998251507994/",
+          "verifiedAt": "2026-10-22T06:20:51.213Z",
+          "accountId": "61595239823399",
+          "postId": "122096998251507994"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122098242135506922/",
+          "verifiedAt": "2026-10-22T06:21:04.434Z",
+          "accountId": "61595207664875",
+          "postId": "122098242135506922"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRUFoLje9C/",
+          "verifiedAt": "2026-10-09T10:40:30.236Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeT0u0DDfS7/",
+          "verifiedAt": "2026-10-10T10:04:06.675Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeUNep6CQfA/",
+          "verifiedAt": "2026-10-10T13:40:24.682Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvBasEVvu/",
+          "verifiedAt": "2026-10-10T18:33:14.693Z"
         }
       ]
     },
