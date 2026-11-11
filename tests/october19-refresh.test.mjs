@@ -1,3 +1,4 @@
+import {expectedHeCurrent79Url} from './he-current79-historical-baseline.mjs';
 import {expectedPolishSocialUrl} from './polish-rich-posts-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
 import {historicalPlaceIds} from './historical-catalog-scope.mjs';
@@ -31,7 +32,7 @@ test('Approved social permalinks connect only to their canonical place or Nadodr
  const links=json('data/october19-verified-social-connections.json');assert.equal(links.length,41);
  const area=window.WROC_EXPERIENCE_CATALOG.getExperience('street-art-nadodrze-olbin');
  for(const row of links){if(row.mapPointId){assert.equal(row.mapPointId,'nadodrze');assert.ok(area.mapPoints.find(p=>p.id==='nadodrze').social.some(p=>p.url===row.url));assert.ok(!area.mapPoints.find(p=>p.id==='olbin').social?.some(p=>p.url===row.url));}else assert.equal(catalog.getSocialPost(catalog.getPlace(row.canonicalId),row.platform,row.language)?.url,expectedPolishSocialUrl(row.canonicalId,row.platform,row.language,row.url),row.key);}
- assert.equal(catalog.getSocialPost(catalog.getPlace('math-tower'),'facebook','he'),null);
+ assert.equal(catalog.getSocialPost(catalog.getPlace('math-tower'),'facebook','he')?.url||null,expectedHeCurrent79Url('math-tower','facebook','he',null));
 });
 
 test('October 19 news edition and canonical event updates survive enrichment',()=>{
