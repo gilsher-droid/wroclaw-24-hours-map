@@ -21,5 +21,7 @@ test('Two user-approved illustrations preserve every prior identity and all 344 
   for(const lang of ['he','en','pl','de','cs'])assert.ok(m.alt[lang]);
   assert.deepEqual([...w.WROC_LOCATION_MEDIA[id].gallery],[...p.media.photos]);
  }
+ const bridge=w.WROC_LIFESTYLE_PLACES.find(p=>p.id==='the-bridge');
+ assert.deepEqual([...w.WROC_LOCATION_MEDIA[bridge.mediaKey].gallery],[...w.WROC_CATALOG.getPlace('the-bridge').media.photos]);
  assert.equal(w.WROC_CATALOG.getPlace('new-horizons-cinema').media.metadata[w.WROC_CATALOG.getPlace('new-horizons-cinema').media.photos[0]].printedSourceCredit,'Marcin Biodrowski');
 });
