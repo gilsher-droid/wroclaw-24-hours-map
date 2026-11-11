@@ -1,0 +1,66 @@
+{
+  "charlotte": {
+    "before": "ec440e5136814039447de741d762912fea85b95fe2f148310049e3db6481355b",
+    "after": "2df0319f9cbc06758db02ffdbe71fabb43998473832507fde8ab8295af7d065c",
+    "urls": {
+      "facebook": "https://www.facebook.com/61591964083308/posts/122131949847398802/",
+      "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZqawHkV1-/"
+    }
+  },
+  "magnolia": {
+    "before": "011d035cd9f3c4f04e64d59a380ef5d02ebafb34704d75166fc3843ef4bed50d",
+    "after": "f2555f90cc4d1cccdd84dcfff57f2c56e31d78fe633097d04d8d1480de063d18",
+    "urls": {
+      "facebook": "https://www.facebook.com/61591964083308/posts/122131958439398802/",
+      "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZpXQbkeYQ/"
+    }
+  },
+  "herbal": {
+    "before": "21b388a2ee6c64477a230a653905554e6718fc724501fdf8a00a7b78a7284e04",
+    "after": "35a685fda1c923f3d767c472a35338fa31489b1c234fb63cbf0f0e4fbc149e18",
+    "urls": {
+      "facebook": "https://www.facebook.com/61591964083308/posts/122131951893398802/",
+      "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZe25jj-V8/"
+    }
+  },
+  "doubletree": {
+    "before": "390488561d2822997da40aa4f61fefa4d8ce05ae60a59976721da6acc9524174",
+    "after": "188db4dfa6a83185f09d5476be99c5f20920acfe68128081280a543b31003175",
+    "urls": {
+      "facebook": "https://www.facebook.com/61591964083308/posts/122131950207398802/",
+      "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZd5YsG7h2/"
+    }
+  },
+  "bar-mis": {
+    "before": "3ccd7c336e3a8af8834775a5d580b2db4048f38c7d436241f66c602f3e97f598",
+    "after": "4c03b12113c7311a7fe48acae30f8912c19c39bbf4b29f9304727f452f869a8c",
+    "urls": {
+      "facebook": "https://www.facebook.com/61591964083308/posts/122131943487398802/",
+      "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZaVwMDptt/"
+    }
+  },
+  "aula": {
+    "before": "5d671dff7f5e1bb4c27c43dc3be0a1e0ceaac0f695603a6fa3b5b9f5cbbb5c0a",
+    "after": "bce26185568fe013e654469081d9d049a0cbe3e5b9007cc9399e1ccdffcf482c",
+    "urls": {
+      "facebook": "https://www.facebook.com/61591964083308/posts/122131942641398802/",
+      "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZZ4NAjoZe/"
+    }
+  },
+  "art-hotel": {
+    "before": "64c5d0be96bb7e3edfe4cdb1cc9aceba0353630b666c51b67d13b406270c42b1",
+    "after": "88c81c5b7289d884467c9a6d32ad0d05688e9b0a2fc25571125e20943020c381",
+    "urls": {
+      "facebook": "https://www.facebook.com/61591964083308/posts/122131941921398802/",
+      "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZZZYjjyqM/"
+    }
+  },
+  "bastion": {
+    "before": "0f6c28ac91d55aba21decda4b297a017fc1c6ee8c26d4154795a82a3ae0da07d",
+    "after": "3c4037cc7d2e948e6d1833515024b09298d47f068326e76981ed6f03c3cc87e3",
+    "urls": {
+      "facebook": "https://www.facebook.com/61591964083308/posts/122131939455398802/",
+      "instagram": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DfZX0ecjYs-/"
+    }
+  }
+}
