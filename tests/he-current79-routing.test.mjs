@@ -1,8 +1,9 @@
+import{expectedHe116Url}from'./he-consolidated116-historical-baseline.mjs';
 import test from'node:test';import assert from'node:assert/strict';import{readFileSync}from'node:fs';import{runInNewContext}from'node:vm';import{createHash}from'node:crypto';import{beforeHeCurrent79Routing,heCurrent79Fixture as fixture}from'./he-current79-historical-baseline.mjs';
 const w={};runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window:w});const c=w.WROC_CATALOG,hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 test('88 current Hebrew written/photo candidates resolve exactly, with only 34 promoted selections and preserved prior eight pairs',()=>{
  assert.equal(fixture.candidates.length,88);assert.equal(fixture.candidates.filter(r=>r.changeRequired).length,34);
- for(const r of fixture.candidates){assert.equal(c.getSocialPost(r.id,r.platform,'he')?.url,r.url,r.id+':'+r.platform);assert.equal(c.socialPostKind(r.url,r.platform),'post-candidate');}
+ for(const r of fixture.candidates){assert.equal(c.getSocialPost(r.id,r.platform,'he')?.url,expectedHe116Url(r.id,r.platform,'he',r.url),r.id+':'+r.platform);assert.equal(c.socialPostKind(r.url,r.platform),'post-candidate');}
  for(const id of['charlotte','magnolia','herbal','doubletree','bar-mis','aula','art-hotel','bastion'])assert.ok(!fixture.changed[id],id+' prior PR550 pair untouched');
 });
 test('346 identities and all non-social fields are preserved; only exact reviewed social arrays project to historical records',()=>{
