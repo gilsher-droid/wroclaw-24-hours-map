@@ -1,5 +1,20 @@
 import test from'node:test';import assert from'node:assert/strict';import{readFileSync}from'node:fs';import{runInNewContext}from'node:vm';
+import {beforePolishRichPosts} from './polish-rich-posts-historical-baseline.mjs';
 const window={};runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window,console});const c=window.WROC_CATALOG;
+test('The New Cemetery routes only to its accepted Polish post and its historical exception rejects altered links',()=>{
+ const id='new-jewish-cemetery-wroclaw',place=c.getPlace(id);
+ const url='https://www.facebook.com/61595207664875/posts/122118113805506922/';
+ assert.equal(c.getSocialPost(id,'facebook','pl')?.url,url);
+ assert.notEqual(c.getSocialPost('old-jewish-cemetery-wroclaw','facebook','pl')?.url,url);
+ for(const lang of['he','en','de','cs'])assert.equal(c.getSocialPost(id,'facebook',lang),null);
+ assert.equal(c.getSocialPost(id,'instagram','pl'),null);
+ const historical=beforePolishRichPosts(place);
+ assert.equal(historical.socialPosts.length,0);
+ assert.equal(historical.media,place.media);
+ assert.equal(historical.location,place.location);
+ const changed={...place,socialPosts:place.socialPosts.map(post=>({...post,url:'https://www.facebook.com/61595207664875/posts/999/'}))};
+ assert.throws(()=>beforePolishRichPosts(changed));
+});
 test('Generic account actions disappear; reviewed rich Polish posts replace historical targets while evidence survives',()=>{
  const rows=JSON.parse(readFileSync('data/social-post-policy-existing-candidates-20261022.json'));let kept=0,hidden=0;
  const rich=new Map(JSON.parse(readFileSync('tests/fixtures/polish-rich-posts-20261110.json')).map(row=>[row.canonicalId,row.url]));

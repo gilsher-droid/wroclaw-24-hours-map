@@ -52253,7 +52253,16 @@
         }
       }
     },
-    "socialPosts": []
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/61595207664875/posts/122118113805506922/",
+        "verifiedAt": "2026-11-11T08:08:07.331Z",
+        "context": "verified-rich-place-photo-gallery",
+        "account": "61595207664875"
+      }
+    ]
   },
   "nfm": {
     "id": "nfm",
