@@ -136,7 +136,7 @@
   }
 
   function actionHtml(place) {
-    const media = place.mediaKey ? resources[place.mediaKey] : null;
+    const media = resources[place.mediaKey || place.canonicalPlaceId || place.id] || null;
     const actions = [`<a href="${googleUrl(place)}" target="_blank" rel="noopener"><span class="brand-icon media">↗</span>${tr("navigate")}</a>`];
     const localizedPost = window.WROC_CATALOG?.getSocialPost?.(place.canonicalPlace, "facebook", language)?.url;
     if (localizedPost) actions.push(`<a href="${localizedPost}" target="_blank" rel="noopener"><span class="brand-icon facebook">f</span>${tr("readPost")}</a>`);
@@ -241,7 +241,7 @@
 
   function openMedia(placeId, type) {
     const place = places.find((item) => item.id === placeId) || freeWaterOverlayPlaces.find((item) => item.id === placeId);
-    const media = place?.mediaKey ? resources[place.mediaKey] : null;
+    const media = place ? resources[place.mediaKey || place.canonicalPlaceId || place.id] || null : null;
     if (!place || !media) return;
     const modal = document.getElementById("media-modal");
     document.getElementById("media-title").textContent = placeName(place);

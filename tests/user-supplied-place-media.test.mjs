@@ -22,6 +22,8 @@ test('Two user-approved illustrations preserve every prior identity and all 344 
   assert.deepEqual([...w.WROC_LOCATION_MEDIA[id].gallery],[...p.media.photos]);
  }
  const bridge=w.WROC_LIFESTYLE_PLACES.find(p=>p.id==='the-bridge');
- assert.deepEqual([...w.WROC_LOCATION_MEDIA[bridge.mediaKey].gallery],[...w.WROC_CATALOG.getPlace('the-bridge').media.photos]);
+ const renderer=readFileSync('lifestyle.js','utf8'),start=renderer.indexOf('  function actionHtml('),end=renderer.indexOf('  function ',start+10);
+ const html=runInNewContext(renderer.slice(start,end)+'actionHtml(place)',{window:w,resources:w.WROC_LOCATION_MEDIA,place:bridge,language:'pl',googleUrl:()=>"https://maps.google.com/",tr:key=>key,escapeHtml:value=>value});
+ assert.ok(html.includes('data-gallery="the-bridge"'),'The real card renderer exposes the canonical gallery even without a legacy mediaKey');
  assert.equal(w.WROC_CATALOG.getPlace('new-horizons-cinema').media.metadata[w.WROC_CATALOG.getPlace('new-horizons-cinema').media.photos[0]].printedSourceCredit,'Marcin Biodrowski');
 });
