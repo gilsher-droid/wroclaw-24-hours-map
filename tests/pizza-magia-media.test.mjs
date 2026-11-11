@@ -1,3 +1,4 @@
+import {beforeHeCurrent79Routing} from './he-current79-historical-baseline.mjs';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -36,7 +37,7 @@ test('Pizza Si and Czarna Magia expose one localized Lifestyle point with curate
       }
       assert.ok(selection.excluded.some(p => /personal/.test(p.reason)));
     }
-    const pizza = window.WROC_CATALOG.getPlace('pizza-si');
+    const pizza = beforeHeCurrent79Routing(window.WROC_CATALOG.getPlace('pizza-si'));
     assert.ok(pizza.socialPosts.some(p => p.platform === 'facebook'));
     assert.equal(pizza.socialPosts.filter(p => p.platform === 'facebook' && p.language).length, 3);
     assert.equal(pizza.socialPosts.filter(p => p.platform === 'instagram').length, 0);

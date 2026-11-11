@@ -1,3 +1,4 @@
+import {beforeHeCurrent79Routing,expectedHeCurrent79Url} from './he-current79-historical-baseline.mjs';
 import {beforeHeWrittenPhotoPosts,heWrittenPhotoSignatures} from './he-written-photo-historical-baseline.mjs';
 // Old preservation receipts predate the separately verified Polish social bindings.
 // Only the exact accepted social-array delta is projected; every other field remains.
@@ -14,13 +15,14 @@ const signatures={
 const acceptedContexts=new Set(['verified-rich-place-gallery','verified-rich-place-photo-gallery']);
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 export function expectedPolishSocialUrl(id,platform,language,historical){
+ const currentHE=expectedHeCurrent79Url(id,platform,language,historical);if(currentHE!==historical)return currentHE;
  if(language==='he'&&heWrittenPhotoSignatures[id]?.urls[platform])return heWrittenPhotoSignatures[id].urls[platform];
  if(id==='chatka'&&platform==='instagram'&&language==='pl')return null;
  if(signatures[id]?.urls?.[`${platform}:${language}`])return signatures[id].urls[`${platform}:${language}`];
  return platform==='facebook'&&language==='pl'&&signatures[id]?signatures[id].url:historical;
 }
 export function beforePolishRichPosts(value){
- value=beforeApprovedPlaceMedia(beforeHeWrittenPhotoPosts(value));
+ value=beforeApprovedPlaceMedia(beforeHeWrittenPhotoPosts(beforeHeCurrent79Routing(value)));
  const added=value?.socialPosts?.filter(post=>acceptedContexts.has(post.context))||[];
  if(!added.length)return value;
  const signature=signatures[value.id];
