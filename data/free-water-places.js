@@ -32,6 +32,15 @@
     "ibis-styles-wroclaw-centrum": "מלון עירוני מול תחנת הרכבת המרכזית ההיסטורית, כך שאפשר לשלב לינה ליד הרכבת עם יציאה להיכרות עם ורוצלב. בחדרים יש חלונות פנורמיים. לפני הזמנה בדקו את סוג החדר, התנאים והמחיר העדכניים באתר המלון.\nibis Styles Wrocław Centrum\nPl. Konstytucji 3 Maja 3, Wrocław"
   };
 
+  // Venue websites are distinct from the retained water programme sources.
+  const hospitalityOfficialWebsites = {
+    "bernard-bistro-wino": "https://restauracja.bernard.wroclaw.pl/bistro",
+    "bistro-stu-mostow": "https://100mostow.pl/about-us/",
+    "browar-stu-mostow": "https://100mostow.pl/pub/",
+    "concept-stu-mostow": "https://www.concept.100mostow.pl/concept-stu-mostow",
+    "ibis-styles-wroclaw-centrum": "https://all.accor.com/hotel/9347/index.en.shtml"
+  };
+
   const hospitality = (id, localName, lat, lng, categories = ["eat", "drink"]) => ({
     id,
     aliases: [],
@@ -42,7 +51,7 @@
     categories,
     placeType: "hospitality",
     amenities: { freeTapWater: true },
-    links: { website: partnerPage },
+    links: { website: hospitalityOfficialWebsites[id] || partnerPage },
     provenance: {
       contentType: "official-programme",
       factualSources: [

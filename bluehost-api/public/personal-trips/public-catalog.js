@@ -5077,7 +5077,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "website": "https://restauracja.bernard.wroclaw.pl/bistro",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
@@ -6171,7 +6171,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "website": "https://100mostow.pl/about-us/",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
@@ -9497,7 +9497,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "website": "https://100mostow.pl/pub/",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
@@ -16323,7 +16323,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "website": "https://www.concept.100mostow.pl/concept-stu-mostow",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
@@ -32310,7 +32310,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": "https://pijkranowke.pl/pijkranowke-we-wroclawiu/",
+      "website": "https://all.accor.com/hotel/9347/index.en.shtml",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
