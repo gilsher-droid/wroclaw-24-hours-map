@@ -312,13 +312,14 @@ test("Hala Stulecia social links stay on its canonical place and shared resource
   );
   assert.equal(
     place.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url,
-    "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/",
+    "https://www.instagram.com/wroclaw.lowersilesia.he/p/DekBQUfG1Yu/",
   );
 
+  assert.ok(place.socialPosts.some(post => post.url === "https://www.instagram.com/wroclaw.lowersilesia/p/DcTdbhVjM1Y/"), "original cross-account URL remains historical evidence");
   const halaStop = window.PREMIUM_STOPS.find((stop) => stop.id === "hala");
   assert.equal(halaStop?.canonicalPlaceId, "hala");
   const resources = window.WROC_LOCATION_MEDIA.hala;
   assert.equal(resources.facebook, place.socialPosts.find((post) => post.platform === "facebook" && (!post.language || post.language === "he"))?.url);
-  assert.equal(resources.instagram, undefined);
+  assert.equal(resources.instagram, "https://www.instagram.com/wroclaw.lowersilesia.he/p/DekBQUfG1Yu/");
   assert.equal(resources.instagram, window.WROC_CATALOG.getSocialPost(place, "instagram", "he")?.url);
 });

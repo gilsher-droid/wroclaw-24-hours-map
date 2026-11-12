@@ -30475,6 +30475,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DekBQUfG1Yu/",
+        "verifiedAt": "2026-11-12",
+        "context": "verified-he-qualified-routing-20261112",
+        "mediaCoverageQualification": "Existing image post and venue photo verified; short caption substantive enrichment remains pending; basic routing only."
+      },
+      {
         "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116613679506922/",
@@ -55365,6 +55373,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeZuEj-CJeX/",
+        "verifiedAt": "2026-11-12",
+        "context": "verified-he-qualified-routing-20261112",
+        "mediaCoverageQualification": "Existing image post and venue photo verified; short caption substantive enrichment remains pending; basic routing only."
+      },
       {
         "platform": "facebook",
         "language": "pl",
