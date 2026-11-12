@@ -23,12 +23,21 @@
     "Podnik zapojený do programu MPWiK #PijKranówkę, který nabízí kohoutkovou vodu zdarma.",
   );
 
+  // Exact venue descriptions; programme amenities and provenance remain below.
+  const hospitalityHebrewDescriptions = {
+    "bernard-bistro-wino": "ביסטרו ויין בכיכר השוק, עם מנות עונתיות וצלחות לחלוקה. ברשימת היינות יש גם יצרנים מפולין. אפשר לשלב עצירה במהלך הליכה בעיר העתיקה; בדקו תפריט ושעות לפני הביקור.\nBernard Bistro Wino\nRynek 36/37, Wrocław",
+    "bistro-stu-mostow": "הביסטרו של סטו מוסטוב במרכז ורוצלב משלב בירה מקומית עם מנות עונתיות. זהו הסניף ברחוב שווידניצקה, בנפרד מהמבשלה ומהטאפרום שבמתחם דלוגושה. בדקו שעות ותפריט לפני הביקור.\nBistro Stu Mostów\nŚwidnicka 4, Wrocław",
+    "browar-stu-mostow": "מבשלה מקומית במתחם דלוגושה, עם טאפרום שבו הבר והשולחנות נמצאים בגלריה המשקיפה אל אזור ייצור הבירה. המקום מאפשר להכיר בירה של המבשלה לצד אוכל. קונספט הסמוך הוא נקודה נפרדת במפה; בדקו שעות ותפריט לפני ההגעה.\nBrowar Stu Mostów\nJana Długosza 2, Wrocław",
+    "concept-stu-mostow": "ביסטרו, מאפייה ומעדנייה במתחם של סטו מוסטוב בדלוגושה, עם לחם, ארוחות ומוצרים מקומיים לצד בירות המבשלה. קונספט והמבשלה חולקים מתחם, אך מייצגים שתי עצירות שונות במפה. בדקו תפריט ושעות לפני הביקור.\nConcept Stu Mostów\nJana Długosza 2, Wrocław",
+    "ibis-styles-wroclaw-centrum": "מלון עירוני מול תחנת הרכבת המרכזית ההיסטורית, כך שאפשר לשלב לינה ליד הרכבת עם יציאה להיכרות עם ורוצלב. בחדרים יש חלונות פנורמיים. לפני הזמנה בדקו את סוג החדר, התנאים והמחיר העדכניים באתר המלון.\nibis Styles Wrocław Centrum\nPl. Konstytucji 3 Maja 3, Wrocław"
+  };
+
   const hospitality = (id, localName, lat, lng, categories = ["eat", "drink"]) => ({
     id,
     aliases: [],
     localName,
     name: sameName(localName),
-    description: hospitalityDescription,
+    description: { ...hospitalityDescription, he: hospitalityHebrewDescriptions[id] || hospitalityDescription.he },
     location: wroclawLocation(lat, lng),
     categories,
     placeType: "hospitality",

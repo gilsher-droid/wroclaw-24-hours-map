@@ -5023,7 +5023,7 @@
       "cs": "Bernard Bistro Wino"
     },
     "description": {
-      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "he": "ביסטרו ויין בכיכר השוק, עם מנות עונתיות וצלחות לחלוקה. ברשימת היינות יש גם יצרנים מפולין. אפשר לשלב עצירה במהלך הליכה בעיר העתיקה; בדקו תפריט ושעות לפני הביקור.\nBernard Bistro Wino\nRynek 36/37, Wrocław",
       "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
       "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
       "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
@@ -6117,7 +6117,7 @@
       "cs": "Bistro Stu Mostów"
     },
     "description": {
-      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "he": "הביסטרו של סטו מוסטוב במרכז ורוצלב משלב בירה מקומית עם מנות עונתיות. זהו הסניף ברחוב שווידניצקה, בנפרד מהמבשלה ומהטאפרום שבמתחם דלוגושה. בדקו שעות ותפריט לפני הביקור.\nBistro Stu Mostów\nŚwidnicka 4, Wrocław",
       "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
       "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
       "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
@@ -9445,7 +9445,7 @@
       "cs": "Browar Stu Mostów"
     },
     "description": {
-      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "he": "מבשלה מקומית במתחם דלוגושה, עם טאפרום שבו הבר והשולחנות נמצאים בגלריה המשקיפה אל אזור ייצור הבירה. המקום מאפשר להכיר בירה של המבשלה לצד אוכל. קונספט הסמוך הוא נקודה נפרדת במפה; בדקו שעות ותפריט לפני ההגעה.\nBrowar Stu Mostów\nJana Długosza 2, Wrocław",
       "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
       "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
       "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
@@ -16269,7 +16269,7 @@
       "cs": "Concept Stu Mostów"
     },
     "description": {
-      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "he": "ביסטרו, מאפייה ומעדנייה במתחם של סטו מוסטוב בדלוגושה, עם לחם, ארוחות ומוצרים מקומיים לצד בירות המבשלה. קונספט והמבשלה חולקים מתחם, אך מייצגים שתי עצירות שונות במפה. בדקו תפריט ושעות לפני הביקור.\nConcept Stu Mostów\nJana Długosza 2, Wrocław",
       "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
       "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
       "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
@@ -32254,7 +32254,7 @@
       "cs": "ibis Styles Wrocław Centrum"
     },
     "description": {
-      "he": "בית עסק המשתתף בתוכנית ‎#PijKranówkę של MPWiK ומגיש מי ברז ללא תשלום.",
+      "he": "מלון עירוני מול תחנת הרכבת המרכזית ההיסטורית, כך שאפשר לשלב לינה ליד הרכבת עם יציאה להיכרות עם ורוצלב. בחדרים יש חלונות פנורמיים. לפני הזמנה בדקו את סוג החדר, התנאים והמחיר העדכניים באתר המלון.\nibis Styles Wrocław Centrum\nPl. Konstytucji 3 Maja 3, Wrocław",
       "en": "A hospitality venue participating in MPWiK's #PijKranówkę programme and serving free tap water.",
       "pl": "Lokal uczestniczący w programie MPWiK #PijKranówkę i serwujący bezpłatną wodę z kranu.",
       "de": "Ein Gastronomiebetrieb im MPWiK-Programm #PijKranówkę, der kostenloses Leitungswasser anbietet.",
