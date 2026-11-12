@@ -12716,6 +12716,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0RgrFm4K73W4Lc3wythZKa1ExgyhNEg9VF2EdcWCrZebJcG7VwwKcvrHrjWAhhEtxl&id=61591964083308",
+        "verifiedAt": "2026-11-12",
+        "context": "verified-he-three-fb-routing-20261112",
+        "mediaCoverageQualification": "Root accepted native Public written post and exact human-approved photo set; original observed permalink retained."
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0217xsxLgYsjwnafJVD7RdQW9rXWEN9gbjoDTGgQqH5o412MvwYD4P7YjJiomqWeN2l&id=61594716405964",
         "verifiedAt": "2026-10-07"
@@ -21560,6 +21568,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0j91VbPCMB6KMYPE1MQu4qF2FAXSo7NkXD6Cm1p85VFfnpDPF3nPyyginxemE1Nmrl&id=61591964083308",
+        "verifiedAt": "2026-11-12",
+        "context": "verified-he-three-fb-routing-20261112",
+        "mediaCoverageQualification": "Root accepted native Public written post and exact human-approved photo set; original observed permalink retained."
+      },
       {
         "platform": "facebook",
         "language": "en",
@@ -95835,6 +95851,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0ovwzqAzmsmYTYdZtmzYvoE8hmVUVPcUtVbJaGQvedkr9Fuv1PRFbEA71p7LQwstPl&id=61591964083308",
+        "verifiedAt": "2026-11-12",
+        "context": "verified-he-three-fb-routing-20261112",
+        "mediaCoverageQualification": "Root accepted native Public written post and exact human-approved photo set; original observed permalink retained."
+      },
       {
         "platform": "facebook",
         "language": "pl",
