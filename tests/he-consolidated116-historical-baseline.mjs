@@ -1,3 +1,4 @@
+import{restoredPapaFBURL}from'./papa-he-fb-restoration-historical-baseline.mjs';
 import{beforeHe125Routing,expectedHe125Url}from'./he-qualified125-historical-baseline.mjs';
 import{readFileSync}from'node:fs';import{createHash}from'node:crypto';import assert from'node:assert/strict';
 export const he116Fixture=JSON.parse(readFileSync('tests/fixtures/he-consolidated116-routing-20261111.json'));
@@ -14,6 +15,7 @@ export function beforeHe116Routing(place){
 }
 export function expectedHe116Url(id,platform,language,historical){
  if(language!=='he')return historical;
+ if(id==='papa'&&platform==='facebook')return restoredPapaFBURL;
  if(he116Fixture.negativeControls.some(r=>r.id===id&&r.platform===platform))return null;
  return expectedHe125Url(id,platform,language,he116Fixture.candidates.find(r=>r.id===id&&r.platform===platform)?.url||historical);
 }
