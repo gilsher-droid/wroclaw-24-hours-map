@@ -1,3 +1,4 @@
+import {beforeNov15NextFourBindings} from './next-four-social-bindings-nov15-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -23,7 +24,7 @@ test('Three subsequent verified posts resolve only for the exact place, language
 test('All343 unrelated records and every non-social field of the three affected places remain unchanged', () => {
   assert.equal(Object.keys(catalog.places).length, 346);
   assert.equal(Object.keys(proof.unrelatedRecordHashes).length, 343);
-  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(catalog.getPlace(id)), expected, id);
+  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov15NextFourBindings(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
     const place = catalog.getPlace(id);
     assert.equal(hash(Object.fromEntries(Object.entries(place).filter(([key]) => key !== 'socialPosts'))), expected.beforeNonSocialHash, id);
