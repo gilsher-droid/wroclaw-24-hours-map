@@ -1,3 +1,4 @@
+import {beforeCafeTargowaSnapshot} from './cafe-targowa-visit-photos-historical-baseline.mjs';
 import {beforeBridgesNorthSnapshot,beforeBridgesNorthSource} from './bridges-north-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -17,7 +18,7 @@ function load(extra = []) {
   for (const file of ['data/place-catalog.js', 'data/canonical-experiences.js', ...extra]) {
     runInNewContext(readFileSync(file, 'utf8'), {window});
   }
-  return beforeBridgesNorthSnapshot(window);
+  return beforeBridgesNorthSnapshot(beforeCafeTargowaSnapshot(window));
 }
 
 test('Six separate additions preserve309 other records and the approved fields of3enrichments, aliases, excursions and video hosting', () => {

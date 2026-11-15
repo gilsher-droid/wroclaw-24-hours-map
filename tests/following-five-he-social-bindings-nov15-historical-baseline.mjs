@@ -1,3 +1,4 @@
+import {beforeCafeTargowaRecord} from './cafe-targowa-visit-photos-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -7,6 +8,7 @@ const hash = value => createHash('sha256').update(JSON.stringify(value)).digest(
 
 // Project only the exact five reviewed social arrays for older preservation receipts.
 export function beforeNov15FollowingFiveHeBindings(place) {
+  place = beforeCafeTargowaRecord(place);
   const proof = followingFiveHeNov15Bindings.changed[place?.id];
   if (!proof || hash(place.socialPosts) === proof.beforeSocialHash) return place;
   if (!place.socialPosts?.some(post => post.context === followingFiveHeNov15Bindings.context)) return place;

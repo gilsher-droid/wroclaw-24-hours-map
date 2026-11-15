@@ -493,3 +493,60 @@ const updates={
 for(const item of additions){if(window.WROC_FREE_WATER_PLACE_SOURCE.some(p=>p.id===item.id))throw Error("Duplicate dining place "+item.id);window.WROC_FREE_WATER_PLACE_SOURCE.push(item);}
 for(const [id,item] of Object.entries(updates)){const index=window.WROC_FREE_WATER_PLACE_SOURCE.findIndex(p=>p.id===id);if(index<0)throw Error("Missing existing dining place "+id);window.WROC_FREE_WATER_PLACE_SOURCE[index]=enrich(window.WROC_FREE_WATER_PLACE_SOURCE[index],item);}
 })();
+
+// User-selected visit photos 2, 14 and 15 also belong to the existing café.
+(function () {
+  const cafe = window.WROC_FREE_WATER_PLACE_SOURCE.find(place => place.id === "cafe-targowa");
+  const additions = {
+  "/assets/round24h-20261022/hala-targowa-00.jpg": {
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/56E70E68-B8E9-4D01-B2C6-7CE10DF79674.jpg",
+    "sourceSHA256": "90614f038871c4f0777955d7cb06a370f5a163400e6a7a534dca5ed0354fce92",
+    "assetSHA256": "1c4bf535a07090927133f904875134a9b1a68a72ae04d5686aca13e2c3f736d7",
+    "originalFullPicturePreserved": true,
+    "alt": {
+      "he": "כוס קפה מהביקור בשוק",
+      "en": "Coffee during the market visit",
+      "pl": "Kawa podczas wizyty w hali",
+      "de": "Kaffee beim Marktbesuch",
+      "cs": "Káva při návštěvě tržnice"
+    },
+    "canonicalPhotoAssociation": "User-selected market visit photo also assigned to Cafe Targowa on 2026-11-15",
+    "selectionEvidence": "data/cafe-targowa-visit-photos-preservation-nov15.json"
+  },
+  "/assets/round24h-20261022/hala-targowa-13.jpg": {
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4040.JPG",
+    "sourceSHA256": "2220e826e74cfb3c3930f0493bab1ccade12e78f98154a910b034a07d10f6bf4",
+    "assetSHA256": "ac7bfe94f031e70611260484ab35cba4d621b556343937b20493ce3088a63279",
+    "originalFullPicturePreserved": true,
+    "alt": {
+      "he": "בית קפה בתוך השוק",
+      "en": "Café inside the market",
+      "pl": "Kawiarnia w hali",
+      "de": "Café in der Markthalle",
+      "cs": "Kavárna uvnitř tržnice"
+    },
+    "canonicalPhotoAssociation": "User-selected market visit photo also assigned to Cafe Targowa on 2026-11-15",
+    "selectionEvidence": "data/cafe-targowa-visit-photos-preservation-nov15.json"
+  },
+  "/assets/round24h-20261022/hala-targowa-14.jpg": {
+    "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4042.JPG",
+    "sourceSHA256": "8b68923d51bf8eab698285ccbc38d1030dfdc60a2c4a28cfa42d712bd3342af9",
+    "assetSHA256": "18006b09fcfd94a08aa3038109a9e4363f5e663679f7da89163f09c7730348e5",
+    "originalFullPicturePreserved": true,
+    "alt": {
+      "he": "שולחנות בית קפה בשוק",
+      "en": "Café tables in the market",
+      "pl": "Stoliki kawiarni w hali",
+      "de": "Cafétische in der Markthalle",
+      "cs": "Stolky kavárny v tržnici"
+    },
+    "canonicalPhotoAssociation": "User-selected market visit photo also assigned to Cafe Targowa on 2026-11-15",
+    "selectionEvidence": "data/cafe-targowa-visit-photos-preservation-nov15.json"
+  }
+};
+  for (const [src, metadata] of Object.entries(additions)) {
+    if (cafe.media.photos.includes(src)) throw new Error("Duplicate Cafe Targowa photo");
+    cafe.media.photos.push(src);
+    cafe.media.metadata[src] = metadata;
+  }
+})();

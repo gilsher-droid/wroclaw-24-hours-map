@@ -169,6 +169,9 @@
 
   for(const p of window.WROC_LIFESTYLE_PLACES)if(["zenka","jolie-kurzy-targ","lodziarnia-roma"].includes(p.id))p.mediaKey=p.id;
 
+  // The café uses the existing canonical market-hall identity and shared gallery.
+  window.WROC_LIFESTYLE_PLACES.push({id:"cafe-targowa",categories:["eat","drink"],coordinates:[51.1124915,17.0408014],mediaKey:"cafe-targowa"});
+
   if (window.WROC_CATALOG?.registerProduct) {
     const registered = window.WROC_CATALOG.registerProduct({
       id: "lifestyle-guide",
