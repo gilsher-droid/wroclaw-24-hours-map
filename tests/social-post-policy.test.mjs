@@ -18,13 +18,13 @@ test('The New Cemetery routes only to its accepted Polish post and its historica
 test('Generic account actions disappear; reviewed rich Polish posts replace historical targets while evidence survives',()=>{
  const rows=JSON.parse(readFileSync('data/social-post-policy-existing-candidates-20261022.json'));let kept=0,hidden=0;
  const rich=new Map(JSON.parse(readFileSync('tests/fixtures/polish-rich-posts-20261110.json')).map(row=>[row.canonicalId,row.url]));
- for(const row of rows){const place=c.getPlace(row.canonicalId),got=c.getSocialPost(place,row.platform,row.language);if(row.kind==='post-candidate'){if(row.canonicalId==='chatka'&&row.platform==='instagram'&&row.language==='pl'){assert.equal(got,null);assert.ok(place.socialPosts.some(p=>p.url===row.url));}else{const updated=row.platform==='facebook'&&row.language==='pl'?rich.get(row.canonicalId):null;assert.equal(got?.url||null,expectedPolishSocialUrl(row.canonicalId,row.platform,row.language,updated||row.url),JSON.stringify(row));if(updated)assert.ok(place.socialPosts.some(p=>p.url===row.url),'Historical URL remains evidence');}kept++;}if(row.kind==='profile'){assert.ok(!got||c.socialPostKind(got.url,row.platform)==='post-candidate');hidden++;}}
+ for(const row of rows){const place=c.getPlace(row.canonicalId),got=c.getSocialPost(place,row.platform,row.language);if(row.kind==='post-candidate'){if(row.canonicalId==='chatka'&&row.platform==='instagram'&&row.language==='pl'){assert.equal(got?.url,'https://www.instagram.com/p/DfwFv0LipWG/');assert.ok(place.socialPosts.some(p=>p.url===row.url&&p.routingExcluded));}else{const updated=row.platform==='facebook'&&row.language==='pl'?rich.get(row.canonicalId):null;assert.equal(got?.url||null,expectedPolishSocialUrl(row.canonicalId,row.platform,row.language,updated||row.url),JSON.stringify(row));if(updated)assert.ok(place.socialPosts.some(p=>p.url===row.url),'Historical URL remains evidence');}kept++;}if(row.kind==='profile'){assert.ok(!got||c.socialPostKind(got.url,row.platform)==='post-candidate');hidden++;}}
  assert.equal(kept,848);assert.equal(hidden,781);
 });
-test('All75 accepted Polish galleries are primary written-post actions, with the removed Instagram post held',()=>{
+test('All75 accepted Polish galleries are primary written-post actions, while the removed Instagram URL remains historical evidence',()=>{
  const rows=JSON.parse(readFileSync('tests/fixtures/polish-rich-posts-20261110.json'));assert.equal(rows.length,75);
  for(const row of rows){const post=c.getSocialPost(row.canonicalId,'facebook','pl');assert.equal(post?.url,row.url);assert.equal(post.account,'61595207664875');assert.equal(c.socialPostKind(post.url,'facebook'),'post-candidate');}
- assert.equal(c.getSocialPostState('chatka','instagram','pl').state,'known-excluded');
+ assert.equal(c.getSocialPostState('chatka','instagram','pl').state,'valid-post-candidate');assert.equal(c.getSocialPost('chatka','instagram','pl').url,'https://www.instagram.com/p/DfwFv0LipWG/');
 });
 test('The shared resolver distinguishes missing, generic, excluded and matching-language specific posts without assuming pending means wrong',()=>{
  for(const lang of['he','en','pl','de','cs'])for(const platform of['facebook','instagram']){

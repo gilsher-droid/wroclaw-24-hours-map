@@ -1,3 +1,4 @@
+import{expectedNov15SocialUrl}from'./verified-social-bindings-nov15-historical-baseline.mjs';
 import {beforeHeCurrent79Routing,expectedHeCurrent79Url} from './he-current79-historical-baseline.mjs';
 import {beforeHeWrittenPhotoPosts,heWrittenPhotoSignatures} from './he-written-photo-historical-baseline.mjs';
 // Old preservation receipts predate the separately verified Polish social bindings.
@@ -15,6 +16,7 @@ const signatures={
 const acceptedContexts=new Set(['verified-rich-place-gallery','verified-rich-place-photo-gallery']);
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 export function expectedPolishSocialUrl(id,platform,language,historical){
+ const latest=expectedNov15SocialUrl(id,platform,language,historical);if(latest!==historical)return latest;
  const currentHE=expectedHeCurrent79Url(id,platform,language,historical);if(currentHE!==historical)return currentHE;
  if(language==='he'&&heWrittenPhotoSignatures[id]?.urls[platform])return heWrittenPhotoSignatures[id].urls[platform];
  if(id==='chatka'&&platform==='instagram'&&language==='pl')return null;
