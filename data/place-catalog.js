@@ -62883,6 +62883,216 @@
       }
     ]
   },
+  "polskie-jadlo-hala-targowa": {
+    "id": "polskie-jadlo-hala-targowa",
+    "localName": "Polskie Jadło",
+    "name": {
+      "he": "המילק בר באולם השוק, פולסקיה יאדוו",
+      "en": "Polskie Jadło, Market Hall milk bar",
+      "pl": "Polskie Jadło w Hali Targowej",
+      "de": "Polskie Jadło, Milchbar in der Markthalle",
+      "cs": "Polskie Jadło, mléčný bar v tržnici"
+    },
+    "description": {
+      "he": "מילק בר בתוך אולם השוק המקורה, בנפרד מבית הקפה ומהשוק כולו. שלוש תמונות הביקור מציגות את לוח התפריט, הדלפק האדום, הסכו״ם המחובר בשרשראות ושולחנות לצד חפצים מהעבר. אפשר לשלב ארוחה עם סיבוב בין הדוכנים. סיכת המפה מציינת את מבנה השוק, ולא מיקום מדויק של הדלפק בתוכו. הצילומים והמחירים שעל הלוח מתעדים ביקור קודם; בדקו שעות והיצע עדכניים לפני ההגעה.",
+      "en": "A milk bar inside Hala Targowa, separate from Cafe Targowa and the market hall itself. Three visit photographs show the menu board, red counter, chained cutlery and tables beside retro household objects. Combine a meal with browsing the market. The map pin identifies the market building, not an exact indoor counter position. Photographs and displayed prices record a past visit; check current hours and availability before coming.",
+      "pl": "Bar mleczny wewnątrz Hali Targowej, osobny od Cafe Targowa i od samej hali. Trzy fotografie z wizyty pokazują tablicę menu, czerwony blat, sztućce na łańcuchach i stoliki obok przedmiotów z minionych lat. Posiłek można połączyć z przejściem między stoiskami. Pinezka wskazuje budynek hali, nie dokładne położenie lady w środku. Zdjęcia i widoczne ceny dokumentują wcześniejszą wizytę; przed przyjściem sprawdźcie aktualne godziny i ofertę.",
+      "de": "Eine Milchbar in der Hala Targowa, getrennt vom Cafe Targowa und von der Markthalle selbst. Drei Besuchsfotos zeigen die Speisekartentafel, den roten Tresen, angekettetes Besteck und Tische neben Haushaltsgegenständen vergangener Jahrzehnte. Eine Mahlzeit lässt sich mit einem Marktrundgang verbinden. Die Kartenmarkierung bezeichnet das Marktgebäude, nicht die genaue Lage des Tresens darin. Fotos und abgebildete Preise stammen von einem früheren Besuch; aktuelle Zeiten und Angebote bitte vorab prüfen.",
+      "cs": "Mléčný bar uvnitř Haly Targowé, samostatný podnik odlišný od Cafe Targowa i od celé tržnice. Tři fotografie z návštěvy ukazují tabuli s nabídkou, červený pult, příbory na řetízcích a stolky vedle starých domácích předmětů. Jídlo lze spojit s procházkou mezi stánky. Značka označuje budovu tržnice, nikoli přesnou polohu pultu uvnitř. Snímky a viditelné ceny zachycují dřívější návštěvu; před cestou ověřte aktuální hodiny a nabídku."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1125,
+        "lng": 17.04075
+      },
+      "address": {
+        "street": "Piaskowa 17, Hala Targowa",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "eat"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [
+      {
+        "productId": "lifestyle-guide",
+        "kind": "catalog-place",
+        "sourceId": "polskie-jadlo-hala-targowa"
+      }
+    ],
+    "coordinateCandidates": [
+      {
+        "productId": "lifestyle-guide",
+        "sourceId": "polskie-jadlo-hala-targowa",
+        "lat": 51.1125,
+        "lng": 17.04075
+      }
+    ],
+    "status": "published",
+    "editorialPriority": null,
+    "taxonomy": {
+      "categories": [
+        "eat"
+      ],
+      "tags": []
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+      "navigation": {
+        "googleMaps": null,
+        "appleMaps": null
+      },
+      "socialProfileFallback": false
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "humanRequestedAt": "2026-11-15",
+      "humanPhotoNumbers": [
+        6,
+        7,
+        8
+      ],
+      "identityEvidence": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "publicationDate": "2024-05-12",
+          "verifiedAt": "2026-11-15",
+          "kind": "municipal-original-reporting",
+          "supports": [
+            "name",
+            "insideHalaTargowa",
+            "address",
+            "retroDecorAndChainedCutlery"
+          ]
+        }
+      ],
+      "coordinatesScope": "Hala Targowa building; exact indoor counter position not verified",
+      "sourcePhotosRetainedInMarketGallery": true
+    },
+    "media": {
+      "thumbnail": "/assets/round24h-20261022/hala-targowa-06.jpg",
+      "photos": [
+        "/assets/round24h-20261022/hala-targowa-05.jpg",
+        "/assets/round24h-20261022/hala-targowa-06.jpg",
+        "/assets/round24h-20261022/hala-targowa-07.jpg"
+      ],
+      "videos": [],
+      "metadata": {
+        "/assets/round24h-20261022/hala-targowa-05.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4030.JPG",
+          "sourceSHA256": "b17881486e5e5aa5b9ac045c69cbcb24eeb962f947f91347ced356f40f99685c",
+          "assetSHA256": "30e86667337d5d6211a9cc142d9f7ca643c18630f61e9f504503642489d9fa62",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "לוח תפריט שצולם בביקור",
+            "en": "Menu board photographed during the visit",
+            "pl": "Tablica menu sfotografowana podczas wizyty",
+            "de": "Beim Besuch fotografierte Speisekarte",
+            "cs": "Tabule s nabídkou fotografovaná při návštěvě"
+          },
+          "canonicalPhotoAssociation": "polskie-jadlo-hala-targowa",
+          "selectionEvidence": "data/polskie-jadlo-market-preservation-nov15.json"
+        },
+        "/assets/round24h-20261022/hala-targowa-06.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4031.JPG",
+          "sourceSHA256": "cd521dab25081a189455aee6c34bd628a5349e033e944475a0b93bc6e6cff4c6",
+          "assetSHA256": "c9cf7f62acb933488cde96e1c2d9979061b9aa6b6e845f4dbd2f9feb6cbc165c",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "מעבר בין דוכני השוק",
+            "en": "Aisle between market stalls",
+            "pl": "Przejście między stoiskami",
+            "de": "Gang zwischen den Marktständen",
+            "cs": "Ulička mezi stánky"
+          },
+          "canonicalPhotoAssociation": "polskie-jadlo-hala-targowa",
+          "selectionEvidence": "data/polskie-jadlo-market-preservation-nov15.json"
+        },
+        "/assets/round24h-20261022/hala-targowa-07.jpg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Hala Taragowa/IMG_4033.JPG",
+          "sourceSHA256": "34ab3d75971062ce3b1ae9adb72d451215af4d1e3deb402c96b1dda7cd1fb82b",
+          "assetSHA256": "e9ce15d079a7e2bf509e9c68f7a4bb54b0fef865bc0fba6cb0ec64c829bdcf2b",
+          "originalFullPicturePreserved": true,
+          "alt": {
+            "he": "דלפק ופינת ישיבה בשוק",
+            "en": "Counter and seating in the market",
+            "pl": "Lada i stoliki w hali",
+            "de": "Theke und Sitzbereich in der Halle",
+            "cs": "Pult a posezení v tržnici"
+          },
+          "canonicalPhotoAssociation": "polskie-jadlo-hala-targowa",
+          "selectionEvidence": "data/polskie-jadlo-market-preservation-nov15.json"
+        }
+      }
+    },
+    "socialPosts": [],
+    "dining": {
+      "version": 1,
+      "venueTypes": [
+        "milk-bar"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "verifiedAt": "2026-11-15",
+          "kind": "municipal-original-reporting",
+          "fields": [
+            "venueTypes.milk-bar"
+          ],
+          "claim": "Municipal original reporting identifies Polskie Jadło inside Hala Targowa in its milk-bar feature and describes chained cutlery. User selected the three matching visit photographs. No current dietary availability or price is asserted."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
+    }
+  },
   "pomiedzy-cafe-bistro-wroclaw": {
     "id": "pomiedzy-cafe-bistro-wroclaw",
     "localName": "Pomiędzy cafe&bistro",

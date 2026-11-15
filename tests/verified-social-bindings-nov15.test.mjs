@@ -1,3 +1,4 @@
+import {beforePolskieJadloSnapshot} from './polskie-jadlo-market-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -25,7 +26,7 @@ test('Five native-verified written-photo posts are preferred only in their exact
 });
 
 test('All342 other canonical records and all media, identities and coordinates of the four changed places survive', () => {
-  assert.equal(Object.keys(catalog.places).length, 346);
+  assert.equal(Object.keys(beforePolskieJadloSnapshot({WROC_CATALOG:catalog}).WROC_CATALOG.places).length,346);
   assert.equal(Object.keys(proof.unrelatedRecordHashes).length, 342);
   for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov15FollowupBindings(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {

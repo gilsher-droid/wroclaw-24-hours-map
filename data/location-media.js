@@ -448,3 +448,6 @@ Object.assign(window.WROC_LOCATION_MEDIA,{
  const jolie=window.WROC_LOCATION_MEDIA['jolie-kurzy-targ'];
  if(jolie?.gallery&&!jolie.gallery.includes(asset))jolie.gallery.push(asset);
 })();
+
+// Three owner-selected original photographs belong to the distinct Market Hall milk bar.
+window.WROC_LOCATION_MEDIA["polskie-jadlo-hala-targowa"]={gallery:["/assets/round24h-20261022/hala-targowa-05.jpg","/assets/round24h-20261022/hala-targowa-06.jpg","/assets/round24h-20261022/hala-targowa-07.jpg"],videos:[]};

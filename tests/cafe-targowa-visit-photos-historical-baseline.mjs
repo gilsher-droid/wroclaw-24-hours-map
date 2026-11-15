@@ -1,3 +1,4 @@
+import {beforePolskieJadloSnapshot} from './polskie-jadlo-market-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -26,6 +27,7 @@ export function beforeCafeTargowaGallery(value, id) {
 }
 
 export function beforeCafeTargowaSnapshot(window) {
+  beforePolskieJadloSnapshot(window);
   const catalog = window.WROC_CATALOG;
   if (catalog) {
     beforeCafeTargowaRecord(catalog.getPlace('cafe-targowa'));

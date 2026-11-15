@@ -2817,6 +2817,33 @@
         "status": "partial",
         "reason": "Venue type verified from the official site. Unverified dietary suitability remains unknown; consult the current menu and venue."
       }
+    },
+    "polskie-jadlo-hala-targowa": {
+      "version": 1,
+      "venueTypes": [
+        "milk-bar"
+      ],
+      "cuisines": [],
+      "dietary": {
+        "venue": "unknown",
+        "veganOptions": "unknown",
+        "vegetarianOptions": "unknown"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wroclaw.pl/dla-mieszkanca/gdzie-zjesc-normalny-obiad-w-centrum-wroclawia",
+          "verifiedAt": "2026-11-15",
+          "kind": "municipal-original-reporting",
+          "fields": [
+            "venueTypes.milk-bar"
+          ],
+          "claim": "Municipal original reporting identifies Polskie Jadło inside Hala Targowa in its milk-bar feature and describes chained cutlery. User selected the three matching visit photographs. No current dietary availability or price is asserted."
+        }
+      ],
+      "review": {
+        "status": "partial",
+        "reason": "Only evidence-listed fields are asserted. Other attributes remain unknown; confirm current choices directly with the venue."
+      }
     }
   }
 }

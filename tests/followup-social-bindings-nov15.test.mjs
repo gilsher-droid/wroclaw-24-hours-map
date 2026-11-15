@@ -1,3 +1,4 @@
+import {beforePolskieJadloSnapshot} from './polskie-jadlo-market-historical-baseline.mjs';
 import {beforeNov15NextFourBindings} from './next-four-social-bindings-nov15-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -22,7 +23,7 @@ test('Three subsequent verified posts resolve only for the exact place, language
 });
 
 test('All343 unrelated records and every non-social field of the three affected places remain unchanged', () => {
-  assert.equal(Object.keys(catalog.places).length, 346);
+  assert.equal(Object.keys(beforePolskieJadloSnapshot({WROC_CATALOG:catalog}).WROC_CATALOG.places).length,346);
   assert.equal(Object.keys(proof.unrelatedRecordHashes).length, 343);
   for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov15NextFourBindings(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
