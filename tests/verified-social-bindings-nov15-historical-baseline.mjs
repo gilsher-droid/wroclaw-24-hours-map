@@ -1,12 +1,14 @@
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
+import {beforeNov15FollowupBindings, expectedNov15FollowupUrl} from './followup-social-bindings-nov15-historical-baseline.mjs';
 
 export const verifiedNov15Bindings = JSON.parse(readFileSync('tests/fixtures/verified-social-bindings-20261115.json'));
 const hash = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 
 // Older receipts project only the exact reviewed social arrays, never media or other fields.
 export function beforeNov15SocialBindings(place) {
+  place = beforeNov15FollowupBindings(place);
   const proof = verifiedNov15Bindings.changed[place?.id];
   if (!proof || hash(place.socialPosts) === proof.beforeSocialHash) return place;
   if (!place.socialPosts?.some(post => post.context === verifiedNov15Bindings.context)) return place;
@@ -15,5 +17,7 @@ export function beforeNov15SocialBindings(place) {
 }
 
 export function expectedNov15SocialUrl(id, platform, language, historical) {
+  const followup = expectedNov15FollowupUrl(id, platform, language, historical);
+  if (followup !== historical) return followup;
   return verifiedNov15Bindings.targets.find(row => row.id === id && row.platform === platform && row.language === language)?.url || historical;
 }

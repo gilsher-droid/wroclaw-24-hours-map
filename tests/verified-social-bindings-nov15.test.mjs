@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
 import {beforeNov15SocialBindings, verifiedNov15Bindings as proof} from './verified-social-bindings-nov15-historical-baseline.mjs';
+import {beforeNov15FollowupBindings} from './followup-social-bindings-nov15-historical-baseline.mjs';
 const window = {};
 runInNewContext(readFileSync('data/place-catalog.js', 'utf8'), {window});
 const catalog = window.WROC_CATALOG;
@@ -26,7 +27,7 @@ test('Five native-verified written-photo posts are preferred only in their exact
 test('All342 other canonical records and all media, identities and coordinates of the four changed places survive', () => {
   assert.equal(Object.keys(catalog.places).length, 346);
   assert.equal(Object.keys(proof.unrelatedRecordHashes).length, 342);
-  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(catalog.getPlace(id)), expected, id);
+  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov15FollowupBindings(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
     const place = catalog.getPlace(id);
     assert.equal(hash(Object.fromEntries(Object.entries(place).filter(([key]) => key !== 'socialPosts'))), expected.beforeNonSocialHash, id);

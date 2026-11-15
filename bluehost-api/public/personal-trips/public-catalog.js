@@ -2273,6 +2273,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122120424753501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-followup-written-photo-routing-20261115"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131941921398802/",
         "verifiedAt": "2026-11-11",
@@ -3521,6 +3529,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122120426511501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-followup-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -13851,6 +13867,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwQSneEaY5/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-followup-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "he",

@@ -1,8 +1,10 @@
+import {beforeNov15FollowupBindings} from './followup-social-bindings-nov15-historical-baseline.mjs';
 import{readFileSync}from'node:fs';import{createHash}from'node:crypto';import assert from'node:assert/strict';
 export const heWrittenPhotoSignatures=JSON.parse(readFileSync('tests/fixtures/he-written-photo-posts-20261111-signatures.json'));
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 // Accept only the sixteen verified HE additions; retain exact historical rows.
 export function beforeHeWrittenPhotoPosts(place){
+ place=beforeNov15FollowupBindings(place);
  const added=place?.socialPosts?.filter(p=>p.context==='verified-written-place-photo-post')||[];
  if(!added.length)return place;
  const s=heWrittenPhotoSignatures[place.id];assert.ok(s,'Unapproved HE binding '+place.id);
