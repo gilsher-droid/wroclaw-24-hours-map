@@ -28,6 +28,7 @@ export function beforeCafeTargowaGallery(value, id) {
 export function beforeCafeTargowaSnapshot(window) {
   const catalog = window.WROC_CATALOG;
   if (catalog) {
+    beforeCafeTargowaRecord(catalog.getPlace('cafe-targowa'));
     const products = {...catalog.products};
     const lifestyle = products['lifestyle-guide'];
     if (lifestyle) products['lifestyle-guide'] = {...lifestyle, places:lifestyle.places.filter(row => {
