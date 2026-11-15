@@ -45,7 +45,8 @@ test('Original text post, removed Chatka URL, Papa collection and correct Jolie 
   assert.ok(catalog.getPlace('chatka').socialPosts.some(row => row.url === oldPL && row.routingExcluded));
   const blocks = JSON.parse(readFileSync('data/social-post-action-blocks.json'));
   assert.ok(!blocks.some(row => row.placeId === 'chatka' && row.platform === 'instagram' && row.language === 'pl'));
-  assert.equal(catalog.getSocialPost('four-domes', 'instagram', 'he'), null);
+  assert.equal(catalog.getSocialPost('four-domes', 'instagram', 'he')?.url, 'https://www.instagram.com/p/DfwjPMfEVdB/');
+  assert.ok(catalog.getPlace('four-domes').socialPosts.some(row => row.url === 'https://www.instagram.com/p/DcqyG24DMHg/' && row.routingExcluded));
   assert.equal(catalog.getSocialPost('jolie-kurzy-targ', 'instagram', 'he')?.url, 'https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUurgzkeMm/');
   assert.ok(catalog.getPlace('chatka').socialPosts.some(row => row.url.endsWith('/DeUurgzkeMm/') && row.routingExcluded));
   assert.ok(catalog.getPlace('papa').socialPosts.some(row => row.url.endsWith('/DehSWMMCbzH/') && row.routingExcluded));

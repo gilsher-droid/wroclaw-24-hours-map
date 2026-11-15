@@ -74,7 +74,7 @@ test("all canonical places use only the selected language post or matching chann
     const result = catalog.getSocialPost(place, platform, lang);
     const exact = place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && p.language === lang && catalog.socialPostKind(p.url,platform)==="post-candidate" && !p.url.includes('/groups/'));
     const legacy = lang === "he" && place.socialPosts.find(p => p.platform === platform && !p.routingExcluded && p.context !== "historical-cross-account" && !(lang === "he" && platform === "instagram" && p.url.toLowerCase().startsWith("https://www.instagram.com/wroclaw.lowersilesia/")) && !p.language && catalog.socialPostKind(p.url,platform)==="post-candidate" && !p.url.includes('/groups/'));
-    if(place.id === "four-domes" && platform === "instagram" && lang === "he") assert.equal(result,null,"reviewed wrong-account action");
+    if(place.id === "four-domes" && platform === "instagram" && lang === "he") assert.equal(result?.url,"https://www.instagram.com/p/DfwjPMfEVdB/","verified original Hebrew-account replacement; old wrong-account URL remains excluded");
     else if (exact || legacy) assert.equal(result.url, (exact || legacy).url);
     else assert.equal(result,null,"no account fallback: "+place.id);
   }
