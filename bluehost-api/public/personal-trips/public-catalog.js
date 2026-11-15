@@ -872,6 +872,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwhxPyke5j/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-next-seven-written-photo-routing-20261115"
+      },
+      {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/61595036942289/posts/122120413875501231/",
@@ -1158,6 +1166,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwbcvfEQkH/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-next-seven-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -2898,6 +2914,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122120466357501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-next-seven-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -26776,6 +26800,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwjPMfEVdB/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-next-seven-written-photo-routing-20261115"
+      },
+      {
         "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116642863506922/",
@@ -26843,7 +26875,8 @@
       },
       {
         "platform": "instagram",
-        "url": "https://www.instagram.com/p/DcqyG24DMHg/"
+        "url": "https://www.instagram.com/p/DcqyG24DMHg/",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
@@ -32230,6 +32263,14 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/Dfwkq_sESrj/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-next-seven-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -68574,6 +68615,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122120469207501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-next-seven-written-photo-routing-20261115"
+      },
+      {
         "platform": "instagram",
         "language": "he",
         "url": "https://www.instagram.com/p/DfwVU5PESxQ/",
@@ -90149,6 +90198,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/Dfwct_xRYH1/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-next-seven-written-photo-routing-20261115"
+      },
+      {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Cs218zdkorjakvhueQbhYBVvCP9jb6zjX6StWde9e7wrw3AzvEZ2KnyRukFMfcSnl&id=61591964083308",
@@ -98946,19 +99003,7 @@
     }
     return 'unsupported';
   };
-  const socialActionBlocks = [
-  {
-    "placeId": "four-domes",
-    "platform": "instagram",
-    "language": "he",
-    "historicalUrl": "https://www.instagram.com/p/DcqyG24DMHg/",
-    "reason": "Verified Hebrew-captioned Four Domes post was authored by the non-Hebrew wroclaw.lowersilesia account; Hebrew post actions require the Hebrew account. Hide this cell until a suitable post is verified.",
-    "actualAccount": "wroclaw.lowersilesia",
-    "requiredAccount": "wroclaw.lowersilesia.he",
-    "reviewedAt": "2026-10-22",
-    "evidence": "outputs/canonical-social-link-audit-2026-10-22/live-evidence/current-extra-000.txt"
-  }
-]
+  const socialActionBlocks = []
 ;
   const getSocialPostState = (input, platform, lang = window.document?.documentElement?.lang || 'en') => {
     const place = typeof input === 'string' ? getPlace(input) : input;

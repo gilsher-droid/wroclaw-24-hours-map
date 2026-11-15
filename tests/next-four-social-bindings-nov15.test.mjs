@@ -1,3 +1,4 @@
+import {beforeNov15NextSevenBindings} from './next-seven-social-bindings-nov15-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -23,9 +24,9 @@ test('Four subsequent verified posts resolve only for the exact place, language 
 test('All342 unrelated records and every non-social field of the four affected places remain unchanged', () => {
   assert.equal(Object.keys(catalog.places).length, 346);
   assert.equal(Object.keys(proof.unrelatedRecordHashes).length, 342);
-  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(catalog.getPlace(id)), expected, id);
+  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov15NextSevenBindings(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
-    const place = catalog.getPlace(id);
+    const place = beforeNov15NextSevenBindings(catalog.getPlace(id));
     assert.equal(hash(Object.fromEntries(Object.entries(place).filter(([key]) => key !== 'socialPosts'))), expected.beforeNonSocialHash, id);
     assert.equal(hash(beforeNov15NextFourBindings(place)), expected.beforeRecordHash, id);
   }
@@ -44,7 +45,7 @@ test('The prior eight preferred links and all historical candidates of the four 
 
 test('Follow-up projection rejects unknown social changes while preserving independent non-social changes', () => {
   for (const id of Object.keys(proof.changed)) {
-    const place = catalog.getPlace(id);
+    const place = beforeNov15NextSevenBindings(catalog.getPlace(id));
     assert.throws(() => beforeNov15NextFourBindings({...place, socialPosts: [...place.socialPosts, {platform: 'facebook', language: 'en', url: 'https://example.com/unreviewed'}]}));
     const changed = JSON.parse(JSON.stringify(place));
     changed.description.en += ' independent content';
