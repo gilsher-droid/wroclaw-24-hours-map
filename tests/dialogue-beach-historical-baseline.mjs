@@ -1,4 +1,5 @@
 import{beforePragueExperience}from'./prague-historical-baseline.mjs';
+import {beforeCafeTargowaSnapshot, beforeCafeTargowaExperience} from './cafe-targowa-visit-photos-historical-baseline.mjs';
 import {beforeBridgesNorthSnapshot} from './bridges-north-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -44,6 +45,7 @@ export function beforeDialogueBeachRecord(value) {
 }
 
 export function beforeDialogueBeachExperience(value) {
+  value = beforeCafeTargowaExperience(value);
   value = beforePragueExperience(value);
   const before = value && beforeExperiences[value.id];
   if (!before) return value;
@@ -75,6 +77,7 @@ export function beforeDialogueBeachGallery(value, id) {
 }
 
 export function beforeDialogueBeachOnlySnapshot(window) {
+  beforeCafeTargowaSnapshot(window);
   beforeBridgesNorthSnapshot(window);
   const catalog = window.WROC_CATALOG;
   if (catalog) {

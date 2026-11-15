@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {beforeCafeTargowaRecord} from './cafe-targowa-visit-photos-historical-baseline.mjs';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
@@ -23,7 +24,7 @@ test('Five subsequent original-HE verified posts resolve only for the exact plac
 test('All341 unrelated records and every non-social field of the five affected places remain unchanged', () => {
   assert.equal(Object.keys(catalog.places).length, 346);
   assert.equal(Object.keys(proof.unrelatedRecordHashes).length, 341);
-  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(catalog.getPlace(id)), expected, id);
+  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeCafeTargowaRecord(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
     const place = catalog.getPlace(id);
     assert.equal(hash(Object.fromEntries(Object.entries(place).filter(([key]) => key !== 'socialPosts'))), expected.beforeNonSocialHash, id);

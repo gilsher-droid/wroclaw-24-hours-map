@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
+import {beforeCafeTargowaRecord, beforeCafeTargowaExperience, beforeCafeTargowaSnapshot} from './cafe-targowa-visit-photos-historical-baseline.mjs';
 
 const window = {};
 for (const file of ['data/place-catalog.js', 'data/canonical-experiences.js', 'data/lifestyle-places.js', 'data/location-media.js']) {
@@ -58,4 +59,19 @@ test('Coffee experience and lifestyle map reuse the same existing Cafe Targowa i
   for (const [id, expected] of Object.entries(baseline.otherExperienceHashes)) {
     assert.equal(hash(plain(window.WROC_EXPERIENCE_CATALOG.getExperience(id))), expected, id);
   }
+});
+
+test('Historical projection accepts only the approved cafe delta and exposes unrelated mutations', () => {
+  assert.deepEqual(beforeCafeTargowaRecord(catalog.getPlace('cafe-targowa')), baseline.targetBefore);
+  const changed = plain(catalog.getPlace('cafe-targowa'));
+  changed.name.en += ' unreviewed';
+  assert.throws(() => beforeCafeTargowaRecord(changed));
+  const coffee = plain(window.WROC_EXPERIENCE_CATALOG.getExperience('coffee-lovers-wroclaw'));
+  coffee.relatedCanonicalPlaceIds.push('unreviewed-place');
+  assert.throws(() => beforeCafeTargowaExperience(coffee));
+  assert.throws(() => beforeCafeTargowaSnapshot({...window,
+    WROC_CATALOG:{...catalog,getPlace:id=>id==='cafe-targowa'?changed:catalog.getPlace(id)}}));
+  const market = plain(catalog.getPlace('hala-targowa'));
+  market.description.en += ' unreviewed';
+  assert.equal(beforeCafeTargowaRecord(market).description.en, market.description.en);
 });
