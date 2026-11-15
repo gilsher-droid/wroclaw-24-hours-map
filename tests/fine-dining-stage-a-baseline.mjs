@@ -1,3 +1,4 @@
+import {beforePolskieJadloSnapshot} from './polskie-jadlo-market-historical-baseline.mjs';
 import{beforeFineDiningStageB}from'./fine-dining-stage-b-baseline.mjs';
 import{beforeJoliePhotoAttribution}from'./jolie-photo-attribution-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
@@ -15,6 +16,7 @@ export function beforeFineDiningRecord(p){
  assert.equal(hash(p),r.afterHash,'Unreviewed fine dining enrichment '+p.id);return JSON.parse(JSON.stringify(r.before));
 }
 export function beforeFineDiningStageA(w){
+ beforePolskieJadloSnapshot(w);
  beforeFineDiningStageB(w);
  const c=w.WROC_CATALOG;if(c){const places=Object.fromEntries(Object.entries(c.places).map(([id,p])=>[id,beforeFineDiningRecord(p)]).filter(([,p])=>p));w.WROC_CATALOG={...c,places,getPlace:id=>beforeFineDiningRecord(c.getPlace(id))};}
  for(const key of ['WROC_LIFESTYLE_PLACES','WROC_CULTURAL_PLACES','PREMIUM_STOPS','PREMIUM_RECOMMENDATIONS','LOCATIONS','EVENING_LOCATIONS'])if(Array.isArray(w[key]))w[key]=w[key].map(p=>p.canonicalPlace?{...p,canonicalPlace:beforeFineDiningRecord(p.canonicalPlace)}:p);
