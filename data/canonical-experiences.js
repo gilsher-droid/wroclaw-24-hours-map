@@ -741,7 +741,7 @@
   {const e=experiences.find(x=>x.id==="coffee-lovers-wroclaw");if(e.relatedCanonicalPlaceIds.includes("cafe-lyk-wroclaw"))throw new Error("Duplicate cafe membership");e.relatedCanonicalPlaceIds.push("cafe-lyk-wroclaw");e.media.inheritFromCanonicalPlaceIds.push("cafe-lyk-wroclaw");}
 
   // Coffee venues independently identified from the original visit photographs.
-  {const e=experiences.find(x=>x.id==="coffee-lovers-wroclaw");for(const id of ["cocofli-wroclaw","cafe-artzat-wroclaw","caffe-bohema-swidnicka-wroclaw","zenka","jolie-kurzy-targ"]){if(e.relatedCanonicalPlaceIds.includes(id))throw new Error("Duplicate coffee venue");e.relatedCanonicalPlaceIds.push(id);e.media.inheritFromCanonicalPlaceIds.push(id);}}
+  {const e=experiences.find(x=>x.id==="coffee-lovers-wroclaw");for(const id of ["cocofli-wroclaw","cafe-artzat-wroclaw","caffe-bohema-swidnicka-wroclaw","zenka","jolie-kurzy-targ","cafe-targowa"]){if(e.relatedCanonicalPlaceIds.includes(id))throw new Error("Duplicate coffee venue");e.relatedCanonicalPlaceIds.push(id);e.media.inheritFromCanonicalPlaceIds.push(id);}}
 
   experiences.push({
   "id": "bridges-and-islands-wroclaw",
