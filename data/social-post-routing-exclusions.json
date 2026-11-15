@@ -433,5 +433,14 @@
     "url": "https://www.instagram.com/p/DehSWMMCbzH/",
     "reason": "written_dwarf_collection_return_exact_Papa_photo_not_verified",
     "reviewedAt": "2026-11-11"
+  },
+  {
+    "placeId": "chatka",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/p/DePBtSmFyRI/",
+    "reason": "owner-removed-post-no-verified-replacement",
+    "reviewedAt": "2026-11-08",
+    "context": "Verified specific post removal; original URL retained as evidence. Upload restriction does not authorize a replacement attempt.",
+    "resolvedByVerifiedReplacementURL": "https://www.instagram.com/p/DfwFv0LipWG/"
   }
 ]

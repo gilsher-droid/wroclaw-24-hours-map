@@ -11,7 +11,7 @@ test('346 identities and all non-social fields are preserved; only exact reviewe
  for(const[id,oldHash]of Object.entries(fixture.beforeRecordHashes)){assert.equal(hash(beforeHeCurrent79Routing(c.getPlace(id))),oldHash,id);}
  for(const id of Object.keys(fixture.changed)){const p=c.getPlace(id);assert.throws(()=>beforeHeCurrent79Routing({...p,socialPosts:[...p.socialPosts,{platform:'instagram',language:'en',url:'https://www.instagram.com/p/Unexpected/'}]}));}
 });
-test('Jolie Kurzy Targ owns the corrected Hebrew Instagram post; Chatka retains evidence but no active substitute and Plac Solny is unchanged',()=>{
- const url='https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUurgzkeMm/';assert.equal(c.getSocialPost('jolie-kurzy-targ','instagram','he')?.url,url);assert.equal(c.getSocialPost('chatka','instagram','he'),null);assert.notEqual(c.getSocialPost('jolie-plac-solny','instagram','he')?.url,url);assert.equal(hash(c.getPlace('jolie-plac-solny')),fixture.beforeRecordHashes['jolie-plac-solny']);
- const held=c.getPlace('chatka').socialPosts.find(p=>p.url===url);assert.ok(held?.routingExcluded);assert.equal(c.getSocialPostState('chatka','instagram','he').state,'known-excluded');
+test('Jolie Kurzy Targ owns the corrected Hebrew Instagram post; Chatka retains evidence and routes to its newly verified independent post and Plac Solny is unchanged',()=>{
+ const url='https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUurgzkeMm/';assert.equal(c.getSocialPost('jolie-kurzy-targ','instagram','he')?.url,url);assert.equal(c.getSocialPost('chatka','instagram','he')?.url,'https://www.instagram.com/p/DfwLDbpEXKU/');assert.notEqual(c.getSocialPost('jolie-plac-solny','instagram','he')?.url,url);assert.equal(hash(c.getPlace('jolie-plac-solny')),fixture.beforeRecordHashes['jolie-plac-solny']);
+ const held=c.getPlace('chatka').socialPosts.find(p=>p.url===url);assert.ok(held?.routingExcluded);assert.equal(c.getSocialPostState('chatka','instagram','he').state,'valid-post-candidate');
 });

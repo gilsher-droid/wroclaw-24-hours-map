@@ -366,6 +366,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwOwaSkYit/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-written-photo-routing-20261115"
+      },
+      {
         "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131940469398802/",
@@ -863,6 +871,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122120413875501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -15381,6 +15397,22 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwLDbpEXKU/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-written-photo-routing-20261115"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DfwFv0LipWG/",
+        "account": "wroclaw.lowersilesia.pl",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-written-photo-routing-20261115"
+      },
+      {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02NXp3qhCTz47GnLUGcLk5PmXBf11qXUDgMx7YJENnWNhPcrKeCkfjYi9PekmMNSKHl&id=61591964083308",
@@ -15424,7 +15456,8 @@
         "platform": "instagram",
         "language": "pl",
         "url": "https://www.instagram.com/p/DePBtSmFyRI/",
-        "verifiedAt": "2026-10-08"
+        "verifiedAt": "2026-10-08",
+        "routingExcluded": true
       },
       {
         "platform": "instagram",
@@ -58382,6 +58415,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwM9QtR4zo/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-written-photo-routing-20261115"
+      },
+      {
         "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Jz9tMc1De8q4kv5Yp3ppUkCGDtZJwVCGJAyXfga8izwx3FRKFT8rWuJkTPXJxQjJl&id=61591964083308",
@@ -98860,15 +98901,6 @@
     "requiredAccount": "wroclaw.lowersilesia.he",
     "reviewedAt": "2026-10-22",
     "evidence": "outputs/canonical-social-link-audit-2026-10-22/live-evidence/current-extra-000.txt"
-  },
-  {
-    "placeId": "chatka",
-    "platform": "instagram",
-    "language": "pl",
-    "historicalUrl": "https://www.instagram.com/p/DePBtSmFyRI/",
-    "reason": "owner-removed-post-no-verified-replacement",
-    "verifiedAt": "2026-11-08",
-    "context": "Verified specific post removal; original URL retained as evidence. Upload restriction does not authorize a replacement attempt."
   }
 ]
 ;
