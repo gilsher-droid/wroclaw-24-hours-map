@@ -33,7 +33,8 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   pergola.media.photos.forEach((asset) => assert.ok(existsSync(resolve(root, asset.slice(1))), asset));
   assert.equal(pergola.media.videos.length, 8);
   assert.ok(pergola.socialPosts.some(post => post.platform === "facebook" && post.url === "https://www.facebook.com/share/p/1CHRnrqLwQ/"), "historical Pergola group post stays preserved");
-  assert.equal(pergola.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url, "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1");
+  assert.ok(pergola.socialPosts.some(post => post.url === "https://www.instagram.com/p/Dcn4ySrisOr/?img_index=1" && post.routingExcluded), "wrong-owner historical Pergola candidate stays excluded");
+  assert.equal(window.WROC_CATALOG.getSocialPost(pergola, "instagram", "he").url, "https://www.instagram.com/p/DfwnRkgEesm/");
   assert.deepEqual(Array.from(fountain.media.photos), [
     "/assets/multimedia-fountain-01.jpg",
     "/assets/multimedia-fountain-02.jpg",
@@ -68,7 +69,8 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   assert.equal(window.WROC_CATALOG.getSocialPost(pergola, "facebook", "he").url, verifiedPergolaHebrew.url);
   assert.notEqual(verifiedPergolaHebrew.url, verifiedFountainHebrew.url);
   assert.equal(window.WROC_CATALOG.getSocialPost(fountain, "facebook", "he").url, verifiedFountainHebrew.url);
-  assert.equal(fountain.socialPosts.find((post) => post.platform === "instagram" && (!post.language || post.language === "he"))?.url, "https://www.instagram.com/p/DctbD99jLvg/?img_index=1");
+  assert.ok(fountain.socialPosts.some(post => post.url === "https://www.instagram.com/p/DctbD99jLvg/?img_index=1" && post.routingExcluded), "wrong-owner historical Fountain candidate stays excluded");
+  assert.equal(window.WROC_CATALOG.getSocialPost(fountain, "instagram", "he").url, "https://www.instagram.com/p/Dfwl4yekemn/");
 
   const dayThree = window.PREMIUM_STOPS.filter((stop) => stop.day === 3);
   const pergolaStop = dayThree.find((stop) => stop.id === "pergola");
@@ -82,11 +84,11 @@ test("Pergola and Multimedia Fountain remain independent canonical places", () =
   assert.deepEqual(Array.from(resources.gallery), Array.from(pergola.media.photos));
   assert.equal(resources.facebook, verifiedPergolaHebrew.url);
   assert.equal(resources.facebook, window.WROC_CATALOG.getSocialPost(pergola, "facebook", "he").url);
-  assert.equal(resources.instagram, undefined, "Unverified Hebrew Pergola account action stays hidden");
+  assert.equal(resources.instagram, "https://www.instagram.com/p/DfwnRkgEesm/", "verified original Hebrew Pergola post becomes available");
 
   const fountainResources = window.WROC_LOCATION_MEDIA.fountain;
   assert.deepEqual(Array.from(fountainResources.gallery), Array.from(fountain.media.photos));
   assert.deepEqual(Array.from(fountainResources.videos, (video) => video.src), Array.from(fountain.media.videos));
   assert.equal(fountainResources.facebook, verifiedFountainHebrew.url);
-  assert.equal(fountainResources.instagram, undefined);
+  assert.equal(fountainResources.instagram, "https://www.instagram.com/p/Dfwl4yekemn/");
 });

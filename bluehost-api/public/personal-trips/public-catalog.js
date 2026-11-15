@@ -13651,6 +13651,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwsE0cEYdu/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-following-five-he-written-photo-routing-20261115"
+      },
+      {
         "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131947327398802/",
@@ -24849,6 +24857,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/Dfwl4yekemn/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-following-five-he-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -50067,6 +50083,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/Dfws2SYkVjH/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-following-five-he-written-photo-routing-20261115"
+      },
+      {
         "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131962243398802/",
@@ -53279,6 +53303,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/Dfwqu05kXaD/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-following-five-he-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -60651,6 +60683,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DfwnRkgEesm/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-15",
+        "context": "verified-following-five-he-written-photo-routing-20261115"
+      },
       {
         "platform": "facebook",
         "language": "pl",
