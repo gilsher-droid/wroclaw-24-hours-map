@@ -172,6 +172,9 @@
   // The café uses the existing canonical market-hall identity and shared gallery.
   window.WROC_LIFESTYLE_PLACES.push({id:"cafe-targowa",categories:["eat","drink"],coordinates:[51.1124915,17.0408014],mediaKey:"cafe-targowa"});
 
+  // Independent milk bar inside the Market Hall; building-level location.
+  window.WROC_LIFESTYLE_PLACES.push({id:"polskie-jadlo-hala-targowa",categories:["eat"],coordinates:[51.1125,17.04075],mediaKey:"polskie-jadlo-hala-targowa"});
+
   if (window.WROC_CATALOG?.registerProduct) {
     const registered = window.WROC_CATALOG.registerProduct({
       id: "lifestyle-guide",

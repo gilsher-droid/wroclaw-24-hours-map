@@ -917,6 +917,7 @@
       "pedet",
       "peruwiana",
       "pizza-si",
+      "polskie-jadlo-hala-targowa",
       "pomiedzy-cafe-bistro-wroclaw",
       "przystan-marina-wroclaw",
       "raito-sushi-wroclaw",
@@ -964,6 +965,7 @@
         "pedet",
         "peruwiana",
         "pizza-si",
+        "polskie-jadlo-hala-targowa",
         "pomiedzy-cafe-bistro-wroclaw",
         "przystan-marina-wroclaw",
         "raito-sushi-wroclaw",
@@ -1240,3 +1242,6 @@
 
 // Reuse the existing Kepa Mieszczanska place, with its existing media and language editions.
 (()=>{const e=window.WROC_EXPERIENCE_CATALOG.getExperience('bridges-and-islands-wroclaw');for(const ids of[e.relatedCanonicalPlaceIds,e.media.inheritFromCanonicalPlaceIds])if(!ids.includes('kepa-mieszczanska-wroclaw'))ids.unshift('kepa-mieszczanska-wroclaw');})();
+
+// Add the separately identified Market Hall milk bar without changing the earlier four stops.
+(function(){const e=window.WROC_EXPERIENCE_CATALOG.getExperience("wroclaw-milk-bars");for(const ids of [e.relatedCanonicalPlaceIds,e.media.inheritFromCanonicalPlaceIds])if(!ids.includes("polskie-jadlo-hala-targowa"))ids.push("polskie-jadlo-hala-targowa");e.description={"he":"חמש נקודות לארוחה: בר מיש ליד האוניברסיטה, בר מווה ברחוב דרובנרה, רוזובה קרובה ברחוב שווידניצקה, וגה ברינק כאפשרות טבעונית, וגם פולסקיה יאדוו בתוך אולם השוק. לכל מקום כרטיס נפרד, ניווט ותמונות ביקור המשויכות אליו.","en":"Five meal stops: Miś near the university, Mewa on Drobnera, Różowa Krowa on Świdnicka, Vega in Market Square as a vegan option, and Polskie Jadło inside Hala Targowa. Each has a separate place card, navigation and correctly assigned visit photographs.","pl":"Pięć przystanków na posiłek: Miś przy uniwersytecie, Mewa przy Drobnera, Różowa Krowa przy Świdnickiej, Vega przy Rynku jako wegańska propozycja oraz Polskie Jadło wewnątrz Hali Targowej. Każdy ma osobną kartę, nawigację i właściwie przypisane zdjęcia z wizyty.","de":"Fünf Stationen zum Essen: Miś bei der Universität, Mewa an der Drobnera-Straße, Różowa Krowa an der Świdnicka-Straße, Vega am Rynek als vegane Option und Polskie Jadło in der Markthalle. Jeder Betrieb hat eine eigene Karte, Navigation und zugeordnete Besuchsfotos.","cs":"Pět zastávek na jídlo: Miś u univerzity, Mewa v ulici Drobnera, Różowa Krowa v ulici Świdnicka, Vega u Rynku jako veganská možnost a Polskie Jadło uvnitř Haly Targowé. Každý má vlastní kartu, navigaci a správně přiřazené fotografie z návštěvy."};})();

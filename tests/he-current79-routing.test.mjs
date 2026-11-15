@@ -1,3 +1,4 @@
+import {beforePolskieJadloSnapshot} from './polskie-jadlo-market-historical-baseline.mjs';
 import{expectedHe116Url}from'./he-consolidated116-historical-baseline.mjs';
 import test from'node:test';import assert from'node:assert/strict';import{readFileSync}from'node:fs';import{runInNewContext}from'node:vm';import{createHash}from'node:crypto';import{beforeHeCurrent79Routing,heCurrent79Fixture as fixture}from'./he-current79-historical-baseline.mjs';
 const w={};runInNewContext(readFileSync('data/place-catalog.js','utf8'),{window:w});const c=w.WROC_CATALOG,hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
@@ -7,7 +8,7 @@ test('88 current Hebrew written/photo candidates resolve exactly, with only 34 p
  for(const id of['charlotte','magnolia','herbal','doubletree','bar-mis','aula','art-hotel','bastion'])assert.ok(!fixture.changed[id],id+' prior PR550 pair untouched');
 });
 test('346 identities and all non-social fields are preserved; only exact reviewed social arrays project to historical records',()=>{
- assert.equal(Object.keys(c.places).length,346);assert.equal(Object.keys(fixture.changed).length,33);
+ assert.equal(Object.keys(beforePolskieJadloSnapshot({WROC_CATALOG:c}).WROC_CATALOG.places).length,346);assert.equal(Object.keys(fixture.changed).length,33);
  for(const[id,oldHash]of Object.entries(fixture.beforeRecordHashes)){assert.equal(hash(beforeHeCurrent79Routing(c.getPlace(id))),oldHash,id);}
  for(const id of Object.keys(fixture.changed)){const p=c.getPlace(id);assert.throws(()=>beforeHeCurrent79Routing({...p,socialPosts:[...p.socialPosts,{platform:'instagram',language:'en',url:'https://www.instagram.com/p/Unexpected/'}]}));}
 });

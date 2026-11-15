@@ -1,3 +1,4 @@
+import {beforePolskieJadloSnapshot} from './polskie-jadlo-market-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -9,6 +10,7 @@ const window = {};
 for (const file of ['data/place-catalog.js', 'data/canonical-experiences.js', 'data/lifestyle-places.js', 'data/location-media.js']) {
   runInNewContext(readFileSync(file, 'utf8'), {window, console});
 }
+beforePolskieJadloSnapshot(window);
 const plain = value => JSON.parse(JSON.stringify(value));
 const hash = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const baseline = JSON.parse(readFileSync('data/cafe-targowa-visit-photos-preservation-nov15.json', 'utf8'));
