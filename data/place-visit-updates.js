@@ -5,27 +5,30 @@ window.WROC_PLACE_VISIT_UPDATES = Object.freeze([
     "canonicalPlaceId": "rynek",
     "kind": "seasonal-event",
     "status": "announced",
-    "validFrom": "2026-11-02",
+    "validFrom": "2026-11-16",
     "validTo": "2026-11-19",
     "eventStartDate": "2026-11-20",
-    "verifiedAt": "2026-11-02",
+    "verifiedAt": "2026-11-16",
     "title": {
-      "he": "שוק חג המולד המרכזי: התאריכים פורסמו",
-      "en": "Main Christmas market: dates announced",
-      "pl": "Główny jarmark: ogłoszono terminy",
-      "de": "Großer Weihnachtsmarkt: Termine angekündigt",
-      "cs": "Hlavní vánoční trh: oznámené termíny"
+      "he": "שני שווקי חג מולד מתוכננים להיפתח ב־20 בנובמבר",
+      "en": "Two Christmas markets plan to open on 20 November",
+      "pl": "Dwa jarmarki zapowiadają start 20 listopada",
+      "de": "Zwei Weihnachtsmärkte planen den Start am 20. November",
+      "cs": "Dva vánoční trhy plánují začít 20. listopadu"
     },
     "text": {
-      "he": "השוק הוכרז ל־20 בנובמבר עד 7 בינואר 2027, בדרך כלל 10:00–21:00. סגור ב־24 וב־25 בדצמבר וב־1 בינואר. ב־26 בדצמבר פתיחה מ־13:00. בערב השנה החדשה יש שעות מיוחדות; בדקו במקור. השוק עדיין לא נפתח.",
-      "en": "Scheduled for 20 November to 7 January 2027, normally 10:00–21:00. Closed 24 and 25 December and 1 January; opens at 13:00 on 26 December. New Year’s Eve has special hours: consult the city notice. The market has not opened yet.",
-      "pl": "Planowany termin to 20 listopada–7 stycznia 2027, zwykle 10:00–21:00. Nieczynne 24 i 25 grudnia oraz 1 stycznia; 26 grudnia otwarcie od 13:00. W sylwestra obowiązują szczególne godziny podane przez miasto. Jarmark jeszcze nie ruszył.",
-      "de": "Geplant vom 20. November bis 7. Januar 2027, normalerweise 10:00–21:00 Uhr. Geschlossen am 24. und 25. Dezember sowie 1. Januar; am 26. Dezember ab 13:00 Uhr. An Silvester gelten Sonderzeiten laut Stadt. Der Markt ist noch nicht eröffnet.",
-      "cs": "Plánován od 20. listopadu do 7. ledna 2027, obvykle 10:00–21:00. Zavřeno 24. a 25. prosince a 1. ledna; 26. prosince od 13:00. Na Silvestra platí zvláštní hodiny podle města. Trh ještě nezačal."
+      "he": "בשוק המרכזי מתוכננת כניסת מבקרים מ־10:00, תהלוכת תזמורת ב־16:45 וטקס פתיחה ב־17:00. העונה הוכרזה עד 7 בינואר 2027; השעות הרגילות 10:00-21:00, עם סגירה ב־24 וב־25 בדצמבר וב־1 בינואר ושעות חג מיוחדות. השוק הנפרד בכיכר השוק החדש מתוכנן ל־20 בנובמבר עד 20 בדצמבר. בדקו את תוכנית כל שוק בנפרד; אין כאן אישור שכבר נפתחו.",
+      "en": "At the main market, visitors are expected from 10:00, followed by a brass-band procession at 16:45 and the opening ceremony at 17:00. The season is announced through 7 January 2027, normally 10:00-21:00, closed 24-25 December and 1 January, with special holiday hours. The separate Nowy Świąteczny Targ on plac Nowy Targ is planned for 20 November-20 December. Check each organizer separately; neither opening is confirmed here.",
+      "pl": "Na głównym jarmarku wstęp dla odwiedzających zaplanowano od 10:00, przemarsz orkiestry o 16:45 i uroczyste otwarcie o 17:00. Sezon potrwa według zapowiedzi do 7 stycznia 2027, zwykle 10:00-21:00, z zamknięciem 24-25 grudnia i 1 stycznia oraz godzinami świątecznymi. Osobny Nowy Świąteczny Targ na placu Nowy Targ planowany jest na 20 listopada-20 grudnia. Sprawdź każdego organizatora osobno; nie potwierdzamy jeszcze otwarcia.",
+      "de": "Am großen Markt sind Besucher ab 10:00 Uhr vorgesehen, der Blasmusikumzug um 16:45 Uhr und die Eröffnungsfeier um 17:00 Uhr. Angekündigte Saison bis 7. Januar 2027, normalerweise 10:00-21:00 Uhr; geschlossen 24.-25. Dezember und 1. Januar, weitere Feiertagssonderzeiten beachten. Der separate Nowy Świąteczny Targ am plac Nowy Targ ist für 20. November-20. Dezember geplant. Jeden Veranstalter getrennt prüfen; die Eröffnungen sind hier noch nicht bestätigt.",
+      "cs": "Hlavní trh plánuje vstup návštěvníků od 10:00, průvod dechové kapely v 16:45 a slavnostní zahájení v 17:00. Sezona je ohlášena do 7. ledna 2027, obvykle 10:00-21:00; zavřeno 24.-25. prosince a 1. ledna, další sváteční hodiny ověřte. Samostatný Nowy Świąteczny Targ na plac Nowy Targ je plánován na 20. listopadu-20. prosince. Ověřujte každého pořadatele zvlášť; otevření zde ještě nepotvrzujeme."
     },
-    "articleUrl": "/news/2026-11-02.html#main-market",
+    "articleUrl": "/news/2026-11-16.html#markets",
     "sourceUrls": [
-      "https://www.wroclaw.pl/dla-mieszkanca/jarmark-bozonarodzeniowy-2026-2027-we-wroclawiu-terminy-godziny"
+      "https://www.jarmarkbozonarodzeniowy.com/program",
+      "https://www.jarmarkbozonarodzeniowy.com/",
+      "https://jarmarkwroclaw.pl/",
+      "https://www.wroclaw.pl/go/wydarzenia/rozrywka/1417760-jarmark-bozonarodzeniowy-nowy-swiateczny-targ"
     ],
     "eventEndDate": "2027-01-07",
     "closedDates": [
@@ -157,5 +160,63 @@ window.WROC_PLACE_VISIT_UPDATES = Object.freeze([
     ],
     "scope": "regular-visiting-only",
     "reviewRequiredBeforeExpiry": true
+  },
+  {
+    "id": "ksiaz-daisy-christmas-2026-27",
+    "canonicalPlaceId": "ksiaz-castle",
+    "kind": "seasonal-event",
+    "status": "announced",
+    "validFrom": "2026-11-16",
+    "validTo": "2026-11-30",
+    "eventStartDate": "2026-12-01",
+    "eventEndDate": "2027-01-10",
+    "verifiedAt": "2026-11-16",
+    "articleUrl": "/news/2026-11-16.html#daisy",
+    "sourceUrls": [
+      "https://www.ksiaz.walbrzych.pl/turystyka/aktualnosci/magia-swiat-daisy-a-christmas-story"
+    ],
+    "title": {
+      "he": "קשונז׳ הכריזה על תערוכת חורף בהשראת הנסיכה דייזי",
+      "en": "Książ announces a Daisy-inspired winter exhibition",
+      "pl": "Książ zapowiada zimową wystawę inspirowaną Daisy",
+      "de": "Książ kündigt eine von Daisy inspirierte Winterausstellung an",
+      "cs": "Książ oznamuje zimní výstavu inspirovanou Daisy"
+    },
+    "text": {
+      "he": "הטירה פרסמה ב־9 בנובמבר תערוכה מתוכננת ל־1 בדצמבר 2026 עד 10 בינואר 2027, עם כ־200 עצי חג ועיצוב בחדרי הטירה. התערוכה טרם נפתחה. בדקו כרטיסים ושעות אצל הטירה; אין להסיק שהכניסה כלולה בכל מסלול ביקור.",
+      "en": "The castle’s 9 November announcement schedules Magia Świąt: Daisy. A Christmas Story for 1 December 2026-10 January 2027, with around 200 Christmas trees and decorated castle rooms. The exhibition has not opened yet. Check tickets and visiting hours with the castle; do not assume it is included in every tour.",
+      "pl": "Komunikat zamku z 9 listopada zapowiada Magię Świąt: Daisy. A Christmas Story na 1 grudnia 2026-10 stycznia 2027, z około 200 choinkami i dekoracjami w komnatach. Wystawa jeszcze nie ruszyła. Sprawdź bilety i godziny u zamku; nie zakładaj, że obejmuje ją każda trasa zwiedzania.",
+      "de": "Die Burgmitteilung vom 9. November kündigt Magia Świąt: Daisy. A Christmas Story für 1. Dezember 2026-10. Januar 2027 an, mit etwa 200 Weihnachtsbäumen und geschmückten Schlossräumen. Noch nicht eröffnet. Eintrittskarten und Zeiten bei der Burg prüfen; nicht automatisch von der Aufnahme in jede Führung ausgehen.",
+      "cs": "Oznámení hradu z 9. listopadu plánuje Magia Świąt: Daisy. A Christmas Story na 1. prosince 2026-10. ledna 2027, s přibližně 200 vánočními stromky a výzdobou zámeckých pokojů. Výstava ještě nezačala. Ověřte vstupenky a hodiny u hradu; nepředpokládejte zahrnutí do každé prohlídkové trasy."
+    }
+  },
+  {
+    "id": "american-film-festival-2026",
+    "canonicalPlaceId": "new-horizons-cinema",
+    "kind": "festival-programme",
+    "status": "announced",
+    "validFrom": "2026-11-16",
+    "validTo": "2026-11-22",
+    "eventStartDate": "2026-11-17",
+    "eventEndDate": "2026-11-22",
+    "verifiedAt": "2026-11-16",
+    "articleUrl": "/news/2026-11-16.html#film",
+    "sourceUrls": [
+      "https://www.nowehoryzonty.pl/aff"
+    ],
+    "title": {
+      "he": "השבוע: פסטיבל קולנוע אמריקאי",
+      "en": "This week: American Film Festival",
+      "pl": "W tym tygodniu: American Film Festival",
+      "de": "Diese Woche: American Film Festival",
+      "cs": "Tento týden: American Film Festival"
+    },
+    "text": {
+      "he": "המארגן מפרסם הקרנות בעיר ב־17-22 בנובמבר 2026, בקולנוע אופקים חדשים. זו אפשרות לבילוי בתוך מבנה. בדקו שפה, כתוביות, שעות וזמינות כרטיסים לכל הקרנה; לתוכנית המקוונת יש תקופה נפרדת.",
+      "en": "The organizer lists Wrocław cinema screenings for 17-22 November 2026 at Kino Nowe Horyzonty. An indoor option for the week. Check language, subtitles, screening times and ticket availability individually; the online programme has a separate run.",
+      "pl": "Organizator podaje terminy pokazów we Wrocławiu 17-22 listopada 2026 w Kinie Nowe Horyzonty. To propozycja pod dachem. Sprawdź język, napisy, godziny i dostępność biletów na każdy seans. Program online ma osobny termin.",
+      "de": "Der Veranstalter nennt 17.-22. November 2026 für Kinovorstellungen im Kino Nowe Horyzonty in Wrocław. Eine Idee für drinnen. Sprache, Untertitel, Vorstellungszeiten und Kartenverfügbarkeit einzeln prüfen; das Onlineprogramm hat einen anderen Zeitraum.",
+      "cs": "Pořadatel uvádí 17.-22. listopadu 2026 pro promítání v Kino Nowe Horyzonty ve Vratislavi. Tip na program pod střechou. Ověřte jazyk, titulky, časy a dostupnost vstupenek každé projekce; online program má jiné období."
+    }
   }
 ].map(update => Object.freeze(update)));

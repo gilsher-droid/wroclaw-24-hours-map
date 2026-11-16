@@ -221,6 +221,107 @@
     "status": "confirmed",
     "verifiedAt": "2026-11-09",
     "eventStartDate": "2026-11-08"
+  },
+  {
+    "id": "weekly-2026-11-16-tygiel",
+    "title": {
+      "he": "שבוע פתיחה מתוכנן למוזיאון תושבי ולבז׳יך",
+      "en": "Tygiel announces its museum opening week",
+      "pl": "Tygiel zapowiada tydzień otwarcia muzeum",
+      "de": "Tygiel kündigt seine Museumseröffnungswoche an",
+      "cs": "Tygiel oznamuje zahajovací týden muzea"
+    },
+    "url": "https://600.walbrzych.pl/wydarzenie/muzeum-walbrzyszan-tygiel/",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22",
+    "category": "attraction",
+    "priority": "normal",
+    "articleUrl": "/news/2026-11-16.html#tygiel",
+    "status": "announced",
+    "verifiedAt": "2026-11-16",
+    "eventStartDate": "2026-11-16",
+    "eventEndDate": "2026-11-22"
+  },
+  {
+    "id": "weekly-2026-11-16-markets",
+    "title": {
+      "he": "שני שווקי חג מולד מתוכננים להיפתח ב־20 בנובמבר",
+      "en": "Two Christmas markets plan to open on 20 November",
+      "pl": "Dwa jarmarki zapowiadają start 20 listopada",
+      "de": "Zwei Weihnachtsmärkte planen den Start am 20. November",
+      "cs": "Dva vánoční trhy plánují začít 20. listopadu"
+    },
+    "url": "https://www.jarmarkbozonarodzeniowy.com/program",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-19",
+    "category": "event",
+    "priority": "normal",
+    "articleUrl": "/news/2026-11-16.html#markets",
+    "status": "announced",
+    "verifiedAt": "2026-11-16",
+    "eventStartDate": "2026-11-20",
+    "eventEndDate": "2027-01-07",
+    "relatedCanonicalPlaceId": "rynek"
+  },
+  {
+    "id": "weekly-2026-11-16-huta",
+    "title": {
+      "he": "שוק חג מולד נוסף במתחם תעשייתי",
+      "en": "HU HU HUTA: a Christmas market in an industrial setting",
+      "pl": "HU HU HUTA w industrialnej przestrzeni",
+      "de": "HU HU HUTA im industriellen Ambiente",
+      "cs": "HU HU HUTA v industriálním prostředí"
+    },
+    "url": "https://www.wroclaw.pl/go/wydarzenia/wydarzenia-handlowe/1419073-hu-hu-huta-alternatywny-jarmark-swiateczny",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22",
+    "category": "event",
+    "priority": "normal",
+    "articleUrl": "/news/2026-11-16.html#huta",
+    "status": "announced",
+    "verifiedAt": "2026-11-16",
+    "eventStartDate": "2026-11-27",
+    "eventEndDate": "2026-12-31"
+  },
+  {
+    "id": "weekly-2026-11-16-transport",
+    "title": {
+      "he": "מספרי עמדות יעזרו למצוא את התחנה הנכונה",
+      "en": "Platform numbers should make transfers easier",
+      "pl": "Numery stanowisk mają ułatwić przesiadki",
+      "de": "Haltepositionsnummern sollen Umstiege erleichtern",
+      "cs": "Čísla stanovišť mají usnadnit přestupy"
+    },
+    "url": "https://www.wroclaw.pl/komunikacja/wroclaw-wprowadza-nowe-oznaczenia-przystankow",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22",
+    "category": "transport",
+    "priority": "normal",
+    "articleUrl": "/news/2026-11-16.html#transport",
+    "status": "announced",
+    "verifiedAt": "2026-11-16",
+    "eventStartDate": "2026-11-16"
+  },
+  {
+    "id": "weekly-2026-11-16-daisy",
+    "title": {
+      "he": "קשונז׳ הכריזה על תערוכת חורף בהשראת הנסיכה דייזי",
+      "en": "Książ announces a Daisy-inspired winter exhibition",
+      "pl": "Książ zapowiada zimową wystawę inspirowaną Daisy",
+      "de": "Książ kündigt eine von Daisy inspirierte Winterausstellung an",
+      "cs": "Książ oznamuje zimní výstavu inspirovanou Daisy"
+    },
+    "url": "https://www.ksiaz.walbrzych.pl/turystyka/aktualnosci/magia-swiat-daisy-a-christmas-story",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-22",
+    "category": "culture",
+    "priority": "normal",
+    "articleUrl": "/news/2026-11-16.html#daisy",
+    "status": "announced",
+    "verifiedAt": "2026-11-16",
+    "eventStartDate": "2026-12-01",
+    "eventEndDate": "2027-01-10",
+    "relatedCanonicalPlaceId": "ksiaz-castle"
   }
 ].map(item => Object.freeze({ ...item, title: Object.freeze(item.title) })));
 })();
