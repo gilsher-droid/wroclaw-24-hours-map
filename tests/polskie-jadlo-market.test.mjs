@@ -4,13 +4,14 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
 import {beforePolskieJadloSnapshot,beforePolskieJadloExperience,assertApprovedPolskieJadlo} from './polskie-jadlo-market-historical-baseline.mjs';
+import {beforeNov18EnglishTwo} from './english-two-social-bindings-nov18-historical-baseline.mjs';
 const proof=JSON.parse(readFileSync('data/polskie-jadlo-market-preservation-nov15.json','utf8'));
 const plain=x=>JSON.parse(JSON.stringify(x)),hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 function load(){const window={};for(const f of ['data/place-catalog.js','data/canonical-experiences.js','data/lifestyle-places.js','data/location-media.js'])runInNewContext(readFileSync(f,'utf8'),{window,console});return window;}
 test('One distinct market milk bar is added; all346 preceding identities, galleries, social links and aliases remain unchanged',()=>{
   const w=load(),c=w.WROC_CATALOG,p=c.getPlace(proof.canonicalId);
   assert.equal(Object.keys(c.places).length,proof.beforeCount+1);
-  for(const[id,expected]of Object.entries(proof.beforeRecordHashes))assert.equal(hash(c.getPlace(id)),expected,id);
+  for(const[id,expected]of Object.entries(proof.beforeRecordHashes))assert.equal(hash(beforeNov18EnglishTwo(c.getPlace(id))),expected,id);
   assert.deepEqual(plain(c.aliases),proof.beforeAliases);assert.deepEqual(plain(c.coordinateConflicts),proof.beforeConflicts);
   assert.deepEqual(plain(p),proof.approvedRecord);assert.equal(p.socialPosts.length,0);
   assert.equal(p.provenance.coordinatesScope,'Hala Targowa building; exact indoor counter position not verified');

@@ -1,4 +1,5 @@
 import {beforePolskieJadloSnapshot} from './polskie-jadlo-market-historical-baseline.mjs';
+import {beforeNov18EnglishTwo} from './english-two-social-bindings-nov18-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -9,6 +10,7 @@ const hash = value => createHash('sha256').update(JSON.stringify(value)).digest(
 // Historical receipts keep their original scope. Only this exact newly approved
 // gallery/map delta can be projected; the fresh test protects the real state.
 export function beforeCafeTargowaRecord(value) {
+  value = beforeNov18EnglishTwo(value);
   if (value?.id !== 'cafe-targowa' || !value.media?.photos?.some(src => proof.newAssets.includes(src))) return value;
   assert.equal(hash(value), proof.targetAfterHash, 'Unreviewed Cafe Targowa record change');
   return clone(proof.targetBefore);
