@@ -1,3 +1,4 @@
+import {beforeHistoryTrail} from './history-trail-historical-baseline.mjs';
 import{beforePragueExperience}from'./prague-historical-baseline.mjs';
 import {beforeCafeTargowaSnapshot, beforeCafeTargowaExperience} from './cafe-targowa-visit-photos-historical-baseline.mjs';
 import {beforeBridgesNorthSnapshot} from './bridges-north-historical-baseline.mjs';
@@ -77,6 +78,7 @@ export function beforeDialogueBeachGallery(value, id) {
 }
 
 export function beforeDialogueBeachOnlySnapshot(window) {
+ beforeHistoryTrail(window);
   beforeCafeTargowaSnapshot(window);
   beforeBridgesNorthSnapshot(window);
   const catalog = window.WROC_CATALOG;

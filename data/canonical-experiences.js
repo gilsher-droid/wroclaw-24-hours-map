@@ -1178,6 +1178,100 @@
   }
 });
 
+  experiences.push({
+  "id": "wroclaw-history-trail",
+  "mapZoom": 17,
+  "type": "walking-experience",
+  "categories": [
+    "history",
+    "city-walk"
+  ],
+  "name": {
+    "he": "ההיסטוריה מתחת לרגליים",
+    "en": "History beneath your feet",
+    "pl": "Historia pod stopami",
+    "de": "Geschichte unter den Füßen",
+    "cs": "Historie pod nohama"
+  },
+  "description": {
+    "he": "בכיכר ננקיירה ההיסטוריה של ורוצלב נמצאת ממש במדרכה. הולכים לאורך לוחות הברונזה, עוצרים ליד השנים ומגלים כיצד השתנתה העיר. התחילו בשלט ההסבר, חפשו את הלוח עם שעון בית העירייה והמשיכו בעקבות התאריכים. מהקמת הבישופות בשנת 1000 ועד הרכבת, אולם המאה, סולידריות והשיטפון של 1997, זו הזדמנות להכיר את העיר דרך הליכה, התבוננות ושיחה. התמונות שלנו מציגות פרטים מהלוחות ואת השלט, ולא תיעוד מלא של כל השביל.",
+    "en": "On Nankiera Square, Wrocław’s history is literally in the pavement. Walk along the bronze plaques, pause at the dates and discover how the city changed. Begin with the information board, look for the plaque showing the Town Hall clock, then follow the dates. From the bishopric established in 1000 to the railway, Centennial Hall, Solidarity and the 1997 flood, the trail invites you to learn by walking, looking and talking. Our photographs show details of the plaques and the information board, rather than every plaque on the trail.",
+    "pl": "Na placu Nankiera historia Wrocławia jest dosłownie wpisana w chodnik. Spaceruj wzdłuż płyt z brązu, zatrzymuj się przy datach i odkrywaj przemiany miasta. Zacznij od tablicy informacyjnej, znajdź płytę z zegarem ratuszowym i podążaj za datami. Od utworzenia biskupstwa w 1000 roku po kolej, Halę Stulecia, Solidarność i powódź z 1997 roku, ścieżka zachęca do poznawania miasta przez spacer, obserwację i rozmowę. Nasze zdjęcia pokazują detale płyt i tablicę, a nie kompletną dokumentację szlaku.",
+    "de": "Auf dem Nankierplatz liegt Wrocławs Geschichte buchstäblich im Pflaster. Gehen Sie an den Bronzetafeln entlang, halten Sie bei den Jahreszahlen inne und entdecken Sie den Wandel der Stadt. Beginnen Sie an der Informationstafel, suchen Sie die Platte mit der Rathausuhr und folgen Sie den Daten. Vom 1000 gegründeten Bistum über die Eisenbahn und die Jahrhunderthalle bis zu Solidarność und dem Hochwasser von 1997 lässt sich Stadtgeschichte beim Gehen, Schauen und Erzählen entdecken. Unsere Fotos zeigen Details und die Informationstafel, nicht sämtliche Platten des Weges.",
+    "cs": "Na náměstí Nankiera je historie Vratislavi doslova vepsána do chodníku. Projděte se podél bronzových desek, zastavujte se u letopočtů a objevujte proměny města. Začněte informační tabulí, najděte desku s radničními hodinami a pokračujte podle dat. Od založení biskupství v roce 1000 přes železnici a Halu století až po Solidaritu a povodeň v roce 1997 poznáte město chůzí, pozorováním a rozhovorem. Naše fotografie zachycují detaily desek a informační tabuli, nikoli celý soubor."
+  },
+  "visitNote": {
+    "he": "זהו שביל קצר במרחב הציבורי. אפשר לשלב אותו בשיטוט בעיר העתיקה ולבחור כמה לוחות להתעמק בהם. הלוחות נמצאים בגובה הרצפה; שימו לב למשטח ההליכה ולתנועה סביבכם. הצילומים מביקור קודם. עם השנים נוספו לוחות, ולכן השלט המצולם אינו בהכרח רשימה עדכנית ומלאה.",
+    "en": "A short trail in public space, easy to combine with an Old Town walk. Choose a few plaques to explore more closely. The plaques are at ground level; watch your footing and other pedestrians. These photographs are from an earlier visit. Plaques have been added over time, so the photographed board is not necessarily a complete current list.",
+    "pl": "Krótka ścieżka w przestrzeni publicznej, którą można połączyć ze spacerem po Starym Mieście. Wybierz kilka płyt i przyjrzyj się im bliżej. Płyty leżą na poziomie chodnika; uważaj na nawierzchnię i innych pieszych. Zdjęcia pochodzą z wcześniejszej wizyty. Z czasem dodawano kolejne płyty, więc sfotografowana tablica nie musi zawierać aktualnego, pełnego wykazu.",
+    "de": "Ein kurzer Weg im öffentlichen Raum, gut mit einem Altstadtspaziergang kombinierbar. Wählen Sie einige Tafeln zum genaueren Betrachten. Achten Sie bei den bodennahen Platten auf den Untergrund und andere Fußgänger. Die Fotos stammen von einem früheren Besuch. Da weitere Tafeln hinzukamen, ist die fotografierte Informationstafel nicht unbedingt vollständig und aktuell.",
+    "cs": "Krátkou stezku ve veřejném prostoru můžete spojit s procházkou Starým Městem. Vyberte si několik desek k podrobnějšímu prohlédnutí. Desky jsou v úrovni chodníku; dávejte pozor na povrch a ostatní chodce. Fotografie pocházejí z dřívější návštěvy. Postupně přibývaly další desky, takže vyfocená tabule nemusí obsahovat úplný a aktuální seznam."
+  },
+  "relatedCanonicalPlaceIds": [],
+  "productRefs": [],
+  "mapPoints": [
+    {
+      "id": "history-trail-nankiera",
+      "coordinates": [
+        51.112617,
+        17.037681
+      ],
+      "label": "Ścieżka historii Wrocławia, plac Nankiera",
+      "name": {
+        "he": "שביל ההיסטוריה בכיכר ננקיירה",
+        "en": "History Trail, Nankiera Square",
+        "pl": "Ścieżka historii Wrocławia, plac Nankiera",
+        "de": "Geschichtsweg am Nankierplatz",
+        "cs": "Stezka historie na náměstí Nankiera"
+      },
+      "description": {
+        "he": "בכיכר ננקיירה ההיסטוריה של ורוצלב נמצאת ממש במדרכה. הולכים לאורך לוחות הברונזה, עוצרים ליד השנים ומגלים כיצד השתנתה העיר. התחילו בשלט ההסבר, חפשו את הלוח עם שעון בית העירייה והמשיכו בעקבות התאריכים. מהקמת הבישופות בשנת 1000 ועד הרכבת, אולם המאה, סולידריות והשיטפון של 1997, זו הזדמנות להכיר את העיר דרך הליכה, התבוננות ושיחה. התמונות שלנו מציגות פרטים מהלוחות ואת השלט, ולא תיעוד מלא של כל השביל.",
+        "en": "On Nankiera Square, Wrocław’s history is literally in the pavement. Walk along the bronze plaques, pause at the dates and discover how the city changed. Begin with the information board, look for the plaque showing the Town Hall clock, then follow the dates. From the bishopric established in 1000 to the railway, Centennial Hall, Solidarity and the 1997 flood, the trail invites you to learn by walking, looking and talking. Our photographs show details of the plaques and the information board, rather than every plaque on the trail.",
+        "pl": "Na placu Nankiera historia Wrocławia jest dosłownie wpisana w chodnik. Spaceruj wzdłuż płyt z brązu, zatrzymuj się przy datach i odkrywaj przemiany miasta. Zacznij od tablicy informacyjnej, znajdź płytę z zegarem ratuszowym i podążaj za datami. Od utworzenia biskupstwa w 1000 roku po kolej, Halę Stulecia, Solidarność i powódź z 1997 roku, ścieżka zachęca do poznawania miasta przez spacer, obserwację i rozmowę. Nasze zdjęcia pokazują detale płyt i tablicę, a nie kompletną dokumentację szlaku.",
+        "de": "Auf dem Nankierplatz liegt Wrocławs Geschichte buchstäblich im Pflaster. Gehen Sie an den Bronzetafeln entlang, halten Sie bei den Jahreszahlen inne und entdecken Sie den Wandel der Stadt. Beginnen Sie an der Informationstafel, suchen Sie die Platte mit der Rathausuhr und folgen Sie den Daten. Vom 1000 gegründeten Bistum über die Eisenbahn und die Jahrhunderthalle bis zu Solidarność und dem Hochwasser von 1997 lässt sich Stadtgeschichte beim Gehen, Schauen und Erzählen entdecken. Unsere Fotos zeigen Details und die Informationstafel, nicht sämtliche Platten des Weges.",
+        "cs": "Na náměstí Nankiera je historie Vratislavi doslova vepsána do chodníku. Projděte se podél bronzových desek, zastavujte se u letopočtů a objevujte proměny města. Začněte informační tabulí, najděte desku s radničními hodinami a pokračujte podle dat. Od založení biskupství v roce 1000 přes železnici a Halu století až po Solidaritu a povodeň v roce 1997 poznáte město chůzí, pozorováním a rozhovorem. Naše fotografie zachycují detaily desek a informační tabuli, nikoli celý soubor."
+      },
+      "photo": "/assets/experiences/history-trail/history-trail-02.jpg"
+    }
+  ],
+  "mapTitle": {
+    "he": "אל שביל ההיסטוריה",
+    "en": "Find the History Trail",
+    "pl": "Znajdź ścieżkę historii",
+    "de": "Den Geschichtsweg finden",
+    "cs": "Najděte stezku historie"
+  },
+  "mapNote": {
+    "he": "הסיכה מציינת את אזור שביל הלוחות בכיכר ננקיירה. הגיעו לכיכר וחפשו את לוחות הברונזה במדרכה. כל התאריכים נמצאים לאורך אותו שביל, ולא באתרים נפרדים ברחבי העיר.",
+    "en": "The pin marks the plaque trail area on Nankiera Square. Reach the square and look for bronze plaques in the pavement. The dates belong to this single trail, not separate sites across the city.",
+    "pl": "Pinezka wskazuje obszar ścieżki na placu Nankiera. Na miejscu szukaj płyt z brązu w chodniku. Daty należą do jednej ścieżki, a nie do osobnych miejsc w całym mieście.",
+    "de": "Die Markierung zeigt den Bereich des Tafelwegs am Nankierplatz. Suchen Sie dort nach Bronzeplatten im Pflaster. Die Daten gehören zu diesem einen Weg, nicht zu verschiedenen Orten in der Stadt.",
+    "cs": "Značka ukazuje oblast stezky na náměstí Nankiera. Na místě hledejte bronzové desky v chodníku. Data patří k této jediné stezce, nikoli k různým místům ve městě."
+  },
+  "media": {
+    "hero": {
+      "src": "/assets/experiences/history-trail/history-trail-05.jpg"
+    },
+    "images": [
+      "/assets/experiences/history-trail/history-trail-01.jpg",
+      "/assets/experiences/history-trail/history-trail-02.jpg",
+      "/assets/experiences/history-trail/history-trail-03.jpg",
+      "/assets/experiences/history-trail/history-trail-04.jpg",
+      "/assets/experiences/history-trail/history-trail-05.jpg",
+      "/assets/experiences/history-trail/history-trail-06.jpg",
+      "/assets/experiences/history-trail/history-trail-07.jpg",
+      "/assets/experiences/history-trail/history-trail-08.jpg",
+      "/assets/experiences/history-trail/history-trail-09.jpg"
+    ],
+    "videos": []
+  },
+  "social": [],
+  "metadata": {
+    "source": "data/history-trail-provenance.json",
+    "verifiedAt": "2026-11-18"
+  }
+});
+
   const byId = Object.freeze(Object.fromEntries(experiences.map((experience) => [experience.id, Object.freeze(experience)])));
   const getExperience = (id) => byId[id] || null;
   const forProduct = (productId) => experiences.filter((experience) => experience.productRefs.includes(productId));

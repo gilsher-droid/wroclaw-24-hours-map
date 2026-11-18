@@ -1,0 +1,101 @@
+{
+  "experienceId": "wroclaw-history-trail",
+  "sourceAlbum": "History Trail",
+  "reviewedSourceCount": 25,
+  "publishedCount": 9,
+  "selection": "Distinct plaque details and information board. Repeated exports and near-identical views omitted. No posed portraits selected; incidental shoe tips/shadows on ground remain in full pictures. Originals unchanged. Optimized files contain no EXIF.",
+  "location": {
+    "coordinates": [
+      51.112617,
+      17.037681
+    ],
+    "scope": "Trail reference point, not surveyed position of each plaque",
+    "corroboration": "Source photograph IMG_1071.JPG GPS places the visit on the same square; municipal source identifies plac Nankiera.",
+    "coordinateSource": "https://commons.wikimedia.org/wiki/Category:History_Pathway_in_Wrocław"
+  },
+  "sources": [
+    {
+      "url": "https://www.wroclaw.pl/dla-mieszkanca/sciezka-historii-wroclawia-plac-nankiera-tablica-olga-tokarczuk",
+      "use": "Identity, location, clock title plaque, additions over time"
+    },
+    {
+      "source": "the sign.jpeg",
+      "use": "On-site list of dated events, historical snapshot only"
+    }
+  ],
+  "photos": [
+    {
+      "sourceFile": "the sign.jpeg",
+      "sourceSHA256": "51767734e11fa204148ccc70a225b93ff485feb4dc8f09ae93aa61bf64973c40",
+      "src": "/assets/experiences/history-trail/history-trail-01.jpg",
+      "assetSHA256": "617a1df9ab41e78e797c8db8731d1390821ff09a38a3539933189fd8a9da3811",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    },
+    {
+      "sourceFile": "IMG_1071.JPG",
+      "sourceSHA256": "0fcf96c89eae4d2f34d8a76fcf393812cb63d00d1ae688df79589b1539afe6fc",
+      "src": "/assets/experiences/history-trail/history-trail-02.jpg",
+      "assetSHA256": "989e4c025ab9246dcc8506c1a9fab46fa78bdfa7f5a84bfd889007d7c4b55c2b",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    },
+    {
+      "sourceFile": "IMG_1072.JPG",
+      "sourceSHA256": "b0ad552beec71d41469da61ee9c773df294594ddb83c3eb78ba79b7035bff4a8",
+      "src": "/assets/experiences/history-trail/history-trail-03.jpg",
+      "assetSHA256": "218683c3a8890b585c51d24e85f44c5deb1369bfecd4504cf32b9ed0e6d7553a",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    },
+    {
+      "sourceFile": "IMG_1074.JPG",
+      "sourceSHA256": "d32697ec7f3ca236c299e8631b4bea08d06b8507aa3ba62973e741bc21076aed",
+      "src": "/assets/experiences/history-trail/history-trail-04.jpg",
+      "assetSHA256": "964afa98326392be192c4962474453cca4d37521c4677bad984abb4b495a61b3",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    },
+    {
+      "sourceFile": "IMG_1077.JPG",
+      "sourceSHA256": "7ddfae2f3976cdb2c318e2cf0e1704626cc9be8c55844611d10c486aa7cb5845",
+      "src": "/assets/experiences/history-trail/history-trail-05.jpg",
+      "assetSHA256": "bc1584e84b6b0ee46567372a41f3598f85e9d7f701c78fe8d69ff5af92bad80b",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    },
+    {
+      "sourceFile": "IMG_1081.JPG",
+      "sourceSHA256": "400760e8639aa9b33e5499f362924e1e6c24d1e0f257f3b39019ac854c0886bb",
+      "src": "/assets/experiences/history-trail/history-trail-06.jpg",
+      "assetSHA256": "470976f990f214a1f97f97218d87c16bb851526dc7d337e20b2e2736cf3e799e",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    },
+    {
+      "sourceFile": "IMG_1083.JPG",
+      "sourceSHA256": "4254568f12732468337fbc7ebca5b15e2c2d52cc58b117750d9aa277878fa8df",
+      "src": "/assets/experiences/history-trail/history-trail-07.jpg",
+      "assetSHA256": "29c9d3d4fded45bbb117296cf0fef321d1edac264eebf34a9e1d1fbf522a3f6b",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    },
+    {
+      "sourceFile": "IMG_1084.JPG",
+      "sourceSHA256": "bf88056e8ae2c24dc297092a6b057f556b4145eb5a9c06b30c07e86339e3736c",
+      "src": "/assets/experiences/history-trail/history-trail-08.jpg",
+      "assetSHA256": "419f3c4baea9e6e869b6215c85fdac67f97bda406b51f551ea4af2eed5d29cce",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    },
+    {
+      "sourceFile": "IMG_1085.JPG",
+      "sourceSHA256": "34f581eaed841de4dddb8292bcb6d076b68973e0734d2ac639307a1c14950e2a",
+      "src": "/assets/experiences/history-trail/history-trail-09.jpg",
+      "assetSHA256": "75484a98ae988914cc7e15dfca62fd5f2d75af75f664e6e0b5b12b6fa916f100",
+      "originalFullPicturePreserved": true,
+      "personalPortrait": false
+    }
+  ],
+  "reviewedAt": "2026-11-18"
+}

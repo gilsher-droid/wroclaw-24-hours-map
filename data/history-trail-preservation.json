@@ -1,0 +1,26 @@
+{
+  "id": "wroclaw-history-trail",
+  "experienceHash": "c4eb1a003bd1e492953512a0a1a6d47fbf579cca51149e56edc9f3b2507bc4a6",
+  "homeHash": "43168437a70c1429bb0d28c580d2cbc6a719ecf9753b0286f71d090c1ca28dbe",
+  "beforeExperienceHashes": {
+    "street-art-nadodrze-olbin": "571b90a45b068a062e3281ba900f5880612ffb41fc2d64be9b8f13de903e5450",
+    "culture-evening": "5838745b47e5fb3e8eb8596e915b42a26f66b5a056fd5de45edf0f4b4d81062b",
+    "polinka-cable-car-ride": "8ccc299f547472666fdaa28b08ba0cc07cc69f8a45909aaa760d60f3bffc838c",
+    "oder-river-cruise": "6db143b3beff2aaa4a04c7adb3adda1340b5c3e285dbbae56e3b2c052b9ef5d2",
+    "wroclaw-multimedia-fountain-show": "01f3ea32857306f5f97817433f6276ee39f773434712354ea6d37e9f731fddfa",
+    "wroclaw-dwarf-hunt": "867854bc94cb543b53d8078f9fca580739c58ea9e1dd9591032417a4d237453b",
+    "summer-bathing-and-relaxation": "959f3c2ec3ba621c59c731194ec332339ae7edacdd368b587ec8f1cd8b6928f9",
+    "underground-wwii-tunnels": "c9c922317b6cc1c19523c05e6dce6fff0781a5be549f5fbcaf86af4d9c845b88",
+    "wroclaw-prague-public-transport": "495b5f65145ca8a4b5dd40c4431a7ecd6173d0e8ee57fd53679b85d2beb0832b",
+    "wroclaw-tram-ride": "d897e188e36e2585cd6194d740f584be9d673d361cd9e058466aa9bc80902d03",
+    "beach-bars-and-waterside-summer": "516bac97f5ab37bc51ad5dbc262de87abbfe9850bb0a244347e89b0dc01acb13",
+    "nadodrze-neighbourhood-walk": "42359c38f57ade885145c85dd9ad6e0b7b6321dce0942d8d0572f8dfc36d24c4",
+    "wroclaw-milk-bars": "030e30c823513da6501cde3ad333d93e9eed73f762bd2111c12b850251aaf097",
+    "coffee-lovers-wroclaw": "8a898bf1cd721370ed95a12f2cb1d589df79626f1f19dd45e8f085dbf9ff7a1b",
+    "bridges-and-islands-wroclaw": "8a189a79572cd0ff95bc272659606e941fe9246e1ee2a3dd1edb19ed892866ed",
+    "foodies-wroclaw": "5c2d67795539ca867b8ed2b142e3e0f19130989c7a4e79b0d68bb6844e47bb30",
+    "vegetarian-vegan-wroclaw": "1f7597734fcdafe20afb688cd844049415be7883708e224295e27527d681a08a",
+    "ostrow-tumski-lamplighter": "40ef7dc318c08e3240fd21060a6deeeb909baabadcbd46c5846a4dd38ca9fdf7",
+    "fine-dining-wroclaw": "831403f40fdd34a9865ae48f4ad7402e639975976257d4a6b05b8406b8e5419d"
+  }
+}

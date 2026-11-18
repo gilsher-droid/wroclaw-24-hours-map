@@ -4,6 +4,9 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import vm from 'node:vm';
 const window={};for(const file of ['place-catalog','canonical-experiences','home-experiences','youtube-video-hosting'])vm.runInNewContext(readFileSync(new URL(`../data/${file}.js`,import.meta.url),'utf8'),{window});
+const historyTrailRegistry=window.WROC_EXPERIENCE_CATALOG;
+const historyTrailHome=window.WROC_HOME_EXPERIENCES.find(e=>e.id==='wroclaw-history-trail');
+window.WROC_HOME_EXPERIENCES=window.WROC_HOME_EXPERIENCES.filter(e=>e.id!=='wroclaw-history-trail');
 beforeLykSnapshot(window);
 const registry=window.WROC_EXPERIENCE_CATALOG;
 test('Eight historical public experiences reuse canonical places and retain separately scoped area media',()=>{
@@ -34,4 +37,17 @@ test('Coffee experience reuses fifteen distinct city cafes and their assigned ga
  for(const lang of ['he','en','pl','de','cs']){assert.ok(e.name[lang]);assert.ok(e.description[lang]);}
  assert.equal(registry.getExperience('vegan-vegetarian-wroclaw'),null);
  assert.equal(registry.getExperience('foodies-wroclaw'),null);
+});
+
+// Keep the older eight-card assertions above at their original scope.
+test('History Trail is discoverable and has original photos and a navigable location in all five languages',()=>{
+ const e=historyTrailRegistry.getExperience('wroclaw-history-trail');assert.ok(historyTrailHome);
+ assert.equal(e.mapPoints.length,1);
+ assert.deepEqual(Array.from(e.mapPoints[0].coordinates),[51.112617,17.037681]);
+ assert.equal(e.mapZoom,17);
+ const media=historyTrailRegistry.resolveMedia(e);assert.equal(media.images.length,9);
+ assert.equal(new Set(media.images).size,9);
+ for(const src of media.images)assert.ok(existsSync(new URL('..'+src,import.meta.url)));
+ for(const l of ['he','en','pl','de','cs'])for(const field of ['name','description','visitNote','mapTitle','mapNote'])assert.ok(e[field][l]);
+ assert.equal(e.relatedCanonicalPlaceIds.length,0);
 });
