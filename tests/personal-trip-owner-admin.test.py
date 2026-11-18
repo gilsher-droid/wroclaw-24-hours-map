@@ -151,7 +151,9 @@ class OwnerAccess(unittest.TestCase):
   # Expired codes cannot be used by a fresh client, either.
   fresh=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));raw=self.req(fresh,'')[1];csrf=re.search(b'name="csrf-token" content="([^"]+)"',raw)[1].decode()
   self.assertEqual(self.req(fresh,'?action=login',urlencode({'csrf':csrf,'username':'alice','password':code}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],401)
-  self.assertNotIn(code.encode(),self.get('?action=owner-access&customer='+self.alice+'&event='+event['id'])[1])
+  page=self.get('?action=owner-access&customer='+self.alice+'&event='+event['id'])[1]
+  self.assertIn(b'It is no longer available to send.',page)
+  self.assertNotIn(b'id="copy-email"',page);self.assertNotIn(b'id="copy-messenger"',page)
  def test_customer_changes_temporary_code_and_old_code_is_not_reusable(self):
   self.csrf=self.login(self.client,'owner');_,page,_=self.post_reset(self.reset_form());code=self.temporary_code(page);event=self.newest_event()
   c=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()));_,raw,_=self.req(c,'');csrf=re.search(b'name="csrf-token" content="([^"]+)"',raw)[1].decode()
@@ -161,7 +163,11 @@ class OwnerAccess(unittest.TestCase):
   self.assertEqual(self.req(c,'?action=password',urlencode({'csrf':csrf,'current':code,'new':new,'confirm':new}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})[0],200)
   record=json.loads((self.private/'users'/f'{self.alice}.json').read_text());self.assertFalse(record['mustChangePassword']);self.assertNotIn('accessResetId',record);self.assertNotIn('temporaryCodeExpiresAt',record)
   self.assertEqual(self.req(c,'?action=album-context')[0],200)
-  page=self.get('?action=owner-access&customer='+self.alice+'&event='+event['id'])[1];self.assertNotIn(code.encode(),page)
+  page=self.get('?action=owner-access&customer='+self.alice+'&event='+event['id'])[1]
+  # Random CSRF/intent hashes may contain the same four digits by coincidence.
+  # Check that private delivery is unavailable, not arbitrary hash substrings.
+  self.assertIn(b'It is no longer available to send.',page)
+  self.assertNotIn(b'id="copy-email"',page);self.assertNotIn(b'id="copy-messenger"',page)
  def test_delivery_state_is_truthful_and_public_update_has_no_credentials(self):
   self.csrf=self.login(self.client,'owner');_,page,_=self.post_reset(self.reset_form());code=self.temporary_code(page);event=self.newest_event()
   self.assertIn(b'Automatic email is not connected',page);self.assertNotIn(b'id="copy-publicThread"',page)
