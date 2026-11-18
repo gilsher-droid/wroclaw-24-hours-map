@@ -69,6 +69,11 @@ class DeliveryMailTests(unittest.TestCase):
         he = mail.build_delivery_email(self.request('he'), self.access())
         self.assertEqual(en['deliveryKey'], he['deliveryKey'])
 
+    def test_website_request_requires_protected_server_approval(self):
+        request = {**self.request('en'), 'approvalRequired': True, 'approval': {'decision': 'approved'}, 'source': 'owner-approved'}
+        with self.assertRaises(ValueError):
+            mail.build_delivery_email(request, self.access())
+
 
 if __name__ == '__main__':
     unittest.main()
