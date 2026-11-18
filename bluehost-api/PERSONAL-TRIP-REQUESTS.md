@@ -20,10 +20,11 @@ in browser storage.
 `accepted: true` means a durable private record exists. PHP mail transport
 acceptance is recorded separately for each recipient. It is not proof of inbox
 delivery. Review `notificationState: needs-owner-review` in the private queue if
-mail transport fails. Owners can retrieve records through their authenticated
-hosting file manager. This initial release does not provide a customer login or
-an inquiry administration screen. Do not put queue records into the public
-website or assume the analytics dashboard exposes them.
+mail transport fails. Owners review inquiries through the existing authenticated personal-map owner
+dashboard. New website requests wait for explicit owner approval before
+production, customer access or delivery. See PERSONAL-MAP-APPROVAL.md for the
+server gate, preserved legacy access and direct-owner-instruction workflow.
+Never put private queue records into the public website.
 
 The public GET health check returns readiness and version only. Configuration
 and private queue records must remain unreachable over HTTP. Do not add the

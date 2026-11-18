@@ -79,7 +79,9 @@ def request_context(request):
     return {'language': language, 'reference': reference, 'recipient': recipient}
 
 
-def build_delivery_email(request, access):
+def build_delivery_email(request, access, *, _server_approved=False):
+    if request.get('approvalRequired') and not _server_approved:
+        raise ValueError('Verify owner approval from protected server storage before delivery')
     context = request_context(request)
     language = context['language']
     text = COPY[language]
@@ -115,9 +117,26 @@ def build_delivery_email(request, access):
 if __name__ == '__main__':
     try:
         envelope = json.load(sys.stdin)
-        result = build_delivery_email(envelope['request'], envelope['access'])
+        request = envelope['request']
+        verified = False
+        if request.get('approvalRequired'):
+            # Browser JSON, an approval flag or a copied receipt cannot authorize delivery.
+            # Run this mode on the host with the protected request queue available.
+            import pathlib, subprocess
+            if len(sys.argv) != 3 or sys.argv[1] != '--private-dir':
+                raise ValueError('Protected server verification required')
+            private = pathlib.Path(sys.argv[2]).resolve()
+            reference = single_line(request.get('reference'))
+            guard = pathlib.Path(__file__).with_name('request-approval.php')
+            checked = subprocess.run(['php', str(guard), 'check', str(private), reference, 'delivery'], capture_output=True)
+            if checked.returncode != 0:
+                raise ValueError('Owner approval required')
+            matches = [json.loads(p.read_text()) for p in (private.parent / 'trip-requests-private' / 'requests').glob('*.json')]
+            request = next(r for r in matches if r.get('reference') == reference)
+            verified = True
+        result = build_delivery_email(request, envelope['access'], _server_approved=verified)
         json.dump(result, sys.stdout, ensure_ascii=False)
-    except (ValueError, KeyError, TypeError, AttributeError):
+    except (ValueError, KeyError, TypeError, AttributeError, OSError, StopIteration):
         # Do not echo input, credentials, email addresses or parser source excerpts.
         print('Cannot prepare delivery email: check request language, reference and access fields.', file=sys.stderr)
         sys.exit(1)

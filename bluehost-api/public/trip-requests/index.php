@@ -25,7 +25,7 @@ if (!is_file($configPath)) reply(['accepted'=>false,'code'=>'unavailable'],503);
 $config = require $configPath;
 if (!is_array($config) || empty($config['recipients']) || count($config['recipients']) !== 2 || empty($config['rateSalt'])) reply(['accepted'=>false,'code'=>'unavailable'],503);
 foreach($config['recipients'] as $recipient) if(!is_string($recipient)||!filter_var($recipient,FILTER_VALIDATE_EMAIL)||strpbrk($recipient,"\r\n")!==false)reply(['accepted'=>false,'code'=>'unavailable'],503);
-if ($method === 'GET') reply(['ready'=>true,'version'=>1]);
+if ($method === 'GET') reply(['ready'=>true,'version'=>2,'approvalGate'=>'owner-required']);
 if ($method !== 'POST') reply(['accepted'=>false],405);
 if (!in_array($origin, $allowed, true)) reply(['accepted'=>false],403);
 if (strtolower(trim(explode(';', $_SERVER['CONTENT_TYPE'] ?? '')[0])) !== 'application/json') reply(['accepted'=>false],415);
@@ -76,9 +76,9 @@ try {
     if(count($times)>=5 || ($times && max($times)>$now-30)) reply(['accepted'=>false,'code'=>'rateLimit'],429);
     $rate[$rateKey][]=$now;if(file_put_contents($ratePath,json_encode($rate),LOCK_EX)===false)throw new RuntimeException('rate');
     $reference='WL-'.strtoupper(bin2hex(random_bytes(6)));
-    $record=['reference'=>$reference,'createdAt'=>gmdate('c'),'status'=>'received','fingerprint'=>$fingerprint,'details'=>$details,'notifications'=>[]];
+    $record=['reference'=>$reference,'createdAt'=>gmdate('c'),'status'=>'pending-owner-approval','source'=>'website','approvalRequired'=>true,'fingerprint'=>$fingerprint,'details'=>$details,'notifications'=>[]];
     if (file_put_contents($file,json_encode($record,JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT),LOCK_EX)===false)throw new RuntimeException('save');
-    $body="New personal-trip quote request. No payment or booking has been made.\nReference: ".$reference."\n\n".json_encode($details,JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
+    $body="New personal-map request. OWNER APPROVAL REQUIRED before production, access or delivery. No payment or booking has been made.\nReference: ".$reference."\n\n".json_encode($details,JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
     $headers=['From: WROC-LOVE <requests@wroc-love.com>','Reply-To: '.$email,'MIME-Version: 1.0','Content-Type: text/plain; charset=UTF-8'];
     foreach($config['recipients'] as $i=>$recipient){
         if (!is_string($recipient) || !filter_var($recipient,FILTER_VALIDATE_EMAIL) || strpbrk($recipient,"\r\n")!==false) throw new RuntimeException('config');
