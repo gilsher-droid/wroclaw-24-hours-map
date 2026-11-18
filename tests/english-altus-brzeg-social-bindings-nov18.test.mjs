@@ -1,3 +1,4 @@
+import {beforeNov18EnglishSecondSix} from './english-second-six-social-bindings-nov18-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -21,7 +22,7 @@ test('Only the three verified English place/platform cells use the accepted post
 
 test('All 344 other records and all target media, identity and historical rows remain exact', () => {
   assert.equal(Object.keys(catalog.places).length, proof.beforeCount);
-  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(catalog.getPlace(id)), expected, id);
+  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov18EnglishSecondSix(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
     const place = catalog.getPlace(id);
     assert.equal(hash(Object.fromEntries(Object.entries(place).filter(([key]) => key !== 'socialPosts'))), expected.beforeNonSocialHash, id);

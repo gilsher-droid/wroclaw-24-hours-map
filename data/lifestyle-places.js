@@ -208,3 +208,14 @@ if (window.WROC_CATALOG) {
 
 // Original visit photograph uses the existing DoubleTree identity and map pin.
 (function(){const p=window.WROC_LIFESTYLE_PLACES.find(p=>p.id==="doubletree");if(p)p.mediaKey=p.id;})();
+
+
+// Verified exact branch source, 18 November 2026. No assertion of current opening hours.
+(function () {
+  const place = window.WROC_LIFESTYLE_PLACES.find(row => row.id === "dobra-paczkarnia-kuznicza");
+  if (!place || place.description.en !== "The chain’s official website lists this branch as temporarily closed. Check its current status before visiting." || (place.links?.website ?? null) !== null) {
+    throw new Error('Unexpected Dobra branch information baseline');
+  }
+  place.description = {...place.description, en: "Two photographs from an earlier visit to the Kuźnicza 25 branch. Check the operator’s official branch page for current visiting arrangements before planning a visit.\nKuźnicza 25, Wrocław"};
+  place.links = {...place.links, website: "https://dobrapaczkarnia.pl/nasze-punkty/wroclaw-kuznicza/"};
+})();

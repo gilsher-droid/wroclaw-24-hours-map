@@ -179,6 +179,7 @@ for (const source of sources) {
       ...(record.placeType ? { placeType: record.placeType } : {}),
       ...(record.amenities ? { amenities: record.amenities } : {}),
       ...(record.availability ? { availability: record.availability } : {}),
+      ...(record.links ? { _legacyLinks: record.links } : {}),
     };
 
     if (!places.has(canonicalId)) places.set(canonicalId, candidate);
@@ -248,7 +249,7 @@ for (const place of places.values()) {
     openingHoursNotes: null,
     ...visit,
   };
-  const links = place.links || {};
+  const links = place.links || place._legacyLinks || {};
   place.links = {
     website: null,
     navigation: { googleMaps: null, appleMaps: null },
@@ -298,6 +299,7 @@ for (const place of places.values()) {
   place.languages = place.languages || ["he", "en", "pl", "de", "cs"];
   delete place._canonicalMedia;
   delete place._canonicalSocialPosts;
+  delete place._legacyLinks;
   delete place._rank;
 }
 
