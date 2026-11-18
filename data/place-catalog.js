@@ -1167,6 +1167,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/Df5M-AzB5aj/",
+        "account": "wroclaw.lowersilesia",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-altus-brzeg-written-photo-routing-20261118"
+      },
+      {
         "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/61595036942289/posts/122121358791501231/",
@@ -10519,6 +10527,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121407691501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-altus-brzeg-written-photo-routing-20261118"
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116629435506922/",
         "account": "61595207664875",
@@ -10840,6 +10856,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121413247501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-altus-brzeg-written-photo-routing-20261118"
+      },
       {
         "platform": "facebook",
         "language": "he",
