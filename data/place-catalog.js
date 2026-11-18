@@ -13757,7 +13757,7 @@
         "url": "https://www.facebook.com/61595036942289/posts/122121424773501231/",
         "account": "61595036942289",
         "verifiedAt": "2026-11-18",
-        "context": "verified-en-second-six-written-photo-routing-20261118"
+        "context": "verified-en-eleven-written-photo-routing-20261118"
       },
       {
         "platform": "instagram",
@@ -14022,7 +14022,7 @@
         "url": "https://www.facebook.com/61595036942289/posts/122121425799501231/",
         "account": "61595036942289",
         "verifiedAt": "2026-11-18",
-        "context": "verified-en-second-six-written-photo-routing-20261118"
+        "context": "verified-en-eleven-written-photo-routing-20261118"
       },
       {
         "platform": "instagram",
@@ -14814,7 +14814,7 @@
         "url": "https://www.facebook.com/61595036942289/posts/122121427233501231/",
         "account": "61595036942289",
         "verifiedAt": "2026-11-18",
-        "context": "verified-en-second-six-written-photo-routing-20261118"
+        "context": "verified-en-eleven-written-photo-routing-20261118"
       },
       {
         "platform": "facebook",
@@ -15591,7 +15591,7 @@
         "url": "https://www.facebook.com/61595036942289/posts/122121428523501231/",
         "account": "61595036942289",
         "verifiedAt": "2026-11-18",
-        "context": "verified-en-second-six-written-photo-routing-20261118"
+        "context": "verified-en-eleven-written-photo-routing-20261118"
       },
       {
         "platform": "instagram",
@@ -16242,7 +16242,7 @@
         "url": "https://www.facebook.com/61595036942289/posts/122121429717501231/",
         "account": "61595036942289",
         "verifiedAt": "2026-11-18",
-        "context": "verified-en-second-six-written-photo-routing-20261118"
+        "context": "verified-en-eleven-written-photo-routing-20261118"
       },
       {
         "platform": "facebook",
@@ -20144,7 +20144,7 @@
         "url": "https://www.facebook.com/61595036942289/posts/122121430701501231/",
         "account": "61595036942289",
         "verifiedAt": "2026-11-18",
-        "context": "verified-en-second-six-written-photo-routing-20261118"
+        "context": "verified-en-eleven-written-photo-routing-20261118"
       },
       {
         "platform": "facebook",
@@ -21285,6 +21285,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121432111501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131972689398802/",
         "verifiedAt": "2026-11-11",
@@ -22356,6 +22364,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121434949501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -23676,6 +23692,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121437073501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -25006,6 +25030,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121438987501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "instagram",
         "language": "he",
@@ -26964,6 +26996,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121440397501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "instagram",
         "language": "he",

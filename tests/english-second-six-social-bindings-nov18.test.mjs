@@ -10,7 +10,7 @@ const catalog = window.WROC_CATALOG;
 const registry = JSON.parse(readFileSync('data/localized-social-posts.json'));
 const hash = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 
-test('The six verified English Facebook cells route to their original-account photo posts', () => {
+test('The eleven verified English Facebook cells route to their original-account photo posts', () => {
   for (const row of proof.targets) {
     const selected = catalog.getSocialPost(row.id, row.platform, row.language);
     assert.equal(selected?.url, row.url);
@@ -20,7 +20,7 @@ test('The six verified English Facebook cells route to their original-account ph
   }
 });
 
-test('All 341 other records and every historical social row remain exact', () => {
+test('All 336 other records and every historical social row remain exact', () => {
   assert.equal(Object.keys(catalog.places).length, proof.beforeCount);
   for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(catalog.getPlace(id)), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
