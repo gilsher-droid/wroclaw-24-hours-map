@@ -16,7 +16,7 @@
     "cultural.html": "cultural-adventure",
     "guides.html": "guided-city-map",
   });
-  const utmKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+  const utmKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_id", "utm_content", "utm_term"];
   const allowedEvents = new Set([
     "interactive_maps_click", "map_open", "place_open", "experience_open",
     "news_ticker_click", "outbound_link_click",
@@ -106,7 +106,10 @@
   function context() {
     const path = location.pathname.split("/").pop();
     const surface = path === "nearby.html" ? "nearby" : path === "experiences.html" ? "experiences" : path === "personal-trip.html" ? "personal_trip" : productId() ? "map" : "website";
-    const traffic = attribution().utm_source?.toLowerCase();
+    const rawTraffic = attribution().utm_source?.toLowerCase();
+    // Meta's automatic URL tags use fb/ig; keep the original UTM values for
+    // GA4 while grouping these aliases consistently in our own counters.
+    const traffic = ({ fb: "facebook", ig: "instagram" })[rawTraffic] || rawTraffic;
     return { ...(selectedGuidePlace() ? { canonical_place_id: selectedGuidePlace() } : {}), language: language(), site_language: language(), source_surface: surface, traffic_source: ["facebook", "instagram", "google", "bing", "youtube"].includes(traffic) ? traffic : traffic ? "other" : "direct", ...(productId() ? { product_id: productId() } : {}), ...attribution() };
   }
 

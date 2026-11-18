@@ -148,3 +148,34 @@ test("unknown guide place IDs do not create place_open events", () => {
   state.window.WROC_ANALYTICS.setConsent({ analytics: true });
   assert.deepEqual(state.calls().filter(c => c[0] === "event").map(c => c[1]), ["page_view", "map_open"]);
 });
+
+test("manual campaign IDs survive sanitizing and consented navigation without leaking click or private IDs", () => {
+  const storage = new Map();
+  const landing = page("https://wroc-love.com/products/interactive-maps/guides.html?lang=en&utm_source=fb&utm_medium=paid&utm_campaign=sample&utm_id=campaign-fixture&utm_content=ad-fixture&fbclid=private-click&email=private@example.com#private-token", { ga4MeasurementId: "G-ABC123" }, storage);
+  assert.equal(storage.size, 0);
+  assert.equal(landing.calls().length, 0);
+  landing.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  const config = landing.calls().find(c => c[0] === "config")[2];
+  assert.equal(new URL(config.page_location).searchParams.get("utm_id"), "campaign-fixture");
+  const event = landing.calls().find(c => c[1] === "map_open")[2];
+  assert.equal(event.utm_id, "campaign-fixture");
+  assert.equal(event.utm_content, "ad-fixture");
+  assert.equal(event.traffic_source, "facebook");
+  assert.equal(event.utm_source, "fb");
+  assert.equal(JSON.stringify(landing.calls()).includes("private"), false);
+  const next = page("https://wroc-love.com/products/interactive-maps/lifestyle.html?lang=pl", { ga4MeasurementId: "G-ABC123" }, storage);
+  next.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  assert.equal(next.calls().find(c => c[1] === "map_open")[2].utm_id, "campaign-fixture");
+  next.window.WROC_ANALYTICS.setConsent({ analytics: false });
+  assert.equal(storage.has("wroc-analytics-attribution"), false);
+});
+
+test("Meta source aliases group correctly without rewriting campaign attribution", () => {
+  for (const [source, grouped] of [["ig", "instagram"], ["fb", "facebook"], ["instagram", "instagram"], ["facebook", "facebook"], ["meta", "other"]]) {
+    const state = page(`https://wroc-love.com/?utm_source=${source}`, { ga4MeasurementId: "G-ABC123" });
+    state.window.WROC_ANALYTICS.setConsent({ analytics: true });
+    const event = state.calls().find(c => c[1] === "page_view")[2];
+    assert.equal(event.traffic_source, grouped);
+    assert.equal(event.utm_source, source);
+  }
+});
