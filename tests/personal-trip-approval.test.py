@@ -92,6 +92,10 @@ class Approval(unittest.TestCase):
   _,page,_=self.req(self.client,'');csrf=re.search(b'name="csrf-token" content="([^\"]+)"',page)[1].decode()
   status,raw,_=self.req(self.client,'?action=login',urlencode({'csrf':csrf,'username':'alice','password':'synthetic-only'}).encode(),{'Content-Type':'application/x-www-form-urlencoded'})
   self.assertEqual(status,403)
+ def test_historical_installed_map_is_not_offered_for_preparation_again(self):
+  r=json.loads(self.path.read_text());r['reference']='WL-000000000000';r['status']='received';self.path.write_text(json.dumps(r))
+  self.sign_owner();status,page,_=self.get('?action=requests');self.assertEqual(status,200)
+  self.assertIn(b'existing-map-preserved',page);self.assertNotIn(b'Approve preparation',page)
  def test_declined_request_cannot_proceed(self):
   self.sign_owner();self.assertEqual(self.post('request-decision',decision='rejected')[0],200)
   self.assertEqual(self.post('request-start')[0],409)
