@@ -13752,6 +13752,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121424773501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
+      {
         "platform": "instagram",
         "language": "he",
         "url": "https://www.instagram.com/p/DfwsE0cEYdu/",
@@ -14008,6 +14016,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121425799501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "instagram",
         "language": "he",
@@ -14794,6 +14810,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121427233501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131949847398802/",
         "verifiedAt": "2026-11-11",
@@ -15562,6 +15586,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121428523501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
+      {
         "platform": "instagram",
         "language": "he",
         "url": "https://www.instagram.com/p/DfwLDbpEXKU/",
@@ -16204,6 +16236,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121429717501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "facebook",
         "language": "pl",
@@ -20018,7 +20058,7 @@
     },
     "description": {
       "he": "לפי אתר הרשת, הסניף סגור זמנית. בדקו את המצב העדכני באתר הרשמי לפני ביקור.",
-      "en": "The chain’s official website lists this branch as temporarily closed. Check its current status before visiting.",
+      "en": "Two photographs from an earlier visit to the Kuźnicza 25 branch. Check the operator’s official branch page for current visiting arrangements before planning a visit.\nKuźnicza 25, Wrocław",
       "pl": "Oficjalna strona sieci podaje, że ten lokal jest chwilowo zamknięty. Sprawdź aktualny status przed wizytą.",
       "de": "Die offizielle Website der Kette führt diese Filiale als vorübergehend geschlossen. Prüfen Sie den aktuellen Status vor einem Besuch.",
       "cs": "Oficiální web řetězce uvádí, že tato pobočka je dočasně uzavřena. Před návštěvou ověřte aktuální stav."
@@ -20084,7 +20124,7 @@
       "openingHoursNotes": null
     },
     "links": {
-      "website": null,
+      "website": "https://dobrapaczkarnia.pl/nasze-punkty/wroclaw-kuznicza/",
       "navigation": {
         "googleMaps": null,
         "appleMaps": null
@@ -20098,6 +20138,14 @@
       "videos": []
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121430701501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -21237,6 +21285,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121432111501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131972689398802/",
         "verifiedAt": "2026-11-11",
@@ -22308,6 +22364,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121434949501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -23628,6 +23692,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121437073501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -24958,6 +25030,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121438987501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "instagram",
         "language": "he",
@@ -26916,6 +26996,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121440397501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-eleven-written-photo-routing-20261118"
+      },
       {
         "platform": "instagram",
         "language": "he",

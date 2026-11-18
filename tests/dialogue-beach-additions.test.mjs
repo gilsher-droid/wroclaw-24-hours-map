@@ -1,3 +1,4 @@
+import {beforeNov18EnglishSecondSixLegacyRow} from './english-second-six-social-bindings-nov18-historical-baseline.mjs';
 import {beforeCafeTargowaSnapshot} from './cafe-targowa-visit-photos-historical-baseline.mjs';
 import {beforeBridgesNorthSnapshot,beforeBridgesNorthSource} from './bridges-north-historical-baseline.mjs';
 import test from 'node:test';
@@ -88,7 +89,7 @@ test('Two separate beach bars extend the prior Morskie Oko reference while all o
     ['WROC_CULTURAL_PLACES', proof.beforeCulturalHashes],
   ]) {
     for (const [id, beforeHash] of Object.entries(hashes)) {
-      if(!proof.updatedIds.includes(id))assert.equal(hash(window[field].find(row => row.id === id)), beforeHash, id);
+      if(!proof.updatedIds.includes(id))assert.equal(hash(beforeNov18EnglishSecondSixLegacyRow(window[field].find(row => row.id === id))), beforeHash, id);
     }
     for (const id of proof.newIds) assert.ok(window[field].filter(row => row.id === id).length <= 1, id);
   }
