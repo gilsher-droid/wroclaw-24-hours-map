@@ -70760,6 +70760,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121391989501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-18",
+        "context": "verified-en-renoma-written-photo-routing-20261118"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131997067398802/",
         "verifiedAt": "2026-11-11",

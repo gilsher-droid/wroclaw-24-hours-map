@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
 import {beforeNov18EnglishTwo, englishTwoNov18 as proof} from './english-two-social-bindings-nov18-historical-baseline.mjs';
+import {beforeNov18EnglishRenoma} from './english-renoma-social-binding-nov18-historical-baseline.mjs';
 const window = {};
 runInNewContext(readFileSync('data/place-catalog.js', 'utf8'), {window});
 const catalog = window.WROC_CATALOG;
@@ -19,7 +20,7 @@ test('Altus and the restaurant street resolve to their exact verified English Fa
 
 test('All345 other records and all target identities, media and non-social data remain exact', () => {
   assert.equal(Object.keys(catalog.places).length, proof.beforeCount);
-  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(catalog.getPlace(id)), expected, id);
+  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov18EnglishRenoma(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
     const p = catalog.getPlace(id);
     assert.equal(hash(Object.fromEntries(Object.entries(p).filter(([k]) => k !== 'socialPosts'))), expected.beforeNonSocialHash, id);
