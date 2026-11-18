@@ -2,6 +2,7 @@ import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import {beforeNov18EnglishRenoma, englishRenomaNov18} from './english-renoma-social-binding-nov18-historical-baseline.mjs';
+import {expectedNov18EnglishAltusBrzegURL} from './english-altus-brzeg-social-bindings-nov18-historical-baseline.mjs';
 
 export const englishTwoNov18 = JSON.parse(readFileSync('tests/fixtures/english-two-social-bindings-20261118.json'));
 const hash = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
@@ -18,6 +19,8 @@ export function beforeNov18EnglishTwo(place) {
 }
 
 export function expectedNov18EnglishTwoUrl(id, platform, language, historical) {
+  const latest = expectedNov18EnglishAltusBrzegURL(id, platform, language, historical);
+  if (latest !== historical) return latest;
   const renoma = englishRenomaNov18;
   if (id === renoma.id && platform === renoma.row.platform && language === renoma.row.language) return renoma.row.url;
   return englishTwoNov18.targets.find(row => row.id === id && row.platform === platform && row.language === language)?.url || historical;
