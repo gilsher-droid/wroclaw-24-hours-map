@@ -1,6 +1,7 @@
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
+import {beforeNov18EnglishTwo} from './english-two-social-bindings-nov18-historical-baseline.mjs';
 const proof=JSON.parse(readFileSync('data/polskie-jadlo-market-preservation-nov15.json','utf8'));
 const id=proof.canonicalId,clone=x=>JSON.parse(JSON.stringify(x));
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
@@ -21,14 +22,14 @@ export function beforePolskieJadloSnapshot(window){
   if(catalog){
     assertApprovedPolskieJadlo(catalog.getPlace(id));
     assertApprovedPolskieJadlo(catalog.places[id]);
-    const places={...catalog.places};delete places[id];
+    const places=Object.fromEntries(Object.entries(catalog.places).map(([key,p])=>[key,beforeNov18EnglishTwo(p)]));delete places[id];
     const products={...catalog.products};
     if(products['lifestyle-guide'])products['lifestyle-guide']={...products['lifestyle-guide'],places:products['lifestyle-guide'].places.filter(row=>{
       if(row.placeId!==id)return true;
       assert.deepEqual(clone(row),proof.approvedProductRow,'Unreviewed Polskie Jadlo product reference');return false;
     })};
     window.WROC_CATALOG={...catalog,places,products,getPlace:key=>{
-      const place=catalog.getPlace(key);assertApprovedPolskieJadlo(place);return place?.id===id?null:place;
+      const place=catalog.getPlace(key);assertApprovedPolskieJadlo(place);return place?.id===id?null:beforeNov18EnglishTwo(place);
     }};
   }
   if(window.WROC_LIFESTYLE_PLACES)window.WROC_LIFESTYLE_PLACES=window.WROC_LIFESTYLE_PLACES.filter(row=>{

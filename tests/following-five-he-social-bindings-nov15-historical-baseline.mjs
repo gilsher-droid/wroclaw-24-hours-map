@@ -1,4 +1,5 @@
 import {beforeCafeTargowaRecord} from './cafe-targowa-visit-photos-historical-baseline.mjs';
+import {expectedNov18EnglishTwoUrl} from './english-two-social-bindings-nov18-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -17,5 +18,7 @@ export function beforeNov15FollowingFiveHeBindings(place) {
 }
 
 export function expectedNov15FollowingFiveHeUrl(id, platform, language, historical) {
+  const latest = expectedNov18EnglishTwoUrl(id, platform, language, historical);
+  if (latest !== historical) return latest;
   return followingFiveHeNov15Bindings.targets.find(row => row.id === id && row.platform === platform && row.language === language)?.url || historical;
 }
