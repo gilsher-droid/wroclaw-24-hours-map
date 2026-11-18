@@ -1,3 +1,4 @@
+import {beforeHistoryTrail} from './history-trail-historical-baseline.mjs';
 import {beforePolishRichPosts} from './polish-rich-posts-historical-baseline.mjs';
 // Project only the exact owner-approved photo correction for older receipts.
 // Historical fixtures remain unchanged; the new regression checks the real state.
@@ -12,6 +13,7 @@ export function beforeJoliePhotoAttribution(value){
  return signature&&hash(value)===signature.after?before[value.id]:value;
 }
 export function beforeJoliePhotoSnapshot(w){
+ beforeHistoryTrail(w);
  const c=w.WROC_CATALOG;
  if(c)w.WROC_CATALOG={...c,places:Object.fromEntries(Object.entries(c.places).map(([id,p])=>[id,beforeJoliePhotoAttribution(p)])),getPlace:id=>beforeJoliePhotoAttribution(c.getPlace(id))};
  for(const rows of Object.values(w).filter(Array.isArray))for(const row of rows)if(row?.canonicalPlace)row.canonicalPlace=beforeJoliePhotoAttribution(row.canonicalPlace);

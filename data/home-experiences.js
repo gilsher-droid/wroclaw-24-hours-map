@@ -26,6 +26,17 @@ window.WROC_HOME_EXPERIENCES = [
     "photo": "/assets/food-cafes/cafe-berg-01.jpg"
   },
   {
+    "id": "wroclaw-history-trail",
+    "name": {
+      "he": "ההיסטוריה מתחת לרגליים",
+      "en": "History beneath your feet",
+      "pl": "Historia pod stopami",
+      "de": "Geschichte unter den Füßen",
+      "cs": "Historie pod nohama"
+    },
+    "photo": "/assets/experiences/history-trail/history-trail-05.jpg"
+  },
+  {
     "id": "coffee-lovers-wroclaw",
     "name": {
       "he": "וורוצלב לאוהבי קפה",
