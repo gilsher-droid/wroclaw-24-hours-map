@@ -73,6 +73,7 @@ for (const file of [
   "site-actions.css",
   "site-actions.js",
   "personal-trip.html",
+  "trip-album.html",
   "personal-trip.css",
   "personal-trip-copy.js",
   "personal-trip.js",

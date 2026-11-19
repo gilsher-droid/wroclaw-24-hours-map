@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <meta http-equiv="refresh" content="0; url=/personal-trip.html#example">
+  <link rel="canonical" href="https://wroc-love.com/personal-trip.html">
+  <title>Personal map demo | Wroc-love</title>
+</head>
+<body>
+  <p><a id="continue" href="/personal-trip.html#example">Open the personal map demo</a></p>
+  <script>
+    const target = new URL('/personal-trip.html', location.origin);
+    const lang = new URLSearchParams(location.search).get('lang');
+    if (['he', 'en', 'pl', 'de', 'cs'].includes(lang)) target.searchParams.set('lang', lang);
+    target.hash = 'example';
+    document.getElementById('continue').href = target.href;
+    location.replace(target.href);
+  </script>
+</body>
+</html>
