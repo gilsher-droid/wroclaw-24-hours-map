@@ -29691,6 +29691,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121535455501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-19",
+        "context": "verified-en-written-photo-routing-20261119-batch01"
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116646277506922/",
         "account": "61595207664875",
@@ -29957,6 +29965,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121537753501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-19",
+        "context": "verified-en-written-photo-routing-20261119-batch01"
+      },
       {
         "platform": "facebook",
         "language": "he",
@@ -31758,6 +31774,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122121542631501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-19",
+        "context": "verified-en-written-photo-routing-20261119-batch01"
+      },
       {
         "platform": "facebook",
         "language": "pl",

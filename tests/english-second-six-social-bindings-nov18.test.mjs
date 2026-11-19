@@ -1,3 +1,4 @@
+import {beforeNov19EnglishBatch01, beforeNov19EnglishRegistryRows} from './english-facebook-bindings-nov19-batch01-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -22,12 +23,12 @@ test('The eleven verified English Facebook cells route to their original-account
 
 test('All 336 other records and every historical social row remain exact', () => {
   assert.equal(Object.keys(catalog.places).length, proof.beforeCount);
-  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(catalog.getPlace(id)), expected, id);
+  for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov19EnglishBatch01(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
     assert.equal(hash(beforeNov18EnglishSecondSix(catalog.getPlace(id))), expected.beforeRecordHash, id);
     assert.equal(hash(registry[id].slice(1)), expected.beforeRegistryHash, id);
   }
-  for (const [id, expected] of Object.entries(proof.unrelatedRegistryHashes)) assert.equal(hash(registry[id]), expected, id);
+  for (const [id, expected] of Object.entries(proof.unrelatedRegistryHashes)) assert.equal(hash(beforeNov19EnglishRegistryRows(id, registry[id])), expected, id);
   assert.equal(hash(catalog.aliases), proof.aliasesHash);
   assert.equal(hash(catalog.coordinateConflicts), proof.coordinateConflictsHash);
 });
