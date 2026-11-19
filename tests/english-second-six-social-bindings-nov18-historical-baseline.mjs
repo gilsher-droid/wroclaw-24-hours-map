@@ -1,3 +1,4 @@
+import {beforeNov19EnglishBatch01, expectedNov19EnglishURL} from './english-facebook-bindings-nov19-batch01-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -8,6 +9,7 @@ const hash = value => createHash('sha256').update(JSON.stringify(value)).digest(
 // Project only the exact accepted social arrays and the two reviewed Dobra cells.
 // Unrelated fields and unknown social changes remain observable to older receipts.
 export function beforeNov18EnglishSecondSix(place) {
+  place = beforeNov19EnglishBatch01(place);
   if (!place) return place;
   const proof = englishSecondSixNov18.changed[place.id];
   let result = place;
@@ -33,7 +35,7 @@ export function beforeNov18EnglishSecondSix(place) {
 }
 
 export function expectedNov18EnglishSecondSixURL(id, platform, language, historical) {
-  return englishSecondSixNov18.targets.find(row => row.id === id && row.platform === platform && row.language === language)?.url || historical;
+  return expectedNov19EnglishURL(id, platform, language, englishSecondSixNov18.targets.find(row => row.id === id && row.platform === platform && row.language === language)?.url || historical);
 }
 
 export function beforeNov18EnglishSecondSixLegacyRow(row) {
