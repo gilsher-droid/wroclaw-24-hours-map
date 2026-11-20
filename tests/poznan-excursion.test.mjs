@@ -1,3 +1,4 @@
+import {beforeNov20Source} from './opera-jatki-zoo-historical-baseline.mjs';
 import{beforeSwidnicaSnapshot}from'./swidnica-solny-historical-baseline.mjs';
 import {beforeFourDenominationsMedia} from './four-denominations-media-historical-baseline.mjs';
 import {beforePanPrecelMedia} from './pan-precel-media-historical-baseline.mjs';
@@ -103,7 +104,7 @@ test('The Poznan addition preserves every prior canonical record and every prior
   assert.deepEqual([...trip.canonicalPlaceIds,...trip.optionalPlaceIds].sort(),ids.slice().sort());
   for(const[id,expected]of Object.entries(proof.recordHashes))assert.equal(hash(w.WROC_CATALOG.places[id]),expected,id);
   for(const[id,expected]of Object.entries(proof.tripHashes))assert.equal(hash(w.WROC_LOWER_SILESIA_EXCURSIONS.excursions.find(x=>x.id===id)),expected,id);
-  const source=readFileSync('data/canonical-places-source.js','utf8'),marker='// Poznań excursion: explicit geography, separate physical venues and reviewed own photographs.';
+  const source=beforeNov20Source('data/canonical-places-source.js',readFileSync('data/canonical-places-source.js')).toString(),marker='// Poznań excursion: explicit geography, separate physical venues and reviewed own photographs.';
   assert.equal(createHash('sha256').update(source.slice(0,source.indexOf(marker)).trimEnd()+'\n').digest('hex'),proof.canonicalSourceSHA256);
   assert.ok(trip.optionalPlaceIds.includes('poznan-old-zoo'));
   assert.ok(trip.optionalPlaceIds.includes('poznan-new-zoo'));

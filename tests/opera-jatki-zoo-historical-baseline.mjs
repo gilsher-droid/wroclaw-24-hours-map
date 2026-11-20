@@ -15,7 +15,7 @@ export function beforeNov20Guides(p){
  }
  return result;
 }
-export function beforeNov20Source(file,value){const d=proof.sources[file];if(!d||!value.toString().includes(d.after))return value;return Buffer.from(value.toString().replace(d.after,d.before));}
+export function beforeNov20Source(file,value){const d=proof.sources[file];if(!d||!value.toString().includes(d.after))return value;return Buffer.from(d.replaceAll?value.toString().replaceAll(d.after,d.before):value.toString().replace(d.after,d.before));}
 export function beforeNov20Christmas(stops){
  if(!stops?.some(s=>s.id==='opera'&&s.day===3)||!stops.some(s=>s.id==='nfm'&&s.day===3))return stops;
  const choices=stops.filter(s=>['opera','nfm'].includes(s.id)&&s.day===3);
