@@ -103,9 +103,11 @@
     } catch (_) { return null; }
   }
 
-  let pageArrival;
+  let pageArrival, pageArrivalLastSeen;
   function arrival() {
     if (!consent.analytics) return incomingAttribution();
+    // An untouched, already-open map must not keep an inherited campaign forever.
+    if (pageArrival && (Date.now() - pageArrivalLastSeen >= 30 * 60 * 1000 || Date.now() < pageArrivalLastSeen)) pageArrival = undefined;
     if (!pageArrival) {
       const incoming = incomingAttribution(), referred = referrerSource();
       let stored;
@@ -120,6 +122,7 @@
       }
       else pageArrival = { arrival_source: "direct_or_unknown", arrival_medium: "none", arrival_basis: "direct_or_unknown" };
     }
+    pageArrivalLastSeen = Date.now();
     if (consent.analytics) {
       try { sessionStorage.setItem("wroc-analytics-attribution", JSON.stringify({ values: pageArrival, lastSeen: Date.now() })); } catch (_) { /* unavailable */ }
     }
@@ -229,6 +232,7 @@
     if ((previous.analytics && !consent.analytics) || (previous.marketing && !consent.marketing)) {
       if (previous.analytics && !consent.analytics) {
         pageArrival = undefined;
+        pageArrivalLastSeen = undefined;
         try { sessionStorage.removeItem("wroc-analytics-attribution"); } catch (_) { /* storage may be unavailable */ }
       }
       if (typeof document.cookie === "string") {

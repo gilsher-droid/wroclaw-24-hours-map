@@ -50,3 +50,11 @@ test('expanded tag batches stay below the collector limit without dropping queue
 test('Google ad click markers are not counted as proven organic search or retained',()=>{
  const a=visit(map+'&gclid=PRIVATE-CLICK',{referrer:'https://www.google.com/'});a.api.setConsent({analytics:true});a.api.flush();assert.equal(a.api.context().arrival_source,'google');assert.equal(a.api.context().arrival_medium,'unknown');assert.ok(!JSON.stringify(a.sent).includes('PRIVATE-CLICK'));
 });
+test('an inherited campaign also expires after inactivity on an already-open map',()=>{
+ const a=visit(landing);a.api.setConsent({analytics:true});
+ const b=visit(map,{storage:a.storage,referrer:'https://wroc-love.com/',now:a.clock.now+1000});b.api.setConsent({analytics:true});
+ assert.equal(b.api.context().utm_campaign,'wang_en');
+ b.clock.now+=1800001;b.api.track('place_open',{canonical_place_id:'opera'});b.api.flush();
+ const e=b.sent.flatMap(batch=>batch.events).filter(e=>e.event==='place_open').at(-1);
+ assert.equal(e.utm_campaign,undefined);assert.equal(e.arrival_basis,'direct_or_unknown');
+});
