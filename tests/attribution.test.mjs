@@ -40,3 +40,10 @@ test('personal strings in tags and unapproved event parameters never reach colle
 test('withdrawal clears attribution and prevents pending collector batches',()=>{
  const a=visit(landing);a.api.setConsent({analytics:true});a.api.setConsent({analytics:false});a.api.flush();assert.equal(a.sent.length,0);assert.equal(a.storage.has('wroc-analytics-attribution'),false);
 });
+test('expanded tag batches stay below the collector limit without dropping queued events',()=>{
+ const tags=new URLSearchParams({utm_source:'f'.repeat(100),utm_medium:'m'.repeat(100),utm_campaign:'c'.repeat(100),utm_id:'1'.repeat(100),utm_content:'p'.repeat(100)});
+ const a=visit('https://wroc-love.com/?'+tags);a.api.setConsent({analytics:true});
+ for(let i=0;i<40;i++)a.api.track('place_open',{canonical_place_id:'a'.repeat(100)});
+ for(let i=0;i<20;i++)a.api.flush();
+ assert.equal(a.sent.reduce((n,b)=>n+b.events.length,0),41);assert.ok(a.sent.every(b=>JSON.stringify(b).length<16000));
+});

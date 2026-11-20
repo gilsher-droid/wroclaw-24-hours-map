@@ -54,3 +54,14 @@ In a consented local preview, GA4 DebugView displayed one `page_view` and one `m
 3. Click a product link. Confirm one `interactive_maps_click`, then one `map_open` with the catalog product ID. Open a marker/card and confirm one `place_open` with a canonical place ID. On the four-day or cultural product, open an experience and confirm `experience_open` with the registry ID.
 4. Switch language and confirm subsequent events use the new `language` value while the same session's campaign context remains available. Check all five languages on desktop and mobile.
 5. In Meta Ads Manager, compare impressions, link clicks, landing page views, CTR, CPC, and cost per landing page view. In GA4, compare users, sessions, source/medium, campaign, landing page, and the custom events. Expect platform counts to differ because of consent, blockers, and attribution methods.
+
+
+## Arrival, campaign and publication attribution (20 November 2026)
+
+After analytics consent, validated `utm_source`, `utm_medium`, `utm_campaign`, `utm_id` and `utm_content` tokens accompany each first-party action, including `map_open`. Use `utm_content` as the unique publication or creative label for each platform and language. Labels accept 1–100 ASCII letters, digits, dots, underscores, tildes and hyphens. Email addresses, URLs and free-form personal text are discarded.
+
+An external Google/Bing referrer can establish a search source; a Facebook/Instagram referrer establishes the platform, but does not establish paid distribution. Only an explicit medium labels a tagged link as paid. External referrer paths and queries are not retained. Attribution persists through internal navigation in the same browser tab and expires after 30 minutes without tracked activity. A new tagged landing or new external referrer replaces the carried source. This is an operational last-arrival context, not a replacement for GA4 session attribution. Consent withdrawal clears the stored context.
+
+The first-party collector stores aggregate event counts only, without a visitor/session identifier. Its page views and repeated map opens must never be called unique users or sessions, and cannot yield a visitor conversion rate. Use a native GA4 report at matching source/campaign/publication scope for sessions and map-opening users. Missing historical UTM detail cannot be reconstructed. Rows without new arrival fields are legacy records, not evidence of a particular campaign. Test traffic uses the existing isolated `analytics_test=1` counters and does not load GA4 or Meta.
+
+Production deployment must preserve the live collector and authenticated report implementations, which may contain business classification/reporting additions beyond this repository baseline. Apply only the validated attribution-field change to the current server file after a fresh backup and compare its other functions unchanged.
