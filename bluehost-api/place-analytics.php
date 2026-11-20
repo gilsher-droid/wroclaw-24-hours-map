@@ -7,6 +7,11 @@ function place_analytics_events(): array {
 function place_analytics_clean(array $event, array $catalog): ?array {
     if (!is_string($event['event']??null) || !in_array($event['event'],place_analytics_events(),true)) return null;
     $row=['event'=>$event['event']];
+    // Only non-personal campaign tokens; never retain URLs, referrer paths, click IDs or user IDs.
+    foreach(['utm_source','utm_medium','utm_campaign','utm_id','utm_content','arrival_source','arrival_medium'] as $key) {
+        if(is_string($event[$key]??null)&&preg_match('/^[a-z0-9][a-z0-9._~-]{0,99}$/iD',$event[$key])) $row[$key]=$event[$key];
+    }
+    if(in_array($event['arrival_basis']??null,['utm','referrer','direct_or_unknown'],true)) $row['arrival_basis']=$event['arrival_basis'];
     $sets=[
         'site_language'=>['he','en','pl','de','cs'],
         'provider'=>['chatgpt','gemini','facebook','instagram','youtube'],
