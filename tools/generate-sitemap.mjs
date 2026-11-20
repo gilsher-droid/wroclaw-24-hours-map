@@ -58,6 +58,17 @@ export function sitemapUrlFor(file, html) {
   return ownUrl.href;
 }
 
+export function sitemapUrlsFor(file, html) {
+  const base = sitemapUrlFor(file, html);
+  if (!base) return [];
+  const pathname = new URL(base).pathname;
+  const head = html.split(/<\/head\s*>/i)[0].replace(/<!--[\s\S]*?-->/g, "");
+  const localized = ["/", "/nearby.html", "/experiences.html"].includes(pathname)
+    && /<script\b[^>]*\bdata-public-page-seo(?:\s|=|>)/i.test(head);
+  if (!localized) return [base];
+  return [base, ...["en", "pl", "de", "cs"].map(language => `${base}?lang=${language}`)];
+}
+
 export async function generateSitemap(clientDirectory) {
   const client = resolve(clientDirectory);
   const urls = new Set();
@@ -69,8 +80,8 @@ export async function generateSitemap(clientDirectory) {
           await visit(join(directory, entry.name), `${file}/`);
         }
       } else if (entry.isFile() && /\.html$/i.test(entry.name)) {
-        const url = sitemapUrlFor(file, await readFile(join(directory, entry.name), "utf8"));
-        if (url) urls.add(url);
+        const html = await readFile(join(directory, entry.name), "utf8");
+        for (const url of sitemapUrlsFor(file, html)) urls.add(url);
       }
     }
   }

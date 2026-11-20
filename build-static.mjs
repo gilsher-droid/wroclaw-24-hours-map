@@ -30,6 +30,7 @@ await mkdir(interactiveMaps, { recursive: true });
 for (const file of [
   "google1a600331b0bedb9c.html",
   "index.html",
+  "public-page-seo.js",
   "nearby.html",
   "nearby.js",
   "nearby-model.js",
@@ -114,6 +115,7 @@ for (const file of [
 // These root pages also consume generated experience data. Content-address the
 // scripts so a returning visitor does not keep an older experience list.
 const homeExperienceScripts = await Promise.all([
+  "/public-page-seo.js",
   "/map-tiles.js", "/community-app.js", "/community-copy.js",
   "/site-actions.js", "/home-maps.js",
   "/data/excursion-city-walks.js", "/data/home-experiences.js", "/home-experiences.js", "/data/home-excursions.js", "/home-excursions.js",
