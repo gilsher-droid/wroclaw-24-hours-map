@@ -95,7 +95,7 @@
     try {
       const host = new URL(document.referrer).hostname.toLowerCase();
       if (/^(www\.)?wroc-love\.com$/.test(host)) return null;
-      if (/(^|\.)google\.(com|co\.il|co\.uk|de|pl|cz|fr|es|it|nl|ca|com\.au)$/.test(host)) return { source: "google", medium: "organic", basis: "referrer" };
+      if (/(^|\.)google\.(com|co\.il|co\.uk|de|pl|cz|fr|es|it|nl|ca|com\.au)$/.test(host)) return { source: "google", medium: ["gclid", "dclid", "gbraid", "wbraid"].some(key => query.has(key)) ? "unknown" : "organic", basis: "referrer" };
       for (const [domain, source, medium] of [["bing.com", "bing", "organic"], ["facebook.com", "facebook", "referral"], ["instagram.com", "instagram", "referral"], ["youtube.com", "youtube", "referral"]]) {
         if (host === domain || host.endsWith("." + domain)) return { source, medium, basis: "referrer" };
       }

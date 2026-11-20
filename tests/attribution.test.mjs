@@ -47,3 +47,6 @@ test('expanded tag batches stay below the collector limit without dropping queue
  for(let i=0;i<20;i++)a.api.flush();
  assert.equal(a.sent.reduce((n,b)=>n+b.events.length,0),41);assert.ok(a.sent.every(b=>JSON.stringify(b).length<16000));
 });
+test('Google ad click markers are not counted as proven organic search or retained',()=>{
+ const a=visit(map+'&gclid=PRIVATE-CLICK',{referrer:'https://www.google.com/'});a.api.setConsent({analytics:true});a.api.flush();assert.equal(a.api.context().arrival_source,'google');assert.equal(a.api.context().arrival_medium,'unknown');assert.ok(!JSON.stringify(a.sent).includes('PRIVATE-CLICK'));
+});
