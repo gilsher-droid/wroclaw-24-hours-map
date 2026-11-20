@@ -237,36 +237,76 @@
         "id": "opera",
         "day": 3,
         "order": 6,
+        "category": "culture",
         "time": "16:00",
+        "duration": "120 min",
         "optional": true,
-        "coordinates": [
-          51.10672,
-          17.03254
-        ],
         "tip": {
           "he": "בחרו אחת משתי חלופות הערב, בית האופרה או הפורום הלאומי למוזיקה. בדקו תוכנית והזמינו כרטיסים מראש.",
           "en": "Choose one evening option: Wrocław Opera or the National Forum of Music. Check the programme and book in advance.",
           "pl": "Wybierzcie jedną opcję na wieczór: Operę Wrocławską lub Narodowe Forum Muzyki. Sprawdźcie program i zarezerwujcie bilety.",
           "de": "Wählen Sie eine Abendoption: die Breslauer Oper oder das Nationale Forum für Musik. Programm prüfen und Karten im Voraus buchen.",
           "cs": "Vyberte jednu večerní možnost: Vratislavskou operu nebo Národní hudební fórum. Ověřte program a rezervujte vstupenky předem."
+        },
+        "canonicalPlaceId": "opera",
+        "relatedPlaceIds": [],
+        "productRecordId": "wroclaw-christmas:stop:opera",
+        "coordinates": [
+          51.10672,
+          17.03254
+        ],
+        "name": {
+          "he": "האופרה של ורוצלב",
+          "en": "Wrocław Opera",
+          "pl": "Opera Wrocławska",
+          "de": "Oper Breslau",
+          "cs": "Vratislavská opera"
+        },
+        "localName": "Opera Wrocławska",
+        "description": {
+          "he": "בית אופרה היסטורי פעיל בלב העיר.",
+          "en": "An active historic opera house in the city centre.",
+          "pl": "Czynny historyczny gmach opery w centrum miasta.",
+          "de": "Aktives historisches Opernhaus im Stadtzentrum.",
+          "cs": "Aktivní historická operní budova v centru města."
         }
       },
       {
         "id": "nfm",
         "day": 3,
         "order": 7,
+        "category": "culture",
         "time": "16:00",
+        "duration": "120 min",
         "optional": true,
-        "coordinates": [
-          51.10775,
-          17.02857
-        ],
         "tip": {
           "he": "בחרו אחת משתי חלופות הערב, בית האופרה או הפורום הלאומי למוזיקה. בדקו תוכנית והזמינו כרטיסים מראש.",
           "en": "Choose one evening option: Wrocław Opera or the National Forum of Music. Check the programme and book in advance.",
           "pl": "Wybierzcie jedną opcję na wieczór: Operę Wrocławską lub Narodowe Forum Muzyki. Sprawdźcie program i zarezerwujcie bilety.",
           "de": "Wählen Sie eine Abendoption: die Breslauer Oper oder das Nationale Forum für Musik. Programm prüfen und Karten im Voraus buchen.",
           "cs": "Vyberte jednu večerní možnost: Vratislavskou operu nebo Národní hudební fórum. Ověřte program a rezervujte vstupenky předem."
+        },
+        "canonicalPlaceId": "nfm",
+        "relatedPlaceIds": [],
+        "productRecordId": "wroclaw-christmas:stop:nfm",
+        "coordinates": [
+          51.10775,
+          17.02857
+        ],
+        "name": {
+          "he": "הפורום הלאומי למוזיקה",
+          "en": "National Forum of Music",
+          "pl": "Narodowe Forum Muzyki",
+          "de": "Nationales Musikforum",
+          "cs": "Národní hudební fórum"
+        },
+        "localName": "Narodowe Forum Muzyki",
+        "description": {
+          "he": "אולם הקונצרטים המרכזי בעיר, עם תוכנית קלאסית ועכשווית.",
+          "en": "The city's main concert hall, with classical and contemporary programmes.",
+          "pl": "Główna sala koncertowa miasta z repertuarem klasycznym i współczesnym.",
+          "de": "Wichtigster Konzertsaal der Stadt mit klassischem und zeitgenössischem Programm.",
+          "cs": "Hlavní koncertní sál města s klasickým i současným programem."
         }
       }
     ]

@@ -19,7 +19,7 @@ export function beforeNov20Source(file,value){const d=proof.sources[file];if(!d|
 export function beforeNov20Christmas(stops){
  if(!stops?.some(s=>s.id==='opera'&&s.day===3)||!stops.some(s=>s.id==='nfm'&&s.day===3))return stops;
  const choices=stops.filter(s=>['opera','nfm'].includes(s.id)&&s.day===3);
- for(const s of choices){const expected=proof.route.after.find(x=>x.id===s.id&&x.day===3);for(const k of ['id','day','order','time','optional','coordinates','tip'])assert.deepEqual(plain(s[k]),plain(expected[k]),'Unreviewed Christmas '+s.id+':'+k);}
+ for(const s of choices){const expected=proof.route.after.find(x=>x.id===s.id&&x.day===3);assert.deepEqual(plain(Object.fromEntries(Object.entries(s).filter(([k])=>!['canonicalPlace','resources'].includes(k)))),expected,'Unreviewed Christmas '+s.id);}
  const original=proof.route.before;
  return stops.filter(s=>s.id!=='nfm'||s.day!==3).map(s=>s.id==='opera'&&s.day===3?plain(original):s.day===3&&s.order>choices[1].order?{...s,order:s.order-1}:s);
 }
@@ -28,7 +28,12 @@ export function beforeNov20Legacy(row){
  if(!row)return row;
  let out={...row};
  if(row.canonicalPlace)out.canonicalPlace=beforeNov20Guides(row.canonicalPlace);
- if(row.id==='jatki'&&row.name?.he==='סמטת יאטקי, סמטת הקצבים')out.name={...row.name,he:row.day?'סמטת הקצבים':'סמטת יאטקי',...(row.day&&row.name.en==='Jatki Alley'?{en:'Old Butchers’ Alley',de:row.name.de==='Jatki-Gasse'?'Alte Metzgergasse':'Old Butchers’ Alley',cs:row.name.cs==='Alej Jatki'?'Ulička starých řezníků':'Old Butchers’ Alley'}:{})};
+ if(row.id==='jatki'&&row.name?.he==='סמטת יאטקי, סמטת הקצבים'){
+  const changes={he:['סמטת יאטקי, סמטת הקצבים',row.day?'סמטת הקצבים':'סמטת יאטקי']};
+  if(row.day)Object.assign(changes,{en:['Jatki Alley','Old Butchers’ Alley'],de:[row.name.de==='Jatki-Gasse'?'Jatki-Gasse':'Jatki Alley',row.name.de==='Jatki-Gasse'?'Alte Metzgergasse':'Old Butchers’ Alley'],cs:[row.name.cs==='Alej Jatki'?'Alej Jatki':'Jatki Alley',row.name.cs==='Alej Jatki'?'Ulička starých řezníků':'Old Butchers’ Alley']});
+  out.name={...row.name};for(const [lang,[after,before]] of Object.entries(changes))if(row.name[lang]===after)out.name[lang]=before;
+ }
+
  return out;
 }
 export function beforeNov20Snapshot(w){
