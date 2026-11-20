@@ -1,3 +1,4 @@
+import {beforeNov20EnglishRegistryRows,expectedNov20EnglishURL} from './english-facebook-bindings-nov20-historical-baseline.mjs';
 import {beforeNov20Guides} from './opera-jatki-zoo-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -15,6 +16,7 @@ export function beforeNov19EnglishBatch01(place) {
   return place;
 }
 export function beforeNov19EnglishRegistryRows(id, rows) {
+  rows=beforeNov20EnglishRegistryRows(id,rows);
   const p = englishNov19Batch01.changed[id];
   if (p && hash(rows) !== p.beforeRegistryHash && rows?.some(row => row.context === englishNov19Batch01.context)) {
     assert.equal(hash(rows), p.afterRegistryHash, 'Unexpected Nov19 registry delta: ' + id);
@@ -23,5 +25,5 @@ export function beforeNov19EnglishRegistryRows(id, rows) {
   return rows;
 }
 export function expectedNov19EnglishURL(id, platform, language, historical) {
-  return englishNov19Batch01.targets.find(row => row.id === id && row.platform === platform && row.language === language)?.url || historical;
+  return expectedNov20EnglishURL(id,platform,language,englishNov19Batch01.targets.find(row => row.id === id && row.platform === platform && row.language === language)?.url || historical);
 }

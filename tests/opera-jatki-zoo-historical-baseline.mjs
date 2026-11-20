@@ -1,9 +1,11 @@
+import {beforeNov20English} from './english-facebook-bindings-nov20-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import assert from 'node:assert/strict';
 const proof=JSON.parse(readFileSync('tests/fixtures/opera-jatki-zoo-nov20-delta.json'));
 const plain=v=>JSON.parse(JSON.stringify(v));
 // Undo only exact approved Nov20 fields; leave every unrelated field observable.
 export function beforeNov20Guides(p){
+ p=beforeNov20English(p);
  if(!p||!proof.places[p.id])return p;
  let result=p;
  for(const [path,d] of Object.entries(proof.places[p.id])){

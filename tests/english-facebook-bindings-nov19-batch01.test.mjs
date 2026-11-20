@@ -1,3 +1,4 @@
+import {beforeNov20EnglishRegistryRows} from './english-facebook-bindings-nov20-historical-baseline.mjs';
 import {beforeNov20Guides} from './opera-jatki-zoo-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -17,7 +18,7 @@ test('Verified Nov19 original-account English posts resolve without altering oth
     assert.equal(hash(beforeNov19EnglishRegistryRows(t.id, registry[t.id])), proof.changed[t.id].beforeRegistryHash, t.id);
   }
   for (const [id, h] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov20Guides(c.getPlace(id))), h, id);
-  for (const [id, h] of Object.entries(proof.unrelatedRegistryHashes)) assert.equal(hash(registry[id]), h, id);
+  for (const [id, h] of Object.entries(proof.unrelatedRegistryHashes)) assert.equal(hash(beforeNov20EnglishRegistryRows(id,registry[id])), h, id);
   assert.equal(hash(c.aliases), proof.aliasesHash); assert.equal(hash(c.coordinateConflicts), proof.coordinateConflictsHash);
 });
 test('Historical projections reject unreviewed social changes and preserve unrelated fields', () => {
