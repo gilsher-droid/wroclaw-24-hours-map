@@ -53,9 +53,13 @@ test("existing products reference Experiences without visible duplicates", () =>
   assert.equal(tramTip.canonicalExperienceId, undefined);
 
   const christmas = load(["data/place-catalog.js", "data/canonical-experiences.js", "data/extra-languages.js", "data/moshe-route.js"]);
-  const culturalEvening = christmas.PREMIUM_STOPS.find(({ id }) => id === "culture-evening");
-  assert.equal(culturalEvening.canonicalExperienceId, "culture-evening");
-  assert.equal(christmas.PREMIUM_STOPS.filter(({ id }) => id === "culture-evening").length, 1);
+  assert.equal(christmas.PREMIUM_STOPS.filter(({ id }) => id === "culture-evening").length, 0);
+  for (const id of ["opera", "nfm"]) {
+    const choice = christmas.PREMIUM_STOPS.find((record) => record.id === id);
+    assert.equal(choice.canonicalPlaceId, id);
+    assert.equal(choice.day, 3);
+    assert.equal(choice.optional, true);
+  }
 });
 
 test("Experience media resolves through existing Place media and Prague originals", () => {

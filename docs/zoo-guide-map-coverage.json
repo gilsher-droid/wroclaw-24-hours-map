@@ -1,0 +1,79 @@
+{
+  "place": "zoo-wroclaw",
+  "languages": [
+    "he",
+    "en",
+    "pl",
+    "de",
+    "cs"
+  ],
+  "routing": {
+    "he": "Hebrew original + Hebrew captions",
+    "en": "English original + English captions",
+    "pl": "English original + Polish captions",
+    "de": "English original + German captions",
+    "cs": "English original + Czech captions"
+  },
+  "maps": [
+    {
+      "page": "premium.html",
+      "context": "Four-day route, day 3",
+      "included": true
+    },
+    {
+      "page": "guides.html",
+      "context": "Canonical Wrocław guide map",
+      "included": true
+    },
+    {
+      "page": "nearby.html",
+      "context": "Shown when Zoo is in the selected nearby area",
+      "included": true
+    },
+    {
+      "page": "community.html?place=zoo-wroclaw",
+      "context": "Contribution form, not a visitor guide map; canonical media data kept current",
+      "included": false
+    },
+    {
+      "page": "personal-trips",
+      "context": "Existing personal maps containing Zoo receive canonical guide editions after shared static installation; existing personal-map interface language remains unchanged",
+      "included": true,
+      "requiresSharedInstall": true
+    },
+    {
+      "page": "map.html",
+      "context": "24-hour route does not contain Zoo; no itinerary expansion",
+      "included": false
+    },
+    {
+      "page": "moshe.html",
+      "context": "Winter Christmas route does not contain Zoo; no itinerary expansion",
+      "included": false
+    },
+    {
+      "page": "cultural.html",
+      "context": "Zoo is outside the curated cultural selection",
+      "included": false
+    },
+    {
+      "page": "lifestyle.html",
+      "context": "Zoo is outside the curated lifestyle selection",
+      "included": false
+    },
+    {
+      "page": "excursions.html",
+      "context": "Regional day-trip map does not contain the city Zoo",
+      "included": false
+    }
+  ],
+  "sharedStaticFiles": [
+    "public-catalog.js",
+    "nearby-places.json",
+    "community-places.json",
+    "guide-video.js",
+    "album-assets.json",
+    "personal-place-panel.js"
+  ],
+  "privateCustomerRecordsOrPHPChanged": false
+}

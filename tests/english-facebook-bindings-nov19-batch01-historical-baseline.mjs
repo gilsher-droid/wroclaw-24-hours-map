@@ -1,9 +1,11 @@
+import {beforeNov20Guides} from './opera-jatki-zoo-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 export const englishNov19Batch01 = JSON.parse(readFileSync('tests/fixtures/english-facebook-bindings-20261119-batch01.json'));
 const hash = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 export function beforeNov19EnglishBatch01(place) {
+  place = beforeNov20Guides(place);
   if (!place) return place;
   const p = englishNov19Batch01.changed[place.id];
   if (p && hash(place.socialPosts) !== p.beforeSocialHash && place.socialPosts?.some(row => row.context === englishNov19Batch01.context)) {

@@ -43,8 +43,19 @@
     dialog.showModal();
   }
 
+  const externalLabels = {he:{facebook:"המדריך המלא בפייסבוק",instagram:"המדריך המלא באינסטגרם"},en:{facebook:"Full guide on Facebook",instagram:"Full guide on Instagram"},pl:{facebook:"Pełny przewodnik na Facebooku",instagram:"Pełny przewodnik na Instagramie"},de:{facebook:"Vollständiger Reiseführer auf Facebook",instagram:"Vollständiger Reiseführer auf Instagram"},cs:{facebook:"Celý průvodce na Facebooku",instagram:"Celý průvodce na Instagramu"}};
+  function externalGuidesFor(id,lang){
+    const links=window.WROC_CATALOG?.getPlace(id)?.media?.guideLinks?.[lang] || {};
+    return Object.entries(links).filter(([platform,url])=>typeof url==="string" && (platform==="facebook" ? /^https:\/\/(?:www\.)?facebook\.com\/reel\/\d+\/$/.test(url) : platform==="instagram" && /^https:\/\/www\.instagram\.com\/reel\/[A-Za-z0-9_-]+\/$/.test(url)));
+  }
+  function externalGuideButtons(id,lang,resourceClass){
+    return externalGuidesFor(id,lang).map(([platform,url])=>{
+      const suffix=(externalLabels[lang]||externalLabels.en)[platform],label=labels[lang]||labels.en;
+      return `<a class="guide-video-action guide-external-action${resourceClass?` ${escapeHtml(resourceClass)}`:""}" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(suffix)}" title="${escapeHtml(suffix)}"><span class="brand-icon guide" aria-hidden="true"><img src="/assets/logo.png" alt=""></span><span class="guide-video-action-copy"><span class="guide-video-action-title">${escapeHtml(label)}</span><span class="guide-video-action-language">${escapeHtml(suffix)}</span></span></a>`;
+    }).join("");
+  }
   function button(id,lang=language(),resourceClass=""){
-    const url=sourceFor(id,lang);if(!youtubeId(url))return "";
+    const url=sourceFor(id,lang);if(!youtubeId(url))return externalGuideButtons(id,lang,resourceClass);
     const englishOnly=lang==="he"&&!editionsFor(id)?.he;
     const suffix=englishOnly?"הדרכה באנגלית · כתוביות בעברית":subtitleLabels[lang]||subtitleLabels.en;
     const contextLabels=window.WROC_CATALOG?.getPlace(id)?.provenance?.guideContextLabel;
@@ -73,7 +84,7 @@
   function decorateIcon(options,place,lang=language()){
     options=typedIcon(options,place,lang);
     const id=typeof place==="string"?place:place?.canonicalPlaceId||place?.id;
-    if(!youtubeId(sourceFor(id,lang)))return options;
+    if(!youtubeId(sourceFor(id,lang))&&!externalGuidesFor(id,lang).length)return options;
     const label=escapeHtml(markerLabels[lang]||markerLabels.en);
     return {...options,className:`${options.className||""} guide-marker-shell`.trim(),html:options.html+`<span class="guide-marker-badge" role="img" aria-label="${label}" title="${label}">▶</span>`};
   }

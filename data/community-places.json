@@ -1458,7 +1458,7 @@
   "jatki": {
     "id": "jatki",
     "name": {
-      "he": "סמטת יאטקי",
+      "he": "סמטת יאטקי, סמטת הקצבים",
       "en": "Jatki Alley",
       "pl": "Stare Jatki",
       "de": "Jatki-Gasse",
@@ -2853,6 +2853,20 @@
     "coordinates": {
       "lat": 51.101278,
       "lng": 17.0260842
+    }
+  },
+  "polskie-jadlo-hala-targowa": {
+    "id": "polskie-jadlo-hala-targowa",
+    "name": {
+      "he": "המילק בר באולם השוק, פולסקיה יאדוו",
+      "en": "Polskie Jadło, Market Hall milk bar",
+      "pl": "Polskie Jadło w Hali Targowej",
+      "de": "Polskie Jadło, Milchbar in der Markthalle",
+      "cs": "Polskie Jadło, mléčný bar v tržnici"
+    },
+    "coordinates": {
+      "lat": 51.1125,
+      "lng": 17.04075
     }
   },
   "pomiedzy-cafe-bistro-wroclaw": {

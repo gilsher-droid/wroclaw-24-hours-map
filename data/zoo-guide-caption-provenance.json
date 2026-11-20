@@ -1,0 +1,106 @@
+{
+  "place": "zoo-wroclaw",
+  "publishedAt": "2026-11-20",
+  "sourceOriginalsModified": false,
+  "uploadedOriginalFiles": true,
+  "source": [
+    {
+      "language": "he",
+      "sha256": "bfe47a2f391c3cb6afe846ca078e5687f1b038167b81a2784a8e6379141a777d",
+      "bytes": 8781237,
+      "durationSeconds": 72.133333,
+      "width": 1024,
+      "height": 576,
+      "originalUploadedWithoutModification": true
+    },
+    {
+      "language": "en",
+      "sha256": "0d138f44e7a4e6a6a9118ca255a5ca0e34710a8e0af44c30f0336a85f1320009",
+      "bytes": 8678088,
+      "durationSeconds": 82.866667,
+      "width": 1024,
+      "height": 576,
+      "originalUploadedWithoutModification": true
+    }
+  ],
+  "videos": {
+    "he": "https://www.youtube.com/watch?v=r_okd-N8HiQ",
+    "en": "https://www.youtube.com/watch?v=Md64FDUcTgY"
+  },
+  "captionPreparation": {
+    "method": "Local source transcription, proper-name crosscheck with independent small model, translated narration, split timed cues; original media unchanged",
+    "languages": {
+      "he": {
+        "cues": 22,
+        "first": 1.52,
+        "last": 71.7,
+        "sha256": "092776e217d5b5baa29908fff2fcb0e59daad87aac7341b67f99ecb86f7f2627"
+      },
+      "en": {
+        "cues": 18,
+        "first": 1.84,
+        "last": 82.0,
+        "sha256": "2c3e8701699c1a0ed9442a248ce7f675cff9d0c3b6d0b4cd403be3fc4bdb8001"
+      },
+      "pl": {
+        "cues": 15,
+        "first": 1.84,
+        "last": 82.0,
+        "sha256": "2eeb7a8907e8ef39d4df6abdadcfbac5648191eac11b79c1e00c5dd99c0454ce"
+      },
+      "de": {
+        "cues": 16,
+        "first": 1.84,
+        "last": 82.0,
+        "sha256": "ab0d847054a8495d869db28dfcc971e64f234b2976d69b31994c0799749c73ac"
+      },
+      "cs": {
+        "cues": 14,
+        "first": 1.84,
+        "last": 82.0,
+        "sha256": "acdd2265d61c2eda2910051bf8d13a355e21c5352783f1c959f484183713cea5"
+      }
+    }
+  },
+  "captionFiles": {
+    "he": "data/zoo-guide-captions/he.srt",
+    "en": "data/zoo-guide-captions/en.srt",
+    "pl": "data/zoo-guide-captions/pl.srt",
+    "de": "data/zoo-guide-captions/de.srt",
+    "cs": "data/zoo-guide-captions/cs.srt"
+  },
+  "verification": {
+    "publicAfterReopen": true,
+    "sdComplete": true,
+    "copyrightAndCommunityChecks": "complete-no-issues",
+    "hebrewManualCaptionsReopened": true,
+    "englishManualCaptionsReopened": true,
+    "translationsAfterReopen": {
+      "pl": "1 published",
+      "de": "1 published",
+      "cs": "1 published"
+    }
+  },
+  "languageRouting": {
+    "he": {
+      "audio": "he",
+      "caption": "he"
+    },
+    "en": {
+      "audio": "en",
+      "caption": "en"
+    },
+    "pl": {
+      "audio": "en",
+      "caption": "pl"
+    },
+    "de": {
+      "audio": "en",
+      "caption": "de"
+    },
+    "cs": {
+      "audio": "en",
+      "caption": "cs"
+    }
+  }
+}

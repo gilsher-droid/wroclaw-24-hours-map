@@ -82,6 +82,16 @@ for (const record of source) {
       throw new Error(`${record.id}: media.${field} must remain an array of non-empty strings.`);
     }
   }
+  if (media.guideLinks != null) {
+    if (typeof media.guideLinks !== "object" || Array.isArray(media.guideLinks)) throw new Error(`${record.id}: invalid external guide links.`);
+    for (const [language, links] of Object.entries(media.guideLinks)) {
+      if (!["he", "en", "pl", "de", "cs"].includes(language) || !links || typeof links !== "object" || Array.isArray(links)) throw new Error(`${record.id}: invalid external guide language.`);
+      for (const [platform, url] of Object.entries(links)) {
+        const valid = typeof url === "string" && (platform === "facebook" ? /^https:\/\/(?:www\.)?facebook\.com\/reel\/\d+\/$/.test(url) : platform === "instagram" && /^https:\/\/www\.instagram\.com\/reel\/[A-Za-z0-9_-]+\/$/.test(url));
+        if (!valid) throw new Error(`${record.id}: external guides must link to an exact published Facebook or Instagram reel.`);
+      }
+    }
+  }
   if (media.guideVideos != null) {
     const guideSources = Object.values(media.guideVideos);
     if (typeof media.guideVideos !== "object" || Array.isArray(media.guideVideos)
