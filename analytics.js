@@ -226,15 +226,15 @@
     const previous = { ...consent };
     consent.analytics = next.analytics === true;
     consent.marketing = next.marketing === true;
-    if (!consent.analytics) queue.length = 0;
+    if (!consent.analytics) {
+      queue.length = 0;
+      pageArrival = undefined;
+      pageArrivalLastSeen = undefined;
+      try { sessionStorage.removeItem("wroc-analytics-attribution"); } catch (_) { /* storage may be unavailable */ }
+    }
     if (gaLoaded) window.gtag("consent", "update", { analytics_storage: consent.analytics ? "granted" : "denied" });
     if (pixelLoaded) window.fbq("consent", consent.marketing ? "grant" : "revoke");
     if ((previous.analytics && !consent.analytics) || (previous.marketing && !consent.marketing)) {
-      if (previous.analytics && !consent.analytics) {
-        pageArrival = undefined;
-        pageArrivalLastSeen = undefined;
-        try { sessionStorage.removeItem("wroc-analytics-attribution"); } catch (_) { /* storage may be unavailable */ }
-      }
       if (typeof document.cookie === "string") {
         for (const entry of document.cookie.split(";")) {
           const name = entry.trim().split("=")[0];

@@ -58,3 +58,8 @@ test('an inherited campaign also expires after inactivity on an already-open map
  const e=b.sent.flatMap(batch=>batch.events).filter(e=>e.event==='place_open').at(-1);
  assert.equal(e.utm_campaign,undefined);assert.equal(e.arrival_basis,'direct_or_unknown');
 });
+test('an initial declined consent clears any attribution left from an earlier page',()=>{
+ const a=visit(landing);a.api.setConsent({analytics:true});assert.ok(a.storage.has('wroc-analytics-attribution'));
+ const b=visit(map,{storage:a.storage});b.api.setConsent({analytics:false});
+ assert.equal(b.storage.has('wroc-analytics-attribution'),false);b.api.flush();assert.equal(b.sent.length,0);
+});
