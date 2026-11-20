@@ -1,3 +1,4 @@
+import {beforeNov20Guides} from './opera-jatki-zoo-historical-baseline.mjs';
 import {beforePolskieJadloSnapshot} from './polskie-jadlo-market-historical-baseline.mjs';
 import test from 'node:test';
 import {beforeCafeTargowaRecord} from './cafe-targowa-visit-photos-historical-baseline.mjs';
@@ -27,7 +28,7 @@ test('All341 unrelated records and every non-social field of the five affected p
   assert.equal(Object.keys(proof.unrelatedRecordHashes).length, 341);
   for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeCafeTargowaRecord(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
-    const place = catalog.getPlace(id);
+    const place = beforeNov20Guides(catalog.getPlace(id));
     assert.equal(hash(Object.fromEntries(Object.entries(place).filter(([key]) => key !== 'socialPosts'))), expected.beforeNonSocialHash, id);
     assert.equal(hash(beforeNov15FollowingFiveHeBindings(place)), expected.beforeRecordHash, id);
   }
@@ -46,7 +47,7 @@ test('The prior nineteen preferred links and all historical candidates of the fi
 
 test('Follow-up projection rejects unknown social changes while preserving independent non-social changes', () => {
   for (const id of Object.keys(proof.changed)) {
-    const place = catalog.getPlace(id);
+    const place = beforeNov20Guides(catalog.getPlace(id));
     assert.throws(() => beforeNov15FollowingFiveHeBindings({...place, socialPosts: [...place.socialPosts, {platform: 'facebook', language: 'en', url: 'https://example.com/unreviewed'}]}));
     const changed = JSON.parse(JSON.stringify(place));
     changed.description.en += ' independent content';

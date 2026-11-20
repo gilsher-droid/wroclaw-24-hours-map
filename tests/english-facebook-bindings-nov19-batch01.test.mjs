@@ -1,3 +1,4 @@
+import {beforeNov20Guides} from './opera-jatki-zoo-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -15,7 +16,7 @@ test('Verified Nov19 original-account English posts resolve without altering oth
     assert.equal(hash(beforeNov19EnglishBatch01(c.getPlace(t.id))), proof.changed[t.id].beforeRecordHash, t.id);
     assert.equal(hash(beforeNov19EnglishRegistryRows(t.id, registry[t.id])), proof.changed[t.id].beforeRegistryHash, t.id);
   }
-  for (const [id, h] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(c.getPlace(id)), h, id);
+  for (const [id, h] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov20Guides(c.getPlace(id))), h, id);
   for (const [id, h] of Object.entries(proof.unrelatedRegistryHashes)) assert.equal(hash(registry[id]), h, id);
   assert.equal(hash(c.aliases), proof.aliasesHash); assert.equal(hash(c.coordinateConflicts), proof.coordinateConflictsHash);
 });
