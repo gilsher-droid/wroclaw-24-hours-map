@@ -26,7 +26,7 @@ window.LOCATIONS = [
   },
   {
     id: "jatki", order: 4, coordinates: [51.11184, 17.03024], category: "special", optional: false, localName: "Stare Jatki",
-    name: { he: "סמטת יאטקי", en: "Jatki Alley", pl: "Stare Jatki" },
+    name: { he: "סמטת יאטקי, סמטת הקצבים", en: "Jatki Alley", pl: "Stare Jatki" },
     description: { he: "סמטה היסטורית קטנה עם גלריות ואנדרטת בעלי החיים שנשחטו, אחת הפינות המיוחדות ליד הכיכר.", en: "A small historic alley with galleries and the memorable monument to slaughtered animals.", pl: "Niewielka historyczna uliczka z galeriami i charakterystycznym pomnikiem Ku Czci Zwierząt Rzeźnych." },
     recommendation: null,
     time: { he: "10–15 דקות", en: "10–15 minutes", pl: "10–15 minut" }

@@ -932,6 +932,26 @@
       ],
       "verificationReceipt": "outputs/theatre-museum-video-guide-2026-10-22/youtube-publication-receipt.json",
       "verifiedAt": "2026-10-22"
+    },
+    {
+      "place": "zoo-wroclaw",
+      "videos": {
+        "he": "r_okd-N8HiQ",
+        "en": "Md64FDUcTgY"
+      },
+      "englishPublishedManualTracks": [
+        "en",
+        "de",
+        "cs",
+        "pl"
+      ],
+      "hebrewPublishedTrack": {
+        "language": "he",
+        "published": true
+      },
+      "verifiedAt": "2026-11-20",
+      "method": "YouTube Studio Public details reopened; manual original-language caption editors reopened; Czech, German and Polish translations each show 1 published after reopening. Both copyright/community checks complete with no issues.",
+      "provenance": "data/zoo-guide-caption-provenance.json"
     }
   ],
   "lastAddedAt": "2026-10-22"

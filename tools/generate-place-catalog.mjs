@@ -270,6 +270,7 @@ for (const place of places.values()) {
       ? canonicalMedia.videos
       : Array.isArray(resources.videos) ? resources.videos : [],
     ...((canonicalMedia.guideVideos || resources.guideVideos) ? { guideVideos: canonicalMedia.guideVideos || resources.guideVideos } : {}),
+    ...((canonicalMedia.guideLinks || resources.guideLinks) ? { guideLinks: canonicalMedia.guideLinks || resources.guideLinks } : {}),
     ...(canonicalMedia.metadata ? { metadata: canonicalMedia.metadata } : {}),
   };
   const suppliedMedia = userSuppliedPlaceMedia[place.id];

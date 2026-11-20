@@ -33907,7 +33907,7 @@
     "id": "jatki",
     "localName": "Stare Jatki",
     "name": {
-      "he": "סמטת יאטקי",
+      "he": "סמטת יאטקי, סמטת הקצבים",
       "en": "Jatki Alley",
       "pl": "Stare Jatki",
       "de": "Jatki-Gasse",
@@ -53125,6 +53125,7 @@
     },
     "categories": [
       "architecture",
+      "culture",
       "music"
     ],
     "sourceUrls": [],
@@ -53132,6 +53133,11 @@
     "sourceRecords": [
       {
         "productId": "wroclaw-24-hours",
+        "kind": "route-stop",
+        "sourceId": "nfm"
+      },
+      {
+        "productId": "wroclaw-christmas",
         "kind": "route-stop",
         "sourceId": "nfm"
       }
@@ -53149,6 +53155,7 @@
     "taxonomy": {
       "categories": [
         "architecture",
+        "culture",
         "music"
       ],
       "tags": [
@@ -54505,6 +54512,7 @@
     },
     "categories": [
       "architecture",
+      "culture",
       "music",
       "theatre"
     ],
@@ -54513,6 +54521,11 @@
     "sourceRecords": [
       {
         "productId": "wroclaw-24-hours",
+        "kind": "route-stop",
+        "sourceId": "opera"
+      },
+      {
+        "productId": "wroclaw-christmas",
         "kind": "route-stop",
         "sourceId": "opera"
       }
@@ -54530,6 +54543,7 @@
     "taxonomy": {
       "categories": [
         "architecture",
+        "culture",
         "music",
         "theatre"
       ],
@@ -54636,6 +54650,28 @@
         "https://www.youtube.com/watch?v=I8_pnHoo9qs",
         "https://www.youtube.com/watch?v=gAF7NpDlYPw"
       ],
+      "guideLinks": {
+        "he": {
+          "facebook": "https://www.facebook.com/reel/1134820542254961/",
+          "instagram": "https://www.instagram.com/reel/DfUFr6yGd9N/"
+        },
+        "en": {
+          "facebook": "https://facebook.com/reel/1449760397283921/",
+          "instagram": "https://www.instagram.com/reel/DfUcZ0olg45/"
+        },
+        "pl": {
+          "facebook": "https://facebook.com/reel/1837503874047470/",
+          "instagram": "https://www.instagram.com/reel/DfUZ5V_CTzm/"
+        },
+        "de": {
+          "facebook": "https://facebook.com/reel/2765697730491391/",
+          "instagram": "https://www.instagram.com/reel/DfUeQvbET8W/"
+        },
+        "cs": {
+          "facebook": "https://facebook.com/reel/1696084648788682/",
+          "instagram": "https://www.instagram.com/reel/DfUfw4vFSym/"
+        }
+      },
       "metadata": {
         "/assets/today-source-refresh-20261021/opera-01.jpg": {
           "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/Opera/WhatsApp Image 2026-10-19 at 08.42.06.jpeg",
@@ -96790,6 +96826,10 @@
         "https://www.youtube.com/watch?v=7Q2KTsKYNl0",
         "https://www.youtube.com/watch?v=16AT4nUELtw"
       ],
+      "guideVideos": {
+        "he": "https://www.youtube.com/watch?v=r_okd-N8HiQ",
+        "en": "https://www.youtube.com/watch?v=Md64FDUcTgY"
+      },
       "metadata": {
         "/assets/zoo-wroclaw-01.jpg": {
           "tags": [
