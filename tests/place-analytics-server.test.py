@@ -39,4 +39,12 @@ class Counters(unittest.TestCase):
   code="require $argv[1];for($i=0;$i<25;$i++)place_analytics_write([['event'=>'place_open','site_language'=>'he']],false,$argv[2]);"
   with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:list(pool.map(lambda _:subprocess.run([PHP,'-r',code,str(self.base/'place-analytics.php'),str(self.base/'concurrent')],check=True),range(4)))
   data=json.loads(next((self.base/'concurrent').glob('*.json')).read_text());self.assertEqual(sum(r['count'] for r in data['rows'].values()),100)
+ def test_campaign_and_post_tokens_are_reported_without_personal_data(self):
+  body={'version':1,'consent':True,'test':True,'events':[{'event':'map_open','site_language':'pl','utm_source':'instagram','utm_medium':'paid_social','utm_campaign':'wang_pl','utm_id':'12345','utm_content':'ig_reel_20261120_v1','arrival_basis':'utm','arrival_source':'instagram','arrival_medium':'paid_social','session_id':'PRIVATE','page_referrer':'https://private.example/secret'}]}
+  self.assertEqual(self.request(body)[0],204)
+  bad={**body,'events':[{**body['events'][0],'utm_content':'person@example.com','utm_campaign':'https://private.example/secret'}]}
+  self.assertEqual(self.request(bad)[0],204)
+  report=json.loads(self.request(path='/report.php?test=1')[1]);rows=[r for r in report['rows'] if r['dimensions']['event']=='map_open']
+  self.assertTrue(any(r['dimensions'].get('utm_content')=='ig_reel_20261120_v1' for r in rows))
+  wire=json.dumps(rows);self.assertNotIn('PRIVATE',wire);self.assertNotIn('person@',wire);self.assertNotIn('private.example',wire)
 if __name__=='__main__':unittest.main()

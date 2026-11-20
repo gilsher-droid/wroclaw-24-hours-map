@@ -39,15 +39,23 @@
   function flush() {
     if (!consent.analytics || excluded) { queue.length = 0; return; }
     if (!collector || !publicHost || !queue.length || typeof window.fetch !== "function") return;
-    const batch = queue.splice(0, 20);
+    const batch = [];
+    // Keep the expanded campaign payload below the existing collector's 16 KB limit.
+    while (queue.length && batch.length < 20) {
+      const preview = JSON.stringify({ version: 1, consent: true, test: query.get("analytics_test") === "1", events: [...batch, queue[0]] });
+      const bytes = typeof TextEncoder === "function" ? new TextEncoder().encode(preview).length : preview.length * 3;
+      if (bytes > 14000 && batch.length) break;
+      batch.push(queue.shift());
+    }
     window.fetch(collector, { method: "POST", mode: "cors", credentials: "omit", keepalive: true,
       headers: { "Content-Type": "text/plain;charset=UTF-8" },
       body: JSON.stringify({ version: 1, consent: true, test: query.get("analytics_test") === "1", events: batch }),
     }).catch(() => {});
+    if (queue.length && typeof window.setTimeout === "function") window.setTimeout(flush, 0);
   }
   function collect(event, parameters) {
     if (!collector || !publicHost || !consent.analytics || excluded) return;
-    const fields = ["canonical_place_id", "canonical_experience_id", "product_id", "site_language", "source_surface", "link_type", "provider", "media_kind", "video_percent", "category", "radius_band", "traffic_source"];
+    const fields = ["canonical_place_id", "canonical_experience_id", "product_id", "site_language", "source_surface", "link_type", "provider", "media_kind", "video_percent", "category", "radius_band", "traffic_source", "arrival_source", "arrival_medium", "arrival_basis", "utm_source", "utm_medium", "utm_campaign", "utm_id", "utm_content"];
     const row = { event };
     for (const key of fields) if (parameters[key] !== undefined) row[key] = parameters[key];
     queue.push(row);
@@ -77,25 +85,51 @@
     const attribution = {};
     for (const key of utmKeys) {
       const value = params.get(key)?.trim();
-      if (value) attribution[key] = value.slice(0, 100);
+      // Campaign labels are tokens, never email addresses, URLs or free-form personal text.
+      if (value && /^[a-z0-9][a-z0-9._~-]{0,99}$/i.test(value)) attribution[key] = value;
     }
     return attribution;
   }
 
-  function attribution() {
-    const incoming = incomingAttribution();
-    if (Object.keys(incoming).length) {
-      if (consent.analytics) {
-        try { sessionStorage.setItem("wroc-analytics-attribution", JSON.stringify(incoming)); } catch (_) { /* storage may be unavailable */ }
-      }
-      return incoming;
-    }
-    if (!consent.analytics) return {};
+  function referrerSource() {
     try {
-      const stored = JSON.parse(sessionStorage.getItem("wroc-analytics-attribution") || "{}");
-      return Object.fromEntries(utmKeys.filter((key) => typeof stored[key] === "string").map((key) => [key, stored[key]]));
-    } catch (_) { return {}; }
+      const host = new URL(document.referrer).hostname.toLowerCase();
+      if (/^(www\.)?wroc-love\.com$/.test(host)) return null;
+      if (/(^|\.)google\.(com|co\.il|co\.uk|de|pl|cz|fr|es|it|nl|ca|com\.au)$/.test(host)) return { source: "google", medium: ["gclid", "dclid", "gbraid", "wbraid"].some(key => query.has(key)) ? "unknown" : "organic", basis: "referrer" };
+      for (const [domain, source, medium] of [["bing.com", "bing", "organic"], ["facebook.com", "facebook", "referral"], ["instagram.com", "instagram", "referral"], ["youtube.com", "youtube", "referral"]]) {
+        if (host === domain || host.endsWith("." + domain)) return { source, medium, basis: "referrer" };
+      }
+      return { source: "other", medium: "referral", basis: "referrer" };
+    } catch (_) { return null; }
   }
+
+  let pageArrival, pageArrivalLastSeen;
+  function arrival() {
+    if (!consent.analytics) return incomingAttribution();
+    // An untouched, already-open map must not keep an inherited campaign forever.
+    if (pageArrival && (Date.now() - pageArrivalLastSeen >= 30 * 60 * 1000 || Date.now() < pageArrivalLastSeen)) pageArrival = undefined;
+    if (!pageArrival) {
+      const incoming = incomingAttribution(), referred = referrerSource();
+      let stored;
+      if (consent.analytics) {
+        try { stored = JSON.parse(sessionStorage.getItem("wroc-analytics-attribution") || "null"); } catch (_) { /* unavailable */ }
+      }
+      const recent = stored && Number.isFinite(stored.lastSeen) && Date.now() - stored.lastSeen >= 0 && Date.now() - stored.lastSeen < 30 * 60 * 1000;
+      if (Object.keys(incoming).length) pageArrival = { ...incoming, arrival_source: incoming.utm_source || "unknown", arrival_medium: incoming.utm_medium || "unknown", arrival_basis: "utm" };
+      else if (referred) pageArrival = { arrival_source: referred.source, arrival_medium: referred.medium, arrival_basis: referred.basis };
+      else if (recent && stored.values && typeof stored.values === "object") {
+        pageArrival = Object.fromEntries([...utmKeys, "arrival_source", "arrival_medium", "arrival_basis"].filter(key => typeof stored.values[key] === "string" && /^[a-z0-9][a-z0-9._~-]{0,99}$/i.test(stored.values[key])).map(key => [key, stored.values[key]]));
+      }
+      else pageArrival = { arrival_source: "direct_or_unknown", arrival_medium: "none", arrival_basis: "direct_or_unknown" };
+    }
+    pageArrivalLastSeen = Date.now();
+    if (consent.analytics) {
+      try { sessionStorage.setItem("wroc-analytics-attribution", JSON.stringify({ values: pageArrival, lastSeen: Date.now() })); } catch (_) { /* unavailable */ }
+    }
+    return pageArrival;
+  }
+
+  function attribution() { return Object.fromEntries(utmKeys.filter(key => typeof arrival()[key] === "string").map(key => [key, arrival()[key]])); }
 
   function selectedGuidePlace() {
     if (productId() !== "guided-city-map") return null;
@@ -106,18 +140,20 @@
   function context() {
     const path = location.pathname.split("/").pop();
     const surface = path === "nearby.html" ? "nearby" : path === "experiences.html" ? "experiences" : path === "personal-trip.html" ? "personal_trip" : productId() ? "map" : "website";
-    const rawTraffic = attribution().utm_source?.toLowerCase();
+    const source = arrival();
+    const rawTraffic = source.arrival_source?.toLowerCase();
     // Meta's automatic URL tags use fb/ig; keep the original UTM values for
     // GA4 while grouping these aliases consistently in our own counters.
     const traffic = ({ fb: "facebook", ig: "instagram" })[rawTraffic] || rawTraffic;
-    return { ...(selectedGuidePlace() ? { canonical_place_id: selectedGuidePlace() } : {}), language: language(), site_language: language(), source_surface: surface, traffic_source: ["facebook", "instagram", "google", "bing", "youtube"].includes(traffic) ? traffic : traffic ? "other" : "direct", ...(productId() ? { product_id: productId() } : {}), ...attribution() };
+    return { ...(selectedGuidePlace() ? { canonical_place_id: selectedGuidePlace() } : {}), language: language(), site_language: language(), source_surface: surface, traffic_source: ["facebook", "instagram", "google", "bing", "youtube"].includes(traffic) ? traffic : traffic === "direct_or_unknown" ? "direct" : "other", ...(productId() ? { product_id: productId() } : {}), ...source };
   }
 
   function safePageLocation() {
     const url = new URL(location.href);
     for (const key of [...url.searchParams.keys()]) {
-      if (key !== "lang" && !utmKeys.includes(key)) url.searchParams.delete(key);
+      if (key !== "lang") url.searchParams.delete(key);
     }
+    for (const [key,value] of Object.entries(incomingAttribution())) url.searchParams.set(key,value);
     url.hash = "";
     return url.href;
   }
@@ -190,13 +226,15 @@
     const previous = { ...consent };
     consent.analytics = next.analytics === true;
     consent.marketing = next.marketing === true;
-    if (!consent.analytics) queue.length = 0;
+    if (!consent.analytics) {
+      queue.length = 0;
+      pageArrival = undefined;
+      pageArrivalLastSeen = undefined;
+      try { sessionStorage.removeItem("wroc-analytics-attribution"); } catch (_) { /* storage may be unavailable */ }
+    }
     if (gaLoaded) window.gtag("consent", "update", { analytics_storage: consent.analytics ? "granted" : "denied" });
     if (pixelLoaded) window.fbq("consent", consent.marketing ? "grant" : "revoke");
     if ((previous.analytics && !consent.analytics) || (previous.marketing && !consent.marketing)) {
-      if (previous.analytics && !consent.analytics) {
-        try { sessionStorage.removeItem("wroc-analytics-attribution"); } catch (_) { /* storage may be unavailable */ }
-      }
       if (typeof document.cookie === "string") {
         for (const entry of document.cookie.split(";")) {
           const name = entry.trim().split("=")[0];
