@@ -1040,6 +1040,14 @@
   "moszna-castle": [
     {
       "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122180569501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-21",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
+    {
+      "platform": "facebook",
       "language": "he",
       "url": "https://www.facebook.com/61591964083308/posts/122132002311398802/",
       "verifiedAt": "2026-11-11",
@@ -1862,6 +1870,14 @@
     }
   ],
   "nfm": [
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122189215501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-21",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
     {
       "platform": "instagram",
       "language": "he",
@@ -3847,6 +3863,14 @@
     }
   ],
   "moszna-castle-park": [
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122185681501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-21",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
     {
       "platform": "facebook",
       "language": "he",
