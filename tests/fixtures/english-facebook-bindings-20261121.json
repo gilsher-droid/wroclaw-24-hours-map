@@ -92,6 +92,13 @@
       "language": "en",
       "url": "https://www.facebook.com/61595036942289/posts/122122189215501231/",
       "account": "61595036942289"
+    },
+    {
+      "id": "opera",
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122199835501231/",
+      "account": "61595036942289"
     }
   ],
   "beforeCount": 347,
@@ -2076,6 +2083,150 @@
       ],
       "beforeRegistryHash": "4eeeca91e9ad8fa3b4952697b1c04619110b8f5b511a630fa6d7c6eea3eece20",
       "afterRegistryHash": "ae0c7053f7bfbe173c374fbb2d78362d3d18c9fdbcd7b1bc214628128896fed4"
+    },
+    "opera": {
+      "beforeRecordHash": "cb32d3bfdaba7f128d4534a2182edc4d763a55bd0d7c181198794727b407e95c",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116782675506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:39:38.339929+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Z8kgxs3fBBWm21rF1HhaxvyXqs4cv1W1KhPQmxcND991g7VVKxJMDXYVPCFR4vTxl&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:18:30.335855+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zRLHCGbDPckmCMWhYqUNZx3QcDXw8pnK42Dzvm1XG5FVCcab4zWMhjA2TYsjn39l&id=61595239823399",
+          "verifiedAt": "2026-10-06T23:25:41.633457+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02y1sCWXzMXSoLSEVfQ4U6yRvAm82CSq4Ft6dZ8e5JU4GnXcSV6iFHyLjuzuH9bpR4l&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeMm2qnlLRJ/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ShhCD1Qo8tRT5fzNzJBNDP6HqpSoxNjh1P7KVq9iaNzJMUkpybznT9Q6CVzZ2GNpl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeMpfnYj-zN/",
+          "verifiedAt": "2026-10-07T15:11:03.812718+00:00"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DeOF5bFCVkv/",
+          "verifiedAt": "2026-10-08"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122108359197398802/",
+          "verifiedAt": "2026-10-09T01:42:27.437Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeT6b4dj9Oo/",
+          "verifiedAt": "2026-10-10T10:54:06.740Z"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/p/DcrGVaJDCs3/?img_index=1",
+          "routingExcluded": true
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/photo/?fbid=122108355723398802"
+        }
+      ],
+      "beforeSocialHash": "430e257a72c31cebe03fcec4a5c39b979e11048e915103232080b056310d3973",
+      "afterSocialHash": "5f3f22a6253292518febc3fecfec9f159b3212049c5c485dd129335b89a6004a",
+      "beforeRegistryRows": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116782675506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:39:38.339929+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02Z8kgxs3fBBWm21rF1HhaxvyXqs4cv1W1KhPQmxcND991g7VVKxJMDXYVPCFR4vTxl&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:18:30.335855+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0zRLHCGbDPckmCMWhYqUNZx3QcDXw8pnK42Dzvm1XG5FVCcab4zWMhjA2TYsjn39l&id=61595239823399",
+          "verifiedAt": "2026-10-06T23:25:41.633457+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02y1sCWXzMXSoLSEVfQ4U6yRvAm82CSq4Ft6dZ8e5JU4GnXcSV6iFHyLjuzuH9bpR4l&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeMm2qnlLRJ/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ShhCD1Qo8tRT5fzNzJBNDP6HqpSoxNjh1P7KVq9iaNzJMUkpybznT9Q6CVzZ2GNpl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeMpfnYj-zN/",
+          "verifiedAt": "2026-10-07T15:11:03.812718+00:00"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DeOF5bFCVkv/",
+          "verifiedAt": "2026-10-08"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122108359197398802/",
+          "verifiedAt": "2026-10-09T01:42:27.437Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeT6b4dj9Oo/",
+          "verifiedAt": "2026-10-10T10:54:06.740Z"
+        }
+      ],
+      "beforeRegistryHash": "1f543f25181e5156058cc93174aa3347ef626a73d8b8177dca278b962908abbf",
+      "afterRegistryHash": "cbf8ef98c1aab61642e9224a13ff77c3b8cd6a468ce823e03982da48d5f2131b"
     }
   },
   "unrelatedRecordHashes": {
@@ -2246,7 +2397,6 @@
     "old-havana-wroclaw": "4ca9134c92cf01afe996ae98c45b2dd18d5af10028899113b250975d2e04b4b7",
     "old-jewish-cemetery-wroclaw": "754168b54637b491c447ada8f9aa9a729a6ca949354b54d4c87b51c27dc3f00a",
     "olio-pizza-napoletana-wroclaw": "bb8945670ec566e72532a057b5d065b47412e29db0aecdefe1aa70b6e17153a3",
-    "opera": "cb32d3bfdaba7f128d4534a2182edc4d763a55bd0d7c181198794727b407e95c",
     "opole-krakowska-street": "9cabd96ecfa4c5170d37c5a28aac3cd6df292012810f068d45b6423f122c54f0",
     "opole-market-square": "5c84eb494ab13acce5936d0a2a98f4d13e57a0a5ee9dde1e7383d52b8392bad6",
     "opole-town-hall": "30748ef41fe87ec6e2316bb53c823ac98254c8463e5e0b02a6121a1e2500f9b4",
@@ -2435,7 +2585,6 @@
     "ostrow": "4a7b83ec5516b84205a042ac9e06348d7604fbe10cb87afd888c954e000d327a",
     "pedet": "de3c4da2338f1778a9c1ed2135c0688bf4e26e318a9b911cbddf29f2f25e32b6",
     "church-of-peace-swidnica": "79f033a2d9919e29f9bc0585fb21a85e50a741c96340e4fcb11aca695fdda653",
-    "opera": "1f543f25181e5156058cc93174aa3347ef626a73d8b8177dca278b962908abbf",
     "boguslawskiego": "c3befc0f7ee52ef0592317f6966491c71f8d6288aea3a1cab7abc4f322efb764",
     "pergola": "159361ed9f64af6db6a6c44f22f9b6756476ae942cadccd8f067c25986aa29db",
     "wroclavia": "a1f76c69a71c349b70c83d13f90a5cfa0290f3320c50b131321f50161a33475d",
