@@ -50,6 +50,27 @@
       "language": "en",
       "url": "https://www.facebook.com/61595036942289/posts/122122051623501231/",
       "account": "61595036942289"
+    },
+    {
+      "id": "morskie-oko-wroclaw",
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122058583501231/",
+      "account": "61595036942289"
+    },
+    {
+      "id": "most-piaskowy",
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122060641501231/",
+      "account": "61595036942289"
+    },
+    {
+      "id": "most-tumski",
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122061883501231/",
+      "account": "61595036942289"
     }
   ],
   "beforeCount": 347,
@@ -1103,6 +1124,475 @@
       ],
       "beforeRegistryHash": "6f3ea8c74383a0a6c59bde5bb493b777c004093e38d1ac0c4d1e20a8b2dc222b",
       "afterRegistryHash": "329a0830f49bd100a92ec3f609b709a57242ad878ad18152f2fc7cd5a36e0fc9"
+    },
+    "morskie-oko-wroclaw": {
+      "beforeRecordHash": "80cffadeb14b8c13c812444af6baf6766065fd113a5577f432f5b70d71a2c48c",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116791735506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:51:58.138139+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DesDBfXn4Fe/",
+          "verifiedAt": "2026-10-19T19:49:59.271Z"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0eydkiCXbBErmkorNRBXsAuwM9NFSxb7BiEzJ3KQ56WndqUJWDx62zyHXNrygNxLJl&id=61595239823399",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-07T14:04:16.275470+00:00",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMhgrtAAHo/",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-07T14:04:16.275470+00:00",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid026tUVV7SEUJqBHJbpCS9qwzz27JpABWeFsj8rmEvahjyPdqN2kxvYihyPegPj9ta7l&id=61594716405964",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-07",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hUzZDx5cqXC87oLhSfLBCurwZ9sCyr721acQ24PVyJuTCLaWrYnC1W7udx1YrKUFl&id=61595036942289",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-07",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DePOrTjDwr8/",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-08",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid038Pd8vrTKieVn2uU5y3Qwqajz23bVfen4BNLrjWtx6UJReYNqSvv7NM2fAXfEp4DCl&id=61595207664875",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-08T15:37:04.082Z",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0oSKKxVUHrufqTJfgM831se3MMVCv3MV9WPfugJ18BthRWhshstHwwe7oKwBUoULal&id=61591964083308",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-09T08:07:46.325Z",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRVMM3jQxZ/",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-09T10:50:16.490Z",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeT2xmfDKGj/",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-10T10:22:37.165Z",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        }
+      ],
+      "beforeSocialHash": "60ddd4b46e816ad43bf09162a47d81adca86bac6fb8cdc07db2796c967c3b734",
+      "afterSocialHash": "3093939a3e52ca3ab5fca0c1a34c8ecd2f0cdcedcf0b8dbdc885921788400058",
+      "beforeRegistryRows": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116791735506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:51:58.138139+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DesDBfXn4Fe/",
+          "verifiedAt": "2026-10-19T19:49:59.271Z"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0eydkiCXbBErmkorNRBXsAuwM9NFSxb7BiEzJ3KQ56WndqUJWDx62zyHXNrygNxLJl&id=61595239823399",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-07T14:04:16.275470+00:00",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMhgrtAAHo/",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-07T14:04:16.275470+00:00",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid026tUVV7SEUJqBHJbpCS9qwzz27JpABWeFsj8rmEvahjyPdqN2kxvYihyPegPj9ta7l&id=61594716405964",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-07",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0hUzZDx5cqXC87oLhSfLBCurwZ9sCyr721acQ24PVyJuTCLaWrYnC1W7udx1YrKUFl&id=61595036942289",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-07",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DePOrTjDwr8/",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-08",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid038Pd8vrTKieVn2uU5y3Qwqajz23bVfen4BNLrjWtx6UJReYNqSvv7NM2fAXfEp4DCl&id=61595207664875",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-08T15:37:04.082Z",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0oSKKxVUHrufqTJfgM831se3MMVCv3MV9WPfugJ18BthRWhshstHwwe7oKwBUoULal&id=61591964083308",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-09T08:07:46.325Z",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRVMM3jQxZ/",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-09T10:50:16.490Z",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeT2xmfDKGj/",
+          "verifiedAt": "2026-10-19",
+          "previousVerifiedAt": "2026-10-10T10:22:37.165Z",
+          "verificationEvidence": "data/morskie-oko-social-audit.json"
+        }
+      ],
+      "beforeRegistryHash": "60ddd4b46e816ad43bf09162a47d81adca86bac6fb8cdc07db2796c967c3b734",
+      "afterRegistryHash": "3093939a3e52ca3ab5fca0c1a34c8ecd2f0cdcedcf0b8dbdc885921788400058"
+    },
+    "most-piaskowy": {
+      "beforeRecordHash": "26e6acd8297fc292433956aba626e38c26a416a99d3b860b499b7f8f7d4e65f5",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid093Rzu1BCaVt579Aw5z9YUuFYURFJcfKBivBDRNVxrBs9o2U6PgquStw7Jku7UcWbl&id=61591964083308",
+          "verifiedAt": "2026-11-11",
+          "context": "verified-he-written-photo-routing-20261111",
+          "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116780977506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:36:42.648326+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/61595036942289/posts/122100642099501231/",
+          "verifiedAt": "2026-10-22T06:21:00.054Z",
+          "accountId": "61595036942289",
+          "postId": "122100642099501231"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/61594716405964/posts/122110698513490546/",
+          "verifiedAt": "2026-10-22T06:20:55.562Z",
+          "accountId": "61594716405964",
+          "postId": "122110698513490546"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMtaw6FNEj/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/61595239823399/posts/122096998251507994/",
+          "verifiedAt": "2026-10-22T06:20:51.213Z",
+          "accountId": "61595239823399",
+          "postId": "122096998251507994"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122098242135506922/",
+          "verifiedAt": "2026-10-22T06:21:04.434Z",
+          "accountId": "61595207664875",
+          "postId": "122098242135506922"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRUFoLje9C/",
+          "verifiedAt": "2026-10-09T10:40:30.236Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeT0u0DDfS7/",
+          "verifiedAt": "2026-10-10T10:04:06.675Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeUNep6CQfA/",
+          "verifiedAt": "2026-10-10T13:40:24.682Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvBasEVvu/",
+          "verifiedAt": "2026-10-10T18:33:14.693Z"
+        }
+      ],
+      "beforeSocialHash": "c12e71397ad851a52ab28bb8e857dea1495e0a6b444c6c306e883876c6a0e8fe",
+      "afterSocialHash": "ba6c52023fea14e4793aa256a220dd3f504d2df1ba3a025108783611b473de38",
+      "beforeRegistryRows": [
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid093Rzu1BCaVt579Aw5z9YUuFYURFJcfKBivBDRNVxrBs9o2U6PgquStw7Jku7UcWbl&id=61591964083308",
+          "verifiedAt": "2026-11-11",
+          "context": "verified-he-written-photo-routing-20261111",
+          "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116780977506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:36:42.648326+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/61595036942289/posts/122100642099501231/",
+          "verifiedAt": "2026-10-22T06:21:00.054Z",
+          "accountId": "61595036942289",
+          "postId": "122100642099501231"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/61594716405964/posts/122110698513490546/",
+          "verifiedAt": "2026-10-22T06:20:55.562Z",
+          "accountId": "61594716405964",
+          "postId": "122110698513490546"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeMtaw6FNEj/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/61595239823399/posts/122096998251507994/",
+          "verifiedAt": "2026-10-22T06:20:51.213Z",
+          "accountId": "61595239823399",
+          "postId": "122096998251507994"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122098242135506922/",
+          "verifiedAt": "2026-10-22T06:21:04.434Z",
+          "accountId": "61595207664875",
+          "postId": "122098242135506922"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeRUFoLje9C/",
+          "verifiedAt": "2026-10-09T10:40:30.236Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeT0u0DDfS7/",
+          "verifiedAt": "2026-10-10T10:04:06.675Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/p/DeUNep6CQfA/",
+          "verifiedAt": "2026-10-10T13:40:24.682Z"
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUvBasEVvu/",
+          "verifiedAt": "2026-10-10T18:33:14.693Z"
+        }
+      ],
+      "beforeRegistryHash": "c12e71397ad851a52ab28bb8e857dea1495e0a6b444c6c306e883876c6a0e8fe",
+      "afterRegistryHash": "ba6c52023fea14e4793aa256a220dd3f504d2df1ba3a025108783611b473de38"
+    },
+    "most-tumski": {
+      "beforeRecordHash": "804f99f803d6fb05baafcbd7e84097390b001efcaadaae9a3d169a80d240f144",
+      "beforeSocialPosts": [
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/p/Dfws2SYkVjH/",
+          "account": "wroclaw.lowersilesia.he",
+          "verifiedAt": "2026-11-15",
+          "context": "verified-following-five-he-written-photo-routing-20261115"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122131962243398802/",
+          "verifiedAt": "2026-11-11",
+          "context": "verified-he-written-photo-routing-20261111",
+          "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116432383506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-06T20:00:07.102Z",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0dqnEszRVNQ8n1EGvopvR32oUL27mbxSAo7BKxAAjPh87N8y9uWUkU4dnLPJ9xWApl&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:25:45.534091+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Awc48gHAgZw73RFZvkybjhaqZ2TUJKL9cK8WtvYcAdMb1UgLhUmUEoJmhNL4q2Xpl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qj7d9EJwEqz8HgNRpACtcn1maAuxbozPBVHLezCGupgeGghNkutu6Ks4BEFMbXrol&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02dMVehWgoL73Zryrr5U3DAXrmieCtB4Kn5ss7XwKJXfis3tb5DXwozaCLedtFUNUnl&id=61595239823399",
+          "verifiedAt": "2026-10-08T14:57:25.217154+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02cYCzpEAb2Q6am2n5UsAjCuYjgu54yuZA9RkfgHh67WGwyyP1xXmGvVLCDuDoBoNQl&id=61591964083308",
+          "verifiedAt": "2026-10-09T08:48:22.039Z"
+        }
+      ],
+      "beforeSocialHash": "74853d949074a7486114dabbd8b364c27c8159a66766eeee55bc464168927a5e",
+      "afterSocialHash": "7f95b4ac4472a377757a2d9e623e6490bf343286ae66ab25b28db67d073967ad",
+      "beforeRegistryRows": [
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/p/Dfws2SYkVjH/",
+          "account": "wroclaw.lowersilesia.he",
+          "verifiedAt": "2026-11-15",
+          "context": "verified-following-five-he-written-photo-routing-20261115"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122131962243398802/",
+          "verifiedAt": "2026-11-11",
+          "context": "verified-he-written-photo-routing-20261111",
+          "mediaCoverageQualification": "Native Hebrew written post and matching place photo verified; not a full carousel audit."
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116432383506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-06T20:00:07.102Z",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0dqnEszRVNQ8n1EGvopvR32oUL27mbxSAo7BKxAAjPh87N8y9uWUkU4dnLPJ9xWApl&id=61595207664875",
+          "verifiedAt": "2026-10-06T23:25:45.534091+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0Awc48gHAgZw73RFZvkybjhaqZ2TUJKL9cK8WtvYcAdMb1UgLhUmUEoJmhNL4q2Xpl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0qj7d9EJwEqz8HgNRpACtcn1maAuxbozPBVHLezCGupgeGghNkutu6Ks4BEFMbXrol&id=61594716405964",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02dMVehWgoL73Zryrr5U3DAXrmieCtB4Kn5ss7XwKJXfis3tb5DXwozaCLedtFUNUnl&id=61595239823399",
+          "verifiedAt": "2026-10-08T14:57:25.217154+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02cYCzpEAb2Q6am2n5UsAjCuYjgu54yuZA9RkfgHh67WGwyyP1xXmGvVLCDuDoBoNQl&id=61591964083308",
+          "verifiedAt": "2026-10-09T08:48:22.039Z"
+        }
+      ],
+      "beforeRegistryHash": "74853d949074a7486114dabbd8b364c27c8159a66766eeee55bc464168927a5e",
+      "afterRegistryHash": "7f95b4ac4472a377757a2d9e623e6490bf343286ae66ab25b28db67d073967ad"
     }
   },
   "unrelatedRecordHashes": {
@@ -1257,10 +1747,7 @@
     "meatologia-wlodkowica": "2a99cb5866ddc2831048c985a496cc1b42bec4899bc1534b704672505992c404",
     "meatologia-zwycieska": "691bf496db39398d5e6748e635d863947a1e424deca0ecf2ca05165c39b5144a",
     "monopol": "1d4673ea8d1586d6f3131719c910113851fd36f82ac7cd8d6003b03d2ce7b43b",
-    "morskie-oko-wroclaw": "80cffadeb14b8c13c812444af6baf6766065fd113a5577f432f5b70d71a2c48c",
-    "most-piaskowy": "26e6acd8297fc292433956aba626e38c26a416a99d3b860b499b7f8f7d4e65f5",
     "most-pomorski-poludniowy-wroclaw": "2a6081297044be8d0c0bbed63ffecfa4a64722a96725cd35dc6b7041d636dc3f",
-    "most-tumski": "804f99f803d6fb05baafcbd7e84097390b001efcaadaae9a3d169a80d240f144",
     "most-zwierzyniecki-wroclaw": "5fac0ee443e493299f6ba0bea37e1c02b7b4cbcc0bdf3934ee14b9b2fe337a29",
     "mostek-pokutnic-wroclaw": "811ed82bba1ba2c9b53685c1f7fcb5dcdc8f2e7d52bc06bbd26ac1841659c3ed",
     "moszna-castle": "a253d8dec9183732e4b29fc0ef87944edf3e437f2293939a3ca260a5daecc564",
@@ -1477,7 +1964,6 @@
     "renoma": "bbf844dd8e4b8b485abf2c15a64388f33b46346f689228028b72c434d782e8f3",
     "panorama": "dd048e0edc38ca9b32a310a3775fa8d337c8c773d62d790c53c98a65357dc8ec",
     "town-hall": "332cd20a82fa4aaf4336ffced25acc35b42c1b23a0bc9bba0ddb29065d917b3a",
-    "most-tumski": "74853d949074a7486114dabbd8b364c27c8159a66766eeee55bc464168927a5e",
     "wuwa-estate": "fe262764eb0d8634f85dd921b4eaf1b3c220ee56f2e5b3f6bbb0451b53d42865",
     "wieza-cisnien-borek": "0cd3c757ceb627ee3bf1a5a4fb7c19333bef640fe457c12d8853b38d097e29c1",
     "kaplica-czaszek-czermna": "a636c7848c82638f1ea38356c2fdb663889589e68e6bf22c9c5839563f6883bb",
@@ -1486,7 +1972,6 @@
     "jas-malgosia": "e65b35875950359a8e79ec14350b3094f85ec81886388cc6ca0411bbb582bd80",
     "slodowa": "9a2143c71108a260945dd9af1dc68ba49bc9c953d8a27e17a6c01f6b6b5d800c",
     "dunikowski": "f229ce23aad93434b17c88cab2cd52563f05fdc8ee0ff0bf3cff328f474fdcee",
-    "most-piaskowy": "c12e71397ad851a52ab28bb8e857dea1495e0a6b444c6c306e883876c6a0e8fe",
     "national-museum": "21830bea31b3c0a430cf99becfb7e47d19b2122f39106e530e156cc4c93d2a7a",
     "museum-of-architecture-wroclaw": "43ba5fdca3951c8a3f2c4d033162d0063e0de14a21f94f59a7d3b4cff179e935",
     "museum-of-pharmacy-wroclaw": "d14e69e342efd30ad712e63c0b5b3df4e1fe53e4b3b1e676bd65e7f49eca1cd9",
@@ -1506,7 +1991,6 @@
     "studio-bwa-wroclaw": "22513dc226423cec0bd7149c98b463e601d7d0b5321b500f4a7c4115737c4df2",
     "stadion-olimpijski-wroclaw": "459405bfaf0590b081f24c205d7b417d18b4ddd22baec7466effa85d121f6c50",
     "wedrowcy-kolejowa-63": "bb40614cd093146e753b19f0431fee4565f7ea7f924daf56da796adf821acc79",
-    "morskie-oko-wroclaw": "60ddd4b46e816ad43bf09162a47d81adca86bac6fb8cdc07db2796c967c3b734",
     "bar-mis": "d3745ad454481843d3638cd68a6bcb236824f3c56cac0b5159066c55ebe4e7ac",
     "charlotte": "a30271b048a2bee5cd1b94fd3dcaa94d653d18eaf1cb4ac293434002409df5b3",
     "chatka": "88043ad802e6ae919e17e5b22c8c950029a1f5f925544cd9cdeb71875567843c",
