@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import {expectedNov21EnglishURL} from "./english-facebook-bindings-nov21-historical-baseline.mjs";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import test from "node:test";
@@ -146,7 +147,7 @@ test('Borek exposes reviewed place posts and its newly verified Hebrew Instagram
   assert.equal(audit.entries.length, 10);
   for (const row of audit.entries.filter(row => row.status === 'verified-post')) {
     const updated=row.platform==='facebook'&&row.language==='pl'?JSON.parse(readFileSync(resolve(root,'tests/fixtures/polish-rich-posts-20261110.json'))).find(item=>item.canonicalId===place.id)?.url:null;
-    assert.equal(catalog.getSocialPost(place, row.platform, row.language)?.url, updated||row.url);
+    assert.equal(catalog.getSocialPost(place, row.platform, row.language)?.url, expectedNov21EnglishURL(place.id,row.platform,row.language,updated||row.url));
     assert.ok(place.socialPosts.some(item=>item.url===row.url),'Original verified link preserved');
     assert.ok(row.contentReviewed && row.account && row.checkedAt && row.evidence.length);
   }
