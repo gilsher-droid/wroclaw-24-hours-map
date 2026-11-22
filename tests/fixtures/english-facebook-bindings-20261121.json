@@ -99,6 +99,13 @@
       "language": "en",
       "url": "https://www.facebook.com/61595036942289/posts/122122199835501231/",
       "account": "61595036942289"
+    },
+    {
+      "id": "ossolineum",
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122275483501231/",
+      "account": "61595036942289"
     }
   ],
   "beforeCount": 347,
@@ -2227,6 +2234,161 @@
       ],
       "beforeRegistryHash": "1f543f25181e5156058cc93174aa3347ef626a73d8b8177dca278b962908abbf",
       "afterRegistryHash": "cbf8ef98c1aab61642e9224a13ff77c3b8cd6a468ce823e03982da48d5f2131b"
+    },
+    "ossolineum": {
+      "beforeRecordHash": "dd7038f4dfbefc20c877a1fd5b644b1fb459d4ef27bcd69ea61257c4df388680",
+      "beforeSocialPosts": [
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeZuEj-CJeX/",
+          "verifiedAt": "2026-11-12",
+          "context": "verified-he-qualified-routing-20261112",
+          "mediaCoverageQualification": "Existing image post and venue photo verified; short caption substantive enrichment remains pending; basic routing only."
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116778043506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:30:46.547631+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeKX3G-DtBB/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0222pboCLNNAomDu117jexoKcuhDjkQvQJSieG4CdGa473vgthHmz2SS8VhcixxMoPl&id=61595207664875",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02RHnUCYpZb8V9QPirXnWQrbpazzHNrUx9D4s9EAMvXTgDkeSG2jMDGNbUoPmdbCFcl&id=61595239823399",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKgDXbkZl2/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02F99CtAoKgEeCkqNa47dn5pAL3SL6u3sCphfKkycseKBGr1WTURrbE6gMXSvnJXZyl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKxX9jFaPp/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeKz86Cj9W6/",
+          "verifiedAt": "2026-10-06T22:10:26.054724+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NnkfqQXriEs4oRCaDKaWbVu47RGbL4M5dVzyk1G4ob3Fry2aq2w3m3MYjWCpEDmil&id=61594716405964",
+          "verifiedAt": "2026-10-06T22:29:02.899058+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122111795823398802/",
+          "verifiedAt": "2026-10-08T20:01:42.956Z"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DbxOsQ_nEQt/"
+        }
+      ],
+      "beforeSocialHash": "72192f09381ac546974fa35f9a483b08b598eb33c5e4617c41520d749c6395ca",
+      "afterSocialHash": "8e9a898c32ec499171963c395dbffba7970a7430f1489d2c64e3131e4c0d47b4",
+      "beforeRegistryRows": [
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeZuEj-CJeX/",
+          "verifiedAt": "2026-11-12",
+          "context": "verified-he-qualified-routing-20261112",
+          "mediaCoverageQualification": "Existing image post and venue photo verified; short caption substantive enrichment remains pending; basic routing only."
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116778043506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:30:46.547631+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeKX3G-DtBB/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid0222pboCLNNAomDu117jexoKcuhDjkQvQJSieG4CdGa473vgthHmz2SS8VhcixxMoPl&id=61595207664875",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02RHnUCYpZb8V9QPirXnWQrbpazzHNrUx9D4s9EAMvXTgDkeSG2jMDGNbUoPmdbCFcl&id=61595239823399",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeKgDXbkZl2/",
+          "verifiedAt": "2026-10-06"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02F99CtAoKgEeCkqNa47dn5pAL3SL6u3sCphfKkycseKBGr1WTURrbE6gMXSvnJXZyl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia/p/DeKxX9jFaPp/",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.cs/p/DeKz86Cj9W6/",
+          "verifiedAt": "2026-10-06T22:10:26.054724+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02NnkfqQXriEs4oRCaDKaWbVu47RGbL4M5dVzyk1G4ob3Fry2aq2w3m3MYjWCpEDmil&id=61594716405964",
+          "verifiedAt": "2026-10-06T22:29:02.899058+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://www.facebook.com/61591964083308/posts/122111795823398802/",
+          "verifiedAt": "2026-10-08T20:01:42.956Z"
+        }
+      ],
+      "beforeRegistryHash": "230c1437d77394f63ff9ff2d621d33db7344bcdf2adef0f19de79e94d1853eab",
+      "afterRegistryHash": "c8e7bd72636a925bad2ec0d466cdaf479685dbebb854e2e58a405bad18c8d586"
     }
   },
   "unrelatedRecordHashes": {
@@ -2400,7 +2562,6 @@
     "opole-krakowska-street": "9cabd96ecfa4c5170d37c5a28aac3cd6df292012810f068d45b6423f122c54f0",
     "opole-market-square": "5c84eb494ab13acce5936d0a2a98f4d13e57a0a5ee9dde1e7383d52b8392bad6",
     "opole-town-hall": "30748ef41fe87ec6e2316bb53c823ac98254c8463e5e0b02a6121a1e2500f9b4",
-    "ossolineum": "dd7038f4dfbefc20c877a1fd5b644b1fb459d4ef27bcd69ea61257c4df388680",
     "ostrow": "7b631117f1507e73f57253a20dc2358eba5cdf8154c43bcf7328ff2839f009ec",
     "paczkarnia": "6b9419a715e2ede1fff5cb7f9a89d407ad495001a5df21fe86f60cbbe1f3e6fc",
     "paloma-coffee": "aff6b805de085ab45da54e269d4802b73ead469cc84bf7f3b56b03af1ff3c7cf",
@@ -2570,7 +2731,6 @@
     "hala-targowa": "b11e2dfe5e44da862b6470864c5554bba57b599d99135d270848046e345d0d45",
     "arche-klasztor": "15906e0d710245ed28de87916ff58784fe37d447f7096fdbbfeb300003e1b361",
     "rynek": "ab2bafb87a76b16b6871935cd0a6756fbeae51d428ededdca549666ae20195a3",
-    "ossolineum": "230c1437d77394f63ff9ff2d621d33db7344bcdf2adef0f19de79e94d1853eab",
     "hydropolis": "bb33786f30ec9dfa581a7037000a6b52773524a95a91b91763f966fc425f2e39",
     "japanese": "5602d897e54b92c6b5b3919980114c0c35a669ca9b5c331e6cd4d7284c6aa299",
     "hala": "2e62af72fee9e6739a1a7985b207275b4c1e21d452caab8155ec02547c060798",
