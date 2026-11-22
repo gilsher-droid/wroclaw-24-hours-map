@@ -120,6 +120,13 @@
       "language": "en",
       "url": "https://www.facebook.com/61595036942289/posts/122122373163501231/",
       "account": "61595036942289"
+    },
+    {
+      "id": "pan-tadeusz-museum",
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122382019501231/",
+      "account": "61595036942289"
     }
   ],
   "beforeCount": 347,
@@ -2703,6 +2710,69 @@
       ],
       "beforeRegistryHash": "5252baafdc013ceb1102d0239d102fc1c00fec11b89db954c13181349aa74917",
       "afterRegistryHash": "e22ebaf913613655c02ea673e7a8cbf4e8c7eb87cdcd66ceea97a9521ce9c07f"
+    },
+    "pan-tadeusz-museum": {
+      "beforeRecordHash": "8f3516a2cedd266a7a00584be7cff3a81ef4534e3c50ea1b6681f717df12853e",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116759113506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:05:34.018466+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0y9jKYMEHoVf2NWnPeYqiecZhchuXcoK1AXCDfe6hJZQwrqv46YPN1ARPbxkcpefql&id=61594716405964",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZR2WSJ9BLkbMnwHAdM1kcYc6mEXmby3TxfCq333gmwPPFajEVVJbn2p23BDBYtthl&id=61595036942289",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid035KHQotyMh8Khym2tvnbTrccFeC5fgbzSDhwE2HanMPB4EGzghRp2oZtwN34djkqrl&id=61595207664875",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "beforeSocialHash": "b85b0c67c7043a7468d0a314ba726c16d7bfe36694473dcdb967be7653c60ae8",
+      "afterSocialHash": "5dc9c017f81445e5b3298f9bca76b143baafafe07e7f3e7d92deaa6bd5bf24c0",
+      "beforeRegistryRows": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116759113506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:05:34.018466+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0y9jKYMEHoVf2NWnPeYqiecZhchuXcoK1AXCDfe6hJZQwrqv46YPN1ARPbxkcpefql&id=61594716405964",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ZR2WSJ9BLkbMnwHAdM1kcYc6mEXmby3TxfCq333gmwPPFajEVVJbn2p23BDBYtthl&id=61595036942289",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid035KHQotyMh8Khym2tvnbTrccFeC5fgbzSDhwE2HanMPB4EGzghRp2oZtwN34djkqrl&id=61595207664875",
+          "verifiedAt": "2026-10-19"
+        }
+      ],
+      "beforeRegistryHash": "b85b0c67c7043a7468d0a314ba726c16d7bfe36694473dcdb967be7653c60ae8",
+      "afterRegistryHash": "5dc9c017f81445e5b3298f9bca76b143baafafe07e7f3e7d92deaa6bd5bf24c0"
     }
   },
   "unrelatedRecordHashes": {
@@ -2880,7 +2950,6 @@
     "paloma-coffee": "aff6b805de085ab45da54e269d4802b73ead469cc84bf7f3b56b03af1ff3c7cf",
     "pan-precel": "3aa35ee3a856cc0d0c4f145f34d821ec2852e6ba18e53d5e35b6b9da0c17b454",
     "pan-precel-express-grunwaldzki": "311ad7aa550365685a4c2033791d41d55f010d87512a85d8271d5b8689030a6b",
-    "pan-tadeusz-museum": "8f3516a2cedd266a7a00584be7cff3a81ef4534e3c50ea1b6681f717df12853e",
     "panorama": "ca177651149e925a8ef789d1eebc563ea55bf1b9816a7d4abafd5ba7dd947256",
     "papa": "855f966e565d1f98358c7beacb754acedd4afbd349b460fd119d4ac8ee321711",
     "park-szczytnicki-wroclaw": "55abd7439dcb032bf899dd1caa684a4ebcd6e76f6cc94adef4f941abb9b916fe",
@@ -3074,7 +3143,6 @@
     "museum-of-architecture-wroclaw": "43ba5fdca3951c8a3f2c4d033162d0063e0de14a21f94f59a7d3b4cff179e935",
     "museum-of-pharmacy-wroclaw": "d14e69e342efd30ad712e63c0b5b3df4e1fe53e4b3b1e676bd65e7f49eca1cd9",
     "henryk-tomaszewski-theatre-museum": "9f5d3d8092ae503eb1781b694b5e83f8d4b9287af0c73f5b4f5bff9612c299a6",
-    "pan-tadeusz-museum": "b85b0c67c7043a7468d0a314ba726c16d7bfe36694473dcdb967be7653c60ae8",
     "wroclaw-contemporary-museum": "158f107e3c631e540109bd60808f02a2637d12e80e292e2ae74c0ea86165b8ee",
     "depot-history-centre": "fa40ce8a2a6510a29f58bd2a8b7d2a7f8254e5e62e67bb062f26d2ef8ac50313",
     "elizabeth": "9d52d9cbf85bc070304288cf7148a10c70df8f29c264202418f20635f576def6",
