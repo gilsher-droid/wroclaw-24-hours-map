@@ -6025,6 +6025,14 @@
   "pan-precel-olawska": [
     {
       "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122373163501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-22T13:06:36.806Z",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
+    {
+      "platform": "facebook",
       "language": "he",
       "url": "https://facebook.com/permalink.php?story_fbid=pfbid0wnuBAqje8wzVydqip5Lm56S7RrVoCGEtHjWfgCHkh1u94NH92T3JK2vR1rzBW6nLl&id=61591964083308",
       "verifiedAt": "2026-11-11",
