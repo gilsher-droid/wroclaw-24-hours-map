@@ -2440,6 +2440,14 @@
   "town-hall": [
     {
       "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122422123501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-22T16:06:43.434Z",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
+    {
+      "platform": "facebook",
       "language": "he",
       "url": "https://facebook.com/permalink.php?story_fbid=pfbid0BtZHhSLSGthWghHCB49qRZzLndVh6AQXNhB5oPHYXPpXWrDUUT4XW6YAPecy18tHl&id=61591964083308",
       "verifiedAt": "2026-11-11",
@@ -4053,6 +4061,14 @@
     }
   ],
   "stadion-olimpijski-wroclaw": [
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122419249501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-22T16:06:43.433Z",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
     {
       "platform": "facebook",
       "language": "pl",

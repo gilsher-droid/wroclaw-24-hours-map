@@ -78143,6 +78143,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122122419249501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-22T16:06:43.433Z",
+        "context": "verified-en-written-photo-routing-20261121"
+      },
+      {
+        "platform": "facebook",
         "language": "pl",
         "url": "https://www.facebook.com/61595207664875/posts/122116823187506922/",
         "account": "61595207664875",
@@ -83884,6 +83892,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122122422123501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-22T16:06:43.434Z",
+        "context": "verified-en-written-photo-routing-20261121"
+      },
       {
         "platform": "facebook",
         "language": "he",
