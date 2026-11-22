@@ -91559,6 +91559,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/61595036942289/posts/122122440231501231/",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-22T17:02:04.203Z",
+        "context": "verified-en-written-photo-routing-20261121"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://www.facebook.com/61591964083308/posts/122131982451398802/",
         "verifiedAt": "2026-11-11",
