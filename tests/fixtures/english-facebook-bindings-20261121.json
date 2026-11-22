@@ -204,6 +204,20 @@
       "language": "en",
       "url": "https://www.facebook.com/61595036942289/posts/122122446345501231/",
       "account": "61595036942289"
+    },
+    {
+      "id": "wyspa-piasek",
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122451967501231/",
+      "account": "61595036942289"
+    },
+    {
+      "id": "wieza-cisnien-borek",
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122456455501231/",
+      "account": "61595036942289"
     }
   ],
   "beforeCount": 347,
@@ -4297,6 +4311,338 @@
       ],
       "beforeRegistryHash": "c98222f6da977e36d526f7e8300ca3849e343cf18fadfa6855154899514be4a6",
       "afterRegistryHash": "8379dcdcf85ce19a0bf51bca44f77034d375e5c38808f10105ff7f6c13b9e1c3"
+    },
+    "wyspa-piasek": {
+      "beforeRecordHash": "c920cff47b02b46ecacb8f4741b6b7455579bd19441a139f0f282c1851dad3dc",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116800345506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T18:29:26.829980+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbTJoTBWFT4sTSCasVK8HQVfnecf7tXsUX8ZS3oeUj3av3Gj4k3SLgkAVrAJxQdwl&id=61594716405964",
+          "verifiedAt": "2026-10-07T06:19:42.573071+00:00",
+          "routingExcluded": true
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0DJSnncxmvv8CBRcLgv4FNAoe4s5aNY6nVSD1NBV4PFfTwLQckhujKqEDzM5iuC7jl&id=61595036942289",
+          "verifiedAt": "2026-10-07",
+          "routingExcluded": true
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid029xAEk62emXraeZ4TbqwvYcU4ckXUgnmzoyHL1QLA1btabSU7weDF24yVCSuWCAZCl&id=61595207664875",
+          "verifiedAt": "2026-10-08T14:19:36.030Z",
+          "routingExcluded": true
+        }
+      ],
+      "beforeSocialHash": "42020f29c9f6be3f6ac55e827c5bcc8d6cb63505c806b55628caddb9095a8927",
+      "afterSocialHash": "942e784ba768bf4da4823bf4460a999674c7fcb5a0c66729418058f615505e60",
+      "beforeRegistryRows": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116800345506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T18:29:26.829980+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02fbTJoTBWFT4sTSCasVK8HQVfnecf7tXsUX8ZS3oeUj3av3Gj4k3SLgkAVrAJxQdwl&id=61594716405964",
+          "verifiedAt": "2026-10-07T06:19:42.573071+00:00"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0DJSnncxmvv8CBRcLgv4FNAoe4s5aNY6nVSD1NBV4PFfTwLQckhujKqEDzM5iuC7jl&id=61595036942289",
+          "verifiedAt": "2026-10-07"
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid029xAEk62emXraeZ4TbqwvYcU4ckXUgnmzoyHL1QLA1btabSU7weDF24yVCSuWCAZCl&id=61595207664875",
+          "verifiedAt": "2026-10-08T14:19:36.030Z"
+        }
+      ],
+      "beforeRegistryHash": "6c24e587117647317c608585d22492c1db07886250240ab93ea37dce198f447b",
+      "afterRegistryHash": "7d34c4cf6a3b05e09023a18b6b62ae1a821d185ece1d7241748348cd89b68160"
+    },
+    "wieza-cisnien-borek": {
+      "beforeRecordHash": "dd72250a924fa9e03604d53ba4e249c62235c88000176cf08b27665b31feeac8",
+      "beforeSocialPosts": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116786713506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:46:02.712979+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z52QMFYJqykBthKe3S1s9m6ussFVVqRfq2Fi3cjS9eZTy1ZCRW5n6Ji668LExb9Nl&id=61595036942289",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "Wroc-Love Wrocław & Lower Silesia",
+            "evidence": "data/borek-social-audit.json#facebook-en"
+          }
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ySKqNUcrmputEAo8ew2xk5tW6zYyZhMrKtbHLCBbjgTDPSJXvcX4szNtgoYwBcLl&id=61595239823399",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07T06:13:03.791281+00:00",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "Wroc-Love Breslau und Niederschlesien",
+            "evidence": "data/borek-social-audit.json#facebook-de"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeLxaKsD11H/",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07T07:22:37.269496+00:00",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "wroclaw.lowersilesia.de",
+            "evidence": "data/borek-social-audit.json#instagram-de"
+          }
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JRViYewbfMXS7pVWpG1jJuzL9MpvtS2jjBRRBfx9eU4dKWFRX6mgfknUGQPVwNRUl&id=61594716405964",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "Wroc-Love Vratislav a Dolní Slezsko",
+            "evidence": "data/borek-social-audit.json#facebook-cs"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeMcQcHHAG8/",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "wroclaw.lowersilesia",
+            "evidence": "data/borek-social-audit.json#instagram-en"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeMimjhm8-C/",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07T14:15:57.430179+00:00",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "wroclaw.lowersilesia.pl",
+            "evidence": "data/borek-social-audit.json#instagram-pl"
+          }
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0L9kZRvgsLg48K5PeiW5hLSxUZ9aozLozAWw1BWrpoQAzeKTdTTwKPsXxwvzaamPQl&id=61595207664875",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07T14:43:32.718528+00:00",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "Wroc-Love Wrocław i Dolny Śląsk",
+            "evidence": "data/borek-social-audit.json#facebook-pl"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DePBwkJDa4l/",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-08",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "wroclaw.lowersilesia.cs",
+            "evidence": "data/borek-social-audit.json#instagram-cs"
+          }
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02NbQ1mGbhXEPmADsU2FpjhVi1mN7mE7y4yjFdNkeLKq9EfQPeRSNu81wGmgReF1FGl&id=61591964083308",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-09T07:54:57.789Z",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "וורוצלב ושלזיה התחתית",
+            "evidence": "data/borek-social-audit.json#facebook-he"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeqwHfdkYbq/",
+          "verifiedAt": "2026-10-19T07:45:33.483Z"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://www.facebook.com/share/p/19hnYF5mwX/",
+          "language": "he"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://www.instagram.com/p/DdoS5H8jIhZ/?img_index=1",
+          "language": "he",
+          "context": "historical-cross-account"
+        }
+      ],
+      "beforeSocialHash": "d67381893257e4dc745b0366380ca5651ef4df01eea17fe3e52b8c9fdc7d63ed",
+      "afterSocialHash": "3d4f4c93dc56a631cbe0b587b110f29ef960d0db60b673ed221dfb9df2fff7de",
+      "beforeRegistryRows": [
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/61595207664875/posts/122116786713506922/",
+          "account": "61595207664875",
+          "verifiedAt": "2026-11-07T16:46:02.712979+00:00",
+          "context": "verified-rich-place-gallery"
+        },
+        {
+          "platform": "facebook",
+          "language": "en",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0z52QMFYJqykBthKe3S1s9m6ussFVVqRfq2Fi3cjS9eZTy1ZCRW5n6Ji668LExb9Nl&id=61595036942289",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "Wroc-Love Wrocław & Lower Silesia",
+            "evidence": "data/borek-social-audit.json#facebook-en"
+          }
+        },
+        {
+          "platform": "facebook",
+          "language": "de",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0ySKqNUcrmputEAo8ew2xk5tW6zYyZhMrKtbHLCBbjgTDPSJXvcX4szNtgoYwBcLl&id=61595239823399",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07T06:13:03.791281+00:00",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "Wroc-Love Breslau und Niederschlesien",
+            "evidence": "data/borek-social-audit.json#facebook-de"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "de",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeLxaKsD11H/",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07T07:22:37.269496+00:00",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "wroclaw.lowersilesia.de",
+            "evidence": "data/borek-social-audit.json#instagram-de"
+          }
+        },
+        {
+          "platform": "facebook",
+          "language": "cs",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02JRViYewbfMXS7pVWpG1jJuzL9MpvtS2jjBRRBfx9eU4dKWFRX6mgfknUGQPVwNRUl&id=61594716405964",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "Wroc-Love Vratislav a Dolní Slezsko",
+            "evidence": "data/borek-social-audit.json#facebook-cs"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "en",
+          "url": "https://www.instagram.com/p/DeMcQcHHAG8/",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "wroclaw.lowersilesia",
+            "evidence": "data/borek-social-audit.json#instagram-en"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "pl",
+          "url": "https://www.instagram.com/p/DeMimjhm8-C/",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07T14:15:57.430179+00:00",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "wroclaw.lowersilesia.pl",
+            "evidence": "data/borek-social-audit.json#instagram-pl"
+          }
+        },
+        {
+          "platform": "facebook",
+          "language": "pl",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0L9kZRvgsLg48K5PeiW5hLSxUZ9aozLozAWw1BWrpoQAzeKTdTTwKPsXxwvzaamPQl&id=61595207664875",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-07T14:43:32.718528+00:00",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "Wroc-Love Wrocław i Dolny Śląsk",
+            "evidence": "data/borek-social-audit.json#facebook-pl"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "cs",
+          "url": "https://www.instagram.com/p/DePBwkJDa4l/",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-08",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "wroclaw.lowersilesia.cs",
+            "evidence": "data/borek-social-audit.json#instagram-cs"
+          }
+        },
+        {
+          "platform": "facebook",
+          "language": "he",
+          "url": "https://facebook.com/permalink.php?story_fbid=pfbid02NbQ1mGbhXEPmADsU2FpjhVi1mN7mE7y4yjFdNkeLKq9EfQPeRSNu81wGmgReF1FGl&id=61591964083308",
+          "verifiedAt": "2026-10-18T19:08:46Z",
+          "previousVerifiedAt": "2026-10-09T07:54:57.789Z",
+          "verification": {
+            "method": "live-browser-written-post-content-and-author-language-reviewed",
+            "account": "וורוצלב ושלזיה התחתית",
+            "evidence": "data/borek-social-audit.json#facebook-he"
+          }
+        },
+        {
+          "platform": "instagram",
+          "language": "he",
+          "url": "https://www.instagram.com/wroclaw.lowersilesia.he/p/DeqwHfdkYbq/",
+          "verifiedAt": "2026-10-19T07:45:33.483Z"
+        }
+      ],
+      "beforeRegistryHash": "0cd3c757ceb627ee3bf1a5a4fb7c19333bef640fe457c12d8853b38d097e29c1",
+      "afterRegistryHash": "9cd6eac63189e83dc792c8f779df0a6e57afce67bd2e45b60e14d561b05e1104"
     }
   },
   "unrelatedRecordHashes": {
@@ -4602,7 +4948,6 @@
     "white-stork-synagogue-wroclaw": "e25c394f8f5eefad7a8936ce0fa99cdaa56cb8731a556db6100063707c0d541b",
     "wielka-wyspa-wroclaw": "d34f5e3343768a10858acb1bfb67d65fb6a4b73ed76f5d37e90d87f8381bcca0",
     "wierzbowa-15": "5e7e6fe7ffe8dd6af6e36e1d6cf15508367ac1235d217e8e8643bdae8dd472b6",
-    "wieza-cisnien-borek": "dd72250a924fa9e03604d53ba4e249c62235c88000176cf08b27665b31feeac8",
     "wiking-axe-throwing-wroclaw": "e6482162bda52fc9dc22c58bb0661f311f54504d8e0ff88e0c99c052c04cf508",
     "woda-cafe": "31711568359795a60e8a31764040b4a79328e9c7e03db192579f2c09da8de650",
     "woosabi": "748a3aea2eb3bbc82a9a3c0a2752baa9221a841a20e8857151289c61df3bca88",
@@ -4613,7 +4958,6 @@
     "wuwa-estate": "4d2895ec52eb775dd105a313fe83677890c88bf80fecfb49f002c23ca8f83d17",
     "wyndham-wroclaw-old-town": "c7786cd30d5156ac41218f35ab850348528b96a451c5c33f37ec459bcd58509c",
     "wyspa-opatowicka-wroclaw": "0fdcff8ef4d28c9c3ea03d5d6e4695135b11056bb41821c7ff9321c904bb1cc5",
-    "wyspa-piasek": "c920cff47b02b46ecacb8f4741b6b7455579bd19441a139f0f282c1851dad3dc",
     "zamek-topacz": "69eca3dc99f98275b62a216ff22db26766372a977677e3937d7422b420107d93",
     "zenka": "83913237c9bded75fdda618020a09481a92631c1d0403efb299079c84a4a0707",
     "zoo-wroclaw": "cf8491cf898203e28b9d725befb684783a9f13af41a4a6f6726f4dedf9659713",
@@ -4641,10 +4985,8 @@
     "pergola": "159361ed9f64af6db6a6c44f22f9b6756476ae942cadccd8f067c25986aa29db",
     "renoma": "bbf844dd8e4b8b485abf2c15a64388f33b46346f689228028b72c434d782e8f3",
     "wuwa-estate": "fe262764eb0d8634f85dd921b4eaf1b3c220ee56f2e5b3f6bbb0451b53d42865",
-    "wieza-cisnien-borek": "0cd3c757ceb627ee3bf1a5a4fb7c19333bef640fe457c12d8853b38d097e29c1",
     "kaplica-czaszek-czermna": "a636c7848c82638f1ea38356c2fdb663889589e68e6bf22c9c5839563f6883bb",
     "jatki": "ddb783e19793f7aa528fb55496d956cde9d9bf4c40706e836c67c2860e678212",
-    "wyspa-piasek": "6c24e587117647317c608585d22492c1db07886250240ab93ea37dce198f447b",
     "jas-malgosia": "e65b35875950359a8e79ec14350b3094f85ec81886388cc6ca0411bbb582bd80",
     "dunikowski": "f229ce23aad93434b17c88cab2cd52563f05fdc8ee0ff0bf3cff328f474fdcee",
     "national-museum": "21830bea31b3c0a430cf99becfb7e47d19b2122f39106e530e156cc4c93d2a7a",
