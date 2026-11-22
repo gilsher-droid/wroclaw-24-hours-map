@@ -6201,6 +6201,14 @@
   "pasaz": [
     {
       "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122394415501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-22T14:38:48.792Z",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
+    {
+      "platform": "facebook",
       "language": "he",
       "url": "https://www.facebook.com/61591964083308/posts/122131976409398802/",
       "verifiedAt": "2026-11-11",
