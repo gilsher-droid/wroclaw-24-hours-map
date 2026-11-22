@@ -1,4 +1,5 @@
 import test from "node:test";
+import {expectedNov21EnglishURL} from "./english-facebook-bindings-nov21-historical-baseline.mjs";
 import assert from "node:assert/strict";
 import {readFileSync} from "node:fs";
 import {resolve} from "node:path";
@@ -61,7 +62,9 @@ test("WuWA estate post action selects a written gallery and preserves its verifi
  assert.ok(estate.socialPosts.some(p=>p.url==="https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeZ-BsVkxcZ/"));
  assert.equal(window.WROC_CATALOG.getSocialPost(cafe,"instagram","he").url,"https://www.instagram.com/wroclaw.lowersilesia.he/p/DeUv_EEkU6W/");
  assert.equal(window.WROC_CATALOG.socialPostKind(window.WROC_CATALOG.getSocialPost(estate,"facebook","en").url,"facebook"),"post-candidate");
- assert.ok(window.WROC_CATALOG.getSocialPost(cafe,"facebook","en").url.includes("pfbid02HdjiayM8Wsxbz17y6gU7ThBTokKsUrckz5QK8D5n9mUPxtKPgDZ64TWidZFb6s7bl"));
+ const oldCafePost="https://www.facebook.com/permalink.php?story_fbid=pfbid02HdjiayM8Wsxbz17y6gU7ThBTokKsUrckz5QK8D5n9mUPxtKPgDZ64TWidZFb6s7bl&id=61595036942289";
+ assert.equal(window.WROC_CATALOG.getSocialPost(cafe,"facebook","en").url,expectedNov21EnglishURL(cafe.id,"facebook","en",oldCafePost));
+ assert.ok(cafe.socialPosts.some(p=>p.url===oldCafePost),"the original café post remains historical evidence");
  assert.ok(estate.socialPosts.some(p=>p.platform==="instagram"&&p.language==="en"&&p.url==="https://www.instagram.com/p/DeMbjvQjkfH/"));
 });
 

@@ -3743,6 +3743,14 @@
   "wroclaw-puppet-theatre": [
     {
       "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122443909501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-22T17:20:45.406Z",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
+    {
+      "platform": "facebook",
       "language": "pl",
       "url": "https://www.facebook.com/61595207664875/posts/122116796475506922/",
       "account": "61595207664875",
@@ -4967,6 +4975,14 @@
     }
   ],
   "wuwa": [
+    {
+      "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122446345501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-22T17:20:45.409Z",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
     {
       "platform": "facebook",
       "language": "he",
