@@ -2354,6 +2354,14 @@
   "panorama": [
     {
       "platform": "facebook",
+      "language": "en",
+      "url": "https://www.facebook.com/61595036942289/posts/122122384983501231/",
+      "account": "61595036942289",
+      "verifiedAt": "2026-11-22T13:53:22.683Z",
+      "context": "verified-en-written-photo-routing-20261121"
+    },
+    {
+      "platform": "facebook",
       "language": "pl",
       "url": "https://www.facebook.com/61595207664875/posts/122116775703506922/",
       "account": "61595207664875",
