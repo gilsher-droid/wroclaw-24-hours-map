@@ -94628,8 +94628,7 @@
         "/assets/round-other-20261023/wuwa-estate-93.jpg",
         "/assets/round-other-20261023/recovered-wuwa-estate-51.jpg",
         "/assets/round-other-20261023/recovered-wuwa-estate-58.jpg",
-        "/assets/round-other-20261023/recovered-wuwa-estate-59.jpg",
-        "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg"
+        "/assets/round-other-20261023/recovered-wuwa-estate-59.jpg"
       ],
       "videos": [
         "/assets/wuwa-cafe-visit-01.mp4",

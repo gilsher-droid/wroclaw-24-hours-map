@@ -1,9 +1,11 @@
+import {beforeWuWALocationMedia} from './wuwa-location-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 export const englishNov21 = JSON.parse(readFileSync('tests/fixtures/english-facebook-bindings-20261121.json'));
 const hash = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 export function beforeNov21English(place) {
+  place = beforeWuWALocationMedia(place);
   if (!place) return place;
   const p = englishNov21.changed[place.id];
   if (p && hash(place.socialPosts) !== p.beforeSocialHash && place.socialPosts?.some(row => row.context === englishNov21.context)) {

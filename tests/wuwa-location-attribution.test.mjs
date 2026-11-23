@@ -1,0 +1,20 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+import {runInNewContext} from 'node:vm';
+const window={};
+for(const file of ['data/place-catalog.js','data/canonical-experiences.js','data/cultural-places.js'])runInNewContext(readFileSync(file,'utf8'),{window,console});
+const review=JSON.parse(readFileSync('tests/fixtures/wuwa-location-correction-nov22.json'));
+const plain=value=>JSON.parse(JSON.stringify(value));
+test('WuWA no longer displays the Lodz street photograph; original source and legitimate estate views remain',()=>{
+ const current=plain(window.WROC_CATALOG.getPlace(review.canonicalId));
+ const expected=structuredClone(review.before);
+ expected.media.photos=expected.media.photos.filter(asset=>asset!==review.excludedAsset);
+ assert.deepEqual(current,expected);
+ assert.equal(current.media.photos.length,31);
+ assert.equal(existsSync('.'+review.excludedAsset),true);
+ const adapted=window.WROC_CULTURAL_PLACES.find(p=>p.canonicalPlaceId===review.canonicalId).canonicalPlace;
+ assert.deepEqual(plain(adapted.media.photos),expected.media.photos);
+ const lodz=window.WROC_CATALOG.getPlace('lodz-ghetto-baluty');
+ assert.ok(lodz.media.photos.includes('/assets/lodz-arrival/lodz-ghetto-baluty-01.jpg'));
+});
