@@ -218,5 +218,67 @@ window.WROC_PLACE_VISIT_UPDATES = Object.freeze([
       "de": "Der Veranstalter nennt 17.-22. November 2026 für Kinovorstellungen im Kino Nowe Horyzonty in Wrocław. Eine Idee für drinnen. Sprache, Untertitel, Vorstellungszeiten und Kartenverfügbarkeit einzeln prüfen; das Onlineprogramm hat einen anderen Zeitraum.",
       "cs": "Pořadatel uvádí 17.-22. listopadu 2026 pro promítání v Kino Nowe Horyzonty ve Vratislavi. Tip na program pod střechou. Ověřte jazyk, titulky, časy a dostupnost vstupenek každé projekce; online program má jiné období."
     }
+  },
+  {
+    "id": "wroclaw-christmas-market-2026-27-open",
+    "canonicalPlaceId": "rynek",
+    "canonicalEventId": "wroclaw-christmas-market-2026-27",
+    "kind": "seasonal-event",
+    "status": "confirmed",
+    "validFrom": "2026-11-23",
+    "validTo": "2026-11-29",
+    "eventStartDate": "2026-11-20",
+    "verifiedAt": "2026-11-23",
+    "title": {
+      "he": "שלושה שווקי חג כבר פתוחים",
+      "en": "Three Christmas markets are open",
+      "pl": "Trzy jarmarki już otwarte",
+      "de": "Drei Weihnachtsmärkte sind geöffnet",
+      "cs": "Tři vánoční trhy jsou otevřené"
+    },
+    "text": {
+      "he": "השוק המרכזי: עד 7 בינואר, בדרך כלל 10:00-21:00; סגור ב־24 וב־25 בדצמבר וב־1 בינואר.\nRynek\nהשוק בכיכר החדשה: עד 20 בדצמבר, 10:00-21:00.\nNowy Targ\nשוק המרינה: עד 23 בדצמבר; בימי חול מ־16:00 ובסופי שבוע מ־12:00.\nMarina Kleczków · Pasterska 2B\nהפתיחות תועדו בעירייה. בדקו חריגי חג ושעות סגירה אצל כל מארגן.",
+      "en": "Rynek: through 7 January, usually 10:00-21:00; closed 24-25 December and 1 January. Nowy Targ: through 20 December, 10:00-21:00. Marina Kleczków, Pasterska 2 B: through 23 December; weekdays from 16:00, weekends from 12:00. City reports document the openings. Check holiday exceptions and each organizer’s closing times.",
+      "pl": "Rynek: do 7 stycznia, zwykle 10:00-21:00; zamknięty 24-25 grudnia i 1 stycznia. Nowy Targ: do 20 grudnia, 10:00-21:00. Marina Kleczków, Pasterska 2 B: do 23 grudnia; w dni robocze od 16:00, w weekendy od 12:00. Miasto udokumentowało otwarcia. Sprawdź wyjątki świąteczne i godziny zakończenia u organizatorów.",
+      "de": "Rynek: bis 7. Januar, meist 10:00-21:00; geschlossen 24.-25. Dezember und 1. Januar. Nowy Targ: bis 20. Dezember, 10:00-21:00. Marina Kleczków, Pasterska 2 B: bis 23. Dezember; werktags ab 16:00, am Wochenende ab 12:00. Die Stadt dokumentiert die Eröffnungen. Feiertagsausnahmen und Schlusszeiten beim jeweiligen Veranstalter prüfen.",
+      "cs": "Rynek: do 7. ledna, obvykle 10:00-21:00; zavřeno 24.-25. prosince a 1. ledna. Nowy Targ: do 20. prosince, 10:00-21:00. Marina Kleczków, Pasterska 2 B: do 23. prosince; ve všední dny od 16:00, o víkendech od 12:00. Město doložilo otevření. Sváteční výjimky a čas ukončení ověřte u pořadatelů."
+    },
+    "articleUrl": "/news/2026-11-23.html#markets",
+    "sourceUrls": [
+      "https://www.wroclaw.pl/dla-mieszkanca/kolorowa-parada-przeszla-przez-rynek-jarmark-bozonarodzeniowy-oficjalnie-otwarty-zdjecia",
+      "https://www.wroclaw.pl/dla-mieszkanca/jarmark-bozonarodzeniowy-nowy-targ-wroclaw-zdjecia",
+      "https://www.wroclaw.pl/dla-mieszkanca/jarmark-swiateczny-na-marinie-kleczkow-2026-zdjecia"
+    ],
+    "note": "Dated information only. Canonical place and coordinates unchanged; PJM is not a physical-accessibility assertion."
+  },
+  {
+    "id": "dolnoslaski-pjm-programme-2026-11-23",
+    "canonicalPlaceId": "zoo-wroclaw",
+    "canonicalEventId": "dolnoslaski-pjm-programme-2026",
+    "kind": "accessibility-programme",
+    "status": "announced",
+    "validFrom": "2026-11-23",
+    "validTo": "2026-11-29",
+    "eventStartDate": "2026-11-16",
+    "verifiedAt": "2026-11-23",
+    "title": {
+      "he": "מידע בשפת הסימנים ב־19 אטרקציות",
+      "en": "Polish Sign Language information for 19 attractions",
+      "pl": "Informacje w PJM dla 19 atrakcji",
+      "de": "Informationen in polnischer Gebärdensprache für 19 Attraktionen",
+      "cs": "Informace v polském znakovém jazyce pro 19 atrakcí"
+    },
+    "text": {
+      "he": "המיזם כולל 19 אטרקציות, עם סרטונים וכתוביות וקודי סריקה מתוכננים. בדקו זמינות בפועל בכל אתר לפני ביקור; אין בכך אישור לנגישות פיזית.\nDolnośląski Szlak PJM",
+      "en": "The Dolnośląski Szlak PJM project covers 19 attractions with signed videos, captions and planned QR access. Confirm actual availability at each venue before visiting. Sign-language provision does not establish physical accessibility.",
+      "pl": "Projekt Dolnośląski Szlak PJM obejmuje 19 atrakcji, filmy w języku migowym, napisy i planowany dostęp przez QR. Dostępność potwierdź w konkretnym obiekcie. Oferta w PJM nie oznacza automatycznie dostępności fizycznej.",
+      "de": "Das Projekt Dolnośląski Szlak PJM umfasst 19 Attraktionen mit Gebärdensprachvideos, Untertiteln und geplantem QR-Zugang. Tatsächliche Verfügbarkeit beim jeweiligen Ort bestätigen lassen. Gebärdensprache belegt keine bauliche Barrierefreiheit.",
+      "cs": "Projekt Dolnośląski Szlak PJM zahrnuje 19 atrakcí, videa ve znakovém jazyce, titulky a plánovaný přístup přes QR. Dostupnost ověřte v konkrétním areálu. Znakový jazyk neznamená automaticky bezbariérový fyzický přístup."
+    },
+    "articleUrl": "/news/2026-11-23.html#pjm",
+    "sourceUrls": [
+      "https://www.turystyczna13.pl/dolnoslaski-szlak-pjm/"
+    ],
+    "note": "Dated information only. Canonical place and coordinates unchanged; PJM is not a physical-accessibility assertion."
   }
 ].map(update => Object.freeze(update)));
