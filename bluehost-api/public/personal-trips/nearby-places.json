@@ -12881,6 +12881,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02v4Kj73pRK83W4o5KDj2gFUyueQ8K67iRRZMcgFyR8MT3ZwaEhVSTZnzXoW8ngn71l&id=61595036942289",
+        "account": "61595036942289",
+        "verifiedAt": "2026-11-23",
+        "context": "verified-en-cafe-written-photo-routing-20261123"
+      },
+      {
+        "platform": "facebook",
         "language": "he",
         "url": "https://facebook.com/permalink.php?story_fbid=pfbid0RgrFm4K73W4Lc3wythZKa1ExgyhNEg9VF2EdcWCrZebJcG7VwwKcvrHrjWAhhEtxl&id=61591964083308",
         "verifiedAt": "2026-11-12",
