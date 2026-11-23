@@ -9,7 +9,7 @@ const same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
 export function beforeWuWALocationMedia(value){
   if(Array.isArray(value)&&same(value,after))return [...before];
   if(value?.id!==review.canonicalId||!same(value.media?.photos,after))return value;
-  return {...value,media:{...value.media,photos:[...before]}};
+  return {...value,media:{...value.media,photos:[...before],metadata:{...review.before.media.metadata,...value.media.metadata}}};
 }
 
 export function beforeWuWALocationSource(file,value){

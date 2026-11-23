@@ -10,6 +10,7 @@ test('WuWA no longer displays the Lodz street photograph; original source and le
  const current=plain(window.WROC_CATALOG.getPlace(review.canonicalId));
  const expected=structuredClone(review.before);
  expected.media.photos=expected.media.photos.filter(asset=>asset!==review.excludedAsset);
+ delete expected.media.metadata[review.excludedAsset];
  assert.deepEqual(current,expected);
  assert.equal(current.media.photos.length,31);
  assert.equal(existsSync('.'+review.excludedAsset),true);

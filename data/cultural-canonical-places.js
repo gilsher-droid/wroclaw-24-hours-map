@@ -1508,10 +1508,12 @@
 (function(){const p=window.WROC_CULTURAL_CANONICAL_PLACE_SOURCE.find(p=>p.id==="opera");if(!p)throw new Error("Opera canonical place missing");p.media.guideLinks={"he": {"facebook": "https://www.facebook.com/reel/1134820542254961/", "instagram": "https://www.instagram.com/reel/DfUFr6yGd9N/"}, "en": {"facebook": "https://facebook.com/reel/1449760397283921/", "instagram": "https://www.instagram.com/reel/DfUcZ0olg45/"}, "pl": {"facebook": "https://facebook.com/reel/1837503874047470/", "instagram": "https://www.instagram.com/reel/DfUZ5V_CTzm/"}, "de": {"facebook": "https://facebook.com/reel/2765697730491391/", "instagram": "https://www.instagram.com/reel/DfUeQvbET8W/"}, "cs": {"facebook": "https://facebook.com/reel/1696084648788682/", "instagram": "https://www.instagram.com/reel/DfUfw4vFSym/"}};})();
 
 // A recovered file was incorrectly attributed to WuWA. Its signs identify
-// Stare Baluty in Lodz. Keep the original asset and provenance, but remove
+// Stare Baluty in Lodz. Keep the original asset and historical provenance, but remove
 // this association from the active estate gallery in every map language.
 (function () {
   const estate = window.WROC_CULTURAL_CANONICAL_PLACE_SOURCE.find(p => p.id === "wuwa-estate");
   if (!estate) throw new Error("Missing WuWA estate for location correction");
-  estate.media.photos = estate.media.photos.filter(asset => asset !== "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg");
+  const misattributed = "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg";
+  estate.media.photos = estate.media.photos.filter(asset => asset !== misattributed);
+  delete estate.media.metadata[misattributed];
 })();
