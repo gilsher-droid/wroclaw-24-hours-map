@@ -1,3 +1,4 @@
+import {beforeNov23EnglishTwoPhotos, beforeNov23EnglishTwoRegistryRows} from './english-two-photo-bindings-nov23-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -17,11 +18,11 @@ test('Cafe Targowa English action opens the verified three-photo post in public 
 });
 test('Only the new English social row changes; all347 identities, photos and other languages remain exact',()=>{
  assert.equal(Object.keys(catalog.places).length,proof.beforeCount);
- for(const [id,expected]of Object.entries(proof.unrelatedRecordHashes))assert.equal(hash(catalog.getPlace(id)),expected,id);
+ for(const [id,expected]of Object.entries(proof.unrelatedRecordHashes))assert.equal(hash(beforeNov23EnglishTwoPhotos(catalog.getPlace(id))),expected,id);
  assert.equal(hash(Object.fromEntries(Object.entries(catalog.getPlace(proof.id)).filter(([k])=>k!=='socialPosts'))),proof.beforeNonSocialHash);
  assert.equal(hash(catalog.aliases),proof.aliasesHash);assert.equal(hash(catalog.coordinateConflicts),proof.coordinateConflictsHash);
  const registry=JSON.parse(readFileSync('data/localized-social-posts.json'));
- for(const [id,expected]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(registry[id]),expected,id);
+ for(const [id,expected]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(beforeNov23EnglishTwoRegistryRows(id,registry[id])),expected,id);
  assert.deepEqual(JSON.parse(JSON.stringify(beforeCafeEnglishBinding(catalog.getPlace(proof.id)).socialPosts)),proof.beforeSocialPosts);
  const changed={...catalog.getPlace(proof.id),socialPosts:[...catalog.getPlace(proof.id).socialPosts,{platform:'facebook',language:'en',url:'https://example.com/unreviewed'}]};assert.throws(()=>beforeCafeEnglishBinding(changed));
 });
