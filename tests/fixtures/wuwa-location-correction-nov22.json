@@ -1,0 +1,1286 @@
+{
+  "canonicalId": "wuwa-estate",
+  "excludedAsset": "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg",
+  "before": {
+    "id": "wuwa-estate",
+    "localName": "Osiedle WuWA",
+    "name": {
+      "he": "שכונת WuWA",
+      "en": "WuWA Housing Estate",
+      "pl": "Osiedle WuWA",
+      "de": "WuWA-Siedlung",
+      "cs": "Sídliště WuWA"
+    },
+    "description": {
+      "he": "שכונת המגורים הניסיונית WuWA — מסלול פתוח של אדריכלות מודרניסטית.",
+      "en": "The experimental WuWA housing estate — an open-air modernist architecture walk.",
+      "pl": "Eksperymentalne osiedle WuWA — plenerowy spacer po architekturze modernistycznej.",
+      "de": "Die Versuchssiedlung WuWA – ein Rundgang durch moderne Architektur im Freien.",
+      "cs": "Experimentální sídliště WuWA – venkovní procházka modernistickou architekturou."
+    },
+    "location": {
+      "countryCode": "PL",
+      "regionId": "lower-silesia",
+      "cityId": "wroclaw",
+      "coordinates": {
+        "lat": 51.1066175,
+        "lng": 17.0855336
+      },
+      "address": {
+        "street": "Zielonego Dębu 21",
+        "postalCode": "51-621",
+        "city": "Wrocław",
+        "country": "Poland"
+      }
+    },
+    "categories": [
+      "architecture",
+      "area"
+    ],
+    "sourceUrls": [],
+    "aliases": [],
+    "sourceRecords": [],
+    "coordinateCandidates": [],
+    "status": "published",
+    "editorialPriority": "normal",
+    "taxonomy": {
+      "categories": [
+        "architecture",
+        "area"
+      ],
+      "tags": [
+        "architecture-design"
+      ]
+    },
+    "suitability": {
+      "recommendedFor": [],
+      "walkingIntensity": null,
+      "familyFriendly": null,
+      "couples": null,
+      "solo": null,
+      "romantic": null,
+      "indoorOutdoor": null,
+      "rainFriendly": null,
+      "budgetLevel": null,
+      "accessibility": {
+        "level": null,
+        "notes": null
+      }
+    },
+    "visit": {
+      "durationMinutes": null,
+      "bestTimeOfDay": [],
+      "seasonalSuitability": [],
+      "openingHoursNotes": null
+    },
+    "links": {
+      "website": "https://wuwa.eu/",
+      "navigation": {
+        "googleMaps": "https://www.google.com/maps/search/?api=1&query=51.1066175%2C17.0855336",
+        "appleMaps": "https://maps.apple.com/?ll=51.1066175,17.0855336&q=Osiedle%20WuWA"
+      }
+    },
+    "transport": {
+      "carRequired": null,
+      "publicTransportNotes": null,
+      "parkingNotes": null,
+      "drivingTimeFromWroclawMinutes": null
+    },
+    "languages": [
+      "he",
+      "en",
+      "pl",
+      "de",
+      "cs"
+    ],
+    "provenance": {
+      "contentType": "personal-visit",
+      "factualSources": [
+        {
+          "type": "official",
+          "url": "https://wuwa.eu/",
+          "checkedAt": "2026-08-29"
+        }
+      ],
+      "personalVisit": true,
+      "originalPhotography": true,
+      "editedPhotography": true
+    },
+    "media": {
+      "photos": [
+        "/assets/wuwa-estate-14.jpg",
+        "/assets/wuwa-estate-21.jpg",
+        "/assets/wuwa-estate-11.jpg",
+        "/assets/wuwa-estate-12.jpg",
+        "/assets/wuwa-estate-13.jpg",
+        "/assets/wuwa-estate-15.jpg",
+        "/assets/wuwa-estate-22.jpg",
+        "/assets/wuwa-estate-16.jpg",
+        "/assets/wuwa-estate-17.jpg",
+        "/assets/wuwa-estate-18.jpg",
+        "/assets/wuwa-estate-19.jpg",
+        "/assets/wuwa-estate-20.jpg",
+        "/assets/wuwa-estate-02.jpg",
+        "/assets/wuwa-estate-05.jpg",
+        "/assets/wuwa-estate-06.jpg",
+        "/assets/wuwa-estate-07.jpg",
+        "/assets/wuwa-estate-08.jpg",
+        "/assets/wuwa-estate-09.jpg",
+        "/assets/wuwa-estate-10.jpg",
+        "/assets/round-other-20261023/wuwa-estate-00.jpg",
+        "/assets/round-other-20261023/wuwa-estate-08.jpg",
+        "/assets/round-other-20261023/wuwa-estate-12.jpg",
+        "/assets/round-other-20261023/wuwa-estate-14.jpg",
+        "/assets/round-other-20261023/wuwa-estate-18.jpg",
+        "/assets/round-other-20261023/wuwa-estate-22.jpg",
+        "/assets/round-other-20261023/wuwa-estate-30.jpg",
+        "/assets/round-other-20261023/wuwa-estate-92.jpg",
+        "/assets/round-other-20261023/wuwa-estate-93.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-estate-51.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-estate-58.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-estate-59.jpg",
+        "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg"
+      ],
+      "videos": [
+        "/assets/wuwa-cafe-visit-01.mp4",
+        "/assets/wuwa-estate-visit-01.mp4",
+        "/assets/wuwa-estate-visit-02.mp4",
+        "/assets/wuwa-estate-visit-03.mp4",
+        "/assets/wuwa-estate-visit-04.mp4",
+        "/assets/wuwa-estate-visit-05.mp4",
+        "/assets/wuwa-estate-visit-06.mp4",
+        "/assets/wuwa-estate-visit-07.mp4",
+        "https://www.youtube.com/watch?v=cZOlImJBx5U",
+        "https://www.youtube.com/watch?v=VCg344f4pDg"
+      ],
+      "guideVideos": {
+        "he": "https://youtube.com/shorts/tEbmB6OWe90",
+        "en": "https://youtube.com/shorts/4EnO5yNkQxc"
+      },
+      "metadata": {
+        "/assets/wuwa-estate-visit-01.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.33.50.mp4",
+          "sourceSha256": "45cd628a34b22b2325190627b1947df68fbb8f18efc8730607d8a05a67505553"
+        },
+        "/assets/wuwa-estate-visit-02.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.33.54.mp4",
+          "sourceSha256": "3d4f09848c8f587550cc2a04bbc5daf2a0b37279995b8dba4c45b64b396eb2ae"
+        },
+        "/assets/wuwa-estate-visit-03.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.01.mp4",
+          "sourceSha256": "c7066316e231fb008e298e76e22f2948df0e88b170071780429028a788285a30"
+        },
+        "/assets/wuwa-estate-visit-04.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.02.mp4",
+          "sourceSha256": "0ba0ca75b8d60a0bf7e4d8896ea0fe70999305f967753cbfcc8a70c3f9ff0e0f"
+        },
+        "/assets/wuwa-estate-visit-05.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.22.mp4",
+          "sourceSha256": "4f1a5faf3c4e549683d5e32d57112304bd968f9469aa5d8fa4a26907efecbcbd"
+        },
+        "/assets/wuwa-estate-visit-06.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.23.mp4",
+          "sourceSha256": "3673c702ad4035608c7ec88fe0a4291ec255ed2c05a97f023b48174dd11cd9a0"
+        },
+        "/assets/wuwa-estate-visit-07.mp4": {
+          "tags": [
+            "wuwa",
+            "visit-clip"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.26.mp4",
+          "sourceSha256": "a3f32558cd113c206155ade57902cf3b5eb5435735c09b3ee889e4930349c11c"
+        },
+        "/assets/wuwa-cafe-visit-01.mp4": {
+          "tags": [
+            "wuwa-cafe",
+            "visitor-stop",
+            "tram"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Video 2026-09-24 at 17.34.30.mp4",
+          "sourceSha256": "f6ebd79d501c4ca6c6e140f72fffff64b98e93cef7e6ef725c3b8d1b33114dae"
+        },
+        "/assets/wuwa-estate-02.jpg": {
+          "tags": [
+            "wuwa",
+            "park",
+            "pond",
+            "landscape"
+          ],
+          "original": true,
+          "editedToRemovePeople": true,
+          "sourceFile": "Untitled - 19 July 2026 at 11.40.26.jpeg"
+        },
+        "/assets/wuwa-estate-05.jpg": {
+          "tags": [
+            "wuwa",
+            "park",
+            "landscape"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4590.JPG"
+        },
+        "/assets/wuwa-estate-06.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "visitor-stop",
+            "menu"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4578.JPG"
+        },
+        "/assets/wuwa-estate-07.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "visitor-stop",
+            "food"
+          ],
+          "original": true,
+          "sourceFile": "IMG_4582.JPG"
+        },
+        "/assets/wuwa-estate-08.jpg": {
+          "tags": [
+            "wuwa",
+            "entrance-sign",
+            "personal-visit"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-18 at 11.39.48.jpeg"
+        },
+        "/assets/wuwa-estate-09.jpg": {
+          "tags": [
+            "wuwa",
+            "modernist-interior",
+            "visitor-detail"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-18 at 11.41.26 (1).jpeg"
+        },
+        "/assets/wuwa-estate-10.jpg": {
+          "tags": [
+            "wuwa",
+            "park",
+            "personal-visit"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-07-18 at 11.41.26.jpeg"
+        },
+        "/assets/wuwa-estate-11.jpg": {
+          "tags": [
+            "wuwa",
+            "park-hotel",
+            "modernist-architecture"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.49.jpeg",
+          "sourceSha256": "ec4b039c6cf612b16fb2491e3c9755a324fad58048e8203457d58e3414eeab9f",
+          "alt": {
+            "he": "חזית המלון בשכונת המגורים הניסיונית",
+            "en": "Park Hotel facade at the experimental housing estate",
+            "pl": "Fasada Park Hotelu na osiedlu eksperymentalnym",
+            "de": "Fassade des Park Hotels in der experimentellen Wohnsiedlung",
+            "cs": "Průčelí Park Hotelu na experimentálním sídlišti"
+          }
+        },
+        "/assets/wuwa-estate-12.jpg": {
+          "tags": [
+            "wuwa",
+            "modernist-architecture",
+            "residential-facade"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.53 (1).jpeg",
+          "sourceSha256": "b4c0395b636e8d58748ad4377322309a59f943abd777fdc180d0dd6519c1b3b7",
+          "alt": {
+            "he": "חזית מגורים מודרניסטית לצד הרחוב",
+            "en": "Modernist residential facade beside the street",
+            "pl": "Modernistyczna fasada mieszkalna przy ulicy",
+            "de": "Modernistische Wohnhausfassade an der Straße",
+            "cs": "Modernistické průčelí obytného domu u ulice"
+          }
+        },
+        "/assets/wuwa-estate-13.jpg": {
+          "tags": [
+            "wuwa",
+            "modernist-architecture",
+            "blue-window-band"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.57 (1).jpeg",
+          "sourceSha256": "7f0f8ee219315805703a32d5e120ad833784c1f0bb257d45b726f5d2c74f1f6a",
+          "alt": {
+            "he": "בית מודרניסטי עם פס כחול וחלונות אופקיים",
+            "en": "Modernist house with a blue band and horizontal windows",
+            "pl": "Modernistyczny dom z niebieskim pasem i poziomymi oknami",
+            "de": "Modernistisches Haus mit blauem Band und horizontalen Fenstern",
+            "cs": "Modernistický dům s modrým pásem a vodorovnými okny"
+          }
+        },
+        "/assets/wuwa-estate-14.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-model",
+            "visitor-information",
+            "hero"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.58 (1).jpeg",
+          "sourceSha256": "035a5c6c220bf1d59cc77f1b304e8a3cca1b00c1a2a515b90f47bd6fbcbad440",
+          "alt": {
+            "he": "הדגם האדריכלי של שכונת המגורים הניסיונית",
+            "en": "Architectural model of the experimental housing estate",
+            "pl": "Model architektoniczny osiedla eksperymentalnego",
+            "de": "Architekturmodell der experimentellen Wohnsiedlung",
+            "cs": "Architektonický model experimentálního sídliště"
+          },
+          "heroCandidate": true
+        },
+        "/assets/wuwa-estate-15.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-model",
+            "detail"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.58 (3).jpeg",
+          "sourceSha256": "19da5cae8c8424bd724f5af124c828a4988cfd9860a7f828304b676b20b0538a",
+          "alt": {
+            "he": "פרט של בתים טוריים בדגם האדריכלי",
+            "en": "Detail of terraced houses in the architectural model",
+            "pl": "Detal domów szeregowych w modelu architektonicznym",
+            "de": "Detail der Reihenhäuser im Architekturmodell",
+            "cs": "Detail řadových domů v architektonickém modelu"
+          }
+        },
+        "/assets/wuwa-estate-16.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-exhibition",
+            "visitor-information"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.34.25 (1).jpeg",
+          "sourceSha256": "956724f26b5394ec99f9fd6c3f5fb34cc010938102f1110e09383f46417bf399",
+          "alt": {
+            "he": "לוחות תצוגה של תערוכת אדריכלות בחוץ",
+            "en": "Outdoor architecture exhibition display panels",
+            "pl": "Plansze plenerowej wystawy architektonicznej",
+            "de": "Tafeln einer Architekturausstellung im Freien",
+            "cs": "Panely venkovní výstavy architektury"
+          }
+        },
+        "/assets/wuwa-estate-17.jpg": {
+          "tags": [
+            "wuwa",
+            "modernist-architecture",
+            "landscape"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.34.25.jpeg",
+          "sourceSha256": "a831d4a065e33e882937ffdfb9a99228aced1d4bae75d12471259a544eeb007c",
+          "alt": {
+            "he": "בניין מגורים מודרניסטי לצד ערוגות וגינה",
+            "en": "Modernist residential building beside planted beds and a garden",
+            "pl": "Modernistyczny budynek mieszkalny przy rabatach i ogrodzie",
+            "de": "Modernistisches Wohngebäude neben Pflanzbeeten und Garten",
+            "cs": "Modernistický obytný dům u záhonů a zahrady"
+          }
+        },
+        "/assets/wuwa-estate-18.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "food",
+            "visitor-stop"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.26.10 (2).jpeg",
+          "sourceSha256": "d98d3d1cc92ae595c5dc038114d73388f3dd367a148ba3778741d29e496bc508",
+          "alt": {
+            "he": "עוגה וקפה בהפסקה בבית הקפה של השכונה",
+            "en": "Cake and coffee during a stop at WuWA café",
+            "pl": "Ciasto i kawa podczas przerwy w kawiarni WuWA",
+            "de": "Kuchen und Kaffee bei einer Pause im WuWA Café",
+            "cs": "Dort a káva během zastávky v kavárně WuWA"
+          }
+        },
+        "/assets/wuwa-estate-19.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "terrace",
+            "visitor-stop"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 19.02.58.jpeg",
+          "sourceSha256": "331dacf2341a96e0890d90e6e6dd4086a79115b4bc49f269648d5f3ab62faadb",
+          "alt": {
+            "he": "כיסא נוח ממותג בבית הקפה של השכונה",
+            "en": "Branded deckchair at WuWA café",
+            "pl": "Leżak z logo kawiarni WuWA",
+            "de": "Liegestuhl mit dem Logo des WuWA Cafés",
+            "cs": "Lehátko s logem kavárny WuWA"
+          }
+        },
+        "/assets/wuwa-estate-20.jpg": {
+          "tags": [
+            "wuwa-cafe",
+            "terrace",
+            "tram",
+            "visitor-stop"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 19.02.58 (5).jpeg",
+          "sourceSha256": "6bd89e0faba3b34f33db8c5712531013d78f8094a8ec35dad40c5a021ac2c41b",
+          "alt": {
+            "he": "מבט מהמרפסת של בית הקפה אל החשמלית הכחולה",
+            "en": "View from the WuWA café terrace towards a blue tram",
+            "pl": "Widok z tarasu kawiarni WuWA na niebieski tramwaj",
+            "de": "Blick von der Terrasse des WuWA Cafés auf eine blaue Straßenbahn",
+            "cs": "Pohled z terasy kavárny WuWA na modrou tramvaj"
+          }
+        },
+        "/assets/wuwa-estate-21.jpg": {
+          "tags": [
+            "wuwa",
+            "entrance-sign",
+            "architecture"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.53.jpeg",
+          "sourceSha256": "b835c68f7b5e7df7e52a0790929b00ebf86fdf2876997ed19a339a4f2d832e09",
+          "alt": {
+            "he": "שלט הכניסה הלבן של שכונת המגורים בין העצים",
+            "en": "White WuWA entrance sign among the trees",
+            "pl": "Biały napis WuWA przy wejściu wśród drzew",
+            "de": "Weißer WuWA Schriftzug am Eingang zwischen den Bäumen",
+            "cs": "Bílý nápis WuWA u vstupu mezi stromy"
+          }
+        },
+        "/assets/wuwa-estate-22.jpg": {
+          "tags": [
+            "wuwa",
+            "architecture-model",
+            "curved-building-detail"
+          ],
+          "original": true,
+          "sourceFile": "WhatsApp Image 2026-09-24 at 17.33.59 (1).jpeg",
+          "sourceSha256": "37a77bf619d64de1d950867b562642cd916e0ef8ea61a1ec23d7b0090bfb0032",
+          "alt": {
+            "he": "פרט של מבנה מעוגל בדגם האדריכלי של השכונה",
+            "en": "Curved building detail in the estate architectural model",
+            "pl": "Detal zakrzywionego budynku w modelu architektonicznym osiedla",
+            "de": "Detail eines gebogenen Gebäudes im Architekturmodell der Siedlung",
+            "cs": "Detail zakřivené budovy v architektonickém modelu sídliště"
+          }
+        },
+        "/assets/round-other-20261023/wuwa-estate-00.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5760 2.JPG",
+          "sourceSHA256": "62d34a95b7f7f1d60d7c4990e42740fe7dfcad5d8b3b02aa613ccba4c55550c0",
+          "assetSHA256": "bbbc7f3e2335a1cb40b2cbf4ee95eed6fd1b1540b96cd22c4281fce29fae922b",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דלת השירותים במתחם הביקור",
+            "en": "Visitor-facility door in the estate",
+            "pl": "Drzwi toalety na terenie zespołu",
+            "de": "Tür der Besuchertoilette im Gelände",
+            "cs": "Dveře návštěvnické toalety v areálu"
+          },
+          "caption": {
+            "he": "דלת השירותים במתחם הביקור",
+            "en": "Visitor-facility door in the estate",
+            "pl": "Drzwi toalety na terenie zespołu",
+            "de": "Tür der Besuchertoilette im Gelände",
+            "cs": "Dveře návštěvnické toalety v areálu"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-08.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5776 2.JPG",
+          "sourceSHA256": "c88fbe0158df7e5d60d6924525042d10fe1e3dc6469137a624d06f1589431d1c",
+          "assetSHA256": "6ab3345a53d91c9792e6c3b292638038e52393029305f9c91eb5930d456911d4",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "caption": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-12.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5778 2.JPG",
+          "sourceSHA256": "3d6b7c7ac8e6e6d5621a3e22f864bc4b21a9f9b3c2889e970454cf2a6bcd7b79",
+          "assetSHA256": "2eb98b96d757fcbde9fa3783aae8ce57d002dc0dacf7c5e26430c71ca0677384",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "caption": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-14.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5779 2.JPG",
+          "sourceSHA256": "a2dc2edbee6f2a4e44de5ba5b2b0c15bde2b8b2a2e0b2307588fdf623d3eef37",
+          "assetSHA256": "8a651042cbbdfc714228ad6fa07d3b93eb527a8955debf0e7350360f3d414093",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "caption": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-18.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5781 2.JPG",
+          "sourceSHA256": "2255a25eb14b411a266fd0f154fc569931ed74475cfaf56ed90b6f17247bcd72",
+          "assetSHA256": "e7c8a68830770fee31b8aaa65c65af1c38bb18a02f232750619c4ad04eba3283",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "פרט חזית מגורים בשכונת וו־ווה",
+            "en": "Residential façade detail in WuWA",
+            "pl": "Fragment elewacji mieszkalnej na osiedlu WuWA",
+            "de": "Detail einer Wohnhausfassade in WuWA",
+            "cs": "Detail obytné fasády ve WuWA"
+          },
+          "caption": {
+            "he": "פרט חזית מגורים בשכונת וו־ווה",
+            "en": "Residential façade detail in WuWA",
+            "pl": "Fragment elewacji mieszkalnej na osiedlu WuWA",
+            "de": "Detail einer Wohnhausfassade in WuWA",
+            "cs": "Detail obytné fasády ve WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-22.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5785 2.JPG",
+          "sourceSHA256": "8c0ac5b0b709667eda3b86824de832396326f5d5a8ef0b8d4f1555ef18e1dc96",
+          "assetSHA256": "9c19bae0060024133c35ead759e4569da0dead979730bd66a78b04c60324cadb",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "מבט לאורך הגישה למבנה בשכונה",
+            "en": "Approach to a building in the estate",
+            "pl": "Dojście do budynku na osiedlu",
+            "de": "Zugang zu einem Gebäude der Siedlung",
+            "cs": "Přístup k budově v sídlišti"
+          },
+          "caption": {
+            "he": "מבט לאורך הגישה למבנה בשכונה",
+            "en": "Approach to a building in the estate",
+            "pl": "Dojście do budynku na osiedlu",
+            "de": "Zugang zu einem Gebäude der Siedlung",
+            "cs": "Přístup k budově v sídlišti"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-30.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5791 2.JPG",
+          "sourceSHA256": "8b45b50a1c8adc47f1da4fcc8413f24df3406cf18ffeb5eba4942e6c7ca47606",
+          "assetSHA256": "8933d6b9b43b15d56aff57e75109a38bd2406c9477297e3475ca09344b17131a",
+          "sourceDimensions": [
+            3024,
+            4032
+          ],
+          "assetDimensions": [
+            1800,
+            2400
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "חזית פארק הוטל בתוך מתחם וו־ווה",
+            "en": "Park Hotel frontage within the WuWA ensemble",
+            "pl": "Fasada Park Hotelu w zespole WuWA",
+            "de": "Fassade des Park Hotels im WuWA-Ensemble",
+            "cs": "Průčelí Park Hotelu v souboru WuWA"
+          },
+          "caption": {
+            "he": "חזית פארק הוטל בתוך מתחם וו־ווה",
+            "en": "Park Hotel frontage within the WuWA ensemble",
+            "pl": "Fasada Park Hotelu w zespole WuWA",
+            "de": "Fassade des Park Hotels im WuWA-Ensemble",
+            "cs": "Průčelí Park Hotelu v souboru WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-92.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/פוסט ישן/IMG_4587.JPG",
+          "sourceSHA256": "766d52a2be055c0fdb101fc5af2d3696546bca08ac723e21558270e4e728b768",
+          "assetSHA256": "4b2585c8cc417ca15801927f04a8da8c9cce367b388ce39e5deb60fb93d1dec3",
+          "sourceDimensions": [
+            1426,
+            1902
+          ],
+          "assetDimensions": [
+            1426,
+            1902
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "caption": {
+            "he": "דגם האדריכלות בשכונת וו־ווה",
+            "en": "Architectural model in the WuWA estate",
+            "pl": "Makieta architektoniczna osiedla WuWA",
+            "de": "Architekturmodell der WuWA-Siedlung",
+            "cs": "Architektonický model sídliště WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/wuwa-estate-93.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/פוסט ישן/IMG_4589.JPG",
+          "sourceSHA256": "d0688331e84f19adc8f250dc8a8875732496f8dfd9226faa4884377b3e06a2a1",
+          "assetSHA256": "2704d91cb5c5fa2ecc246e2e3ecb459a2f930c21ec0b15db9e69b371d936c39d",
+          "sourceDimensions": [
+            1426,
+            1902
+          ],
+          "assetDimensions": [
+            1426,
+            1902
+          ],
+          "originalFullPicturePreserved": true,
+          "transformation": "Full-frame JPEG max2400px; original retained; no crop or image editing",
+          "alt": {
+            "he": "חזית פארק הוטל בתוך מתחם וו־ווה",
+            "en": "Park Hotel frontage within the WuWA ensemble",
+            "pl": "Fasada Park Hotelu w zespole WuWA",
+            "de": "Fassade des Park Hotels im WuWA-Ensemble",
+            "cs": "Průčelí Park Hotelu v souboru WuWA"
+          },
+          "caption": {
+            "he": "חזית פארק הוטל בתוך מתחם וו־ווה",
+            "en": "Park Hotel frontage within the WuWA ensemble",
+            "pl": "Fasada Park Hotelu w zespole WuWA",
+            "de": "Fassade des Park Hotels im WuWA-Ensemble",
+            "cs": "Průčelí Park Hotelu v souboru WuWA"
+          },
+          "privacyClassification": "Place visit or meal detail; incidental public figures/reflections allowed, no posed portrait or family context selected"
+        },
+        "/assets/round-other-20261023/recovered-wuwa-estate-51.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 17.34.30.jpeg",
+          "sourceSHA256": "3d66cd939633506184ebd9d84e094f6feff8e7fa6166e7fb7f6ed58bae1a195f",
+          "assetSHA256": "3e8b91490c1e8c96e4629884d97f94836a151c2f16d11cf2c36d316da118ad42",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "דלת אדומה, פרט אדריכלי בשכונת וו־ווה",
+            "en": "Red door, an architectural detail in the WuWA estate",
+            "pl": "Czerwone drzwi, detal architektoniczny osiedla WuWA",
+            "de": "Rote Tür, ein Architekturdetail der WuWA-Siedlung",
+            "cs": "Červené dveře, architektonický detail sídliště WuWA"
+          },
+          "title": {
+            "he": "דלת אדומה, פרט אדריכלי בשכונת וו־ווה",
+            "en": "Red door, an architectural detail in the WuWA estate",
+            "pl": "Czerwone drzwi, detal architektoniczny osiedla WuWA",
+            "de": "Rote Tür, ein Architekturdetail der WuWA-Siedlung",
+            "cs": "Červené dveře, architektonický detail sídliště WuWA"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-estate"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-estate-58.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 19.03.00 (24).jpeg",
+          "sourceSHA256": "d6dcfdfef1e5bc03139d343c68d04d8b0e7396571ec7b793c16950d0de574918",
+          "assetSHA256": "6f383343f3cee20be0ede8207983219fc7fd07afe14390644b62e6d9d3048657",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שלט וו־ווה ופינת הישיבה לצד שביל השכונה",
+            "en": "WuWA sign and seating beside an estate path",
+            "pl": "Napis WuWA i miejsca do siedzenia przy ścieżce osiedla",
+            "de": "WuWA-Schriftzug und Sitzplätze am Weg der Siedlung",
+            "cs": "Nápis WuWA a posezení u cesty v sídlišti"
+          },
+          "title": {
+            "he": "שלט וו־ווה ופינת הישיבה לצד שביל השכונה",
+            "en": "WuWA sign and seating beside an estate path",
+            "pl": "Napis WuWA i miejsca do siedzenia przy ścieżce osiedla",
+            "de": "WuWA-Schriftzug und Sitzplätze am Weg der Siedlung",
+            "cs": "Nápis WuWA a posezení u cesty v sídlišti"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-estate"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-estate-59.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/WhatsApp Image 2026-09-24 at 19.03.00 (25).jpeg",
+          "sourceSHA256": "b33666fb50175163eeb402930a834cffda55f9bf9b0a768eee17fe91c142d99d",
+          "assetSHA256": "ed2fbf772acc3d740f9b2c81a4a74e97e3d83c1d46a46f53c21165e9b2682d98",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שביל ועצים בסביבת שכונת וו־ווה",
+            "en": "Path and trees around the WuWA estate",
+            "pl": "Ścieżka i drzewa w otoczeniu osiedla WuWA",
+            "de": "Weg und Bäume im Umfeld der WuWA-Siedlung",
+            "cs": "Cesta a stromy v okolí sídliště WuWA"
+          },
+          "title": {
+            "he": "שביל ועצים בסביבת שכונת וו־ווה",
+            "en": "Path and trees around the WuWA estate",
+            "pl": "Ścieżka i drzewa w otoczeniu osiedla WuWA",
+            "de": "Weg und Bäume im Umfeld der WuWA-Siedlung",
+            "cs": "Cesta a stromy v okolí sídliště WuWA"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-estate"
+          ]
+        },
+        "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg": {
+          "original": true,
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.34.31 (1).jpeg",
+          "sourceSHA256": "3cf03d7ee5f7375190c4bd993f8ec14cf82f6e2bfc1fd9fe5076a813a91eb46b",
+          "assetSHA256": "6dca2bcca1ee5e823a3162b3a7939fc1c8b2b13c64d6115b6429ec3a557d04ee",
+          "originalFullPicturePreserved": true,
+          "familyForeground": false,
+          "familyExceptionApplied": false,
+          "alt": {
+            "he": "שלטי רחובות בסביבת שכונת וו־ווה",
+            "en": "Street signs around the WuWA estate",
+            "pl": "Tablice ulic w otoczeniu osiedla WuWA",
+            "de": "Straßenschilder im Umfeld der WuWA-Siedlung",
+            "cs": "Uliční tabule v okolí sídliště WuWA"
+          },
+          "title": {
+            "he": "שלטי רחובות בסביבת שכונת וו־ווה",
+            "en": "Street signs around the WuWA estate",
+            "pl": "Tablice ulic w otoczeniu osiedla WuWA",
+            "de": "Straßenschilder im Umfeld der WuWA-Siedlung",
+            "cs": "Uliční tabule v okolí sídliště WuWA"
+          },
+          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
+          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
+          "tags": [
+            "wuwa-estate"
+          ]
+        },
+        "https://www.youtube.com/watch?v=cZOlImJBx5U": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5783 2.MOV",
+          "sourceSHA256": "01c3700c5438ebc19f6a73894f6c6fbdebf4472f745873ff4f4ae3c7e802cf39",
+          "uploadSHA256": "74bcfdce8eb1428bd7f6fd4e300d50cb0de0c5ed250a87d1fef00e9955b816dc",
+          "sourceVideoPacketSHA256": "33ee06ad9e02f16e2b4ad49d4bedf221cf628f8834aea836764df642e7bc9f3a",
+          "uploadVideoPacketSHA256": "33ee06ad9e02f16e2b4ad49d4bedf221cf628f8834aea836764df642e7bc9f3a",
+          "title": {
+            "he": "פרט אדריכלי בשכונת וובה",
+            "en": "WuWA estate architectural detail",
+            "pl": "Detal architektoniczny osiedla WuWA",
+            "de": "Architektonisches Detail der WuWA-Siedlung",
+            "cs": "Architektonický detail sídliště WuWA"
+          },
+          "alt": {
+            "he": "פרט אדריכלי בשכונת וובה",
+            "en": "WuWA estate architectural detail",
+            "pl": "Detal architektoniczny osiedla WuWA",
+            "de": "Architektonisches Detail der WuWA-Siedlung",
+            "cs": "Architektonický detail sídliště WuWA"
+          },
+          "durationSeconds": 3.735,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-06-publication-result.txt",
+          "publicReopenProof": "next-seven-06-Public-reopened.txt"
+        },
+        "https://www.youtube.com/watch?v=VCg344f4pDg": {
+          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/IMG_5788 2.MOV",
+          "sourceSHA256": "6d79ac70b1447ae60117b67f915c81952f8ed0ae7676f7efa8437dac98925bbc",
+          "uploadSHA256": "b2d431429fb2219d2ff4a62715775a0ccaec2249ff6f7eff1352760cff80134d",
+          "sourceVideoPacketSHA256": "392183fb68412595bf7ba74378cd9b073fd1eb55e6d6ef3b575f677e9e88a2bb",
+          "uploadVideoPacketSHA256": "392183fb68412595bf7ba74378cd9b073fd1eb55e6d6ef3b575f677e9e88a2bb",
+          "title": {
+            "he": "מבט מביקור בשכונת וובה",
+            "en": "WuWA estate visit view",
+            "pl": "Widok z wizyty na osiedlu WuWA",
+            "de": "Ansicht beim Besuch der WuWA-Siedlung",
+            "cs": "Pohled z návštěvy sídliště WuWA"
+          },
+          "alt": {
+            "he": "מבט מביקור בשכונת וובה",
+            "en": "WuWA estate visit view",
+            "pl": "Widok z wizyty na osiedlu WuWA",
+            "de": "Ansicht beim Besuch der WuWA-Siedlung",
+            "cs": "Pohled z návštěvy sídliště WuWA"
+          },
+          "durationSeconds": 6.366667,
+          "visibility": "Public",
+          "savedPublicVerified": true,
+          "publicReopenedVerified": true,
+          "reopenedVerified": true,
+          "sdProcessingComplete": true,
+          "checksComplete": true,
+          "checks": "complete-no-issues",
+          "copyrightAndCommunityNoIssues": true,
+          "audioRemoved": true,
+          "originalFullPictureAndDurationPreserved": true,
+          "completeVideoStreamUnchanged": true,
+          "familyExceptionApplied": false,
+          "approvalCall": "call_94ff36694ba74b848e7d54b668aa136a",
+          "approvedManifestSHA256": "4ce87813ab1ccffa2acd226f90a2c9435dea77ee7d23771641c1a14e49792b74",
+          "publicationReceipt": "outputs/canonical-enrichment-round-2026-10-22/next-seven-youtube-publication-manifest.json",
+          "publicationProof": "next-seven-07-publication-result.txt",
+          "publicReopenProof": "next-seven-07-Public-reopened.txt"
+        }
+      }
+    },
+    "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://facebook.com/reel/1135140215934914/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "61594716405964"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/reel/DeaENJskhON/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "wroclaw.lowersilesia.cs"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/reel/1660329539074425/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "61595239823399"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/reel/DeaDcfvk_aM/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "wroclaw.lowersilesia.de"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/reel/1576033160437711/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "61595036942289"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/reel/DeaDhkLkaqN/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "wroclaw.lowersilesia"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/reel/1091550727101006/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "61595207664875"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/reel/DeaDy-siZ57/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "wroclaw.lowersilesia.pl"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/reel/1110181551937977/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "61591964083308"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeZ-BsVkxcZ/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-reel",
+        "account": "wroclaw.lowersilesia.he"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid05VSkxboKvpG5rczCVad6LuLTsSSUkAvECqAxm58r5YmJudWGsYh8cvDuMieEzR5Vl&id=61594716405964",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "61594716405964"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeaD1d6Fwzt/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "wroclaw.lowersilesia.cs"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0pgiy4ZnAtWZ5BdEj6tMAyWDkwZ2UruEovQyBa9EQ71L7obMfbjMAAaSf6bPrUFAFl&id=61595239823399",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "61595239823399"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/p/DeaDTiCEWLf/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "wroclaw.lowersilesia.de"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0VmVRTbbbQDqueUQCLmkrJMq7trCGdwqgMo2TTwcPTQQg5Ah9HZRkBoA3RJebjeZrl&id=61595036942289",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "61595036942289"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeaDQ9VnfmE/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "wroclaw.lowersilesia"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0CSeaGrHFUMCEytwZGE45n2BDkcn9gmg9pU1j8UHEEcvPrfUaxkXVv3oUxgBFztRvl&id=61591964083308",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "61591964083308"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/DeZ-k-mD5D8/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "wroclaw.lowersilesia.he"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid02do3ztM8fcB2BGCgcGgQuTpgBsy1WCJtafby6tXQWApsrK2vCxfwdvZTpR8FS7Vzzl&id=61595207664875",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "61595207664875"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeaDpOajwKl/",
+        "verifiedAt": "2026-10-12",
+        "context": "original-visual-gallery",
+        "account": "wroclaw.lowersilesia.pl"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://facebook.com/reel/1435670912020615/",
+        "verifiedAt": "2026-10-11T13:50:25.810Z",
+        "context": "native-language-guide",
+        "account": "61594716405964"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/reel/DeWzQoTEhBv/",
+        "verifiedAt": "2026-10-11T13:50:25.810Z",
+        "context": "native-language-guide",
+        "account": "wroclaw.lowersilesia.cs"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://www.facebook.com/reel/1429928149250782/",
+        "verifiedAt": "2026-10-11T13:53:12.619Z",
+        "context": "native-language-guide",
+        "account": "61595207664875"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/reel/DeWzkmpEabq/",
+        "verifiedAt": "2026-10-11T13:53:12.619Z",
+        "context": "native-language-guide",
+        "account": "wroclaw.lowersilesia.pl"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/reel/DeWyP7ugQcO/",
+        "verifiedAt": "2026-10-11T13:47:54.230072+00:00",
+        "context": "native-language-guide",
+        "account": "wroclaw.lowersilesia.de"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/reel/1495527859295815/",
+        "verifiedAt": "2026-10-11T13:47:54.230071+00:00",
+        "context": "native-language-guide",
+        "account": "61595239823399"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia/reel/DeWy1l6hun1/",
+        "verifiedAt": "2026-10-11T13:47:54.230068+00:00",
+        "context": "native-language-guide",
+        "account": "wroclaw.lowersilesia"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/reel/2839486733089503",
+        "verifiedAt": "2026-10-11T13:47:54.229914+00:00",
+        "context": "native-language-guide",
+        "account": "61591964083308"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/reel/1065198726348075",
+        "verifiedAt": "2026-10-11T13:39:06.363Z",
+        "context": "native-language-guide",
+        "account": "Wroc-Love Wrocław & Lower Silesia",
+        "ownerPageId": "61595036942289"
+      },
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.he/reel/DeWwwEGoSad/",
+        "verifiedAt": "2026-10-11T13:29:01.786Z",
+        "context": "native-language-guide",
+        "account": "wroclaw.lowersilesia.he"
+      },
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JiyDq4xbnzy5CyJKtWVdQz3PnXXXJR4ZzGAqbW3HntH3pqoP5w3rPTATjvwdJQfEl&id=61595239823399",
+        "verifiedAt": "2026-10-07T00:01:50.218149+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "en",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02c3bNDRWLGpYoAvNqwdMd5QftS5FnEa83miqqA16m19cEHHuRjBGqBZGgxX7FzEZXl&id=61595036942289",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "en",
+        "url": "https://www.instagram.com/p/DeMbjvQjkfH/",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "de",
+        "url": "https://www.instagram.com/wroclaw.lowersilesia.de/p/DeMbchpH9GT/",
+        "verifiedAt": "2026-10-07T13:08:23.292977+00:00"
+      },
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02koCgvf9uBARNFmT3HnwDwTPcZiUfUg8HtxRHSWsMrh3hkyNi9qBN1m7o9NnntHPXl&id=61594716405964",
+        "verifiedAt": "2026-10-07"
+      },
+      {
+        "platform": "instagram",
+        "language": "cs",
+        "url": "https://www.instagram.com/p/DeOJwU5j9fo/",
+        "verifiedAt": "2026-10-08"
+      },
+      {
+        "platform": "facebook",
+        "language": "pl",
+        "url": "https://facebook.com/permalink.php?story_fbid=pfbid0WutV2eH4ejL2ZdqTPueWuacjeLrbwVX8j7bQ4qstD89wCqnbNAfcwBmSHoNWCdaYl&id=61595207664875",
+        "verifiedAt": "2026-10-08T14:08:27.084Z"
+      },
+      {
+        "platform": "facebook",
+        "language": "he",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02GD9m8HsBAsgEDVNVp7crTrxUppNQijNnrPyq6Q9Eq7mYpLjMGA1HtiNHSpn5Aszql&id=61591964083308",
+        "verifiedAt": "2026-10-09T15:58:04.541Z"
+      },
+      {
+        "platform": "instagram",
+        "language": "pl",
+        "url": "https://www.instagram.com/p/DeT9CdlD66a/",
+        "verifiedAt": "2026-10-10T11:19:02.202Z"
+      },
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/share/p/19G81XL7j2/"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/p/Dcq_ageDDb4/?img_index=1",
+        "routingExcluded": true
+      }
+    ]
+  },
+  "reason": "Street signs explicitly identify Zgierska and Bolesława Limanowskiego, Stare Bałuty; original visit provenance excluded this source from WuWA. Preserve original files and metadata as historical evidence.",
+  "sourcePatch": "\n// A recovered file was incorrectly attributed to WuWA. Its signs identify\n// Stare Baluty in Lodz. Keep the original asset and historical provenance, but remove\n// this association from the active estate gallery in every map language.\n(function () {\n  const estate = window.WROC_CULTURAL_CANONICAL_PLACE_SOURCE.find(p => p.id === \"wuwa-estate\");\n  if (!estate) throw new Error(\"Missing WuWA estate for location correction\");\n  const misattributed = \"/assets/round-other-20261023/recovered-wuwa-estate-83.jpg\";\n  estate.media.photos = estate.media.photos.filter(asset => asset !== misattributed);\n  delete estate.media.metadata[misattributed];\n})();\n"
+}

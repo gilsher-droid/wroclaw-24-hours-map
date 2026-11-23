@@ -94628,8 +94628,7 @@
         "/assets/round-other-20261023/wuwa-estate-93.jpg",
         "/assets/round-other-20261023/recovered-wuwa-estate-51.jpg",
         "/assets/round-other-20261023/recovered-wuwa-estate-58.jpg",
-        "/assets/round-other-20261023/recovered-wuwa-estate-59.jpg",
-        "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg"
+        "/assets/round-other-20261023/recovered-wuwa-estate-59.jpg"
       ],
       "videos": [
         "/assets/wuwa-cafe-visit-01.mp4",
@@ -95349,34 +95348,6 @@
             "pl": "Ścieżka i drzewa w otoczeniu osiedla WuWA",
             "de": "Weg und Bäume im Umfeld der WuWA-Siedlung",
             "cs": "Cesta a stromy v okolí sídliště WuWA"
-          },
-          "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
-          "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
-          "tags": [
-            "wuwa-estate"
-          ]
-        },
-        "/assets/round-other-20261023/recovered-wuwa-estate-83.jpg": {
-          "original": true,
-          "sourceFile": "/Users/rachelfiler/Desktop/Wroclaw/WUWA/Wrocław - WuWa/WhatsApp Image 2026-09-24 at 17.34.31 (1).jpeg",
-          "sourceSHA256": "3cf03d7ee5f7375190c4bd993f8ec14cf82f6e2bfc1fd9fe5076a813a91eb46b",
-          "assetSHA256": "6dca2bcca1ee5e823a3162b3a7939fc1c8b2b13c64d6115b6429ec3a557d04ee",
-          "originalFullPicturePreserved": true,
-          "familyForeground": false,
-          "familyExceptionApplied": false,
-          "alt": {
-            "he": "שלטי רחובות בסביבת שכונת וו־ווה",
-            "en": "Street signs around the WuWA estate",
-            "pl": "Tablice ulic w otoczeniu osiedla WuWA",
-            "de": "Straßenschilder im Umfeld der WuWA-Siedlung",
-            "cs": "Uliční tabule v okolí sídliště WuWA"
-          },
-          "title": {
-            "he": "שלטי רחובות בסביבת שכונת וו־ווה",
-            "en": "Street signs around the WuWA estate",
-            "pl": "Tablice ulic w otoczeniu osiedla WuWA",
-            "de": "Straßenschilder im Umfeld der WuWA-Siedlung",
-            "cs": "Uliční tabule v okolí sídliště WuWA"
           },
           "sourceAccess": "Ordinary source read after restart, exact reviewed originalSHA; no permission or source modification",
           "selectionReason": "Full-source relevant distinct capture; no quantity, similarity or static-view curation; personalholds remain separate",
