@@ -322,6 +322,109 @@
     "eventStartDate": "2026-12-01",
     "eventEndDate": "2027-01-10",
     "relatedCanonicalPlaceId": "ksiaz-castle"
+  },
+  {
+    "id": "weekly-2026-11-23-markets",
+    "title": {
+      "he": "שלושה שווקי חג כבר פתוחים",
+      "en": "Three Christmas markets are open",
+      "pl": "Trzy jarmarki już otwarte",
+      "de": "Drei Weihnachtsmärkte sind geöffnet",
+      "cs": "Tři vánoční trhy jsou otevřené"
+    },
+    "url": "https://www.wroclaw.pl/dla-mieszkanca/kolorowa-parada-przeszla-przez-rynek-jarmark-bozonarodzeniowy-oficjalnie-otwarty-zdjecia",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-29",
+    "category": "event",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-23.html#markets",
+    "status": "confirmed",
+    "verifiedAt": "2026-11-23",
+    "eventStartDate": "2026-11-20",
+    "eventEndDate": "2027-01-07",
+    "relatedCanonicalPlaceId": "rynek"
+  },
+  {
+    "id": "weekly-2026-11-23-tygiel",
+    "title": {
+      "he": "מוזיאון תושבי ולבז׳יך נפתח",
+      "en": "Tygiel museum has opened",
+      "pl": "Muzeum Tygiel zostało otwarte",
+      "de": "Das Museum Tygiel ist eröffnet",
+      "cs": "Muzeum Tygiel je otevřené"
+    },
+    "url": "https://starakopalnia.pl/tygiel/",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-29",
+    "category": "culture",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-23.html#tygiel",
+    "status": "confirmed",
+    "verifiedAt": "2026-11-23",
+    "eventStartDate": "2026-11-16",
+    "mapPlacement": "pending-verified-entrance-coordinates"
+  },
+  {
+    "id": "weekly-2026-11-23-weekend",
+    "title": {
+      "he": "שני שווקים נוספים מתוכננים לסוף השבוע",
+      "en": "Two more markets are planned for this weekend",
+      "pl": "Dwa kolejne jarmarki planowane na weekend",
+      "de": "Zwei weitere Märkte für das Wochenende geplant",
+      "cs": "Na víkend jsou plánovány další dva trhy"
+    },
+    "url": "https://www.wroclaw.pl/go/wydarzenia/wydarzenia-handlowe/1419073-hu-hu-huta-alternatywny-jarmark-swiateczny",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-26",
+    "category": "event",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-23.html#weekend",
+    "status": "announced",
+    "verifiedAt": "2026-11-23",
+    "eventStartDate": "2026-11-27",
+    "eventEndDate": "2026-12-31",
+    "mapPlacement": "pending-verified-entrance-coordinates"
+  },
+  {
+    "id": "weekly-2026-11-23-ginger",
+    "title": {
+      "he": "עיר ג׳ינג׳רברד לביקור מקורה",
+      "en": "Gingerbread City for an indoor visit",
+      "pl": "Miasto z Piernika pod dachem",
+      "de": "Lebkuchenstadt für einen Besuch unter Dach",
+      "cs": "Perníkové město jako tip pod střechou"
+    },
+    "url": "https://www.wroclaw.pl/go/wydarzenia/rozrywka/1419574-miasto-z-piernika-w-kolejkowie",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-29",
+    "category": "event",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-23.html#ginger",
+    "status": "confirmed",
+    "verifiedAt": "2026-11-23",
+    "eventStartDate": "2026-11-19",
+    "eventEndDate": "2027-02-28",
+    "mapPlacement": "pending-verified-entrance-coordinates"
+  },
+  {
+    "id": "weekly-2026-11-23-pjm",
+    "title": {
+      "he": "מידע בשפת הסימנים ב־19 אטרקציות",
+      "en": "Polish Sign Language information for 19 attractions",
+      "pl": "Informacje w PJM dla 19 atrakcji",
+      "de": "Informationen in polnischer Gebärdensprache für 19 Attraktionen",
+      "cs": "Informace v polském znakovém jazyce pro 19 atrakcí"
+    },
+    "url": "https://www.turystyczna13.pl/dolnoslaski-szlak-pjm/",
+    "startDate": "2026-11-23",
+    "endDate": "2026-11-29",
+    "category": "culture",
+    "priority": "important",
+    "articleUrl": "/news/2026-11-23.html#pjm",
+    "status": "announced",
+    "verifiedAt": "2026-11-23",
+    "eventStartDate": "2026-11-16",
+    "relatedCanonicalPlaceId": "zoo-wroclaw"
   }
 ].map(item => Object.freeze({ ...item, title: Object.freeze(item.title) })));
 })();
