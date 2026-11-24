@@ -1175,6 +1175,14 @@
     },
     "socialPosts": [
       {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/61594716405964/posts/122127668925490546",
+        "account": "61594716405964",
+        "verifiedAt": "2026-11-24",
+        "context": "verified-cs-altus-ato-written-photo-routing-20261124"
+      },
+      {
         "platform": "instagram",
         "language": "en",
         "url": "https://www.instagram.com/p/Df5M-AzB5aj/",
@@ -2946,6 +2954,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/61594716405964/posts/122127671559490546",
+        "account": "61594716405964",
+        "verifiedAt": "2026-11-24",
+        "context": "verified-cs-altus-ato-written-photo-routing-20261124"
+      },
       {
         "platform": "facebook",
         "language": "en",
