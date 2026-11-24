@@ -1,3 +1,4 @@
+import {beforeCzechHotelBinding,beforeCzechHotelRegistryRows} from './czech-hotel-bindings-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -17,12 +18,12 @@ test('Marina English maps resolve the verified written-photo post and preserve t
 });
 test('Marina identity, galleries, all other346 records and other registry entries remain exact',()=>{
   assert.equal(Object.keys(c.places).length,proof.beforeCount);
-  for(const[id,h] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(c.getPlace(id)),h,id);
+  for(const[id,h] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeCzechHotelBinding(c.getPlace(id))),h,id);
   assert.equal(hash(Object.fromEntries(Object.entries(c.getPlace(proof.id)).filter(([k])=>k!=='socialPosts'))),proof.beforeNonSocialHash);
   assert.equal(hash(c.aliases),proof.aliasesHash);
   assert.equal(hash(c.coordinateConflicts),proof.coordinateConflictsHash);
   const registry=JSON.parse(readFileSync('data/localized-social-posts.json'));
-  for(const[id,h] of Object.entries(proof.unrelatedRegistryHashes)) assert.equal(hash(registry[id]),h,id);
+  for(const[id,h] of Object.entries(proof.unrelatedRegistryHashes)) assert.equal(hash(beforeCzechHotelRegistryRows(id,registry[id])),h,id);
 });
 test('Marina historical projection rejects additional unreviewed social edits',()=>{
   const p=c.getPlace(proof.id);
