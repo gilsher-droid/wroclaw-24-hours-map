@@ -26,7 +26,7 @@ test('All 336 other records and every historical social row remain exact', () =>
   for (const [id, expected] of Object.entries(proof.unrelatedRecordHashes)) assert.equal(hash(beforeNov19EnglishBatch01(catalog.getPlace(id))), expected, id);
   for (const [id, expected] of Object.entries(proof.changed)) {
     assert.equal(hash(beforeNov18EnglishSecondSix(catalog.getPlace(id))), expected.beforeRecordHash, id);
-    assert.equal(hash(registry[id].slice(1)), expected.beforeRegistryHash, id);
+    assert.equal(hash(beforeNov19EnglishRegistryRows(id,registry[id]).slice(1)), expected.beforeRegistryHash, id);
   }
   for (const [id, expected] of Object.entries(proof.unrelatedRegistryHashes)) assert.equal(hash(beforeNov19EnglishRegistryRows(id, registry[id])), expected, id);
   assert.equal(hash(catalog.aliases), proof.aliasesHash);
