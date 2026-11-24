@@ -46,6 +46,7 @@ if(preg_match('/^[a-f0-9]{64}$/',$key)){
  if($candidate && accessCredentialValid($candidate) && !($candidate['disabled']??false) && (int)($candidate['sessionVersion']??0)===(int)($_SESSION['version']??-1) && (int)($_SESSION['issued']??0)>time()-28800) $user=$candidate;
 }
 require_once __DIR__.'/owner-admin.php';
+require_once __DIR__.'/map-usage.php';
 require_once __DIR__.'/owner-requests.php';
 require_once __DIR__.'/nearby-route.php';
 $isAdmin=isOwnerAdmin($user);$managedOwner='';$managedUser=null;
@@ -84,6 +85,7 @@ if ($action==='owner-entry') {
 }
 
 if($user&&!$isAdmin)approvalRequireMap($private,$key,$user);
+if($action==='usage-activate')personalUsageActivate($private,$key,$user,$method);
 if($action==='requests'||str_starts_with($action,'request-'))approvalDispatch($private,$key,$user,$action,$method);
 if(str_starts_with($action,'owner-access'))accessDispatch($private,$key,$user,$action,$method);
 if($action==='community'||str_starts_with($action,'community-')){require_once __DIR__.'/community.php';communityDispatch($private,$key,$user,$action,$method);}

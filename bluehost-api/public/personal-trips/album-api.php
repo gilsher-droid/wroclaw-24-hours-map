@@ -23,8 +23,16 @@ function albumDispatch(string $private,string $key,?array $user,string $action,s
  if($action==='album'){
   if($method!=='GET')jsonReply(['error'=>'invalid'],405);header('Content-Type: text/html; charset=utf-8');require __DIR__.'/album-page.php';exit;
  }
+ if($action==='album-open'){
+  if($method!=='POST')jsonReply(['error'=>'invalid'],405);
+  if(!csrfValid())jsonReply(['error'=>'csrf'],403);
+  if(!hash_equals(personalUsageToken($private,$key,$user),(string)($_SERVER['HTTP_X_MAP_OPEN_TOKEN']??'')))jsonReply(['error'=>'map context changed'],409);
+  if(($_SERVER['HTTP_SEC_FETCH_SITE']??'same-origin')==='cross-site')jsonReply(['error'=>'origin'],403);
+  try{(new PersonalMapUsage($private))->record($key,$user,$GLOBALS['user'],time());}catch(Throwable){jsonReply(['error'=>'usage unavailable'],503);}
+  jsonReply(['ok'=>true]);
+ }
  if($action==='album-context'){
-  if($method!=='GET')jsonReply(['error'=>'invalid'],405);jsonReply(['route'=>$route,'csrf'=>$_SESSION['csrf'],'language'=>$user['language']??'he','managedOwner'=>$GLOBALS['managedOwner']??'','assetVersion'=>substr(hash_file('sha256',__DIR__.'/album-assets.json'),0,16)]);
+  if($method!=='GET')jsonReply(['error'=>'invalid'],405);jsonReply(['route'=>$route,'csrf'=>$_SESSION['csrf'],'language'=>$user['language']??'he','managedOwner'=>$GLOBALS['managedOwner']??'','usageToken'=>personalUsageToken($private,$key,$user),'assetVersion'=>substr(hash_file('sha256',__DIR__.'/album-assets.json'),0,16)]);
  }
  try{
   $repo=new AlbumRepository($private,$key,$route+['_albumReference'=>$user['route']]);

@@ -43,6 +43,7 @@ jobs:
         run: |
           python3 tests/personal-trip-album-server.test.py
           python3 tests/personal-trip-owner-admin.test.py
+          python3 tests/personal-map-usage.test.py
           python3 tests/personal-trip-approval.test.py
           python3 tests/personal-trip-mail.test.py
           python3 tests/community-contributions.test.py
