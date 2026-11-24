@@ -4,6 +4,12 @@
  try{
   const owner=new URLSearchParams(location.search).get('customer');const scope=owner?'&customer='+encodeURIComponent(owner):'';
   const r=await fetch('?action=album-context'+scope,{credentials:'same-origin',cache:'no-store'});if(!r.ok)throw Error('auth');const context=await r.json();window.WROC_ALBUM_CONTEXT=context;version=context.assetVersion||'';
+  let openingSent=false,openingPending=false;
+  window.WROC_PERSONAL_MAP_OPEN=async()=>{
+   if(openingSent||openingPending||document.visibilityState!=='visible')return;
+   openingPending=true;
+   try{const response=await fetch('?action=album-open'+scope,{method:'POST',credentials:'same-origin',cache:'no-store',headers:{'X-CSRF-Token':context.csrf,'X-Map-Open-Token':context.usageToken}});if(response.ok)openingSent=true;}catch{}finally{openingPending=false;}
+  };
   const trip=context.route;window.WROC_ALBUM_ROUTE=trip.days.map(d=>[...new Set([...d.stops,...(d.food||[])].map(s=>s.placeId))]);
   if(!window.WROC_ALBUM_ROUTE.length||window.WROC_ALBUM_ROUTE.some(ids=>!ids.length))throw Error('route');
   await script('public-catalog.js');const publicCatalog=window.WROC_CATALOG;window.WROC_NEARBY_CATALOG=publicCatalog;
