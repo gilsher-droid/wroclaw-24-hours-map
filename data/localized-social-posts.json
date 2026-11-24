@@ -3711,6 +3711,14 @@
   "bastion": [
     {
       "platform": "facebook",
+      "language": "cs",
+      "url": "https://www.facebook.com/61594716405964/posts/122127678135490546",
+      "account": "61594716405964",
+      "verifiedAt": "2026-11-24",
+      "context": "verified-cs-bar-bastion-written-photo-routing-20261124"
+    },
+    {
+      "platform": "facebook",
       "language": "en",
       "url": "https://www.facebook.com/61595036942289/posts/122120440809501231/",
       "account": "61595036942289",
@@ -4299,6 +4307,14 @@
     }
   ],
   "bar-mis": [
+    {
+      "platform": "facebook",
+      "language": "cs",
+      "url": "https://www.facebook.com/61594716405964/posts/122127676347490546",
+      "account": "61594716405964",
+      "verifiedAt": "2026-11-24",
+      "context": "verified-cs-bar-bastion-written-photo-routing-20261124"
+    },
     {
       "platform": "facebook",
       "language": "en",
