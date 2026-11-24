@@ -1,3 +1,4 @@
+import {beforeCzechEightLegacyRow} from './czech-eight-photo-bindings-historical-baseline.mjs';
 import {beforeNov20Legacy} from './opera-jatki-zoo-historical-baseline.mjs';
 import {beforeNov19EnglishBatch01, expectedNov19EnglishURL} from './english-facebook-bindings-nov19-batch01-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
@@ -40,6 +41,7 @@ export function expectedNov18EnglishSecondSixURL(id, platform, language, histori
 }
 
 export function beforeNov18EnglishSecondSixLegacyRow(row) {
+ row=beforeCzechEightLegacyRow(row);
  row=beforeNov20Legacy(row);
   const info = englishSecondSixNov18.dobraInformation;
   if (row?.id !== info.canonicalId) return row;
