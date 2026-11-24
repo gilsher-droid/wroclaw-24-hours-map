@@ -1,3 +1,4 @@
+import {beforeCzechBarBastionBinding,beforeCzechBarBastionRegistryRows} from './czech-bar-bastion-bindings-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -20,12 +21,12 @@ test('Czech public and personal maps select the exact Altus and Ato photo posts 
 test('The two social additions preserve all347 identities, all galleries, all other345 records, registry rows, aliases and coordinates',()=>{
   for(const c of catalogs){
     assert.equal(Object.keys(c.places).length,proof.beforeCount);
-    for(const[id,h]of Object.entries(proof.unrelatedRecordHashes))assert.equal(hash(c.getPlace(id)),h,id);
+    for(const[id,h]of Object.entries(proof.unrelatedRecordHashes))assert.equal(hash(beforeCzechBarBastionBinding(c.getPlace(id))),h,id);
     for(const t of proof.targets)assert.equal(hash(Object.fromEntries(Object.entries(c.getPlace(t.id)).filter(([k])=>k!=='socialPosts'))),proof.changed[t.id].beforeNonSocialHash,t.id);
     assert.equal(hash(c.aliases),proof.aliasesHash);assert.equal(hash(c.coordinateConflicts),proof.coordinateConflictsHash);
   }
   const registry=JSON.parse(readFileSync('data/localized-social-posts.json'));
-  for(const[id,h]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(registry[id]),h,id);
+  for(const[id,h]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(beforeCzechBarBastionRegistryRows(id,registry[id])),h,id);
   for(const t of proof.targets)assert.equal(hash(registry[t.id]),proof.changed[t.id].afterRegistryHash,t.id);
 });
 test('Historical receipt projection rejects later unreviewed social changes',()=>{
