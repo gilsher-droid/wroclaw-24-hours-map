@@ -1,3 +1,4 @@
+import {beforeCzechNextPhotoBinding,beforeCzechNextPhotoRegistryRows,expectedCzechNextPhotoURL} from './czech-next-photo-bindings-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -5,6 +6,7 @@ export const czechEightPhotoBindings = JSON.parse(readFileSync('tests/fixtures/c
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 // Project only the eight native-verified additions when reading older receipts.
 export function beforeCzechEightPhotoBinding(place) {
+  place=beforeCzechNextPhotoBinding(place);
   const p=czechEightPhotoBindings.changed[place?.id];
   if(!p||!place.socialPosts?.some(row=>row.context===czechEightPhotoBindings.context))return place;
   assert.equal(hash(place.socialPosts),p.afterSocialHash,'Unreviewed Czech eight-photo social change: '+place.id);
@@ -16,13 +18,14 @@ export function beforeCzechEightPhotoBinding(place) {
   return projected;
 }
 export function beforeCzechEightPhotoRegistryRows(id,rows) {
+  rows=beforeCzechNextPhotoRegistryRows(id,rows);
   const p=czechEightPhotoBindings.changed[id];
   if(!p||!rows?.some(row=>row.context===czechEightPhotoBindings.context))return rows;
   assert.equal(hash(rows),p.afterRegistryHash,'Unreviewed Czech eight-photo registry change: '+id);
   return p.beforeRegistryRows;
 }
 export function expectedCzechEightPhotoURL(id,platform,language,historical) {
-  return czechEightPhotoBindings.targets.find(t=>t.id===id&&t.row.platform===platform&&t.row.language===language)?.row.url||historical;
+  return expectedCzechNextPhotoURL(id,platform,language,czechEightPhotoBindings.targets.find(t=>t.id===id&&t.row.platform===platform&&t.row.language===language)?.row.url||historical);
 }
 
 export function beforeCzechEightLegacyRow(row) {
