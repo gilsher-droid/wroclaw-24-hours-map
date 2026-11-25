@@ -10575,6 +10575,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/61594716405964/posts/122128147941490546",
+        "account": "61594716405964",
+        "verifiedAt": "2026-11-25",
+        "context": "verified-cs-two-written-photo-routing-20261125"
+      },
+      {
+        "platform": "facebook",
         "language": "en",
         "url": "https://www.facebook.com/61595036942289/posts/122121407691501231/",
         "account": "61595036942289",
@@ -27132,6 +27140,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "cs",
+        "url": "https://www.facebook.com/61594716405964/posts/122128134843490546",
+        "account": "61594716405964",
+        "verifiedAt": "2026-11-25",
+        "context": "verified-cs-two-written-photo-routing-20261125"
+      },
       {
         "platform": "facebook",
         "language": "en",
