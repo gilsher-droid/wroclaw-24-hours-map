@@ -1,4 +1,5 @@
 import {czechMosznaPhotoBinding,beforeCzechMosznaPhotoBinding,beforeCzechMosznaPhotoRegistryRows} from './czech-moszna-photo-binding-historical-baseline.mjs';
+import {czechTwoPhotoBindings} from './czech-two-photo-bindings-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
@@ -20,6 +21,10 @@ export function beforeCzechNextPhotoRegistryRows(id,rows){
  return p.beforeRegistryRows;
 }
 export function expectedCzechNextPhotoURL(id,platform,language,historical){
+ if(platform==='facebook'&&language==='cs'){
+  const target=czechTwoPhotoBindings.targets.find(t=>t.id===id);
+  if(target)return target.row.url;
+ }
  if(id===czechMosznaPhotoBinding.id&&platform==='facebook'&&language==='cs')return czechMosznaPhotoBinding.row.url;
  return czechNextPhotoBindings.targets.find(t=>t.id===id&&t.row.platform===platform&&t.row.language===language)?.row.url||historical;
 }
