@@ -21,12 +21,12 @@ test('38 verified Czech photo posts route identically in public and personal map
 test('all347 identities, galleries, descriptions, aliases, coordinates and unrelated309 records remain unchanged',()=>{
  for(const c of catalogs){
   assert.equal(Object.keys(c.places).length,proof.beforeCount);
-  for(const[id,h]of Object.entries(proof.unrelatedRecordHashes))assert.equal(hash(c.getPlace(id)),h,id);
+  for(const[id,h]of Object.entries(proof.unrelatedRecordHashes))assert.equal(hash(beforeCzechNextPhotoBinding(c.getPlace(id))),h,id);
   for(const t of proof.targets)assert.equal(hash(Object.fromEntries(Object.entries(c.getPlace(t.id)).filter(([k])=>k!=='socialPosts'))),proof.changed[t.id].beforeNonSocialHash,t.id);
   assert.equal(hash(c.aliases),proof.aliasesHash);assert.equal(hash(c.coordinateConflicts),proof.coordinateConflictsHash);
  }
  const reg=JSON.parse(readFileSync('data/localized-social-posts.json'));
- for(const[id,h]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(reg[id]),h,id);
+ for(const[id,h]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(beforeCzechNextPhotoRegistryRows(id,reg[id])),h,id);
  for(const t of proof.targets)assert.equal(hash(reg[t.id]),proof.changed[t.id].afterRegistryHash,t.id);
 });
 test('historical projection is exact, rejects unreviewed social changes and retains unrelated mutations for older checks',()=>{
