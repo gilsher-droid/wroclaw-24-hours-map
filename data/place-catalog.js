@@ -27150,6 +27150,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0af8jqtbuGhUZ9i4n3ZsJT5NZ2x6Wtsw6pZ2e2fqfZ5wcfqCWsHrbDm6p1DMLvY2Bl&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-four-domes-written-photo-routing-20261126"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/61594716405964/posts/122128134843490546",
         "account": "61594716405964",
