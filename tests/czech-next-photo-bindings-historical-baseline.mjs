@@ -1,3 +1,4 @@
+import {beforeHeTwoInstagramMapGap,beforeHeTwoInstagramRegistryRows} from './he-two-instagram-map-gaps-historical-baseline.mjs';
 import {czechMosznaPhotoBinding,beforeCzechMosznaPhotoBinding,beforeCzechMosznaPhotoRegistryRows} from './czech-moszna-photo-binding-historical-baseline.mjs';
 import {czechTwoPhotoBindings} from './czech-two-photo-bindings-historical-baseline.mjs';
 import {readFileSync} from 'node:fs';
@@ -7,6 +8,7 @@ export const czechNextPhotoBindings=JSON.parse(readFileSync('tests/fixtures/czec
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 // Remove only these 38 exact, native-verified additions for older receipt checks.
 export function beforeCzechNextPhotoBinding(place){
+ place=beforeHeTwoInstagramMapGap(place);
  place=beforeCzechMosznaPhotoBinding(place);
  const p=czechNextPhotoBindings.changed[place?.id];
  if(!p||!place.socialPosts?.some(r=>r.context===czechNextPhotoBindings.context))return place;
@@ -14,6 +16,7 @@ export function beforeCzechNextPhotoBinding(place){
  return {...place,socialPosts:p.beforeSocialPosts};
 }
 export function beforeCzechNextPhotoRegistryRows(id,rows){
+ rows=beforeHeTwoInstagramRegistryRows(id,rows);
  rows=beforeCzechMosznaPhotoRegistryRows(id,rows);
  const p=czechNextPhotoBindings.changed[id];
  if(!p||!rows?.some(r=>r.context===czechNextPhotoBindings.context))return rows;

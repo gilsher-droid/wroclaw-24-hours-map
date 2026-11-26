@@ -150,6 +150,14 @@
   ],
   "hala-targowa": [
     {
+      "platform": "instagram",
+      "language": "he",
+      "url": "https://www.instagram.com/p/Dfw2fUakYE3/",
+      "account": "wroclaw.lowersilesia.he",
+      "verifiedAt": "2026-11-26",
+      "context": "verified-he-human-instagram-map-gap-20261126"
+    },
+    {
       "platform": "facebook",
       "language": "pl",
       "url": "https://www.facebook.com/61595207664875/posts/122116617081506922/",
@@ -1934,6 +1942,14 @@
     }
   ],
   "church-of-peace-swidnica": [
+    {
+      "platform": "instagram",
+      "language": "he",
+      "url": "https://www.instagram.com/p/Dfw4yQXEa9r/",
+      "account": "wroclaw.lowersilesia.he",
+      "verifiedAt": "2026-11-26",
+      "context": "verified-he-human-instagram-map-gap-20261126"
+    },
     {
       "platform": "facebook",
       "language": "cs",
