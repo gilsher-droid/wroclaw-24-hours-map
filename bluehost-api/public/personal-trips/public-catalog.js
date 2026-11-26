@@ -43131,6 +43131,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ghG5eRPCC9GFaGkP2gJyDgUAZ7TygZ7NohWyiPtWTjMoZBN6GEHX8xu7DMHKd1H8l&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-eight-written-photo-routing-20261126"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/61594716405964/posts/122127704829490546",
         "account": "61594716405964",
@@ -47968,6 +47976,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0FFiyUdhUG8onesxE3zpPkVjfB1GuQCDx1mKS7n4awbEHv8bh56iqkeZvCvJFRmqcl&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-eight-written-photo-routing-20261126"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/61594716405964/posts/122127705615490546",
         "account": "61594716405964",
@@ -51780,6 +51796,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02hiTD8GT3NV8uxjkrgfXr265NkRetjPYwHXo9EL6un6aKei5GCuUV1creT422DoLPl&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-eight-written-photo-routing-20261126"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -58417,6 +58441,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0JkXXukbrQVADL6nytQRBbtQYcb34D8NfboYQDvtutHd9NaGwpa7TYcsf2p5rMqefl&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-eight-written-photo-routing-20261126"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -72373,6 +72405,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02wJ5MuubemgpLUEbkgGMZ2D7hoWR6F4VkxVV6NBAMBqqWbu55AuVYdAjoSrWxmJHhl&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-eight-written-photo-routing-20261126"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/61594716405964/posts/122127730401490546",
         "account": "61594716405964",
@@ -75353,6 +75393,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid036vMiowoYbb7hB2bYJ381zws7V3Lo2vjv94p7oyyMmqCnBiLQS4ihJJLvDS3RF5eAl&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-eight-written-photo-routing-20261126"
+      },
       {
         "platform": "facebook",
         "language": "cs",
@@ -94523,6 +94571,14 @@
     "socialPosts": [
       {
         "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ftQiRUbsvXt91TiTtywa5kpq178Qv6hHekCDHBeGwAQs9LhyiFaSVoYu1rpgSUSql&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-eight-written-photo-routing-20261126"
+      },
+      {
+        "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/61594716405964/posts/122127743685490546",
         "account": "61594716405964",
@@ -99927,6 +99983,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "facebook",
+        "language": "de",
+        "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0cbwxHFF6H8fTsBR8EKbEGWbBFGYcLJeAtos7KF338wRGHSGYiW74KNVMpj75NeLEl&id=61595239823399",
+        "account": "61595239823399",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-de-eight-written-photo-routing-20261126"
+      },
       {
         "platform": "facebook",
         "language": "cs",
