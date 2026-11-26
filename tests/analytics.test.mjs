@@ -5,12 +5,13 @@ import vm from "node:vm";
 
 const source = readFileSync(new URL("../analytics.js", import.meta.url), "utf8");
 
-function page(url, config = {}, storage = new Map()) {
+function page(url, config = {}, storage = new Map(), environment = {}) {
   const location = new URL(url);
   const scripts = [];
   const listeners = new Map();
   const document = {
     readyState: "complete",
+    referrer: environment.referrer || "",
     documentElement: { lang: location.searchParams.get("lang") || "he" },
     head: { appendChild: (script) => scripts.push(script) },
     createElement: () => ({}),
@@ -22,7 +23,7 @@ function page(url, config = {}, storage = new Map()) {
     removeItem: (key) => storage.delete(key),
   };
   const window = { WROC_ANALYTICS_CONFIG: config };
-  vm.runInNewContext(source, { window, document, location, sessionStorage, URL, URLSearchParams, Date, console });
+  vm.runInNewContext(source, { window, document, location, sessionStorage, URL, URLSearchParams, Date: environment.Date || Date, console });
   const calls = () => Array.from(window.dataLayer || [], (entry) => Array.from(entry));
   return { window, document, scripts, listeners, calls, storage };
 }
@@ -36,6 +37,70 @@ test("no scripts, storage, or events run without consent and verified IDs", () =
   state.window.WROC_ANALYTICS.setConsent({ analytics: true, marketing: true });
   assert.equal(state.scripts.length, 0);
   assert.equal(state.calls().length, 0);
+});
+
+test("first GA initialization on an internal map receives the consented campaign in standard fields", () => {
+  const storage = new Map();
+  const landing = page("https://wroc-love.com/?utm_source=fb&utm_medium=paid&utm_campaign=puppet&utm_id=campaign-fixture&utm_content=ad-fixture&utm_term=family", {
+    firstPartyEndpoint: "https://api.wroc-love.com/place-events/",
+  }, storage);
+  landing.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  assert.equal(landing.calls().length, 0); // GA may only become available on the next page.
+  const map = page("https://wroc-love.com/products/interactive-maps/guides.html?lang=pl&private=omit", { ga4MeasurementId: "G-ABC123" }, storage, { referrer: "https://wroc-love.com/" });
+  assert.equal(map.calls().length, 0);
+  map.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  const config = map.calls().find(c => c[0] === "config")[2];
+  assert.equal(config.campaign_source, "fb");
+  assert.equal(config.campaign_medium, "paid");
+  assert.equal(config.campaign_name, "puppet");
+  assert.equal(config.campaign_id, "campaign-fixture");
+  assert.equal(config.campaign_content, "ad-fixture");
+  assert.equal(config.campaign_term, "family");
+  assert.equal(config.page_location, "https://wroc-love.com/products/interactive-maps/guides.html?lang=pl");
+  assert.deepEqual(map.calls().filter(c => c[0] === "event").map(c => c[1]), ["page_view", "map_open"]);
+});
+
+test("a fresh campaign replaces inherited campaign fields instead of mixing ads", () => {
+  const storage = new Map();
+  const first = page("https://wroc-love.com/?utm_source=fb&utm_medium=paid&utm_campaign=old&utm_id=old-id&utm_content=old-ad", { ga4MeasurementId: "G-ABC123" }, storage);
+  first.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  const next = page("https://wroc-love.com/products/interactive-maps/map.html?utm_source=ig&utm_medium=paid&utm_campaign=new", { ga4MeasurementId: "G-ABC123" }, storage);
+  next.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  const config = next.calls().find(c => c[0] === "config")[2];
+  assert.equal(config.campaign_source, "ig");
+  assert.equal(config.campaign_name, "new");
+  assert.equal(config.campaign_id, undefined);
+  assert.equal(config.campaign_content, undefined);
+});
+
+test("external organic arrival and expired or withdrawn consent do not inherit a paid GA campaign", () => {
+  for (const scenario of ["organic", "expired", "withdrawn"]) {
+    const storage = new Map();
+    let now = 1800000000000;
+    class Clock extends Date { static now() { return now; } }
+    const landing = page("https://wroc-love.com/?utm_source=fb&utm_medium=paid&utm_campaign=old", { ga4MeasurementId: "G-ABC123" }, storage, { Date: Clock });
+    landing.window.WROC_ANALYTICS.setConsent({ analytics: true });
+    if (scenario === "expired") now += 30 * 60 * 1000;
+    if (scenario === "withdrawn") landing.window.WROC_ANALYTICS.setConsent({ analytics: false });
+    const next = page("https://wroc-love.com/products/interactive-maps/map.html", { ga4MeasurementId: "G-ABC123" }, storage, {
+      Date: Clock, referrer: scenario === "organic" ? "https://www.google.com/" : "https://wroc-love.com/",
+    });
+    next.window.WROC_ANALYTICS.setConsent({ analytics: true });
+    const config = next.calls().find(c => c[0] === "config")[2];
+    assert.equal(config.campaign_source, undefined, scenario);
+    assert.equal(config.campaign_name, undefined, scenario);
+  }
+});
+
+test("campaign overrides reject personal text and unresolved ad macros", () => {
+  const state = page("https://wroc-love.com/products/interactive-maps/map.html?utm_source=fb&utm_medium=paid&utm_campaign=private%40example.com&utm_content=%7B%7Bad.id%7D%7D&utm_id=valid-id", { ga4MeasurementId: "G-ABC123" });
+  state.window.WROC_ANALYTICS.setConsent({ analytics: true });
+  const config = state.calls().find(c => c[0] === "config")[2];
+  assert.equal(config.campaign_source, "fb");
+  assert.equal(config.campaign_id, "valid-id");
+  assert.equal(config.campaign_name, undefined);
+  assert.equal(config.campaign_content, undefined);
+  assert.equal(JSON.stringify(state.calls()).includes("private"), false);
 });
 
 test("consent starts one page view and one map_open per provider", () => {
