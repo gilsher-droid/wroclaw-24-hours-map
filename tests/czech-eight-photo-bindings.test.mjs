@@ -1,3 +1,4 @@
+import {beforeHeTwoInstagramMapGap,beforeHeTwoInstagramRegistryRows} from './he-two-instagram-map-gaps-historical-baseline.mjs';
 import {beforeCzechNextPhotoBinding,beforeCzechNextPhotoRegistryRows} from './czech-next-photo-bindings-historical-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -12,7 +13,7 @@ test('Czech public and personal maps select the exact eight reviewed Czech photo
   for(const catalog of catalogs)for(const t of proof.targets){
     const selected=catalog.getSocialPost(t.id,'facebook','cs');
     assert.equal(selected.url,t.row.url);assert.equal(selected.account,t.row.account);
-    const place=catalog.getPlace(t.id),p=proof.changed[t.id];
+    const place=beforeHeTwoInstagramMapGap(catalog.getPlace(t.id)),p=proof.changed[t.id];
     for(const old of p.beforeSocialPosts)assert.ok(place.socialPosts.some(row=>hash(row)===hash(old)));
     assert.equal(place.socialPosts.length,p.beforeSocialPosts.length+1);
     for(const[lang,h]of Object.entries(p.otherLanguageSelections))assert.equal(hash(catalog.getSocialPost(t.id,'facebook',lang)||null),h,t.id+':'+lang);
@@ -27,7 +28,7 @@ test('The eight social additions and dated CS branch correction preserve all347 
   }
   const registry=JSON.parse(readFileSync('data/localized-social-posts.json'));
   for(const[id,h]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(beforeCzechNextPhotoRegistryRows(id,registry[id])),h,id);
-  for(const t of proof.targets)assert.equal(hash(registry[t.id]),proof.changed[t.id].afterRegistryHash,t.id);
+  for(const t of proof.targets)assert.equal(hash(beforeHeTwoInstagramRegistryRows(t.id,registry[t.id])),proof.changed[t.id].afterRegistryHash,t.id);
 });
 test('Historical receipt projection rejects later unreviewed social changes',()=>{
   const registry=JSON.parse(readFileSync('data/localized-social-posts.json'));

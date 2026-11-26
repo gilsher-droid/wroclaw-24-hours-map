@@ -16341,6 +16341,14 @@
     },
     "socialPosts": [
       {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/Dfw4yQXEa9r/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-he-human-instagram-map-gap-20261126"
+      },
+      {
         "platform": "facebook",
         "language": "cs",
         "url": "https://www.facebook.com/61594716405964/posts/122127686067490546",
@@ -31628,6 +31636,14 @@
       }
     },
     "socialPosts": [
+      {
+        "platform": "instagram",
+        "language": "he",
+        "url": "https://www.instagram.com/p/Dfw2fUakYE3/",
+        "account": "wroclaw.lowersilesia.he",
+        "verifiedAt": "2026-11-26",
+        "context": "verified-he-human-instagram-map-gap-20261126"
+      },
       {
         "platform": "facebook",
         "language": "pl",
