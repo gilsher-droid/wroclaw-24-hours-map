@@ -129,7 +129,16 @@
     return pageArrival;
   }
 
-  function attribution() { return Object.fromEntries(utmKeys.filter(key => typeof arrival()[key] === "string").map(key => [key, arrival()[key]])); }
+  function gaCampaign() {
+    if (!consent.analytics) return {};
+    const source = arrival();
+    if (source.arrival_basis !== "utm") return {};
+    // Custom utm_* event fields do not set GA4's campaign dimensions. Supply
+    // the consented, validated arrival when GA first loads on an internal page,
+    // without adding campaign tags to internal links or changing page_location.
+    const fields = { utm_source: "campaign_source", utm_medium: "campaign_medium", utm_campaign: "campaign_name", utm_id: "campaign_id", utm_content: "campaign_content", utm_term: "campaign_term" };
+    return Object.fromEntries(Object.entries(fields).filter(([key]) => typeof source[key] === "string").map(([key, field]) => [field, source[key]]));
+  }
 
   function selectedGuidePlace() {
     if (productId() !== "guided-city-map") return null;
@@ -169,7 +178,7 @@
     });
     window.gtag("js", new Date());
     window.gtag("consent", "update", { analytics_storage: "granted" });
-    window.gtag("config", gaId, { send_page_view: false, page_location: safePageLocation(), ...(debug ? { debug_mode: true } : {}) });
+    window.gtag("config", gaId, { send_page_view: false, page_location: safePageLocation(), ...gaCampaign(), ...(debug ? { debug_mode: true } : {}) });
     const script = document.createElement("script");
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(gaId)}`;
