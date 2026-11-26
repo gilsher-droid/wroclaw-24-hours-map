@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {runInNewContext} from 'node:vm';
+import {germanEightPhotoBindings} from './german-eight-photo-bindings-historical-baseline.mjs';
 test('Żyjnia keeps one cultural identity and traceable public media with published native captions',()=>{
  const window={};
  for(const file of ['data/place-catalog.js','data/canonical-experiences.js','data/cultural-places.js'])runInNewContext(readFileSync(file,'utf8'),{window,console});
@@ -17,7 +18,8 @@ test('Żyjnia keeps one cultural identity and traceable public media with publis
  assert.equal(new Set(visits.map(v=>v.youtube)).size,7);
  for(const v of visits){assert.equal(v.visibility,'Public');assert.equal(v.savedPublicVerified,true);assert.ok(p.media.videos.includes(v.youtube));}
  for(const lang of ['he','en','pl','de','cs'])assert.equal(window.WROC_CATALOG.getSocialPost(p,'instagram',lang),null);
- for(const lang of ['he','de'])assert.equal(window.WROC_CATALOG.getSocialPost(p,'facebook',lang),null);
+ assert.equal(window.WROC_CATALOG.getSocialPost(p,'facebook','he'),null);
+ assert.equal(window.WROC_CATALOG.getSocialPost(p,'facebook','de')?.url,germanEightPhotoBindings.targets.find(t=>t.id===p.id).row.url);
  for(const lang of ['en','pl','cs'])assert.equal(window.WROC_CATALOG.socialPostKind(window.WROC_CATALOG.getSocialPost(p,'facebook',lang)?.url,'facebook'),'post-candidate');
  const proof=JSON.parse(readFileSync('data/zyjnia-guide-caption-provenance.json','utf8'));
  for(const lang of ['he','en','pl','de','cs']){

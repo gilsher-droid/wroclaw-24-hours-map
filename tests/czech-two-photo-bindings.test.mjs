@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import {runInNewContext} from 'node:vm';
 import {createHash} from 'node:crypto';
 import {czechTwoPhotoBindings as proof,beforeCzechTwoPhotoBinding,beforeCzechTwoPhotoRegistryRows} from './czech-two-photo-bindings-historical-baseline.mjs';
-import {beforeGermanBrzegPhotoBinding} from './german-brzeg-photo-binding-historical-baseline.mjs';
+import {beforeGermanBrzegPhotoBinding,beforeGermanBrzegPhotoRegistryRows} from './german-brzeg-photo-binding-historical-baseline.mjs';
 const hash=x=>createHash('sha256').update(JSON.stringify(x)).digest('hex');
 const load=file=>{const window={};runInNewContext(readFileSync(file,'utf8'),{window});return window.WROC_CATALOG;};
 test('two verified Czech photo posts resolve identically in public and personal maps, preserving all other places, sources and languages',()=>{
@@ -20,10 +20,10 @@ test('two verified Czech photo posts resolve identically in public and personal 
    for(const[lang,h]of Object.entries(e.otherLanguageSelections))assert.equal(hash(c.getSocialPost(p,'facebook',lang)||null),h,t.id+':'+lang);
    assert.throws(()=>beforeCzechTwoPhotoBinding({...p,socialPosts:[...p.socialPosts,{url:'https://example.com/unreviewed'}]}));
   }
-  for(const[id,h]of Object.entries(proof.unrelatedRecordHashes))assert.equal(hash(c.getPlace(id)),h,id);
+  for(const[id,h]of Object.entries(proof.unrelatedRecordHashes))assert.equal(hash(beforeGermanBrzegPhotoBinding(c.getPlace(id))),h,id);
   assert.equal(hash(c.aliases),proof.aliasesHash);assert.equal(hash(c.coordinateConflicts),proof.coordinateConflictsHash);
  }
  const reg=JSON.parse(readFileSync('data/localized-social-posts.json'));
  for(const t of proof.targets)assert.equal(hash(beforeCzechTwoPhotoRegistryRows(t.id,reg[t.id])),hash(proof.changed[t.id].beforeRegistryRows));
- for(const[id,h]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(reg[id]),h,id);
+ for(const[id,h]of Object.entries(proof.unrelatedRegistryHashes))assert.equal(hash(beforeGermanBrzegPhotoRegistryRows(id,reg[id])),h,id);
 });
